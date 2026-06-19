@@ -2,6 +2,7 @@
 title: Commit an update set
 description: After resolving any issues from previewing, commit the update set to apply all changes and generate a local copy with records of each update.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/t\_CommitAnUpdateSet.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -50,5 +51,5 @@ Role required: admin
 7.  Change the state to **Ignore** when you’re no longer working on the update set, but don’t want it transferred to another instance.
 
 
-**Parent Topic:**[Working with update sets](../concept/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
 

@@ -2,11 +2,12 @@
 title: Example use case for Now Assist Skill Kit
 description: As an AI developer, you can create custom skills with Now Assist Skill Kit. For this example, create a custom skill for child incident summarization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/example-na-skill-kit.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Exploring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
@@ -29,7 +30,7 @@ To create the skill:
     -   Description: `Summarization of child incidents`
     -   Default provider: `Now LLM Generic`
     -   Provider API: `Now LLM Generic`
-    ![Create new skill modal for Now Assist Skill Kit.](../image/nask-new-skill.png)
+    \[Omitted image "nask-new-skill.png"\] Alt text: Create new skill modal for Now Assist Skill Kit.
 
 4.  Select **Create skill**.
 
@@ -47,11 +48,11 @@ After you create the skill and configure the settings, you must develop the prom
 
 Select the **Inputs** for the skill. For this example, the record is selected as the input.
 
-![Skill input modal for Now Assist Skill Kit.](../image/nask-add-skill-input.png)
+\[Omitted image "nask-add-skill-input.png"\] Alt text: Skill input modal for Now Assist Skill Kit.
 
 Select insert inputs for the prompt.
 
-![Prompt page for Now Assist Skill Kit with the Insert iIputs button outlined in red.](../image/nask-insert-inputs.png)
+\[Omitted image "nask-insert-inputs.png"\] Alt text: Prompt page for Now Assist Skill Kit with the Insert iIputs button outlined in red.
 
 For this example, the following is used:
 
@@ -59,7 +60,7 @@ For this example, the following is used:
 
 Select the tools for the skill. For this example, select Flow Action and the IncidentDetailsFetcher flow resource.
 
-![Add tool modal in Now Assist Skill Kit.](../image/nask-add-tool-example.png)
+\[Omitted image "nask-add-tool-example.png"\] Alt text: Add tool modal in Now Assist Skill Kit.
 
 ## Configure the skill deployment options
 
@@ -86,5 +87,5 @@ If everything looks good, select **Finalize prompt**. After you finalize the pro
 
 ## Activate the skill
 
-After you test, finalize, and publish your skill, an admin must activate it in Now Assist Admin. To learn more about activating skills, see [Activate a skill](../task/activate-skill.md).
+After you test, finalize, and publish your skill, an admin must activate it in Now Assist Admin. To learn more about activating skills, see [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 

@@ -2,6 +2,7 @@
 title: Configure Notify connector for Microsoft Teams from Service Operations Workspace
 description: Configure your ServiceNow instance with Notify connector for Microsoft Teams application from Service Operations Workspace using the guided setup to enable making calls using Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/notify-teams-guided-setup.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -36,5 +37,5 @@ Role required: admin
     Once you have installed the required plugins and store apps, perform the activities outlined in the **Install Azure Apps and Authorize Notify Connector** section. After that, move on to complete the tasks in the **Configuration Steps** section.
 
 
-**Parent Topic:**[Configuring Notify in Service Operations Workspace](../concept/configure-notify-sow.md)
+**Parent Topic:**[Configuring Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-notify-sow.md)
 

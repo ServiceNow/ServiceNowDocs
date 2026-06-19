@@ -2,6 +2,7 @@
 title: Performing Importance and impact tolerance assessment
 description: By analyzing the importance and the impact tolerance of your business service or service offering, you can measure how possible disruptions might impact the performance of a service. You can use the assessment questionnaire template​ in Operational Resilience Workspace to measure the importance and the impact tolerance of your selected business service and its child records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/analyze-impact-tolerance-importance-of-service-in-ws.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -130,7 +131,7 @@ An assessment can be closed only when it is in the **Approved** state. To close 
 </td></tr></tbody>
 </table>**Note:** If you have the sn\_oper\_res.admin role, you can delete the assessment in any state.​
 
-If you have the sn\_oper\_res.admin role, you can set up the assessment ratings by updating the criticality and order of the assessment rating in the Important choices module. For more information on setting up the assessment rating, see [Update the Important choices module](../../grc-operational-res/task/set-up-important-choices.md).
+If you have the sn\_oper\_res.admin role, you can set up the assessment ratings by updating the criticality and order of the assessment rating in the Important choices module. For more information on setting up the assessment rating, see [Update the Important choices module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-important-choices.md).
 
-For more information on the Operational Resilience roles, see [Roles installed with Operational Resilience](../../grc-operational-res/reference/roles-installed-with-op-res.md).
+For more information on the Operational Resilience roles, see [Roles installed with Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/roles-installed-with-op-res.md).
 

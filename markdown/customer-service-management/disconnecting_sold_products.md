@@ -2,9 +2,12 @@
 title: Disconnecting sold products
 description: Disconnect sold products to create a disconnect order on the CSM Configurable Workspace.Disconnect a sold product in the CSM Configurable Workspace so that you can permanently disconnect a product and its services.Create an order to disconnect multiple sold products and their hierarchy on the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/disconnecting\_sold\_products.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -17,8 +20,8 @@ Disconnect single or multiple root sold products at the same time, to improve ag
 
 |Task|Description|
 |----|-----------|
-|Disconnect a single sold product|[Disconnect a single sold product](disconnecting_sold_products.md#)|
-|Disconnect multiple sold products|[Disconnect multiple sold products](disconnecting_sold_products.md#)|
+|Disconnect a single sold product|[Disconnect a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/disconnecting_sold_products.md)|
+|Disconnect multiple sold products|[Disconnect multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/disconnecting_sold_products.md)|
 
 ## Disconnect a single sold product
 

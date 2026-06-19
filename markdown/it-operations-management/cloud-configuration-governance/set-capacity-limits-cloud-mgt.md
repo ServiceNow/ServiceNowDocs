@@ -2,6 +2,7 @@
 title: Set capacity limits on user requests for resources
 description: Capacity limits place restrictions on the attributes of cloud resources such as the number of virtual machines, virtual CPUs, or aggregate storage. You can set limits on resources separately for each logical datacenter in a cloud account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/set-capacity-limits-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -24,7 +25,7 @@ Role required: sn\_cmp.cloud\_admin
 
 ## About this task
 
-**Note:** You can also use quotas to set per-user and total capacity limitations on resources. See [Quotas and resource order controls](../../cloud-management-v2/concept/quotas-1.md).
+**Note:** You can also use quotas to set per-user and total capacity limitations on resources. See [Quotas and resource order controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 ## Procedure
 
@@ -36,7 +37,7 @@ Role required: sn\_cmp.cloud\_admin
 
 4.  On the **Capacity Limits** tab, set the **Capacity Limit** values as needed.
 
-    ![Use the Capacity Limits tab to limit options like the number of CPUs](../image/capacity-limits-tab.png)
+    \[Omitted image "capacity-limits-tab.png"\] Alt text: Use the Capacity Limits tab to limit options like the number of CPUs
 
     |Value|Description|
     |-----|-----------|
@@ -54,5 +55,5 @@ Role required: sn\_cmp.cloud\_admin
 
 Click **Discover Now** to run Discovery on the logical datacenters.
 
-**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](../concept/cloud-mgt-general-setup-day-2.md)
+**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
 

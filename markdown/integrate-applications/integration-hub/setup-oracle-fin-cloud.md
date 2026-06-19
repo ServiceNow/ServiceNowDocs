@@ -2,6 +2,7 @@
 title: Set up the Oracle Financial Cloud spoke
 description: Integrate the ServiceNow instance and Oracle Financial Cloud instance by using the basic auth credentials to authenticate ServiceNow requests.Configure a connection to authenticate ServiceNow requests in an Oracle Financial Cloud spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-oracle-fin-cloud.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -63,7 +64,7 @@ To configure the default connection and credential alias record shipped with the
 
 </td><td>
 
-To manage more than one spoke connection records. For more information, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md)
+To manage more than one spoke connection records. For more information, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md)
 
 </td></tr></tbody>
 </table>    2.  Select **View Details**.

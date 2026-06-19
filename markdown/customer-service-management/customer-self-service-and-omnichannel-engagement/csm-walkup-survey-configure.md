@@ -2,6 +2,7 @@
 title: Configure Walk-up Experience surveys
 description: Define surveys so that requesters can provide feedback on their satisfaction with the service quality received at a location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey-configure.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -31,6 +32,6 @@ Creating a customer satisfaction survey requires that you first define a new sur
 
 2.  To modify an existing walk-up survey, select the survey name, otherwise navigate to **Survey** &gt; **View Surveys** and select **New** to define a new survey if none of the base system surveys are optimal for your walk-up location.
 
-3.  To modify or complete the form, refer to [modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifySurveyDefinitions.md).
+3.  To modify or complete the form, refer to modify a survey definition.
 
 

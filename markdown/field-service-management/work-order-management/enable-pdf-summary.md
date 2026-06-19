@@ -2,6 +2,7 @@
 title: Enable PDF summaries at work order task level
 description: Generate Signed PDF summaries after completing a work order task that includes details of the work order task, related work order, responses submitted in the smart assessment questionnaire associated with it, and the assessment score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/enable-pdf-summary.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -36,5 +37,5 @@ Role required: wm\_agent
 
 ## Result
 
-The configuration to generate signed PDF summaries at the work order task level is enabled. For more information, see [Close a work order task](../concept/close-wo-wot-mobile.md#).
+The configuration to generate signed PDF summaries at the work order task level is enabled. For more information, see [Close a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
 

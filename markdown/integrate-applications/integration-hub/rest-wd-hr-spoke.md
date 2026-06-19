@@ -2,6 +2,7 @@
 title: Configurations to use Workday REST API
 description: Configure your ServiceNow instance to perform actions that use the Workday REST API.Use short description 1 or 2 and revise it to provide spoke-specific information for your application. Description 1:Register the Workday HR instance as the OAuth provider so that the ServiceNow instance can request OAuth 2.0 tokens.Register API client in your Workday account and generate a token URL for Workday HR spoke.Configure your ServiceNow instance to perform actions that use the Workday HR REST API using an OAuth authorization template.Add and configure a Workday HR REST API connection to authenticate ServiceNow requests in Workday HR spoke.Configure your ServiceNow instance to perform actions that use the Workday HR REST API by manually creating connection and credential records.Create a credential record for the Workday HR instance. The Workday HR spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Workday HR instance. The Workday HR spoke connection and credential aliases use these connections to perform actions in Workday HR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/rest-wd-hr-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -133,7 +134,7 @@ Add and configure a Workday HR REST API connection to authenticate ServiceNow re
 #### Before you begin
 
 -   Role required: admin
--   [Register Workday HR as an OAuth provider](rest-wd-hr-spoke.md#)
+-   [Register Workday HR as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-wd-hr-spoke.md)
 
 #### Procedure
 
@@ -147,12 +148,12 @@ Add and configure a Workday HR REST API connection to authenticate ServiceNow re
 
 5.  Click **View Details**.
 
-    ![Connection template for Workday HR spoke](../image/wkday-hr-conn-temp.png)
+    \[Omitted image "wkday-hr-conn-temp.png"\] Alt text: Connection template for Workday HR spoke
 
 6.  Configure a cloud connection.
 
     1.  Add or edit a cloud connection.
-        -   To set up an existing connection, select **Configure** or **Edit**.![Configure the connection using connection template for Workday HR spoke](../image/wkday-hr-con-config.png)
+        -   To set up an existing connection, select **Configure** or **Edit**.\[Omitted image "wkday-hr-con-config.png"\] Alt text: Configure the connection using connection template for Workday HR spoke
         -   To create and configure a new connection, select **Add Connection**.
     2.  On the configuration form, fill in the fields.
     |Field|Description|

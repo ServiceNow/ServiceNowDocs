@@ -2,7 +2,10 @@
 title: ITOM AIOps and CSDM tables
 description: ITOM AIOps leverages and maintains CSDM tables, while various ServiceNow products enhance and contribute value to its operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-health-use-case.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,5 +24,5 @@ ITOM AIOps manages the following tables:
 -   Configuration Item table \[ci\_\*\]
 -   Dynamic CI Group table \[cmdb\_ci\_query\_based\_service\]
 
-![CSDM tables managed by ITOM.](../image/itom-managed-tables-CSDM-v5.png "CSDM tables managed by ITOM")
+\[Omitted image "itom-managed-tables-CSDM-v5.png"\] Alt text: CSDM tables managed by ITOM.
 

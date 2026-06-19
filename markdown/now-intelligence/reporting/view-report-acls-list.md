@@ -2,6 +2,7 @@
 title: The report\_view ACLs list
 description: View the entire list of report\_view ACLs and their associated roles to have a higher-level view of the access control on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/view-report-acls-list.html
 release: australia
 product: Reporting
 classification: reporting
@@ -33,5 +34,5 @@ ACLs apply to only one role at a time. There can be multiple instances of an ACL
 |Role|The name of the role the ACL applies to.|
 |Description|Description of the role.|
 
-**Parent Topic:**[ACL Assessment for Reports](../concept/report-view-acl-dashboard.md)
+**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
 

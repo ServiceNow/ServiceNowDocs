@@ -2,7 +2,10 @@
 title: Track outages for install base items
 description: View outages associated to a case to keep customers informed about any issues affecting their install base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-outages-aw.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

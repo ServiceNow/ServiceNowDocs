@@ -2,12 +2,14 @@
 title: Create bulk risk assessment
 description: Create a bulk risk assessment project to perform assessments on multiple risks and controls simultaneously using the AI Risk and Compliance workspace. You can define the project context, including the assessable entity, Risk assessment methodology \(RAM\), project name, description, and identify and add stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [bulk risk assessment, risk assessment project, RCSA]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -25,11 +27,11 @@ To create bulk risk assessment, you must install the Advanced Risk application.
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance Workspace**.
 
-2.  Select the list ![](../../grc-workspace-audit/image/ListsIcon.jpg) icon.
+2.  Select the list \[Omitted image "ListsIcon.jpg"\] Alt text: icon.
 
 3.  Navigate to the **AI asset inventory** and open the AI asset record.
 
-4.  To create a bulk risk assessment, you can use one of the following two methods:![Choices to create bulk risk assessment from the AI asset record.](../image/create-bulk-risk-assessment.png)
+4.  To create a bulk risk assessment, you can use one of the following two methods:\[Omitted image "create-bulk-risk-assessment.png"\] Alt text: Choices to create bulk risk assessment from the AI asset record.
 
     -   Select the **AI assessment** drop-down, and select **Bulk risk assessment**.
     -   Navigate to **Assessments** &gt; **Bulk risk assessments** and select **New**.
@@ -182,5 +184,5 @@ Watchlist users from the assessable entity stakeholders list. This field appears
     The project moves to the Assess stage, and a notification goes to the assessor.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

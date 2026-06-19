@@ -2,6 +2,7 @@
 title: Clear facet filters when selecting a new source facet bucket
 description: Specify whether AI Search applications should preserve existing facet filters when you select a new source facet bucket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/persist-facets-nav-tabs-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -27,7 +28,7 @@ Administrators can override this default behavior by setting the value of the **
 
 This option is global and applies to all AI Search applications on your instance.
 
-**Note:** If an existing facet filter cannot be applied to search results from a selected source facet bucket, AI Search ignores the facet filter. This behavior only occurs in search applications where you've disabled search result counts for facets. For more details on search result counts for facets, see [Show search result counts for facets on the results page for a search application](display-result-counts-ais.md).
+**Note:** If an existing facet filter cannot be applied to search results from a selected source facet bucket, AI Search ignores the facet filter. This behavior only occurs in search applications where you've disabled search result counts for facets. For more details on search result counts for facets, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/display-result-counts-ais.md).
 
 ## Procedure
 
@@ -54,5 +55,5 @@ This option is global and applies to all AI Search applications on your instance
 
 All AI Search applications preserve or discard existing facet filters when a new source facet bucket is selected.
 
-**Parent Topic:**[Search application configurations](../concept/defining-search-app-cfgs-ais.md)
+**Parent Topic:**[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md)
 

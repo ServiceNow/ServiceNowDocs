@@ -2,6 +2,7 @@
 title: Google Cloud VPC Access Spoke
 description: Manage connector and operations in your Google Cloud VPC Access account from ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/gcloud-vpc-access.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage connector and operations in your Google Cloud VPC Access account from Ser
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -39,8 +40,8 @@ The Google Cloud VPC Access spoke requires a custom app that you create in Googl
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Google Identity and Access Spoke](gidentityaccess-spoke.md)
--   [Google Cloud Virtual Network Spoke](gcloudvirntwrk-spoke.md)
+-   [Google Identity and Access Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gidentityaccess-spoke.md)
+-   [Google Cloud Virtual Network Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gcloudvirntwrk-spoke.md)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
@@ -65,7 +66,7 @@ The Google Cloud VPC Access spoke provides actions to automate Google Cloud VPC 
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
-For information about setting up the spoke, see [Set up the Google Cloud VPC Access spoke](../task/setup-gcloud-vpc.md#).
+For information about setting up the spoke, see [Set up the Google Cloud VPC Access spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcloud-vpc.md).
 

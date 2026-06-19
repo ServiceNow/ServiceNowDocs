@@ -2,6 +2,7 @@
 title: Define scope of a release in Release Management
 description: Add projects, epics, stories, enhancements, and defects to define the scope of a release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/t\_ScopeARelease.html
 release: australia
 product: Release Management
 classification: release-management
@@ -44,12 +45,12 @@ Role required: release\_v2\_admin
 
     1.  Click **Attach task**.
 
-    2.  Find and locate the required task by clicking the search icon \(![Search icon](../../configurable-workforce-optimization-itsm/image/search-icon.png)\).
+    2.  Find and locate the required task by clicking the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon\).
 
     3.  Add the task as a release task by clicking the task number.
 
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Using Release Management v2](../concept/c_Release.md)
+**Parent Topic:**[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_Release.md)
 

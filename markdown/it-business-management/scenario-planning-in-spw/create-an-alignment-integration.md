@@ -2,6 +2,7 @@
 title: Create an alignment integration
 description: Once you have Strategic Planning installed, the ServiceNow Internal Alignment integration is created by default. In case the alignment integration is not available, you can create your alignment integration type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-an-alignment-integration.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

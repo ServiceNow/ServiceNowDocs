@@ -2,6 +2,7 @@
 title: Configure branding for your Virtual Agent bot in Slack
 description: You have the flexibility to customize the default ServiceNow branding for your Slack Virtual Agent. You can change the production bot's name and icon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/slack-branding-overview.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +33,7 @@ Ensure that you set the **com.glide.cs.enable\_slack\_branding** system property
 
 3.  On the Channels and integrations page, in the Slack tile, select **Manage**.
 
-4.  Select the Manage Bot icon and select **Manage Virtual Agent**.![The Manage Virtual Agent option displays on the Manage bot menu for the Slack channel.](../images/manage-slck-snow-bot.png)
+4.  Select the Manage Bot icon and select **Manage Virtual Agent**.\[Omitted image "manage-slck-snow-bot.png"\] Alt text: The Manage Virtual Agent option displays on the Manage bot menu for the Slack channel.
 
 5.  On the Branding tab, provide the following details:
 
@@ -66,12 +67,12 @@ Ensure that you set the **com.glide.cs.enable\_slack\_branding** system property
 
             -   Select **Attach image** to browse for an image icon and select **Save**.
             -   Select the **Use image URL instead** to provide a URL of the image icon and select **Save**.
-    ![In the chat window, you can modify the chat window header, the title that appears in the Slack navigation panel, and the name and icon in the conversation body.](../images/slack-branding-bot-name.png "Branded Slack conversation body")
+    \[Omitted image "slack-branding-bot-name.png"\] Alt text: In the chat window, you can modify the chat window header, the title that appears in the Slack navigation panel, and the name and icon in the conversation body.
 
 
 ## What to do next
 
 Open your Slack bot interface and start a new conversation. You will notice that the bot name has been updated on the Slack conversation body, header, and in the left pane and the bot icon is updated only in the conversation body.
 
-**Parent Topic:**[Configure Virtual Agent settings for Slack](configure-va-slack-settings.md)
+**Parent Topic:**[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)
 

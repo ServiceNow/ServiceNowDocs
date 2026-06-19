@@ -2,6 +2,7 @@
 title: Schedule Adherence in Workforce Optimization for ITSM
 description: Analyze how closely your agents adhere to their scheduled activities. You can also analyze whether they complete the total time they were scheduled to work. Use these metrics to align your staffing needs better and forecast the demand for agents more effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/schedule-adherence-configurable-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -20,8 +21,8 @@ Adherence measures how closely agents follow their schedule to complete their as
 Use Schedule Adherence to:
 
 -   Gain insights into how agent resources were historically used and plan your staffing needs based on that data.
--   Measure whether the effort spent on [forecasting agent demand](explore-demand-forecast-configurable-wfo-itsm.md) and scheduling team members is used in an optimal manner.
--   Discover coaching opportunities for your agents when you find gaps in their adherence. For more information, see [Coaching](explore-coaching-configurable-workforce-optimization-itsm.md).
+-   Measure whether the effort spent on [forecasting agent demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-demand-forecast-configurable-wfo-itsm.md) and scheduling team members is used in an optimal manner.
+-   Discover coaching opportunities for your agents when you find gaps in their adherence. For more information, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-coaching-configurable-workforce-optimization-itsm.md).
 
 As a manager, you can do the following actions:
 
@@ -34,7 +35,7 @@ As a manager, you can do the following actions:
 
 As an administrator, you can set the threshold percentages and change the formulas for calculating schedule adherence and conformance.
 
-As an agent, you can clock-in to and clock-out of your work shift. For more information, see [Service Operations Workspace - Scheduling](../../service-operations-workspace/concept/itsm-sow-workspace-scheduling.md).
+As an agent, you can clock-in to and clock-out of your work shift. For more information, see [Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md).
 
 Here's a typical schedule adherence and conformance workflow:
 
@@ -48,14 +49,14 @@ Here's a typical schedule adherence and conformance workflow:
     6.  At the end-of-the-day, the agent's time worked summary is generated with key performance indicators \(KPIs\), such as Start Time, End Time, Planned Work, Time Not Worked, Available Non Planned Time, Time Worked, and Adherence%, Conformance %​.
 3.  The agent's manager logs in to Manager Workspace to view the agent's time worked in the **Team Calendar**. The manager can also view the agent's actual time worked and working pattern for all historical days. If required, the manager can coach the agent to a desired performance that fits in with the team culture.
 
--   **[Monitor schedule adherence of your agents](../task/configurable-workspace-view-schedule-adherence-itsm.md)**  
+-   **[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-workspace-view-schedule-adherence-itsm.md)**  
 Evaluate whether or not your agents are adhering to their assigned schedules. Look for areas where agent activities that do not offer much value can be reduced or eliminated and fine-tune your staffing levels requirements based on their adherence.
--   **[Use time-worked summary to analyze agent schedule adherence and conformance](../task/analyze-configurable-workspace-time-worked-summary-itsm.md)**  
+-   **[Use time-worked summary to analyze agent schedule adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/analyze-configurable-workspace-time-worked-summary-itsm.md)**  
 Analyze if your teams are adhering to planned schedules. Use historical adherence to see how well your agents have followed their schedules in the past.
--   **[Schedule adherence extension points in Workforce Optimization for ITSM](../reference/extension-points-configurable-schedule-adherence-itsm.md)**  
+-   **[Schedule adherence extension points in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/extension-points-configurable-schedule-adherence-itsm.md)**  
 Use the schedule adherence extension points to call custom scripts for agent schedule adherence and conformance.
--   **[Configure properties for schedule adherence and conformance](../reference/configure-adherence-parameters-wfo-itsm.md)**  
+-   **[Configure properties for schedule adherence and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configure-adherence-parameters-wfo-itsm.md)**  
 Configure schedule adherence properties to calculate the adherence and conformance of your agents so that you can improve the operational efficiency of your organization.
 
-**Parent Topic:**[Scheduling in Workforce Optimization for ITSM](explore-schedule-configurable-wfo-itsm.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/explore-schedule-configurable-wfo-itsm.md)
 

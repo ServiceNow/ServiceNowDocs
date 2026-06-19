@@ -2,6 +2,7 @@
 title: Mobile-responsive Web Embeddables
 description: Web Embeddables components automatically adapt their layout and controls for mobile devices to provide an optimized experience on phones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-mobile-adaptive.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

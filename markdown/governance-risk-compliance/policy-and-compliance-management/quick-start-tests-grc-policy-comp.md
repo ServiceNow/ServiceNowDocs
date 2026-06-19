@@ -2,6 +2,7 @@
 title: Quick start tests for Policy and Compliance Management
 description: Validate that GRC: Policy and Compliance Management still works after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/quick-start-tests-grc-policy-comp.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,10 +24,10 @@ GRC: Policy and Compliance Management quick start tests require activating the P
 |GRC: Create Policy Exception and Flow|Create a policy exception and navigate through its states.|Paris|
 |GRC: Policy Lifecycle|Create a policy and navigate through its states.|Paris|
 
-**Parent Topic:**[Download GRC: Policy and Compliance Management](../../../product/grc-common/task/t_ActivateGRCPandC.md)
+**Parent Topic:**[Download GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_ActivateGRCPandC.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

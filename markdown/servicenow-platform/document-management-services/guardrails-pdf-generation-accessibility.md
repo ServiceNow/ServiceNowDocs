@@ -2,6 +2,7 @@
 title: Guardrails for PDF generation and accessibility
 description: Static and dynamic guardrails are safeguards that help maintain stability during PDF generation. Static guardrails enforce fixed limits like maximum PDF size, while dynamic guardrails monitor real-time memory usage and terminate exports when memory pressure exceeds a defined threshold.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/guardrails-pdf-generation-accessibility.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -52,5 +53,5 @@ To enable accessibility for PDF generation, in the navigation filter, enter sys\
 
 If the memory usage reaches the configured value \(default value is 90%\) for the system property, the platform automatically terminates the ongoing PDF export and new PDF export requests are rejected. The guardrail continues to block PDF exports until the memory usage drops below the safe threshold.
 
-**Parent Topic:**[PDF generation and accessibility](pdf-generation-accessibility.md)
+**Parent Topic:**[PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/pdf-generation-accessibility.md)
 

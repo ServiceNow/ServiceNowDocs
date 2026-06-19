@@ -2,6 +2,7 @@
 title: Populate SAP Concur report and metadata
 description: As an administrator, fetch the reports metadata from other business applications such as SAP Concur. View the Concur expense reports, itemizations, and receipts from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/x-concur-approvals-scheduled-job.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -39,7 +40,7 @@ When you sync requests, you can view, track, and manage the pending requests fro
 
 2.  Verify the progress of the job from **All** &gt; **Integrations Framework** &gt; **Job Tracker.**
 
-3.  Check the populated data from the following tables:
+3.  Check the populated data from the following tables.
 
     -   Concur Expense Report Staging \(sn\_ex\_cnc\_concur\_report\_staging\)​​
     -   Concur Expense Report \(sn\_ex\_cnc\_concur\_report\)​​
@@ -49,7 +50,7 @@ When you sync requests, you can view, track, and manage the pending requests fro
     -   Concur Comments \(sn\_ex\_cnc\_concur\_comment\)
     **Note:** Concur Expense Entry and Concur Comments data is populated real-time when the approver clicks the open request on the **My tasks** page.
 
-    The tables show the expense reports and related metadata. See the sample Concur expense report and its metadata.![Sample expense report](../images/c-sample-concur-report.png).
+    The tables show the expense reports and related metadata. See the sample Concur expense report and its metadata.\[Omitted image "c-sample-concur-report.png"\] Alt text: Sample expense report.
 
     If reports do not appear on the Concur Expense Report \(sn\_ex\_cnc\_concur\_report\)​​, check the credentials \(oauth\_2\_0\_credentials\) with names **SAP Concur** and **SAP Concur v4 Credentials**. If credentials are fine, check **Get concur reports** flow execution for more information.
 
@@ -68,5 +69,5 @@ You can navigate to **All** &gt; **Employee Center** &gt; **SAP Concur Spoke** &
 
 Proceed to To-dos Configuration and use the default **Approval \| SAP Concur** task configuration.
 
-**Parent Topic:**[Approvals hub integration with SAP Concur](../concept/x-concur-sa-integration.md)
+**Parent Topic:**[Approvals hub integration with SAP Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/x-concur-sa-integration.md)
 

@@ -2,6 +2,7 @@
 title: External Legal Service Center reference
 description: Several types of components are installed with installation of the External Legal Service Center, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/external-legal-portal/lsd-ext-portal-reference-landing.html
 release: australia
 product: External Legal Portal
 classification: external-legal-portal
@@ -15,7 +16,7 @@ breadcrumb: [External Legal Service Center, Legal Service Delivery, Legal and Co
 
 Several types of components are installed with installation of the External Legal Service Center, including user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 

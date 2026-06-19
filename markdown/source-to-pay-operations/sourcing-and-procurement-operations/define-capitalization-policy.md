@@ -2,6 +2,7 @@
 title: Define a capitalization policy
 description: Create fixed asset shells automatically during purchase order creation, by defining a capitalization policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/define-capitalization-policy.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -31,7 +32,7 @@ You can define a capitalization policy from the Sourcing and Purchasing Automati
 
 3.  On the form, fill in the fields.
 
-    ![Capitalization policy.](../image/create_capitalization_policy.png)
+    \[Omitted image "create\_capitalization\_policy.png"\] Alt text: Capitalization policy.
 
     |Field|Description|
     |-----|-----------|
@@ -45,5 +46,5 @@ You can define a capitalization policy from the Sourcing and Purchasing Automati
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

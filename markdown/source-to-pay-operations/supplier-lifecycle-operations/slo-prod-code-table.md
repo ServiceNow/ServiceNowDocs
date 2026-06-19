@@ -2,6 +2,7 @@
 title: Product Code table
 description: The Product Code \[sn\_slm\_product\_code\] table stores important information about a product's Universal Product Code \(UPC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-prod-code-table.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -71,5 +72,5 @@ String
 The code of the product.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+</table>**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

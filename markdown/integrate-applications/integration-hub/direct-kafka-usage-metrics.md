@@ -2,6 +2,7 @@
 title: Direct Kafka usage metrics
 description: Direct Kafka Usage metrics table provides administrators with visibility into data usage between your instance and Direct Kafka systems. This read-only table tracks usage metrics on an hourly, daily, and monthly basis. Usage records are automatically retained for 13 months, with a scheduled cleaner job removing records older than this threshold on a monthly basis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/direct-kafka-usage-metrics.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -24,5 +25,5 @@ Direct Kafka Usage metrics table provides administrators with visibility into da
 |Roll Up Type|The aggregation level for the metric. Values: HOURLY, DAILY, MONTHLY|
 |Topic|The specific Kafka topic associated with the usage metric.|
 
-**Parent Topic:**[Integration Hub reference](../concept/integration-hub-reference.md)
+**Parent Topic:**[Integration Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-hub-reference.md)
 

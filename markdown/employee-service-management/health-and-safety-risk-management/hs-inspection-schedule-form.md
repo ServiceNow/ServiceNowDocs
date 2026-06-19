@@ -2,6 +2,7 @@
 title: Inspection schedule form
 description: Safety inspection manager can use the inspection schedule form to set up a recurring workplace safety inspection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-inspection-schedule-form.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Em
 
 Safety inspection manager can use the inspection schedule form to set up a recurring workplace safety inspection.
 
-For information on setting up an inspection schedule, see [Set up a safety inspection schedule](../task/hs-schedule-recurring-safety-inspection.md).
+For information on setting up an inspection schedule, see [Set up a safety inspection schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-schedule-recurring-safety-inspection.md).
 
 <table id="table_qm2_t21_gbc"><thead><tr><th>
 
@@ -64,7 +65,7 @@ Smart Assessment Template
 
 </td><td>
 
-Smart assessment template to be used to complete this inspection.Only the templates with the **Assessment targets** field set to Inspection \[sn\_hs\_rm\_inspection\] table are available in this list. Use smart assessment templates available with the application or build new ones with the Smart Assessment Engine. For more information, see [Configure a Smart Assessment template](../task/hs-configure-smart-assessment-template.md).
+Smart assessment template to be used to complete this inspection.Only the templates with the **Assessment targets** field set to Inspection \[sn\_hs\_rm\_inspection\] table are available in this list. Use smart assessment templates available with the application or build new ones with the Smart Assessment Engine. For more information, see [Configure a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.md).
 
 This field appears only when **Inspection format** is set as **Digital** and **Assessment type** is set as **Smart Assessment**.
 
@@ -74,7 +75,7 @@ Inspection survey
 
 </td><td>
 
-Inspection survey to be completed for this inspection. Select the survey to use.Only the surveys with the **Source table** field set to Inspection \[sn\_hs\_rm\_inspection\] table are available in this list. Use surveys available with the application or build new ones with the Survey designer. You can also associate any of your pre-built surveys with inspection records in Health and Safety Risk Management. For more information, see [Configure a safety inspection or audit survey](../task/hs-configure-safety-inspection-surveys.md).
+Inspection survey to be completed for this inspection. Select the survey to use.Only the surveys with the **Source table** field set to Inspection \[sn\_hs\_rm\_inspection\] table are available in this list. Use surveys available with the application or build new ones with the Survey designer. You can also associate any of your pre-built surveys with inspection records in Health and Safety Risk Management. For more information, see [Configure a safety inspection or audit survey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-safety-inspection-surveys.md).
 
 This field appears only when **Inspection format** is set as **Digital** and **Assessment type** is set as **Survey**.
 
@@ -108,7 +109,7 @@ Assets
 
 </td><td>
 
-Assets that this inspection is related to. For example, the inspection needs to be conducted on these assets.**Note:** The assets field appears only when Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](../../ohs-incident-management/task/install-hs-incident-mgmt.md#table_ix1_bff_gxb)
+Assets that this inspection is related to. For example, the inspection needs to be conducted on these assets.**Note:** The assets field appears only when Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
 </td></tr></tbody>
 </table><table id="table_cv5_521_gbc"><thead><tr><th>
@@ -162,5 +163,5 @@ Survey expiration period
 Number of days for the smart assessment or survey to expire after its start date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

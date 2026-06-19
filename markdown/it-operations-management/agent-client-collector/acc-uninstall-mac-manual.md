@@ -2,6 +2,7 @@
 title: Uninstall the Agent Client Collector from a macOS machine manually
 description: Uninstall the Agent Client Collector from a macOS machine manually instead of using the single-line procedure when the specific agent is not connected to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-uninstall-mac-manual.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -49,5 +50,5 @@ Uninstall the Agent Client Collector from a macOS machine manually instead of us
     ```
 
 
-**Parent Topic:**[Agent Client Collector installation on a macOS system](../concept/acc-install-mac-os.md)
+**Parent Topic:**[Agent Client Collector installation on a macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

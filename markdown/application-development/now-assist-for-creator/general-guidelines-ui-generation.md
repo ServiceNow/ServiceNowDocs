@@ -2,13 +2,14 @@
 title: General guidelines UI generation
 description: Use these general guidelines for UI generation to get better experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/general-guidelines-ui-generation.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # General guidelines UI generation
@@ -101,5 +102,5 @@ Includes Grouped by details.
     Validate the experience by running it against test cases in controlled environments to ensure that it functions according to your requirements.
 
 
-**Parent Topic:**[Exploring UI generation](exploring-ui-generation.md)
+**Parent Topic:**[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-ui-generation.md)
 

@@ -2,6 +2,7 @@
 title: API permissions/scope for ServiceNow integration with Zoom
 description: The list of the API permissions/scope requested by the ServiceNow Collaboration services for Zoom are as follows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/api-scope-sn-integ-zoom.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,5 +28,5 @@ The list of the API permissions/scope requested by the ServiceNow Collaboration 
 |imchat:read:admin|View all users’ history and channels.|
 |imchat:bot|Enable chatbot within Zoom Chat Client.|
 
-**Parent Topic:**[Collaboration services for Zoom reference](reference-sn-zoom.md)
+**Parent Topic:**[Collaboration services for Zoom reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/reference-sn-zoom.md)
 

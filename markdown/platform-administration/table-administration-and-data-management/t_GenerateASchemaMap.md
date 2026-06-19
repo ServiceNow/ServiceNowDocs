@@ -2,6 +2,7 @@
 title: Generate a schema map
 description: Generate a schema map to view different parts of the database schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_GenerateASchemaMap.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -32,5 +33,5 @@ Role required: admin
     If required, you can print this map from the browser.
 
 
-**Parent Topic:**[Viewing table references and extensions](../concept/c_SchemaMapForTables.md)
+**Parent Topic:**[Viewing table references and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_SchemaMapForTables.md)
 

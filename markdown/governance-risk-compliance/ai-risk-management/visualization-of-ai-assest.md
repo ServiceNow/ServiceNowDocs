@@ -2,12 +2,14 @@
 title: 360° Relationship Visualization of an AI asset
 description: Use the 360° AI asset view to explore the relationship between your AI assets and all its associated records in a distinctive visualization. To use this feature, you must integrate AI Risk and Compliance with the 360° Relationship Visualization application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/visualization-of-ai-assest.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [360 degree view, AI asset visualization, relationship visualization]
 breadcrumb: [AI assets, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -19,13 +21,13 @@ Use the 360° AI asset view to explore the relationship between your AI assets a
 
 When you launch the 360º view from an AI asset record, you can visualize the relationships between the selected record and all its associated records. This visualization provides valuable insights into how these objects interact and relate to each other within the AI asset. You can act on the displayed records.
 
-You can access the 360° view of an AI asset from the asset record page.![360° view button on the AI asset record.](../image/visualize-ai-asset.png)
+You can access the 360° view of an AI asset from the asset record page.\[Omitted image "visualize-ai-asset.png"\] Alt text: 360° view button on the AI asset record.
 
-To explore the 360° view and to learn how to launch the view, see [Exploring the 360º view](../../grc-360-degree-rel-vis/concept/understanding-360-view.md#).
+To explore the 360° view and to learn how to launch the view, see [Exploring the 360º view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.md).
 
-To learn more about the users who could use 360° Relationship Visualization, their roles, and responsibilities, see [360° Relationship Visualization](../../grc-360-degree-rel-vis/concept/grc-360-deg-rel-vis.md).
+To learn more about the users who could use 360° Relationship Visualization, their roles, and responsibilities, see [360° Relationship Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-360-degree-relationship-visualization/grc-360-deg-rel-vis.md).
 
-The following example shows the 360° view of an AI asset:![Displays the records related to the AI asset in 360° view.](../image/visualization-ai-asset.png)
+The following example shows the 360° view of an AI asset:\[Omitted image "visualization-ai-asset.png"\] Alt text: Displays the records related to the AI asset in 360° view.
 
 ## Records available in 360° view of an AI asset
 

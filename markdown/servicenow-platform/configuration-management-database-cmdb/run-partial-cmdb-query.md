@@ -2,11 +2,12 @@
 title: Run a partial CMDB query
 description: You can run a partial query in the CMDB Query Builder by defining a section of a query, and then running it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/run-partial-cmdb-query.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,7 +30,7 @@ While building a query or reviewing a saved query, you can run only a section of
 
 2.  On the CMDB Query Builder page, select a tile to open an existing query.
 
-3.  Select the selection tool under the [navigation tool](../reference/navigation-cmdb-query-builder.md) to switch to a section selection mode.
+3.  Select the selection tool under the [navigation tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/navigation-cmdb-query-builder.md) to switch to a section selection mode.
 
 4.  Border a section of the query:
 

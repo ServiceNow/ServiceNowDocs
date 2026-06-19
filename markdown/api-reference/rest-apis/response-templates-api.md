@@ -2,6 +2,7 @@
 title: Response Templates API
 description: The Response Templates API provides endpoints to handle records in the Response Templates \[sn\_templated\_snip\_note\_template\] table.Returns records from the Response Templates \[sn\_templated\_snip\_note\_template\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/response-templates-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,9 +18,9 @@ The Response Templates API provides endpoints to handle records in the Response 
 
 This script include requires the Templated Responses plugin \(com.sn\_templated\_snip\), which is activated by default, and runs within the `sn_templated_snip` namespace.
 
-For additional information on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md).
+For additional information on response templates, see Response templates.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Response Templates - POST /response\_templates/get\_templates
 
@@ -112,7 +113,7 @@ opts
 
 </td><td>
 
-Parameters to pass to the sn\_templated\_snip.response\_template extension point. The format and content of these parameters are dependent on the implementation of the extension point. For additional information on extension points, see [Using extension points to extend application functionality](../../../build/applications/concept/extension-points.md).Data type: Object
+Parameters to pass to the sn\_templated\_snip.response\_template extension point. The format and content of these parameters are dependent on the implementation of the extension point. For additional information on extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).Data type: Object
 
 </td></tr><tr><td>
 
@@ -147,7 +148,7 @@ Required. Name of the table to use to search the Response Templates table to loc
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -160,7 +161,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

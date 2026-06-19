@@ -2,6 +2,7 @@
 title: Create a parameterized test
 description: Build a test that uses variables to store test data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/create-parameterized-test.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -50,14 +51,14 @@ Role required: atf\_test\_admin, atf\_test\_designer, or admin
         -   **Add Shared Parameters**: Adds a parameter available to any parameterized test.
     2.  Define the name of the variable and the data type.
 
-        When creating parameters for a form, the parameter data type must match the field data type. For example, if you are creating a parameter to test a reference field on a form, you must create a parameter of type Reference. For more information on ServiceNow AI Platform data types, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+        When creating parameters for a form, the parameter data type must match the field data type. For example, if you are creating a parameter to test a reference field on a form, you must create a parameter of type Reference. For more information on ServiceNow AI Platform data types, see Field types.
 
     3.  Click **Submit**.
 
 
 ## What to do next
 
-[Add a parameter to a test step](add-parameterized-value-to-step.md)
+[Add a parameter to a test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/add-parameterized-value-to-step.md)
 
-**Parent Topic:**[Parameterized tests](../concept/parameterized-tests.md)
+**Parent Topic:**[Parameterized tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/parameterized-tests.md)
 

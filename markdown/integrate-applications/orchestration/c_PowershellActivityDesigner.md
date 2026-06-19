@@ -2,11 +2,12 @@
 title: PowerShell activity designer
 description: PowerShell activities are configured to return data to a workflow from a host using Microsoft PowerShell.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/c\_PowershellActivityDesigner.html
 release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -15,13 +16,13 @@ breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orc
 
 PowerShell activities are configured to return data to a workflow from a host using Microsoft PowerShell.
 
-You must purchase [Classic Orchestration](../../../product/orchestration/reference/r-orchestration.md) to use this template. For specific information about using the tools in the activity designer, refer to these resources:
+You must purchase [Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r-orchestration.md) to use this template. For specific information about using the tools in the activity designer, refer to these resources:
 
--   [Orchestration activity designer](c_WorkflowActivityDesigner.md)
--   [Create input variables](../task/CreateInputVariables.md#)
--   [Create a parsing rule](../task/t_CreateAParsingRule.md#)
+-   [Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md)
+-   [Create input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md)
+-   [Create a parsing rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md)
 
 ServiceNow supports PowerShell 3.0 to 5.1.
 
-**Parent Topic:**[PowerShell activity pack](../../orchestration-activities/concept/c_OrchestrPwrshellActivityPack.md)
+**Parent Topic:**[PowerShell activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrPwrshellActivityPack.md)
 

@@ -2,6 +2,7 @@
 title: Agent Client Collector Monitoring Footprint
 description: The following table describes Agent Client Collector resource consumption. We supply performance testing values to specific customers upon request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-monitoring-footprint.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -24,5 +25,5 @@ The following table describes Agent Client Collector resource consumption. We su
 |Max CPU per check|10 to 15%|15 to 20%|
 |Memory overhead \(avg\)|~13.88 MB|~31.15 MB|
 
-**Parent Topic:**[Agent Client Collector Monitoring reference](acc-monitoring-reference.md)
+**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

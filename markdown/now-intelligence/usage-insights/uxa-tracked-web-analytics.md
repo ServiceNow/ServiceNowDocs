@@ -2,6 +2,7 @@
 title: Tracked web analytics fields for Usage Insights
 description: Usage Insights collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-tracked-web-analytics.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -15,7 +16,7 @@ breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and c
 
 Usage Insights collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
 
-For more information about using the data, see [Viewing user analytics](../concept/viewing-user-data.md).
+For more information about using the data, see [Viewing user analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/viewing-user-data.md).
 
 ## Collected data according to web session
 
@@ -30,18 +31,6 @@ Description
 </td><td>
 
 Sample output value
-
-</td></tr><tr><td>
-
-UserID 
-
-</td><td>
-
-Usage Insights internal user ID \(sequential ID\) 
-
-</td><td>
-
-1
 
 </td></tr><tr><td>
 
@@ -350,5 +339,5 @@ basic tracking
 |----|-----------|-------------------|
 |Property Name &amp; Value |Key value collection of property names and values |\{“Language” : “English”\} |
 
-**Parent Topic:**[Tracked analytics fields and cookies](../concept/uxa-tracked-fields-and-cookies.md)
+**Parent Topic:**[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)
 

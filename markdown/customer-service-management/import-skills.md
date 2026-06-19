@@ -2,7 +2,10 @@
 title: Import skills
 description: Import skills to assign the right agent to the customer interaction so that customer inquiries can be handled efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-skills.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Contact Center Integration Center** &gt; **CCaaS Admin Console**
 
-    ![Admin console skills import screen showing beginning state](../image/ccaas-import-skills.png "Admin console skills import")
+    \[Omitted image "ccaas-import-skills.png"\] Alt text: Admin console skills import screen showing beginning state
 
 2.  Select a contact center provider to import skills from.
 

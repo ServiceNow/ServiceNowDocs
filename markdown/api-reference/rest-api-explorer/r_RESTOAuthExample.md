@@ -2,6 +2,7 @@
 title: REST OAuth example
 description: This example shows how to authenticate an inbound REST request using OAuth.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/r\_RESTOAuthExample.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -41,5 +42,5 @@ curl -d "grant_type=password&client_id=a329c4515612210071a5e0c298ee2be8&client_s
 curl -H "Accept:application/json" -H "Authorization:Bearer 2wRlsRCT2SYjCCJP91kwo2EFzj5qg4O3I3aC09e0-0hz6Ib3YK7If-LMiNorNuglfqbkL4AfkYC92KYHUCcbpQ"  "https://<instance>.service-now.com/api/now/table/incident
 ```
 
-**Parent Topic:**[Enable OAuth with inbound REST](../task/t_EnableOAuthWithREST.md)
+**Parent Topic:**[Enable OAuth with inbound REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_EnableOAuthWithREST.md)
 

@@ -2,7 +2,10 @@
 title: Security roles for the install base characteristics
 description: You can assign functional and granular roles to Customer Service Management \(CSM\) users and administrators so that they can access the different capabilities and features of the install base characteristics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/security-roles-for-install-base-attributes.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -192,5 +195,5 @@ sn\_install\_base.install\_base\_manager
 |----------|---------------|-----------|--------------|-------------|
 |sn\_customerservice.customer|Customer Service Management \[com.sn\_customerservice\]|This role provides access to research and manage install base items and their associated characteristics. Users with this role can view install base items, including all related characteristics and assets associated with their accounts. This role is intended for external users only.|sn\_esm\_user,snc\_external|None|
 
-For more information on the customer roles, see [Roles installed with Customer Service Management](../reference/r_RolesInstalledWithCustomerService.md).
+For more information on the customer roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 

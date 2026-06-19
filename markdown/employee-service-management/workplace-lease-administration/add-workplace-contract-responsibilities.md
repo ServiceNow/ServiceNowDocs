@@ -2,13 +2,14 @@
 title: Add workplace contract responsibilities in Core UI
 description: Add workplace responsibilities to indicate who \(landlord or tenant\) is responsible for different activities such as lawn maintenance, painting, repairing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/add-workplace-contract-responsibilities.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create workplace contracts in Core UI, Working with Workplace Lease Administration from the Core UI, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create workplace contracts in Core UI, Working with Workplace Lease Administration from the Core UI, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add workplace contract responsibilities in Core UI
@@ -49,5 +50,5 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
 
 The contract responsibilities are added to the contract.
 
-**Parent Topic:**[Create workplace contracts in Core UI](create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
 

@@ -1,0 +1,30 @@
+---
+title: Post-sales engagement
+description: ServiceNow post-sales engagement applications support adoption and post-sales workflows.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/order-management/sales-and-order-management/post-sales-engagement-landing.html
+release: australia
+product: Sales and Order Management
+classification: sales-and-order-management
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Explore, Sales Customer Relationship Management]
+---
+
+# Post-sales engagement
+
+ServiceNow® post-sales engagement applications support adoption and post-sales workflows.
+
+## Get started
+
+Select a link from the following table to learn about key features and benefits of an application and how it can be used for post-sales workflows.
+
+|Application|Description|
+|-----------|-----------|
+||Manage the life cycle of your sold products.|
+
+## What to explore next
+
+Configure the post-sales engagement applications to enable post-sales workflows. For more information, see [Post-sales engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-and-order-management/configuring-post-sales-engagement.md).
+

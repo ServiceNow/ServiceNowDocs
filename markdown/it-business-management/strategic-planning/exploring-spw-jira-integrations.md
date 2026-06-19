@@ -2,6 +2,7 @@
 title: Exploring SPWJira integrations
 description: Learn more about integrating Strategic Planning Workspace with Jira and review the benefits it can provide for different users in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/exploring-spw-jira-integrations.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -30,7 +31,7 @@ By bridging the gap between strategic planning and operational execution, this i
 
 The following infographic shows how the integration between SPW and Jira work in both the applications.
 
-![Working of SPW Jira integration between the two applications. For details, see the following description.](../images/jira-int-workflow.png)
+\[Omitted image "jira-int-workflow.png"\] Alt text: Working of SPW Jira integration between the two applications. For details, see the following description.
 
 -   One-to-One Mapping: Each Jira Project is directly mapped to an EAP Team.
 -   Bidirectional Sync of Work Items:
@@ -49,6 +50,6 @@ The following infographic shows how the integration between SPW and Jira work in
 
 To learn more about configuring and using SPW Jira Integrations, see:
 
--   [Configuring SPW Jira Integrations](configuring-spw-jira-integrations.md)
--   [SPW Jira Integrations reference](../reference/spw-jira-integrations-reference.md)
+-   [Configuring SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/configuring-spw-jira-integrations.md)
+-   [SPW Jira Integrations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)
 

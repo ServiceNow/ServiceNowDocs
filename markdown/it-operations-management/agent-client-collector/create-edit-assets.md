@@ -2,6 +2,7 @@
 title: Create and edit Agent Client Collector plugins
 description: You can edit the default plugins, or you can add new plugins, as needed. Creating and editing plugins customizes the Agent Client Collector monitoring capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-edit-assets.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -42,8 +43,8 @@ Role required: agent\_client\_collector\_admin
 4.  Attach the `tar.gz` file to the plugin record, according to the instructions that appear on the UI page.
 
 
--   **[Secure a custom plugin with a certificate](../concept/acc-self-sign-certificate.md)**  
+-   **[Secure a custom plugin with a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-self-sign-certificate.md)**  
 When you customize or create an Agent Client Collector plugin, you can secure the plugin with either a third-party certificate or an internal secure certificate in the plugin's script. Official plugins are signed by an external certificate authority.
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](../concept/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

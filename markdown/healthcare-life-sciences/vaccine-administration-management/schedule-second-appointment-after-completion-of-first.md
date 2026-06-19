@@ -2,6 +2,7 @@
 title: Book appointments for subsequent doses after a previous dose is complete
 description: Define whether to enable booking for all doses of the vaccine, for both mass booking and self-service, or to enable booking for the first dose, with subsequent appointments booked after the first dose is administered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/schedule-second-appointment-after-completion-of-first.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -30,5 +31,5 @@ Role required: sn\_vaccine\_sm.admin
 2.  Click **Save**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

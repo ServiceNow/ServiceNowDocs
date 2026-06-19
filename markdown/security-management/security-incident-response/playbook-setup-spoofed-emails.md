@@ -2,6 +2,7 @@
 title: Set up the Spoofed Emails playbook
 description: Use the following steps to set up the Spoofed Emails playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-spoofed-emails.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,9 +33,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  You can create a copy of the Repeat Detection playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, click the ![More actions menu](../image/more-action-menu.png) icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
-
-    ![Overview of the Spoofed Emails playbook](../image/playbook-spoofed-email-name.png "Spoofed Emails playbook")
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
 4.  Activate the playbooks.
 
@@ -44,8 +43,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     This playbook is triggered and associated with the security incident when the **Category** is **Phishing**.
 
-    ![Trigger condition for Spoofed Emails playbook.](../image/playbook-spoofed-email-name-trigger.png)
 
-
-**Parent Topic:**[Playbook for Spoofed Emails \(using the same Display name\)](../concept/playbook-spoofed-emails-display-name.md)
+**Parent Topic:**[Playbook for Spoofed Emails \(using the same Display name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-spoofed-emails-display-name.md)
 

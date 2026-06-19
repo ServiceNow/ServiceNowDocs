@@ -2,6 +2,7 @@
 title: Reject a fund request
 description: You can reject an incoming fund request based on your business priorities or if you do not have sufficient funds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/reject-fund-requests.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -38,5 +39,5 @@ Role required: sn\_invst\_pln\_v2.investment\_user
 7.  Select an investment, and click **Clear** from the**Allocate Funds** drop-down list to remove the planning state funding requests that are for past funding periods or non-editable funding periods from your list.
 
 
-**Parent Topic:**[Investment Funding](../concept/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
 

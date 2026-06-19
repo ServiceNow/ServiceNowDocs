@@ -2,6 +2,7 @@
 title: Opt in to the employee profile
 description: Enable the new employee details and design by opting in to employee profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/profile-opt-in.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ Enable the new employee details and design by opting in to employee profile.
 
 Role required: sn\_employee.admin
 
-Before opting in, create an active employee definition. For more information, see [Create an active employee definition](generate-profile-definition.md).
+Before opting in, create an active employee definition. For more information, see [Create an active employee definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/generate-profile-definition.md).
 
 **Note:** With Employee Profile \(com.sn\_employee\) plugin, employee profile opt-in is available for EC and EC Pro.
 
@@ -50,6 +51,6 @@ Before opting in, create an active employee definition. For more information, se
 When you opt in, your employees can have the following benefits:
 
 -   View a customizable **Employee Profile** page that details the contact info, job description, and more.
--   Navigate through an enhanced **Org Chart** experience that offers organization chart, team hierarchy, and better search. For more information, see [Organization chart in Employee Center Pro](../concept/employee-profile-org-chart.md).
+-   Navigate through an enhanced **Org Chart** experience that offers organization chart, team hierarchy, and better search. For more information, see [Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md).
 -   Use employee profile in AI and ML profile data models.
 

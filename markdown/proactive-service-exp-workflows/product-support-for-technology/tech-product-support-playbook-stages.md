@@ -1,17 +1,18 @@
 ---
-title: Technology Product Support Case playbook stages and activities
+title: Playbook stages and activities
 description: The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
-breadcrumb: [Playbook, Technology Product Support Case, Explore, Product Support for Technology]
+reading_time_minutes: 7
+breadcrumb: [Playbook, Explore, Technology Product Support Case, Product Support for Technology]
 ---
 
-# Technology Product Support Case playbook stages and activities
+# Playbook stages and activities
 
 The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.
 
@@ -21,7 +22,7 @@ The agent selects a service and then selects **Create** to create a case. The sy
 
 ## Intake stage
 
-During the intake stage, an agent gathers information about the customer, the issue, and the impacted instances.![Intake stage.](../image/tech-product-support-case-intake.png)
+During the intake stage, an agent gathers information about the customer, the issue, and the impacted instances.\[Omitted image "tech-product-support-case-intake.png"\] Alt text: Intake stage.
 
 <table id="table_d4y_ypz_y1c"><thead><tr><th>
 
@@ -58,7 +59,7 @@ The agent adds the impacted instances from a list of instances that belong to th
 </td></tr></tbody>
 </table>## Triage stage
 
-During the triage stage, the agent reviews the case information, makes changes as needed, and sends an initial response to the customer.tech-product-case-resolve![Triage stage.](../image/tech-product-case-triage.png)
+During the triage stage, the agent reviews the case information, makes changes as needed, and sends an initial response to the customer.tech-product-case-resolve\[Omitted image "tech-product-case-triage.png"\] Alt text: Triage stage.
 
 <table id="table_b42_gqz_y1c"><thead><tr><th>
 
@@ -99,7 +100,7 @@ After entering text in these fields, the agent can:
 </td></tr></tbody>
 </table>## Troubleshoot stage
 
-During the troubleshoot stage, the agent investigates the customer's issue and updates their findings in the action plan. The agent can leverage tools such as search or recommended actions as part of the investigation. If the agent needs assistance, they can create case tasks or other types of records or initiate a Sidebar discussion.![Troubleshoot stage.](../image/tech-product-support-case-troubleshoot.png)
+During the troubleshoot stage, the agent investigates the customer's issue and updates their findings in the action plan. The agent can leverage tools such as search or recommended actions as part of the investigation. If the agent needs assistance, they can create case tasks or other types of records or initiate a Sidebar discussion.\[Omitted image "tech-product-support-case-troubleshoot.png"\] Alt text: Troubleshoot stage.
 
 <table id="table_v3c_jqz_y1c"><thead><tr><th>
 
@@ -119,7 +120,7 @@ The decision table is provided with the Technology Product Support Case applicat
 
  To enable the diagnostic activity in the troubleshoot stage, select the case category in the decision table as Issue, the diagnostic activity field is field is updated to True.
 
- The status can be changed to False by the agent. For more details on updating decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
+ The status can be changed to False by the agent. For more details on updating decision tables, see .
 
  The agent can view and do the following actions in these tabs:
 
@@ -185,7 +186,7 @@ The agent can see the action status of the case, if available, and can update th
 </td></tr></tbody>
 </table>## Resolve stage
 
-In the Resolve stage, the agent proposes a solution to the customer.![Resolve stage.](../image/tech-product-case-resolve.png)
+In the Resolve stage, the agent proposes a solution to the customer.\[Omitted image "tech-product-case-resolve.png"\] Alt text: Resolve stage.
 
 <table id="table_bv5_mqz_y1c"><thead><tr><th>
 
@@ -210,7 +211,7 @@ The agent updates the following fields:
 
  The agent can also enable the **Add resolution notes to comments** check box to add the resolution information to the case activity stream.
 
-**Note:** If the Now Assist for Customer Service Management \(CSM\) application is installed and the resolution notes generation skill has been configured, the **Resolution notes** field is automatically populated. For more information, see [Using Now Assist for CSM to generate resolution notes for a case](tech-product-support-playbook.md#section_nsx_b4n_3bc).
+**Note:** If the Now Assist for Customer Service Management \(CSM\) application is installed and the resolution notes generation skill has been configured, the **Resolution notes** field is automatically populated. For more information, see [Using Now Assist for CSM to generate resolution notes for a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md).
 
  -   **Propose resolution**: Completes the activity and moves to the Close stage. The case state changes to Solution Proposed.
 -   **Save**: Saves the information in the activity.
@@ -227,7 +228,7 @@ A case can be closed in the following ways:
 
 In the Close stage, the agent updates the case with a summary of the issue and provides any additional comments or work notes.
 
-The case record is read-only when the state is Closed.![Close stage.](../image/tech-product-case-close.png)
+The case record is read-only when the state is Closed.\[Omitted image "tech-product-case-close.png"\] Alt text: Close stage.
 
 <table id="table_grq_4qz_y1c"><thead><tr><th>
 
@@ -276,7 +277,5 @@ The Technology Product Case Troubleshoot recommended actions rule:
     -   **Start discussion**: starts a Sidebar discussion.
     -   **Dismiss**: dismisses the recommendation card.
 
-For more information, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-nba.md).
-
-**Parent Topic:**[Technology Product Support Case playbook](tech-product-support-playbook.md)
+For more information, see .
 

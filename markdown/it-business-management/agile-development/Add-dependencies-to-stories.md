@@ -2,6 +2,7 @@
 title: Add dependencies for Agile Development 2.0 stories
 description: Add prerequisite and dependent items for stories in Agile Development 2.0 so that you can visualize these dependencies on the scrum planning board and plan your sprints accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/Add-dependencies-to-stories.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -39,9 +40,9 @@ Role required: scrum\_story\_creator, scrum\_story\_editor
 You can visually analyze the dependencies of the stories using the scrum program board to help with your sprint planning.
 
 1.  Navigate to **All** &gt; **Agile Development** &gt; **Agile Board** &gt; **Program** &gt; **Planning**
-2.  Use the dependencies icon \(![Story dependencies icon](../images/show-hide-dependencies.png)\) to show or hide dependencies between stories.
+2.  Use the dependencies icon \(\[Omitted image "show-hide-dependencies.png"\] Alt text: Story dependencies icon\) to show or hide dependencies between stories.
 
 **Note:** Access to the Scrum program board is available only with the Scrum Programs plugin \(com.snc.sdlc.scrum\_program\).
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](../../agile-development/concept/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
 

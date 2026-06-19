@@ -2,6 +2,7 @@
 title: Upload a file to cloud
 description: Upload local documents from your local to Microsoft cloud and manage the access to the cloud files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/upload-cloud-file-eng-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -23,7 +24,7 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the tasks icon \(![Tasks icon](../image/new-task-icon.png)\).
+2.  Select the tasks icon \(\[Omitted image "new-task-icon.png"\] Alt text: Tasks icon\).
 
     The list displays the engagements that are assigned to you.
 
@@ -39,9 +40,9 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
     File names and folder structures are validated while file upload. Therefore, exercise caution in naming your files. Invalid characters, if present in the file name, cause failure in file upload action.
 
-    ![Error message in uploading a file with invalid character in file name.](../image/cloud-folder-path-validation.png)
+    \[Omitted image "cloud-folder-path-validation.png"\] Alt text: Error message in uploading a file with invalid character in file name.
 
-7.  To remove the invalid character in the file name, select the ![More actions icon](../../../reuse/icons/product-icons/ellipsis-vertical-outline-24.svg) icon and rename the file correctly.
+7.  To remove the invalid character in the file name, select the \[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: More actions icon icon and rename the file correctly.
 
 8.  Select the file's URL link attached to the record in the **Cloud files** tab to navigate to the cloud file in Microsoft.
 

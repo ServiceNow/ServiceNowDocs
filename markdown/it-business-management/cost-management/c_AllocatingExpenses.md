@@ -2,6 +2,7 @@
 title: Allocating expenses
 description: Expenses can also be allocated to a business entity that is responsible for the expense.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/c\_AllocatingExpenses.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -47,5 +48,5 @@ The following is an expense from the dbaix901nyc server for $2,500. Two expense 
 
 This type of business-service-to-cost-center allocation is accomplished through the **Process Svc-CC Relationships** expense allocation rule. This is an advanced rule that uses script to determine the allocation logic.
 
-**Parent Topic:**[Cost Management](../reference/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
 

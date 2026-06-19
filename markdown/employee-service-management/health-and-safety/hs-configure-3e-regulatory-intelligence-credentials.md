@@ -2,6 +2,7 @@
 title: Configure OAuth authentication for the 3E Regulatory Intelligence API
 description: Configure the 3E Regulatory credentials alias with the Client ID and Client Secret required to authenticate with the 3E Regulatory Intelligence API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-configure-3e-regulatory-intelligence-credentials.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The 3E regulatory intelligence integration uses OAuth 2.0 client credentials to authenticate with the 3E API. The 3E Regulatory Credentials record references an OAuth entity profile that stores the **Client ID** and **Client Secret** from your 3E subscription. An OAuth access token must be obtained and validated before regulatory list retrieval can function. If the token expires, a banner notification on the credential record prompts you to request a new one. For more information on connections, credentials, and aliases, see [Explore credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). For more information on configuring 3E regulatory application registry, see [Configure the application registry for 3E Regulatory Intelligence](hs-configure-app-register-3e-reg-intelligence.md).
+The 3E regulatory intelligence integration uses OAuth 2.0 client credentials to authenticate with the 3E API. The 3E Regulatory Credentials record references an OAuth entity profile that stores the **Client ID** and **Client Secret** from your 3E subscription. An OAuth access token must be obtained and validated before regulatory list retrieval can function. If the token expires, a banner notification on the credential record prompts you to request a new one. For more information on connections, credentials, and aliases, see . For more information on configuring 3E regulatory application registry, see [Configure the application registry for 3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-app-register-3e-reg-intelligence.md).
 
 ## Procedure
 
@@ -40,8 +41,8 @@ The 3E regulatory intelligence integration uses OAuth 2.0 client credentials to 
 
 ## What to do next
 
--   Verify the configuration by navigating to a chemical substance record and triggering a Sync regulatory list. For more information, see [Sync regulatory list regulations for a chemical substance](hs-sync-regulatory-list-chemical-substance.md).
+-   Verify the configuration by navigating to a chemical substance record and triggering a Sync regulatory list. For more information, see [Sync regulatory list regulations for a chemical substance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-sync-regulatory-list-chemical-substance.md).
 -   A successful sync populates the Regulatory tab with regulations fetched from the 3E server. If the sync fails, verify that the OAuth Entity Profile is configured correctly with valid 3E subscription credentials.
 
-**Parent Topic:**[3E Regulatory Intelligence](../concept/hs-3e-regulatory-intelligence.md)
+**Parent Topic:**[3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-3e-regulatory-intelligence.md)
 

@@ -2,6 +2,7 @@
 title: Conversational Integration with Alexa
 description: Use the Conversational Integration with Alexa application to empower customers to engage with your business using their Alexa devices. The application connects a requester with a Virtual Agent using your company's Alexa account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/conv-integ-alexa.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,21 +26,21 @@ Select a tile to get started.
 
 <table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
 
-[Install![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Install Conversational Integration with Alexa.](../task/install-alexa.md)
+[Install\[Omitted image "bus-optimize-manage.svg"\] Alt text:Install Conversational Integration with Alexa.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/install-alexa.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure your Conversational Integration with Alexa implementation.](configure-amazon-alexa.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configure your Conversational Integration with Alexa implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-amazon-alexa.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Install Conversational Integration with Alexa](../task/install-alexa.md)**  
+-   **[Install Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/install-alexa.md)**  
 You can install the Conversational Integration with Alexa application \(sn.va.alexa\) if you have the admin role. The application installs the related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Configure Conversational Integration with Alexa](configure-amazon-alexa.md)**  
+-   **[Configure Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-amazon-alexa.md)**  
 Install and set up the Conversational Integration with Alexa application to enable users to interact with a virtual agent.
 
-**Parent Topic:**[Integrating Virtual Agent with Voice channels](va-integ-voice-apps.md)
+**Parent Topic:**[Integrating Virtual Agent with Voice channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-voice-apps.md)
 

@@ -2,6 +2,7 @@
 title: Create an Assistant for Field Service Management
 description: Set up a Now Assist in Virtual Agent to help Field Service technicians summarize work order tasks and find relevant Knowledge Base articles to complete their tasks efficiently from the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/activate-virtual-agent-for-field-service-management.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -25,7 +26,7 @@ The Field Service Mobile plugin \(com.sn\_fsm\_mobile\) must be installed to use
 
 The Now Assist in Virtual Agent for FSM, available OOTB, enables agents to ask questions and get specific answers found in Knowledge Base articles. It sources the article used to provide the answer and provides the relevant answer found there. By providing immediate access to essential information, the Now Assist in Virtual Agent for FSM enables technicians to resolve issues more swiftly and accurately, ultimately improving service quality and customer satisfaction. This setup is required to see the Now Assist in Virtual Agent for Field Service Mobile Agent® application. The following steps guide you through the process of activating this virtual agent to optimize your Field Service Management.
 
-To set up and control who has access to the AI agents and the workflows they manage, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+To set up and control who has access to the AI agents and the workflows they manage, see .
 
 ## Procedure
 
@@ -39,7 +40,7 @@ To set up and control who has access to the AI agents and the workflows they man
 
 3.  Review each of the seven guided setup steps:
 
-    All of the guided setup steps are preconfigured. No changes are required to complete the setup.![Overview page of the guided setup](../image/nava-for-fsm.png)
+    All of the guided setup steps are preconfigured. No changes are required to complete the setup.\[Omitted image "nava-for-fsm.png"\] Alt text: Overview page of the guided setup
 
     |Guided Setup Steps|Description|
     |------------------|-----------|

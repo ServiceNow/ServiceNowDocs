@@ -2,6 +2,7 @@
 title: Alibaba Cloud availability zone pattern-based discovery
 description: Discovery and Service Mapping Patterns uses the Alibaba - Availability Zone \(LP\) pattern to discover availability zones during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/alibaba-availability-zone.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +19,7 @@ Discovery and Service Mapping Patterns uses the Alibaba - Availability Zone \(LP
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the Alibaba Cloud discovery prerequisites section in [Alibaba Cloud discovery using patterns](../concept/alibaba-cloud-discovery-pattern.md).
+Verify the Alibaba Cloud discovery prerequisites section in [Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -38,5 +39,5 @@ Discovery creates these relationships to support the availability zone discovery
 |---|------------|---|
 |Alibaba Datacenter \[cmdb\_ci\_alibaba\_datacenter\]|Contains::Contained by|Availability Zone \[cmdb\_ci\_availability\_zone\]|
 
-**Parent Topic:**[Alibaba Cloud discovery using patterns](../concept/alibaba-cloud-discovery-pattern.md)
+**Parent Topic:**[Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md)
 

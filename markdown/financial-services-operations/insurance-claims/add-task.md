@@ -2,13 +2,14 @@
 title: Add an ad-hoc task
 description: Create a task as a processor, adjuster, or manager to help prioritize and plan your claim work better.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-task.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Commercial Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Add an ad-hoc task
@@ -27,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.auto\_processor, sn\_ins\_claim\_cml.auto\_ad
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d133310e82">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d136698e82">
 
 Option
 
-</th><th align="left" id="d133310e85">
+</th><th align="left" id="d136698e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d133310e91">
+</th></tr></thead><tbody><tr><td id="d136698e91">
 
 **From the landing page**
 
@@ -43,13 +44,13 @@ Steps
 
 From a claims list, select the claim case you want to create a new task for.
 
-</td></tr><tr><td id="d133310e100">
+</td></tr><tr><td id="d136698e100">
 
 **From the applicable case/tasks list**
 
 </td><td>
 
-1.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  In the **Lists** tab, navigate to one of the following applicable lists:
     -   As a processor, select **Commercial auto claim cases**, then select **All**.
     -   As an adjuster, select **Commercial auto claim adjuster tasks**, then select **All**.

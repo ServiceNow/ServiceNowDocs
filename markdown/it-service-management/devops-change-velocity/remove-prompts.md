@@ -2,6 +2,7 @@
 title: Disable recommendation prompts
 description: Disable the prompts recommending the use of DevOps Change Workspace from appearing while creating tools and applications using Classic UI, Service Catalog, Service Portal, and Employee Service Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/remove-prompts.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -30,5 +31,5 @@ Disable the prompts recommending the use of DevOps Change Workspace from appeari
 
 7.  Save the changes.
 
-**Parent Topic:**[Managing DevOps Change Velocity](using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

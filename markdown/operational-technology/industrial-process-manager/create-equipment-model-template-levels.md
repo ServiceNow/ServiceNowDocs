@@ -2,6 +2,7 @@
 title: Create hierarchical sorting levels for an equipment model template
 description: Create and assign hierarchical levels for your equipment model template. When you assign an equipment template to an equipment model, these levels sort and structure the data you see in it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-equipment-model-template-levels.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -102,5 +103,5 @@ Number that indicates the position of the level in the equipment model hierarchy
 
 Create granular types within an equipment model template hierarchical level.
 
-**Parent Topic:**[Defining equipment model templates](../concept/defining-equipment-model-templates.md)
+**Parent Topic:**[Defining equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/defining-equipment-model-templates.md)
 

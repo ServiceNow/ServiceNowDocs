@@ -2,7 +2,10 @@
 title: Data models
 description: Create structured and flexible data models to represent the need across various industries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/data-models.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,6 +18,6 @@ Create structured and flexible data models to represent the need across various 
 
 |Task|Description|
 |----|-----------|
-|[Configure Service Model Foundation](../task/configure-industry-data-model.md)|Create foundational data models, such as service organizations, internal and external business locations, and households.|
-|[Configure customer data models for B2B2C](configure-customer-data-model-b2b2c.md)|Configure the B2B2C data model to let business customers support end consumers by creating cases and tracking services for the products and offerings they use.|
+|[Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md)|Create foundational data models, such as service organizations, internal and external business locations, and households.|
+|[Configure customer data models for B2B2C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-data-model-b2b2c.md)|Configure the B2B2C data model to let business customers support end consumers by creating cases and tracking services for the products and offerings they use.|
 

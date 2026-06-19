@@ -2,6 +2,7 @@
 title: Assign the Industrial Workspace role
 description: Assign the Industrial Workspace role to your users so that you can control their access to the workspace's features, capabilities, and data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/assign-industrial-workspace-roles.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -33,9 +34,9 @@ Users with the role that are listed in the following table can access the Guided
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).|
-    |**Assign a role to a group**|See [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).|
+    |**Assign a role to a user**|See Assign a role to a user.|
+    |**Assign a role to a group**|See Assign a role to a group.|
 
 
-**Parent Topic:**[Configuring the Industrial Workspace](../concept/configuring-industrial-workspace.md)
+**Parent Topic:**[Configuring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Use Microsoft Outlook Add-In for Legal Service Delivery
 description: Use the Microsoft Outlook Add-In for Legal Service Delivery to submit legal requests with attachments. You can submit requests, manage attachments, and view legal requests pr matters without leaving your Microsoft Outlook client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-outlook-addin-use.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,14 +16,14 @@ breadcrumb: [Microsoft Outlook Add-In for Legal Service Delivery, Integration wi
 
 Use the Microsoft Outlook Add-In for Legal Service Delivery to submit legal requests with attachments. You can submit requests, manage attachments, and view legal requests pr matters without leaving your Microsoft Outlook client.
 
--   **[Sign in to Microsoft Outlook Add-In for Legal Service Delivery](lsd-outlook-addin-login.md)**  
+-   **[Sign in to Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-login.md)**  
 As a legal request fulfiller, sign in to Microsoft Outlook Add-In for Legal Service Delivery.
--   **[Submit legal request or matter](lsd-outlook-addin-submit-lr.md)**  
+-   **[Submit legal request or matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-submit-lr.md)**  
 As a legal requestor matterfulfiller, submit a legal request or matterfrom within the Microsoft Outlook.
--   **[View legal request from the Outlook add-in](lsd-outlook-addin-view-lr.md)**  
+-   **[View legal request from the Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-view-lr.md)**  
 As a legal request fulfiller, view legal requests and matters in the Microsoft Outlook Add-In for Legal Service Delivery.
--   **[Manage attachments from Microsoft Outlook Add-In for Legal Service Delivery](lsd-outlook-addin-add-delete-doc.md)**  
+-   **[Manage attachments from Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-add-delete-doc.md)**  
 As a legal request fulfiller, add or delete documents in the legal request and matters from Microsoft Outlook Add-In for Legal Service Delivery.
 
-**Parent Topic:**[Microsoft Outlook Add-In for Legal Service Delivery](lsd-outlook-addin-landing.md)
+**Parent Topic:**[Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-landing.md)
 

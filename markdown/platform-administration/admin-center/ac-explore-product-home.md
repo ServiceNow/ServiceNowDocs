@@ -2,6 +2,7 @@
 title: Configure the product home page
 description: Track delta changes, over-allocated subscriptions, customizations, and slow execution on the product home page by selecting a product family
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-explore-product-home.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -30,7 +31,7 @@ Role required: admin
 
 2.  Select one of the product families as per your requirement.
 
-    The product home page shows up.![App engine screen.](../image/ac-product-home-page-details.png)
+    The product home page shows up.\[Omitted image "ac-product-home-page-details.png"\] Alt text: App engine screen.
 
 3.  Track the following activities in the Overview tab.
 
@@ -51,7 +52,7 @@ Role required: admin
 
     **Note:** The first time the **Explore** option is loaded, it takes in all the applications displayed in the **Overview** section.
 
-    ![Explore tab.](../image/ac-explore-files.png)You can do the following in the Explore tab:
+    \[Omitted image "ac-explore-files.png"\] Alt text: Explore tab.You can do the following in the Explore tab:
 
     -   Search for table names, sys\_id, or relevant records in the Configuration tables search bar.
 
@@ -63,5 +64,5 @@ Role required: admin
 
     -   You can make edits in the records directly within Configuration Hub. You don't have to open the records in a conventional way to make edits in them.
 
-**Parent Topic:**[Configuration Hub](../concept/ac-configuration-hub.md)
+**Parent Topic:**[Configuration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-configuration-hub.md)
 

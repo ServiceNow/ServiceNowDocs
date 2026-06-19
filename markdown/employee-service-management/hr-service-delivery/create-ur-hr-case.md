@@ -2,6 +2,7 @@
 title: Create an HR case from Universal Request
 description: Restore service to a customer as soon as possible. After creating the HR case, you can investigate potential solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-ur-hr-case.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -46,5 +47,5 @@ Restore service to a customer as soon as possible. After creating the HR case, y
     The universal request number from which the HR case is created appears in the**Universal Request** field on the HR case form. The HR case number appears in the **Primary Ticket** field on the universal request form and also under the **Associated Tickets** related list.
 
 
-**Parent Topic:**[Universal Request for HR Service Delivery](../concept/universal-request-hr.md)
+**Parent Topic:**[Universal Request for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/universal-request-hr.md)
 

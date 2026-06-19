@@ -2,11 +2,12 @@
 title: Remove CMDB tables or classes from impact calculation
 description: Exclude unnecessary CMDB tables or classes from impact calculation to improve performance and focus on relevant data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/remove-cmdb-tables-impact-cal.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -25,7 +26,7 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator, or evt\_mgmt\_user
 
     The Impact Inclusion Classes page opens, displaying a list of CMDB classes that are included in impact calculation.
 
-    ![A list of CMDB classes that are included in impact calculation.](../image/em-impact-cal-cmdb-tables-list.png)
+    \[Omitted image "em-impact-cal-cmdb-tables-list.png"\] Alt text: A list of CMDB classes that are included in impact calculation.
 
 2.  Select the CMDB table that you want to remove.
 

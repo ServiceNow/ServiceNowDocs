@@ -2,6 +2,7 @@
 title: Edit monetary benefit plan
 description: Edit a planned monetary benefit plan to revise the benefits, dates, offset, and so on, to maintain the updated financial records as your work progresses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/fin-edit-monetary-benefit-plan-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 ## Before you begin
 
--   [Create monetary benefit plans for your planning items in Portfolio Planning](fin-manage-monetary-benefit-plans-ppw.md)
+-   [Create monetary benefit plans for your planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -30,15 +31,15 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 3.  Update a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d47843e95">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d49664e95">
 
 Option
 
-</th><th align="left" id="d47843e98">
+</th><th align="left" id="d49664e98">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d47843e104">
+</th></tr></thead><tbody><tr><td id="d49664e104">
 
 **Using Monetary benefit plan related list**
 
@@ -49,7 +50,7 @@ Procedure
 3.  In the Details tab, edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d47843e131">
+</td></tr><tr><td id="d49664e131">
 
 **Using finanicals record page**
 

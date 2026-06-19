@@ -2,7 +2,10 @@
 title: Configure sort options for task panel
 description: Configure options for dispatchers to sort work order tasks in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-sort-options-for-tasks.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -49,6 +52,6 @@ By default, dispatchers can sort tasks based on only the following options:
 
 4.  Select **Submit**.
 
-    ![sort option configuration form](../image/task-panel-sort.png)
+    \[Omitted image "task-panel-sort.png"\] Alt text: sort option configuration form
 
 

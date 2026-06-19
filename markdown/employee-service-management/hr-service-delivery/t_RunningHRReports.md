@@ -2,6 +2,7 @@
 title: Run Reports
 description: You can run reports to view and monitor the status of HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_RunningHRReports.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,13 +46,13 @@ Use HR reports to improve overall efficiency and effectiveness. For example, you
 
 If you want to create additional HR reports, click **Create a report** above the Reports list. After you create reports, share them with the HR report group. Once on the Reports list, the group can view them.
 
--   **[Available HR reports](../reference/r_AvailableReports.md)**  
+-   **[Available HR reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/r_AvailableReports.md)**  
 Predefined HR reports are available in the **HR Case Management** &gt; **Reports** list.
 
-**Parent Topic:**[HR Dashboards &amp; Reports](../concept/c_HRDashboardsReports.md)
+**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 
 **Related topics**  
 
 
-[Getting started with reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_GenerateReports.md)
+[bundle-par.c_GenerateReports]
 

@@ -2,6 +2,7 @@
 title: PostgreSQL discovery
 description: Discovery can find running instances of PostgreSQL on Windows and Linux systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DiscoverPostgreSQLInstances.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,11 +20,11 @@ Discovery can find running instances of PostgreSQL on Windows and Linux systems.
 
 These credentials are required:
 
--   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
--   \[optional\] [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)
+-   SSH credentials
+-   \[optional\] Applicative credentials
 
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 The user must have root-level access to the database to access the `postgresql.conf` file.
 
@@ -60,7 +61,7 @@ PostgreSQL DB
 </td></tr></tbody>
 </table>\*For new instances, these probes are inactive on the classifier. Discovery uses patterns for discovery.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](../concept/c-UsingPatternsForHorizontalDiscovery.md#) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected
 
@@ -80,5 +81,5 @@ The following gathers specified information from the target. If the source is no
 |------------|------------|-----------|
 |cmdb\_ci\_db\_postgresql\_instance|Runs on:Runs|cmdb\_ci\_windows\_server or cmdb\_ci\_linux\_server|
 
-**Parent Topic:**[Database discovery](../concept/database-discovery.md)
+**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/database-discovery.md)
 

@@ -2,6 +2,7 @@
 title: Set up cloud accounts for VMware
 description: A cloud account is the logical representation in Cloud Provisioning and Governance of all or part of your managed cloud infrastructure. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/vmware-cloud-accts-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -21,7 +22,7 @@ Role required: sn\_cmp.cloud\_admin
 
 ## About this task
 
-See [Cloud accounts](../../cloud-management-v2/concept/cloud-accounts.md) for detailed information.
+See [Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-accounts.md) for detailed information.
 
 ## Procedure
 
@@ -29,11 +30,11 @@ See [Cloud accounts](../../cloud-management-v2/concept/cloud-accounts.md) for de
 
 2.  Click **New**, enter a unique and meaningful **Name** and **Description**, and then select the cloud **Provider** for the account \(VMware vCenter\).
 
-    ![Create a cloud account](../image/create-cloud-account.png)
+    \[Omitted image "create-cloud-account.png"\] Alt text: Create a cloud account
 
 3.  Click **Next**.
 
-    Based on the provider you select, the **Service Account** field is populated and a list of discovered datacenters appears. If no datacenters appear, click **Discover Datacenters** to find them. See [Discover all datacenters in a service account on-demand](disco-datacntrs-in-srv-acct-1.md) for details.
+    Based on the provider you select, the **Service Account** field is populated and a list of discovered datacenters appears. If no datacenters appear, click **Discover Datacenters** to find them. See [Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details.
 
 4.  Select one or more datacenters to associate with the cloud account, click **Save**, and then close the popup.
 
@@ -43,8 +44,8 @@ See [Cloud accounts](../../cloud-management-v2/concept/cloud-accounts.md) for de
 
     The following lists appear:
 
-    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand](disco-datacntrs-in-srv-acct-1.md).
-    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. [Set capacity limits on user requests for resources](set-capacity-limits-cloud-mgt-1.md)
+    -   **Resources**: Cloud resources for the current datacenter. Run Discovery to populate the CMDB for the datacenter and populate the tab. See [Discover all datacenters in a service account on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    -   **Capacity Limits**: Limits on virtual CPUs, virtual networks, storage volume size, and other services. [Set capacity limits on user requests for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
     -   **Discovery Log**: The process creates a log record for each action in an datacenter.
     **Note:**
 

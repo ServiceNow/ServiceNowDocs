@@ -2,6 +2,7 @@
 title: Standard import set tables
 description: Several Import Set tables are available by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_StandardImportSetTables.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

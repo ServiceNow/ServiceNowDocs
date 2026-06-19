@@ -2,6 +2,7 @@
 title: OAuth 2.0 authentication via MID Server using external credential storage
 description: Store OAuth 2.0 credentials-client ID and client secret-in the CyberArk vault instead of the ServiceNow instance. The MID Server gets the credentials from the CyberArk vault, when required to get the OAuth token. The token is stored in the MID Server and refreshed automatically upon expiry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/oauth-2-0-support-in-external-credential.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -15,7 +16,7 @@ breadcrumb: [External credential storage, Get started with credentials, Connecti
 
 Store OAuth 2.0 credentials-client ID and client secret-in the CyberArk vault instead of the ServiceNow instance. The MID Server gets the credentials from the CyberArk vault, when required to get the OAuth token. The token is stored in the MID Server and refreshed automatically upon expiry.
 
-The CyberArk Application Identity Management \(AIM\) product uses the Privileged Account Security solution to eliminate the need to store application passwords embedded in applications, scripts or configuration files, and allows these highly sensitive passwords to be centrally stored, logged, and managed within the CyberArk vault. You can configure the CyberArk vault to store OAuth 2.0 credentials rather than directly in a ServiceNow credentials record. To know more about CyberArk, see [CyberArk credential storage integration](c_CyberArkCredStorageIntegrate.md).
+The CyberArk Application Identity Management \(AIM\) product uses the Privileged Account Security solution to eliminate the need to store application passwords embedded in applications, scripts or configuration files, and allows these highly sensitive passwords to be centrally stored, logged, and managed within the CyberArk vault. You can configure the CyberArk vault to store OAuth 2.0 credentials rather than directly in a ServiceNow credentials record. To know more about CyberArk, see [CyberArk credential storage integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md).
 
 ## Architecture of OAuth 2.0 authentication of MID Server request
 
@@ -31,14 +32,14 @@ The image shows the MID server request authentication process.
 
 **Note:** It's assumed that the third-party authorization server and the CyberArk vault are hosted in the customer network.
 
-![MID server request authentication process.](../image/oauth-2.0-external-storage.png)
+\[Omitted image "oauth-2.0-external-storage.png"\] Alt text: MID server request authentication process.
 
--   **[Configure a JAR file and credential identifiers](../task/configure-and-import-jar-file.md)**  
+-   **[Configure a JAR file and credential identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-and-import-jar-file.md)**  
 Configure a JAR file and credential identifiers so that the JAR file resolves the credential identifiers into actual credentials from the CyberArk external vault. The process enables the MID Server to get and include OAuth 2.0 credentials in the OAuth token request.
--   **[Configure CyberArk](../task/configure-cyberark.md)**  
+-   **[Configure CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-cyberark.md)**  
 Configure the CyberArk vault to store OAuth 2.0 credentials and respond to requests for OAuth 2.0 credentials from the MID Server.
--   **[Configure a connection to send OAuth request via the MID Server using external vault](../task/configure-oauth-2-0-authentication.md)**  
+-   **[Configure a connection to send OAuth request via the MID Server using external vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-oauth-2-0-authentication.md)**  
 Configure a connection to send requests for OAuth 2.0 tokens to a third-party auth server via the MID Server. The MID Server adds OAuth 2.0 credentials \(Client ID and Client Secret\) from the CyberArk external vault, OAuth scope, and token URL from the instance to the request and sends them to the third-party auth server.
 
-**Parent Topic:**[External credential storage](c_ExternalCredentialStorage.md)
+**Parent Topic:**[External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md)
 

@@ -2,6 +2,7 @@
 title: SimilaritySolutionStore - Global
 description: Enables storing and retrieving solutions.Adds a new solution object to the store and returns a unique name. Removes a specified solution object from the store.Gets a solution object from the store.Gets the names of all solution definition records in the store.Replaces an existing object in the store with the object passed as a parameter. The object name provided must be empty or match.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SimilaritySolutionStoreAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ Enables storing and retrieving solutions.
 
 The SimilaritySolutionStore API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SimilaritySolutionStore - add\(Object mlSolution\)
 
@@ -27,7 +28,7 @@ Adds a new solution object to the store and returns a unique name.
 
 |Name|Type|Description|
 |----|----|-----------|
-|mlSolution|[SimilaritySolution](../../SimilaritySolution/concept/SimilaritySolutionAPI.md#)|[SimilaritySolution\(\)](../../SimilaritySolution/concept/SimilaritySolutionAPI.md#) object to add to the store.|
+|mlSolution|[SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)|[SimilaritySolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md) object to add to the store.|
 
 |Type|Description|
 |----|-----------|
@@ -65,7 +66,7 @@ Removes a specified solution object from the store.
 
 |Name|Type|Description|
 |----|----|-----------|
-|name|String|Name of the [SimilaritySolution\(\)](../../SimilaritySolution/concept/SimilaritySolutionAPI.md#) object to be deleted.|
+|name|String|Name of the [SimilaritySolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md) object to be deleted.|
 
 |Type|Description|
 |----|-----------|
@@ -87,9 +88,9 @@ Gets a solution object from the store.
 
 |Type|Description|
 |----|-----------|
-|Object|[SimilaritySolution](../../SimilaritySolution/concept/SimilaritySolutionAPI.md#) object. Returns an error if the object does not exist.|
+|Object|[SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md) object. Returns an error if the object does not exist.|
 
-The following example shows how to get a solution object from the store using the get\(\) method and view its training status using the [SimilaritySolution - getActiveVersion\(\)](../../SimilaritySolution/concept/SimilaritySolutionAPI.md#) and [SimilaritySolutionVersion - getStatus\(\)](../../SimilaritySolutionVersion/concept/SimilaritySolutionVersionAPI.md#) methods.
+The following example shows how to get a solution object from the store using the get\(\) method and view its training status using the [SimilaritySolution - getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md) and [SimilaritySolutionVersion - getStatus\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionVersionAPI.md) methods.
 
 ```
 // Get status
@@ -164,7 +165,7 @@ String
 
 </td><td>
 
-Optional. Name of the domain for your solution object. Refer to [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md).
+Optional. Name of the domain for your solution object. Refer to Domain separation and Predictive Intelligence.
 
 </td></tr><tr><td>
 
@@ -176,7 +177,7 @@ String
 
 </td><td>
 
-Optional. Name of an [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md) for your solution object.
+Optional. Name of an application scope for your solution object.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -228,7 +229,7 @@ Replaces an existing object in the store with the object passed as a parameter. 
 |Name|Type|Description|
 |----|----|-----------|
 |name|String|Name of the solution to update.|
-|mlSolution|[SimilaritySolution](../../SimilaritySolution/concept/SimilaritySolutionAPI.md#)|[SimilaritySolution\(\)](../../SimilaritySolution/concept/SimilaritySolutionAPI.md#) object properties to update.|
+|mlSolution|[SimilaritySolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md)|[SimilaritySolution\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SimilaritySolutionAPI.md) object properties to update.|
 
 |Type|Description|
 |----|-----------|

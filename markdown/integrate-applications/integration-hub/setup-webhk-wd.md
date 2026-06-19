@@ -2,6 +2,7 @@
 title: Set up webhook for your Workday Financials spoke
 description: Set up a webhook to get the data from the Workday Financials application to your ServiceNow instance when an event occurs.Generate user name and password in your ServiceNow instance to authenticate requests and retrieve the required data from the Workday application.Retrieve the resource path from your ServiceNow instance for later use to authenticate requests and retrieve the required data from the Workday applicationImport CLAR file available at ServiceNow Store to set up webhooks and authenticate requests from ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhk-wd.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Set up a webhook to get the data from the Workday Financials application to your
 
 ## Before you begin
 
--   [Set up the Workday Financials spoke](setup-workday-fin-spoke.md#)
+-   [Set up the Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md)
 -   Role required: admin
 
 ## Generate user name and password in your ServiceNow instance
@@ -85,7 +86,7 @@ Import CLAR file available at ServiceNow Store to set up webhooks and authentica
     -   Create custom report in Workday based on the Purchase\_order\_report structure and share the report with ISU user.
     -   Ensure that you select all companies in company prompt in report.
 
-        ![Prompt instructions](../image/prompt-instructions-wd-fin.png)
+        \[Omitted image "prompt-instructions-wd-fin.png"\] Alt text: Prompt instructions
 
 -   Access to edit business process definition.
 -   Access to create and edit integration system.
@@ -103,25 +104,25 @@ Import CLAR file available at ServiceNow Store to set up webhooks and authentica
 
 4.  In the **Properties** tab of the **StartHere** component, navigate to **Services** and select the RAAS report created for this webhook.
 
-    ![Configure the StartHere properties](../image/conf-starthere-wd-fin.png)
+    \[Omitted image "conf-starthere-wd-fin.png"\] Alt text: Configure the StartHere properties
 
 5.  Choose the environment where your report exists such as, implementation or sandbox, and configure the report as per your requirement.
 
 6.  Provide a report name and select the required report.
 
-    ![Provide purchase order name](../image/provide-purchase-order-wd-fin.png)
+    \[Omitted image "provide-purchase-order-wd-fin.png"\] Alt text: Provide purchase order name
 
 7.  Provide the alias name of the report.
 
-    ![Alias](../image/alias-box-wd-fin.png)
+    \[Omitted image "alias-box-wd-fin.png"\] Alt text: Alias
 
 8.  After the report alias is added, add the selected path of report in **Extra Path** that is used to run the report based on prompt.
 
-    ![Extra Path](../image/extra-path-wd-fin.png)
+    \[Omitted image "extra-path-wd-fin.png"\] Alt text: Extra Path
 
 9.  In the **Set Headers** component, provide your Workday instance for the **WorkdayInstance** header.
 
-    ![Set headers](../image/set-headers-wd-fin.png)
+    \[Omitted image "set-headers-wd-fin.png"\] Alt text: Set headers
 
 10. In the properties of **HttpOut**, fill in these values.
 
@@ -139,7 +140,7 @@ Endpoint
 
 </td><td>
 
-REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](setup-webhk-wd.md#) for more information.
+REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -150,7 +151,7 @@ Http Method
 POST
 
 </td></tr></tbody>
-</table>    ![Configure the HttpOut properties](../image/httpout-properties-wd.png)
+</table>    \[Omitted image "httpout-properties-wd.png"\] Alt text: Configure the HttpOut properties
 
 11. Save the changes.
 
@@ -158,11 +159,11 @@ POST
 
 13. Log in to your Workday instance and navigate to **Integration** &gt; **Integration System** &gt; **Configure Integration Attributes**.
 
-    ![Configure integration attributes](../image/conf-int-attributes-wd-fin.png)
+    \[Omitted image "conf-int-attributes-wd-fin.png"\] Alt text: Configure integration attributes
 
-14. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance](setup-webhk-wd.md#).
+14. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md).
 
-    ![Configure username and password](../image/username-password-wd.png)
+    \[Omitted image "username-password-wd.png"\] Alt text: Configure username and password
 
 15. Modify a business process and add this integration in your business process.
 
@@ -172,7 +173,7 @@ POST
 
         If within one customer environment there are more than one purchase order business processes, all the business processes should be configured to enable this webhook for all purchase orders
 
-        ![Edit definition](../image/edit-definition-fin.png)
+        \[Omitted image "edit-definition-fin.png"\] Alt text: Edit definition
 
     3.  Select the effective date and click **Ok**.
 
@@ -182,23 +183,23 @@ POST
 
     6.  Select **Type** as **Integration**.
 
-        ![Select integration type](../image/integration-type-fin.png)
+        \[Omitted image "integration-type-fin.png"\] Alt text: Select integration type
 
     7.  Provide ISU username in **Run as User** and click **Ok**.
 
     8.  Click **Configure Integration** on the newly added business process step in hire BP.
 
-        ![Configure integration button](../image/conf-int-button-fin.png)
+        \[Omitted image "conf-int-button-fin.png"\] Alt text: Configure integration button
 
     9.  On the Configuration Integration Step page, click **Ok**.
 
     10. In integration criteria, select value type as **Determine value at runtime** and select value as **PO Number**.
 
-        ![Determine value at runtime](../image/determine-value-runtime-wd-fin.png)
+        \[Omitted image "determine-value-runtime-wd-fin.png"\] Alt text: Determine value at runtime
 
         Selected **PO Number** should be as shown below.
 
-        ![Employee ID field](../image/emp-id-fin.png)
+        \[Omitted image "emp-id-fin.png"\] Alt text: Employee ID field
 
     11. Click **Ok**.
 
@@ -206,18 +207,18 @@ POST
 
         Purchase Order report definition:
 
-        ![Purchase Order report definition](../image/po-report-wd-fin.png)
+        \[Omitted image "po-report-wd-fin.png"\] Alt text: Purchase Order report definition
 
         Column labels:
 
-        ![Column labels](../image/col-names-wd-fin.png)
+        \[Omitted image "col-names-wd-fin.png"\] Alt text: Column labels
 
         Filter:
 
-        ![Filter](../image/filter-wd-fin.png)
+        \[Omitted image "filter-wd-fin.png"\] Alt text: Filter
 
         Prompt default:
 
-        ![Prompt defaults](../image/prompt-defaults-wd-fin.png)
+        \[Omitted image "prompt-defaults-wd-fin.png"\] Alt text: Prompt defaults
 
 

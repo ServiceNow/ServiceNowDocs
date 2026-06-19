@@ -2,6 +2,7 @@
 title: OCRotationV2 - Global
 description: The OCRotationV2 script include is an extension of OCRotation script include, which is used by Fullcalendar.io and the DHTMLX On-Call Calendar.Returns an array of groups that have active rotas.Returns an array of active rosters for a given rota ID.Returns an array of active rotas for a given group ID.Get the spans from the specified start date to the specified end date. If no start and end dates are provided, the start date defaults to a month before and the end date defaults to a month after the current time. You can also use the groups IDs, rota IDs, roster IDs, user IDs to further filter the spans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_OCRotationV2.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The OCRotationV2 script include is an extension of OCRotation script include, wh
 
 Use this script include to obtain the schedule time span between two dates that are further filtered by groups, rotas, rosters, and users. You can also extend OCRotationV2 to add or modify behavior. This is part of On-Call Scheduling.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## OCRotationV2 - getGroups\(\)
 

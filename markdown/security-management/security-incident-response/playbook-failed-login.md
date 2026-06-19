@@ -2,6 +2,7 @@
 title: Playbook for Failed Login Manual
 description: The Failed Login Manual playbook provides guidance and helps optimize the investigation of failed login security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-failed-login.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -34,10 +35,10 @@ Once you mark a task complete in a stage, you can move to the next task. You can
 
 After you complete all the tasks, you’re asked to review the details you entered in all the stages. You can choose to edit any field or click Finish to complete the process of creating the entitlement.
 
--   **[Create processes for Failed Login Manual in PAD](../task/create-process-failed-login-manual.md)**  
+-   **[Create processes for Failed Login Manual in PAD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-process-failed-login-manual.md)**  
 Use these steps to create processes for Failed Login Manual in the Process Automation Designer \(PAD\).
--   **[Using the Failed Login Manual playbook](../task/using-failed-login-manual-playbook.md)**  
+-   **[Using the Failed Login Manual playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-failed-login-manual-playbook.md)**  
 Use these steps to learn how you can use the Failed Login Manual playbook in the SIR Analyst Workspace and its capabilities.
 
-**Parent Topic:**[Process-based Playbooks](../../security-incident-response/concept/playbooks-process-based.md)
+**Parent Topic:**[Process-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbooks-process-based.md)
 

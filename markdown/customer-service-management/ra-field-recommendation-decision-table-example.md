@@ -2,7 +2,10 @@
 title: Example: Recommend an assignment group for a router issue
 description: Learn how process analysts or business owners configure a recommended action of type field recommendation to recommend an assignment group for a router issue. This field recommendation uses a resource generator of type decision table that takes the router model and router issue as inputs and provides an assignment group as a result.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-field-recommendation-decision-table-example.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -29,9 +32,9 @@ Help Alisha configure a recommended action of type field recommendation that rec
 
 |Task|Description|
 |----|-----------|
-|[Creating a decision table for recommending assignment groups](ex-decision-tree-for-assgment-grp-recommendation.md)|Configure a decision table that takes product and problem as inputs to provide the assignment group as an output. You can use this decision table in a resource generator.|
-|[Configure a resource generator for providing assignment group as an outcome](../task/ex-resorce-generator-assignment-grp.md)|Configure a resource generator that you can use while configuring a field recommendation to provide the appropriate assignment group for the router issue.|
-|[Create a field recommendation for recommending assignment group field value](../task/ex-create-field-recommendation-assg-grp.md)|Create an action of type field recommendation for recommending a field value for the assignment group.|
-|[Create a rule from the Case context record](../task/ex-create-rule.md)|Create a rule to show recommendations for active cases that meet the condition specified in this rule.|
-|[Create a recommendation with the field recommendation as an action type](../task/ex-create-recommendation-field.md)|Create a recommendation to surface the recommendation for the assignment group field value on a case record.|
+|[Creating a decision table for recommending assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ex-decision-tree-for-assgment-grp-recommendation.md)|Configure a decision table that takes product and problem as inputs to provide the assignment group as an output. You can use this decision table in a resource generator.|
+|[Configure a resource generator for providing assignment group as an outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ex-resorce-generator-assignment-grp.md)|Configure a resource generator that you can use while configuring a field recommendation to provide the appropriate assignment group for the router issue.|
+|[Create a field recommendation for recommending assignment group field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ex-create-field-recommendation-assg-grp.md)|Create an action of type field recommendation for recommending a field value for the assignment group.|
+|[Create a rule from the Case context record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ex-create-rule.md)|Create a rule to show recommendations for active cases that meet the condition specified in this rule.|
+|[Create a recommendation with the field recommendation as an action type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ex-create-recommendation-field.md)|Create a recommendation to surface the recommendation for the assignment group field value on a case record.|
 

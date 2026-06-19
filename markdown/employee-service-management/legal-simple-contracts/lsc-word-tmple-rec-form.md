@@ -2,6 +2,7 @@
 title: Word Template New Record form
 description: The Word Template New Record form is used to create document template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/lsc-word-tmple-rec-form.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -53,7 +54,7 @@ Document
 
 </td><td>
 
-The document from which you want to import template field mapping. The selected document should be a Microsoft Word \(.docx\) document and should have valid content controllers. For more information, see [Add content controls in a Microsoft Word document](../task/lsc-cont-contr-word-tmplt.md).
+The document from which you want to import template field mapping. The selected document should be a Microsoft Word \(.docx\) document and should have valid content controllers. For more information, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-cont-contr-word-tmplt.md).
 
 </td></tr><tr><td>
 
@@ -128,5 +129,5 @@ If you specify an end date, you must also specify a start date.
  This field is available only when **Category** is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Simple Contracts reference](legal-simple-contracts-reference.md)
+</table>**Parent Topic:**[Legal Simple Contracts reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-simple-contracts-reference.md)
 

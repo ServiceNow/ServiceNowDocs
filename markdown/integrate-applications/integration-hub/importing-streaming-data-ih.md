@@ -2,6 +2,7 @@
 title: Importing and streaming data in Integration Hub
 description: Import data with Integration Hub - Import or stream data from your Apache Kafka environment with Stream Connect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/importing-streaming-data-ih.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -27,10 +28,10 @@ Stream Connect links your Kafka environment to your ServiceNow instance, enablin
 
 Stream Connect is integrated with Workflow Studio, so you can build flows that produce and consume Kafka events. Stream Connect also provides several consumers that enable you to stream and process data with scripts or by using your existing RTE or transform map configurations.
 
--   **[Integration Hub - Import](integrationhub-imports.md)**  
+-   **[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md)**  
 Automate data import tasks through a consolidated interface that provides a guided, step-by-step experience. Define external data sources, specify target tables, map how source data becomes target data, and schedule regular imports.
--   **[Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md)**  
+-   **[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)**  
 Connect your Apache Kafka environment to your ServiceNow instance with Stream Connect for Apache Kafka.
 
-**Parent Topic:**[Integration Hub](integrationhub.md)
+**Parent Topic:**[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)
 

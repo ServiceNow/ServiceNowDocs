@@ -2,11 +2,14 @@
 title: Search for a solution in Employee Center
 description: Resolve a user's issue by searching for a relevant solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/search-solution-native-ai-itsm.html
 release: australia
+product: IT Service Management
+classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
+breadcrumb: [Employee experience using Employee Center, Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Search for a solution in Employee Center
@@ -23,11 +26,11 @@ Role required: none
 
 2.  In the search bar, specify the issue.
 
-    ![](../image/ai-native-search.png)
+    \[Omitted image "ai-native-search.png"\] Alt text:
 
 3.  Use the Now Assist conversational experience to explain your issue.
 
-    ![AI-native Employee portal conversation](../image/AINativeConversation.png)
+    \[Omitted image "AINativeConversation.png"\] Alt text: AI-native Employee portal conversation
 
     Now Assist generates recommended solutions for your issue along with reference to content sources.
 
@@ -36,5 +39,5 @@ Role required: none
 5.  If the solutions aren’t relevant, proceed with incident creation or checking the request status.
 
 
-**Parent Topic:**[Employee experience in Simplified IT Service Management](../concept/employee-experience-native-ai-itsm.md)
+**Parent Topic:**[Employee experience using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
 

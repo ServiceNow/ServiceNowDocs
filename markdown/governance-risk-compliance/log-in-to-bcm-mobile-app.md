@@ -2,6 +2,7 @@
 title: Log in to the BCM mobile application
 description: Open the BCM mobile app and add a ServiceNow AI Platform instance with BCM to your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/log-in-to-bcm-mobile-app.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Open the BCM mobile app and add a ServiceNow AI Platform® instance with BCM to 
 
 Role required: sn\_bcm.manager
 
-Verify that you have completed the setup steps described in [Set up the BCM mobile application](configure-mobile-app-setup.md).
+Verify that you have completed the setup steps described in [Set up the BCM mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-mobile-app-setup.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ Verify that you have completed the setup steps described in [Set up the BCM mobi
 
 2.  If the ServiceNow AI Platform instance with the BCM core application isn’t already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the plus icon \(![Plus icon.](../../grc-common/image/mobile_instances_plus.png)\).
+    1.  On the Instances screen that is displayed, tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\).
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 
@@ -50,7 +51,7 @@ Enter the instance address or scan a QR code.
 Choose one to continue:-   Before the `.service-now.com` in the field, enter the name of your ServiceNow AI Platform instance, for example, `bcm-mobile`.
 -   Enter an address. This address is the URL of your ServiceNow AI Platform instance that you want to view on your mobile device.
 -   Scan a QR code.
- For more information about the mobile app, see "Log in to an instance with the mobile app" on the [ServiceNow product documentation website.](https://servicenow.com/docs)
+ For more information about the mobile app, see "Log in to an instance with the mobile app" on the [ServiceNow product documentation website.](https://www.servicenow.com/docs)
 
 </td></tr><tr><td>
 

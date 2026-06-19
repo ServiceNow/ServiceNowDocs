@@ -2,6 +2,7 @@
 title: Initialize the NowSDK in your application
 description: To access the functionality provided by the NowSDK, you must first initialize the NowSDK in your application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-init-nowsdk-in-app.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -89,7 +90,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ## Guest users
 
-If the current user is not authenticated, it is possible to for them to access SDK functionality as a guest. To indicate that the current user is a guest, the requestAuthorization function in the authorization provider should complete with a guest type of AuthorizationToken, as shown below. The token value in this case is not important so long as the AuthorizationTokenType is set to `.guest`. For additional information on guest users, see [Configure guest user access](../../task/mobsdk-config-guest-access.md).
+If the current user is not authenticated, it is possible to for them to access SDK functionality as a guest. To indicate that the current user is a guest, the requestAuthorization function in the authorization provider should complete with a guest type of AuthorizationToken, as shown below. The token value in this case is not important so long as the AuthorizationTokenType is set to `.guest`. For additional information on guest users, see [Configure guest user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/mobsdk-config-guest-access.md).
 
 ```
 //  GuestTokenProvider.swift 

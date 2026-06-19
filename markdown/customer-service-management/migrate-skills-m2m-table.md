@@ -2,11 +2,14 @@
 title: Migrate skills to the Task Skill table
 description: Migrate data from the Skills field to the Task Skills table to utilize mandatory skills support for executing tasks in a case or work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migrate-skills-m2m-table.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Mandatory skills, Configure Skills Management, Configure case routing and assignment, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Mandatory skills, Configure Skills Management, Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Migrate skills to the Task Skill table
@@ -27,17 +30,17 @@ In the Field Service Management application, the work order task assignments don
 
 ## Procedure
 
-1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) with the following settings.
+1.  Add a system property with the following settings.
 
-<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d213263e84">
+<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d210645e84">
 
 Option
 
-</th><th align="left" id="d213263e87">
+</th><th align="left" id="d210645e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d213263e93">
+</th></tr></thead><tbody><tr><td id="d210645e93">
 
 **Create a system property for a table in the Customer Service Management application.**
 
@@ -49,7 +52,7 @@ Make sure that you are logged in to the Customer Service Management application.
 
 In the **Suffix** field, enter the name of the system property as follows:**com.snc.skills\_management.&lt;table\_name&gt;\_migrate\_skills**, where &lt;table\_name&gt; is the name of a case task table from which the skills need to be copied.
 
-</td></tr><tr><td id="d213263e118">
+</td></tr><tr><td id="d210645e118">
 
 **Create a system property for a table in the Field Service Management application.**
 

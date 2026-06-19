@@ -2,6 +2,7 @@
 title: Configure the HR case creation form for an HR service
 description: Configure the fields that appear on the HR case creation form for an HR service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-case-creation-form-for-hr-service.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -65,7 +66,7 @@ Left task fields
 
 </td><td>
 
-Fields to add on the left side of the form.**Note:** Only fields added to the Left task fields appear on the User segment groups form. Fields added to the Right task fields do not appear o the User segment groups form. For more information, see [Create a user segment group](bulk-case-segment.md).
+Fields to add on the left side of the form.**Note:** Only fields added to the Left task fields appear on the User segment groups form. Fields added to the Right task fields do not appear o the User segment groups form. For more information, see [Create a user segment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/bulk-case-segment.md).
 
 </td></tr><tr><td>
 
@@ -97,11 +98,11 @@ You are part of an enterprise HR organization using the HR Service Delivery appl
 
 To do this, you need to configure the HR case creation form for tuition reimbursement HR services to include additional fields that ask for the school or program name, course title, course justification, course start date, and course end date. So you create a case creation service configuration record and associate it with the HR Total Rewards Case \[sn\_hr\_core\_case\_total\_rewards\] table. For the left, right, and bottom task fields, you add the additional fields you want to appear on the form.
 
-![Fill in the relevant fields on the HR case creation configuration form.](../image/hr-case-creation-configuration-record.png)
+\[Omitted image "hr-case-creation-configuration-record.png"\] Alt text: Fill in the relevant fields on the HR case creation configuration form.
 
 Once the configuration is complete, HR agents that select the tuition reimbursement request service from the **Create New Case** module will see the additional fields that you added. This enables the HR agent to collect the relevant information before beginning work on the case.
 
-![And this is how the configured fields appear on the HR creation form.](../image/hr-case-creation-config-example.png)
+\[Omitted image "hr-case-creation-config-example.png"\] Alt text: And this is how the configured fields appear on the HR creation form.
 
-**Parent Topic:**[Configure an HR service](configure-hr-service.md)
+**Parent Topic:**[Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md)
 

@@ -2,6 +2,7 @@
 title: Requirement form
 description: Use the requirement form to add a new requirement to a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/requirement-form.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -96,5 +97,5 @@ Description
 Detailed description of the requirement and any associated tasks. For example, you can use this field to describe an expected outcome or result.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
 

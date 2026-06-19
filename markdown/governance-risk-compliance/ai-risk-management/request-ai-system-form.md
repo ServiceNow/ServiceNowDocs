@@ -2,6 +2,7 @@
 title: Request an AI use case form
 description: The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-ai-system-form.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -51,7 +52,7 @@ The following options are available.
 -   Deployed
 -   Development
 
-For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md).**Note:** This field is available in the Request an AI use case form on the Employee Center.
+For more information on states, see .**Note:** This field is available in the Request an AI use case form on the Employee Center.
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ Select one or more business applications to associate with the AI system.
 
  Associating a business application creates an association between the AI system and the selected application.
 
- For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md).
+ For more information, see .
 
  **Note:**
 
@@ -294,5 +295,5 @@ Additional use and purpose details
 Additional information or context that helps clarify the specific use and purpose of this AI system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request an AI use case](../task/request-ai-system.md)
+</table>**Parent Topic:**[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md)
 

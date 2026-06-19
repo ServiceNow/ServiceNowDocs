@@ -2,6 +2,7 @@
 title: Metadata exception list
 description: The following list of tables are not supported by the ATF tests failure resolution feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-metadata-exception-triage.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -58,5 +59,5 @@ The following list of tables are not supported by the ATF tests failure resoluti
 -   sc\_cat\_item\_content
 -   catalog\_script\_client
 
-**Parent Topic:**[Accelerate ATF tests failure resolution](../task/atf-test-triage.md)
+**Parent Topic:**[Accelerate ATF tests failure resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-triage.md)
 

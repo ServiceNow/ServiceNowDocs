@@ -2,6 +2,7 @@
 title: Configure SAP Fieldglass connection record
 description: Configure the connection record to enable your ServiceNow instance to connect with the SAP Fieldglass tenant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-sap-fieldglass-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

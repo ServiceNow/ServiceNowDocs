@@ -2,6 +2,7 @@
 title: Enable external or public users to view knowledge articles from the Knowledge Management Service Portal
 description: Enable knowledge articles on the Knowledge Management Service Portal to be visible to external or public users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/make-knowledge-visible-to-public.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -61,7 +62,7 @@ Make knowledge service portal pages visible to external users
 
 </td><td>
 
-1.  On the Page form, in the **Roles** field, select the edit user roles icon ![Edit User Roles icon.](../image/edit-user-roles.png).
+1.  On the Page form, in the **Roles** field, select the edit user roles icon \[Omitted image "edit-user-roles.png"\] Alt text: Edit User Roles icon..
 2.  On the Roles form, move **snc\_external** from the available roles in the **Available** column to the **Selected** column.
 3.  On the Roles form, select **Done**.
 4.  On the Page form, select **Update**.
@@ -77,8 +78,8 @@ Make knowledge service portal pages visible to external users
     |Enable access to the knowledge base for public.|After you set the page to public as described in step 3, configure user criteria for your knowledge bases by navigating to **All** &gt; **Knowledge** &gt; **Administration** &gt; **Knowledge Bases**, and opening the record for each knowledge base. In each record you can use the **Can Read** related list to add the public role.|
     |Enable access to the knowledge base for external users.|After you add the snc\_external role to the page as described in step 3, ensure that external users have read access to the knowledge bases for which you want to give access.|
 
-    For more information about providing access to knowledge bases, see [Managing access to knowledge bases and knowledge articles](../concept/user-access-knowledge.md).
+    For more information about providing access to knowledge bases, see [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/user-access-knowledge.md).
 
 
-**Parent Topic:**[Configure the Knowledge Management Service Portal](../concept/knowledge-management-service-portal.md)
+**Parent Topic:**[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
 

@@ -2,6 +2,7 @@
 title: Request generative AI capabilities in Financial Services Operations with Now Assist panel
 description: Request the contextual generative AI capabilities, such as a case summary, in the Financial Services Operations \(FSO\) application by using the conversational interface in the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/request-generative-ai-capabilities-in-fso.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -18,7 +19,7 @@ Request the contextual generative AI capabilities, such as a case summary, in th
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
+Make sure that Next Experience is enabled in the instance. For more information, see .
 
 Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispute\_manager, sn\_bom\_credit\_card.dispute\_viewer, sn\_bom\_credit\_card.contributor, sn\_bom.b2c\_agent, sn\_bom.b2b\_agent, sn\_bom.adjuster, sn\_bom.fnol\_representative
 
@@ -28,7 +29,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 
 You can use the Now Assist panel in Financial Services Workspace to request a case summary.
 
-For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+For more information about the Now Assist panel, see . For information about activating the Now Assist panel, see .
 
 ## Procedure
 
@@ -36,32 +37,32 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 2.  Log in to an instance where the Now Assist for FSO application is installed.
 
-3.  Request the generative AI capabilities in FSO for a case by selecting the Now Assist icon ![Now assist icon.](../../../common/image/icon-ai-sparkle.png).
+3.  Request the generative AI capabilities in FSO for a case by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon..
 
-    ![Now Assist panel with case summarization generation.](../image/now-assist-fso-panel.png "Now Assist Panel")
+    \[Omitted image "now-assist-fso-panel.png"\] Alt text: Now Assist panel with case summarization generation.
 
 4.  After you request the generative AI capabilities, you can summarize a case.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28786e224">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d29244e221">
 
 Option
 
-</th><th align="left" id="d28786e227">
+</th><th align="left" id="d29244e224">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28786e233">
+</th></tr></thead><tbody><tr><td id="d29244e230">
 
 **Summarize a case**
 
 </td><td>
 
 1.  Open the case.
-2.  From the header menu, select the Now Assist icon ![Now assist icon.](../../../common/image/icon-ai-sparkle.png).
+2.  From the header menu, select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon..
 3.  In the Now Assist panel, select **Summarize a record**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](../concept/using-now-assist-for-financial-services-operations-fso.md)
+**Parent Topic:**[Using generative AI in Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/using-now-assist-for-financial-services-operations-fso.md)
 

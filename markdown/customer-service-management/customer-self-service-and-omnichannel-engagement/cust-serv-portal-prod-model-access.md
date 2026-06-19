@@ -2,13 +2,14 @@
 title: Limit access to product model data on the Customer Service Portal
 description: Use a system property to limit customer access to data in the Product Models table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/cust-serv-portal-prod-model-access.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer and Consumer Service Portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Limit access to product model data on the Customer Service Portal

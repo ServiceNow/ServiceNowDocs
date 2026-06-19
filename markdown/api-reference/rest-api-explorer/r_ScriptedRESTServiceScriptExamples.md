@@ -2,6 +2,7 @@
 title: Scripted REST API example - script samples
 description: These examples demonstrate how to create various resource scripts for a scripted REST API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/r\_ScriptedRESTServiceScriptExamples.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -334,5 +335,5 @@ Set-Cookie: BIGipServerpool_<Instance>=880838154.47166.0000; path=/
 {"result":{"id":1234,"id1":5678,"name":"user0","name1":"user1"}}
 ```
 
-**Parent Topic:**[Scripted REST API examples](../concept/c_ScriptedRESTAPIExamples.md)
+**Parent Topic:**[Scripted REST API examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_ScriptedRESTAPIExamples.md)
 

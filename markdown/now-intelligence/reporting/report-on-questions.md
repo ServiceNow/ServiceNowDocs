@@ -2,6 +2,7 @@
 title: Report on questions
 description: Report on selected questions by grouping or filtering on them.You can create reports grouped or stacked by questions, as well as create filters on the same questions. For example, you can create a report that shows customer responses of their reasons for requesting help, or descriptions of their issues.Create reports additionally grouped by selected questions. You can also create filters on the same questions. For example, you can create a report that shows customer responses of their reasons for requesting help, or descriptions of their issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/report-on-questions.html
 release: australia
 product: Reporting
 classification: reporting
@@ -39,9 +40,9 @@ If there is a Record Producer associated with the table, variables defined in th
 -   Macro
 -   Container
 
-You cannot group by Record Producer variables. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
+You cannot group by Record Producer variables. For more information, see Record Producer.
 
-**Parent Topic:**[Advanced Core UI reporting topics](c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Group or stack a report by questions
 
@@ -69,13 +70,13 @@ You can apply these steps to any report type as long as the report source has qu
 
 5.  On the **Configure** tab, select **Questions** from the **Group by** or **Stack by** filters.
 
-    ![Configure tab > group by or stack by questions](../image/group-by-questions.png)
+    \[Omitted image "group-by-questions.png"\] Alt text: Configure tab &gt; group by or stack by questions
 
 6.  Search for and select questions associated with the category to group or stack by.
 
 7.  Continue to configure and style the report according to its report type.
 
-    See [Report types](../reference/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
 ## Add additional group by questions to a report
@@ -104,18 +105,18 @@ You can apply these steps to any report type as long as the report source has qu
 
 6.  Click **Additional group by**.
 
-7.  Select **Questions \[+\]** and click the structure icon \(![](../image/Form_ShowReportStructureIcon.png)\) to choose an item.
+7.  Select **Questions \[+\]** and click the structure icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text:\) to choose an item.
 
-    ![Additional group by slushbucket](../image/additional-group-by-question.png)
+    \[Omitted image "additional-group-by-question.png"\] Alt text: Additional group by slushbucket
 
 8.  Select a question category.
 
-    The variable questions associated with the category appear in the **Additional group by** window.![Additional group by questions](../image/additional-group-by-selected-questions.png)
+    The variable questions associated with the category appear in the **Additional group by** window.\[Omitted image "additional-group-by-selected-questions.png"\] Alt text: Additional group by questions
 
 9.  Add the desired questions to the **Selected** column and click **OK**.
 
 10. Continue to configure and style the report according to its report type.
 
-    See [Creating reports](../reference/report-types-creation-details-rd.md).
+    See [Creating reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 

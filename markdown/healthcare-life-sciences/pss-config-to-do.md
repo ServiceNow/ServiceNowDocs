@@ -2,6 +2,7 @@
 title: Configuring the patient portal to add a to-dos menu item for enrollment request tasks
 description: Enable the to-dos menu item on a patient portal to display to-do items for enrollment requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-config-to-do.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,5 +20,5 @@ Starting with the Yokohama release, Patient Support Services is being prepared f
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-As a patient portal administrator, you can include a to-dos menu item on the patient portal for listing the enrollment request tasks. By default, the hcls\_todos page provided with the Healthcare and Life Sciences Service Management Core application is pre-configured to display to-do items for patients. You can add a menu item to the header menu of the patient portal to access the hcls\_todos page. For more information, see [Configure the service portal to add a to-dos menu item for completing healthcare-related tasks](../task/hcls-config-to-do.md).
+As a patient portal administrator, you can include a to-dos menu item on the patient portal for listing the enrollment request tasks. By default, the hcls\_todos page provided with the Healthcare and Life Sciences Service Management Core application is pre-configured to display to-do items for patients. You can add a menu item to the header menu of the patient portal to access the hcls\_todos page. For more information, see [Configure the service portal to add a to-dos menu item for completing healthcare-related tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-to-do.md).
 

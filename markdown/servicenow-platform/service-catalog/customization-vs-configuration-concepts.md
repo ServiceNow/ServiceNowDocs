@@ -2,6 +2,7 @@
 title: Customization vs configuration
 description: There are important differences between customizing and configuring ServiceNow applications. The ServiceNow platform is built to embrace customization and configuration but how you do so can have significant impacts on ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/customization-vs-configuration-concepts.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -81,7 +82,7 @@ Customizations trigger the platform to create sys\_update\_xml records, which ar
 
 **Note:** The Customer Update table also contains modifications or additions to configuration metadata, for example, creating a new catalog item or a new workflow.
 
-For more information, see the [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CustomerUpdatesTable.md). Note that the complexity of maintaining customizations dramatically increases as the number of customizations increases.
+For more information, see the . Note that the complexity of maintaining customizations dramatically increases as the number of customizations increases.
 
 Customizing the installed code base can be costly, generate technical debt, lengthen your upgrade cycle, and complicate future platform upgrades because the custom code may not easily migrate to new platform versions. Custom code can change the standard functionality of the ServiceNow platform in unintended ways. Evaluate demands for customization carefully and only resort to customization where there is clear business value and no alternative. Wherever possible, avoid customization by using configuration instead.
 
@@ -140,7 +141,7 @@ If you must make a customization, consider the following suggestions:
 
 ## Handling customizations when you upgrade
 
-Customizations trigger the platform to create sys\_update\_xml records, which are stored in the Customer Updates table. These records are not updated during platform version upgrades. ServiceNow marks them as skipped records in the ServiceNow Upgrade Monitor. To make sure they’re successfully ported to the upgraded instance, you must manually process the skipped changes. For more information, see the [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_CustomerUpdatesTable.md).
+Customizations trigger the platform to create sys\_update\_xml records, which are stored in the Customer Updates table. These records are not updated during platform version upgrades. ServiceNow marks them as skipped records in the ServiceNow Upgrade Monitor. To make sure they’re successfully ported to the upgraded instance, you must manually process the skipped changes. For more information, see the .
 
 Assuming you’ve documented all your customizations—including the business justification—take your documented inventory and compare it with the skipped records identified in the Upgrade Monitor. After filtering out low-risk changes that have resulted in skipped records \(for example, field labels or form layouts\), you’ll need to decide whether to:
 
@@ -148,5 +149,5 @@ Assuming you’ve documented all your customizations—including the business ju
 -   Revert to out-of-the-box
 -   Merge your customization with the base system to resolve conflicts
 
-**Parent Topic:**[Service Catalog customization](../../product/service-catalog-management/topic/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

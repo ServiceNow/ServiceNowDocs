@@ -2,6 +2,7 @@
 title: System properties for display value and header
 description: Use system properties to export the display value or raw value of fields and the field label or field name for headers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/system-properties-display-value-header.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -112,7 +113,7 @@ XLSX
 
     **glide.export.csv.column\_header\_label** = **false** \(default\)
 
-    ![Example: glide.export.csv.raw.value = false and glide.export.csv.column_header_label = false](../image/csv-export-default.png)
+    \[Omitted image "csv-export-default.png"\] Alt text: Example: glide.export.csv.raw.value = false and glide.export.csv.column\_header\_label = false
 
 -   **Example:**
 
@@ -120,7 +121,7 @@ XLSX
 
     **glide.export.csv.column\_header\_label** = **true**
 
-    ![Example: glide.export.csv.raw.value = true and glide.export.csv.column_header_label = true](../image/csv-export-true.png)
+    \[Omitted image "csv-export-true.png"\] Alt text: Example: glide.export.csv.raw.value = true and glide.export.csv.column\_header\_label = true
 
 
 ## Excel
@@ -131,7 +132,7 @@ XLSX
 
     **glide.export.excel.column\_header\_label** = **true** \(default\)
 
-    ![Example: glide.export.excel.display_value = true and glide.export.excel.column_header_label = true](../image/excel-export-default.png)
+    \[Omitted image "excel-export-default.png"\] Alt text: Example: glide.export.excel.display\_value = true and glide.export.excel.column\_header\_label = true
 
 -   **Example:**
 
@@ -139,7 +140,7 @@ XLSX
 
     **glide.export.excel.column\_header\_label** = **false**
 
-    ![Example: glide.export.excel.display_value = false and glide.export.excel.column_header_label = false](../image/excel-export-false.png)
+    \[Omitted image "excel-export-false.png"\] Alt text: Example: glide.export.excel.display\_value = false and glide.export.excel.column\_header\_label = false
 
 
 ## JSON
@@ -148,13 +149,13 @@ XLSX
 
     **glide.json.return\_displayValue** = **false** \(default\)
 
-    ![Example: glide.json.return_displayValue = false](../image/json-export-default.png)
+    \[Omitted image "json-export-default.png"\] Alt text: Example: glide.json.return\_displayValue = false
 
 -   **Example:**
 
     **glide.json.return\_displayValue** = **true**
 
-    ![Example: glide.json.return_displayValue = true](../image/json-export-true.png)
+    \[Omitted image "json-export-true.png"\] Alt text: Example: glide.json.return\_displayValue = true
 
 
 ## XLSX
@@ -165,7 +166,7 @@ XLSX
 
     **glide.export.xlsx.column\_header\_label** = **true** \(default\)
 
-    ![Example: glide.export.xlsx.display_value = true and glide.export.xlsx.column_header_label = true](../image/xlsx-export-default.png)
+    \[Omitted image "xlsx-export-default.png"\] Alt text: Example: glide.export.xlsx.display\_value = true and glide.export.xlsx.column\_header\_label = true
 
 -   **Example:**
 
@@ -173,8 +174,8 @@ XLSX
 
     **glide.export.xlsx.column\_header\_label** = **false**
 
-    ![Example: glide.export.xlsx.display_value = false and glide.export.xlsx.column_header_label = false](../image/xlsx-export-false.png)
+    \[Omitted image "xlsx-export-false.png"\] Alt text: Example: glide.export.xlsx.display\_value = false and glide.export.xlsx.column\_header\_label = false
 
 
-**Parent Topic:**[Data export reference](../reference/data-export-reference.md)
+**Parent Topic:**[Data export reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/data-export-reference.md)
 

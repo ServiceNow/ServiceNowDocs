@@ -2,6 +2,7 @@
 title: Create a review request from Automation Center
 description: Create a review request from Automation Center to request for reviews to review automations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/review-request-from-form.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -27,7 +28,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Automation request form from Automation Center](../reference/automation-request-autocenter-form.md).
+    For a description of the field values, see [Automation request form from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-request-autocenter-form.md).
 
 4.  Select **Submit**.
 
@@ -36,5 +37,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 6.  Select **Update**.
 
 
-**Parent Topic:**[Creating a review request](../concept/creating-review-request.md)
+**Parent Topic:**[Creating a review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-review-request.md)
 

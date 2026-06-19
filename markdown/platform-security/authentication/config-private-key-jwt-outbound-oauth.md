@@ -2,6 +2,7 @@
 title: Configure Private Key JWT for Outbound OAuth
 description: Configure Private Key JWT for outbound OAuth integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/config-private-key-jwt-outbound-oauth.html
 release: australia
 product: Authentication
 classification: authentication
@@ -21,12 +22,12 @@ Role required: oauth\_admin
 
 Before configuring Private Key JWT for outbound OAuth integrations, you must perform the following tasks:
 
--   [Upload Java Key Store certificate](../../../administer/security/task/JWT-Bearer-token-support.md#): Attach a JKS certificate to your instance to use to enable the JWT client authentication.
--   [Configure a JWT signing key](../../../administer/security/task/JWT-Bearer-token-support.md#): Create a JWT signing key to assign to your Java KeyStore \(JKS\) certificate.
+-   [Upload Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md): Attach a JKS certificate to your instance to use to enable the JWT client authentication.
+-   [Configure a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md): Create a JWT signing key to assign to your Java KeyStore \(JKS\) certificate.
 
     **Note:** If you want to add **X.509 Certificate SHA-1 Thumbprint int \(x5t\)** to the header as part of the JWT Key, you must configure the form and add the **X.509 Certificate SHA-1 Thumbprint int \(x5t\)** field.
 
--   [Create a JWT provider with a JWT signing key](../../../administer/security/task/JWT-Bearer-token-support.md#): Add a JWT provider to your ServiceNow instance.
+-   [Create a JWT provider with a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md): Add a JWT provider to your ServiceNow instance.
 
 ## Procedure
 

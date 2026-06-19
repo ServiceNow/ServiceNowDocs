@@ -2,11 +2,12 @@
 title: Healthscan definitions updates: May 2025 store
 description: Some HealthScan definitions are deprecated or updated between releases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/healthscan-definitions-may-store.html
 release: australia
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 8
-breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Platform Health, Using Impact, Impact]
+breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Healthscan definitions updates: May 2025 store
@@ -1047,4 +1048,5 @@ Security
 -   Altered documentation link to be more specific to this issue​
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/healthscan-definitions.md)
+

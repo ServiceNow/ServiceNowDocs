@@ -2,6 +2,7 @@
 title: Assign the user criteria for Can Edit access to a site
 description: Assign the user criteria to a site to define which users can edit the equipment model entities that belong to the selected site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/assign-user-criteria-for-can-edit-access.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -48,5 +49,5 @@ You can assign the user criteria for Can Edit access in two locations:
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Assign or remove equipment model site access for non-administrators](create-user-criteria-for-equipment-model-entity-site-users.md)
+**Parent Topic:**[Assign or remove equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md)
 

@@ -2,12 +2,13 @@
 title: Decision activities
 description: Create and define branches with different conditions for different paths between activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-a-decision-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -23,11 +24,11 @@ Role required: playbook.admin
 
 Add a decision activity to create a decision tree between activities so that agents in Playbook Experience can troubleshoot if-then situations during runtime. Branches are the different paths with different conditions that agents can follow. For example, in a credit card approval playbook:
 
-![Playbook decisions credit card approval example in Diagram view in Workflow Studio](../images/playbook-decisions-example.png)
+\[Omitted image "playbook-decisions-example.png"\] Alt text: Playbook decisions credit card approval example in Diagram view in Workflow Studio
 
 In this example, an agent can take different actions for different credit scores during a decision activity to assess the risk of a credit card applicant.
 
-Decisions are also supported for stages. To learn more, see [Decision stages](create-decision-stage.md).
+Decisions are also supported for stages. To learn more, see [Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-stage.md).
 
 ## Procedure
 
@@ -37,7 +38,7 @@ Decisions are also supported for stages. To learn more, see [Decision stages](cr
 
     The mini-picker displays.
 
-2.  Select the diamond icon ![Diamond decision icon in Diagram view mini-picker.](../images/diagram-decision-icon.png) to add a decision.
+2.  Select the diamond icon \[Omitted image "diagram-decision-icon.png"\] Alt text: Diamond decision icon in Diagram view mini-picker. to add a decision.
 
     A decision is added with two branches and the side panel opens for configuration.
 
@@ -91,7 +92,7 @@ After the activity starts, the activity runs only if specific conditions are met
 
 </td><td>
 
-Specify a duration of time to wait before running an activity whose start rule and conditions have been met. Give users a specific amount of time to complete actions. For more information, see [Start with delay input properties](../reference/start-with-delay-properties.md).
+Specify a duration of time to wait before running an activity whose start rule and conditions have been met. Give users a specific amount of time to complete actions. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ Specify a duration of time to wait before running an activity whose start rule a
 Choose what this activity does when a playbook is restarted:-   **Skip on restart**: Skip this activity when the playbook run is due to a restart.
 -   **Run always**: Always run this activity, including first runs.
 -   **Skip on first run**: Skip this activity during the first run.
-For more information, see [Restart a playbook](restart-a-playbook.md).
+For more information, see [Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restart-a-playbook.md).
 
 </td></tr></tbody>
 </table>4.  Under the **Branches** tab, select your new branch to begin configuring it.
@@ -111,11 +112,11 @@ For more information, see [Restart a playbook](restart-a-playbook.md).
 
     2.  Select the **Add Condition** button.
 
-        The [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) displays.
+        The condition builder displays.
 
         **Note:** Branches can only be added in the side panel.
 
-        ![Playbook decision activity side panel](../images/playbook-decisions-side-panel.png)
+        \[Omitted image "playbook-decisions-side-panel.png"\] Alt text: Playbook decision activity side panel
 
     3.  Select or enter a field, operator, and value.
 
@@ -127,39 +128,12 @@ For more information, see [Restart a playbook](restart-a-playbook.md).
 
 7.  If you selected to **Process only the first one that is true**, drag and drop the branch that you want to be evaluated to the top.
 
-    ![Drag and drop branches in the side panel](../images/playbook-decision-branch-order.gif)
+    \[Omitted image "playbook-decision-branch-order.gif"\] Alt text: Drag and drop branches in the side panel
 
 
 ## Result
 
 You've added and configured decision branches between activities.
 
-**Parent Topic:**[Stages and activities](../concept/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook](add-configure-stage.md)
-
-[Activity definitions](../concept/activity-definitions.md)
-
-[Add and configure an activity in a playbook](add-configure-activity.md)
-
-[Use AI agent as an activity](ai-agent-as-activity.md)
-
-[Automation Assets](../concept/automation-assets.md)
-
-[Start with delay input properties](../reference/start-with-delay-properties.md)
-
-[Optional activities](../concept/optional-activities.md#)
-
-[Decision stages](create-decision-stage.md)
-
-[Questionnaire activity](../reference/questionnaire-activity.md)
-
-[Parallel branches](create-parallel-activity.md)
-
-[Add dynamic inputs to an activity](add-dynamic-inputs-to-activity.md)
-
-[Playbook activity state mapping](../../workspace/concept/playbook-activity-state-mapping.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

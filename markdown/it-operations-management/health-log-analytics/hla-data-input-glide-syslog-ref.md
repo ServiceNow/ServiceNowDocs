@@ -2,6 +2,7 @@
 title: ServiceNow System Logs Retriever data input configuration fields
 description: Description of the fields on the ServiceNow System Logs Retriever data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-glide-syslog-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -80,5 +81,5 @@ Syslog table filter
 The criteria used to filter log data from the System Log table before streaming it to the AI engine.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](../concept/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

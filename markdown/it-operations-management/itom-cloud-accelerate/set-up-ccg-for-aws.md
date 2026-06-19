@@ -2,6 +2,7 @@
 title: Set up Cloud Configuration Governance for AWS
 description: Set up access to the Amazon Web Services \(AWS\) cloud accounts in Cloud Configuration Governance to enable interaction between the application and the cloud. The application requires access to the cloud accounts to scan the cloud resources for non-compliant configurations and remediate them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/set-up-ccg-for-aws.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -198,15 +199,15 @@ Name of the trusted account.Configure this field only for accounts that don't us
 
 6.  Do any one of the following actions.
 
-<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d147463e635">
+<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d145615e635">
 
 Option
 
-</th><th align="left" id="d147463e638">
+</th><th align="left" id="d145615e638">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147463e644">
+</th></tr></thead><tbody><tr><td id="d145615e644">
 
 **Create an assume role configuration for the management account**
 
@@ -216,15 +217,15 @@ If you want to use a management account to scan the member accounts of the AWS o
 
  1.  If you don't want to use the OrganizationAccountAccessRole to access the member account, configure the trusting account for Cloud Configuration Governance.
 
-For more information, see [Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](configure-trusting-account-for-ccg.md).
+For more information, see [Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/configure-trusting-account-for-ccg.md).
 
-2.  Repeat step [6.a](set-up-ccg-for-aws.md#create-trusting-acc-for-management-acc) for all the member accounts that must be scanned through the management account without using the OrganizationAccountAccessRole.
+2.  Repeat step [6.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/set-up-ccg-for-aws.md) for all the member accounts that must be scanned through the management account without using the OrganizationAccountAccessRole.
 
 3.  If you want to use the OrganizationAccountAccessRole to access the member account, create an assume role configuration for the management account.
 
-For more information, see [Create an assume role configuration](../../it-operations-management/task/create-assume-role-config.md).
+For more information, see [Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md).
 
-</td></tr><tr><td id="d147463e701">
+</td></tr><tr><td id="d145615e701">
 
 **Configure the trusting account for Cloud Configuration Governance**
 
@@ -234,25 +235,25 @@ If you want to use a trusted account to scan the trusting account, configure the
 
  1.  Configure the trusting account for Cloud Configuration Governance.
 
-For more information, see [Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](configure-trusting-account-for-ccg.md).
+For more information, see [Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/configure-trusting-account-for-ccg.md).
 
-2.  Repeat step [6.a](set-up-ccg-for-aws.md#cross-assume-use-case-substep) for all the trusting accounts that must be scanned through the trusted account.
+2.  Repeat step [6.a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/set-up-ccg-for-aws.md) for all the trusting accounts that must be scanned through the trusted account.
 
 
 </td></tr></tbody>
 </table>7.  Install and configure the MID Servers.
 
-    For more information, see [Install and configure MID Servers](../../it-operations-management/task/mid-server-configuration-cloud.md).
+    For more information, see [Install and configure MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/mid-server-configuration-cloud.md).
 
 8.  Run datacenter discovery to identify the datacenters associated with the service accounts.
 
-    For more information, see [Run datacenter discovery](../../cloud-management-v2-setup/task/disco-datacntrs-in-srv-acct.md).
+    For more information, see [Run datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md).
 
 
--   **[Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](configure-trusting-account-for-ccg.md)**  
+-   **[Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/configure-trusting-account-for-ccg.md)**  
 Configure the trusting account whose resources need to be accessed, to rely on the trusted account using the Identity and Access Management \(IAM\) role.
--   **[Create an assume role configuration](../../it-operations-management/task/create-assume-role-config.md)**  
-Create a service account assume role configuration to facilitate cross-account access that is from a management account to a member account or from a trusted account to a trusting account. All the related member accounts or trusted accounts are automatically loaded avoiding the need to add account individually.
+-   **[Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md)**  
+Create a service account assume role configuration to facilitate cross-account access that is from a management account to a member account or from a trusted account to a trusting account. All the related member accounts or trusted accounts are automatically loaded avoiding the need to add them individually.
 
-**Parent Topic:**[Exploring Cloud Configuration Governance](../concept/exploring-cloud-configuration-governance.md)
+**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/exploring-cloud-configuration-governance.md)
 

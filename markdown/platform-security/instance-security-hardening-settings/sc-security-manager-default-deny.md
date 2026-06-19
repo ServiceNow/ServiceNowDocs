@@ -2,6 +2,7 @@
 title: Deny by default with empty ACLs \[Updated in Security Center 1.3\]
 description: Use the glide.sm.default\_mode property to control the default behavior of security manager when it finds that existing Access Control List \(ACL\) rules are a part of wildcard table ACL rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -53,7 +54,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -94,10 +95,10 @@ References
 
 </td><td>
 
-[Default deny property](../../security/concept/c_DefaultDenyProperty.md)
+[Default deny property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/c_DefaultDenyProperty.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

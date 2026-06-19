@@ -2,6 +2,7 @@
 title: HRSD Maturity Assessment
 description: This accelerator assesses your current HR Service Delivery \(HRSD\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/hrsd-maturity-assessment.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -27,6 +28,8 @@ This accelerator is designed to address the following HRSD capabilities:
 -   Employee Document Management
 -   HCM Integrations
 -   Specific store features, such as Manager Hub
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 

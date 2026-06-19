@@ -2,6 +2,7 @@
 title: Client software distribution from SCCM
 description: Use Client Software Distribution \(CSD\) to deploy and revoke software deployments from Microsoft System Center Configuration Management \(SCCM\) and manage distributions on SCCM hosts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-from-sccm-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -15,16 +16,16 @@ breadcrumb: [Client Software Distribution, Integration Hub solutions, Build inte
 
 Use Client Software Distribution \(CSD\) to deploy and revoke software deployments from Microsoft System Center Configuration Management \(SCCM\) and manage distributions on SCCM hosts.
 
-The [Microsoft SCCM spoke](microsoft-sccm-spoke.md) contains actions that CSD uses to deploy software from a service catalog request and manage user and device collections on SCCM servers. In addition, CSD can manage license counts for deployed software using ServiceNow Software Asset Management, revoke software deployed by SCCM without user interaction, and manage lease periods.
+The [Microsoft SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-sccm-spoke.md) contains actions that CSD uses to deploy software from a service catalog request and manage user and device collections on SCCM servers. In addition, CSD can manage license counts for deployed software using ServiceNow Software Asset Management, revoke software deployed by SCCM without user interaction, and manage lease periods.
 
--   **[Configuring SCCM](configure-sccm-ihub.md)**  
+-   **[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)**  
 Follow the SCCM configuration procedures in the order shown.
--   **[SCCM deployment process](../reference/sccm-deployment-ihub.md)**  
+-   **[SCCM deployment process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sccm-deployment-ihub.md)**  
 Order an SCCM application from a client software distribution \(CSD\) catalog item in the service catalog triggers the Order Client Software flow.
--   **[Client software distribution validation process](csd-validation.md)**  
+-   **[Client software distribution validation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-validation.md)**  
 After SCCM deploys software to a target computer, client software distribution \(CSD\) detects the installation and validates its status.
--   **[SCCM software revocation](sccm-revocation-ihub.md)**  
+-   **[SCCM software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sccm-revocation-ihub.md)**  
 Revoke software without any user interaction using Microsoft System Center Configuration Manager \(SCCM\) if the software configuration specifies an SCCM uninstall collection, even if the software was installed by some other process or user.
 
-**Parent Topic:**[Client Software Distribution using Integration Hub](csd-integrationhub.md)
+**Parent Topic:**[Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-integrationhub.md)
 

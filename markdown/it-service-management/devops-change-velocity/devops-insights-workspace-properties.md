@@ -2,6 +2,7 @@
 title: DevOps Insights properties
 description: DevOps Insights properties configure how DevOps Insights workspace data is displayed in reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-insights-workspace-properties.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity

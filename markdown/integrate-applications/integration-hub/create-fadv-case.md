@@ -2,6 +2,7 @@
 title: Create a case in First Advantage from ServiceNow
 description: Initiate the background check of the required candidate using invite or order from ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-fadv-case.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,8 +18,8 @@ Initiate the background check of the required candidate using invite or order fr
 
 ## Before you begin
 
--   [Set up the First Advantage spoke](setup-first-adv.md#)
--   [Synchronise First Advantage accounts and packages with ServiceNow](setup-first-adv.md#)
+-   [Set up the First Advantage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-first-adv.md)
+-   [Synchronise First Advantage accounts and packages with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-first-adv.md)
 -   Create users in the User \[sys\_user\] table. Background check can be performed only for these users.
 -   Role required: First Advantage admin or First Advantage user
 

@@ -2,6 +2,7 @@
 title: Smart Documents Skill
 description: Accelerate document insights with instant summaries, interactive Q&amp;A, and FAQs using Now Assist in Document Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills
@@ -19,11 +20,11 @@ Accelerate document insights with instant summaries, interactive Q&amp;A, and FA
 
 The Smart Documents skill provides a concise summary of the document associated with a workflow, along with interactive Q&amp;A and FAQs, enabling you to quickly understand the content, explore key insights and get answers to specific questions.
 
-You can summarize a document in a workspace, ask interactive questions, and view FAQs. To learn how, see [Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ask-questions-faqs-now-assist.md)
+You can summarize a document in a workspace, ask interactive questions, and view FAQs. To learn how, see 
 
 The following diagram shows that by using the Smart Document skill, you can quickly get insights from a document, such as a white paper, report, policy, contract, or case file.
 
-![smart document skill using](../image/now-assist-smart-documents-skill.png)
+\[Omitted image "now-assist-smart-documents-skill.png"\] Alt text: smart document skill using
 
 ## Availability
 
@@ -41,7 +42,7 @@ Technology
 
 </td><td>
 
-[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+
 
 </td></tr><tr><td>
 
@@ -49,9 +50,9 @@ Customer
 
 </td><td>
 
-[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
- [Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
+
+ 
 
 </td></tr><tr><td>
 
@@ -59,7 +60,15 @@ Employee
 
 </td><td>
 
-[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+
+
+</td></tr><tr><td>
+
+Governance,Risk, and Compliance
+
+</td><td>
+
+
 
 </td></tr></tbody>
 </table>

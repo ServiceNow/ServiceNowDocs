@@ -2,12 +2,14 @@
 title: Run scheduled jobs
 description: Run adhoc scheduled jobs to fetch entity primary data from the target ERP source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/execute-scheduled-job.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, ERP integration, invoice automation, AP automation]
 breadcrumb: [Scheduled jobs to fetch primary data, Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 

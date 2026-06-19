@@ -2,6 +2,7 @@
 title: View Internal Intelligence Records
 description: View the internal intelligence records collected from CMDB, Security Incident Response \(SIR\), Vulnerability Response \(VR\) these records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/view-internal-intelligence-records.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -37,7 +38,7 @@ Role required: sn\_sec\_tisc.analyst
 
     1.  **Security Incident Response**: Displays all the incidents that are linked with the associated observables, and vulnerability items.
 
-        **Note:** The Observable\(s\) value must match between the SIR incident and also within the TISC only then the associated observables or indicators are listed under Security incident Response section. You can also link and unlink the records by searching the records within the source systems. For more information, see [Link Threat Intel Related Records](link-threat-intel-releated-records.md).
+        **Note:** The Observable\(s\) value must match between the SIR incident and also within the TISC only then the associated observables or indicators are listed under Security incident Response section. You can also link and unlink the records by searching the records within the source systems. For more information, see [Link Threat Intel Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/link-threat-intel-releated-records.md).
 
         -   Select any record to navigate and view the details in the source system. For example, Associated Observables in Security Incident Response to fetch the associated observable records.
         -   As part of the current release, following is the intelligence data that you can fetch from the source \(SIR\) records:
@@ -52,5 +53,5 @@ Role required: sn\_sec\_tisc.analyst
         Vulnerability Entries: This option match the vulnerabilities and fetch the related records.
 
 
-**Parent Topic:**[Working with Internal Intelligence Records](../concept/working-with-ti-internal-intelligence-records.md)
+**Parent Topic:**[Working with Internal Intelligence Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/working-with-ti-internal-intelligence-records.md)
 

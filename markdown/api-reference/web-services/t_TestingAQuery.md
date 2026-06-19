@@ -2,6 +2,7 @@
 title: Test a query
 description: To verify that the user has the appropriate permissions to send requests to the instance using ODBC, run a query using Interactive SQL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_TestingAQuery.html
 release: australia
 product: Web Services
 classification: web-services
@@ -40,5 +41,5 @@ For testing, use a query that returns exactly one record, such as a query using 
 
 The instance should respond with the short description of the incident record.
 
-**Parent Topic:**[Test the ODBC driver](t_TestingTheODBCDriver.md)
+**Parent Topic:**[Test the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_TestingTheODBCDriver.md)
 

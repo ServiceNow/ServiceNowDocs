@@ -2,6 +2,7 @@
 title: Supplier contact outbound staging table
 description: The Supplier contact outbound \[sn\_spend\_intg\_supplier\_contact\_outbound\] staging table temporarily stores important data about a supplier contact so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/slo-supp-contact-outbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

@@ -2,13 +2,14 @@
 title: Map hardware assets to an operational schedule
 description: Create an asset schedule to map the hardware assets to an operation schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-asset-schedule-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace, Manage and monitor hardware asset performance, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure settings to monitor asset KPIs, Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Map hardware assets to an operational schedule

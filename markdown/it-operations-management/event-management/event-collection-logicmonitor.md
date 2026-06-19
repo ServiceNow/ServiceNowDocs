@@ -2,6 +2,7 @@
 title: Event collection from Logicmonitor
 description: The MID WebService Event Collector enables you to collect JSON formatted event messages from the Logicmonitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/event-collection-logicmonitor.html
 release: australia
 product: Event Management
 classification: event-management
@@ -21,9 +22,9 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 
 Ensure that you:
 
--   Deploy and start the MID Server. See [MID Server configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md) .
--   Configure and start the MID Web Server. See [Configure the MID Web Server extension](configure-mid-web-server-extension.md).
--   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](configure-em-context-extension.md).
+-   Deploy and start the MID Server. See MID Server configuration .
+-   Configure and start the MID Web Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md).
+-   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-em-context-extension.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -66,9 +67,9 @@ The default format of the URL to push event messages from Logicmonitor to the MI
 
     2.  In the Manage Testing chain form, fill in the **Name** and **Description** field and select the rate at which the alerts should be notified.
 
-    3.  Under the Stages section, select the Add icon ![logicmonitor add icon](../image/logicmonitor-add-icon.png) to add a stage and click **Save**.
+    3.  Under the Stages section, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon to add a stage and click **Save**.
 
-    4.  When you create the new stage, select the Add icon ![logicmonitor add icon](../image/logicmonitor-add-icon.png) again to search for the user and add the integration as the Contact Method and click **Save**.
+    4.  When you create the new stage, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon again to search for the user and add the integration as the Contact Method and click **Save**.
 
 3.  After creating the escalation chain, configure alert rules for the chain you created.
 
@@ -83,5 +84,5 @@ The default format of the URL to push event messages from Logicmonitor to the MI
     **Note:** To map the CI to the **cmdb\_ci\_vm\_object** record instead of the **cmdb\_ci\_server**, enable the event rule created for Logicmonitor. The Logicmonitor's collector name, which comes in as a hostname in the payload, should be the same as the object\_id of the virtual machine discovered in the **cmdb\_ci\_vm\_object** record.
 
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
 

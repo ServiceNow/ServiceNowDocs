@@ -2,13 +2,14 @@
 title: Nmap commands and data collected with credential-less Discovery
 description: Nmap executes in phases when collecting data and runs a controlled set of safe commands with two patterns for exploring applications and devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/data-collected-nmap.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Credential-less Discovery with Nmap, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Credential-less discovery with Nmap, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Nmap commands and data collected with credential-less Discovery
@@ -19,8 +20,8 @@ Nmap executes in phases when collecting data and runs a controlled set of safe c
 
 Nmap returns the following data for a host it determines is up:
 
--   **Operating system family**: If the operating system family is one of the six supported server operating system families, then a host CI associated with the appropriate server class is used to create or update the host CI. If the operating system family returned by Nmap is not one of the supported server operating systems, then a host CI is created or updated using the base Hardware \[cmdb\_ci\_hardware\] class.
--   **MAC address**: If the scanned host is located on the same subnet as the Windows MID Server host that is executing the Nmap commands, then Nmap returns the remote host's MAC address.
+-   **Operating system family**: For one of the six supported server operating system families, a host CI is created or updated using the appropriate server class. For unsupported operating system families, a host CI is created or updated using the base Hardware \[cmdb\_ci\_hardware\] class.
+-   **MAC address**: Nmap returns the remote host's MAC address if the scanned host is on the same subnet as the Windows MID Server host running the Nmap commands.
 
 ## Commands run by Nmap during host Discovery
 
@@ -68,7 +69,7 @@ Detects packet-filtering devices. This option is a TCP ACK host Discovery, using
 
 </td><td>
 
-Enables OS detection against a remote hostm providing the vendor name, underlying OS, OS generation, and device type, such as a router or a switch.Nmap uses TCP/IP stack fingerprinting to determine the OS family running on the host. Nmap sends a series of TCP and UPD packets to the host and examines the responses. After testing the responses thoroughly, Nmap compares results to its **nmap-os-db** database and prints the OS details, if there is a match. If Nmap is not able to guess the OS, and at least one open port and one closed port were found, then it generates a fingerprint and a URL to submit to `nmap.org`.
+Enables OS detection against a remote hostm providing the vendor name, underlying OS, OS generation, and device type, such as a router or a switch.Nmap uses TCP/IP stack fingerprinting to determine the OS family running on the host. Nmap sends a series of TCP and UPD packets to the host and examines the responses. After testing the responses thoroughly, Nmap compares results to its **nmap-os-db** database and prints the OS details, if there is a match. If Nmap cannot guess the OS, it checks for at least one open port and one closed port. When both are found, it generates a fingerprint and a URL to submit to `nmap.org`.
 
  OS detection does not use scripts from the Nmap Scripting Engine \(NSE\). OS detection runs after Application/Service Version detection, which helps the accuracy of OS Detection. However, the results of the two scan types might be contradictory. OS Detection runs at the TCP transport layer, while Application/Service Version Detection runs at a higher level in the TCP stack.
 
@@ -289,5 +290,5 @@ Redirects `stdout` to a XML file.
 Redirects errors messages written by Nmap to `stderr` to the specified file.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Credential-less Discovery with Nmap](../concept/nmap-credential-less-discovery.md)
+</table>**Parent Topic:**[Credential-less discovery with Nmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md)
 

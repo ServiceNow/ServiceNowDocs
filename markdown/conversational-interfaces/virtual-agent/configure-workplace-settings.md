@@ -2,6 +2,7 @@
 title: Configure Virtual Agent settings for Workplace from Facebook
 description: Enable notifications, link ServiceNow user profiles, and set up system messages and contextual actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-workplace-settings.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -41,12 +42,12 @@ Role required: admin
 
     -   **System Messages**: Customize the default system messages displayed during Virtual Agent conversations.
 
-        For more information about changing or updating a system message, see [Change system messages](../../conversational-interfaces/task/ac-change-system-messages.md).
+        For more information about changing or updating a system message, see [Change system messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-change-system-messages.md).
 
     -   **Contextual Actions**: Customize the supported actions per user command inputs.
 
-        For more information about updating a contextual action, see [Contextual actions for custom chat integrations](../reference/contextual-actions.md#).
+        For more information about updating a contextual action, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/contextual-actions.md).
 
 
-**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](../concept/configuring-ci-workplace-fb.md)
+**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-ci-workplace-fb.md)
 

@@ -2,6 +2,7 @@
 title: Configure KPI groups in Digital Portfolio Management
 description: Configure key performance indicator \(KPI\) groups in Digital Portfolio Management \(DPM\) to surface performance information in the context of your organization's solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -26,16 +27,16 @@ With a DPM admin role \[sn\_dpm.dpm\_admin\], you can define and configure the k
 -   Average Availability \[ServiceOffering.MetricData.Availability.Daily\]
 -   Average Request Activity \[ServiceOffering.MetricData.Activity.Daily\]
 
-Therefore, if you have the Service Portfolio Management standard portfolio \(the most recent version\), then the metric data from the legacy indicators are no longer available. For more information, see [Service Portfolio Management portfolios](../../service-portfolio-management2/concept/SPM2-service-portfolios.md).
+Therefore, if you have the Service Portfolio Management standard portfolio \(the most recent version\), then the metric data from the legacy indicators are no longer available. For more information, see [Service Portfolio Management portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-portfolios.md).
 
--   **[Create KPI groups and mappings in Digital Portfolio Management](../task/dpm-create-kpi-groups.md)**  
+-   **[Create KPI groups and mappings in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-create-kpi-groups.md)**  
 Create key performance indicator \(KPI\) groups and mappings in Digital Portfolio Management \(DPM\) to monitor the overall health and progress of all your services and offerings.
--   **[Configure KPIs in Digital Portfolio Management with service availability example](../task/dpm-configure-kpi-availability.md)**  
+-   **[Configure KPIs in Digital Portfolio Management with service availability example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi-availability.md)**  
 Configure key performance indicators \(KPIs\) in Digital Portfolio Management \(DPM\) to surface performance information in the context of your solutions. This procedure uses the example of configuring service availability to display the availability score in the Run life-cycle phase.
--   **[Copy a KPI group to create a new KPI group in Digital Portfolio Management](../task/dpm-copy-kpi-group.md)**  
+-   **[Copy a KPI group to create a new KPI group in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-copy-kpi-group.md)**  
 Create a new key performance indicator \(KPI\) group by copying an existing KPI group in Digital Portfolio Management \(DPM\). All the KPI records, supporting KPIs, and mappings of the KPI group are copied as well. After you copy the KPI group, you can modify all aspects of it so the new group best fits your needs.
--   **[Update KPIs in Digital Portfolio Management](../task/dpm-kpi-descriptions.md)**  
+-   **[Update KPIs in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-kpi-descriptions.md)**  
 You can update the key performance indicator \(KPI\) fields in Digital Portfolio Management \(DPM\). The KPI displays in KPI groups in the DPM Workspace.
 
-**Parent Topic:**[Configuring Digital Portfolio Management](dpm-configure-cfw.md)
+**Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 

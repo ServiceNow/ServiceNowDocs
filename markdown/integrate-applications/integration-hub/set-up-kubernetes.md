@@ -2,6 +2,7 @@
 title: Set up the Kubernetes spoke
 description: Integrate the ServiceNow instance and Kubernetes using an API key and certificate to authenticate ServiceNow requests.Generate an access token and a certificate from your Kubernetes account for API key authentication.Upload the Kubernetes client certificate to your ServiceNow instance to authenticate API requests to the Kubernetes host machine.Add and configure the Kubernetes connection to authenticate ServiceNow requests in Kubernetes spoke.A system property prevents the Kubernetes spoke from processing Kubernetes responses. Set the com.glide.communications.httpclient.verify\_hostname system property to false to enable the integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-kubernetes.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -63,7 +64,7 @@ Role required: admin.
 
 3.  Complete the form and enter the certificate in the **PEM Certificate** field.
 
-    For more information about uploading certificates, see [Upload a certificate to an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md).
+    For more information about uploading certificates, see Upload a certificate to an instance.
 
 4.  Click **Submit**.
 
@@ -88,12 +89,12 @@ Role required: admin
 
     -   To configure the default connection and credential alias record that is shipped along with the Kubernetes spoke, click **View Details**.
 
-        ![Connection for the Kubernetes spoke.](../image/kubernetes-conf-temp.png)
+        \[Omitted image "kubernetes-conf-temp.png"\] Alt text: Connection for the Kubernetes spoke.
 
-    -   To manage more than one Kubernetes spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Kubernetes spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    ![First-time connection configuration.](../image/kubernetes-configure-temp.png)
+    \[Omitted image "kubernetes-configure-temp.png"\] Alt text: First-time connection configuration.
 
 5.  On the **Connection** form, fill in the fields.
 
@@ -103,7 +104,7 @@ Role required: admin
     |Connection URL|IP address and port of the host machine where Kubernetes is installed.|
     |API Key|Token you obtained from Kubernetes in this format: `Bearer {access token}`.|
 
-    ![Configure a connection for the Kubernetes spoke.](../image/kubernetes-temp.png)
+    \[Omitted image "kubernetes-temp.png"\] Alt text: Configure a connection for the Kubernetes spoke.
 
 6.  Click **Configure Connection**.
 

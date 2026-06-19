@@ -2,6 +2,7 @@
 title: Assess the impact of a regulatory alert
 description: Evaluate the risk of a regulatory alert by initiating either a risk assessment or a regulatory assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/impact-assessment-tasks.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

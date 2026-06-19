@@ -2,6 +2,7 @@
 title: Create Suggested Talking Points reference
 description: Career Conversations administrators create suggested talking points that are used to identify topics of discussion during a conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/career-conversations/egd-activities-create-talking-point-form.html
 release: australia
 product: Career Conversations
 classification: career-conversations
@@ -26,5 +27,5 @@ The form that appears when you create a record in the Suggested Talking Points t
 |**Active**|When selected, the talking point is published and available to be used in a conversation.|
 |**Conversation type**|The types of conversations to which your suggested talking point is applicable.|
 
-**Parent Topic:**[Career Conversations reference](../concept/egd-activities-reference.md)
+**Parent Topic:**[Career Conversations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-activities-reference.md)
 

@@ -2,6 +2,7 @@
 title: Edit improvement opportunities from Summary and insights page
 description: Edit improvement opportunities from the Summary and insights page to configure improvement opportunities for the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/summ-insights-page.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -36,8 +37,8 @@ Role required:
 
     For information on editing improvement opportunities, see the following topics:
 
-    -   [Set rule-based improvement opportunity](rule-based-builder.md)
-    -   [Setting Automated improvement opportunities](../concept/automated-findings.md)
+    -   [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/rule-based-builder.md)
+    -   [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
 
-**Parent Topic:**[Setting improvement opportunity for projects](../concept/project-imp-opp.md)
+**Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-imp-opp.md)
 

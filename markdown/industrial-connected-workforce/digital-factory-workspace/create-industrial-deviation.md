@@ -2,6 +2,7 @@
 title: Create a deviation
 description: Create a deviation in the Digital Factory Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-industrial-deviation.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -25,7 +26,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 2.  On the Deviation form, fill in the fields.
 
-    For a description of the field values, see [Deviation form](../reference/deviation-form.md).
+    For a description of the field values, see [Deviation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/deviation-form.md).
 
 3.  Select **Save**.
 
@@ -42,5 +43,5 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 The new deviation is displayed in the deviation list and the list of all tasks.
 
-**Parent Topic:**[Deviation Management](../concept/industrial-deviation-management.md)
+**Parent Topic:**[Deviation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-deviation-management.md)
 

@@ -2,6 +2,7 @@
 title: Set up additional ACC data inputs
 description: Data inputs for streaming log messages to your ServiceNow instance using the Agent Client Collector are created automatically as part of the Agent Client Collector setup. Set up additional ACC data inputs manually as needed using the Health Log Analytics data input setup flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/accl-data-input-setup.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -20,8 +21,8 @@ Data inputs for streaming log messages to your ServiceNow instance using the Age
 -   The Agent Client Collector Log Analytics application has a dependency on the following ServiceNow applications, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
     -   Health Log Analytics, Version 22.0.12 - December 2021 and later releases.
     -   Agent Client Collector -Framework, Version 2.7.0 - December 2021 and later releases.
--   Verify that a MID Server is installed and configured. For more information, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
--   The MID Server must be configured to work with the Agent Client Collector. For more information, see [Enable Agent Client Collector monitoring on the MID Server](acc-monitoring-setup.md).
+-   Verify that a MID Server is installed and configured. For more information, see .
+-   The MID Server must be configured to work with the Agent Client Collector. For more information, see [Enable Agent Client Collector monitoring on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-setup.md).
 
 **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
@@ -37,22 +38,22 @@ It is important to configure an ACC data input for every MID Server to which Age
 
 1.  Set up additional ACC data inputs manually using the Health Log Analytics data input setup flow.
 
-    For more information, see [Configure ACC data inputs manually](../../health-log-analytics-admin/task/hla-data-input-acc.md).
+    For more information, see [Configure ACC data inputs manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/hla-data-input-acc.md).
 
 2.  Identify and address log streaming issues to ensure that your data inputs are streaming data properly.
 
-    For more information, see [Ensure that the data input is streaming data](accl-verify-log-streaming.md).
+    For more information, see [Ensure that the data input is streaming data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-verify-log-streaming.md).
 
 3.  Determine how Health Log Analytics handles raw log data that is streaming into your instance.
 
-    By default, every incoming log line is auto-mapped to the correct tag. If properties aren't discovered automatically, map the data input sources manually by defining a JavaScript function. For more information, see [Map the raw data](../../health-log-analytics-admin/task/hla-data-input-mapping.md).
+    By default, every incoming log line is auto-mapped to the correct tag. If properties aren't discovered automatically, map the data input sources manually by defining a JavaScript function. For more information, see [Map the raw data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
 4.  Modify raw log data and drop or break up log messages before they are processed.
 
-    Define a JavaScript function that modifies your raw log data before Health Log Analytics maps and structures it. For more information, see [Edit your raw log data before processing](../../health-log-analytics-admin/task/hla-data-input-preprocess.md).
+    Define a JavaScript function that modifies your raw log data before Health Log Analytics maps and structures it. For more information, see [Edit your raw log data before processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-preprocess.md).
 
 5.  Refine the source type structure to make sure that Health Log Analytics extracts and classifies all properties correctly.
 
-    For more information, see [Refine the source type structure in Health Log Analytics](../../health-log-analytics-admin/task/hla-source-type-structure-refine.md).
+    For more information, see [Refine the source type structure in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).
 
 

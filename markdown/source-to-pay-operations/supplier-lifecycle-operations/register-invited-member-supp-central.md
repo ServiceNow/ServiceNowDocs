@@ -2,6 +2,7 @@
 title: Register to the Supplier Collaboration Portal as an invited member
 description: As an invited member, you can register and get access to the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/register-invited-member-supp-central.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

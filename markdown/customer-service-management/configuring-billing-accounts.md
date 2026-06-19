@@ -2,9 +2,12 @@
 title: Configuring billing accounts
 description: Billing Account Core provides a foundational data model for managing billing accounts across organizations and users. It enables businesses to define, organize, and maintain billing relationships, supporting accurate billing, payments, and scalable financial operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-billing-accounts.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Customer data, Set up your environment, Configure, Customer Service Management]
 ---

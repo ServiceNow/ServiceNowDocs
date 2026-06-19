@@ -2,6 +2,7 @@
 title: Talent Activity template reference
 description: Activity templates are used by managers and individuals to create activities in a growth plan. Administrators create activity templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-activity-template-form.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -104,5 +105,5 @@ The location to the activity.
 Select a criterion for the users that the template is intended for.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+</table>**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-reference.md)
 

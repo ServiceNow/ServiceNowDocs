@@ -2,6 +2,7 @@
 title: Auto-assign configuration for regulatory alerts
 description: Set up an assignment configuration record to enable auto-assignments for regulatory alerts of the type regulatory event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/set-up-assignment-configuration.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -35,12 +36,12 @@ You can now route regulatory alerts to domain experts who can promptly address c
 
 3.  On the form, fill in the fields.
 
-    For information on the fields in the form, see [Assignment Configuration New Record](../../grc-common/reference/assignment-configuration-new-record.md).
+    For information on the fields in the form, see [Assignment Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/assignment-configuration-new-record.md).
 
     **Note:** You cannot have more than one approval configuration applying to the table with the same priority.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Train and use the similarity solution to recommend citations on regulatory alerts](retrain-ml-reg-compliance-mapping.md)
+**Parent Topic:**[Train and use the similarity solution to recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)
 

@@ -2,7 +2,10 @@
 title: Monitoring operations in real time
 description: Proactively monitor critical field service trends and track cost allocations with dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/monitoring-operations-in-real-time.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -20,8 +23,8 @@ You can:
 -   Analyze the estimate time compared to the actual time that it takes to complete tasks
 -   Allocate, track, and report on expenses for all operations
 
--   **[Use the Field Service Management dashboard](../../planning-and-policy/task/t_UseTheFieldServiceOverviewModule.md)**  
+-   **[Use the Field Service Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_UseTheFieldServiceOverviewModule.md)**  
 The Field Service Management overview module provides a dispatch map that displays tasks and links to the related task records.
 
-**Parent Topic:**[Analytics and reporting for Field Service Management](analytics-reporting-fsm.md)
+**Parent Topic:**[Analytics and reporting for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/analytics-reporting-fsm.md)
 

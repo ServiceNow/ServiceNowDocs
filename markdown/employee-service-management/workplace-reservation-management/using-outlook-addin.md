@@ -2,6 +2,7 @@
 title: Using Workplace Reservations for Microsoft Outlook Add-in
 description: Make reservations in Microsoft Outlook using the Workplace Reservation Management manifest add-in file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/using-outlook-addin.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management

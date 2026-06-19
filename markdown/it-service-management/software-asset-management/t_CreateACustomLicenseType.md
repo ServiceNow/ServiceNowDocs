@@ -2,6 +2,7 @@
 title: Create a custom license type for the legacy Software Asset Management plugin
 description: Custom license types in the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin allow you to create a license type with special conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_CreateACustomLicenseType.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -42,5 +43,5 @@ A custom script can provide detailed information about the number of rights a so
 4.  Click **Submit**.
 
 
-**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](../concept/c_UseLicenseCalculations.md)
+**Parent Topic:**[License calculations with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UseLicenseCalculations.md)
 

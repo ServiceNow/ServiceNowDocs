@@ -2,6 +2,7 @@
 title: Track assets using indoor maps in the Enterprise Asset Workspace
 description: Use indoor maps to locate and track the enterprise assets, consumable assets, and pallets that are deployed across your organization. Each indoor map consists of an interactive interface that enables you to visualize where your assets are located within your campuses, buildings, floors, and places.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/track-enterprise-assets-indoor-maps.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Use indoor maps to locate and track the enterprise assets, consumable assets, an
 
 ## Before you begin
 
-To use indoor maps in the Enterprise Asset Workspace, you must fulfill all the requirements specified in [Indoor maps in Enterprise Asset Management](../concept/indoor-maps-eam.md).
+To use indoor maps in the Enterprise Asset Workspace, you must fulfill all the requirements specified in [Indoor maps in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/indoor-maps-eam.md).
 
 Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
@@ -37,7 +38,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     By default, the map displays the locations of all enterprise assets, consumable assets, and pallets that are deployed across your organization. If you want the map to display the locations of only certain assets, use the following steps:
 
-    1.  Select the Filters Tab icon ![](../image/filters-tab-icon.png) on the sidebar of the map.
+    1.  Select the Filters Tab icon \[Omitted image "filters-tab-icon.png"\] Alt text: on the sidebar of the map.
 
     2.  In the Filter by window, use any of the following filters to narrow down the assets that you want to display the location of:
 
@@ -57,5 +58,5 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
     Select an asset from the map or list to view additional details about that asset.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

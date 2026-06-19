@@ -2,13 +2,14 @@
 title: Transfer incident
 description: Transfer the back to the Universal Request queue, or to another department with or without resolution. When you realise that the issue is not incident related, transfer the incident without any resolution to the relevant department or service. If you resolve the issue, you can transfer the incident with the resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/route-inci-to-univ-req.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Universal Request integration - Incident Management, Incident Management integrations, Reference section for Incident Management, Incident Management, IT Service Management]
+breadcrumb: [Universal Request integration - Incident Management, Incident Management integrations, Reference, Incident Management, IT Service Management]
 ---
 
 # Transfer incident
@@ -27,11 +28,11 @@ Associate an incident with a Universal Request record.
 
 2.  Select **Transfer**.
 
-    ![Transfer incident to Universal Request](../image/route-to-ur.png)
+    \[Omitted image "route-to-ur.png"\] Alt text: Transfer incident to Universal Request
 
 3.  In the **Transfer Ticket** dialog box, provide the following details.
 
-    **Note:** Based on your transfer type configuration, the given fields are displayed. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
+    **Note:** Based on your transfer type configuration, the given fields are displayed. For more information, see Universal Request properties.
 
     -   **Action**: Select if the case should be transferred to another department or back to Universal Request
     -   **Department**: Select the department from the list.
@@ -48,5 +49,5 @@ Associate an incident with a Universal Request record.
 4.  Click **Transfer**.
 
 
-**Parent Topic:**[Universal Request integration - Incident Management](../concept/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 

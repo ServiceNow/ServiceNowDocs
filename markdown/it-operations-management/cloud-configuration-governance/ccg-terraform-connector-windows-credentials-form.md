@@ -2,6 +2,7 @@
 title: Cloud Services Catalog Terraform Connector Windows Credentials form reference
 description: Cloud Services Catalog Terraform Connector uses the Windows credential to connect with the Windows server on which Terraform Open Source is running.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/ccg-terraform-connector-windows-credentials-form.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -21,5 +22,5 @@ Cloud Services Catalog Terraform Connector uses the Windows credential to connec
 |Username|Remote Desktop Protocol \(RDP\) username for the Windows server on which Terraform is running.|
 |Password|RDP password for the Windows server on which Terraform is running.|
 
-**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](cpg-terraform-connector-reference.md)
+**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
 

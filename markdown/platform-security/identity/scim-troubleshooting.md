@@ -2,6 +2,7 @@
 title: SCIM Troubleshooting
 description: Common error scenarios integrating with SCIM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/scim-troubleshooting.html
 release: australia
 product: Identity
 classification: identity

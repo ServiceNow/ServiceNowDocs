@@ -2,6 +2,7 @@
 title: Configure agent assignment rules
 description: Set the Advanced Work Assignment criteria for assigning work items to agents. Choose the assignment rule that considers the agent with the most capacity or the agent who has gone the longest without work. Establish the settings for the auto-assign handling, reject handling, and skill handling related lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -18,9 +19,9 @@ Set the Advanced Work Assignment criteria for assigning work items to agents. Ch
 
 ## Before you begin
 
--   A basic understanding of the [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md) feature is recommended.
+-   A basic understanding of the  feature is recommended.
 -   If you want agent skills to be considered when work is routed to the appropriate agents, define the skills for your agents or groups. When you enable the skill handling options on the Assignment Rules form, AWA assigns the users in groups with the appropriate skills to corresponding work items.
--   You can use rules to identify skills and assign them to work items. For more information on defining and assigning skills for work items, see [Routing work items to agents based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skill-based-routing.md).
+-   You can use rules to identify skills and assign them to work items. For more information on defining and assigning skills for work items, see .
 
 Role required: awa\_admin or admin
 
@@ -39,7 +40,7 @@ Role required: awa\_admin or admin
     -   To change a rule, select the rule to be updated.
 3.  On the Assignment Rule form, fill in the fields.
 
-    For a description of the field values, see [Assignment Rule form](../reference/awa-assignment-rules.md).
+    For a description of the field values, see [Assignment Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-assignment-rules.md).
 
 4.  Select **Submit** for a new rule or **Update** if you're changing the rule.
 

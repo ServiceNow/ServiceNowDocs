@@ -2,6 +2,7 @@
 title: Legal Counsel Center Classic
 description: Legal Counsel Center Classic enables legal department members to categorize, prioritize, and efficiently address legal issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legal-counsel-center.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Legal Counsel Center, Legal Counsel Center, Legal Service
 
 Legal Counsel Center Classic enables legal department members to categorize, prioritize, and efficiently address legal issues.
 
-**Important:** Legal Counsel Center Classic is now deprecated and no longer supported or available for new activation. For enhanced workspace experience, use [Legal Counsel Center](legal-counsel-center-landing.md). For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Legal Counsel Center Classic is now deprecated and no longer supported or available for new activation. For enhanced workspace experience, use [Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md). For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Legal Counsel Center Classic is available if you’ve installed the following apps:
 
@@ -68,5 +69,5 @@ On the Legal Counsel Center Classic landing page, get a quick overview of the le
 
 **Note:** The widgets and data displayed in the widgets are determined by your role.
 
-**Parent Topic:**[Exploring Legal Counsel Center](exploring-legal-counsel-center.md)
+**Parent Topic:**[Exploring Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/exploring-legal-counsel-center.md)
 

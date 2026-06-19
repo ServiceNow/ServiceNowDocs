@@ -2,6 +2,7 @@
 title: Exploring the Wiz Test Results and Issues Integrations with Configuration Compliance
 description: Import cloud configuration data with the Wiz Test Results and Issues Integrations with Configuration Compliance that are included with the Wiz Vulnerability Response Integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/exploring-wiz-ctest-results-int.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -29,5 +30,5 @@ Import issues data from Wiz to help vulnerability managers, analysts, and cloud 
 
 These findings are also mapped to CTRs with `Wiz Issues` labeled as the source in the Configuration Compliance application to help you track and remediate assets that may pose complex multi-vector risks.
 
-For more information about the other integrations that are included with the Wiz Vulnerability Response Integration and installation and configuration steps, see [Understanding the Wiz Vulnerability Response Integration](../../../secops-integration-vr/wiz-host-vuln-integration/concept/vr-wiz-exploring-host-cf.md).
+For more information about the other integrations that are included with the Wiz Vulnerability Response Integration and installation and configuration steps, see [Understanding the Wiz Vulnerability Response Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vr-wiz-exploring-host-cf.md).
 

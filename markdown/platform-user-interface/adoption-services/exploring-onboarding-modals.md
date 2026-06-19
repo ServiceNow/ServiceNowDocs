@@ -2,11 +2,12 @@
 title: Exploring new experiences
 description: Onboarding modals introduce you to new ServiceNow experiences through wizard-like interfaces in Next Experience. Learn about capabilities, benefits, and implementation approaches for effective user onboarding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/exploring-onboarding-modals.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 keywords: [Explore experiences with onboarding modals, Overview, Trigger modals]
 breadcrumb: [Onboarding modals, Adoption services, Configure user experiences]
@@ -59,5 +60,5 @@ The typical user journey with onboarding modals follows this pattern:
 
 **Completion:** Upon reaching the final step, users receive a completion confirmation and return to the application. The system records the interaction, preventing duplicate displays unless the modal is explicitly reset.
 
-**Parent Topic:**[Onboarding modals](next-experience-onboarding.md)
+**Parent Topic:**[Onboarding modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/next-experience-onboarding.md)
 

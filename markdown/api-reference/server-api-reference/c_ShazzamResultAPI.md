@@ -2,6 +2,7 @@
 title: ShazzamResult - Global
 description: The ShazzamResult script include provides methods to encapsulate a Shazzam result.Property that shows if the IP address is activeProperty is true if this IP address is alive, which means no ports are open, but at least one responded.The Windows domain name for the IP.Host name for the IP.IP address of the results.A JavaScript array of ShazzamScanner instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_ShazzamResultAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ShazzamResult script include provides methods to encapsulate a Shazzam resul
 
 Use this script include during the discovery scanning phase.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ShazzamResult - active
 

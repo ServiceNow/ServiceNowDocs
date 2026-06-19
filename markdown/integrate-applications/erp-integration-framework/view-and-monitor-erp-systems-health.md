@@ -2,6 +2,7 @@
 title: View a list of Zero Copy Connector for ERP systems
 description: Check the ERP \(Enterprise Resource Planning\) systems list in Zero Copy Connector for ERP to view the heartbeats and retrieval status of your ERP systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -27,16 +28,16 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP systems list by selecting the systems icon ![](../image/erp-systems-icon-sidebar.png) in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
 
-    ![Zero Copy Connector for ERP systems list.](../image/erpc-system-list-ys2.png)
+    \[Omitted image "erpc-system-list-ys2.png"\] Alt text: Zero Copy Connector for ERP systems list.
 
 3.  Select a system **Name**.
 
 4.  Check the retrieval and heartbeat information to confirm that the system has no connectivity issues.
 
-    For a description of the field values, see [Zero Copy Connector for ERP system list field descriptions](../reference/erp-canvas-system-list-descriptions.md).
+    For a description of the field values, see [Zero Copy Connector for ERP system list field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-system-list-descriptions.md).
 
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](../concept/erp-canvas-work-with-systems.md)
+**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
 

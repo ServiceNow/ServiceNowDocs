@@ -2,6 +2,7 @@
 title: Offboarding knowledge transfer plan generation agentic workflow
 description: The offboarding knowledge transfer plan generation agentic workflow uses AI agents to identify, categorize, and facilitate the transfer of critical knowledge from departing employees to their managers and team members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/offboarding-knowledge-x-agentic-wf.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

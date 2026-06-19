@@ -2,6 +2,7 @@
 title: Set up the FRISS spoke
 description: You can integrate a ServiceNow instance and FRISS account by using the API key and Tenant ID to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-the-friss-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

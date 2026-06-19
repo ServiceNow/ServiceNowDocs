@@ -2,11 +2,12 @@
 title: Overriding default binding
 description: Overriding default binding allows flexibility in linking alerts to CIs beyond the default Node-based matching. This helps customize alert binding based on business needs, ensuring accurate associations and preventing mislinked alerts, improving incident management and root cause analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/overriding-default-binding.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,11 +21,11 @@ By default, alerts are bound to CIs by matching the node value in the alert with
 This allows for two scenarios:
 
 1.  When Binding Type = CI Field Matching
-    -   If the CI is a host, the Node is required for binding. For more information, see [Bind host CIs using CI field matching](../task/ci-matching-ci-is-host.md).
-    -   If the CI is not a host, the Node must be empty. For more information, see [Bind non-host CIs using CI field matching](../task/ci-matching-ci-non-host.md).
-2.  When Binding Type = CI Identification. For more information, see [Bind alerts to CIs using CI identification](../task/bind-alerts-CI-app-host-monitoring.md).
+    -   If the CI is a host, the Node is required for binding. For more information, see [Bind host CIs using CI field matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-matching-ci-is-host.md).
+    -   If the CI is not a host, the Node must be empty. For more information, see [Bind non-host CIs using CI field matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/ci-matching-ci-non-host.md).
+2.  When Binding Type = CI Identification. For more information, see [Bind alerts to CIs using CI identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/bind-alerts-CI-app-host-monitoring.md).
 
 This flexibility ensures alerts are linked correctly based on specific business needs.
 
-**Note:** You can also use the Service Operations Workspace to define binding rules. For more information, see [Create Enrich automation](../../service-operations-workspace-itom/task/enrich-alert-sow-itom.md).
+**Note:** You can also use Service Operations Workspace to override binding rules. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
 

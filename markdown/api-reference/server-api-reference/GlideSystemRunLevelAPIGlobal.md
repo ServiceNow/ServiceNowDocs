@@ -2,6 +2,7 @@
 title: GlideSystemRunLevel - Global
 description: The GlideSystemRunLevel API provides methods to get and set the current system run level.Retrieves the current system run level.Switches the system run level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideSystemRunLevelAPIGlobal.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideSystemRunLevel API provides methods to get and set the current system run level.
 
-Setting the system run level allows applications to change or limit their features based on operational toggles. For more information about using operational toggles, see [Operational toggles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/operational-toggles.md).
+Setting the system run level allows applications to change or limit their features based on operational toggles. For more information about using operational toggles, see Operational toggles.
 
 The system run level can be set to one of the defined system run levels.
 
@@ -28,7 +29,7 @@ The system run level set on one node is synchronized to all nodes in the instanc
 
 The admin role is required to use this API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideSystemRunLevel – getCurrentLevel\(\)
 

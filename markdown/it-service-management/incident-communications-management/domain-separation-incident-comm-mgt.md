@@ -2,6 +2,7 @@
 title: Domain separation and Incident Communications Management
 description: Domain separation is supported in Incident Communications Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/domain-separation-incident-comm-mgt.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -24,7 +25,7 @@ Domain separation is supported in Incident Communications Management. Domain sep
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Incident Communications Management overview
 
@@ -48,10 +49,10 @@ Fulfillers see only incident communication plan and incident communication plan 
 
 An Incident Communication Plan Admin or Major Incident Manager is able to view incidents only of those domains that they have access to. They can create incident communication plans against only those incidents.
 
-**Parent Topic:**[Incident Communications Management reference](../reference/reference-section-inci-comm-mngmt.md)
+**Parent Topic:**[Incident Communications Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/reference-section-inci-comm-mngmt.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

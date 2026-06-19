@@ -2,6 +2,7 @@
 title: Report a major incident manually
 description: Report a critical incident manually in the Digital resilience incident reporting application from the Operational Resilience Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/report-cri-inci-manually.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,6 +18,10 @@ Report a critical incident manually in the Digital resilience incident reporting
 
 Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager, sn\_oper\_res.manager
 
+## About this task
+
+Verify that the sn\_dora\_accel\_entity table \(Legal entity for DORA\) contains a record for the financial entity submitting the report and that sn\_dora\_accel\_third\_party contains records for any ICT third-party providers involved. The Initial report questionnaire references these tables.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** &gt; **Digital resilience incident reporting** &gt; **All incident reporting cases**.
@@ -27,7 +32,7 @@ Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager, sn\_op
 
 4.  On the New record form, fill in the fields.
 
-    To view more information on the fields, see the [Create New Digital Resilience Incident form](../reference/create-new-dig-res-inci.md).
+    To view more information on the fields, see the [Create New Digital Resilience Incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-dig-res-inci.md).
 
 5.  Select **Accept work**.
 
@@ -75,7 +80,7 @@ Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager, sn\_op
 
     The export functionality generates a Microsoft Excel sheet based on the reporting cases, which can be saved to your local hard drive and shared with regulatory authorities. You can download the DRI report as shown in the example.
 
-    ![Export.](../image/export.png)
+    \[Omitted image "export.png"\] Alt text: Export.
 
     The Microsoft Excel report contains the Common details and Initial report tabs. All fields from the initial report are exported with their names as column headers.
 

@@ -2,6 +2,7 @@
 title: Review the case filing appeal
 description: Review the appeal and get an acknowledgment from Visa for the appeal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/review-case-filing-appeal.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -27,7 +28,7 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -60,7 +61,7 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 12. Select **Close task**.
 
 
-**Parent Topic:**[Collaboration dispute workflow](../concept/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 
-**Parent Topic:**[Allocation dispute workflow](../concept/allocation-dispute-work-flow.md)
+**Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
 

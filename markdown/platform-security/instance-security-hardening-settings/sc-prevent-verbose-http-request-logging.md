@@ -2,6 +2,7 @@
 title: Prevent verbose HTTP request logging
 description: Help prevent access to sensitive information by reducing verbose HTTP request logging.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-prevent-verbose-http-request-logging.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -88,7 +89,7 @@ Category
 
 </td><td>
 
-[Error handling and logging](sc-error-handling-logging.md)
+[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 
 </td></tr><tr><td>
 
@@ -110,7 +111,7 @@ The **glide.outbound\_http\_log.override** system property enables you to overri
 
  If **glide.outbound\_http\_log.override** is set to **true**, the level of logging is determined by the value of the **glide.outbound\_http\_log.override.level** property. This value can be **basic**, **elevated**, or **all**. All 3 are string/text based values. Any value other than these is interpreted as **basic**.
 
- For additional details, see [Configure outbound logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-logging-configure.md).
+ For additional details, see .
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Error handling and logging](sc-error-handling-logging.md)
+**Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 

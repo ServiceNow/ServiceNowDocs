@@ -2,6 +2,7 @@
 title: Kanban Portfolio dashboard in EAP
 description: The Kanban Portfolio dashboard in Enterprise Agile Planning \(EAP\) provides progress metrics and work item status for your EAP portfolios of the Kanban configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/kanban-portfolio-dashboard.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -15,7 +16,7 @@ breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planni
 
 The Kanban Portfolio dashboard in Enterprise Agile Planning \(EAP\) provides progress metrics and work item status for your EAP portfolios of the Kanban configuration.
 
-![Kanban Portfolio dashboard in Enterprise Agile Planning.](../images/eap-dashboard-kanban-portfolio.png)
+\[Omitted image "eap-dashboard-kanban-portfolio.png"\] Alt text: Kanban Portfolio dashboard in Enterprise Agile Planning.
 
 ## Required EAP roles
 
@@ -79,7 +80,7 @@ Epics by state
 
 Bar graph
 
-![Epics by state.](../../../use/reporting/image/inline-data-vis-bar-column.png)
+\[Omitted image "inline-data-vis-bar-column.png"\] Alt text: Epics by state.
 
 </td><td>
 
@@ -97,7 +98,7 @@ Work item distribution
 
 Donut
 
-![Work item distribution.](../../../use/reporting/image/inline-data-vis-96px-donut.png)
+\[Omitted image "inline-data-vis-96px-donut.png"\] Alt text: Work item distribution.
 
 </td><td>
 

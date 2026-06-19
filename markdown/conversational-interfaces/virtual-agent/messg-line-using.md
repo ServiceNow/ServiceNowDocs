@@ -2,6 +2,7 @@
 title: Using Conversational Integration with LINE
 description: Enable a requester to converse with an agent using the LINE chat conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-line-using.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Conversational Integration with LINE, Integrate VA with messaging a
 
 Enable a requester to converse with an agent using the LINE chat conversations.
 
-An administrator can configure the Conversational Integration with LINE application for integrating the LINE messaging app with a ServiceNow application. For more information, see [Integrating the LINE messaging app with other applications](messg-line-integrating-apps.md).
+An administrator can configure the Conversational Integration with LINE application for integrating the LINE messaging app with a ServiceNow application. For more information, see [Integrating the LINE messaging app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-integrating-apps.md).
 
 The following options are available:
 
@@ -29,7 +30,7 @@ The following options are available:
 As a live agent, you can initiate LINE chat conversations with a requester in two ways:
 
 -   Send a message from either an active interaction record, a contact record, or a consumer contact record.
--   Set up notifications to be sent to the requester when a business event occurs or when a record is updated. See [Create a provider notification](../../notification/task/create-provider-notification.md).
+-   Set up notifications to be sent to the requester when a business event occurs or when a record is updated. See [Create a provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-provider-notification.md).
 
 **Note:** The requester must subscribe and opt in to receive notifications.
 
@@ -43,10 +44,10 @@ As a live agent interacting with a requester over the LINE service channel, you 
 -   Share any URLs as links.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the Line service channel for transfer of chat conversations, then you can accept a work item from the LINE chat conversation in your Agent Workspace Inbox. For more information, see [Transfer LINE chat conversations to live agents](../task/messg-line-live-agent-conv.md) and [Service channels](../../advanced-work-assignment/concept/awa-service-channels.md).
+**Note:** If an administrator has configured the Line service channel for transfer of chat conversations, then you can accept a work item from the LINE chat conversation in your Agent Workspace Inbox. For more information, see [Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
--   **[Transfer LINE chat conversations to live agents](../task/messg-line-live-agent-conv.md)**  
+-   **[Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-live-agent-conv.md)**  
 Configure the Advanced Work Assignment application to transfer a LINE chat conversation initiated by a requester \(customer contact or consumer\) to a live agent.
 
-**Parent Topic:**[Conversational Integration with LINE](messg-line.md)
+**Parent Topic:**[Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line.md)
 

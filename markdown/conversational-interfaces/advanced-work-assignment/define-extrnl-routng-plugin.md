@@ -2,6 +2,7 @@
 title: Define external routing test implementation
 description: Define the External Routing Test Tools plugin \[com.glide.awa.external.test\_tools\] with a simplified external-routing-provider sample Automated Test Framework \(ATF\) by using the demo data that is available with the plugin installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/define-extrnl-routng-plugin.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

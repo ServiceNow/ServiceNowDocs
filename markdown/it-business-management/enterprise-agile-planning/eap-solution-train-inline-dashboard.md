@@ -2,6 +2,7 @@
 title: EAP Solution Train dashboard
 description: The Solution Train dashboard provides a snapshot of teams' work assignment status such as capabilities, work items, and team performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-solution-train-inline-dashboard.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -15,9 +16,9 @@ breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planni
 
 The Solution Train dashboard provides a snapshot of teams' work assignment status such as capabilities, work items, and team performance.
 
-![Solution train inline dashboard](../images/eap-solution-train-dashboard.png)
+\[Omitted image "eap-solution-train-dashboard.png"\] Alt text: Solution train inline dashboard
 
-You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](configuring-eap-dashboard.md).
+You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
 
 ## Required EAP roles
 
@@ -77,7 +78,7 @@ Capabilities by state
 
 Bar graph
 
-![Capabilities grouped by their current state.](../../../use/reporting/image/inline-data-vis-bar-column.png)
+\[Omitted image "inline-data-vis-bar-column.png"\] Alt text: Capabilities grouped by their current state.
 
 </td><td>
 
@@ -95,7 +96,7 @@ Work item distribution
 
 Donut
 
-![Distribution of work items.](../../../use/reporting/image/inline-data-vis-96px-donut.png)
+\[Omitted image "inline-data-vis-96px-donut.png"\] Alt text: Distribution of work items.
 
 </td><td>
 
@@ -117,7 +118,7 @@ Team performance
 
 List
 
-![Evaluating child teams progress.](../../../use/reporting/image/inline-data-vis-list.png)
+\[Omitted image "inline-data-vis-list.png"\] Alt text: Evaluating child teams progress.
 
 </td><td>
 
@@ -127,7 +128,7 @@ sn\_apw\_advanced\_eap\_iteration
 
 Evaluate child teams progress and help them enhance their performance.
 
- You can choose and rearrange the columns of the report by selecting the ![Rearrange the columns.](../../../reuse/icons/product-icons/gear-outline-24.svg) icon.
+ You can choose and rearrange the columns of the report by selecting the \[Omitted image "gear-outline-24.svg"\] Alt text: Rearrange the columns. icon.
 
 </td></tr></tbody>
 </table>

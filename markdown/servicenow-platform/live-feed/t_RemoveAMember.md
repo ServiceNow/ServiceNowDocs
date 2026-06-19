@@ -2,11 +2,12 @@
 title: Remove a member
 description: If you're a team administrator, you can remove any member from the team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_RemoveAMember.html
 release: australia
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use teams in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,5 +37,5 @@ Role required: admin
     **Note:** You can remove members regardless of their current state. That is, you can remove members who have already joined the team or whose membership is pending.
 
 
-**Parent Topic:**[Use teams in Live Feed](../concept/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

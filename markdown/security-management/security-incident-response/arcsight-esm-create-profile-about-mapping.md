@@ -2,6 +2,7 @@
 title: Mapping correlation event fields for the ArcSight ESM event ingestion integration
 description: After you identify the specific correlation event rule from the list, the next step is to map correlation event fields to the fields in the security incident form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-create-profile-about-mapping.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ For the mapping step, you can ingest sample correlation events for the selected 
 
 The following figure shows the default mapping configuration that is provided for creating the correlation event profile. You can customize the fields that populate the security incident.
 
-![ArcSight ESM: Create Profile: Default Map](../image/sir-arcsight-esm-profile-default-map.png)
+\[Omitted image "sir-arcsight-esm-profile-default-map.png"\] Alt text: ArcSight ESM: Create Profile: Default Map
 
 When you click **Retrieve Events**, the correlation event field names and the corresponding values are populated on the left side of the form. These are the ArcSight ESM correlation event fields that are available to map to the security incident fields.
 

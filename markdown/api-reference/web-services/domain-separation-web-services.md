@@ -2,6 +2,7 @@
 title: Understanding domain separation and web services
 description: Domain separation is supported in Web Services. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/domain-separation-web-services.html
 release: australia
 product: Web Services
 classification: web-services
@@ -25,12 +26,12 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
-**Parent Topic:**[Additional integration resources](../../outbound-web-services/concept/additional-integration-resources.md)
+**Parent Topic:**[Additional integration resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/additional-integration-resources.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

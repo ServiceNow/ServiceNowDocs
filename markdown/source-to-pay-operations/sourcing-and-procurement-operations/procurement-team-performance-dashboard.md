@@ -2,6 +2,7 @@
 title: Procurement Team Performance Dashboard
 description: Visually analyze how your team is performing on sourcing requests, purchase requisitions, negotiated savings, and negotiation outcomes, over a given period of time, with the help of the Procurement Team Performance Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/procurement-team-performance-dashboard.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -152,9 +153,9 @@ View the list of buyers across the organization along with their corresponding y
  Some of the possible negotiation outcomes are contract renewal, quote, RFx, and so on. Negotiation types can be cost avoidance, standard savings, contract terms negotiations, or unsuccessful negotiations.
 
 </td></tr></tbody>
-</table>For information on how to work with dashboards in configurable workspaces, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
+</table>For information on how to work with dashboards in configurable workspaces, see .
 
-For information on how to work with widgets and data visualizations in configurable workspaces, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+For information on how to work with widgets and data visualizations in configurable workspaces, see .
 
-**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
+**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/performance-analytics-for-spo.md)
 

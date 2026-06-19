@@ -2,6 +2,7 @@
 title: Robust import set transformer properties
 description: Properties that define the types of updates that are permitted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/robust-import-set-xform-props.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -19,7 +20,7 @@ Properties that define the types of updates that are permitted.
 
 To configure properties, navigate to **System Import Sets** &gt; **Administration** &gt; **Robust Import Set Transformers**.
 
-The properties defined in the Robust Import Set Transformers form are at the IRE payload level and apply to all rows for the given import. If you define properties at the individual item level using IntegrationHub ETL, they take priority over properties defined at the IRE payload level. For more details about CI reclassification, see, [CI reclassification during IRE processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CIReclassification.md).
+The properties defined in the Robust Import Set Transformers form are at the IRE payload level and apply to all rows for the given import. If you define properties at the individual item level using IntegrationHub ETL, they take priority over properties defined at the IRE payload level. For more details about CI reclassification, see, CI reclassification during IRE processing.
 
 <table id="table_t2x_kth_krb"><thead><tr><th>
 

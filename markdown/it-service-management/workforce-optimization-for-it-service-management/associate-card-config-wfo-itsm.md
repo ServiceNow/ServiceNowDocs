@@ -2,6 +2,7 @@
 title: Associate a work scheduler card to the work configuration
 description: Associate the work scheduler card that you've created to the work configuration to display the card in the Work scheduler sidebar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/associate-card-config-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -31,14 +32,14 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The work configuration card displays in Work scheduler in manager workspace.
 
-    For information on setting up a work configuration, see [Set up a work configuration](setup-work-scheduler.md).
+    For information on setting up a work configuration, see [Set up a work configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-work-scheduler.md).
 
-    For information on creating the work scheduler card, see [Create a Work Scheduler card using UI Builder](create-workscheduler-card-wfo-itsm.md).
+    For information on creating the work scheduler card, see [Create a Work Scheduler card using UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md).
 
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-itsm.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md)
 
-**Previous topic:**[Configure an avatar component for Work scheduler](work-sched-avatar-component.md)
+**Previous topic:**[Configure an avatar component for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-avatar-component.md)
 
-**Next topic:**[Create extension points for Work scheduler](create-work-sched-ext-points-wfo-itsm.md)
+**Next topic:**[Create extension points for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-work-sched-ext-points-wfo-itsm.md)
 

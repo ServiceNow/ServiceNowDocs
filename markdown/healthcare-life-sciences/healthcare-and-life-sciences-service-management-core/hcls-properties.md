@@ -2,6 +2,7 @@
 title: Healthcare and Life Sciences Service Management Core properties
 description: There are several advanced Healthcare and Life Sciences Service Management Core properties that you can configure for features used in Healthcare and Life Sciences applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-properties.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -40,7 +41,7 @@ Enter a list of task table names that are displayed as to-do items on a patient 
 -   Type: string
 -   Default value: sn\_doc\_task,sn\_hcls\_insurance\_info\_task
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Specify a to-do item for patients](../task/hcls-config-to-do-items.md)
+-   Learn more: [Specify a to-do item for patients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-to-do-items.md)
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Set the property to `True` to enable the self-registration feature in the Patien
 -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Configure the self-registration feature on the Patient Portal](../concept/hcls-self-registration.md)
+-   Learn more: [Configure the self-registration feature on the Patient Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-self-registration.md)
 
 </td></tr><tr><td>
 
@@ -88,5 +89,5 @@ Variable specifically for service portal. Setting this to true enables service p
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](hcls-serv-mgmt-core-reference.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core-reference.md)
 

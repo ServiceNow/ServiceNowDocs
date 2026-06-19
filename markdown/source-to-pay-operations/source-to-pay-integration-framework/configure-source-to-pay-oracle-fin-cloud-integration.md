@@ -2,11 +2,12 @@
 title: Configure the Source-to-Pay integration with Oracle Financial Cloud
 description: Integrate the ServiceNow instance and Oracle Financial Cloud by creating a custom OAuth application in Oracle Financial Cloud to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/configure-source-to-pay-oracle-fin-cloud-integration.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Source-to-Pay integration with Oracle Financial Cloud, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -20,15 +21,15 @@ Integrate the ServiceNow instance and Oracle Financial Cloud by creating a custo
 Verify that you have performed the following:
 
 -   Activated the Source-to-Pay integration with the Oracle Financial Cloud application from ServiceNow Store. This automatically activates the Oracle Financial Cloud Spoke.
--   Set up [Oracle EBS Spoke](https://www.servicenow.com/docs/csh?topicname=oracle-fin-cloud&version=zurich&pubname=zurich-integrate-applications).
--   Activated the Source-to-Pay integration framework from ServiceNow Store. Source-to-Pay integration with Oracle Financial Cloud uses the Source-to-Pay integration framework to pull tasks from Oracle Financial Cloud into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](../../source-to-pay-operations/concept/source-to-pay-integration-framework.md).
+-   Set up [Oracle EBS Spoke](https://www.servicenow.com/docs/access?context=oracle-fin-cloud&version=zurich).
+-   Activated the Source-to-Pay integration framework from ServiceNow Store. Source-to-Pay integration with Oracle Financial Cloud uses the Source-to-Pay integration framework to pull tasks from Oracle Financial Cloud into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-framework.md).
 
 
 ## Primary Data Integration with Oracle Financial Cloud's Dependencies
 
 Install the following dependencies of Primary Data integration with Oracle Financial Cloud. When you install the plugin, all the dependencies get installed automatically. All primary data are synchronized based on the configurable scheduled job Fetch Spend Primary Data.
 
-Run the Trigger Oracle Financial Cloud Integration that pulls tasks into ServiceNow. For more information, see [Run scheduled jobs in Oracle Financial Cloud](../task/run-scheduled-jobs-oracle-fin-cloud.md).
+Run the Trigger Oracle Financial Cloud Integration that pulls tasks into ServiceNow. For more information, see [Run scheduled jobs in Oracle Financial Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/run-scheduled-jobs-oracle-fin-cloud.md).
 
 |App name|Plugin ID|
 |--------|---------|

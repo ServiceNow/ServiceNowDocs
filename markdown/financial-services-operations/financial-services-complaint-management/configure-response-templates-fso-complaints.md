@@ -2,6 +2,7 @@
 title: Define response templates for Financial Services Complaint Management
 description: Create or modify a response template to define a reusable message that can be copied to complaint case or task forms to provide quick and consistent messages to customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/configure-response-templates-fso-complaints.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -17,7 +18,7 @@ Create or modify a response template to define a reusable message that can be co
 
 ## Before you begin
 
-Ensure that the scope is selected for the Financial Services Complaint Management application. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Ensure that the scope is selected for the Financial Services Complaint Management application. For more information, see Application picker.
 
 Role required: sn\_bom\_compl.admin and sn\_templated\_snip.template\_snippet\_admin
 
@@ -31,7 +32,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
 2.  Create a response template.
 
-    For more information, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/create-modify-templated-snippet.md).
+    For more information, see Create or modify a response template.
 
     The Channels related list appears.
 
@@ -41,7 +42,7 @@ Each template is associated with the Complaint Case \[sn\_bom\_compl\_service\] 
 
     -   Click **New** to create a new channel that gets added to the response template.
 
-        **Note:** For information on Response Template Channel form fields, see [Create a response template channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+        **Note:** For information on Response Template Channel form fields, see Create a response template channel.
 
     -   Click **Edit** to access and add an existing channel to the response template.
     The Response Template form returns.

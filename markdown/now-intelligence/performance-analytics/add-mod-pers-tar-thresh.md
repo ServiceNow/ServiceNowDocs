@@ -2,6 +2,7 @@
 title: Add or modify another user's personal target or threshold
 description: If you can create global targets or thresholds, you can modify or add personal targets and thresholds for any user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/add-mod-pers-tar-thresh.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -25,15 +26,15 @@ You can either look up the personal targets or thresholds of a user or create a 
 
 ## Procedure
 
-1.  Navigate to **Performance Analytics** &gt; **Targets** or **Performance Analytics** &gt; **Thresholds**.
+1.  Navigate to **Platform Analytics Administration** &gt; **Indicators** &gt; **Targets** or **Platform Analytics Administration** &gt; **Indicators** &gt; **Thresholds**.
 
 2.  To open an existing personal threshold or target to modify, follow these steps:
 
     1.  Search the records by the Owner.
 
-    2.  When you find the target or threshold that you want to modify, select the info icon ![](../../dashboards/image/IconInformation.png) on the row for that target or threshold record.
+    2.  When you find the target or threshold that you want to modify, select the info icon \[Omitted image "IconInformation.png"\] Alt text: on the row for that target or threshold record.
 
-        ![Opening the preview of a target record.](../image/target-record-open-preview.png)
+        \[Omitted image "target-record-open-preview.png"\] Alt text: Opening the preview of a target record.
 
         The preview for that target or threshold record appears.
 
@@ -64,5 +65,5 @@ You can either look up the personal targets or thresholds of a user or create a 
     You can have more than one target value, but the date ranges between start and review cannot overlap.
 
 
-**Parent Topic:**[Performance Analytics targets and thresholds](../concept/pa-targets-thresholds.md)
+**Parent Topic:**[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md)
 

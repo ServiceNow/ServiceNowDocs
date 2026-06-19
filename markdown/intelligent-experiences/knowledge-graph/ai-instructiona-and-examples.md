@@ -2,6 +2,7 @@
 title: Improving Natural Language Queries with Tag configuration
 description: AI instructions add more business context to natural language queries. They guide users and promote responses that more closely align with their needs and expectations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/ai-instructiona-and-examples.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

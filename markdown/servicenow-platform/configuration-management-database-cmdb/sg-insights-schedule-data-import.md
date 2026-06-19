@@ -2,6 +2,7 @@
 title: Edit a scheduled data import from CMDB performance insights in Service Graph Workspace
 description: Edit a scheduled data import directly from CMDB performance insights for your Service Graph Connectors. Consider enabling Concurrent Import with a custom size partition to split incoming data into multiple import sets and transform the import sets concurrently to reduce processing time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-insights-schedule-data-import.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -38,7 +39,7 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and one of these roles:
 
     You may need to change your application scope to create or edit a scheduled data import from Service Graph Workspace.
 
-    For more information about updating a scheduled data import, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
+    For more information about updating a scheduled data import, see .
 
 7.  Select **Update**.
 

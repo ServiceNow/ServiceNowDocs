@@ -2,13 +2,14 @@
 title: Add a workplace contract service in Workplace Central
 description: Workplace contract services are the common services offered as part of the lease contract. You can add and track the services along with their associated costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-add-lease-contract-service.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add a workplace contract service in Workplace Central
@@ -43,5 +44,5 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 6.  Select **Save**.
 
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

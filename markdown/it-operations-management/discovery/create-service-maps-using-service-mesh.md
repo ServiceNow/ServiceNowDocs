@@ -2,6 +2,7 @@
 title: Enable service maps using service meshes
 description: Enable application service maps based on the traffic between the workloads in Kubernetes by using Istio or Linkerd or service meshes as part of Kubernetes Visibility Agent \(KVA\) installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-service-maps-using-service-mesh.html
 release: australia
 product: Discovery
 classification: discovery
@@ -23,21 +24,21 @@ Role required: discovery\_admin.
 
 ## About this task
 
-If you use a service mesh, a pod running on every node \(Informer\) communicates with a Prometheus server to get the traffic information. For more information, see [Install Kubernetes Visibility Agent \(KVA\) Informer](cnov-deploy-install.md)
+If you use a service mesh, a pod running on every node \(Informer\) communicates with a Prometheus server to get the traffic information. For more information, see [Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
 
 ## Procedure
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d484519e89">
+<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d199166e89">
 
 Method
 
-</th><th align="left" id="d484519e92">
+</th><th align="left" id="d199166e92">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d484519e98">
+</th></tr></thead><tbody><tr><td id="d199166e98">
 
 **During Helm installation**
 
@@ -59,7 +60,7 @@ If your Prometheus server URL is not the default one, use the following paramete
 --set connectionsDiscovery.prometheusUrl
 ```
 
-</td></tr><tr><td id="d484519e124">
+</td></tr><tr><td id="d199166e124">
 
 **Modify the `k8s_informer.yaml` script**
 
@@ -82,7 +83,7 @@ kubectl apply -f k8s_informer.yaml
 </table>
 ## What to do next
 
-[Create application service maps](create-an-app-service-map-kva.md)
+[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-an-app-service-map-kva.md)
 
-**Parent Topic:**[Enabling application service maps](../concept/enabling-application-service-maps.md)
+**Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enabling-application-service-maps.md)
 

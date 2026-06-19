@@ -2,6 +2,7 @@
 title: View the community events landing page
 description: The Events landing page provides an overview of all events that you have access to in the community. You can filter events, view your status for the event, see how many other community users are attending an event, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/view-events-homepage.html
 release: australia
 product: Communities
 classification: communities
@@ -38,5 +39,5 @@ Community users must have permission to view events \(**Event Read**\).
 3.  Click an event to perform tasks related to the event.
 
 
-**Parent Topic:**[Community events](community-events.md)
+**Parent Topic:**[Community events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-events.md)
 

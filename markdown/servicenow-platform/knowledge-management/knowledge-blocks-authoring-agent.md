@@ -2,6 +2,7 @@
 title: Knowledge blocks authoring in Agent Workspace
 description: Reuse content by creating, editing, and publishing knowledge blocks in Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-blocks-authoring-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,11 +18,11 @@ Reuse content by creating, editing, and publishing knowledge blocks in Agent Wor
 
 You can perform the following knowledge blocks-related tasks in Agent Workspace:
 
--   [Create a knowledge block for a knowledge base](../task/create-knowledge-block-workspace.md).
--   [Manage all unpublished and published knowledge blocks authored by you](../task/publish-block-agent.md).
--   [Add knowledge blocks to a knowledge article](../task/add-knowledge-block-to-article-workspace.md).
+-   [Create a knowledge block for a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-knowledge-block-workspace.md).
+-   [Manage all unpublished and published knowledge blocks authored by you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/publish-block-agent.md).
+-   [Add knowledge blocks to a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/add-knowledge-block-to-article-workspace.md).
 
     When adding a knowledge block to a knowledge article, you can also add knowledge blocks to any fields associated with an article template if used for an article.
 
--   [Retire a knowledge block not used in any knowledge articles](../task/retire-block-agent.md).
+-   [Retire a knowledge block not used in any knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/retire-block-agent.md).
 

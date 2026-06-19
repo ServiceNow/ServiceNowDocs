@@ -2,6 +2,7 @@
 title: Create an ethics legal matter from a universal request
 description: Create an ethics legal matter from a universal request to get the Legal department's assistance in resolving the complaints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/create-legal-ticket-universal-request.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -17,7 +18,7 @@ Create an ethics legal matter from a universal request to get the Legal departme
 
 ## Before you begin
 
-Ensure you have the Universal Request application installed and [related configuration for legal services](../../legal-request-management/task/configure-universal-request-legal.md) completed by the administrator.
+Ensure you have the Universal Request application installed and [related configuration for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/configure-universal-request-legal.md) completed by the administrator.
 
 Role required: sn\_lg\_investigate.fulfiller and sn\_uni\_req.sensitiveinfo\_agent
 
@@ -27,7 +28,7 @@ Role required: sn\_lg\_investigate.fulfiller and sn\_uni\_req.sensitiveinfo\_age
 
     Alternatively, you can also open a universal request by navigating to **All** &gt; **Universal Request** &gt; **Open**.
 
-2.  Click the list icon \(![List icon.](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.\).
 
 3.  Under the **Ethics Complaints**, click **All**.
 
@@ -41,7 +42,7 @@ Role required: sn\_lg\_investigate.fulfiller and sn\_uni\_req.sensitiveinfo\_age
 
 6.  Based on the subject of the complaint, you can route it to the appropriate department by creating either an ethics legal matter or an HR case.
 
-    For more information on creating a Report Misconduct HR case, see [Using HR Service Delivery Employee Relations](../../human-resources/concept/hr-er-using.md).
+    For more information on creating a Report Misconduct HR case, see [Using HR Service Delivery Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-using.md).
 
 7.  Click **Create Legal Ticket**.
 
@@ -63,8 +64,8 @@ Role required: sn\_lg\_investigate.fulfiller and sn\_uni\_req.sensitiveinfo\_age
 
 ## What to do next
 
--   If an ethics legal matter is created: In the Legal department, the legal matter is assigned to a matter owner. The assigned matter owner [works on the legal matter](work-legal-investigations-matter.md) and provides the resolution, or transfers the legal request to another department or back to the universal request.
--   If an HR case is created: In the HR department, the HR case is assigned to an HR agent to work on. For more information, see [Work an HR case](../../human-resources/task/t_CreateAnHRCase.md).
+-   If an ethics legal matter is created: In the Legal department, the legal matter is assigned to a matter owner. The assigned matter owner [works on the legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/work-legal-investigations-matter.md) and provides the resolution, or transfers the legal request to another department or back to the universal request.
+-   If an HR case is created: In the HR department, the HR case is assigned to an HR agent to work on. For more information, see [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md).
 
-**Parent Topic:**[Triaging universal requests for legal investigation complaints](../concept/manage-legal-investigations-uni-request.md)
+**Parent Topic:**[Triaging universal requests for legal investigation complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/manage-legal-investigations-uni-request.md)
 

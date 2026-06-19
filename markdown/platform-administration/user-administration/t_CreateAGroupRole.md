@@ -2,6 +2,7 @@
 title: Create a group role
 description: Create a group role to control access to features and capabilities in applications for all members in a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_CreateAGroupRole.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -36,5 +37,5 @@ Role required: admin.
     **Note:** To move this action to the background so you aren’t waiting when adding a number of group members, add the system property **glide.ui.schedule\_slushbucket\_save\_for\_group\_roles** and set it to true.
 
 
-**Parent Topic:**[Create a role](t_CreateARole.md)
+**Parent Topic:**[Create a role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md)
 

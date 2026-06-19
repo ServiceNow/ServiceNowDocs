@@ -2,6 +2,7 @@
 title: Create and sign document tasks in Agent Workspace for HR Case Management
 description: Create document tasks directly in the Agent Workspace for HR Case Management using document templates and sign them off from Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-temp.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -25,7 +26,7 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Select an HR case for the document task.
 
-    In the **HR service** field, make sure that an HR service that has document template is selected. For more information, see [Create a case in Agent Workspace for HR Case Management](agent-ws-configurable-hr-create-case.md).
+    In the **HR service** field, make sure that an HR service that has document template is selected. For more information, see [Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
 
 3.  Click the **Start Work** button.
 
@@ -35,9 +36,9 @@ Role required: sn\_hr\_core.case\_writer
 
 5.  Select the **Initiate document task** button.
 
-    ![Initiating document tasks](../image/initiate-tasks.png)
+    \[Omitted image "initiate-tasks.png"\] Alt text: Initiating document tasks
 
-    For more information, see [Document tasks generation in Document Templates](task-mapped-participants.md).
+    For more information, see [Document tasks generation in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/task-mapped-participants.md).
 
     Document tasks that are part of the selected HR case are generated and listed in the **Document tasks** tab. The participants will receive document tasks as configured in the template
 

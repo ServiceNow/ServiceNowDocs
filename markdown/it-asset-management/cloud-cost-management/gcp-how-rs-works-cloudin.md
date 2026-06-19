@@ -2,6 +2,7 @@
 title: Rightsizing analysis for Google Cloud
 description: Cloud Cost Management uses an optimized Rightsizing process for each provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/gcp-how-rs-works-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -23,5 +24,5 @@ For details on how the values are generated, see [Google Cloud documentation](ht
 
 **Note:** The Google Cloud console may show the same resources for both Unused resources and Rightsizing recommendations. If the same resources are displayed, Cloud Cost Management shows the information in Unused resources and excludes it from the Rightsizing recommendations with the reason, `Recommendation already present in unused`.
 
-To get the recommendations from the Google Cloud console and perform start, stop, resize, and delete operations, you must have specific roles and permissions. For detailed information on these permissions, see [Setup roles for Google Cloud billing download](../task/gcp-user-policy-create-cloudin.md).
+To get the recommendations from the Google Cloud console and perform start, stop, resize, and delete operations, you must have specific roles and permissions. For detailed information on these permissions, see [Setup roles for Google Cloud billing download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/gcp-user-policy-create-cloudin.md).
 

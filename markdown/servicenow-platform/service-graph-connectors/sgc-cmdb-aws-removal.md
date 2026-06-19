@@ -2,6 +2,7 @@
 title: Record removal process in Service Graph Connector for AWS
 description: The Service Graph Connector for AWS uses the optimized deletion approach to manage removal of records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-removal.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -19,7 +20,7 @@ Record removal is the process of handling data that is no longer needed. For any
 
 Deletion of records in Service Graph Connector for AWS involves marking the install status of a record as **retired** rather than permanently deleting it from the system. The record remains in the database, making it possible to reference or restore it later. Deletion for Service Graph Connector for AWS relies on the Source \[sys\_object\_source table\], which can become inefficient with large datasets.
 
-To enhance the deletion process, you can enable the optimized deletion method that leverages the SG-AWS Extension Attributes \[sn\_aws\_extension\_attributes\] table. This table is regularly purged of obsolete records, improving performance and efficiency. The process still marks the install status of a record as **retired** but the streamlined data structure reduces overhead, ensuring quicker processing and better system performance. See [Enable optimized deletion of retired CIs in AWS](../task/sgc-cmdb-aws-delete-cis.md).
+To enhance the deletion process, you can enable the optimized deletion method that leverages the SG-AWS Extension Attributes \[sn\_aws\_extension\_attributes\] table. This table is regularly purged of obsolete records, improving performance and efficiency. The process still marks the install status of a record as **retired** but the streamlined data structure reduces overhead, ensuring quicker processing and better system performance. See [Enable optimized deletion of retired CIs in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-delete-cis.md).
 
 Optimized deletion is enabled for all tables in the Service Graph Connector for AWS, except for the following tables:
 
@@ -30,5 +31,5 @@ Optimized deletion is enabled for all tables in the Service Graph Connector for 
 -   TCP Connections \[cmdb\_tcp\]
 -   Application \[cmdb\_ci\_appl\]
 
-**Parent Topic:**[Service Graph Connector for AWS reference](sgc-cmdb-aws-reference.md)
+**Parent Topic:**[Service Graph Connector for AWS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-reference.md)
 

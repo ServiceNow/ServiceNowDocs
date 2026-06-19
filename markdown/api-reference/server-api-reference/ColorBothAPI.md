@@ -2,6 +2,7 @@
 title: Color - Scoped, Global
 description: Creates a Color object used to define color attributes that you can apply to elements in a PDF; such as cells, tables, and lines.Instantiates a new Color object with RGB values.Indicates whether the values of two different color objects match.Returns a black, gray, or white color object.Creates color with given values and enables you to change the values of an existing color. Each of the values must be from 0 through 1.Sets the level of color opacity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ColorBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ Creates a Color object used to define color attributes that you can apply to ele
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-This API is a component used with the [Document API](../../DocumentBoth/concept/DocumentBothAPI.md#) to generate a PDF.
+This API is a component used with the [Document API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) to generate a PDF.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Color - Color\(Array colors\)
 

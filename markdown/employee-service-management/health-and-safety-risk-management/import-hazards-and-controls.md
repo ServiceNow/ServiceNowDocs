@@ -2,6 +2,7 @@
 title: Create a risk analysis for a safety risk assessment from a job
 description: Create a risk analysis by importing hazards and controls from a predefined job in the job register to a risk assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/import-hazards-and-controls.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -21,13 +22,13 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessme
 
 ## About this task
 
-You can conduct a risk assessment for the jobs in your organization to identify associated hazards and assign a risk rating to each job hazard. For information on predefined jobs, see [Jobs in the job register](hs-define-job-register.md).
+You can conduct a risk assessment for the jobs in your organization to identify associated hazards and assign a risk rating to each job hazard. For information on predefined jobs, see [Jobs in the job register](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-job-register.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  Select the **Risk assessment** list and then **All**.
 
@@ -43,7 +44,7 @@ You can conduct a risk assessment for the jobs in your organization to identify 
 
 8.  In the **Hazard assessments** tab of each risk analysis, review the imported hazards and their controls to assess their risk levels.
 
-    For more information on how the risk level for a hazard is evaluated, see [Assess safety hazards and risk levels for a risk analysis](add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
+    For more information on how the risk level for a hazard is evaluated, see [Assess safety hazards and risk levels for a risk analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/add-a-risk-and-its-controls-for-a-safety-risk-assessment.md).
 
 
 ## Result
@@ -52,5 +53,5 @@ You can conduct a risk assessment for the jobs in your organization to identify 
 -   A risk analysis record is created for each job step in the selected job. These risk analysis records appear in the **Risk analyses** list under the Risk analyses tab of the assessment.
 -   The imported hazards and their controls are listed in the **Hazard assessments** tab of risk analysis records.
 
-**Parent Topic:**[Safety risk assessment](../concept/hs-risk-assessment.md)
+**Parent Topic:**[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)
 

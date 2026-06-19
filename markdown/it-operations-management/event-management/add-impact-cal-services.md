@@ -2,11 +2,12 @@
 title: Add application services for impact calculation
 description: Specify the application services that must be considered during impact calculation to ensure accurate service impact assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/add-impact-cal-services.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -27,7 +28,7 @@ Organizations may have thousands—or even hundreds of thousands—of applicatio
 
     -   Remove the unwanted services from the em\_impact\_filter\_service.list, or
     -   Set their status to false in the em\_impact\_filter\_service.list.
-    For information on how to remove the application service from the list, see [Remove application services from impact calculation](remove-impact-cal-services.md).
+    For information on how to remove the application service from the list, see [Remove application services from impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/remove-impact-cal-services.md).
 
 -   Scenario 2: CMDB class is not added to em\_impact\_inclusion\_class.list. So, none of the application services related to this class are considered for impact calculation. However, you want only specific application services from this class to be included, you can directly add those services to the em\_impact\_filter\_service.list table and set their status to true without adding the CMDB class to the em\_impact\_inclusion\_class.list table.
 
@@ -39,26 +40,26 @@ The following procedure shows how to add an application service directly to the 
 
     The Impact Filter Services page opens.
 
-    ![A list of application services that are included in impact calculation.](../image/em-impact-cal-app-services-list.png)
+    \[Omitted image "em-impact-cal-app-services-list.png"\] Alt text: A list of application services that are included in impact calculation.
 
 2.  Select **New**.
 
-    ![Impact Filter Service details page.](../image/em-impact-cal-app-services-new.png)
+    \[Omitted image "em-impact-cal-app-services-new.png"\] Alt text: Impact Filter Service details page.
 
-3.  In the **Service** field, select the search icon \(![search icon](../../../common/image/List_SearchIcon.png)\).
+3.  In the **Service** field, select the search icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: search icon\).
 
     **Note:** By default, the **Calculate impact** check box is selected.
 
 4.  In the Service Instances page, select the service that you want to add for the impact calculation.
 
-    ![Service Instances page to select a service.](../image/em-impact-cal-app-service-selection.png)
+    \[Omitted image "em-impact-cal-app-service-selection.png"\] Alt text: Service Instances page to select a service.
 
 5.  Select **Submit**.
 
     The application service adds to the list of impact filter services.
 
-    ![The selected application service is added.](../image/em-impact-cal-app-services-added.png)
+    \[Omitted image "em-impact-cal-app-services-added.png"\] Alt text: The selected application service is added.
 
-    **Note:** Only the application services added to the Impact Filter Services list appear in the [Service Dashboard](worksplace-view-service-details.md).
+    **Note:** Only the application services added to the Impact Filter Services list appear in the [Service Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/worksplace-view-service-details.md).
 
 

@@ -2,6 +2,7 @@
 title: Initiate background verification in First Advantage from ServiceNow using invite on behalf of another user
 description: Initiate background verification of the required candidate by sending a request on behalf of another user to complete an application through an invite email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/fadv-dec-invite.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Initiate background verification of the required candidate by sending a request 
 
 ## Before you begin
 
--   [Create a case in First Advantage from ServiceNow](create-fadv-case.md)
+-   [Create a case in First Advantage from ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-fadv-case.md)
 
     **Note:** Ensure that the **Send Invite link** and **Use "Order As"** options are selected.
 
@@ -58,6 +59,6 @@ After accessing the invite email, candidate can either complete the application 
 
 **Note:**
 
--   You must set up the webhooks to receive the guest event updates. See [Set up First Advantage webhooks](setup-first-adv.md#) for information on setting up the webhooks.
+-   You must set up the webhooks to receive the guest event updates. See [Set up First Advantage webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-first-adv.md) for information on setting up the webhooks.
 -   If the candidate has declined the request for background verification, the Order record isn't created for the task.
 

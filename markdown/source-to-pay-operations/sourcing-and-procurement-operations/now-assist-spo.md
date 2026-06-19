@@ -2,6 +2,7 @@
 title: Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: Use the ServiceNow Now Assist for Sourcing and Procurement Operations \(SPO\) application to guide your requesters through a conversation-like experience for their procurement needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -19,19 +20,19 @@ Use the ServiceNow® Now Assist for Sourcing and Procurement Operations \(SPO\) 
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for SPO](now-assist-spo-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for SPO application to get started](../task/configure-now-assist-for-spo.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for SPO application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by Now Assist for SPO](now-assist-spo-using.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md)
 
 </td></tr><tr><td>
 
-[Use Sourcing and Procurement Operations AI agent collection![](../../../reuse/icons/brand-icons/bus-explore.svg)Use agentic workflows in Now Assist for SPO](agentic-ai-now-assist-spo.md)
+[Use Sourcing and Procurement Operations AI agent collection\[Omitted image "bus-explore.svg"\] Alt text:Use agentic workflows in Now Assist for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/agentic-ai-now-assist-spo.md)
 
 </td><td>
 
@@ -65,7 +66,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 

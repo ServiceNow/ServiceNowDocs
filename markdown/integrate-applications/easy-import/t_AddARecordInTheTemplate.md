@@ -2,6 +2,7 @@
 title: Add a record in the template
 description: Add rows to the template to create new records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/easy-import/t\_AddARecordInTheTemplate.html
 release: australia
 product: Easy Import
 classification: easy-import
@@ -23,13 +24,13 @@ Role required: admin.
 
 ## About this task
 
-![](../image/EasyImportInsertTemplate.png "Easy import insert template")
+\[Omitted image "EasyImportInsertTemplate.png"\] Alt text:
 
 ## Procedure
 
 1.  Add a row for each record you want to add to the table.
 
-    Each column corresponds to a field in the target table. Use the UI [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToFields.md) to learn about the purpose and content of the field.
+    Each column corresponds to a field in the target table. Use the UI Field administration to learn about the purpose and content of the field.
 
     The template validates values as you enter them and highlights cells containing invalid data. While you do not have a provide a value for every column, certain fields may fail validation if you do not provide a value.
 
@@ -42,5 +43,5 @@ Role required: admin.
     -   Created by Field: The insert template always lists the system administrator user \(admin role\) in the Created by field regardless of whether the import includes a Created by column. Even if you provide a different user value in the template, the import process overwrites this value with the system administrator user.
     -   Blank Values: Leaving a cell blank in the insert template results in a blank value in the imported record, provided the field supports a blank value. Fields that do not support a blank value will produce a validation error if you provide a blank value.
 
-**Parent Topic:**[Easy import](../concept/c_EasyImport.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md)
 

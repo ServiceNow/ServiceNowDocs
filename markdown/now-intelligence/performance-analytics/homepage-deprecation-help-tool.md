@@ -2,6 +2,7 @@
 title: Homepage deprecation
 description: Support for homepage functionality has been phased out. It is not possible to create or edit homepages at all when Next Experience is enabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/homepage-deprecation-help-tool.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ On upgrade to Zurich, active homepages are converted to Core UI responsive dashb
 
 Use the Homepage deprecation help tool to find all of your unconverted homepages in one place and convert them to dashboards, retire them, and restore retired homepages as dashboards.
 
-The Homepage deprecation help tool enables system and dashboard administrators to retire homepages or convert homepages to responsive dashboards using workflows. You can track migration status and assign tasks to users and groups. Retiring personal homepages includes a request sent to the owner for approval. The Homepage deprecation help tool is a store app for users with the admin and dashboard\_admin roles. To use this application, see [Install the Homepage deprecation help tool](../task/install-hp-dep-app.md).
+The Homepage deprecation help tool enables system and dashboard administrators to retire homepages or convert homepages to responsive dashboards using workflows. You can track migration status and assign tasks to users and groups. Retiring personal homepages includes a request sent to the owner for approval. The Homepage deprecation help tool is a store app for users with the admin and dashboard\_admin roles. To use this application, see [Install the Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/install-hp-dep-app.md).
 
 To find the dashboard versions of converted homepages, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 

@@ -2,6 +2,7 @@
 title: Enroll in a health plan
 description: As an employee, you can submit a question about or enroll in a company health plan such as medical, dental, or vision from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyAHealthBenefit.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,7 +24,7 @@ Role required: none
 
 Employees can ask questions about company benefits and enroll in a medical, dental, or vision plan by submitting a request through the Employee Center.
 
-Alternatively, a manager can submit an enrollment request by opening an HR case: [Create an HR case](search-hr-case.md).
+Alternatively, a manager can submit an enrollment request by opening an HR case: [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/search-hr-case.md).
 
 ## Procedure
 
@@ -40,5 +41,5 @@ Alternatively, a manager can submit an enrollment request by opening an HR case:
     The system creates an HR case and assigns it to the configured HR person. View the status of your request from the **My Requests** tab.
 
 
-**Parent Topic:**[HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

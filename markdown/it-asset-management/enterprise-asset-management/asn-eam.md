@@ -2,13 +2,14 @@
 title: Use Advanced Shipment Notification in Enterprise Asset Management
 description: Use Advanced Shipment Notification \(ASN\) to automate and create enterprise asset records for when your assets are in transit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/asn-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Managing enterprise asset shipments, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Use Advanced Shipment Notification in Enterprise Asset Management
@@ -27,11 +28,11 @@ Creating enterprise asset records manually is time consuming and can lead to err
 
 If the asset records that you want to create belong to model categories linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you must provide details for at least one of these fields in the ASN template. Otherwise, the asset record won't be created. For example, if identification rules are defined for the Serial number and MAC address, you should provide a value for either of these fields.
 
-The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
+The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see  and . These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
 
 ## Procedure
 
-1.  Navigate to **Enterprise Asset Workspace** &gt; **Asset operations** &gt; **Shipment Notifications**.
+1.  Navigate to **Enterprise Asset Workspace** &gt; **Procurement** &gt; **Advance shipment**.
 
 2.  Select **New**.
 
@@ -66,5 +67,5 @@ The identification rules for a CI class are defined in the CMDB Identification a
     Serialized assets do not have duplicate enterprise import records created, but consumables do have duplicate entries.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

@@ -2,6 +2,7 @@
 title: Planned task hierarchy
 description: The Task Hierarchy tool available for Planned Task displays the relationship between parent and child planned tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_PlannedTaskHierarchy.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -29,7 +30,7 @@ Different **Planned Task** tables have different UI actions to launch the task h
 -   To view the hierarchy of a Product in Release v2, navigate to the product and click the **Product hierarchy** related link.
 -   To view the hierarchy of a Release in Release v2, navigate to the release and click the **Release hierarchy** related link.
 
-![Release hierarchy](../image/Rm2Heirarchy.png "Rm2 Hierarchy")
+\[Omitted image "Rm2Heirarchy.png"\] Alt text: Release hierarchy
 
 The Task Hierarchy can be added to any planned task table by:
 
@@ -44,5 +45,5 @@ The Task Hierarchy can be added to any planned task table by:
     The hierarchy should now be available as a UI Action on the form of the new table.
 
 
-**Parent Topic:**[Extending the Task table with Planned tasks](../concept/c_PlannedTask.md)
+**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
 

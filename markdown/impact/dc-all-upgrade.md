@@ -2,11 +2,14 @@
 title: Upgrading the Data Collection Content Pack
 description: When you upgrade the Data Collection Content Pack, you must account for any customizations you've made.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-all-upgrade.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Upgrading the Data Collection Content Pack

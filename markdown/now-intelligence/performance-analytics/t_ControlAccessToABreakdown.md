@@ -2,6 +2,7 @@
 title: Control ability to view breakdown elements
 description: To limit which breakdown elements a subset of users can view on indicators, implement element security. Element security applies to widgets, workspaces, and the Analytics Hub .An elements security list prevents unauthorized access to breakdown elements.If deny list security is specified for a breakdown source, and any of the roles of a user are on an element security list for that breakdown source, that user cannot see the elements which that security list applies to.If allow list security is specified for a breakdown source, and any of the roles of a user are on an element security list for that breakdown source, that user can see the elements which that security list applies to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_ControlAccessToABreakdown.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -25,7 +26,7 @@ There are no visibility options for breakdowns. Instead, access to breakdowns is
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Breakdown Sources**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **'Data Sources** &gt; **Breakdown Sources**.
 
 2.  Open the breakdown sources record for the breakdown you want to set access to.
 
@@ -43,7 +44,7 @@ There are no visibility options for breakdowns. Instead, access to breakdowns is
 5.  Specify the roles that the elements security list applies to.
 
 
-**Parent Topic:**[Indicator breakdowns](../concept/c_CreatingBreakdowns.md)
+**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
 
 ## Define an elements security list
 
@@ -55,11 +56,11 @@ Role required: pa\_admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Breakdown Sources**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Breakdown Sources**.
 
 2.  Open an existing breakdown source record.
 
-3.  In the **Elements Security List** related list, click **New**.
+3.  In the **Elements Security List** related list, select **New**.
 
 4.  Fill in the fields, as appropriate.
 

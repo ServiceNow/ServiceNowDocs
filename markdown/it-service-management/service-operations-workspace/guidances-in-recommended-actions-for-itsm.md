@@ -2,6 +2,7 @@
 title: Guidances in Recommended Actions for ITSM
 description: ITSM base system includes the following guidances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/guidances-in-recommended-actions-for-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -39,5 +40,5 @@ ITSM base system includes the following guidances.
 |\[Task\] Order item|This guidance action shows relevant information and action of catalog item. This guidance can be shown on any task type.|
 |\[Non-ML\] Create known error article|Applicable only for Non-ML recommendations. Creates a known error article for a high-impact problem.|
 
-**Parent Topic:**[Recommended Actions for ITSM reference](../concept/recommended-actions-for-itsm-reference.md)
+**Parent Topic:**[Recommended Actions for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-reference.md)
 

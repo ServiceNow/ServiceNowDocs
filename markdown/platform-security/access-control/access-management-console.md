@@ -2,6 +2,7 @@
 title: Access management console
 description: ServiceNow AI Platform's Access management console ensures that the right individuals have the appropriate permissions to the right resources at the right time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/access-management-console.html
 release: australia
 product: Access Control
 classification: access-control
@@ -17,13 +18,13 @@ ServiceNow AI Platform's Access management console ensures that the right indivi
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![Explore](../../../reuse/icons/brand-icons/bus-explore.svg)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore
 
-Learn the features and business value of Access management console.](../../security-center/concept/access-controls-console.md)
+Learn the features and business value of Access management console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-controls-console.md)
 
 </td><td>
 
-[Use](../task/use-access-management-console.md)![Use](../../../reuse/icons/brand-icons/bus-sdlc.svg)
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/use-access-management-console.md)\[Omitted image "bus-sdlc.svg"\] Alt text: Use
 
 Understand how to use Access management console.
 

@@ -2,6 +2,7 @@
 title: Move an automation request to the In progress state
 description: As you begin the development for the automation request, move it to the In progress state. This state notifies anyone using Automation Center that the work for the automation is in progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/move-automationrequest-to-inprogress.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -17,7 +18,7 @@ As you begin the development for the automation request, move it to the **In pro
 
 ## Before you begin
 
-Create an automation request. For more information, see [Creating an automation request](create-automation-request.md).
+Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md).
 
 Verify that the state of the automation request is **Planned**.
 
@@ -27,7 +28,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation Center Home**.
 
-2.  Select the list icon \(![List icon.](../images/autocenter-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
@@ -38,7 +39,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 ## What to do next
 
-Update the **Automation** field in the automation request form. This field is visible only when the state of the automation request is **In progress**. For more information, see [Automation request form from Automation Center](../reference/automation-request-autocenter-form.md).
+Update the **Automation** field in the automation request form. This field is visible only when the state of the automation request is **In progress**. For more information, see [Automation request form from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-request-autocenter-form.md).
 
-**Parent Topic:**[Working with automations](../concept/automations.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
 

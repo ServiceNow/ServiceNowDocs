@@ -2,6 +2,7 @@
 title: SVGToPDFConversionAPI - Scoped, Global
 description: The SVGToPDFConversionAPI provides methods that enable the adding of an SVG to a PDF and converting an SVG to PDF.Instantiates a new SVGToPDFConversionAPI object.Adds an SVG image to a PDF on a specified page with image size and location coordinates.Converts an SVG provided as string to PDF.Converts an SVG provided as string to PDF with image width and height values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SVGToPDFConversionAPBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The SVGToPDFConversionAPI provides methods that enable the adding of an SVG to a
 
 This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.apppdfgenerator\) and is provided within the `sn_pdfgeneratorutils` namespace. The plugin is activated by default.
 
-See also [PDFGenerationAPI](../../PDFGenerationAPIBoth/concept/PDFGenerationAPIBothAPI.md#).
+See also [PDFGenerationAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SVGToPDFConversionAPI - SVGToPDFConversionAPI\(\)
 

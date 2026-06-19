@@ -2,6 +2,7 @@
 title: Check work items and AWA events
 description: View a list of work items and AWA events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-work-items-all.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -25,7 +26,7 @@ Role required: awa\_admin or admin
 
     A list of the work items appears.
 
-2.  Select the preview button \(![Preview button](../../../product/configuration-management/image/preview-button.png)\) for the work item you want to view.
+2.  Select the preview button \(\[Omitted image "preview-button.png"\] Alt text: Preview button\) for the work item you want to view.
 
 3.  On the Work Item dialog box, select **Open Record**.
 
@@ -218,7 +219,7 @@ Number of times the work item was offered to agents.
 </td></tr></tbody>
 </table>4.  Scroll to the bottom of the Work Item form to view the list of the AWA Events.
 
-5.  Select the preview button ![Preview button](../../../product/configuration-management/image/preview-button.png) for the AWA event you want to view.
+5.  Select the preview button \[Omitted image "preview-button.png"\] Alt text: Preview button for the AWA event you want to view.
 
 6.  On the AWA Event dialog box, select **Open Record**.
 

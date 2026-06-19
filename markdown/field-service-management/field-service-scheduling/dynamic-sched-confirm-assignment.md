@@ -2,11 +2,12 @@
 title: Confirm Assignment pop-up window
 description: When using the dynamic scheduling feature, the Confirm Assignment pop-up window displays the task assignment recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/dynamic-sched-confirm-assignment.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Choose tasks to run, Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---

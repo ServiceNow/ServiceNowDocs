@@ -2,6 +2,7 @@
 title: Team Development
 description: Team Development supports parallel development on multiple, non-production ServiceNow instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/team-development-landing.html
 release: australia
 product: Team Development
 classification: team-development
@@ -25,15 +26,15 @@ Team Development provides the following features:
 
 <table id="table_jxv_thb_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Team Development features and concepts.](../concept/exploring-team-development.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Team Development features and concepts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/exploring-team-development.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up and configure Team Development.](../task/configuring-team-development.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up and configure Team Development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/configuring-team-development.md)
 
 </td><td>
 
-[Administer![](../../../reuse/icons/brand-icons/bus-person.svg)Perform administrative duties in Team Development to support parallel development in your instances.](../task/administer-team-development.md)
+[Administer\[Omitted image "bus-person.svg"\] Alt text:Perform administrative duties in Team Development to support parallel development in your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/administer-team-development.md)
 
 </td></tr></tbody>
 </table>

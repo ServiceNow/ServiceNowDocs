@@ -2,6 +2,7 @@
 title: CAPI classes in MID Server script includes
 description: Cloud Provisioning and Governance provides several JavaScript classes that make REST calls to cloud providers. These classes are called from MID Server script includes \(for Azure by default\) or from Java calls in the system \(for AWS by default\). If you create custom providers, interfaces, or CAPI APIs \(for any cloud provider\), you can use MID Server script includes to call the classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/mid-server-script-includes.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +20,7 @@ Cloud Provisioning and Governance provides several JavaScript classes that make 
 
 View CAPI classes by navigating to **MID Servers** &gt; **Script Includes** in the base system instance interface \(not the Cloud Admin Portal\). You search for the name of a class in the **Go to** search box using the **Name** column:
 
-![Searching for MID Server script includes](../image/capi-classes-finding.png)
+\[Omitted image "capi-classes-finding.png"\] Alt text: Searching for MID Server script includes
 
 ## Base classes
 
@@ -44,7 +45,7 @@ These base classes are available by default. They form a basis for the Azure and
 
 AzureCloudAPIBase utilizes the `_invokeRequest` method to make REST API calls to Azure using the standard REST API calls.
 
-![CloudAPIBase](../image/capi-cloudapibase.png "Base APIs")
+\[Omitted image "capi-cloudapibase.png"\] Alt text: CloudAPIBase
 
 ## Invoker classes
 
@@ -78,7 +79,7 @@ Invoker classes perform the actual REST calls to the cloud provider. If you crea
 
 This graphic illustrates how these base classes are used to extend AWS-specific and Azure-specific classes:
 
-![CloudRestAPIInvoker](../image/capi-cloudrestapiinvoker.png "Invoking REST calls")
+\[Omitted image "capi-cloudrestapiinvoker.png"\] Alt text: CloudRestAPIInvoker
 
 ## Exceptions
 
@@ -95,7 +96,7 @@ This graphic illustrates how these base classes are used to extend AWS-specific 
     This class throws a runtime exception when needed during Azure API invocation.
 
 
-![RESTAPIException](../image/capi-restapiexception.png "Handling exceptions")
+\[Omitted image "capi-restapiexception.png"\] Alt text: RESTAPIException
 
 ## Classes for credentials
 
@@ -225,5 +226,5 @@ AWSTopics
 Class with [AWS topics](http://docs.aws.amazon.com/sns/latest/api/API_ListTopics.html).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Provisioning and Governance](cloud-management-v2-landing-page.md)
+</table>**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

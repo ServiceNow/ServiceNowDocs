@@ -2,6 +2,7 @@
 title: Oracle Tuxedo discovery
 description: The ServiceNow Discovery application uses the Tuxedo pattern to find Oracle Tuxedo resources. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-OracleTuxedo.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -17,7 +18,7 @@ The ServiceNow Discovery application uses the Tuxedo pattern to find Oracle Tuxe
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Discovery uses the **Tuxedo** pattern to run horizontal discovery.
 
@@ -36,5 +37,5 @@ Discovery populates the data in the CMDB when running the Tuxedo pattern.
 |Version \[version\]|The specific release of Oracle Tuxedo that is installed and currently in use.|
 |Mode \[mode\]|The definition of the interaction protocol between Oracle Tuxedo and various clients or other domains, such as Jolt, Workstation, or Domain Gateway, based on the operational configuration.|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
 

@@ -2,6 +2,7 @@
 title: Incident Management considerations
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/itsm-incident-use-case-trouble.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -34,5 +35,5 @@ Consider these points while implementing the CSDM framework.
     -   The incident is for an application-related issue. On the Incident form, you can enter Application Service in the **Configuration Item** field to represent the application. For example, you can report the application service called MyApp 3.0 Production as unavailable.
     -   The incident is for an infrastructure CI that is affecting one or more services. On the Incident form, the **Impacted Services/CIs** related list identifies the application service affecting services. For example, the Server Acme42 CI might be identified as affecting the MyApp 3.0 Production and other related services.
 
-**Parent Topic:**[Applying CSDM guidelines to Incident Management](itsm-incident-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/itsm-incident-use-case-product-view.md)
 

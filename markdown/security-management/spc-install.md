@@ -2,10 +2,11 @@
 title: Install the supported applications for Security Posture Control
 description: The applications required for this integration are available on the ServiceNow Store. Some applications have dependencies that you must download and install separately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Explore, Security Posture Control, Security Operations]
 ---
 
@@ -51,12 +52,12 @@ Role required: admin for download, installation, and activation of all applicati
     |------|---------|
     |ServiceNow IntergationHub Action Template - Data Stream|com.glide.hub.action\_type.datastream|
 
-    See [Creating your own API connectors in Security Posture Control](../concept/spc-creating-sgc-template.md) for more information.
+    See [Creating your own API connectors in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-creating-sgc-template.md) for more information.
 
     For more information about downloading and activating applications, see the following topics:
 
-    -   [Download an application from the ServiceNow Store for the first time](../../security-incident-response/reference/download-app-first-time.md).
-    -   [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+    -   [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md).
+    -   [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/activate-entitled-store-app.md).
 2.  After you have downloaded the applications, navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 3.  Locate the applications that you downloaded and select **Install** to activate them along with their dependencies.
@@ -67,9 +68,9 @@ Role required: admin for download, installation, and activation of all applicati
 
     For more information about downloading and installing applications from the ServiceNow Store:
 
-    -   To Opt in to ServiceNow products, follow the steps in [Opt in to the ServiceNow Store products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/optin-optout-prod.md).
-    -   To install an application that you have purchased from the ServiceNow Store, follow the steps in [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
-    -   Alternatively, if you want to manage your entitlement for the applications on other ServiceNow AI Platform instances, follow the steps in [Manage entitlements from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/entite-app.md).
+    -   To Opt in to ServiceNow products, follow the steps in .
+    -   To install an application that you have purchased from the ServiceNow Store, follow the steps in .
+    -   Alternatively, if you want to manage your entitlement for the applications on other ServiceNow AI Platform instances, follow the steps in .
 4.  After you have installed and activated the applications, assign users to the following Security Posture Control groups:
 
     These groups inherit all the roles necessary to read and edit SPC records.
@@ -99,10 +100,10 @@ Role required: admin for download, installation, and activation of all applicati
 
 6.  Set the **ignoreCIClass** \[sn\_sec\_cmn.ignoreCIClass\] system property to ignore some configuration item \(CI\) classes when running CI Lookup Rules.
 
-    As an SPC Admin and SPC Analyst, you might need to ignore certain hardware or virtual classes so that you do not ingest information about assets you do not want to control. See [Create a Vulnerability Response CI lookup rule](../../security-operations-common/task/create-ci-identifier-rules.md) and [Ignore CI classes](../../security-operations-common/task/ignore-CI-classes.md) for more information.
+    As an SPC Admin and SPC Analyst, you might need to ignore certain hardware or virtual classes so that you do not ingest information about assets you do not want to control. See [Create a Vulnerability Response CI lookup rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/create-ci-identifier-rules.md) and [Ignore CI classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/ignore-CI-classes.md) for more information.
 
 7.  Modify reconcilation and recompute CMDB data sources to set the source of truth for attribute values.
 
-    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md) for more information.
+    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See  for more information.
 
 

@@ -2,6 +2,7 @@
 title: Create a parent playbook to host a nestable child playbook
 description: After you have created a nestable child playbook, then you can create a parent playbook to host the child playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-parent-playbook.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -40,7 +41,7 @@ Role required: admin, playbook.admin, or playbook.write
 
 6.  In the center of the stage you just added, select the plus sign, and then select the **Add a playbook** icon:
 
-    ![Image of Playbook stage user interface showing the "Add a playbook" option.](../images/add-nested-playbook-icon.png)
+    \[Omitted image "add-nested-playbook-icon.png"\] Alt text: Option to add a playbook.
 
 7.  In the **Add playbook** dialog box, search for and select the nestable child playbook you just created in the previous step.
 
@@ -50,7 +51,7 @@ Role required: admin, playbook.admin, or playbook.write
     |--------|-----------|
     |Label|Provide a name for your child activity.|
     |Description|Type a description of the activity.|
-    |Activity definition|Select the icon \(![Launch web UI icon](../images/launch-web-UI.png)\) to open the web UI of the instance to define the activity for your child playbook.|
+    |Activity definition|Select the icon \(\[Omitted image "launch-web-UI.png"\] Alt text: Launch web UI icon\) to open the web UI of the instance to define the activity for your child playbook.|
     |Schedule|Select when the child playbook activity starts or whether it starts after specific activities occur.|
 
 9.  Select **Show additional options** to configure the following options:

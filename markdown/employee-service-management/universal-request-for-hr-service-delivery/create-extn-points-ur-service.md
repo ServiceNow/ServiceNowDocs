@@ -2,6 +2,7 @@
 title: Create extension points for departments
 description: Create a scripted extension point to create your department specific primary ticket during cross-department ticket transfers. Using extension point enables you to create a primary ticket type as per the extension point definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/create-extn-points-ur-service.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -23,7 +24,7 @@ Role required: admin
 
 When configuring your department for Universal Request, to use transfer to other department capability, create scripted extension points and add them to the script includes of the application code. A sample **CreateDepartmentTicket** extension point is provided for you to modify and use.
 
-**Note:** For a better user experience, you can choose to use the Mapping configuration to define and configure fields that must be copied to the end-points for ticket transfers and creation. For more information, see [Configure mappings](ur-transfer-map-config.md).
+**Note:** For a better user experience, you can choose to use the Mapping configuration to define and configure fields that must be copied to the end-points for ticket transfers and creation. For more information, see [Configure mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-transfer-map-config.md).
 
 ## Procedure
 
@@ -35,8 +36,8 @@ When configuring your department for Universal Request, to use transfer to other
 
 4.  Click **Create Implementation** in the related list to create your department specific extension point script.
 
-    For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+    For more information, see Using extension points to extend application functionality.
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

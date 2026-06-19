@@ -2,11 +2,12 @@
 title: Create New ICT third-party service provider form
 description: On the Create New ICT third-party service provider form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-ICT-thirdparty-serv-prov-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-15"
 reading_time_minutes: 3
 breadcrumb: [Create a third party and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -62,7 +63,7 @@ Identification code of ICT third-party service provider
 
 </td><td>
 
-Identification code of the ICT third-party service provider.
+Identification code of the ICT third-party service provider.**Note:** When the Type of code is set to LEI and you enter or update this field, the system validates the code against the GLEIF database and auto-populates the Legal name and Country of headquarters fields. If you then edit those fields to values that no longer match GLEIF data, an inline warning is displayed on the edited field. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ Total annual expense or estimated cost of the ICT third-party service provider
 
 Total annual expense or estimated cost of the ICT third-party service provider.**Note:** Provider‑level annual expense totals may be automatically aggregated during report generation when all contracts meet the required criteria.
 
-For more information, see [Currency conversion and third-party total expense aggregation](../concept/tprm-dora-currency-aggregation.md).
+For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md).
 
 </td></tr><tr><td>
 

@@ -2,12 +2,14 @@
 title: Remote record producers in Service Exchange
 description: Remote record producers in Service Exchange for Providers are service requests published in consumer instances. They enable your consumer to request provider services through their service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-remote-record.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-13"
 reading_time_minutes: 1
+keywords: [remote record producer, service catalog, provider task, consumer request]
 breadcrumb: [Remote catalogs, Explore, Service Exchange]
 ---
 

@@ -2,6 +2,7 @@
 title: Service Observability template variables
 description: Understand the template variables that you can use in your queries when editing Service Observability dashboards and charts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/service-observability-template-variables.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -17,7 +18,7 @@ Understand the template variables that you can use in your queries when editing 
 
 You can use the following template variables in your query. Variables enable the query to be used for multiple services, hosts, and database instances, as well as for the time period currently selected for the dashboard.
 
-**Note:** Amazon CloudWatch uses slightly different template variables. See [Advanced query support for AWS and Azure](advanced-query-support.md) for more information.
+**Note:** Amazon CloudWatch uses slightly different template variables. See [Advanced query support for AWS and Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/advanced-query-support.md) for more information.
 
 Aside from the variables listed below, you can also use any tag key used in the chart's data mapping as a template variable.
 
@@ -57,5 +58,5 @@ To create a query that would return the time series for any selected service at 
 SELECT average(convert(apm.service.transaction.duration, unit, 'ms')) as metricValue, average(convert(apm.service.transaction.duration, unit, 'ms')) - 100 as loop FROM Metric WHERE entity.guid IN (${ENTITIES}) FACET entity.guid, entity.name SINCE ${START} UNTIL ${END} TIMESERIES LIMIT 25
 ```
 
-**Parent Topic:**[Service Observability reference](service-observability-reference.md)
+**Parent Topic:**[Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/service-observability-reference.md)
 

@@ -2,13 +2,14 @@
 title: Import classification codes
 description: Import multiple classification codes at one go to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/import-class-codes-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Import classification codes
@@ -45,6 +46,4 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 10. Fix the error, upload the spreadsheet, and import the record again.
 
-
-**Parent Topic:**[Create and manage enterprise models](../concept/create-manage-enterprise-models.md)
 

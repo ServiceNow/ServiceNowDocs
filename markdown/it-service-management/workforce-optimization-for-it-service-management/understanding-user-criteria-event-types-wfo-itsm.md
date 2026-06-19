@@ -2,6 +2,7 @@
 title: Understanding user criteria for event types in Workforce Optimization for ITSM
 description: Manage user access for any event type such as meeting, training, and time-off requests in the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -19,12 +20,12 @@ You can include or exclude Create, Read, Write or Update, and Delete \(CRUD\) ri
 
 **Note:** By default:
 
--   Users have [role-based access](../reference/configurable-wfo-itsm-scheduling-reference.md) to manage event types.
+-   Users have [role-based access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-scheduling-reference.md) to manage event types.
 -   Team members don’t have read-access to events of type **Actual work**.
 
 For additional flexibility around managing the CRUD access, you can set the user criteria for each event type. For example, if team members don't have access to edit their work shifts using their role-based access, you can set that access using user criteria. You can set this access for specific team members or for the whole group.
 
-The flow diagram shows the logic on how inclusion and exclusion user criteria access work for event types.![Infographic that describes the user criteria access for event types flow. The text that describes the flow follows this infographic.](../image/inclusion-exclusion-criteria-event-types.png)
+The flow diagram shows the logic on how inclusion and exclusion user criteria access work for event types.\[Omitted image "inclusion-exclusion-criteria-event-types.png"\] Alt text: Infographic that describes the user criteria access for event types flow. The text that describes the flow follows this infographic.
 
 **How inclusion and exclusion user criteria access works**
 
@@ -43,12 +44,12 @@ When the user criteria rules get evaluated, it's done in the following order:
 
 **Note:** The exclusion access always takes precedence over the inclusion access. If no inclusion or exclusion access is set, then the role-based access is used for managing event types.
 
--   **[Create user criteria for event types in Workforce Optimization for ITSM](../task/user-criteria-event-types-wfo-itsm.md)**  
+-   **[Create user criteria for event types in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/user-criteria-event-types-wfo-itsm.md)**  
 Add a user criteria record to specify which users, roles, and groups can access event types in Workforce Optimization for ITSM.
--   **[Include or exclude user access for event types​](../task/include-or-exclude-user-access-for-event-types.md)**  
+-   **[Include or exclude user access for event types​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/include-or-exclude-user-access-for-event-types.md)**  
 Add or remove access to users for any event type so that they can view event types that are relevant only to them.​
--   **[Verify access criteria for a group or a team member in Workforce Optimization for ITSM](../task/verify-user-access-wfo-itsm.md)**  
+-   **[Verify access criteria for a group or a team member in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/verify-user-access-wfo-itsm.md)**  
 Check what create, read, update, and delete rights your groups or your team members have for events to make sure that they have the correct permissions that they need.
 
-**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Scheduling your teams' work in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/scheduling-configurable-workforce-optimization-itsm.md)
 

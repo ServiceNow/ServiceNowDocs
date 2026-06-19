@@ -2,7 +2,10 @@
 title: Case Playbook for Onboarding
 description: Use the Case Playbook for Onboarding to manage the process for taking on new customers or enrolling customers for new products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-type-onboarding.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 14
@@ -21,7 +24,7 @@ Use the Case Playbook for Onboarding for cases that were created by using the on
 
 ## Case Playbook for Onboarding application
 
-The Case Playbook for Onboarding application \(com.sn\_csm\_onboarding\_caseflow\) is available from the ServiceNow® Store. For more information, see [Playbook plugins](setting-up-csm-playbooks.md#section_qgq_ylk_llb).
+The Case Playbook for Onboarding application \(com.sn\_csm\_onboarding\_caseflow\) is available from the ServiceNow® Store. For more information, see [Playbook plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).
 
 ## Case Playbook for onboarding a PAD process definition
 
@@ -30,7 +33,7 @@ The Case Playbook for Onboarding 3.0 includes a new Process Automation Designer 
 Process definitions are stored in the Process Definitions table \(sys\_pd\_process\_definition\). As an admin, you can view a list of processes by doing the following task:
 
 1.  In the application navigator, enter **sys\_pd\_process\_definition.list**.
-2.  [Configure the list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md) to show the **Name** field.
+2.  Configure the list to show the **Name** field.
 
 Only one PAD process per playbook can be active at a time.
 
@@ -54,7 +57,7 @@ Create an onboarding case using the Case Playbook for Onboarding
 
 Feature that opens the onboarding playbook and initiates the first activity in the Initiate stage, which is gathering the customer information. The agent can complete and save this activity to create the record.
 
- For more information, see [Create a record using a playbook](../task/csm-playbook-create-record.md).
+ For more information, see [Create a record using a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-create-record.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +67,7 @@ Focused activity view
 
 Feature that determines how the stages and activities appear in the playbook.
 
- The Case Playbook for Onboarding uses the [Focused activity view](csm-playbook-layout.md#section_oq5_3yw_5pb), which enables agents to see
+ The Case Playbook for Onboarding uses the [Focused activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-layout.md), which enables agents to see
 
 -   The end-to-end life cycle of the onboarding workflow in the playbook life-cycle panel.
 -   The current stage is expanded and the current activity is highlighted within the playbook life-cycle panel.
@@ -86,9 +89,9 @@ Feature that displays the following information:
 
  For more information about using the contextual side panel, see the following topics:
 
--   [Using activity stream in the contextual side panel](csm-playbooks-using-activity-stream.md)
--   [Viewing the ribbon information in the contextual side panel](csm-playbooks-viewing-ribbon-info.md)
--   [Viewing dynamic related records in the contextual side panel](csm-playbooks-viewing-rel-records.md)
+-   [Using activity stream in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-using-activity-stream.md)
+-   [Viewing the ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
+-   [Viewing dynamic related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md)
 
 </td></tr><tr><td>
 
@@ -101,7 +104,7 @@ Feature that enables you to control the activity visibility:
 -   Hide the activities in a stage that the logged-in user can't access.
 -   Hide the pending activities in a stage.
 
- For more information about configuring this feature, see [Configure playbook stage and activity visibility](../task/playbook-config-activity-visibility.md).
+ For more information about configuring this feature, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +132,7 @@ Feature that displays the records in the contextual side panel. These records dy
 
  The dynamic related records feature is available in CSM Configurable Workspace only.
 
- For more information, see [Viewing related records in the contextual side panel](csm-playbooks-viewing-rel-records.md).
+ For more information, see [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbooks-viewing-rel-records.md).
 
 </td></tr><tr><td>
 
@@ -162,7 +165,7 @@ The playbook stage picker enables agents to see the entire onboarding workflow. 
 
 ## Using the Playbook Actions menu
 
-The Playbook Actions menu in the playbook header includes the actions that agents can perform at the playbook and activity levels. The agents can select the Playbook Actions icon \(![Playbook actions menu icon.](../image/playbook-ellipses.png)\) to access this menu.
+The Playbook Actions menu in the playbook header includes the actions that agents can perform at the playbook and activity levels. The agents can select the Playbook Actions icon \(\[Omitted image "playbook-ellipses.png"\] Alt text: Playbook actions menu icon.\) to access this menu.
 
 The Playbook Actions menu includes the following playbook-level actions:
 
@@ -205,7 +208,7 @@ When an agent creates an onboarding case, the workspace opens the Create New Onb
 
  The agent enters the information about the channel, account, contact, consumer, product, and service.
 
- For more information about the products and services, see [Service definitions](csm-service-definitions.md).
+ For more information about the products and services, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md).
 
  Agent actions:
 
@@ -463,7 +466,7 @@ The Case Playbook for Onboarding v5.0 application includes a process-based page 
 -   Email templates that are displayed in the contextual side panel.
 -   Customization of the start and end states of the approval flow as fields in the Approval request activity.
 
-Agents can create tasks as needed and view and update the case details. For more information, see [Playbook pages](csm-playbook-pages.md).
+Agents can create tasks as needed and view and update the case details. For more information, see [Playbook pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-pages.md).
 
 ## Guided Playbook for Onboarding Request
 
@@ -473,7 +476,7 @@ End customers now have visibility into the entire lifecycle of the onboarding ap
 
 Contributor users, on the other hand, have the ability to submit cases and act on tasks on behalf of the customer. During the initiate stage of the onboarding case type, end customers have the option to save their progress. Additionally, they can view the case process on the case ticket page specifically designed for onboarding cases. The flows within the system guide users through the step-by-step completion of both simple and complex processes, ensuring a smooth and efficient experience.
 
-![Stages and activities in guided onboarding flow](../image/playbook-guided-onboarding-flow.png "Guided Playbook for Onboarding Request")
+\[Omitted image "playbook-guided-onboarding-flow.png"\] Alt text: Stages and activities in guided onboarding flow
 
 As customer, you can:
 

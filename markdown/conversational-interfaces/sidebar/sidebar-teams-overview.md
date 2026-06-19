@@ -2,6 +2,7 @@
 title: Sidebar and Microsoft Teams
 description: Sidebar's integration with Microsoft Teams enables Sidebar users and Microsoft Teams users to communicate with each other from their respective platforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-teams-overview.html
 release: australia
 product: Sidebar
 classification: sidebar
@@ -22,7 +23,7 @@ The Sidebar-Microsoft Teams integration is available as a standard ServiceNow fe
 
 -   The rate charge applies each time the Microsoft Teams API is called. Charges apply for messages sent from your ServiceNow instance to Microsoft Teams and vice versa.
 -   The rate charge doesn’t apply to "means to an end" actions such as searching for or adding users to a Microsoft Teams group chat, user presence, or reactions.
--   To minimize the number of API calls to Microsoft Teams, the base system Sidebar-Microsoft Teams integration requires at least one participant is an external only user \(a user that doesn't have a corresponding sys\_user record\). If you want to modify this base system behavior, see [Manage Microsoft Teams permissions](../task/manage-teams-permissions.md) for information on how to add the internal user or group that the internal user is part of.
+-   To minimize the number of API calls to Microsoft Teams, the base system Sidebar-Microsoft Teams integration requires at least one participant is an external only user \(a user that doesn't have a corresponding sys\_user record\). If you want to modify this base system behavior, see [Manage Microsoft Teams permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/manage-teams-permissions.md) for information on how to add the internal user or group that the internal user is part of.
 
 Microsoft bills ServiceNow customers directly via their Microsoft Azure account. For more information, see [Licensing and payment requirements for the Microsoft Teams API](https://learn.microsoft.com/en-us/graph/teams-licenses).
 
@@ -32,14 +33,14 @@ A Sidebar user must already have a Microsoft Teams account to communicate with a
 
 ## Differentiating between Sidebar and Microsoft Teams users
 
-To differentiate Sidebar users from Microsoft Teams users, a Microsoft Teams icon ![Microsoft Teams icon.](../image/teams-icon.png) displays next to the Microsoft Teams users' names. This icon is visible in discussion windows and search results, but doesn’t appear in the activity stream.
+To differentiate Sidebar users from Microsoft Teams users, a Microsoft Teams icon \[Omitted image "teams-icon.png"\] Alt text: Microsoft Teams icon. displays next to the Microsoft Teams users' names. This icon is visible in discussion windows and search results, but doesn’t appear in the activity stream.
 
 | | |
 |---|---|
-|Discussion window with Microsoft Teams icon|![Discussion window with Microsoft Teams icon highlighted next to username External One.](../image/discussion-teams-icon.png)|
-|All tab on the Discussion window with Microsoft Teams icon|![Discussion window with the All tab selected, and Microsoft Teams icon highlighted.](../image/all-tab-teams-icon.png)|
-|Discussion window with Microsoft Teams icon next to search results|![Start a sidebar discussion window with Microsoft Teams icon highlighted next to two search results.](../image/search-teams-icon.png)|
-|Discussion info window with Microsoft Teams icon|![Discussion info window, with Microsoft Teams icon highlighted next to username External One.](../image/discussion-info-teams-icon.png)|
+|Discussion window with Microsoft Teams icon|\[Omitted image "discussion-teams-icon.png"\] Alt text: Discussion window with Microsoft Teams icon highlighted next to username External One.|
+|All tab on the Discussion window with Microsoft Teams icon|\[Omitted image "all-tab-teams-icon.png"\] Alt text: Discussion window with the All tab selected, and Microsoft Teams icon highlighted.|
+|Discussion window with Microsoft Teams icon next to search results|\[Omitted image "search-teams-icon.png"\] Alt text: Start a sidebar discussion window with Microsoft Teams icon highlighted next to two search results.|
+|Discussion info window with Microsoft Teams icon|\[Omitted image "discussion-info-teams-icon.png"\] Alt text: Discussion info window, with Microsoft Teams icon highlighted next to username External One.|
 
 ## Adding users to a discussion
 
@@ -62,15 +63,15 @@ Errors messages appear in these situations:
 
 -   If Sidebar is unable to deliver a message to a Microsoft Teams user, the message "Not delivered in Teams" displays. Depending on how error message notifications in Sidebar are configured, the message displays to just the Sidebar user who sent the message or to all Sidebar users in the discussion.
 
-    ![Message window displaying Not delivered in Teams message](../image/sidebar-not-delivered-message.png)
+    \[Omitted image "sidebar-not-delivered-message.png"\] Alt text: Message window displaying Not delivered in Teams message
 
 -   If you delete a message that you previously sent from Sidebar to Microsoft Teams but Microsoft Teams is unable to delete the message, then the message "Not deleted in Teams" displays.
 
-    ![Message window displaying Not deleted in Teams message](../image/sidebar-not-deleted-message.png)
+    \[Omitted image "sidebar-not-deleted-message.png"\] Alt text: Message window displaying Not deleted in Teams message
 
 -   If you edit a message that you previously sent from Sidebar to Microsoft Teams but Microsoft Teams is unable to update the message, then the message "Not updated in Teams" displays.
 
-    ![Message window displaying Not updated in Teams message](../image/sidebar-not-updated-message.png)
+    \[Omitted image "sidebar-not-updated-message.png"\] Alt text: Message window displaying Not updated in Teams message
 
 
 Replies made to messages in Microsoft Teams are displayed as replies to the corresponding message\(s\) in Sidebar.

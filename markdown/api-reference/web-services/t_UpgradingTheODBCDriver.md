@@ -2,6 +2,7 @@
 title: Upgrade the ODBC driver
 description: If you have previously installed an older version of the ODBC driver, run the installer to uninstall the previous version, and then run the installer again to upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_UpgradingTheODBCDriver.html
 release: australia
 product: Web Services
 classification: web-services
@@ -29,7 +30,7 @@ To check the build date and time of the ODBC driver, use **CheckVersion** locate
 
 1.  Right-click the executable and select **Run as Administrator**.
 
-    ![ODBC Remove.](../image/OdbcRemove.png)
+    \[Omitted image "OdbcRemove.png"\] Alt text: ODBC Remove.
 
 2.  Click **OK** when prompted to uninstall the current driver, which is required for the upgrade.
 
@@ -39,9 +40,9 @@ To check the build date and time of the ODBC driver, use **CheckVersion** locate
 
     An ODBC DSN is a connection handle to use the ODBC driver in an application. For more information from Microsoft, see [Administer ODBC data sources](http://office.microsoft.com/en-us/access-help/administer-odbc-data-sources-HA010275550.aspx).
 
-    ![ODBC Remove DSN.](../image/OdbcRemoveDsn.png)
+    \[Omitted image "OdbcRemoveDsn.png"\] Alt text: ODBC Remove DSN.
 
-4.  After removing the previous ODBC driver, double-click the executable again to run the installer and then follow the steps in [Download and install the ODBC driver](t_DownloadAndInstallTheODBCDriver.md).
+4.  After removing the previous ODBC driver, double-click the executable again to run the installer and then follow the steps in [Download and install the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_DownloadAndInstallTheODBCDriver.md).
 
     If you encounter errors when uninstalling the ODBC driver, see the [Troubleshooting uninstalling ODBC driver](https://support.servicenow.com/kb_view.do?sysparm_article=KB0539014) knowledge article.
 
@@ -50,5 +51,5 @@ To check the build date and time of the ODBC driver, use **CheckVersion** locate
 
 After installing the ODBC driver, configure it to connect to your ServiceNow instance.
 
-**Parent Topic:**[Installing the ODBC driver](../concept/c_InstallingTheODBCDriver.md)
+**Parent Topic:**[Installing the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_InstallingTheODBCDriver.md)
 

@@ -2,6 +2,7 @@
 title: Legacy: Viewing Group Overview reports
 description: Run My Groups Overview reports to view the activities of a selected group: Count information on acknowledged and unacknowledged escalations by shift, acknowledged escalations by user, and the hours for each user over seven days.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/viewing-group-oview-report-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -15,7 +16,7 @@ breadcrumb: [Viewing On-Call Scheduling reports, On-Call Scheduling, IT Service 
 
 Run My Groups Overview reports to view the activities of a selected group: Count information on acknowledged and unacknowledged escalations by shift, acknowledged escalations by user, and the hours for each user over seven days.
 
-**Important:** Starting in Xanadu release, the On-Call dashboard is deprecated. Users can use [On-call dashboard](../../../use/dashboards/application-content-packs/performance-analytics/oncall-scheduling.md) to view, maintain, and track the escalation reports.
+**Important:** Starting in Xanadu release, the On-Call dashboard is deprecated. Users can use [On-call dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/oncall-scheduling.md) to view, maintain, and track the escalation reports.
 
 ## Opening the reports
 
@@ -31,7 +32,7 @@ Click the **My Groups Overview** tab and then specify the group in the **My On-C
 
 ## My Groups Overview reports
 
-![My Groups Overview reports](../image/my-groups-overview-tab.png "My Groups Overview reports")
+\[Omitted image "my-groups-overview-tab.png"\] Alt text: My Groups Overview reports
 
 -   **On-Call Hours - 7 days**
 
@@ -54,5 +55,5 @@ Click the **My Groups Overview** tab and then specify the group in the **My On-C
     Pie chart that displays the number of acknowledged escalations that each user in the group worked on during the most recent seven-day period.
 
 
-**Parent Topic:**[Viewing On-Call Scheduling reports](../../user-administration/concept/viewing-reports.md)
+**Parent Topic:**[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-reports.md)
 

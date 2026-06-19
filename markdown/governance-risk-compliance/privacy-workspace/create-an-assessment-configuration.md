@@ -2,6 +2,7 @@
 title: Create and validate an assessment configuration
 description: Create your assessment configurations to determine when a processing activity must be automatically created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-an-assessment-configuration.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -56,5 +57,5 @@ After you create the configurations, you can validate if the responses create th
     2.  Click **Validate**.
 
 
-**Parent Topic:**[Configuring Privacy Management](../concept/configure-privacy-mgmt.md)
+**Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 

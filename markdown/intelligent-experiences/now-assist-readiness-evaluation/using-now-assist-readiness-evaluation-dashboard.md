@@ -2,6 +2,7 @@
 title: Using Now Assist Readiness Evaluation dashboard
 description: The Now Assist Readiness Evaluation dashboard comes with two dashboard tabs: Agentic AI - Assessment and Now Assist Assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation-dashboard.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
@@ -20,7 +21,7 @@ Navigate to **Workspaces** &gt; **Now Assist Readiness Evaluation** to access th
 
 The Now Assist Readiness Evaluation dashboard is a powerful product feature that accelerates generative and agentic AI readiness for Now Assist by delivering automated, data-driven insights.
 
-**Note:** The **Remediation properties** tab may also appear on the Now Assist Readiness Evaluation dashboard. This tab only appears if the **sn\_assess.effort\_visibility** system property is set to true. For more information about this system property, see [Now Assist Readiness Evaluation system properties](../reference/nare-sys-props.md).
+**Note:** The **Remediation properties** tab may also appear on the Now Assist Readiness Evaluation dashboard. This tab only appears if the **sn\_assess.effort\_visibility** system property is set to true. For more information about this system property, see [Now Assist Readiness Evaluation system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.md).
 
 After reviewing the dashboard and making the suggested assessment changes, rerun your scheduled jobs to see how your results improve.
 

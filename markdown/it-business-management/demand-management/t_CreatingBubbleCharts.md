@@ -2,6 +2,7 @@
 title: Configure demand workbench
 description: Update the demand workbench to configure parameters such as bubble chart.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_CreatingBubbleCharts.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -34,9 +35,9 @@ Bubble charts are useful for comparing demands based on common metrics such as r
 3.  Update the required settings and select **Update**.
 
 
-**Parent Topic:**[Set up Demand Management](../concept/c_SettingUpDemandManagement.md)
+**Parent Topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_SettingUpDemandManagement.md)
 
-**Previous topic:**[Associate a widget to the Demand table](associate-widget-to-demand.md)
+**Previous topic:**[Associate a widget to the Demand table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/associate-widget-to-demand.md)
 
-**Next topic:**[Use Demand Management](../reference/r_UsingDemandManagement.md)
+**Next topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_UsingDemandManagement.md)
 

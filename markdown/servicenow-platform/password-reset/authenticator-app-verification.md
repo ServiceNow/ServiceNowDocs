@@ -2,6 +2,7 @@
 title: Enroll for the Password Reset program using an authenticator
 description: Verify your identity while resetting your password by enrolling for the Password Reset program using a third-party authenticator app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/authenticator-app-verification.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -61,7 +62,7 @@ Password Reset supports the following authenticator apps:
 
     For more information about enrolling using different methods, see the following topics:
 
-    -   [Enroll for the Password Reset program using questions and answers](t_EnrollUsingASecurityQuestion.md)
-    -   [Enroll for the Password Reset program using SMS codes](t_EnrollUsingSMS.md)
-    -   [Enroll for the Password Reset program using emailed codes](enroll-email-verification.md)
+    -   [Enroll for the Password Reset program using questions and answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_EnrollUsingASecurityQuestion.md)
+    -   [Enroll for the Password Reset program using SMS codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_EnrollUsingSMS.md)
+    -   [Enroll for the Password Reset program using emailed codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/enroll-email-verification.md)
 

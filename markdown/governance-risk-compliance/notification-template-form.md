@@ -2,6 +2,7 @@
 title: Notification Template form
 description: Use the Notification Template form to create a template with pre-defined information for sending out the notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/notification-template-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -25,5 +26,5 @@ Use the Notification Template form to create a template with pre-defined informa
 |Foot note|Closing message or a foot note for the notification.|
 |SMS text|Text message sent through SMS.|
 
-**Parent Topic:**[Create templates for emergency notifications](../task/define-template-emergency-noti-uib-ws.md)
+**Parent Topic:**[Create templates for emergency notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/define-template-emergency-noti-uib-ws.md)
 

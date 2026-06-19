@@ -2,6 +2,7 @@
 title: Unused resources analysis for AWS
 description: Cloud Cost Management uses an optimized Unused resources process for each provider. For AWS, Cloud Cost Management compares the calculated potential costs to actual billed costs and then generates recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-how-um-works-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

@@ -2,6 +2,7 @@
 title: Define compatible CI actions
 description: Allow a CMDB CI Lifecycle Management operation in which two specified CI actions can be applied simultaneously to a CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/dfn-cmptbl-cmdb-ci-action.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -39,5 +40,5 @@ By default, it is not allowed to apply more than a single action to a CI. You ca
 
 An API can successfully apply the two specified actions simultaneously to a CI.
 
-**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](../concept/cmdb-ci-lifecycle-mgmt.md)
+**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.md)
 

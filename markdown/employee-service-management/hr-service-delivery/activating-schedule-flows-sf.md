@@ -2,6 +2,7 @@
 title: Activating schedule flows
 description: Activate the schedule flow that interacts with SuccessFactors to pull worker profile information and tasks into a ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activating-schedule-flows-sf.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,7 +32,7 @@ Role required: sn\_hr\_sf.admin
 
 5.  Expand **Call Run SuccessFactors Service Subflow**.
 
-    Once data is pulled into staging tables, transform maps moves data into target tables. For more details, refer to [Use transform maps](../reference/transform-maps-w.md).
+    Once data is pulled into staging tables, transform maps moves data into target tables. For more details, refer to [Use transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/transform-maps-w.md).
 
     **Note:**
 

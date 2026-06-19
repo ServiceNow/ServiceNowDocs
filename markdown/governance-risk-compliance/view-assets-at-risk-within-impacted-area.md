@@ -2,6 +2,7 @@
 title: Monitor assets within the impacted areas
 description: Monitor at-risk assets in the Crisis map within the BCM Configurable Workspace when alert threats appear near your business locations. This functionality enables you to protect resources in impacted areas and help prevent significant losses to your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-assets-at-risk-within-impacted-area.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -51,5 +52,5 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
     You can view the complete details of the asset including its latitude and longitude.
 
 
-**Parent Topic:**[Structured workflows for Crisis map](../concept/crisis-map-collective-tasks.md)
+**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
 

@@ -2,13 +2,14 @@
 title: Affected customers list columns
 description: Column details for the Affected customer section in a Customer tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/affected-customer-list-columns.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
 last_updated: "2026-03-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Product Support for Technology]
+breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Affected customers list columns
@@ -34,5 +35,5 @@ Column details for the Affected customer section in a Customer tab.
 |Proactive case|Proactive case record that is associated with the consumer account.|
 |Contract value|Total contract value of the consumer account.|
 
-**Parent Topic:**[Product Support for Technology reference](assurance-workflows-reference.md)
+**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 

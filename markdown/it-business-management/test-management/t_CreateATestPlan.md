@@ -2,6 +2,7 @@
 title: Create a test plan
 description: Create a test plan to detail how a product or a feature is to be tested.Add the planned and actual start and end date fields on the Test Plan form to see the execution date information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_CreateATestPlan.html
 release: australia
 product: Test Management
 classification: test-management
@@ -57,7 +58,7 @@ Test environment
 
 </td><td>
 
-Specific environment to be used for testing.Users can see the details of the assigned test environment by clicking to the information icon \(![Information icon.](../image/info-icon.png)\) next to the Test environment field.
+Specific environment to be used for testing.Users can see the details of the assigned test environment by clicking to the information icon \(\[Omitted image "info-icon.png"\] Alt text: Information icon.\) next to the Test environment field.
 
 </td></tr><tr><td>
 
@@ -97,9 +98,9 @@ Planned start date
 
 </td><td>
 
-Projected start date for the test plan. The planned start date can be the current date or a future date. This field is automatically set to the current date. To change the planned start date, click the calendar icon \(![Calendar icon.](../../project-management/image/calendar-icon.png)\) and select a new date.
+Projected start date for the test plan. The planned start date can be the current date or a future date. This field is automatically set to the current date. To change the planned start date, click the calendar icon \(\[Omitted image "calendar-icon.png"\] Alt text: Calendar icon.\) and select a new date.
 
- You may need to configure the form to add this field. For more information, see [Display test plan execution start and end dates](t_CreateATestPlan.md#).
+ You may need to configure the form to add this field. For more information, see [Display test plan execution start and end dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATestPlan.md).
 
 </td></tr><tr><td>
 
@@ -107,9 +108,9 @@ Planned end date
 
 </td><td>
 
-Projected end date for the test plan. The planned end date must be after the planned start date. This field is automatically set to the current date. To change the planned end date, click the calendar icon \(![Calendar icon.](../../project-management/image/calendar-icon.png)\) and select a new date.
+Projected end date for the test plan. The planned end date must be after the planned start date. This field is automatically set to the current date. To change the planned end date, click the calendar icon \(\[Omitted image "calendar-icon.png"\] Alt text: Calendar icon.\) and select a new date.
 
- You may need to configure the form to add this field. For more information, see [Display test plan execution start and end dates](t_CreateATestPlan.md#).
+ You may need to configure the form to add this field. For more information, see [Display test plan execution start and end dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATestPlan.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ Actual start date
 
 </td><td>
 
-Actual start date for the test plan. The actual start date can be on or before the planned start date.You may need to configure the form to add this field. For more information, see [Display test plan execution start and end dates](t_CreateATestPlan.md#).
+Actual start date for the test plan. The actual start date can be on or before the planned start date.You may need to configure the form to add this field. For more information, see [Display test plan execution start and end dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATestPlan.md).
 
 </td></tr><tr><td>
 
@@ -125,7 +126,7 @@ Actual end date
 
 </td><td>
 
-Actual end date for the test plan. The actual end date can be before the planned start date but not before the actual start date.You may need to configure the form to add this field. For more information, see [Display test plan execution start and end dates](t_CreateATestPlan.md#).
+Actual end date for the test plan. The actual end date can be before the planned start date but not before the actual start date.You may need to configure the form to add this field. For more information, see [Display test plan execution start and end dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATestPlan.md).
 
 </td></tr></tbody>
 </table>4.  Save the test plan by using one of the following choices.
@@ -138,16 +139,16 @@ Actual end date for the test plan. The actual end date can be before the planned
 You can use the related links and related lists of the new test suite for the following actions:
 
 -   Add existing test cases to this test plan from a test suite by clicking the **Add Test Cases from Test Suite** related link.
--   Add new test cases to this test plan from the Test Cases related list. For more information, see [Add a new test case to a test plan](t_AddANewTestCaseToATestPlan.md).
+-   Add new test cases to this test plan from the Test Cases related list. For more information, see [Add a new test case to a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_AddANewTestCaseToATestPlan.md).
 -   Save this test plan as a new test suite by clicking the **Save as Test Suite** related link. A new test suite is created with all the test cases of this plan making them available to add to another test plan.
--   Start the test plan and notify the testers about the target end date for testing by using the **Notify Tester** related link. For more information, see [Initiate guided test execution](t_InitiateGuidedTestExecution.md).
--   Cancel the test execution by clicking **Cancel test execution** related link. This link is available only if you've used the **Notify Tester** related link and started the test plan. For more information, see [Cancel guided test execution](t_CancelGuidedTestExecution.md).
+-   Start the test plan and notify the testers about the target end date for testing by using the **Notify Tester** related link. For more information, see [Initiate guided test execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_InitiateGuidedTestExecution.md).
+-   Cancel the test execution by clicking **Cancel test execution** related link. This link is available only if you've used the **Notify Tester** related link and started the test plan. For more information, see [Cancel guided test execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CancelGuidedTestExecution.md).
 -   View all the test cases in a Visual Task Board \(VTB\) by clicking **Show Visual task Board** related link. The VTB shows test cases in lanes organized by their execution states.
 -   Create a copy of this test plan by clicking **Copy Test Plan**.
 -   View the test execution summary and sign off the test plan by clicking the **Sign-off Test Plan** related link.
 -   View the Test Plan Defects related list for the list of all the defects logged from the test cases.
 
-**Parent Topic:**[Test plans](../concept/c_TestPlans.md)
+**Parent Topic:**[Test plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_TestPlans.md)
 
 ## Display test plan execution start and end dates
 

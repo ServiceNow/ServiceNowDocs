@@ -2,6 +2,7 @@
 title: Create Virtual Agent notifications
 description: Create a notification that is sent directly to users via the Virtual Agent chatbot. The notification specifies when users receive the notification \(triggers for the notification\) and who receives it \(recipients with and without accounts in the User \[sys\_user\] table\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-va-notifications.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -171,8 +172,8 @@ Option to include the user who changed the record or triggered the event.
 
 ## What to do next
 
--   [Create additional recipients for Virtual Agent notifications](create-additional-recipients.md).
--   [Define the notification contents](define-va-notif-contents.md).
+-   [Create additional recipients for Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-additional-recipients.md).
+-   [Define the notification contents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-va-notif-contents.md).
 
-**Parent Topic:**[Configuring Virtual Agent notifications](../concept/configuring-va-notifications.md)
+**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 

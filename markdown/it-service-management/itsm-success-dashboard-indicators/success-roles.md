@@ -2,6 +2,7 @@
 title: Success Dashboard indicators user roles and responsibilities
 description: Leaders and process owners of both ITSM and HR can configure and use the Success Dashboard indicators to measure the success of the implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/success-roles.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -56,5 +57,5 @@ As a process owner, you can-   View the dashboard and KPIs
 sn\_sd.success\_dashboard\_details\_read
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ITSM Success Dashboard indicators reference](itsm-success-dashboard-reference.md)
+</table>**Parent Topic:**[ITSM Success Dashboard indicators reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/itsm-success-dashboard-reference.md)
 

@@ -2,6 +2,7 @@
 title: Applicant task form
 description: The applicant task form provides the field description required to set a task for an applicant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/applicant-task-form.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -26,5 +27,5 @@ The applicant task form provides the field description required to set a task fo
 |Assigned to|Applicant the task is assigned to.|
 |Attachments|Place where attachments are added by the recruiter or visible when its attached by the applicant.|
 
-**Parent Topic:**[Recruitment Workspace reference](../concept/recruitment-workspace-reference.md)
+**Parent Topic:**[Recruitment Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-reference.md)
 

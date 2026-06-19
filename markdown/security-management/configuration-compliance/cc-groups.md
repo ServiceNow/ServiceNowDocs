@@ -2,6 +2,7 @@
 title: Configuration Compliance remediation tasks and remediation task rules overview
 description: Automatically create remediation tasks \(RTs\) to analyze results in bulk using remediation task rules. The criteria by which tasks are formed is configured so that you do not have to manually assign test results into remediation tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-groups.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -45,15 +46,15 @@ With the sn\_vulc.remediation\_owner role, you can view and update test results 
 
 When it is determined that a new test result can be added to a remediation task, the test result is included in the **Test Results** related list of the remediation task.
 
-When updating the state of a remediation task, associated test results can have their state updated to match this remediation task. For more information on state changes, see [Configuration Compliance states](vuln-config-compl-states.md).
+When updating the state of a remediation task, associated test results can have their state updated to match this remediation task. For more information on state changes, see [Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-states.md).
 
 ## Understanding remediation task rules
 
-Remediation task rules allow you to define how test results are automatically grouped and assigned. A default rule, **Assignment group, Test**, is included in the base system grouping test results based on a test result **Assignment group** and the **Test** field. This rule is disabled, by default. You can group by any other set of values in columns accessible from the test result. You can use up to six keys and any number of conditions. For more information, see [Create or edit Configuration Compliance remediation task rules](../task/create-cc-group-rules.md).
+Remediation task rules allow you to define how test results are automatically grouped and assigned. A default rule, **Assignment group, Test**, is included in the base system grouping test results based on a test result **Assignment group** and the **Test** field. This rule is disabled, by default. You can group by any other set of values in columns accessible from the test result. You can use up to six keys and any number of conditions. For more information, see [Create or edit Configuration Compliance remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/create-cc-group-rules.md).
 
-**Important:** As an admin and analyst, you can evaluate the remediation task rules for selected test results in the Vulnerability Manager Workspace. This method is more efficient than reapplying the remediation task rules in the classic UI, which is a time-consuming process. For more information, see [Re-evaluate the remediation properties of the records in the Vulnerability Manager Workspace](../../vr-vulnerability-manager-workspace/task/vmws-reevaluate-remediation-parameters.md).
+**Important:** As an admin and analyst, you can evaluate the remediation task rules for selected test results in the Vulnerability Manager Workspace. This method is more efficient than reapplying the remediation task rules in the classic UI, which is a time-consuming process. For more information, see [Re-evaluate the remediation properties of the records in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-reevaluate-remediation-parameters.md).
 
-For example, you can group your test results by assignment group or technology and configuration item \(CI\). A different set of rules can be used for test results that expose the company to more risk. You can have one remediation task rule for low severity or low risk CIs. See [View Configuration Compliance test results](../task/view-vuln-config-compl-test-results.md) for more information on available fields.
+For example, you can group your test results by assignment group or technology and configuration item \(CI\). A different set of rules can be used for test results that expose the company to more risk. You can have one remediation task rule for low severity or low risk CIs. See [View Configuration Compliance test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/view-vuln-config-compl-test-results.md) for more information on available fields.
 
 When a new test result is imported, or reopened after being closed, the remediation task rules are evaluated against it. A test result is only evaluated once, unless it is reopened after being closed.
 
@@ -73,7 +74,7 @@ More than one test result rule can be defined, to group different kinds of resul
 
 When a remediation task rule is deleted, you have the option to delete all open tasks created by the rule. This applies to both the rule form view and list view.
 
-When a remediation task assignment is made or changed, the **Assignment group** and the **Assigned to** fields roll down to all test results, except for those where the test result has a different assignment group than the RT. For more information on assignment rules, see [Configuration Compliance assignment rules overview](cc-assignment-rules.md). These assignments are used automatically for this group on the next import.
+When a remediation task assignment is made or changed, the **Assignment group** and the **Assigned to** fields roll down to all test results, except for those where the test result has a different assignment group than the RT. For more information on assignment rules, see [Configuration Compliance assignment rules overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-assignment-rules.md). These assignments are used automatically for this group on the next import.
 
 ## Track deferral counts for test results and remediation tasks
 

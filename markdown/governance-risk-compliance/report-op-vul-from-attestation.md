@@ -2,6 +2,7 @@
 title: Report an operational vulnerability from the Self-attestation module
 description: Report an Operational vulnerability from the Self-attestation module in the Operational Resilience Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/report-op-vul-from-attestation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,13 +44,13 @@ Role required: sn\_oper\_res.manager
 
     The source of the vulnerability is the Self-attestation. Therefore, the **Source** field on the form shows the source as Self attestation and the **Source table** field on the form shows the table as Self attestation. The **Source table** field is auto-filled.
 
-    To view more information on the fields, see the [Create New Operational vulnerability form](../reference/create-new-op-vul-form.md).
+    To view more information on the fields, see the [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-op-vul-form.md).
 
 8.  Select **Save**.
 
     The following example shows how the Self-attestation record is displayed in the Operational vulnerabilities related list and the Operational vulnerability is associated with the Self-attestation for critical services.
 
-    ![Attestation record.](../image/op-vul-added-for-service-attest-record.png)
+    \[Omitted image "op-vul-added-for-service-attest-record.png"\] Alt text: Attestation record.
 
 9.  Select **Save**.
 

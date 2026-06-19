@@ -2,6 +2,7 @@
 title: Content updates for Software Asset Management
 description: The Software Asset Management Content Service provides content updates to your instance twice every week that you can use to normalize your data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-content-updates.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -49,7 +50,7 @@ To see the changes that have been made to the software library, review the SAM C
 
 **Note:** Content updates don't have an impact on any custom products or custom discovery maps.
 
-For more information on how to send your content to ServiceNow, see [Enable sharing information with Software Asset Management content service](../task/t_EnableSAMContentService.md). For more information on content updates, see [KB0824127](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824127).
+For more information on how to send your content to ServiceNow, see [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_EnableSAMContentService.md). For more information on content updates, see [KB0824127](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824127).
 
-**Parent Topic:**[Software Asset Management Content Service](c_SAMContentService.md)
+**Parent Topic:**[Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMContentService.md)
 

@@ -2,6 +2,7 @@
 title: Create a Universal request from Microsoft Teams
 description: Create a universal request with the help of the Virtual Agent. You can access the Virtual Agent from the Microsoft Teams application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ur-ms-teams-use-create-ur-va.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -40,5 +41,5 @@ Role required: none
 
 A universal request is created for the issue.
 
-**Parent Topic:**[Employee actions](../concept/ur-ms-teams-use-employee.md)
+**Parent Topic:**[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ur-ms-teams-use-employee.md)
 

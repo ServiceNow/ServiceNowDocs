@@ -2,6 +2,7 @@
 title: Activate the Knowledge Management Service Portal plugin
 description: The Knowledge Management - Service Portal plugin \(com.snc.knowledge\_serviceportal\) is active by default for customers on Madrid and later releases. Existing customers on release versions prior to Madrid can activate the plugin, if required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/activate-km-service-portal-plugin.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -28,7 +29,7 @@ This plugin requires the following plugins:
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 ## Procedure
 
@@ -42,8 +43,8 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](../concept/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

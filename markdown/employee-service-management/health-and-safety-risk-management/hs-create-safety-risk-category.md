@@ -2,6 +2,7 @@
 title: Create a safety risk category
 description: Create or modify a risk category to group your workplace hazards into logical categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-create-safety-risk-category.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -54,7 +55,7 @@ Role required: sn\_hs\_rm.risk\_category\_manager or sn\_hs\_rm.risk\_category\_
 
 ## What to do next
 
-Associate related hazards with the risk category. For more information, see [Define Health and Safety hazards](hs-define-hazards.md).
+Associate related hazards with the risk category. For more information, see [Define Health and Safety hazards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-hazards.md).
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](../concept/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

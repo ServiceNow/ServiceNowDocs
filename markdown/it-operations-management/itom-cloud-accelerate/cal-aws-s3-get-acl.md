@@ -2,6 +2,7 @@
 title: CAL - AWS S3 Get ACL subflow
 description: Subflow that retrieves the Access Control List \(ACL\) details for the specified Amazon Web Services \(AWS\) S3 bucket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cal-aws-s3-get-acl.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -19,11 +20,11 @@ Subflow that retrieves the Access Control List \(ACL\) details for the specified
 
 -   **Subscription requirements**
 
-    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see Request Integration Hub.
 
 -   **Role requirements**
 
-    This subflow requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+    This subflow requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
 
 
 ## Cloud permission
@@ -188,5 +189,5 @@ You can use these outputs as inputs for other actions.
     For federated login, the subflow doesn't return any Owner Display Name.
 
 
-**Parent Topic:**[Cloud Action Library reference](cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

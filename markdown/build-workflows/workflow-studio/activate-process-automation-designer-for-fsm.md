@@ -2,6 +2,7 @@
 title: Activate Playbooks for Field Service Management
 description: Activate Workflow Studio Playbooks on your instance so that you can create Playbooks triggered by tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activate-process-automation-designer-for-fsm.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -59,7 +60,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -79,7 +80,7 @@ Select the date and time to activate the plugin.
 
 ## Result
 
-Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]** plugin lets you create Playbooks for these tables and their [extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md):
+Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]** plugin lets you create Playbooks for these tables and their extensions:
 
 -   Work Task Flow \[sf\_work\_task\]
 -   Work Order Flow \[sf\_work\_order\]
@@ -97,5 +98,5 @@ Enabling the **Playbooks for Field Service Management \[com.sn\_fsm\_playbook\]*
 -   Part Requirement \[sm\_part\_requirement\]
 -   Service Management Incidentals \[sm\_incidentals\]
 
-**Parent Topic:**[Activate Playbooks](../concept/activate-process-automation-designer.md)
+**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md)
 

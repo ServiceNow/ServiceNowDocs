@@ -2,6 +2,7 @@
 title: Customize the Now Assist for IT Service Management \(ITSM\) change risk explanation skill
 description: Enhance the efficiency to explain the risk of a change request by customizing it with different inputs and prompts using the skill configuration guided setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-skill.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -38,7 +39,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
         You can choose to make a copy of the skill before activating it.
 
-    2.  Select the More actions icon ![More actions icon.](../../itsm-workspace/image/more-actions-icon.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    2.  Select the More actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         A confirmation message is displayed.
 
@@ -48,7 +49,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](../reference/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     1.  Enter a name and description for the skill.
 
@@ -75,7 +76,7 @@ You need the sn\_skill\_builder.admin role to customize the prompt in the Now As
 
         **Important:** If you add a new field with the same name as an existing field, the name and description of the new field will override the description of the existing field.
 
-        ![Change request risk form with editable input fields: Implementation plan, Description, Backout plan, and option to add new fields.](../image/itsm-now-assist-change-choose-input.png)
+        \[Omitted image "itsm-now-assist-change-choose-input.png"\] Alt text: Change request risk form with editable input fields: Implementation plan, Description, Backout plan, and option to add new fields.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -110,7 +111,7 @@ Description of the base input field value.
 
         The data sources could include related tables and relationships. The Change Risk Details related input table with read-only fields is available by default. You can’t edit the existing data source fields but you can add new related tables or relationships by selecting **+New data source** and then selecting the desired option.
 
-        ![Additional input data sources](../image/itsm-now-assist-additional-input.png)
+        \[Omitted image "itsm-now-assist-additional-input.png"\] Alt text: Additional input data sources
 
 <table id="table_pcg_3zw_pdc"><thead><tr><th>
 
@@ -154,9 +155,9 @@ Relationship between the input table and the table field.
 
         **Note:**
 
-        -   You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
-        -   The search criteria to retrieve similar changes is based on the conditions set in the Change Requests search source. For information on search source, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-source-form-ais.md).
-        ![Similar changes for change risk explanation](../image/itsm-now-assist-change-similar-changes.png)
+        -   You must have AI Search implemented to retrieve similar changes. For more information on AI Search, see .
+        -   The search criteria to retrieve similar changes is based on the conditions set in the Change Requests search source. For information on search source, see .
+        \[Omitted image "itsm-now-assist-change-similar-changes.png"\] Alt text: Similar changes for change risk explanation
 
         The **Short description** field is available by default. You can edit or remove the following fields:
 
@@ -171,7 +172,7 @@ Relationship between the input table and the table field.
 
         **Important:** When you add a new related table with the same name as an existing table, the fields and the descriptions in the new table will override the fields and descriptions in the existing table.
 
-        ![Similar changes additional input](../image/itsm-now-assist-similar-changes-additional-input.png)
+        \[Omitted image "itsm-now-assist-similar-changes-additional-input.png"\] Alt text: Similar changes additional input
 
     5.  Select **Save and continue** to go to the next step.
 
@@ -181,7 +182,7 @@ Relationship between the input table and the table field.
 
         If the result shows that risk isn’t calculated for the change request, then the prompt created isn’t effective. If the output displays a prompt response, then the LLM has used the configurations in the previous steps and has passed them to the prompt to create the explanation.
 
-        ![Testing the output in change request risk explanation](../image/itsm-now-assist-test-output.png)
+        \[Omitted image "itsm-now-assist-test-output.png"\] Alt text: Testing the output in change request risk explanation
 
     2.  Select **Save and Continue** to go to the next step.
 
@@ -207,7 +208,7 @@ Relationship between the input table and the table field.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

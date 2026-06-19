@@ -2,11 +2,12 @@
 title: Configure custom user credentials
 description: Define a non-root user for AWS SSM discovery by creating a credential record that specifies a user name with sufficient privileges to execute discovery commands on Linux targets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-custom-user-credentials.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [AWS SSM discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -19,8 +20,8 @@ Define a non-root user for AWS SSM discovery by creating a credential record tha
 
 Confirm the following:
 
--   The system property **glide.discovery.enable\_ssm** is turned on. For more information, see [Enable AWS SSM-based discovery](../concept/enable-aws-ssm-based-discovery.md).
--   The user you're assigning as the non-root user has access to run all the necessary commands on the target server. This user requires the same access as credentials used for regular Linux discovery, including the necessary root-level access for privileged commands. For more information, see [Credentials required for host discovery](../../service-mapping/reference/r_Credentials4HostDiscovery.md) and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
+-   The system property **glide.discovery.enable\_ssm** is turned on. For more information, see [Enable AWS SSM-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enable-aws-ssm-based-discovery.md).
+-   The user you're assigning as the non-root user has access to run all the necessary commands on the target server. This user requires the same access as credentials used for regular Linux discovery, including the necessary root-level access for privileged commands. For more information, see [Credentials required for host discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_Credentials4HostDiscovery.md) and 
 
 Role required: discovery\_admin
 

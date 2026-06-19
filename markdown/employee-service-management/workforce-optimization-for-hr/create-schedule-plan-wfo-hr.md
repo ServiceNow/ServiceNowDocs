@@ -2,6 +2,7 @@
 title: Create a schedule plan
 description: Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability. This way, you can make sure that you are using your resources in the best way possible for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/create-schedule-plan-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -27,7 +28,7 @@ You can set the number of days to cache agent schedules using the **sn\_shift\_p
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Create a schedule plan.
 
@@ -35,8 +36,8 @@ You can set the number of days to cache agent schedules using the **sn\_shift\_p
 
         **Note:** You can analyze the staff alignment for a day or for the week.
 
-    2.  In the contextual side panel, click the show schedules icon ![Show Schedules](../image/show-schedule-new.png) to display the schedules.
-    3.  In the Schedules panel, click ![Create New Schedule](../../workforce-optimization-for-customer-service-configurable/image/create-schedule-new.png) icon.
+    2.  In the contextual side panel, click the show schedules icon \[Omitted image "show-schedule-new.png"\] Alt text: Show Schedules to display the schedules.
+    3.  In the Schedules panel, click \[Omitted image "create-schedule-new.png"\] Alt text: Create New Schedule icon.
     4.  In the **Name** field, enter a name for the schedule plan.
     5.  From the **Start Date** field, select a date to start the schedule plan and click **OK**.
     6.  From the **End Date** field, select a date to end the schedule plan and click **OK**.
@@ -57,5 +58,5 @@ You can set the number of days to cache agent schedules using the **sn\_shift\_p
     **Note:** It may take a few minutes for the screen to refresh.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for HR](../concept/scheduling-configurable-wfo-hr.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
 

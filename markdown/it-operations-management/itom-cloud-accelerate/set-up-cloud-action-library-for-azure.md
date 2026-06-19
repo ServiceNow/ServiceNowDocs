@@ -2,6 +2,7 @@
 title: Set up Cloud Action Library for Microsoft Azure
 description: Set up access to the Microsoft Azure cloud accounts in Cloud Action Library to enable interaction between the application and the cloud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/set-up-cloud-action-library-for-azure.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Create Microsoft Azure credentials that can access the Microsoft Azure account.
 
-    For more information, see [Create Azure cloud credentials](../../discovery/task/create-azure-cloud-credentials.md).
+    For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-azure-cloud-credentials.md).
 
 2.  Create an Integration Hub connection for Microsoft Azure.
 
@@ -77,5 +78,5 @@ Tenant ID of the Microsoft Azure account.Replace `{tenant}` with the Microsoft A
 </table>    4.  Select **Create and Get OAuth Token**.
 
 
-**Parent Topic:**[Exploring Cloud Action Library](../concept/exploring-cloud-actions-library.md)
+**Parent Topic:**[Exploring Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/exploring-cloud-actions-library.md)
 

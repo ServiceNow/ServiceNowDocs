@@ -2,6 +2,7 @@
 title: Synchronize Indoor Mapping with Workplace Service Delivery
 description: Synchronize Indoor Mapping locations and map data objects with Workplace Service Delivery campus, buildings, floors, and spaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -62,7 +63,7 @@ WSD Campus
 
 Option to select a Workplace Service Delivery campus.
 
- Select the lookup list icon \(![Lookup list icon.](../../workplace-case-mgmt/image/search-icon.png)\) to search and select a Workplace Service Delivery campus.
+ Select the lookup list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup list icon.\) to search and select a Workplace Service Delivery campus.
 
  Make sure that the time zone of the campus matches with the Region of your Indoor Mapping campus.
 
@@ -80,7 +81,7 @@ Option to select a Workplace Service Delivery campus.
     |Field|Description|
     |-----|-----------|
     |WSD Campus|Campus created in Step 3.|
-    |Indoor Map Campus|Indoor Map campus. Search using the lookup list icon \(![Lookup list icon](../../workplace-case-mgmt/image/search-icon.png)\) to select the Indoor Mapping campus information or search for an Indoor Map campus.|
+    |Indoor Map Campus|Indoor Map campus. Search using the lookup list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup list icon\) to select the Indoor Mapping campus information or search for an Indoor Map campus.|
 
     The campuses are synchronized.
 
@@ -88,7 +89,7 @@ Option to select a Workplace Service Delivery campus.
 
     This is the first step in the synchronization process if you are running the synchronization utility for the first time.
 
-    ![Synchronization utility showing proposed operation to synchronize a building.](../images/wsd-building-synchronization.png)
+    \[Omitted image "wsd-building-synchronization.png"\] Alt text: Synchronization utility showing proposed operation to synchronize a building.
 
     | | |
     |---|---|
@@ -171,23 +172,23 @@ Option to select a Workplace Service Delivery campus.
 
     Location record that is deleted or updated in Indoor Mapping Map studio after a locations is synchronized are shown for you to take appropriate action. By default, the **Retire** operation is proposed. It can be changed an **Unlink** operation.
 
-    ![Synchronization utility showing the Cleaning step and the proposed operation to Retire and Unlink.](../images/wsd-sync-retire-places.png)
+    \[Omitted image "wsd-sync-retire-places.png"\] Alt text: Synchronization utility showing the Cleaning step and the proposed operation to Retire and Unlink.
 
 16. When all location records are synchronized in a campus, the synchronization **State** moves to **Complete**.
 
 17. Enable the Default view in the Indoor Mapping Map studio.
 
-    **Note:** Enabling the default view in Indoor Mapping is a mandatory step. The Default view is required to render the map in Workplace Service Delivery. For more information about Default view, see [Edit with view editor](edit-with-view-editor.md).
+    **Note:** Enabling the default view in Indoor Mapping is a mandatory step. The Default view is required to render the map in Workplace Service Delivery. For more information about Default view, see [Edit with view editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/edit-with-view-editor.md).
 
 18. Configure notifications to be sent to workplace users every time a change or update is made to synchronized location records.
 
-    ![Campus form showing Send syn script notification.](../images/wsd-send-sync-script-option.png)
+    \[Omitted image "wsd-send-sync-script-option.png"\] Alt text: Campus form showing Send syn script notification.
 
     1.  Enable notifications on the Workplace Core Campus Table.
 
     2.  Navigate to **All** &gt; **Workplace Core** &gt; **Administration** &gt; **Campuses**.
 
-    3.  On the campus page, select the gear settings icon \(![Gear settings icon to change the settings for a campus.](../../workplace-safety-mgmt/images/wsd-gear-settings-icon.png)\).
+    3.  On the campus page, select the gear settings icon \(\[Omitted image "wsd-gear-settings-icon.png"\] Alt text: Gear settings icon to change the settings for a campus.\).
 
     4.  In the Personalized list columns, select **Send Sync Script Notification** and add it to the Selected column.
 
@@ -195,9 +196,9 @@ Option to select a Workplace Service Delivery campus.
 
     6.  On the campus page, from the list of campuses, select a campus.
 
-    7.  In the **Managed by group** field, select the lookup list icon \( ![Look up list icon to search for a workplace group.](../../workplace-connectors/images/wsd-lookup-list-icon.png)\) to search for a workplace group and add the group.
+    7.  In the **Managed by group** field, select the lookup list icon \( \[Omitted image "wsd-lookup-list-icon.png"\] Alt text: Look up list icon to search for a workplace group.\) to search for a workplace group and add the group.
 
-    8.  In **Managed by** field, select the lookup list icon \(![Look up list icon to search for a workplace user.](../../workplace-connectors/images/wsd-lookup-list-icon.png)\) to search for a workplace user and add the workplace user.
+    8.  In **Managed by** field, select the lookup list icon \(\[Omitted image "wsd-lookup-list-icon.png"\] Alt text: Look up list icon to search for a workplace user.\) to search for a workplace user and add the workplace user.
 
     9.  Select the **Send sync script notification** checkbox.
 
@@ -215,7 +216,7 @@ Option to select a Workplace Service Delivery campus.
 
         For example, campus 501.
 
-    3.  On the Campus form details page, select the additional actions menu icon \(![Additional list.](../../human-resources/image/additional-actions-icon.png)\).
+    3.  On the Campus form details page, select the additional actions menu icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional list.\).
 
     4.  Select **View** &gt; **Workplace Indoor Mapping** campus.
 
@@ -233,9 +234,9 @@ Option to select a Workplace Service Delivery campus.
             The **Unlink Campus** tab is available after the synchronization is complete and the Indoor Mapping map object is linked to WSD locations indicating that the linking is complete. Unlinking a campus unlinks all the buildings associated with a campus. Unlinking a building unlinks all the floors and spaces associated with a building. Unlinking a floor unlinks the spaces associated with a floor.
 
 
-**Parent Topic:**[Manage map objects and data](../concept/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Keyboard shortcuts](keyboard-shortcuts.md)
+**Previous topic:**[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/keyboard-shortcuts.md)
 
-**Next topic:**[Synchronize Indoor Mapping with CMN Locations](../concept/sync-cmn-location.md)
+**Next topic:**[Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/sync-cmn-location.md)
 

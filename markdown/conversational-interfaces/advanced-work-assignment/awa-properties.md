@@ -2,6 +2,7 @@
 title: Properties for Advanced Work Assignment
 description: The Advanced Work Assignment Properties page provides configuration options for AWA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-properties.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -69,5 +70,5 @@ Enables/disables the execution of subflows defined on the AWA queues when work i
 -   Default value: false
 
 </td></tr></tbody>
-</table>For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>For information on adding a system property, see Add a system property.
 

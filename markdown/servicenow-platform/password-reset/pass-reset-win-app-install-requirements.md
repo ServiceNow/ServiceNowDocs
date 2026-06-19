@@ -2,6 +2,7 @@
 title: Password Reset Windows Application installation requirements
 description: Activate the Password Reset Windows App \(Password Reset Orchestration\) \(com.glideapp.password\_reset\_desktop\) plugin and activate the Microsoft AD for Password Reset store app to use the Password Reset Windows Application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/pass-reset-win-app-install-requirements.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -83,5 +84,5 @@ Supported network architecture
 -   To reset an AD password, the client must be on the corporate network.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installing and configuring Password Reset Windows Application](../concept/install-configure-password-reset-windows-app.md)
+</table>**Parent Topic:**[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)
 

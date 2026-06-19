@@ -2,11 +2,12 @@
 title: Viewing the cloud accounts page
 description: The Cloud accounts page displays information used to access and manage the life cycle of multiple cloud subscription accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/viewing-cloud-accounts-page.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Viewing Cloud Account Management dashboards, Using Cloud Account Management in Cloud Workspace, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -22,7 +23,7 @@ As a Cloud Account Management \(CAM\) admin, you can access the Accounts page in
 -   Navigate to **All** &gt; **Cloud Workspace**
 -   -   Navigate to **Workspaces** &gt; **Cloud Workspace**
 
-![Cloud accounts page](../image/cloud-accounts-page.png "Cloud accounts page")
+\[Omitted image "cloud-accounts-page.png"\] Alt text: Cloud accounts page
 
 **Note:** The configuration violations data is populated only if the user is a CAM admin or account manager and the Cloud Configuration Governance content pack is installed.
 
@@ -34,5 +35,5 @@ The following metrics are displayed:
 -   **Due for certification**: The number of accounts due for certification.
 -   **Unmanaged**: The number of unmanaged accounts.
 
-For more information, see [Cloud account details](../reference/cloud-accounts-details.md).
+For more information, see [Cloud account details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cloud-accounts-details.md).
 

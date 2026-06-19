@@ -2,6 +2,7 @@
 title: View the initiatives list
 description: View a list of improvement initiatives created for or associated with a process project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/view-initiatives.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -23,7 +24,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 1.  Open the project view.
 
-2.  Select the Initiatives icon \(![Initiatives icon](../image/improve-initiative-icon.png)\) in the Notes and initiatives panel.
+2.  Select the Initiatives icon \(\[Omitted image "improve-initiative-icon.png"\] Alt text: Initiatives icon\) in the Notes and initiatives panel.
 
     The initiatives list displays, showing the CIM ID, short description, creation details, and current state for each initiative. You can:
 
@@ -36,5 +37,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 3.  Select the context menu of an initiative to see further details, edit, or remove it.
 
 
-**Parent Topic:**[Creating and tracking improvement initiatives](../../../product/benchmarks/task/initiatives-from-process-optimization.md)
+**Parent Topic:**[Creating and tracking improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/initiatives-from-process-optimization.md)
 

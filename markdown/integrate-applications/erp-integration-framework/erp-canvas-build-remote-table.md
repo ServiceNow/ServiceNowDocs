@@ -2,6 +2,7 @@
 title: Customize fields for an ERP remote table in Zero Copy Connector for ERP
 description: Add or remove columns in remote tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to create your ERP model. For example, remove fields with sensitive information, such as birthdays.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-build-remote-table.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -24,7 +25,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Zero Copy Connector for ERP scans the system of record for the ERP model to find all available fields that you can add to a remote table. You can view all available fields from the ERP system in the ERP model. Using the **Manage fields** modal to add available columns from the ERP system to a remote table automatically creates them in the remote table.
 
-If you don't see the fields that you want to add to the remote table, you must first add them to the model. For more information, see [Choose output parameters for a model](erp-canvas-manage-outputs.md).
+If you don't see the fields that you want to add to the remote table, you must first add them to the model. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 The connected model, which is defined on the remote table **Details** tab, controls the available fields on the remote table. If you change the model for a remote table, the available fields change as well.
 
@@ -34,7 +35,7 @@ The connected model, which is defined on the remote table **Details** tab, contr
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the Remote tables page by selecting the remote tables icon ![](../image/erpc-remote-table-icon.png) in the side panel.
+2.  Open the Remote tables page by selecting the remote tables icon \[Omitted image "erpc-remote-table-icon.png"\] Alt text: in the side panel.
 
 3.  Select a table to work with by selecting the **Name**.
 
@@ -51,5 +52,5 @@ The connected model, which is defined on the remote table **Details** tab, contr
 5.  Confirm that the fields appear correctly by selecting the **Remote table fields** tab.
 
 
-**Parent Topic:**[Using ERP remote tables in Zero Copy Connector for ERP](../concept/erp-canvas-work-with-remote-tables.md)
+**Parent Topic:**[Using ERP remote tables in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-remote-tables.md)
 

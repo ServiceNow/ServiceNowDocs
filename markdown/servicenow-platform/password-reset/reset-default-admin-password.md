@@ -2,6 +2,7 @@
 title: Request to reset the default admin password
 description: You can request a default instance admin password reset via the Service Catalog, which triggers an automated process to securely complete the reset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/reset-default-admin-password.html
 release: australia
 product: Password Reset
 classification: password-reset

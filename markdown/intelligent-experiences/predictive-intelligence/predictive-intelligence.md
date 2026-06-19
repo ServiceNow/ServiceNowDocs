@@ -2,6 +2,7 @@
 title: Explore Predictive Intelligence
 description: ServiceNow Predictive Intelligence is a platform function that provides a layer of artificial intelligence that empowers features and capabilities across ServiceNow applications to provide better work experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/predictive-intelligence.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -17,9 +18,9 @@ ServiceNow® Predictive Intelligence is a platform function that provides a laye
 
 ## Overview of Predictive Intelligence
 
-Predictive Intelligence is a powerful set of tools applying artificial intelligence and machine learning to make predictions. You can create and train models in three different frameworks: classification, clustering, and similarity. A trained solution can be invoked by any ServiceNow application through an API.![The benefits of using Predictive Intelligence.](../images/predictive-intelligence-resolves-faster.png)
+Predictive Intelligence is a powerful set of tools applying artificial intelligence and machine learning to make predictions. You can create and train models in three different frameworks: classification, clustering, and similarity. A trained solution can be invoked by any ServiceNow application through an API.\[Omitted image "predictive-intelligence-resolves-faster.png"\] Alt text: The benefits of using Predictive Intelligence.
 
-To learn more about ways to use existing models, see [Using Predictive Intelligence](using-predictive-intelligence.md).
+To learn more about ways to use existing models, see [Using Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/using-predictive-intelligence.md).
 
 ## Predictive Intelligence for on-premise customers
 
@@ -83,10 +84,10 @@ A predictive model includes these components, some of which you must provide.
     -   The solution classes are the output field values for which the model can make predictions. Each class is an output field value with a list of possible precision, coverage, and distribution metrics to choose from. For example, the Incident Categorization solution has a class for each category such as software, inquiry, and database.
     -   The class distribution is the percentage of records from the entire table that have this particular output field value. For example, a distribution of 50 for the inquiry class means that half of incidents have the inquiry category.
 
--   **[Predictive Intelligence frameworks](predictive-intelligence-frameworks.md)**  
+-   **[Predictive Intelligence frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-frameworks.md)**  
 Predictive Intelligence provides three different model frameworks in the Australia release: classification, similarity, and clustering. Each framework specializes in different types of predictions.
--   **[ServiceNow apps and features that use Predictive Intelligence](servicenow-apps-features-use-predictive-intelligence.md)**  
+-   **[ServiceNow apps and features that use Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/servicenow-apps-features-use-predictive-intelligence.md)**  
 Learn about ServiceNow applications and features that leverage Predictive Intelligence. Solutions that you can adapt are available for various business units and industries.
 
-**Parent Topic:**[Predictive Intelligence](predictive-intelligence-landing.md)
+**Parent Topic:**[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md)
 

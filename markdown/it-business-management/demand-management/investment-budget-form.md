@@ -2,6 +2,7 @@
 title: Investment Budget form
 description: Use the Investment Budget form to allocate budget for a demand for each fiscal period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/investment-budget-form.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -57,5 +58,5 @@ Select expense type from the list.-   Select **Capex** to allocate your budget t
 -   Select Opex to allocate your budget to operational expenses.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
 

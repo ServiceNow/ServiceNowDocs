@@ -2,6 +2,7 @@
 title: NowRecord class - iOS
 description: The NowRecord class defines a model that represents a record in a table on a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowRecordiOSAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -21,5 +22,5 @@ The NowRecord class defines a model that represents a record in a table on a Ser
 |fields|Set|Fields within the associated record.|
 |id|String|Sys\_id of the record.|
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

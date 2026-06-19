@@ -2,6 +2,7 @@
 title: API Insights
 description: The ServiceNow API Insights workspace is an all-in-one application that enables you to track all your APIs. You can also use it to start workflows related to different stages in the application programming interface \(API\) life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights.html
 release: australia
 product: API Insights
 classification: api-insights
@@ -19,23 +20,23 @@ The ServiceNow® API Insights workspace is an all-in-one application that enable
 
 <table id="table_ond_xs3_ybc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the benefits of API Insights and how it is used.](../concept/api-insights-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the benefits of API Insights and how it is used.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-explore.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation.](../concept/api-insights-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-configuring.md)
 
 </td><td>
 
-[Analyze![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Administer and monitor API data](../concept/api-insights-overview-page.md)
+[Analyze\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Administer and monitor API data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-overview-page.md)
 
 </td></tr><tr><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Manage API data for informed decision-making.](../concept/api-insights-managing-apis.md)
+[Manage\[Omitted image "bus-optimize-manage.svg"\] Alt text:Manage API data for informed decision-making.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-managing-apis.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about installed components.](../concept/api-insights-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about installed components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-reference.md)
 
 </td><td>
 

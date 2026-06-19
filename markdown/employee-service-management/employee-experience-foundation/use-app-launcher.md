@@ -2,6 +2,7 @@
 title: Modify app launcher widget display
 description: Access all the useful applications from a unified application from the Applications widget from your employee portal. You can see a list of related applications when you browse topics and launch the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/use-app-launcher.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: sp\_admin
 
 ## About this task
 
-Using the app launcher in Employee Center Pro, You can provide one-click access to the applications and configure the instance options to control the appearance of the widget, such as the icon and description. For more information, see [App Launcher](../concept/web-application-employee-about.md).
+Using the app launcher in Employee Center Pro, You can provide one-click access to the applications and configure the instance options to control the appearance of the widget, such as the icon and description. For more information, see [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-application-employee-about.md).
 
 ## Procedure
 
@@ -63,7 +64,7 @@ Card display view
 
 </td><td>
 
-Display view preference of the card. Either the app icon or the title is required with other options.![Web application instance options](../images/instance-option-webapp.png "Instance options for web applications")
+Display view preference of the card. Either the app icon or the title is required with other options.\[Omitted image "instance-option-webapp.png"\] Alt text: Web application instance options
 
 -   Icon, Title, Description
 -   Icon, Title

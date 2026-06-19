@@ -2,6 +2,7 @@
 title: Create service configuration rules for a service configuration
 description: Configure appointment booking rules for a service configuration, for example, Point-of-Sale-Installation, to enable varying duration of appointments for this service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -161,5 +162,5 @@ The service configuration rules are configured and provides varying duration of 
 
 ## What to do next
 
-Create an appointment booking advanced configuration for this service configuration rule. For more information, see [Create appointment booking advanced configuration](appintment-booking-day-level-config.md).
+Create an appointment booking advanced configuration for this service configuration rule. For more information, see [Create appointment booking advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appintment-booking-day-level-config.md).
 

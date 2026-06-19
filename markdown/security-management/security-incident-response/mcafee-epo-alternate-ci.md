@@ -2,6 +2,7 @@
 title: Defining triggering conditions with a Configuration item \(CI\) field
 description: After you create a profile and select the McAfee ePO capabilities that you want the profile to run, you configure the settings of the profile so that it runs only when a set of specific conditions are met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-alternate-ci.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ One of the keys to the functionality of the integration and how a profile works 
 
 In an ideal case, a matching value is found in the database, and data can be gathered from the McAfee ePO console for the matching asset, pulled into your ServiceNow AI Platform® instance, and displayed on the related lists of a security incident. The following figure shows an example of the Configuration Item field populated with a host name on a SIR security incident.
 
-![CI field with a value highlighted.](../image/mcafee-si-ci-fieldexmp.png "Security incident - Configuration item")
+\[Omitted image "mcafee-si-ci-fieldexmp.png"\] Alt text: CI field with a value highlighted.
 
 In cases when the Configuration item \(CI\) field is not populated on the security incident, or a match cannot be found for a FQDN, a host name, or an IP address that matches the database, you can select an alternate field on the security incident to display any matching CI enrichment data found during the scan of your assets.
 
@@ -29,15 +30,15 @@ During the configuration step of the profile setup, you can select an alternate 
 
 As an example, as a security operations center \(SOC\) analyst, you create a custom field for a security incident called, IP Address on my security incident. If you do not think that the value of this custom field will be displayed in the Configuration Item field on the security incident upon incident creation, you can set up the profile so it scans for this IP address. If matched, the IP address is displayed on the security incident in the field of your choice. In the following figure, the `Identified CI` field is selected as the alternate field for the IP Address for this example.
 
-![Identified CI field highlighted as alternate CI field.](../image/mcafee-si-ci-fieldexmp2.png "Security incident - Identified CI")
+\[Omitted image "mcafee-si-ci-fieldexmp2.png"\] Alt text: Identified CI field highlighted as alternate CI field.
 
 The following figure illustrates how the first search of the workflow scans for matches for Configuration Items. If the Alternate CI trigger field is enabled, the second search scans for matches for alternate values.
 
-![Alt CI flow.](../image/mcafee-alt-ci.png "Configuration items workflow")
+\[Omitted image "mcafee-alt-ci.png"\] Alt text: Alt CI flow.
 
 If matching IDs are not found for the CI field or the alternate CI field, a work note is logged and a message is displayed on the security incident. When no matches are found, no enrichment data are populated on the security incidents related to the event.
 
-You enable the alternate CI trigger field and select the field you want to display the matching ID during the configuration step for a profile. This step for enabling the alternate CI field is described along with the other profile configuration requirements in [Configure settings](mcafee-epo-configuring-profile.md).
+You enable the alternate CI trigger field and select the field you want to display the matching ID during the configuration step for a profile. This step for enabling the alternate CI field is described along with the other profile configuration requirements in [Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-configuring-profile.md).
 
-**Parent Topic:**[McAfee ePO integration capability profiles](mcafee-epo-creating-profiles.md)
+**Parent Topic:**[McAfee ePO integration capability profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-creating-profiles.md)
 

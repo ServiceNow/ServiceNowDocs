@@ -2,6 +2,7 @@
 title: Dependency Views map
 description: ServiceNow The Dependency Views map shows an overall top-down Kubernetes perspective, starting from a top-level cluster to the container and within the container.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-discovery-workspace/dependency-views-map.html
 release: australia
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
@@ -19,7 +20,7 @@ A Dependency Views map has one starting point, called the root CI or root node o
 
 The Dependency Views module is active in all instances, and includes demo data.
 
-![CIs and connections on a Dependency Views map.](../image/DependencyView.png "Dependency Views sample map")
+\[Omitted image "DependencyView.png"\] Alt text: CIs and connections on a Dependency Views map.
 
 In a Dependency Views map, map indicators indicate if a CI has any active, pending issues. You can investigate the tasks that are connected to a CI to get more details. When you return to the map from another form, the system restores the last map viewed, using the default filter and layout settings.
 

@@ -2,6 +2,7 @@
 title: View Event Management solution training progress
 description: View solution training progress or statistics to determine whether a solution is available or how long the next training cycle might take to complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/view-solution-training-progress.html
 release: australia
 product: Event Management
 classification: event-management
@@ -31,14 +32,14 @@ Role required: evt\_mgmt\_admin
 
     The system shows a Training Progress pop-up window. In the following example, the progress failed.
 
-    ![Solution training progress window](../image/solution-training-failed.png)
+    \[Omitted image "solution-training-failed.png"\] Alt text: Solution training progress window
 
     If the training is a success, all bars would be fully blue and the progress for each step would show 100%.
 
 
 ## What to do next
 
-See [Review Event Management similarity examples](view-similarity-examples.md).
+See [Review Event Management similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/view-similarity-examples.md).
 
-**Parent Topic:**[Alert similarity](../concept/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
 

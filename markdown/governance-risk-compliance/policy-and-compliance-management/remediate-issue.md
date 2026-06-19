@@ -2,6 +2,7 @@
 title: Remediate an issue in Policy and Compliance Management
 description: After an issue has been identified, triaged, and investigated, you can remediate it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/remediate-issue.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -21,7 +22,7 @@ Role required: compliance\_admin, compliance\_manager, sn\_compliance.user, sn\_
 
 **Note:** Starting with Version 12.0.1, the minimum role for the **Assigned to** user on the Remediation task form is GRC Business User \[sn\_grc.business\_user\]. The minimum role for the **sn\_compliance.user** is GRC User \[sn\_grc.\_user\].
 
-For more information on the access control limitations to remediation tasks, see [GRC business user role to control access and track usage of compliance tables](../reference/r_InstallWPolAndCompl.md#acls-remediation-busin-user).
+For more information on the access control limitations to remediation tasks, see [GRC business user role to control access and track usage of compliance tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## About this task
 
@@ -31,12 +32,12 @@ Remediating an issue marks an intention to fix the underlying issue causing the 
 
 1.  Open the issue you want to remediate.
 
-2.  Click the **Remediation Tasks** tab.
+2.  Select the **Remediation Tasks** tab.
 
     **Note:** You have two options for creating a remediation task:
 
-    -   Click **Suggested Remediation Tasks** and click **Copy** to use an existing task as a basis for creating this task. A copy of the selected remediation task is created with certain information from that task copied to the new task. You can manually complete the other fields.
-    -   Clicking **New** and manually creating the task.
+    -   Select **Suggested Remediation Tasks** and select **Copy** to use an existing task as a basis for creating this task. A copy of the selected remediation task is created with certain information from that task copied to the new task. You can manually complete the other fields.
+    -   Selecting **New** and manually creating the task.
 3.  On the form, fill in the fields.
 
 <table id="table_ynl_yjz_dv"><thead><tr><th>
@@ -61,7 +62,7 @@ Assigned to
 
 </td><td>
 
-Select the user responsible for working this task.You can configure a hierarchy of users to access the remediation task. For more information, see [User hierarchy access control for issue and remediation task records](../concept/user-hierarchy-risk-remed-task.md).
+Select the user responsible for working this task.You can configure a hierarchy of users to access the remediation task. For more information, see [User hierarchy access control for issue and remediation task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/user-hierarchy-risk-remed-task.md).
 
 </td></tr><tr><td>
 
@@ -201,11 +202,11 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](../../grc-audit/concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Manage issues in Policy and Compliance Management](../concept/manage-issues.md)
+**Parent Topic:**[Manage issues in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-issues.md)
 

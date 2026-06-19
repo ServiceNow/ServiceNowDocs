@@ -2,6 +2,7 @@
 title: Map task types in Recruitment workspace
 description: Map tasks with its corresponding task types in the Universal Task to select and assign in the Recruitment workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/config-task-mapping.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -33,12 +34,12 @@ Role required: admin
 
 6.  In the Answer new record form, fill in the fields, and select **Submit**.
 
-    For a description of the field values, see [Task mapping form](../reference/answer-record-ta.md).
+    For a description of the field values, see [Task mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/answer-record-ta.md).
 
 
 ## Result
 
 You've mapped a task to a task type.
 
-**Parent Topic:**[Configuring Recruitment Workspace](../concept/config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
 

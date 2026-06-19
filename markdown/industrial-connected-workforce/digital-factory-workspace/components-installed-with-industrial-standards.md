@@ -2,6 +2,7 @@
 title: Components installed with Industrial Standards
 description: Several types of components are installed with activation of the Industrial Standards application. This includes tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/components-installed-with-industrial-standards.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -68,5 +69,5 @@ Can read standards tables
 -   Industrial Standard Applied to Task \[sn\_icw\_std\_standard\_applied\_to\_task\]
 -   Industrial Standard Task \[sn\_icw\_std\_task\]
 
-**Parent Topic:**[Industrial Standards reference](industrial-standards-reference.md)
+**Parent Topic:**[Industrial Standards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-reference.md)
 

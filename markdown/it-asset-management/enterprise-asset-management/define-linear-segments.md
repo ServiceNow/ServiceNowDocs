@@ -2,6 +2,7 @@
 title: Create segments for linear assets
 description: Create segments for linear assets to assign work orders to the segments. You can also create maintenance plans for the segments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/define-linear-segments.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -25,7 +26,7 @@ Linear segments are parts of a linear asset. When creating a linear segment, you
 
 If you enter start marker or end marker on the map, markers must be within 10 feet from the linear asset line. This value can be customized by changing the value of the asset\_property **com.eam.linear\_segment\_marker\_boundary**.
 
-For details on creating work orders and maintenance plans, see [Create a work order for an enterprise asset](create-eam-work-order.md) and [Create a maintenance plan for your enterprise assets](create-eam-maintenance-plan.md).
+For details on creating work orders and maintenance plans, see [Create a work order for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-work-order.md) and [Create a maintenance plan for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-maintenance-plan.md).
 
 Role required: sn\_eam.enterprise\_asset\_manager
 
@@ -59,5 +60,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
     The linear segments appear in the Linear segments related list.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

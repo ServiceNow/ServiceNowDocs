@@ -2,6 +2,7 @@
 title: Revoke software deployed through the service catalog
 description: Software deployed by SCCM can be revoked, but only when the status of software is Installed and the application associated with the software configuration has an uninstall collection configured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/revoke-from-serv-cat.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,12 +18,12 @@ Software deployed by SCCM can be revoked, but only when the status of software i
 
 ## Before you begin
 
--   Create an [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) for the application that names an appropriate uninstall collection.
--   Associate the [CSD catalog item](create-cat-item-ihub.md) for the application with the SCCM configuration that specifies the uninstall collection.
+-   Create an Define an SCCM configuration for the application that names an appropriate uninstall collection.
+-   Associate the [CSD catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-cat-item-ihub.md) for the application with the SCCM configuration that specifies the uninstall collection.
 
 Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
-A subflow called [Revoke SCCM Application](../reference/software-revoke-ihub.md) moves either the user or the device from its respective collection and adds it to the appropriate uninstall collection. When SCCM performs an internal policy check and finds the user or device in the uninstall collection, SCCM removes the related software package from the client computer.
+A subflow called [Revoke SCCM Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/software-revoke-ihub.md) moves either the user or the device from its respective collection and adds it to the appropriate uninstall collection. When SCCM performs an internal policy check and finds the user or device in the uninstall collection, SCCM removes the related software package from the client computer.
 
 ## Procedure
 
@@ -37,5 +38,5 @@ A subflow called [Revoke SCCM Application](../reference/software-revoke-ihub.md)
     This action runs the Revoke Client Software flow, which triggers the Revoke SCCM Application subflow that moves the user or device from the install collection to the uninstall collection. When SCCM performs an internal policy check and finds the user or device in the uninstall collection, SCCM removes the related software package from the client computer.
 
 
-**Parent Topic:**[SCCM software revocation](../concept/sccm-revocation-ihub.md)
+**Parent Topic:**[SCCM software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sccm-revocation-ihub.md)
 

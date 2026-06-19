@@ -2,6 +2,7 @@
 title: Configure and enable VirusTotal Integration
 description: Set up VirusTotal integration with Threat Intelligence Security Center to perform threat lookups on observables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-virustotal-integration.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -21,7 +22,7 @@ Role required: sn\_sec\_tisc.admin
 
 **Important:** type="note"&gt;The Threat Intelligence Security Center and VirusTotal Threat Lookup plugins must be installed and active.
 
-Download the VirusTotal integration from the ServiceNow Store. Verify you have a valid VirusTotal account before use. For more information see, [Download the integration from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
+Download the VirusTotal integration from the ServiceNow Store. Verify you have a valid VirusTotal account before use. For more information see, [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md).
 
 This integration requires a valid VirusTotal API key and enables automated security analysis.
 
@@ -57,5 +58,5 @@ This integration requires a valid VirusTotal API key and enables automated secur
 
 After configuration, you can select VirusTotal to perform lookups on observables in Threat Intelligence Security Center.
 
-**Parent Topic:**[TISC VirusTotal integration](../concept/tisc-virustotal-integration_0.md)
+**Parent Topic:**[TISC VirusTotal integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-virustotal-integration_0.md)
 

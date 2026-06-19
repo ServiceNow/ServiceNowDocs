@@ -2,6 +2,7 @@
 title: Components installed with Sitemap Generator
 description: Several types of components are installed with activation of the Sitemap Generator plugin, including tables and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/sitemap-generator/installed-with-sitemap-generator.html
 release: australia
 product: Sitemap Generator
 classification: sitemap-generator
@@ -73,5 +74,5 @@ UX Sitemap Definition
 Definitions that specify the content to include in a sitemap.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Sitemap Generator](../task/activate-sitemap-generator.md)
+</table>**Parent Topic:**[Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/activate-sitemap-generator.md)
 

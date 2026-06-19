@@ -2,6 +2,7 @@
 title: Create a regular vocabulary item
 description: Add a word or phrase that your users might use, and match that vocabulary item to a synonym. Your model uses the synonym during intent prediction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-regular-vocabulary-item.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -25,7 +26,7 @@ Add a word or phrase that your users might use, and match that vocabulary item t
 
 Regular vocabulary items provide the model with a synonym for words or phrases your users might use in an utterance. The model uses the synonym to replace the vocabulary when predicting the intent. Use a single word for the synonym when possible.
 
-Regular vocabulary items are case-insensitive by default. If you need to create a case-sensitive vocabulary item, use a pattern vocabulary item. For more information, see [Create a pattern vocabulary item](create-pattern-vocabulary-item.md).
+Regular vocabulary items are case-insensitive by default. If you need to create a case-sensitive vocabulary item, use a pattern vocabulary item. For more information, see [Create a pattern vocabulary item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-pattern-vocabulary-item.md).
 
 **Note:** Choose a synonym that is a commonly-occurring word in the same language as your model.
 
@@ -43,7 +44,7 @@ In this example scenario, you are adding a vocabulary item for the word credenti
 
 4.  In the Vocabulary tab, select **Add a vocabulary**.
 
-    ![Add a vocabulary button in the Vocabulary tab of the Manage your model content phase.](../images/create-regular-vocabulary-item4.png)
+    \[Omitted image "create-regular-vocabulary-item4.png"\] Alt text: Add a vocabulary button in the Vocabulary tab of the Manage your model content phase.
 
 5.  In the **Add a vocabulary** window, select **Regular** as the Type.
 
@@ -51,7 +52,7 @@ In this example scenario, you are adding a vocabulary item for the word credenti
 
     In this example procedure, add credentials as the vocabulary and password as the synonym.
 
-    ![Add a vocabulary window for a regular vocabulary item.](../images/create-reg-vocabT2.png)
+    \[Omitted image "create-reg-vocabT2.png"\] Alt text: Add a vocabulary window for a regular vocabulary item.
 
 7.  Select **Save**.
 

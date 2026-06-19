@@ -2,7 +2,10 @@
 title: Check which CI types require an ITOM subscription
 description: View the list of configuration item \(CI\) types that require IT Operations Management subscription units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/check-ci-type-require-license.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -32,8 +35,15 @@ For licensing purposes, licensable resources are assigned to CI categories. Lice
 -   End User Devices
 -   IoT
 -   Customer Prem Devices
+-   Container Images
+-   APIs
+-   AI Agents
+-   GPUs
+-   Service Instances
 
 The system stores information about CI categories and CI types that belong to them in the ITOM Licensing MetaData \[itom\_lu\_metadata\] table. This table includes information only about parent CI types. All CI types that are created by extending these parent CI types are included by default. For example, the Apache Web Server CI type is included in the CI count, because it is an extension of the Web Server CI type.
+
+Containers are only counted toward SU consumption if they don't have a relationship to a container image CI.
 
 ## Procedure
 
@@ -52,6 +62,8 @@ The system stores information about CI categories and CI types that belong to th
     4.  Make a note of the licensable CI categories provided for this ITOM subscription.
 
     5.  Return to the **License Summary** list and check CI categories generated for other ITOM subscriptions.
+
+    The customer contract for your organization determines the ratios of CI allocation for subscription units in each CI category, and this information is synchronized with the ServiceNow platform.
 
 2.  Navigate to **All** &gt; **ITOM License** &gt; **Licenses by CI Type**.
 

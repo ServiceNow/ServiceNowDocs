@@ -2,6 +2,7 @@
 title: Configure documentation section
 description: Configure the documentation section to describe your plan through structured components: a high-level checklist, purpose, scope, and coverage areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-doc-section-for-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,21 +26,21 @@ Role required: sn\_bcm.admin, sn\_bcp.plan\_admin
 
     The documentation section template is shown in the example.
 
-    ![Documentation section template.](../image/doc-section-new-record-template.png)
+    \[Omitted image "doc-section-new-record-template.png"\] Alt text: Documentation section template.
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields, see [Documentation Section record form](../reference/doc-section-record-form.md).
+    For more information on the fields, see [Documentation Section record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/doc-section-record-form.md).
 
     The example shows the documentation section template from the demo data.
 
-    ![Documentation section template from the demo data.](../image/doc-section-template-from-demo-data.png)
+    \[Omitted image "doc-section-template-from-demo-data.png"\] Alt text: Documentation section template from the demo data.
 
 4.  Select **Submit**.
 
 
--   **[Documentation Section record form](../reference/doc-section-record-form.md)**  
+-   **[Documentation Section record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/doc-section-record-form.md)**  
 Use the Documentation Section record form to describe a plan in the structured sections in the BCM UIB Workspace.
 
-**Parent Topic:**[Configuring the documentation section](../concept/bcp-admin-documentation-sections.md)
+**Parent Topic:**[Configuring the documentation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-admin-documentation-sections.md)
 

@@ -2,6 +2,7 @@
 title: Create a Service user to make calls from Microsoft Teams
 description: Configure Notify connector for Microsoft Teams in your environment by creating a Service user to have a seamless conference call experience in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/provide-app-access-policy-nc-mt.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -56,15 +57,15 @@ Role required: Microsoft Azure admin
         connect-microsoftteams
         ```
 
-        ![PowerShell connect Teams command](../../meeting-extensibility/image/powershell-connect-teams-command.png)
+        \[Omitted image "powershell-connect-teams-command.png"\] Alt text: PowerShell connect Teams command
 
         Upon successful connection, a confirmation message is displayed in the browser.
 
-        ![Authentication message in browser](../../meeting-extensibility/image/authentication-message-browser.png)
+        \[Omitted image "authentication-message-browser.png"\] Alt text: Authentication message in browser
 
         PowerShell will also display the tenant details.
 
-        ![Powershell confirmation](../../meeting-extensibility/image/powershell-confirmation.png)
+        \[Omitted image "powershell-confirmation.png"\] Alt text: Powershell confirmation
 
 4.  Run the Application Access Policy in PowerShell.
 
@@ -74,7 +75,7 @@ Role required: Microsoft Azure admin
 
     Use the App ID `ced2c8b2-7075-49fb-8dc9-7ebb41f89769` to grant permission to the Notify connector app. You can find the App ID in Microsoft Azure portal in the path: **Home** &gt; **Enterprise applications** &gt; **All applications**. Select the app created for Notify connector for Microsoft Teams.
 
-    ![Notify connector app](../image/app-id.12png.png)
+    \[Omitted image "app-id.12png.png"\] Alt text: Notify connector app
 
     ```
     Syntax:
@@ -87,11 +88,11 @@ Role required: Microsoft Azure admin
     For Example: New-CsApplicationAccessPolicy -Identity "OnlineMeetingsAccessPolicy" -AppIds "ced2c8b2-7075-49fb-8dc9-7ebb41f89769" -Description "Grant OnlineMeeting Application Permission"
     ```
 
-    ![App access policy in Powershell](../../meeting-extensibility/image/app-access-policy.png)
+    \[Omitted image "app-access-policy.png"\] Alt text: App access policy in Powershell
 
     Upon successfully granting the permissions, the details are displayed in PowerShell.
 
-    ![App access policy success message in Powershell](../../meeting-extensibility/image/powershell-app-access-success.png)
+    \[Omitted image "powershell-app-access-success.png"\] Alt text: App access policy success message in Powershell
 
 5.  Run the user permission policy in PowerShell.
 
@@ -121,7 +122,7 @@ Role required: Microsoft Azure admin
         
         ```
 
-        ![User permissions](../../meeting-extensibility/image/powershell-user-permissions.png)
+        \[Omitted image "powershell-user-permissions.png"\] Alt text: User permissions
 
 6.  As a user with sn\_notify\_msteams.admin role, configure Microsoft Teams.
 
@@ -129,7 +130,7 @@ Role required: Microsoft Azure admin
 
     2.  Navigate to **Notify** &gt; **Microsoft Teams** &gt; **Configuration**.
 
-        ![Notify Microsoft Teams configuration](../../meeting-extensibility/image/notify-teams-configuration.png)
+        \[Omitted image "notify-teams-configuration.png"\] Alt text: Notify Microsoft Teams configuration
 
     3.  Paste the **Object ID** of the user in **Service user Azure ID** field.
 
@@ -138,5 +139,5 @@ Role required: Microsoft Azure admin
     4.  Select **Update**.
 
 
-**Parent Topic:**[Integrate Notify connector pre-published app with Microsoft Teams](../concept/setup-notify-ms-teams-multi-tenant.md)
+**Parent Topic:**[Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md)
 

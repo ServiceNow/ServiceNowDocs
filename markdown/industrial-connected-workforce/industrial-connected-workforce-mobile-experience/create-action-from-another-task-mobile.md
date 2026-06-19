@@ -2,6 +2,7 @@
 title: Create an action from another task
 description: Create an action as a child task to another task Industrial Connected Workforce Mobile Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-action-from-another-task-mobile.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -35,7 +36,7 @@ You can create an action from an existing action, deviation, breakdown, or root 
 
 4.  Change the values for the fields.
 
-    For a description of the field values, see [Action form](../reference/action-form-mobile.md).
+    For a description of the field values, see [Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/action-form-mobile.md).
 
 5.  Select **Next** twice to go through the entire form.
 
@@ -46,5 +47,5 @@ You can create an action from an existing action, deviation, breakdown, or root 
 
 The action is created and can be found in the **Actions** related list of the parent task. The parent task can’t be closed until all child tasks in the Actions list are closed.
 
-**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](../concept/using-icw-mobile-experience.md)
+**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
 

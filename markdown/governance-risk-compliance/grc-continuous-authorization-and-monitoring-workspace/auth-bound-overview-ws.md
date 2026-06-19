@@ -2,6 +2,7 @@
 title: View reports on authorization boundary elements
 description: Use the authorization boundary overview page to define the parameters of a security measure for an organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-bound-overview-ws.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -36,15 +37,15 @@ For example, your organization might have many data centers. You can define a pa
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon \(![Lists icon.](../image/ws-list-icon.png)\).
+1.  Navigate to **All** &gt; **CAM Workspace** and then select the \[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. icon.
 
 2.  From the Authorization boundaries in the RMF list on the left pane, select an authorization boundary record on the right pane.
 
     The boundary overview page displays all the authorization packages that are available within the boundary. However, when you select the sidebar, it displays an active package.
 
-    ![Authorization boundary overview page.](../image/auth-bound-overview.png)
+    \[Omitted image "auth-bound-overview.png"\] Alt text: Authorization boundary overview page.
 
-3.  Select the sidebar icon \(![Sidebar icon.](../../grc-workspace-compliance/image/pc-ws-sidebar-icon.png)\).
+3.  Select the sidebar icon \(\[Omitted image "pc-ws-sidebar-icon.png"\] Alt text: Sidebar icon.\).
 
     The Highlighted details section displays:
 
@@ -61,12 +62,12 @@ For example, your organization might have many data centers. You can define a pa
 
     **360° view** is added in the Overview pages of Authorization Boundary, Authorization Package, Control, Control objective, Control overlays, Control test, Test template, Test plan, Engagements, and in the Details pages of Indicator, Indicator Template, and POA&amp;Ms.
 
-    ![360° view of all elements associated with the authorization boundary.](../image/abound-cam-ws-360-view.png)
+    \[Omitted image "abound-cam-ws-360-view.png"\] Alt text: 360° view of all elements associated with the authorization boundary.
 
 
 ## What to do next
 
 Select the name of the Active package in the side bar to navigate to the Authorization Package overview page.
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](../concept/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

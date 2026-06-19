@@ -2,6 +2,7 @@
 title: CI relationships
 description: To get reports that represent the total costs for a business service, there must be some association between the service and the CIs that make up the service. This is done with CI relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_CIRelationships.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -29,7 +30,7 @@ Use the demo data of the Cost Management plugin to understand how to check all e
 
 2.  Select **Retail**.
 
-3.  View the business service map by selecting the dependency views icon \(![Dependency views.](../image/dependency-views.png)\).
+3.  View the business service map by selecting the dependency views icon \(\[Omitted image "dependency-views.png"\] Alt text: Dependency views.\).
 
     This view shows that the dbaix901nyc server is a dependency of the Retail Adding Points, Retail POS, and Retail business services. So whenever the dbaix901nyc server incurs a cost, it would be represented at each of the business services.
 
@@ -46,12 +47,12 @@ Use the demo data of the Cost Management plugin to understand how to check all e
     4.  Filter the related list for **short description contains dbaix901nyc**.
     The server's expenses are now visible:
 
-    ![Cost Demo Server Expense](../image/CostDemoServerexp.png "Example server expenses")
+    \[Omitted image "CostDemoServerexp.png"\] Alt text: Cost Demo Server Expense
 
     This example contains one direct expense \(**inherited = false**\), and three inherited expenses that have been generated from other direct expenses. These inherited expenses are based on CI relationships, which allow for reporting at any business service level.
 
-    For more information on expense aggregation, see [Enable relationship aggregation](t_EnableRelationshipAggregation.md).
+    For more information on expense aggregation, see [Enable relationship aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_EnableRelationshipAggregation.md).
 
 
-**Parent Topic:**[Cost Management](../reference/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
 

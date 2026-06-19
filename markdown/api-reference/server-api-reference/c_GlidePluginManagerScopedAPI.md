@@ -2,6 +2,7 @@
 title: GlidePluginManager - Scoped
 description: The scoped GlidePluginManager API provides a method for determining if a plugin has been activated.Determines if the specified plugin has been activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlidePluginManagerScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The scoped GlidePluginManager API provides a method for determining if a plugin has been activated.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlidePluginManager - isActive\(String pluginID\)
 

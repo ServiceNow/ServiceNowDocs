@@ -2,11 +2,14 @@
 title: Install the Service Graph Connector for ServiceNow Operational Technology Discovery
 description: Install the Service Graph Connector for ServiceNow Operational Technology Discovery from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-sgc-ot-discovery.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install the Service Graph Connector for ServiceNow Operational Technology Discovery

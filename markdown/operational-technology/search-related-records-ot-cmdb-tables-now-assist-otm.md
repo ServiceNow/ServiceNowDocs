@@ -2,7 +2,10 @@
 title: Search for related records in an OT CMDB table
 description: Search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information available in an OT CMDB table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/search-related-records-ot-cmdb-tables-now-assist-otm.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ Search for Operational Technology \(OT\) configuration items \(CIs\) and OT devi
 
 ## Before you begin
 
--   The Now Assist panel must be activated. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   The Now Assist panel must be activated. For more information, see .
 -   You must be assigned the now\_assist\_panel\_user role to have access to the Now Assist panel.
 -   You must be assigned appropriate roles to search the relevant OT CMDB tables, such as cmdb\_ot\_viewer or cmdb\_ot\_isa\_viewer.
 
@@ -27,16 +30,16 @@ The OT CMDB search feature leverages the following:
 
 -   Now Assist for CMDB's Search CMDB agentic workflow
 
-    **Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+    **Important:** This agentic workflow is turned on by default. For more information, see .
 
 -   ServiceNow AI Platform's Analytics Query Generator skill
 
-    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+    **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 
 ## Procedure
 
-1.  Select the **Now Assist** ![](../image/now-assist-icon.png) icon.
+1.  Select the **Now Assist** \[Omitted image "now-assist-icon.png"\] Alt text: icon.
 
     The Now Assist is displayed.
 
@@ -60,21 +63,21 @@ If there are less than five OT device records in the search results, then the ag
 
 Here are some examples of the form view.
 
-![Initiating the conversation in the Now Assist panel to search for OT network gear with a Purdue Level of 3](../image/search-ot-cmdb-initiate.png)
+\[Omitted image "search-ot-cmdb-initiate.png"\] Alt text: Initiating the conversation in the Now Assist panel to search for OT network gear with a Purdue Level of 3
 
-![Conversation in the Now Assist panel to view the specified network gear in either a form or unified map.](../image/less-than-five-cmdb-search-results-form.png)
+\[Omitted image "less-than-five-cmdb-search-results-form.png"\] Alt text: Conversation in the Now Assist panel to view the specified network gear in either a form or unified map.
 
-![Form view of the specified network gear accessible through a link in the Now Assist panel.](../image/cmdb-search-form-result.png)
+\[Omitted image "cmdb-search-form-result.png"\] Alt text: Form view of the specified network gear accessible through a link in the Now Assist panel.
 
 Here are some examples of the unified map view.
 
-![Conversation in the Now Assist panel to view the specified OT control system in either a form or unified map.](../image/less-than-5-cmdb-search-results-map.png)
+\[Omitted image "less-than-5-cmdb-search-results-map.png"\] Alt text: Conversation in the Now Assist panel to view the specified OT control system in either a form or unified map.
 
-![Unified map view of the specified OT control system accessible through a link in the Now Assist panel.](../image/cmdb-search-unified-map-result.png)
+\[Omitted image "cmdb-search-unified-map-result.png"\] Alt text: Unified map view of the specified OT control system accessible through a link in the Now Assist panel.
 
-When more than five OT device records appear in the search results based on your search criteria, you can select the link in the Now Assist panel \(NAP\) to view them. Here's an example of the OT PLC search results.
+When more than five OT device records appear in the search results based on your search criteria, you can select the link in the Now Assist panel to view them. Here's an example of the OT PLC search results.
 
-![Search results for OT PLCs are using the OT CMDB search function](../image/ot-cmdb-search.png)
+\[Omitted image "ot-cmdb-search.png"\] Alt text: Search results for OT PLCs are using the OT CMDB search function
 
-**Parent Topic:**[Using the OT Manager Foundation](../concept/using-now-assist-for-otm.md)
+**Parent Topic:**[Using the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-now-assist-for-otm.md)
 

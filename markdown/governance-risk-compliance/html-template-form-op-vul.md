@@ -2,6 +2,7 @@
 title: HTML Template form
 description: On the HTML Template form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/html-template-form-op-vul.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -118,7 +119,7 @@ Body text in the template.
 
  For example, you can select **Fullscreen** to view how the PDF layout is formatted.
 
- In the Root cause analysis \(Overall observations\) section of the PDF, you can include the following related lists information:![Related lists.](../image/op-vul-doc-template-pdf-rel-lists.png)
+ In the Root cause analysis \(Overall observations\) section of the PDF, you can include the following related lists information:\[Omitted image "op-vul-doc-template-pdf-rel-lists.png"\] Alt text: Related lists.
 
 -   Action tasks
 -   Impacted areas

@@ -2,7 +2,10 @@
 title: Publish a publication
 description: Automatically publish a publication with an optional email notification to send to customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/target-comm-publish-publications.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: sn\_publications.author or sn\_publications.admin
 
 Publications are automatically published at the date and time selected in the **Publish Date** field on the Publication form. When creating a publication, set the **Publish Date** and the **Expiry Date** fields to control when the publication is automatically published and expired.
 
-**Note:** A UI action to manually publish a publication is not available out of box. If needed, the system administrator can [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md) and add it to the Publication form.
+**Note:** A UI action to manually publish a publication is not available out of box. If needed, the system administrator can Create a UI action and add it to the Publication form.
 
 When creating a publication, you can also include an optional email notification that is sent to all recipients in the recipients list when the publication is published. In this email notification, all recipients are included in a **bcc** list to maintain privacy.
 
@@ -40,5 +43,5 @@ When creating a publication, you can also include an optional email notification
     **Note:**
 
     -   If the system administrator has configured a UI action, you can use this UI action for manually publishing the publication.
-    -   For more info, see [Email templates](https://servicenow.com/docs/bundle/washingtondc-platform-administration/page/administer/notification/concept/c_EmailTemplates.html).
+    -   For more info, see Email templates.
 

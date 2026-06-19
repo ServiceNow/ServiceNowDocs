@@ -2,6 +2,7 @@
 title: Application states for the recruiter
 description: An overview of the application states the way the recruiters see it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/application-state-recruiter.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -26,5 +27,5 @@ An overview of the application states the way the recruiters see it.
 |Rejected|The application is rejected.|
 |Withdrawn|The applicant has withdrawn the application.|
 
-**Parent Topic:**[Recruitment Workspace reference](../concept/recruitment-workspace-reference.md)
+**Parent Topic:**[Recruitment Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-reference.md)
 

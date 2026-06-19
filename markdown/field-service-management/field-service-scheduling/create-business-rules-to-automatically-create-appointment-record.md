@@ -2,6 +2,7 @@
 title: Create a business rule to automatically generate appointment records from catalog item variables
 description: Automatically generate appointment records from catalog item variables using a business rule. Creating this automation ensures the appointment details provided by users through the Service Catalog appear on the appointment calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-business-rules-to-automatically-create-appointment-record.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

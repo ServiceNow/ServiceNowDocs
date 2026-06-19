@@ -2,11 +2,12 @@
 title: AWS Translate Spoke
 description: Integrate your ServiceNow instance with AWS Translate to detect languages in the text and translate text to the required language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/aws-translate-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -17,7 +18,7 @@ Integrate your ServiceNow instance with AWS Translate to detect languages in the
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -46,7 +47,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 ## Spoke requirements
 
 -   User with full access to AWS Translate.
--   Access Key ID and Secret Access Key of the user. Record these values for later use. For more information, see [Create an access key](../task/aws-translate-setup.md#).
+-   Access Key ID and Secret Access Key of the user. Record these values for later use. For more information, see [Create an access key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aws-translate-setup.md).
 
 For more information about creating user and providing the required access, see [AWS Identity and Access Management Documentation](https://docs.aws.amazon.com/iam/index.html) site.
 
@@ -82,11 +83,11 @@ Detect Dominant Language
 
 Detects the language of text using AWS Comprehend service.**Note:** Provide the text for which you want to detect the dominant language in the action input **Text**. The output is a JSON string that contains an array of the detected languages. One of the elements in the array is **Score**. This is a decimal number and its value is between `0` and `1`.
 
-![Using Score in subsequent actions.](../image/aws-translate-score.png)
+\[Omitted image "aws-translate-score.png"\] Alt text: Using Score in subsequent actions.
 
 When the action is executed, the Languages Detected action output may not display any runtime value. However, the output data pill still holds the response data and can be used in the subsequent actions in the flow or subflow.
 
-![Score value in the output response body.](../image/aws-translate-datapill.png)
+\[Omitted image "aws-translate-datapill.png"\] Alt text: Score value in the output response body.
 
 </td></tr><tr><td>
 
@@ -104,11 +105,11 @@ Translates text from the source language to the target language using AWS Transl
 -   If you select **Auto** from the **Source Language** list, the AWS Translate API uses the AWS Comprehend service to automatically detect the language. In this case, you must provide the region that supports Amazon Comprehend. Else, the request returns an error indicating the auto-detect is not supported.
 
 </td></tr></tbody>
-</table>**Note:** The actions have **Region** as an input. To retrieve the list of available regions, use the List Regions action from the [Amazon EC2 Spoke](amazon-ec2-spoke-1.md).
+</table>**Note:** The actions have **Region** as an input. To retrieve the list of available regions, use the List Regions action from the [Amazon EC2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 ## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the AWS Translate spoke](../task/aws-translate-setup.md#).
+For information about setting up the spoke, see [Set up the AWS Translate spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aws-translate-setup.md).
 

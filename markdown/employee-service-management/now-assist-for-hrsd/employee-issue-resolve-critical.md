@@ -2,6 +2,7 @@
 title: Resolve critical HR case agentic workflow
 description: Resolve critical HR requests efficiently with the Resolve critical HR case agentic workflow. This workflow generates a tailored fulfillment plan for an HR case using fulfillment instructions, KB articles, or resolution notes of similar past cases. It helps accelerate the resolution process by providing planning support to HR agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/employee-issue-resolve-critical.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -23,7 +24,7 @@ The agents, tools, and triggers that are associated with the Resolve critical HR
 
 You must have HRSD Pro plus for Now Assist installed for the HR Service Delivery AI Agent Collection. When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-Perform the following steps after you [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-gaf.md).
+Perform the following steps after you .
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**.
 2.  Run **HR service GAF grouping job** with an admin role. This generates **GAF - Run Offline Flow** in the Global scope.
@@ -36,7 +37,7 @@ To access the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 2.  Select **Agentic workflows** &gt; **Resolve critical HR case**.
 
-![Accessing the Resolve critical HR case agentic workflow](../image/set-up-critical-case.png)The first step of the guided setup includes a complete list of included AI agents. Selecting the name of an AI agent opens it in a new browser tab, where you can see the full description, role, list of steps, and tools. Tools are displayed in the second step of the AI agent guided setup, Add tools and information.
+\[Omitted image "set-up-critical-case.png"\] Alt text: Accessing the Resolve critical HR case agentic workflowThe first step of the guided setup includes a complete list of included AI agents. Selecting the name of an AI agent opens it in a new browser tab, where you can see the full description, role, list of steps, and tools. Tools are displayed in the second step of the AI agent guided setup, Add tools and information.
 
 ## Resolve critical HR case AI agents
 
@@ -89,7 +90,7 @@ The AI agent decision log displays the AI agents that are working to resolve the
 
 **Note:** The AI agent decision log is available in the **Testing** section in AI Agent Studio and is intended for testing purposes only.
 
-![Testing input for the agentic workflow.](../image/case-planner-1.png)![Testing output for the agentic workflow.](../image/case-planner-2.png)
+\[Omitted image "case-planner-1.png"\] Alt text: Testing input for the agentic workflow.\[Omitted image "case-planner-2.png"\] Alt text: Testing output for the agentic workflow.
 
 The AI agent creates fulfillment plans by analyzing HR case details, employee information \(location and designation\), relevant KB articles, fulfillment instructions, and resolution notes from similar cases. HR agents can refine the plan through prompts before approving it. Approved plans are automatically added to the case work notes.
 
@@ -100,5 +101,5 @@ The AI agent creates fulfillment plans by analyzing HR case details, employee in
 
 ## Generating a resolution plan for an HR case
 
-For more information, see [Generate a fulfillment plan](../task/generate-rp.md)
+For more information, see [Generate a fulfillment plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/generate-rp.md)
 

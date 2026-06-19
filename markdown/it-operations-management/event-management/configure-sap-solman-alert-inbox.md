@@ -2,6 +2,7 @@
 title: Configure the alert inbox in SAP Solution Manager
 description: Configure SAP solution manager to retrieve alerts in the system by enabling the alert inbox with the SOA manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-sap-solman-alert-inbox.html
 release: australia
 product: Event Management
 classification: event-management
@@ -27,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
     You must use simplified mode else the resulting web services is different with other modes and not compatible with the connector.
 
-    ![SOA Management page](../image/sap-soa-mgmt.png)
+    \[Omitted image "sap-soa-mgmt.png"\] Alt text: SOA Management page
 
 3.  Select **Search**.
 
@@ -38,7 +39,7 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-View alerts generated in SAP Solution Manager to see any pressing issues, as described in [View alerts in the SAP Solution Manager inbox](sap-view-alerts.md).
+View alerts generated in SAP Solution Manager to see any pressing issues, as described in [View alerts in the SAP Solution Manager inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-view-alerts.md).
 
-**Parent Topic:**[SAP Solution Manager setup configurations](../concept/sap-solman-configurations.md)
+**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-solman-configurations.md)
 

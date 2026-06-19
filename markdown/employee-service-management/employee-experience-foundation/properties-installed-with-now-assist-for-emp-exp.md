@@ -2,6 +2,7 @@
 title: Properties installed with Now Assist for Employee Experience
 description: Properties available with the Now Assist for Employee Experience application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/properties-installed-with-now-assist-for-emp-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,15 +44,6 @@ now.assist.todos\_portals
 Set the portal that you want to use for the To-do configuration. To set multiple portals,specify the portals by separating them with a comma:-   Type: String
 -   Default value: esc
 
-</td></tr><tr><td>
-
-sn\_aia.enable\_va\_conversation
-
-</td><td>
-
-Set this property to **true** to display the AI agent output to users while using the Virtual agent in the Employee Center.-   Type: true/false
--   Default value: False
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist for Employee Experience reference](../concept/reference-now-assist-for-emp-exp.md)
+</table>**Parent Topic:**[Now Assist for Employee Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/reference-now-assist-for-emp-exp.md)
 

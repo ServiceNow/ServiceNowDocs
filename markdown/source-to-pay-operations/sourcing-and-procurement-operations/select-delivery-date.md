@@ -2,6 +2,7 @@
 title: Select a delivery date
 description: You can select a single delivery date or multiple delivery dates for the various products in your cart. If you're unsure of a delivery date, you can provide an estimated time frame which then creates a blanket order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/select-delivery-date.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -25,7 +26,7 @@ Role required: sn\_shop.shopper
 
 1.  On the Checkout page, select **Continue to delivery date**.
 
-    ![Adding delivery date for various products in your cart.](../image/spo-continue-to-delivery-date.png)
+    \[Omitted image "spo-continue-to-delivery-date.png"\] Alt text: Adding delivery date for various products in your cart.
 
     You can also select **Delivery date** from the stepper pages to directly go to the page.
 
@@ -33,16 +34,16 @@ Role required: sn\_shop.shopper
 
     **Note:**
 
-    -   Depending on whether the product is a good or service, different delivery date options are available. For more information on this, see [Order a product](order-a-product.md).
-    -   When adding a delivery date, the quantity of the product is updated accordingly. You can also specify different delivery dates for each supplier product and delivery location combination. For more information on these, see [Delivery date options](../reference/delivery-date-options.md).
+    -   Depending on whether the product is a good or service, different delivery date options are available. For more information on this, see [Order a product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.md).
+    -   When adding a delivery date, the quantity of the product is updated accordingly. You can also specify different delivery dates for each supplier product and delivery location combination. For more information on these, see [Delivery date options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/delivery-date-options.md).
     -   For a bundled product, depending on whether the products within the bundle are goods or services, different delivery date options are displayed.
 
 ## What to do next
 
-When you are done selecting delivery dates for the products in your cart, you can select payment methods for them. For more information, see [Select a payment method](select-payment-method.md).
+When you are done selecting delivery dates for the products in your cart, you can select payment methods for them. For more information, see [Select a payment method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/select-payment-method.md).
 
--   **[Delivery date options](../reference/delivery-date-options.md)**  
+-   **[Delivery date options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/delivery-date-options.md)**  
 Delivery dates define when goods or services are expected to be delivered and give shoppers flexibility to align deliveries with business needs.
 
-**Parent Topic:**[Complete your checkout](complete-your-checkout.md)
+**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
 

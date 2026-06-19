@@ -2,6 +2,7 @@
 title: Provide web page link buttons to display on the Portal Banner widget
 description: Provide a link to a web page that you want to display by defining primary or secondary buttons on the Portal Banner widget. The widget displays these buttons by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-scripted-extension-banner.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ Provide a link to a web page that you want to display by defining primary or sec
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
 
 Role required: sp\_admin
 

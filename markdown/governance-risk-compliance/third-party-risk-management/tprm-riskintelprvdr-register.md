@@ -2,6 +2,7 @@
 title: Register a risk intelligence provider
 description: Create a record for each risk intelligence provider from which you’ll request reports. The risk scores and ratings that risk intelligence providers generate are analogous to personal credit scores. The scores provide insight on how trustworthy and safe a particular third party can be.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -40,9 +41,9 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 You can now specify the services and levels of service that you might later request from the provider.
 
-Services that you have associated with the provider appear in the Risk intelligence provider services related list. To add a service, select **New** in the related list and then follow the instructions in [Set up a risk intelligence provider service](tprm-riskintelprvdr-set-up.md).
+Services that you have associated with the provider appear in the Risk intelligence provider services related list. To add a service, select **New** in the related list and then follow the instructions in [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md).
 
 **Important:** The **Order reports** option on the Risk intelligence provider form must be selected for providers to be available for risk intelligence report requests.
 
-**Parent Topic:**[Integrating scores from risk intelligence providers](../concept/tprm-riskintelprvdr-overview.md)
+**Parent Topic:**[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
 

@@ -2,11 +2,12 @@
 title: Exploring Universal Request in Agent Workspaces
 description: Learn to create universal requests and understand how user requests are resolved in the Universal Request in the Agent Workspaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/explore-ur-workspace.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Agent Workspaces, Universal Request, Employee Service Management]
 ---
@@ -35,5 +36,5 @@ The Universal Request Overview dashboard is the default landing page of the Univ
 
 You can view more details of the universal requests by clicking the universal request number.
 
-**Parent Topic:**[Universal Request in Agent Workspaces](universal-request-workspace.md)
+**Parent Topic:**[Universal Request in Agent Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/universal-request-workspace.md)
 

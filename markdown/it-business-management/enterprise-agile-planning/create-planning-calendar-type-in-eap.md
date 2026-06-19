@@ -2,6 +2,7 @@
 title: Create a planning calendar in EAP
 description: Create any additional planning calendars that you use in your organization, such as Release, so that you can plan and track work in the calendar of your choice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -95,5 +96,5 @@ A brief description of the calendar, its use case, and other details.
 
 ## What to do next
 
-Create entries for the newly created calendar. See [Create calendar entries for iterations in EAP](create-calendar-entries-in-eap.md).
+Create entries for the newly created calendar. See [Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md).
 

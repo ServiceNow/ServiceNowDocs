@@ -2,6 +2,7 @@
 title: Report issues from the Service Portal
 description: When you identify any deficiencies in the controls or improvements that can be made in the organization policies, report an issue from the ServiceNow, Inc. Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/report-issues-from-serviceportal.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -91,5 +92,5 @@ Control inherited from item generation process. The control objective is read-on
 5.  To view all the issues you have reported, navigate to **GRC &gt; My Reported Issues**.
 
 
-**Parent Topic:**[Manually create GRC issues](../../grc-common/task/t_CreateAnIssue.md)
+**Parent Topic:**[Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnIssue.md)
 

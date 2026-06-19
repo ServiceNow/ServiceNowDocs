@@ -2,6 +2,7 @@
 title: Supported versions and licensing requirements in Virtual Agent API
 description: Get a quick overview of the important information that is related to the Virtual Agent API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/virtual-agent-api-supported-versions-licensing.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,5 +26,5 @@ Get a quick overview of the important information that is related to the Virtual
 
 **Note:** The Virtual Agent API requires a Pro/Enterprise license similar to that of Virtual Agent.
 
-**Parent Topic:**[Exploring Virtual Agent API](explore-virtual-agent-api.md)
+**Parent Topic:**[Exploring Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/explore-virtual-agent-api.md)
 

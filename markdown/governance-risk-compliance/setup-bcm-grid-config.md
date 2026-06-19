@@ -2,6 +2,7 @@
 title: Set up grid configuration for BIA dependency assessment
 description: Set up the grid configuration to render the BIA dependency assessment grid with configured columns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-bcm-grid-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

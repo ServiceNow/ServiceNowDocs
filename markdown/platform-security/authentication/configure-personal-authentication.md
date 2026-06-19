@@ -2,11 +2,12 @@
 title: Configure Personal Authentication
 description: You can configure personal OAuth authentication with the REST step in Flow Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-personal-authentication.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Personal authentication, Authentication, Access Management]
 ---
@@ -25,9 +26,9 @@ Ensure that you install the IntegrationHub Starter Pack Installer \(com.glide.hu
 
 This task guides you through configuring personal OAuth authentication for REST steps in ServiceNow® Flow Designer. It enables REST calls to run using the session user's credentials, ensuring secure and personalized API access.
 
-For information on how to check if a personal OAuth token exists for a user, see [Get Personal OAuth Token \(using GlideOAuthClient\)](personal-oauth-token.md).
+For information on how to check if a personal OAuth token exists for a user, see [Get Personal OAuth Token \(using GlideOAuthClient\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/personal-oauth-token.md).
 
-For information to generate the initial token for a user, who doesn’t have access to the credentials page, see [Generate Personal Auth Initiator URL](generate-initial-token.md).
+For information to generate the initial token for a user, who doesn’t have access to the credentials page, see [Generate Personal Auth Initiator URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/generate-initial-token.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ For information to generate the initial token for a user, who doesn’t have acc
 
 2.  Navigate to **Connection &amp; Credentials Aliases**, and create a connection alias.
 
-    This alias is used in the REST steps. For more information, see [Create a Connection &amp; Credential alias](../../../product/credentials/task/connection-alias.md).
+    This alias is used in the REST steps. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 3.  Navigate to **HTTP\(s\) Connection**, and update the external end-point details for the connection record created in the previous step.
 

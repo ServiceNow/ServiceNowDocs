@@ -2,6 +2,7 @@
 title: Track progress of stories for a sprint in Agile Development 2.0
 description: Use the Sprint Tracking tab of the Agile board in Agile Development 2.0 to track the development of the stories from your current sprint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-sprint-story-board.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -39,13 +40,13 @@ You can move the story cards into different lanes or add new stories for the tea
 
     If you use triage board and add those records to your backlog, your board could have stories associated to the triaged records. When you move these stories to different lanes on the story board to update their state, the state of the associated story is updated but the state of the original triaged record remains the same. To change the state of the original record, open the story and switch to the original record tab.
 
-    ![Associated story for a defect added from triage board. The form shows two tabs, one for the original defect and another for the story created for this defect.](../../agile-development/image/defect-from-triage-board-to-backlog.png)
+    \[Omitted image "defect-from-triage-board-to-backlog.png"\] Alt text: Associated story for a defect added from triage board. The form shows two tabs, one for the original defect and another for the story created for this defect.
 
-5.  Hide lanes that you do not want to be displayed by selecting **Hide Lane** from the vertical lane menu \(![Vertical lane menu icon.](../image/icon-agile-vertical-lane-menu.png)\).
+5.  Hide lanes that you do not want to be displayed by selecting **Hide Lane** from the vertical lane menu \(\[Omitted image "icon-agile-vertical-lane-menu.png"\] Alt text: Vertical lane menu icon.\).
 
 6.  Display any hidden lanes and change the board theme.
 
-    1.  Select **Configuration** \(![Configuration icon.](../image/icon-agile-board-config.png)\).
+    1.  Select **Configuration** \(\[Omitted image "icon-agile-board-config.png"\] Alt text: Configuration icon.\).
 
     2.  Select **Advanced Settings**.
 
@@ -61,8 +62,8 @@ You can move the story cards into different lanes or add new stories for the tea
 
     2.  On the form, fill in the fields and click **Submit**.
 
-        For field information, see [Create a story in Agile Development 2.0](../../agile-development/task/create-a-story.md).
+        For field information, see [Create a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-story.md).
 
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](../../agile-development/concept/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
 

@@ -2,6 +2,7 @@
 title: GlideStringUtil - Scoped, Global
 description: The GlideStringUtil API provides string handling methods.Replaces periods with underscore characters.Removes quotes from a string.Replaces problem characters with escape characters.Replaces illegal characters with their escape codes.Replaces non-printable characters with their printable notation.Replaces query term separators "^" with their escape sequence "^^".Replaces quotes with escape characters by adding a backslash before each quote.Replaces illegal HTML characters into HTML notation.Extracts numeric characters from a string.Validates whether the specified string is a valid base64 string.Validates whether the specified string is in valid sys\_id format.Replaces the new line character, /n, with a break code, &lt;br/&gt;.Replaces carriage returns, line feeds, and tabs with spaces, and then removes leading, trailing, and duplicate spaces.Replaces escape characters with their respective character.Encodes non-ASCII characters, unsafe ASCII characters, and spaces so you can use the returned string on the Internet. Uses UTF-8 encoding. Uses percent \(%\) encoding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideStringUtilScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideStringUtil API provides string handling methods.
 
 Access these methods using the static object GlideStringUtil. This class is available in scoped and global scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideStringUtil - dotToUnderBar\(String sourceString\)
 

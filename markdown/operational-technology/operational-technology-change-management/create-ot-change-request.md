@@ -2,6 +2,7 @@
 title: Create a change request
 description: Create an Operational Technology \(OT\) change request to report a change in your site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/create-ot-change-request.html
 release: australia
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -37,10 +38,10 @@ For a walkthrough of how to create an OT change request, watch this video.Creati
 
 6.  Complete the playbook as needed as your team works on the change request.
 
-    For more information about the Basic OT Change Model playbook, see [Basic OT Change Model playbook](../concept/basic-ot-change-model.md). For more information about the Advanced OT Change Model playbook, see [Advanced OT Change Model playbook](../concept/advanced-ot-change-model.md).
+    For more information about the Basic OT Change Model playbook, see [Basic OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/basic-ot-change-model.md). For more information about the Advanced OT Change Model playbook, see [Advanced OT Change Model playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/advanced-ot-change-model.md).
 
     **Note:** If you don't have Playbook enabled, you can only view the **Details** and **Related Records** tabs in the OT change request record.
 
 
-**Parent Topic:**[Using Operational Technology Change Management](../concept/using-operational-technology-change-management.md)
+**Parent Topic:**[Using Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/using-operational-technology-change-management.md)
 

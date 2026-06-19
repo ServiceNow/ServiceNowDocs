@@ -2,6 +2,7 @@
 title: Script includes installed with Digital resilience incident reporting
 description: Several Script includes are added to your instance with Digital resilience incident reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/script-incl-drir.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

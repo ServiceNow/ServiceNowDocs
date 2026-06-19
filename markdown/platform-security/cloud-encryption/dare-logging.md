@@ -2,6 +2,7 @@
 title: Cloud Encryption logging
 description: Learn about logging options for Cloud Encryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/cloud-encryption/dare-logging.html
 release: australia
 product: Cloud Encryption
 classification: cloud-encryption
@@ -33,15 +34,15 @@ Use the Key Management Transactions \[dare\_key\_request\] table to monitor tran
 
 This example shows a key rotation operation. During this operation, the old key life- cycle state updates from active to rotated, and the version state updates from active to retired.
 
-![Key definition for a withdrawn key](../image/dare-log-3.png "Key definition for a rotated key")
+\[Omitted image "dare-log-3.png"\] Alt text: Key definition for a withdrawn key
 
 Looking at the Sys Audits\[sys\_audit\] table, admins can see changes made to records on the Cloud Encryption Key Metadata \[dare\_key\_metadata\] table. Admins can see which records were updated and when. The log entries also record the field that was changed, and the old and new values.
 
-![Key definition for a withdrawn key](../image/dare-log-4.png "Audit logs for a withdrawn key")
+\[Omitted image "dare-log-4.png"\] Alt text: Key definition for a withdrawn key
 
-Admins can view the records on the Cloud Encryption Key Metadata \[dare\_key\_metadata\] table. In the audit records below, the request status was changed from processing to completed.
+Admins can view the records on the Cloud Encryption Key Metadata \[dare\_key\_metadata\] table. In the following audit records, the request status was changed from processing to completed.
 
-![Key definition for a withdrawn key](../image/dare-log-5.png "Audit logs for a withdrawn key")
+\[Omitted image "dare-log-5.png"\] Alt text: Key definition for a withdrawn key
 
 ## Logging for key withdrawal operations
 
@@ -49,11 +50,11 @@ Logging information on key withdrawal is stored in the Audits \[sys\_audit\] tab
 
 This example shows a key withdrawal operation. During this operation, the key lifecycle state updates from generated, to active, to destroyed. The key version updates from unknown, to active, to retired.
 
-![Key definition for a withdrawn key](../image/dare-log-1.png "Key definition for a withdrawn key")
+\[Omitted image "dare-log-1.png"\] Alt text: Key definition for a withdrawn key
 
 Looking at the Sys Audits\[sys\_audit\] table, admins can the Cloud Encryption Key Metadata \[dare\_key\_metadata\] table changes.
 
-![Key definition for a withdrawn key](../image/dare-log-2.png "Audit logs for a withdrawn key")
+\[Omitted image "dare-log-2.png"\] Alt text: Key definition for a withdrawn key
 
-**Parent Topic:**[Cloud Encryption with Key Management](../concept/dare-overview.md)
+**Parent Topic:**[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
 

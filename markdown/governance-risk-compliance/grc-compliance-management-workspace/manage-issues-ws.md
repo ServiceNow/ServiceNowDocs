@@ -2,6 +2,7 @@
 title: Manage issues using the Compliance Workspace
 description: Using the Compliance Workspace, you can measure the effectiveness of your company's risk management program by how quickly and completely it identifies and reacts to risk and compliance issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/manage-issues-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

@@ -2,6 +2,7 @@
 title: Migrate customized Translator Configurations to v4 flows
 description: Migrate your customized translator configurations to v4 flows. Version 4 flows for Dynamic Translation are available from the Xanadu Patch 3 release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -25,7 +26,7 @@ After upgrading to Xanadu Patch 3 or above, the update to v4 flows is automatica
 
 You must manually migrate custom or customized translator configurations.
 
-Using v4 flows ensures that the functionality of [Exclusion Framework in Dynamic Translation](../concept/dyn-translation-exclusion-framework.md) is available.
+Using v4 flows ensures that the functionality of [Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md) is available.
 
 ## Procedure
 
@@ -95,5 +96,5 @@ Marks the translator as the default provider for detection of the language of th
 </table>4.  Select **Update**.
 
 
-**Parent Topic:**[Integration with other translation services](../concept/integration-with-other-translation-services.md)
+**Parent Topic:**[Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integration-with-other-translation-services.md)
 

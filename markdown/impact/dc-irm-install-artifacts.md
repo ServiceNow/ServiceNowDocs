@@ -2,11 +2,14 @@
 title: Review IRM artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-irm-install-artifacts.html
 release: australia
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for IRM, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for IRM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Review IRM artifacts

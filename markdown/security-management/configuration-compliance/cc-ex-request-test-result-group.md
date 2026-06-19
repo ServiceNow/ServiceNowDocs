@@ -2,6 +2,7 @@
 title: Request an exception for a remediation task in Configuration Compliance
 description: Request an exception to defer the remediation of a remediation task for a specified period if it can’t be remediated immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-ex-request-test-result-group.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -23,8 +24,8 @@ Role required: sn\_vulc.remediation\_owner
 
 **Important:** You can request an exception for:
 
--   remediation tasks in the Vulnerability Manager Workspace and IT Remediation Workspace. For more information, see [Request an exception in the IT Remediation Workspace](../../vulnerability-response/task/vr-ws-request-exception.md).
--   multiple test results simultaneously from the Vulnerability Manager Workspace. For more information, see [Request bulk exception in the Vulnerability Manager Workspace](../../vr-vulnerability-manager-workspace/task/vmws-bulk-edit-request-exception.md).
+-   remediation tasks in the Vulnerability Manager Workspace and IT Remediation Workspace. For more information, see [Request an exception in the IT Remediation Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/it-remediation-workspace/vr-ws-request-exception.md).
+-   multiple test results simultaneously from the Vulnerability Manager Workspace. For more information, see [Request bulk exception in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-exception.md).
 
 **Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
 
@@ -44,7 +45,7 @@ Role required: sn\_vulc.remediation\_owner
 
 3.  On the Remediation Task form, click **Request Exception**.
 
-    **Note:** Depending on whether Vulnerability Response or GRC: Policy and Compliance Management is selected in the **Configuration Compliance** &gt; **Exception Management** screen, the Request Exception form changes. See [Configure Exception Management for Configuration Compliance](configure-exception-management-configuration-compliance.md)
+    **Note:** Depending on whether Vulnerability Response or GRC: Policy and Compliance Management is selected in the **Configuration Compliance** &gt; **Exception Management** screen, the Request Exception form changes. See [Configure Exception Management for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/configure-exception-management-configuration-compliance.md)
 
 4.  If Vulnerability Response is selected in the Exception Management screen, then do the following:
 
@@ -79,7 +80,7 @@ Reason for the exception. Choices are as follows:-   Risk Accepted
 -   Fix Unavailable
 -   Mitigating Control in Place
 -   Other
-To see how to add new reason choices, see [Define policy reason mappings](define-policy-reason-mappings.md).
+To see how to add new reason choices, see [Define policy reason mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/define-policy-reason-mappings.md).
 
 </td></tr><tr><td>
 

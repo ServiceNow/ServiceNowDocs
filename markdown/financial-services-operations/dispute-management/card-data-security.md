@@ -2,12 +2,14 @@
 title: Card Data Security
 description: The Card data security application embeds a tokenization service that enables Financial Services Operations \(FSO\) customers to configure the data that is tokenized and detokenized for Dispute Cases and Dispute Transactions to meet Payment Card Industry \(PCI\) requirements \("Card Data Security"\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/card-data-security.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [card data security, tokenization service, pci compliance, payment card industry, pci dss, tokenize card data, detokenize card data, sn\_data\_sec, payment card industry data security standards]
 breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -19,15 +21,15 @@ The Card data security application embeds a tokenization service that enables Fi
 
 <table id="table_wfl_cxr_4fc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how to use Card Data Security](exploring-card-data-security.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how to use Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/exploring-card-data-security.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up Card Data Security](configuring-card-data-security.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-card-data-security.md)
 
 </td><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Manage and modify Card Data Security](managing-card-data-security.md)
+[Manage\[Omitted image "bus-optimize-manage.svg"\] Alt text:Manage and modify Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-card-data-security.md)
 
 </td></tr><tr><td>
 
@@ -35,7 +37,7 @@ The Card data security application embeds a tokenization service that enables Fi
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components that are installed](card-data-security-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components that are installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/card-data-security-reference.md)
 
 </td><td>
 

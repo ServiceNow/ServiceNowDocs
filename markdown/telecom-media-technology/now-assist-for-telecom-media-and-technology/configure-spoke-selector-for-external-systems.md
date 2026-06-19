@@ -2,6 +2,7 @@
 title: Configure the spoke selector for external systems
 description: Configure the spoke selector for Aria to enable the configuration and execution of billing requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/configure-spoke-selector-for-external-systems.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -39,7 +40,7 @@ The spoke selector application provides a common framework that enables the conf
 
 5.  In the Integration request definitions screen, select **New** in the header section.
 
-    ![Integration request definitions screen.](../image/aiagent-integration-request-definition.png)
+    \[Omitted image "aiagent-integration-request-definition.png"\] Alt text: Integration request definitions screen.
 
 6.  On the form, fill in the fields.
 

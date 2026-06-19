@@ -2,6 +2,7 @@
 title: Jumpstart Your Employee Center
 description: This accelerator includes a demonstration of the possibilities and capabilities available with the ServiceNow Employee Center portal in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-employee-center.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,9 +18,11 @@ This accelerator includes a demonstration of the possibilities and capabilities 
 
 ## Accelerator overview
 
-The Jumpstart Your Employee Center accelerator provides Impact customers with an overview of Employee Center, a unified portal for managers and employees, up-leveling the user experience. An applied demonstration of the possibilities and capabilities are shown through a temporary cloned instance with leading practices on implementation, migration, and governance. For additional information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
+The Jumpstart Your Employee Center accelerator provides Impact customers with an overview of Employee Center, a unified portal for managers and employees, up-leveling the user experience. An applied demonstration of the possibilities and capabilities are shown through a temporary cloned instance with leading practices on implementation, migration, and governance. For additional information, see .
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

@@ -2,6 +2,7 @@
 title: Configure alert collection from SCOM
 description: Alerts from the Microsoft System Center Operations Manager \(SCOM\) are collected using the SCOM connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureSCOMConnectorInstance.html
 release: australia
 product: Event Management
 classification: event-management
@@ -32,12 +33,12 @@ The SCOM connector instance requires configuration before receiving alerts and M
 3.  Limit collected SCOM alerts to specific SCOM groups.
 
 
--   **[Configure the SCOM connector instance](t_EMConfigureSCOMConnector.md)**  
+-   **[Configure the SCOM connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnector.md)**  
 Configure the Microsoft System Center Operations Manager \(SCOM\) connector instance to receive alerts and Metric Intelligence raw data from the SCOM server.
--   **[Limit collected SCOM alerts to specific SCOM groups](t_EMAssignRoleSCOMGroup.md)**  
+-   **[Limit collected SCOM alerts to specific SCOM groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMAssignRoleSCOMGroup.md)**  
 Limit the collection of SCOM alerts to only those alerts that belong to the specified SCOM group.
--   **[SCOM metric event rules](../concept/scom-event-rules.md)**  
+-   **[SCOM metric event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/scom-event-rules.md)**  
 The base system comes with Microsoft System Center Operations Manager \(SCOM\) metric event rules. SCOM metric event rules bind event metrics to configuration items \(CIs\).
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

@@ -2,6 +2,7 @@
 title: Microsoft Azure Functions App Catalog items
 description: Cloud Services Catalog Microsoft Azure Function App with pay-as-you-go pricing benefit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/azure-functions-app.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -40,5 +41,5 @@ This catalog item deploys a NodeJS basic "hello world" application onto the prov
 
 Tag \(key-value\) is assigned to all deployed resources. Example: VM, network, storage as present in the stack. The key-value is updated only in the cmdb\_key\_value table, not in public cloud at this time. This will be fixed in future releases to update the tags in cloud.
 
-**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

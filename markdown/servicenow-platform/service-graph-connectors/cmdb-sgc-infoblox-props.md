@@ -2,6 +2,7 @@
 title: Service Graph Connector for Infoblox properties
 description: Service Graph Connector for Infoblox properties control the behavior of the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-sgc-infoblox-props.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -116,9 +117,9 @@ Enter the list of IP addresses to be excluded from the import. Specify the list 
 </td></tr></tbody>
 </table>## Related content
 
-[Data mapping for Service Graph Connector for Infoblox](cmdb-data-mapping-infoblox.md)
+[Data mapping for Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-infoblox.md)
 
-[CMDB classes targeted in Service Graph Connector for Infoblox](sgc-cmdb-infoblox-classes.md)
+[CMDB classes targeted in Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)
 
-**Parent Topic:**[Service Graph Connector for Infoblox reference](../concept/sgc-cmdb-infoblox-reference.md)
+**Parent Topic:**[Service Graph Connector for Infoblox reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-reference.md)
 

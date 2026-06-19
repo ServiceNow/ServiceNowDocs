@@ -2,6 +2,7 @@
 title: Using HR Benchmarks
 description: Gain instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to industry averages of your peers and to the industry top performers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/using-hr-benchmarks.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,8 +32,8 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  To change the way that the KPIs are displayed on the dashboard.
 
-    -   Card view icon \(![Card view](../image/hr-benchmarks-card.png)\): View your KPIs in a card view.
-    -   List view icon \(![List view](../image/hr-benchmarks-list.png)\): View your KPIs in a list view.
+    -   Card view icon \(\[Omitted image "hr-benchmarks-card.png"\] Alt text: Card view\): View your KPIs in a card view.
+    -   List view icon \(\[Omitted image "hr-benchmarks-list.png"\] Alt text: List view\): View your KPIs in a list view.
 4.  To select the area in which you want to compare your data, use the **Compare with** list.
 
     -   **Industry**: Option to compare your data based on industries.

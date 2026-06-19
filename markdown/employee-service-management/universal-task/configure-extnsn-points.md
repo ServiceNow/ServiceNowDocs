@@ -2,6 +2,7 @@
 title: Configure the extension points for Universal Task
 description: Provide the implementation for childTaskCancelled, childTaskCompleted, childTasksClosed of the scripted extension point to execute the custom logic of the service, when a universal task is canceled, completed, or closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/configure-extnsn-points.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -27,14 +28,14 @@ Role required: admin
 
 3.  To create your service-specific extension point script, click **Create Implementations** in the related list.
 
-    For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+    For more information, see Using extension points to extend application functionality.
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Configure the roles to view employee forms](ut-config-empform-view-roles.md)
+**Previous topic:**[Configure the roles to view employee forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-config-empform-view-roles.md)
 
-**Next topic:**[Display the universal tasks for a request in Now Mobile](ut-mobile-config-tasktab.md)
+**Next topic:**[Display the universal tasks for a request in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-mobile-config-tasktab.md)
 

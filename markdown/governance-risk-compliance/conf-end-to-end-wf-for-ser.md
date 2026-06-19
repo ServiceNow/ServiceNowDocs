@@ -2,6 +2,7 @@
 title: Sample end-to-end workflow for services
 description: Configure an end-to-end workflow for the service to fetch the CSDM dependencies and red flags data to Operational Resilience. You must ensure that entities are generated and associated with pillars, and that the Main node configurations are set up before fetching the required data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf-end-to-end-wf-for-ser.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,25 +20,25 @@ Role required: sn\_oper\_res.manager
 
 ## About this task
 
-For the configuration sequence and instructions in Operational Resilience, see [Configuring Operational Resilience](../concept/configure-operational-resilience.md).
+For the configuration sequence and instructions in Operational Resilience, see [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md).
 
-For instructions on creating the Main node configuration records, see [Configure the Main node configurations](set-up-main-node.md).
+For instructions on creating the Main node configuration records, see [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-main-node.md).
 
 ## Procedure
 
 1.  Download the Operational Resilience application in your instance.
 
-    For instructions on downloading the Operational Resilience application, see [Install Operational Resilience application](download-opres.md).
+    For instructions on downloading the Operational Resilience application, see [Install Operational Resilience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-opres.md).
 
 2.  Ensure that you have set up the pillars, entity types, entity filters and entities are generated.
 
-    Refer to the configuration instructions on the [Configuring Operational Resilience](../concept/configure-operational-resilience.md) page.
+    Refer to the configuration instructions on the [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md) page.
 
 3.  Navigate to **Operational Resilience Workspace** &gt; **List** &gt; **Service** and select the service.
 
     You can select a service record as shown in the illustration.
 
-    ![Service record.](../image/service-record.png)
+    \[Omitted image "service-record.png"\] Alt text: Service record.
 
 4.  To add the service to Operational Resilience reporting, select the service from the list and select **Add to OpRes reporting**.
 
@@ -45,17 +46,17 @@ For instructions on creating the Main node configuration records, see [Configure
 
 5.  Verify that the entity is created for the service and it is listed in the Services \(OR\) entity type in the Entity types page.
 
-    ![Entity type.](../image/s-sam-ent-types.png)
+    \[Omitted image "s-sam-ent-types.png"\] Alt text: Entity type.
 
     Verify that the entity is listed in the **Entities** tab and it is marked as Active in the **Details** tab.
 
-    ![Entity.](../image/s-sam-ent.png)
+    \[Omitted image "s-sam-ent.png"\] Alt text: Entity.
 
     **Note:** The following example illustrates how to use entity filters to generate entities. However, for actual entity creation, you should run the **GRC Profile Generation** scheduled job rather than using entity filters.
 
     For reference, the **GRC Profile Generation** job details are shown.
 
-    ![GRC Profile Generation.](../image/profile-gen-sch-job.png)
+    \[Omitted image "profile-gen-sch-job.png"\] Alt text: GRC Profile Generation.
 
     1.  In the **Entity Filters** tab, verify the filter condition for the service that you want to include and fetch it in Operational Resilience.
 
@@ -69,7 +70,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
     The following illustration shows all scheduled jobs and their set schedules.
 
-    ![Scheduled jobs.](../image/scheduled-jobs.png)
+    \[Omitted image "scheduled-jobs.png"\] Alt text: Scheduled jobs.
 
     The `UpdateCSDMDependencies` function in the **Update CSDM and other dependencies** scheduled job fetches all dependencies of the business service into an entity hierarchy, as part of the Opres with CSDM header Main node configuration.
 

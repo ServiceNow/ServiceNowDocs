@@ -2,7 +2,10 @@
 title: Google API Credentials Form
 description: Fill in the Google API Credentials form to configure the credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/google-api-credentials-form.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,5 +26,5 @@ Fill in the Google API Credentials form to configure the credentials.
 |Secret Key|Secret key that you generated on the Google Cloud Console.|
 |Credential alias|A credential alias that is used by the credentials to authorize actions.|
 
-**Parent Topic:**[Set up Google Cloud Platform service accounts](../../it-operations-management/concept/set-up-gcp-service-accounts.md)
+**Parent Topic:**[Set up Google Cloud Platform service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/set-up-gcp-service-accounts.md)
 

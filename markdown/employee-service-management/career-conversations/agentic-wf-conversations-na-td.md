@@ -2,6 +2,7 @@
 title: Create a growth conversation using an agent
 description: As a manager, use the growth conversation preparation AI agent to streamline your employee growth discussions. Leverage this agent to gather key employee talent activity and journeys data to get a clear, structured summary that helps you prepare for the conversation faster and effectively. Rely on data-driven talking points, so every growth conversation is focused, meaningful, and impactful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/career-conversations/agentic-wf-conversations-na-td.html
 release: australia
 product: Career Conversations
 classification: career-conversations
@@ -21,7 +22,7 @@ As a manager, use the growth conversation preparation AI agent to streamline you
 |------------------|---------|-----------|
 |Create a growth conversation|Growth conversation preparation AI agent|The Growth conversation preparation AI agent helps managers initiate and prepare for growth conversations with their team members. It checks calendars to suggest suitable time slots, creates conversation entries, aggregates employee data from multiple systems, and generates structured talking points based on recent talent activity and journey history.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
-**Parent Topic:**[Using the Career Conversations application](egd-activities-use.md)
+**Parent Topic:**[Using the Career Conversations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-activities-use.md)
 

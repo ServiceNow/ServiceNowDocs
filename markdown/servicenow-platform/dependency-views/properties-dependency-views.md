@@ -2,6 +2,7 @@
 title: Properties for Dependency Views
 description: Use Dependency Views properties to configure how data appears in Dependency Views maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/properties-dependency-views.html
 release: australia
 product: Dependency Views
 classification: dependency-views

@@ -2,6 +2,7 @@
 title: Configure actions
 description: Using the action framework, configure actions and associate a set of actions as action groups for use in the different contexts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-approval-hub-actions.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

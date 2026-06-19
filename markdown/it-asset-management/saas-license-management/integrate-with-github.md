@@ -2,6 +2,7 @@
 title: Integrating with GitHub
 description: Integrating your Software Asset Management application with the GitHub repository hosting service enables you to track your software subscriptions and reclaim unused licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/integrate-with-github.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -17,6 +18,6 @@ Integrating your Software Asset Management application with the GitHub repositor
 
 With this integration, you can retrieve and analyze licensing information for both the GitHub Enterprise Cloud and GitHub Enterprise Server applications.
 
--   [Integrate with GitHub Enterprise Cloud](integrate-github-cloud.md#)
--   [Integrate with GitHub Enterprise Server](integrating-with-github-server.md#)
+-   [Integrate with GitHub Enterprise Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-github-cloud.md)
+-   [Integrate with GitHub Enterprise Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrating-with-github-server.md)
 

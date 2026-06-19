@@ -2,6 +2,7 @@
 title: ReleaseOps
 description: ReleaseOps automates deployment of changes across your pipeline, increases predictability and reliability of deployments, and reduces the risk of releasing changes to production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/releaseops-landing.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -20,19 +21,19 @@ ReleaseOps automates deployment of changes across your pipeline, increases predi
 
 <table id="table_y43_hjz_tfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about ReleaseOps benefits and features.](exploring-release-ops.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ReleaseOps benefits and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/exploring-release-ops.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure ReleaseOps settings.](configuring-releaseops.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure ReleaseOps settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/configuring-releaseops.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-rocketship.svg)Manage deployments with ReleaseOps.](using-releaseops-to-manage-deployments.md)
+[Use\[Omitted image "bus-rocketship.svg"\] Alt text:Manage deployments with ReleaseOps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 
 </td></tr><tr><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about ReleaseOps deployment and release states.](../reference/releaseops-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ReleaseOps deployment and release states.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-reference.md)
 
 </td><td>
 

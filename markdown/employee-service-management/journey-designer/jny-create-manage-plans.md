@@ -2,6 +2,7 @@
 title: Create and manage plan types
 description: Create plan types to manage the top-level classification for stages and tasks in a Journey designer plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-create-manage-plans.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -30,5 +31,5 @@ Role required: admin \[sn\_jny.admin\]
 4.  After you have selected any header configuration you want to change, select **Submit**.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

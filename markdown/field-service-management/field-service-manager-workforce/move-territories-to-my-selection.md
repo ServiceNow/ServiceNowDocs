@@ -2,6 +2,7 @@
 title: View favorite territories on a map
 description: View and manage territories and their associated resource details in the list view and on a map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/move-territories-to-my-selection.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -29,7 +30,7 @@ Move a territory to the My Selection list to be able to view it on a map.
 
 2.  In the All Territories list, select a territory that you want to mark as favorite.
 
-3.  Select the Favourite \(![Favourite icon](../image/fsm-star-icon.png)\) icon.
+3.  Select the Favourite \(\[Omitted image "fsm-star-icon.png"\] Alt text: Favourite icon\) icon.
 
 
 ## Result

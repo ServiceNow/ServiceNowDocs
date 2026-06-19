@@ -1,54 +1,81 @@
 ---
 title: Next Experience for Demand Management in Portfolio Planning
-description: Create, evaluate, and prioritize demands throughout the demand life-cycle using Next Experience for Demand Management.
+description: Next Experience for Demand Management enables you to create, evaluate, and prioritize demands throughout the demand life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/demand-workspace-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Next Experience for Demand Management in Portfolio Planning
 
-Create, evaluate, and prioritize demands throughout the demand life-cycle using Next Experience for Demand Management.
-
-Next Experience for Demand Management gives organizations and teams a structured way to capture, assess, and prioritize different types of work before committing to execution. Using Next Experience for Demand Management, demand managers can review incoming requests, assess business cases and capacity, estimate costs, evaluate risks, and decide which demands are worth moving forward. Playbooks allow teams to define different governance processes as well.
-
-Next Experience for Demand Management comes with the Playbook, Details, and Docs pages and is available for users with the Strategic Portfolio Management \(SPM\) Standard license.
-
-Key benefits of Next Experience for Demand Management:
-
--   Consistent demand intake and evaluation process - Next Experience for Demand Management enables a structured workflow where each demand progresses through defined evaluation stages such as intake, capacity and assessment, financial assessment, and approval.
--   Centralized visibility into demand information - Next Experience for Demand Management provides a single interface to view all demands and their associated details such as business cases, capacity, and financials. This feature eliminates the need to cross-reference multiple forms, modules, or applications to compile a complete picture of a demand.
--   Playbook-guided demand life-cycle - Playbooks define the sequence of stages and activities that a demand must go through such as creation, planning, assessment, and approval. Each stage contains a set of prescribed activities that must be completed before the demand transitions to the next stages. Using playbooks, you can define your own processes according to your requirements.
--   Consolidated data for demand prioritization - Next Experience for Demand Management provides demand details, capacity and risk assessment outputs, financial summaries, and progress indicators in a unified view. This feature helps demand managers to compare, rank, and prioritize demands based on any defined criteria of an organization.
--   AI system integration through playbook activities - The AI playbook enables the association of AI systems to a demand through a playbook activity. This feature enables demand managers to associate a demand with an AI system from directly within the demand workflow.
+Next Experience for Demand Management enables you to create, evaluate, and prioritize demands throughout the demand life cycle.
 
 ## Get started
 
 <table id="table_is2_hh1_dzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Next Experience for Demand Management features and business value.](explore-demand-workspace-ppw.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Next Experience for Demand Management features and business value.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/explore-demand-workspace-ppw.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn how to configure Next Experience for Demand Management.](configuring-demand-workspace-ppw.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure Next Experience for Demand Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-demand-workspace-ppw.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-manage.svg)Create and manage demands, use playbooks, and manage financials and resources.](managing-demands-ppw.md)
+[Use\[Omitted image "bus-manage.svg"\] Alt text:Create and manage demands, use playbooks, and manage financials and resources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-demands-ppw.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about demand components like roles, tables, properties, forms, and lists.](../reference/demand-workspace-reference-ppw.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about demand components like roles, tables, properties, forms, and lists.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-workspace-reference-ppw.md)
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>Next Experience for Demand Management provides organizations and teams with a structured way to capture, assess, and prioritize different types of work before committing to executing them. Using Next Experience for Demand Management, demand managers can review incoming requests, assess business cases and capacity, estimate costs, evaluate risks, and decide which demands are worth moving forward. Playbooks enable teams to define different governance processes as well.
 
--   Ask or answer questions in the [Strategic Portfolio Management forum on the ServiceNow Community](https://community.servicenow.com/community?id=community_forum&sys_id=7d291a2ddbd897c068c1fb651f9619da)
--   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
--   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+Check your entitlements to determine whether you have access to Next Experience for Demand Management.
+
+## Helpful resources
+
+Some ServiceNow resources that can provide you with helpful information are:
+
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
+
+
+
+-   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
+
+
+
+-   **\[Omitted image "dcx-icon-impact.svg"\] Impact**
+
+    [http://impact.servicenow.com](http://impact.servicenow.com)
+
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
+
+
+
+-   **\[Omitted image "dcx-icon.svg"\] Best Practices**
+
+
+
+-   **\[Omitted image "dcx-icon-partner.svg"\] Partner**
+
+    [https://www.servicenow.com/partners.html](https://www.servicenow.com/partners.html)
+
+-   **\[Omitted image "dcx-icon.svg"\] ServiceNow**
+
+    [http://servicenow.com](http://servicenow.com)
+
+-   **\[Omitted image "dcx-icon-store.svg"\] ServiceNow Store**
+
+    [http://servicenow.com](http://servicenow.com)
+
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
+    -   [https://support.servicenow.com/now](https://support.servicenow.com/now)
+    -   
 

@@ -2,6 +2,7 @@
 title: Case task form
 description: Use the Case Task form in the GRC: Compliance Case Management application to create a case task for a reported compliance case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/case-task-form.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -175,5 +176,5 @@ Additional comments
 Additional information about the case task.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an action task](../task/create-a-case-task.md)
+</table>**Parent Topic:**[Create an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-a-case-task.md)
 

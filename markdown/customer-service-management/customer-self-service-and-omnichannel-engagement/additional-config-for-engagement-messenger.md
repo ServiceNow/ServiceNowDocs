@@ -2,6 +2,7 @@
 title: Engagement Messenger properties
 description: You can configure the system properties for your Engagement Messenger module so that you can enable Virtual Agent chat, multi-provider SSO, and set a user session time-out value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/additional-config-for-engagement-messenger.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

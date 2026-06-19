@@ -2,6 +2,7 @@
 title: Knowledge base form
 description: When creating a new knowledge base, fill out the following form fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/knowledge-base-form-fields.html
 release: australia
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -178,5 +179,5 @@ Related products
 List of products that are related to the OT knowledge base content.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Knowledge Management reference](../concept/operational-technology-knowledge-management-reference-landing-page.md)
+</table>**Parent Topic:**[Operational Technology Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-reference-landing-page.md)
 

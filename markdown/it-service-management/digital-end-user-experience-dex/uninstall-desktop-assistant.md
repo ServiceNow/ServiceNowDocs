@@ -2,11 +2,12 @@
 title: Uninstall DEX Desktop Assistant
 description: Uninstall Desktop Assistant effortlessly using single-line commands for a clean system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/uninstall-desktop-assistant.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -25,7 +26,7 @@ Role required: sn\_dex\_desktop.admin
 
 1.  Navigate to **All** &gt; **Desktop Assistant** &gt; **Deployment** &gt; **Installer and Uninstaller**.
 
-2.  In the Single-line Uninstall Commands table, select the Copy single line install command icon ![](../image/icon-installer-blue.png) for your operating system.
+2.  In the Single-line Uninstall Commands table, select the Copy single line install command icon \[Omitted image "icon-installer-blue.png"\] Alt text: for your operating system.
 
 3.  On your computer, open Terminal.app \(macOS\) or run PowerShell \(Windows\) as administrator.
 

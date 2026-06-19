@@ -2,6 +2,7 @@
 title: View and track contract request details
 description: As a contract user or contract administrator, view the details and track the activities of the contract request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-view-creq-details.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,7 +26,7 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_admin
 
 2.  Open the contract request.
 
-    ![Various tabs in a contract request to review the details.](../image/cmpro-cmr-details.png "Contract request")
+    \[Omitted image "cmpro-cmr-details.png"\] Alt text: Various tabs in a contract request to review the details.
 
 3.  View the details of the contract request.
 
@@ -42,5 +43,5 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_admin
 4.  Track the request's activities and post messages for the fulfiller working on it by accessing the **Activity** tab.
 
 
-**Parent Topic:**[Using Contract Management Pro](../concept/cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

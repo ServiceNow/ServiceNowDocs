@@ -2,6 +2,7 @@
 title: Embedding reports in Jelly
 description: You can embed reports in any Jelly-based element, such as a UI page.When embedding a report in a Jelly element, you can define a report at any time by passing parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_EmbeddingReportsInJelly.html
 release: australia
 product: Reporting
 classification: reporting
@@ -151,7 +152,7 @@ Or embed the JavaScript in the jelly code entirely in the HTML/XML block. Add th
 |targetSpan|The jQuery element to embed the chart in. The chart uses the size of this element.|
 |reportId|The sys\_id of the report you want to embed.|
 
-**Parent Topic:**[Advanced Core UI reporting topics](c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Embedded report parameters
 

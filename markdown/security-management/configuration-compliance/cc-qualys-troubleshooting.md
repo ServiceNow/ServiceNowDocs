@@ -2,6 +2,7 @@
 title: Resolving Qualys Vulnerability Integration issues
 description: Some commonly encountered issues, along with workarounds are discussed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-qualys-troubleshooting.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

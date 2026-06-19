@@ -2,6 +2,7 @@
 title: Set up the Databricks spoke
 description: Integrate your ServiceNow instance and the Databricks workspace by using an OAuth secret to authenticate the ServiceNow requests.Create an OAuth secret in Databricks workspace to authenticate the ServiceNow requests.Configure a connection to your Databricks workspace. The Databricks spoke connection and credential aliases use these connections to perform actions in the Databricks workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/databricks-spk-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -89,7 +90,7 @@ Role required: admin
 4.  Locate the alias for **Databricks** and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Databricks spoke, click **View Details**.
-    -   To manage more than one Databricks spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Databricks spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 5.  On the form, fill in these fields:

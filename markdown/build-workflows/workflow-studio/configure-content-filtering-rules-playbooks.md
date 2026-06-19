@@ -2,6 +2,7 @@
 title: Configure content filtering rules for Playbook
 description: Use content filtering rules to specify the role a user must have to access content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-content-filtering-rules-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -57,5 +58,5 @@ This means that users with the roles delegated\_developer or playbook.activity\_
 4.  Click **Submit**.
 
 
-**Parent Topic:**[User access to Playbooks in Workflow Studio](../concept/user-access-playbooks.md)
+**Parent Topic:**[User access to Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-playbooks.md)
 

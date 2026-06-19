@@ -2,7 +2,10 @@
 title: Chat Zoom Connector
 description: Resolve issues quickly and engage better with customers with video and screen sharing options in Zoom using the ServiceNow Chat Zoom Connector application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/chat-zoom-connector.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Resolve issues quickly and engage better with customers with video and screen sh
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Overview
 
@@ -27,7 +30,7 @@ As an agent manager, you can access an interaction record of type Zoom to view t
 
 As a customer, you can join a Zoom meeting with an agent regardless of whether you have a Zoom account.
 
-To get started with the Chat Zoom Connector application, see [Configure Chat Zoom Connector](../task/config-chat-zoom-connector.md).
+To get started with the Chat Zoom Connector application, see [Configure Chat Zoom Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-chat-zoom-connector.md).
 
 ## Key features
 
@@ -40,7 +43,7 @@ To get started with the Chat Zoom Connector application, see [Configure Chat Zoo
 
 The following example scenario shows the use of the Chat Zoom Connector application in resolving a configuration issue with an agent initiating a Zoom meeting directly from a customer chat.
 
-![Infographic displaying the process of an agent resolving a customer issue over chat. For the text description, refer to the following steps.](../image/chat-zoom-connector.png "Agent resolving a customer issue over Zoom")
+\[Omitted image "chat-zoom-connector.png"\] Alt text: Infographic displaying the process of an agent resolving a customer issue over chat. For the text description, refer to the following steps.
 
 1.  A customer engages with Support over chat to report an issue for a product.
 2.  An agent receives the chat request and realizes that the issue can be resolved through a minor configuration change.

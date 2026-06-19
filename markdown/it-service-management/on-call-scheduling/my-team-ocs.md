@@ -2,6 +2,7 @@
 title: Manage team with ITSM Mobile Agent
 description: As a shift manager, view your team's schedule and perform activities like approving time-off requests and providing coverage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/my-team-ocs.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -80,7 +81,7 @@ Approve or reject a time-off request.**Note:** Add a reason for rejection of a t
 |Swipe left on any of the shift cards|Tap **Provide coverage** to provide coverage for the shift.|
 |Tap **Provide Coverage**|Provide coverage for a gap in the shift.|
 
-For detailed procedure see [Managing teams and incidents using My Team applet](../../../product/incident-management/concept/my-team-application.md).
+For detailed procedure see [Managing teams and incidents using My Team applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/my-team-application.md).
 
-**Parent Topic:**[Mobile experience for On-Call Scheduling](mobile-experience-ocs.md)
+**Parent Topic:**[Mobile experience for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/mobile-experience-ocs.md)
 

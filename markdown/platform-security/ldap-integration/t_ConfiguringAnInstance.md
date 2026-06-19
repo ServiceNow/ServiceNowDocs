@@ -2,6 +2,7 @@
 title: Configuring an instance with ADAM
 description: The first install copies the ADAM files to your computer, registers requires components, and creates the application shortcuts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_ConfiguringAnInstance.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

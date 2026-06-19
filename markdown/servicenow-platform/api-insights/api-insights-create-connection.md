@@ -2,6 +2,7 @@
 title: Create an API data connection for a Service Graph Connector within API Insights
 description: Create an API data connection added for a Service Graph Connector within API Insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-create-connection.html
 release: australia
 product: API Insights
 classification: api-insights

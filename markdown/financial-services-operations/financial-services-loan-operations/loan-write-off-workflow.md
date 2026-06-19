@@ -2,6 +2,7 @@
 title: Loan Write off workflow
 description: Learn how bank agents, using the Loan Write off workflow, handle writing off a portion or full amount of an outstanding loan when the recovery mechanisms fail. The workflow applies to both business and personal loans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/loan-write-off-workflow.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -19,7 +20,7 @@ A bank writes off a loan when all means of recovery are exhausted. It is an acti
 
 The following diagram shows how the application helps bank agents work on a loan write-off.
 
-![Workflow that shows how a loan write-off is handled using the Loan Operations application.](../image/loan-write-off-workflow.png "Loan Write off workflow")
+\[Omitted image "loan-write-off-workflow.png"\] Alt text: Workflow that shows how a loan write-off is handled using the Loan Operations application.
 
 The following workflow routes the case and tasks for a loan write-off to agents in different departments. The agents log in to Workspace to work on the tasks in their queue.
 

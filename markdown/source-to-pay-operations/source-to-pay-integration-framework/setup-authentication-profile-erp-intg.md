@@ -2,6 +2,7 @@
 title: Set up the authentication profile
 description: Create a basic authentication profile that can be used for web service integration with ERP. Register the ERP integration user name and password to create the authentication profile and associate it to service maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/setup-authentication-profile-erp-intg.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

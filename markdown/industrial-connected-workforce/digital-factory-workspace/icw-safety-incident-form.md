@@ -2,6 +2,7 @@
 title: Safety Incident form
 description: The following table describes the field values for the safety incident form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/icw-safety-incident-form.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -30,5 +31,5 @@ The following table describes the field values for the safety incident form.
 |Sequence of events|Rich text field capturing what happened before, during, and after the incident.|
 |Origin|Reference to the originating ICW task, if the incident was created from an existing task.|
 
-**Parent Topic:**[ICW Health and Safety Integration reference](icw-health-and-safety-integration-reference.md)
+**Parent Topic:**[ICW Health and Safety Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/icw-health-and-safety-integration-reference.md)
 

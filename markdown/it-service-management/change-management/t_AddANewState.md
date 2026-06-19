@@ -2,6 +2,7 @@
 title: Legacy: Add a state to the state model
 description: You can add a new state to the existing state model for different change types based on the requirements of your organization.Any modification to the state model may impact the default workflows for change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_AddANewState.html
 release: australia
 product: Change Management
 classification: change-management
@@ -17,13 +18,13 @@ You can add a new state to the existing state model for different change types b
 
 ## Before you begin
 
-**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](create-a-change-model.md).
+**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md).
 
 Role required: script\_include\_admin, ui\_policy\_admin, ui\_action\_admin, or admin
 
 ## About this task
 
-The [State model](t_ActivateStateModel.md) plugin is activated by default. For more information about base system states for change requests, see [Legacy: State model and transitions](../concept/c_ChangeStateModel.md).
+The [State model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateStateModel.md) plugin is activated by default. For more information about base system states for change requests, see [Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md).
 
 ## Procedure
 
@@ -74,7 +75,7 @@ The [State model](t_ActivateStateModel.md) plugin is activated by default. For m
     -   Functions for each state transition to decide whether that transition is available `(canMove)` along with a function to be executed as part of moving to that state `(moving)`.
     The following example is from the **ChangeRequestStateModel\_normal** script include.
 
-    ![changing the change request state script](../image/state-script-normal.png)
+    \[Omitted image "state-script-normal.png"\] Alt text: changing the change request state script
 
 5.  Create a UI action to provide a button to progress the change request to the new state.
 
@@ -144,7 +145,7 @@ Script
 </td></tr></tbody>
 </table>        The following example uses the **Implement** UI action to show the values to update.
 
-        ![Modified UI action](../image/ui-action-implement.png)
+        \[Omitted image "ui-action-implement.png"\] Alt text: Modified UI action
 
         The **ChangeRequestStateHandler** script include contains two functions that are used to determine if a UI action is displayed based on the current state of the change request.
 
@@ -154,7 +155,7 @@ Script
 
     The process flow is displayed at the top of the Change Request form and is configured in various process flow records.
 
-    ![New state appears in the process flow](../image/AddNewStateProcFlow.png)
+    \[Omitted image "AddNewStateProcFlow.png"\] Alt text: New state appears in the process flow
 
     1.  Navigate to **System UI** &gt; **Process Flow** module and filter for **\[Table\] \[is\] \[change\_request\]**.
 
@@ -176,7 +177,7 @@ Script
 
 To ensure that the new state works as expected, review the default workflows. Add the new state to the workflow as necessary.
 
-**Parent Topic:**[Legacy: State model and transitions](../concept/c_ChangeStateModel.md)
+**Parent Topic:**[Legacy: State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ChangeStateModel.md)
 
 ## Legacy: Review default workflows
 
@@ -184,7 +185,7 @@ Any modification to the state model may impact the default workflows for change 
 
 ### Before you begin
 
-**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](create-a-change-model.md).
+**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md).
 
 Role required: admin
 

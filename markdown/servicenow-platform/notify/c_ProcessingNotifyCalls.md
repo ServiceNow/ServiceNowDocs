@@ -2,6 +2,7 @@
 title: How Notify processes incoming calls
 description: Notify processes incoming calls using workflow activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/c\_ProcessingNotifyCalls.html
 release: australia
 product: Notify
 classification: notify
@@ -33,5 +34,5 @@ Notify processes incoming calls in the following way:
 12. The activity confirms that the associated notify\_wf\_activity record has completed, and changes the activity state to finished.
 13. The workflow transitions to the next activity.
 
-**Parent Topic:**[Notify voice and SMS capabilities](notify-voice-SMS-capabilities.md)
+**Parent Topic:**[Notify voice and SMS capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-voice-SMS-capabilities.md)
 

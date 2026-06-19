@@ -2,6 +2,7 @@
 title: Subflows installed with On-Call Scheduling
 description: Subflows are installed with On-Call Scheduling to support building on-call escalation notification configurable flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/subflows-installed-on-call-scheduling.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -25,7 +26,7 @@ Starting from the Zurich release, the following subflows are available instead o
 
     The subflow respects time off as specified in rosters. Roster members with time off are not included in the escalation path and no notifications are sent to them.
 
-    If **Force communication channel** is specified in the **Escalation settings** for rosters, the [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md) is used: SMS, email, voice, Microsoft Teams, or mobile push. If the preferred method is SMS and the on-call member does not have an SMS device defined, the user is not contacted even if the user has an email address. When forcing a communication channel on an escalation level does not succeed, no further communication attempts are made. The failed contact attempt is logged. The **Force communication channel** setting is available only if Notify is installed.
+    If **Force communication channel** is specified in the **Escalation settings** for rosters, the Subscription-based notifications is used: SMS, email, voice, Microsoft Teams, or mobile push. If the preferred method is SMS and the on-call member does not have an SMS device defined, the user is not contacted even if the user has an email address. When forcing a communication channel on an escalation level does not succeed, no further communication attempts are made. The failed contact attempt is logged. The **Force communication channel** setting is available only if Notify is installed.
 
     -   Until acknowledged, sends on-call notifications to escalatees based on the escalation policy and configured contact preference.
     -   Logs escalation details for each communication.
@@ -66,5 +67,5 @@ Starting from the Zurich release, the following subflows are available instead o
 
 **Note:** All the flows and channel information related to notifications channels including the primary, secondary channel, user preferences are placed inside the On-call Send Notifications subflow. This subflow is invoked to send notifications to the on-call members or user groups.
 
-**Parent Topic:**[On-Call Scheduling subflows](on-call-scheduling-subflows-overview.md)
+**Parent Topic:**[On-Call Scheduling subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-scheduling-subflows-overview.md)
 

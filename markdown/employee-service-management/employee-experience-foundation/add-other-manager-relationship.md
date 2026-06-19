@@ -2,6 +2,7 @@
 title: Add other manager relationships for an employee
 description: Add other manager relationships to set up dotted-line reporting for an employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/add-other-manager-relationship.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,13 +18,13 @@ Add other manager relationships to set up dotted-line reporting for an employee.
 
 ## Before you begin
 
-An employee profile definition must be created and opted in to add other manager relationships. For more information, see [Opt in to the employee profile](profile-opt-in.md).
+An employee profile definition must be created and opted in to add other manager relationships. For more information, see [Opt in to the employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/profile-opt-in.md).
 
 Role required: sn\_employee.admin
 
 ## About this task
 
-Use the Other Manager Relationships module to create many-to-many dotted-line relationships between employees and managers. You can define custom relationships for the managers, such as supervisor, project lead, and so on. The other managers and other reports are displayed in the employee profile teams widget and the [organization chart](view-org-chart.md).
+Use the Other Manager Relationships module to create many-to-many dotted-line relationships between employees and managers. You can define custom relationships for the managers, such as supervisor, project lead, and so on. The other managers and other reports are displayed in the employee profile teams widget and the [organization chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/view-org-chart.md).
 
 ## Procedure
 

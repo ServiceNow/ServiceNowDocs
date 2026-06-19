@@ -2,6 +2,7 @@
 title: Cloud Account Management
 description: Cloud Account Management simplifies account management by automating tasks like creation and provisioning. Predefined policies enable easy suspension, reactivation, and certification of accounts. Potentially reduce provisioning times from weeks to minutes by automating requests, approvals, and setups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/cam-landing.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -19,25 +20,25 @@ Cloud Account Management brings together ServiceNow cloud solutions in a unified
 
 The Cloud Account Management feature automates the management process for AWS accounts and Azure subscription creation. Key benefits include automating account management, streamlining approval workflows, reducing provisioning time, and enhancing security with automated certifications.
 
-![Cloud Account Management workflow](../image/CAM-overview.png "Cloud Account Management workflow")
+\[Omitted image "CAM-overview.png"\] Alt text: Cloud Account Management workflow
 
 ## Get Started
 
 <table id="table_kqk_ttx_r5b" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg)](exploring-cam.md)Learn about Cloud Account Management concepts and features.
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/exploring-cam.md)Learn about Cloud Account Management concepts and features.
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)](configuring-cam.md)Configure environment and user access.
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configuring-cam.md)Configure environment and user access.
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)](using-cam.md)Become familiar with workflow to create and manage cloud accounts.
+[Use \[Omitted image "bus-try-a-demo.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/using-cam.md)Become familiar with workflow to create and manage cloud accounts.
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-whitepaper.svg)](../reference/cam-reference.md)Get details about components like fields, tables, and properties.
+[Reference \[Omitted image "bus-whitepaper.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-reference.md)Get details about components like fields, tables, and properties.
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: View campaign targets
 description: Use campaign targets to view a list of employees that your campaign has targeted, their status, and the date they were added.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-campaign-targets.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

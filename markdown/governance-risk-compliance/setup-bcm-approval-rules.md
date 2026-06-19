@@ -2,6 +2,7 @@
 title: Set up approval rules
 description: Set up rules for approvals at each approval level by selecting an approver type and the requirement of approval from either one or all the stakeholders. Define filter conditions on the source table to which the approval rule is applied.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-bcm-approval-rules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -82,7 +83,7 @@ Approver type
 Type of approver.-   Specific approvers: Your choice of approvers.
 -   Approver from source: Users or groups from the source table.
 -   Dynamic approvers: Approvers selected dynamically from any table.
--   Scripted approvers: Script to determine approvers. See the script shown as an example below.![Sample script](../image/approval-rule-sample-script.png)
+-   Scripted approvers: Script to determine approvers. See the script shown as an example below.\[Omitted image "approval-rule-sample-script.png"\] Alt text: Sample script
 **Note:**
 
 For security reasons, the BCM admin doesn’t have write access to the **Script** field on the Approval Rule form. Only the Approver Configurator developer has create and write access to the **Script** field on the Approval Rule form.
@@ -91,7 +92,7 @@ If you have the BCM admin role, you can set up an approval rule only with types 
 
 -   Specific approvers
 -   Approver from source
-For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](../../grc-common/reference/roles-installed-with-approver-configurator.md).
+For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
 
 </td></tr><tr><td>
 
@@ -214,7 +215,7 @@ Field values on the form:
     Scripted approvers
 
 
-![Sample script to add approvers.](../image/ScriptedApproverSampleScript.png "Sample script to add approvers")
+\[Omitted image "ScriptedApproverSampleScript.png"\] Alt text: Sample script to add approvers.
 
-**Parent Topic:**[Approval configuration](../concept/bcm-approval-configuration.md)
+**Parent Topic:**[Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-approval-configuration.md)
 

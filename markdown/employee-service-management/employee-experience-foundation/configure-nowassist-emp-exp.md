@@ -2,6 +2,7 @@
 title: Configure Now Assist for Employee Experience
 description: If you have the admin role, you can configure the Now Assist for Employee Experience application so that employees can use Now Assist in Virtual Agent to quickly check the status of their work through conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-nowassist-emp-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,7 +39,7 @@ Role required: admin
 
     -   Name of the application: Now Assist for Employee Experience
     -   ID of the application: sn\_ex\_gen\_ai
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select **Install**.
 

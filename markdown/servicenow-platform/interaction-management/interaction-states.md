@@ -2,6 +2,7 @@
 title: Interaction states
 description: Configure the behavior of an interaction by determining the routine behavior for each state that the interaction goes through during the life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/interaction-states.html
 release: australia
 product: Interaction Management
 classification: interaction-management
@@ -19,8 +20,8 @@ Configure the behavior of an interaction by determining the routine behavior for
 
 Configure each of the following interaction components to determine the behavior and life cycle.
 
--   Lists: Configure the interaction list view. You can also extend the interaction table. For more information about configuring lists, see [Configuring lists on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_ListConfiguration.md).
--   Forms: Configure the form view to tailor interactions for each application. For more information about configuring forms, see [Configuring forms on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/basic-form-administration.md).
+-   Lists: Configure the interaction list view. You can also extend the interaction table. For more information about configuring lists, see .
+-   Forms: Configure the form view to tailor interactions for each application. For more information about configuring forms, see .
 
 ## Interaction states
 
@@ -68,7 +69,7 @@ This state indicates that the agent has completed a conversation with a customer
 
  This state is available if an interaction wrap up configuration has been created for the specific type of interaction and that configuration is active.
 
- For more information, see [Interaction wrap up](../concept/interaction-wrap-up-state.md).
+ For more information, see [Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/interaction-wrap-up-state.md).
 
 </td></tr><tr><td>
 
@@ -87,5 +88,5 @@ Closed Abandoned
 The interaction is closed because the consumer disconnects or is unresponsive.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Interaction Management](../concept/configuring-interaction-management.md)
+</table>**Parent Topic:**[Configuring Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/configuring-interaction-management.md)
 

@@ -2,6 +2,7 @@
 title: Verify the SOX Content Pack in Audit Management
 description: After importing the SOX Content Pack, verify and edit the entity types, entities, audit engagements, audit tasks, test templates, and test plans within the Audit Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/verify-SOX-content-audit-management.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -76,7 +77,7 @@ Role required: Audit admin \(sn\_audit.admin\)
 
 ## Result
 
-For information about the SOX Audit Dashboard, see [SOX Content Pack dashboard and reports](../concept/grc-SOX-compliance-content-pack.md).
+For information about the SOX Audit Dashboard, see [SOX Content Pack dashboard and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.md).
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](../concept/sn-store-SOX-governance-risk-compliance.md)
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

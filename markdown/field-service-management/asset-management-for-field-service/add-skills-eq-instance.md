@@ -2,6 +2,7 @@
 title: Add skills to an equipment instance
 description: Add skills to equipment to ensure only skilled, certified, or trained personnel are assigned the equipment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/asset-management-for-field-service/add-skills-eq-instance.html
 release: australia
 product: Asset Management for Field Service
 classification: asset-management-for-field-service

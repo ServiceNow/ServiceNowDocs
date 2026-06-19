@@ -2,7 +2,10 @@
 title: Customizing the colors of ServiceNow components in AEM
 description: You can define the look and feel of the ServiceNow components in Adobe Experience Manager \(AEM\) by specifying colors for them.Set the color theme for the ServiceNow components in Adobe Experience Manager \(AEM\) all at once by configuring the color variables.Override the color theme for a ServiceNow component in Adobe Experience Manager \(AEM\) by using the initialize function.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/aem-style-components.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -13,7 +16,7 @@ breadcrumb: [Integrating with Adobe Experience Manager, Integrate, Customer Serv
 
 You can define the look and feel of the ServiceNow components in Adobe Experience Manager \(AEM\) by specifying colors for them.
 
-As an AEM administrator, you can either modify the color variables preconfigured for all components or use the initializeCSS function for customizing the colors of a particular component using a custom CSS class. You specify the custom CSS class for a component in the **Custom CSS Class** property. For more information, see [Display ServiceNow knowledge articles on an Adobe Experience Manager page](../task/aem-display-knowledge-components.md) and [Display ServiceNow cases on an Adobe Experience Manager page](../task/aem-display-case-components.md).
+As an AEM administrator, you can either modify the color variables preconfigured for all components or use the initializeCSS function for customizing the colors of a particular component using a custom CSS class. You specify the custom CSS class for a component in the **Custom CSS Class** property. For more information, see [Display ServiceNow knowledge articles on an Adobe Experience Manager page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-display-knowledge-components.md) and [Display ServiceNow cases on an Adobe Experience Manager page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-display-case-components.md).
 
 **Note:** By default, the ServiceNow components are configured using the Bootstrap v4.4.1 CSS styles. If your AEM page uses a different Bootstrap version, the ServiceNow components style is overridden by the page style.
 
@@ -104,7 +107,7 @@ The color variables you specify in the `variables.less` file are applied to all 
 
     -   component\_type: The type of the component on which you want to apply the custom color theme, for example, articlelist, articleview, casecards, and so on.
     -   class\_name: The Custom CSS class you enter in the **Custom CSS class** property of your component.
-    -   color\_variable\_1, color\_variable\_2, color\_variable\_n: The color variables you specify for the HTML elements in a component. For more information, see the [Color variable settings](aem-style-components.md#table_vhh_gjm_2mb) table.
+    -   color\_variable\_1, color\_variable\_2, color\_variable\_n: The color variables you specify for the HTML elements in a component. For more information, see the [Color variable settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-style-components.md) table.
     Use the following sample code as a reference for color styling at the component level.
 
     ```

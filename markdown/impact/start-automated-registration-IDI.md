@@ -2,7 +2,10 @@
 title: Use automated registration to connect to the Impact Delivery Instance
 description: The automated registration process simplifies the configuration process and connects your Impact Store Application with data from the Impact Delivery Instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/start-automated-registration-IDI.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -15,7 +18,18 @@ The automated registration process simplifies the configuration process and conn
 
 ## Before you begin
 
-[Run your first scan with the Scan Engine](run-scan-engine.md) before this procedure.
+[Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md) before this procedure.
+
+**Important:** Impact Store Application features that require a connection to the Impact Delivery Instance:
+
+-   Communication with your Impact Squad, including visibility into changes you make in your own Impact Workspace
+-   Capabilities Maps
+-   Accelerators
+-   Recommendations
+-   Product Adoption Roadmaps
+-   Value Management
+
+See [Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-delivery-instance-reference.md) for additional information.
 
 Role required: impact app admin and impact admin \(IDI\)
 
@@ -27,7 +41,7 @@ Role required: impact app admin and impact admin \(IDI\)
 
 3.  Select **Learn about registering your instance** to read an overview of these steps.
 
-    See [Configure the Impact Store Application](../concept/configuring-impact-platform.md) for a summary of the configuration steps.
+    See [Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md) for a summary of the configuration steps.
 
 4.  **Mark as Complete** to continue.
 
@@ -35,7 +49,7 @@ Role required: impact app admin and impact admin \(IDI\)
 
 6.  Select the **Create registration** link.
 
-    ![Create registration link and the check registration status links on the registration page.](../image/guided-setup-start-auto-registration.png)
+    \[Omitted image "guided-setup-start-auto-registration.png"\] Alt text: Create registration link and the check registration status links on the registration page.
 
     **Note:** It may take a few moments to connect to the Impact Delivery Instance and process the registration.
 
@@ -47,7 +61,7 @@ Role required: impact app admin and impact admin \(IDI\)
 
     A new Provider connection registration record is created and linked to your Impact Delivery Instance.
 
-    ![The Impact Store App provider connection record with the ServiceNow Company, URL, and pre-connection statuses populated.](../image/provider-connection.png)
+    \[Omitted image "provider-connection.png"\] Alt text: The Impact Store App provider connection record with the ServiceNow Company, URL, and pre-connection statuses populated.
 
 9.  Refer to the Provider Connection record table for information about the form:
 
@@ -118,7 +132,7 @@ Inbound status \(read-only\)
 
     If the state updates to Validation failed, health checks failed and the provider isn't connected.
 
-    ![Failed validation banner with the link to the Health Dashboard.](../image/onboarding-failed.png)
+    \[Omitted image "onboarding-failed.png"\] Alt text: Failed validation banner with the link to the Health Dashboard.
 
     1.  Select the **Health Dashboard** link in the error banner to be directed to the Service Exchange health dashboard.
     2.  View and diagnose the errors.
@@ -134,7 +148,7 @@ Inbound status \(read-only\)
     -   Provider onboarding started...: The connection is validated between the Impact Store App and the Impact Delivery Instance.
     -   Syncing settings to complete onboarding...: Necessary components and settings are synchronizing and required for alignment.
     -   Onboarding Complete: All settings have synced and you are ready to sync data from the Impact Delivery Instance.
-    ![Provider and onboarding connection status and confirmation message.](../image/onboarding-complete-png.png)
+    \[Omitted image "onboarding-complete-png.png"\] Alt text: Provider and onboarding connection status and confirmation message.
 
 12. When the status updates to Onboarding Complete, select **Close**.
 
@@ -142,18 +156,18 @@ Inbound status \(read-only\)
 
 13. Return to the open tab, **Start automated registration a provider instance** in Guided Setup, and select **Mark Complete** to continue to verify the connection.
 
-    ![The required step to mark the new provider connection creation as successful with the Mark as complete button on the Automated Registration page in Guided Setup.](../image/create-provider-connection-automated-mark-complete.png)
+    \[Omitted image "create-provider-connection-automated-mark-complete.png"\] Alt text: The required step to mark the new provider connection creation as successful with the Mark as complete button on the Automated Registration page in Guided Setup.
 
     Upon successful connection, you can skip, manual registration and proceed to the **Verify the connection** activity in Guided Setup.
 
 
 ## What to do next
 
-[Verify Impact data connection](verify-impact-data-connection.md)
+[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/verify-impact-data-connection.md)
 
-**Parent Topic:**[Configure the Impact Store Application](../concept/configuring-impact-platform.md)
+**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Run your first scan with the Scan Engine](run-scan-engine.md)
+**Previous topic:**[Scan blocking and override behavior scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/understanding-scan-blocking-override-behavior.md)
 
-**Next topic:**[Verify Impact data connection](verify-impact-data-connection.md)
+**Next topic:**[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/verify-impact-data-connection.md)
 

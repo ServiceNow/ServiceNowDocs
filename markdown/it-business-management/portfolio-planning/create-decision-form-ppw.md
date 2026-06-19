@@ -2,6 +2,7 @@
 title: Create decision form
 description: The decision form information is used to create a decision for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-decision-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

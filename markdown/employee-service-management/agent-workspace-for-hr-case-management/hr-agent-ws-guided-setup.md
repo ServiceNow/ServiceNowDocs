@@ -2,6 +2,7 @@
 title: Agent Workspace for HR Case Management Guided Setup
 description: The Guided Setup enables you to configure Agent Workspace for HR Case Management for your agents so that they can access HR cases, tasks and communications all from one location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-guided-setup.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -21,5 +22,5 @@ To access Agent Workspace for HR Case Management Guided Setup, navigate to **HR 
 
 In the Agent Workspace for HR Case Management Guided Setup page, you will see a list of different categories. Select the **Get Started** button under each category to start the configuration.
 
-For more information on **Guided Setup**, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+For more information on **Guided Setup**, see Using guided setup.
 

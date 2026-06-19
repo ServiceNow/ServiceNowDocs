@@ -2,6 +2,7 @@
 title: Validate plugins on the MID Server
 description: Validate plugins on your MID Server to ensure that they match the plugins on your ServiceNow instance. Validating plugins ensures that the instance provides accurate data on all of your MID Server plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/validate-assets-mid-server.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -38,5 +39,5 @@ Role required: agent\_client\_collector\_admin
     If plugins aren't validated, restart the MID Server. Plugins sync automatically when the MID Server restarts.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](../concept/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

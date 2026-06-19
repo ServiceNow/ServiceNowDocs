@@ -2,6 +2,7 @@
 title: Publish an Industrial Guided Task standard
 description: Use Industrial Guided Task \(IGT\) standards to create and publish custom industrial standards tailored to your industry and operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/publish-industrial-guided-task-standard.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -29,7 +30,7 @@ Role required: sn\_icw\_igt.standard\_author
 
 4.  On the Industrial Guided Task Standard form, fill in the fields.
 
-    For a description of the field values, see [Industrial Guided Task standard form](../reference/industrial-guided-task-standard-form.md).
+    For a description of the field values, see [Industrial Guided Task standard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-standard-form.md).
 
 5.  Save the draft version of the standard by selecting **Save**.
 
@@ -39,7 +40,7 @@ Role required: sn\_icw\_igt.standard\_author
 
 7.  Create an assessment template for your standard.
 
-    The Industrial Guided Tasks uses the Smart Assessment Engine for designing the templates for standards. To learn how to create an assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    The Industrial Guided Tasks uses the Smart Assessment Engine for designing the templates for standards. To learn how to create an assessment template, see .
 
     The following authoring rules are in place.
 
@@ -48,11 +49,11 @@ Role required: sn\_icw\_igt.standard\_author
     -   A subsection can’t be added to a section that already contains questions.
     The following image shows an example of an assessment template for a standard.
 
-    ![Task authoring tab](../../icw-industrial-guided-tasks/image/task-authoring-tab.png).
+    \[Omitted image "task-authoring-tab.png"\] Alt text: Task authoring tab.
 
 8.  When the standard is ready to be reviewed for publishing, select **Request approval**.
 
-    If there’s no assigned owner group or the group has no active users, the standard can’t be approved and published. To learn more about approval states and the life cycle of a standard, see [Industrial Guided Task standard and task life cycles](../reference/industrial-guided-task-life-cycle.md).
+    If there’s no assigned owner group or the group has no active users, the standard can’t be approved and published. To learn more about approval states and the life cycle of a standard, see [Industrial Guided Task standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-life-cycle.md).
 
 9.  Select **Save**.
 
@@ -61,8 +62,8 @@ Role required: sn\_icw\_igt.standard\_author
 
 A new standard is created and displayed in the Standards hub. Depending on its state, the standard displays a label of either Draft or Published.
 
--   **[Task authoring configuration settings](../concept/task-authoring-configuration-settings.md)**  
+-   **[Task authoring configuration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/task-authoring-configuration-settings.md)**  
 Some settings configured in the Workspace have their limitations and don't apply to both workspace and mobile.
 
-**Parent Topic:**[Using Industrial Guided Tasks](../concept/using-industrial-guided-tasks.md)
+**Parent Topic:**[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)
 

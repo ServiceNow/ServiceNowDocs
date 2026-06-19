@@ -2,6 +2,7 @@
 title: Register a new application at Azure portal for SharePoint connections
 description: Register a new application at Azure portal for Microsoft SharePoint integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-azure-app-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -62,5 +63,5 @@ Role required: admin, Azure admin
     All the permissions are now admin consented.
 
 
-**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](../../secops-integration-major-security-incident-management/concept/integrate-msim-sharepoint.md)
+**Parent Topic:**[Integrate Major Security Incident Management with Microsoft SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-sharepoint.md)
 

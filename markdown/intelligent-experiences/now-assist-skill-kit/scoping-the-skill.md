@@ -2,11 +2,12 @@
 title: Scoping the skill
 description: Scoping the skill before you build it helps determine the requirements needed for the skill and the expected outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/scoping-the-skill.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [General guidelines for Now Assist Skill Kit, Exploring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---

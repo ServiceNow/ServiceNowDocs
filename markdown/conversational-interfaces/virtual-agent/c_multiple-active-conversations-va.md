@@ -2,6 +2,7 @@
 title: Using multiple active conversations in Virtual Agent
 description: Virtual Agent features the ability to have multiple conversations at the same time, separated and directed by chosen context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/c\_multiple-active-conversations-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,7 +20,7 @@ Virtual Agent features the ability to have multiple conversations at the same ti
 
 Virtual Agent messages commonly follow one conversation with a shared history that persists on all VA clients, and thus all portals. For example, if you’re conversing with Virtual Agent in a Service Portal \(SP\) portal context, the same conversation is shown in an Employee Service Center \(ESC\) portal. The multiple active conversations feature expands the reach of Virtual Agent by eliminating the one-conversation limit. By configuring their Virtual Agent conversations based on context, customers can choose to share or restrict any or all content between concurrent conversations on differing portals.
 
-Each Virtual Agent conversation is fully independent, with no overlap between chats. For example, a conversation in SP will be entirely different from ESC. Each conversation also has its own transcript. You must set up context values for Natural Language Understanding \(NLU\) chats, while Large Language Model \(LLM\) chats are automatically configured for multiple active conversations based on each portal. An administrator can activate an LLM assistant for each portal by using guided setup configurations. \(For more information on configuring Virtual Agent conversations, see [Conversational Interfaces Guided Setup](../../conversational-interfaces/task/ci-guided-setup.md).\)
+Each Virtual Agent conversation is fully independent, with no overlap between chats. For example, a conversation in SP will be entirely different from ESC. Each conversation also has its own transcript. You must set up context values for Natural Language Understanding \(NLU\) chats, while Large Language Model \(LLM\) chats are automatically configured for multiple active conversations based on each portal. An administrator can activate an LLM assistant for each portal by using guided setup configurations. \(For more information on configuring Virtual Agent conversations, see [Conversational Interfaces Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-guided-setup.md).\)
 
 ## Benefits of multiple active conversations
 
@@ -41,14 +42,14 @@ Implementing multiple active conversations should happen in the following order:
 
 Topics can be created within a portal context. If the portal context maps to consumer account context, then topics map to consumer account contexts.
 
--   **[Set NLU portal consumer context values for multiple active conversations](../task/t_set-portal-consumer-context-values-multiple-active-conversations.md)**  
+-   **[Set NLU portal consumer context values for multiple active conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_set-portal-consumer-context-values-multiple-active-conversations.md)**  
 Use context values to determine which portals receive certain messages and notifications for users in that portal.
--   **[Set a default NLU context value for multiple active conversations](../task/t_set-default-context-value-multiple-active-conversations.md)**  
+-   **[Set a default NLU context value for multiple active conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_set-default-context-value-multiple-active-conversations.md)**  
 Use consumer account context values to define where Virtual Agent messages are directed by default when using the multiple active conversations feature.
--   **[Activate multiple active conversations in Virtual Agent](../task/t_activate-multiple-active-conversations-va.md)**  
+-   **[Activate multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_activate-multiple-active-conversations-va.md)**  
 Use the multiple active conversations system, in combination with defined context values and a default portal, to handle concurrent conversations with Virtual Agent.
--   **[Route Virtual Agent NLU notifications through multiple portals](../task/t_route-va-notifications-multiple-portals.md)**  
+-   **[Route Virtual Agent NLU notifications through multiple portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_route-va-notifications-multiple-portals.md)**  
 Send notifications and other Virtual Agent messages through as many portals as desired.
 
-**Parent Topic:**[Configuring Virtual Agent](configure-virtual-agent.md)
+**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

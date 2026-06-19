@@ -2,6 +2,7 @@
 title: Set up auto-login for ServiceNow AI Lens
 description: Pre-configure your organization's ServiceNow instance URL so that it appears ready-filled when users launch the ServiceNow AI Lens desktop application, and enable auto-login so that users can skip signing in on subsequent launches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/configure-instance-url-and-auto-login.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -20,7 +21,7 @@ Pre-configure your organization's ServiceNow® instance URL so that it appears r
 
 Role required: admin
 
-ServiceNow AI Lens must be installed on the user's machine. For more information, see [Download the ServiceNow AI Lens installer](download-sn-lens-msi.md).
+ServiceNow AI Lens must be installed on the user's machine. For more information, see [Download the ServiceNow AI Lens installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/download-sn-lens-msi.md).
 
 ## Procedure
 
@@ -55,7 +56,7 @@ ServiceNow AI Lens must be installed on the user's machine. For more information
 
     3.  In the **value** field, set the value to **true**, and select **Update**.
 
-        ![Auto-login property value.](../image/lens-auto-login-property-value.png "Auto-login property value")
+        \[Omitted image "lens-auto-login-property-value.png"\] Alt text: Auto-login property value.
 
         **Note:** When this property is enabled, ServiceNow AI Lens automatically signs in users on subsequent launches without showing the login screen. If a user signs out or their sign-in expires, the login screen reappears with the instance URL already filled in. If you manually update the `app-config.json` file after your first login, you will be prompted to sign in again.
 

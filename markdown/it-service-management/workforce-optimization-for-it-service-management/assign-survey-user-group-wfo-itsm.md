@@ -2,6 +2,7 @@
 title: Assign a survey to agents or groups
 description: Assign a published survey to agents or groups so that they can take the survey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/assign-survey-user-group-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -25,7 +26,7 @@ Role required: sn\_wfo\_cfg\_ws.manager
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Select the Coaching icon \(![Coaching icon](../image/coaching-icon-uib.png)\).
+2.  Select the Coaching icon \(\[Omitted image "coaching-icon-uib.png"\] Alt text: Coaching icon\).
 
 3.  Assign a survey to an agent or a group.
 
@@ -46,5 +47,5 @@ Role required: sn\_wfo\_cfg\_ws.manager
     Agents receive a notification when a survey is assigned to them.
 
 
-**Parent Topic:**[Surveys in Workforce Optimization for ITSM](../concept/surveys-wfo-itsm.md)
+**Parent Topic:**[Surveys in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.md)
 

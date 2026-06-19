@@ -2,6 +2,7 @@
 title: Configure IBM Watson Assistant as the NLU provider for Virtual Agent
 description: Use the intents, entities, and utterances defined in IBM Watson Assistant and apply them as an NLU model for your Virtual Agent conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-watson-service-integration.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,7 +22,7 @@ In IBM Watson Assistant, do the following:
 
 -   In your IBM account, create a [Resource Link](https://www.ibm.com/docs/en/opw/8.3.0?topic=links-resource) in the AI \(Artificial Intelligence\) category. Once you have created the Resource Link, you should see the API key and URL:
 
-    ![In your IBM Watson Assistant account, locate the API key and URL on the dashboard page for the Resource Link you created.](../images/ibm-watson-credentials.png)
+    \[Omitted image "ibm-watson-credentials.png"\] Alt text: In your IBM Watson Assistant account, locate the API key and URL on the dashboard page for the Resource Link you created.
 
 -   In your workspace, define the intents, entities, and utterances for your NLU model.
 -   Locate your workspace credentials and copy the workspace **Password**, which you must provide when setting your credentials during configuration.
@@ -55,11 +56,11 @@ As of the Quebec release, Virtual Agent supports legacy version 1 URLs only:
 
     2.  In the HTTP\(s\) Connections page, select an IBM Watson entry in the Name column to open the record.
 
-        ![There are four IBM Watson NLU records to modify: Entities, Intents, Models, and Prediction. You must set the endpoint for each record.](../images/set-ibm-watson-endpoint.png)
+        \[Omitted image "set-ibm-watson-endpoint.png"\] Alt text: There are four IBM Watson NLU records to modify: Entities, Intents, Models, and Prediction. You must set the endpoint for each record.
 
     3.  Edit the URL in the **Host** and **Base path** fields to reflect the endpoint in your IBM Watson NLU account.
 
-        ![On the form, change the Host and Base path fields to refer to your IBM Watson NLU endpoint.](../images/set-ibm-watson-endpoint-host.png)
+        \[Omitted image "set-ibm-watson-endpoint-host.png"\] Alt text: On the form, change the Host and Base path fields to refer to your IBM Watson NLU endpoint.
 
     4.  Select **Update**.
 
@@ -77,7 +78,7 @@ As of the Quebec release, Virtual Agent supports legacy version 1 URLs only:
 
     3.  In the **Password** field, enter the IBM Watson NLU API key.
 
-        ![Enter the API key name and password on the Basic Auth Credentials form for the IBM Watson NLU model.](../images/va-ibm-watson-credential-pw.png)
+        \[Omitted image "va-ibm-watson-credential-pw.png"\] Alt text: Enter the API key name and password on the Basic Auth Credentials form for the IBM Watson NLU model.
 
     4.  Select **Update**.
 
@@ -89,7 +90,7 @@ As of the Quebec release, Virtual Agent supports legacy version 1 URLs only:
 
     2.  In the Open NLU Drivers table, locate the IBM Watson Script record and in the **Active** field, set the value to true.
 
-        ![For the IBM Watson - Script record, double-click in the Active column to change the value from false to true.](../images/open-nlu-drivers.png)
+        \[Omitted image "open-nlu-drivers.png"\] Alt text: For the IBM Watson - Script record, double-click in the Active column to change the value from false to true.
 
         Activating this setting adds **IBM Watson - Script active** to the list of available NLU services in Virtual Agent settings.
 
@@ -105,12 +106,12 @@ As of the Quebec release, Virtual Agent supports legacy version 1 URLs only:
 
     5.  If you plan to use language-specific NLU models, enable the languages in the Supported NLU Languages list.
 
-        A language is enabled if the Enabled column displays **true**. For more information, see [Enable NLU languages in Virtual Agent settings](enable-langs-va-gen-settings.md).
+        A language is enabled if the Enabled column displays **true**. For more information, see [Enable NLU languages in Virtual Agent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-langs-va-gen-settings.md).
 
     6.  Click **Save**.
 
     IBM Watson Assistant is the NLU service provider for your instance.
 
 
-**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](configure-nlu-settings.md)
+**Parent Topic:**[Configure Natural Language Understanding in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md)
 

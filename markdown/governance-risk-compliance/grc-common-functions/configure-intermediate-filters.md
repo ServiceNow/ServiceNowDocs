@@ -1,19 +1,20 @@
 ---
 title: Configure Intermediate filters
-description: Set up filters for intermediate data relationship nodes based on the selected data relationship in the content configuration. This ensures only relevant information is displayed, making reports clear and actionable.
+description: Set up filters for intermediate data relationship nodes based on the selected data relationship in the content configuration. This confirms only relevant information is displayed, making reports clear and actionable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-intermediate-filters.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create content configurations, Configure document templates using Document Designer, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Create content configurations, Configure document templates using Document Designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Configure Intermediate filters
 
-Set up filters for intermediate data relationship nodes based on the selected data relationship in the content configuration. This ensures only relevant information is displayed, making reports clear and actionable.
+Set up filters for intermediate data relationship nodes based on the selected data relationship in the content configuration. This confirms only relevant information is displayed, making reports clear and actionable.
 
 ## Before you begin
 

@@ -2,6 +2,7 @@
 title: Install the Task Mining Portable Windows agent
 description: Run the Task Mining agent from a portable archive without installing it on the system. The portable agent does not modify the Windows registry or write files outside its extracted folder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/install-task-mining-portable-agent.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -19,7 +20,7 @@ Run the Task Mining agent from a portable archive without installing it on the s
 
 Role required: Task Mining Agent Install
 
-**Note:** You must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. If the group doesn't exist, create a group with that name and those roles manually. For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+**Note:** You must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. If the group doesn't exist, create a group with that name and those roles manually. For more information, see Assign a role to a group.
 
 ## Procedure
 
@@ -29,7 +30,7 @@ Role required: Task Mining Agent Install
 
     2.  Select an existing key or create one.
 
-        ![Screenshot of registration key selection.](../image/tm-agent-3.png)
+        \[Omitted image "tm-agent-3.png"\] Alt text: Screenshot of registration key selection.
 
     3.  Select the Portable Windows agent tab.
 
@@ -37,7 +38,7 @@ Role required: Task Mining Agent Install
 
     5.  Copy the **Instance URL** and **Registration key** on the Agent Installation page.
 
-    ![Screenshot of portable windows agent download screen.](../image/tm-agent-5.png)
+    \[Omitted image "tm-agent-5.png"\] Alt text: Screenshot of portable windows agent download screen.
 
 2.  Run `PortableLauncher.exe` from the extracted folder.
 

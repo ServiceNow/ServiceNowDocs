@@ -2,7 +2,10 @@
 title: Wrap up email interactions
 description: Close email interactions with a wrap-up code to categorize the interaction outcome. Wrap-up codes support both AWA-routed and CCaaS-routed email interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/wrap-up-email-interactions-eaai.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Close email interactions with a wrap-up code to categorize the interaction outco
 
 ## Before you begin
 
-An administrator must configure internal wrap-up codes. See [Wrap up email interactions](wrap-up-email-interactions-eaai.md).
+An administrator must configure internal wrap-up codes. See [Wrap up email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/wrap-up-email-interactions-eaai.md).
 
 Role required: sn\_customerservice\_agent
 
@@ -27,13 +30,13 @@ In the following scenarios, the system assigns a wrap-up code automatically:
 -   When the wrap-up window times out, the default wrap-up code Issue resolved is auto-saved.
 -   When the interaction automatically closes because the customer doesn’t respond, the wrap-up code is set to Closed due to customer inactivity.
 
-For more information, see Automatic wrap-up code assignment in [Using Email Interaction for Customer Service Management](../concept/using-email-interaction-customer-service-management.md).
+For more information, see Automatic wrap-up code assignment in [Using Email Interaction for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-email-interaction-customer-service-management.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \( ![List icon that displays the interactions.](../image/List_icon.jpg)\).
+2.  Select the List icon \( \[Omitted image "List\_icon.jpg"\] Alt text: List icon that displays the interactions.\).
 
 3.  In the Interactions section, select **My Interactions**.
 

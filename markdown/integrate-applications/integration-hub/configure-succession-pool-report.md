@@ -2,6 +2,7 @@
 title: Configure Succession Pool report
 description: Configure the Succession Pool report to fetch Succession pool data based on Succession pool and employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-succession-pool-report.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -35,7 +36,7 @@ Confirm that in the advanced section, **Enable as webservice** is selected.
 
 1.  Create Aggregate Related Instances type calculated field named CF\_worker succession pool.
 
-    ![Workday report.](../image/workday-report51.png)
+    \[Omitted image "workday-report51.png"\] Alt text: Workday report.
 
 2.  Create the report.
 
@@ -51,50 +52,50 @@ Confirm that in the advanced section, **Enable as webservice** is selected.
 
     6.  Deselect the temporary report box and then click ok.
 
-        ![Workday report.](../image/workday-report52.png)
+        \[Omitted image "workday-report52.png"\] Alt text: Workday report.
 
     7.  Select the report business object and report fields as given below.
 
-        ![Workday report.](../image/workday-report53.png)
+        \[Omitted image "workday-report53.png"\] Alt text: Workday report.
 
-        ![Workday report.](../image/workday-report54.png)
+        \[Omitted image "workday-report54.png"\] Alt text: Workday report.
 
     8.  In the Group column heading section, select all business object as shown below.
 
         The Group Column heading for each business object will be blank.
 
-        ![Workday report.](../image/workday-report55.png)
+        \[Omitted image "workday-report55.png"\] Alt text: Workday report.
 
     9.  In the Filter section, select the value, as given below.
 
-        ![Workday report.](../image/workday-report56.png)
+        \[Omitted image "workday-report56.png"\] Alt text: Workday report.
 
     10. In prompt section, select the highlighted effective date as prompt for effective as of date and then click on populate undefined prompt defaults check box.
 
-        ![Workday report.](../image/workday-report58.png)
+        \[Omitted image "workday-report58.png"\] Alt text: Workday report.
 
     11. Select the value of prompts as given below under Prompt default section.
 
         Make sure the Label For Prompt XML Alias of all prompt fields must be same as the image below.
 
-        ![Workday report.](../image/workday-report59.png)
+        \[Omitted image "workday-report59.png"\] Alt text: Workday report.
 
     12. In the advanced section, select **enable as webservice** and then click ok.
 
     13. Click on three dots icon and then go to **web services&gt; view URLs** option.
 
-        ![Workday report.](../image/workday-report60.png)
+        \[Omitted image "workday-report60.png"\] Alt text: Workday report.
 
     14. Select succession pool for which you want to run this report.
 
         If you want any specific worker from the succession pool, select worker otherwise leave it blank.
 
-        ![Workday report.](../image/workday-report61.png)
+        \[Omitted image "workday-report61.png"\] Alt text: Workday report.
 
     15. In the View URLs Web Service page, click on marked icon under CSV section.
 
         A new browser tab opens and you can see the RaaS URL of the report in new browser tab.
 
-        ![Workday report.](../image/workday-report62.png)
+        \[Omitted image "workday-report62.png"\] Alt text: Workday report.
 
 

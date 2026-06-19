@@ -2,6 +2,7 @@
 title: Learning External Content form
 description: Description of the field values in the Learning External Content form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-external-content-form.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -28,5 +29,5 @@ Description of the field values in the Learning External Content form.
 |Updated|Date and time when the course item was last updated.|
 |Estimated duration|Estimate of the total time that is taken to complete the course item.|
 
-**Parent Topic:**[Learning reference](learning-experience-reference.md)
+**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-experience-reference.md)
 

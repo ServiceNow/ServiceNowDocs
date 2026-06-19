@@ -2,6 +2,7 @@
 title: Connect Support chat states
 description: Connect Support chats move through specific states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/connect-support-chat-states.html
 release: australia
 product: Connect
 classification: connect
@@ -15,7 +16,7 @@ breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabil
 
 Connect Support chats move through specific states.
 
-![Connect Support states diagram showing the full cycle of states for a support conversation](../image/chat-support-states-diagram.png "Connect Support states diagram")
+\[Omitted image "chat-support-states-diagram.png"\] Alt text: Connect Support states diagram showing the full cycle of states for a support conversation
 
 <table id="table_pzw_hcl_rw"><thead><tr><th>
 

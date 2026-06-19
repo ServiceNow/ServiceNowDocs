@@ -2,6 +2,7 @@
 title: View test details
 description: View the results of an individual synthetic test run by a monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-test-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_sow\_synthetics.synthetics\_viewer, sn\_sow\_synthetics.synth
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Service Operations Workspace** and select the synthetic monitoring icon \(![Synthetic monitoring](../image/sys-mon-icon.png)\).
+1.  Navigate to **All** &gt; **Service Operations Workspace** and select the synthetic monitoring icon \(\[Omitted image "sys-mon-icon.png"\] Alt text: Synthetic monitoring\).
 
 2.  Select a monitor from the list of all monitors.
 
@@ -27,8 +28,8 @@ Role required: sn\_sow\_synthetics.synthetics\_viewer, sn\_sow\_synthetics.synth
 
     The modal displays information about the test including a response body. In this example, it shows that the request was sent to a bad gateway.
 
-    **Note:** If your monitor uses OAuth and a test fails with a 4xx error, it may be because your refresh token expired. Re-authenticate by visiting the OAuth credential page and clicking the credential link.
+    **Note:** If your monitor uses OAuth and a test fails, see [OAuth issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-oauth.md).
 
-    ![A modal displays information about the test including a response body that states that the request was to a bad gateway.](../image/sys-mon-failed_monitor.png)
+    \[Omitted image "sys-mon-failed\_monitor.png"\] Alt text: A modal displays information about the test including a response body that states that the request was to a bad gateway.
 
 

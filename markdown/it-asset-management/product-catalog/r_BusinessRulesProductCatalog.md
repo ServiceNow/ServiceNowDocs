@@ -2,6 +2,7 @@
 title: Business rules installed with Product Catalog
 description: Product Catalog plugin adds the following business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/r\_BusinessRulesProductCatalog.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -22,10 +23,10 @@ Product Catalog plugin adds the following business rules.
 |Sync to Product catalog item|\[pc\_vendor\_cat\_item\]|Updates the corresponding field in the product catalog when a field is updated.|
 |Sync to Product catalog item|\[cmdb\_model\]|Updates the corresponding field in the product catalog when a field is updated.|
 
-**Parent Topic:**[Components installed with Product Catalog](r_InstalledWithProductCatalog.md)
+**Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/r_InstalledWithProductCatalog.md)
 
 **Related topics**  
 
 
-[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md)
+[bundle-crapiref.c_BusinessRules]
 

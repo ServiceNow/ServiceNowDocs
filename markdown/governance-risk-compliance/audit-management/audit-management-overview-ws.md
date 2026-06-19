@@ -2,6 +2,7 @@
 title: Audit Workspace
 description: Audit workspace is a single-pane view for audit supervisor and auditor to view the overall audit timeline and status, track budget and resources for engagements, trace high priority observations and issues, and monitor ongoing control testing and audit task progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-management-overview-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

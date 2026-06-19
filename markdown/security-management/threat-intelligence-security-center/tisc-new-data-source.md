@@ -1,29 +1,32 @@
 ---
 title: Configure a new threat intelligence feed
-description: Add external threat intelligence sources to your TISC environment. Configure feed parameters, authentication, scheduling, and data processing to automatically ingest threat indicators from various sources.
+description: Configure a new threat intelligence feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-new-data-source.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2025-07-31"
+reading_time_minutes: 8
 breadcrumb: [Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure a new threat intelligence feed
 
-Add external threat intelligence sources to your TISC environment. Configure feed parameters, authentication, scheduling, and data processing to automatically ingest threat indicators from various sources.
+Configure a new threat intelligence feed.
 
 ## Before you begin
 
 Role required: sn\_sec\_tisc.admin
 
+To configure a new threat intelligence feed, follow the procedure:
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Select **Integrations** icon.
+2.  Click on **Integrations** icon.
 
 3.  Select **Threat Intel Feeds** &gt; **All Feeds**.
 
@@ -31,9 +34,9 @@ Role required: sn\_sec\_tisc.admin
 
     The various feed types are displayed.
 
-    ![Select Feed Type dialog showing feed options with MISP selected.](../image/tisc-all-feeds-new-source.png)
+    \[Omitted image "tisc-all-feeds-new-source.png"\] Alt text: TISC All Feeds - Configure new source
 
-5.  Select the required feed type.
+5.  Select the respective feed type.
 
 6.  On the form, fill in the fields.
 
@@ -51,7 +54,7 @@ Name
 
 </td><td>
 
-Name of the feed.
+Enter a name for the feed.
 
 </td></tr><tr><td>
 
@@ -75,7 +78,7 @@ Logo
 
 </td><td>
 
-Logo of the source feed.**Note:** The size must be 72px/72px.
+Attach the logo of the source feed.**Note:** The size should be 72px/72px.
 
 </td></tr><tr><td>
 
@@ -83,7 +86,7 @@ Industry
 
 </td><td>
 
-Industry category for which the feed is applicable, such as Aerospace or Agriculture.
+Select the industry category such as Aerospace, Agriculture, and so on for which the feed is applicable to.
 
 </td></tr><tr><td>
 
@@ -91,7 +94,7 @@ Source Type
 
 </td><td>
 
-Type of source. Available source types:-   Government
+Select the type of source from the list of available source types. List of available sources are:-   Government
 -   ISACs
 -   Open Source
 -   Premium Source
@@ -117,7 +120,7 @@ Expiry period \(days\)
 
 </td><td>
 
-Number of days before ingested feed data expires. For example, 180.**Note:** Ingested data from the source expires 180 days after ingestion.
+Enter the expiry period for the feed in days. For example, 180 days.**Note:** Data that is ingested from the source will be expired 180 days after the ingestion.
 
 </td></tr><tr><td>
 
@@ -125,7 +128,7 @@ Override Source Expiration
 
 </td><td>
 
-When selected, the profile configuration overrides the expiration time on incoming feed records.
+When enabled, the feed record received will have its expiration time overridden to match the profile’s configuration.
 
 </td></tr><tr><td>
 
@@ -133,7 +136,7 @@ Use REST Message
 
 </td><td>
 
-When selected, uses REST Message/REST Method functionality provided by ServiceNow AI Platform.When cleared, the application uses the endpoint provided in **REST Endpoint URL** to fetch the data from the feed. For more information, see [Outbound REST web service](https://servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/outbound-rest/concept/c_OutboundRESTWebService.html) on ServiceNow AI Platform documentation.
+Select **Use REST Message** check box if you need to use REST Message/REST Method functionality that is provided by ServiceNow AI Platform.If this check box is not selected, then the application uses the endpoint provided in **REST Endpoint URL** to fetch the data from the feed. For more information, see Outbound REST web service on ServiceNow AI Platform documentation.
 
 **Important:** The REST message and REST method fields are mandatory when you select REST message.
 
@@ -143,7 +146,7 @@ REST Message
 
 </td><td>
 
-REST Message record from the list of REST message records configured in the instance. For more information, see [Outbound REST web service](https://servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/outbound-rest/concept/c_OutboundRESTWebService.html) on the ServiceNow AI Platform documentation.**Note:** Use this value to view specific headers and define REST related records using the REST message option.
+Select the REST Message record from the list of REST message records which are already configured in the instance. For more information, see Outbound REST web service on the ServiceNow AI Platform documentation.**Note:** Select this value when you need to view specific headers, and define the REST related records using the REST message option.
 
 </td></tr><tr><td>
 
@@ -151,7 +154,7 @@ REST Method
 
 </td><td>
 
-REST Method from the list of available REST Methods configured for the selected REST Message. For more information, see [Outbound REST web service](https://servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/outbound-rest/concept/c_OutboundRESTWebService.html) on the ServiceNow AI Platform documentation.
+Select REST Method from the list of available REST Methods configured for the selected REST Message. For more information, see Outbound REST web service on the ServiceNow AI Platform documentation.
 
 </td></tr><tr><td>
 
@@ -159,7 +162,7 @@ REST endpoint URL
 
 </td><td>
 
-REST endpoint URL where the data is hosted by the threat intelligence feed.**Note:** For MISP feed types, the REST endpoint URLs that end with `/manifest.json` are only supported.
+Enter the REST endpoint URL where the data is hosted by the threat intelligence feed.**Note:** For MISP feed types, the REST endpoint URLs that end with `/manifest.json` are supported.
 
 </td></tr><tr><td>
 
@@ -167,7 +170,7 @@ Confidence
 
 </td><td>
 
-Confidence for all applicable records ingested through this specific feed.**Note:** Specify the confidence between 0-100 for this source.
+Set the confidence for all the applicable records that are ingested through this specific feed.**Note:** Set the confidence between 0-100 for this source.
 
 </td></tr><tr><td>
 
@@ -175,7 +178,7 @@ Override Source Confidence
 
 </td><td>
 
-When selected, the profile configuration overrides the feed's confidence value.
+When enabled, the feed will have its confidence value overridden to match the profile’s configuration.
 
 </td></tr><tr><td>
 
@@ -183,10 +186,12 @@ Data Parsing Mechanism
 
 </td><td>
 
-Data parsing mechanism. Available options:-   **Automated IoC Extraction**: This option is selected by default when configuring Text, CSV, or JSON feeds.
--   **Custom Field Mapping**: Use this option to define how specific fields in your feed data should be mapped to observable attributes.
+Select the appropriate data parsing mechanism option. The available options are:-   **Automated IoC Extraction**: This option is selected by default when configuring Text, CSV, or JSON feeds.
+-   **Custom Field Mapping**: Select this option if you want to define how the specific fields in your feed data should be mapped to the observable attributes.
 
-Once selected, you can configure the mappings in the **Field Mapping** section. For more detailed information on the custom field mapping, see [Configure Custom Field Mapping](tisc-field-mapping.md).
+Once selected, you can configure the mappings in the **Field Mapping** section. For more detailed information on the custom field mapping, see [Configure Custom Field Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-field-mapping.md).
+
+**Note:** The data parsing mechanism option is only available for Text, CSV, and JSON feeds, where the feeds **Report Processor** is set to `SimpleFeedDatasourceResponseProcessor`.
 
 </td></tr><tr><td>
 
@@ -194,7 +199,7 @@ Authentication Required
 
 </td><td>
 
-When selected, authentication is required for the new threat intelligence feed.**Note:** This is only applicable when REST Endpoint URL is being used to retrieve the data.
+Select this check box if authentication is required for your new threat intelligence feed.**Note:** This is only applicable when REST Endpoint URL is being used to retrieve the data.
 
 </td></tr><tr><td>
 
@@ -202,7 +207,7 @@ Authentication Type
 
 </td><td>
 
-Authentication type for the source feed. Available authentication types:-   API ID / API Key
+The authentication type for the source feed. Following are the authentication types that are configured and provisioned within the base system for the users:-   API ID / API Key
 -   API ID / API Secret
 -   API Key
 -   API Key / API Secret
@@ -227,7 +232,7 @@ Advanced
 
 </td><td>
 
-When selected, allows you to define custom integration script and report processor script.**Note:** When this check box is selected, the **Integration script** and **Report Processor** fields displays for you to select the custom scripts.
+Select this check box to define custom integration script and report processor script.**Note:** When you select this check box, the **Integration script** and **Report Processor** fields will appear for you to select the custom scripts.
 
 </td></tr><tr><td>
 
@@ -235,12 +240,12 @@ Integration script
 
 </td><td>
 
-Integration script invokes a call to the REST Endpoint URL using the authentication parameters and the headers as configured in the feed, and then the script fetches the data that is available from the specific feed.Available custom script includes for integration scripts:
+Integration script invokes a call to the REST Endpoint URL using the authentication parameters and the headers as configured in the feed, and then the script fetches the data that is available from the specific feed.Within the base system following are the custom scripts includes available, which are provisioned within the application for the integrations scripts:
 
--   MITRESourceIntegration: Used to fetch the data from MITRE feeds.
--   RSSFeedDatasourceIntegration: Used to fetch the data from RSS feeds.
--   SimpleFeedDatasourceIntegration: Used to fetch the data from Simple feeds without authentication or Basic Authentication.
--   SimpleMISPFeedDatasourceIntegration: Used to fetch the data from hosted MISP feeds.
+-   MITRESourceIntegration: Used for fetching the data from MITRE feeds.
+-   RSSFeedDatasourceIntegration: Used for fetching the data from RSS feeds.
+-   SimpleFeedDatasourceIntegration: Used for fetching the data from Simple feeds without authentication or Basic Authentication.
+-   SimpleMISPFeedDatasourceIntegration: Used for fetching the data from hosted MISP feeds.
 The default integration script is based on the feed type that you select. For example, if you select MISP feed type which is a standard format to process and fetch the data then the integrations script is **SimpleMISPFeedDatasourceIntegration**.
 
 **Note:**
@@ -255,20 +260,20 @@ Report processor
 
 The report processor script processes data fetched from the feed using the integration script.
 
- Available custom scripts for report processor:
+ The base system includes the following custom scripts, which are provisioned within the application to support report processor script:
 
--   AtomFeedDatasourceResponseProcessor: Used to process RSS feeds in Atom format.
--   MITRECollectionDataProcessor: Used to process MITRE feeds.
--   RSSFeedDatasourceResponseProcessor: Used to process RSS feeds.
--   SimpleDataplaneFeedResponseProcessor: Used to process Dataplane feeds.
--   SimpleFeedDatasourceResponseProcessor: Used to process Simple feeds using regular expression extraction of observables.
--   SimpleFeodotrackerFeedResponseProcessor: Used to process Feodotracker feeds.
--   SimpleMISPFeedDatasourceResponseProcessor: Used to process hosted MISP feeds.
--   TAXIIV2CollectionDataProcessor: Used to process TAXII Collection data.
+-   AtomFeedDatasourceResponseProcessor: Used for processing RSS feeds in Atom format.
+-   MITRECollectionDataProcessor: Used for processing MITRE feeds.
+-   RSSFeedDatasourceResponseProcessor: Used for processing RSS feeds.
+-   SimpleDataplaneFeedResponseProcessor: Used for processing Dataplane feeds.
+-   SimpleFeedDatasourceResponseProcessor: Used for processing Simple feeds using regular expression extraction of observables.
+-   SimpleFeodotrackerFeedResponseProcessor: Used for processing Feodotracker feeds.
+-   SimpleMISPFeedDatasourceResponseProcessor: Used for processing hosted MISP feeds.
+-   TAXIIV2CollectionDataProcessor: Used for processing TAXII Collection data.
  The default report processor for MISP feeds is `SimpleMISPFeedDatasourceResponseProcessor`. This processor is preconfigured by the application and cannot be modified or replaced.
 
 </td></tr></tbody>
-</table>9.  Fill in the fields in the **Scheduling** section, as appropriate.
+</table>9.  Fill in the fields in the Scheduling section, as appropriate.
 
 <table id="table_yt1_rrd_pyb"><thead><tr><th>
 
@@ -284,7 +289,7 @@ Run
 
 </td><td>
 
-Frequency at which to ingest the records. The feed ingestion runs job and executes based on the scheduled job interval. The available job intervals are:-   Daily
+Set the frequency at which you want to ingest the records. The feed will run and execute based on the scheduled job interval. The available job intervals are:-   Daily
 -   Weekly
 -   Monthly
 -   Periodically
@@ -294,7 +299,7 @@ Frequency at which to ingest the records. The feed ingestion runs job and execut
 -   Business Calendar: Entry End
 **Note:** By default, the frequency is set to On Demand.
 
- For more information, see [Scheduled Jobs and how to Automatically run a script of your choosing](https://servicenow.com/docs/bundle/vancouver-platform-administration/page/administer/reference-pages/task/t_ScheduleAScriptExecution.html).
+ For more information, see Scheduled Jobs and how to Automatically run a script of your choosing.
 
 </td></tr><tr><td>
 
@@ -302,29 +307,29 @@ Fetch Data From
 
 </td><td>
 
-Start date from which to fetch the data. Set this field to the time from which data should be ingested from the corresponding source. Once this value is set, the next ingestion run fetches the data from the configured time and consecutive ingestion runs fetch incremental data based on the Run frequency.For example, Source is scheduled to ingest the data every hour. The user sets **Fetch Data From** to Jan 12 6:00AM on Jan 12 9:30AM, the ingestion triggering on Jan 12 10:00AM would fetch the data from Jan 12 6:00AM to Jan 12 10:00AM. The next ingestion that triggers at 11:00AM would fetch only the incremental data from Jan 12 10:00AM to Jan 12 11:00AM.
+The start date from when the data needed to be fetched. This field should be set with the time from when the data needs to be ingested from the corresponding source. Once this value is s, the next ingestion run would fetch the data from the configured time and consecutive ingestion runs would fetch incremental Data based on the Run frequency?.For example, Source is scheduled to ingest the data every hour. The user sets **Fetch Data From** to Jan 12 6:00AM on Jan 12 9:30AM, the ingestion triggering on Jan 12 10:00AM would fetch the data from Jan 12 6:00AM to Jan 12 10:00AM. The next ingestion that triggers at 11:00AM would fetch only the incremental data from Jan 12 10:00AM to Jan 12 11:00AM.
 
 **Note:** This means the scheduled runs will fetch data incrementally starting from the specified date onwards.
 
-**Important:** The Fetch Data From field doesn't apply to Text, CSV, or JSON feeds.
+**Important:** Also, this is not applicable for Text, CSV, and JSON feeds.
 
 </td></tr></tbody>
 </table>    |Field|Description|
     |-----|-----------|
-    |Media URL|URL of the media source used to retrieve threat intelligence feed data.|
-    |Feed Comments URL|Link provided by the RSS source for comments.|
+    |Media URL|Indicates the feed URL.|
+    |Feed Comments URL|The link provided by the RSS source.|
 
     |Field|Description|
     |-----|-----------|
-    |Select TISC Tags|Tags to annotate or identify records ingested into the system from this source. Enter the tag name in the **Search** bar to choose available tags or enter a new tag name and select **Add** to assign it to the source.|
+    |Select TISC Tags|Use the tags to annotate or earmark records that are ingested into the system from this source. Start entering the tag name in the **Search** bar to choose the available tags in the application or enter new tag name and click **Add** to assign it to the source.|
 
 10. Select the **Save** action to store and create the feed.
 
-    The system validates the provided details, and by default the feed status is inactive.
+    The provided details are validated, and by default the feeds status is disabled.
 
 11. Select the **Save as Draft** action to only store the feed configurations as draft.
 
-    You cannot enable a feed when it is saved as draft. Use this option when you're unsure about the configuration details.
+    Users cannot enable a feed when it is saved in draft. i Use the **Save as Draft** option if you're unsure about the configuration details. After you get the configuration details, you can fill the remaining information in the draft version and create it.
 
 12. Select **Enable** to enable the record.
 
@@ -332,14 +337,14 @@ Start date from which to fetch the data. Set this field to the time from which d
 
     **Note:**
 
-    -   The threat intelligence feed record is labeled and indicated as enabled. Similarly, you can disable the threat intelligence feed by selecting **Disable** button.
+    -   The threat intelligence feed record is labeled and indicated as **enabled**. Similarly, you can disable the threat intelligence feed by clicking **Disable** button.
     -   You can also enable, disable, or delete a particular feed by using the **Actions** menu of the required feed tile on the **Catalog** or **Threat Intel Feeds** page.
-13. Select **Delete** to delete the threat intelligence feed record.
+13. Select select **Delete** to delete the threat intelligence feed record.
 
 14. Select **Integrations Run** section to verify the run details.
 
-    **Note:** This configuration procedure applies to all threat intelligence feed types except STIX TAXII. For more information on how STIX TAXII is configured, see [Configure a new TAXII Feed](tisc-configure-a-new-taxii-feed.md).
+    **Note:** The threat intelligence feed configuration procedure is same for all other threat intelligence feed types, except for STIX TAXII. For more information on how STIX TAXII is configured, see [Configure a new TAXII Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-configure-a-new-taxii-feed.md).
 
 
-**Parent Topic:**[Threat Intelligence Feeds](../concept/threat-intelligence-feeds.md)
+**Parent Topic:**[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)
 

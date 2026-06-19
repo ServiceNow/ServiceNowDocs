@@ -2,6 +2,7 @@
 title: Dashboard URL parameters
 description: Dashboard URL parameters allow you to control the visibility of headers and the breakdown sources of dashboards used in application pages.Use the sysparm\_group parameter to select the default value of the dashboard group on the Dashboards overview page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/dashboard-url-parameters.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -59,7 +60,7 @@ The sysparm\_group URL system parameter enables you to include a single dashboar
     Indicates whether the editing panel can be visible.
 
 
-**Parent Topic:**[Administering dashboards](../concept/c_DashboardAdministration.md)
+**Parent Topic:**[Administering dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_DashboardAdministration.md)
 
 ## Dashboards overview URL parameter
 

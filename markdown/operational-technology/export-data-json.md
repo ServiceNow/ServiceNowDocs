@@ -2,11 +2,14 @@
 title: Export data
 description: The Discovery Console for OT exports data as a JSON export file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/export-data-json.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Export data

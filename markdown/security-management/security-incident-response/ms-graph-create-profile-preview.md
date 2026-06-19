@@ -2,6 +2,7 @@
 title: Preview the security incident for the Microsoft Graph Security API integration
 description: After you complete the mapping step, preview the values that you mapped in a ServiceNow AI Platform SIR security incident. This preview step permits you to verify that you have mapped all the alert fields that you want displayed on the security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-create-profile-preview.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,21 +26,17 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
 ## Procedure
 
-1.  If the security incident preview is not displayed, click **Preview** in the progress bar.
+1.  If the security incident preview is not displayed, select **Preview** in the progress bar.
 
     All the ingested alerts and the field mappings defined in the Mapping page are displayed.
 
-2.  Click on an Alert ID to see a preview of the security incident.
+2.  Select on an Alert ID to see a preview of the security incident.
 
     This view is a read-only view, and a record of this security incident is not saved.
 
 3.  Review the field mapping of the alert values on the security incident.
 
-    ![Microsoft Graph Security API: preview profile](../image/ms-graph-create-profile-5.png)
-
-    The preceding image is an example of a preview with a mapping error of the samples that were ingested.
-
-4.  To resolve this error, click **Mapping** in the progress bar.
+4.  To resolve this error, select **Mapping** in the progress bar.
 
 5.  Edit the mapping to fix incorrect values or populate any missing data.
 
@@ -48,5 +45,5 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
 ## What to do next
 
-If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to define the schedule.
+If no error messages are displayed, and you're satisfied with the field mapping on the security incident, the next step is to define the schedule.
 

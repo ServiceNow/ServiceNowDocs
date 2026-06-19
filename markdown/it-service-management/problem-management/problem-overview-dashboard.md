@@ -2,6 +2,7 @@
 title: Legacy: Problem Overview dashboard
 description: This dashboard shows the current state of open problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-overview-dashboard.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -17,9 +18,9 @@ This dashboard shows the current state of open problems.
 
 **Important:**
 
-Starting in Xanadu release, the Problem overview dashboard is deprecated. Users can use [Problem dashboard](performance-analytics/problem.md) to view, and track the open problems.
+Starting in Xanadu release, the Problem overview dashboard is deprecated. Users can use [Problem dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem.md) to view, and track the open problems.
 
-![The Problem Overview dashboard showing all widgets and reports](../image/problem-overview.png)
+\[Omitted image "problem-overview.png"\] Alt text: The Problem Overview dashboard showing all widgets and reports
 
 ## End user and roles
 
@@ -47,7 +48,7 @@ Critical open problems
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -59,7 +60,7 @@ Unassigned problems
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -71,7 +72,7 @@ Overdue problems
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -83,7 +84,7 @@ Open problems
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -95,7 +96,7 @@ Problems not updated for 7 days
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -107,7 +108,7 @@ Open problems older than 30 days
 
 </td><td>
 
-Single Score ![single score icon](../../performance-analytics/image/single-score.png)
+Single Score \[Omitted image "single-score.png"\] Alt text: single score icon
 
 </td><td>
 
@@ -119,7 +120,7 @@ Open problems - Grouped
 
 </td><td>
 
-Horizontal Bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)
+Horizontal Bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon
 
 </td><td>
 
@@ -131,7 +132,7 @@ Open problems older than 30 days - Grouped
 
 </td><td>
 
-Horizontal Bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)
+Horizontal Bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon
 
 </td><td>
 
@@ -143,7 +144,7 @@ Problems by Priority and State
 
 </td><td>
 
-Heatmap ![Heatmap icon](../../performance-analytics/image/heatmap.png)
+Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 
 </td><td>
 
@@ -155,7 +156,7 @@ Open problems older than 30 days by Priority and State
 
 </td><td>
 
-Heatmap ![Heatmap icon](../../performance-analytics/image/heatmap.png)
+Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon
 
 </td><td>
 
@@ -167,7 +168,7 @@ Problems Opened per Week
 
 </td><td>
 
-Line![line trend icon](../../../reuse/reporting/image/line-trend.svg)
+Line\[Omitted image "line-trend.svg"\] Alt text: line trend icon
 
 </td><td>
 
@@ -179,7 +180,7 @@ Problems Closed per Week
 
 </td><td>
 
-Line![line trend icon](../../../reuse/reporting/image/line-trend.svg)
+Line\[Omitted image "line-trend.svg"\] Alt text: line trend icon
 
 </td><td>
 

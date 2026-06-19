@@ -2,6 +2,7 @@
 title: Set up the SumTotal spoke
 description: Integrate your ServiceNow instance with the SumTotal application host so the SumTotal spoke can perform actions on the SumTotal server.Integrate your ServiceNow instance with the SumTotal host by setting up the connection and credential record.Configure a connection to your SumTotal account. The SumTotal spoke connection and credential aliases use these connections to perform actions in the SumTotal application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sumtotal.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -38,7 +39,7 @@ Integrate your ServiceNow instance with the SumTotal host by setting up the conn
 
 The image provides the flow of creating a connection and credential record.
 
-![Flow to set up SumTotal connection and credential record.](../image/sumtotal-flow.png)
+\[Omitted image "sumtotal-flow.png"\] Alt text: Flow to set up SumTotal connection and credential record.
 
 ### Procedure
 
@@ -46,9 +47,9 @@ The image provides the flow of creating a connection and credential record.
 
 2.  Navigate to **ADMINISTRATION** &gt; **System** &gt; **Configuration** &gt; **Technical Configuration** &gt; **OAuth Configuration** &gt; **.**
 
-3.  On the OAUTH CLIENTS page, click **+Add**.![Add button to add OAuth client in SumTotal.](../image/sumtotal-add.png)
+3.  On the OAUTH CLIENTS page, click **+Add**.\[Omitted image "sumtotal-add.png"\] Alt text: Add button to add OAuth client in SumTotal.
 
-4.  In the EDIT page, enter the details.![SumTotal OAuth client setup page.](../image/sumtotal-edit.png)
+4.  In the EDIT page, enter the details.\[Omitted image "sumtotal-edit.png"\] Alt text: SumTotal OAuth client setup page.
 
 <table id="table_qj1_cxj_qwb"><thead><tr><th>
 
@@ -150,12 +151,12 @@ Role required: admin
 
     -   To configure the default connection and credential alias record that is shipped along with the SumTotal spoke, select**View Details**.
 
-        ![Connection for the SumTotal spoke](../image/sumtotal-spoke-tile.png)
+        \[Omitted image "sumtotal-spoke-tile.png"\] Alt text: Connection for the SumTotal spoke
 
-    -   To manage more than one Sumtotal spoke connection records, you should create child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Sumtotal spoke connection records, you should create child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
 
-    ![Initial connection configuration](../image/sumtotal-spoke-configure.png)
+    \[Omitted image "sumtotal-spoke-configure.png"\] Alt text: Initial connection configuration
 
 5.  In the form, fill these details.
 
@@ -216,7 +217,7 @@ OAuth Redirect URL
 OAuth callback endpoint in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`.
 
 </td></tr></tbody>
-</table>    ![Configure a connection for the SumTotal spoke](../image/sumtotal-spoke-conf-connection.png)
+</table>    \[Omitted image "sumtotal-spoke-conf-connection.png"\] Alt text: Configure a connection for the SumTotal spoke
 
 6.  Select **Save and Get OAuth Token**.
 

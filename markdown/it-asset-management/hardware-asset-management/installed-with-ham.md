@@ -2,13 +2,14 @@
 title: Installed with Hardware Asset Management
 description: Several types of components are installed with activation of the sn\_hamp plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/installed-with-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Hardware Asset Management reference, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reference, Hardware Asset Management, IT Asset Management]
 ---
 
 # Installed with Hardware Asset Management
@@ -797,5 +798,5 @@ RFID asset
 Stores the RFID information of assets.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+</table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

@@ -2,6 +2,7 @@
 title: Create the MID Server user and grant the role
 description: To communicate with the instance, MID Servers need a user ID and the appropriate role. Create the user ID for a MID Server and grant the ID the mid\_server role. To prevent MID Server validation failure, the system runs business rules to monitor the settings selected for MID Server users.Real-time system validation of MID Server role assignments prevents incompatible settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_SetupMIDServerRole.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -54,7 +55,7 @@ User ID
 
 </td><td>
 
-User name for the MID Server user. This name is specified in the **mid.instance.username** parameter of the configuration file that the MID Server installer creates. For details, see [MID Server parameters](../reference/mid-server-parameters.md#).
+User name for the MID Server user. This name is specified in the **mid.instance.username** parameter of the configuration file that the MID Server installer creates. For details, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
 
  **Note:** Avoid using the same MID Server logged in user across multiple MID Servers.
 
@@ -112,7 +113,7 @@ To prevent MID Server validation failure and ensure that your MID Server is conf
 
 The mid\_server role cannot be configured for elevated privileges. The **Invalid MID Server settings** business rule runs on the Role \[sys\_user\_role\] table and prevents the **elevated\_privileges** field from being set to true for the mid\_server role.
 
-![MID Server role](../image/ElevatedPrivilegeWarning.png "Warning for elevated privileges on the mid_server role")
+\[Omitted image "ElevatedPrivilegeWarning.png"\] Alt text: MID Server role
 
 ### Relationship table protection
 
@@ -122,7 +123,7 @@ The User Role \[sys\_user\_has\_role\] table creates the relationship between th
 
     The mid\_server and security\_admin roles are incompatible and cannot be assigned to the same user. The system determines the user's current role and runs the **Security Admin incompatible with MID** business rule on the User Role \[sys\_user\_has\_role\] table. This rule prevents an administrator from adding the security\_admin role for a user who currently has the mid\_server role.
 
-    ![Warnings for incompatible security_admin role assignment](../image/SecurityAdminRoleBlocked.png "Warnings for incompatible security_admin role assignment")
+    \[Omitted image "SecurityAdminRoleBlocked.png"\] Alt text: Warnings for incompatible security\_admin role assignment
 
 -   **Incompatible user role and user record settings**
 
@@ -131,5 +132,5 @@ The User Role \[sys\_user\_has\_role\] table creates the relationship between th
 
 ### What to do next
 
-[Download](t_DownloadMIDServerFiles.md) the MID Server files for your operating system.
+[Download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_DownloadMIDServerFiles.md) the MID Server files for your operating system.
 

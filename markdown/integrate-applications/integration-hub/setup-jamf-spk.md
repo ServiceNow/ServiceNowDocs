@@ -2,6 +2,7 @@
 title: Set up the Jamf spoke
 description: Integrate the ServiceNow instance and Jamf instance using the Jamf credential to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jamf-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -44,6 +45,6 @@ Integrate the ServiceNow instance and Jamf instance using the Jamf credential to
 
     **Note:** If required, you can get token and revoke token by creating a new credential record for the default connection ad credential alias record.
 
-    ![Get and revoke token.](../image/csd2-jamf-cred2.png)
+    \[Omitted image "csd2-jamf-cred2.png"\] Alt text: Get and revoke token.
 
 

@@ -2,6 +2,7 @@
 title: Install the Edge Encryption proxy server \(interactive installer\)
 description: Install the Edge Encryption proxy on a Windows or Linux computer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/install-proxy.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -21,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  [Download the Edge Encryption proxy server installer](t_DownloadtheProxy.md).
+1.  [Download the Edge Encryption proxy server installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_DownloadtheProxy.md).
 
 2.  Open the Edge Encryption proxy installer.
 
@@ -33,7 +34,7 @@ Role required: admin
 
     3.  Run the following command: `java -jar <file name>.jar`.
 
-    ![ServiceNow Edge Encryption proxy installer](../images/Madrid-Edge-Installer-1.png "ServiceNow Edge Encryption proxy installer")
+    \[Omitted image "Madrid-Edge-Installer-1.png"\] Alt text: ServiceNow Edge Encryption proxy installer
 
 3.  To install a new proxy server, select **Install New**.
 
@@ -121,9 +122,9 @@ Time in seconds between pings issued by the proxy to the instance. Pings are iss
     The Edge Encryption proxy server installs. The installation may take a few minutes.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Install the Edge Encryption proxy server using the interactive installer](proxy-installer.md)
+**Previous topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
 
-**Next topic:**[Configure CyberArk properties protection](configure-cyberark-prop-protection.md)
+**Next topic:**[Configure CyberArk properties protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/configure-cyberark-prop-protection.md)
 

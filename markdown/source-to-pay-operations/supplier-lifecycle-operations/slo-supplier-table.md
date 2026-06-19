@@ -2,6 +2,7 @@
 title: Supplier table
 description: The Supplier \[sn\_fin\_supplier\] table stores important information about a supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-supplier-table.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -416,7 +417,7 @@ String
 Number to which documents can be faxed to the supplier.
 
 </td></tr></tbody>
-</table>For more information, see [Supplier Lifecycle Operations data model](slo-data-model.md).
+</table>For more information, see [Supplier Lifecycle Operations data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/slo-data-model.md).
 
-**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

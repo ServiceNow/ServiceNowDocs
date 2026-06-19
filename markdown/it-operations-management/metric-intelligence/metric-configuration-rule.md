@@ -2,6 +2,7 @@
 title: Metric Configuration Rules
 description: Metric configuration rules enable you to determine how incoming metrics from the Agent Client Collector are to be processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/metric-configuration-rule.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -25,7 +26,7 @@ If you do not trigger the rule execution, retroactive overriding of the **Anomal
 
 When configuring a metric configuration rule, rules with a filter run before rules with no filter. When multiple rules have the same priority, the most recently configured rule runs first.
 
-For details on creating configuration settings rules, see [Create a configuration settings rule](../../event-management/task/create-config-overriding-rule.md).
+For details on creating configuration settings rules, see [Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-config-overriding-rule.md).
 
-For details on the available anomaly detection action levels, see [Configure the action level for anomaly detection](../../event-management/concept/configure-level-anomaly-detection.md).
+For details on the available anomaly detection action levels, see [Configure the action level for anomaly detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-level-anomaly-detection.md).
 

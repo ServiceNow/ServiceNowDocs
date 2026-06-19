@@ -2,6 +2,7 @@
 title: CDM system properties
 description: CDM system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-system-properties.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,7 +16,7 @@ breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 
 CDM system properties.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 ## CDM system properties
 

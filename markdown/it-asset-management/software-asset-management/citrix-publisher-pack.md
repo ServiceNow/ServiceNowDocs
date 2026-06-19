@@ -2,6 +2,7 @@
 title: Software Asset Management publisher pack for Citrix
 description: Use the Citrix publisher pack for the optimization and reconciliation of your Citrix products. You can track licensing positions for your Citrix users and devices so that you can determine your license compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/citrix-publisher-pack.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -15,13 +16,13 @@ breadcrumb: [Supported software publisher licenses, Software Asset Management, I
 
 Use the Citrix publisher pack for the optimization and reconciliation of your Citrix products. You can track licensing positions for your Citrix users and devices so that you can determine your license compliance.
 
-To use the Citrix publisher pack, activate the Software Asset Management Professional for Citrix plugin \(com.sn\_samp\_citrix\). For details, see [Request Software Asset Management](../task/t_RequSoftwareAssetMgmt.md).
+To use the Citrix publisher pack, activate the Software Asset Management Professional for Citrix plugin \(com.sn\_samp\_citrix\). For details, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 The Citrix publisher pack supports Virtual Applications products \(formerly XenApp\) and Virtual Desktop products \(formerly XenDesktop\). Using this publisher pack, you can manage licenses and determine the license compliance for your Citrix products. You can gain visibility into the third-party applications that are delivered through your virtual applications and desktops. You can also gain visibility into the users that may potentially access those applications.
 
 Use the ServiceNow® Discovery application to collect data from Citrix. The license consumption data for your Citrix products is collected from the Citrix License Server.
 
-Discovery uses OData APIs to identify the third-party applications that are delivered through your Citrix farm from the Citrix Delivery Controller. Use this information to create software installation records and track license usage for these applications. To identify these applications, admins must create a [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to run on the Citrix discovery pattern. See [Citrix License Server and Delivery Controller discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/citrix-lic-server-deliv-controller.md) for more details on the Citrix discovery pattern and tables.
+Discovery uses OData APIs to identify the third-party applications that are delivered through your Citrix farm from the Citrix Delivery Controller. Use this information to create software installation records and track license usage for these applications. To identify these applications, admins must create a Discovery schedule to run on the Citrix discovery pattern. See Citrix License Server and Delivery Controller discovery for more details on the Citrix discovery pattern and tables.
 
 ## Citrix licensing models
 
@@ -38,7 +39,7 @@ The Citrix publisher pack supports the following Citrix licensing models:
 
 The architecture for Citrix licenses is shown in the following figure:
 
-![Citrix license architecture.](../image/citrix-architecture.png)
+\[Omitted image "citrix-architecture.png"\] Alt text: Citrix license architecture.
 
 Licensing for third-party applications that are delivered through Citrix virtualization technologies is based on potential access. Any user or device can consume a license as long as they have the potential to access an application or desktop deployed in a virtual Citrix environment. You can control access to these applications and desktops by using Delivery Groups and Application Groups:
 
@@ -53,14 +54,14 @@ Licensing for third-party applications that are delivered through Citrix virtual
 
 Refer to the [Citrix product documentation](https://docs.citrix.com/) for more information on Citrix deployment guidelines and recommendations. Use this information to determine whether you should map your users at the Delivery Group level or at the Application Group level. If you map users at both levels, Software Asset Management considers mappings at only the Application Group level.
 
-You can view your Citrix license usage data from the [Software Publisher Analytics dashboard for Citrix](../reference/dashboard-citrix.md). Use this data to optimize your license position by reclaiming any unused or unauthorized licenses.
+You can view your Citrix license usage data from the [Software Publisher Analytics dashboard for Citrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/dashboard-citrix.md). Use this data to optimize your license position by reclaiming any unused or unauthorized licenses.
 
--   **[Create entitlements for Citrix](../task/create-entitlement-citrix.md)**  
+-   **[Create entitlements for Citrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlement-citrix.md)**  
 Software entitlements enable you to define license details that are matched to software models. You can add an entitlement individually or import a list from a spreadsheet.
--   **[Software Publisher Analytics dashboard for Citrix in Software Asset Management classic](../reference/dashboard-citrix.md)**  
+-   **[Software Publisher Analytics dashboard for Citrix in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/dashboard-citrix.md)**  
 View compliance analysis results for Citrix on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
--   **[Publisher overview for Citrix Systems in the Software Asset Workspace](../reference/publisher-overview-citrix.md)**  
+-   **[Publisher overview for Citrix Systems in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/publisher-overview-citrix.md)**  
 View license usage information related to Citrix in the publisher overview for Citrix Systems in the Software Asset Workspace.
 
-**Parent Topic:**[Supported software publisher licenses](sam-publisher-packs.md)
+**Parent Topic:**[Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-publisher-packs.md)
 

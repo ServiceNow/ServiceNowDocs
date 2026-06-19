@@ -1,19 +1,21 @@
 ---
 title: Import data into invoice
-description: You can import bulk data through transform map using excel file.
+description: Import bulk invoice data into Accounts Payable Operations using a transform map and Excel file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/import-external-data-into-invoice.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, invoice automation]
 breadcrumb: [Accounts Payable Operations integration framework, Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Import data into invoice
 
-You can import bulk data through transform map using excel file.
+Import bulk invoice data into Accounts Payable Operations using a transform map and Excel file.
 
 ## Before you begin
 
@@ -29,7 +31,7 @@ Role required: admin
 
 4.  Select **Import**.
 
-    The **Import external data into Invoice Import** page appears. For more information on importing data through transform map, see [Run transform to update invoice data](run-transform.md).
+    The **Import external data into Invoice Import** page appears. For more information on importing data through transform map, see [Run transform to update invoice data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/run-transform.md).
 
     **Note:** Follow the same steps for invoice lines and invoice payment.
 

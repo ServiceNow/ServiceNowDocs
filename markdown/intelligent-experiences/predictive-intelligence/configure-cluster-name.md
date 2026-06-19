@@ -2,6 +2,7 @@
 title: Assign a name to a cluster
 description: Name your clusters to help identify and organize them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-cluster-name.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -30,7 +31,7 @@ Name your clusters to help identify and organize them.
 
 4.  Enter a name in the **Cluster Name** field.
 
-    ![Cluster Name field on the Cluster Summary form.](../images/cluster_name.png)
+    \[Omitted image "cluster\_name.png"\] Alt text: Cluster Name field on the Cluster Summary form.
 
 5.  Select **Update**.
 

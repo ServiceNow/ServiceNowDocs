@@ -2,6 +2,7 @@
 title: Configure action types
 description: Configure action types based on the behavior action as an action type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-action-types.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

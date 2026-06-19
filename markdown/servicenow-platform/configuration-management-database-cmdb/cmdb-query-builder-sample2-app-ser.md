@@ -2,6 +2,7 @@
 title: CMDB — Application services with incident or change
 description: Use this example to build a CMDB query to find all application services for which there is an incident or a change request. Results are returned for either the application service itself or any CI within the service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-sample2-app-ser.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

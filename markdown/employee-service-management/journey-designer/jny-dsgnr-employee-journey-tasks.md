@@ -2,6 +2,7 @@
 title: Employees view and complete journeys
 description: Employees have access to the journeys that are assigned to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-employee-journey-tasks.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -49,10 +50,10 @@ Any employee assigned to a journey can view the journey to complete tasks that a
     |Overdue|Manager|No|Yes|No|Yes|This journey is overdue because some tasks haven't been completed. You may not be able to see them because they are assigned to other people.|
 
 
--   **[Configure task count for your next tasks widget](configure-next-tasks-widget.md)**  
+-   **[Configure task count for your next tasks widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/configure-next-tasks-widget.md)**  
 You can configure how many tasks you want to see in your next tasks widget.
--   **[View and update your next tasks](view-your-next-tasks-jd.md)**  
+-   **[View and update your next tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/view-your-next-tasks-jd.md)**  
 View your next tasks using the **Your next tasks** widget on the My journeys page to understand the next steps in your journey.
 
-**Parent Topic:**[Journey view for an employee](view-journey-overview.md)
+**Parent Topic:**[Journey view for an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/view-journey-overview.md)
 

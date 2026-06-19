@@ -2,6 +2,7 @@
 title: JsonNode
 description: A global object that provides methods to iterate over the JSON content.Returns a JsonNodeIterator object for the JSON content.Returns a JsonNodeIterator object that iterates over all child nodes of the current node.Returns the current node value as a string.Returns the string value of the specified property.Returns the name of the current JSON node.Specifies that the JSON property maps to the specified field in the specified table.Specifies that the value of the JSON property is an encoded query for the specified table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_JsonNodeAPI.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -15,11 +16,11 @@ breadcrumb: [JSON APIs, Encryption rule objects and APIs, Define a custom encryp
 
 A global object that provides methods to iterate over the JSON content.
 
-You can access a JsonNode object by calling [getAsJsonContent\(\)](c_requestAPI.md#) on a request object.
+You can access a JsonNode object by calling [getAsJsonContent\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_requestAPI.md) on a request object.
 
-You access JSON content from a [POST or URL parameter](param-apis.md#) by calling `request.postParms.<parameter name>.getAsJsonContent()` or `request.urlParms.<parameter name>.getAsJsonContent()`.
+You access JSON content from a [POST or URL parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/param-apis.md) by calling `request.postParms.<parameter name>.getAsJsonContent()` or `request.urlParms.<parameter name>.getAsJsonContent()`.
 
-**Parent Topic:**[JSON APIs](json-overview.md)
+**Parent Topic:**[JSON APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/json-overview.md)
 
 ## JsonNode - getIterator\(String xPath\)
 
@@ -87,7 +88,7 @@ Returns the name of the current JSON node.
 
 Specifies that the JSON property maps to the specified field in the specified table.
 
-Calling this method on a JSON property tells the proxy that the value for this property maps to the specified field in the specified table. The proxy then decides if the field must be encrypted. If the table and field names are unknown, you can call the valueFor\(\) method on a table and a field that are [dynamically assigned](json-overview.md#json-dynamic) based on the request.
+Calling this method on a JSON property tells the proxy that the value for this property maps to the specified field in the specified table. The proxy then decides if the field must be encrypted. If the table and field names are unknown, you can call the valueFor\(\) method on a table and a field that are [dynamically assigned](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/json-overview.md) based on the request.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -102,7 +103,7 @@ Calling this method on a JSON property tells the proxy that the value for this p
 
 Specifies that the value of the JSON property is an encoded query for the specified table.
 
-Calling this function on a JSON node tells the proxy that the value is an [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) for the specified table. The proxy parses the encoded query and encrypts the values for fields in the encoded query that must be encrypted.
+Calling this function on a JSON node tells the proxy that the value is an Encoded query strings for the specified table. The proxy parses the encoded query and encrypts the values for fields in the encoded query that must be encrypted.
 
 |Name|Type|Description|
 |----|----|-----------|

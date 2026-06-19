@@ -2,6 +2,7 @@
 title: View catalog tasks
 description: View a catalog task and add comments to it as part of the catalog item fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/catalog-tasks.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -19,7 +20,7 @@ A catalog task is a task that is associated with the service catalog item. Catal
 
 Tap on the card to access all the catalog tasks assigned to you.
 
-1.  You can [filter](../task/filter-records-agent-mobile.md) the list according to your set criteria.
+1.  You can [filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) the list according to your set criteria.
 2.  Swipe left to add comments or close the task.
 3.  On the **Catalog tasks** screen, tap on any task to view the details or activity of the catalog task. You can only add comments from this screen.
 

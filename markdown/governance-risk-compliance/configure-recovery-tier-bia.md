@@ -2,6 +2,7 @@
 title: Configure recovery tier for impact assessment
 description: Configure and use recovery tier to assign a single recovery time and name to a similar range of recovery time objective \(RTO\) values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-recovery-tier-bia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

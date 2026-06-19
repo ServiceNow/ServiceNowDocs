@@ -2,6 +2,7 @@
 title: Monitor and manage CAM tasks
 description: Use the Tasks page to address the approvals, control attestations, and all other items that are assigned to you and to your group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/tasks-page-cam-ws.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -33,13 +34,13 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace** and then select the tasks icon \(![Tasks icon.](../../grc-workspace-audit/image/TasksIcon.jpg)\).
+1.  Navigate to **All** &gt; **CAM Workspace** and then select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
 
 2.  Navigate to the appropriate tab.
 
     **Note:** When a user or user group doesn’t have pending or associated tasks, the `All your tasks are done` message appears for the tab.
 
-    ![Tasks page of the CAM Workspace.](../image/cam-ws-tasks-page.png)
+    \[Omitted image "cam-ws-tasks-page.png"\] Alt text: Tasks page of the CAM Workspace.
 
     -   **My pending tasks**
 
@@ -64,5 +65,5 @@ Role required:
         Mark sensitive records as confidential and verify that the appropriate people have access to these records. The **Confidential records** tab configuration displays the confidential records for the selected table.
 
 
-**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](../concept/cam-ws-continuous-auth-monitor.md)
+**Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

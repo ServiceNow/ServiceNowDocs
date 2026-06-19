@@ -2,6 +2,7 @@
 title: Exploring System Update Sets
 description: An update set is a group of configuration changes that can be moved from one instance to another. Update sets enable developers to create functionality on a non-production instance, and promote the changes to another instance for testing or deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/exploring-system-update-sets.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -54,7 +55,7 @@ Creates update sets for specific versions of an application and specifies which 
 
 A common process for developing customizations with update sets involves moving changes from development to test and production instances.
 
-![Three-step import process for update set workflow.](../image/update-sets-workflow.png "Three-step import process")
+\[Omitted image "update-sets-workflow.png"\] Alt text: Three-step import process for update set workflow.
 
 1.  Create an update set on the development instance.
 2.  Make customizations and changes on the development instance.
@@ -67,7 +68,7 @@ A common process for developing customizations with update sets involves moving 
 
 If your development environment consists of only two instances, you can combine your development and testing instances into a single staging instance.
 
-![Two-step import process for update set workflow.](../image/update-sets-workflow-2.png "Two-step import process")
+\[Omitted image "update-sets-workflow-2.png"\] Alt text: Two-step import process for update set workflow.
 
 1.  Create an update set on the staging instance.
 2.  Make customizations and changes on the staging instance.
@@ -81,16 +82,16 @@ If your development environment consists of only two instances, you can combine 
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Create an update set to store local changes.|[Create and select an update set as the current set](../task/create-select-update-set.md)|Developer|
-|Select the current update set to store local changes.|[Select the current update set in Unified Navigation](../task/select-update-set-system-settings.md)|Admin|
-|Commit an update set to prepare it for distribution.|[Commit an update set](../task/t_CommitAnUpdateSet.md)|Admin|
-|Compare update sets to determine what differences they contain.|[Compare local update sets](../task/t_CompareLocalUpdateSets.md)|Admin|
-|Create an external file from an update set.|[Save an update set as a local XML file](../task/t_SaveAnUpdateSetAsAnXMLFile.md#)|Admin|
-|Retrieve update sets from remote instances.|[Retrieve an update set](../task/t_RetrieveAnUpdateSet.md)|Admin|
-|Back out changes applied from an update set.|[Back out an update set](../task/t_BackOutUpdateSet.md)|Admin|
-|Set system properties related to update sets.|[Update sets properties](../reference/update-sets-properties.md)|Admin|
-|Track customizations to application tables, fields, and records.|[Customizations tracked by update sets](../reference/customizations-tracked-update-sets.md)|Admin|
-|Batch update sets together so you can preview and commit them in bulk.|[Working with batched update sets](../hier-update-sets/concept/us-hier-overview.md)|Admin|
+|Create an update set to store local changes.|[Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/create-select-update-set.md)|Developer|
+|Select the current update set to store local changes.|[Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/select-update-set-system-settings.md)|Admin|
+|Commit an update set to prepare it for distribution.|[Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md)|Admin|
+|Compare update sets to determine what differences they contain.|[Compare local update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CompareLocalUpdateSets.md)|Admin|
+|Create an external file from an update set.|[Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md)|Admin|
+|Retrieve update sets from remote instances.|[Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md)|Admin|
+|Back out changes applied from an update set.|[Back out an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_BackOutUpdateSet.md)|Admin|
+|Set system properties related to update sets.|[Update sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-sets-properties.md)|Admin|
+|Track customizations to application tables, fields, and records.|[Customizations tracked by update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/customizations-tracked-update-sets.md)|Admin|
+|Batch update sets together so you can preview and commit them in bulk.|[Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/us-hier-overview.md)|Admin|
 
 ## Use cases
 
@@ -112,8 +113,8 @@ Choose update sets or the application repository depending on the result that yo
 
 To learn more about configuring, using, and managing system update sets see:
 
--   [Configuring System Update Sets](configure-system-update-sets.md)
--   [Working with update sets](using-system-update-sets.md)
--   [Working with batched update sets](../hier-update-sets/concept/us-hier-overview.md)
--   [Update set transfers](../reference/update-set-transfers.md)
+-   [Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/configure-system-update-sets.md)
+-   [Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
+-   [Working with batched update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/us-hier-overview.md)
+-   [Update set transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-set-transfers.md)
 

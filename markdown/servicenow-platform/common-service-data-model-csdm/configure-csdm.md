@@ -2,6 +2,7 @@
 title: Configuring CSDM
 description: Activate and configure CSDM capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/configure-csdm.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -18,12 +19,12 @@ Activate and configure CSDM capabilities.
 
 ## Configuration overview
 
--   **[Activate the CSDM plugin](../task/csdm-enable.md)**  
+-   **[Activate the CSDM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-enable.md)**  
 Activate the CSDM plugin so you can begin implementing the CSDM data model.
--   **[Configure the CSDM Data Foundations dashboard](../task/csdm-foundations-dashboard.md)**  
+-   **[Configure the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-foundations-dashboard.md)**  
 Use the CSDM Data Foundations dashboard to monitor and evaluate key foundational metrics of the CSDM framework.
--   **[Migrate and synchronize existing data to the CSDM framework](../task/migrate.md)**  
+-   **[Migrate and synchronize existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/migrate.md)**  
 You complete several tasks to confirm that your existing application data migrates successfully to the required tables in the CMDB.
 
-**Parent Topic:**[Common Service Data Model](csdm-landing-page.md)
+**Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

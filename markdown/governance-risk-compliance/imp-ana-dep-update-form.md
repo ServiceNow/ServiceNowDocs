@@ -2,6 +2,7 @@
 title: Impact analysis dependency update configuration form
 description: Use the Impact analysis dependency update configuration form to configure the details of the dependency updates such as the BIA record name, target records, sources, and notification preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/imp-ana-dep-update-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -34,5 +35,5 @@ For the description of the field values, see the table.
 |Send notification|Option to notify the users or user groups on the updates.|
 |Users/groups in fields|Option to select the users or groups fields in sn\_bia\_analysis who should receive a notification about the updates. For example, you can select the BIA owner and BCM lead to receive the updates.|
 
-**Parent Topic:**[Set up Impact analysis dependency update configuration](../task/configure-imp-ana-dep-update-module.md)
+**Parent Topic:**[Set up Impact analysis dependency update configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-imp-ana-dep-update-module.md)
 

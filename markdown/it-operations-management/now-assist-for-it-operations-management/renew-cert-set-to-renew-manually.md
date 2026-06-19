@@ -2,6 +2,7 @@
 title: Use Now Assist to renew a certificate set to renew manually
 description: Use the Now Assist certificate renewal AI agent to immediately renew certificates set to renew manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/renew-cert-set-to-renew-manually.html
 release: australia
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -19,8 +20,8 @@ Use the Now Assist certificate renewal AI agent to immediately renew certificate
 
 Complete the following steps to configure your system for the Now Assist certificate renewal AI agent:
 
-1.  [Configure your MID Server for automatic certificate renewal](configure-mid-server-automatic-cert-renewal.md)
-2.  [Add the required applications and capabilities to your MID Server](add-req-apps-capabilities-to-mid-server.md)
+1.  [Configure the MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
+2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
 
 Role required: sn\_disco\_certmgmt.pki\_admin
 
@@ -38,7 +39,7 @@ Find tasks that require you to renew your certificates manually and renew them i
 
 4.  Select the number of the renewal task that you want to auto-renew.
 
-5.  In the **Unique Certificate** field, select the search icon ![](../../service-operations-workspace-itom/image/icon-information-1.png).
+5.  In the **Unique Certificate** field, select the search icon \[Omitted image "icon-information-1.png"\] Alt text:.
 
     **Note:** Selecting the icon opens the certificate record.
 

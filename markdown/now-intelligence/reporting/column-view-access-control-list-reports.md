@@ -2,6 +2,7 @@
 title: Column view access control for list reports
 description: For list reports, the glide.report.add\_to\_list\_supported system property enables the add\_to\_list access control list. This access control list \(ACL\) prevents users from reporting on list report columns with sensitive data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/column-view-access-control-list-reports.html
 release: australia
 product: Reporting
 classification: reporting
@@ -25,10 +26,10 @@ This property is inactive by default. To enable it, navigate to **sys\_propertie
 
 After you enable the property, existing reports aren't affected. Columns are only invisible on newly created list reports with fields that you specify as restricted.
 
-**Parent Topic:**[Administering reports](c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 
 **Related topics**  
 
 
-[ACL rule types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-rule-types.md)
+[bundle-psec.acl-rule-types]
 

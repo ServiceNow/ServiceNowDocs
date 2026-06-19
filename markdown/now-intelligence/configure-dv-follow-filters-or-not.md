@@ -2,6 +2,7 @@
 title: Configure a data visualization to follow filters or not
 description: Data visualizations follow filters by default. A data visualization follows filters in the same dashboard tab as itself or above the tabs. Data visualizations either follow all such tabs that target their data sources, or none.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-dv-follow-filters-or-not.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,10 +28,10 @@ Role required: You can edit any data visualization you own unless it is a shared
     -   If in a dashboard, select **Edit** on the dashboard, focus on the desired data visualization, and select **Configure** in the visualization header menu.
 3.  In the Data update section, select or deselect **Follow filters**.
 
-4.  To show or not show a filter icon \(![Filter icon](../../dashboards/image/InteractiveFilterFilteringIcon.png)\) on the data visualization when it follows an interactive filter, toggle **Show filter icon** \(on by default\).
+4.  To show or not show a filter icon \(\[Omitted image "InteractiveFilterFilteringIcon.png"\] Alt text: Filter icon\) on the data visualization when it follows an interactive filter, toggle **Show filter icon** \(on by default\).
 
-    ![Element configuration- Data update section](../../dashboards/image/db-config-data-update-ac.png)
+    \[Omitted image "db-config-data-update-ac.png"\] Alt text: Element configuration- Data update section
 
 
-**Parent Topic:**[Configure data visualizations](../../performance-analytics/concept/configure-data-visualizations.md)
+**Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-data-visualizations.md)
 

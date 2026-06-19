@@ -2,6 +2,7 @@
 title: Create a control objective
 description: A control objective is an objective, direction, or standard that acts as guidance for company interactions and operations. Control objectives can be categorized, classified, and related to policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/t\_CreateAPolicyStatement-2.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -21,7 +22,7 @@ Role required: sn\_compliance.admin, sn\_compliance.manager, sn\_compliance.user
 
 ## About this task
 
-To understand the difference between a control objective and a control, see [Structural overview of Policy and Compliance Management](../concept/pc-structural-overview-policy-comp.md).
+To understand the difference between a control objective and a control, see [Structural overview of Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/pc-structural-overview-policy-comp.md).
 
 ## Procedure
 
@@ -210,9 +211,9 @@ Description of the control objective.
 
 ## What to do next
 
-If you are implementing the [Policy and Compliance Management](../../grc-policy-compliance-implementation/task/policy-compliance-impl-checklist.md) software, return to the [Policy and Compliance Management setup checklist](../../grc-policy-compliance-implementation/task/policy-compliance-impl-checklist.md) and proceed to the next step.
+If you are implementing the [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) software, return to the [Policy and Compliance Management setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-checklist.md) and proceed to the next step.
 
-**Parent Topic:**[Policy and Compliance Management mandatory setup](../../grc-policy-compliance-implementation/concept/policy-compliance-mandatory-setup.md)
+**Parent Topic:**[Policy and Compliance Management mandatory setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-mandatory-setup.md)
 
-**Parent Topic:**[Manage control objectives and policies](../reference/r_PoliciesAndProcedures.md)
+**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

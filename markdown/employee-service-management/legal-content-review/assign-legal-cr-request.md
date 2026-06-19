@@ -2,6 +2,7 @@
 title: Assign a Legal Content Review request
 description: Assign a Legal Content Review request to yourself or to someone in your assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-content-review/assign-legal-cr-request.html
 release: australia
 product: Legal Content Review
 classification: legal-content-review
@@ -21,7 +22,7 @@ Role required: sn\_lg\_cont\_review.content\_fulfiller
 
 ## About this task
 
-When an employee submits a legal request, it's automatically assigned to a group or user in the legal department based on the assignment rules configured for the intake form of the associated practice area. If the request is assigned to a legal group, any member from the group can assign the request to themselves or assign it to another member of the group. For more information, see [Assignment rule to automatically assign legal requests or matters](../../legal-request-management/task/create-assignment-rules-intake-form.md).
+When an employee submits a legal request, it's automatically assigned to a group or user in the legal department based on the assignment rules configured for the intake form of the associated practice area. If the request is assigned to a legal group, any member from the group can assign the request to themselves or assign it to another member of the group. For more information, see [Assignment rule to automatically assign legal requests or matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-assignment-rules-intake-form.md).
 
 The Assignment group permission level must be Read or Edit to view or change the permission level of the legal request for the users. By default, the permission level is set to Read. To change it to Edit, first select **Assign to me**.
 
@@ -29,7 +30,7 @@ The Assignment group permission level must be Read or Edit to view or change the
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Legal Requests** field, select **Unassigned**.
 
@@ -55,7 +56,7 @@ The state of the request updates to Assigned.
 
 ## What to do next
 
-The assigned user can start working on the legal request. For more information, see [Work on a legal request](../../legal-request-management/task/work-on-legal-request.md).
+The assigned user can start working on the legal request. For more information, see [Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/work-on-legal-request.md).
 
-**Parent Topic:**[Legal Content Review requests](../concept/legal-content-review-requests.md)
+**Parent Topic:**[Legal Content Review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-content-review/legal-content-review-requests.md)
 

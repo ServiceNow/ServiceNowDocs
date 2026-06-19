@@ -2,6 +2,7 @@
 title: Contextual actions for Alexa
 description: Use the contextual actions supported by Conversational Integration with Alexa to receive an appropriate response during custom chat integrations with Alexa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/alexa-contextual-actions.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -41,5 +42,5 @@ You can type `restart` or speak this command anywhere in the middle of a convers
 
 **Note:** For excluding contextual actions Logout/Notifications for Alexa, you must add the records to the Excluded channel table \[sys\_cs\_contextual\_action\_excluded\_channel\].
 
-**Parent Topic:**[Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](../concept/va-settings-for-alexa.md)
+**Parent Topic:**[Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-settings-for-alexa.md)
 

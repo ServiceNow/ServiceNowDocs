@@ -2,11 +2,12 @@
 title: Map detection fields
 description: Map the individual CrowdStrike Next-Gen detection fields to the fields on the SIR security incident so that you can create detections with the mapped data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/map-crowdstrike-next-gen-inc.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 7
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -56,7 +57,7 @@ Use this ingestion method to import the most recent Detections and entities data
 </td></tr></tbody>
 </table>2.  To add fields to the default fields that are displayed on the security incident, do the following actions:
 
-    1.  On the SIR Incident Target Fields section, select the ![Map another field button.](../../secops-integration-ms-azure-sentinel/image/sentinel-map-button.png) Map another field button.
+    1.  On the SIR Incident Target Fields section, select the \[Omitted image "sentinel-map-button.png"\] Alt text: Map another field button. Map another field button.
 
         It shows a list of SIR fields, from which you can select a field for a new field to be displayed.
 
@@ -75,7 +76,7 @@ Use this ingestion method to import the most recent Detections and entities data
         -   For any other fields, you must select the check box that corresponds to a field for any new or updated changes made in the CrowdStrike detection record within CrowdStrike. This will automatically update the respective SIR incident data with the new detection data.
         **Important:** Due diligence is required to be done before selecting this functionality as overriding the existing data may result in unstable data for the analyst to work with and any other automation that is set even by the field values of security incident may also get affected. So, it is very important to do the due diligence before you select any override functionality.
 
-3.  To remove a field, use the ![Remove button](../../secops-integration-ms-azure-sentinel/image/sentinel-remove-button.png) Remove item button next to the input expression field in the SIR Incident Target Fields section.
+3.  To remove a field, use the \[Omitted image "sentinel-remove-button.png"\] Alt text: Remove button Remove item button next to the input expression field in the SIR Incident Target Fields section.
 
 4.  To map a field value from the Detection and Event Fields section to a field on the SIR incident Target Fields section, use one of the following actions:
 
@@ -99,9 +100,9 @@ Use this ingestion method to import the most recent Detections and entities data
 
 5.  To format a field translation for a new field from a CrowdStrike Next- Gen detection to match a field value on a Security Incident, select the **Click here** link in the **SIR Incident Target Fields** header.
 
-6.  To modify the fields which support field translation, select the ![Field format button](../../secops-integration-ms-azure-sentinel/image/sentinel-field-format-button.png) script format field translation icon.
+6.  To modify the fields which support field translation, select the \[Omitted image "sentinel-field-format-button.png"\] Alt text: Field format button script format field translation icon.
 
-    The fields that support field translation are **Affected user**, **Configuration Item**, and **Priority**. For example, click on ![Field format button](../../secops-integration-ms-azure-sentinel/image/sentinel-field-format-button.png) icon next to the Category. The CrowdStrike Next- Gen Field Translation script editor opens.
+    The fields that support field translation are **Affected user**, **Configuration Item**, and **Priority**. For example, click on \[Omitted image "sentinel-field-format-button.png"\] Alt text: Field format button icon next to the Category. The CrowdStrike Next- Gen Field Translation script editor opens.
 
 7.  Enter any changes to the script and select **Update** to save the changes and return to the Mapping page.
 

@@ -2,12 +2,13 @@
 title: Perform high-volume Agent Client Collector upgrade
 description: Perform high-volume upgrade of your Agent Client Collector agents when you want to upgrade all of your agents at one time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-high-volume-upgrade.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [ACC installation, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
@@ -17,7 +18,7 @@ Perform high-volume upgrade of your Agent Client Collector agents when you want 
 
 ## Before you begin
 
-Configure the Agent Client Collector web server. For details, see [Configure the websocket server on the MID Server](acc-configure-web-server.md).
+Configure the Agent Client Collector web server. For details, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configure-web-server.md).
 
 Ensure that the MID Server, MID Web Server, and the MID Server websocket server are running.
 
@@ -47,7 +48,7 @@ High-volume upgrade does not support Agent Client Collector to MID Server commun
 
 When performing high-volume upgrade, all agents that aren't using the most up-to-date version are upgraded. No upgrade is performed on agents already using the upgraded version.
 
-No upgrade is performed on agents that are outside the application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+No upgrade is performed on agents that are outside the application scope. For more information, see .
 
 An agent is excluded from high-volume upgrade when you reach the failed upgrade limit for an agent. The failed upgrade limit is specified in the **sn\_agent.auto\_upgrade.retry\_limit** system property. The default value for this property is 3.
 

@@ -2,7 +2,10 @@
 title: Roles required for Field Service Guided Setup
 description: Different roles are required to perform various steps in Field Service Guided Setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/roles-required-for-field-service-guided-setup.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -78,5 +81,5 @@ Different roles are required to perform various steps in Field Service Guided Se
 |Configure Group selection criteria|user\_admin|
 |Onboard External Agent|user\_admin|
 
-**Parent Topic:**[Field Service Management reference](../../planning-and-policy/reference/fsm-reference.md)
+**Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-reference.md)
 

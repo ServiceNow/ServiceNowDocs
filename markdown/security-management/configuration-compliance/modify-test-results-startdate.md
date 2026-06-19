@@ -2,6 +2,7 @@
 title: Modify Qualys PC Results start date
 description: If data is missing for the start date in the Qualys PC Results import, it can be modified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/modify-test-results-startdate.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

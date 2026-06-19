@@ -2,6 +2,7 @@
 title: View Zoom room metrics
 description: View detailed metrics for your organization's Zoom rooms using DEX.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-zoom-room-metrics.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -19,14 +20,14 @@ View detailed metrics for your organization's Zoom rooms using DEX.
 
 Role required: admin
 
--   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](configuring-DEX-for-Zoom.md)
--   Configure advanced monitoring to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](../task/enable-app-monitor.md).
+-   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md)
+-   Configure advanced monitoring to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \(![The Applications icon.](../image/icon-applications.png)\).
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select **Zoom**.
 

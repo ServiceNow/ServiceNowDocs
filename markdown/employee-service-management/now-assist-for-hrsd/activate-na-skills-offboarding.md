@@ -2,6 +2,7 @@
 title: Activate the Now Assist skill for offboarding
 description: Enable the Now Assist skill associated with the offboarding knowledge transfer plan generation agentic workflow. This skill supports automated knowledge discovery and categorization during the knowledge transfer process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/activate-na-skills-offboarding.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

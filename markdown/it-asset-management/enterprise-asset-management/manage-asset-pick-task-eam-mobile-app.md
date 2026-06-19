@@ -2,6 +2,7 @@
 title: Manage enterprise asset pick tasks using the Mobile Agent application
 description: Work on the Asset pick tasks assigned to you by using the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/manage-asset-pick-task-eam-mobile-app.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

@@ -2,6 +2,7 @@
 title: Install Legal Stock Preclearance
 description: You can install the Legal Stock Preclearance application \(sn\_lg\_stock\_cp\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-stock-preclearance/install-stock-preclearance.html
 release: australia
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -36,7 +37,7 @@ The following components are installed with installation of the Legal Stock Prec
 -   Tables
 -   Business Rules
 
-For more information, see [Components installed with Legal Stock Preclearance](../reference/installed-with-legal-stock-preclearance.md).
+For more information, see [Components installed with Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/installed-with-legal-stock-preclearance.md).
 
 ## Procedure
 
@@ -46,7 +47,7 @@ For more information, see [Components installed with Legal Stock Preclearance](.
 
     You can search for the application by its name or ID. If you can’t find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -63,7 +64,7 @@ For more information, see [Components installed with Legal Stock Preclearance](.
 
 Use the Legal Service Delivery Guided Setup to configure the application on your instance.
 
-To access Legal Service Delivery Guided Setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+To access Legal Service Delivery Guided Setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
-**Parent Topic:**[Configure Legal Stock Preclearance](../concept/legal-stock-pre-administration.md)
+**Parent Topic:**[Configure Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
 

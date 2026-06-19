@@ -2,6 +2,7 @@
 title: Domain separation for Emergency Exposure Management
 description: The following table lists the domain separation use cases for service providers \(SPs\) using this application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/emergency-exposure-management-domain-separation.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -42,5 +43,5 @@ Some modules in the Emergency Exposure Management application are affected by do
     -   Captures the Outlook or Location responses and sends them back to the Diagnostic Request.
     -   Purely an admin function.
 
-**Parent Topic:**[Emergency Exposure Management](../concept/emergency-exposure-management.md)
+**Parent Topic:**[Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/emergency-exposure-management.md)
 

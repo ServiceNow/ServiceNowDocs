@@ -2,11 +2,12 @@
 title: Service Portal properties
 description: Service Portal properties control aspects of the portal experience for admin and end users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/properties-service-portal.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 6
 breadcrumb: [Service Portal reference, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -37,7 +38,7 @@ Default 404 page \(page ID or sp\_page sys\_id\) for Service Portal
 
 Set the default page that your users see whenever a page can’t load properly.-   Type: string
 -   Default value: 404
--   Learn more: [Assign a default error page](create-a-default-404-page.md)
+-   Learn more: [Assign a default error page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-default-404-page.md)
 
 The string must match the name of the page exactly.
 
@@ -78,7 +79,7 @@ Set the duration in seconds that non-critical notifications remain on the screen
 
  Critical notifications should be tagged with the `sn-sticky-notification` HTML class attribute to prevent them from being automatically dismissed.
 
- If the glide.ui.accessibility preference is enabled, messages don’t auto-dismiss, regardless of the system property value. To set this preference, see [Enabling accessibility features](../../../administer/accessibility-508-compliance/concept/c_SetUpSect508ComplianceFeature.md#).
+ If the glide.ui.accessibility preference is enabled, messages don’t auto-dismiss, regardless of the system property value. To set this preference, see [Enabling accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_SetUpSect508ComplianceFeature.md).
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ Controls whether the Angular.js flag **$compileProvider.debugInfoEnabled** is se
 -   Default value: false
 
 </td></tr></tbody>
-</table>If [user criteria](user-criteria.md) \[**com.glide.service-portal.user-criteria**\] is enabled, the following properties also appear in the Service Portal properties page:
+</table>If [user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md) \[**com.glide.service-portal.user-criteria**\] is enabled, the following properties also appear in the Service Portal properties page:
 
 <table id="search"><thead><tr><th>
 
@@ -128,7 +129,7 @@ Define permissions for Service Portal widgets, widget instances, pages, and sear
 
  -   Type: true \| false
 -   Default value: true
--   More information: [User criteria for Service Portal](user-criteria.md)
+-   More information: [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md)
 
 </td></tr><tr><td>
 
@@ -162,7 +163,7 @@ Option to always enforce read ACLs for filter conditions specified in Simple Lis
 
  -   Type: true \| false
 -   Default value: true
--   For more information, see [Simple List widget](simple-list-widget.md).
+-   For more information, see [Simple List widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/simple-list-widget.md).
 
 </td></tr><tr><td>
 
@@ -174,7 +175,7 @@ Option to allow configuring human readable keywords in portal page URLs for the 
 
  -   Type: true \| false
 -   Default value: true
--   For more information, see [Add human readable keywords to page URLs](../task/add-human-readable-keywords-page-urls.md).
+-   For more information, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
 
 </td></tr><tr><td>
 
@@ -184,7 +185,7 @@ Option to allow configuring human readable keywords in portal page URLs for the 
 
 Option to enforce validating cross-scope privileges to a table when the form widget fetches data from a table.-   Type: true \| false
 -   Default value: true
--   For more information, see [Form widget](form-widget.md).
+-   For more information, see [Form widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/form-widget.md).
 
 </td></tr><tr><td>
 
@@ -207,7 +208,7 @@ Redirects users to the SSO Identify Provider \(IdP\) login page without first re
 
 -   Type: String
 -   Default value: None
--   For more information, see [Single sign-on, logins, and URL redirects](c_SPSSOLoginAndRedirects.md#).
+-   For more information, see [Single sign-on, logins, and URL redirects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_SPSSOLoginAndRedirects.md).
 
 </td></tr><tr><td>
 
@@ -219,7 +220,7 @@ Allows any user to choose and view content in their preferred language.This prop
 
 -   Type: string
 -   Default value: 2086b814c3221200f3897bfaa2d3aea8,89275a53cb13020000f8d856634c9c51,45d6680fdb52220099f93691f0b8f5ad
--   For more information, see [Enable a language selector in portal headers](../task/configure-header-menu.md#).
+-   For more information, see [Enable a language selector in portal headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 </td></tr><tr><td>
 
@@ -247,10 +248,10 @@ Option to allow compiled SCSS files to be loaded as links to improve repeat page
 
 </td><td>
 
-Specify the portals to evaluate using the Performance Analyzer by providing a comma-separated list of portal suffixes. For users with the sp\_admin or admin roles, the Performance Analyzer icon \(![Open Performance Analyzer](../image/performance-analyzer-icon.png)\) appears on pages in the specified portals.-   Type: String
+Specify the portals to evaluate using the Performance Analyzer by providing a comma-separated list of portal suffixes. For users with the sp\_admin or admin roles, the Performance Analyzer icon \(\[Omitted image "performance-analyzer-icon.png"\] Alt text: Open Performance Analyzer\) appears on pages in the specified portals.-   Type: String
 -   Default value: sp
--   For more information, see [Evaluate the performance of a portal page](../task/analyze-page-performance.md).
+-   For more information, see [Evaluate the performance of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/analyze-page-performance.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Portal reference](reference-service-portal.md)
+</table>**Parent Topic:**[Service Portal reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reference-service-portal.md)
 

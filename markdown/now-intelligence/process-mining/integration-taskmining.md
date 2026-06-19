@@ -2,6 +2,7 @@
 title: Integration with Task Mining
 description: Use the Task Mining integration to create Task Mining projects and run analyses directly from the Process Mining Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/integration-taskmining.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -21,10 +22,10 @@ While working in the Analyst Workbench, a Process Mining analyst can select a pr
 
 The integration preserves traceability between process-level insights and task-level findings, avoiding fragmented analysis and reducing navigation between tools.
 
-![A task activity analysis in Task Mining.](../../task-mining/image/task-mining-task-activity.png)
+\[Omitted image "task-mining-task-activity.png"\] Alt text: A task activity analysis in Task Mining.
 
--   **[Create Task Mining project](create-task-mining-project.md)**  
+-   **[Create Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-task-mining-project.md)**  
 Generate a Task Mining project analysis from the Process Mining Workspace by selecting a process flow node.
 
-**Parent Topic:**[Integrating Process Mining](integrating-process-mining.md)
+**Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integrating-process-mining.md)
 

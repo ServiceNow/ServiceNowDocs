@@ -2,6 +2,7 @@
 title: Convert standard control to common control and add reliant entities
 description: Mark a control as common and associate reliant entities to it. Test the common control tied to the primary entity. The reliant entities inherit the results of the common control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -27,15 +28,15 @@ All existing controls are termed as standard controls. You can convert a standar
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(![List](../../grc-cam-workspace/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Navigate to **Compliance library** &gt; **All controls**.
 
-    You can either [create a control](create-control-ws.md) by clicking the **New** button or select one of the existing standard controls from the All controls list and convert it to a common control. Either way, the control is standard, by default, and you must convert it to common to add reliant entities.
+    You can either [create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.md) by clicking the **New** button or select one of the existing standard controls from the All controls list and convert it to a common control. Either way, the control is standard, by default, and you must convert it to common to add reliant entities.
 
     **Note:** Before you convert a control from standard to common, ensure that you select a value in the **Control objective** field, and save the form details. Control objective is required for a common control as there are validations to ensure that the common control does not have the same Name, Entity \(primary or reliant\), and Control objective combination as any other control.
 
-4.  Click the More Actions ![More actions button.](../image/MoreActionsbutton.png) on the top right.
+4.  Click the More Actions \[Omitted image "MoreActionsbutton.png"\] Alt text: More actions button. on the top right.
 
 5.  Select the **Convert to common** list UI action.
 
@@ -83,7 +84,7 @@ All existing controls are termed as standard controls. You can convert a standar
 
         The association of the entity type as reliant to the common control creates a record in the Item to entity type \[sn\_grc\_m2m\_item\_entity\_type\] table.
 
-        **Note:** For more information on the m2m tables that store the records of entity and common control association, see [Tables installed with Policy and Compliance Management](../../grc-policy-and-compliance/reference/r_InstallWPolAndCompl.md#table_qlq_g3m_vs).
+        **Note:** For more information on the m2m tables that store the records of entity and common control association, see [Tables installed with Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
         The advantage of using Reliant entity types is that even if you update the entity type later by adding more entities to it, after it is associated to a common control, then those added entities get automatically associated as reliant entities.
 
@@ -91,7 +92,7 @@ All existing controls are termed as standard controls. You can convert a standar
 
 9.  To add a risk to the control, select the Risks related list and click the **Add from reliant entities** button.
 
-    Based on the reliant entities' association with risks, you can associate the common control with risks. For more information, see [Common controls in Risk Management](../../grc-workspace-risk/concept/shared-common-controls-in-risk-management.md).
+    Based on the reliant entities' association with risks, you can associate the common control with risks. For more information, see [Common controls in Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/shared-common-controls-in-risk-management.md).
 
 10. To view the reliant entities associated to the control, click the **360º view** button from the control record.
 
@@ -100,5 +101,5 @@ All existing controls are termed as standard controls. You can convert a standar
 
 ## Result
 
-Associating reliant entities to a common control has an [impact on compliance scoring](../concept/compliance-score-common-control.md).
+Associating reliant entities to a common control has an [impact on compliance scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/compliance-score-common-control.md).
 

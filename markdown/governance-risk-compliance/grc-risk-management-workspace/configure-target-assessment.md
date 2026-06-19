@@ -2,6 +2,7 @@
 title: Configure a target assessment
 description: Configure and publish a target assessment in the Advanced Risk application to assess your desired future risk level. By configuring a target assessment, you enable the assessors and approvers to perform a target risk assessment in the Next Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/configure-target-assessment.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -31,7 +32,7 @@ Configure a target assessment to assess the future risks levels. Similar to inhe
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the Target assessment form, see [Target assessment form](../reference/target-assessment-form.md).
+    For a description of the field values on the Target assessment form, see [Target assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/target-assessment-form.md).
 
 4.  **Note:** If you selected **Factor responses** in the **Calculate based on** field, then you have to add factors to the assessment manually.
 
@@ -134,8 +135,8 @@ Risk appetite scale for the risk rating criteria. Appetite scales must be separa
 10. Select **Publish.**
 
 
--   **[Target assessment form](../reference/target-assessment-form.md)**  
+-   **[Target assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/target-assessment-form.md)**  
 Use the Target Assessment form in the Advanced Risk application to assess the desired future risk level in your organization.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

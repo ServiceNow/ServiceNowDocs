@@ -2,6 +2,7 @@
 title: Report a knowledge gap from a case in Agent Workspace for HR Case Management
 description: Report a knowledge gap for a case to get a documented resolution for common HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/knowledge-gap-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -23,11 +24,11 @@ Role required: none
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(![Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select an HR case.
 
-4.  Select the More icon ![More icon](../reference/images/more-icon.png) and select **Report knowledge gap** from the drop-down list.
+4.  Select the More icon \[Omitted image "more-icon.png"\] Alt text: More icon and select **Report knowledge gap** from the drop-down list.
 
 5.  In the Knowledge feedback task form, enter a description in the **Description** field.
 

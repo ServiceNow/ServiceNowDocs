@@ -2,11 +2,12 @@
 title: PPE Inventory Overview dashboard
 description: Use the PPE Inventory Overview dashboard to track PPE items that are in stock, on order, and assigned to employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/ppe-overview-dashboard.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Workplace PPE Inventory Management, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -41,5 +42,5 @@ To view the dashboard, navigate to **PPE Inventory Management** &gt; **Overview 
 |Consumable Models|All models for consumable PPE.|
 |Stock Rules|All stock rules for PPE.|
 
-**Parent Topic:**[Workplace PPE Inventory Management](ppe-inventory-management.md)
+**Parent Topic:**[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/ppe-inventory-management.md)
 

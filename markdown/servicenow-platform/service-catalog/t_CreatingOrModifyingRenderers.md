@@ -2,6 +2,7 @@
 title: Create a renderer
 description: Create or modify renderers using UI macros to provide the rendering instructions. Renderers define a specific look and feel for a catalog or category.Select a renderer and apply them to a catalog to change its appearance.Select a renderer scheme for your categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreatingOrModifyingRenderers.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -81,7 +82,7 @@ Render title
 Appears for category renderers. A check box to display the category title bar on the catalog homepage.**Note:** The **admin** and **catalog\_admin** roles can view the **Render title** even when the check box is not selected.
 
 </td></tr></tbody>
-</table>    ![Screenshot for catalog renderers](../image/ServiceCatalogRenderers.png "Service Catalog Renderers")
+</table>    \[Omitted image "ServiceCatalogRenderers.png"\] Alt text: Screenshot for catalog renderers
 
 6.  Click **Submit**.
 
@@ -90,7 +91,7 @@ Appears for category renderers. A check box to display the category title bar on
     This new renderer is added to the list of available choices when applying a renderer.
 
 
-**Parent Topic:**[Service catalog home page configuration](../concept/c_ManagingTheHomepageForACatalog.md)
+**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 
 ## Select a renderer for a catalog
 
@@ -117,7 +118,7 @@ The following default catalog renderer schemes are available:
 
 3.  Select a catalog in the middle panel of the pop-up window.
 
-    ![](../image/ServiceCatalogMultiCatalogHomePageArrange.png "Service Catalog home page layout")
+    \[Omitted image "ServiceCatalogMultiCatalogHomePageArrange.png"\] Alt text:
 
 4.  Select a renderer from the list displayed in the right-hand panel, for example **Title Only**.
 

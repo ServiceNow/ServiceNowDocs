@@ -2,11 +2,12 @@
 title: Enable DEX browser extension
 description: Activate the DEX Chrome or Edge Extension on your system to collect different operational or performance-based metrics for the web applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/enable-dex-browser-extension.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -31,15 +32,15 @@ Role required: sn\_dex.admin
 
 1.  Perform the following steps to install DEX Browser Extension based on your browser.
 
-<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d304171e81">
+<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d52544e81">
 
 Browser
 
-</th><th align="left" id="d304171e84">
+</th><th align="left" id="d52544e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d304171e90">
+</th></tr></thead><tbody><tr><td id="d52544e90">
 
 **Google Chrome**
 
@@ -50,7 +51,7 @@ Steps
 3.  On the confirmation window, select **Add extension**.
 
 
-</td></tr><tr><td id="d304171e124">
+</td></tr><tr><td id="d52544e124">
 
 **Microsoft Edge**
 
@@ -69,7 +70,7 @@ The Google Chrome or Microsoft Edge extension is enabled by default, and when mo
 
 ## What to do next
 
-[Onboard for DEX Application and Device Health](dex-onboarding.md).
+[Onboard for DEX Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-onboarding.md).
 
-**Parent Topic:**[Installing DEX on your local machine](../concept/installing-dex-local.md)
+**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 

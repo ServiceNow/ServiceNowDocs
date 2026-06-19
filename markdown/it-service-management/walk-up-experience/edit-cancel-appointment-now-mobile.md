@@ -2,6 +2,7 @@
 title: Modify an appointment at the Walk-up Experience Tech Lounge
 description: Edit or cancel an appointment at a ServiceNow Walk-up Experience Tech Lounge by using the Now Mobile app on your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/edit-cancel-appointment-now-mobile.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -25,15 +26,15 @@ The time limit for modifying an appointment may vary across tech Lounges. You ca
 
 ## Procedure
 
-1.  On your mobile device, tap the Now® Mobile app icon \(![NOW Mobile app icon.](../../asset-management/image/now-mobile.png)\).
+1.  On your mobile device, tap the Now® Mobile app icon \(\[Omitted image "now-mobile.png"\] Alt text: NOW Mobile app icon.\).
 
 2.  Navigate to your appointment card using any of these options.
 
     |Tab|Navigation|
     |---|----------|
     |**My Items**|Tap **My Tech Visits**|
-    |**Services**|Tap the more options icon **\(![More options icon](../image/quickaction2.png)\)** &gt; **Visit a Tech Lounge** &gt; **Visits**.|
-    |**Information**|Tap the headphones icon **\(![Headphones icon](../image/quickaction.png)\)** &gt; **Visits**|
+    |**Services**|Tap the more options icon **\(\[Omitted image "quickaction2.png"\] Alt text: More options icon\)** &gt; **Visit a Tech Lounge** &gt; **Visits**.|
+    |**Information**|Tap the headphones icon **\(\[Omitted image "quickaction.png"\] Alt text: Headphones icon\)** &gt; **Visits**|
 
 3.  Tap the appointment card to open it.
 
@@ -47,5 +48,5 @@ The time limit for modifying an appointment may vary across tech Lounges. You ca
     You can also swipe the appointment card and tap your preferred action to modify the appointment.
 
 
-**Parent Topic:**[Walk-up Experience on Now Mobile](../concept/walk-up-experience-now-mobile.md)
+**Parent Topic:**[Walk-up Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walk-up-experience-now-mobile.md)
 

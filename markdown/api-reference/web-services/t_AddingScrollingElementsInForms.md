@@ -2,6 +2,7 @@
 title: Add scrolling elements in forms
 description: You can add scrolling areas to forms as well as UI pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_AddingScrollingElementsInForms.html
 release: australia
 product: Web Services
 classification: web-services
@@ -22,8 +23,8 @@ You can add scrolling areas to forms as well as UI pages.
 2.  Create a Formatter to reference the script.
 
 
--   **[Priority 1 incidents example](../reference/r_Priority1IncidentsExample.md)**  
+-   **[Priority 1 incidents example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_Priority1IncidentsExample.md)**  
 This example scrolling element demonstrates how to create a UI macro to a scrolling list of priority 1 incidents.
 
-**Parent Topic:**[Scrollable areas](../reference/r_ScrollableAreas.md)
+**Parent Topic:**[Scrollable areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_ScrollableAreas.md)
 

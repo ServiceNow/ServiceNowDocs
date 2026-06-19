@@ -2,6 +2,7 @@
 title: Configure a permit-to-work request
 description: Edit existing questions on a permit to work form or add new questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-configure-request-permit-to-work.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -27,15 +28,15 @@ Role required: admin and sn\_hs\_rm.permit\_coordinator
 
 3.  Either add new questions or edit existing questions.
 
-<table id="choicetable_ltg_1fk_rgc"><thead><tr><th align="left" id="d665136e123">
+<table id="choicetable_ltg_1fk_rgc"><thead><tr><th align="left" id="d592376e123">
 
 Goal
 
-</th><th align="left" id="d665136e126">
+</th><th align="left" id="d592376e126">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d665136e132">
+</th></tr></thead><tbody><tr><td id="d592376e132">
 
 **Add a new question**
 
@@ -44,12 +45,12 @@ Actions
 1.  In the Variables related list, select **New**.
 2.  On theVariable new record form, fill in the fields.
 
-For a description of the field values, see [Variable new record form](../reference/hs-variable-new-record.md).
+For a description of the field values, see [Variable new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-variable-new-record.md).
 
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d665136e211">
+</td></tr><tr><td id="d592376e211">
 
 **Modify an existing question**
 
@@ -62,5 +63,5 @@ For a description of the field values, see [Variable new record form](../referen
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure permit-to-work](../concept/hs-configure-permit-to-work.md)
+**Parent Topic:**[Configure permit-to-work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-permit-to-work.md)
 

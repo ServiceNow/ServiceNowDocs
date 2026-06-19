@@ -2,6 +2,7 @@
 title: Agent Inbox controls
 description: Control certain elements of the agent experience in Agent Workspace. Define the agent presence \(availability\) states and the work item rejection reasons used by agents to decline work assignments in their Agent Workspace inbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/agent-experience.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -19,7 +20,7 @@ Control certain elements of the agent experience in Agent Workspace. Define the 
 
 
 
-![Agent Workspace inbox availability states.](../image/agent-availability.png)
+\[Omitted image "agent-availability.png"\] Alt text: Agent Workspace inbox availability states.
 
 AWA admins can define the presence states that agents choose in their inbox to indicate their availability. The default states are
 
@@ -29,8 +30,8 @@ AWA admins can define the presence states that agents choose in their inbox to i
 
 AWA developers with the awa\_integration\_user role can also use JavaScript or REST APIs to get or set agent presence and agent channel availability. For more information, see
 
--   [Agent Presence API \(REST APIs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-api.md)
--   [Agent - Global \(JavaScript APIs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_AgentAPI.md)
+-   Agent Presence API \(REST APIs\)
+-   Agent - Global \(JavaScript APIs\)
 
 ## Agent rejection controls
 

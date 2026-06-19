@@ -2,6 +2,7 @@
 title: Edit page variant settings
 description: Edit page variant settings to add additional criteria to determine when the page variant displays to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/edit-variant-settings.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -31,7 +32,7 @@ Customize page variant settings to set who sees the page variant. You can add an
 
 3.  Expand the page to expose the associated variants.
 
-4.  Next to the page variant that you want to edit, select the Open settings icon ![](../image/gear-icon.png).
+4.  Next to the page variant that you want to edit, select the Open settings icon \[Omitted image "gear-icon.png"\] Alt text:.
 
 5.  On the form, fill in the fields.
 
@@ -73,7 +74,7 @@ Conditions
 
 </td><td>
 
-Set the rules for when your pages are shown. For more information, see [Control the conditions for a page variant](control-conditions-for-your-variant.md).
+Set the rules for when your pages are shown. For more information, see [Control the conditions for a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/control-conditions-for-your-variant.md).
 
 </td></tr><tr><td>
 
@@ -81,13 +82,13 @@ Audiences
 
 </td><td>
 
-Add or remove audiences for the page variant. For more information, see [Learn about audiences](../concept/add-audiences.md).
+Add or remove audiences for the page variant. For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
 
 </td></tr></tbody>
-</table>    ![Edit page variant settings screen.](../image/variant-edit-settings-screen.png)
+</table>    \[Omitted image "variant-edit-settings-screen.png"\] Alt text: Edit page variant settings screen.
 
 6.  Click **Save**.
 
 
-**Parent Topic:**[Create a page variant](create-variant.md)
+**Parent Topic:**[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
 

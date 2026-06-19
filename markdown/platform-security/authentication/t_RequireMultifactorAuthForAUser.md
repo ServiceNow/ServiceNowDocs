@@ -2,6 +2,7 @@
 title: Configure user-based multi-factor criteria
 description: Use user based multi-factor criteria to enable MFA for a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_RequireMultifactorAuthForAUser.html
 release: australia
 product: Authentication
 classification: authentication

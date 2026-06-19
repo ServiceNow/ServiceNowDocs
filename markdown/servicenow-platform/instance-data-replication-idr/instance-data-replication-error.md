@@ -2,6 +2,7 @@
 title: Consumer replication set status in Instance Data Replication
 description: Review the status of your consumer replication set and research error messages to identify or fix Instance Data Replication \(IDR\) replication issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/instance-data-replication-error.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -19,7 +20,7 @@ Review the status of your consumer replication set and research error messages t
 
 Navigate to **Instance Data Replication** &gt; **Consumer Replication Sets** to access a consumer replication set, and view the status and status messages.
 
-![Consumer replication set status and messages.](../image/consumer-replication-status.png "Consumer Replication Set")
+\[Omitted image "consumer-replication-status.png"\] Alt text: Consumer replication set status and messages.
 
 |Status|Description|
 |------|-----------|
@@ -38,8 +39,8 @@ Navigate to **Instance Data Replication** &gt; **Consumer Replication Sets** to 
 |-------|------|
 |`All Producer Replication Sets have been deactivated due to fatal replication error`|All consumer replication sets are moved to the error state. Contact Customer Service and Support.|
 |`Consumer replication set received out of order messages`|Contact Customer Service and Support.|
-|`Error while seeding data. Please refer to the Replication Payload Error table for details`|On the consumer instance, more than one record failed to seed. To recover, go to the [Replication Payload Error](../task/debug-instance-data-replication.md) table to find and fix the error, and then activate the consumer replication set.|
-|`Error while seeding data. Please retry seeding this table`|To recover, [reseed the table](../task/seed-consumer-instance.md).|
+|`Error while seeding data. Please refer to the Replication Payload Error table for details`|On the consumer instance, more than one record failed to seed. To recover, go to the [Replication Payload Error](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/debug-instance-data-replication.md) table to find and fix the error, and then activate the consumer replication set.|
+|`Error while seeding data. Please retry seeding this table`|To recover, [reseed the table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/seed-consumer-instance.md).|
 |`Producer has encountered an error while seeding`|To recover, contact the administrator of the producer instance to determine the cause of the problem.|
 |`Producer Replication Set configuration has been modified`|On the consumer instance, click **Synchronize Replication Entries** and then click **Activate**.|
 |`Producer Replication Set has been deactivated due to replication error`|Contact Customer Service and Support.|
@@ -48,12 +49,12 @@ Navigate to **Instance Data Replication** &gt; **Consumer Replication Sets** to 
 |`Producer Replication Set is inactive`|To recover, activate the producer replication set, and then synchronize and activate the consumer replication set.|
 |`Producer Replication Set not found`|To recover, delete the consumer replication set.|
 |`Replication Set Paused`|To recover, click **Resume** or **Activate**.|
-|`Replication set was in pause/error/seeding pause state for more than 7 days`|The consumer replication set has been in the pause state, error state, or seeding pause state for more than the timeout period. The replication set is put into the disabled state. To recover, [check for seeding errors](../task/fix-seeding-errors.md) and activate the consumer replication set with seeding.|
+|`Replication set was in pause/error/seeding pause state for more than 7 days`|The consumer replication set has been in the pause state, error state, or seeding pause state for more than the timeout period. The replication set is put into the disabled state. To recover, [check for seeding errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/fix-seeding-errors.md) and activate the consumer replication set with seeding.|
 |`Seeding has been terminated due to timeout`|To recover, retry the seeding request or contact Customer Service and Support.|
 |`Seeding request for a Producer Replication Set containing more than X number of records is not supported`|To recover, change the filter criteria to reduce the number of records to be seeded or use partial seeding. The default limit is 10 million records. Contact Customer Service and Support to change the default limit.|
 |`Seeding was cancelled by a consumer admin`|To recover, activate the consumer replication set.|
 |`Seeding was cancelled by a producer admin`|To recover, activate the consumer replication set. Only seeding requests in the queued, paused, or started states can be canceled. In this case, the consumer replication state is Replication Error.|
 |`Shared key not matching`|The producer and consumer replication sets have different shared keys. To recover, copy the shared encryption key on the producer replication set, paste it into the consumer replication set, and activate the replication set.|
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

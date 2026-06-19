@@ -2,6 +2,7 @@
 title: NowSDKConfiguration class - iOS
 description: The NowSDKConfiguration class contains configuration information needed to initialize the NowSDK.Creates a NowSDKConfiguration object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowSDKConfigurationiOSAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -70,7 +71,7 @@ DevicePermissionDelegate
 Delegate object called by the NowSDK to request permission from the host application to show system dialog requesting the indicated device permission.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowSDKConfiguration - init\(authorizationProvider: NowSDKAuthorizationProviding, permissionDelegate: DevicePermissionDelegate, logLevel: NowLogLevel\)
 
@@ -129,7 +130,7 @@ NowLogLevel
 
 </td><td>
 
-Level of log messages for the associated logger to store.This sets the logging level for the core services logger. You can also use the [NowLoggingService](../../NowLoggingService/concept/NowLoggingServiceiOSAPI.md#) API to set service log levels.
+Level of log messages for the associated logger to store.This sets the logging level for the core services logger. You can also use the [NowLoggingService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowLoggingServiceiOSAPI.md) API to set service log levels.
 
 Valid values:
 

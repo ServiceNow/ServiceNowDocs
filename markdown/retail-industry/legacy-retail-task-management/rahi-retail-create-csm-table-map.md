@@ -2,6 +2,7 @@
 title: Create a CSM Table Map for Retail Task Management Core
 description: Create a CSM table map to create multi-store case configurations for use with your service definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-retail-create-csm-table-map.html
 release: australia
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
@@ -23,7 +24,7 @@ Scope required: Retail Task Management Core.
 
 ## About this task
 
-![Retail multi-store record CSM table map creation form.](../image/rahi-retail-csm-table-map.png)
+\[Omitted image "rahi-retail-csm-table-map.png"\] Alt text: Retail multi-store record CSM table map creation form.
 
 In the preceding example, Retail Case is both the parent and child case type for this table mapping. This means that for parent cases of type Retail Case, child cases will also be of this type.
 
@@ -31,7 +32,7 @@ In the preceding example, Retail Case is both the parent and child case type for
 
 1.  Navigate to **All** and search for **csm\_table\_map.do**
 
-    ![All search menu to navigate to the CSM mapping table.](../image/rahi-retail-csm-table-all.png)
+    \[Omitted image "rahi-retail-csm-table-all.png"\] Alt text: All search menu to navigate to the CSM mapping table.
 
 2.  Press enter.
 

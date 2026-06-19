@@ -2,6 +2,7 @@
 title: Common controls in Risk Management
 description: By linking the risks to a common control in the Risk Management application, you can reduce the time and effort that is needed to manage and apply these centralized controls to your reliant entities. For example, a fire sprinkler system can be a common control for multiple business units \(BUs\), such as finance, security, and human resources \(HR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/shared-common-controls-in-risk-management.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -17,7 +18,7 @@ By linking the risks to a common control in the Risk Management application, you
 
 ## Overview of common controls
 
-Every organization has multiple \(BUs\) and shared functions, such as information technology \(IT\), HR, and finance. These shared functions define the policies and controls that the BUs can use to meet the regulatory requirements or to manage the risks in their BUs. Multiple BUs can use common controls that are owned and managed by a different department or team. This process enables an organization to maintain centralized control over certain processes while each BU can take advantage of these common controls. For more information on common controls, see [Common Controls](../../grc-workspace-compliance/concept/common-controls-multiple-rel-entities.md).
+Every organization has multiple \(BUs\) and shared functions, such as information technology \(IT\), HR, and finance. These shared functions define the policies and controls that the BUs can use to meet the regulatory requirements or to manage the risks in their BUs. Multiple BUs can use common controls that are owned and managed by a different department or team. This process enables an organization to maintain centralized control over certain processes while each BU can take advantage of these common controls. For more information on common controls, see [Common Controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.md).
 
 To mitigate the risks in the reliant entities, a risk owner can link their risks to the common controls. By linking the risk, a risk owner can reduce the effort that is required to attest and test these common controls for the reliant entities.
 
@@ -46,5 +47,5 @@ You can inherit the common controls to a risk-mitigating task when the entity is
 
 A common control is automatically linked to a risk event when the underlying risk has materialized for the risk event. It enables the control owner to identify when the common control fails and to take immediate action if a common control does fail.
 
-**Parent Topic:**[Using the Risk Workspace](using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

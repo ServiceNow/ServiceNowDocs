@@ -2,6 +2,7 @@
 title: Associate content from catalog categories to a topic
 description: Associate content from multiple catalog categories to a topic in the taxonomy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/associate-catalog-categories-to-topics-in-bulk.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ Role required: catalog\_admin, taxonomy\_admin, or any user that meets the Taxon
 
 4.  In the Collection list, do one of the following to move the catalog categories to the Catalog Categories list:
 
-    -   Select a catalog category and then click the right arrow icon \(![Right-arrow icon.](../images/right-arrow-icon.png)\) icon.
+    -   Select a catalog category and then click the right arrow icon \(\[Omitted image "right-arrow-icon.png"\] Alt text: Right-arrow icon.\) icon.
     -   Double-click a catalog category.
     **Note:** In the Collection list, you can search for catalog categories by entering the category name or by using wild cards \(\*\).
 
@@ -40,10 +41,10 @@ Role required: catalog\_admin, taxonomy\_admin, or any user that meets the Taxon
 
 ## What to do next
 
-For more information, see [Taxonomy and connected content](../concept/track-new-content.md).
+For more information, see [Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/track-new-content.md).
 
 **Related topics**  
 
 
-[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogCategories.md)
+[bundle-platcap.c_ServiceCatalogCategories]
 

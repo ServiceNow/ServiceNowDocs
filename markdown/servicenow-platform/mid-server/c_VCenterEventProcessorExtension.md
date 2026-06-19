@@ -2,11 +2,12 @@
 title: vCenter event collector
 description: The vCenter event collector is a MID Server extension that listens for vCenter-related events and updates the CMDB accordingly.Configure the vCenter event collector extension in the MID Server module, and then add or remove supported events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_VCenterEventProcessorExtension.html
 release: australia
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-14"
 reading_time_minutes: 12
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,9 +29,9 @@ For example, if a VM is turned off, the vCenter server sends the event `VmPowere
 
 With this extension, Discovery can only modify the state of a VM which exists in the CMDB. When an event with "CreatedEvent" occurs in its name, such as VmCreatedEvent, Discovery scans that VM and then creates the CI using the data it collects. When a new event occurs involving that CI, Discovery can update the existing record without launching another scan.
 
-vCenter event collector supports [domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryDomainSeparation.md) by inheriting the domain of the specified Mid Server in the event collector context. However, it does not support multi-domain Mid Server configuration.
+vCenter event collector supports domain separation by inheriting the domain of the specified Mid Server in the event collector context. However, it does not support multi-domain Mid Server configuration.
 
-See [Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md) for supported versions of vCenter.
+See Discovery for VMware vCenter for supported versions of vCenter.
 
 ## How vCenter events are processed
 
@@ -44,7 +45,7 @@ The resulting sysevents contain these values:
 -   **Parm1**: vCenter event that was returned. This event must be associated with an event collector record.
 -   **Parm2**: Event data provided by vCenter, in JSON format.
 
-![Log entries for vCenter events](../image/vCenterSystemEvents.png "Log entries for vCenter events")
+\[Omitted image "vCenterSystemEvents.png"\] Alt text: Log entries for vCenter events
 
 ## Supported vCenter events
 
@@ -196,6 +197,18 @@ VmRemovedEvent
 </td><td>
 
 The VM instance has been deleted from vCenter.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+HostRemovedEvent
+
+</td><td>
+
+The host was removed from vCenter. Marks the related VM as stale.
 
 </td><td>
 
@@ -676,7 +689,7 @@ Role required: agent\_admin, admin
 
 Multiple MID Servers can listen to the same vCenter instance, and you can add multiple Event Collectors for different vCenters to a single MID Server. Make sure you configure the events on the event collector record that specify the correct MID Server.
 
-**Note:** You can add events to the vCenter event collector. However, not every event is supported by the base system event handlers. If you want to handle events other than those supported in the base Discovery system, you must create a script action to process the events.For instructions, see [Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/r_ScriptActions.md). As a reference, the instance processes the vCenter events in the base system with a script action called **Discovery: Process vCenter events**. Do not edit or delete this script action.
+**Note:** You can add events to the vCenter event collector. However, not every event is supported by the base system event handlers. If you want to handle events other than those supported in the base Discovery system, you must create a script action to process the events.For instructions, see Script actions. As a reference, the instance processes the vCenter events in the base system with a script action called **Discovery: Process vCenter events**. Do not edit or delete this script action.
 
 To configure the vCenter event processor extension:
 
@@ -749,7 +762,7 @@ Update parameters
 Sends updated parameters to the collector. Any changes you make to the collector while the MID Server is running do not take effect immediately when they are saved. If you click this control when the collector is not running, no update is made.In the case of the vCenter extension, the collector first tests the parameters for validity. If the parameters are valid, the extension disconnects from the vCenter server and reconnects with the new parameters.
 
 </td></tr></tbody>
-</table>    ![Event collector](../image/vCenterEventCollector.png)
+</table>    \[Omitted image "vCenterEventCollector.png"\] Alt text: Event collector
 
 <table id="table_vfn_tp4_cv"><thead><tr><th>
 
@@ -842,5 +855,5 @@ Executing on
 **Related topics**  
 
 
-[VMware discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoverVMwareInfrastructure.md)
+[bundle-itom.c_DiscoverVMwareInfrastructure]
 

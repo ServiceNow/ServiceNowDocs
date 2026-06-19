@@ -2,6 +2,7 @@
 title: Set up Total Rewards using Workday
 description: Configure the Total Rewards templates by choosing plans, sections, and target audience. Display a customized Total Rewards widget to employees in the configured Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/total-rewards-awd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,21 +20,21 @@ Configure the Total Rewards templates by choosing plans, sections, and target au
 
 Role required: sn\_hr\_workday\_adv.admin
 
-Configure the required reports for the Total Rewards functionality. See [Configure reports HR Service Delivery Advanced Integration with Workday](../concept/awd-config-re.md#).
+Configure the required reports for the Total Rewards functionality. See [Configure reports HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/awd-config-re.md).
 
 ## Procedure
 
 1.  Set up plans to include in sections in Total Rewards Template.
 
-    For more information, see [Set up plans for Total Rewards](total-rewards-plans-awd.md).
+    For more information, see [Set up plans for Total Rewards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/total-rewards-plans-awd.md).
 
 2.  Set up sections to include in Total Rewards Template.
 
-    For more information, see [Set up sections for Total Rewards templates](total-rewards-config-awd.md).
+    For more information, see [Set up sections for Total Rewards templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/total-rewards-config-awd.md).
 
 3.  Set up Total Rewards template by choosing sections, and target audience.
 
-    For more information, see [Set up a template for Total Rewards](total-rewards-tem-setup.md).
+    For more information, see [Set up a template for Total Rewards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/total-rewards-tem-setup.md).
 
 
 ## What to do next

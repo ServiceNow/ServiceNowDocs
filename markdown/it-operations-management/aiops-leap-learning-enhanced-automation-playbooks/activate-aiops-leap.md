@@ -2,6 +2,7 @@
 title: Activate LEAP
 description: Activate the LEAP skill after installing the application to assemble and categorize incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -19,19 +20,21 @@ Activate the LEAP skill after installing the application to assemble and categor
 
 Role required: System admin or LEAP admin
 
+and the application scope must be LEAP.
+
 ## Procedure
 
 1.  Activate **LEAP** with one of the following options.
 
-<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d448926e98">
+<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d210723e97">
 
 Options
 
-</th><th align="left" id="d448926e103">
+</th><th align="left" id="d210723e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d448926e110">
+</th></tr></thead><tbody><tr><td id="d210723e109">
 
 **Workspaces**
 
@@ -42,7 +45,7 @@ Steps
 3.  On the LEAP installer card, select **Activate skill**.
 
 
-</td></tr><tr><td id="d448926e152">
+</td></tr><tr><td id="d210723e151">
 
 **Now Assist Admin**
 
@@ -56,7 +59,7 @@ Steps
 </td></tr></tbody>
 </table>2.  In the LEAP installer input section, enter the details for LEAP to run scans on existing records, and select **Save and continue**.
 
-    For details on installer fields, see [LEAP Installer fields](../reference/aiops-leap-installation-fields.md)
+    For details on installer fields, see [LEAP Installer fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-installation-fields.md)
 
 3.  In the Define access section, select the role to whom you want to provide access to LEAP skills.
 
@@ -66,7 +69,7 @@ Steps
 
 6.  Select **Return to ITOM** on the success message.
 
-7.  The grouping job starts and proceeds to group records into automation opportunities.![landing page with analysis data](../images/grouping-job-run.png)
+7.  The grouping job starts and proceeds to group records into automation opportunities.\[Omitted image "grouping-job-run.png"\] Alt text: landing page with analysis data
 
     If errors are encountered, then LEAP provides links to knowledge base articles to understand the root cause and steps to resolve issues.
 

@@ -2,6 +2,7 @@
 title: Results preview
 description: You can preview an audit to view potential results without saving audit results or generating follow-on tasks. For example, use this feature to test template conditions for correctness without creating thousands of result records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_PreviewingResults.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

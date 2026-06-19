@@ -2,6 +2,7 @@
 title: Link an application or application-customization to source control
 description: Linking an application or application-customization to source control allows application developers to manage changes in App Engine Studio \(AES\) from a Git repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-link-application.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,7 +18,7 @@ Linking an application or application-customization to source control allows app
 
 ## Before you begin
 
--   Learn more about [Manage customizations to applications](../../applications/task/manage-customizations-store-apps.md).
+-   Learn more about [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
 -   Create a dedicated Git repository for the application. For increased security, enable multi-factor authentication for the Git repository.
 -   Generate an access token that the source control integration can use instead of a password and multi-factor authentication passkey while creating a Credential record. Search for personal access token on [GitHub](https://help.github.com) or [GitLab](https://docs.gitlab.com).
 -   Restrict permissions on the access token to allow read and write access to the Git repository.
@@ -39,7 +40,7 @@ The source control integration does not support linking to an application or cus
 
     App Engine Studio displays the Link to source control dialog box.
 
-    ![Link to source control dialog box](../image/source-control-link-to-sc-purple.png)
+    \[Omitted image "source-control-link-to-sc-purple.png"\] Alt text: Link to source control dialog box
 
 4.  Enter the connection details for the Git repository.
 
@@ -85,7 +86,7 @@ The name of the existing MID Server to link through.**Note:** Use a separate MID
 
 Be sure that the MID server user can create files to the sys\_attachment table and that the table can accept files of the “bundle” type.
 
- Linking or an application through a MID Server enables access to repositories behind a firewall. See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) for more information.
+ Linking or an application through a MID Server enables access to repositories behind a firewall. See  for more information.
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ Credential
 
 </td><td>
 
-The credential to be used with the selected protocol. See [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md) to learn more about creating credentials.**Note:** If you select the SSH network protocol, enter a valid credential of the SSH private key type. If you select the https protocol, enter a valid credential of the Basic Auth credentials type.
+The credential to be used with the selected protocol. See  to learn more about creating credentials.**Note:** If you select the SSH network protocol, enter a valid credential of the SSH private key type. If you select the https protocol, enter a valid credential of the Basic Auth credentials type.
 
 </td></tr><tr><td>
 
@@ -121,12 +122,12 @@ An optional description of the repository or application.
     All application developers on the instance can use the linked Git repository to manage changes.
 
 
-**Parent Topic:**[AES integration with a Git source control repository](../concept/aes-source-control-integration.md)
+**Parent Topic:**[AES integration with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-integration.md)
 
 **Related topics**  
 
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
+[bundle-platcap.mid-server-landing]
 
-[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
+[bundle-psec.credentials-getting-started]
 

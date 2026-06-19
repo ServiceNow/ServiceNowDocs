@@ -2,6 +2,7 @@
 title: View assigned knowledge tasks in Agent Workspace for HR Case Management
 description: View your assigned knowledge tasks in Agent Workspace for HR Case Management when a knowledge gap is reported in a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/knowledge-task-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -23,7 +24,7 @@ Role required: sn\_hr\_core.kb\_writer
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the **Lists** icon \(![HR Workspace Lists icon](../image/agent-ws-hr-list-icon.png)\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
 
 3.  Select **My tasks - feedback** under **Knowledge**.
 

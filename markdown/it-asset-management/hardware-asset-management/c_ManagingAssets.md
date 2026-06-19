@@ -2,13 +2,14 @@
 title: Asset and CI management
 description: Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/c\_ManagingAssets.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-11"
 reading_time_minutes: 10
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 ---
 
 # Asset and CI management
@@ -34,7 +35,7 @@ The State field of asset record and Status field of CI record are synchronized s
 
 The following diagram illustrates the concept of Asset-CI mapping and synchronization.
 
-![Overview of Asset-CI mapping and synchronization process](../image/mmasset0021795-asset-ci-map-sync.svg "Overview of Asset-CI mapping and synchronization")
+\[Omitted image "mmasset0021795-asset-ci-map-sync.svg"\] Alt text: Overview of Asset-CI mapping and synchronization process
 
 This synchronization and mapping is based on the following factors:
 
@@ -97,9 +98,9 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 -   When the system property is set to **false**, synchronization of the CSDM Lifecycle fields is through the legacy State and Substate fields.
 -   When the system property is set to **true**, the CSDM Life Cycle Stage and Status fields are directly synchronized.
 
-**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+**Note:** If you are activating the CSDM \(csdm.lifecycle.migration.activated\) plugin on your ServiceNow instance for the first time, and you have custom States and Substates for the asset or CI, then make sure to configure mapping between the legacy fields and the CSDM Lifecycle fields. For more information, see .
 
-![Synchronization of status fields](../image/mmasset0021795-asset-ci-ibi-sync.svg "Asset, CI, and IBI synchronization when the csdm.lifecycle.sync.between.ci.and.asset.activated system property is set to false")
+\[Omitted image "mmasset0021795-asset-ci-ibi-sync.svg"\] Alt text: Synchronization of status fields
 
 -   **Synchronization of updates from asset to IBI and CI**
 
@@ -118,7 +119,7 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
     Updates made to the Status and Substatus fields of a CI are synchronized with the corresponding fields of the asset. The legacy fields of the asset are then synchronized with the Life Cycle Stage and Life Cycle Stage Status fields of the IBI asset through the CSDM fields. For example, when the Status and Substatus fields of a CI are updated to Retired and Donated, the corresponding fields of the asset change. The changes from the asset are synchronized with the IBI asset and the Life Cycle Stage and Life Cycle Stage Status fields change to End of Life and Retired.
 
 
-![synchronization of asset fields](../image/mmasset0021795-asset-ci-ibi-sync-new.svg "Asset, CI, and IBI synchronization when the csdm.lifecycle.sync.between.ci.and.asset.activated system property is set to true")
+\[Omitted image "mmasset0021795-asset-ci-ibi-sync-new.svg"\] Alt text: synchronization of asset fields
 
 -   **Synchronization of updates from asset to CI and IBI**
 
@@ -181,4 +182,8 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 
     The **sn\_itam\_common.mac\_address\_sync** system property enables you to synchronize asset and CI using the Mac address. By default, this system property is set to **false**. To enable synchronization through the Mac address, set the value of this system property to **true** in the Asset Property \[asset\_property\] table.
 
+
+## CMDB success advisor for HAM
+
+Use CMDB success advisor for Hardware Asset Management \(HAM\) to monitor and improve hardware asset data quality in the CMDB. The advisor dashboard provides insights into data coverage, attribute completeness, and recommended data integrations for your hardware asset model categories. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-use.md).
 

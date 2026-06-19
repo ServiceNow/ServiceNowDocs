@@ -2,6 +2,7 @@
 title: Test an exporter and export a snapshot
 description: Set and validate input settings to test an exporter before you export the config data in a snapshot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-update-n-test.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ Set and validate input settings to test an exporter before you export the config
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_exporter\_editor or cdm\_editor or cdm\_admin
 
@@ -32,12 +33,12 @@ Be sure to install the exporter content pack for DevOps Config. Exporters in the
 -   Exporters in the content pack have the **Source** value of **ServiceNow**. You can duplicate, but cannot delete or modify content pack exporters.
 -   You can run only published exporters.
 -   For export, snapshots cannot exceed 10,000 config data items \(CDIs\) per deployable or 100,000 CDIs per application.
--   For information on creating a custom exporter, see [Create a custom exporter](cdm-exporter-create-custom.md).
--   Records of exporter executions are deleted after a period of three years. For instructions on changing the default time period, see [Set the purge period for records of exporter executions](cdm-export-record-purge.md).
+-   For information on creating a custom exporter, see [Create a custom exporter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-exporter-create-custom.md).
+-   Records of exporter executions are deleted after a period of three years. For instructions on changing the default time period, see [Set the purge period for records of exporter executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-export-record-purge.md).
 
 ## Procedure
 
-1.  Select the admin icon \(![Admin icon.](../image/icon-admin-wrench.png)\) to open the **Administration** page.
+1.  Select the admin icon \(\[Omitted image "icon-admin-wrench.png"\] Alt text: Admin icon.\) to open the **Administration** page.
 
 2.  On the **Exporters** tab, select the name of the exporter.
 

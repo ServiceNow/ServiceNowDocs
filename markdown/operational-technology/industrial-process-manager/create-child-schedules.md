@@ -2,6 +2,7 @@
 title: Add a child schedule
 description: Add a child schedule to an existing equipment model entity schedule with the Industrial Process Manager application. When you make adjustments to the child schedule, it also applies to the parent schedule. For example, you might want to extend the scheduled time on a particular day or remove the holidays from a schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-child-schedules.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -40,5 +41,5 @@ Role required: sn\_isa\_schedule\_admin
 
 The selected child schedule now applies to the parent schedule.
 
-**Parent Topic:**[Managing an equipment model entity schedule](../concept/managing-equipment-entity-schedules.md)
+**Parent Topic:**[Managing an equipment model entity schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/managing-equipment-entity-schedules.md)
 

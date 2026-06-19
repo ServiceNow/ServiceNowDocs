@@ -2,6 +2,7 @@
 title: Actionable notifications for virtual machines in ITSM Virtual Agent
 description: Notify users when a change is made to a virtual machine \(VM\) instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-notifications-virtual-machine.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -15,15 +16,15 @@ breadcrumb: [ITSM Virtual Agent pre-built actionable notifications, ITSM Virtual
 
 Notify users when a change is made to a virtual machine \(VM\) instance.
 
-You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](../task/setup-actionable-notifications.md).
+You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 ## Start VM failure
 
-End users are notified when a change made to a virtual machine instance has failed. For example, the virtual machine failed to start or stop. For information about pre-built topics for virtual machines, see [Virtual machine pre-built topics for ITSM Virtual Agent](manage-virtual-machine.md).
+End users are notified when a change made to a virtual machine instance has failed. For example, the virtual machine failed to start or stop. For information about pre-built topics for virtual machines, see [Virtual machine pre-built topics for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-virtual-machine.md).
 
 ## Start VM Success
 
-End users are notified when a change made to a virtual machine instance has been successful. For example, the virtual machine successfully started or stopped. For information about pre-built topics for virtual machines, see [Virtual machine pre-built topics for ITSM Virtual Agent](manage-virtual-machine.md).
+End users are notified when a change made to a virtual machine instance has been successful. For example, the virtual machine successfully started or stopped. For information about pre-built topics for virtual machines, see [Virtual machine pre-built topics for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/manage-virtual-machine.md).
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](../concept/itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 

@@ -2,6 +2,7 @@
 title: Dashboard library recommendations
 description: Analytics managers can view information about potentially problematic dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboard-library-recommendations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,11 +16,11 @@ Analytics managers can view information about potentially problematic dashboards
 
 ## Dashboard recommendation panel
 
-![Dashboard library showing recommendation panel.](../image/db-recommendation-panel.png)
+\[Omitted image "db-recommendation-panel.png"\] Alt text: Dashboard library showing recommendation panel.
 
 Visible to roles: dashboard\_admin and higher.
 
-The book icon ![](../image/book-icon.png) expands and hides the dashboard recommendation panel. It also shows how many recommendation tiles there are. Selecting a tile filters the library on the matching dashboards.
+The book icon \[Omitted image "book-icon.png"\] expands and hides the dashboard recommendation panel. It also shows how many recommendation tiles there are. Selecting a tile filters the library on the matching dashboards.
 
 The following types of recommendations are currently available:
 
@@ -29,5 +30,5 @@ The following types of recommendations are currently available:
 |n Empty dashboards|Number of dashboards that do not contain any widgets|
 |n No active owner|Number of dashboards without an active owner|
 
-**Parent Topic:**[Platform Analytics library recommendations](../concept/pa-library-recommendations.md)
+**Parent Topic:**[Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-library-recommendations.md)
 

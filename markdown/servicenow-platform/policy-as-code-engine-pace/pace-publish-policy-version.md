@@ -2,6 +2,7 @@
 title: Publish a PaCE policy version
 description: You can publish a policy version at any time. When the policy is published, a compliant, non-compliant, or compliant-exception decision is made for objects \(tables or document IDs\) mapped to the policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-publish-policy-version.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -29,7 +30,7 @@ Role required: sn\_pace.code\_editor
 
 3.  In the Details page, click the **Policy builder** tab.
 
-    ![Publish versions tab.](../image/pace-versions-publish.jpg)
+    \[Omitted image "pace-versions-publish.jpg"\] Alt text: Publish versions tab.
 
     Typically you would publish a Draft policy, but you can also republish an Archived version.
 
@@ -37,7 +38,7 @@ Role required: sn\_pace.code\_editor
 
     The following screen is displayed.
 
-    ![Activate and publish draft.](../image/pace-activate-publish-2.jpg)
+    \[Omitted image "pace-activate-publish-2.jpg"\] Alt text: Activate and publish draft.
 
 5.  Select the **Activate this policy** check box to activate the policy when it is published.
 

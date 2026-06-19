@@ -2,6 +2,7 @@
 title: Use the Cloud Operations Dashboard
 description: The Cloud Operations Dashboard breaks down cloud service requests from your end users and cloud stacks that you offer in the Cloud User Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/use-cloud-operations-dashboard.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -25,14 +26,14 @@ Role required: sn\_cmp.cloud\_operator or sn\_cmp.cloud\_admin
 
     The Cloud Operation Dashboard appears, showing you Cloud Service Requests and Stacks. Requests are also broken down by requester in the bar chart below. Stacks are broken down by datacenters.
 
-    ![An example Cloud Operations Dashboard](../image/cloud-operations-dashboard.png "An example Cloud Operations Dashboard")
+    \[Omitted image "cloud-operations-dashboard.png"\] Alt text: An example Cloud Operations Dashboard
 
 2.  Do any of the following to obtain the tag data you want on the report.
 
     |Goal|Do this|
     |----|-------|
     |**See data grouped by another attribute**|Select a value in the **Group by** choice list for either chart.|
-    |**See updated data**|Point to the top of any of the charts until the refresh icon \(![refresh icon](../image/icon-refresh.png)\) appears, and then click the icon.|
-    |**Save an image of a chart**|Point to any of the charts until the options icon \(![options icon](../image/icon-options.png)\) appears, and then select **Save as PNG** or **Save as JPEG**.|
+    |**See updated data**|Point to the top of any of the charts until the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: refresh icon\) appears, and then click the icon.|
+    |**Save an image of a chart**|Point to any of the charts until the options icon \(\[Omitted image "icon-options.png"\] Alt text: options icon\) appears, and then select **Save as PNG** or **Save as JPEG**.|
 
 

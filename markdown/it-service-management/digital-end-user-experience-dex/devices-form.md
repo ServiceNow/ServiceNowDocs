@@ -2,6 +2,7 @@
 title: Devices list
 description: The Devices page provides information on your organization devices, the device assigned user, last login, matching assignments, status, active alerts, and incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/devices-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -116,7 +117,7 @@ Incidents
 Total count of active incidents for the device.
 
 </td></tr></tbody>
-</table>To return to the main devices page, see [Devices](../concept/dex-workspace-devices-tab.md).
+</table>To return to the main devices page, see [Devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-workspace-devices-tab.md).
 
-**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

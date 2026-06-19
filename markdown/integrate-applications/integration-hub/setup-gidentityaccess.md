@@ -2,6 +2,7 @@
 title: Set up the Google Identity and Access Spoke
 description: Integrate the ServiceNow instance and Google Identity and Access spoke by using Google Cloud Platform credentials to authenticate ServiceNow requests.Create a custom OAuth application from your Google Cloud Platform account to enable OAuth 2.0 authentication with the Google Identity and Access spoke.Use the information generated during Google Identity and Access account configuration to register the Google Identity and Access application as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create Credential records to connect the Google Identity and Access custom OAuth application you created during account configuration. The Google Identity and Access spoke connection and credential aliases use these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gidentityaccess.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -119,7 +120,7 @@ Role required: admin.
 
 3.  Enter a unique name for the credential, for example, `GCPIAM Cred`.
 
-4.  Click the **OAuth Entity Profile** search icon \(![Search icon](../image/SearchIcon.png)\) and select the profile with the name of the OAuth application registry you created when you registered the Google Identity and Access service as an OAuth provider.
+4.  Click the **OAuth Entity Profile** search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search icon\) and select the profile with the name of the OAuth application registry you created when you registered the Google Identity and Access service as an OAuth provider.
 
 5.  Click **Get Oauth Token**.
 

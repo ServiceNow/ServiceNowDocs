@@ -2,6 +2,7 @@
 title: Example custom Discovery probe and sensor: populate a CI with text file values
 description: This custom Discovery probe helps you if you need to read a text file from a Windows computer and populate a CI in the CMDB with the values from the file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_CustomProbeTextFile.html
 release: australia
 product: Discovery
 classification: discovery
@@ -122,5 +123,5 @@ In this example the user wanted to read files created by BGinfo.
     ```
 
 
-**Parent Topic:**[Discovery probes and sensors](../../../product/discovery/concept/c_DiscoveryProbesAndSensors.md)
+**Parent Topic:**[Discovery probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md)
 

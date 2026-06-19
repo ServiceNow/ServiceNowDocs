@@ -2,6 +2,7 @@
 title: Manage your community profile
 description: View and edit your own community profile, which displays your contributions, network, achievements, expertise, and events you are attending.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/view-user-profile.html
 release: australia
 product: Communities
 classification: communities
@@ -134,5 +135,5 @@ A display of your expertise at topic level. You can view your level within the t
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use a community profile](community-profile.md)
+**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-profile.md)
 

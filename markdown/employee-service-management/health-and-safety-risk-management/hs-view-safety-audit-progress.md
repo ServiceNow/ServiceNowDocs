@@ -2,6 +2,7 @@
 title: Monitor safety audit progress and outcomes at a glance
 description: Use the Overview tab in a Health and Safety audit to quickly assess the audit completion status and outstanding items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-view-safety-audit-progress.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,13 +24,13 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.safety\_audit\_wr
 
 The **Overview** tab provides a quick and real-time visual summary of audit progress. It shows objective completion on a timeline, the distribution of objectives, items for review, and findings by state, and an overall compliance rating for the audit.
 
-![Overview tab showing the audit progress via Audit timeline, Objectives, Items for review, and Compliance cards.](../image/hs-audit-overview.png "Audit overview")
+\[Omitted image "hs-audit-overview.png"\] Alt text: Overview tab showing the audit progress via Audit timeline, Objectives, Items for review, and Compliance cards.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  In the **Audits** list, select **All** and open the audit record.
 
@@ -95,5 +96,5 @@ Percentage of audit compliance ratings based on findings. -   The percentage ins
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create and manage a safety audit](hs-create-manage-safety-audit-workspace.md)
+**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 

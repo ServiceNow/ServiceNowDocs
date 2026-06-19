@@ -2,6 +2,7 @@
 title: Invoices
 description: Invoices are generated for a payment against a purchase order. A purchase order can have multiple invoices depending on the payment schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/invoices.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -226,7 +227,7 @@ When the services acknowledgment is set to **Invoice approval**, invoice approva
 
  Invoice approvals are sent to the recipient of the line and the shopper can act on them as a to-do in ShoppingHub.
 
- For details, see [Shopper to-dos](shopper-todos.md).
+ For details, see [Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md).
 
 </td></tr><tr><td>
 
@@ -239,7 +240,7 @@ When a service acknowledgment is triggered, a task is created against the invoic
 </td></tr></tbody>
 </table>To create an invoice from a supplier for a received product or service, edit the **Subtotal** field in the Invoice form to the actually received amount, add an invoice line to capture the specifics of that purchase order line, and update the **Line amount invoiced** field in that Invoice Line form to reflect the same received amount. When the invoice line and the invoice are both updated to the Paid state, an expense line in auto-generated in the Project form of Project Management for which the purchase was originally made.
 
-For more information on Sourcing and Procurement Operations's integration with Project Management, see [Sourcing and Procurement Operations integration with Project Management](../concept/integration-psm-ppm.md).
+For more information on Sourcing and Procurement Operations's integration with Project Management, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).
 
 ## Invoice calculations and state flows
 
@@ -253,5 +254,5 @@ The status of the invoice is updated to Invoice Confirmed only when the status o
 
 The invoice state on the invoice header is read-only as the state change is driven by the lines. In case of a multi-line invoice, if one line is in a Requires Review state, the invoice header is updated to Requires Review as well.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

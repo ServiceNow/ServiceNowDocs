@@ -2,11 +2,14 @@
 title: Configure Scan Engine instance integration settings
 description: You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to implement its various scanning types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/add-view-scan-engine-related-lists.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine properties, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
 # Configure Scan Engine instance integration settings
@@ -135,5 +138,7 @@ The OAuth user profile used for cross-instance integrations.
 
 </td></tr></tbody>
 </table>
-**Note:** See [Scan Engine integrations](../concept/instance-integration-scan-engine.md) for details on integration setup.
+**Note:** See [Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md) for details on integration setup.
+
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
 

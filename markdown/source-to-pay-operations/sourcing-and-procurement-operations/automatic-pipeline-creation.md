@@ -2,6 +2,7 @@
 title: Automatic pipeline project creation via Shopping Hub or Employee Center intake requests
 description: When a shopper submits sourcing requests for products, pipeline projects are automatically created, provided the product price meets the budget conditions defined in the decision table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/automatic-pipeline-creation.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -15,7 +16,7 @@ breadcrumb: [Sourcing Pipeline Management, Explore, Sourcing and Procurement Ope
 
 When a shopper submits sourcing requests for products, pipeline projects are automatically created, provided the product price meets the budget conditions defined in the decision table.
 
-By default, the budget threshold is set to $250,000. However, you can configure the budget conditions in the decision table to suit your business requirements. For more information, see [Pipeline project creation rule for high-value sourcing requests](pipeline-project-creation-rule.md).
+By default, the budget threshold is set to $250,000. However, you can configure the budget conditions in the decision table to suit your business requirements. For more information, see [Pipeline project creation rule for high-value sourcing requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-project-creation-rule.md).
 
 If multiple sourcing requests are submitted for products that belong to the same spend category or the same sourcing manager, only a single pipeline project is created to group all those products.
 
@@ -159,5 +160,5 @@ For both auto-created and manually created pipeline projects
 If all sourcing requests under a pipeline project are in Closed – Cancelled or Closed – Rejected state, the pipeline project also moves to the Closed – Cancelled state.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing Pipeline Management](spo-sourcing-pipeline-mgmt.md)
+</table>**Parent Topic:**[Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.md)
 

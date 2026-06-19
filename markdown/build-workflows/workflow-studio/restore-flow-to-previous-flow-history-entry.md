@@ -2,6 +2,7 @@
 title: Restore a flow to a previous flow history entry
 description: Restore a flow to a previous configuration. Create a new flow history entry for the restore operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/restore-flow-to-previous-flow-history-entry.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -41,18 +42,18 @@ You can restore a flow when you want to set the current configuration to that of
 
 7.  From the Flow History view, select **Restore**.
 
-    ![Flow history entry for 5th June. 3:37 AM with option to Restore](../images/flow-history-restore-01.png)
+    \[Omitted image "flow-history-restore-01.png"\] Alt text: Flow history entry for 5th June. 3:37 AM with option to Restore
 
 8.  From the Restore confirmation dialog box, select **Restore**.
 
-    ![Restore past version dialog box. Proceeding will duplicate version "5th June, 3:37am" and make it the current version.](../images/flow-history-restore-02.png)
+    \[Omitted image "flow-history-restore-02.png"\] Alt text: Restore past version dialog box. Proceeding will duplicate version "5th June, 3:37am" and make it the current version.
 
 
 ## Result
 
-![The Flow history list has a new entry of type Restored.](../images/flow-history-restore-03.png)
+\[Omitted image "flow-history-restore-03.png"\] Alt text: The Flow history list has a new entry of type Restored.
 
 Workflow Studio displays the restored flow configuration.
 
-**Parent Topic:**[Flow history](../concept/flow-history.md)
+**Parent Topic:**[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-history.md)
 

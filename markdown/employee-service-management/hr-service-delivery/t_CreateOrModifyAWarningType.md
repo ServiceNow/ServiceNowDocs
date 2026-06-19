@@ -2,6 +2,7 @@
 title: Add or modify disciplinary warning types
 description: A disciplinary warning type is the method used to communicate or the action taken as a result of a disciplinary type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyAWarningType.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -42,5 +43,5 @@ Role required: sn\_hr\_core.basic, or sn\_hr\_core.manager
 5.  Click **Update** to return to the **HR Warning Types** list.
 
 
-**Parent Topic:**[Managed lists](../concept/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

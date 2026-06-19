@@ -2,6 +2,7 @@
 title: On-Call Scheduling subflows
 description: Subflows in On-Call Scheduling enable you to build and configure on-call escalation notification flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/on-call-scheduling-subflows-overview.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -32,7 +33,7 @@ A subflow is an automated process consisting of a sequence of reusable actions, 
 
 Using Workflow Studio, you can build and configure various components such as subflow inputs, outputs, actions, and flow variables such as escalation levels. You can use the contextual comments in the flow designer to help you configure the subflows. For more information on building and configuring subflows in Workflow Studio, see
 
-[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)
+
 
 ## Subflows activation and uses
 
@@ -42,12 +43,12 @@ For existing or upgrade users, in Zurich, your current workflows continue to be 
 
 With the migration from legacy workflow to subflows, each workflow has a corresponding subflow with similar name and functional capabilities.
 
-To activate the subflows, you must navigate to **All** &gt; **On-Call Scheduling** &gt; **Administration** &gt; **Trigger Rules** and select the subflow for a trigger rule to activate and use the subflow. For more information, see [Create an escalation trigger rule](../task/create-trigger-rule-oncall.md).
+To activate the subflows, you must navigate to **All** &gt; **On-Call Scheduling** &gt; **Administration** &gt; **Trigger Rules** and select the subflow for a trigger rule to activate and use the subflow. For more information, see [Create an escalation trigger rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-trigger-rule-oncall.md).
 
 For using subflows in Service Operations Workspace \(SOW\), SOW version must be 8.0 or later.
 
--   **[Subflows installed with On-Call Scheduling](subflows-installed-on-call-scheduling.md)**  
+-   **[Subflows installed with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/subflows-installed-on-call-scheduling.md)**  
 Subflows are installed with On-Call Scheduling to support building on-call escalation notification configurable flows.
 
-**Parent Topic:**[Reference for on-call scheduling](../../user-administration/concept/reference-for-on-call-scheduling.md)
+**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
 

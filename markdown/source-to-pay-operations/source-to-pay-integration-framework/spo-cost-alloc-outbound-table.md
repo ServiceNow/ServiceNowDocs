@@ -2,6 +2,7 @@
 title: Outbound Cost Allocation staging table
 description: The Outbound Cost Allocation \[sn\_spend\_intg\_outbound\_cost\_allocation\] staging table stores important data about the cost allocations created so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/spo-cost-alloc-outbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

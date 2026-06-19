@@ -2,6 +2,7 @@
 title: Generate resolution notes for a service problem case using Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Generate the resolution notes for a service problem case by using the resolution notes generation skill in the Now Assist for TMT application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -37,11 +38,11 @@ You can also generate resolution information on demand from the Now Assist panel
 
 4.  Navigate to the Resolution notes field in the resolve activity.
 
-    ![Generate resolution notes.](../image/resolution-notes-spmc.png)
+    \[Omitted image "resolution-notes-spmc.png"\] Alt text: Generate resolution notes.
 
-5.  Select the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
+5.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\].
 
-    Now Assist icon ![](../../../common/image/icon-ai-sparkle.png) generates a recommended text that is based on the context of the case.
+    Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] generates a recommended text that is based on the context of the case.
 
 6.  Select **Insert** to add the generated content into the resolution notes field.
 
@@ -62,5 +63,5 @@ You can also generate resolution information on demand from the Now Assist panel
 -   The case moves to the Resolved state.
 -   The resolution is proposed to the customer.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)
+**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

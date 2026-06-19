@@ -2,6 +2,7 @@
 title: Create and configure a scripted REST API for your custom chat integration
 description: Create a scripted REST API, add a scripted REST resource, set security and content negotiation, and set REST API rate limits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-rest-api-va-cccif.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Create a scripted REST API, add a scripted REST resource, set security and conte
 
 ## Before you begin
 
-[Map rich controls to the channel in your custom chat integration](map-rich-controls-va-cccif.md).
+[Map rich controls to the channel in your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/map-rich-controls-va-cccif.md).
 
 Role required: admin
 
@@ -293,7 +294,7 @@ Users restricted by this rule. Select **All users**.
 
 ## What to do next
 
-[Create the action scripts for your custom chat integration](create-action-scripts-va-cccif.md)
+[Create the action scripts for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-action-scripts-va-cccif.md)
 
-**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](create-adapter-for-virtual-agent.md)
+**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md)
 

@@ -1,8 +1,11 @@
 ---
 title: Register for the Consumer Portal
-description: Register for the Consumer Portal to gain access and create a consumer profile.
+description: Create a consumer account on the Consumer Portal to access self-service features, submit cases, and manage your profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/consumer-portal-registration.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -11,7 +14,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Register for the Consumer Portal
 
-Register for the Consumer Portal to gain access and create a consumer profile.
+Create a consumer account on the Consumer Portal to access self-service features, submit cases, and manage your profile.
 
 ## Before you begin
 

@@ -2,6 +2,7 @@
 title: Exploring Identity and Access Audit
 description: Use Identity and Access Audit to understand changes made to users, groups, roles, and ACLs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/explore-identity-audit.html
 release: australia
 product: Identity
 classification: identity

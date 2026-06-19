@@ -2,6 +2,7 @@
 title: Add an external dependency on planning console
 description: Add an external dependency between two projects on the planning console. Use the work breakdown structure \(WBS\) column of the planning console to create a dependency between the different projects tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/create-external-dependency-planning-console.html
 release: australia
 product: Project Management
 classification: project-management
@@ -29,7 +30,7 @@ Role required: it\_project\_manager
 
     -   Project: The predecessor project that the dependency is added from.
     -   Task: The task in the predecessor project that the dependency is added from.
-    -   Dependency Type: The [type](../concept/external-dependency-types.md) of external dependency: **Hard** or **Soft**.
+    -   Dependency Type: The [type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/external-dependency-types.md) of external dependency: **Hard** or **Soft**.
 4.  Select **OK**.
 
 
@@ -51,17 +52,17 @@ Role required: it\_project\_manager
     -   `dependency_type` is the **finish to start** dependency type that the application supports.
     -   `lag_time` is the amount of time, in days, to delay the start of the dependent task. This value can be positive or negative integers.
 
-**Note:** The external dependencies are displayed only when the **Hide External Dependencies** switch on the [planning console](../reference/r_PlanningConsoleTasks.md) is turned off. However, the **Dependency** column in the WBS section of the successor project still shows the value of the external dependency.
+**Note:** The external dependencies are displayed only when the **Hide External Dependencies** switch on the [planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_PlanningConsoleTasks.md) is turned off. However, the **Dependency** column in the WBS section of the successor project still shows the value of the external dependency.
 
 ## Example
 
 In the example below, an external dependency is created between two projects P1 and P2. P1T1 is a shadow task of predecessor project P1, and PRJ0010127\\1fs+0 is the external dependency value in **the Dependency** column of the planning console of the successor project P2.
 
-![External dependency example](../image/ExternalDependencyExample.png)
+\[Omitted image "ExternalDependencyExample.png"\] Alt text: External dependency example
 
 ## What to do next
 
-Check for any external dependency related [notifications](../reference/r_PlanningConsoleTasks.md) that may impact the project or its tasks.
+Check for any external dependency related [notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_PlanningConsoleTasks.md) that may impact the project or its tasks.
 
-**Parent Topic:**[Create a dependency from the planning console](t_CreateADependency.md)
+**Parent Topic:**[Create a dependency from the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateADependency.md)
 

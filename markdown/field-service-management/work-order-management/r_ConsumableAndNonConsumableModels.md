@@ -2,6 +2,7 @@
 title: Consumable and non-consumable models
 description: The transfer process is slightly different for consumables than it is for non-consumables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/r\_ConsumableAndNonConsumableModels.html
 release: australia
 product: Work Order Management
 classification: work-order-management

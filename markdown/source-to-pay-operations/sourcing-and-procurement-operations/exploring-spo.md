@@ -2,6 +2,7 @@
 title: Explore Sourcing and Procurement Operations
 description: Learn about the benefits and capabilities of Sourcing and Procurement Operations \(SPO\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/exploring-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -16,7 +17,7 @@ breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 
 Learn about the benefits and capabilities of Sourcing and Procurement Operations \(SPO\).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Sourcing and Procurement Operations overview
 
@@ -48,41 +49,41 @@ A workflow for sourcing and procurement operations might progress as follows:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Browse a managed product catalog and submit purchase requests through a streamlined, e-commerce-like shopping experience.|[Using Shopping Hub](../reference/use-shoppinghub-portal.md)|Shoppers|
-|Track the complete status and progress of purchases, including approvals, tasks, and delivery milestones, from a single view.|[My purchases on Shopping Hub](my-purchases.md)|Shoppers|
-|Submit purchase requests using AI-assisted conversational intake, without relying on procurement fulfillers.|[Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo.md)|Shoppers|
-|Manage sourcing requests, purchase requisitions, negotiations, and procurement cases from a centralized workspace.|[Source-to-Pay Workspace](../../source-to-pay-operations/concept/source-to-pay-ws-overview.md)|Procurement specialists|
-|Automate end-to-end sourcing and purchasing workflows, including approvals, task generation, and purchase order creation.|[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)|Procurement specialists|
-|Enable employees to raise procurement cases and allow procurement teams to manage and monitor fulfillment tasks.|[Procurement Case Management](psd-overview.md)|Procurement specialists, Shoppers|
-|Assess spend, operational efficiency, and team performance using pre-configured dashboards and metrics.|[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)|Procurement specialists, Procurement administrators|
+|Browse a managed product catalog and submit purchase requests through a streamlined, e-commerce-like shopping experience.|[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)|Shoppers|
+|Track the complete status and progress of purchases, including approvals, tasks, and delivery milestones, from a single view.|[My purchases on Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/my-purchases.md)|Shoppers|
+|Submit purchase requests using AI-assisted conversational intake, without relying on procurement fulfillers.|[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)|Shoppers|
+|Manage sourcing requests, purchase requisitions, negotiations, and procurement cases from a centralized workspace.|[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.md)|Procurement specialists|
+|Automate end-to-end sourcing and purchasing workflows, including approvals, task generation, and purchase order creation.|[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)|Procurement specialists|
+|Enable employees to raise procurement cases and allow procurement teams to manage and monitor fulfillment tasks.|[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)|Procurement specialists, Shoppers|
+|Assess spend, operational efficiency, and team performance using pre-configured dashboards and metrics.|[Performance Analytics for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/performance-analytics-for-spo.md)|Procurement specialists, Procurement administrators|
 
 ## Optimize digital purchasing workflows
 
 Deliver intelligent and contextual shopping experiences to automate work across organizational silos and systems.
 
-![SPO product platform](../image/psm-product-platform.png "The platform for digital purchasing workflows")
+\[Omitted image "psm-product-platform.png"\] Alt text: SPO product platform
 
 ## Helpful resources
 
 Here are some additional ServiceNow resources that can help you:
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-docs.svg) Release Notes**
+-   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
 
-    Learn more about what's new and changed. See the [Sourcing and Procurement Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sourcing-procurement-operations-rn.md).
+    Learn more about what's new and changed. See the .
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-learning.svg) ServiceNow University**
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
     Access real-time courses, self-paced training, and career resources, such as [SPO Implementation Essentials](https://learning.servicenow.com/lxp/en/source-to-pay-operations/sourcing-and-procurement-operations-spo?id=learning_course_prev&course_id=1ce4440197d2de145b0b7ec11153afb5) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon.svg) Best Practices**
+-   **\[Omitted image "dcx-icon.svg"\] Best Practices**
 
     Explore the Best Practices content library to access resources and proven guidance that help accelerate the implementation and deployment of Sourcing and Procurement Operations features at [Best Practices](https://mynow.servicenow.com/now/best-practices/home).
 
--   **![](../../../common/image/icon-youtube.svg) YouTube**
+-   **\[Omitted image "icon-youtube.svg"\] YouTube**
 
     Learn more about the value that you can add to your business with the Source-to-Pay suite. Watch [Multiply the value of your ServiceNow platform with Source-to-Pay workflows](https://www.youtube.com/watch?v=crQtfrCR6DY) on YouTube.
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg) ServiceNow Community**
+-   **\[Omitted image "dcx-icon-community.svg"\] ServiceNow Community**
 
     Connect with other Sourcing and Procurement Operations users at [ServiceNow Community](https://www.servicenow.com/community/source-to-pay-operations/ct-p/source-2-pay-operations).
 
@@ -91,32 +92,32 @@ Here are some additional ServiceNow resources that can help you:
 
 To learn more about configuring and using Sourcing and Procurement Operations, see:
 
--   [Configure Sourcing and Procurement Operations](configuring-spo.md)
--   [Use Sourcing and Procurement Operations](using-spo.md)
--   [Sourcing and Procurement Operations reference](../reference/spo-reference.md)
+-   [Configure Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-spo.md)
+-   [Use Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-spo.md)
+-   [Sourcing and Procurement Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-reference.md)
 
--   **[Shopping Hub](shopping-hub-overview.md)**  
+-   **[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)**  
 Shopping Hub \(sn\_spend\_uib\) is a self-service procurement portal that employees use to purchase products and services. It supports browsing internal catalog items and supplier catalogs, submitting purchase requests, and tracking orders from checkout through fulfillment.
--   **[My purchases on Shopping Hub](my-purchases.md)**  
-As a shopper, you can view all the purchases made from your shopping account by selecting My purchases from your Shopping Hub profile.
--   **[Shopping Hub Mobile](shoppinghub-mobile.md)**  
+-   **[Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-mobile.md)**  
 The ServiceNow Shopping Hub Mobile app enables you to engage with procurement organizations from a mobile device. Shopping Hub Mobile is available on the Now Mobile app and is supported on iOS and Android devices.
--   **[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)**  
+-   **[Performance Analytics for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/performance-analytics-for-spo.md)**  
 With this application, you can use a set of pre-configured metrics and dashboards to assess spend, operational efficiency, and team performance across the Sourcing and Procurement Operations product.
--   **[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)**  
+-   **[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)**  
 Sourcing and Purchasing Automation for ShoppingHub includes workflows that help support the user interface purchasing experience for the shopper. These workflows consist of sourcing requests, negotiations, purchase requisitions, contracts, purchase orders, receipts, and invoices.
--   **[Procurement Case Management](psd-overview.md)**  
+-   **[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)**  
 With the Procurement Case Management application, you can enable your employees to submit procurement cases and access your organization's knowledge base. You can also enable your procurement teams to automate their fulfillment processes so that they can manage and monitor the progress of their tasks.
--   **[Source-to-Pay Workspace](procurement-specialist-workspace.md)**  
+-   **[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-specialist-workspace.md)**  
 As a Procurement Specialist, you can easily complete your actionable tasks within the premises of an enhanced user experience with Source-to-Pay Workspace.
--   **[Spend and Savings Management](spo-spend-mgmt.md)**  
+-   **[Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-spend-mgmt.md)**  
 Category management is a strategic procurement approach that involves managing a group of related products or services to maximize value, optimize costs, and enhance supplier relationships. Essentially, it’s the structured management of category taxonomy, ensuring that goods and services are categorized, sourced, and managed efficiently to drive better decision-making and operational efficiency.
--   **[Sourcing Pipeline Management](spo-sourcing-pipeline-mgmt.md)**  
+-   **[Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.md)**  
 Sourcing Pipeline Management \(sn\_spend\_pipeline\) provides a centralized framework for creating, tracking, and executing sourcing initiatives through pipeline projects. It enhances efficiency through automated workflows, improves visibility into project progress, and simplifies savings tracking and forecasting.
--   **[Understanding Punchout](punchout-overview.md)**  
+-   **[Understanding Punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)**  
 PunchOut is a technology that connects a buyer’s eProcurement application directly to their supplier is third-party punchout suppliers’ eCommerce sites
--   **[AI Search for Sourcing and Procurement Operations](ai-search-sourcing-procurement-operations.md)**  
+-   **[AI Search for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ai-search-sourcing-procurement-operations.md)**  
 The AI Search application provides a modern consumer-grade search engine for the Service Portal, Employee Center \(EC\), Mobile, and Virtual Agent.
+-   **[Universal Request in Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/universal-request-spo.md)**  
+Universal Request \(UR\) in Sourcing and Procurement Operations enables employees to submit procurement-related requests through Employee Center, even when a request requires collaboration across multiple departments or teams. After submission, a routing agent creates a procurement case and routes it to the appropriate fulfillers for resolution.
 
-**Parent Topic:**[Sourcing and Procurement Operations](psm-overview.md)
+**Parent Topic:**[Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-overview.md)
 

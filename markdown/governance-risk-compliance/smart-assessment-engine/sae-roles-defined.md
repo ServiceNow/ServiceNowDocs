@@ -2,6 +2,7 @@
 title: Roles installed in Smart Assessment Engine
 description: Roles determine the permissions and access in the Smart Assessment Engine application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

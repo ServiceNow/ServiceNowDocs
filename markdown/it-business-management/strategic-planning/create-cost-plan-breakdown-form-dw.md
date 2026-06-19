@@ -2,13 +2,14 @@
 title: Create cost plan breakdown form
 description: The cost plan breakdown form information is used to create and edit a cost plan breakdown record for a cost plan of a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-cost-plan-breakdown-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Form field information, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create cost plan breakdown form

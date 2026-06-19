@@ -2,6 +2,7 @@
 title: Script includes installed with Contract Management
 description: Script includes are added with Contract Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/r\_ScriptIncludesIWContractMgmt.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -20,5 +21,5 @@ Script includes are added with Contract Management.
 |ConditionChecks|Checks for matching conditions, such as for contract expirations and license compliance, defined in the Condition Checks \[clm\_condition\_check\] table.|
 |ContractManagementUtils|Utilities that manage contract management actions, such as state transitions.|
 
-**Parent Topic:**[Components installed with Contract Management](r_ComponentsInstalledWContractMgmt.md)
+**Parent Topic:**[Components installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/r_ComponentsInstalledWContractMgmt.md)
 

@@ -2,6 +2,7 @@
 title: Using the mTLS protocol with a MID Server
 description: Make outbound REST and SOAP calls through a MID Server using mTLS. Store mTLS credential and certificate information on the instance, in a configuration file, or in an external vault. The MID Server retrieves the credential and certificate information and makes outbound REST and SOAP calls using the mTLS protocol.A MID Protocol Profile enables you to use the mTLS protocol with a MID Server. With a MID Protocol Profile, you can save your mTLS password and certificate information directly on the instance, in a configuration file, or in an external vault. The MID Server uses this information to make outbound REST and SOAP calls using mTLS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/mtls-mid-server.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -28,19 +29,19 @@ A MID Protocol Profile enables you to use the mTLS protocol with a MID Server. W
 ### Before you begin
 
 -   Role required: admin or action\_designer.
--   Configure and start a MID Server. For more information, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
+-   Configure and start a MID Server. For more information, see .
 
 ### About this task
 
 This task is divided into four steps.
 
-1.  Create a Connection &amp; Credential Alias. This task shows you how to create a basic Connection &amp; Credential alias. For detailed information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
-2.  Create a connection. This task shows you how to create a basic HTTP\(s\) connection. For more details, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
+1.  Create a Connection &amp; Credential Alias. This task shows you how to create a basic Connection &amp; Credential alias. For detailed information, see .
+2.  Create a connection. This task shows you how to create a basic HTTP\(s\) connection. For more details, see .
 3.  Create a MID Protocol Profile. The mTLS keystore and password may be stored on the instance \(in the MID Protocol Profile\), off the instance \(in the MID Server's `config.xml` file\), or in an external vault. ServiceNow supports CyberArk Password Vault for vault storage.
     -   If you're storing them on the instance, the keystore and password must also be on the MID Server.
-    -   If you're storing them in the config.xml file, make sure you add the mTLS protocol parameters to the file before you configure the MID Protocol Profile. The `config.xml` is in the `/agent` directory, in the MID Server installation directory. See [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
-    -   If you’re storing them in an external vault, make sure you set up your [CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md) before creating a MID Protocol Profile.
-4.  Test your connection with a [REST step](../../flow-designer/reference/rest-request-action-designer.md). This step is optional.
+    -   If you're storing them in the config.xml file, make sure you add the mTLS protocol parameters to the file before you configure the MID Protocol Profile. The `config.xml` is in the `/agent` directory, in the MID Server installation directory. See .
+    -   If you’re storing them in an external vault, make sure you set up your  before creating a MID Protocol Profile.
+4.  Test your connection with a [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md). This step is optional.
 
 ### Procedure
 
@@ -132,7 +133,7 @@ Option to use an external credential storage system.
 
  Select this option only if you’re using CyberArk to store your credential information.
 
- You may need to [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to view this option.
+ You may need to configure the form layout to view this option.
 
 </td></tr><tr><td>
 

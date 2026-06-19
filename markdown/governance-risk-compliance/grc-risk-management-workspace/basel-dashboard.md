@@ -2,6 +2,7 @@
 title: Basel dashboard
 description: The Basel dashboard is a medium to share the Basel reports with external regulators for Basel regulations. This dashboard is useful for banking and financial domains where it is compulsory to share the Basel reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/basel-dashboard.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -36,7 +37,7 @@ If you are on Vancouver or Washington DC, you can view the dashboard in the Next
 
 To view the dashboard, navigate to **All** &gt; **Risk Events** &gt; **Analytics Basel Dashboard**.
 
-![Basel Dashboard in the Next Experience.](../../../use/dashboards/image/basel-dashboard-washingtondc.gif "Basel Dashboard in the Next Experience")
+\[Omitted image "basel-dashboard-washingtondc.gif"\] Alt text: Basel Dashboard in the Next Experience.
 
 The Basel Dashboard has two tabs:
 
@@ -51,5 +52,5 @@ The Basel Dashboard has two tabs:
     -   Open Risk Events by Line of Business
     -   Closed Risk Events by Line of Business
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](../../../use/dashboards/application-content-packs/grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

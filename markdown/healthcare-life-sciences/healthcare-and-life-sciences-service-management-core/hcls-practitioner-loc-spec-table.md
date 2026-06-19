@@ -2,6 +2,7 @@
 title: Practitioner location specialty table
 description: The Practitioner location specialty \[sn\_hcls\_pract\_location\_specialty\] table stores the details about types of services that a practitioner can provide for an organization at a specific location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-practitioner-loc-spec-table.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Practitioner location specialty \[sn\_hcls\_pract\_location\_specialty\] tab
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 <table id="table_wss_rlz_mpb"><thead><tr><th>
 
@@ -109,5 +110,5 @@ Reference
 Specialty of the practitioner.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

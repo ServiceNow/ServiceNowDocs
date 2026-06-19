@@ -2,6 +2,7 @@
 title: Workforce Optimization for ITSM Channels landing page
 description: Manage queues and analyze the status of incidents and chats using the Channels landing page. You can also monitor team performance and work assignments from one location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/channels-itsm-manager-configurable-landing-page.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -15,7 +16,7 @@ breadcrumb: [Landing pages, Advanced configurations, Workforce Optimization for 
 
 Manage queues and analyze the status of incidents and chats using the Channels landing page. You can also monitor team performance and work assignments from one location.
 
-![Channels Landing Page](../../../product/configurable-workforce-optimization-itsm/image/channels-landing-page1.png)
+\[Omitted image "channels-landing-page1.png"\] Alt text: Channels Landing Page
 
 ## End user and roles
 
@@ -60,18 +61,18 @@ As a channel manager, you can monitor key information such as the number of SLAs
 
 |Title|Type|Source table or database view|Description|
 |-----|----|-----------------------------|-----------|
-|Open Critical|Single score![Single score](../../performance-analytics/image/single-score.png)|Incident \[incident\]|Number of open incidents with critical priority.|
-|Unassigned|Single score![Single score](../../performance-analytics/image/single-score.png)|Incident \[incident\]|Number of open incidents that have not been assigned.|
-|Escalated|Single score![Single score](../../performance-analytics/image/single-score.png)|Incident \[incident\]|Number of open incidents that have been escalated.|
-|SLAs breached|Single score![Single score](../../performance-analytics/image/single-score.png)|Task SLA \[task\_sla\]|Number of open incidents with Service Level Agreements that have been breached.|
-|Updated &gt; 7 days|Single score![Single score](../../performance-analytics/image/single-score.png)|Incident \[incident\]|Number of open incidents that have not been updated in the last 7 days.|
-|Open for 30 days|Single score![Single score](../../performance-analytics/image/single-score.png)|Incident \[incident\]|Number of incidents that have not been updated in the last 30 days.|
-|In-progress chats|Single score![Single score](../../performance-analytics/image/single-score.png)| |Number of open interactions where agents are currently on a chat with customers resolving issues.|
-|Help requested|Single score![Single score](../../performance-analytics/image/single-score.png)| |Number of current open interactions where agents are requesting help from a manager while on a chat with customers to resolve issues.|
-|Agent distribution|Bar chart![Bar chart](../../../reuse/reporting/image/bar-trend.svg)|Presence States \[awa\_presence\_state\]|The current presence status of agents distributed on work assignments.|
-|Waiting work items|Single score![Single score](../../performance-analytics/image/single-score.png)| |Number of work items that are currently waiting to be assigned.|
-|Available agents|Single score![Single score](../../performance-analytics/image/single-score.png)| |Number of agents currently available to work on work items.|
-|Total open incidents|Bar chart![Bar chart](../../../reuse/reporting/image/bar-trend.svg)| |Total number of incidents that are in various workflow states and have not been closed.|
+|Open Critical|Single score\[Omitted image "single-score.png"\] Alt text: Single score|Incident \[incident\]|Number of open incidents with critical priority.|
+|Unassigned|Single score\[Omitted image "single-score.png"\] Alt text: Single score|Incident \[incident\]|Number of open incidents that have not been assigned.|
+|Escalated|Single score\[Omitted image "single-score.png"\] Alt text: Single score|Incident \[incident\]|Number of open incidents that have been escalated.|
+|SLAs breached|Single score\[Omitted image "single-score.png"\] Alt text: Single score|Task SLA \[task\_sla\]|Number of open incidents with Service Level Agreements that have been breached.|
+|Updated &gt; 7 days|Single score\[Omitted image "single-score.png"\] Alt text: Single score|Incident \[incident\]|Number of open incidents that have not been updated in the last 7 days.|
+|Open for 30 days|Single score\[Omitted image "single-score.png"\] Alt text: Single score|Incident \[incident\]|Number of incidents that have not been updated in the last 30 days.|
+|In-progress chats|Single score\[Omitted image "single-score.png"\] Alt text: Single score| |Number of open interactions where agents are currently on a chat with customers resolving issues.|
+|Help requested|Single score\[Omitted image "single-score.png"\] Alt text: Single score| |Number of current open interactions where agents are requesting help from a manager while on a chat with customers to resolve issues.|
+|Agent distribution|Bar chart\[Omitted image "bar-trend.svg"\] Alt text: Bar chart|Presence States \[awa\_presence\_state\]|The current presence status of agents distributed on work assignments.|
+|Waiting work items|Single score\[Omitted image "single-score.png"\] Alt text: Single score| |Number of work items that are currently waiting to be assigned.|
+|Available agents|Single score\[Omitted image "single-score.png"\] Alt text: Single score| |Number of agents currently available to work on work items.|
+|Total open incidents|Bar chart\[Omitted image "bar-trend.svg"\] Alt text: Bar chart| |Total number of incidents that are in various workflow states and have not been closed.|
 
-**Parent Topic:**[Workforce Optimization for ITSM landing pages](../../../product/configurable-workforce-optimization-itsm/concept/configurable-wfo-itsm-landing-pages.md)
+**Parent Topic:**[Workforce Optimization for ITSM landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-landing-pages.md)
 

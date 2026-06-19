@@ -2,6 +2,7 @@
 title: Authenticate an Edge Encryption proxy server
 description: Specify that a proxy server is a trusted source so that Edge Encryption can process requests coming from that proxy server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/authenticate-edge-proxy.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -43,5 +44,5 @@ The proxy moves from **Unauthenticated** to **Pending** to **Authenticated**. Th
 
 **Note:** If you stop and restart the proxy, the proxy remains **Authenticated** and restarts successfully.
 
-**Parent Topic:**[Installing Edge Encryption](../concept/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

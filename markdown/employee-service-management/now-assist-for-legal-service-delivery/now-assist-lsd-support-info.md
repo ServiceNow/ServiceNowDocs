@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Legal Service Delivery \(LSD\)
 description: Get a quick overview of the important information that is related to the Now Assist for Legal Service Delivery \(LSD\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-support-info.html
 release: australia
 product: Now Assist for Legal Service Delivery
 classification: now-assist-for-legal-service-delivery
@@ -31,7 +32,7 @@ You need to install the following applications manually:
 -   Legal Counsel Center \(sn\_lg\_cf\_workspace\) - Version 1.5.1 and above
 -   Legal Matter Management \(sn\_lg\_matter\) – Required for Legal Matter summarization
 
-For more information, see [Configure Now Assist for Legal Service Delivery \(LSD\)](now-assist-lsd-configuring.md).
+For more information, see [Configure Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-configuring.md).
 
 ## Supported user interfaces
 
@@ -74,5 +75,5 @@ Conversational intake
 Now Assist in Virtual Agent
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Explore Now Assist for Legal Service Delivery \(LSD\)](now-assist-lsd-exploring.md)
+</table>**Parent Topic:**[Explore Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-exploring.md)
 

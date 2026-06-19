@@ -2,6 +2,7 @@
 title: Organizing your healthcare locations
 description: Your healthcare locations should be organized based on the physical layouts of the locations in which your care teams operate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/untitled3.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -17,7 +18,7 @@ Your healthcare locations should be organized based on the physical layouts of t
 
 When you’re creating a location, you can navigate the existing location hierarchy to select where the location being newly created should reside:
 
-![The location selection panel within Healthcare Operations Core.](../image/hco-locations-hierarchy-choose.png)
+\[Omitted image "hco-locations-hierarchy-choose.png"\] Alt text: The location selection panel within Healthcare Operations Core.
 
 When a location is created, the **Location hierarchy** panel displays up to three parent levels higher within a location's hierarchy.
 

@@ -2,6 +2,7 @@
 title: XMLStreamingAPI - Scoped
 description: Builds a large streaming XML payload for use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as an XML string for a non-streaming option.Closes the XMLStreamingAPI object. You must call this method to close the stream after building your XML document.Ends pretty print XML formatting.Adds pretty print formatting to an XML element or tree of elements.Ends the structure of your XML document.Adds a closing tag to an XML element.Returns the XML document as a string.Begins building an XML document.Adds a starting tag for an XML element.Adds a list of nested elements with predefined text to your streaming XML document.Adds an attribute to an element in your XML document.Adds attributes to an element in your XML document.Adds CDATA to your XML document.Adds a CDATA element to your XML document.Adds text to your XML document.Adds a comment to your XML document.Adds a document type definition to your XML document.Adds a namespace to an element in your XML document.Adds namespaces to the root element in your XML document.Adds a single XML element to your XML document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/XMLStreamingAPIScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Builds a large streaming XML payload for use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as an XML string for a non-streaming option.
 
-Use these methods in a Workflow Studio Script step with the `sn_ih` namespace identifier. For example, you can use this API to create an XML payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see the Workflow Studio [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md).
+Use these methods in a Workflow Studio Script step with the `sn_ih` namespace identifier. For example, you can use this API to create an XML payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see the Workflow Studio Script step.
 
 **Note:** You can only use this API within the Workflow Studio environment.
 
-There is no constructor for this class. Instead, you must call the build\(\) method in the [XMLStreamingBuilder](../../XMLStreamingBuilder/concept/XMLStreamingBuilderScopedAPI.md#) class to return an XMLStreamingAPI object.
+There is no constructor for this class. Instead, you must call the build\(\) method in the [XMLStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.md) class to return an XMLStreamingAPI object.
 
 ## API call order
 
@@ -141,7 +142,7 @@ Output:
 </phoneNumber>
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## XMLStreamingAPI - close\(\)
 
@@ -381,7 +382,7 @@ try {
 
 Returns the XML document as a string.
 
-To return the XML document as a string, don't call the getAttachementId\(\) method in the XMLStreamingBuilder class. For more information, see [XMLStreamingBuilder - Scoped](../../XMLStreamingBuilder/concept/XMLStreamingBuilderScopedAPI.md#).
+To return the XML document as a string, don't call the getAttachementId\(\) method in the XMLStreamingBuilder class. For more information, see [XMLStreamingBuilder - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -855,7 +856,7 @@ Optional. Map of child elements and values that the CDATA element includes. For 
 }
 ```
 
-You must associate an XML element's prefix with a namespace using [writeNamespace\(\)](XMLStreamingAPIScopedAPI.md#).
+You must associate an XML element's prefix with a namespace using [writeNamespace\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/XMLStreamingAPIScopedAPI.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1162,7 +1163,7 @@ Optional. Map of prefixes and values associated with the XML element. For exampl
 }
 ```
 
-You must associate an XML element's prefix with a namespace using [writeNamespace\(\)](XMLStreamingAPIScopedAPI.md#).
+You must associate an XML element's prefix with a namespace using [writeNamespace\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/XMLStreamingAPIScopedAPI.md).
 
 </td></tr></tbody>
 </table>|Type|Description|

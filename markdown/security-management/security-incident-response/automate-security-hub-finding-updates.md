@@ -2,12 +2,13 @@
 title: Automate the AWS Security Hub finding updates and closures by the SIR incident status
 description: Automate the updates and closures of findings on AWS Security Hub according to the SIR incident status. The AWS Security Hub integration has a bi-directional interface that enables findings ingestion to create security incidents and to update the findings' status according to the changes in the SIR incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/automate-security-hub-finding-updates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Amazon Web Services \(AWS\) Security Hub integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 

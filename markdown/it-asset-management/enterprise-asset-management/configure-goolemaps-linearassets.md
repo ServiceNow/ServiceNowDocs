@@ -2,6 +2,7 @@
 title: Configure Google Maps to integrate with linear assets
 description: Configure the integration between Google Maps and geomaps, a ServiceNow component, that provides Google Maps functionality while working on linear assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/configure-goolemaps-linearassets.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sys\_admin
 
 ## About this task
 
-sn-geo-map is the UI component used to support the map visualization in linear assets. For more details on geomaps, see the section titled Geo Maps for linear assets in [Linear assets in Enterprise Asset Management](../concept/using-linear-assets.md).
+sn-geo-map is the UI component used to support the map visualization in linear assets. For more details on geomaps, see the section titled Geo Maps for linear assets in [Linear assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/using-linear-assets.md).
 
 ## Procedure
 

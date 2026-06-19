@@ -2,6 +2,7 @@
 title: Components installed with Change Management - Standard Change Template Intelligence
 description: Several types of components are installed with activation of the Change Management - Standard Change Template Intelligence plugin that includes tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-with-std-chg-temp-ml.html
 release: australia
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Request Change Management - Standard Change Template Intelligence, 
 
 Several types of components are installed with activation of the Change Management - Standard Change Template Intelligence plugin that includes tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 
@@ -52,5 +53,5 @@ Standard Change Template Proposal Solution\[chg\_ml\_prop\_sctp\_solution\]
 Solution Definitions configured for the Standard Change Template Proposal Solution feature.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request Change Management - Standard Change Template Intelligence](../task/request-cm-std-chg-template-intelligence.md)
+</table>**Parent Topic:**[Request Change Management - Standard Change Template Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/request-cm-std-chg-template-intelligence.md)
 

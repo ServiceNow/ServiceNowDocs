@@ -2,6 +2,7 @@
 title: Manage Microsoft Word document templates
 description: Manage Microsoft Word document templates centrally using the Admin module in the BCM application. This feature enables you to create or edit templates for BIA, BCP, or other events, providing customized and controlled document generation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/edit-report-temp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,15 +26,15 @@ Role required: sn\_bcm.admin
 
     Microsoft Word template form is displayed.
 
-    ![Microsoft Word templates form.](../image/word-temp-new-record.png)
+    \[Omitted image "word-temp-new-record.png"\] Alt text: Microsoft Word templates form.
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields, see [Word template form](../reference/word-template-form.md).
+    For more information on the fields, see [Word template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/word-template-form.md).
 
     Microsoft Word templates provided with an instance have two categories: BCM and BIA Smart Assessment.
 
-    ![Microsoft Word templates.](../image/temp-two-categories.png)
+    \[Omitted image "temp-two-categories.png"\] Alt text: Microsoft Word templates.
 
     **Note:** Verify that you’re updating Microsoft Word template with the BCM category.
 
@@ -41,7 +42,7 @@ Role required: sn\_bcm.admin
 
     The Edit Microsoft Word template window is displayed with a message: `The templates cannot be used for report generation while in an editing state. Are you sure you want to edit?`
 
-    ![Edit a template.](../image/edit-word-temp.png)
+    \[Omitted image "edit-word-temp.png"\] Alt text: Edit a template.
 
 5.  Select **OK**.
 
@@ -63,7 +64,7 @@ Role required: sn\_bcm.admin
 
     The process to update a pre-defined template is shown in the example.
 
-    ![Update the template.](../image/update-word-temp.png)
+    \[Omitted image "update-word-temp.png"\] Alt text: Update the template.
 
 7.  To delete the template, select the **Delete** in the record.
 

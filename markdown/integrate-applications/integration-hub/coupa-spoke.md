@@ -2,6 +2,7 @@
 title: Coupa Spoke
 description: Manage business spend and automate approval, contract, inventory, purchase order, requisition, supplier, and user management in Coupa from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/coupa-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage business spend and automate approval, contract, inventory, purchase order
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Coupa spoke v4.15 is the latest version.
+Coupa spoke v4.16.0 is the latest version.
 
 ## Supported versions
 
@@ -58,7 +59,7 @@ The Coupa application has the following modules.
 
 ## Available sample conversational subflows
 
-Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [Now Assist in Conversational Spokes](../../integrationhub/concept/conv-spokes-na.md).
+Install Now Assist for Conversational Spokes and start using the conversational ability of Integration Hub spokes. For more information, see [Now Assist in Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conv-spokes-na.md).
 
 |Conversational subflow|Description|
 |----------------------|-----------|
@@ -170,7 +171,7 @@ Look up Contracts Stream
 
 Looks up the required contract records in Coupa using the Coupa query.
 
-</td></tr><tr><td rowspan="8">
+</td></tr><tr><td rowspan="9">
 
 Primary Data Management
 
@@ -237,6 +238,14 @@ Look up Advanced Shipment Notices by Purchase Order Line ID Stream
 </td><td>
 
 Retrieves details of all advance shipment notices for the specified purchase order line ID.**Note:** This is a data stream action.
+
+</td></tr><tr><td>
+
+Look up Accounts Stream
+
+</td><td>
+
+Retrieves details of the chart of accounts in Coupa.
 
 </td></tr><tr><td rowspan="9">
 
@@ -314,7 +323,7 @@ Void Receipt
 
 Makes the required receipt void.
 
-</td></tr><tr><td rowspan="5">
+</td></tr><tr><td rowspan="7">
 
 Invoice Management
 
@@ -357,6 +366,22 @@ Look up Invoice Payments Details Stream
 </td><td>
 
 Retrieves information about the required invoice payment details in Coupa.
+
+</td></tr><tr><td>
+
+Bypass Approval
+
+</td><td>
+
+Bypasses the approvals for the specified invoice in Coupa.
+
+</td></tr><tr><td>
+
+Submit Invoice
+
+</td><td>
+
+Submits the specified invoice in Coupa.
 
 </td></tr><tr><td rowspan="2">
 
@@ -542,7 +567,7 @@ Look up Sourcing Events Stream
 
 Retrieves details of the required sourcing event in Coupa.
 
-</td></tr><tr><td rowspan="7">
+</td></tr><tr><td rowspan="10">
 
 Supplier Management
 
@@ -602,6 +627,30 @@ Look up Suppliers Payment Stream
 
 Retrieves details of the required supplier payments in Coupa.
 
+</td></tr><tr><td>
+
+Create Supplier Payment Information
+
+</td><td>
+
+Creates supplier payment information in Coupa.
+
+</td></tr><tr><td>
+
+Update Supplier Payment Information
+
+</td><td>
+
+Updates supplier payment information in Coupa.
+
+</td></tr><tr><td>
+
+Get Supplier Fields \(Metadata\)
+
+</td><td>
+
+Retrieves the list of fields in the Coupa Suppliers table.**Note:** This is a metadata action and doesn't make an API call to Coupa.
+
 </td></tr><tr><td rowspan="3">
 
 User Management
@@ -635,16 +684,16 @@ Resets password of the required user in Coupa.
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 
@@ -663,7 +712,7 @@ Available AI agents include:
 |Coupa catalog management AI agent|Creates a catalog item in Coupa.|
 |Coupa contract management AI agent|Manages contracts \(that is, looks up or creates a contract\) in Coupa.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

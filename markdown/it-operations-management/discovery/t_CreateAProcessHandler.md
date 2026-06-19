@@ -2,6 +2,7 @@
 title: Create a Discovery process handler
 description: Process handlers prevent the creation of duplicate CIs by filtering out parameters known to have inconsistent values before process classification occurs. You can create new classifiers or edit existing ones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_CreateAProcessHandler.html
 release: australia
 product: Discovery
 classification: discovery
@@ -77,7 +78,7 @@ Script
 
 Enter the JavaScript you want to run on the current record in the Running Process \[cmdb\_running\_process\] table when the **Condition** is met. The `current` variable is a reference to a Running Process GlideRecord. The script should examine `current.parameters` for certain values, perform string replacement to manipulate these values, and save the result to `current.key_parameters`. ServiceNow uses the **key\_parameters** field, together with the process name, to determine whether the process is unique on a specific machine.
 
-See [On classification script objects for Discovery](../reference/r_OnClassificationScriptObjects.md) for additional options.
+See [On classification script objects for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_OnClassificationScriptObjects.md) for additional options.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.
@@ -85,5 +86,5 @@ See [On classification script objects for Discovery](../reference/r_OnClassifica
 
 ## What to do next
 
-Run a discovery through the [Discovery Schedule](t_CreateADiscoverySchedule.md#) to search for applications and then [verify the results in the CMDB](../concept/c_Software.md) for the applications that are found.
+Run a discovery through the [Discovery Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to search for applications and then [verify the results in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md) for the applications that are found.
 

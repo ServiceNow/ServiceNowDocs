@@ -2,6 +2,7 @@
 title: PersonalAuthAPI - Scoped
 description: The PersonalAuthAPI provides methods that enable you to manage access/refresh tokens for personal authentication credentials.Instantiates a new PersonalAuthAPI object.Returns the OAuth initiator URL for the personal authentication credential associated with a specified alias.Checks whether a valid access/refresh token exists for the personal authorization credential associated with a specified alias.Revokes an existing access/refresh token for the personal authentication credential associated with a specified alias.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PersonalAuthAPIScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The PersonalAuthAPI provides methods that enable you to manage access/refresh to
 
 To access this API the Personal Authentication \(com.snc.sn\_ihub\_personal\_auth\) plugin must be activated. This API runs in the `sn_cc` namespace.
 
-Before accessing this API, Personal Authentication must be configured on your instance. For additional information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+Before accessing this API, Personal Authentication must be configured on your instance. For additional information, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## PersonalAuthAPI - PersonalAuthAPI\(\)
 

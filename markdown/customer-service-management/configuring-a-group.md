@@ -2,7 +2,10 @@
 title: Configuring a group
 description: Set up the group by adding members and assigning them the necessary roles. The group members inherit the roles of the group, so you don’t have to assign roles to each member separately. This setup enables members within a group to perform specific field service tasks, filtered by location, skills, product models, and so on.Add a member to a group so that the member inherits all the roles assigned to the group.You can assign one or more roles to a group to grant required access to the group members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-a-group.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -36,7 +39,7 @@ Role required: user\_admin
 
 ### What to do next
 
-Assign the required roles to the members of the group. For more information, see [Assign required roles](configuring-a-group.md#).
+Assign the required roles to the members of the group. For more information, see [Assign required roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-a-group.md).
 
 ## Assign required roles
 
@@ -61,5 +64,5 @@ Role required: user\_admin
 
 ### Result
 
-The roles are successfully added to the assignment group. You can now start associating these groups to a business location. For more information, see [Associate a group to a business location](../task/associate-a-group-to-a-business-location-so.md).
+The roles are successfully added to the assignment group. You can now start associating these groups to a business location. For more information, see [Associate a group to a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-a-group-to-a-business-location-so.md).
 

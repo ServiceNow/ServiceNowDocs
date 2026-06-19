@@ -2,6 +2,7 @@
 title: Set up browser policies
 description: Set up the browser policies to enable access to the Browser Extension for Employee Center within the supported browsers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-chrome-policy-ecbe.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

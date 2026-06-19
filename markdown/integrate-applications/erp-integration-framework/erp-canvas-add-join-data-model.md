@@ -2,6 +2,7 @@
 title: Add joins between ERP tables
 description: Link multiple ERP \(Enterprise Resource Planning\) tables from the system of record to build an ERP model in Zero Copy Connector for ERP using table joins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,7 +19,7 @@ Link multiple ERP \(Enterprise Resource Planning\) tables from the system of rec
 
 ## Before you begin
 
-Table joins require a read operation that uses table read entities. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](erpc-manage-models-read-op.md).
+Table joins require a read operation that uses table read entities. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 When you add table joins, the parent table is the first table listed on the **Manage entities** tab of the ERP model manager page. Child tables pull information from the parent table.
 
@@ -39,7 +40,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon ![](../image/erpc-data-model-icon.png) in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
 
 3.  Select the model that you want to add a join to.
 
@@ -49,9 +50,9 @@ Join fields defines the common attribute or key used to connect records in a chi
 
 6.  Add the tables to join as **Table read** operation entities if they haven't yet been added to the model.
 
-    For more information, see [Add an entity to a model](../concept/add-an-entity-to-model.md).
+    For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
-    ![Multiple tables are joined.](../image/erpc-tables-with-joins-ys2.png)
+    \[Omitted image "erpc-tables-with-joins-ys2.png"\] Alt text: Multiple tables are joined.
 
 7.  Rearrange the tables on the **Manage entities** tab to place the parent table for the join as the first table listed on the ERP model manager page.
 
@@ -83,21 +84,21 @@ Join fields defines the common attribute or key used to connect records in a chi
 
     5.  Select **Save**.
 
-    ![Specify inputs page showing all tables and fields.](../image/erpc-join-parameters.png "Table join fields")
+    \[Omitted image "erpc-join-parameters.png"\] Alt text: Specify inputs page showing all tables and fields.
 
 10. Add or update any output parameters as needed in the Output parameters section.
 
     The joined parameter that you added to as an input is automatically added to the **Choose output** tab.
 
-    For more information, see [Choose output parameters for a model](erp-canvas-manage-outputs.md).
+    For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 
 ## Result
 
 After you're done creating table joins, you can specify where the returned ERP data goes, and build flows that retrieve and output the data. For more information, see the following topics:
 
--   [Specifying where ERP system data is saved](../concept/erpc-call-response-data.md)
--   [Building flows to read or update the ERP system](../concept/erp-canvas-build-flow-operation.md)
+-   [Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-call-response-data.md)
+-   [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md)
 
-**Parent Topic:**[Building and managing models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

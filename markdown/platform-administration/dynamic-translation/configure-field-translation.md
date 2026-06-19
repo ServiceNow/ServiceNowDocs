@@ -2,6 +2,7 @@
 title: Enable dynamic translation for a field
 description: Translate the dynamically generated text for a field on Platform forms by enabling the field-level dynamic translation. You can translate the text based on the preferred language of a user​.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/configure-field-translation.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -58,10 +59,10 @@ Dynamic Translation supports only the following field types:
 
 6.  Click **Update**.
 
-    ![Image for dynamic translation for a field](../image/Dynamic-translation-orlando.gif "Dynamic translation for a field")
+    \[Omitted image "Dynamic-translation-orlando.gif"\] Alt text: Image for dynamic translation for a field
 
-    A translate icon ![translate icon](../image/Translation.png) appears next to the field. The logged-in user can click this icon ![translate icon](../image/Translation.png) to translate the text to the user's preferred language using the default translation service provider specified in the translator configurations. For information about error messages during translation, see [Error messages in Dynamic Translation](../reference/error-messages-field-translation.md).
+    A translate icon \[Omitted image "Translation.png"\] Alt text: translate icon appears next to the field. The logged-in user can click this icon \[Omitted image "Translation.png"\] Alt text: translate icon to translate the text to the user's preferred language using the default translation service provider specified in the translator configurations. For information about error messages during translation, see [Error messages in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/error-messages-field-translation.md).
 
-    **Note:** If you do not have any default translator configuration, you cannot view the translate icon ![translate icon](../image/Translation.png).
+    **Note:** If you do not have any default translator configuration, you cannot view the translate icon \[Omitted image "Translation.png"\] Alt text: translate icon.
 
 

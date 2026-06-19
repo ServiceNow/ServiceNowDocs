@@ -2,6 +2,7 @@
 title: Define model state transitions
 description: Define the transition conditions to control how a compliance case traverses through the different workflow states by using the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/create-a-model-state-transition-for-compliance-case.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -45,13 +46,13 @@ The state transitions are a list of conditions for entering or exiting each stat
 
 9.  On the form, fill in the fields.
 
-    For a description of the field values on the GRC model state transition form, see [GRC Model State Transition Condition form](../reference/grc-model-state-transition-condition-form.md).
+    For a description of the field values on the GRC model state transition form, see [GRC Model State Transition Condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/grc-model-state-transition-condition-form.md).
 
 10. Select **Submit**.
 
 
--   **[GRC Model State Transition Condition form](../reference/grc-model-state-transition-condition-form.md)**  
+-   **[GRC Model State Transition Condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/grc-model-state-transition-condition-form.md)**  
 Use the GRC Model State Transition Condition form to define the transition conditions to control how a compliance case or request traverses through the different workflow states by using the GRC: Compliance Case Management application.
 
-**Parent Topic:**[Configuring Compliance Case Management](../concept/configure-compliance-case-management.md)
+**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
 

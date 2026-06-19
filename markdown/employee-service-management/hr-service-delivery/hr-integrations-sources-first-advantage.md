@@ -2,6 +2,7 @@
 title: Provide source credentials for the First Advantage service
 description: Provide the source and SOAP credentials for the First Advantage service so that it can be accessed for integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-integrations-sources-first-advantage.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -117,9 +118,9 @@ Enables the debug log to display responses from the third-party system. Turn on 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Integrating with the First Advantage service](../concept/hr-integrations-with-first-advantage.md)
+**Parent Topic:**[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
 
-**Previous topic:**[Integrating with the First Advantage service](../concept/hr-integrations-with-first-advantage.md)
+**Previous topic:**[Integrating with the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integrations-with-first-advantage.md)
 
-**Next topic:**[Verify integration for the First Advantage service](verify-base-inbound-integration-for-first-advantage.md)
+**Next topic:**[Verify integration for the First Advantage service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/verify-base-inbound-integration-for-first-advantage.md)
 

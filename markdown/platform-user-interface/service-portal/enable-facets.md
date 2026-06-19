@@ -2,6 +2,7 @@
 title: Enable search facets
 description: In new instances, search facets are enabled by default. If upgrading from a previous release, enable search facets by activating a record in the Page Route Maps \[sp\_page\_route\_map\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-facets.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -36,7 +37,7 @@ Search facets render in the Faceted Search widget on the sp\_search page. To ena
 
 ## Result
 
-When using search in Service Portal, results render in the sp\_search page. Add facets to the search source to enable end users to filter search results. To learn more about facets, see [Add facets to a simple search source](create-search-filter.md).
+When using search in Service Portal, results render in the sp\_search page. Add facets to the search source to enable end users to filter search results. To learn more about facets, see [Add facets to a simple search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-search-filter.md).
 
-**Parent Topic:**[Zing search in Service Portal](../concept/zing-search-service-portal.md)
+**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
 

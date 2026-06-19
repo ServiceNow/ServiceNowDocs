@@ -2,6 +2,7 @@
 title: Reference
 description: Reference topics provide additional information about the HR Service Delivery Advanced Integration with Workday, including lists and forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,10 +16,10 @@ breadcrumb: [HR Service Delivery Advanced Integration with Workday, Integration 
 
 Reference topics provide additional information about the HR Service Delivery Advanced Integration with Workday, including lists and forms.
 
--   **[Components installed with HR Service Delivery Advanced Integration with Workday](installed-with-awd.md)**  
+-   **[Components installed with HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-awd.md)**  
 Several types of components are installed with activation of the HR Service Delivery Advanced Integration with Workday, including tables, user roles, and scheduled jobs.
--   **[Subflow-agent mapping for HR Service Delivery Advanced Integration with Workday](awd-agent-mapping.md)**  
+-   **[Subflow-agent mapping for HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/awd-agent-mapping.md)**  
 View the subflow-agent mapping for HR Service Delivery Advanced Integration with Workday.
 
-**Parent Topic:**[Integration of HR Service Delivery with third-party systems](../concept/integrate-third-party-systems.md)
+**Parent Topic:**[Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-third-party-systems.md)
 

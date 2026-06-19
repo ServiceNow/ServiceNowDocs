@@ -2,6 +2,7 @@
 title: Schedule incident retrieval
 description: Set a schedule that determines how frequently Microsoft Defender incidents are pulled into SIR to ensure timely and efficient ingestion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-defender-schedule-inc.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -90,12 +91,12 @@ Since date
 The date since historical incidents were ingested from Microsoft.
 
 </td></tr></tbody>
-</table>    ![Schedule incident retrieval](../image/ms-def-scheduling.png)
+</table>    \[Omitted image "ms-def-scheduling.png"\] Alt text: Schedule incident retrieval
 
 3.  Select **Continue**.
 
 
 ## What to do next
 
-[Automate incident updates and closures](ms-defender-additional-op.md)
+[Automate incident updates and closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-defender-additional-op.md)
 

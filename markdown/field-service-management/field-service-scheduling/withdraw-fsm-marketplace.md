@@ -2,6 +2,7 @@
 title: Withdraw from a request on Field Service Marketplace
 description: Withdraw from a request you responded to on Field Service Marketplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/withdraw-fsm-marketplace.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

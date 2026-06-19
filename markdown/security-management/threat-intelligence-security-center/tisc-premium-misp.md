@@ -2,11 +2,12 @@
 title: Configure custom MISP API feed
 description: The Malware Information Sharing Platform \(MISP\) API feed enables you to import events from the MISP server, along with their associated attributes and objects, into the TISC library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-premium-misp.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-03-05"
 reading_time_minutes: 3
 breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
@@ -27,7 +28,7 @@ Role required: sn\_sec\_tisc.admin
 
     **Note:** By default, the MISP feed is inactive. You must edit the configuration to enable the feed.
 
-    ![Integrations interface showing threat intelligence feeds with MISP Feed enabled and CrowdStrike Feed inactive.](../image/tisc-misp-premium-feed.png)
+    \[Omitted image "tisc-misp-premium-feed.png"\] Alt text: Integrations page showing enabled MISP Feed and inactive CrowdStrike Feed configurations.
 
 3.  Select the **Edit** button on the **MISP Feed** card.
 
@@ -39,19 +40,19 @@ Role required: sn\_sec\_tisc.admin
 
 7.  Navigate to **Additional Settings** to configure the filters to fetch the data from MISP.
 
-    ![MISP feed- additional settings](../image/tisc-misp-additional-settings.png)
+    \[Omitted image "tisc-misp-additional-settings.png"\] Alt text: MISP feed- additional settings
 
     The **Additional Settings** tab is used to set up filters that determine which MISP events are ingested.
 
 8.  Select **Edit Settings**.
 
-    ![Edit Additional Settings dialog showing filters for MISP events including creator organization, tag name, threat level, and distribution level fields.](../image/tisc-misp-additional-settings-edit.png)
+    \[Omitted image "tisc-misp-additional-settings-edit.png"\] Alt text: Edit Additional Settings dialog showing filters on events configuration options.
 
 9.  Select the required filters.
 
     **Note:** All the filters configured will be applied in conjunction while ingesting the events.
 
-    The following section explains each available option. Review each option in the following table to understand how filters optimize which MISP events are ingested into the TISC library.
+    Review each option in the table to understand how the filters can be applied to optimize which MISP events are ingested into the TISC library.
 
 10. Select the required values from the following available filters.
 
@@ -81,7 +82,7 @@ Creator org name or ID
 
 </td><td>
 
-Enter a comma-separated list of organization names and/or IDs associated with the event.**Note:** If the organization name contains leading or trailing spaces, enclose the name in double quotes to confirm proper processing.
+Enter a comma-separated list of organization names and/or IDs associated with the event.**Note:** If the organization name contains leading or trailing spaces, enclose the name in double quotes to verify proper processing.
 
 </td></tr><tr><td>
 
@@ -108,9 +109,7 @@ Distribution level
 Select a distribution level to limit events. Leaving this field empty includes events of all distribution levels.
 
 </td></tr></tbody>
-</table>    **Note:**
-
-    After you have defined the **Additional Settings** following the instructions earlier, you can duplicate the feed when creating another. For more information, see Step 13.
+</table>    **Note:** After you have defined the **Additional Settings** following the instructions as explained in the previous step, you can duplicate the feed when creating another. For more information, see Step 13.
 
 11. Select **Update** on the **Additional Settings** dialog box to save the modified additional settings.
 
@@ -124,18 +123,18 @@ Select a distribution level to limit events. Leaving this field empty includes e
     -   **Unpublished events**: Compared against the **Last updated timestamp**.
     An event is retrieved only if its relevant timestamp is later than the configured **Fetch data from** date.
 
-    Using the appropriate timestamp for each event status helps verify accurate retrieval of both newly published events and recently updated unpublished events.
+    The system uses the appropriate timestamp for each event status to retrieve newly published events and recently updated unpublished events.
 
 13. Select **Duplicate** to duplicate the feed.
 
-    For more information, see [Duplicate threat intelligence feeds](tisc-duplicate-feeds.md).
+    For more information, see [Duplicate threat intelligence feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-duplicate-feeds.md).
 
     **Note:**
 
     -   Each MISP event imported into the TISC library, whether as a **Threat Report** or **Threat Event**, includes an associated **External Reference** record.
-    -   This record is accessible via the **Related Records** tab and provides a direct URL link to the corresponding MISP event on the MISP server. This also enables a quick access to the original event data.
+    -   This record is accessible via the **Related Records** tab and provides a direct URL link to the corresponding MISP event on the MISP server. This also enables quick access to the original event data.
     -   For details on how MISP events, along with their associated attributes and objects, are mapped to TISC entities, refer to [KB2197697](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2197697).
     -   Entity types that aren't included in the mapping described in the KB article aren't ingested into the TISC Library.
 
-**Parent Topic:**[View Custom Feed](view-oob-custom-feeds.md)
+**Parent Topic:**[View Custom Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-oob-custom-feeds.md)
 

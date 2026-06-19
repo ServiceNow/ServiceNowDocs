@@ -2,6 +2,7 @@
 title: Configure sudo banner exclusion list
 description: Add the appropriate commands to the sudo banner exclusion list so the system doesn't flag it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/configure-sudo-banner-exclusion-list.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -36,5 +37,5 @@ Role required: admin
     **Note:** The following two commands apply to Windows only: `Agent User` and `IsLocalSystem`.
 
 
-**Parent Topic:**[Sudo banner validation](sudo-banner-validation.md)
+**Parent Topic:**[Sudo banner validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/sudo-banner-validation.md)
 

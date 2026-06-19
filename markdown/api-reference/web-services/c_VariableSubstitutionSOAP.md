@@ -2,6 +2,7 @@
 title: Variable substitution in outbound SOAP
 description: To use variable substitution, use the format $\{&lt;variable\_name&gt;\} instead of defining a specific value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_VariableSubstitutionSOAP.html
 release: australia
 product: Web Services
 classification: web-services
@@ -23,7 +24,7 @@ To use variable substitution, use the format `${<variable_name>}` instead of def
 
 To test variable substitution after you have modified the SOAP envelope with the variables, define values for the variables in the SOAP Message Parameters related list of the SOAP Message Function. For example, click **New** and enter the following information:
 
-![](../image/SoapMessageParameters.png "Soap message parameters")
+\[Omitted image "SoapMessageParameters.png"\] Alt text:
 
-**Parent Topic:**[SOAP message](c_SOAPMessage.md)
+**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessage.md)
 

@@ -2,6 +2,7 @@
 title: Exclusion policies
 description: You can exclude certain files from change tracking by creating an exclusion policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_ExclusionPolicies.html
 release: australia
 product: Team Development
 classification: team-development
@@ -15,7 +16,7 @@ breadcrumb: [Administer, Team Development, Planning your application, Building a
 
 You can exclude certain files from change tracking by creating an exclusion policy.
 
-When a change matches an exclusion policy, the change does not generate records in the local changes list. The change still generates local version records and Update Set records as normal. See [Creating an Exclusion Policy](../task/t_CreateAnExclusionPolicy.md).
+When a change matches an exclusion policy, the change does not generate records in the local changes list. The change still generates local version records and Update Set records as normal. See [Creating an Exclusion Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_CreateAnExclusionPolicy.md).
 
 **Note:** The exclusion policy applies to changes identified during a reconciliation operation. If you create an exclusion policy after a reconciliation, Team Development still tracks the changes until the next reconciliation.
 

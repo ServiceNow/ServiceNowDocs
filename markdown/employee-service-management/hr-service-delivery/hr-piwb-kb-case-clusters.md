@@ -2,6 +2,7 @@
 title: HR PIWB template: Predict knowledge case clusters and demand insights
 description: Use the classic setup template to configure and train your Cluster solution template with machine learning model to predict the case clusters that do not have knowledge, identify knowledge demand, and improve the knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-piwb-kb-case-clusters.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,7 +22,7 @@ Role required: sn\_piwb\_hr\_content.admin
 
 ## About this task
 
-This template helps customizing a use case model to configure the Knowledge Demand Insights feature to identify which topics are missing knowledge articles and create actionable knowledge gaps for missing topics. Review the information from [Configure Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-demand-insights.md).
+This template helps customizing a use case model to configure the Knowledge Demand Insights feature to identify which topics are missing knowledge articles and create actionable knowledge gaps for missing topics. Review the information from Configure Knowledge Demand Insights.
 
 ## Procedure
 
@@ -38,9 +39,9 @@ This template helps customizing a use case model to configure the Knowledge Dema
     2.  Click **Take me there** to get started with the solution definition.
     Machine Learning Solutions landing page appears.
 
-    ![List of ML usecases for HR PIWB](../image/piwb-hr-ml-list.png "HR ML use cases")
+    \[Omitted image "piwb-hr-ml-list.png"\] Alt text: List of ML usecases for HR PIWB
 
-3.  Review the information from [Configure Knowledge Demand Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-demand-insights.md).
+3.  Review the information from Configure Knowledge Demand Insights.
 
 4.  Go to **Clustering** &gt; **Knowledge demand for HR case clusters** from the available Solution Definitions, click **Configure**.
 
@@ -53,18 +54,18 @@ This template helps customizing a use case model to configure the Knowledge Dema
 
 You can use a demand insights for knowledge gap analysis and create actionable knowledge articles for missing topics.
 
-Review the corresponding use case information from [Machine learning solutions for HR Service Delivery](../concept/predictive-intelligence-for-hr-service-delivery-1.md).
+Review the corresponding use case information from [Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 ## What to do next
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench implementation](../concept/hr-piwb-implementation-guidance.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 
 **Related topics**  
 
 
-[Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-similarity-solution.md)
+[bundle-platai.create-similarity-solution]
 
-[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md)
+[bundle-platai.create-clustering-solution]
 

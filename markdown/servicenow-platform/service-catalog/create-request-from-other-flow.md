@@ -2,6 +2,7 @@
 title: Create a catalog request from another flow
 description: You can create a catalog request to join the Service Catalog flow from a different flow. For example, from an incident flow, you can create a request, and associate the request with the incident. It helps you in tracking the requests associated with an incident and vice versa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/create-request-from-other-flow.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -28,7 +29,7 @@ Role required: itil
 
 1.  Navigate to the required table and select a parent record.
 
-2.  Click the additional actions menu icon ![Additional actions menu icon.](../image/AdditinalActions.png) and select **Create Request**.
+2.  Click the additional actions menu icon \[Omitted image "AdditinalActions.png"\] Alt text: Additional actions menu icon. and select **Create Request**.
 
     The Catalogs home page is displayed with all active catalogs that you can access.
 
@@ -38,7 +39,7 @@ Role required: itil
 
 4.  Check out the required catalog item, order guide, or record producer.
 
-    For information on checkout models, see [.](../concept/c_EnableATwoStepCheckout.md#)
+    For information on checkout models, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_EnableATwoStepCheckout.md)
 
     For a catalog item or order guide, a request is created and displayed under the **Requests** tab of the parent table record. For a record producer, the corresponding task is created and displayed under the **Problems** tab of the parent table record, for example, an incident.
 
@@ -47,9 +48,9 @@ Role required: itil
     -   The associated incident is specified in the annotation message throughout the request process.
     -   Both for the one-step and two-step checkout, the caller of the incident is automatically set as the **Requested For** user for the request. If the two-step checkout is enabled, the fulfiller can change the **Requested For**.
 
-        **Note:** For delegated request experience, the caller of the incident is populated in the Requested For variable. For information on delegated request experience, see [Delegated request experience](../concept/delegated-request-exp.md).
+        **Note:** For delegated request experience, the caller of the incident is populated in the Requested For variable. For information on delegated request experience, see [Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/delegated-request-exp.md).
 
     -   You cannot add items to the wish list, or save a record producer in this flow.
 
-**Parent Topic:**[Service Catalog request fulfillment](../concept/request-fulfillment.md)
+**Parent Topic:**[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-fulfillment.md)
 

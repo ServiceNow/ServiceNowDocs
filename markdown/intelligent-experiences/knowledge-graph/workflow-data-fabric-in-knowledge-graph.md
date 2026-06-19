@@ -2,6 +2,7 @@
 title: Workflow Data Fabric integration with Knowledge Graph
 description: Knowledge Graph supports Workflow Data Fabric to fetch third party information securely without copying the data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/workflow-data-fabric-in-knowledge-graph.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph
@@ -39,5 +40,5 @@ Here is some example use cases:
 
 Snowflake and Google BigQuery Integration: WDF tables sourced from Snowflake and Google BigQuery can be added to the Knowledge Graph schema, allowing users to query and analyze data from these external sources within ServiceNow.
 
-![WDF tables](../Images/snowflake-googl-example-kg.png)
+\[Omitted image "snowflake-googl-example-kg.png"\] Alt text: WDF tables
 

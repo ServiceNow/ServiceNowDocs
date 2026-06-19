@@ -2,6 +2,7 @@
 title: Set up the AWS OpsWorks spoke
 description: Integrate the ServiceNow instance and AWS OpsWorks account by using the AWS credentials to authenticate ServiceNow requests.Create a credential record for the AWS OpsWorks account. The AWS OpsWorks spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-aws-opsworks.html
 release: australia
 product: Integration Hub
 classification: integration-hub

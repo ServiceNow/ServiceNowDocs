@@ -2,6 +2,7 @@
 title: Configure daily schedules for Walk-up Experience appointment booking
 description: Define hours of operation and daily schedules for booking an appointment at your Walk-up Experience location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/config-walkup-daily-appoint-schedule.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -44,7 +45,7 @@ Create a unique appointment booking schedule for each day of the week or for spe
     |Repeats|Indicate the recurrence for this availability schedule. For example, **Weekly on Tue and Thu**.|
     |Repeat until|Specify how long you want this availability schedule to run by selecting an end date.|
 
-    ![Schedule Entry Excludes form](../image/TuesdayThursdayExcluded.png)
+    \[Omitted image "TuesdayThursdayExcluded.png"\] Alt text: Schedule Entry Excludes form
 
 5.  Select **Submit**.
 
@@ -62,8 +63,8 @@ Create a unique appointment booking schedule for each day of the week or for spe
 
 10. Determine that appointments are only available on Tuesdays and Thursdays from 9:00am to 12:00pm.
 
-    ![Appointment selection choices](../image/SelectAnAppointment.png)
+    \[Omitted image "SelectAnAppointment.png"\] Alt text: Appointment selection choices
 
 
-**Parent Topic:**[Configure Walk-up Experience appointment booking](../concept/walkup-appointment-booking-config.md)
+**Parent Topic:**[Configure Walk-up Experience appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-appointment-booking-config.md)
 

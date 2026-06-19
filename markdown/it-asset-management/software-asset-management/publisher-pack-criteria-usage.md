@@ -2,6 +2,7 @@
 title: Usage criteria for publisher packs
 description: Description of usage criteria that indicates whether a publisher pack is being utilized or not in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/publisher-pack-criteria-usage.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management

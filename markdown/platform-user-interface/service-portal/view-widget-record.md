@@ -2,6 +2,7 @@
 title: View a widget record from a portal page
 description: View and identify potentially problematic code in the widget record without navigating away from the portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/view-widget-record.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -36,11 +37,11 @@ Role required: admin or sp\_admin
     |Blue|New widget|
     |Red|Customized widget|
 
-4.  On any widget, click the information icon \(![Information icon](../image/info-icon.png)\).
+4.  On any widget, click the information icon \(\[Omitted image "info-icon.png"\] Alt text: Information icon\).
 
 5.  On the window, click **Open widget in platform**.
 
-    ![Open widget in platform](../image/open-widget.png)
+    \[Omitted image "open-widget.png"\] Alt text: Open widget in platform
 
     **Note:** The **Open widget in platform** button doesn't appear for all customized widgets. The button appears for customized widgets only if you modified one or more widget dependencies, Angular Providers, or ng-templates.
 

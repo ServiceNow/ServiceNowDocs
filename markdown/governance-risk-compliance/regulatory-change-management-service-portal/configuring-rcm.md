@@ -2,6 +2,7 @@
 title: Configuring your compliance needs and integration with regulatory content providers
 description: Configure the Regulatory Change Management application to manage your compliance needs and integration with regulatory intelligence content providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/configuring-rcm.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -18,6 +19,6 @@ Configure the Regulatory Change Management application to manage your compliance
 
 A typical configuration of the Regulatory Change Management application consists of the following steps:
 
-1.  Install the Regulatory Change Management application from ServiceNow Store. For more information, see [Download and install GRC: Regulatory Change Management](../task/activate-grc-rcm.md).
-2.  Complete the setup for the Administration module. For more information, see [Administration module](manage-admin-portal.md).
+1.  Install the Regulatory Change Management application from ServiceNow Store. For more information, see [Download and install GRC: Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/activate-grc-rcm.md).
+2.  Complete the setup for the Administration module. For more information, see [Administration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-admin-portal.md).
 

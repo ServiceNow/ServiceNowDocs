@@ -2,6 +2,7 @@
 title: Deactivate an authority document using the Compliance Workspace
 description: The Active option in an authority document indicates whether the authority documents have been retired.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/deactivate-auth-document-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

@@ -2,7 +2,10 @@
 title: Sold product form
 description: Descriptions of the fields on the sold product form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/sold-product-form.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -100,6 +103,14 @@ Buyer Organization
 </td><td>
 
 Internal or external entity that is involved in providing a service to the customer.**Note:** If you select a buyer organization, the **Household**, **Account**, **Contact**, and **Consumer** fields are hidden. The **Buyer Organization** field is active only when the service organization plugin is installed.
+
+</td></tr><tr><td>
+
+Buyer Organization Member
+
+</td><td>
+
+Reference field pointing to the Business Organization Member \[sn\_csm\_service\_organization\_member\] table. Use this field to associate the sold product with a specific member of the business organization.
 
 </td></tr><tr><td>
 

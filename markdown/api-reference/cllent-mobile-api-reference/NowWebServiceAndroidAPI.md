@@ -2,6 +2,7 @@
 title: NowWebService class - Android
 description: The NowWebService class provides a function that launches a NowWebActivity that hosts a web view.Creates a NowWebActivity that hosts the web view.Preloads a list of specified java.net.URIs in a headless webview to pre-populate the webview cache with cacheable resources on the page.Updates the NowWeb UI theme with the specified UI theme. Use this function to update the web UI theme after it has been initially set using the launch\(\) function, such as when changing the theme from light to dark.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowWebServiceAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -17,9 +18,9 @@ The NowWebService class provides a function that launches a NowWebActivity that 
 
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration class - Android](../../NowServiceConfiguration/concept/NowServiceConfigurationAndroidAPI.md)|Configuration information for the associated service, such as the ServiceNow instance URL and the name of the package.|
+|configuration|[NowServiceConfiguration class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)|Configuration information for the associated service, such as the ServiceNow instance URL and the name of the package.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowWebService - launch\(context: Context, url: URL, nowWebTheme: NowWebTheme\)
 
@@ -67,7 +68,7 @@ nowWebTheme
 
 </td><td id="Web-themeColors-entry">
 
-[NowWebTheme](../../NowWebTheme/concept/NowWebThemeAndroidInterface.md)
+[NowWebTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeAndroidInterface.md)
 
 </td><td>
 
@@ -130,7 +131,7 @@ Updates the NowWeb UI theme with the specified UI theme. Use this function to up
 
 |Name|Type|Description|
 |----|----|-----------|
-|nowWebTheme|[NowWebTheme](../../NowWebTheme/concept/NowWebThemeAndroidInterface.md)|NowWebTheme object to apply to the UI elements of the view controller.|
+|nowWebTheme|[NowWebTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeAndroidInterface.md)|NowWebTheme object to apply to the UI elements of the view controller.|
 
 |Type|Description|
 |----|-----------|

@@ -2,6 +2,7 @@
 title: Configure the chemical request approver based on location
 description: Configure approvers according to the location name entered on the request form. Multiple approvers can be associated with a single location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-configure-approver-by-location.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -38,5 +39,5 @@ Role required: admin
 
 The approver's name is selected for approving the chemical request, based on the location selected on the request.
 
-**Parent Topic:**[Configure the chemical request approval flow](hs-modify-approval-flow-environmental-mgmt.md)
+**Parent Topic:**[Configure the chemical request approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-modify-approval-flow-environmental-mgmt.md)
 

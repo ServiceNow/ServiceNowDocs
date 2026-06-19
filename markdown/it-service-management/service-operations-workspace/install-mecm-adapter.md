@@ -2,13 +2,14 @@
 title: Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation
 description: You can install the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/install-mecm-adapter.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Investigation using Microsoft Endpoint Configuration Manager, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation
@@ -31,7 +32,7 @@ The following items are installed with Microsoft Endpoint Configuration Manager 
 -   Store applications
 -   Roles
 
-For more information, see [Components installed with Microsoft Endpoint Configuration Manager for Investigation](../reference/components-installed-mecm-adapter.md).
+For more information, see [Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md).
 
 ## Procedure
 
@@ -56,5 +57,5 @@ For more information, see [Components installed with Microsoft Endpoint Configur
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation](../concept/set-up-investigate-fw-mecm.md)
+**Parent Topic:**[Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.md)
 

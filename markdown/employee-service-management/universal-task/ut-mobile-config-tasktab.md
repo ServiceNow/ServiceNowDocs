@@ -2,6 +2,7 @@
 title: Display the universal tasks for a request in Now Mobile
 description: Display all the universal tasks that are assigned for a particular request by simply configuring the Tasks tab in Now Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/ut-mobile-config-tasktab.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -36,9 +37,9 @@ Role required: admin
 6.  Click **Update**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Configure the extension points for Universal Task](configure-extnsn-points.md)
+**Previous topic:**[Configure the extension points for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/configure-extnsn-points.md)
 
-**Next topic:**[Hide the template bar on the Universal Task form](ut-hide-template-bar.md)
+**Next topic:**[Hide the template bar on the Universal Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-hide-template-bar.md)
 

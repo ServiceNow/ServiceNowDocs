@@ -2,6 +2,7 @@
 title: View solution training progress
 description: View your solution training progress or statistics to determine if a solution is available, or how long the next training cycle might take to complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/view-training-progress.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -42,12 +43,12 @@ Solution training involves these steps.
 
     The system shows a Training Progress pop-up window.
 
-    ![Solution training progress pop-up window showing that training succeeded.](../images/solution-training-progress.png)
+    \[Omitted image "solution-training-progress.png"\] Alt text: Solution training progress pop-up window showing that training succeeded.
 
 
 ## What to do next
 
-For classification solutions, see [Review classification solution statistics](review-solution-statistics.md).
+For classification solutions, see [Review classification solution statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-solution-statistics.md).
 
-For similarity solutions, see [Review similarity solution examples and scores](review-similarity-examples.md).
+For similarity solutions, see [Review similarity solution examples and scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 

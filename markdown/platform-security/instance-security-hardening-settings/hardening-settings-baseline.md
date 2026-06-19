@@ -2,6 +2,7 @@
 title: Hardening settings baseline versions
 description: Explore how baseline versions for hardening settings align with family and store releases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/hardening-settings-baseline.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -29,12 +30,12 @@ Security Center works by ingesting a subset of system properties from an instanc
 |SCC v 3.2|Baseline v7.0|Zurich|August 2025|Zurich|
 |SCC v 3.3|Baseline v8.0|Australia|March 2026|Australia|
 
--   **[New hardening settings](hardening-settings-new.md)**  
+-   **[New hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/hardening-settings-new.md)**  
 New hardening settings are broken out by baseline release.
--   **[Updated hardening settings](hardening-settings-updated.md)**  
+-   **[Updated hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/hardening-settings-updated.md)**  
 Updated hardening settings are broken out for each baseline release.
--   **[Deleted hardening settings](hardening-settings-deleted.md)**  
+-   **[Deleted hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/hardening-settings-deleted.md)**  
 Some hardening settings are removed from Security Center baselines.
 
-**Parent Topic:**[Hardening settings](../reference/security-hardening-settings.md)
+**Parent Topic:**[Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md)
 

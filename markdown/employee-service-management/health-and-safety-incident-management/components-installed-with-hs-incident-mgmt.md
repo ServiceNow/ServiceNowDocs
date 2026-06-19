@@ -2,6 +2,7 @@
 title: Components installed with Health and Safety Incident Management
 description: Several types of components are installed with installation of the Health and Safety Incident Management application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Incident Management, Health and Safety
 
 Several types of components are installed with installation of the Health and Safety Incident Management application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they aren’t already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Store applications installed
 
@@ -35,7 +36,7 @@ Health and Safety Core
 
 Installs core data model for Health and Safety. This data model includes common components such as Health and Safety user profile and actions that are used in the Health and Safety applications.
 
- For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](../../hs-core/reference/components-installed-hs-core.md).
+ For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/components-installed-hs-core.md).
 
 </td></tr><tr><td>
 
@@ -313,5 +314,5 @@ Injury and illness
 Stores all logged injuries and illness records. Information tracked in this table can be used for generating reports such as OSHA forms​.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Incident Management reference](../concept/hs-incident-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-reference.md)
 

@@ -2,6 +2,7 @@
 title: Configure HR fulfillment instructions
 description: Use HR fulfillment instructions to provide focused and targeted instructions for an HR case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-fulfillment.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -16,6 +17,8 @@ breadcrumb: [HR fulfillment instructions, HR services, HR Administration, Config
 Use HR fulfillment instructions to provide focused and targeted instructions for an HR case.
 
 ## Before you begin
+
+Configure HR fulfillment instructions 
 
 Role required: sn\_hr\_core.admin
 
@@ -59,9 +62,9 @@ Condition
 
 Conditions under which the fulfillment instructions are made available for an HR case.The conditions determine which fulfillment instructions appear for an HR case. For example, you can set conditions that an HR case has different fulfillment instructions by location.
 
-**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
- For additional information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+ For additional information, see Condition builder.
 
 </td></tr><tr><td>
 
@@ -96,10 +99,10 @@ Knowledge articles
 Knowledge articles that you want to attach to the fulfillment instructions. HR agents use knowledge articles as reference when fulfilling an HR case.**Note:** Knowledge articles are visible only to HR agents and not to employees.
 
 </td></tr></tbody>
-</table>    **Note:** Previously, Fulfillment Instructions and Checklists were configured from HR services. Checklists are still configured from HR services. For more information on checklists, see [Checklists in HR cases](../concept/c_ChecklistsInHRCasesAndTasks.md).
+</table>    **Note:** Previously, Fulfillment Instructions and Checklists were configured from HR services. Checklists are still configured from HR services. For more information on checklists, see [Checklists in HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ChecklistsInHRCasesAndTasks.md).
 
 4.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[HR fulfillment instructions](../concept/hr-fulfillment-instructions.md)
+**Parent Topic:**[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)
 

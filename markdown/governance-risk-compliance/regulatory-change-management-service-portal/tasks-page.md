@@ -2,6 +2,7 @@
 title: Tasks page in the Compliance Workspace
 description: The Tasks page within the Compliance Workspace provides a centralized, task-centric interface for managing all activities related to regulatory events, source documents, and compliance workflows. It helps you stay organized, ensures timely and accountable action, and promotes overall regulatory readiness.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/tasks-page.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -72,5 +73,5 @@ The Tasks page helps you manage duties efficiently, ensuring proactive complianc
 
 The following image shows the Tasks page in the Compliance Workspace.
 
-![Tasks page in the Compliance workspace.](../image/rcm-tasks-page-compliance-ws.png "Tasks page")
+\[Omitted image "rcm-tasks-page-compliance-ws.png"\] Alt text: Tasks page in the Compliance workspace.
 

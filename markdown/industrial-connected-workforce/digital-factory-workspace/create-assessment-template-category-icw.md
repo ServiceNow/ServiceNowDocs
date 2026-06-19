@@ -2,6 +2,7 @@
 title: Create an assessment template category
 description: Set up an assessment template category so that you can build standard templates for that category and use them in the Standards hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-assessment-template-category-icw.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -27,7 +28,7 @@ Role required: sn\_icw.admin
 
 3.  On the Assessment template category form, fill in the fields.
 
-    For a description of the field values, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md). The Category role must be sn\_icw\_igt.user or any role that contains this role, such as sn\_icw\_igt.expert, sn\_icw\_igt.author, or any other role that you create.
+    For a description of the field values, see . The Category role must be sn\_icw\_igt.user or any role that contains this role, such as sn\_icw\_igt.expert, sn\_icw\_igt.author, or any other role that you create.
 
 <table id="table_axz_wxx_1hc"><thead><tr><th>
 
@@ -101,5 +102,5 @@ Default normalization strategy applied for assessment templates in this category
 
 The assessment template category appears in the list of categories that can be specified when designing an assessment template in the Digital Factory Workspace.
 
-**Parent Topic:**[Using templates to create standards](../concept/creating-standards-from-templates.md)
+**Parent Topic:**[Using templates to create standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/creating-standards-from-templates.md)
 

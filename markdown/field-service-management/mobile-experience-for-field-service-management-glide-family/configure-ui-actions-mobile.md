@@ -2,6 +2,7 @@
 title: Configure UI actions in the Now Mobile Agent application
 description: Enable or disable the desired UI actions on the mobile device to minimize the load on the mobile resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-ui-actions-mobile.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

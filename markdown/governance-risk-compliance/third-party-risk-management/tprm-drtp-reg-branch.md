@@ -2,12 +2,13 @@
 title: Create a branch and enhance digital resilience data
 description: Create a branch record in Digital resilience third-party registers using Third-party Risk Management. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-branch.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-05-15"
+reading_time_minutes: 2
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -25,13 +26,13 @@ A legal entity can operate multiple branches across various cities or countries,
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Branches** and then create a branch by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Branch form](../reference/tprm-create-new-branch-form.md).
+    For descriptions of all these fields, see [Create New Branch form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-branch-form.md).
 
     Users typically fill in the following details of the branch:
 
@@ -41,6 +42,8 @@ A legal entity can operate multiple branches across various cities or countries,
     -   Specifying the branch as a head office or as a different branch other than the head office
     -   ID of the branch and its originating country
     The number for the branch is auto-generated. Once the branch details are complete, the information is ready to be captured in the information register.
+
+    **Note:** When you enter or update an LEI code field on the branch form, the system validates it against the GLEIF database and auto-populates the name and country fields. If you then edit the name or country to a value that no longer matches GLEIF data, an inline warning is displayed on the edited field. You can still save the record. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 4.  Select **Save**.
 
@@ -53,5 +56,5 @@ A legal entity can operate multiple branches across various cities or countries,
 
 ## What to do next
 
-Specify the functions that are associated with a branch. For more information, see [Create a function and enhance digital resilience data](tprm-drtp-reg-function.md).
+Specify the functions that are associated with a branch. For more information, see [Create a function and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-function.md).
 

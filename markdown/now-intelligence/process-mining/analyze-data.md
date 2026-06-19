@@ -2,6 +2,7 @@
 title: Refining a process map
 description: View your visualized workflow project for insights and improvement opportunities in your business process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/analyze-data.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -17,12 +18,12 @@ View your visualized workflow project for insights and improvement opportunities
 
 The visualized process map helps you see data that is specific to a problem. Within the map, you can drill down to understand the root causes. Also display routes according to the KPIs you want to view or measure.
 
-**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](../../../use/par-for-workspace/task/configure-po-map.md).
+**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-po-map.md).
 
 -   Use the activity and connection sliders to focus on the process steps which occurred most frequently. You can also include steps which occurred at lesser frequencies.
 -   Move an activity to a different position on the map workspace.
 -   Slide a metric number along a connection to improve the visual display.
--   Select an activity or connection to view [metric](../task/apply-metrics.md) details.
+-   Select an activity or connection to view [metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/apply-metrics.md) details.
 
 <table id="table_pb4_hyc_jvb"><thead><tr><th>
 
@@ -34,7 +35,7 @@ Definition
 
 </th></tr></thead><tbody><tr><td>
 
-![regular node transition](../image/regular-node-transition.png)
+\[Omitted image "regular-node-transition.png"\] Alt text: regular node transition
 
 </td><td>
 
@@ -49,7 +50,7 @@ Regular node transition line presenting minimum one and maximum two performance 
 
 </td></tr><tr><td>
 
-![inter-model transition](../image/inter-model-transition.png)
+\[Omitted image "inter-model-transition.png"\] Alt text: inter-model transition
 
 </td><td>
 
@@ -57,7 +58,7 @@ The inter-model transition slider shows the number of transitions hidden in the 
 
 </td></tr><tr><td>
 
-![artificial lines](../image/artifical-lines.png)
+\[Omitted image "artifical-lines.png"\] Alt text: artificial lines
 
 </td><td>
 
@@ -65,7 +66,7 @@ Artificial lines help the user to understand from which nodes the process ends. 
 
 </td></tr><tr><td>
 
-![dashed line](../image/dashed-line.png)
+\[Omitted image "dashed-line.png"\] Alt text: dashed line
 
 </td><td>
 
@@ -73,12 +74,12 @@ The dashed line shows that the entity is collapsed. The line will disappear when
 
 </td></tr><tr><td>
 
-![directional arcs](../image/directional-arcs.png)
+\[Omitted image "directional-arcs.png"\] Alt text: directional arcs
 
 </td><td>
 
 The direction of the arcs show the sequence of the activity occurrence. For example, for 2.2k records, state New occurs on average 10 months before they moved into the state Assigned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analyzing and getting process insights](analyze-get-process-insights.md)
+</table>**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 

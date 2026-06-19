@@ -2,6 +2,7 @@
 title: Response scripts
 description: Use response scripts to automatically take actions based on user responses to survey questions. Response scripts can be used to create or update records across any of the Emergency Response Management and Safe Workplace suite apps.Emergency Outreach provides the pre-built Request PPE response script.Create a response script to automatically create or update records based on user responses to survey questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/response-scripts.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -17,15 +18,15 @@ Use response scripts to automatically take actions based on user responses to su
 
 Each response script is associated with a survey. The response script runs if a user completes the associated survey and their answers match the response criteria.
 
-**Note:** The [Employee Readiness Surveys](employee-readiness-surveys.md) app must be installed to use response scripts.
+**Note:** The [Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-readiness-surveys.md) app must be installed to use response scripts.
 
-**Parent Topic:**[Emergency Outreach](emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
 
 ## Included response scripts
 
 Emergency Outreach provides the pre-built Request PPE response script.
 
-The Request PPE response script requires the [Workplace PPE Inventory Management](../../ppe-inventory-management/concept/ppe-inventory-management.md) app. This response script creates a PPE request for employees who complete the Employee workplace readiness survey and meet the response criteria for the health status, travel, and ready to return to the workplace questions.
+The Request PPE response script requires the [Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/ppe-inventory-management.md) app. This response script creates a PPE request for employees who complete the Employee workplace readiness survey and meet the response criteria for the health status, travel, and ready to return to the workplace questions.
 
 The Request PPE response script is not active by default and must be manually activated. It is ready to activate without any modifications, but you can choose to edit the script to meet your company's needs. To activate the Request PPE response script, navigate to **Emergency Outreach** &gt; **Response Scripts** and click the Request PPE record. Select the **Active** check box, then click **Update**.
 

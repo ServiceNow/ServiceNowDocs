@@ -2,6 +2,7 @@
 title: Key insights and configured insights for Security Posture Control
 description: Key and configured \(custom\) insights provide you with visual reports that are created and updated by the assessment criteria that match your assets. Insights help you monitor security controls metrics on a dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-custom-insight-overview.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,7 +41,7 @@ Following types of insights can be configured.
 -   Policy match percentage chart: View the percentage of devices that match a policy in a pie chart. You can choose the total asset pool as either all the assets monitored by SPC or the assets that match the base policy from which the current selected policy is created.
 -   Policy trend chart: View the trends of assets that match various policies.
 
-See [Create and activate a configured insight for Security Posture Control](../task/spc-create-custom-insight.md) for more information about the steps for creating a configured insight.
+See [Create and activate a configured insight for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-create-custom-insight.md) for more information about the steps for creating a configured insight.
 
 ## Groups
 

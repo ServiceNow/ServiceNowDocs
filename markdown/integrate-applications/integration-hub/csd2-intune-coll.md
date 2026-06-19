@@ -2,6 +2,7 @@
 title: Define the Microsoft Intune configuration
 description: Associate that software with a group through a Microsoft Intune configuration to create catalog items for Microsoft Intune software deployment or to configure your instance to revoke software through Microsoft Intune.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-intune-coll.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -88,5 +89,5 @@ Entity for which software deployment or revocation is needed.
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Intune](../concept/csd2-ms-intune.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Intune](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-ms-intune.md)
 

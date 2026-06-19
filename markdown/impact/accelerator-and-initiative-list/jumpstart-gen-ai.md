@@ -2,6 +2,7 @@
 title: Jumpstart Your GenAI
 description: This Accelerator provides a demonstration of the capabilities of ServiceNow GenAI\(Now Assist\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-gen-ai.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This Accelerator provides a demonstration of the capabilities of ServiceNow® Ge
 ## Accelerator Overview
 
 This accelerator provides Impact customers with an overview of how integrates GenAI across the platform, highlighting opportunities to improve efficiency and enhance the user experience. The session includes an applied demonstration of various Now Assist and AI Agent capabilities using a temporary instance, along with an overview of the onboarding process. It also shares leading practices for deploying these products, making it an ideal starting point for customers beginning their Now Assist journey.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -158,5 +161,7 @@ Attend ServiceNow Impact Accelerator coaching sessions to understand leading pra
 ✓
 
 </td></tr></tbody>
-</table>**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+</table>## Requested Information/Access
+
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

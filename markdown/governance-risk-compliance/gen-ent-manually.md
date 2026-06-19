@@ -2,6 +2,7 @@
 title: Add entities manually
 description: Add entities manually from the Operational Resilience Workspace as an optional step once pillars, entity types, and entity filters are active. Entities are individual records matching your filter criteria. Automatic generation is recommended for most scenarios; manual addition is available for exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/gen-ent-manually.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
 
 ## About this task
 
-For automatic generation of the entities, see [Generate entities automatically using a scheduled job](gen-ent-auto.md).
+For automatic generation of the entities, see [Generate entities automatically using a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/gen-ent-auto.md).
 
 ## Procedure
 
@@ -29,13 +30,13 @@ For automatic generation of the entities, see [Generate entities automatically u
 
     The example shows how to add a business service from the Operational Resilience Workspace.
 
-    ![Add a business service.](../image/add-ent-manually-opres-ws-1.png)
+    \[Omitted image "add-ent-manually-opres-ws-1.png"\] Alt text: Add a business service.
 
 3.  On the form, fill in the fields.
 
-    The form for creating a business service is shown in the example. For information on the fields in the record form, see [Create New Business Service form](../reference/create-new-business-service-form.md) and [Create New Business Process form](../reference/create-new-business-process-form.md).
+    The form for creating a business service is shown in the example. For information on the fields in the record form, see [Create New Business Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-service-form.md) and [Create New Business Process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-process-form.md).
 
-    ![Create a new business service.](../image/add-ent-manually-opres-ws-2.png)
+    \[Omitted image "add-ent-manually-opres-ws-2.png"\] Alt text: Create a new business service.
 
 4.  Select **Save**.
 
@@ -43,7 +44,7 @@ For automatic generation of the entities, see [Generate entities automatically u
 
     The examples show the **Add to OpRes reporting** button from the Operational Resilience Workspace.
 
-    ![Add to OpRes reporting button.](../image/add-ent-manually-opres-ws-3.png)
+    \[Omitted image "add-ent-manually-opres-ws-3.png"\] Alt text: Add to OpRes reporting button.
 
     A message is displayed that the service is added to Operational Resilience reporting. The record now appears as an entity in Operational Resilience.
 

@@ -2,6 +2,7 @@
 title: Virtual Agent Designer All pre-built topics page
 description: When you install pre-built conversations, such as ITSM Virtual Agent, some topics may not appear on the home page unless you install their dependent plugins. This page shows the additional topics that are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/vad-additional-topics-list.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Vi
 
 When you install pre-built conversations, such as ITSM Virtual Agent, some topics may not appear on the home page unless you install their dependent plugins. This page shows the additional topics that are available.
 
-For more information about ITSM pre-built topics, see [ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-virtual-agent.md).
+For more information about ITSM pre-built topics, see .
 
 <table id="table_lrr_c4j_ywb"><thead><tr><th>
 
@@ -58,5 +59,5 @@ Status
 Value denoting whether you need to install a spoke or plugin, or if the requirements are met and the topic is available to use.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer interface reference](../concept/vad-reference.md)
+</table>**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
 

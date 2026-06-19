@@ -2,6 +2,7 @@
 title: Specify a login landing page
 description: By default, users see their homepage upon login. You can specify a different login landing page by using a system property or the content management system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SpecifyingALoginLandingPage.html
 release: australia
 product: Authentication
 classification: authentication
@@ -33,7 +34,9 @@ To specify a login landing page for all users, change the property value on the 
 
     Use `<page name>.do`; you may omit the `http://''instance''.service-now.com/` portion of the URL. To determine the page name or the URL of a page in the system, you can point to a link. Some possible pages are `welcome.do` and `incident.do`.
 
-    To specify a dashboard landing page, set the property to `$dashboards.do?dashboard=<SYS_ID>`. Replace &lt;SYS\_ID&gt; with the sys\_id of the dashboard.
+    To specify a Core UI dashboard as the login landing page, set the property to `$dashboards.do?dashboard=<SYS_ID>`. Replace &lt;SYS\_ID&gt; with the sys\_id of the dashboard.
+
+    To specify a Platform Analytics dashboard as the login landing page, set the property to `$pa_dashboards.do?id=<SYS_ID>`. Replace &lt;SYS\_ID&gt; with the sys\_id of the Platform Analytics dashboard.
 
     To direct users to service portal, set the property to `/sp`
 

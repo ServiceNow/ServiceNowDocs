@@ -2,6 +2,7 @@
 title: Configure Now Assist for ITOM
 description: Enable Event Management users to view alert analyses that Now Assist for ITOM creates using generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.html
 release: australia
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -16,16 +17,18 @@ breadcrumb: [Now Assist for ITOM, IT Operations Management]
 
 Enable Event Management users to view alert analyses that Now Assist for ITOM creates using generative AI.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
--   **[Install the Now Assist for IT Operations Management \(ITOM\) plugin](../task/install-now-assist-itom.md)**  
+-   **[Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md)**  
 Install the ITOM plugin in the ServiceNow® Now Assist feature.
--   **[Activate Now Assist AI agents for IT Operations Management \(ITOM\)](../task/install-now-assist-ai-agents-itom.md)**  
+-   **[Activate Now Assist AI agents for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/install-now-assist-ai-agents-itom.md)**  
 Activate Now Assist AI agents associated with the Triage and analyze alerts agentic workflow, to enable the agentic AI experience.
--   **[Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)](../task/activate-now-assist-skills-itom.md)**  
+-   **[Activate Now Assist skills in Now Assist for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/activate-now-assist-skills-itom.md)**  
 You can activate the Now Assist skills for use in Now Assist for IT Operations Management \(ITOM\).
--   **[Configuring agents for Now Assist for ITOM](itom-ai-agent-configuration.md)**  
-Configure observability agents for the analyze alert impact agentic workflow. Once configured, they gather information to help you investigate alerts.
+-   **[Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/configure-manage-alerts-autonomously-workflow.md)**  
+Configure an alert management rule to operate the manage alerts autonomously agentic workflow manually or automatically.
+-   **[Configure observability agents for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/configure-integration-agents-for-now-assist.md)**  
+Configure observability agents for third-party application performance monitoring \(APM\) or network performance monitoring \(NPM\) vendors. These agents are invoked by the analyze alert impact agentic workflow. You must configure connections to those vendors before they can be invoked.
 
-**Parent Topic:**[Now Assist for ITOM](now-assist-itom.md)
+**Parent Topic:**[Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
 

@@ -2,6 +2,7 @@
 title: Shazzam probe, port probes, and protocols
 description: Port scanning is the first step in the discovery process. The Shazzam probe performs port scanning, regardless of whether you use patterns for horizontal discovery. The following table lists the known ports and protocols used by Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DiscoveryPortsAndProtocols.html
 release: australia
 product: Discovery
 classification: discovery
@@ -203,7 +204,7 @@ Windows Classification \[discovery\_classy\_windows\]
 epmap \(port 135\)
 
 </td></tr></tbody>
-</table>This table shows you other common ports and protocols that Discovery uses. All ports listed in the [Default port probes and default IP services](r_DiscoveryPortsAndProtocols.md#table_eqr_tv5_d2b) table are also included in the following table.
+</table>This table shows you other common ports and protocols that Discovery uses. All ports listed in the [Default port probes and default IP services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryPortsAndProtocols.md) table are also included in the following table.
 
 |Name|Service name|Port|Details|Creates|Protocol|
 |----|------------|----|-------|-------|--------|
@@ -262,5 +263,5 @@ epmap \(port 135\)
 
 Supported Windows machines can have dynamic ports ranges: 49152-65535 for both TCP and UDP.
 
-**Parent Topic:**[Port probes](r_PortProbes.md)
+**Parent Topic:**[Port probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PortProbes.md)
 

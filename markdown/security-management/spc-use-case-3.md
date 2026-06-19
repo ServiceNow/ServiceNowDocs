@@ -2,6 +2,7 @@
 title: Security Posture Control use case: Detecting unmanaged assets
 description: This use case includes two parts, detecting assets that are missing configuration and patch management agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-use-case-3.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Depending on your use case, you can choose to activate only the required connect
     3.  Network Security
     4.  Application Performance Monitoring .
 
-After you verify you have met these prerequisites, you must activate at least one of the following policies.  For any policy that starts with ‘Cloud assets’, Service Graph Connectors under the category ‘Cloud Provider’ must be enabled.   For more information on policies, please refer to [Policies for Security Posture Control](spc-policies-overview.md).
+After you verify you have met these prerequisites, you must activate at least one of the following policies.  For any policy that starts with ‘Cloud assets’, Service Graph Connectors under the category ‘Cloud Provider’ must be enabled.   For more information on policies, please refer to [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policies-overview.md).
 
 -   Assets missing configuration and patch management.
 -   Cloud assets missing configuration and patch management.

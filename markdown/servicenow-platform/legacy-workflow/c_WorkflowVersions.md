@@ -2,6 +2,7 @@
 title: Workflow versions
 description: To prevent users from making changes to a workflow that affect other users of the system, workflows must be checked out before they can be edited.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/c\_WorkflowVersions.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow

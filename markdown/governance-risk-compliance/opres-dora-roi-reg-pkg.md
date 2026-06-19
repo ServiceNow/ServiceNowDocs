@@ -1,7 +1,8 @@
 ---
 title: Register of Information \(ROI\) regulatory packages
-description: The Register of Information \(RoI\) is a regulatory reporting requirement under the Digital Operational Resilience Act D \(DORA\) and is supported by the Digital resilience third-party registers application in the Operational Resilience Workspace.
+description: The Register of Information \(RoI\) is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital resilience third-party registers application in the Operational Resilience Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-dora-roi-reg-pkg.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -11,7 +12,7 @@ breadcrumb: [Exploring Digital resilience third-party registers, Maintaining Dig
 
 # Register of Information \(ROI\) regulatory packages
 
-The Register of Information \(RoI\) is a regulatory reporting requirement under the Digital Operational Resilience Act D \(DORA\) and is supported by the Digital resilience third-party registers application in the Operational Resilience Workspace.
+The Register of Information \(RoI\) is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital resilience third-party registers application in the Operational Resilience Workspace.
 
 ## RoI overview
 
@@ -37,7 +38,7 @@ The Digital Resilience Third-party Information Register provides the following c
 
 All RoI-related actions are performed in the **Digital resilience third-party registers** section in the Operational Resilience Workspace. This workspace provides access to download/upload requests, validation tools, and main templates.
 
-For more information, see [Generate a Register of Information package](../task/opres-drtp-gen-roi-pkg.md).
+For more information, see [Generate a Register of Information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-gen-roi-pkg.md).
 
-**Parent Topic:**[Exploring Digital resilience third-party registers](exploring-digi-resi-third-party-registers.md)
+**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
 

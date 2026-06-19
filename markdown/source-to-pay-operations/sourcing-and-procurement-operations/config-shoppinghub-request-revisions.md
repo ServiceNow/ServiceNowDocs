@@ -2,6 +2,7 @@
 title: Enable user actions
 description: Configure the edit and cancel options to enable modifications to the purchases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-request-revisions.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ Configure the edit and cancel options to enable modifications to the purchases.
 
 ## Before you begin
 
-Role required: sn\_spend\_psd.admin, sn\_shop.procurement\_administrator
+Role required: sn\_spend\_psd.psd\_admin, sn\_shop.procurement\_administrator
 
 ## Procedure
 
@@ -58,5 +59,5 @@ Use the same steps to modify the following user action configurations:
 
 You may add additional configurations to suit your business requirements.
 
-**Parent Topic:**[ShoppingHub configuration](../concept/shoppinghub-configurations.md)
+**Parent Topic:**[ShoppingHub configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)
 

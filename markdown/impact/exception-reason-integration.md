@@ -1,32 +1,40 @@
 ---
 title: Exception reason integration
-description: You can synchronize exception reasons from sub-production to Production instances once a record is created or updated.
+description: You can synchronize exception reasons from non-production to Production instances once a record is created or updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/exception-reason-integration.html
 release: australia
-topic_type: task
-last_updated: "2026-03-12"
+product: Impact
+classification: impact
+topic_type: concept
+last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
 # Exception reason integration
 
-You can synchronize exception reasons from sub-production to Production instances once a record is created or updated.
+You can synchronize exception reasons from non-production to Production instances once a record is created or updated.
 
-## Before you begin
+When a developer creates or updates an exception reason on a non-production instance, the integration automatically propagates that change to the production instance. If production approvals are enabled, the exception reason enters a Requested state and triggers an approval workflow before taking effect.
 
-Role required: sn\_se.scan\_engine\_admin, sn\_se.scan\_engine\_read\_user, sn\_se.internal\_rest\_integration
+## Approval workflow
 
-## Procedure
+When **Enable approvals in production** is selected in Scan Engine Properties, the following workflow applies:
 
-1.  Register your instances.
+1.  A developer creates or updates an exception reason on the non-production instance.
+2.  The exception reason is synced to production in a `Requested` state.
+3.  An approval request is sent to the configured Approval Group\(s\).
+4.  Once approved or rejected, the status syncs back to the developer instance.
 
-    See [Register your instance](register-your-instance.md).
+## Prerequisites
 
-2.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
+-   My SN Instances registration is complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
+-   Authentication is configured. See [Configure the Basic authentication method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-basic-auth-method.md) or [Configure the OAuth authentication method development instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-oauth-auth-method.md).
+-   Role required: `sn_se.scan_engine_admin`.
 
-3.  Configure the settings on the **Exception reason** properties tab.
+-   **[Sync exception reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/syncing-exception-reasons.md)**  
+Configure the Exception reason integration to automatically synchronize exception reasons between your non-production and production instances.
 
-    For more information, see [Configure exception reason properties](exception-reason-properties.md).
-
+**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
 

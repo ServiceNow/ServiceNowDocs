@@ -2,6 +2,7 @@
 title: Schedule a software count for the legacy Software Asset Management plugin
 description: How to schedule a software count for the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_ScheduleASoftwareCount.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -35,8 +36,8 @@ To refresh the cache manually for a specific counter:
 
 3.  Right-click in the header bar of the Software Counter record and select **Rebuild SAM Cache** from the context menu.
 
-    ![SAM rebuild cache](../image/SAMRebuildCache.png "SAM rebuild cache")
+    \[Omitted image "SAMRebuildCache.png"\] Alt text: SAM rebuild cache
 
 
-**Parent Topic:**[Software license reconciliation counters for the legacy Software Asset Management plugin](../concept/c_UseCountersSWLicenseReconcil.md)
+**Parent Topic:**[Software license reconciliation counters for the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UseCountersSWLicenseReconcil.md)
 

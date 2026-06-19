@@ -2,6 +2,7 @@
 title: Configure purchase modification record producers
 description: Configure the conditions to make the purchase modification records available for the shopper to edit or cancel. You can leverage the condition builder to set specific conditions from the ShoppingHub Configuration table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-purchase-modification.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -30,5 +31,5 @@ Role required: sn\_shop.shopping\_hub\_admin or sn\_shop.procurement\_administra
 4.  Select **Update**.
 
 
-**Parent Topic:**[Purchase modification configuration](../concept/purchase-modification-configuration.md)
+**Parent Topic:**[Purchase modification configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-modification-configuration.md)
 

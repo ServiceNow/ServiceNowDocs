@@ -2,6 +2,7 @@
 title: Create a project using Playbook data
 description: Use Process Mining to analyze Playbook executions and identify bottlenecks in your workflows. Process Mining works alongside Playbooks configured in Workflow Studio. By analyzing execution logs generated during playbook runs, Process Mining enables post-execution visibility into how human agents are handling playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/playbook-project.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -23,7 +24,7 @@ Role required: pd\_author, pd\_operator, sn\_process\_mining\_analyst, sn\_proce
 
 Playbooks are built and configured in Workflow Studio, where you define activities for human agents and set up decision logic based on customer scenarios. When agents execute these playbooks, the system generates execution logs that Process Mining can analyze.
 
-![Workflow studio](../image/workflow-studio.png)
+\[Omitted image "workflow-studio.png"\] Alt text: Workflow studio
 
 **Note:** Note the following:
 
@@ -41,15 +42,15 @@ Playbooks are built and configured in Workflow Studio, where you define activiti
 
 3.  Provide details on the **Set objectives** tab.
 
-<table id="choicetable_akh_rrs_33c"><thead><tr><th align="left" id="d58034e136">
+<table id="choicetable_akh_rrs_33c"><thead><tr><th align="left" id="d56619e136">
 
 Field
 
-</th><th align="left" id="d58034e139">
+</th><th align="left" id="d56619e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d58034e145">
+</th></tr></thead><tbody><tr><td id="d56619e145">
 
 **Select type**
 
@@ -57,7 +58,7 @@ Description
 
 Select `Project`.
 
-</td></tr><tr><td id="d58034e157">
+</td></tr><tr><td id="d56619e157">
 
 **Name**
 
@@ -65,7 +66,7 @@ Select `Project`.
 
 Provide an intuitive name for the project that you’re creating.
 
-</td></tr><tr><td id="d58034e166">
+</td></tr><tr><td id="d56619e166">
 
 **Short description**
 
@@ -73,7 +74,7 @@ Provide an intuitive name for the project that you’re creating.
 
 Provide a short description for the project you’re creating.
 
-</td></tr><tr><td id="d58034e175">
+</td></tr><tr><td id="d56619e175">
 
 **Source Type**
 
@@ -81,7 +82,7 @@ Provide a short description for the project you’re creating.
 
 Select `Playbook` from the list.
 
-</td></tr><tr><td id="d58034e188">
+</td></tr><tr><td id="d56619e188">
 
 **Playbook**
 
@@ -89,7 +90,7 @@ Select `Playbook` from the list.
 
 Select a table with playbook data from the list.
 
-</td></tr><tr><td id="d58034e197">
+</td></tr><tr><td id="d56619e197">
 
 **Mark as restricted**
 
@@ -99,7 +100,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d58034e210">
+</td></tr><tr><td id="d56619e210">
 
 **Auto retire**
 
@@ -113,7 +114,7 @@ This field is available only if you choose the type as **Project**.
 
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](../concept/data-cleanup.md#).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
 
 </td></tr></tbody>
 </table>4.  Select **Create project**.
@@ -124,10 +125,10 @@ This field is available only if you choose the type as **Project**.
 
 5.  Select **Review and Mine**.
 
-    ![Playbook project in Analyst workbench](../image/playbook.png)
+    \[Omitted image "playbook.png"\] Alt text: Playbook project in Analyst workbench
 
     The Analyst workbench provides execution metrics for completed playbook runs, including duration, average time per execution, and activity occurrence counts. The Analyst workbench visualizes parallel activities and decision points within the workflow to help you understand how playbooks are being executed.
 
 
-**Parent Topic:**[Using Process Mining](../concept/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
 

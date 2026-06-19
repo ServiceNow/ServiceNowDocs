@@ -2,6 +2,7 @@
 title: Run migration scheduled job
 description: Run the migration scheduled job to associate existing authorization packages and boundaries with the workflow after enabling the CAM workflow configuration property. The migration confirms that existing data is compatible with the workflow configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/run-migration-scheduled-job.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring

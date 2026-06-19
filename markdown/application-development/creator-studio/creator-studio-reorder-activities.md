@@ -2,6 +2,7 @@
 title: Reorder how activities appear in a playbook's activity picker
 description: Change the order that activities appear in the activity picker in Creator Studio to present them in the order you want.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-reorder-activities.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -25,7 +26,7 @@ Role required: admin or app\_engine\_admin
 
     All of the standard Creator Studio activities appear in the list, not just custom activities.
 
-    ![Creator Studio Activities table showing available activities with their descriptions and order values.](../image/crs-activities-table.png "Activities table")
+    \[Omitted image "crs-activities-table.png"\] Alt text: Creator Studio Activities table showing available activities with their descriptions and order values.
 
     The Creator Studio Activities table appears.
 
@@ -35,7 +36,7 @@ Role required: admin or app\_engine\_admin
 
     For example, an activity with order number 400 appears before an activity with order number 500.
 
-4.  Select the Save icon ![](../image/crs-save-check.png) to complete the update.
+4.  Select the Save icon \[Omitted image "crs-save-check.png"\] Alt text: to complete the update.
 
 5.  Change the **Order** for every activity that you want.
 
@@ -44,5 +45,5 @@ Role required: admin or app\_engine\_admin
 
 Alternatively, you can open each Creator Studio Activity record and update the **Order** one record at a time.
 
-**Parent Topic:**[Administering activities in Creator Studio](../concept/creator-studio-administering-activities.md)
+**Parent Topic:**[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-administering-activities.md)
 

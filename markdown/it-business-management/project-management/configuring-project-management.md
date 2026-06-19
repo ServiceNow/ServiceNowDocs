@@ -2,6 +2,7 @@
 title: Configuring Project Management
 description: Learn about the process required to set up and configure Project Management to enable your project managers initiate and plan projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/configuring-project-management.html
 release: australia
 product: Project Management
 classification: project-management
@@ -17,5 +18,5 @@ Learn about the process required to set up and configure Project Management to e
 
 ## Configuration overview
 
-With the Project Management application, you can plan, organize, and manage projects and resources more effectively, making it easier and faster to complete projects. To use the Project Management application, you need to install the PPM Standard plugin. For more information, see [PPM Standard \(Project Portfolio Management\)](../../project-portfolio-suite-with-financials/concept/c_ProjectPortfolioSuiteWithFinancials.md).
+With the Project Management application, you can plan, organize, and manage projects and resources more effectively, making it easier and faster to complete projects. To use the Project Management application, you need to install the PPM Standard plugin. For more information, see [PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md).
 

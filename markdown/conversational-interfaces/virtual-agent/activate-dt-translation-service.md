@@ -2,6 +2,7 @@
 title: Activate your translation service in Dynamic Translation
 description: Activate your preferred Dynamic Translation provider and mark it as the default service for both translation and language detection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/activate-dt-translation-service.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -19,9 +20,9 @@ Activate your preferred Dynamic Translation provider and mark it as the default 
 
 **Note:** The following content is only relevant to NLU conversations and live agent LLM conversations that use Dynamic Translation for Agent Chat.
 
-Complete the [prerequisites for using Dynamic Translation in Virtual Agent](../concept/prereq-using-dt-va.md).
+Complete the [prerequisites for using Dynamic Translation in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/prereq-using-dt-va.md).
 
-[Configure Dynamic Translation service integration credentials](configure-translation-srvc-integration-credentials.md).
+[Configure Dynamic Translation service integration credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-translation-srvc-integration-credentials.md).
 
 Role required: admin
 
@@ -42,7 +43,7 @@ Role required: admin
 
 ## What to do next
 
-[Enable Dynamic Translation for languages in Virtual Agent](enable-dynamic-lang-detection.md)
+[Enable Dynamic Translation for languages in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-lang-detection.md)
 
-**Parent Topic:**[Localization options for Virtual Agent](../concept/multi-language-options-va.md)
+**Parent Topic:**[Localization options for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/multi-language-options-va.md)
 

@@ -2,6 +2,7 @@
 title: Restrict the Microsoft SharePoint Online sites that External Content Q&amp;A Genius Results can search
 description: Define a Microsoft Keyword Query Language \(KQL\) query to restrict the set of Microsoft SharePoint Online sites \(paths\) that External Content Q&amp;A Genius Results can search for documents. Only documents that satisfy your query are eligible for External Content Q&amp;A Genius Result answer generation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/filter-spo-sites-ext-cont-qa-gr.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Define a Microsoft Keyword Query Language \(KQL\) query to restrict the set of M
 
 ## Before you begin
 
-The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](install-now-assist-ais.md).
+The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: admin
 
@@ -41,7 +42,7 @@ To learn more about KQL property restriction queries and the operators they supp
 2.  Search the list for the **sn\_ais\_assist.sharepoint\_search.query\_filter** system property record.
 
     -   If the system property record appears in the list, open it in form view by selecting it.
-    -   If the system property record does not appear in the list, add it, setting its **Type** to `string`. To learn how to add a new system property, see [Add a system property](../../reference-pages/reference/r_AvailableSystemProperties.md#).
+    -   If the system property record does not appear in the list, add it, setting its **Type** to `string`. To learn how to add a new system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 3.  In the system property record's **Value** field, enter a valid KQL property restriction query expression.
 
     As an example, suppose your Microsoft SharePoint Online source system is `https://example.sharepoint.com`.
@@ -57,5 +58,5 @@ To learn more about KQL property restriction queries and the operators they supp
 
 When searching for documents in your Microsoft SharePoint Online source system, External Content Q&amp;A Genius Results apply your property restriction KQL query as a filter. Only documents in sites that satisfy your query are eligible for retrieval and answer generation.
 
-**Parent Topic:**[External Content Q&amp;A Genius Results](../concept/external-content-qna.md)
+**Parent Topic:**[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-qna.md)
 

@@ -2,7 +2,10 @@
 title: Using Microsoft Outlook with CSM
 description: Integrate Customer Service Management with Microsoft Outlook to perform tasks such as managing contacts and cases from within Microsoft Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/use-microsoft-outlook-with-csm.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

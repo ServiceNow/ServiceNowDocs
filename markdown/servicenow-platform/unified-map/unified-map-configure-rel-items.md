@@ -2,6 +2,7 @@
 title: Configure the Related items panel
 description: Configure which categories of related items, such as active incidents and active problems, appear on the Unified Map Related items panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-configure-rel-items.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -30,9 +31,9 @@ The Related items panel groups related items by category on the side panel. Admi
 
 ## Procedure
 
-1.  While working in a map, select the Related items icon ![](../image/icon-um-related-items-panel.png).
+1.  While working in a map, select the Related items icon \[Omitted image "icon-um-related-items-panel.png"\].
 
-2.  In the **Related items** panel, select the User preferences icon ![](../image/icon-um-related-items-user-pref.png).
+2.  In the **Related items** panel, select the User preferences icon \[Omitted image "icon-um-related-items-user-pref.png"\].
 
 3.  In the Related items settings pop-up, move desired items to the **Selected items** list and undesired items to the **Available items** list.
 

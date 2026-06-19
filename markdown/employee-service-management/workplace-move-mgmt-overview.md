@@ -2,9 +2,10 @@
 title: Workplace Move Management
 description: The ServiceNow Workplace Move Management application enables your employees to relocate from one location to another without any hassle and without a required manual permission. Manage and fulfil employee move requests in simple steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-move-mgmt-overview.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,23 +18,23 @@ The ServiceNow® Workplace Move Management application enables your employees to
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Move Management concepts and features.](explore-move-mgmt.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about Workplace Move Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/explore-move-mgmt.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install and Configure Workplace Move Management.](configure-workplace-move-mgmt.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and Configure Workplace Move Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-workplace-move-mgmt.md)
 
 </td></tr><tr><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-headset.svg) Manage Workplace Move Management location records.](workplace-mov-mgmt-setup.md)
+[Manage\[Omitted image "bus-headset.svg"\] Alt text: Manage Workplace Move Management location records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-mov-mgmt-setup.md)
 
 </td><td>
 
-[References![](../../../reuse/icons/brand-icons/bus-learn.svg) Work with Workplace Move Management roles, properties, and components.](workplace-move-mgmt-references.md)
+[References\[Omitted image "bus-learn.svg"\] Alt text: Work with Workplace Move Management roles, properties, and components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-move-mgmt-references.md)
 
 </td></tr><tr><td>
 
-[Analytics and Reporting Solutions![](../../../reuse/icons/brand-icons/bus-elevate.svg) Coordinate work and improve processes with dashboards and reports.](analytics-reporting-solution.md)
+[Analytics and Reporting Solutions\[Omitted image "bus-elevate.svg"\] Alt text: Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/analytics-reporting-solution.md)
 
 </td><td>
 

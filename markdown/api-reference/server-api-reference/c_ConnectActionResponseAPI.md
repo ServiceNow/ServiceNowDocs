@@ -2,6 +2,7 @@
 title: ConnectActionResponse - Global
 description: The ConnectActionResponse API provides a method to create a glide record.Create a GlideRecord in the specified table with the specified values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_ConnectActionResponseAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ConnectActionResponse API provides a method to create a glide record.
 
 The ConnectActionResponse methods are accessed through a global object \(response\) that is available only in Connect action scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ConnectActionResponse - newRecord\(String table, Object values, String view\)
 

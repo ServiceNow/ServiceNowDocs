@@ -2,6 +2,7 @@
 title: Outbound staging tables for Supplier Lifecycle Operations
 description: The outbound staging tables for Supplier Lifecycle Operations store supplier data before it is exported to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/slo-outbound-staging-tables.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

@@ -2,6 +2,7 @@
 title: Configuring locales
 description: Specify a locale for an instance so information such as dates, times, and currencies display properly based on your location.Set the instance locale using a locale code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/c\_DefineLocales.html
 release: australia
 product: System Localization
 classification: system-localization

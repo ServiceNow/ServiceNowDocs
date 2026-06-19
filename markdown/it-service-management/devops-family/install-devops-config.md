@@ -2,6 +2,7 @@
 title: Install DevOps Config
 description: Install the DevOps Config application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/install-devops-config.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -13,17 +14,17 @@ breadcrumb: [Configuring DevOps Config, DevOps Config, IT Service Management]
 
 # Install DevOps Config
 
-Install the DevOps Config application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the DevOps Config application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: admin
 
 ## About this task
 
-![DevOps Config app installation](../image/devops-config-install.png)
+\[Omitted image "devops-config-install.png"\] Alt text: DevOps Config app installation
 
 ## Procedure
 
@@ -36,10 +37,10 @@ Role required: admin
     Configuration Data Management and Policy as Code Engine platform capabilities are also installed.
 
 
--   **[Install DevOps Config Policy content pack](devops-config-install-policy-pack.md)**  
+-   **[Install DevOps Config Policy content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-install-policy-pack.md)**  
 Install DevOps Config Policy content pack for a default set of DevOps Config policies that you can use as-is, or customize for your needs.
--   **[Install DevOps Config Exporter content pack](devops-config-install-launch-pack.md)**  
+-   **[Install DevOps Config Exporter content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-install-launch-pack.md)**  
 Install DevOps Config Exporter content pack for a default set of DevOps Config exporters that you can use as-is, or customize for your needs.
 
-**Parent Topic:**[Configuring DevOps Config](../concept/setting-up-devops-config-validation.md)
+**Parent Topic:**[Configuring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/setting-up-devops-config-validation.md)
 

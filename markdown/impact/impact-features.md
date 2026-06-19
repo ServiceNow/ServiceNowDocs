@@ -2,11 +2,14 @@
 title: Benefits &amp; Usage
 description: Impact Benefits &amp; Usage allows you to quickly access and review the powerful tools available in your Impact subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/impact-features.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Impact, Impact]
+breadcrumb: [Impact reference, Impact]
 ---
 
 # Benefits &amp; Usage
@@ -31,9 +34,9 @@ Impact Core
 
 </td><td>
 
--   [Exploring Impact](impact-program-features.md)
--   [Impact Squad](impact-squad.md)
--   [Impact operating model](impact-operating-model.md)
+-   [Exploring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-program-features.md)
+-   [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-squad.md)
+-   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-operating-model.md)
 
 </td></tr><tr><td>
 
@@ -41,7 +44,7 @@ Experts on Demand
 
 </td><td>
 
--   [Initiatives and Accelerators](impact-initiatives.md)
+-   [Initiatives and Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md)
 -   Advisory sessions
 -   Expert services discount
 
@@ -52,7 +55,7 @@ Platform Health and Monitoring
 </td><td>
 
 -   HealthScan
--   [Monitoring instance health with Instance Observer](io-overview.md)
+-   [Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 
 </td></tr><tr><td>
 
@@ -73,8 +76,9 @@ Premium Technical Support
 </td><td>
 
 -   24/7 Inbound Phone Support
--   [Impact Developer Support](developer-support.md)
+-   [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md)
 -   Enhanced case response time
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-reference.md)
+

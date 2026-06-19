@@ -2,6 +2,7 @@
 title: NowAttachment structure - iOS
 description: The NowAttachment structure provides functions that enable you to validate attachments by comparing their computed hash.Validates the attachment by comparing the computed hash for the attachment data to the digest stored in the attachment metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowAttachmentiOSStructure.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -49,7 +50,7 @@ String
 
 </td><td>
 
-Computed digest for the attachment data.This computed digest is used to [validate](NowAttachmentiOSStructure.md#) the attachment by comparing it to the known digest stored in the [attachment metadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#). Calculating the computed digest is expensive; avoid using it in the UI. Instead, consider using the hash property in the [NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#) class. If you must use the computed hash, use it sparingly, and consider caching it.
+Computed digest for the attachment data.This computed digest is used to [validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAttachmentiOSStructure.md) the attachment by comparing it to the known digest stored in the [attachment metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md). Calculating the computed digest is expensive; avoid using it in the UI. Instead, consider using the hash property in the [NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md) class. If you must use the computed hash, use it sparingly, and consider caching it.
 
 </td></tr><tr><td>
 
@@ -57,14 +58,14 @@ metadata
 
 </td><td>
 
-[NowAttachmentMetadata](../../NowAttachmentMetadata/concept/NowAttachmentMetadataiOSStructure.md#)
+[NowAttachmentMetadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataiOSStructure.md)
 
 </td><td>
 
 Metadata associated with the attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowAttachment - validate\(\)
 

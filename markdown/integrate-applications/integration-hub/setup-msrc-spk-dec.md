@@ -2,6 +2,7 @@
 title: Set up the Microsoft Security Response Center spoke
 description: Set up an outbound integration between your ServiceNow instance and the Microsoft Security Response Center instance by setting up a connection and credential record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-msrc-spk-dec.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -36,11 +37,11 @@ Set up an outbound integration between your ServiceNow instance and the Microsof
 
 6.  In the Microsoft Security Response Center tile, select **View Details**.
 
-    ![View Details button on Microsoft Security Response Center alias card.](../image/microsoft-sec-resp-center-view-details.png)
+    \[Omitted image "microsoft-sec-resp-center-view-details.png"\] Alt text: View Details button on Microsoft Security Response Center alias card.
 
 7.  Select **Configure**.
 
-    ![Configure button to configure Microsoft Security Center spoke connection record.](../image/msc-spoke-configure.png)
+    \[Omitted image "msc-spoke-configure.png"\] Alt text: Configure button to configure Microsoft Security Center spoke connection record.
 
 8.  Fill the Configure Connection form.
 
@@ -77,7 +78,7 @@ API Key
 API key that you copied from the [Microsoft Security Update API](https://portal.msrc.microsoft.com/en-us/developer) page.
 
 </td></tr></tbody>
-</table>    ![Connection form.](../image/msc-spoke-connection-form.png)
+</table>    \[Omitted image "msc-spoke-connection-form.png"\] Alt text: Connection form.
 
 9.  Select **Configure Connection**.
 

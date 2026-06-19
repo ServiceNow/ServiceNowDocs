@@ -2,6 +2,7 @@
 title: Use a slow query log
 description: Administrators can use slow query logs to gain insight into how queries are affecting platform performance. The Slow Queries log aggregates data for similar queries. Use slow query data to evaluate the need for new indexes, changes to existing indexes, or changes to frequent queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/t\_UseASlowQueryLog.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -36,7 +37,7 @@ Aggregating similar query data allows administrators to monitor the performance 
 
 2.  Open a query record for more details.
 
-    For a description of the field values in the query record, see [Query record form fields](../reference/query-record-fields.md).
+    For a description of the field values in the query record, see [Query record form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/query-record-fields.md).
 
 3.  To see what the database is doing to retrieve the data, click **Explain Plan**.
 
@@ -46,8 +47,8 @@ Aggregating similar query data allows administrators to monitor the performance 
 
 4.  To generate an index suggestion for a slow query, click **Index Suggestion**.
 
-    For details, see [Generate an index suggestion for a slow query](generate-index-suggestion.md).
+    For details, see [Generate an index suggestion for a slow query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/generate-index-suggestion.md).
 
 
-**Parent Topic:**[Resolving slow queries](../concept/resolving-slow-queries.md)
+**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-slow-queries.md)
 

@@ -2,6 +2,7 @@
 title: Create a procurement case for a service
 description: Create a procurement case for a service that you wish to procure. The procurement organization receives your details from the request and works toward its fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-request.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,7 +28,7 @@ Role required: sn\_spend\_psd.requestor
 
 3.  On the form, fill in the fields.
 
-    ![Create a procurement case.](../image/create_procurement_case.png)
+    \[Omitted image "create\_procurement\_case.png"\] Alt text: Create a procurement case.
 
     |Field|Description|
     |-----|-----------|
@@ -55,5 +56,5 @@ Role required: sn\_spend\_psd.requestor
 -   Track the progress of your request by monitoring the request fulfillment with the procurement organization.
 
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

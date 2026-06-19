@@ -1,8 +1,11 @@
 ---
 title: Change your password from the Consumer Portal
-description: Update your Consumer Portal password to protect your account and ensure continued access.
+description: Change your Consumer Portal password from your profile settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/password-change-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -11,7 +14,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Change your password from the Consumer Portal
 
-Update your Consumer Portal password to protect your account and ensure continued access.
+Change your Consumer Portal password from your profile settings.
 
 ## Before you begin
 

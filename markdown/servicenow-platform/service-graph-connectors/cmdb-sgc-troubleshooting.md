@@ -2,6 +2,7 @@
 title: Resolving Service Graph Connector issues
 description: You can use the Service Graph Connector Support Tools application to initiate a chatbot conversation with a virtual agent and resolve an issue or perform a general analysis on a Service Graph Connector installed on your instance.Resolve the Service Graph Connector issues or perform a general analysis using the Troubleshooting module available for Service Graph Connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-sgc-troubleshooting.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -37,7 +38,7 @@ You can use the prebuilt conversations to debug and resolve the following types 
     The virtual agent suggests you to review mappings for input and output fields using the IntegrationHub ETL store app.
 
 
-**Parent Topic:**[Service Graph Connector Support Tools](cmdb-sgc-support-tools.md)
+**Parent Topic:**[Service Graph Connector Support Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-support-tools.md)
 
 ## Resolve a Service Graph Connector issue
 
@@ -45,7 +46,7 @@ Resolve the Service Graph Connector issues or perform a general analysis using t
 
 ### Before you begin
 
-[Install Service Graph Connector Support Tools](../task/sgc-cmdb-troubleshooting-install.md)
+[Install Service Graph Connector Support Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-troubleshooting-install.md)
 
 Role required: admin
 

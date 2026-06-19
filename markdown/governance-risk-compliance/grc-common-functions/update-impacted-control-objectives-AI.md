@@ -2,6 +2,7 @@
 title: Use Control Objective Change Agent to update control objectives
 description: Use the Control Objective Change Agent to review and update impacted Control Objectives based on latest citation details. Users can interact with the Now Assist panel to review and finalize the updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/update-impacted-control-objectives-AI.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -28,7 +29,7 @@ Confirm that the control objective is active.
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the List icon \(![](../../assessment-engine/image/list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "list-icon.png"\]\).
 
 3.  Select **Compliance change recommendations** &gt; **Control objectives**.
 

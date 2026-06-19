@@ -2,13 +2,14 @@
 title: Create a commercial claim case
 description: A first-notice-of-loss representative or processor can begin the claim process by initiating a commercial claim case on behalf of your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-commercial-claim-case.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Commercial Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a commercial claim case
@@ -23,19 +24,19 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative or sn\_ins\_claim\_cml.a
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a case from the commercial auto claim cases list or an interaction record.
 
-<table><thead><tr><th align="left" id="d105690e85">
+<table><thead><tr><th align="left" id="d108773e85">
 
 Option
 
-</th><th align="left" id="d105690e88">
+</th><th align="left" id="d108773e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d105690e94">
+</th></tr></thead><tbody><tr><td id="d108773e94">
 
 **Commercial auto claim case from the commercial auto claim case list**
 
@@ -45,7 +46,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d105690e124">
+</td></tr><tr><td id="d108773e124">
 
 **Commercial auto claim case from an interaction record**
 
@@ -54,7 +55,7 @@ Steps
 1.  In the **Lists** tab, under **Interactions**, click **My Interactions**.
 2.  Open the required interaction record for the customer.
 3.  Select **Create Case**.
- For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interactions.md).
+ For information on how to create an interaction, see Create an interaction.
 
 </td></tr></tbody>
 </table>4.  In the Create a new case dialog box, select **Commercial auto policy report claim**.
@@ -76,5 +77,5 @@ A commercial claim case is created in the New state and the workflow is triggere
 
 ## What to do next
 
-As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a commercial claim](manually_validate_claim.md).
+As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a commercial claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/manually_validate_claim.md).
 

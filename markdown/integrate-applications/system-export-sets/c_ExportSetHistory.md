@@ -2,6 +2,7 @@
 title: Export set history
 description: An export set history record is automatically created whenever an export set runs, either scheduled or manually started by a user. Export set history records allow you to monitor and troubleshoot the progress of export sets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/c\_ExportSetHistory.html
 release: australia
 product: System Export Sets
 classification: system-export-sets

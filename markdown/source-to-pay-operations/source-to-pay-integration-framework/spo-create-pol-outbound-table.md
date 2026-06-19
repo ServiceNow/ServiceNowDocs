@@ -2,6 +2,7 @@
 title: Outbound Order Line staging table
 description: The Outbound Order Line \[sn\_spend\_intg\_outbound\_purchase\_order\_line\] staging table stores important data about the purchase order lines created so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/spo-create-pol-outbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

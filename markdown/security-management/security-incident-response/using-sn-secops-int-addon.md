@@ -2,6 +2,7 @@
 title: Using ServiceNow Security Operations Integration add-on
 description: Create security events and incidents directly from Splunk alerts after setting up ServiceNow Security Operations Integration add-on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-sn-secops-int-addon.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -43,6 +44,6 @@ Role required: sn\_si.integration\_user, sn\_si.analyst
 
         **Note:** The mapping is pre defined as we don't have a profile for this add-on.
 
-    ![Event actions in Splunk enterprise](../image/splunk-event-actions.png)
+    \[Omitted image "splunk-event-actions.png"\] Alt text: Event actions in Splunk enterprise
 
 

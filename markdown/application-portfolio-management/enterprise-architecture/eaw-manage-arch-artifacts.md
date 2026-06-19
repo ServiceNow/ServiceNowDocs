@@ -1,0 +1,39 @@
+---
+title: Manage architectural artifacts
+description: Architectural artifacts are created to describe a system, solution, or state of an enterprise. The goal of architectural artifacts in Enterprise Architecture is to enable enterprise architects to create and manage artifacts in their organization.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/enterprise-architecture/eaw-manage-arch-artifacts.html
+release: australia
+product: Enterprise Architecture
+classification: enterprise-architecture
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+---
+
+# Manage architectural artifacts
+
+Architectural artifacts are created to describe a system, solution, or state of an enterprise. The goal of architectural artifacts in Enterprise Architecture is to enable enterprise architects to create and manage artifacts in their organization.
+
+-   **[View all architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-view-arch-art-categories.md)**  
+View the list of all architectural artifact categories in the Enterprise Architecture Workspace.
+-   **[View all architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-view-all-architectural-artifacts.md)**  
+You can view the list of all architectural artifacts in the Enterprise Architecture Workspace.
+-   **[Create or edit an architectural artifact from Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-create-architectural-artifact.md)**  
+Create an architectural artifact to align it with your business requirements.
+-   **[Add a related entity to an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-add-a-related-entity-to-an-architectural-artifact.md)**  
+Associate an architectural artifact to existing entities such as business capabilities, business applications, digital integrations, and digital interfaces. The association creates a relationship between the artifact and related entities.
+-   **[Share an architectural artifact with users or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-share--archi-artft-with-users-groups.md)**  
+You can share architectural artifacts with users or groups for enhanced and effective collaboration with all relevant stakeholders, in the Enterprise Architecture Workspace.
+-   **[Manage access to architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-manage-access-to-architectural-artifacts.md)**  
+You can manage the user or group access to specific architectural artifacts from the Enterprise Architecture Workspace.
+-   **[Request approval for an architectural artifact of type URL or Attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-req-approval-artifact-version.md)**  
+You can request approval for architectural artifacts of the type **URL** or **Attachment** from users who are part of the Enterprise Architect user group. The user reviews and approves the request.
+-   **[Download an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-download-artifact-version.md)**  
+Download a version of an architectural artifact that has the file type defined as **Attachment**.
+-   **[Delete an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-delete-an-architectural-artifact-version.md)**  
+Delete an architectural artifact version that is in **Draft** state from the Enterprise Architecture Workspace.
+
+**Parent Topic:**[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/enterprise-architecture/eaw-work-with-info-portfoliodita.md)
+

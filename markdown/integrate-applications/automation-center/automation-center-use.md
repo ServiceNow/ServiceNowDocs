@@ -2,6 +2,7 @@
 title: Using Automation Center
 description: If you're an automation business user, technical user, or administrator, you can use the Automation Center application to create an automation task, resource, insight rule, and insight trigger. You can also move an automation request to different life cycle stages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-center-use.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -15,18 +16,18 @@ breadcrumb: [Automation Center, Workflow Data Fabric]
 
 If you're an automation business user, technical user, or administrator, you can use the Automation Center application to create an automation task, resource, insight rule, and insight trigger. You can also move an automation request to different life cycle stages.
 
--   **[Working with automations](automations.md)**  
+-   **[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)**  
 Create automations to automatically streamline your business processes, reduce the time that you spend on manual activities, and reduce your costs.
--   **[Working with actions](actions.md)**  
+-   **[Working with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/actions.md)**  
 Create actions to fix issues that cause automations to fail.
--   **[Working with reviews](reviews.md)**  
+-   **[Working with reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/reviews.md)**  
 Reviews enable you to evaluate automations that have been created.
--   **[Working with Connection Manager](connection-manager.md)**  
+-   **[Working with Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/connection-manager.md)**  
 Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
--   **[Migrating automations from UiPath to ServiceNow RPA Hub](migrating-automations-from-uipath.md)**  
+-   **[Migrating automations from UiPath to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md)**  
 Migrate UiPath automations to ServiceNow RPA Hub using Automation Center.
--   **[Now Assist for Automation Center](nowassist-ac.md)**  
+-   **[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/nowassist-ac.md)**  
 Use Now Assist for Automation Center helps you explore existing automations in your ServiceNow instance. You can use it to streamline and simplify automation request setup from Task Mining workspace.
 
-**Parent Topic:**[Automation Center](automation-center-landing-page.md)
+**Parent Topic:**[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-landing-page.md)
 

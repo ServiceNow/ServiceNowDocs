@@ -2,6 +2,7 @@
 title: Create an Indicator Scorecard
 description: The Indicator Scorecard component enables users to visualize and compare data between multiple Performance Analytics indicators. It highlights the information regarding the last score collected, the change from the previous data point, the trend over time, and the value of the target to achieve.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dv-indicator-scorecard.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ The Indicator Scorecard component enables users to visualize and compare data be
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -29,108 +30,25 @@ For information about the use of an Indicator Scorecard in a dashboard, see [the
 
 2.  Select **Create data visualization**.
 
-3.  Select the Indicator Scorecard \(![Indicator Scorecard icon](../image/inline-data-vis-scorecard.png)\) visualization type.
+3.  Select the Indicator Scorecard \(\[Omitted image "inline-data-vis-scorecard.png"\] Alt text: Indicator Scorecard icon\) visualization type.
 
 4.  Configure the **Header and border**.
 
-<table id="table_zq5_l2g_gfc"><thead><tr><th>
+    |Header and border fields|Description|
+    |------------------------|-----------|
+    |Show header|The visualization header, including title and icons.|
+    |Show header separator|Option to display a line separating the header from the rest of the component.|
+    |Chart title|Title of the visualization.|
+    |Use large font size|Renders the header title in a large font|
+    |Title alignment|Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.|
+    |Description|A short overview about the visualization that the end user sees. Descriptions help users find the visualization.|
+    |Wrap title|Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.|
+    |Line of truncation|Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.|
+    |Show border|Option to display a line around the component.|
+    |Header background color|Background color for the header. Applies only to this visualization's header. For accessibility, verify contrast between the header background and title text using the color picker's contrast ratio checker. Themes aren't supported with custom colors.|
+    |Title background color|Background color for the chart title, aligned with your dashboard theme, branding, or design preferences. The selected color applies only to the title of this visualization. For accessibility, verify sufficient contrast between the header background and title text using the contrast ratio checker in the color picker. Themes are not supported when a custom color is selected.|
 
-Header and border fields
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Show header
-
-</td><td>
-
-The visualization header, including title and icons.
-
-</td></tr><tr><td>
-
-Show header separator
-
-</td><td>
-
-Option to display a line separating the header from the rest of the component.
-
-</td></tr><tr><td>
-
-Chart title
-
-</td><td>
-
-Title of the visualization.
-
-</td></tr><tr><td>
-
-Use large font size
-
-</td><td>
-
-Renders the header title in a large font
-
-</td></tr><tr><td>
-
-Title alignment
-
-</td><td>
-
-Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-A short overview about the visualization that the end user sees. Descriptions help users find the visualization.
-
-</td></tr><tr><td>
-
-Wrap title
-
-</td><td>
-
-Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.
-
-</td></tr><tr><td>
-
-Line of truncation
-
-</td><td>
-
-Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.
-
-</td></tr><tr><td>
-
-Show border
-
-</td><td>
-
-Option to display a line around the component.
-
-</td></tr><tr><td>
-
-Header background color
-
-</td><td>
-
-A header background color to align with your theme, branding, or design preferences. The selected color applies only to the header of this visualization. For better accessibility, ensure sufficient contrast between the header background and title text. Use the contrast ratio checker within the color picker to verify. Note that themes are not supported when selecting a custom color.
-
-</td></tr><tr><td>
-
-Title background color
-
-</td><td>
-
-A color for the chart title to align it with your dashboard theme, branding, or design preferences. The chosen color will apply only to the title of the visualization. For better accessibility, ensure sufficient contrast between the header background and title text. You can verify this by checking the contrast ratio within the color picker. Note that themes are not supported when selecting a custom color.
-
-</td></tr></tbody>
-</table>5.  Configure the filtering and sorting capabilities of the Indicator Scorecard.
+5.  Configure the filtering and sorting capabilities of the Indicator Scorecard.
 
 <table id="table_j2v_zll_4nb"><thead><tr><th>
 
@@ -216,11 +134,19 @@ Select the breakdowns that you want to display. You can drag breakdown tiles to 
 
 </td></tr><tr><td>
 
+Follow breakdown relation
+
+</td><td>
+
+Turn on to apply [breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) if any are defined for the selected breakdown. After turning this option on, select the breakdown relation from a list that opens. When you add this indicator scorecard to a dashboard, also add a filter with the breakdown source as its filter source. Set the filter to filter indicators with this breakdown. For more information, see [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/breakdown-relations.md). The latest version of the Data Visualizations application from the ServiceNow® Store is required.
+
+</td></tr><tr><td>
+
 Max number of groups
 
 </td><td>
 
-The maximum number of elements to show for a breakdown. If you do not select the elements to show in **Filter elements**, the elements that are shown depend on the breakdown source and the value of **Sort direction**. For example, consider the Assignment Group breakdown, which uses the Name field from the Group \[sys\_group\] table. If the **Max number of groups** is the default 5, you show either the first 5 group names or the last 5 group names alphabetically, depending on whether the sort direction is ascending or descending. In such cases, consider selecting the elements in the **Filter elements** field.Default: 5
+The maximum number of elements to show for a breakdown. If you do not select the elements to show in **Filter elements**, the elements that are shown depend on the breakdown source and the value of **Sort direction**. For example, consider the Assignment Group breakdown, which uses the Name field from the Group \[sys\_group\] table. With the default value of 5, the **Max number of groups** field shows either the first 5 or last 5 group names alphabetically. The order depends on the sort direction. To control which elements appear, select them in the **Filter elements** field.Default: 5
 
 </td></tr><tr><td>
 
@@ -278,7 +204,7 @@ Time series aggregation
 
 </td><td>
 
-Time series aggregation to apply to all Indicators selected. To learn more about time series aggregations, see [Applying time series aggregations](../../performance-analytics/concept/applying-time-series-aggregations.md#).
+Time series aggregation to apply to all Indicators selected. To learn more about time series aggregations, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
 
 </td></tr><tr><td>
 
@@ -298,7 +224,7 @@ Sort Direction
 
 </td><td>
 
-The sorting direction for the indicators and/or breakdown elements. The effect on breakdown elements varies depending on the breakdown source. For example, breakdown elements from the Choice \[sys\_choice\] table are sorted according to the value of the Sequence field, whereas breakdown elements from Group \[sys\_group\] are sorted alphabetically according to the Name field.Values: Ascending \(Asc\) or Descending \(Desc\)
+The sorting direction for the indicators and/or breakdown elements. The effect on breakdown elements varies depending on the breakdown source. For example, breakdown elements from the Choice \[sys\_choice\] table are sorted according to the value of the Sequence field. By contrast, breakdown elements from Group \[sys\_group\] are sorted alphabetically according to the Name field.Values: Ascending \(Asc\) or Descending \(Desc\)
 
  Default: Asc
 
@@ -436,9 +362,9 @@ Only the **Go to data view** interaction is available. This action opens the ind
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](share-dv-ac.md#)
--   [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/bookmark-dv-ac.md)
 
-**Parent Topic:**[Creating data visualizations](../concept/creating-data-visualizations.md)
+**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/creating-data-visualizations.md)
 

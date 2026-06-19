@@ -2,6 +2,7 @@
 title: Configure Microsoft OneDrive application for Knowledge Graph
 description: Use Microsoft SharePoint for fetching user-specific external data, such as shared files, from external services through a Knowledge Graph API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/create-microsoft-onedrive-app.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

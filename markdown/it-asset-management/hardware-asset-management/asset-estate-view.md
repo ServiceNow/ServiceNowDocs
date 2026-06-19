@@ -2,20 +2,21 @@
 title: Asset estate view
 description: Use the Asset estate view in the Hardware Asset Workspace to view the asset functions and notifications such as expiring assets, expiring lease contracts, and take appropriate actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asset-estate-view.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Hardware Asset Workspace, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management]
 ---
 
 # Asset estate view
 
 Use the Asset estate view in the Hardware Asset Workspace to view the asset functions and notifications such as expiring assets, expiring lease contracts, and take appropriate actions.
 
-![Asset estate view in Hardware asset workspace](../image/asset-estate.png "Asset estate view")
+\[Omitted image "asset-estate.png"\] Alt text: Asset estate view in Hardware asset workspace
 
 **Note:** The Software license tab is hidden when Software Asset Management \(com.snc.software\_asset\_management\) or Software Asset Management Professional \(com.snc.pa.samp\) is active. You can view this Software license tab in Software Asset Workspace.
 
@@ -34,7 +35,7 @@ Use the Asset estate view in the Hardware Asset Workspace to view the asset func
 |Asset incident frequency|Assets that have been reported with frequent incidents.|
 |Hardware assets disposed \(YTD\) by model category|Assets disposed until the current date in this year and grouped by their model category.|
 
-To create hardware, software, consumable, bundle, pallet, mobile, and facility assets, select **New asset**. For more details, see [Create assets](../../asset-management/task/t_CreatingAssets.md).
+To create hardware, software, consumable, bundle, pallet, mobile, and facility assets, select **New asset**. For more details, see [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingAssets.md).
 
 ## Load reports on Asset estate view
 
@@ -42,5 +43,5 @@ You can load charts or widgets that fetch a huge set of asset records on demand 
 
 The system property **sn\_itam\_workspace.asset\_estate\_enable\_lazy\_loading** provides you with an option to either selectively load reports you want to view or load reports concurrently with the page. By default, this system property is set to **False**. When this system property is enabled on your ServiceNow instance, you can view charts or widgets by using the **Load report** option.
 
-![Load reports on Asset estate view](../image/ham-asset-estate-load.png "Load reports on Asset estate view")
+\[Omitted image "ham-asset-estate-load.png"\] Alt text: Load reports on Asset estate view
 

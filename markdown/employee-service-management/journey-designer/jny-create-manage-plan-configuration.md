@@ -2,6 +2,7 @@
 title: Create and manage plan configurations in Journey designer
 description: Create and manage plan configurations that are based on a plan type. Plan configurations are customized for specific employee audiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-create-manage-plan-configuration.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -17,7 +18,7 @@ Create and manage plan configurations that are based on a plan type. Plan config
 
 ## Before you begin
 
--   A plan type must exist: [Create and manage plan types](jny-create-manage-plans.md)
+-   A plan type must exist: [Create and manage plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-create-manage-plans.md)
 -   Journey designer v1
 -   Role required: admin \[sn\_jny.admin\]
 
@@ -111,5 +112,5 @@ Detailed description of the plan.
 8.  Select **Update**.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

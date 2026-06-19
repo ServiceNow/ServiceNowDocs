@@ -2,11 +2,12 @@
 title: Enhancements to knowledge article view page
 description: Enhancement to the UI components on the article view page improves their visibility and utility. The mobile responsive UI has been built to enhance the visual experience for those using Knowledge Management on a mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/enhancements-to-knowledge-article-view-page.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

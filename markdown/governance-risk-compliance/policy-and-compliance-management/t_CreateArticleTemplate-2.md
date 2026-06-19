@@ -2,6 +2,7 @@
 title: Create a GRC article template
 description: Policy and Compliance managers can create templates for policy article publishing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/t\_CreateArticleTemplate-2.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -90,7 +91,7 @@ Option to indicate that this template is used as the default template for all KB
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Policy and Compliance Management enhancement steps](../../grc-policy-compliance-implementation/concept/policy-compliance-optional-steps.md)
+**Parent Topic:**[Policy and Compliance Management enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md)
 
-**Parent Topic:**[Manage control objectives and policies](../reference/r_PoliciesAndProcedures.md)
+**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

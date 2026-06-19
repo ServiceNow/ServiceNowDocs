@@ -2,6 +2,7 @@
 title: Authenticate Google Drive account
 description: Enable personal authentication for Google Drive for Multi Provider Document Services Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/authenticate-google-drive-account.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -26,5 +27,5 @@ Role required: sn\_personal\_auth.personal\_auth\_user
 2.  Go to Google Drive Spoke Credential tile, select **Authenticate**.
 
 
-**Parent Topic:**[Personal authentication](../concept/personal-authentication-documents.md)
+**Parent Topic:**[Personal authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/personal-authentication-documents.md)
 

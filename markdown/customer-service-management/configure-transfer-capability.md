@@ -2,7 +2,10 @@
 title: Configuring Transfer capabilities
 description: This step in the simulator doesn't display if you didn't select Transfer capability. Any value configured in the Phone directory, in the Set Idle State capabilities step, reflects in the Transfer list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-transfer-capability.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: admin
 
 This step lets you set up transfer options for agents, queues, external numbers, and direct dial during a simulated call.
 
-![Configure Transfer capabilities in the simulator](../image/int-transfer-capability.png "Configure Transfer capabilities")
+\[Omitted image "int-transfer-capability.png"\] Alt text: Configure Transfer capabilities in the simulator
 
 ## Procedure
 
@@ -38,7 +41,7 @@ This step lets you set up transfer options for agents, queues, external numbers,
 
 ## What to do next
 
-Select the phone icon in the header to view your configured voice control features in the Global call and Active call windows. See [Interaction Controls Component \(ICC\) call features](../concept/interaction-controls-component-icc-call-interaction-features.md) for call control feature definitions.
+Select the phone icon in the header to view your configured voice control features in the Global call and Active call windows. See [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md) for call control feature definitions.
 
-Continue to the final step in the simulation to [Adding participants](adding-participants.md).
+Continue to the final step in the simulation to [Adding participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/adding-participants.md).
 

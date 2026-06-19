@@ -2,6 +2,7 @@
 title: DynamicTranslation - Scoped
 description: The DynamicTranslation API provides methods that translate text, in real time, into multiple languages using translation service providers.Detects the language of the passed in text.Detects the languages of the passed in text strings.Translates the passed in text to one or more languages.Translates the passed in text strings to one or more languages.Determines whether the various methods in the DynamicTranslation API are enabled for a translation service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DynamicTranslation.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,9 +20,9 @@ In addition, you can use this API to detect the language of a specific string an
 
 Currently this API supports two translation service providers: Microsoft Azure Translator Service and Google Cloud Translator Service. You can also configure other translation services within your instance and then use the DynamicTranslation API to translate your text.
 
-When using these methods in a server-side script, use the `sn_dt_api` namespace identifier. Before you are able to use this API, you must activate the DynamicTranslation \(com.glide.dynamic\_translation\) plugin. For information on this plugin and additional information on Dynamic Translation, refer to [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
+When using these methods in a server-side script, use the `sn_dt_api` namespace identifier. Before you are able to use this API, you must activate the DynamicTranslation \(com.glide.dynamic\_translation\) plugin. For information on this plugin and additional information on Dynamic Translation, refer to Dynamic translation overview.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## DynamicTranslation - getDetectedLanguage\(String text, Object parms\)
 
@@ -84,7 +85,7 @@ Optional. Translation service to use to translate the text \(not case-sensitive\
 -   IBM
 -   &lt;custom&gt;
 
- **Note:** To use custom translation services you must first configure the translation service in your instance. For details, see [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md).
+ **Note:** To use custom translation services you must first configure the translation service in your instance. For details, see Integrate with a translation service provider.
 
  Default: Translation service configured in the Translator Configuration \[sn\_dt\_translator\_configuration\] table.
 
@@ -194,17 +195,17 @@ Error messages
 </td><td>
 
 The following are error messages that the method may return and indications as to the error's root cause. -   Text \("text" field\) is missing or invalid. \(40000\): The text to translate is either missing or not a string.
--   Dynamic Translation plugin is not installed. \(40001\): The Dynamic Translation API was invoked without activating the com.glide.dynamic\_translation plugin. For information on activating this plugin, see [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
+-   Dynamic Translation plugin is not installed. \(40001\): The Dynamic Translation API was invoked without activating the com.glide.dynamic\_translation plugin. For information on activating this plugin, see Dynamic translation overview.
 -   Translator \("translator" field\) is invalid. \(40003\): The passed in **translator** parameter is not a string.
--   &lt;translator&gt; translator is not configured. \(40004\): The specified translation service is not configured in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
--   &lt;translator&gt; translator is inactive. \(40005\): The specified translation service is not set to **Active** in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
+-   &lt;translator&gt; translator is not configured. \(40004\): The specified translation service is not configured in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
+-   &lt;translator&gt; translator is inactive. \(40005\): The specified translation service is not set to **Active** in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
 -   Additional parameters are invalid. \(40006\): The additional parameters that were passed are not an object.
 -   Maximum time limit has been exceeded. \(40009\): The operation took longer than the defined timeout value specified in the Translation Configuration. Default: 40 seconds
--   Default translator is not configured for detection. \(40011\): The default translation service has not been specified for language detection in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
--   &lt;translator&gt; translator is not configured for detection. \(40013\): The specified translation service is not configured for language detection in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
+-   Default translator is not configured for detection. \(40011\): The default translation service has not been specified for language detection in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
+-   &lt;translator&gt; translator is not configured for detection. \(40013\): The specified translation service is not configured for language detection in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
 -   Unknown error occurred. \(40051\): Default error thrown when the error doesn't fall in to any other category.
 -   Text \("text" field\) has exceeded its maximum length. \(40052\): The text that was passed in to translate exceeds the maximum length supported by the corresponding translation service.
--   Request is not authorized because credentials are missing or invalid \(40055\): The credentials configured for the translation service in Connections &amp; Credentials are not valid. For information on connections and credentials, see [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
+-   Request is not authorized because credentials are missing or invalid \(40055\): The credentials configured for the translation service in Connections &amp; Credentials are not valid. For information on connections and credentials, see Dynamic translation overview.
 
 </td></tr></tbody>
 </table>This example shows code in a server-side script that detects a string in English using IBM's translation service.
@@ -308,7 +309,7 @@ Translation service to use to detect the language of a string. Translation servi
 -   IBM
 -   &lt;custom&gt;
 
-**Note:** To use custom translation services you must first configure the translation service in your instance. For details, see [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md).
+**Note:** To use custom translation services you must first configure the translation service in your instance. For details, see Integrate with a translation service provider.
 
 Default: Translation service configured in the Translator Configuration \[sn\_dt\_translator\_configuration\] table.
 
@@ -463,19 +464,19 @@ Error messages
 </td><td>
 
 The following are error messages that the method may return and indications as to the error's root cause. -   Text \("text" field\) is missing or invalid. \(40000\): The text to translate is either missing or not a string.
--   Dynamic Translation plugin is not installed. \(40001\): The Dynamic Translation API was invoked without activating the com.glide.dynamic\_translation plugin. For information on activating this plugin, see [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
+-   Dynamic Translation plugin is not installed. \(40001\): The Dynamic Translation API was invoked without activating the com.glide.dynamic\_translation plugin. For information on activating this plugin, see Dynamic translation overview.
 -   Translator \("translator" field\) is invalid. \(40003\): The passed in **translator** parameter is not a string.
--   &lt;translator&gt; translator is not configured. \(40004\): The specified translation service is not configured in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
--   &lt;translator&gt; translator is inactive. \(40005\): The specified translation service is not set to **Active** in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
+-   &lt;translator&gt; translator is not configured. \(40004\): The specified translation service is not configured in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
+-   &lt;translator&gt; translator is inactive. \(40005\): The specified translation service is not set to **Active** in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
 -   Additional parameters are invalid. \(40006\): The additional parameters that were passed are not an object.
 -   Maximum time limit has been exceeded. \(40009\): The operation took longer than the defined timeout value specified in the Translation Configuration. Default: 40 seconds
 -   Request failed with multiple errors. \(40010\): Multiple errors occurred in the language detection call. For more information, refer to the response for each individual text string.
--   Default translator is not configured for detection. \(40011\): The default translation service has not been specified for language detection in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
--   &lt;translator&gt; translator is not configured for detection. \(40013\): The specified translation service is not configured for language detection in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
--   Translator configuration version is invalid. Migrate to v3. \(40014\): The associated version of the Translator Configuration for the specified translation service does not support the specified text translation method. For more information, see [Migrate to version v3 of a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/migrate-v3-dynamic-translation.md).
+-   Default translator is not configured for detection. \(40011\): The default translation service has not been specified for language detection in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
+-   &lt;translator&gt; translator is not configured for detection. \(40013\): The specified translation service is not configured for language detection in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
+-   Translator configuration version is invalid. Migrate to v3. \(40014\): The associated version of the Translator Configuration for the specified translation service does not support the specified text translation method. For more information, see Migrate to version v3 of a translator configuration.
 -   Unknown error occurred. \(40051\): Default error thrown when the error doesn't fall in to any other category.
 -   Text \("text" field\) has exceeded its maximum length. \(40052\): The text that was passed in to translate exceeds the maximum length supported by the corresponding translation service.
--   Request is not authorized because credentials are missing or invalid \(40055\): The credentials configured for the translation service in Connections &amp; Credentials are not valid. For information on connections and credentials, see [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
+-   Request is not authorized because credentials are missing or invalid \(40055\): The credentials configured for the translation service in Connections &amp; Credentials are not valid. For information on connections and credentials, see Dynamic translation overview.
 
 </td></tr></tbody>
 </table>This example shows code in a server script that detects English as the language of the passed-in strings using the Microsoft translation service.
@@ -695,7 +696,7 @@ Optional. Translation service to use to translate the text \(not case-sensitive\
 -   IBM
 -   &lt;custom&gt;
 
- **Note:** To use custom translation services you must first configure the translation service in your instance. For details, see [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md).
+ **Note:** To use custom translation services you must first configure the translation service in your instance. For details, see Integrate with a translation service provider.
 
  Default: Translation service configured in the Translator Configuration \[sn\_dt\_translator\_configuration\] table.
 
@@ -787,11 +788,11 @@ Error messages
 </td><td>
 
 The following are error messages that the method may return and indications as to their root cause. -   Text \("text" field\) is missing or invalid. \(40000\): The text to translate is either missing or not a string.
--   Dynamic Translation plugin is not installed. \(40001\): The Dynamic Translation API was invoked without activating the com.glide.dynamic\_translation plugin. For information on activating this plugin, see [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
--   Default translator is not configured for translation. \(40002\): No translation service is selected as the default translation service in the Translator Configurations. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
+-   Dynamic Translation plugin is not installed. \(40001\): The Dynamic Translation API was invoked without activating the com.glide.dynamic\_translation plugin. For information on activating this plugin, see Dynamic translation overview.
+-   Default translator is not configured for translation. \(40002\): No translation service is selected as the default translation service in the Translator Configurations. For information on creating/modifying a translator configuration, see Create a translator configuration.
 -   Translator \("translator" field\) is invalid. \(40003\): The passed in **translator** parameter is not a string.
--   &lt;translator&gt; translator is not configured. \(40004\): The specified translation service is not configured in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
--   &lt;translator&gt; translator is inactive. \(40005\): The specified translation service is not set to **Active** in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
+-   &lt;translator&gt; translator is not configured. \(40004\): The specified translation service is not configured in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
+-   &lt;translator&gt; translator is inactive. \(40005\): The specified translation service is not set to **Active** in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
 -   Additional parameters are invalid. \(40006\): The additional parameters that were passed are not an object.
 -   Target languages \("targetLanguages" field\) are invalid. \(40007\): The **targetLanguages** parameter is passed in the call but is not valid for one of the following reasons:
 
@@ -800,12 +801,12 @@ The following are error messages that the method may return and indications as t
     -   One or multiple of the entries is not a string
 -   Source language \("sourceLanguage" field\) is invalid. \(40008\): The **sourceLanguage** parameter is passed in the call but the value is not a String.
 -   Maximum time limit has been exceeded. \(40009\): The operation took longer than the defined timeout value specified in the Translation Configuration. Default: 40 seconds
--   &lt;translator&gt; translator is not configured for translation. \(40012\): The specified translation service is not configured for text translation in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
+-   &lt;translator&gt; translator is not configured for translation. \(40012\): The specified translation service is not configured for text translation in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
 -   Unknown error occurred. \(40051\): Default error thrown when the error doesn't fall in to any other category.
 -   Text \("text" field\) has exceeded its maximum length. \(40052\): The text that was passed in to translate exceeds the maximum length supported by the corresponding translation service.
 -   Source language is invalid. \(40053\): The passed in **sourceLanguage** parameter contains a language code that is not supported by the corresponding translation service.
 -   Target language is invalid. \(40054\): One or more of the language codes passed in the **targetLanguages** parameter is not supported by the corresponding translation service.
--   Request is not authorized because credentials are missing or invalid \(40055\): The credentials configured for the translation service in Connections &amp; Credentials are not valid. For information on connections and credentials, see [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
+-   Request is not authorized because credentials are missing or invalid \(40055\): The credentials configured for the translation service in Connections &amp; Credentials are not valid. For information on connections and credentials, see Dynamic translation overview.
 -   Text cannot be translated to target languages. \(40056\): The specified translation service is not able to translate the passed in text into the specified target languages.
 
 </td></tr></tbody>
@@ -1005,7 +1006,7 @@ Optional. Translation service to use to translate the text \(not case-sensitive\
 -   IBM
 -   &lt;custom&gt;
 
- **Note:** To use custom translation services you must first configure the translation service in your instance. For details, see [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md).
+ **Note:** To use custom translation services you must first configure the translation service in your instance. For details, see Integrate with a translation service provider.
 
  Default: Translation service configured in the Translator Configuration \[sn\_dt\_translator\_configuration\] table.
 
@@ -1140,11 +1141,11 @@ Error messages
 </td><td>
 
 The following are error messages that the method may return and indications as to their root cause. -   Text \("text" field\) is missing or invalid. \(40000\): The text to translate is either missing or not a string.
--   Dynamic Translation plugin is not installed. \(40001\): The Dynamic Translation API was invoked without activating the com.glide.dynamic\_translation plugin. For information on activating this plugin, see [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
--   Default translator is not configured for translation. \(40002\): No translation service is selected as the default translation service in the Translator Configurations. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
+-   Dynamic Translation plugin is not installed. \(40001\): The Dynamic Translation API was invoked without activating the com.glide.dynamic\_translation plugin. For information on activating this plugin, see Dynamic translation overview.
+-   Default translator is not configured for translation. \(40002\): No translation service is selected as the default translation service in the Translator Configurations. For information on creating/modifying a translator configuration, see Create a translator configuration.
 -   Translator \("translator" field\) is invalid. \(40003\): The passed in **translator** parameter is not a string.
--   &lt;translator&gt; translator is not configured. \(40004\): The specified translation service is not configured in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
--   &lt;translator&gt; translator is inactive. \(40005\): The specified translation service is not set to **Active** in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
+-   &lt;translator&gt; translator is not configured. \(40004\): The specified translation service is not configured in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
+-   &lt;translator&gt; translator is inactive. \(40005\): The specified translation service is not set to **Active** in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
 -   Additional parameters are invalid. \(40006\): The additional parameters that were passed are not an object.
 -   Target languages \("targetLanguages" field\) are invalid. \(40007\): The **targetLanguages** parameter is passed in the call but is not valid for one of the following reasons:
 
@@ -1154,13 +1155,13 @@ The following are error messages that the method may return and indications as t
 -   Source language \("sourceLanguage" field\) is invalid. \(40008\): The **sourceLanguage** parameter is passed in the call but the value is not a String.
 -   Maximum time limit has been exceeded. \(40009\): The operation took longer than the defined timeout value specified in the Translation Configuration. Default: 40 seconds
 -   Request failed with multiple errors. \(40010\): Multiple errors occurred in the language detection call. For more information, refer to the response for each individual text string.
--   &lt;translator&gt; translator is not configured for translation. \(40012\): The specified translation service is not configured for text translation in the Translator Configuration. For information on creating/modifying a translator configuration, see [Create a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-custom-translator.md).
--   Translator configuration version is invalid. Migrate to v3. \(40014\): The associated version of the Translator Configuration for the specified translation service does not support the specified text translation method. For more information, see [Migrate to version v3 of a translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/migrate-v3-dynamic-translation.md).
+-   &lt;translator&gt; translator is not configured for translation. \(40012\): The specified translation service is not configured for text translation in the Translator Configuration. For information on creating/modifying a translator configuration, see Create a translator configuration.
+-   Translator configuration version is invalid. Migrate to v3. \(40014\): The associated version of the Translator Configuration for the specified translation service does not support the specified text translation method. For more information, see Migrate to version v3 of a translator configuration.
 -   Unknown error occurred. \(40051\): Default error thrown when the error doesn't fall in to any other category.
 -   Text \("text" field\) has exceeded its maximum length. \(40052\): The text that was passed in to translate exceeds the maximum length supported by the corresponding translation service.
 -   Source language is invalid. \(40053\): The passed in **sourceLanguage** parameter contains a language code that is not supported by the corresponding translation service.
 -   Target language is invalid. \(40054\): One or more of the language codes passed in the **targetLanguages** parameter is not supported by the corresponding translation service.
--   Request is not authorized because credentials are missing or invalid \(40055\): The credentials configured for the translation service in Connections &amp; Credentials are not valid. For information on connections and credentials, see [Dynamic translation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation.md).
+-   Request is not authorized because credentials are missing or invalid \(40055\): The credentials configured for the translation service in Connections &amp; Credentials are not valid. For information on connections and credentials, see Dynamic translation overview.
 -   Text cannot be translated to target languages. \(40056\): The specified translation service is not able to translate the passed in text into the specified target languages.
 
 </td></tr></tbody>
@@ -1316,7 +1317,7 @@ Optional. Translation service to use to verify whether the methods are active. T
 -   IBM
 -   &lt;custom&gt;
 
-**Note:** To use custom translation services you must first configure the translation service in your instance. For details, see [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md).
+**Note:** To use custom translation services you must first configure the translation service in your instance. For details, see Integrate with a translation service provider.
 
 Default: Default translation service.
 

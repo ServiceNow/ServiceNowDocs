@@ -2,6 +2,7 @@
 title: Completing an enterprise asset move order
 description: After you submit a move order for the in-use or consumed enterprise assets that you want to move, you must perform various tasks to complete the order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/completing-enterprise-asset-move-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,12 +18,12 @@ After you submit a move order for the in-use or consumed enterprise assets that 
 
 You must complete the required set of tasks for each enterprise asset that is included in the move order. After you complete all required tasks for an enterprise asset, the corresponding enterprise move line updates with a status of Completed. Once all enterprise move lines reach a status of Completed, the move order is complete.
 
--   **[Complete the Prepare task for a moving enterprise asset](../task/complete-prepare-task-moving-enterprise-asset.md)**  
+-   **[Complete the Prepare task for a moving enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-prepare-task-moving-enterprise-asset.md)**  
 Complete the Prepare task for an enterprise asset so that you can proceed with moving the asset between locations.
--   **[Complete the local move for an enterprise asset](../task/complete-local-move-enterprise-asset.md)**  
+-   **[Complete the local move for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-local-move-enterprise-asset.md)**  
 Perform all tasks that are required to move an enterprise asset without shipping it. You must perform these tasks if you set the **Move type** field to **Local Move** in an enterprise move line.
--   **[Complete the shipment for a moving enterprise asset](../task/complete-shipment-moving-enterprise-asset.md)**  
+-   **[Complete the shipment for a moving enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-shipment-moving-enterprise-asset.md)**  
 Perform all tasks that are required to ship an enterprise asset. You must perform these tasks if you set the **Move type** field to **Ship** in an enterprise move line.
 
-**Parent Topic:**[Managing enterprise asset move orders](managing-enterprise-asset-move-orders.md)
+**Parent Topic:**[Managing enterprise asset move orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-move-orders.md)
 

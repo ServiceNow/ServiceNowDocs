@@ -2,6 +2,7 @@
 title: Map an insight rule to an existing scheduled job
 description: Map an insight rule to an existing scheduled job to define the type of insight trigger. This insight trigger activates the associated insight rule to run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/map-existing-scheduled-job-trigger.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Map an insight rule to an existing scheduled job to define the type of insight t
 
 This task must be performed in the classic environment.
 
-Create an insight rule. For more information, see [Create an insight rule](create-insight-rule.md).
+Create an insight rule. For more information, see [Create an insight rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-insight-rule.md).
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
@@ -54,5 +55,5 @@ An insight rule does not run unless it is mapped to an insight trigger.
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Create an insight trigger](create-insight-trigger.md)
+**Parent Topic:**[Create an insight trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-insight-trigger.md)
 

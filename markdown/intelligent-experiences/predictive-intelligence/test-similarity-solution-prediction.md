@@ -2,6 +2,7 @@
 title: Test a similarity solution prediction
 description: Once your machine-learning \(ML\) solutions are trained, you can call on the Predictive Intelligence API to make a solution prediction. In this example procedure, we use the REST API Explorer application to test a similarity solution prediction for resolved incident recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/test-similarity-solution-prediction.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -35,13 +36,13 @@ This scenario illustrates a similarity solution prediction for a hypothetical ML
 
     In this case, we use the **Name** field value in your ML Solution Definition Recommended Resolved Incidents record, as illustrated in the following example.
 
-    ![Show the user where to find the ML solution definition name](../images/predict-intel-similarity-soldef-name.png)
+    \[Omitted image "predict-intel-similarity-soldef-name.png"\] Alt text: Show the user where to find the ML solution definition name
 
 3.  Copy the **Input Fields** value\(s\) used in your ML Solution Definition record that you want the REST API Explorer to use in its call to the Predictive Intelligence API.
 
     In this case, we use the **Short description** field type, as the prediction model has been trained to use this field to learn, pair, and recommend similar records for your review.
 
-    ![Show the user where to find the Input Field types.](../images/predict-intel-similarity-soldef-inputfields.png)
+    \[Omitted image "predict-intel-similarity-soldef-inputfields.png"\] Alt text: Show the user where to find the Input Field types.
 
 4.  Right-click the browser tab you're using to view your instance, and select **Duplicate**.
 
@@ -91,7 +92,7 @@ This scenario illustrates a similarity solution prediction for a hypothetical ML
 
 13. In the Response body section, copy the three outcome values that your API call returned, as illustrated in the image below.
 
-    ![Shows the user the top 3 REST API Explorer response body outcomes.](../images/predict-intel-simtest-soldef-outcomes.png)
+    \[Omitted image "predict-intel-simtest-soldef-outcomes.png"\] Alt text: Shows the user the top 3 REST API Explorer response body outcomes.
 
 14. In your original browser tab, navigate to **Servicedesk** &gt; **Incidents**.
 
@@ -103,25 +104,25 @@ This scenario illustrates a similarity solution prediction for a hypothetical ML
 
     3.  Click **Run**.
 
-    ![Shows the user the filter conditions to set on the Incident list view and where to paste the REST API outcomes.](../images/predict-intel-simtest-soldef-outcomeconditions.png)
+    \[Omitted image "predict-intel-simtest-soldef-outcomeconditions.png"\] Alt text: Shows the user the filter conditions to set on the Incident list view and where to paste the REST API outcomes.
 
 16. Per the image below, compare the returned list of incidents with the input for the prediction output in the REST API Explorer.
 
     1.  Click the Incident Number to open the Incident record.
 
-        ![Shows the user the 3 Incident records that share the text from the input field.](../images/predict-intel-simtest-soldef-top3incidents.png)
+        \[Omitted image "predict-intel-simtest-soldef-top3incidents.png"\] Alt text: Shows the user the 3 Incident records that share the text from the input field.
 
     2.  Per the image below, review the Resolution notes text in the Incident record.
 
-        ![Shows the user the Resolution notes in one of the Incident records.](../images/predict-intel-simtest-soldef-recommendation.png)
+        \[Omitted image "predict-intel-simtest-soldef-recommendation.png"\] Alt text: Shows the user the Resolution notes in one of the Incident records.
 
 
-**Parent Topic:**[Testing and monitoring predictions](../concept/testing-reviewing-ml-solutions.md)
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 
 **Related topics**  
 
 
-[Predictive Intelligence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-intelligence-api.md)
+[bundle-crapiref.agent-intelligence-api]
 
-[MLPredictor - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_MLPredictorAPI.md)
+[bundle-crapiref.c_MLPredictorAPI]
 

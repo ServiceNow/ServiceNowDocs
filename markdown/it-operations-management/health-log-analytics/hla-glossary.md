@@ -2,6 +2,7 @@
 title: Health Log Analytics terminology
 description: Before getting started with Health Log Analytics, it's important to familiarize yourself with some key concepts used in the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-glossary.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -62,7 +63,7 @@ Component
 
 </td><td>
 
-Representation of the smallest part of a [service instance](hla-glossary.md#hla-glossary-service-instance), typically a single micro service, module, or daemon. For example, a "checkout flow" service instance may include components such as cart-service, payment-service, and inventory-service. Every log or metric is assigned to a single component. This ensures that anomalies or incidents are attributed to that specific component.
+Representation of the smallest part of a [service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-glossary.md), typically a single micro service, module, or daemon. For example, a "checkout flow" service instance may include components such as cart-service, payment-service, and inventory-service. Every log or metric is assigned to a single component. This ensures that anomalies or incidents are attributed to that specific component.
 
 </td></tr><tr><td>
 
@@ -94,7 +95,7 @@ Data input
 
 </td><td>
 
-A configurable connector that enables HLA to collect, transform, and ingest log data from external sources. **Note:** The term data input is used in HLA's classic interface \(UI16\) and back-end records. See also: [Integration](hla-glossary.md#hla-glossary-integration).
+A configurable connector that enables HLA to collect, transform, and ingest log data from external sources. **Note:** The term data input is used in HLA's classic interface \(UI16\) and back-end records. See also: [Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-glossary.md).
 
 </td></tr><tr><td id="hla-glossary-data-input-mapping">
 
@@ -102,9 +103,9 @@ Data input mapping
 
 </td><td>
 
-The process of mapping raw log data to its specific log source, enabling HLA to connect logs to the corresponding service instance and component for analysis with full context. It also involves mapping your raw log data to source types so HLA can understand the format and structure of your logs.**Note:** The term data input is used in HLA's classic interface \(UI16\) and back-end records. See also: [Integration](hla-glossary.md#hla-glossary-integration).
+The process of mapping raw log data to its specific log source, enabling HLA to connect logs to the corresponding service instance and component for analysis with full context. It also involves mapping your raw log data to source types so HLA can understand the format and structure of your logs.**Note:** The term data input is used in HLA's classic interface \(UI16\) and back-end records. See also: [Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-glossary.md).
 
-For a description of the simplified mapping interface in the new HLA UI, see: [Log context mapping](hla-glossary.md#hla-glossary-log-context-mapping).
+For a description of the simplified mapping interface in the new HLA UI, see: [Log context mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-glossary.md).
 
 </td></tr><tr><td>
 
@@ -144,7 +145,7 @@ Integration
 
 </td><td>
 
-A configurable connector that establishes data pipelines so HLA can collect, transform, and ingest log data from external sources. Setup of integrations is done through the Integrations Launchpad, which significantly reduces implementation time compared to manual data input setup.**Note:** The term integration is used in HLA's new UI experience and front-end records. See also: [Data input](hla-glossary.md#hla-glossary-data-input).
+A configurable connector that establishes data pipelines so HLA can collect, transform, and ingest log data from external sources. Setup of integrations is done through the Integrations Launchpad, which significantly reduces implementation time compared to manual data input setup.**Note:** The term integration is used in HLA's new UI experience and front-end records. See also: [Data input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-glossary.md).
 
 </td></tr><tr><td>
 
@@ -168,7 +169,7 @@ Lexical keywords
 
 </td><td>
 
-Specific words found in log data, such as "crashed" or "failed," that can point to important issues. HLA tracks lexical keywords to detect widespread issues and long-forming trends. For more information, see: [Add, edit, or delete lexical keywords in Health Log Analytics](../task/hla-lexical-keywords-admin.md).
+Specific words found in log data, such as "crashed" or "failed," that can point to important issues. HLA tracks lexical keywords to detect widespread issues and long-forming trends. For more information, see: [Add, edit, or delete lexical keywords in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-lexical-keywords-admin.md).
 
 </td></tr><tr><td id="hla-glossary-log-context-mapping">
 
@@ -176,7 +177,7 @@ Log context mapping
 
 </td><td>
 
-The process of mapping your raw log data to the appropriate log source, enabling HLA to connect logs to their corresponding service instance and component for contextualized analysis.The user-friendly Log context mapping interface in the new HLA UI focuses only on the service context. It's simpler to use than Data input mapping in HLA's classic interface \(UI16\), which also includes source type configuration. See also: [Data input mapping](hla-glossary.md#hla-glossary-data-input-mapping).
+The process of mapping your raw log data to the appropriate log source, enabling HLA to connect logs to their corresponding service instance and component for contextualized analysis.The user-friendly Log context mapping interface in the new HLA UI focuses only on the service context. It's simpler to use than Data input mapping in HLA's classic interface \(UI16\), which also includes source type configuration. See also: [Data input mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-glossary.md).
 
 </td></tr><tr><td>
 
@@ -200,7 +201,7 @@ Log source
 
 </td><td>
 
-A logical representation of the source of the log data that HLA ingests. Each log source is defined by a [service instance](hla-glossary.md#hla-glossary-service-instance)-[component](hla-glossary.md#hla-glossary-component) pair. HLA performs anomaly detection and generates alerts on issues within the scope of each individual log source.
+A logical representation of the source of the log data that HLA ingests. Each log source is defined by a [service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-glossary.md)-[component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-glossary.md) pair. HLA performs anomaly detection and generates alerts on issues within the scope of each individual log source.
 
 </td></tr><tr><td>
 

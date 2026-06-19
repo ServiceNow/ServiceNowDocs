@@ -2,6 +2,7 @@
 title: Enable the control objective workflow
 description: Enable the control objective workflow property to activate the review and approval process for changes to control objective records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/task\_enable\_cob\_workflow.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

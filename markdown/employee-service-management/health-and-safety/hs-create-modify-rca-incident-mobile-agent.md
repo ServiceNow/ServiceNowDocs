@@ -2,6 +2,7 @@
 title: Create or modify root cause analysis of a safety incident on the Mobile Agent app
 description: As an agent or a manager, create or edit a root cause analysis on-site using the Mobile Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-create-modify-rca-incident-mobile-agent.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -25,7 +26,7 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent
 
 2.  In the navigation bar, tap **Home**.
 
-3.  Tap the **Safety incidents** icon \(![safety incident icon](../../workplace-central/images/casemgmt-templateicon.png)\) from the quick links section.
+3.  Tap the **Safety incidents** icon \(\[Omitted image "casemgmt-templateicon.png"\] Alt text: safety incident icon\) from the quick links section.
 
 4.  Open a safety incident record.
 
@@ -34,15 +35,15 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent
     1.  To modify an existing root cause analysis record,
 
         -   Swipe left on the root cause analysis record to view the edit and delete options.
-        -   Open the root cause analysis record and tap **More options** icon ![more options](../../workplace-service-delivery/images/wsd-more-options-icon-loc-directory.png) then tap edit or delete.
+        -   Open the root cause analysis record and tap **More options** icon \[Omitted image "wsd-more-options-icon-loc-directory.png"\] Alt text: more options then tap edit or delete.
     2.  To add a new root cause analysis record, tap **Add new root cause analysis**.
 
 6.  On the form, fill in the details.
 
-    For more details on the Five why's technique of root cause analysis, see [Perform root cause analysis for a safety incident](../../ohs-incident-management/task/perform-hs-root-cause-analysis.md).
+    For more details on the Five why's technique of root cause analysis, see [Perform root cause analysis for a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/perform-hs-root-cause-analysis.md).
 
 7.  Tap **Submit**.
 
 
-**Parent Topic:**[Manage Health and Safety incident using the Mobile Agent app](../concept/hs-manage-safety-incident-mobile-agent.md)
+**Parent Topic:**[Manage Health and Safety incident using the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-safety-incident-mobile-agent.md)
 

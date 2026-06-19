@@ -2,7 +2,10 @@
 title: Determine the next node in a decision tree
 description: Create a path to set conditions and priority order for the next node in a decision tree.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-decision-paths.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -21,7 +24,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 Based on the answer a service agent provides to a question, a decision path guides the agent to the next decision node, a guidance path guides the agent to the next guidance node, and a linking path guides the agent to the next linking node.
 
-You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](../concept/decision-trees-in-gdb.md).
+You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/decision-trees-in-gdb.md).
 
 ## Procedure
 
@@ -64,7 +67,7 @@ You can edit or extend existing decision trees in the Core UI but you can no lon
 
 Continue building the decision tree.
 
--   [Add questions or instructions to a decision input](create-decision-input.md)
--   [Provide actions to agents in a decision tree](associate-guidance-path.md)
--   [Link another decision tree to this decision tree](configure-linking-node.md)
+-   [Add questions or instructions to a decision input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-decision-input.md)
+-   [Provide actions to agents in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-guidance-path.md)
+-   [Link another decision tree to this decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-linking-node.md)
 

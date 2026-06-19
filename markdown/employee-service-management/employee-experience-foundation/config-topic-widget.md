@@ -2,6 +2,7 @@
 title: Modify the topic header widget display
 description: The topic header widget displays the topic and its child topics, including all the connected content associated with the topics. You can configure the instance options to control the appearance of the topic header widget, such as the topic description and the topic banner and icon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-topic-widget.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: sp\_admin or admin
 
 ## About this task
 
-You can configure the topic header widget display using the following steps. To edit the banner image, page header, or description, see [Create and associate topics](create-topics-for-taxonomy.md).
+You can configure the topic header widget display using the following steps. To edit the banner image, page header, or description, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ You can configure the topic header widget display using the following steps. To 
 
 3.  Press and hold the control key, right-click the topic widget, and then select **Instance Options**.
 
-    ![Topic widget instance options. The HR topic is shown as an example.](../images/hr_topic_ins_opt.png)
+    \[Omitted image "hr\_topic\_ins\_opt.png"\] Alt text: Topic widget instance options. The HR topic is shown as an example.
 
 4.  Configure the instance options.
 
@@ -187,5 +188,5 @@ Specify a hex code for the icon background color. Enter a value in this field on
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Employee Center browse experience widgets](../concept/custom-widget-landing-ec.md)
+**Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
 

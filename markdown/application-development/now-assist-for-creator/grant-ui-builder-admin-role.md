@@ -2,13 +2,14 @@
 title: Grant UI Builder admin role
 description: Assign the UI Builder administrator role to a user by editing the user record and adding the ui\_builder\_admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/grant-ui-builder-admin-role.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
-breadcrumb: [Configure, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Grant UI Builder admin role
@@ -17,9 +18,9 @@ Assign the UI Builder administrator role to a user by editing the user record an
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](install-ui-generation.md) and [Grant UI Builder admin role](grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/grant-ui-builder-admin-role.md).
 
-Configure UI Builder agent. For more information, see [Configure UI Builder Agent](configure-ui-builder-agent.md#).
+Configure UI Builder agent. For more information, see [Configure UI Builder Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configure-ui-builder-agent.md).
 
 Role required: admin
 
@@ -31,7 +32,7 @@ Role required: admin
 
 3.  In the **Roles related** list, select **Edit**.
 
-4.  From the **Collection** list, select ui\_builder\_admin, and then select ![Add](../../../build/app-engine-studio/image/app-tutorial-move-right-icon.png).
+4.  From the **Collection** list, select ui\_builder\_admin, and then select \[Omitted image "app-tutorial-move-right-icon.png"\] Alt text: Add.
 
 5.  Select **Save**.
 
@@ -42,5 +43,5 @@ The user is granted the `ui_builder_admin` role and can access UI generation fea
 
 To grant this role to additional users, repeat this procedure for each user.
 
-**Parent Topic:**[Configuring UI generation](../concept/configuring-ui-generation.md)
+**Parent Topic:**[Configuring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configuring-ui-generation.md)
 

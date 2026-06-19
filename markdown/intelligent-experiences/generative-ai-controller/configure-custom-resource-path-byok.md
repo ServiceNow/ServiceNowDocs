@@ -2,6 +2,7 @@
 title: Configure a custom resource path for BYOK models
 description: Enter a custom resource path in your bring your own key \(BYOK\) model configuration so that Generative AI Controller can connect to AI service providers, such as Azure OpenAI, that use a different web address than the default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-custom-resource-path-byok.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller

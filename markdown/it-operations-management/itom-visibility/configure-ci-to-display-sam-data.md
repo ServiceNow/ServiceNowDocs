@@ -2,6 +2,7 @@
 title: Configure a CI to display Software Asset Management data
 description: Configure computer configuration item \(CI\) forms to display data from the Software Installations \[cmdb\_sam\_sw\_install\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/configure-ci-to-display-sam-data.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -46,5 +47,5 @@ Role required: admin
     The Software Installations tab now displays in the record's related list.
 
 
-**Parent Topic:**[Discovery with Software Asset Management](../concept/c_DiscoSWAssetMgmtTableSchema.md)
+**Parent Topic:**[Discovery with Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoSWAssetMgmtTableSchema.md)
 

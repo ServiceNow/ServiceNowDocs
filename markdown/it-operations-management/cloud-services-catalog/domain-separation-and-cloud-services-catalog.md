@@ -2,6 +2,7 @@
 title: Domain separation and Cloud Services Catalog
 description: Domain separation is supported in Cloud Services Catalog. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/domain-separation-and-cloud-services-catalog.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -25,7 +26,7 @@ Domain separation is supported in Cloud Services Catalog. Domain separation enab
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Recommendations for domain separation in Cloud Services Catalog
 
@@ -52,12 +53,12 @@ Domain separation recommendations in Cloud Services Catalog:
 
 ## Next steps
 
-For more information on how domain separation works in Cloud Provisioning and Governance, visit [Domain separation and Cloud Provisioning and Governance](../../cloud-management-v2/concept/domain-separation-cloud-management.md).
+For more information on how domain separation works in Cloud Provisioning and Governance, visit [Domain separation and Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/domain-separation-cloud-management.md).
 
-**Parent Topic:**[CSC references](../reference/csc-reference.md)
+**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/csc-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

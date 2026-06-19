@@ -2,6 +2,7 @@
 title: Require authorization for script requests
 description: Use the glide.basicauth.required.scriptedprocessor property to designate if incoming script requests should require basic authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-script-request-authorization.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[API and web service](sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -115,5 +116,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API and web service](sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

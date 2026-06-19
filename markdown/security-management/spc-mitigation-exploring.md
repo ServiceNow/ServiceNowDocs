@@ -2,6 +2,7 @@
 title: Using mitigation controls monitoring with Security Posture Control
 description: From within in the Security Posture Control \(SPC\) Workspace, gain insight into which threats to your assets are mitigated by available mitigation controls based on how various security tools are configured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-mitigation-exploring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ From within in the Security Posture Control \(SPC\) Workspace, gain insight into
 
 ## Mitigation controls monitoring
 
-For supported applications for Security Posture Control and Mitigation Controls Monitoring, see [Exploring Security Posture Control](spc-overview.md).
+For supported applications for Security Posture Control and Mitigation Controls Monitoring, see [Exploring Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-overview.md).
 
 The Security Posture Control application focuses on three core problem areas:
 

@@ -2,6 +2,7 @@
 title: Add or modify benefit plans
 description: You can add or modify a benefit plan and provider using the Benefit Plan for under Managed Lists. The plan name is a combination of the provider and plan type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyBenefitPlan.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,15 +32,15 @@ Role required: sn\_hr\_core.basic, or sn\_hr\_core.manager
 
     \(The fields you see depend on how the form is configured and what fields are selected to display.\)
 
-<table id="choicetable_i5y_xkt_hcc"><thead><tr><th align="left" id="d650092e101">
+<table id="choicetable_i5y_xkt_hcc"><thead><tr><th align="left" id="d463155e101">
 
 Field
 
-</th><th align="left" id="d650092e104">
+</th><th align="left" id="d463155e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d650092e110">
+</th></tr></thead><tbody><tr><td id="d463155e110">
 
 **Plan name**
 
@@ -51,7 +52,7 @@ The name of the benefit plan.
 
  After you enter a Provider and Plan type, this field fills in.
 
-</td></tr><tr><td id="d650092e134">
+</td></tr><tr><td id="d463155e134">
 
 **Provider**
 
@@ -61,7 +62,7 @@ Click and select the name of the benefit provider. For new providers, click the 
 
  This field combines with **Plan type** to create the **Plan name**.
 
-</td></tr><tr><td id="d650092e158">
+</td></tr><tr><td id="d463155e158">
 
 **Benefit type**
 
@@ -69,7 +70,7 @@ Click and select the name of the benefit provider. For new providers, click the 
 
 The type of insurance or financial services provided.
 
-</td></tr><tr><td id="d650092e167">
+</td></tr><tr><td id="d463155e167">
 
 **Plan type**
 
@@ -79,7 +80,7 @@ The name of the specific insurance or financial services plans offered by the pr
 
  The **Plan type** combined with the **Provider name** make up the **Plan name**.
 
-</td></tr><tr><td id="d650092e192">
+</td></tr><tr><td id="d463155e192">
 
 **Active**
 
@@ -87,7 +88,7 @@ The name of the specific insurance or financial services plans offered by the pr
 
 Check to make this benefit plan active and available to use.
 
-</td></tr><tr><td id="d650092e201">
+</td></tr><tr><td id="d463155e201">
 
 **Plan administrator**
 
@@ -95,7 +96,7 @@ Check to make this benefit plan active and available to use.
 
 Click and select the company representative responsible for this benefit plan. The plan administrator is the person that communicates directly with the provider, understand the details of the benefit plan, and can be a point-of-contact for questions.
 
-</td></tr><tr><td id="d650092e210">
+</td></tr><tr><td id="d463155e210">
 
 **Plan URL**
 
@@ -107,5 +108,5 @@ Click and enter the website or link to the benefit plan.
 </table>4.  Click **Save** to stay on the **HR Benefit Plan** form or **Update** to return to the **HR Benefit Plans** list.
 
 
-**Parent Topic:**[Managed lists](../concept/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

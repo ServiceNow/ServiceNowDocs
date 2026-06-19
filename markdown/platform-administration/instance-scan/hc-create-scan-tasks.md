@@ -2,6 +2,7 @@
 title: Creating scan tasks
 description: Create a scan task to facilitate task assignments from the finding of a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hc-create-scan-tasks.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -109,5 +110,5 @@ Additional notes
 </table>    **Note:** The scan\_user can assign the task only to a non-scan\_user. The user to which the task has been assigned also gets the same privilege as the scan\_user.
 
 
-**Parent Topic:**[Findings](../concept/hs-findings.md)
+**Parent Topic:**[Findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-findings.md)
 

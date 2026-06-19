@@ -2,6 +2,7 @@
 title: Configure ping-pong
 description: Configure a ping-pong definition to view a pattern where a record bounces back and forth between two steps without interruption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/automated-builder.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -21,13 +22,13 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 Ping-pong finding definition surfaces areas in the process where records continuously bounce between two steps. Identifying these loops helps determine the necessary improvements.
 
-![Ping-pong example](../image/ping-pong.png)
+\[Omitted image "ping-pong.png"\] Alt text: Ping-pong example
 
 ## Procedure
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Ping-Pong card.
 
@@ -116,7 +117,7 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 
     The **Configure** tab is displayed. Default values are provided. You can edit them if needed.
 
-    ![Ping-Pong configuration](../image/ping-pong-config.png)
+    \[Omitted image "ping-pong-config.png"\] Alt text: Ping-Pong configuration
 
     According to the example, records that meet the following conditions are available as improvement opportunities in the Summary and insights page:
 
@@ -125,5 +126,5 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 5.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting Automated improvement opportunities](../concept/automated-findings.md)
+**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
 

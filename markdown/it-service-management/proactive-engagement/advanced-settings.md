@@ -2,6 +2,7 @@
 title: Input parameters for Remedial action in Proactive Engagement
 description: Additional input parameters are listed based on the type of remedial action chosen. Advanced settings for each of those input parameters list the information of the input parameters of the selected remedial action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/advanced-settings.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -17,7 +18,7 @@ Additional input parameters are listed based on the type of remedial action chos
 
 Depending on the remedial action chosen from the list, specific input parameters are listed which will fetch a static input. To fetch data from the table, enable and configure the advanced settings of the input parameters to capture the data during the run time. Find below the details of all the advanced settings of one of the out-of-the-box remedial action input parameters for Clear application cache. On saving the resolution, we should save parameter information in the `sn_pren_resolution table` remedial\_action\_parameters field
 
-![Advanced settings for input parameters](../images/ra-advset1.png)
+\[Omitted image "ra-advset1.png"\] Alt text: Advanced settings for input parameters
 
 |Input parameter|Description|
 |---------------|-----------|
@@ -29,5 +30,5 @@ Only text, boolean, or choice are the supported format for the input parameters.
 
 **Note:** Check the alert action of Proactive Engagement to configure the input parameters. Currently, input parameters for remedial action cannot be configured from the Proactive Engagement workbench or the Core UI.
 
-**Parent Topic:**[Proactive Engagement reference](../proactive-engagement-reference.md)
+**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 

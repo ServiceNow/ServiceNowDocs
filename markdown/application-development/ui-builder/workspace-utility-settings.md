@@ -2,6 +2,7 @@
 title: Set up notifications in workspace utility settings
 description: Set up the advanced notification and search settings in your workspace experience so that you can control how your users see notifications and search options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/workspace-utility-settings.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -23,11 +24,11 @@ Role required: ui\_builder\_admin
 
 Set up the advanced notification and search settings in your workspace experience. You can turn notifications on or off to control how people see notifications in your workspace experience.
 
-![Workspace experience utility settings.](../image/experience-utilities-settings.png "Workplace experience settings")
+\[Omitted image "experience-utilities-settings.png"\] Alt text: Workspace experience utility settings.
 
 You can also control whether the search functionality is visible to the users of your workspace experience. If you choose to display a search option, you can define what search results are returned by choosing a source for the search.
 
-Before you can edit the experience settings, you must be in the correct application scope. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(![Application picker.](../image/application-picker.png)\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](security-roles.md).
+Before you can edit the experience settings, you must be in the correct application scope. If you're in a different scope, the experience settings are read-only. To change your application scope, go to the main header, select the application picker \(\[Omitted image "application-picker.png"\] Alt text: Application picker.\), and then select the application scope that you want. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/security-roles.md).
 
 ## Procedure
 
@@ -35,17 +36,17 @@ Before you can edit the experience settings, you must be in the correct applicat
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page in your workspace experience.
 
 4.  Select **Experience settings** in the upper-right.
 
-    ![Arrow pointing to the Experience settings link on the experience view page.](../image/experience-settings-navigation.png)
+    \[Omitted image "experience-settings-navigation.png"\] Alt text: Arrow pointing to the Experience settings link on the experience view page.
 
 5.  Scroll down to **Notifications**.
 
-    ![Notifications settings for workspace experiences.](../image/uib-settings-notification.png)
+    \[Omitted image "uib-settings-notification.png"\] Alt text: Notifications settings for workspace experiences.
 
 6.  Select the **Turn on notifications** option.
 
@@ -56,5 +57,5 @@ Before you can edit the experience settings, you must be in the correct applicat
     **Note:** If you have the Record component on a page, you can have a record open in the workspace experience when a notification is selected. Follow the instructions in [Record UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/washingtondc/now-components/record/uib-setup) on the ServiceNow developer site and define a featureRoutes page property.
 
 
-**Parent Topic:**[Configure UI Builder workspace experiences](../concept/ui-builder-workspace-settings.md)
+**Parent Topic:**[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-workspace-settings.md)
 

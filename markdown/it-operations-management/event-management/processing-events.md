@@ -2,6 +2,7 @@
 title: Processing Events
 description: Event processing is the process of taking events or streams of events, analyzing them and taking automatic action. The process includes viewing events, event binding, event rules and event field mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/processing-events.html
 release: australia
 product: Event Management
 classification: event-management
@@ -21,5 +22,5 @@ Event collection configuration via a MID Server, script, SNMP trap collector, or
 
 An Event rule, alert binding, or event field mapping configuration for processing events from various sources. When a package of events that contains events with a custom \(non-supported\) state is processed, the events with the custom state are not processed.
 
-For more information, see [Exploring Event Management](exploring-event-management.md).
+For more information, see [Exploring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/exploring-event-management.md).
 

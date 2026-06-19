@@ -2,6 +2,7 @@
 title: Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v1 APIs
 description: You can use version 1 of the IBM License Metric Tool \(ILMT\) and BigFix Inventory integration APIs to create a connection between your IBM servers and the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/integrating-ilmt-bigfix-v1-apis.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -17,9 +18,9 @@ You can use version 1 of the IBM License Metric Tool \(ILMT\) and BigFix Invento
 
 This connection enables you to import software installation data into your ServiceNow instance so that you can track and optimize full capacity and sub-capacity processor value unit \(PVU\) and resource value unit \(RVU\) licensing for your IBM software products.
 
-**Important:** Version 1 of the ILMT and BigFix Inventory integration APIs have been deprecated by IBM. However, the Software Asset Management application continues to support integrations that are using this version of the APIs. If you are setting up an ILMT or BigFix Inventory integration for the first time, use version 2 of the APIs instead. For more information on setting up the integration using version 2 of the APIs, see [Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs](integrating-ilmt-bigfix-v2-apis.md). For more information on the deprecation of these APIs, see [Deprecated REST APIs](https://www.ibm.com/docs/en/license-metric-tool?topic=api-deprecated-rest-apis).
+**Important:** Version 1 of the ILMT and BigFix Inventory integration APIs have been deprecated by IBM. However, the Software Asset Management application continues to support integrations that are using this version of the APIs. If you are setting up an ILMT or BigFix Inventory integration for the first time, use version 2 of the APIs instead. For more information on setting up the integration using version 2 of the APIs, see [Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrating-ilmt-bigfix-v2-apis.md). For more information on the deprecation of these APIs, see [Deprecated REST APIs](https://www.ibm.com/docs/en/license-metric-tool?topic=api-deprecated-rest-apis).
 
-![Integration between ILMT and ServiceNow.](../image/ibm-pvu-rvu-licensing.png)
+\[Omitted image "ibm-pvu-rvu-licensing.png"\] Alt text: Integration between ILMT and ServiceNow.
 
 The ILMT and BigFix Inventory integration enables you to create connections between one or more IBM servers and the ServiceNow AI Platform using HTTP or HTTPS. Upon activating the Software Asset Management Professional for IBM \(com.sn\_samp\_ibm\) plugin, you receive an IBM Server connection alias that you can then use to set up your IBM server connections. If a connection is successful, the Software Asset Management application retrieves historical software installation data within the aggregated period that you defined in ILMT or BigFix Inventory. This data includes products, components, editions, hosts, virtual machines, and license usage.
 
@@ -40,10 +41,10 @@ To track your IBM full capacity and sub-capacity PVU and RVU licenses using this
 
 -   Enable ILMT or BigFix Inventory to discover the configurations of both physical hosts and VMs as well as the relationships between them.
 -   Classify and bundle IBM components into IBM products through ILMT or BigFix Inventory.
--   Set the **Connect to ILMT using** \(**sn\_samp\_ibm\_lic.ilmt\_api\_version**\) Software Asset Management property to **v1 API's**. For more details on this property, see [Software Asset Management properties](../reference/sam-properties.md).
+-   Set the **Connect to ILMT using** \(**sn\_samp\_ibm\_lic.ilmt\_api\_version**\) Software Asset Management property to **v1 API's**. For more details on this property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-properties.md).
 
--   **[Transform maps for IBM License Metric Tool \(ILMT\) and BigFix Inventory integration v1 APIs](ibm-transform-maps.md)**  
+-   **[Transform maps for IBM License Metric Tool \(ILMT\) and BigFix Inventory integration v1 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-transform-maps.md)**  
 When you import data from the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 1 of the ILMT and BigFix Inventory integration APIs, your ServiceNow instance uses transform maps to process this data into ServiceNow tables.
 
-**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](ibm-ilmt-bigfix-inventory-integration.md)
+**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)
 

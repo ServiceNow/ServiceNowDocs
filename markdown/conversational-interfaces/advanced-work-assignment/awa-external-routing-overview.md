@@ -2,6 +2,7 @@
 title: External routing overview
 description: External Routing involves routing to external queue based on the service channel and queue conditions, and then the assignment is completed by the third-party system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-external-routing-overview.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -33,9 +34,9 @@ When Advanced Work Assignment is configured to use external routing:
 
 These APIs are required for external routing:
 
--   AWA Assignment API to support the external routing system to assign work items. For information on AWA Assignment API, see [AWA Assignment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/awa_manual_assign-api.md) .
--   Work item table API \(awa\_work\_item\) to look up the queued work items waiting for assignment. For information on table API, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
--   AWA Agent API if the external solution requires validation of agent availability within Workspace before assignment. For more information on the AWA Agent API, see [AWA Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-api.md).
+-   AWA Assignment API to support the external routing system to assign work items. For information on AWA Assignment API, see AWA Assignment API .
+-   Work item table API \(awa\_work\_item\) to look up the queued work items waiting for assignment. For information on table API, see Table API.
+-   AWA Agent API if the external solution requires validation of agent availability within Workspace before assignment. For more information on the AWA Agent API, see AWA Agent API.
 
 ## Functionality of AWA components
 

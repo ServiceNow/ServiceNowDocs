@@ -2,13 +2,14 @@
 title: Diagnose and resolve a change request
 description: As a customer service agent, review, diagnose, resolve, and close a change request for the service-related issue experienced by the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-case-change-request.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Proactive Service Experience Workflow, Use, Product Support for Technology]
+breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Diagnose and resolve a change request
@@ -60,7 +61,7 @@ The change request progresses through several stages from start to closure. It b
 
 6.  Diagnose the change request to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see .
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -68,11 +69,11 @@ The change request progresses through several stages from start to closure. It b
 
         The drop-down list shows the configuration item and Affected CIs.
 
-        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
+        To set up test definitions, see .
 
     3.  Expand the cards in the **Available test suite**.
 
-        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/setting-test-group.md).
+        To set up test group, see .
 
     4.  In the manual test, select single/multiple tests.
 
@@ -86,7 +87,7 @@ The change request progresses through several stages from start to closure. It b
 
     8.  Select **Run test**.
 
-    9.  In the diagnose tab **Test results** section, select **Refresh list** ![](../../../reuse/icons/product-icons/sync-fill-24.svg) icon.
+    9.  In the diagnose tab **Test results** section, select **Refresh list** \[Omitted image "sync-fill-24.svg"\] Alt text: icon.
 
     10. In the diagnose tab, expand the **Test results** and review the results of the tests conducted in the previous step, checking whether each test is passed or failed.
 
@@ -94,9 +95,9 @@ The change request progresses through several stages from start to closure. It b
 
         The maximum number of rows to the group is limited to 20 rows. To configure the maximum number of rows more than 20 rows to the group, see [Presentational List Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-list/usage).
 
-    11. Select the **View Details** ![](../../../reuse/icons/product-icons/open-link-right-fill-24.svg) icon for a specific test result to review its details.
+    11. Select the **View Details** \[Omitted image "open-link-right-fill-24.svg"\] Alt text: icon for a specific test result to review its details.
 
-    12. Select the **Rerun test** ![](../../../reuse/icons/product-icons/arrow-clockwise-outline-24.svg) icon for a specific test result to run it again.
+    12. Select the **Rerun test** \[Omitted image "arrow-clockwise-outline-24.svg"\] Alt text: icon for a specific test result to run it again.
 
     13. Select **Continue**.
 
@@ -123,5 +124,5 @@ The change request progresses through several stages from start to closure. It b
 10. View the change request records in the **Related records** tab.
 
 
-**Parent Topic:**[Using Proactive Service Experience Workflows](../concept/use-assurance-workflows.md)
+**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 

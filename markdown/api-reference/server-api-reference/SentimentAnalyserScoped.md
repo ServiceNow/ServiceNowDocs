@@ -2,6 +2,7 @@
 title: SentimentAnalyser - Scoped
 description: The SentimentAnalyser script include provides methods to perform sentiment analysis on a string value.Creates an instance of the SentimentAnalyser class with the default connector configuration that is used for sentiment analysis.Creates an instance of the SentimentAnalyser class with the specified connector configuration that is used for sentiment analysis.Performs sentiment analysis on the specified text.Performs sentiment analysis on an array of strings.Performs sentiment analysis on an array of strings in the specified language.Performs sentiment analysis on a specified text and language.Returns the GlideRecord of the specified connector configuration.Returns the GlideRecord of the default connector configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SentimentAnalyserScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ You should use this script include in a script that is treated as an admin-execu
 
 To use this class in a scoped application, use the `sn_nlp_sentiment` namespace identifier. The Sentiment Analysis plugin \(com.snc.sentiment\_analysis\) must be enabled to access the SentimentAnalyser API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SentimentAnalyser - SentimentAnalyser\(\)
 

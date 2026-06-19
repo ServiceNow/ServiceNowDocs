@@ -2,6 +2,7 @@
 title: Manage alerts from the map interface
 description: Manage alerts from the Crisis map interface to identify threats and their geo-locations relative to your assets. You can open alerts for details, dismiss them when resolved, adjust the impacted area boundaries, or undo recent changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,13 +34,13 @@ The Crisis map interface has been optimized to handle over 10,000 resources and 
 
     In the **Details** tab, you can view the assets at risk in the **Assets at Risk** section. You can view the suggested actions such as **Notify Stakeholders** or **Declare a Crisis Event** in the **Suggested Actions** section.
 
-    You can open the detailed view of an alert and view its corresponding impacted area on the map as shown in the example.![Alerts view in Crisis map.](../image/alert-view-in-crisis-map.png)
+    You can open the detailed view of an alert and view its corresponding impacted area on the map as shown in the example.\[Omitted image "alert-view-in-crisis-map.png"\] Alt text: Alerts view in Crisis map.
 
-3.  Open the alert details in the form view by selecting the **Open Alert** option in the **Alert menu** icon \(![Alert menu icon.](../image/AlertMenuIcon.png)\).
+3.  Open the alert details in the form view by selecting the **Open Alert** option in the **Alert menu** icon \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Alert menu icon.\).
 
     This action opens the record on a separate **Details** tab as shown in the example.
 
-    ![Alerts form.](../image/alerts-record-details-tab.png)
+    \[Omitted image "alerts-record-details-tab.png"\] Alt text: Alerts form.
 
 4.  View the response tasks associated with the alert in the **Response Tasks** tab.
 
@@ -47,17 +48,17 @@ The Crisis map interface has been optimized to handle over 10,000 resources and 
 
 6.  Sort the alerts with the **Sort by** option.
 
-    You can sort the alerts by their **Severity**, **Created**, and **Updated** options. You can also use the sorting icon ![Sort.](../image/ChangeSortOrderIcon.png) to sort the alerts in an ascending or descending order.
+    You can sort the alerts by their **Severity**, **Created**, and **Updated** options. You can also use the sorting icon \[Omitted image "ChangeSortOrderIcon.png"\] Alt text: Sort. to sort the alerts in an ascending or descending order.
 
-7.  Subscribe to an alert using the ![Subscribe.](../image/SubscribeIcon.png) icon.
+7.  Subscribe to an alert using the \[Omitted image "SubscribeIcon.png"\] Alt text: Subscribe. icon.
 
     When an alert or its source feed item is updated, you receive the workspace notification, such as `Alert subscribed: Drought is ongoing in Madagascar`, which is displayed on the screen.
 
-8.  Open an alert with the **Open alert** option in the ![More options.](../../grc-workspace-risk/image/more-details.png) icon.
+8.  Open an alert with the **Open alert** option in the \[Omitted image "more-details.png"\] Alt text: More options. icon.
 
     The alert form is displayed. If you want to edit the alert, you can make necessary changes and select **Save**.
 
-9.  Dismiss an alert using the **Dismiss alert** option in the ![More options.](../../grc-workspace-risk/image/more-details.png) icon.
+9.  Dismiss an alert using the **Dismiss alert** option in the \[Omitted image "more-details.png"\] Alt text: More options. icon.
 
     If the alert doesn’t pose a threat currently to your employee locations, datacenters, core companies, or any of your business establishments, you can dismiss the alert. If you know that the alert wouldn’t hamper your business operations, you can dismiss it in the list view as well as in its detailed view.
 
@@ -80,5 +81,5 @@ The Crisis map interface has been optimized to handle over 10,000 resources and 
     5.  To revert the impacted area, select the **More options** icon and select **Revert impacted area**.
 
 
-**Parent Topic:**[Structured workflows for Crisis map](../concept/crisis-map-collective-tasks.md)
+**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
 

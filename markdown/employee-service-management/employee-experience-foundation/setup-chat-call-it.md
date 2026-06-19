@@ -2,6 +2,7 @@
 title: Set up Chat to call
 description: Set up the chat to call functionality in your instance to enable the agents to collaborate with the requester to resolve the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-chat-call-it.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,15 +20,15 @@ The Chat to call functionality helps the requester to quickly get the resolution
 
 Here is the flow-diagram of the chat to call functionality:
 
-![Set up chat to call flow](../images/setup-chat-to-call2.png)
+\[Omitted image "setup-chat-to-call2.png"\] Alt text: Set up chat to call flow
 
 To enable the Chat to Call functionality you must install the Workspace Agent chat, Notify, and the Notify connector for Microsoft Teams plugins in your instance. You must also install ServiceNow for Teams installed with Virtual Agent or Virtual Agent Lite. For more information, refer the following topics:
 
--   [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md)
--   [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md)
--   [Notify connector for Microsoft Teams](../../notify2/concept/notify-connector-ms-teams.md)
+-   Set up Agent Chat
+-   Activate Notify
+-   [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md)
 
-For more information on the workflow for chat to call flow, refer [Promote chat to a call from workspace](../task/initiate-call-from-chat.md).
+For more information on the workflow for chat to call flow, refer [Promote chat to a call from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/initiate-call-from-chat.md).
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md)
 

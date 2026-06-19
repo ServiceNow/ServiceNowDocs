@@ -2,6 +2,7 @@
 title: Handling import failures for large GCP resources
 description: Manage the data source failure when importing resources from GCP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-large-data-vol.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -15,12 +16,12 @@ breadcrumb: [GCP, Service Graph Connectors, Integrating third-party data into CM
 
 Manage the data source failure when importing resources from GCP.
 
-When importing large GCP resources, the data sources in the Service Graph Connector for GCP might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md).
+When importing large GCP resources, the data sources in the Service Graph Connector for GCP might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see .
 
 You can use one or more of the following options to handle the REST response size limitation error in the Service Graph Connector for GCP:
 
--   [Save the response as an attachment](sgc-cmdb-large-data-vol.md#section_jcj_2gt_bzb)
--   [Modify the batch size](sgc-cmdb-large-data-vol.md#section_aqx_5gt_bzb)
+-   [Save the response as an attachment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-large-data-vol.md)
+-   [Modify the batch size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-large-data-vol.md)
 
 ## Save the response as an attachment
 
@@ -60,5 +61,5 @@ By default, the maximum batch size of the environment variable for a data source
 |SG-GCP Subnet|sg\_gcp\_subnet\_batch\_size|
 |SG-GCP VM Instance|sg\_gcp\_vm\_instance\_batch\_size|
 
-**Note:** You must add these system properties as they aren't available by default. You must have the admin role to add or modify a system property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+**Note:** You must add these system properties as they aren't available by default. You must have the admin role to add or modify a system property. For more information, see .
 

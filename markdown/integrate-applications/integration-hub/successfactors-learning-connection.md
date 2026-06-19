@@ -2,6 +2,7 @@
 title: Create a connection record for the SuccessFactors Learning spoke
 description: Create a connection record for your spoke. The SuccessFactors Learning connection and credential aliases use these connections to perform actions in SuccessFactors Learning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/successfactors-learning-connection.html
 release: australia
 product: Integration Hub
 classification: integration-hub

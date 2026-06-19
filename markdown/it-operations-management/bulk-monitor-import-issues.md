@@ -2,6 +2,7 @@
 title: Bulk monitor import issues
 description: Learn to fix issues that might occur when you create monitors in bulk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/bulk-monitor-import-issues.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,5 +24,5 @@ Learn to fix issues that might occur when you create monitors in bulk.
 |Job stuck in "pending"|Event queue backed up|Wait or contact admin|
 |Timeout errors|Large payload, slow processing|Increase timeout, reduce batch size|
 
-**Parent Topic:**[Troubleshoot synthetic monitors](troubleshoot-synthetic-monitors.md)
+**Parent Topic:**[Troubleshoot synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-synthetic-monitors.md)
 

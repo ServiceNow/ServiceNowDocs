@@ -2,6 +2,7 @@
 title: Create associated ticket for primary ticket of UR
 description: Agent, working on the primary ticket, requests other departments for assistance in resolving a universal request \(UR\) by creating associated tickets for the UR. Multiple departments can work simultaneously on these associated tickets. These associated tickets are independent of the UR state flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/create-associated-ticket.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -17,7 +18,7 @@ Agent, working on the primary ticket, requests other departments for assistance 
 
 ## Before you begin
 
-Configure the **sn\_uni\_req.associated\_ticket** property in the **Universal Request properties** page to determine how to handle the creation of the associated tickets. For more information, see [Universal Request properties](../reference/ur-properties.md).
+Configure the **sn\_uni\_req.associated\_ticket** property in the **Universal Request properties** page to determine how to handle the creation of the associated tickets. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
 Role required: agent part of the assignment group of the primary ticket or assigned to agent
 
@@ -48,7 +49,7 @@ The following are some key highlights.
 
 4.  In the **Create Associated Ticket** dialog box, enter the following details.
 
-    **Note:** Based on the sn\_uni\_req.associated\_ticket property, different fields display on the form. For more information, see [Universal Request properties](../reference/ur-properties.md).
+    **Note:** Based on the sn\_uni\_req.associated\_ticket property, different fields display on the form. For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
     -   **Department**: Select the department from the list.
     -   **Service**: Select the specific service of the chosen department.
@@ -60,5 +61,5 @@ The following are some key highlights.
     An associated ticket is created with the descriptions provided and is associated to the existing UR of the primary ticket.
 
 
-**Parent Topic:**[Using Universal Request](../concept/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

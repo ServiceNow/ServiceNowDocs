@@ -2,6 +2,7 @@
 title: Configure additional questions for checkout
 description: As an administrator, you can configure additional questions for full checkout to collect more information from a shopper specific to a purchase. This information is first stored in the Requisition Additional Info staging table against the purchase requisition ID that is created on checkout, and then mapped to the Purchase Requisitions table for back-end consumption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-additional-questions-for-checkout.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,7 +24,7 @@ Role required: sn\_shop.procurement\_administrator
 
 Use a record producer to create a custom set of questions to ask shoppers during full checkout. Build this record producer in Catalog Builder using the **ShoppingHub additional questions for a PR** template.
 
-![ShoppingHub additional questions for a PR template.](../image/add-questions-pr-template.png)
+\[Omitted image "add-questions-pr-template.png"\] Alt text: ShoppingHub additional questions for a PR template.
 
 A record producer can contain the following question types:
 
@@ -44,7 +45,7 @@ A record producer can contain the following question types:
 
     This record producer is used to store more information from a shopper specific to a purchase.
 
-    **Note:** For information on how to create a record producer, see [Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-item-cat-builder.md).
+    **Note:** For information on how to create a record producer, see Create a catalog item using a template.
 
 4.  Navigate to **ShoppingHub** &gt; **Administration** &gt; **ShoppingHub Configuration**.
 
@@ -52,7 +53,7 @@ A record producer can contain the following question types:
 
 6.  Select the **Content details** tab.
 
-    ![ShoppingHub Configuration page showing the Content details tab and Record producer field.](../image/sh-catalog-record-producer.png)
+    \[Omitted image "sh-catalog-record-producer.png"\] Alt text: ShoppingHub Configuration page showing the Content details tab and Record producer field.
 
 7.  On the **Record producer** field, search for and select the **Shopping Hub Additional Questions** record producer.
 
@@ -65,5 +66,5 @@ A record producer can contain the following question types:
     **Note:** This flow is automatically triggered when a purchase requisition ID is created as a result of a checkout.
 
 
-**Parent Topic:**[Complete your checkout](complete-your-checkout.md)
+**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
 

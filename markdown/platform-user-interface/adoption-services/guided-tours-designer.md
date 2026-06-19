@@ -2,11 +2,12 @@
 title: Guided Tour Designer
 description: The Guided Tour Designer is a tool for creating interactive, step-by-step walkthroughs that guide users through the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/guided-tours-designer.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Explore Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---

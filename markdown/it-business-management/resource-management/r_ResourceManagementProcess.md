@@ -2,6 +2,7 @@
 title: Resource management process
 description: The resource plan is the key to understanding how resource management works.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/r\_ResourceManagementProcess.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -19,7 +20,7 @@ The resource plan is the key to understanding how resource management works.
 
 You're encouraged to work on resource assignments which offers more flexibility using Resource Management Workspace or Project Workspace.
 
-For more information about migrating from resource plans to resource assignments, see [Migration of resource plans, operational resource plans, and cost plans](../concept/rsrc-plans-rsrc-asgmnts.md).
+For more information about migrating from resource plans to resource assignments, see [Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
 
 **Which approach applies to you?**
 
@@ -28,15 +29,15 @@ For more information about migrating from resource plans to resource assignments
 |When to use|You're an existing customer who has not yet migrated to resource assignments.|You're a new customer, or an existing customer who has migrated or is migrating to resource assignments.|
 |Workspace|Classic Resource Management modules \(Resource &gt; Resource Plans\)|Resource Management Workspace or Project Workspace|
 |Key features|Group-based allocation, request/confirm/allocate workflow|Direct resource assignment, auto/manual distribution, inline approval, heatmap views|
-|Documentation|Resource Plans topics in this section|[Resource Management Workspace](../../resource-management-workspace/concept/explore-rmw.md) documentation|
+|Documentation|Resource Plans topics in this section|[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/explore-rmw.md) documentation|
 
-For detailed migration guidance, see [Migrate from resource plans to resource assignments](../concept/rsrc-plans-rsrc-asgmnts.md).
+For detailed migration guidance, see [Migrate from resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md).
 
 A user with the resource\_user role can be a resource requester. Project managers are used as resource requesters in many examples because they typically have the resource\_user role and work on the planning for a project's execution.
 
-A resource requester [creates a resource plan](../task/t_CreateResourcePlanProjectTask.md) to request user or group resources for tasks. Any type of task, such as a change request, a task in the Agile scrum process, or a project task can be added to a [resource plan](../concept/c_ResourcePlans.md).
+A resource requester [creates a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) to request user or group resources for tasks. Any type of task, such as a change request, a task in the Agile scrum process, or a project task can be added to a [resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md).
 
 After a resource plan is submitted, a resource manager reviews the plan, confirms the resources, and finally allocates resources for the plan. Once the resource plans are approved, the resources begin work.
 
-**Parent Topic:**[Resource Management classic](../concept/c_ResourceManagement.md)
+**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceManagement.md)
 

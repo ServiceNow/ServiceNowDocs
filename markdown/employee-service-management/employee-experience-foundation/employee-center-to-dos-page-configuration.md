@@ -2,6 +2,7 @@
 title: Employee tasks page
 description: Configure the tasks page for employees to view and complete all their tasks on a single page. You can configure the page by applying filters to show user approvals, content tasks, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ Configure the tasks page for employees to view and complete all their tasks on a
 
 The My tasks page shows all open and completed tasks for an employee.
 
-![My tasks page on Employee Center portal](../images/to-dos-ec.jpg "My tasks")
+\[Omitted image "to-dos-ec.jpg"\] Alt text: My tasks page on Employee Center portal
 
 ## Configure the tasks page
 
@@ -31,25 +32,25 @@ You control the type of open and completed tasks that appear by configuring the 
 
 **Note:** The default order is due date. If you have too many filters and find that performance is affected, you can order the tasks by filter. To order by filter, you must enable filter prioritization and assign priority numbers for each filter.
 
-For more information, see [Enable task configuration for approvals](../task/approval-hub-to-dos-page-filters.md).
+For more information, see [Enable task configuration for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.md).
 
 ## Configure Ask a question
 
 Ask a question is a widget that establishes a communication link between a user with an HR Agent or queue to discuss HR tasks or cases. These configurations determine which HR agent or queue to use for communication. For HR tasks, the **Task support team** field defines the HR agent or queue that picks up any communication about the task when a user selects the Ask a question link. To use this option, activate the Connect Service Portal Widgets \(com.glide.connect.sp\_widgets\) plugin.
 
-**Note:** For more information about **Connect**, see [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_Connect.md).
+**Note:** For more information about **Connect**, see Connect.
 
 For HR cases, define configuration under **Conversational Interfaces**.
 
-**Note:** For more information about **Conversational Interfaces**, see [Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/convint-landing-page.md) and [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+**Note:** For more information about **Conversational Interfaces**, see Conversational Interfaces and Setting up Agent Chat.
 
-If your company is not using Connect Support, you can choose to hide the **Ask a question** link. To hide the Ask a question link, go to **sys\_properties.list** and find the **sn\_hr\_sp.hr\_ask\_a\_question\_enabled** property. Default value is **true**. To hide the Ask a Question on HR cases and tasks on the Employee Center, change the setting to **false**. For HR tasks, when Agent Workspace is selected in the **Task support team** drop-down, Virtual Agent is used. If Users and groups is selected, Connect Support is used. For more information, see [Adding an HR task to an HR case](../../human-resources/task/t_ViewAnHRTask.md).
+If your company is not using Connect Support, you can choose to hide the **Ask a question** link. To hide the Ask a question link, go to **sys\_properties.list** and find the **sn\_hr\_sp.hr\_ask\_a\_question\_enabled** property. Default value is **true**. To hide the Ask a Question on HR cases and tasks on the Employee Center, change the setting to **false**. For HR tasks, when Agent Workspace is selected in the **Task support team** drop-down, Virtual Agent is used. If Users and groups is selected, Connect Support is used. For more information, see [Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md).
 
-Advanced Work Assignment To configure Advanced Work Assignment \(AWA\) for Agent Workspace, see [Advanced Work Assignment \(AWA\) for HR Service Delivery](../../human-resources/concept/hr-awa.md).
+Advanced Work Assignment To configure Advanced Work Assignment \(AWA\) for Agent Workspace, see [Advanced Work Assignment \(AWA\) for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-awa.md).
 
 ## Preconfigured filters
 
 The following filters are included with the Employee Center application. You can use them or configure your own.
 
-For more information, see [Task filters on My tasks](configurable-filters-experience.md)
+For more information, see [Task filters on My tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configurable-filters-experience.md)
 

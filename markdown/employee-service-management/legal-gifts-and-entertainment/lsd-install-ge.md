@@ -2,6 +2,7 @@
 title: Install Gifts and Entertainment Compliance
 description: You can install the Gifts and Entertainment Compliance application \(sn\_lg\_gifts\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-install-ge.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -40,7 +41,7 @@ The following items are installed with Gifts and Entertainment Compliance:
 -   Flows
 -   Tables
 
-For more information, see [Components installed with Gifts and Entertainment Compliance](../reference/lsd-installed-with-ge.md).
+For more information, see [Components installed with Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-installed-with-ge.md).
 
 ## Procedure
 
@@ -54,8 +55,8 @@ For more information, see [Components installed with Gifts and Entertainment Com
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Configure Gifts and Entertainment Compliance](../concept/lsd-ge-administration.md)
+**Parent Topic:**[Configure Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.md)
 

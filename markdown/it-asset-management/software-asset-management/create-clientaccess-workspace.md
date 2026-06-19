@@ -2,6 +2,7 @@
 title: Create a software client access record in workspace
 description: Add a client access record to track and manage the users or devices that are accessing a particular version of your server software using a client access license \(CAL\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-clientaccess-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -93,9 +94,9 @@ CrowdStrike
  **Note:** These license metrics are available with Yokohama Patch 1, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 15.0.8, and Software Asset Management \(sn\_itam\_samp\) 2.1.0 version onwards. If you are on any version for Yokohama below Patch 1, refer [KB1801232](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=ef634dac83935610cdbbc430feaad3d9).
 
 </td></tr></tbody>
-</table>License metrics are set on the [software entitlement](create-entitlements-workspace.md) form and can be accessed from the **Metric Attributes** related list on the [software model](create-swmodels-workspace.md) form.
+</table>License metrics are set on the [software entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md) form and can be accessed from the **Metric Attributes** related list on the [software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-swmodels-workspace.md) form.
 
-**Important:** You can enable the Software Asset Management application to automatically create client access records for Oracle Database Server using the **Auto-generate client access for allocations** option on the corresponding software model. To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services application from the ServiceNow Store. See [Software model fields](../reference/software-model-fields.md) for more details on the **Auto-generate client access for allocations** option. See [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](request-data-collection-oracle-glas-app.md) for more details on the Data Collection for Oracle Global Licensing and Advisory Services application.
+**Important:** You can enable the Software Asset Management application to automatically create client access records for Oracle Database Server using the **Auto-generate client access for allocations** option on the corresponding software model. To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services application from the ServiceNow Store. See [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-model-fields.md) for more details on the **Auto-generate client access for allocations** option. See [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.md) for more details on the Data Collection for Oracle Global Licensing and Advisory Services application.
 
 ## Procedure
 
@@ -147,13 +148,13 @@ Type of CAL that is associated with the client access record. Select one of the 
 
 For example, if two users are accessing Microsoft Windows Server, the corresponding software entitlement must include two User CALs.
 
-If you select this option, you can assign the associated User CALs to specific users. See [step 7](create-clientaccess-workspace.md#cal-type) for more details.
+If you select this option, you can assign the associated User CALs to specific users. See [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more details.
 
 -   **Device CAL**: Licenses each device that accesses the specified server, regardless of the number of users that are using each device to access the server.
 
 For example, if two devices are accessing Microsoft Windows Server, the corresponding software entitlement must include two Device CALs.
 
-If you select this option, you can assign the associated Device CALs to specific devices. See [step 7](create-clientaccess-workspace.md#cal-type) for more details.
+If you select this option, you can assign the associated Device CALs to specific devices. See [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more details.
 
 -   **User/Device CAL**: Licenses each user or device that accesses the associated server.
 
@@ -161,7 +162,7 @@ If you select this option, you can assign the associated Device CALs to specific
 
 For example, if two users and two devices are accessing Microsoft Windows Server, the corresponding software entitlement must include two User CALs and two Device CALs.
 
-If you select this option, you can assign the associated User and Device CALs to specific users and devices. See [step 7](create-clientaccess-workspace.md#cal-type) for more details.
+If you select this option, you can assign the associated User and Device CALs to specific users and devices. See [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more details.
 
 -   **Authorized User**: Licenses each user who accesses an IBM software product.
 
@@ -215,7 +216,7 @@ Count
 
 </td><td>
 
-Number of unique users or devices that are granted access to the associated server.**Note:** On automatically generated client access records for Oracle Database Server, this field populates automatically based on the number of users or devices that are currently added to the record. See [step 7](create-clientaccess-workspace.md#cal-type) for more information on how to add users or devices to the client access record.
+Number of unique users or devices that are granted access to the associated server.**Note:** On automatically generated client access records for Oracle Database Server, this field populates automatically based on the number of users or devices that are currently added to the record. See [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more information on how to add users or devices to the client access record.
 
  **Note:** If you are using a Citrix software model and User/Device CAL type, the **Count** field is based on the number of user/device licenses that are assigned to your users or shared devices.
 
@@ -300,7 +301,7 @@ Company of the users or devices that are granted access to the associated server
         5.  Repeat steps a-d for each device that you want to assign a device CAL to.
 8.  To track and license the configuration items \(CIs\) that the associated server is installed on, add them to the client access record.
 
-    **Important:** This step is not applicable if you have enabled the **License all installs accessed by clients** option on the associated software model. If this option is enabled, CIs are licensed based on conditions that you specify on the software model, such as software install conditions. See [Software model fields](../reference/software-model-fields.md) for more details on this option.
+    **Important:** This step is not applicable if you have enabled the **License all installs accessed by clients** option on the associated software model. If this option is enabled, CIs are licensed based on conditions that you specify on the software model, such as software install conditions. See [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-model-fields.md) for more details on this option.
 
     For Windows Server, each server installation requires Per Core \(with CAL\) rights that are licensed separately from the User and Device CAL rights in associated client access records. Other products like Oracle Java do not require rights to be licensed separately for server installations. For example, if you use CALs to license the users and devices that are accessing Oracle Java, you can enable Software Asset Management to automatically mark the corresponding Oracle Java installations as licensed. In this scenario, Software Asset Management licenses the Oracle Java installations as part of CAL licensing.
 
@@ -321,7 +322,7 @@ Company of the users or devices that are granted access to the associated server
 
 ## What to do next
 
-After you create a client access record, reconciliation runs on the associated server software as a scheduled job or on-demand. You can view your reconciliation results in the [License usage view](../concept/sam-workspace-workbench.md). Use these results to determine your license compliance position and to remediate any non-compliance.
+After you create a client access record, reconciliation runs on the associated server software as a scheduled job or on-demand. You can view your reconciliation results in the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md). Use these results to determine your license compliance position and to remediate any non-compliance.
 
 You can remediate non-compliance for your server software using the following remediation options:
 
@@ -329,5 +330,5 @@ You can remediate non-compliance for your server software using the following re
 -   **Create Allocations**: Allocates rights to unlicensed users or devices that have been added to the client access records for the specified server software.
 -   **Remove Allocations**: Removes rights from licensed users or devices when sufficient rights are unavailable.
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

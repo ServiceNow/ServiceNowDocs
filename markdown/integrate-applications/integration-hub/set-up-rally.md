@@ -2,6 +2,7 @@
 title: Set up the Rally spoke
 description: Integrate the ServiceNow instance and Rally by using Rally credentials to authenticate ServiceNow requests.Register the Rally OAuth application to access the Rally API 2.0 and to receive a Client ID and Client secret.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-rally.html
 release: australia
 product: Integration Hub
 classification: integration-hub

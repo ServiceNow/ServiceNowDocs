@@ -2,11 +2,12 @@
 title: Modify tracking changes in configuration files
 description: Configure the system to collect information about changes in configuration files belonging to a configuration item \(CI\). Service Mapping uses this information to notify users that CI configuration files changed and to view actual changes to configuration files directly in the service instance maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/track-configuration-files.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -19,8 +20,8 @@ Configure the system to collect information about changes in configuration files
 
 To enable tracking configuration files for a CI for which the system does track files, configure classification for the CI type to which this CI belongs:
 
--   For CI types representing applications, [create a Discovery process classification](t_CreateAProcessClassification.md) for the relevant pattern. Add the [Horizontal Pattern](../reference/r-HorizontalPatternProbe.md) probe in the **Probe** column, and then specify your pattern in the **Pattern** column.
--   For CI types representing SNMP devices, perform configuration as described in [Create a Discovery CI classification](create-discovery-ci-classification.md).
+-   For CI types representing applications, [create a Discovery process classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateAProcessClassification.md) for the relevant pattern. Add the [Horizontal Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) probe in the **Probe** column, and then specify your pattern in the **Pattern** column.
+-   For CI types representing SNMP devices, perform configuration as described in [Create a Discovery CI classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-discovery-ci-classification.md).
 
 **Note:** There is no need to create CI classifications for hosts because these classifications are included in the base system.
 
@@ -28,7 +29,7 @@ Role required: cloud\_admin, service\_mapping\_admin, or admin
 
 ## About this task
 
-The system tracks configuration files as part of horizontal discovery process of a CI to which these files belong. Configuration files contain CI settings and parameters. Service Mapping uses this information to notify users that CI configuration files changed and to view actual changes to configuration files directly in the service instance maps. To learn about how the system tracks configuration files, stores and updates information about these files, see [Configuration file tracking](../concept/tracked-config-files.md).
+The system tracks configuration files as part of horizontal discovery process of a CI to which these files belong. Configuration files contain CI settings and parameters. Service Mapping uses this information to notify users that CI configuration files changed and to view actual changes to configuration files directly in the service instance maps. To learn about how the system tracks configuration files, stores and updates information about these files, see [Configuration file tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/tracked-config-files.md).
 
 The system tracks configuration files for CI types with process classifiers that trigger patterns. The patterns contain tracked file definitions, which specify the CI type that the application belongs to and the path of the configuration file. Several patterns, such as the IIS pattern, provide tracked file definitions by default. You can use these default definitions or create your own for any pattern a process classifier triggers.
 
@@ -42,9 +43,9 @@ The system tracks configuration files for CI types with process classifiers that
 
 3.  Click the **Tracked Files** tab.
 
-    One or more tracked file definitions appear by default for Discovery [patterns that support configuration file tracking](../concept/tracked-config-files.md#patterns-for-file-tracking).
+    One or more tracked file definitions appear by default for Discovery [patterns that support configuration file tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/tracked-config-files.md).
 
-    If you do not see the Tracked Files tab, verify that the pattern is specified process classier. See [Add the Horizontal Pattern probe to a classifier](../concept/c-UsingPatternsForHorizontalDiscovery.md#) for instructions.
+    If you do not see the Tracked Files tab, verify that the pattern is specified process classier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 4.  Click **Edit** to modify an existing definition or click **New** to create a new one.
 
@@ -59,7 +60,7 @@ The system tracks configuration files for CI types with process classifiers that
 
 6.  Click **Done**.
 
-7.  If necessary, set the tracked files deletion strategy as described in [Set the deletion strategy for tracked configuration files](set-config-file-deletion-strategy.md)
+7.  If necessary, set the tracked files deletion strategy as described in [Set the deletion strategy for tracked configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-config-file-deletion-strategy.md)
 
 
 ## What to do next

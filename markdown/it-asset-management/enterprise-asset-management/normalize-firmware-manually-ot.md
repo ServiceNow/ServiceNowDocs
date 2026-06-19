@@ -2,6 +2,7 @@
 title: Normalize the firmware embedded into your Operational Technology \(OT\) assets manually
 description: Standardize the publisher, product, and version details of the firmware that is embedded into your OT assets by normalizing the discovered firmware models manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/normalize-firmware-manually-ot.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,9 +18,9 @@ Standardize the publisher, product, and version details of the firmware that is 
 
 ## Before you begin
 
-**Important:** The OT Asset Management application must be activated to access the OT Asset Workspace. For details, see [Install OT Asset Management](install-otam.md).
+**Important:** The OT Asset Management application must be activated to access the OT Asset Workspace. For details, see [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/install-otam.md).
 
-The firmware product and the firmware version details of the discovered firmware model that you want to normalize should be available in the Enterprise Asset Management Content Service. If not, you can also create the firmware product and the firmware version for your firmware model. For more details, see [Create a custom firmware product for your operational technology \(OT\) assets](create-custom-firmware-product-ot-assets.md) and [Create a custom firmware version for your operational technology \(OT\) assets](create-custom-firmware-version-ot-assets.md).
+The firmware product and the firmware version details of the discovered firmware model that you want to normalize should be available in the Enterprise Asset Management Content Service. If not, you can also create the firmware product and the firmware version for your firmware model. For more details, see [Create a custom firmware product for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-product-ot-assets.md) and [Create a custom firmware version for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-firmware-version-ot-assets.md).
 
 Role required: sn\_otam.ot\_asset\_manager
 

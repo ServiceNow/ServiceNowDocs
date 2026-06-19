@@ -2,6 +2,7 @@
 title: Shopping controls overridden by credits
 description: As a shopper, you can use employee credits to purchase a restricted set of supplier products based on the category or product model. At the same time, you could be restricted, via Shopping Control, from viewing those supplier products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/shopping-controls-overridden.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,5 +24,5 @@ Scenario 1: A shopping control exists, according to which you, from the marketin
 
 Scenario 2: A shopping control exists, according to which you, from the marketing department, cannot view and shop any supplier product in the IT hardware category. An employee credit for hardware refresh is created for you. This allows you to search, browse, and shop MacBook product models, which comes under the laptop category, whose parent category is IT hardware. However, you are not able to view any other products within the laptop or IT hardware categories because the credit does not allow you access to the other products in this category.
 
-**Parent Topic:**[Using Shopping Hub](use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Incident Management - Major Incident Management
 description: Several types of components are installed with activation of the Incident Management - Major Incident Management plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/installed-with-mim.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -15,7 +16,7 @@ breadcrumb: [Activate Incident Management - Major Incident Management, Major Inc
 
 Several types of components are installed with activation of the Incident Management - Major Incident Management plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -115,5 +116,5 @@ Major Incident Trigger Rules\[major\_incident\_trigger\_rule\]
 This table extends the Application File \[sys\_metadata\] table and stores the major incident trigger rules.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Incident Management - Major Incident Management](activate-major-incident-management-plugin.md)
+</table>**Parent Topic:**[Activate Incident Management - Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-major-incident-management-plugin.md)
 

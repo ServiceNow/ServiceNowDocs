@@ -2,6 +2,7 @@
 title: Agent Client Collector logs
 description: Agent Client Collector \(ACC\) logs play a critical role in monitoring the activity and performance of the agent. Logs offer valuable feedback that helps identify potential issues, especially when the agent's performance is suboptimal. By providing insights into areas of concern, these logs are essential for troubleshooting and resolving issues, ultimately improving the overall effectiveness of the agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-logs-concept.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -21,5 +22,5 @@ Agent Client Collector \(ACC\) logs offer key benefits for monitoring and mainta
 -   Log retention management: You can set up log retention policies, determining how often to delete logs to preserve system resources. This ensures that the logs remain manageable and do not negatively impact system performance.
 -   Performance issue identification: Logs provide valuable insights to identify areas where the agent may be experiencing issues, helping to improve agent performance.
 
-For details on locating and managing Agent Client Collector logs, see [View the Agent Client Collector logs](../task/acc-view-log.md).
+For details on locating and managing Agent Client Collector logs, see [View the Agent Client Collector logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-view-log.md).
 

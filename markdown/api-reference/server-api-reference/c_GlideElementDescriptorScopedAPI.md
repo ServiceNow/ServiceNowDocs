@@ -2,6 +2,7 @@
 title: GlideElementDescriptor - Scoped, Global
 description: The GlideElementDescriptor API provides information about individual fields in a glide record.Returns the encryption type used for attachments on the element's table.Returns the element's encryption type.Returns the element's internal data type.Returns the element's label.Returns the element's length.Returns the element's name.Returns the element's plural label.Returns true if an encrypted attachment has been added to the table.Returns true if the element is an automatically generated or system field.Returns true if the element is defined as a dropdown choice in its dictionary definition.Returns true if an element is encrypted.Returns whether the field represented by this descriptor is configured for field encryption.Determines whether the element is mandatory and must contain a value before the record can be saved.Returns true if the element is a virtual element.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideElementDescriptorScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideElementDescriptor API provides information about individual fields in a
 
 There is no constructor for this class. Use the GlideElement or GlideRecord getED\(\) method to obtain a GlideElementDescriptor object.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideElementDescriptor - getAttachmentEncryptionType\(\)
 
@@ -442,7 +443,7 @@ Flag that indicates whether the field is configured for field encryption.
 </td></tr></tbody>
 </table>The following server-side script uses isEncrypted\(\) to check whether the short\_description field on the Incident table is encrypted before logging its value. Copy this into a Background Script or Business Rule on your instance to test.
 
-**Note:** Use the [GlideRecord - getED\(\)](../../GlideRecord/concept/c_GlideRecordAPI.md#) or [Scoped GlideElement - getED\(\)](../../glideElement/concept/c_GlideElementScopedAPI.md#) method to obtain a GlideElementDescriptor object.
+**Note:** Use the [GlideRecord - getED\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) or [Scoped GlideElement - getED\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md) method to obtain a GlideElementDescriptor object.
 
 ```
 // Retrieve a sample Incident record

@@ -2,6 +2,7 @@
 title: Continual Improvement Workbench
 description: The Continual Improvement Workbench provides a consolidated view to plan, approve, monitor, and review improvements using a flexible user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/continual-improvement-workbench.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -59,7 +60,7 @@ Lists two groups of improvements.
 </td></tr></tbody>
 </table>## CIM Workbench Overview
 
-![CIM Workbench Overview](../image/cim-workbench-plan.png)
+\[Omitted image "cim-workbench-plan.png"\] Alt text: CIM Workbench Overview
 
 The workbench Overview displays up to 12 improvement initiatives by default in a tile layout. Each tile shows the initiative name, percentage of completion, assignment, priority, and time left for completion.
 
@@ -80,7 +81,7 @@ You can search improvements by keyword and sort them by rank, priority, due date
 
 ## CIM Workbench Planning
 
-![CIM Workbench Planning](../image/continual-improvement-workbench.png)
+\[Omitted image "continual-improvement-workbench.png"\] Alt text: CIM Workbench Planning
 
 The workbench Planning page enables you to prioritize your backlog using an easy-to-use drag-and-drop interface, similar to sprint planning. The planned end date is color-coded in red or green to highlight the completion date of an improvement. You can search initiatives by keyword, move items up or down within a list, and group multiple items together.
 
@@ -88,5 +89,5 @@ You can also move items or a group of items from one list to another. Moving imp
 
 **Note:** Only approved items can be moved from the Backlog list to the Implement list.
 
-**Parent Topic:**[Continual Improvement Management overview](get-started-cim.md)
+**Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/get-started-cim.md)
 

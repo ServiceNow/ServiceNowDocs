@@ -2,6 +2,7 @@
 title: Cost overview module roles
 description: Only certain roles can customize Cost Overview modules. In addition to viewing, roles with access can refresh, add, delete, and rearrange reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/r\_CostOverviewModuleRoles.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -24,5 +25,5 @@ Only certain roles can customize Cost Overview modules. In addition to viewing, 
 |procurement\_user|View|
 |sam|View|
 
-**Parent Topic:**[Activate Cost Management](../task/t_ActivatingCostManagement.md)
+**Parent Topic:**[Activate Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/t_ActivatingCostManagement.md)
 

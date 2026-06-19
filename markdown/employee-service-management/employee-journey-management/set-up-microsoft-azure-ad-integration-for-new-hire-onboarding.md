@@ -2,6 +2,7 @@
 title: Set up the Microsoft Entra ID integration for new hire onboarding
 description: To set up the Microsoft Entra ID integration for new hire onboarding, you must first set up the Microsoft Entra ID spoke, next configure the remote directory sync to fetch the groups into your instance, and last configure the required business roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-journey-management/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.html
 release: australia
 product: Employee Journey Management
 classification: employee-journey-management
@@ -19,7 +20,7 @@ To set up the Microsoft Entra ID integration for new hire onboarding, you must f
 
 This integration requires subscriptions to the following:
 
--   [Microsoft Azure AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)
+-   Microsoft Azure AD spoke
 -   Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin
 
     **Note:** The lifecycle event for new hire onboarding is included as demo data with this plugin.
@@ -31,7 +32,7 @@ Role required: admin
 
 1.  Set up the Microsoft Entra ID spoke.
 
-    For instructions on how to set up the spoke, see [Set up Microsoft Azure AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-azure.md).
+    For instructions on how to set up the spoke, see Set up Microsoft Azure AD spoke.
 
 2.  Configure the remote directory sync to fetch the groups into your instance.
 
@@ -59,8 +60,8 @@ Role required: admin
 
     **Note:** The Business Roles \[com.snc.businessroles\] plugin is automatically activated with the Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin.
 
-    For instructions on how to configure the business roles and map them to the relevant groups, see [Configure a business role](configure-business-role.md).
+    For instructions on how to configure the business roles and map them to the relevant groups, see [Configure a business role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/configure-business-role.md).
 
 
-**Parent Topic:**[Microsoft Entra ID integration for new hire onboarding](../concept/azure-active-directory-integration-for-new-hire-onboarding.md)
+**Parent Topic:**[Microsoft Entra ID integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/azure-active-directory-integration-for-new-hire-onboarding.md)
 

@@ -2,6 +2,7 @@
 title: Monitor an approval plan
 description: During evaluation, the approval engine converts each approval rule into one or multiple approval plans. You can monitor approval plans to understand how the overall approval process is being executed, the routing and decision methods, the list of approvers involved, the status on the approvals, the list of purchase lines the approval is planned for, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/work-with-approval-plan.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ During evaluation, the approval engine converts each approval rule into one or m
 
 ## Before you begin
 
-To monitor an approval plan, you must have already defined an approval rule. For more information on how to create approval rules, see [Create an approval rule](create-approval-rule.md). You can review and update the plans if required. Approval plans are not created manually.
+To monitor an approval plan, you must have already defined an approval rule. For more information on how to create approval rules, see [Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.md). You can review and update the plans if required. Approval plans are not created manually.
 
 Role required: sn\_shop.procurement\_administrator
 
@@ -53,5 +54,5 @@ You can monitor approval plans to understand how the overall approval process is
 
 Use the related lists of the approval plan form to view the approval plan details and approvers associated with this approval plan.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

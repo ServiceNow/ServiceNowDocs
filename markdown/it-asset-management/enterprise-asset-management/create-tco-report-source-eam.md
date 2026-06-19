@@ -2,13 +2,14 @@
 title: Create a TCO report source in Enterprise Asset Workspace
 description: Create a TCO report source to add report sources to a TCO report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-tco-report-source-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Total Cost of Ownership \(TCO\) for enterprise assets, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a TCO report source in Enterprise Asset Workspace
@@ -89,5 +90,5 @@ Description of the report source.
     The new report source is added to the TCO report sources tab.
 
 
-**Parent Topic:**[Total Cost of Ownership \(TCO\) for enterprise assets](../concept/confifure-eam-asset-tco.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

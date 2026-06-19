@@ -2,6 +2,7 @@
 title: Define how a Zoom chat is closed
 description: Define the way a Zoom chat is closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-close-condition-zoom.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -91,5 +92,5 @@ Defines the condition that determines that the record is closed.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](../concept/additional-configuration-sn-cs-zoom.md)
+**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/additional-configuration-sn-cs-zoom.md)
 

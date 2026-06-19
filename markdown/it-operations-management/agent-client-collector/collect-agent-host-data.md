@@ -2,6 +2,7 @@
 title: View host data collection for an agent
 description: Run data collection on an agent's host to discover the components that are running on the host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/collect-agent-host-data.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -42,5 +43,5 @@ The Refresh Host Data for Agents scheduled job collects host data and runs every
 2.  Locate the **Host data last collected** column to view when data collection was last performed on the host.
 
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](../concept/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

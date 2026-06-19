@@ -2,6 +2,7 @@
 title: Prevent a role from being delegated
 description: You can prevent roles from being delegated to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_PreventARoleFromBeingDelegated.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -43,5 +44,5 @@ By default, the following roles can’t be delegated.
 5.  Select **Update**.
 
 
-**Parent Topic:**[Delegating roles](../concept/c_DelegateRoles.md)
+**Parent Topic:**[Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_DelegateRoles.md)
 

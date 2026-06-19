@@ -2,6 +2,7 @@
 title: Customize UI actions for Universal Request integration with Microsoft Teams
 description: Customize the UI actions and extend them to the tables that you require. The UniversalRequestMSTeamsUtils script include controls the visibility of the UI actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ur-ms-teams-ui-actions.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +21,7 @@ The following UI actions are available by default. You can customise them to sui
 -   Start Microsoft Teams Chat
 -   Import Messages from Microsoft Teams
 
-To customise the UI actions, you must modify the form fields. For a detailed understanding of the form fields, see [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md)
+To customise the UI actions, you must modify the form fields. For a detailed understanding of the form fields, see UI actions
 
-**Parent Topic:**[Manage Microsoft Teams integration for Employee Experience](c_employee_ex_mng.md)
+**Parent Topic:**[Manage Microsoft Teams integration for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_mng.md)
 

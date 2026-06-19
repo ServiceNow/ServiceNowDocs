@@ -2,12 +2,13 @@
 title: Edit raw log data before processing in Health Log Analytics
 description: Use the Data Input Preprocessor to filter, split, or sanitize raw log data before it is treated in the MID Server and mapped and structured by Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-preprocess.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [ServiceNow, Health Log Analytics, HLA, change raw log data, edit raw log messages, user names, passwords, disable raw log samples]
 breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -19,6 +20,10 @@ Use the Data Input Preprocessor to filter, split, or sanitize raw log data befor
 ## Before you begin
 
 Role required: evt\_mgmt\_admin
+
+## About this task
+
+Define a JavaScript function to preprocess your raw log data before it reaches Health Log Analytics. For example, you can drop irrelevant or redundant messages to reduce log volume, split multi-event log lines into discrete messages for accurate mapping, or sanitize sensitive or personally identifiable information so that it never enters the ServiceNow instance.
 
 ## Procedure
 
@@ -46,7 +51,7 @@ Role required: evt\_mgmt\_admin
 
     **Note:**
 
-    \(ACC data inputs only\) When the Agent Client Collector switches to a different MID Server to provide failover protection, it must switch to a different ACC data input. Therefore, all ACC data inputs must have the same JavaScript function. Health Log Analytics provides the latest published JavaScript function to all existing and future ACC data inputs, replacing the previous script. This feature is supported in the Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For information about failover protection in Agent Client Collector Log Analytics \(ACC-L\), see [Agent Client Collector Log Analytics](../../agent-client-collector/concept/acc-log-analytics.md).
+    \(ACC data inputs only\) When the Agent Client Collector switches to a different MID Server to provide failover protection, it must switch to a different ACC data input. Therefore, all ACC data inputs must have the same JavaScript function. Health Log Analytics provides the latest published JavaScript function to all existing and future ACC data inputs, replacing the previous script. This feature is supported in the Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For information about failover protection in Agent Client Collector Log Analytics \(ACC-L\), see [Agent Client Collector Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-log-analytics.md).
 
     1.  In the JavaScript console, either change the provided default JavaScript function, modify an existing custom JavaScript function, or define a new one.
 
@@ -126,7 +131,7 @@ The new script is automatically added to the list of JS function templates from 
 
 ## What to do next
 
-Proceed to the **Data Input Mapping** page by selecting the **Go to Mapping** related link. [Map raw data](hla-data-input-mapping.md) that streams into your instance to determine how Health Log Analytics processes it.
+Proceed to the **Data Input Mapping** page by selecting the **Go to Mapping** related link. [Map raw data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md) that streams into your instance to determine how Health Log Analytics processes it.
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](../concept/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-implement.md)
 

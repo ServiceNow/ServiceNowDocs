@@ -2,6 +2,7 @@
 title: Using the Dispute Rules Content Pack for Mastercard
 description: By using the Dispute Rules Content Pack for Mastercard's questionnaire, your agents can help customers complete the reason code mapping for their disputes. This mapping enables the agents to categorize the dispute and determine the chargeback eligibility according to the Mastercard Chargeback Guide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/using-the-dispute-rules-content-pack-for-mastercard.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -35,10 +36,10 @@ When an agent disputes a transaction on behalf of a customer, a dispute service 
 
     The following example shows the State of transactions panel.
 
-    ![State of transactions panel that displays the disputed and resolved transactions for a card dispute.](../image/state-of-transactions-panel.png "State of transactions panel")
+    \[Omitted image "state-of-transactions-panel.png"\] Alt text: State of transactions panel that displays the disputed and resolved transactions for a card dispute.
 
 
-For more information, see [Initiate a dispute](../../fso-card-operations/task/create-case-with-intake-workspace.md#).
+For more information, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
 
-**Parent Topic:**[Dispute Rules Content Pack for Mastercard](dispute-rules-content-pack-for-mastercard-landing-page.md)
+**Parent Topic:**[Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)
 

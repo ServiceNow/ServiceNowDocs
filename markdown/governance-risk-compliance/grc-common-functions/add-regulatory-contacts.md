@@ -2,11 +2,12 @@
 title: Add a regulatory contact to an agency
 description: Add a regulatory contact to a specific regulatory agency or within a jurisdiction in Compliance Workspace. By mapping a regulatory contact to a specific agency, this contact is notified about your case reporting, case audit, and case closures as they occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/add-regulatory-contacts.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Regulatory Agency Library, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -31,13 +32,13 @@ As a compliance\_case\_manager, you can map one contact or multiple contacts to 
 
 3.  On the Create New Regulatory Contact form, fill in the fields.
 
-    For a description of the fields, see [Create New Regulatory Contact form](create-new-regulatory-contact-form.md).
+    For a description of the fields, see [Create New Regulatory Contact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-regulatory-contact-form.md).
 
 4.  Select **Save**.
 
 
--   **[Create New Regulatory Contact form](create-new-regulatory-contact-form.md)**  
+-   **[Create New Regulatory Contact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-regulatory-contact-form.md)**  
 Use the Create New Regulatory Contact form in Compliance Workspace to create a regulatory contact to either a regulatory agency or a jurisdiction.
 
-**Parent Topic:**[Regulatory Agency Library](../../grc-rcm/concept/regulatory-agency-library-rcm.md)
+**Parent Topic:**[Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/regulatory-agency-library-rcm.md)
 

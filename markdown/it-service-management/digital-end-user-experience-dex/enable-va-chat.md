@@ -2,11 +2,12 @@
 title: Enable Virtual Agent or chat
 description: Enable Virtual Agent to find solutions to your queries quickly and seamlessly, without having to wait on hold or speak with an agent by phone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/enable-va-chat.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -27,14 +28,14 @@ Role required: sn\_dex\_desktop.admin
 
 2.  On the Desktop Assistant page, select the **Virtual agent enabled** check box.
 
-    For information on how to configure Virtual Agent, see [Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent.md).
+    For information on how to configure Virtual Agent, see .
 
 3.  Select **Update**.
 
-    The Virtual Agent or chat icon ![](../image/icon-virtual-agent.png) appears on the Desktop Assistant header.
+    The Virtual Agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text: appears on the Desktop Assistant header.
 
-4.  To open the chat window, select the Virtual Agent or chat icon ![](../image/icon-virtual-agent.png) from the Desktop Assistant header.
+4.  To open the chat window, select the Virtual Agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text: from the Desktop Assistant header.
 
-    For information on how to configure chat branding, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-chat-branding.md).
+    For information on how to configure chat branding, see .
 
 

@@ -2,6 +2,7 @@
 title: Record Producer
 description: A record producer is a specific type of catalog item that allows end users to create task-based records, such as incident records, from the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_RecordProducer.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -30,12 +31,12 @@ Define a record producer in the service catalog or from the table record.
     **Note:** Do not call the update, setAbortAction method, or set the sys\_class\_name on current record to avoid unexpected behavior.
 
 
--   **[Create a record producer](../task/t_DefRecProdInSCat.md)**  
+-   **[Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md)**  
 You can create a record producer for tables and database views that are in the same scope as the record producer. Also for tables that allow create access from applications in other scopes.
--   **[Create record producers from tables](../task/t_CreatingRecordProducersFromTables.md)**  
+-   **[Create record producers from tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreatingRecordProducersFromTables.md)**  
 You can create Service Catalog record producers directly from a table record.
--   **[Populate record producer data and redirect users](c_PopulatingRecordData.md)**  
+-   **[Populate record producer data and redirect users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_PopulatingRecordData.md)**  
 You can enter data for all records created by the record producer, and redirect an end user to a particular page after the record producer is submitted.
 
-**Parent Topic:**[Types of catalog items](../reference/r_ExtendedCatalogItemFunctions.md)
+**Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)
 

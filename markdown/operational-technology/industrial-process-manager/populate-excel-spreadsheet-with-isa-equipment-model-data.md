@@ -2,6 +2,7 @@
 title: Populating your Microsoft Excel spreadsheet with equipment model data
 description: Create and populate a Microsoft Excel spreadsheet with your existing ISA equipment model data. Positioning your existing data in the correct columns is crucial to the success of your upload.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/populate-excel-spreadsheet-with-isa-equipment-model-data.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -42,7 +43,7 @@ To create a Microsoft Excel spreadsheet that properly populates the Configuratio
 
 You can import data from multiple sites in a single spreadsheet. The example image shows data for two sites: ATL and CTL.
 
-![Sample Operational Technology data, columns A through J.](../image/aug-23-sample-import-equipment-model-data-source.png "Sample Operational Technology data, columns A through J")
+\[Omitted image "aug-23-sample-import-equipment-model-data-source.png"\] Alt text: Sample Operational Technology data, columns A through J.
 
 <table id="table_mch_2cc_txb"><thead><tr><th>
 
@@ -273,5 +274,5 @@ Yes
 
 If you're an ISA SGC user upgrading from v1 to v2, you can import new ISA equipment model entities that have a unique path and update existing ISA equipment model entities that already have a path value with a fix script.
 
-**Parent Topic:**[Importing equipment model data](importing-isa95-equipment-model-etl.md)
+**Parent Topic:**[Importing equipment model data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/importing-isa95-equipment-model-etl.md)
 

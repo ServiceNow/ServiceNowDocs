@@ -2,6 +2,7 @@
 title: Revoke an OAuth token
 description: You might want to revoke an OAuth access or refresh token for security reasons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_RevokeOAuthToken.html
 release: australia
 product: Authentication
 classification: authentication

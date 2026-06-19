@@ -2,6 +2,7 @@
 title: Pre-authorization request form
 description: The Pre-authorization request form includes the details of the pre-authorization request provided by a payer for a patient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pre-auth-form.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -96,5 +97,5 @@ Notes
 Instructions or explanation for the pre-authorization request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](hcls-serv-mgmt-core-reference.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core-reference.md)
 

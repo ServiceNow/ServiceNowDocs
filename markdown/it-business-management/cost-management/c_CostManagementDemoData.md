@@ -2,6 +2,7 @@
 title: Cost Management Demo Data
 description: The demo data available with Cost Management provides samples of the data types to illustrate its use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/c\_CostManagementDemoData.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -37,5 +38,5 @@ The following diagram shows the distribution of expenses to cost centers.
 
 The amount of money allocated to cost centers can be tracked against a planned budget. A budget represents a collection of cost centers, a duration, and the amount of money that is expected to be allocated to the cost centers during that period. The administration budget contains three cost centers and has incurred $173,610.83 so far during this period.
 
-**Parent Topic:**[Cost Management](../reference/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
 

@@ -2,6 +2,7 @@
 title: Aspirations overview
 description: Create and set your aspirations to help inspire and guide you on your career growth and development journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-aspirations-overview.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -39,5 +40,5 @@ Create and track personal and professional aspirations.
     If your aspiration falls outside the interest, skill and role categories, general gives you the opportunity to make something from scratch.
 
 
-**Parent Topic:**[Exploring Talent Development Core](egd-explore.md)
+**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-explore.md)
 

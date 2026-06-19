@@ -2,6 +2,7 @@
 title: De-activate e-signatures
 description: Use this procedure to de-activate e-signatures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/r\_DeactivateESignatures.html
 release: australia
 product: Approvals
 classification: approvals
@@ -20,5 +21,5 @@ Although plugins cannot be removed, e-signatures can be disabled.
 1.  Navigate to **System Definition** &gt; **E-Signature Registry**.
 2.  Set **Enabled** to **False** on any tables where e-signatures are no longer required.
 
-**Parent Topic:**[Approval with e-signature](../concept/approval-with-e-signature.md)
+**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/approval-with-e-signature.md)
 

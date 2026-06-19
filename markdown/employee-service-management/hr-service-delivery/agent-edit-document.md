@@ -2,6 +2,7 @@
 title: Edit a generated document
 description: Support rendering values of variables, scripts, and blocks in edit mode in Preview Document. View the content of variables, scripts, or blocks rather than only viewing the variable or block names.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/agent-edit-document.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -40,5 +41,5 @@ Role required: sn\_hr\_core.case\_writer
     The document is saved and sent as an attachment in document tasks that are created for participants.
 
 
-**Parent Topic:**[HR document generation](../concept/DocumentGeneration.md)
+**Parent Topic:**[HR document generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/DocumentGeneration.md)
 

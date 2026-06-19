@@ -2,6 +2,7 @@
 title: Contextual actions for custom chat integrations
 description: Commands with a pre-defined behavior can be mapped to certain user-friendly keywords and passed as user input. This input is mapped to supported contextual actions for the most appropriate response in the chat.Map user inputs to base system contextual actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/contextual-actions.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -34,7 +35,7 @@ User inputs can be mapped to a contextual action in two ways.
 |Notifications|Command to subscribe or unsubscribe from receiving notifications|
 |Restart|Command to end a bot conversation that is either in progress or runs into an error, and then begin a new conversation|
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](../concept/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 
 ## Contextual action mapping
 
@@ -116,5 +117,5 @@ Application in which the command is used:-   Virtual Agent only
 
 ### What to do next
 
-[Create bot messages](../task/create-bot-messages.md#) specific to each channel.
+[Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-bot-messages.md) specific to each channel.
 

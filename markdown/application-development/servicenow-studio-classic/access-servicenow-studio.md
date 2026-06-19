@@ -2,6 +2,7 @@
 title: Access ServiceNow Studio
 description: Open ServiceNow Studio from the ServiceNow AI Platform All menu or directly from App Engine Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/access-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -19,13 +20,13 @@ Open ServiceNow Studio from the ServiceNow AI Platform All menu or directly from
 
 Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**, or search for `ServiceNow Studio` in the filter navigator and open it from the search results. To access ServiceNow Studio faster, add it to your **Favorites** tab.
 
-![Search for and select ServiceNow Studio from the All menu.](../image/sn-studio-all-menu.png)
+\[Omitted image "sn-studio-all-menu.png"\] Alt text: Search for and select ServiceNow Studio from the All menu.
 
 ## How do I open ServiceNow Studio from App Engine Studio?
 
 When you need a more advanced development environment for an app you are building in App Engine Studio \(AES\), open the app directly in ServiceNow Studio. A banner appears in AES with information about ServiceNow Studio. Select **Try it out** to open your app in ServiceNow Studio.
 
-![Access ServiceNow Studio directly from within App Engine Studio.](../image/sn-studio-entry-aes.png)
+\[Omitted image "sn-studio-entry-aes.png"\] Alt text: Access ServiceNow Studio directly from within App Engine Studio.
 
 **Note:** Admins can control whether this banner appears by changing the value of the **show\_servicenow\_studio\_banner** system property.
 

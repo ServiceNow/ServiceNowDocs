@@ -2,6 +2,7 @@
 title: Supported ServiceNow AI Platform features in Developer Sandboxes
 description: Developer Sandboxes supports almost all development-related ServiceNow AI Platform features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dev-sbx-supported-features.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -23,7 +24,7 @@ Supported features include the following:
 -   System Update Sets
 -   Legacy source control
 
-    **Note:** Each sandbox can connect to source control with its own git branch. For more information, see [Source control and Developer Sandboxes](dev-sandboxes-source-control.md).
+    **Note:** Each sandbox can connect to source control with its own git branch. For more information, see [Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sandboxes-source-control.md).
 
 -   ServiceNow IDE
 -   Workflow Studio
@@ -38,7 +39,7 @@ Supported features include the following:
 
 ## Sandbox considerations and limitations
 
-Upgrading an instance automatically backs up update sets to the base instance and recreates the sandboxes on that instance. Sandboxes are recreated in a base state, so you must restore backed up update sets. For details, see [Cloning and upgrading considerations for Developer Sandboxes](dev-sbx-clone-upgrade-info.md).
+Upgrading an instance automatically backs up update sets to the base instance and recreates the sandboxes on that instance. Sandboxes are recreated in a base state, so you must restore backed up update sets. For details, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
 
 **Note:** Sandboxes are not automatically recreated after a clone. You should save your work from a sandbox before the clone so you can recreate it.
 

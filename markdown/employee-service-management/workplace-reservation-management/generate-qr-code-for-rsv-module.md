@@ -2,13 +2,14 @@
 title: Generate and print a QR code for a reservable module
 description: Generate and print a QR code for an entire reservable module. Place the QR codes at reservable workplace locations so that employees can scan the code, make a reservation, or perform reservation-related actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/generate-qr-code-for-rsv-module.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure a reservable module, Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure a reservable module, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Generate and print a QR code for a reservable module
@@ -110,9 +111,9 @@ Filter conditions based on which the QR code must be generated.-   To add a cond
 
 The QR codes are generated. The QR codes are printed in a single PDF file with the specified file name. You will receive an email notification after the QR code generation is completed with the QR code details.
 
-After the QR code generation is completed, go to **Manage QR codes** to view the generated file. For more information, refer to [Manage QR codes](../../workplace-service-delivery/task/manage-qr-codes.md).
+After the QR code generation is completed, go to **Manage QR codes** to view the generated file. For more information, refer to [Manage QR codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/manage-qr-codes.md).
 
 Click **download** to download the PDF file.
 
-**Parent Topic:**[Configure a reservable module](config-reservable-module.md)
+**Parent Topic:**[Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md)
 

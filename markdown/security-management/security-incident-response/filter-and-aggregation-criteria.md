@@ -2,6 +2,7 @@
 title: Defining filter and aggregation criteria
 description: You can define and set filter conditions so that you can specify which incoming Microsoft Azure Sentinel incidents should create security incidents. You can also define additional incident field criteria that allows an incoming incident to be appended to an open security incident instead of creating an incident.Set the filtering conditions so that security incidents are created only when the filtering conditions match.Define additional incident aggregation criteria that aggregates an incoming incident to an existing SIR security incident instead of creating similar, potentially duplicate incidents. When you use field matching value criteria for each profile, this additional aggregation can reduce the number of active, overlapping security incidents by placing all related incidents data on a single security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/filter-and-aggregation-criteria.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -49,7 +50,7 @@ This type of filtering helps you to isolate security incidents and limits the nu
     -   properties\(additionalData\(tactics\)\)
     Because the filter condition can retrieve only strings, you must use the `contains` filter condition for the above fields to ensure that the data is filtered correctly.
 
-    ![Filter conditions builder.](../image/sentinel-filtering.png "Security incident generation conditions")
+    \[Omitted image "sentinel-filtering.png"\] Alt text: Filter conditions builder.
 
 2.  Using the lists and fields of the conditions builder, set the filters for the first row.
 
@@ -80,7 +81,7 @@ All the aggregated incidents on a security incident are displayed on the Azure S
 
 1.  To define additional incident field criteria that allows an incoming Microsoft Azure Sentinel incident to be appended to an open security incident instead of creating a new incident, select the **Aggregation Conditions** option as shown in the following figure.
 
-    ![Aggregation to define additional incident filtering criteria.](../image/sentinel-aggregation.png "Aggregation Conditions")
+    \[Omitted image "sentinel-aggregation.png"\] Alt text: Aggregation to define additional incident filtering criteria.
 
 2.  In the **Incident fields with matching values** field, enter the field values that you want to match on existing security incidents in your ServiceNow AI Platform instance.
 

@@ -2,6 +2,7 @@
 title: Debug UI customizations for a Service Catalog page
 description: Perform the health check of a Service Catalog page. The UI Page Customization Diagnostics window displays the UI macros applicable for the Service Catalog page and their corresponding states. For issues on a Service Catalog page due to customized UI macros, you can identify the source of broken functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/debug-ui-customization-catalog-page.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -19,7 +20,7 @@ Perform the health check of a Service Catalog page. The UI Page Customization Di
 
 Role required: admin or catalog\_admin.
 
-Watch this seven-minute video to learn more about UI customization debugging, variable action logger, variable watcher, and the Item Diagnostic report.Features available for debugging Service Catalog issues including UI macro customization debugging; variable action logger; variable watcher; item diagnostic report
+Watch this seven-minute video to learn more about UI customization debugging, variable action logger, variable watcher, and the Item Diagnostic report.
 
 ## Procedure
 
@@ -31,12 +32,12 @@ Watch this seven-minute video to learn more about UI customization debugging, va
 
 3.  Review the information in the UI Page Customization Diagnostics window at the bottom of the page.
 
-    To maximize the UI Page Customization Diagnostics window, click ![Icon to maximize the window](../image/MaxUICustWndw.png). The following information is displayed:
+    To maximize the UI Page Customization Diagnostics window, click \[Omitted image "MaxUICustWndw.png"\] Alt text: Icon to maximize the window. The following information is displayed:
 
     -   Name of the current Service Catalog page.
     -   State of the Service Catalog page.
     -   All UI macros applicable for the Service Catalog page.
-    -   State of each UI macro. For details on possible states, click the Help icon \(![Help icon](../image/Help.png)\).
+    -   State of each UI macro. For details on possible states, click the Help icon \(\[Omitted image "Help.png"\] Alt text: Help icon\).
     -   Number of occurrences of each UI macro in the Service Catalog page.
 <table id="table_n2s_cql_xz"><thead><tr><th>
 
@@ -110,17 +111,17 @@ data-sn-macro-sys-id="${jvar_macro_sys_id}"
     -   When you click the Service Catalog page name or the UI macro name, the corresponding UI page or the macro page is displayed.
     -   When you point to a macro in the UI Page Customization Diagnostics window, the corresponding UI elements are displayed with a pink border.
     -   The state-based color indication is applicable only for UI macros that have a visible UI.
-    ![Screenshot for the UI Page Customization Diagnostics window](../image/DebugUICustmWndw.png "UI Page Customization Diagnostics window")
+    \[Omitted image "DebugUICustmWndw.png"\] Alt text: Screenshot for the UI Page Customization Diagnostics window
 
-4.  To minimize the UI Page Customization Diagnostics window, click ![Icon to minimize the window](../image/MinimizeDebugUI.png).
+4.  To minimize the UI Page Customization Diagnostics window, click \[Omitted image "MinimizeDebugUI.png"\] Alt text: Icon to minimize the window.
 
 
-**Parent Topic:**[Debugging Service Catalog](../concept/debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
 
 **Related topics**  
 
 
-[UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIMacros.md)
+[bundle-crapiref.c_UIMacros]
 
 [bundle-platadm.c_UpgradeHistory]
 

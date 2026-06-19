@@ -2,6 +2,7 @@
 title: Duplicate a visualization in the Visualization Designer
 description: Duplicate a visualization so that you can use aspects of the source in a copy of the visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/duplicate-dv-ac.html
 release: australia
 topic_type: task
 last_updated: "2025-12-05"
@@ -24,7 +25,7 @@ Role required: viz\_creator
 
 2.  Select the visualization that you want to duplicate.
 
-3.  From the More actions menu \(![](../../dashboards/image/icon-vert-3dot-p.png)\), select **Duplicate**.
+3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text:\), select **Duplicate**.
 
 4.  Give the duplicate a unique name and select **Duplicate**.
 
@@ -35,8 +36,8 @@ The visualization is copied with the new name and the suffix **- Copy**. All oth
 
 **Important:** The new copy of the visualization is automatically saved.
 
--   **[Duplicate a visualization on an inline dashboard](duplicate-dv-on-db.md)**  
+-   **[Duplicate a visualization on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/duplicate-dv-on-db.md)**  
 Duplicate a visualization so that you can use aspects of the source in a copy of the visualization while on the dashboard it sits on.
 
-**Parent Topic:**[Common data visualization tasks](../concept/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
 

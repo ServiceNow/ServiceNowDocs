@@ -2,6 +2,7 @@
 title: Workday Financials Spoke
 description: The Workday Financials spoke is built by Bristlecone, Inc. Manage resources, business units, journals, cost centers, and so on, in Workday Financials application from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/workday-fin-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The Workday Financials spoke is built by Bristlecone, Inc. Manage resources, bus
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday Financials spoke v2.1.1 is the latest version.
+Workday Financials spoke v2.2.0 is the latest version.
 
 ## Supported versions
 
@@ -183,7 +184,7 @@ The Workday Financials spoke provides sample subflows to demonstrate automating 
 
 |Subflow|Description|
 |-------|-----------|
-|Create PO|Creates a purchase order record in the Purchase Order table. To use the subflow, [Set up webhook for your Workday Financials spoke](../task/setup-webhk-wd.md#).|
+|Create PO|Creates a purchase order record in the Purchase Order table. To use the subflow, [Set up webhook for your Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md).|
 |Get Supplier Invoice Details|Retrieves details of the specified supplier invoice.|
 
 ## Spoke actions
@@ -236,7 +237,7 @@ Look up Approvals
 
 </td><td>
 
-Retrieves the approvals records from Workday and saves the details as an attachment in the Data Source table.**Note:** To use this action, you must create and configure the To Do RaaS report. For instructions, see [Configure the To Do report](../task/setup-workday-fin-spoke.md#).
+Retrieves the approvals records from Workday and saves the details as an attachment in the Data Source table.**Note:** To use this action, you must create and configure the To Do RaaS report. For instructions, see [Configure the To Do report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -496,7 +497,7 @@ Look up Ledger Accounts
 
 </td><td>
 
-Retrieves the ledger accounts from Workday and saves the details as an attachment in the Data Source table.**Note:** To use this action, you must create and configure the Ledger Account RaaS report. For instructions, see [Configure the Ledger Account report](../task/setup-workday-fin-spoke.md#).
+Retrieves the ledger accounts from Workday and saves the details as an attachment in the Data Source table.**Note:** To use this action, you must create and configure the Ledger Account RaaS report. For instructions, see [Configure the Ledger Account report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md).
 
 </td></tr><tr><td>
 
@@ -504,7 +505,7 @@ Look up Payments and Payment Status
 
 </td><td>
 
-Retrieves the payment and payment status details from Workday and saves the details as an attachment in the Data Source table.**Note:** To use this action, you must create and configure the Payment Status RaaS report. For instructions, see [Configure the Payment Status report](../task/setup-workday-fin-spoke.md#).
+Retrieves the payment and payment status details from Workday and saves the details as an attachment in the Data Source table.**Note:** To use this action, you must create and configure the Payment Status RaaS report. For instructions, see [Configure the Payment Status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md).
 
 </td></tr><tr><td rowspan="4">
 
@@ -727,8 +728,8 @@ The Workday Financials spoke adds the Workday Finance application to your instan
 |------|-----------|
 |Connection Details|Contains information about the base URL of the Workday instance or tenant, and API version.|
 |Get Business Units|Displays information about the business units. Admin should configure the sample remote table as per their requirement.|
-|Purchase Orders|Displays information about the purchase orders whenever they are created in the Workday application. To retrieve this information to the ServiceNow instance, you must [Set up webhook for your Workday Financials spoke](../task/setup-webhk-wd.md#).|
-|Webhook Registries|Contains records of webhooks registries. Admin should create record here [Set up webhook for your Workday Financials spoke](../task/setup-webhk-wd.md#) for the required Workday event.|
+|Purchase Orders|Displays information about the purchase orders whenever they are created in the Workday application. To retrieve this information to the ServiceNow instance, you must [Set up webhook for your Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md).|
+|Webhook Registries|Contains records of webhooks registries. Admin should create record here [Set up webhook for your Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md) for the required Workday event.|
 
-For information about setting up the spoke, see [Set up the Workday Financials spoke](../task/setup-workday-fin-spoke.md#) and [Set up webhook for your Workday Financials spoke](../task/setup-webhk-wd.md#).
+For information about setting up the spoke, see [Set up the Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workday-fin-spoke.md) and [Set up webhook for your Workday Financials spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md).
 

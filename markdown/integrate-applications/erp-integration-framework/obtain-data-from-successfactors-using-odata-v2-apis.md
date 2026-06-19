@@ -2,6 +2,7 @@
 title: Obtain data from SAP SuccessFactors using OData v2 APIs
 description: Access talent management data from SAP SuccessFactors using OData V2 APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/obtain-data-from-successfactors-using-odata-v2-apis.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -20,15 +21,15 @@ SAP SuccessFactors is a set of integrated applications for HR functions such as 
 
 To use SAP SuccessFactors data in Zero Copy Connector for ERP \(Enterprise Resource Planning\), upload an SAP SuccessFactors metadata \(xml\) file when adding an entity to a model using OData.
 
-![Add service manually modal with xml file added.](../image/erp-successfac1.png)
+\[Omitted image "erp-successfac1.png"\] Alt text: Add service manually modal with xml file added.
 
 You can download, edit, or delete the metadata file using the icons.
 
 After uploading the file, its entities are displayed in the Model manager.
 
-For more information and detailed steps, see [Add an OData service manually in Zero Copy Connector for ERP](../task/erp-add-a-service-manually.md).
+For more information and detailed steps, see [Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
 
 For more information about the APIs, see [SAP SuccessFactors API Reference Guide \(OData V2\)](https://help.sap.com/doc/a7c08a422cc14e1eaaffee83610a981d/2511/en-US/SF_HCM_OData_API_DEV.pdf) on the SAP Help Portal.
 
-**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](erp-canvas-use-odata-and-http-connection.md)
+**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

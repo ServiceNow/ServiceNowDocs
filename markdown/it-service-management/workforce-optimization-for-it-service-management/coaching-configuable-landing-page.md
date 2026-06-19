@@ -2,6 +2,7 @@
 title: Workforce Optimization for ITSM Coaching landing page
 description: Monitor the performance of your agents and measure the quality of how they resolved issues using the Coaching landing page. Analyze patterns in skill usage over time and see which skills are in demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/coaching-configuable-landing-page.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -15,7 +16,7 @@ breadcrumb: [Landing pages, Advanced configurations, Workforce Optimization for 
 
 Monitor the performance of your agents and measure the quality of how they resolved issues using the Coaching landing page. Analyze patterns in skill usage over time and see which skills are in demand.
 
-![Coaching landing page](../../../product/configurable-workforce-optimization-itsm/image/coaching-landing-page1.png)
+\[Omitted image "coaching-landing-page1.png"\] Alt text: Coaching landing page
 
 ## End user and roles
 
@@ -63,8 +64,8 @@ As a coach, you can monitor the quality of agents resolving issues and take corr
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|
-|Trainings|List![List](../../../reuse/reporting/image/score-list-tile.svg)|Assigned Training \[sn\_coaching\_assessment\_recommended\_learning\]|List of training that agents need to complete.|
-|Coaching Assessments|List![List](../../../reuse/reporting/image/score-list-tile.svg)|Assessed Record \[sn\_coaching\_assessed\_records\]|List of assessments that coaches need to complete for their agents.|
+|Trainings|List\[Omitted image "score-list-tile.svg"\] Alt text: List|Assigned Training \[sn\_coaching\_assessment\_recommended\_learning\]|List of training that agents need to complete.|
+|Coaching Assessments|List\[Omitted image "score-list-tile.svg"\] Alt text: List|Assessed Record \[sn\_coaching\_assessed\_records\]|List of assessments that coaches need to complete for their agents.|
 
-**Parent Topic:**[Workforce Optimization for ITSM landing pages](../../../product/configurable-workforce-optimization-itsm/concept/configurable-wfo-itsm-landing-pages.md)
+**Parent Topic:**[Workforce Optimization for ITSM landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-landing-pages.md)
 

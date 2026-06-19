@@ -2,6 +2,7 @@
 title: Create a Cisco Webex app
 description: Create an app in Cisco portal to make outbound calls from an incident using Webex.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/create-cisco-webex-app.html
 release: australia
 product: Notify
 classification: notify
@@ -52,5 +53,5 @@ Role required: Cisco admin
         You must update the **Client ID** and **Client Secret** values in your ServiceNow instance.
 
 
-**Parent Topic:**[Configure Notify Cisco Webex Connector](../concept/setup-cisco-webex-notify.md)
+**Parent Topic:**[Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/setup-cisco-webex-notify.md)
 

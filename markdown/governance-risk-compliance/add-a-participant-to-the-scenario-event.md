@@ -2,11 +2,12 @@
 title: Add a participant and monitor the responses
 description: Add a participant to the scenario analysis first and then add the scenario event, services, issues, and so on. If you are the scenario analysis owner, you can add the stakeholders and reviewers to the scenario analysis in Operational Resilience Workspace. You can then collate the observations of all participants and monitor their responses to analyze the scenario.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-a-participant-to-the-scenario-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Create a scenario analysis, Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Add a participant and monitor the responses
@@ -32,7 +33,7 @@ Role required: sn\_oper\_res.manager
 
         The Create New Participant form is displayed as shown in the following example.
 
-        ![Create a participant for the scenario analysis.](../image/create-new-participant-for-scenario-analysis.png)
+        \[Omitted image "create-new-participant-for-scenario-analysis.png"\] Alt text: Create a participant for the scenario analysis.
 
         The name of the scenario analysis is auto-filled by default.
 
@@ -46,7 +47,7 @@ Role required: sn\_oper\_res.manager
 
         You can view the tabs on the Participant form as shown in the following example.
 
-        ![Tabs on the Participant form.](../image/scenario-events-associated-with-participant.png)
+        \[Omitted image "scenario-events-associated-with-participant.png"\] Alt text: Tabs on the Participant form.
 
         When you create a scenario event and add a participant to it, a response task is automatically created for the participant. The following example shows that when a participant is assigned to a scenario event, a response task is created.
 
@@ -70,7 +71,7 @@ Role required: sn\_oper\_res.manager
 
     6.  Log out from the scenario analysis response record.
 
-    For the descriptions of the field values on the scenario analysis response task form, see [Scenario analysis response task form](../reference/response-task-form.md).
+    For the descriptions of the field values on the scenario analysis response task form, see [Scenario analysis response task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/response-task-form.md).
 
 4.  Log in as the owner of the scenario event.
 
@@ -89,5 +90,5 @@ Role required: sn\_oper\_res.manager
 
 ## What to do next
 
-To associate an issue or operational vulnerability with the scenario analysis, see [Link issues and operational vulnerabilities](add-an-issue-to-the-analysis.md).
+To associate an issue or operational vulnerability with the scenario analysis, see [Link issues and operational vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-an-issue-to-the-analysis.md).
 

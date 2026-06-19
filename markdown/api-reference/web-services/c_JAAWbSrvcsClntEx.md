@@ -2,6 +2,7 @@
 title: Java Apache Axis2 web services client examples
 description: Examples demonstrating an integration with Axis2 Version 1.4.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_JAAWbSrvcsClntEx.html
 release: australia
 product: Web Services
 classification: web-services
@@ -20,12 +21,12 @@ Examples demonstrating an integration with Axis2 Version 1.4.
 -   An "elementFormDefault" value of qualified means that an unqualified element is in the default namespace defined on an ancestor. If it is "unqualified" then an unqualified element is in the empty namespace \(xmlns=""\). The default is "unqualified".
 -   To Resolve the Axis Client deserialization failure you should go to **System Properties** &gt; **Web Services** and uncheck the property that sets the elementFormDefault attribute of the embedded XML schema to the value of unqualified. Save the property setting and regenerate your Axis2 client code if your client code was generated before changing this property.
 
--   **[Java Apache Axis2 web services client examples insert](c_JAAWbSrvcsClntExInst.md)**  
+-   **[Java Apache Axis2 web services client examples insert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JAAWbSrvcsClntExInst.md)**  
 An example class to insert an incident record.
--   **[Java Apache Axis2 web services client examples update](c_JAAWbSrvcsClntExUpdt.md)**  
+-   **[Java Apache Axis2 web services client examples update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JAAWbSrvcsClntExUpdt.md)**  
 An example of an Axis Client program that calls the getKeys function to query all incidents where the category is Hardware.
--   **[Java Apache Axis2 web services client examples advanced](c_JAAWbSrvcsClntExAdv.md)**  
+-   **[Java Apache Axis2 web services client examples advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JAAWbSrvcsClntExAdv.md)**  
 Examples showing how to construct and use an Axis2 client to consume a ServiceNow Web Service.
 
-**Parent Topic:**[Inbound web service examples](c_InboundWebServiceExamples.md)
+**Parent Topic:**[Inbound web service examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_InboundWebServiceExamples.md)
 

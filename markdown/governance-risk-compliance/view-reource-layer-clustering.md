@@ -2,6 +2,7 @@
 title: View resource layer clustering
 description: View your assets or resources on the map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-reource-layer-clustering.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,9 +28,9 @@ Asset locations that are nearby to each other are clustered and a cumulative cou
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the map icon \(![Crisis map icon](../image/CrisisMapIcon.png)\).
+2.  Click the map icon \(\[Omitted image "CrisisMapIcon.png"\] Alt text: Crisis map icon\).
 
-3.  Click the layers icon \(![Layers control icon.](../image/BCMLayersIcon.png)\).
+3.  Click the layers icon \(\[Omitted image "BCMLayersIcon.png"\] Alt text: Layers control icon.\).
 
     The layers on the map appear just as pins on a Google map and are configurable. All the layer details like the asset locations, assets, datacenters, and core companies are displayed on the map by their configured icons.
 
@@ -37,13 +38,13 @@ Asset locations that are nearby to each other are clustered and a cumulative cou
 
 4.  To display a selective resource or asset on the map, select the check box of that asset.
 
-    ![Control assets on the map.](../image/AssetLayersControls.png "Control assets on the map")
+    \[Omitted image "AssetLayersControls.png"\] Alt text: Control assets on the map.
 
     The icons of the selected asset are displayed on the map. Layer icons are displayed within black borders, whereas alert icons are within a white circle.
 
 5.  Click an asset icon on the map to view its details.
 
-    For example, if you click a datacenter icon \(![datacenter icon.](../image/BCMDatacenterIcon.png)\) that has no number or a count next to it, a pop over appears with the display information that you have configured in the Resource Configuration table \[sn\_fam\_resource\_config\].
+    For example, if you click a datacenter icon \(\[Omitted image "BCMDatacenterIcon.png"\] Alt text: datacenter icon.\) that has no number or a count next to it, a pop over appears with the display information that you have configured in the Resource Configuration table \[sn\_fam\_resource\_config\].
 
     If you have configured **Power** and **Power consumption** fields of the datacenter table \[cmdb\_co\_datacenter\] as the display fields in the Resource Configuration form, then the power consumption details of that datacenter are displayed on the pop over along with its location coordinates.
 
@@ -53,6 +54,6 @@ Asset locations that are nearby to each other are clustered and a cumulative cou
 
     You can view only one pop over at a time. The pop over disappears on clicking another node.
 
-7.  Click the reset icon \(![Map reset icon.](../image/BCMResetIcon.png)\) to clear the search results on the map.
+7.  Click the reset icon \(\[Omitted image "BCMResetIcon.png"\] Alt text: Map reset icon.\) to clear the search results on the map.
 
 

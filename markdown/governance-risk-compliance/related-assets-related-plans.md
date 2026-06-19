@@ -2,6 +2,7 @@
 title: Assets and plans related to BCP
 description: You can identify the assets and plans related to a business continuity plan. You can then recover the assets in your planning stage. Reuse the configuration item relationship data that flow from CMDB to business impact analysis \(BIA\) during dependency assessment to identify the assets in your plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/related-assets-related-plans.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ When you create a plan, you also select a primary element that the plan covers. 
 
 The example shows the primary scope and related assets for a business continuity plan.
 
-![Primary scope and related assets.](../image/primary-scope-related-assets.png)
+\[Omitted image "primary-scope-related-assets.png"\] Alt text: Primary scope and related assets.
 
 ## Related plans
 

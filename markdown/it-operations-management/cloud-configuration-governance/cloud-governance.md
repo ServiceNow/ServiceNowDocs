@@ -2,6 +2,7 @@
 title: Cloud Governance
 description: Governance refers to the limitations that you can set on available cloud resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-governance.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,8 +20,8 @@ Governance refers to the limitations that you can set on available cloud resourc
 
 |Type|Description|
 |----|-----------|
-|[Quotas](quotas.md)|Quotas are limitations or requirements for groups and users on CIs or cloud resources. Use quotas to prevent wasteful resource usage in your cloud environment.|
-|[Policies](cloud-policy.md)|A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.|
-|[Pools](pools.md)|A resource pool is a query or script that filters a table. You configure a resource pool to limit the values that are available to users when they request a catalog item.|
-|[Permissions](cloud-permissions.md)|Permissions are user group-level access rights to features in the Cloud Provisioning and Governance application and to specific records in the instance, such as blueprints or cloud accounts.|
+|[Quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/quotas.md)|Quotas are limitations or requirements for groups and users on CIs or cloud resources. Use quotas to prevent wasteful resource usage in your cloud environment.|
+|[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)|A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.|
+|[Pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/pools.md)|A resource pool is a query or script that filters a table. You configure a resource pool to limit the values that are available to users when they request a catalog item.|
+|[Permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-permissions.md)|Permissions are user group-level access rights to features in the Cloud Provisioning and Governance application and to specific records in the instance, such as blueprints or cloud accounts.|
 

@@ -2,6 +2,7 @@
 title: spAriaUtil - Client
 description: The spAriaUtil API provides methods to show messages on a screen reader.Announce a message to a screen reader.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/spAriaUtil-API.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The spAriaUtil API provides methods to show messages on a screen reader.
 
 This API is an angular service that you can use in Service Portal widget client scripts.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## spAriaUtil - sendLiveMessage\(String message\)
 

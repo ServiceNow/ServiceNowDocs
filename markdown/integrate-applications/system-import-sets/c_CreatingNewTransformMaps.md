@@ -2,6 +2,7 @@
 title: Transform maps
 description: A transform map is a set of field maps that determine the relationships between fields in an import set and fields in an existing ServiceNow table, such as Incident \[incident\] or User \[sys\_user\].
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_CreatingNewTransformMaps.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

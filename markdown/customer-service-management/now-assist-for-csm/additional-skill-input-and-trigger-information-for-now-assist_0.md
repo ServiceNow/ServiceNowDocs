@@ -2,6 +2,7 @@
 title: Additional skill input and trigger information
 description: Enable remaining Generative AI Skills within Now Assist CSM, and reference summarized details to complete setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/additional-skill-input-and-trigger-information-for-now-assist\_0.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

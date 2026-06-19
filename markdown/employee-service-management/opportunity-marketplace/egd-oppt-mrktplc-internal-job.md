@@ -2,6 +2,7 @@
 title: Internal jobs
 description: Opportunity Marketplace enable you to create, publish, and maintain internal job posting. You can explore open roles \(positions\) within your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-internal-job.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -21,5 +22,5 @@ Internal jobs are tracked in the Job Posting \[sn\_ta\_hiring\_core\_job\_postin
 
 Artificial Intelligence \(AI\) is used in search to make sure the most relevant opportunities are returned.
 
-**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](egd-oppt-mrktplc-explore.md)
+**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

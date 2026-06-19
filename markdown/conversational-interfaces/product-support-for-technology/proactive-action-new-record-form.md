@@ -2,6 +2,7 @@
 title: Proactive Action form
 description: When creating a Proactive Triggers rule, the Proactive Action form includes the following fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/proactive-action-new-record-form.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -45,7 +46,7 @@ Applies to
 
 </td><td>
 
-The set of end users to which this action applies. For example, you can apply an action to any **Any Users** or **Guest Users** user criteria. Use the lookup using list icon \(![Lookup using list con.](../image/look-up-icon.png)\) to select the user. The **Applies to** settings must be unique for the actions for each rule. To create a user criteria record, see [Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-user-criteria-record.md).
+The set of end users to which this action applies. For example, you can apply an action to any **Any Users** or **Guest Users** user criteria. Use the lookup using list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list con.\) to select the user. The **Applies to** settings must be unique for the actions for each rule. To create a user criteria record, see .
 
  **Note:** If you don't specify a user, this rule is applied to all users.
 
@@ -121,5 +122,5 @@ Tagline
 Text that the end users see above the buttons that you've created. The default tagline text is `Suggested for you`.\(For **Message that launches a selection of virtual agent topics** actions only.\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Proactive Triggers reference](proactive-triggers-reference.md)
+</table>**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)
 

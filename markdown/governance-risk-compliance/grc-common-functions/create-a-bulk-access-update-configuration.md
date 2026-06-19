@@ -2,6 +2,7 @@
 title: Set access restrictions using an entity based record access update utility
 description: Set access restrictions for the existing records in bulk by using the Entity based record access update utility guided-experience. Use the workflow to enable or disable access to record types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-a-bulk-access-update-configuration.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -70,5 +71,5 @@ The system provides real-time status tracking of update operations, categorized 
 
 Entity-based restrictions are enabled or disabled at the record level for the scoped entity types.
 
-**Parent Topic:**[Managing Entity Based Access](../concept/using-entity-based-access.md)
+**Parent Topic:**[Managing Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-entity-based-access.md)
 

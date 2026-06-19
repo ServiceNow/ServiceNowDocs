@@ -2,6 +2,7 @@
 title: Configure search resources for an interaction in Service Operations Workspace for ITSM
 description: You can configure additional search resources for an interaction to assist agents with quick resolution of the interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace

@@ -2,6 +2,7 @@
 title: Demand tasks
 description: A demand task is a unit of work, created within a demand, to break down initial planning activities before converting the demand into a project, change, enhancement, or defect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/demand-task.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Demand Management, Project Portfolio Management, Strateg
 
 A demand task is a unit of work, created within a demand, to break down initial planning activities before converting the demand into a project, change, enhancement, or defect.
 
-You can [create a demand task](../task/create-demand-task.md) from the **Demand Tasks** related list to delegate activities that are helpful for assessing demand feasibility. Demand tasks differ from project tasks in the following aspects:
+You can [create a demand task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-task.md) from the **Demand Tasks** related list to delegate activities that are helpful for assessing demand feasibility. Demand tasks differ from project tasks in the following aspects:
 
 -   Planned dates, actual dates, and original dates are part of project tasks not demand tasks.
 -   The due date indicates the date on which the task is targeted for completion and doesn’t affect the demand workflow. Project tasks, however, affect the project completion dates if the planned dates and actual dates are changed.
@@ -31,20 +32,20 @@ The resource assignments aren’t associated with the demand by default. Make su
 
 When you submit a time card for a demand, the time and cost incurred aren’t transferred to the work entity created from the demand. The time and cost remain within the demand as the demand cost and effort.
 
-Resources assigned to a demand task can submit the time spent on it using a time card. For more information, see [Submit a time card for a demand task](../task/submit-time-for-demand.md).
+Resources assigned to a demand task can submit the time spent on it using a time card. For more information, see [Submit a time card for a demand task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/submit-time-for-demand.md).
 
 ## Actual cost and effort for a demand task
 
-The actual effort of the work performed on the demand task is derived from the time card. The actual cost is derived from the hourly resource rate defined in the rate model, default labor rate, or default system property. The actual cost and effort for a demand task are then rolled up to derive the actual cost and effort for the associated demand. For more information, see [Actual cost and effort calculation for a demand and demand task](actual-cost-effort-calculation-demand.md).
+The actual effort of the work performed on the demand task is derived from the time card. The actual cost is derived from the hourly resource rate defined in the rate model, default labor rate, or default system property. The actual cost and effort for a demand task are then rolled up to derive the actual cost and effort for the associated demand. For more information, see [Actual cost and effort calculation for a demand and demand task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/actual-cost-effort-calculation-demand.md).
 
 ## Add work items to a Demand
 
 Based on the selected demand task category and role assigned to you, you can use the demand task form to:
 
--   [Add a cost plan to a Demand](../../project-management/task/t_CreateAProjectCostPlan.md)
--   [Add a resource assignment to a Demand](../task/create-manage-resource-plans-demand.md)
--   [Add a benefit plan to a Demand](../task/create-demand-benefit-plan.md)
--   [Add risks to a Demand](c_EnhancingDemands.md)
+-   [Add a cost plan to a Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md)
+-   [Add a resource assignment to a Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-manage-resource-plans-demand.md)
+-   [Add a benefit plan to a Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-demand-benefit-plan.md)
+-   [Add risks to a Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_EnhancingDemands.md)
 
-**Parent Topic:**[Demand Management reference](../../service-portfolio-management2/concept/demand-management-reference.md)
+**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-reference.md)
 

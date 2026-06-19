@@ -2,6 +2,7 @@
 title: Employee Center with HR Service Delivery
 description: The Employee Center is available to use when you activate the Human Resources Scoped App: Core \[com.sn\_hr\_core\] plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/employee-center-hr.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Integration of HR Service Delivery with ServiceNow applications, HR
 
 The Employee Center is available to use when you activate the Human Resources Scoped App: Core \[com.sn\_hr\_core\] plugin.
 
-The Employee Center provides a single and unified portal experience for employees to find information, get help, and request services or items they need. For more information, see [Employee Center](../../employee-center/concept/employee-center-landing-page.md).
+The Employee Center provides a single and unified portal experience for employees to find information, get help, and request services or items they need. For more information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
 
 ## Unified taxonomy mappings
 
@@ -30,20 +31,20 @@ To use the Employee Center with HR Service Delivery:
 
     **Note:** For more information, see:
 
-    -   [Unified taxonomy for Employee Center](../../employee-center/concept/config-taxonomy.md)
-    -   [Associate connected content to a topic](../../employee-center/task/associate-content-to-topics.md)
-    -   [Associate a knowledge article with a taxonomy category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/associate-knowledge-article-with-taxonomy-topic.md)
+    -   [Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md)
+    -   [Associate connected content to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/associate-content-to-topics.md)
+    -   Associate a knowledge article with a taxonomy category
 
 ## Employee Center widgets
 
 The following are optional widgets that can be configured:
 
 -   Start Date widget: This widget only appears to new hires prior to their start date for onboarding cases only. When using the base system layout, place the widget on the Employee Center home page, in the right-hand pane above the My Items widget. For more information on Lifecycle Events and onboarding and configuring the widget, see
-    -   [Lifecyle events for enterprise](../reference/enterprise-onboarding-transitions-landing-page.md)
-    -   [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
+    -   [Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/enterprise-onboarding-transitions-landing-page.md)
+    -   Service Portal widgets
 -   Parental Leave Guide: Provides a link to the Parental Leave Guide portal page. For more information, see
-    -   [Now Assist Virtual Agent topics for Journey designer](jd-va-topic.md)
-    -   [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md)
+    -   [Now Assist Virtual Agent topics for Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jd-va-topic.md)
+    -   Service Portal widgets
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 

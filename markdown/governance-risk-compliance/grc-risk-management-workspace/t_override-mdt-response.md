@@ -2,6 +2,7 @@
 title: Override metric data task response
 description: As a metrics manager, if you think that the response provided for a quantitative or qualitative metric must be modified, you can edit the data and provide a justification for the modification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_override-mdt-response.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -36,5 +37,5 @@ Role required: sn\_grc\_metric.admin, sn\_risk.admin, and sn\_compliance.admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Using GRC: Metrics to provide data](../concept/using-metrics-irm.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-metrics-irm.md)
 

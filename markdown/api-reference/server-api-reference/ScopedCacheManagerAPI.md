@@ -2,6 +2,7 @@
 title: ScopedCacheManager - Scoped
 description: The ScopedCacheManager API provides methods for retrieving, setting, and flushing cache data for scoped applications.Flushes an entire cache or a single entry from a cache.Gets a value from a cache.Gets cache entry details including byte size, object type, and entry value.Flushes all cache entries that have keys beginning with a specified prefix.Puts a value in a scoped cache for caches that are Table or Table Column pair types.Puts an entry into the cache and sets all records with the specified sys\_ids as a flush source for that entry. This method is intended for caches that are Table or Table Column pair types.Puts a value in a single row \(table\) of a cache. Use this method for caches that are Table Row or Table Row and Column pair types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ScopedCacheManagerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ScopedCacheManager API provides methods for retrieving, setting, and flushin
 
 This API requires the Scoped Cache \(com.glide.scopedcache\) plugin and runs in the `sn_scoped_cache` namespace. The plugin is installed and activated by default.
 
-These methods require one or more scoped caches and scoped cache pairs to be defined. For more information on creating scoped caches, see the [ScopedCacheManager API Developer Guide](../../../../../integrate/guides/scopedcachemgr/concept/scoped-caches.md#).
+These methods require one or more scoped caches and scoped cache pairs to be defined. For more information on creating scoped caches, see the [ScopedCacheManager API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/scoped-caches.md).
 
 Using this API with scoped caches provides several advantages, including:
 
@@ -26,7 +27,7 @@ Using this API with scoped caches provides several advantages, including:
 -   Defining and use cache data outside the transaction life cycle.
 -   Caching the output of expensive operations or calculations for quick access in the future.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ScopedCacheManager – flushScopedCache\(String catalog, String key\)
 

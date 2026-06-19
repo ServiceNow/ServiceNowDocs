@@ -2,6 +2,7 @@
 title: Roles installed with PPM Standard \(Project Portfolio Management\)
 description: Roles are added with activation of PPM Standard plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/roles-installed-with-PPS-finance.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -54,7 +55,7 @@ PPS admin\[it\_pps\_admin\]
 
 </td><td>
 
-Can view and modify the preferences, configurations, and settings for projects, demands, programs, portfolios, resources, time cards, agile development, and timeline visualization.
+Can view and modify the preferences, configurations, and settings for projects, demands, programs, portfolios, resources, time cards, and agile development.
 
 </td><td>
 
@@ -421,5 +422,5 @@ View rate model and rate lines. This is a read-only role.
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Project Portfolio Management \(PPM\) Standard](r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
+</table>**Parent Topic:**[Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
 

@@ -2,19 +2,22 @@
 title: General guidelines for using app generation
 description: To get the best results from app generation, provide clear and detailed descriptions of your application requirements during your conversation with Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/sns-app-gen-guidelines.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [agentic ai, app gen, app generation, now assist, application generation, app creation, application creation, servicenow studio, generative ai]
-breadcrumb: [Explore, App generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, App generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # General guidelines for using app generation
 
 To get the best results from app generation, provide clear and detailed descriptions of your application requirements during your conversation with Now Assist.
+
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md).
 
 ## How do I have a productive conversation with app generation?
 
@@ -67,7 +70,7 @@ App generation works best when you include specific details about your requireme
     Throughout the conversation, Now Assist adjusts its understanding of your application requirements based on your input.
 
 
-For more information about having productive conversations with Now Assist, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.md).
+For more information about having productive conversations with Now Assist, see .
 
-**Parent Topic:**[Exploring app generation](sns-exploring-now-assist-gen.md)
+**Parent Topic:**[Exploring app generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-exploring-now-assist-gen.md)
 

@@ -2,6 +2,7 @@
 title: Advanced Portal Navigation
 description: Advanced Portal Navigation \(APN\) helps you design and configure an intuitive navigation for better information architecture and topic discovery. You can manage the topics and service portal menu items based on employee needs. Use the enhanced navigation experience that helps you with better content discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/adv-portal-navigation-overview.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -34,8 +35,8 @@ Use the guided tour that provides a feature explainer to help understand what AP
 
 Create an APN record and select one of the following navigation options.
 
--   Top navigation: Supports up to four levels of hierarchy and surfaces a broad set of topics and quick links directly at the top of the portal, helping employees to navigate to deeper levels. This navigation is the existing mega‑menu in the header that supports deeper and more complex hierarchies. For more information, see [Configure advanced portal navigation](../task/config-adv-portal-nav-as-menu.md).
--   Simplified or side navigation: Use the new layout for simple visual access, iconography, and quick access to key destinations, helping employees browse topics with less effort and reduced visual complexity. Side navigation in Employee Center is a new left‑hand, icon‑driven, two‑level menu meant to simplify browsing. For more information, see [Configure simplified left navigation](../task/config-simplified-nav-as-menu.md).
+-   Top navigation: Supports up to four levels of hierarchy and surfaces a broad set of topics and quick links directly at the top of the portal, helping employees to navigate to deeper levels. This navigation is the existing mega‑menu in the header that supports deeper and more complex hierarchies. For more information, see [Configure advanced portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-adv-portal-nav-as-menu.md).
+-   Simplified or side navigation: Use the new layout for simple visual access, iconography, and quick access to key destinations, helping employees browse topics with less effort and reduced visual complexity. Side navigation in Employee Center is a new left‑hand, icon‑driven, two‑level menu meant to simplify browsing. For more information, see [Configure simplified left navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-simplified-nav-as-menu.md).
 
 Both options help define and navigate to root and subtopics, assign icons, and enable faster access.
 
@@ -53,7 +54,7 @@ You can offer a simplified navigation to the content.
 
 ## Mega menu configuration
 
-Admins can manage the information architecture and navigation. You can configure the mega menu to show a mixed hierarchy of SP menu items, APN menu items, and topics with flexible layout options. Create a mixed hierarchy and enable a consumer-grade browse experience. For more information, see [Mega menu configuration](../task/config-mega-menu.md).
+Admins can manage the information architecture and navigation. You can configure the mega menu to show a mixed hierarchy of SP menu items, APN menu items, and topics with flexible layout options. Create a mixed hierarchy and enable a consumer-grade browse experience. For more information, see [Mega menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-mega-menu.md).
 
 -   Organize the content into standard layout and expanded layouts.
 -   Configure the root items position to the left or the right.

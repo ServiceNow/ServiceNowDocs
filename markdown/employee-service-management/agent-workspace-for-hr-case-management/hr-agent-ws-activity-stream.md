@@ -2,6 +2,7 @@
 title: Using the activity stream in Agent Workspace for HR Case Management
 description: Use the activity stream section of Agent Workspace for HR Case Management to document work notes \(private\) or comments, respond to email, or view the state of the HR case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-activity-stream.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -29,6 +30,6 @@ Role required: sn\_hr\_core.case\_writer
 
 4.  Click **Post Comments**.
 
-    **Note:** There is also a **Comments/Worknotes** section at the bottom, left side of the form. This section is turned off by default, but can be used to enter text by clicking the accordion icon \(![Accordion icon](../image/playbook-accordion-icon.png)\). After entering text, click **Save**.
+    **Note:** There is also a **Comments/Worknotes** section at the bottom, left side of the form. This section is turned off by default, but can be used to enter text by clicking the accordion icon \(\[Omitted image "playbook-accordion-icon.png"\] Alt text: Accordion icon\). After entering text, click **Save**.
 
 

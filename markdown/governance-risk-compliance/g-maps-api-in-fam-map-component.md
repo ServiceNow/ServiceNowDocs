@@ -2,6 +2,7 @@
 title: Google Maps APIs used in Fam-map component
 description: The Fam-map component in Crisis map utilizes various Google Maps APIs to provide interactive mapping functionalities. This section lists the Google Maps APIs that are integrated into the Fam-map component, along with their usage information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/g-maps-api-in-fam-map-component.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -66,5 +67,5 @@ The Fam-map component relies on the Dynamic Maps JavaScript API to load the dyna
 
 **Note:** For details about the properties and handlers usage in the Geo-map component, see the Geo-map Readme file. For information on the Google Maps APIs in the Geo-map component, see the KB article: [KB1588661](https://support.servicenow.com/nav_to.do?uri=/kb%3Fid=kb_article_view&sysparm_article=KB1588661)
 
-**Parent Topic:**[Setup for Crisis map](../concept/crisis-map-admin-tasks.md)
+**Parent Topic:**[Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-admin-tasks.md)
 

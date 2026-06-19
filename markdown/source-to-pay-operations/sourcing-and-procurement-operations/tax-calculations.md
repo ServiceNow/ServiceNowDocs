@@ -2,6 +2,7 @@
 title: Tax calculations
 description: A framework to integrate tax calculations into Sourcing and Purchasing Automation is implemented such that approvals can be done on the full value of purchases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -33,10 +34,10 @@ A ShoppingHub administrator can configure tax estimates to be included in purcha
     **Note:** Here, the customer is open to integrate with any other tax engine, as desired.
 
 
--   **[Tax calculation API](tax-calculations-api.md)**  
+-   **[Tax calculation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations-api.md)**  
 A tax calculation API is created to provide specific parameters to a tax calculator engine, SAP in this case.
--   **[Tax calculation integration with SAP](tax-calculation-integration-sap.md)**  
+-   **[Tax calculation integration with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculation-integration-sap.md)**  
 SAP's tax engine API consumes necessary parameters from the tax calculation generic API to provide tax estimates.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

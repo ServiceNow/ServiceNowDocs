@@ -2,13 +2,14 @@
 title: Perform bulk updates for transfer order lines
 description: Update tasks for multiple transfer order lines at one go to streamline the transfer order process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/create-bulk-transfer.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Transfer order tasks, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order tasks, Manage transfer order, Use, Asset Management, IT Asset Management]
 ---
 
 # Perform bulk updates for transfer order lines
@@ -17,7 +18,7 @@ Update tasks for multiple transfer order lines at one go to streamline the trans
 
 ## Before you begin
 
-Transfer order lines enable the transfer of multiple assets on a transfer order. When you create a transfer order line, a transfer order line task is automatically created. Transfer order line tasks are created to move transfer order lines from one stage to the other. Each transfer order line can have multiple tasks such as **Requested**, **Shipment Preparation**, **In Transit**. For information on the stages of a transfer order line task, see [Summary of transfer order line tasks](../reference/r_SummaryOfTransferOrderStages.md).
+Transfer order lines enable the transfer of multiple assets on a transfer order. When you create a transfer order line, a transfer order line task is automatically created. Transfer order line tasks are created to move transfer order lines from one stage to the other. Each transfer order line can have multiple tasks such as **Requested**, **Shipment Preparation**, **In Transit**. For information on the stages of a transfer order line task, see [Summary of transfer order line tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/r_SummaryOfTransferOrderStages.md).
 
 Role required: asset\_system\_admin or inventory\_user
 
@@ -54,5 +55,5 @@ Role required: asset\_system\_admin or inventory\_user
 7.  Return to the Bulk Update - Transfer Order Line dialog box to continue this process until you close all the tasks required for completing the transfer order line.
 
 
-**Parent Topic:**[Transfer order tasks](../concept/work-with-transfer-orders.md)
+**Parent Topic:**[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-transfer-orders.md)
 

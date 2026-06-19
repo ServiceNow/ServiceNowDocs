@@ -2,6 +2,7 @@
 title: Configure Succession Planning Report
 description: Configure the Succession Planning report that the action Look up Succession Planning in the Workday HR spoke uses to view the details of succession planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-succession-planning-report.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -39,53 +40,53 @@ Confirm that the **Enable as webservice** option in the Advanced section is sele
 
 6.  Confirm that the temporary report option is deselected, and then select **Ok**.
 
-    ![Workday report.](../image/workday-report63.png)
+    \[Omitted image "workday-report63.png"\] Alt text: Workday report.
 
 7.  Select the report business object and report fields as given in the image.
 
-    ![Workday report.](../image/workday-report64.png)
+    \[Omitted image "workday-report64.png"\] Alt text: Workday report.
 
-    ![Workday report.](../image/workday-report65.png)
+    \[Omitted image "workday-report65.png"\] Alt text: Workday report.
 
 8.  In the Group column heading section, select all business object.
 
     The Group Column heading for each business object is empty.
 
-    ![Workday report.](../image/workday-report66.png)
+    \[Omitted image "workday-report66.png"\] Alt text: Workday report.
 
 9.  In the Sort section, under Sub level sort, select the value as shown.
 
-    ![Workday report.](../image/workday-report67.png)
+    \[Omitted image "workday-report67.png"\] Alt text: Workday report.
 
 10. In the Filter section, select the value as given below.
 
     Add parenthesis as given in the image.
 
-    ![Workday report.](../image/workday-report68.png)
+    \[Omitted image "workday-report68.png"\] Alt text: Workday report.
 
 11. In the prompt section, click on **Populate Undefined Prompt Defaults** option.
 
-    ![Workday report.](../image/workday-report69.png)
+    \[Omitted image "workday-report69.png"\] Alt text: Workday report.
 
 12. Select the value of prompts as given below under the Prompt default section.
 
     Make sure the Label For Prompt XML Alias of all prompt fields must be the same as given below.
 
-    ![Workday report.](../image/workday-report70.png)
+    \[Omitted image "workday-report70.png"\] Alt text: Workday report.
 
 13. In the advanced section, select **enable as webservice**, and then click **OK**.
 
 14. Select the three dots icon and go to **Web services&gt; view URLs**.
 
-    ![Workday report.](../image/workday-report71.png)
+    \[Omitted image "workday-report71.png"\] Alt text: Workday report.
 
 15. Select the organization for which you want to run this report and select the box if you want to include the subordinate organizations.
 
-    ![Workday report.](../image/workday-report72.png)
+    \[Omitted image "workday-report72.png"\] Alt text: Workday report.
 
 16. In the View URLs Web Service page, click on marked icon under CSV section.
 
-    ![Workday report.](../image/workday-report73.png)
+    \[Omitted image "workday-report73.png"\] Alt text: Workday report.
 
     A new browser tab displays the following results.
 
@@ -95,6 +96,6 @@ Confirm that the **Enable as webservice** option in the Advanced section is sele
     -   Tenant\_Name represents customer’s workday tenant.
     -   Report\_Owner\_user\_name represents user name of the report’s owner.
     -   Report\_Name Represents report name.
-    ![Workdat report.](../image/workday-report74.png)
+    \[Omitted image "workday-report74.png"\] Alt text: Workdat report.
 
 

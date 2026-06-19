@@ -2,6 +2,7 @@
 title: Outbound staging tables for Source-to-Pay Operations
 description: The outbound staging tables for Source-to-Pay Operations store source-to-pay data before it is exported to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/s2p-outbound-staging-tables.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

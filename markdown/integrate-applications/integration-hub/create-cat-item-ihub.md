@@ -2,6 +2,7 @@
 title: Create a catalog item for an SCCM application
 description: Create a catalog item for an application you want to offer for distribution from the service catalog using the applications discovered on the SCCM server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-cat-item-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -33,7 +34,7 @@ Before creating a catalog item, you must link the application to a software mode
 
     A new SCCM Application Catalog Item record appears with preconfigured information. .
 
-    ![SCCM application catalog item](../images/SCCMCatalogItem.png)
+    \[Omitted image "SCCMCatalogItem.png"\] Alt text: SCCM application catalog item
 
 4.  Add price information and complete the following fields added to the Client Software Distribution Catalog Item \[sn\_client\_sf\_dist\_cat\_item\] table by the Client Software Distribution plugin:
 
@@ -82,7 +83,7 @@ SCCM configuration
 
 </td><td>
 
-Name of the [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) for this application. This record defines the collection and uninstall collection for this application. This configuration is required for all deployments, revocations, and leases performed by the SCCM server.
+Name of the Define an SCCM configuration for this application. This record defines the collection and uninstall collection for this application. This configuration is required for all deployments, revocations, and leases performed by the SCCM server.
 
 </td></tr></tbody>
 </table>5.  If the catalog item requires approval because of cost, be sure to configure an approval group in the**Approved By Group** related list.
@@ -96,5 +97,5 @@ Name of the [Define an SCCM configuration](https://raw.githubusercontent.com/Ser
 7.  To see all client software distribution \(CSD\) catalog items, navigate to **Client Software Distribution** &gt; **Maintain Items** &gt; **Software Items**.
 
 
-**Parent Topic:**[Configuring SCCM](../concept/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

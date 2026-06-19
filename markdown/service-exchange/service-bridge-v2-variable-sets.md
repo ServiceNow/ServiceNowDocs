@@ -2,6 +2,7 @@
 title: Using variable sets with Remote Record Producers
 description: Use single and multi-row variable sets with remote record producers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-variable-sets.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -27,5 +28,5 @@ As a provider, you can create and associate variable sets with remote record pro
 -   Variable sets containing variables with unsupported variable types \(Custom, Custom with Label, and UIPage\) will not be synced until the invalid variables are removed.
 -   Remote record producers containing invalid variable sets cannot be published. To publish the remote record producer, you must either resolve the validation issues or unassign the invalid variable set from the remote record producer.
 
-For more details on variable sets and how they are used, see [Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md).
+For more details on variable sets and how they are used, see .
 

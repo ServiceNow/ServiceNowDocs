@@ -2,6 +2,7 @@
 title: Palo Alto Networks - WildFire integration
 description: Palo Alto Networks - WildFire is a cloud-based application that interacts with your system firewall.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/palo-alto-wildfire-landing-page.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -19,35 +20,35 @@ Palo Alto Networks - WildFire is a cloud-based application that interacts with y
 
 Explore
 
- [Security Incident Response integrations](../../../security-incident-response/concept/sir_integrations.md)
+ [Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir_integrations.md)
 
 </td><td>
 
 Set up
 
- [Activate Palo Alto Networks - WildFire](../task/activate-secops-palo-alto-network.md)
+ [Activate Palo Alto Networks - WildFire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-secops-palo-alto-network.md)
 
 </td></tr><tr><td>
 
 Use
 
- [Get WildFire Data Enrichment Flow](../task/enrich-wildfire-data.md#)
+ [Get WildFire Data Enrichment Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/enrich-wildfire-data.md)
 
 </td><td>
 
 Develop
 
- -   [ServiceNow Security Operations integration development guidelines](../../../security-operations-integrations/concept/c_IntegrationWritingGuidelines.md)
--   [Tips for writing integrations](../../../security-operations-integrations/concept/c_BestPractisesIntegrations.md)
+ -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/c_IntegrationWritingGuidelines.md)
+-   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/c_BestPractisesIntegrations.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md)
+-   Find components installed with an application
 
 </td></tr><tr><td>
 
 Troubleshoot and get help
 
- -   [Integration troubleshooting](../../../security-operations-integrations/concept/c_IntegrationTroubleshooting.md)
+ -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/c_IntegrationTroubleshooting.md)
 -   [Ask or answer questions in the Security Operations community](https://community.servicenow.com/community/security-operations)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

@@ -2,6 +2,7 @@
 title: Pause utility
 description: Use the Pause utility to create a temporary halt in your Virtual Agent conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-pause.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -66,7 +67,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Pause utility
 
-![Pause utility properties.](../images/flow-designer-pause-properties.png)
+\[Omitted image "flow-designer-pause-properties.png"\] Alt text: Pause utility properties.
 
-**Parent Topic:**[Assistant Designer utilities](va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
 

@@ -2,6 +2,7 @@
 title: Configuring the Industrial Workspace
 description: Configure Industrial Workspace so that you can manage your Operational Technology \(OT\) data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configuring-industrial-workspace.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -31,24 +32,24 @@ The following table lists the Guided Setup tasks and their purposes for the Indu
 |Complete the configuration tasks for the Operational Technology Vulnerability Response \(PA\) dashboard.|Configures the Operational Technology Vulnerability Response \(PA\) dashboard in the Industrial Workspace.|
 |Complete the configuration tasks for the OT Unified Map experience|Configures the OT Unified Map experience if you want to modify the default settings.|
 
--   **[Assign the Industrial Workspace role](../task/assign-industrial-workspace-roles.md)**  
+-   **[Assign the Industrial Workspace role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/assign-industrial-workspace-roles.md)**  
 Assign the Industrial Workspace role to your users so that you can control their access to the workspace's features, capabilities, and data.
--   **[Review the homepage destination rules for the Industrial Workspace](../task/review-iw-homepage-destination-rules.md)**  
+-   **[Review the homepage destination rules for the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/review-iw-homepage-destination-rules.md)**  
 Review the homepage destination rules for the Industrial Workspace.
--   **[Setting up the Operational Technology Action-Oriented Landing Page](setting-up-the-ot-task-oriented-landing-page.md)**  
+-   **[Setting up the Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-task-oriented-landing-page.md)**  
 Set up the Operational Technology \(OT\) Action-Oriented Landing Page in the Industrial Workspace so that your users can access their critical tasks.
--   **[Setting up the Operational Technology Progress Scorecard](setting-up-the-ot-progress-scorecard.md)**  
+-   **[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)**  
 Set up the Operational Technology \(OT\) Progress Scorecard in the Industrial Workspace so that your users can compare site data and progress.
--   **[Setting up the Operational Technology Visibility dashboard](../../mftg-manufacturing-oper-tech-mgr/concept/setting-up-the-ot-devices-dashboard.md)**  
+-   **[Setting up the Operational Technology Visibility dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-devices-dashboard.md)**  
 Complete the Guided Setup tasks so that you can start setting up the Operational Technology \(OT\) Visibility dashboard with the data collections, indicator resources, and filters for your organization.
--   **[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](setting-up-the-otvr-pa-dashboard.md)**  
+-   **[Setting up the Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-otvr-pa-dashboard.md)**  
 Set up the Operational Technology Vulnerability Response \(PA\) dashboard in the Industrial Workspace so that your users can access their critical tasks.
--   **[Setting up the Operational Technology Unified Map experience](../../ot-industrial-workspace/task/setting-up-unified-maps-experience.md)**  
+-   **[Setting up the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-unified-maps-experience.md)**  
 Set up the Operational Technology \(OT\) Unified Map experience in the Industrial Workspace so that your users can access Unified Maps.
--   **[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](../../mftg-manufacturing-ot-vulnerability-response/task/configure-hva-using-guided-setup.md)**  
+-   **[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)**  
 Use the Industrial Workspace Admin guided setup to walk you through configuring the Hardware Vulnerability Assessment feature available on the Industrial Workspace menu.
--   **[Setting up the OT Network Map](../../ot-industrial-workspace/concept/setting-up-ot-network-map.md)**  
+-   **[Setting up the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-ot-network-map.md)**  
 Set up the Operational Technology \(OT\) Network Map so that you can access the map in the in the Industrial Workspace.
 
-**Parent Topic:**[Industrial Workspace](industrial-workspace-for-operational-technology.md)
+**Parent Topic:**[Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
 

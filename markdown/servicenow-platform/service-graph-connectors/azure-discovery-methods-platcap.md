@@ -2,6 +2,7 @@
 title: Microsoft Azure discovery solutions comparison
 description: ITOM Visibility applications discover a variety of Microsoft Azure resources and populate the relevant configuration item \(CI\) classes in the Configuration Management Database \(CMDB\) with their attributes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/azure-discovery-methods-platcap.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -38,12 +39,12 @@ Discovery and Service Mapping Patterns and Visibility Content
 
 </td><td>
 
-[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
+
 
 </td><td>
 
 -   You must update your store apps to the latest release version.
--   You must provide ITOM Visibility with access permissions. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-azure-service-accounts.md)
+-   You must provide ITOM Visibility with access permissions. For more information, see 
 
 </td></tr><tr><td>
 
@@ -51,11 +52,11 @@ Service Graph Connector for Microsoft Azure
 
 </td><td>
 
-[Service Graph Connector for Microsoft Azure](../../configuration-management/concept/cmdb-integration-azure.md)
+[Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-azure.md)
 
 </td><td>
 
-[Configure Service Graph Connector for Microsoft Azure using the guided setup](../../configuration-management/task/configure-azure-integration.md)
+[Configure Service Graph Connector for Microsoft Azure using the guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/configure-azure-integration.md)
 
 </td></tr></tbody>
 </table>**Note:**
@@ -1283,5 +1284,5 @@ No
 cmdb\_azure\_service\_endpoint\_policy\_service\_endpoint\_policy
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](../../configuration-management/concept/sgc-azure-reference.md)
+</table>**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-azure-reference.md)
 

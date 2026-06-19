@@ -2,6 +2,7 @@
 title: Using HR Service Delivery Integration with Workday
 description: Understand how you can use HR Service Delivery Integration with Workday to process employee information at ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-hrsd-int-workday.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,12 +16,12 @@ breadcrumb: [HR Service Delivery Integration with Workday, Integration of HR Ser
 
 Understand how you can use HR Service Delivery Integration with Workday to process employee information at ServiceNow.
 
--   **[Use transform maps](../reference/transform-maps-w.md)**  
+-   **[Use transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/transform-maps-w.md)**  
 Transform maps specify data relationships between source table and target table.
--   **[View job tracker details from Workday](../task/w-job-tracker.md)**  
+-   **[View job tracker details from Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/w-job-tracker.md)**  
 Track every pull that has been performed from ServiceNow to Workday either by schedule job or manual reconciliation process. View details of the job, such as when did the job begin and end, when did the records start loading into staging tables, or did the job run completely or fail in between.
--   **[View tasks from Workday](../task/view-to-dos-wd.md)**  
+-   **[View tasks from Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/view-to-dos-wd.md)**  
 View details of the todos or tasks that are pulled from Workday into ServiceNow.
 
-**Parent Topic:**[Integration of HR Service Delivery with third-party systems](integrate-third-party-systems.md)
+**Parent Topic:**[Integration of HR Service Delivery with third-party systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-third-party-systems.md)
 

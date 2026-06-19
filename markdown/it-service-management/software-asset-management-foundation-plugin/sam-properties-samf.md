@@ -2,6 +2,7 @@
 title: Software Asset Management Foundation plugin properties
 description: You can set default reconciliation properties such as reconciliation run with custom license metrics, and reconciliation debugging settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/sam-properties-samf.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -54,5 +55,5 @@ Enable debugging of reconciliation results to troubleshoot a result.
 -   **Default value**: No
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management Foundation plugin Administration](../concept/c_SAMAdministrationSAMF.md)
+</table>**Parent Topic:**[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
 

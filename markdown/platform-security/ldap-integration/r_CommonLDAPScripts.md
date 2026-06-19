@@ -2,6 +2,7 @@
 title: LDAP scripting
 description: Create custom transform maps, scripts, and business rules to specify requirements when importing data.Use the following script to automatically deactivate users when the associated AD user is disabled.You can use a script to assign a value to any field for which there is a field mapping.If you cannot completely filter the LDAP user list using LDAP filter properties, you can exclude users with a map script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_CommonLDAPScripts.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

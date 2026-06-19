@@ -2,6 +2,7 @@
 title: Gifts and Entertainment Compliance
 description: The ServiceNow Gifts and Entertainment Compliance enables you to manage disclosures from employees giving or receiving gifts or entertainment to internal or external parties to ensure they comply with company policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-ge-landing-page.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -19,23 +20,23 @@ The ServiceNow® Gifts and Entertainment Compliance enables you to manage disclo
 
 <table id="table_rzz_55j_qcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the features and benefits of Gifts and Entertainment Compliance.](../concept/lsd-ge-overview.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the features and benefits of Gifts and Entertainment Compliance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-overview.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)](../concept/lsd-ge-administration.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Use Predictive intelligence for Legal Service Delivery](../concept/lsd-ge-submitting-request.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Predictive intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-submitting-request.md)
 
 </td></tr><tr><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-management-console.svg)Manage gifts and entertainment disclosures](../concept/lsd-manage-ge-request.md)
+[Manage\[Omitted image "bus-management-console.svg"\] Alt text:Manage gifts and entertainment disclosures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-manage-ge-request.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components such as roles, fields, tables, and properties.](lsd-ge-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-reference.md)
 
 </td><td>
 

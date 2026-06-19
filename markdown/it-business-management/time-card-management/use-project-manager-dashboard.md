@@ -2,6 +2,7 @@
 title: Use the Analytics Project manager
 description: The Analytics Project manager shows the time card reports for the selected projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/use-project-manager-dashboard.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -32,5 +33,5 @@ Role required: it\_project\_manager, timecard\_admin
 3.  Review the displayed reports and take necessary actions, if required.
 
 
-**Parent Topic:**[Analytics Project manager](../concept/project-manager-dashboard.md)
+**Parent Topic:**[Analytics Project manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/project-manager-dashboard.md)
 

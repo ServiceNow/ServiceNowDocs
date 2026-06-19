@@ -2,6 +2,7 @@
 title: Submit a treasury service case for fulfillment
 description: Collect all required information about the customer and submit the case to back-office agents for fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-treasury-operations/submit-treasury-service-application.html
 release: australia
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -19,7 +20,7 @@ Collect all required information about the customer and submit the case to back-
 
 Role required: sn\_bom\_treasury.contributor or sn\_bom\_treasury.agent\_connector
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ Fill in the customer data in the Initiate stage of the case playbook and submit 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Treasury Service Cases**, click **All**.
 
@@ -56,5 +57,5 @@ Fill in the customer data in the Initiate stage of the case playbook and submit 
 -   The Initiate stage in the case playbook shows as complete and the case automatically advances to the next stage.
 -   The associated treasury tasks are assigned to an assignment group or an agent in the treasury service. Any document tasks are assigned to a group or an agent in the document service. The assignment group or user that the task is assigned to is based on the assignment rules.
 
-**Parent Topic:**[Using Financial Services Treasury Operations](../concept/using-treasury-ops.md)
+**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 

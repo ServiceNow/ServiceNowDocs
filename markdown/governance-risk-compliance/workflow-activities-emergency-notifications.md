@@ -2,6 +2,7 @@
 title: Workflow status of the emergency notification
 description: The table lists the different states to which the emergency notification proceeds in the Everbridge side. You can track the notification delivery and monitor its status in the workspace until it is successfully delivered to the contacts from the Everbridge side.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/workflow-activities-emergency-notifications.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

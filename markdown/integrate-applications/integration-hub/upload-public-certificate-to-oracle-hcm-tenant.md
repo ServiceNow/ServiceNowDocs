@@ -2,6 +2,7 @@
 title: Create a trusted issuer
 description: Create a trusted issuer on the Oracle HCM tenant site that certifies the authenticity of the public certificate that you had generated on your Mac or Windows machine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/upload-public-certificate-to-oracle-hcm-tenant.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -29,7 +30,7 @@ Access to the Oracle HCM tenant site.
 
 2.  Select the hamburger menu.
 
-    ![Hamburger menu.](../image/oracle-hcm-spoke-oracle-hcm-tenant-site-hamburger-menu.png)
+    \[Omitted image "oracle-hcm-spoke-oracle-hcm-tenant-site-hamburger-menu.png"\] Alt text: Hamburger menu.
 
 3.  Navigate to **Tools** &gt; **Security Console**.
 

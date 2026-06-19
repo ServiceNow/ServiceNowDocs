@@ -2,6 +2,7 @@
 title: Zabbix connector instance value parameters
 description: The following table displays the Zabbix connector instance value parameters that you can fill in, as needed, when creating a Zabbix connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/zabbix-connector-instance-value-parameters.html
 release: australia
 product: Event Management
 classification: event-management
@@ -120,5 +121,5 @@ It will fetch the trigger information.Default value: false
 </td></tr></tbody>
 </table>**Note:** When monitoring a large number of hosts in Zabbix, fetching massive metric data can impact performance and cause API timeouts; enabling batch processing \(enable\_batch\_processing = true\) mitigates this by fetching metrics in batches \(default: 1000 hosts, configurable via **max\_hosts\_per\_batch**\), though it increases network calls and must be used when monitoring 10,000+ hosts or facing performance issues.
 
-**Parent Topic:**[Event Management reference](event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
 

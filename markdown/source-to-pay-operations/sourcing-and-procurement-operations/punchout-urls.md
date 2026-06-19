@@ -2,6 +2,7 @@
 title: Providing Order and Shipping Confirmation URLs to Punchout Suppliers
 description: When integrating with a punchout supplier, customers are required to provide specific URLs for Order Confirmation and Shipping Confirmation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/punchout-urls.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -48,5 +49,5 @@ Shipping Confirmation URL
 -   `sys_id` is the unique system ID of the punchout supplier record stored in the Supplier \(sn\_fin\_supplier\) table.
 
 
-**Parent Topic:**[Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md)
+**Parent Topic:**[Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md)
 

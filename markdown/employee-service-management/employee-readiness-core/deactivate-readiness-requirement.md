@@ -2,6 +2,7 @@
 title: Deactivate a health and safety requirement
 description: If you no longer need employees to fulfill a requirement before returning to the workplace, deactivate the requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/deactivate-readiness-requirement.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -32,5 +33,5 @@ When you deactivate a requirement, all records for the requirement in the Employ
 3.  Click **Deactivate**.
 
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

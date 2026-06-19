@@ -2,6 +2,7 @@
 title: Reduce PPE stock
 description: Reduce stock for a Personal Protective Equipment \(PPE\) model to reflect accurate inventory at different locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/reduce-ppe-stock.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -99,9 +100,9 @@ The reason that you're reducing stock.
     The stock log is updated with the PPE stock that you removed. To view the stock log, navigate to **PPE Inventory Management** &gt; **Inventory** &gt; **Stock Log**.
 
 
-**Parent Topic:**[Set up Workplace PPE Inventory Management](set-up-ppe.md)
+**Parent Topic:**[Set up Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/set-up-ppe.md)
 
-**Previous topic:**[Add PPE stock](add-ppe-stock.md)
+**Previous topic:**[Add PPE stock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/add-ppe-stock.md)
 
-**Next topic:**[Create stock rules for PPE](create-ppe-stock-rule.md)
+**Next topic:**[Create stock rules for PPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/create-ppe-stock-rule.md)
 

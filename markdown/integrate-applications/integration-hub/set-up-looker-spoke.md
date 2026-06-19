@@ -2,6 +2,7 @@
 title: Setting up the Looker spoke
 description: Integrate the ServiceNow instance and Looker by using Looker credentials to authenticate ServiceNow requests.Configure API key settings to manage and retrieve Looker API keys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-looker-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

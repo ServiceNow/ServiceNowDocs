@@ -2,6 +2,7 @@
 title: Sign up for your preferred shifts
 description: Specify one or more shifts in a schedule plan for which you would prefer to sign up.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sign-up-preferred-shifts-wfo-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -27,7 +28,7 @@ You can receive notifications when your manager makes a schedule plan available 
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Schedule icon \(![Schedule icon](../../itsm-manager-workspace/image/schedule-icon.png)\).
+2.  Select the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
 
 3.  Select the **Sign up shifts** tab.
 
@@ -43,7 +44,7 @@ You can receive notifications when your manager makes a schedule plan available 
     |Closed Incomplete|The schedule plan currently does not have shifts for which you could sign up.|
     |Closed Complete|The schedule plan has at least one preferred shift for which you've signed up.|
 
-4.  Select the Overlapping time off icon \(![Overlapping time off](../../configurable-workforce-optimization-itsm/image/overlapping-time-off-icon.png)\) to analyze if the time off you have requested or the ones that have been approved overlap with the schedule plan available to you for sign up.
+4.  Select the Overlapping time off icon \(\[Omitted image "overlapping-time-off-icon.png"\] Alt text: Overlapping time off\) to analyze if the time off you have requested or the ones that have been approved overlap with the schedule plan available to you for sign up.
 
 5.  To sign up for your preferred shifts, select **Add shifts**.
 
@@ -64,5 +65,5 @@ You can receive notifications when your manager makes a schedule plan available 
     All shifts you have added for sign up will be submitted.
 
 
-**Parent Topic:**[Service Operations Workspace - Scheduling](../concept/itsm-sow-workspace-scheduling.md)
+**Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)
 

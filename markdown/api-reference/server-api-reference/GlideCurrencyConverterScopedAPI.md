@@ -2,6 +2,7 @@
 title: GlideCurrencyConverter - Scoped
 description: The GlideCurrencyConverter API provides methods to convert one currency value to another, such as converting US dollars into European euros.Instantiates a GlideCurrencyConverter object.Instantiates a GlideCurrencyConverter object and sets the source and destination country codes to use in the currency conversion.Executes the currency converter.Sets the amount of currency to convert.Sets the currency conversion date and time.Sets the country code of the source currency.Defines the rate table to use in the currency conversion.Sets the country code of the destination currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideCurrencyConverterScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -20,11 +21,11 @@ You can instantiate the GlideCurrencyConverter object and define the source and 
 The GlideCurrencyConverter API also provides optional methods that enable you to:
 
 -   Set the date and time for which to perform the conversion, setDateTime\(\). By setting the date and time, the rate that is used in the conversion calculation is that for the specified date and time, instead of the default of the current date and time.
--   Set the rate table to use in the conversion, setRateTable\(\). By default the conversion uses the fx\_system\_rate table however, you can define custom rate tables for your instance. For additional information on creating rate tables, see [Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/custom-rate-table.md).
+-   Set the rate table to use in the conversion, setRateTable\(\). By default the conversion uses the fx\_system\_rate table however, you can define custom rate tables for your instance. For additional information on creating rate tables, see Add conversion rates using a custom rate table.
 
 This API is provided within the `sn_currency` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencyConverter - GlideCurrencyConverter\(\)
 
@@ -75,7 +76,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[GlideCurrencyExchangeValue](../../GlideCurrencyExchangeValue/concept/GlideCurrencyExchangeValueScopedAPI.md#) object
+[GlideCurrencyExchangeValue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideCurrencyExchangeValueScopedAPI.md) object
 
 </td><td>
 
@@ -226,7 +227,7 @@ var conv = new sn_currency.GlideCurrencyConverter().setFromCurrency('FRA');
 
 Defines the rate table to use in the currency conversion.
 
-If this method is not called before the GlideCurrencyConverter.convert\(\) method is called, the conversion is performed using the fx\_system\_rate table. All custom rate tables must extend the fx\_conversion\_rate table. For additional information on creating rate tables, see [Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/custom-rate-table.md).
+If this method is not called before the GlideCurrencyConverter.convert\(\) method is called, the conversion is performed using the fx\_system\_rate table. All custom rate tables must extend the fx\_conversion\_rate table. For additional information on creating rate tables, see Add conversion rates using a custom rate table.
 
 |Name|Type|Description|
 |----|----|-----------|

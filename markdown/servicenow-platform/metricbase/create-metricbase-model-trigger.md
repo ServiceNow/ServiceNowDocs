@@ -2,6 +2,7 @@
 title: Create a MetricBase model trigger
 description: Model triggers execute when the time-series data deviates from expected values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/create-metricbase-model-trigger.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -57,7 +58,7 @@ Model
 
 </td><td>
 
-Trained model this trigger uses. See [Create and train a predictive model](train-a-model.md).
+Trained model this trigger uses. See [Create and train a predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/train-a-model.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +109,7 @@ Specify whether you want to trigger only on anomalies that occur above predicted
 
     |Column|Description|
     |------|-----------|
-    |Level|Numbers that indicate increasing severity. For example, you might define level 1 to be 2 standard deviations from the mean. Level 2 might be 4 standard deviations. Each level should trigger a different Workflow Studio flow. **Level** is often used in Condition Scripts. See [Execute triggers conditionally](create-action-condition.md).|
+    |Level|Numbers that indicate increasing severity. For example, you might define level 1 to be 2 standard deviations from the mean. Level 2 might be 4 standard deviations. Each level should trigger a different Workflow Studio flow. **Level** is often used in Condition Scripts. See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/create-action-condition.md).|
     |Function|Always **Greater than or is**, meaning that in order to trigger, the time-series metric must be greater than or equal to the number of standard deviations from the mean specified in **Number of Standard Deviations**.|
     |Number of Standard Deviation|Float value specifying the number of standard deviations the time-series metric must be away from the mean to trigger an alert at this level.|
 
@@ -120,16 +121,16 @@ Specify whether you want to trigger only on anomalies that occur above predicted
 
 9.  Add a triggering condition that determines whether a trigger executes a Workflow Studio flow.
 
-    See [Execute triggers conditionally](create-action-condition.md).
+    See [Execute triggers conditionally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/create-action-condition.md).
 
 10. Test your model and trigger on real data before deploying to production.
 
 
 ## Model Trigger form
 
-![Model Trigger form](../image/model-trigger-form.png)
+\[Omitted image "model-trigger-form.png"\] Alt text: Model Trigger form
 
 ## What to do next
 
-Associate this trigger with a Workflow Studio flow. For more information, see [Assign a trigger to a flow](assign-trigger-to-workflow.md).
+Associate this trigger with a Workflow Studio flow. For more information, see [Assign a trigger to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/assign-trigger-to-workflow.md).
 

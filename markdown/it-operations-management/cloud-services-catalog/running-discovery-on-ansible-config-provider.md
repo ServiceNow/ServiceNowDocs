@@ -2,6 +2,7 @@
 title: Run Discovery on the Ansible config provider
 description: Add the Ansible config provider and run Discovery to discover what's in the inventory, the host group, and the available job templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/running-discovery-on-ansible-config-provider.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -27,13 +28,13 @@ Role required: none
 
 2.  On the form, fill in the fields as per the information received from the Ansible Tower.
 
-    ![New record for Ansible Tower credentials.](../image/ansible-tower-new.png "Ansible Tower credentials")
+    \[Omitted image "ansible-tower-new.png"\] Alt text: New record for Ansible Tower credentials.
 
 3.  Select **Submit**.
 
 4.  Create a config provider by selecting **New**.
 
-    ![Create Config Provider form to use for creating an Ansible Config Provider.](../image/ansible-config-provider.png "Create Config Provider form")
+    \[Omitted image "ansible-config-provider.png"\] Alt text: Create Config Provider form to use for creating an Ansible Config Provider.
 
     **Important:**
 
@@ -41,12 +42,12 @@ Role required: none
 
 5.  Run the Discovery to discover all projects and extra variables in an organization.
 
-    ![Ansible Discovery.](../image/ansible-config-provider-discover.png "Ansible Discovery")
+    \[Omitted image "ansible-config-provider-discover.png"\] Alt text: Ansible Discovery.
 
 
 ## Result
 
 You’re all set to take the next steps to order an Ansible item.
 
-**Parent Topic:**[Integrating Ansible with Cloud Services Catalog](../concept/integrating-ansible-with-cloud-services-catalog.md)
+**Parent Topic:**[Integrating Ansible with Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md)
 

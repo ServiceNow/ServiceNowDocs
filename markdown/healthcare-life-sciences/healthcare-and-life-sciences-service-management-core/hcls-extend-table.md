@@ -2,6 +2,7 @@
 title: Extend the healthcare case table
 description: Extend the Healthcare case \[sn\_hcls\_case\] table to create a case type for viewing patient information within healthcare-related cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-extend-table.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,7 +18,7 @@ Extend the Healthcare case \[sn\_hcls\_case\] table to create a case type for vi
 
 ## Before you begin
 
-Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Healthcare and Life Sciences using the application picker. For more information, see Application picker.
 
 Role required: sn\_hcls.admin
 
@@ -29,7 +30,7 @@ Role required: sn\_hcls.admin
 
 3.  Fill in the details of the new table record.
 
-4.  In the **Extends Table** field, click the lookup icon ![Lookup using list icon.](../image/lookup-using-list.png) and search for and select the sn\_hcls\_case table.
+4.  In the **Extends Table** field, click the lookup icon \[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon. and search for and select the sn\_hcls\_case table.
 
 5.  Click **Submit**.
 

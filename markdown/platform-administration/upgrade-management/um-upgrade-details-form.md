@@ -2,6 +2,7 @@
 title: Upgrade details form
 description: From the Upgrade Details form, you can review an individual record affected by the upgrade and reconcile conflicts between the upgrade and customizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-upgrade-details-form.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -15,7 +16,7 @@ breadcrumb: [Resolve conflicts for an individual record, Upgrade Monitor tool in
 
 From the Upgrade Details form, you can review an individual record affected by the upgrade and reconcile conflicts between the upgrade and customizations.
 
-![Image showing the Upgrade Details form](../../upgrade-center/image/uc-upgrade-details-form.png)
+\[Omitted image "uc-upgrade-details-form.png"\] Alt text: Image showing the Upgrade Details form
 
 <table id="table_znb_ggg_rlb"><thead><tr><th>
 
@@ -61,7 +62,7 @@ How you elected to resolve this conflict:-   **Not reviewed**: Not yet reviewed
 -   **Reviewed and Retained**: Left customizations in place without update from upgrade
 -   **Reviewed and Reverted**: Customizations discarded, record updated according to upgrade
 
-For more information, see [Process the skipped records list](../task/um-process-skipped-records.md).
+For more information, see [Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-process-skipped-records.md).
 
 </td></tr><tr><td>
 
@@ -121,5 +122,5 @@ Table
 The table containing this record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resolve conflicts for an individual record](../task/um-resolve-conflict.md)
+</table>**Parent Topic:**[Resolve conflicts for an individual record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-resolve-conflict.md)
 

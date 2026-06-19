@@ -2,6 +2,7 @@
 title: Create an inbound REST API rate limit
 description: Create rate limit rules to limit the number of inbound REST API requests processed per hour.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/create-REST-API-rate-limits.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -157,7 +158,7 @@ After you submit the rule, the ServiceNow AI Platform adds the following related
     Lists, by user, the violations of this rate limit rule.
 
 
-You can use these related lists to [Monitor inbound REST API rate limit counts and violations](monitor-request-counts.md).
+You can use these related lists to [Monitor inbound REST API rate limit counts and violations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/monitor-request-counts.md).
 
-**Parent Topic:**[Inbound REST API rate limiting](../concept/inbound-REST-API-rate-limiting.md)
+**Parent Topic:**[Inbound REST API rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/inbound-REST-API-rate-limiting.md)
 

@@ -2,6 +2,7 @@
 title: Add participants to active Conference Call
 description: You can add participants to an active conference call if you have not added them before starting the conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-members-conf-call-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,10 +30,10 @@ Role required: sn\_si.analyst,sn\_si.manager
 
 4.  Add participants to an active conference call:
 
-    ![Add participants in SIR conference call.](../image/sir-conference-call.png)
+    \[Omitted image "sir-conference-call.png"\] Alt text: Add participants in SIR conference call.
 
-    -   Select the meeting options icon ![Add members to active conference call.](../../security-incident-response/image/more-actions-icon.png)for the active conference call and select **Add participants**.
+    -   Select the meeting options icon \[Omitted image "more-actions-icon.png"\] Alt text: Add members to active conference call.for the active conference call and select **Add participants**.
     -   Select **Copy invite** on the **Conference calls** section, and share the invite with the required participants.
 
-**Parent Topic:**[Collaborate using conference call or chat in Security Incident Response](../concept/collab-sir-call-chat.md)
+**Parent Topic:**[Collaborate using conference call or chat in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/collab-sir-call-chat.md)
 

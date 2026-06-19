@@ -2,10 +2,11 @@
 title: Set up DRI Smart Assessment templates
 description: Set up the Smart Assessment templates in the Assessment Workspace. You can then use them to set up the action task configuration templates in the Regulatory Agency Profile for Digital resilience incident reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-sae-templates.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Configure, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -25,7 +26,7 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
     You can create assessment templates in the Assessment Workspace to manage your assessments. The example shows the assessment templates included in the demo data.
 
-    ![Demo data in the Assessment Workspace.](../image/dri-temp-sae.png)
+    \[Omitted image "dri-temp-sae.png"\] Alt text: Demo data in the Assessment Workspace.
 
     When you select **New template**, the Create assessment template form, **General** tab, and **Questions** tab are displayed.
 
@@ -33,7 +34,7 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
     The example shows the Create assessment template form.
 
-    ![Create assessment template form.](../image/dri-create-asmt-template.png)
+    \[Omitted image "dri-create-asmt-template.png"\] Alt text: Create assessment template form.
 
     |Field|Description|
     |-----|-----------|
@@ -43,25 +44,23 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
     |Purpose|Purpose or intended use of the template, such as, DRI template category.|
     |Assessment target|Table records that are used for the assessment. For example, Digital Resilience Incident Reporting Case, Action task.|
 
-    For more information on creating templates, see [Create an assessment template](../../assessment-engine/task/sae-asmnt-template-create.md).
+    For more information on creating templates, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
-    The assessment template is created and displayed in the Details section of the **General** tab as shown in the example.
+    The assessment template is created and displayed in the Details section of the **General** tab.
 
-    ![Assessment template created.](../image/dri-sample-reporting-template-in-asmt-ws-details-section.png)
-
-    You can now fill in the template with instructions, questions, and optional guidance for responding to a question, and sections that group the related questions. For more information on creating an assessment template, see [Create an assessment template](../../assessment-engine/task/sae-asmnt-template-create.md).
+    You can now fill in the template with instructions, questions, and optional guidance for responding to a question, and sections that group the related questions. For more information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 4.  Set up the assessment questions in the **Questions** tab.
 
-    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](../../assessment-engine/task/sae-asmnt-template-populate.md).
+    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
     The example shows how to set up the assessment questions.
 
-    ![Example showing questions displayed in an assessment.](../image/asmt-temp-questions-tab.png)
+    \[Omitted image "asmt-temp-questions-tab.png"\] Alt text: Example showing questions displayed in an assessment.
 
     The example shows how questions are configured in the **Questions** tab.
 
-    ![Questions tab configuration.](../image/dri-questions-asmt-ws.png)
+    \[Omitted image "dri-questions-asmt-ws.png"\] Alt text: Questions tab configuration.
 
 5.  Select **Save**.
 
@@ -77,7 +76,7 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
     **Note:** You can edit an existing automation only if you have access to it and the corresponding DRI template is published. Otherwise, the automation is available as read-only.
 
-    ![Example showing the Automations tab.](../image/dri-regu-report-asmt-automations-tab.png)
+    \[Omitted image "dri-regu-report-asmt-automations-tab.png"\] Alt text: Example showing the Automations tab.
 
     Follow these steps to add automations to your assessment template.
 
@@ -85,11 +84,11 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
         The example shows the Create automation modal where you can add the name and description of the automation rule.
 
-        ![Example showing how to create automations.](../image/dri-regu-report-asmt-automations-tab-create-auto.png)
+        \[Omitted image "dri-regu-report-asmt-automations-tab-create-auto.png"\] Alt text: Example showing how to create automations.
 
         The automation is created in the Draft state.
 
-        ![Automation rule created in the draft state.](../image/dri-auto-created.png)
+        \[Omitted image "dri-auto-created.png"\] Alt text: Automation rule created in the draft state.
 
         The Action set in this example consists of an "If" block and a "Then" block. The "If" block sets conditions that trigger automation. The "Then" block defines the actions that execute automatically when those conditions are met.
 
@@ -99,7 +98,7 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
         The example shows how you can add one or more conditions to automate actions based on user responses.
 
-        ![Example showing to set conditions based on responses.](../image/dri-regu-report-asmt-automations-tab-set-condi-2.png)
+        \[Omitted image "dri-regu-report-asmt-automations-tab-set-condi-2.png"\] Alt text: Example showing to set conditions based on responses.
 
         The conditional action set is saved and the automation conditions are now configured.
 
@@ -107,27 +106,29 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
         In this example, "DRI regulatory reporting status change" is the action that triggers automatically when the conditions in the "If" block are met. The associated DRI record is selected to complete the action setup.
 
-        ![Example showing that conditions are set and how to set action type.](../image/dri-regu-report-asmt-automations-tab-set-condi-4.png)
+        \[Omitted image "dri-regu-report-asmt-automations-tab-set-condi-4.png"\] Alt text: Example showing that conditions are set and how to set action type.
 
     5.  To activate the automation, select **Activate** in the **Automations** tab, confirm the details in the Activate dialog box, and select **Activate** again.
 
         The Activate dialog box is shown in the example.
 
-        ![Example showing the dialog box to activate the automation.](../image/dri-auto-activate-dialog-box.png)
+        \[Omitted image "dri-auto-activate-dialog-box.png"\] Alt text: Example showing the dialog box to activate the automation.
 
         Once activated, the automation appears in the **Automations** tab.
 
-        ![Activated automation displayed in the list on the Automations tab.](../image/dri-automation-activated.png)
+        \[Omitted image "dri-automation-activated.png"\] Alt text: Activated automation displayed in the list on the Automations tab.
 
-        For more information on automations, see [Automate response](../../assessment-engine/concept/automate-response.md) and [Configure post-assessment actions](../../assessment-engine/task/configure-post-assessment-actions.md).
+        For more information on automations, see [Automate response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/automate-response.md) and [Configure post-assessment actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-post-assessment-actions.md).
 
 8.  Configure scoring settings on the **Scoring** tab.
 
-    For more information on assigning scores to the assessments, see [Scoring assessments](../../assessment-engine/concept/scoring-in-assessments.md). For more information on the Smart Assessment Engine, see [Smart Assessment Engine](../../assessment-engine/reference/smart-asmnt-engine-landing-page.md).
+    For more information on assigning scores to the assessments, see [Scoring assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-in-assessments.md). For more information on the Smart Assessment Engine, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
 9.  Select **Save**.
 
 10. To copy a published template, select **Copy template**, update the fields, and save your changes.
+
+    **Note:** The shipped DRI Initial report, DRI Intermediate report, DRI Final report, and Regulatory reporting assessment of IT incidents templates are published and may already be associated with existing DRI assessments. As long as the template is associated with one or more assessments, it cannot be moved back to Draft and the question structure cannot be edited. To customize the questionnaire for your organization, use 'Copy template' to create an editable copy, modify the copy, publish it, and update the corresponding Action Task Configuration on the Regulatory Body Management Agency Profile to point to the new template. You also need the sn\_dri\_inc\_rptg.digital\_resilience\_incident\_admin or sn\_oper\_res.admin role to edit DRI templates.
 
 11. To edit a published template, verify you have the required roles, select **Edit**, update the fields, and save your changes.
 
@@ -143,18 +144,20 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
     The assessment template is now published and available in the Digital resilience incident reporting module.
 
-    The examples display pre-configured DRI templates for DORA regulation.
+    **Note:** Starting with Digital Resilience Incident Reporting, version 22.3.0, Smart Assessment templates support version control, and version details are displayed on each template. For information on Smart Assessment Engine documentation, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
 
-    ![DRI template 1.](../image/dri-temp-sae-1.png)![DRI template 2.](../image/dri-temp-sae-2.png)![DRI template 3.](../image/dri-temp-sae-3.png)![DRI template 4.](../image/dri-temp-sae-4.png)
+    The examples display pre-configured DRI templates for DORA regulation with version details.
+
+    \[Omitted image "dri-temp-sae-1.png"\] Alt text: DRI template 1.\[Omitted image "dri-temp-sae-2.png"\] Alt text: DRI template 2.\[Omitted image "dri-temp-sae-3.png"\] Alt text: DRI template 3.\[Omitted image "dri-temp-sae-4.png"\] Alt text: DRI template 4.
 
     The Smart Assessment templates for the action tasks are created and saved in the instance.
 
     The following example shows the demo data for action task configurations in the Regulatory agency profile.
 
-    ![Demo data for the action task configurations. For the text description, refer to the text that precedes this image.](../image/action-task-config-dora-conditions.png)
+    \[Omitted image "action-task-config-dora-conditions.png"\] Alt text: Demo data for the action task configurations. For the text description, refer to the text that precedes this image.
 
     **Note:** After setting up Smart Assessment templates in the Assessment Workspace, you can use them to configure action task templates in the Regulatory Agency Profile table.
 
-    For more information on setting up action task templates, see the [Set up action task templates in Regulatory agency profile](set-up-action-task-templates.md) section.
+    For more information on setting up action task templates, see the [Set up action task templates in Regulatory agency profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-action-task-templates.md) section.
 
 

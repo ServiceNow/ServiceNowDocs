@@ -2,6 +2,7 @@
 title: Test your model
 description: Test your Natural Language Understanding \(NLU\) model against its default test set. Testing helps determine how your model is performing with the current content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/test-your-model.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -18,8 +19,8 @@ Test your Natural Language Understanding \(NLU\) model against its default test 
 ## Before you begin
 
 -   Make sure that the NLU Model Builder - Core plugin, NLU Model Builder plugin, NLU Workbench - Advanced Features plugin and Predictive Intelligence plugin are all installed and activated.
--   Have a trained model for Virtual Agent or AI Search. For more information, see [Build and train your model](../concept/managing-model-content.md).
--   Have a test set for testing models. For more information, see [Test set creation and management](../concept/nlu-test-set-creation-management.md).
+-   Have a trained model for Virtual Agent or AI Search. For more information, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
+-   Have a test set for testing models. For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 -   Role required: nlu\_editor, nlu\_admin, or admin. The editor must be assigned to the model.
 
 ## About this task
@@ -47,11 +48,11 @@ In this example scenario, you've trained your model and want to assess the perfo
 
     **Note:** Other phases are unavailable during a test.
 
-    ![Run new test on the Test and publish your model phase.](../images/test-your-model1.png)
+    \[Omitted image "test-your-model1.png"\] Alt text: Run new test on the Test and publish your model phase.
 
 5.  The **Confirm run new test** dialog box opens, so select **OK**.
 
-    ![The dialog box to confirm Run new test.](../images/test-your-model2.png)
+    \[Omitted image "test-your-model2.png"\] Alt text: The dialog box to confirm Run new test.
 
     The test begins and the **Testing is in progress...** page loads.
 

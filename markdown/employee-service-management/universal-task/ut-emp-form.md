@@ -2,6 +2,7 @@
 title: Employee form
 description: Use the employee form to create a new employee form record for Universal Task
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/ut-emp-form.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -45,7 +46,7 @@ Parent table
 
 </td><td>
 
-Parent table available for the employee form. Parent table is a department-specific table associated to a universal task. For more information configuring a parent table, see [Configure Universal Task for your service](../task/config-ut-for-service.md).**Note:**
+Parent table available for the employee form. Parent table is a department-specific table associated to a universal task. For more information configuring a parent table, see [Configure Universal Task for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-ut-for-service.md).**Note:**
 
 -   Only the tables that are configured for Universal Task with **Collect Employee Input** task type can be selected.
 -   You can select a parent table only if you have write access to it.
@@ -67,5 +68,5 @@ State
 State of the form. This field gets auto-populated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Task reference](../concept/universal-task-reference.md)
+</table>**Parent Topic:**[Universal Task reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/universal-task-reference.md)
 

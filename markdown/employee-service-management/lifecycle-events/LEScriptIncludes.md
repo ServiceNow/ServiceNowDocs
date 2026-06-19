@@ -2,6 +2,7 @@
 title: Lifecycle event script includes and APIs
 description: Script includes call workflows within Lifecycle Events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/LEScriptIncludes.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -45,5 +46,5 @@ Advanced:
 -   checkForElapsedDate\(date\) – Verify when the date passed in has elapsed.
 -   checkForElapsedDateWithOffset\(date, offset, offsetUnits, offsetType\)
 
-**Parent Topic:**[Activate Lifecycle Events](../task/activate-enterprise-onboarding-and-transitions-scoped.md)
+**Parent Topic:**[Activate Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
 

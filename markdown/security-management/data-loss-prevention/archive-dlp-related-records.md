@@ -2,11 +2,12 @@
 title: Archive DLP related records
 description: Use the Archive Related Records related list for DLP incidents to add the related records to the archive rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/archive-dlp-related-records.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [DLP Incidents Archival, Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -44,8 +45,8 @@ Role required: admin
 
 5.  Select the archive related record rule you want to archive.
 
-    **Note:** For more information on how to add more related records, see [Archive DLP related records](https://servicenow.com/docs/bundle/vancouver-platform-administration/page/administer/database-rotation/task/t_CreateAnArchiveRule.html) on ServiceNow AI Platform.
+    **Note:** For more information on how to add more related records, see Archive DLP related records on ServiceNow AI Platform.
 
 
-**Parent Topic:**[DLP Incidents Archival](dlp-archiving-rule.md)
+**Parent Topic:**[DLP Incidents Archival](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-archiving-rule.md)
 

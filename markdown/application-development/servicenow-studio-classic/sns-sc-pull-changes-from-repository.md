@@ -1,23 +1,24 @@
 ---
 title: Pull changes from a repository
-description: App developers using ServiceNow Studio can pull changes from a linked Git repository to apply remote changes to the local instance.
+description: Pull changes from a linked Git repository in ServiceNow Studio to apply remote updates to the local instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sns-sc-pull-changes-from-repository.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-27"
 reading_time_minutes: 1
-breadcrumb: [Work with changes in Git, Source control in ServiceNow Studio, Working with applications, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Work with changes in Git, Source control in ServiceNow Studio, Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Pull changes from a repository
 
-App developers using ServiceNow Studio can pull changes from a linked Git repository to apply remote changes to the local instance.
+Pull changes from a linked Git repository in ServiceNow Studio to apply remote updates to the local instance.
 
 ## Before you begin
 
-[Link an app to source control in ServiceNow Studio](link-app-to-source-control.md)
+[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
 Role required: admin
 
@@ -31,17 +32,17 @@ Role required: admin
 
 4.  Select **Source control** &gt; **Pull from repository**.
 
-5.  Choose whether you want to stash or discard local changes.
+5.  Choose whether to stash or discard local changes before pulling.
 
-<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d173693e150">
+<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d50801e152">
 
 Option
 
-</th><th align="left" id="d173693e153">
+</th><th align="left" id="d50801e155">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d173693e159">
+</th></tr></thead><tbody><tr><td id="d50801e161">
 
 **Stash local changes**
 
@@ -49,16 +50,16 @@ Description
 
 Saves local changes before switching to an alternate branch. You can later merge or discard the saved changes.
 
-</td></tr><tr><td id="d173693e168">
+</td></tr><tr><td id="d50801e170">
 
 **Discard local changes**
 
 </td><td>
 
-Permanently deletes all local changes before switching to an alternate branch. If you choose to discard, you will not be able to recover those files.**Note:** Use caution when discarding local changes. Since all application developers share repository credentials, there is no way to discard just one set of user changes.
+Permanently deletes all local changes before switching to an alternate branch. Discarded changes cannot be recovered.**Note:** Use caution when discarding local changes. Because all application developers share repository credentials, there is no way to discard only one set of user changes.
 
 </td></tr></tbody>
-</table>    ![Before you pull from the repository, select whether you want to stash or discard local changes.](../image/sn-studio-pull-from-repo.png)
+</table>    \[Omitted image "sn-studio-pull-from-repo.png"\] Alt text: Before you pull from the repository, select whether you want to stash or discard local changes.
 
 6.  Select **Pull from repository**.
 
@@ -73,7 +74,7 @@ The following operations occur:
 
 If there are conflicts, the system displays the **Resolve Conflicts** window.
 
-Delta loading is enabled by default in sys\_properties so your data isn't removed. You can disable this feature if you want data automatically deleted.
+Delta loading is enabled by default in sys\_properties so your data is not removed. Disable this feature if you want data automatically deleted.
 
-**Parent Topic:**[Work with changes in Git](../concept/sns-sc-work-with-changes-in-git.md)
+**Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
 

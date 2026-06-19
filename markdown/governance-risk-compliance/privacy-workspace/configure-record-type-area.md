@@ -2,6 +2,7 @@
 title: Configure Record Type Area
 description: The Record Type Area Configuration feature allows privacy case managers or analysts to add additional relevant business area types in impacted and related areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/configure-record-type-area.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -40,5 +41,5 @@ Role required: Privacy admin
 
 The configured options are available for the user to add during case creation, ensuring that each case accurately reflects its business context.
 
-**Parent Topic:**[Configuring Privacy Case Management](../concept/configuring-privacy-case-management.md)
+**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 

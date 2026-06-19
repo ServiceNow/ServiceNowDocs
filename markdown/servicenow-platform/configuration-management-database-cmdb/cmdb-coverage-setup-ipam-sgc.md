@@ -2,6 +2,7 @@
 title: Set up or review IPAM connectors
 description: Set up a new IPAM Service Graph Connector or review your IPAM Service Graph Connector configuration from SGC Central.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-setup-ipam-sgc.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ Set up a new IPAM Service Graph Connector or review your IPAM Service Graph Conn
 
 ## Before you begin
 
-Dependencies and requirements: Install the SGC Central \(sn\_sgc\_central\) application. The admin user role is required to install the application. For more information, see [Install SGC Central](../../sgc-central/task/sgcc-install.md).
+Dependencies and requirements: Install the SGC Central \(sn\_sgc\_central\) application. The admin user role is required to install the application. For more information, see [Install SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-install.md).
 
 Role required: sn\_cmdb\_admin
 
@@ -31,6 +32,6 @@ Role required: sn\_cmdb\_admin
 
 3.  Select **Configure IPAM SGC**, and then set up an IPAM Service Graph Connector or review your IPAM Service Graph Connector configuration.
 
-    For more information, see [SGC Central](../../sgc-central/reference/sgcc-landing.md).
+    For more information, see [SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-landing.md).
 
 

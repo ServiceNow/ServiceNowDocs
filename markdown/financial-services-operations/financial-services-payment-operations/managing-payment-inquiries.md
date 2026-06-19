@@ -2,6 +2,7 @@
 title: Managing payment inquiries
 description: Using the payment inquiry capability of the Financial Services Payment Operations application, you can submit and manage payment inquiry requests that you receive from your customers and third-party banks for your financial institution. The application supports both personal and business claims and debits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -46,18 +47,18 @@ After an inquiry case is created from a submitted request, it is assigned to an 
 
 Some internal inquiries can also result in the creation of a claim.
 
--   **[Create a payment inquiry case for an external inquiry](../task/create-payment-inquiry-case-external-inquiry.md)**  
+-   **[Create a payment inquiry case for an external inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/create-payment-inquiry-case-external-inquiry.md)**  
 As an inquiry agent, you can create an inquiry case for an external inquiry that you receive from a third-party bank.
--   **[Submit a payment inquiry request for an internal inquiry](../task/submit-payment-inquiry-request.md)**  
+-   **[Submit a payment inquiry request for an internal inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/submit-payment-inquiry-request.md)**  
 As a front-office worker \(branch employee or call center agent\), you can submit a payment inquiry request on behalf of a customer.
--   **[Assign a payment inquiry case](../task/assign-payment-inquiry-case.md)**  
+-   **[Assign a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/assign-payment-inquiry-case.md)**  
 Assign a payment inquiry case to yourself or to another inquiry agent so that you or another agent can start investigating the case.
--   **[Investigate a payment inquiry case](../task/investigate-payment-inquiry-case.md)**  
+-   **[Investigate a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/investigate-payment-inquiry-case.md)**  
 Investigate the payment inquiry case so that you can get enough information about the case to resolve it.
--   **[Propose a solution for an inquiry case](../task/propose-solution-inquiry-case.md)**  
+-   **[Propose a solution for an inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/propose-solution-inquiry-case.md)**  
 Propose a solution that is based on your findings from the investigation of the inquiry case that you've just finished, so that you can resolve the case.
--   **[Close a payment inquiry case](../task/close-payment-inquiry-case.md)**  
+-   **[Close a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.md)**  
 Close the case after you've created a claim case for the inquiry case or the customer has accepted your proposed solution.
 
-**Parent Topic:**[Using Financial Services Payment Operations](using-payment-operations.md)
+**Parent Topic:**[Using Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/using-payment-operations.md)
 

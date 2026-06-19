@@ -2,6 +2,7 @@
 title: Configure the due date logic for shift approval flows
 description: As an administrator, you can configure the due date logic for the time-off request and shift-swap request approval flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-time-off-shift-swap-approval-flows.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -55,7 +56,7 @@ The request is auto-approved.
 
 </td><td>
 
-![Time-off request auto-approval](../image/timeoff-request-autoapprove.png)
+\[Omitted image "timeoff-request-autoapprove.png"\] Alt text: Time-off request auto-approval
 
 </td></tr><tr><td>
 
@@ -64,14 +65,14 @@ The request is auto-approved.
 </td><td>
 
 Enter the due date to approve the request.1.  Open **Else** &gt; **Ask For Approval** flow.
-2.  In the **Due Date** field, select the down arrow icon \(![Down arrow icon](../image/down-arrow-icon.png)\).
+2.  In the **Due Date** field, select the down arrow icon \(\[Omitted image "down-arrow-icon.png"\] Alt text: Down arrow icon\).
 3.  In the **Due Date** script window, update the value in the **dueDate.addDaysUTC\(-2\);** parameter to the number of days you want to set the due date for approval.
 4.  Select **Done**.
 
 
 </td><td>
 
-![Time-off ask for approval flow](../image/time-off-ask-approval.png)
+\[Omitted image "time-off-ask-approval.png"\] Alt text: Time-off ask for approval flow
 
 </td></tr></tbody>
 </table>3.  Configure the due date for the Swap request approval flow.
@@ -98,7 +99,7 @@ The request is auto-approved.
 
 </td><td>
 
-![Shift-swap auto approval](../image/shift-swap-auto-approval.png)
+\[Omitted image "shift-swap-auto-approval.png"\] Alt text: Shift-swap auto approval
 
 </td></tr><tr><td>
 
@@ -109,29 +110,29 @@ The request is auto-approved.
 Enter the due date for the requestee agent to approve.
 
 1.  Open **Else** &gt; **Ask For Approval**- Ask for Approval from Requestee Agent flow.
-2.  In the **Due Date** field, select the down arrow icon \(![Down arrow icon](../image/down-arrow-icon.png)\).
+2.  In the **Due Date** field, select the down arrow icon \(\[Omitted image "down-arrow-icon.png"\] Alt text: Down arrow icon\).
 3.  In the **Due Date** script window, updated the value in the **dueDate.addDaysUTC\(-2\);** parameter to the number of days you want to set the due date for approval.
 4.  Select **Done**.
  Enter the due date to approve the request.
 
 1.  Open **Ask For Approval** - Ask for an approval from Managers and additional managers of both the agents flow.
-2.  In the **Due Date** field, select the down arrow icon \(![Down arrow icon](../image/down-arrow-icon.png)\).
+2.  In the **Due Date** field, select the down arrow icon \(\[Omitted image "down-arrow-icon.png"\] Alt text: Down arrow icon\).
 3.  In the **Due Date** script window, updated the value in the **dueDate.addDaysUTC\(-2\);** parameter to the number of days you want to set the due date for approval.
 4.  Select **Done**.
 
 
 </td><td>
 
-Enter the due date for the requestee agent to approve.![Shift swap request approval](../image/shift-swap-request-approval.png)
+Enter the due date for the requestee agent to approve.\[Omitted image "shift-swap-request-approval.png"\] Alt text: Shift swap request approval
 
- Enter the due date to approve the request.![Swap request manager approval](../image/swap-request-manager-approval.png)
+ Enter the due date to approve the request.\[Omitted image "swap-request-manager-approval.png"\] Alt text: Swap request manager approval
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](../concept/setup-scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
 
 **Related topics**  
 
 
-[Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/build-your-first-flow.md)
+[bundle-crworkflow.build-your-first-flow]
 

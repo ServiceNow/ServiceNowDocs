@@ -2,6 +2,7 @@
 title: View discovered service history
 description: The discovered service history shows the frequency of discovered services for a particular time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMViewAlertHistory.html
 release: australia
 product: Event Management
 classification: event-management
@@ -31,13 +32,13 @@ The discovered services history appears only when there are multiple discovered 
 
 3.  Click the **History map** button.
 
-    The history timeline appears, with changes to the service indicated by a clock icon \(![Clock icon](../image/clock-icon.png)\).
+    The history timeline appears, with changes to the service indicated by a clock icon \(\[Omitted image "clock-icon.png"\] Alt text: Clock icon\).
 
-    ![History map timeline](../image/history-map-timeline.png)
+    \[Omitted image "history-map-timeline.png"\] Alt text: History map timeline
 
-4.  To view a map showing changes in the service's severity, click the More icon \(![More actions icon](../image/more-actions-icon-horizontal.png)\) and select **Advanced map**.
+4.  To view a map showing changes in the service's severity, click the More icon \(\[Omitted image "more-actions-icon-horizontal.png"\] Alt text: More actions icon\) and select **Advanced map**.
 
-    ![Discovered services history](../image/EMTimeline.png)
+    \[Omitted image "EMTimeline.png"\] Alt text: Discovered services history
 
     The displayed color corresponds to the discovered services severity, and the length of the bar in each color corresponds to how long the discovered services stayed at that severity.
 
@@ -45,14 +46,14 @@ The discovered services history appears only when there are multiple discovered 
 
     |Severity|Icon color|
     |--------|----------|
-    |Critical|Red ![Red icon - Critical severity](../image/red-critical-icon.png)|
-    |Major|Orange ![Orange icon - Major severity](../image/orange-major-icon.png)|
-    |Minor|Yellow ![Yellow icon - Minor severity](../image/yellow-minor-icon.png)|
-    |Warning|Blue ![Blue icon - Warning severity](../image/blue-warning-icon.png)|
+    |Critical|Red \[Omitted image "red-critical-icon.png"\] Alt text: Red icon - Critical severity|
+    |Major|Orange \[Omitted image "orange-major-icon.png"\] Alt text: Orange icon - Major severity|
+    |Minor|Yellow \[Omitted image "yellow-minor-icon.png"\] Alt text: Yellow icon - Minor severity|
+    |Warning|Blue \[Omitted image "blue-warning-icon.png"\] Alt text: Blue icon - Warning severity|
 
 5.  To change the information that appears on the discovered services history Advanced map, click a history icon.
 
-    ![Discovered services history icons](../image/disc-services-history-timeline-icon.png)
+    \[Omitted image "disc-services-history-timeline-icon.png"\] Alt text: Discovered services history icons
 
     -   **Calendar icon**: Show information for currently active discovered services.
     -   **Hours**: Show information for discovered services that occurred in the past hour.
@@ -60,5 +61,5 @@ The discovered services history appears only when there are multiple discovered 
     -   **Weeks**: Show information for discovered services that occurred in the past week.
     -   **Months**: Show information for discovered services that occurred in the past month.
 
-**Parent Topic:**[Monitor service health](t_EMViewDashboard.md)
+**Parent Topic:**[Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewDashboard.md)
 

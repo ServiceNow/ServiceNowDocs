@@ -2,19 +2,22 @@
 title: Review and edit applications built using app generation
 description: After app generation creates an application, review and modify it in ServiceNow Studio to verify accuracy and extend functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/sns-app-gen-review-apps.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-12"
 reading_time_minutes: 5
 keywords: [agentic ai, app gen, app generation, now assist, application generation, app creation, application creation, servicenow studio, generative ai]
-breadcrumb: [Generate apps, App generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Generate apps, App generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Review and edit applications built using app generation
 
 After app generation creates an application, review and modify it in ServiceNow Studio to verify accuracy and extend functionality.
+
+Starting with the Australia release, app generation is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Build Agent provides the latest experience for this functionality. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md).
 
 This video shows you how to review apps created using app generation in ServiceNow Studio.
 
@@ -32,21 +35,21 @@ Role required: now\_assist\_panel\_user
 
 1.  Navigate to **App Engine** &gt; **ServiceNow Studio**.
 
-    To learn more about the ServiceNow Studio home page, see [ServiceNow Studio](../../servicenow-studio/concept/servicenow-studio-landing.md).
+    To learn more about the ServiceNow Studio home page, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
 
 2.  Select the Now Assist icon.
 
-    ![Now Assist highlighted in banner.](../images/app-generation-task-initiation-xsr2.png)
+    \[Omitted image "app-generation-task-initiation-xsr2.png"\] Alt text: Now Assist highlighted in banner.
 
 3.  In the Now Assist panel, select **Update an app**.
 
-    ![Now Assist panel with update an app button highlighted.](../images/app-generation-task-update-app.png)
+    \[Omitted image "app-generation-task-update-app.png"\] Alt text: Now Assist panel with update an app button highlighted.
 
 4.  Select the app to edit.
 
     The apps available for editing in the Now Assist panel are custom applications you have created or to which you have access. If the application list is long, use the search box to find a specific application.
 
-    If you have the delegated\_developer or now\_assist\_panel\_user roles but do not see the app you need, contact your App Engine admin. Ask the admin to add you to the app as a delegated developer. For more information, see [Delegated development and deployment](../../applications/concept/c_DelegatedDevelopment.md).
+    If you have the delegated\_developer or now\_assist\_panel\_user roles but do not see the app you need, contact your App Engine admin. Ask the admin to add you to the app as a delegated developer. For more information, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
     To edit an application with the app generation skill, your scope must match the app scope. If your scope does not match, the app generation skill changes your scope to the app scope automatically.
 
@@ -80,9 +83,9 @@ Role required: now\_assist\_panel\_user
 
         The table record opens in a new tab in **Table Builder**.
 
-        **Note:** If the Now Assist panel is covering information, select the Now Assist icon ![](../../app-engine-studio/image/now-assist-sparkle-icon-dark.png) to close the panel. Select the icon again to reopen the panel and continue the conversation.
+        **Note:** If the Now Assist panel is covering information, select the Now Assist icon \[Omitted image "now-assist-sparkle-icon-dark.png"\] Alt text: to close the panel. Select the icon again to reopen the panel and continue the conversation.
 
-        ![ServiceNow Studio tab showing table details.](../images/app-generation-review-table-x2.png)
+        \[Omitted image "app-generation-review-table-x2.png"\] Alt text: ServiceNow Studio tab showing table details.
 
     2.  Confirm that the table is accurate and captures the correct data.
 
@@ -100,7 +103,7 @@ Role required: now\_assist\_panel\_user
 
         The ACL record opens in a new tab.
 
-        ![ServiceNow Studio tab showing access control details.](../images/app-generation-review-acl-xsr2.png)
+        \[Omitted image "app-generation-review-acl-xsr2.png"\] Alt text: ServiceNow Studio tab showing access control details.
 
     2.  Verify that the created ACL is accurate and requires the correct role or roles.
 
@@ -112,7 +115,7 @@ Role required: now\_assist\_panel\_user
 
         The role record opens in a new tab.
 
-        ![ServiceNow Studio tab showing role details.](../images/app-generation-review-role-xsr2.png)
+        \[Omitted image "app-generation-review-role-xsr2.png"\] Alt text: ServiceNow Studio tab showing role details.
 
     2.  Verify that the created role and its assigned permissions accurately represent the users of your application.
 
@@ -128,7 +131,7 @@ Role required: now\_assist\_panel\_user
 
         For example, select **Questions**, hover over a specific question, and select the Edit icon. Confirm that the question type and options are correct. Make any changes as needed.
 
-        For more information about record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
+        For more information about record producers, see .
 
     3.  Close the record producer tab.
 
@@ -136,13 +139,13 @@ Role required: now\_assist\_panel\_user
 
     1.  On the **Application Files** tab, in the **Display name** column, select the entry with a **Class** of **UX Application**.
 
-        ![Application Files tab with workspace UX application entry highlighted.](../images/app-generation-review-workspace1.png)
+        \[Omitted image "app-generation-review-workspace1.png"\] Alt text: Application Files tab with workspace UX application entry highlighted.
 
         The workspace opens in UI Builder in a new tab.
 
     2.  On the UI Builder tab, select **Home** to preview the workspace landing page.
 
-        ![UI Builder workspace experience page with home page highlighted.](../images/app-generation-review-workspace2.png)
+        \[Omitted image "app-generation-review-workspace2.png"\] Alt text: UI Builder workspace experience page with home page highlighted.
 
     3.  Review the workspace and, after confirming that you're in the correct application scope, modify the workspace if necessary.
 
@@ -150,7 +153,7 @@ Role required: now\_assist\_panel\_user
 
         To see the workspace from an end-user perspective, select **Preview**.
 
-        For more information about UI Builder, see [UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md).
+        For more information about UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
 
     4.  Close the UI Builder tab.
 
@@ -158,24 +161,24 @@ Role required: now\_assist\_panel\_user
 
     1.  On the **Application Files** tab, in the **Display name** column, select the flow entry with a **Class** of **Flow**.
 
-        ![Application Files tab with flow entry highlighted.](../images/app-generation-review-flow1.png)
+        \[Omitted image "app-generation-review-flow1.png"\] Alt text: Application Files tab with flow entry highlighted.
 
         The flow opens in Workflow Studio in a new tab.
 
-        ![Workflow Studio tab with flow triggers and actions displayed.](../images/app-generation-review-flow2.png)
+        \[Omitted image "app-generation-review-flow2.png"\] Alt text: Workflow Studio tab with flow triggers and actions displayed.
 
     2.  Review the flow and modify it if necessary.
 
         For example, add or change triggers, actions, or subflows.
 
-        For more information about using Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md).
+        For more information about using Workflow Studio, see .
 
     3.  Close the Workflow Studio tab.
 
 
 ## What to do next
 
-Continue opening, verifying, and modifying items in the application files list as needed. For more information, see [ServiceNow Studio](../../servicenow-studio/concept/servicenow-studio-landing.md).
+Continue opening, verifying, and modifying items in the application files list as needed. For more information, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
 
-**Parent Topic:**[Generate apps in ServiceNow Studio](sns-app-gen-using-landing.md)
+**Parent Topic:**[Generate apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-using-landing.md)
 

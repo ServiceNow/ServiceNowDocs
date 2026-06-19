@@ -2,6 +2,7 @@
 title: Related lists for a Theme in Agile Development 2.0
 description: Use the related lists on the Theme form for the actions that you need to perform for your theme in Agile Development 2.0, such as associating stories or epics with the theme.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/related-links-lists-for-theme-in-agile-development-2.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -40,5 +41,5 @@ Stories
 Lists the stories associated with the theme. You can create a new story and associate it with this theme by selecting **New**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agile Development 2.0 reference](agile-development-2-reference.md)
+</table>**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development-2-reference.md)
 

@@ -2,6 +2,7 @@
 title: Service Catalog administration
 description: Service Catalog enables an administrator to configure the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ServiceCatalogAdministration.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -34,5 +35,5 @@ Role required: admin
     The item or category is available only for the companies and departments listed. If no companies or departments are listed, then the item or category is available to all companies or departments.
 
 
-**Parent Topic:**[Legacy service catalog access controls](../concept/c_LegcySrvcCatAccessCntrol.md)
+**Parent Topic:**[Legacy service catalog access controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_LegcySrvcCatAccessCntrol.md)
 

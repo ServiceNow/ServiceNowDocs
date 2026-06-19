@@ -2,7 +2,10 @@
 title: Contact Relationship form
 description: The Customer Service Management application uses the Contact Relationship form to store information about the account, contact, and assigned responsibility in a contact relationship.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-contact-relationship-form.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -43,7 +46,7 @@ Responsibility
 
 </td><td>
 
-The role or responsibility selected for this customer contact. **Note:** As part of creating a responsibility definition, the admin can specify if the responsibility is unique. If so, the responsibility can only be assigned to one contact per account. For more information, see [Create account teams](../concept/configure-csm-account-teams.md).
+The role or responsibility selected for this customer contact. **Note:** As part of creating a responsibility definition, the admin can specify if the responsibility is unique. If so, the responsibility can only be assigned to one contact per account. For more information, see [Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-account-teams.md).
 
 </td></tr></tbody>
 </table>

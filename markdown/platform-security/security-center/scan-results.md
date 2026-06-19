@@ -2,6 +2,7 @@
 title: Scan results
 description: View data related to your scan results from a single view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/scan-results.html
 release: australia
 product: Security Center
 classification: security-center
@@ -15,7 +16,7 @@ breadcrumb: [Security scanner, Security configuration console, Security Center, 
 
 View data related to your scan results from a single view.
 
-![Scan findings list in a scan result](../images/scan-results-2.png)
+\[Omitted image "scan-results-2.png"\] Alt text: Scan findings list in a scan result
 
 A scan result reports the status and type of the scan. You can also see all the checks that ran as part of the scan and all other information related to the scan such as errors and scan logs.
 
@@ -54,5 +55,5 @@ You can find your scan results dashboard by selecting the **Scanner** tab in Sec
     Displays all the targets against which the checks have executed.
 
 
-**Parent Topic:**[Security scanner](sc-scanning.md)
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-scanning.md)
 

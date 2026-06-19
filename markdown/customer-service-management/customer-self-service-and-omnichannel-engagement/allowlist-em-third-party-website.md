@@ -2,6 +2,7 @@
 title: Enable Engagement Messenger on a website when third-party application cookies are blocked
 description: Configure a custom URL for the ServiceNow instance that helps prevent web browsers from blocking Engagement Messenger when cross-origin iframes and third-party cookies are blocked.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/allowlist-em-third-party-website.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ Configure a custom URL for the ServiceNow instance that helps prevent web browse
 
 ## Before you begin
 
-You must activate the Custom URL \(com.snc.customurl\) plugin. For more information, see [Activate custom URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/activate-custom-url-plugin.md).
+You must activate the Custom URL \(com.snc.customurl\) plugin. For more information, see Activate custom URLs.
 
 Role required: admin
 
@@ -73,14 +74,14 @@ Engagement Messenger loads on a third-party website.
 
 The following code includes a sample URL that contains `support.acme.com` as a custom URL.
 
-![Custom url](../image/em-custom-URL-in-code.png "Custom URL in code")
+\[Omitted image "em-custom-URL-in-code.png"\] Alt text: Custom url
 
 **Related topics**  
 
 
-[Set a custom URL as the instance URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-custom-url.md)
+[bundle-psec.configure-custom-url]
 
-[Custom URLs association to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/custom-url.md)
+[bundle-psec.custom-url]
 
-[Custom URL errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/custom-url-error-fix.md)
+[bundle-psec.custom-url-error-fix]
 

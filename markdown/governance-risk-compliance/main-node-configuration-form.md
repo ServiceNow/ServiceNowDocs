@@ -2,6 +2,7 @@
 title: Main node configuration new record form
 description: Use the Main node configuration new record form to create a main node configuration record in the Data Relationships Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/main-node-configuration-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -68,5 +69,5 @@ Condition
 Filter condition used to set up the relationship for the configuration record. For example, you can set the condition as **"Status in source" "is" "Valid"**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a main node configuration record](../task/create-a-main-node-config-record.md)
+</table>**Parent Topic:**[Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-main-node-config-record.md)
 

@@ -2,13 +2,14 @@
 title: Authenticate Google for calendar synchronization
 description: Set up Google to start with reservation synchronization with the Workplace Reservation Management application. Create scopes, credentials and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Authenticate Google for calendar synchronization
@@ -19,8 +20,8 @@ Set up Google to start with reservation synchronization with the Workplace Reser
 
 Ensure the following:
 
-1.  Install [Google Calendar Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gcal-spoke.md).
-2.  [Set up Google Calendar spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcal.md)
+1.  Install Google Calendar Spoke.
+2.  Set up Google Calendar spoke
 
 Role required: Google Admin
 

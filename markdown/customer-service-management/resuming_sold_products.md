@@ -2,9 +2,12 @@
 title: Resuming sold products
 description: Resume sold products to create a resume order on the CSM Configurable Workspace.Create an order to resume a sold product and its hierarchy on the CSM Configurable Workspace. By resuming a sold product, you can restart a product or service.Create an order to resume multiple sold products and their hierarchy on the CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/resuming\_sold\_products.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -17,8 +20,8 @@ Resume single or multiple root sold products and create combined orders for susp
 
 |Task|Description|
 |----|-----------|
-|Resume a single sold product|[Resume a single sold product](resuming_sold_products.md#)|
-|Resume multiple sold products|[Resume multiple sold products](resuming_sold_products.md#)|
+|Resume a single sold product|[Resume a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resuming_sold_products.md)|
+|Resume multiple sold products|[Resume multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/resuming_sold_products.md)|
 
 ## Resume a single sold product
 

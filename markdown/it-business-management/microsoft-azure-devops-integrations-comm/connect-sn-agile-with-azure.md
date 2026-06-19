@@ -2,6 +2,7 @@
 title: Connecting Agile Development 2.0 and Azure DevOps
 description: Establish a connection between Agile Development 2.0 and Azure DevOps using a connection alias and an Azure DevOps instance.Create a Basic Auth credential and an HTTP\(s\) connection which will together be used as a connection alias to establish a connection with Azure DevOps.Create an Azure DevOps instance record using the connection alias that you created. This instance is used to establish an integration between Agile Development 2.0 and Azure DevOps.Connect Azure DevOps with Agile Development 2.0 to enable the integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/connect-sn-agile-with-azure.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -15,7 +16,7 @@ breadcrumb: [Setting up the integration between Microsoft Azure DevOps and Agile
 
 Establish a connection between Agile Development 2.0 and Azure DevOps using a connection alias and an Azure DevOps instance.
 
-**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](../concept/setting-up-agile-azure-integration.md)
+**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/setting-up-agile-azure-integration.md)
 
 ## Create an Azure DevOps connection alias
 
@@ -30,17 +31,17 @@ Roles required:
 
 ### Procedure
 
-1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md)
+1.  Create a Connection &amp; Credential alias
 
     -   A connection alias \(sn\_ado\_int.Azure\_DevOps\) is available by default.
     -   You must create a connection alias for every Azure DevOps organization that you use.
 2.  Use OAuth 2.0 or Basic Auth to create credentials.
 
-    -   OAuth 2.0: See [Set up the Microsoft Azure DevOps Boards spoke using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azdevops-boards-oauth.md).
+    -   OAuth 2.0: See .
 
         **Important:** Make sure to specify a username in the OAuth 2.0 Credentials \[oauth\_2\_0\_credentials\] table for the Credential Alias record. This username must correspond to the service account used to interact with Azure DevOps.
 
-    -   Basic Authentication: See [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+    -   Basic Authentication: See Basic authentication credentials.
 
         **Note:** When creating Basic Auth credentials, use the details of your personal access token in Azure DevOps.
 
@@ -49,12 +50,12 @@ Roles required:
 
             If your login is in the format of **domainname\\username**, use only the **username**.
 
-3.  Create [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
+3.  Create Create an HTTP\(s\) connection.
 
 
 ### What to do next
 
-[Create an Azure DevOps instance](connect-sn-agile-with-azure.md#)
+[Create an Azure DevOps instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/connect-sn-agile-with-azure.md)
 
 .
 
@@ -77,15 +78,15 @@ Role required: sn\_ado\_int.admin or sn\_ado\_int.user
     |Field|Description|
     |-----|-----------|
     |Name|Name of the Azure DevOps instance. Enter a name of your choice.|
-    |Connection Alias|Azure DevOps connection alias that you already created. Use the lookup \(![Lookup icon](../../project-workspace/image/lookup_icon.png)\) option to select your connection alias.|
-    |Version|Azure DevOps version. Use the lookup \(![Lookup icon](../../project-workspace/image/lookup_icon.png)\) option to select your Azure DevOps version.|
+    |Connection Alias|Azure DevOps connection alias that you already created. Use the lookup \(\[Omitted image "lookup\_icon.png"\] Alt text: Lookup icon\) option to select your connection alias.|
+    |Version|Azure DevOps version. Use the lookup \(\[Omitted image "lookup\_icon.png"\] Alt text: Lookup icon\) option to select your Azure DevOps version.|
 
 4.  Click **Submit**.
 
 
 ### What to do next
 
-[Connect to Azure DevOps](connect-sn-agile-with-azure.md#)
+[Connect to Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/connect-sn-agile-with-azure.md)
 
 .
 
@@ -115,7 +116,7 @@ If the **State** field on the Azure DevOps Instance record shows:
 
 ### What to do next
 
-[Discover and import Azure DevOps projects](../task/discover-import-azure-projects.md)
+[Discover and import Azure DevOps projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/discover-import-azure-projects.md)
 
 .
 

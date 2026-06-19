@@ -2,6 +2,7 @@
 title: Manage issues
 description: You can measure the effectiveness of your company's risk management program by how quickly and completely it identifies and reacts to risk and compliance issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/manage-issues-common-core.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,8 +18,8 @@ You can measure the effectiveness of your company's risk management program by h
 
 Issues can be submitted using two methods, depending on the type of user involved:
 
--   Employees and business users within your company can [self-identify an issue and submit it via the ServiceNow® Service Portal.](../../grc-policy-and-compliance/task/create-self-identified-issues.md) Following submission, a triage issue is automatically created and the issue triage process begins.
--   GRC users can [manually create an issue](../task/t_CreateAnIssue.md) from within their instance to document audit observations and remediations, and compliance and risk issues.
+-   Employees and business users within your company can [self-identify an issue and submit it via the ServiceNow® Service Portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/create-self-identified-issues.md) Following submission, a triage issue is automatically created and the issue triage process begins.
+-   GRC users can [manually create an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnIssue.md) from within their instance to document audit observations and remediations, and compliance and risk issues.
 
 **Note:** Various types of issues can also be automatically generated under the following conditions \(these types of issues are not triaged\):
 
@@ -46,7 +47,7 @@ The goals of issue management include:
 
 By remediating issues, controls can be kept compliant, and risk can be mitigated​. The Issue Management workflow and life cycle are illustrated and described here.
 
-![Issue Management Workflow](../image/issue-management-workflow.png "Issue Management workflow")
+\[Omitted image "issue-management-workflow.png"\] Alt text: Issue Management Workflow
 
 <table id="table_exh_nm3_b4b"><thead><tr><th>
 
@@ -62,8 +63,8 @@ Issue intake
 
 </td><td>
 
-As described earlier, issues can be submitted using two methods, depending on the type of user involved:-   Employees and business users within your company can self-identify an issue and submit it via the ServiceNow® Service Portal. Following submission, a triage issue is automatically created and the [issue triage process](../../grc-policy-and-compliance/task/triage-issue.md) begins.
--   GRC users can [manually create an issue](../task/t_CreateAnIssue.md) from within their instance. These types of issues are not triaged.
+As described earlier, issues can be submitted using two methods, depending on the type of user involved:-   Employees and business users within your company can self-identify an issue and submit it via the ServiceNow® Service Portal. Following submission, a triage issue is automatically created and the [issue triage process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/triage-issue.md) begins.
+-   GRC users can [manually create an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnIssue.md) from within their instance. These types of issues are not triaged.
 
 </td></tr><tr><td>
 
@@ -93,10 +94,10 @@ Prior to closing the issue, the policy owner reviews and approves it. The review
 -   reduce gaps in the future
 
 </td></tr></tbody>
-</table>-   **[Issues in the Workspace](issues-in-workspace.md)**  
+</table>-   **[Issues in the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issues-in-workspace.md)**  
 You can track all your issues or one specific issue from the Workspace. Issues are listed under the **Issues** module in the list view of the Workspace.
--   **[Group issues in the Workspace](../task/issue-grouping-in-workspaces.md)**  
+-   **[Group issues in the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-grouping-in-workspaces.md)**  
 Group issues within your workspaces to organize and manage related issues. Grouping similar issues can streamline your workflow and save time.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

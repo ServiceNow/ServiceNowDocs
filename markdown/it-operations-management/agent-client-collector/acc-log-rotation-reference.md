@@ -2,6 +2,7 @@
 title: Agent Client Collector log rotation parameters
 description: If Agent Client Collector logs get too large, they can drain system resources. To ensure system efficiency, configure parameters in the acc.yml file by which to rotate logs out of the system's storage \(Windows default location = C:\\ProgramData\\ServiceNow\\agent-client-collector\\config\\acc.yml. Linux default location = /etc/servicenow/agent-client-collector/acc.yml\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-log-rotation-reference.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -66,5 +67,5 @@ The log level to be measured by the logs. Available options are: **Panic, Fatal,
 The specified log level represents the lowest level of events displayed in the log. For example, a user who specifies **Error** sees all Error events, as well as Fatal and Panic events.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

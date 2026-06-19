@@ -2,6 +2,7 @@
 title: Jumpstart Your AI Agent Studio
 description: This accelerator provides Impact customers with an overview and applied demonstration of AI agents within the Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-ai-agent-studio.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator provides Impact customers with an overview and applied demonstr
 ## Jumpstart Your AI Agent Studio Overview
 
 Jumpstart Your AI Agent Studio highlights how AI agents empower customers to build an ecosystem of autonomous or Human-on-the-loop \(HOTL\) Agents equipped with tools that integrate seamlessly across the platform and beyond. These Agents are orchestrated to perform a wide range of tasks with minimal to no human intervention, significantly enhancing organizational efficiency and demonstrating the transformative potential of AI. The offering includes key resources and leading practices guides to help customers get started with ServiceNow AI Agents.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 

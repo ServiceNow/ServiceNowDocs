@@ -2,6 +2,7 @@
 title: Remove a Walk-up Experience location
 description: If you permanently close down a physical Walk-up Experience location, you can also remove the location from the Walk-up Location Queues table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-remove-location.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

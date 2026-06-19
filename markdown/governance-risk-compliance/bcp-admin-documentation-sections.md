@@ -2,6 +2,7 @@
 title: Configuring the documentation section
 description: You can configure the documentation section of a business continuity plan in a structured format. You can describe high level details of the plan such as its purpose, scope, coverage areas, goals, and success criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcp-admin-documentation-sections.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -28,20 +29,20 @@ The Business Continuity Management application provides the documentation sectio
 
 A sample **Business Continuity Plan template** with the **SN-Overview** and **SN-Checklist** document sections is shown in the example.
 
-![Demo data template.](../image/business-continuity-plan-template.png)
+\[Omitted image "business-continuity-plan-template.png"\] Alt text: Demo data template.
 
 ## Creating a documentation section for your business requirement
 
-If you have the BCM administrator role, you can use the documentation section template listed in **General Administration** for creating a documentation section. To configure a documentation section by using the documentation section template, see [Configure documentation section](../task/configure-doc-section-for-bcp.md).
+If you have the BCM administrator role, you can use the documentation section template listed in **General Administration** for creating a documentation section. To configure a documentation section by using the documentation section template, see [Configure documentation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-doc-section-for-bcp.md).
 
 **Note:** When you create a documentation section in the **Documentation** tab without using the plan template, the **Reset to template** UI action is not available for that documentation section.
 
-You can also create a documentation section on the **Documentation** tab in the Business Continuity Workspace. You can use the **Create new section** UI action for creating a documentation section as shown in the example.![Create new section UI action.](../image/create-new-section-ui-action-documentation-form.png)
+You can also create a documentation section on the **Documentation** tab in the Business Continuity Workspace. You can use the **Create new section** UI action for creating a documentation section as shown in the example.\[Omitted image "create-new-section-ui-action-documentation-form.png"\] Alt text: Create new section UI action.
 
-For more information on creating a documentation section for your business plan in the Business Continuity Workspace, see [Create documentation sections](../task/create-documentation-section-bcp.md).
+For more information on creating a documentation section for your business plan in the Business Continuity Workspace, see [Create documentation sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-documentation-section-bcp.md).
 
--   **[Configure documentation section](../task/configure-doc-section-for-bcp.md)**  
+-   **[Configure documentation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-doc-section-for-bcp.md)**  
 Configure the documentation section to describe your plan through structured components: a high-level checklist, purpose, scope, and coverage areas.
 
-**Parent Topic:**[General administration setup for BCM](set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

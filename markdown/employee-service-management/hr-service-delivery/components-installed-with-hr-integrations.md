@@ -2,6 +2,7 @@
 title: Components installed with HR Integrations
 description: Several types of components install with the activation of the HR Integrations plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/components-installed-with-hr-integrations.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Activate, HR Integrations, Integration of HR Service Delivery with 
 
 Several types of components install with the activation of the HR Integrations plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -318,5 +319,5 @@ HR Integrations Worker Profile
 Staging table for worker profiles, effective worker profiles, and future worker profiles.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate HR Integrations](../task/activate-hr-integrations.md)
+</table>**Parent Topic:**[Activate HR Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-hr-integrations.md)
 

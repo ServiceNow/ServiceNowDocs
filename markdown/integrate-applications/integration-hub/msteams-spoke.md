@@ -2,6 +2,7 @@
 title: Microsoft Teams Graph Spoke
 description: The Microsoft Teams Graph spoke manages applications, calendar, teams, channels, chats, notifications, and webhooks in Microsoft Teams. To create, manage, or delete users and groups, use the Microsoft Entra ID spoke \(formerly Microsoft Azure Active Directory spoke\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/msteams-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,7 +19,7 @@ The Microsoft Teams Graph spoke manages applications, calendar, teams, channels,
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 **Note:**
 
@@ -33,7 +34,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Teams Graph spoke v4.4.1 is the latest version.
+Microsoft Teams Graph spoke v4.5.0 is the latest version.
 
 ## Supported version
 
@@ -718,16 +719,16 @@ For more information about accessing the channel ID and group ID through Microso
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 
@@ -740,7 +741,7 @@ Available AI agents include:
 |Microsoft Teams team management AI agent|Automates tasks such as creating and managing Teams, adding or removing members, and retrieving team-related information. Enhances team management and communication workflows within an organization.|
 |Microsoft Teams calendar management AI agent|Automates workflows between ServiceNow and Microsoft Teams. Provides calendar management capabilities. Performs actions such as deleting, and retrieving meeting details.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
@@ -763,11 +764,11 @@ The Microsoft Teams Graph spoke requires registering an application using the Mi
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Microsoft Teams Graph spoke](../task/set-up-msteams.md#).
+For information about setting up the spoke, see [Set up the Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-msteams.md).
 
 ## MID Server requirements
 
-The Microsoft Teams Graph spoke actions use REST calls, which can run on an instance or a MID Server. Use the connection record associated with the Microsoft alias to configure where actions run as well as set MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+The Microsoft Teams Graph spoke actions use REST calls, which can run on an instance or a MID Server. Use the connection record associated with the Microsoft alias to configure where actions run as well as set MID Server selection attributes. For more information, see MID server.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

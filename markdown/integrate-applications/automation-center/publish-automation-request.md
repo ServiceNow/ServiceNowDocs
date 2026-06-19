@@ -2,6 +2,7 @@
 title: Publish an automation request
 description: Publish an automation request from Automation Center to make the request ready for execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/publish-automation-request.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -17,7 +18,7 @@ Publish an automation request from Automation Center to make the request ready f
 
 ## Before you begin
 
-Create an automation request. For more information, see [Creating an automation request](create-automation-request.md).
+Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md).
 
 To publish an automation request, the associated automation tasks must be in one of the following states:
 
@@ -27,7 +28,7 @@ To publish an automation request, the associated automation tasks must be in one
 
 Verify that the state of the automation request is **In progress**, and map the required Automation CI records whose life-cycle stage status is **Published**. An automation CI record has details about an automation.
 
-For details about mapping an automation request with automation CI record, see [Map automations with automation request](map-automation-to-req.md).
+For details about mapping an automation request with automation CI record, see [Map automations with automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-automation-to-req.md).
 
 For all ServiceNow RPAs, an Automation CI record is available. For more details, see the RPA documentation.
 
@@ -46,7 +47,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation Center Home**.
 
-2.  Select the list icon \(![List icon.](../images/autocenter-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
@@ -61,5 +62,5 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 After you publish an automation request, the automation is ready for execution, which is the last stage in the automation request life cycle.
 
-**Parent Topic:**[Working with automations](../concept/automations.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
 

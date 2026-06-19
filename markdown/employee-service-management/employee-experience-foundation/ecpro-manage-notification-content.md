@@ -2,6 +2,7 @@
 title: Create email, SMS, or push notification content
 description: Use Notification Content to send an information blast directly to your employees via email, SMS, or push to their mobile devices. Notifications can be used to direct users to the portal for detailed information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-manage-notification-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -81,7 +82,7 @@ Use block content
 
 </td><td>
 
-You can select reusable block content for your notification message. For more information, see [Add or modify block content](ecpro-manage-block-content.md).
+You can select reusable block content for your notification message. For more information, see [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md).
 
 </td></tr><tr><td>
 
@@ -126,9 +127,9 @@ The message you want to send via push. You are limited to 1600 characters.
 </td></tr></tbody>
 </table>6.  Select **Submit** or **Update** to save and return to the Notification Content list.
 
-    Go to Schedule Content to define the audience, date, and time your content is available. For more information, see [Scheduling the delivery of content](ecpro-schedule-content.md). Or, go to Manage Content to add your content to a campaign bundle. For more information, see [Create campaign bundles/stages](ecpro-manage-campaign-bundles.md).
+    Go to Schedule Content to define the audience, date, and time your content is available. For more information, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md). Or, go to Manage Content to add your content to a campaign bundle. For more information, see [Create campaign bundles/stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-campaign-bundles.md).
 
-    To request your content to be translated into a different language, select the **Translate content** button at the top. This button only appears when the sn\_cd.enable\_localization\_framework\_integration system property is activated. For more information, see [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+    To request your content to be translated into a different language, select the **Translate content** button at the top. This button only appears when the sn\_cd.enable\_localization\_framework\_integration system property is activated. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
     **Note:** Integration with Localization Framework is not available for Push or SMS content.
 

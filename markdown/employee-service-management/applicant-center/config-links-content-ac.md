@@ -2,6 +2,7 @@
 title: Configure Content Experiences and Quick links
 description: Configure the campaigns and other company resources that you want to provide your applicants in the Applicant Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/config-links-content-ac.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -15,11 +16,11 @@ breadcrumb: [Configure, Applicant Center, Hiring Experiences, HR Service Deliver
 
 Configure the campaigns and other company resources that you want to provide your applicants in the Applicant Center.
 
-Create dedicated banners and campaigns with the Content Experiences in the Applicant Center. For more information on setting up the Content Experiences, see [Activate Content Experiences](../../employee-center/task/activate-content-automation-plugin.md).
+Create dedicated banners and campaigns with the Content Experiences in the Applicant Center. For more information on setting up the Content Experiences, see [Activate Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-content-automation-plugin.md).
 
 **Note:** You can provide the recruiters with the appropriate roles, so that they can target relevant content for the applicants in the Applicant Center.
 
-Provide your applicants relevant company content like the recruitment process and the company culture through Quick links. For more information creating Quick links, see [Quick links](../../employee-center/concept/emp-center-quick-link-config.md).
+Provide your applicants relevant company content like the recruitment process and the company culture through Quick links. For more information creating Quick links, see [Quick links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-quick-link-config.md).
 
-**Parent Topic:**[Configuring Applicant Center](config-applicant-center.md)
+**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/config-applicant-center.md)
 

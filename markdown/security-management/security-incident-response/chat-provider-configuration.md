@@ -2,6 +2,7 @@
 title: Activate MS Teams as a chat provider
 description: Activate Microsoft Teams by validating the Microsoft Teams Connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/chat-provider-configuration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -40,5 +41,5 @@ Once the connection is activated and validated, an information message is displa
     With this connection between Microsoft Teams and ServiceNow AI Platform Instance is successfully established.
 
 
-**Parent Topic:**[Configure Microsoft Teams](../concept/chat-channel-provider-config.md)
+**Parent Topic:**[Configure Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/chat-channel-provider-config.md)
 

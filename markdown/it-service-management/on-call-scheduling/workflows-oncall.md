@@ -2,6 +2,7 @@
 title: On-Call Scheduling workflows
 description: Workflows perform On-Call Scheduling operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/workflows-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -25,7 +26,7 @@ Workflows perform On-Call Scheduling operations.
 
     The workflow respects time off as specified in rosters. Roster members with time off are not included in the escalation path and no notifications are sent to them.
 
-    If **Force communication channel** is specified in the **Escalation settings** for rosters, the [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md) is used: SMS, email, voice, Microsoft Teams, or mobile push. If the preferred method is SMS and the on-call member does not have an SMS device defined, the user is not contacted even if the user has an email address. When forcing a communication channel on an escalation level does not succeed, no further communication attempts are made. The failed contact attempt is logged. The setting **Force communication channel** is available only if Notify is installed.
+    If **Force communication channel** is specified in the **Escalation settings** for rosters, the Subscription-based notifications is used: SMS, email, voice, Microsoft Teams, or mobile push. If the preferred method is SMS and the on-call member does not have an SMS device defined, the user is not contacted even if the user has an email address. When forcing a communication channel on an escalation level does not succeed, no further communication attempts are made. The failed contact attempt is logged. The setting **Force communication channel** is available only if Notify is installed.
 
     -   Until acknowledged, sends on-call notifications to escalatees based on the escalation policy and configured contact preference.
     -   Logs escalation details for each communication.
@@ -57,8 +58,8 @@ Workflows perform On-Call Scheduling operations.
     -   Makes a voice call to the first group member in the escalation policy.
     -   If the member does not join the conference call, then escalates to next group member in the policy
 
--   **[Workflow Activities for On-Call Scheduling](workflow-activities-oncall.md)**  
+-   **[Workflow Activities for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/workflow-activities-oncall.md)**  
 Workflow activities in On-Call Scheduling workflows.
 
-**Parent Topic:**[Reference for on-call scheduling](../../user-administration/concept/reference-for-on-call-scheduling.md)
+**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)
 

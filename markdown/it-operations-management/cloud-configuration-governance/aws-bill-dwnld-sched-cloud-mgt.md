@@ -2,6 +2,7 @@
 title: Define the schedule for downloading AWS billing data
 description: Define the scheduled job that regularly uses a MID Server to download billing data from the provider. Cloud Provisioning and Governance saves the data in a cost table and uses the information to generate reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/aws-bill-dwnld-sched-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -118,10 +119,10 @@ Time of day that the download job should run.
 
 ## What to do next
 
-[View cloud costs on the Billing dashboard](../../cloud-management-v2/concept/cloud-dashboards.md#).
+[View cloud costs on the Billing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-dashboards.md).
 
 **Related topics**  
 
 
-[Cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CloudManagementCredentialsForm.md)
+[bundle-psec.r_CloudManagementCredentialsForm]
 

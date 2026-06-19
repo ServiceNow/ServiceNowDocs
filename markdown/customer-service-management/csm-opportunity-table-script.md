@@ -2,7 +2,10 @@
 title: Example script that queries the Opportunity table
 description: This example script queries the opportunity table using the Get All Opportunities, Get Opportunities for Account Id, and Get Opportunity Details custom actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-opportunity-table-script.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -63,7 +66,7 @@ if (v_query.isGet()) {
 
 ```
 
-Note that this script configures an information message if the Salesforce account is undefined when it’s required by the action. The undefined value comes from the relationship that is described in [Using a related list to create the connection between the Customer Account and the Salesforce Opportunities](csm-related-list-opportunity-table.md).
+Note that this script configures an information message if the Salesforce account is undefined when it’s required by the action. The undefined value comes from the relationship that is described in [Using a related list to create the connection between the Customer Account and the Salesforce Opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-related-list-opportunity-table.md).
 
 When the Salesforce account is undefined, there’s nothing to query for in this case and the function returns without calling the spoke action.
 
@@ -147,5 +150,5 @@ The three sections of the script are included in the try-catch block to provide 
 
 ```
 
-**Parent Topic:**[Using remote tables and the Salesforce spoke](csm-integration-remote-tables.md)
+**Parent Topic:**[Using remote tables and the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-remote-tables.md)
 

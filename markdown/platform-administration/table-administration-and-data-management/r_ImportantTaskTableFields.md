@@ -2,6 +2,7 @@
 title: Important Task table fields
 description: The Task table is a base class that provides fields for the core ITSM applications such as Incident, Problem, and Change Management. All applications that extend the Task table share these fields in common.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/r\_ImportantTaskTableFields.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -61,7 +62,7 @@ journal\_input
 
 </td><td>
 
-Displays and allows the entry of comments about the task record. Each comment is inserted into the **Activity** field. For more information, see [Journal field type](../../field-administration/concept/c_JournalFields.md).
+Displays and allows the entry of comments about the task record. Each comment is inserted into the **Activity** field. For more information, see [Journal field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_JournalFields.md).
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ journal
 
 </td><td>
 
-Displays the history of approvals for the record. For more information, see [Tools for completing tasks](../concept/c_TaskTable.md#section_mzc_z4g_3cc).
+Displays the history of approvals for the record. For more information, see [Tools for completing tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TaskTable.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +94,7 @@ reference
 
 </td><td>
 
-Specifies the user assigned to complete the task. By default, this field uses a [Reference qualifiers](../../../script/server-scripting/concept/c_ReferenceQualifiers.md) to only display users with the itil role.
+Specifies the user assigned to complete the task. By default, this field uses a [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ReferenceQualifiers.md) to only display users with the itil role.
 
  Some applications override the parent reference qualifier to display relevant users. For example, the Service Order and Project Task tables filter users based on their skills.
 
@@ -161,7 +162,7 @@ string
 
 Displays an identifying number for each task record. This field is the display value for the Task table. The system generates this number when the task is created.
 
- To manage number generation, see [Record numbering](../../field-administration/concept/c_ManagingRecordNumbering.md).
+ To manage number generation, see [Record numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ManagingRecordNumbering.md).
 
 </td></tr><tr><td>
 
@@ -234,7 +235,7 @@ Displays a choice list for status of the task:
 -   Closed Incomplete
 -   Closed Skipped
 
- Applications typically use [Dictionary overrides](../../data-dictionary-tables/concept/c_DictionaryOverrides.md) to display application-specific states.
+ Applications typically use [Dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md) to display application-specific states.
 
 </td></tr><tr><td>
 
@@ -250,7 +251,7 @@ GUID
 
 </td><td>
 
-Displays the [Unique record identifier \(sys\_id\)](../../table-administration/concept/c_UniqueRecordIdentifier.md#).
+Displays the [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
 
 </td></tr><tr><td>
 
@@ -298,7 +299,7 @@ glide\_list
 
 </td><td>
 
-Specifies users who receive [Email and SMS notifications](../../notification/concept/c_EmailNotifications.md) when the record is updated. By default, only the Incident, Change, and Service Catalog applications notify users listed in this field. For other Task-based applications, you must create custom email notifications sent to the users listed in this field.
+Specifies users who receive [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md) when the record is updated. By default, only the Incident, Change, and Service Catalog applications notify users listed in this field. For other Task-based applications, you must create custom email notifications sent to the users listed in this field.
 
 </td></tr><tr><td>
 
@@ -314,7 +315,7 @@ journal\_input
 
 </td><td>
 
-Displays and allows the entry of comments viewable only by ITIL users. Each comment is inserted into the **Activity** field. For more information, see [Journal field type](../../field-administration/concept/c_JournalFields.md).
+Displays and allows the entry of comments viewable only by ITIL users. Each comment is inserted into the **Activity** field. For more information, see [Journal field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_JournalFields.md).
 
 </td></tr><tr><td>
 
@@ -330,8 +331,8 @@ glide\_list
 
 </td><td>
 
-Specifies users who receive [Email and SMS notifications](../../notification/concept/c_EmailNotifications.md) when work notes are added to the record. By default, only the Change, Problem, and Service Catalog applications notify users listed in this field. For other Task-based applications, you must create custom email notifications sent to the users listed in this field.
+Specifies users who receive [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailNotifications.md) when work notes are added to the record. By default, only the Change, Problem, and Service Catalog applications notify users listed in this field. For other Task-based applications, you must create custom email notifications sent to the users listed in this field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Task table structure](../../table-administration/concept/task-table-structure.md)
+</table>**Parent Topic:**[Task table structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/task-table-structure.md)
 

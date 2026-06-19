@@ -2,6 +2,7 @@
 title: Implementing controls and assessment objectives in CAM
 description: NIST 800-53A – assessment objectives are included in the base system with the CAM application. The assessment objectives are mapped to revision 5 control objectives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-assessment-objectives.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -28,5 +29,5 @@ In CAM, a control is tested at a more granular level with multiple assessment pr
 
 New control test criteria such as Examine, Interview, and Test are available during control testing. These fields are read-only, however you can update these descriptions at the test template and test plan levels. A set of assessment procedures is available as a related list while control testing. Assessment procedures are at the objective level, and can be marked as not applicable in addition to being effective, ineffective, and none.
 
-![Control objectives sourced by NIST for which test templates are provided.](../image/cam-nist-co.png "Control objectives sourced by NIST 800-53 revision 5")
+\[Omitted image "cam-nist-co.png"\] Alt text: Control objectives sourced by NIST for which test templates are provided.
 

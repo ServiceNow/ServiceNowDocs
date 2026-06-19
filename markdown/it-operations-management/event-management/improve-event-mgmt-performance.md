@@ -2,6 +2,7 @@
 title: Enhance Event Management performance
 description: The Event Management Accelerator plugin ensures that Event Management maintains performance at a high level. This plugin is optional.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/improve-event-mgmt-performance.html
 release: australia
 product: Event Management
 classification: event-management
@@ -61,7 +62,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 

@@ -1,17 +1,18 @@
 ---
-title: Configure your MID Server for automatic certificate renewal
+title: Configure the MID Server for automatic certificate renewal
 description: Collect information about root certificates stored outside your server. Create a specialized Discovery schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-25"
 reading_time_minutes: 1
-breadcrumb: [Configuring automated certificate renewal, Automated Certificate Renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configuring automated certificate renewal, Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure your MID Server for automatic certificate renewal
+# Configure the MID Server for automatic certificate renewal
 
 Collect information about root certificates stored outside your server. Create a specialized Discovery schedule.
 
@@ -37,27 +38,27 @@ For information about version compatibility and troubleshooting, see the [Renewa
 
 5.  Select the **Parameter name** field.
 
-6.  Select **ext.vault.hashicorp.address**
+6.  Select **ext.vault.hashicorp.address**.
 
-7.  In the **Value** field, enter your external Hashicorp vault address.
+7.  In the **Value** field, enter your external HashiCorp vault address.
 
-    The default value is http://127.0.0.1:8200.
+    The default value is `http://127.0.0.1:8200`.
 
-8.  Select **Submit**
+8.  Select **Submit**.
 
-9.  Add a new parameter.
+9.  Add the HashiCorp vault path parameter.
 
     1.  Select **New**.
 
     2.  Select the **Parameter name** field.
 
-    3.  Select **ext.vault.hashicorp.path**
+    3.  Select **ext.vault.hashicorp.path**.
 
-    4.  In the **Value** field, enter your file path in the Hashicorp vault.
+    4.  In the **Value** field, enter your file path in the HashiCorp vault.
 
     5.  Select **Submit**.
 
-10. Navigate to the location of your host name of the MID Server
+10. Add the HashiCorp vault token to your MID Server configuration file.
 
     1.  Navigate to the IP address in the **IP address** field of your MID Server record.
 
@@ -65,9 +66,13 @@ For information about version compatibility and troubleshooting, see the [Renewa
 
     3.  Select the `agent/config.xml` file.
 
-    4.  Add the parameter **ext.vault.hashicorp.token** in your cofig.xml file.
+    4.  Add the parameter **ext.vault.hashicorp.token** in your `config.xml` file.
 
-    5.  Insert the following code: `<parameter name="ext.valut.hashicorp.token" secure="true" value="<YOUR TOKEN VALUE>"/>`
+    5.  Insert the following code:
+
+        ```
+        <parameter name="ext.vault.hashicorp.token" secure="true" value="<YOUR TOKEN VALUE>"/>
+        ```
 
     6.  Restart your MID Server.
 
@@ -78,5 +83,5 @@ Your MID Server is configured for automatic certificate renewal.
 
 ## What to do next
 
-To complete the process of configuring yourself for automatic certificate renewal, you must complete the required steps to [Add the required applications and capabilities to your MID Server](add-req-apps-capabilities-to-mid-server.md) and [Configure System Properties for automatic certificate renewal](config-sys-props-for-auto-cert-renewal.md).
+To complete the process of configuring yourself for automatic certificate renewal, you must complete the required steps to [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md) and [Configure System Properties for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.md).
 

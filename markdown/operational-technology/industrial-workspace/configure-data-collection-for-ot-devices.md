@@ -2,6 +2,7 @@
 title: Configure the data collection for Operational Technology devices
 description: Configure the data collection for Operational Technology \(OT\) devices so that you can collect and display the daily data for all indicators from Performance Analytics. This configuration ensures that your OT data is displayed accurately on the OT Visibility dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-data-collection-for-ot-devices.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -21,7 +22,7 @@ Role required: admin or pa\_admin
 
 ## About this task
 
-If the OT Devices Daily Data Collection job hasn't run yet, that means that no data is available for the OT Visibility dashboard and the **Last updated** timestamp is hidden. If you have the admin role, you see the following warning message that prompts you to run the OT Devices Daily Data Collection job:![No data is shown error message on the OT Visibility dashboard that prompts you to run the OT Devices Daily Data Collection Job.](../image/no-data-shown-message.png)
+If the OT Devices Daily Data Collection job hasn't run yet, that means that no data is available for the OT Visibility dashboard and the **Last updated** timestamp is hidden. If you have the admin role, you see the following warning message that prompts you to run the OT Devices Daily Data Collection job:\[Omitted image "no-data-shown-message.png"\] Alt text: No data is shown error message on the OT Visibility dashboard that prompts you to run the OT Devices Daily Data Collection Job.
 
 **Note:** If you don't have the pa\_admin role, you see a warning message that prompts you to reach out to the administrator for help.
 
@@ -31,7 +32,7 @@ If the OT Devices Daily Data Collection job hasn't run yet, that means that no d
 
     If you're in the OT Visibility dashboard, you can navigate to the Scheduled Data Collection table by selecting **Run job now** in the error message.
 
-2.  Apply a filter by selecting the Show/hide filter \(![Show/hide filter icon in the table header.](../image/show-hide-filter-icon.png)\) icon and add a filter of `[Name] [is] [OT Devices Daily Data Collection]`.
+2.  Apply a filter by selecting the Show/hide filter \(\[Omitted image "show-hide-filter-icon.png"\] Alt text: Show/hide filter icon in the table header.\) icon and add a filter of `[Name] [is] [OT Devices Daily Data Collection]`.
 
 3.  Start collecting the data by selecting the check box next to the **Active** field in the Job parameters section and then schedule a time in the **Time** field.
 
@@ -48,7 +49,7 @@ The OT Visibility dashboard is now showing the correct data for the collected OT
 
 ## What to do next
 
-Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a large number of records](change-indicator-sources-for-larger-number-of-records-otm.md).
+Now, you can review the indicator sources and determine if you need to override the default records collection. For more information, see [Review the indicator sources for a large number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/change-indicator-sources-for-larger-number-of-records-otm.md).
 
-**Parent Topic:**[Setting up the Operational Technology Visibility dashboard](../concept/setting-up-the-ot-devices-dashboard.md)
+**Parent Topic:**[Setting up the Operational Technology Visibility dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-devices-dashboard.md)
 

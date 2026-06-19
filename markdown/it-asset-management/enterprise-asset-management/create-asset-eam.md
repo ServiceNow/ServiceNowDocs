@@ -2,6 +2,7 @@
 title: Create enterprise assets
 description: Create assets for specific model categories in the Enterprise Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-asset-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -25,11 +26,11 @@ Enterprise asset classes have a one to one mapping to product model classes and 
 
 There are two kinds of assets: consumable assets and serialized assets. Consumable assets don’t have an asset tag or a serial number.
 
-**Note:** This topic provides details on how to create enterprise, construction, facility, industrial, medical, retail, tactical equipment, transportation, and wearable assets. For details on how to create pallet assets, see [Create pallet assets in the Enterprise Asset Workspace](create-pallet-asset-eam.md).
+**Note:** This topic provides details on how to create enterprise, construction, facility, industrial, medical, retail, tactical equipment, transportation, and wearable assets. For details on how to create pallet assets, see [Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md).
 
 -   **Unique identifiers for assets**
 
-    When you create an asset that belongs to a model category linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records. However, specifying the values for these fields is optional in the following scenarios:
+    When you create an asset that belongs to a model category linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see  and . These rules help to uniquely identify the asset through these required fields and maintain accurate asset records. However, specifying the values for these fields is optional in the following scenarios:
 
     -   When you are creating an asset in the Build or On order state.
     -   When you are creating an asset that belongs to a model category without a CI class.
@@ -88,7 +89,7 @@ The model category that the asset belongs to. Based on the model category select
 
 6.  In the Create New asset page, fill in the details.
 
-    For a detailed description of the fields, see [Asset fields for enterprise assets](../reference/asset-fields-eam.md).
+    For a detailed description of the fields, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
 
 7.  Select **Save**.
 
@@ -103,5 +104,5 @@ The model category that the asset belongs to. Based on the model category select
     The asset can be deleted only by the sn\_eam.enterprise\_admin role.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

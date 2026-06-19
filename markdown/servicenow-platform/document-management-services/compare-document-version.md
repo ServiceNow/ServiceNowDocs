@@ -2,6 +2,7 @@
 title: Compare document versions
 description: Document version comparison enables you to view differences between two versions of a document, highlighting changes such as added, removed, or modified content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/compare-document-version.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -25,9 +26,9 @@ In the navigation filter, enter `sys_property.list` and ensure **glide.documents
 
 ## Procedure
 
-1.  [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-experience.md), if an experience is already created, go to Step 5.
+1.  , if an experience is already created, go to Step 5.
 
-2.  [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/reuse-page-definitions.md).
+2.  .
 
 3.  Go to created page template and select **Use template**.
 
@@ -52,5 +53,5 @@ In the navigation filter, enter `sys_property.list` and ensure **glide.documents
 12. To download the document, select **Download redlined document** showing the changes.
 
 
-**Parent Topic:**[Document versions](../concept/document-mgt-versions.md)
+**Parent Topic:**[Document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-mgt-versions.md)
 

@@ -2,6 +2,7 @@
 title: Activate Connect
 description: Connect is active by default on new instances. For upgraded instances, you can activate the Connect plugin \(com.glide.connect\) if you have the admin role.Properties are added with activation of Connect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_ActivateConnect.html
 release: australia
 product: Connect
 classification: connect
@@ -23,7 +24,7 @@ Role required: admin
 
 If you used Collaboration in the Fuji release, the Connect plugin is activated automatically.
 
-**Important:** Connect is not supported in Next Experience. If you turn on Next Experience, Connect functionality will no longer work. See [Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
+**Important:** Connect is not supported in Next Experience. If you turn on Next Experience, Connect functionality will no longer work. See Next Experience.
 
 ## Procedure
 
@@ -37,13 +38,13 @@ If you used Collaboration in the Fuji release, the Connect plugin is activated a
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 **Related topics**  
 
 
-[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 
 ## Properties installed with Connect
 
@@ -68,7 +69,7 @@ collaboration.email\_interval
 Sets the number of minutes the system waits before sending a Connect notification email to an inactive user.-   **Type**: integer
 -   Default value: 3
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Configure the email notification interval](../concept/c_CollaborationAdministration.md#)
+-   Learn more: [Configure the email notification interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationAdministration.md)
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ collaboration.frameset
 Determines whether the Connect overlay is visible \(enabled\). This property also impacts Connect Support.-   **Type**: true \| false
 -   Default value: true
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Disable the Connect overlay](t_DisableTheCollaborationOverlay.md)
+-   Learn more: [Disable the Connect overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_DisableTheCollaborationOverlay.md)
 
 </td></tr><tr><td>
 
@@ -100,7 +101,7 @@ connect.notification.audio\_alert
 Specifies the audio file to play to notify users of new messages, support conversation transfers, and @mentions in Connect. This property's value must point to the **Name** field of a record in the Audio File \[db\_audio\] table. This property also impacts Connect Support.-   **Type**: string
 -   Default value: connect\_alert.mp3
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Customize the Connect audio notification sound](t_CustomizeConnectAudioNotifSound.md)
+-   Learn more: [Customize the Connect audio notification sound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_CustomizeConnectAudioNotifSound.md)
 
 </td></tr><tr><td>
 
@@ -150,14 +151,14 @@ glide.live\_feed.task\_header\_button
 
 </td><td id="entry_GlideLiveFeedTaskHeaderButtonDescription">
 
-Determines whether the show Live Feed icon \(![Show Live Feed icon](../../live-feed/image/ShowLiveFeedIcon.png)\) and **Follow** button are available in the form header of tables that have the **live\_feed=true** dictionary attribute.-   **Type**: choice list
+Determines whether the show Live Feed icon \(\[Omitted image "ShowLiveFeedIcon.png"\] Alt text: Show Live Feed icon\) and **Follow** button are available in the form header of tables that have the **live\_feed=true** dictionary attribute.-   **Type**: choice list
 -   Default value: collaboration
 -   Other possible values:
     -   **both**: enables both the show Live Feed icon and the **Follow** button.
     -   **live\_feed**: enables the show Live Feed icon.
     -   **none**: disables both the show Live Feed icon and the **Follow** button.
 -   Location: **Collaborate** &gt; **Administration** &gt; **Properties**
--   Learn more: [Configure record conversations](../concept/c_CollaborationAdministration.md#)
+-   Learn more: [Configure record conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationAdministration.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Setting up Password Reset
 description: The Password Reset application is active by default and includes example verifications. The base system enables connections only to the local ServiceNow instance credential store types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-reset-setup-guide.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -23,10 +24,10 @@ Role required: admin
 
 ## Active and available plugins
 
--   To enable connections to Active Directory \(AD\) and Remote \(SOAP\) ServiceNow Instance credential store types, activate the Password Reset Windows App \(Password Reset Orchestration\) \(com.glideapp.password\_reset\_desktop\) plugin and Microsoft AD for Password Reset store app. No other components are installed. Orchestration is available as a separate subscription. See [Request the Password Reset Windows App plugin](setup-guide-ad.md#).
--   To enable connections to Microsoft Entra ID Integration for Password Reset, [Integrate Microsoft Entra ID Integration with Password Reset](../task/Config-credential-store-micro-azure.md) and [Configure the connection to Microsoft Entra ID Credential Store](../task/config-azure-credential-store.md).
+-   To enable connections to Active Directory \(AD\) and Remote \(SOAP\) ServiceNow Instance credential store types, activate the Password Reset Windows App \(Password Reset Orchestration\) \(com.glideapp.password\_reset\_desktop\) plugin and Microsoft AD for Password Reset store app. No other components are installed. Orchestration is available as a separate subscription. See [Request the Password Reset Windows App plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/setup-guide-ad.md).
+-   To enable connections to Microsoft Entra ID Integration for Password Reset, [Integrate Microsoft Entra ID Integration with Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/Config-credential-store-micro-azure.md) and [Configure the connection to Microsoft Entra ID Credential Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/config-azure-credential-store.md).
 
 ## Next steps
 
-Plan and configure the Password Reset processes for your organization. See the [Configuring Password Reset](password-reset-admin-guide.md).
+Plan and configure the Password Reset processes for your organization. See the [Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-admin-guide.md).
 

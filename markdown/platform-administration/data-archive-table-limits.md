@@ -2,6 +2,7 @@
 title: Archive table size limits
 description: There are constraints to the size of the table you use to archive your instance data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/data-archive-table-limits.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -25,5 +26,5 @@ There is a limit on the size of an archive table you can create to store data. T
 
 Review the custom columns on the table being archived. Also review the custom fields on the tables the table extends from. Determine if those columns are no longer needed and are not being used by current customizations. If you identify unused columns, you can remove them. Doing this might reduce the row size of the table being archived. If that is unsuccessful, contact ServiceNow® Customer Service and Support to see what other alternatives are available.
 
-**Parent Topic:**[Data Management reference](../../managing-data/reference/data-management-reference.md)
+**Parent Topic:**[Data Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Track features in a board
 description: Track the progress of features in the ART. View their transition from one state \(lane\) to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/track-features-board.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -35,8 +36,8 @@ Role required: safe\_admin or safe\_art\_user
 
     2.  On the form, fill in the fields and submit it.
 
-        For more information on the Feature form fields, see [Define a feature in SAFe](create-SAFefeature.md).
+        For more information on the Feature form fields, see [Define a feature in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFefeature.md).
 
 
-**Parent Topic:**[SAFe Board — ART level](../concept/program-level-tabs.md)
+**Parent Topic:**[SAFe Board — ART level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/program-level-tabs.md)
 

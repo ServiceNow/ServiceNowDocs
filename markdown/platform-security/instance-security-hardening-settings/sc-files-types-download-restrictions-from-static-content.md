@@ -2,6 +2,7 @@
 title: Restrict downloadable files types in static content \[Updated in Security Center 1.3\]
 description: Use the glide.ui.strict\_customer\_uploaded\_static\_content property to enable restrictions on the file types that can be downloaded when they have been uploaded using the Upload File functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-files-types-download-restrictions-from-static-content.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -25,7 +26,7 @@ You use this property with the **glide.ui.strict\_customer\_uploaded\_content\_t
 |---------|-----------|
 |Property name|**glide.ui.strict\_customer\_uploaded\_static\_content**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[File and resources](sc-file-resources.md)|
+|Category|[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)|
 |Purpose|To ensure that safe file types are permitted to be downloaded from the application.|
 |Recommended value|true|
 |Default value|true|
@@ -33,5 +34,5 @@ You use this property with the **glide.ui.strict\_customer\_uploaded\_content\_t
 |Functional impact|This remediation enforces restriction of file downloads based on the values specified in the **glide.ui.strict\_customer\_uploaded\_content\_types** property.|
 |Security risk|\(Low\) File download restrictions should be applied to any untrusted user input sources.|
 
-**Parent Topic:**[File and resources](sc-file-resources.md)
+**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

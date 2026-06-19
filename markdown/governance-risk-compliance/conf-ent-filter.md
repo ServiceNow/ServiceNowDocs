@@ -2,6 +2,7 @@
 title: Configure the entity filters
 description: Configure entity filters to define the records from ServiceNow tables that populate each entity type after setting up pillars and entity types. Entity filters use selection criteria to identify and pull relevant records automatically. You can build custom filter conditions tailored to your requirements or select from predefined \(saved\) queries for common scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf-ent-filter.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -34,13 +35,13 @@ Choose the appropriate method based on your specific filtering requirements and 
 
         The Entity Filters related list is shown in the example.
 
-        ![The Active check box is selected.](../image/ent-types-active-option.png)
+        \[Omitted image "ent-types-active-option.png"\] Alt text: The Active check box is selected.
 
     2.  To create a filter condition, select **New**.
 
         The example shows the dialog box.
 
-        ![Entity filter.](../image/ent-filter-build-condition.png)
+        \[Omitted image "ent-filter-build-condition.png"\] Alt text: Entity filter.
 
     3.  Select **Build your own conditions** in the Filter conditions section, choose **Table** to query \(for example, cmdb\_ci\_server for servers\), and add filter conditions using AND/OR logic.
 
@@ -48,7 +49,7 @@ Choose the appropriate method based on your specific filtering requirements and 
 
         The examples show the filter conditions section.
 
-        ![Conditions.](../image/ent-filter-condition-section.png)![Assignment section.](../image/ent-filter-condition-asmt-section.png)
+        \[Omitted image "ent-filter-condition-section.png"\] Alt text: Conditions.\[Omitted image "ent-filter-condition-asmt-section.png"\] Alt text: Assignment section.
 
     4.  Select **Pillar** and then select **Entity type** in the Assignment section.
 
@@ -66,7 +67,7 @@ Choose the appropriate method based on your specific filtering requirements and 
 
         The example shows that you can select a saved query to set up the filter.
 
-        ![Select from predefined queries.](../image/ent-filter-predefined-query-2.png)
+        \[Omitted image "ent-filter-predefined-query-2.png"\] Alt text: Select from predefined queries.
 
     4.  Select **Pillar** and then select **Entity type** in the Assignment section.
 

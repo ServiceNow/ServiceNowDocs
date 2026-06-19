@@ -2,7 +2,10 @@
 title: Configure guidance detail experience
 description: Configure guidance title and description that are displayed to users in recommended actions or playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-guidance-preview-detail-experiences-ga.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -40,8 +43,8 @@ The detail information appears in playbooks, or in a contextual side panel or in
 
 ## What to do next
 
--   [Customize a guidance preview experience in the UI Builder](customize-ra-preview-experience.md)
--   [Customize a guidance detail experience in the UI Builder](customize-ra-detail-experience.md)
+-   [Customize a guidance preview experience in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-ra-preview-experience.md)
+-   [Customize a guidance detail experience in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customize-ra-detail-experience.md)
 
 The process for configuring a guidance is the same in the Guided Decisions Experience application and the Recommended Actions for Service application.
 

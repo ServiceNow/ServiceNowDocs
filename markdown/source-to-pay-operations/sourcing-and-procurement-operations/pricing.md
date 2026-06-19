@@ -2,6 +2,7 @@
 title: Pricing
 description: Pricing stores the relationship between supplier product, contracts, and price of a product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pricing.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -77,5 +78,5 @@ If the overlapping contracts have a price break structure, use the minimum price
 
 A reference to the pricing record is added on the purchase line to allow procurement specialists to select a different pricing record, if required. If the pricing reference is updated, the starting unit cost and negotiated unit cost are updated on the purchase line, and so is the requisition to contract association.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

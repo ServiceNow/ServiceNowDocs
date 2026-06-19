@@ -2,6 +2,7 @@
 title: Enable analytics for a workspace in Workspace Builder
 description: Enable the Analytics Overview for a workspace in Workspace Builder. The Analytics Overview enables users to track and analyze records and usage with dashboards, data visualizations, and insights on the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/workspace-builder/configure-analytics-workspace.html
 release: australia
 product: Workspace Builder
 classification: workspace-builder
@@ -20,7 +21,7 @@ Enable the Analytics Overview for a workspace in Workspace Builder. The Analytic
 Role required:
 
 -   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -32,7 +33,7 @@ The Analytics Overview always displays current, refreshed content.
 
 1.  Navigate to Workspace Builder.
 
-    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](../../workspace-builder/concept/accessing-workspace-builder-aes-crs.md).
+    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
 
 2.  In the navigation panel, select **Analytics**.
 
@@ -47,5 +48,5 @@ The Analytics Overview always displays current, refreshed content.
 
 ## Result
 
-For more information on working with the Analytics Overview, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
+For more information on working with the Analytics Overview, see .
 

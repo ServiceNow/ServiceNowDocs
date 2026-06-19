@@ -2,6 +2,7 @@
 title: Deactivate an obsolete Lifecycle Events activity
 description: Journey designer customers must deactivate the following Lifecycle Events activity to initiate the process for enabling the Pre-hire experience: Account setup and notification. The Account setup and notification activity must be deactivated so you can use its replacement, a new Lifecycle Events activity that's designed to support the Pre-hire experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-deactivate-old-le-activity.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -17,7 +18,7 @@ Journey designer customers must deactivate the following Lifecycle Events activi
 
 ## Before you begin
 
-Role required: admin \[sn\_jny.admin\]
+Role required: sn\_jny.admin
 
 ## Procedure
 
@@ -43,5 +44,5 @@ Activate the following Lifecycle Events activities to enable support for the Pre
 -   Account/role setup and notification
 -   Transition pre-hire to employee
 
-**Parent Topic:**[Enable and configure the Pre-hire Experience](../concept/jny-pre-hire-enable-configure.md)
+**Parent Topic:**[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)
 

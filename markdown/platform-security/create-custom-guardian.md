@@ -2,6 +2,7 @@
 title: Create a custom guardian
 description: Create your own custom guardian to monitor and detect requests sent to LLM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/create-custom-guardian.html
 release: australia
 topic_type: task
 last_updated: "2026-02-13"
@@ -15,7 +16,7 @@ Create your own custom guardian to monitor and detect requests sent to LLM.
 
 ## Before you begin
 
-Configure a connection and credential alias for your preferred provider. For more information, see [Create a Connection &amp; Credential alias](../../../product/credentials/task/connection-alias.md).
+Configure a connection and credential alias for your preferred provider. For more information, see [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
 
 Role required: admin
 
@@ -113,5 +114,5 @@ Role required: admin
         For example, if the token limit is 1000 and the request content is 2500 tokens, the system splits it into three parts and evaluates each one individually.
 
 
-**Parent Topic:**[Configuring a Guardrail Service Provider](../concept/configuring-byog.md)
+**Parent Topic:**[Configuring a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-byog.md)
 

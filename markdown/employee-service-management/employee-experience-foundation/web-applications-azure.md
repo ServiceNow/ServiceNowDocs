@@ -2,6 +2,7 @@
 title: Sync your applications from Microsoft Entra ID
 description: As an administrator, you can sync your single-sign-on applications and give one-click access to the applications. You can associate topics to the applications to launch useful applications right from the portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-applications-azure.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: sp\_admin and admin
 
 -   The App Launcher synchronization of applications from Azure is compatible only with the latest Microsoft Entra ID spoke version. Ensure that you upgrade the existing Azure AD spoke to sync the apps with your web applications.
 -   Azure AD integration enables your employees to access and manage pre-integrated apps.
--   Integrate Azure AD spoke with ServiceNow, create credential records, and create connection records as explained in [Azure AD spoke setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-azure.md)
+-   Integrate Azure AD spoke with ServiceNow, create credential records, and create connection records as explained in Azure AD spoke setup
 -   Understand the basics of [Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/) spoke and service principals.
 -   Enable easier access to all active apps with valid entitlement in SSO without asking for login credentials.
 
@@ -162,7 +163,7 @@ Option to mark the application as featured. Use the **Featured** option to promo
 
     Applications are fetched. You can proceed to associate topics that are suitable for the application.
 
-4.  To assign the topics to the applications, see [Assign topics to web applications](web-applications-topic-assignment.md).
+4.  To assign the topics to the applications, see [Assign topics to web applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-applications-topic-assignment.md).
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: View the Agent feature matrix
 description: The Agent Client Collector Agent feature matrix displays the availability of Agent Client Collector features. The matrix displays data in a graph and a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-agent-feature-matrix.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -29,7 +30,7 @@ The Agent feature matrix displays the granularity of Agent Client Collector feat
 
     The **Agent feature matrix** appears.
 
-    ![Agent feature matrix](../image/acc-agent-feature-matrix.png "Agent feature matrix")
+    \[Omitted image "acc-agent-feature-matrix.png"\] Alt text: Agent feature matrix
 
     The matrix shows the support status of Agent Client Collector features that are fully supported, partially supported, and not supported \(Unsupported\).
 
@@ -37,13 +38,13 @@ The Agent feature matrix displays the granularity of Agent Client Collector feat
 
     A list of all features in the category appears on the **Agent Feature Support Status** page.
 
-    ![Agent feature support status page](../image/acc-agent-support-status.png "Agent Feature Support Status Page")
+    \[Omitted image "acc-agent-support-status.png"\] Alt text: Agent feature support status page
 
 3.  Select one of the features.
 
     The **Agent Feature Support Status** page for the specific feature appears:
 
-    ![Agent feature support status details page](../image/acc-feature-support-status-details.png "Agent Feature Support Status Details page")
+    \[Omitted image "acc-feature-support-status-details.png"\] Alt text: Agent feature support status details page
 
     The page displays the following:
 

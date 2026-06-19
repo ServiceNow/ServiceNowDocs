@@ -2,6 +2,7 @@
 title: Edit user assignments on the floor plan
 description: Use the floor plan to edit location or neighborhood assignments for the users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-user-assignments-floor-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -17,15 +18,17 @@ Use the floor plan to edit location or neighborhood assignments for the users.
 
 ## Before you begin
 
-Role required: sn\_wsd\_core.workplace\_manager
+Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_planner
+
+**Note:** The sn\_wsd\_core.scenario\_reader role has access to view the map and user assignments.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Central**.
+1.  Navigate to **All** &gt; **Workplace Central** &gt; **Workplace Central**.
 
-2.  Select the **Space Planning** module.
+2.  On the side navigation, select the **Space Planning** module.
 
-    The Floor Plan tab opens by default.
+    The Space Planning workspace opens with the **Floor plan** tab selected by default.
 
 3.  Select a campus, building, and floor to view the map.
 
@@ -35,15 +38,15 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 5.  Edit the user assignments based on your requirement.
 
-<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d493602e105">
+<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d453607e113">
 
 Action
 
-</th><th align="left" id="d493602e108">
+</th><th align="left" id="d453607e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d493602e114">
+</th></tr></thead><tbody><tr><td id="d453607e122">
 
 **Assign a single user**
 
@@ -59,10 +62,14 @@ If you don't select any space, the user is assigned to the floor selected on the
 5.  Select either of the following assignment type for the user.
     -   **Location**: Creates a location assignment on the workplace profile.
     -   **Neighborhood**: Creates a neighborhood assignment on the workplace profile.
-6.  Select **Confirm**.
+6.  Based on your assignment type, fill in the following fields.
+    -   **Move from location**: Existing location assignment of the user. This field is displayed only for the **Location** assignment type.
+    -   **Select neighborhood to move the user from**: Existing neighborhood assignment of the user. This field is displayed only for the **Neighborhood** assignment type.
+    -   **Select neighborhood to move the user to**: New neighborhood assignment of the user. This field is displayed only for the **Neighborhood** assignment type.
+7.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d493602e165">
+</td></tr><tr><td id="d453607e202">
 
 **Assign multiple users**
 
@@ -85,12 +92,30 @@ For the **Neighborhood** assignment, you must select the neighborhood you want t
 
 5.  Add conditions to filter the users.
 
-For example, `Workplace profile is Active`. For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+For example, `Workplace profile is Active`. For more information about conditions, see .
 
 6.  Select the users that you want to assign, then select **Confirm**.
 
 
-</td></tr><tr><td id="d493602e238">
+</td></tr><tr><td id="d453607e274">
+
+**Move a user**
+
+</td><td>
+
+**Note:** Moving a user requires the Workplace Move Management plugin.
+
+ 1.  Select a user on the map.
+
+Alternatively, you can select a space that has a user assigned.
+
+2.  On the details panel, on the user card, select **Move**.
+3.  In the **From location** section, select the location that the user must move from.
+4.  In the **To location** section, select the building, floor, and space the user must move to.
+5.  Select **Apply**.
+
+
+</td></tr><tr><td id="d453607e321">
 
 **Unassign users**
 
@@ -110,5 +135,5 @@ The Unassign users pop-up opens.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Floor Plan](use-floor-plan.md)
+**Parent Topic:**[Use Floor Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/use-floor-plan.md)
 

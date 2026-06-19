@@ -2,6 +2,7 @@
 title: OnCallContactPreferenceUtil - Global
 description: The OnCallContactPreferenceUtil script include provides methods for handling contact preferences.Creates an instance of the OnCallContactPreferenceUtil class.Gets a list of contacts with the escalatee object. Each returned contact contains a list of user contact preferences.Gets the list of contact preferences at the time at which the user has opted for communication. If no time is specified, then current time is used. This method is applicable to single and overlapping shifts.Gets a list of catch-all contacts and preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_OnCallContactPreferenceUtilAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OnCallContactPreferenceUtil script include provides methods for handling contact preferences.
 
-For contact preference configuration, see [Configure contact preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/config-my-contact-prefs-oncall.md).
+For contact preference configuration, see Configure contact preferences.
 
-This script include supports the [OnCallRotation](../../OnCallRotation/concept/c_OnCallRotationAPI.md#) script include.
+This script include supports the [OnCallRotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OnCallRotationAPI.md) script include.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## OnCallContactPreferenceUtil - OnCallContactPreferenceUtil\(\)
 
@@ -55,7 +56,7 @@ Object
 
 </td><td>
 
-Mandatory. Escalatee object returned by the [getEscalationPlan\(\)](../../OnCallRotation/concept/c_OnCallRotationAPI.md#) method.
+Mandatory. Escalatee object returned by the [getEscalationPlan\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OnCallRotationAPI.md) method.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Risk Score Calculator for Additional Related Tables
 description: The Risk Score Calculator is provisioned with one risk-scoring rule as part of the base system to calculate the risk score of security incidents based on user-defined criteria. However, you can customize and include additional related tables to calculate the risk score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/risk-score-calculator-related-tables.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -45,7 +46,7 @@ Role required: sn\_si.admin.
 
     -   Add Security Incidents \(SIs\) to Score Calculator Queue
     -   Add Relation to Score Calculator Queue \(This is applicable for m2m tables\)
-    ![Business rules](../image/risk-br-list-view.png "Business rules")
+    \[Omitted image "risk-br-list-view.png"\] Alt text: Business rules
 
 8.  For example, to get the associated observables criteria to work, we have defined two business rules.
 
@@ -53,14 +54,14 @@ Role required: sn\_si.admin.
 
     For example, a new security incident is created and associated with an observable \(`Observables[sn_ti_observable]`\) table. After threat lookup, the observable is found to be malicious. You then need to add all the security incidents associated with this malicious observable to the Queue to recalculate the risk score of the security incidents.
 
-    ![Add SIs To Score Calculator Queue business rule](../image/risk-br-si-score.png "Add SIs To Score Calculator Queue")
+    \[Omitted image "risk-br-si-score.png"\] Alt text: Add SIs To Score Calculator Queue business rule
 
     The second is the **Add Relation To Score Calculator Queue** business rule.
 
     For example, a new security incident is created or deleted and associated with an observable \(`Task Observables[sn_ti_m2m_task_observable]`\) table. So, there’s a change in the association of the security incident. You then need to add that security incident to the Queue to recalculate the risk score of the security incident.
 
-    ![Add Relation To Score Calculator Queue business rule](../image/risk-br-relation-score.png "Add Relation To Score Calculator Queue")
+    \[Omitted image "risk-br-relation-score.png"\] Alt text: Add Relation To Score Calculator Queue business rule
 
 
-**Parent Topic:**[Define the new Risk Score Calculator Rules](define-risk-score-calculator-rules-sir.md)
+**Parent Topic:**[Define the new Risk Score Calculator Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/define-risk-score-calculator-rules-sir.md)
 

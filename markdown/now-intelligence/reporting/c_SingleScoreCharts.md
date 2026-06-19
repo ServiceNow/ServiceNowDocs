@@ -2,6 +2,7 @@
 title: Single score report
 description: Single score reports display a single value that is key to your business. Add single score reports to dashboards and configure them to update in real time.Create a single score chart to display a metric or score that is key to your business. The value updates in real time on a dashboard.Change the look of your single score report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_SingleScoreCharts.html
 release: australia
 product: Reporting
 classification: reporting
@@ -15,17 +16,17 @@ breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Ana
 
 Single score reports display a single value that is key to your business. Add single score reports to dashboards and configure them to update in real time.
 
-**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](../../performance-analytics/concept/explore-data-vis-library.md).
+**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/explore-data-vis-library.md).
 
-Single score reports which include [dynamic conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UsingTheDynamicOperator.md) added at the report level will not show real-time updates on dashboards unless manually refreshed, or upon a page refresh. The real-time dashboard widget relies on the record watcher to know when an update has been made in order for the single score widget to auto-refresh. However, dynamic conditions aren't supported as part of the record watcher. See further explanation in [Create a real-time score visualization for a score widget](../../performance-analytics/task/create-real-time-score-widget.md).
+Single score reports which include dynamic conditions added at the report level will not show real-time updates on dashboards unless manually refreshed, or upon a page refresh. The real-time dashboard widget relies on the record watcher to know when an update has been made in order for the single score widget to auto-refresh. However, dynamic conditions aren't supported as part of the record watcher. See further explanation in [Create a real-time score visualization for a score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-real-time-score-widget.md).
 
-![A single score report that has been added to a dashboard](../image/SingleScoreReport.png "Single score report that has been added to a dashboard")
+\[Omitted image "SingleScoreReport.png"\] Alt text: A single score report that has been added to a dashboard
 
 **Note:** This report type cannot be run as a scheduled report.
 
-This data visualization is supported on the mobile platform. For more information see [Single score reports for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-reporting-single-score.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-dashboard-preview.md).
+This data visualization is supported on the mobile platform. For more information see  and .
 
-**Parent Topic:**[Report types](../reference/report-types-creation-details-rd.md)
+**Parent Topic:**[Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md)
 
 ## Create a single score report
 
@@ -39,43 +40,43 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
-2.  On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](../../dashboards/reference/differences-between-core-ui-ne-dbs.md).
+2.  On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
 3.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 4.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d233968e281">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d49977e279">
 
 **Data source**
 
 </td><td>
 
-Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](c_ReportSources.md#).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
+Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d233968e300">
+</td></tr><tr><td id="d49977e298">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md)
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see Retrieving external data using remote tables and scripts
 
-</td></tr><tr><td id="d233968e319">
+</td></tr><tr><td id="d49977e317">
 
 **External import**
 
 </td><td>
 
-Choose an existing imported report source, or select the Upload icon \(![Upload icon](../image/upload-icon.png)\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](../task/create-report-with-imported-data-source.md).
+Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d233968e344">
+</td></tr><tr><td id="d49977e342">
 
 **MetricBase**
 
 </td><td>
 
-MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase.md).
+MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see MetricBase.
 
 </td></tr></tbody>
 </table>5.  Select **Next**.
@@ -100,7 +101,7 @@ Configure function field
 
 </td><td>
 
-Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
+Configure fields based on calculation of multiple inputs including arithmetic functions. For more information, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md). Function field results are calculated when the report is run. You can use the results for aggregations and grouping. You have to save the report before you can configure function fields.Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
 
 </td></tr><tr><td>
 
@@ -112,9 +113,9 @@ Computational method for aggregating report data. The default is **Count**, whic
 
  If you select **Count Distinct**, only unique records are counted. For example, you want to generate a report with a distinct number of users who have one or more of the roles in a given list of roles. Users with more than one role would be counted twice unless you use **Count Distinct**.
 
- If you select **Average**, **Sum**, or **Count Distinct**, a list of fields from the selected **Table** appears. You may further be able to aggregate on fields from extended tables. See [How to report on extended tables.](../task/t_AccessFieldExtendedTable.md#) Select a field to aggregate by from this list. For example, if you select a duration field, such as **Business duration** on the Incident table, the aggregated data is expressed in days, hours, and minutes.
+ If you select **Average**, **Sum**, or **Count Distinct**, a list of fields from the selected **Table** appears. You may further be able to aggregate on fields from extended tables. See [How to report on extended tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_AccessFieldExtendedTable.md) Select a field to aggregate by from this list. For example, if you select a duration field, such as **Business duration** on the Incident table, the aggregated data is expressed in days, hours, and minutes.
 
- If you select an integer field, such as the **Priority** field, the data is expressed as a number. You may further be able to aggregate on fields from extended tables. See [How to report on extended tables.](../task/t_AccessFieldExtendedTable.md#)
+ If you select an integer field, such as the **Priority** field, the data is expressed as a number. You may further be able to aggregate on fields from extended tables. See [How to report on extended tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_AccessFieldExtendedTable.md)
 
 </td></tr><tr><td>
 
@@ -122,16 +123,16 @@ Set Value Formatting
 
 </td><td>
 
-Enables you to configure how to show numerical values in reports, including decimal precision, rounding, minimum and maximum duration units, and abbreviations for duration units. See [Value formatting in reports](../reference/value-formatting-reports.md#).
+Enables you to configure how to show numerical values in reports, including decimal precision, rounding, minimum and maximum duration units, and abbreviations for duration units. See [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/value-formatting-reports.md).
 
  **Note:** Decimal precision does not work on currency fields.
 
 </td></tr></tbody>
 </table>    **Note:** Currency fields default to two decimal places. With the **Set Value Formatting** option, you can configure decimal precision for 0-4 decimal places.
 
-8.  To limit the information displayed in the report, select the filter icon \(![Filter icon](../../../common/image/List_FilterIcon.png)\) and specify conditions to filter the report data.
+8.  To limit the information displayed in the report, select the filter icon \(\[Omitted image "List\_FilterIcon.png"\] Alt text: Filter icon\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    To learn how to construct conditions, see Condition builder.
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
@@ -142,8 +143,8 @@ Enables you to configure how to show numerical values in reports, including deci
 
 ### What to do next
 
--   Select the Report info icon \(![Info icon](../../../common/image/Form_ReferenceLookupIcon.png)\) and add a description of the report.
--   Select the sharing icon \(![Sharing icon](../image/ShareIcon.png)\) to open the **Sharing** menu. On this menu, you can share the report with users and groups, add the report to a dashboard, and publish the report to the web.
+-   Select the Report info icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Info icon\) and add a description of the report.
+-   Select the sharing icon \(\[Omitted image "ShareIcon.png"\] Alt text: Sharing icon\) to open the **Sharing** menu. On this menu, you can share the report with users and groups, add the report to a dashboard, and publish the report to the web.
 
 ## Single score report style options
 
@@ -185,7 +186,7 @@ Drilldown view
 
 </td><td>
 
-List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md) . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](c_DrillingDownWithinReports.md#).
+List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See Configure the list layout . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DrillingDownWithinReports.md).
 
 </td></tr><tr><td>
 
@@ -193,7 +194,7 @@ Edit coloring rules
 
 </td><td>
 
-Click this hyperlink to configure how values are colored in the report. You can create rules to define which colors are used based on operators and values. For example, you can specify that any value greater than 5 displays in red. See [Create coloring rules for single score reports](../task/single-score-report-coloring-rules.md).
+Click this hyperlink to configure how values are colored in the report. You can create rules to define which colors are used based on operators and values. For example, you can specify that any value greater than 5 displays in red. See [Create coloring rules for single score reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/single-score-report-coloring-rules.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

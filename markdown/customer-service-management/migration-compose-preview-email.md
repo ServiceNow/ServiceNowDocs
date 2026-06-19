@@ -2,7 +2,10 @@
 title: Email Composer and Email Viewer
 description: Learn about how the Email Composer and Email Viewer function with Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-compose-preview-email.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ The Email Composer component enables requestors and fulfillers to use email to c
 |-----------------|--------------|
 |No corresponding table|sys\_ux\_screen|
 
-Configure the Email Composer in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+Configure the Email Composer in UI Builder.
 
 For more information about the Email Composer component, see [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades).
 
@@ -33,7 +36,7 @@ The Email Viewer component enables customer service agents to preview emails in 
 |-----------------|--------------|
 |No corresponding table|sys\_ux\_screen|
 
-Configure the Email Viewer in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+Configure the Email Viewer in UI Builder.
 
 For more information about the Email Viewer component, see [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades).
 

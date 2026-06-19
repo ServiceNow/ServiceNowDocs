@@ -2,6 +2,7 @@
 title: Use filters in the Conversation tab
 description: You can filter out conversation for a deeper understanding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,17 +21,17 @@ You can filter out conversation for a deeper understanding.
 
 To filter the conversations, select filter icon and select **Advanced view** button to use the filter editor. You can either select an existing filter from the list or create a new filter condition.
 
-![Filter editor filter conditions.](../images/filter-editor-pae.png "Building filters in the filter editor")
+\[Omitted image "filter-editor-pae.png"\] Alt text: Filter editor filter conditions.
 
 The filter editor consists of the following:
 
--   Field: A list based on relevant tables. For more information about the field options, see [Field options in the Filter Editor](conversation-tab-filtering-pae.md#section_zpm_12c_xpb).
+-   Field: A list based on relevant tables. For more information about the field options, see [Field options in the Filter Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-filtering-pae.md).
 -   Operator: A list of operators that is contextually generated based on the selected field.
 -   Value: A text entry field or a list that is contextually generated based on the selected field.
 
 To add a dependent condition in the filter editor, either select **or** or **and**. To filter the conversations list using the condition, select **Update**.
 
-To remove a condition, select the delete icon ![Delete icon.](../images/delete-icon.png) next to the condition.
+To remove a condition, select the delete icon \[Omitted image "delete-icon.png"\] Alt text: Delete icon. next to the condition.
 
 To save a condition that you created in the condition builder, select **Save filter**. In the Save Filter pop-up window, specify a name for the filter. You can also set permissions for the filter in the Save Filter window. Users having the Chat Analytics Viewer \(chat\_analytics\_viewer\) role can select and modify saved filters.
 
@@ -40,8 +41,8 @@ To save a condition that you created in the condition builder, select **Save fil
 |------|-----------|
 |Channel|Conversations that used the specified channel.|
 |Conversation Time|Conversations within the specified date and time.|
-|Duration|Conversations within the specified time duration. You can edit the definition of duration to be a session duration, rather than an active messaging duration. For more information, see [Create custom override definitions](../task/set-up-custom-definitions-pae.md).|
-|End State|Conversations with the specified state that is based on how conversations ended. The values for the end states are stored in the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](va-interactions.md).|
+|Duration|Conversations within the specified time duration. You can edit the definition of duration to be a session duration, rather than an active messaging duration. For more information, see [Create custom override definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-custom-definitions-pae.md).|
+|End State|Conversations with the specified state that is based on how conversations ended. The values for the end states are stored in the Interactions \[interactions\] table. For more information, see [Virtual Agent interaction records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-interactions.md).|
 |Events|Specific events that are triggered in a conversation.|
 |Feedback Result|Conversations for the specified feedback type.|
 |Language|Conversations for the specified language based on the user's language setting.|
@@ -55,5 +56,5 @@ To save a condition that you created in the condition builder, select **Save fil
 |Topics|Conversations that used the specified topics in the chat.|
 |Type|Conversations that are of the specified type such as live agent only or Virtual Agent only.|
 
-**Parent Topic:**[Conversations tab](conversation-tab-pae.md)
+**Parent Topic:**[Conversations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-pae.md)
 

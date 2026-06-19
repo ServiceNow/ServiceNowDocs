@@ -2,11 +2,12 @@
 title: Smartsheet Spoke
 description: The Smartsheet spoke integrates the ServiceNow platform with Smartsheet so that you can automate various actions, such as creating cells in a particular sheet when a database table is updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/smartsheet-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-05"
 reading_time_minutes: 8
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
@@ -18,7 +19,7 @@ The Smartsheet spoke integrates the ServiceNow® platform with Smartsheet so tha
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +27,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Smartsheet spoke v2.6.1 is the latest version.
+Smartsheet spoke v2.7.0 is the latest version.
 
 ## Supported versions
 
@@ -65,7 +66,7 @@ Smartsheet Download Subscriptions
 
 </td><td>
 
-Downloads user subscriptions from the Smartsheet portal. To use this subflow, perform the steps outlined in [Integrating with Smartsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-smartsheet.md).
+Downloads user subscriptions from the Smartsheet portal. To use this subflow, perform the steps outlined in Integrating with Smartsheet.
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Smartsheet Update User Activity
 
 </td><td>
 
-Retrieves Smartsheet user activity.To use this subflow, perform the steps outlined in [Integrating with Smartsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-smartsheet.md).
+Retrieves Smartsheet user activity.To use this subflow, perform the steps outlined in Integrating with Smartsheet.
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ Smartsheet Reclaim Subscription
 
 </td><td>
 
-Deactivates user accounts in Smartsheet.To use this subflow, perform the steps outlined in [Integrating with Smartsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-smartsheet.md).
+Deactivates user accounts in Smartsheet.To use this subflow, perform the steps outlined in Integrating with Smartsheet.
 
 </td></tr></tbody>
 </table>## Spoke actions
@@ -260,25 +261,41 @@ Check Event Reporting
 
 Checks if the customer has the event reporting add-on enabled. If enabled, a value of 0 is returned. If not, a value of 1 is returned.
 
-</td></tr><tr><td rowspan="3">
+</td></tr><tr><td rowspan="5">
 
 Folder Management
 
 </td><td>
 
-Create Folder
+Create Folder in Folder
 
 </td><td>
 
-Creates a folder on the Home pane of the Smartsheet project.
+Creates a folder in the specified Smartsheet Folder.
 
 </td></tr><tr><td>
 
-Look up Folders Stream
+Create Folder in Workspace
 
 </td><td>
 
-Retrieves the information on all top-level child folders on the Home pane of the Smartsheet project.
+Creates a folder in the specified Smartsheet workspace.
+
+</td></tr><tr><td>
+
+List Folder Children Stream
+
+</td><td>
+
+Retrieves a paginated list of immediate child resources within a specified Smartsheet folder.
+
+</td></tr><tr><td>
+
+List Workspace Children Stream
+
+</td><td>
+
+Retrieves a paginated list of immediate child resources within a specified Smartsheet workspace.
 
 </td></tr><tr><td>
 
@@ -561,16 +578,16 @@ Updates the details of a webhook.
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 
@@ -588,11 +605,11 @@ Available AI agents include:
 |Smartsheet cell history AI agent|Automates various tasks related to the history of the data in the cells such as looking up cell history stream to retrieve and analyze historical data from Smartsheet cells,|
 |Smartsheet folder management AI agent|Automates folder-related tasks such as fetch list of available folders, create a new folder, and update a folder.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 

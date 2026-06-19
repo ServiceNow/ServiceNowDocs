@@ -2,6 +2,7 @@
 title: Monitor Journey Accelerator plans
 description: Monitor plans and to-do tasks from the Journey Accelerator dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/monitor-journey-accelerator-plans.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -33,5 +34,5 @@ Role required: Reader \[sn\_ja.reader\]
     -   Plans Published in Last 6 Months
     -   To-dos Created in Last 6 Months - From Template \(True\) Vs. Plan Created \(False\)
 
-**Parent Topic:**[Working with Journey Accelerator plans](../concept/working-with-journey-accelerator-plans.md)
+**Parent Topic:**[Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
 

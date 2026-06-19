@@ -1,19 +1,21 @@
 ---
 title: Work on an invoice processing case
-description: Perform different manual actions to process an invoice.
+description: Perform manual actions to review, update, and resolve invoice processing issues during the invoice lifecycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-manual-invoice-ingestion-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
+keywords: [APO, Accounts Payable Operations, invoice processing, AP case, admin, AP specialist]
 breadcrumb: [Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Work on an invoice processing case
 
-Perform different manual actions to process an invoice.
+Perform manual actions to review, update, and resolve invoice processing issues during the invoice lifecycle.
 
 ## Before you begin
 
@@ -23,27 +25,27 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 An invoice case with a category of Invoice automation and sub-category of Invoice processing is referred to as an invoice processing case.
 
-By default, an invoice processing case is automatically created when you receive an invoice via email. Document Intelligence captures the invoice data and subsequently creates the invoice and invoice line records in Accounts Payable Operations. However, the Accounts Payable Specialist can also manually create an invoice from the Source-to-Pay Workspace. For more information, see [Create an invoice manually](create-invoice.md).
+By default, an invoice processing case is automatically created when you receive an invoice via email. Document Intelligence captures the invoice data and subsequently creates the invoice and invoice line records in Accounts Payable Operations. However, the Accounts Payable Specialist can also manually create an invoice from the Source-to-Pay Workspace. For more information, see [Create an invoice manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice.md).
 
-For a description of the field values and information about the available tabs on the invoice processing case form, see [Invoice processing case form](../reference/invoice-processing-case-form.md).
+For a description of the field values and information about the available tabs on the invoice processing case form, see [Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md).
 
 ## Procedure
 
 1.  Navigate to **Source-to-Pay Workspace**&gt;**All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Do one of the following:
 
     -   Navigate to **Lists** &gt; **My Work** &gt; **My open invoice processing cases**.
     -   Navigate to **Lists** &gt; **All Work** &gt; **All open invoice processing cases**.
-    ![List view](../image/apo-list-view.png)
+    \[Omitted image "apo-list-view.png"\] Alt text: List view
 
 4.  Open an invoice processing case.
 
     Typically, the state of the newly created invoice processing case is New and the status of the invoice associated with this case is either Draft or Received, depending on how it was processed by the Accounts Payable Operations integration with Document Intelligence application.
 
-    For more information about invoice statuses, see [Work with invoices](../concept/work-with-invoices.md).
+    For more information about invoice statuses, see [Work with invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoices.md).
 
 5.  In the **Assigned to** field, specify a user that you want to assign the invoice processing case to.
 
@@ -75,7 +77,7 @@ If a processing error occurs in Document Intelligence, the invoice processing ca
 
  `Invoice has a data extraction error. Review invoice with automation to continue processing.`
 
- For more information, see [Review an invoice in Document Intelligence](review-invoice-docintel.md).
+ For more information, see [Review an invoice in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/review-invoice-docintel.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +89,7 @@ If a transformation error occurs in Document Intelligence, the invoice processin
 
  `Required information for invoice has one or more errors. Review required fields and currency in "Details" tab to continue processing.`
 
- For more information, see [Enter the missing required invoice information and submit an invoice](enter-missing-docintel.md).
+ For more information, see [Enter the missing required invoice information and submit an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/enter-missing-docintel.md).
 
 </td></tr></tbody>
 </table>8.  Submit the invoice.
@@ -102,11 +104,11 @@ If a transformation error occurs in Document Intelligence, the invoice processin
 
 9.  Confirm whether the invoice is a duplicate.
 
-    For more information, see [Confirm whether an invoice is a duplicate](confirm-duplicate-invoice.md).
+    For more information, see [Confirm whether an invoice is a duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/confirm-duplicate-invoice.md).
 
     If you confirm that the invoice is a duplicate, the invoice moves to the Confirmed duplicate status and the invoice processing case moves to the Closed incomplete state.
 
-    **Note:** When the invoice is in the Confirmed duplicate status, the **Reset to Received** option becomes available. If you've confirmed an invoice as duplicate by mistake, you can reset the status back to the Received status. For more information, see [Reset an invoice to the Received status](reset-invoice-to-received.md).
+    **Note:** When the invoice is in the Confirmed duplicate status, the **Reset to Received** option becomes available. If you've confirmed an invoice as duplicate by mistake, you can reset the status back to the Received status. For more information, see [Reset an invoice to the Received status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/reset-invoice-to-received.md).
 
     If you confirm that the invoice is not a duplicate, the invoice moves to the Accepted status, and the invoice processing case remains in the Work in progress state.
 
@@ -129,7 +131,7 @@ If a transformation error occurs in Document Intelligence, the invoice processin
 
 10. Check for exceptions on the invoice.
 
-    For more information, see [Check for invoice exceptions on a single invoice](identify-exceptions-manually.md).
+    For more information, see [Check for invoice exceptions on a single invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/identify-exceptions-manually.md).
 
     If no exceptions are found, the invoice moves to the No exceptions found status.
 
@@ -137,7 +139,7 @@ If a transformation error occurs in Document Intelligence, the invoice processin
 
     `Invoice has one or more exceptions. Resolve all issues in "Invoice exceptions" to continue processing.`
 
-    The Accounts Payable Specialist can work on the exceptions or create exception tasks and assign them to other users to resolve the exceptions. For more information, see [Invoice exceptions](../concept/work-with-invoice-exceptions.md).
+    The Accounts Payable Specialist can work on the exceptions or create exception tasks and assign them to other users to resolve the exceptions. For more information, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
 
     After all the exception tasks are completed and the exceptions are resolved, the invoice moves to the No exceptions found status. The invoice processing case remains in the Work in progress state.
 
@@ -145,7 +147,7 @@ If a transformation error occurs in Document Intelligence, the invoice processin
 
     The invoice moves to the Pending approval status and the invoice processing case remains in the Work in progress state.
 
-    Typically, an invoice that is in the No exceptions found status is automatically picked by the approval engine and submitted for approval. However, in a few scenarios, you may have to manually submit an invoice for approval. For more information, see [Invoice approvals](../concept/invoice-approvals.md).
+    Typically, an invoice that is in the No exceptions found status is automatically picked by the approval engine and submitted for approval. However, in a few scenarios, you may have to manually submit an invoice for approval. For more information, see [Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md).
 
     After you submit the invoice, the invoice moves to the Pending approval status, and the invoice processing case remains in the Work in progress state.
 
@@ -157,8 +159,8 @@ If a transformation error occurs in Document Intelligence, the invoice processin
 
     -   If the invoice is approved, the invoice moves to the Approved status and the invoice processing case moves to the Closed complete state.
 
--   **[Accounts Payable Specialist manual tasks](../concept/aps-manual-tasks.md)**  
-Accounts Payable Operations performs invoice processing using automated workflows, with minimal manual intervention. In some situations, however, the Accounts Payable Specialist is required to perform a few manual tasks to move the invoice to the next stage of processing.
+-   **[Accounts Payable Specialist manual tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.md)**  
+Manual tasks in Accounts Payable Operations are actions that specialists complete when automated invoice processing workflows require human review or intervention to proceed.
 
-**Parent Topic:**[Invoice processing cases](../concept/working-with-ingestion-cases.md)
+**Parent Topic:**[Invoice processing cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-ingestion-cases.md)
 

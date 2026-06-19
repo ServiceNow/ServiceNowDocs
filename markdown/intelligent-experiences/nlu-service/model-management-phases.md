@@ -2,6 +2,7 @@
 title: Model management
 description: Manage your NLU model's life cycle in the NLU Workbench. Model management phases guide you through the iterative process of building, testing, and publishing your model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/model-management-phases.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -21,9 +22,9 @@ The phases available for your model depend on the model's application. The syste
 
 To use the model management phases, ensure you have all the necessary NLU plugins. For more information, see the following resources:
 
--   [Activate the NLU Workbench](../task/activate-nlu-workbench.md)
--   [Install NLU Workbench - Advanced Features](../task/install-nlu-workbench-adv-features.md)
--   [Install Intent Discovery](../task/install-intent-discovery.md)
+-   [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/activate-nlu-workbench.md)
+-   [Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md)
+-   [Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/install-intent-discovery.md)
 
 **Note:** NLU Workbench - Advanced Features and Intent Discovery are available from the ServiceNow Store. NLU model testing and performance monitoring require NLU Workbench - Advanced Features.
 
@@ -31,13 +32,13 @@ To use the model management phases, ensure you have all the necessary NLU plugin
 
 To create a model for Virtual Agent or AI Search, navigate to **NLU Workbench** &gt; **Models**. The Virtual Agent tab opens by default. Select the appropriate tab for the model you want to create.
 
-![In the NLU Workbench, Virtual Agent tab, the Create new model button is highlighted.](../images/model-management-phasesV1.png) You can choose different ways to create a model:
+\[Omitted image "model-management-phasesV1.png"\] Alt text: In the NLU Workbench, Virtual Agent tab, the Create new model button is highlighted. You can choose different ways to create a model:
 
 -   **Use prebuilt model**: Copy one of the included read-only models, and add content specific to your business.
 -   **Import data from CSV**: Upload a CSV file that contains training utterances and matched intents.
 -   **Start from blank**: Go through the process of setting up a new model from scratch.
 
-To get started, see [Creating models](creating-models.md).
+To get started, see [Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/creating-models.md).
 
 ## Model management phases
 
@@ -45,7 +46,7 @@ After creating a model, access its management phases by navigating to **NLU Work
 
 There are three phases on a Virtual Agent model's overview page: Build and train your model, Test and publish your model, and Tune your model. These phases guide you as you build and improve your model.
 
-![Model management phases for a trained NLU model.](../images/model-managementT2.png)
+\[Omitted image "model-managementT2.png"\] Alt text: Model management phases for a trained NLU model.
 
 ## Build and train your model
 
@@ -56,31 +57,31 @@ Build the model by adding and managing content:
 -   Vocabulary: Add vocabulary to enable the model to better understand words and phrases that are specific to your business, such as industry terms and acronyms.
 -   Test set: Add test utterances and their expected intents to your model's default test set.
 
-To learn more, see [Build and train your model](managing-model-content.md).
+To learn more, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/managing-model-content.md).
 
-Train your model using utterances that the model is likely to encounter from your users. To learn more, see [Train and try your NLU model](../task/test-train-nlu-model.md).
+Train your model using utterances that the model is likely to encounter from your users. To learn more, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md).
 
 ## Test and publish your model
 
 Test your model to gauge the performance and identify areas for improvement.
 
-**Note:** Model testing requires the NLU Workbench - Advanced Features store application. For more information, see [NLU Workbench - Advanced Features](nlu-workbench-advanced-features.md).
+**Note:** Model testing requires the NLU Workbench - Advanced Features store application. For more information, see [NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md).
 
-For more information on testing and thresholds, see [Test and publish your model](testing-your-model.md).
+For more information on testing and thresholds, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/testing-your-model.md).
 
-When you're satisfied with the results of testing, publish your model to make it available for use by other applications. For more information, see [Publish your NLU model](../task/publish-nlu-model.md).
+When you're satisfied with the results of testing, publish your model to make it available for use by other applications. For more information, see [Publish your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/publish-nlu-model.md).
 
 ## Tune your model
 
 If NLU Workbench - Advanced Features is installed, and your model is created for Virtual Agent, the **Tune your model** phase is enabled. With this phase, you can use **Expert Feedback Loop** to incorporate actual user utterances into your model.
 
-For more information, see [Tune your model](nlu-tune-your-model.md).
+For more information, see [Tune your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-tune-your-model.md).
 
-If your model is created for Issue Auto Resolution, you will be taken to IAR Tuning by selecting the name of your model in the IAR tab of the NLU Workbench homepage. For more information, see [Issue Auto Resolution Tuning in NLU](issue-auto-resolution-tuning-nlu.md).
+If your model is created for Issue Auto Resolution, you will be taken to IAR Tuning by selecting the name of your model in the IAR tab of the NLU Workbench homepage. For more information, see [Issue Auto Resolution Tuning in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.md).
 
 ## Model settings
 
 Use the **Settings** page of the model overview to change the name and description of the model. You can also modify the confidence threshold of the model. The confidence threshold determines how confident the model must be to predict an intent.
 
-For more information, see [NLU model settings](nlu-model-settings.md).
+For more information, see [NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-model-settings.md).
 

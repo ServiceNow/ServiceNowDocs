@@ -2,6 +2,7 @@
 title: AWS classic ELB Service discovery with Patterns
 description: Discovery uses the Amazon AWS classic ELB Service discovery pattern to find all load balancers that use HTTP and HTTPS traffic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-classic-elb-service-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -23,17 +24,17 @@ The ServiceNow AI Platform supports Amazon Commercial Cloud Services \(C2S\) for
 
 You can use this pattern on the ServiceNow platform using Jakarta or later releases.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
--   Run a horizontal discovery, using [Cloud API \(CAPI\)](../../cloud-management-v2/concept/cloud-management-api.md). This is necessary because this discovery pattern supports top-down discovery only. For cloud discovery, you can run the horizontal discovery as usual.
+-   Run a horizontal discovery, using [Cloud API \(CAPI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-api.md). This is necessary because this discovery pattern supports top-down discovery only. For cloud discovery, you can run the horizontal discovery as usual.
 -   When the load balancers data has been stored in the Configuration Management Database \(CMDB\), create an application service for each load balancer.
 -   Set read-only permissions for these REST APIs:
     -   https://elasticloadbalancing.&lt;REGION&gt;.amazonaws.com/?Action=DescribeLoadBalancers&amp;Version=2012-06-01&amp;LoadBalancerNames.member.1=&lt;LB\_NAME&gt;
     -   https://ec2.&lt;REGION&gt;.amazonaws.com/?Action=DescribeInstances&amp;Version=2016-11-15&amp;Filter.1.Name=instance-state-name&amp;Filter.1.Value=running&amp;Filter.2.Name=instance-id&amp;Filter.2.Value=&lt;INSTANCE\_ID&gt; \(to create relation between LB and EC2 instance\)
 -   For Cloud Discovery, download the Discovery and Service Mapping Patterns from the ServiceNow Store.
--   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md) published on the ServiceNow documentation site.
+-   When installing the MID Server, ensure that the host machine meets or exceeds the MID Server system requirements published on the ServiceNow documentation site.
 
 ## Verify the REST API Permissions
 
@@ -62,5 +63,5 @@ The discovered data includes the following tables and fields.
 |Name \[name\]|Name of the load balancer, in the following format: &lt;LB name&gt;:&lt;LB port&gt;.|
 |Netmask \[netmask\]|0.0.0.0|
 
-**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

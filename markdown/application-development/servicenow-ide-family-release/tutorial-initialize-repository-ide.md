@@ -2,6 +2,7 @@
 title: Tutorial part 2: Initialize a repository for your application
 description: Initialize a local Git repository for an application in the ServiceNow IDE and push it to a remote Git repository in GitHub to manage the application in source control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/tutorial-initialize-repository-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -17,15 +18,15 @@ Initialize a local Git repository for an application in the ServiceNow IDE and p
 
 ## Before you begin
 
-Complete [Tutorial part 1: Create an application in the ServiceNow IDE](tutorial-create-application-ide.md).
+Complete [Tutorial part 1: Create an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/tutorial-create-application-ide.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  From the Activity Bar, select the Source Control view \(![Source Control](../image/servicenow-ide-source-control-icon.png)\).
+1.  From the Activity Bar, select the Source Control view \(\[Omitted image "servicenow-ide-source-control-icon.png"\] Alt text: Source Control\).
 
-    ![Source control view with no connected repositories and the option to initialize a local repository.](../image/servicenow-ide-initialize-repo.png)
+    \[Omitted image "servicenow-ide-initialize-repo.png"\] Alt text: Source control view with no connected repositories and the option to initialize a local repository.
 
 2.  Initialize a Git repository that's local to the ServiceNow IDE.
 
@@ -41,41 +42,41 @@ Role required: admin
 
 3.  Stage and commit your changes.
 
-    1.  From the Untracked Changes list, select the Stage All Untracked Changes icon \(![Stage all untracked changes](../image/servicenow-ide-stage-icon.png)\).
+    1.  From the Untracked Changes list, select the Stage All Untracked Changes icon \(\[Omitted image "servicenow-ide-stage-icon.png"\] Alt text: Stage all untracked changes\).
 
-        ![Source Control view with application files in the Untracked Changes list.](../image/servicenow-ide-stage-changes.png)
+        \[Omitted image "servicenow-ide-stage-changes.png"\] Alt text: Source Control view with application files in the Untracked Changes list.
 
         Your changes move to the Staged Changes list.
 
     2.  In the message box, enter a commit message.
 
-    3.  Select the Commit icon \(![Stage all untracked changes](../image/servicenow-ide-commit-icon.png)\).
+    3.  Select the Commit icon \(\[Omitted image "servicenow-ide-commit-icon.png"\] Alt text: Stage all untracked changes\).
 
-        ![Source Control view with application files in the Staged Changes list and a commit message.](../image/servicenow-ide-commit-changes.png)
+        \[Omitted image "servicenow-ide-commit-changes.png"\] Alt text: Source Control view with application files in the Staged Changes list and a commit message.
 
     Now that you have committed changes, you can expand the Commits section to see your commit history and details about each commit.
 
-    ![Commit history showing an initial commit, including the commit message and author.](../image/servicenow-ide-commit-history.png)
+    \[Omitted image "servicenow-ide-commit-history.png"\] Alt text: Commit history showing an initial commit, including the commit message and author.
 
     To push your changes to a remote repository that other developers can access, you need to create a repository with a Git provider like GitHub and generate a personal access token.
 
-    **Note:** The following steps demonstrate using GitHub and basic authentication as an example, but you could use another Git provider of your choosing or OAuth 2.0 authentication. For more information, see [Integrating source control with the ServiceNow IDE](../concept/integrating-source-control-servicenow-ide.md).
+    **Note:** The following steps demonstrate using GitHub and basic authentication as an example, but you could use another Git provider of your choosing or OAuth 2.0 authentication. For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md).
 
 4.  Create a remote repository.
 
     1.  Log in to your GitHub account.
 
-    2.  Select the Create new menu \(![Create new](../image/servicenow-ide-gh-plus-icon.png)\) and select **New repository**.
+    2.  Select the Create new menu \(\[Omitted image "servicenow-ide-gh-plus-icon.png"\] Alt text: Create new\) and select **New repository**.
 
     3.  On the New repository form, fill in the fields.
 
-        ![Create a new repository form in GitHub.](../image/servicenow-ide-gh-new-repo.png)
+        \[Omitted image "servicenow-ide-gh-new-repo.png"\] Alt text: Create a new repository form in GitHub.
 
     4.  Select **Create repository**.
 
     5.  From your repository, copy the HTTPS URL and paste it somewhere that you can easily access it again for use in the following steps.
 
-        ![Copy the HTTPS URL for your repository in GitHub.](../image/servicenow-ide-gh-repo-url.png)
+        \[Omitted image "servicenow-ide-gh-repo-url.png"\] Alt text: Copy the HTTPS URL for your repository in GitHub.
 
 5.  Create a personal access token.
 
@@ -91,13 +92,13 @@ Role required: admin
 
         The **repo** scope is required to connect to the ServiceNow IDE.
 
-        ![Create a new personal access token (classic) with the repo scope selected in the scopes list.](../image/servicenow-ide-gh-create-token.png)
+        \[Omitted image "servicenow-ide-gh-create-token.png"\] Alt text: Create a new personal access token \(classic\) with the repo scope selected in the scopes list.
 
     6.  Select **Generate token**.
 
     7.  Copy the token and paste it somewhere that you can easily access it again for use in the following steps so you don't need to regenerate it.
 
-        ![A personal access token that you can copy.](../image/servicenow-ide-gh-token.png)
+        \[Omitted image "servicenow-ide-gh-token.png"\] Alt text: A personal access token that you can copy.
 
 6.  Configure basic authentication in the ServiceNow IDE to connect to the remote repository.
 
@@ -127,26 +128,26 @@ Role required: admin
 
 7.  Push your changes to the remote repository.
 
-    1.  Select the More actions menu icon \(![More actions](../image/servicenow-ide-more-actions-icon.png)\) and select **Push**.
+    1.  Select the More actions menu icon \(\[Omitted image "servicenow-ide-more-actions-icon.png"\] Alt text: More actions\) and select **Push**.
 
-        ![Push the staged changes to the remote repository.](../image/servicenow-ide-push-changes.png)
+        \[Omitted image "servicenow-ide-push-changes.png"\] Alt text: Push the staged changes to the remote repository.
 
     2.  Enter the HTTPS URL of the remote Git repository and press Enter.
 
     The application is added to the remote repository in GitHub, and changes to the application across users are tracked remotely.
 
-    ![The hello-world repository in GitHub, which contains the Hello World application from the ServiceNow IDE.](../image/servicenow-ide-gh-repo.png)
+    \[Omitted image "servicenow-ide-gh-repo.png"\] Alt text: The hello-world repository in GitHub, which contains the Hello World application from the ServiceNow IDE.
 
 
 ## Result
 
-You can check out or create branches in the repository and push changes to the remote repository. For more information, see [Using source control in the ServiceNow IDE](../concept/using-source-control-servicenow-ide.md).
+You can check out or create branches in the repository and push changes to the remote repository. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
 
 **Note:** An application on an instance can be connected to only one repository at a time. To update the remote repository an application is connected to, you can use the `Git: Update remote origin` command from the command palette and enter a different remote repository URL.
 
 ## What to do next
 
-Continue to [Tutorial part 3: Define a table in ServiceNow Fluent code](tutorial-define-table-fluent-ide.md).
+Continue to [Tutorial part 3: Define a table in ServiceNow Fluent code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/tutorial-define-table-fluent-ide.md).
 
-**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](../concept/getting-started-create-application-ide.md)
+**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/getting-started-create-application-ide.md)
 

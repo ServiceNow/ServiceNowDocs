@@ -2,6 +2,7 @@
 title: Have I been pwned? integration setup
 description: Have I been pwned? is a free resource used to assess if someone may have been put at risk due to their online account being compromised or "pwned" in a data breach. It easily integrates with Security Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/haveibeenpwned-setup.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

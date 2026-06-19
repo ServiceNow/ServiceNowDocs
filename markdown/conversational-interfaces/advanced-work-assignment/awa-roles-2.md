@@ -2,6 +2,7 @@
 title: AWA agent \[awa\_agent\]
 description: The AWA agent handles customer interactions and manages workload across multiple service channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-roles-2.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

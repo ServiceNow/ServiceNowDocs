@@ -1,19 +1,21 @@
 ---
 title: Submit Invoice Inquiry
-description: Supplier uses the Supplier Collaboration Portal to create an inquiry related to an invoice and submits it to the Accounts Payable Operations team to evaluate and resolve the inquiry.
+description: Submit an invoice inquiry case through the Supplier Collaboration Portal to report an issue to the accounts payable team for evaluation and resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/submit-invoice-inquiry-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, supplier, supplier portal]
 breadcrumb: [Working with Supplier Catalog, Using Supplier Collaboration Portal in APO, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Submit Invoice Inquiry
 
-Supplier uses the Supplier Collaboration Portal to create an inquiry related to an invoice and submits it to the Accounts Payable Operations team to evaluate and resolve the inquiry.
+Submit an invoice inquiry case through the Supplier Collaboration Portal to report an issue to the accounts payable team for evaluation and resolution.
 
 ## Before you begin
 
@@ -25,15 +27,15 @@ Role required: Supplier
 
 2.  On the **Submit an invoice inquiry** form, enter the following details.
 
-<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d128349e74">
+<table id="choicetable_v1q_w5z_zxb"><thead><tr><th align="left" id="d70934e96">
 
 Question
 
-</th><th align="left" id="d128349e77">
+</th><th align="left" id="d70934e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128349e83">
+</th></tr></thead><tbody><tr><td id="d70934e105">
 
 **Which supplier?**
 
@@ -41,7 +43,7 @@ Description
 
 Supplier- Displays the name of the supplier associated with the supplier contact based on your selection from the **My Company**tab.
 
-</td></tr><tr><td id="d128349e95">
+</td></tr><tr><td id="d70934e117">
 
 **What invoice would you like to inquire about?**
 
@@ -49,7 +51,7 @@ Supplier- Displays the name of the supplier associated with the supplier contact
 
 Invoice number- Choose the invoice number on which you need to inquire from the drop-down list. The drop-down lists the invoice numbers of the supplier displayed in **Which supplier?** field.
 
-</td></tr><tr><td id="d128349e107">
+</td></tr><tr><td id="d70934e129">
 
 **What kind of invoice inquiry would you like to make?**
 
@@ -60,9 +62,9 @@ Inquiry type- Choose the type of inquiry that you would like to ask an Account P
 -   Expedite payment request
 -   Payment term issue
 -   Invoice entry assistance
-For more information on invoice inquiry, see [Invoice inquiry cases](../concept/work-with-inquiry-cases.md).
+For more information on invoice inquiry, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
-</td></tr><tr><td id="d128349e141">
+</td></tr><tr><td id="d70934e163">
 
 **Please describe your inquiry below in detail:**
 
@@ -80,5 +82,5 @@ Description- Detailed description about the invoice inquiry.
     Invoice inquiry case is created.
 
 
-**Parent Topic:**[Working with Supplier Catalog](../concept/working-with-supplier-catalog.md)
+**Parent Topic:**[Working with Supplier Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/working-with-supplier-catalog.md)
 

@@ -2,6 +2,7 @@
 title: A10 load balancer discovery
 description: Discovery and Service Mapping uses patterns to collect information about A10 load balancers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoA10LoadBalancers.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -27,13 +28,13 @@ The A10 IP Source NAT \(Network Address Translator\) is an extension of the A10 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   **Credentials**
 
-    Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md) or \(optionally\) [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+    Configure SNMP credentials or \(optionally\) SSH credentials.
 
 -   **Discovery and Service Mapping Patterns application**
 
@@ -451,7 +452,7 @@ Configuration Item \[cmdb\_ci\]
 References the A10 Load Balancer \[cmdb\_ci\_lb\_a10\] table.
 
 </td></tr></tbody>
-</table>![A10 load balancer Dependency Views map](../image/A10-components.png "Dependency Views showing A10 load balancer and connected components and applications")
+</table>\[Omitted image "A10-components.png"\] Alt text: A10 load balancer Dependency Views map
 
 ## CI relationships
 
@@ -594,7 +595,7 @@ Source NAT IP Pool \[cmdb\_ci\_snat\_ip\_pool\]
 
 Service Mapping discovers the connections between the A10 load balancers and applications in the deployment.
 
-![A10 load balancer application service map](../image/A10LoadBalancerServiceWatchMap.png "A10 load balancer application service map")
+\[Omitted image "A10LoadBalancerServiceWatchMap.png"\] Alt text: A10 load balancer application service map
 
-**Parent Topic:**[Load balancer discovery](../concept/c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

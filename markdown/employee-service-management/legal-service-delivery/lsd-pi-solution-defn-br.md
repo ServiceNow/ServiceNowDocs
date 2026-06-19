@@ -2,6 +2,7 @@
 title: Solution definitions and business rules for Predictive Intelligence for Legal Service Delivery
 description: Solution definitions and business rules are defined to train, test, and monitor the predictive intelligence solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-pi-solution-defn-br.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -19,7 +20,7 @@ Solution definitions and business rules are defined to train, test, and monitor 
 
 The solution definition for Predictive Intelligence for Legal Service Delivery is available when you activate Predictive Intelligence plugin \(com.glide.platform\_ml\) and Predictive Intelligence for Legal Service Delivery \(sn\_lg\_pi\) plugin. You can customize the solution definition to meet your business requirements.
 
-You can also create and train machine-learning solutions as per your requirement. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md).
+You can also create and train machine-learning solutions as per your requirement. For more information, see .
 
 The following solution definitions are available in the base system. You can access the solution definition by navigating to **All** &gt; **Predictive Intelligence** &gt; **Classification** &gt; **Solution Definitions**.
 

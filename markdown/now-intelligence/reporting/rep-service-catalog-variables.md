@@ -2,6 +2,7 @@
 title: Report on service catalog variables
 description: Create reports grouped by a variable on a selected service catalog item. You can also create filters on the same variable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/rep-service-catalog-variables.html
 release: australia
 product: Reporting
 classification: reporting
@@ -21,18 +22,18 @@ Additionally, you can create filters on the same variable. For example, if a spe
 
 See an overview video on dot-walking to, filtering, and using catalog variables in a database view at: [Reporting on Catalog Variables](https://community.servicenow.com/community?id=community_blog&sys_id=6ebecdd8db3a8058d58ea345ca96194e).
 
--   To group by variables, see [Group a report by service catalog variables](../task/group-rep-service-catalog-variables.md).
--   To group a report on a field and also group by a variable, see [Add additional group by variables to a service catalog report](../task/add-addl-group-svc-cat-var-report.md).
--   To add a variable field to a list report, see [Create a list report with variable columns](../task/create-list-rep-with-var-col.md).
+-   To group by variables, see [Group a report by service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/group-rep-service-catalog-variables.md).
+-   To group a report on a field and also group by a variable, see [Add additional group by variables to a service catalog report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/add-addl-group-svc-cat-var-report.md).
+-   To add a variable field to a list report, see [Create a list report with variable columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/create-list-rep-with-var-col.md).
 
-For reporting on variable questions, see: [Report on questions](report-on-questions.md#)
+For reporting on variable questions, see: [Report on questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-on-questions.md)
 
--   **[Use service catalog variables in a report](../task/use-service-catalog-variables-in-report.md)**  
+-   **[Use service catalog variables in a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/use-service-catalog-variables-in-report.md)**  
 In reports on service catalog data, stack and group by variables, use variables as columns in list reports, and as columns and rows in multilevel pivot tables.
--   **[Group a report by service catalog variables](../task/group-rep-service-catalog-variables.md)**  
+-   **[Group a report by service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/group-rep-service-catalog-variables.md)**  
 You can create reports grouped by variable on a selected service catalog item. In addition, you can create filters on the same variable. For example, if a mobile phone item has a storage variable, you can create a report that only shows those phones with 32 GB of storage.
--   **[Add additional group by variables to a service catalog report](../task/add-addl-group-svc-cat-var-report.md)**  
+-   **[Add additional group by variables to a service catalog report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/add-addl-group-svc-cat-var-report.md)**  
 You can create reports grouped by any field with an additional group by variable on a selected service catalog item. In addition, you can create filters on the same variable. For example, if a mobile phone item has a storage variable, you can create a report that only shows those phones with 32 GB of storage.
 
-**Parent Topic:**[Advanced Core UI reporting topics](c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 

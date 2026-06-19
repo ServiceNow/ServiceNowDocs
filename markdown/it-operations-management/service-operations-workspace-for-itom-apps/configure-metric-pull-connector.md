@@ -2,13 +2,14 @@
 title: Configure Solarwinds metric pull connector
 description: Configure a metric pull connectors that require a script, connector definition, and connector instance to pull metrics from external sources. These connectors automate the data retrieval process, ensuring the seamless integration of external metrics into your system for efficient monitoring and performance analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/configure-metric-pull-connector.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Solarwinds metric pull connector
@@ -27,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -35,7 +36,7 @@ Role required: evt\_mgmt\_admin
 
 4.  In the **Browse Integrations** tab, select the **All integrations** drop-down list and select **Metrics** &gt; **Pull**.
 
-    ![Metric pull integrations.](../image/sow-metricintegration-pull.png)
+    \[Omitted image "sow-metricintegration-pull.png"\] Alt text: Metric pull integrations.
 
     Only metric pull connector tiles are displayed.
 
@@ -43,7 +44,7 @@ Role required: evt\_mgmt\_admin
 
     If a pop-up menu opens, select the data to track from that connector and select **Continue**.
 
-    ![Solarwinds metric connector details page.](../image/sow-solarwinds-metric-integration-details.png)
+    \[Omitted image "sow-solarwinds-metric-integration-details.png"\] Alt text: Solarwinds metric connector details page.
 
 6.  In the **Provide details** section, enter the following information and select **Next**.
 
@@ -132,14 +133,14 @@ Debugging
 
     The **Overview** tab allows you to verify that the connector is running and collecting data. It also offers options to improve system settings, such as refining alert definitions or enhancing binding configurations.
 
-    ![Connector is active with three tabs: Overview, Details, Data retrieval method.](../image/sow-solarwinds-metric-integration-activated.png)
+    \[Omitted image "sow-solarwinds-metric-integration-activated.png"\] Alt text: Connector is active with three tabs: Overview, Details, Data retrieval method.
 
     The **Details** tab allows you to update the connector's general information \(such as name or description\) and displays any errors encountered during its operation.
 
-    ![Details page in solarwinds metrics connector.](../image/sow-solarwinds-metric-integration-details-1.png)
+    \[Omitted image "sow-solarwinds-metric-integration-details-1.png"\] Alt text: Details page in solarwinds metrics connector.
 
     The **Data Retrieval Method** tab contains the connector settings \(such as host, port, and credentials\) and may provide additional details for issues like MID Server errors.
 
-    ![Data retrieval method page in solarwinds metrics connector.](../image/sow-solarwinds-metric-integration-data-retrieval.png)
+    \[Omitted image "sow-solarwinds-metric-integration-data-retrieval.png"\] Alt text: Data retrieval method page in solarwinds metrics connector.
 
 

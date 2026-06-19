@@ -2,6 +2,7 @@
 title: XMLDocument2 - Scoped, Global
 description: The XMLDocument2 API is a JavaScript object wrapper for parsing and extracting XML data from an XML string.Creates an XMLDocument2 object.Creates an XMLDocument2 object from an attachment stream.Creates and adds an element node to the current node. The element name is the string passed in as a parameter. The new element has no text child nodes.Creates and adds an element node with a text child node to the current node.Gets the document element node of the XMLdocument2 object. The document element node is the root node.Gets the first node in the specified xPath.Gets the node after the specified node.Gets the node specified in the xPath.Gets all the text child nodes from the node referenced in the specified XPath.Parses the XML string and loads it into the XMLDocument2 object.Makes the node passed in as a parameter the current node.Sets whether nodes are treated as CDATA or regular text after parsing. CDATA reporting is deactivated by default.When set to true, the XMLDocument2 object processes the document with XML namespaces.Returns a string containing the XML.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_XMLDocument2ScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ An XML string has a tree structure, and the parts of the structure are called no
 
 **Note:** This API works for scoped or global applications.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Scoped XMLDocument2 - XMLDocument2\(\)
 
@@ -209,7 +210,7 @@ However, it does not support the following xPath expressions with predicates:
 "/store/resources/resource[@type='bookstore']/book[position()>2]" 
 ```
 
-To work around this, use xPath without predicates, such as `"/store/resources/resource[@type='bookstore']/book")` and then filter the nodes in the script using the getFirstNode\(\) and [getNextNode\(\)](c_XMLDocument2ScopedAPI.md#) methods.
+To work around this, use xPath without predicates, such as `"/store/resources/resource[@type='bookstore']/book")` and then filter the nodes in the script using the getFirstNode\(\) and [getNextNode\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md) methods.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -281,7 +282,7 @@ another
 
 Gets the node specified in the xPath.
 
-**Note:** This method is intended for use with small documents since it parses the entire document to match the xPath expression. If the document is too large, an out of memory error may occur. For large documents, use the [getFirstNode\(String xPath\)](c_XMLDocument2ScopedAPI.md#) and [getNextNode\(Object current\)](c_XMLDocument2ScopedAPI.md#) methods, which are designed to stream through the document without parsing the entire document.
+**Note:** This method is intended for use with small documents since it parses the entire document to match the xPath expression. If the document is too large, an out of memory error may occur. For large documents, use the [getFirstNode\(String xPath\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md) and [getNextNode\(Object current\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md) methods, which are designed to stream through the document without parsing the entire document.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -432,9 +433,9 @@ xmlDoc.setCurrentElement(rootNode);
 
 Sets whether nodes are treated as CDATA or regular text after parsing. CDATA reporting is deactivated by default.
 
-This method must be called with [Scoped XMLDocument2 - parseXML\(String xmlDoc\)](c_XMLDocument2ScopedAPI.md#).
+This method must be called with [Scoped XMLDocument2 - parseXML\(String xmlDoc\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md).
 
-See also: [Scoped XMLNode - isCDATANode\(\)](../../XMLNodeScopedAPI/concept/c_XMLNodeScopedAPI.md#).
+See also: [Scoped XMLNode - isCDATANode\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLNodeScopedAPI.md).
 
 <table id="table_bk3_rjy_3x" class="parameters"><thead><tr><th>
 

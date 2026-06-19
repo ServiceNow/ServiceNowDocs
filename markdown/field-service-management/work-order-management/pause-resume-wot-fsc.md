@@ -2,6 +2,7 @@
 title: Pause or resume work order task tracking on a mobile device
 description: Record a break from a work order task through the Field Service Contractor for mobile if you are unable to continue the work for any reason.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/pause-resume-wot-fsc.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -27,7 +28,7 @@ Role required: wm\_ext\_agent
 
 3.  Open a work order task that is in progress.
 
-4.  Tap the more actions \(![More actions icon](../image/OverflowIcon.png)\) icon.
+4.  Tap the more actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon.
 
 5.  Tap **Pause work**.
 

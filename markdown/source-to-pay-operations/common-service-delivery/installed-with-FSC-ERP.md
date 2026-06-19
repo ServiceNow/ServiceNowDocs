@@ -2,6 +2,7 @@
 title: Components installed with ERP Integration Framework
 description: Several types of components are installed with the installation of the ERP Integration Framework application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.html
 release: australia
 product: Common Service Delivery
 classification: common-service-delivery

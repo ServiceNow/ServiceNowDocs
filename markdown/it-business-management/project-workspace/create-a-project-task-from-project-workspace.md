@@ -2,6 +2,7 @@
 title: Create and assign project tasks from Project Workspace
 description: Add new tasks for your projects and assign them to your team directly from the new Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-a-project-task-from-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -23,13 +24,13 @@ Role required: it\_project\_manager
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Select **Add Task**.
 
     A new row is added to the bottom of the data grid of the planning page, with **New Task** as the default name for the task.
 
-    Alternatively, select a project task row and select the Add task below icon \(![Add task below icon.](../image/add-task-below-icon.png)\). This action adds a new task right after the task that you selected.
+    Alternatively, select a project task row and select the Add task below icon \(\[Omitted image "add-task-below-icon.png"\] Alt text: Add task below icon.\). This action adds a new task right after the task that you selected.
 
 3.  Edit the details of the task.
 
@@ -45,16 +46,16 @@ Role required: it\_project\_manager
 
     For notifications to work, your admin must enable them by setting the **Project task assigned to** notification record as **true** in Email Notifications and Provider Notifications.
 
-    Team members can access project tasks assigned to them from Collaborative Work Management workspace. For more information, see [Managing SPM work in Collaborative Work Management](../../collab-work-mgmt/concept/cwm-team-member-roles.md).
+    Team members can access project tasks assigned to them from Collaborative Work Management workspace. For more information, see [Managing SPM work in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-team-member-roles.md).
 
 
 ## What to do next
 
--   Make the new task a subtask of an existing task or a sub project by using the indent task icon\(![Indent task icon.](../image/icon-indent-task.png)\).
--   [Update a project task from the Project Workspace](update-project-task-from-project-workspace.md).
+-   Make the new task a subtask of an existing task or a sub project by using the indent task icon\(\[Omitted image "icon-indent-task.png"\] Alt text: Indent task icon.\).
+-   [Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-project-task-from-project-workspace.md).
 
--   **[Update a project task from the Project Workspace](update-project-task-from-project-workspace.md)**  
+-   **[Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-project-task-from-project-workspace.md)**  
 Update the details of existing tasks from the planning page of the Project Workspace.
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
 

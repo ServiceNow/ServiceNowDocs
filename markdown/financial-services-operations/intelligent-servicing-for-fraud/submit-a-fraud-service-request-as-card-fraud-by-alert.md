@@ -2,12 +2,14 @@
 title: Submit a fraud case request
 description: Collect all required information and documents from the customer and submit the fraud case request to the back-office agents so that you can begin the fulfillment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/submit-a-fraud-service-request-as-card-fraud-by-alert.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [submit a fraud case request, create a fraud case, card fraud by alert, fraud case fulfillment, collect customer documents, document verification tasks, fraud case workflow, fraud types, sn\_bom\_fraud.agent]
 breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -23,7 +25,7 @@ Role required: sn\_bom\_fraud.agent
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  On the **Lists** tab, under **Fraud cases**, select **All**
 

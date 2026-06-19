@@ -2,7 +2,10 @@
 title: Domain separation and Field Service Management
 description: Domain separation provides a structured and efficient way to manage complex, multi-tiered organizational environments. It allows for tailored access and control, ensuring that users see only the data relevant to their domain, enhancing security and efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/domain-separation-field-service.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -23,7 +26,7 @@ Domain separation provides a structured and efficient way to manage complex, mul
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Field Service Management domain separation overview
 
@@ -71,5 +74,5 @@ The parts process, which includes sourcing and using assets, is also domain sepa
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

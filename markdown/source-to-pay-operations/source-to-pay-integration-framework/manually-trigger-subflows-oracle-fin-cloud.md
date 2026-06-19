@@ -2,6 +2,7 @@
 title: Manually trigger flows or subflows in Oracle Financial Cloud \(Inbound\)
 description: You can manually trigger flows or subflows in Oracle Financial Cloud on demand. Follow these steps to manually trigger a flow or subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/manually-trigger-subflows-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -27,7 +28,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
 3.  In the Integration Services list, select the subflows that you want to manually trigger.
 
-    ![Manually trigger flows or subflows in Oracle Financial Cloud (Inbound)](../../source-to-pay-operations/image/oracle-fin-manual-trigger-job.png "Manually trigger flows or subflows in Oracle Financial Cloud")
+    \[Omitted image "oracle-fin-manual-trigger-job.png"\] Alt text: Manually trigger flows or subflows in Oracle Financial Cloud \(Inbound\)
 
 4.  Select **Run job** to trigger the flow or subflow.
 
@@ -43,7 +44,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     You can view the flows or subflows that you triggered.
 
-    ![Flows or subflows in Workflow Studio](../../source-to-pay-operations/image/oracle-fin-workflow-studio.png "Flows or subflows in Workflow Studio")
+    \[Omitted image "oracle-fin-workflow-studio.png"\] Alt text: Flows or subflows in Workflow Studio
 
 9.  You can use the trigger condition as a part of the base system to execute the flow or subflow.
 

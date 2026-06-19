@@ -2,6 +2,7 @@
 title: Customize a Now Assist for Security Incident Response skill
 description: Customize some of the input fields of a generative AI skill to suit the requirements of your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -18,7 +19,7 @@ Customize some of the input fields of a generative AI skill to suit the requirem
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 Roles required: sn\_si.admin
 
@@ -37,7 +38,7 @@ Roles required: sn\_si.admin
     -   Post incident analysis
     -   Security operations metrics analysis
 
-        This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](assess-metrics-sir-aiagent.md) for more information.
+        This skill is activated for use with an AI agent. See [Analyze security operations metrics agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.md) for more information.
 
     -   Correlation insights generation
     -   Security incident summarization
@@ -47,7 +48,7 @@ Roles required: sn\_si.admin
     -   Security Incident Quality Assessment
 3.  Create a copy of a skill and customize the input fields.
 
-    1.  Select **![More actions icon.](../../security-incident-response/image/cj-sir-flow-more-icon.png)\)** &gt; **Make a copy**.
+    1.  Select **\[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More actions icon.\)** &gt; **Make a copy**.
 
     2.  Confirm your choice in the modal.
 
@@ -125,7 +126,7 @@ User roles
 
 </td><td>
 
-Select the expand icon \(![Expand icon.](../image/icon-expand.png)\)
+Select the expand icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand icon.\)
 
 </td></tr><tr><td>
 
@@ -133,7 +134,7 @@ Now Assist panel
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+Now Assist skills are available in the Now Assist panel. **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
 </td></tr><tr><td>
 

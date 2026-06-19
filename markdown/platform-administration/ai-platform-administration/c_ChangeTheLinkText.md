@@ -1,0 +1,24 @@
+---
+title: Change the link text
+description: To show the display value of the record as the link text instead of the word LINK, use the $\{URI\_REF\} parameter instead of the $\{URI\} parameter.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-platform-administration/c\_ChangeTheLinkText.html
+release: australia
+product: AI Platform Administration
+classification: ai-platform-administration
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Links to records, Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+---
+
+# Change the link text
+
+To show the display value of the record as the link text instead of the word LINK, use the $\{URI\_REF\} parameter instead of the $\{URI\} parameter.
+
+\[Omitted image "EmailURIREF.jpg"\] Alt text:
+
+For example, if the URL displays an incident record, the link text is the incident number, which is the display value for incidents. If the URL displays a user record, then the link text is the user name.
+
+**Parent Topic:**[Links to records in email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EnablingLinksToServiceNowRecords.md)
+

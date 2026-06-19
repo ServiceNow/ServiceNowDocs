@@ -2,6 +2,7 @@
 title: Microsoft 365 license optimization
 description: Find Software Asset Management optimization recommendations for Microsoft 365 based on usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/m365-lic-opt.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management

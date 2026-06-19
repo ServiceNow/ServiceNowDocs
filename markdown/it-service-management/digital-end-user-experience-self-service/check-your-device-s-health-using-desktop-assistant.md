@@ -2,6 +2,7 @@
 title: Check device health using Desktop Assistant
 description: Monitor and resolve common device performance issues independently by using Device health check through Desktop Assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
@@ -27,7 +28,7 @@ The Device health check widget on Desktop Assistant is visible only if you have 
 
 1.  Open Desktop Assistant.
 
-    For information, see [Open and log in to Desktop Assistant](open-desktop-exp.md).
+    For information, see [Open and log in to Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/open-desktop-exp.md).
 
 2.  On the  **Desktop Assistant** home page, select **Device health check **.
 
@@ -37,7 +38,7 @@ The Device health check widget on Desktop Assistant is visible only if you have 
 
 5.  Select a Poor or Average performance category to view the issues and suggested resolutions.
 
-    The resolutions can be remedial action buttons, self-help instructions, or links to resources that provide resolutions. For more information, see [Resolution for Proactive Engagement](../../proactive-engagement/reference/resolutions.md).
+    The resolutions can be remedial action buttons, self-help instructions, or links to resources that provide resolutions. For more information, see [Resolution for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/resolutions.md).
 
 6.  Implement the suggested resolutions to improve device, application, or network performance.
 

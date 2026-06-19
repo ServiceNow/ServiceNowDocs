@@ -2,6 +2,7 @@
 title: Test webhooks manually
 description: For tools including GitLab, Rally, Split.io, Jira, Bitbucket, and Argo CD, you have to test webhooks manually if there is any issue with the connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/test-wehooks-manually.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -29,23 +30,23 @@ To test webhooks manually in GitLab, you must:
 
     When your project is configured in DevOps Change Velocity, webhooks are created for that project in GitLab. These webhooks are available under **Project Hooks**.
 
-    ![Webhooks in GitLab.](../image/test-wh-man-01.png)
+    \[Omitted image "test-wh-man-01.png"\] Alt text: Webhooks in GitLab.
 
     For each project, two webhooks are created. One is for code events and the other for orchestration events.
 
 3.  To test a webhook, select **Test** and select **Push events** from the list.
 
-    ![Test the webhook.](../image/test-wh-man-02.png)
+    \[Omitted image "test-wh-man-02.png"\] Alt text: Test the webhook.
 
     **Note:** You can test for other events as well, for example Tag push events.
 
     -   If the webhook is configured correctly, you’ll receive a success message. For example:
 
-        ![Success message.](../image/test-wh-man-03.png)
+        \[Omitted image "test-wh-man-03.png"\] Alt text: Success message.
 
     -   If the webhook is configured incorrectly, you’ll receive an error message. For example:
 
-        ![Error message.](../image/test-wh-man-04.png)
+        \[Omitted image "test-wh-man-04.png"\] Alt text: Error message.
 
         To fix a webhook, you can try the following options:
 
@@ -54,7 +55,7 @@ To test webhooks manually in GitLab, you must:
 
             You can find the correct values in the tool record page in DevOps Change Velocity.
 
-            ![Check webhook fields.](../image/test-wh-man-05.png)
+            \[Omitted image "test-wh-man-05.png"\] Alt text: Check webhook fields.
 
 
 For detailed information about webhooks in GitLab, see [Webhooks](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html).
@@ -72,7 +73,7 @@ Rally doesn't provide an option to directly test for webhook connectivity. If yo
 
     Check if there’s a corresponding webhook created for your DevOps Change instance, and that it’s **Active**.
 
-    ![Webhooks in Rally.](../image/test-wh-man-06.png)
+    \[Omitted image "test-wh-man-06.png"\] Alt text: Webhooks in Rally.
 
 -   Reconfigure the webhook by selecting **Configure** from the project record page in DevOps Change Velocity. This reconfigures the existing webhook for the project.
 
@@ -89,13 +90,13 @@ Split.io doesn't provide an option to directly test for webhook connectivity. If
 
 -   From your Split.io instance, navigate to **Admin Settings** &gt; **Integration settings** &gt; **Integrations**. Select the **Configured** tab, and select **Edit** for the ServiceNow DevOps application.
 
-    ![Configure ServiceNow DevOps application.](../image/test-wh-man-07.png)
+    \[Omitted image "test-wh-man-07.png"\] Alt text: Configure ServiceNow DevOps application.
 
-    Check if the ServiceNow DevOps application is configured correctly in Split.io. For details on configuring, see [Enable integration with ServiceNow DevOps in Split tool](../task/enable-integration-servicenow-devops-split.md).
+    Check if the ServiceNow DevOps application is configured correctly in Split.io. For details on configuring, see [Enable integration with ServiceNow DevOps in Split tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/enable-integration-servicenow-devops-split.md).
 
 -   Check if the status of the ServiceNow DevOps application is **Active**.
 
-    ![ServiceNow DevOps application.](../image/test-wh-man-08.png)
+    \[Omitted image "test-wh-man-08.png"\] Alt text: ServiceNow DevOps application.
 
 -   Reconfigure the webhook by selecting **Configure** from the tool record page in DevOps Change Velocity. This reconfigures the existing webhook for the Split.io tool.
 
@@ -116,14 +117,14 @@ Jira doesn't provide an option to directly test for webhook connectivity. If you
     -   For Jira Cloud instance, navigate to **Settings** &gt; **System** &gt; **WebHooks**.
     Check if there’s a corresponding webhook created for your DevOps Change instance.
 
-    ![Webhook for DevOps Change.](../image/test-wh-man-09.png)
+    \[Omitted image "test-wh-man-09.png"\] Alt text: Webhook for DevOps Change.
 
 -   Select **Edit** for the webhook.
 
     -   Check if the status is **Enabled**.
     -   Check if the **Tool ID** in the **URL** field is correct. The **Tool ID** is the value after **?toolId=**.
     -   Check if the secret token in the **URL** field is correct. Token value is at the end of the URL, after **token=**.
-    ![Webhook fields.](../image/test-wh-man-10.png)
+    \[Omitted image "test-wh-man-10.png"\] Alt text: Webhook fields.
 
     You can find the correct values of the **Tool ID** and **Secret token** in the tool record page in DevOps Change Velocity.
 
@@ -149,7 +150,7 @@ Bitbucket doesn't provide an option to directly test for webhook connectivity. I
 
     Check if there’s a corresponding webhook created for your DevOps Change instance.
 
-    ![Repository webhooks.](../image/test-wh-man-11.png)
+    \[Omitted image "test-wh-man-11.png"\] Alt text: Repository webhooks.
 
 -   Select **Edit** for the webhook.
 
@@ -158,7 +159,7 @@ Bitbucket doesn't provide an option to directly test for webhook connectivity. I
     -   Check if the secret token in the **URL** field is correct. Token value is at the end of the URL, after **token=**.
     You can find the correct values of the **Tool ID** and **Secret token** in the tool record page in DevOps Change Velocity.
 
-    ![Repository settings.](../image/test-wh-man-12.png)
+    \[Omitted image "test-wh-man-12.png"\] Alt text: Repository settings.
 
     For detailed information about webhooks in Bitbucket, see [Manage webhooks](https://support.atlassian.com/bitbucket-cloud/docs/manage-webhooks/).
 
@@ -171,7 +172,7 @@ Role required:
 -   Argo CD: Argo CD admin privileges
 -   DevOps Change: sn\_devops.admin or sn\_devops.tool\_owner
 
-Argo CD doesn't provide an option to directly test for webhook connectivity. To configure webhooks, see [Configure webhooks in Argo CD manually](../task/configure-webhooks-in-argo-cd-manually.md).
+Argo CD doesn't provide an option to directly test for webhook connectivity. To configure webhooks, see [Configure webhooks in Argo CD manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-webhooks-in-argo-cd-manually.md).
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

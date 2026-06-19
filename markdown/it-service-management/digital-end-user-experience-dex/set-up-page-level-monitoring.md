@@ -2,6 +2,7 @@
 title: Set up page-level monitoring
 description: Set up monitoring of the application performance at a specific page level. When collected, you can view the performance metrics data in the Metrics analyzer and device or application view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/set-up-page-level-monitoring.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -27,7 +28,7 @@ Role required: admin, dex\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  On the Application management card, select **Configure applications**.
 
@@ -111,7 +112,7 @@ Check box to initiate monitoring the page.This check box is selected by default.
 
 ## Result
 
-When the metrics for the page are collected, you can see them from the Metrics analyzer. See [View collected metrics with Metrics analyzer](../task/view-dex-metrics.md) for more details.
+When the metrics for the page are collected, you can see them from the Metrics analyzer. See [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/view-dex-metrics.md) for more details.
 
-**Parent Topic:**[DEX application monitoring](dex-application-monitoring.md)
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

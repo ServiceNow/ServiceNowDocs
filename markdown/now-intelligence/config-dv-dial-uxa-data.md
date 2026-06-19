@@ -2,6 +2,7 @@
 title: Usage Insights data options for dial data visualizations
 description: When you select a Usage Insights data source for a dial visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-dv-dial-uxa-data.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Data source
 
 </td><td>
 
-You have selected a Usage Insights data source in [Create a dial data visualization](../task/create-dv-dial-ac.md).
+You have selected a Usage Insights data source in [Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-dial-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -47,7 +48,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -268,5 +269,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a dial data visualization](../task/create-dv-dial-ac.md)
+</table>**Parent Topic:**[Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-dial-ac.md)
 

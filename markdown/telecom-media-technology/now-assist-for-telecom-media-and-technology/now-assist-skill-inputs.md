@@ -2,6 +2,7 @@
 title: Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Use inputs for each skill to configure how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -23,9 +24,9 @@ Domain separation allows users to separate data, processes, and administrative t
 
 Domain separation is possible at the skill level and at the individual configuration level.
 
-Enable security for Now Assist skills and flows through access control lists \(ACLs\) and user identities. For more information, see [Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+Enable security for Now Assist skills and flows through access control lists \(ACLs\) and user identities. For more information, see Configure ACLs for AI agents and agentic workflows.
 
-To understand more about the ServiceNow domain separation, see [Exploring domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md).
+To understand more about the ServiceNow domain separation, see .
 
 ## Service Problem Case sentiment analysis skill
 
@@ -195,11 +196,11 @@ The customer service summary skill helps user to get information on the customer
 -   General details
 -   Graph questionnaire
 
-    To add or modify the queries, see [Configure the graph questionnaire Now Assist for Telecommunications, Media and Technology \(TMT\)](../task/now-assist-configure-graph-questionnaire.md).
+    To add or modify the queries, see [Configure the graph questionnaire Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-configure-graph-questionnaire.md).
 
 -   Customize prompt
 
-    To customize the prompt, see [Customize a skill in Now Assist for TMT](../task/now-assist-tmt-customize.md).
+    To customize the prompt, see [Customize a skill in Now Assist for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.md).
 
 -   Define access
 -   Select display

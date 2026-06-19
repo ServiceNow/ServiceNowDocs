@@ -2,11 +2,12 @@
 title: Update existing records in bulk
 description: Update existing records in bulk from the Digital resilience third-party registers using Third-party Risk Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-bulk-update.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-15"
 reading_time_minutes: 3
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -25,15 +26,17 @@ Only DORA administrators can view the **Upload** option and perform this task.
 
 **Note:** Annual expense data is used during report generation for conversion and aggregation. Confirm that currencies and annual expense fields are accurate to avoid conversion failures or skipped aggregation.
 
+**Note:** When uploading Legal entity, Branch, Third party, or Third-party engagement records that include LEI codes, LEI codes are batch-validated against the GLEIF database before rows are processed. The **Save rows with LEI GLEIF errors during Excel upload** system property controls whether rows with GLEIF data failures are saved or blocked. Format and checksum failures always block rows regardless of this setting. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
+
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Excel download/upload requests** and then create an Excel download request by selecting **New**.
 
 3.  On the form, select **Download** as the request type and fill in the remaining fields.
 
-    For descriptions of all these fields, see [Create New Excel download/upload request form](../reference/tprm-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
 4.  Select **Save**.
 
@@ -59,7 +62,7 @@ Only DORA administrators can view the **Upload** option and perform this task.
 
 9.  On the form, select **Upload** as the request type and fill in the remaining fields.
 
-    For descriptions of all these fields, see [Create New Excel download/upload request form](../reference/tprm-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
     **Note:** Only DORA administrators can view the **Upload** option and perform this task.
 

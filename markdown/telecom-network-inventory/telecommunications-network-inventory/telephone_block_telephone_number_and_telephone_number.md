@@ -2,6 +2,7 @@
 title: Create a telephone infrastructure
 description: Create telephone blocks and number allocations, and assign telephone numbers by using the telephone infrastructure provided by the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/telephone\_block\_telephone\_number\_and\_telephone\_number.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -15,12 +16,12 @@ breadcrumb: [Inventory number allocation, Define inventory records, Use, Telecom
 
 Create telephone blocks and number allocations, and assign telephone numbers by using the telephone infrastructure provided by the Telecommunications Network Inventory application.
 
--   **[Create a telephone block](../task/create_telephone_block.md)**  
+-   **[Create a telephone block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_telephone_block.md)**  
 Create a telephone block to organize and categorize all sequential telephone numbers that are within an area by using the Telecommunications Network Inventory application.
--   **[Create a telephone number allocation](../task/create_telephone_allocation.md)**  
+-   **[Create a telephone number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_telephone_allocation.md)**  
 Create a telephone number allocation so that you can group a set of telephone numbers and apply the required conditions to it by using the Telecommunications Network Inventory application. You can also review, create, update, or delete a telephone number allocation.
--   **[Create a telephone number to an area or region](../task/create_telephone_number.md)**  
+-   **[Create a telephone number to an area or region](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_telephone_number.md)**  
 Create a telephone number to add that number to an area or to a region by using the Telecommunications Network Inventory application. You can review, create, update, or delete a telephone number.
 
-**Parent Topic:**[Inventory number allocation](vlan_or_lag_number_management.md)
+**Parent Topic:**[Inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/vlan_or_lag_number_management.md)
 

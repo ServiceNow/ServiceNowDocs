@@ -2,6 +2,7 @@
 title: Use ITSM Virtual Agent Analytics dashboard
 description: Use the ITSM Virtual Agent analytics dashboard to analyze chats from customer interactions, what ITSM Virtual Agent topics users are interested in, and measure customer satisfaction using AI transcripts and user feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/using-itsm-conversational-analytics-dashboard.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -38,13 +39,13 @@ ITIL \(itil\) and the AI Engagement Viewer \(sn\_na\_analytics.ai\_engmt\_viewer
 </td><td>
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
-2.  Select the Dashboard icon ![](../image/now-assist-itsm-va-dashboard-icon.png).
+2.  Select the Dashboard icon \[Omitted image "now-assist-itsm-va-dashboard-icon.png"\] Alt text:.
 3.  In the IT Agent Dashboard, search for and select **ITSM Virtual Agent analytics**.
 
 The ITSM Virtual Agent analytics dashboard displays.
 
 
-![ITSM Virtual Agent analytics dashboard](../image/now-assist-itsm-va-itagent-dashboard.png)
+\[Omitted image "now-assist-itsm-va-itagent-dashboard.png"\] Alt text: ITSM Virtual Agent analytics dashboard
 
 </td></tr><tr><td>
 
@@ -63,11 +64,11 @@ The Assistant Designer screen appears.
 The ITSM Virtual Agent analytics dashboard displays.
 
 
-![ITSM Virtual Agent analytics Assistant Designer](../image/now-assist-itsm-assistant-designer-analytics.png)
+\[Omitted image "now-assist-itsm-assistant-designer-analytics.png"\] Alt text: ITSM Virtual Agent analytics Assistant Designer
 
 </td></tr></tbody>
-</table>-   **[ITSM Virtual Agent Analytics reference](../reference/now-assist-itsm-va-analytics-reference.md)**  
+</table>-   **[ITSM Virtual Agent Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-va-analytics-reference.md)**  
 As an admin, you can refer to the indicators, schedule jobs, and scripts used in the ITSM Virtual Agent analytics.
 
-**Parent Topic:**[Now Assist for IT Service Management \(ITSM\)](now-assist-itsm.md)
+**Parent Topic:**[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
 

@@ -2,6 +2,7 @@
 title: Test the LDAPS connections
 description: Test the LDAPS connections. There are two console connections, one for Local Computer Certificates, and the other for Local Computer Services Certificates on the new ADAM service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_TestingLDAPSConnections.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

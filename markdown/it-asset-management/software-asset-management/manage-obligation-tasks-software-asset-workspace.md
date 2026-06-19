@@ -2,6 +2,7 @@
 title: Manage obligation tasks in the Software Asset Workspace
 description: Create obligation records to define specific instructions and obligation task types required to fulfill the contract obligation in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/manage-obligation-tasks-software-asset-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -28,10 +29,10 @@ An obligation record can have the following types of obligation tasks:
     The obligation task is required at regular intervals to fulfill the contract obligations. Recurring obligation tasks are automatically created based on the defined schedule.
 
 
--   **[Create an obligation record in the Software Asset Workspace](../task/create-obligation-record-sam.md)**  
+-   **[Create an obligation record in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-obligation-record-sam.md)**  
 Create obligation records for signed contracts in Software Asset Workspace to fulfill the responsibilities specified in the contract through obligation tasks.
--   **[Create an ad hoc obligation task in Software Asset Workspace](../task/create-adhoc-obligation-task-sam.md)**  
+-   **[Create an ad hoc obligation task in Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-adhoc-obligation-task-sam.md)**  
 Create an obligation task required only once or at irregular intervals to track and fulfill an obligation specified in a contract.
 
-**Parent Topic:**[Using Software Asset Workspace](using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

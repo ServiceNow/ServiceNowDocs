@@ -2,6 +2,7 @@
 title: User roles for Entity Based Access
 description: Users with specific user roles have access to read or update the Entity Based Access configuration or the bulk access update configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/user-roles-for-entity-based-access.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -69,5 +70,5 @@ Role that is part of the Entity Based Access application.Assign this role to use
 |sn\_grc\_reg\_change.user|Regulatory change management user. This role is excluded from the Entity Based Access configuration.|
 |sn\_ai\_governance.ai\_steward|The AI steward role. This role is excluded from the Entity Based Access configuration.|
 
-**Parent Topic:**[Entity Based Access](../concept/entity-based-access.md)
+**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md)
 

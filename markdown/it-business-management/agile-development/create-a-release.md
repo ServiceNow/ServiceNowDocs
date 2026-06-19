@@ -2,11 +2,12 @@
 title: Create a release in Agile Development 2.0
 description: Create a release to start associating the stories and scrum tasks of your product development to the release in Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-a-release.html
 release: australia
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -133,7 +134,7 @@ Updates about the work being performed on the release. This field is updated by 
 
 Start planning your release by associating products, stories, and the assignment groups to this release record. Use the related lists available in the release record for these actions.
 
-For information on the related lists of a release, see [Related lists for a Release in Agile Development 2.0](../reference/related-links-lists-for-release-agile-development-2.md)
+For information on the related lists of a release, see [Related lists for a Release in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/related-links-lists-for-release-agile-development-2.md)
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](../concept/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
 

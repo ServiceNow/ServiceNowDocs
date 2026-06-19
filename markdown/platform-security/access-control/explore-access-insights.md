@@ -2,6 +2,7 @@
 title: Exploring Access Insights
 description: Access Insights is a feature within the Access Analyzer application that provides data-driven recommendations and comparative analysis regarding user, role, and group entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/explore-access-insights.html
 release: australia
 product: Access Control
 classification: access-control
@@ -25,11 +26,11 @@ Based on the insights gained, you can decide if a user has inappropriate access 
 
 **Important:** As a best practice, compare users at a peer-level \(same organization, same department, same manager\).
 
-You enable Access Insights in **Settings**. To learn more, see [Configuring Access Insights](../task/configure-access-insights.md).
+You enable Access Insights in **Settings**. To learn more, see [Configuring Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/configure-access-insights.md).
 
-You use Access Insights while comparing users' access with the **Compare user access** feature in Access Analyzer. To learn more about using Access Insights, see [Using Access Insights](../task/use-access-insights.md).
+You use Access Insights while comparing users' access with the **Compare user access** feature in Access Analyzer. To learn more about using Access Insights, see [Using Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/use-access-insights.md).
 
-![Access Insights](../images/access-insights-homepage.png)
+\[Omitted image "access-insights-homepage.png"\] Alt text: Access Insights
 
 **Note:** Access Insights is available with Access Analyzer V4.
 

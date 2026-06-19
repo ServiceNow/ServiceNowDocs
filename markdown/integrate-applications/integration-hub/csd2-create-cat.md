@@ -2,6 +2,7 @@
 title: Create a catalog item for the Microsoft Endpoint Configuration Manager application
 description: Create a catalog item for an application you want to offer for distribution from the service catalog using the applications discovered on the Microsoft Endpoint Configuration Manager server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-create-cat.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -118,5 +119,5 @@ Check box that forces the system to determine if deploying this item is allowed 
     **Note:** If you are unable to see any of the mentioned fields or tabs, configure the table's form view or related lists accordingly.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](../concept/csd2.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2.md)
 

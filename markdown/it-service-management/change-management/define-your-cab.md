@@ -2,6 +2,7 @@
 title: Create a CAB definition
 description: A Change Advisory Board \(CAB\) definition is similar to a recurring meeting invitation. When you define a CAB definition, it determines the attributes that are associated with all CAB meetings generated from that definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/define-your-cab.html
 release: australia
 product: Change Management
 classification: change-management
@@ -23,7 +24,7 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **All** &gt; **Change** &gt; **Change Advisory Board** &gt; **My CAB Definitions**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Click **New**.
 
@@ -335,10 +336,10 @@ If the schedule entry is scheduled to repeat, specifies an end date until which 
 
 You can modify CAB meeting details and send meeting requests to attendees. You can also manage agendas by reviewing or adding agenda items to each of the meetings.
 
-**Parent Topic:**[Working with the CAB Workbench](../concept/using-cab-workbench-cf.md)
+**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-cab-workbench-cf.md)
 
 **Related topics**  
 
 
-[OR conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingORConditions.md)
+[bundle-platux.c_UsingORConditions]
 

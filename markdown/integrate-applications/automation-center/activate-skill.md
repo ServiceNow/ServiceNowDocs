@@ -2,6 +2,7 @@
 title: Activate skills for Now Assist for Automation Center
 description: Activate the skills available for Now Assist for Automation Center to work with ease and reduce manual effort in creating automation requests and exploring automations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/activate-skill.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -32,5 +33,5 @@ Role required: sn\_generative\_ai.nsa\_admin
     -   User Task Summarization skill: Creates automation requests from the Task Mining Workspace
     -   Saving Estimator skill: Explores and discovers automations from your ServiceNow® instance.
 
-**Parent Topic:**[Configuring Now Assist for Automation Center](../concept/config-na-ac.md)
+**Parent Topic:**[Configuring Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-na-ac.md)
 

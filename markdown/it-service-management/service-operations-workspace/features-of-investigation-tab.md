@@ -2,6 +2,7 @@
 title: Features of the Investigation tab
 description: The Investigation tab displays CI metrics information along with various options. Use the options and the metrics information to view the data that helps to resolve the CI-related issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/features-of-investigation-tab.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Incident Management in Service Operations Workspace reference, Inci
 
 The **Investigation** tab displays CI metrics information along with various options. Use the options and the metrics information to view the data that helps to resolve the CI-related issues.
 
-![Investigate tab - Default view](../image/sow-investigation-tab-default.png)
+\[Omitted image "sow-investigation-tab-default.png"\] Alt text: Investigate tab - Default view
 
 You can select the following drop-down options to view the metrics information for the CI:
 
@@ -27,8 +28,8 @@ You can select the following drop-down options to view the metrics information f
 
 **Note:** The metrics information for the CI is retrieved in any one of the following conditions:
 
--   When the primary CI is updated or added to the incident. You can also configure when and how the metric information is retrieved for a CI by configuring the collection rule. For more information, see [Configure the collection rules for the Investigate tab](../concept/customize-the-incident-record-page.md#).
--   When you select the Get latest metrics icon \(![get latest matrix refresh](../image/get-latest-matrix.png)\), it refreshes, retrieves, and displays the latest metrics on demand. This option is available only when you’re viewing data in the Recent Metrics.
+-   When the primary CI is updated or added to the incident. You can also configure when and how the metric information is retrieved for a CI by configuring the collection rule. For more information, see [Configure the collection rules for the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
+-   When you select the Get latest metrics icon \(\[Omitted image "get-latest-matrix.png"\] Alt text: get latest matrix refresh\), it refreshes, retrieves, and displays the latest metrics on demand. This option is available only when you’re viewing data in the Recent Metrics.
 
 The metrics data includes the following information:
 
@@ -46,7 +47,7 @@ The metrics data includes the following information:
     This link is available to the agent only if the following conditions are met:
 
     -   The selected CI is of type Device, which is also known as Endpoint.
-    -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](../../digital-end-user-experience/concept/dex-landing.md).
+    -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
     -   The DEX agent is installed on the selected CI.
 -   Asset utilization: Utilization of the assets for the CI. The following information is displayed along with the date and time:
 
@@ -62,7 +63,7 @@ The metrics data includes the following information:
     |Disk utilization|Greater or equal to 80|Greater or equal to 95|
     |CPU utilization|Greater or equal to 80|Greater or equal to 95|
 
-    However, you can also customize these threshold values, if necessary. For more information, see [Customize the Investigate tab](../concept/customize-the-incident-record-page.md#).
+    However, you can also customize these threshold values, if necessary. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
 -   Top processes by CPU: Top processes sorted based on the CPU utilization of the processes in the affected CI.
 
@@ -79,12 +80,12 @@ The metrics data includes the following information:
     **Note:** For devices with the Windows OS, the Installed applications don't include a list of pre-packed application.
 
 
-Use the **View History** button to view the historical metrics data for the CI on a separate tab. You can select the time range from the drop-down options to view the historical data for that time range. For more information, see [Viewing the historical data of CI metrics](view-investigate-history-data.md).
+Use the **View History** button to view the historical metrics data for the CI on a separate tab. You can select the time range from the drop-down options to view the historical data for that time range. For more information, see [Viewing the historical data of CI metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-investigate-history-data.md).
 
--   **[Viewing the historical data of CI metrics](view-investigate-history-data.md)**  
+-   **[Viewing the historical data of CI metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/view-investigate-history-data.md)**  
 View the historical data of the CI metrics for the selected time range.
--   **[Digital End-User Experience and Service Observability UI experience on investigate tab](dex-so-metric-views-investigate-tab.md)**  
+-   **[Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/dex-so-metric-views-investigate-tab.md)**  
 Based on the Configuration Item \(CI\) selected in the **Investigate** tab, the user criteria and rules defined in the **Investigate CI Experience Rules** \(**sn\_sow\_investigate\_ci\_ux\_rule**\) table, the Investigate tab displays the CI metrics in different UI experience dashboard for the different CI classes.
 
-**Parent Topic:**[Incident Management in Service Operations Workspace reference](../concept/sow-im-reference.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-im-reference.md)
 

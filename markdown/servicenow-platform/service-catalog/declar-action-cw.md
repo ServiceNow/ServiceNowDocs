@@ -2,6 +2,7 @@
 title: Create declarative actions for Service Catalog Wizards
 description: Create and configure declarative actions to enable administrators to configure buttons \(wizard actions\) in Service Catalog Wizards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/declar-action-cw.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -36,7 +37,7 @@ Role required: wizard\_admin, admin
 
 3.  Specify Catalog Wizard **Action Model Fields** to create payloads.
 
-    The action model fields are available by default for catalog wizard declarative actions, and appear on the **Action Model Fields** tab in the **Action Assignment** form. ![Action Model fields](../image/catwiz-da-uxf.png)
+    The action model fields are available by default for catalog wizard declarative actions, and appear on the **Action Model Fields** tab in the **Action Assignment** form. \[Omitted image "catwiz-da-uxf.png"\] Alt text: Action Model fields
 
     |Field|Description|
     |-----|-----------|
@@ -56,7 +57,7 @@ Role required: wizard\_admin, admin
     |**Target Record Data**|Not Applicable \(this field is no used\).|
     |**Record Id**|Sys\_id of the record being created or edited by the wizard.|
 
-4.  Click the **Action label** link for an action \(such as Insert, or Delete\). ![Creating a declarative action](../image/catwiz-da-clientscript.png)
+4.  Click the **Action label** link for an action \(such as Insert, or Delete\). \[Omitted image "catwiz-da-clientscript.png"\] Alt text: Creating a declarative action
 
 <table id="table_ics_3pj_gwb"><thead><tr><th>
 
@@ -246,12 +247,12 @@ The button type specified by the declarative action is overridden.
 
         **Tip:** Buttons with global configurations are available on the wizard by default. To hide a global action in a wizard, map the global configuration to the wizard and set the **Hide Action** to true.
 
-    For more information on Catalog Wizards, see [Creating a Service Catalog Wizard](catalog-wizard.md).
+    For more information on Catalog Wizards, see [Creating a Service Catalog Wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-wizard.md).
 
 8.  Use the **Configure declarative actions event mappings** action on the **Config** tab of UI Builder.
 
-    Configure declarative actions event mappings is applicable only to UXF Client Action type of declarative action. Create a page level event handler, then map the declarative action to the page level event handler and specify the payload. For more information on binding events to declarative actions in UI Builder, see [Bind an event to a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-declarative-action.md).
+    Configure declarative actions event mappings is applicable only to UXF Client Action type of declarative action. Create a page level event handler, then map the declarative action to the page level event handler and specify the payload. For more information on binding events to declarative actions in UI Builder, see Bind an event to a declarative action.
 
 
-**Parent Topic:**[Creating a Service Catalog Wizard](catalog-wizard.md)
+**Parent Topic:**[Creating a Service Catalog Wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-wizard.md)
 

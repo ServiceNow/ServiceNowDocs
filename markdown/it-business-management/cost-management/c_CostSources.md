@@ -2,6 +2,7 @@
 title: Cost sources
 description: There are a several ways to generate expense lines for objects in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/c\_CostSources.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -93,5 +94,5 @@ To view the sample rates, navigate to **Financial Management** &gt; **Labor Rate
 
 The conditions state that for users in the **Development** department, time worked costs will use $100 as the hourly rate.
 
-**Parent Topic:**[Cost Management](../reference/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
 

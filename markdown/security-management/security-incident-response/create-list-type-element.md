@@ -2,6 +2,7 @@
 title: Create a List Type Element
 description: Create a list type element, which defines the related list elements more declaratively with filter options such as assignment groups and labels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-list-type-element.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -35,7 +36,7 @@ Role required: sn\_msi.workspace\_manager
 
 6.  Navigate to **Report subsection elements** &gt; **New**.
 
-7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](create-report-subsection-element-template.md).
+7.  Fill in the report subsection elements form with the required details as explained in [Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-subsection-element-template.md).
 
 8.  Navigate to the Report Subsection element Type field, and select the **List** option.
 
@@ -48,5 +49,5 @@ Role required: sn\_msi.workspace\_manager
     |**Lists**|Name of the related lists associated with the MSI. For example, Observables, Indicators. Select a list using the search option.|
 
 
-**Parent Topic:**[Create Report Subsection Element template](create-report-subsection-element-template.md)
+**Parent Topic:**[Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-subsection-element-template.md)
 

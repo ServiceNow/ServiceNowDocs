@@ -2,6 +2,7 @@
 title: Linux Pacemaker Cluster discovery
 description: The ServiceNow Discovery application uses the Linux Pacemaker Cluster discovery pattern to find high-availability cluster data and populate the CMDB with the discovered information. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/linux-pacemaker-cluster-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -15,17 +16,17 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 The ServiceNow Discovery application uses the Linux Pacemaker Cluster discovery pattern to find high-availability cluster data and populate the CMDB with the discovered information. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
-This pattern is an extension section of the [Linux Server](../../discovery/reference/r_DataCollDiscoLinuxComputers.md) pattern. Discovery uses the pattern to run horizontal discovery.
+This pattern is an extension section of the [Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoLinuxComputers.md) pattern. Discovery uses the pattern to run horizontal discovery.
 
 You can use this pattern on the ServiceNow AI Platform® using the Madrid release or later.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
--   Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) for the Linux server.
+-   Configure SSH credentials for the Linux server.
 -   Provide a user with permissions to read the following files:
     -   `/etc/hosts`
     -   `/etc/corosync/corosync.conf`
@@ -78,7 +79,7 @@ The discovered data includes the following tables and fields.
 
 The Dependency Views map shows discovered load balancer CIs and the relationships between them.
 
-![CIs and connections on a Dependency Views map](../image/linux-pacemaker-cluster-dep-view.png)
+\[Omitted image "linux-pacemaker-cluster-dep-view.png"\] Alt text: CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -97,5 +98,5 @@ These relationships are created to support Linux Pacemaker Cluster discovery:
 |Contains::Contained by|cmdb\_ci\_unix\_cluster\_node|
 |Contains::Contained by|cmdb\_ci\_unix\_cluster\_resource|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

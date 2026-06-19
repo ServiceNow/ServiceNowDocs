@@ -2,6 +2,7 @@
 title: Viewing patient information for a procedure request in Workspace
 description: With the 360-degree view of a patient in Workspace, you can access the patient details anytime for completing procedure request cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-viewing-patient-info.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 The **Patient information** tab in Workspace provides several details about a patient enabling 360-degree view of the patient. The tab is displayed on the Workspace for procedure request cases.
 
-**Note:** Your administrator can configure the Workspace to modify the patient information by using UI Builder. This topic discusses the default view for the patient information. For information about UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+**Note:** Your administrator can configure the Workspace to modify the patient information by using UI Builder. This topic discusses the default view for the patient information. For information about UI Builder, see UI Builder.
 
 <table id="table_tjh_2r4_jjb"><thead><tr><th>
 

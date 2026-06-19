@@ -2,6 +2,7 @@
 title: Data Relationships Framework
 description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch the dependencies in the BIAs, plans, and events from different sources such as CMDB, BIA, and BCP. Beginning with the Australia release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/data-relationship-framework.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -70,17 +71,17 @@ To support the Data Relationships Framework, the following new tables have been 
 
 The BCM application users can navigate to **Data Relationship Framework** in the application navigator and access its modules for configuring the relationships.
 
-![Module path.](../image/data-rela-fw-modue-path.png)
+\[Omitted image "data-rela-fw-modue-path.png"\] Alt text: Module path.
 
 The Data Relationships Framework application consists of the following modules:
 
 1.  Main node configuration: Configure the details of the main node such as its name, source, table name, filer conditions, and so on as shown in the following examples.
 
-    ![Main node configuration.](../image/main-node-config-new-bcm.png)
+    \[Omitted image "main-node-config-new-bcm.png"\] Alt text: Main node configuration.
 
     The following main node configurations are provided as sources with the base system as shown in the following example:
 
-    ![Base system configuration.](../image/main-node-config-ootb-bcm.png)
+    \[Omitted image "main-node-config-ootb-bcm.png"\] Alt text: Base system configuration.
 
     -   BIA upstream dependency
     -   BIA downstream dependencies
@@ -89,34 +90,34 @@ The Data Relationships Framework application consists of the following modules:
     -   Plan related assets
     The BCM administrators use the main node configuration to perform the following tasks:
 
-    -   Configure the Impact analysis dependency update configuration module and fetch the dependency updates into a BIA \(add the dependency updates to the BIA\) from these sources.![Sources.](../image/sources-bia-updates.png)
+    -   Configure the Impact analysis dependency update configuration module and fetch the dependency updates into a BIA \(add the dependency updates to the BIA\) from these sources.\[Omitted image "sources-bia-updates.png"\] Alt text: Sources.
     -   Configure the Planning dependency update configuration module and fetch the planning dependency updates into a plan \(add the updated related assets to the plan\) from these sources.
     -   Configure the Event dependency source configuration module and configure the sources for the event dependency updates \(add the updated impacted assets to a recovery event\).
     **Note:** All the information on how data should be pulled is stored in the Main node configuration, which is attached to the records. This configuration determines the order in which the data is pulled. To reduce the amount of data pulled and how it is pulled, you need to configure the conditions in both the Main node configuration and the records. This ensures that only the necessary data is retrieved.
 
     The main node configuration records for plans and CMDB are shown in the following examples.
 
-    ![Main node configuration for a BCP.](../image/main-node-config-for-bcp.png)
+    \[Omitted image "main-node-config-for-bcp.png"\] Alt text: Main node configuration for a BCP.
 
-    ![Sample main node configuration.](../../grc-business-continuity-management/image/main-node-configuration-bcm.png)
+    \[Omitted image "main-node-configuration-bcm.png"\] Alt text: Sample main node configuration.
 
-    For information on creating a main node configuration record, see [Create a main node configuration record](../task/create-a-main-node-config-record.md).
+    For information on creating a main node configuration record, see [Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-main-node-config-record.md).
 
 2.  Relationship registries: Configure the relationship registries for the main node. Relationship registries are part of the 360-degree configuration in GRC where a user can define how one object has a related object. The configuration details of a relationship registry record such as its name, table, relationship type, relationship table, and so on are shown in the form.
 
-    ![New relationship registry record.](../image/rela-registry-record-new.png)
+    \[Omitted image "rela-registry-record-new.png"\] Alt text: New relationship registry record.
 
     A sample relationship registry record for a BIA and BIA template is shown in the following example.
 
-    ![Sample relationship registry record.](../image/rela-registry-record-sample.png)
+    \[Omitted image "rela-registry-record-sample.png"\] Alt text: Sample relationship registry record.
 
-    For information on creating a relationship registry record, see [Create a relationship registry record](../task/create-a-rela-registry-record.md).
+    For information on creating a relationship registry record, see [Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-rela-registry-record.md).
 
 3.  Properties: Configure the properties of the Data Relationships Framework as shown in the following example.
 
-    ![Properties for the Data Relationship Framework.](../image/data-rela-framework-properties.png)
+    \[Omitted image "data-rela-framework-properties.png"\] Alt text: Properties for the Data Relationship Framework.
 
-    For information on configuring the properties, see [Configure the properties for the Data Relationships Framework](../task/configure-properties-for-data-rel-framework.md).
+    For information on configuring the properties, see [Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-properties-for-data-rel-framework.md).
 
 
 ## Use cases for the Data Relationships Framework
@@ -168,14 +169,14 @@ The Data Relationships Framework has the following limitations:
 -   The data fetched for an object cannot be reused for another purpose.
 -   The sources provided in the framework must be used for fetching the dependency updates into an object. It is not possible to configure your own sources for fetching the data.
 
-For more information on the administrative setup for the configuration records, see [Dependency Configuration records](../../grc-business-continuity-management/concept/dependency-config-modules.md).
+For more information on the administrative setup for the configuration records, see [Dependency Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/dependency-config-modules.md).
 
--   **[Create a main node configuration record](../task/create-a-main-node-config-record.md)**  
-Create a main node configuration record to configure the source for fetching the dependencies. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
--   **[Create a relationship registry record](../task/create-a-rela-registry-record.md)**  
-Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
--   **[Configure the properties for the Data Relationships Framework](../task/configure-properties-for-data-rel-framework.md)**  
+-   **[Create a main node configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-main-node-config-record.md)**  
+Create a main node configuration record to configure the source for fetching the dependencies. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+-   **[Create a relationship registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-a-rela-registry-record.md)**  
+Create a relationship registry record to set up relationship between the record and object defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+-   **[Configure the properties for the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-properties-for-data-rel-framework.md)**  
 Configure the properties for the Data Relationships Framework application.
 
-**Parent Topic:**[BCM reference](../../grc-business-continuity-management/reference/bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
 

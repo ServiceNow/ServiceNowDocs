@@ -2,6 +2,7 @@
 title: Explore Advanced Work Assignment for Legal Service Delivery
 description: Use the ServiceNow Advanced Work Assignment for Legal Service Delivery feature to automatically assign legal to agents based on availability, capacity, and optionally skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-awa-explore-landing.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -19,9 +20,9 @@ Use the ServiceNow Advanced Work Assignment for Legal Service Delivery feature t
 
 Advanced Work Assignment for Legal Service Delivery routes legal request to qualified agents from the legal department \(a paralegal staff or lawyer\) using work item queues, routing conditions, and assignment criteria that you define. The base system has configuration available for General Legal Request and Ethics Complaint. You can define your own configuration for other types of legal requests.
 
-For more information, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
+For more information, see .
 
-If you want to use skills as one of the criteria for routing legal requests, ensure you have activated Skills Management \[com.snc.skills\_management\]. For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md)
+If you want to use skills as one of the criteria for routing legal requests, ensure you have activated Skills Management \[com.snc.skills\_management\]. For more information, see 
 
 **Note:** If you're using skill management, ensure you have the right subscription.
 
@@ -40,15 +41,15 @@ If you want to use skills as one of the criteria for routing legal requests, ens
 |-------|-------|-----|
 |Automatic assignment of legal request based on availability, capacity and skills.|Advanced Work Assignment|Legal fulfiller|
 
-For more information on the benefits of Advanced Work Assignment, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md)
+For more information on the benefits of Advanced Work Assignment, see 
 
 ## What to explore next
 
 To learn more about configuring and using Advanced Work Assignment for Legal Service Delivery, see:
 
--   [Configure Advanced Work Assignment for Legal Service Delivery](lsd-awa-configure-landing.md)
--   [Use Advanced Work Assignment for Legal Service Delivery](lsd-awa-use-landing.md)
--   [Components installed for Advanced Work Assignment for Legal Service Delivery reference](../reference/lsd-components-installed-awa.md)
+-   [Configure Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-configure-landing.md)
+-   [Use Advanced Work Assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-use-landing.md)
+-   [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md)
 
-**Parent Topic:**[Advanced work assignment for Legal Service Delivery](lsd-awa-landing.md)
+**Parent Topic:**[Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-landing.md)
 

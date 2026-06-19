@@ -2,6 +2,7 @@
 title: Knowledge Flow
 description: The publishing and retirement processes for a knowledge article are controlled by flows defined for the Knowledge Base that the article belongs to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/r\_KnowledgeFlow.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -90,6 +91,6 @@ Action that can be used to retire the knowledge article.
 </td></tr></tbody>
 </table>**Note:**
 
--   Only administrators and knowledge administrators can view the retired knowledge articles. To reuse a retired article, administrators and knowledge administrators can republish the article. For more information, see [Republish a retired article](../task/republish-retired-article.md).
+-   Only administrators and knowledge administrators can view the retired knowledge articles. To reuse a retired article, administrators and knowledge administrators can republish the article. For more information, see [Republish a retired article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/republish-retired-article.md).
 -   An article and its translations have a parent-child relationship. Retiring a parent article does not automatically retire all its translated child articles.
 

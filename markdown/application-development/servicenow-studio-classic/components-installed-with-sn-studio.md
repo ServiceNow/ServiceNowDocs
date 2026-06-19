@@ -1,33 +1,34 @@
 ---
 title: Components installed with ServiceNow Studio
-description: When you activate the ServiceNow Studio plugin, various components like tables are automatically installed.
+description: Activating the ServiceNow Studio plugin installs tables, roles, and dependencies automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/components-installed-with-sn-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Installing ServiceNow Studio, Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Components installed with ServiceNow Studio
 
-When you activate the ServiceNow Studio plugin, various components like tables are automatically installed.
+Activating the ServiceNow Studio plugin installs tables, roles, and dependencies automatically.
 
-## Tables and roles installed with ServiceNow Studio
+## What tables and roles does ServiceNow Studio install?
 
 |Table|Description|
 |-----|-----------|
 |Resources \[sn\_sns\_resources\]|Populates the Resources section at the bottom of the home page.|
-|Experience Configurations \[sn\_udc\_experience\_configuration\]|Shows the default role access configurations for the experience switcher. This table is not configurable.|
-|Experience Visibility Controls \[sn\_udc\_experience\_visibility\_control\]|Enables you to give non-default roles access to the experience switcher. This table is configurable.|
+|Experience Configurations \[sn\_udc\_experience\_configuration\]|Stores default role access configurations for the experience switcher. This table is not configurable.|
+|Experience Visibility Controls \[sn\_udc\_experience\_visibility\_control\]|Enables you to grant non-default roles access to the experience switcher. This table is configurable.|
 
-No specific roles are shipped with ServiceNow Studio, but Admin and Delegated Developer roles are used. For more information, see [ServiceNow Studio personas and roles](sn-studio-personas-roles.md).
+ServiceNow Studio does not include specific roles. The Admin and Delegated Developer roles are used. For more information, see [ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-personas-roles.md).
 
-## Plugin installed with ServiceNow Studio
+## What plugin does ServiceNow Studio install?
 
-The ServiceNow Studio \[sn\_sns\] plugin is installed with several dependencies.
+The ServiceNow Studio \[sn\_sns\] plugin installs with several dependencies.
 
 <table id="table_xfk_wxh_zdc"><thead><tr><th>
 
@@ -47,7 +48,7 @@ ServiceNow Studio\[sn\_sns\]
 
 </td><td>
 
-ServiceNow Studio provides a unified experience for all ServiceNow development activities.
+ServiceNow Studio provides a unified environment for all ServiceNow development activities.
 
 </td><td>
 
@@ -57,5 +58,5 @@ ServiceNow Studio provides a unified experience for all ServiceNow development a
 -   sn\_deploy\_pipeline
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Installing ServiceNow Studio](installing-servicenow-studio.md)
+</table>**Parent Topic:**[Installing ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/installing-servicenow-studio.md)
 

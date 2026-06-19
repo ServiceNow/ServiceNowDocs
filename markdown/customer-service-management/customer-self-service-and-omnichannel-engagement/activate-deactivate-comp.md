@@ -2,6 +2,7 @@
 title: Activate or deactivate a component
 description: Activate or deactivate a component to show or hide every instance of the components across third-party websites. By default, the ServiceNow components are active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-deactivate-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

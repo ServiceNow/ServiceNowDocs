@@ -2,12 +2,14 @@
 title: Service Exchange authorized users and personas
 description: The Authorized Users feature enables a provider to categorize remote catalog items by user personas so that only authorized users with these personas can access the catalog items. It also allows consumer admins to associate these personas to users in their instances to allow access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-auth-users.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-13"
 reading_time_minutes: 1
+keywords: [authorized users, user personas, catalog item access, consumer admin]
 breadcrumb: [Remote catalogs, Explore, Service Exchange]
 ---
 
@@ -24,5 +26,5 @@ Enables the provider to subdivide services by user personas giving the consumers
 -   Consumers manage the active state for an Authorized User.
 -   Providers can set the maximum number of authorized users for each connection. This requires all consumers to maintain a list of active authorized users of less than or equal to the limit set by the provider. If the value is not set, consumers can have as many active authorized users as they want.
 
-To learn more, see [Add an authorized user](../task/service-bridge-v2-create-auth-user.md).
+To learn more, see [Add an authorized user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-auth-user.md).
 

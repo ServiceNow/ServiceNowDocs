@@ -2,6 +2,7 @@
 title: Manage a Universal Request from the Health and Safety Workspace
 description: You can perform various actions on the Universal Request and the case associated with Universal Request from the Health and Safety Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/hs-manage-universal-request-workspace.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -17,7 +18,7 @@ You can perform various actions on the Universal Request and the case associated
 
 If you’re part of the Health and Safety routing group, you can do the following:
 
--   [Assign a Health and Safety case linked to a Universal Request](../task/hs-assign-universal-request-agent.md)
--   [Transfer a Universal Request from the Health and Safety Workspace](../task/transfer-hs-case-universal-request.md)
--   [Create associated tickets for Universal record within Health and Safety Workspace](../task/hs-associate-case-universal-request.md)
+-   [Assign a Health and Safety case linked to a Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-assign-universal-request-agent.md)
+-   [Transfer a Universal Request from the Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/transfer-hs-case-universal-request.md)
+-   [Create associated tickets for Universal record within Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-associate-case-universal-request.md)
 

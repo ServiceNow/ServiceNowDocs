@@ -2,6 +2,7 @@
 title: Install Task Mining
 description: You can install the Task Mining Core application \(sn\_tm\_core\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/install-task-mining.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -31,7 +32,7 @@ The following items are installed with Task Mining:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Task Mining](../reference/installed-with-task-mining.md).
+For more information, see [Components installed with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/installed-with-task-mining.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Add and configure data resources to a page
 description: Add data resources to dynamically expose data from tables, records, or other elements on your page in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-data-resources.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -31,7 +32,7 @@ In the data resource section of UI Builder, you can add and configure local data
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page.
 
@@ -51,17 +52,17 @@ In the data resource section of UI Builder, you can add and configure local data
 
     The Data Resource configuration modal appears.
 
-    ![Look up a single record configuration modal.](../image/data-resource-config-modal.png)
+    \[Omitted image "data-resource-config-modal.png"\] Alt text: Look up a single record configuration modal.
 
 9.  Fill in the required information for the data resource in the **Configure** tab to expose the data you want.
 
     The configuration fields vary depending on which Data Resource instance is selected. The **Configure** panel and preview window may display errors when a Data Resource is added to a page. UI Builder attempts to evaluate Data Resources when they’re added to a page. The errors remain until the required Data Resource fields have been filled.
 
-    ![Look up a single record configuration modal with the Table field set to Task, displaying the corresponding JSON values.](../image/data-resource-config-modal-filled.png)
+    \[Omitted image "data-resource-config-modal-filled.png"\] Alt text: Look up a single record configuration modal with the Table field set to Task, displaying the corresponding JSON values.
 
 10. Select the default label to provide a custom label and ID value.
 
-    ![Field to customize the label and ID of a data resource.](../image/data-resource-label.png)
+    \[Omitted image "data-resource-label.png"\] Alt text: Field to customize the label and ID of a data resource.
 
     The data resource appears in the data and scripts drawer.
 
@@ -70,7 +71,7 @@ In the data resource section of UI Builder, you can add and configure local data
 
 ## What to do next
 
-Now that you have a data resource connected to your page, you can bind the data to a component or bind an event to the data resource. For more information, see [Connect data to your components](connect-data.md) and [Bind an event to a data resource](bind-event-data-resource.md).
+Now that you have a data resource connected to your page, you can bind the data to a component or bind an event to the data resource. For more information, see [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data.md) and [Bind an event to a data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-data-resource.md).
 
-**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](../concept/data-resources.md)
+**Parent Topic:**[Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md)
 

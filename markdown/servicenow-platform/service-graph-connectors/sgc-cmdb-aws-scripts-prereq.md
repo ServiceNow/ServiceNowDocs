@@ -2,11 +2,12 @@
 title: Prerequisites for executing scripts
 description: Complete the prerequisites before you execute the AWS scripts.Set up an S3 bucket with read and delete privileges for the ServiceNow IAM role to store and delete the SendCommand API responses when importing AWS data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-prereq.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Configure the AWS environment, AWS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,28 +16,28 @@ breadcrumb: [Configure the AWS environment, AWS, Service Graph Connectors, Integ
 
 Complete the prerequisites before you execute the AWS scripts.
 
-**Important:** Ensure that you have downloaded the scripts available within the Service Graph Connector for AWS. See [Download the AWS scripts](../task/sgc-cmdb-aws-scripts-dwld.md).
+**Important:** Ensure that you have downloaded the scripts available within the Service Graph Connector for AWS. See [Download the AWS scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-dwld.md).
 
 Decide the following details to be used later during the execution of the AWS scripts:
 
--   [ServiceNow IAM role](sgc-cmdb-aws-scripts-prereq.md#section_mxv_3l3_pzb)
--   [ServiceNow IAM username](sgc-cmdb-aws-scripts-prereq.md#section_sf3_rl3_pzb)
--   [S3 bucket for the ServiceNow IAM role](sgc-cmdb-aws-scripts-prereq.md#)
+-   [ServiceNow IAM role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-prereq.md)
+-   [ServiceNow IAM username](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-prereq.md)
+-   [S3 bucket for the ServiceNow IAM role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-prereq.md)
 
-    **Note:** Define an S3 bucket only when you are using [deep discovery scripts](sgc-cmdb-aws-script-op.md#section_ahc_jwf_4zb).
+    **Note:** Define an S3 bucket only when you are using [deep discovery scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-script-op.md).
 
 
 ## Determine the ServiceNow IAM role
 
 Determine the identity and access management \(IAM\) role that performs read-only operations in member accounts to fetch the configuration items \(CIs\) from the AWS environment.
 
-By default, the CreateSnowOrganizationAccountAccessRoleInMemberAccount.yml script creates the SnowOrganizationAccountAccessRole IAM role. You can use the default name created by the script or create a new IAM role. However, when required as an input parameter, you must enter the same IAM role across scripts. See [Executing scripts required for setting up AWS](sgc-cmdb-aws-script-op.md).
+By default, the CreateSnowOrganizationAccountAccessRoleInMemberAccount.yml script creates the SnowOrganizationAccountAccessRole IAM role. You can use the default name created by the script or create a new IAM role. However, when required as an input parameter, you must enter the same IAM role across scripts. See [Executing scripts required for setting up AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-script-op.md).
 
 ## Determine the ServiceNow IAM username
 
 Determine the name of the IAM user that assumes the ServiceNow IAM role in the member accounts.
 
-By default, the CreateServiceNowUser.yml script creates the NOWSGCUser IAM user. You can use the default name created by the script or create a new IAM user. However, when required as an input parameter, you must enter the same IAM username across scripts. See [Executing scripts required for setting up AWS](sgc-cmdb-aws-script-op.md).
+By default, the CreateServiceNowUser.yml script creates the NOWSGCUser IAM user. You can use the default name created by the script or create a new IAM user. However, when required as an input parameter, you must enter the same IAM username across scripts. See [Executing scripts required for setting up AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-script-op.md).
 
 ## Define the S3 bucket for deep discovery
 
@@ -71,7 +72,7 @@ Create an S3 bucket for the Service Graph Connector for AWS application and enab
 
     See [Bucket policies](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html) on the AWS documentation site.
 
-    To access the S3 bucket you created in [step 1](sgc-cmdb-aws-scripts-prereq.md#creates3bucket), its bucket policy must allow the IAM instance profile role attached to the managed EC2 instances. You can either create a bucket policy or grant access to your AWS member account in the bucket access control list \(ACL\). The member account must include the EC2 instances.
+    To access the S3 bucket you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-prereq.md), its bucket policy must allow the IAM instance profile role attached to the managed EC2 instances. You can either create a bucket policy or grant access to your AWS member account in the bucket access control list \(ACL\). The member account must include the EC2 instances.
 
     **Note:** Adding an AWS member account to the bucket ACL allows all users and roles in the member account to access the S3 bucket.
 
@@ -104,7 +105,7 @@ Create an S3 bucket for the Service Graph Connector for AWS application and enab
     -   *SOURCE-AWS-ACCOUNT* is the AWS account ID of the member account that includes the EC2 instances.
     -   *INSTANCE-PROFILE-ROLE-NAME* is the IAM instance profile that is attached to the EC2 instances.
 
-        By default, the AmazonSSMForInstancesRoleSetup.yml script creates the AmazonSSMForInstancesRole IAM instance profile role and attaches the role to the AmazonSSMManagedInstanceCore bucket policy. See [Executing scripts required for setting up AWS](sgc-cmdb-aws-script-op.md).
+        By default, the AmazonSSMForInstancesRoleSetup.yml script creates the AmazonSSMForInstancesRole IAM instance profile role and attaches the role to the AmazonSSMManagedInstanceCore bucket policy. See [Executing scripts required for setting up AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-script-op.md).
 
     -   *DOC-EXAMPLE-BUCKET* is the S3 bucket name.
     The following example bucket policy shows the effect, principal, action, and resource elements. The policy allows AmazonSSMRoleForInstances, an IAM instance profile role in an account with ID `123456789000`, `s3:GetObject`, `s3:PutObject`, and `s3:PutObjectAcl` S3 permissions on the `myS3Bucket` bucket.
@@ -137,7 +138,7 @@ Create an S3 bucket for the Service Graph Connector for AWS application and enab
     }
     ```
 
-3.  Attach IAM permissions to the instance profile role for EC2 instances to publish the SendCommand API responses to the S3 bucket you created in [step 1](sgc-cmdb-aws-scripts-prereq.md#creates3bucket).
+3.  Attach IAM permissions to the instance profile role for EC2 instances to publish the SendCommand API responses to the S3 bucket you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-prereq.md).
 
     See [Using instance profiles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2_instance-profiles.html) and [Attach an IAM role to an instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html#attach-iam-role) on the AWS documentation site.
 

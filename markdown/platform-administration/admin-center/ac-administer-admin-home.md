@@ -2,6 +2,7 @@
 title: Administering Admin Home
 description: Take control of your daily administrative tasks with our intuitive dashboard. Quickly access and manage essential tasks and tools to boost productivity.Manage and track your daily administrative work and tools on your instance by quickly accessing the cards on the dashboard. It helps you stay updated on any high priority incidents or problems on the instance that might need immediate attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-administer-admin-home.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -15,7 +16,7 @@ breadcrumb: [Admin Center, Get started, Administer the ServiceNow AI Platform]
 
 Take control of your daily administrative tasks with our intuitive dashboard. Quickly access and manage essential tasks and tools to boost productivity.
 
-**Parent Topic:**[Admin Center](admin-center-intro.md)
+**Parent Topic:**[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/admin-center-intro.md)
 
 ## Admin Home
 
@@ -31,11 +32,11 @@ Use the advanced Admin Home page to accomplish the following:
 -   Stay updated on the current version, scheduled upgrade, and licensed applications status on your instance
 -   Get a comprehensive, single-page view of the delta changes on the instance
 
-![The Admin Home page](../image/Admin_home_zoomed_out.png)
+\[Omitted image "Admin\_home\_zoomed\_out.png"\] Alt text: The Admin Home page
 
 ### Manage your products
 
-![Screenshot showing Manage your products section](../../implementation-agent/image/ia-install.png)
+\[Omitted image "ia-install.png"\] Alt text: Screenshot showing Manage your products section
 
 The Manage your products section of the Admin Home page provides the names of the applications and plugins that are rendered dynamically based on your admin entitlement status.
 
@@ -43,21 +44,21 @@ The Manage your products section of the Admin Home page provides the names of th
 
 ### Track important information
 
-![The Track what's important to you section of the Admin Home page](../image/ac-track_whats_important.png)
+\[Omitted image "ac-track\_whats\_important.png"\] Alt text: The Track what's important to you section of the Admin Home page
 
 The **Track what's important to you** section of the Admin Home page provides insights into key information, such as open incidents, open requests, etc. This information is available on a default shared dashboard. You can click on each card to view more information.
 
 **Note:** You can’t add or remove any cards from the Shared admin dashboard. Instead, to modify the cards, you must first create a new dashboard by selecting **Create new** dashboard. Then, modify the new dashboard as needed and share it with other administrators using the **Share** option.
 
-![Image showing Create new menu option.](../image/ac-create-new-dashboard.png)
+\[Omitted image "ac-create-new-dashboard.png"\] Alt text: Image showing Create new menu option.
 
 ### Get information about your instance
 
-![The Get information about your instance section of the Admin Home page](../image/ac-get_information.png)
+\[Omitted image "ac-get\_information.png"\] Alt text: The Get information about your instance section of the Admin Home page
 
-The **Get information about your instance** section of the Admin Home page shows information about your instance's current version, violations, and scheduled upgrade. It also shows the status of licensed applications as a list of installed applications on your instance and the applications that need to be updated, as well as a card with easy access to [Adoption blueprints](ac-achieve-business-objective.md).
+The **Get information about your instance** section of the Admin Home page shows information about your instance's current version, violations, and scheduled upgrade. It also shows the status of licensed applications as a list of installed applications on your instance and the applications that need to be updated, as well as a card with easy access to [Adoption blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-achieve-business-objective.md).
 
 If your instance has one or more Now Assist plugins installed, a card displaying the status of your instance's Now Assist skills will be shown.
 
-![The Now Assist Admin card with skills information](../image/Now_Assist_Admin_Card.png).
+\[Omitted image "Now\_Assist\_Admin\_Card.png"\] Alt text: The Now Assist Admin card with skills information.
 

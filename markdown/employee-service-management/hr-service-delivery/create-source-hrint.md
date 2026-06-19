@@ -2,6 +2,7 @@
 title: Create a source in Enterprise Service Management Integrations Framework
 description: Create a source record that represents the third-party system which is integrating with your HR Service Delivery application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-source-hrint.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

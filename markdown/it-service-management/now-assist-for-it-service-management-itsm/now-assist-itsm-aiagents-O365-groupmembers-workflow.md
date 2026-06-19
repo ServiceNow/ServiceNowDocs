@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection Manage Microsoft 365 group members agentic workflow
 description: Use the Microsoft 365 group membership AI agent to manage users in the Microsoft 365 email distribution list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-O365-groupmembers-workflow.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -22,7 +23,7 @@ Using the Manage Microsoft 365 group members agentic workflow, add or remove nam
 
 **Important:**
 
--   To enable the Manage Microsoft 365 group members agentic workflow, you must install the Microsoft Entra ID spoke. For more information, see [Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md).
+-   To enable the Manage Microsoft 365 group members agentic workflow, you must install the Microsoft Entra ID spoke. For more information, see .
 -   After you add or remove users to the group using the Microsoft 365 agentic workflow, follow the instructions listed in the table.
 
 <table id="table_xvf_npv_w2c"><thead><tr><th>
@@ -39,11 +40,11 @@ You want the workflow output of adding or removing users to go through an approv
 
 </td><td>
 
-1.  [Add the **sn\_itsm\_aia.office\_365\_group\_member\_approval.required** system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+1.  Add the **sn\_itsm\_aia.office\_365\_group\_member\_approval.required** system property.
 
 **Note:** This property is set to **true** by default.
 
-2.  [Add the **sn\_itsm\_aia.office\_365\_group\_member\_approval.group\_id** system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+2.  Add the **sn\_itsm\_aia.office\_365\_group\_member\_approval.group\_id** system property.
 3.  Add the sys\_id of the group that you want to use for approvals as the value of the **sn\_itsm\_aia.office\_365\_group\_member\_approval.group\_id** system property.
 4.  Add users that you'd like to approve the output for this agentic workflow in the **Office 365 Approval** group.
 
@@ -60,7 +61,7 @@ Set the **sn\_itsm\_aia.office\_365\_group\_member\_approval.required** system p
 </table>
 **Note:** The Manage Microsoft 365 group members agentic workflow doesn’t have a trigger and is invoked manually.
 
-To modify the Manage Microsoft 365 group members agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Manage Microsoft 365 group members agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -98,7 +99,7 @@ In the agentic workflow record:
         The agent executes the request for the agentic workflow.
 
 
-**Example of the Manage Microsoft 365 group members agentic workflow output in the ServiceNow AI Agent Studio**![Microsoft 365 group members agentic workflow output.](../image/now-assist-itsm-aiagents-o365-group-manage.png)
+**Example of the Manage Microsoft 365 group members agentic workflow output in the ServiceNow AI Agent Studio**\[Omitted image "now-assist-itsm-aiagents-o365-group-manage.png"\] Alt text: Microsoft 365 group members agentic workflow output.
 
-In the AI Agent Studio, the human agent gets notified as soon as one or more users are added or removed so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as one or more users are added or removed so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 

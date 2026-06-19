@@ -2,6 +2,7 @@
 title: Explore Workplace Reservations for Microsoft Outlook Add-in
 description: Reserve a workplace space in less than a minute without using the Reservation portal. The ServiceNow Workplace Reservations for Microsoft Outlook Add-in enables you to make a reservation using Microsoft Outlook directly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery/workplace-rsv-for-outlook-addin-ovw.html
 release: australia
 product: Workplace Service Delivery
 classification: workplace-service-delivery
@@ -19,7 +20,7 @@ Reserve a workplace space in less than a minute without using the Reservation po
 
 Workplace Reservation Management 3.0.2 manifest add-in file for Microsoft Outlook provides enhanced reservation experience and capabilities for employees. Employees can make reservations using multiple Reservable Modules. They can make multi-building, browse near a person, or neighborhood reservations. It provides advanced reservation web portal capabilities within the Microsoft Outlook Add-in manifest file.
 
-Migrate or update to Workplace Reservation Management 3.0.2 version. For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](../../wsd-reservation-management/concept/manage-outlook-addin-rsv.md).
+Migrate or update to Workplace Reservation Management 3.0.2 version. For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md).
 
 The Workplace Reservations for Microsoft Outlook Add-in application is created on the Seismic workspace and uses Seismic components. The components are stored in the Workplace Service Delivery Components plugin to enhance the employee experience while using the add-in.
 
@@ -33,7 +34,7 @@ Only the workplace locations that are assigned to the reservable module are disp
 
 **Important:** The Workplace Reservations for Microsoft Outlook Add-in application does not support Microsoft Exchange On-Premises.
 
-![Workplace reservations add-in window in the Microsoft Outlook application](../images/add-in-firstpage.png "Workplace Reservations add-in window in the Microsoft Outlook application")
+\[Omitted image "add-in-firstpage.png"\] Alt text: Workplace reservations add-in window in the Microsoft Outlook application
 
 ## Workplace Reservation Management and the Microsoft Outlook Add-in
 
@@ -41,7 +42,7 @@ As an employee, the add-in enables you to make a reservation without using the W
 
 -   Find available spaces by applying multiple search criteria.
 
-    ![available spaces displayed by the add-in](../images/add-in-availablespaces.png "Available spaces displayed by the add-in")
+    \[Omitted image "add-in-availablespaces.png"\] Alt text: available spaces displayed by the add-in
 
 -   Add spaces directly to an existing or a new event using the add-in directly.
 -   Request a reservation for yourself or on behalf of others.
@@ -50,13 +51,13 @@ As an employee, the add-in enables you to make a reservation without using the W
 -   Specify the reservation duration.
 -   Request extra services.
 
-    ![extra services option in the add-in](../images/add-in-addextraservice.png "Extra services option in the add-in")
+    \[Omitted image "add-in-addextraservice.png"\] Alt text: extra services option in the add-in
 
 -   Update an existing reservation or modify the extra services. You can change the location and add/remove services.
 
 If any selected space becomes unavailable for any reason or if the date or time has changed, the add-in indicates the same.
 
-![unavailable space indicated by the add-in](../images/add-in-unavailablespace.png "Unavailable space indicated by the add-in")
+\[Omitted image "add-in-unavailablespace.png"\] Alt text: unavailable space indicated by the add-in
 
 You can use the existing reporting tools available with Workplace Reservation Management application to report any issue.
 
@@ -68,6 +69,6 @@ You can also synchronize your reservations with your calendar provider by using 
 
 For more information, refer the following:
 
--   [Explore Workplace Calendar Synchronization](../../workplace-calendar-synchronization/concept/workplace-calendar-synchronization-overview.md)
--   [Setup Workplace Calendar Synchronization](../../workplace-calendar-synchronization/concept/workplace-calendar-synchronization-setup.md)
+-   [Explore Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-overview.md)
+-   [Setup Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-setup.md)
 

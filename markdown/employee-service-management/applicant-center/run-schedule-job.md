@@ -2,6 +2,7 @@
 title: Set up a scheduled job for applicant deactivation
 description: Set up a scheduled job, at regular intervals, to deactivate applicants no longer viable to the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/run-schedule-job.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -46,5 +47,5 @@ The applicant records are deactivated.
 
 **Note:** If a deactivated applicant applies again using the same email id that was earlier used to create the sys-user record, all the existing roles are deleted and an external applicant role is assigned during reactivation. For this to happen, you must download the `HiringDeleteRoles.xml` file from the Applicant Center application page on ServiceNow Store.
 
-**Parent Topic:**[Configuring Applicant Center](../concept/config-applicant-center.md)
+**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/config-applicant-center.md)
 

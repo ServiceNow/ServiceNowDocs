@@ -2,6 +2,7 @@
 title: View hiring content
 description: See different hiring materials available in the Hiring tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/view-hiring-content.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ Access relevant hiring content, as a hiring manager, from the Recommended for yo
 
 Get a better understanding of the region-specific hiring policies and processes.
 
-For more information on setting up Recommended for you in Hiring, see [Configure Hiring](config-hiring.md).
+For more information on setting up Recommended for you in Hiring, see [Configure Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-hiring.md).
 
-**Parent Topic:**[Using Hiring](use-hiring.md)
+**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
 

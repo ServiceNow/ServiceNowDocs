@@ -2,6 +2,7 @@
 title: Collaborate with the hiring manager
 description: Collaborate with the hiring manager for the job requisition on the activity stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/collab-hiring-manager.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -32,5 +33,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 The hiring manager receives an email notification with the details of the comment.
 
-**Parent Topic:**[Using Recruitment workspace](../concept/use-recruit-workspace.md)
+**Parent Topic:**[Using Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/use-recruit-workspace.md)
 

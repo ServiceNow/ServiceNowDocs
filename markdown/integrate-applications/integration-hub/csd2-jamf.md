@@ -2,6 +2,7 @@
 title: Verify the Jamf spoke records
 description: Verify that the spoke is integrated with CSD 2.0 after setting up and configuring the Jamf spoke and create server instance record to use Jamf spoke with CSD 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-jamf.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Verify that the spoke is integrated with CSD 2.0 after setting up and configurin
 
 ## Before you begin
 
--   Activate the Jamf spoke and set up the spoke. For more information about the spoke setup, see [Set up the Jamf spoke](setup-jamf-spk.md).
+-   Activate the Jamf spoke and set up the spoke. For more information about the spoke setup, see [Set up the Jamf spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jamf-spk.md).
 -   Activate the CSD 2.0 application.
 -   Role required: admin
 
@@ -46,10 +47,10 @@ Verify that the spoke is integrated with CSD 2.0 after setting up and configurin
 
     3.  Verify that the flows are configured correctly in the record.
 
-        ![Verify that the flows are configured.](../image/csd2-jamf-flows.png)
+        \[Omitted image "csd2-jamf-flows.png"\] Alt text: Verify that the flows are configured.
 
         **Note:** You can configure the default flows as per your requirement.
 
 
-**Parent Topic:**[CSD 2.0 for Jamf](../concept/csd2-jamf-tsk.md)
+**Parent Topic:**[CSD 2.0 for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-jamf-tsk.md)
 

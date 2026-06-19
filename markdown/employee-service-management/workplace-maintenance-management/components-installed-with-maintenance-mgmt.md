@@ -2,13 +2,14 @@
 title: Components installed with Workplace Maintenance Management
 description: Different roles and components or tables are available with the installation of Workplace Maintenance Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/components-installed-with-maintenance-mgmt.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Workplace Maintenance Management references, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Workplace Maintenance Management
@@ -87,7 +88,7 @@ Workplace Maintenance Service Configuration \(sn\_wsd\_maintenance\_service\_con
 
 </td><td>
 
-Associates workplace services and sets scheduling conditions for a plan record. The schedule job fetches plan records that have a maintenance schedule template for a workplace service to create maintenance cases. For more information, see [Create plan service configuration](../task/create-maint-service-config.md) and [Workplace planned maintenance scheduled job](../concept/sch-job-planned-nightly.md).
+Associates workplace services and sets scheduling conditions for a plan record. The schedule job fetches plan records that have a maintenance schedule template for a workplace service to create maintenance cases. For more information, see [Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-service-config.md) and [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
 
 </td></tr></tbody>
 </table>## Workplace Maintenance Management Scheduled Jobs
@@ -108,7 +109,7 @@ Workplace Planned Maintenance Nightly Run
 
 </td><td>
 
-A scheduled job runs every 48 hours \(2 days\) to fetch plan records and create maintenance cases. For more information, see [Workplace planned maintenance scheduled job](../concept/sch-job-planned-nightly.md).
+A scheduled job runs every 48 hours \(2 days\) to fetch plan records and create maintenance cases. For more information, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
 
 </td></tr><tr><td>
 
@@ -127,9 +128,9 @@ Workplace Maintenance Case Historical Data Collection
 This scheduled job collects historical data and populates it in the Workplace Maintenance Management Dashboard.Collects data as specified in the Relative start and Relative end fields. The collection time is time zone specific.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Maintenance Management references](../concept/workplace-maintenance-mgmt-references.md)
+</table>**Parent Topic:**[Workplace Maintenance Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md)
 
-**Previous topic:**[Maintenance plan schedule examples](../concept/maintenance-plan-examples.md)
+**Previous topic:**[Maintenance plan schedule examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/maintenance-plan-examples.md)
 
-**Next topic:**[Workplace Lease Administration](../../workplace-lease-administration/concept/workplace-lease-admin-feat.md)
+**Next topic:**[Workplace Lease Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/workplace-lease-admin-feat.md)
 

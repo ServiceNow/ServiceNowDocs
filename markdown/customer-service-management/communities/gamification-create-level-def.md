@@ -2,6 +2,7 @@
 title: Manage gamification levels
 description: Manage the predefined levels for global, forum, and topic expertise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-create-level-def.html
 release: australia
 product: Communities
 classification: communities
@@ -33,8 +34,8 @@ Gamification includes predefined global, forum, and topic levels.
 
 4.  Click **Submit**.
 
-    Adding new level definitions is not recommended unless there is a strong use case. If you need to add or modify level ranges in existing level definitions, see [Manage gamification level ranges](gamification-create-level-range.md).
+    Adding new level definitions is not recommended unless there is a strong use case. If you need to add or modify level ranges in existing level definitions, see [Manage gamification level ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-create-level-range.md).
 
 
-**Parent Topic:**[Administer gamification](../concept/communities-gamification-administer.md)
+**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-administer.md)
 

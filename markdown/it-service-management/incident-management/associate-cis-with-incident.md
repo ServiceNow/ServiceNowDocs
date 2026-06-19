@@ -2,6 +2,7 @@
 title: Associate CIs with incident
 description: Associate affected or impacted configuration items \(CIs\) with an incident record to find out how the incident affects other CIs with dependent relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/associate-cis-with-incident.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -27,7 +28,7 @@ Use the **Configuration Item** field when there is a single, primary CI that is 
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Open the incident record to which you want to associate CI items.
 
@@ -47,7 +48,7 @@ Configuration item
 
 </td><td>
 
-1.  Click the lookup icon \(![Lookup icon](../../itsm-workspace/image/look-up-icon.png)\).
+1.  Click the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup icon\).
 2.  Select configuration item.
 
 **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to the new customers starting the Paris release.
@@ -63,7 +64,7 @@ Affected CIs
 
 **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to the new customers starting the Paris release.
 
-![Filter in Affected CIs related list](../image/affected-ci-offering-filter.png)
+\[Omitted image "affected-ci-offering-filter.png"\] Alt text: Filter in Affected CIs related list
 
 3.  Click **Add Selected**.
 

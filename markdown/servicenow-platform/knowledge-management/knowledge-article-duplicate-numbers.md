@@ -2,11 +2,12 @@
 title: Duplicate knowledge article numbers
 description: Importing knowledge articles into an instance can create articles with duplicate numbers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-article-duplicate-numbers.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,5 +42,5 @@ You can also update the initial value for the Knowledge **Number** field so that
 3.  In the Controls related list, in the **Number** field, update the count to a number greater than the largest value already in the system.
 4.  Click **Update**.
 
-**Parent Topic:**[Configuring Knowledge Management](../concept/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

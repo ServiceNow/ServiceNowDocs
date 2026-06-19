@@ -2,6 +2,7 @@
 title: Configure a Transform Map consumer
 description: Import and process data from your Kafka environment using your existing transform map configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-transform-map-consumer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -20,7 +21,7 @@ Import and process data from your Kafka environment using your existing transfor
 -   Role required: integration\_hub\_admin
 -   This consumer requires a Stream Connect subscription. For more information, see [https://www.servicenow.com/now-platform/workflow-data-fabric.html](https://www.servicenow.com/now-platform/workflow-data-fabric.html).
 -   The ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin is required.
--   This consumer requires a [transform map](../../../script/server-scripting/concept/c_CreatingNewTransformMaps.md).
+-   This consumer requires a [transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreatingNewTransformMaps.md).
 
 ## Formatting Kafka message payloads
 
@@ -49,7 +50,7 @@ To configure a consumer, you need to create two records.
 1.  The consumer record, which specifies how to import and process data.
 2.  A record for the Kafka stream, which defines the stream of data to your consumer.
 
-This task covers the consumer creation. For instructions on creating a Kafka stream, see [Create a Kafka stream](create-kafka-stream.md).
+This task covers the consumer creation. For instructions on creating a Kafka stream, see [Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-kafka-stream.md).
 
 ## Procedure
 
@@ -100,7 +101,7 @@ Serialization format
 </td><td>
 
 The serialization format for the message. Select one of the following. -   **Plain Text**: Select this option for any plain-text messages. This is the default format.
--   **Encoded**: Select this option for messages in an Apache Avro format. Converting plain-text messages to an Avro format requires a schema. Select the schema registry in the **Schema registry** field. For more information on schemas, see [Schema management in Stream Connect](../concept/schema-management.md).
+-   **Encoded**: Select this option for messages in an Apache Avro format. Converting plain-text messages to an Avro format requires a schema. Select the schema registry in the **Schema registry** field. For more information on schemas, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/schema-management.md).
 
 
 </td></tr><tr><td>
@@ -149,7 +150,7 @@ Registry for the selected schema. Select one of the following.
 
 ## What to do next
 
-[Create a Kafka stream](create-kafka-stream.md) for this consumer. After the stream is activated, you can start receiving messages from your Kafka environment.
+[Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-kafka-stream.md) for this consumer. After the stream is activated, you can start receiving messages from your Kafka environment.
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](../concept/stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

@@ -1,7 +1,8 @@
 ---
-title: Integrate Virtual Agent with Google chat using the self-configured bot
-description: Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google chat users can interact with each other.
+title: Integrate Virtual Agent with Google Chat using the self-configured bot
+description: Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google Chat users can interact with each other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/installing-ci-google-chat.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -9,12 +10,12 @@ topic_type: task
 last_updated: "2026-04-21"
 reading_time_minutes: 2
 keywords: [Integrate, Now, Virtual, Agent, Google, Chat, Self-configured bot]
-breadcrumb: [Configuring your Conversational Integration with Google chat, Conversational Integration with Google chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configuring your Conversational Integration with Google Chat, Conversational Integration with Google Chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrate Virtual Agent with Google chat using the self-configured bot
+# Integrate Virtual Agent with Google Chat using the self-configured bot
 
-Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google chat users can interact with each other.
+Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google Chat users can interact with each other.
 
 ## Before you begin
 
@@ -22,7 +23,7 @@ Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
     -   virtual\_agent\_admin and external\_app\_install\_admin or admin.
 
-    -   Google chat administrator \(one of the following\): Global administrator, Application administrator, or Cloud Application administrator.
+    -   Google Chat administrator \(one of the following\): Global administrator, Application administrator, or Cloud Application administrator.
 
 ## Procedure
 
@@ -40,7 +41,7 @@ Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 7.  In the list of APIs, select **Google Chat API**.
 
-8.  On the Google chat API screen, select the **Configuration** tab.
+8.  On the Google Chat API screen, select the **Configuration** tab.
 
 9.  Verify **Build this Chat app as a Workspace add-on** is selected.
 
@@ -103,7 +104,7 @@ Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 ## What to do next
 
-[Integrate Virtual Agent with Google chat](integrating-va-google-chat.md)
+[Integrate Virtual Agent with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integrating-va-google-chat.md)
 
-**Parent Topic:**[Configuring your Conversational Integration with Google chat](../concept/configure-va-google-chat.md)
+**Parent Topic:**[Configuring your Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-google-chat.md)
 

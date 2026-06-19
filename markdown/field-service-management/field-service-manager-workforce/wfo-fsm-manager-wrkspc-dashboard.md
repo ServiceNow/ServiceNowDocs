@@ -2,6 +2,7 @@
 title: Workforce Optimization for Field Service Manager Workspace dashboard
 description: Monitor your teams' work and organizational performance using Workforce Optimization for Field Service. Stay on top of the status of the tasks your teams are working on at a given time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/wfo-fsm-manager-wrkspc-dashboard.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -15,7 +16,7 @@ breadcrumb: [Workforce Optimization, Managing workforce, Use, Field Service Mana
 
 Monitor your teams' work and organizational performance using Workforce Optimization for Field Service. Stay on top of the status of the tasks your teams are working on at a given time.
 
-![Dashboard showing active agent statuses and work order tasks filtered by priority and status.](../../../product/field-service-management/image/Manager-wrkspc.png)
+\[Omitted image "Manager-wrkspc.png"\] Alt text: Dashboard showing active agent statuses and work order tasks filtered by priority and status.
 
 ## End user and roles
 
@@ -111,7 +112,7 @@ Tasks by SLA
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -123,7 +124,7 @@ Tasks by priority
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -135,7 +136,7 @@ Pending approval
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -147,7 +148,7 @@ Closed work orders
 
 </td><td>
 
-Stacked bar chart ![](../../../reuse/reporting/image/bar-stacked.svg)
+Stacked bar chart \[Omitted image "bar-stacked.svg"\] Alt text:
 
 </td><td>
 
@@ -171,7 +172,7 @@ Planned vs actual task duration
 
 </td><td>
 
-Stacked bar chart ![](../../../reuse/reporting/image/bar-stacked.svg)
+Stacked bar chart \[Omitted image "bar-stacked.svg"\] Alt text:
 
 </td><td>
 
@@ -195,7 +196,7 @@ Active Agent Status
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -207,7 +208,7 @@ Active Work order tasks
 
 </td><td>
 
-Single Score ![](../../reporting/image/icon-single-score-report.png)
+Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
@@ -219,7 +220,7 @@ Top assignment groups
 
 </td><td>
 
-Donut ![](../../reporting/image/icon-donut-report.png)
+Donut \[Omitted image "icon-donut-report.png"\] Alt text:
 
 </td><td>
 
@@ -231,7 +232,7 @@ Pending tasks by status
 
 </td><td>
 
-Donut ![](../../reporting/image/icon-donut-report.png)
+Donut \[Omitted image "icon-donut-report.png"\] Alt text:
 
 </td><td>
 
@@ -243,7 +244,7 @@ Active Tasks by status
 
 </td><td>
 
-Donut ![](../../reporting/image/icon-donut-report.png)
+Donut \[Omitted image "icon-donut-report.png"\] Alt text:
 
 </td><td>
 
@@ -255,7 +256,7 @@ Tasks by closure status
 
 </td><td>
 
-Donut ![](../../reporting/image/icon-donut-report.png)
+Donut \[Omitted image "icon-donut-report.png"\] Alt text:
 
 </td><td>
 

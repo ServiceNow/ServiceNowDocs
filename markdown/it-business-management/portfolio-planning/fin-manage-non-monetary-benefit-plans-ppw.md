@@ -2,6 +2,7 @@
 title: Manage non-monetary benefit plans for your planning items in Portfolio Planning
 description: Create and manage monetary benefit plans to capture the potential benefits while executing your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/fin-manage-non-monetary-benefit-plans-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -27,11 +28,11 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 3.  Select the **Non-monetary Benefit Plans** related list.
 
-    ![GIF showing selection of Non-monetary Benefit Plans related link.](../../spw-financials/images/fin-slct-non-monetary-benefit-plan-gif.gif)
+    \[Omitted image "fin-slct-non-monetary-benefit-plan-gif.gif"\] Alt text: GIF showing selection of Non-monetary Benefit Plans related link.
 
 4.  On the Benefit Plan form, fill the fields.
 
-    For a description of the field names, see [Non-monetary benefit plans form](../../project-management/reference/non-monetary-benefit-plans-form.md).
+    For a description of the field names, see [Non-monetary benefit plans form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/non-monetary-benefit-plans-form.md).
 
 5.  Select **Save**.
 

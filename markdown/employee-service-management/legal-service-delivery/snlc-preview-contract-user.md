@@ -2,6 +2,7 @@
 title: View and download a signed contract document as a legal user
 description: View and download a signed contract document as a legal user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-preview-contract-user.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open the legal request either from the platform view or using Service Portal.
 
-<table id="choicetable_uth_mkz_czb"><thead><tr><th align="left" id="d674671e55">
+<table id="choicetable_uth_mkz_czb"><thead><tr><th align="left" id="d93680e55">
 
 Method
 
-</th><th align="left" id="d674671e58">
+</th><th align="left" id="d93680e58">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d674671e64">
+</th></tr></thead><tbody><tr><td id="d93680e64">
 
 **Using platform view**
 
@@ -47,7 +48,7 @@ Actions
     -   If an external storage integration is not available, select the document name to view the revision. From the **Manage Attachments** field, select the document to download it. You can also select the **view** option to view the document.
 
 
-</td></tr><tr><td id="d674671e126">
+</td></tr><tr><td id="d93680e126">
 
 **Using Service Portal**
 
@@ -63,5 +64,5 @@ Actions
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[View and download a signed contract document](snlc-preview-contract.md)
+**Parent Topic:**[View and download a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-preview-contract.md)
 

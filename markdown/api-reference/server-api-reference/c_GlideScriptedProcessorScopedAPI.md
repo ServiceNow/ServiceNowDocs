@@ -2,6 +2,7 @@
 title: GlideScriptedProcessor - Scoped
 description: The GlideScriptedProcessor API provides a customizable URL endpoint that can execute arbitrary server-side JavaScript code and produce output such as TEXT, JSON, or HTML. ServiceNow processors are equivalent to Java servlets.Redirects to the specified URL.Encodes an object as a JSON string and writes it to the current URL.Writes the specified string to the current URL.Writes the specified string to the current URL in the specified character-encoding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideScriptedProcessorScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ A useful global variable, *g\_target*, is available in processor scripts. It con
 
 The URL to a processor has the format: `https://<instance name.servicenow.com>/<path endpoint>.do?<parameter endpoint>=<value>` where the path endpoint and parameter endpoint are defined on the processor form.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideScriptedProcessor - redirect\(String url\)
 

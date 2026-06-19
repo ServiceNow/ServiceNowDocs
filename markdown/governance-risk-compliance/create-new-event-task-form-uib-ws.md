@@ -1,21 +1,24 @@
 ---
-title: Create New Event Task form
+title: Create Event Task form
 description: Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-event-task-form-uib-ws.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Monitor event tasks and create ad-hoc tasks, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Monitor event tasks and create ad-hoc tasks, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Event Task form
+# Create Event Task form
 
 Use the Create New Event Task form in BCM UIB Workspace to add details about an event task.
 
-## Create New Event Task form
+## Create Event Task form
 
 For description of the field values, see the table.
+
+**Note:** When event tasks are created in bulk through **Add groups** or **Add tasks**, the **Phase**, element definition, and other context-derived fields may be pre-populated from list filters or from the Source task template. The values shown on the form reflect those pre-populations and can be overridden. Source task template fields are the first priority and list filters are the second.
 
 <table id="table_FloorForm"><thead><tr><th>
 
@@ -86,9 +89,9 @@ Active phase to be associated with the event task. You can associate these phase
 
 You can use the **Group by Phase** option in the Phases column to organize event tasks by a specific phase and its order, making it easier to filter and manage related tasks.
 
-![Phase order.](../image/event-task-phase-order.png)When you order the event tasks by the phase order, you can view the event tasks in a sequence in which they are executed.
+\[Omitted image "event-task-phase-order.png"\] Alt text: Phase order.When you order the event tasks by the phase order, you can view the event tasks in a sequence in which they are executed.
 
-![Sequence.](../image/event-task-phase-order-sequence.png)
+\[Omitted image "event-task-phase-order-sequence.png"\] Alt text: Sequence.
 
 </td></tr><tr><td>
 
@@ -124,7 +127,7 @@ Dependencies for the tasks. For tasks copied from the plan level, dependencies a
 
 Beginning with the Australia release, you can now manually add a dependency for the event task or select an event task from the list in the **Dependencies** field. Only applicable event tasks are shown in this field.
 
-![Dependency.](../image/event-task-dependency-field.png)
+\[Omitted image "event-task-dependency-field.png"\] Alt text: Dependency.
 
 </td></tr><tr><td>
 
@@ -154,7 +157,7 @@ Option to enable clearer visual indicators for different levels of recovery prog
 
  For example, if a recovery process involves three steps, you can consider an asset recovered after completing step two, and defer step three to a later time. This provides greater flexibility in managing your recovery processes.
 
- For more information on enhanced event asset management, see [Event assets](../concept/event-assets.md).
+ For more information on enhanced event asset management, see [Event assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/event-assets.md).
 
 </td></tr><tr><td>
 
@@ -239,5 +242,5 @@ Original task
 Original task assigned by the system. When an event starts, the system identifies the first executed event task as the original task. Other similar tasks are modified as duplicate tasks in the group. When a task gets added into the similar tasks group, the system marks it in the **On hold** state. Tasks with dependencies can be managed such that only one task with dependencies is added to the group, and once dependencies are resolved, duplicate tasks are closed when the original task is completed. You cannot edit the **Original task** field at any time. It is auto-assigned only after the event task starts executing.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Monitor event tasks and create ad-hoc tasks](../task/add-an-event-task-to-exercise-event.md)
+</table>**Parent Topic:**[Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-an-event-task-to-exercise-event.md)
 

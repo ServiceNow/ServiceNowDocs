@@ -2,6 +2,7 @@
 title: Reprocess an event
 description: You can fire the event again for testing or diagnostic purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/t\_ReprocessAnEvent.html
 release: australia
 product: System Events
 classification: system-events
@@ -30,5 +31,5 @@ Role required: events\_admin
     The event returns to the event queue.
 
 
-**Parent Topic:**[Managing system events](../concept/managing-system-events.md)
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/managing-system-events.md)
 

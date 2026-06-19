@@ -2,6 +2,7 @@
 title: Surveys in Workforce Optimization for ITSM
 description: Assess the quality of your teams' completed tasks. Use surveys to get feedback on from your team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/surveys-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -15,14 +16,14 @@ breadcrumb: [Training your teams, Coaching, Workforce Optimization for ITSM, IT 
 
 Assess the quality of your teams' completed tasks. Use surveys to get feedback on from your team.
 
-**Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](../../cf-coaching/task/cf-create-survey-coaching-opportunity.md).
+**Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-create-survey-coaching-opportunity.md).
 
--   **[Assess the quality of your agent's completed tasks](../task/assess-skills-automatically-configurable-workspace.md)**  
+-   **[Assess the quality of your agent's completed tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/assess-skills-automatically-configurable-workspace.md)**  
 Assess the ability of your agents to resolve incidents or the quality of their completed tasks.
--   **[Create a survey in Workforce Optimization for ITSM](../task/create-survey-wfo-itsm.md)**  
+-   **[Create a survey in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-survey-wfo-itsm.md)**  
 Create surveys and publish them. You can assign published surveys to an agent or a group. You can also share the survey with other teams by adding managers of those teams as the owners of the survey.​
--   **[Assign a survey to agents or groups](../task/assign-survey-user-group-wfo-itsm.md)**  
+-   **[Assign a survey to agents or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/assign-survey-user-group-wfo-itsm.md)**  
 Assign a published survey to agents or groups so that they can take the survey.
 
-**Parent Topic:**[Training your teams using Coaching in Workforce Optimization for ITSM](coaching-configurable-wfo-itsm.md)
+**Parent Topic:**[Training your teams using Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/coaching-configurable-wfo-itsm.md)
 

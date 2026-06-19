@@ -2,12 +2,13 @@
 title: Customize the URL and REST API task parameters for EMR systems
 description: Use scripted extension points to manipulate URL parameters and REST API task parameters for an EMR system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-help-custom.html
 release: australia
 product: EMR Help
 classification: emr-help
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
@@ -17,13 +18,13 @@ Use scripted extension points to manipulate URL parameters and REST API task par
 
 ## Before you begin
 
-Install the EMR Help application. For more information, see [Install EMR Help](install-emr-help.md).
+Install the EMR Help application. For more information, see [Install EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/install-emr-help.md).
 
 Role required: admin
 
 ## About this task
 
-By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
 
 ## Procedure
 
@@ -35,7 +36,7 @@ By using extension points, you can easily integrate customizations without havin
 
     -   Create and register a custom script include.
 
-        For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/impl-scripted-ext-pts-custom-code.md).
+        For more information, see .
 
     -   Modify the existing script include by going to the Implementations related list and selecting a script include in the **Class** column.
 

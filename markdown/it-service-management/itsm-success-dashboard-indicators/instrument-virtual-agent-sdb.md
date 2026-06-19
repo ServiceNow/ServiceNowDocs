@@ -2,6 +2,7 @@
 title: Configure Virtual Agent topics for ITSM Success Dashboard indicators
 description: Configure the Virtual Agent \(VA\) topics for ITSM Success Dashboard indicators so that data is displayed correctly if you have topics other than the base system topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/instrument-virtual-agent-sdb.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -69,7 +70,7 @@ Activity Table
 
 </td><td>
 
-Table where the deflection activity occurs. This table is associated with the primary activity table. For more information, see [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md).
+Table where the deflection activity occurs. This table is associated with the primary activity table. For more information, see Create deflection configurations and patterns.
 
 </td></tr><tr><td>
 
@@ -91,12 +92,12 @@ List of comma-separated activity system IDs.
 10. Select **Save**.
 
 
-**Parent Topic:**[Configure Virtual Agent topics for ITSM Success Dashboard](../concept/configure-va.md)
+**Parent Topic:**[Configure Virtual Agent topics for ITSM Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/configure-va.md)
 
 **Related topics**  
 
 
-[Tracking deflections using deflection topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/deflections-virtual-agent.md)
+[bundle-convint.deflections-virtual-agent]
 
-[Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md)
+[bundle-convint.set-up-deflection-settings-va]
 

@@ -2,6 +2,7 @@
 title: Configure enhanced natural language user input handling
 description: Add enhanced natural language handling for boolean user responses to your Virtual Agent environment. If you're using additional languages or third-party NLU providers, specify the model and intents that define variations in yes/no utterances for your bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/set-up-natural-lang-handling-other-nlu.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -95,7 +96,7 @@ Language of the intent. English for ServiceNow NLU is configured by default.If y
 
 Depending on your environment, your configuration may contain entries for other languages \(such as French or German in the example below\) or for other NLU providers, such as IBM Watson.
 
-![VA NLU Dispatches table displaying the configurations for French, German, and IBM Watson in English.](../images/va-nlu-dispatches-full-config.png)
+\[Omitted image "va-nlu-dispatches-full-config.png"\] Alt text: VA NLU Dispatches table displaying the configurations for French, German, and IBM Watson in English.
 
-**Parent Topic:**[Enhanced natural language handling of user inputs in NLU topic discovery](../concept/natural-language-user-response-handling.md)
+**Parent Topic:**[Enhanced natural language handling of user inputs in NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/natural-language-user-response-handling.md)
 

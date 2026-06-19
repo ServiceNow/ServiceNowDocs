@@ -2,6 +2,7 @@
 title: Add Slack connection in ServiceNow instance
 description: Add the Slack connection in Workflow Studio to configure the Slack spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-slackspoke-fd.html
 release: australia
 product: Integration Hub
 classification: integration-hub

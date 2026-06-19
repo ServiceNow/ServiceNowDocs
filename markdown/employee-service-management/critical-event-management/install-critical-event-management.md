@@ -2,6 +2,7 @@
 title: Install Critical Event Management
 description: You can install the Critical Event Management application with the admin role. If the demo data and related applications aren’t installed by default, the application includes demo data to install them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/install-critical-event-management.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -31,7 +32,7 @@ The following items are installed with Critical Event Management:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Critical Event Management](../reference/components-installed-with-cem.md).
+For more information, see [Components installed with Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/components-installed-with-cem.md).
 
 ## Procedure
 

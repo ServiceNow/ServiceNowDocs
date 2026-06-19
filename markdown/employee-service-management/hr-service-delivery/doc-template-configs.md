@@ -2,6 +2,7 @@
 title: Document Templates configurations
 description: Use Document Templates configurations to generate table of contents and page numbers on a PDF document that is generated from an HTML template.Create a TOC configuration to generate Table of Contents in a PDF document that is generated from an HTML document.Create a page number configuration to automatically generate page numbers in a PDF document that is generated from an HTML document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/doc-template-configs.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

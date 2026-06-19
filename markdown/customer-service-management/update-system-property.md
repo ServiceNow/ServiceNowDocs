@@ -2,7 +2,10 @@
 title: Update system property
 description: Update the sn\_customerservice.consumer.allowed\_user\_types system property within the Customer Service Management \(CSM\) application to enable the association of consumer records with contact user records or with user records. This modification enables you to display the customer\_contact or sys\_user extension records in the reference list for the users in the csm\_consumer table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/update-system-property.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

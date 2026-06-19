@@ -2,6 +2,7 @@
 title: Settings in the Test action pop-up window
 description: You can select Test on the Trigger Smart Assessment action form to test the design of an Smart Assessment Engine assessment. You then specify the settings for the test in the Test action pop-up window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-test-action-popup.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -41,7 +42,7 @@ Assessors
 
 Persons who are notified of the assessment and typically respond to the assessment or assign it to another user. One assessment instance is assigned to each assessor.
 
- Assessors have the Assessment actor \[sn\_smart\_asmt.actor\] role. See [Roles installed in Smart Assessment Engine](sae-roles-defined.md).
+ Assessors have the Assessment actor \[sn\_smart\_asmt.actor\] role. See [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Category that the assessment template should be a member of. For example, Risk, 
 
 Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
-For more information, see [Create an assessment template category](../task/sae-asmnt-template-category-create.md).**Note:** You can create an assessment only from a published assessment template.
+For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).**Note:** You can create an assessment only from a published assessment template.
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Assessment target
 
 </td><td>
 
-Table records that are selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target, which makes the scope a combination of records from each table.
+Table records that are selected to be assessed — the assessment's scope items. For an explanation of scope items, including how they are set and where responders see them, see [Scope items in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-scope-items.md).
 
 </td></tr></tbody>
 </table>

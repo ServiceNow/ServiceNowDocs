@@ -2,6 +2,7 @@
 title: Use the Conference Calls Cisco Webex integration
 description: The following steps give you a walkthrough of how you can manage and initiate a Cisco Webex conference call directly from a major security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-conf-call-webex-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ Role required: sn\_msi.workspace\_manager
 
 3.  Select the **Start a conference call** action.
 
-4.  You can also start a conference call by selecting the ![Conference call](../image/msim-conf-call-icon.png) icon on the right-context menu and selecting the + icon.
+4.  You can also start a conference call by selecting the \[Omitted image "msim-conf-call-icon.png"\] Alt text: Conference call icon on the right-context menu and selecting the + icon.
 
     The Start conference call pop-up appears.
 
@@ -35,7 +36,7 @@ Role required: sn\_msi.workspace\_manager
 
 6.  In the Title field, provide a title that describes the reason for the Cisco Webex conference call.
 
-    ![Steps to start a conference call using Cisco Webex](../image/msim-conf-call-webex.png "Using the Conference Call Cisco Webex integration")
+    \[Omitted image "msim-conf-call-webex.png"\] Alt text: Steps to start a conference call using Cisco Webex
 
 7.  In the Add participants field, select the participants for the Cisco Webex conference call.
 
@@ -57,8 +58,6 @@ Role required: sn\_msi.workspace\_manager
 
     The participants can use the link from the MSIM email notification or the notification from the Cisco Webex app to join the call.
 
-    ![MSIM email notification for the Webex conference call](../image/msim-conf-webex-email.png "Email notification")
-
 11. Open the associated major security incident in the MSIM workspace to view the conference call details.
 
     When the final participant leaves the call, the conference call ends or select **End call** in the Conference call section to end the conference call.
@@ -66,5 +65,5 @@ Role required: sn\_msi.workspace\_manager
     If the conference call was recorded, then the recording will be available in the Conference call section of the associated major security incident after sometime.
 
 
-**Parent Topic:**[Integrate MSIM Conference Calls with Cisco Webex](../concept/integrate-msim-conf-calls-webex.md)
+**Parent Topic:**[Integrate MSIM Conference Calls with Cisco Webex](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-msim-conf-calls-webex.md)
 

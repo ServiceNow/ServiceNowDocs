@@ -2,6 +2,7 @@
 title: Configure the HR solution definition and domain
 description: Configure your solution definition from the HR AI configuration module, as well as access the solution definition record for training. If you use domain separation in your instance, you can define the solution definition to use for each domain by creating additional configuration records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-auto-case-categorization.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,7 +44,7 @@ Solution Capability Definition
 
 Name of the solution definition.-   To create or select a solution definition, click the **Lookup** button.
 -   To update or train a solution definition, click the **Preview** button to open the solution definition record.
--   For further information on creating and training a solution definition, see [Create and train a solution definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
+-   For further information on creating and training a solution definition, see Create and train a solution definition.
 
 
 </td></tr><tr><td>

@@ -2,6 +2,7 @@
 title: Activate the performance analytics jobs in Hiring Experiences
 description: Activate the performance analytics \(PA\) jobs to create an uninterrupted flow of job requisition updates by their states in the Recruitment workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/activate-pa-jobs.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -33,5 +34,5 @@ Role required: sn\_ta\_hiring\_core.admin
 
 You have set the performance analytics jobs to create a flow of daily data updates of the job requisitions by their states.
 
-**Parent Topic:**[Configuring Recruitment Workspace](../concept/config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
 

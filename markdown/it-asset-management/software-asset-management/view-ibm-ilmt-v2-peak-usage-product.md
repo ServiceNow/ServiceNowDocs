@@ -2,6 +2,7 @@
 title: View the peak usage of your IBM software products
 description: If you are integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 2 of the ILMT and BigFix Inventory integration APIs, view the highest full capacity and sub-capacity Processor Value Unit \(PVU\), Resource Value Unit \(RVU\), and Virtual Processor Core \(VPC\) usage for your IBM software products within an aggregated time period of up to 90 days.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-ibm-ilmt-v2-peak-usage-product.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -32,5 +33,5 @@ Role required: sam\_admin or sam\_user
     The Software Asset Management application displays the highest usage within an aggregated time period of up to 90 days. You can define this aggregated time period in ILMT or BigFix Inventory.
 
 
-**Parent Topic:**[Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs](../concept/integrating-ilmt-bigfix-v2-apis.md)
+**Parent Topic:**[Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrating-ilmt-bigfix-v2-apis.md)
 

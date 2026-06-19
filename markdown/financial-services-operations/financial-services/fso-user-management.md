@@ -1,0 +1,102 @@
+---
+title: FSO User management
+description: Configure the internal and external users for Customer Service Management to provide the right access to features, capabilities, and case data. Create relationships that facilitate case management and fulfill support roles for specific accounts.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services/fso-user-management.html
+release: australia
+product: Financial Services
+classification: financial-services
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Explore, Financial Services Operations \(FSO\)]
+---
+
+# FSO User management
+
+Configure the internal and external users for Customer Service Management to provide the right access to features, capabilities, and case data. Create relationships that facilitate case management and fulfill support roles for specific accounts.
+
+<table id="table_hh2_f55_41c"><thead><tr><th>
+
+Task
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+
+
+</td><td>
+
+Configure the individual users and the user groups who can access your instance.
+
+</td></tr><tr><td>
+
+[User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-core-roles.md)
+
+</td><td>
+
+Assign roles to individual users and user groups to control access to features, capabilities, and data.
+
+</td></tr><tr><td>
+
+[Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md)
+
+</td><td>
+
+The FSO application includes agent connector and contributor roles. To set the right access for your team, combine these roles with different CSM Industry data model and contributor user roles.
+
+</td></tr><tr><td>
+
+Create multiple consumer profiles for a user
+
+</td><td>
+
+Individual consumers can have multiple profiles for different needs. You can create these profiles to identify and differentiate profile-specific data.
+
+</td></tr><tr><td>
+
+Configure a unified user
+
+</td><td>
+
+Enable users to maintain multiple profiles within the Customer Service Management \(CSM\) application and other ServiceNow applications with one login.
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+Establish different types of relationships between partners, customers, and contacts, to make case and account management easy and flexible:-   Bi-directional account relationships
+-   Contact relationships
+-   Account hierarchies
+
+</td></tr><tr><td>
+
+Create account teams
+
+</td><td>
+
+Create teams made up of employees and customer contacts who fulfill the roles and functions to support specific accounts.
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+Configure contributor users to engage middle office teams in resolving customer issues and requests.
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+Configure customer access management to support multiple contacts and consumers on cases and sold products, providing them with varying levels of access to the case.
+
+</td></tr></tbody>
+</table>

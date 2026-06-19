@@ -2,6 +2,7 @@
 title: Associate a task with an outage
 description: You can associate multiple tasks with a defined outage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-outage/t\_AssociateATaskToAnOutage.html
 release: australia
 product: Task Outage
 classification: task-outage
@@ -40,5 +41,5 @@ The administrator must configure the Outage form to include the Tasks related li
 5.  Click **Save**.
 
 
-**Parent Topic:**[Task Outage](../concept/task-outage.md)
+**Parent Topic:**[Task Outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/task-outage.md)
 

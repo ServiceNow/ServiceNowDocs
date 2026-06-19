@@ -2,6 +2,7 @@
 title: Configure Slack modals in ServiceNow instance
 description: Create modal and specify fields that should be displayed in your Slack modal. Modal UI can be generated in two ways; automatically using a ServiceNow table and manually using a custom View Payload.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/conf-slack-modals.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -112,14 +113,14 @@ Script to validate inputs provided by the user in the modal. To validate the use
 
  Also, configure the script to return an object with keys of status and statusMessage when there are no validation errors. statusMessage is optional and you can configure it as per your requirement.
 
- ![Script validation.](../image/slack-script-validation.png)
+ \[Omitted image "slack-script-validation.png"\] Alt text: Script validation.
 
 </td></tr></tbody>
 </table>    4.  Right-click the form header and click **Save**.
 
         The Create Incident modal is created in Slack.
 
-        ![Slack modal.](../image/slack-modal.png)
+        \[Omitted image "slack-modal.png"\] Alt text: Slack modal.
 
 2.  To create a modal with UI that is manually generated using a custom **View Payload**:
 
@@ -185,7 +186,7 @@ Script to validate inputs provided by the user in the modal. To validate the use
 
  Also, configure the script to return an object with keys of status and statusMessage when there are no validation errors. statusMessage is optional and you can configure it as per your requirement.
 
- ![Script validation.](../image/slack-script-validation.png)
+ \[Omitted image "slack-script-validation.png"\] Alt text: Script validation.
 
 </td></tr></tbody>
 </table>    4.  Right-click the form header and click **Save**.
@@ -209,7 +210,7 @@ Script to validate inputs provided by the user in the modal. To validate the use
 
         -   Copy and record the value of sys\_id. You can use this sys\_id as the unique value in **Callback ID** while configuring the shortcut or message shortcut in your Slack app.
 
-            ![sys_id of the modal's inbound policy record.](../image/modal-slack-sysid-shortcut.png)
+            \[Omitted image "modal-slack-sysid-shortcut.png"\] Alt text: sys\_id of the modal's inbound policy record.
 
             **Note:** Two system properties are added to handle the inbound communications:
 
@@ -278,15 +279,15 @@ The characters encoded using encodeURIComponent method and the following charact
 </td></tr></tbody>
 </table>            To display modals for the required shortcut, in **Condition**, provide the sys\_id of the modal's inbound policy record.
 
-            ![Display modals for Slack shortcuts.](../image/slack-modal-sysid.png)
+            \[Omitted image "slack-modal-sysid.png"\] Alt text: Display modals for Slack shortcuts.
 
         -   To display modals for the required Slack commands, in **Condition**, provide the required command for which the modal should be displayed.
 
-            ![Display modals for Slack commands.](../image/slack-modal-cmd.png)
+            \[Omitted image "slack-modal-cmd.png"\] Alt text: Display modals for Slack commands.
 
         -   To display modals for the required Slack block action, in **Condition**, provide the required action ID of the required block action for which the modal should be displayed.
 
-            ![Display modals for Slack block actions.](../image/slack-modal-actionid.png)
+            \[Omitted image "slack-modal-actionid.png"\] Alt text: Display modals for Slack block actions.
 
     3.  Click **Submit**.
 
@@ -332,7 +333,7 @@ Default Answer
 
 </td><td>
 
-Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(![Lookup icon](../image/SearchIcon.png)\).
+Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(\[Omitted image "SearchIcon.png"\] Alt text: Lookup icon\).
 2.  Select the required subflow from the Document list.
 
 **Note:** Ensure that the **Table name** is `Flow [sys_hub_flow]`.
@@ -347,7 +348,7 @@ Condition
 
 Conditions to be met to perform tasks in ServiceNow instance. Specify the modal record in the condition.
 
-![Condition to trigger subflow.](../image/slack-modal-subflow.png)
+\[Omitted image "slack-modal-subflow.png"\] Alt text: Condition to trigger subflow.
 
 **Note:** **Condition** must have condition specific to the modal record only.
 

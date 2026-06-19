@@ -1,19 +1,21 @@
 ---
 title: Supporting information for Now Assist for Accounts Payable Operations \(APO\)
-description: Get a quick overview of the important information that is related to the Now Assist for Accounts Payable Operations \(APO\) application.
+description: Supporting information for Now Assist for Accounts Payable Operations \(APO\) includes prerequisites, skill configurations, and related resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/now-assist-apo-supporting-info.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, Now Assist, AI automation, invoice automation]
 breadcrumb: [Exploring Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Supporting information for Now Assist for Accounts Payable Operations \(APO\)
 
-Get a quick overview of the important information that is related to the Now Assist for Accounts Payable Operations \(APO\) application.
+Supporting information for Now Assist for Accounts Payable Operations \(APO\) includes prerequisites, skill configurations, and related resources.
 
 ## Supported versions
 
@@ -70,5 +72,5 @@ Activate the applications in the following order:
 1.  Now Assist for Platform \(sn\_genai\_platform\)
 2.  Now Assist for APO \(sn\_ap\_gen\_ai\)
 
-For more information, see [Configure Now Assist for Accounts Payable Operations \(APO\)](../task/configuring-now-assist-apo.md).
+For more information, see [Configure Now Assist for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/configuring-now-assist-apo.md).
 

@@ -2,6 +2,7 @@
 title: HR Service Delivery integration with Service Portfolio Management and Digital Portfolio Management
 description: HR Service Delivery integration with Service Portfolio Management and Digital Portfolio Management enables you to manage HR services in a standardized, structured format as suggested in the Common Service Data Model \(CSDM\) methodology. It ensures that the hierarchy in which you define services is consistent with the hierarchy of other business units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/ckm-csdm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -77,11 +78,11 @@ Next, activate Digital Portfolio Management to view HR services in Digital Portf
 ## Work flow
 
 1.  Activate the required applications.
-2.  [Create a service table configuration in Service Portfolio Management](../task/config-service-table.md).
+2.  [Create a service table configuration in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-service-table.md).
 
     **Note:** Default HR service table configuration is available for use.
 
-3.  [Configure CSDM service mappings](../task/config-csdm-ser-map.md).
+3.  [Configure CSDM service mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-csdm-ser-map.md).
 
     **Note:** Demo data for HR CSDM service mappings is available for use.
 

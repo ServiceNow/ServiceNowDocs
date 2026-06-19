@@ -2,6 +2,7 @@
 title: Reserve a workplace for a day
 description: Reserve workplaces for a day on which you want to return to the office by using Workplace Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/reserve-space-for-a-day-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Reserve workplaces for a day on which you want to return to the office by using 
 
 ## Before you begin
 
-To reserve a workplace using your mobile device, you must have the [Now® Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app.
+To reserve a workplace using your mobile device, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -39,7 +40,7 @@ You can also access the reservation form from the Now Mobile app. Navigate to **
     -   To reserve a space for custom timings, select **Reserve a space for a day**.
 3.  On the Reserve a space form, fill in the fields.
 
-    For a description of the field values, see [Reserve a space form](../reference/reserve-space-form.md).
+    For a description of the field values, see [Reserve a space form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/reserve-space-form.md).
 
     **Note:** The visibility of some of the following fields depends on the application settings made by your administrator.
 
@@ -76,5 +77,5 @@ You will receive an email notification 15 minutes before the reservation to chec
     **Note:** If you do not check out at the reservation end time, the reservation is automatically set to **No Check Out** after 24 hours.
 
 
-**Parent Topic:**[Making workplace reservations](../concept/making-workspace-reservations.md)
+**Parent Topic:**[Making workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/making-workspace-reservations.md)
 

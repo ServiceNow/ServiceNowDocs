@@ -2,6 +2,7 @@
 title: Configure Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: If you have the sn\_nowassist\_admin.nsa\_admin role, you can configure the Now Assist for Sourcing and Procurement Operations \(SPO\) application so that your requesters, procurement specialists, and sourcing managers can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ If you have the sn\_nowassist\_admin.nsa\_admin role, you can configure the Now 
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
@@ -40,9 +41,9 @@ The following Now Assist for Sourcing and Procurement Operations \(SPO\) fulfill
 -   Purchase requisition summarization for fulfillers
 -   Procurement case summarization for fulfillers
 
-If the Now Assist for Sourcing and Procurement Operations \(SPO\) fulfillers skills are turned off, you can reactivate them or configure them using the Now Assist Admin console. The console contains everything that you need to install the plugins and configure the generative AI skills. For more information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+If the Now Assist for Sourcing and Procurement Operations \(SPO\) fulfillers skills are turned off, you can reactivate them or configure them using the Now Assist Admin console. The console contains everything that you need to install the plugins and configure the generative AI skills. For more information, see .
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -69,14 +70,14 @@ The following table lists the features and skills that you can access from the N
 |Sourcing request summarization for requesters|Summarize sourcing requests to keep requesters informed about their status, progress, and action items.|
 |Spend category predictor|Suggests the appropriate spend category for a fulfiller when primary ML-based category prediction doesn’t meet the confidence threshold.|
 
-![Skills available on Now Assist for Sourcing and Procurement Operations.](../image/now-assist-spo-explore.png "Now Assist skills for SPO")
+\[Omitted image "now-assist-spo-explore.png"\] Alt text: Skills available on Now Assist for Sourcing and Procurement Operations.
 
 ## Procedure
 
 1.  Install the Now Assist for Sourcing and Procurement Operations \(SPO\) plugin \(sn\_spend\_gen\_ai\).
 
-    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](../concept/now-assist-spo-supporting-info.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the plugin dependencies and plugin activation order, see [Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md).
+    -   For information about the installation process, see .
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Features** tab of the Now Assist Admin console.
 
 3.  Expand the **Finance and Supply Chain** workflow group and select **Sourcing and Procurement Operations**.
@@ -140,15 +141,15 @@ On the skill card that you want to activate, select **Activate skill**.
 
 10. Select **Define availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d192845e699">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d40417e694">
 
 Option
 
-</th><th align="left" id="d192845e702">
+</th><th align="left" id="d40417e697">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192845e708">
+</th></tr></thead><tbody><tr><td id="d40417e703">
 
 **Skill is always available**
 
@@ -156,7 +157,7 @@ Description
 
 Skill is continuously available to users.
 
-</td></tr><tr><td id="d192845e717">
+</td></tr><tr><td id="d40417e712">
 
 **Customize skill availability**
 
@@ -169,15 +170,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d192845e753">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d40417e748">
 
 Option
 
-</th><th align="left" id="d192845e756">
+</th><th align="left" id="d40417e751">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192845e762">
+</th></tr></thead><tbody><tr><td id="d40417e757">
 
 **In-product desktop**
 
@@ -185,15 +186,15 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d192845e773">
+</td></tr><tr><td id="d40417e768">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).
+Now Assist skills are available in the Now Assist panel. Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see .
 
-**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
 </td></tr></tbody>
 </table>13. Select **Save and continue** to go to the next step.
@@ -205,10 +206,10 @@ Now Assist skills are available in the Now Assist panel. Now Assist skills are a
     The skill is activated.
 
 
--   **[Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill](cust-now-assist-spo-skill.md)**  
+-   **[Customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/cust-now-assist-spo-skill.md)**  
 If you have the sn\_nowassist\_admin.nsa\_admin role, you can customize a Now Assist for Sourcing and Procurement Operations \(SPO\) skill so that fulfillers and requesters can use the generative AI skills in Source-to-Pay Workspace, Shopping Hub, and in Core UI.
--   **[Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](../reference/input-triggers-now-assist-spo.md)**  
+-   **[Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/input-triggers-now-assist-spo.md)**  
 You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
 
-**Parent Topic:**[Now Assist for Sourcing and Procurement Operations \(SPO\)](../concept/now-assist-spo.md)
+**Parent Topic:**[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

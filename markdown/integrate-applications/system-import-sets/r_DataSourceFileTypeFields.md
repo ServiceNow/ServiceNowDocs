@@ -2,12 +2,13 @@
 title: Data source fields
 description: In addition to common fields, other fields appear on the data source form, depending on the value of the Type field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_DataSourceFileTypeFields.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
 
@@ -71,7 +72,7 @@ Use Batch Import
 
 </td><td>
 
-If selected, specifies that loading data should be batched when you click **Load data** or **Test load 20 records**.
+If selected, specifies that loading data should be batched when you select **Load data** or **Test load 20 records**.**Note:** The system keeps records in memory until it receives the number of records specified in the batch size. If the batch size is met, it commits all the records as one batched SQL. If all the records are loaded for the import set, it commits all the remaining records as one batched SQL. Since it keeps the maximum of the batch size records in memory when specified, make sure you set the correct batch size to not cause any out-of-memory issues.
 
 </td></tr><tr><td>
 
@@ -159,7 +160,7 @@ Parsing script
 
 </td><td>
 
-The script used to parse a single line of input. As you type the script, script auto-complete presents the choices available to you. For more information, see [File type data sources](r_FileTypeDataSource.md).
+The script used to parse a single line of input. As you type the script, script auto-complete presents the choices available to you. For more information, see [File type data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_FileTypeDataSource.md).
 
 </td></tr><tr><td>
 
@@ -199,7 +200,7 @@ Expand node children
 
 </td><td>
 
-Selected if child elements of the XML node or JSON object should be converted into additional columns. Unselected if the parent column value should be an XML or JSON fragment. For JSON, note that selecting this option expands objects only, not arrays. For nested array support, see [JSON file import examples](json-data-source-examples.md).
+Selected if child elements of the XML node or JSON object should be converted into additional columns. Unselected if the parent column value should be an XML or JSON fragment. For JSON, note that selecting this option expands objects only, not arrays. For nested array support, see [JSON file import examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/json-data-source-examples.md).
 
 </td></tr><tr><td>
 
@@ -288,7 +289,7 @@ These additional fields appear on the data source form when the **Type** field v
 |Instance name|Used to support dynamic port connectivity with SQL Server. To ensure connectivity, provide the instance name for a SQL Server that receives a new port number dynamically after each reboot. This field only appears when **SQLServer** is selected as a data source format.|
 |Database name|Name of the database instance.|
 |Database port|Port number for the database. Leave this field empty when using dynamic port connectivity with SQL Server.|
-|Use integrated authentication|Selected to allow the JDBC connection to use the ID of the user configured for the Windows MID Server service for SQL Server authentication. For additional details, see [JDBC type data source](r_JDBCTypeDataSource.md#).|
+|Use integrated authentication|Selected to allow the JDBC connection to use the ID of the user configured for the Windows MID Server service for SQL Server authentication. For additional details, see [JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).|
 |Username|User name for authentication on the JDBC server.|
 |Password|Password for authentication on the JDBC server.|
 |Server|Name of the server from which the tables will be imported.|
@@ -344,7 +345,7 @@ Request action
 
 </td><td>
 
-Data source request action that will be invoked to get data. You can choose only published request actions. Click the link in the dialog box below to create/configure a new Data Source request action in Integration Hub. After the request action is published in Integration Hub, you can choose it as a **Request action** in the Data Source record. For more information, see [Define action properties](../task/define-action-properties.md).
+Data source request action that will be invoked to get data. You can choose only published request actions. Click the link in the dialog box below to create/configure a new Data Source request action in Integration Hub. After the request action is published in Integration Hub, you can choose it as a **Request action** in the Data Source record. For more information, see [Define action properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/define-action-properties.md).
 
 </td></tr><tr><td>
 
@@ -376,7 +377,7 @@ Parsing script
 
 </td><td>
 
-The script used to parse a single line of input. As you type the script, script auto-complete presents the choices available to you. For more information, see [File type data sources](r_FileTypeDataSource.md).
+The script used to parse a single line of input. As you type the script, script auto-complete presents the choices available to you. For more information, see [File type data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_FileTypeDataSource.md).
 
 </td></tr><tr><td>
 
@@ -400,7 +401,7 @@ Expand node children
 
 </td><td>
 
-Selected if child elements of the XML node or JSON object should be converted into additional columns. Unselected if the parent column value should be an XML or JSON fragment. For JSON, note that selecting this option expands objects only, not arrays. For nested array support, see [JSON file import examples](json-data-source-examples.md).
+Selected if child elements of the XML node or JSON object should be converted into additional columns. Unselected if the parent column value should be an XML or JSON fragment. For JSON, note that selecting this option expands objects only, not arrays. For nested array support, see [JSON file import examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/json-data-source-examples.md).
 
 </td></tr><tr><td>
 
@@ -445,8 +446,8 @@ Data Stream action
 
 </td><td>
 
--   ![Select Data Stream action](../image/select-data-stream-action.png) Selected to use an existing published Data Stream action from Integration Hub.
--   ![Select published Data Stream action or create new Data Stream action](../image/create-data-stream-action.png) Selected for one of the following reasons:
+-   \[Omitted image "select-data-stream-action.png"\] Alt text: Select Data Stream action Selected to use an existing published Data Stream action from Integration Hub.
+-   \[Omitted image "create-data-stream-action.png"\] Alt text: Select published Data Stream action or create new Data Stream action Selected for one of the following reasons:
     -   If you select a published Data Stream action, click this button to open the Data Stream action in Integration Hub.
     -   If you don't select a Data Stream action, click this button to create and publish a new Data Stream action in Integration Hub.
 
@@ -460,7 +461,7 @@ Connection
 
 Specify the connection alias for the Data Stream action. You can use the default parent alias or select any of its children's aliases. Available child aliases are listed in the menu.
 
- This field is only available when the Data Stream action is configured to use a connection alias. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+ This field is only available when the Data Stream action is configured to use a connection alias. For more information, see Create a Connection and Credential alias.
 
 </td></tr><tr><td>
 
@@ -485,7 +486,7 @@ This additional field appears on the data source form when the **Type** field va
 
 |Field|Description|
 |-----|-----------|
-|Data Loader|Script used to load data. For more information, see [Custom \(Load by Script\) type data source](custom-type-data-source.md)|
+|Data Loader|Script used to load data. For more information, see [Custom \(Load by Script\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/custom-type-data-source.md)|
 
-**Parent Topic:**[Importing data using import sets](../concept/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

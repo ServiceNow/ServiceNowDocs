@@ -2,6 +2,7 @@
 title: Associate CIs with Problem
 description: Associate multiple affected or impacted configuration items \(CIs\) to a problem to find out all the CIs that are affected by the same problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/add-multiple-cis-to-problem.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -45,7 +46,7 @@ Configuration item
 
 </td><td>
 
-1.  Click the lookup icon \(![Lookup icon](../../itsm-workspace/image/look-up-icon.png)\).
+1.  Click the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup icon\).
 2.  Select configuration item.
 
 **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to the new customers starting the Paris release.
@@ -61,7 +62,7 @@ Affected CIs
 
 **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to the new customers starting the Paris release.
 
-![Filter in Affected CIs related list](../../incident-management/image/affected-ci-offering-filter.png)
+\[Omitted image "affected-ci-offering-filter.png"\] Alt text: Filter in Affected CIs related list
 
 3.  Click **Add Selected**.
 
@@ -78,9 +79,9 @@ Impacted Services/CIs
 **Note:** By default, Service Offering is filtered out.
 
 3.  Click **Add Selected**.
- **Note:** If the Impacted Services/CIs is not visible on the form, [configure the form layout.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+ **Note:** If the Impacted Services/CIs is not visible on the form, configure the form layout.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing Problems](../concept/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

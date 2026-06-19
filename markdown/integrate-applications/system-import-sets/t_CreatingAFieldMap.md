@@ -2,6 +2,7 @@
 title: Create a field map
 description: Field maps establish a relationship between a field in an import set table and a field in the target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_CreatingAFieldMap.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -82,7 +83,7 @@ Date format
 
 </td><td>
 
-Date format of the source field. Appears if the target field is a Date or Date/Time field.**Note:** To learn more about allowable date formats, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md).
+Date format of the source field. Appears if the target field is a Date or Date/Time field.**Note:** To learn more about allowable date formats, see Global date and time field format.
 
 </td></tr><tr><td>
 
@@ -164,5 +165,5 @@ Check box to make case-sensitive coalesce values result in the creation of new r
 7.  Click **Update**.
 
 
-**Parent Topic:**[Importing data using import sets](../../../administer/import-sets/concept/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

@@ -2,6 +2,7 @@
 title: Cloud Runner browser
 description: If you are running a test or a test suite, select the Cloud Runner browser option to run your tests in a cloud browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-cloud-runner-browser.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -24,23 +25,23 @@ If you want to use the Cloud Runner browser option, you are required to complete
 
 -   When you haven't installed the ATF Test Generator and Cloud Runner store application
 
-    ![](../image/atf-install-app-cloud-runner.png "Install the ATF Test Generator and Cloud Runner store application")
+    \[Omitted image "atf-install-app-cloud-runner.png"\] Alt text:
 
 -   When you haven't configured the user to run and generate tests
     -   If you are an admin
 
-        ![Image showing cloud runner option if you are an admin](../image/atf-admin-cloud-runner.png "Configure user if you are an admin")
+        \[Omitted image "atf-admin-cloud-runner.png"\] Alt text: Image showing cloud runner option if you are an admin
 
     -   If you are not an admin
 
-        ![Image showing cloud runner option if you are not an admin](../image/atf-non-admin-cloud-runner.png "Configure user if you are not an admin")
+        \[Omitted image "atf-non-admin-cloud-runner.png"\] Alt text: Image showing cloud runner option if you are not an admin
 
 -   When the application is installed and the user is configured
 
-    ![Image showing cloud runner browser option](../image/atf-cloud-runner-browser.png "Use the cloud runner option")
+    \[Omitted image "atf-cloud-runner-browser.png"\] Alt text: Image showing cloud runner browser option
 
 
-**Note:** See [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.md) for more information.
+**Note:** See  for more information.
 
-**Parent Topic:**[Pick a browser](../task/atf-pick-a-browser.md)
+**Parent Topic:**[Pick a browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-pick-a-browser.md)
 

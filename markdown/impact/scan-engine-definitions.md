@@ -2,11 +2,14 @@
 title: Scan Engine definitions
 description: The Scan Engine uses a large set of definitions to correct coding and workflow findings in real-time and perform scans across your entire instance to detect existing findings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # Scan Engine definitions
@@ -31,7 +34,7 @@ Security
 
 </td><td>
 
-Measures implementation of protocols across a ServiceNow instance to prevent unauthorized access, data breaches, cyber attacks, and potential vulnerabilities.See [Scan Engine definitions: Security](../reference/scan-engine-definitions-security.md) for additional information.
+Measures implementation of protocols across a ServiceNow instance to prevent unauthorized access, data breaches, cyber attacks, and potential vulnerabilities.See [Scan Engine definitions: Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-security.md) for additional information.
 
 </td></tr><tr><td>
 
@@ -39,7 +42,7 @@ Performance
 
 </td><td>
 
-Measures the efficiency of a ServiceNow instance, encompassing aspects such as speed, responsiveness, resource utilization, and overall dependability.See [Scan Engine definitions: Performance](../reference/scan-engine-definitions-performance.md) for additional information.
+Measures the efficiency of a ServiceNow instance, encompassing aspects such as speed, responsiveness, resource utilization, and overall dependability.See [Scan Engine definitions: Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-performance.md) for additional information.
 
 </td></tr><tr><td>
 
@@ -47,7 +50,7 @@ Manageability
 
 </td><td>
 
-Measures the extent to which ServiceNow instances, applications, or infrastructure can be effectively monitored, configured, and maintained.See [Scan Engine definitions: Manageability](../reference/scan-engine-definitions-manageability.md) for additional information.
+Measures the extent to which ServiceNow instances, applications, or infrastructure can be effectively monitored, configured, and maintained.See [Scan Engine definitions: Manageability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-manageability.md) for additional information.
 
 </td></tr><tr><td>
 
@@ -55,7 +58,7 @@ Upgradeability
 
 </td><td>
 
-Assesses the ease of enhancing a ServiceNow instance or application with new features, improvements, security patches, or compatibility adjustments.See [Scan Engine definitions: Upgradeability](../reference/scan-engine-definitions-upgradeability.md) for additional information.
+Assesses the ease of enhancing a ServiceNow instance or application with new features, improvements, security patches, or compatibility adjustments.See [Scan Engine definitions: Upgradeability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-upgradeability.md) for additional information.
 
 </td></tr><tr><td>
 
@@ -63,16 +66,16 @@ User Experience
 
 </td><td>
 
-Evaluates the quality of user interactions with applications. Considers the ease of use, efficiency, design, responsiveness, accessibility, and its emotional and functional impact.See [Scan Engine definitions: User Experience](../reference/scan-engine-definitions-user-experience.md) for additional information.
+Evaluates the quality of user interactions with applications. Considers the ease of use, efficiency, design, responsiveness, accessibility, and its emotional and functional impact.See [Scan Engine definitions: User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-definitions-user-experience.md) for additional information.
 
 </td></tr></tbody>
-</table>For more information, see [Configure Scan Engine properties](../task/configure-scan-engine-properties.md).
+</table>For more information, see [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md).
 
 ## Custom definitions
 
-Users can create their own custom definitions. For more information, see [Create custom Scan Engine definitions](../task/create-scan-engine-definitions.md#).
+Users can create their own custom definitions. For more information, see [Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definitions.md).
 
-**Note:** The number of custom definitions that is permitted varies based on your Impact package. For more information, see [Impact packages](../reference/impact-packages.md).
+**Note:** The number of custom definitions that is permitted varies based on your Impact package. For more information, see .
 
 ## Scan Engine definition suites
 
@@ -92,5 +95,5 @@ By default, the following suites are available:
 
 **Note:** Only users with the `sn_se.scan_engine_admin_role` role can modify existing suites and their relationship with their definitions.
 
-For more information, see [Create Scan Engine definition suites](../task/create-scan-engine-definition-suites.md#).
+For more information, see [Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md).
 

@@ -2,6 +2,7 @@
 title: Mapping employees to their designated workspaces
 description: Map your employees to their designated workplace locations in Workplace Core to automatically fill in that detail in reservation requests and to take advantage of auto-assignment of workspaces if that feature has been enabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/mapping-employees-to-existing-work-locations.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -27,8 +28,8 @@ The data from the User Workplace Profile \[sn\_wsd\_core\_workplace\_profile\] t
     For example, if no spaces are available in the designated area of the employee, the application finds and reserves an available space from the floor of this area.
 
 
--   **[Map designated workspaces to user profiles](../task/map-employees-to-existing-workplace-locations-hr.md)**  
+-   **[Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/map-employees-to-existing-workplace-locations-hr.md)**  
 Map existing designated workspaces to employee user profiles in Workplace Core. This mapping is used to automatically allocate workspaces for employees so they don't have to select a workspace manually when requesting a reservation.
 
-**Parent Topic:**[Workplace Core](workplace-safety-mgmt-hr.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.md)
 

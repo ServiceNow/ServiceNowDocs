@@ -2,6 +2,7 @@
 title: Configure Workplace Core
 description: Install Workplace Core application. Provide your workplace data to configure spreadsheets and import workplace data. Modify your existing spreadsheets. Upload floor plans to provide floor maps for a selected floor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/configure-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -30,14 +31,14 @@ Workplace data can be created and maintained directly in the system or imported 
 
 Enabling Virtual Agent provides employees with a conversational interface for workplace interactions, improving accessibility and self service capabilities.
 
--   **[Install Workplace Core](../task/install-workplace-service-delivery.md)**  
+-   **[Install Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/install-workplace-service-delivery.md)**  
 You can install the Workplace Core application if you have the admin role. This application includes optional demo data.
--   **[Providing your workplace data](providing-your-workplace-data-wsd.md)**  
+-   **[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md)**  
 In the Workplace Core application, provide data related to your workplace locations and designate workspaces.
--   **[Configuring spreadsheets to import workplace data](importing-workspace-data-wsd.md#)**  
+-   **[Configuring spreadsheets to import workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/importing-workspace-data-wsd.md)**  
 Import work location data in bulk through spreadsheets into the Workplace Core application to avoid manually entering redundant data for each workplace, which saves time and effort.
--   **[Activate Virtual Agent for Workplace Service Delivery](../task/actuvate-va-for-wsd.md)**  
+-   **[Activate Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/actuvate-va-for-wsd.md)**  
 Activate Virtual Agent for Workplace Service Delivery to provide user assistance to employees through a chat interface.
 
-**Parent Topic:**[Workplace Core](workplace-service-delivery-feat.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-service-delivery-feat.md)
 

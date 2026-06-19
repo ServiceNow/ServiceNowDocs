@@ -2,6 +2,7 @@
 title: Configure additional questions for dispute intake
 description: Configure the questionnaire that appears for dispute agents or account holders when they initiate a dispute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/configuring-additional-questions-for-dispute-intake.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -25,7 +26,7 @@ Role required: `admin` and `sn_bom_credit_card.admin`.
 
 2.  Search for the **Event Inquiry** application.
 
-    The Event Inquiry application stores all questions and automates the intake process, which helps gather detailed information for specific requests. For more information, see [About dispute intake](../concept/dispute-intake-overview.md). Within this application, you will find two tables:
+    The Event Inquiry application stores all questions and automates the intake process, which helps gather detailed information for specific requests. For more information, see [About dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-intake-overview.md). Within this application, you will find two tables:
 
     -   Intake Form \[sn\_evnt\_inq\_qtn\]
     -   Intake Form Label \[sn\_evnt\_inq\_question\]
@@ -46,5 +47,5 @@ Role required: `admin` and `sn_bom_credit_card.admin`.
 7.  Complete the required fields for the new label and select **Submit**.
 
 
-**Parent Topic:**[Set up Dispute Management](../../fso-deposit-operations/concept/setting-up-disputes-management.md)
+**Parent Topic:**[Set up Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/setting-up-disputes-management.md)
 

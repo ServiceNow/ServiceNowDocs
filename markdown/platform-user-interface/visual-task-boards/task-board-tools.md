@@ -2,6 +2,7 @@
 title: Visual Task Board tools
 description: The task board tools area in a Visual Task Board contains several tabs, each represented by an icon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/task-board-tools.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -31,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-![Info tab icon](../../collaboration/image/IconInfoTab.png)
+\[Omitted image "IconInfoTab.png"\] Alt text: Info tab icon
 
 </td><td>
 
@@ -55,7 +56,7 @@ Contains the following information about the task board:-   Board Name
 
 </td></tr><tr><td>
 
-![Members tab icon](../../collaboration/image/IconMembersTab.png)
+\[Omitted image "IconMembersTab.png"\] Alt text: Members tab icon
 
 </td><td>
 
@@ -67,7 +68,7 @@ Lists all members and assignees of the board. You can add or remove board member
 
 </td></tr><tr><td>
 
-![Label tab icon](../image/IconLabelTab.png)
+\[Omitted image "IconLabelTab.png"\] Alt text: Label tab icon
 
 </td><td>
 
@@ -75,11 +76,11 @@ Labels
 
 </td><td>
 
-Use labels to visually distinguish tasks on the task board. Filter board contents by toggling the label. You need to [enable labels](../task/t_ConfigureLabels.md) before being able to use this tab.
+Use labels to visually distinguish tasks on the task board. Filter board contents by toggling the label. You need to [enable labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureLabels.md) before being able to use this tab.
 
 </td></tr><tr><td>
 
-![Activity tab icon](../image/IconActivityStreamTab.png)
+\[Omitted image "IconActivityStreamTab.png"\] Alt text: Activity tab icon
 
 </td><td>
 
@@ -91,7 +92,7 @@ Displays all of the activity for cards on the board.
 
 </td></tr><tr><td>
 
-![Configuration tab icon](../image/IconConfigurationTab.png)
+\[Omitted image "IconConfigurationTab.png"\] Alt text: Configuration tab icon
 
 </td><td>
 
@@ -99,8 +100,8 @@ Configuration
 
 </td><td>
 
-Configure the settings for the task board. This setting is only available for the board owner. For more information, see [Customize the look and feel of a task board](../task/t_ConfigureTheTaskBoard.md).
+Configure the settings for the task board. This setting is only available for the board owner. For more information, see [Customize the look and feel of a task board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_ConfigureTheTaskBoard.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Visual Task Boards](../concept/exploring-vis-task-boards.md)
+</table>**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
 

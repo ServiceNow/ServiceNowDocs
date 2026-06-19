@@ -2,6 +2,7 @@
 title: Draft close notes for a risk signal using Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Automatically generate closure notes and close eligible risk signals at the end of each day based on the status of their associated risk solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/draft-risk-close-notes.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -36,14 +37,14 @@ A scheduled job runs everyday and automatically drafts closure notes for all ris
 
     The daily scheduled job identifies all eligible risk signals, reviews the activity data for each eligible risk signal from the associated risk solutions and generates closure notes. The Closure notes and the State are updated on the risk signal record and are visible in the Activity stream.
 
-    ![Closure notes](../image/draft-risk-close-notes.jpg)
+    \[Omitted image "draft-risk-close-notes.jpg"\] Alt text: Closure notes
 
     The activity contexts used to generate the closure notes are predefined and available with the base system. If you want to use additional fields or tables when generating closure notes, you must add additional activity contexts using the Customer Central guided setup. Navigate to **All** &gt; **Customer Central** &gt; **Activity Contexts** and select **Risk signal**, create an activity context group and map it to the additional table you want to use.
 
-    ![Activity context group](../image/activity-context.jpg)
+    \[Omitted image "activity-context.jpg"\] Alt text: Activity context group
 
-    For more details on creating the activity context group, see [Configure activity groups for the Customer History view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-activity-groups-ca.md).
+    For more details on creating the activity context group, see .
 
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)
+**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

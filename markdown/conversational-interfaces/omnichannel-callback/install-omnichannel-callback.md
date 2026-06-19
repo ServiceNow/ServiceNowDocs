@@ -2,6 +2,7 @@
 title: Install Omnichannel Callback
 description: You can install the Omnichannel Callback application \(sn\_omni\_callback\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/omnichannel-callback/install-omnichannel-callback.html
 release: australia
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -30,7 +31,7 @@ The following items are installed with Omnichannel Callback:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Omnichannel Callback](../reference/installed-with-omnichannel-callback.md#).
+For more information, see [Components installed with Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/installed-with-omnichannel-callback.md).
 
 ## Procedure
 

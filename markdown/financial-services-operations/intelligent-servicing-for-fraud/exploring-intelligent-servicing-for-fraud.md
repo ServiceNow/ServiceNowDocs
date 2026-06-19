@@ -2,12 +2,14 @@
 title: Exploring Intelligent Servicing for Fraud
 description: By using the Intelligent Servicing for Fraud application, you can review the alert details that are flagged by external systems, review the cases that are reported by customers, investigate the alert cases that are reported by customers, and move the case to a final case disposition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/exploring-intelligent-servicing-for-fraud.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [intelligent servicing for fraud, fraud application overview, fraud case management, review fraud alerts, investigate fraud cases, case disposition, fraudulent transactions, fraud agent, fraud manager, fraud administrator, fraud personas, credit card fraud, deposit account fraud]
 breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 

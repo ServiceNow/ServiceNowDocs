@@ -2,6 +2,7 @@
 title: Pools and Filters for Cloud Provisioning
 description: A resource pool is a query or script that filters a table. You configure a resource pool to limit the values that are available to users when they request a catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/pools.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +20,7 @@ A resource pool is a query or script that filters a table. You configure a resou
 
 To limit a user to only the networks in a particular logical datacenter, use the resource pool called NetworkPool that runs against the Cloud Network \[cmdb\_ci\_network\] table. The resource pool uses a script to filter networks based on the datacenter that the network belongs to.
 
-![How a pool works](../image/pool-example.jpg)
+\[Omitted image "pool-example.jpg"\] Alt text: How a pool works
 
 ## How pools work
 

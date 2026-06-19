@@ -2,6 +2,7 @@
 title: Request Process Mining for external data
 description: Request Process Mining for external data application to import external data and work with it within ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/access-ext-data.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -30,5 +31,5 @@ Role required: admin
 3.  Select **Install**.
 
 
-**Parent Topic:**[Activating Process Mining](activating-process-mining.md)
+**Parent Topic:**[Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/activating-process-mining.md)
 

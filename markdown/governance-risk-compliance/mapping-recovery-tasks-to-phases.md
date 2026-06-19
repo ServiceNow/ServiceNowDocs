@@ -2,6 +2,7 @@
 title: Mapping recovery tasks to phases
 description: Starting with BCM, version 9.x.x, BCM administrators set up active phases for plans and events, enhancing recovery and event task management. BCM managers then map these phases to recovery and event tasks, executing them in a desired, logical sequence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/mapping-recovery-tasks-to-phases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -45,7 +46,7 @@ By setting up active phases in the BCM application and mapping them to relevant 
 
 ## Phases for task classification
 
-BCM Administrators can configure phases using the Active Phases module, which is accessible through the **General administration** menu in the Core UI. For more information on setting up the phases, see [Set up the phases](../task/set-up-phases.md).
+BCM Administrators can configure phases using the Active Phases module, which is accessible through the **General administration** menu in the Core UI. For more information on setting up the phases, see [Set up the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-phases.md).
 
 ## Execution of the phases
 
@@ -78,11 +79,11 @@ These changes enhance the overall functionality and security of the BCM system, 
 
 ## Information on setting up and mapping the phases
 
-For information on setting up the phases, see [Set up the phases](../task/set-up-phases.md).
+For information on setting up the phases, see [Set up the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-phases.md).
 
-For information and steps on mapping recovery tasks to phases, see [Add recovery tasks](../task/add-a-recovery-task.md).
+For information and steps on mapping recovery tasks to phases, see [Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md).
 
-For information on mapping event tasks to phases, see [Mapping event tasks to phases](mapping-event-tasks-to-phases.md).
+For information on mapping event tasks to phases, see [Mapping event tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/mapping-event-tasks-to-phases.md).
 
-**Parent Topic:**[Structured workflows for BCPs](bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

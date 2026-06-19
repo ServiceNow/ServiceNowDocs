@@ -2,6 +2,7 @@
 title: Automate Configuration Assignment policy process
 description: Automate assigning configurations and AWS organizational units in requests based on specified conditions. When conditions are met and approvals are complete, requests move forward without admin input. Update the default policy to include specific conditions and values for configuration and AWS organizational unit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/automate-account-creation-config-assign.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -23,7 +24,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 This procedure demonstrates how to assign account configuration using the assignment policy. For example, when the account creation request is approved and awaits for the provisioning configuration information, this automation is executed.
 
-![Approved CW request waiting for configuration assignment](../image/cam_config_list.png)
+\[Omitted image "cam\_config\_list.png"\] Alt text: Approved CW request waiting for configuration assignment
 
 ## Procedure
 
@@ -35,7 +36,7 @@ This procedure demonstrates how to assign account configuration using the assign
 
 4.  Under the **Policy builder** tab, in the **If** condition block, make a note of the values that you're validating.
 
-    ![Customizing Configuration Assignment policy](../image/pace_config.png)
+    \[Omitted image "pace\_config.png"\] Alt text: Customizing Configuration Assignment policy
 
     **Note:** In this section, you're validating:
 
@@ -51,11 +52,11 @@ This procedure demonstrates how to assign account configuration using the assign
 
     These field values are only used to identify the data collector.
 
-    ![Data collector dialog box](../image/add_data_collector1.png)
+    \[Omitted image "add\_data\_collector1.png"\] Alt text: Data collector dialog box
 
 9.  Under the **Inputs** tab, select **CW Application Configuration** and **CW Account Group** \(same as the AWS org unit that an admin selects on the account request screen\).
 
-    ![Data collector dialog box for inputs tab](../image/add_data_collector2.png)
+    \[Omitted image "add\_data\_collector2.png"\] Alt text: Data collector dialog box for inputs tab
 
     **Note:** The selected AWS org unit in the data collector should be part of the same Cloud Organization provided in the configuration.
 
@@ -65,7 +66,7 @@ This procedure demonstrates how to assign account configuration using the assign
 
 11. Select the output result as follows.
 
-    ![Then condition result](../image/pace_then_config.png)
+    \[Omitted image "pace\_then\_config.png"\] Alt text: Then condition result
 
 12. To save the policy, select **Save**.
 
@@ -77,9 +78,9 @@ This procedure demonstrates how to assign account configuration using the assign
 
 ## What to do next
 
-To test the policy, see [Test updates to a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-test-policy-version.md).
+To test the policy, see .
 
-To publish the policy, see [Publish a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-publish-policy-version.md).
+To publish the policy, see .
 
-To add a new approval step in the flow designer, see [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-workflow-studio.md).
+To add a new approval step in the flow designer, see .
 

@@ -2,6 +2,7 @@
 title: Request Software Asset Management Foundation plugin
 description: The Software Asset Management Foundation \(com.snc.sams\) plugin must be activated by ServiceNow personnel. This plugin includes demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_RequSoftwareAssetMgmtSAMF.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -60,7 +61,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -78,5 +79,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Setting up Software Asset Management Foundation plugin](t_SAMSetupSAMF.md)
+**Parent Topic:**[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
 

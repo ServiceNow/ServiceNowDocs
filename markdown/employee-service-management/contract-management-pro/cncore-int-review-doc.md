@@ -2,6 +2,7 @@
 title: Work on internal review task
 description: As a contract reviewer, review and provide feedback on contract documents
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-int-review-doc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -23,28 +24,28 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d76316e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d76676e55">
 
 Method
 
-</th><th align="left" id="d76316e58">
+</th><th align="left" id="d76676e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d76316e64">
+</th></tr></thead><tbody><tr><td id="d76676e64">
 
 **Contract Workspace Review tasks listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Review tasks**
 4.  Select **All** or **Unassigned**.
 5.  Open the review task from the list
 
 
-</td></tr><tr><td id="d76316e114">
+</td></tr><tr><td id="d76676e114">
 
 **Contract Workspace landing page**
 
@@ -55,7 +56,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d76316e147">
+</td></tr><tr><td id="d76676e147">
 
 **Workspace used by your application**
 
@@ -66,7 +67,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d76316e168">
+</td></tr><tr><td id="d76676e168">
 
 **Contract Request Reviews tab**
 
@@ -89,11 +90,11 @@ Steps
     -   External storage: Select the document link to open it.
 5.  If you need additional context to review the document, request more information.
 
-    1.  Select the More Actions icon \(![More Actions icon](../../human-resources/reference/images/more-icon.png)\).
+    1.  Select the More Actions icon \(\[Omitted image "more-icon.png"\] Alt text: More Actions icon\).
 
     2.  Select **Request information**.
 
-    3.  In the Comments field, enter the details about the information needed.![If you want additional information to review the contract document, submit a request for information](../image/cmpro-internal-review-request-info.png)
+    3.  In the Comments field, enter the details about the information needed.\[Omitted image "cmpro-internal-review-request-info.png"\] Alt text: If you want additional information to review the contract document, submit a request for information
 
     4.  Select **Submit**.
 
@@ -103,15 +104,15 @@ Steps
 
     The reviewer edits the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d76316e294">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d76676e294">
 
 Type of storage
 
-</th><th align="left" id="d76316e297">
+</th><th align="left" id="d76676e297">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d76316e303">
+</th></tr></thead><tbody><tr><td id="d76676e303">
 
 **Internal storage**
 
@@ -127,7 +128,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d76316e347">
+</td></tr><tr><td id="d76676e347">
 
 **External storage**
 
@@ -151,5 +152,5 @@ The attach file option is not available as the contract document is directly edi
 
 After the completing the review task, the fulfiller will have to create a revision of the finalzed contract document.
 
-**Parent Topic:**[Internal review overview](cncore-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

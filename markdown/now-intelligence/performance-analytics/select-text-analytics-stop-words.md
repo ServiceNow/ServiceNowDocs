@@ -2,6 +2,7 @@
 title: Select text analytics stop words
 description: Select words to exclude from text analysis. You can exclude words at either the indicator source or the indicator level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/select-text-analytics-stop-words.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

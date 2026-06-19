@@ -2,6 +2,7 @@
 title: Preventive Care
 description: Preventive Care is a premium, engineer-led diagnostic of instance performance executed on a regular cadence and available as an add-on package to all ServiceNow Impact customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/preventive-care.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -37,7 +38,7 @@ Each Preventive Care engagement includes three phases:
 2.  Presentation to customer stakeholders: A senior ServiceNow performance expert presents findings and reviews proactive recommendations that address specific issues with the instance that actively impact end user experience, platform stability, database efficiency or cost.
 3.  Guided Remediation: A focused remediation plan that provides hands-on, guided help to steer a customer through implementing improvements and validating expected results.
 
-![Preventive Care Engagement](../image/preventive-care.png "Preventive Care Phases")
+\[Omitted image "preventive-care.png"\] Alt text: Preventive Care Engagement
 
 **Note:** Offered pursuant to the applicable legal description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

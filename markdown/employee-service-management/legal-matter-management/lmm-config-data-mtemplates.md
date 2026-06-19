@@ -2,6 +2,7 @@
 title: Configure data to enable matter creation in Legal Tracker
 description: Configure the data that is required to create a matter in Legal Tracker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-config-data-mtemplates.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -35,7 +36,7 @@ Outside Counsel
 
 </td><td>
 
-sn\_lg\_matter\_outside\_counsel**Note:** For more information, see [Add outside counsel details](lmm-lt-setup-outside-counsels.md)
+sn\_lg\_matter\_outside\_counsel**Note:** For more information, see [Add outside counsel details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-lt-setup-outside-counsels.md)
 
 </td></tr><tr><td>
 
@@ -43,13 +44,13 @@ Invoice Approval Route
 
 </td><td>
 
-sn\_lg\_matter\_legal\_tracker\_invoice\_approval\_route**Note:** For more information, see [Add approval route details](lmm-lt-setup-approval-route.md)
+sn\_lg\_matter\_legal\_tracker\_invoice\_approval\_route**Note:** For more information, see [Add approval route details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-lt-setup-approval-route.md)
 
 </td></tr></tbody>
-</table>-   **[Add outside counsel details](lmm-lt-setup-outside-counsels.md)**  
+</table>-   **[Add outside counsel details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-lt-setup-outside-counsels.md)**  
 Add outside counsel details for an outside firm to enable matter creation in Legal Tracker.
--   **[Add approval route details](lmm-lt-setup-approval-route.md)**  
+-   **[Add approval route details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-lt-setup-approval-route.md)**  
 Add approval route details in Legal Matter Management to enable matter creation in Legal Tracker.
 
-**Parent Topic:**[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](../concept/configurations-for-legal-tracker-integration.md)
+**Parent Topic:**[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)
 

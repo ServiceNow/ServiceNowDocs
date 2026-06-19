@@ -2,6 +2,7 @@
 title: Verify certificate revocation
 description: The com.glide.communications.httpclient.verify\_revoked\_certificate property checks certificate revocation during the Transport Layer Security \(TLS\) handshake to ensure that security checks are not bypassed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-verify-certificate-revocation.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Communications](sc-communications.md)
+[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-communications.md)
 
 </td></tr><tr><td>
 
@@ -104,5 +105,5 @@ Functional impact
 This property should be set to true to ensure that a Transport Layer Security \(TLS\) session is started with an authentic endpoint. If this property is set to false, then the certificate is not checked, which could compromise the security of the instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communications](sc-communications.md)
+</table>**Parent Topic:**[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-communications.md)
 

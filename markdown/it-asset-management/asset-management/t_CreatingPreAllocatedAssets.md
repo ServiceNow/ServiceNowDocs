@@ -2,13 +2,14 @@
 title: Create pre-allocated assets
 description: Create a pre-allocated asset that physically exists, but isn’t yet a financial liability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_CreatingPreAllocatedAssets.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage pre-allocated assets, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Manage pre-allocated assets, Use, Asset Management, IT Asset Management]
 ---
 
 # Create pre-allocated assets
@@ -161,5 +162,5 @@ Work notes related to the asset.
 </table>2.  Select **Submit**.
 
 
-**Parent Topic:**[Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
+**Parent Topic:**[Manage pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/manage-preallocated-asset.md)
 

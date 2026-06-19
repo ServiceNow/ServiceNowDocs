@@ -2,6 +2,7 @@
 title: CMDBUtil - Global
 description: The CMDBUtil API provides utility methods for creating and managing table relationships in the Configuration Management Database \(CMDB\) and managing CMDB baselines.Applies proposed changes in a task\_ci record that represent an update set for all CIs associated with the task.Generates the XML for proposed changes diff, and adds it to the corresponding task\_ci record.Bootstraps the environment by creating the database, creating the system dictionary table, and having the system dictionary table describe itself.Creates a CI relationship between fields.Gets all the child tables of the specified table as a comma-separated list.Gets all the records in the CMDB View \[cmdb\_view\] table.Gets a list of all the parents of a table.Determines whether a CI class is defined in the Business Rule Exclusion Lists \[cmdb\_business\_rule\_exclusions\] table. Use this method in an advanced condition to prevent a business rule from executing on excluded CI classes.Wraps the call to RelationshipEventProcessor\(\), which processes any changes to CI relationships.Wraps the call to RelationshipEventProcessor\(\), which processes any changes to CI relationships, with the specified type and triplet.Deletes the specified CI relationship.Changes the parent of the given table to the new parent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CMDBUtilAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -32,7 +33,7 @@ var output = SNC.CMDBUtil.getAllChildrenOfAsCommaList('cmdb_ci_computer');
 
 Use these methods to manage CMDB table relationships and baselines.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CMDBUtil - baselineProposedChangesApplyChanges\(GlideRecord proposedChanges\)
 

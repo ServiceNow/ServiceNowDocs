@@ -2,6 +2,7 @@
 title: Feedback application in Strategic Planning
 description: Build a customer-centric feedback management system and optimize the process of creating and associating feedback and product ideas with Feedback application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/product-feedback-landing.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -29,19 +30,19 @@ Leverage the multi-feedback summarization skill to quickly summarize one or mult
 
 <table id="table_xvr_t1r_szb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn the key features and business value of Feedback in Strategic Planning](explore-product-feedback-in-sp.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the key features and business value of Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/explore-product-feedback-in-sp.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up the core configuration for Feedback](configuring-product-feedback-in-sp.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the core configuration for Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-alignment.svg)Manage feedback or product idea and take feedback-driven decisions](managing-product-feedback-in-strategic-planning.md)
+[Use\[Omitted image "bus-alignment.svg"\] Alt text:Manage feedback or product idea and take feedback-driven decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/managing-product-feedback-in-strategic-planning.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get information about components, forms, tables, and system properties](../reference/product-feedback-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about components, forms, tables, and system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-feedback-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

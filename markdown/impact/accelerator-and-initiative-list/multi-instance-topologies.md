@@ -2,6 +2,7 @@
 title: Multi-instance Topologies
 description: This Accelerator provides education on drivers and topology alternatives to support multiple production instance implementations delivered within the context of a single-customer production implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/multi-instance-topologies.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -21,7 +22,9 @@ The Multi-instance Topologies Accelerator provides Impact customers with facilit
 
 The overview for each topology includes a description, topology-related use cases, strengths and weaknesses, and example process flows. The education sessions are interspersed with interactive use case activities, so that following the completion of the Accelerator, you may continue to evaluate your own multi-instance requirements by engaging your implementation provider to develop an implementation architecture.
 
-**Note:** This Accelerator is available in Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
 ## What You Get
 

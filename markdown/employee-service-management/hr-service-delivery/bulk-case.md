@@ -2,6 +2,7 @@
 title: Creating bulk cases
 description: You can create the same type of HR case, for multiple employees, without having to create the same case multiple times. Segments for a bulk case help you define specific values for groups of employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/bulk-case.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -70,15 +71,15 @@ You can create one bulk case that creates individual HR cases for each employee 
 
     -   Bulk Case User Segment \(sn\_hr\_core\_bulk\_case\_user\_segment\)
     -   Bulk Case User Segment Group \(sn\_hr\_core\_bulk\_case\_user\_segment\_group\)
-    For more information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
+    For more information on ACLs, see Access control list rules.
 
 
--   **[Create a bulk case request](../task/t_CreateBulkCases.md)**  
+-   **[Create a bulk case request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateBulkCases.md)**  
 Use bulk case request to create the same type of HR case, for multiple employees, without having to create the same case multiple times.
--   **[Create a user segment group](../task/bulk-case-segment.md)**  
+-   **[Create a user segment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/bulk-case-segment.md)**  
 User segment groups allow you to specify values for a group of users, or with multiple segments specify different values for different groups of users. Segments allows you to ensure that your bulk case creation is correct before executing.
--   **[Manage a user group segment](../task/bulk-case-segment-manage.md)**  
+-   **[Manage a user group segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/bulk-case-segment-manage.md)**  
 After creating a user group segment, you can review and edit it before you create cases.
 
-**Parent Topic:**[Use HR Case Management](c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

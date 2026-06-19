@@ -2,6 +2,7 @@
 title: Create modals in UI Builder
 description: Use modals in UI Builder with components to provide alerts or calls to action for a user. UI Builder comes with modals to save time and effort.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/Modals-overview.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -36,7 +37,7 @@ Modals in UI Builder can have:
 -   Close dialog button \(no action taken by the modal\)
 -   At least one Modal button \(action can be taken by the modal\)
 
-![Diagram showing the different parts of modals.](../image/modal-anatomy-graphic.png)
+\[Omitted image "modal-anatomy-graphic.png"\] Alt text: Diagram showing the different parts of modals.
 
 ## Modal types
 
@@ -53,10 +54,10 @@ Different types of modals are available in UI Builder, as shown in the following
 
 ## Event handlers and modals
 
-Expose events to modals to handle call-to-action events. For example, a primary action, secondary action, and so on. You configure the data by adding an event handler and invoking a data resource. It is as simple as adding a new event handler for the component that has a modal. Or you can add an event handler to the modal itself. You select the event that you want associated with the component or modal and add it. See [Add modal to component](../task/modals-uib.md) for detailed instructions.
+Expose events to modals to handle call-to-action events. For example, a primary action, secondary action, and so on. You configure the data by adding an event handler and invoking a data resource. It is as simple as adding a new event handler for the component that has a modal. Or you can add an event handler to the modal itself. You select the event that you want associated with the component or modal and add it. See [Add modal to component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/modals-uib.md) for detailed instructions.
 
--   **[Add modal to component](../task/modals-uib.md)**  
+-   **[Add modal to component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/modals-uib.md)**  
 Learn how to add a modal in UI Builder. A modal is a window that appears when you click a component. For example, a modal might display when a delete button component is clicked, prompting the user to confirm deleting a record.
 
-**Parent Topic:**[Customize UI Builder pages using components](work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
 

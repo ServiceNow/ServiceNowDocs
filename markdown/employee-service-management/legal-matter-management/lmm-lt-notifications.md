@@ -2,6 +2,7 @@
 title: Outside counsel engagement notifications
 description: Notifications are reminders that are created using email templates and sent for outside counsel engagement workflow. Use the notifications received to work on the outside counsel request, tasks and resolve errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-lt-notifications.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -106,5 +107,5 @@ OCE - Approver not found
 Outside Counsel Engagement &lt;OCEXXXXXX1&gt; - Initiate approval process failed
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Matter Management reference](../../legal-matter-management/reference/legal-matter-management-reference.md)
+</table>**Parent Topic:**[Legal Matter Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-management-reference.md)
 

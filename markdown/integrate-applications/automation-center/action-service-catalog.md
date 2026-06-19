@@ -2,6 +2,7 @@
 title: Submit an action request from Service Catalog
 description: Submit an action request using the ServiceNow Service Catalog form to request for actions to resolve issues causing your automations to fail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/action-service-catalog.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -25,10 +26,10 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 2.  On the form, fill in the fields.
 
-    For a description of the field values, see [Submit an Automation Request form](../reference/submit-automation-request-form.md).
+    For a description of the field values, see [Submit an Automation Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/submit-automation-request-form.md).
 
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Creating an action request](create-action-request.md)
+**Parent Topic:**[Creating an action request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-action-request.md)
 

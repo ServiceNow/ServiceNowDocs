@@ -2,6 +2,7 @@
 title: Grant a time-limited user role
 description: Learn how to assign a role to a user temporarily. Use this feature if you have a user who needs to perform a one-time action that is normally outside their roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/time-limited-roles.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -105,5 +106,5 @@ Additional comments or information for the limited role assignment
 
 The specified user now has the role. They must complete their restricted task between the start time and the end time.
 
-**Parent Topic:**[Time-limited role](time-limited-role-overview.md)
+**Parent Topic:**[Time-limited role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/time-limited-role-overview.md)
 

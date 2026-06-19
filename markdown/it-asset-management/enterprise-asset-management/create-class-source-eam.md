@@ -1,23 +1,24 @@
 ---
-title: Create sources for classification codes
-description: Create sources that you can then assign to classification codes.
+title: Create a source for classification codes
+description: Create a source that you can then assign to classification codes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-class-source-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
-# Create sources for classification codes
+# Create a source for classification codes
 
-Create sources that you can then assign to classification codes.
+Create a source that you can then assign to classification codes.
 
 ## Before you begin
 
-A source is a system of classification for a particular industry. For more details on sources, see [Classification codes](../concept/classification-codes.md).
+A source is a system of classification for a particular industry. For more details on sources, see [Model classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/classification-codes.md).
 
 Role required: sn\_eam.enterprise\_asset\_manager
 
@@ -35,6 +36,4 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
     The source appears in the Create sources page.
 
-
-**Parent Topic:**[Create and manage enterprise models](../concept/create-manage-enterprise-models.md)
 

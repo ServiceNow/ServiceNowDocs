@@ -2,6 +2,7 @@
 title: Configuring Hardware Asset Management
 description: Configure Hardware Asset Management to have centralized asset data for accurate inventory and insights, automate the IT life cycle with workflows, and reduce the asset costs and risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/configuring-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -33,7 +34,7 @@ Resource
 
 </th></tr></thead><tbody><tr><td>
 
-![Install Hardware Asset Management](../../../reuse/icons/brand-icons/bus-download.svg)Install Hardware Asset Management
+\[Omitted image "bus-download.svg"\] Alt text: Install Hardware Asset ManagementInstall Hardware Asset Management
 
 </td><td>
 
@@ -41,11 +42,23 @@ Get the Hardware Asset Management application from the [ServiceNow Store](https:
 
 </td><td>
 
-[Install Hardware Asset Management](../task/install-ham.md)
+[Install Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/install-ham.md)
 
 </td></tr><tr><td>
 
-![Use Hardware Asset Management](../../../reuse/icons/brand-icons/bus-rocketship.svg)Use Hardware Asset Management
+\[Omitted image "bus-sdlc.svg"\] Alt text: Configure Now Assist for HAMConfigure the Now Assist for HAM application
+
+</td><td>
+
+Get the Now Assist for Hardware Asset Management \(HAM\) application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+
+</td><td>
+
+[Configure Now Assist for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configuring-now-assist-ham.md)
+
+</td></tr><tr><td>
+
+\[Omitted image "bus-rocketship.svg"\] Alt text: Use Hardware Asset ManagementUse Hardware Asset Management
 
 </td><td>
 
@@ -53,7 +66,7 @@ Use Hardware Asset Management to manage your hardware and consumable assets and 
 
 </td><td>
 
-[Using Hardware Asset Management](using-ham-classic.md)
+[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 </td></tr></tbody>
 </table>

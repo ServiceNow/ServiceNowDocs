@@ -2,7 +2,10 @@
 title: Cancel a callback
 description: Cancel scheduled callbacks when customers no longer require the callback or the issue has been resolved through other means.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cancel-callback.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Cancel is visible only to agents with the sn\_omni\_callback.callback\_writer ro
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace.**.
 
-2.  Select the List icon \(![List icon to view callback list](../image/list-icon-callback.png)\)
+2.  Select the List icon \(\[Omitted image "list-icon-callback.png"\] Alt text: List icon to view callback list\)
 
 3.  In the Callbacks section, select **Scheduled callbacks.**
 

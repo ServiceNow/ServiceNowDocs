@@ -2,6 +2,7 @@
 title: Suppress outbound notification for services leveraging Universal Request
 description: You can configure outbound email notifications to define the emails a requester must receive when a universal request is created. For example, if your service \(department\) ticket is associated with a universal request, you can customize the notifications to send only the emails that are relevant to the requester.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-service-suppress-out-notification.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -31,10 +32,10 @@ Service emails, such as, service ticket creation, notes or state changes, can be
 
 3.  In the **When to send** tab, under the condition builder, add a new condition step as shown.
 
-    ![Suppress notification for Services](../images/ur-suppress-notification.png)
+    \[Omitted image "ur-suppress-notification.png"\] Alt text: Suppress notification for Services
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Email notification preferences for your service](../concept/ur-customize-email-notifcations.md)
+**Parent Topic:**[Email notification preferences for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-customize-email-notifcations.md)
 

@@ -2,11 +2,12 @@
 title: Create and configure a profile for the sighting search
 description: Use sightings searches for CrowdStrike Falcon Insight to locate infected machines across your organization's network and to address security incident response cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-and-configure-a-profile-for-sightings-search-with-the-crowdstrike-falcon-insight-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -117,7 +118,7 @@ Sightings Search Parameters
 Parameters to define more complex queries that include logic and other operators supported by the specified log storeYou can use the Related Links at the bottom of the page to generate a test query after defining Sighting Search Parameters.
 
 </td></tr></tbody>
-</table>    ![Configuring sightings search.](../image/falcon-insight-sightings-search.png)
+</table>    \[Omitted image "falcon-insight-sightings-search.png"\] Alt text: Configuring sightings search.
 
 5.  Select **Submit**.
 

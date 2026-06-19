@@ -2,6 +2,7 @@
 title: Define the state transitions model
 description: Define the model state transitions and conditions to control how a vulnerability traverses through the different workflow states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/define-model-state-transitions-for-vul.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -90,17 +91,17 @@ Option to select the state as optional. This field appears only when **As node**
 
 5.  To update the model state transition from the Model State Transitions related list, select it from the display name column in the GRC workflow states list.
 
-    ![State model.](../image/vul-state-model.png)
+    \[Omitted image "vul-state-model.png"\] Alt text: State model.
 
 6.  To add the model state transition, select **New** on the Model State Transitions context menu.
 
     The Model State Transitions context menu is shown in the example.
 
-    ![Model State Transitions.](../image/op-vul-workflow-states.png)
+    \[Omitted image "op-vul-workflow-states.png"\] Alt text: Model State Transitions.
 
     The Model State Transition New record is displayed.
 
-    ![Model State Transition record.](../image/model-state-transition-record.png)
+    \[Omitted image "model-state-transition-record.png"\] Alt text: Model State Transition record.
 
 7.  On the Model State Transition record form, fill in the fields.
 

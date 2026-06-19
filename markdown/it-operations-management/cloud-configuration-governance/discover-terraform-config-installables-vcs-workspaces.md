@@ -2,6 +2,7 @@
 title: Run the IaC Discovery
 description: Run the Infrastructure as Code \(IaC\) discovery to identify the resources of the Terraform environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/discover-terraform-config-installables-vcs-workspaces.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ Run the Infrastructure as Code \(IaC\) discovery to identify the resources of th
 
 ## Before you begin
 
--   Ensure that you have the appropriate API credentials for the Version Control System \(VCS\) accounts provisioned in the Terraform Enterprise or Terraform Cloud organizations. For more information, see [Create API key credentials for the Terraform account and the supported VCS account](create-vcs-credentials-for-terraform-connector.md).
+-   Ensure that you have the appropriate API credentials for the Version Control System \(VCS\) accounts provisioned in the Terraform Enterprise or Terraform Cloud organizations. For more information, see [Create API key credentials for the Terraform account and the supported VCS account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-vcs-credentials-for-terraform-connector.md).
 -   Ensure that Terraform Open Source folders which contain the Terraform templates have unique names. If several Terraform template folders have the same name, multiple change tasks are created even though all the templates mayn't contain variable changes.
 
 Role required: sn.cmp.cloud\_service\_designer
@@ -75,7 +76,7 @@ Depending on the configuration provider, Cloud Services Catalog Terraform Connec
 
     4.  From the Related Links, select **Find Branches and Repositories**.
 
-    5.  Repeat step [5.b](discover-terraform-config-installables-vcs-workspaces.md#cpg-tf-connector-select-vcs-record) to [5.d](discover-terraform-config-installables-vcs-workspaces.md#cpg-tf-connector-find-vcs-repo-branches) for all VCS accounts that contain the Terraform templates you want to use for Cloud Provisioning and Governance catalog item creation.
+    5.  Repeat step [5.b](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/discover-terraform-config-installables-vcs-workspaces.md) to [5.d](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/discover-terraform-config-installables-vcs-workspaces.md) for all VCS accounts that contain the Terraform templates you want to use for Cloud Provisioning and Governance catalog item creation.
 
 6.  Create an Infrastructure as Code \(Iac\) discovery schedule.
 
@@ -133,12 +134,12 @@ Frequency of schedule execution.Configure the schedule execution frequency in th
 
 ## What to do next
 
--   [Use multiple repositories structure with Terraform Connector app](use-multiple-repositories-structure-with-terraform-connector.md) with IaC Discovery
--   If Cloud Services Catalog Terraform Connector discovers new Terraform templates that you want to use for cloud resource provisioning, create a catalog item from the discovered template. For more information, see [Create a catalog item from the Terraform template](catalog-item-terraform-template.md).
+-   [Use multiple repositories structure with Terraform Connector app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/use-multiple-repositories-structure-with-terraform-connector.md) with IaC Discovery
+-   If Cloud Services Catalog Terraform Connector discovers new Terraform templates that you want to use for cloud resource provisioning, create a catalog item from the discovered template. For more information, see [Create a catalog item from the Terraform template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.md).
 -   If Cloud Services Catalog Terraform Connector has discovered changes in an existing template, take one of the following actions to resolve the associated IaC change task:
 
     -   Update the affected catalog item per the updated Terraform template.
     -   Deactivate the affected catalog item, and then create a catalog item per the updated template.
-    For more information, see [Manage the Terraform template-based catalog items](create-or-update-terraform-based-catalog-item.md).
+    For more information, see [Manage the Terraform template-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-or-update-terraform-based-catalog-item.md).
 
 

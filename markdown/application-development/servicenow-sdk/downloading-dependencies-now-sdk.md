@@ -2,6 +2,7 @@
 title: Downloading dependencies with the ServiceNow SDK
 description: Download application dependencies and TypeScript definitions from an instance for IntelliSense and validation of scripts and ServiceNow Fluent code.Download TypeScript definitions for dependencies in other application scopes to get IntelliSense support and validation for ServiceNow Fluent code.Download TypeScript definitions for module and script dependencies to get IntelliSense support and validation for Glide APIs and script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/downloading-dependencies-now-sdk.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -23,7 +24,7 @@ To download all script and ServiceNow Fluent dependencies for an application, yo
 now-sdk dependencies [--directory <package path>] [--auth <alias>]
 ```
 
-**Parent Topic:**[Developing applications with the ServiceNow SDK](developing-applications-sdk.md)
+**Parent Topic:**[Developing applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/developing-applications-sdk.md)
 
 ## Download ServiceNow Fluent application dependencies
 
@@ -31,13 +32,13 @@ Download TypeScript definitions for dependencies in other application scopes to 
 
 ### Before you begin
 
-Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](creating-applications-servicenow-sdk.md).
+Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
 
 Role required: admin
 
 ### About this task
 
-This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](../reference/servicenow-sdk-cli-commands.md#).
+This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md).
 
 ### Procedure
 
@@ -127,13 +128,13 @@ Download TypeScript definitions for module andscript dependencies to get Intelli
 
 ### Before you begin
 
-Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](creating-applications-servicenow-sdk.md).
+Add an application to your local system with the ServiceNow SDK. For more information, see [Adding applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/creating-applications-servicenow-sdk.md).
 
 Role required: admin
 
 ### About this task
 
-This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](../reference/servicenow-sdk-cli-commands.md#).
+This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a command-line tool, enter `now-sdk --help` to get information about the available commands and global options. To get additional information about a command and its parameters, enter the command and `--help` or `-h`. For example, `now-sdk auth --help`. For more information about the CLI, see [ServiceNow SDK CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-sdk-cli-commands.md).
 
 ### Procedure
 
@@ -149,7 +150,7 @@ This procedure uses the ServiceNow SDK command-line interface \(CLI\). From a co
 
     **Note:** If you want to download application dependencies too, exclude the `--type-defs-only` parameter.
 
-    The `dependencies` command downloads type definitions for all Glide APIs and scans the modules and scripts in your application and creates type definitions for the script includes that they use. Type definitions are added in the `@types/servicenow` directory. To add any other type definitions, you can create them manually. For more information, see [Add type definitions for APIs](using-typescript.md#).
+    The `dependencies` command downloads type definitions for all Glide APIs and scans the modules and scripts in your application and creates type definitions for the script includes that they use. Type definitions are added in the `@types/servicenow` directory. To add any other type definitions, you can create them manually. For more information, see [Add type definitions for APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/using-typescript.md).
 
 4.  In the `src/fluent` directory, create a `tsconfig.server.json` file for server-side scripts.
 

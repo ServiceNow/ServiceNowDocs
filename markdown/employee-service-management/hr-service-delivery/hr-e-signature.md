@@ -2,6 +2,7 @@
 title: HR e-signature
 description: Sign electronic documents from any desktop or mobile device with e-signature. E-signature is a scoped application that enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-e-signature.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,33 +31,33 @@ By default, the following HR roles contain the following e-signature roles.
 |HR administrator \[sn\_hr\_core.admin\]|E-signature administrator \[sn\_esign.admin\]|
 |HR basic \[sn\_hr\_core.basic\]|E-signature manager \[sn\_esign.config\_manager\]|
 
-You can use the assignments as-is or change them. To change the default assignments, see [Components installed with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/components-installed-with-e-signature.md) for information on how to assign a role to another role, group, or user.
+You can use the assignments as-is or change them. To change the default assignments, see Components installed with e-signature for information on how to assign a role to another role, group, or user.
 
 ## How to use e-signature templates with HR tasks
 
 Users with the HR administrator \[sn\_hr\_core.admin\] or basic \[sn\_hr\_core.basic\] role can create e-signature templates. Each e-signature template pairs a document type to sign \(managed document, knowledge article, or HR document template\) with a signature type \(signature, credential, or acknowledgment\). For example, you could create an e-signature template for a non-disclosure agreement that requires a typed or drawn signature.
 
-For more information, see [Configure an e-signature template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/configure-e-signature-configuration.md).
+For more information, see Configure an e-signature template.
 
 You can then use the e-signature templates in HR tasks or HR task templates to request signatures from users.
 
 **Note:** On the HR task form, make sure that the HR task type sets to **E-signature**.
 
--   [Adding an HR task to an HR case](../task/t_ViewAnHRTask.md)
--   [Configure an HR task template](../task/configure-hr-task-template.md)
+-   [Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md)
+-   [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-task-template.md)
 
 ## Migrating existing HR task templates and open HR tasks to e-signature
 
 Migrate existing HR task templates and open HR tasks to the new HR task type for e-signature with the **Migrate HR e-signature tasks** scheduled job. The scheduled job automatically updates the HR task type and e-signature template based on your existing configurations. It also disables the old HR task types for credential, e-signature, and sign document.
 
-For more information, see [Migrate existing HR task templates and open HR tasks to e-signature](../task/migrate-existing-tasks-to-scoped-e-signature.md).
+For more information, see [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md).
 
 ## Activation information
 
-E-signature automatically activates when you activate Case and Knowledge Management. If it does not activate, you can manually [activate e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/activate-e-signature.md). For information on what components install with the feature, see [Components installed with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/components-installed-with-e-signature.md).
+E-signature automatically activates when you activate Case and Knowledge Management. If it does not activate, you can manually activate e-signature. For information on what components install with the feature, see Components installed with e-signature.
 
 **Related topics**  
 
 
-[E-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/e-signature.md)
+[bundle-platcap.e-signature]
 

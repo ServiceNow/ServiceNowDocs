@@ -2,6 +2,7 @@
 title: TPRM Task page
 description: The task page gives you access to tasks that are assigned to you and to members of your group. You can further filter the lists of tasks by due diligence requests, type of third-party action, and by risk or tiering assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-task-page.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -17,9 +18,9 @@ The task page gives you access to tasks that are assigned to you and to members 
 
 ## Accessing the page
 
-To open the Task page, select **Workspaces** &gt; **Vendor Management Workspace** and on the **Risk** tab, select the task icon ![](../image/icon-tprm-ws-tasks.png).
+To open the Task page, select **Workspaces** &gt; **Vendor Management Workspace** and on the **Risk** tab, select the task icon \[Omitted image "icon-tprm-ws-tasks.png"\] Alt text:.
 
-![Access your day-to-day tasks.](../image/tprm-ws-task-page.png)
+\[Omitted image "tprm-ws-task-page.png"\] Alt text: Access your day-to-day tasks.
 
-**Parent Topic:**[Viewing third-party risk reports](../../grc-vendor-risk/concept/unified-vrm-workspace.md)
+**Parent Topic:**[Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Generate planned workplace tasks
 description: Using planned task definitions in Workplace Core to create planned tasks independent of shifts for recurring activities. For example, you can generate tasks for a selected number of days for cleaning all floors and buildings at midnight every day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/generate-planned-workplace-tasks-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -44,5 +45,5 @@ Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
 You can view all planned tasks by navigating to **Workplace Core** &gt; **Workplace Tasks** &gt; **Planned Tasks**.
 
-**Parent Topic:**[Managing workplace tasks](../concept/managing-workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
 

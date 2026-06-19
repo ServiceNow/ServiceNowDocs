@@ -2,11 +2,12 @@
 title: Certificate routing policy form table
 description: To automate the processes of your certificate life cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/certificate-routing-policy-form-table.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-25"
 reading_time_minutes: 2
 breadcrumb: [ACME reference, Automated Certificate Management Environment, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -78,6 +79,14 @@ Credential alias. Your options are based on the aliases that you create in the C
 
 </td></tr><tr><td>
 
+Vault Type
+
+</td><td>
+
+External vault provider to use for private key storage with this routing policy. Options include **HashiCorp Vault**. When set, the system stores private keys in the specified vault during automated certificate operations \(new request, renew, revoke\) instead of on the MID Server.
+
+</td></tr><tr><td>
+
 Certification Purpose
 
 </td><td>
@@ -123,7 +132,7 @@ DNS Task Assignment Group
 
 </td><td>
 
-DNS Task Assignment Group. Select **Certificate Inventory and Management**
+DNS Task Assignment Group. Select **Certificate Inventory and Management**.
 
 </td></tr><tr><td>
 
@@ -131,7 +140,7 @@ Domain
 
 </td><td>
 
-Domain of the policy. This field is automatically set to **global**
+Domain of the policy. This field is automatically set to **global**.
 
 </td></tr><tr><td>
 

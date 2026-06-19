@@ -2,7 +2,10 @@
 title: Create a group
 description: Create groups to assign work to team members based on specific requirements such as skills, location, and product models. This approach enables you to route cases to the appropriate team members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-a-group-so.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -87,5 +90,5 @@ The detailed information about the group.
 
 ## What to do next
 
-Configure a group by adding members and assigning them appropriate roles. For more information, see [Configuring a group](../concept/configuring-a-group.md#).
+Configure a group by adding members and assigning them appropriate roles. For more information, see [Configuring a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-a-group.md).
 

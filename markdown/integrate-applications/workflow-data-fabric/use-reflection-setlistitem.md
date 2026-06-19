@@ -1,0 +1,48 @@
+---
+title: Use the SetListItem component
+description: Return the specific defined st items by using the SetListItem component in RPA Desktop Design Studio.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/workflow-data-fabric/use-reflection-setlistitem.html
+release: australia
+product: Workflow Data Fabric
+classification: workflow-data-fabric
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Reflection, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
+---
+
+# Use the SetListItem component
+
+Return the specific defined st items by using the SetListItem component in RPA Desktop Design Studio.
+
+## Before you begin
+
+Role required: none
+
+## About this task
+
+You can configure the properties for the SetListItem component. For more information about these properties, see [Properties of the Reflection components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/util-reflection-prop.md).
+
+## Procedure
+
+1.  In the Toolbox pane, navigate to **Utilities** &gt; **Reflection**.
+
+2.  Drag the SetListItem component to the Design surface.
+
+3.  To configure the input fields, see [Configure port properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/configure-input-port-properties.md).
+
+4.  Connect the data and control ports of the SetListItem component to the corresponding ports of the other components.
+
+    |Port type|Purpose of connection|Mandatory?|
+    |---------|---------------------|----------|
+    |Data In|Connects to the Data Out port of another component from where the data is to be collected. The For Loop component exposes the From and To Data In ports.|Yes|
+    |Dynamic Data Out|Connects to the Data In port of another component where the data is to be displayed. This port is displayed when you add items into the component.|Yes|
+    |Control In|Connects to the Control Out port of one or more components.|Yes|
+    |Control Out|Connects to the Control In port of any other component.|Yes|
+
+5.  To test the component, under the **DESIGN** tab, click **Run**.
+
+
+**Parent Topic:**[Reflection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workflow-data-fabric/reflection-utility.md)
+

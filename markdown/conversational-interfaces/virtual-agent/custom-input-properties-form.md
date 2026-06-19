@@ -2,6 +2,7 @@
 title: Custom input properties sheet
 description: Use this sheet to define a custom input control in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/custom-input-properties-form.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

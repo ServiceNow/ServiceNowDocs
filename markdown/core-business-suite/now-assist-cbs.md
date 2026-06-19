@@ -2,7 +2,10 @@
 title: Now Assist for Core Business Suite
 description: Now Assist for Core Business Suite supports administrators during Core Business Suite configuration through a guided conversational experience. It can help drive setup completion by displaying next actions, tracking configuration progress, and assisting with error resolution from a single chat interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/now-assist-cbs.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-22"
 reading_time_minutes: 4
@@ -49,9 +52,9 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect data about workplace requests \(e.g. reservations\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect data about workplace requests \(e.g. reservations\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 
 ## Troubleshoot and get help
 
@@ -59,18 +62,18 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 
--   **[Agentic Workflow in Now Assist for Core Business Suite](using-ai-agent-workflows-na-cbs.md)**  
+-   **[Agentic Workflow in Now Assist for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/using-ai-agent-workflows-na-cbs.md)**  
 Agentic workflow in Now Assist for Core Business Suite supports the Core Business Suite setup process through a conversational interface.
--   **[Configure groups and roles](../task/config-groups.md)**  
+-   **[Configure groups and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-groups.md)**  
 Configure groups and roles for Core Business Suite business units through the Now Assist conversational experience.
--   **[Create a notification](../task/create-notification-using-na.md)**  
+-   **[Create a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/create-notification-using-na.md)**  
 Create notifications for Core Business Suite business units through the Now Assist conversational experience.
--   **[Edit a notification](../task/edit-existing-notification-using-na.md)**  
+-   **[Edit a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/edit-existing-notification-using-na.md)**  
 Edit notifications for Core Business Suite business units through the Now Assist conversational experience.
--   **[Bulk upload](../task/manage-bulk-upload-using-na.md)**  
+-   **[Bulk upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/manage-bulk-upload-using-na.md)**  
 Upload records in bulk for Core Business Suite business units through the Now Assist conversational experience.
--   **[Bulk edit](../task/manage-bulk-edit-using-na.md)**  
+-   **[Bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/manage-bulk-edit-using-na.md)**  
 Edit records in bulk for Core Business Suite business units through the Now Assist conversational experience.
 
-**Parent Topic:**[Configure Core Business Suite using Now Assist](configure-cbs-using-now-assist.md)
+**Parent Topic:**[Configure Core Business Suite using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs-using-now-assist.md)
 

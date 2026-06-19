@@ -2,6 +2,7 @@
 title: Set up the Qualtrics spoke
 description: Integrate the ServiceNow instance and Qualtrics by registering Qualtrics as an OAuth provider to authenticate ServiceNow requests.Copy and record the values of token, Organization ID, Client ID, and Client secret from your Qualtrics account for authentication.Add and configure a Qualtrics connection to authenticate ServiceNow requests.Configure the system parameter sn\_qualtrics\_spoke.qualtrics\_directory and specify the Qualtrics Directory ID that can be used in the flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-qualtrics.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -41,7 +42,7 @@ Role required: admin
 
 5.  Under **API**, copy and record the value of **Token**.
 
-    ![Copy the required values from Qualtrics account.](../image/qualtrics-values.png)
+    \[Omitted image "qualtrics-values.png"\] Alt text: Copy the required values from Qualtrics account.
 
 6.  Click the **OAuth Client Manager** tab.
 
@@ -57,7 +58,7 @@ Role required: admin
 
 9.  Click **Create Client**.
 
-    ![Copy and record the values of client ID and client secret.](../image/qualtrics-clientvalues.png)
+    \[Omitted image "qualtrics-clientvalues.png"\] Alt text: Copy and record the values of client ID and client secret.
 
     The values of Client ID and Client Secret are displayed. Copy and record these values for later use.
 
@@ -80,11 +81,11 @@ Role required: admin
 
     **Note:** Don't click **Add Connection**.
 
-    ![View connection details.](../image/qualtrics-view.png)
+    \[Omitted image "qualtrics-view.png"\] Alt text: View connection details.
 
 4.  If you are configuring the spoke for the first time, click **Configure**.
 
-    ![Configure connection record.](../image/qualtrics-conf.png)
+    \[Omitted image "qualtrics-conf.png"\] Alt text: Configure connection record.
 
 5.  On the Configure Connection form, fill in the fields.
 

@@ -2,6 +2,7 @@
 title: Progress value calculation
 description: The progress or percentage complete value of goals is auto-calculated using different formulas. The formula depends on whether the goal has only targets, a combination of sub-goals and targets, and if it has weighted average calculation enabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/progress-value-calculation.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -69,5 +70,5 @@ Formula used to calculate the progress value of the goal
 -   Contribution of T2 towards G1 progress = 3/\(2+3\)\*20 = 12%
 -   Therefore, Progress of G1 = 16% +12% = 28%
 
-**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](../reference/goal-framework-reference.md)
+**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework-reference.md)
 

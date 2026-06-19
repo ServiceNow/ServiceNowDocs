@@ -2,6 +2,7 @@
 title: Types of differences between CDM applications
 description: Descriptions and examples of differences between CDM applications when using the Config Data Analyzer tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-cda-diff-types.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,7 +16,7 @@ breadcrumb: [Compare config data of two CDM applications, Using DevOps Config, D
 
 Descriptions and examples of differences between CDM applications when using the Config Data Analyzer tool.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 ## Types of differences
 
@@ -52,7 +53,7 @@ On the **App compare** tab, the **CDIs and variables** tab displays changes to i
 
 ## Examples of differences
 
-![Examples of differences between changesets, part 1](../image/cdm-cda-diff-types1.png)
+\[Omitted image "cdm-cda-diff-types1.png"\] Alt text: Examples of differences between changesets, part 1
 
-![Examples of differences between changesets, part 2](../image/cdm-cda-diff-types2.png)
+\[Omitted image "cdm-cda-diff-types2.png"\] Alt text: Examples of differences between changesets, part 2
 

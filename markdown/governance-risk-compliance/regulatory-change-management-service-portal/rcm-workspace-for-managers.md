@@ -2,6 +2,7 @@
 title: Regulatory Change Management overview page
 description: The Regulatory Change Management overview page provides a high-level view of the regulatory activities in your organization. If you have the sn\_grc\_reg\_change.manager role, you can view this page in the Compliance Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/rcm-workspace-for-managers.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -22,7 +23,7 @@ The prerequisites for displaying the Regulatory Change Management overview page 
 -   Download the GRC: Regulatory Change Management application from the ServiceNow Store in your instance.
 -   Log in as a user with the sn\_grc\_reg\_change.manager role into the Regulatory Change Management application.
 
-Use the ![](../image/reg-change-icon.png) to access the landing page.
+Use the \[Omitted image "reg-change-icon.png"\] to access the landing page.
 
 The Regulatory Change Management application managers with the sn\_grc\_reg\_change.manager user role assign the regulatory alerts and monitor the associated regulatory change tasks, import document tasks, and action tasks.
 
@@ -41,7 +42,7 @@ The GRC: Regulatory Change Management landing page displays the following sectio
 -   Trends
 -   Tracking
 
-![RCM dashboard view from the Compliance Workspace with activity, tracking, and trend reports.](../image/rcm-homepage-ws.png "The GRC: Regulatory Change Management application landing page view")
+\[Omitted image "rcm-homepage-ws.png"\] Alt text: RCM dashboard view from the Compliance Workspace with activity, tracking, and trend reports.
 
 -   Activity overview: This section contains an overview of the regulatory alerts and the tasks associated with the regulatory alerts across your organization.
 

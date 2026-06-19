@@ -2,6 +2,7 @@
 title: Viewing your network inventory configuration items with CMDB or Service Graph Workspace
 description: You can use CMDB Workspace to search and explore the CMDB, examine its health and recent activity, and access various dashboards and tools to support the tasks in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -124,11 +125,11 @@ Resolution
 Delete the child or related CI \(Configuration Item\) to delete the parent CI.1.  Click the related or the child CI under **Related Templates**.
 2.  Click **Delete**.
 
-However, an Admin can always customize the deletion action. To learn more, see [Customizing deletion action](../task/customizing-deletion-action.md).
+However, an Admin can always customize the deletion action. To learn more, see [Customizing deletion action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-deletion-action.md).
 
 </td></tr></tbody>
-</table>-   **[Customizing deletion action](../task/customizing-deletion-action.md)**  
+</table>-   **[Customizing deletion action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/customizing-deletion-action.md)**  
 Customizing deletion action enables you to create your own process of the deletion.
 
-**Parent Topic:**[Using Telecommunications Network Inventory](using-telecom-network-inventory.md)
+**Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 

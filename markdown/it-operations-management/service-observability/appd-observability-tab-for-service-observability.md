@@ -2,6 +2,7 @@
 title: AppDynamics Observability tab for Service Observability
 description: Dashboard and charts on the AppDynamics Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/appd-observability-tab-for-service-observability.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -61,5 +62,5 @@ These dashboards display metrics for databases related to the service.
 |Time Spent in Execution\(s\)|Time in seconds the database in execution mode for this service.|AppDynamics|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[AppDynamics templates for Service Observability](appd-templates.md)
+**Parent Topic:**[AppDynamics templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/appd-templates.md)
 

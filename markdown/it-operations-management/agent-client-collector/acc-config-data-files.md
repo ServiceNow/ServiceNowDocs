@@ -2,6 +2,7 @@
 title: Agent Client Collector configuration data files
 description: Configuration data files store dynamic instance data, such as virtual machine details, that check definitions use during execution. This ensures that checks are executed with up-to-date and accurate information about the instance being monitored.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-config-data-files.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -42,5 +43,5 @@ Configuration data files serve as a repository for dynamic instance data that is
 -   Execute with updated data: During execution, the Agent Client Collector agent downloads the relevant configuration data file from the MID Server. The agent uses this data to execute the check, ensuring access to the most current and accurate instance information.
 -   Store and access data: Configuration data files are stored on the MID Server in the `static/cache/config-files` directory. This storage location facilitates easy access and management, ensuring the necessary data for checks is always available when needed.
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

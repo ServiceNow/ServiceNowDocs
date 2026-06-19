@@ -2,6 +2,7 @@
 title: Configure the Nexus map configurations
 description: Configure the appearance of the Nexus map \(Resilience map\) for a specific main node by defining its UI settings. It involves defining visual elements such as colors, icons, and edge configurations. By configuring the settings at the Nexus map level, you can associate a single main node with multiple Nexus configurations, enabling flexible loading of settings for different entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-nexus-map-configurations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,15 +30,15 @@ Role required: sn\_oper\_res.admin
 
     The following example shows the Main node configurations available in the instance.
 
-    ![Main node configurations.](../image/main-node.png)
+    \[Omitted image "main-node.png"\] Alt text: Main node configurations.
 
 3.  In the Nexus map configurations related list, select **New**.
 
     The Nexus map configuration new record is displayed as shown in the example.
 
-    ![New record.](../image/nexus-map-new-record-empty.png)
+    \[Omitted image "nexus-map-new-record-empty.png"\] Alt text: New record.
 
-    For more information on the fields, see [Nexus map configuration form](../reference/nexus-map-configuration-form.md).
+    For more information on the fields, see [Nexus map configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/nexus-map-configuration-form.md).
 
 4.  Enter a unique name for the Nexus map configuration in the **Name** field.
 
@@ -53,17 +54,17 @@ Role required: sn\_oper\_res.admin
 
     A sample record is shown for reference.
 
-    ![Nexus map configuration new record.](../image/nexus-map-new-record.png)
+    \[Omitted image "nexus-map-new-record.png"\] Alt text: Nexus map configuration new record.
 
 8.  To submit the details of the Nexus map configuration, select **Submit**.
 
     The Nexus map configuration record is displayed in the Nexus map configurations related list as shown in the example.
 
-    ![Nexus map configuration record.](../image/nexus-map-config-record.png)
+    \[Omitted image "nexus-map-config-record.png"\] Alt text: Nexus map configuration record.
 
     Opening the record shows the details of the Nexus map configuration as shown in the following examples.
 
-    ![Tab1.](../image/nexus-map-config-record-tab1.png)![Tab2.](../image/nexus-map-config-record-tab2.png)
+    \[Omitted image "nexus-map-config-record-tab1.png"\] Alt text: Tab1.\[Omitted image "nexus-map-config-record-tab2.png"\] Alt text: Tab2.
 
     The **Main node** tab displays the name of the Main node table along with its associated conditions. The **Node UI details** tab shows the Node UI type, which is set to "Node map default node" by default.
 
@@ -74,7 +75,7 @@ Role required: sn\_oper\_res.admin
 
 ## What to do next
 
-To configure the node settings for the Nexus map, see [Configure the Node configurations](configure-node-configurations.md).
+To configure the node settings for the Nexus map, see [Configure the Node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-node-configurations.md).
 
-To configure the edge settings for the Nexus map, see [Configure the Edge configurations](configure-edge-configurations.md).
+To configure the edge settings for the Nexus map, see [Configure the Edge configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-edge-configurations.md).
 

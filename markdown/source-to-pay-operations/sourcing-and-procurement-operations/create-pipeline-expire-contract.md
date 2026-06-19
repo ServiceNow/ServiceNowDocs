@@ -2,6 +2,7 @@
 title: Create a pipeline project from an expiring contract
 description: As a sourcing manager, you can create a pipeline project directly from an expiring contract using a guided, decision-based workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-pipeline-expire-contract.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ As a sourcing manager, you can create a pipeline project directly from an expiri
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_spend\_pipeline.pipeline\_management\_admin
 
 ## Procedure
 
@@ -41,11 +42,11 @@ Role required: admin
 
         From the **Add to pipeline project** list, select an existing pipeline project. The contract is added to the pipeline project.
 
-    The Contract renewal sourcing task is automatically created and appears in the **Related work** tab of the contract record. This task is assigned to the business owner who was originally assigned to the sourcing request. The shopper or business owner can view the sourcing task in Employee Center and choose whether to renew the contract or not. For more information, see [Confirm contract renewal in Employee Center](confirm-contract-renewal.md).
+    The Contract renewal sourcing task is automatically created and appears in the **Related work** tab of the contract record. This task is assigned to the business owner who was originally assigned to the sourcing request. The shopper or business owner can view the sourcing task in Employee Center and choose whether to renew the contract or not. For more information, see [Confirm contract renewal in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-contract-renewal.md).
 
 
--   **[Confirm contract renewal in Employee Center](confirm-contract-renewal.md)**  
+-   **[Confirm contract renewal in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/confirm-contract-renewal.md)**  
 As a business owner or shopper, confirm whether the expiring contract needs to be renewed.
 
-**Parent Topic:**[Using Sourcing Pipeline Management](../concept/use-pipeline-sourcing-mgmt.md)
+**Parent Topic:**[Using Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-pipeline-sourcing-mgmt.md)
 

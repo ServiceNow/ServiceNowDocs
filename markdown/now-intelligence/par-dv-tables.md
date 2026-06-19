@@ -2,6 +2,7 @@
 title: Data visualization tables
 description: The following tables relate to Platform Analytics data visualizations and can be accessed through scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/par-dv-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,5 +30,5 @@ The following tables relate to Platform Analytics data visualizations and can be
 |par\_visualization\_permission|Contains the role, group, and user permissions for all data visualizations in the visualization library. Extends par\_component\_permission.|
 |report\_stats|Contains usage information for migrated reports and data visualizations including run times, most recent view time, and the number of recent executions.|
 
-**Parent Topic:**[Data visualization reference](data-visualization-reference.md)
+**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-visualization-reference.md)
 

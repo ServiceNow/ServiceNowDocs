@@ -2,6 +2,7 @@
 title: IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow
 description: Use the Investigate and resolve ITSM incidents AI agent team to get recommendations to resolve an incident based on the incident number. Check for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -24,7 +25,7 @@ Using the Investigate and resolve ITSM incidents agentic workflow:
 2.  Check for Knowledge articles and similar incidents.
 3.  Get recommended steps for incident resolution.
 
-To modify the Investigate and resolve ITSM incidents agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Investigate and resolve ITSM incidents agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 
@@ -89,9 +90,9 @@ In the agentic workflow record:
     **Example of Investigate and resolve ITSM incidents agentic workflow output in the ServiceNow AI Agent Studio**
 
 
-![Investigate and resolve ITSM incidents agentic workflow output.](../image/now-assist-itsm-aiagents-inv-resolve-inc.png)
+\[Omitted image "now-assist-itsm-aiagents-inv-resolve-inc.png"\] Alt text: Investigate and resolve ITSM incidents agentic workflow output.
 
-In the AI Agent Studio, the human agent gets notified as soon as the recommendations to resolve incidents get generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](../task/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as the recommendations to resolve incidents get generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
 ## Generating the incident resolution steps in the Now Assist panel
 
@@ -103,7 +104,7 @@ As a user, do the following in the Now Assist panel:
 
 2.  Using AI search, the AI agent retrieves the top 10 most relevant catalog items related to the incident.
 
-    The URLs to these catalog items are added to the **Additional Comments** section in the incident.![Now Assist for ITSM Investigate and Resolve ITSM incidents workflow catalog comments](../image/now-assist-itsm-inv-resol-nap-cat-comment.png)
+    The URLs to these catalog items are added to the **Additional Comments** section in the incident.\[Omitted image "now-assist-itsm-inv-resol-nap-cat-comment.png"\] Alt text: Now Assist for ITSM Investigate and Resolve ITSM incidents workflow catalog comments
 
 3.  The AI agent gathers all relevant information required for the investigation.
 
@@ -113,6 +114,6 @@ As a user, do the following in the Now Assist panel:
 
     If the AI agent was unable to create a resolution plan, then it displays a message indicating the failure.
 
-    ![Now Assist for ITSM Investigate and Resolve ITSM incidents workflow plan comments](../image/now-assist-itsm-inv-resol-nap-plan-comment.png)
+    \[Omitted image "now-assist-itsm-inv-resol-nap-plan-comment.png"\] Alt text: Now Assist for ITSM Investigate and Resolve ITSM incidents workflow plan comments
 
 

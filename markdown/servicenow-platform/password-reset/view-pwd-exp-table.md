@@ -2,6 +2,7 @@
 title: View a password expiration table
 description: You can view a password expiration table and validate whether a record is created in it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/view-pwd-exp-table.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -43,8 +44,8 @@ This table contains the password expiration information of an individual user in
     |Last Refresh Date|Shows the last date when the record was refreshed from an external system.|
     |Last Error Log|Shows the last error log if there is any error while getting information about the user’s password expiration.|
 
-    **Note:** The password expiration table stores the password expiration information of different users for different password reset processes because both the tables are data domain separated. The password expiration table is also data domain separated. For more information about domain separation, see [Domain separation and the Password Reset application](../concept/domain-separation-pwd-reset.md).
+    **Note:** The password expiration table stores the password expiration information of different users for different password reset processes because both the tables are data domain separated. The password expiration table is also data domain separated. For more information about domain separation, see [Domain separation and the Password Reset application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/domain-separation-pwd-reset.md).
 
 
-**Parent Topic:**[Configure password expiration reminder](password-reset-expiration-setup.md)
+**Parent Topic:**[Configure password expiration reminder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-expiration-setup.md)
 

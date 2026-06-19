@@ -2,6 +2,7 @@
 title: Create a simple processor
 description: Create a simple processor to execute a script from a URL query. This feature is deprecated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/t\_CreateSimpleProcessor.html
 release: australia
 product: Scripts
 classification: scripts
@@ -23,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](../../../../integrate/custom-web-services/concept/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ## Procedure
 
@@ -33,15 +34,15 @@ Role required: admin
 
 3.  Enter the following information.
 
-<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d570537e112">
+<table id="choicetable_wfd_v4x_3q"><thead><tr><th align="left" id="d202878e112">
 
 Field
 
-</th><th align="left" id="d570537e115">
+</th><th align="left" id="d202878e115">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d570537e121">
+</th></tr></thead><tbody><tr><td id="d202878e121">
 
 **Name**
 
@@ -49,7 +50,7 @@ Value
 
 Hello
 
-</td></tr><tr><td id="d570537e130">
+</td></tr><tr><td id="d202878e130">
 
 **Type**
 
@@ -57,7 +58,7 @@ Hello
 
 Script
 
-</td></tr><tr><td id="d570537e139">
+</td></tr><tr><td id="d202878e139">
 
 **Path**
 
@@ -65,7 +66,7 @@ Script
 
 Hello
 
-</td></tr><tr><td id="d570537e148">
+</td></tr><tr><td id="d202878e148">
 
 **Script**
 
@@ -84,5 +85,5 @@ g_processor.writeOutput("text/plain","Hello "+name);
     For example: `https://<instancename>.service-now.com/Hello.do?name=world`.
 
 
-**Parent Topic:**[Processors](../../../../script/processors/concept/c_Processors.md)
+**Parent Topic:**[Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Processors.md)
 

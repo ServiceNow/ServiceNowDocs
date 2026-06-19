@@ -2,11 +2,12 @@
 title: Define risk statement hierarchy
 description: Risk managers establish parent and child relationships on the risk statement form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-state-hierarchy.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -235,5 +236,5 @@ The corresponding score for the calculated ALE:-   Low
 7.  Repeat until you have added all the children risk statements related to this risk statement.
 
 
-**Parent Topic:**[Using Risk Management](../concept/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

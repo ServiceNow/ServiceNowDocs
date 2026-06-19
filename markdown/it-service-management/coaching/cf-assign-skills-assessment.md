@@ -2,6 +2,7 @@
 title: Assign skills after completing an assessment
 description: Automatically assign skills to trainees for specific skill levels based on the course items they have completed. For example, if a trainee completes the course items for learning Japanese at an expert level, then the skill level 'expert' can be assigned to the trainee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-assign-skills-assessment.html
 release: australia
 product: Coaching
 classification: coaching
@@ -29,15 +30,15 @@ The coaching assessments generated from coaching opportunities award the skills 
 
 1.  Associate skills with coaching assessment or opportunities.
 
-<table id="choicetable_nyk_yw3_shb"><thead><tr><th align="left" id="d186032e57">
+<table id="choicetable_nyk_yw3_shb"><thead><tr><th align="left" id="d184852e57">
 
 To
 
-</th><th align="left" id="d186032e60">
+</th><th align="left" id="d184852e60">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d186032e66">
+</th></tr></thead><tbody><tr><td id="d184852e66">
 
 **Associate skills with coaching opportunities**
 
@@ -50,7 +51,7 @@ Do this
 5.  In the **Skill level** field, select the lookup icon and select the skill level for this opportunity.
 
 
-</td></tr><tr><td id="d186032e114">
+</td></tr><tr><td id="d184852e114">
 
 **Associate skills with coaching assessments**
 
@@ -63,7 +64,7 @@ Do this
 5.  In the **Skill level** field, select the lookup icon and select the skill level for this assessment.
 When the assessment is complete, the skill is automatically added for the trainee.
 
-</td></tr><tr><td id="d186032e161">
+</td></tr><tr><td id="d184852e161">
 
 **Associate skills with course items**
 
@@ -82,5 +83,5 @@ When the assessment is complete, the skill is automatically added for the traine
     You can navigate to the **All Awarded Skills** related list in a **Coaching Assessments** record for a trainee to view all skills to be awarded for that trainee. The **Source** field displays whether the award came from an opportunity, assessment, or training.
 
 
-**Parent Topic:**[Assess a trainee](cf-assess-trainee.md)
+**Parent Topic:**[Assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-assess-trainee.md)
 

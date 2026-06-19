@@ -2,6 +2,7 @@
 title: Install Contract Management Pro
 description: Install the Contract Management Pro application. The application installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-install-cmpro.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,7 +31,7 @@ The following items are installed with Contract Management Pro:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Contract Management Pro](../reference/cncore-comp-ccore.md)
+For more information, see [Components installed with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-comp-ccore.md)
 
 ## Procedure
 

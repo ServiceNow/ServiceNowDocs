@@ -2,6 +2,7 @@
 title: Discovery multiprobes and multisensors
 description: Multiprobes contain one or more simple probes configured to extract specific information from manageable devices by executing multiple queries with a single authentication.You can add simple probes to your multiprobe in the Includes Probes related list.You can use the default multiprobes and multisensors provided in the platform or create your own.Create a multiensor to process data returned from a multiprobe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_MultiprobesIncludedWithDiscovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -15,7 +16,7 @@ breadcrumb: [Discovery probes and sensors, Using Discovery, Discovery, ITOM Visi
 
 Multiprobes contain one or more simple probes configured to extract specific information from manageable devices by executing multiple queries with a single authentication.
 
-You can schedule multiprobes to run any time in the discovery process to make exploration more efficient. One common use for multiprobes is as [identity probes](../concept/c_HowDiscoveryIdentifiersWork.md). Identity probes ask a device for information such as its name and serial number, and then use the results of those queries to update existing CIs in the CMDB.
+You can schedule multiprobes to run any time in the discovery process to make exploration more efficient. One common use for multiprobes is as [identity probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_HowDiscoveryIdentifiersWork.md). Identity probes ask a device for information such as its name and serial number, and then use the results of those queries to update existing CIs in the CMDB.
 
 To process the data returned from a multiprobe, you must create multisensors, which run scripts that process the data returned by the multiprobes. Multisensors typically use the same name as their corresponding multiprobes.
 
@@ -247,7 +248,7 @@ Windows - Storage 2012
 </td></tr></tbody>
 </table>**Note:** † This probe requires the installation of a command line tool from Oracle called SNEEP. To download and install this tool, log in to the [Oracle website](https://docs.oracle.com/cd/E35557_01/doc.81/e35226/ch3_sneep.htm). After this tool is installed, the **Solaris - Serial Number** probe runs automatically when Discovery detects a Solaris device. For Fujitsu PRIMEPOWER devices, you must run this probe with root credentials.
 
-**Parent Topic:**[Discovery probes and sensors](../concept/c_DiscoveryProbesAndSensors.md)
+**Parent Topic:**[Discovery probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md)
 
 ## Add a simple probe to a multiprobe
 
@@ -271,13 +272,13 @@ You can add simple probes of any type to a multiprobe and mix probe types if nec
 
     You can see the MultiProbe designation in the **ECC queue topic** column.
 
-    ![Linux identity multiprobe form](../image/LinuxMultiProbe.png "Linux identity multiprobe")
+    \[Omitted image "LinuxMultiProbe.png"\] Alt text: Linux identity multiprobe form
 
 3.  In the MultiProbe record, click **New** in the **Includes probes** related list.
 
 4.  Select a simple probe from the collection list in the left column and move it into the included list..
 
-    ![Adding a simple probe to a multiprobe](../image/AddSimpleProbe.png "Adding a simple probe to a multiprobe")
+    \[Omitted image "AddSimpleProbe.png"\] Alt text: Adding a simple probe to a multiprobe
 
 5.  Click **Save**.
 
@@ -296,11 +297,11 @@ Role required: admin
 
 2.  Click **New**.
 
-3.  Complete the [form](r_Probes.md) using the following settings:
+3.  Complete the [form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Probes.md) using the following settings:
 
     -   Probe type: Multiprobe.
     -   ECC queue topic: MultiProbe.
-4.  In the Includes probes related list, [add the probes](r_MultiprobesIncludedWithDiscovery.md#) you want to include in the multiprobe.
+4.  In the Includes probes related list, [add the probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md) you want to include in the multiprobe.
 
 5.  Click **Save**.
 
@@ -315,7 +316,7 @@ Role required: admin
 
 ### About this task
 
-![Discovery Multisensor and Script](../image/DiscoveryMultisensorAndScript.png "Discovery Multisensor and Script")
+\[Omitted image "DiscoveryMultisensorAndScript.png"\] Alt text: Discovery Multisensor and Script
 
 ### Procedure
 

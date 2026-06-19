@@ -2,6 +2,7 @@
 title: Create an inbound request
 description: Unlike security incidents, inbound requests are generally of a lower priority. Requests for a lookup, scan, or a new badge are examples of inbound requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_CreateSecurityIncidentRequest.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

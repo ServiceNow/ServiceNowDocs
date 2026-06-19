@@ -2,6 +2,7 @@
 title: Install Emergency Exposure Management
 description: You can install Emergency Exposure Management if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/install-emergency-exposure-mgt.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -94,11 +95,11 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 
 6.  Control access to the application by creating a group and assigning roles to the group or individual users.
 
-    For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+    For more information, see Roles.
 
 
--   **[Components installed with Emergency Exposure Management](../reference/emergency-exposure-installed-with.md)**  
+-   **[Components installed with Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/emergency-exposure-installed-with.md)**  
 Several types of components are installed with Emergency Exposure Management, including tables and user roles.
 
-**Parent Topic:**[Emergency Exposure Management](../concept/emergency-exposure-management.md)
+**Parent Topic:**[Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/emergency-exposure-management.md)
 

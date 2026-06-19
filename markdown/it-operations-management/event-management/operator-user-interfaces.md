@@ -2,6 +2,7 @@
 title: Event Management operator environment
 description: As an Event Management operator, your primary work environment is the Service Operations Workspace dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-user-interfaces.html
 release: australia
 product: Event Management
 classification: event-management
@@ -23,11 +24,11 @@ Lesson 1
 
 </td><td align="justify">
 
-![Overview icon](../image/progress-complete2.png)
+\[Omitted image "progress-complete2.png"\] Alt text: Overview icon
 
 </td><td>
 
-[An overview of events and alerts](operator-events-alerts.md)
+[An overview of events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-events-alerts.md)
 
 </td></tr><tr><td>
 
@@ -35,11 +36,11 @@ Lesson 2
 
 </td><td align="justify">
 
-![Overview BS icon](../image/progress-complete2.png)
+\[Omitted image "progress-complete2.png"\] Alt text: Overview BS icon
 
 </td><td>
 
-[An overview of application services](operator-application-services.md)
+[An overview of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-application-services.md)
 
 </td></tr><tr><td>
 
@@ -47,7 +48,7 @@ Lesson 3
 
 </td><td align="justify">
 
-![Operators icon](../image/progress-wip.png)
+\[Omitted image "progress-wip.png"\] Alt text: Operators icon
 
 </td><td>
 
@@ -59,18 +60,18 @@ Lesson 4
 
 </td><td align="justify">
 
-![Operators do icon](../image/progress-not-started.png)
+\[Omitted image "progress-not-started.png"\] Alt text: Operators do icon
 
 </td><td>
 
-[What operators do](operator-process.md)
+[What operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md)
 
 </td></tr></tbody>
 </table>## The Service Operations Workspace dashboard
 
 Your main area of work is the Service Operations Workspace dashboard, which provides a view that focuses on how alerts relate to application services. From here, you can drill into each application services to see the affected CIs and get an understanding of the overall impact of whatever caused the alert. To open the dashboard, navigate to **Event Management** &gt; **Service Operations Workspace**.
 
-![Service Operations Workspace dashboard overview](../image/operator-workspace-dashboard.png "Service Operations Workspace")
+\[Omitted image "operator-workspace-dashboard.png"\] Alt text: Service Operations Workspace dashboard overview
 
 The main sections of the dashboard are:
 
@@ -82,7 +83,7 @@ The main sections of the dashboard are:
 
 Click a severity level to show or hide application services based on the alerts associated with them.
 
- ![Severity slider](../image/severity-breakdown.png)
+ \[Omitted image "severity-breakdown.png"\] Alt text: Severity slider
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ Use the **Group** and **Segment** controls to organize the view.
 
  **Note:** Your administrator assigns an application the criticality and cost value to your application services.
 
-![Prioritize by](../image/group-and-segment-controls.png "Group and Segment filters")
+\[Omitted image "group-and-segment-controls.png"\] Alt text: Prioritize by
 
 </td></tr></tbody>
 </table>-   **Application services**
@@ -101,24 +102,24 @@ Use the **Group** and **Segment** controls to organize the view.
 
 Click a tile to show a summary of alerts associated with the application service. Click to view details or the service map.
 
- ![Alerts for an application service](../image/dashboard-alert-summary-popup.png)
+ \[Omitted image "dashboard-alert-summary-popup.png"\] Alt text: Alerts for an application service
 
 </td></tr></tbody>
 </table>-   **Alerts**
 
-    Click the List icon \(![List icon](../../event-management/image/list-icon.png)\). On the Lists tab, click the kind of alert to view.
+    Click the List icon \(\[Omitted image "list-icon.png"\] Alt text: List icon\). On the Lists tab, click the kind of alert to view.
 
 <table id="table_zkt_jlr_hdb"><tbody><tr><td>
 
 You can filter or sort the list to find an alert. Sort by any alert details, such as the **Priority**, which considers multiple factors for how serious the alert is, or the **Severity**, which is value provided by the event monitoring tool.
 
- ![Sort icon](../image/sort-by-severity.png)
+ \[Omitted image "sort-by-severity.png"\] Alt text: Sort icon
 
 </td></tr><tr><td>
 
 Open any alert by clicking the number.
 
- ![Alert number icon](../image/operator-dashboard-click-alert.png)
+ \[Omitted image "operator-dashboard-click-alert.png"\] Alt text: Alert number icon
 
 </td></tr></tbody>
 </table>    You will learn about what each of the columns means for an alert later on when you analyze an alert.
@@ -130,7 +131,7 @@ Double-click the name of an application service tile to open one of the applicat
 
 -   **For a manual or standard application service, this view appears:**
 
-    ![An application service](../image/operator-manual-service-dashboard.png)
+    \[Omitted image "operator-manual-service-dashboard.png"\] Alt text: An application service
 
     The application service map that you were introduced to in a previous lesson appears in the main panel. This is what you can do from this view:
 
@@ -138,19 +139,19 @@ Double-click the name of an application service tile to open one of the applicat
 
 Click any of the CIs to see the alerts only for that CI and to display the details about that CI in the **Properties** pane.
 
- ![Click CI to see alerts](../image/operator-dashboard-click-ci.png)
+ \[Omitted image "operator-dashboard-click-ci.png"\] Alt text: Click CI to see alerts
 
 </td></tr><tr><td>
 
 Click **Impact Tree** to see the state of all the CIs and how they affect each other when receiving an alert. You will learn more about the impact tree later on in the tutorial.
 
- ![Impact tree](../image/operator-dashboard-impact.png)
+ \[Omitted image "operator-dashboard-impact.png"\] Alt text: Impact tree
 
 </td></tr><tr><td>
 
 Open any alert from the **Alerts** list at the bottom by clicking the number.
 
- ![Alert number icon](../image/operator-dashboard-click-alert.png)
+ \[Omitted image "operator-dashboard-click-alert.png"\] Alt text: Alert number icon
 
 </td></tr><tr><td>
 
@@ -159,7 +160,7 @@ Open any alert from the **Alerts** list at the bottom by clicking the number.
 </td></tr></tbody>
 </table>-   **For a technical application service, this view appears:**
 
-    ![Technical service](../image/operator-technical-service-dashboard.png)
+    \[Omitted image "operator-technical-service-dashboard.png"\] Alt text: Technical service
 
     This is what you can do from this view:
 
@@ -167,19 +168,19 @@ Open any alert from the **Alerts** list at the bottom by clicking the number.
 
 Click any CI to view details about it.
 
- ![Click a database](../image/operator-technical-service-dashboard-db.png)
+ \[Omitted image "operator-technical-service-dashboard-db.png"\] Alt text: Click a database
 
 </td></tr><tr><td>
 
 Open any alert from the **Alerts** list at the bottom by clicking the number.
 
- ![Alert number icon](../image/operator-dashboard-click-alert.png)
+ \[Omitted image "operator-dashboard-click-alert.png"\] Alt text: Alert number icon
 
 </td></tr></tbody>
 </table>
 ## Continue the tutorial
 
-Proceed to the next lesson: [What Event Management operators do](operator-process.md).
+Proceed to the next lesson: [What Event Management operators do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-process.md).
 
-**Parent Topic:**[Event Management Operator Tutorial](operator-guide-em.md)
+**Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-guide-em.md)
 

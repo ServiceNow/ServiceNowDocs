@@ -2,6 +2,7 @@
 title: Topic Recommendations interface reference
 description: The Topic Recommendations app provides two main pages: a configuration page and the Topic Recommendations page, where you find any recommended topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/tr-reference.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ The Topic Recommendations app provides two main pages: a configuration page and 
 
 For more information about the Topic Recommendations user interface, see the following topics:
 
--   [Topic Recommendations settings](../reference/tr-settings-page.md)
--   [Topic Recommendations page](../reference/topic-recommendations-page.md)
--   [Topic Recommendations cards](../reference/topic-recommendations-cards.md)
+-   [Topic Recommendations settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/tr-settings-page.md)
+-   [Topic Recommendations page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-recommendations-page.md)
+-   [Topic Recommendations cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-recommendations-cards.md)
 

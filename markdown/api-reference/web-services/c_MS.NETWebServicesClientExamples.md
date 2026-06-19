@@ -2,6 +2,7 @@
 title: Microsoft .NET web services client examples
 description: Examples demonstrating an integration with Microsoft .NET Web Services Client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_MS.NETWebServicesClientExamples.html
 release: australia
 product: Web Services
 classification: web-services
@@ -22,5 +23,5 @@ Examples demonstrating an integration with Microsoft .NET Web Services Client.
 -   An "elementFormDefault" value of qualified means that an unqualified element is in the default namespace defined on an ancestor. If it is "unqualified" then an unqualified element is in the empty namespace \(xmlns=""\). The default is "unqualified".
 -   To Resolve the .NET Client deserialization failure you should go to **System Properties** &gt; **Web Services** and uncheck the property that sets the elementFormDefault attribute of the embedded XML schema to the value of unqualified. Save the property setting and recreate your WSDL Reference.cs class.
 
-**Parent Topic:**[Inbound web service examples](c_InboundWebServiceExamples.md)
+**Parent Topic:**[Inbound web service examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_InboundWebServiceExamples.md)
 

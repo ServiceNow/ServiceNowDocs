@@ -2,6 +2,7 @@
 title: Jumpstart Your Process Mining
 description: Jumpstart Your Process Mining Accelerator provides a demonstration of the possibilities and capabilities of Process Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-process-mining.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -15,11 +16,13 @@ breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives a
 
 Jumpstart Your Process Mining Accelerator provides a demonstration of the possibilities and capabilities of Process Mining.
 
-## Overview
+## Accelerator Overview
 
-Jumpstart Your Process Mining provides Impact customers with a comprehensive overview of Process Mining to visualize and analyze their  business processes. Through an applied demonstration, we illustrate how organizations can identify inefficiencies, bottlenecks, and areas for potential automation, ensuring timely resolution and optimized performance. This offering equips our customers with essential ServiceNow  resources and leading practice guides on how to get started with Process Mining. For more information on Process Mining, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md).
+Jumpstart Your Process Mining provides Impact customers with a comprehensive overview of Process Mining to visualize and analyze their  business processes. Through an applied demonstration, we illustrate how organizations can identify inefficiencies, bottlenecks, and areas for potential automation, ensuring timely resolution and optimized performance. This offering equips customers with essential ServiceNow  resources and leading practice guides on how to get started with Process Mining. For more information on Process Mining, see .
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
@@ -117,7 +120,7 @@ Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leadin
 </td></tr></tbody>
 </table>## Requested Information
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+Please refer to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## Exceptions
 

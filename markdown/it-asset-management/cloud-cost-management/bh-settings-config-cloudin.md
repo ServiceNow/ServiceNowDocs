@@ -2,6 +2,7 @@
 title: Configure Business hours operations
 description: You can choose to use or to disable Business Hours features and specify the amount of non-business hour spend that triggers notifications to users or groups. Controlling unnecessary resource use can help reduce costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -63,7 +64,7 @@ The role that should have precedence when policies are applied. Select one of th
 
  Default: **Admin Policies** \(The set of policies that were created by users with the insights\_admin role.\)
 
- ![Precedence process](../image/precedence-diagram.png)
+ \[Omitted image "precedence-diagram.png"\] Alt text: Precedence process
 
 </td></tr><tr><td>
 
@@ -165,10 +166,10 @@ Default value: 1000
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Improve resource usage with Business hours](../concept/improve-res-use-business.md)
+**Parent Topic:**[Improve resource usage with Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/improve-res-use-business.md)
 
 **Related topics**  
 
 
-[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
+[bundle-itsm.c_ITILChangeManagement]
 

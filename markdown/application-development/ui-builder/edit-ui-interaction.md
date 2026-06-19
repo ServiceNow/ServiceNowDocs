@@ -2,6 +2,7 @@
 title: Edit an existing UI interaction
 description: Edit or modify an existing UI interaction by inserting new steps, swapping or deleting events, removing steps, or updating step configurations in the diagram editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/edit-ui-interaction.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -23,7 +24,7 @@ Role required: ui\_builder\_admin
 
 When you create a UI interaction, you can return to the diagram editor to modify its flow. You can insert steps before or after existing steps, swap the outgoing event that connects one step to the next, delete events or steps you no longer need, update step configurations, and add or remove branches.
 
-**Important:** Before editing a UI interaction that is already in use, check the Settings and Usage pages to understand where the interaction is triggered. Consider duplicating the interaction before making changes to avoid unintended impacts to active pages or declarative actions. For information on duplicating an interaction, see [Duplicate a UI interaction](duplicate-ui-interaction.md).
+**Important:** Before editing a UI interaction that is already in use, check the Settings and Usage pages to understand where the interaction is triggered. Consider duplicating the interaction before making changes to avoid unintended impacts to active pages or declarative actions. For information on duplicating an interaction, see [Duplicate a UI interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/duplicate-ui-interaction.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ When you create a UI interaction, you can return to the diagram editor to modify
 
 3.  In the search field, enter the name of the interaction you want to edit.
 
-    ![UI interactions list with search field highlighted.](../image/uib-uii-search.png "UI interactions list")
+    \[Omitted image "uib-uii-search.png"\] Alt text: UI interactions list with search field highlighted.
 
 4.  Select the interaction from the search results.
 
@@ -63,7 +64,7 @@ Select **+** before the step, then choose a step from the toolbox. The step is i
 
 </td><td>
 
-![Inserting step before a step.](../image/uib-uii-insert-step-before.png)
+\[Omitted image "uib-uii-insert-step-before.png"\] Alt text: Inserting step before a step.
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ If a step cannot be added at the selected location, it appears in the Unavailabl
 
 </td><td>
 
-![List of unavailable steps.](../image/uib-uii-unavailable-steps.png)
+\[Omitted image "uib-uii-unavailable-steps.png"\] Alt text: List of unavailable steps.
 
 </td></tr><tr><td>
 
@@ -83,11 +84,11 @@ Delete a step
 
 </td><td>
 
-Select the step and select the delete icon ![](../image/uib-delete-event-mapping-icon.png). When a step is deleted, any dependent downstream bindings reset to their defaults, with a visual indicator confirming the reset. Any outgoing events for this step are deleted and displayed with red borders.
+Select the step and select the delete icon \[Omitted image "uib-delete-event-mapping-icon.png"\] Alt text:. When a step is deleted, any dependent downstream bindings reset to their defaults, with a visual indicator confirming the reset. Any outgoing events for this step are deleted and displayed with red borders.
 
 </td><td>
 
-![Delete a step.](../image/uib-uii-delete-step.png)
+\[Omitted image "uib-uii-delete-step.png"\] Alt text: Delete a step.
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Insert an **And** step from the Logic section of the toolbox. Branches execute i
 
 </td><td>
 
-![Added an And branch.](../image/uib-uii-add-and-branch.png)
+\[Omitted image "uib-uii-add-and-branch.png"\] Alt text: Added an And branch.
 
 </td></tr><tr><td>
 
@@ -111,7 +112,7 @@ Insert an If/Else step from the Logic section of the toolbox. When inserted befo
 
 </td><td>
 
-![Insert If/Else logic.](../image/uib-uii-if-else.png)
+\[Omitted image "uib-uii-if-else.png"\] Alt text: Insert If/Else logic.
 
 </td></tr><tr><td>
 
@@ -119,11 +120,11 @@ Delete If branch
 
 </td><td>
 
-Select the If branch and select the delete icon ![](../image/uib-delete-event-mapping-icon.png). You can delete an If branch only when more than one If branch exists. You cannot delete the last remaining If branch or the Else branch.
+Select the If branch and select the delete icon \[Omitted image "uib-delete-event-mapping-icon.png"\] Alt text:. You can delete an If branch only when more than one If branch exists. You cannot delete the last remaining If branch or the Else branch.
 
 </td><td>
 
-![Delete If branch.](../image/uib-uii-delete-if-branch.png)
+\[Omitted image "uib-uii-delete-if-branch.png"\] Alt text: Delete If branch.
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ Select the event node on the diagram and choose which outgoing event continues t
 
 </td><td>
 
-![Swap outgoing events.](../image/uib-uii-swap-event.png)
+\[Omitted image "uib-uii-swap-event.png"\] Alt text: Swap outgoing events.
 
 </td></tr><tr><td>
 
@@ -143,11 +144,11 @@ Delete an event
 
 </td><td>
 
-Select the event on the diagram and select the delete icon ![](../image/uib-delete-event-mapping-icon.png). Any associated connections and downstream steps are removed.
+Select the event on the diagram and select the delete icon \[Omitted image "uib-delete-event-mapping-icon.png"\] Alt text:. Any associated connections and downstream steps are removed.
 
 </td><td>
 
-![Delete the event.](../image/uib-uii-delete-event.png)
+\[Omitted image "uib-uii-delete-event.png"\] Alt text: Delete the event.
 
 </td></tr></tbody>
 </table>6.  Select **Save**.
@@ -157,5 +158,5 @@ Select the event on the diagram and select the delete icon ![](../image/uib-dele
 
 The updated UI interaction is saved. Any page events or declarative actions that reference this interaction automatically use the updated flow the next time the interaction is triggered.
 
-**Parent Topic:**[UI interactions](../concept/uib-ui-interactions.md)
+**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)
 

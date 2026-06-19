@@ -2,6 +2,7 @@
 title: Domain Separation and HR Service Delivery
 description: The ServiceNow HR Service Delivery application improves the employee service experience by automating HR interactions and providing a single platform for all HR services. Domain separation is supported in HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-domain-separation.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -20,13 +21,13 @@ Domain separation separates data, processes, and administrative tasks into logic
 To learn more about domain separation, see:
 
 -   [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0715934)
--   [Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
+-   Understanding domain separation
 
 HR Service Delivery provides the basic level of domain separation support. Basic domain separation \(data separation \) implies that if the data and all the related configurations reside within a particular domain, HR Service Delivery will function as expected. Hierarchical domain structure, sharing of data/configurations and logic/process separation is not supported by default in HR Service Delivery as per the basic domain separation definition.
 
 ## Support level: Basic
 
-**Note:** To learn more about support levels, see [Domain separation levels of support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-levels.md).
+**Note:** To learn more about support levels, see .
 
 -   There is business logic to ensure data goes into the proper domain for the application’s service provider use cases.
 -   In the application, the user interface, cache keys, reporting, rollups, aggregations, and so on, all consider domain at run time.
@@ -46,7 +47,7 @@ These users can choose to expand or collapse the domain scope to show or hide da
 
 **Note:** Based on the hierarchy, users can see data in their home domain and child domains of that home domain. Users will not have access to data in their parent domains, peer domains, or domains in other branches of the hierarchy. Users always have access to data from domains that have been explicitly granted to them by domain visibility and domain contains.
 
-![Infographic explaining Domain Separation in HR Service Delivery](../image/domain-separation-hrsd.png)
+\[Omitted image "domain-separation-hrsd.png"\] Alt text: Infographic explaining Domain Separation in HR Service Delivery
 
 ## How domain separation works in HR Service Delivery
 
@@ -54,7 +55,7 @@ These users can choose to expand or collapse the domain scope to show or hide da
 
     **Note:**
 
-    -   For more details on domain separation in HR Service delivery, see [Guidance for proper HR Service Delivery domain separation](hr-domain-rec.md).
+    -   For more details on domain separation in HR Service delivery, see [Guidance for proper HR Service Delivery domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-domain-rec.md).
     -   To learn more about process separation, see the Data Separation versus Process Separation section in this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0715934).
 -   When working in a domain-separated implementation, ensure that records are created at the right domain level so that it is visible to the right set of users.
 

@@ -2,6 +2,7 @@
 title: Specify and manage pattern identifier attributes for alert grouping
 description: The Alert Aggregation Learner analyzes alerts and identifies patterns using a defined set of alert and configuration item \(CI\) attributes. By configuring these attributes as pattern identifiers, you can control which characteristics are used to group alerts. This customization creates meaningful alert groups, improving alert management and response times by reducing noise and enabling focus on critical issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.html
 release: australia
 product: Event Management
 classification: event-management
@@ -27,13 +28,13 @@ Role required: evt\_mgmt\_admin
 
     The SA Alert Aggregation Pattern Attribute page opens.
 
-3.  Select the Unlock Feature Identifier Attributes icon \(![Unlock Feature Identifier Attributes icon](../image/em-unlock-feature-identifier.png)\) and move attributes from the **Available** list to the **Selected** list.
+3.  Select the Unlock Feature Identifier Attributes icon \(\[Omitted image "em-unlock-feature-identifier.png"\] Alt text: Unlock Feature Identifier Attributes icon\) and move attributes from the **Available** list to the **Selected** list.
 
     **Note:** Properties from CMDB CI via dot-walking are not populated.
 
     The **Configuration Item** attribute is automatically considered as an identifier and should not be added explicitly to the Feature Identifier Attributes section. The pattern is defined as a combination of the configuration item and your selected feature identifier attributes.
 
-4.  Selecting the Lock Feature Identifier Attributes icon \(![Lock Feature Identifier Attributes icon](../image/em-lock-feature-identifier.png.png)\).
+4.  Selecting the Lock Feature Identifier Attributes icon \(\[Omitted image "em-lock-feature-identifier.png.png"\] Alt text: Lock Feature Identifier Attributes icon\).
 
 5.  Select **Submit** for a new pattern identifier or **Update** for an existing pattern identifier.
 

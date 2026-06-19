@@ -2,12 +2,13 @@
 title: Create a control tailoring request
 description: Create a control tailoring request to modify baseline controls for an authorization package after the Select step without reverting the package to earlier workflow steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/create-control-tailoring-request.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Request control tailoring, Implementing controls and assessment objectives in CAM, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
@@ -23,19 +24,19 @@ Roles required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.info\_system\_sec
 
 ## About this task
 
-Control tailoring requests allow you to propose changes to baseline controls without reverting the package to the Select step. You can add new controls, change control applicability \(Applicable to Not Applicable or vice versa\), or modify hybrid and inherited control configurations. All changes require AO approval before taking effect.
+Control tailoring requests enable you to propose changes to baseline controls without reverting the package to the Select step. You can add new controls, change control applicability \(Applicable to Not Applicable, or Not Applicable to Applicable\), or modify hybrid and inherited control configurations. All changes require AO approval before they take effect.
 
 When you submit the request, the AO receives an email notification. After approval, the system applies the changes to baseline controls and updates related controls accordingly. Controls not affected by the request remain in their current state.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace** and then select the **lists icon**.
+1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon.
 
 2.  From the **Authorization packages in the RMF** list, select an authorization package record.
 
-3.  Select the **more action icon** \(**...**\) and then select **Request control tailoring**.
+3.  Select the more options icon \(...\) and then select **Request control tailoring**.
 
-4.  In the **Request control tailoring** pop-up page, enter a brief explanation for the baseline changes you are requesting.
+4.  In the **Request control tailoring** pop-up page, enter a brief explanation for the baseline changes you're requesting.
 
 5.  Select **Request** to create a new control tailoring request record.
 
@@ -58,18 +59,18 @@ When you submit the request, the AO receives an email notification. After approv
 
 8.  Review current package configuration in the **Current Records** section.
 
-    The Current Records panel \(left side\) displays existing control allocations:
+    The Current Records panel \(displays existing control allocations\):
 
     -   Baseline Control
     -   Hybrid Control
     -   Inherited Control
     -   Not Applicable Control
     -   Fully Inherited Control
-    Use the **Allocation type** drop-down to view controls by allocation type. This section is read-only and serves as reference while making requested changes.
+    Use the **Allocation type** list to view controls by allocation type. This section is read-only and serves as reference while making requested changes.
 
-9.  To add baseline controls that do not exist in the authorization package:
+9.  Add baseline controls that are not in the authorization package.
 
-    1.  In the **Requested Records** section \(right side\), set the **Allocation type** drop-down to **Baseline Control**.
+    1.  In the **Requested Records** section \(right side\), set the **Allocation type** list to **Baseline Control**.
 
     2.  Select **Add**.
 
@@ -79,24 +80,58 @@ When you submit the request, the AO receives an email notification. After approv
 
         The control objectives appear in the **Requested Records** section.
 
-10. To change the allocation of existing controls:
+10. Change the allocation of existing controls.
 
-    1.  In the **Current Records** section, use the **Allocation type** drop-down to filter controls by their current allocation type.
+    1.  In the **Current Records** section, use the **Allocation type** list to filter controls by their current allocation type.
 
+        You can filter controls based on the following types:
+
+        -   Baseline
+        -   Inherited
+        -   Hybrid
+        -   Fully inherited
+        -   Not applicable
+        -   Overlay
     2.  Select one or more controls to modify.
 
     3.  Select the action that represents the change you want to make:
 
-        -   **Mark as Not Applicable**
-        -   **Create Hybrid**
-        -   **Inherit from Single Provider**
-        -   **Inherit from Multiple Providers**
-        -   **Return to Baseline**
+        -   Mark as Not Applicable
+        -   Create Hybrid
+        -   Inherit from Single Provider
+        -   Inherit from Multiple Providers
+        -   Return to Baseline
     4.  If marking controls as not applicable, enter a justification in the confirmation page and select **Confirm**.
 
         The system moves the selected controls to the **Requested Records** section with the new allocation type.
 
-11. To remove a requested change before submitting:
+11. Modify existing overlay controls.
+
+    1.  In the Control Tailoring tab, under Current Records section, filter by selecting **Overlay** from the **Allocation type** list.
+
+        The section displays existing overlay controls configured on the authorization package.
+
+    2.  Select an overlay control to modify and select **Edit**.
+
+    3.  Update the action as needed: Addition, Subtraction, or Custom Action.
+
+    The modified overlay moves to the Requested Records section.
+
+12. Add new overlay controls.
+
+    1.  In the Control Tailoring tab, under Requested Records section, select **Overlay Controls** from the Allocation type list.
+
+    2.  Select **Add**.
+
+    3.  Select the action type: Addition, Subtraction, or Custom.
+
+    4.  If you select Custom, configure the behavior and action for each scenario.
+
+        For Matching records, select the action to apply \(for example, override, move to not applicable, or skip\). For Distinct records, select the action to apply \(for example, create new or skip\).
+
+    The new overlay control appears in the Requested Records section.
+
+13. To remove a requested change before submitting:
 
     1.  In the **Requested Records** section, select the control to remove.
 
@@ -104,21 +139,21 @@ When you submit the request, the AO receives an email notification. After approv
 
         The system removes the change. For newly added controls, Revert deletes the record. For allocation changes, Revert returns the control to its original allocation in Current Records.
 
-12. In the **Requested Changes** tab, review all requested changes.
+14. In the **Requested Changes** tab, review all requested changes.
 
     The tab displays the requested allocation and previous allocation for each control.
 
-13. Select the **more action icon** \(**...**\) and then select **Reassign** to reassign the request to a different AO within the same authorization package.
+15. Select the more options icon \(...\) and then select **Reassign** to reassign the request to a different AO within the same authorization package.
 
     In the **Reassign** pop-up page, select the new approver in the **User** field, enter a reason for the reassignment in the **Reassign reason** field, and then select **Reassign**.
 
-14. To recall the request after submission but before approval:
+16. To recall the request after submission but before approval:
 
     1.  Select the **more action icon** \(**...**\) and then select **Recall**.
 
         The request returns to Draft state, allowing you to make additional modifications.
 
-15. Select **Request for Approval** to submit the request for approval.
+17. Select **Request for Approval** to submit the request for approval.
 
 
 ## Result

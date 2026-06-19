@@ -2,6 +2,7 @@
 title: Set up the Google Cloud Storage spoke
 description: Integrate the ServiceNow instance and Google Cloud Storage spoke by using G Suite credentials to authenticate ServiceNow requests.Create a custom OAuth application from your Google Cloud Platform account to enable OAuth 2.0 authentication with the Google Cloud Storage spoke.Use the information generated during Google Cloud Storage account configuration to register the Google Cloud Storage application as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create a credential record to connect the Google Cloud Storage custom OAuth application you created during account configuration. The Google Cloud Storage spoke connection and credential aliases use these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gstorage.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -64,7 +65,7 @@ Complete these steps from the [Google Cloud Platform](https://cloud.google.com/)
 
 5.  Enter the following Authorized redirect URI: `https://<instance>.service-now.com/oauth_redirect.do` and click **Create**.
 
-6.  Copy your client ID and client secret to a text file so that you can use them when you [Register Google Cloud Storage as an OAuth provider](setup-gstorage.md#).
+6.  Copy your client ID and client secret to a text file so that you can use them when you [Register Google Cloud Storage as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gstorage.md).
 
     **Tip:** You can always access the client ID and secret in the Google APIs &amp; Services interface by clicking **Credentials** and selecting the OAuth 2.0 client ID name.
 
@@ -125,7 +126,7 @@ Role required: admin.
     |OAuth Entity Profile|Select the default OAuth entity profile, **GCP Cloud Storage default\_profile**.|
     |Credential alias|Credential alias associated with this record. The default alias record, **sn\_gcp\_cs\_spoke.Google\_Cloud\_Storage** is selected.|
 
-    ![Credential record for the Google Cloud Storage spoke.](../image/gcloud-storage-cred.png)
+    \[Omitted image "gcloud-storage-cred.png"\] Alt text: Credential record for the Google Cloud Storage spoke.
 
 6.  Right-click the form header and click **Save**.
 

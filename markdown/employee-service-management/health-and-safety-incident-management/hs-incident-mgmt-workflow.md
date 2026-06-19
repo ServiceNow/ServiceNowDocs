@@ -2,6 +2,7 @@
 title: Health and Safety Incident Management workflow example
 description: The safety incident workflow available with Health and Safety Incident Management connects employees and safety department and agents to quickly initiate, investigate, and resolve safety incidents and observations in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-workflow.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -17,7 +18,7 @@ The safety incident workflow available with Health and Safety Incident Managemen
 
 The following graphic shows a simplified example of the safety incident reporting workflow in Health and Safety Incident Management. It shows at a high level, the end-to-end scenario of what happens when a warehouse accident is reported in ServiceNow Health and Safety Incident Management.
 
-![Workflow example that shows how a safety incident is handled using the Health and Safety Incident Management application. For a text description, refer to the workflow steps that follow.](../image/hs-hsim-workflow.png "Health and Safety Incident Management workflow example for handling a safety incident")
+\[Omitted image "hs-hsim-workflow.png"\] Alt text: Workflow example that shows how a safety incident is handled using the Health and Safety Incident Management application. For a text description, refer to the workflow steps that follow.
 
 When a safety incident is created, the **Report an incident** workflow initiates a playbook configured for safety incidents. Safety agents log in to Health and Safety Workspace, complete their assigned tasks, and update incident status throughout the workflow. The incident playbook guides agents through the steps that are needed to resolve it.
 
@@ -44,5 +45,5 @@ When a safety incident is created, the **Report an incident** workflow initiates
     In the incident playbook, a compliance manager reviews the injury and generates reporting forms, for example, an OSHA 301 form.
 
 
-**Parent Topic:**[Exploring Health and Safety Incident Management](explore-hs-incident-mgmt.md)
+**Parent Topic:**[Exploring Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/explore-hs-incident-mgmt.md)
 

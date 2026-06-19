@@ -2,6 +2,7 @@
 title: Configure an owning group for a lifecycle event
 description: Create or modify an owning group to define the user group that owns a lifecycle event activity. Each owning group is responsible for overseeing the activities that fall under their purview.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -85,5 +86,5 @@ HR skills assigned to the owning group.**Note:** Any HR skills assigned to the p
 </table>6.  Click **Update**.
 
 
-**Parent Topic:**[Configure the supporting components for a lifecycle event](../concept/configure-supporting-components-for-lifecycle-event.md)
+**Parent Topic:**[Configure the supporting components for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-supporting-components-for-lifecycle-event.md)
 

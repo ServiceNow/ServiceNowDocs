@@ -2,13 +2,14 @@
 title: Reviewing customer or partner accounts in Proactive Service Experience Workflows
 description: Learn how your Technical Support teams \(e,g. Cloud Ops, Server, or Network operations teams\) can use the Operations Account 360 view in the Proactive Service Experience Workflows application to get insight about your customer's or partner's accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Proactive Service Experience Workflow, Use, Product Support for Technology]
+breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Reviewing customer or partner accounts in Proactive Service Experience Workflows
@@ -29,14 +30,14 @@ The data visualized inside of Operations Account 360 view inside of Service Oper
 
 Additionally, the Operations Account 360 View only works for company records with the class value equals to account. Company records with the class value of company shows the traditional default workspace view of Service Operations Workspace.
 
-To learn more about getting the account insights, see [Review an account by using the 360 View in Proactive Service Experience Workflows](../task/review-customer-account-360-psew.md).
+To learn more about getting the account insights, see [Review an account by using the 360 View in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/review-customer-account-360-psew.md).
 
-To learn more about Analytics dashboards, see [Service delivery overview](account-360-analytics-dashboard.md).
+To learn more about Analytics dashboards, see [Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md).
 
--   **[Review an account by using the 360 View in Proactive Service Experience Workflows](../task/review-customer-account-360-psew.md)**  
+-   **[Review an account by using the 360 View in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/review-customer-account-360-psew.md)**  
 Review a customer or partner's account by using the Operations Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to customer's or partner's and then take action to improve your delivery of service.
--   **[Service delivery overview](account-360-analytics-dashboard.md)**  
+-   **[Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md)**  
 Use the Service delivery overview to view the Analytics dashboards of the customer accounts. You can explore the details about the operational status of the accounts.
 
-**Parent Topic:**[Using Proactive Service Experience Workflows](use-assurance-workflows.md)
+**Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Conversational Integration with Workplace from Facebook
 description: The Conversational Integration with Workplace from Facebook app supports Virtual Agent features such as Virtual Agent Designer controls for creating conversations, notifications, AI Search results, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-additional-features.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,15 +26,15 @@ The Virtual Agent Designer user input and bot response controls for creating con
 
 Starting with Version 2.0.0, the card and video bot response controls are supported in Workplace conversations. The video control displays a thumbnail image of the video that users can select to open the video in their preferred web browser.
 
-For more information about user input controls and bot responses, see [Assistant Designer user input controls](../reference/va-user-inputs.md) and [Assistant Designer bot responses](../reference/va-bot-responses.md), respectively.
+For more information about user input controls and bot responses, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md) and [Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md), respectively.
 
 ## AI Search results
 
-Virtual Agent can generate AI Search results that are displayed as Genius Result Cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(knowledge base\) and Catalog items.
+Virtual Agent can generate AI Search results that are displayed as Genius Result Cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(knowledge base\) and Catalog items.
 
 ## Virtual Agent notifications
 
-For detailed information on Virtual Agent notifications, see [Configuring Virtual Agent notifications](configuring-va-notifications.md).
+For detailed information on Virtual Agent notifications, see [Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
 
 -   Subscription management
     -   Requesters - Use the **notification** \(or **notifications**\) command to subscribe to or unsubscribe from notifications.
@@ -46,13 +47,13 @@ For detailed information on Virtual Agent notifications, see [Configuring Virtua
 
             For example, with the **show notification** command, users can view their notifications.
 
-            ![The user enters "show notification" in the chat window, and the bot responds with, "Thanks, select the notification you'd like to view," followed by three choices.](../images/show-notifications-workplace.png)
+            \[Omitted image "show-notifications-workplace.png"\] Alt text: The user enters "show notification" in the chat window, and the bot responds with, "Thanks, select the notification you'd like to view," followed by three choices.
 
         -   Perform or skip the actions for the notification. If users decide to skip the actions, users can return later to the notification by using the **show notification** command.
 
 ## URL navigation for chat links
 
-In Virtual Agent and Live Agent conversations on the Workplace app, links to ServiceNow records open automatically in base system portals—including links displayed in output cards, Virtual Agent notifications, and AI Search results. If needed, admins can change the portals in which these links are opened. For configuration details, see [Configure URL navigation for chat links](../../conversational-interfaces/task/ac-configure-url-navigation.md).
+In Virtual Agent and Live Agent conversations on the Workplace app, links to ServiceNow records open automatically in base system portals—including links displayed in output cards, Virtual Agent notifications, and AI Search results. If needed, admins can change the portals in which these links are opened. For configuration details, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-url-navigation.md).
 
 ## Trusted Domains
 
@@ -64,5 +65,5 @@ In custom chat integrations, the values specified in the Trusted media domains f
 -   Geolocation topic block is not supported.
 -   Account pre-linking is not supported in Workplace from Facebook.
 
-**Parent Topic:**[Conversational Integration with Workplace from Facebook](../task/mssg-workplace.md)
+**Parent Topic:**[Conversational Integration with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/mssg-workplace.md)
 

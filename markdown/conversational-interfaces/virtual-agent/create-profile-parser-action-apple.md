@@ -2,6 +2,7 @@
 title: Create a profile parser action for Apple Messages for Business
 description: Create an action to parse the user information response and find the corresponding user on the ServiceNow instance for Conversational Integration with Apple Messages for Business using the information provided here.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-profile-parser-action-apple.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,11 +22,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Refer to the following procedure to create a new action. [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md).
+1.  Refer to the following procedure to create a new action. .
 
 2.  In the Workflow Studio integration hub, set the **Input** field to `response_body (string)`.
 
-    ![Workflow Studio integration hub page, showing profile parser action with code snippet example.](../images/flowdesigner-action.png "Workflow Studio example")
+    \[Omitted image "flowdesigner-action.png"\] Alt text: Workflow Studio integration hub page, showing profile parser action with code snippet example.
 
 3.  You can use the following example script to help create your script for the action.
 

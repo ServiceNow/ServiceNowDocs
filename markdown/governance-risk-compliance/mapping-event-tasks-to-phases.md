@@ -2,11 +2,12 @@
 title: Mapping event tasks to phases
 description: Starting with BCM, version 9.x.x, BCM administrators set up active phases in the Core UI for improved event task management. BCM users then map these phases to event tasks and execute them in the set order, ensuring a logical execution sequence. The phases can be deactivated only; they cannot be deleted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/mapping-event-tasks-to-phases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Mapping event tasks to phases
@@ -19,7 +20,9 @@ Organizing event tasks into logical phases provides a structure to the recovery 
 
 You can tag the event tasks to an appropriate phase such as Preparation, Recovery, Post incident review, and so on as part of recovery. This kind of mapping verifies structured and efficient handling of event tasks.
 
-For more information on phases in recovery, see [Mapping recovery tasks to phases](mapping-recovery-tasks-to-phases.md).
+For more information on phases in recovery, see [Mapping recovery tasks to phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/mapping-recovery-tasks-to-phases.md).
 
-**Parent Topic:**[Structured workflows for exercises](performing-tasks-to-manage-exercise-events.md)
+The Phase column now appears directly in the event task list view, allowing tasks to be filtered by phase without navigating to individual task records.
+
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

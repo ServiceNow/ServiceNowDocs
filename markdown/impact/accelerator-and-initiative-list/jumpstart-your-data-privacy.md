@@ -2,6 +2,7 @@
 title: Jumpstart Your Data Privacy
 description: This accelerator delivers a practical introduction to ServiceNow Vault’s Data Privacy capabilities, enabling platform owners and security administrators to discover, classify, and anonymize sensitive data to support compliance, security, and trust.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-data-privacy.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator delivers a practical introduction to ServiceNow Vault’s Data 
 ## Accelerator Overview
 
 Jumpstart Your Data Privacy helps platform owners, security administrators, and compliance leads to learn how to classify and protect sensitive data across production and sub-production environments. It guides teams in setting up real-time protections to prevent unwanted sensitive data from entering the instance using the Data Privacy and Vault Console. This accelerator also introduces leading practices for data governance, anonymization, and privacy safeguards to support alignment with the regulatory and internal security standards.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -58,6 +61,8 @@ Jumpstart Your Data Privacy helps platform owners, security administrators, and 
 |Developer\(s\)|Write code for the ServiceNow platform.| |✓|
 |Enterprise Architect\(s\)|Create and maintain the architecture framework that guides IT system development and deployment, ensuring seamless integration across components.| |✓|
 |Trusted Service Partner\(s\)|Attend ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

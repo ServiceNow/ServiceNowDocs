@@ -2,6 +2,7 @@
 title: Associate MITRE Techniques to a Case
 description: Associate one or more MITRE technique to a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-associate-mitre-technique.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -73,5 +74,5 @@ Role required: sn\_sec\_tisc.analyst
     **Note:** Click pop out icon to pop out the associated matrix card to view in a new tab.
 
 
-**Parent Topic:**[Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md)
+**Parent Topic:**[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)
 

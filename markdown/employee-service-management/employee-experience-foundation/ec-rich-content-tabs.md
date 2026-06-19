@@ -2,6 +2,7 @@
 title: Add Tabs with Rich Content Editor
 description: Add tabs to your rich content to help your users navigate efficiently by allowing them to select the various tabs to reveal the associated content within them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-rich-content-tabs.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,12 +20,12 @@ Add tabs to your rich content to help your users navigate efficiently by allowin
 
 Role required: sn\_cd.content\_manager
 
-Fill in the New content form fields. See [Create rich content](ec-content-library-portal-rich-content.md)
+Fill in the New content form fields. See [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md)
 
 Create the page layout using modules or columns.
 
--   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](add-modules-rich-content-editor.md)
--   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](ec-rich-content-canvas.md)
+-   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-modules-rich-content-editor.md)
+-   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-canvas.md)
 
 ## About this task
 
@@ -38,11 +39,11 @@ You can add other components under a tab, like an Image, Video, Text, Text secti
 
 2.  From the **Rich Content Editor** canvas, you can use a drag-and-drop method to add tabs.
 
-    ![Rich Content Editor - Tabs](../images/ec-rich-content-tabs.png)
+    \[Omitted image "ec-rich-content-tabs.png"\] Alt text: Rich Content Editor - Tabs
 
 3.  To add more tabs, select the entire tab component and click **Add item**, located in **Settings** &gt; **Properties**.
 
-    ![Add more tabs by clicking the Add item button](../images/ec-rich-content-add-tab.png)
+    \[Omitted image "ec-rich-content-add-tab.png"\] Alt text: Add more tabs by clicking the Add item button
 
 4.  Select a tab you added to your canvas.
 
@@ -56,21 +57,21 @@ You can add other components under a tab, like an Image, Video, Text, Text secti
 
 8.  Or, you can select the color picker \(grey square\) to the right of the **Background Color** field.
 
-    ![Rich Content Editor - Color selector](../images/ec-rich-content-color-button.png)
+    \[Omitted image "ec-rich-content-color-button.png"\] Alt text: Rich Content Editor - Color selector
 
 9.  Click into the color palette that appears.
 
-    ![Rich Content Editor - Color palette](../images/ec-rich-content-color-palette.png)
+    \[Omitted image "ec-rich-content-color-palette.png"\] Alt text: Rich Content Editor - Color palette
 
 10. After selecting a color from the color palette, use the slide bar on the right side to fine tune your color.
 
     Slide the bar up and down.
 
-    ![Rich Content Editor - Color palette slide bar](../images/ec-rich-content-slide-bar.png)
+    \[Omitted image "ec-rich-content-slide-bar.png"\] Alt text: Rich Content Editor - Color palette slide bar
 
 11. Use the bottom slide bar to lighten or darken your color.
 
-    ![Rich Content Editor - Bottom slide bar](../images/ec-rich-content-bottom-slide.png)
+    \[Omitted image "ec-rich-content-bottom-slide.png"\] Alt text: Rich Content Editor - Bottom slide bar
 
     **Note:** When previewing your changes and you select the tab, the colors or outline of the tab may show the default colors of the portal theme.
 
@@ -80,7 +81,7 @@ You can add other components under a tab, like an Image, Video, Text, Text secti
 
 14. You can drop other components into the area below the Tabs you added to your canvas.
 
-    ![Rich Content Editor - Advanced styling](../images/ec-rich-content-adv-styling.png)
+    \[Omitted image "ec-rich-content-adv-styling.png"\] Alt text: Rich Content Editor - Advanced styling
 
 <table id="table_vdh_dqy_5vb"><thead><tr><th>
 
@@ -172,15 +173,15 @@ Defines the color of the font. Select the color picker \(grey square\) to the ri
 
 -   \(Optional\) Translate your content.
 
-    Request language translation for your content. For more information, see [Multilingual support in the Content Library](../concept/ec-switch-language.md).
+    Request language translation for your content. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 
     **Note:** Only translate content after you are done modifying the content. For best results, we do not recommend that you add or remove components or change the formatting after translation.
 
-    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](../concept/ecpro-audience.md)
+    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md)
 
 -   Preview your content from the **Publish** tab.
 
     **Note:** Content Preview is designed to provide a general idea of how your content looks. Content may look different once published due to variations in device resolution, theme difference, or mobile app style configuration.
 
--   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](ec-content-library-publish2.md).
+-   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 

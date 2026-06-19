@@ -2,6 +2,7 @@
 title: Policy authoring and redlining in Compliance Workspace
 description: Policies are effective when they’re carefully monitored and revised periodically. By reviewing and updating them at regular intervals, organizations can maintain updated policies to avoid audit and compliance risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/policy-authoring-redlining.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management

@@ -2,6 +2,7 @@
 title: OAuth 2.0 tutorial - configure the Google service as an OAuth provider
 description: Use the Google Developer Console to set up an OAuth 2.0 provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_OAuthDemoConfigureGoogle.html
 release: australia
 product: Web Services
 classification: web-services
@@ -74,9 +75,9 @@ Configure the Google service in order to obtain a client ID and client secret, a
     You use these values to configure the Google service as an OAuth provider in your instance.
 
 
-**Parent Topic:**[Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](../concept/c_OAuth2ProfileTutorialGoogle.md)
+**Parent Topic:**[Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuth2ProfileTutorialGoogle.md)
 
-**Previous topic:**[Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](../concept/c_OAuth2ProfileTutorialGoogle.md)
+**Previous topic:**[Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuth2ProfileTutorialGoogle.md)
 
-**Next topic:**[OAuth 2.0 tutorial - create an OAuth provider and profile](t_OAuthDemoCreateProvider.md)
+**Next topic:**[OAuth 2.0 tutorial - create an OAuth provider and profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_OAuthDemoCreateProvider.md)
 

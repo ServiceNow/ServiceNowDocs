@@ -2,6 +2,7 @@
 title: Create a connection and credential for Lenovo spoke
 description: Create a connection and credential for Lenovo to authenticate ServiceNow requests in Lenovo spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-connection-cred-lenovo.html
 release: australia
 product: Integration Hub
 classification: integration-hub

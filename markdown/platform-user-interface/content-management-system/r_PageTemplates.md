@@ -2,6 +2,7 @@
 title: Page templates
 description: Every page that is part of the site needs a template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/r\_PageTemplates.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -24,7 +25,7 @@ When you build a new site, there are four page reference fields on the site reco
 -   Login page: a standalone login page, which is useful to force authentication for the entire CMS site.
 -   Gauge target page: page used to display the drill-through content from a gauge. When the user clicks a gauge, the gauge target page opens showing the drill-through content for that gauge.
 
-![CMS page reference fields](../image/CMSKeyPages.png "Critical page reference fields")
+\[Omitted image "CMSKeyPages.png"\] Alt text: CMS page reference fields
 
 ## Detail pages
 
@@ -48,9 +49,9 @@ These pages are mandatory if you plan on accessing system data. For example, if 
 
 ## New templates
 
-If the base system sample site pages are not suitable, you can create a template from scratch. Create a page and then use it as a template. For more information, see [Create a Content Page](../task/t_CreateAContentPage.md).
+If the base system sample site pages are not suitable, you can create a template from scratch. Create a page and then use it as a template. For more information, see [Create a Content Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/t_CreateAContentPage.md).
 
 When you save a new template, include the word "template" in the page name.
 
-**Parent Topic:**[Content Management templates](../concept/c_ContentManagementTemplates.md)
+**Parent Topic:**[Content Management templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementTemplates.md)
 

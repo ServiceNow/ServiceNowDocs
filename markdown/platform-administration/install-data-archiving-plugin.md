@@ -2,6 +2,7 @@
 title: Install Live Archive
 description: Install Live Archive to archive data in object storage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/install-data-archiving-plugin.html
 release: australia
 topic_type: task
 last_updated: "2026-04-13"
@@ -67,5 +68,5 @@ Migration duration depends on the volume of data in the archive tables. Large ar
     It might take up to 24 hours for data to appear in the tile.
 
 
-**Parent Topic:**[Configuring Data Management](../concept/configuring-data-management.md)
+**Parent Topic:**[Configuring Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configuring-data-management.md)
 

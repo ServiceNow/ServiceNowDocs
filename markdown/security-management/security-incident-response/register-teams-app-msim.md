@@ -2,6 +2,7 @@
 title: Register a new application at Azure portal for Microsoft Teams connections
 description: Register a new application at Azure portal for Microsoft Teams integration and grant access to the Azure app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/register-teams-app-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,5 +47,5 @@ Role required: admin, Azure admin
 9.  You can either follow Step 6.1 or Step 6.2 to complete the procedure of establishing a connection on your ServiceNow instance.
 
 
-**Parent Topic:**[Integrate Major Security Incident Management with Microsoft Teams](../../secops-integration-major-security-incident-management/concept/integrate-teams-msim.md)
+**Parent Topic:**[Integrate Major Security Incident Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-teams-msim.md)
 

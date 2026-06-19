@@ -2,6 +2,7 @@
 title: Exploring Federated ID
 description: The ServiceNow Identity system deduplicates users across multiple instances using their User ID and email, and assigns each resolved user a unique Federated ID for consistent identification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/federated-id.html
 release: australia
 product: Identity
 classification: identity
@@ -15,7 +16,7 @@ breadcrumb: [Global Identity, Identity]
 
 The ServiceNow® Identity system deduplicates users across multiple instances using their User ID and email, and assigns each resolved user a unique Federated ID for consistent identification.
 
-With Federated ID, you can accurately calculate the number of unique users across instances, which is useful for licensing and user management. For more information, see [Federated ID](federated-id.md).
+With Federated ID, you can accurately calculate the number of unique users across instances, which is useful for licensing and user management. For more information, see [Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/federated-id.md).
 
 **Note:** User name is required for generating Federated IDs.
 
@@ -24,10 +25,10 @@ With the user’s **User ID** and **Email** \(default setting\) to identify and 
 **Note:**
 
 -   **User ID** is required for generating Federated IDs. If the user name is null or empty, then the Federated ID is null.
--   **User ID** and **Email** are used to generate Federated IDs by default. To configure the fields used for generating Federated IDs based on your requirements, see [Updating ID fields](../task/updating-id-fields.md). The**Iamsync\_admin** role is required to update the configuration.
+-   **User ID** and **Email** are used to generate Federated IDs by default. To configure the fields used for generating Federated IDs based on your requirements, see [Updating ID fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/updating-id-fields.md). The**Iamsync\_admin** role is required to update the configuration.
 -   If multiple users share the same username and email, the system generates a Federated ID for only one of the users.
 
-![Federated ID in sys_user table](../images/federated-id-sys.png)
+\[Omitted image "federated-id-sys.png"\] Alt text: Federated ID in sys\_user table
 
 After upgrading to the Australia release, the Federated ID Generation \(**com.glide.identity.globalid**\) plugin is auto-installed on all instances. Once the plugin is installed, the schema changes are as follows:
 

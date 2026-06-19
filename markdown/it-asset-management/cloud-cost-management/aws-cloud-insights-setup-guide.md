@@ -2,6 +2,7 @@
 title: Configure Cloud Cost Management for AWS
 description: The Cloud Cost Management application is available on the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-cloud-insights-setup-guide.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -15,7 +16,7 @@ breadcrumb: [Configuring Cloud Cost Management, Cloud Cost Management, IT Asset 
 
 The Cloud Cost Management application is available on the ServiceNow Store.
 
-For more information, see [Configuring Cloud Cost Management](configuring-cloud-insights.md).
+For more information, see [Configuring Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/configuring-cloud-insights.md).
 
 ## General requirements and limitations
 

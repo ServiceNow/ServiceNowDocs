@@ -2,6 +2,7 @@
 title: GlideImpersonate - Global
 description: The GlideImpersonate API enables administrators to pose as another authenticated user for testing purposes.Verifies whether the specified user can perform debugging on scripts.Verifies whether the current user can impersonate the specified user.Sets the user ID for the current administrator to the passed-in user ID, enabling the administrator to act as that user.Determines whether the current user is impersonating another user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideImpersonateAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ Use this API when you need to act as another user so to test functionality withi
 
 **Note:** The system records anything the administrator does while impersonating another user as having been done by that user.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideImpersonate - canDebug\(String userSysId\)
 

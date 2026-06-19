@@ -2,6 +2,7 @@
 title: Add or modify a beneficiary
 description: As an employee, you add a beneficiary to your benefit plan from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyABeneficiary.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,7 +24,7 @@ Role required: none
 
 Employees can request to add or modify a beneficiary to a benefit plan by submitting a request through the Employee Center.
 
-Alternatively, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](search-hr-case.md).
+Alternatively, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/search-hr-case.md).
 
 ## Procedure
 
@@ -137,5 +138,5 @@ Percentage amount of the benefit distributed to the beneficiary.
     The system creates an HR case and assigns it to the configured HR person. View the status of your request from the **My Requests** tab.
 
 
-**Parent Topic:**[HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

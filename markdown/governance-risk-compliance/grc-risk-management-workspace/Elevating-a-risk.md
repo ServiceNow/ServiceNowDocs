@@ -2,6 +2,7 @@
 title: Elevate a project risk to enterprise risk
 description: Elevate a project risk to an enterprise risk if the project risk has an impact on the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/Elevating-a-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -46,7 +47,7 @@ A new risk assessment is generated for enterprise risk assessment. The assessmen
 
 ## What to do next
 
-Based on the assessors identified as the enterprise assessors in the Project Integration Configuration form, the enterprise risk manager gets a notification to assess the risk from an enterprise risk perspective. The steps to perform the risk assessment are the same as given in [Assess project risks using Advanced Risk Assessment](assessing-proj-risk-by-projmanager.md).
+Based on the assessors identified as the enterprise assessors in the Project Integration Configuration form, the enterprise risk manager gets a notification to assess the risk from an enterprise risk perspective. The steps to perform the risk assessment are the same as given in [Assess project risks using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/assessing-proj-risk-by-projmanager.md).
 
-**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](../concept/risk-and-ppm-better-together.md)
+**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-ppm-better-together.md)
 

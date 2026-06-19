@@ -2,6 +2,7 @@
 title: Edit existing Journey Accelerator plans
 description: Edit existing Journey Accelerator plans by adding, removing, or rearranging stages and tasks to meet the needs of the employee and your team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/manager-edit-plans.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -34,5 +35,5 @@ Role required: All employees with direct reports
     -   Deleting tasks or stages permanently removes them from the plan.
     -   Plans immediately update with your saved edits.
 
-**Parent Topic:**[Create and track plans for your employees](create-employee-plan.md)
+**Parent Topic:**[Create and track plans for your employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/create-employee-plan.md)
 

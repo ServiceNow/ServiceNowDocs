@@ -2,6 +2,7 @@
 title: Configure delegate for a shopper
 description: Configure your employees as delegates to shop on behalf of someone else. For these employees, the Shopping as option is available on the Shopping Hub homepage to shop as a delegate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -20,6 +21,8 @@ Configure your employees as delegates to shop on behalf of someone else. For the
 Role required: admin
 
 ## About this task
+
+Shows how to configure a delegate for a shopper. 
 
 When shopping as a delegate, the user can see the previous purchases and top supplier preferences of the delegate. The user can place orders and request pricing for the catalog and non-catalog items on Shopping Hub on the behalf of the delegate.
 
@@ -91,7 +94,7 @@ Approvals
 
 </td><td>
 
-Indicates if the user can have the delegate authority for approvals.Configure an approval rule for a delegate to ensure that the business owner has better visibility into the request before approval. For more information, see [Configure approval rule for a delegate](config-approval-delegate.md).
+Indicates if the user can have the delegate authority for approvals.Configure an approval rule for a delegate to ensure that the business owner has better visibility into the request before approval. For more information, see [Configure approval rule for a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/config-approval-delegate.md).
 
 </td></tr><tr><td>
 
@@ -119,8 +122,8 @@ Indicates if the user can receive meeting invitations.
 
 </td></tr></tbody>
 </table>
--   **[Configure approval rule for a delegate](config-approval-delegate.md)**  
+-   **[Configure approval rule for a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/config-approval-delegate.md)**  
 Configure an approval rule for a delegate to ensure that the business owner has better visibility into the request before approval.
 
-**Parent Topic:**[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

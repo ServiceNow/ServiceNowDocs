@@ -2,11 +2,12 @@
 title: Execution Dashboard in Strategic Planning Workspace
 description: The Execution Dashboard helps portfolio and product managers gain real-time visibility into delivery progress across work items, enabling portfolio leads to detect delays, course-correct early, and keep the strategy on track.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/execution-dashboard-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -19,7 +20,7 @@ The Execution Dashboard provides various analytics across different tabs, includ
 
 ## Overview tab in the Execution Dashboard
 
-![Execution Dashbaord-Overview in Strategic Planning.](../Images/execution-dashboard-overview-spw.gif)
+\[Omitted image "execution-dashboard-overview-spw.gif"\] Alt text: Execution Dashbaord-Overview in Strategic Planning.
 
 |Widget/Visualization|Description|
 |--------------------|-----------|
@@ -36,7 +37,7 @@ The Execution Dashboard provides various analytics across different tabs, includ
 
 ## Financial tab in the Execution Dashboard
 
-![Execution Dashbaord-Financial in Strategic Planning.](../Images/execution-dashboard-financial-spw.gif)
+\[Omitted image "execution-dashboard-financial-spw.gif"\] Alt text: Execution Dashbaord-Financial in Strategic Planning.
 
 |Widget/Visualization|Description|
 |--------------------|-----------|
@@ -56,7 +57,7 @@ The Execution Dashboard provides various analytics across different tabs, includ
 
 ## Milestones &amp; Dependency tab in the Execution Dashboard
 
-![Execution Dashbaord-Milestones & Dependency in Strategic Planning.](../Images/execution-dashboard-milestones-dependency-spw.gif)
+\[Omitted image "execution-dashboard-milestones-dependency-spw.gif"\] Alt text: Execution Dashbaord-Milestones &amp; Dependency in Strategic Planning.
 
 |Widget/Visualization|Description|
 |--------------------|-----------|
@@ -69,7 +70,7 @@ The Execution Dashboard provides various analytics across different tabs, includ
 
 ## Capacity tab in the Execution Dashboard
 
-![Execution Dashbaord-Capacity in Strategic Planning.](../Images/execution-dashboard-capacity-spw.gif)
+\[Omitted image "execution-dashboard-capacity-spw.gif"\] Alt text: Execution Dashbaord-Capacity in Strategic Planning.
 
 |Widget/Visualization|Description|
 |--------------------|-----------|
@@ -80,11 +81,11 @@ The Execution Dashboard provides various analytics across different tabs, includ
 
 ## RIDAC tab in the Execution Dashboard
 
-![Execution Dashbaord-RIDAC in Strategic Planning.](../Images/execution-dashboard-ridac-spw.gif)
+\[Omitted image "execution-dashboard-ridac-spw.gif"\] Alt text: Execution Dashbaord-RIDAC in Strategic Planning.
 
 ## Data Quality tab in the Execution Dashboard
 
-![Execution Dashbaord-Data Quality in Strategic Planning.](../Images/execution-dashboard-data-quality-spw.gif)
+\[Omitted image "execution-dashboard-data-quality-spw.gif"\] Alt text: Execution Dashbaord-Data Quality in Strategic Planning.
 
 |Widget/Visualization|Description|
 |--------------------|-----------|
@@ -112,5 +113,5 @@ The Execution Dashboard provides various analytics across different tabs, includ
 |--------------------|-----------|
 |Planned cost by location|Estimated cost by location for executing the plan.|
 
-**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](exploring-dashboards-spw.md)
+**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/exploring-dashboards-spw.md)
 

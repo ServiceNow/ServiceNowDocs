@@ -2,6 +2,7 @@
 title: Report fraud
 description: Report potential fraud on a transaction to a card network. If potential fraud was flagged for a transaction during manual investigation, a transaction includes the Fraud reporting task within the workflow
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/report-fraud.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -59,5 +60,5 @@ Depending on the policy rule, the task moves to the next activity. The following
 |No Credit|Alert merchant task|
 |Deny|Case is denied|
 
-**Parent Topic:**[Investigating a dispute](investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

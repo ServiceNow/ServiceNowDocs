@@ -2,6 +2,7 @@
 title: Use a Data Stream action in a flow
 description: Data Stream actions use the For each flow logic option to process stream data in a flow. For example, suppose that you want to use a Data Stream action that imports document data from a third-party site. When added to a flow, the action appears as a For each flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/use-data-stream-in-flow.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -29,15 +30,15 @@ Role required: flow\_designer or admin.
 
     The action appears as a **For Each** flow logic block.
 
-    ![Data Stream For Each flow logic block.](../images/data-stream-in-flow.png)
+    \[Omitted image "data-stream-in-flow.png"\] Alt text: Data Stream For Each flow logic block.
 
 3.  Add a child action within the **For Each** flow logic block.
 
     This action runs on each object within the data stream.
 
-    **Note:** You cannot add an action that pauses the flow to a Data Stream For Each flow logic block. Data Stream actions require a constant connection to the response stream. For example, you cannot use the Ask for Approval or Wait for Condition actions within Data Stream For Each flow logic. For more information, see [Data Stream action design considerations](../concept/data-stream-design.md).
+    **Note:** You cannot add an action that pauses the flow to a Data Stream For Each flow logic block. Data Stream actions require a constant connection to the response stream. For example, you cannot use the Ask for Approval or Wait for Condition actions within Data Stream For Each flow logic. For more information, see [Data Stream action design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-design.md).
 
-    ![Create Incident Record child action within flow logic block.](../images/data-stream-for-each.png)
+    \[Omitted image "data-stream-for-each.png"\] Alt text: Create Incident Record child action within flow logic block.
 
 4.  Click **Save**.
 
@@ -50,5 +51,5 @@ Test the flow until it is ready to be activated.
 
 **Note:** The system only triggers active flows.
 
-**Parent Topic:**[Data Stream actions and pagination](../concept/data-stream-actions.md)
+**Parent Topic:**[Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md)
 

@@ -2,6 +2,7 @@
 title: Find missing or mismatched records in Instance Data Replication
 description: Find records missing from the consumer instance or mismatched records after data has been replicated by creating a data comparison request in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/compare-replicated-data.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -30,7 +31,7 @@ Role required: admin
 Note the following:
 
 -   Data comparison requests are purged after three months.
--   There are limitations when comparing transformed data. See [Comparing replicated data between instances in Instance Data Replication](../concept/comparing-replicated-data.md).
+-   There are limitations when comparing transformed data. See [Comparing replicated data between instances in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/comparing-replicated-data.md).
 
 ## Procedure
 
@@ -108,7 +109,7 @@ Auto Seed
 
 </td><td>
 
-Option to automatically seed any missing or mismatched records from the producer instance to the consumer instance.You can optionally reseed missing or mismatched records at a later time. See [Reseed missing or mismatched records in Instance Data Replication](fix-replicated-data.md).
+Option to automatically seed any missing or mismatched records from the producer instance to the consumer instance.You can optionally reseed missing or mismatched records at a later time. See [Reseed missing or mismatched records in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/fix-replicated-data.md).
 
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
@@ -142,7 +143,7 @@ Option to automatically seed any missing or mismatched records from the producer
 
 ## What to do next
 
-[Reseed missing or mismatched records in Instance Data Replication](fix-replicated-data.md).
+[Reseed missing or mismatched records in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/fix-replicated-data.md).
 
-**Parent Topic:**[Comparing replicated data between instances in Instance Data Replication](../concept/comparing-replicated-data.md)
+**Parent Topic:**[Comparing replicated data between instances in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/comparing-replicated-data.md)
 

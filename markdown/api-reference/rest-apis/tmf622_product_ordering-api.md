@@ -2,6 +2,7 @@
 title: Product Order Open API
 description: The Product Order Open API provides endpoints that enable a standardized mechanism for placing product orders.Retrieves all product orders.Retrieves all product orders.Retrieves the specified product order.Updates the specified customer order.Updates the specified customer order.Updates the specified customer order.Cancels the specified customer order.Creates the specified customer order and customer order line items.Creates the specified customer order and customer order line items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/tmf622\_product\_ordering-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,19 +18,19 @@ The Product Order Open API provides endpoints that enable a standardized mechani
 
 A product order is created based on a product offering that is defined and published in a product catalog. The product offering identifies the product or set of products that are available to a customer and includes the relevant product characteristics that capture the unique options of a product, and other relevant attributes such as pricing, contract terms, and availability.
 
-To access this API, the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin must be activated. For more information, see [Install Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-install-providers.md). For information about Order Management tables and roles, see [Components installed with Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/components-installed-with-order-management.md).
+To access this API, the Order Management for Telecommunications \(sn\_ind\_tmt\_orm\) plugin must be activated. For more information, see . For information about Order Management tables and roles, see .
 
 This API is provided within the `sn_ind_tmt_orm` namespace.
 
 The calling user must have the sn\_ind\_tmt\_orm.order\_integrator role.
 
-This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Product Order Open API Developer Guide](../../guides/telecom/concept/product-order_dev-guide.md#).
+This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Product Order Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/product-order_dev-guide.md).
 
 The Product Order Open API is a ServiceNow® implementation of the TM Forum Product Ordering Management API Specification. This implementation is based on the [TMF622 Product Ordering Management API User Guide v5.0.0](https://www.tmforum.org/resources/specifications/tmf622-product-ordering-management-api-user-guide-v5-0-0/), September 2024. The Product Order Open API is conformance certified by TM Forum.
 
-![TMF conformance logo](../image/tmf-conformance.png)
+\[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Product Order Open API - GET /sn\_ind\_tmt\_orm/order/productOrder
 
@@ -110,7 +111,7 @@ Default: Don't order by state.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -162,7 +163,7 @@ For paginated queries, this header specifies the total number of records availab
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_wdl_3xr_nsb"><thead><tr><th>
 
@@ -613,7 +614,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -621,7 +622,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -1442,7 +1443,7 @@ Response body.
 
 Retrieves all product orders.
 
-**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Product Order Open API - GET /sn\_ind\_tmt\_orm/order/productOrder](tmf622_product_ordering-api.md#).
+**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Product Order Open API - GET /sn\_ind\_tmt\_orm/order/productOrder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md).
 
 This endpoint retrieves order information from the following tables:
 
@@ -1518,7 +1519,7 @@ Default: All states returned.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1570,7 +1571,7 @@ For paginated queries, this header specifies the total number of records availab
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_wdl_3xr_nsb"><thead><tr><th>
 
@@ -1947,7 +1948,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -1955,7 +1956,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -2641,7 +2642,7 @@ Response body.
 
 Retrieves the specified product order.
 
-**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Product Order Open API - GET /sn\_ind\_tmt\_orm/productorder/\{id\}](tmf622_product_ordering-api.md#).
+**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Product Order Open API - GET /sn\_ind\_tmt\_orm/productorder/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md).
 
 This endpoint retrieves order information from the following tables:
 
@@ -2685,7 +2686,7 @@ Table: Customer Order \[sn\_ind\_tmt\_orm\_order\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2697,7 +2698,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -3064,7 +3065,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -3072,7 +3073,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -4249,7 +4250,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The previous\_characteristic\_option\_value of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -4261,7 +4262,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -4683,7 +4684,7 @@ Default: Blank string
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -4696,7 +4697,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_xfv_2vk_5rb"><thead><tr><th>
 
@@ -4916,7 +4917,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3273e1766">
+</td><td id="d3359e1796">
 
 List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
@@ -5108,7 +5109,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -5116,7 +5117,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -6343,7 +6344,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The previous\_characteristic\_option\_value of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -6355,7 +6356,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -6777,7 +6778,7 @@ Default: Blank string
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -6790,7 +6791,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_xfv_2vk_5rb"><thead><tr><th>
 
@@ -7010,7 +7011,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3273e1766">
+</td><td id="d3359e1796">
 
 List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
@@ -7202,7 +7203,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -7210,7 +7211,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -7942,7 +7943,7 @@ Response body.
 
 Updates the specified customer order.
 
-**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/order/productOrder/\{id\}](tmf622_product_ordering-api.md#).
+**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/order/productOrder/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md).
 
 ### URL format
 
@@ -8439,7 +8440,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The previous\_characteristic\_option\_value of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -8451,7 +8452,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -8873,7 +8874,7 @@ Default: Blank string
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -8886,7 +8887,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_xfv_2vk_5rb"><thead><tr><th>
 
@@ -9232,7 +9233,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -9240,7 +9241,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -9902,7 +9903,7 @@ Default: Blank string
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -9915,7 +9916,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -10200,6 +10201,21 @@ This value must be the same as or later than the **committedDueDate** values for
 Data type: String
 
  Stored in: The committed\_due\_date field of the sn\_ind\_tmt\_orm\_order table.
+
+</td></tr><tr><td>
+
+disableCharValueValidation
+
+</td><td>
+
+Flag that indicates how to control characteristic value validation behavior for choice-type characteristics.Valid values:
+
+-   true: Validation is disabled and `characteristic_option_value` is set directly from the request payload without generating work notes.
+-   false: Validates characteristic values against allowed choices and adds a work note to the record for any invalid value.
+
+Default: false
+
+To disable validation, create a system property named `sn_ind_tmt_orm.disableCharValueValidation` and set the value to `true`. When disabled, the value is set directly from the request payload and no work notes are generated. The property isn't shipped by default.
 
 </td></tr><tr><td>
 
@@ -10605,7 +10621,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The previous\_characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -10617,7 +10633,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -11039,7 +11055,7 @@ Default: Blank string
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -11052,7 +11068,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -11487,7 +11503,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -11495,7 +11511,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -12695,7 +12711,7 @@ Response body.
 
 Creates the specified customer order and customer order line items.
 
-**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Product Order Open API - POST /sn\_ind\_tmt\_orm/order/productOrder](tmf622_product_ordering-api.md#).
+**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Product Order Open API - POST /sn\_ind\_tmt\_orm/order/productOrder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md).
 
 Once processed, new records are created in the following tables:
 
@@ -12788,6 +12804,21 @@ This value must be the same as or later than the **committedDueDate** values for
 Data type: String
 
  Stored in: The committed\_due\_date field of the sn\_ind\_tmt\_orm\_order table.
+
+</td></tr><tr><td>
+
+disableCharValueValidation
+
+</td><td>
+
+Flag that indicates how to control characteristic value validation behavior for choice-type characteristics.Valid values:
+
+-   true: Validation is disabled and `characteristic_option_value` is set directly from the request payload without generating work notes.
+-   false: Validates characteristic values against allowed choices and adds a work note to the record for any invalid value.
+
+Default: false
+
+To disable validation, create a system property named `sn_ind_tmt_orm.disableCharValueValidation` and set the value to `true`. When disabled, the value is set directly from the request payload and no work notes are generated. The property isn't shipped by default.
 
 </td></tr><tr><td>
 
@@ -13193,7 +13224,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The previous\_characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -13205,7 +13236,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 Stored in: The characteristic\_option\_value field of the sn\_ind\_tmt\_orm\_order\_characteristic\_value table.
 
@@ -13627,7 +13658,7 @@ Default: Blank string
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -13640,7 +13671,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -14017,7 +14048,7 @@ productOrderItem.product.productCharacteristic.previousValue
 
 </td><td>
 
-Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Previous characteristic option values if the update is for a change order. The request is a change order if the **productOrderItem.action** parameter is other than `add`. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 
@@ -14025,7 +14056,7 @@ productOrderItem.product.productCharacteristic.value
 
 </td><td>
 
-Characteristic option values associated with the product. For additional information on characteristic option values, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/som-product-config-add-characteristics.md). Data type: String
+Characteristic option values associated with the product. For additional information on characteristic option values, see . Data type: String
 
 </td></tr><tr><td>
 

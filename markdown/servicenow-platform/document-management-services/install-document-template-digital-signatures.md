@@ -2,6 +2,7 @@
 title: Install Document Template integration with digital signatures using a smart card
 description: You can install the Document Template integration with Digital Signatures using Smart Cards application \(com.sn.dt-digital-signature-smart-card-integration\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/install-document-template-digital-signatures.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -40,5 +41,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](../concept/digital-signature.md)
+**Parent Topic:**[Digital signature for PDF documents using CAC or PIV smart cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/digital-signature.md)
 

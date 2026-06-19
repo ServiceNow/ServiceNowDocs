@@ -2,6 +2,7 @@
 title: Uninstall the Conversational Integration with Workplace from Facebook
 description: Uninstall the Conversational Integration with Workplace from Facebook and disassociate the app with your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/uninstall-virtual-agent-fb.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -41,5 +42,5 @@ Roles required:
 
 **Now Virtual Agent** no longer appears on the list of integrations in Workplace from Facebook. The instance receives uninstallation information from Workplace from Facebook, and the app configuration and user information are deleted within 15 days.
 
-**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](../concept/configuring-ci-workplace-fb.md)
+**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-ci-workplace-fb.md)
 

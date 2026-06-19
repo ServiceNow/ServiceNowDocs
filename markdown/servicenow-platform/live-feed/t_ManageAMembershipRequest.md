@@ -2,6 +2,7 @@
 title: Manage a membership request
 description: When a user requests membership to a private team, the team administrator receives an email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_ManageAMembershipRequest.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -35,12 +36,12 @@ If you are the team administrator, you can manage membership requests.
 
     This shows the users who have received invitations, but who have not yet accepted.
 
-    ![Invited members](../image/InvitedMembers.png "Invited members")
+    \[Omitted image "InvitedMembers.png"\] Alt text: Invited members
 
 4.  You can cancel a user's invitation by clicking **Remove**.
 
-5.  You can invite another user to the team by entering their name in the **Add user** field and clicking the Invite member \(![Add member button](../image/AddMemberButton.png)\) button.
+5.  You can invite another user to the team by entering their name in the **Add user** field and clicking the Invite member \(\[Omitted image "AddMemberButton.png"\] Alt text: Add member button\) button.
 
 
-**Parent Topic:**[Use teams in Live Feed](../concept/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

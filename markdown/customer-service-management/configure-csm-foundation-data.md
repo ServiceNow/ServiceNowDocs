@@ -2,7 +2,10 @@
 title: Configure foundation data
 description: With Customer Service Management, you can import or create customer information including names, addresses, and phone numbers; account details; products and assets; and service contracts. You can also assign roles to users and create customer relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-foundation-data.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
@@ -60,7 +63,7 @@ Import Accounts
 
 </td><td>
 
-In the business-to-business \(B2B\) model, an account is a supported external customer. Import and verify existing account data. For more information, see [Import accounts and contacts with guided setup](import-csm-accounts.md).**Note:** After importing customer account data, you must also [set the account code system property](../reference/set-csm-account-code-property.md).
+In the business-to-business \(B2B\) model, an account is a supported external customer. Import and verify existing account data. For more information, see [Import accounts and contacts with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-accounts.md).**Note:** After importing customer account data, you must also [set the account code system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/set-csm-account-code-property.md).
 
 </td></tr><tr><td>
 
@@ -68,7 +71,7 @@ Import Contacts \(B2B\)
 
 </td><td>
 
-A contact is a user who is an employee of an account. Import and verify existing contact data. For more information, see [Import accounts and contacts with guided setup](import-csm-accounts.md).
+A contact is a user who is an employee of an account. Import and verify existing contact data. For more information, see [Import accounts and contacts with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-accounts.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +79,7 @@ Import Consumers \(B2C\)
 
 </td><td>
 
-A consumer is a customer in the business-to-consumer \(B2C\) business model. Import and verify existing consumer data. For more information, see [Import consumers through guided setup](import-csm-consumers.md).
+A consumer is a customer in the business-to-consumer \(B2C\) business model. Import and verify existing consumer data. For more information, see [Import consumers through guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-consumers.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +87,7 @@ Import Users
 
 </td><td>
 
-A user is an individual who can access your instance. Import and verify existing user data. For more information, see [Configure users and groups](configure-csm-users-groups.md).
+A user is an individual who can access your instance. Import and verify existing user data. For more information, see [Configure users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-users-groups.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +95,7 @@ Import Groups
 
 </td><td>
 
-A group is a set of users who share a common purpose. Import and verify existing group data. For more information, see [Configure users and groups](configure-csm-users-groups.md).
+A group is a set of users who share a common purpose. Import and verify existing group data. For more information, see [Configure users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-users-groups.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +115,7 @@ Roles control access to features and capabilities. The Customer Service Manageme
 
 -   Internal roles for agents and managers
 -   External roles for customers, customer partners, and consumers
- Assign the necessary roles to internal and external users. For more information, see [Assign roles to CSM users](assign-csm-roles.md).
+ Assign the necessary roles to internal and external users. For more information, see [Assign roles to CSM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/assign-csm-roles.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +123,7 @@ Create Customer Relationships
 
 </td><td>
 
-Create relationships between partners, contacts, and customers to make account and asset management easy and flexible. For more information, see [Create customer relationships](../concept/c_CustomerServiceRelationships.md).You can create the following types of relationships:
+Create relationships between partners, contacts, and customers to make account and asset management easy and flexible. For more information, see [Create customer relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceRelationships.md).You can create the following types of relationships:
 
 -   Bi-directional account relationships
 -   Account hierarchy
@@ -133,7 +136,7 @@ Import Product Models
 
 </td><td>
 
-A product is a type of good or service that your company sells and supports. Product models identify different types of products, such as service, hardware, software, or consumables. For more information, see [Import product models with guided setup](import-csm-product-models.md).
+A product is a type of good or service that your company sells and supports. Product models identify different types of products, such as service, hardware, software, or consumables. For more information, see [Import product models with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-product-models.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +144,7 @@ Import Sold Products
 
 </td><td>
 
-Sold products are products and components that have been sold to an account or a consumer. Importing sold products provides an overview of the complete product sold to an account or consumer. For more information, see [Import sold products with guided setup](import-csm-sold-products.md).
+Sold products are products and components that have been sold to an account or a consumer. Importing sold products provides an overview of the complete product sold to an account or consumer. For more information, see [Import sold products with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-sold-products.md).
 
 </td></tr><tr><td>
 
@@ -149,7 +152,7 @@ Create product model and catalog items relationships
 
 </td><td>
 
-Enable self-service for customers to request services on products by creating relationships between product models and catalog items. For more information, see [Configure product model and catalog item relationships](create-csm-product-model-items.md).
+Enable self-service for customers to request services on products by creating relationships between product models and catalog items. For more information, see [Configure product model and catalog item relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-product-model-items.md).
 
 </td></tr><tr><td>
 
@@ -157,7 +160,7 @@ Import Install Base Items
 
 </td><td>
 
-Install base items represent the instances that have been configured for a customer. Each install base item references the configuration item record for the customer. For more information, see [Import install base items with guided setup](import-csm-install-base-items.md).
+Install base items represent the instances that have been configured for a customer. Each install base item references the configuration item record for the customer. For more information, see [Import install base items with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-install-base-items.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +168,7 @@ Import Installed Products
 
 </td><td>
 
-Installed products create an association between sold products and install base items. Installed products also provide information on the sold products and how they’re deployed or installed. For more information, see [Import installed products with guided setup](import-csm-installed-products.md).
+Installed products create an association between sold products and install base items. Installed products also provide information on the sold products and how they’re deployed or installed. For more information, see [Import installed products with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-installed-products.md).
 
 </td></tr><tr><td>
 
@@ -173,7 +176,7 @@ Import Assets
 
 </td><td>
 
-An asset is a specific product or instance that is supported for a customer. There are different types of assets and Information for each type of asset is stored in a different table. For more information, see [Import assets with guided setup](import-csm-assets.md).
+An asset is a specific product or instance that is supported for a customer. There are different types of assets and Information for each type of asset is stored in a different table. For more information, see [Import assets with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-csm-assets.md).
 
 </td></tr><tr><td>
 
@@ -181,7 +184,7 @@ Create Asset Contact Relationships
 
 </td><td>
 
-Assign assets to the customer contacts who are responsible for managing those assets. If desired, enable a property that limits access to asset information to just the assigned contacts. For more information, see [Create asset contact relationships](../concept/c_AssetContactRelationships.md#).
+Assign assets to the customer contacts who are responsible for managing those assets. If desired, enable a property that limits access to asset information to just the assigned contacts. For more information, see [Create asset contact relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_AssetContactRelationships.md).
 
 </td></tr><tr><td>
 
@@ -189,7 +192,7 @@ Create Service Contracts
 
 </td><td>
 
-A service contract contains information about the type of support that is provided to a customer and can include coverage for specific assets. It can also include multiple service entitlements and service-level agreements \(SLAs\). For more information, see [Create service contracts](create-csm-service-contracts.md).
+A service contract contains information about the type of support that is provided to a customer and can include coverage for specific assets. It can also include multiple service entitlements and service-level agreements \(SLAs\). For more information, see [Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-contracts.md).
 
 </td></tr><tr><td>
 
@@ -197,7 +200,7 @@ Create Entitlements
 
 </td><td>
 
-An entitlement defines the type of support that a customer receives as well as the supported communication channels. Entitlements are counted and tracked using two types of units: cases and hours. For more information, see [Configure entitlements](configure-csm-entitlements.md).
+An entitlement defines the type of support that a customer receives as well as the supported communication channels. Entitlements are counted and tracked using two types of units: cases and hours. For more information, see [Configure entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-entitlements.md).
 
 </td></tr><tr><td>
 
@@ -205,7 +208,7 @@ Create Account Teams
 
 </td><td>
 
-Account teams are made up of employees who fulfill specific jobs or roles for a particular account. Create these roles, or responsibility definitions, and then assign them to employees and contacts. For more information, see [Creating an account team](../concept/configure-csm-account-teams.md).
+Account teams are made up of employees who fulfill specific jobs or roles for a particular account. Create these roles, or responsibility definitions, and then assign them to employees and contacts. For more information, see [Creating an account team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-account-teams.md).
 
 </td></tr></tbody>
 </table>

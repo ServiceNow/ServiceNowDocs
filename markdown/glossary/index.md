@@ -661,7 +661,7 @@ doc_type: toc
     - [slushbucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
-    - [sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
     - [sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.

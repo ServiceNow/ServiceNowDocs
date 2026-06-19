@@ -2,6 +2,7 @@
 title: PSBScratchpadUtil - Scoped
 description: The PSBScratchpadUtil API provides methods that allow providers to share "extra" information that is outside of any other Service Exchange service, with their consumers.Returns the value of a specified scratchpad property.Returns the property names and values \(name-value pairs\) of all scratchpad properties associated with the specified task.Returns the list of names of all scratchpad properties associated with the specified task record.Places the scratchpad properties associated with the specified remote task or provider task in the client g\_scratchpad.Deletes the specified scratchpad property from the Scratchpad \[sn\_sb\_scratchpad\] table.Inserts a property or updates the value of a property in the Scratchpad \[sn\_sb\_scratchpad\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PSBScratchpadUtilScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -23,7 +24,7 @@ Both providers and consumers can add, update, and remove information to and from
 
 To access this API, the Service Exchange for Providers application \(sn\_sb\_pro\) must be installed. This API runs in the `sn_sb_pro` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## PSBScratchpadUtil - get\(GlideRecord taskGR, String name\)
 

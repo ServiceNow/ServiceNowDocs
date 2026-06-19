@@ -2,11 +2,12 @@
 title: Request an approval and approve the crisis event
 description: Approve the crisis event in BCM UIB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/submit-event-task-for-crisis-event-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Request an approval and approve the crisis event
@@ -29,7 +30,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     **Note:** Submitting an exercise or actual event for approval when an activated plan is still in the **Open** state results in an error message: `All activated plans must be closed before submitting the event for an approval`.
 
-    ![Error message.](../image/event-error-msg.png)
+    \[Omitted image "event-error-msg.png"\] Alt text: Error message.
 
 5.  Select **Submit for approval**.
 
@@ -46,5 +47,5 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
     You can update the state of the event to **Closed Incomplete**.
 
 
-**Parent Topic:**[Structured workflows for crisis events](../concept/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

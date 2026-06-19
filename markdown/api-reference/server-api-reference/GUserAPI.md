@@ -2,6 +2,7 @@
 title: GlideUser - Global
 description: The GlideUser API provides methods to access information about the current user and current user roles.Returns the current user's company sys\_id.Returns the current user's display name.Returns the display value of the user's session domain.Returns the identifier of the user's current session domain.Returns the user's email address.Returns the user's first name.Returns the sys\_id of the current user.Returns the user's last name.Returns an iterator containing the list of all groups to which the user belongs. Only active groups are returned.Returns the user ID, or login name, of the current user.Returns a list of roles associated with the user. Includes explicitly granted roles, inherited roles, and roles acquired by group membership.Returns the current user's time zone label in the current user's preferred language.Returns the current user's time zone label in the specified language.Returns the user object associated with the passed-in user ID \(sys\_id in sys\_user\) or user\_name.Returns the list of roles explicitly granted to the user.Determines if the current user has the specified role.Determines if the current user is an explicit member of the specified group. Only active groups are evaluated by this method.Determines if the current user is a member of the specified group. Only active groups are evaluated by this method.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GUserAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideUser API provides methods to access information about the current user 
 
 Using the GlideUser API avoids the need to use the slower GlideRecord queries to obtain user information.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideUser - getCompanyID\(\)
 
@@ -38,7 +39,7 @@ gs.info(currentUser.getCompanyID());
 
 ### Scoped equivalent
 
-To use the getCompanyID\(\) method in a scoped application, use the corresponding scoped method: [getCompanyID\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the getCompanyID\(\) method in a scoped application, use the corresponding scoped method: [getCompanyID\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - getDisplayName\(\)
 
@@ -59,7 +60,7 @@ gs.info(currentUser.getDisplayName());
 
 ### Scoped equivalent
 
-To use the getDisplayName\(\) method in a scoped application, use the corresponding scoped method: [getDisplayName\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the getDisplayName\(\) method in a scoped application, use the corresponding scoped method: [getDisplayName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - getDomainDisplayValue\(\)
 
@@ -125,7 +126,7 @@ gs.info(currentUser.getEmail());
 
 ### Scoped equivalent
 
-To use the getEmail\(\) method in a scoped application, use the corresponding scoped method: [getEmail\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the getEmail\(\) method in a scoped application, use the corresponding scoped method: [getEmail\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - getFirstName\(\)
 
@@ -166,7 +167,7 @@ gs.info('Data type: ' + typeof userName);
 
 ### Scoped equivalent
 
-To use the getFirstName\(\) method in a scoped application, use the corresponding scoped method: [getFirstName\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the getFirstName\(\) method in a scoped application, use the corresponding scoped method: [getFirstName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - getID
 
@@ -187,7 +188,7 @@ gs.info(currentUser.getID());
 
 ### Scoped equivalent
 
-To use the getID\(\) method in a scoped application, use the corresponding scoped method: [getID\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the getID\(\) method in a scoped application, use the corresponding scoped method: [getID\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - getLastName\(\)
 
@@ -228,7 +229,7 @@ gs.info('Data type: ' + typeof userName);
 
 ### Scoped equivalent
 
-To use the getLastName\(\) method in a scoped application, use the corresponding scoped method: [getLastName\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the getLastName\(\) method in a scoped application, use the corresponding scoped method: [getLastName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - getMyGroups\(\)
 
@@ -278,7 +279,7 @@ gs.info(currentUser.getName());
 
 ### Scoped equivalent
 
-To use the getName\(\) method in a scoped application, use the corresponding scoped method: [getName\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the getName\(\) method in a scoped application, use the corresponding scoped method: [getName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - getRoles\(\)
 
@@ -307,13 +308,13 @@ admin,hr_fulfiller,itsa_fulfiller,security_admin
 
 ### Scoped equivalent
 
-To use the getRoles\(\) method in a scoped application, use the corresponding scoped method: [getRoles\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the getRoles\(\) method in a scoped application, use the corresponding scoped method: [getRoles\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - getTimeZoneLabel\(\)
 
 Returns the current user's time zone label in the current user's preferred language.
 
-For more information about setting a user's preferred language, see [User specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_UserSpecificLanguage.md).
+For more information about setting a user's preferred language, see .
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -455,7 +456,7 @@ gs.info('Data type: ' + typeof userRoles);
 
 ### Scoped equivalent
 
-To use the getUserRoles\(\) method in a scoped application, use the corresponding scoped method: [getUserRoles\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the getUserRoles\(\) method in a scoped application, use the corresponding scoped method: [getUserRoles\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - hasRole\(String role\)
 
@@ -478,7 +479,7 @@ gs.info(currentUser.hasRole('admin'));
 
 ### Scoped equivalent
 
-To use the hasRole\(\) method in a scoped application, use the corresponding scoped method: [hasRole\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the hasRole\(\) method in a scoped application, use the corresponding scoped method: [hasRole\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 
 ## GlideUser - isExplicitMemberOf\(String group\)
 
@@ -574,5 +575,5 @@ false
 
 ### Scoped equivalent
 
-To use the isMemberOf\(\) method in a scoped application, use the corresponding scoped method: [isMemberOf\(\)](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#).
+To use the isMemberOf\(\) method in a scoped application, use the corresponding scoped method: [isMemberOf\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md).
 

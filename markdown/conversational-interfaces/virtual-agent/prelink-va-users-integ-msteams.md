@@ -2,6 +2,7 @@
 title: Installing Microsoft Teams for all Virtual Agent users
 description: Pre-link your Virtual Agent requesters to a ServiceNow instance before they run the Conversational Integration with Microsoft Teams. Batch pre-linking enables your Virtual Agent users to immediately chat with a virtual agent and receive notifications without going through the initial authentication linking process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/prelink-va-users-integ-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -23,9 +24,9 @@ To install the app otherwise, use the following directions.
 
 To install the app otherwise, use the following directions.
 
--   [Install Conversational Integration with Microsoft Teams](teams-install.md), with the **Automatically Link ServiceNow user profiles** option enabled.
--   [Set up Microsoft Teams Graph spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-msteams.md).
--   [Set up Microsoft Active Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ad.md).
+-   [Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-install.md), with the **Automatically Link ServiceNow user profiles** option enabled.
+-   Set up Microsoft Teams Graph spoke.
+-   .
 
 Roles required:
 
@@ -58,14 +59,14 @@ Batch pre-linking happens automatically via the **MS Teams Daily Pre Install Job
 
 3.  In the **Run** field, change the run time to your desired time.
 
-4.  For a description of the other fields that you can change in this form, including **Time zone**, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
+4.  For a description of the other fields that you can change in this form, including **Time zone**, see Automatically run a script of your choosing.
 
 5.  Select **Save**.
 
 
 ## What to do next
 
-You can also customize the auto-linking process for Conversational Integration with Microsoft Teams. For more information, see [Customize auto-linking for Conversational Integration with Microsoft Teams](customize-autolink-msteams.md).
+You can also customize the auto-linking process for Conversational Integration with Microsoft Teams. For more information, see [Customize auto-linking for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/customize-autolink-msteams.md).
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

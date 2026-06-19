@@ -2,6 +2,7 @@
 title: Usage Insights client-side storage cookies
 description: To track client-side user activity, Usage Insights uses the SNAnalytics JavaScript SDK that is embedded in Platform Analytics, Core UI, and the Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-tracked-client-cookies.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -19,7 +20,7 @@ The SNAnalytics SDK uses a combination of session storage and local storage vari
 
 For more information on session storage and local storage, refer to the [JavaScript.Info](https://javascript.info/localstorage) documentation.
 
-For more information on SNAnalytics SDK, see [SNAnalytics - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/SNAnalyticsClientAPI.md)  and [SNAnalytics ](https://developer.servicenow.com/dev.do#!/reference/api/xanadu/client/SNAnalyticsClientAPI)– in the Developer community.
+For more information on SNAnalytics SDK, see   and [SNAnalytics ](https://developer.servicenow.com/dev.do#!/reference/api/xanadu/client/SNAnalyticsClientAPI)– in the Developer community.
 
 ## Key structure
 
@@ -57,7 +58,7 @@ The table lists the keys and values stored on local storage.
 
 To delete local storage variables, you must clear the browsing data. For example, in the Chrome browser, select **History** &gt; **Show Full History** &gt; **Clear browsing data**. In the Clear browsing data window, select **Cookies and other site data** and then select **Clear data**.
 
-![Settings to clear local storage cookies.](../image/clear-local-storage-cookies.png)
+\[Omitted image "clear-local-storage-cookies.png"\] Alt text: Settings to clear local storage cookies.
 
 ## Data storage
 
@@ -65,5 +66,5 @@ Data is encrypted at rest. It’s stored in a central ServiceNow® multitenant r
 
 Data is anonymized before it’s sent to storage, and deleted at the database level after a retention period of two years.
 
-**Parent Topic:**[Tracked analytics fields and cookies](../concept/uxa-tracked-fields-and-cookies.md)
+**Parent Topic:**[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)
 

@@ -2,6 +2,7 @@
 title: Configure an Agent Client Collector with a MID Server using a single-line command
 description: Use a single-line command to set up an Agent Client Collector with a MID Server. You can also use the single-line command to migrate agents with MID-less configuration to be used with a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-acc-with-mid.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -98,5 +99,5 @@ Explains what the specified command does.
 </table>2.  Restart the agent for the configuration settings to be entered into the `acc.yml` file.
 
 
-**Parent Topic:**[Configuring Agent Client Collector with a MID Server](../concept/acc-configuring-with-mid.md)
+**Parent Topic:**[Configuring Agent Client Collector with a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configuring-with-mid.md)
 

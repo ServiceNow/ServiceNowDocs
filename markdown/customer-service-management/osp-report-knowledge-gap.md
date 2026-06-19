@@ -2,7 +2,10 @@
 title: Report knowledge gap from a case
 description: An OSP agent can report a knowledge gap for a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-report-knowledge-gap.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -33,6 +36,6 @@ Role required: sn\_csm\_ocs.ext\_agent
 
     A knowledge gap is created and you can view it under the **Knowledge Gaps** related list.
 
-    For more details, see [Report a knowledge gap](../../../administer/workspace/task/csm-workspace-report-knowledge-gap.md)
+    For more details, see [Report a knowledge gap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-report-knowledge-gap.md)
 
 

@@ -2,11 +2,14 @@
 title: Create a Variable set
 description: Create a Variable set for an Auto Query scan created in the Discovery Console for OT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/create-variable-set.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Variables page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Variables page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Create a Variable set
@@ -21,17 +24,17 @@ Role required: admin
 
 1.  In the Console, navigate to **Assets &gt; Variables**.
 
-2.  Select the add icon ![](../../../../msi-console/image/add-icon-msi.jpg).
+2.  Select the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:.
 
-    ![Create a variable set](../../../../msi-console/image/create-variable-set.png)
+    \[Omitted image "create-variable-set.png"\] Alt text: Create a variable set
 
-3.  On the **Create Variable Set** page, add the necessary information and then completion, click **Next**.
+3.  On the **Create Variable Set** page, add the necessary information and then completion, select **Next**.
 
 4.  **Identification**: Enter information in the fields for the Variable name and description.
 
 5.  **Site**: In the Select Sites section, put a check mark in the box next to a site name \(if available\).
 
-    Using the icons under the list allows you to select all ![](../../../../msi-console/image/variable-select-all-sites.png) or deselect all sites ![](../../../../msi-console/image/variable-deselect-sites.png).
+    Using the icons under the list allows you to select all \[Omitted image "variable-select-all-sites.png"\] Alt text: or deselect all sites \[Omitted image "variable-deselect-sites.png"\] Alt text:.
 
 6.  **Variable**: Select from the list of available Variables.
 

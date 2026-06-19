@@ -2,6 +2,7 @@
 title: Modify Script Includes for milestone icons in Strategic Planning
 description: Modify the Script Includes for milestone icons in the roadmap and portfolio plan to customize the icons displayed in the Roadmap tab in the workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/modify-script-includes-for-milestone-icons-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -29,7 +30,7 @@ Role required: admin
 
     In the **getMilestoneMetadata** method, update the return value to the required icon.
 
-    For example, if you want to display the Circle exclamation icon \(![Circle exclamation outline icon.](../../spw-roadmap/images/circle-exclamation-outline.png)\) for key event milestone, update the return value to `'circle-exclamation-outline'` for the key\_event milestone.
+    For example, if you want to display the Circle exclamation icon \(\[Omitted image "circle-exclamation-outline.png"\] Alt text: Circle exclamation outline icon.\) for key event milestone, update the return value to `'circle-exclamation-outline'` for the key\_event milestone.
 
     The default icons are as follows:
 
@@ -38,10 +39,10 @@ Role required: admin
     -   important\_date: `'calendar-clock-fill'`
     -   key\_milestone: `'diamond-fill'`
     -   deadline: `'star-fill'`
-    ![Milestone types in Strategic Planning.](../../spw-roadmap/images/milestone-icon-types-spw.png)
+    \[Omitted image "milestone-icon-types-spw.png"\] Alt text: Milestone types in Strategic Planning.
 
 4.  Select **Update**.
 
 
-**Parent Topic:**[Prioritization display settings in Strategic Planning](../concept/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
+**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
 

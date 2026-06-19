@@ -2,6 +2,7 @@
 title: Components installed with Document Template integration with AdobeSign
 description: Several types of components are installed with activation of the Document Template Integration with AdobeSign \[sn\_dt\_adobesign\] plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-adodoc.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -49,5 +50,5 @@ None
 
 |Table|Description|
 |-----|-----------|
-|Document temoplate Adobe Sign groups \[sn\_dt\_adobesign\_group\]|Stores Adobe Sign groups. For more information, see [Create adobe sign groups](../task/create-adobe-groups.md)|
+|Document temoplate Adobe Sign groups \[sn\_dt\_adobesign\_group\]|Stores Adobe Sign groups. For more information, see [Create adobe sign groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-adobe-groups.md)|
 

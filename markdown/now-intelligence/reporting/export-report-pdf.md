@@ -2,6 +2,7 @@
 title: Export a report to PDF
 description: Export a report to PDF to use it outside of your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/export-report-pdf.html
 release: australia
 product: Reporting
 classification: reporting
@@ -23,9 +24,9 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select the Core UI report you want to export.
 
-2.  From the More actions menu ![](../../par-for-workspace/image/icon-paw-more-actions.png), select **Export**.
+2.  From the More actions menu \[Omitted image "icon-paw-more-actions.png"\], select **Export**.
 
-    ![Export option in More actions menu](../../par-for-workspace/image/paw-vd-export.png)
+    \[Omitted image "paw-vd-export.png"\] Alt text: Export option in More actions menu
 
 3.  In the File to export section, configure the following information.
 
@@ -43,7 +44,7 @@ File type
 
 </td><td>
 
-Export data visualizations in one of their supported formats. \(See [Supported export formats for different data visualization](../../par-for-workspace/task/export-visualization-vd.md#table_jlh_tr2_3fc).\) Select **Embedded PNG** or **Embedded LIST** to embed the exported file in the email body instead of sending it as an attached file or ZIP. You can edit the email around the image.
+Export data visualizations in one of their supported formats. \(See [Supported export formats for different data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-visualization-vd.md).\) Select **Embedded PNG** or **Embedded LIST** to embed the exported file in the email body instead of sending it as an attached file or ZIP. You can edit the email around the image.
 
 </td></tr><tr><td>
 
@@ -74,5 +75,5 @@ Choose Portrait or Landscape. Not available when exporting to Microsoft PowerPoi
 
 When the export is complete, you see either a download link or a message that the export will be delivered to the recipient.
 
-**Parent Topic:**[Distribute reports](../concept/c_DistributeReports.md)
+**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_DistributeReports.md)
 

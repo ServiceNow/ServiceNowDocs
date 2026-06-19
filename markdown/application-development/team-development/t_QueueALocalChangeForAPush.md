@@ -2,6 +2,7 @@
 title: Queue a local change for a push
 description: Application developers can queue a local change for a push to ensure the changes are available to other developers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_QueueALocalChangeForAPush.html
 release: australia
 product: Team Development
 classification: team-development
@@ -27,7 +28,7 @@ Role required: none
 
     For example, filter the list to show only the changes associated with a particular application.
 
-    ![Queue changes application](../image/QueueChangesApplication.png)
+    \[Omitted image "QueueChangesApplication.png"\] Alt text: Queue changes application
 
 3.  Click **Queue All For Push**.
 
@@ -35,7 +36,7 @@ Role required: none
 
     This step is a recommended best practice.
 
-<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d66986e118">
+<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d62729e118">
 
 **To remove changes from the queue**
 
@@ -43,7 +44,7 @@ Role required: none
 
 Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list.
 
-</td></tr><tr><td id="d66986e136">
+</td></tr><tr><td id="d62729e136">
 
 **To remove changes from the queue and choose to ignore them instead**
 
@@ -52,7 +53,7 @@ Select the check boxes beside the rows and select **Do Not Push** from the Actio
 Select the check boxes beside the rows and select **Ignore This Change** from the Actions choice list.
 
 </td></tr></tbody>
-</table>    ![Ready to push](../image/ReadytoPush.png)
+</table>    \[Omitted image "ReadytoPush.png"\] Alt text: Ready to push
 
     **Note:** For the Local Changes list, click **Reset Filter** to remove any filter conditions you added and see all the local changes that have not been queued or ignored.
 

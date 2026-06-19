@@ -2,6 +2,7 @@
 title: Resolve the failure to send contract documents for signature \(starting with Contract Management Pro 1.2.1\)
 description: Update signatory details in an external contract document in Contract Management Pro when there is a failure in sending the document for signature due to a mismatch between the signatory information in the contract request and the contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-sync-doc-user.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -37,7 +38,7 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
 8.  Select **Sync document**.
 
-    ![Sync document button in a contract request](../image/cmpro-sync-doc.png "Sync document")
+    \[Omitted image "cmpro-sync-doc.png"\] Alt text: Sync document button in a contract request
 
     A new contract document revision is created with the updated signatory information.
 
@@ -50,5 +51,5 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 11. Select **Send for signature** on the confirmation message.
 
 
-**Parent Topic:**[Updating and synchronizing signatories](cncore-update-sync-signatories.md)
+**Parent Topic:**[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md)
 

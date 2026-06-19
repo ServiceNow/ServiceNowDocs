@@ -2,6 +2,7 @@
 title: TCP data input configuration fields
 description: Description of the fields on the TCP data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-tcp-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -70,7 +71,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, Create an service instance and add CIs to it. Set the status of the new service instance to Operational.
 
 </td></tr></tbody>
 </table>The following fields show read-only information:
@@ -291,5 +292,5 @@ The line break character separating the raw log lines.Splitting values must be s
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](../concept/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

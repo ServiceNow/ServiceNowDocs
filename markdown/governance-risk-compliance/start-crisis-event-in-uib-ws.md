@@ -2,11 +2,12 @@
 title: Start a crisis event
 description: Report a crisis event in the BCM Configurable Workspace. A crisis event is any significant disruption that threatens business operations. The BCM Configurable Workspace enables you to create crisis records, classify severity levels, set priorities, assign response teams, and document initial actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/start-crisis-event-in-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Start a crisis event
@@ -29,11 +30,11 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     **Note:** For a crisis event, the event type is **Actual**.
 
-    For more information on the fields, see [Create Crisis Event form](../reference/create-crisis-event-ref-form.md).
+    For more information on the fields, see [Create Crisis Event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-crisis-event-ref-form.md).
 
     A crisis event is created in the **Pending** state as shown in the example.
 
-    ![Details of the crisis event.](../image/crisis-event-pending-state.png)
+    \[Omitted image "crisis-event-pending-state.png"\] Alt text: Details of the crisis event.
 
     The state and details of the crisis event are displayed in the tabs:
 
@@ -58,8 +59,8 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
     The crisis event is saved in the **Pending** state and it is displayed in the Crisis events list view of the record.
 
 
--   **[Create Crisis Event form](../reference/create-crisis-event-ref-form.md)**  
+-   **[Create Crisis Event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-crisis-event-ref-form.md)**  
 Use the Create Crisis Event form in BCM UIB Workspace to add details about a crisis event.
 
-**Parent Topic:**[Structured workflows for crisis events](../concept/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

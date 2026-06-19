@@ -2,6 +2,7 @@
 title: Amazon EC2 instance request from the Service Catalog
 description: Users can request the provisioning and deletion of virtual computers \(Linux or Windows\) in the Amazon EC2 virtual computing environment through the ServiceNow Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/c\_AmazonEC2InstanceRequest.html
 release: australia
 product: Self-service
 classification: self-service
@@ -19,10 +20,10 @@ The Amazon EC2 offering requires the purchase and activation of ServiceNow Orche
 
 **Note:** This feature has been deprecated and is no longer supported or available for new activation. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
--   **[Request an instance](../task/t_RequestAnInstance.md)**  
+-   **[Request an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/t_RequestAnInstance.md)**  
 Request the provisioning of a new Amazon EC2 instance through the service catalog.
--   **[Terminate an instance](../task/t_TerminateAnInstance.md)**  
+-   **[Terminate an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/t_TerminateAnInstance.md)**  
 Shut down an Amazon EC2 instance through the service catalog.
 
-**Parent Topic:**[Service catalog requests](../topic/p_ServiceCatalogRequests.md)
+**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 

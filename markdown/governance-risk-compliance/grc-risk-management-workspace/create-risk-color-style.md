@@ -2,6 +2,7 @@
 title: Create risk color styles
 description: Create a library of risk color styles to use for different assessment types and matrixes. A risk color style is a combination of a background color and a text color. The color styles help maintain consistency when you configure risk assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-color-style.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -110,5 +111,5 @@ Color that appears as the text color.
 
 The risk color style is ready to use.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

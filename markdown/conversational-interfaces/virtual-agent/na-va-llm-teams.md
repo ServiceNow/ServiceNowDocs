@@ -2,11 +2,12 @@
 title: Using Now Assist in Virtual Agent conversations with Microsoft Teams
 description: The Now Assist provides you with the large language model \(LLM\)-based conversational experience during your conversations with a Now Virtual Agent bot or a Self-configured bot that is integrated with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/na-va-llm-teams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -21,9 +22,9 @@ To enable a bot with LLM-based capabilities and experience the LLM-based convers
 
 You can integrate Virtual Agent with Microsoft Teams either with your Now Virtual Agent bot or the Self-configured bot.
 
-To integrate Microsoft Teams with the Now Virtual Agent, see [Integrate Virtual Agent with Microsoft Teams](../task/va-integ-msteams.md).
+To integrate Microsoft Teams with the Now Virtual Agent, see [Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams.md).
 
-To integrate Microsoft Teams with a Self-configured bot, see [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](va-integ-teams-self-configured-bot.md).
+To integrate Microsoft Teams with a Self-configured bot, see [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md).
 
 ## Conversational experience with Now Assist in Microsoft Teams
 
@@ -33,15 +34,15 @@ The Now Assist provides a new AI Search experience in channels with the followin
 
     The first message in a conversation with Now Assist displays a legal disclaimer indicating that it is an AI-generated message followed by the Now Assist greeting message and LLM-enabled topics.
 
-    ![LLM-based conversation with Now Assist displaying the legal disclaimer and greeting.](../images/msteams-llm-legal-disclaimer.png "Legal Disclaimer")
+    \[Omitted image "msteams-llm-legal-disclaimer.png"\] Alt text: LLM-based conversation with Now Assist displaying the legal disclaimer and greeting.
 
-    ![LLM-based conversation with Now Assist displaying the list of LLM topics.](../images/msteams-llm-topics.png "LLM Topics")
+    \[Omitted image "msteams-llm-topics.png"\] Alt text: LLM-based conversation with Now Assist displaying the list of LLM topics.
 
 -   **Pagination and Search**
 
     You can navigate through multiple pages of choices and search for specific items or users, using the Search bar.
 
-    ![LLM based conversation with Now Assist displaying the Search and Pagination features.](../images/msteams-llm-search-pagination.png "Pagination and Search")
+    \[Omitted image "msteams-llm-search-pagination.png"\] Alt text: LLM based conversation with Now Assist displaying the Search and Pagination features.
 
     When you select an LLM-enabled topic, the Search bar is displayed along with the available choices related to the selected topic and the **More options** button. You can either search for an item or user using the Search bar or pick an item or user from the available choices. If you want to look for more available options, you can navigate to the next page using the **More Options** button. If you would like to go back to the previously listed choices, you can use the **Previous Options** button.
 
@@ -60,15 +61,15 @@ The Now Assist provides a new AI Search experience in channels with the followin
 
     Use this feature to ask questions and get answers from Now Assist through LLM in a card format. The response is displayed with a sparkle image, the legal disclaimer, and the citation about the question asked.
 
-    ![Now Assist displaying the question and answer card with the sparkle image, legal disclaimer, and the description and citation for the question asked.](../images/msteams-llm-QnA-card.png "Generative AI QnA Card")
+    \[Omitted image "msteams-llm-QnA-card.png"\] Alt text: Now Assist displaying the question and answer card with the sparkle image, legal disclaimer, and the description and citation for the question asked.
 
 
 For more information about enabling LLM for your bots integrated with Microsoft Teams, see .
 
--   **[Integrating Now Assist in Virtual Agent with Microsoft Copilot](ms-copilot-na-va.md)**  
+-   **[Integrating Now Assist in Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)**  
 Integrate your Now Assist Virtual Agent with Microsoft Copilot using Conversational Integration with Microsoft Teams to leverage the generative AI conversational experience.
--   **[Synthesized response in Microsoft Teams conversations](msteams-synthesized-response.md)**  
+-   **[Synthesized response in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/msteams-synthesized-response.md)**  
 Conversational Integration with Microsoft Teams is designed to provide new and rich user experience with synthesized responses using Large Language Models \(LLM\) based results summarized in a single response for users to see information in a conversational way, and avoid browsing through carousels.
 
-**Parent Topic:**[Conversational Integration with Microsoft Teams](teams-conv-integration.md)
+**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

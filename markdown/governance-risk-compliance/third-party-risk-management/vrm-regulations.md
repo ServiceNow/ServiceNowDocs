@@ -2,6 +2,7 @@
 title: Regulations that affect third-party risk
 description: When implementing your third-party risk management program, you must carefully consider the regulations. Applicable regulations vary depending on your industry, geographic location, jurisdiction, and nature of your operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/vrm-regulations.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

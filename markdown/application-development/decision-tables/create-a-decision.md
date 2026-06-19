@@ -2,6 +2,7 @@
 title: Create a decision table to resolve complex decisions
 description: Create a decision table to help you resolve a complex decision that depends on multiple factors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/decision-tables/create-a-decision.html
 release: australia
 product: Decision Tables
 classification: decision-tables
@@ -23,7 +24,7 @@ Role required: decision\_table\_admin
 
 1.  Create or select a table to use for your decision answer records.
 
-    You will associate an answer record to each decision on your decision table in later steps. This answer record is returned when that decision is reached based on your inputs. For information on creating a table, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
+    You will associate an answer record to each decision on your decision table in later steps. This answer record is returned when that decision is reached based on your inputs. For information on creating a table, see Create a table.
 
 2.  Ensure that one field on the table that you use for your decision records has been set as the display value.
 
@@ -136,7 +137,7 @@ Display
 
 </td><td>
 
-Check box to indicates that this decision input is the [display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_DisplayValues.md) for reference fields.
+Check box to indicates that this decision input is the display value for reference fields.
 
 </td></tr><tr><td>
 
@@ -146,7 +147,7 @@ Choice
 
 Select a method for users to see a list of suggested values:-   List menu without -- None --
 -   List menu with -- None --
--   [Suggestion field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddingASuggestionField.md)
+-   Suggestion field type
 If a choice is used, define your choices in the Choices related list at the bottom of the form.
 
 </td></tr><tr><td>
@@ -184,7 +185,7 @@ Default value for this input.
 
 ## What to do next
 
-With Workflow Studio, you can add your decision to the **Make a decision** flow logic. For more information about the **Make a decision** flow logic, see [Make a decision flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-make-decision.md).
+With Workflow Studio, you can add your decision to the **Make a decision** flow logic. For more information about the **Make a decision** flow logic, see .
 
-**Parent Topic:**[Decision tables in the classic environment](../concept/decision-tables-classic-ui.md)
+**Parent Topic:**[Decision tables in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-tables-classic-ui.md)
 

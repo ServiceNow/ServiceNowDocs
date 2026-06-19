@@ -2,7 +2,10 @@
 title: Configuring advanced resource filters for Dispatcher Workspace
 description: Advanced resource filtering allows administrators and dispatchers to create and save their own filters for Dispatcher Workspace. This lets dispatchers personalize their view in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-advanced-filter.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -15,7 +18,7 @@ Advanced resource filtering allows administrators and dispatchers to create and 
 
 ## Default resource filtering
 
-By default, Dispatcher Workspace allows dispatchers to filter what they see with the contextual side panel. Dispatchers can filter by agent, contractor, or skill. For more information, see [Filter Dispatcher Workspace views](../task/filter-workspace-views.md).
+By default, Dispatcher Workspace allows dispatchers to filter what they see with the contextual side panel. Dispatchers can filter by agent, contractor, or skill. For more information, see [Filter Dispatcher Workspace views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/filter-workspace-views.md).
 
 ## Advanced resource filtering
 
@@ -50,7 +53,7 @@ The four database views contain a list of tables. By default, dispatchers can cr
 
 If you want dispatchers to be able to use more values to create advanced filters with, then you must indicate what values in the tables are available.
 
-The tables are different if you have assignment groups or territories configured. For a list of the tables that contain the values administrators must enable for dispatchers to use to create resource filters, see [Advanced resource filter tables](../reference/advanced-filter-tables.md)
+The tables are different if you have assignment groups or territories configured. For a list of the tables that contain the values administrators must enable for dispatchers to use to create resource filters, see [Advanced resource filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-filter-tables.md)
 
 ## Extending tables
 
@@ -58,29 +61,29 @@ The values in any tables related to users or crews that are part of your deploym
 
 **Warning:** You must be a professional developer and a service now administrator to set this up.
 
-For more information, see [Working with database views for reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md).
+For more information, see .
 
 ## Resource filter configuration
 
-Administrators can create advanced resource filters for dispatchers using the values available in the [Advanced resource filter tables](../reference/advanced-filter-tables.md). When an administrator creates an advanced resource filter, the resource filter is available for all dispatchers to use in Dispatcher Workspace.
+Administrators can create advanced resource filters for dispatchers using the values available in the [Advanced resource filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-filter-tables.md). When an administrator creates an advanced resource filter, the resource filter is available for all dispatchers to use in Dispatcher Workspace.
 
 ## Configuration overview
 
 The steps for setting up advanced resource filters are:
 
-1.  [Properties installed with Field Service Management](../../planning-and-policy/reference/r_PropInstallWFieldServMgmnt.md)
+1.  [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md)
 
     Enable the advanced resource filters system property \(sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.show\_advanced\_resource\_filter\).
 
-2.  \(Optional\) [Configure resource filter options](../task/configure-filter-options.md)
+2.  \(Optional\) [Configure resource filter options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configure-filter-options.md)
 
     Select the values that are available for dispatchers to create advanced resource filters with.
 
-3.  \(Optional\) [Create an advanced resource filter for dispatchers](../task/create-resource-filter.md)
+3.  \(Optional\) [Create an advanced resource filter for dispatchers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/create-resource-filter.md)
 
     Create an advanced resource filter for all dispatchers to use in Dispatcher Workspace.
 
-4.  [Advanced Filtering in Dispatcher Workspace](advance-filter-dispatch.md)
+4.  [Advanced Filtering in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/advance-filter-dispatch.md)
 
     Dispatchers can create and apply their own advanced filters.
 

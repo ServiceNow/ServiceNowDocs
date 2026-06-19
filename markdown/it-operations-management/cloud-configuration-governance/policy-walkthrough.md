@@ -2,6 +2,7 @@
 title: Cloud policy example
 description: A base system cloud policy, Lease End ServiceNow, uses the on Lease end trigger that fires when a virtual resource is near the lease end date. If the conditions in the policy rule are met, the policy engine sends a notification to the owner of the resource and performs operations on the resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/policy-walkthrough.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -39,13 +40,13 @@ You can change any base-system policy by modifying settings or making the policy
 
 3.  Notice that the trigger is **on Lease end**, which means that the policy is triggered when the lease for the resource is near expiration.
 
-    ![on Lease End trigger](../image/policy-lease-end-date.png)
+    \[Omitted image "policy-lease-end-date.png"\] Alt text: on Lease End trigger
 
 4.  Sort the Rules related list by **Order of Execution**.
 
     The rule with the lowest number runs first.
 
-    ![Rules for the policy](../image/policy-lease-end-date-rules.png)
+    \[Omitted image "policy-lease-end-date-rules.png"\] Alt text: Rules for the policy
 
     Notice that a notification rule runs first, followed by the Stop and Deprovision operations on the resource.
 
@@ -53,13 +54,13 @@ You can change any base-system policy by modifying settings or making the policy
 
 6.  Notice that the rule specifies a condition: If it is one day before the end date, return `true`.
 
-    ![Condition in the policy rule](../image/policy-lease-end-date-condition.png)
+    \[Omitted image "policy-lease-end-date-condition.png"\] Alt text: Condition in the policy rule
 
 7.  In the Policy Rule Actions related list, click the \(empty\) **Name** of the action.
 
 8.  On the Update Action pop-up window, enter an **Action Name** \(the value is required\), notice the value of the **Notification** \(you will use it in the next step\), and then close the pop-up window.
 
-    ![Sending a notification](../image/policy-lease-end-action.png)
+    \[Omitted image "policy-lease-end-action.png"\] Alt text: Sending a notification
 
 9.  Review the notification message other settings:
 
@@ -67,7 +68,7 @@ You can change any base-system policy by modifying settings or making the policy
 
     2.  Search for and open the notification that is specified in the action by entering the filter text `*Upcoming lease end` for **Name**:
 
-        ![Searching for the notification](../image/policy-lease-end-notification-search.png)
+        \[Omitted image "policy-lease-end-notification-search.png"\] Alt text: Searching for the notification
 
     3.  Click **Upcoming lease end** to open the notification form.
 
@@ -75,11 +76,11 @@ You can change any base-system policy by modifying settings or making the policy
 
         **Note:** You base all notifications for Cloud Provisioning and Governance on this table.
 
-        ![Scheduled Operations table](../image/policy-lease-end-notification-table.png)
+        \[Omitted image "policy-lease-end-notification-table.png"\] Alt text: Scheduled Operations table
 
     4.  On the **When to send** tab, notice the conditions that apply:
 
-        ![When to send the notification](../image/policy-lease-end-notification-send.png)
+        \[Omitted image "policy-lease-end-notification-send.png"\] Alt text: When to send the notification
 
         |Condition|Description|
         |---------|-----------|
@@ -95,17 +96,17 @@ You can change any base-system policy by modifying settings or making the policy
 
 10. In the Cloud Admin Portal, open the Lease End ServiceNow policy again, and then open the **Stop on lease end** rule.
 
-    ![Stop on lease end rule](../image/policy-lease-end-stop-rule.png)
+    \[Omitted image "policy-lease-end-stop-rule.png"\] Alt text: Stop on lease end rule
 
     The rule has two actions — one action to send a notification and the other action to run the Stop operation on the virtual resource.
 
 11. Click the \(empty\) **Action Name** of the action for the Stop operation.
 
-    ![Open the Stop operation action](../image/policy-lease-end-action-stop.png)
+    \[Omitted image "policy-lease-end-action-stop.png"\] Alt text: Open the Stop operation action
 
 12. On the Update Action pop-up window, notice the settings:
 
-    ![Stop operation](../image/policy-lease-end-action-operation.png)
+    \[Omitted image "policy-lease-end-action-operation.png"\] Alt text: Stop operation
 
     |Field|Description|
     |-----|-----------|
@@ -118,7 +119,7 @@ You can change any base-system policy by modifying settings or making the policy
 
 ## What to do next
 
-This example uses the settings available through the form configuration. To see example scripts that you could use in addition, see [Create a policy action script](create-policy-script.md).
+This example uses the settings available through the form configuration. To see example scripts that you could use in addition, see [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-policy-script.md).
 
-**Parent Topic:**[Policies for Cloud Provisioning](../concept/cloud-policy.md)
+**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)
 

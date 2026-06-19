@@ -2,7 +2,10 @@
 title: Customer data
 description: Customer data for Customer Service Management \(CSM\) consists of information about people who aren’t part of your organization, including accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-data.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -52,5 +55,5 @@ Implemented new administrative roles that provide fine-grained access control ac
 -   Updated "Before you begin" sections across all Customer Data Foundation configuration topics with role prerequisites.
 -   Enhanced security compliance through role-based access segregation.
 
-For detailed information on the granular admin roles in CDF and their associated privileges, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
+For detailed information on the granular admin roles in CDF and their associated privileges, see .
 

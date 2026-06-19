@@ -2,7 +2,10 @@
 title: Select a playbook activity view
 description: The activity view determines how the stages and activities are displayed in the playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/playbook-select-activity-view.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Users with the system administrator role can select the [playbook activity view](../concept/csm-playbook-layout.md#section_oq5_3yw_5pb) in the playbook component configuration in UI Builder.
+Users with the system administrator role can select the [playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-layout.md) in the playbook component configuration in UI Builder.
 
 ## Procedure
 

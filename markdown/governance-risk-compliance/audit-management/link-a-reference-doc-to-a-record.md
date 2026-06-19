@@ -2,6 +2,7 @@
 title: Link a reference cloud file
 description: Link a reference cloud file that is already associated to other GRC records.​ You can link shareable files​ only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/link-a-reference-doc-to-a-record.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -23,7 +24,7 @@ Role required: sn\_audit.admin, sn\_audit.manager, sn\_grc\_workspace.user
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the tasks icon \(![Tasks icon](../image/new-task-icon.png)\).
+2.  Select the tasks icon \(\[Omitted image "new-task-icon.png"\] Alt text: Tasks icon\).
 
 3.  Create a new audit engagement or navigate to an existing engagement and go to the **Cloud files** tab.
 
@@ -43,6 +44,6 @@ Role required: sn\_audit.admin, sn\_audit.manager, sn\_grc\_workspace.user
 
     The reference cloud file that is already associated to other GRC records is now linked. After the file is connected to Microsoft, the auditor or engagement lead gets read or write access based on the defined access permissions.
 
-    For information on File access permissions, see [Create Cloud File Access on engagements and audit tasks](../concept/document-access-configuration.md).
+    For information on File access permissions, see [Create Cloud File Access on engagements and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/document-access-configuration.md).
 
 

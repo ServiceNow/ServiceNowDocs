@@ -2,6 +2,7 @@
 title: Add members to the group
 description: Ensure accurate assignment of members to their respective groups to streamline account requests, approvals, provisioning, and certification. Grant necessary permissions through proper group assignment to prevent unauthorized access and maintain security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/add-member-group.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -27,7 +28,7 @@ Role required: ServiceNow AI Platform admin
 
 3.  Assign a member to each ITOM group by selecting an entry.
 
-    To know more about ITOM Cloud Account Management user roles, see [Components installed with Cloud Account Management](../reference/components-installed-with-cam.md).
+    To know more about ITOM Cloud Account Management user roles, see [Components installed with Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/components-installed-with-cam.md).
 
 4.  Under the **Roles** section, select **Edit**.
 

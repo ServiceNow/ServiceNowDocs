@@ -2,6 +2,7 @@
 title: Overdue changes
 description: Work on the overdue changes of your team
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/overdue-change-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  On the My team dashboard, tap on **Overdue changes** on the applet.
 
-2.  If you want to reduce the number of records on the screen, see [Filter records](filter-records-agent-mobile.md) to search for records that match specific search criteria.
+2.  If you want to reduce the number of records on the screen, see [Filter records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/filter-records-agent-mobile.md) to search for records that match specific search criteria.
 
 3.  On the **Overdue changes** screen with the list of incidents, swipe left on an incident to open the menu.
 

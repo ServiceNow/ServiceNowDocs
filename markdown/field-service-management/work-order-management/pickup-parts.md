@@ -2,6 +2,7 @@
 title: Track part pickups on the Field Service Contractor Portal
 description: You can see which parts are ready to be picked up by viewing a consolidated list of assets grouped by stockroom and waiting to be picked up. After picking up the part, you can close the transfer order line task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/pickup-parts.html
 release: australia
 product: Work Order Management
 classification: work-order-management

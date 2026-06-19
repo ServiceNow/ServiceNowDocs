@@ -2,7 +2,10 @@
 title: Create a decision tree for troubleshooting a failed transaction
 description: Help Anita create a decision tree that agents can use to troubleshoot a failed credit card transaction. After this step, the decision tree can be configured in Decision Tree Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-decision-tree-credit-card-transaction-failure.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 1.  Navigate to **All** &gt; **Guided Decisions** &gt; **Decision Trees**.
 
-    ![Navigation to decision tree in the navigation side bar.](../image/nav-decision-tree.png)
+    \[Omitted image "nav-decision-tree.png"\] Alt text: Navigation to decision tree in the navigation side bar.
 
 2.  Select **New** on the Decision Trees list.
 
@@ -36,7 +39,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
     |Question font size|Enter the desired font size for the questions in the guided decision tree. Example: `14`|
     |Show a dismiss button|Select this check box if you want the Dismiss button to appear on recommendation for the agent.|
 
-    ![The new record form to fill in the decision tree details.](../image/create-decision-tree-example.png)
+    \[Omitted image "create-decision-tree-example.png"\] Alt text: The new record form to fill in the decision tree details.
 
 4.  Select **Submit**.
 
@@ -45,5 +48,5 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 ## What to do next
 
-[Configure the start node](ask-card-holder-and-transaction-details.md) to ask for the user, card, and transaction details and determine if any amount was debited.
+[Configure the start node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ask-card-holder-and-transaction-details.md) to ask for the user, card, and transaction details and determine if any amount was debited.
 

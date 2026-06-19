@@ -2,6 +2,7 @@
 title: Indicator library recommendations
 description: Analytics managers can view information about potentially problematic indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/ind-library-recommendations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -15,11 +16,11 @@ Analytics managers can view information about potentially problematic indicators
 
 ## Indicator recommendation panel
 
-![Indicator library showing recommendation panel.](../image/ind-lib-recommendation-panel.png)
+\[Omitted image "ind-lib-recommendation-panel.png"\] Alt text: Indicator library showing recommendation panel.
 
 Visible to roles: pa\_admin and higher.
 
-The book icon ![](../image/book-icon.png) expands and hides the indicator recommendation panel. It also shows how many recommendation tiles there are. Selecting a tile filters the library on the matching indicators.
+The book icon \[Omitted image "book-icon.png"\] expands and hides the indicator recommendation panel. It also shows how many recommendation tiles there are. Selecting a tile filters the library on the matching indicators.
 
 The following types of recommendations are currently available:
 
@@ -27,5 +28,5 @@ The following types of recommendations are currently available:
 |----|-----------|
 |n Unused indicators|Number of indicators with inactive jobs, empty sources, or no recent views.|
 
-**Parent Topic:**[Platform Analytics library recommendations](../concept/pa-library-recommendations.md)
+**Parent Topic:**[Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-library-recommendations.md)
 

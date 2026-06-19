@@ -2,6 +2,7 @@
 title: Manage automation requests
 description: Manage all automation requests from one location from the Request Board in the Automation Center Kanban board.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/manage-req-board.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Manage all automation requests from one location from the Request Board in the A
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
-**Note:** Kanban board does not display any automation request from demo data. If you want to view the demo data in Kanban board, then you must run the fix script. For more information, see [Run fix script to view demo data on Kanban board](run-fix-scripts.md).
+**Note:** Kanban board does not display any automation request from demo data. If you want to view the demo data in Kanban board, then you must run the fix script. For more information, see [Run fix script to view demo data on Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/run-fix-scripts.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
     The Automation Center dashboard is displayed.
 
-2.  Select the Kanban board icon ![kanban board icon](../images/icon-kanban.png).
+2.  Select the Kanban board icon \[Omitted image "icon-kanban.png"\] Alt text: kanban board icon.
 
     The Kanban board is displayed with the Request Board in view. You can view all the available automation requests with their states.
 
@@ -35,7 +36,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
     Also, anyone with the sn\_ac.automation\_admin or sn\_ac.automation\_technical\_user role can reorder different states \(columns\) on the Request Board to set the lifecycle or process flow direction according to their requirement by editing the vtb\_board table.
 
-    ![Request board](../images/req-board.png)
+    \[Omitted image "req-board.png"\] Alt text: Request board
 
 3.  You can do multiple actions on the Request Board.
 
@@ -49,7 +50,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
         -   **Department**: Select one or more departments to view automation requests that belong to the selected departments.
     -   Sort the automation requests for ease of use.
 
-        ![Request board sort](../images/kanban-sort.png)
+        \[Omitted image "kanban-sort.png"\] Alt text: Request board sort
 
         Select **Name**, **Priority**, or **Score** from the **Sort by** field.
 
@@ -67,21 +68,21 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
     -   Create a task from the automation request card.
 
-        1.  Select the task icon \(![Task icon](../images/icon-task.png)\) from the automation task card.
+        1.  Select the task icon \(\[Omitted image "icon-task.png"\] Alt text: Task icon\) from the automation task card.
 
             The Contextual Task Board for the automation request is displayed.
 
         2.  Select the **Add Task** icon.
 
-            The **Create New Automation Task** form is displayed. For more information, see [Automation task form](../reference/automation-task-form.md).
+            The **Create New Automation Task** form is displayed. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-task-form.md).
 
             Verify that the associated automation request is either in the **Planned** or **In Progress** state.
 
     -   View if an automation request has a task assigned to it. If yes, then how many tasks have been completed.
     -   View if an automation request has automations associated with it.
 
--   **[Run fix script to view demo data on Kanban board](run-fix-scripts.md)**  
+-   **[Run fix script to view demo data on Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/run-fix-scripts.md)**  
 To view automation requests from the demo data in your Kanban board, you must run the fix script.
 
-**Parent Topic:**[Automation Center Kanban board](../concept/kanban.md)
+**Parent Topic:**[Automation Center Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/kanban.md)
 

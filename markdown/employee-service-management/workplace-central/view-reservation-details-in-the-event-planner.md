@@ -2,6 +2,7 @@
 title: Track reservations using the Event planner
 description: As a reservation planner and a reservation viewer, the Event planner enables you to monitor the reservations that are requested in your workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/view-reservation-details-in-the-event-planner.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -44,7 +45,7 @@ You can view all the reservations that are currently active and also the reserva
 
     The Workplace Analytics dashboard opens.
 
-2.  On the left pane, select the **Event planner** icon \(![Event planner icon.](../images/event-planner-icon.png)\).
+2.  On the left pane, select the **Event planner** icon \(\[Omitted image "event-planner-icon.png"\] Alt text: Event planner icon.\).
 
     The Event Planner dashboard opens.
 
@@ -66,18 +67,18 @@ You can view all the reservations that are currently active and also the reserva
 
 5.  To edit the columns of the list view, do the following:
 
-    1.  Select the List actions icon \(![List actions.](../images/evnt-plnnr-listactions-icon.png)\).
+    1.  Select the List actions icon \(\[Omitted image "evnt-plnnr-listactions-icon.png"\] Alt text: List actions.\).
 
     2.  Select **Edit columns**.
 
     3.  After you add the columns that you want to view, select **OK**.
 
-6.  To refresh the list, select the Refresh icon \(![Refresh the list.](../images/evnt-plnnr-refreshiocn.png)\).
+6.  To refresh the list, select the Refresh icon \(\[Omitted image "evnt-plnnr-refreshiocn.png"\] Alt text: Refresh the list.\).
 
-7.  To apply a filter on the list, select the Show filter icon \(![Show filter option.](../images/evnt-plnnr-filterlist-icon.png)\).
+7.  To apply a filter on the list, select the Show filter icon \(\[Omitted image "evnt-plnnr-filterlist-icon.png"\] Alt text: Show filter option.\).
 
 8.  To view all the reservations created in the workplace in a schedule view, select **Open schedule view**.
 
 
-**Parent Topic:**[Working with Event planner](../concept/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-event-planner.md)
 

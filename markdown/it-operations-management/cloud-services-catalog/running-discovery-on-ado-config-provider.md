@@ -2,11 +2,12 @@
 title: Run Discovery on Azure DevOps config provider
 description: Add the Azure DevOps config provider and run Discovery to discover all projects, pipelines, and pipeline variables in an organization by using the Cloud Services Catalog application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/running-discovery-on-ado-config-provider.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Integrating Azure DevOps and CI-CD tool, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -25,6 +26,8 @@ Role required: none
 
 2.  Add the **API key** credential that you created with the Personal Access Token \(PAT\) credential.
 
+    For more information on setting PAT privileges, see [Azure DevOps permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/ado-permissions.md).
+
 3.  Prefix the Personal Access Token \(PAT\) credential with straight quotes \(':'\) and encode to a base64 format.
 
 4.  Prefix the encoded format string with a Basic string.
@@ -35,7 +38,7 @@ Role required: none
 
 6.  Navigate to **Manage** &gt; **Config Management** and add a config provider.
 
-    ![Edit Azure Devops Config provider form.](../image/edit-ado-config-provider.png)
+    \[Omitted image "edit-ado-config-provider.png"\] Alt text: Edit Azure Devops Config provider form.
 
     **Important:**
 
@@ -43,16 +46,16 @@ Role required: none
 
 7.  Discover all projects, pipelines, and pipeline variables in an organization by running Discovery.
 
-    ![Azure DevOps Config provider for DevOps project.](../image/ado-config-provider.png)
+    \[Omitted image "ado-config-provider.png"\] Alt text: Azure DevOps Config provider for DevOps project.
 
 8.  Find the Config installables under the selected Azure DevOps project.
 
-    ![Details of ADO Config provider Installables.](../image/cfg-installables.png)
+    \[Omitted image "cfg-installables.png"\] Alt text: Details of ADO Config provider Installables.
 
 
 ## Result
 
 You can now order an Azure DevOps catalog item from the Azure DevOps catalog order form on Employee Center.
 
-**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](../concept/integrating-azure-devops-and-cicd-pipeline.md)
+**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
 

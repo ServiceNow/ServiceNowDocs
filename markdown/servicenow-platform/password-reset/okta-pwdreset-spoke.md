@@ -2,6 +2,7 @@
 title: Set up Password Reset integration with Okta
 description: Enables end users to reset or change their Okta passwords using Password Reset and Okta spoke.Customize the default credential store records and password reset processes to integrate Password Reset with Okta.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/okta-pwdreset-spoke.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -17,7 +18,7 @@ Enables end users to reset or change their Okta passwords using Password Reset a
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -31,7 +32,7 @@ Password Reset integration with Okta 1.1.2 is the latest version.
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Okta spoke v 4.1.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/okta-v2-spoke.md)
+-   Okta spoke v 4.1.3
 -   ServiceNow IntegrationHub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
@@ -77,7 +78,7 @@ Customize the default credential store records and password reset processes to i
 
 3.  Customize the default record as per your requirement.
 
-    For more information, see [Configure the connection to a credential store for the Password Reset processes](../task/t_CreateACredentialStore.md).
+    For more information, see [Configure the connection to a credential store for the Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateACredentialStore.md).
 
 4.  Navigate to **Password Reset** &gt; **Processes**.
 
@@ -85,6 +86,6 @@ Customize the default credential store records and password reset processes to i
 
     **Note:** The **User must reset password** check box isn't supported in this integration. That is, you can't enforce users to reset their password upon first login after they reset password using the auto-generated password.
 
-    For more information, see [Configure your Password Reset process](../task/t_CreateAPasswordResetProcess.md).
+    For more information, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
 
 

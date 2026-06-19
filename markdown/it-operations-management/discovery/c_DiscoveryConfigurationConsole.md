@@ -2,6 +2,7 @@
 title: Discovery Configuration Console
 description: Use the Discovery Configuration Console to manage what kind of configuration items \(CIs\) and CI information you want to discover.Use the Discovery Configuration Console to determine which devices and applications to exclude from discovery.You can toggle on and off Applications and Devices using the Discovery Configuration Console. Some are listed out-of-the-box, but you may also customize which specific Applications and Devices you want to Discover according to your specific requirements.Use the Discovery configuration console to filter the software you add to the CMDB.Use the Discovery Configuration Console to configure several settings to find and manage all of your installed software.Create credentials to access a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryConfigurationConsole.html
 release: australia
 product: Discovery
 classification: discovery
@@ -40,7 +41,7 @@ The console is divided into these sections. Use the toggle buttons to enable var
 -   **Software Filter**: UNIX and Windows applications that include or exclude keywords that you enter
 -   **File-based Discovery**: software files by path, folder, and extensions to scan or ignore
 
-![The Discovery Configuration Console](../image/disco-config-console.png)
+\[Omitted image "disco-config-console.png"\] Alt text: The Discovery Configuration Console
 
 ## Device Discovery
 
@@ -61,7 +62,7 @@ Potential impacts include the following:
 
 Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases running on that server are explored, even if they are configured to be discovered. The instance cannot identify the applications running on a server until it first discovers that server.
 
-When you exclude an item from the **Applications** section, the system disables the relevant process classifier. The probes that belong to this classifier, including the [Horizontal Pattern probe](../reference/r-HorizontalPatternProbe.md) that launches patterns, never launch.
+When you exclude an item from the **Applications** section, the system disables the relevant process classifier. The probes that belong to this classifier, including the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r-HorizontalPatternProbe.md) that launches patterns, never launch.
 
 ## Software Discovery
 
@@ -255,7 +256,7 @@ Role required: discovery\_admin or admin
 
 1.  Navigate to **All** &gt; **Discovery** &gt; **Discovery Definition** &gt; **Configuration Console**.
 
-2.  Select the toggle to enable [File-based Discovery](file-based-discovery.md).
+2.  Select the toggle to enable [File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery.md).
 
     This feature is turned off by default.
 
@@ -271,7 +272,7 @@ Role required: discovery\_admin or admin
 
         Indicates which folders to scan for Windows and UNIX. Default values are listed. You can also add additional paths to scan.
 
-        ![folders to scan](../image/FoldersToScan.png)
+        \[Omitted image "FoldersToScan.png"\] Alt text: folders to scan
 
         **Note:** If you want File-based Discovery to scan the entire Windows C: drive \(not just the default folders\), update the windows Folders to Scan target path to C:/ in the Discovery Configuration Console.
 
@@ -279,23 +280,23 @@ Role required: discovery\_admin or admin
 
         Indicates which folders and child folders/files to ignore from within the list of Windows or UNIX folders that you want to scan. For example, if you have specified “C:\\Program Files” as a folder to scan, you could additionally specify “C:\\Program Files\\Temp” as an ignore folder. When File-based Discovery scans a Windows server, it scans all files and sub folders under C:\\Program Files, excluding C:\\Program Files\\Temp.
 
-        ![folders to ignore](../image/FoldersToIgnore.png)
+        \[Omitted image "FoldersToIgnore.png"\] Alt text: folders to ignore
 
     -   **Extensions Exclusion List**
 
         Indicate extensions \(.txt, .war, .exe, and so on\) that you want to ignore for Windows.
 
-        ![extensions exclusion list](../image/ExtensionsBlacklist.png)
+        \[Omitted image "ExtensionsBlacklist.png"\] Alt text: extensions exclusion list
 
     -   **Extensions Wildcards**
 
         Indicate extensions \(.cert, .crt, and so on\) that you always want to scan for Windows. This enables you to scan for extensions such as \*.cert where the file name itself might not be known ahead of time. You should be able to find certificates \(.cert or .crt\) and java keystore files \(.jks\) in this way.
 
-        ![extensions wildcards](../image/ExtensionsWildcards.png)
+        \[Omitted image "ExtensionsWildcards.png"\] Alt text: extensions wildcards
 
 6.  Configure **Advanced Windows** settings.
 
-    ![Windows advanced section of Discovery Configuration Console](../image/FBDConfigConsoleWindows.png)
+    \[Omitted image "FBDConfigConsoleWindows.png"\] Alt text: Windows advanced section of Discovery Configuration Console
 
     -   **Sleep Time**
 
@@ -319,7 +320,7 @@ Role required: discovery\_admin or admin
 
 7.  Configure **Advanced UNIX** settings.
 
-    ![UNIX advanced section of Discovery Configuration Console](../image/FBDConfigConsoleUnixAdv.png)
+    \[Omitted image "FBDConfigConsoleUnixAdv.png"\] Alt text: UNIX advanced section of Discovery Configuration Console
 
     -   **Skip Hidden Folders**
 
@@ -335,7 +336,7 @@ Role required: discovery\_admin or admin
 
 8.  Configure **Common** settings for either Windows or UNIX.
 
-    ![common section of Discovery Configuration Console](../image/FBDConfigConsoleCommon.png)
+    \[Omitted image "FBDConfigConsoleCommon.png"\] Alt text: common section of Discovery Configuration Console
 
     -   **Maximum Files**
 
@@ -348,7 +349,7 @@ Role required: discovery\_admin or admin
 
 ### Result
 
-File-based Discovery is now enabled, configured, and ready for you to run. See [Run File-based Discovery](../task/run-file-based-discovery.md#) for more information.
+File-based Discovery is now enabled, configured, and ready for you to run. See [Run File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-file-based-discovery.md) for more information.
 
 ## Create Basic Auth credentials
 

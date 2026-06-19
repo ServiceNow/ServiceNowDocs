@@ -2,6 +2,7 @@
 title: Create a record from incident
 description: Create a problem, change, or request record from an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_PromoteAnIncident.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -27,43 +28,43 @@ When the cause of an incident is an error or widespread issue, a problem is gene
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Open the incident record.
 
 3.  Right-click on the header form and on the context menu, select the appropriate option.
 
-<table id="choicetable_s5g_lgw_xy"><thead><tr><th align="left" id="d77291e108">
+<table id="choicetable_s5g_lgw_xy"><thead><tr><th align="left" id="d77644e108">
 
 Task record
 
-</th><th align="left" id="d77291e111">
+</th><th align="left" id="d77644e111">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d77291e117">
+</th></tr></thead><tbody><tr><td id="d77644e117">
 
 **Problem**
 
 </td><td>
 
-Create Problem. For more information, refer to [Create a problem](../../problem-management/task/create-a-problem-v2.md).**Note:** Use the property **List of attributes \(comma-separated\) that will be copied from the incident to create a new problem** \(**com.snc.problem.create\_from\_incident.attributes**\) to specify fields on the Incident form. The values of these fields are copied to the respective fields on the Problem form. The property is available for customers starting the Madrid release.
+Create Problem. For more information, refer to [Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/create-a-problem-v2.md).**Note:** Use the property **List of attributes \(comma-separated\) that will be copied from the incident to create a new problem** \(**com.snc.problem.create\_from\_incident.attributes**\) to specify fields on the Incident form. The values of these fields are copied to the respective fields on the Problem form. The property is available for customers starting the Madrid release.
 
-</td></tr><tr><td id="d77291e142">
+</td></tr><tr><td id="d77644e142">
 
 **Request**
 
 </td><td>
 
-Create Request. For more information, refer to [Create a request from an incident](create-request-from-incident.md).
+Create Request. For more information, refer to [Create a request from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-request-from-incident.md).
 
-</td></tr><tr><td id="d77291e158">
+</td></tr><tr><td id="d77644e158">
 
 **Change**
 
 </td><td>
 
-Create Normal, Standard, or Emergency Change. For more information, refer to [Create a change request](../../change-management/task/t_CreateAChange.md).**Note:**
+Create Normal, Standard, or Emergency Change. For more information, refer to [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateAChange.md).**Note:**
 
 The **Create Normal Change**, **Create Standard Change**, and **Create Emergency Change** scripts copy these fields from the Incident form:
 

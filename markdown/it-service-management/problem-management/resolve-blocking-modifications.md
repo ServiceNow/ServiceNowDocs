@@ -2,6 +2,7 @@
 title: Resolve blocking modifications
 description: Blocking modifications that are detected in your instance are not compatible with the problem state model and you must resolve them before you activate the Problem Management Best Practice — Madrid — State Model plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/resolve-blocking-modifications.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -30,5 +31,5 @@ Role required: admin
 
 ## What to do next
 
-[Review warning modifications](review-warning-modifications.md).
+[Review warning modifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/review-warning-modifications.md).
 

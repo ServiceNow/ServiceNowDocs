@@ -2,6 +2,7 @@
 title: Restore save as you go functionality
 description: Restore save as you go functionality that was disabled in the Washington DC release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/restore-save-as-you-go-functionality.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -42,5 +43,5 @@ An earlier version of the save as you go feature was released and withdrawn from
 
 Open Workflow Studio and verify that save as you go is working as expected.
 
-**Parent Topic:**[Save as you go flows](../concept/save-as-you-go-flows.md)
+**Parent Topic:**[Save as you go flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/save-as-you-go-flows.md)
 

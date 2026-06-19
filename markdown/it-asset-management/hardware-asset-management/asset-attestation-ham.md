@@ -2,13 +2,14 @@
 title: Asset Attestation
 description: Use Asset Attestation to maintain accurate details of all the serialized hardware assets that are assigned to your employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/asset-attestation-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 ---
 
 # Asset Attestation
@@ -21,20 +22,20 @@ As an Asset manager or an Inventory administrator, you can create a one-time ass
 
 ## Asset Attestation benefits
 
--   Step-by-step guidance on creating asset attestations and schedules using the playbook. For more details, see [Playbook for asset attestation](playbook-asset-attestation-ham.md).
+-   Step-by-step guidance on creating asset attestations and schedules using the playbook. For more details, see [Playbook for asset attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/playbook-asset-attestation-ham.md).
 
     **Important:** Starting with Hardware Asset Management version 13.0.0, the playbook is the default option for the creation of asset attestations and schedules. However, if you set the value of the **sn\_itam\_common.enable\_asset\_attestation\_playbook** system property to **false** with the asset or inventory\_admin role, you will be shown forms to complete the attestation process instead of the playbook.
 
--   Ability to perform remote asset audits for the required hardware assets irrespective of their locations. For more details, see [Create an asset attestation in the Inventory view](../task/create-attestation-req-ham.md).
--   Option to set a schedule for creating recurring asset attestations. For more details, see [Create an asset attestation schedule](../task/create-attest-schedule-ham.md).
+-   Ability to perform remote asset audits for the required hardware assets irrespective of their locations. For more details, see [Create an asset attestation in the Inventory view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-attestation-req-ham.md).
+-   Option to set a schedule for creating recurring asset attestations. For more details, see [Create an asset attestation schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-attest-schedule-ham.md).
 -   Intuitive and user-friendly Now Mobile app and Employee Center portal that enable the employees to confirm the ownership of the assigned hardware assets and also raise issues related to their hardware and consumable assets. For more details, see the following:
-    -   [Confirm the assigned assets using the Now Mobile app](../task/confirm-ham-assets-now-mobile.md)
-    -   [Confirm the assigned assets on the Employee Center portal](../task/confirm-assets-on-emp-center.md)
-    -   [Raise issue related to your asset on the Employee Center portal](../task/report-asset-issue-attestation.md)
+    -   [Confirm the assigned assets using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/confirm-ham-assets-now-mobile.md)
+    -   [Confirm the assigned assets on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/confirm-assets-on-emp-center.md)
+    -   [Raise issue related to your asset on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/report-asset-issue-attestation.md)
 -   Comprehensive reports that enable Asset managers and Inventory administrators to monitor the status of asset attestations and remediation tasks, and take necessary actions. For more details, see the following:
-    -   [View open asset attestations in the Hardware Asset Workspace](../task/view-open-asset-attest-ham.md)
-    -   [View open remediation tasks for asset attestations in the Hardware Asset Workspace](../task/view-open-remediations-ham.md)
-    -   [View attestations for a serialized hardware asset](../task/view-attestations-for-asset-ham.md)
+    -   [View open asset attestations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-open-asset-attest-ham.md)
+    -   [View open remediation tasks for asset attestations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-open-remediations-ham.md)
+    -   [View attestations for a serialized hardware asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-attestations-for-asset-ham.md)
 
 ## Requirements and limitations
 
@@ -43,7 +44,7 @@ Asset Attestation has a dependency on the following ServiceNow Store application
 -   Employee Center \(sn\_ex\_sp\)
 -   Employee Profile \(sn\_employee\)
 
-For more details, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md) and [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-portal.md).
+For more details, see  and .
 
 If you plan to audit your assets by using Asset Attestation, then consider the following points:
 
@@ -73,5 +74,5 @@ If you plan to audit your assets by using Asset Attestation, then consider the f
 
 2.  The **ITAM Common- Asset attestation** daily job runs daily to check through all the asset attestation schedules. This daily job then creates asset attestations based on the frequency specified in the attestation schedule.
 
-For more details on Asset Attestation, see [Audit your hardware assets by using Asset Attestation](audit-hardware-assets-attestation.md).
+For more details on Asset Attestation, see [Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md).
 

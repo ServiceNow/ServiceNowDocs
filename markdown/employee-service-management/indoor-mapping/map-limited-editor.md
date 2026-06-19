@@ -2,6 +2,7 @@
 title: Configure role-based access in Indoor Mapping
 description: Configure Indoor Mapping to update role-based access for map administrators, map editors and the map editor limited roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/map-limited-editor.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -64,9 +65,9 @@ Role required: map admin
     **Note:** If a user with map editor limited role deletes a building, the building is only made inactive in the database and is not actually deleted from the database.
 
 
-**Parent Topic:**[Configure Indoor Mapping](../concept/configure-ind-mapping.md)
+**Parent Topic:**[Configure Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/configure-ind-mapping.md)
 
-**Previous topic:**[Configure your map instance data](configure-map-data.md)
+**Previous topic:**[Configure your map instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/configure-map-data.md)
 
-**Next topic:**[Indoor Mapping properties](indoor-mapping-properties.md)
+**Next topic:**[Indoor Mapping properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-properties.md)
 

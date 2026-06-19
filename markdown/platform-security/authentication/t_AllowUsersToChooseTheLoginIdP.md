@@ -2,6 +2,7 @@
 title: Enable users to choose the identity provider for login
 description: SSO federation support enables users to choose which IdP to log in to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_AllowUsersToChooseTheLoginIdP.html
 release: australia
 product: Authentication
 classification: authentication
@@ -33,11 +34,11 @@ SSO federations aggregate metadata from multiple IdPs and service providers, inc
 
 4.  Click **Submit**.
 
-5.  After you configure a federation, enable the Refresh SSO Metadata scheduled job, and then [configure the users who you want to access the federation IdPs](../../authentication/concept/idpauthflow.md). Use the sys\_ID of the federation record you just created.
+5.  After you configure a federation, enable the Refresh SSO Metadata scheduled job, and then [configure the users who you want to access the federation IdPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/idpauthflow.md). Use the sys\_ID of the federation record you just created.
 
     Use the sys\_ID of the federation record that you just created.
 
-    ![SSO Federations](../image/SSOFederation.png)
+    \[Omitted image "SSOFederation.png"\] Alt text: SSO Federations
 
     The instance populates the SSO properties table with the IdP information. When users who are configured to use the federation log in, they are redirected to the discovery service URL you configured. Then they select the IdP and provide the necessary credentials. Alternatively, you can send users a URL with the IdP in the parameter.
 

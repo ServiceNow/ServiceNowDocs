@@ -2,6 +2,7 @@
 title: Quick start tests for Problem Management
 description: Validate that Problem Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/quick-start-tests-pm.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -294,10 +295,10 @@ Verify Problem task state management of a general type Problem.
 Madrid
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference section for Problem Management](../../../product/problem-management/concept/reference-section-for-problem-management.md)
+</table>**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

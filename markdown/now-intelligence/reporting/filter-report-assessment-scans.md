@@ -2,6 +2,7 @@
 title: Filter report assessment scans
 description: Especially on large instances, the ACL Assessment for Reports can take a long time. To reduce the assessment time, you can use system properties to filter the reports that the assessment applies to.Use these properties to configure the ACL Assessment for Reports scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/filter-report-assessment-scans.html
 release: australia
 product: Reporting
 classification: reporting
@@ -30,16 +31,16 @@ You can work with all the properties in the ACL Assessment for Reports except tw
 
 2.  Filter the list to show only the properties that contain report\_acl in the name.
 
-    ![System properties list header with Name filter option *report_acl entered](../image/rep-acl-sys-props.png)
+    \[Omitted image "rep-acl-sys-props.png"\] Alt text: System properties list header with Name filter option \*report\_acl entered
 
 3.  Filter out the properties **sn\_report\_acl.com.par\_report\_acl\_assessment.report\_view.sys\_ids** and **sn\_report\_acl.glide.script.block.client.globals**.
 
-    ![Filtered list of report ACL system properties](../image/rep-acl-sys-props-filtered.png)
+    \[Omitted image "rep-acl-sys-props-filtered.png"\] Alt text: Filtered list of report ACL system properties
 
 4.  Use the remaining properties to configure the assessment scan.
 
 
-**Parent Topic:**[ACL Assessment for Reports](../concept/report-view-acl-dashboard.md)
+**Parent Topic:**[ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-acl-dashboard.md)
 
 ## Report assessment system properties
 
@@ -61,7 +62,7 @@ sn\_report\_acl.run\_scan\_with\_queryNoDomain
 
 </td><td>
 
-Only valid on domain-separated instances. Defines whether the app considers the user domain when you run the query. If false, the security\_admin gets results only for the domains they have visibility to. A global security\_admin can set the property to true and retrieve the results for all the domains on the instance. The individual security\_admins can then view the collected results for their own domains. For more information, see [Report assessment and domain separation](../reference/report-acl-dashboard-domain-sep.md).If you set this property to true on an instance that is not domain separated, then the assessment runs as a normal query.
+Only valid on domain-separated instances. Defines whether the app considers the user domain when you run the query. If false, the security\_admin gets results only for the domains they have visibility to. A global security\_admin can set the property to true and retrieve the results for all the domains on the instance. The individual security\_admins can then view the collected results for their own domains. For more information, see [Report assessment and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-acl-dashboard-domain-sep.md).If you set this property to true on an instance that is not domain separated, then the assessment runs as a normal query.
 
  If you delete this property, the default value in the code is false.
 

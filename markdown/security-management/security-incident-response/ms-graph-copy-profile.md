@@ -2,6 +2,7 @@
 title: Optional: Copy a Microsoft Graph Security API profile
 description: Copy an existing profile and its associated settings instead of creating new profiles. If you are creating multiple profiles, and you want to reuse the settings of an existing profile, you may prefer to copy profiles to save time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-copy-profile.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

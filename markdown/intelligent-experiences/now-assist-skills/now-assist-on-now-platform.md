@@ -2,6 +2,7 @@
 title: Now Assist skills in the Platform workflow
 description: Most Now Assist generative AI products include skills in the Platform workflow, such as product navigation. Some Now Assist products include skills for the conversational user and platform experience, as well as knowledge article recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.html
 release: australia
 product: Now Assist Skills
 classification: now-assist-skills

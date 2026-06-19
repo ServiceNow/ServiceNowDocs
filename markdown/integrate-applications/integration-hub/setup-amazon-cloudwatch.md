@@ -2,6 +2,7 @@
 title: Set up the Amazon CloudWatch spoke
 description: Integrate the ServiceNow instance and Amazon CloudWatch by using the AWS credentials to authenticate ServiceNow requests.Create a credential record for the Amazon CloudWatch Specify whether record is for a host, instance, server, custom application, or account:account. The Amazon CloudWatch Spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-amazon-cloudwatch.html
 release: australia
 product: Integration Hub
 classification: integration-hub

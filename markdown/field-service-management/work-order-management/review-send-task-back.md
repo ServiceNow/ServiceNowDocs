@@ -2,6 +2,7 @@
 title: Review a task
 description: As a reviewer, review the details of a work order task. If the details are sufficient, you can close the task. If more information is required, send the task back to the agent so they can add the requested details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/review-send-task-back.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -19,7 +20,7 @@ As a reviewer, review the details of a work order task. If the details are suffi
 
 Role required: sn\_fsm\_quality.wm\_quality\_agent
 
-Ensure that the Field Service Quality Management plugin is active. For more information, see [Activate Field Service Quality Management](activate-quality-mgmt.md).
+Ensure that the Field Service Quality Management plugin is active. For more information, see [Activate Field Service Quality Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/activate-quality-mgmt.md).
 
 ## About this task
 
@@ -40,5 +41,5 @@ When an agent closes a task, the task will be sent to you for review. You can cl
 
 If the task details are sufficient, the task is closed.
 
-If more information was required, the task is sent back to the agent and the substate is set to Needs information. The agent will receive a notification that the selected work order task needs more information. In the Mobile Agent® application, the agent can update the work order task with the requested details and send the task back to the reviewer. For more information, see [Respond to a reviewed work order task](../concept/close-wo-wot-mobile.md#).
+If more information was required, the task is sent back to the agent and the substate is set to Needs information. The agent will receive a notification that the selected work order task needs more information. In the Mobile Agent® application, the agent can update the work order task with the requested details and send the task back to the reviewer. For more information, see [Respond to a reviewed work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
 

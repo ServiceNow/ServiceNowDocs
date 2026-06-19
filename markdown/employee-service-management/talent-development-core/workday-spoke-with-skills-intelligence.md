@@ -2,6 +2,7 @@
 title: Workday spoke integration in Skills Foundation
 description: Import skills from Workday Learning and Workday HR spoke into your Skills Foundation application using the skills import flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/workday-spoke-with-skills-intelligence.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

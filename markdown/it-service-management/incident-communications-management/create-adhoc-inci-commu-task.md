@@ -2,6 +2,7 @@
 title: Create adhoc incident communication task from Incident Communications Management
 description: Create an adhoc incident communication task while you are working on the communication plan. The communication task helps you to specify the mode of communication \(channel\) and the frequency at which the communication must be carried out.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/create-adhoc-inci-commu-task.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -23,7 +24,7 @@ Role required: major\_incident\_manager, ia\_admin, or admin
 
 1.  Navigate to **All** &gt; **Incident Communications Management** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Open the incident communication plan for which you want to create the communication task.
 
@@ -35,8 +36,8 @@ Role required: major\_incident\_manager, ia\_admin, or admin
     |---|---|
     |Number|Unique incident communication task ID, in the ICTxxxxxxxx format.|
     |Incident Communication Plan|\[Read-only field\] Incident communication plan for which you create the task.|
-    |Source incident|\[Read-only field\] Lookup icon ![Look up icon](../../itsm-workspace/image/look-up-icon.png) to select the incident on which you want the plan to be attached.|
-    |Type|Lookup icon ![Look up icon](../../itsm-workspace/image/look-up-icon.png) to select the type of task such as internal communication.|
+    |Source incident|\[Read-only field\] Lookup icon \[Omitted image "look-up-icon.png"\] Alt text: Look up icon to select the incident on which you want the plan to be attached.|
+    |Type|Lookup icon \[Omitted image "look-up-icon.png"\] Alt text: Look up icon to select the type of task such as internal communication.|
     |Communication task definition|\[Read-only field\] Unique name of the communication task definition for which you are creating the task.|
     |State|The state of the communication plan. The available values are **Pending**, **Open**, **In Progress**, **Complete**, and **Skipped**.|
     |Assignment group|The assignment group, if any, for that incident communication task.|
@@ -53,7 +54,7 @@ Role required: major\_incident\_manager, ia\_admin, or admin
 
 ## What to do next
 
-Create adhoc incident communication channel. For more information on how to define a communication channel, refer [Define a communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/create-comm-channel-definition.md).
+Create adhoc incident communication channel. For more information on how to define a communication channel, refer Define a communication channel.
 
-**Parent Topic:**[Managing Incident Communications](../concept/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

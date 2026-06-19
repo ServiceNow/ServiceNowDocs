@@ -2,6 +2,7 @@
 title: Install the HR Success Dashboard indicators
 description: Install the HR Success Dashboard indicators application to get performance and service insights for your organization. The application installs related ServiceNow Store applications and plugins in case those are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/install-success-dashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

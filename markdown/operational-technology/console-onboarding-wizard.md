@@ -2,11 +2,14 @@
 title: Use the Discovery Console for OT interactive configuration wizard
 description: The Discovery Console for OT provides an interactive configuration wizard that steps you through setting up your Console, Sensor, Collector, assets, queries, and sites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/console-onboarding-wizard.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-24"
 reading_time_minutes: 1
-breadcrumb: [Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Use the Discovery Console for OT interactive configuration wizard
@@ -23,23 +26,25 @@ After you have installed and setup the Discovery Console for OT, the Discovery S
 
 ## Procedure
 
-1.  On the Console Home page, select the wand at the top of the page \(Tools\).
+1.  On the Console **Home** page, select the wand at the top of the page \(Tools\).
 
-2.  When displayed, select the **Onboarding** tool.
+2.  When the name displays, select the tool.
 
-    ![Onboarding tab](../images/onboarding-tab.png)
+    \[Omitted image "new-config-wizard-tool.png"\] Alt text: Configuration Wizard
 
 3.  The configuration wizard opens in the Console.
 
-    ![Configuration wizard](../images/wizard-intro-screen.png)![]()
+    \[Omitted image "wizard-intro-screen.png"\] Alt text: Configuration wizard panel
 
-4.  You can collapse the wizard to the right side of the Console screen by selecting the ![Collapse](../images/move.png) icon in the top, right corner of your screen.
+    \[Omitted image "new-config-wizard-tool-window.png"\] Alt text: Configuration Wizard panel
+
+4.  You can collapse the wizard to the right side of the Console screen by selecting the \[Omitted image "move.png"\] Alt text: Collapse icon in the top, right corner of your screen.
 
     Move the wizard to the right \(collapse\) to improve Console visibility.
 
-    To expand and center the wizard on the screen, select the ![expand](../images/widen.png) icon.
+    To expand and center the wizard on the screen, select the \[Omitted image "widen.png"\] Alt text: expand icon.
 
-    ![Wizard collapsed](../images/wizard-collapsed-to-right.png)
+    \[Omitted image "new-config-wiz-folded.png"\] Alt text: Wizard collapsed
 
 5.  The wizard steps you through tasks such as configuring your Console, connecting the Sensor and Collector, creating a site, and creating Auto Queries.
 

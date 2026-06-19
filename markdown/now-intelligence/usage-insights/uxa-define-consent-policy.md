@@ -2,6 +2,7 @@
 title: Define consent policies according to country
 description: Define the tracking consent policies for users within different countries. You can either select the same tracking consent policy for all countries, use the allocated default values, or define different consent policies for individual countries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-define-consent-policy.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -21,7 +22,7 @@ Role required: analytics\_admin
 
 ## About this task
 
-This task details how to set the various tracking consent policy options you have in the Usage Insights Consent Policies page. You have an option to return the policies to the default values. By default, all countries are set to No Consent Required. For a detailed explanation about the types of consent policies available, see [Types of tracking consent policies in Usage Insights](../reference/uxa-tracking-types.md).
+This task details how to set the various tracking consent policy options you have in the Usage Insights Consent Policies page. You have an option to return the policies to the default values. By default, all countries are set to No Consent Required. For a detailed explanation about the types of consent policies available, see [Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-tracking-types.md).
 
 ## Procedure
 
@@ -33,15 +34,15 @@ This task details how to set the various tracking consent policy options you hav
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d67566e99">
+<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d65756e99">
 
 User consent policy options
 
-</th><th align="left" id="d67566e102">
+</th><th align="left" id="d65756e102">
 
  
 
-</th></tr></thead><tbody><tr><td id="d67566e107">
+</th></tr></thead><tbody><tr><td id="d65756e107">
 
 **Action**
 
@@ -49,7 +50,7 @@ User consent policy options
 
 Procedure
 
-</td></tr><tr><td id="d67566e116">
+</td></tr><tr><td id="d65756e116">
 
 **Apply the same tracking consent policy to all countries.
 
@@ -62,7 +63,7 @@ Procedure
 3.  Select the confirmation check box and then select **Apply**.
 
 
-</td></tr><tr><td id="d67566e143">
+</td></tr><tr><td id="d65756e143">
 
 **Return to the default settings.
 
@@ -76,5 +77,5 @@ Procedure
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Types of tracking consent policies in Usage Insights](../reference/uxa-tracking-types.md)
+**Parent Topic:**[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-tracking-types.md)
 

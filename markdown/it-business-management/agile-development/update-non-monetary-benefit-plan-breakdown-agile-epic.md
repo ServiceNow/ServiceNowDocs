@@ -2,6 +2,7 @@
 title: Update a non-monetary benefit plan breakdown for an epic
 description: Update a non-monetary benefit plan breakdown record that specifies the estimated and actual benefits, at a granular level, for specific fiscal periods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/update-non-monetary-benefit-plan-breakdown-agile-epic.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -25,13 +26,13 @@ Role required: scrum\_master, scrum\_product\_owner, or scrum\_admin
 
 2.  Open the required epic.
 
-3.  Select **View** &gt; **Benefit** from the Additional actions menu \(![Hamburger icon](../image/hamburger-icon.png)\).
+3.  Select **View** &gt; **Benefit** from the Additional actions menu \(\[Omitted image "hamburger-icon.png"\] Alt text: Hamburger icon\).
 
 4.  Click the Non-monetary Benefit Plans related list.
 
 5.  Open the required non-monetary benefit plan.
 
-6.  In the Non-monetary Benefit Plan Breakdowns related list, click the information icon \(![information icon.](../../planning-and-policy/image/informationicon.png)\) for a non-monetary benefit plan breakdown.
+6.  In the Non-monetary Benefit Plan Breakdowns related list, click the information icon \(\[Omitted image "informationicon.png"\] Alt text: information icon.\) for a non-monetary benefit plan breakdown.
 
 7.  Click **Open Record**.
 
@@ -44,12 +45,12 @@ Role required: scrum\_master, scrum\_product\_owner, or scrum\_admin
     |**Measure**|Measure type specified in the benefit plan.|
     |**Actual benefit**|Actual benefit that is incurred from the project or demand.|
     |**Benefit plan**|Benefit plan to which the benefit plan breakdown belongs.|
-    |**Fiscal period**|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).|
+    |**Fiscal period**|Fiscals generated at the period level. For information on periods, see fiscal calendars.|
     |**Entered benefit**|Benefit in entered value.|
     |**Variance**|The difference between the estimated and actual benefit.|
 
 9.  Click **Update**.
 
 
-**Parent Topic:**[Create a non-monetary benefit plan for an epic](create-non-monetary-benefit-plan-agile-epic.md)
+**Parent Topic:**[Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-non-monetary-benefit-plan-agile-epic.md)
 

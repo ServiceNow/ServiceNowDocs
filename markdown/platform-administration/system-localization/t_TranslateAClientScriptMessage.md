@@ -2,6 +2,7 @@
 title: Translate a client script message
 description: Translate the messages used by client scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_TranslateAClientScriptMessage.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -17,7 +18,7 @@ Translate the messages used by client scripts.
 
 ## Before you begin
 
-Create a client script that contains messages. For information about creating client scripts, see [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-scripts.md).
+Create a client script that contains messages. For information about creating client scripts, see Client scripts.
 
 Role required: admin
 
@@ -25,7 +26,7 @@ Role required: admin
 
 Client scripts include a multi-line Messages field, which is for message strings that the client script can use as a key to look up a localized message alternative from the Message \[sys\_ui\_message\] table. Each message key in a client script is on a separate line in the Messages field. The instance looks for a localized message string anytime the client script makes a getMessage\(msg\) call where the msg string matches a key in the Messages field in the client script.
 
-![A client script form with message key strings in the Messages field and getMessage calls in the script field.](../image/client-script-messages.png)
+\[Omitted image "client-script-messages.png"\] Alt text: A client script form with message key strings in the Messages field and getMessage calls in the script field.
 
 For example, if you add the string `Please populate the Reason` field to the Messages field in the client script, then the instance will look for a localized string from the Message `[sys_ui_message]` table any time the client script calls:
 
@@ -47,10 +48,10 @@ For example, if you add the string `Please populate the Reason` field to the Mes
     |Language|The language the message is translated into.|
     |Message|The translated text that users see.|
 
-    ![A message form with a message key translated into Spanish.](../image/translated-message.png)
+    \[Omitted image "translated-message.png"\] Alt text: A message form with a message key translated into Spanish.
 
 4.  Select **Submit**.
 
-    A new record is added to the Message `[sys_ui_message]` table for the localized message key string. For more information about this table, see [Message table](../reference/r_MessageTable.md).
+    A new record is added to the Message `[sys_ui_message]` table for the localized message key string. For more information about this table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
 
 

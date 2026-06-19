@@ -2,6 +2,7 @@
 title: Duplicate a goal or target
 description: Create a copy of an existing goal or target to align goals with your organizational strategic priorities. If the goal or target you want to create is similar to an existing one, duplicating the existing record saves your time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-a-copy-of-a-goal-or-target.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -35,14 +36,14 @@ Only the owner or contributors of the goal can edit the goal.
 
 3.  From the Goals page, select **Goals and targets** and then select **List** or **Hierarchy** view.
 
-4.  Select the Row context menu icon \(![Row context menu icon.](../../alignment-planner-workspace/images/more-actions.png)\) of the goal or target that you want to copy and then select **Duplicate**.
+4.  Select the Row context menu icon \(\[Omitted image "more-actions.png"\] Alt text: Row context menu icon.\) of the goal or target that you want to copy and then select **Duplicate**.
 
-    -   For a goal, the Goal modal opens with all details of the goal you copied from. You can update the details for the goal as needed and then select **Save** to save the goal or select **Save and add a target** to save the goal and add a target for the goal. For a description of the field values, see [Goal form](../reference/goal-form-egm.md).
-    -   For a target, the New target window opens with all details of the target you copied from. You can update the details for the target as needed and then select **Save** to save the target or select **Save and add a new target** to save the target and add another target for the goal. For a description of the field values, see [Target form](../reference/target-form-egm.md).
+    -   For a goal, the Goal modal opens with all details of the goal you copied from. You can update the details for the goal as needed and then select **Save** to save the goal or select **Save and add a target** to save the goal and add a target for the goal. For a description of the field values, see [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-form-egm.md).
+    -   For a target, the New target window opens with all details of the target you copied from. You can update the details for the target as needed and then select **Save** to save the target or select **Save and add a new target** to save the target and add another target for the goal. For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-form-egm.md).
     By default, the name is **Copy of ABC** where ABC is the name of the goal or target you copied from.
 
 
 ## What to do next
 
-Set more targets for the goals. For more information, see [Add targets for a goal in Strategic Planning](set-targets-for-goal-egm.md) or [Configuring target source for target automation](../concept/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md).
+Set more targets for the goals. For more information, see [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md) or [Configuring target source for target automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md).
 

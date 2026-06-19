@@ -2,6 +2,7 @@
 title: Activate teams and services in SRM
 description: Activate teams and services to be managed in the Service Reliability Management \(SRM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -67,9 +68,9 @@ On the **Activate teams and services** page, the following options appear:
 
 You can select the options to view the teams or services.
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Assign an administrator to Service Reliability Management](sr-assign-admins.md)
+**Previous topic:**[Assign an administrator to Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-assign-admins.md)
 
-**Next topic:**[Customize service approval settings in SRM](sr-add-approval-services.md)
+**Next topic:**[Customize service approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-services.md)
 

@@ -2,6 +2,7 @@
 title: Create a catalog request to reclaim enterprise assets
 description: Create a catalog request to efficiently reclaim enterprise assets when an employee leaves an organization or moves to a different role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-enterprise-catalog-request.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -110,8 +111,8 @@ Any instructions that you may want to mention.
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-    The enterprise asset reclamation request is created. Once the request is created, the enterprise\_asset\_technician role navigates to the Enterprise Asset Workspace to view the reclamation line and complete the tasks. For more details, see [Close an enterprise asset reclamation request](close-enteprise-reclamation-request.md).
+    The enterprise asset reclamation request is created. Once the request is created, the enterprise\_asset\_technician role navigates to the Enterprise Asset Workspace to view the reclamation line and complete the tasks. For more details, see [Close an enterprise asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/close-enteprise-reclamation-request.md).
 
 
-**Parent Topic:**[Enterprise asset reclamation](../concept/enterprise-asset-reclamation.md)
+**Parent Topic:**[Enterprise asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-asset-reclamation.md)
 

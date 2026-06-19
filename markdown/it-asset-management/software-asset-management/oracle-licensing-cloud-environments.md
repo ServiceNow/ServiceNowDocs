@@ -2,6 +2,7 @@
 title: Oracle licensing in cloud environments
 description: The Software Asset Management application supports licensing rules for Oracle Database and WebLogic Server \(Standard, Enterprise, and Suite Editions\) in cloud environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/oracle-licensing-cloud-environments.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [Software Asset Management publisher pack for Oracle, Supported soft
 
 The Software Asset Management application supports licensing rules for Oracle Database and WebLogic Server \(Standard, Enterprise, and Suite Editions\) in cloud environments.
 
-**Important:** The Software Asset Management application supports Bring Your Own License \(BYOL\) for Oracle Database and WebLogic Server across hybrid infrastructures. With BYOL support, you can track licenses for your Oracle Database and WebLogic Server in both on-premise and public cloud environments. For more information about Oracle BYOL support, see [Bring your own license or subscription to the public cloud](byol-concepts.md).
+**Important:** The Software Asset Management application supports Bring Your Own License \(BYOL\) for Oracle Database and WebLogic Server across hybrid infrastructures. With BYOL support, you can track licenses for your Oracle Database and WebLogic Server in both on-premise and public cloud environments. For more information about Oracle BYOL support, see [Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/byol-concepts.md).
 
 When you install or run an Oracle Database or WebLogic Server in the cloud, you can license it using either the Named User Plus or Per Processor license metric. In addition, the WebLogic Server licensing support covers the entire WebLogic product family that includes the Standard, Enterprise, and Suite editions. For more information, refer to this knowledge base article [KB2630167](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2630167).
 
@@ -42,5 +43,5 @@ If you enable hyper-threading on your Microsoft Azure virtual machine instance, 
 
 For more information on Oracle databases and WebLogic servers in Microsoft Azure, see [Accelerate your cloud adoption with Microsoft and Oracle](https://azure.microsoft.com/en-us/solutions/oracle/#documentation).
 
-**Parent Topic:**[Software Asset Management publisher pack for Oracle](oracle-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md)
 

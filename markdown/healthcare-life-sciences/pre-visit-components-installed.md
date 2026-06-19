@@ -2,6 +2,7 @@
 title: Components installed with Pre-Visit Management
 description: Several types of components are installed with installation of the Pre-Visit Management application, including tables, user roles, ServiceNow Store applications, scheduled jobs, and business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-components-installed.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 Demo data is available for this feature.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -81,7 +82,7 @@ sn\_previsit.agent\_connector
 
 Views, creates, and updates procedure request cases for all associated objects.
 
- You can combine this role with other roles for a user with the agent connector profile. For more information, see [Determining additional user profiles in Pre-Visit Management](../concept/pre-visit-connector-contributor.md).
+ You can combine this role with other roles for a user with the agent connector profile. For more information, see [Determining additional user profiles in Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-connector-contributor.md).
 
 </td><td>
 
@@ -108,7 +109,7 @@ sn\_previsit.contributor
 
 Creates procedure request cases for patients.
 
- You can combine this role with other roles for a user with the contributor profile. For more information, see [Determining additional user profiles in Pre-Visit Management](../concept/pre-visit-connector-contributor.md).
+ You can combine this role with other roles for a user with the contributor profile. For more information, see [Determining additional user profiles in Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-connector-contributor.md).
 
 </td><td>
 

@@ -2,7 +2,10 @@
 title: Integrating Apple Messages for Business with Customer Service Management
 description: Deliver a pre-integrated chat conversation experience with the Conversational Integration with Apple Messages for Business app for consumers and customer contacts. Integrate Apple Messages for Business by using the ServiceNow Conversational Integration with Apple Messages for Business application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/integrate-amb-with-csm.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -13,9 +16,9 @@ breadcrumb: [Integrating with consumer messaging apps, Integrate, Customer Servi
 
 Deliver a pre-integrated chat conversation experience with the Conversational Integration with Apple Messages for Business app for consumers and customer contacts. Integrate Apple Messages for Business by using the ServiceNow® Conversational Integration with Apple Messages for Business application.
 
-As an administrator, if you have configured the Conversational Integration with Apple Messages for Business application, then your customer contacts and consumers can initiate a Apple Messages for Business chat conversation with a virtual agent or live agent. An agent can accept a conversation initiated from a Apple Messages for Business chat conversation. For more information, see [Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integration-apple-mssg.md). Refer to the Apple [documentation](https://register.apple.com/resources/messages/messaging-documentation/) for more details about Apple Messages for Business.
+As an administrator, if you have configured the Conversational Integration with Apple Messages for Business application, then your customer contacts and consumers can initiate a Apple Messages for Business chat conversation with a virtual agent or live agent. An agent can accept a conversation initiated from a Apple Messages for Business chat conversation. For more information, see . Refer to the Apple [documentation](https://register.apple.com/resources/messages/messaging-documentation/) for more details about Apple Messages for Business.
 
-**Note:** As an administrator, you can also use any predefined Customer Service Virtual Agent conversations to capture information from customer contacts or consumers. For more information, see [Customer Service Virtual Agent conversations](csm-virtual-agent-chatbot.md).
+**Note:** As an administrator, you can also use any predefined Customer Service Virtual Agent conversations to capture information from customer contacts or consumers. For more information, see [Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-virtual-agent-chatbot.md).
 
 Key features of the integration include the following:
 

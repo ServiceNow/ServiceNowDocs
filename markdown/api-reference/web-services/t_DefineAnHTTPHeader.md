@@ -2,6 +2,7 @@
 title: Define a REST message HTTP header
 description: Define an HTTP header for a REST message or HTTP method to send that header with REST requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_DefineAnHTTPHeader.html
 release: australia
 product: Web Services
 classification: web-services
@@ -50,5 +51,5 @@ You can specify an HTTP header for a REST message, or for an HTTP method. Header
 8.  Click **Update**.
 
 
-**Parent Topic:**[Create a REST message](t_ConfiguringARESTMessage.md)
+**Parent Topic:**[Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md)
 

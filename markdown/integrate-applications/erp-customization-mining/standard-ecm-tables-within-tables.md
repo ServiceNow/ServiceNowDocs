@@ -2,6 +2,7 @@
 title: Standard ERP Semantic Mining fields within remote tables
 description: The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Semantic Mining contain fields from additional SAP tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/standard-ecm-tables-within-tables.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -17,7 +18,7 @@ The standard ERP \(Enterprise Resource Planning\) remote tables available for us
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-The standard remote tables contain the following additional fields. For details on the standard tables, see [Standard remote tables for ERP Semantic Mining](erp-ecm-standard-remote-tables.md).
+The standard remote tables contain the following additional fields. For details on the standard tables, see [Standard remote tables for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-ecm-standard-remote-tables.md).
 
 |Remote table|Source table|ERP field name|Mapped field name|
 |------------|------------|--------------|-----------------|
@@ -179,5 +180,5 @@ The standard remote tables contain the following additional fields. For details 
 |SAP Transport|E071|OBJ\_NAME|object\_name|
 |SAP Transport|E071|PGMID|program\_id|
 
-**Parent Topic:**[ERP Semantic Mining standard tables and fields](erpcm-standard-fields-tables-reference-landing.md)
+**Parent Topic:**[ERP Semantic Mining standard tables and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-standard-fields-tables-reference-landing.md)
 

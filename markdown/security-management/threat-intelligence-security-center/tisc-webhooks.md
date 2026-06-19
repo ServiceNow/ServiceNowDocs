@@ -2,6 +2,7 @@
 title: Working with Webhooks
 description: A webhook is an HTTP request, triggered by an event in the source system \(TISC\) and sent to a destination system \(where the endpoint URL is present\), with a payload of event data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-webhooks.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -25,10 +26,10 @@ In TISC, you can do the following:
 -   Perform validation
 -   Manage subscriptions
 
--   **[System properties for Webhooks](tisc-sysprops-retry.md)**  
+-   **[System properties for Webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-sysprops-retry.md)**  
 The system properties for webhooks are explained below.
--   **[Configure webhooks](setup-webhooks.md)**  
+-   **[Configure webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/setup-webhooks.md)**  
 Configure a webhook to subscribe to events in Threat Intelligence Security Center.
--   **[Webhook Triggers](tisc-triggers.md)**  
+-   **[Webhook Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-triggers.md)**  
 Webhook triggers are used to filter the threat intelligence entities that needs to be tracked for any event changes such as Create, Update, and Delete.
 

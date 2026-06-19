@@ -2,6 +2,7 @@
 title: Exploring Contract Management Pro
 description: Learn more about the Contract Management Pro application through a sample workflow and review the benefits that it can provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-expl-cmpro.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -39,7 +40,7 @@ Contract Management Pro solution enables you to set up contract document templat
 
 The following image provides an overview of the self-served contract requests.
 
-![A flowchart illustrating a self-served contract request workflow in Contract Management Pro.](../image/mmasset0021155-ss-cmpro-horizontal.png "Self-served request workflow")
+\[Omitted image "mmasset0021155-ss-cmpro-horizontal.png"\] Alt text: A flowchart illustrating a self-served contract request workflow in Contract Management Pro.
 
 1.  The contract requester initiates a contract request.
 2.  A contract document is generated from a contract template and the metadata, clauses, signatories, and tables are added dynamically according to predefined conditions.
@@ -54,7 +55,7 @@ The following image provides an overview of the self-served contract requests.
 
 The following image provides an overview of the non-self-served contract requests.
 
-![A flowchart illustrating a non-self-served contract request workflow in Contract Management Pro.](../image/mmasset0021156-nss-cmpro-horizontal.png "Non-self-served request workflow")
+\[Omitted image "mmasset0021156-nss-cmpro-horizontal.png"\] Alt text: A flowchart illustrating a non-self-served contract request workflow in Contract Management Pro.
 
 A workflow for non-self-served contract request might progress as follows:
 
@@ -75,24 +76,24 @@ A workflow for non-self-served contract request might progress as follows:
 
 |Feature|Benefit|Users|
 |-------|-------|-----|
-|[Word Document Templates](cncore-expl-wdt.md)|Configure word document templates for contract to streamline and reduce the need for rework and maintain uniformity across generated contract documents. Set up dynamic content generation through mappings and conditions for clauses and tables.|Contract configurator|
-|[Clause Management](cncore-expl-clause-mgmt.md)|Effectively manage a library of clause variations. Use clause variations to dynamically place content in a contract depending on the specified conditions.|Contract configurator|
-|[Microsoft Word add-in for ServiceNow Contracts](cncore-expl-snc-addin.md)|Use Microsoft Word documents to add content controls that act as placeholders for the content. Word templates are easier to review, mark up, and modify.|Contract configurator|
-|[Contract and amendment requests](cncore-expl-ss-nss-contracts.md)|Initiate self-served or non-self-served contract requests.|Contract user|
-|[Contract amendments](../task/cmpro-amend-landing.md)|Initiate and manage amendment requests.|Contract user, Contract fulfiller|
-|[Obligation Management](cncore-obligation-management.md)|Track and manage contract obligations to help ensure compliance and minimize risks.|Obligation fulfiller or Obligation user|
-|[Configuring external applications for Contract Management Pro](cncore-set-ext-app-config.md)|Integration with external storage and electronic signature providers.|Contract configurator|
-|[Contracts Dashboard](../../../use/dashboards/application-content-packs/cncore-contracts-dashboard.md)|Get an insight on the volume of contract requests that are handled by your team.|Contract fulfiller|
-|[Contract Workspace](cncore-contract-workspace.md)|Work with actionable widgets to categorize, prioritize, and efficiently work on contract requests.|Contract user or Contract fulfiller|
-|[Now Assist in Contract Management](cncore-now-assit-landing.md)|Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and to extract information from signed contracts to add in the contract repository.|Now Assist contract fulfiller|
+|[Word Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expl-wdt.md)|Configure word document templates for contract to streamline and reduce the need for rework and maintain uniformity across generated contract documents. Set up dynamic content generation through mappings and conditions for clauses and tables.|Contract configurator|
+|[Clause Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expl-clause-mgmt.md)|Effectively manage a library of clause variations. Use clause variations to dynamically place content in a contract depending on the specified conditions.|Contract configurator|
+|[Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expl-snc-addin.md)|Use Microsoft Word documents to add content controls that act as placeholders for the content. Word templates are easier to review, mark up, and modify.|Contract configurator|
+|[Contract and amendment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expl-ss-nss-contracts.md)|Initiate self-served or non-self-served contract requests.|Contract user|
+|[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-amend-landing.md)|Initiate and manage amendment requests.|Contract user, Contract fulfiller|
+|[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-management.md)|Track and manage contract obligations to help ensure compliance and minimize risks.|Obligation fulfiller or Obligation user|
+|[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)|Integration with external storage and electronic signature providers.|Contract configurator|
+|[Contracts Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contracts-dashboard.md)|Get an insight on the volume of contract requests that are handled by your team.|Contract fulfiller|
+|[Contract Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-contract-workspace.md)|Work with actionable widgets to categorize, prioritize, and efficiently work on contract requests.|Contract user or Contract fulfiller|
+|[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)|Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and to extract information from signed contracts to add in the contract repository.|Now Assist contract fulfiller|
 
 ## What to explore next
 
 To learn more about configuring and using Contract Management Pro, see:
 
--   [Configuring Contract Management Pro](cncore-config-cmpro.md)
--   [Using Contract Management Pro](cncore-use-cmpro.md)
--   [Now Assist in Contract Management](cncore-now-assit-landing.md)
--   [Managing Contract Management Pro](cncore-manage-cmpro.md)
--   [Contract Management Pro reference](cncore-ref.md)
+-   [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-cmpro.md)
+-   [Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+-   [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+-   [Managing Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
+-   [Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-ref.md)
 

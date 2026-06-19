@@ -2,6 +2,7 @@
 title: Convert legacy certification schedules into Data Manager certification policies in CMDB Workspace or in Service Graph Workspace
 description: Convert certification schedules created in the legacy Data Certification application \(running on Core UI\), into draft Data Manager certification policies available in CMDB Workspace or in Service Graph Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/convert-data-cert-definitions.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -53,7 +54,7 @@ Important things to know:
 
     3.  Select **View draft policies** to view the converted policies in the Data Manager policies page, under the Draft policies tab.
 
-4.  [Publish a draft CMDB Data Manager policy](data-manager-publish-draft-policy.md)
+4.  [Publish a draft CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md)
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Generate a summary report
 description: Create and save as many templates as needed by using the ServiceNow Document Templates application. Create a summary report by selecting a document template for the report. Export the case details, in a PDF format, for documenting and sharing purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/define-summary.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -32,17 +33,17 @@ You must be assigned to the case.
 
 2.  Create an HR case within the Employee Relations COE by selecting the **Add** icon \(plus sign\).
 
-    For detailed instructions, see [Create a case in Agent Workspace for HR Case Management](agent-ws-configurable-hr-create-case.md).
+    For detailed instructions, see [Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
 
     An employee relations case is created.
 
 3.  Select **Summary Report**.
 
-    ![Summary report button](../image/summary-report.png)
+    \[Omitted image "summary-report.png"\] Alt text: Summary report button
 
 4.  In the Summary Report window, select a predefined document template format in which the case details are captured.
 
-    For details on how to create and use document templates, see [Document Templates](../concept/document-templates-overview.md).
+    For details on how to create and use document templates, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-overview.md).
 
 5.  Select **Generate**.
 

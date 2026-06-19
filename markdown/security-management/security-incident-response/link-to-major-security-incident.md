@@ -2,6 +2,7 @@
 title: Link to Major Security Incident
 description: Link a security incident to a major security incident as child security incident\(s\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/link-to-major-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ Role required: sn\_si.analyst.
 
 3.  Click **Link to Major Security Incident**.
 
-    ![Link incident](../image/link-si-to-msi.png)
+    \[Omitted image "link-si-to-msi.png"\] Alt text: Link incident
 
 4.  Select the incident\(s\) to link to a major security incident.
 
@@ -38,5 +39,5 @@ Role required: sn\_si.analyst.
     After the incident is linked as a child incident to a major security incident, **Major Security Incident** tag is applied and displayed on the form banner.
 
 
-**Parent Topic:**[Working with MSI Records](../concept/working-with-msi-records.md)
+**Parent Topic:**[Working with MSI Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/working-with-msi-records.md)
 

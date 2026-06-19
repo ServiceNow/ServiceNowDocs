@@ -2,6 +2,7 @@
 title: Set up the Microsoft Teams Graph spoke
 description: Integrate the ServiceNow instance and Microsoft Teams account by creating a custom OAuth application in Microsoft Azure portal to authenticate ServiceNow requests.Provide authorization to the ServiceNow instance by registering an application in Microsoft Entra ID \(formerly Microsoft Azure Active Directory\).Add and configure the Microsoft Teams connections to authenticate ServiceNow requests in the Microsoft Teams Graph spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-msteams.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -14,8 +15,6 @@ breadcrumb: [Microsoft Teams Graph Spoke, Integration Hub spokes, Build integrat
 # Set up the Microsoft Teams Graph spoke
 
 Integrate the ServiceNow instance and Microsoft Teams account by creating a custom OAuth application in Microsoft Azure portal to authenticate ServiceNow requests.
-
-Demonstrates how to set up the Microsoft Teams Graph spoke.
 
 ## Before you begin
 
@@ -53,7 +52,7 @@ Complete these steps from the Microsoft Azure portal.
 
     For more information, see [Permissions and consent in the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent) in [Microsoft Docs](https://docs.microsoft.com/en-us/).
 
-    For information about the permissions required to use the spoke actions, see the Spoke actions section in [Microsoft Teams Graph Spoke](../concept/msteams-spoke.md). Provide permissions as per your requirement. For more information about the permissions, see [Microsoft Graph REST API v1.0 reference](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0) in [Microsoft Docs](https://docs.microsoft.com/en-us/).
+    For information about the permissions required to use the spoke actions, see the Spoke actions section in [Microsoft Teams Graph Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msteams-spoke.md). Provide permissions as per your requirement. For more information about the permissions, see [Microsoft Graph REST API v1.0 reference](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0) in [Microsoft Docs](https://docs.microsoft.com/en-us/).
 
 6.  Record the **Client Secret** for use in later configurations.
 
@@ -84,12 +83,12 @@ Role required: admin
 
         -   To configure the default connection and credential alias record that is shipped along with the Microsoft Teams spoke, select **View Details**.
 
-            ![Connection for the Microsoft Teams Spoke](../image/ms-teams-spoke-tile.jpg)
+            \[Omitted image "ms-teams-spoke-tile.jpg"\] Alt text: Connection for the Microsoft Teams Spoke
 
-        -   To manage more than one Microsoft Teams spoke connection records, you should create a child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+        -   To manage more than one Microsoft Teams spoke connection records, you should create a child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
         If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
 
-        ![Initial connection configuration](../image/ms-teams-spoke-configure.jpg)
+        \[Omitted image "ms-teams-spoke-configure.jpg"\] Alt text: Initial connection configuration
 
     2.  On the form, fill in these fields:
 
@@ -174,7 +173,7 @@ OAuth Redirect URL
 OAuth callback endpoint. Enter `https://<instance-name>.service-now.com/oauth_redirect.do`.
 
 </td></tr></tbody>
-</table>        ![Configure a connection for the Microsoft Teams spoke](../image/ms-teams-spoke-conf-connection.jpg)
+</table>        \[Omitted image "ms-teams-spoke-conf-connection.jpg"\] Alt text: Configure a connection for the Microsoft Teams spoke
 
     3.  Select **Save and Get OAuth Token**.
 
@@ -186,12 +185,12 @@ OAuth callback endpoint. Enter `https://<instance-name>.service-now.com/oauth_re
 
         -   To configure the default connection and credential alias record that is shipped along with the Microsoft Teams Graph Client Credentials, select **View Details**.
 
-            ![Connection for the Microsoft Teams Graph Client Connection](../image/ms-teams-gphcc-tile.jpg)
+            \[Omitted image "ms-teams-gphcc-tile.jpg"\] Alt text: Connection for the Microsoft Teams Graph Client Connection
 
-        -   To manage more than one Microsoft Teams Graph Client Credentials connection records, you should create a child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+        -   To manage more than one Microsoft Teams Graph Client Credentials connection records, you should create a child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
         If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
 
-        ![Initial connection configuration](../image/ms-teams-gphcc-configure.jpg)
+        \[Omitted image "ms-teams-gphcc-configure.jpg"\] Alt text: Initial connection configuration
 
     2.  On the form, fill in these fields:
 
@@ -252,7 +251,7 @@ OAuth Client Secret
 Client secret created during application registration.
 
 </td></tr></tbody>
-</table>        ![Configure a connection for the Microsoft Teams Graph Client Credentials](../image/ms-teams-gphcc-conf-connection.jpg)
+</table>        \[Omitted image "ms-teams-gphcc-conf-connection.jpg"\] Alt text: Configure a connection for the Microsoft Teams Graph Client Credentials
 
     3.  Select **Save and Get OAuth Token**.
 

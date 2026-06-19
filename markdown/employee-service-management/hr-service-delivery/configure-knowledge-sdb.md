@@ -2,6 +2,7 @@
 title: Configure tracked Knowledge Base for the self-solved KPI
 description: By default, the Self-solved using Knowledge KPI in the HR Success Dashboard tracks articles views only in the Human Resources General knowledge base. If your organization uses a different knowledge base or multiple knowledge bases, complete these steps to update the scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-knowledge-sdb.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -31,7 +32,7 @@ Role required: admin
 
 5.  In the Activity Context Type form, change the filter condition to include the relevant knowledge bases.
 
-6.  ![Description of the field values in the Activity Context Type form](../image/activity-type-hr-dshbrd.png "Activity context type")
+6.  \[Omitted image "activity-type-hr-dshbrd.png"\] Alt text: Description of the field values in the Activity Context Type form
 
 7.  Select **Update**.
 

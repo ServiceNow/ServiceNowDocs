@@ -2,6 +2,7 @@
 title: Set up Advanced Work Assignment for Legal Service Delivery
 description: Configure various components, such as service channels, work item queues, and assignment rules that determine how a legal request should be routed to an agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/setup-awa-lsd.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -17,7 +18,9 @@ Configure various components, such as service channels, work item queues, and as
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_lg\_awa.admin
+
+**Note:** Add the awa\_admin role as a contained role of sn\_lg\_awa.admin. For more information, see [Components installed for Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-components-installed-awa.md).
 
 The base system includes the Advanced Work Assignment solution for General Legal Requests and Ethics Complaints. You can also configure it for other types of legal requests.
 
@@ -27,7 +30,7 @@ The base system includes the Advanced Work Assignment solution for General Legal
 
 2.  Create a service channel to automatically route incoming legal requests to agents.
 
-    For more information, see [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md).
+    For more information, see .
 
     The following service channels are available in the base system Advanced Work Assignment for Legal Service Delivery.
 
@@ -35,9 +38,9 @@ The base system includes the Advanced Work Assignment solution for General Legal
     -   Chat
     After you have created a service channel, do the following:
 
-    1.  Configure the agent capacity to determine the number of work items that can be automatically assigned to agents supporting a service channel. For more information, see [Override agent capacity for selected agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.md).
-    2.  Create or change an inbox layout to determine the information shown on work item cards displayed in an agent's inbox. For more information, see [Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md).
-    3.  Create a work item size override if you want to calculate an agent's workload using a work item size other than the default. For more information, see [Create or change a work item size override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-work-item-size.md).
+    1.  Configure the agent capacity to determine the number of work items that can be automatically assigned to agents supporting a service channel. For more information, see .
+    2.  Create or change an inbox layout to determine the information shown on work item cards displayed in an agent's inbox. For more information, see .
+    3.  Create a work item size override if you want to calculate an agent's workload using a work item size other than the default. For more information, see .
 3.  Make your service channel available in Agent Workspace by adding it to the Presence States.
 
     1.  Navigate to **All** &gt; **Advanced Work Assignment** &gt; **Presence States**.
@@ -58,31 +61,31 @@ The base system includes the Advanced Work Assignment solution for General Legal
 
     -   General Legal Request
     -   Ethics Complaint
-    **Note:** A queue is a unique alphanumeric identifier assigned to an application. If the application does not appear in the queue table, verify that its queue is not being used by another application. If it is already in use, create a new queue. For more information, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
+    **Note:** A queue is a unique alphanumeric identifier assigned to an application. If the application does not appear in the queue table, verify that its queue is not being used by another application. If it is already in use, create a new queue. For more information, see .
 
 5.  Set the Advanced Work Assignment criteria for assigning work items to agents.
 
-    For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
+    For more information, see .
 
     An assignment rule Capacity and skill based assignment for Legal Requests is available in the base system for Advanced Work Assignment for Legal Service Delivery.
 
 6.  Use Skill Determination Rules as an alternative way to map skills to an legal request case.
 
-    If you are going to use skill determination rules to map a skill to an legal request, activate Skills Management. For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md).
+    If you are going to use skill determination rules to map a skill to an legal request, activate Skills Management. For more information, see .
 
     Skill determination rule for Legal is available in the base system for Advanced Work Assignment for Legal Service Delivery.
 
 7.  Configure the following parameters to improve your Advanced Work Assignment functionality:
 
-    1.  Create or modify the availability states that agents use to indicate whether they can receive work or are offline or away. Agents set these states in their Workspace Inbox. For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md). Add the service channel to
-    2.  Define the reasons that agents can use to decline work assignments that they receive in their Agent Workspace inbox. For more information, see [Configure reasons for rejecting work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-reject-reasons.md).
-    3.  Prevent an agent from being assigned too many work items by configuring the agent's maximum universal capacity. For more information, see [Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-universal-capacity.md).
-    4.  Create or manage groups that have associated Advanced Work Assignment queues. For more information, see [Create or change groups for Advanced Work Assignment queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-groups.md).
+    1.  Create or modify the availability states that agents use to indicate whether they can receive work or are offline or away. Agents set these states in their Workspace Inbox. For more information, see . Add the service channel to
+    2.  Define the reasons that agents can use to decline work assignments that they receive in their Agent Workspace inbox. For more information, see .
+    3.  Prevent an agent from being assigned too many work items by configuring the agent's maximum universal capacity. For more information, see .
+    4.  Create or manage groups that have associated Advanced Work Assignment queues. For more information, see .
 
         The following queues are available in the base system for Advanced Work Assignment for Legal Service Delivery.
 
         -   Legal - Ethics
         -   Legal Department
-    For detailed instructions on how to configure Advanced Work Assignment, see [Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installing-awa.md).
+    For detailed instructions on how to configure Advanced Work Assignment, see .
 
 

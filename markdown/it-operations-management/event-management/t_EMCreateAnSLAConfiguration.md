@@ -2,6 +2,7 @@
 title: Create an SLA configuration for CIs
 description: Create an SLA configuration from the Event Management application to determine which CIs are available for SLAs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMCreateAnSLAConfiguration.html
 release: australia
 product: Event Management
 classification: event-management
@@ -34,7 +35,7 @@ The SLA configuration record is a filter on a table in the system. Select a tabl
     |Field|Description|
     |-----|-----------|
     |Name|Provide a descriptive name.|
-    |Table|Select a table with the CIs for which you want to create the SLA. You can also use the Configuration Item to Host View \[query\_based\_service\_basic\_view\] table, which is used by [Dynamic CI Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).|
+    |Table|Select a table with the CIs for which you want to create the SLA. You can also use the Configuration Item to Host View \[query\_based\_service\_basic\_view\] table, which is used by Dynamic CI Groups.|
     |Filter|Configure the filter for the records.|
 
 4.  Right-click the header and select **Save**.
@@ -51,10 +52,10 @@ If you want to run an SLA on all Linux servers for major and critical alerts, fi
 
 ## What to do next
 
-[Create an SLA definition](t_EMCreateSLADefForCI_BS.md) on the CIs that match this SLA configuration.
+[Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMCreateSLADefForCI_BS.md) on the CIs that match this SLA configuration.
 
--   **[Limit the records for the SLA configuration filter](t_EMLimitTheRecordsForSLAConfigFilter.md)**  
+-   **[Limit the records for the SLA configuration filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMLimitTheRecordsForSLAConfigFilter.md)**  
 If too many records are returned by the SLA configuration filter, you can add a property to set the maximum number of records.
 
-**Parent Topic:**[SLAs for application services and CIs](../concept/c_EMSLAsForBSAndCIs.md)
+**Parent Topic:**[SLAs for application services and CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMSLAsForBSAndCIs.md)
 

@@ -2,6 +2,7 @@
 title: Configure the CyberArk credential identifier
 description: Create the unique key that CyberArk can use to identify specific credentials in the external repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/t\_ConfigCyberArkCredIdentifr.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -19,7 +20,7 @@ Create the unique key that CyberArk can use to identify specific credentials in 
 
 Role required: admin
 
-Before starting this procedure, ensure that the External Credential Storage plugin is activated, and the [com.snc.use\_external\_credentials](../concept/c_CyberArkCredStorageIntegrate.md) system property is set to true.
+Before starting this procedure, ensure that the External Credential Storage plugin is activated, and the [com.snc.use\_external\_credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md) system property is set to true.
 
 ## Procedure
 
@@ -27,9 +28,9 @@ Before starting this procedure, ensure that the External Credential Storage plug
 
 2.  Click **New**.
 
-3.  From the list of credential types, select a type that [supports CyberArk](../concept/c_CyberArkCredStorageIntegrate.md) external storage.
+3.  From the list of credential types, select a type that [supports CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md) external storage.
 
-4.  Complete the form using the fields from your [credential type](t_CreateCredential.md).
+4.  Complete the form using the fields from your [credential type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_CreateCredential.md).
 
 5.  Select the **External credential store** check box.
 
@@ -39,7 +40,7 @@ Before starting this procedure, ensure that the External Credential Storage plug
 
 6.  In the **Credential ID** field, enter an expression using one of these formats:
 
-    -   If all your credentials are in the same safe, configure this safe name in the MID Server `config.xml` file using the [ext.cred.safe\_name](t_ConfigureTheMIDServerForCyberArk.md) parameter, and then specify the credential ID by name only, as **&lt;credential ID&gt;**.
+    -   If all your credentials are in the same safe, configure this safe name in the MID Server `config.xml` file using the [ext.cred.safe\_name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md) parameter, and then specify the credential ID by name only, as **&lt;credential ID&gt;**.
     -   To name credentials for a given platform that reside is a specific safe, define the credential ID as **&lt;safe&gt;:&lt;credential ID&gt;:&lt;platform ID&gt;**.
     -   If your credentials are in multiple safes, specify the credential ID in this format: **&lt;safe&gt;:&lt;credential ID&gt;**.
     -   If you want CyberArk to look up the credential by IP address, using an alternate safe, specify the credential ID in this format: **&lt;safe&gt;:**.
@@ -60,5 +61,5 @@ Before starting this procedure, ensure that the External Credential Storage plug
 8.  Click **Submit**.
 
 
-**Parent Topic:**[CyberArk integration configuration](../concept/c_CyberArkIntegrationConfiguration.md)
+**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
 

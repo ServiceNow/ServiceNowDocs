@@ -2,6 +2,7 @@
 title: ValidateSubflows
 description: The ValidateSubflows validator detects any workflows included as subflows that are either inactive, deleted, or not available as a published workflow for the current user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_ValidateSubflows.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -30,7 +31,7 @@ Any of these conditions cause the workflow to hang when the workflow activity in
 -   Suggested Action: Remove the link in the parent workflow to the questionable subflow, examine the subflow to ensure that it is valid and published, or that it is checked out to the current user. After making the correction to the state of the subflow, run the validation again to test your changes.
 -   Publishable: No
 -   Runnable: No
--   Related Information: [Workflows used as subflows](../../workflow-activities/reference/workflows-as-subflows.md)
+-   Related Information: [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflows-as-subflows.md)
 
 ## Troubleshooting
 
@@ -51,5 +52,5 @@ Another scenario addressed by the **ValidateSubflow** validator is when a workfl
 
 **Note:** You cannot delete a from a list or form workflow that is a subflow. However, you can create one of these unstable conditions with advanced scripting, SQL options, or incomplete update sets that contain main flows, but not the referenced subflows. When troubleshooting a workflow that triggered this validator, consider the history of the subflow while assessing the error condition.
 
-**Parent Topic:**[Workflow validator](r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
 

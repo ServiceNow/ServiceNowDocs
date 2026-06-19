@@ -2,6 +2,7 @@
 title: Set up Metrikus spoke
 description: Integrate the ServiceNow instance and Metrikus Spoke. Create a connection and credential alias in the Metrikus spoke to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-metrikus-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

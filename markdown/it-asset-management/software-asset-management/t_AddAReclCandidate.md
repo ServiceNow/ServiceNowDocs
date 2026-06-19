@@ -2,11 +2,12 @@
 title: Add a software removal candidate in Software Asset Management classic
 description: Removal candidates reclaim software resources in your environment. They are created from reclamation rules, or can be created manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_AddAReclCandidate.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Software license usage, Using Software Asset Management classic, Software Asset Management, IT Asset Management]
 ---
@@ -85,7 +86,7 @@ State
 
 </td><td>
 
-[Current state](../concept/c_SAMOptimization.md) of the removal candidate.-   Attention Required
+[Current state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMOptimization.md) of the removal candidate.-   Attention Required
 -   Ready
 -   Awaiting User
 -   Awaiting Approval
@@ -259,5 +260,5 @@ Used to track the actions that have been performed on this task.
     |Delete|Delete removal candidate.|
 
 
-**Parent Topic:**[Software license usage](../concept/sam-license-workbench.md)
+**Parent Topic:**[Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md)
 

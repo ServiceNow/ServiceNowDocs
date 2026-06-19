@@ -2,6 +2,7 @@
 title: Start work on a linear asset task
 description: Examine the linear asset specified in the work order task to pinpoint or select segments or areas in need of attention or maintenance, and generate a corresponding work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/start-work-on-linear-asset-task.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -20,7 +21,7 @@ Examine the linear asset specified in the work order task to pinpoint or select 
 Ensure the following setup:
 
 -   The work order task is either in the **Work In Progress** or **Accepted** state.
--   Enable location tracking from your mobile device to record your location in the geo history table. For more information, see [Using location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-location.md).
+-   Enable location tracking from your mobile device to record your location in the geo history table. For more information, see Using location tracking for mobile.
 
 Role required: wm\_agent
 
@@ -42,13 +43,13 @@ Role required: wm\_agent
 
 7.  Open the asset page and review the asset details by tapping the selected segment.
 
-8.  View the linear asset segment on the map by tapping the Google Maps launcher icon \(![Google Maps launcher icon](../image/mab-icon-launch-weblink-sol.png)\) in the Start location field.
+8.  View the linear asset segment on the map by tapping the Google Maps launcher icon \(\[Omitted image "mab-icon-launch-weblink-sol.png"\] Alt text: Google Maps launcher icon\) in the Start location field.
 
     The map launches and the linear asset location is displayed. The linear segment is highlighted in dark blue color for better identification.
 
 9.  Provide additional information about the affected linear asset by tapping **Take questionnaire**.
 
-    For more information, see [Complete a questionnaire for a work order task](complete-questionnaire-mobile-app.md).
+    For more information, see [Complete a questionnaire for a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/complete-questionnaire-mobile-app.md).
 
 10. If you identify an issue for a linear asset when inspecting a segment, create a new work order.
 

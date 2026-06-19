@@ -2,6 +2,7 @@
 title: Working on campaigns in Microsoft Teams
 description: Campaigns in Microsoft Teams enable you to set up and package your content into a campaign to deliver the right message to the required audience at the right time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -22,18 +23,18 @@ You must have the following plugins installed in your environment:
 -   Employee Center Pro \(com.snc.employee\_center\_pro\) plugin, which enables the Campaign for Content Experiences feature.
 -   Content Experiences \[sn\_ca\] plugin
 
-For more information about campaigns, see [Campaigns for Content Experiences](../../employee-center/concept/ecpro-campaigns.md).
+For more information about campaigns, see [Campaigns for Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns.md).
 
--   **[Authenticate users with additional permissions to send campaign notifications in Microsoft Teams](../task/authenticate-user-addnl-campaign.md)**  
+-   **[Authenticate users with additional permissions to send campaign notifications in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/authenticate-user-addnl-campaign.md)**  
 Assign additional Microsoft Azure permissions to users to enable Microsoft Teams create and send new campaign notifications on the user’s behalf in the teamwork activity feed.
--   **[Send campaign notifications automatically in Microsoft Teams](../task/enable-activity-feed.md)**  
+-   **[Send campaign notifications automatically in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enable-activity-feed.md)**  
 Automatically send campaign notifications in Microsoft Teams for better collaboration and efficient communication.
--   **[Create a Microsoft Teams campaign using direct content publishing](create-campaign-content-publishing.md)**  
+-   **[Create a Microsoft Teams campaign using direct content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-publishing.md)**  
 Create and distribute the Microsoft Teams campaigns using direct content publishing if you have the admin role.
--   **[Create Microsoft Teams campaigns using the Content Experience Builder](create-campaign-content-experience-builder.md)**  
+-   **[Create Microsoft Teams campaigns using the Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-experience-builder.md)**  
 Create campaigns using the Content Experience Builder if you have the admin role to distribute content to employees.
--   **[Translation support for Microsoft Teams notification campaigns](campaign-translation-support-st.md)**  
+-   **[Translation support for Microsoft Teams notification campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/campaign-translation-support-st.md)**  
 ServiceNow for Microsoft Teams supports localization to ServiceNow supported languages in campaigns.
 
-**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](c_employee_ex_s_tnt.md)
+**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
 

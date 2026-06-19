@@ -2,6 +2,7 @@
 title: Contract Management Pro for Legal Service Delivery
 description: Contract Management Pro for Legal Service Delivery enables you to submit, review, finalize, and manage legal contract requests. The legal department can manage and process these submitted legal requests for contracts from a centralized location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -32,5 +33,5 @@ Contract Management Pro for Legal Service Delivery enables you to submit, review
 -   Automatic notifications to monitor contracts and take timely action.
 -   Multiple document support for third-party contract review enables reviewing and finalizing multiple contract documents from single request.
 
-**Parent Topic:**[Explore Contract Management Pro for Legal Service Delivery](snlc-expl-sn-legal-contracts.md)
+**Parent Topic:**[Explore Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expl-sn-legal-contracts.md)
 

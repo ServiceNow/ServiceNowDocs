@@ -2,6 +2,7 @@
 title: View the attributes of a CI or a relationship
 description: Open the Attributes panel in Unified Map to view attributes like location and life cycle stage for a CI or a relationship.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-show-attributes.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -30,18 +31,18 @@ When you select a group CI such as a service instanceor a dynamic CI group as th
 
 ## Procedure
 
-1.  While working in a map, select a CI or a relationship on the map and then select the Attributes icon ![](../image/icon-um-attributes-panel.png).
+1.  While working in a map, select a CI or a relationship on the map and then select the Attributes icon \[Omitted image "icon-um-attributes-panel.png"\].
 
-    ![Attributes of the selected CI.](../image/um-attributes-panel.png)
+    \[Omitted image "um-attributes-panel.png"\] Alt text: Attributes of the selected CI.
 
     The **Attributes** panel shows the following details:
 
     -   For a non-group CI: The top section displays base properties — common key attributes, such as **Class** and **Discovery source** that appear for CIs of any class \(other than service instance CIs\). You cannot change the group of properties that appear in this section.
-    -   The bottom section displays extended properties — attributes that uniquely extend the class of a CI in the CMDB hierarchy. You can specify the properties that should appear in this section. For more information, see [Configure which attributes to display in the Attributes panel](unified-map-config-extended-prop.md).
+    -   The bottom section displays extended properties — attributes that uniquely extend the class of a CI in the CMDB hierarchy. You can specify the properties that should appear in this section. For more information, see [Configure which attributes to display in the Attributes panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-config-extended-prop.md).
     -   For a group CI: The top card shows attributes of the group CI. The cards in the Configuration items section display attributes for each of the group member CIs.
     -   For a single relationship: A card with the attributes for the selected relationship.
     -   For a multi-relationship badge: A card for each of the relationships in the relationship set that shows the attributes for the relationship. The number of cards is equal to the number on the relationship badge, which is a count of the different types of relationships between the two CIs in that direction. Relationship connections are based on records in the CI Relationship \[cmdb\_rel\_ci\] table.
-    **Note:** If an attribute has highlighting defined on the Highlighted Value Conditions form, then it is highlighted on the **Attributes** panel. For more information, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/highlight-list-fields-platform.md).
+    **Note:** If an attribute has highlighting defined on the Highlighted Value Conditions form, then it is highlighted on the **Attributes** panel. For more information, see .
 
 
 ## What to do next

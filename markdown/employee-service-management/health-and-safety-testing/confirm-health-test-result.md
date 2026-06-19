@@ -2,6 +2,7 @@
 title: Confirm COVID-19 test results for a user
 description: Confirm a user's reported COVID-19 test results through the Employee Readiness Core Approval Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-testing/confirm-health-test-result.html
 release: australia
 product: Health and Safety Testing
 classification: health-and-safety-testing
@@ -19,12 +20,12 @@ Confirm a user's reported COVID-19 test results through the Employee Readiness C
 
 Your organization must install both Health and Safety Testing and Vaccination Status to use the Approval Portal.
 
--   For information on installing Health and Safety Testing, see [Install Health and Safety Testing](install-health-testing.md#).
--   For information on installing Vaccination Status, see [Install Vaccination Status](../../vaccination-status/task/install-vaccination-status.md#).
+-   For information on installing Health and Safety Testing, see [Install Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/install-health-testing.md).
+-   For information on installing Vaccination Status, see [Install Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/install-vaccination-status.md).
 
 Activate the **sn\_imt\_health\_test.allow\_managers\_ability\_to\_update\_test\_result\_records** property to enable all managers to review and verify COVID-19 tests of their direct reports. This property assigns the sn\_imt\_core.approval\_portal\_manager role to managers and grants access to the Approval Portal for test results.
 
-For more information, see [Set up Health and Safety Testing properties](configure-health-safety-testing.md#).
+For more information, see [Set up Health and Safety Testing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/configure-health-safety-testing.md).
 
 Role required: sn\_imt\_vaccine.admin, sn\_imt\_core.approval\_portal\_manager, or sn\_imt\_core.health\_and\_safety\_approver
 
@@ -76,5 +77,5 @@ Managers can only confirm the COVID-19 test results of their direct reports. Vac
 -   The **COVID test result verified by** field in the user's test result record is updated with your name to confirm you verified the result.
 -   In the user's vaccine profile, the **Most recent COVID test result verified** option is selected.
 
-**Parent Topic:**[Health and Safety Testing](../concept/health-safety-testing.md)
+**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/health-safety-testing.md)
 

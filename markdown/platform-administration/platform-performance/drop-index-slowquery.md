@@ -2,6 +2,7 @@
 title: Drop a slow query index
 description: You can drop an index for a slow query when the index isn’t used by the database or doesn’t improve query performance. You can drop the index immediately or schedule the drop for a later time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/drop-index-slowquery.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -45,5 +46,5 @@ During the index evaluation period, the Index Suggestion Engine \(ISE\) might ge
 5.  Verify that the index was dropped by reviewing the index state in the Index Suggestion record or in the Index Suggestion table \(**System Diagnostics** &gt; **Index Suggestions** &gt; **Index Suggestions &gt; Done**\).
 
 
-**Parent Topic:**[Resolving slow queries](../concept/resolving-slow-queries.md)
+**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-slow-queries.md)
 

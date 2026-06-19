@@ -2,6 +2,7 @@
 title: Manage endpoint with Token support
 description: Generate endpoint for webhooks in the third-party applications that support token authentication. The endpoint enables webhooks to connect with your ServiceNow instance. You can optionally remove the configuration of the endpoint from the connection. You can deactivate or remove the configuration of the endpoint from the connection when you want the endpoint to no longer listen to the external webhook.Configure an endpoint that listens to the webhook.Deactivate the endpoint to disable it from listening to the webhook. You can activate it back.Remove the endpoint configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/generate-endpoint-with-token-support.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -23,7 +24,7 @@ Subscription required: This feature requires an Integration Hub subscription. Fo
 
 Ensure that you've installed the required spoke plugin.
 
-**Parent Topic:**[Set up external trigger endpoints](set-up-external-webhook-endpoints.md)
+**Parent Topic:**[Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-external-webhook-endpoints.md)
 
 ## Configure endpoint with Token support
 
@@ -41,23 +42,23 @@ Ensure that you've installed the required spoke plugin.
 
 1.  Under the Endpoints heading, select **Configure** for the connection to set up an endpoint with token authentication support.
 
-    ![Configure button for token authentication.](../images/configure-endpoint-token-support.png).
+    \[Omitted image "configure-endpoint-token-support.png"\] Alt text: Configure button for token authentication..
 
 2.  In the Configure endpoint form, select Generate token.
 
-    ![Generate token link.](../images/configure-endpoint-generate-token.png).
+    \[Omitted image "configure-endpoint-generate-token.png"\] Alt text: Generate token link..
 
     The token is generated.
 
 3.  To generate the endpoint, select **Activate**.
 
-    ![Endpoint Activate button.](../images/configure-endpoint-token-click-activate.png)
+    \[Omitted image "configure-endpoint-token-click-activate.png"\] Alt text: Endpoint Activate button.
 
     The endpoint URL is generated in the URL field.
 
-    ![Endpoint is generated.](../images/configure-endpoint-endpoint-generated.png).
+    \[Omitted image "configure-endpoint-endpoint-generated.png"\] Alt text: Endpoint is generated..
 
-4.  To copy the endpoint, select the copy endpoint icon \(![Copy endpoint icon.](../images/copy-endpoint-icon.png)\)
+4.  To copy the endpoint, select the copy endpoint icon \(\[Omitted image "copy-endpoint-icon.png"\] Alt text: Copy endpoint icon.\)
 
     **Tip:** Keep the endpoint at a secure place to use later at the third-party application webhook.
 
@@ -103,11 +104,11 @@ Ensure that you've installed the required spoke plugin.
 
 1.  Select **Edit**.
 
-    ![Edit button to edit the endpoint.](../images/endpoint-deconfigure-token-edit.png)
+    \[Omitted image "endpoint-deconfigure-token-edit.png"\] Alt text: Edit button to edit the endpoint.
 
 2.  Remove the token.
 
-    ![Token field.](../images/endpoint-deconfigure-token-remove-token.png).
+    \[Omitted image "endpoint-deconfigure-token-remove-token.png"\] Alt text: Token field..
 
 3.  Select **Update**.
 

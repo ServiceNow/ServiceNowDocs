@@ -2,11 +2,12 @@
 title: Set up a keystore and encryption keys
 description: Set up the keystore and encryption keys used by the Edge Encryption proxy server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/set-up-keystore.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Install the Edge Encryption proxy server using the command line installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -72,18 +73,18 @@ A Java KeyStore:-   Stores keys in a Java JCEKS KeyStore.
 2.  Set up the keystore and encryption keys in your local network.
 
 
--   **[Set up a Java KeyStore keystore](t_JavaKeyStoreSetUp.md)**  
+-   **[Set up a Java KeyStore keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_JavaKeyStoreSetUp.md)**  
 You can use a Java KeyStore keystore to store encryption keys.
--   **[Set up a SafeNet KeySecure keystore](t_SetUpNAEKeyStore.md#)**  
+-   **[Set up a SafeNet KeySecure keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_SetUpNAEKeyStore.md)**  
 If you are using a SafeNet keystore, copy a set of libraries into the proxy distribution directory.
--   **[Set up Unbound Technology keys](unbound-key-install.md)**  
+-   **[Set up Unbound Technology keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/unbound-key-install.md)**  
 Use Unbound Technology \(previously Dyadic Security\) keys with Edge Encryption by storing the base64-encoded wrapped encryption key as text file on the Edge Encryption proxy server and providing the wrapping key alias. The Unbound Technology implementation maintains control of the wrapping key.
--   **[Create an encryption key stored in a file](t_CreateAFileStoreKeyStore.md)**  
+-   **[Create an encryption key stored in a file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_CreateAFileStoreKeyStore.md)**  
 You can use a simple text file as a keystore. Each file holds a single encryption key.
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](manual-proxy-install.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/manual-proxy-install.md)
 
-**Previous topic:**[Import and configure the certificate for secure SSL connection](t_SetUpSecureSSLConnection.md)
+**Previous topic:**[Import and configure the certificate for secure SSL connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_SetUpSecureSSLConnection.md)
 
-**Next topic:**[Set up a Java KeyStore keystore](t_JavaKeyStoreSetUp.md)
+**Next topic:**[Set up a Java KeyStore keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_JavaKeyStoreSetUp.md)
 

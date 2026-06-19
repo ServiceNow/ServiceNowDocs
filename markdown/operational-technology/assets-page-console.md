@@ -2,11 +2,14 @@
 title: Assets page
 description: The Assets page shows a list of all available assets for the Discovery Console for OT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/assets-page-console.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-30"
 reading_time_minutes: 5
-breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Assets page
@@ -19,13 +22,13 @@ The Assets page shows a list of all available assets for the Discovery Console f
 
 The Assets page shows all assets that were automatically discovered along with all assets that were manually added to the system. To view the assets list, use the navigational menu on the left side of the screen and select **Assets &gt; Assets**.
 
-![Assets page](../../msi-console/image/asset-page.png)
+\[Omitted image "asset-page.png"\] Alt text: Assets page
 
 You can add assets with the following methods.
 
 -   Sensors and Collectors perform Native discovery and populate the assets.
 -   Import via a CSV with assets information.
--   By selecting the add icon ![](../../msi-console/image/add-icon-msi.jpg).
+-   By selecting the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:.
 
 **Filter panel**
 
@@ -35,13 +38,13 @@ When you open the Assets page, there is a Filter panel you can use to filter whi
 -   Presets \(You can also check the Default Tab box above these 3 tabs.\)
 -   Filters
 
-Click the X at the top of the panel to close the filter. To open the panel, click the filter icon ![](../images/filter-icon.png).
+Select the X at the top of the panel to close the filter. To open the panel, select the filter icon \[Omitted image "filter-icon.png"\] Alt text:.
 
 Views
 
-In the top right area above the Assets list, there are different icons that control how the Assets are viewed.
+In the top right area of the Assets list, there are different icons that control how the Assets are viewed.
 
-![Asset views](../../msi-console/image/3-asset-views.png)
+\[Omitted image "3-asset-views.png"\] Alt text: Asset views
 
 The views are:
 
@@ -67,13 +70,13 @@ The **Actions** button provides a drop-down menu for manipulating the Assets. Th
 
 **Note:** If an action is inactive, it appears grayed out in the menu.
 
-Next to the **Actions** button is the add icon ![](../../msi-console/image/add-icon-msi.jpg).
+Next to the **Actions** button is the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:.
 
 ## Asset records
 
 With an Asset record, you can view and edit the details of the selected asset. To view an asset record from the Assets page, select the IP address displayed for the asset. The following sections describe each section of an Asset record.
 
-**Note:** When you select the add icon ![](../../msi-console/image/add-icon-msi.jpg), this same view opens with these same sections. However, when you open an existing asset record, you have three tabs on the upper right side of the screen. The tabs are **Details**, **Images**, and **Modules**.
+**Note:** When you select the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:, this same view opens with these same sections. However, when you open an existing asset record, you have three tabs on the upper right side of the screen. The tabs are **Details**, **Images**, and **Modules**.
 
 **Identification**
 
@@ -236,6 +239,8 @@ The Timeline section contains the following dates and times related to the asset
 
 The Open Ports section lists all open ports available on the asset that were identified by Discovery and shown on the Discovery Console for OT.
 
+\[Omitted image "section-ports-n-metadata.png"\] Alt text: Ports and Metadata sections
+
 **Metadata**
 
 The Metadata section contains the following fields.
@@ -287,11 +292,11 @@ The Installed Software section includes a list of all software installed on the 
 
 1.  Select the **Edit** button.
 
-    ![Select the Edit button](../../msi-console/image/edit-button-msi-console.png)
+    \[Omitted image "edit-button-msi-console.png"\] Alt text: Select the Edit button
 
 2.  Scroll to the Installed Software section and select **Add Software**.
 
-    ![Add Software](../../msi-console/image/add-software-msi-console.png)
+    \[Omitted image "add-software-msi-console.png"\] Alt text: Add Software
 
 3.  In the Add Software modal window, enter the **Vendor**, **Product**, and **Version** \(optional\) of the software being added.
 4.  Select **Save**.
@@ -305,7 +310,7 @@ The Attributes section contains the attributes discovered by the Discovery proce
 1.  Select the **Edit** button.
 2.  Scroll to the Attributes section and select **Add Attribute**.
 
-    ![Add attribute](../../msi-console/image/add-attr-msi-console.png)
+    \[Omitted image "add-attr-msi-console.png"\] Alt text: Add attribute
 
 3.  In the Attribute modal window, enter the **Name** and **Value** of the attribute.
 4.  Select **Add Attribute**.
@@ -315,7 +320,7 @@ The Attributes section contains the attributes discovered by the Discovery proce
 
 The detected MAC Addresses section includes a list of all the MAC addresses that are associated with a given asset. The Real Address toggle is used to indicate that a MAC address belongs to an asset and should be considered the primary or main MAC address. Each detected MAC address in the list includes the **Vendor Name**, **Vendor Address**, **First Detected On**, and **Last Detected On** fields.
 
-![MAC address](../images/vender-mac-address.png)
+\[Omitted image "vender-mac-address.png"\] Alt text: MAC address
 
 To add a MAC address, complete the following actions.
 
@@ -332,7 +337,7 @@ The Comments section provides an area to enter additional information about the 
 1.  Select the **Edit** button.
 2.  Scroll to the Comments section and select **Add Comment**.
 
-    ![Add comment](../../msi-console/image/add-comment-msi-console.png)
+    \[Omitted image "add-comment-msi-console.png"\] Alt text: Add comment
 
 3.  In the Add Comment modal window, enter a comment.
 4.  Select **Save**.

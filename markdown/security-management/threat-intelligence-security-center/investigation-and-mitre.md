@@ -2,6 +2,7 @@
 title: Investigation canvas and MITRE ATT&amp;CK
 description: In the Investigation Canvas, you can view the MITRE ATT&amp;CK techniques and sub-techniques associated with all nodes currently present on the canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/investigation-and-mitre.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -35,7 +36,7 @@ Role required: sn\_sec\_tisc.analyst
 
 7.  Select the required MITRE ATT&amp;CK matrix from the **Matrix** drop-down list.
 
-    ![Investigation Canvas MITRE Framework.](../image/tisc-investigation-canvas-mitre.png)
+    \[Omitted image "tisc-investigation-canvas-mitre.png"\] Alt text: Investigation Canvas MITRE Framework.
 
     The MITRE ATT&amp;CK Framework shows different levels of tactics and techniques association.
 
@@ -53,7 +54,7 @@ Role required: sn\_sec\_tisc.analyst
 
 8.  Select **Filters** to enable you to create and save filters for TTPs associated with specific adversaries and other MITRE technique attributes.
 
-    For more information on the MITRE Filtering options, see [Investigation Canvas MITRE Filters](../task/tisc-mitre-filters.md).
+    For more information on the MITRE Filtering options, see [Investigation Canvas MITRE Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-filters.md).
 
 9.  Use **View Controls** for advanced filtering options.
 
@@ -69,8 +70,8 @@ Role required: sn\_sec\_tisc.analyst
     -   Whenever you add or remove a node, the MITRE ATT&amp;CK framework refreshes automatically. You can also use the refresh icon to perform a manual refresh at any time.
     -   Whenever you filter specific types of nodes, the MITRE ATT&amp;CK framework refreshes automatically to reflect the changes.
 
--   **[Investigation Canvas MITRE Filters](../task/tisc-mitre-filters.md)**  
+-   **[Investigation Canvas MITRE Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-filters.md)**  
 MITRE filters enables you to create and save filters for Tactics, Techniques, and Procedures \(TTPs\) associated with specific adversaries and other MITRE technique attributes.
 
-**Parent Topic:**[Working with Investigation Canvas](tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

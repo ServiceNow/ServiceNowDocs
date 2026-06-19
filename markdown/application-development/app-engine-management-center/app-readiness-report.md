@@ -2,11 +2,12 @@
 title: App Readiness and Compliance Report
 description: App Engine Admins can use the App Readiness and Compliance Report dashboard to check if the apps they’re creating are ready to go live.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/app-readiness-report.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-02"
 reading_time_minutes: 1
 keywords: [AEMC]
 breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
@@ -17,6 +18,8 @@ breadcrumb: [Explore, App Engine Management Center, Governing app development, B
 App Engine Admins can use the App Readiness and Compliance Report dashboard to check if the apps they’re creating are ready to go live.
 
 App Engine Admins can use the App Readiness and Compliance Report dashboard within the App Engine Management Center \(AEMC\) to verify that the apps they’re creating are fully prepared for a live launch. This dashboard provides detailed insights from the Product Instance scans and helps to identify any issues or requirements that must be addressed before the app goes live, facilitating a smooth and compliant deployment process.
+
+\[Omitted image "app-readiness-compliance-report-aemc-a.png"\] Alt text: You can use the app readiness and compliance report to view detailed information about an app's readiness for deployment, such as performance, security, and more.
 
 ## Testing and Validation Categories for the Readiness Score
 

@@ -2,6 +2,7 @@
 title: Guidance for proper HR Service Delivery domain separation
 description: Additional guidance to successfully deploy HR Service Delivery in a domain separated environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-domain-rec.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Additional guidance to successfully deploy HR Service Delivery in a domain separ
 
 The following sections explain how to successfully set up domain separation on your instance.
 
-![Domain separation hierarchy](../image/domain-separation-hierarchy.png "Example of a domain separation hierarchy")
+\[Omitted image "domain-separation-hierarchy.png"\] Alt text: Domain separation hierarchy
 
 ## HR Services
 

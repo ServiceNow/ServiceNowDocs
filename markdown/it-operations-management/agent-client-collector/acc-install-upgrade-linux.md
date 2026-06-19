@@ -2,6 +2,7 @@
 title: Upgrade the Agent Client Collector manually on a Linux system
 description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-install-upgrade-linux.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,10 +18,10 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
 
 ## Before you begin
 
--   Ensure that you have configured the Agent Client Collector web server. For more information, see [Configure the websocket server on the MID Server](acc-configure-web-server.md).
+-   Ensure that you have configured the Agent Client Collector web server. For more information, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configure-web-server.md).
 -   Restart the MID Web Server.
--   Collect host data, to ensure that all files are up to date. For details, see [Collect data from your system devices](../concept/checks-policies-working-with.md).
--   Ensure that you have installed a Linux version of the Agent Client Collector. For more information, see [Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md).
+-   Collect host data, to ensure that all files are up to date. For details, see [Collect data from your system devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/checks-policies-working-with.md).
+-   Ensure that you have installed a Linux version of the Agent Client Collector. For more information, see [Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-linux-concept.md).
 -   The upgrade procedure is the same for both MID Server and MID-less deployments.
 -   Role required: agent\_client\_collector\_admin
 
@@ -77,7 +78,7 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
 
     3.  Install the package.
         -   RHEL/CentOS/SUSE: `sudo rpm -vi --force agent-client-collector-<version number>-x86_64.rpm`
-        -   Ubuntu/Debian: `sudo dpkg -1 agent-client-collector-<version number>-<Ubuntu/Debian version>_amd64.deb`
+        -   Ubuntu/Debian: `sudo dpkg -i agent-client-collector-<version number>-<Ubuntu/Debian version>_amd64.deb`
 5.  Restore the `agent-id` and configuration files.
 
     ```
@@ -99,5 +100,5 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
     `sudo tail -f /var/log/servicenow/agent-client-collector/acc.log`
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

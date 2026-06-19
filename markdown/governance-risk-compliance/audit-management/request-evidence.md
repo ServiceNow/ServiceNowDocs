@@ -2,6 +2,7 @@
 title: Request evidence for audit
 description: Request evidence at any stage during an audit. The details about the items for which evidence is requested are also provided to the person responsible for providing the evidence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/request-evidence.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -33,7 +34,7 @@ An evidence can be requested in the following three ways:
 -   By creating an evidence record from the **My Evidence** module.
 -   From the Entity, Control, Audit Task, Control Test Issue, and Other Issues related lists in an engagement record. To request evidence from these sources, navigate to **Audit** &gt; **Engagements** &gt; **My Engagements**. Open the engagement record, and select the related list from which you want to request evidence. From the **Action on selected rows** list, select **Request Evidence**. Here, you can either create a new evidence request or add more requests to an existing evidence request. The Evidence request is created but not evidence request tasks.
 
-    Select **Create a new evidence request task** in the **Request evidence** page to create request task.![](../image/evidence-request.png)
+    Select **Create a new evidence request task** in the **Request evidence** page to create request task.\[Omitted image "evidence-request.png"\] Alt text:
 
 -   From the following tables: Entity, Control, Control Objective, Control Test, Engagement, Issue. However, when the users request evidence from these tables, the evidence request is created not the actual evidence request task. The users must go to the evidence request record that is generated and then add evidence request tasks.
 
@@ -201,7 +202,7 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](../concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr><tr><td>
 

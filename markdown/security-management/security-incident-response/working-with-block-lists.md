@@ -2,6 +2,7 @@
 title: Working with block lists
 description: The ServiceNow Check Point Next Generation Threat Prevention Integration supports Block Lists that accept IP, URL, and Domain observables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/working-with-block-lists.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -80,9 +81,9 @@ URL
 Description - The HTTPS URL are formatted by the application to trim the path from the URL and retain the domain name only. Check Point NGTP relies on HTTP CONNECT request to evaluate the web traffic and enforce blocking. For HTTPS CONNECT request, the entire URL isn’t visible in the request and only domain name is visible. When a user blocks any HTTPS URL with specific path \(example; https://www.example.com/path\), the application trims the path automatically \(www.example.com\). The application maintains the relationship between original observable and the formatted URL. Below is the screenshot of Block List Entry which shows the formatted URL and the original observable.
 
 </td></tr></tbody>
-</table>![Block list entry](../image/block-request-list-entries.png)
+</table>\[Omitted image "block-request-list-entries.png"\] Alt text: Block list entry
 
 For HTTP URLs with a specific path \(for example, http://www.example.com/path\), Check Point would block the specified URL as the entire URL is visible in CONNECT request.
 
-![Block list entries for HTTP URLs](../image/block-request-list-entries2.png)
+\[Omitted image "block-request-list-entries2.png"\] Alt text: Block list entries for HTTP URLs
 

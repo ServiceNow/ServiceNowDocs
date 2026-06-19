@@ -2,6 +2,7 @@
 title: Web Embeddables
 description: Secure the web embeddables feature for authenticating the ServiceNow's web components that are used in third-party portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/web-embeddables.html
 release: australia
 product: Authentication
 classification: authentication
@@ -25,11 +26,11 @@ The \(`/now/client/authenticate`\) API end point is used for authenticating the 
 
 To use this end point, you need to send a valid bearer auth JWT based token in the authorization header as part of authentication request. When a valid token is sent, the session is considered as embedded with the removal of `admin` and `security admin` roles to the user.
 
-Further, you can perform role relegation to further configure the roles that are required to be removed during an embedded session. To learn more about embedded session role configuration, see [Configure client session access role](../task/configure-client-session-access-role.md).
+Further, you can perform role relegation to further configure the roles that are required to be removed during an embedded session. To learn more about embedded session role configuration, see [Configure client session access role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-client-session-access-role.md).
 
-To know more about the configuration of web embeddables, see [Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md).
+To know more about the configuration of web embeddables, see .
 
-By default, the policy can be configured with only **Embedded Session** filter criteria. You can leverage **Zero Trust Access \(ZTA\)** plugin to further enhance its usage with filters such as IP, Location, Role, Group, Identity Provider Attributes. You can add these filters to the policies created in the **Client Access Role Configuration** table. This ensures further strengthening the access complexity and have a better security posture while establishing an embedded session. For more information about ZTA, see [Zero Trust Access \(ZTA\)](session-access.md).
+By default, the policy can be configured with only **Embedded Session** filter criteria. You can leverage **Zero Trust Access \(ZTA\)** plugin to further enhance its usage with filters such as IP, Location, Role, Group, Identity Provider Attributes. You can add these filters to the policies created in the **Client Access Role Configuration** table. This ensures further strengthening the access complexity and have a better security posture while establishing an embedded session. For more information about ZTA, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/session-access.md).
 
 **Note:**
 
@@ -39,5 +40,5 @@ By default, the policy can be configured with only **Embedded Session** filter c
 You can also implement these additional security measures to further have a stronger control over the privileges of the user when using the web components:
 
 -   Configure the client type to **Embedded** for the corresponding OIDC \(OAuth Entity\) record. To set the client type as **Embedded**, you must install **Zero Trust Access \(ZTA\)** plugin.
--   Use the **IsEmbeddedSession** as a security attribute for the access controls \(ACLs\). The **IsEmbeddedSession** security attribute is added when installing the Embedded client access \(`com.glide.security.client_access`\) plugin. For more information, see [OOB \(Out-of-Box\) Security Attributes](../../../administer/contextual-security/reference/oob-security-attributes.md).
+-   Use the **IsEmbeddedSession** as a security attribute for the access controls \(ACLs\). The **IsEmbeddedSession** security attribute is added when installing the Embedded client access \(`com.glide.security.client_access`\) plugin. For more information, see [OOB \(Out-of-Box\) Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/oob-security-attributes.md).
 

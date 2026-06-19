@@ -2,6 +2,7 @@
 title: Install Conversational SMS Integration with Twilio
 description: You can install the Conversational SMS Integration with Twilio \(sn\_va\_sms\_twilio\) application to host Virtual Agent conversations in the SMS Twilio application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/install-sms-twilio.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,7 +31,7 @@ Role required: admin or virtual\_agent\_admin
 
     You can search for the application by its name or ID.
 
-    If you cannot find the application, you may have to request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    If you cannot find the application, you may have to request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -41,7 +42,7 @@ Role required: admin or virtual\_agent\_admin
 
 ## What to do next
 
-[Set up the Conversational SMS Integration with Twilio](configure-twilio-adapter.md).
+[Set up the Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-twilio-adapter.md).
 
-**Parent Topic:**[Configuring Conversational SMS Integration with Twilio](../concept/configure-va-sms-twilio-app.md)
+**Parent Topic:**[Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
 

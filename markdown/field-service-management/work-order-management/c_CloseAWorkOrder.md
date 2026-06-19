@@ -2,6 +2,7 @@
 title: Closing work orders and next steps
 description: In Field Service Management, work orders are closed automatically depending on the states of the associated work order tasks. Work orders are closed when all the tasks reach the closed state. It's helpful to understand what happens after an agent closes a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_CloseAWorkOrder.html
 release: australia
 product: Work Order Management
 classification: work-order-management

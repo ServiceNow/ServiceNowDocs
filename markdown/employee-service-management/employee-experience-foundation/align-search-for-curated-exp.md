@@ -2,6 +2,7 @@
 title: AI Search for Curated Experiences
 description: Align the AI search to limit the search to the content associated with your taxonomy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/align-search-for-curated-exp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

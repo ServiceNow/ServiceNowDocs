@@ -2,6 +2,7 @@
 title: Run Enrichment operations in TISC
 description: The following table below describes the interactions involved in running different enrichment operations from TISC.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-unified-experience-capabilities-and-modal-screens.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -69,14 +70,14 @@ Only Screen 1 – Select Implementations.There are no common inputs or implement
 -   Shodan
 
 </td></tr></tbody>
-</table>-   **[Observable Enrichment](../concept/tisc-observable-enrichment.md)**  
+</table>-   **[Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-observable-enrichment.md)**  
 The Enrich Observable WhoIs workflow performs enrichment on selected observables. If the observables are of a type recognized by the WhoisXML API Integration, the observables are enriched.
--   **[Run Threat Lookup](tisc-run-threat-lookup.md)**  
+-   **[Run Threat Lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-run-threat-lookup.md)**  
 Select one or more implementations as applicable to run threat lookup on observables.
--   **[Run Sighting Search](tisc-run-sighting-search.md)**  
+-   **[Run Sighting Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-run-sighting-search.md)**  
 Perform Run Sighting Search related integration.
--   **[Run Observable Enrichment](tisc-run-observable-enrichment.md)**  
+-   **[Run Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-run-observable-enrichment.md)**  
 Select one or more implementations as applicable to run threat lookup on observables.
 
-**Parent Topic:**[Observables](../concept/observables.md)
+**Parent Topic:**[Observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/observables.md)
 

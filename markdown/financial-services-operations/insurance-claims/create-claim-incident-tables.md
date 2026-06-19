@@ -2,13 +2,14 @@
 title: Create a Claim Incident table
 description: Create a Claim Incident \[sn\_ins\_claim\_property\] table for your business needs and the type of claims that you’re processing by using the Insurance claims application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-claim-incident-tables.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Claim incidents, Configure, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Claim incidents, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a Claim Incident table
@@ -40,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-Create roles for the new Claim Incident \[sn\_ins\_claim\_property\] table. For more information, see [Create roles for a claim incident table](create-roles-for-a-claim-incident-table.md).
+Create roles for the new Claim Incident \[sn\_ins\_claim\_property\] table. For more information, see [Create roles for a claim incident table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-roles-for-a-claim-incident-table.md).
 
 You can add script includes for the new incident table, including the code for getting the reference qualifier strings.
 

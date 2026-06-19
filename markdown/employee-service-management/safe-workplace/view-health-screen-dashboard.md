@@ -2,6 +2,7 @@
 title: Monitor progress with the Employee Health Screen Overview dashboard
 description: View the dashboard to monitor the entry requests and assess how the return to the workplace is progressing. Evaluate the number of entry requests, how many requests were denied entry, and for what reason.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/view-health-screen-dashboard.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -25,10 +26,10 @@ Role required: sn\_imt\_monitoring.monitoring\_admin
 
     The Employee Health Screen Overview dashboard opens in a new browser tab.
 
-    ![Overview dashboard displays numbers of screenings performed, with breakdowns of employees denied access and the reasons for denial.](../image/health-entry-dashboard.png)
+    \[Omitted image "health-entry-dashboard.png"\] Alt text: Overview dashboard displays numbers of screenings performed, with breakdowns of employees denied access and the reasons for denial.
 
     Click any area of a chart to see the corresponding records.
 
 
-**Parent Topic:**[Employee Health Screening](../concept/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
 

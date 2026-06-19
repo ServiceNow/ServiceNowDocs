@@ -2,6 +2,7 @@
 title: NotifyClient - Client
 description: The NotifyClient API provides methods that enable you to use Notify telephony functionality, such as making and receiving calls from a web browser.Instantiates a new Notify WebRTC Client object.Registers an event handler to listen for changes in a Notify client.Calls the specified phone number or the phone number associated with a specified user.Kills the current Notify client, rendering it unusable.Forwards an ongoing incoming or outgoing phone call to either a different phone number or a different WebRTC client.Returns a list of clients available to accept calls.Returns the parent call identifier for a specified call identifier, if one exists.Returns the normalized status of the current call.End the current call.Initializes the client driver.Mute or unmute the current client.Answers and connects to an incoming call from a WebRTC client.Send one or more DTMF-valid digits over the current call.Sets the caller ID for the current client session.Sets the availability of an active WebRTC client agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_Notify2WebRTCClient.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The NotifyClient API provides methods that enable you to use Notify telephony fu
 
 Several NotifyClient methods take a callback function as a parameter. Because NotifyClient method calls are made asynchronously, these methods can't return a value directly. Use the callback function to parse the returned data, such as by assigning variables or making other API calls.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## NotifyClient - Client\(Object notifyConfig, Boolean initializeVendorClientLazily\)
 
@@ -373,7 +374,7 @@ client.forwardCall(arg);
 
 Returns a list of clients available to accept calls.
 
-This method excludes the current client from the list. The equivalent [Notify-getAvailableClients\(\)](../../Notify/concept/c_NotifyAPI.md#) method does not filter any user.
+This method excludes the current client from the list. The equivalent [Notify-getAvailableClients\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_NotifyAPI.md) method does not filter any user.
 
 <table id="table_xc5_skr_ls" class="parameters"><thead><tr><th>
 

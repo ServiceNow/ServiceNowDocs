@@ -2,6 +2,7 @@
 title: Create a supplier case
 description: As a procurement specialist, with an additional supplier role of sn\_slm.manager, create a supplier case from the list view of Source-to-Pay Workspace to address your supplier-related business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-supplier-case-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -58,5 +59,5 @@ Role required: sn\_shop.procurement\_specialist and sn\_slm.manager
 7.  Select **Save**.
 
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

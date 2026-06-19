@@ -2,7 +2,10 @@
 title: Configure resources to load
 description: Administrators can configure the number of resources to load on the calendar in Dispatcher Workspace so the page loads faster with fewer resources. Or the dispatcher can see more information at a glance if more resources are loaded.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-resource-load.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ By default the calendar in Dispatcher Workspace shows 15 resources loaded on the
 
 The image below shows what Dispatcher Workspace looks like with the default number of resources added.
 
-![Dispatcher workspace with the default resources loaded](../image/non-collapsed.png)
+\[Omitted image "non-collapsed.png"\] Alt text: Dispatcher workspace with the default resources loaded
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Add tasks to an activity set using Journey designer
 description: Add tasks to a Lifecycle Events activity set to personalize an employee’s journey. Adding tasks gives you the flexibility to tailor journeys to individual employee needs without modifying the underlying journey configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/add-tasks-activity-set.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -17,7 +18,7 @@ Add tasks to a Lifecycle Events activity set to personalize an employee’s jour
 
 ## Before you begin
 
-An administrator must enable team tasks before you can add tasks to an activity set from the Journey detail page. For more information about enabling this feature, see [Enable team tasks](enable-team-tasks.md).
+An administrator must enable team tasks before you can add tasks to an activity set from the Journey detail page. For more information about enabling this feature, see [Enable team tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/enable-team-tasks.md).
 
 Role required: manager \[sn\_jny.reader or sn\_jny.writer\]
 
@@ -132,5 +133,5 @@ Check box to specify whether the task is optional.
 8.  In the topic header widget, select **Republish** to publish the task and make it visible to the employee.
 
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

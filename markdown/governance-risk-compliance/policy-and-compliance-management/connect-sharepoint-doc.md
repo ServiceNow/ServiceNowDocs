@@ -2,6 +2,7 @@
 title: Connect an existing document in Microsoft SharePoint
 description: Connect a document that exists in your Microsoft SharePoint folder to a policy that you created. Use this existing document and enable redlining in the policy text instead of creating a document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/connect-sharepoint-doc.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -17,13 +18,13 @@ Connect a document that exists in your Microsoft SharePoint folder to a policy t
 
 ## Before you begin
 
-Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
+Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, mp\_document\_user
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-cam-workspace/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -41,11 +42,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     2.  Navigate to the document that you want to connect to the policy.
 
-    3.  Select the **Share** list in the Home page and click the **Copy link to page** option.
+    3.  Select the **Share** list in the Home page and select the **Copy link to page** option.
 
 7.  Navigate back to the Policy text related list of the policy record.
 
-8.  Select the **Enable document editing** list and click the **Connect existing document** option.
+8.  Select the **Enable document editing** list and select the **Connect existing document** option.
 
 9.  Paste the copied Microsoft SharePoint site URL in the **Site URL** field of the Connect existing Word document pop-up.
 
@@ -53,7 +54,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 11. Select **Connect**.
 
+    If personal authentication is enabled and this is the first time you are performing a document operation in this session, a one-time authentication prompt appears. For SharePoint, the prompt uses the logged-in Microsoft O365 session automatically.
+
     A message appears stating that Microsoft Word editing is enabled. The policy record is connected to the document.
+
+    The connect operation is registered in SharePoint under your personal account identity.
 
 12. Select **Update**.
 

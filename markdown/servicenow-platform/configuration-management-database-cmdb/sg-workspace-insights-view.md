@@ -2,12 +2,13 @@
 title: Insights view in Service Graph Workspace
 description: View insightful dashboards that show aggregated counts, state, and health for key features such as CMDB Health, Service Instances, and CMDB 360.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Explore, Service Graph Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -23,11 +24,13 @@ Role required: Any role containing sn\_cmdb\_user \(sn\_cmdb\_user, sn\_cmdb\_ed
 
 ## Insights dashboards
 
--   [CMDB Health](sg-workspace-insights-cmdbhealth.md)
--   [CMDB Get Well](sg-workspace-insights-cmdbgetwell.md)
--   [CSDM Get Well](sg-workspace-insights-csdmgetwell.md)
--   [Feature adoption](sg-workspace-insights-featadoption.md)
--   [Performance](sg-workspace-insights-perfinsight.md)
--   [Service instance](sg-workspace-insights-serviceinstances.md)
--   [CMDB 360](sg-workspace-insights-cmdb360.md)
+-   [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbhealth.md)
+-   [CMDB Data Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbgetwell.md)
+-   [CSDM Data Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-csdmgetwell.md)
+-   [CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-sa.md)
+-   [Feature adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-featadoption.md)
+-   [Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-perfinsight.md)
+-   [Cloud vs Non-cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cloud.md)
+-   [Service instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-serviceinstances.md)
+-   [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md)
 

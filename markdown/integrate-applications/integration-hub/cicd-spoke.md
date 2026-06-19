@@ -2,6 +2,7 @@
 title: Continuous Integration and Continuous Delivery \(CICD\) Spoke
 description: Build a Continuous Integration and Continuation Delivery \(CICD\) pipeline for your ServiceNow instances. You can automate publishing and installing applications from an application repository, activating plugins, running ATF test suites, and running an instance scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/cicd-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -293,11 +294,11 @@ The Continuous Integration and Continuous Delivery \(CICD\) spoke requires creat
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-This spoke uses the CICD alias record to authorize actions on local and remote instances. For information about setting up the spoke, see [Set up the Continuous Integration and Continuous Delivery \(CICD\) spoke](../task/set-up-cicd.md#).
+This spoke uses the CICD alias record to authorize actions on local and remote instances. For information about setting up the spoke, see [Set up the Continuous Integration and Continuous Delivery \(CICD\) spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-cicd.md).
 
 ## MID Server requirements
 
-These actions use REST calls, which can run on an instance or MID Server. Use the connection record associated with the CICD alias to configure where actions run as well as set MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+These actions use REST calls, which can run on an instance or MID Server. Use the connection record associated with the CICD alias to configure where actions run as well as set MID Server selection attributes. For more information, see MID server.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

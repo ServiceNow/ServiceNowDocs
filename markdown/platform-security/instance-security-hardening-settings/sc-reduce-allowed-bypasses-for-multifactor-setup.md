@@ -2,6 +2,7 @@
 title: Reduce allowed bypasses for multifactor setup
 description: Decrease the window of time an account is at risk of compromise by reducing allowed bypasses for multifactor setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-reduce-allowed-bypasses-for-multifactor-setup.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -35,7 +36,7 @@ Set the **glide.authenticate.multifactor.setup.bypass.count** system property to
 |Fallback value|0|
 |Recommended value|0|
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

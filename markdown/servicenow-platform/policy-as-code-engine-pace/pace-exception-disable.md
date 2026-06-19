@@ -2,6 +2,7 @@
 title: Disable exceptions for a policy
 description: You can disable exceptions for a policy for which exceptions have been granted. When this option is selected, you can no longer request exceptions and control objectives can no longer be associated with the policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-exception-disable.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

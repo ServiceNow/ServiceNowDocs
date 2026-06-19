@@ -2,6 +2,7 @@
 title: Configure your controller instance
 description: You must identify one of the instances in your app development pipeline as the controller instance. All communication between the instances in your pipeline, including the deployment order for applications in the pipeline, takes place in the controller instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/config-controller-instance.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -27,9 +28,9 @@ Typically, your production instance should be identified as the controller insta
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **Pipelines and Deployments** &gt; **Environments**.
 
-2.  When you are [configuring your pipeline environments](config-pipeline-environments.md), decide which instance you want to use as the controller, and select the **Is Controller?** check box for that instance.
+2.  When you are [configuring your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-pipeline-environments.md), decide which instance you want to use as the controller, and select the **Is Controller?** check box for that instance.
 
-    ![Is Controller? field](../image/controller-instance-purple.png)
+    \[Omitted image "controller-instance-purple.png"\] Alt text: Is Controller? field
 
 3.  Select **Save**.
 

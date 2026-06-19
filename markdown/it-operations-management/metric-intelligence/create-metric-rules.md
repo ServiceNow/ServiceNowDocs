@@ -2,6 +2,7 @@
 title: Create metric rules
 description: Create a metric rule to determine the metric, the threshold values and ranges, and the severity level of generated events. You can add a filter that determines the Configuration Items \(CI\) types or resources for which you receive alerts. For example, you can configure a filter to receive alerts only for Windows servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/create-metric-rules.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -82,10 +83,10 @@ When a metric crosses or falls within the range of a configured threshold, the s
 
 9.  Verify the name and details of the metric rule.
 
-    To activate the rule, ensure that the **Active** toggle switch ![Active toggle switch.](../image/active-toggle-switch.png) is activated.
+    To activate the rule, ensure that the **Active** toggle switch \[Omitted image "active-toggle-switch.png"\] Alt text: Active toggle switch. is activated.
 
 10. Select **Finish**.
 
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

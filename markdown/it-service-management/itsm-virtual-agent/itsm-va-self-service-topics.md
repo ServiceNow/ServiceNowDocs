@@ -2,6 +2,7 @@
 title: Self-Service pre-built topics for ITSM Virtual Agent
 description: Self-Service topic conversations are designed to give users to access IT-related information, such as open or check IT ticket status, verify assigned equipment, and Knowledge Base search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-self-service-topics.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -19,9 +20,9 @@ Self-Service topic conversations are designed to give users to access IT-related
 
 Users can book a conference room in Microsoft Exchange Online using Virtual Agent.
 
-Requirement: [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md) \(sn\_ex\_online\_spke\)
+Requirement: Microsoft Exchange Online spoke \(sn\_ex\_online\_spke\)
 
-This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 Basic flow:
 
@@ -41,15 +42,15 @@ Basic flow:
 5.  User provides a meeting subject and can send the invitation to attendees if the user provides email addresses.
 6.  User confirms meeting details, and the request is submitted.
 
-![Book Conference Room Exchange Online topic.](../image/BookingEO4.png)
+\[Omitted image "BookingEO4.png"\] Alt text: Book Conference Room Exchange Online topic.
 
 ## Book Conference Room OnPrem
 
 Users can book a conference room in on-premises Microsoft Exchange Server using Virtual Agent.
 
-Requirement: [Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msexchangeserver-spoke.md) \(sn\_exchange\_spoke\)
+Requirement: Microsoft Exchange Server spoke \(sn\_exchange\_spoke\)
 
-This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 Basic flow:
 
@@ -69,7 +70,7 @@ Basic flow:
 5.  User provides a meeting subject and can send the invitation to attendees if the user provides email addresses.
 6.  User confirms meeting details, and the request is submitted.
 
-![Book Conference Room OnPrem topic confirmation.](../image/BookingOnPrem7.png)
+\[Omitted image "BookingOnPrem7.png"\] Alt text: Book Conference Room OnPrem topic confirmation.
 
 ## Check IT Ticket Status
 
@@ -77,7 +78,7 @@ Users can check the status of active IT tickets \(incidents or requests\). When 
 
 Users can add comments and also ask to chat with a live agent.
 
-![Check IT Ticket status topic.](../image/CheckITTicketStatus.png)
+\[Omitted image "CheckITTicketStatus.png"\] Alt text: Check IT Ticket status topic.
 
 ## Check Ticket and Support Status
 
@@ -87,15 +88,15 @@ Users can search for an incident, a customer case, or an HR ticket by the ticket
 
 Users can raise the urgency of an IT ticket for a faster resolution. Escalating a ticket priority requires choosing the incident and verifying the escalation. Users must provide a justification to escalate the incident. Virtual Agent escalates the incident to the next urgency level, for example, from low to medium, or from medium to high. If an incident is already at high-level urgency, Virtual Agent alerts the user to this and asks if the user would like to add a comment to help expedite resolution.
 
-![Escalate IT Ticket topic.](../image/EscalateITTicket.png)
+\[Omitted image "EscalateITTicket.png"\] Alt text: Escalate IT Ticket topic.
 
 ## Get Password Reset Link \(deprecated\)
 
-This topic is deprecated. Use [Reset Password](../concept/itsm-password-management.md#itsm-va-reset-password-topic) instead.
+This topic is deprecated. Use [Reset Password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-password-management.md) instead.
 
 Users can access a password reset link when system lockout occurs or when passwords are forgotten. When a user enters keywords related to password reset, Virtual Agent provides a link to the password reset process. If a user is not authenticated in the system, Virtual Agent requests the user's email address. If a user is not enrolled in Password Reset, Virtual Agent provides a link to **Password Enrollment**.
 
-**Note:** An admin must properly configure the password reset process with a valid verification type for this topic to work as described. For details, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
+**Note:** An admin must properly configure the password reset process with a valid verification type for this topic to work as described. For details, see Configure your Password Reset process.
 
 ## Get Zoom Meeting Recording
 
@@ -103,12 +104,12 @@ Users can get a recording of a Zoom meeting that they hosted in Microsoft Exchan
 
 Requirements:
 
--   [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md) \(com.sn.msexchange.spoke\)
--   [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zoom-spoke.md) \(com.sn.zoom.spoke\)
+-   Microsoft Exchange Online spoke \(com.sn.msexchange.spoke\)
+-   Zoom spoke \(com.sn.zoom.spoke\)
 -   User email address must be configured in the User \[sys\_user\] table
 -   User email address must match the address in Microsoft Exchange Online and Zoom
 
-This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 Basic flow:
 
@@ -122,18 +123,18 @@ Basic flow:
     The user can also share the recording with the meeting invitees or to a list of emails. If the host shares the meeting link, recipients receive an email notification.
 
 
-![Get Zoom Meeting Recording topic.](../image/ZoomRecording4.png)
+\[Omitted image "ZoomRecording4.png"\] Alt text: Get Zoom Meeting Recording topic.
 
 ## My Assigned Equipment
 
 Users can view a list of all assigned equipment, such as laptops, mobile phones, and monitors. Clicking an item link provides additional details about the asset. Users can also create an asset-related incident directly within the conversation. Opening an incident from this conversation initiates the Open IT Ticket conversation topic by using the Create Incident topic block.
 
-This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Contextual Search
 -   Create Incident
 
-![My Assigned Equipment topic.](../image/MyAssignedAssets.png)
+\[Omitted image "MyAssignedAssets.png"\] Alt text: My Assigned Equipment topic.
 
 ## Open IT Ticket \(deprecated\)
 
@@ -143,12 +144,12 @@ This topic is deprecated. Use Open IT Ticket 2.0 instead.
 
 Users can open an incident or access relevant knowledge base articles to resolve an issue. After typing keywords, such as `open ticket` or `incident`, Virtual Agent prompts the user to enter a short description of the issue. Virtual Agent returns links to relevant knowledge base articles and asks if an article resolved the issue. If it did not, Virtual Agent asks for the urgency of the issue and creates an incident, providing a link to the actual incident.
 
-This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Contextual Search
 -   Create Incident
 
-When creating an incident, if you also want to create an associated Universal Request and display the Universal Request card in Virtual Agent instead of the incident, the [Universal Request plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/setup-configure-ur.md) \(com.snc.universal\_request\) must be active, and the **Create Universal Request with incident** system property \(**com.snc.create\_universal\_request\_with\_incident**\) must be set to **Yes** \(the default is Yes\).
+When creating an incident, if you also want to create an associated Universal Request and display the Universal Request card in Virtual Agent instead of the incident, the Universal Request plugin \(com.snc.universal\_request\) must be active, and the **Create Universal Request with incident** system property \(**com.snc.create\_universal\_request\_with\_incident**\) must be set to **Yes** \(the default is Yes\).
 
 **Note:** Locate the property within the **Incident Properties** module, in the **Incident VA Conversation** category. Users with the itil\_admin role have read and write permissions.
 
@@ -156,9 +157,9 @@ When creating an incident, if you also want to create an associated Universal Re
 
 This topic is recommended to create an IT incident. Users can leverage machine-learning algorithms with application logic for predicting similar open tickets. Prevent users from opening duplicate incidents by finding similar incidents and asking if the user wants to add comments to the similar incident.
 
-Requirement: [Predictive Intelligence for Incident plugin](../../incident-management/task/request-predictive-intelligence-for-im.md) \(com.snc.incident.ml\)
+Requirement: [Predictive Intelligence for Incident plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-predictive-intelligence-for-im.md) \(com.snc.incident.ml\)
 
-This topic uses the following [topic blocks](itsm-va-topic-blocks.md):
+This topic uses the following [topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md):
 
 -   Add Comments-Similar Incident
 -   Contextual Search
@@ -174,55 +175,55 @@ Users with the approver\_user role can access active approval requests. Virtual 
 
 Users can access all known outage information. When a user asks if a particular system is down, Virtual Agent returns a list of links displaying planned or unplanned outages and any system degradations. Users can click the links for more detailed information about a specific outage or degradation, as well as click **Show more** when additional outages are known.
 
-![Service Disruptions topic.](../image/ServiceDisruptions.png)
+\[Omitted image "ServiceDisruptions.png"\] Alt text: Service Disruptions topic.
 
 ## Set OOO reply Exchange Server
 
 Users can set an automatic out-of-office reply for Microsoft Exchange Server using Virtual Agent. The user selects the start and end time using their current local time zone. This topic recognizes date-range entities and intents. The message is hard-coded and is the same for internal and external recipients.
 
-Requirement: [Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msexchangeserver-spoke.md) \(sn\_exchange\_spoke\)
+Requirement: Microsoft Exchange Server spoke \(sn\_exchange\_spoke\)
 
-This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
-![Set OOO reply Exchange Server topic.](../image/SetOOOExchangeServer3.png)
+\[Omitted image "SetOOOExchangeServer3.png"\] Alt text: Set OOO reply Exchange Server topic.
 
 ## Submit a request \(deprecated\)
 
-**Note:** While you can use the Submit a request topic to search for and request catalog items, the recommended method is to use the [Fallback setup topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/working-setup-topics.md).
+**Note:** While you can use the Submit a request topic to search for and request catalog items, the recommended method is to use the Fallback setup topic.
 
 Users can submit a request by choosing from all available options. For example, when a user is requesting an item, the Virtual Agent prompts the user to enter a search keyword. After the user enters the keyword, Virtual Agent responds with available choices in a carousel view.
 
-This topic uses the following [Service Catalog topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md):
+This topic uses the following Service Catalog topic blocks:
 
 -   Request Catalog Item
 -   Search Catalog Item
 
 When the user selects the required item, the following scenarios are possible:
 
--   A user can submit a request in the conversation mode \(by answering the questions in line\). After the request submission, a requested item card is displayed with the request number as a link to the request page.![Requested completed card in Virtual Agent](../../service-catalog-management/image/va-request-complete.png)
+-   A user can submit a request in the conversation mode \(by answering the questions in line\). After the request submission, a requested item card is displayed with the request number as a link to the request page.\[Omitted image "va-request-complete.png"\] Alt text: Requested completed card in Virtual Agent
 
     **Note:** In Now® Mobile, the URL opens the native screen.
 
 -   A user can submit a request in a popup or a window.
 
-    -   In case of a popup, Virtual Agent provides a link for the user to submit the request in a popup without navigating to a new tab. A non-conversational catalog item can be rendered as a popup only if it does not have any Custom, Custom with label, or UI Page variables. For more information, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
-    -   In case of a window, Virtual Agent provides a link for the user to submit the request in the Service Portal defined in the **sn\_itsm\_va.com.snc.itsm.virtualagent.portal\_url** property. A non-conversational item will be rendered as a window it has a Custom, Custom with label, or UI Page variable. For more information, see [Service Catalog topic blocks in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-topic-blocks-va.md).
+    -   In case of a popup, Virtual Agent provides a link for the user to submit the request in a popup without navigating to a new tab. A non-conversational catalog item can be rendered as a popup only if it does not have any Custom, Custom with label, or UI Page variables. For more information, see Service Catalog topic blocks in Virtual Agent.
+    -   In case of a window, Virtual Agent provides a link for the user to submit the request in the Service Portal defined in the **sn\_itsm\_va.com.snc.itsm.virtualagent.portal\_url** property. A non-conversational item will be rendered as a window it has a Custom, Custom with label, or UI Page variable. For more information, see Service Catalog topic blocks in Virtual Agent.
     **Note:** Now Mobile opens the item in Mobile Employee Service Portal \(mesp\).
 
-    ![Submit a Request virtual agent chatbot dialogue.](../../service-catalog-management/image/SubmitaRequest.png)
+    \[Omitted image "SubmitaRequest.png"\] Alt text: Submit a Request virtual agent chatbot dialogue.
 
 
 ## Walk-up Check-in
 
 Users can check into a ServiceNow® Walk-up Experience location and secure a place in the queue, or they can schedule an appointment at a walk-up location for themselves. Users can also schedule an appointment on behalf of someone else.
 
-Requirement: [Walk-up Experience plugin](../../walk-up-experience/task/activate-walkup-experience.md) \(com.snc.walkup\)
+Requirement: [Walk-up Experience plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/activate-walkup-experience.md) \(com.snc.walkup\)
 
-This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
-![Walk-up Check-in topic.](../image/WalkupCheckin.png)
+\[Omitted image "WalkupCheckin.png"\] Alt text: Walk-up Check-in topic.
 
-![Video icon](../image/icon-video-link.png) [Virtual Agent Academy: Get service faster with Virtual Agent and Walk-Up Experience](https://www.youtube.com/watch?v=hE5weOQVFe4&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH) \(video from the Virtual Agent Academy\)
+\[Omitted image "icon-video-link.png"\] Alt text: Video icon [Virtual Agent Academy: Get service faster with Virtual Agent and Walk-Up Experience](https://www.youtube.com/watch?v=hE5weOQVFe4&list=PLkGSnjw5y2U79gjQuQW-2GBqzEccwFkWH) \(video from the Virtual Agent Academy\)
 
 ## Windows 365 Cloud PC
 
@@ -230,12 +231,12 @@ Users can request a Microsoft 365 Cloud PC for themselves through a Virtual Agen
 
 Requirements:
 
--   [Microsoft Azure Active Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md) \(com.sn.azure\_ad.spoke\)
+-   Microsoft Azure Active Directory spoke \(com.sn.azure\_ad.spoke\)
 -   Integration with the Microsoft service via ServiceNow® Integration Hub and Workflow Studio
 
-This topic uses the Create Incident [topic block](itsm-va-topic-blocks.md).
+This topic uses the Create Incident [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
-![Windows 365 Cloud PC topic.](../image/CloudPC1.png)
+\[Omitted image "CloudPC1.png"\] Alt text: Windows 365 Cloud PC topic.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](../concept/using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

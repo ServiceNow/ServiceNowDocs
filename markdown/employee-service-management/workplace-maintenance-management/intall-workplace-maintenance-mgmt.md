@@ -2,18 +2,19 @@
 title: Install Workplace Maintenance Management
 description: Install the Workplace Maintenance Management \( application from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/intall-workplace-maintenance-mgmt.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Maintenance Management, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Maintenance Management
 
-Install the Workplace Maintenance Management \( application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Maintenance Management \( application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -60,9 +61,9 @@ Role required: sn\_wsd\_maintenance.admin
 
 Workplace Maintenance Management is installed.
 
-**Parent Topic:**[Configuring Maintenance Management](../concept/configure-maintenance-mgmt.md)
+**Parent Topic:**[Configuring Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
 
-**Previous topic:**[Configuring Maintenance Management](../concept/configure-maintenance-mgmt.md)
+**Previous topic:**[Configuring Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/configure-maintenance-mgmt.md)
 
-**Next topic:**[Manage Workplace Maintenance Management plans](../concept/manage-maintenance-plans.md)
+**Next topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 

@@ -2,6 +2,7 @@
 title: Using Enterprise Agile Planning
 description: Manage your team backlog, plan for sprints and iterations, add dependencies, and collaborate using team-level and work item level Docs using Enterprise Agile Planning in the Strategic Planning Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/using-enterprise-agile-planning.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning

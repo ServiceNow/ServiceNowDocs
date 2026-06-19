@@ -2,6 +2,7 @@
 title: Upload a document from Employee Center
 description: Complete the task that your procurement specialist has assigned to you by uploading a document, directly from Employee Center. This action is listed as a task under My Tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/upload-document-task-ec.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -42,5 +43,5 @@ Role required: sn\_shop.shopper
 
 You can view the completed task in the **Completed** tab.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

@@ -2,13 +2,14 @@
 title: Activate the sitemap configuration and definition records for the Consumer Service Portal
 description: Include knowledge articles and catalogs in your sitemap by activating the sitemap configuration and definition records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-sitemap-confi-csp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer and Consumer Service Portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Activate the sitemap configuration and definition records for the Consumer Service Portal
@@ -17,7 +18,7 @@ Include knowledge articles and catalogs in your sitemap by activating the sitema
 
 ## Before you begin
 
--   [Activate Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/activate-sitemap-generator.md)
+-   Activate Sitemap Generator
 -   Verify that an unauthenticated user can access the knowledge base article and catalogs by accessing it as a guest user.
 -   Verify that the Public option is selected on the Knowledge Article form or Service Catalog page form.
 
@@ -39,7 +40,7 @@ Beginning with the Australia release, the Sitemap Generator configuration is ava
 
     2.  In the Sitemap Config Definition related list, double-click the **Type** field and select the **true** option from the list.
 
-    3.  Select the Save icon \(![Save icon](../image/save.png)\).
+    3.  Select the Save icon \(\[Omitted image "save.png"\] Alt text: Save icon\).
 
 4.  Select **Update**.
 

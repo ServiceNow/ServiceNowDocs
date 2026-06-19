@@ -2,6 +2,7 @@
 title: Configure Workplace Agent for mobile
 description: Install the Workplace Agent for mobile application to start using it on the ServiceNow Agent mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/configure-workplace-mobile-agent.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
@@ -15,8 +16,8 @@ breadcrumb: [Workplace Agent for mobile, Workplace Service Delivery, Employee Se
 
 Install the Workplace Agent for mobile application to start using it on the ServiceNow Agent mobile application.
 
--   **[Install Workplace Agent for mobile](../task/install-agent-workplace-services-for-mobile.md)**  
-Install the Workplace Agent for mobile application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+-   **[Install Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/install-agent-workplace-services-for-mobile.md)**  
+Install the Workplace Agent for mobile application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-**Parent Topic:**[Workplace Agent for mobile](workplace-agent-mobile-feat.md)
+**Parent Topic:**[Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/workplace-agent-mobile-feat.md)
 

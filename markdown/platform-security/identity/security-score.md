@@ -2,6 +2,7 @@
 title: Security findings
 description: Provides Machine Identity security score and findings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/security-score.html
 release: australia
 product: Identity
 classification: identity
@@ -19,7 +20,7 @@ Provides Machine Identity security score and findings.
 
 The security score is displayed for following security findings. You can select each findings for learn more.
 
-![Machine Identity security score and findings](../images/mic-security-findings-landing.png)
+\[Omitted image "mic-security-findings-landing.png"\] Alt text: Machine Identity security score and findings
 
 |Findings|Description|
 |--------|-----------|

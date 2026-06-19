@@ -2,6 +2,7 @@
 title: Create a workflow for an SLA Definition
 description: Automate a multi-step process by creating a workflow from an SLA definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/t\_CreateAWorkflowFromSLADefinition.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -17,7 +18,7 @@ Automate a multi-step process by creating a workflow from an SLA definition.
 
 ## Before you begin
 
--   If you’re designing the workflow as part of an update set process, see [Workflow movement with update sets](../concept/c_WorkflowMovementWithUpdateSets.md#) before creating the workflow.
+-   If you’re designing the workflow as part of an update set process, see [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowMovementWithUpdateSets.md) before creating the workflow.
 
 ## Procedure
 
@@ -25,7 +26,7 @@ Automate a multi-step process by creating a workflow from an SLA definition.
 
     For example **Facilities &gt; SLA Definitions** or **Service Level Management &gt; SLA Definitions**.
 
-2.  At the top of the form, next to **SLA Definitions**, click the new icon \(![New icon.](../image/NewCatalogItemButton.png)\).
+2.  At the top of the form, next to **SLA Definitions**, click the new icon \(\[Omitted image "NewCatalogItemButton.png"\] Alt text: New icon.\).
 
 3.  Select **Contract SLA** or **Service Offering SLA**.
 
@@ -33,7 +34,7 @@ Automate a multi-step process by creating a workflow from an SLA definition.
 
 5.  Next to **Workflow** at the top, click **New**.
 
-    ![Create a workflow from an SLA definition.](../../workflow/image/CreateWorkflowFromSLADefinition.png)
+    \[Omitted image "CreateWorkflowFromSLADefinition.png"\] Alt text: Create a workflow from an SLA definition.
 
     The Workflow Version dialog shows in the New Workflow view. The **Table** field is set to **SLA Definition \(contract\_sla\)** or **Service Offering SLA \(service\_offering\_sla\)** and is read-only.
 
@@ -47,16 +48,16 @@ Automate a multi-step process by creating a workflow from an SLA definition.
 
     The new workflow is created with the **Begin** and **End** activities connected by a single transition.
 
-    ![New workflow.](../image/WorkflowNew.png)
+    \[Omitted image "WorkflowNew.png"\] Alt text: New workflow.
 
 10. Finish creating the workflow by adding activities, validating, and publishing so the workflow is available to other users.
 
-    For more information, see [Work on workflows](work-on-workflows.md#).
+    For more information, see [Work on workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/work-on-workflows.md).
 
-11. \[Optional\] Change the advanced settings for the workflow by clicking the properties icon \(![Properties icon.](../../workflow/image/PropIcon.png)\).
+11. \[Optional\] Change the advanced settings for the workflow by clicking the properties icon \(\[Omitted image "PropIcon.png"\] Alt text: Properties icon.\).
 
     If you make changes, click **Update**.
 
 
-**Parent Topic:**[Create a workflow](t_CreateAWorkflow.md)
+**Parent Topic:**[Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_CreateAWorkflow.md)
 

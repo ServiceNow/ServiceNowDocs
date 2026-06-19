@@ -2,6 +2,7 @@
 title: Cancel a Discovery from a Discovery Status
 description: You can manually cancel a discovery while it is in progress from the Discovery Status record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_CancelDiscoveryStatus.html
 release: australia
 product: Discovery
 classification: discovery
@@ -36,5 +37,5 @@ Role required: discovery\_admin
 
 When a Discovery status cancels, any associated sensor transactions are immediately terminated and any scheduled sensor jobs are deleted from the system. After cancellation, the cleanup Status shows the **Completed count** and the cancellation is logged in the Discovery log. In the Queue \[ecc\_queue\] table, any records belonging to sensors exceeding the Transaction Quota Rule are set to the **Error** state.
 
-**Parent Topic:**[Discovery status](../concept/c_DiscoveryStatus.md)
+**Parent Topic:**[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md)
 

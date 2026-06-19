@@ -2,6 +2,7 @@
 title: Exploring Omnichannel Callback
 description: Learn more about Omnichannel Callback and review its benefits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/omnichannel-callback/exploring-omnichannel-callback.html
 release: australia
 product: Omnichannel Callback
 classification: omnichannel-callback
@@ -36,7 +37,7 @@ In this workflow:
 |-------|-------|-----|
 |Omnichannel Callback creates callback work items for available agents via AWA. Callback requests are placed in the AWA queue immediately upon submission. If the customer does not answer the initial callback, the agent has the option to manually initiate a retry. In such cases, the callback is re-queued according to the retry mechanism defined in the system.|ASAP Callback|Agents|
 |Users requesting a callback can schedule by date and time based on the available time slots. Omnichannel Callback provides the framework for the scheduled callback. Consumer use cases for scheduled callback are currently supported via Customer Service Management \(CSM\) application only.|Scheduled callback|Customers|
-|The user can request for a video callback at an appointed time. Currently, video callback is supported only via the Zoom service and requires the Zoom extension for Omnichannel Callback Store app. For more information, see [Zoom extension for Omnichannel Callback](../../zoom-channel-omni-callback/Concept/zoom-extension-omni-callback.md).|Video callback|Customers|
+|The user can request for a video callback at an appointed time. Currently, video callback is supported only via the Zoom service and requires the Zoom extension for Omnichannel Callback Store app. For more information, see [Zoom extension for Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/callback-over-zoom/zoom-extension-omni-callback.md).|Video callback|Customers|
 
 ## Omnichannel Callback APIs
 

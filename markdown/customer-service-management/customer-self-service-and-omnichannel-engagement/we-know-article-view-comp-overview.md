@@ -2,6 +2,7 @@
 title: Knowledge article view component
 description: Displays knowledge articles along with the key details like title, content, author, view count, read time, and others. You can also rate the article and switch the language according to your preferred locale.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-know-article-view-comp-overview.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -15,5 +16,5 @@ breadcrumb: [Configure web components, Web Embeddables, Set up self-service, Con
 
 Displays knowledge articles along with the key details like title, content, author, view count, read time, and others. You can also rate the article and switch the language according to your preferred locale.
 
-![Knowledge article view component instance displaying knowledge article in the Preview tab.](../image/we-know-article-view-comp.png "Knowledge article view component")
+\[Omitted image "we-know-article-view-comp.png"\] Alt text: Knowledge article view component instance displaying knowledge article in the Preview tab.
 

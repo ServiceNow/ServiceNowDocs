@@ -2,6 +2,7 @@
 title: Understanding processing activity hierarchy
 description: Track how personal data flows across vendors, applications, and systems within and beyond a processing activity to identify and mitigate privacy-related risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/processing-activity-hierarchy.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -28,5 +29,5 @@ To understand why lineage is important, consider the following example of a Tale
 
 By establishing a lineage for this processing activity, the organization can track where each piece of personal data originates, how it is processed, and where it is shared. This visibility helps identify potential privacy risks, such as unauthorized access or data breaches, at any point where personal data is exchanged. With a clear lineage in place, the organization can ensure it is aware of all points where personal data flows and can implement appropriate safeguards to mitigate privacy-related risks.
 
-**Parent Topic:**[Processing activities](ropa-record.md)
+**Parent Topic:**[Processing activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ropa-record.md)
 

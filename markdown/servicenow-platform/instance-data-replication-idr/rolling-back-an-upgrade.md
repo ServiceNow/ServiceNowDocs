@@ -2,6 +2,7 @@
 title: Rolling back an upgrade in Instance Data Replication
 description: If a problem occurs during an upgrade to V2, the upgrade is rolled back in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/rolling-back-an-upgrade.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -28,5 +29,5 @@ For example, when the consumer instance identifies the most recent message in th
     This option allows you to complete the upgrade for replication sets where the consumer replication is lagging or no records have been replicated to the V2 topic. However, it may skip replicated records or attempt to duplicate replication. If you have concerns over missing or mismatched records, you can create a data comparison request to reseed those records.
 
 
-**Parent Topic:**[Upgrading legacy replication sets to V2 in Instance Data Replication](upgrading-legacy-replication-sets-v2.md)
+**Parent Topic:**[Upgrading legacy replication sets to V2 in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/upgrading-legacy-replication-sets-v2.md)
 

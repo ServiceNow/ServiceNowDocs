@@ -2,6 +2,7 @@
 title: Exploring Health and Safety Incident Management
 description: Health and Safety Incident Management enables the safety department to receive incidents and observations and conduct detailed legal investigations by conducting interviews, gathering evidence, and preparing final reports and recommended actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/explore-hs-incident-mgmt.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -37,7 +38,7 @@ Health and Safety Incident Management enables the safety department to receive i
     -   Log meeting minutes and actions.
     -   Flag meetings and minutes as sensitive
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Personas
 
@@ -102,8 +103,8 @@ Executives
 Executives who access the Health and Safety executive landing page to view safety metrics and gain insight into how the safety team and company are performing in terms of safety.
 
 </td></tr></tbody>
-</table>-   **[Health and Safety Incident Management workflow example](hs-incident-mgmt-workflow.md)**  
+</table>-   **[Health and Safety Incident Management workflow example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-workflow.md)**  
 The safety incident workflow available with Health and Safety Incident Management connects employees and safety department and agents to quickly initiate, investigate, and resolve safety incidents and observations in your organization.
 
-**Parent Topic:**[Health and Safety Incident Management](hs-incident-mgmt-landing-page.md)
+**Parent Topic:**[Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md)
 

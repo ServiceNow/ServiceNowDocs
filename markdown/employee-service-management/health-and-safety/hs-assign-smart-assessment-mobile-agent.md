@@ -2,6 +2,7 @@
 title: Assign smart assessment through Mobile agent app
 description: You can assign the smart assessment for an inspection or an audit to yourself if you belong to the same assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-assign-smart-assessment-mobile-agent.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -19,7 +20,7 @@ You can assign the smart assessment for an inspection or an audit to yourself if
 
 Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit\_writer
 
-**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](../../hs-risk-management/task/hs-configure-smart-assessment-template.md).
+**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.md).
 
 ## About this task
 
@@ -28,7 +29,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit
 
 ## Procedure
 
-1.  Tap the Home icon \(![home icon](../../../reuse/images/home-page-icon.png)\).
+1.  Tap the Home icon \(\[Omitted image "home-page-icon.png"\] Alt text: home icon\).
 
 2.  Select **See all** for the **Inspections** or **Audits** section.
 
@@ -48,5 +49,5 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit
 
 You can tap **Take assessment** to start the smart assessment. If the smart assessment questionnaire was partially completed by the previous safety agent, you can complete the rest of the questionnaire.
 
-**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](../concept/hs-manage-smart-assessments-mobile.md)
+**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-smart-assessments-mobile.md)
 

@@ -2,6 +2,7 @@
 title: SNMPResponse - Global
 description: The SNMPResponse script include provides methods to wrap an SNMP payload response instance with methods to safely and easily retrieve SNMP singleton fields or tables.Builds an index to all SNMP entities in the current object.Builds references to actual instances for all identified indexes \(in the discovery\_snmp\_ref table\) that can be resolved.Returns an array of OIDs that match the given ref\_base and which have a defined, non-null ref\_leaf.Returns the integer contained in the OID object with the given MIB name.Retrieves the OID object with the given MIB name from the response.Returns a hashmap of table entries under the given parent MIB name, with the given entry MIB names.Returns the text contained in the OID object with the given MIB name.Resolves SNMP tables into hashmaps and OID values into primitives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_SNMPResponseAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The SNMPResponse script include provides methods to wrap an SNMP payload respons
 
 Use this script include to retrieve SNMP singleton fields or tables.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SNMPResponse - buildIndex\(Object cur, String name, String extName\)
 

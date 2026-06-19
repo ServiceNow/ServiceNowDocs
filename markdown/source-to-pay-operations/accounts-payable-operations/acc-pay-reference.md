@@ -1,52 +1,54 @@
 ---
 title: Accounts Payable Operations reference
-description: Reference topics provide additional information about the lists and forms that you use in Accounts Payable Operations.
+description: Reference information for lists, forms, fields, and values used in Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, finance automation]
 breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Accounts Payable Operations reference
 
-Reference topics provide additional information about the lists and forms that you use in Accounts Payable Operations.
+Reference information for lists, forms, fields, and values used in Accounts Payable Operations.
 
--   **[Accounts Payable Operations properties](acc-pay-properties.md)**  
-On the Accounts Payable Operations properties form, you can set the parameters that control the invoice line mapping, invoice ingestion for API and exception management.
--   **[Create New Invoice Line form](create-invoice-line-form.md)**  
-Use the Create New Invoice Line form to provide details about an invoice line.
--   **[Create invoice cost allocation form](create-invoice-cost-allocation-form.md)**  
-Allocate invoice line cost across multiple cost centers.
--   **[Outbound cost allocation staging table](outbound-cost-allocation-table.md)**  
-The outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table stores important data about cost allocation information so that an ERP integrator can export this data to a third-party ERP system.
--   **[Distribution set form](distribution-set-form.md)**  
-Create a distribution set to split cost allocations automatically for invoice lines.
--   **[Create New Invoice case form](create-new-ap-case-form.md)**  
-Use the Create New Invoice case form to provide details about the Invoice case.
--   **[Create New Invoice task form](create-apm-task-form.md)**  
-Use the Create New Invoice task form to provide details about the Invoice task.
--   **[Invoice processing case form](invoice-processing-case-form.md)**  
-Use the Invoice processing case form to view the case details that store invoice information that an Accounts Payable Specialist can use to perform related tasks.
--   **[Tax lines](create-tax-lines-apo.md)**  
-The Tax lines tab lists the tax line associated with the invoice line.
--   **[Invoice exception form](exception-form-fields.md)**  
-Use the invoice exception form to view the case details that store invoice exception information that an Accounts Payable Specialist can use to perform related tasks.
--   **[Request Help form](ur-request-help-form.md)**  
-Suppliers use the **Request Help** form to report an inquiry related issue or request.
--   **[Master data table for Accounts Payable Operations](master-data-table-apo.md)**  
-Enter the mandatory fields in the primary table for successful processing of an invoice in Accounts Payable Operations.
--   **[Invoice exception definition form](invoice-exception-definition-form.md)**  
-Use the Invoice exception definition form to provide details about the new invoice exception definition.
--   **[Approval Rule form](new-approval-rule-form.md)**  
-Use the Approval Rule form to provide details about the new approval rule.
--   **[Approval Plan form](approval-plan-form.md)**  
-Use the Approval Plan form to view details of the overall invoice approval process.
--   **[Accounts Payable Operations glossary](../concept/apo-glossary.md#)**  
+-   **[Accounts Payable Operations properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-properties.md)**  
+Properties available in Accounts Payable Operations for configuring invoice line mapping, invoice ingestion, exception management, and tax management, including property names, default values, and required roles.
+-   **[Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md)**  
+Field descriptions for the Create New Invoice Line form used to add invoice line details such as pricing, tax amounts, accounting information, and shipping addresses.
+-   **[Create invoice cost allocation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-cost-allocation-form.md)**  
+Field descriptions for the Create invoice cost allocation form used to distribute invoice line costs across cost centers and ledger accounts.
+-   **[Outbound cost allocation staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/outbound-cost-allocation-table.md)**  
+Field descriptions for the outbound cost allocation \[sn\_spend\_intg\_outbound\_invoice\_cost\_allocation\] staging table used to configure ERP integrations that export cost allocation data to third-party ERP systems.
+-   **[Distribution set form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/distribution-set-form.md)**  
+Field descriptions for the Distribution set form, organized by section, for configuring automatic cost allocation across invoice lines.
+-   **[Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md)**  
+Field descriptions for the Create New Invoice case form, organized by section, for creating and managing invoice cases in Accounts Payable.
+-   **[Create New Invoice task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-apm-task-form.md)**  
+Field descriptions for the Create New Invoice task form used to create invoice inquiry tasks and exception tasks and complete the required details.
+-   **[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)**  
+Field descriptions for the Invoice processing case form, including supplier information, payment terms, accounting codes, and billing addresses.
+-   **[Tax lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.md)**  
+Field descriptions for the Tax lines tab on an invoice line, including tax types, rates, and amounts associated with the invoice.
+-   **[Invoice exception form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/exception-form-fields.md)**  
+Field descriptions for the Invoice Exception form, organized by section, for reviewing and resolving invoice exceptions.
+-   **[Request Help form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/ur-request-help-form.md)**  
+Field descriptions for the Universal Request Help form in the Supplier Collaboration Portal, which suppliers use to report an inquiry-related issue or request.
+-   **[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)**  
+Reference information for the key tables and required data used to process invoices in Accounts Payable Operations.
+-   **[Invoice exception definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.md)**  
+Field descriptions for the Invoice exception definition form used to create and configure invoice exception definitions in Accounts Payable Invoice Processing.
+-   **[Approval Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/new-approval-rule-form.md)**  
+Use the Approval Rule form when creating or configuring an approval rule to generate and route invoice or purchase order approvals.
+-   **[Approval Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/approval-plan-form.md)**  
+Field descriptions for the Approval Plan form used to review and configure invoice approval plans, including routing methods, decision methods, and approval status options.
+-   **[Accounts Payable Operations glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apo-glossary.md)**  
 Learn about the terms and concepts used in Accounts Payable Operations \(APO\).
 
-**Parent Topic:**[Accounts Payable Operations](../concept/acc-pay-mgmt-landing-page.md)
+**Parent Topic:**[Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.md)
 

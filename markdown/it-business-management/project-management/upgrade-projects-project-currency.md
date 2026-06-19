@@ -2,6 +2,7 @@
 title: Upgrade existing projects on activating multicurrency plugin
 description: Execute the PM upgrade project currency for active projects and PM upgrade project currency for inactive projects scheduled jobs to upgrade your active and inactive projects, respectively, after you activate the multicurrency plugin. Select the scheduled jobs and run them on demand to upgrade your projects in project currency only when necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/upgrade-projects-project-currency.html
 release: australia
 product: Project Management
 classification: project-management

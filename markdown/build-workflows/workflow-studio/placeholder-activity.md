@@ -2,6 +2,7 @@
 title: Placeholder activity
 description: Display an activity card in Playbooks to indicate what a future activity does.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/placeholder-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ This activity is available as a common activity. Users with the admin, playbook.
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 

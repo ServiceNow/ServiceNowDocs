@@ -2,6 +2,7 @@
 title: Execute an update set scan
 description: Use update set scan to execute applicable checks against records that are affected by the update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-execute-update-set-scan.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -28,5 +29,5 @@ Role required: admin
 3.  Click **Scan Update Set** from the **Related Links** list.
 
 
-**Parent Topic:**[Execute a point scan](hs-execute-point-scan.md)
+**Parent Topic:**[Execute a point scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-execute-point-scan.md)
 

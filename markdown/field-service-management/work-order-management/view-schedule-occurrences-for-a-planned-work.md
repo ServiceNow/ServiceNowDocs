@@ -2,6 +2,7 @@
 title: View schedule occurrences for a planned work
 description: A Schedule occurrence represents a single instance when a work order is expected to be created. Schedule occurrences are automatically created when a schedule is created or updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-schedule-occurrences-for-a-planned-work.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -19,7 +20,7 @@ A Schedule occurrence represents a single instance when a work order is expected
 
 Role required: sn\_fsm\_planned\_wm.planned\_work\_admin
 
-You must have configured a work schedule and attached a template to it. For more information see, [Configure a work schedule](configure-work-plan.md).
+You must have configured a work schedule and attached a template to it. For more information see, [Configure a work schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/configure-work-plan.md).
 
 ## About this task
 

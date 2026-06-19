@@ -2,6 +2,7 @@
 title: Configure advanced portal navigation
 description: Advanced Portal Navigation \(APN\) helps you design and configure an intuitive navigation for better information architecture and topic discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-adv-portal-nav-as-menu.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Advanced Portal Navigation \(APN\) helps you design and configure an intuitive n
 
 ## Before you begin
 
-Before you start, ensure you understand the useful information available in [EC Information architecture](../concept/ec-information-architecture.md).
+Before you start, ensure you understand the useful information available in [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
 
 Role required: Admin and SP Admin
 
@@ -25,7 +26,7 @@ Role required: Admin and SP Admin
 
 Using the advanced portal navigation, you can enable single-click sync across all APN hierarchy levels, replacing level-by-level sync. You can design the primary navigation menu and configure the navigation setup as per employee needs and content priorities. Here is an overview of the navigation workflow:
 
-![APN sync hierarchy workflows](../images/apn-architecture-workflow.png "APN architecture")
+\[Omitted image "apn-architecture-workflow.png"\] Alt text: APN sync hierarchy workflows
 
 ## Procedure
 
@@ -68,7 +69,7 @@ Using the advanced portal navigation, you can enable single-click sync across al
 
         **Note:** Quick links are not fetched. Add quick links manually.
 
-    ![How to activate Advanced Portal Navigation record and menu items](../images/apn-menu-items-list.png "APN Menu items and sync hierarchy")
+    \[Omitted image "apn-menu-items-list.png"\] Alt text: How to activate Advanced Portal Navigation record and menu items
 
 8.  On the **Navigation menu item** related list, fill in the form.
 
@@ -158,7 +159,7 @@ Submenu display type
 
 Indicates the rendering type that you want to display in the menu. This field appears only when **Menu** is selected at the root-level hierarchy.-   **Expanded**: Select this option to display in the expanded view.
 -   **Standard**: Select this option to display in the standard view. Out-of-the-box is Standard.
-For more information, see [EC Information architecture](../concept/ec-information-architecture.md).
+For more information, see [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
 
 </td></tr><tr><td>
 
@@ -207,7 +208,7 @@ Select this option to show the browse option on the menu. -   When you select ta
         When Sync is in progress, you can't perform actions such as Update or Delete from the APN or Menu items records.
 
     -   **Last synced** indicates the time of the last sync.
-    **Note:** To display the Sync status, ensure you deactivate the **Hide sync status** UI policy from **All** &gt; **System UI** &gt; **UI Policies**. For more information, see [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md)
+    **Note:** To display the Sync status, ensure you deactivate the **Hide sync status** UI policy from **All** &gt; **System UI** &gt; **UI Policies**. For more information, see 
 
 10. Notify the sync status through email.
 
@@ -215,7 +216,7 @@ Select this option to show the browse option on the menu. -   When you select ta
 
     **Note:** If you face issues with the sync, contact your administrator.
 
-    ![APN Sync status email notification](../images/apn-sync-status-email.png "APN sync status email")
+    \[Omitted image "apn-sync-status-email.png"\] Alt text: APN Sync status email notification
 
 11. Click **Update** for changes to reflect.
 
@@ -236,5 +237,5 @@ All active navigation items associated with the portal and taxonomy are fetched 
 
 **Note:** For successful sync, ensure that the SP Menu Items are associated with the portal for which the Advanced Portal navigation record is configured.
 
-For more information, see [EC Information architecture](../concept/ec-information-architecture.md).
+For more information, see [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
 

@@ -2,6 +2,7 @@
 title: Configure global system properties to edit members in Healthcare Operations Core
 description: A global system property must be configured to properly use the Edit Members functionality in Healthcare Operations Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configure-properties-edit-members.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

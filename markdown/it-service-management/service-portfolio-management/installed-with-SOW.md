@@ -2,6 +2,7 @@
 title: Installed with Service Portfolio Management Premium
 description: Service Portfolio Management Premium installs the following components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/installed-with-SOW.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -15,7 +16,7 @@ breadcrumb: [Configure, Service Portfolio Management, IT Service Management]
 
 Service Portfolio Management Premium installs the following components.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Service Portfolio Management Premium
 
@@ -69,5 +70,5 @@ SPM Node Weight\[spm\_node\_weight\]
 Used to assign a weight value to a node in relation to the value of its sibling nodes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Service Portfolio Management](../../service-portfolio-management2/concept/SPM2-configuring.md)
+</table>**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
 

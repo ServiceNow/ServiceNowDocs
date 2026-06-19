@@ -2,6 +2,7 @@
 title: Configure the SharePoint Graph Root Site Subscription connection and credential alias record
 description: Integrate the ServiceNow instance and Microsoft SharePoint Online by creating a custom OAuth application in Microsoft SharePoint Online to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/conf-graph-root.html
 release: australia
 product: Integration Hub
 classification: integration-hub

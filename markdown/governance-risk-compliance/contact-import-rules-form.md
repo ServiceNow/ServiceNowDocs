@@ -2,6 +2,7 @@
 title: Contact Import Rules form
 description: Use the Contact Import Rules form to create a contact import rule that you can apply on the User table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/contact-import-rules-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,5 +25,5 @@ Use the Contact Import Rules form to create a contact import rule that you can a
 |User mapping|Unique user reference from the Users table.|
 |Contact ID mapping|Unique ID of each contact that is used to sync with Everbridge.|
 
-**Parent Topic:**[Create the contact import rules](../task/create-contact-import-rules.md)
+**Parent Topic:**[Create the contact import rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-contact-import-rules.md)
 

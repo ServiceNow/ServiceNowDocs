@@ -2,6 +2,7 @@
 title: Activating the Localization Framework
 description: When you activate the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\), Localization Framework is available by default for the Service Catalog items and Virtual Agent topics, Natural Language Understanding models, and Document Templates for HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/activation-localization-framework.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -23,14 +24,14 @@ After you activate the Localization Framework Installer plugin \(com.glide.local
 -   Approve translations by proofreading the translated content.
 -   Publish the translated content.
 -   Analyze the localization health of the system using the Localization Insights dashboard.
--   Install optional plugins to set up [Localization Framework Hub and Spoke architecture](localization-framework-hub-spoke-architecture.md).
+-   Install optional plugins to set up [Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md).
 
-For more information on activating this plugin, see [Activate Localization Framework](../task/activate-lf-plugin.md).
+For more information on activating this plugin, see [Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/activate-lf-plugin.md).
 
--   **[Activate Localization Framework](../task/activate-lf-plugin.md)**  
+-   **[Activate Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/activate-lf-plugin.md)**  
 You can activate the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) for Localization Framework if you have the admin role. The application installs related plugins if they are not already installed. Optionally, you can activate plugins for the Localization Framework Hub and Spoke architecture on a set of instances.
--   **[Components installed with Localization Framework](../reference/components-installed-with-lf.md)**  
+-   **[Components installed with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/components-installed-with-lf.md)**  
 The Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activates several related plugins that are not already active. With installation of the core plugins, optional plugins for the Localization Framework Hub and Spoke architecture are available.
 
-**Parent Topic:**[Configure the Localization Framework](configuring-localization-framework.md)
+**Parent Topic:**[Configure the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/configuring-localization-framework.md)
 

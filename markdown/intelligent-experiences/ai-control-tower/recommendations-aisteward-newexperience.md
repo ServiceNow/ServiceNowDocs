@@ -2,6 +2,7 @@
 title: Recommendations for your AI assets
 description: Recommendations for AI assets are automatically generated for you to review and act on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/recommendations-aisteward-newexperience.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

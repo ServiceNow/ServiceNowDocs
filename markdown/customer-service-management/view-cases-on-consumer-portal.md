@@ -1,8 +1,11 @@
 ---
 title: View cases and tasks from the Consumer Portal
-description: View a list of cases and tasks from the Consumer Portal and select any record to see more detail.
+description: View your cases and tasks from the Consumer Portal, including case status, conversations with agents, and attached files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-cases-on-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -11,7 +14,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # View cases and tasks from the Consumer Portal
 
-View a list of cases and tasks from the Consumer Portal and select any record to see more detail.
+View your cases and tasks from the Consumer Portal, including case status, conversations with agents, and attached files.
 
 ## Before you begin
 

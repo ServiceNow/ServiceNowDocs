@@ -2,6 +2,7 @@
 title: Create a project and add APIs using OAuth
 description: Create a project in the Adobe Developer Console for accessing Adobe APIs and add APIs to your project using OAuth.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-adobe-cloud-oauth.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -27,7 +28,7 @@ Role required: Adobe Cloud admin
 
 2.  Add an API to your project by selecting **Add API**.
 
-    For more information, see [Add API to project using OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/).![Adobe Developer Console user interface showing the Add API functionality](../image/adobe-add-api.png)
+    For more information, see [Add API to project using OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/).\[Omitted image "adobe-add-api.png"\] Alt text: Adobe Developer Console user interface showing the Add API functionality
 
 3.  Select **User Management API** for the Adobe service that you want to integrate with.
 
@@ -70,6 +71,6 @@ Role required: Adobe Cloud admin
 
         For example, here the Connection URL is the highlighted part.
 
-        ![Connection URL in Adobe Developer Console.](../image/access-token-adobe.jpg)
+        \[Omitted image "access-token-adobe.jpg"\] Alt text: Connection URL in Adobe Developer Console.
 
 

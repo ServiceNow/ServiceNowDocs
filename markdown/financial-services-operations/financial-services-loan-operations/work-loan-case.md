@@ -2,6 +2,7 @@
 title: Work on a loan service case
 description: Review a loan case on a loan service request and update its details to trigger its workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/work-loan-case.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -22,7 +23,7 @@ Role required:
 -   For a business loan service case: sn\_bom\_loan\_b2b.agent or sn\_bom\_loan\_b2b.agent\_connector
 -   For a personal loan service case: sn\_bom\_loan.b2c\_agent or sn\_bom\_loan.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -37,7 +38,7 @@ When a customer requests a loan service, a loan service case is created and assi
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Loan Service Cases**, open the case list.
 

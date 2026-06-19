@@ -2,6 +2,7 @@
 title: Reusable components
 description: Use Re-usable components to create content
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-re-usable-components.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ Audiences
 
 </td><td>
 
-Define a list of users to see content based on conditions or criteria.[Audiences](ecpro-audience.md)
+Define a list of users to see content based on conditions or criteria.[Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md)
 
 </td></tr><tr><td>
 
@@ -37,7 +38,7 @@ Block Content
 
 </td><td>
 
-Define reusable content. [Add or modify block content](../task/ecpro-manage-block-content.md)
+Define reusable content. [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md)
 
 </td></tr><tr><td>
 
@@ -45,7 +46,7 @@ Content Destinations
 
 </td><td>
 
-Defines the page and widget for publishing news articles.[Add content destination](../task/ec-add-content-destination.md)
+Defines the page and widget for publishing news articles.[Add content destination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-add-content-destination.md)
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ Content Categories
 
 </td><td>
 
-Defines categories to organize news articles.[Create a content category](ec-content-cat.md)
+Defines categories to organize news articles.[Create a content category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-cat.md)
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Link Content
 
 </td><td>
 
-Defines URL or video links for the Content Library. [Add or modify links to other content sources](../task/ecpro-manage-link-content.md)
+Defines URL or video links for the Content Library. [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Reusable Articles
 
 </td><td>
 
-Lists news article reusable templates that were created by following the steps to [Create a news article template](../task/ec-create-news-template.md). **Note:** This feature is only accessible to users with the sn\_cd.content\_template\_owner role.
+Lists news article reusable templates that were created by following the steps to [Create a news article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-create-news-template.md). **Note:** This feature is only accessible to users with the sn\_cd.content\_template\_owner role.
 
 </td></tr></tbody>
 </table>

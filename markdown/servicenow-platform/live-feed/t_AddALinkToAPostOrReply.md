@@ -2,6 +2,7 @@
 title: Add a link to a post or reply
 description: Add or modify a link to a Live Feed post.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_AddALinkToAPostOrReply.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -35,8 +36,8 @@ Role required: none
 
 5.  When you have finished entering your message, click **Post** or **Reply**.
 
-    To remove a link, click the trash can icon adjacent to the link. To make changes to an existing link, click the edit \(![Pencil](../image/Pencil.png)\) icon.
+    To remove a link, click the trash can icon adjacent to the link. To make changes to an existing link, click the edit \(\[Omitted image "Pencil.png"\] Alt text: Pencil\) icon.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

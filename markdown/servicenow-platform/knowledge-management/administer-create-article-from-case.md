@@ -2,6 +2,7 @@
 title: Enable creating an article from a customer service case
 description: You can enable authors to reuse information in a case by copying case details into an article template. Use the pre-defined customer service source case table to article template target table configuration or create custom configurations between the two tables to copy information from a case to an article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/administer-create-article-from-case.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,15 +18,15 @@ You can enable authors to reuse information in a case by copying case details in
 
 ## Before you begin
 
--   The [Knowledge Management Advanced plugin](../task/activate-knowledge-advanced-plugin.md) must be active.
--   The [Properties installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_PropInstallWcustServ.md) must be enabled
+-   The [Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) must be active.
+-   The Properties installed with Customer Service Management must be enabled
 -   The pre-defined KCS article template or a newly created article template must be active.
 
     **Note:** You can do one of the following to create an article from a case:
 
     -   Use the pre-defined **Case KCS Article** mapping as is or modify the field mappings between the case source table and article template target table.
-    -   Create a new article template target table and map it to the case source table and customize the field mappings between them. For information on creating article templates, refer to [Create an article template](../task/create-a-new-article-templates.md).
--   Knowledge users use the **Create Knowledge** button in a case form to create an article from a case and must have "can contribute" permission for at least one active knowledge base to create an article from a case. For information on user permissions, see [Knowledge Management roles](../reference/r_KnowledgeRoles.md#).
+    -   Create a new article template target table and map it to the case source table and customize the field mappings between them. For information on creating article templates, refer to [Create an article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-new-article-templates.md).
+-   Knowledge users use the **Create Knowledge** button in a case form to create an article from a case and must have "can contribute" permission for at least one active knowledge base to create an article from a case. For information on user permissions, see [Knowledge Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeRoles.md).
 
 Role required: sn\_customerservice.customer\_admin or admin
 
@@ -69,5 +70,5 @@ The pre-defined **Case KCS Article** mapping is stored in the CSM Table Map \[cs
 5.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Knowledge Management](configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

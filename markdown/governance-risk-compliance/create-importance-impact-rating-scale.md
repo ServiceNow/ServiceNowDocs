@@ -2,6 +2,7 @@
 title: Set up the Importance and Impact Tolerance Rating Scale
 description: Set up the Importance and Impact Tolerance Rating Scale in the Operational Resilience application so that you can define new parameters for your business services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-importance-impact-rating-scale.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,7 +39,7 @@ A user with the sn\_oper\_res.admin role can change the rating scale for the ind
 
     You see the default importance and impact tolerance rating scales as shown in the following example.
 
-    ![Importance and Impact Tolerance Rating Scales module.](../image/importance-and-impact-rating-scale-module.png "Importance and Impact Tolerance Rating Scales module")
+    \[Omitted image "importance-and-impact-rating-scale-module.png"\] Alt text: Importance and Impact Tolerance Rating Scales module.
 
 2.  Click **New**.
 
@@ -46,6 +47,6 @@ A user with the sn\_oper\_res.admin role can change the rating scale for the ind
 
 3.  On the form, fill in the fields and click **Submit**.
 
-    For a description of the field values on the Rating Scale New Record form, see [Rating Scale New Record form](../reference/importance-and-impact-rating-scale-reference.md).
+    For a description of the field values on the Rating Scale New Record form, see [Rating Scale New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/importance-and-impact-rating-scale-reference.md).
 
 

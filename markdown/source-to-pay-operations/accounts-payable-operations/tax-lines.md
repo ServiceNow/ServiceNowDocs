@@ -1,19 +1,21 @@
 ---
 title: Invoice Tax lines fields
-description: Use the tax lines tab to record tax lines on purchases that are invoiced.
+description: Field descriptions for the Invoice Tax Lines tab used to record tax details for invoiced purchases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-lines.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, tax, invoice automation]
 breadcrumb: [Tax lines, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice Tax lines fields
 
-Use the tax lines tab to record tax lines on purchases that are invoiced.
+Field descriptions for the Invoice Tax Lines tab used to record tax details for invoiced purchases.
 
 ## Invoice Tax lines fields
 
@@ -32,5 +34,5 @@ The following table displays the fields in the invoice tax lines tab.
 |Invoice line|Invoice line for which the tax is applicable.|
 |Invoice|Invoice for which this tax is applicable.|
 
-**Parent Topic:**[Tax lines](create-tax-lines-apo.md)
+**Parent Topic:**[Tax lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-tax-lines-apo.md)
 

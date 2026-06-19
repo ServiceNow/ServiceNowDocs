@@ -2,6 +2,7 @@
 title: Add your bot to a portal
 description: Give your users a place to interact with your bot and human agents. Choose a Service Portal chat configuration provided with your base system, such as the Service Portal Agent Chat configuration used for Agent Chat and Virtual Agent. Your end users can initiate and maintain a bot or Agent Chat conversation in any page of the portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ac-configure-bot-portal.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -102,7 +103,7 @@ Server script
 
 </td><td>
 
-A script that passes page and widget data to an Agent Chat conversation when a user initiates the conversation. For example, pass a field to the chat conversation to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal associated with this record. This script has access to the [GlideSPScriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md) API.
+A script that passes page and widget data to an Agent Chat conversation when a user initiates the conversation. For example, pass a field to the chat conversation to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal associated with this record. This script has access to the GlideSPScriptable API.
 
  **Note:** The portal suffix, page ID, and language are automatically available to Agent Chat and do not require a custom script. Sys ID and table are automatically available to Agent Chat when they are present in the URL.
 
@@ -134,8 +135,8 @@ Your end users can initiate and maintain an Agent Chat or Virtual Agent conversa
 
 -   **Configure other Service Portal Agent Chat features**
 
-    In Service Portal, you can customize the Agent Chat button and pass page data to Agent Chat. For more information, see [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md).
+    In Service Portal, you can customize the Agent Chat button and pass page data to Agent Chat. For more information, see Configure Agent Chat in Service Portal.
 
 
-**Parent Topic:**[General chat settings](../concept/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
 

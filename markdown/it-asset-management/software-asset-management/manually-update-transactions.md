@@ -2,6 +2,7 @@
 title: Manually update transactions
 description: Manually update imported software transactions that weren't automatically labeled with a software product and publisher to track all software spending.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/manually-update-transactions.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -27,13 +28,13 @@ Sometimes, Software Spend Detection can't match a transaction to a software publ
 
 1.  Navigate to **All** &gt; **Software Spend Detection** &gt; **Unnormalized Transactions**.
 
-    **Note:** By default, this list shows only transactions identified as software by Software Spend Detection. To include transactions not identified as software, remove the filter condition **Is software = true**.![Remove the Is software = true filter condition by selecting the arrow in the filter.](../image/spend-manually-update.png)
+    **Note:** By default, this list shows only transactions identified as software by Software Spend Detection. To include transactions not identified as software, remove the filter condition **Is software = true**.\[Omitted image "spend-manually-update.png"\] Alt text: Remove the Is software = true filter condition by selecting the arrow in the filter.
 
 2.  Select a transaction date.
 
 3.  Select values for the **Publisher** and **Product** fields.
 
-    **Note:** You can create software publishers and products directly from this form by selecting the Lookup using list icon ![](../../../common/image/List_SearchIcon.png) next to the field and then selecting **New**.
+    **Note:** You can create software publishers and products directly from this form by selecting the Lookup using list icon \[Omitted image "List\_SearchIcon.png"\] next to the field and then selecting **New**.
 
 4.  Clear or select the **Is software** check box to indicate if the transaction is a software purchase.
 
@@ -42,5 +43,5 @@ Sometimes, Software Spend Detection can't match a transaction to a software publ
     The transaction is removed from the list of unnormalized transactions and is added to the Software Spend Detection dashboard.
 
 
-**Parent Topic:**[Software Spend Detection](../concept/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
 

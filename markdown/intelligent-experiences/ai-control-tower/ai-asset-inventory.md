@@ -2,6 +2,7 @@
 title: AI asset inventory tab in AI Control Tower
 description: The AI asset inventory includes all the AI-related assets used by an organization, including AI models, prompts, systems, and databases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-asset-inventory.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -40,5 +41,5 @@ The **AI asset inventory** tab displays the following widgets. You can view the 
 
 The following image shows the **AI asset inventory** tab on the AI Control Tower.
 
-![AI asset inventory tab that displays all the metric types for AI systems.](../image/aict-ai-asset-inventory.png "AI asset inventory tab in AI Control Tower home page")
+\[Omitted image "aict-ai-asset-inventory.png"\] Alt text: AI asset inventory tab that displays all the metric types for AI systems.
 

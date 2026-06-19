@@ -2,7 +2,10 @@
 title: Consumer Service Portal properties
 description: Properties that the system administrator can set to limit the number of registered products per consumer, the number of open cases per consumer, and the number of attachments per consumer record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/consumer-service-portal-properties.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

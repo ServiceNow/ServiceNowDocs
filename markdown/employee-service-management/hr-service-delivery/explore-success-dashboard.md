@@ -2,6 +2,7 @@
 title: Explore the HR Success Dashboard indicators
 description: Get an overview of the HR Success Dashboard indicators to understand the different components on the dashboard and how can you use the dashboard for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/explore-success-dashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -26,5 +27,5 @@ The HR team can analyze and understand the key metrics such as, call deflections
 
 Also, process owners can view the records that contribute to these insights, do a deep dive analysis, and drive improvement plans.
 
-![HR Success Dashboard Overview landing page](../image/dashboard-perf-oview.png "HR Success Dashboard Overview")
+\[Omitted image "dashboard-perf-oview.png"\] Alt text: HR Success Dashboard Overview landing page
 

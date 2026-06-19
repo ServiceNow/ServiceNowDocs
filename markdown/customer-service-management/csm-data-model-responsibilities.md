@@ -2,7 +2,10 @@
 title: Service Model Foundation responsibilities
 description: A responsibility, or responsibility definition, describes a role or a function that supports a customer. Use responsibility definitions to create relationships between an agent and a customer or between two consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-responsibilities.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -24,7 +27,7 @@ The following responsibilities are provided with the Service Model Foundation pl
 
 **Note:** Responsibilities are stored in the Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table.
 
-For the list of responsibilities included in the base system, see [List of responsibilities provided with the base system](list-of-reponsibilities-provided-with-base-system.md). To create a responsibility, see [Create a responsibility definition](../task/t_CreateAResponsibilityDefinition.md).
+For the list of responsibilities included in the base system, see [List of responsibilities provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/list-of-reponsibilities-provided-with-base-system.md). To create a responsibility, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md).
 
 ## Customizing responsibility definitions
 
@@ -34,7 +37,7 @@ You can use the responsibility definitions provided with Service Model Foundatio
 
 If you have an existing account manager responsibility definition, you must evaluate the functionality of the account manager responsibility definition provided with the Service Model Foundation plugins.
 
-**Note:** Creating and using responsibility definitions is a feature available in releases before Paris. Customers can create responsibility definitions using the Responsibility Definition \(sn\_customerservice\_responsibility\_def\) table and use those definitions to create account teams using the Account Team Member \(sn\_customerservice\_team\_member\) table. For more information, see [Create account teams](../concept/configure-csm-account-teams.md).
+**Note:** Creating and using responsibility definitions is a feature available in releases before Paris. Customers can create responsibility definitions using the Responsibility Definition \(sn\_customerservice\_responsibility\_def\) table and use those definitions to create account teams using the Account Team Member \(sn\_customerservice\_team\_member\) table. For more information, see [Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-account-teams.md).
 
 ## Create a unique responsibility definition
 

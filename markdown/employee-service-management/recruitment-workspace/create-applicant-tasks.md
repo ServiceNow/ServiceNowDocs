@@ -2,6 +2,7 @@
 title: Create tasks
 description: Create tasks for your applicants or internal stakeholders within the Recruitment workspace and assign it to the respective personas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/create-applicant-tasks.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -29,13 +30,13 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 4.  In the Select task pop-up window, pick a task from the available list, and select **Submit**.
 
-    The **Task type** field is automatically selected when you select the **Task**. For more information on task types, see [Configure hiring task types](config-task-type.md).
+    The **Task type** field is automatically selected when you select the **Task**. For more information on task types, see [Configure hiring task types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-task-type.md).
 
-    For more information on mapping task types with different tasks, see [Map task types in Recruitment workspace](config-task-mapping.md).
+    For more information on mapping task types with different tasks, see [Map task types in Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-task-mapping.md).
 
 5.  On the Applicant task form, fill in the fields.
 
-    For a description of the field values, see [Applicant task form](../reference/applicant-task-form.md).
+    For a description of the field values, see [Applicant task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/applicant-task-form.md).
 
 6.  Select **Save**.
 
@@ -44,5 +45,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 View the new task from the **Lists** view of an application page in a job requisition. The list-view provides a consolidated and efficient task management option.
 
-**Parent Topic:**[Hiring tasks](../concept/applicant-tasks-recruitr.md)
+**Parent Topic:**[Hiring tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/applicant-tasks-recruitr.md)
 

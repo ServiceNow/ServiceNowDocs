@@ -2,6 +2,7 @@
 title: Create or modify a probe
 description: Create a new probe to discover additional CIs or modify an existing probe to collect additional information. After you create or modify a probe, test it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/modify-a-probe.html
 release: australia
 product: Discovery
 classification: discovery
@@ -19,7 +20,7 @@ Create a new probe to discover additional CIs or modify an existing probe to col
 
 Role required: admin
 
-**Important:** You need an advanced knowledge of scripting to modify probes or their associated sensors. Many existing probes provide parameters that you can set, rather than modifying the probe itself. See [Set probe parameters](t_SetProbeParameters.md) for more information.
+**Important:** You need an advanced knowledge of scripting to modify probes or their associated sensors. Many existing probes provide parameters that you can set, rather than modifying the probe itself. See [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md) for more information.
 
 ## Procedure
 
@@ -44,11 +45,11 @@ Class
 </td><td>
 
 Select the probe for the operating system of the device it will query.-   AWS Probe: Select this class to query your resources inside an AWS cloud.
--   [**CIM Probe**](../reference/r_CIMProbe.md#): Select this probe type to query a CIM server using WBEM protocols.
--   [**Multiprobe**](../reference/r_MultiprobesIncludedWithDiscovery.md#): Select this probe type to run one or more simple probes of any type or mix probes of different types. This type of probe can make several queries simultaneously that return all the results at the same time. You cannot add multiprobes to other multiprobes.
+-   [**CIM Probe**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md): Select this probe type to query a CIM server using WBEM protocols.
+-   [**Multiprobe**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_MultiprobesIncludedWithDiscovery.md): Select this probe type to run one or more simple probes of any type or mix probes of different types. This type of probe can make several queries simultaneously that return all the results at the same time. You cannot add multiprobes to other multiprobes.
 -   **Probe**: Select this generic type to define a probe class. Specify the name of the probe class in the ECC queue topic field.
--   [**SNMP Probe**](../concept/c_SNMPProbe.md): Select this probe type for network devices, such as routers.
--   [**WMI Probe**](../reference/r_WMIRunnerProbe.md): Select this probe type for Windows devices.
+-   [**SNMP Probe**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SNMPProbe.md): Select this probe type for network devices, such as routers.
+-   [**WMI Probe**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_WMIRunnerProbe.md): Select this probe type for Windows devices.
 
 
 </td></tr><tr><td>
@@ -115,11 +116,11 @@ Define an optional post-processing script that runs on the MID Server. The scrip
 
     |Related list|Description|
     |------------|-----------|
-    |Probe Parameters|Parameters that control the functionality of the probe. See [Set probe parameters](t_SetProbeParameters.md) for instructions.|
+    |Probe Parameters|Parameters that control the functionality of the probe. See [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md) for instructions.|
     |Sensors that react to this probe or Sensors|The sensors that this probe utilizes.|
     |Included by MultiProbe|If this probe is included with other probes as a MultiProbe.|
     |MultiSensor Scripts|Scripts that run for multiple sensors.|
-    |Versions|The version of the probe. If the **State** is **Current**, the probe is the most up to date with your version of the instance. If not, you do not have the most current version and you might need to realign it. See [Align versions of customized probes and sensors](t_AlignVerCustProbeSens.md) for instructions.|
+    |Versions|The version of the probe. If the **State** is **Current**, the probe is the most up to date with your version of the instance. If not, you do not have the most current version and you might need to realign it. See [Align versions of customized probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_AlignVerCustProbeSens.md) for instructions.|
 
 6.  Click **Test probe**.
 
@@ -129,12 +130,12 @@ Define an optional post-processing script that runs on the MID Server. The scrip
 
 8.  Click **OK**.
 
-9.  [Check the ECC Queue](../reference/r_DiscoveryStatusECCQueue.md) for the MID Server to see the results.
+9.  [Check the ECC Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md) for the MID Server to see the results.
 
 
 ## What to do next
 
-Add the probe to the **Triggers Probe** related list on the appropriate classifier. See [Create a Discovery CI classification](create-discovery-ci-classification.md) for a description of the fields and related lists on the classifier form.
+Add the probe to the **Triggers Probe** related list on the appropriate classifier. See [Create a Discovery CI classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-discovery-ci-classification.md) for a description of the fields and related lists on the classifier form.
 
-**Parent Topic:**[Discovery probe management](../reference/r_Probes.md)
+**Parent Topic:**[Discovery probe management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_Probes.md)
 

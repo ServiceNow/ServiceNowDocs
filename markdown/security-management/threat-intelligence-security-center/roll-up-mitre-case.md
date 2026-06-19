@@ -2,6 +2,7 @@
 title: Roll up of MITRE Techniques from Artifacts to Case
 description: When intelligence records are added to a case, all associated MITRE Techniques are automatically rolled up to the case level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/roll-up-mitre-case.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -36,5 +37,5 @@ Role required: admin
     The associated artifacts are displayed as the related lists for that specific case.
 
 
-**Parent Topic:**[Add artifacts to case\(s\) or case task\(s\)](add-artifacts-to-a-case-s.md)
+**Parent Topic:**[Add artifacts to case\(s\) or case task\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)
 

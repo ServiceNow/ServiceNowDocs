@@ -1,29 +1,34 @@
 ---
 title: Define priority lookup rules
-description: Define impact and urgency of an incident to calculate the priority. The priority calculation can then be used to prioritize work and drive service level agreements.
+description: Define impact and urgency combinations that determine incident priority and the SLA for each priority for an organization. Only administrators and data lookup administrators can configure these rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/def-prio-lookup-rules.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2025-01-30"
+reading_time_minutes: 2
 breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
 # Define priority lookup rules
 
-Define impact and urgency of an incident to calculate the priority. The priority calculation can then be used to prioritize work and drive service level agreements.
+Define impact and urgency combinations that determine incident priority and the SLA for each priority for an organization. Only administrators and data lookup administrators can configure these rules.
 
 ## Before you begin
 
 Role required: data\_lookup\_admin, or admin
 
+## About this task
+
+Priority lookup rules are organizational configurations set by administrators. These rules ascertain how impact and urgency values combine to determine the priority of each incident. Individual incident responders cannot change the priority lookup rules. If the calculated priority seems incorrect for your organization, contact your system administrator to review the configured rules.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Policy** &gt; **Rules** &gt; **Priority Lookup Rules**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -54,8 +59,8 @@ Role required: data\_lookup\_admin, or admin
 
     By default, the **Priority** field is read-only and must be set by selecting the **Impact** and **Urgency** values. To change how the priority is calculated, you can either alter the priority lookup rules or disable the **Priority is managed by Data Lookup - set as read-only** UI policy and create their own business logic.
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Incident Management](../concept/incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-configuration.md)
 

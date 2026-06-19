@@ -2,6 +2,7 @@
 title: Register a custom application in Microsoft Azure portal
 description: Provide authorization for the ServiceNow instance by registering a custom application with Azure Active Directory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/register-a-custom-application-ms-azure-portal.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,15 +26,15 @@ Role required: Azure Active Directory admin
 
 2.  Under **Azure services**, select **App registrations**.
 
-    ![Register an app.](../image/ms-teams-app-reg.png)
+    \[Omitted image "ms-teams-app-reg.png"\] Alt text: Register an app.
 
 3.  Under **App Registrations**, select **New registration**.
 
-    ![New app registration.](../image/ms-teams-new-reg.png)
+    \[Omitted image "ms-teams-new-reg.png"\] Alt text: New app registration.
 
 4.  Provide a name and select **Register**.
 
-    ![Registering an app.](../image/ms-teams-regapp.png)
+    \[Omitted image "ms-teams-regapp.png"\] Alt text: Registering an app.
 
     The application is registered and essential application details are displayed.
 
@@ -43,11 +44,11 @@ Role required: Azure Active Directory admin
 
 7.  In the form, provide the **Description** and select **Add**.
 
-    ![Add a client secret.](../image/ms-teams-client-sec.png)
+    \[Omitted image "ms-teams-client-sec.png"\] Alt text: Add a client secret.
 
 8.  Copy the **Value** of client secret for later use.
 
-    ![Copy the client secret.](../image/ms-teams-copy-sec.png)
+    \[Omitted image "ms-teams-copy-sec.png"\] Alt text: Copy the client secret.
 
 9.  Select **API permissions**.
 
@@ -55,7 +56,7 @@ Role required: Azure Active Directory admin
 
 11. Under **Request API permissions**, select **Microsoft Graph**.
 
-    ![Add permissions.](../image/ms-teams-api-perm.png)
+    \[Omitted image "ms-teams-api-perm.png"\] Alt text: Add permissions.
 
 12. Select **Application permissions**.
 
@@ -67,11 +68,11 @@ Role required: Azure Active Directory admin
 
 14. Select **Add permissions**.
 
-    ![Application_permissions](../image/Application_permissions.png)
+    \[Omitted image "Application\_permissions.png"\] Alt text: Application\_permissions
 
 15. Select **Grant admin consent**.
 
-    ![Grant_permissions](../image/Configured_permissions.png)
+    \[Omitted image "Configured\_permissions.png"\] Alt text: Grant\_permissions
 
     The system prompts you to confirm your consent.
 
@@ -79,6 +80,6 @@ Role required: Azure Active Directory admin
 
     A confirmation message is displayed that admin consent is granted for the requested permissions.
 
-    ![Confirmation_message](../image/Granted_permision.png)
+    \[Omitted image "Granted\_permision.png"\] Alt text: Confirmation\_message
 
 

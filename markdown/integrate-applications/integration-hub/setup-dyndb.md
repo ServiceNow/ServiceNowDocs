@@ -2,6 +2,7 @@
 title: Set up the Amazon DynamoDB spoke
 description: Integrate the ServiceNow instance and Amazon DynamoDB account using AWS credential to authenticate ServiceNow requests.Create two Credential records for your Amazon DynamoDB account. The Amazon DynamoDB spoke connection and credential alias uses these credential records to perform actions in your Amazon DynamoDB account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-dyndb.html
 release: australia
 product: Integration Hub
 classification: integration-hub

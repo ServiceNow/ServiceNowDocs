@@ -2,6 +2,7 @@
 title: Set objectives for Process Mining projects
 description: Define the kind of data or process that you want to view and analyze in your graph. You must select a specific table \(parent table\) that has the data that you want to analyze.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/set-objectives.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -25,17 +26,17 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 2.  Provide the following details.
 
-    **Note:** If you want to create a project using Agentic AI data, see [Create a project using Agentic AI](project-agentic-ai.md). If you want to create a project using Playbook data, see [Create a project using Playbook data](playbook-project.md).
+    **Note:** If you want to create a project using Agentic AI data, see [Create a project using Agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-agentic-ai.md). If you want to create a project using Playbook data, see [Create a project using Playbook data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/playbook-project.md).
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d94279e104">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d90383e104">
 
 Field
 
-</th><th align="left" id="d94279e107">
+</th><th align="left" id="d90383e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d94279e113">
+</th></tr></thead><tbody><tr><td id="d90383e113">
 
 **Select type**
 
@@ -43,7 +44,7 @@ Description
 
 Choose whether you want to create a project or a template.
 
-</td></tr><tr><td id="d94279e122">
+</td></tr><tr><td id="d90383e122">
 
 **Template type**
 
@@ -57,7 +58,7 @@ This field is available only if you choose the type as **Template**.Four values 
 -   Digital Portfolio Management
 For a template that is not part of WFO, Vendor Management, or Digital Portfolio Management, choose **Default**. For example, to create a Performance Analytics template, select **Default**.
 
-</td></tr><tr><td id="d94279e161">
+</td></tr><tr><td id="d90383e161">
 
 **Name**
 
@@ -65,7 +66,7 @@ For a template that is not part of WFO, Vendor Management, or Digital Portfolio 
 
 An intuitive name for the project or template you’re creating.
 
-</td></tr><tr><td id="d94279e170">
+</td></tr><tr><td id="d90383e170">
 
 **Short description**
 
@@ -73,7 +74,7 @@ An intuitive name for the project or template you’re creating.
 
 A short description for the project or template you’re creating.
 
-</td></tr><tr><td id="d94279e180">
+</td></tr><tr><td id="d90383e180">
 
 **Source Type**
 
@@ -87,7 +88,7 @@ The source for the project or template you’re creating.-   Table: Any database
 -   Playbook: Select a table with playbook data.
 
 
-</td></tr><tr><td id="d94279e210">
+</td></tr><tr><td id="d90383e210">
 
 **Table__Note:__ This name changes based on the choice of source you want to analyze.
 
@@ -99,7 +100,7 @@ Select a source that you want to base your project on. This list varies dependin
 
  This field is auto-selected for Agentic AI.
 
-</td></tr><tr><td id="d94279e227">
+</td></tr><tr><td id="d90383e227">
 
 **Mark as restricted**
 
@@ -109,7 +110,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d94279e240">
+</td></tr><tr><td id="d90383e240">
 
 **Auto retire**
 
@@ -123,9 +124,9 @@ This field is available only if you choose the type as **Project**.
 
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](../concept/data-cleanup.md#).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
 
-</td></tr><tr><td id="d94279e280">
+</td></tr><tr><td id="d90383e280">
 
 **Add a KPI dashboard**
 
@@ -145,5 +146,5 @@ Select the check box if you want to add a KPI dashboard. You must then select a 
     If you select an existing template, then after you select the template, you’re taken to the **Review and Mine** page.
 
 
-**Parent Topic:**[Create a project or template using Project Builder](define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md)
 

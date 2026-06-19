@@ -2,6 +2,7 @@
 title: Discover and renew certificates about to expire using Now Assist
 description: Use Now Assist to find out which certificates expire on a certain date or within a certain date range. Now Assist produces a Unique Certificates list of these certificates and prompts you to renew them in a single click.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/discover-renew-certs-about-to-expire.html
 release: australia
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -19,8 +20,8 @@ Use Now Assist to find out which certificates expire on a certain date or within
 
 Complete the following steps to configure your system for the Now Assist certificate renewal AI agent:
 
-1.  [Configure your MID Server for automatic certificate renewal](configure-mid-server-automatic-cert-renewal.md)
-2.  [Add the required applications and capabilities to your MID Server](add-req-apps-capabilities-to-mid-server.md)
+1.  [Configure the MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
+2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
 
 Role required: sn\_disco\_certmgmt.pki\_admin
 
@@ -28,7 +29,7 @@ Role required: sn\_disco\_certmgmt.pki\_admin
 
 1.  Navigate to **All** &gt; **Unique Certificates**.
 
-2.  Select the Now Assist icon ![](../../../administer/now-assist-platform/images/wwna-icon.png).
+2.  Select the Now Assist icon \[Omitted image "wwna-icon.png"\] Alt text:.
 
 3.  Enter `Fetch the certificates expiring between 1 May 2026 and 1 August 2026.`
 

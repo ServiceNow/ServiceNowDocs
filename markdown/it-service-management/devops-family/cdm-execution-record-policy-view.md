@@ -2,6 +2,7 @@
 title: View the execution record for a policy run
 description: View the execution record to analyze policy execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-execution-record-policy-view.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,13 +18,13 @@ View the execution record to analyze policy execution.
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_viewer or cdm\_editor or cdm\_exporter\_editor or cdm\_policy\_editor or cdm\_admin
 
 ## Procedure
 
-1.  On the **Validation results** tab for a snapshot, select the more actions icon \(![More actions menu icon.](../../site-reliability-ops/image/icon-actions-menu.png)\) for a policy and select **Execution record**.
+1.  On the **Validation results** tab for a snapshot, select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions menu icon.\) for a policy and select **Execution record**.
 
 <table id="table_dbd_mfl_gqb"><thead><tr><th>
 

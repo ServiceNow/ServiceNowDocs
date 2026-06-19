@@ -2,6 +2,7 @@
 title: Create state model transition
 description: Create state models to control the workflow of a privacy case by defining the states and transition conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/prm-create-state-model-transition.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -41,8 +42,8 @@ Role required: sn\_privacy\_case.privacy\_case\_admin
 4.  Select **Submit**.
 
 
--   **[Define the workflow states for a privacy case](define-pcm-workflow-states.md)**  
+-   **[Define the workflow states for a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/define-pcm-workflow-states.md)**  
 Define the workflow states for a privacy case that govern the lifecycle of the case.
 
-**Parent Topic:**[Configuring Privacy Case Management](../concept/configuring-privacy-case-management.md)
+**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 

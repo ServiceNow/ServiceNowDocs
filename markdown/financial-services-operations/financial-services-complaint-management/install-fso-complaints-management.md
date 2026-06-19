@@ -2,6 +2,7 @@
 title: Install Financial Services Complaint Management
 description: You can install the Financial Services Complaint Management application \(sn\_bom\_compl\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/install-fso-complaints-management.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -30,7 +31,7 @@ The following items are installed with Financial Services Complaint Management:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Financial Services Complaint Management](../reference/installed-with-fso-complaints-mgmt.md).
+For more information, see [Components installed with Financial Services Complaint Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-complaint-management/installed-with-fso-complaints-mgmt.md).
 
 ## Procedure
 
@@ -40,7 +41,7 @@ For more information, see [Components installed with Financial Services Complain
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

@@ -2,6 +2,7 @@
 title: Agent Client Collector data collection properties
 description: Description of the properties that determine the behavior of Agent Client Collector data collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-data-collection-properties.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -88,5 +89,5 @@ Specify the order of the values by which the CI record's **Name** field is popul
 When set to **true**, indicates that data collection is disabled for containerized agents.Default: true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

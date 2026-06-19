@@ -2,6 +2,7 @@
 title: Agent Client Collector Monitoring default checks and policies
 description: Agent Client Collector Monitoring provides various default checks and policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/agent-policies-checks.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,7 +18,7 @@ Agent Client Collector Monitoring provides various default checks and policies.
 
 ## Provided checks
 
-The following tables list the default checks. You can edit these checks as needed. For more information about a specific check, see its Check Definitions page, as described in [Checks and policies](../concept/checks-policies.md).
+The following tables list the default checks. You can edit these checks as needed. For more information about a specific check, see its Check Definitions page, as described in [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/checks-policies.md).
 
 <table id="table_yds_5j1_ckb"><thead><tr><th>
 
@@ -41,7 +42,7 @@ os.linux.check-process
 
 </td><td>
 
-Counts the number of running processes.You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](../task/prevent-events-nonexistent-entities.md).
+Counts the number of running processes.You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/prevent-events-nonexistent-entities.md).
 
 </td></tr><tr><td>
 
@@ -282,7 +283,7 @@ util.check-logs
 
 </td><td>
 
-Enables monitoring log files owned by a regular user.You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](../task/prevent-events-nonexistent-entities.md).
+Enables monitoring log files owned by a regular user.You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/prevent-events-nonexistent-entities.md).
 
 </td></tr><tr><td>
 
@@ -294,7 +295,7 @@ util.check-logs-sudo
 
 </td><td>
 
-Enables monitoring log files owned by a root user.You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](../task/prevent-events-nonexistent-entities.md).
+Enables monitoring log files owned by a root user.You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/prevent-events-nonexistent-entities.md).
 
 </td></tr></tbody>
 </table>|Type|Name|Description|
@@ -550,7 +551,9 @@ util.check-windows-service
 
 </td><td>
 
-Checks if a user-supplied service is running on Windows.You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](../task/prevent-events-nonexistent-entities.md).
+Checks if a user-supplied service is running on Windows.Only the RUNNING status is treated as OK. Any other status generates either a WARNING or CRITICAL event, depending on your configuration.
+
+You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/prevent-events-nonexistent-entities.md).
 
 </td></tr><tr><td>
 
@@ -1475,11 +1478,40 @@ Returns Oracle WebLogic application server metrics.Ensure that the user running 
 |Metric|util.metrics-snmp|Collects metrics from an SNMP OID value.|
 |Metric|util.metrics-snmp-bulk-sn|Collects metrics from an SNMP Table OID and returns the result as a table.|
 
-|Type|Event/Metric|Description|Command|
-|----|------------|-----------|-------|
-|Metric \(Windows\)|os.windows.metrics-service-status|Collects Windows service status, providing metric of number of services running.|`winchecks metric-windows-service-status -S Wcmsvc --scheme hostname.proc`|
+<table id="table_pvv_qkh_twb"><thead><tr><th>
 
-|Type|Name|Description|
+Type
+
+</th><th>
+
+Event/Metric
+
+</th><th>
+
+Description
+
+</th><th>
+
+Command
+
+</th></tr></thead><tbody><tr><td>
+
+Metric \(Windows\)
+
+</td><td>
+
+os.windows.metrics-service-status
+
+</td><td>
+
+Collects Windows service status, providing metric of number of services running.Only the RUNNING status is treated as OK. Any other status generates either a WARNING or CRITICAL event, depending on your configuration.
+
+</td><td>
+
+`winchecks metric-windows-service-status -S Wcmsvc --scheme hostname.proc`
+
+</td></tr></tbody>
+</table>|Type|Name|Description|
 |----|----|-----------|
 |Metric|app.varnish.metrics-varnish|Collects Varnish metrics from the host.|
 
@@ -1748,7 +1780,7 @@ Monitors Azure databases on an Azure datacenter.To enable the policy's checks:
 
 The default monitored CI Type is cmdb\_ci\_azure\_datacenter, but the binding occurs on the Cloud Database \(cmdb\_ci\_cloud\_database\).
 
-For details on configuring a policy, see [Create a new Agent Client Collector policy](../task/create-edit-policies.md).
+For details on configuring a policy, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-edit-policies.md).
 
 </td><td>
 
@@ -1766,7 +1798,7 @@ Monitors the Azure CI, **cmdb\_ci\_azure\_datacenter**. Binds with the Kubernete
 
 azure.metrics-k8s-service
 
- For details, see [Azure Health Monitoring default checks and policies](azure-checks-policies.md).
+ For details, see [Azure Health Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/azure-checks-policies.md).
 
 </td></tr><tr><td>
 
@@ -1784,7 +1816,7 @@ Monitors the Azure CI, **cmdb\_ci\_azure\_datacenter**. Binds with the virtual m
 -   azure.metrics-vm-network
 -   azure.metrics-vm-flows
 
- For details, see [Azure Health Monitoring default checks and policies](azure-checks-policies.md).
+ For details, see [Azure Health Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/azure-checks-policies.md).
 
 </td></tr><tr><td>
 
@@ -1993,7 +2025,7 @@ Monitors health of Kubernetes infrastructure, such as clusters, nodes, pod statu
     -   `https://<api_server_url>/api` \(Whether the API server and agent are running on the same or different servers\).
 To use the localhost as your api\_server, run the following command: `"kubectl proxy -port=8081 &"`
 
--   Run Discovery to discover all Kubernetes CIs. For details, see [Kubernetes discovery](../../service-mapping/concept/kubernetes-discovery.md).
+-   Run Discovery to discover all Kubernetes CIs. For details, see [Kubernetes discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md).
 
 </td><td>
 
@@ -2205,7 +2237,7 @@ Varnish Metrics
 
 Monitors and collects metrics from Varnish.Varnish metrics are supported in ITOM Agent Client Collector version 2.3.0 - August 2022, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
- You must perform discovery using application fingerprints before running Varnish checks. For details, see [Enable running of Varnish checks](../task/discover-varnish-ci.md).
+ You must perform discovery using application fingerprints before running Varnish checks. For details, see [Enable running of Varnish checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/discover-varnish-ci.md).
 
 </td><td>
 
@@ -2287,7 +2319,7 @@ Monitors logs on operational Windows servers.
 
 os.windows.check-log
 
- You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](../task/prevent-events-nonexistent-entities.md).
+ You can block event creation for this check when no process is detected. For details, see [Block event creation for non-existent entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/prevent-events-nonexistent-entities.md).
 
 </td></tr><tr><td>
 
@@ -2359,96 +2391,96 @@ Executes Zscaler monitoring on all of a machine's CIs.
 -   zscaler-remediation-check
 
 </td></tr></tbody>
-</table>-   **[Active Directory metrics](ad-metrics.md)**  
+</table>-   **[Active Directory metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/ad-metrics.md)**  
 The following table lists the metrics that are gathered as output from Active Directory checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[Apache Kafka default checks and policies](kafka-checks-policies.md)**  
+-   **[Apache Kafka default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/kafka-checks-policies.md)**  
 Agent Client Collector provides the following policies for Apache Kafka health monitoring. Policies come with the checks specified in the indicated table. Policies and checks are available for both Windows and Linux.
--   **[Apache Kafka metrics](kafka-metrics.md)**  
+-   **[Apache Kafka metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/kafka-metrics.md)**  
 The following table lists the metrics that are gathered as output from Kafka checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[AWS Health Monitoring default checks and policies](aws-checks-policies.md)**  
+-   **[AWS Health Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/aws-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for AWS monitoring.
--   **[AWS metrics](aws-metrics.md)**  
+-   **[AWS metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/aws-metrics.md)**  
 The following tables list and describe the metrics that are gathered as output from the specified AWS checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[Azure Health Monitoring default checks and policies](azure-checks-policies.md)**  
+-   **[Azure Health Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/azure-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for Azure health monitoring.
--   **[Azure metrics](azure-metrics.md)**  
+-   **[Azure metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/azure-metrics.md)**  
 The following tables list and describe the metrics that are gathered as output from Azure checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[Azure cloud metrics](../concept/azure-cloud-metrics.md)**  
+-   **[Azure cloud metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/azure-cloud-metrics.md)**  
 Azure cloud metrics are gathered from Azure virtual machines \(VMs\) and Azure storage account policies. Collecting the cloud metrics enables you to monitor the performance of your Azure resources.
--   **[Cassandra default checks and policies](cassandra-checks-policies.md)**  
+-   **[Cassandra default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/cassandra-checks-policies.md)**  
 Agent Client Collector provides the following policies for Cassandra health monitoring. Policies come with the checks specified in the indicated table. Policies and checks are available for Linux only.
--   **[Cassandra metrics](cassandra-metrics.md)**  
+-   **[Cassandra metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/cassandra-metrics.md)**  
 The following table lists the metrics that are gathered as output from Cassandra checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[Directory Scan monitoring default checks and policies](directory-scan-checks-policies.md)**  
+-   **[Directory Scan monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/directory-scan-checks-policies.md)**  
 The Agent Client Collector provides the following default checks and policies for Directory Scan monitoring.
--   **[Google Cloud Platform \(GCP\) metrics](gcp-metrics.md)**  
+-   **[Google Cloud Platform \(GCP\) metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/gcp-metrics.md)**  
 The following table lists and describes the metrics that are gathered by the **acc\_grp\_metrics\_list.json** configuration data file. The file is uploaded to a check definition or check instance, and the metrics in the file are monitored by the check for its agent.
--   **[Glassfish default checks and policies](glassfish-checks-policies.md)**  
+-   **[Glassfish default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/glassfish-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for Glassfish monitoring.
--   **[GlassFish metrics](glassfish-metrics.md)**  
+-   **[GlassFish metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/glassfish-metrics.md)**  
 The following table lists the metrics that are gathered as output from GlassFish checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[HAProxy default checks and policies](haproxy-checks-policies.md)**  
+-   **[HAProxy default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/haproxy-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for HAProxy monitoring.
--   **[HAProxy metrics](haproxy-metrics.md)**  
+-   **[HAProxy metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/haproxy-metrics.md)**  
 The following table lists the metrics that are gathered as output from HAProxy checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[HTTP default checks and policies](http-default-checks-policies.md)**  
+-   **[HTTP default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/http-default-checks-policies.md)**  
 Agent Client Collector provides the following policies for HTTP health monitoring. Policies come with the checks specified in the tables below.
--   **[HTTP entry point metrics](httpentrypoint-metrics.md)**  
+-   **[HTTP entry point metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/httpentrypoint-metrics.md)**  
 The following table lists the metrics that are gathered as output from HTTP entry point checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[HTTP response code check](http-response-code-check.md)**  
+-   **[HTTP response code check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/http-response-code-check.md)**  
 Agent Client Collector provides the following additional check for HTTP response code. This check is not associated with any policy.
--   **[Internet Information Services \(IIS\) metrics](iis-metrics.md)**  
+-   **[Internet Information Services \(IIS\) metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/iis-metrics.md)**  
 The following table lists the metrics that are gathered as output from IIS checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[Linux default checks and policies](linux-checks-policies.md)**  
+-   **[Linux default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/linux-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for Linux Metrics monitoring.
--   **[Linux metrics](linux-metrics.md)**  
+-   **[Linux metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/linux-metrics.md)**  
 The following table lists the metrics that are gathered as output from Linux checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[MongoDB default checks and policies](mongodb-checks-policies.md)**  
+-   **[MongoDB default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/mongodb-checks-policies.md)**  
 Agent Client Collector provides the following policies for MongoDB health monitoring. Policies come with the checks specified in the indicated table. Policies and checks are available for both Windows and Linux.
--   **[MongoDB metrics](mongodb-metrics.md)**  
+-   **[MongoDB metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/mongodb-metrics.md)**  
 The following table lists the metrics that are gathered as output from MongoDB checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[MS Exchange default checks and policies](msexchange-checks-policies.md)**  
+-   **[MS Exchange default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/msexchange-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for MS Exchange monitoring.
--   **[MSSQL default checks and policies](ms-sql-default-checks-and-policies.md)**  
+-   **[MSSQL default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/ms-sql-default-checks-and-policies.md)**  
 The Agent Client Collector provides the following default checks and policies for MSSQL Metrics monitoring.
--   **[MySQL default checks and policies](my-sql-default-checks-and-policies.md)**  
+-   **[MySQL default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/my-sql-default-checks-and-policies.md)**  
 The Agent Client Collector provides the following default checks and policies for MySQL Metrics monitoring.
--   **[Network ping default checks and policies](network-ping-checks-policies.md)**  
+-   **[Network ping default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/network-ping-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for Network ping monitoring. Policies and checks are available for both Windows and Linux.
--   **[Network ping metrics](network-ping-metrics.md)**  
+-   **[Network ping metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/network-ping-metrics.md)**  
 The following table lists the metrics that are gathered as output from Network ping checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[Network host availability check](network-host-availability-check.md)**  
+-   **[Network host availability check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/network-host-availability-check.md)**  
 Agent Client Collector provides the following default check for network ping monitoring. The check is available for both Windows and Linux.
--   **[Nginx default checks and policies](nginx-checks-policies.md)**  
+-   **[Nginx default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/nginx-checks-policies.md)**  
 Agent Client Collector provides the following policies for Nginx health monitoring. Policies come with the checks specified in the indicated table. Policies and checks are available for both Windows and Linux.
--   **[Nginx metrics](nginx-metrics.md)**  
+-   **[Nginx metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/nginx-metrics.md)**  
 The following table lists the metrics that are gathered as output from Nginx checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[PostgreSQL default checks and policies](postgresql-checks-policies.md)**  
+-   **[PostgreSQL default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/postgresql-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for PostgreSQL health monitoring.
--   **[PostgreSQL metrics](postgresql-metrics.md)**  
+-   **[PostgreSQL metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/postgresql-metrics.md)**  
 The following tables list and describe the metrics that are gathered as output from the specified PostgreSQL checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[RabbitMQ default checks and policies](rabbitmq-checks-policies.md)**  
+-   **[RabbitMQ default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/rabbitmq-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for RabbitMQ health monitoring. You must perform RabbitMQ discovery before executing the checks. RabbitMQ checks are available only in a Windows environment.
--   **[RabbitMQ metrics](rabbitmq-metrics.md)**  
+-   **[RabbitMQ metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/rabbitmq-metrics.md)**  
 The following table lists the metrics that are gathered as output from RabbitMQ checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[URL Monitoring default checks and policies](url-monitoring-default-checks-policies.md)**  
+-   **[URL Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/url-monitoring-default-checks-policies.md)**  
 Agent Client Collector provides policies for URL Monitoring. Polices come with embedded checks.
--   **[Varnish default checks and policies](varnish-policies-checks.md)**  
+-   **[Varnish default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/varnish-policies-checks.md)**  
 Agent Client Collector provides the following default checks and policies for Varnish monitoring.
--   **[Varnish metrics](varnish-metrics.md)**  
+-   **[Varnish metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/varnish-metrics.md)**  
 The following table lists the metrics that are gathered as output from Varnish checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[vSphere default checks and policies](vsphere-checks-policies.md)**  
+-   **[vSphere default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/vsphere-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for vSphere monitoring.
--   **[vSphere metrics](vsphere-metrics.md)**  
+-   **[vSphere metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/vsphere-metrics.md)**  
 The following table lists the metrics that are gathered as output from vSphere checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[Windows default checks and policies](windows-checks-policies.md)**  
+-   **[Windows default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/windows-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for Windows health monitoring.
--   **[Windows metrics](windows-metrics.md)**  
+-   **[Windows metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/windows-metrics.md)**  
 The following table lists the metrics that are gathered as output from Windows checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
--   **[Windows log monitoring default checks and policies](windows-log-monitoring-policy.md)**  
+-   **[Windows log monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/windows-log-monitoring-policy.md)**  
 Agent Client Collector provides the following policy for Windows log monitoring.
--   **[Linux log monitoring default checks and policies](linux-log-monitoring-policy.md)**  
+-   **[Linux log monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/linux-log-monitoring-policy.md)**  
 Agent Client Collector provides the following policy for Linux log monitoring.
 
-**Parent Topic:**[Agent Client Collector Monitoring reference](acc-monitoring-reference.md)
+**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

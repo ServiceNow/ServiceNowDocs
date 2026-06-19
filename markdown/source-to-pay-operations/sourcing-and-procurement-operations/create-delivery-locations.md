@@ -2,6 +2,7 @@
 title: Add delivery locations
 description: Add the address that can be selected by the user to have the product delivered. You can add multiple delivery locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-delivery-locations.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -14,6 +15,10 @@ breadcrumb: [Setting up primary data Shopping, Configure, Sourcing and Procureme
 # Add delivery locations
 
 Add the address that can be selected by the user to have the product delivered. You can add multiple delivery locations.
+
+## About this task
+
+Shows how to add a delivery location. 
 
 ## Before you begin
 
@@ -49,8 +54,8 @@ Role required: sn\_shop.shopping\_hub\_admin
 
 5.  Select **Submit**.
 
-    ![Delivery location.](../image/add_delivery_location.png)
+    \[Omitted image "add\_delivery\_location.png"\] Alt text: Delivery location.
 
 
-**Parent Topic:**[Setting up primary data for ShoppingHub](../reference/set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

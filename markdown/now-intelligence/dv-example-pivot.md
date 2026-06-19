@@ -2,6 +2,7 @@
 title: Pivot visualization example
 description: Pivot tables show multiple dimensions or variables of a data set. This visualization displays separate cells for each row and column value combination, as well as a column subtotal for each first-level row. Aggregate information is presented in the upper left.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-pivot.html
 release: australia
 topic_type: task
 last_updated: "2026-03-25"
@@ -15,7 +16,7 @@ Pivot tables show multiple dimensions or variables of a data set. This visualiza
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,7 +24,7 @@ Use this visualization type to show multiple variables in a single visualization
 
 ## Procedure
 
-1.  Follow the first steps of [Create a pivot table data visualization in the Visualization Designer](../../reporting/task/create-dv-pivot-ac.md):
+1.  Follow the first steps of [Create a pivot table data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-pivot-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -67,7 +68,7 @@ Use this visualization type to show multiple variables in a single visualization
 
     1.  Add the **Assignment group** column to show the top level of information.
 
-        ![Pivot visualization with only one column configured](../../reporting/image/dv-ex-pivot-one-column.png)
+        \[Omitted image "dv-ex-pivot-one-column.png"\] Alt text: Pivot visualization with only one column configured
 
     2.  Add two rows: **Priority** and **Location**.
 
@@ -76,7 +77,7 @@ Use this visualization type to show multiple variables in a single visualization
         -   **Show row total** provides the total count for each row in a new column.
         -   **Show column total** provides the total for each column in a new row.
         -   **Show parent row totals** shows the totals in each top level row of the elements in its column. For example, there are five Critical Marketing Systems Support incidents. When you expand that section, there is one critical incident in each of five different locations.
-        ![Pivot visualization with Priority and Location rows configured and row, column, and parent row totals selected](../../reporting/image/dv-ex-pivot-group-by.png)
+        \[Omitted image "dv-ex-pivot-group-by.png"\] Alt text: Pivot visualization with Priority and Location rows configured and row, column, and parent row totals selected
 
 6.  Under Sorting, choose the field to sort by and the order of the sorting.
 
@@ -86,7 +87,7 @@ Use this visualization type to show multiple variables in a single visualization
 
     2.  Choose `Ascending` for the sort order.
 
-        The bars are ordered with 1 - Critical at the top followed by 2 - High, 3 - Moderate, and so forth. In addition, the locations also appear in alphabetical order. ![Pivot report sorted by priority in ascending order](../../reporting/image/dv-ex-pivot-sort-by.png)
+        The bars are ordered with 1 - Critical at the top followed by 2 - High, 3 - Moderate, and so forth. In addition, the locations also appear in alphabetical order. \[Omitted image "dv-ex-pivot-sort-by.png"\] Alt text: Pivot report sorted by priority in ascending order
 
 7.  Under Data update, configure how the audience interacts with the visualization.
 
@@ -131,5 +132,5 @@ Use this visualization type to show multiple variables in a single visualization
     **Note:** Color rules only apply to the individual values, not to the total columns and rows which retain the specified color and background color.
 
 
-**Parent Topic:**[Create a pivot table data visualization in the Visualization Designer](../../reporting/task/create-dv-pivot-ac.md)
+**Parent Topic:**[Create a pivot table data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-pivot-ac.md)
 

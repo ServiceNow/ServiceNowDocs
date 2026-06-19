@@ -2,6 +2,7 @@
 title: XMLUtilJS - Global
 description: The XMLUtilJS script include provides XML utility methods for JavaScript to be used with Discovery scripts.Provides escape text for a given string.Converts a string to an XML value.Provides un-escaped XML for a given string.Converts an XML value to a string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_XMLUtilJSAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ This script include is provided with the Discovery plugin. Use this script inclu
 
 Access these methods using the static variable XMLUtilJS.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## XMLUtilJS - escapeForXMLText\(String text\)
 

@@ -2,6 +2,7 @@
 title: Add and configure the Portal Knowledge Quick Links widget
 description: Add a Portal Knowledge Quick Links widget to the portal and modify its data, presentation, and behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-know-quick-links-widget-inst-optns.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,9 +18,9 @@ Add a Portal Knowledge Quick Links widget to the portal and modify its data, pre
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see[Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md)
+The UI Components for Customer Portals plugin must have been activated. For more information, see[Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md)
 
-If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](create-page-configurable-portal-widget.md).
+If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
 Role required: sp\_admin
 
@@ -35,7 +36,7 @@ Role required: sp\_admin
 
 5.  In the Layouts section, drag the Container layout onto the portal edit page.
 
-6.  On the container, add a set of columns by selecting the plus button \(![Plus button](../image/portal-plus-icon.png)\)
+6.  On the container, add a set of columns by selecting the plus button \(\[Omitted image "portal-plus-icon.png"\] Alt text: Plus button\)
 
 7.  On the Widgets pane, in the **Filter Widget** field, enter `Portal Knowledge Quick Links`.
 
@@ -43,11 +44,11 @@ Role required: sp\_admin
 
 9.  In the Edit page, select the Portal Knowledge Quick Links widget.
 
-10. Select the Pencil icon \(![Pencil icon](../image/icon-pencil-ac.png)\).
+10. Select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
 11. On the Instance form, fill in the fields.
 
-    For a description of the field values, see [Portal Knowledge Quick Links widget instance options form](../reference/r-port-know-quick-links-inst-options.md).
+    For a description of the field values, see [Portal Knowledge Quick Links widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r-port-know-quick-links-inst-options.md).
 
 12. Select **Save**.
 

@@ -2,6 +2,7 @@
 title: Create Remediations
 description: Create a remediation record to document a fix or workaround for a vulnerability affecting a specific product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-create-remediation-record.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -143,5 +144,5 @@ Lists the conditions that must be met for the vulnerability remediation to apply
 
 The remediation record is created and appears in the **Remediations** related list of the associated vulnerability and product records. The **Remediated Records Count** field on the vulnerability record is automatically incremented.
 
-**Parent Topic:**[Vulnerability Artifacts](../concept/vulnerability.md)
+**Parent Topic:**[Vulnerability Artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/vulnerability.md)
 

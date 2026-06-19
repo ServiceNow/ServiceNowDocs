@@ -2,6 +2,7 @@
 title: Associate content with the Asset Refresh notification
 description: After creating the actionable notification for the Asset Refresh topic, go back into the notification and add content. This links the notification with the Virtual Agent topic that you created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/associate-content-example-notification.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -28,7 +29,7 @@ Role required: virtual\_agent\_admin or admin
 
     New fields for content are available in the record.
 
-    ![New tabs and fields are available in the record: Additional Recipients, Contents, Actions, Link Actions to Content, and Logs.](../images/crawl-ex-notif-content.png)
+    \[Omitted image "crawl-ex-notif-content.png"\] Alt text: New tabs and fields are available in the record: Additional Recipients, Contents, Actions, Link Actions to Content, and Logs.
 
 3.  Select the **Contents** tab and create the content for the notification.
 
@@ -120,12 +121,12 @@ Delivery channels
 
 </td><td>
 
-Select **mweb**, which is the default channel for Virtual Agent. You can configure other channels to run Virtual Agent as well. For more information, see [Integrating Virtual Agent with other channels](../concept/integrate-virtual-agent.md).
+Select **mweb**, which is the default channel for Virtual Agent. You can configure other channels to run Virtual Agent as well. For more information, see [Integrating Virtual Agent with other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integrate-virtual-agent.md).
 
 </td></tr></tbody>
 </table>    4.  Select **Submit**.
 
-    ![The Asset Refresh Notification Content record displays on the Contents tab for the notification.](../images/crawl-ex-notif-content-done.png)
+    \[Omitted image "crawl-ex-notif-content-done.png"\] Alt text: The Asset Refresh Notification Content record displays on the Contents tab for the notification.
 
 4.  On the Asset Refresh Notification record, select the **Actions** tab and create the action.
 
@@ -144,7 +145,7 @@ Select **mweb**, which is the default channel for Virtual Agent. You can configu
 
     4.  Select **Submit**.
 
-    ![The Asset Refresh Notification Actions record displays on the Actions tab for the notification.](../images/crawl-ex-notif-actions.png)
+    \[Omitted image "crawl-ex-notif-actions.png"\] Alt text: The Asset Refresh Notification Actions record displays on the Actions tab for the notification.
 
 5.  On the Asset Refresh Notification record, select the **Link Actions to Content** tab to map the actions to the content.
 
@@ -156,12 +157,12 @@ Select **mweb**, which is the default channel for Virtual Agent. You can configu
         |-----|-----------|
         |Name|Unique name for the actionable content. For example, enter `Asset Refresh Actionable Content`.|
         |Notification|By default, **Asset Refresh Notification**.|
-        |Actions|Select the lock icon ![Lock icon.](../../../common/image/icon-lock.png), and then type in the search field or select the search icon ![Search icon.](../images/icon-search.png) to locate the action you created on the **Actions** tab in the previous step.|
+        |Actions|Select the lock icon \[Omitted image "icon-lock.png"\] Alt text: Lock icon., and then type in the search field or select the search icon \[Omitted image "icon-search.png"\] Alt text: Search icon. to locate the action you created on the **Actions** tab in the previous step.|
         |Content|The name of the Asset Refresh provider content record you created on the **Contents** tab in a previous step.|
         |Disable skip|Leave this option unselected.|
         |Active|Leave this option selected.|
 
-        ![The Actionable Content form references both the action and the content that you created in a previous step.](../images/crawl-ex-actionable-content-rec.png)
+        \[Omitted image "crawl-ex-actionable-content-rec.png"\] Alt text: The Actionable Content form references both the action and the content that you created in a previous step.
 
     3.  Select **Submit**.
 

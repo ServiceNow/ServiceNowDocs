@@ -2,6 +2,7 @@
 title: Create a business rule to apply a custom table map configuration
 description: Create a business rule to enable export from your new custom map configuration of an Agile Development 2.0 table to your Azure DevOps projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/create-business-rule-to-apply-custom-table-map.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -29,9 +30,9 @@ After you create a custom table map for an Azure DevOps process type, create a b
 
 2.  From the list of available business rules, locate and open the Synch Story with Azure DevOps rule.
 
-3.  From the context menu \(![context menu icon](../../apw-internal-integrations/images/context-menu-icon.png)\), perform an Insert and Stay operation on this business rule.
+3.  From the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: context menu icon\), perform an Insert and Stay operation on this business rule.
 
-    If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see [Allow insert options on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-form-administration.md).
+    If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see Allow insert options on records.
 
 4.  On the business rule form, edit the following fields.
 
@@ -63,5 +64,5 @@ Select the table in Agile Development 2.0 for which you've created the custom ma
 </table>5.  Click **Update**.
 
 
-**Parent Topic:**[Customizing your map configuration for Azure DevOps integration](../reference/customizing-map-config-agile-azure.md)
+**Parent Topic:**[Customizing your map configuration for Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
 

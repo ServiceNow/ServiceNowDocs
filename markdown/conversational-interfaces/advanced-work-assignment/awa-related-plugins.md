@@ -2,6 +2,7 @@
 title: Activate related plugins for Advanced Work Assignment
 description: After activating the Advanced Work Assignment plugin, activate related AWA plugins to enable other base system service channels and the Performance Analytics Solutions dashboard for AWA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-related-plugins.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -19,7 +20,7 @@ You must have the admin role to activate these additional plugins for AWA.
 
 ## Targeted routing capabilities plugins
 
-Install the following plugins from the AWA Home experience's Get targeted routing capabilities section or the Available Plugins section. If you'd rather search for each plugin individually, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+Install the following plugins from the AWA Home experience's Get targeted routing capabilities section or the Available Plugins section. If you'd rather search for each plugin individually, see Activate a plugin.
 
 <table id="table_n1y_ml5_rfb"><thead><tr><th>
 
@@ -56,7 +57,7 @@ Enables base system configuration data supporting routing, queuing, and assignme
 </td></tr></tbody>
 </table>## Popular plugins
 
-Install the following plugins from the AWA Home experience's Get the most popular plugins section or the Available Plugins section. If you'd rather search for each plugin individually, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+Install the following plugins from the AWA Home experience's Get the most popular plugins section or the Available Plugins section. If you'd rather search for each plugin individually, see Activate a plugin.
 
 <table id="table_oys_rs3_rvb"><thead><tr><th>
 

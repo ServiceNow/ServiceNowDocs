@@ -2,6 +2,7 @@
 title: Bulk update functional domain for multiple records
 description: Update the functional domain for multiple records at once to save time and ensure efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/bulk-update-functional-domain-for-multiple-records.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -30,5 +31,5 @@ Role required: sn\_grc.admin
 4.  Select **Apply**.
 
 
-**Parent Topic:**[Tagging records with functional domain](../concept/tagging-records-with-functional-domain.md)
+**Parent Topic:**[Tagging records with functional domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tagging-records-with-functional-domain.md)
 

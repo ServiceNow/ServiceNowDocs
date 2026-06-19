@@ -2,6 +2,7 @@
 title: Create an observation for an engagement
 description: Create an audit observation to present a summary of problems, discoveries, and recommendations. The audit team can then review the observations to determine if the observation is a reportable issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-observation-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -23,7 +24,7 @@ Role required: sn\_audit.manager, sn\_audit\_ws.supervisor, sn\_audit.user, sn\_
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the lists icon \(![List icon](../image/ListsIcon.jpg)\).
+2.  Select the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: List icon\).
 
 3.  Select **All engagements** in the Execution list.
 

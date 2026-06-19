@@ -2,6 +2,7 @@
 title: Create a Risk Assessment Methodology
 description: Configure a risk assessment methodology \(RAM\) in the Privacy Management application so that you can assess the risks in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-a-risk-assessment-methodology.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -33,7 +34,7 @@ After you move a RAM to the **Retired** state, you can also move it back to the 
 
 3.  On the form, fill the details.
 
-    For a description of the field values on the risk assessment methodology form, see [Risk Assessment Methodology form](../../grc-risk/reference/risk-assessment-methodology-form.md).
+    For a description of the field values on the risk assessment methodology form, see [Risk Assessment Methodology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-methodology-form.md).
 
 4.  Right-click and save the form.
 
@@ -41,10 +42,10 @@ After you move a RAM to the **Retired** state, you can also move it back to the 
 
     |Choice|Related link|
     |------|------------|
-    |**Configure inherent assessment**|See [Configure an inherent assessment](../../grc-risk/task/configure-inherent-assessment.md).|
-    |**Configure control effectiveness**|See [Configure a control effectiveness assessment](../../grc-risk/task/configure-control-assess.md)|
-    |**Configure residual assessment**|See [Configure a residual assessment](../../grc-risk/task/configure-residual-assessment.md)|
-    |**Configure target assessment**|See [Configure a target assessment](../../grc-risk/task/configure-target-assessment.md)|
+    |**Configure inherent assessment**|See [Configure an inherent assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-inherent-assessment.md).|
+    |**Configure control effectiveness**|See [Configure a control effectiveness assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-control-assess.md)|
+    |**Configure residual assessment**|See [Configure a residual assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-residual-assessment.md)|
+    |**Configure target assessment**|See [Configure a target assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-target-assessment.md)|
 
 6.  Select **Publish**.
 
@@ -55,8 +56,8 @@ After you move a RAM to the **Retired** state, you can also move it back to the 
 
 A new Risk Assessment Methodology is created and is available for use.
 
--   **[Risk assessment methodology form](../reference/risk-assessment-methodology-form-prm.md)**  
+-   **[Risk assessment methodology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/risk-assessment-methodology-form-prm.md)**  
 Use the Risk Assessment Methodology form in the Core UI to create a risk assessment methodology \(RAM\).
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

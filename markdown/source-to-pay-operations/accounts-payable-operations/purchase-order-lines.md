@@ -1,19 +1,21 @@
 ---
 title: Purchase order lines
-description: Purchase order lines provide information of the individual lines under a purchase requisition or a sourcing request for the referenced supplier.
+description: Field descriptions for the \[sn\_shop\_purchase\_order\_line\] table, which stores individual line items under a purchase requisition or sourcing request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/purchase-order-lines.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Master data table for Accounts Payable Operations, Reference, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, supplier, purchase order, PO]
+breadcrumb: [Data required for invoice processing, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Purchase order lines
 
-Purchase order lines provide information of the individual lines under a purchase requisition or a sourcing request for the referenced supplier.
+Field descriptions for the \[sn\_shop\_purchase\_order\_line\] table, which stores individual line items under a purchase requisition or sourcing request.
 
 ## sn\_shop\_purchase\_order\_line table
 
@@ -290,5 +292,5 @@ General Ledger Account
 The account to which capital or operational expenses will be posted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+</table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

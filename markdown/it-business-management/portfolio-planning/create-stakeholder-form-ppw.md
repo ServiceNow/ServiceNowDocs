@@ -2,6 +2,7 @@
 title: Create stakeholder form
 description: The stakeholder form information is used to create a stakeholder record for the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-stakeholder-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

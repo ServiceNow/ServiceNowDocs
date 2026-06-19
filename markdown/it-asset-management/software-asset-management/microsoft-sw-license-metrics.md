@@ -2,6 +2,7 @@
 title: Microsoft Per Core licensing rules
 description: The Per Core licensing model is used by many Microsoft server products, such as SQL Server and BizTalk Server. It's useful when counting users or devices connecting to the software is difficult, often for internet-facing software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/microsoft-sw-license-metrics.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -17,7 +18,7 @@ The Per Core licensing model is used by many Microsoft server products, such as 
 
 Therefore, the Per Core licensing model is commonly used for enterprise software like Microsoft SQL Server.
 
-The licensing rules for on-premise installations of these products and the cloud installations are separate. The cloud licensing rules follow Bring Your Own License \(BYOL\). For more information, see [Licensing rules for BYOL and BYOS](../reference/byol-license-rules.md).
+The licensing rules for on-premise installations of these products and the cloud installations are separate. The cloud licensing rules follow Bring Your Own License \(BYOL\). For more information, see [Licensing rules for BYOL and BYOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/byol-license-rules.md).
 
 To license the on-premise installation of these products using the Per Core licensing model, consider the following two options.
 
@@ -28,7 +29,7 @@ To license the on-premise installation of these products using the Per Core lice
 
 You can either allocate manually, or the Software Asset Management application can automatically select the most cost-effective licensing option based on optimization criteria. The number of core licenses required depends on whether you’re licensing the physical server based on its physical cores or licensing individual virtual machines.
 
-For more information about how to perform allocation, see [Allocation management](https://www.servicenow.com/community/sam-blog/allocation-management-on-servicenow-sam-pro/ba-p/2649232) and how the Software Asset Management application performs automated optimization, see [View realized and potential cost-based licensing optimizations for Microsoft](../task/view-cost-based-licensing-optimizations-microsoft.md).
+For more information about how to perform allocation, see [Allocation management](https://www.servicenow.com/community/sam-blog/allocation-management-on-servicenow-sam-pro/ba-p/2649232) and how the Software Asset Management application performs automated optimization, see [View realized and potential cost-based licensing optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-cost-based-licensing-optimizations-microsoft.md).
 
 **Note:** Both options, whether licensing by physical cores or licensing by individual virtual machines, come with their own set of Microsoft rules that must be followed. For more information, see [SQL Server](https://www.microsoft.com/licensing/terms/productoffering/SQLServer/EAEAS).
 
@@ -119,7 +120,7 @@ The software components of a single SQL Server license can't be separated. An OS
 </td></tr></tbody>
 </table>When deploying Microsoft products like Windows Server or System Center \(using the Per Core license model\) on cluster virtualization technologies such as VMware vSphere, Microsoft Hyper-V, or Nutanix Acropolis HyperVisor \(AHV\), the number of licenses required for the physical host depends on the virtual machines that could potentially migrate to it within the cluster.
 
-Technologies like VMware vMotion, which enables live migration of virtual machines across all hosts, and host affinity, which helps lock virtual machines to hosts within a cluster, manage the movement of virtual machines across hosts. To understand more about cluster virtualization technology and its support on the Software Asset Management application, see [Understanding your cluster infrastructure](understand-sam-cluster.md).
+Technologies like VMware vMotion, which enables live migration of virtual machines across all hosts, and host affinity, which helps lock virtual machines to hosts within a cluster, manage the movement of virtual machines across hosts. To understand more about cluster virtualization technology and its support on the Software Asset Management application, see [Understanding your cluster infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/understand-sam-cluster.md).
 
 According to Microsoft licensing rules, if a virtual machine with a Microsoft product like Windows Server installed is hosted on one server but can potentially migrate to another, the destination server must be licensed as if the virtual machine is already running on it.
 
@@ -190,5 +191,5 @@ For each server OSE licensed with SQL Server subscription licenses or licenses c
 -   One passive failover replica for Disaster Recovery in a single virtual machine or instance on Azure
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software license maintenance](software-license-maintenance.md)
+</table>**Parent Topic:**[Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-license-maintenance.md)
 

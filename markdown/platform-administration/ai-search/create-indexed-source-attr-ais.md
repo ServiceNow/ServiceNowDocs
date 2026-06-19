@@ -2,6 +2,7 @@
 title: Create an indexed source attribute in AI Search
 description: Define an indexed source attribute to configure the AI Search content indexing behavior for all records on a source table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/create-indexed-source-attr-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -21,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-For details on available indexed source attributes and values, see [List of AI Search indexed source attributes](../reference/indexed-source-attrs-ais.md).
+For details on available indexed source attributes and values, see [List of AI Search indexed source attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-attrs-ais.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ For details on available indexed source attributes and values, see [List of AI S
 
 4.  On the Indexed Source Attribute form, fill in the fields.
 
-    For a description of the field values, see [Indexed Source Attribute form](../reference/indexed-source-attribute-form-ais.md).
+    For a description of the field values, see [Indexed Source Attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-attribute-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -44,7 +45,7 @@ The new indexed source attribute appears in the Advanced Configuration related l
 
 ## What to do next
 
-To make the new indexed source attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](index-single-source-ais.md).
+To make the new indexed source attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
 
-**Parent Topic:**[Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md)
+**Parent Topic:**[Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-attributes-ais.md)
 

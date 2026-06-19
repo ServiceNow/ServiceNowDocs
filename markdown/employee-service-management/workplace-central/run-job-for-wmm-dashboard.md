@@ -2,6 +2,7 @@
 title: Run the scheduled job for the Maintenance Management dashboard
 description: As an admin, run the scheduled job Workplace Maintenance Case Historical Data Collection to collect data for the past year that is used by the Maintenance Management dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/run-job-for-wmm-dashboard.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -32,5 +33,5 @@ This job should be run before viewing the dashboard for the first time. It colle
 3.  Select **Execute Now** to run the job.
 
 
-**Parent Topic:**[View Maintenance Management metrics](view-maintenence-mgmt-analytics.md)
+**Parent Topic:**[View Maintenance Management metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/view-maintenence-mgmt-analytics.md)
 

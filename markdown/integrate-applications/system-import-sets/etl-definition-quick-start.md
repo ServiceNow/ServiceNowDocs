@@ -2,6 +2,7 @@
 title: ETL Definition quick start guide
 description: Learn how to set up and use an ETL definition to import data into ServiceNow tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/etl-definition-quick-start.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -61,13 +62,13 @@ For this quick start guide, we're going to import data in the following JSON fil
 
     5.  Select **Load All Records** to load records to the import set table.
 
-        ![JSON Data Source form for the School Import.](../image/data-source-school.png)
+        \[Omitted image "data-source-school.png"\] Alt text: JSON Data Source form for the School Import.
 
     6.  Open the import set row created.
 
         The record should be saved to a single JSON column.
 
-        ![The import set row with the record saved as a single JSON column.](../image/school-import-row.png)
+        \[Omitted image "school-import-row.png"\] Alt text: The import set row with the record saved as a single JSON column.
 
 2.  Create the target table structure to import data.
 
@@ -91,7 +92,7 @@ For this quick start guide, we're going to import data in the following JSON fil
 
     3.  Enter a name and save the record.
 
-        ![Record of ETL definition named school definition.](../image/etl-definition-school.png)
+        \[Omitted image "etl-definition-school.png"\] Alt text: Record of ETL definition named school definition.
 
 4.  Create entities.
 
@@ -103,7 +104,7 @@ For this quick start guide, we're going to import data in the following JSON fil
 
         The field/path is the path from the root of the JSON and we mark arrays with \[\*\].
 
-        ![The Import Set ETL Entity form.](../image/etl-entity-import.png)
+        \[Omitted image "etl-entity-import.png"\] Alt text: The Import Set ETL Entity form.
 
     4.  Go to ETL Definition and under ETL Entities, select **New**.
 
@@ -119,7 +120,7 @@ For this quick start guide, we're going to import data in the following JSON fil
 
         This should generate the **Name** field. Set the **Coalesce** to **true**.
 
-        ![ETL Entity for School.](../image/etl-entity-school.png)
+        \[Omitted image "etl-entity-school.png"\] Alt text: ETL Entity for School.
 
     10. Go to ETL Definition and under ETL Entities, select **New**.
 
@@ -133,15 +134,15 @@ For this quick start guide, we're going to import data in the following JSON fil
 
     14. Since **School** in the ETL Entity fields is a reference field, modify the **Field/Path** to `school.name` and set **Coalesce** to **true** for the **Name** field because name is unique.
 
-        ![ETL Entity for Class.](../image/etl-entity-class.png)
+        \[Omitted image "etl-entity-class.png"\] Alt text: ETL Entity for Class.
 
     15. Add Entities to Student and Subject as well.
 
         For Subject, set **Coalesce** to **true** for both the **Name** and **Student** fields.
 
-        ![ETL Entity for Student.](../image/etl-entity-student.png)
+        \[Omitted image "etl-entity-student.png"\] Alt text: ETL Entity for Student.
 
-        ![ETL Entity for Subject.](../image/etl-entity-subject.png)
+        \[Omitted image "etl-entity-subject.png"\] Alt text: ETL Entity for Subject.
 
 5.  Add RTE Entity Mappings.
 
@@ -165,7 +166,7 @@ For this quick start guide, we're going to import data in the following JSON fil
 
         You can only select the Entity fields from the target entity.
 
-        ![RTE Entity Mapping for Import set to school.](../image/rte-entity-mapping-school.png)
+        \[Omitted image "rte-entity-mapping-school.png"\] Alt text: RTE Entity Mapping for Import set to school.
 
     9.  Go to ETL Definition and under RTE Entity Mappings select **New**.
 
@@ -181,13 +182,13 @@ For this quick start guide, we're going to import data in the following JSON fil
 
         The school **Target Field** should map to the **School name** of the import set. The system does the school look up using this value and sets the correct school reference.
 
-        ![RTE Entity Mapping for Import set to class.](../image/rte-entity-mapping-class.png)
+        \[Omitted image "rte-entity-mapping-class.png"\] Alt text: RTE Entity Mapping for Import set to class.
 
     15. Add mappings for Student and Subject as well.
 
-        ![RTE Entity Mapping for Import set to student.](../image/rte-entity-mapping-student.png)
+        \[Omitted image "rte-entity-mapping-student.png"\] Alt text: RTE Entity Mapping for Import set to student.
 
-        ![RTE Entity Mapping for Import set to subject.](../image/rte-entity-mapping-subject.png)
+        \[Omitted image "rte-entity-mapping-subject.png"\] Alt text: RTE Entity Mapping for Import set to subject.
 
 6.  Create a Robust Import Set Transformer record and run the import.
 
@@ -203,11 +204,11 @@ For this quick start guide, we're going to import data in the following JSON fil
 
         Selecting **Verbose** is not required, but enables you to debug the configuration. Switch this off before moving to production because it can negatively impact the performance.
 
-        ![Robust Import Set Transformer for School Transformer.](../image/robust-import-set-transformer.png)
+        \[Omitted image "robust-import-set-transformer.png"\] Alt text: Robust Import Set Transformer for School Transformer.
 
     6.  Select **Submit**.
 
-        ![Data Source for School Import.](../image/data-source-transformer.png)
+        \[Omitted image "data-source-transformer.png"\] Alt text: Data Source for School Import.
 
     7.  Select **Load All Records**.
 
@@ -221,6 +222,6 @@ For this quick start guide, we're going to import data in the following JSON fil
 
     12. If the configuration works correctly, it should show the import set row record with all the records inserted.
 
-        ![School import.](../image/import-set-records.png)
+        \[Omitted image "import-set-records.png"\] Alt text: School import.
 
 

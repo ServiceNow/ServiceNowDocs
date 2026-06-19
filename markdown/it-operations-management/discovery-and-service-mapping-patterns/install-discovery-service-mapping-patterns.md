@@ -2,6 +2,7 @@
 title: Install Discovery and Service Mapping Patterns
 description: You can install the Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/install-discovery-service-mapping-patterns.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -45,5 +46,5 @@ Multiple tables are installed with Discovery and Service Mapping Patterns.
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Pattern Designer and related applications](../reference/configuring-pattern-designer-plugins.md)
+**Parent Topic:**[Configuring Pattern Designer and related applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/configuring-pattern-designer-plugins.md)
 

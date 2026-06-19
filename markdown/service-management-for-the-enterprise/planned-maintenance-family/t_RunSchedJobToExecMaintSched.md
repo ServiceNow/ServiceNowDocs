@@ -2,6 +2,7 @@
 title: Run a scheduled job to execute a maintenance schedule
 description: Maintenance schedules are executed whenever the meter, duration, script, or condition criteria is met. You can also use the Schedule ad-hoc feature to run a maintenance schedule manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/planned-maintenance-family/t\_RunSchedJobToExecMaintSched.html
 release: australia
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -35,7 +36,7 @@ To configure the nightly planned maintenance scheduled job:
 
 4.  To specify a different schedule for running the job, change the **Run** and **Time** fields.
 
-    A scheduled job does not run based on the value set in the **Next run time** field in the maintenance plan record for this job. For more information, see [Configure a maintenance schedule](t_DefineAMaintSched.md).
+    A scheduled job does not run based on the value set in the **Next run time** field in the maintenance plan record for this job. For more information, see [Configure a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/t_DefineAMaintSched.md).
 
 5.  Click **Update**.
 
@@ -46,5 +47,5 @@ To configure the nightly planned maintenance scheduled job:
     **Note:** If one or more records in the table associated with the maintenance plan are deleted after the matching records were associated with the maintenance plan, the next nightly run removes all the records associated with those removed assets.
 
 
-**Parent Topic:**[Managing maintenance plans](../concept/c_MaintPlanMgmt.md)
+**Parent Topic:**[Managing maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_MaintPlanMgmt.md)
 

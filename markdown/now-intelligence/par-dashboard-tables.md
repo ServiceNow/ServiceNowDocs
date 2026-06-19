@@ -2,6 +2,7 @@
 title: Platform Analytics dashboard tables
 description: The following tables relate to Platform Analytics dashboards and can be accessed through scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/par-dashboard-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -42,5 +43,5 @@ The following tables relate to Platform Analytics dashboards and can be accessed
 |par\_recommendation|Stores recommendations of Process Mining projects to create. These recommendations are given through Process Mining insights.|
 |par\_recommendation\_user\_action|Stores whether users accepted or dismissed a Process Mining insight recommendation.|
 
-**Parent Topic:**[Dashboard reference](../concept/dashboard-reference-page.md)
+**Parent Topic:**[Dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboard-reference-page.md)
 

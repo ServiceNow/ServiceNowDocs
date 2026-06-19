@@ -2,6 +2,7 @@
 title: Create New Legal entity form
 description: On the Create New Legal entity form, fill in the fields to set up the digital resilience information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-legal-entity.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -149,5 +150,5 @@ Value of total assets - of the financial entity
 Monetary value of the total assets of the entity using the ICT services, as per the previous year's financial statement.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a legal entity and enhance digital resilience data](../task/create-legal-entity.md)
+</table>**Parent Topic:**[Create a legal entity and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-legal-entity.md)
 

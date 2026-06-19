@@ -2,6 +2,7 @@
 title: CIIdentification - Global
 description: The CIIdentification script include provides methods for discovery of configuration item \(CI\) identification.Creates an instance of the CIIdentification class.Logs a message to the CI Identification log if debug logging is turned on.Identifies the CI. This is the entry point for the entire CI Identification process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CIIdentificationAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CIIdentification script include provides methods for discovery of configurat
 
 Use this script include with any server-side discovery script for CI identification.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CIIdentification - CIIdentification\(String ciData, String logger\)
 

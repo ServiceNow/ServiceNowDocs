@@ -2,6 +2,7 @@
 title: Using Software Asset Management Foundation plugin workspace
 description: Use the Software Asset Workspace, the intuitive and streamlined user interface of the Software Asset Management Foundation plugin application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -23,12 +24,12 @@ The Software Asset workspace contains the following views:
 -   License usage: You can view the compliance status of all your publishers, review reconciliation results, and view and run reports.
 -   License operations: lists all the entitlements, software models, import entitlement errors, discovery models.
 
--   **[Software asset overview for Software Asset Management Foundation plugin dashboard](software-asset-overview-samf.md)**  
+-   **[Software asset overview for Software Asset Management Foundation plugin dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/software-asset-overview-samf.md)**  
 Enhance your Software Asset Management Foundation plugin experience by using the modernized and user-friendly software asset overview dashboard. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
--   **[License usage view for Software Asset Management Foundation plugin](license-usage-view-for-samf.md)**  
+-   **[License usage view for Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/license-usage-view-for-samf.md)**  
 Use the license usage view as a single plane to understand the license position of all software products, remediate non compliance, and view reconciliation results.
--   **[License Operation view for Software Asset Management Foundation plugin](license-operation-view-samf.md)**  
+-   **[License Operation view for Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/license-operation-view-samf.md)**  
 Use the License operations view in the Software Asset Workspace to view all your licenses and discovery models that are managed by the Software Asset Management Foundation plugin application.
 
-**Parent Topic:**[Software Asset Management Foundation plugin](c_SoftwareAssetMgmtSAMF.md)
+**Parent Topic:**[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
 

@@ -2,6 +2,7 @@
 title: Select the parent instance
 description: An instance can have multiple peer instances but only one parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_SelectTheParentInstance.html
 release: australia
 product: Team Development
 classification: team-development
@@ -45,9 +46,9 @@ When you back out a change on a Team Development instance, it backs out the chan
     |Select a different instance|Opens a dialog box where you can select another remote instance or define a new remote instance.|
     |Register a new instance or List all remote instances|Opens the remote instance form or list, where you can define a new remote instance. These options are available when no remote instances are defined.|
 
-    ![Parent instance](../image/ParentInstance.png)
+    \[Omitted image "ParentInstance.png"\] Alt text: Parent instance
 
-3.  If you defined a new remote instance in step 2, repeat [step 1](t_SelectTheParentInstance.md#step-1-navigate-team-dashboard) through [step 2](t_SelectTheParentInstance.md#step-2-click-link) and select the remote instance you defined.
+3.  If you defined a new remote instance in step 2, repeat [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_SelectTheParentInstance.md) through [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_SelectTheParentInstance.md) and select the remote instance you defined.
 
     The system initiates a reconcile, which compares the local instance to the parent. It then generates the list of local changes and calculates the number of changes that are ready to pull from the parent. The reconcile also validates the instance versions.
 

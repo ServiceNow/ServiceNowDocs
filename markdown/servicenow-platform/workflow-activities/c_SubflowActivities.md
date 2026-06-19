@@ -2,6 +2,7 @@
 title: Subflow activities in workflow
 description: Subflow activities run and manage workflows from a parent workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/c\_SubflowActivities.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -15,5 +16,5 @@ breadcrumb: [Workflow activities reference, Workflow activities, Classic Workflo
 
 Subflow activities run and manage workflows from a parent workflow.
 
-The [Parallel Flow Launcher](../reference/r_ParallelFlowLauncher-1.md)subflow activity is available.
+The [Parallel Flow Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)subflow activity is available.
 

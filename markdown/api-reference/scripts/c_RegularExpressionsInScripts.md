@@ -2,6 +2,7 @@
 title: Using regular expressions in server-side scripts
 description: JavaScript regular expressions automatically use an enhanced regex engine, which provides improved performance and supports all behaviors of standard regular expressions as defined by Mozilla JavaScript. The enhanced regex engine supports using Java syntax in regular expressions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_RegularExpressionsInScripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -19,10 +20,10 @@ The SNC.Regex API is not available for scoped applications. For scoped applicati
 
 For more information on JavaScript regular expressions, see the Mozilla JavaScript documentation on [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) and [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp).
 
--   **[Using Java syntax in JavaScript regular expressions](../reference/r_JvSyntxJaScrRegex.md)**  
+-   **[Using Java syntax in JavaScript regular expressions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JvSyntxJaScrRegex.md)**  
 The enhanced regex engine includes an additional flag to allow Java syntax to be used in JavaScript regular expressions.
--   **[Convert SNC Regex expressions to enhanced regex expressions](../task/t_ConvertSNCRegexExpressions.md)**  
+-   **[Convert SNC Regex expressions to enhanced regex expressions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/t_ConvertSNCRegexExpressions.md)**  
 When you upgrade to Eureka Patch 5 or later releases, you should convert scripts that use the SNC.Regex API to use regular JavaScript expressions.
 
-**Parent Topic:**[Server-side scripting](../../server-scripting/concept/c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md)
 

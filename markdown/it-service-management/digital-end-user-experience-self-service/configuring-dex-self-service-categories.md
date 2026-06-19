@@ -2,13 +2,14 @@
 title: Configure DEX Self-service categories and subcategories
 description: Configure or customize device health categories and subcategories for issue configurations to enable end users in your organization to self-solve device, application, and connectivity issues by using DEX Self-service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/configuring-dex-self-service-categories.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure DEX Self-service, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
+breadcrumb: [Configure, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
 
 # Configure DEX Self-service categories and subcategories
@@ -27,7 +28,7 @@ Role required: sn\_dex.admin
 
 3.  Enter relevant information in the DEX Self-service category form fields.
 
-    For descriptions about the DEX Self-service category form fields, see [DEX Self-service categories form](../reference/dex-self-service-categories-form.md).
+    For descriptions about the DEX Self-service category form fields, see [DEX Self-service categories form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-self-service/dex-self-service-categories-form.md).
 
 4.  Select **Submit** to add new categories, and **Update** to modify existing categories.
 

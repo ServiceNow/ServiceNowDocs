@@ -2,6 +2,7 @@
 title: Add supporting documents to the contract request
 description: As a contract user or fulfiller, add single or multiple supporting documents to the contract request and classify them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -48,5 +49,5 @@ You can attach supporting documents only when the State is Draft or Work in prog
     The selected file is attached and listed in the Supporting Documents related list.
 
 
-**Parent Topic:**[Use non-self-served contract request](../concept/cncore-req-nss-contract-1.md)
+**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

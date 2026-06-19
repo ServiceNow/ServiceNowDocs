@@ -2,6 +2,7 @@
 title: I18N - Knowledge internationalization
 description: The optional knowledge internationalization features enable knowledge users to view articles in multiple languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/c\_I18NKMInternational.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -25,11 +26,11 @@ Beginning with the San Diego release, users with elevated privileges can add a c
 
 ## Set the search language for articles
 
-You can set the default language for searching articles to a language different from the logged-in language by specifying the language as the value of the **glide.knowman.search.default\_language** system property. For example, if French is the logged-in language and you want to set English as the default language for searched articles, specify English in the system property. You can also switch to French in the UI to see the French articles. If the system property is not set, the logged-in language of the user is set as the default article language. For more information, see [Other knowledge properties](../reference/r_KnowledgeProperties.md#).
+You can set the default language for searching articles to a language different from the logged-in language by specifying the language as the value of the **glide.knowman.search.default\_language** system property. For example, if French is the logged-in language and you want to set English as the default language for searched articles, specify English in the system property. You can also switch to French in the UI to see the French articles. If the system property is not set, the logged-in language of the user is set as the default article language. For more information, see [Other knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
 
-To enable search for different languages simultaneously, navigate to **Knowledge Administration** &gt; **Knowledge Search** &gt; **Properties** &gt; **Enable multi language search** and select the **Yes** check box. For information about performing a search on all available languages simultaneously, see [Search using Knowledge Management v3](../reference/r_KnowledgeSearch.md).
+To enable search for different languages simultaneously, navigate to **Knowledge Administration** &gt; **Knowledge Search** &gt; **Properties** &gt; **Enable multi language search** and select the **Yes** check box. For information about performing a search on all available languages simultaneously, see [Search using Knowledge Management v3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeSearch.md).
 
 **Note:** If the **glide.knowman.search.default\_language** system property is inactive, you can search one language at a time. If the property is enabled, you can search for multiple languages simultaneously.
 
-**Parent Topic:**[Knowledge Management](knowledge-management.md)
+**Parent Topic:**[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md)
 

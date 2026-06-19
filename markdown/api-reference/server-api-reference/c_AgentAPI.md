@@ -2,6 +2,7 @@
 title: Agent - Global
 description: The Agent API provides methods for getting or setting agent presence and channel availability.Gets an agent by sys\_id.Gets the current presence state and channel availability of a provided agent.Sets the state of a provided agent's presence and sets the agent's channel availability for that state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_AgentAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -22,7 +23,7 @@ Requires the following:
 -   Advanced Work Assignment plugin \(com.glide.awa\)
 -   Role: awa\_integration\_user or admin
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Agent - get\(String user\_sys\_id\)
 

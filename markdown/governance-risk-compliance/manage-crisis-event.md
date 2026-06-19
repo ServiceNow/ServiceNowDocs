@@ -2,6 +2,7 @@
 title: Manage a crisis event
 description: Review and update the details of a crisis event in the Details tab. Get the event ready for a crisis that may strike and disrupt your business.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/manage-crisis-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the lists icon \(![Lists icon](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
 3.  Click **Pending** state in the Crisis Events list.
 

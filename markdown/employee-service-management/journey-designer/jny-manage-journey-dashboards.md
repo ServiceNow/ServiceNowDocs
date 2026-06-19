@@ -2,6 +2,7 @@
 title: Create and manage Journey designer dashboards
 description: Monitor journeys status and manage the Journey designer dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-manage-journey-dashboards.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -111,5 +112,5 @@ Option to edit the display and color settings of the widget report.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Journey designer dashboards and reports](../reference/jny-report-dashboards.md)
+**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
 

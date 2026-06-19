@@ -2,6 +2,7 @@
 title: Identify a downgrade child from a software license record using the legacy Software Asset Management plugin
 description: Use the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin to identify a downgrade child from a software license record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_IdentifyADGChildFromASWLicRec.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -36,5 +37,5 @@ Role required: sam
     **Note:** Downgrade children set on the software license applies specifically to that license. If a downgrade child is set on the software model, it applies to all licenses of that model.
 
 
-**Parent Topic:**[Downgrade a license using the legacy Software Asset Management plugin](t_DowngradingALicense.md)
+**Parent Topic:**[Downgrade a license using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_DowngradingALicense.md)
 

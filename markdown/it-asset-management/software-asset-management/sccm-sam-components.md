@@ -2,6 +2,7 @@
 title: Components installed with the Microsoft SCCM software usage plugin
 description: Several types of components are installed with activation of the Microsoft SCCM software usage plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sccm-sam-components.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -100,5 +101,5 @@ If you've activated the Integration — Microsoft SCCM 2016 Software Usage \(com
 |Total usage|v\_MonthlyUsageSummary|Software usage 2016 import \[imp\_samp\_usage\_2016\_import\]|Software Usage \[samp\_sw\_usage\]|
 |Last used|v\_GS\_CCM\_RECENTLY\_USED\_APPS|SCCM 2016 Software Last Used \[imp\_sccm2016\_software\_last\_used\]|Software Usage \[samp\_sw\_usage\]|
 
-**Parent Topic:**[Software Asset Management references](references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
 

@@ -2,6 +2,7 @@
 title: AI in Asset Audit Response
 description: Set up, manage, and optimize your generative AI solutions on the ServiceNow AI Platform from a single workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/ai-in-asset-audit-response.html
 release: australia
 product: Asset Audits
 classification: asset-audits
@@ -22,14 +23,14 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+For more information, see .
 
-For more information about AI capabilities in Asset Audit Response, see [Fulfill evidence requests through the Asset Response Guided Experience](../task/fulfill-evidence-requests-guided-experience.md).
+For more information about AI capabilities in Asset Audit Response, see [Fulfill evidence requests through the Asset Response Guided Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/fulfill-evidence-requests-guided-experience.md).
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 
--   [Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
--   [Now Assist agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
+-   
+-   
 
 **Important:**
 
@@ -48,7 +49,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about legal request and/or legal matter \(including related field information, comments, and work notes\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about legal request and/or legal matter \(including related field information, comments, and work notes\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 

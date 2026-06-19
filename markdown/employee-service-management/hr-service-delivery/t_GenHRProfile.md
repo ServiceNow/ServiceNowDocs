@@ -2,6 +2,7 @@
 title: Generate HR Profiles
 description: For new customers using HR Service Delivery, you can create an HR profile for multiple employees using conditions and criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_GenHRProfile.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,5 +44,5 @@ Role required: sn\_hr\_core.basic or sn\_hr\_core.manager
     Users are not charged for licensing when their HR profiles are created with External flag = True, or when their existing HR profiles are overridden with External flag = True.
 
 
-**Parent Topic:**[HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

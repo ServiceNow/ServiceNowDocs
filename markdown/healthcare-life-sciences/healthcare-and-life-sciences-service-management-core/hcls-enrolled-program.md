@@ -2,6 +2,7 @@
 title: Enrolled Program table
 description: The Enrolled Program \[sn\_hcls\_enrolled\_program\] table stores the programs that a patient has been enrolled into.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-enrolled-program.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Enrolled Program \[sn\_hcls\_enrolled\_program\] table stores the programs t
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 <table id="table_uvk_nh1_drb"><thead><tr><th>
 
@@ -95,7 +96,7 @@ Alpha-numeric profile identifier of the enrolled program.
 
  The value is auto-generated and is incremented every time you add a new observation to your ServiceNow instance. The initial value for the **Number** field is ENPG00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Enrolled Program \[sn\_hcls\_enrolled\_program\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Enrolled Program \[sn\_hcls\_enrolled\_program\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 
@@ -122,5 +123,5 @@ Reference
 Name to identify the enrolled program.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

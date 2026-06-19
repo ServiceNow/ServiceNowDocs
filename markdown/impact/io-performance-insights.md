@@ -2,7 +2,10 @@
 title: Performance insights in user-configurable dashboard
 description: The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/io-performance-insights.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -24,7 +27,7 @@ The performance summary of the instances as a feature exists in the:
 
 ## Performance insights widget in the user-configurable dashboard
 
-![Performance summary of the instances in the user configurable dashboard.](../image/io-performance-insights-widget.png)
+\[Omitted image "io-performance-insights-widget.png"\] Alt text: Performance summary of the instances in the user configurable dashboard.
 
 The ML model fetches these data and categorizes them as Critical, Warning, or Optimal based on the metrics score in the Performance widget.
 
@@ -33,7 +36,7 @@ The ML model fetches these data and categorizes them as Critical, Warning, or Op
 
 In the Instances grid, the **Health** column displays Critical in red, Warning in yellow, and Optimal in green. Selecting the name of the instances opens a slider with the details of metrics that are affected. Selecting the links in the **Metrics Affected** column takes you to the performance page with the details of it in the last 24 hours.
 
-For each instance, you can select the ![Vertical ellipsis.](../../../reuse/icons/product-icons/ellipsis-vertical-outline-24.svg) icon and click the **Instance details** option to know more about the instance. Select the **View root cause** button for root cause analysis report.
+For each instance, you can select the \[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: Vertical ellipsis. icon and click the **Instance details** option to know more about the instance. Select the **View root cause** button for root cause analysis report.
 
 **Note:** The **Instance details** and **View Root Cause** options are available only for instances that are in Critical and Warning states. However, the options aren’t available for instances in Optimal state.
 
@@ -48,7 +51,7 @@ Select the **View all Instances** link to view all the production instances in t
 
 You can also configure only one instance or multiple instances and view the performance summary.
 
-To create a customizable widget on a new dashboard, see [Create a dashboard](customize-instance-observer-dashboard.md).
+To create a customizable widget on a new dashboard, see [Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/customize-instance-observer-dashboard.md).
 
 1.  Select the **Edit Dashboard** link on the top and click the **Add Widget** option.
 2.  Select **Custom** or **Out of the box** option for the kind of widget that you would like to add.
@@ -71,7 +74,7 @@ You can also delete any of the components and customize it as you like.
 
 If you select the **Analytics** menu and click the **Instances Summary** option, you have another option of viewing the performance status of your instances.
 
-![Instances summary in Analytics page.](../image/io-performance-inst-analytics.png)
+\[Omitted image "io-performance-inst-analytics.png"\] Alt text: Instances summary in Analytics page.
 
 The instances performance summary in the **Analytics** tab is similar to the one in the user configurable dashboard. The dial component and the performance status counts are all similar, however there’s a **Root Cause &amp; Fixes** tile to generate the root cause details.
 
@@ -79,7 +82,7 @@ The widget is refreshed for every 15 minutes to get the latest data.
 
 There’s an additional **Alerts** column. Select the alert count of an instance in the column that opens the Alerts console of the instance, where you can view the alert count for the past three hours.
 
-You can also access the instance details by selecting the ![Vertical ellipsis.](../../../reuse/icons/product-icons/ellipsis-vertical-outline-24.svg) for that instance, which opens the Instance Details slider page where you can view the instance metrics that contribute to Warning or Critical performance. You can gauge the performance with the values of the metric in the last 60 minutes.
+You can also access the instance details by selecting the \[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: Vertical ellipsis. for that instance, which opens the Instance Details slider page where you can view the instance metrics that contribute to Warning or Critical performance. You can gauge the performance with the values of the metric in the last 60 minutes.
 
 If the report is already generated, then you can view the report by selecting the **View root cause report** button in the Instance Details page for that instance.
 
@@ -87,5 +90,5 @@ The root cause report opens in a separate page with the **Root cause summary and
 
 Select the instance name in the Instance column that opens a slider page displaying the instance name, instance type, and instance status. If the instance performance status is Optimal, then you wouldn't see any data fetched from the back end. The columns in the slider page are sortable and filterable, and selecting the links in the **Metrics Affected** column takes you to the respective performance page. The trend in data is displayed in the **Trend** column.
 
-**Parent Topic:**[Instance Observer user configurable dashboard](user-configurable-dashboard.md)
+**Parent Topic:**[Instance Observer user configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md)
 

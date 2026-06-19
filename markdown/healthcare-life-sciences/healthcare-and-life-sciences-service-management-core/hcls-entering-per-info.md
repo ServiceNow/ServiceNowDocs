@@ -2,6 +2,7 @@
 title: Enter key personal information on the Patient Portal
 description: As a patient, after you have registered on your Patient Portal, you can provide your personal information to help organizations determine your healthcare services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-entering-per-info.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,5 +18,5 @@ As a patient, after you have registered on your Patient Portal, you can provide 
 
 Key personal information is required by healthcare providers for various purposes including determining the scheduling of your vaccinations.
 
-**Parent Topic:**[Use the Patient Portal for Healthcare and Life Sciences Service Management](hcls-patient-portal.md)
+**Parent Topic:**[Use the Patient Portal for Healthcare and Life Sciences Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-patient-portal.md)
 

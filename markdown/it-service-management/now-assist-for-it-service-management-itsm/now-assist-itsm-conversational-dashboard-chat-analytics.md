@@ -2,6 +2,7 @@
 title: ITSM Virtual Agent chat analytics
 description: Track all closed chats, ITSM Virtual Agent chat resolutions, and the chat resolution rate to measure overall demand and ITSM Virtual Agent effectiveness.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-chat-analytics.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -45,7 +46,7 @@ Analyze chat metrics when you use ITSM Virtual Agent or a live agent to chat wit
 
 ## Chat analytics—Usage and success metrics
 
-![Chat analytics—Usage and success metrics](../image/now-assist-itsm-va-analytics-chatanalytics.png)
+\[Omitted image "now-assist-itsm-va-analytics-chatanalytics.png"\] Alt text: Chat analytics—Usage and success metrics
 
 |Indicators|Descriptions|
 |----------|------------|
@@ -55,7 +56,7 @@ Analyze chat metrics when you use ITSM Virtual Agent or a live agent to chat wit
 
 ## Chat analytics—Transfer to live agent
 
-![Chat analytics—Transfer to live agent](../image/now-assist-itsm-va-analytics-liveagent.png)
+\[Omitted image "now-assist-itsm-va-analytics-liveagent.png"\] Alt text: Chat analytics—Transfer to live agent
 
 <table id="table_s4b_xvz_23c"><thead><tr><th>
 
@@ -88,7 +89,7 @@ The percentage of all closed chats that were escalated to a live agent. This is 
 </td></tr></tbody>
 </table>## Chat analytics—Engagement over time
 
-![Chat analytics—Engagement over time](../image/now-assist-itsm-va-analytics-engage-time.png)
+\[Omitted image "now-assist-itsm-va-analytics-engage-time.png"\] Alt text: Chat analytics—Engagement over time
 
 <table id="table_qf3_jzg_f3c"><thead><tr><th>
 
@@ -117,7 +118,7 @@ The number of unique users engaged in chat interactions per day. This metric dif
 </td></tr></tbody>
 </table>## Chat analytics—Chat distribution
 
-![Chat analytics—Chat distribution](../image/now-assist-itsm-va-analytics-chatdistro.png)
+\[Omitted image "now-assist-itsm-va-analytics-chatdistro.png"\] Alt text: Chat analytics—Chat distribution
 
 <table id="table_isj_bb1_f3c"><thead><tr><th>
 

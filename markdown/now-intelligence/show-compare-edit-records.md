@@ -2,6 +2,7 @@
 title: Show, compare, create, and edit records in KPI Details
 description: You can view the list of records underlying an indicator score. You can create a record, edit individual records, or compare records. You can also export the list of records.If you have activated Show records, you can edit one of the records from inside KPI Details.You can compare indicator scores and underlying records for any two periods. List the records that have been moved out, shared, or moved in between these periods.If you show underlying records on KPI Details, you can refresh or export the list, select the columns to view, or create a new record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/show-compare-edit-records.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,11 +16,11 @@ You can view the list of records underlying an indicator score. You can create a
 
 The scores for automated indicators are based on values collected from table records. If you are looking at an automated indicator in KPI Details, toggle **Show records** to see a list of the records underlying the indicator score. You see the records behind the score for whichever date you have selected.
 
-![Indicator with a list of underlying records for the selected date](../../../help-center/platform-analytics-workspace/image/kpid-show-records.png)
+\[Omitted image "kpid-show-records.png"\] Alt text: Indicator with a list of underlying records for the selected date
 
 **Note:**
 
--   Records are not available for [formula indicators](../../performance-analytics/concept/performance-analytics-glossary.md#), such as indicators that calculate percentages or averages.
+-   Records are not available for [formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), such as indicators that calculate percentages or averages.
 -   The list view of shown records follows one of these settings, in order of priority:
     1.  The value of the **Records list view** config property in the UI Builder, if set
     2.  The value in the **List View** field on the indicator source, if set
@@ -31,13 +32,13 @@ If you have activated **Show records**, you can edit one of the records from ins
 
 Depending on how the KPI Details component is configured, you can edit a listed record in one of the following ways:
 
--   In the Quick view pane. To open the Quick view for a record, click the Information icon \(![](../../performance-analytics/image/InfoIcon.png)\) next to the record's list entry. You can view the activity on the record or edit the record. Click **Update** when you are done.![Quick edit pane on KPI Details.](../image/kpi-details-quick-edit.png)
+-   In the Quick view pane. To open the Quick view for a record, click the Information icon \(\[Omitted image "InfoIcon.png"\] Alt text:\) next to the record's list entry. You can view the activity on the record or edit the record. Click **Update** when you are done.\[Omitted image "kpi-details-quick-edit.png"\] Alt text: Quick edit pane on KPI Details.
 
     The Quick view pane is available only if it has been turned on in UI Builder.
 
 -   In a separate tab for the record. To open the record in a new tab, click the value in the first column of its list entry.
 
-    ![Clickable record number in list of records on KPI Details.](../image/kpi-details-click-record-number.png)
+    \[Omitted image "kpi-details-click-record-number.png"\] Alt text: Clickable record number in list of records on KPI Details.
 
 
 ## Compare records
@@ -46,7 +47,7 @@ You can compare indicator scores and underlying records for any two periods. Lis
 
 Select **Compare records** above the visualization to open the record comparison view.
 
-![Compare Records button](../image/kpid-compare-records.png)
+\[Omitted image "kpid-compare-records.png"\] Alt text: Compare Records button
 
 **Note:** Data snapshots indicators do not support record comparison.
 
@@ -54,7 +55,7 @@ Select the periods to compare either by typing in the dates or by using a calend
 
 Between the two scores, you see the number of records that have been moved out, shared, or moved in between these periods. Each of these values is a button. Select a value to list the corresponding records.
 
-You can compare records filtered on up to two [breakdowns](../../performance-analytics/concept/performance-analytics-glossary.md#), each with one element. You cannot compare records filtered on multiple level elements.
+You can compare records filtered on up to two [breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), each with one element. You cannot compare records filtered on multiple level elements.
 
 You can compare records from a past period with real-time scores. When real-time scores are turned on, by default you compare the score from the last collected period to the real-time score.
 
@@ -73,7 +74,7 @@ In this example, the number of open incident records on February 1, 2023 is comp
 -   Shared \(Present on both dates\): 32
 -   Moved in \(Added between the dates\): 8
 
-![Comparing records](../image/kpid-compare-record-details.png)
+\[Omitted image "kpid-compare-record-details.png"\] Alt text: Comparing records
 
 ## Record list actions on KPI Details
 
@@ -81,11 +82,11 @@ If you show underlying records on KPI Details, you can refresh or export the lis
 
 The records list on KPI Details has a set of buttons and icons for actions on the list:
 
-![The actions for a record list in KPI Details.](../image/kpi-details-record-list-actions.png)
+\[Omitted image "kpi-details-record-list-actions.png"\] Alt text: The actions for a record list in KPI Details.
 
--   The Refresh action ![Refresh icon](../image/icon-refresh-nextexp.png) simply refreshes the list.
--   The Records - List Actions ![Settings icon](../../dashboards/image/icon-cogwheel-ac.png) control lets you select which columns to show in the list. The Reset widths option that is also listed when you select this icon is not enabled for KPI Details.
--   The **Edit** button is not enabled for KPI Details. For technical reasons, a different mechanism is provided for editing individual records. For more information, see [View or edit a record](show-compare-edit-records.md#).
+-   The Refresh action \[Omitted image "icon-refresh-nextexp.png"\] Alt text: Refresh icon simply refreshes the list.
+-   The Records - List Actions \[Omitted image "icon-cogwheel-ac.png"\] Alt text: Settings icon control lets you select which columns to show in the list. The Reset widths option that is also listed when you select this icon is not enabled for KPI Details.
+-   The **Edit** button is not enabled for KPI Details. For technical reasons, a different mechanism is provided for editing individual records. For more information, see [View or edit a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/show-compare-edit-records.md).
 -   The **Export** button opens a dialog where you can export the list of records either as a local file or as an email attachment, in one of the following formats:
     -   Microsoft Excel
     -   CSV

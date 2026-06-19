@@ -2,6 +2,7 @@
 title: Create calendar content
 description: Add a calendar to the employee portal to provide employees with a quick way of viewing upcoming company events, such as holidays.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-library-portal-calendar.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ Add a calendar to the employee portal to provide employees with a quick way of v
 
 Role required: sn\_cd.content\_manager
 
-Calender dates are configured in the ServiceNow AI Platform. For more information, see [Holidays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_Holidays.md).
+Calender dates are configured in the ServiceNow AI Platform. For more information, see .
 
 ## Procedure
 
@@ -81,12 +82,12 @@ Schedule
 
 </td><td>
 
-The calendar you want to appear on the Employee Center.Select the Lookup using list icon \(![Lookup using list icon](../../human-resources/image/magnify-glass-outline-icon.png)\) to view a list of link content.
+The calendar you want to appear on the Employee Center.Select the Lookup using list icon \(\[Omitted image "magnify-glass-outline-icon.png"\] Alt text: Lookup using list icon\) to view a list of link content.
 
 </td></tr></tbody>
 </table>6.  Click **Save**.
 
-    The **Schedule Content** related list displays. For information on publishing your content, see [Scheduling the delivery of content](ecpro-schedule-content.md).
+    The **Schedule Content** related list displays. For information on publishing your content, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
 
 7.  Or select **Submit** to save the record and return to the list of content.
 

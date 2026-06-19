@@ -2,6 +2,7 @@
 title: Exploring supported applications for Software Bill of Materials
 description: Third-party vulnerability intelligence and other integrations with the Software Bill of Materials applications can enhance the data of your uploaded files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-supported-apps.html
 release: australia
 product: SBOM Core
 classification: sbom-core
@@ -57,7 +58,7 @@ For compatibility information, see [KB0856498 Vulnerability Response Compatibili
 
 </td></tr><tr><td>
 
-View enhanced NVD vulnerability and severity data. View imported data from the NVD and CWE integrations to enrich any vulnerability data you might find in your SBOM data.See [Importing data with the NVD and CWE integrations and managing third-party libraries](../../../vulnerability-response/concept/c_NVDAndCWEDataImport.md) for more information.
+View enhanced NVD vulnerability and severity data. View imported data from the NVD and CWE integrations to enrich any vulnerability data you might find in your SBOM data.See [Importing data with the NVD and CWE integrations and managing third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/c_NVDAndCWEDataImport.md) for more information.
 
 </td><td>
 
@@ -76,7 +77,7 @@ For compatibility information, see [KB0856498 Vulnerability Response Compatibili
 Import software bills of material files with the Veracode Vulnerability Integration. The Veracode Vulnerability Integration includes the following enhancements with Veracode SBOM files:-   If you have installed SBOM Response, you have the option to include vulnerabilities found by SBOM for the SBOM files you upload.
 -   SBOM is mapped to the Source field for records in the Bill of Materials \[sn\_sbom\_doc\] table for the SBOM SBOM files that you upload.
 
-See [Veracode Vulnerability Integration](../../veracode/concept/veracode-vuln-integration.md) for more information.
+See [Veracode Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/application-vulnerability-response/veracode-vuln-integration.md) for more information.
 
 </td><td>
 

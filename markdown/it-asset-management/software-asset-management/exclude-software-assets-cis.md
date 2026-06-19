@@ -2,6 +2,7 @@
 title: Exclude software assets on CIs
 description: You may want to manage software assets installed on a subset of your configuration items in the Software Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/exclude-software-assets-cis.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -52,5 +53,5 @@ For example, some of your devices may be leased from a third party and you are n
         Once the scheduled job \(SAM — Adjust Installs for excluded CIs\) runs, the system starts managing the software installed on all previously excluded devices.
 
 
-**Parent Topic:**[Software Asset Management administration](../concept/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

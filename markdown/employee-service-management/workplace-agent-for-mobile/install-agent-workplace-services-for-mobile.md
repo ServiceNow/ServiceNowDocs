@@ -2,18 +2,19 @@
 title: Install Workplace Agent for mobile
 description: Install the Workplace Agent for mobile application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/install-agent-workplace-services-for-mobile.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace Agent for mobile, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Agent for mobile
 
-Install the Workplace Agent for mobile application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Agent for mobile application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -46,7 +47,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -63,5 +64,5 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configure Workplace Agent for mobile](../concept/configure-workplace-mobile-agent.md)
+**Parent Topic:**[Configure Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/configure-workplace-mobile-agent.md)
 

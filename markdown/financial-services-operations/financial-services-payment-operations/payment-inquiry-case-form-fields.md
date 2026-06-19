@@ -2,6 +2,7 @@
 title: Field descriptions for a payment inquiry case
 description: Payment inquiry cases help the inquiry agents resolve inquiries that they receive from the bank's customers or third-party banks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/payment-inquiry-case-form-fields.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -397,5 +398,5 @@ Financial transaction that the receiving customer or account received.You can as
 |Correct send to – Sort/Routing number|Sort or routing number the payment was supposed to be sent to. This field appears only for the Payment in Error inquiry type.|
 |Customer reason|List of reasons why the customer opened the payment inquiry.|
 
-**Parent Topic:**[Financial Services Payment Operations reference](../concept/payment-operations-reference.md)
+**Parent Topic:**[Financial Services Payment Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/payment-operations-reference.md)
 

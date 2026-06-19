@@ -2,6 +2,7 @@
 title: Disallow infected file download
 description: Control whether users can download non-scanned attachments if the antivirus service is down or unreachable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -104,5 +105,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

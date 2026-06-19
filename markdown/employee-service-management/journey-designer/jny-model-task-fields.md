@@ -2,6 +2,7 @@
 title: Journey designer Model task fields
 description: Managers create to-do tasks that are saved as templates. The templates are stored as a Journey designer Model Task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-model-task-fields.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -134,5 +135,5 @@ Task description
 The description of the task that is visible to the users.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer reference](jny-dsnr-reference.md)
+</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsnr-reference.md)
 

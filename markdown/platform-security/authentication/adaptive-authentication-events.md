@@ -2,6 +2,7 @@
 title: Adaptive authentication events
 description: You can use the adaptive authentication events table to know about the events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/adaptive-authentication-events.html
 release: australia
 product: Authentication
 classification: authentication

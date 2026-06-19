@@ -2,6 +2,7 @@
 title: Add skills as part of your onboarding journey
 description: Upload your resume or LinkedIn profile as part of your onboarding journey and add skills from them to your profile in Employee Center so that you can focus on growth and career development in the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-preseeding-onboarding.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -17,7 +18,7 @@ Upload your resume or LinkedIn profile as part of your onboarding journey and ad
 
 ## About this task
 
-**Note:** You can upload your resume or LinkedIn profile after your employee profile is created in Employee Center. For more information, see [Import skills from your resume or LinkedIn profile](import-skills-from-resume.md).
+**Note:** You can upload your resume or LinkedIn profile after your employee profile is created in Employee Center. For more information, see [Import skills from your resume or LinkedIn profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/import-skills-from-resume.md).
 
 ## Before you begin
 
@@ -54,5 +55,5 @@ Role required: sn\_skills\_int.emp
 10. Select **View profile** to verify that the skills that were added.
 
 
-**Parent Topic:**[Using Skills Foundation](../concept/using-skills-intelligence.md)
+**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/using-skills-intelligence.md)
 

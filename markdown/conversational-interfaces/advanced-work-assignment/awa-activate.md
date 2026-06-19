@@ -2,6 +2,7 @@
 title: Activate Advanced Work Assignment
 description: You can activate the Advanced Work Assignment plugin \(com.glide.awa\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-activate.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

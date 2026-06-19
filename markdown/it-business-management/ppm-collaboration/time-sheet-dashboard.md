@@ -2,6 +2,7 @@
 title: Analytics Time sheet
 description: The Analytics Time sheet provides comprehensive time sheet activities and reports to the time card approvers and time card users. The dashboard uses Performance Analytics to provide a trend of historical data and regular reports. It gives an overview of the time sheet activities of resources, time sheet approval and rejection rate, over-allocated and under-allocated resource counts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/time-sheet-dashboard.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -17,11 +18,11 @@ The Analytics Time sheet provides comprehensive time sheet activities and report
 
 **Important:** Starting with Australia release, **Time Sheet Dashboard** is renamed to **Analytics Time sheet** for new customers.
 
-![Screenshot for Overview tab of Analytics Time sheet](../image/time-sheet-dashboard-overviewtab.png "Overview tab")
+\[Omitted image "time-sheet-dashboard-overviewtab.png"\] Alt text: Screenshot for Overview tab of Analytics Time sheet
 
-![Screenshot for Delinquent Activity tab of Analytics Time sheet](../image/time-sheet-dashboard-delinquenttab.png "Delinquent Activity tab")
+\[Omitted image "time-sheet-dashboard-delinquenttab.png"\] Alt text: Screenshot for Delinquent Activity tab of Analytics Time sheet
 
-![Screenshot for Analysis tab of Analytics Time sheet](../image/time-sheet-dashboard-analysistab.png "Analysis tab")
+\[Omitted image "time-sheet-dashboard-analysistab.png"\] Alt text: Screenshot for Analysis tab of Analytics Time sheet
 
 ## End user and roles
 
@@ -144,7 +145,7 @@ Rejected
 
 </td><td>
 
-Single score ![Single-score chart](../../performance-analytics/image/single-score.png)
+Single score \[Omitted image "single-score.png"\] Alt text: Single-score chart
 
 </td><td>
 
@@ -156,7 +157,7 @@ Late
 
 </td><td>
 
-Single score ![Single-score chart](../../performance-analytics/image/single-score.png)
+Single score \[Omitted image "single-score.png"\] Alt text: Single-score chart
 
 </td><td>
 
@@ -168,7 +169,7 @@ Pending Approvals
 
 </td><td>
 
-Single score ![Single-score chart](../../performance-analytics/image/single-score.png)
+Single score \[Omitted image "single-score.png"\] Alt text: Single-score chart
 
 </td><td>
 
@@ -180,7 +181,7 @@ By State
 
 </td><td>
 
-Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)
+Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart
 
 </td><td>
 
@@ -192,7 +193,7 @@ By Category
 
 </td><td>
 
-Heat map ![Heat map chart](../../performance-analytics/image/heatmap.png)
+Heat map \[Omitted image "heatmap.png"\] Alt text: Heat map chart
 
 </td><td>
 
@@ -204,7 +205,7 @@ By Resource
 
 </td><td>
 
-List ![List chart](../../performance-analytics/image/scorecard-icon.png)
+List \[Omitted image "scorecard-icon.png"\] Alt text: List chart
 
 </td><td>
 
@@ -216,7 +217,7 @@ Total Hours
 
 </td><td>
 
-Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)
+Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart
 
 </td><td>
 
@@ -228,7 +229,7 @@ Total Hours by Week Starts On
 
 </td><td>
 
-Time series line ![time series line chart](../../performance-analytics/image/line-ts-icon.png)
+Time series line \[Omitted image "line-ts-icon.png"\] Alt text: time series line chart
 
 </td><td>
 
@@ -240,7 +241,7 @@ Time Sheets Over 40 Hours
 
 </td><td>
 
-Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)
+Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart
 
 </td><td>
 
@@ -252,7 +253,7 @@ Allocated vs Actual Hours
 
 </td><td>
 
-Time series step ![Time series step chart](../../performance-analytics/image/step-ts-icon.png)
+Time series step \[Omitted image "step-ts-icon.png"\] Alt text: Time series step chart
 
 </td><td>
 
@@ -264,12 +265,12 @@ Time Cards By Expense Type
 
 </td><td>
 
-Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)
+Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart
 
 </td><td>
 
 Time cards grouped by expense types: Capital Expense \(Capex\) and Operating Expense \(Opex\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](project-portfolio-content-pack.md)
+</table>**Parent Topic:**[Project Portfolio Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/project-portfolio-content-pack.md)
 

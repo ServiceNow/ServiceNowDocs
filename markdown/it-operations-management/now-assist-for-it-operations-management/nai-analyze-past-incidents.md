@@ -2,6 +2,7 @@
 title: Generate a Now Assist summary of past related incidents
 description: View a Now Assist summary of past incidents on the same or related Configuration Items \(CIs\) and strategies used to resolve them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/nai-analyze-past-incidents.html
 release: australia
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -17,11 +18,11 @@ View a Now Assist summary of past incidents on the same or related Configuration
 
 ## Before you begin
 
--   Install the ITOM plugin in the Now Assist feature. For more information, see [Install Now Assist for IT Operations Management](../../now-assist-setup-itom/task/install-now-assist-itom.md).
--   Ensure that the Alert investigation skill is active. For more information, see [Install Now Assist for IT Operations Management](../../now-assist-setup-itom/task/install-now-assist-itom.md).
--   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for ITOM](../concept/now-assist-itom.md).
+-   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   Ensure that the Alert investigation skill is active. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
+-   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md).
 
-For comprehensive information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md).
+For comprehensive information about the Now Assist panel, see .
 
 Role required: evt\_mgmt\_operator
 
@@ -29,13 +30,13 @@ Role required: evt\_mgmt\_operator
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the List icon \(![List icon.](../../health-log-analytics-operator/image/icon-lists.png)\) in the navigation bar.
+2.  Select the List icon \(\[Omitted image "icon-lists.png"\] Alt text: List icon.\) in the navigation bar.
 
 3.  Select **Lists** &gt; **Alerts** &gt; **All Alerts**.
 
 4.  Open an alert.
 
-5.  Select the Now Assist panel icon \(![Now Assist panel icon.](../../../common/image/icon-ai-sparkle.png)\).
+5.  Select the Now Assist panel icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist panel icon.\).
 
     The Now Assist panel displays.
 
@@ -48,5 +49,5 @@ Role required: evt\_mgmt\_operator
     The incident page opens, showing the Overview tab.
 
 
-**Parent Topic:**[Speed up alert resolution with a Now Assist analysis of past related incidents](../concept/nai-past-incidents.md)
+**Parent Topic:**[Speed up alert resolution with a Now Assist analysis of past related incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/nai-past-incidents.md)
 

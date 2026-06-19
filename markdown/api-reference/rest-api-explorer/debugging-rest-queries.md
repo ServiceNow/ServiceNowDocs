@@ -2,6 +2,7 @@
 title: Debug in-bound REST queries
 description: You can debug in-bound REST queries by reviewing the session debug log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/debugging-rest-queries.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -21,7 +22,7 @@ REST logging includes processing durations, headers, and the request body. Prolo
 
 **Note:** You may not see the resulting log statements if you are not on the application node that processed your REST request. In this case, please contact Technical Support.
 
-You can include session debug logs in a REST response body by passing the X-WantSessionDebugMessages header in the request. For more information, see [Returning session debug logs in a REST response](rest-session-debug-header.md). To view debug logs, see [Display debugging logs](../../../script/debugging/concept/c_SessionDebug.md#).
+You can include session debug logs in a REST response body by passing the X-WantSessionDebugMessages header in the request. For more information, see [Returning session debug logs in a REST response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/rest-session-debug-header.md). To view debug logs, see [Display debugging logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SessionDebug.md).
 
 ## Sample log output
 
@@ -70,5 +71,5 @@ You can include session debug logs in a REST response body by passing the X-Want
  2014-03-19 11:10:39 (707) REST API-thread-1 083A6031D7231100261253B2B252035C #28 /api/now/table/incident -- total transaction time: 0:00:02.074, total wait time: 0:00:00.001, session wait: 0:00:00.000, semaphore wait: 0:00:00.001, source: 127.0.0.1
 ```
 
-**Parent Topic:**[REST APIs](c_RESTAPI.md)
+**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md)
 

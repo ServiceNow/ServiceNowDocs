@@ -2,6 +2,7 @@
 title: Using Cloud Services Catalog
 description: The Cloud Services Catalog application is a dynamic portal for all your day-to-day cloud activities. It enables you to manage stacks, work with requests, and access the Out Of Box catalog items and other popular topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/using-cloud-services-catalog.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -75,8 +76,8 @@ My Resources
 Observes and interacts with the discovered resources.
 
 </td></tr></tbody>
-</table>-   **[Requesting Cloud Services](../task/request-the-cloud-services-user-portal.md)**  
+</table>-   **[Requesting Cloud Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/request-the-cloud-services-user-portal.md)**  
 Submit a request for one of the available service catalog item in cloud services. You can find the catalogs under **Browse Cloud Services**.
 
-**Parent Topic:**[Cloud Services Catalog](csc-home.md)
+**Parent Topic:**[Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/csc-home.md)
 

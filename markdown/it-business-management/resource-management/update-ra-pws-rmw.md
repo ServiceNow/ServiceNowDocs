@@ -2,6 +2,7 @@
 title: Update resource assignment from Project Workspace
 description: Update a resource assignment that is associated with a project or project task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/update-ra-pws-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -43,10 +44,10 @@ Before updating a resource assignment, verify the following to ensure accurate a
 
     The resource assignment is updated in the resource assignment pane.
 
-    **Note:** When a resource is added on an empty resource assignment, which has more than one Full-time equivalent \(FTE\) effort, then an additional row is created automatically and the resource assignment is auto-updated in both the rows.
+    When a resource is added on an empty resource assignment, which has more than one Full-time equivalent \(FTE\) effort, then an additional row is created automatically. The resource assignment is auto-updated in both the rows.
 
     Extend, edit, or delete the resource assignments using the row context menu in resource assignment pane.
 
 
-**Parent Topic:**[Manage resource assignments from Project Workspace](../concept/use-ra-rmw.md)
+**Parent Topic:**[Manage resource assignments from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/use-ra-rmw.md)
 

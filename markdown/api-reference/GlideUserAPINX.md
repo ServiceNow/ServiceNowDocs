@@ -2,6 +2,7 @@
 title: GlideUser \(Next Experience\) - Client
 description: The GlideUser API provides a method to access information about current user roles in the Next Experience UI Framework.Returns all roles assigned to the current user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/GlideUserAPINX.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The GlideUser API provides a method to access information about current user rol
 
 GlideUser methods are accessed through a global object \(`g_user`\) that is only available in client scripts.
 
-**Parent Topic:**[Client Next Experience API reference](../../../../../build/applications/concept/api-client-next.md)
+**Parent Topic:**[Client Next Experience API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client-next.md)
 
 ## GlideUser \(Next Experience\) - getRoles\(\)
 

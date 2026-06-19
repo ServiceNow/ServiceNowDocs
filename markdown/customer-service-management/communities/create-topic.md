@@ -2,6 +2,7 @@
 title: Create a topic
 description: Create a topic for users to create and share content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/create-topic.html
 release: australia
 product: Communities
 classification: communities
@@ -27,7 +28,7 @@ Role required: sn\_communities.admin
 
 3.  On the form, fill in the fields.
 
-    For field description, see [Topic form fields](../reference/topic-form-fields.md).
+    For field description, see [Topic form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/topic-form-fields.md).
 
 4.  Click **Submit**.
 
@@ -36,7 +37,7 @@ Role required: sn\_communities.admin
 
 ## What to do next
 
-Add a topic to a forum. For details, see [Add a topic to a forum](add-topic-to-forum.md).
+Add a topic to a forum. For details, see [Add a topic to a forum](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/add-topic-to-forum.md).
 
-**Parent Topic:**[Configure community forums](configure-forums-topics.md)
+**Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-forums-topics.md)
 

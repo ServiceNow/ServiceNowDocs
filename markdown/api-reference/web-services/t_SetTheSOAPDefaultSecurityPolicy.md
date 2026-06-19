@@ -2,6 +2,7 @@
 title: Set the SOAP default security policy
 description: Set the SOAP default security policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_SetTheSOAPDefaultSecurityPolicy.html
 release: australia
 product: Web Services
 classification: web-services
@@ -28,5 +29,5 @@ Role required: web\_service\_admin or admin
 3.  Click **Save**.
 
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
 

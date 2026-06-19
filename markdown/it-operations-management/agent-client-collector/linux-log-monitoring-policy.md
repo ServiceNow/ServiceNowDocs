@@ -2,6 +2,7 @@
 title: Linux log monitoring default checks and policies
 description: Agent Client Collector provides the following policy for Linux log monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/linux-log-monitoring-policy.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -112,5 +113,5 @@ Usage:-   -i --icase: Run a case insensitive match
 CheckLog CRITICAL: 0 warnings, 8 criticals for pattern SEVERE\|Exception in log file /var/log/servicenow/agent-client-collector/acc.log
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

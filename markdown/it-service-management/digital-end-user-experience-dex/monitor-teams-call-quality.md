@@ -2,6 +2,7 @@
 title: Monitor Microsoft Teams call quality
 description: Enable advanced monitoring of Microsoft Teams call quality with DEX for Microsoft 365. Track and analyze call performance for a specific user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/monitor-teams-call-quality.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -19,8 +20,8 @@ Enable advanced monitoring of Microsoft Teams call quality with DEX for Microsof
 
 Role required: admin
 
--   Configure advanced monitoring for Microsoft Teams. For more details, see [Enable application monitoring](../../digital-end-user-experience/task/enable-app-monitor.md).
--   Set up DEX for Microsoft 365 application. For more information, see [Configuring DEX for Microsoft 365](../concept/configuring-dex-for-microsoft-365.md).
+-   Configure advanced monitoring for Microsoft Teams. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Set up DEX for Microsoft 365 application. For more information, see [Configuring DEX for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configuring-dex-for-microsoft-365.md).
 
 ## About this task
 
@@ -32,7 +33,7 @@ View detailed metrics for a user's Microsoft Teams calls, including call quality
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \(![The Applications icon.](../../digital-end-user-experience/image/icon-applications.png)\).
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select **Teams**.
 

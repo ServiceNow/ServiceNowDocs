@@ -2,6 +2,7 @@
 title: Look up primary data in Oracle Financial Cloud
 description: You can run a job to look up primary data \(for example, Currencies\) from different ERP sources into ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/look-up-primary-data-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -15,24 +16,24 @@ breadcrumb: [Configure, Source-to-Pay integration with Oracle Financial Cloud, I
 
 You can run a job to look up primary data \(for example, Currencies\) from different ERP sources into ServiceNow.
 
-Before you start the ERP integration, you must configure the integration services record for the target ERP source using the `sn_fcms_intg_service` table. The `sn_fcms_intg_service` table is a mapping table between sub flows and target ERP source. For more information on creating an integration service record, see [Create Integration Service record](../../accounts-payable-operations/task/create-integration-service-record.md).
+Before you start the ERP integration, you must configure the integration services record for the target ERP source using the `sn_fcms_intg_service` table. The `sn_fcms_intg_service` table is a mapping table between sub flows and target ERP source. For more information on creating an integration service record, see [Create Integration Service record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/create-integration-service-record.md).
 
-![Look up primary data in Oracle Financial Cloud](../../source-to-pay-operations/image/oracle-fin-lookup-primary-data.png "Look up primary data in Oracle Financial Cloud")
+\[Omitted image "oracle-fin-lookup-primary-data.png"\] Alt text: Look up primary data in Oracle Financial Cloud
 
 You can manually run jobs for the following entities:
 
 |Entity|Table name|
 |------|----------|
-|Suppliers|[Supplier Location inbound staging table](../reference/slo-supp-location-inbound-table.md)|
-|Payment Terms|[Payment Terms Stage inbound staging table](../reference/spo-pay-terms-inbound-table.md)|
-|Legal entities|[Legal Entity Stage inbound staging table](../reference/spo-legal-entity-inbound-table.md)|
-|Currencies|[FX Currency Stage inbound staging table](../reference/spo-fx-currency-inbound-table.md)|
-|GL Accounts|[GL Account Stage inbound staging table](../reference/spo-gl-account-inbound-table.md)|
-|Purchasing Organizations|[Purchase Entity Stage inbound staging table](../reference/spo-purch-entity-inbound-table.md)|
-|Plant Addresses|[CMN Location Stage inbound staging table](../reference/spo-loc-inbound-table.md)|
-|Cost Centers|[Cost Center Stage inbound staging table](../reference/spo-cost-center-inbound-table.md)|
+|Suppliers|[Supplier Location inbound staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/slo-supp-location-inbound-table.md)|
+|Payment Terms|[Payment Terms Stage inbound staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-pay-terms-inbound-table.md)|
+|Legal entities|[Legal Entity Stage inbound staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-legal-entity-inbound-table.md)|
+|Currencies|[FX Currency Stage inbound staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-fx-currency-inbound-table.md)|
+|GL Accounts|[GL Account Stage inbound staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-gl-account-inbound-table.md)|
+|Purchasing Organizations|[Purchase Entity Stage inbound staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-purch-entity-inbound-table.md)|
+|Plant Addresses|[CMN Location Stage inbound staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-loc-inbound-table.md)|
+|Cost Centers|[Cost Center Stage inbound staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/spo-cost-center-inbound-table.md)|
 
 ## Transformation maps and subflows
 
-To learn more about the Transformation maps and subflows, see [Source-to-Pay integration framework transform maps and subflows](s2p-transform-maps-flows.md).
+To learn more about the Transformation maps and subflows, see [Source-to-Pay integration framework transform maps and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-transform-maps-flows.md).
 

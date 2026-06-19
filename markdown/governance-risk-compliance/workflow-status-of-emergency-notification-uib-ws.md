@@ -2,6 +2,7 @@
 title: Status of emergency notifications
 description: When you send an emergency notification for a crisis event with Everbridge, it creates a corresponding incident along with a notification. You can track the notification delivery and monitor its status in the Business Continuity Workspace until it’s successfully delivered to the contacts from Everbridge.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/workflow-status-of-emergency-notification-uib-ws.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -91,5 +92,5 @@ Communication status
 **Completed**: The state moves to Completed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sending notifications with Everbridge](../concept/ebn-collective-tasks.md)
+</table>**Parent Topic:**[Sending notifications with Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ebn-collective-tasks.md)
 

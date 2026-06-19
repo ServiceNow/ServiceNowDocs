@@ -2,6 +2,7 @@
 title: Create anonymization job
 description: Configure a data privacy job on your production instance to use anonymized data on your non-production instance for user and data class jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-create-anonymization-job.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -28,7 +29,7 @@ Role required: data\_privacy\_processor and admin
 
 1.  Elevate to the **data\_privacy\_processor** role.
 
-    For details on role elevation, see [Elevate to a privileged role](../../security/task/t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **System Security** &gt; **Data Privacy** &gt; **Anonymization**.
 
@@ -54,7 +55,7 @@ Policy used
 
 </td><td>
 
-Read only name of the selected privacy policy configuration to use for this job. Edit the policy to view additional information about the policy. For detail on privacy policy configurations, see [Create anonymization policies](dps-create-anonymization-policies.md).
+Read only name of the selected privacy policy configuration to use for this job. Edit the policy to view additional information about the policy. For detail on privacy policy configurations, see [Create anonymization policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-create-anonymization-policies.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Dry Run
 
 </td><td>
 
-Run the job as a test. No records are affected when running this job. Results are displayed in the **Jobs** list, as though the job had executed.**Note:** **Dry Run** must be turned off when configuring a data privacy job with rollback. See [Data privacy job rollback](../../security/reference/data-privacy-job-rollback.md) for details.
+Run the job as a test. No records are affected when running this job. Results are displayed in the **Jobs** list, as though the job had executed.**Note:** **Dry Run** must be turned off when configuring a data privacy job with rollback. See [Data privacy job rollback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-job-rollback.md) for details.
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Select a the specific set of users or groups to be anonymized in this job. Suppo
 
     **Warning:** Anonymization jobs on encrypted columns will you to decrypt and re-encrypt any encrypted columns targeted by the job. To prevent this, select **No Action** as the policy technique.
 
-    The job is listed in the **Jobs** pane.![Shows the jobs listed on the Jobs pane.](../image/jobs-pane.png)
+    The job is listed in the **Jobs** pane.\[Omitted image "jobs-pane.png"\] Alt text: Shows the jobs listed on the Jobs pane.
 
 <table id="table_pq3_3fk_dwb"><thead><tr><th>
 

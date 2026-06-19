@@ -2,6 +2,7 @@
 title: Create a custom command in ServiceNow CLI
 description: Manage your custom application from the command line by creating custom commands in the ServiceNow CLI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/create-command.html
 release: australia
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -33,7 +34,7 @@ A ServiceNow CLI command maps to a scripted REST endpoint in the End Point \[sn\
 
         |Field|Description|
         |-----|-----------|
-        |Resource Path|Required. Path to the endpoint on the instance to map a command to. Can be the path to an inbound REST API, or a scripted REST API. For example, `api/now/table/{table}/{sysid}`. For more information, see [Available REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md) and [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).|
+        |Resource Path|Required. Path to the endpoint on the instance to map a command to. Can be the path to an inbound REST API, or a scripted REST API. For example, `api/now/table/{table}/{sysid}`. For more information, see Available REST APIs and Scripted REST APIs.|
         |HTTP Method|Required. HTTP method to use when the user runs the associated command.|
         |Application|Read-only application scope for the endpoint.|
 
@@ -427,5 +428,5 @@ Required. Command that the argument applies to.
 
 When the user runs the ServiceNow CLI command, the system executes the associated REST API call and returns the result to the ServiceNow CLI.
 
-**Parent Topic:**[ServiceNow CLI](../concept/servicenow-cli.md)
+**Parent Topic:**[ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/servicenow-cli.md)
 

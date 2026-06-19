@@ -2,6 +2,7 @@
 title: Clone a component
 description: Clone a prebuilt component to create a custom version that can be tailored to specific needs, such as the modification of properties and underlying components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/clone-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

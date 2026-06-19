@@ -2,6 +2,7 @@
 title: Visibility of incidents across sites
 description: With the Operational Technology \(OT\) incident fulfiller role \(sn\_ot\_incident\_write\), you can view, create, or edit the incidents that belong to your site. You can also view the incidents that belong to other sites to help resolve similar incidents at your site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/visibility-across-ot-incident-sites.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -37,5 +38,5 @@ The following OT incident lists are available in the Lists module on the Industr
 -   Belong to my sites: View and edit the incident records that belong to your sites by navigating to **OT Incidents** &gt; **Belong to my sites**.
 -   View the existing incident records at different sites by navigating to **OT Incidents** &gt; **All**.
 
-**Parent Topic:**[Using Operational Technology Incident Management](using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

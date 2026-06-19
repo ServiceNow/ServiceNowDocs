@@ -2,6 +2,7 @@
 title: Customize the schedule widget
 description: Customize the schedule widget on the Employee Profile to display it to your preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/widget-mapping-kiosk.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Customize the schedule widget on the Employee Profile to display it to your pref
 
 ## Before you begin
 
-The kiosk data display for the **Schedule** tab is location-based. You can customize it for different users based on their locations. For more information see, [Customize data display in Kiosks](create-implementation-kiosk.md).
+The kiosk data display for the **Schedule** tab is location-based. You can customize it for different users based on their locations. For more information see, [Customize data display in Kiosks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-implementation-kiosk.md).
 
 Role required: esc\_admin/sn\_ex\_sp\_pro\_kiosk.user
 
@@ -38,5 +39,5 @@ Role required: esc\_admin/sn\_ex\_sp\_pro\_kiosk.user
 
 The **Schedule** tab is visible on your Employee Profile.
 
-**Parent Topic:**[Schedule in Employee Center Pro Kiosk](../concept/shift-time-kiosk-ec.md)
+**Parent Topic:**[Schedule in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/shift-time-kiosk-ec.md)
 

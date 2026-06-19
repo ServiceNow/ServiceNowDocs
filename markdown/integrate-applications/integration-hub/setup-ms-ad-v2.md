@@ -2,6 +2,7 @@
 title: Set up the Microsoft Active Directory v2 spoke
 description: Integrate the ServiceNow instance and the Microsoft Active Directory v2 spoke by using the Windows credentials to authenticate ServiceNow requests.Configure a connection record to connect to the Microsoft Active Directory v2 spoke host and enable the Microsoft Active Directory v2 spoke connections and credentials alias to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ms-ad-v2.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -43,11 +44,11 @@ Role required: admin.
 
 5.  Locate the **AD\_v2** connection alias and click **View Details**.
 
-    ![Configure connection and credentials for Microsoft Active Directory v2.](../image/click-add-connection-ad-v2.png)
+    \[Omitted image "click-add-connection-ad-v2.png"\] Alt text: Configure connection and credentials for Microsoft Active Directory v2.
 
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**
 
-    ![Configure the default alias.](../image/configure-def-alias-adv2.jpg)
+    \[Omitted image "configure-def-alias-adv2.jpg"\] Alt text: Configure the default alias.
 
 6.  Enter the following details in the form.
 
@@ -58,16 +59,16 @@ Role required: admin.
     |User name|User name with access to the target Windows host.|
     |Password|Password for the account.|
 
-    ![Configure connection form.](../image/create-connection-form.png "Create connection form")
+    \[Omitted image "create-connection-form.png"\] Alt text: Configure connection form.
 
 7.  Click **Configure Connection**.
 
 
 ### What to do next
 
-To use the spoke actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](../../integrationhub/concept/integration-steps.md). For more information about the MID Server, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+To use the spoke actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md). For more information about the MID Server, see MID Server.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 
 **Note:** You must install the MID Server and Microsoft Active Directory on different servers.
 

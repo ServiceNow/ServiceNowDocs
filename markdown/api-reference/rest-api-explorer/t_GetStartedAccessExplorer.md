@@ -2,6 +2,7 @@
 title: Access the REST API Explorer
 description: View available REST API resources using the REST API Explorer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t\_GetStartedAccessExplorer.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -39,12 +40,12 @@ You can use the REST API Explorer to browse available APIs, API versions, and me
 
     The REST API Explorer page opens.
 
-    ![REST API Explorer](../image/Rest_api_explorer.png)
+    \[Omitted image "Rest\_api\_explorer.png"\] Alt text: REST API Explorer
 
 
 ## Result
 
 You can change the Namespace, API Name, and Version drop-down options to filter to a specific REST API.
 
-**Parent Topic:**[Use the REST API Explorer](../concept/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

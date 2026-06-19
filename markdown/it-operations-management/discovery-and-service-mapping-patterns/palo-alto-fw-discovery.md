@@ -2,12 +2,13 @@
 title: Palo Alto Networks firewall discovery
 description: The ServiceNow Discovery application uses the Next-Generation Palo Alto Firewall pattern to find Palo Alto Networks firewalls. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/palo-alto-fw-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
@@ -19,17 +20,25 @@ The discovery pattern uses a set of SNMP calls to find the Palo Alto Networks fi
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+## Palo Alto Networks firewall data model
+
+The Next-Generation Palo Alto Firewall pattern introduces the following CI class that extends an existing CMDB class.
+
+|CI class|Extends from|
+|--------|------------|
+|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|Firewall Device \[cmdb\_ci\_firewall\_device\]|
 
 ## Prerequisites
 
 -   Ensure that your network firewall device has SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see .
 -   Add the SNMP system OID record for the Palo Alto Networks device to the ServiceNow instance. Update the following:
     -   Classifier: Palo Alto Firewall
     -   Class: Palo Alto Firewall Device
 -   Deploy the pattern as follows:
-    1.  Download and install [Firewall extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-fw.md) from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
+    1.  Download and install Firewall extension classes from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
     2.  Download and install the discovery pattern from the ServiceNow Store.
     3.  Sync the pattern with the appropriate MID Server.
 
@@ -72,19 +81,21 @@ Discovery populates the data in the CMDB when running the Next-Generation Palo A
 
 ## CI relationships
 
-These relationships are created to support Palo Alto Networks firewall discovery:
+The Next-Generation Palo Alto Firewall pattern creates the following relationships and references to support Palo Alto Networks firewall discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI|Relationship|CI|
 |---|------------|---|
-|IP Address \[cmdb\_ci\_ip\_address\]|References|Netwrk Adapter \[cmdb\_ci\_network\_adapter\]|
-|Network Adapter \[cmdb\_ci\_network\_adapter\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
-|Netwrk Adapter \[cmdb\_ci\_network\_adapter\]|References|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|
-|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|Extends from|Firewall Device \[cmdb\_ci\_firewall\_device\]|
-|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|Owns::Owned by|Netwrk Adapter \[cmdb\_ci\_network\_adapter\]|
+|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|Owns::Owned by|Network Adapter \[cmdb\_ci\_network\_adapter\]|
 |Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
 |Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|Uses::Used by|Router Interface \[dscy\_router\_interface\]|
-|Router Interface \[dscy\_router\_interface\]|References|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|
-|Serial Number \[cmdb\_serial\_number\]|References|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|
+|Network Adapter \[cmdb\_ci\_network\_adapter\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|Serial Number \[cmdb\_serial\_number\]|Configuration item \[configuration\_item\]|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|
+|Network Adapter \[cmdb\_ci\_network\_adapter\]|Configuration Item \[cmdb\_ci\]|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|
+|Router Interface \[dscy\_router\_interface\]|Configuration Item \[cmdb\_ci\]|Palo Alto Firewall Device \[cmdb\_ci\_firewall\_device\_palo\_alto\]|
+|IP Address \[cmdb\_ci\_ip\_address\]|Nic \[nic\]|Network Adapter \[cmdb\_ci\_network\_adapter\]|
+
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

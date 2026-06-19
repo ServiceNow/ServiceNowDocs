@@ -2,6 +2,7 @@
 title: ERP Semantic Mining task list field descriptions
 description: The task list in ERP Semantic Mining displays information on connection tasks for the ERP \(Enterprise Resource Planning\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-task-list-details.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -17,7 +18,7 @@ The task list in ERP Semantic Mining displays information on connection tasks fo
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-For process details, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](../task/erpcm-check-data-connection.md).
+For process details, see [Check and troubleshoot the data refresh status for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-check-data-connection.md).
 
 <table id="table_z5t_tcd_bwb"><thead><tr><th>
 
@@ -108,5 +109,5 @@ Finished
 Date and time when the connection task finished running.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ERP Semantic Mining field descriptions](../concept/erpcm-field-description-reference-landing.md)
+</table>**Parent Topic:**[ERP Semantic Mining field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

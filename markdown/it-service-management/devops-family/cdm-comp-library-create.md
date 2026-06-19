@@ -2,6 +2,7 @@
 title: Create or update a component library
 description: Create a component library to manage components that can be reused across multiple applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-comp-library-create.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ Create a component library to manage components that can be reused across multip
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_admin
 
@@ -25,7 +26,7 @@ Role required: cdm\_admin
 
 1.  Navigate to **All** &gt; **DevOps Config** &gt; **DevOps Config Workspace**.
 
-2.  Click the component libraries icon \(![Component libraries icon.](../image/icon-component-libraries.png)\) in the left navigation to open the **Component libraries** tab.
+2.  Click the component libraries icon \(\[Omitted image "icon-component-libraries.png"\] Alt text: Component libraries icon.\) in the left navigation to open the **Component libraries** tab.
 
 3.  Click **Create new library** to create a component library.
 
@@ -75,6 +76,6 @@ A component library is created. The state of the library is set to Not Available
 
 ## What to do next
 
-1.  [Add or update a shared component in a component library](cdm-comp-library-add-component.md).
-2.  [Activate a component library](cdm-comp-library-activate.md).
+1.  [Add or update a shared component in a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-comp-library-add-component.md).
+2.  [Activate a component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-comp-library-activate.md).
 

@@ -2,6 +2,7 @@
 title: Set up a policy acknowledgement campaign using the Compliance Workspace
 description: A policy campaign is the record used to prepare for a policy acknowledgement request. It defines the audience who must provide an acknowledgement that a particular policy is in compliance. A policy campaign is requested in the Compliance Workspace only if the compliance user decides it is needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/set-up-policy-ack-campaign-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -43,7 +44,7 @@ Audience
 
 </td><td>
 
-Select the employees who are responsible for acknowledging the policy. You define the audience using the [Audience module](create-audience-ws.md).
+Select the employees who are responsible for acknowledging the policy. You define the audience using the [Audience module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-audience-ws.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ Allow users to request exception
 
 </td><td>
 
-Select if you want to members of the audience to be able to [request a policy exception](request-policy-exception-ws.md).
+Select if you want to members of the audience to be able to [request a policy exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/request-policy-exception-ws.md).
 
 </td></tr></tbody>
 </table>5.  Save the record.

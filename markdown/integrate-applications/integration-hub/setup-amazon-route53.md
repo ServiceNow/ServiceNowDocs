@@ -2,6 +2,7 @@
 title: Set up the Amazon Route 53 spoke
 description: Integrate the ServiceNow instance and Amazon Route 53 by using the AWS credentials to authenticate ServiceNow requests.Create a credential record for the Amazon Route 53 custom application. The Amazon Route 53 spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-amazon-route53.html
 release: australia
 product: Integration Hub
 classification: integration-hub

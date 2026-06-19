@@ -2,6 +2,7 @@
 title: Install the ADAM configuration file
 description: Install the ADAM configuration file through the Windows command line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_InstallTheConfigurationFile.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

@@ -2,6 +2,7 @@
 title: Access your profile in Service Operations Workspace
 description: Track and monitor the real-time status of your work by accessing your profile in Service Operations Workspace. You can track how many incidents and interactions you have closed and how many you are actively working on. You can also view the roles and groups to which you belong and see information about your manager and teammates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/access-agent-profile-sow-wfo-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,7 +24,7 @@ Role required: sn\_wfo\_cfg\_itsm.employee
 
 Access your profile to analyze information such as:
 
--   Key performance indicators that matter most to you and Performance Analytics targets set for you by your manager. For information on Performance Analytics, see [Performance Analytics targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md).
+-   Key performance indicators that matter most to you and Performance Analytics targets set for you by your manager. For information on Performance Analytics, see Performance Analytics targets.
 -   Pending training that has been assigned to you and when they're due.
 -   Service channels that you are assigned to and their current utilization.
 -   Skills and skill levels that you currently use and skill gaps that you may want to address.
@@ -33,19 +34,19 @@ Access your profile to analyze information such as:
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-    When you click the home icon \(![Home icon](../../itsm-workspace/image/home-icon.png)\), you can view the status of your work, organizational performance, current status of incidents, and unassigned incidents in the [Service Operations Workspace landing page](../concept/sow-ui-landing-page.md).
+    When you click the home icon \(\[Omitted image "home-icon.png"\] Alt text: Home icon\), you can view the status of your work, organizational performance, current status of incidents, and unassigned incidents in the [Service Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-ui-landing-page.md).
 
-2.  Click the lists icon \(![Lists icon](../../itsm-manager-workspace/image/lists_icon.png)\).
+2.  Click the lists icon \(\[Omitted image "lists\_icon.png"\] Alt text: Lists icon\).
 
-<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d418107e126">
+<table id="choicetable_sy3_vzm_vnb"><thead><tr><th align="left" id="d174546e126">
 
 To
 
-</th><th align="left" id="d418107e129">
+</th><th align="left" id="d174546e129">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d418107e135">
+</th></tr></thead><tbody><tr><td id="d174546e135">
 
 **Access your profile from an incident record**
 
@@ -55,7 +56,7 @@ Do this
 2.  In the Assigned column, select your name.
 The profile page appears. In that page, you can access all the information that is related to your profile.
 
-</td></tr><tr><td id="d418107e159">
+</td></tr><tr><td id="d174546e159">
 
 **Create your profile for centralized access**
 
@@ -72,7 +73,7 @@ The profile page appears. In that page, you can access all the information that 
 
 For information on creating a list, see Create My Lists in Workspace.
 
-</td></tr><tr><td id="d418107e233">
+</td></tr><tr><td id="d174546e233">
 
 **Analyze Performance Analytics targets**
 
@@ -84,5 +85,5 @@ You can view your targets for a KPI for a given date range if your manager has s
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](../concept/wfo-itsm-service-operations-workspace.md)
+**Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/wfo-itsm-service-operations-workspace.md)
 

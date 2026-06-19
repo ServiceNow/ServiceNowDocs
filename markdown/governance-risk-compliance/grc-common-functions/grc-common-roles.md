@@ -2,6 +2,7 @@
 title: Common roles in Governance, Risk, and Compliance
 description: Certain common roles are used in multiple GRC modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-common-roles.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -41,7 +42,7 @@ Role that is a part of the GRC Profiles application. Assign this role to users w
 -   Accept and approve evidence responses.
 -   Assign a remediation task.
 -   Acknowledge policies.
--   Contribute to policies.
+-   Edit the linked MS Word or Google Doc as a contributor during policy authoring.
 -   Group or ungroup attestations.
 -   Request or approve policy exceptions.
 -   Report issues.
@@ -129,7 +130,7 @@ Risk Management
 
 </td></tr><tr><td>
 
-GRC Admin\[sn\_grc.admin\]
+GRC admin\[sn\_grc.admin\]
 
 </td><td>
 
@@ -145,7 +146,7 @@ Role that provides a user with administrative access to the GRC suite of applica
 
 </td></tr><tr><td>
 
-GRC System Adminsn\_grc.sn\_grc\_system\_admin
+GRC System adminsn\_grc.sn\_grc\_system\_admin
 
 </td><td>
 
@@ -238,7 +239,7 @@ None
 
 </td></tr><tr><td>
 
-GRC User Hierarchy Admin \[sn\_grc.user\_hierarchy\_admin\]
+GRC User Hierarchy admin \[sn\_grc.user\_hierarchy\_admin\]
 
 </td><td>
 
@@ -284,6 +285,18 @@ Role that enables a user to approve the audits. This role is applicable only for
 
 None
 
+</td></tr><tr><td>
+
+Document Designer Reader \[sn\_grc\_doc\_design.reader\]
+
+</td><td>
+
+Role that provides a user with read access to the AI Reporting Assistant in Document Designer.
+
+</td><td>
+
+None
+
 </td></tr><tr><td colspan="3">
 
 Roles that are installed with the GRC Employee User application
@@ -321,5 +334,5 @@ Role that is applicable only to customers who are entitled to and have installed
 
 **Note:** This reclassification is applicable only to customers who are entitled to and have installed the GRC Employee User application. For more details, review the entitlement on the subscription dashboard or contact ServiceNow customer service.
 
-**Parent Topic:**[Governance, Risk, and Compliance reference](../concept/grc-reference.md)
+**Parent Topic:**[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-reference.md)
 

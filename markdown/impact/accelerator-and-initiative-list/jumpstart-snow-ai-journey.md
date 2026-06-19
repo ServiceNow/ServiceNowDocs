@@ -2,6 +2,7 @@
 title: Jumpstart Your ServiceNow AI Journey
 description: This Accelerator provides guidance on how to achieve your organization's goals and objectives with ServiceNow's AI capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,9 @@ This Accelerator provides guidance on how to achieve your organization's goals a
 
 Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow's expansive catalog of AI and automation capabilities with prescriptive guidance tailored to organizational objectives. This includes building a personalized roadmap to adopt the ServiceNow capabilities that are aligned with your strategic goals and recommending Impact AI Accelerators to accelerate and enhance adoption.
 
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 ## What You Get
 
@@ -58,6 +61,8 @@ Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow'
 -   Top 3–5 use cases – name, stage \(idea/pilot/prod\), owner.
 -   Constraints – budget/time box, key staffing/tools limits.
 -   Success metrics – how do you quantify success \(MTTR, etc.\)
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

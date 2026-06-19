@@ -2,6 +2,7 @@
 title: Service Mapping — Linux servers in services
 description: Use this example to build a Service Mapping query to find all Linux servers in services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/service-mapping-query-tutorial.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

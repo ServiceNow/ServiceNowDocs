@@ -2,6 +2,7 @@
 title: Train and test your NLU model in Virtual Agent Designer
 description: Use the NLU Intent tab to train and try a Natural Language Understanding \(NLU\) model that is mapped to a topic without leaving Virtual Agent Designer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/train-test-publish-nlu-model-vad.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -39,7 +40,7 @@ As you make changes to a topic's intent, train the model so that your updates ar
 
     In the Try model panel, manually enter an utterance to test. The prediction results display in the panel.
 
-    ![The Try model panel showing results of testing an utterance manually.](../images/nlu-publish-model.png "Example of testing an utterance in the NLU Try model panel")
+    \[Omitted image "nlu-publish-model.png"\] Alt text: The Try model panel showing results of testing an utterance manually.
 
     If prediction confidence score results meet or surpass the confidence threshold you established for the model, the results appear under Top prediction\(s\). In this example, the threshold value is 65%.
 
@@ -47,16 +48,16 @@ As you make changes to a topic's intent, train the model so that your updates ar
 
     The default value of the **com.glide.cs.entity\_confidence\_threshold** property is **0.5**.
 
-    **Note:** You can compare the draft NLU model to its most recent published version. For more information, see [Compare draft and published versions of your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/compare-draftmodel-to-last-published-version.md).
+    **Note:** You can compare the draft NLU model to its most recent published version. For more information, see Compare draft and published versions of your NLU model.
 
 6.  When you're satisfied with the prediction results, publish the model from NLU Workbench or select **Publish** in the topic Header bar and select **NLU Model**.
 
 
 ## What to do next
 
-You can publish the model at the same time as the Virtual Agent topic if the model meets publication criteria. Make sure your model has passed through all phases of development and is ready to publish. For more information, see [Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/model-management-phases.md).
+You can publish the model at the same time as the Virtual Agent topic if the model meets publication criteria. Make sure your model has passed through all phases of development and is ready to publish. For more information, see Model management.
 
-For more information on providing feedback using thumbs icons in the results, see [Test panel feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-model-panel-feedback.md).
+For more information on providing feedback using thumbs icons in the results, see .
 
-**Parent Topic:**[Testing NLU/Keyword topics](../reference/va-designer-testing.md)
+**Parent Topic:**[Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md)
 

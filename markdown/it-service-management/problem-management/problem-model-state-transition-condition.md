@@ -2,6 +2,7 @@
 title: Problem Management model state transition condition form
 description: Description of the field values for the model state transition condition form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-model-state-transition-condition.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -20,10 +21,10 @@ Description of the field values for the model state transition condition form.
 |Name|Unique name for the condition.|
 |State Transition|State that you're applying the transition condition to. This field is automatically set with the state that you're applying the condition to.|
 |Description|Detailed description of the condition.|
-|Requires|Condition for your transition. You can select a pre-defined condition or select **Transition Condition** to define a condition. To create pre-defined conditions, see [Create predefined conditions](../../change-management/task/create-predefined-transition-condition-type.md).|
+|Requires|Condition for your transition. You can select a pre-defined condition or select **Transition Condition** to define a condition. To create pre-defined conditions, see [Create predefined conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md).|
 |Condition \(condition builder\)|Condition on the problem task record that must be fulfilled to enable the transition.|
 |Condition \(script\)|Script that must be fulfilled to enable the transition. The script returns a value of **True** when passed.|
 |Active|Option to make the condition active.|
 
-**Parent Topic:**[Reference section for Problem Management](../concept/reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
 

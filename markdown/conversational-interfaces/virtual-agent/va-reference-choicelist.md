@@ -2,6 +2,7 @@
 title: Dynamic Choice user input control
 description: Use the Dynamic Choice user input control in a Virtual Agent topic to dynamically create a list of available choices for your users. Create these choices by querying a table or by using a script to dynamically create them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-reference-choicelist.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,11 +18,11 @@ Use the Dynamic Choice user input control in a Virtual Agent topic to dynamicall
 
 ## Choice list display
 
-The Dynamic Choice list contains up to 10 items per page. When more than 10 items exist in an NLU conversation, you have the option to show the additional items and also filter the search results. The choice list prompt contains a search icon ![Search icon.](../images/icon-search.png) that users can select to filter the results. When more than 10 items exist in an LLM conversation, a scroll bar appears. When more than 16 items exist in an LLM conversation, a search bar appears.
+The Dynamic Choice list contains up to 10 items per page. When more than 10 items exist in an NLU conversation, you have the option to show the additional items and also filter the search results. The choice list prompt contains a search icon \[Omitted image "icon-search.png"\] Alt text: Search icon. that users can select to filter the results. When more than 10 items exist in an LLM conversation, a scroll bar appears. When more than 16 items exist in an LLM conversation, a search bar appears.
 
 **Tip:** If you want to change the default number of listed items per page for NLU conversations, you can modify the **com.glide.cs.picker\_page\_limit** system property. The default value is 10.
 
-If selecting multiple choices is turned on, you can search within the **Search for options** field for filtering search results. Select or type all choices that apply, and then select the send icon ![Send icon.](../images/icon-arrow-submit-send.png). When you send your choices through an LLM topic, the LLM responds with whether your choices meet the validation criteria.
+If selecting multiple choices is turned on, you can search within the **Search for options** field for filtering search results. Select or type all choices that apply, and then select the send icon \[Omitted image "icon-arrow-submit-send.png"\] Alt text: Send icon.. When you send your choices through an LLM topic, the LLM responds with whether your choices meet the validation criteria.
 
 You can also select a choice or choices from a list in an LLM conversation by entering an utterance in the chat window. If there is no match for your input, the Virtual Agent informs you that it is not a valid choice, and prompts you to try a different input.
 
@@ -29,7 +30,7 @@ The Dynamic Choice control also provides the option to add a header card that di
 
 -   The header card can contain a large or small image or a YouTube video card, along with descriptive text. The choice list contains up to five items by default, but the search feature is suppressed. If there are more than five items, users can choose to show the additional items.
 
--   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items in the choice list. For details about creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+-   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items in the choice list. For details about creating a system property, see Add a system property.
 
 
 **Note:**
@@ -128,7 +129,7 @@ return options;
 
     ```
 
-For more information about the preceding scripting details, review information about [GlideRecords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) and the additional information:
+For more information about the preceding scripting details, review information about GlideRecords and the additional information:
 
     -   **fieldName**: Field name is optional information. Pass with `null`.
     -   **table**: Table name to query for displaying the available options.
@@ -191,7 +192,7 @@ Header card
 
 </td><td>
 
-Toggle to open a field to add cards which may include images or YouTube videos. For more information, see [Insert a header card in a Static Choice or Dynamic Choice control](../task/insert-header-card-user-input-control.md)
+Toggle to open a field to add cards which may include images or YouTube videos. For more information, see [Insert a header card in a Static Choice or Dynamic Choice control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/insert-header-card-user-input-control.md)
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -284,11 +285,11 @@ List user prompt
 
 </th></tr></thead><tbody><tr><td>
 
-![All basic Dynamic Choice user input fields are openly available. Select any of the advanced options to toggle them open individually.](../images/va-dynamic-choice-llm-3.png)
+\[Omitted image "va-dynamic-choice-llm-3.png"\] Alt text: All basic Dynamic Choice user input fields are openly available. Select any of the advanced options to toggle them open individually.
 
 </td><td>
 
-![A choice list returns a list to select from.](../../now-assist-in-va/image/nass-dynamic-choice-user-prompt-zp4.png "Dynamic Choice list prompt example")
+\[Omitted image "nass-dynamic-choice-user-prompt-zp4.png"\] Alt text: A choice list returns a list to select from.
 
 </td></tr></tbody>
 </table>## Dynamic Choice user input control properties for NLU topic discovery
@@ -381,7 +382,7 @@ return options;
 
     ```
 
-For more information about the preceding scripting details, review information about [GlideRecords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md) and the additional information:
+For more information about the preceding scripting details, review information about GlideRecords and the additional information:
 
     -   **fieldName**: Field name is optional information. Pass with `null`.
     -   **table**: Table name to query for displaying the available options.
@@ -444,7 +445,7 @@ Header card
 
 </td><td>
 
-Toggle to open a field to add cards which may include images or YouTube videos. For more information, see [Insert a header card in a Static Choice or Dynamic Choice control](../task/insert-header-card-user-input-control.md)
+Toggle to open a field to add cards which may include images or YouTube videos. For more information, see [Insert a header card in a Static Choice or Dynamic Choice control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/insert-header-card-user-input-control.md)
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -530,8 +531,8 @@ No-code condition statement or low-code script that specifies a condition for le
 The dynamic choice list displays 10 items per page. When 10 or more results are returned:
 
 -   The list includes a link at the end of the list to show more results.
--   A search icon \(![Search icon.](../images/icon-search.png)\) displays in the prompt for filtering search results. Users select the icon to open a search box and enter the filter.
--   When selecting multiple choices, you can search within the **Search for options** field for filtering search results. If you input the script to enable secondary fields found in this topic, the search filter results apply to the secondary fields, too. Select or enter all choices that apply, and then select the send icon ![Send arrow icon](../images/icon-arrow-submit-send.png).
+-   A search icon \(\[Omitted image "icon-search.png"\] Alt text: Search icon.\) displays in the prompt for filtering search results. Users select the icon to open a search box and enter the filter.
+-   When selecting multiple choices, you can search within the **Search for options** field for filtering search results. If you input the script to enable secondary fields found in this topic, the search filter results apply to the secondary fields, too. Select or enter all choices that apply, and then select the send icon \[Omitted image "icon-arrow-submit-send.png"\] Alt text: Send arrow icon.
 
 When a header card is used, the choice list contains five items per page. When five or more results are returned, the list provides an option to show more results.
 
@@ -611,5 +612,5 @@ The script in the Choice Value Expression property defines and returns an array 
 |Apple Messages for Business|Not supported|Supported|None|
 |Alexa \(Voice\)|Not supported|Supported|For screen devices, use touch scroll; clicking links not supported. For nonscreen devices, use voice pagination.|
 
-**Parent Topic:**[Assistant Designer user input controls](va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

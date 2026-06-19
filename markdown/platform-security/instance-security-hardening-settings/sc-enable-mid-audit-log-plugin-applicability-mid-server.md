@@ -2,6 +2,7 @@
 title: Enable MID audit log
 description: The MID Server command audit log records details such as the command name, command hash, name of credential used, and execution status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-mid-audit-log-plugin-applicability-mid-server.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -19,7 +20,9 @@ The MID Server command audit log tracks details such as the command name, comman
 
 Set **mid.log.command\_audit.enable** property to **true** in the MID Server Properties \[ecc\_agent\_property\] table for each MID Server to turn on auditing for commands run by the MID Server.
 
-For more details on setting this property, see [MID Server command audit log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-audit-log.md).
+For more details on setting this property, see .
+
+For information about MID Servers and how they work, see .
 
 ## More information
 
@@ -85,7 +88,7 @@ Category
 
 </td><td>
 
-[Error handling and logging](sc-error-handling-logging.md)
+[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 
 </td></tr><tr><td>
 
@@ -111,8 +114,8 @@ Dependencies and prerequisites
 
 </td><td>
 
-This setting only applies to instances using an active Management, Instrumentation, and Discovery \(MID\) Server. A MID Server enables communication and movement of data between a ServiceNow instance and external applications, data sources, and services. Setting up a MID Server requires downloading the MID Server package on a Linux or Windows host, setting up the connection with the given ServiceNow instance and configuring additional settings. Information and references can be found at [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md). After it has been set up, a MID Server appears as a record in the MID Servers \[ecc\_agent\] table on connecting instance.
+This setting only applies to instances using an active Management, Instrumentation, and Discovery \(MID\) Server. A MID Server enables communication and movement of data between a ServiceNow instance and external applications, data sources, and services. Setting up a MID Server requires downloading the MID Server package on a Linux or Windows host, setting up the connection with the given ServiceNow instance and configuring additional settings. Information and references can be found at . After it has been set up, a MID Server appears as a record in the MID Servers \[ecc\_agent\] table on connecting instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Error handling and logging](sc-error-handling-logging.md)
+</table>**Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 

@@ -1,21 +1,22 @@
 ---
-title: Target tables for the n8n
+title: Target Tables for n8n
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from a n8n project. The data is saved in tables that extend from the CMDB CI classes and other non-CMDB classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/target-tables-for-n8n.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Target tables for the n8n
+# Target Tables for n8n
 
 When you complete setting up the connection, you can configure the integration to periodically pull data from a n8n project. The data is saved in tables that extend from the CMDB CI classes and other non-CMDB classes.
 
-## Target tables for AI systems
+## Target Tables for AI systems
 
 cmdb\_ai\_system\_component\_product\_model
 
@@ -212,7 +213,7 @@ asset
 asset
 
 </td></tr></tbody>
-</table>## Target tables for AI model
+</table>## Target Tables for AI model
 
 cmdb\_ai\_model\_product\_model
 
@@ -284,7 +285,7 @@ external\_ref\_id
 Connection URL, model name, type version
 
 </td></tr></tbody>
-</table>## Target tables for AI prompts
+</table>## Target Tables for AI prompts
 
 cdmb\_ai\_prompt\_product\_model
 
@@ -356,7 +357,7 @@ external\_ref\_id
 Asset type, asset id
 
 </td></tr></tbody>
-</table>## Target tables for AI tools
+</table>## Target Tables for AI tools
 
 sn\_ent\_ai\_tool
 
@@ -369,7 +370,7 @@ The following attributes in the n8n Datacenter \[sn\_ent\_ai\_tool\] table are p
 |Description|description|nodes|
 |Active|active|nodes|
 
-## Target tables for AI Subcomponents
+## Target Tables for AI Subcomponents
 
 sn\_ent\_ai\_system\_subcomponent\_m2m
 
@@ -424,7 +425,7 @@ ai\_subcomponent\_reference\_table
 agents or tools
 
 </td></tr></tbody>
-</table>## Target tables for AI Usage
+</table>## Target Tables for AI Usage
 
 sn\_ai\_disc\_ai\_usage
 

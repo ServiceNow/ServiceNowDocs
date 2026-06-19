@@ -2,6 +2,7 @@
 title: Initiate audit request
 description: Initiate audits against a specified firewall manager or device to ensure proper configuration in alignment with the security policies of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/initiate-audit-request.html
 release: australia
 product: Discovery
 classification: discovery

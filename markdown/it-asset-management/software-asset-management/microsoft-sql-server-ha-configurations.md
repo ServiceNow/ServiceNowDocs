@@ -2,6 +2,7 @@
 title: Microsoft SQL Server licensing in high availability configurations
 description: The Software Asset Management publisher pack for Microsoft supports licensing rules for Microsoft SQL Server deployed through high availability and disaster recovery solutions, such as Always On availability groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/microsoft-sql-server-ha-configurations.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -22,11 +23,11 @@ For each server operating system environment \(OSE\) that you’re licensing usi
 -   One secondary replica for high availability in a separate OSE
 -   One secondary replica for disaster recovery in a separate OSE
 
-The primary \(active\) replica is automatically licensed by the Microsoft SQL Server license. However, the two secondary replicas don’t need to be licensed separately as long as they’re passive. The Software Asset Management application considers these secondary replicas as ignored installations. You can view more information about these ignored installations through the Progress indicators widget in the Microsoft publisher overview. For more information on the Microsoft publisher overview, see [Publisher overview for Microsoft in the Software Asset Workspace](../reference/publisher-overview-microsoft.md).
+The primary \(active\) replica is automatically licensed by the Microsoft SQL Server license. However, the two secondary replicas don’t need to be licensed separately as long as they’re passive. The Software Asset Management application considers these secondary replicas as ignored installations. You can view more information about these ignored installations through the Progress indicators widget in the Microsoft publisher overview. For more information on the Microsoft publisher overview, see [Publisher overview for Microsoft in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/publisher-overview-microsoft.md).
 
 You can use the ServiceNow® Discovery application to automatically locate and identify the Microsoft SQL Server Always On availability groups across your deployment. As part of this discovery process, the application identifies the infrastructure and attributes of each availability group, including the Role \(active or passive replica\), Availability Mode \(synchronous or asynchronous\), Failover Mode \(automatic or manual\), and Readable Secondary \(yes or no\). The Software Asset Management application then uses this information and the applicable licensing rules to calculate your license compliance position for Microsoft SQL Server.
 
-For more information on Microsoft SQL Server licensing, see [Microsoft Per Core licensing rules](microsoft-sw-license-metrics.md). For more information on Always On availability group discovery, see [Microsoft SQL Server and Cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md).
+For more information on Microsoft SQL Server licensing, see [Microsoft Per Core licensing rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-sw-license-metrics.md). For more information on Always On availability group discovery, see .
 
-**Parent Topic:**[Software Asset Management publisher pack for Microsoft](microsoft-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 

@@ -1,45 +1,47 @@
 ---
 title: Accounts Payable Operations
-description: The ServiceNow Accounts Payable Operations application enables you to efficiently manage invoices, invoice exceptions, invoice approvals, and supplier inquiries.
+description: The ServiceNow Accounts Payable Operations provides a centralized platform to manage invoices, exceptions, approvals, and supplier inquiries in one place, improving visibility and control across accounts payable processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/acc-pay-mgmt-landing-page.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice exception, invoice approval, supplier, isupplier]
 breadcrumb: [Finance and Supply Chain]
 ---
 
 # Accounts Payable Operations
 
-The ServiceNow® Accounts Payable Operations application enables you to efficiently manage invoices, invoice exceptions, invoice approvals, and supplier inquiries.
+The ServiceNow® Accounts Payable Operations provides a centralized platform to manage invoices, exceptions, approvals, and supplier inquiries in one place, improving visibility and control across accounts payable processes.
 
 This video provides a visual overview of Accounts Payable Operations and its key capabilities.
 
 Accounts Payable Operations overview 
 
-![Landing page for Accounts Payable Operations explaining the value proposition.](../image/apm-value-proposition.png "Accounts Payable Operations value proposition")
+\[Omitted image "apm-value-proposition.png"\] Alt text: Landing page for Accounts Payable Operations explaining the value proposition.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how accounts payable specialists, employees, and suppliers use Accounts Payable Operations.](explore-acc-pay-mgmt.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how accounts payable specialists, employees, and suppliers use Accounts Payable Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/explore-acc-pay-mgmt.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your implementation.](config-acc-pay-mgmt.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-acc-pay-mgmt.md)
 
 </td><td>
 
-[Integrate ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Extend the capabilities of Accounts Payable Operations by integrating with other applications.](integrate-apo.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend the capabilities of Accounts Payable Operations by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/integrate-apo.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg) Work on invoices, view invoice statuses, identify and resolve invoice exceptions.](use-acc-pay-mgmt.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Work on invoices, view invoice statuses, identify and resolve invoice exceptions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-acc-pay-mgmt.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components, such as fields, tables, and properties.](../reference/acc-pay-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components, such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-reference.md)
 
 </td><td>
 
@@ -50,23 +52,23 @@ Accounts Payable Operations overview
 
 Here are some additional ServiceNow resources that can help you:
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-docs.svg) Release Notes**
+-   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
 
-    Learn more about what's new and changed. See the [Accounts Payable Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/accounts-payable-operations-rn.md).
+    Learn more about what's new and changed. See the .
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-learning.svg) ServiceNow University**
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
     Access real-time courses, self-paced training, and career resources, such as [Accounts Payable Operations \(APO\) Implementation Essentials](https://learning.servicenow.com/lxp/en/source-to-pay-operations/source-to-pay-operations-accounts-payable?id=learning_course_prev&course_id=80615190477cfd10c00af235126d4306) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon.svg) Now Create**
+-   **\[Omitted image "dcx-icon.svg"\] Now Create**
 
     Log in to your ServiceNow account and find additional information about implementing and deploying Accounts Payable Operations features at [Now Create](https://learning.servicenow.com/nowcreate).
 
--   **![](../../../common/image/icon-youtube.svg) YouTube**
+-   **\[Omitted image "icon-youtube.svg"\] YouTube**
 
     Learn more about the value that you can add to your business with the Source-to-Pay suite. Watch [Multiply the value of your ServiceNow platform with Source-to-Pay workflows](https://www.youtube.com/watch?v=crQtfrCR6DY) on YouTube.
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg) ServiceNow Community**
+-   **\[Omitted image "dcx-icon-community.svg"\] ServiceNow Community**
 
     Connect with other Accounts Payable Operations users at [ServiceNow Community](https://www.servicenow.com/community/source-to-pay-operations/ct-p/source-2-pay-operations).
 

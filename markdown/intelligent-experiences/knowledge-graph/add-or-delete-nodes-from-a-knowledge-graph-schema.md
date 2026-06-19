@@ -2,6 +2,7 @@
 title: Manage nodes in a Knowledge Graph schema
 description: Add or delete a node from an existing Knowledge Graph schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/add-or-delete-nodes-from-a-knowledge-graph-schema.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph
@@ -35,7 +36,7 @@ Role required: kg\_admin
 
 4.  In the Add nodes to Knowledge graph schema​ window, enter or search for the nodes that you want to add to the Knowledge Graph schema.
 
-    ![Add nodes.](../Images/add-nodes.png)
+    \[Omitted image "add-nodes.png"\] Alt text: Add nodes.
 
     You can search and select the Workflow Data Fabric tables, if integrated.
 
@@ -49,6 +50,6 @@ Role required: kg\_admin
 
 8.  Select **Remove node** to delete a node from the schema.
 
-    ![Remove node](../Images/remove-node.png)
+    \[Omitted image "remove-node.png"\] Alt text: Remove node
 
 

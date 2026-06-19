@@ -2,6 +2,7 @@
 title: View the domain or URL for a web application
 description: View the domain or web address of a web application to access the application and use it effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-app-url.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ Role required: sn\_dex.user or ITIL
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![The DEX Administration icon.](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text: The DEX Administration icon.\).
 
 3.  Select **Configure applications** on the Application management card.
 

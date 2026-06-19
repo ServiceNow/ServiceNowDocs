@@ -2,6 +2,7 @@
 title: Set up the OSquery of External Address in the /etc/hosts file playbook
 description: Use the following steps to set up the OSquery of External Address in the /etc/hosts file playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-osquery-external-address.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,9 +33,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  Create a copy of the OSquery External Address in /etc/hosts playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, select the ![More actions menu](../image/more-action-menu.png) icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
-
-    ![Overview of the OSquery of External Address in /etc/hosts playbook.](../image/playbook-osquery-overview.png "OSquery of External Address in /etc/hosts playbook")
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
 4.  Activate the playbooks.
 
@@ -46,8 +45,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     This playbook is triggered and associated with the security incident when the **Category** is **Insider Breach**.
 
-    ![Trigger condition for OSquery of External Address in /etc/hosts playbook](../image/playbook-osquery-trigger.png "OSquery of External Address in /etc/hosts playbook trigger condition")
 
-
-**Parent Topic:**[Playbook for OSquery of External Address in /etc/hosts file](../concept/playbook-osquery-external-address.md)
+**Parent Topic:**[Playbook for OSquery of External Address in /etc/hosts file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-osquery-external-address.md)
 

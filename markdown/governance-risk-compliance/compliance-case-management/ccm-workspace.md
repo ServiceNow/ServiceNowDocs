@@ -2,6 +2,7 @@
 title: Compliance Case Management landing page
 description: See an overview of all your compliance case-related information on your GRC: Compliance Case Management landing page. You can also create the cases, requests, and issues from this GRC: Compliance Case Management landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/ccm-workspace.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -19,7 +20,7 @@ Roles required: sn-compliance-case-manager or sn-compliance-case-analyst
 
 ## Overview of compliance case management landing page
 
-You can launch the compliance case management landing page by using the launcher \(![Electronic signature](../../grc-workspace-vrm/image/icon-tprm-ws-risk-activity.png)\) icon.
+You can launch the compliance case management landing page by using the launcher \(\[Omitted image "icon-tprm-ws-risk-activity.png"\] Alt text: Electronic signature\) icon.
 
 The GRC: Compliance Case Management landing page consists of the following sections:
 
@@ -33,7 +34,7 @@ The Cases section includes the cards that offer information on compliance cases.
 
 The following example shows the cards that are available for the cases on the GRC: Compliance Case Management landing page.
 
-![Compliance case management landing page cases view.](../image/ccm-landing-page.png "GRC: Compliance Case Management landing page")
+\[Omitted image "ccm-landing-page.png"\] Alt text: Compliance case management landing page cases view.
 
 The following table describes the cards that are available for the cases on the GRC: Compliance Case Management landing page.
 
@@ -117,7 +118,7 @@ The Requests section includes the cards that offer information on compliance req
 
 The following example shows the cards that are available for the requests on the GRC: Compliance Case Management landing page.
 
-![Compliance case management landing page requests view.](../image/compliance-case-landing-page-requests.png "GRC: Compliance Case Management landing page")
+\[Omitted image "compliance-case-landing-page-requests.png"\] Alt text: Compliance case management landing page requests view.
 
 The following table describes the cards that are available for the requests on the GRC: Compliance Case Management landing page.
 
@@ -210,5 +211,5 @@ In the Requests section, you can access all the requests that are assigned to yo
     All the requests that are awaiting your approval.
 
 
-**Parent Topic:**[Exploring Compliance Case Management](ccm-overview.md)
+**Parent Topic:**[Exploring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/ccm-overview.md)
 

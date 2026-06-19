@@ -2,6 +2,7 @@
 title: Policies included with the Security Posture Control application
 description: There are a few policies that are included with the Security Posture Control application that are tied to important use cases and are ultimately shown as key insights on the dashboard on the landing page \(Home module\) in the SPC Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-polices-included.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ There are a few policies that are included with the Security Posture Control app
 
 To view these policies, navigate to **Workspaces** &gt; **Security Posture Control** &gt; **Policies and findings** &gt; **All**.
 
-These policies are deactivated by default. You must activate them before you can view returned results \(Findings\). You cannot edit these policies, but you can use them to help you create other policies by cloning their conditions as a starting point. See [Clone a policy or create a child policy in Security Posture Control](../task/spc-clone-policy.md) for more information.
+These policies are deactivated by default. You must activate them before you can view returned results \(Findings\). You cannot edit these policies, but you can use them to help you create other policies by cloning their conditions as a starting point. See [Clone a policy or create a child policy in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-clone-policy.md) for more information.
 
 You can clone these policies to create your own custom policies but note that any policies you clone are not reflected as key insights on the dashboard on the Home landing page with the key insights that are included with the application. However, you can configure findings for these cloned policies and see the returned results from these policies.
 
@@ -44,11 +45,11 @@ Get insights into your overall security posture and configuration gaps in your s
 
 ## Creating your own policies
 
-See [Creating your own policies in the Security Posture Control application](../task/spc-creating-policies.md) for more information about how to create your own policies.
+See [Creating your own policies in the Security Posture Control application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-creating-policies.md) for more information about how to create your own policies.
 
-For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](spc-policy-examples.md).
+For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policy-examples.md).
 
-See [Create and activate custom policies for Security Posture Control](../task/spc-create-policy.md) for more information about the steps required to create a policy.
+See [Create and activate custom policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-create-policy.md) for more information about the steps required to create a policy.
 
-See [Mitigation controls policies](spc-mitigation-policies.md) for more information for more information about policies used for mitigation controls monitoring.
+See [Mitigation controls policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-mitigation-policies.md) for more information for more information about policies used for mitigation controls monitoring.
 

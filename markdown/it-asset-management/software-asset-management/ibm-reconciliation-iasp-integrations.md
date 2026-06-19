@@ -2,6 +2,7 @@
 title: IBM reconciliation for IBM Authorized SAM Provider \(ASP\) integrations
 description: IBM reconciliation keeps your IBM license positions accurate and up-to-date without requiring manual calculations. Reconciliation runs weekly or on-demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/ibm-reconciliation-iasp-integrations.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [Authorized SAM Provider \(ASP\) integrations for IBM, Software Asse
 
 IBM reconciliation keeps your IBM license positions accurate and up-to-date without requiring manual calculations. Reconciliation runs weekly or on-demand.
 
-When the Software Asset Management application calculates the number of rights that are required for a processor value unit \(PVU\), resource value unit \(RVU\), or virtual processor core \(VPC\) license, it calculates two different numbers based on whether you are using the license to its full capacity or sub-capacity. The Software Asset Management application uses this information alongside the [daily aggregated peak usage of your IBM software product](../task/view-daily-aggregated-peak-usage-ibm-products.md) and the usage type of your [PVU, RVU](ibm-pvu-rvu-licensing.md), or [VPC](ibm-virtual-processor-core-licensing.md) license to determine the high-water mark, or peak usage, of your IBM software product over a 90 day period.
+When the Software Asset Management application calculates the number of rights that are required for a processor value unit \(PVU\), resource value unit \(RVU\), or virtual processor core \(VPC\) license, it calculates two different numbers based on whether you are using the license to its full capacity or sub-capacity. The Software Asset Management application uses this information alongside the [daily aggregated peak usage of your IBM software product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-daily-aggregated-peak-usage-ibm-products.md) and the usage type of your [PVU, RVU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md), or [VPC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md) license to determine the high-water mark, or peak usage, of your IBM software product over a 90 day period.
 
 **Note:** You can determine the high-water mark of your IBM software product per region, including the Americas, EMEA, and APAC.
 
@@ -23,5 +24,5 @@ The Software Asset Management application then uses the high-water mark value to
 
 **Note:** When you reconcile an IBM Cloud Pak, it is reconciled as a whole. The software products, also known as Bundled Programs, within the Cloud Pak are not reconciled individually.
 
-**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](ibm-asp-integration.md)
+**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

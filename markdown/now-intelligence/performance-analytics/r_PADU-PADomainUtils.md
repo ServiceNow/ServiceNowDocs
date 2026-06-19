@@ -2,6 +2,7 @@
 title: PADomainUtils - PADomainUtils\(\)
 description: Instantiates a new PADomainUtils object to move or copy Performance Analytics records from the global domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/r\_PADU-PADomainUtils.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -26,5 +27,5 @@ Use the PADomainUtils\(String domainFrom\) constructor instead when moving or co
 var globalUtils = new SNC.PADomainUtils();
 ```
 
-**Parent Topic:**[PADomainUtils - Global](../concept/c_PADomainUtils.md)
+**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)
 

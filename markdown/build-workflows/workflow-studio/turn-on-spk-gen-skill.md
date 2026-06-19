@@ -2,6 +2,7 @@
 title: Turn on the spoke generation skill
 description: Turn on the flow generation skill to use generative AI to create a spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/turn-on-spk-gen-skill.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  In the workflow list, select **Creator**.
 
-4.  In the **Spoke Generation** modal, click **Turn on**.![Spoke Generation skill in Now Assist Admin console.](../images/creator-skill-now-assist.png)
+4.  In the **Spoke Generation** modal, click **Turn on**.\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in Now Assist Admin console.
 
 
 ## Result

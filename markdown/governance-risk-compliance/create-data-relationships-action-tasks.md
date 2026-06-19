@@ -2,6 +2,7 @@
 title: Create Data relationships
 description: Create the data relationships in the Template Configurations module, which helps you to navigate from a record in the template configuration to any table. When you create these paths, you can fetch the necessary data from each of these records in the report template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-data-relationships-action-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Create the data relationships in the Template Configurations module, which helps
 
 ## Before you begin
 
-Role required: sn\_oper\_res.admin
+Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager
 
 ## Procedure
 
@@ -31,7 +32,7 @@ Role required: sn\_oper\_res.admin
 
     A sample record is shown for reference.
 
-    ![Data relationships.](../image/d17-dri-temp-config-data-rela-rel-list.png)
+    \[Omitted image "d17-dri-temp-config-data-rela-rel-list.png"\] Alt text: Data relationships.
 
 5.  On the form, fill in the fields.
 
@@ -107,5 +108,5 @@ Table from which the data is obtained. This field is automatically populated.
 
 ## What to do next
 
-Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Set up the content configurations](../../grc-business-continuity-management/task/create-content-config-for-temp-config.md).
+Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Create Content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-content-configurations-action-tasks.md).
 

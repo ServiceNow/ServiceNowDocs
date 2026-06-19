@@ -2,13 +2,14 @@
 title: Proactive Service Experience Workflows architecture
 description: There are multiple components that make up the architecture of the Proactive Service Experience Workflows application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, Product Support for Technology]
+breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Proactive Service Experience Workflows architecture
@@ -34,7 +35,7 @@ Based on the defined condition, Workflow Studio works with the Incident Escalati
 
 ## Messages
 
-Each subflow in Proactive Service Experience Workflows is associated with a message file that provides instructions for agents to use to troubleshoot, escalate, and resolve network-initiated incidents. For more information about how to customize the default instructions for your internal troubleshooting processes, see [Customize message files](../task/configure-msg-file-taw.md).
+Each subflow in Proactive Service Experience Workflows is associated with a message file that provides instructions for agents to use to troubleshoot, escalate, and resolve network-initiated incidents. For more information about how to customize the default instructions for your internal troubleshooting processes, see [Customize message files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-msg-file-taw.md).
 
 ## Roles
 
@@ -52,10 +53,10 @@ Several assignment groups are included with this role and other groups can also 
 
 The following diagram shows the steps involved in the Proactive Service Experience Workflows process:
 
-![Proactive Service Experience Workflows End-to-end process](../image/psew-workflow-graphic.png)
+\[Omitted image "psew-workflow-graphic.png"\] Alt text: Proactive Service Experience Workflows End-to-end process
 
--   **[Enhancing customer impact visibility for PSEW processes](enhance-customer-impact-visibility-psew-process.md)**  
+-   **[Enhancing customer impact visibility for PSEW processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.md)**  
 Use the customer impact tab to reduce navigation time, and enhance tracking and management of PSEW processes. This visibility enables you to quickly assess business impact and take informed actions.
 
-**Parent Topic:**[Exploring the Product Support for Technology](explore-assurance-workflows.md)
+**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 

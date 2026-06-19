@@ -2,11 +2,12 @@
 title: Microsoft Entra ID integration for new hire onboarding
 description: Automatically provision relevant applications for new hires as part of the onboarding process with the Microsoft Entra ID integration. This integration requires the Microsoft Entra ID spoke in IntegrationHub, and is configured to work with the lifecycle event for new hire onboarding that is included as demo data with the Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-journey-management/azure-active-directory-integration-for-new-hire-onboarding.html
 release: australia
 product: Employee Journey Management
 classification: employee-journey-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Lifecyle events for enterprise integrations, Lifecyle events for enterprise, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -17,7 +18,7 @@ Automatically provision relevant applications for new hires as part of the onboa
 
 ## Setting up the Microsoft Entra ID integration
 
-To set up the Microsoft Entra ID integration for new hire onboarding, you must first set up the Microsoft Entra ID spoke, next configure the remote directory sync to fetch the groups into your instance, and last configure the relevant business roles. For details on how to set up the integration, see [Set up the Microsoft Entra ID integration for new hire onboarding](../task/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.md).
+To set up the Microsoft Entra ID integration for new hire onboarding, you must first set up the Microsoft Entra ID spoke, next configure the remote directory sync to fetch the groups into your instance, and last configure the relevant business roles. For details on how to set up the integration, see [Set up the Microsoft Entra ID integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.md).
 
 ## Using the Microsoft Entra ID integration with new hire onboarding
 
@@ -37,8 +38,8 @@ The application provisioning process works as follows. When an onboarding case i
 
 **Important:** New hires must have a user record in the Microsoft Entra ID system in order for their applications to be provisioned to them.
 
--   **[Set up the Microsoft Entra ID integration for new hire onboarding](../task/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.md)**  
+-   **[Set up the Microsoft Entra ID integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.md)**  
 To set up the Microsoft Entra ID integration for new hire onboarding, you must first set up the Microsoft Entra ID spoke, next configure the remote directory sync to fetch the groups into your instance, and last configure the required business roles.
 
-**Parent Topic:**[Lifecyle events for enterprise integrations](onbrd-trans-integrations.md)
+**Parent Topic:**[Lifecyle events for enterprise integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/onbrd-trans-integrations.md)
 

@@ -2,11 +2,12 @@
 title: Configure MID Server for AWS KMS access
 description: Configure MID Server properties to enable Key Management Service \(KMS\) key access from the ServiceNow AI Platform when performing Systems Manager \(SSM\) Agent discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/config-mid-server-aws-kms-access.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [AWS SSM discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +20,7 @@ Configure MID Server properties to enable Key Management Service \(KMS\) key acc
 
 Confirm the following:
 
--   You have at least one MID Server installed and in the **Up** state. For more information, see [Install and configure MID Servers to access cloud environments](../../it-operations-management/task/mid-server-configuration-cloud.md).
+-   You have at least one MID Server installed and in the **Up** state. For more information, see [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/mid-server-configuration-cloud.md).
 -   You have an AWS credential that allows the MID Server to access and make API calls into the AWS environment. For more information, see [AWS Access for MID Server](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2150362#midawsaccess).
 -   You created a custom AWS KMS key to encrypt sensitive credentials. For more information, see [Create a Customer Managed AWS KMS Key](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2150362#awskey).
 
@@ -39,7 +40,7 @@ Using a dedicated key enhances security by verifying that applicative credential
 
 4.  Enter the name of the KMS key.
 
-5.  Select the check mark \(![check mark icon](../../cloud-management-v2/image/icon-check-mark.png)\) icon.
+5.  Select the check mark \(\[Omitted image "icon-check-mark.png"\] Alt text: check mark icon\) icon.
 
 6.  In the **Name** field, enter `mid.discovery.aws_ssm.kms_key_region`.
 
@@ -47,6 +48,6 @@ Using a dedicated key enhances security by verifying that applicative credential
 
 8.  Enter the name of the region where the KMS key is located.
 
-9.  Select the check mark \(![check mark icon](../../cloud-management-v2/image/icon-check-mark.png)\) icon.
+9.  Select the check mark \(\[Omitted image "icon-check-mark.png"\] Alt text: check mark icon\) icon.
 
 

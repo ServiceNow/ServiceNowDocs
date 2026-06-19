@@ -2,6 +2,7 @@
 title: ACL Assessment for Reports
 description: Use the ServiceNow ACL Assessment for Reports to identify reports that are blocked by report\_view ACLs \(access control lists\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/report-view-acl-dashboard.html
 release: australia
 product: Reporting
 classification: reporting
@@ -40,24 +41,24 @@ The application has three components:
 
 **Note:** Some tables in the ServiceNow platform have access control lists created on them by default.
 
--   **[Install the ACL Assessment for Reports](../task/install-report-acl-app.md)**  
+-   **[Install the ACL Assessment for Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/install-report-acl-app.md)**  
 The ACL Assessment for Reports enables you to identify users that don't have access to reports and to enable access where appropriate.
--   **[Perform the Report View assessment scan](../task/perform-report-view-acl-assessment-scan.md)**  
+-   **[Perform the Report View assessment scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/perform-report-view-acl-assessment-scan.md)**  
 Scan your instance for reports that users would be unable to view based on existing access control lists \(ACLs\).
--   **[View the list of affected reports](../task/view-impacted-reports.md)**  
+-   **[View the list of affected reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/view-impacted-reports.md)**  
 You can view a list of all impacted reports identified by the ACL assessment for reports. Use this list to remediate affected reports and users.
--   **[Manage Report ACL assessments](../task/view-report-acl-remediation.md#)**  
+-   **[Manage Report ACL assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/view-report-acl-remediation.md)**  
 When you run the Report ACL \(access control list\) assessment scan, the result is a list of affected reports. The assessment details the users who have seen a report including the report creator. The assessment also includes the roles that the report is limited to and the groups that contain those roles.
--   **[Filter report assessment scans](../task/filter-report-assessment-scans.md#)**  
+-   **[Filter report assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/filter-report-assessment-scans.md)**  
 Especially on large instances, the ACL Assessment for Reports can take a long time. To reduce the assessment time, you can use system properties to filter the reports that the assessment applies to.
--   **[The report\_view ACLs list](../task/view-report-acls-list.md)**  
+-   **[The report\_view ACLs list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/view-report-acls-list.md)**  
 View the entire list of report\_view ACLs and their associated roles to have a higher-level view of the access control on your instance.
--   **[Reassess ignored reports](../task/recover-ignored-reports.md)**  
+-   **[Reassess ignored reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/recover-ignored-reports.md)**  
 When you address the ACL Assessment for Reports, you can ignore any report. View these reports to consider their statuses again.
--   **[Reassess ignored users](../task/recover-ignored-users.md)**  
+-   **[Reassess ignored users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/recover-ignored-users.md)**  
 When you address the ACL Assessment for Reports, you can ignore any individual user. View these users to consider their statuses again.
--   **[Report assessment and domain separation](../reference/report-acl-dashboard-domain-sep.md)**  
+-   **[Report assessment and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-acl-dashboard-domain-sep.md)**  
 In domain separated instances, the ACL Assessment for Reports has certain limitations.
 
-**Parent Topic:**[Administering reports](c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 

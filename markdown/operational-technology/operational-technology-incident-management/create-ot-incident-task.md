@@ -2,6 +2,7 @@
 title: Create tasks to fulfill an OT incident
 description: Create a set of incident tasks to fulfill an Operational Technology \(OT\) incident. Incident tasks help you to split up and categorize the work that is needed to resolve an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/create-ot-incident-task.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -163,5 +164,5 @@ You can view incident tasks in the Industrial Workspace list view in the followi
 -   Incident tasks assigned to your group: **OT Tasks** &gt; **Assigned to My Groups**
 -   Unassigned incident tasks: **OT Tasks** &gt; **Unassigned**
 
-**Parent Topic:**[Using Operational Technology Incident Management](../concept/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

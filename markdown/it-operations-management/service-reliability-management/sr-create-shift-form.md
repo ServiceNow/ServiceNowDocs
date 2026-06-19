@@ -2,6 +2,7 @@
 title: Create a shift form in Service Reliability Management
 description: Set up an on-call schedule for your team to ensure that the right person is always available to quickly respond to incidents and critical alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-create-shift-form.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,7 +18,7 @@ Set up an on-call schedule for your team to ensure that the right person is alwa
 
 ## Create a shift form
 
-For more information, see [Create an SRM on-call schedule](../task/sr-create-on-call-schedule.md).
+For more information, see [Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md).
 
 <table id="id_gsh_vyw_qzb"><thead><tr><th>
 
@@ -143,5 +144,5 @@ Existing templates for shifts.Choices are:
 -   Workday 9:00 - 5:00
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Reliability Management reference](service-reliability-management-reference.md)
+</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

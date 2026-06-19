@@ -2,6 +2,7 @@
 title: Integrating HR Service Delivery Virtual Agent Conversations app with Journey designer
 description: Install the HR Service Delivery Virtual Agent Conversations app to enable Journey designer to send actionable notifications as nudges to employees and managers on configured communications channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-virtual-agent.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -23,7 +24,7 @@ Install the latest version of [HR Service Delivery Virtual Agent Conversations \
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Integrating the Learning Posts app with Journey designer enables you to manage recommended learning for journeys from inside Journey designer.
 
@@ -45,7 +46,7 @@ Notifications are sent to employees, managers, and mentors that are associated w
 
 **Note:** For a holistic experience of the journey outcome in Virtual Agent, turn on all the six Journey created scenario notifications \(Manager, Mentor, and Employee\).
 
-For more information about HR Service Delivery Virtual Agent Conversations and topic blocks, see [Virtual Agent for HR Service Delivery](hr-virtual-agent-conversations.md#).
+For more information about HR Service Delivery Virtual Agent Conversations and topic blocks, see [Virtual Agent for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-virtual-agent-conversations.md).
 
 ## Actionable notification in the Journey designer app
 
@@ -66,7 +67,7 @@ There are four action topics linked to Journey designer provided in the base sys
 -   \_approve\_le\_approval\_activity - Approve the request assigned as a part of the journey.
 -   \_reject\_le\_approval\_activity - Reject the request assigned as a part of the journey.
 
-You can also associate other actions with the notifications. For more information, see [Add actions to the notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/noti-select-provider-actions-order.md).
+You can also associate other actions with the notifications. For more information, see .
 
-**Parent Topic:**[Integrations for Journey designer app](jny-integrations-1.md)
+**Parent Topic:**[Integrations for Journey designer app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

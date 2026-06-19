@@ -2,6 +2,7 @@
 title: Jumpstart Your Walk-up Experience
 description: This accelerator provides a demonstration of the possibilities and capabilities of ServiceNow’s Walk-Up Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-walkup-experience.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator Overview
 
 Jumpstart Your Walk-Up Experience offers Impact customers a comprehensive overview and demonstration of the Walk-Up Experience. During this session, customers gain a clear understanding of setting up and operating Walk-Up centers, enabling users to seek in-person or remote IT assistance, report issues, and receive real-time guidance from IT experts. Additionally, this accelerator provides key resources and leading practice guides to enhance product adoption and usage.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -50,6 +53,8 @@ Jumpstart Your Walk-Up Experience offers Impact customers a comprehensive overvi
 |Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provide leadership and oversight to the System Administrators, ensure team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
 |System Administrator\(s\)|Responsible for maintaining the stability and usability of the ServiceNow platform by performing application maintenance, managing support for Cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|✓| |
 |Trusted Service Partners|Attend ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

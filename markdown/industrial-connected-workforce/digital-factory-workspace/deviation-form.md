@@ -2,6 +2,7 @@
 title: Deviation form
 description: The following table describes the field values for the Deviation form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/deviation-form.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -157,7 +158,7 @@ Priority that is set automatically based on impact and urgency. Options are:-   
 -   4 - Within 7 days
 -   6 - Unplanned
 
-For more details, see [Priority matrix for deviations](priority-matrix-industrial-deviations.md).
+For more details, see [Priority matrix for deviations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/priority-matrix-industrial-deviations.md).
 
 </td></tr><tr><td>
 
@@ -211,5 +212,5 @@ Attachments
 Attachment that can be used for descriptive purposes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Factory Workspace reference](digital-factory-workspace-reference.md)
+</table>**Parent Topic:**[Digital Factory Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/digital-factory-workspace-reference.md)
 

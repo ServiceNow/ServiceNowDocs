@@ -2,6 +2,7 @@
 title: Project Risk Overview dashboard
 description: The project risk dashboard is useful for project managers and the enterprise risk managers. Using this dashboard, the project managers and enterprise risk managers can view the risk performance and the overall risk posture. This dashboard helps risk managers to reduce the overall risks in an organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/project-risk-dashboard.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -17,7 +18,7 @@ The project risk dashboard is useful for project managers and the enterprise ris
 
 **Important:** Starting with version 18.1.0 of the Advanced Risk and Risk Management applications, the Project Risk Overview dashboard is deprecated. If you're on a legacy release or already using the dashboard, you can continue to use it.
 
-![A comprehensive dashboard to view project and enterprise risks](../image/project-risk-dashboard.gif "Project Risk Overview dashboard")
+\[Omitted image "project-risk-dashboard.gif"\] Alt text: A comprehensive dashboard to view project and enterprise risks
 
 ## Required roles
 
@@ -72,17 +73,17 @@ This dashboard displays the following visualizations:
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Total risks|Single score![Single score icon.](../../reporting/image/icon-single-score-report.png)|Total number of project risks identified.|
-|Risks assessed|Single score![Single score icon.](../../reporting/image/icon-single-score-report.png)|Total number of project risks assessed.|
-|Risks with enterprise impact|Single score![Single score icon.](../../reporting/image/icon-single-score-report.png)|Total number of risks with enterprise impact.|
-|Enterprise impact- inherent risk|Bar graph![Bar graph icon.](../../reporting/image/icon-bar-report.png)|Number of inherent risks with enterprise impact.|
-|Enterprise impact- residual risk|Bar graph![Bar graph icon.](../../reporting/image/icon-bar-report.png)|Number of residual risks with enterprise impact.|
-|Enterprise risk assessments by state|Pie chart![Pie chart icon.](../../reporting/image/icon-pie-report.png)|Number of enterprise risk assessments by states.|
-|Inherent risk|Bar graph![Bar graph icon.](../../reporting/image/icon-bar-report.png)|Number of inherent project risks.|
-|Residual risk|Bar graph![Bar graph icon.](../../reporting/image/icon-bar-report.png)|Number of residual project risks.|
-|Risk assessment by state|Pie chart![Pie chart icon.](../../reporting/image/icon-pie-report.png)|Number of project risk assessments by states.|
-|Inherent risk by likelihood and impact|Heatmap ![Heatmap icon.](../../reporting/image/icon-heatmap-report.png)|Aggregation of all the inherent project risks and their impact.|
-|Residual risk by likelihood and impact|Heatmap ![Heatmap icon.](../../reporting/image/icon-heatmap-report.png)|Aggregation of all the residual project risks and their impact.|
+|Total risks|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score icon.|Total number of project risks identified.|
+|Risks assessed|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score icon.|Total number of project risks assessed.|
+|Risks with enterprise impact|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score icon.|Total number of risks with enterprise impact.|
+|Enterprise impact- inherent risk|Bar graph\[Omitted image "icon-bar-report.png"\] Alt text: Bar graph icon.|Number of inherent risks with enterprise impact.|
+|Enterprise impact- residual risk|Bar graph\[Omitted image "icon-bar-report.png"\] Alt text: Bar graph icon.|Number of residual risks with enterprise impact.|
+|Enterprise risk assessments by state|Pie chart\[Omitted image "icon-pie-report.png"\] Alt text: Pie chart icon.|Number of enterprise risk assessments by states.|
+|Inherent risk|Bar graph\[Omitted image "icon-bar-report.png"\] Alt text: Bar graph icon.|Number of inherent project risks.|
+|Residual risk|Bar graph\[Omitted image "icon-bar-report.png"\] Alt text: Bar graph icon.|Number of residual project risks.|
+|Risk assessment by state|Pie chart\[Omitted image "icon-pie-report.png"\] Alt text: Pie chart icon.|Number of project risk assessments by states.|
+|Inherent risk by likelihood and impact|Heatmap \[Omitted image "icon-heatmap-report.png"\] Alt text: Heatmap icon.|Aggregation of all the inherent project risks and their impact.|
+|Residual risk by likelihood and impact|Heatmap \[Omitted image "icon-heatmap-report.png"\] Alt text: Heatmap icon.|Aggregation of all the residual project risks and their impact.|
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 

@@ -2,6 +2,7 @@
 title: Using Project Management
 description: Use Project Management to plan, manage, and track projects effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/using-project-management.html
 release: australia
 product: Project Management
 classification: project-management
@@ -27,7 +28,7 @@ Before creating a project, consider the following questions and issues:
 
 -   Is the project part of a larger portfolio of projects?
 
-    Also consider [portfolio planning](c_PortfolioManagement.md) and how the project relates to similar projects or initiatives.
+    Also consider [portfolio planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/c_PortfolioManagement.md) and how the project relates to similar projects or initiatives.
 
 -   What types of dependencies do the tasks have with other tasks?
 

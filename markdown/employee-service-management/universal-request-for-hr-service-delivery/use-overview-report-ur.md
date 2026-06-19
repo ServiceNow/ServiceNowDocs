@@ -2,6 +2,7 @@
 title: Universal Request Overview dashboard
 description: View and analyze the general statistics of the universal requests for routing agents, such as the number of open requests, breached, unassigned, and requests at risk. You can also view the weekly opening and closing universal requests along with the number of department tasks that are part of each UR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/use-overview-report-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -19,11 +20,11 @@ To view the Universal Request Overview dashboard, navigate to **Universal Reques
 
 ## Overview of universal requests
 
-![Universal Request overview dashboard for reporting](../images/ur-overview-dashboard.png)
+\[Omitted image "ur-overview-dashboard.png"\] Alt text: Universal Request overview dashboard for reporting
 
 Select any indicator widget to view it's details in a list view.
 
-Use the **Edit** button to modify the dashboard and the widgets with the in-line editor. For more information, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+Use the **Edit** button to modify the dashboard and the widgets with the in-line editor. For more information, see .
 
 ## Required ServiceNow AI Platform roles
 
@@ -54,5 +55,5 @@ The following roles can view the Universal Request overview dashboard:
 |Department Tickets per Universal Request|Bar|Task \[task\]|This report shows all the universal requests that were created in the last 3 months along with the associated department tickets. You can view the type of department ticket created by hovering over the bars. Also, you can view the list of all the department ticket clicking on the bars.|
 |Opened &amp; Closed Weekly|Spline|Universal Request \[universal\_request\]|This report shows the universal request that were opened and closed over the last 3 months, aggregated weekly.|
 
-**Parent Topic:**[Reporting solutions for Universal Request](reporting-soln-for-ur.md)
+**Parent Topic:**[Reporting solutions for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/reporting-soln-for-ur.md)
 

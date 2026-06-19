@@ -2,6 +2,7 @@
 title: Trusted Mobile app troubleshooting
 description: Review these troubleshooting scenarios to resolve issues with Trusted Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/troubleshooting-trusted-device.html
 release: australia
 product: Authentication
 classification: authentication

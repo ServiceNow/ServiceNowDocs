@@ -2,6 +2,7 @@
 title: Customize a Now Assist for Integrated Risk Management \(IRM\) skill
 description: If you have the admin role, you can customize a Now Assist for Integrated Risk Management \(IRM\) skill so that agents can use the generative AI skills in Service Operations Workspace for Now Assist for IRM and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/customize-a-skill.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -68,7 +69,7 @@ From the Now Assist Admin console, you can select the input tables, related list
 
         Add multiple base input fields if more inputs are needed.
 
-        ![Choose input data screen that contains the input tables and fields to define the prompt.](../image/choose-input-data.png)
+        \[Omitted image "choose-input-data.png"\] Alt text: Choose input data screen that contains the input tables and fields to define the prompt.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -122,7 +123,7 @@ Description of the base input field value.
 
         You can also add the rule conditions to these additional related table and activity stream data sources.
 
-        ![Choose input data screen that contains the input tables and fields to define the prompt.](../image/choosing-input.png)
+        \[Omitted image "choosing-input.png"\] Alt text: Choose input data screen that contains the input tables and fields to define the prompt.
 
         The following table lists the data sources that you can add to the input data.
 
@@ -285,7 +286,7 @@ Closed
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

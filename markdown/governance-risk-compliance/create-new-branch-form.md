@@ -2,10 +2,11 @@
 title: Create New Branch form
 description: On the Create New Branch form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-branch-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create a branch and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -113,7 +114,9 @@ LEI of the financial entity head office of the branch
 
 </td><td>
 
-Legal Entity Identifier \(LEI\) of the head office of the financial entity to which the branch belongs, for example, LEIACMEGermany001 or LEIACMEAmericas001
+Legal Entity Identifier \(LEI\) of the head office of the financial entity to which the branch belongs, for example, LEIACMEGermany001 or LEIACMEAmericas001.
+
+ When a valid LEI is entered in the Identification code of the branch field, the system performs a real-time lookup against the GLEIF \(Global Legal Entity Identifier Foundation\) database and auto-populates this field with the parent entity's LEI.
 
 </td></tr><tr><td>
 
@@ -123,6 +126,8 @@ Name of the branch
 
 Name of the branch that is used for identification. When the LEI of the financial entity head office of the branch is entered, this field is auto-filled, for example, Frankfurt branch office.
 
+ When a valid LEI is entered in the Identification code of the branch field, this field is auto-filled by the GLEIF lookup with the legal name of the branch entity, for example: "SERVICENOW NEDERLAND B.V."
+
 </td></tr><tr><td>
 
 Country of the branch
@@ -131,6 +136,8 @@ Country of the branch
 
 Two-letter country code where the branch is located. When the LEI of the financial entity head office of the branch is entered, this field is auto-filled, for example, Germany.
 
+ When a valid LEI is entered in the Identification code of the branch field, this field is auto-filled by the GLEIF lookup with the two-letter country code, for example: "NETHERLANDS."
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a branch and enhance digital resilience data](../task/create-drtp-reg-branch.md)
+</table>**Parent Topic:**[Create a branch and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-branch.md)
 

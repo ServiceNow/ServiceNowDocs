@@ -1,12 +1,13 @@
 ---
 title: Zero Copy Connector for ERP system properties
-description: Review the system properties for Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+description: Use these system properties to configure Zero Copy Connector for ERP behavior, including debug logging, OData connections, and ETL extraction settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-system-properties.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-06-08"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, property, properties]
 breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -14,9 +15,9 @@ breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 
 # Zero Copy Connector for ERP system properties
 
-Review the system properties for Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+Use these system properties to configure Zero Copy Connector for ERP behavior, including debug logging, OData connections, and ETL extraction settings.
 
-These properties are available for Zero Copy Connector for ERP.
+Configure the following properties in the System Properties \[sys\_properties\] table to control Zero Copy Connector for ERP behavior.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
@@ -44,7 +45,7 @@ integer
 
 Debug log level.
 
--   0 is disabled
+-   0 is inactive
 -   1 is least level of detail
 -   9 is highest level of detail
 
@@ -120,7 +121,7 @@ integer
 
 </td><td>
 
-Database memory limit in megabyte per request. When limit is reached, data is written to disc.
+Database memory limit in megabyte per request. When limit is reached, data is written to disk.
 
 </td></tr><tr><td>
 
@@ -144,7 +145,7 @@ true \| false
 
 </td><td>
 
-Allows cloning and changes of models in Zero Copy Connector for ERP application.
+Enables cloning and changes of models in Zero Copy Connector for ERP application.
 
 </td></tr><tr><td>
 
@@ -319,5 +320,5 @@ true \| false
 Indicates if CSRF token should be sent for OData calls in Zero Copy Connector for ERP operations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP reference](erp-integration-reference.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
 

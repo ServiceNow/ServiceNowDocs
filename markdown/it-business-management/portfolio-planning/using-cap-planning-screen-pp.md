@@ -2,6 +2,7 @@
 title: Use Capacity Planning in Portfolio Planning
 description: View and analyze the resource capacity for your portfolio to plan and re-forecast the resource assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-cap-planning-screen-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ View and analyze the resource capacity for your portfolio to plan and re-forecas
 
 ## Before you begin
 
-Generate resource capacity using [Generate resource capacity](manage-rsrc-cap-pp.md).
+Generate resource capacity using [Generate resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/manage-rsrc-cap-pp.md).
 
 Role required: sn\_align\_ws.spw\_capacity\_user
 
@@ -33,13 +34,13 @@ Role required: sn\_align\_ws.spw\_capacity\_user
 
     If you select Group, all the available groups from the resource assignments of the prioritized planning items are automatically displayed in the Auto-select option. You can add or remove the suggestions to view the resource capacity using the Manual-select option.
 
-    **Tip:** You can always redefine and change the resource criteria to view custom results using the **Resource criteria** \(![Resource criteria button.](../../spw-capacity-planning/images/cp-resource-criteria-button.png)\) button.
+    **Tip:** You can always redefine and change the resource criteria to view custom results using the **Resource criteria** \(\[Omitted image "cp-resource-criteria-button.png"\] Alt text: Resource criteria button.\) button.
 
-    ![Resource criteria screen in Capacity Planning.](../../spw-capacity-planning/images/cp-select-resource-criteria.png)
+    \[Omitted image "cp-select-resource-criteria.png"\] Alt text: Resource criteria screen in Capacity Planning.
 
 5.  Select **Submit**.
 
-    ![Capacity planning screen.](../../spw-capacity-planning/images/cp-capacity-planning-screen.png)
+    \[Omitted image "cp-capacity-planning-screen.png"\] Alt text: Capacity planning screen.
 
 
 ## Result

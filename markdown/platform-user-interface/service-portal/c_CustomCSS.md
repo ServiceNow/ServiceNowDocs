@@ -2,6 +2,7 @@
 title: Create a portal theme
 description: If you need more customizations than the Branding Editor can provide, you can create your own custom theme.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/c\_CustomCSS.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -172,7 +173,7 @@ RTL CSS file URL
 
 A URL to an external style sheet for mirroring the direction of a portal when the session language is a right-to-left language, such as Hebrew.
 
- For information about support for right-to-left languages, see [Styling for right-to-left languages in portals](styling-right-to-left-languages.md).
+ For information about support for right-to-left languages, see [Styling for right-to-left languages in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/styling-right-to-left-languages.md).
 
 </td></tr></tbody>
 </table>5.  To add a JavaScript include to the theme, in the **JS Include** related list, select **New**.
@@ -208,7 +209,7 @@ Source
 
 </td><td>
 
-Select one of the following options:-   **UI Script**: Add an internal UI script that has been uploaded to the UI script table \[sys\_ui\_script\]. Use UI scripts to create client-side JavaScript and reuse it in multiple locations. For more information on UI scripts, see [UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UIScripts.md).
+Select one of the following options:-   **UI Script**: Add an internal UI script that has been uploaded to the UI script table \[sys\_ui\_script\]. Use UI scripts to create client-side JavaScript and reuse it in multiple locations. For more information on UI scripts, see UI scripts.
 -   **URL**: Link to an external JavaScript file. Use external URLs to use the same JavaScript as a corporate website or other online resource.
 
 
@@ -238,10 +239,10 @@ The Service Portal package that the JS include is associated with. For example, 
 
 </td></tr></tbody>
 </table>
--   **[Enable dark theme](enable-dark-theme.md)**  
-Use a Coral dark theme on a portal to improve focus, readability, and accessibility.
--   **[Create a theme variant](create-theme-variant.md)**  
+-   **[Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-dark-theme.md)**  
+Use Coral dark theme on a portal to improve focus, readability, and accessibility.
+-   **[Create a theme variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-theme-variant.md)**  
 Create a theme variant from the Coral theme. A theme variant uses customizable styling CSS variables and branding options to tailor the visual experience for your users.
 
-**Parent Topic:**[Defining portal styles](portal-css.md)
+**Parent Topic:**[Defining portal styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-css.md)
 

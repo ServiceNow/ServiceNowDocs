@@ -2,6 +2,7 @@
 title: Update capacity value and reservation for a territory in capacity console
 description: The Capacity Console provides flexibility for capacity planners and managers to modify capacity value and reservation rule for better allocation of resources. Reservations determine the demand channels applicable and the percentage allocation of capacity for each channel on a given day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/update-reservation-rule-in-capacity-console.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -43,9 +44,9 @@ Use contextual side panel \(CSP\) to:
 
     The Territory summary page appears in the contextual side panel.
 
-5.  To update the capacity value, select the Edit ![Edit icon](../image/edit-mobile-icon.png) icon and change the value in terms of hours or tasks in whichever way the capacity definition is defined.
+5.  To update the capacity value, select the Edit \[Omitted image "edit-mobile-icon.png"\] Alt text: Edit icon icon and change the value in terms of hours or tasks in whichever way the capacity definition is defined.
 
-6.  To change the applied reservation, select the Actions ![Actions icon.](../image/more_actions.png) icon and click **Override Reservation**.
+6.  To change the applied reservation, select the Actions \[Omitted image "more\_actions.png"\] Alt text: Actions icon. icon and click **Override Reservation**.
 
     1.  In the **Reservation** field, select an existing reservation from the drop-down menu.
 
@@ -78,7 +79,7 @@ Use contextual side panel \(CSP\) to:
 
 The following snapshots showcases the actions performed in the contextual side panel of the capacity console.
 
-![Capacity console contextual side panel showcasing the options to open the reservation record and override reservation.](../image/reservation-rule-update.png)
+\[Omitted image "reservation-rule-update.png"\] Alt text: Capacity console contextual side panel showcasing the options to open the reservation record and override reservation.
 
-![Capacity console contextual side panel showcasing the option to copy and modify the reservation.](../image/copy-reservation.png)
+\[Omitted image "copy-reservation.png"\] Alt text: Capacity console contextual side panel showcasing the option to copy and modify the reservation.
 

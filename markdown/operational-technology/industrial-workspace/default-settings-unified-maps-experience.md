@@ -2,6 +2,7 @@
 title: Default settings of the Operational Technology Unified Map experience
 description: You can modify the default settings available for the Operational Technology \(OT\) Unified Map experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/default-settings-unified-maps-experience.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -17,7 +18,7 @@ You can modify the default settings available for the Operational Technology \(O
 
 With the **admin** or **sn\_cmdb\_ws.config\_admin** role, you can modify the default settings of the Industrial Workspace Config Identifier available with the OT Unified Map experience. A configuration identifier, or config identifier, is a configuration element within the configuration identifiers framework. A config identifier contains settings and table-driven configurations used in a UX application such as a workspace.
 
-If a property isn't set or if there are no entries in the table-driven configuration, look-up uses the values in the default configuration identifier instead. For more information about the configuration identifiers framework, see [Configuration identifiers framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuration-identifiers-framework.md).
+If a property isn't set or if there are no entries in the table-driven configuration, look-up uses the values in the default configuration identifier instead. For more information about the configuration identifiers framework, see .
 
 To access the Industrial Workspace Config Identifier record, navigate to **All**, and in the filter bar, enter `sn_cmdb_ws_config_identifier.list`. Then select **Industrial Workspace Config Identifier**.
 
@@ -58,5 +59,5 @@ You can specify the operational states that CIs must have for them to be include
 
 Each class has a unique set of extended properties that appear in the Unified Map Attributes panel for a CI. Many common classes are preconfigured with these properties. You can modify the default settings and globally configure extended properties for additional classes.
 
-**Parent Topic:**[Setting up the Operational Technology Unified Map experience](../task/setting-up-unified-maps-experience.md)
+**Parent Topic:**[Setting up the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-unified-maps-experience.md)
 

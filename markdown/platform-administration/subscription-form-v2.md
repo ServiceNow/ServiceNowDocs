@@ -2,6 +2,7 @@
 title: Subscription form
 description: The Subscription form contains important information about your subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/subscription-form-v2.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -51,7 +52,7 @@ Type of subscription: -   Per-User
 -   Unlimited
 -   Display
 
-To learn more about subscription types, see [Types of subscriptions in Subscription Management](types-subscription-v2.md).
+To learn more about subscription types, see [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/types-subscription-v2.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ Capacity Definition
 
 </td><td>
 
-The ID of the Capacity Definition. Learn how the total is calculated by selecting the Capacity Definition record ID on the product subscription details page. See [Monitor capacity subscription calculations in Subscription Management](../task/view-how-totals-calculated-capacity-subscriptions-v2.md).
+The ID of the Capacity Definition. Learn how the total is calculated by selecting the Capacity Definition record ID on the product subscription details page. See [Monitor capacity subscription calculations in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/view-how-totals-calculated-capacity-subscriptions-v2.md).
 
 </td></tr><tr><td>
 
@@ -96,5 +97,5 @@ The related links on the subscription form may vary depending on the subscriptio
 |**View Subscription History**|View subscription status, dates, and trend information.|
 |**View User Subscription History**|Lists user allocation history for the subscription. The list shows a user's current subscription status and how they were allocated.|
 
-**Parent Topic:**[Subscription Management reference](subscription-management-reference-v2.md)
+**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-reference-v2.md)
 

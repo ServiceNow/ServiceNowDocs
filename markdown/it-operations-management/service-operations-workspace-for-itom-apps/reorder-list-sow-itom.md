@@ -2,11 +2,12 @@
 title: Reorder list in Service Operations Workspace for ITOM
 description: Reorder lists to prioritize information and enhance workflow organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/reorder-list-sow-itom.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -23,18 +24,18 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the List icon: ![List icon](../image/list-icon-sow-itom.png).
+2.  From the navigation bar, select the List icon: \[Omitted image "list-icon-sow-itom.png"\] Alt text: List icon.
 
 3.  Select the **My Lists** tab.
 
-    ![Reorder lists](../image/sow-reorder-list.png)
+    \[Omitted image "sow-reorder-list.png"\] Alt text: Reorder lists
 
 4.  Select the list you want to reorder.
 
 5.  Select **Reorder** to adjust the position of the list.
 
-    ![Reorder lists](../image/sow-reorder-list.png)
+    \[Omitted image "sow-reorder-list.png"\] Alt text: Reorder lists
 
 
-**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/workspace-dashboard-use.md)
 

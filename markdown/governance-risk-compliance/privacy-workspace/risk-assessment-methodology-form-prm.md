@@ -2,6 +2,7 @@
 title: Risk assessment methodology form
 description: Use the Risk Assessment Methodology form in the Core UI to create a risk assessment methodology \(RAM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/risk-assessment-methodology-form-prm.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -162,5 +163,5 @@ Other options
 Make the required selections for the remaining options.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a Risk Assessment Methodology](../task/create-a-risk-assessment-methodology.md)
+</table>**Parent Topic:**[Create a Risk Assessment Methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-risk-assessment-methodology.md)
 

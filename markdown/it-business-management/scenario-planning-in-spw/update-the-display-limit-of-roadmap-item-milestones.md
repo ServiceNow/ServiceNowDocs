@@ -2,6 +2,7 @@
 title: Update the display limit of items on Prioritization and Roadmap
 description: Create a system property to update the display limit of the items shown in Prioritization and Roadmap views in Strategic Planning Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/update-the-display-limit-of-roadmap-item-milestones.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -47,15 +48,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d293027e159">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d53679e159">
 
 Field
 
-</th><th align="left" id="d293027e162">
+</th><th align="left" id="d53679e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d293027e168">
+</th></tr></thead><tbody><tr><td id="d53679e168">
 
 **Name**
 
@@ -66,7 +67,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d293027e194">
+</td></tr><tr><td id="d53679e194">
 
 **Type**
 
@@ -74,7 +75,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d293027e203">
+</td></tr><tr><td id="d53679e203">
 
 **Value**
 
@@ -83,10 +84,10 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>    For information on the other form fields, see the field description table in Add a system property.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Prioritization display settings in Strategic Planning](../concept/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
+**Parent Topic:**[Prioritization display settings in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-prioritization-and-roadmap-settings-strategic-planning.md)
 

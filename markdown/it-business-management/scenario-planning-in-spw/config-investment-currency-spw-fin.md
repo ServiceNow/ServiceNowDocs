@@ -2,6 +2,7 @@
 title: Configure multicurrency for planning items
 description: Select investment currency as an additional currency, which can be different from your functional currency, to manage financial records of your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/config-investment-currency-spw-fin.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ Select investment currency as an additional currency, which can be different fro
 
 ## Before you begin
 
--   [Enable monetary benefit plans for planning items](enable-benefitplans-spw-fin.md)
+-   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
 -   Role required: admin
 
 ## Procedure
@@ -30,15 +31,15 @@ Select investment currency as an additional currency, which can be different fro
 
     In the **Currency** field, the current system currency is displayed. For example, if your Functional currency is in USD, the field is displayed as **USD \(Functional\)**.
 
-<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d222190e110">
+<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d203082e110">
 
 Planning item type
 
-</th><th align="left" id="d222190e113">
+</th><th align="left" id="d203082e113">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d222190e119">
+</th></tr></thead><tbody><tr><td id="d203082e119">
 
 **Demands**
 
@@ -55,7 +56,7 @@ Edit investment currency modal is displayed with options to select investment cu
 3.  Define investment currency for the future artifacts using the **Investment currency for converted artefact** list.
 
 
-</td></tr><tr><td id="d222190e165">
+</td></tr><tr><td id="d203082e165">
 
 **Project, Epic, Feature, and Capability**
 
@@ -74,5 +75,5 @@ Edit investment currency modal is displayed with options to select investment cu
 
 ## What to do next
 
-Activate and run a the **Update multi-currency fields to investment currency for existing demands and projects** scheduled job to reflect the investment currenct configuration. For more information on how to activate and schedule this job, see [Activate scheduled job to populate to multicurrency fields](multi-currency-scheduled-job-spw.md).
+Activate and run a the **Update multi-currency fields to investment currency for existing demands and projects** scheduled job to reflect the investment currenct configuration. For more information on how to activate and schedule this job, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 

@@ -2,6 +2,7 @@
 title: Set up the Oracle Compute Engine spoke
 description: Integrate the ServiceNow instance and Oracle Compute Engine account by using the OCI SHA256WithRSA Signature credentials to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/oracle-ce-setup-dec.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,8 +19,8 @@ Integrate the ServiceNow instance and Oracle Compute Engine account by using the
 ## Before you begin
 
 -   Request an Integration Hub subscription.
--   Activate and set up the [Oracle Cloud IAM Spoke](../concept/oracle-iam.md).
--   Activate and set up the [Oracle Object Storage Management Spoke](../concept/object-storage-mngmt-dec.md).
+-   Activate and set up the [Oracle Cloud IAM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/oracle-iam.md).
+-   Activate and set up the [Oracle Object Storage Management Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/object-storage-mngmt-dec.md).
 -   Activate the Oracle Compute Engine spoke.
 -   Role required: admin.
 
@@ -27,11 +28,11 @@ Integrate the ServiceNow instance and Oracle Compute Engine account by using the
 
 1.  Create a JKS certificate.
 
-    You can create a JKS certificate for the Oracle Compute Engine spoke or use the certificate created for the Oracle Cloud IAM spoke. For information about creating the JKS Certificate, see [Create a Java KeyStore \(JKS\) certificate](setup-oracle-iam.md#).
+    You can create a JKS certificate for the Oracle Compute Engine spoke or use the certificate created for the Oracle Cloud IAM spoke. For information about creating the JKS Certificate, see [Create a Java KeyStore \(JKS\) certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-iam.md).
 
 2.  Create X.509 certificate.
 
-    You can create a X.509 certificate for the Oracle Compute Engine spoke or use the certificate created for the Oracle Cloud IAM spoke. For information about creating a X.509 certificate, see [Create X.509 certificate for the Oracle Cloud IAM spoke](setup-oracle-iam.md#).
+    You can create a X.509 certificate for the Oracle Compute Engine spoke or use the certificate created for the Oracle Cloud IAM spoke. For information about creating a X.509 certificate, see [Create X.509 certificate for the Oracle Cloud IAM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-iam.md).
 
 3.  Create credential record for the Oracle Compute Engine spoke.
 

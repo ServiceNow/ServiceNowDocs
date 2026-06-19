@@ -2,6 +2,7 @@
 title: Act on the recommendations for similar control objectives
 description: Act on the recommendations, like accept as duplicate, retain as primary, or dismiss, to enable your compliance managers and analysts to streamline their processes by identifying, deduplicating, and rationalizing similar control objectives within the compliance library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-take-actions-on-the-recommendations-for-similar-control-objectives.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -17,11 +18,11 @@ Act on the recommendations, like accept as duplicate, retain as primary, or dism
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_shared\_genai.compliance\_gen\_ai\_user
 
-For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](../../grc-policy-and-compliance/reference/r_InstallWPolAndCompl.md#).
+For more information on related roles, see [Roles installed with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## About this task
 

@@ -2,6 +2,7 @@
 title: Use Bulk Translation for manual translation
 description: Translate knowledge articles into different languages through bulk translations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/use-bts-manual-translation.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,10 +18,10 @@ Translate knowledge articles into different languages through bulk translations.
 
 Bulk Translation uses the ServiceNow® Localization Framework application, which enhances the translation process of knowledge artifacts through configurable workflows. You can select multiple knowledge articles and the preferred language into which you want to localize your content.
 
--   **[Request bulk translations for multiple knowledge articles](bulk-translations-step.md)**  
+-   **[Request bulk translations for multiple knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/bulk-translations-step.md)**  
 Request translations for multiple knowledge articles through Bulk Translations to localize them into one or more languages.
--   **[Translate multiple knowledge articles into different languages](translate-knowledge-articles.md)**  
+-   **[Translate multiple knowledge articles into different languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translate-knowledge-articles.md)**  
 Translate multiple knowledge articles to localize your content into different locales.
 
-**Parent Topic:**[Bulk Translation for knowledge articles](bulk-translation.md)
+**Parent Topic:**[Bulk Translation for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/bulk-translation.md)
 

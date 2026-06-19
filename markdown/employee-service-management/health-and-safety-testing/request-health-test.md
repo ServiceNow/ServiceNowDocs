@@ -2,6 +2,7 @@
 title: Request a COVID-19 diagnostic test
 description: Request a COVID-19 diagnostic test if you have been potentially exposed, are having symptoms, or want testing for another reason.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-testing/request-health-test.html
 release: australia
 product: Health and Safety Testing
 classification: health-and-safety-testing
@@ -89,7 +90,7 @@ Your company's health testing managers use your request to schedule a COVID-19 d
 
 ## What to do next
 
-When you receive your test result, you can choose to report the result to your company. For instructions, see [Report your COVID-19 diagnostic test result](report-health-test-result.md).
+When you receive your test result, you can choose to report the result to your company. For instructions, see [Report your COVID-19 diagnostic test result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/report-health-test-result.md).
 
-**Parent Topic:**[Health and Safety Testing](../concept/health-safety-testing.md)
+**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/health-safety-testing.md)
 

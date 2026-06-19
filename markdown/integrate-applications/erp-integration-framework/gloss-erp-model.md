@@ -2,6 +2,7 @@
 title: ERP model
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/gloss-erp-model.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,5 +16,5 @@ breadcrumb: [Zero Copy Connector for ERP and ERP Semantic Mining glossary, Refer
 
 The model represents a distinct set of features and functionalities tailored to address specific business processes or activities. A model encompasses multiple tables from the system of record, as well as APIs and ETL processes, to create a holistic dataset. For example, you can have one model for sales orders and another for inventory.
 
-**Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](../../../build/erp-integration/reference/erp-integration-glossary.md)
+**Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-glossary.md)
 

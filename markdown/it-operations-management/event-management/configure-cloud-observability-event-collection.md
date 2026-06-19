@@ -2,6 +2,7 @@
 title: Configure ServiceNow Cloud Observability event collection
 description: Integrate ServiceNow Cloud Observability with Event Management by adding a standard webhook in the ServiceNow Cloud Observability platform. Download the Event Management Connector plugin from the ServiceNow Store so you can integrate with ServiceNow Cloud Observability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-cloud-observability-event-collection.html
 release: australia
 product: Event Management
 classification: event-management
@@ -53,7 +54,7 @@ Authenticate ServiceNow Cloud Observability as a data source to enable Event Man
 
     4.  Select **webhook**.
 
-        ![Choose Webhook](../image/choose-webhook.png "Select Webhook")
+        \[Omitted image "choose-webhook.png"\] Alt text: Choose Webhook
 
     5.  In the Name field, enter a name for the webhook.
 
@@ -67,7 +68,7 @@ Authenticate ServiceNow Cloud Observability as a data source to enable Event Man
 
         **Note:** In a ServiceNow instance, CI binding occurs only if the **service-name** header value matches the name fields of the CI you created in the**cmdb\_ci\_service\_auto table**.
 
-        ![Create a Webhook](../image/create-webhook.png "Create a Webhook")
+        \[Omitted image "create-webhook.png"\] Alt text: Create a Webhook
 
     9.  Click **Create**.
 

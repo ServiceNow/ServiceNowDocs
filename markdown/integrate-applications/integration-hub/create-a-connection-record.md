@@ -2,6 +2,7 @@
 title: Create a connection record
 description: Create a connection record with all the details needed to integrate your ServiceNow instance to the Asana instance. When your ServiceNow instance requests a connection, the OAuth app you had set up authenticates the request based on the details in the connection record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-a-connection-record.html
 release: australia
 product: Integration Hub
 classification: integration-hub

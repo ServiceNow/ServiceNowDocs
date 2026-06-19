@@ -2,6 +2,7 @@
 title: Enforce ACL on HR Lifecycle Events Data \[New in Security Center 2.0\]
 description: Learn how to prevent unauthorized access to data in the Human Resources Lifecycle Events application by verifying that the glide.enforce\_security\_scope.sn\_hr\_le property is set to the secured value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enforce-acl-on-hr-lifecycle-events-data.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -75,7 +76,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -96,5 +97,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

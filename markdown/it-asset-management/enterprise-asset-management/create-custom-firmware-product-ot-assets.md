@@ -2,6 +2,7 @@
 title: Create a custom firmware product for your operational technology \(OT\) assets
 description: If the firmware product that is embedded into your OT assets isn't already represented in the Enterprise Asset Management Content Service, create a custom firmware product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-custom-firmware-product-ot-assets.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ If the firmware product that is embedded into your OT assets isn't already repre
 
 ## Before you begin
 
-**Important:** You can create custom firmware products only using the OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management](install-otam.md) for detailed instructions.
+**Important:** You can create custom firmware products only using the OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/install-otam.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_admin
 

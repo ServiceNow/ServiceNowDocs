@@ -2,6 +2,7 @@
 title: Define post-chat survey configurations
 description: Control the post-chat questionnaire displayed to your requesters to gather feedback on their experience with live agents. You configure the post-chat surveys to be used for chat queues defined in Advanced Work Assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/define-post-chat-survey-config.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -18,10 +19,10 @@ Control the post-chat questionnaire displayed to your requesters to gather feedb
 ## Before you begin
 
 -   Activate the Agent Chat plugin \(com.glide.interaction.awa\) if Advanced Work Assignment is not already installed.
--   In AWA, [configure the chat service channel](../../advanced-work-assignment/task/awa-create-service-channel.md) and the [work item queues](../../advanced-work-assignment/task/awa-create-queue.md).
+-   In AWA, [configure the chat service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md) and the [work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
 -   Determine the post-chat survey to be displayed to your requesters.
     -   Review the existing chat surveys available in the Assessment Metric Types \[asmt\_metric\_type\] table by navigating to **All** &gt; **Survey View** &gt; **View Surveys**. You can use a pre-built feedback survey, such as the survey for Virtual Agent feedback \(a pre-built Virtual Agent setup topic\).
-    -   If you need different post-chat surveys, create them using Survey Designer. For details, see [Create chat surveys](create-chat-surveys.md).
+    -   If you need different post-chat surveys, create them using Survey Designer. For details, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-chat-surveys.md).
 
 Role required: admin
 
@@ -129,5 +130,5 @@ List of the chat surveys available. Choose the post-chat survey to be presented 
 
 When a live agent ends the chat session, the post-chat survey \(configured for the chat queue\) is presented to the requester. When the requester submits the post-chat survey, the chat session ends for the requester. The Interaction Related Records list stores the post-survey chat results and creates a related record that links the assessment to the live agent \(fulfiller\).
 
-**Parent Topic:**[General chat settings](../concept/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
 

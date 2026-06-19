@@ -1,7 +1,8 @@
 ---
 title: JDBC type data source
-description: A JDBC data source retrieves its data via a JDBC driver, usually type 4 network.Extend the available JDBC driver options by creating a new choice list entry to specify the JDBC driver Java package name.Extend the available JDBC driver options by activating the Sybase or DB2 choices.You can install a new JDBC driver JAR file to a MID server to access database formats that are not supported by default.Add a new JDBC data source by defining a data source record.Create an import connection alias for the JDBC type data source records.
+description: A JDBC data source retrieves its data via a JDBC driver, usually type 4 network.Extend the available JDBC driver options by creating a new choice list entry to specify the JDBC driver Java package name.Extend the available JDBC driver options by activating the Sybase or DB2 choices.You can install a new JDBC driver JAR file to a MID server to access database formats that are not supported by default.Add a JDBC data source by defining a data source record.Create an import connection alias for the JDBC type data source records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_JDBCTypeDataSource.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -62,7 +63,7 @@ The **Use integrated authentication** check box on the Data Source form determin
 
 **Important:** If integrated authentication is chosen, and you are integrating with Microsoft System Center Configuration Manager, the account running the MID Server service must have read rights on the SCCM database.
 
-![Data Source form](../image/JDBC_SQLServerIntegratedAuth.png "Data Source form")
+\[Omitted image "JDBC\_SQLServerIntegratedAuth.png"\] Alt text: Data Source form
 
 **Note:** The **Last run database field** on the JDBC data source is case-sensitive for the SQL server.
 
@@ -90,7 +91,7 @@ Add a new choice list entry for the new database to the **Format** field in the 
 
 3.  In the Data Sources form, right-click the **Format** field label, and select **Show Choice List** from the pop-up menu.
 
-    ![JDBC source list](../image/jdbc-choice-list.png)
+    \[Omitted image "jdbc-choice-list.png"\] Alt text: JDBC source list
 
 4.  Click **New** in the list of choices.
 
@@ -105,7 +106,7 @@ Add a new choice list entry for the new database to the **Format** field in the 
         **Note:** The driver package and class must be provided by the driver vendor. This information is often available in the vendor's documentation, such as for [MariaDB](https://mariadb.com/kb/en/mariadb/about-mariadb-connector-j/) or [Teradata](https://developer.teradata.com/doc/connectivity/jdbc/reference/current/faq.html).
 
     -   Dependent value: JDBC
-    ![JDBC choice list.](../image/edit-jdbc-choice-list.png)
+    \[Omitted image "edit-jdbc-choice-list.png"\] Alt text: JDBC choice list.
 
 6.  Click **Submit**.
 
@@ -172,7 +173,7 @@ Role required: agent\_admin
     -   Description: Short description of the JAR file and its purpose in the instance.
 4.  Click the paper clip icon in the banner and attach the JAR file to the record.
 
-    ![Attach a file](../image/JARFileSync.png)
+    \[Omitted image "JARFileSync.png"\] Alt text: Attach a file
 
 5.  Click **Submit**.
 
@@ -183,11 +184,12 @@ Role required: agent\_admin
 
 ## Create a JDBC data source for an unsupported database format
 
-Add a new JDBC data source by defining a data source record.
+Add a JDBC data source by defining a data source record.
 
 ### Before you begin
 
-Role required: import\_admin
+-   Role required: import\_admin
+-   This procedure covers how to create a JDBC data source for an unsupported database format. For general information on creating a JDBC data source, including a detailed description of form fields, see [Create a JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-jdbc-type-data-source.md).
 
 ### Procedure
 
@@ -197,15 +199,15 @@ Role required: import\_admin
 
 3.  Select the new data source from the choice list in the **Format** field.
 
-    ![JDBC Data Source](../image/JDBCDataSource.png)
+    \[Omitted image "JDBCDataSource.png"\] Alt text: JDBC Data Source
 
-4.  [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) and add the **Connection URL** field.
+4.  Configuring the form layout and add the **Connection URL** field.
 
 5.  Provide the connection URL to the JDBC data source, and then click **Submit**.
 
     No other connection information is required.
 
-    ![JDBC Data Source](../image/CompleteJDBCDataSource.png)
+    \[Omitted image "CompleteJDBCDataSource.png"\] Alt text: JDBC Data Source
 
 
 ## Create an import connection alias
@@ -300,7 +302,7 @@ Use integrated authentication
 
 </td><td>
 
-Selected to enable the JDBC connection to use the ID of the user configured for the Windows MID Server service for SQL Server authentication. For additional details, see [JDBC type data source](r_JDBCTypeDataSource.md#).
+Selected to enable the JDBC connection to use the ID of the user configured for the Windows MID Server service for SQL Server authentication. For additional details, see [JDBC type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_JDBCTypeDataSource.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: TuneUp Your ITOM Discovery
 description: Provides insight and guidance to improve the health of your Configuration Management Database \(CMDB\) through IT Operations Management \(ITOM\) Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-itom-discovery.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,9 +20,11 @@ Provides insight and guidance to improve the health of your Configuration Manage
 
 TuneUp Your ITOM Discovery provides Impact Customers with an analysis of common ITOM discovery areas through HealthScan along with recommendations on addressing those findings. Obtain assistance to gain better insight into your CMDB implementation, including a review of the top challenging areas and leading practices on how to best remediate gaps.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 

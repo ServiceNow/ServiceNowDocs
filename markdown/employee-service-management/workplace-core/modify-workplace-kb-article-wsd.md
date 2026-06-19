@@ -2,6 +2,7 @@
 title: Modify a workplace knowledge base article
 description: Update a knowledge base article at any time. Retire a published article or republish a retired article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/modify-workplace-kb-article-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -66,5 +67,5 @@ A knowledge base article undergoes the following workflow when it is created:
 
 The knowledge base article is modified with the changes.
 
-**Parent Topic:**[Workplace knowledge management](../concept/workplace-knowledge-mgmt-wsd.md)
+**Parent Topic:**[Workplace knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-knowledge-mgmt-wsd.md)
 

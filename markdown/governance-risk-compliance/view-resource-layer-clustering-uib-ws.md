@@ -2,6 +2,7 @@
 title: Select resource layer clustering
 description: Select resource layer clustering in the Crisis map within the BCM Configurable Workspace to view assets or resources on the map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-resource-layer-clustering-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,5 +47,5 @@ Role required: sn\_bcm.admin or sn\_bcm.program\_manager
 6.  Select the **Reset** icon in the map to clear the search results on the map.
 
 
-**Parent Topic:**[Structured workflows for Crisis map](../concept/crisis-map-collective-tasks.md)
+**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
 

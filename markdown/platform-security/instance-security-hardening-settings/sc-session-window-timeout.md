@@ -2,6 +2,7 @@
 title: Minimize session window timeout duration
 description: Use the glide.ui.user\_cookie.life\_span\_in\_days property to set the expiration time period for the Remember Me cookie. The default value is 15 days and the maximum cap is at 30 days.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-session-window-timeout.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

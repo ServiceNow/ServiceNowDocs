@@ -2,11 +2,14 @@
 title: Add a Notification rule
 description: Create a Notification Rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/adding-notification-rule.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Notifications Rules page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Notifications Rules page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Add a Notification rule
@@ -21,7 +24,7 @@ Role required: admin
 
 1.  Navigate to the Notification Rules page in your Console.
 
-2.  Select the add icon ![](../../msi-console/image/add-icon-msi.jpg).
+2.  Select the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:.
 
 3.  On the form, fill in the following fields.
 

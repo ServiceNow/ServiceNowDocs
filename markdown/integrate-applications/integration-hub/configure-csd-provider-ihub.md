@@ -2,6 +2,7 @@
 title: Configure client software distribution providers
 description: Identify the provider and specify the flows, subflows. and extension points for a customized software distribution process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-csd-provider-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -29,7 +30,7 @@ Role required: sn\_client\_sf\_dist.csd\_admin, admin
 
 3.  Complete the form using the fields in the table.
 
-    ![Provider information for Casper integration](../images/CasperProvider.png)
+    \[Omitted image "CasperProvider.png"\] Alt text: Provider information for Casper integration
 
     |Field|Description|
     |-----|-----------|
@@ -43,5 +44,5 @@ Role required: sn\_client\_sf\_dist.csd\_admin, admin
     |Revoke SCCM Application subflow|Subflow that revokes an installation from a provider server. This is the subflow you created with custom activities that tells the provider which application to remove from a device.|
 
 
-**Parent Topic:**[Client software distribution extension framework](../concept/csd-ext-framewrk.md)
+**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-ext-framewrk.md)
 

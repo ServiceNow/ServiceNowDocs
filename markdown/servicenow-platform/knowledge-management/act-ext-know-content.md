@@ -2,6 +2,7 @@
 title: Activate the External Content Integration plugin
 description: The External Content Integration feature is activated with the Knowledge Management - External Content Integration plugin \(com.snc.knowledge.external\_integration\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/act-ext-know-content.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -25,13 +26,13 @@ The following plugins are automatically activated when the Knowledge Management 
 
 -   Centralized Connection and Credentials plugin \(com.snc.core.automation.connection\_credential\)
 -   Knowledge Management V3 plugin \(com.snc.knowledge3\)
--   [Knowledge Management Advanced Installer plugin](activate-knowledge-advanced-plugin.md) \(com.snc.knowledge\_advanced.installer\)
+-   [Knowledge Management Advanced Installer plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) \(com.snc.knowledge\_advanced.installer\)
 
 The **Knowledge** &gt; **Administration** module displays the **External Knowledge Sources** and **External Knowledge Jobs** sub-modules when the Knowledge Management - External Content Integration plugin is activated.
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 ## Procedure
 
@@ -45,8 +46,8 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Integration with external knowledge sources](../concept/knowledge-external-content-integration.md)
+**Parent Topic:**[Integration with external knowledge sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-external-content-integration.md)
 

@@ -2,6 +2,7 @@
 title: Close an asset reclamation request
 description: Close an asset reclamation request to efficiently reclaim software assets when an employee leaves an organization or moves to a different role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/close-an-asset-reclamation-request.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -66,5 +67,5 @@ Role required: sam\_user or asset.
 8.  Once all the user reclamation tasks are closed, the status of the catalog request changes to **complete**.
 
 
-**Parent Topic:**[Create a catalog request to reclaim assets](create-catalog-req-offboardingsam.md)
+**Parent Topic:**[Create a catalog request to reclaim assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-catalog-req-offboardingsam.md)
 

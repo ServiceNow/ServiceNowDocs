@@ -2,6 +2,7 @@
 title: Risk assessment form
 description: Risk assessment managers can use the risk assessment form to conduct their risk assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-risk-assessment-form.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Em
 
 Risk assessment managers can use the risk assessment form to conduct their risk assessments.
 
-For information on performing risk assessments, see [Conduct a safety risk assessment](../task/hs-conduct-risk-assessment.md).
+For information on performing risk assessments, see [Conduct a safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-conduct-risk-assessment.md).
 
 <table id="table_h2z_pzc_c1c"><thead><tr><th>
 
@@ -103,7 +104,7 @@ Jobs to be assessed
 
 </td><td>
 
-Predefined job in the job register that this risk assessment is conducted for. You can select multiple jobs in this field.For information on predefined jobs, see [Jobs in the job register](../task/hs-define-job-register.md).
+Predefined job in the job register that this risk assessment is conducted for. You can select multiple jobs in this field.For information on predefined jobs, see [Jobs in the job register](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-job-register.md).
 
 </td></tr><tr><td>
 
@@ -164,5 +165,5 @@ Approver for the risk assessment. Select an approver after the risk assessment i
 **Note:** Only a user with the Risk assessment manager \[sn\_hs\_rm.risk\_assessment\_manager\] role can assign a risk assessment to an approver.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

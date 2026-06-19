@@ -2,6 +2,7 @@
 title: JSON response status
 description: JSONv2 requests may return one of several response statuses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_ResponseStatus.html
 release: australia
 product: Web Services
 classification: web-services
@@ -46,5 +47,5 @@ For example:
 {"_error":"Cannot update with empty sysparm_query","reason":null}
 ```
 
-**Parent Topic:**[JSONv2 web service](c_JSONv2WebService.md)
+**Parent Topic:**[JSONv2 web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JSONv2WebService.md)
 

@@ -2,6 +2,7 @@
 title: Create a patient record in Workspace
 description: Create a patient record from within an interaction in Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-patient-record.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -38,5 +39,5 @@ Role required: sn\_hcls.healthcare\_agent, sn\_hcls.manager
 
 ## Result
 
-The patient record is created. You can then verify the patient to associate the patient record with the interaction. For more information, see [Associate a patient record with an interaction in Workspace](hcls-verify-patient.md).
+The patient record is created. You can then verify the patient to associate the patient record with the interaction. For more information, see [Associate a patient record with an interaction in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-verify-patient.md).
 

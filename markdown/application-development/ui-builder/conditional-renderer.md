@@ -2,6 +2,7 @@
 title: Dynamically display content with conditional renderers
 description: Use the conditional renderer component to display content or components based on specified conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/conditional-renderer.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -25,11 +26,11 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select **+ Add content** in the content tree.
 
@@ -63,12 +64,12 @@ Role required: ui\_builder\_admin
 
 12. Add components to the container or card.
 
-    For more information about adding components, see [Customize UI Builder pages using components](../concept/work-components.md).
+    For more information about adding components, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
 
 13. Configure the components in the conditional renderer.
 
 14. Select **Save**.
 
 
-**Parent Topic:**[Customize UI Builder pages using components](../concept/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
 

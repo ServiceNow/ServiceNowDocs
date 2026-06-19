@@ -2,6 +2,7 @@
 title: DevOps Insights reports
 description: To help you plan and implement updates to your DevOps processes, DevOps Insights displays a variety of configurable reports that are grouped by type of metric. From the DevOps Change Workspace, select the DevOps Insights icon \( filter icon \) to view the reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-insights-working-in.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -13,7 +14,7 @@ breadcrumb: [DevOps Change Velocity, IT Service Management]
 
 # DevOps Insights reports
 
-To help you plan and implement updates to your DevOps processes, DevOps Insights displays a variety of configurable reports that are grouped by type of metric. From the DevOps Change Workspace, select the DevOps Insights icon \(![filter icon](../image/icon-devops-insights.png)\) to view the reports.
+To help you plan and implement updates to your DevOps processes, DevOps Insights displays a variety of configurable reports that are grouped by type of metric. From the DevOps Change Workspace, select the DevOps Insights icon \(\[Omitted image "icon-devops-insights.png"\] Alt text: filter icon\) to view the reports.
 
 ## DevOps Insights
 
@@ -27,11 +28,11 @@ Analyze operational and business reports and to determine the overall efficiency
 
 Each report provides both a summary of an important business metric and access to more detailed information about the metric.
 
--   By default, many reports display data for the last 30 days. Select the **Date** icon \(![Date icon](../image/devops-date-range-filter-pill.png)\) to configure a custom date range.
+-   By default, many reports display data for the last 30 days. Select the **Date** icon \(\[Omitted image "devops-date-range-filter-pill.png"\] Alt text: Date icon\) to configure a custom date range.
 -   Point to a specific data point in a chart to view detailed data.
--   Select a specific data point to view the key performance indicator \(KPI\) details for the report in a separate tab. You can then use the powerful data-management tools in the [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md) application to drill deeply into the data.
+-   Select a specific data point to view the key performance indicator \(KPI\) details for the report in a separate tab. You can then use the powerful data-management tools in the Performance Analytics application to drill deeply into the data.
 -   To apply any filter other than the date filter, select the filter icon and then move filter categories from the **Available** list to the **Applied** list.
--   Filters appear at the top of the tab. For each report, the Applied filter icon \(![Applied filter icon](../image/devops-icon-filter-insights.png)\) displays the number of filters that are currently applied to a report. Select the icon to view and configure the filters that are applied to a widget.
+-   Filters appear at the top of the tab. For each report, the Applied filter icon \(\[Omitted image "devops-icon-filter-insights.png"\] Alt text: Applied filter icon\) displays the number of filters that are currently applied to a report. Select the icon to view and configure the filters that are applied to a widget.
 
 ## Schedule of data collection
 

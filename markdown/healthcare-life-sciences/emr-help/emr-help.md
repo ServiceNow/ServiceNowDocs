@@ -2,6 +2,7 @@
 title: Exploring EMR Help
 description: Learn more about the available features offered by EMR Help to help create a seamless experience for your clinicians to raise requests from an external EMR system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-help.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -23,11 +24,11 @@ For example, a clinician might encounter an IT or healthcare-related issue while
 
 The EMR Help application integrates an EMR system with your ServiceNow instance to enable clinicians to submit service requests from within the EMR system. An equivalent record is created in your ServiceNow instance for each service request. A healthcare agent can then look into and resolve such records from your ServiceNow instance.
 
-**Note:** The healthcare case request capability can only be fulfilled for custom healthcare case types. To fulfill healthcare cases, you must first create your own custom healthcare case type. For more information on this, see [Configure healthcare case types for EMR Help](../task/configure-hcls-case-types-for-emr-help.md).
+**Note:** The healthcare case request capability can only be fulfilled for custom healthcare case types. To fulfill healthcare cases, you must first create your own custom healthcare case type. For more information on this, see [Configure healthcare case types for EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/configure-hcls-case-types-for-emr-help.md).
 
 ## EMR Help workflow
 
-![Workflow of the EMR Help application.](../image/hcls-exploring-emr-help.png)
+\[Omitted image "hcls-exploring-emr-help.png"\] Alt text: Workflow of the EMR Help application.
 
 In the EMR Help workflow:
 
@@ -57,7 +58,7 @@ Save time by submitting requests to your ServiceNow instance directly from an EM
 
 </td><td>
 
-[Create requests within your EMR system](creating-requests-within-your-emr.md)
+[Create requests within your EMR system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/creating-requests-within-your-emr.md)
 
 </td><td>
 
@@ -69,7 +70,7 @@ Enjoy improved visibility by tracking task-based records such as cases, incident
 
 </td><td>
 
-[EMR Help data model](emr-data-model.md)
+[EMR Help data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-data-model.md)
 
 </td><td>
 
@@ -81,7 +82,7 @@ Provide encryption support to secure sensitive information.
 
 </td><td>
 
-[Encryption options in EMR Help](emr-help-encryption-support.md)
+[Encryption options in EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-encryption-support.md)
 
 </td><td>
 
@@ -93,7 +94,7 @@ Automatically transmit instance information to hospital service desk agents.
 
 </td><td>
 
-[Resolve EMR Help requests](resolving-emr-help-requests.md)
+[Resolve EMR Help requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/resolving-emr-help-requests.md)
 
 </td><td>
 
@@ -104,8 +105,8 @@ Service Desk Agent
 
 To learn more about configuring and using EMR Help, see:
 
--   [Configuring EMR Help](configuring-emr-help.md)
--   [Create requests within your EMR system](creating-requests-within-your-emr.md)
--   [Resolve EMR Help requests](resolving-emr-help-requests.md)
--   [EMR Help reference](../reference/emr-reference.md)
+-   [Configuring EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/configuring-emr-help.md)
+-   [Create requests within your EMR system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/creating-requests-within-your-emr.md)
+-   [Resolve EMR Help requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/resolving-emr-help-requests.md)
+-   [EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-reference.md)
 

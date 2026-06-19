@@ -2,6 +2,7 @@
 title: Associate a remediation task to an existing change request
 description: Associate a remediation task in Configuration Compliance application to an existing change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-CR-v12-assoc.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -27,7 +28,7 @@ You can associate remediation tasks that are assigned to you or your assignment 
 
 **Note:** You can associate an existing change request to a remediation task in any state other than **Canceled** \(**Open**, **Under Investigation**, **Awaiting Implementation**, **Closed**, and **Deferred**\). Change requests, including those closed within the last 90 days, are available to associate from the form. When you associate a change request to an existing remediation task, only the active test results and their configuration items are added to the change request.
 
-![States for test result group (remediation task) and change request in state synchronization](../image/associate_vg_to_cr-01.png)
+\[Omitted image "associate\_vg\_to\_cr-01.png"\] Alt text: States for test result group \(remediation task\) and change request in state synchronization
 
 **Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
 
@@ -80,6 +81,6 @@ You can associate remediation tasks that are assigned to you or your assignment 
 
     **Note:** You can still manually move change requests and remediation tasks through the states of their life cycles on their respective records with state synchronization enabled, but when the system registers that a change request has changed its state, or you add a change request or remove it from a remediation task, state synchronization potentially can override your manual intervention. However, change requests states do not automatically move the remediation task from the `Closed` or `Deferred` states.
 
-    For more information, see [State synchronization between change requests and remediation tasks](cc-cr-state-synch.md).
+    For more information, see [State synchronization between change requests and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-cr-state-synch.md).
 
 

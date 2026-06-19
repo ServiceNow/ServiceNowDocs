@@ -2,6 +2,7 @@
 title: Identifying Windows WebLogic application servers
 description: If you are not using the Weblogic pattern, Discovery follows this process when it uses the Windows - Active Processes or Linux - Active Processes probes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_WeblogicProbesAndSensorsWindows.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -29,5 +30,5 @@ This process describes the use of probes, which are active on your instance if y
     -   \[Linux\] Searching for the parent process that started the WebLogic server \(only viable if the weblogic jvm was started via the `startWeblogic.sh` or related custom script and not the init process\).
 4.  If there are associated web applications found in the WebLogic `config.xml` file, the Windows – Weblogic find web.xml probe triggers for each application. This probe reads the WebLogic `web.xml` file for each web application and the sensor, and then populates additional information.
 
-**Parent Topic:**[WebLogic application server discovery](../concept/c_DataCollDiscoWebLogicServers.md)
+**Parent Topic:**[WebLogic application server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DataCollDiscoWebLogicServers.md)
 

@@ -2,11 +2,14 @@
 title: Add and Manage Task Dependencies
 description: Add, edit, and manage dependencies within template items so that tasks execute in the correct sequence and follow defined dependency rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-and-manage-task-dependencies.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Task Dependencies for Task Plan Templates, Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Task dependencies for task plan templates, Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Add and Manage Task Dependencies
@@ -34,11 +37,11 @@ Role required: admin, task plan template user
 
 6.  Select **Save** to create the dependency.
 
-    Apply the template to generate tasks with dependencies:
+7.  Apply the template to generate tasks with dependencies:
 
-7.  Open the record where you want to apply the template.
+8.  Open the record where you want to apply the template.
 
-8.  Select **Apply Template**.
+9.  Select **Apply Template**.
 
     The system generates task records based on the template items. Using the dependency rules configured in the **Task Plan Template Dependency** table, corresponding dependency relationships are created between the generated tasks in the `sn_task_dependency_m2m` table.
 

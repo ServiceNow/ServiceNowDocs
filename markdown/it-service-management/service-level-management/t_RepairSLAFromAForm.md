@@ -2,6 +2,7 @@
 title: Repair SLA from a form
 description: You can repair task SLA records from the Task form, or from the task SLA form for an SLA associated to a Task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_RepairSLAFromAForm.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -34,5 +35,5 @@ You can also repair multiple task SLA records from a list.
     **Note:** Closing the progress dialog box does not stop the repair process. You can go to **Active repairs** or **My repairs** and click **Show progress** to view the progress dialog again.
 
 
-**Parent Topic:**[Repair Service Level Agreement \(SLA\)](../concept/c_RepairSLAs.md)
+**Parent Topic:**[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
 

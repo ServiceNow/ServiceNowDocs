@@ -2,6 +2,7 @@
 title: Sales contract review requests
 description: Sales team members can submit legal requests for sales contract review when they have to engage legal counsel for customer queries, review the terms and conditions provided by customers, or for legal guidance. The commercial legal team can review the sales contract and provide the requested contract support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/legal-request-sales-contracts.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -26,9 +27,9 @@ Sales team members can submit legal requests for sales contract review when they
 
 The administrator must set up the following items for the sales team members to see their assigned sales accounts and opportunities while submitting legal requests for sales contract review:
 
--   [Configure Microsoft Dynamics CRM for sales contracts](../task/integrate-legal-ms-dynamics-crm.md)
--   [Schedule import set jobs to pull data from the CRM system](../task/schedule-import-sales-contract-crm.md)
--   [Create a deflection rule for sales contracts](../task/create-contract-deflection-rule.md)
+-   [Configure Microsoft Dynamics CRM for sales contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/integrate-legal-ms-dynamics-crm.md)
+-   [Schedule import set jobs to pull data from the CRM system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/schedule-import-sales-contract-crm.md)
+-   [Create a deflection rule for sales contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/create-contract-deflection-rule.md)
 
 ## Sales contracts review request - Workflow
 
@@ -41,10 +42,10 @@ As a sales team member, you can submit a legal request for getting legal support
 
 The legal department can manage and process these requested changes to make necessary revisions to the contract document from a centralized location.
 
--   **[Submit a legal request for sales contract review](../task/submit-legal-request-sales-contract-review.md)**  
+-   **[Submit a legal request for sales contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/submit-legal-request-sales-contract-review.md)**  
 Submit a legal request to the legal team for review and legal support for a sales contract.
--   **[Work on a sales contract review request](../task/work-legal-request-sales-contract.md)**  
+-   **[Work on a sales contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/work-legal-request-sales-contract.md)**  
 As a member of the legal contracts support team, review and revise a sales contract document as per the requested changes. Upload the revised document to the request and send it to the requester directly from the request.
 
-**Parent Topic:**[Submitting Legal Simple Contracts requests](sub-lg-sim-conts-reqs.md)
+**Parent Topic:**[Submitting Legal Simple Contracts requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/sub-lg-sim-conts-reqs.md)
 

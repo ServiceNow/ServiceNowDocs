@@ -2,6 +2,7 @@
 title: Import policy text for redlining
 description: Import the policy text as an attachment if you’re unable to do the word editing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/import-policy-text-redlining.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -27,11 +28,11 @@ You can import the content only when you’re the policy owner and the policy mu
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![](../../grc-cam-workspace/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\]\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-    You can [create a new policy](../../grc-workspace-compliance/task/create-policy-ws.md) or open a record to enable the redlining feature.
+    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a record to enable the redlining feature.
 
 4.  Select a policy to open.
 

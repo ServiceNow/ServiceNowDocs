@@ -2,6 +2,7 @@
 title: Recovery teams, loss scenarios, and recovery tasks
 description: Business continuity planning workspace guides you to complete your business continuity plan. You can create a recovery team, define roles for the users, and direct the team to execute the plan. When you create a continuity plan for a department or a business unit, it is necessary to identify the loss scenarios to the business continuity plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/recovery-teams.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ You can create a recovery team by entering the name and description for a recove
 
 The description for the recovery team also indicates the responsibilities of the users and groups who are assigned to the recovery team. You can also create a recovery team and add the user and group assignment later as shown in the example.
 
-![Recovery team.](../image/recovery-teams.png)
+\[Omitted image "recovery-teams.png"\] Alt text: Recovery team.
 
 ## Recovery groups and assignment groups
 
@@ -33,11 +34,11 @@ If you have the BCM administrator role, you create a business continuity plan by
 
 Your plan has a basic set of loss scenarios attached to it. You can then add additional loss scenarios to the plan as per your requirement in the BCM UIB Workspace as shown in the example.
 
-![Loss scenario.](../image/loss-scenarios.png)
+\[Omitted image "loss-scenarios.png"\] Alt text: Loss scenario.
 
 ## Recovery tasks
 
 You can assign the recovery task to a group by identifying an owner to execute the processes and procedures of a recovery. The recovery task contains the details of the item to be recovered and the time by which it should be accomplished as shown in the example.
 
-![Recovery task.](../image/new-recovery-task.png)
+\[Omitted image "new-recovery-task.png"\] Alt text: Recovery task.
 

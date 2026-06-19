@@ -2,6 +2,7 @@
 title: Set up the AWS Certificate Manager spoke
 description: Integrate the ServiceNow instance and AWS Certificate Manager by using the AWS credentials to authenticate ServiceNow requests.Create a credential record for the AWS Certificate Manager account. The AWS Certificate Manager spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-aws-cert-manager.html
 release: australia
 product: Integration Hub
 classification: integration-hub

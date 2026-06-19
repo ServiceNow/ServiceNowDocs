@@ -2,6 +2,7 @@
 title: Application quota property
 description: An administrator can add a system property to specify how often application quota rules are evaluated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/r\_AppQuotaProperty.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -33,8 +34,8 @@ Indicates the application quota update period in seconds. If this value is less 
 
  Default value: 300 \(5 minutes\)
 
- Location: [Add to the System Properties](../../reference-pages/reference/r_AvailableSystemProperties.md#) `[sys_properties]` table
+ Location: [Add to the System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md) `[sys_properties]` table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform performance reference](../concept/platform-performance-references.md)
+</table>**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

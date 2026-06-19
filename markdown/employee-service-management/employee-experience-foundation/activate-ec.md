@@ -2,6 +2,7 @@
 title: Install Employee Center
 description: Install Employee Center to deliver a unified, engaging employee experience across departments and systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activate-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -48,7 +49,7 @@ Employee Center \(sn\_ex\_sp\) installs the following dependent plugins:
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -56,16 +57,16 @@ Employee Center \(sn\_ex\_sp\) installs the following dependent plugins:
 
 4.  Check the **Load demo data** check-box to include the demo data along with your install or repair your install with demo data checked.
 
-    **Note:** Dependent plugin demo data is not automatically installed. To use demo data, repair the plugins with demo data checked. See [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/repair-app.md).
+    **Note:** Dependent plugin demo data is not automatically installed. To use demo data, repair the plugins with demo data checked. See .
 
 5.  Select **Install**.
 
 6.  Run the fix script  **Set primary topics for Employee taxonomy ** to  index the  curated experiences  demo data into  search and recommended content  .
 
-    For more information, see [Run fix scripts to update Employee Center](run_scripts_manually_config-search.md).
+    For more information, see [Run fix scripts to update Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/run_scripts_manually_config-search.md).
 
 
 ## What to do next
 
-Check and allow all the RCA \(Requested Caller Access\) privileges requested by Employee Center. For more information on running a fix script for RCA approvals, see [Run fix-script for RCA approvals](install-rca-fix-script.md).
+Check and allow all the RCA \(Requested Caller Access\) privileges requested by Employee Center. For more information on running a fix script for RCA approvals, see [Run fix-script for RCA approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-rca-fix-script.md).
 

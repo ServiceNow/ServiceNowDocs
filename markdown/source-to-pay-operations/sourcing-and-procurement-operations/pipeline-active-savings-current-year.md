@@ -2,6 +2,7 @@
 title: Active Savings \(Current Year\) metric calculation
 description: Active Savings \(Current Year\) shows the targeted savings from pipeline projects that are currently in progress. This metric represents in-flight work where final realized savings are not yet known.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-active-savings-current-year.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -92,5 +93,5 @@ The final aggregation sums the prorated values:
 |PIPE-303|$1,000,000.00|
 |**Total Active Savings \(Current Year\)**|**$1,605,000.00**|
 
-**Parent Topic:**[Pipeline management tab](pipeline-mgmt-tab.md)
+**Parent Topic:**[Pipeline management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.md)
 

@@ -2,6 +2,7 @@
 title: CatalogSearch - Scoped
 description: The CatalogSearch API provides methods that enable you to search catalog items.Creates an instance of the CatalogSearch class.Searches a catalog item based on a search term. The search can be narrowed down to a catalog category level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CatalogSearchScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CatalogSearch API provides methods that enable you to search catalog items.
 
 To use this class in a scoped application, use the `sn_sc` namespace identifier. The Service Catalog Scoped API plugin \(ID: com.glideapp.servicecatalog.scoped.api\) that is enabled by default is required to access the CatalogSearch API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CatalogSearch - CatalogSearch\(\)
 

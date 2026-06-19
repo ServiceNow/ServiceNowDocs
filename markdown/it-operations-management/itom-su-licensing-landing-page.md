@@ -2,7 +2,10 @@
 title: ITOM/OT SU Licensing and subscriptions
 description: ServiceNow IT Operations Management \(ITOM\) licensing calculates and displays the usage of ITOM subscriptions based on subscription units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-su-licensing-landing-page.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,16 +28,16 @@ Easily see how many subscriptions for IT Operations Management applications your
 
 <table id="table_yjv_4lx_nxb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore ITOM/OT SU Licensing and subscriptions](../concept/explore-itom-licensing.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/explore-itom-licensing.md)
 
 </td><td>
 
-[Install![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn how to install ITOM/OT SU Licensing](../concept/configure-itom-licensing.md)
+[Install\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to install ITOM/OT SU Licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-itom-licensing.md)
 
 </td><td>
 
-[References![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Learn about schedule jobs, tables, subscription form and dashboard](itom-su-licensing-reference.md)
+[References\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about schedule jobs, tables, subscription form and dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-su-licensing-reference.md)
 
 </td></tr></tbody>
-</table>To know about Operational Technology Management \(OTM\) licensing and subscriptions, see [Subscriptions form for the OTM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/otm-subscriptions-form.md).
+</table>To know about Operational Technology Management \(OTM\) licensing and subscriptions, see .
 

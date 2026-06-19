@@ -2,6 +2,7 @@
 title: Test topic and NLU model translations
 description: Test a translated Virtual Agent topic and the localized NLU model to ensure that it works as expected in a conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/test-nlu-language-model.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Test a translated Virtual Agent topic and the localized NLU model to ensure that
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](../reference/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -37,11 +38,11 @@ Role required: virtual\_agent\_admin or admin
 
 7.  On the test window, run the conversation and review the results in the test tabs.
 
-    For more information about using the chat test window, see [Testing NLU/Keyword topics](../reference/va-designer-testing.md).
+    For more information about using the chat test window, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-testing.md).
 
     The following image illustrates how you can test a French translation.
 
-    ![The test window displays the conversation in French. The fly-out panel displays the test phrase that was entered and the matching intent.](../images/lang-test-window.png)
+    \[Omitted image "lang-test-window.png"\] Alt text: The test window displays the conversation in French. The fly-out panel displays the test phrase that was entered and the matching intent.
 
 8.  End the test by closing the window.
 
@@ -50,9 +51,9 @@ Role required: virtual\_agent\_admin or admin
 
 Use the test results to modify the topic as needed. Continue testing as you adjust your topic and the NLU language mappings.
 
-When the topic is ready, publish the topic to make it available to users. You can publish all or some of the NLU mappings. For more information about publishing a topic, see [Publish a Virtual Agent topic](publish-virtual-agent-topic.md).
+When the topic is ready, publish the topic to make it available to users. You can publish all or some of the NLU mappings. For more information about publishing a topic, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
 
 **Tip:** You can view localization insights from the **Manage languages** page and the Virtual Agent Designer home page. Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and then select **Localization Insights** from the Resources.
 
-**Parent Topic:**[Localize Virtual Agent topics that use NLU topic discovery](use-lf-translate-va-nlu.md)
+**Parent Topic:**[Localize Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.md)
 

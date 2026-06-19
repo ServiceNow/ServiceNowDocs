@@ -2,6 +2,7 @@
 title: Create bulk reservations in Workplace
 description: Create bulk reservations in Workplace using the Workplace Service Delivery for Mobile. Employee can manage multiple planned reservations from the Workplace page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-bulk-reservations.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
@@ -19,7 +20,7 @@ Create bulk reservations in Workplace using the Workplace Service Delivery for M
 
 Create bulk reservations using the Workplace page. Select multiple days in the Schedule calendar view and reserve all selected days simultaneously. Check in or check out reservations, edit reservations, view reservation summary details, or cancel a reservation using Workplace. Manage your reservations and presence information using your mobile app. Change your **Remote** working days to **In-office** or **Visiting another office** presence days. Select your preferred space or desk. Add or edit workplace services to your reservations.
 
-**Note:** The **sn\_wsd\_concierge.workplace\_day\_selection\_limit** property is configured by your administration for enabling multiple days selection on the Workplace page. This property when set to an integer value \(for example, 3, 5, and so on\) enables employees to select multiple dates or days on the calendar to make bulk reservations. For example, if this property is set to 5, employees can make bulk reservations and select only five dates or days on the calendar to make bulk reservations. For more information, see [Properties installed with Workplace Concierge](../../workplace-concierge/reference/properties-installed-with-workplace-concierge.md).
+**Note:** The **sn\_wsd\_concierge.workplace\_day\_selection\_limit** property is configured by your administration for enabling multiple days selection on the Workplace page. This property when set to an integer value \(for example, 3, 5, and so on\) enables employees to select multiple dates or days on the calendar to make bulk reservations. For example, if this property is set to 5, employees can make bulk reservations and select only five dates or days on the calendar to make bulk reservations. For more information, see [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md).
 
 If the Reservable Module Configuration property **Max days in future** is set to 5 days by your administrator, and the **sn\_wsd\_concierge.workplace\_day\_selection\_limit** property is set to 6 by your Workplace administrator, employees can select only five dates or days on the calendar for making bulk reservations. The least minimal value is selected for default bulk days selection the calendar by the application.
 
@@ -42,9 +43,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
 2.  Access your Workplace Service Delivery for Mobile instance.
 
-3.  Tap and select the **Workplace** location pin icon \(![workplace location pin launch icon.](../images/wsd-mobile-location-pin-without-color.png)\) from the mobile home page.
+3.  Tap and select the **Workplace** location pin icon \(\[Omitted image "wsd-mobile-location-pin-without-color.png"\] Alt text: workplace location pin launch icon.\) from the mobile home page.
 
-    The location pin changes to a blue pin icon \( ![Blue pin location icon.](../images/wsd-mobile-location-pin-icon.png)\). The Workplace page opens for you to reserve your preferred workspaces, coordinate your workdays and collaborate with your preferred collaborators.
+    The location pin changes to a blue pin icon \( \[Omitted image "wsd-mobile-location-pin-icon.png"\] Alt text: Blue pin location icon.\). The Workplace page opens for you to reserve your preferred workspaces, coordinate your workdays and collaborate with your preferred collaborators.
 
 4.  Tap the **Select Multiple days** toggle button.
 
@@ -58,7 +59,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
     **Note:** If the sn\_wsd\_concierge.allow\_overlapping\_reservations property is set to **false** by your workplace administrator, you cannot create an overlapping or parallel reservations for a day. You can make only a single reservation for a day.
 
-    **Note:** If you try to select a date which is labeled as **Remote**, the Remote day is changed to an **In-office** presence day and this record is updated in the Employee Presence Exceptions table \(**All** &gt; **Workplace Concierge** &gt; **Employee Presence** &gt; **Exceptions**\). The **Location** column in this table is updated with the building name that you using to reserve a space for your **In-office** day. For more information, see [Components installed with Workplace Concierge](../../workplace-concierge/reference/components-installed-with-workplace-concierge.md).
+    **Note:** If you try to select a date which is labeled as **Remote**, the Remote day is changed to an **In-office** presence day and this record is updated in the Employee Presence Exceptions table \(**All** &gt; **Workplace Concierge** &gt; **Employee Presence** &gt; **Exceptions**\). The **Location** column in this table is updated with the building name that you using to reserve a space for your **In-office** day. For more information, see [Components installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/components-installed-with-workplace-concierge.md).
 
 5.  Tap and remove dates from calendar that are selected by default and select few days of your choice.
 
@@ -70,7 +71,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 6.  In **Space suggestions** list view, review the suggested workspaces before making bulk reservations.
 
-    ![Select multiple days toggle button is selected for employees to make bulk reservations.](../images/wsd-mobile-workplace-multiday-toggle-on.png)
+    \[Omitted image "wsd-mobile-workplace-multiday-toggle-on.png"\] Alt text: Select multiple days toggle button is selected for employees to make bulk reservations.
 
     Application provides workspace suggestions based on the following employee preferences and usage:
 
@@ -80,13 +81,13 @@ Role required: sn\_wsd\_core.workplace\_user
     -   Favorite spaces
     -   Preferred workplace services
     -   Preferred collaborators
-    ![Space card showing the Show on map to find your space on the map.](../images/wsd-workplace-mobile-space-suggestion-get-directions.jpeg)
+    \[Omitted image "wsd-workplace-mobile-space-suggestion-get-directions.jpeg"\] Alt text: Space card showing the Show on map to find your space on the map.
 
-    The tags displayed on a suggested space is fetched from the Space Suggestion configuration table. These tags are displayed on the Space Suggestions card. For example, **Reserved frequently**, **Near your location**, **Your favorite**, and so on. When an employee is visiting another office, the suggestions are provided from the office that an employee is visiting and is not based on the employees in-office preferences set in the Presence dashboard. For more information, see [Space suggestion Configuration](../../workplace-concierge/task/space-suggestion-configuration.md) and [Properties installed with Workplace Concierge](../../workplace-concierge/reference/properties-installed-with-workplace-concierge.md).
+    The tags displayed on a suggested space is fetched from the Space Suggestion configuration table. These tags are displayed on the Space Suggestions card. For example, **Reserved frequently**, **Near your location**, **Your favorite**, and so on. When an employee is visiting another office, the suggestions are provided from the office that an employee is visiting and is not based on the employees in-office preferences set in the Presence dashboard. For more information, see [Space suggestion Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/space-suggestion-configuration.md) and [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md).
 
-7.  To update or change a suggested workspace from Space Suggestions, select the **Suggest another** refresh button icon \(![Select the refresh button to suggest another workspace.](../images/wsd-mobile-refresh-icon-workplace-suggestion.png)\).
+7.  To update or change a suggested workspace from Space Suggestions, select the **Suggest another** refresh button icon \(\[Omitted image "wsd-mobile-refresh-icon-workplace-suggestion.png"\] Alt text: Select the refresh button to suggest another workspace.\).
 
-    ![Option to review your space suggestions again or select the Search all spaces option from the Make a reservation page.](../images/wsd-mobile-workplace-search-all-spaces-new.png)Application shows the available spaces in a building. At a time, the application shows 10 maximum suggestions when an employee taps and selects the refresh button repeatedly. After the tenth attempt, the application shows a message, " Still looking for a space that fits your requirements? Click here to review suggestions again." Selecting **Click here to review suggestions again** displays a list of new workspace suggestions.
+    \[Omitted image "wsd-mobile-workplace-search-all-spaces-new.png"\] Alt text: Option to review your space suggestions again or select the Search all spaces option from the Make a reservation page.Application shows the available spaces in a building. At a time, the application shows 10 maximum suggestions when an employee taps and selects the refresh button repeatedly. After the tenth attempt, the application shows a message, " Still looking for a space that fits your requirements? Click here to review suggestions again." Selecting **Click here to review suggestions again** displays a list of new workspace suggestions.
 
     **Note:** If there are no available spaces based on employee preferences, the **Suggest another** refresh option can also show a single space or few spaces \(and not the 10 preferred available spaces always\).
 
@@ -106,21 +107,21 @@ Role required: sn\_wsd\_core.workplace\_user
 
     The Agenda view shows all your existing reservations. It shows all reservations that you have made using the Advanced Reservation portal and reservations created using the mobile app.
 
-12. Tap a reservation on the Agenda view and select the more information icon \(![More information icon.](../images/wsd-mobile-three-dots-icon.png)\) to open the Actions menu.
+12. Tap a reservation on the Agenda view and select the more information icon \(\[Omitted image "wsd-mobile-three-dots-icon.png"\] Alt text: More information icon.\) to open the Actions menu.
 
-    ![Agenda view showing your reservations and types of reservations available for you.](../images/wsd-mobile-workplace-agenda-view.jpeg)
+    \[Omitted image "wsd-mobile-workplace-agenda-view.jpeg"\] Alt text: Agenda view showing your reservations and types of reservations available for you.
 
-    Reservation timings are based on the **All day**Reservable module configuration set by your administrator. When **All day** is enabled and **All day meaning** is set to **Full day**, you can make a reservation for full day \(one day or entire day based on your building timezone\). For Example, reservation timings is shown from 10.25 to 23.59 based on your office full day time zone settings. For more information, see [Configure a reservable module](../../wsd-reservation-management/task/config-reservable-module.md).
+    Reservation timings are based on the **All day**Reservable module configuration set by your administrator. When **All day** is enabled and **All day meaning** is set to **Full day**, you can make a reservation for full day \(one day or entire day based on your building timezone\). For Example, reservation timings is shown from 10.25 to 23.59 based on your office full day time zone settings. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
 13. Review the different types of reservations that you have made in the Agenda view.
 
     The reservations from both Reservation portal and mobile application is shown in the Agenda view. It also shows the labels for different type of reservations. For example, **Group**, **All day**, **recurring \(multi-day\)**, **multi-building**, **neighborhood**, and so on. **All day** reservations are shown on the top and then other types of reservations are shown in the Agenda view.
 
-    ![Agenda view showing reserved spaces for group reservations and all day.](../images/wsd-mobile-workplace-group-rsv-desks-use.png)
+    \[Omitted image "wsd-mobile-workplace-group-rsv-desks-use.png"\] Alt text: Agenda view showing reserved spaces for group reservations and all day.
 
 14. Select the Actions menu items to complete the following:
 
-    1.  Select the Actions menu icon \(![Actions menu icon.](../images/wsd-mobile-three-dots-icon.png)\)adjacent to a reservation in the Agenda view to open the Actions menu.
+    1.  Select the Actions menu icon \(\[Omitted image "wsd-mobile-three-dots-icon.png"\] Alt text: Actions menu icon.\)adjacent to a reservation in the Agenda view to open the Actions menu.
 
     2.  The Actions menu shows the following options:
 
@@ -129,7 +130,7 @@ Role required: sn\_wsd\_core.workplace\_user
         -   Edit Reservation
         -   View reservation information
         -   Show on map
-        ![Selected reserved space card showing the Actions menu items.](../images/wsd-mobile-workplace-space-card-actions-items.png)
+        \[Omitted image "wsd-mobile-workplace-space-card-actions-items.png"\] Alt text: Selected reserved space card showing the Actions menu items.
 
     3.  Select **Check-in** to check in a reservation.
 
@@ -137,23 +138,23 @@ Role required: sn\_wsd\_core.workplace\_user
 
     4.  Select **Edit Reservation** to edit a location, date and time for your reservations.
 
-        ![Edit reservation dialog box.](../images/wsd-mobile-workplace-edit-dialog-box.png)
+        \[Omitted image "wsd-mobile-workplace-edit-dialog-box.png"\] Alt text: Edit reservation dialog box.
 
-        Update your reservations to remove or edit workplace services using the Update reservation details page. For more information, see [Review and edit your reservations in Workplace](mobile-workplace-edit-rsv.md).
+        Update your reservations to remove or edit workplace services using the Update reservation details page. For more information, see [Review and edit your reservations in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-edit-rsv.md).
 
     5.  Select **Cancel Reservation** to cancel a reservation.
 
-        Employees can directly cancel a reservation if the reservation doesn't require cancel notes. The option to add a cancel note is set by your administrator in the Reservable Module Widget Configuration. For more information, see [Configure a reservable module](../../wsd-reservation-management/task/config-reservable-module.md).
+        Employees can directly cancel a reservation if the reservation doesn't require cancel notes. The option to add a cancel note is set by your administrator in the Reservable Module Widget Configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
-        ![Cancel Reservation dialog box.](../images/wsd-mobile-workplace-cancel-rsv-use.jpeg)
+        \[Omitted image "wsd-mobile-workplace-cancel-rsv-use.jpeg"\] Alt text: Cancel Reservation dialog box.
 
         Select **I want to add/edit/remove items instead** to update workplace items in a reservation.
 
-        The option to add a cancel note is set by your administrator in the Reservable Module Widget Configuration. For more information, see [Configure a reservable module](../../wsd-reservation-management/task/config-reservable-module.md).
+        The option to add a cancel note is set by your administrator in the Reservable Module Widget Configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
     6.  Select **View reservation Information** to review the Reservation summary for a selected space.
 
-        ![Reservation Summary page showing the Actions menu item.](../images/wsd-mobile-workplace-action-button-agendaview.png)
+        \[Omitted image "wsd-mobile-workplace-action-button-agendaview.png"\] Alt text: Reservation Summary page showing the Actions menu item.
 
     7.  Select **Show on map** to open the location directory page and reserve a space using a floor map.
 

@@ -2,6 +2,7 @@
 title: Reverse provisional credit
 description: Reverse the temporary credit issued by the bank to the card holder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/reverse-provisional-credit\_0.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -46,5 +47,5 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 10. Select **Close task**.
 
 
-**Parent Topic:**[Collaboration dispute workflow](../concept/collaboration-dispute-workflow.md)
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

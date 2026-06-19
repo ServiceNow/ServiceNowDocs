@@ -2,6 +2,7 @@
 title: Review CMDB tables used for CMDB Coverage analysis
 description: Review the CMDB tables that are used for CMDB Coverage analysis, and add additional tables to enable complete visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-review-cmdb-tables.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

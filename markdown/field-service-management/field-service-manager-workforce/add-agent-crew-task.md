@@ -2,6 +2,7 @@
 title: Add a resource to a crew task
 description: Add resources that aren't part of a crew, like agents or pieces of equipment, if you realize they're required after the task has been created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/add-agent-crew-task.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

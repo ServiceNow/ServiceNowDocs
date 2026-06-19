@@ -2,6 +2,7 @@
 title: Disable a metric for a CI
 description: Metric Intelligence can be configured to collect significant amounts of data, some of which might not be necessary. To improve performance, you can disable a specific metric for a specific CI to stop processing data related to the specified metric and CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/disable-metric-per-ci.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -30,5 +31,5 @@ Role required: evt\_mgmt\_admin
 2.  Locate the record for the metric/CI that you want to disable, and set its **Active** column to **false**.
 
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

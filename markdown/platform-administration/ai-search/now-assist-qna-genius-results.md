@@ -2,6 +2,7 @@
 title: Now Assist Q&amp;A Genius Results
 description: Now Assist Q&amp;A Genius Results use the Now LLM Service to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/now-assist-qna-genius-results.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -16,7 +17,7 @@ breadcrumb: [Configuring Now Assist in AI Search, Now Assist in AI Search, Servi
 
 Now Assist Q&amp;A Genius Results use the Now LLM Service to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
 
-**Important:** Starting with the Now Assist in AI Search 11 release, the Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Now Assist Multi-Content Response Genius Results](now-assist-multi-content-qna-genius-results.md).
+**Important:** Starting with the Now Assist in AI Search 11 release, the Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
 
 ## Now Assist Q&amp;A Genius Results overview
 
@@ -26,29 +27,29 @@ Each Now Assist Q&amp;A Genius Result answer card displays up to three generated
 
 The following example shows a Now Assist Q&amp;A Genius Result answer card containing a snippet summarizing a knowledge article. Select the answer card's **View article** action link to view the full knowledge article.
 
-![Now Assist Q&A answer card showing generated answer banner, knowledge article summary snippet, source knowledge article title, View article action link, information link, and thumbs-up and thumbs-down feedback links.](../image/genius-result-q-a-nas.png "Sample Now Assist Q&A answer card")
+\[Omitted image "genius-result-q-a-nas.png"\] Alt text: Now Assist Q&amp;A answer card showing generated answer banner, knowledge article summary snippet, source knowledge article title, View article action link, information link, and thumbs-up and thumbs-down feedback links.
 
-**Note:** Because the Now Assist Q&amp;A Genius Result answer is automatically generated, it's a good idea to review it for accuracy. You can provide feedback on the answer by selecting the thumbs-up icon ![](../image/genius-result-feedback-positive.png) if the generated answer is accurate, or the thumbs-down icon ![](../image/genius-result-feedback-negative.png) if it's not. Your feedback helps ServiceNow improve future versions of this Genius Result configuration.
+**Note:** Because the Now Assist Q&amp;A Genius Result answer is automatically generated, it's a good idea to review it for accuracy. You can provide feedback on the answer by selecting the thumbs-up icon \[Omitted image "genius-result-feedback-positive.png"\] Alt text: if the generated answer is accurate, or the thumbs-down icon \[Omitted image "genius-result-feedback-negative.png"\] Alt text: if it's not. Your feedback helps ServiceNow improve future versions of this Genius Result configuration.
 
-Now Assist Q&amp;A Genius Results use semantic vector search and legacy keyword search to find knowledge articles that best match the meaning and intent of your search query. For more details on semantic vector search, see [Semantic vector search in AI Search](semantic-search-ais.md).
+Now Assist Q&amp;A Genius Results use semantic vector search and legacy keyword search to find knowledge articles that best match the meaning and intent of your search query. For more details on semantic vector search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/semantic-search-ais.md).
 
-The Now Assist Q&amp;A Genius Result configuration replaces the original Q&amp;A Genius Result configuration from the base system. The base system's Q&amp;A Genius Result configuration extracts answers from knowledge articles using internal routines instead of using the Now LLM Service. To learn more about the base system's Q&amp;A Genius Result configuration, see [Q&amp;A Genius Results](genius-result-q-a-ais.md).
+The Now Assist Q&amp;A Genius Result configuration replaces the original Q&amp;A Genius Result configuration from the base system. The base system's Q&amp;A Genius Result configuration extracts answers from knowledge articles using internal routines instead of using the Now LLM Service. To learn more about the base system's Q&amp;A Genius Result configuration, see [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-q-a-ais.md).
 
 ## Enabling Now Assist Q&amp;A Genius Results
 
-You can enable Now Assist Q&amp;A Genius Results in your AI Search portals and mobile applications using the Now Assist in AI Search Setup module. For details on this procedure, see [Enable Now Assist Genius Results in AI Search portals and mobile applications](../task/enable-now-assist-gr-ais-apps.md).
+You can enable Now Assist Q&amp;A Genius Results in your AI Search portals and mobile applications using the Now Assist in AI Search Setup module. For details on this procedure, see [Enable Now Assist Genius Results in AI Search portals and mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-now-assist-gr-ais-apps.md).
 
-To use Now Assist Q&amp;A Genius Results in global search, you can enable the Now Assist Q&amp;A Genius Result configuration in the AI Search for Next Experience application. For details on this procedure, see [Enabling Now Assist Q&amp;A Genius Results](enabling-now-assist-qa-grs.md#).
+To use Now Assist Q&amp;A Genius Results in global search, you can enable the Now Assist Q&amp;A Genius Result configuration in the AI Search for Next Experience application. For details on this procedure, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
 
 **Note:** When you activate Now Assist Q&amp;A Genius Results in a search application, they're available to all users who search using that application.
 
 ## Limitations
 
-By default, Now Assist Q&amp;A Genius Results only support English-language searches. Administrators can enable support for other languages by activating Dynamic Translation. To learn more about how content and answers are translated, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](dynamic-translation-na-gr.md). For more details on Dynamic Translation, see [Dynamic Translation](../../dynamic-translation/concept/dynamic-translation-overview.md).
+By default, Now Assist Q&amp;A Genius Results only support English-language searches. Administrators can enable support for other languages by activating Dynamic Translation. To learn more about how content and answers are translated, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md). For more details on Dynamic Translation, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md).
 
 Knowledge articles that are boosted or promoted by result improvement rules are more likely to appear as Now Assist Q&amp;A Genius Results, but aren't guaranteed to appear.
 
-**Note:** The Knowledge search property settings don't affect Now Assist Q&amp;A Genius Results. For more information on these settings, see [Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+**Note:** The Knowledge search property settings don't affect Now Assist Q&amp;A Genius Results. For more information on these settings, see Knowledge search properties.
 
 If you have the External Content Connectors ServiceNow® Store application installed, Now Assist Q&amp;A Genius Results exclude search results retrieved from external content source systems when generating answers.
 
@@ -76,7 +77,7 @@ Interaction with Now Assist Q&amp;A Genius Results
 
 </th></tr></thead><tbody><tr><td>
 
-[Result improvement rules](result-improvement-rules-ais.md)
+[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
 
 </td><td>
 
@@ -87,7 +88,7 @@ When computing Now Assist Q&amp;A Genius Result answers for a search query, AI S
 
 </td></tr><tr><td>
 
-[Stop words](stop-words-ais.md)
+[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
 
 </td><td>
 
@@ -95,7 +96,7 @@ Now Assist Q&amp;A Genius Results use a blend of semantic vector search, which d
 
 </td></tr><tr><td>
 
-[Synonyms](synonyms-ais.md)
+[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)
 
 </td><td>
 
@@ -103,23 +104,23 @@ Now Assist Q&amp;A Genius Results use a blend of semantic vector search, which d
 
 </td></tr><tr><td>
 
-[Typo handling](typo-handling-ais.md)
+[Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md)
 
 </td><td>
 
 When computing Now Assist Q&amp;A Genius Result answers for a search query, AI Search corrects misspelled terms in the query.
 
 </td></tr></tbody>
-</table>-   **[Enabling Now Assist Q&amp;A Genius Results](enabling-now-assist-qa-grs.md#)**  
+</table>-   **[Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md)**  
 As a search administrator, you can use the Now Assist Q&amp;A Genius Results skill in AI Search portals and mobile applications by enabling Now Assist Q&amp;A Genius Results in search profiles. You can also use the skill in global search by enabling Now Assist Q&amp;A Genius Results in the AI Search for Next Experience application.
--   **[Define a query filter for Now Assist Q&amp;A Genius Results](../task/define-qry-fltr-now-assist-qna-gr.md)**  
+-   **[Define a query filter for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/define-qry-fltr-now-assist-qna-gr.md)**  
 Define a Java regular expression pattern that a search must match to be eligible for triggering Now Assist Q&amp;A Genius Results. Searches that don't match this pattern don't return Genius Result answers from Now Assist Q&amp;A Genius Results.
--   **[Change the minimum search term count for Now Assist Q&amp;A Genius Results](../task/set-min-srch-terms-now-assist-qna.md)**  
+-   **[Change the minimum search term count for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/set-min-srch-terms-now-assist-qna.md)**  
 Specify the minimum number of terms that a search must contain to be eligible for triggering Now Assist Q&amp;A Q&amp;A Genius Results. Searches with fewer terms don't return Now Assist Q&amp;A Genius Result answers.
--   **[Dynamic Translation for Now Assist Q&amp;A Genius Results](dynamic-translation-na-gr.md)**  
+-   **[Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dynamic-translation-na-gr.md)**  
 Dynamic Translation improves the international search experience for knowledge article content. When Dynamic Translation is activated, AI Search can generate Now Assist Q&amp;A Genius Result answers from non-English knowledge articles. Dynamic Translation also enables AI Search to translate Now Assist Q&amp;A Genius Result answers into the search user's language.
--   **[Caching for Now Assist Q&amp;A Genius Results](caching-now-assist-q-a-gr.md#)**  
+-   **[Caching for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md)**  
 AI Search provides two query-time caches to improve search performance for Now Assist Q&amp;A Genius Results. Caching enables AI Search to return previously generated Now Assist Q&amp;A Genius Result answers without submitting knowledge articles to the Now LLM Service for answer generation.
 
-**Parent Topic:**[Configuring Now Assist in AI Search](configuring-now-assist-ais.md)
+**Parent Topic:**[Configuring Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
 

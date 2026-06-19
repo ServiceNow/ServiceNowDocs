@@ -2,6 +2,7 @@
 title: Operational Technology Visibility dashboard
 description: The Operational Technology \(OT\) Visibility dashboard helps you manage your OT device in a centralized location. The OT Visibility dashboard lets you the access your OT device data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/ot-manager-dashboard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -27,7 +28,7 @@ With the OT Visibility dashboard, you can achieve the following:
 
 **Dashboard contents**
 
-To access the OT device data in the OT Visibility dashboard, navigate to **All** &gt; **Industrial Workspace**, select the Dashboard Library \(![Dashboards icon](../../mftg-manufacturing-ot-vulnerability-response/image/dashboards-icon.png)\) icon, and then select the **Operational Technology Visibility**. To access the key performance indicators \(KPI\) graph for any tile that is described in the following table, select the number count or chart component in the tile.
+To access the OT device data in the OT Visibility dashboard, navigate to **All** &gt; **Industrial Workspace**, select the Dashboard Library \(\[Omitted image "dashboards-icon.png"\] Alt text: Dashboards icon\) icon, and then select the **Operational Technology Visibility**. To access the key performance indicators \(KPI\) graph for any tile that is described in the following table, select the number count or chart component in the tile.
 
 The following table describes the OT device data that you can see on the different tiles on the dashboard.
 
@@ -188,7 +189,7 @@ To access the OT Visibility dashboard, you must have the **cmdb\_ot\_viewer** an
 
 You can use the **Site** filter to search for and select the site that you want to view on the dashboard. To access and use the site filter, you must have the **cmdb\_ot\_isa\_viewer** role with access to the site you want to view.
 
-For more information, see [Use the site filter](../../mftg-manufacturing-process-mgr/task/use-business-unit-and-site-filters.md).
+For more information, see [Use the site filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-**Parent Topic:**[Dashboard Library in the Industrial Workspace](../../operational-technology-management/concept/dashboard-library-industrial-workspace.md)
+**Parent Topic:**[Dashboard Library in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/dashboard-library-industrial-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Set dashboards as home for all users
 description: You can set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/set-dashboards-as-home-for-all-users.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -39,7 +40,7 @@ Role required: admin
 
 8.  Select **Submit**.
 
-    ![User preference form with description, name, type, and value filled in. User field is blank.](../image/user-pref-all-homepages-db.png)
+    \[Omitted image "user-pref-all-homepages-db.png"\] Alt text: User preference form with description, name, type, and value filled in. User field is blank.
 
 
 ## Result
@@ -48,5 +49,5 @@ All users see the last dashboard that they visited when they log in to ServiceNo
 
 ## What to do next
 
-[Set a specific dashboard as home for all users](set-specific-db-as-home-for-all-users.md)
+[Set a specific dashboard as home for all users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/set-specific-db-as-home-for-all-users.md)
 

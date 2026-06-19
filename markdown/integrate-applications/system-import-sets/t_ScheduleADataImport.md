@@ -2,6 +2,7 @@
 title: Schedule a data import
 description: Schedule imports to make it possible to specify that certain import operations occur at a regular interval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_ScheduleADataImport.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -129,7 +130,7 @@ Starting
 
 </td><td class="icon">
 
-Date on which the import should begin \(selected using the select date and time icon \(![Select date and time.](../image/view-calendar-icon.png)\). Visible only if you set **Run** to Periodically.
+Date on which the import should begin \(selected using the select date and time icon \(\[Omitted image "view-calendar-icon.png"\] Alt text: Select date and time.\). Visible only if you set **Run** to Periodically.
 
 </td></tr><tr><td>
 
@@ -163,7 +164,7 @@ Concurrent Import
 
 Option to run a concurrent import. A concurrent import splits the data into multiple import sets and runs the import sets concurrently to reduce processing time for large data sets.**Note:** A concurrent import does not transform data in a predictable order. If order matters, do not run a concurrent import.
 
- For more information, see [Concurrent imports](../concept/concurrent-imports.md).
+ For more information, see [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/concurrent-imports.md).
 
 </td></tr><tr><td>
 
@@ -252,8 +253,8 @@ Script to run after the import happens. Visible only if you select **Execute pos
 8.  To display details about the executions, select the executions contexts record that you want to display.
 
 
--   **[Scheduled data import scripting options](../reference/r_DataImportScriptingOptions.md)**  
+-   **[Scheduled data import scripting options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_DataImportScriptingOptions.md)**  
 Multiple JavaScript objects are available in the Scheduled Data Import **Pre script** and **Post script** fields.
 
-**Parent Topic:**[Importing data using import sets](../concept/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

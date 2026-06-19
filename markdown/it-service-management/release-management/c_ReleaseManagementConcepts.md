@@ -2,6 +2,7 @@
 title: Release Management concepts
 description: The Release Management application encompasses the planning, design, build, configuration, and testing of hardware and software releases to create a defined set of release components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/c\_ReleaseManagementConcepts.html
 release: australia
 product: Release Management
 classification: release-management
@@ -17,7 +18,7 @@ The Release Management application encompasses the planning, design, build, conf
 
 Release management comprises of a series of activities performed to ensure that the changes are applied successfully to both pre-production and product environments.
 
-![Release Management](../image/rm-concepts.png)
+\[Omitted image "rm-concepts.png"\] Alt text: Release Management
 
 |Concept|Description|
 |-------|-----------|
@@ -26,12 +27,12 @@ Release management comprises of a series of activities performed to ensure that 
 |Release Phases|Represents the planned phases within a release, which are used to group the tasks required to carry out the release. For example, gathering requirements, planning, design, development, testing, and deployment.|
 |Release Tasks|Represents any of the tasks required to implement a feature of a product.|
 
-![Table relationships](../image/table-relationships.png "Table relationships in Release Management")
+\[Omitted image "table-relationships.png"\] Alt text: Table relationships
 
 **Note:** The tables for Feature and Feature Task under a release are not removed. If you already use Feature and Feature Task under a release, you can continue doing so.
 
--   **[Default state categories for Release and Release task tables](../reference/default-state-categories-for-release-and-release-task-tables.md)**  
+-   **[Default state categories for Release and Release task tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/default-state-categories-for-release-and-release-task-tables.md)**  
 Understand how the different states of the Release \[rm\_release\] and Release Task \[rm\_task\] tables are configured by default. Use this information to customize the states according to your organizational release processes.
 
-**Parent Topic:**[Release Management](c_ITILReleaseManagement.md)
+**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_ITILReleaseManagement.md)
 

@@ -2,6 +2,7 @@
 title: Map problem task states
 description: Define how problem task records are updated when you migrate the records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/map-problem-task-state.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -50,5 +51,5 @@ Role required: admin
 
 ## What to do next
 
-[Activate Problem Management Best Practice — Madrid — State Model](activate-plugin-problem-management.md).
+[Activate Problem Management Best Practice — Madrid — State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/activate-plugin-problem-management.md).
 

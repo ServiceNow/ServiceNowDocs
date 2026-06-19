@@ -2,6 +2,7 @@
 title: Log in to Shopping Hub for the first time
 description: Shoppers who log in to Shopping Hub for the very first time must set up a default delivery location before they can browse products and access the other pages.Set your work address as the default location when you log in to Shopping Hub for the first time.Set your default location to an address other than your work address when you log in to Shopping Hub for the first time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/login-shoppinghub-first-time.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ Shoppers who log in to Shopping Hub for the very first time must set up a defaul
 
 If the shopper navigates to a different page other than the Shopping Hub home page without setting up default delivery address, they are redirected to the home page to set the default delivery location.
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 
 ## Set work address as your delivery location
 

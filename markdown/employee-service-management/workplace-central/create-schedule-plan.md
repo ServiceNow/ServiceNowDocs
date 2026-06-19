@@ -2,6 +2,7 @@
 title: Create a schedule plan
 description: Create a schedule plan to assign employees, spaces, and employee-space mappings for your projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-schedule-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -35,13 +36,13 @@ Role required: sn\_wsd\_spcmgmt.project\_owner
 
     You can also open Workplace Central from the Employee Center by navigating to **Workspaces** &gt; **Workplace Central**.
 
-2.  Select the **Schedule Planner** icon \(![Schedule Planner icon.](../images/schedule-plan-icon.png)\).
+2.  Select the **Schedule Planner** icon \(\[Omitted image "schedule-plan-icon.png"\] Alt text: Schedule Planner icon.\).
 
 3.  On the Schedule Plans list, select **Create schedule plan**.
 
 4.  On the details page, fill in the fields, then select **Next**.
 
-    For a description of the field values, see [Schedule Plan details form](../reference/schedule-plan-details-form.md).
+    For a description of the field values, see [Schedule Plan details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/schedule-plan-details-form.md).
 
     A schedule plan record is created in the **Draft** state.
 
@@ -137,5 +138,5 @@ If a user has an existing Workplace Profile Location Assignment, the schedule pl
 
 After a schedule plan is published, the selected users receive an email with details about their workspace assignment and the start and end date of the schedule.
 
-**Parent Topic:**[Working with Schedule Planning](../concept/working-with-schedule-planning.md)
+**Parent Topic:**[Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-planning.md)
 

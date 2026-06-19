@@ -2,6 +2,7 @@
 title: Create an appointment through incident
 description: Schedule an appointment on behalf of a requester through an incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/walkup-create-appointment-through-incident.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -44,5 +45,5 @@ Role required: itil or admin
 -   The **Walk-up Appointment** tab appears in the related list. The **Walk-up Appointment** related list must be added to the platform manually.
 -   The requester is notified of the appointment. The requester can also see the appointment created on the home page under the My active items widget.
 
-**Parent Topic:**[View and manage Walk-up Experience appointments in Agent Workspace](view-manage-walkup-appointments.md)
+**Parent Topic:**[View and manage Walk-up Experience appointments in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/view-manage-walkup-appointments.md)
 

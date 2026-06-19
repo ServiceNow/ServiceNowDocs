@@ -2,6 +2,7 @@
 title: Enforce field-level ACLs on records created from the query string of the Filtered List view UI of a table
 description: Use a system property to prevent list filters from affecting the initial values of created records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enforce-field-level-acls-on-records-created-from-the-query-string-of-the-filtered-list-view-ui-of-a-table.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -100,7 +101,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -129,5 +130,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

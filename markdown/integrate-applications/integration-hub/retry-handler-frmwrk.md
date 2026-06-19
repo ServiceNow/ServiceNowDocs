@@ -2,6 +2,7 @@
 title: Retry Handler Framework
 description: Framework that retries a failed HTTP request when the API rate limits are exceeded and the 429 Too Many Requests status code is returned. The retry-after time HTTP header is used to retry the request again after that specified retry-after time. Also reuse this short description in the release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/retry-handler-frmwrk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,11 +18,11 @@ Framework that retries a failed HTTP request when the API rate limits are exceed
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Spoke requirements
 
-**Note:** The Retry Handler Framework app is available only as a part of [Microsoft Exchange Online Spoke](ms-exch-online-spoke.md) or [Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/journey-accelerator.md) app.
+**Note:** The Retry Handler Framework app is available only as a part of [Microsoft Exchange Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md) or Journey Accelerator app.
 
 -   Install Journey Accelerator app
 -   Microsoft Exchange Online spoke

@@ -2,6 +2,7 @@
 title: Create a marketplace engagement method
 description: Create a marketplace engagement method to specify how contractors respond to requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/create-marketplace-eng-mthd.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

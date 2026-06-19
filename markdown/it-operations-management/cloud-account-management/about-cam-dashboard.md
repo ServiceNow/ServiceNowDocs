@@ -2,11 +2,12 @@
 title: Viewing Cloud Account Management dashboards
 description: Cloud Account Management has two types of dashboards: one for requesters and another for admins. Depending on the logged- in user, an appropriate dashboard appears.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/about-cam-dashboard.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [View cloud workspace dashboard]
 breadcrumb: [Using Cloud Account Management in Cloud Workspace, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
@@ -22,7 +23,7 @@ The Cloud Workspace compliance dashboard provides insights that help security te
 
 As an admin, you can access the dashboard by navigating to **All** &gt; **Cloud Workspace** &gt; **Monitor and track**.
 
-![Compliance dashboard](../image/compliance-dashboard.png "Compliance dashboard")
+\[Omitted image "compliance-dashboard.png"\] Alt text: Compliance dashboard
 
 **Note:**
 
@@ -35,7 +36,7 @@ View account statuses and violations, actionable insights, and administrative co
 
 As an admin or asset viewer, you can access the homepage by navigating to **All** &gt; **Cloud Workspace**.
 
-![admin dashboard](../image/cam-workspace-dashboard.png "Admin or asset viewer dashboard")
+\[Omitted image "cam-workspace-dashboard.png"\] Alt text: admin dashboard
 
 **Note:**
 
@@ -48,7 +49,7 @@ View and manage cloud account requests on requester page. The home page provides
 
 Requesters can access the requester home page by navigating to **All** &gt; **Cloud Workspace**
 
-![Requester home page](../image/cam-dashboard.gif "Requester home page")
+\[Omitted image "cam-dashboard.gif"\] Alt text: Requester home page
 
 ## Viewing the Cloud asset overview page
 
@@ -56,7 +57,7 @@ The Cloud asset overview page helps cloud governance and operations teams monito
 
 can access the Cloud asset overview page by navigating to **All** &gt; **Cloud Workspace** and then in the **Monitor and track** tab, select **Cloud asset explorer** &gt; **Overview**.
 
-![Cloud asset overview page](../image/cam-cloud-asset-overview.png "Cloud asset overview page")
+\[Omitted image "cam-cloud-asset-overview.png"\] Alt text: Cloud asset overview page
 
-**Note:** You can enable or disable the Asset collection configuration to list the CIs. For more information, see [Configure cloud asset collection table](configure-cloud-asset-collection-table.md).
+**Note:** You can enable or disable the Asset collection configuration to list the CIs. For more information, see [Configure cloud asset collection table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configure-cloud-asset-collection-table.md).
 

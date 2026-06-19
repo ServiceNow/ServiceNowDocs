@@ -2,6 +2,7 @@
 title: Create custom enterprise model library
 description: If you have an enterprise model library that isn't represented in the Enterprise Asset Management Content Service yet, you can create a custom model library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-custom-model-lib-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

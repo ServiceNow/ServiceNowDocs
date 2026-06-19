@@ -2,13 +2,14 @@
 title: Maintenance plan schedule examples
 description: Maintenance plans are created for models \(assets\) or locations. The schedule trigger type defined for a maintenance plan can be meter or duration-based schedule. Associate multiple templates to maintenance schedules as required. The scheduled job fetches plan records that have a template associated to it and creates maintenance cases for a maintenance plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/maintenance-plan-examples.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Workplace Maintenance Management references, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Maintenance plan schedule examples
@@ -26,7 +27,7 @@ Schedule a printer ink cartridge replacement after printing a specified number o
 
 1.  Create a model-based maintenance plan for HP Printer Cartridge Replacement and publish the plan.
 
-    For more information, see [Create and publish maintenance plans](../task/create-publish-maintenance-plans.md).
+    For more information, see [Create and publish maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-publish-maintenance-plans.md).
 
 2.  Create a meter-based schedule:
     -   Name: Schedule name.
@@ -51,11 +52,11 @@ Schedule coffee beans refilling for coffee machines daily. Associate a schedule 
 
 The coffee beans are refilled daily based on the scheduling condition and template associated to this maintenance plan.
 
-For more information, see [Workplace planned maintenance scheduled job](sch-job-planned-nightly.md).
+For more information, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
 
-**Parent Topic:**[Workplace Maintenance Management references](workplace-maintenance-mgmt-references.md)
+**Parent Topic:**[Workplace Maintenance Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md)
 
-**Previous topic:**[Workplace Maintenance Management references](workplace-maintenance-mgmt-references.md)
+**Previous topic:**[Workplace Maintenance Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/workplace-maintenance-mgmt-references.md)
 
-**Next topic:**[Components installed with Workplace Maintenance Management](../reference/components-installed-with-maintenance-mgmt.md)
+**Next topic:**[Components installed with Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/components-installed-with-maintenance-mgmt.md)
 

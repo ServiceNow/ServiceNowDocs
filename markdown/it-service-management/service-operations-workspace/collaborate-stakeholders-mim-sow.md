@@ -2,6 +2,7 @@
 title: Collaborate with stakeholders during a major incident
 description: Collaborate with the required stakeholders during the various phases of a major incident to discuss and resolve the incident quickly. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Collaborate with the required stakeholders during the various phases of a major 
 
 ## About this task
 
-Collaboration services provide a way to communicate and collaborate in real time to resolve incidents. For more information on the integration and features of Collaboration services available in Service Operations Workspace, see [Collaboration in Service Operations Workspace](../concept/collaboration-sow.md).
+Collaboration services provide a way to communicate and collaborate in real time to resolve incidents. For more information on the integration and features of Collaboration services available in Service Operations Workspace, see [Collaboration in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/collaboration-sow.md).
 
 ## Before you begin
 
@@ -25,13 +26,13 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
 
 ## Procedure
 
-1.  On the incident record, select the **Collaborate** \(![Collaborate icon](../image/mim-collaborate-icon.png)\) icon on the contextual side panel to open the collaborate tab on the side panel.
+1.  On the incident record, select the **Collaborate** \(\[Omitted image "mim-collaborate-icon.png"\] Alt text: Collaborate icon\) icon on the contextual side panel to open the collaborate tab on the side panel.
 
     The collaborate tab displays the following tabs:
 
     -   Call – Includes a list of call records and call-related information, such as status and due date with time duration, for the upcoming, pending, overdue, and active calls with the collaborators.
     -   Chat - Includes a list of chat records and chat-related information, such as name and number of participants and due date with time duration, for upcoming, pending, overdue, and active chats with collaborators.
-2.  Select the **Initiate collaboration** \(![Add call](../image/mim-add-call-chat-icon.png)\) icon.
+2.  Select the **Initiate collaboration** \(\[Omitted image "mim-add-call-chat-icon.png"\] Alt text: Add call\) icon.
 
 3.  Collaborate using chat.
 
@@ -43,6 +44,7 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
 
         -   The chat application must be configured with Service Operations Workspace.
         -   Slack channels aren't supported.
+        -   Users with incident\_write or itil role assigned to a Collaborate task such as call or chat, can now view the existing Collaborate card and start a sidebar discussion, Microsoft Teams chat, or call.
     2.  On the pop-up window, fill in the details.
 
         |Field|Description|
@@ -82,8 +84,8 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
         The call starts with the selected participants.
 
 
--   **[Create adhoc communication and collaboration using the Related record tab](create-adhoc-comm-collab-mim-sow.md)**  
+-   **[Create adhoc communication and collaboration using the Related record tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.md)**  
 Create adhoc communication and collaboration using the incident communication plan related list on the **Related records** tab of an incident record page.
 
-**Parent Topic:**[Managing a major incident record](../concept/managing-major-incident-sow.md)
+**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

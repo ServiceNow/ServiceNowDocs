@@ -2,6 +2,7 @@
 title: Digital signature for PDF documents using CAC or PIV smart cards
 description: Use digital signatures to make the document signing experience seamless and to eliminate manual intervention by using your Personal Identity Verification \(PIV\) or Common Access Card \(CAC\) smart card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/digital-signature.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -36,20 +37,20 @@ Digital signing for documents is configured with a document template. You must d
 
 To configure digital signing for CAC or PIV smart cards, the following must be done:
 
--   Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/document-templates-overview.md) to create and upload a PDF document
+-   Use  to create and upload a PDF document
 -   Set up certificates in the sys\_ca\_certificate table
 -   Set up a map certificate in the sys\_user\_certificate table
--   [Review the **com.snc.pdfsigning.validation.method** property](../reference/property-value-cac-piv-signing.md)
+-   [Review the **com.snc.pdfsigning.validation.method** property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/property-value-cac-piv-signing.md)
 -   Sign and review the PDF document
 
--   **[Install Document Template integration with digital signatures using a smart card](../task/install-document-template-digital-signatures.md)**  
+-   **[Install Document Template integration with digital signatures using a smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/install-document-template-digital-signatures.md)**  
 You can install the Document Template integration with Digital Signatures using Smart Cards application \(com.sn.dt-digital-signature-smart-card-integration\) if you have the admin role.
--   **[Set up a document template for signing documents using a CAC or PIV smart card](../task/create-document-template.md)**  
+-   **[Set up a document template for signing documents using a CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-document-template.md)**  
 Set up a document template for PDF using a Common Access Card \(CAC\) or Personal Identification Verification \(PIV\) card. Set up certificates to automate and simplify the process of filling, reviewing, and signing a document online.
--   **[Sign document templates for PDF documents using CAC or PIV smart card](../task/sign-pdf-documents-cac-piv.md)**  
+-   **[Sign document templates for PDF documents using CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/sign-pdf-documents-cac-piv.md)**  
 Use the PDF document template to initiate digital signing, review, and generate a filled PDF document using a Common Access Card \(CAC\) or Personal Identification Verification \(PIV\) card.
--   **[Review the digitally signed document](../task/review-signed-documents.md)**  
+-   **[Review the digitally signed document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/review-signed-documents.md)**  
 Review the digitally signed PDF document to either approve or reject it.
 
-**Parent Topic:**[Using Document Management](using-document-management.md)
+**Parent Topic:**[Using Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/using-document-management.md)
 

@@ -2,6 +2,7 @@
 title: Messaging - Scoped
 description: The Messaging API provides methods to perform actions in a third-party messaging application.Sends a custom message to a third-party application in response to a messaging event. For example, you can send a custom welcome message to a Slack channel when the Now Actions application installs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/MessagingScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ This class requires the Messaging Notification plugin \(com.glide.notification.m
 
 Use the `sn_notification` namespace to access the Messaging API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Messaging - send\(GlideRecord messagingApplication, String recipient, GlideRecord messagingContent, GlideRecord target\)
 

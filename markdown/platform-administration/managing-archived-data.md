@@ -2,6 +2,7 @@
 title: Managing archived data in Core UI
 description: Change the schedule for an archive rule, stop the archive rule from running, or restore your archived data.Modify the system-scheduled job if you need to change the archive interval.Stop archiving by deactivating, deleting, or canceling an archive rule.Restore an archive record and optionally any related records back into the primary table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/managing-archived-data.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data M
 
 Change the schedule for an archive rule, stop the archive rule from running, or restore your archived data.
 
-**Parent Topic:**[Archiving records in Core UI](archiving-older-records.md)
+**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/archiving-older-records.md)
 
 ## Change an archive schedule in Core UI
 
@@ -48,15 +49,15 @@ Role required: admin
 
 1.  Access the archive rule that you want to stop in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d217797e191">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d193410e191">
 
 Option
 
-</th><th align="left" id="d217797e194">
+</th><th align="left" id="d193410e194">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d217797e200">
+</th></tr></thead><tbody><tr><td id="d193410e200">
 
 **Using a data management policy**
 
@@ -67,7 +68,7 @@ Steps
 3.  In the Archive Rules related list, select the archive rule that you want to stop.
 
 
-</td></tr><tr><td id="d217797e233">
+</td></tr><tr><td id="d193410e233">
 
 **Using the Archive Rules module**
 
@@ -100,15 +101,15 @@ Role required: admin
 
 1.  Navigate to the archived record that you want to restore in one of the following ways.
 
-<table id="choicetable_l2x_vvy_1bc"><thead><tr><th align="left" id="d217797e376">
+<table id="choicetable_l2x_vvy_1bc"><thead><tr><th align="left" id="d193410e376">
 
 Option
 
-</th><th align="left" id="d217797e379">
+</th><th align="left" id="d193410e379">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d217797e385">
+</th></tr></thead><tbody><tr><td id="d193410e385">
 
 **Using a data management policy**
 
@@ -121,7 +122,7 @@ Steps
 5.  In the Archive Log related list, select the archived record that you want to restore.
 
 
-</td></tr><tr><td id="d217797e424">
+</td></tr><tr><td id="d193410e424">
 
 **Using the Archive Log module**
 

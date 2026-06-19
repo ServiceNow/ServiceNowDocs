@@ -2,6 +2,7 @@
 title: Create a module
 description: Create a module to manage component instances used in a website. You can either create a module or use a prebuilt module and edit it according to requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -75,7 +76,7 @@ Theme
 
 </td><td>
 
-The theme of the module. Selected theme is applied to all components embed on third-party website. You can select a theme from the list. By default, it is set to Coral. For more information on theme, [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
+The theme of the module. Selected theme is applied to all components embed on third-party website. You can select a theme from the list. By default, it is set to Coral. For more information on theme, .
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Thumbnail image of a module. User can see this thumbnail when browsing modules f
 
 5.  On the module page, select the **Edit** to modify the details.
 
-6.  Select Show module action ![Show module action](../image/we-module-delete-icon.png) icon to delete the module.
+6.  Select Show module action \[Omitted image "we-module-delete-icon.png"\] Alt text: Show module action icon to delete the module.
 
     **Note:** This action permanently deletes the module and its component instances, and this action can’t be undone. Existing component instances on your website will continue to function. To remove those instances, delete or comment out the embed codes on your webpages.
 

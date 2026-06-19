@@ -2,6 +2,7 @@
 title: Enable real-time updating for single score report widgets
 description: Real-time updates ensure that users viewing a responsive dashboard always see the most up-to-date information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/enable-real-time-update-single-score-widget.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ Four types of aggregation are available for single-score reports: Count, Average
 
 **Note:** Real-time updating doesn’t work for single score reports on responsive dashboards under the following circumstances:
 
--   When the report source is a [database view](../../performance-analytics/concept/performance-analytics-glossary.md#), the user must click the Refresh icon ![Refresh icon](../image/icon-refresh.png) on the widget to update the score. For more information, see [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md).
+-   When the report source is a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md), the user must click the Refresh icon \[Omitted image "icon-refresh.png"\] Alt text: Refresh icon on the widget to update the score. For more information, see Database views.
 -   Domain visibility is not supported in real-time reporting. Only the assigned domain of the user and its domain hierarchy and, the global domain are supported.
 -   When the visualization has dot-walked conditions, the single score report doesn’t update when there’s a related change on the extended table. The record watcher only sends updates on the base table of the report. For more information, see [KB article KB0868215](https://support.servicenow.com/kb_view.do?sysparm_article=KB0868215).
 -   When a business rule that uses the `current.update()` method fires on insert/update, the single score report increments by two instead of one. For more information, see [KB article KB0693812](https://support.servicenow.com/kb_view.do?sysparm_article=KB0693812).
@@ -42,15 +43,15 @@ You can enable real-time updating for single score widgets on dashboards.
 
 1.  Navigate to the dashboard where the single score widget has been added.
 
-2.  Click the Add widgets icon\(![Add widgets icon - a plus inside of a circle](../image/icon-add-user-db.png)\) to put the dashboard in edit mode.
+2.  Click the Add widgets icon\(\[Omitted image "icon-add-user-db.png"\] Alt text: Add widgets icon - a plus inside of a circle\) to put the dashboard in edit mode.
 
-3.  Point to the widget, then click the gear icon \(![Gear icon](../../performance-analytics/image/Cogwheel.png)\).
+3.  Point to the widget, then click the gear icon \(\[Omitted image "Cogwheel.png"\] Alt text: Gear icon\).
 
 4.  Select **Show real-time updates** then click **Done**.
 
-5.  Click the plus sign \(![Plus sign button](../image/AddWidgetButton.png)\) to exit edit mode for the dashboard.
+5.  Click the plus sign \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\) to exit edit mode for the dashboard.
 
-    The real-time icon \(![Real time icon](../image/real-time-update-icon.png)\) is added to the widget. This icon is permanently visible, even when the score isn’t changing.
+    The real-time icon \(\[Omitted image "real-time-update-icon.png"\] Alt text: Real time icon\) is added to the widget. This icon is permanently visible, even when the score isn’t changing.
 
 
 ## Result

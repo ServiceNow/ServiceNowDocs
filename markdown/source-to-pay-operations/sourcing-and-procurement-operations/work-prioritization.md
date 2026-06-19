@@ -2,6 +2,7 @@
 title: Work prioritization
 description: Work prioritization automatically assigns a priority level to purchase requisitions, sourcing requests, and procurement cases so that procurement specialists can work the most urgent items first.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/work-prioritization.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -18,7 +19,7 @@ Work prioritization automatically assigns a priority level to purchase requisiti
 
 When procurement records arrive in a specialist's queue, they have no automatic signal indicating which items are most urgent. Without prioritization, a minor catalog update and a high-value supplier renegotiation appear identical. Work prioritization solves this by evaluating each record against a set of administrator-defined rules and stamping it with a priority level before a specialist opens it. The result is a work queue that specialists can sort and filter by priority, with the most business-critical records surfaced at the top.
 
-Priority is assigned automatically. Specialists and requesters do not set it manually. Administrators control the rules that determine how priority is calculated, through decision tables they configure for each record type. For more information about configuring decision table rules to automatically assign priority to purchase requisitions, sourcing requests, and procurement cases, see [Configuring work prioritization](../concept/configuring-work-prioritization.md).
+Priority is assigned automatically. Specialists and requesters do not set it manually. Administrators control the rules that determine how priority is calculated, through decision tables they configure for each record type. For more information about configuring decision table rules to automatically assign priority to purchase requisitions, sourcing requests, and procurement cases, see [Configuring work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.md).
 
 ## Priority levels
 
@@ -72,8 +73,8 @@ If a record is evaluated and no configured rule matches, the record retains its 
 
 A record with Planning priority indicates that no rule matched — not that an administrator configured it as Planning. It is a signal that the record falls outside the currently defined rules. When the next update to the record or one of its lines triggers a recalculation, the rules are evaluated again. If a matching rule has been added since the last evaluation, the priority updates accordingly.
 
--   **[Work prioritization example](work-prioritization-example.md)**  
+-   **[Work prioritization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-prioritization-example.md)**  
 This example shows how an organization might configure work prioritization rules for all three record types, and what happens when records are evaluated against those rules.
 
-**Parent Topic:**[Procurement Case Management](../concept/psd-overview.md)
+**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 

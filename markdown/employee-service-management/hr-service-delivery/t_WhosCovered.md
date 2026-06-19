@@ -2,6 +2,7 @@
 title: Who is covered
 description: You can create or modify who is covered under an employee benefit plan using the HR Health Benefits module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_WhosCovered.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -121,5 +122,5 @@ Gender of the person being covered.
 8.  Click **Update**.
 
 
-**Parent Topic:**[HR Profile](../concept/c_HRProfileRecords.md)
+**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

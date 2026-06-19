@@ -2,6 +2,7 @@
 title: Activate the Offboarding knowledge transfer trigger
 description: Enable the offboarding knowledge transfer trigger to ensure that the workflow runs at the right time during the employee offboarding process. This trigger automates knowledge discovery and categorization, reduces manual effort for managers, and improves consistency in knowledge transfer processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/activate-trigger-offboarding-kt.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

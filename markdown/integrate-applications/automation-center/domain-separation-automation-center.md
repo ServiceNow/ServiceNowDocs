@@ -2,6 +2,7 @@
 title: Domain separation and Automation Center
 description: If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file. In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is supported for Automation Center. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/domain-separation-automation-center.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -25,7 +26,7 @@ Domain separation is supported for Automation Center. Domain separation enables 
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of domain separation in Automation Center
 
@@ -37,10 +38,10 @@ To support domain separation for particular widgets in Automation Center, you mu
 
 **Note:** Action Center and Connection Manager encounter challenges due to process separation in flows. In Action Center, the domain data from both global and current session domains is displayed. In Connection Manager, only current session's domain data is displayed.
 
-**Parent Topic:**[Automation Center reference](automation-center-reference.md)
+**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

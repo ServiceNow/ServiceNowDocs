@@ -2,6 +2,7 @@
 title: Update a deployment request in AEMC
 description: Change the details of a deployment request in App Engine Management Center \(AEMC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/update-deployment-request.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -32,5 +33,5 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Managing deployments using Pipelines and Deployments](../concept/manage-deployments-using-p-and-d-aemc.md)
+**Parent Topic:**[Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md)
 

@@ -2,6 +2,7 @@
 title: Customize a skill in Now Assist for TMT
 description: If you have the admin role, you can customize a Now Assist for Telecommunications, Media and Technology \(TMT\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-customize.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -47,7 +48,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-skill-inputs.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs for Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-skill-inputs.md).
 
     1.  Enter a name and description for the skill.
 
@@ -65,9 +66,9 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         Add multiple base input fields, as necessary.
 
-        ![View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.](../image/customize-now-assist-tmt.png "View input step")
+        \[Omitted image "customize-now-assist-tmt.png"\] Alt text: View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.
 
-        ![View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.](../image/customize-service-problem-case.png "View input step")
+        \[Omitted image "customize-service-problem-case.png"\] Alt text: View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -128,9 +129,9 @@ Description of the base input field value.
 
     3.  Select a case record in the Test response section, and test the prompt response output format by selecting **Run Test**.
 
-        ![Selection of new sections that can be included in the summary for each input template.](../image/customize-prompt-now-assist-tmt.png "Customize prompt step")
+        \[Omitted image "customize-prompt-now-assist-tmt.png"\] Alt text: Selection of new sections that can be included in the summary for each input template.
 
-        ![Selection of new sections that can be included in the summary for each input template.](../image/customize-prompt-service-problem-case.png "Customize prompt step")
+        \[Omitted image "customize-prompt-service-problem-case.png"\] Alt text: Selection of new sections that can be included in the summary for each input template.
 
     4.  Select **Save and continue** to go to the next step.
 
@@ -138,11 +139,11 @@ Description of the base input field value.
 
     Review the prompt for each input template.
 
-    ![customize prompt output.](../image/customize-prompt-customer-service-skill.png)
+    \[Omitted image "customize-prompt-customer-service-skill.png"\] Alt text: customize prompt output.
 
     1.  Select **Edit prompt in Now Assist Skill Kit** to visit Now Assist Skill Kit.
 
-        ![edit prompt.](../image/edit-prompt-now-assist-skill-kit.png)
+        \[Omitted image "edit-prompt-now-assist-skill-kit.png"\] Alt text: edit prompt.
 
     2.  Select **Go to Now Assist Skill Kit** to review and modify the prompt.
 
@@ -150,11 +151,11 @@ Description of the base input field value.
 
     Review the prompt for each input template.
 
-    ![customize prompt output.](../image/customize-prompt-risk-signals.png)
+    \[Omitted image "customize-prompt-risk-signals.png"\] Alt text: customize prompt output.
 
     1.  Select **Edit prompt in Now Assist Skill Kit** to visit Now Assist Skill Kit.
 
-        ![edit prompt.](../image/edit-prompt-risk-signals.png)
+        \[Omitted image "edit-prompt-risk-signals.png"\] Alt text: edit prompt.
 
     2.  Select **Go to Now Assist Skill Kit** to review and modify the prompt.
 
@@ -178,7 +179,7 @@ Description of the base input field value.
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

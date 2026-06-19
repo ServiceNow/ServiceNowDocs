@@ -2,6 +2,7 @@
 title: Install Service Observability
 description: If you have the system admin role, you can install the Service Observability application \(sn\_sow\_svcobs\). The application installs related ServiceNow Store applications and plug-ins if they aren't already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/install-service-observability.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -31,7 +32,7 @@ The following items are installed with Service Observability:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Service Observability](../reference/components-installed-with-service-observability.md).
+For more information, see [Components installed with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/components-installed-with-service-observability.md).
 
 ## Procedure
 
@@ -52,5 +53,5 @@ For more information, see [Components installed with Service Observability](../r
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Service Observability](../concept/configuring-service-observability.md)
+**Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/configuring-service-observability.md)
 

@@ -2,6 +2,7 @@
 title: Growth Experiences
 description: The ServiceNow Growth Experiences applications use a suite of products to help employees develop, grow and deliver on critical business outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-employee-growth-developemnt-suite.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -19,31 +20,31 @@ The ServiceNow® Growth Experiences applications use a suite of products to help
 
 <table id="table_hlz_zwz_fgc" class="nav-card"><tbody><tr><td>
 
-[Talent Development Core![](../../../reuse/icons/brand-icons/bus-c-suite-leader.svg)Delivers an end-to-end process for individuals and managers to take control of their career growth and development plans](egd-landing-page.md)
+[Talent Development Core\[Omitted image "bus-c-suite-leader.svg"\] Alt text:Delivers an end-to-end process for individuals and managers to take control of their career growth and development plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-landing-page.md)
 
 </td><td>
 
-[Skills Intelligence![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)An AI-driven platform that you can use in your organization to develop a workforce that is based on skills](../../skills-intelligence/concept/skills-intelligence.md)
+[Skills Intelligence\[Omitted image "bus-ai-sparkle.svg"\] Alt text:An AI-driven platform that you can use in your organization to develop a workforce that is based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence.md)
 
 </td><td>
 
-[Career Conversations![](../../../reuse/icons/brand-icons/bus-1-1-meetings.svg)Supports an end-to-end process for individuals and managers to create and manage career growth conversations](egd-activities-landing-page.md)
+[Career Conversations\[Omitted image "bus-1-1-meetings.svg"\] Alt text:Supports an end-to-end process for individuals and managers to create and manage career growth conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-activities-landing-page.md)
 
 </td></tr><tr><td>
 
-[Learning![](../../../reuse/icons/brand-icons/bus-learn.svg)Enables employees to discover and engage with career development content](../../human-resources/concept/exploring-learning-exp.md)
+[Learning\[Omitted image "bus-learn.svg"\] Alt text:Enables employees to discover and engage with career development content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/exploring-learning-exp.md)
 
 </td><td>
 
-[Mentoring![](../../../reuse/icons/brand-icons/bus-partnering.svg)Connects individuals seeking mentorship with experienced mentors](../../mentoring-egd/concept/mentoring-egd-overview.md)
+[Mentoring\[Omitted image "bus-partnering.svg"\] Alt text:Connects individuals seeking mentorship with experienced mentors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/mentoring-egd-overview.md)
 
 </td><td>
 
-[Employee Goals![](../../../reuse/icons/brand-icons/bus-gender-neutral-leader-c-suite.svg)Enables employees to view and track their career goals from the Employee Center, ensuring they are aligned with your company's strategic objectives](../../egd-goals/concept/egd-goals-landing.md)
+[Employee Goals\[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text:Enables employees to view and track their career goals from the Employee Center, ensuring they are aligned with your company's strategic objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-goals/egd-goals-landing.md)
 
 </td></tr><tr><td>
 
-[Talent Feedback![](../../../reuse/icons/brand-icons/bus-customer-service.svg)Allows managers to request feedback on employee skills from the employee’s collaborators](../../talent-feedback/concept/talent-feedback-landing.md)
+[Talent Feedback\[Omitted image "bus-customer-service.svg"\] Alt text:Allows managers to request feedback on employee skills from the employee’s collaborators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-feedback/talent-feedback-landing.md)
 
 </td><td>
 
@@ -58,8 +59,8 @@ The ServiceNow® Growth Experiences applications use a suite of products to help
 
 Here is a list of some of the related applications. Select a link to learn more about these applications.
 
--   [Leader Hub](../../td-leader-hub/concept/td-lh-landing.md)
--   [Manager Hub](../../human-resources/concept/manager-hub-overview.md)
+-   [Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-landing.md)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md)
 
 ## Additional resources
 

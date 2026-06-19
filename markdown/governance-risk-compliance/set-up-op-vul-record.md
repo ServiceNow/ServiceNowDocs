@@ -2,9 +2,10 @@
 title: Report an operational vulnerability from the module
 description: Report an operational vulnerability from the Operational vulnerability module in the Operational Resilience Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-op-vul-record.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-01"
 reading_time_minutes: 2
 breadcrumb: [Reporting Operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -40,7 +41,7 @@ Users of the operational vulnerability are listed in the Assignment section on t
 
 4.  On the Vulnerability New record form, fill in the fields.
 
-    To view more information on the fields, see the [Create New Operational vulnerability form](../reference/create-new-op-vul-form.md).
+    To view more information on the fields, see the [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-op-vul-form.md).
 
 5.  Select the treatment decision for the vulnerability.
 
@@ -71,7 +72,7 @@ Users of the operational vulnerability are listed in the Assignment section on t
 
     The sidebar discussion is displayed as shown in the example.
 
-    ![Sidebar.](../image/op-vul-sidebar.png)
+    \[Omitted image "op-vul-sidebar.png"\] Alt text: Sidebar.
 
     The New discussion created is also displayed in the Activity panel of the record.
 

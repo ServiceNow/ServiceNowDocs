@@ -2,6 +2,7 @@
 title: NowChatService class - Android
 description: The NowChatService class provides functions that enable you to launch the NowChat activity and set error configurations.Launches the intent used to open the NowChat activity. Typically used for creating a \[android.app.PendingIntent\].Launches the specified NowChat activity.Subscribes to the unread chat message count listener.Unsubscribes from receiving the unread message count.Updates the NowChat UI theme with the specified UI theme. Use this function to update the chat UI theme after it has been initially set using the start\(\) function, such as when changing the theme from light to dark.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowChatServiceAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 The NowChatService class provides functions that enable you to launch the NowChat activity and set error configurations.
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowChatService - launchIntent\(context:Context, nowChatTheme:NowChatTheme\):Intent
 
@@ -51,7 +52,7 @@ nowChatTheme
 
 </td><td id="Chat-themeColors-entry1">
 
-[NowChatTheme](../../NowChatTheme/concept/NowChatThemeColorsAndroidInterface.md)
+[NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeColorsAndroidInterface.md)
 
 </td><td>
 
@@ -111,7 +112,7 @@ nowChatTheme
 
 </td><td id="Chat-themeColors-entry1">
 
-[NowChatTheme](../../NowChatTheme/concept/NowChatThemeColorsAndroidInterface.md)
+[NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeColorsAndroidInterface.md)
 
 </td><td>
 
@@ -127,7 +128,7 @@ Map&lt;String, Any&gt;
 
 </td><td>
 
-Optional. Additional chat context variables to pass into the chat session.For additional information on chat context variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
+Optional. Additional chat context variables to pass into the chat session.For additional information on chat context variables, see .
 
 </td></tr><tr><td>
 
@@ -135,7 +136,7 @@ chatConfiguration
 
 </td><td>
 
-[NowChatConfiguration](../../NowChatOptions/concept/NowChatOptionsAndroid.md#)
+[NowChatConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md)
 
 </td><td>
 
@@ -226,7 +227,7 @@ NowChatUnreadMessagesCountListener
 
 </td><td>
 
-Listener that you implement to obtain the number of unread chat messages. You must also unsubscribe to this listener when you no longer want to obtain the unread message count using the [NowChatService - unsubscribeFromUnreadMessageCount\(listener: NowChatUnreadMessagesCountListener\)](NowChatServiceAndroidAPI.md#) method.
+Listener that you implement to obtain the number of unread chat messages. You must also unsubscribe to this listener when you no longer want to obtain the unread message count using the [NowChatService - unsubscribeFromUnreadMessageCount\(listener: NowChatUnreadMessagesCountListener\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceAndroidAPI.md) method.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -287,7 +288,7 @@ Updates the NowChat UI theme with the specified UI theme. Use this function to u
 
 |Name|Type|Description|
 |----|----|-----------|
-|nowChatTheme|[NowChatTheme](../../NowChatTheme/concept/NowChatThemeColorsAndroidInterface.md)|Theme object to use in the NowChat UI.|
+|nowChatTheme|[NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeColorsAndroidInterface.md)|Theme object to use in the NowChat UI.|
 
 |Type|Description|
 |----|-----------|

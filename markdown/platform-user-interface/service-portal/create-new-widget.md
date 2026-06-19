@@ -2,6 +2,7 @@
 title: Create a new widget
 description: Create a new widget to build a custom widget from scratch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/create-new-widget.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -31,7 +32,7 @@ Role required: admin or sp\_admin
 
     The widget ID is created automatically based on the widget name. You can then select **Create test page** to automatically create a page containing the widget.
 
-    ![Create a new widget](../image/add-widget.png)
+    \[Omitted image "add-widget.png"\] Alt text: Create a new widget
 
     **Note:** After completing development of a widget with a test page, delete the test page. Maintaining test pages can create clutter when managing pages.
 
@@ -39,10 +40,10 @@ Role required: admin or sp\_admin
 
     The widget HTML template, client script, and server script display in the widget editor. Basic script templates are included as a guide.
 
-    **Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see [Turn on ECMAScript 2021 \(ES12\) mode for a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-es12-mode-scripts.md).
+    **Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see .
 
-    ![Widget editor IDE](../image/basic-widget.png)
+    \[Omitted image "basic-widget.png"\] Alt text: Widget editor IDE
 
 
-**Parent Topic:**[Developing custom widgets](../concept/widget-dev-guide.md)
+**Parent Topic:**[Developing custom widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md)
 

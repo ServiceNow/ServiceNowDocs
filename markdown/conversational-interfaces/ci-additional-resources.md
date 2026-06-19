@@ -2,7 +2,10 @@
 title: Additional resources for Conversational Interfaces
 description: If you’re looking for Conversational Interfaces \(CI\) best practices, troubleshooting, or other implementation guidelines, select a feature or resource type to discover ServiceNow resources on other relevant websites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ci-additional-resources.html
 release: australia
+product: Conversational Interfaces
+classification: conversational-interfaces
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -59,7 +62,7 @@ Release notes
 
 </td><td>
 
-[Now Assist in Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-va-rn.md)
+
 
 </td></tr><tr><td>
 
@@ -89,7 +92,7 @@ Release notes
 
 </td><td>
 
-[Sidebar release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/sidebar-rn.md)
+
 
 </td></tr><tr><td>
 
@@ -125,7 +128,7 @@ Release notes
 
 </td><td>
 
-[Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/virtual-agent-rn.md)
+
 
 </td></tr><tr><td>
 

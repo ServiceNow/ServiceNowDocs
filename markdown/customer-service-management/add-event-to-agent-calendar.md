@@ -2,7 +2,10 @@
 title: Add an event to the agent calendar
 description: Users with the agent schedule user role can add events to their personal calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-event-to-agent-calendar.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -25,7 +28,7 @@ Role required: agent\_schedule\_user
     -   **Field Service** &gt; **Agent** &gt; **My Schedule**
 2.  Double-click a timeslot or click and drag over a timeslot on the calendar to open the New Event form.
 
-    ![The agent schedule shows an event on Tuesday, July 9, and a new event being selected for Wednesday, July 10.](../image/agent-my-schedule.png "Agent schedule")
+    \[Omitted image "agent-my-schedule.png"\] Alt text: The agent schedule shows an event on Tuesday, July 9, and a new event being selected for Wednesday, July 10.
 
 3.  Fill in the fields on the New Event form, as necessary.
 

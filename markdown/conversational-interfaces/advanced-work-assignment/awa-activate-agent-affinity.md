@@ -2,6 +2,7 @@
 title: Activate Agent Affinity
 description: You can activate the Agent Affinity plugin \(com.glide.awa.agent\_affinity\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-activate-agent-affinity.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

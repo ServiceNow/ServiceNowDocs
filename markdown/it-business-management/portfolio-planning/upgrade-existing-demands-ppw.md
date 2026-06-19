@@ -1,65 +1,45 @@
 ---
 title: Upgrade existing demands
-description: Execute scheduled jobs to upgrade your existing active and inactive demands after activating the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin.
+description: Execute scheduled jobs to upgrade your existing active and inactive demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/upgrade-existing-demands-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Multicurrency, Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Multicurrency in demands, Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Upgrade existing demands
 
-Execute scheduled jobs to upgrade your existing active and inactive demands after activating the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin.
+Execute scheduled jobs to upgrade your existing active and inactive demands.
 
 ## Before you begin
 
-Activate the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin.
+The PPM Standard Multicurrency feature must have been installed. For more information, see [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 Role required: admin
 
 ## About this task
 
-Run these scheduled jobs on demand to upgrade your existing active and inactive demands in demand currency only when necessary.
-
-**Note:** The jobs can impact performance depending on the number of demands and cost plans. Run the jobs only when necessary.
+**Note:** Because these jobs can impact performance depending on the number of demands and cost plans, run the jobs only when necessary.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
-2.  Execute the appropriate scheduled job for your demands.
+2.  Search for and select the appropriate scheduled job for your demands.
 
-<table id="choicetable_ndl_hwg_2nb"><thead><tr><th align="left" id="d236476e86">
+    -   For active demands: **Upgrade demand currency fields for active demands**
 
-Demand type
+        The job copies all amounts in the cost-related fields of the demands to demand currency. The Baseline, Cost Plan, Cost Plan Breakdown, Benefit Plan, and Benefit Plan Breakdown fields also change to the demand currency. You cannot edit the demand currency after the values are copied because the financial costs exist.
 
-</th><th align="left" id="d236476e89">
+    -   For inactive demands: **Upgrade demand currency fields for inactive demands**
 
-Steps
+        The job copies the values in the cost-related fields for inactive demands to the demand currency. The currency in the Baselines, Cost Plans, Cost Plan Breakdowns, Benefit Plans, Benefit Plan Breakdowns, and Expense Lines forms changes to the demand currency.
 
-</th></tr></thead><tbody><tr><td id="d236476e95">
+3.  Select **Execute Now**.
 
-**Active demands**
 
-</td><td>
-
-1.  Find and the **Upgrade demand currency fields for active demands** scheduled job.
-2.  Select **Execute Now**.
- The job copies all amounts in the cost-related fields of the demands to demand currency. The Baseline, Cost Plan, Cost Plan Breakdown, Benefit Plan, and Benefit Plan Breakdown fields also change to the demand currency. You can’t edit the demand currency after the values are copied because the financial costs exist.
-
-</td></tr><tr><td id="d236476e122">
-
-**Inactive demands**
-
-</td><td>
-
-1.  Find and open the **Upgrade demand currency fields for inactive demands** scheduled job.
-2.  Select **Execute Now**.
- The job copies the values in the cost-related fields for inactive demands to the demand currency. The currency in the Baselines, Cost Plans, Cost Plan Breakdowns, Benefit Plans, Benefit Plan Breakdowns, and Expense Lines forms changes to the demand currency.
-
-</td></tr></tbody>
-</table>

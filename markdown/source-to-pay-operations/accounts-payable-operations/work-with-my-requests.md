@@ -1,19 +1,21 @@
 ---
 title: Working with My Requests
-description: View and respond to invoice inquiries.
+description: View and manage invoice inquiry cases assigned to you as a supplier, including responding to requests from the Accounts Payable team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-with-my-requests.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, supplier, invoice automation]
 breadcrumb: [Using Supplier Collaboration Portal in APO, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Working with My Requests
 
-View and respond to invoice inquiries.
+View and manage invoice inquiry cases assigned to you as a supplier, including responding to requests from the Accounts Payable team.
 
 ## Before you begin
 
@@ -23,7 +25,7 @@ Role required: Supplier
 
 1.  Navigate to the header on the home page &gt; **My Requests**.
 
-    Lists all the invoice inquiry cases assigned to supplier. For more information on invoice inquiry cases, see [Invoice inquiry cases](../concept/work-with-inquiry-cases.md).
+    Lists all the invoice inquiry cases assigned to supplier. For more information on invoice inquiry cases, see [Invoice inquiry cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-inquiry-cases.md).
 
 2.  You can apply filter on **View** option which will display the open and closed requests.
 
@@ -51,5 +53,5 @@ Role required: Supplier
     The Accounts Payable agent interacts with the supplier and updates the inquiry case using the **Activity** option.
 
 
-**Parent Topic:**[Using Supplier Collaboration Portal in APO](../concept/using-supplier-collaboration-portal.md)
+**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

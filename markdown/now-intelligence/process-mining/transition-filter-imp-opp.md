@@ -2,6 +2,7 @@
 title: Set improvement opportunities from Analyst workbench
 description: Set a process step filter as a rule-based improvement opportunity for your process table or your project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/transition-filter-imp-opp.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -32,7 +33,7 @@ Role required:
 
     The Process step filter window is displayed.
 
-    ![Process step filter](../image/process-step-filter.png)
+    \[Omitted image "process-step-filter.png"\] Alt text: Process step filter
 
 4.  Set the filters.
 
@@ -69,17 +70,17 @@ Role required:
 
     7.  You can copy or paste a process step filter by selecting the **Copy** or **Paste** option from the list.
 
-        ![Copy or paste a filter](../image/copy-process-filter.png)
+        \[Omitted image "copy-process-filter.png"\] Alt text: Copy or paste a filter
 
 5.  Select **Save as improvement opportunity** from the Actions list.
 
-    ![Save as improvement opportunity from Actions list](../image/action-save-as-impopp.png)
+    \[Omitted image "action-save-as-impopp.png"\] Alt text: Save as improvement opportunity from Actions list
 
     The Save as improvement opportunity definition dialog box is displayed.
 
 6.  Fill the details on the Save as improvement opportunity definition dialog box.
 
-    ![Save as improvement opportunity dialog box](../image/save-impopp.png)
+    \[Omitted image "save-impopp.png"\] Alt text: Save as improvement opportunity dialog box
 
     **Note:** You can add this improvement opportunity either to the project, process configuration, or both. The **Apply to** field provides the options.
 
@@ -90,5 +91,5 @@ Role required:
     The improvement opportunity is created and added to your process configuration, project, or both according to your preference.
 
 
-**Parent Topic:**[Setting improvement opportunity for projects](../concept/project-imp-opp.md)
+**Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-imp-opp.md)
 

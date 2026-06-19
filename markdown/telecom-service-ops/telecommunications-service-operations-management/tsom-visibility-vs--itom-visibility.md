@@ -2,6 +2,7 @@
 title: Telecom Visibility vs. ITOM Visibility
 description: As telecom networks evolve and become more hybrid and complex, visibility into infrastructure is more critical than ever. To meet the unique needs of different environments, ServiceNow AI Platform offers two purpose-built visibility solutions: ITOM Visibility and Telecom Visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/tsom-visibility-vs--itom-visibility.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management

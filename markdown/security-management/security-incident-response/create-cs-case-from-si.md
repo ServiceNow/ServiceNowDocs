@@ -2,6 +2,7 @@
 title: Create a Customer Service case from a security incident
 description: Security Incident Response ships with a default field mapping that maps a security incident to a Customer Service \(CS\) case. You can create a CS case from any security incident, edit the Priority, and also add Optional notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-cs-case-from-si.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -45,5 +46,5 @@ Role required: sn\_si.basic and sn\_customerservice\_agent
 **Related topics**  
 
 
-[Customer service case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-case-management.md)
+[bundle-csm.configure-csm-case-management]
 

@@ -2,6 +2,7 @@
 title: Managing expiring contracts for leased enterprise assets
 description: You can use the Contract and lease management view to track and take action on leased enterprise assets that are nearing the end of their contracts. You can choose to return your leased enterprise assets, buy out your leased enterprise assets, or extend your lease contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -31,16 +32,16 @@ When the lease-end process begins, the Enterprise Asset Management application a
 
 Based on the action that you select, you must then perform all subsequent tasks to complete the lease-end process and move the lease contract out of the expiring substate.
 
--   **[Begin the lease-end process for an expiring enterprise asset lease contract](../task/begin-lease-end-process-eam.md)**  
+-   **[Begin the lease-end process for an expiring enterprise asset lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/begin-lease-end-process-eam.md)**  
 Initiate the lease-end process for an expiring enterprise asset lease contract so that you can return the associated enterprise asset, buy out the associated enterprise asset, or extend the lease contract.
--   **[Complete the Planning task for an expiring enterprise asset lease contract](../task/complete-leased-asset-planning.md)**  
+-   **[Complete the Planning task for an expiring enterprise asset lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.md)**  
 Complete the Planning task for an expiring enterprise asset lease contract so that you can proceed with either returning the associated enterprise asset, buying out the associated enterprise asset, or extending the lease contract.
--   **[Return a leased enterprise asset](../task/return-leased-enterprise-asset.md)**  
+-   **[Return a leased enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/return-leased-enterprise-asset.md)**  
 Return a leased enterprise asset to the asset vendor before the corresponding lease contract expires.
--   **[Buy out a leased enterprise asset](../task/buy-out-leased-enterprise-asset.md)**  
+-   **[Buy out a leased enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/buy-out-leased-enterprise-asset.md)**  
 Buy out a leased enterprise asset before the corresponding lease contract expires.
--   **[Extend the lease contract for an enterprise asset](../task/extend-enterprise-asset-lease-contract.md)**  
+-   **[Extend the lease contract for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/extend-enterprise-asset-lease-contract.md)**  
 Extend the lease contract for an enterprise asset before it expires.
 
-**Parent Topic:**[Create and manage contracts for enterprise assets](create-manage-enterprise-asset-contracts.md)
+**Parent Topic:**[Create and manage contracts for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-asset-contracts.md)
 

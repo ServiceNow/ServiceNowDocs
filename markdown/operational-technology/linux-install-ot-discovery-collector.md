@@ -2,11 +2,14 @@
 title: Install OT Discovery Collector on a Linux system
 description: Install the OT Discovery Collector on a Linux system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/linux-install-ot-discovery-collector.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 1
-breadcrumb: [Configure the OT Discovery Collector, OT Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install OT Discovery Collector on a Linux system
@@ -29,13 +32,15 @@ Role required: admin
 
 1.  On your instance, navigate to the Service Graph Connector for ServiceNow OT Discovery Guided Setup page.
 
-2.  Click the **Get Started**.
+2.  Select the **Get Started**.
 
     The **Download &amp; Deploy OT Discovery** page opens.
 
 3.  In the first section of the setup, select **Download &amp; Deploy OT Discovery**.
 
 4.  Select **Configure** and the **Downloads** page opens.
+
+    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Downloads page
 
     **Note:** Read the End User License Agreement \(EULA\) carefully and then check **Agree**.
 

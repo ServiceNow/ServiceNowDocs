@@ -2,6 +2,7 @@
 title: Create an application service for unmapped servers
 description: Maximize the use of your organization's resources by mapping application service candidates that include unmapped servers. Use the Service Mapping workspace's unmapped servers widget to create an application service and ensure that your servers are used efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/unmapped-servers.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -22,7 +23,7 @@ Maximize the use of your organization's resources by mapping application service
 -   Verify Machine Learning readiness.
 -   Confirm that the data is trained.
 
-For more information, see [Application service readiness dashboard in configurable workspace](../reference/readiness-dashboard-ml.md).
+For more information, see [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/readiness-dashboard-ml.md).
 
 **Important:**
 
@@ -38,15 +39,15 @@ Role required: service\_mapping\_admin
 
 2.  Select the unmapped server that you want to use to create an application service.
 
-<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d552623e135">
+<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d306086e135">
 
 Version of Service Mapping Plus
 
-</th><th align="left" id="d552623e141">
+</th><th align="left" id="d306086e141">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d552623e147">
+</th></tr></thead><tbody><tr><td id="d306086e147">
 
 **Versions released before version 1.16.3**
 
@@ -59,13 +60,13 @@ Actions
     |Organization method|Action|
     |-------------------|------|
     |Order|Select a column name to sort the results in ascending or descending order.|
-    |Group|Select the menu \(![Menu icon](../../service-operations-workspace-itom/image/menu-icon.png)\) icon to group results by the selected column.|
+    |Group|Select the menu \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) icon to group results by the selected column.|
 
 4.  Select the preferred candidate.
 5.  Select **Map application service**.
 
 
-</td></tr><tr><td id="d552623e229">
+</td></tr><tr><td id="d306086e229">
 
 **Starting with version 1.16.3**
 
@@ -81,7 +82,7 @@ Actions
     |Organization method|Action|
     |-------------------|------|
     |Order|Select a column name to sort the results in ascending or descending order.|
-    |Group|Select the menu \(![Menu icon](../../service-operations-workspace-itom/image/menu-icon.png)\) icon to group results by the selected column.|
+    |Group|Select the menu \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) icon to group results by the selected column.|
 
 4.  Select the preferred server or candidate.
 5.  Select **Map application service**.
@@ -93,5 +94,5 @@ Actions
 
 The selected application service candidate is converted to an application service, and the selected unmapped servers are mapped.
 
-**Parent Topic:**[Using Service Mapping](../concept/using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
 

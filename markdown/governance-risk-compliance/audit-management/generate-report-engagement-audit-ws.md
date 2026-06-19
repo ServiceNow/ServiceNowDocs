@@ -2,6 +2,7 @@
 title: Generate a report for an engagement in a classic report template
 description: Generate a report that summarizes the findings of an engagement to communicate the report findings to executives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/generate-report-engagement-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -27,7 +28,7 @@ You can generate a report for engagements that are in the **Awaiting approval**,
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the lists icon \(![List icon.](../image/ListsIcon.jpg)\).
+2.  Select the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: List icon.\).
 
 3.  Select **All engagements** or **My engagements** in the Execution list.
 

@@ -2,6 +2,7 @@
 title: Domain separation and Metric Intelligence
 description: Domain separation is supported in Metric Intelligence. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/domain-separation-operational-intelligence.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -25,13 +26,13 @@ Domain separation is supported in Metric Intelligence. Domain separation enables
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in Metric Intelligence
 
 When domains are separated in Metric Intelligence, users can view and manage alerts and events only in their own \(tenant\) domain. After the binding process has finished, the domain of the configuration item \(CI\) is used so that users within that domain can explore metric data. A domain column is present for Metric Intelligence tables that are provided in the base system. The domain column shows the name of the domain to which the CI belongs.
 
-**Note:** If the domain column does not appear in the list, click ![Personalize List to add a column](../image/PersonalizeIcon.png)\(Personalize List\) and add the required column. In addition, you can add a column that displays the domain path.
+**Note:** If the domain column does not appear in the list, click \[Omitted image "PersonalizeIcon.png"\] Alt text: Personalize List to add a column\(Personalize List\) and add the required column. In addition, you can add a column that displays the domain path.
 
 The following Metric Intelligence features have limited domain separation support.
 
@@ -87,5 +88,5 @@ Supported at global level.
 </table>**Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

@@ -2,6 +2,7 @@
 title: Cisco ACE load balancer discovery
 description: Discovery identifies and classifies information about ACE load balancers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/ace-load-balancer-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,7 +20,7 @@ Discovery identifies and classifies information about ACE load balancers.
 
 ## Credentials
 
-Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md) and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+Configure SNMP credentials and SSH credentials.
 
 ## Classifier, pattern, and probe
 
@@ -88,5 +89,5 @@ The following data is collected on the Load Balancer Interface table \[cmdb\_ci\
 |MAC address|mac\_address|
 |Operational status|operational\_status|
 
-**Parent Topic:**[Load balancer discovery](c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

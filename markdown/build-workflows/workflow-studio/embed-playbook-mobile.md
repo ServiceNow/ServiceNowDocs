@@ -2,6 +2,7 @@
 title: Embed a playbook in ServiceNow mobile
 description: Embed a playbook in ServiceNow mobile by creating a screen in Mobile App Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/embed-playbook-mobile.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Embed a playbook in ServiceNow® mobile by creating a screen in Mobile App Build
 
 Role required: admin
 
-If you haven't configured your playbook for ServiceNow® mobile in UI Builder yet, see [Configure a playbook for ServiceNow mobile](configure-playbook-mobile.md).
+If you haven't configured your playbook for ServiceNow® mobile in UI Builder yet, see [Configure a playbook for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-playbook-mobile.md).
 
 ## Procedure
 
@@ -28,21 +29,21 @@ If you haven't configured your playbook for ServiceNow® mobile in UI Builder ye
 
 3.  Search for and select the scope of the application that you want to create a screen for.
 
-    ![The Mobile App Builder landing page](../image/mobile-app-builder-landing.png)
+    \[Omitted image "mobile-app-builder-landing.png"\] Alt text: The Mobile App Builder landing page
 
 4.  Navigate to **Screens**.
 
-    ![Navigating to Screens](../image/mobile-app-builder-screens.png)
+    \[Omitted image "mobile-app-builder-screens.png"\] Alt text: Navigating to Screens
 
 5.  To create new screen, select **New**.
 
 6.  In the **Create a screen** modal, select **Mobile Web**.
 
-    ![Create a screen modal](../image/create-screen-mobile-web.png)
+    \[Omitted image "create-screen-mobile-web.png"\] Alt text: Create a screen modal
 
     The form for a new mobile web screen appears.
 
-    ![Form for a new mobile web screen](../image/new-mobile-web-screen.png)
+    \[Omitted image "new-mobile-web-screen.png"\] Alt text: Form for a new mobile web screen
 
 7.  Give your mobile web screen a name and description.
 
@@ -50,30 +51,30 @@ If you haven't configured your playbook for ServiceNow® mobile in UI Builder ye
 
 9.  Under **Screen Settings**, enter the URL of your mobile playbook.
 
-    ![Properties for the mobile web screen](../image/create-screen-mobile-web-form.png)
+    \[Omitted image "create-screen-mobile-web-form.png"\] Alt text: Properties for the mobile web screen
 
     **Important:** The **web\_controller\_spinner=on** parameter is important to include for proper loading behavior on mobile.
 
     /now/playbook-mobile/playbook/interaction/-1/params/view/stages​​​​​​​?web\_controller\_spinner=on
 
-10. If you have any roles you want to limit this screen to, or any other configurations you would like to learn more about, see [Configure a mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-configure-url-screen.md).
+10. If you have any roles you want to limit this screen to, or any other configurations you would like to learn more about, see .
 
 11. **Save** the screen.
 
     Your mobile web screen is configured for your playbook.
 
 12. Configure the Mobile Agent
-13. Navigate back to the scope level by selecting the home icon \(![Home icon that brings you back to the scope level](../image/home-icon-app-scope.png)\).
+13. Navigate back to the scope level by selecting the home icon \(\[Omitted image "home-icon-app-scope.png"\] Alt text: Home icon that brings you back to the scope level\).
 
 14. Select **Mobile app configs**.
 
-    ![Navigating to the Mobile Agent](../image/nav-to-mobile-agent.png)
+    \[Omitted image "nav-to-mobile-agent.png"\] Alt text: Navigating to the Mobile Agent
 
 15. Select **Mobile Agent**.
 
 16. In the banner message at the top, select **Edit in original scope**.
 
-    ![Edit in original scope banner message](../image/edit-original-scope.png)
+    \[Omitted image "edit-original-scope.png"\] Alt text: Edit in original scope banner message
 
 17. In the component tree, select the **Launcher screen** component.
 

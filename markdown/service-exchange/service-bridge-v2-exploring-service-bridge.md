@@ -2,6 +2,7 @@
 title: Exploring Service Exchange
 description: Service Exchange helps providers, consumers, and partners connect their ServiceNow instances to build secure business workflows across the ServiceNow ecosystem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-exploring-service-bridge.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -30,7 +31,7 @@ Service Exchange has two components or applications:
 
 Service Exchange enables providers to integrate their ServiceNow instances with their customers and partners seamlessly.
 
-![Infographic showing how Service Exchange connects various ServiceNow instances.](../image/service-bridge-v2-explore-sb-lp.svg)
+\[Omitted image "service-bridge-v2-explore-sb-lp.svg"\] Alt text: Infographic showing how Service Exchange connects various ServiceNow instances.
 
 1.  -   **Service Exchange establishes the connection**
 
@@ -55,17 +56,17 @@ Service Exchange promotes real-time collaboration by keeping all connected insta
 
 |Feature|Benefit|
 |-------|-------|
-|[Mismatched versions](service-bridge-v2-mismatch-version.md)|Run provider and consumer instances on different platform releases and application versions without disrupting the active entitlements or processes.|
-|[Configuration revisions](service-bridge-v2-config-revision.md)|Edit or create revisions of entitlements such as remote tasks, remote catalogs, with updated functionality, and deploy them to consumers.|
-|[Remote catalog](service-bridge-v2-create-apps.md)|Keep the development of shared catalogs and the workflows/integrations in the provider instance while sharing them with consumers as simple record producers that generate integrated requests in the provider instance.|
-|[Proactive cases](service-bridge-v2-proactive-case.md)|Collaborate and foster transparency with your customers by sending Provider Tasks to the consumer instance.|
-|[Provider task](service-bridge-v2-provider-tasks.md)|Send case alerts proactively from the provider task table to connected consumers without additional setup or configuration to promote transparency and collaboration.|
-|[Remote task](service-bridge-v2-remote-task-overview.md)|Use remote task as a sustainable alternative to custom eBonding to create linked tasks across multiple instances without building an integration. A remote task transmits comments, attachments, and mapped fields between instances, enabling better business workflows.|
-|[ScratchPad](service-bridge-v2-scratchpad-consumer.md)|Share name-value pairs as JSON data on provider tasks and remote tasks to enable structured data exchange between instances.|
-|[Foundation data sync](service-bridge-v2-explore-foundation-data-sync.md)|Share selected foundational data types with your consumers on a scheduled cadence to reduce manual effort, and eliminate the need to share data externally.|
-|[Journal field framework](service-bridge-v2-expolre-journal-field-framework.md)|Map and synchronize journal-type fields between provider and consumer instances to keep critical operational updates current. It also maintains historical continuity by synchronizing previous journal entries, and enhances authenticity and accountability by writing journal entries as a named user rather than using a generic company name.|
-|[Flow action](service-bridge-v2-flow-action.md)|Ensure that remote tasks and remote record producers continue to function correctly as you adopt newer revisions by maintaining flow compatibility across configuration updates using four new Flow Actions that preserve mapped variable integrity.|
-|[Magic link](service-bridge-v2-explore-magic-link.md)|Convert regular links sent from a provider instance into magic links that enable consumer users to access the linked resource directly in the provider instance without having to log in manually.|
+|[Mismatched versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-mismatch-version.md)|Run provider and consumer instances on different platform releases and application versions without disrupting the active entitlements or processes.|
+|[Configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-config-revision.md)|Edit or create revisions of entitlements such as remote tasks, remote catalogs, with updated functionality, and deploy them to consumers.|
+|[Remote catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-apps.md)|Keep the development of shared catalogs and the workflows/integrations in the provider instance while sharing them with consumers as simple record producers that generate integrated requests in the provider instance.|
+|[Proactive cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-proactive-case.md)|Collaborate and foster transparency with your customers by sending Provider Tasks to the consumer instance.|
+|[Provider task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-provider-tasks.md)|Send case alerts proactively from the provider task table to connected consumers without additional setup or configuration to promote transparency and collaboration.|
+|[Remote task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-task-overview.md)|Use remote task as a sustainable alternative to custom eBonding to create linked tasks across multiple instances without building an integration. A remote task transmits comments, attachments, and mapped fields between instances, enabling better business workflows.|
+|[ScratchPad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-scratchpad-consumer.md)|Share name-value pairs as JSON data on provider tasks and remote tasks to enable structured data exchange between instances.|
+|[Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)|Share selected foundational data types with your consumers on a scheduled cadence to reduce manual effort, and eliminate the need to share data externally.|
+|[Journal field framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-expolre-journal-field-framework.md)|Map and synchronize journal-type fields between provider and consumer instances to keep critical operational updates current. It also maintains historical continuity by synchronizing previous journal entries, and enhances authenticity and accountability by writing journal entries as a named user rather than using a generic company name.|
+|[Flow action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-flow-action.md)|Ensure that remote tasks and remote record producers continue to function correctly as you adopt newer revisions by maintaining flow compatibility across configuration updates using four new Flow Actions that preserve mapped variable integrity.|
+|[Magic link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-explore-magic-link.md)|Convert regular links sent from a provider instance into magic links that enable consumer users to access the linked resource directly in the provider instance without having to log in manually.|
 
 ## Applications
 
@@ -111,7 +112,7 @@ This application enables the consumer to receive services and support from provi
 
 ## What to explore next
 
--   [Service Exchange for Providers](service-bridge-providers-landing-page.md)
--   [Service Exchange for Consumers](service-bridge-consumers-landing-page.md)
--   [Service Exchange reference](../reference/service-bridge-v2-reference.md)
+-   [Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-providers-landing-page.md)
+-   [Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-consumers-landing-page.md)
+-   [Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-reference.md)
 

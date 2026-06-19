@@ -2,6 +2,7 @@
 title: Manage job postings in Opportunity Marketplace
 description: Job postings must be created and managed directly in the Job Posting \[sn\_ta\_hiring\_core\_job\_posting\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-create-job-posting.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -166,5 +167,5 @@ An estimate of the amount of time travel required for this job.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use Opportunity Marketplace](../concept/egd-oppt-mrktplc-using.md)
+**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
 

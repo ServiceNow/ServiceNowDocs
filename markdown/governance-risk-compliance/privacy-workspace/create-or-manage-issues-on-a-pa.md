@@ -2,6 +2,7 @@
 title: Create or add issues on a processing activity
 description: Create issues or add existing issues for a processing activity. Associating issues to a processing activity helps you to identify and prioritize remediation actions. Relating issues reduces the number of issues customers need to manage, thus improving the overall organizational efficiency in management of these issues.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-or-manage-issues-on-a-pa.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -44,5 +45,5 @@ Issues get created when there are control attestation failures. You can also man
 7.  Click **Save**.
 
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

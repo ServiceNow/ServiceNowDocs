@@ -2,6 +2,7 @@
 title: Create an Atlassian Administration API Key
 description: Create an Atlassian Administration API Key to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-atlassian-api-key.html
 release: australia
 product: Integration Hub
 classification: integration-hub

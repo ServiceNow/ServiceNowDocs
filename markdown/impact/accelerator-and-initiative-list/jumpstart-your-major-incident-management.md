@@ -2,6 +2,7 @@
 title: Jumpstart Your Major Incident Management
 description: This accelerator provides a demonstration of the possibilities and capabilities of Major Incident Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-major-incident-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator Overview
 
 Jumpstart Your Major Incident Management \(MIM\) provides ServiceNow administrators and technical teams with a ready-to-use temporary instance to explore base-system Major Incident workflows. It showcases core capabilities such as incident prioritization, cross-team collaboration, communication templates, and post-incident reviews. This helps teams envision how to accelerate response times and reduce business impact during critical outages. Additionally, this offering provides key resources and leading practices to get started with Major Incident Management.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -133,5 +136,7 @@ Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leadin
 ✓
 
 </td></tr></tbody>
-</table>**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+</table>## Requested Information/Access
+
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

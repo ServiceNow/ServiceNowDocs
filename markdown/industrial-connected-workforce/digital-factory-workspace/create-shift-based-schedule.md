@@ -2,6 +2,7 @@
 title: Create a shift-based schedule plan
 description: Create a scheduled plan for standard tasks based on shift configuration of a functional location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-shift-based-schedule.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -26,7 +27,7 @@ To use shift-based scheduling with automatic time zone and time frame calculatio
 
 ## About this task
 
-In the [Create a standard schedule plan](create-events-based-on-schedules.md) procedure, you can create a customized schedule. If you want to create a shift-based schedule, select the **Shift** option at the top of the form before configuring the recurrence pattern.
+In the [Create a standard schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-events-based-on-schedules.md) procedure, you can create a customized schedule. If you want to create a shift-based schedule, select the **Shift** option at the top of the form before configuring the recurrence pattern.
 
 ## Procedure
 
@@ -37,7 +38,7 @@ In the [Create a standard schedule plan](create-events-based-on-schedules.md) pr
     -   The **Start date/time** and **End date/time** fields are hidden.
     -   A **Start date** field is displayed with date only. Select the date from which the schedule plan starts initiating tasks.
     -   The system automatically calculates the start and end time frames based on the selected shifts and the production day configuration of the functional location.
-    For more information about shift-based scheduling, see [Shift-based scheduling for manufacturing standards](../concept/icw-shift-based-scheduling.md).
+    For more information about shift-based scheduling, see [Shift-based scheduling for manufacturing standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/icw-shift-based-scheduling.md).
 
 2.  Verify the time zone displayed on the custom schedule page.
 
@@ -55,5 +56,5 @@ For shift-based schedules, the system generates standard tasks sequentially, one
 -   Duplicate events and tasks are detected and cleaned up during schedule updates.
 -   If the schedule is deactivated or modified, the system invalidates pending occurrences and adjusts future task generation accordingly.
 
-**Parent Topic:**[Create a standard schedule plan](create-events-based-on-schedules.md)
+**Parent Topic:**[Create a standard schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-events-based-on-schedules.md)
 

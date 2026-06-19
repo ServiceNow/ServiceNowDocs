@@ -2,6 +2,7 @@
 title: Landing page and dashboard views
 description: The landing page in the Operational Resilience Workspace provides a single-pane overview of the services, business services, and pillars in your organization. The dashboard displays resilience metrics, including operational status, completed activities, red flags, and suggestions for improvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-homepage.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ The landing page in the Operational Resilience Workspace provides a single-pane 
 
 The flexible data model introduced with Operational Resilience, Release 21.0.x provides a foundation for the dashboards and tracks the flow of dependent services. The data, including red flags by type, such as failed controls, incidents, and outages, and business service metrics such as number of flags, importance, and impact tolerance, is updated in the dashboard through changes to the flexible data model.
 
-![Dashboard data.](../../grc-operational-res/image/dashboard-data.png)
+\[Omitted image "dashboard-data.png"\] Alt text: Dashboard data.
 
 The data shown in the example is for business services such as business service by number of red flags, business service by importance, business service by impact tolerance. You can change it service offerings, business processes, or application services by configuring the **sn\_oper\_res.top\_class\_name** property. You can then change the top class to another object and the system shows data with respect to that specific top class.
 
@@ -23,7 +24,7 @@ The data shown in the example is for business services such as business service 
 
 The dashboard shown in the earlier example displays a range of 1-30 red flags. Upon selecting, it shows a detailed breakdown, showing a total of 20 red flags, with 3 specifically attributed to the "cards and payments" level. This illustrates the roll-up functionality, which aggregates red flags beneath the selected "Cards and Payments" business service, providing a hierarchical view of the data.
 
-![red flags.](../../grc-operational-res/image/red-flags-breakup.png)
+\[Omitted image "red-flags-breakup.png"\] Alt text: red flags.
 
 The value "24" shown in the Total red flags count column is the roll-up value of the red flags for all entities under the "Cards and Payments" business service.
 
@@ -72,7 +73,7 @@ High risks - Advanced risk
 
 Conditions:-   entity\_1=profile
 -   status=30
--   summary\_residual\_risk\_score should be greater then the higher than the max criteria defined in risk\_assessment\_methodology
+-   summary\_residual\_risk\_score should be greater than the max criteria defined in risk\_assessment\_methodology
 -   Should not have any open assessments linked to sn\_risk\_advanced\_risk\_assessment\_instance
 
 </td><td>

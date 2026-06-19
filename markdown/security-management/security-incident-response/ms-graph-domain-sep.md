@@ -2,6 +2,7 @@
 title: Domain separation and Microsoft Graph Security API alert ingestion
 description: Domain separation is supported for this application. The Microsoft Graph Security API integration ingests alerts from Microsoft Graph security providers and automatically creates security incidents. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-domain-sep.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,18 +26,14 @@ Domain separation is supported for this application. The Microsoft Graph Securit
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in the Microsoft Graph Security API
 
 To achieve domain separation, replicate the Microsoft Graph Security API Profile Process and SIR Process Alert Updates scheduled jobs and change the **Run as** users. By default, the system users execute these scheduled jobs. Change the **Run as** to a user with the sn\_si.admin role in the respective domain and run the scheduled job.
 
-![Microsoft Graph Security API: Domain Separation I](../image/ms-graph-domain-sep.png)
-
-![Microsoft Graph Security API: Domain Separation II](../image/ms-graph-domain-sep1.png)
-
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

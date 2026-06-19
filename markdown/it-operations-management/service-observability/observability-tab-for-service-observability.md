@@ -2,6 +2,7 @@
 title: Dynatrace Observability tab for Service Observability
 description: Dashboard and charts on the Dynatrace Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/observability-tab-for-service-observability.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -204,5 +205,5 @@ These dashboards display metrics for databases related to the service.
 |Fatal Sessions|Number of database sessions to this database that were terminated by fatal errors|Dynatrace|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[Dynatrace templates for Service Observability](dynatrace-templates.md)
+**Parent Topic:**[Dynatrace templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/dynatrace-templates.md)
 

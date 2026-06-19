@@ -2,6 +2,7 @@
 title: Change the default expense type for your projects
 description: Configure the default expense type to create or edit cost plans for your projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/config-fin-expense-type-pws.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -30,5 +31,5 @@ Role required: admin
     Opex is the default value.
 
 
-**Parent Topic:**[Configure financials for Project Workspace](../concept/config-fin-pws.md)
+**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-fin-pws.md)
 

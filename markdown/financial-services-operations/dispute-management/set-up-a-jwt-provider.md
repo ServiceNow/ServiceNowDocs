@@ -2,12 +2,14 @@
 title: Set up a JWT Provider
 description: Configure a JWT Provider to enable secure token-based authentication for Card Data Security by setting up signing configurations and claim values. This provider generates JSON Web Tokens that authenticate requests to the tokenizer service using credentials from your tokenizer service JSON file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-a-jwt-provider.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [set up jwt provider, jwt provider, json web token provider, signing configuration, standard claims, custom claims, claim value, tokenuri, clientid, jwt bearer token, configure jwt provider]
 breadcrumb: [Set up OAuth for Card Data Security, Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -21,7 +23,7 @@ Role required: admin
 
 This task needs the following:
 
--   A JWT key created for Card Data Security. See [Set up a JWT key](set-up-a-jwt-key.md) for more information.
+-   A JWT key created for Card Data Security. See [Set up a JWT key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-key.md) for more information.
 -   The credentials JSON file obtained from the tokenizer service.
 
 ## Procedure
@@ -67,5 +69,5 @@ A JWT provider record is created with updated claim values.
 
 ## What to do next
 
-[Set up an OAuth Provider](set-up-an-oauth-provider.md).
+[Set up an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-provider.md).
 

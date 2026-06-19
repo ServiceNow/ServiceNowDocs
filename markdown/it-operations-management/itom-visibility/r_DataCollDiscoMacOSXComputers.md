@@ -2,6 +2,7 @@
 title: Mac \(OS/X\) discovery
 description: Discovery identifies and classifies information about Mac \(OS/X\) computers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoMacOSXComputers.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -17,9 +18,9 @@ Discovery identifies and classifies information about Mac \(OS/X\) computers.
 
 ## Credentials
 
-Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+Configure SSH credentials.
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -65,5 +66,5 @@ For a list of privileged commands that you need for Discovery and Service Mappin
 |MAC manufacturer|cmdb\_ci\_network\_adapter|mac\_mfr|Assumed to be Apple|
 |DHCP enabled|cmdb\_ci\_network\_adapter|dhcp\_enabled|system\_profiler|
 
-**Parent Topic:**[Operating systems discovery](../concept/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
 

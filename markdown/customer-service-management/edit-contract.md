@@ -2,7 +2,10 @@
 title: Edit a contract
 description: Enable an agent or manager to edit an open contract that is related to the parent install base item in the Customer Service Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/edit-contract.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

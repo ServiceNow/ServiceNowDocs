@@ -2,6 +2,7 @@
 title: RTE transforms template scripts included within the Integration Commons for CMDB app
 description: The Robust Transform Engine \(RTE\) transforms are templated operations included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/cmdb-rte-transforms.html
 release: australia
 product: CMDB Integration Commons
 classification: cmdb-integration-commons

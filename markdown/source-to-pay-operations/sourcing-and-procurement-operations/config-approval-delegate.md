@@ -2,6 +2,7 @@
 title: Configure approval rule for a delegate
 description: Configure an approval rule for a delegate to ensure that the business owner has better visibility into the request before approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/config-approval-delegate.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,9 +18,11 @@ Configure an approval rule for a delegate to ensure that the business owner has 
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_shop.procurement\_administrator
 
 ## About this task
+
+Shows how to configure an approval rule for a delegate. 
 
 In Shopping Hub, when a delegate checks out on behalf of the delegator, the default workflow assumes the delegate has full permissions to submit purchase requests \(PRs\). However, you can configure an approval rule to ensure that the first approval request is sent to the business owner \(delegator\). This configuration enables the delegator to review the approval request and decide whether to approve or reject it.
 
@@ -116,10 +119,10 @@ Approval trigger conditions
 Conditions based on the approving object that determine the conditions under which an approval plan is created.See the following image to understand the approval trigger conditions you need to configure.
 
 </td></tr></tbody>
-</table>    ![Approval Rule form for creating a approval rule for a delegate.](../image/config-approval-delegate.png)
+</table>    \[Omitted image "config-approval-delegate.png"\] Alt text: Approval Rule form for creating a approval rule for a delegate.
 
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Configure delegate for a shopper](configure-delegate-for-a-shopper.md)
+**Parent Topic:**[Configure delegate for a shopper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.md)
 

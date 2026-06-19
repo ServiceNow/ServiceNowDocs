@@ -2,6 +2,7 @@
 title: Set up the SmartRecruiters spoke
 description: Integrate the ServiceNow instance and SmartRecruiters by using API credentials to authenticate ServiceNow requests.Generate an API key for authenticating SmartRecruiters API requests.Create a connection between your SmartRecruiters applications and your ServiceNow instance so that your instance can retrieve user data from your applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-smartrecruiters.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -91,7 +92,7 @@ Role required: admin
     |Connection Name|Name of the SmartRecruiters connection. This field populates automatically.|
     |Connection URL|URL for the connection. This field is automatically set to **https://api.smartrecruiters.com**.|
     |Credential Information|
-    |API Key|API key for your SmartRecruiters applications. Enter the same API key that you generated in [Generate a SmartRecruiters API key](setup-smartrecruiters.md#).|
+    |API Key|API key for your SmartRecruiters applications. Enter the same API key that you generated in [Generate a SmartRecruiters API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-smartrecruiters.md).|
 
 5.  Click **Create Connection**.
 

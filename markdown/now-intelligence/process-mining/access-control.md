@@ -2,6 +2,7 @@
 title: Access control
 description: When generating or sharing a project, Process Mining honors the access control rules \(ACLs\) for the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/access-control.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -15,7 +16,7 @@ breadcrumb: [Configure, Process Mining, Platform Analytics]
 
 When generating or sharing a project, Process Mining honors the access control rules \(ACLs\) for the table.
 
-When generating a project, Process Mining honors the ACLs on the table that a project reports on, and ignores ACLs on the audit table. Users with the promin\_viewer role have read-only access.
+When generating a project, Process Mining honors the ACLs on the table that a project reports on, and ignores ACLs on the audit table.
 
 When sharing a project:
 
@@ -27,5 +28,5 @@ Summary and insights page:
 -   KPIs are visible to any user who has the required permission to access related KPIs.
 -   Insights are visible to any user who has access to the project.
 
-**Parent Topic:**[Configuring Process Mining](setting-up-process-mining.md)
+**Parent Topic:**[Configuring Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/setting-up-process-mining.md)
 

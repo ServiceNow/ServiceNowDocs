@@ -2,6 +2,7 @@
 title: Generate a fiscal calendar
 description: You can generate a fiscal calendar for a specified time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_GenerateFiscalCalendar.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -23,7 +24,7 @@ Role required: fiscal\_calendar\_admin
 
 **Important:** Once you start working with a set of financial data with a fiscal calendar type, you cannot change to another type of fiscal calendar. Verify that your fiscal calendar can be used with your financial data.
 
-**Note:** Instead of generating fiscal calendars, can also use the Business Calendar functions to create fiscal calendars. To learn more about creating business calendars and schedules, see [Creating business calendars](../../../administer/time/concept/business-calendars.md).
+**Note:** Instead of generating fiscal calendars, can also use the Business Calendar functions to create fiscal calendars. To learn more about creating business calendars and schedules, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md).
 
 ## Procedure
 
@@ -113,5 +114,5 @@ Prefix that the application uses in the name of the records that represent the m
 5.  Navigate to **System Definition** &gt; **Fiscal Periods** and verify that the monthly, quarterly, and annual fiscal period records exist.
 
 
-**Parent Topic:**[Defining fiscal calendars](../concept/c_FiscalCalendar.md)
+**Parent Topic:**[Defining fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_FiscalCalendar.md)
 

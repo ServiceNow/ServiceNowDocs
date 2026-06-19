@@ -2,6 +2,7 @@
 title: Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience
 description: Fine-tune your Virtual Agent settings and topics provided by the Virtual Agent Designer for the best voice chat experience with Alexa.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-settings-for-alexa.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,15 +16,15 @@ breadcrumb: [Configure Conversational Integration with Alexa, Conversational Int
 
 Fine-tune your Virtual Agent settings and topics provided by the Virtual Agent Designer for the best voice chat experience with Alexa.
 
--   Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversation between a Virtual Agent and a user. For more information, see [Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md).
+-   Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversation between a Virtual Agent and a user. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
-    **Note:** Be sure that you specify Alexa as the applicable channel in the **Additional channel support** field if you want the topics that you designed using the Virtual Agent Designer to work on Alexa. For more information about the channel selection, see [Deploying Virtual Agent topics in other channels](va-integrations.md).
+    **Note:** Be sure that you specify Alexa as the applicable channel in the **Additional channel support** field if you want the topics that you designed using the Virtual Agent Designer to work on Alexa. For more information about the channel selection, see [Deploying Virtual Agent topics in other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integrations.md).
 
 -   Bot messages help you to interact with Alexa. You can change the bot messages for interaction in a voice chat conversation. To access the bot messages, enter `sys_cs_provider_application.list` in the navigation filter and navigate to your Alexa application profile to find the bot messages.
 
-    ![Provider Channel Identity settings window for Alexa, next to Alexa Provider Channel Identity window with Bot Messages highlighted.](../images/alexa-bot-messages.png "Bot messages for Alexa")
+    \[Omitted image "alexa-bot-messages.png"\] Alt text: Provider Channel Identity settings window for Alexa, next to Alexa Provider Channel Identity window with Bot Messages highlighted.
 
--   You can change the greeting message and other messages only for the voice channels using the Custom Greeting and Setup page. For example, you can create a custom topic, edit it, and assign it to be used if the end user is on a voice channel. For more information about accessing the Custom Chat and to change the greeting section of the message, see [Configure a Virtual Agent chat experience](../task/configure-default-chat-experience.md).
+-   You can change the greeting message and other messages only for the voice channels using the Custom Greeting and Setup page. For example, you can create a custom topic, edit it, and assign it to be used if the end user is on a voice channel. For more information about accessing the Custom Chat and to change the greeting section of the message, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
 
 -   You can also change the system-generated messages by entering `sys_properties.list` in the navigation filter, and filter them by the criteria `com.glide.cs` to confirm that these messages work for voice channels. You can review the following key messages:
 
@@ -35,7 +36,7 @@ Fine-tune your Virtual Agent settings and topics provided by the Virtual Agent D
     -   com.glide.cs.topic\_confirmation\_message
     **Note:** Most of the messages unique to the voice channels are listed in the Bot Messages section of the Provider Channel Identity record.
 
-    For more information, see [Change the Virtual Agent greeting messages in the Greeting setup topic](../task/va-welcome-topic-selection-msgs.md).
+    For more information, see [Change the Virtual Agent greeting messages in the Greeting setup topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-welcome-topic-selection-msgs.md).
 
 -   Most components work for screen-based and screen-less devices accessed in Alexa. However, some components are not compatible especially for the screen-less devices.
 
@@ -265,10 +266,10 @@ No, reading labels Unfortunately, I cannot show you the content on this device. 
     -   table\_msg
     If you find the message name &lt;EMPTY&gt; and want to add a Boolean confirmation message to the end users, you can configure the bot message with the value \[0\] or \[1\].
 
--   Conversational Integration with Alexa supports contextual actions that serve an appropriate response from custom chat integrations when user input is mapped to them. For more information, see [Contextual actions for Alexa](../reference/alexa-contextual-actions.md).
+-   Conversational Integration with Alexa supports contextual actions that serve an appropriate response from custom chat integrations when user input is mapped to them. For more information, see [Contextual actions for Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/alexa-contextual-actions.md).
 
--   **[Contextual actions for Alexa](../reference/alexa-contextual-actions.md)**  
+-   **[Contextual actions for Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/alexa-contextual-actions.md)**  
 Use the contextual actions supported by Conversational Integration with Alexa to receive an appropriate response during custom chat integrations with Alexa.
 
-**Parent Topic:**[Configure Conversational Integration with Alexa](configure-amazon-alexa.md)
+**Parent Topic:**[Configure Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-amazon-alexa.md)
 

@@ -2,7 +2,10 @@
 title: Configure a Case form view
 description: The Case form contains detailed information about a customer issue or problem. Configure a Case form view to display the desired fields and related lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-case-form.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,13 +26,13 @@ Role required: admin
 
 2.  Configure the form layout to add the fields you require.
 
-    For more information about adding fields to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For more information about adding fields to a form, see Configuring the form layout.
 
     **Note:** If you are using Customer Service Install Base Management and Proactive Customer Service Operations, add the **Sold Product** field.
 
 3.  Configure the form layout to add the related lists you require.
 
-    For more information about adding a related list to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For more information about adding a related list to a form, see Configuring the form layout.
 
     **Note:** If you are using Customer Service Install Base Management and Proactive Customer Service Operations, add the **Affected Install Base Items** related list.
 
@@ -39,5 +42,5 @@ Role required: admin
 **Related topics**  
 
 
-[Create and delete views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-delete-view.md)
+[bundle-platux.create-delete-view]
 

@@ -2,6 +2,7 @@
 title: Show/hide filter controls
 description: The Show/hide filter used in the list configuration, lists the fields to configure in the filter conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/show-hide-filter.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -23,5 +24,5 @@ You can enable the **guide.ui.condition\_builder.sort\_labels\_by\_locale** sys 
 
 **Note:** If the sys property is not enabled, the fields are sorted in an alphabetical order. The fields starting with an accented character are placed at the end of the list.
 
-**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](c_ListConfiguration.md)
+**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_ListConfiguration.md)
 

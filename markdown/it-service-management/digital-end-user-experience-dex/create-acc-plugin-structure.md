@@ -2,6 +2,7 @@
 title: Create an ACC plugin package
 description: Create an Agent Client Collector \(ACC\) plugin package that includes the PowerShell script defining the remedial action, a Ruby script, and an allowlist to enable execution of the remedial action on an endpoint device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/create-acc-plugin-structure.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -141,5 +142,5 @@ Role required: admin
     **Note:** The `tar.gz` file name must match the plugin root folder name. For example, `acc-dex-custom.tar.gz`
 
 
-**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](../concept/remedial-actions-ps.md)
+**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 

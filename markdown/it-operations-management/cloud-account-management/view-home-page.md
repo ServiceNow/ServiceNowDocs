@@ -2,6 +2,7 @@
 title: Viewing the home page
 description: View account statuses and violations, actionable insights, and administrative controls on the home page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/view-home-page.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -22,7 +23,7 @@ As an admin or asset viewer, you can access the home page in either of two ways.
 -   Navigate to **All** &gt; **Cloud Workspace**
 -   Navigate to **Workspaces** &gt; **Cloud Workspace**
 
-![](../image/cam-workspace-dashboard.png "Admin dashboard")
+\[Omitted image "cam-workspace-dashboard.png"\] Alt text: Cloud Workspace home page
 
 **Note:**
 

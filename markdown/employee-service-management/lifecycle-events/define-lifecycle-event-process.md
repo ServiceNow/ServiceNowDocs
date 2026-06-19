@@ -2,6 +2,7 @@
 title: Document the lifecycle event process
 description: Define and document the lifecycle event process. Lifecycle events are generally cross-departmental and require action from different departments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/define-lifecycle-event-process.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -36,11 +37,11 @@ As you map out and define your lifecycle event, consider the following.
 
 New hire onboarding is a lifecycle event that is included as demo data with the Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin. The event is organized into activity sets, such as pre-hire, pre-boarding, and day one, which represent different stages in the lifecycle event process. Each activity set contains one or more activities, such as a task for the employee to enroll in medical benefits or a request for an IT fulfiller to set up a new hire's phone and voicemail.
 
-![Lifecycle event for new hire onboarding and its associated activity sets and activities.](../image/lifecycle-event-new-hire-onboarding.png)
+\[Omitted image "lifecycle-event-new-hire-onboarding.png"\] Alt text: Lifecycle event for new hire onboarding and its associated activity sets and activities.
 
-**Parent Topic:**[Building a lifecycle event](hr-lifecycle-event-configuration.md)
+**Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
-**Previous topic:**[Building a lifecycle event](hr-lifecycle-event-configuration.md)
+**Previous topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
-**Next topic:**[Configure the supporting components for a lifecycle event](configure-supporting-components-for-lifecycle-event.md)
+**Next topic:**[Configure the supporting components for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-supporting-components-for-lifecycle-event.md)
 

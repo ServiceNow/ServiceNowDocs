@@ -2,6 +2,7 @@
 title: Differences between Notify and Legacy Notify
 description: Describes the differences between the Notify and Legacy Notify applications, including architecture, workflows, Twilio support, and task-initiated conference calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/differences-notify-legacy-notify.html
 release: australia
 product: Notify
 classification: notify
@@ -23,5 +24,5 @@ Describes the differences between the Notify and Legacy Notify applications, inc
 |Hard-coded join conference SMS and IVR prompts for joining a conference call.|Includes a configurable workflow for handling SMS and Voice IVR prompts.|
 |Support for SMS-based answers.|Notify On Task support for sending SMS and initiating conference calls from any task.|
 
-**Parent Topic:**[Activate Notify](../task/t_ActivateNotify.md)
+**Parent Topic:**[Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md)
 

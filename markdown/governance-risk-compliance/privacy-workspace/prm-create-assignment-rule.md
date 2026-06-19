@@ -2,6 +2,7 @@
 title: Create an assignment rule
 description: Specify the conditions for assigning a privacy case to a particular user or group by creating assignment rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/prm-create-assignment-rule.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -33,13 +34,13 @@ To determine the appropriate person or group to handle a privacy case, establish
 
 4.  On the Assignment Rule form, fill in the fields.
 
-    For a description of the field values on the Assignment Rule form, see [Assignment rule form](../reference/prm-assignment-rule-form.md).
+    For a description of the field values on the Assignment Rule form, see [Assignment rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-assignment-rule-form.md).
 
 5.  Select **Submit**.
 
 
--   **[Assignment rule form](../reference/prm-assignment-rule-form.md)**  
+-   **[Assignment rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-assignment-rule-form.md)**  
 Learn about the fields on the assignment rule form. Use this form to define case assignment rules in the Privacy Case Management application.
 
-**Parent Topic:**[Configuring Privacy Case Management](../concept/configuring-privacy-case-management.md)
+**Parent Topic:**[Configuring Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 

@@ -2,13 +2,14 @@
 title: Activate Incident Management Best Practice – San Diego
 description: Activate the Incident Management Best Practice — San Diego plugin \(com.snc.best\_practice.incident.sandiego\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/act-inc-mgmt-best-prac-plugin-sd.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Incident Management Best Practice – San Diego, Incident Management plugins, Reference section for Incident Management, Incident Management, IT Service Management]
+breadcrumb: [Incident Management Best Practice – San Diego, Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
 
 # Activate Incident Management Best Practice – San Diego
@@ -35,8 +36,8 @@ The Incident Management Best Practice – San Diego plugin modifies the problem 
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Incident Management Best Practice – San Diego](../concept/inc-mgmt-best-prac-plugin-sd.md)
+**Parent Topic:**[Incident Management Best Practice – San Diego](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/inc-mgmt-best-prac-plugin-sd.md)
 

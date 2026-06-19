@@ -2,6 +2,7 @@
 title: Policy status aggregation in a multi-product release
 description: In a multi-product release, the policy run status of releases for all primary and included products are rolled up to the policy status of the main release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-policy-status-aggregation.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -32,5 +33,5 @@ The following table shows how the aggregated status is calculated from the statu
 |Compliant|Compliant|Compliant|Compliant|**Compliant**|
 |Compliant|Compliant|Compliant|Compliant with exception|**Compliant with exception**|
 
-**Parent Topic:**[Digital Product Release reference](../concept/dpr-reference.md)
+**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-reference.md)
 

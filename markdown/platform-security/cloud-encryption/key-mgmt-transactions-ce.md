@@ -2,6 +2,7 @@
 title: Key management transactions
 description: The Key Management Transactions submodule displays all transactions that have occurred for the keys in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/cloud-encryption/key-mgmt-transactions-ce.html
 release: australia
 product: Cloud Encryption
 classification: cloud-encryption
@@ -29,7 +30,7 @@ The Key Management Transactions submodule displays all transactions that have oc
 
 The following screen is a sample of the type of information that displays with a ServiceNow key rotation.
 
-![Displays the key management transactions upon rotation.](../image/key-mgmt-transactions.png)
+\[Omitted image "key-mgmt-transactions.png"\] Alt text: Displays the key management transactions upon rotation.
 
 The following table displays the field information available on the Key Managements Transactions page.
 
@@ -84,7 +85,7 @@ Key life-cycle state
 
 </td><td>
 
-See [Key Management Framework key life-cycle states](../../key-management-framework/reference/key-life-cycle-states.md) for definitions.
+See [Key Management Framework key life-cycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/key-life-cycle-states.md) for definitions.
 
 </td></tr><tr><td>
 
@@ -141,5 +142,5 @@ Request step status
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Encryption with Key Management](../concept/dare-overview.md)
+</table>**Parent Topic:**[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
 

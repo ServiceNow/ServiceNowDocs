@@ -2,6 +2,7 @@
 title: Configure Legal Stock Preclearance
 description: Configure the foundation data for your stock preclearance process to enable employees to submit preclearance approval requests before they trade in the securities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.html
 release: australia
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
@@ -18,20 +19,20 @@ Configure the foundation data for your stock preclearance process to enable empl
 As an administrator, you can review the installed components and modify them or add new ones as applicable.
 
 -   Legal stock approvers
--   [Fiscal calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_GenerateFiscalCalendar.md)
--   [Trading windows](../task/set-up-trading-window.md)
--   [Trading holidays](../task/add-trading-holidays.md)
--   [Access Persons list](../task/manage-access-persons-list.md)
--   [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+-   Fiscal calendar
+-   [Trading windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/set-up-trading-window.md)
+-   [Trading holidays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/add-trading-holidays.md)
+-   [Access Persons list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/manage-access-persons-list.md)
+-   Notifications
 
--   **[Install Legal Stock Preclearance](../task/install-stock-preclearance.md)**  
+-   **[Install Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/install-stock-preclearance.md)**  
 You can install the Legal Stock Preclearance application \(sn\_lg\_stock\_cp\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
--   **[Set up a trading window](../task/set-up-trading-window.md)**  
+-   **[Set up a trading window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/set-up-trading-window.md)**  
 Set up a trading window for a period in which certain designated employees of the organization are permitted to trade in the securities of your organization.
--   **[Add trading holidays](../task/add-trading-holidays.md)**  
+-   **[Add trading holidays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/add-trading-holidays.md)**  
 Add trading holidays during which the trading is closed.
--   **[Manage access persons list](../task/manage-access-persons-list.md)**  
+-   **[Manage access persons list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/manage-access-persons-list.md)**  
 Add users who have access to non-public information regarding the trade of securities of your organization.
 
-**Parent Topic:**[Legal Stock Preclearance](../reference/legal-stock-preclearance-landing-page.md)
+**Parent Topic:**[Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)
 

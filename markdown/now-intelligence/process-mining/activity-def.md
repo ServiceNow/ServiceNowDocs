@@ -2,6 +2,7 @@
 title: Activity definition form
 description: Use the Activity Definition form to report on steps that occur within your business process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/activity-def.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -79,9 +80,9 @@ If this option is not checked, the process map reflects records of each instance
 -   Changes to assignment group occur and list in the audit log as: Group A &gt; Group B &gt; Group C.
 -   Result: The process map reflects each individual change made, continuing to reflect the changes as is standard from the audit log: 'Change: Group A &gt; Change: Group B &gt; Change: Group C'.
 
- ![Show changes as group](../image/show-changes-group.png "Changes are grouped")
+ \[Omitted image "show-changes-group.png"\] Alt text: Show changes as group
 
- ![Changes shown as standard](../image/dont-show-changes-group.png "Changes shown as standard")
+ \[Omitted image "dont-show-changes-group.png"\] Alt text: Changes shown as standard
 
 </td></tr><tr><td>
 
@@ -108,5 +109,5 @@ Include empty start node
 Includes an empty node on the process graph when the selected activity definition field is empty at the time of record creation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-reference.md)
 

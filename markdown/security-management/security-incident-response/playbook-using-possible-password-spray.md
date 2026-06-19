@@ -2,6 +2,7 @@
 title: Use the Possible Password Spray playbook
 description: Use this playbook to investigate password spray alerts triggered by multiple failed logins \(too many authentication failures from more than one IP address for the same user\). The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Possible Password Spray playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-possible-password-spray.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -76,5 +77,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 13. In Action 21, a response task is created to complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Possible Password Spray](../concept/playbook-possible-password-spray.md)
+**Parent Topic:**[Playbook for Possible Password Spray](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-possible-password-spray.md)
 

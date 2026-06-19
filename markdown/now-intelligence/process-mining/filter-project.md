@@ -2,6 +2,7 @@
 title: Filtering project data
 description: Apply filters to refine and drill into specific aspects of your process map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/filter-project.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -28,18 +29,18 @@ Process Mining has these filtering tools for refining a process map, accessible 
 -   Metrics filter - Show your selected metrics on activities and connections.
 -   Activities and Connections filters - Use sliders to view more or less activities or connections.
 
--   **[Apply a breakdown filter](create-analyst-workbench-filter.md)**  
+-   **[Apply a breakdown filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-analyst-workbench-filter.md)**  
 Filter analyst workbench projects that you create, shared with you or all.
--   **[Create a filter set](create-filter-set.md#)**  
+-   **[Create a filter set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-filter-set.md)**  
 Create a filter set to be able to apply your current filter selections to the same process map later.
--   **[Applying a process step filter on an activity](node-to-node-conditions.md)**  
+-   **[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/node-to-node-conditions.md)**  
 Process step filtering enables you to get closer views of the different routes that records go through.
--   **[Apply metrics](apply-metrics.md)**  
+-   **[Apply metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/apply-metrics.md)**  
 Refine your project visualization to show the KPIs and metrics that are more relevant to your process goals.
--   **[Filtering activities and connections](../concept/node-filtering.md)**  
+-   **[Filtering activities and connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/node-filtering.md)**  
 Focus in on how activities relate to your process by refining the activities and connections views.
--   **[Set data filter and map filter](map-data-filter.md)**  
+-   **[Set data filter and map filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/map-data-filter.md)**  
 Set the data and map filters to focus on the data as per your requirement.
 
-**Parent Topic:**[Analyzing and getting process insights](../concept/analyze-get-process-insights.md)
+**Parent Topic:**[Analyzing and getting process insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-get-process-insights.md)
 

@@ -2,6 +2,7 @@
 title: GlideSecurityManager - Global
 description: The GlideSecurityManager API provides methods that enable you to retrieve a SecurityManager object and to check if the current user has access rights, both table-level and field-level, to a specified GlideRecord table based on the configured Access Control Rules \(ACLs\).Returns a SecurityManager object.Indicates whether the current user has table-level access rights to a specified GlideRecord table based on the configured Access Control Rules \(ACLs\). This method evaluates all available ACLs for the specific resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideSecurityManagerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideSecurityManager API provides methods that enable you to retrieve a SecurityManager object and to check if the current user has access rights, both table-level and field-level, to a specified GlideRecord table based on the configured Access Control Rules \(ACLs\).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideSecurityManager - get\(\)
 

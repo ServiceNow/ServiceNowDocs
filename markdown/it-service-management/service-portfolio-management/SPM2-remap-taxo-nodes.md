@@ -2,6 +2,7 @@
 title: Remap service portfolio taxonomy nodes in Service Portfolio Management
 description: Use the flexible options when you remap \(or reparent\) taxonomy nodes from one portfolio to another. You can move an entire branch of a taxonomy from one portfolio to another, including the automatic move of its child nodes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-remap-taxo-nodes.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -38,8 +39,8 @@ When you move taxonomy nodes from one portfolio to another, all its associated c
     -   Navigate to the Enterprise portfolios in the DPM Workspace.
     -   Find the portfolio that you added the taxonomy nodes to.
     -   Verify that the taxonomy nodes were added as well as their child nodes, services, and service offerings.
-    **Important:** Service portfolios contain the Performance snapshot key performance indicator \(KPI\) values. If the KPI data is set to "latest score," the new node takes a day to reflect the updated KPI data. For more information, see [KPI groups in Digital Portfolio Management](../../digital-portfolio-management/concept/dpm-configure-kpi.md).
+    **Important:** Service portfolios contain the Performance snapshot key performance indicator \(KPI\) values. If the KPI data is set to "latest score," the new node takes a day to reflect the updated KPI data. For more information, see [KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi.md).
 
 
-**Parent Topic:**[Edit and manage service portfolios in Service Portfolio Management](../concept/SPM2-edit-manage-portfolios.md)
+**Parent Topic:**[Edit and manage service portfolios in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-edit-manage-portfolios.md)
 

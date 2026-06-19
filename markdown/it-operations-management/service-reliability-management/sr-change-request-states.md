@@ -2,6 +2,7 @@
 title: SRM change request states
 description: Incidents can be in a few different states depending on how they are acted on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-change-request-states.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -86,5 +87,5 @@ Change request was triaged but found to be a duplicate, or unnecessary.
 **Note:** You cannot reopen a canceled changed request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Reliability Management reference](../reference/service-reliability-management-reference.md)
+</table>**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

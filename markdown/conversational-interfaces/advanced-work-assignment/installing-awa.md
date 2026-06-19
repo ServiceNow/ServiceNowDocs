@@ -2,6 +2,7 @@
 title: Configuring Advanced Work Assignment
 description: Quickly install the required and popular plugins through the plugin page after selecting any Get \[plugin\] button on the Advanced Work Assignment home page. Plan and configure Advanced Work Assignment \(AWA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/installing-awa.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -48,34 +49,34 @@ After installing the Advanced Work Assignment plugin and any relevant org-specif
 
 4.  Install popular plugins, such as Agent Chat, Walk-up Experience, and/or Performance Analytics, to boost your AWA experience.
 
-5.  In the Essential settings section, select **Set up service channels** to [configure the service channels](awa-create-service-channel.md) that you activated.
+5.  In the Essential settings section, select **Set up service channels** to [configure the service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md) that you activated.
 
-    1.  [Create or change an inbox layout](awa-modify-inbox-layout.md).
+    1.  [Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md).
 
-    2.  [Override agent capacity](awa-change-agent-capacity.md), as needed.
+    2.  [Override agent capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.md), as needed.
 
-6.  In the Essential settings section, select **Set up queues** to [create work item queues](awa-create-queue.md) for your service channels.
+6.  In the Essential settings section, select **Set up queues** to [create work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md) for your service channels.
 
-    1.  [Set the sort order for work items](awa-set-work-sort-order.md) in the queue.
+    1.  [Set the sort order for work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-set-work-sort-order.md) in the queue.
 
-7.  In the Essential settings section, select **Set up assignment rules** to [configure the work assignment rules](awa-create-assignment-rule.md) used to push work to the appropriate agents.
+7.  In the Essential settings section, select **Set up assignment rules** to [configure the work assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md) used to push work to the appropriate agents.
 
 8.  In the Additional settings section, consider configuring the following parameters to improve your AWA functionality.
 
-    1.  Select **Set up presence states** to [configure availability states](awa-configure-agent-presence.md) states that agents use to indicate whether they can receive work or are offline or away.
+    1.  Select **Set up presence states** to [configure availability states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md) states that agents use to indicate whether they can receive work or are offline or away.
 
-    2.  Select **Set up reject reasons** to [define the reject reasons](awa-configure-reject-reasons.md) that agents can use to decline work assignments that they receive in their Agent Workspace inbox.
+    2.  Select **Set up reject reasons** to [define the reject reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-reject-reasons.md) that agents can use to decline work assignments that they receive in their Agent Workspace inbox.
 
-    3.  Select **Set up universal capacity** to [configure your team's maximum universal capacity](awa-universal-capacity.md) to prevent an agent from being assigned too many work items.
+    3.  Select **Set up universal capacity** to [configure your team's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-universal-capacity.md) to prevent an agent from being assigned too many work items.
 
-    4.  Select **Set up groups** to [create groups of user sets](awa-groups.md) who share a common purpose.
+    4.  Select **Set up groups** to [create groups of user sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-groups.md) who share a common purpose.
 
 9.  In the Advanced settings section, consider configuring the following parameters to improve your AWA functionality.
 
     **Note:** Advanced settings cards appear conditionally after installing their respective plugin.
 
-    1.  Select **Set up Agent Affinity** to [create or change the Agent Affinity rules](awa-configure-agent-affinity.md) that route work items in Advanced Work Assignment.
+    1.  Select **Set up Agent Affinity** to [create or change the Agent Affinity rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-agent-affinity.md) that route work items in Advanced Work Assignment.
 
-    2.  Select **Set up Shift-based Assignment** to [assign work items to agents based on shifts](awa-create-assignment-rule.md).
+    2.  Select **Set up Shift-based Assignment** to [assign work items to agents based on shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 

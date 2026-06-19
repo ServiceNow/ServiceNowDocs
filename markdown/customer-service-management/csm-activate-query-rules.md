@@ -2,7 +2,10 @@
 title: Activate query rules
 description: Set the query rules system property \[sn\_cs\_queryrules.use\_query\_rules\] value to true. For upgrade customers, once set to true, you must migrate any changes made in before query business rules to the query rules feature and validate them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-activate-query-rules.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

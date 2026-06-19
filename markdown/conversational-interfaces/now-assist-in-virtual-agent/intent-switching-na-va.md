@@ -2,6 +2,7 @@
 title: Mid-topic switching during Now Assist in Virtual Agent conversations
 description: Mid-topic switching easily lets you switch between requests, using plain language whenever new queries are made in the same Now Assist in Virtual Agent conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/intent-switching-na-va.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -19,9 +20,9 @@ During a Now Assist in Virtual Agent conversation, you can switch the conversati
 
 The following images show examples of how mid-topic switching can appear based on your conversational settings.
 
-![User asks about open enrollment while in the middle of a conversation about ordering an iPad.](../image/NAinVA-intent.png "Topic switching example in a standard chat conversation")
+\[Omitted image "NAinVA-intent.png"\] Alt text: User asks about open enrollment while in the middle of a conversation about ordering an iPad.
 
-![User asks about miro access while in the middle of a conversations about ordering a MacBook.](../image/dw-mid-topic-switch-yp6.png "Topic switching example in an enhanced chat conversation")
+\[Omitted image "dw-mid-topic-switch-yp6.png"\] Alt text: User asks about miro access while in the middle of a conversations about ordering a MacBook.
 
 If you decide to continue with your original request, you return to the previous conversation. If you decide to switch the conversational focus to something else, you can view additional information about your new request.
 

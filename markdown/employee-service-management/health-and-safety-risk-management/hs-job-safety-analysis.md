@@ -2,6 +2,7 @@
 title: Job safety analysis
 description: Job safety analysis \(JSA\) is a systematic process for identifying potential hazards at a worker’s point-of-work. The objective is to increase risk awareness and implement efficient controls to help prevent workplace accidents and injuries.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-job-safety-analysis.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,10 +24,10 @@ JSA provides the following capabilities:
 -   Pre-defined jobs in job register that enable employees to file JSAs quickly.
 -   Control measures that dynamically improve the more you use them.
 
--   **[Submit a JSA from Employee Center](../task/hs-submit-jsa-emp-center.md)**  
+-   **[Submit a JSA from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-emp-center.md)**  
 Submit a job safety analysis \(JSA\) to identify potential hazards and control measures related to these hazards at your point-of-work.
--   **[View submitted JSAs in the workspace](../task/hs-view-submitted-jsa-workspace.md)**  
+-   **[View submitted JSAs in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-view-submitted-jsa-workspace.md)**  
 View all submitted JSAs in Health and Safety Workspace. All JSAs that employees have submitted through the Employee Center or ServiceNow® Now Mobile app are available to view in the workspace.
 
-**Parent Topic:**[Using Health and Safety Risk Management](hs-using-hs-risk-mgmt.md)
+**Parent Topic:**[Using Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-using-hs-risk-mgmt.md)
 

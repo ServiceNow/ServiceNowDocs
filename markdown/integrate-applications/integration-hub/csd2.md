@@ -2,6 +2,7 @@
 title: CSD 2.0 for Microsoft Endpoint Configuration Manager
 description: Use the CSD 2.0 along with the Microsoft Endpoint Configuration Manager spoke to deploy and revoke software deployments from Microsoft Endpoint Configuration Manager and manage distributions on hosts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -21,18 +22,18 @@ The Microsoft Endpoint Configuration Manager spoke contains actions that CSD 2.0
 
 **Note:** For systems deploying software from Microsoft Endpoint Configuration Manager, the **Lease end** field is only available if the configuration specifies an uninstall collection.
 
--   **[Verify the Microsoft Endpoint Configuration Manager spoke records](../task/csd2-ver-endpt.md)**  
+-   **[Verify the Microsoft Endpoint Configuration Manager spoke records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-ver-endpt.md)**  
 Verify that the spoke is integrated with CSD 2.0 after setting up and configuring the Microsoft Endpoint Configuration Manager spoke and create server instance record to use Microsoft Endpoint Configuration Manager spoke with CSD 2.0.
--   **[Store details of the provider server](../task/csd2-endpt-disc-apps.md)**  
+-   **[Store details of the provider server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-endpt-disc-apps.md)**  
 Create a server instance record to discover applications and store details of the provider server.
--   **[Set up a software model for the Microsoft Endpoint Configuration Manager application](../task/csd2-sw-model.md)**  
+-   **[Set up a software model for the Microsoft Endpoint Configuration Manager application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-sw-model.md)**  
 Using the applications discovered on the Microsoft Endpoint Configuration Manager server, set up a software model to manage licenses.
--   **[Define the Microsoft Endpoint Configuration Manager configuration](../task/csd2-sccm-collections.md)**  
+-   **[Define the Microsoft Endpoint Configuration Manager configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-sccm-collections.md)**  
 Associate that software with a collection through a Microsoft Endpoint Configuration Manager configuration to create catalog items for Microsoft Endpoint Configuration Manager software deployment or to configure your instance to revoke software through Microsoft Endpoint Configuration Manager.
--   **[Create a catalog item for the Microsoft Endpoint Configuration Manager application](../task/csd2-create-cat.md)**  
+-   **[Create a catalog item for the Microsoft Endpoint Configuration Manager application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-create-cat.md)**  
 Create a catalog item for an application you want to offer for distribution from the service catalog using the applications discovered on the Microsoft Endpoint Configuration Manager server.
--   **[Deployment process](../reference/csd2-sccm-deploy.md)**  
+-   **[Deployment process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-sccm-deploy.md)**  
 Order an application from a CSD 2.0 catalog item in the service catalog triggers the Order Client Software flow.
 
-**Parent Topic:**[Client Software Distribution 2.0 application](csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)
 

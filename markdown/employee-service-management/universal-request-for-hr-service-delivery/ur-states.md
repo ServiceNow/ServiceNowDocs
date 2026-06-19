@@ -2,6 +2,7 @@
 title: Universal Request states and reasons
 description: The Universal Request \(UR\) state is determined by the state of the primary ticket. The primary ticket for a UR is a child department ticket, such as an IT incident or a HR case. A Universal Request can have only one primary ticket at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-states.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -77,7 +78,7 @@ Canceled
 The UR is canceled.**Note:** Requesters can cancel a UR only if there are no active or closed primary tickets attached to it. Also, the state of UR must be either **New** or **In Progress**.
 
 </td></tr></tbody>
-</table>![Sample: State reason for In Progress state](../images/ur-state-reasons.png)
+</table>\[Omitted image "ur-state-reasons.png"\] Alt text: Sample: State reason for In Progress state
 
-**Parent Topic:**[Exploring Universal Request](explore-universal-request.md)
+**Parent Topic:**[Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)
 

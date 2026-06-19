@@ -2,7 +2,10 @@
 title: Configure Contributor Users
 description: The CSM Contributor User plugin enables you to engage middle office teams in resolving customer issues and requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-contributor-user.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 With the provided roles, relationships, and user profile attributes, contributors can report and collaborate on cases created for customers, service organizations, or themselves.
 
-The CSM Query Rules plugin is automatically activated by the CSM Contributor User plugin \(com.snc.csm\_contributor\_user\). The CSM Contributor User plugin is moved to App Store beginning with the Australia release. For more information, see [CSM Query Rules](../reference/csm-query-rules.md).
+The CSM Query Rules plugin is automatically activated by the CSM Contributor User plugin \(com.snc.csm\_contributor\_user\). The CSM Contributor User plugin is moved to App Store beginning with the Australia release. For more information, see [CSM Query Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-query-rules.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: GlideSPScriptable - Scoped
 description: The GlideSPScriptable API provides methods to interact with data and perform record operations in Service Portal widgets.Returns true if the user can read the specified GlideRecord.Returns true if the user can read the specified GlideRecord.Returns true if the currently logged in user has permission to view the specified page.Returns a model and view model for a sc\_cat\_item or sc\_cat\_item\_guide.Returns a model and view model for a sc\_cat\_item or sc\_cat\_item\_guide.Returns the display value of the specified field \(if it exists and has a value\) from either the widget's sp\_instance or the sp\_portal record.Returns information about the specified field in the specified GlideRecord.Checks the specified list of field names, and returns an array of valid field names.Checks the specified list of field names and returns an object of valid field names.Return the form associated with the passed table name and record sys\_id.Returns KB articles in the specified category and its subcategories.Returns Knowledge Base article summaries in the specified category and its subcategories.Returns the number of articles in the defined Knowledge Base.Returns a list of the specified table's columns in the specified view.Returns an array of menu items for the specified instance.Returns the \(?id=\) portion of the URL based on the sp\_menu type.Returns the value of the specified parameter.Returns the portal record from the Service Portals \[sp\_portal\] table.If parameters are provided, returns the GlideRecord identified by the provided table and Sys ID. If no parameters are provided, returns the record identified by the current URL.Copies display values for the specified fields into the data parameter.For the specified fields, copies the element's name, display value, and value into the data parameter.Copies values for the specified field names from the GlideRecord into the data parameter.Returns Service Catalog variables associated with a record in String format.Returns an array of Service Catalog variables associated with a record.Gets the activity stream for the specified record. This method works on tables that extend the task table.Returns the user's initials.Returns the named value of the JSON request, instance, or portal.Copies values from the request or instance to the data parameter.Returns an array of Service Catalog variables associated with the record in the URL.Gets a widget by id or sys\_id, executes that widget's server script using the provided options, then returns the widget model.Checks whether the associated portal is enabled for right-to-left language \(RTL\) and whether the current user's language is directionally RTL.Returns true if user criteria is enabled.Logs output to the Service Portal Log Entries \[sp\_log\] table. The logged in user must have the sp\_admin or admin role.Transforms a URL requesting a list or form in the platform UI into the URL of the corresponding id=list or id=form Service Portal page.Returns true if the current user can see a search source specified by the searchSourceID.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideSPScriptableScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideSPScriptable API provides methods to interact with data and perform rec
 
 You access GlideSPScriptable methods by using the global `$sp` object.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideSPScriptable - canReadRecord\(GlideRecord now\_GR\)
 
@@ -76,7 +77,7 @@ If the record type is `kb_knowledge`, `sc_cat_item`, or `sc_category`, the metho
 
 Returns true if the currently logged in user has permission to view the specified page.
 
-The system determines permission using roles and user criteria. For more information, see [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-page-security.md) and [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md).
+The system determines permission using roles and user criteria. For more information, see Configure page security by role and User criteria for Service Portal.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1112,7 +1113,7 @@ id=form&table=incident&filter=&sys_id=12bc12bc12bc12bc12bc12bc12bc12bc&v=
 
 Returns true if the current user can see a search source specified by the searchSourceID.
 
-Returns true if the user is not restricted by user criteria. For more detail on how user criteria affects Service Portal assets, see [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md).
+Returns true if the user is not restricted by user criteria. For more detail on how user criteria affects Service Portal assets, see User criteria for Service Portal.
 
 **Note:** This method does not evaluate role-based permissions of the search source, and should only be used if User Criteria is enabled.
 

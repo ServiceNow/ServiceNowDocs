@@ -2,6 +2,7 @@
 title: Set up the GovNotify spoke
 description: Integrate ServiceNow instance and GovNotify account using JWT authentication to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/govnotify-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -33,7 +34,7 @@ Integrate ServiceNow instance and GovNotify account using JWT authentication to 
 
     4.  On the form, provide a name for the API key and select the required key type.
 
-        ![Create an API key.](../image/govnotify-api.png)
+        \[Omitted image "govnotify-api.png"\] Alt text: Create an API key.
 
     5.  Click **Continue**.
 
@@ -46,7 +47,7 @@ Integrate ServiceNow instance and GovNotify account using JWT authentication to 
 
     6.  Click **Copy API key to clipboard** and record the value for later use.
 
-        ![Copy the API key.](../image/govnotify-copy-api.png)
+        \[Omitted image "govnotify-copy-api.png"\] Alt text: Copy the API key.
 
 2.  Configure the default JWT key record in your ServiceNow instance.
 

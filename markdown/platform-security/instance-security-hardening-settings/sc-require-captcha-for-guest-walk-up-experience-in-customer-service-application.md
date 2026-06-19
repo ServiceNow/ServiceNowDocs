@@ -2,6 +2,7 @@
 title: Require CAPTCHA for guest walk-up experience in customer service application
 description: The CAPTCHA for the Guest Walk-up experience prevents unauthenticated guest users to create bookings by requiring users to complete a CAPTCHA verification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-require-captcha-for-guest-walk-up-experience-in-customer-service-application.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Functional impact
 This property enables or disables the captcha on the CSM Guest Walkup Check-in widgets. By default, it is set to true.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

@@ -2,6 +2,7 @@
 title: ValidateWorkflowEndStages
 description: The ValidateWorkflowEndStages validator checks that in workflows with stages, the end activity of the workflow has a stage named Complete or Completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_VldtWorkflowEndStages.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -28,11 +29,11 @@ If the workflow has stages associated with it, but does not have the completed s
 -   Suggested Action: If this is not by design, make the appropriate changes.
 -   Publishable: Yes
 -   Runnable: Yes
--   Related Information: [Workflow activities](../../using-workflows/concept/c_WorkflowActivities.md)
+-   Related Information: [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md)
 
 ## Troubleshooting
 
 Check the workflow for an end activity. Ensure that this activity assigns a stage named Complete or Completed.
 
-**Parent Topic:**[Workflow validator](r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
 

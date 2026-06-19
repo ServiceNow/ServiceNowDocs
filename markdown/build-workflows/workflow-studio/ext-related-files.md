@@ -2,6 +2,7 @@
 title: External Related Files spoke
 description: The External Related Files spoke stores information about files in third-party systems and helps you manage the information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/ext-related-files.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -39,8 +40,8 @@ External Related Files \[sn\_external\_related\_files\]
 
 Stores metadata information about the files in third-party systems. This table is extensible.**Note:** If you extend the table, ensure that you perform the data separation for the scoped applications
 
- -   To store metadata information of files in a specific third-party system, create a table with a column that contains a reference field to the External Related Files table. For more information about reference fields, see [Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceField.md).
--   To establish a relationship between a specific ServiceNow table and External Related Files table, [Create defined related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateDefinedRelatedLists.md).
+ -   To store metadata information of files in a specific third-party system, create a table with a column that contains a reference field to the External Related Files table. For more information about reference fields, see Reference field type.
+-   To establish a relationship between a specific ServiceNow table and External Related Files table, Create defined related lists.
 
 </td></tr></tbody>
 </table>|Action|Description|
@@ -83,5 +84,5 @@ sn\_ext\_files\_spoke.provider\_admin
 Read, update, and delete records in the External Provider table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Spokes](../concept/spokes.md)
+</table>**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
 

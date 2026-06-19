@@ -2,6 +2,7 @@
 title: Customize story states of your Essential SAFe dashboard reports
 description: Configure story states to reflect your customizations on the Essential SAFe dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/customize-story-states-of-your-safe-dashboard-reports.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -38,5 +39,5 @@ Role required: admin or pa\_admin
 7.  Click **Save**.
 
 
-**Parent Topic:**[Customizing Essential SAFe dashboard reports](../concept/customizing-safe-dashboard-reports.md)
+**Parent Topic:**[Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md)
 

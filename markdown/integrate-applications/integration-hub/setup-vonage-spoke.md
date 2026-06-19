@@ -2,6 +2,7 @@
 title: Set up the Vonage spoke
 description: Integrate your ServiceNow instance with the Vonage instance to enable communication between them. With this integration, your ServiceNow instance can automate actions on the Vonage instance, while the Vonage instance can send payloads to your ServiceNow instance.Generate essential credentials, such as API keys, secrets, and signature secrets, to set up your Vonage developer instance. Your ServiceNow instance uses these credentials in the connection record to connect to the Vonage developer instance.Configure a connection record that enables your ServiceNow instance to connect with the Vonage instance and automate various actions on the Vonage instance. For example, create a flow on Workflow Studio that gets your Vonage account balance.Configure a connection record that enables your ServiceNow instance to connect with the Vonage instance and automate various actions on the Vonage instance. For example, create a flow on Workflow Studio that gets your Vonage account balance.Set up webhooks for SMS to enable the Vonage API platform to send data to your ServiceNow instance. For instance, if a flow in your ServiceNow instance sends an API request for call details to the Vonage API but the request fails initially, the webhook ensures that the Vonage API sends the data later.Customise the webhook routing policy and subflow as per your requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-vonage-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -36,13 +37,13 @@ Access to a Vonage developer account.
 
 1.  Log in to [https://developer.vonage.com/en/home](https://developer.vonage.com/en/home).
 
-2.  On the Vonage Developer Center page, select My dashboard.![My dashboard page.](../image/Vonage-spoke-my-dashboard-link.png)
+2.  On the Vonage Developer Center page, select My dashboard.\[Omitted image "Vonage-spoke-my-dashboard-link.png"\] Alt text: My dashboard page.
 
 3.  On the Vonage API Dashboard page, use the default API key and the API secret or create your custom API key and API secret.
 
-    1.  To use the default API key and the API secret, copy the default API key and the API secret values.![Copy button for API key and API secret.](../image/Vonage-spoke-copy-API-key-secret.png)
+    1.  To use the default API key and the API secret, copy the default API key and the API secret values.\[Omitted image "Vonage-spoke-copy-API-key-secret.png"\] Alt text: Copy button for API key and API secret.
 
-    2.  To generate a custom API key and API secret, on the left panel, select API Settings.![API settings link.](../image/Vonage-spoke-api-settings-link.png)
+    2.  To generate a custom API key and API secret, on the left panel, select API Settings.\[Omitted image "Vonage-spoke-api-settings-link.png"\] Alt text: API settings link.
 
     3.  Select **Request more API keys**.
 
@@ -67,7 +68,7 @@ Role required: admin
 
 **Note:** Ensure that you are in the **Vonage spoke** scope.
 
-![](../image/vonage-spoke-scope.png)
+\[Omitted image "vonage-spoke-scope.png"\] Alt text:
 
 ### Procedure
 
@@ -75,7 +76,7 @@ Role required: admin
 
 2.  Select Connections.
 
-3.  In the Search all connections field, enter `Vonage`.![Search all connections field.](../image/search-all-conections.png)
+3.  In the Search all connections field, enter `Vonage`.\[Omitted image "search-all-conections.png"\] Alt text: Search all connections field.
 
 4.  On the Vonage card, select **View Details**.
 
@@ -90,7 +91,7 @@ Role required: admin
     |Messages API Version|The version of APIs the connection record requests for using the SMS feature in the Vonage instance.|
     |Voice API Version|The version of APIs the connection record requests for using the Voice feature in the Vonage instance.|
     |Credential Name|Name of the credential record. The default name os Vonage credential which you can update.|
-    |Application Name|Name of the account that you had entered in the Settings page of the Vonage developers account.![Account name field on Vonage instance.](../image/Vonage-spoke-conn-record-account-name.png)|
+    |Application Name|Name of the account that you had entered in the Settings page of the Vonage developers account.\[Omitted image "Vonage-spoke-conn-record-account-name.png"\] Alt text: Account name field on Vonage instance.|
     |API Key|API key you had acquired in the Vonage developer instance.|
     |API Secret|API secret you had acquired in the Vonage developer instance.|
     |Signature Secret|Signature secret key you had acquired in the Vonage developer instance.|
@@ -108,7 +109,7 @@ Role required: admin
 
 **Note:** Ensure that you are in the **Vonage spoke** scope.
 
-![](../image/vonage-spoke-scope.png)
+\[Omitted image "vonage-spoke-scope.png"\] Alt text:
 
 ### Procedure
 
@@ -116,7 +117,7 @@ Role required: admin
 
 2.  Select Connections.
 
-3.  In the Search all connections field, enter `Vonage`.![Search all connections field.](../image/search-all-conections.png)
+3.  In the Search all connections field, enter `Vonage`.\[Omitted image "search-all-conections.png"\] Alt text: Search all connections field.
 
 4.  On the VonagePrimary card, select **View Details**.
 
@@ -167,13 +168,13 @@ Role required: admin.
 
 7.  Log in to [https://developer.vonage.com/en/home](https://developer.vonage.com/en/home).
 
-8.  On the left panel, under Build &amp; Manage, select Applications.![Applications link under Build & Manage.](../image/Vonage-spoke-dashboard-applications.png)
+8.  On the left panel, under Build &amp; Manage, select Applications.\[Omitted image "Vonage-spoke-dashboard-applications.png"\] Alt text: Applications link under Build &amp; Manage.
 
-9.  On the Your applications page, select the menu icon \(![Menu icon.](../image/Vonage-spoke-three-dots.png)\) for your application.![My application.](../image/Vonage-spoke-my-applications.png)
+9.  On the Your applications page, select the menu icon \(\[Omitted image "Vonage-spoke-three-dots.png"\] Alt text: Menu icon.\) for your application.\[Omitted image "Vonage-spoke-my-applications.png"\] Alt text: My application.
 
 10. Select **Edit**.
 
-11. Under the Messages heading, enter the callback URL in the Inbound URL and the Status URL fields.![Messages settings.](../image/Vonage-spoke-messages.png)
+11. Under the Messages heading, enter the callback URL in the Inbound URL and the Status URL fields.\[Omitted image "Vonage-spoke-messages.png"\] Alt text: Messages settings.
 
 12. On the left panel, select API Settings.
 
@@ -209,7 +210,7 @@ Role required: admin
 
 4.  Customize the subflow as per your requirement and publish it.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows and [Vonage Spoke](../concept/vonage-spoke.md) for information about the fields that the default routing policy and subflows support.
+    See Building subflows for more information about creating and using subflows and [Vonage Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/vonage-spoke.md) for information about the fields that the default routing policy and subflows support.
 
 5.  Navigate to **Vonage Spoke** &gt; **Vonage WebHook Routing Policy**.
 
@@ -239,7 +240,7 @@ Default answer
 
 </td><td>
 
-Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(![Lookup icon](../image/lookup-icon.png)\).
+Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon\).
 2.  Select the required subflow from the Document list.
 
 **Note:** Ensure that the **Table name** is `Flow [sys_hub_flow]`.

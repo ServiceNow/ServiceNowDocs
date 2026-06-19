@@ -2,6 +2,7 @@
 title: How ERP Semantic Mining extracts and processes data
 description: ERP Semantic Mining retrieves data from the ERP \(Enterprise Resource Planning\) system using extractors and processes it before the data is available on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/how-erp-clean-core-inputs-data.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -122,5 +123,5 @@ sn\_erp\_mining\_erp\_application
  sn\_erp\_mining\_erp\_application\_usage
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring ERP Semantic Mining](exploring-ecm.md)
+</table>**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

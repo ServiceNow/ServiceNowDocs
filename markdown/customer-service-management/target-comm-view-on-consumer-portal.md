@@ -2,7 +2,10 @@
 title: View a publication on the Consumer Service Portal
 description: View the details of a publication on the Consumer Service Portal and download any attachments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/target-comm-view-on-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

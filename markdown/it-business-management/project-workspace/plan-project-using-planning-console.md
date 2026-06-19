@@ -2,6 +2,7 @@
 title: Plan a project using planning console in classic Project Workspace
 description: Perform the project planning such as create project schedule, make resource assignments, create baselines, and view critical path, using planning console in the classic Project Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/plan-project-using-planning-console.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -25,11 +26,11 @@ Role required: it\_project\_user or it\_project\_manager
 
 ## About this task
 
-The **Planning** tab in project workspace displays the selected project in [planning console](../concept/c_TheProjectPlanningConsole.md).
+The **Planning** tab in project workspace displays the selected project in [planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/c_TheProjectPlanningConsole.md).
 
 ## Procedure
 
-1.  [Open](access-the-project-workspace.md) the required project in project workspace.
+1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-the-project-workspace.md) the required project in project workspace.
 
 2.  Click the **Planning** tab to display the project in planning console.
 
@@ -37,8 +38,8 @@ The **Planning** tab in project workspace displays the selected project in [plan
 
 3.  Plan the project using planning console features such as WBS hierarchy and Gantt chart.
 
-    You can also perform several [tasks on the planning console](../reference/r_PlanningConsoleTasks.md) that you can perform on lists and forms, such as creating project tasks.
+    You can also perform several [tasks on the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/r_PlanningConsoleTasks.md) that you can perform on lists and forms, such as creating project tasks.
 
 
-**Parent Topic:**[Project workspace classic - Legacy](../concept/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-classic.md)
 

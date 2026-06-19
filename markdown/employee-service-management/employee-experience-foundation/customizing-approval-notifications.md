@@ -2,6 +2,7 @@
 title: Customizing approval notification fields
 description: You can customize the approval notification fields by creating the methods in a script include.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/customizing-approval-notifications.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ You can customize the approval notification fields by creating the methods in a 
 
 Actionable Notifications are sent for approval and comments on tickets. You can customize the fields displayed in the approval notifications by creating methods in the `sn_now_teams.ApprovalsVAUtil()` script include. These methods override the ones in the `sn_now_teams.ApprovalsVAUtilSNC()` script include.
 
-For information about script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+For information about script includes, see .
 
 ## Creating the method
 
@@ -72,5 +73,5 @@ While creating the method, you can enter the field names that are displayed in t
     ```
 
 
-**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](sn-ms-teams-config-it.md)
+**Parent Topic:**[Configure IT Service Management integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams-config-it.md)
 

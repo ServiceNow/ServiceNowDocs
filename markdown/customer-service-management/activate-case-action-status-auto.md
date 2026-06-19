@@ -2,11 +2,14 @@
 title: Activate Action Status Automation
 description: You can install the Action Status Automation application \(com.sn\_action\_status\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-case-action-status-auto.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activate Action Status Automation

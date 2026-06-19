@@ -2,6 +2,7 @@
 title: View a monitor's test results
 description: View the results of tests run by a monitor, along with configuration details, and related configuration items \(CIs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/view-a-monitor-s-test-results.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_sow\_synthetics.synthetics\_viewer, sn\_sow\_synthetics.synth
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Service Operations Workspace** and select the synthetic monitoring icon \(![Synthetic monitoring](../image/sys-mon-icon.png)\).
+1.  Navigate to **All** &gt; **Service Operations Workspace** and select the synthetic monitoring icon \(\[Omitted image "sys-mon-icon.png"\] Alt text: Synthetic monitoring\).
 
 2.  Select a monitor from the list of all monitors.
 
@@ -33,11 +34,11 @@ Role required: sn\_sow\_synthetics.synthetics\_viewer, sn\_sow\_synthetics.synth
     -   To refresh the chars, use the context menu.
 5.  View the status of each test in the **Monitor result history** card.
 
-    To view the details for a test, select its timestamp. For more information about the test details, see [View test details](view-test-details.md).
+    To view the details for a test, select its timestamp. For more information about the test details, see [View test details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-test-details.md).
 
-    **Note:** If your monitor uses OAuth and a test fails with a 4xx error, it may be because your refresh token expired. Re-authenticate by visiting the OAuth credential page and clicking the credential link.
+    **Note:** If your monitor uses OAuth and a test fails, see [OAuth issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-oauth.md).
 
-    To view [active alerts](view-alerts-for-a-synthetic-monitor.md) created by the monitor, select the Alert link to open its details.
+    To view [active alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/view-alerts-for-a-synthetic-monitor.md) created by the monitor, select the Alert link to open its details.
 
     **Note:** Filtering the list affects the data displayed in the metric charts.
 

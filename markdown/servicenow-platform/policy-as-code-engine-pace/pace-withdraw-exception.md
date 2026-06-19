@@ -2,6 +2,7 @@
 title: Withdraw an exception request
 description: If an exception is no longer required, you can withdraw a granted exception request for a policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-withdraw-exception.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

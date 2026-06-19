@@ -2,13 +2,14 @@
 title: Add a related list to an insurance product model
 description: Add a related list of an insurance policy table to an insurance product model table by using the Insurance claims application. Adding a related list displays the customer insurance policies for a particular insurance product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/add-related-list-to-insurance-product-model.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up an insurance policy for Insurance claims, Setting up the policy data for Insurance claims, Configure, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Setting up an insurance policy for Insurance claims, Setting up the policy data for Insurance claims, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Add a related list to an insurance product model
@@ -19,7 +20,7 @@ Add a related list of an insurance policy table to an insurance product model ta
 
 Set the application scope in your instance to Financial Services Operations Core.
 
-An insurance policy table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table is required. For more information, see [Create an insurance policy table](create-an-insurance-policy-table.md).
+An insurance policy table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table is required. For more information, see [Create an insurance policy table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-an-insurance-policy-table.md).
 
 Role required: admin
 
@@ -41,5 +42,5 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Setting up an insurance policy for Insurance claims](../concept/set-up-an-insurance-policy.md)
+**Parent Topic:**[Setting up an insurance policy for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/set-up-an-insurance-policy.md)
 

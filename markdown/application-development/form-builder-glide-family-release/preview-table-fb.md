@@ -2,6 +2,7 @@
 title: Preview your data in Table Builder
 description: See what your table looks like after you've edited the table columns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/preview-table-fb.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -17,9 +18,9 @@ See what your table looks like after you've edited the table columns.
 
 ## Before you begin
 
--   Launch Table Builder. For more information, see [Accessing Table Builder](../concept/accessing-form-builder.md).
--   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](../concept/form-builder-domain-separation.md).
--   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](../concept/fb-application-scope.md).
+-   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
+-   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
+-   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
 Role required: none
 
@@ -35,12 +36,12 @@ Each row in Table Builder represents a column from your table. Previewing the ta
 
 2.  From the new tab, review the table preview as shown in the following example.
 
-    ![Example table preview.](../image/example-table-preview.png "Example table preview")
+    \[Omitted image "example-table-preview.png"\] Alt text: Example table preview.
 
 
 ## What to do next
 
 If your table doesn't work as expected, continue editing in Table Builder. Then, preview the table again.
 
-**Parent Topic:**[Data in Table Builder](../concept/table-builder.md)
+**Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-builder.md)
 

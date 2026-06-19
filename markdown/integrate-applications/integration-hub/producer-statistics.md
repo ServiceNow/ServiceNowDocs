@@ -2,6 +2,7 @@
 title: Viewing producer statistics
 description: View detailed information about a Stream Connect producer and its performance, including the producer type and ID, and the total number of bytes and messages produced to a topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/producer-statistics.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -30,7 +31,7 @@ Both tables require the Kafka Admin \[kafka\_admin\] role to view. These tables 
 
 Producer logs are stored in the Consumer Logs \[sys\_consumer\_log\] table. Each log entry shows when it was created; its level, message, and source; and links to any related Alert.
 
-You can enable more detailed logging by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
+You can enable more detailed logging by adding the system property **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
 
 Use the **glide.ih.kafka.producer.message\_bytes\_to\_log** property to specify how many bytes of a message to display in the logs. This property only impacts logging for producers. The default value is 0, meaning no message content is logged.
 
@@ -152,7 +153,7 @@ The Kafka Producer Statistics \[sys\_kafka\_producer\_statistics\] table capture
 
 You can also view the statistics for a specific producer by selecting the producer's record from the table.
 
-![A producer record showing producer statistics at the bottom.](../images/kafka-producer-statistics.png "Sample producer record with statistics")
+\[Omitted image "kafka-producer-statistics.png"\] Alt text: A producer record showing producer statistics at the bottom.
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

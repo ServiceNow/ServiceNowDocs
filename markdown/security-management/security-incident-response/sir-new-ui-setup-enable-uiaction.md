@@ -2,6 +2,7 @@
 title: Enable UI Actions
 description: Before you configure any UI Actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

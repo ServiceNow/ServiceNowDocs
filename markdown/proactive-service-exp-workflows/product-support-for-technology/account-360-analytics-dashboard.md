@@ -2,13 +2,14 @@
 title: Service delivery overview
 description: Use the Service delivery overview to view the Analytics dashboards of the customer accounts. You can explore the details about the operational status of the accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Review customer or partner accounts, Proactive Service Experience Workflow, Use, Product Support for Technology]
+breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Service delivery overview
@@ -23,14 +24,14 @@ The Service delivery overview contains the following tabs for each dashboard.
 -   SLA performance
 -   Service Management
 
-![Service delivery overview page view of the current operational status metrics.](../image/service-delivery-overview.png "Example of Service delivery overview")
+\[Omitted image "service-delivery-overview.png"\] Alt text: Service delivery overview page view of the current operational status metrics.
 
 ## Access
 
 You can access the Service delivery overview page as follows:
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** or **CSM/FSM Configurable Workspace**.
-2.  Select the service delivery overview \(![Service Deliver Overview Icon.](../image/icon-service-delivery-overview.png)\) icon.
+2.  Select the service delivery overview \(\[Omitted image "icon-service-delivery-overview.png"\] Alt text: Service Deliver Overview Icon.\) icon.
 
 ## Account selection
 
@@ -97,5 +98,5 @@ The Service management tab provides metrics that deliver actionable insights, en
 |---------|-----------|
 |sn\_ind\_tsm\_sdwan.PSEW\_USER|Can view and edit the dashboard and manage users, groups, and roles for the dashboard.|
 
-**Parent Topic:**[Reviewing customer or partner accounts in Proactive Service Experience Workflows](reviewing-customer-accounts-360.md)
+**Parent Topic:**[Reviewing customer or partner accounts in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
 

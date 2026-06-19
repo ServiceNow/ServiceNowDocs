@@ -2,6 +2,7 @@
 title: NowAttachmentMetadata class - Android
 description: The NowAttachmentMetadata class provides functions that enable you to encode and manage attachment metadata.Class returned by NowAttachment class. This object is Parcelable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -288,7 +289,7 @@ String
 Entity that updated the attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowAttachmentMetadata - NowAttachmentMetadata\(sysId: String, fileName: String, mimeType: String, \_isCompressed: String, \_sizeInBytes: String, \_compressedSizeInBytes: String, \_chunkSizeInBytes: String, \_modificationCount: String, created: Date, createdBy: String, updated: Date, updatedBy: String, download: String?, hash: String, state: NowAttachmentMetadata.State, averageImageColor: String, \_imageWidth: String, \_imageHeight: String, sourceTableName: String, sourceSysId: String, tags: String\)
 

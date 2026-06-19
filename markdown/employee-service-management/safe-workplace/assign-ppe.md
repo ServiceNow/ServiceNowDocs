@@ -2,6 +2,7 @@
 title: Assign PPE to employees
 description: You can assign PPE directly to an employee without them submitting a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/assign-ppe.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -21,7 +22,7 @@ Role required: sn\_imt\_ppe.ppe\_admin
 
 ## About this task
 
-If an employee submits a request for PPE, follow the steps to [Fulfill a request for PPE](fulfill-ppe-request.md) instead.
+If an employee submits a request for PPE, follow the steps to [Fulfill a request for PPE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/fulfill-ppe-request.md) instead.
 
 When you assign hardware PPE to an employee, the state changes from **In stock** to **In use**. The state can be updated and the item can be reassigned to another employee.
 
@@ -56,5 +57,5 @@ After assigning PPE to employees, you can view all assigned PPE by navigating to
 
 **Note:** The **Assigned Hardware** and **Consumed** pages have a **New** button. Do not assign PPE using the **New** button. Using this button does not update the assignment log.
 
-**Parent Topic:**[Workplace PPE Inventory Management](../concept/ppe-inventory-management.md)
+**Parent Topic:**[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/ppe-inventory-management.md)
 

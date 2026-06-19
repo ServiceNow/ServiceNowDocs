@@ -2,6 +2,7 @@
 title: Business stakeholder role for Release Management
 description: Use the business stakeholder role to read and retrieve data from any table of the Release Management application to generate reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/business-stakeholder-role-for-release-management.html
 release: australia
 product: Release Management
 classification: release-management
@@ -76,5 +77,5 @@ Release Items \[rm\_m2m\_release\_task\]
 Represents work items and change records associated to the release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release Management](../concept/c_ITILReleaseManagement.md)
+</table>**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_ITILReleaseManagement.md)
 

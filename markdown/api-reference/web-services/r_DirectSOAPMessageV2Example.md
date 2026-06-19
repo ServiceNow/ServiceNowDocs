@@ -2,6 +2,7 @@
 title: Direct SOAPMessageV2 example
 description: You can send an outbound SOAP message directly to the endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_DirectSOAPMessageV2Example.html
 release: australia
 product: Web Services
 classification: web-services
@@ -43,5 +44,5 @@ gs.info("Response: " + responseBody);
 gs.info("HTTP Status: " + status);
 ```
 
-**Parent Topic:**[Scripting outbound SOAP](../../../../../integrate/outbound-soap/reference/r_ScriptingOutboundSOAP.md)
+**Parent Topic:**[Scripting outbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_ScriptingOutboundSOAP.md)
 

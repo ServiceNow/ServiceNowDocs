@@ -2,6 +2,7 @@
 title: MIDServerManage - Global
 description: The MIDServerManage script include provides methods that allow you to manage a MID Server by sending messages to start, stop, upgrade, get logs, send test probes, and send system messages.Creates an instance of MIDServerManage.Gets the logs for the specified MID server.Restarts the specified MID server.Stops the specified MID server.Creates a system message for the specified MID server.Sends a test probe for the specified MID server.Upgrades the specified MID server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_MIDServerManageAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The MIDServerManage script include provides methods that allow you to manage a M
 
 Use in server scripts to send messages to a MID Server.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## MIDServerManage - MIDServerManage\(\)
 

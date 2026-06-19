@@ -2,6 +2,7 @@
 title: Configure Classic Mobile devices
 description: When you configure Service Catalog on a Classic Mobile device, you can define the layout and presentation of catalogs. You can then perform actions such as ordering products and services, submit incidents and problems using record producers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ServiceCatalogOnMobileDevices.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -45,13 +46,13 @@ Accessing the Service Catalogon Mobile Devices
 
 To access the service catalog, navigate to **Self-Service** &gt; **Catalog**.
 
-![Screenshot for Service Catalog Classic Mobile homepage.](../image/ServiceCatalogHomepageMobile.png "Service Catalog homepage Classic Mobile")
+\[Omitted image "ServiceCatalogHomepageMobile.png"\] Alt text: Screenshot for Service Catalog Classic Mobile homepage.
 
 Catalog items are grouped into categories, which can also contain one or more subcategories.
 
 You can browse and select an item. To browse for an item within a category, tap the category filter to select the category or subcategory.
 
-![Screenshot for Service Catalog category.](../image/MobileUIServiceCatalogCategory.png "Sample service catalog category")
+\[Omitted image "MobileUIServiceCatalogCategory.png"\] Alt text: Screenshot for Service Catalog category.
 
 To request an item:
 
@@ -59,13 +60,13 @@ To request an item:
 
 1.  Select an item.
 
-    ![Screenshot for order item Classic Mobile.](../image/OrderItemMobile.png "Order Item Classic Mobile")
+    \[Omitted image "OrderItemMobile.png"\] Alt text: Screenshot for order item Classic Mobile.
 
 2.  Tap any field with an arrow \(&gt;\) to add information, such as the name or location of the requestor, the need-by date, or item quantity.
 
 3.  Tap **Add to Cart** to add the item to your cart. The order screen appears.
 
-    ![Screenshot for Order Item Classic Mobile 2.](../image/OrderItemMobile2.png "Order Item Classic Mobile 2")
+    \[Omitted image "OrderItemMobile2.png"\] Alt text: Screenshot for Order Item Classic Mobile 2.
 
 4.  Tap **Edit** to edit your order, if required.
 
@@ -73,11 +74,11 @@ To request an item:
 
     A confirmation message appears.
 
-    ![Screenshot for Classic Mobile order confirmation.](../image/OrderMobileConfirmation.png "Classic Mobile Order Confirmation")
+    \[Omitted image "OrderMobileConfirmation.png"\] Alt text: Screenshot for Classic Mobile order confirmation.
 
 6.  Tap the item to see further details.
 
-    ![Screenshot for Classic Mobile Order Requested Item Details.](../image/OrderMobileRequestedItemDetails.png "Classic Mobile Order Requested Item Details")
+    \[Omitted image "OrderMobileRequestedItemDetails.png"\] Alt text: Screenshot for Classic Mobile Order Requested Item Details.
 
 7.  Tap the back arrow to return to the confirmation message.
 
@@ -86,10 +87,10 @@ To request an item:
     After the request is submitted, ServiceNow follows request fulfillment processes to fulfill the ordered item.
 
 
--   **[Define the mobile layout](t_DefiningMobileLayout.md)**  
+-   **[Define the mobile layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefiningMobileLayout.md)**  
 You can configure the Classic Mobile layout for categories within a service catalog.
--   **[Limit description sizes in the Classic Mobile UI](t_LimitDescriptionSizesInMobileUI.md)**  
+-   **[Limit description sizes in the Classic Mobile UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_LimitDescriptionSizesInMobileUI.md)**  
 By default, item descriptions in the smartphone interface are truncated to a maximum of two lines.
 
-**Parent Topic:**[Service Catalog customization](../topic/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

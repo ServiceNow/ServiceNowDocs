@@ -2,6 +2,7 @@
 title: Debugging business rules
 description: Debugging business rules can be achieved with resources available in the ServiceNow product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_DebuggingBusinessRules.html
 release: australia
 product: Scripts
 classification: scripts
@@ -24,9 +25,9 @@ The first step in the process is to identify tools which will help you figure ou
 |System Dictionary|Navigate to **System Definition** &gt; **Dictionary**. The dictionary provides a list of all tables within your instance and can be invaluable when trying to locate information.|
 |System Log|Navigate to **System Logs** &gt; **System Log**. You can place alert statements in your business rule which can write information to the log.|
 |Debug Business Rule \(Details\)|Navigate to **System Diagnostics** &gt; **Session Debug** &gt; **Debug Business Rule \(Details\)**. This debugging module displays the results business rules. Use this module to see if conditions are being met and values are being set as expected.|
-|Alert Messages|There are several system functions that allow you to print messages to the page, the field or the log file. See [Scripting alert, info, and error messages](../../general-scripting/reference/r_ScriptingAlertInfoAndErrorMsgs.md).|
+|Alert Messages|There are several system functions that allow you to print messages to the page, the field or the log file. See [Scripting alert, info, and error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_ScriptingAlertInfoAndErrorMsgs.md).|
 |Business Rule Examples|Sometimes you can find what you're looking for in scripts others have written, including business rule error messages, or by building an OR query.|
-|GlideRecord Information|This is the basic syntax used to query the database for information. See [Querying tables in script](../../server-scripting/concept/c_UsingGlideRecordToQueryTables.md#). GlideRecord also includes aggregation support.|
+|GlideRecord Information|This is the basic syntax used to query the database for information. See [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md). GlideRecord also includes aggregation support.|
 
 ## 2. Variables
 
@@ -93,5 +94,5 @@ while (kids.next()) {
  }
 ```
 
-**Parent Topic:**[Debugging scripts](../../debugging/concept/script-debug-overview.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md)
 

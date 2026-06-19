@@ -2,6 +2,7 @@
 title: Software model results license metric results fields
 description: Software model results License Metric Results form and related list field descriptions. You can access this form through the License Metric Results related list in your software model results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/license-metric-results-fields.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -158,7 +159,7 @@ Used by
 
 </td><td>
 
-User or device that is using the rights.**Note:** If your rights are associated with client access records, the **Used by** field displays the name of each client access record that is using those rights. Select a client access record name to view the corresponding breakdown of users or devices that are using the associated rights. See [Add a software client access record in Software Asset Management classic](../task/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](../task/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
+User or device that is using the rights.**Note:** If your rights are associated with client access records, the **Used by** field displays the name of each client access record that is using those rights. Select a client access record name to view the corresponding breakdown of users or devices that are using the associated rights. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
 
 </td></tr><tr><td>
 
@@ -231,7 +232,7 @@ Rights needed by
 
 </td><td>
 
-Unlicensed user or device that requires rights.**Note:** If rights are needed to cover unlicensed users or devices in an associated client access record, the **Rights needed** field displays the name of the client access record that requires those additional rights. Select the client access record name to view the corresponding breakdown of unlicensed users or devices that require rights. See [Add a software client access record in Software Asset Management classic](../task/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](../task/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
+Unlicensed user or device that requires rights.**Note:** If rights are needed to cover unlicensed users or devices in an associated client access record, the **Rights needed** field displays the name of the client access record that requires those additional rights. Select the client access record name to view the corresponding breakdown of unlicensed users or devices that require rights. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for more information on client access records in the Software Asset Management classic application. See [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md) for more information on client access records in the Software Asset Workspace.
 
 </td></tr><tr><td>
 
@@ -351,5 +352,5 @@ Number of allocations needed for compliance. Only used for Per Named User and Pe
 |Subscription profile|Direct integration profile for the subscription software.|
 |Subscription type|Type of subscription.|
 
-**Parent Topic:**[Software Asset Management references](references.md)
+**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
 

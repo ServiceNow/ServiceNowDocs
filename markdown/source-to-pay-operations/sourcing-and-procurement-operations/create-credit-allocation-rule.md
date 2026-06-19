@@ -2,6 +2,7 @@
 title: Create a credit allocation rule
 description: Assign an amount of credit that an employee shopper can use in Shopping Hub, by creating a condition-based allocation rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-credit-allocation-rule.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -19,7 +20,7 @@ Assign an amount of credit that an employee shopper can use in Shopping Hub, by 
 
 Role required: sn\_shop.shopping\_hub\_admin
 
-To create a credit allocation rule, you must have already created some credits to be assigned to employee shoppers. For more information, see [Create an employee credit](create-employee-credit.md).
+To create a credit allocation rule, you must have already created some credits to be assigned to employee shoppers. For more information, see [Create an employee credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-employee-credit.md).
 
 ## About this task
 
@@ -32,6 +33,8 @@ You can create a condition-based credit allocation rule for an employee shopper 
 2.  Select **New**.
 
 3.  On the form, fill in the fields.
+
+    \[Omitted image "spo-create-credit-allocation-rule.png"\] Alt text: Creating a credit allocation rule for an employee
 
     |Field|Description|
     |-----|-----------|
@@ -56,5 +59,5 @@ You can create a condition-based credit allocation rule for an employee shopper 
 
 Use the related list of the credit allocation rule form to view the employee credits associated with this rule.
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

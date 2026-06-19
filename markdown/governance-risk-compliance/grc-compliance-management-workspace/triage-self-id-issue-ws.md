@@ -2,11 +2,12 @@
 title: Triage self-identified issues using the Compliance Workspace
 description: After an issue has been identified and submitted by employees or business users via the Service Portal, the issue triage process begins. The actual problem is identified and assigned to the appropriate owner for prioritization and resolution in the Compliance Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/triage-self-id-issue-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Manage issues using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +27,7 @@ Role required:
 
 ## About this task
 
-Your employees and business users within your company can self-identify an issue and submit it via the ServiceNow® Service Portal. Following submission, a triage issue is automatically created. For more information, see [Report self-identified issues via the Service Portal](../../grc-policy-and-compliance/task/create-self-identified-issues.md).
+Your employees and business users within your company can self-identify an issue and submit it via the ServiceNow® Service Portal. Following submission, a triage issue is automatically created. For more information, see [Report self-identified issues via the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/create-self-identified-issues.md).
 
 The assigned triage teams identify whether the self-identified issues are actual reported issues, risk events, or observations to be tracked and possibly closed out as noise.
 

@@ -2,6 +2,7 @@
 title: Configure the create action check box for safety inspection survey in the Mobile Agent app
 description: Determine the survey field types that should display the Create action option when inspection agents complete the survey in the Mobile Agent app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-configure-create-action-checkbox-mobile-survey.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -17,7 +18,7 @@ Determine the survey field types that should display the **Create action** optio
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Incident Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Verify that the application scope is selected as Health and Safety Incident Management. For more information, see Application picker.
 
 Role required: admin
 
@@ -36,5 +37,5 @@ Role required: admin
 
 The **Create action** check box is added to the type of the survey field mentioned in the property.
 
-**Parent Topic:**[Manage the safety inspection and audit surveys through mobile app](../concept/hs-configure-manage-safety-inspections-audits-mobile.md)
+**Parent Topic:**[Manage the safety inspection and audit surveys through mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-manage-safety-inspections-audits-mobile.md)
 

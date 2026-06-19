@@ -2,7 +2,10 @@
 title: Case update notifications
 description: Contacts, consumers, and contributor users assigned the Authorized Representative responsibility on a case receive all email notifications sent to the case’s primary contact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-update-notification-cam.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-11"
 reading_time_minutes: 1
@@ -19,11 +22,11 @@ Consumers added as an additional consumer to the sold product with the Authorize
 
 Internal users added as related parties to a case with the Authorized Representative responsibility receive all email notifications sent to the case’s primary contact or consumer.
 
-For case resolved emails, related parties with the Authorized Representative responsibility can accept or reject the proposed solution. The responses of emails from related parties are treated similarly to the primary contact or consumer on the case. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+For case resolved emails, related parties with the Authorized Representative responsibility can accept or reject the proposed solution. The responses of emails from related parties are treated similarly to the primary contact or consumer on the case. For more information, see Create an email notification.
 
 ## Enable case update notification
 
-To receive notifications when a customer replies to a case, related parties added to cases must be assigned a Customer Access Management \(CAM\) role, such as the sn\_customerservice.case\_authorized\_contributor role. For more information, see [Roles installed with Customer Access Management](../reference/r_rolesinstalledwithcustaccessmgmt.md).
+To receive notifications when a customer replies to a case, related parties added to cases must be assigned a Customer Access Management \(CAM\) role, such as the sn\_customerservice.case\_authorized\_contributor role. For more information, see [Roles installed with Customer Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md).
 
 ## Configure notifications for related parties
 

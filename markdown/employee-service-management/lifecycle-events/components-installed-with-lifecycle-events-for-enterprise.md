@@ -2,6 +2,7 @@
 title: Components installed with Lifecycle Events for Enterprise
 description: Several types of components are installed with the activation of the Human Resources Scoped App: Lifecycle Events for Enterprise plugin \[com.sn\_hr\_lifecycle\_ent\] plugin, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/components-installed-with-lifecycle-events-for-enterprise.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -15,7 +16,7 @@ breadcrumb: [Lifecycle Events reference, Lifecycle Events, Employee Journey Mana
 
 Several types of components are installed with the activation of the Human Resources Scoped App: Lifecycle Events for Enterprise plugin \[com.sn\_hr\_lifecycle\_ent\] plugin, including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -46,5 +47,5 @@ Lifecycle events for enterprise administrator\[sn\_hr\_le\_ent.admin\]
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Lifecycle Events reference](../concept/lifecycle-events-reference.md)
+</table>**Parent Topic:**[Lifecycle Events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/lifecycle-events-reference.md)
 

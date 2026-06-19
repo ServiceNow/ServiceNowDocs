@@ -2,6 +2,7 @@
 title: Risk Assessment Methodology form
 description: Use the Risk Assessment Methodology form in the Advanced Risk application to specify the types of risk assessments and the entities on which the risk assessment is performed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-methodology-form.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -150,6 +151,10 @@ Calculate score based on
 Formula that you can select for calculating the score:-   **Average**
 -   **Maximum**
 -   **Minimum**
+-   **Worst Case**
+
+**Note:** The worst case aggregation rollup selects the risk record with the highest residual score and uses its inherent, control, residual, and target scores for the aggregated result.
+
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -372,5 +377,5 @@ Days to overdue
 Based on the due date of the risk assessment, this field is the number of days after which an assessment is considered overdue.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure a risk assessment methodology](../task/configure-ram.md)
+</table>**Parent Topic:**[Configure a risk assessment methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-ram.md)
 

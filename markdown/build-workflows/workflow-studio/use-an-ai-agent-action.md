@@ -2,6 +2,7 @@
 title: Use an AI agent action
 description: Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/use-an-ai-agent-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,13 +28,13 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Reference**
 
-    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+    The AI Agent that you want to use in this flow. You must install the Now Assist AI agents plugin and create and configure an AI agent. For information about installing the Now Assist AI agents plugin, see . For information about creating an AI agent, see .
 
 -   **Support User**
 
     Data type: **Reference**
 
-    The user who is contacted by Now Assist to review and authorize the AI agent's work when the AI agent runs in supervised mode. Select a user who meets the security criteria defined in the AI security controls. If the AI agents is configured to accept a dynamic user, select a user that has the roles necessary to run the AI agent. For more information about the security controls of an AI agent, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md). For information about turning on the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    The user who is contacted by Now Assist to review and authorize the AI agent's work when the AI agent runs in supervised mode. Select a user who meets the security criteria defined in the AI security controls. If the AI agents is configured to accept a dynamic user, select a user that has the roles necessary to run the AI agent. For more information about the security controls of an AI agent, see . For information about turning on the Now Assist panel, see .
 
 -   **Objective**
 
@@ -63,7 +64,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **String**
 
-    The name that identifies the conversation about running the AI agent in the Now Assist panel. For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    The name that identifies the conversation about running the AI agent in the Now Assist panel. For information about activating the Now Assist panel, see .
 
 -   **Context Memory**
 
@@ -103,21 +104,21 @@ You can use these outputs as inputs for other items.
 
 ## Use Incident resolution details AI agent
 
-![Demonstration flow that includes the Use an AI agent action and the Send Email action](../images/example-use-ai-agent-complete-flow.png)
+\[Omitted image "example-use-ai-agent-complete-flow.png"\] Alt text: Demonstration flow that includes the Use an AI agent action and the Send Email action
 
 This example requires installing the Now Assist for IT Service Management \(ITSM\) plugin and turning on the Resolution notes generation skill.
 
-![Sample input configuration of the Use an AI agent action](../images/example-use-ai-agent-inputs.png)
+\[Omitted image "example-use-ai-agent-inputs.png"\] Alt text: Sample input configuration of the Use an AI agent action
 
 In this example, the Use an AI agent action is configured to use the Incident resolution details AI agent in a supervised mode. The objective lists data that will help the AI understand the resolution of an incident.
 
-![](../images/example-use-ai-agent-wait-support-user.png)
+\[Omitted image "example-use-ai-agent-wait-support-user.png"\] Alt text:
 
 Since this example runs in supervised mode, the flow pauses until the support user interacts with the conversation generated in the Now Assist panel.
 
-![](../images/example-use-ai-agent-flow-completed.png)
+\[Omitted image "example-use-ai-agent-flow-completed.png"\] Alt text:
 
 After the support user provides the necessary response, the flow continues running the action and provides it output values. The flow uses these output values to send an email message.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

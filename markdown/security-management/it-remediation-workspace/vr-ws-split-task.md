@@ -2,6 +2,7 @@
 title: Split a remediation task in the IT Remediation Workspace
 description: From a remediation task \(VUL, AVUL, CVUL, or CRG\), identify a subset of records and create a new remediation task for them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/vr-ws-split-task.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -34,7 +35,7 @@ Use cases for splitting records \(VITs, AVITs, CVITs or CTRs\) from existing rem
 -   You want to reassign a split task to another user in your assignment group.
 -   You request a deferral or exception for a split task, because you know that some vulnerabilities on specific configuration items \(CIs\) cannot be remediated by the target date.
 
-For more information about change requests and splitting a remediation task in the classic environment and for versions of Vulnerability Response prior to v15.0, see [Split a remediation task](vuln_change_mgmnt_split.md).
+For more information about change requests and splitting a remediation task in the classic environment and for versions of Vulnerability Response prior to v15.0, see [Split a remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vuln_change_mgmnt_split.md).
 
 **Note:** Starting with v19.0 of Vulnerability Response, the following terms have been renamed:
 

@@ -2,6 +2,7 @@
 title: Talent Interest form
 description: Administrators create interests that employees and managers use to create career growth plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-interests-form.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -26,5 +27,5 @@ Administrators create interests that employees and managers use to create career
 |**Title**|A descriptive name for the interest that helps you determine if this interest is appropriate for your aspiration.|
 |**Topic**|Learning topics that are available in your organization.|
 
-**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-reference.md)
 

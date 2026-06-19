@@ -2,6 +2,7 @@
 title: Automation Center properties
 description: You can access system properties for Automation Center by navigating to All Automation Center Administration Automation Properties .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-center-properties.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -168,5 +169,5 @@ Defines the maximum duration \(in milliseconds/seconds\) to wait while polling f
 -   Default value: **300**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](../concept/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
 

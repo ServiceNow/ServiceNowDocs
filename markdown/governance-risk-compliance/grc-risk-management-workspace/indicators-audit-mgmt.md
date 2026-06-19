@@ -2,6 +2,7 @@
 title: GRC Audit Management plugin indicators
 description: The GRC Audit Management plugin contains various indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/indicators-audit-mgmt.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -46,5 +47,5 @@ The Audit Management plugin includes the following indicators:
     Number of new controls.
 
 
-**Parent Topic:**[Operational Risk Management dashboard](operational-risk-dashboard.md)
+**Parent Topic:**[Operational Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.md)
 

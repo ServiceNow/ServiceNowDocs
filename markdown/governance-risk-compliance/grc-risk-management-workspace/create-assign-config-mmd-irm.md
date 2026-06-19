@@ -2,6 +2,7 @@
 title: Create an assignment configuration
 description: Create an assignment configuration for a manual metric definition to have data owners dynamically assigned to metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-assign-config-mmd-irm.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,7 +22,7 @@ Role required: admin or sn\_risk.admin
 
 ## About this task
 
-In the manual metric definition, you can choose between a simple or advanced option for the assignment of data owners. For the advanced option, you must configure how the data owner is assigned by creating an assignment configuration record. For more information, on the manual metric definition form and fields, see [Create New Metric Definition form](../reference/manual-md-reuse-irm.md).
+In the manual metric definition, you can choose between a simple or advanced option for the assignment of data owners. For the advanced option, you must configure how the data owner is assigned by creating an assignment configuration record. For more information, on the manual metric definition form and fields, see [Create New Metric Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manual-md-reuse-irm.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ In the manual metric definition, you can choose between a simple or advanced opt
 
 3.  On the form, fill in the fields.
 
-    For information about the fields, refer to [Assignment Configuration New Record](../../grc-common/reference/assignment-configuration-new-record.md).
+    For information about the fields, refer to [Assignment Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/assignment-configuration-new-record.md).
 
     **Note:** You cannot have more than one approval configuration applying to the table with the same priority.
 
@@ -44,5 +45,5 @@ Data owners are assigned to metrics based on the parameters set in your assignme
 
 **Note:** If the assignment configuration doesn’t return any results, the user defined in the **Data owner** field of the metric definition record will be the assigned as the data owner.
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

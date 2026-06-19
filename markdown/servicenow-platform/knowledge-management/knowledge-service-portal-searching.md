@@ -2,11 +2,12 @@
 title: Search using the Knowledge Management Service Portal
 description: Enter one or more words in the search bar on the Knowledge Management Service Portal homepage to view all search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-service-portal-searching.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,5 +48,5 @@ Users with the system administrator role can enable this feature.
     -   Suggest related searches for knowledge or global search \(glide.ts.dym.enable\_chain\_suggest\).
 3.  Click **Save**.
 
-**Parent Topic:**[Configure the Knowledge Management Service Portal](../concept/knowledge-management-service-portal.md)
+**Parent Topic:**[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
 

@@ -2,13 +2,14 @@
 title: Troubleshoot test failures
 description: Use ATF troubleshooting agent to significantly reduce the skills and resources needed to troubleshoot test failures on covered metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/atf-troubleshooting-agent-test-failure.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Troubleshoot test failures
@@ -63,5 +64,5 @@ Role required: atf\_triager + now\_assist\_panel\_user
     You can read the complete analysis of the failed summary record. The ATF troubleshooting agent modal first starts with the planning of next steps that includes figuring out the next steps, executing the troubleshooting agent, analyzing the test steps and logs, traced, and changed metadata. The ATF troubleshooting agent finally gives you the root cause of the failure of the selected summary record. Select Show more to view the detailed analysis of the root cause. You can also see some tips suggested by the agent to fix the issue.
 
 
-**Parent Topic:**[ATF troubleshooting agent](../reference/atf-troubleshooting-agent-landing-page.md)
+**Parent Topic:**[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
 

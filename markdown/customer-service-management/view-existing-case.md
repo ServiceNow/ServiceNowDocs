@@ -2,7 +2,10 @@
 title: View or modify existing cases in Microsoft Outlook
 description: As an account manager, view the five most recent cases related to a Microsoft Outlook contact to understand contact-related issues, modify any case information, and communicate more efficiently with the contact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-existing-case.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: sn\_customerservice.contact\_manager and sn\_customerservice.prox
 
 ## About this task
 
-Although you can view or modify existing cases from Microsoft Outlook, you can also access the CSM portal to work on open cases by clicking the pop-out icon \(![Pop-out icon to go to the CSM portal page.](../image/pop-out-icon.png)\).
+Although you can view or modify existing cases from Microsoft Outlook, you can also access the CSM portal to work on open cases by clicking the pop-out icon \(\[Omitted image "pop-out-icon.png"\] Alt text: Pop-out icon to go to the CSM portal page.\).
 
 ## Procedure
 
@@ -35,7 +38,7 @@ Although you can view or modify existing cases from Microsoft Outlook, you can a
 
 5.  Type your message.
 
-6.  If you have supporting information such as a message that you want to attach to a case, click the attachment icon \(![Attachment icon.](../image/attachment-icon.png)\) and select the file.
+6.  If you have supporting information such as a message that you want to attach to a case, click the attachment icon \(\[Omitted image "attachment-icon.png"\] Alt text: Attachment icon.\) and select the file.
 
 7.  Click **Send**.
 

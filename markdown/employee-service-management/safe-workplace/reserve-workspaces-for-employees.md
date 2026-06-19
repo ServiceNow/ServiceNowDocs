@@ -2,6 +2,7 @@
 title: Create workplace reservations for an employee
 description: Create workplace reservations for an employee in the Workplace Core application using the shifts and shift schedules that you defined.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/reserve-workspaces-for-employees.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -17,10 +18,10 @@ Create workplace reservations for an employee in the Workplace Core application 
 
 ## Before you begin
 
--   [Define shifts for your workplace](../../workplace-service-delivery/task/create-shifts-wsd.md).
--   [Assign employees to a shift](../../workplace-service-delivery/task/associate-employees-with-shifts-wsd.md).
--   [Associate areas and spaces with a shift](../../workplace-service-delivery/task/associate-workspaces-with-shifts-wsd.md).
--   [Define the capacity of workplace areas](../../workplace-service-delivery/task/define-capacity-of-workplace-areas-wsd.md).
+-   [Define shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-shifts-wsd.md).
+-   [Assign employees to a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/associate-employees-with-shifts-wsd.md).
+-   [Associate areas and spaces with a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/associate-workspaces-with-shifts-wsd.md).
+-   [Define the capacity of workplace areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/define-capacity-of-workplace-areas-wsd.md).
 -   Ensure you have the data that shows the mapping of employees to the workplaces in your workplace.
 
 Role required: sn\_wsd\_core.workplace\_manager
@@ -104,5 +105,5 @@ Date and time until which the reservation remains active.
 -   A preconfigured email with the reservation details is sent to the shift owner and the employee for whom you reserved the workplace.
 -   The reservation is added to the list of all reservations that you can view by navigating to **Workplace Core** &gt; **Space Reservations** &gt; **All Reservations**.
 
-**Parent Topic:**[Managing workplace reservations for employees](../concept/managing-workplace-reservations.md)
+**Parent Topic:**[Managing workplace reservations for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/managing-workplace-reservations.md)
 

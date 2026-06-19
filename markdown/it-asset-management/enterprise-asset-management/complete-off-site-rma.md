@@ -2,6 +2,7 @@
 title: Complete the RMA process for a defective enterprise asset through an off-site replacement or repair
 description: Work with your asset vendor to perform all tasks that are required for an off-site replacement or repair so that you can complete the RMA process for a defective enterprise asset. You must perform this set of tasks separately for each defective enterprise asset that requires an off-site replacement or repair.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-off-site-rma.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Work with your asset vendor to perform all tasks that are required for an off-si
 
 ## Before you begin
 
-Before you can proceed with the RMA process for a defective enterprise asset off-site, you must complete the Prepare task for the associated RMA order line. See [Complete the Prepare task for an RMA order line](complete-rma-assessment.md) for detailed instructions.
+Before you can proceed with the RMA process for a defective enterprise asset off-site, you must complete the Prepare task for the associated RMA order line. See [Complete the Prepare task for an RMA order line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-rma-assessment.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technician
 
@@ -41,7 +42,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
     1.  On the **RMA Line Tasks** tab of the RMA order line record, select the task number for the **Shipment** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the RMA order line record header.![Current task field.](../image/rma-order-line-details-header.png)
+        Alternatively, select the task number that is displayed in the **Current task** field of the RMA order line record header.\[Omitted image "rma-order-line-details-header.png"\] Alt text: Current task field.
 
         The Shipment task opens.
 
@@ -73,7 +74,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
     1.  On the **RMA Line Tasks** tab of the RMA order line record, select the task number for the **Vendor RMA decision** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the RMA order line record header.![Current task field.](../image/rma-order-line-details-header.png)
+        Alternatively, select the task number that is displayed in the **Current task** field of the RMA order line record header.\[Omitted image "rma-order-line-details-header.png"\] Alt text: Current task field.
 
         The Vendor RMA decision task opens.
 
@@ -172,13 +173,13 @@ Notes about the task that are visible to all users within your organization.
 
     To successfully complete and close this task, you must receive the new, repaired, or rejected enterprise asset from the asset vendor.
 
-    If you are receiving a new enterprise asset as a replacement for the defective enterprise asset, you must also create an asset record for the new enterprise asset. See [Create enterprise assets](create-asset-eam.md) for detailed instructions.
+    If you are receiving a new enterprise asset as a replacement for the defective enterprise asset, you must also create an asset record for the new enterprise asset. See [Create enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-eam.md) for detailed instructions.
 
     **Note:** When you create the asset record for the new enterprise asset, you must set the **State** field to **In stock**. You must also verify that the **Acquisition method** field is set to **RMA Replacement.**
 
     1.  On the **RMA Line Tasks** tab of the RMA order line record, select the task number for the **Receive** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the RMA order line record header.![Current task field.](../image/rma-order-line-details-header.png)
+        Alternatively, select the task number that is displayed in the **Current task** field of the RMA order line record header.\[Omitted image "rma-order-line-details-header.png"\] Alt text: Current task field.
 
         The Receive task opens.
 
@@ -304,5 +305,5 @@ If the asset vendor rejected the RMA, the defective enterprise asset remains in 
 
 Complete the RMA process for any remaining RMA order lines within the RMA order. After all RMA order lines reach the Completed stage, the RMA order is closed.
 
-**Parent Topic:**[Closing a Return Merchandise Authorization \(RMA\) order for your defective enterprise assets](../concept/closing-rma-order.md)
+**Parent Topic:**[Closing a Return Merchandise Authorization \(RMA\) order for your defective enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/closing-rma-order.md)
 

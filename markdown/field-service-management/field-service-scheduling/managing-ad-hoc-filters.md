@@ -2,6 +2,7 @@
 title: Managing ad hoc filters
 description: Create ad hoc filters in Dispatcher Workspace to filter work order tasks with custom criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/managing-ad-hoc-filters.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

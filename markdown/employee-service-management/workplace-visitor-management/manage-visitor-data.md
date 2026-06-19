@@ -2,6 +2,7 @@
 title: Manage your visitor data
 description: Download or anonymize your data on the visitor portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/manage-visitor-data.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -23,7 +24,7 @@ Role required: None
 
 1.  Log in to the visitor portal, then select a visit.
 
-    For more information about logging in to the visitor portal, see [Logging in to the visitor portal](../concept/login-visitor-portal.md#).
+    For more information about logging in to the visitor portal, see [Logging in to the visitor portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/login-visitor-portal.md).
 
 2.  Select your profile icon, then select either of the following options.
 

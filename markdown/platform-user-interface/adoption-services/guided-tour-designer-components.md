@@ -2,11 +2,12 @@
 title: GTD components
 description: Learn about the Guided Tours components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/guided-tour-designer-components.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Guided Tour Designer, Explore Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -58,7 +59,7 @@ The callout provides the definition and instructions for the current tour step, 
 -   To the left
 -   To the right
 
- You can customize the Service Portal guided tour callout colors. For more information, see [Guided Tour callout color](../reference/guided-tour-callout-color.md).
+ You can customize the Service Portal guided tour callout colors. For more information, see [Guided Tour callout color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-callout-color.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +79,7 @@ Trigger
 
 Triggers are actions that you take to advance the tour to the next step. Triggers include pressing the Enter key, selecting or right-clicking a UI element, or selecting a **Next** button in the callout.
 
- For more information, see [GTD triggers](../reference/guided-tour-triggers.md).
+ For more information, see [GTD triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-triggers.md).
 
 </td></tr><tr><td>
 

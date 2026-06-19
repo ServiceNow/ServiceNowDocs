@@ -2,6 +2,7 @@
 title: GlideElementDynamicAttributeStore - Global
 description: The GlideElementDynamicAttributeStore API provides convenient script methods for managing dynamic attributes in the current glide record. Use these methods in conjunction with the GlideRecord API to get and set defined dynamic attribute values.Returns the display value of the dynamic attribute located at a specified attribute path within a dynamic attribute store. If a display value is not available, it returns the internal value.Returns the set of dynamic attribute paths that are present in the schema configured for the store.Returns the set of dynamic attribute paths that are present in the store.Returns the set of dynamic attribute definitions that are present and stored in a field.Returns the set of dynamic attribute definitions that are pointed to in the schema.Returns the internal value of the dynamic attribute pointed to by a passed-in attribute path within a dynamic attribute store.Returns a dynamic namespace that is configured for the store.Gets the name of the dynamic namespace that is configured for the store.Sets the attribute pointed to by a specified attribute path in a dynamic attribute store to a specified value.Sets the values specified in the passed GlideElementDynamicAttributeStore object in the dynamic attribute store of the current GlideRecord element. The current element's data type must be set to Dynamic Attribute Store.Sets the display value of the dynamic attribute located at a specified path within the dynamic attribute store of the current GlideRecord element.Sets the display values specified in the passed GlideDynamicAttributeStore object in the dynamic attributes of the current GlideRecord element. The current element's data type must be set to Dynamic Attribute Store in the associated table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,17 +18,17 @@ The GlideElementDynamicAttributeStore API provides convenient script methods for
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
-This API extends the [GlideElement - Global](../../GlideElement_global/concept/c_GlideElementAPI.md#) API.
+This API extends the [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md) API.
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
+See also .
 
 See also:
 
--   [GlideDynamicAttribute - Global](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#)
--   [GlideDynamicNamespace - Global](../../GlideDynamicNamespace/concept/GlideDynamicNamespaceAPI.md#)
--   [GlideDynamicAttributeStore - Global](../../GlideDynamicAttributeStore/concept/GlideDynamicAttStoreAPI.md#)
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideElementDynamicAttributeStore - getDynamicAttributeDisplayValue\(String attributePath\)
 
@@ -162,7 +163,7 @@ Returns the set of dynamic attribute definitions that are present and stored in 
 
 |Type|Description|
 |----|-----------|
-|Array|Array of [GlideDynamicAttribute](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#) objects.|
+|Array|Array of [GlideDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) objects.|
 
 The following example shows how to retrieve the contents of a stored dynamic attribute, list the attributes it stored, and the attributes in its schema.
 
@@ -208,7 +209,7 @@ Returns the set of dynamic attribute definitions that are pointed to in the sche
 
 |Type|Description|
 |----|-----------|
-|Array|Array of [GlideDynamicAttribute](../../GlideDynamicAttribute/concept/GlideDynamicAttributeAPI.md#) objects.|
+|Array|Array of [GlideDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) objects.|
 
 The following example shows how to retrieve the contents of a stored dynamic attribute, list the attributes it stored, and the attributes in its schema.
 
@@ -248,7 +249,7 @@ integer1,string1,integer1
 
 Returns the internal value of the dynamic attribute pointed to by a passed-in attribute path within a dynamic attribute store.
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
+See also .
 
 <table id="table_tnp_rld_bbc" class="parameters"><thead><tr><th>
 
@@ -383,7 +384,7 @@ incident/inc_dynamic_schema
 
 Sets the attribute pointed to by a specified attribute path in a dynamic attribute store to a specified value.
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
+See also .
 
 <table id="table_aj2_vmd_bbc" class="parameters"><thead><tr><th>
 
@@ -464,11 +465,11 @@ gr_Inc.insert();
 
 Sets the values specified in the passed GlideElementDynamicAttributeStore object in the dynamic attribute store of the current GlideRecord element. The current element's data type must be set to **Dynamic Attribute Store**.
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
+See also .
 
 |Name|Type|Description|
 |----|----|-----------|
-|values|[GlideDynamicAttributeStore](../../GlideDynamicAttributeStore/concept/GlideDynamicAttStoreAPI.md#)|Object that contains the values to set in the current element's dynamic schema. Values not specified in this object are not updated.|
+|values|[GlideDynamicAttributeStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)|Object that contains the values to set in the current element's dynamic schema. Values not specified in this object are not updated.|
 
 |Type|Description|
 |----|-----------|
@@ -617,7 +618,7 @@ values
 
 </td><td>
 
-[GlideDynamicAttributeStore](../../GlideDynamicAttributeStore/concept/GlideDynamicAttStoreAPI.md#)
+[GlideDynamicAttributeStore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
 
 </td><td>
 

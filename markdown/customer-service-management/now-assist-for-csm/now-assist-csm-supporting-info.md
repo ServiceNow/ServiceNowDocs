@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Customer Service Management \(CSM\)
 description: Get a quick overview of the important information that is related to the Now Assist for Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -19,11 +20,11 @@ Get a quick overview of the important information that is related to the Now Ass
 
 Now Assist for CSM is supported starting with Vancouver Patch 4.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Supported language models
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Supported user interfaces
 
@@ -83,7 +84,7 @@ Now Assist for CSM supports the following languages across all skills:
 -   Brazilian Portuguese
 -   Italian
 
-For more info, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
+For more info, see 
 
 ## Role masking for Now Assist for CSM agentic workflows, AI agents, and skills
 
@@ -125,7 +126,7 @@ Activate the applications in the following order:
 2.  UXC Generative AI
 3.  Now Assist for CSM
 
-For more information, see [Configuring Now Assist for Customer Service Management \(CSM\)](now-assist-csm-configuring.md).
+For more information, see [Configuring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 
-**Parent Topic:**[Exploring Now Assist for Customer Service Management \(CSM\)](now-assist-csm-exploring.md)
+**Parent Topic:**[Exploring Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
 

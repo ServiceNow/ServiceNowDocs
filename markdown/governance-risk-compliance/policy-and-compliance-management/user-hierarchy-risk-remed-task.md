@@ -2,6 +2,7 @@
 title: User hierarchy access control
 description: If a user is assigned to an issue or a remediation task, then the manager of the user and the manager above in the hierarchy also get access to the issue or remediation task record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/user-hierarchy-risk-remed-task.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -26,5 +27,5 @@ The prerequisites to enable user hierarchy access control are:
 
 The concept of user hierarchy is helpful as it provides more visibility to the users in the hierarchy in tracking its completion when it is assigned to a user in a team. User hierarchy fields are not visible in the Issue or Remediation task form, however internally this feature enables you to restrict access to records based on those users in the hierarchy who can access them.
 
-**Parent Topic:**[Manually create GRC issues](../../grc-common/task/t_CreateAnIssue.md)
+**Parent Topic:**[Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnIssue.md)
 

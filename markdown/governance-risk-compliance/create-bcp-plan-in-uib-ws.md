@@ -2,6 +2,7 @@
 title: Create a business continuity plan
 description: Create a business continuity plan in BCM UIB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-bcp-plan-in-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,11 +28,11 @@ The BCP Plan Manager \(sn\_bcp.plan\_manager\) now includes the Doc writer \(sn\
 
     The **Create New Plan** form is displayed as shown in the example.
 
-    ![Create New Plan form.](../image/create-new-plan-blank-form.png)
+    \[Omitted image "create-new-plan-blank-form.png"\] Alt text: Create New Plan form.
 
 3.  Fill in the required fields in the **Details** tab of the **Create New Plan** form.
 
-    For more information on the fields, see [Create New Plan form](../reference/create-new-plan-bcp-uib-ws-reference-form.md).
+    For more information on the fields, see [Create New Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md).
 
     The business continuity plan \(BCP\) is created in the **Draft** state and it’s displayed in the List view. The state and details of the business continuity plan are displayed in the tabs.
 
@@ -85,7 +86,7 @@ The **source\_table\_fields** configuration applies to the **Scope** tab in the 
 
 The example shows that the IAD datacenter is added as both a related asset of a primary scope and as a primary scope itself.
 
-![Primary scope.](../image/pri-related-assets-scope-tab.png)The **source\_table\_fields** configuration applies to the **Scope** tab in the BCPs. These columns appear when you select **Add primary scope**.
+\[Omitted image "pri-related-assets-scope-tab.png"\] Alt text: Primary scope.The **source\_table\_fields** configuration applies to the **Scope** tab in the BCPs. These columns appear when you select **Add primary scope**.
 
 </td></tr><tr><td>
 
@@ -95,7 +96,7 @@ The example shows that the IAD datacenter is added as both a related asset of a 
 
 The **Add related asset** action enables you to add a related asset and then relate it to a primary asset. For example, Abel Tuter, employed at the IAD datacenter, is added as a related asset.
 
-![Related asset scope tab.](../image/related-asset-scope-tab.png)The **source\_table\_fields** configuration applies to the **Scope** tab in the BCPs. These columns appear when you select **Add related asset**.
+\[Omitted image "related-asset-scope-tab.png"\] Alt text: Related asset scope tab.The **source\_table\_fields** configuration applies to the **Scope** tab in the BCPs. These columns appear when you select **Add related asset**.
 
 </td></tr><tr><td>
 
@@ -107,15 +108,15 @@ Displays the Asset, BIA, Recovery time objective \(RTO\), Recovery point objecti
 
 The **Asset dependencies** tab provides a Hierarchical view illustrating the relationships between parent assets and their child assets. In this example, it's shown that Abel Tuter is a related asset to the IAD data center.
 
-![Related asset.](../image/asset-dep-tab-hierarchy-view.png)Since the user, Abel Tuter, was added manually, the Primary source column indicates it as a manual source.
+\[Omitted image "asset-dep-tab-hierarchy-view.png"\] Alt text: Related asset.Since the user, Abel Tuter, was added manually, the Primary source column indicates it as a manual source.
 
 You can track dependencies in the Hierarchical view and List view. You have the option to switch from the Hierarchical view to the List view, where all assets are displayed in the list format. The Hierarchical view displays all primary assets and up to 20 child assets. If a primary asset includes more than 20 assets, you can select the primary or related asset and it navigates you to the record view. Related assets are only present for the primary assets.
 
-![List view.](../image/list-view.png)For example, the Business Application: Acrobat is considered a primary asset, while the Company: Adobe systems is identified as its related asset. The source of the asset is displayed in the Primary source column.
+\[Omitted image "list-view.png"\] Alt text: List view.For example, the Business Application: Acrobat is considered a primary asset, while the Company: Adobe systems is identified as its related asset. The source of the asset is displayed in the Primary source column.
 
-![Primary source.](../image/pri-source-column.png)You can add details from the dependent items in the plan as shown in the example.
+\[Omitted image "pri-source-column.png"\] Alt text: Primary source.You can add details from the dependent items in the plan as shown in the example.
 
-![Add details from dependent items.](../image/add-details-from-dep-items-bcp.png)
+\[Omitted image "add-details-from-dep-items-bcp.png"\] Alt text: Add details from dependent items.
 
 </td></tr><tr><td>
 
@@ -131,7 +132,7 @@ Record the recovery capabilities of the plan in the documentation sections. Cont
 
 </td><td>
 
-Contains the associated plan types such as Upstream plans, Downstream plans, Related plans. For more information, see [Add associated plans and recovery teams](add-related-plans-recovery-teams-bcp-uib-ws.md).
+Contains the associated plan types such as Upstream plans, Downstream plans, Related plans. For more information, see [Add associated plans and recovery teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md).
 
 </td></tr><tr><td>
 
@@ -157,15 +158,15 @@ Loss scenarios that are applicable to the business continuity plan. Contains the
 
 Details of the recovery tasks such as Planned order, Short description, Owner, Dependencies, Planned duration, Phase, Asset recovery level columns.
 
-You can create a recovery task within the business continuity plan.![Recovery tasks tab.](../image/recovery-tasks-tab.png)A cyclic dependency occurs when two or more recovery tasks rely on each other, either directly or indirectly. Beginning with the Xanadu release, it’s possible to help prevent cyclic dependencies in recovery tasks, verifying that the same plan is not triggered multiple times.
+You can create a recovery task within the business continuity plan.\[Omitted image "recovery-tasks-tab.png"\] Alt text: Recovery tasks tab.A cyclic dependency occurs when two or more recovery tasks rely on each other, either directly or indirectly. Beginning with the Xanadu release, it’s possible to help prevent cyclic dependencies in recovery tasks, verifying that the same plan is not triggered multiple times.
 
-![Plan record tabs.](../image/plan-record-tabs.png)For example, if the recovery task in Plan 1 triggers Plan 2, Plan 2 then triggers Plan 3, and Plan 3 subsequently triggers Plan 1, this sequence creates a cyclic dependency. An error message, similar to the example provided, is displayed to inform users that triggering the plan has resulted in a cyclic dependency and suggests selecting an alternative related plan. Choosing a different related plan in such cases helps avoid these issues during an event.
+\[Omitted image "plan-record-tabs.png"\] Alt text: Plan record tabs.For example, if the recovery task in Plan 1 triggers Plan 2, Plan 2 then triggers Plan 3, and Plan 3 subsequently triggers Plan 1, this sequence creates a cyclic dependency. An error message, similar to the example provided, is displayed to inform users that triggering the plan has resulted in a cyclic dependency and suggests selecting an alternative related plan. Choosing a different related plan in such cases helps avoid these issues during an event.
 
-![Cyclic plan error message.](../image/cyclic-plan-error-message.png)If plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are established, an error message is displayed, advising the removal of the plan before the record can be saved.
+\[Omitted image "cyclic-plan-error-message.png"\] Alt text: Cyclic plan error message.If plans are activated beyond 10 levels or hierarchical links involving more than 10 levels of plans are established, an error message is displayed, advising the removal of the plan before the record can be saved.
 
-![Plan levels.](../image/cyclic-plan-levels.png)Beginning with the Xanadu release, the recovery tasks are organized based on their dependencies. You have the flexibility to assign dependencies to the tasks, and the application then determines a sequence for these tasks based on the assigned dependencies. If there are tasks without any dependencies linking them, they can be handled simultaneously. You can edit the **sn\_bcp.sync\_order\_calculation\_task\_limit** property to change the count for the recovery task order so that it’s calculated synchronously.
+\[Omitted image "cyclic-plan-levels.png"\] Alt text: Plan levels.Beginning with the Xanadu release, the recovery tasks are organized based on their dependencies. You have the flexibility to assign dependencies to the tasks, and the application then determines a sequence for these tasks based on the assigned dependencies. If there are tasks without any dependencies linking them, they can be handled simultaneously. You can edit the **sn\_bcp.sync\_order\_calculation\_task\_limit** property to change the count for the recovery task order so that it’s calculated synchronously.
 
-![Order.](../image/recovery-tasks-order.png)The sequence of tasks depicted in the illustration is clarified with the example:
+\[Omitted image "recovery-tasks-order.png"\] Alt text: Order.The sequence of tasks depicted in the illustration is clarified with the example:
 
 1.  Task 1 and Task 3 are independent of each other, enabling them to be executed at the same time, and they’re both assigned a planned order of 1.
 2.  Task 5 depends on both Task 1 and Task 3 and therefore, it’s assigned a planned order of 2.
@@ -174,9 +175,9 @@ Tasks can be performed simultaneously, enabling several users to collaborate on 
 
 If you have over 500 recovery tasks and the dependencies are updated, the planned order of these recovery tasks is not updated instantly. Rather, an informational message is displayed, suggesting that the planned order of the recovery tasks be updated using the **Refresh tasks order** UI action.
 
-![Refresh tasks UI action.](../image/refresh-tasks-order.png)The option to refresh the task order is also accessible from the menu in the plan record, as illustrated in the example.
+\[Omitted image "refresh-tasks-order.png"\] Alt text: Refresh tasks UI action.The option to refresh the task order is also accessible from the menu in the plan record, as illustrated in the example.
 
-![Refresh tasks in plan.](../image/refresh-tasks-order-in-plan-record.png)When you must reorder recovery tasks within a plan, a message is displayed that the reordering process may take some time. You can use the **Refresh tasks order** UI action to update the tasks order.
+\[Omitted image "refresh-tasks-order-in-plan-record.png"\] Alt text: Refresh tasks in plan.When you must reorder recovery tasks within a plan, a message is displayed that the reordering process may take some time. You can use the **Refresh tasks order** UI action to update the tasks order.
 
 </td></tr></tbody>
 </table>4.  Add a primary scope and its related assets in the **Scope** tab.
@@ -185,21 +186,21 @@ If you have over 500 recovery tasks and the dependencies are updated, the planne
 
     It pulls both related assets and their relationships. A message is displayed that the dependencies are being updated and you must refresh the page to view the updated dependencies.
 
-    ![Updated dependencies.](../image/update-dependencies-plan-record.png)
+    \[Omitted image "update-dependencies-plan-record.png"\] Alt text: Updated dependencies.
 
     You can view dependency updates in the snapshot record.
 
-    ![Snapshot.](../image/updated-snapshot-plan-record.png)
+    \[Omitted image "updated-snapshot-plan-record.png"\] Alt text: Snapshot.
 
     The Parent item column in the **Added** tab shows the parent item of the new asset. All items that are dependent on the parent item are shown in the Item column as shown in the example. The Source column shows whether the source is from CMDB, Manual, or Downstream dependency in BIA. It’s used for BIA downstream. Selecting the BIA record link shows you that the dependencies are derived from this BIA record.
 
-    ![Parent item.](../image/parent-item-snapshot-record.png)
+    \[Omitted image "parent-item-snapshot-record.png"\] Alt text: Parent item.
 
 5.  Review the **Finalized RTO** and **Finalized RPO** values columns in the **Scope** tab.
 
     With GRC: Business Impact Analysis, version 9.2.x, the **Finalized RTO** and **Finalized RPO** fields are introduced in the **Scope** tab.
 
-    ![Finalized RPO.](../image/finalized-rpo-rto-plan.png)
+    \[Omitted image "finalized-rpo-rto-plan.png"\] Alt text: Finalized RPO.
 
     When you add a dependency in the **Scope** tab, the system retrieves the most recent Business Impact Analysis \(BIA\) and uses its "Finalized RTO" and "Finalized RPO" values for that specific dependency.
 
@@ -207,7 +208,7 @@ If you have over 500 recovery tasks and the dependencies are updated, the planne
 
     When you add "Acrobat" as a primary scope to the plan record, the "Finalized RTO" and "Finalized RPO", "Recovery Tier", and "BIA' values are retrieved from the BIA and populated in the columns.
 
-    ![Finalized RPO.](../image/acrobat-rto-plan.png)
+    \[Omitted image "acrobat-rto-plan.png"\] Alt text: Finalized RPO.
 
     If you've already fetched a dependency and later update the BIA's RTO and RPO values and if the corresponding RTO fields for that dependency are empty, select**Update dependencies** to fetch the latest values from the BIA.
 
@@ -245,8 +246,8 @@ If you have over 500 recovery tasks and the dependencies are updated, the planne
 14. Select **Delete** to delete the plan.
 
 
--   **[Create New Plan form](../reference/create-new-plan-bcp-uib-ws-reference-form.md)**  
+-   **[Create New Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.md)**  
 Use the Create New Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
 
-**Parent Topic:**[Structured workflows for BCPs](../concept/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

@@ -2,6 +2,7 @@
 title: Using indicator templates
 description: Indicators collect data to monitor a single control or risk. Indicator templates allow you to create multiple indicators for similar controls or risks. The Technology Controls Monitoring Accelerator application provides a collection of 171 predefined indicator templates for monitoring cybersecurity controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/using-indicator-templates.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -62,7 +63,7 @@ The Calculated Risk Score for the risk is also adjusted automatically by the ind
 
 Each indicator template includes a schedule for identifying the frequency of data collection, as shown here.
 
-![Indicator template schedule tab](../image/indicator-template-schedule.png "Indicator template schedule")
+\[Omitted image "indicator-template-schedule.png"\] Alt text: Indicator template schedule tab
 
 <table id="table_schedule_tab"><thead><tr><th>
 
@@ -90,7 +91,7 @@ Collection frequency for indicator results. Indicator tasks and results are gene
 
 The Method tab identifies how the results are collected, as shown here.
 
-![Indicator template collection method](../image/indicator-template-method.png "Indicator template collection method")
+\[Omitted image "indicator-template-method.png"\] Alt text: Indicator template collection method
 
 |Field|Description|
 |-----|-----------|
@@ -108,7 +109,7 @@ The Method tab identifies how the results are collected, as shown here.
 
 Starting with version 10.1, the Supporting Data tab displays actual historical data for the supporting data records from the indicator results or indicator tasks. In earlier versions, only the real-time state of the records collected could be viewed.
 
-![Indication template supporting data](../image/indicator-template-supporting-data.png "Indicator template supporting data")
+\[Omitted image "indicator-template-supporting-data.png"\] Alt text: Indication template supporting data
 
 |Field|Description|
 |-----|-----------|
@@ -128,5 +129,5 @@ You can also view information on the following tabs:
 
 **Note:** The **Control Objectives/Risk Statements** tab allows you to reuse the same template for multiple control objectives or risk statements.
 
-**Parent Topic:**[Technology Controls Monitoring Accelerator](../../grc-tech-controls-monitoring-accel/concept/tech-controls-monitoring-accel.md)
+**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

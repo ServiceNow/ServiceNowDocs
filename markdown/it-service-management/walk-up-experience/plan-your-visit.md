@@ -2,6 +2,7 @@
 title: Plan your walk-up experience visit with Employee Center
 description: Schedule a single or multiple appointments to visit the walk-up lounge or the support lounge Walk-up Experience Employee Center. You can also get remote help.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/plan-your-visit.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -21,7 +22,7 @@ Role required: itil
 
 ## About this task
 
-Employee Center portal enables users to easily scale their service solutions across departments, such as IT, HR, Workplace, Legal, and Procurement with digital workflows. This unified portal goes beyond the basic service delivery to provide a platform for communications, engagement, and content experiences. For more information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-landing-page.md).
+Employee Center portal enables users to easily scale their service solutions across departments, such as IT, HR, Workplace, Legal, and Procurement with digital workflows. This unified portal goes beyond the basic service delivery to provide a platform for communications, engagement, and content experiences. For more information, see Employee Center.
 
 -   Use Employee Center to schedule a walk-up appointment to get help, such as to request for new hardware, update software, or upgrade your system.
 -   You can make an appointment, request for the next open appointment, or see your upcoming appointments.
@@ -42,7 +43,7 @@ Employee Center portal enables users to easily scale their service solutions acr
 
 6.  Select a reason for your visit.
 
-7.  Click the calendar icon \(![Calendar icon](../image/CalendarIcon.png)\) and select an available time slot.
+7.  Click the calendar icon \(\[Omitted image "CalendarIcon.png"\] Alt text: Calendar icon\) and select an available time slot.
 
 8.  Select the type of appointment.
 

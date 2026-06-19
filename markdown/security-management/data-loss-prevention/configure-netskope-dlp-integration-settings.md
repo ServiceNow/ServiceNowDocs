@@ -2,6 +2,7 @@
 title: Configure Netskope DLP integration settings
 description: Modify the  Netskope DLP  integration default system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-netskope-dlp-integration-settings.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -39,5 +40,5 @@ Role required: sn\_dlir.admin
 
 Your modified integration settings are applied in the next polling interval as defined in the profile.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](../concept/dlp-incident-response-integration-netskope.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-netskope.md)
 

@@ -2,6 +2,7 @@
 title: Policy dynamic approval setup with redlining
 description: Set up dynamic approval configuration on a policy for which redlining is enabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/configure-dynamic-approval-for-policy-redlining.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -33,7 +34,7 @@ To use dynamic approval for policy redlining, ensure that the redlining setup is
 
 3.  Navigate to **Compliance library** &gt; **My policies** and open a policy record.
 
-    You can [create a new policy](../../grc-workspace-compliance/task/create-policy-ws.md) or open a policy record to enable the redlining feature.
+    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a policy record to enable the redlining feature.
 
 4.  Select the Policy text related list to view the contents of the policy text.
 
@@ -53,7 +54,7 @@ To use dynamic approval for policy redlining, ensure that the redlining setup is
 
 7.  Select the **Complete publishing checklist** button.
 
-    You can complete the tasks in the publishing checklist. For more information on redlining, see [Policy authoring and redlining in Compliance Workspace](../concept/policy-authoring-redlining.md).
+    You can complete the tasks in the publishing checklist. For more information on redlining, see [Policy authoring and redlining in Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-authoring-redlining.md).
 
 8.  Select **Save**.
 

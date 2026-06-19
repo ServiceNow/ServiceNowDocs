@@ -2,6 +2,7 @@
 title: Configure bulk import
 description: This system property enables you to update the bulk import functionality in Portfolio Planning with PPM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/bulk-import-for-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

@@ -2,6 +2,7 @@
 title: Oracle DB Server Deployments per Agreement report
 description: You can use the Oracle DB Server Deployments per Agreement report to gain visibility into your Oracle Database server deployments across hybrid infrastructures, based on the agreement type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/oracle-server-agreement.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -30,5 +31,5 @@ To view this report, launch the Software Asset Workspace by navigating to **Work
 |Cloud provider|Cloud provider through which your Oracle Database servers are deployed.|
 |Cloud service type|Cloud service model through which your Oracle Database servers are deployed. The options are **PaaS** and **IaaS**.|
 
-**Parent Topic:**[Software Asset Management publisher pack for Oracle](../concept/oracle-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md)
 

@@ -2,6 +2,7 @@
 title: Escalate a deviation to a breakdown
 description: Escalate a deviation to a breakdown to perform deeper analysis, uncover root causes, and help prevent similar issues in future processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/escalate-deviation-to-breakdown-mobile.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -34,5 +35,5 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 The record is reclassified to a breakdown and can be fixed, canceled or you can decide to initiate a breakdown analysis.
 
-**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](../concept/using-icw-mobile-experience.md)
+**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
 

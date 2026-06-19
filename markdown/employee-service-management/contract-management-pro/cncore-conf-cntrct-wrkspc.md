@@ -2,6 +2,7 @@
 title: Configuring Contract Workspace
 description: Configure and customize Contract Workspace by using the UI Builder web user interface builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-conf-cntrct-wrkspc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,9 +18,9 @@ Configure and customize Contract Workspace by using the UI Builder web user inte
 
 ## Configuration overview
 
-For more information about this application, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+For more information about this application, see .
 
 Access UI Builder to customize the Contract Workspace by navigating to **All** &gt; **UI Builder**, and then selecting **Contract Workspace**.
 
-For more information, see [Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md) and [Configuring Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_set-up-configurable-workspace.md#section_xqc_p2z_cjb).
+For more information, see  and .
 

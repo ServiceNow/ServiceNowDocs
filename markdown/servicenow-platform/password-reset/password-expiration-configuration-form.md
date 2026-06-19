@@ -2,6 +2,7 @@
 title: Password Expiration Configuration form
 description: The Password Expiration Configuration form allows you to define how frequently users must update their passwords and receive reminder notifications before expiration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-expiration-configuration-form.html
 release: australia
 product: Password Reset
 classification: password-reset

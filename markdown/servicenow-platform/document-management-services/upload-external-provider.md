@@ -2,6 +2,7 @@
 title: Upload to a cloud
 description: Upload documents from Document Management to an external cloud like Microsoft OneDrive, Microsoft SharePoint, or Google Drive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/upload-external-provider.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -17,16 +18,16 @@ Upload documents from Document Management to an external cloud like Microsoft On
 
 ## Before you begin
 
-[Activate Multi Provider Document Services Framework](activate-multi-provider-doc-framework.md)
+[Activate Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/activate-multi-provider-doc-framework.md)
 
 For Microsoft OneDrive:
 
--   [Setup Microsoft OneDrive for Document Services](configure-ms-onedrive-doc-services.md)
--   [Register Microsoft OneDrive as an OAuth provider for Document Services](register-ms-onedrive-oauth-provider.md)
+-   [Setup Microsoft OneDrive for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/configure-ms-onedrive-doc-services.md)
+-   [Register Microsoft OneDrive as an OAuth provider for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/register-ms-onedrive-oauth-provider.md)
 
-For Google Drive, [Set up Document Services framework for Google Drive](setup-gdrive-spoke-document-services.md).
+For Google Drive, [Set up Document Services framework for Google Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/setup-gdrive-spoke-document-services.md).
 
-[Configure permission for roles or groups](configure-permissions-mp.md) by selecting the **mp\_document\_admin** from the document list.
+[Configure permission for roles or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/configure-permissions-mp.md) by selecting the **mp\_document\_admin** from the document list.
 
 Role required: mp\_document\_admin
 
@@ -34,9 +35,9 @@ Role required: mp\_document\_admin
 
 1.  Navigate to **All** &gt; **Documents** &gt; **Documents**.
 
-2.  Select an existing record or [create a document record](create-new-doc.md).
+2.  Select an existing record or [create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-new-doc.md).
 
-3.  For a newly created record, [create a document version](create-doc-version.md).
+3.  For a newly created record, [create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-doc-version.md).
 
 4.  Select the **Connect With External Provider** check box.
 
@@ -65,5 +66,5 @@ Role required: mp\_document\_admin
 11. Select **Open Cloud URL** at the top to open the document in the external cloud.
 
 
-**Parent Topic:**[Document Management integration with external content providers](../concept/integration-external-content-providers.md)
+**Parent Topic:**[Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/integration-external-content-providers.md)
 

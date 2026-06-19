@@ -2,6 +2,7 @@
 title: Cisco CSS load balancer
 description: Discovery of Cisco CSS load balancers is performed by SNMP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_LoadBalancerCSS.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -36,5 +37,5 @@ Discovery creates a record for each CSS device in the Cisco CSS \[cmdb\_ci\_lb\_
 
 .
 
-**Parent Topic:**[Load balancer discovery](c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

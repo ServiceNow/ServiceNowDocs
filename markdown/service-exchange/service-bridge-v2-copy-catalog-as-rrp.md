@@ -2,6 +2,7 @@
 title: Publish catalog items as remote record producers
 description: As a provider, you can copy your local catalog items to Service Exchange as remote record producers \(RRP\) enabling you to avoid manual re-creation of catalog items as RRPs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-copy-catalog-as-rrp.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -57,7 +58,7 @@ After you copy, you can edit and publish these RRPs.
 
 6.  Add a variable to each RRP if not already available.
 
-    Each RRP must have at least one variable. You can add more than one variable. For more details, see [Create variables for remote record producers in Service Exchange for Providers](service-bridge-v2-assign-variables-ser-defn.md).
+    Each RRP must have at least one variable. You can add more than one variable. For more details, see [Create variables for remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
 
 7.  Add a flow to the RRP using **Flow** field.
 

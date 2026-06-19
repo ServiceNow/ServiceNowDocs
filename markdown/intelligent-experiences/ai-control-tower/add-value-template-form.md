@@ -2,6 +2,7 @@
 title: Add value template form
 description: Add value template form fields and descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-value-template-form.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

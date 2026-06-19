@@ -2,6 +2,7 @@
 title: Perform asset audit for personal stockrooms
 description: Verify and reconcile assets between a physical location such as the technician's stockroom and the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/perform-asset-audit.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -36,7 +37,7 @@ Role required: wm\_agent
     -   Space fields are displayed.
     -   Users can select any stockroom.
 
-For more information, see [Stockroom audit access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/stockroom-audit-access-eam.md).
+For more information, see .
 
 ## Procedure
 
@@ -46,7 +47,7 @@ For more information, see [Stockroom audit access by role](https://raw.githubuse
 
 3.  Tap **Stockroom audits**.
 
-4.  Tap the More ![](../image/perform-asset-audit.png) icon and select **New stockroom audit**.
+4.  Tap the More \[Omitted image "perform-asset-audit.png"\] Alt text: icon and select **New stockroom audit**.
 
 5.  Select **Scan** as the method.
 
@@ -66,7 +67,7 @@ For more information, see [Stockroom audit access by role](https://raw.githubuse
 
     2.  Select the technician's personal stockroom as the **Stockroom**.
 
-10. Complete the audit by tapping the More ![](../image/perform-asset-audit.png) icon and tapping **Complete**.
+10. Complete the audit by tapping the More \[Omitted image "perform-asset-audit.png"\] Alt text: icon and tapping **Complete**.
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Request evidence during audits using the Compliance Workspace
 description: Request evidence at any stage during an audit using the Compliance Workspace. The details about the items for which evidence is requested are also provided to the person responsible for providing the evidence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/request-evidence-during-audits-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -38,7 +39,7 @@ Evidence can be requested in the following three ways:
 
         **Note:** If there is no existing evidence, then the message does not appear in the Request Evidence pop-up.
 
-        ![View link in Request evidence pop-up.](../image/ViewLinkReqEvidencePopup.png "View link in Request evidence pop-up")
+        \[Omitted image "ViewLinkReqEvidencePopup.png"\] Alt text: View link in Request evidence pop-up.
 
     3.  To view all existing evidences created on the related items, select the Evidence related list.
 
@@ -65,7 +66,7 @@ In this procedure, the method to request evidence from the **My Evidence** modul
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the ![List icon](../../grc-cam-workspace/image/ws-list-icon.png) icon.
+2.  In the Compliance Workspace, select the \[Omitted image "ws-list-icon.png"\] Alt text: List icon icon.
 
 3.  Navigate to **Evidence requests** &gt; **My request**.
 
@@ -239,7 +240,7 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](../../grc-audit/concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>6.  Save the form.

@@ -2,6 +2,7 @@
 title: Automate reviews of vaccine responses
 description: Configure Vaccination Status to automatically approve reviews using the results of vaccine validations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/enable-automated-vaccine-response-reviews.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,13 +18,13 @@ Configure Vaccination Status to automatically approve reviews using the results 
 
 You must integrate with a third-party validator service and enable Vaccination Status to be able to automatically validate vaccine responses.
 
-For more information, see [Validate vaccine responses automatically](validate-vaccine-responses-automatically.md).
+For more information, see [Validate vaccine responses automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/validate-vaccine-responses-automatically.md).
 
 Role required: admin
 
 ## About this task
 
-This process automates the entire review process so that validator engine can set a vaccine response to **Approved** or **Not yet reviewed** \(needs a manual review\). These results are based on the validation of vaccine responses. If you want only to validate vaccine responses and their attachments, you can choose to continue doing manual reviews in the approval portal. For more information, see [Validate vaccine responses automatically](validate-vaccine-responses-automatically.md).
+This process automates the entire review process so that validator engine can set a vaccine response to **Approved** or **Not yet reviewed** \(needs a manual review\). These results are based on the validation of vaccine responses. If you want only to validate vaccine responses and their attachments, you can choose to continue doing manual reviews in the approval portal. For more information, see [Validate vaccine responses automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/validate-vaccine-responses-automatically.md).
 
 ## Procedure
 
@@ -38,5 +39,5 @@ This process automates the entire review process so that validator engine can se
 
 Automated vaccine response reviews are enabled for your organization. The validator engine will automatically determine whether a vaccine response is approved or needs a manual review based on information from the attachment type.
 
-**Parent Topic:**[Automating vaccine response reviews](../concept/vaccination-status-vaccine-validation.md)
+**Parent Topic:**[Automating vaccine response reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status-vaccine-validation.md)
 

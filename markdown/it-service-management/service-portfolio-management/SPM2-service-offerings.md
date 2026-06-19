@@ -2,6 +2,7 @@
 title: Service offerings in Service Portfolio Management
 description: A service offering derives from a service, refining the parent service to a specific business need and performance level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-service-offerings.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -25,7 +26,7 @@ Service offering types include business service offerings and technical service 
 
 Create a complete set of service offerings defined by commitments that define the specifics of the offering. Each service must have at least one defined offering to move to the Catalog phase. This is because service offerings are where you define Service Level Agreements \(SLAs\) and where metrics are collated.
 
-For detailed information about SLAs, including SLA definitions and results, refer to [Service Level Management](../../service-level-management/reference/service-level-mgmt-landing-page.md).
+For detailed information about SLAs, including SLA definitions and results, refer to [Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-mgmt-landing-page.md).
 
 ## Service offering pricing
 
@@ -50,22 +51,22 @@ You can change a service offering parent from one type of service to another. Fo
 
 ## Service offering topics in this section
 
--   **[View a service offering in Service Portfolio Management](../task/SPM2-view-service-offering.md)**  
+-   **[View a service offering in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-view-service-offering.md)**  
 View service offerings in Service Portfolio Management to find offerings that add value to your organization and external users. You can also view service offerings in the Service Builder application.
--   **[Create a service offering in Service Portfolio Management](../task/create-or-mod-SPM2-service-offerings.md)**  
+-   **[Create a service offering in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-or-mod-SPM2-service-offerings.md)**  
 Create service offerings to define services, document them, track performance against defined availability commitments, and relay the performance information in real time to your end users.
--   **[Add a commitment to a service offering in Service Portfolio Management](../task/define-SPM2-service-commitments.md)**  
+-   **[Add a commitment to a service offering in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/define-SPM2-service-commitments.md)**  
 Service commitments are specific services that define the unique availability guarantees, scope, and pricing for a service offering.
--   **[Assign multiple teams to support a service offering](../task/spm2-assign-teams.md)**  
+-   **[Assign multiple teams to support a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/spm2-assign-teams.md)**  
 You can assign multiple teams to support a single service offering when several teams are responsible for that offering.
--   **[Subscribe users to a service offering in Service Portfolio Management](../task/SPM2-subscribe-to-service-offering.md)**  
+-   **[Subscribe users to a service offering in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-subscribe-to-service-offering.md)**  
 Subscribe users to a service offering so they can order it from the catalog. You can also subscribe offerings for companies, locations, groups, and departments.
--   **[Create catalog items for service offering subscribers in Service Portfolio Management](../task/SPM2-create-catalog-items.md)**  
+-   **[Create catalog items for service offering subscribers in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-create-catalog-items.md)**  
 As a service owner or service offering subscriber, you can create one or more catalog items for your service regardless of the offering phase or status. You can also relate an existing catalog item to a service offering.
--   **[Reporting for services and service offerings in Service Portfolio Management](SPM2-reporting.md)**  
+-   **[Reporting for services and service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-reporting.md)**  
 See what's impacting your services and service offerings and report on them by using related list information in Service Portfolio Management.
--   **[Service Portfolio Management service offering price](SPM2-set-service-offer-price.md)**  
+-   **[Service Portfolio Management service offering price](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-set-service-offer-price.md)**  
 Service offerings inherit the pricing structure of the associated parent service. If the price model for each service offering in Service Portfolio Management is defined in the parent service as per unit, then each service offering must also have an associated price unit. The actual price for that unit is established in the service offering record.
 
-**Parent Topic:**[Using Service Portfolio Management](SPM2-using.md)
+**Parent Topic:**[Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
 

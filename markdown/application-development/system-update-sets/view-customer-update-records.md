@@ -2,6 +2,7 @@
 title: View customizations and compare with current version
 description: View the customizations that make up an update set and compare the update to the current version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/view-customer-update-records.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -31,10 +32,10 @@ The customer updates table contains one record per customized object.
 
 3.  View the customer updates related list.
 
-    ![Update set with addition of the 'Incident Table' table](../image/update-set-record.png)
+    \[Omitted image "update-set-record.png"\] Alt text: Update set with addition of the 'Incident Table' table
 
 4.  Select and hold \(or right-click\) the update record and select **Compare to Current** to compare to the current version.
 
 
-**Parent Topic:**[Working with update sets](../concept/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
 

@@ -2,6 +2,7 @@
 title: Create a task on ServiceNow Agent
 description: As an agent, create work order tasks using the ServiceNow Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/mobile-agent-create-a-wot.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -27,7 +28,7 @@ To add locations, agents must have the sn\_fsm\_service\_loc.wm\_service\_locati
 
     -   To create a work order task from Draft tasks, navigate to **My Work** &gt; **Draft tasks** &gt; **Create new work**.
     -   To create a work order task from an asset, navigate to the asset then tap **Create new work**.
-    -   To create a work order task from the Work order overflow menu, navigate to the work order and select the **Overflow menu** ![Overflow icon.](../image/more-actions-mobile-icon.png). Select **Create new work**.
+    -   To create a work order task from the Work order overflow menu, navigate to the work order and select the **Overflow menu** \[Omitted image "more-actions-mobile-icon.png"\] Alt text: Overflow icon.. Select **Create new work**.
     -   To create a sibling work order task, open the selected work order task. Then navigate to **Related** &gt; **Sibling work order tasks** &gt; **Create new sibling task**.
     -   To create a work order task from an Install base Affected Product, navigate to the install base affected product then tap **Create new work**.
 2.  Fill in the fields.
@@ -78,7 +79,7 @@ Location
 
 </td><td>
 
-Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you don’t want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad-hoc locations in work orders and work order tasks](../concept/service-locations-work-orders.md).
+Geographical area where the work needs to be done. The location is critical for determining the agent assigned to the task.If you don’t want to use the auto-populated location, you can add an ad hoc location. For more information, see [Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/service-locations-work-orders.md).
 
 </td></tr><tr><td>
 

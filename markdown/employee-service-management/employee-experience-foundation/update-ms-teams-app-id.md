@@ -2,11 +2,12 @@
 title: Update the Microsoft Teams application ID
 description: Update the Microsoft Teams application ID in your ServiceNow instance to navigate to your custom ServiceNow for Microsoft Teams app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/update-ms-teams-app-id.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring Employee Center for Microsoft Viva Connections, Employee Center for Microsoft Viva Connections, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
 ---
@@ -17,7 +18,7 @@ Update the Microsoft Teams application ID in your ServiceNow instance to navigat
 
 ## Before you begin
 
-Ensure you have created and uploaded the ServiceNow for Microsoft Teams manifest file. For more information, see [Create and download manifest file for Employee Center and Microsoft 365 integration](../../sn-teams/task/download-manifest-ms365.md).
+Ensure you have created and uploaded the ServiceNow for Microsoft Teams manifest file. For more information, see [Create and download manifest file for Employee Center and Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/download-manifest-ms365.md).
 
 Role required:
 
@@ -51,5 +52,5 @@ Role required:
     6.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Employee Center for Microsoft Viva Connections](../concept/configure-viva.md)
+**Parent Topic:**[Configuring Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-viva.md)
 

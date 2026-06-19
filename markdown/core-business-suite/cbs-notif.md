@@ -2,7 +2,10 @@
 title: Notifications in CBS
 description: Notifications in CBS provide multi-faceted and timely communication when a request is raised or fulfilled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-notif.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Notifications in CBS provide multi-faceted and timely communication when a reque
 
 As an employee or a supplier when you raise a request on the CBS application, a portal notification is triggered acknowledge the submission. You receive a notification when your request is commented on, a task is assigned to you, or the request is closed.
 
-You can open the request on the portal and add your comments, add any supporting attachments, or respond to any query from the agent assigned to your support ticket. You can also view the details of your case as an employee or a supplier who has raised the request. For more information, see [Notification configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/service-creator/c_ConfiguringNotifications.md).
+You can open the request on the portal and add your comments, add any supporting attachments, or respond to any query from the agent assigned to your support ticket. You can also view the details of your case as an employee or a supplier who has raised the request. For more information, see .
 
 **Important:**
 
@@ -38,7 +41,7 @@ The requester and the agent both receive email notifications when a request is r
 
 You can view the request details along with a **View request** or **View case** button that opens either in the portal or the workspace depending on the persona.
 
-For more information on email notifications, see [Email Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-email-notifications.md).
+For more information on email notifications, see .
 
-**Parent Topic:**[Using Core Business Suite](cbs-using-parent.md)
+**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)
 

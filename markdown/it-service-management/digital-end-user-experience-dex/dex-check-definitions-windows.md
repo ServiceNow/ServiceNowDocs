@@ -2,6 +2,7 @@
 title: DEX check definitions for Windows
 description: Check definitions for Windows are predetermined sets of rules and criteria that assess the performance, security, and conformance of Windows devices. These checks can cover various aspects such as CPU usage, memory usage, network tests, network bytes, and logged-in users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-check-definitions-windows.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -15,7 +16,7 @@ breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experie
 
 Check definitions for Windows are predetermined sets of rules and criteria that assess the performance, security, and conformance of Windows devices. These checks can cover various aspects such as CPU usage, memory usage, network tests, network bytes, and logged-in users.
 
-To fetch the complete playbook data for a Windows device, the Agent Client Collector \(ACC\) must run as a local system account. For more details on how to set up the ACC service as a local system account, see [Run ACC as a local system account user](../task/run-acc-local-sys-account.md).
+To fetch the complete playbook data for a Windows device, the Agent Client Collector \(ACC\) must run as a local system account. For more details on how to set up the ACC service as a local system account, see [Run ACC as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.md).
 
 **Note:** You can configure the check definitions and associated retrievable data. Some of the listed check definitions might retrieve data that contains or is considered personal information.
 
@@ -950,5 +951,5 @@ None
 Fixes OST / PST data files using SCANPST.EXE in Classic outlook
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Content Playbook reference](dex-content-playbook-reference.md)
+</table>**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

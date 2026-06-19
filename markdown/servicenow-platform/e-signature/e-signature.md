@@ -2,6 +2,7 @@
 title: E-signature
 description: Sign electronic documents from any desktop or mobile device with e-signature. E-signature is a scoped application that enables users to sign managed documents or knowledge articles with their typed or drawn e-signature, credentials, or as an acknowledgment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/e-signature/e-signature.html
 release: australia
 product: e-Signature
 classification: e-signature
@@ -19,15 +20,15 @@ Sign electronic documents from any desktop or mobile device with e-signature. E-
 
 <table id="table_ikd_3gh_jxbxxfgda" class="nav-card"><tbody><tr><td>
 
-[Activate![](../../../reuse/icons/brand-icons/bus-manage.svg)Activate e-signature.](../task/activate-e-signature.md)
+[Activate\[Omitted image "bus-manage.svg"\] Alt text:Activate e-signature.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/activate-e-signature.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-person.svg)Create or modify e-signature templates.](using-esignature.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Create or modify e-signature templates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/using-esignature.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about the components installed with e-signature.](../reference/esignature-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about the components installed with e-signature.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/esignature-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -36,12 +37,12 @@ Sign electronic documents from any desktop or mobile device with e-signature. E-
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
--   **[Activating e-signature](../task/activate-e-signature.md)**  
+-   **[Activating e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/activate-e-signature.md)**  
 You can activate the e-signature plugin \(com.snc.esign\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
--   **[Using e-signature](using-esignature.md)**  
+-   **[Using e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/using-esignature.md)**  
 Users with the assigned e-signature roles can create templates for documents that require an electronic signature.
--   **[E-signature reference](../reference/esignature-reference.md)**  
+-   **[E-signature reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/esignature-reference.md)**  
 Activating the e-signature plugin installs additional roles and tables.
 
-**Parent Topic:**[Manage people and work capabilities](../../../administer/general/concept/manage-people.md)
+**Parent Topic:**[Manage people and work capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/manage-people.md)
 

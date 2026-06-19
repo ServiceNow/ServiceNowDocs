@@ -2,6 +2,7 @@
 title: Request erasure of personal data
 description: As an employee or alumni, request erasure of your personal information when you no longer consent to processing, when there are significant errors within the data, or if you believe that the information is being stored unnecessarily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/request-erasure-personal-data-rtbi.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -97,7 +98,7 @@ Option to attach any related files.
 
 An HR case is created and the HR task is assigned to an agent belonging to the HR Data Privacy user group to review the request. If the agent approves the request, it’s moved to an agent in the HR data privacy compliance approvers user group as an additional approval step before deleting the employee data. Then, the HR data admin can proceed with the deletion and close the HR case.
 
-HR admin can choose to anonymize instead of deleting the employee data. For more information, see [Data anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md).
+HR admin can choose to anonymize instead of deleting the employee data. For more information, see .
 
-Alumni can log in to the Alumni Center, go to HR systems and request for the report. For more information, see [Using your Alumni Center](../concept/asc-use.md). In case employees or customers don't have Alumni Center, the agent can create a request on behalf of the alumni.
+Alumni can log in to the Alumni Center, go to HR systems and request for the report. For more information, see [Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-use.md). In case employees or customers don't have Alumni Center, the agent can create a request on behalf of the alumni.
 

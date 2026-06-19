@@ -2,6 +2,7 @@
 title: Components installed with Cloud Account Management
 description: Several user roles are installed with the Cloud Account Management app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/components-installed-with-cam.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -83,7 +84,7 @@ Marks an account as certified or failed.
 ITOM CAM Certifier Group
 
 </td></tr></tbody>
-</table>To return to the main topic, see [Exploring Cloud Account Management](../concept/exploring-cam.md).
+</table>To return to the main topic, see [Exploring Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/exploring-cam.md).
 
-**Parent Topic:**[Cloud Account Management reference](cam-reference.md)
+**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-reference.md)
 

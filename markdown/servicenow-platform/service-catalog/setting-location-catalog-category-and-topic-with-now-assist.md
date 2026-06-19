@@ -2,6 +2,7 @@
 title: Now Assist: Location, catalog, category, and topic functions
 description: When creating or editing a catalog item, you can use plain language to assign values for catalog, category, or topic. If the value you provide matches an existing entry, Now Assist automatically applies it to the item. This streamlines the process and reduces manual data entry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/setting-location-catalog-category-and-topic-with-now-assist.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -63,5 +64,5 @@ A catalog item can belong to more than one catalog, category, or topic. Now Assi
     -   Apply the changes to any fields that are allowed to be updated.
     -   Notify you about which fields could not be changed due to template control.
 
-**Parent Topic:**[Catalog item generation reference](catalog-item-generation-reference.md)
+**Parent Topic:**[Catalog item generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 

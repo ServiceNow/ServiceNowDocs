@@ -2,6 +2,7 @@
 title: Verify and test
 description: Verify and test all configuration details to ensure that the flow is generated correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/verify-test.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Verify and test all configuration details to ensure that the flow is generated c
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
-Proceed from the **Configure batch import for data** section. For information on configuring batch import for data, see [Configure batch import for data](config-batch-import.md).
+Proceed from the **Configure batch import for data** section. For information on configuring batch import for data, see [Configure batch import for data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-batch-import.md).
 
 ## Procedure
 
@@ -36,5 +37,5 @@ Proceed from the **Configure batch import for data** section. For information on
     The **Align fields** section is displayed.
 
 
-**Parent Topic:**[Configuring data import](../concept/configure-data-import.md)
+**Parent Topic:**[Configuring data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/configure-data-import.md)
 

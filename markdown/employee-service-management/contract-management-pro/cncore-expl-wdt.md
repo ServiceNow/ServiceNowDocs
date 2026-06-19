@@ -2,6 +2,7 @@
 title: Word Document Templates
 description: Microsoft Word based contract template, enables you to create templates that are used to generate contracts or documents according to a submitted request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-expl-wdt.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

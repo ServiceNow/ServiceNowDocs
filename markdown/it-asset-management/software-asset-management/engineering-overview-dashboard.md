@@ -2,6 +2,7 @@
 title: Engineering License Overview dashboard
 description: Monitor and gain insights into your engineering applications license position and usage by viewing product usage reports in the Engineering License Overview dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/engineering-overview-dashboard.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -216,5 +217,5 @@ You can filter the data in this tab by date, user, or user group.
 |Denials by Product|Engineering Application Denial \[samp\_eng\_app\_denial\]|The products that have been denied to users the most.|
 |Denials by License Server|Engineering Application Denial \[samp\_eng\_app\_denial\]|The license servers that have been denied licenses to products the most.|
 
-**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](../../../use/dashboards/application-content-packs/software-asset-mgmt-content-pack.md)
+**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

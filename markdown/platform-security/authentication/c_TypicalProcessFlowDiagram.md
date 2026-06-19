@@ -2,6 +2,7 @@
 title: Typical SAML process flow \(diagram\)
 description: A typical SSO logic flow involves looking for an active session, checking user credentials, and creating the necessary token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_TypicalProcessFlowDiagram.html
 release: australia
 product: Authentication
 classification: authentication
@@ -15,5 +16,5 @@ breadcrumb: [SAML 2.0 concepts, SAML, Multi-Provider single sign-on \(SSO\), Aut
 
 A typical SSO logic flow involves looking for an active session, checking user credentials, and creating the necessary token.
 
-![SSO flow](../image/SSOStandard.png "SSO Standard")
+\[Omitted image "SSOStandard.png"\] Alt text: SSO flow
 

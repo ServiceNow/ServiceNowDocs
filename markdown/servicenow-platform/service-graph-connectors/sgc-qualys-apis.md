@@ -2,6 +2,7 @@
 title: Service Graph Connector for Qualys APIs
 description: Data from the Qualys data source fields is imported with the Global Asset API and the Asset Management and Tagging API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-qualys-apis.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

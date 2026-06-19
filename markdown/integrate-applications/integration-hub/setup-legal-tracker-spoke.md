@@ -2,6 +2,7 @@
 title: Set up the Legal Tracker spoke
 description: Integrate a ServiceNow instance and the Legal Tracker spoke by using  Legal Tracker credentials to authenticate  ServiceNow  legal requests.Register Legal Tracker as an OAuth provider to enable the instance to request OAuth 2.0 tokens.Create and integrate the connection to your Legal Tracker account. The Legal Tracker spoke Connection &amp; Credential Aliases use these connections to perform actions in Legal Tracker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-legal-tracker-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -65,7 +66,7 @@ Legal Tracker is registered as an OAuth provider, which enables the instance to 
 
 ### What to do next
 
-[Integrate the Legal Tracker spoke with your ServiceNow instance](setup-legal-tracker-spoke.md#).
+[Integrate the Legal Tracker spoke with your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-legal-tracker-spoke.md).
 
 ## Integrate the Legal Tracker spoke with your ServiceNow instance
 

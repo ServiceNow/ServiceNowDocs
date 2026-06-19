@@ -2,6 +2,7 @@
 title: Create record with Azure GCC details
 description: Create and update a new record in the sys\_properties.list table with the details of the Azure account of GCC customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-record-azure-gcch.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,5 +37,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Integrating Request-based chat with Microsoft Teams for GCC-H or DoD](../concept/ec-teams-request-based-chat-integration-gcch.md)
+**Parent Topic:**[Integrating Request-based chat with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-teams-request-based-chat-integration-gcch.md)
 

@@ -2,6 +2,7 @@
 title: Create a lineage for a processing activity
 description: Establish a lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a lineage or hierarchy that tracks where personal data is shared.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -70,12 +71,12 @@ You add lineage relationships from the **Hierarchy** tab using the **Add** butto
 
 The new node appears in the **Hierarchy** tab list. When you select the View lineage map, the node appears in the graphical view. If the related node is itself a processing activity with existing relationships, those connections also appear in the map.
 
--   **[Edit a lineage](editing-data-lineage.md)**  
+-   **[Edit a lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/editing-data-lineage.md)**  
 Edit an existing lineage relationship to update the relationship type, description, or key relationship status of a connected node.
--   **[Delete a lineage](delete-data-lineage.md)**  
+-   **[Delete a lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/delete-data-lineage.md)**  
 Delete a lineage to remove a specific connection or node from the hierarchy of a processing activity.
--   **[Update the maximum node level for the lineage map](updating-node-level-for-lineage-map.md)**  
+-   **[Update the maximum node level for the lineage map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/updating-node-level-for-lineage-map.md)**  
 Update the `sn_privacy.nodemap.maxLevel system` property to control how many node levels are visible on the lineage map.
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

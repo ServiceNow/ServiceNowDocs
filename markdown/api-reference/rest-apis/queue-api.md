@@ -2,6 +2,7 @@
 title: AWA Routing API
 description: The AWA Routing API provides endpoints to route a document to a queue.If an active work item exists, routes a document to a queue. If an active work item does not exist for the specified document, creates a work item and set its fields accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/queue-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,7 +18,7 @@ The AWA Routing API provides endpoints to route a document to a queue.
 
 This API requires the Advanced Work Assignment plugin \(com.glide.awa\) and the awa\_integration\_user role.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## AWA Routing - POST /now/awa/queues/\{queue\_sys\_id\}/work\_item
 
@@ -29,7 +30,7 @@ Versioned URL: `/api/now/{api_version}/awa/queues/{queue_sys_id}/work_item`
 
 Default URL: `/api/now/awa/queues/{queue_sys_id}/work_item`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -91,7 +92,7 @@ Name of the table associated with the document, such as incident.Data type: Stri
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -124,7 +125,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

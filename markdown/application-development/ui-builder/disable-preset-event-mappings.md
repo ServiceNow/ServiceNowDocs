@@ -2,6 +2,7 @@
 title: Disable component preset event mappings
 description: You can disable event mappings that are automatically created by a component preset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/disable-preset-event-mappings.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -25,11 +26,11 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select a component with a component preset configured.
 
@@ -46,5 +47,5 @@ Role required: admin
 
 The component preset event shows **Disabled** in the **Events** tab of the configuration panel.
 
-**Parent Topic:**[Manage actions in UI Builder pages](../concept/work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md)
 

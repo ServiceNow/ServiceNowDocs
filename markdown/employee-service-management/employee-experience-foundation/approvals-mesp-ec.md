@@ -2,6 +2,7 @@
 title: Approvals in Now Mobile
 description: View all your approval tasks in one place in the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/approvals-mesp-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,7 +42,7 @@ Users with an approver role can access all their approval tasks in the Now Mobil
 -   The system property, sn\_me\_todos.all\_approvals\_mobile\_enabled, can be disable to stop using the generic approval card.
 -   If you want to create a custom approval card within the Approval To-dos list, the value of the **Condition order** field of the custom configuration must be lower than the **Condition order** of the Generic approval card.
 
-For more configuration info, see [Enable task configuration for approvals](../task/approval-hub-to-dos-page-filters.md).
+For more configuration info, see [Enable task configuration for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/approval-hub-to-dos-page-filters.md).
 
-**Parent Topic:**[Configuring Employee Center for mobile](ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
 

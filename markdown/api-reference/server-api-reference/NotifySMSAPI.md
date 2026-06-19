@@ -2,6 +2,7 @@
 title: NotifySMS - Global
 description: The NotifySMS script include provides methods that enable you to send Short Message Service \(SMS\) messages from Notify telephone numbers to devices using either their telephone numbers or a GlideRecord that has a field that contains telephone number information.Creates an instance of a NotifySMS object.Triggers an asynchronous flow action that sends a Short Message Service \(SMS\) message from a specified Notify phone number to a list of phone numbers.Sends a Short Message Service \(SMS\) message from a specified Notify telephone number to a specified telephone number.Sends a Short Message Service \(SMS\) message from a specified Notify phone number to a list of phone numbers.Sends a Short Message Service \(SMS\) message from a specified phone number to the user identified in a specified GlideRecord.Sends a Short Message Service \(SMS\) message from a specified Notify phone number to users found in a specified GlideRecord.Sets the method within a script include to use to obtain the target telephone number in the GlideRecord that is passed in the NotifySMS.sendToUser\(\) and NotifySMS.sendToUsers\(\) methods.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/NotifySMSAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The NotifySMS script include provides methods that enable you to send Short Mess
 
 To use this script include you must activate the Notify \(com.snc.notify\) plugin.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## NotifySMS - NotifySMS\(\)
 
@@ -111,7 +112,7 @@ Optional. Incident GlideRecord to store in the Source field of the associated SM
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|ScriptableFlowRunnerResult|[ScriptableFlowRunnerResult - Scoped](../../ScriptableFlowRunnerResultScoped/concept/ScriptableFlowRunnerResultScopedAPI.md#) object.|
+|ScriptableFlowRunnerResult|[ScriptableFlowRunnerResult - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowRunnerResultScopedAPI.md) object.|
 
 The follow code example shows how you can use this method to send a bulk SMS message.
 
@@ -210,7 +211,7 @@ sourceRecord
 
 </td><td>
 
-[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)
+[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 
@@ -272,7 +273,7 @@ Sends a Short Message Service \(SMS\) message from a specified Notify phone numb
 
 In addition, you can optionally associate the Incident record that caused the SMS message to be generated with the SMS message.
 
-**Note:** Internally this method uses the [NotifySMS - sendBulkSMS\(String fromNumber, Array toNumber, String message, GlideRecord sourceRecord\)](NotifySMSAPI.md#) method to trigger an asynchronous flow action.
+**Note:** Internally this method uses the [NotifySMS - sendBulkSMS\(String fromNumber, Array toNumber, String message, GlideRecord sourceRecord\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/NotifySMSAPI.md) method to trigger an asynchronous flow action.
 
 <table id="table_ukh_nsf_kmb" class="parameters"><thead><tr><th>
 
@@ -316,7 +317,7 @@ sourceRecord
 
 </td><td>
 
-[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)
+[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 
@@ -436,7 +437,7 @@ sourceRecord
 
 </td><td>
 
-[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)
+[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 
@@ -448,11 +449,11 @@ toGr
 
 </td><td>
 
-[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)
+[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 
-GlideRecord of a record type that contains a field that resolves to a user's telephone number. The record type must correlate with the record type used by the phone number resolver that is currently implemented. A phone number resolver is simply a method that obtains the user telephone number from a specific type of GlideRecord, such as a User record or a Case record. When using the default resolver, the records correspond to the User \[sys\_user\] table. To change the type of record that the resolver uses to obtain the telephone number, use the [NotifySMS - setRecordToNumberResolver\(Object scriptIncludeInstance, String methodName\)](NotifySMSAPI.md#) method.
+GlideRecord of a record type that contains a field that resolves to a user's telephone number. The record type must correlate with the record type used by the phone number resolver that is currently implemented. A phone number resolver is simply a method that obtains the user telephone number from a specific type of GlideRecord, such as a User record or a Case record. When using the default resolver, the records correspond to the User \[sys\_user\] table. To change the type of record that the resolver uses to obtain the telephone number, use the [NotifySMS - setRecordToNumberResolver\(Object scriptIncludeInstance, String methodName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/NotifySMSAPI.md) method.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -500,7 +501,7 @@ Sends a Short Message Service \(SMS\) message from a specified Notify phone numb
 
 This method extracts the destination telephone numbers from the passed-in GlideRecord. In addition, you can optionally associate the Incident record that caused the SMS message to be generated with the SMS message.
 
-**Note:** Internally this method uses the [NotifySMS - sendBulkSMS\(String fromNumber, Array toNumber, String message, GlideRecord sourceRecord\)](NotifySMSAPI.md#) method to trigger an asynchronous flow action.
+**Note:** Internally this method uses the [NotifySMS - sendBulkSMS\(String fromNumber, Array toNumber, String message, GlideRecord sourceRecord\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/NotifySMSAPI.md) method to trigger an asynchronous flow action.
 
 <table id="table_pdp_kpg_kmb" class="parameters"><thead><tr><th>
 
@@ -544,7 +545,7 @@ sourceRecord
 
 </td><td>
 
-[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)
+[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 
@@ -556,11 +557,11 @@ toGr
 
 </td><td>
 
-[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)
+[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 
-GlideRecord of a record type that contains a field that resolves to a user's telephone number. The record type must correlate with the record type used by the phone number resolver that is currently implemented. A phone number resolver is simply a method that obtains the user telephone number from a specific type of GlideRecord, such as a User record or a Case record. When using the default resolver, the records correspond to the User \[sys\_user\] table. To change the type of record that the resolver uses to obtain the telephone number, use the [NotifySMS - setRecordToNumberResolver\(Object scriptIncludeInstance, String methodName\)](NotifySMSAPI.md#) method.
+GlideRecord of a record type that contains a field that resolves to a user's telephone number. The record type must correlate with the record type used by the phone number resolver that is currently implemented. A phone number resolver is simply a method that obtains the user telephone number from a specific type of GlideRecord, such as a User record or a Case record. When using the default resolver, the records correspond to the User \[sys\_user\] table. To change the type of record that the resolver uses to obtain the telephone number, use the [NotifySMS - setRecordToNumberResolver\(Object scriptIncludeInstance, String methodName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/NotifySMSAPI.md) method.
 
 </td></tr></tbody>
 </table>|Type|Description|

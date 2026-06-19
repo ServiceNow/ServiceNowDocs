@@ -2,6 +2,7 @@
 title: Migrated artifact locations
 description: After data migration, your artifacts such as dashboards, visualizations, and filters, reside in different tables in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-artefact-locations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

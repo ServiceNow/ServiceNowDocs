@@ -1,23 +1,25 @@
 ---
 title: IT Asset Management purchase order invoice processing
-description: The integration of IT Asset Management \(com.snc.sn\_spend\_asset\) with Sourcing and Procurement Operation enhances exception handling for ITAM-driven purchase order invoices in Accounts Payable Operations APO \(app-spend-itam\), enhancing accurate routing and faster resolution while improving overall operational efficiency.
+description: When IT Asset Management integrates with Sourcing and Procurement Operations, invoice exceptions for ITAM purchase orders are handled automatically through quantity validation, discrepancy notifications, and invoice revalidation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/apo-integration-with-itam.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice exception, invoice processing, purchase order, PO, integration, integration, ITAM]
 breadcrumb: [Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # IT Asset Management purchase order invoice processing
 
-The integration of IT Asset Management \(com.snc.sn\_spend\_asset\) with Sourcing and Procurement Operation enhances exception handling for ITAM-driven purchase order invoices in Accounts Payable Operations APO \(app-spend-itam\), enhancing accurate routing and faster resolution while improving overall operational efficiency.
+When IT Asset Management integrates with Sourcing and Procurement Operations, invoice exceptions for ITAM purchase orders are handled automatically through quantity validation, discrepancy notifications, and invoice revalidation.
 
 In IT Asset Management \(ITAM\), assets are created when you acknowledge the receipt of the requested items. As part of the Better Together integration, all the received asset is handled within IT Asset Management \(ITAM\).
 
-After receiving of the goods is completed, receiving slips are generated in ITAM. You can view the created assets in the **Assets** tab of the ITAM purchase order. For more information, see [Receiving assets in IT Asset Management](../../sourcing-procurement-operations/concept/itam-spo-receiving-assets.md).
+After receiving of the goods is completed, receiving slips are generated in ITAM. You can view the created assets in the **Assets** tab of the ITAM purchase order. For more information, see [Receiving assets in IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-receiving-assets.md).
 
 During the invoicing process, Accounts Payable Operations checks if the purchase order originates from ITAM using the reference field. It validates the received quantity against the purchase order using the receiving slips and if discrepancies are found, then insufficient goods receipt exception is triggered. APO automatically triggers an email and notifies the ITAM 'Assigned to' user mentioned in the ITAM PO about the exception. Once the exceptions are resolved, APO automatically re-validates the invoices. The invoice status changes from “Review Needed” to “Review Complete”.
 

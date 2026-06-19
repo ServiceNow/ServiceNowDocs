@@ -2,6 +2,7 @@
 title: Word template category form
 description: The table gives a description of the field values for the Word template category form. Template categories enable you to categorize similar reports and filter them accordingly. For example, Audit or CAM is a category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-word-template-category.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -20,5 +21,5 @@ The table gives a description of the field values for the Word template category
 |Name|Unique name for the Word template category.|
 |Active|Option to make the record active.|
 
-**Parent Topic:**[Configuring ATO artifacts report templates](../../grc-cam/reference/cam-configure-word-based-template.md)
+**Parent Topic:**[Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
 

@@ -2,6 +2,7 @@
 title: Supplier qualification
 description: As a procurement specialist or Procurement Case Management \(PCM\) agent, you would want to engage with suppliers who are qualified to fulfill your organization's purchasing needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/supplier-qualification.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -15,7 +16,7 @@ breadcrumb: [Procurement Case Management, Explore, Sourcing and Procurement Oper
 
 As a procurement specialist or Procurement Case Management \(PCM\) agent, you would want to engage with suppliers who are qualified to fulfill your organization's purchasing needs.
 
-The supplier qualification process can be very involved with multiple teams wanting to engage with a supplier on different levels. Based on your process, you can define qualification cases to reflect the work that needs to be done to ready the engagement with a supplier. This is achieved through decision tables for your sourcing and negotiation work streams. For information on the relevant decision tables, see [Purchasing tasks and procurement cases](purchasing-tasks.md).
+The supplier qualification process can be very involved with multiple teams wanting to engage with a supplier on different levels. Based on your process, you can define qualification cases to reflect the work that needs to be done to ready the engagement with a supplier. This is achieved through decision tables for your sourcing and negotiation work streams. For information on the relevant decision tables, see [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
 
 Qualification cases include:
 
@@ -24,7 +25,7 @@ Qualification cases include:
     -   Conduct a Supplier Risk Assessment: Conduct a risk assessment for a supplier.
     -   Onboard a Supplier: Onboard a supplier for a purchase.
     -   Conduct a Supplier Tiering Assessment: Conduct a tiering assessment for a supplier.
-    **Note:** For these supplier cases, the decision templates are available only when you have the Supplier Lifecycle Operations application installed. You must also enable the Risk Assessments Integration for Sourcing and Procurement Operations application and have the GRC Vendor Risk Management license if you want the Conduct a Supplier Tiering Assessment case to be generated. For information on how a supplier tiering assessment task influences sourcing request states, see [Sourcing and Procurement Operations integration with Third-party Risk Management](../concept/better-together-with-vrm.md).
+    **Note:** For these supplier cases, the decision templates are available only when you have the Supplier Lifecycle Operations application installed. You must also enable the Risk Assessments Integration for Sourcing and Procurement Operations application and have the GRC Vendor Risk Management license if you want the Conduct a Supplier Tiering Assessment case to be generated. For information on how a supplier tiering assessment task influences sourcing request states, see [Sourcing and Procurement Operations integration with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/better-together-with-vrm.md).
 
 -   Contract cases​:
     -   Contract Review: Review contracts for a purchase.
@@ -45,5 +46,5 @@ When working within a negotiation or sourcing event that has an associated sourc
 
 **Note:** If the qualification event had been started for a sourcing request, and cases had been created on the sourcing request before it was mapped to a negotiation or sourcing event, and there’s an overlap in cases, then previously created cases on the sourcing request are automatically closed and the new cases created for the negotiation or sourcing event are retained.
 
-**Parent Topic:**[Procurement Case Management](../concept/psd-overview.md)
+**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 

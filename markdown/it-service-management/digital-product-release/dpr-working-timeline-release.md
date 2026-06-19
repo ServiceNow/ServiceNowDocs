@@ -2,6 +2,7 @@
 title: Managing timeline-oriented releases
 description: Managing a timeline-oriented release involves following a series of deadlines and milestones and adjusting as necessary to keep your release on track.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-working-timeline-release.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -32,17 +33,17 @@ The following is the general flow that a timeline-oriented release goes through:
 -   When all phases in the release are completed, the release moves to the Review state.
 -   When the review of the release is completed, the release moves to the Completed state.
 
-For more information, see [Release for a product or service](dpr-product-release.md).
+For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md).
 
 ## Working on a timeline-oriented release
 
 <table id="table_g42_jt4_kyb" class="nav-card"><tbody><tr><td>
 
-[Work on a release for a single product or service![Single product release icon.](../image/dpr-icon-rls-single.png)Learn about working on a timeline-oriented release to deliver a single product or service.](../task/dpr-work-release.md#)
+[Work on a release for a single product or service\[Omitted image "dpr-icon-rls-single.png"\] Alt text: Single product release icon.Learn about working on a timeline-oriented release to deliver a single product or service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release.md)
 
 </td><td>
 
-[Work on a release for multiple products![Multi-product release icon.](../image/dpr-icon-rls-multi.png)Learn about working on a timeline-oriented release to deliver multiple products.](../task/dpr-work-release-timeline-multi.md)
+[Work on a release for multiple products\[Omitted image "dpr-icon-rls-multi.png"\] Alt text: Multi-product release icon.Learn about working on a timeline-oriented release to deliver multiple products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-timeline-multi.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Enable CAPTCHA in password reset
 description: Use the password\_reset.captcha.ignore property to enable or disable requiring a CAPTCHA challenge when a user resets their password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-captcha-in-password-reset.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

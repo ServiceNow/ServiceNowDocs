@@ -2,6 +2,7 @@
 title: Activate Compliance UCF
 description: The GRC: Compliance UCF \(com.sn\_comp\_ucf\) plugin is available as a separate subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/activate-grc-comp-ucf.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -35,12 +36,12 @@ This plugin includes demo data and activates related plugins if they are not alr
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## What to do next
 
 Configure the source of your control library using an API key supplied by UCF \(this is the recommended method\) or using the UCF Common Controls Hub, which you can purchase as a subscription from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For more information, see [Common Controls Hub](https://commoncontrolshub.com/pricing/) or [Unified Compliance Framework](https://www.unifiedcompliance.com/company/).
 
-**Parent Topic:**[Manage the UCF integration](../../grc-ucf-import/concept/manage_compliance_frameworks.md)
+**Parent Topic:**[Manage the UCF integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage_compliance_frameworks.md)
 

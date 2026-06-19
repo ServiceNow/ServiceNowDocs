@@ -2,6 +2,7 @@
 title: Test a playbook
 description: Verify that your playbook works as expected by running the playbook with test trigger data. Identify and resolve all errors before activating your playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/test-process.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Verify that your playbook works as expected by running the playbook with test tr
 
 ## Before you begin
 
--   [Create a playbook](create-process-definition.md)
+-   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md)
 -   Role required: the admin, playbook.admin, or pd\_operator roles grant users access to test playbooks and to view process execution records.
 -   The Playbook Experience plugin is required to preview a playbook in runtime.
 -   Plugin required: the Playbook Experience \(sn\_playbook\_exp\) plugin grants users access to test playbooks and to preview playbooks in runtime. Users need a role to view process execution records.
@@ -97,5 +98,5 @@ Testing a playbook bypasses the normal playbook trigger to run it with the sampl
 
 Publish your playbook to a production instance and activate it.
 
-**Parent Topic:**[Creating and managing Playbooks](../concept/creating-managing-playbooks.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

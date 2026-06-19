@@ -2,6 +2,7 @@
 title: Import sets
 description: Import sets enable administrators to import data from various data sources, and then map that data into ServiceNow tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/import-sets-landing-page.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -20,33 +21,33 @@ Import sets enable administrators to import data from various data sources, and 
 
 **Explore**
 
- -   [Upgrade to Washington DC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrade.md)
--   [Import sets key concepts](../concept/c_ImportSetsKeyConcepts.md)
+ -   Upgrade to Washington DC
+-   [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md)
 
 </td><td>
 
 **Set up**
 
- -   [Create a data source](../concept/c_CreateNewDataSource.md)
--   [Create a transform map](../../../script/server-scripting/task/t_CreateATransformMap.md)
+ -   [Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreateNewDataSource.md)
+-   [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md)
 
 </td><td>
 
 **Administer**
 
- -   [Import sets properties](r_ImportSetsProperties.md)
--   [Troubleshoot import set performance](../../technical-best-practice/concept/c_TroubleshootImportSetPerformance.md#)
+ -   [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md)
+-   [Troubleshoot import set performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_TroubleshootImportSetPerformance.md)
 
 </td></tr><tr><td>
 
 **Use**
 
- -   [Run an import](../task/t_RunImport.md)
+ -   [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RunImport.md)
 -   [Importing Data into ServiceNow](https://developer.servicenow.com/dev.do#!/learn/courses/tokyo/app_store_learnv2_importingdata_tokyo_importing_data_into_servicenow)
--   [Schedule a data import](../task/t_ScheduleADataImport.md)
--   [Use the Import Set API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_ImportSetAPI.md)
--   [Easy import](../concept/c_EasyImport.md)
--   [Monitor scheduled data import executions](../task/monitor-sched-import-executions.md)
+-   [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
+-   Use the Import Set API
+-   [Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md)
+-   [Monitor scheduled data import executions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/monitor-sched-import-executions.md)
 
 </td><td>
 
@@ -54,17 +55,17 @@ Import sets enable administrators to import data from various data sources, and 
 
  -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   [Field map script variables](r_FieldMapScriptVars.md)
--   [Scheduled data import scripting options](r_DataImportScriptingOptions.md)
+-   [Field map script variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_FieldMapScriptVars.md)
+-   [Scheduled data import scripting options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_DataImportScriptingOptions.md)
 
 </td><td>
 
 **Integrate**
 
- -   [Web service import sets](../concept/c_WebServiceImportSets.md)
--   [Importing from another ServiceNow instance](../concept/c_ImportingFromAnotherSNInstance.md)
--   [Apply CI Identification and Reconciliation to Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/identification-import-sets.md)
--   [Importing from a Kafka environment with Stream Connect for Apache Kafka](../../integrationhub/concept/stream-connect-apache-kafka.md)
+ -   [Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
+-   [Importing from another ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportingFromAnotherSNInstance.md)
+-   Apply CI Identification and Reconciliation to Import Sets
+-   [Importing from a Kafka environment with Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 
 </td></tr><tr><td>
 

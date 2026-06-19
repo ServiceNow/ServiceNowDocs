@@ -2,7 +2,10 @@
 title: Create asset contact relationships
 description: Assign an asset to a customer contact who is responsible for managing that asset.Users with the system administrator role can assign a primary contact to an asset.Users with the system administrator role can assign a contact to an asset.Limit access to asset information to the assigned contacts by enabling the associated property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_AssetContactRelationships.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2

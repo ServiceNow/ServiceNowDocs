@@ -2,6 +2,7 @@
 title: Recommended Actions for Operational Technology Service Management \(OTSM\)
 description: Recommended Actions for Operational Technology Service Management \(OTSM\) allows you to set up and apply real-time actionable recommendations for speeding up the triaging process and resolving issues quickly across various records in the Industrial Workspace, including Operational Technology \(OT\) incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.html
 release: australia
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
@@ -19,25 +20,25 @@ Recommended Actions for Operational Technology Service Management \(OTSM\) allow
 
 <table id="table_e4f_b43_jdc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore](exploring-recommended-actions-otsm.md)
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/exploring-recommended-actions-otsm.md)
 
- ![](../../../reuse/icons/brand-icons/bus-explore.svg)
+ \[Omitted image "bus-explore.svg"\] Alt text:
 
  Learn how Recommended Actions for OTSM can help you manage your OT system.
 
 </td><td>
 
-[Configure](configuring-recommended-actions-otsm.md)
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/configuring-recommended-actions-otsm.md)
 
- ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)
+ \[Omitted image "bus-sdlc.svg"\] Alt text:
 
  Set up and configure Recommended Actions for OTSM to meet your specific needs.
 
 </td><td>
 
-[Use](using-recommended-actions-otsm.md)
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/using-recommended-actions-otsm.md)
 
- ![](../../../reuse/icons/brand-icons/bus-management-console.svg)
+ \[Omitted image "bus-management-console.svg"\] Alt text:
 
  Manage your OTSM records with Recommended Actions for OTSM.
 
@@ -46,11 +47,11 @@ Recommended Actions for Operational Technology Service Management \(OTSM\) allow
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-store.svg) ServiceNow Store**
+-   **\[Omitted image "dcx-icon-store.svg"\] ServiceNow Store**
 
     [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/home](https://store.servicenow.com/sn_appstore_store.do#!/store/home)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-support.svg) Support**
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
 
 
 

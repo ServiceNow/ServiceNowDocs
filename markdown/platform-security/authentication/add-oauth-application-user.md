@@ -2,6 +2,7 @@
 title: Add the OAuth Application User
 description: Add the OAuth Application User field on the OAuth Entity form to use the Client Credentials grant type for OAuth inbound integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/add-oauth-application-user.html
 release: australia
 product: Authentication
 classification: authentication
@@ -21,7 +22,7 @@ Role required: oauth\_admin
 
 Plugin required: OAuth 2.0.
 
-You must create an OAuth client. For more information, see [Create an endpoint for clients to access the instance](../../../administer/security/task/t_CreateEndpointforExternalClients.md).
+You must create an OAuth client. For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
 
 ## Procedure
 
@@ -37,7 +38,7 @@ You must create an OAuth client. For more information, see [Create an endpoint f
 
 6.  Select the user for the **OAuth Application User**.
 
-    For example, System Administrator.![OAuth Application User](../images/add-oauth-application-user.png)
+    For example, System Administrator.\[Omitted image "add-oauth-application-user.png"\] Alt text: OAuth Application User
 
     **Note:** You must use the REST API Auth Scope with client credentials grant type to control the access provided to the 3rd party client.
 

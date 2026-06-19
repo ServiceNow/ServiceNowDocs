@@ -2,6 +2,7 @@
 title: Install the Agent Client Collector on a Windows machine manually
 description: Install the Agent Client Collector on a Windows machine manually when you want to test the agent on a single system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-install-windows.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,19 +18,18 @@ Install the Agent Client Collector on a Windows machine manually when you want t
 
 ## Before you begin
 
-1.  Ensure that you’ve configured the Agent Client Collector web server. For details, see [Configure the websocket server on the MID Server](acc-configure-web-server.md).
+1.  Ensure that you’ve configured the Agent Client Collector web server. For details, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configure-web-server.md).
 2.  Verify your server's OS and version.
 3.  When using Microsoft Internet Explorer, do the following to prepare the Agent Client Collector installation file:
     1.  Navigate to **Server Manager** &gt; **Local Server**.
     2.  Turn off **IE Enhanced Security Configuration**.
     3.  Download the installation file.
     4.  Change the extension of the installation file from `.man` to `.msi`
+4.  Ensure that .NET Framework 4.6.2 or later is installed on the target machine.
 
-Ensure that .NET Framework 4.6.2 or later is installed on the target machine.
+    **Note:** If the .NET Framework is not running effectively, use the legacy VBSript installer by running the following command on the target machine: `msiexec /i <msi_file_path> /quiet /qn /norestart USE_VBS_CA=1 ACC_API_KEY=<key_value> ACC_MID=wss://<mid_ip>:<websocket_port>/ws/events ACC_ALLOW_LIST=False`
 
-**Note:** If the .NET Framework is not running effectively, use use the legacy VBSript installer by running the following command on the target machine: `msiexec /i <msi_file_path> /quiet /qn /norestart USE_VBS_CA=1 ACC_API_KEY=<key_value> ACC_MID=wss://<mid_ip>:<websocket_port>/ws/events ACC_ALLOW_LIST=False`
-
-Enable golden image mode for cloning additional agents by setting the msi property **GOLDEN\_IMAGE=true**.
+5.  Enable golden image mode for cloning additional agents by setting the msi property **GOLDEN\_IMAGE=true**.
 
 Role required: agent\_client\_collector\_admin
 
@@ -45,7 +45,7 @@ Role required: agent\_client\_collector\_admin
 
     2.  Select **Next** until you reach the **MID Web Server Connection Settings** page.
 
-        ![MID Connection Settings page](../image/ACC-MID-Connection-Settings-Updated.png)
+        \[Omitted image "ACC-MID-Connection-Settings-Updated.png"\] Alt text: MID Connection Settings page
 
     3.  Enter the relevant parameters in the dialog box fields:
 
@@ -59,7 +59,7 @@ Role required: agent\_client\_collector\_admin
 
         The **Create Local User Account** page appears.
 
-        ![Create Local User Account page](../image/ACC-Create-Local-User-Account.png)
+        \[Omitted image "ACC-Create-Local-User-Account.png"\] Alt text: Create Local User Account page
 
     5.  Select the relevant option in the dialog box.
 
@@ -111,7 +111,7 @@ Due to Windows UAC restrictions, running the agent as a local SYSTEM account is 
 
     7.  To enable the **Allow-List** containing the checks enabled to run after setup, select the **Enable executing command allow list** check box on the resulting page.
 
-        ![Allow list check box](../image/ACC-Allow-List-Windows.png)
+        \[Omitted image "ACC-Allow-List-Windows.png"\] Alt text: Allow list check box
 
     8.  Select **Next** to open the installation page.
 
@@ -228,10 +228,10 @@ Password for the user specified in the LOCALUSERNAME parameter.
     To configure a secondary MID server, enter the following syntax in the `backend-url` section of the `acc.yml` file, per the `.yml` standard: `- "wss://<MID IP>:<Web socket port>/ws/events"` \(with the quotation marks\).
 
 
--   **[Upgrade the Agent Client Collector manually on a Windows system](acc-install-upgrade-windows.md)**  
+-   **[Upgrade the Agent Client Collector manually on a Windows system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-upgrade-windows.md)**  
 Perform a manual upgrade of your existing Agent Client Collector version on a system running a Windows OS.
--   **[Uninstall the Agent Client Collector manually from a Windows machine](acc-uninstall.md)**  
+-   **[Uninstall the Agent Client Collector manually from a Windows machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-uninstall.md)**  
 Uninstall the Agent Client Collector from a Windows machine manually instead of using the single-line procedure. Use the manual procedure if the command script is unavailable due to the specific agent not being connected to the instance.
 
-**Parent Topic:**[Agent Client Collector installation on a Windows machine](../concept/acc-windows-install-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Windows machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-windows-install-concept.md)
 

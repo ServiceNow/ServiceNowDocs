@@ -2,6 +2,7 @@
 title: Create Indoor Mapping icons and place types
 description: To manage places and place types in Indoor Mapping Map Studio, start with creating icons for places, and then create a place type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/place-icons-place-type.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -148,8 +149,8 @@ Option to activate or deactivate or turn off the place types on maps.Turning off
 
 10. Select a campus and select **Manage places** to add and edit places.
 
-    For more information, see [Manage places](manage-buildings.md) and [Edit with view editor](edit-with-view-editor.md).
+    For more information, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-buildings.md) and [Edit with view editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/edit-with-view-editor.md).
 
 
-**Parent Topic:**[Manage places](manage-buildings.md)
+**Parent Topic:**[Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-buildings.md)
 

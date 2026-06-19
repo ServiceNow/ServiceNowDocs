@@ -2,6 +2,7 @@
 title: Create an approval definition
 description: Add an approval definition so that you can implement an approval process that is over that definition. The approval is applied on reservations that match the conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/create-approval-defintion.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -101,7 +102,7 @@ The approval definition is created for the reservation table. If a reservation m
 
 ## What to do next
 
-Add approvers to approve the reservations that match the approval definition. For more information, refer to [Add a workplace approval configuration](add-workplace-approval-configuration.md).
+Add approvers to approve the reservations that match the approval definition. For more information, refer to [Add a workplace approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-workplace-approval-configuration.md).
 
-**Parent Topic:**[Create a workplace performer criteria](create-workplace-performer-criteria.md)
+**Parent Topic:**[Create a workplace performer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-performer-criteria.md)
 

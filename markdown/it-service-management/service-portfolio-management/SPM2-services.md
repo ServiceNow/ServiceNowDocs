@@ -2,6 +2,7 @@
 title: Use Service Portfolio Management services
 description: Configure IT services within your portfolios to add the most value to your organization. The IT services defined in your portfolios may, or may not be, aligned to an application. IT services defined in your portfolios may, or may not be, represented in a request catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-services.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -25,7 +26,7 @@ To reflect the importance or impact of each service on the operations of your or
 
 Business services make up the structure of your service portfolio taxonomy. You can manage associated service and offering details via the dependency tabs of the related list on the Service and Service Offering forms. Business services reside in the \[cmdb\_ci\_service\_business\] table.
 
-Create offerings as children of services. Offerings are created in the Service Offering \[service\_offering\] table. Refer to [Service offerings in Service Portfolio Management](SPM2-service-offerings.md) for more details.
+Create offerings as children of services. Offerings are created in the Service Offering \[service\_offering\] table. Refer to [Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md) for more details.
 
 You can designate services as **Services I depend On** or **Services Dependent On Me** via form related lists.
 
@@ -39,11 +40,11 @@ Starting with the Australia release, technical services align with the Common Se
 |----------|----------------------------------|-------------------------------------|
 |\[cmdb\_ci\_service\_technical\]|Technical Service|Technology Management Service|
 
-To create or modify services, see [Create or modify Service Portfolio Management services](../task/create-or-modify-SPM2-services.md).
+To create or modify services, see [Create or modify Service Portfolio Management services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-or-modify-SPM2-services.md).
 
-To learn about service offerings, see [Service Portfolio Management service offerings](SPM2-service-offerings.md).
+To learn about service offerings, see [Service Portfolio Management service offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md).
 
-To subscribe users to a service offering, see [Subscribe users to a service offering in Service Portfolio Management](../task/SPM2-subscribe-to-service-offering.md).
+To subscribe users to a service offering, see [Subscribe users to a service offering in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-subscribe-to-service-offering.md).
 
-**Parent Topic:**[Exploring Service Portfolio Management](c_ServicePortfolioManagementv2.md)
+**Parent Topic:**[Exploring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
 

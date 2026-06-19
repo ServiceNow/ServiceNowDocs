@@ -2,6 +2,7 @@
 title: Main node configuration form
 description: Use the Main node configuration form to create a Main node configuration record in the Data Relationships Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/main-node-config-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

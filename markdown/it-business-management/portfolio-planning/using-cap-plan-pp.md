@@ -2,6 +2,7 @@
 title: Using capacity planning in Portfolio Planning
 description: Assess the resource capacity and review existing allocations, which help you to make informed decisions while working on assigning resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-cap-plan-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -15,13 +16,13 @@ breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 
 Assess the resource capacity and review existing allocations, which help you to make informed decisions while working on assigning resources.
 
-Use the [manage resource capacity](../task/manage-rsrc-cap-pp.md) screen to generate resource capacity details.
+Use the [manage resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/manage-rsrc-cap-pp.md) screen to generate resource capacity details.
 
-Use the [Capacity Planning screen](../task/using-cap-planning-screen-pp.md) to view detailed information about the resource capacity mapping to a portfolio.
+Use the [Capacity Planning screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-cap-planning-screen-pp.md) to view detailed information about the resource capacity mapping to a portfolio.
 
 ## Manage resource capacity
 
-![Manage resource capacity screen displaying the capacity details for Employee Management group.](../../spw-capacity-planning/images/cp-manage-resource-capacity-screen.png "Manage resource capacity screen")
+\[Omitted image "cp-manage-resource-capacity-screen.png"\] Alt text: Manage resource capacity screen displaying the capacity details for Employee Management group.
 
 Using Manage resource capacity, select a time frame and primary attributes to view number of available resources. Generated resource capacity details are saved. You can regenerate capacity to view latest changes in the resource availability.
 
@@ -43,7 +44,7 @@ On the Manage resource capacity screen, you can:
 -   Switch between **Auto-select** and **Manual-select** option to view the allocated resource efforts for all planning items or to view a custom data, respectively.
 -   Define resource criteria to view the available groups, roles, or skills from the resource assignments of the prioritized planning items.
 
-![Resource criteria screen in Capacity Planning.](../../spw-capacity-planning/images/cp-resource-criteria-screen.png)
+\[Omitted image "cp-resource-criteria-screen.png"\] Alt text: Resource criteria screen in Capacity Planning.
 
 ## Capacity Planning
 
@@ -53,7 +54,7 @@ Capacity Planning screen displays the resource efforts from the prioritized plan
 -   Current resource capacity allocation.
 -   Interactive Gantt chat to view prioritized planning items in the bottom tray to analyze and plan work.
 
-![Capacity Planning view for resource capacity.](../../spw-capacity-planning/images/cp-capacity-planning-screen.png)
+\[Omitted image "cp-capacity-planning-screen.png"\] Alt text: Capacity Planning view for resource capacity.
 
 Understanding the Capacity Planning screen.
 
@@ -67,22 +68,22 @@ Understanding the Capacity Planning screen.
 Using Capacity Planning, you can:
 
 -   View the capacity allocations of prioritized planning items for your current portfolio and better forecast your future resource requirements.
--   Use the filter option \(![Capacity planning filter button.](../../spw-capacity-planning/images/cp-filter-button.png)\) to view planning items by their type, state, priority or any by any required attributes to create capacity plans.
+-   Use the filter option \(\[Omitted image "cp-filter-button.png"\] Alt text: Capacity planning filter button.\) to view planning items by their type, state, priority or any by any required attributes to create capacity plans.
 
     **Note:** Default filter is set to display prioritized planning items only.
 
 -   View the updated resource capacity based on the assigned operational resource assignments.
 -   View the total resource capacity in the heatmap view.
 
-    ![Resource capacity heatmap view.](../../spw-capacity-planning/images/cp-heatmap-view.png)
+    \[Omitted image "cp-heatmap-view.png"\] Alt text: Resource capacity heatmap view.
 
 -   View total resource capacity and total estimates.
 -   View the efforts for operational work and efforts for estimates outside of portfolio in the **Additional items** list.
--   Redefine the workforce criteria by selecting **Resource criteria** \(![Resource criteria button.](../../spw-capacity-planning/images/cp-resource-criteria-button.png)\)
+-   Redefine the workforce criteria by selecting **Resource criteria** \(\[Omitted image "cp-resource-criteria-button.png"\] Alt text: Resource criteria button.\)
 
 ## Calculation of Operational Resource Assignment in Capacity Planning
 
-As a Resource Manager, you can [create operation resource assignments](../../resource-management/task/create-op-rsrc-asgnmnts-ppm.md) or [migrate existing operational resource plans](../../resource-management/task/migrate-operational-rsrc-plans.md) of your employees to handle the required meetings, trainings, time off and so on to meet your work requirements.
+As a Resource Manager, you can [create operation resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-op-rsrc-asgnmnts-ppm.md) or [migrate existing operational resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-operational-rsrc-plans.md) of your employees to handle the required meetings, trainings, time off and so on to meet your work requirements.
 
 Consider a group with capacity of 2 FTE and resource manager creates a Group type operation resource assignment for 10% of the capacity for training. This operational assignment can be viewed in the **Operational work** line item in the top-tray of the Capacity Planning screen. The value of the **Operational work** line item will be 0.2, which is 10% of total capacity of the group.
 
@@ -94,5 +95,5 @@ Consider the same group for which resource manager creates an operation resource
 
 **Note:** The **Operational work** line item is highlighted in gray color.
 
-![Capacity planning view showing Operational work in a red highlight box.](../../spw-capacity-planning/images/cp-operational-rsrc-asgnmnt.png)
+\[Omitted image "cp-operational-rsrc-asgnmnt.png"\] Alt text: Capacity planning view showing Operational work in a red highlight box.
 

@@ -2,6 +2,7 @@
 title: Generate the payload for a new trouble ticket event
 description: When adding a trouble ticket event to your implementation, you must create a function that generates the required TMF-compliant payload for that event type. In addition, you must add that function to the case statement that directs the logic to this function when processing this type of event record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/prd\_evt\_not-dev\_gd-gen\_evt\_pay.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -19,16 +20,16 @@ When adding a trouble ticket event to your implementation, you must create a fun
 
 In the `TroubleTicketNotificationUtil` script include, you must add a method that constructs the required TMF-compliant payload for the new trouble ticket event and then return that payload.
 
-For examples of methods that create payloads for the base system trouble ticket events, refer to the following methods in the [`TroubleTicketNotificationUtilOOB`](../../../../app-store/dev_portal/API_reference/TroubleTicketNotificationUtilOOB/concept/TroubleTicketNotifScopedAPI.md#) script include:
+For examples of methods that create payloads for the base system trouble ticket events, refer to the following methods in the [`TroubleTicketNotificationUtilOOB`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md) script include:
 
--   [generateCreateTroubleTicketEventPaylaod\(\)](../../../../app-store/dev_portal/API_reference/TroubleTicketNotificationUtilOOB/concept/TroubleTicketNotifScopedAPI.md#)
--   [generateCreateTroubleTicketEventPaylaodForCase\(\)](../../../../app-store/dev_portal/API_reference/TroubleTicketNotificationUtilOOB/concept/TroubleTicketNotifScopedAPI.md#)
--   [generateTroubleTicketAttributeChangePayload\(\)](../../../../app-store/dev_portal/API_reference/TroubleTicketNotificationUtilOOB/concept/TroubleTicketNotifScopedAPI.md#)
--   [generateTroubleTicketStatusChangePayload\(\)](../../../../app-store/dev_portal/API_reference/TroubleTicketNotificationUtilOOB/concept/TroubleTicketNotifScopedAPI.md#)
+-   [generateCreateTroubleTicketEventPaylaod\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
+-   [generateCreateTroubleTicketEventPaylaodForCase\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
+-   [generateTroubleTicketAttributeChangePayload\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
+-   [generateTroubleTicketStatusChangePayload\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
 
 ## Add the event to the fetchEventHandlerAndCreateTMFEvent\(\) switch/case logic
 
-For the function that you created to be executed, you must add it in the `switch/case` logic within the fetchEventHandlerAndCreateTMFEvent\(\) method of the `EventProcessorUtil` script include. The following code snippet shows the updates necessary to add the `ResolveTroubleTicketEventForIncident` event type to this method. For details on the fetchEventHandlerAndCreateTMFEvent\(\) method, see [EventProcessorUtilOOB - fetchEventHandlerAndCreateTMFEvent\(Object eventSnapshot, String eventType, String eventId\)](../../../../app-store/dev_portal/API_reference/EventProcessorUtilOOB/concept/EventProcessorUtilOOBScopedAPI.md#).
+For the function that you created to be executed, you must add it in the `switch/case` logic within the fetchEventHandlerAndCreateTMFEvent\(\) method of the `EventProcessorUtil` script include. The following code snippet shows the updates necessary to add the `ResolveTroubleTicketEventForIncident` event type to this method. For details on the fetchEventHandlerAndCreateTMFEvent\(\) method, see [EventProcessorUtilOOB - fetchEventHandlerAndCreateTMFEvent\(Object eventSnapshot, String eventType, String eventId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventProcessorUtilOOBScopedAPI.md).
 
 ```
 fetchEventHandlerAndCreateTMFEvent: function(eventSnapshot, eventType, eventId) {

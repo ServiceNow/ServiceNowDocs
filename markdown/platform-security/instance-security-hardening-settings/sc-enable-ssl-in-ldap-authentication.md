@@ -2,6 +2,7 @@
 title: Enable SSL in LDAP authentication \[Updated in Security Center 1.5 and 2.0\]
 description: Manage the encryption of LDAP authentication requests on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-ssl-in-ldap-authentication.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -73,7 +74,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -99,8 +100,8 @@ References
 
 </td><td>
 
-[Lightweight Directory Access Protocol integration](../../../integrate/ldap/concept/c_LDAPIntegration.md)
+[Lightweight Directory Access Protocol integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegration.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

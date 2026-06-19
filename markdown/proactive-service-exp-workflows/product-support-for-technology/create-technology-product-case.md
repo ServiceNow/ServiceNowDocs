@@ -1,17 +1,18 @@
 ---
-title: Create a technology product support case from the Customer Service Portal
+title: Create a technology product case
 description: Customers can create a technology product case to report an issue about the service from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/create-technology-product-case.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Technology Product Support Case, Use, Product Support for Technology]
+breadcrumb: [Use, Technology Product Support Case, Product Support for Technology]
 ---
 
-# Create a technology product support case from the Customer Service Portal
+# Create a technology product case
 
 Customers can create a technology product case to report an issue about the service from the Customer Service Portal.
 
@@ -29,11 +30,11 @@ Role required: sn\_tech\_support.agent
 
 4.  Select **Create a Technology Product Case**.
 
-    Case form as been created using a record producer. For more information about how to create record producer, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
+    Case form as been created using a record producer. For more information about how to create record producer, see .
 
 5.  On the form, fill in the fields.
 
-    ![technology product case.](../image/create-tech-product-case.png)
+    \[Omitted image "create-tech-product-case.png"\] Alt text: technology product case.
 
 <table id="table_bw4_flz_pfc"><thead><tr><th>
 
@@ -124,4 +125,6 @@ Displays the time zone of the user in the Contact field.
 
     When the service problem case is submitted, the stage is automatically set to **Verify** and state as **New**.
 
+
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
 

@@ -2,6 +2,7 @@
 title: Create Physical Connection form
 description: The Create Physical Connection form enables you to create, review, and modify the network details for a physical connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/gpon-physical-connection-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -26,5 +27,5 @@ The Create Physical Connection form enables you to create, review, and modify th
 |Z end Interface|Ending network interface where this physical connection is configured.|
 |Bandwidth|Bandwidth of this physical connection.|
 
-**Parent Topic:**[GPON Broadband Change model forms](gpon-broadband-change-model-forms.md)
+**Parent Topic:**[GPON Broadband Change model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model-forms.md)
 

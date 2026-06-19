@@ -2,6 +2,7 @@
 title: Update the Employee Center theme
 description: Install the Employee Center app from the ServiceNow Store to update the EC UI theme.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/ja-update-ec-ui-theme.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -17,9 +18,9 @@ Install the Employee Center app from the ServiceNow Store to update the EC UI th
 
 ## Before you begin
 
-Install the Employee Center app from the ServiceNow Store before you can update the labels for the menu items or My active items links. For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+Install the Employee Center app from the ServiceNow Store before you can update the labels for the menu items or My active items links. For more information, see Install a ServiceNow Store application.
 
-For more information on Employee Center themes, see [Customize Employee Center portal theme](../../employee-center/task/customize-theme.md).
+For more information on Employee Center themes, see [Customize Employee Center portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/customize-theme.md).
 
 Role required: admin
 
@@ -50,6 +51,6 @@ Update the Employee Center service portal setting to use the latest Employee Cen
 
 You can update Employee Center menu items and links in My Active Items.
 
--   [Add a Journey Accelerator action plan link to My Active Items list](add-ja-action-plan-myitems-list.md)
--   [Add a Journey Accelerator action plan menu to the Employee Center](add-ja-action-plan-menu-ec-header.md)
+-   [Add a Journey Accelerator action plan link to My Active Items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md)
+-   [Add a Journey Accelerator action plan menu to the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/add-ja-action-plan-menu-ec-header.md)
 

@@ -2,6 +2,7 @@
 title: Set up the webhook
 description: Configure a webhook to subscribe to events in the UiPath account with a ServiceNow callback URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/uipath-webhook.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Configure a webhook to subscribe to events in the UiPath account with a ServiceN
 
 ## Before you begin
 
--   [Set up the UiPath spoke](conf-alias-uipath.md#)
+-   [Set up the UiPath spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-alias-uipath.md)
 -   Role required: sn\_uipath\_spoke.uipath\_webhook\_registry\_user and decision\_table\_writer, or admin
 
 ## Procedure
@@ -41,7 +42,7 @@ Configure a webhook to subscribe to events in the UiPath account with a ServiceN
 
         Webhook callback URL and secret are generated and displayed.
 
-        ![Webhook callback URL and secret.](../image/uipath-webhook-registry.png)
+        \[Omitted image "uipath-webhook-registry.png"\] Alt text: Webhook callback URL and secret.
 
     6.  Copy and record the values of webhook callback URL and secret.
 

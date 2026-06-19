@@ -2,6 +2,7 @@
 title: Advanced Work Assignment dashboard for tasks
 description: Enable managers to monitor Task \[task\] work items so that their agents can better support customer needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-tasks-dashboard.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -15,9 +16,9 @@ breadcrumb: [Platform Analytics Solutions for Advanced Work Assignment, Analytic
 
 Enable managers to monitor Task \[task\] work items so that their agents can better support customer needs.
 
-This dashboard is available in the Performance Analytics - Content Pack - Advanced Work Assignment plugin. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](../../application-content-packs/concept/awa-content-pack.md).
+This dashboard is available in the Performance Analytics - Content Pack - Advanced Work Assignment plugin. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-content-pack.md).
 
-![The dashboard displays indicators and reports to track agent tasks with customers](../../../administer/advanced-work-assignment/image/AWATasks-update.png "AWA dashboard for Tasks")
+\[Omitted image "AWATasks-update.png"\] Alt text: The dashboard displays indicators and reports to track agent tasks with customers
 
 ## End users and roles
 
@@ -113,11 +114,11 @@ To analyze data according to different categories, select a breakdown from the d
 -   Service Channel
 -   Queue
 
-For more information on analyzing data with breakdowns, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+For more information on analyzing data with breakdowns, see Using breakdowns on dashboards.
 
 ## Data visualizations
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Average Task Wait Time - Last Hour|Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)|Average amount of time in the past hour that customers have spent waiting for an agent response.|
+|Average Task Wait Time - Last Hour|Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report|Average amount of time in the past hour that customers have spent waiting for an agent response.|
 

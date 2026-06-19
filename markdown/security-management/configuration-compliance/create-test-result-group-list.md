@@ -2,6 +2,7 @@
 title: Manually create a Configuration Compliance remediation task from the Test Results list
 description: You can manually create a remediation task from the Test Result list and perform remediation from the resulting remediation task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/create-test-result-group-list.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -41,17 +42,17 @@ This method requires selecting test results to include and creating the group fr
 
 4.  Open the **Actions on selected rows...** menu at the bottom of the list.
 
-    ![Remediation task from a list](../image/TestResultGroupList.png)
+    \[Omitted image "TestResultGroupList.png"\] Alt text: Remediation task from a list
 
 5.  Choose **Create Remediation Task**.
 
     The remediation task is created and opens.
 
-    ![v10.3 Remediation Task form](../image/v11TestResultGroupUIAction.png "Remediation Task form")
+    \[Omitted image "v11TestResultGroupUIAction.png"\] Alt text: v10.3 Remediation Task form
 
     The test results you selected for the remediation task are displayed on the Test Results related list along with any associated change requests.
 
-    ![Test Results and Change Requests related lists on new Remediation Task](../image/v11TestResultGroupUIActionbottom.png)
+    \[Omitted image "v11TestResultGroupUIActionbottom.png"\] Alt text: Test Results and Change Requests related lists on new Remediation Task
 
 6.  Fill in the fields on the form, as appropriate.
 
@@ -101,7 +102,7 @@ State
 
 </td><td>
 
-Initially **Open**, is the remediation state of the remediation task. For more information, see [Configuration Compliance states](../concept/vuln-config-compl-states.md).
+Initially **Open**, is the remediation state of the remediation task. For more information, see [Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-states.md).
 
 </td></tr><tr><td>
 

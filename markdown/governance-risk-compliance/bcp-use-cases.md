@@ -2,6 +2,7 @@
 title: Use cases for business continuity planning
 description: This section describes the common use cases that are used for business continuity planning in the Business Continuity Management application. You can deploy these use cases individually or you can combine them to meet your specific needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcp-use-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

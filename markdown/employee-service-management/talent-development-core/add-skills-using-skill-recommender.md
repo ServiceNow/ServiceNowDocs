@@ -2,6 +2,7 @@
 title: Add skills by using the skill recommender
 description: Search for the skills that you're interested in developing or improving and then add them to your skills profile by using the skills recommender in the Skills Foundation application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/add-skills-using-skill-recommender.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -35,7 +36,7 @@ By adding skills to your profile, you can track all these details in one place.
 
     Search results are sorted alphabetically, with the top results displaying first.
 
-    ![Skill search results](../image/skills-recommender.png)
+    \[Omitted image "skills-recommender.png"\] Alt text: Skill search results
 
     **Note:** If you don't see the skill recommendations, it indicates that the AI Search setup is broken. Clear your instance cache by entering `server_url/cache.do` in your browser. If the problem persists, then contact your system admin.
 
@@ -46,5 +47,5 @@ By adding skills to your profile, you can track all these details in one place.
 
 The skill is added to your additional skills section.
 
-**Parent Topic:**[Using Skills Foundation](../concept/using-skills-intelligence.md)
+**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/using-skills-intelligence.md)
 

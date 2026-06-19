@@ -1,15 +1,18 @@
 ---
-title: Install the Impact Store Application from the ServiceNow Store
+title: Install Impact
 description: Follow these instructions to install the Impact Store Application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/install-impact-innovation-lab.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
-# Install the Impact Store Application from the ServiceNow Store
+# Install Impact
 
 Follow these instructions to install the Impact Store Application.
 
@@ -46,22 +49,22 @@ Role required: Any Impact role, admin
 
 8.  Select **Install** to complete the installation.
 
-    Refer to [Dependent applications installed with the Impact Store App](../reference/data-sync-idi-store.md) for the tables installed.
+    Refer to [Dependent applications installed with the Impact Store App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-sync-idi-store.md) for the tables installed.
 
 9.  Select **Configure**.
 
-    ![Configure option for Impact in the Application Manager.](../image/configure-impact-store.png)
+    \[Omitted image "configure-impact-store.png"\] Alt text: Configure option for Impact in the Application Manager.
 
     You are redirected to the Impact Guided Setup.
 
 
 ## What to do next
 
-[Use Guided Setup for Impact Store Application configuration](guided-setup-impact-in-app.md).
+[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md).
 
-**Parent Topic:**[Configure the Impact Store Application](../concept/configuring-impact-platform.md)
+**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Configure the Impact Store Application](../concept/configuring-impact-platform.md)
+**Previous topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
 
-**Next topic:**[Use Guided Setup for Impact Store Application configuration](guided-setup-impact-in-app.md)
+**Next topic:**[Run Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/guided-setup-impact-in-app.md)
 

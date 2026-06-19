@@ -2,6 +2,7 @@
 title: Inter-dependencies
 description: Explore the inter-dependencies of AI systems, AI models, and datasets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/understanding-interdependencies.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -25,9 +26,9 @@ Comprehensive responsible AI governance requires attention to all these componen
 -   Identify the associated AI model
 -   Document the dataset
 
-For a visual example of how these elements interact, see [Example of an AI system](example-of-an-ai-system.md)
+For a visual example of how these elements interact, see [Example of an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/example-of-an-ai-system.md)
 
-For information on Model asset classes, see [Model asset classes](https://www.servicenow.com/docs/bundle/zurich-it-asset-management/page/product/enterprise-asset-management/concept/enterprise-model-asset-classes-app.html#d396350e744)
+For information on Model asset classes, see Model asset classes
 
-For information on AI assets API, see [AI Assets API](https://www.servicenow.com/docs/bundle/zurich-api-reference/page/integrate/inbound-rest/concept/ai-assets-api.html)
+For information on AI assets API, see AI Assets API
 

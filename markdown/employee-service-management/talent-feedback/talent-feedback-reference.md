@@ -2,6 +2,7 @@
 title: Talent Feedback reference
 description: Reference topics provide more information regarding the dependencies, components, and tables installed along with Talent Feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/talent-feedback-reference.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

@@ -2,6 +2,7 @@
 title: JavaScript API Context-sensitive help
 description: The syntax editor can display context-sensitive API information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_ScriptingAssistance.html
 release: australia
 product: Scripts
 classification: scripts
@@ -29,5 +30,5 @@ If the cursor is adjacent to a text string, the system searches for script eleme
 
 Context-sensitive suggestions are based on script type. For example, when working on a business rule, only suggestions from the server API and for objects such as **current** and **previous** display. When working on a client script, the system only displays suggestions from the client API.
 
-**Parent Topic:**[Server-side scripting](../../server-scripting/concept/c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md)
 

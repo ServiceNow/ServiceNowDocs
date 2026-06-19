@@ -2,6 +2,7 @@
 title: Using the Legal Request playbook
 description: Use these steps to learn how you can use the Legal Request playbook in the MSIM Workspace and its capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-the-legal-request.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

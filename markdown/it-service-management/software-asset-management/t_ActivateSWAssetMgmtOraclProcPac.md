@@ -2,6 +2,7 @@
 title: Request the legacy Oracle Process Pack
 description: The legacy Software Asset Management - Oracle Process Pack \(com.snc.sam.oracle.pp\) plugin can no longer be activated upon request. If the legacy plugin has already been activated on your ServiceNow instance, you can continue to use the legacy Oracle Process Pack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_ActivateSWAssetMgmtOraclProcPac.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -55,7 +56,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -73,10 +74,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Legacy Oracle process pack](../concept/c_OracleProcessPack.md)
+**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

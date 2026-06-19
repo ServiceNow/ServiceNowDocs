@@ -2,6 +2,7 @@
 title: Create a namespace in Hermes
 description: Organize your Kafka topics by creating a namespace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/create-namespace-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -24,7 +25,7 @@ Role required: hermes\_admin or kafka\_namespace\_admin
 Use namespaces to organize Kafka topics in logical ways. For example:
 
 -   Create namespace records for each Kafka cluster that replicates messages to Hermes.
--   Create namespace records for each domain in a domain-separated instance. For more information, see [Hermes Messaging Service domain separation](../reference/hermes-messaging-service-domain-separation.md).
+-   Create namespace records for each domain in a domain-separated instance. For more information, see [Hermes Messaging Service domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-domain-separation.md).
 
 ## Procedure
 
@@ -78,8 +79,8 @@ A namespace record is created in the Kafka Namespace \[sys\_kafka\_namespace\] t
 
 ## What to do next
 
--   Organize topics yourself by creating one or more topic records and linking them to this namespace. See [Create a topic in Hermes](create-topic-instance-hermes.md).
--   Manage access to Kafka topics in the Hermes Kafka cluster by configuring Access Control Lists \(ACLs\) for this namespace in the certificate generator. See [Set up a secure connection to the Hermes Messaging Service](set-up-secure-connection-to-hermes.md).
+-   Organize topics yourself by creating one or more topic records and linking them to this namespace. See [Create a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/create-topic-instance-hermes.md).
+-   Manage access to Kafka topics in the Hermes Kafka cluster by configuring Access Control Lists \(ACLs\) for this namespace in the certificate generator. See [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md).
 
-**Parent Topic:**[Managing namespaces in Hermes](../concept/managing-namespaces-hermes.md)
+**Parent Topic:**[Managing namespaces in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-hermes.md)
 

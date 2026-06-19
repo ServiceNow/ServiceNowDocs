@@ -2,6 +2,7 @@
 title: Automation Center reference
 description: Reference topics provide additional information about the lists and forms that you use to configure and administer Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-center-reference.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -15,30 +16,30 @@ breadcrumb: [Automation Center, Workflow Data Fabric]
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer Automation Center.
 
--   **[Components installed with Automation Center](../reference/components-installed-with-automation-center.md)**  
+-   **[Components installed with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/components-installed-with-automation-center.md)**  
 Several types of components are installed with the activation of Automation Center, including tables, user roles, and scheduled jobs.
--   **[Automation Center properties](../reference/automation-center-properties.md)**  
+-   **[Automation Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-properties.md)**  
 You can access system properties for Automation Center by navigating to **All** &gt; **Automation Center** &gt; **Administration** &gt; **Automation Properties**.
--   **[Submit an Automation Request form](../reference/submit-automation-request-form.md)**  
+-   **[Submit an Automation Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/submit-automation-request-form.md)**  
 Use the Submit an Automation Request form to create an automation request in Service Catalog.
--   **[Automation request form from Automation Center](../reference/automation-request-autocenter-form.md)**  
+-   **[Automation request form from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-request-autocenter-form.md)**  
 Use the Automation request form to create an automation request, action request, or review request from Automation Center.
--   **[Automation task form](../reference/automation-task-form.md)**  
+-   **[Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-task-form.md)**  
 Use the Automation task form to create an automation task in Automation Center.
--   **[Automation resource form](../reference/automation-resource-form.md)**  
+-   **[Automation resource form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-resource-form.md)**  
 Use the Automation resource form to create an automation resource to associate a resource to an automation task.
--   **[Automation execution form](../reference/automation-execution-form.md)**  
+-   **[Automation execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-execution-form.md)**  
 Use the Automation execution form to view an automation execution from Automation Center.
--   **[Insight rule form](../reference/insight-rule-form.md)**  
+-   **[Insight rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/insight-rule-form.md)**  
 Use the Insight rule form to create an insight rule from Automation Center.
--   **[Automation Scheduled Trigger Execution form](../reference/auto-sched-trigger-exe-form.md)**  
+-   **[Automation Scheduled Trigger Execution form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/auto-sched-trigger-exe-form.md)**  
 Use the Automation Scheduled Trigger Execution form to define the type of insight trigger and map an insight rule to a new scheduled script in Automation Center.
--   **[Automation goal form](../reference/automation-goal-form.md)**  
+-   **[Automation goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-goal-form.md)**  
 Use the Automation goal form to create an automation goal in Automation Center.
--   **[Life-cycle stages of an automation request](../reference/lifecycle-stages-automation-req.md)**  
+-   **[Life-cycle stages of an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/lifecycle-stages-automation-req.md)**  
 The State transition of an automation request guides you through the stages of its life cycle.
--   **[Domain separation and Automation Center](domain-separation-automation-center.md)**  
+-   **[Domain separation and Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/domain-separation-automation-center.md)**  
  Domain separation is supported for Automation Center. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Automation Center](automation-center-landing-page.md)
+**Parent Topic:**[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-landing-page.md)
 

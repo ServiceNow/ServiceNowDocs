@@ -2,6 +2,7 @@
 title: Export goals and targets data to Excel or CSV
 description: Export the data of goals and targets from your portfolio plan into a Microsoft Excel or CSV file. You can share this data and collaborate with your business stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/export-goals-and-targets-to-excel.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -33,7 +34,7 @@ Role required: sn\_apw\_advanced.spw\_goal\_user and sn\_align\_core.apw\_user
 
 5.  Use the Personalize side panel to export the data of your goals and targets.
 
-    1.  Select Export icon \(![Export icon.](../../alignment-planner-workspace/images/icon-export-data.png)\).
+    1.  Select Export icon \(\[Omitted image "icon-export-data.png"\] Alt text: Export icon.\).
 
     2.  From the **File type** drop-down on the Export window, select **Excel** or **CSV** to export the data to a Microsoft Excel or CSV file respectively.
 

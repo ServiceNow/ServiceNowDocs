@@ -2,6 +2,7 @@
 title: GlassFish Server discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of GlassFish Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-GlassFishServer.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -47,5 +48,5 @@ The following data is collected in the GlassFish War \[cmdb\_ci\_appl\_glassfish
 |Name|name|
 |Class|class|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
 

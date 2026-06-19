@@ -2,6 +2,7 @@
 title: Migrate data from Release Management v2 to Digital Product Release
 description: If you have the Release Management v2 \(RM v2\) application installed, you can migrate your data from RM v2 to Digital Product Release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-rmv2-product-migration.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -19,7 +20,7 @@ If you have the Release Management v2 \(RM v2\) application installed, you can m
 
 Role required: admin
 
-To provide access to additional roles, you can add comma-separated values of other roles installed with DPR in the system property **sn\_dpr\_model.rmv2.migration\_roles**. For more information, see [Digital Product Release properties](../reference/digital-product-release-properties.md).
+To provide access to additional roles, you can add comma-separated values of other roles installed with DPR in the system property **sn\_dpr\_model.rmv2.migration\_roles**. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 ## About this task
 

@@ -2,11 +2,12 @@
 title: Target breakdowns
 description: Breaking down a target into smaller periods \(for example, Monthly\) helps you set a target value for each month and focus on that specific monthly target. The target breakdowns are automatically created based on the Check-in frequency and Target value distribution set for the target.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/target-breakdowns-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 6
 breadcrumb: [Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -32,7 +33,7 @@ The following examples help you understand how the target progress is calculated
 
         This Target value distribution means that the final target value is divided into 12 equal values \(planned target value for each target breakdown\) which aggregates to the final target value. You can edit the planned target value later from the respective target breakdown record as needed.
 
-    ![Target breakdowns with monthly cumulative breakdowns.](../image/target-breakdowns-monthly-cumulative-strategy.gif)
+    \[Omitted image "target-breakdowns-monthly-cumulative-strategy.gif"\] Alt text: Target breakdowns with monthly cumulative breakdowns.
 
     In this case, the application creates 12 target breakdowns \(January, February,………, and December\) for calender year 2026 and sets the Planned target value for each target breakdown to 100 \(Final target value divided by the number of target breakdowns\).
 
@@ -51,7 +52,7 @@ The following examples help you understand how the target progress is calculated
 
         This Target value distribution means that the final target value is divided linearly into 12 planned target values \(such a way that the value for the last monthly breakdown is equal to the final target value\). You can edit the planned target value later from the respective target breakdown record as needed.
 
-    ![Target breakdowns with monthly non-cumulative breakdowns](../image/target-breakdowns-monthly-cumulative-strategy.gif)
+    \[Omitted image "target-breakdowns-monthly-cumulative-strategy.gif"\] Alt text: Target breakdowns with monthly non-cumulative breakdowns
 
     In this case, the application creates 12 target breakdowns \(January, February,………, and December\) for calender year 2026 and sets the Planned target value for the January, February,………, and December breakdowns to 100, 200,…….., and 1200 respectively.
 
@@ -64,7 +65,7 @@ The following examples help you understand how the target progress is calculated
 
 The **Overview** tab in the target’s record page provides graphical visualization for the trend of the target progress based on the planned target value and the actual value of the breakdowns. You can also edit the planned target and view the check-in history of the target actuals selecting the **Show check-in history** in the **Actuals check-in information** section.
 
-![Graphical visualisation of target progress.](../image/trend-of-a-target-strategy.gif)
+\[Omitted image "trend-of-a-target-strategy.gif"\] Alt text: Graphical visualisation of target progress.
 
 ## Benefits of target breakdowns
 

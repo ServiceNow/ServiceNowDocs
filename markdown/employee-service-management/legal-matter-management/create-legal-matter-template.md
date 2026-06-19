@@ -2,6 +2,7 @@
 title: Create a legal matter template
 description: Create a legal matter template that you can apply to a legal matter when promoting from a legal request. The legal matter created using the template contains predefined data such as phases, tasks, ownership, and approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/create-legal-matter-template.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -104,9 +105,9 @@ Default values that pre-populate the fields of a legal matter form that is creat
 
     A legal matter template is created in the Draft state. The Phases, Tasks, Approvals, and Approver Groups related lists are displayed.
 
-5.  In the Phases related list, [create phase templates](create-phase-template-for-matter-template.md).
+5.  In the Phases related list, [create phase templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/create-phase-template-for-matter-template.md).
 
-6.  In the Tasks related list, [create task templates](create-task-template-for-matter-phase-template.md).
+6.  In the Tasks related list, [create task templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/create-task-template-for-matter-phase-template.md).
 
     You can also create matter task templates from the Tasks related list on the Matter Phase Template form.
 
@@ -126,15 +127,15 @@ Default values that pre-populate the fields of a legal matter form that is creat
 
 8.  Click **Submit for approval**.
 
-    -   If an approver group is selected, the template is sent to the group for approval. The state of the matter template updates to Waiting Approval. Anyone from the approver group can [review and approve the matter template](approve-reject-matter-template.md) to publish it.
+    -   If an approver group is selected, the template is sent to the group for approval. The state of the matter template updates to Waiting Approval. Anyone from the approver group can [review and approve the matter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/approve-reject-matter-template.md) to publish it.
     -   If an approver group is not selected, the matter is directly published and its state is Published.
     **Note:** When an existing matter template is updated and published, any associated intake forms reflect the latest version of the template.
 
 
--   **[Create a phase template for a matter template](create-phase-template-for-matter-template.md)**  
+-   **[Create a phase template for a matter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/create-phase-template-for-matter-template.md)**  
 Create a phase template for a matter template for resolving the matter in an organized way. When you apply a legal matter template while creating a matter, the associated phases from the template are added by default to the matter.
--   **[Create a task template within a phase template](create-task-template-for-matter-phase-template.md)**  
+-   **[Create a task template within a phase template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/create-task-template-for-matter-phase-template.md)**  
 Create a task template within a phase template of a legal matter template. When you apply a legal matter template while creating a matter, the associated phases and tasks from the template are added by default to the matter.
 
-**Parent Topic:**[Legal matter templates](../concept/legal-matter-administration.md)
+**Parent Topic:**[Legal matter templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-administration.md)
 

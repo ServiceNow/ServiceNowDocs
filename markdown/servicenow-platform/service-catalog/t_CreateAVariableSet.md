@@ -2,6 +2,7 @@
 title: Create a variable set and add it to an item
 description: Create a set of variables and add them to multiple catalog items and order guides for reuse.Service Catalog enables you to add a variable set to one or more catalog items or order guides.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreateAVariableSet.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -131,7 +132,7 @@ Description of the variable set.
 
     1.  In the Variables related list, click **New**.
 
-    2.  Follow the steps for [creating variables](t_CreateAVariableForACatalogItem.md).
+    2.  Follow the steps for [creating variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md).
 
         **Note:** For a multi-row variable set:
 
@@ -143,12 +144,12 @@ Description of the variable set.
 
     2.  On the Catalog Data Lookup Definitions form, fill the fields.
 
-        For information on creating a data lookup rule, see [Create a catalog lookup definition](t_CreatACatDataLookupDefRec.md#).
+        For information on creating a data lookup rule, see [Create a catalog lookup definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreatACatDataLookupDefRec.md).
 
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Service catalog variable sets](../concept/c_ServiceCatalogVariableSets.md)
+**Parent Topic:**[Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md)
 
 ## Add a variable set to a catalog item or order guide
 
@@ -191,11 +192,11 @@ Role required: catalog\_admin, admin, catalog\_editor, or catalog\_manager
 
         -   A maximum of 50 rows can be added.
         -   Unless default values are provided for variables or On Load scripts are used to pre-populate data, you should add variable data for each row.
-    2.  To edit a row, click the edit row icon ![Icon to edit a row](../image/EditRow.png) in the **Actions** column, specify the variable information in the Edit Row window, and click **Save**.
+    2.  To edit a row, click the edit row icon \[Omitted image "EditRow.png"\] Alt text: Icon to edit a row in the **Actions** column, specify the variable information in the Edit Row window, and click **Save**.
 
         **Note:** When you add or edit an existing row, all catalog UI policies and client scripts associated with the multi-row variable set should be honored.
 
-    3.  To remove a row, click the remove row icon ![Icon to remove a row](../image/RemvRow.png)in the **Actions** column and click **Remove** in the confirmation window.
+    3.  To remove a row, click the remove row icon \[Omitted image "RemvRow.png"\] Alt text: Icon to remove a rowin the **Actions** column and click **Remove** in the confirmation window.
 
     4.  To remove all rows of the table, Click **Remove All** within the variable set and click **Remove** in the confirmation window.
 

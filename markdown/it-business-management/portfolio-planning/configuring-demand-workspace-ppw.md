@@ -1,7 +1,8 @@
 ---
 title: Configuring Next Experience for Demand Management
-description: Configure your Next Experience for Demand Management to assess and promote demands to projects, enhancements, changes, defects, or Enterprise Agile Planning \(EAP\) entities.
+description: Next Experience for Demand Management settings control how demands are evaluated and promoted to projects, enhancements, changes, defects, or Enterprise Agile Planning \(EAP\) entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/configuring-demand-workspace-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -13,16 +14,19 @@ breadcrumb: [Next Experience for Demand Management in Portfolio Planning, Portfo
 
 # Configuring Next Experience for Demand Management
 
-Configure your Next Experience for Demand Management to assess and promote demands to projects, enhancements, changes, defects, or Enterprise Agile Planning \(EAP\) entities.
+Next Experience for Demand Management settings control how demands are evaluated and promoted to projects, enhancements, changes, defects, or Enterprise Agile Planning \(EAP\) entities.
 
-|Item name|Description|
-|---------|-----------|
-|Roles|Define who can access and work in the Next Experience for Demand Management. Includes identifying workspace administrators, demand managers, approvers, and reviewers who participate in the demand process.|
-|Stakeholders|Identify individuals or groups who review or need visibility into demand items. Stakeholders provide domain insight during evaluation. For more information, see [Populate the stakeholder registry for demands](../task/populate-stakeholder-registry-demands-ppw.md).|
-|Information model|Specify the fields and attributes required to capture demand data. Includes form layouts, required fields, and custom data elements.|
-|Evaluation criteria|Define the metrics used to assess and compare demand items. Common criteria include business value, complexity, cost estimates, and alignment to strategy. For more information, see [View an assessment metric category](../task/view-assessment-metric-category-ppw.md).|
-|Resource considerations|Determine what resource‑related information must be associated with demand items, such as estimated effort or team availability.|
-|Workflow expectations|Describes the life-cycle stages for a demand item, from creation to review, approval, or conversion through Playbooks.|
-|Playbooks|Define or verify that the demand playbooks are in accordance with the processes of your organization. For more information, see [Create and customize playbooks](../task/create-and-customize-playbooks-ppw.md).|
-|Dependencies with other applications|Identify related workspaces or applications are required with Next Experience for Demand Management, such as Project Workspace or Resource Management Workspace. Ensures consistent data across applications.|
+## Configuration overview
+
+Define the following items before configuring Next Experience for Demand Management.
+
+-   Define who can access and work in the Next Experience for Demand Management. Includes identifying workspace administrators, demand managers, approvers, and reviewers who participate in the demand process. See .
+-   Identify individuals or groups who review or need visibility into demand items. Stakeholders provide domain insight during evaluation. See [Populate the stakeholder registry for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/populate-stakeholder-registry-demands-ppw.md).
+-   Set up Strategic Planning to work with Next Experience for Demand Management. See [Configuring Strategic Planning with PPM, Agile 2.0, and SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-apw-with-agile-safe-and-ppm.md).
+-   Specify the fields and attributes needed to capture demand data including form layouts, required fields, and custom data elements. See Information model.
+-   Define the metrics used to evaluate and compare demand items. Common criteria include business value, complexity, cost estimates, and alignment to strategy.
+-   Define demand playbooks that align with your organization's processes. See [Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/playbooks-in-demand-workspace-ppw.md).
+-   Determine what resource‑related information must be associated with demand items, such as estimated effort or team availability.
+-   Set the life-cycle stages for a demand item, from creation to review, approval, or conversion through Playbooks.
+-   Identify related workspaces or applications that are required with Next Experience for Demand Management such as Project Workspace or Resource Management Workspace to support consistent data across applications.
 

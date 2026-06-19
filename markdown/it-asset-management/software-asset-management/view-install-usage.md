@@ -2,6 +2,7 @@
 title: View license usage for your installations
 description: Track your installation to license journey by connecting software installations to the licenses consumed and identifying statuses such as licensed, unlicensed, ignored, or requiring action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-install-usage.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -23,17 +24,17 @@ Role required: sam\_manager
 
 1.  Navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Products with installs**.
 
-    ![Products with installs](../image/products-with-installs.png)
+    \[Omitted image "products-with-installs.png"\] Alt text: Products with installs
 
     The preceding page showcases all your products with installations and offers a high-level overview of how these installations are being used and licensed.
 
 2.  Select a product to open the Details page.
 
-    ![SQL Server details](../image/sqlserver-product-install-details.png)
+    \[Omitted image "sqlserver-product-install-details.png"\] Alt text: SQL Server details
 
 3.  Select **License usage**.
 
-    ![License usage node map](../image/license-usage-node-map.png)
+    \[Omitted image "license-usage-node-map.png"\] Alt text: License usage node map
 
     The License use analysis page for the product opens displaying a four-level node map that illustrates how the licenses are being used.
 
@@ -52,5 +53,5 @@ Role required: sam\_manager
 5.  Select the Export map icon on the right side of the page to download this node map as an image.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

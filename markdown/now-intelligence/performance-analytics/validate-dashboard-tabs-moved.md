@@ -2,6 +2,7 @@
 title: Validate that tabs are moved to a target dashboard
 description: When you move a dashboard with an update set, validate that the tabs are moved to the target instance and are populated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/validate-dashboard-tabs-moved.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -21,13 +22,13 @@ Role required: admin.
 
 ## About this task
 
-Moving dashboards from one instance to another requires associating the sys\_id values of dashboard tabs with the sys\_id values of the associated portal pages. This task explains how to find these values and map them to each other if there are problems with moving the dashboard. Perform this task after you [Move a Core UI dashboard with an update set](t_MoveDashboardWithUpdateSet.md).
+Moving dashboards from one instance to another requires associating the sys\_id values of dashboard tabs with the sys\_id values of the associated portal pages. This task explains how to find these values and map them to each other if there are problems with moving the dashboard. Perform this task after you [Move a Core UI dashboard with an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_MoveDashboardWithUpdateSet.md).
 
 ## Procedure
 
 1.  In the target instance, navigate to the dashboard you have just moved.
 
-2.  Select the context menu icon \(![](../image/icon-context-p.png)\) and select **Dashboard Properties**.
+2.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) and select **Dashboard Properties**.
 
 3.  For each tab in the tab form, verify that the required field **Page** \(sys\_portal\_page reference\) is there.
 
@@ -35,7 +36,7 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
 4.  If the portal page in the target instance is missing in any of the tab forms, perform these steps:
 
-    1.  Select the context menu icon \(![](../image/icon-context-p.png)\) in the Tab form and select **Copy sys\_id**.
+    1.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) in the Tab form and select **Copy sys\_id**.
 
     2.  In the filter navigator of the source instance, enter `pa_tabs.list`.
 
@@ -43,15 +44,15 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
     4.  Select the name of the tab to open its form.
 
-    5.  Select the information icon \(![](../image/IconInformation.png)\) of the Page value for that tab.
+    5.  Select the information icon \(\[Omitted image "IconInformation.png"\] Alt text:\) of the Page value for that tab.
 
-    6.  On the **Portal Page**, select the context menu icon \(![](../image/icon-context-p.png)\) and select **Copy sys\_id**.
+    6.  On the **Portal Page**, select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) and select **Copy sys\_id**.
 
-        Paste this value into the text editor.![Copy sys_id](../../performance-analytics/image/copy-sys-id.png)
+        Paste this value into the text editor.\[Omitted image "copy-sys-id.png"\] Alt text: Copy sys\_id
 
         This value is the sys\_id for the portal page. It is different than the sys\_id for the associated tab that you have already used. These values are used together to map the tab to the portal page.
 
-    7.  Select the search icon \(![](../../../common/image/List_SearchIcon.png)\) associated with the **Page** field.
+    7.  Select the search icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text:\) associated with the **Page** field.
 
     8.  In the pop-up window, filter on the portal page sys\_id and select the returned query result.
 
@@ -69,10 +70,10 @@ Moving dashboards from one instance to another requires associating the sys\_id 
 
     3.  Filter the list to show only the portal page with the sys\_id you copied.
 
-    4.  Right-click the record and select **Unload Portal Page**.![Portal page record context menu with the item Unload portal page selected.](../../performance-analytics/image/unload-portal-page.png)
+    4.  Right-click the record and select **Unload Portal Page**.\[Omitted image "unload-portal-page.png"\] Alt text: Portal page record context menu with the item Unload portal page selected.
 
     5.  Move the update set to another instance using standard update set functionality.
 
-        For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_RetrieveAnUpdateSet.md).
+        For more information, see Retrieve an update set.
 
 

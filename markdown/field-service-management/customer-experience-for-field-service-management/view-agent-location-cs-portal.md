@@ -2,13 +2,14 @@
 title: Track the current location of field service agents
 description: View the current location of agents to track their estimated time of arrival.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/customer-experience-for-field-service-management/view-agent-location-cs-portal.html
 release: australia
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
+breadcrumb: [Customer self service, Use, Field Service Management]
 ---
 
 # Track the current location of field service agents

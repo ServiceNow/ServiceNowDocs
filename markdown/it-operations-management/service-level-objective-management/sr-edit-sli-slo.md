@@ -2,6 +2,7 @@
 title: Edit a reliability metric
 description: Update a reliability metric to keep it relevant and aligned with your team's goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/sr-edit-sli-slo.html
 release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -35,7 +36,7 @@ To help you manage reliability-metric history, Service Reliability Management \(
 
 2.  Follow these steps to access the **Reliability metrics** tab:
 
-    1.  Select the **Services** page icon \(![services icon](../../service-reliability/image/icon-sr-services.png)\).
+    1.  Select the **Services** page icon \(\[Omitted image "icon-sr-services.png"\] Alt text: services icon\).
 
     2.  Select the service that uses the reliability metric you want to edit.
 
@@ -62,5 +63,5 @@ Managing SLOs requires ongoing updates to make sure that they reflect your relia
 
 **Note:** If you reactivate a retired SLO, SRM creates and activates a new copy of it. For example: If there are two versions of an SLO, Uptime \(1\) and Uptime \(2\), and you reactivate Uptime \(1\), SRM creates an active version called Uptime \(3\).
 
-**Parent Topic:**[Using SLO Management](using-service-level-objective-management.md)
+**Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

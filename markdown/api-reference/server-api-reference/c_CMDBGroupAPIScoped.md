@@ -2,6 +2,7 @@
 title: CMDBGroupAPI - Scoped
 description: The CMDBGroupAPI provides methods for performing actions on Configuration Management Database \(CMDB\) groups.Returns all configuration items \(CIs\) for the specified group. The results include all manual CIs and the list of CIs from the query builder's saved query.Returns all configuration items \(CIs\) returned from all saved query builders' query IDs for the specified group.Returns the CMDB group's manual CI list.Returns the query builder's query IDs for the specified CMDB group.Sets the manual CI list for the specified group. The existing manual CI list is overwritten. CI sysIds not found in the cmdb\_ci table are ignored.Sets the saved query ID list for the specified group. The existing query ID list is overwritten. Query sysIds not found in the qb\_saved\_query table are ignored.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CMDBGroupAPIScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -23,7 +24,7 @@ var response = sn_cmdbgroup.CMDBGroupAPI.getManualCIList(groupSysId, false);
 
 To access this API you must have the itil or asset role.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CMDBGroupAPI - getAllCI\(String groupId, Boolean requireCompleteSet, Boolean requireAllQueryNodesCis\)
 

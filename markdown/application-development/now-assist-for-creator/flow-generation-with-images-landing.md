@@ -2,13 +2,14 @@
 title: Flow generation with images
 description: Create a flow or a subflow from an image by using Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/flow-generation-with-images-landing.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Flow generation with images
@@ -19,19 +20,19 @@ Create a flow or a subflow from an image by using Now Assist.
 
 <table id="table_xnt_mfd_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about flow generation with images](../concept/exploring-flow-generation-with-images.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-flow-generation-with-images.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activate the Now Assist for Creator plugin and the flow generation with images skill](../task/turn-on-the-flow-generation-with-images-skill.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activate the Now Assist for Creator plugin and the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-the-flow-generation-with-images-skill.md)
 
 </td></tr><tr><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Create a flow from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-now-assist.md)
+Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Create a flow from an image
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Now Assist for Creator roles](../../creator/reference/creator-roles-1.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Now Assist for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/creator-roles-1.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -41,10 +42,10 @@ Create a flow or a subflow from an image by using Now Assist.
 -   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
--   **[Exploring Flow generation with images](../concept/exploring-flow-generation-with-images.md)**  
+-   **[Exploring Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-flow-generation-with-images.md)**  
 Create a flow or a subflow from an image by using Now Assist. Capture the detailed process in an image and attach the image to Workflow Studio. Now Assist generates a preview of the flow that you can modify and regenerate.
--   **[Turn on the flow generation with images skill](../task/turn-on-the-flow-generation-with-images-skill.md)**  
+-   **[Turn on the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-the-flow-generation-with-images-skill.md)**  
 Turn on the flow generation with images skill to use generative AI to create flows and subflows from an image.
 
-**Parent Topic:**[Using generative AI with Now Assist for Creator](../../../build/now-assist-for-creator/concept/using-gen-ai-now-assist-for-creator.md)
+**Parent Topic:**[Using generative AI with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)
 

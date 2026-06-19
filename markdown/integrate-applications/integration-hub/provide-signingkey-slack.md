@@ -2,6 +2,7 @@
 title: Provide Signing Key in ServiceNow instance
 description: Provide Slack app details and Signing Key in your ServiceNow instance for authenticating requests from ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/provide-signingkey-slack.html
 release: australia
 product: Integration Hub
 classification: integration-hub

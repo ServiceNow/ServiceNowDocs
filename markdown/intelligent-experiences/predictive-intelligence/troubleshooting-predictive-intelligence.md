@@ -2,6 +2,7 @@
 title: Configuration tips for Predictive Intelligence
 description: If you encounter issues during your solution training and solution prediction, follow these suggested resolutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/troubleshooting-predictive-intelligence.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -125,10 +126,10 @@ There is no prediction applied to the incident/case record but the prediction re
 
 </td><td>
 
-This can occur when the confidence of the prediction is less than the threshold required to make a prediction. After your solution is trained, use the following steps to confirm if your solution settings need adjusting.1.  Navigate to **System Web Services &gt; REST &gt; REST API Explorer** to find the confidence level for the prediction. See [Test a classification solution prediction](../task/test-solution-prediction.md).
+This can occur when the confidence of the prediction is less than the threshold required to make a prediction. After your solution is trained, use the following steps to confirm if your solution settings need adjusting.1.  Navigate to **System Web Services &gt; REST &gt; REST API Explorer** to find the confidence level for the prediction. See [Test a classification solution prediction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/test-solution-prediction.md).
 2.  On your ML Solution Definition record, check the threshold set for your outcome class that was returned in the prediction by clicking on the name of the class. The **Class** page appears.
 3.  Check the **Estimated Precision** and **Estimated Coverage** values. If the corresponding threshold is more than the prediction confidence of the outcome, this is the root cause for why you did not see any prediction.
-4.  Adjust the class precision and coverage values to increase coverage or precision. See [Tune a trained classification solution](../task/configure-class-precision-coverage.md).
+4.  Adjust the class precision and coverage values to increase coverage or precision. See [Tune a trained classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configure-class-precision-coverage.md).
 
 </td></tr></tbody>
 </table>## Instance cloning
@@ -138,5 +139,5 @@ This can occur when the confidence of the prediction is less than the threshold 
 |After an instance is cloned, predictions for your existing solutions fail.|The ML solution artifacts in the \[ml\_artifacts\] table are stored in the \[sys\_attachment table\]. If the \[ml\_artifacts\] table isn't included in the clone when you run it, the predictions fail. Ensure your clone includes the machine-learning artifacts, as these are critical components of your Predictive Intelligence solution.|
 |After an instance is cloned, the solution training fails.|As the cloning run proceeds, it is possible that the sharedservice.worker user has either been inactivated, locked out, or the user ID isn't set. Resolve these problems so that the solution training succeeds.|
 
-**Parent Topic:**[Configure Predictive Intelligence](../task/configure-predictive-intelligence.md)
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

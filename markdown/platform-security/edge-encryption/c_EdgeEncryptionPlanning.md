@@ -2,6 +2,7 @@
 title: Planning for Edge Encryption
 description: Successful implementation of Edge Encryption requires planning and preparation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_EdgeEncryptionPlanning.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -19,7 +20,7 @@ Answer the following questions in the planning stage.
 
 -   Which fields are to be encrypted?
 -   Which encryption types are to be used?
--   How many Edge Encryption proxies are needed? See [Sizing your Edge Encryption environment](edge-environment-size.md) for recommendations and considerations.
+-   How many Edge Encryption proxies are needed? See [Sizing your Edge Encryption environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-environment-size.md) for recommendations and considerations.
 -   If an order preserving encryption type or encryption patterns are to be used, where is the MySQL database located?
 -   Which key management system is to be used?
 
@@ -44,14 +45,14 @@ System administrators, network administrators, and security team members have di
     -   Configure load balancer pools and settings.
 -   Your security administrator must determine the encryption types to be assigned to each field.
 
--   **[Edge Encryption system requirements](../reference/r_CloudEdgeSystemRequirements.md)**  
+-   **[Edge Encryption system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/r_CloudEdgeSystemRequirements.md)**  
 You can run the Edge Encryption proxy application on servers or virtual machines that run on Microsoft Windows or Linux operating systems. For optimum performance, ensure that your configuration meets these requirements.
--   **[Sizing your Edge Encryption environment](edge-environment-size.md)**  
+-   **[Sizing your Edge Encryption environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-environment-size.md)**  
 Choosing the number of proxy servers for your environment is an important task. Consider the number of users, redundancy needs, and acceptable latency.
--   **[Calculate the order-preserving and tokenization database size](../task/size-db.md)**  
+-   **[Calculate the order-preserving and tokenization database size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/size-db.md)**  
 If using order-preserving encryption or encryption patterns, determine the size of your MySQL database by multiplying the number of potential records by record size.
--   **[Edge Encryption limitations](../reference/edge-encryption-limitations.md)**  
+-   **[Edge Encryption limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption-limitations.md)**  
 Edge Encryption impacts system functions. Carefully evaluate the impact of encrypting a field.
 
-**Parent Topic:**[Edge Encryption](../reference/edge-encryption.md)
+**Parent Topic:**[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-encryption.md)
 

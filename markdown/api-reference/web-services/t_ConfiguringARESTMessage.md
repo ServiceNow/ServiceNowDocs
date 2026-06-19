@@ -2,6 +2,7 @@
 title: Create a REST message
 description: Send requests to a REST web service endpoint by creating a REST message record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ConfiguringARESTMessage.html
 release: australia
 product: Web Services
 classification: web-services
@@ -79,14 +80,14 @@ Double-click a row in the **HTTP Headers** embedded list to define the header **
 
 Create or edit HTTP methods and run a request.
 
--   **[Define a REST message HTTP method](t_DefineAnHTTPMethod.md)**  
+-   **[Define a REST message HTTP method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_DefineAnHTTPMethod.md)**  
 Define an HTTP method such as GET or POST to send a request to a web service provider.
--   **[Define a REST message HTTP header](t_DefineAnHTTPHeader.md)**  
+-   **[Define a REST message HTTP header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_DefineAnHTTPHeader.md)**  
 Define an HTTP header for a REST message or HTTP method to send that header with REST requests.
--   **[Sending outbound REST messages through a MID Server](../concept/c_OutboundRESTMIDServerSupport.md)**  
+-   **[Sending outbound REST messages through a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTMIDServerSupport.md)**  
 You can configure a REST message HTTP method to be sent through a MID Server.
--   **[Using special characters in URIs](../concept/c_UsingSpecialCharactersInURIs.md)**  
+-   **[Using special characters in URIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_UsingSpecialCharactersInURIs.md)**  
 A REST function URI or function variable may use special characters, such as pipe \(\|\) characters.
 
-**Parent Topic:**[Outbound REST web service](../concept/c_OutboundRESTWebService.md)
+**Parent Topic:**[Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md)
 

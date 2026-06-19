@@ -2,6 +2,7 @@
 title: Integrating Ansible with Cloud Services Catalog
 description: Integrate Ansible with Cloud Services Catalog as a Day 1 activity. With this activity, you can deploy an Ansible job template via a ServiceNow catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -66,12 +67,12 @@ Store in CMDB as referrable objects.
 2.  Switch between the blue \(current application\) and green \(new application\) environment
 
 </td></tr></tbody>
-</table>-   **[Set up Ansible as a Day 1 task](../task/setting-up-ansible-as-day-one-task.md)**  
+</table>-   **[Set up Ansible as a Day 1 task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/setting-up-ansible-as-day-one-task.md)**  
 Set up the Ansible console as a Day 1 task before you run Discovery and deploy a job template via a ServiceNow catalog item by using the Cloud Services Catalog application.
--   **[Run Discovery on the Ansible config provider](../task/running-discovery-on-ansible-config-provider.md)**  
+-   **[Run Discovery on the Ansible config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/running-discovery-on-ansible-config-provider.md)**  
 Add the Ansible config provider and run Discovery to discover what's in the inventory, the host group, and the available job templates.
--   **[Order an Ansible job template](../task/ordering-ansible.md)**  
+-   **[Order an Ansible job template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/ordering-ansible.md)**  
 Use Cloud Services Catalog to order an Ansible job template called from the catalog item.
 
-**Parent Topic:**[Configuring Cloud Services Catalog](configuring-csc.md)
+**Parent Topic:**[Configuring Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/configuring-csc.md)
 

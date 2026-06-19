@@ -2,6 +2,7 @@
 title: Validate parts using the Parts Manager AI agent
 description: Use the Parts Manager AI agent to validate parts usage when closing work order tasks in Now Assist for Field Service Management \(FSM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/validate-parts-now-assist-fsm.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -30,7 +31,7 @@ The Parts Manager AI agent analyzes your work notes to identify which parts were
 
 ## Procedure
 
-1.  Open a work order task and select the Now Assist panel icon ![](../image/now-assist-panel-icon.png).
+1.  Open a work order task and select the Now Assist panel icon \[Omitted image "now-assist-panel-icon.png"\] Alt text:.
 
 2.  Ask Now Assist to validate parts for the work order task.
 

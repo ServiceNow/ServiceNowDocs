@@ -1,23 +1,24 @@
 ---
 title: Create union contacts
-description: Use Union Contacts to create and track the people who work for a union or local chapter organization.
+description: Union Contacts track the people who work for a union or local chapter organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/labor-union-contacts.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up labor unions, Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Components installed with Labor Unions, Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create union contacts
 
-Use Union Contacts to create and track the people who work for a union or local chapter organization.
+Union Contacts track the people who work for a union or local chapter organization.
 
 ## Before you begin
 
-Role required: admin
+Role required: HR admin \[sn\_hr\_core.admin\]
 
 **Note:** Creating a union contact does not create a user record.
 
@@ -67,7 +68,7 @@ Labor union
 
 </td><td>
 
-The labor union that the contact person is associated with. **Note:** For more information, see [Create a labor union](labor-unions-create.md).
+The labor union that the contact person is associated with. **Note:** For more information, see [Create a labor union](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-create.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Local union chapter
 
 </td><td>
 
-The chapter of the labor union the contact person is associated with.**Note:** For more information, see [Create a local chapter](labor-unions-local-chapter.md).
+The chapter of the labor union the contact person is associated with.**Note:** For more information, see [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md).
 
 </td></tr><tr><td>
 
@@ -89,5 +90,5 @@ The contact person's role within the labor union.
 </table>4.  Select **Save** or **Submit**.
 
 
-**Parent Topic:**[Setting up labor unions](../concept/labor-unions-setting-up.md)
+**Parent Topic:**[Components installed with Labor Unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)
 

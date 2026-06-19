@@ -2,6 +2,7 @@
 title: Scan findings
 description: A finding is a reference to a record that has violated a rule from a check on the instance. You can find the source record and the number of times the record triggered the rules of a given check.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/scan-findings.html
 release: australia
 product: Security Center
 classification: security-center
@@ -15,17 +16,17 @@ breadcrumb: [Security scanner, Security configuration console, Security Center, 
 
 A finding is a reference to a record that has violated a rule from a check on the instance. You can find the source record and the number of times the record triggered the rules of a given check.
 
-![Security scanner tab in the Security Center](../images/security-scanner.png)
+\[Omitted image "security-scanner.png"\] Alt text: Security scanner tab in the Security Center
 
 Navigate to the **Findings** tab to view scan findings in a list. The cards above the list provide a count of the findings that match specific criteria listed on the card. Select any of these cards to filter the list to show only those that match the criteria.
 
-Select the **+Create task** button to create a Security Task to resolve a finding. This button appears both on the list and within the finding record. For details on Security Tasks, see [Security Tasks](security-task-manager.md).
+Select the **+Create task** button to create a Security Task to resolve a finding. This button appears both on the list and within the finding record. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
 
 ## Scan findings
 
 Select a link under the **Count** column to view a finding record, which displays granular details related to a specific finding.
 
-![Scan finding record](../images/scan-finding.png)
+\[Omitted image "scan-finding.png"\] Alt text: Scan finding record
 
 -   **Check**
 
@@ -82,5 +83,5 @@ Select a link under the **Count** column to view a finding record, which display
 
 Findings can be muted by selecting the **Mute / Unmute** button. When muting a scan finding, you're prompted a reason for muting the finding. Findings muted in the last six months are available in the muted findings card in the **Scan Findings** page.
 
-**Parent Topic:**[Security scanner](sc-scanning.md)
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-scanning.md)
 

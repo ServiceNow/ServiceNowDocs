@@ -2,6 +2,7 @@
 title: Deactivate a function field
 description: The user who created a function field or a user with the admin role can deactivate it. If a table already has 20 function fields, you must deactivate one or more existing fields before creating another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/delete-function-field.html
 release: australia
 product: Reporting
 classification: reporting
@@ -42,5 +43,5 @@ The deactivated function field is no longer available for use in the reports on 
 
 **Note:** When you deactivate a field, the user list preference is deleted.
 
-**Parent Topic:**[Report on function fields](../concept/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md)
 

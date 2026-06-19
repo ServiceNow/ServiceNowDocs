@@ -2,6 +2,7 @@
 title: Add block content in a document template block
 description: Add one or more block contents in a document template block and define its condition and execution order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/create-doc-template-block-content.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -103,5 +104,5 @@ Text in the block content that appears on the document generated from the associ
 
 ## What to do next
 
-[Create a legal contract template of type HTML](create-legal-contract-template-html.md).
+[Create a legal contract template of type HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/create-legal-contract-template-html.md).
 

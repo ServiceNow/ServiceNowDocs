@@ -2,6 +2,7 @@
 title: Installing Developer Sandboxes
 description: Developer Sandboxes is installed on your instance with assistance from your ServiceNow account team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dev-sbx-installing.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -17,7 +18,7 @@ Developer Sandboxes is installed on your instance with assistance from your Serv
 
 ## Requesting Developer Sandboxes installation
 
-Check your entitlements to determine whether you have access to Developer Sandboxes. For more information, see [Developer Sandboxes entitlements](dev-sbx-entitlements.md).
+Check your entitlements to determine whether you have access to Developer Sandboxes. For more information, see [Developer Sandboxes entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-entitlements.md).
 
 Developer Sandboxes is a paid feature and is enabled only after procurement is complete. To install Developer Sandboxes once you're entitled, open a case with Now Support specifying the instance name and licensed number of sandboxes.
 
@@ -48,7 +49,7 @@ Developer Sandboxes are available in packs of 10. When you buy two or more packs
 
 Developer Sandboxes does not support self-hosted instances by default, though you can set up your own networking and routing changes to support sandboxes.
 
-For more information on sandboxes and instances, see [General guidelines and use cases for Developer Sandboxes](dev-sbx-general-guidelines.md).
+For more information on sandboxes and instances, see [General guidelines and use cases for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-general-guidelines.md).
 
 ## Contact Now Support to finish installation
 

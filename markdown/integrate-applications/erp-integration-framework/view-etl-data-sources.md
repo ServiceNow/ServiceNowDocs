@@ -2,6 +2,7 @@
 title: View ERP extraction tables
 description: Work with ETL \(extract, transform, and load\) processes in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to extract large amounts of data from the ERP system. Extracted data is stored in Glide tables in the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-etl-data-sources.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -28,9 +29,9 @@ ERP extraction tables extract and save data to a transform table on the ServiceN
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP extraction tables page by selecting the extraction tables icon ![](../image/erpc-extraction-table-icon.png) in the side panel.
+2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "erpc-extraction-table-icon.png"\] Alt text: in the side panel.
 
-    ![ERP extraction tables list.](../image/erpc-extraction-tables-ys2.png)
+    \[Omitted image "erpc-extraction-tables-ys2.png"\] Alt text: ERP extraction tables list.
 
 3.  View the list of ERP extraction tables.
 
@@ -58,7 +59,7 @@ Table transform map link
 
 Table that the extracted data is cached and stored in.Select the table name to view the table on the ServiceNow AI Platform in a new browser tab.
 
-For more information on creating table transform maps, see [Create a transform map](../../../script/server-scripting/task/t_CreateATransformMap.md).
+For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ ERP model
 
 </td><td>
 
-ERP model used in the ETL extraction.Select the ERP model name to view the details. For more information, see [View and edit the foundation of ERP models](view-and-work-with-erp-data-models.md).
+ERP model used in the ETL extraction.Select the ERP model name to view the details. For more information, see [View and edit the foundation of ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md).
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ Date and time the extraction table record was last saved.
 
 ## What to do next
 
-After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](../../../administer/import-sets/reference/import-sets-landing-page.md).
+After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md).
 
-**Parent Topic:**[Extracting and transforming data in Zero Copy Connector for ERP](../concept/erp-canvas-extraction-tables.md)
+**Parent Topic:**[ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

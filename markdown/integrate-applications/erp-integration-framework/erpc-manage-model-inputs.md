@@ -2,12 +2,13 @@
 title: Manage input parameters for a Zero Copy Connector for ERP model operation
 description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the system of record from Zero Copy Connector for ERP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, input, parameter, operation, read, create, update, crud]
 breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -28,7 +29,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP model page by selecting the models icon ![](../image/erpc-data-model-icon.png) in the side panel.
+2.  Open the ERP model page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
 
 3.  Select the model with the operation that you want to add inputs to.
 
@@ -36,11 +37,11 @@ If you're already in the process of managing a model and ready to specify inputs
 
 5.  Open a model operation.
 
-    If you don't have a model operation, add one to the model. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](erpc-manage-models-read-op.md).
+    If you don't have a model operation, add one to the model. For more information, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 6.  Check that at least one entity is listed.
 
-    If you don't have an entity, add one to the operation. For more information, see [Add an entity to a model](../concept/add-an-entity-to-model.md).
+    If you don't have an entity, add one to the operation. For more information, see [Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md).
 
 7.  Select **Specify inputs**.
 
@@ -49,11 +50,11 @@ If you're already in the process of managing a model and ready to specify inputs
     -   The Operation parameters section.
     -   The Table/Functioncall section, where you define the parameters the operation uses. The Table section appears for read operations, and the Functioncall section appears for BAPI \(Business Application Programming Interface\) operations.
 
-        Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table "purchase order - v2" with the fields of a relevant target table such as "platform table purchase order." This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP semantic mapping](../reference/erp-semantic-mapping.md).
+        Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table "purchase order - v2" with the fields of a relevant target table such as "platform table purchase order." This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP semantic mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-semantic-mapping.md).
 
-        Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](erp-edit-mapped-value-name-in-model-manager.md).
+        Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md).
 
-    ![Specify inputs page with validation rules and table sections expanded.](../image/erpc-specify-inputs-manager-ys2.png)
+    \[Omitted image "erpc-specify-inputs-manager-ys2.png"\] Alt text: Specify inputs page with validation rules and table sections expanded.
 
 8.  Define whether the operation inputs are required by expanding the **Validation rules** section and selecting an option in **Query validation rule**.
 
@@ -70,7 +71,7 @@ If you're already in the process of managing a model and ready to specify inputs
 
     1.  Select **+ New input** below the last-defined parameter in the table.
 
-        ![Table expanded to show inputs and new input button highlighted.](../image/erpc-specify-input-new-input.png)
+        \[Omitted image "erpc-specify-input-new-input.png"\] Alt text: Table expanded to show inputs and new input button highlighted.
 
         **Note:** When you add an input field, the field is automatically added as a field in the output. The field is listed and is read only in the **Prepopulated outputs** section on the output page.
 
@@ -116,7 +117,7 @@ Mapping type
 
 Definition of how the parameter is sent.-   **Input** parameters have their **Mapped value** automatically populated.
 -   **Constant** defines a parameter whose value never changes, for example, to use as filter criteria. You must specify the value in the parameter's **Mapped value** field.
--   **Outer or Inner Join** \(table read operations only\) indicates that you're creating a table join. For more information, see [Add joins between ERP tables](erp-canvas-add-join-data-model.md).
+-   **Outer or Inner Join** \(table read operations only\) indicates that you're creating a table join. For more information, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
 
 </td></tr><tr><td>
@@ -125,9 +126,9 @@ Mapped value
 
 </td><td>
 
-Specific value of the parameter.-   For **Input** parameters, accept the system-generated name or edit the name. For more information about editing mapped values, see [Edit input and output mapped value name in Zero Copy Connector for ERP](erp-edit-mapped-value-name-in-model-manager.md).
+Specific value of the parameter.-   For **Input** parameters, accept the system-generated name or edit the name. For more information about editing mapped values, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md).
 -   For **Constant** parameters, enter a set value that's always sent for the parameter.
--   For **Outer or Inner Join** parameters, select the field to join the parameter with. For details on creating joins, see [Add joins between ERP tables](erp-canvas-add-join-data-model.md).
+-   For **Outer or Inner Join** parameters, select the field to join the parameter with. For details on creating joins, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
 
 </td></tr></tbody>
@@ -139,14 +140,14 @@ Specific value of the parameter.-   For **Input** parameters, accept the system-
 
     The following example shows an input with nested inputs for a BAPI.
 
-    ![Table expanded to show inputs with a nested input highlighted.](../image/erpc-specify-input-nested.png)
+    \[Omitted image "erpc-specify-input-nested.png"\] Alt text: Table expanded to show inputs with a nested input highlighted.
 
 13. Select **Save**.
 
 
 ## What to do next
 
-Next, check the output parameters for the operation and update as needed. For more information, see [Choose output parameters for a model](erp-canvas-manage-outputs.md).
+Next, check the output parameters for the operation and update as needed. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
-**Parent Topic:**[Building and managing models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

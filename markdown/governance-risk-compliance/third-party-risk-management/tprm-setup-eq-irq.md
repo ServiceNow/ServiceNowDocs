@@ -2,6 +2,7 @@
 title: Set up internal questionnaire responses to automatically attach external questionnaires to assessments
 description: Set up an internal questionnaire's responses to automatically attach questionnaires to external assessments that are based on the responses, the calculated risk tier, or both by using Third-party Risk Management. By setting up this configuration, you can help to improve your ability to respond to risk tier changes and internal questionnaire responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-setup-eq-irq.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -35,7 +36,7 @@ You can set up questionnaires to be automatically added to external assessments 
 
 3.  Select the Metric Categories related list, the category name, and then select the question from the Assessments Metrics related list that you want to configure.
 
-    For more information on the different types of questions and how to define them, see [Define a question](../../grc-vendor-risk-implementation/task/tprm-questions-create.md).
+    For more information on the different types of questions and how to define them, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
 
 4.  Add a configuration to the Questionnaires templates related list by selecting **New**.
 

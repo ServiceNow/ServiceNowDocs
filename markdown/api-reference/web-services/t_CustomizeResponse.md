@@ -2,6 +2,7 @@
 title: Customize response
 description: Follow this example to customize and control the XML payload of a SOAP response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_CustomizeResponse.html
 release: australia
 product: Web Services
 classification: web-services
@@ -21,9 +22,9 @@ Role required: web\_service\_admin or admin
 
 ## Procedure
 
-1.  Create a customized XML document using the [XMLDocument](../../../script/server-scripting/concept/c_XMLDocumentScriptObject.md) script include object.
+1.  Create a customized XML document using the [XMLDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_XMLDocumentScriptObject.md) script include object.
 
-    **Note:** When creating a scripted web service in a scoped application you must use the [XMLDocument2](../../../app-store/dev_portal/API_reference/XMLDocument2ScopedAPI/concept/c_XMLDocument2ScopedAPI.md#) API.
+    **Note:** When creating a scripted web service in a scoped application you must use the [XMLDocument2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md) API.
 
 2.  Set its document element to the variable *response.soapResponseElement* in a scripted web service.
 
@@ -77,5 +78,5 @@ Role required: web\_service\_admin or admin
     WSDL support will need to be created externally. The SOAP endpoint will need to be referred back to the scripted web service in question.
 
 
-**Parent Topic:**[Scripted SOAP web services](../concept/c_ScriptedWebServices.md)
+**Parent Topic:**[Scripted SOAP web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ScriptedWebServices.md)
 

@@ -2,6 +2,7 @@
 title: DevOps work item import for Azure Boards
 description: Azure Boards work items are mapped to default ServiceNow DevOps states and types during import. You can use the DevOpsAzureDevOpsWorkItemHelper script include to customize the mappings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-azure-work-item-import.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -277,5 +278,5 @@ DevOpsAzureDevOpsWorkItemHelper.prototype = Object.extendsObject(DevOpsAzureDevO
 });
 ```
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

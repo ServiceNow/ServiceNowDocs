@@ -2,6 +2,7 @@
 title: Creating a GeoJSON geography
 description: Create a GeoJSON geography by importing GeoJSON co-ordinates or drawing shapes directly on the map.Create a geography of type GeoJSON.Draw boundaries on the map to define your geographic areas and create GeoJSON geographies. These geographies not only give you a clear visual on the map but also used task scheduling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/creating-a-gojson-geography.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -54,7 +55,7 @@ After creating a GeoJSON geography, connect it to a territory for work order man
 
 ### What to do next
 
-Link the geography to a territory. For more information, see [Create a Field Service territory](../task/create-territories-territory-planning-console.md).
+Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
 
 ## Create a GeoJSON geography in Territory Planning console
 
@@ -78,7 +79,7 @@ Allows you to interactively draw shapes such as polygons or circles directly on 
 
     The Create New Territory page appears.
 
-3.  In the Geography field, select the New Geography for Territory icon \(![New Geography for Territory icon.](../image/EditWidgetButton.png)\) to draw a geography.
+3.  In the Geography field, select the New Geography for Territory icon \(\[Omitted image "EditWidgetButton.png"\] Alt text: New Geography for Territory icon.\) to draw a geography.
 
 4.  Select the drawing method.
 
@@ -88,8 +89,8 @@ Allows you to interactively draw shapes such as polygons or circles directly on 
 
 5.  Select the drawing tool.
 
-    -   To draw a boundary area or multiple areas, use the polygon shape icon \(![Draw a shape icon.](../image/Polygon-shape.png)\).
-    -   To define a geography with a specific radius, use the circle shape icon \(![Draw a circle icon.](../image/Circle-shape.png)\).
+    -   To draw a boundary area or multiple areas, use the polygon shape icon \(\[Omitted image "Polygon-shape.png"\] Alt text: Draw a shape icon.\).
+    -   To define a geography with a specific radius, use the circle shape icon \(\[Omitted image "Circle-shape.png"\] Alt text: Draw a circle icon.\).
 6.  In the Name field, enter the name for the geography.
 
     A GeoJSON script is automatically generated.
@@ -105,5 +106,5 @@ After creating a GeoJSON geography, connect it to a territory for work order man
 
 ### What to do next
 
-Link the geography to a territory. For more information, see [Create a Field Service territory](../task/create-territories-territory-planning-console.md).
+Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
 

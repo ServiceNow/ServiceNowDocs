@@ -2,6 +2,7 @@
 title: Enable multiple \(permission policy and boundary\) checks to ensure that the Role is privileged in AWS/Bedrock
 description: Use a system property to determine what checks are used to verify whether a role is allowed to perform a privileged operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-multiple-permission-policy-and-boundary-checks-to-ensure-that-the-role-is-privileged-in-aws-bedrock.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -87,7 +88,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -116,5 +117,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

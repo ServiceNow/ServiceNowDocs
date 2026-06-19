@@ -1,121 +1,83 @@
 ---
 title: Configure Jira user story integration
-description: Perform the following procedure to configure your Jira integration options.The following best practices are guidelines for creating Jira integration scripts.
+description: Configure the Jira user story integration to create work items in a Jira project directly from Scan Engine finding records.The following leading practices are guidelines for creating Jira integration scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/configure-jira-integration-options.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-05"
 reading_time_minutes: 2
-breadcrumb: [User story integration, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [User story integration, Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
 # Configure Jira user story integration
 
-Perform the following procedure to configure your Jira integration options.
+Configure the Jira user story integration to create work items in a Jira project directly from Scan Engine finding records.
 
 ## Before you begin
 
+Gather the following from your Jira environment:
+
+-   Jira Project Key
+-   Work item type
+-   Domain name: the subdomain of your Jira URL \(for example, `companyname` from `companyname.atlassian.net/jira`\)
+
 Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\)
-
--   To enable the integration, you will need some details from the Jira project you want to integrate with the Scan Engine. From the project settings on your Jira board, find and make note of the following information:
-    -   Project Key
-    -   Work Item type
-    -   Domain Name
-
-        **Note:** You can get the domain name from your Jira URL. For example, if your URL is `companyname.atlassian.net/jira`, then your domain name is `companyname`.
-
--   To connect with your Jira project, you will also need an API token:
-    1.  Navigate to the following URL: [https://id.atlassian.com/manage-profile/security/api-tokens](https://id.atlassian.com/manage-profile/security/api-tokens).
-    2.  Select **Create API Token**, enter a name for the token, and then select **Create**.
-    3.  Once the token is created, copy and store it.
-
-        You will need it for the ServiceNow connection process.
-
 
 ## Procedure
 
-1.  Navigate to `sys_auth_profile_basic.list`, and then select **New** to create a basic authentication record.
+1.  Generate a Jira API token
+2.  Navigate to [https://id.atlassian.com/manage-profile/security/api-tokens](https://id.atlassian.com/manage-profile/security/api-tokens).
 
-2.  Ensure that the **Name** you define starts with something easily identifiable.
+3.  Select **Create API Token**, enter a name, and copy the token.
 
-3.  Ensure that the **Username** matches the currently logged-in user’s email address.
+4.  Configure the integration
+5.  Navigate to `sys_auth_profile_basic.list` and select **New**.
 
-    **Note:** Always synchronize the email of the current logged-in user with the JIRA username for seamless integration and authentication. You will also need to create a basic auth record for each user who can create work items in Jira.
+    Create one basic auth record per user who will create Jira work items. Set **Username** to the user's Jira email address and paste the API token in **Password**.
 
-4.  Paste the token you acquired previously in the **Password** field.
+6.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
 
-5.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**, and then select the **User Story Integration** properties tab
+7.  Set **Integration Type** to `Jira` and populate the following fields: **Project key**, **Domain name**, **Work item type**.
 
-6.  Select **Jira** as the **Integration Type**.
-
-7.  Populate the following fields with the information you acquired from your Jira project:
-
-    -   **Project key**
-    -   **Domain name**
-    -   **Work item type**
-8.  Select **Update** to finalize the connection.
+8.  Select **Update**.
 
 
-## Jira integration script best practices
+**Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-story-integration-properties.md)
 
-The following best practices are guidelines for creating Jira integration scripts.
+## Jira integration script leading practices
 
--   Unlike ServiceNow integrations, the Jira integration executes the field mapping script one time per finding. Source and Destination instances do not apply with this integration.
--   The **Project key** and **Domain name** fields determine which Jira project you will be sending your payload to.
--   When building a script, use data from the finding by extracting fields from the grFinding variable.
--   You can create a description and summary to show in your Jira project. These will become core elements in your work item type. You may use other fields in the Jira project, but you will need an understanding of the Jira API to know the available fields.
--   Some general fields you can use are:
+The following leading practices are guidelines for creating Jira integration scripts.
 
-    -   summary
-    -   description
-    -   project
-    -   issuetype
-    These can be set by using this format:
+### Script variables
 
-    ```
-    payload = {
-      'fields':{ 
-       'summary': text to display in the title, 
-       'description': a description of the work item, 
-       'project': { 'key': the project key}, 
-       'issuetype': { 'name': a work item type: Epic, Story, Bug, Task, Sub-Task} 
-      } 
-    ```
+The Jira field mapping script runs on the ServiceNow instance at the time a work item is created. Use the following variables to populate Jira fields from finding data.
+
+|Variable|Description|
+|--------|-----------|
+|`payload`|The field mapping object sent to your Jira project. Set properties on this object to populate Jira fields.|
+|`grFinding`|GlideRecord of the finding. Use this to read finding data for field mapping.|
+|`workItemType`|The work item type selected for this integration.|
+|`Key`|The Jira project key configured for this integration.|
+
+### Leading practices
+
+-   **Map finding fields to Jira fields via payload**
+
+    Set properties on the `payload` object that correspond to your Jira project's field structure. Consult your Jira project configuration or the Jira REST API documentation to confirm the exact field keys expected by your project.
+
+-   **Use grFinding to pull finding context**
+
+    Access finding details using standard GlideRecord methods on `grFinding`. For example, use `grFinding.getValue('short_description')` to read the finding's short description and map it to a Jira summary field.
+
+-   **Use Key and workItemType for dynamic routing**
+
+    If your Jira environment has multiple projects or issue types, use `Key` and `workItemType` to conditionally route work items to the correct destination rather than hard-coding project keys in your script.
+
+-   **Enable ES12 mode for modern JavaScript**
+
+    To use modern JavaScript syntax, enable **ECMAScript 2021 \(ES12\) mode** in Scan Engine Properties before writing your mapping script.
 
 
-There are several predefined variables available for Azure DevOps Integrations:
-
-<table id="table_ctq_tcy_2hc"><tbody><tr><td>
-
-payload
-
-</td><td>
-
-The field mapping to populate your Jira project.
-
-</td></tr><tr><td>
-
-grFinding
-
-</td><td>
-
-The glide record of the finding that sends the request.
-
-</td></tr><tr><td>
-
-workItemType
-
-</td><td>
-
-The work item type selected for Jira integration.
-
-</td></tr><tr><td>
-
-Key
-
-</td><td>
-
-The project key created for Jira integration.
-
-</td></tr></tbody>
-</table>

@@ -2,6 +2,7 @@
 title: Cancel a purchase order line item
 description: You can cancel a purchase order line items with a status of Requested, Ordered, or Pending Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/t\_CancelAPurchaseOrderLineItem.html
 release: australia
 product: Procurement
 classification: procurement
@@ -39,5 +40,5 @@ Keep the following in mind when you cancel a purchase order line item.
 4.  Click **Cancel**.
 
 
-**Parent Topic:**[Create a purchase order](t_CreateAPurchaseOrder.md)
+**Parent Topic:**[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_CreateAPurchaseOrder.md)
 

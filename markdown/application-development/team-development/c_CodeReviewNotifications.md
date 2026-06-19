@@ -2,6 +2,7 @@
 title: Code review notifications
 description: You must enable email notifications on the instance requiring code review for that instance to send code review notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_CodeReviewNotifications.html
 release: australia
 product: Team Development
 classification: team-development

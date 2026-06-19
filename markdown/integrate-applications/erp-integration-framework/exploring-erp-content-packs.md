@@ -2,6 +2,7 @@
 title: Exploring Zero Copy Connector for ERP content packs
 description: Use Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs to view examples and create an ERP model faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-content-packs.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -25,7 +26,7 @@ Each content pack is organized around a specific business process area. Currentl
 -   Source to Settle: Procurement models covering purchase orders, purchase requisitions, and purchasing info records.
 -   Hire to Retire: Employee life cycle models covering candidates, employee profiles, job applications, job requisitions, and positions.
 
-![Infographic showing steps for using a content pack: installing from store, exploring models, cloning into scope, customizing, and building.](../image/erp-explore-content-packs-infographic.png)
+\[Omitted image "erp-explore-content-packs-infographic.png"\] Alt text: Infographic showing steps for using a content pack: installing from store, exploring models, cloning into scope, customizing, and building.
 
 ## Key benefits
 
@@ -39,7 +40,7 @@ A developer is tasked with building an application that manages sales order deli
 
 Rather than spending days researching, they install the Quote to Cash content pack. They find the DP: Sales Orders model already has Read, Update, and Create operations configured, with input and output parameters mapped to relevant SAP fields. They also find a process extension called Manage Delivery and Billing Block, that contains two sub-flows: one that reads all sales orders with delivery or billing blocks, and one that updates the blocking status for a given order.
 
-The developer clones the model into their own application scope, copies the process extension into Workflow Studio, and wires it to their application, without ever needing to know the underlying SAP field names. What might have taken weeks of research is reduced to configuration work that any developer can do.
+The developer clones the model into their own application scope, copies the process extension into Workflow Studio, and wires it to their application, without ever needing to know the underlying SAP field names. What might have taken weeks of research is reduced to configuration work.
 
-**Parent Topic:**[Exploring Zero Copy Connector for ERP](exploring-erp-integration.md)
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

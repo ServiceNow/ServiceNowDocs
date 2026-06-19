@@ -2,6 +2,7 @@
 title: Create a learning task
 description: Create learning tasks for agents to keep track of their learning activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/create-learning-task-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -86,5 +87,5 @@ Date when the agent must complete the course. Default is 5 days after the creati
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Learning in Workforce Optimization for HR](../concept/learning-wfo-hr.md)
+**Parent Topic:**[Learning in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/learning-wfo-hr.md)
 

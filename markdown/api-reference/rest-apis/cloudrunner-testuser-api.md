@@ -2,6 +2,7 @@
 title: Cloud Runner Test User REST API
 description: Manages test user jobs to be executed in a cloud runner for Automated Test Framework \(ATF\).Provides the status of the test user job for a provided Browser Orchestration Queue \(BOQ\) record.Checks whether a provided user is a valid cloud user.Inserts a test user job into the BOQ \[sn\_atf\_tg\_sn\_boq\] table for a given user name, which is then run on cloud runner.Sets the test user job status in the Browser Orchestration Queue \(BOQ\) \[sn\_atf\_tg\_sn\_boq\] table to complete.Starts an end-to-end test user job on cloud runner. If the user is able to log in with the admin role, the cloud user property defaults to this user for future test runs and test generations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/cloudrunner-testuser-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -15,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 Manages test user jobs to be executed in a cloud runner for Automated Test Framework \(ATF\).
 
-The Cloud Runner Test User API requires the [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.md) \(sn\_atf\_tg\) plugin. The methods available with this API run in the **now** namespace and can be called using API Name, **One-click regression testing for ATF**, in the REST API Explorer. The admin role is required to access this API.
+The Cloud Runner Test User API requires the  \(sn\_atf\_tg\) plugin. The methods available with this API run in the **now** namespace and can be called using API Name, **One-click regression testing for ATF**, in the REST API Explorer. The admin role is required to access this API.
 
 You can use this API for the following tasks:
 
@@ -25,11 +26,11 @@ You can use this API for the following tasks:
 -   Check the progress of the user test job.
 -   Cancel the test job.
 
-The Cloud Runner Test Runner API may be used in tandem with the [Cloud Runner Test Generation REST API](cloudrunner-testgeneration-api.md#) and [Cloud Runner Test User REST API](cloudrunner-testuser-api.md#). For instance, you can generate a test \(Cloud Runner Test Generation API\) and then get the progress of the test in the browser orchestration queue \(Cloud Runner TEST Generation API\) and check the number of tests that passed or failed.
+The Cloud Runner Test Runner API may be used in tandem with the [Cloud Runner Test Generation REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cloudrunner-testgeneration-api.md) and [Cloud Runner Test User REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cloudrunner-testuser-api.md). For instance, you can generate a test \(Cloud Runner Test Generation API\) and then get the progress of the test in the browser orchestration queue \(Cloud Runner TEST Generation API\) and check the number of tests that passed or failed.
 
-To view the Server API reference documentation of this API, see [Cloud Runner TestUserApi – Scoped, Global](../../../app-store/dev_portal/API_reference/CloudRunnerAPI-TestUserAPIScoped/concept/cloudrnr-TestUserAPI-scoped.md#).
+To view the Server API reference documentation of this API, see [Cloud Runner TestUserApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/cloudrnr-TestUserAPI-scoped.md).
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Cloud Runner Test User - GET /now/sn\_atf\_tg/test\_user\_progress
 
@@ -70,7 +71,7 @@ Table: BOQ \[sn\_atf\_tg\_sn\_boq\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -95,7 +96,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_u3v_zh3_j1c"><thead><tr><th>
 
@@ -277,7 +278,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -302,7 +303,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -401,7 +402,7 @@ Required. Username of the sys\_user to test the end-to-end infrastructure of the
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_xh4_cfj_41c" class="rest_api_request_headers"><thead><tr><th>
 
@@ -434,7 +435,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -602,7 +603,7 @@ Table: SNBOQ \[sn\_atf\_tg\_sn\_boq\]
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_m4k_dfj_41c" class="rest_api_request_headers"><thead><tr><th>
 
@@ -635,7 +636,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_u3v_zh3_j1c"><thead><tr><th>
 
@@ -765,7 +766,7 @@ Required. User name of the sys\_user to test and set the cloud user for future t
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_g43_2fj_41c" class="rest_api_request_headers"><thead><tr><th>
 
@@ -798,7 +799,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

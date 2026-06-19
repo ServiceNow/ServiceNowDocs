@@ -2,6 +2,7 @@
 title: Configure a language as reading from right to left
 description: Use the Text Direction field to configure a language that reads from right to left, such as Hebrew.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_ConfigALangAsReadingFromRToL.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -17,7 +18,7 @@ Use the Text Direction field to configure a language that reads from right to le
 
 ## Before you begin
 
-Activate the languages that your users need. For more information, see [Activate a language](t_ActivateALanguage.md).
+Activate the languages that your users need. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 Role required: admin
 

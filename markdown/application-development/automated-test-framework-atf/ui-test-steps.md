@@ -2,6 +2,7 @@
 title: UI test steps
 description: Test user interfaces by mimicking user actions and interacting with the visible components of a page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/ui-test-steps.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -17,20 +18,20 @@ Test user interfaces by mimicking user actions and interacting with the visible 
 
 ## Client test runner dependency
 
-UI test steps require an active client test runner to act directly on the visible components of a page. A tester must manually start one or more client test runners for UI testing. Test designers can schedule selecting an open client test runner from a test suite. See [Working with client test runners](atf-test-runners.md).
+UI test steps require an active client test runner to act directly on the visible components of a page. A tester must manually start one or more client test runners for UI testing. Test designers can schedule selecting an open client test runner from a test suite. See [Working with client test runners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-runners.md).
 
 ## Intelligent wait mechanism
 
 UI test steps have an intelligent wait mechanism triggered by UI changes such as clicking a component or setting a value. The wait mechanism requires the UI change to complete before the next UI test step can proceed. Test designers do not need to manually add wait mechanisms between UI test steps.
 
--   **[Custom UI test steps](custom-ui-test-steps.md)**  
+-   **[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/custom-ui-test-steps.md)**  
 Test customized user interfaces such as UI pages and UI macros by retrieving their HTML and JavaScript page components and identifying the test actions they support.
--   **[Browser recommendations for Automated Test Framework](browser-recommendations-atf.md)**  
+-   **[Browser recommendations for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/browser-recommendations-atf.md)**  
 Configure client test runner browsers to run automated tests and avoid performance degradations.
--   **[Working with client test runners](atf-test-runners.md)**  
+-   **[Working with client test runners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-runners.md)**  
 If an automated test includes steps that involve a form or any other user-interface \(UI\) element, it runs those steps in a browser tab or window called a test runner or client test runner.
--   **[Pick a browser](../task/atf-pick-a-browser.md)**  
+-   **[Pick a browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-pick-a-browser.md)**  
 If the test or test suite you are running contains steps that work with a form \(any step involving a UI\), or any other UI test step element \(such as Automated Service Catalog test steps\), work with the Pick a Browser dialog.
 
-**Parent Topic:**[Building and running automated tests with the Automated Test Framework](atf-build-overview.md)
+**Parent Topic:**[Building and running automated tests with the Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-build-overview.md)
 

@@ -2,6 +2,7 @@
 title: Perform an exposure assessment for a location
 description: Perform an exposure assessment for an exposure type for each site location in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-perform-exposure-assessment.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_hs\_rm.industrial\_hygienist or sn\_hs\_rm.exposure\_writer
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk management icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk management icon\).
 
 3.  Select the **Exposure types** list and open the exposure type to perform the assessment for.
 
@@ -39,7 +40,7 @@ Role required: sn\_hs\_rm.industrial\_hygienist or sn\_hs\_rm.exposure\_writer
 
         For example, the following image shows the measurement condition for noise exposure limits.
 
-        ![Exposure creation conditions with measurement limit set to greater than 100 and unit as dBA.](../image/hs-exposure-creation-conditions.png)
+        \[Omitted image "hs-exposure-creation-conditions.png"\] Alt text: Exposure creation conditions with measurement limit set to greater than 100 and unit as dBA.
 
         **Note:** The measurement condition will only apply when a measurement record is created in the **Measurements** tab.
 
@@ -53,17 +54,17 @@ Role required: sn\_hs\_rm.industrial\_hygienist or sn\_hs\_rm.exposure\_writer
 
         You can choose fields from the Health and Safety profile table and dot-walk fields when selecting a field in the condition builder. For example, the following image shows the conditions to identify people in the Warehouse department in Dublin who are affected by this exposure.
 
-        ![Affected people conditions showing location and dot-walked condition for user's department name](../image/hs-affected-people-conditions.png)
+        \[Omitted image "hs-affected-people-conditions.png"\] Alt text: Affected people conditions showing location and dot-walked condition for user's department name
 
 7.  In the **Action schedule** tab, set up actions for the affected people.
 
-    The action schedule creates and auto-assigns an action for each affected person when there's an active exposure for this assessment. For more information, see [Define an action schedule for affected people](hs-define-action-schedule-affected-people.md).
+    The action schedule creates and auto-assigns an action for each affected person when there's an active exposure for this assessment. For more information, see [Define an action schedule for affected people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-action-schedule-affected-people.md).
 
 8.  In the **Documents** tab, add any documents related to this assessment.
 
     -   Select **Add** to link an existing document stored in the **Health and Safety document library** list.
     -   Select **New** to upload a new document.
-    For information on storing documents in the Health and Safety Workspace, see [Add a new Health and Safety related document](../../ohs-incident-management/task/add-hs-related-document.md).
+    For information on storing documents in the Health and Safety Workspace, see [Add a new Health and Safety related document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/add-hs-related-document.md).
 
 9.  In the **Details** tab of the assessment, set the **State** as Active.
 
@@ -71,7 +72,7 @@ Role required: sn\_hs\_rm.industrial\_hygienist or sn\_hs\_rm.exposure\_writer
 
 11. In the **Measurements** tab, add the exposure measurement value and the source of the exposure.
 
-    For information on adding a measurement and creation of an exposure from it, see [Add a measurement and exposure source for an exposure assessment](hs-add-measurement-exposure-assessment.md).
+    For information on adding a measurement and creation of an exposure from it, see [Add a measurement and exposure source for an exposure assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-measurement-exposure-assessment.md).
 
 
 ## Result
@@ -83,10 +84,10 @@ Role required: sn\_hs\_rm.industrial\_hygienist or sn\_hs\_rm.exposure\_writer
 -   If an active exposure is manually added to a Health and Safety user's profile, the user is also listed in the **Affected people** tab of the exposure record.
 -   Any assigned actions appear in the affected people's **My Tasks** list in the Employee Center.
 
--   **[Define an action schedule for affected people](hs-define-action-schedule-affected-people.md)**  
+-   **[Define an action schedule for affected people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-action-schedule-affected-people.md)**  
 Define an action schedule for the people affected by an exposure. The action schedule creates an action for each affected person when there's an active exposure for an exposure assessment.
--   **[Add a measurement and exposure source for an exposure assessment](hs-add-measurement-exposure-assessment.md)**  
+-   **[Add a measurement and exposure source for an exposure assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-measurement-exposure-assessment.md)**  
 Add a measurement recorded for the exposure type when performing an exposure assessment.
 
-**Parent Topic:**[Safety exposure management](../concept/hs-safety-exposures.md)
+**Parent Topic:**[Safety exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-exposures.md)
 

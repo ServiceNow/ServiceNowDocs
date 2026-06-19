@@ -2,6 +2,7 @@
 title: Use pages across experiences
 description: Use pages created in one in experience in another without needing to rebuild the page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/use-across-pages.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -23,9 +24,9 @@ A shared page exists as a single source, any updates to that page are automatica
 
 ## Viewing shared pages in Experience View
 
-Pages that can be used across experiences display a blue icon containing two pages in UI Builder's experience view. You can select the icon to go to the **UX App Route** settings page on the platform where you can enable or disable the ability to use the page across experiences.![Reuse page across experiences](../image/use-across-exp-icon.png)
+Pages that can be used across experiences display a blue icon containing two pages in UI Builder's experience view. You can select the icon to go to the **UX App Route** settings page on the platform where you can enable or disable the ability to use the page across experiences.\[Omitted image "use-across-exp-icon.png"\] Alt text: Reuse page across experiences
 
-Reusable pages added to your experience display the name of their source experience. Select the icon next to the page title to view details about the page, access the original experience, adjust page settings, or explore linked pages.![View reusable page details by selecting the page](../image/use-across-exp-page.png)
+Reusable pages added to your experience display the name of their source experience. Select the icon next to the page title to view details about the page, access the original experience, adjust page settings, or explore linked pages.\[Omitted image "use-across-exp-page.png"\] Alt text: View reusable page details by selecting the page
 
 ## Limitations
 
@@ -33,10 +34,10 @@ When sharing a page, you must specify all the linked pages associated with it. *
 
 **Note:** Shared pages can only be configured in the ServiceNow® platform currently. However, you can view these pages while in the Experience View of UI Builder.
 
--   **[Enable pages to be used across experiences](../task/enable-use-across-exp.md#)**  
+-   **[Enable pages to be used across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/enable-use-across-exp.md)**  
 Select pages that you want to share across experiences in UI Builder.
--   **[Add shared pages to an experience](../task/add-shared-pages-to-an-experience.md)**  
+-   **[Add shared pages to an experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-shared-pages-to-an-experience.md)**  
 Add a page from another experience so that users can access shared content without duplicating pages.
 
-**Parent Topic:**[Manage UI Builder pages and page variants](work-pages.md)
+**Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)
 

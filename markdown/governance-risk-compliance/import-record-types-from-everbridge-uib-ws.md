@@ -2,6 +2,7 @@
 title: Import record types from Everbridge
 description: Import the record types for your organization ID from Everbridge and use them to create the contacts for notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/import-record-types-from-everbridge-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -30,5 +31,5 @@ Record types are information stored in Everbridge that are required to create th
     Record types for your organization ID with the category are imported from the Everbridge instance. If the record type is not imported, you may receive an error message.
 
 
-**Parent Topic:**[Setup for Everbridge notifications](../concept/setup-steps-for-emergency-notification-uib-ws.md)
+**Parent Topic:**[Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md)
 

@@ -2,6 +2,7 @@
 title: Track specific pipelines in Azure DevOps
 description: Enable and configure specific pipelines in Azure DevOps that you want to track. Select the pipelines you want to monitor and receive job notifications from Azure DevOps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/track-specific-pipeline-azure-devops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -19,7 +20,7 @@ Enable and configure specific pipelines in Azure DevOps that you want to track. 
 
 -   Connect DevOps to Azure DevOps tools.
 -   Ensure that you have modeled, configured, and associated Azure pipelines to DevOps.
--   Review how to configure form layouts. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+-   Review how to configure form layouts. For more information, see Configuring the form layout
 
 Role required: admin, personalize\_form
 
@@ -31,7 +32,7 @@ By default, the **Track Specific Pipeline** field is set to **False** when you d
 
 1.  Navigate to **All** &gt; **DevOps** &gt; **Tools** &gt; **Orchestration Tools**, and open the Azure DevOps tool record.
 
-2.  Click the **Additional Actions** icon \(![additional actions icon](../image/additional-actions-icon.png)\), and select **Configure** &gt; **Form Layout**.
+2.  Click the **Additional Actions** icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: additional actions icon\), and select **Configure** &gt; **Form Layout**.
 
 3.  Move the **Track Specific Pipeline** field to the selected list.
 
@@ -43,11 +44,11 @@ By default, the **Track Specific Pipeline** field is set to **False** when you d
 
 6.  Navigate to the Pipelines related list.
 
-7.  Click the **Update Personalized List** icon \(![Update personalized list](../image/personalize-list.png)\).
+7.  Click the **Update Personalized List** icon \(\[Omitted image "personalize-list.png"\] Alt text: Update personalized list\).
 
 8.  In the Personalize List Columns form, move the **Track** field to the Selected list.
 
-    Track Specific pipeline ![Track Specific pipelines](../image/track-specific-pipeline.png)
+    Track Specific pipeline \[Omitted image "track-specific-pipeline.png"\] Alt text: Track Specific pipelines
 
 9.  Click **OK**.
 
@@ -67,5 +68,5 @@ Only the pipelines that have **Track** field set to **true** in the Pipelines re
 -   If the **Track Specific Pipeline** check box is selected only those pipelines that have the **Track** field value set to **true** are tracked and sent to the Inbound Events table. If **Track** field is set to **false** for all pipelines none of the pipelines are tracked.
 -   If the **Track Specific Pipeline** check box is unselected, all events of the pipeline are tracked and sent to the Inbound Events table.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

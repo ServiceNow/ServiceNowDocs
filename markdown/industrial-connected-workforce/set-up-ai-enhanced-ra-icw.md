@@ -2,7 +2,10 @@
 title: Set up AI Enhanced recommended actions for Industrial Connected Workforce
 description: Set up AI Enhanced recommended actions for ICW so that you can contextualize external sources related to a deviation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/set-up-ai-enhanced-ra-icw.html
 release: australia
+product: Industrial Connected Workforce
+classification: industrial-connected-workforce
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,15 +18,15 @@ Set up AI Enhanced recommended actions for ICW so that you can contextualize ext
 
 ## Before you begin
 
-You must have Recommended Actions for ICW installed and configured. For more information, see [Recommended Actions for the Industrial Connected Workforce](../../icw-industrial-connected-workforce/concept/recommended-actions-icw.md).
+You must have Recommended Actions for ICW installed and configured. For more information, see [Recommended Actions for the Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/recommended-actions-icw.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-ext-cont-connector-mspo.md).
+1.  .
 
-2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-crawl-settings-spo-ext-cont-connector.md).
+2.  .
 
 3.  Set up the search source.
 
@@ -33,7 +36,7 @@ Role required: admin
     4.  Select **Create and link**.
     5.  In the **Indexed source** field, select **SharePoint Online**.
 
-        For more information about the additional form fields, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-source-form-ais.md).
+        For more information about the additional form fields, see .
 
     6.  Select **Submit**.
 4.  If needed, add or remove the deviation record fields that are later used to produce search results.
@@ -44,7 +47,7 @@ Role required: admin
     2.  Select the **Deviation context** record.
     3.  In the context record, select the **Rules** tab.
     4.  Select the **Deviation being active** rule.
-    5.  In the rule record next to **Fields affecting this rule**, select the **Unlock fields affecting this rule** ![](../image/unlock-affecting-fields.png) icon.
+    5.  In the rule record next to **Fields affecting this rule**, select the **Unlock fields affecting this rule** \[Omitted image "unlock-affecting-fields.png"\] Alt text: icon.
     6.  Using the Add item and Remove item icons, add or remove fields as needed.
     7.  Select **Save**.
     **Important:** Removing the predefined fields might impact the output of the contextualized document and the generated action plan.
@@ -52,7 +55,7 @@ Role required: admin
 
 ## What to do next
 
-After you set up AI Enhanced recommended actions for ICW, you can use the feature in the Digital Factory Workspace. For more information see, [Contextualize an external document for a Deviation in the Digital Factory Workspace](use-ai-enhanced-ra-icw.md).
+After you set up AI Enhanced recommended actions for ICW, you can use the feature in the Digital Factory Workspace. For more information see, [Contextualize an external document for a Deviation in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/use-ai-enhanced-ra-icw.md).
 
-**Parent Topic:**[Configure AI Enhanced recommended actions for Industrial Connected Workforce](../concept/configure-ai-enhanced-ra-icw.md)
+**Parent Topic:**[Configure AI Enhanced recommended actions for Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/configure-ai-enhanced-ra-icw.md)
 

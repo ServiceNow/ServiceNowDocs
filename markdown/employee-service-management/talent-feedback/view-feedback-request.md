@@ -2,6 +2,7 @@
 title: View feedback requests
 description: You can view and feedback requests platform under the Talent Feedback module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/view-feedback-request.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

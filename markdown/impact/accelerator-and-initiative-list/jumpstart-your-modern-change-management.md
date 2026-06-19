@@ -2,6 +2,7 @@
 title: Jumpstart Your Modern Change Management
 description: This accelerator provides a demonstration of the possibilities and capabilities of the modernized change management approach.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-modern-change-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator Overview
 
 Jumpstart Your Modern Change Management provides Impact customers with a comprehensive introduction to the capabilities of modern Change Management. It includes change models and key supporting change features — such as approval policies and data-driven risk— to help modern change management implementations. This offering also provides key resources and leading practices to get started with a modern approach to Change Management.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -56,6 +59,8 @@ Jumpstart Your Modern Change Management provides Impact customers with a compreh
 |Change Manager|The Change Manager ensures that all changes—standard, normal, and emergency—are properly assessed, approved, scheduled, implemented, and reviewed to minimize risk and service disruption while maximizing business value|✓| |
 |Service Desk Manager|Subject Matter Expert responsible for managing the Service Desk.| |✓|
 |Trusted Service Partners|Attend ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

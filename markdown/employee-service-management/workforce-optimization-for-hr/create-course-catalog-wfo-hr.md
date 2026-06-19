@@ -2,6 +2,7 @@
 title: Create a course catalog in Workforce Optimization for HR
 description: Create course catalogs and set user criteria to define user access to the course items and learning paths associated with it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/create-course-catalog-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -33,8 +34,8 @@ Role required: sn\_hr\_wfo.admin
 
 6.  Create a course catalog.
 
-    For more information, see [Create a course catalog](create-course-catalog.md).
+    For more information, see [Create a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-course-catalog.md).
 
 
-**Parent Topic:**[Learning in Workforce Optimization for HR](../concept/learning-wfo-hr.md)
+**Parent Topic:**[Learning in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/learning-wfo-hr.md)
 

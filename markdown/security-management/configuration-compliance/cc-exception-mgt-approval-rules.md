@@ -2,6 +2,7 @@
 title: Configure approval rules for Exception Management in Configuration Compliance
 description: Use the flow designer to approve exception requests for exception management, and exception rules. If you are deploying Configuration Compliance for the first time, the flow designer is enabled by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-exception-mgt-approval-rules.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -23,14 +24,14 @@ Role required: sn\_vulc.admin
 
 The value of the system property **sn\_vulc.flow\_designer\_activation** is set to true. This means that the flow designer is activated by default.
 
-**Note:** You cannot revert to using the workflow after activating the flow designer. For a detailed comparison between the workflow and flow designer, see [Exception management workflow versus flow designer in Configuration Compliance](../reference/cc-ex-mgt-flow-designer-vs-workflow.md).
+**Note:** You cannot revert to using the workflow after activating the flow designer. For a detailed comparison between the workflow and flow designer, see [Exception management workflow versus flow designer in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-ex-mgt-flow-designer-vs-workflow.md).
 
 To use the flow designer, create rules using the Approval Rules module. Using this module, you can configure approval rules for each of the following exception management workflows.
 
 -   Exception approval rules for remediation task
 -   Approval rule for auto-exception rules
 
-**Note:** You can also define conditions containing multiple levels of approval within a rule. The flow designer automatically inherits the rules created in this module and processes the matching approval workflow. For information on configuring approval levels, see [Create approval levels for Exception Management in Configuration Compliance](cc-exception-mgt-config-approval-rule.md).
+**Note:** You can also define conditions containing multiple levels of approval within a rule. The flow designer automatically inherits the rules created in this module and processes the matching approval workflow. For information on configuring approval levels, see [Create approval levels for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.md).
 
 ## Procedure
 
@@ -53,9 +54,9 @@ To use the flow designer, create rules using the Approval Rules module. Using th
 
 4.  Select **Update**.
 
-    In the Approval Configurations tab, there are two levels of approvers set up by default. You can select a rule to define the conditions based on different use cases within a rule. For more information, see [Create configurations for an approval rule in Configuration Compliance](cc-exception-mgt-approval-config.md) .
+    In the Approval Configurations tab, there are two levels of approvers set up by default. You can select a rule to define the conditions based on different use cases within a rule. For more information, see [Create configurations for an approval rule in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-exception-mgt-approval-config.md) .
 
-    **Note:** In each configuration page, you can create multiple approval levels. For more information, see [Create approval levels for Exception Management in Configuration Compliance](cc-exception-mgt-config-approval-rule.md).
+    **Note:** In each configuration page, you can create multiple approval levels. For more information, see [Create approval levels for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.md).
 
 
 ## Example

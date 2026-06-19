@@ -2,6 +2,7 @@
 title: Changes to maintenance schedules
 description: If you make and save changes to an existing maintenance schedule, any previously associated records are updated accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/planned-maintenance-family/c\_ChangesToMaintSched.html
 release: australia
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -22,5 +23,5 @@ The following examples explain the types of behavior you can expect after making
 -   If you change the **Field** value for a meter-based schedule, the records associated with the schedule have their next run values recalculated based on the new **Field** value.
 -   For Interval-based schedules, changing from one **Trigger type** to another updates the next run time based on the existing **Last Run Time** value, or from **Now** if no last run time exists.
 
-**Parent Topic:**[Configure a maintenance schedule](../task/t_DefineAMaintSched.md)
+**Parent Topic:**[Configure a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/t_DefineAMaintSched.md)
 

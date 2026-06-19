@@ -2,11 +2,12 @@
 title: AIOps 360 overview dashboard
 description: The AIOps 360 Overview dashboard offers a unified view of value and performance across IT operations, helping teams track efficiency, monitor alert handling, and assess automation outcomes. It enhances visibility into AIOps impact, supports informed decisions, and drives faster, smarter operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/aiops-360-overview-dashboard.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [AIOps Dashboards in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -26,7 +27,7 @@ Ensure that the Event Management application is installed.
 
 ## Access the AIOps 360 overview dashboard
 
-To open the dashboard, navigate to **Workspaces** &gt; **Service Operations Workspace**. From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).The AIOps configuration center page appears. On the ITOM AIOps configuration center page, under the **Optimize** &gt; **Dashboards** section, select **View AIOps 360 overview dashboard**.
+To open the dashboard, navigate to **Workspaces** &gt; **Service Operations Workspace**. From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.The AIOps configuration center page appears. On the ITOM AIOps configuration center page, under the **Optimize** &gt; **Dashboards** section, select **View AIOps 360 overview dashboard**.
 
 ## Breakdowns
 
@@ -41,7 +42,7 @@ Use filters such as **Date** and **Assignment Group** to customize the dashboard
 
 The Value overview section highlights the overall impact of AIOps on operational efficiency. It showcases how much manual effort has been reduced through automation and intelligent alert grouping. It also reflects noise reduction levels, outage history, and overall workload savings—giving a clear picture of time and cost benefits realized.
 
-![Value overview section in the AIOps 360 overview dashboard.](../image/sow-aiops-360-overview-dashboard-1.png)
+\[Omitted image "sow-aiops-360-overview-dashboard-1.png"\] Alt text: Value overview section in the AIOps 360 overview dashboard.
 
 <table id="table_qdt_2g1_mfc"><thead><tr><th>
 
@@ -111,7 +112,7 @@ Percentage effectiveness in ignoring duplicate and meaningless events. Typical c
 
 This section focuses on how effectively alerts and incidents are being handled. It includes metrics like resolution times across groups, trends in detection and response, automation usage, and the distribution of resolution ownership. It helps identify performance gaps, track improvements, and optimize response strategies across the organization.
 
-![Performance overview section in the AIOps 360 overview dashboard.](../image/sow-aiops-360-overview-dashboard-2.png)
+\[Omitted image "sow-aiops-360-overview-dashboard-2.png"\] Alt text: Performance overview section in the AIOps 360 overview dashboard.
 
 <table id="table_lfg_5g1_mfc"><thead><tr><th>
 
@@ -156,5 +157,5 @@ Closure reasons by top assignment groups, highlighting automation closures \(wit
 </td></tr></tbody>
 </table>**Note:** If you're starting with Australia, some charts, graphs, or metrics in the dashboard may appear blank or show limited data. This is expected if there's no historical data or only a few weeks or months of data available. As your system continues to collect and process alerts, the dashboard will populate with more complete insights over time.
 
-If you want to know about funnel visualization, see [Create a funnel visualization](../task/create-funnel-visualization.md).
+If you want to know about funnel visualization, see [Create a funnel visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/create-funnel-visualization.md).
 

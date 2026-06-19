@@ -2,6 +2,7 @@
 title: RecordToHTML - Global
 description: The RecordToHTML script include is a utility class to turn a record into HTML.Creates an instance of a RecordToHTML class.Sets the specified field to the specified value.Converts a RecordToHTML object to a string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_RecordToHTMLAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The RecordToHTML script include is a utility class to turn a record into HTML.
 
 This script include is available to server-side scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## RecordToHTML - RecordToHTML\(String table, String sys\_id, String pattern, Boolean link\)
 

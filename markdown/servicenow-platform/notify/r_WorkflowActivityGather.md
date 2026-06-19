@@ -2,6 +2,7 @@
 title: Input workflow activity
 description: The Input activity creates a phone menu by presenting a list of options on a Notify call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_WorkflowActivityGather.html
 release: australia
 product: Notify
 classification: notify
@@ -136,5 +137,5 @@ var selectedValue = menuItem.myCustomData; //get the custom data for the selecte
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Notify workflow activities](../concept/c_NotifyActivities.md)
+</table>**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
 

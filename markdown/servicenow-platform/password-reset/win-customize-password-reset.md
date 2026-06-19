@@ -2,11 +2,12 @@
 title: Customize the Password Reset Windows Application
 description: You can customize the appearance and other aspects of the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/win-customize-password-reset.html
 release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,7 +28,7 @@ Role required: Windows system administrator
 
 3.  Modify any of the listed string values:
 
-    **Note:** Registry keys that begin with the text `"proxy"` enable use of a proxy server. See [Configure registry keys on your proxy server](win-proxy-registry-password-reset.md).
+    **Note:** Registry keys that begin with the text `"proxy"` enable use of a proxy server. See [Configure registry keys on your proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/win-proxy-registry-password-reset.md).
 
 <table id="table_iqw_xb5_2r"><thead><tr><th>
 
@@ -151,7 +152,7 @@ Keys that configure proxy settings
 
 </td><td>
 
-Registry keys that begin with the text `"proxy"` enable use of a proxy server. See [Configure registry keys on your proxy server](win-proxy-registry-password-reset.md).
+Registry keys that begin with the text `"proxy"` enable use of a proxy server. See [Configure registry keys on your proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/win-proxy-registry-password-reset.md).
 
 </td></tr><tr><td>
 
@@ -203,5 +204,5 @@ Directory that holds the library files.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Installing and configuring Password Reset Windows Application](../concept/install-configure-password-reset-windows-app.md)
+**Parent Topic:**[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)
 

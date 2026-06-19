@@ -2,6 +2,7 @@
 title: Reference for Skills Management
 description: Validate that Skills Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/reference-for-skills-management.html
 release: australia
 product: Skills Management
 classification: skills-management

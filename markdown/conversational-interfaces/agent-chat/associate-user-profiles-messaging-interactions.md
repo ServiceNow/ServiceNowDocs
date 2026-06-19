@@ -2,6 +2,7 @@
 title: Associating user profiles on messaging interactions
 description: Use extension points to call custom scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/associate-user-profiles-messaging-interactions.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -38,5 +39,5 @@ When a requester sends a message, the system checks if there is an existing user
     |global.AgentInitiatedConversationUtil|Get From and To options to show in UI for agent initiated conversations|
 
 
-**Parent Topic:**[Configuring Agent Chat](../concept/ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

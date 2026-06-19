@@ -2,11 +2,12 @@
 title: View your health and safety status
 description: View your health and safety status page to check your progress on company requirements for returning to the workplace or visiting a site.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/view-health-safety-status.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Employee Health and Safety Status, Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -38,5 +39,5 @@ Your status page lists all the requirements that you must fulfill before you can
     **Note:** Some requirements might not have a link. If you need help completing the requirements, contact your organization.
 
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

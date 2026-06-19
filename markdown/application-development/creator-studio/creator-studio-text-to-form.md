@@ -1,7 +1,8 @@
 ---
 title: Generating forms with Now Assist
-description: Learn how the Now Assist in Creator application helps you to create forms for you in Creator Studio.
+description: Learn how Now Assist for Creator helps you to create forms for you in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-text-to-form.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -13,7 +14,7 @@ breadcrumb: [Forms in apps, Build apps, Creator Studio, Building no-code applica
 
 # Generating forms with Now Assist
 
-Learn how the Now Assist in Creator application helps you to create forms for you in Creator Studio.
+Learn how Now Assist for Creator helps you to create forms for you in Creator Studio.
 
 ## Now Assist in Creator Studio overview
 
@@ -23,9 +24,11 @@ The application uses the Now Assist for Creator skills, such as Catalog item gen
 
 **Note:** You must be assigned the now.assist.creator role to create the forms using Now Assist.
 
+Forms generated with Now Assist appear with an AI icon \[Omitted image "crs-ai-banner-logo.png"\] Alt text: in the application banner.
+
 ## Now Assist in Creator Studio benefits
 
-The benefits of using Now Assist to generate forms in Creator Studio are below:
+The benefits of using Now Assist to generate forms in Creator Studio include the following:
 
 -   Forms of your choice are created quickly with just a direction.
 -   If you provide more details about your form while writing the direction, Now Assist can generate the form specifically to meet your needs.
@@ -50,7 +53,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-**Parent Topic:**[Working with forms in Creator Studio](creator-studio-work-with-forms.md)
+**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-work-with-forms.md)
 

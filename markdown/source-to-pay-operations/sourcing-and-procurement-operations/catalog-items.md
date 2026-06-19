@@ -2,6 +2,7 @@
 title: Record producers and catalogs in the procurement workflow
 description: Record producers and catalogs ensure the accuracy and availability of the required items in the procurement workflow and standardize the request fulfillment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/catalog-items.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -33,12 +34,12 @@ Catalog and catalog items ensure the accuracy and availability of the required i
 -   Manage your category hierarchy.
 -   Associate the categories within your catalog.
 
-**Parent Topic:**[Procurement Case Management Dashboard](../concept/procurement-service-delivery-dashboard.md)
+**Parent Topic:**[Procurement Case Management Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-service-delivery-dashboard.md)
 
 **Related topics**  
 
 
-[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogCategories.md)
+[bundle-platcap.c_ServiceCatalogCategories]
 
-[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
+[bundle-platcap.c_RecordProducer]
 

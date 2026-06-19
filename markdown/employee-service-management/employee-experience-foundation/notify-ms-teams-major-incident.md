@@ -2,6 +2,7 @@
 title: Use Notify connector for Microsoft Teams with a major incident
 description: Initiate a conference call from the major incident workbench by inviting one or more users to join a call. The conference doesn't start until at least two participants join.As a participant in a major incident ticket, you can create a conference call from the record.After a conference call is initiated, as a logged-in user with the major incident manager role, you can join the conference call.Add a participant to a conference call to participate in the discussion to resolve the major incident.Mute a participant from the conference call to avoid unnecessary background disruption.As a host or participant with the major incident manager role, you can end the conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/notify-ms-teams-major-incident.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ Notify administrators, major incident managers, or communications managers can m
 
 Conference call records are stored in the Notify Conference Calls \[notify\_conference\_call\] table. Conference call participant records are stored in the Notify Conference Call Participants \[notify\_participant\] table.
 
-**Parent Topic:**[Use Notify connector for Microsoft Teams](c-agent-ex-use-nc.md)
+**Parent Topic:**[Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
 
 ## Initiate a conference call
 
@@ -70,7 +71,7 @@ Role required: notify\_admin, major\_incident\_manager, or communication\_manage
 
     -   Join via phone number: Dial in the conference bridge number along with the access code shown in the workbench from your mobile.
     -   Join Call: Click the **Join Call** to join the ongoing conference call.
-    ![Join the conference call](../image/join-conf-call-2.png)
+    \[Omitted image "join-conf-call-2.png"\] Alt text: Join the conference call
 
 
 ## Add participants to a conference call
@@ -91,7 +92,7 @@ Role required: notify\_admin, major\_incident\_manager, or communication\_manage
 
 4.  Click \(+\) Participants under **Active Participants**.
 
-    ![Add a participant to a conference call.](../image/add-participant.png)
+    \[Omitted image "add-participant.png"\] Alt text: Add a participant to a conference call.
 
 5.  In the dialog box that appears, select the participants for the conference.
 

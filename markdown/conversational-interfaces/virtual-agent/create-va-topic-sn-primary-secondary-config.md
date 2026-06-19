@@ -2,6 +2,7 @@
 title: Create a Virtual Agent Bot Interconnect shell topic to call Virtual Agent secondary topics
 description: To use ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect, you must create at least one shell topic in Bot Interconnect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-va-topic-sn-primary-secondary-config.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -42,7 +43,7 @@ There are two ways to integrate secondary Virtual Agent topics with Bot Intercon
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
 
-2.  [Create a topic](create-virtual-agent-topic.md) in your primary instance of Virtual Agent.
+2.  [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) in your primary instance of Virtual Agent.
 
     In case of NLU topics, include the secondary Virtual Agent topic names as either keywords or utterances in the corresponding Bot Interconnect intent. In case of LLM topics, the topic name and description of the Bot Interconnect topic should match the topic name and description of the secondary Virtual Agent topic.
 
@@ -98,9 +99,9 @@ If the secondary bot is configured in asynchronous mode, enter `sn_va_bot_ic.va_
 6.  Click **Publish**.
 
 
-**Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-sn-secondary-bot-with-sn-primary.md)
+**Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-sn-secondary-bot-with-sn-primary.md)
 
-**Previous topic:**[Create an auth token in the ServiceNow secondary instance](create-auth-token-sn-secondary-instance.md)
+**Previous topic:**[Create an auth token in the ServiceNow secondary instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-auth-token-sn-secondary-instance.md)
 
-**Next topic:**[Enable live agent connection on the primary instance](../concept/enable-live-agent-connection-on-the-secondary-instance.md)
+**Next topic:**[Enable live agent connection on the primary instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-live-agent-connection-on-the-secondary-instance.md)
 

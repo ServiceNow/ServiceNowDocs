@@ -2,13 +2,14 @@
 title: Create an associated ticket from an incident
 description: Create an associated ticket for another relevant department from an incident \(primary ticket\) when you realize that the issue can be resolved in that department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-associated-tickets.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Universal Request integration - Incident Management, Incident Management integrations, Reference section for Incident Management, Incident Management, IT Service Management]
+breadcrumb: [Universal Request integration - Incident Management, Incident Management integrations, Reference, Incident Management, IT Service Management]
 ---
 
 # Create an associated ticket from an incident
@@ -32,7 +33,7 @@ Role required: Ensure you have one of the following roles.
 
 3.  Click **Create Associated Ticket**.
 
-    ![Create associated ticket from incident](../image/inci-form-asso-tick.png)
+    \[Omitted image "inci-form-asso-tick.png"\] Alt text: Create associated ticket from incident
 
 4.  In the Create Associated Ticket dialog box, fill in the fields.
 
@@ -50,7 +51,7 @@ Role required: Ensure you have one of the following roles.
 
 The ticket is created for the relevant department and is associated with the universal request record. You can view the associated tickets in the Associated Tickets related list of the Universal Request form.
 
-**Note:** When an associated ticket is created, the information is copied from the fields of the universal request record to the fields of the associated ticket record. You can use the **Associated Ticket Information** and **Associated Ticket Mappings** tabs of the Mapping Configuration form for incidents. For more information, see [Mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-direct-transfer-config-form.md).
+**Note:** When an associated ticket is created, the information is copied from the fields of the universal request record to the fields of the associated ticket record. You can use the **Associated Ticket Information** and **Associated Ticket Mappings** tabs of the Mapping Configuration form for incidents. For more information, see Mapping configuration.
 
-**Parent Topic:**[Universal Request integration - Incident Management](../concept/inci-mgmt-integ-with-univ-req.md)
+**Parent Topic:**[Universal Request integration - Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/inci-mgmt-integ-with-univ-req.md)
 

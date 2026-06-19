@@ -2,6 +2,7 @@
 title: Demand workbench bubble chart
 description: The interactive bubble chart on the demand workbench is a dynamically updated graph that plots metrics for multiple demand records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/c\_DemandWorkbenchBubbleChart.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -27,15 +28,15 @@ Each bubble also includes a label with the name of the demand.
 
 From the demand workbench bubble chart, you can perform the following actions:
 
--   Hover over a bubble to [view a summary of the demand](../task/t_ViewADemandSummary.md), including the demand name and the risk, value, and size.
--   Select a bubble to open a sizing window and [change the size of the demand](../task/t_MoveAndResizeADemand.md).
+-   Hover over a bubble to [view a summary of the demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewADemandSummary.md), including the demand name and the risk, value, and size.
+-   Select a bubble to open a sizing window and [change the size of the demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_MoveAndResizeADemand.md).
 -   Select and drag a bubble to increase or decrease the risk or value of the demand.
--   Right-click a bubble to view the demand, [create an artifact](../task/t_CrtArtftDmdMnu.md), or [view an artifact](../task/t_ViewAnArtifactCreatedFromADemand.md) that has been created from a demand.
+-   Right-click a bubble to view the demand, [create an artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md), or [view an artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewAnArtifactCreatedFromADemand.md) that has been created from a demand.
 
     **Note:** If Agile Development 2.0 isn’t activated, you won’t find the options to create an enhancement or a defect
 
 
 Changes made to a demand in the bubble chart are automatically updated in the demand record.
 
-**Parent Topic:**[Demand workbench](c_DemandWorkbench.md)
+**Parent Topic:**[Demand workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/c_DemandWorkbench.md)
 

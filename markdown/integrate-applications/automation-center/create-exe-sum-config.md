@@ -2,6 +2,7 @@
 title: Configure execution summary
 description: Configure the execution summary with the appropriate conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-exe-sum-config.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -129,7 +130,7 @@ An action that triggers the flow.
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-    You’re taken to the previous page. When an execution summary configuration is created, a flow is automatically created to match the configuration. The value set for the **Trigger type** field triggers this newly created flow.![Execution summary configuration](../images/exe-sum-config.png)
+    You’re taken to the previous page. When an execution summary configuration is created, a flow is automatically created to match the configuration. The value set for the **Trigger type** field triggers this newly created flow.\[Omitted image "exe-sum-config.png"\] Alt text: Execution summary configuration
 
 6.  Select the summary configuration in the Execution Summary Configurations section.
 
@@ -142,7 +143,7 @@ An action that triggers the flow.
 
 ## What to do next
 
-[Create execution state mapping](create-exe-state-mapping.md)
+[Create execution state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-exe-state-mapping.md)
 
-**Parent Topic:**[Configuring automation summary execution](../concept/config-auto-sum-exe.md)
+**Parent Topic:**[Configuring automation summary execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-auto-sum-exe.md)
 

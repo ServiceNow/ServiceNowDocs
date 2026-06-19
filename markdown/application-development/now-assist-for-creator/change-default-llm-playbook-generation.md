@@ -2,13 +2,14 @@
 title: Change the default LLM for playbook generation
 description: Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to generate your playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/change-default-llm-playbook-generation.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Playbook generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, Playbook generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Change the default LLM for playbook generation
@@ -41,5 +42,5 @@ Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to 
 
 Your default LLM has been changed.
 
-**Parent Topic:**[Turn on the playbook generation skill](turn-on-playbook-generation-skill.md)
+**Parent Topic:**[Turn on the playbook generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-playbook-generation-skill.md)
 

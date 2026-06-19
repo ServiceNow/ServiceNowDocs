@@ -2,6 +2,7 @@
 title: CatalogClientScript - Scoped
 description: The CatalogClientScript API provides methods that enable you to create, modify, or delete catalog client script records.Creates an instance of the CatalogClientScript class.Adds a script to the catalog client script.Specifies if the catalog client script runs on a catalog item.Specifies if the catalog client script runs on a catalog task.Specifies if the catalog client script runs on a requested item.Specifies if the catalog client script runs on a requested item.Inserts the defined catalog client script in the catalog\_script\_client table.Deletes the defined catalog client script.Defines attribute values for the catalog client script.Associates a catalog item with the catalog client script.Runs the catalog client script when a variable value is updated.Associates a variable set with the catalog client script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CatalogClientScriptScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CatalogClientScript API provides methods that enable you to create, modify, 
 
 To use this class in a scoped application, use the `sn_sc` namespace identifier. The Service Catalog Scoped API plugin \(ID: com.glideapp.servicecatalog.scoped.api\) that is enabled by default is required to access the CatalogClientScript API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CatalogClientScript - CatalogClientScript\(\)
 

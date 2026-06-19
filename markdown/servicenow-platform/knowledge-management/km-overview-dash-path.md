@@ -2,6 +2,7 @@
 title: Update the navigation path for the Knowledge Management Overview dashboard
 description: Update the navigation path to access the Knowledge Management Overview dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/km-overview-dash-path.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

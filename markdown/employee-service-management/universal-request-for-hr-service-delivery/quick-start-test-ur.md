@@ -2,6 +2,7 @@
 title: Quick start tests for Universal Request
 description: Validate that Universal Request still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/quick-start-test-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -69,5 +70,5 @@ Verifies a catalog request for any item from self-service can be created when Un
 San Diego
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Request](../../../product/universal-request/concept/ur-landing-limitedaccess.md)
+</table>**Parent Topic:**[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.md)
 

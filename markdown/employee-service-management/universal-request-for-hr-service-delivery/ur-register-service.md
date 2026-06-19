@@ -2,6 +2,7 @@
 title: Create your service for Universal Request
 description: Register your service name for your service specific table and associate it with a service set \(department\) to use the Universal Request capabilities for a specific service in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-register-service.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -40,5 +41,5 @@ Service categorizes the application according to the area of the work within the
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

@@ -2,6 +2,7 @@
 title: Installed with Compliance
 description: These components are installed with the Certification Core plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r\_InstalledWithCompliance.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -120,7 +121,7 @@ Contains a certification filter, including the table that contains the records t
 </td></tr></tbody>
 </table>## User roles
 
-The certification role is automatically assigned to all users with the itil role when the [Certification Core plugin](../concept/c_ActivatingCompliance.md) is activated or when compliance applications are upgraded. Certification core installs two business rules, both called **Add Certification Role To Manager**, that perform similar tasks on different tables. One rule checks for a manager specified on the User \[sys\_user\] table, and the other checks for the certification role on the User Role \[sys\_user\_has\_role\] table. When both a manager and the certification role are specified for a user, the system automatically grants the certification role to the manager. This functionality ensures that a certification task can be escalated successfully to the next level. The system grants this automatic role to the user's immediate manager only and not to others up the management chain.
+The certification role is automatically assigned to all users with the itil role when the [Certification Core plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ActivatingCompliance.md) is activated or when compliance applications are upgraded. Certification core installs two business rules, both called **Add Certification Role To Manager**, that perform similar tasks on different tables. One rule checks for a manager specified on the User \[sys\_user\] table, and the other checks for the certification role on the User Role \[sys\_user\_has\_role\] table. When both a manager and the certification role are specified for a user, the system automatically grants the certification role to the manager. This functionality ensures that a certification task can be escalated successfully to the next level. The system grants this automatic role to the user's immediate manager only and not to others up the management chain.
 
 **Note:** When a manager has only the certification role and no other role, the manager is considered a Requester and is not counted as a subscribed user \(Fulfiller\).
 

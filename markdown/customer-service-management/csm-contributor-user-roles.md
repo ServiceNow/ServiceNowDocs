@@ -2,7 +2,10 @@
 title: Contributor user roles
 description: The contributor user data model includes several roles that control access to cases, case tasks, and related information, assigned to users based on business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-contributor-user-roles.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3

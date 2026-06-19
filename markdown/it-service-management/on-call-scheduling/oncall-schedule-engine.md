@@ -2,11 +2,12 @@
 title: On-Call Scheduling new schedule engine
 description: Introducing the new On-call schedule engine with enhanced capabilities and user experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/oncall-schedule-engine.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Exploring On-Call Scheduling, On-Call Scheduling, IT Service Management]
 ---
@@ -28,5 +29,5 @@ The new On-call schedule engine is more efficient with the following enhanced fe
 -   For existing shifts, you can go to the shift record page and manually migrate using the **Migrate Now** option.
 -   To migrate all the existing shifts in bulk, run **On-Call Upgrade shifts to 2024 schedule engine** schedule job.
 
-**Parent Topic:**[Exploring On-Call Scheduling](exploring-on-call-scheduling.md)
+**Parent Topic:**[Exploring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/exploring-on-call-scheduling.md)
 

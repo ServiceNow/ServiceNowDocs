@@ -2,6 +2,7 @@
 title: NotifyJsTelephonyDriver - Global
 description: The NotifyJsTelephonyDriver API provides methods that you can use to obtain information about the capabilities of the associated telephony driver.Calls a specified telephone number.Returns a list of the capabilities of the telephony driver.Returns the maximum number of telephone numbers to which the telephony driver associated with the passed in Notify telephone number can send an SMS message to at one time.Returns the Notify phone number record for the specified phone number.Returns a list of all Notify telephone numbers associated with the current telephony driver.Checks whether the current telephony driver is active.Removes the specified caller from the current Notify conference call.Mutes the specified caller in the current Notify conference call.Sends the specified Short Message Service \(SMS\) message to the specified list of telephone numbers.Sends a specified Short Message Service \(SMS\) message to a specified telephone number.Checks whether the specified Notify telephone number is capable of handling autonomous bulk Short Message Service \(SMS\) messages.Checks whether the current telephony driver is capable of handling telephone calls.Checks whether the specified Notify telephone number is capable of calls to a browser using WebRTC \(Real-Time Communications.\)Checks whether the current telephony driver is capable of handling Short Message Service \(SMS\) messages.Unmutes the specified caller in the current Notify conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/NotifyJsTelephonyDriverAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -39,11 +40,11 @@ function getDriverDetails(notifyNumber) {
 
 To see which drivers are associated with the NotifyJsTelephonyDriver extension point, navigate to **System Extension Points**&gt;**global.NotifyJsTelephonyDriver**. All associated driver implementations appear in the **Implementations** tab.
 
-For additional information on scripted extension points, see [Using extension points to extend application functionality point](../../../../../build/applications/concept/extension-points.md).
+For additional information on scripted extension points, see [Using extension points to extend application functionality point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 To use this API you must activate the Notify \(com.snc.notify\) plugin. To activate specific driver implementations, such as Twillo, you must activate their specific plugin.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## NotifyJsTelephonyDriver - call\(Object notifyPhoneNumber, String phoneNumber\)
 
@@ -67,7 +68,7 @@ notifyPhoneNumber
 
 </td><td>
 
-[NotifyPhoneNumber - Global](../../NotifyPhoneNumber/concept/c_NotifyPhoneNumberAPI.md#)
+[NotifyPhoneNumber - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_NotifyPhoneNumberAPI.md)
 
 </td><td>
 
@@ -266,7 +267,7 @@ Removes the specified caller from the current Notify conference call.
 
 |Name|Type|Description|
 |----|----|-----------|
-|participantRecord|[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)|GlideRecord object containing the Notify Participant \[notify\_participant\] record of the caller to remove from the conference call.|
+|participantRecord|[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)|GlideRecord object containing the Notify Participant \[notify\_participant\] record of the caller to remove from the conference call.|
 
 |Type|Description|
 |----|-----------|
@@ -298,7 +299,7 @@ Mutes the specified caller in the current Notify conference call.
 
 |Name|Type|Description|
 |----|----|-----------|
-|participantRecord|[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)|GlideRecord object containing the Notify Participant \[notify\_participant\] record of the caller to mute in the conference call.|
+|participantRecord|[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)|GlideRecord object containing the Notify Participant \[notify\_participant\] record of the caller to mute in the conference call.|
 
 |Type|Description|
 |----|-----------|
@@ -360,7 +361,7 @@ notifyPhoneNumber
 
 </td><td>
 
-[NotifyPhoneNumber - Global](../../NotifyPhoneNumber/concept/c_NotifyPhoneNumberAPI.md#)
+[NotifyPhoneNumber - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_NotifyPhoneNumberAPI.md)
 
 </td><td>
 
@@ -372,7 +373,7 @@ source
 
 </td><td>
 
-[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)
+[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 
@@ -433,7 +434,7 @@ notifyPhoneNumber
 
 </td><td>
 
-[NotifyPhoneNumber - Global](../../NotifyPhoneNumber/concept/c_NotifyPhoneNumberAPI.md#)
+[NotifyPhoneNumber - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_NotifyPhoneNumberAPI.md)
 
 </td><td>
 
@@ -666,7 +667,7 @@ Unmutes the specified caller in the current Notify conference call.
 
 |Name|Type|Description|
 |----|----|-----------|
-|participantRecord|[GlideRecord - Global](../../GlideRecord/concept/c_GlideRecordAPI.md#)|GlideRecord object containing the Notify Participant \[notify\_participant\] record of the caller to mute in the conference call.|
+|participantRecord|[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)|GlideRecord object containing the Notify Participant \[notify\_participant\] record of the caller to mute in the conference call.|
 
 |Type|Description|
 |----|-----------|

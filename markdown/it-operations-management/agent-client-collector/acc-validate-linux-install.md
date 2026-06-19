@@ -2,6 +2,7 @@
 title: Validate Linux installation
 description: After installing the Agent Client Collector on a Linux system, validate the installation by ensuring it was completed properly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-validate-linux-install.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,7 +18,7 @@ After installing the Agent Client Collector on a Linux system, validate the inst
 
 ## Before you begin
 
-Install the Agent Client Collector on a Linux system \(see [Install Agent Client Collector on a Linux system](install-acc-linux.md)\).
+Install the Agent Client Collector on a Linux system \(see [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/install-acc-linux.md)\).
 
 Role required: agent\_client\_collector\_admin
 
@@ -70,8 +71,8 @@ Role required: agent\_client\_collector\_admin
 
     The indicated agent ID appears on the Agents page in an instance \(**All** &gt; **Agent Client Collector** &gt; **Agents**\) with **Status = Up** and **Host data collection = Collected** \(both appearing in green\).
 
-    ![Linux agents Up status](../image/acc-linux-agents-up.png "Linux agents - green status")
+    \[Omitted image "acc-linux-agents-up.png"\] Alt text: Linux agents Up status
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

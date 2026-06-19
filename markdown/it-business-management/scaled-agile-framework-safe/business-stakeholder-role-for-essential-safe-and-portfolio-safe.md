@@ -2,6 +2,7 @@
 title: Business stakeholder role for Essential SAFe and Portfolio SAFe
 description: Use the business stakeholder role to read and retrieve data from any table of the Essential SAFe and Portfolio SAFe applications to generate reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/business-stakeholder-role-for-essential-safe-and-portfolio-safe.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -17,7 +18,7 @@ Use the business stakeholder role to read and retrieve data from any table of th
 
 **Important:**
 
-Starting with the Xanadu release, the plugins Portfolio SAFe, Essential SAFe, Performance Analytics Content Pack for Essential SAFe, Work Progress Status for SAFe, Agile - Scaled Agile Framework - Unified Backlog, and Read only roles for SAFe are being prepared for future deprecation. These plugins will be hidden and can no longer be activated on new instances but will continue to be supported. [Enterprise Agile Planning in Strategic Planning](../../spw-eap/concept/eap-landing.md) provides the latest experience for this functionality.
+Starting with the Xanadu release, the plugins Portfolio SAFe, Essential SAFe, Performance Analytics Content Pack for Essential SAFe, Work Progress Status for SAFe, Agile - Scaled Agile Framework - Unified Backlog, and Read only roles for SAFe are being prepared for future deprecation. These plugins will be hidden and can no longer be activated on new instances but will continue to be supported. [Enterprise Agile Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-landing.md) provides the latest experience for this functionality.
 
 For more information on the deprecation process and its impact, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 

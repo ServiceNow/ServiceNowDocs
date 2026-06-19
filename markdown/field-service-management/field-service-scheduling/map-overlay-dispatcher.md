@@ -2,6 +2,7 @@
 title: Show map overlays in Dispatcher Workspace
 description: View real‑time traffic and other map overlays in Dispatcher Workspace to assess conditions that may affect technician travel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/map-overlay-dispatcher.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -29,15 +30,15 @@ Role required: wm\_dispatcher
 
 4.  Choose from the following options.
 
-<table id="choicetable_rtg_3ss_mhc"><thead><tr><th align="left" id="d36140e104">
+<table id="choicetable_rtg_3ss_mhc"><thead><tr><th align="left" id="d35839e104">
 
 Option
 
-</th><th align="left" id="d36140e107">
+</th><th align="left" id="d35839e107">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d36140e113">
+</th></tr></thead><tbody><tr><td id="d35839e113">
 
 **Traffic**
 
@@ -45,7 +46,7 @@ Result
 
 Displays real‑time traffic conditions on the map.
 
-</td></tr><tr><td id="d36140e122">
+</td></tr><tr><td id="d35839e122">
 
 **Agent markers**
 
@@ -53,7 +54,7 @@ Displays real‑time traffic conditions on the map.
 
 Displays agent locations on the map.
 
-</td></tr><tr><td id="d36140e131">
+</td></tr><tr><td id="d35839e131">
 
 **Task markers**
 
@@ -61,7 +62,7 @@ Displays agent locations on the map.
 
 Displays task locations on the map.
 
-</td></tr><tr><td id="d36140e140">
+</td></tr><tr><td id="d35839e140">
 
 **Event markers**
 
@@ -70,6 +71,6 @@ Displays task locations on the map.
 Displays event locations on the map.**Note:** Event markers are only available if Workforce Optimization for Field Service is enabled.
 
 </td></tr></tbody>
-</table>    ![map overlay options](../image/map-overlay.png)
+</table>    \[Omitted image "map-overlay.png"\] Alt text: map overlay options
 
 

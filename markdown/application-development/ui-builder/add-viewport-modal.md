@@ -2,6 +2,7 @@
 title: Add a viewport modal to your experience
 description: Add a viewport within a modal in your experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-viewport-modal.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -31,11 +32,11 @@ Use viewport modals to embed subpages or other experiences within a modal in you
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information.
 
 3.  Open or create a page.
 
-    If you open an existing page, ensure you are in the same scope as the original page. If not, change the scope before you start editing the page. Application scoping protects applications by identifying and restricting access to application files and data. Administrators set the scope to specify what parts of an application are accessible to other applications. Application scope protects data and application files. See [Learn about security and roles](security-roles.md) for more information on application scope.
+    If you open an existing page, ensure you are in the same scope as the original page. If not, change the scope before you start editing the page. Application scoping protects applications by identifying and restricting access to application files and data. Administrators set the scope to specify what parts of an application are accessible to other applications. Application scope protects data and application files. See [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/security-roles.md) for more information on application scope.
 
 4.  Select **+ Add content** in the content tree.
 
@@ -45,7 +46,7 @@ Use viewport modals to embed subpages or other experiences within a modal in you
 
 7.  Select **Viewport Modal** in the list.
 
-    ![Pointer selecting the viewport modal in the modal list.](../image/viewport-modal-add.png "Viewport Modal")
+    \[Omitted image "viewport-modal-add.png"\] Alt text: Pointer selecting the viewport modal in the modal list.
 
     A viewport model appears above your page.
 
@@ -53,17 +54,17 @@ Use viewport modals to embed subpages or other experiences within a modal in you
 
 9.  Select the viewport in the content tree.
 
-    ![Arrow pointing at the viewport added in the previous step.](../image/viewport-modal-select.png)
+    \[Omitted image "viewport-modal-select.png"\] Alt text: Arrow pointing at the viewport added in the previous step.
 
 10. Select **+ Add** next to **Page collections** in the configure tab.
 
-    ![Arrow pointing to + Add in the Configure panel](../image/viewport-modal-edit-content.png)
+    \[Omitted image "viewport-modal-edit-content.png"\] Alt text: Arrow pointing to + Add in the Configure panel
 
 11. Select a page collection or create a new one.
 
-    For more information, see [Create a page collection across multiple UI pages](create-page-collection.md).
+    For more information, see [Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page-collection.md).
 
-    ![Page collection selection screen with option to create a collection.](../image/page-collection-list.png)
+    \[Omitted image "page-collection-list.png"\] Alt text: Page collection selection screen with option to create a collection.
 
 12. Click **Add**.
 
@@ -73,13 +74,13 @@ Use viewport modals to embed subpages or other experiences within a modal in you
 
     The following example uses a button to open the viewport modal.
 
-    ![Arrow pointing to a button component used to open a viewport modal.](../image/viewport-modal-button.png)
+    \[Omitted image "viewport-modal-button.png"\] Alt text: Arrow pointing to a button component used to open a viewport modal.
 
 15. Select the **Events** tab.
 
 16. Select **+ Add event handler**.
 
-    ![Arrow pointing to + Add event handler in the events tab of a button component.](../image/button-add-event-handler.png)
+    \[Omitted image "button-add-event-handler.png"\] Alt text: Arrow pointing to + Add event handler in the events tab of a button component.
 
 17. Select **Open or close modal dialog**.
 
@@ -87,7 +88,7 @@ Use viewport modals to embed subpages or other experiences within a modal in you
 
 19. Select the viewport modal that you created in the **Modal** dropdown.
 
-    ![Configure the event handler for your viewport modal.](../image/viewport-modal-open-dialog.png)
+    \[Omitted image "viewport-modal-open-dialog.png"\] Alt text: Configure the event handler for your viewport modal.
 
     The **Viewport ID** auto populates.
 
@@ -95,8 +96,8 @@ Use viewport modals to embed subpages or other experiences within a modal in you
 
 21. Select **Save**.
 
-22. View and test your page by selecting ![Preview button that opens the page variant.](../image/preview-button.png).
+22. View and test your page by selecting \[Omitted image "preview-button.png"\] Alt text: Preview button that opens the page variant..
 
 
-**Parent Topic:**[Extend your UI experience with viewport components](../concept/viewports-overview.md)
+**Parent Topic:**[Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/viewports-overview.md)
 

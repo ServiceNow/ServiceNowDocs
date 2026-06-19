@@ -2,6 +2,7 @@
 title: Agent Client Collector architecture
 description: The Agent Client Collector is a ServiceNow agent installed on your Windows, Linux, and macOS devices to monitor your company’s infrastructure and installed applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-concept.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -40,7 +41,7 @@ The results from the checks are stored in the ServiceNow instance:
 
 This data can be leveraged for monitoring, alerting, and reporting. Integration ensures real-time visibility into the health of your infrastructure and applications, while also enabling proactive issue detection and remediation.
 
-![Agent client collector configuration flow](../image/ACC-Configuration-Flow-New.png)
+\[Omitted image "ACC-Configuration-Flow-New.png"\] Alt text: Agent client collector configuration flow
 
 1.  Define a monitoring policy in the ServiceNow instance.
 2.  The MID Server fetches the check instances from the instance and passes them to the agent.

@@ -2,6 +2,7 @@
 title: Check Point Next Generation Threat Prevention integration
 description: This document describes the steps required to integrate Check Point Next Generation Threat Prevention \(NGTP\) capabilities with ServiceNow Security Incident Response \(SIR\) so that applications function properly together.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/check-point-ng-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -34,7 +35,7 @@ The integration includes the following features:
 
 Below is the high-level architecture diagram depicting the components involved and integration points between NOW Platform and Check Point Systems.
 
-![Integration architecture](../image/integration-architecture.png)
+\[Omitted image "integration-architecture.png"\] Alt text: Integration architecture
 
 **Note:** The Check Point Systems logo, Anti-Virus Blade image, and Anti Bot Blade image are from Check Point Systems ©. They are the Property of Check Point Systems.
 
@@ -59,7 +60,7 @@ This integration requires the Custom Intelligence Feed of Check Point and Anti-B
 
 After installing the hot fix, ensure that below commands are accessible on Check Point Gateway. SSH to the Gateway and login to expert mode.
 
-![Commands available on the Check Point Gateway](../image/check-point-gateway-code.png)
+\[Omitted image "check-point-gateway-code.png"\] Alt text: Commands available on the Check Point Gateway
 
 ## Supported ServiceNow versions
 
@@ -81,5 +82,5 @@ The following ServiceNow roles are required.
 -   Security incident administrator \(sn\_si.admin\) for creating Block Lists in ServiceNow and approving requests for adding and deactivating Blocklist Entries.
 -   Security analyst \(also referred to here as a SOC Analyst, sn\_si.analyst\) for creating and maintaining Block List Entry records.
 
-For more information on assigning the security analyst role, on the [ServiceNow documentation website](https://servicenow.com/docs), navigate to Security operations&gt;Security Incident Response&gt; Assigning security analysts.
+For more information on assigning the security analyst role, on the [ServiceNow documentation website](https://www.servicenow.com/docs), navigate to Security operations&gt;Security Incident Response&gt; Assigning security analysts.
 

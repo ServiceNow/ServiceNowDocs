@@ -2,11 +2,12 @@
 title: Create time cards and log time through Time Sheet Portal
 description: After you create time cards in Time Sheet Portal, log time in the time cards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/create-timecards-through-worker-portal.html
 release: australia
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Time Sheet Portal, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -17,7 +18,7 @@ After you create time cards in Time Sheet Portal, log time in the time cards.
 
 ## Before you begin
 
--   Time sheet portal supports [resource assignments created using Project Workspace](../../../product/pw-resource-management/task/create-resource-assignment-prj-wksp.md). Once the time cards are approved, Project Managers can view the planned vs actual hours for an assignment in Project Workspace and Resource Management Workspace heatmap view.
+-   Time sheet portal supports [resource assignments created using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md). Once the time cards are approved, Project Managers can view the planned vs actual hours for an assignment in Project Workspace and Resource Management Workspace heatmap view.
 -   Role required: timecard\_user
 
 ## Procedure
@@ -26,37 +27,37 @@ After you create time cards in Time Sheet Portal, log time in the time cards.
 
 2.  Create time cards in the **Logged Time Cards** section using any of the following options.
 
-<table id="choicetable_uks_jpt_vz"><thead><tr><th align="left" id="d313539e122">
+<table id="choicetable_uks_jpt_vz"><thead><tr><th align="left" id="d59137e122">
 
 Option
 
-</th><th align="left" id="d313539e125">
+</th><th align="left" id="d59137e125">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d313539e131">
+</th></tr></thead><tbody><tr><td id="d59137e131">
 
 **Generate time cards for assigned projects or project tasks**
 
 </td><td>
 
-1.  Click ![Down arrow](../image/downarrowworkerportal.png) choice list next to **Submit**.
+1.  Click \[Omitted image "downarrowworkerportal.png"\] Alt text: Down arrow choice list next to **Submit**.
 2.  Select **Generate Time Cards**. The option also appears in the **Logged Time Cards** section when a user has no time cards for the selected week.
 
 **Note:**
 
     -   If a time card exists for a project task during the selected week, a duplicate time card is not created.
     -   Time cards are generated only for those project tasks that are in progress or planned for the selected week.
-    -   The **Allow time card reporting on** field on the [project form](../../../product/project-management/task/t_CreateAProject.md) determines the level at which the time cards are created for project tasks.
+    -   The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md) determines the level at which the time cards are created for project tasks.
 
 
-</td></tr><tr><td id="d313539e189">
+</td></tr><tr><td id="d59137e189">
 
 **__Copy time cards from a previous time sheet__**
 
 </td><td>
 
-1.  Click ![Down arrow](../image/downarrowworkerportal.png) choice list next to **Submit**.
+1.  Click \[Omitted image "downarrowworkerportal.png"\] Alt text: Down arrow choice list next to **Submit**.
 2.  Select **Copy from previous Time Sheet**. The option also appears in the **Logged Time Cards** section when a user has no time cards for the selected week.
 
 **Note:**
@@ -65,7 +66,7 @@ Steps
     -   Time cards for all the non-task categories, such as meetings and trainings, are copied from the selected time sheet. If a time card for a non-task category exists, a duplicate time card is created while copying.
 
 
-</td></tr><tr><td id="d313539e234">
+</td></tr><tr><td id="d59137e234">
 
 **Create a time card from the Tasks, Group Tasks, or Other tab**
 
@@ -76,7 +77,7 @@ Steps
 
 **Note:** **Add to Time Sheet** creates a time card with the default rate type of the user, if it exists.
 
-</td></tr><tr><td id="d313539e268">
+</td></tr><tr><td id="d59137e268">
 
 **Create multiple time cards from the Tasks tab**
 
@@ -86,7 +87,7 @@ Steps
 2.  Click **Add selected to Time Sheet**.
 
 
-</td></tr><tr><td id="d313539e293">
+</td></tr><tr><td id="d59137e293">
 
 **Create a time card for unassigned task**
 
@@ -103,15 +104,15 @@ Steps
 
 3.  In the **Logged Time Cards** section, log time in a time card.
 
-<table id="choicetable_ixh_s1h_d1b"><thead><tr><th align="left" id="d313539e372">
+<table id="choicetable_ixh_s1h_d1b"><thead><tr><th align="left" id="d59137e372">
 
 Option
 
-</th><th align="left" id="d313539e375">
+</th><th align="left" id="d59137e375">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d313539e381">
+</th></tr></thead><tbody><tr><td id="d59137e381">
 
 **Through inline editing**
 
@@ -121,19 +122,19 @@ Steps
 2.  Edit the values as required.
 
 
-</td></tr><tr><td id="d313539e402">
+</td></tr><tr><td id="d59137e402">
 
 **Through time card form**
 
 </td><td>
 
-1.  Point to a row and click the more actions icon ![More actions icon](../../../product/project-portfolio-suite-with-financials/image/MoreActionsIcon.png).
+1.  Point to a row and click the more actions icon \[Omitted image "MoreActionsIcon.png"\] Alt text: More actions icon.
 2.  To open the Time Card form, click **Open Form View**.
 3.  Enter hours on the time card form.
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d313539e438">
+</td></tr><tr><td id="d59137e438">
 
 **Add notes to time cards**
 
@@ -160,5 +161,5 @@ If you encounter issues with time card creation or time logging, try the followi
 
 For issues you cannot resolve, contact your system administrator or the user with the timecard\_admin role in your organization.
 
-**Parent Topic:**[Time Sheet Portal](../concept/worker-portal.md)
+**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/worker-portal.md)
 

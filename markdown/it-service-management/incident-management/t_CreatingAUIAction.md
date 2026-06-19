@@ -2,6 +2,7 @@
 title: Create a UI action to close multiple incidents
 description: Create a UI action to close multiple incidents at once from the Actions list in the list view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_CreatingAUIAction.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -199,5 +200,5 @@ Closing an incident from **Actions** list adds the same close note to all the in
 
 Service desk agents can close multiple incidents using **Close incidents** in the **Actions** list below the Incident list.
 
-**Parent Topic:**[Incident resolution and closure](../concept/c_IncidentResolutionAndRecovery.md)
+**Parent Topic:**[Incident resolution and closure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/c_IncidentResolutionAndRecovery.md)
 

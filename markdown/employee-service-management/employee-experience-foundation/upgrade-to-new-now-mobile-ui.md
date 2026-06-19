@@ -2,6 +2,7 @@
 title: Upgrade search redirection to the new Now Mobile profile page
 description: Upgrade to the new Now Mobile profile page for an enhanced user-navigational experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/upgrade-to-new-now-mobile-ui.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -46,5 +47,5 @@ Update the function instance manually to redirect ServiceNow® AI Search to the 
 
 The search redirection takes you to the new Now Mobile profile page.
 
-**Parent Topic:**[Employee profile for Now Mobile](../concept/my-team-widget-for-portal-and-mobile.md)
+**Parent Topic:**[Employee profile for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/my-team-widget-for-portal-and-mobile.md)
 

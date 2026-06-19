@@ -2,6 +2,7 @@
 title: Data archiving rules for DevOps tables
 description: Base system table archiving rules ensure that DevOps data stored in the Configuration Management Database \(CMDB\) are systematically archived and purged.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/archive-devops-tables-data.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -17,16 +18,16 @@ Base system table archiving rules ensure that DevOps data stored in the Configur
 
 ## Archiving rules for DevOps data in CMDB tables
 
-Data archiving involves managing table size growth and archiving old data. It moves data that is no longer needed every day from primary tables to a set of archive tables. For more information, see [Data archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ArchiveData.md). Base-system archive rules are configured to auto-archive DevOps tables that are older than a specified period. An archive table is created for any table that has an archive rule associated with it. You can also choose to restore data from archive tables.
+Data archiving involves managing table size growth and archiving old data. It moves data that is no longer needed every day from primary tables to a set of archive tables. For more information, see Data archiving. Base-system archive rules are configured to auto-archive DevOps tables that are older than a specified period. An archive table is created for any table that has an archive rule associated with it. You can also choose to restore data from archive tables.
 
-**Note:** While you can restore any record from the archive tables. Once archived data is restored, the same data is no longer auto-archived. For more information, see [Managing archived data in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-archived-data.md).
+**Note:** While you can restore any record from the archive tables. Once archived data is restored, the same data is no longer auto-archived. For more information, see .
 
 -   Navigate to **System Archiving** &gt; **Archive Rules** and select the individual archive rule whose data you restored.
 -   Enable the **Auto rearchive** check box, to resume auto-archiving for that archive rule.
 
 ## Modify base system value for archive rules
 
-You can configure the auto archive duration for all the archive rules that are applicable to DevOps tables from the **Auto archive \(in months\)** DevOps system property. By default, this property's value is set to 9 \(months\). Navigate to **DevOps** &gt; **Administration** &gt; **Properties** &gt; **Auto archive \(in months\)**, to modify the value. For more information on configuring data archiving, see [Create an archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md)
+You can configure the auto archive duration for all the archive rules that are applicable to DevOps tables from the **Auto archive \(in months\)** DevOps system property. By default, this property's value is set to 9 \(months\). Navigate to **DevOps** &gt; **Administration** &gt; **Properties** &gt; **Auto archive \(in months\)**, to modify the value. For more information on configuring data archiving, see Create an archive rule
 
 The following list indicates the tables that are auto-archived.
 
@@ -64,7 +65,7 @@ The data archiving rules feature considers and honors parent rules before indivi
 
 ## Base system destroy rules for DevOps data
 
-Base-system destroy rules are also enabled and activated on all the archived DevOps tables. By default, data is deleted from an archived table after 36 months or 1095 days have passed from the time the data is stored in the archive table. For more information, see [Create a destroy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
+Base-system destroy rules are also enabled and activated on all the archived DevOps tables. By default, data is deleted from an archived table after 36 months or 1095 days have passed from the time the data is stored in the archive table. For more information, see Create a destroy rule.
 
-**Parent Topic:**[Managing DevOps Change Velocity](using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

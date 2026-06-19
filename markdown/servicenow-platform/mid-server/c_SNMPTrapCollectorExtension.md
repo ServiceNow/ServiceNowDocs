@@ -2,6 +2,7 @@
 title: SNMP trap collector extension
 description: The SNMP trap collector is a MID Server extension that listens for SNMP traps from the devices on your network.For the SNMP trap collector extension to receive traps from network devices, each device must designate the MID Server that runs the SNMP trap collector extension as a recipient of the trap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/c\_SNMPTrapCollectorExtension.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -26,6 +27,13 @@ For the SNMP trap collector extension to receive traps from network devices, eac
 
 To configure multiple SNMP trap collector extensions, configure each in a separate record, with a unique name, and a designated MID Server.
 
+## Supported SNMP versions and authentication
+
+The SNMP trap collector extension accepts traps in SNMPv1, SNMPv2c, and SNMPv3.
+
+-   For SNMPv1 and SNMPv2c, traps are accepted regardless of the community string sent by the network device. There is no community string to configure on the MID Server. The conventional value `public` works.
+-   For SNMPv3, traps are authenticated by using the User-based Security Model \(USM\). Create one or more SNMPv3 credentials in the Credentials table, and configure the listener with `version = v3` and an Engine ID.
+
 ## Configure the SNMP Trap Collector Extension
 
 For the SNMP trap collector extension to receive traps from network devices, each device must designate the MID Server that runs the SNMP trap collector extension as a recipient of the trap.
@@ -44,7 +52,7 @@ Role required: admin
 
 4.  Click **Submit** or **Update**.
 
-    ![SNMP trap collector](../image/SNMPTrapCollectorExtension.png)
+    \[Omitted image "SNMPTrapCollectorExtension.png"\] Alt text: SNMP trap collector
 
 <table id="table_j3g_vrs_zq"><thead><tr><th>
 
@@ -107,6 +115,14 @@ Execute on
 </td><td>
 
 The location for running this extension: a **Specific MID Server** or a **Specific MID Server Cluster**. The recommended setting is **Specific MID Server**. Network hardware typically has to be configured to send to a specific IP address. If the listener moved to a different MID Server in the cluster, the trap would not be received.
+
+</td></tr><tr><td>
+
+Assignment group
+
+</td><td>
+
+Select the group to whom the connector instance is assigned. For example, this may be a group of administrators or a support group.
 
 </td></tr><tr><td>
 

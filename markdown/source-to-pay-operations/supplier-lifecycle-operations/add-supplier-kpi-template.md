@@ -2,6 +2,7 @@
 title: Create KPIs by adding suppliers to a KPI template
 description: You can add a new supplier whose performance you want to measure using the KPI template. Adding a supplier to a KPI template generates corresponding KPI records and KPI collection tasks for this supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/add-supplier-kpi-template.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -30,7 +31,7 @@ The **Supplier** related tab for a KPI template displays the following informati
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/cases-list-icon.png)\) and navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**.
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and navigate to **Lists** &gt; **Performance management** &gt; **KPI Templates**.
 
 3.  In the Name column, select the link to the KPI template.
 
@@ -47,7 +48,7 @@ The **Supplier** related tab for a KPI template displays the following informati
 
 ## What to do next
 
-[Run segmentation rule](run-segmentation-rule.md).
+[Run segmentation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/run-segmentation-rule.md).
 
-**Parent Topic:**[Configure Supplier Relationship and Performance Management](../concept/configuring-supplier-performance-mgmt.md)
+**Parent Topic:**[Configure Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configuring-supplier-performance-mgmt.md)
 

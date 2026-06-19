@@ -2,6 +2,7 @@
 title: Geolocation utility
 description: Use the Geolocation utility to gather map coordinates from a user, to personalize topics to a user's location, provide data for navigation or on-site tasks, and other services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-geolocation-utility.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -110,7 +111,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Geolocation utility
 
-![Geolocation utility properties.](../images/flow-designer-geolocation-properties.png)
+\[Omitted image "flow-designer-geolocation-properties.png"\] Alt text: Geolocation utility properties.
 
-**Parent Topic:**[Assistant Designer utilities](va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
 

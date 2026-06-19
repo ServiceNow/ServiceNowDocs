@@ -2,6 +2,7 @@
 title: COVID-19 status widget
 description: The COVID-19 widget displays the status for the COVID-19 vaccination doses that logged-in user has either taken or self-reported and any COVID test results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-widget-covid-19.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -15,7 +16,7 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The COVID-19 widget displays the status for the COVID-19 vaccination doses that logged-in user has either taken or self-reported and any COVID test results.
 
-![Screenshot displaying the COVID-19 status widget.](../image/hcls-widget-covid-status.png "COVID-19 status widget")
+\[Omitted image "hcls-widget-covid-status.png"\] Alt text: Screenshot displaying the COVID-19 status widget.
 
 ## Key features
 
@@ -25,5 +26,5 @@ The COVID-19 widget displays the status for the COVID-19 vaccination doses that 
 
 The COVID-19 status widget does not include instance options.
 
-**Parent Topic:**[Patient Portal widget library](hcls-pat-widget-library.md)
+**Parent Topic:**[Patient Portal widget library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pat-widget-library.md)
 

@@ -2,6 +2,7 @@
 title: Post a Live Feed message
 description: You can post a message to open a new feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_PostLiveFeedMessages.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -34,5 +35,5 @@ Role required: none
 5.  Click **Post**.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

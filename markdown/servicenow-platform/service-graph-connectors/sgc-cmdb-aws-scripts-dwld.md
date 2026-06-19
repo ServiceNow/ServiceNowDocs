@@ -2,6 +2,7 @@
 title: Download the AWS scripts
 description: Download the AWS scripts included within the guided setup of the Service Graph Connector for AWS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-scripts-dwld.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,8 +18,8 @@ Download the AWS scripts included within the guided setup of the Service Graph C
 
 ## Before you begin
 
--   Ensure that you have installed the Service Graph Connector for AWS application \(sn\_aws\_integ\). For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
--   Ensure that you’ve selected the **Service Graph Connector for AWS** application scope by using the application picker. See [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+-   Ensure that you have installed the Service Graph Connector for AWS application \(sn\_aws\_integ\). For more information, see Install a ServiceNow Store application.
+-   Ensure that you’ve selected the **Service Graph Connector for AWS** application scope by using the application picker. See Application picker.
 
 Role required: admin
 

@@ -2,6 +2,7 @@
 title: AWS only – Rollback on failed Rightsizing attempts
 description: AWS only: If a Rightsizing action fails, the system immediately performs a rollback to return the resource to its original size, restarts the resource if needed, updates the change request with full details, and updates Rightsizing report data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/rs-rollback-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

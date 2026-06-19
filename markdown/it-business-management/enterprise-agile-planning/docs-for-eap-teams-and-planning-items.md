@@ -2,6 +2,7 @@
 title: Collaborate using Docs in EAP
 description: Store and manage all kinds of documentation for Agile teams and their planning items \(Epics, Capabilities, and Features\) from a centralized location of Enterprise Agile Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/docs-for-eap-teams-and-planning-items.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -52,11 +53,11 @@ For example, if you add a reference to an Incident record, the reference will sh
 
 A hover popover displays the details of the mentioned record, providing quick access to additional information without leaving the current context.
 
-![Dynamic linking an incident record in EAP Docs.](../../collab-work-mgmt/images/cwm-docs-dynamic-record.png)
+\[Omitted image "cwm-docs-dynamic-record.png"\] Alt text: Dynamic linking an incident record in EAP Docs.
 
 Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
 
-![Dynamic linking the Assigned to field of an incident record in EAP Docs.](../../collab-work-mgmt/images/cwm-docs-dynamic-field.png)
+\[Omitted image "cwm-docs-dynamic-field.png"\] Alt text: Dynamic linking the Assigned to field of an incident record in EAP Docs.
 
 You can add references from any ServiceNow table you have access to, with no setup or configuration needed.
 
@@ -83,7 +84,7 @@ You can interact with Now Assist directly in your Doc to create new content, add
 
     -   If you have a list of stakeholders, you can ask **Elaborate on the scope of these roles.**
     -   **Rewrite this in a casual tone.**
-    ![Now Assist inline prompt for selected content on the page.](../../now-assist-cwm/images/na-inline-open-text.png)
+    \[Omitted image "na-inline-open-text.png"\] Alt text: Now Assist inline prompt for selected content on the page.
 
 -   **Take assistance on a blank page**
 
@@ -93,7 +94,7 @@ You can interact with Now Assist directly in your Doc to create new content, add
     2.  **Write a 3-paragraph blog post explaining why \[industry trend\] is changing how businesses operate.**
     3.  **Generate an outline for the Instagram campaign tasks for a Hackathon initiative.**
 
-        ![Creating first draft for a page using Now Assist.](../../now-assist-cwm/images/na-blank-page-nacm.png)
+        \[Omitted image "na-blank-page-nacm.png"\] Alt text: Creating first draft for a page using Now Assist.
 
 -   **Answer questions in the context of this Doc**
 
@@ -101,12 +102,12 @@ You can interact with Now Assist directly in your Doc to create new content, add
 
     For example, if you have a project charter document, you can try asking **What is the total budget of this project and which part is the most expensive?**
 
-    ![Ask questions in the context of the document. Here, user asks questions on project budget, in the context of a Project Charter document.](../../now-assist-cwm/images/cwm-nacm-ask-questions.png)
+    \[Omitted image "cwm-nacm-ask-questions.png"\] Alt text: Ask questions in the context of the document. Here, user asks questions on project budget, in the context of a Project Charter document.
 
 
 ## Real-time collaboration within EAP Docs
 
-With the feature of real-time collaboration, edit a Doc page concurrently with multiple other editors. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators based on your preference while working on or reviewing the content of the page.![Real-time collaboration in EAP Docs.](../images/eap-docs-rtc.png)
+With the feature of real-time collaboration, edit a Doc page concurrently with multiple other editors. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators based on your preference while working on or reviewing the content of the page.\[Omitted image "eap-docs-rtc.png"\] Alt text: Real-time collaboration in EAP Docs.
 
 **Note:** Application performance may degrade with a large number of concurrent editors.
 

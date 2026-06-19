@@ -2,6 +2,7 @@
 title: Now Assist Virtual Agent topics for HR Service Delivery Advanced Integration with Oracle HCM
 description: You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the Oracle HCM system in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/na-va-oracle.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ You can use the Now Assist Virtual Agent topics in Employee Center to place requ
 
 To access and use the Virtual Agent topics, verify the following:
 
--   [Configure the Now Assist for HRSD Virtual Agent topics](../task/config-va-topics.md)
+-   [Configure the Now Assist for HRSD Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/config-va-topics.md)
 -   Role required: sn\_hr\_oracle\_adv.admin
 
 ## Available Spoke Subflows for Virtual Agent topics for HR Service Delivery Advanced Integration with Oracle HCM
@@ -201,7 +202,7 @@ Oracle HCM - Retrieve Worker Profile
 
 The Lookup Worker Profile Virtual Agent topic enables you to view the profile of a coworker. From Employee Center, open a chat window and type in key words, for example, worker profile. After you have specified the details of coworkers, worker profile details of one or more users are displayed.
 
-![Lookup Worker Profile 1](../image/sf-lookup-profile1.png) ![Lookup Worker Profile 2](../image/sf-lookup-profile2.png)
+\[Omitted image "sf-lookup-profile1.png"\] Alt text: Lookup Worker Profile 1 \[Omitted image "sf-lookup-profile2.png"\] Alt text: Lookup Worker Profile 2
 
 ## Update Personal Details
 
@@ -216,31 +217,31 @@ You can update personal details in Virtual Agent using one of the following topi
 
 The Get User Paychecks Virtual Agent topic enables you to view your payslip details. From Employee Center, open a chat window and type in key words, for example, get payslips. After you provide the required details such as start date and end date, your payslip summary, in the form of pay period, gross pay, deductions, and net pay are displayed. A detailed breakdown of deductions is also displayed.
 
-![Get User Paychecks](../image/sf-get-paychecks.png)
+\[Omitted image "sf-get-paychecks.png"\] Alt text: Get User Paychecks
 
 ## Get Total Rewards
 
 The Get Total Rewards Virtual Agent topic enables you to view your rewards. From Employee Center, open a chat window and type in key words, for example, rewards.
 
-![Get Total Rewards](../image/sf-get-total-rewards.png)
+\[Omitted image "sf-get-total-rewards.png"\] Alt text: Get Total Rewards
 
 ## Get Time Off Balance
 
 The Get Time Off Balance Virtual Agent topic enables you to view your leave balance. From Employee Center, open a chat window and type in key words, for example, leave balance.
 
-![Get TimeOff](../image/sf-timeoff.png)
+\[Omitted image "sf-timeoff.png"\] Alt text: Get TimeOff
 
 ## Request Time Off
 
 The Request Timeoff Virtual Agent topic enables you to apply for leaves. From Employee Center, open a chat window and type in key words, for example, request time off. After you have specified required details such as start date and end date, the time off request is sent to the Oracle HCM system.
 
-![Request Time Off 1](../image/sf-requestoff-1.png) ![Request Time Off 2](../image/sf-requestoff-2.png)
+\[Omitted image "sf-requestoff-1.png"\] Alt text: Request Time Off 1 \[Omitted image "sf-requestoff-2.png"\] Alt text: Request Time Off 2
 
 ## Get Holiday Calendar
 
 The Get Holiday Calendar Virtual Agent topic enables you to view your holiday calendar. From Employee Center, open a chat window and type in key words, for example, holiday calendar. After specifying the calendar year, the holiday calendar appears in the chat.
 
-![Get Holiday Calendar 1](../image/sf-calendar-1.png) ![Get Holiday Calendar 2](../image/sf-calendar-2.png)
+\[Omitted image "sf-calendar-1.png"\] Alt text: Get Holiday Calendar 1 \[Omitted image "sf-calendar-2.png"\] Alt text: Get Holiday Calendar 2
 
 ## Lookup Benefit Enrolments
 

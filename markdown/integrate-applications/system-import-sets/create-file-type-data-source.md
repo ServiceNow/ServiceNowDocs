@@ -2,12 +2,13 @@
 title: Create a File type data source
 description: Create a File type data source record to define what data an import set should import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/create-file-type-data-source.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Create a data source, Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
 
@@ -21,7 +22,7 @@ Role required: import\_admin
 
 ## About this task
 
-For additional information, see [File type data sources](../reference/r_FileTypeDataSource.md).
+For additional information, see [File type data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_FileTypeDataSource.md).
 
 ## Procedure
 
@@ -93,7 +94,7 @@ Use Batch Import
 
 </td><td>
 
-If selected, specifies that loading data should be batched when you click **Load data** or **Test load 20 records**.
+If selected, specifies that loading data should be batched when you select **Load data** or **Test load 20 records**.**Note:** The system keeps records in memory until it receives the number of records specified in the batch size. If the batch size is met, it commits all the records as one batched SQL. If all the records are loaded for the import set, it commits all the remaining records as one batched SQL. Since it keeps the maximum of the batch size records in memory when specified, make sure you set the correct batch size to not cause any out-of-memory issues.
 
 </td></tr><tr><td>
 
@@ -145,7 +146,7 @@ Parsing script
 
 </td><td>
 
-The script used to parse a single line of input. As you type the script, script auto-complete presents the choices available to you. For more information, see [File type data sources](../reference/r_FileTypeDataSource.md).
+The script used to parse a single line of input. As you type the script, script auto-complete presents the choices available to you. For more information, see [File type data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_FileTypeDataSource.md).
 
 </td></tr><tr><td>
 
@@ -185,7 +186,7 @@ Expand node children
 
 </td><td>
 
-Selected if child elements of the XML node or JSON object should be converted into additional columns. Unselected if the parent column value should be an XML or JSON fragment. For JSON, note that selecting this option expands objects only, not arrays. For nested array support, see [JSON file import examples](../reference/json-data-source-examples.md).
+Selected if child elements of the XML node or JSON object should be converted into additional columns. Unselected if the parent column value should be an XML or JSON fragment. For JSON, note that selecting this option expands objects only, not arrays. For nested array support, see [JSON file import examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/json-data-source-examples.md).
 
 </td></tr><tr><td>
 
@@ -271,5 +272,5 @@ Selected to validate the certificate from the FTPS server against all saved cert
 
 Define a transform map for the new data source and run an import.
 
-**Parent Topic:**[Create a data source](../concept/c_CreateNewDataSource.md)
+**Parent Topic:**[Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreateNewDataSource.md)
 

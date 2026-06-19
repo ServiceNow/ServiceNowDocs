@@ -2,6 +2,7 @@
 title: View your cluster setup in 360 degrees
 description: Get a 360-degree perspective of your cluster setup to manage license consumption across the cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-360-sam-cluster.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -46,8 +47,8 @@ Role required: sam\_admin
 
 8.  Select **Open Dependency View** to view the relationship between the nodes of the cluster.
 
-    For details on Dependency Views, see [Dependency Views map menus and controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/r_NGBSMMenus.md).
+    For details on Dependency Views, see .
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

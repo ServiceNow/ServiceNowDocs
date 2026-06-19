@@ -2,6 +2,7 @@
 title: Add, modify, and remove financial account relationship workflows
 description: Learn how agents, using the financial account relationship workflows, resolve service requests for adding, modifying, and removing relationships from deposit accounts. These workflows apply to personal deposit service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/fso-deposit-add-modify-relation-workflow.html
 release: australia
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -17,7 +18,7 @@ Learn how agents, using the financial account relationship workflows, resolve se
 
 The following diagram shows how the application helps bank agents resolve a deposit request for a financial account relationship.
 
-![Workflow showing resolution of a deposit request for adding a financial account relationship using the Deposit Operations application. For the text description, refer to the workflow steps that follow.](../image/add-financial-account-relation-workflow.png "Add financial account relationship workflow example")
+\[Omitted image "add-financial-account-relation-workflow.png"\] Alt text: Workflow showing resolution of a deposit request for adding a financial account relationship using the Deposit Operations application. For the text description, refer to the workflow steps that follow.
 
 The deposit admin can review and customize this predefined flow based on the business needs of your organization.
 
@@ -49,5 +50,5 @@ The following workflow routes the case and tasks for adding, modifying, and remo
 
 The case is complete and the state and stage of the case are set to Closed Complete.
 
-**Parent Topic:**[Financial Services Deposit Operations workflows](deposit-operations-workflows.md)
+**Parent Topic:**[Financial Services Deposit Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/deposit-operations-workflows.md)
 

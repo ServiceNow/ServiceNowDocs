@@ -2,6 +2,7 @@
 title: Event Management MID Web Server extension form
 description: Fields in the form for creating or modifying a MID Web Server extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-midwebserver-extension-form.html
 release: australia
 product: Event Management
 classification: event-management
@@ -65,10 +66,10 @@ Authentication Type
 
 </td><td>
 
-The available authentication types are: -   **API Key** \(default\): Any client connecting to the extension must enter an API key into the request's authorization header. For details on viewing existing API keys, see [Configure MID Web Server API key authentication](../task/mid-web-server-api-key-authentication.md).
--   **Keybased** \(deprecated and kept only for compatibility with releases prior to the Australia release\): The value in the **Secret Key** field is used to generate an authentication token sent in the **Authorization** header of incoming client requests. For details, see [Configure key-based MID Web Server authentication](../task/configure-mid-web-server-extension-metric-data.md).
+The available authentication types are: -   **API Key** \(default\): Any client connecting to the extension must enter an API key into the request's authorization header. For details on viewing existing API keys, see [Configure MID Web Server API key authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/mid-web-server-api-key-authentication.md).
+-   **Keybased** \(deprecated and kept only for compatibility with releases prior to the Australia release\): The value in the **Secret Key** field is used to generate an authentication token sent in the **Authorization** header of incoming client requests. For details, see [Configure key-based MID Web Server authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension-metric-data.md).
 -   **Basic**: Define a username and password in the **Basic Auth User** and **Basic Auth User Password** fields, which appear when selecting this option.
--   **mTLS**: A certificate-based authentication that uses the TLS protocol. For details, see [MID Web Server and agent mTLS Authentication](../concept/mid-web-server-mTLS-authentication.md).
+-   **mTLS**: A certificate-based authentication that uses the TLS protocol. For details, see [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/mid-web-server-mTLS-authentication.md).
 
 </td></tr><tr><td>
 
@@ -110,7 +111,7 @@ Use MID Unified Keystore
 
 Option for using the MID Server Unified Keystore option for a secure connection.Clear this option to use **Web Server Keystore**.
 
- For details, see [Configure a secure MID Web Server extension](../task/configure-midwebserver-extension-secure.md).
+ For details, see [Configure a secure MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-midwebserver-extension-secure.md).
 
 </td></tr><tr><td>
 
@@ -178,5 +179,5 @@ Executing on
 Displays the name of the MID Server on which the extension is running even if the MID Server is down. If the user stops the extension, this field is empty.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
 

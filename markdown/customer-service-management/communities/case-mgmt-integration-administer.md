@@ -2,6 +2,7 @@
 title: Administer create case from discussion
 description: Configure parameters for the case generated from the community discussion so that it can be routed accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/case-mgmt-integration-administer.html
 release: australia
 product: Communities
 classification: communities
@@ -30,5 +31,5 @@ The **Create Case** configuration uses the Social Q&amp;A Question table \[kb\_s
 
 To create additional mapping between these tables, add the additional fields to the **Create Case** configuration in the CSM Table Map table. Include these fields as needed on the **Create case from question** record producer.
 
-**Parent Topic:**[Create a case from a discussion](case-management-integration.md)
+**Parent Topic:**[Create a case from a discussion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/case-management-integration.md)
 

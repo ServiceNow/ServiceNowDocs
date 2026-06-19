@@ -2,6 +2,7 @@
 title: Qualys REST messages
 description: Qualys REST messages are used to make calls to the Qualys API to fetch the compliance data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/qualys-rest-messages-cc.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

@@ -2,7 +2,10 @@
 title: Source-to-Pay default configurations
 description: Details of the default configurations for Source-to-Pay.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/source-to-pay-default-configurations.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-29"
 reading_time_minutes: 1
@@ -21,5 +24,5 @@ These default configurations are applied automatically when Apply default config
 |Intake forms|Activates required intake forms for submitting supplier, procurement, and invoice‑related requests and capturing request details.|
 |Supplier collaboration|Configures supporting settings that enable collaboration between internal users and suppliers.|
 
-**Parent Topic:**[Install Source-to-Pay](../task/install-source-to-pay.md)
+**Parent Topic:**[Install Source-to-Pay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/install-source-to-pay.md)
 

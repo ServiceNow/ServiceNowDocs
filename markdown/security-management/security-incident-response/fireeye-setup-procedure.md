@@ -2,11 +2,12 @@
 title: Set up your NowPlatform instance for FireEye integration
 description: Verify and review the following configuration procedure to set up NowPlatform instance for Fireeye integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/fireeye-setup-procedure.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [FireEye Endpoint Security integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -47,7 +48,7 @@ Verify that you have installed and configured a MID Server.
 
 </td><td>
 
-Configure MID Server: A MID Server in your NowPlatform instance is required to manage files and connect to the FireEye service deployed within your organization network. For more information on MID servers, see [https://servicenow.com/docs](https://servicenow.com/docs)
+Configure MID Server: A MID Server in your NowPlatform instance is required to manage files and connect to the FireEye service deployed within your organization network. For more information on MID servers, see [https://www.servicenow.com/docs](https://www.servicenow.com/docs)
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ An optional approval workflow is available for isolating host machines, restorin
 
 4.  Select **Submit**.
 
-    ![Group list](../image/fireeye-users.png)
+    \[Omitted image "fireeye-users.png"\] Alt text: Group list
 
     The new group is displayed in the Groups list. You have successfully created an approval group. Add users to your new group as required who can approve the requests submitted by the security analyst. A user inherits roles from all groups to which the user belongs. You can also assign roles directly to a user.
 

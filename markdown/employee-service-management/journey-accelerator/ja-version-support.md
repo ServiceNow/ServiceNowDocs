@@ -2,6 +2,7 @@
 title: Journey Accelerator versions and release compatibility
 description: Available features depend on the Journey Accelerator version, family release, and application-specific features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/ja-version-support.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -17,7 +18,7 @@ Available features depend on the Journey Accelerator version, family release, an
 
 Not all Journey Accelerator features are available in all supported family releases. Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view the latest information and requirements for features and releases.
 
-**Note:** Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+**Note:** Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Different versions of Journey Accelerator are supported only in certain family releases.
 
@@ -36,7 +37,7 @@ Other requirements: To schedule Outlook meetings from Journey Accelerator tasked
 
 Supported family releases:
 
-**Note:** Journey Accelerator Version 4.0.2 is the last family release that a standalone version of the app can be installed. The latest Journey Accelerator functionality is included with the [Journey designer](../concept/jny-dsgnr-landing-page-1.md) application.
+**Note:** Journey Accelerator Version 4.0.2 is the last family release that a standalone version of the app can be installed. The latest Journey Accelerator functionality is included with the [Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) application.
 
 -   Utah
 -   Tokyo

@@ -2,6 +2,7 @@
 title: Operational toggle level form
 description: A description of the fields in the Operational Toggle Level form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/operational-toggle-level-form.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -22,5 +23,5 @@ A description of the fields in the Operational Toggle Level form.
 |Application|The scope that the toggle level will apply to. This could be either a specific application or the global scope.|
 |Value|Behavior of the toggle level.|
 
-**Parent Topic:**[Platform performance reference](../concept/platform-performance-references.md)
+**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

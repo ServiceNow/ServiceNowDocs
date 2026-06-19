@@ -1,8 +1,11 @@
 ---
 title: Register a product from the Consumer Portal
-description: Register your products from the Consumer Portal.
+description: Register a product on the Consumer Portal to track it in your account and access product-specific support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/register-product-on-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -11,7 +14,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Register a product from the Consumer Portal
 
-Register your products from the Consumer Portal.
+Register a product on the Consumer Portal to track it in your account and access product-specific support.
 
 ## Before you begin
 

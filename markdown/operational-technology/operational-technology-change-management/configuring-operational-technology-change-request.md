@@ -2,6 +2,7 @@
 title: Configuring Operational Technology Change Management
 description: Configure the Operational Technology Change Management application so that you can create the data foundation for the ServiceNow Operational Technology \(OT\) solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/configuring-operational-technology-change-request.html
 release: australia
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -32,12 +33,12 @@ The following table explains the Guided Setup tasks and their purpose for the Op
 |3. Configure Operational Technology Change Management categories.|Configures the categories for the OT changes that are needed for your organization.|
 |4. Select the Operational Technology Change Management model.|Selects the change model for your organization.|
 
--   **[Install Operational Technology Change Management](../task/install-operational-technology-change-request.md)**  
+-   **[Install Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/install-operational-technology-change-request.md)**  
 You can install the Operational Technology Change Management application \(sn\_ot\_chg\_mgmt\) if you have the admin role.
--   **[Assign Operational Technology Change Management roles](../task/assign-operational-technology-change-request-roles.md)**  
+-   **[Assign Operational Technology Change Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/assign-operational-technology-change-request-roles.md)**  
 Assign roles to your users so that you can control their access to the features, capabilities, and data in the Operational Technology Change Management application.
--   **[Select a change model to fulfill change requests](../task/select-change-model.md)**  
+-   **[Select a change model to fulfill change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/select-change-model.md)**  
 Select an Operational Technology \(OT\) change model to begin fulfilling your change requests depending on the needs of your organization.
 
-**Parent Topic:**[Operational Technology Change Management](operational-technology-change-management-landing-page.md)
+**Parent Topic:**[Operational Technology Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/operational-technology-change-management-landing-page.md)
 

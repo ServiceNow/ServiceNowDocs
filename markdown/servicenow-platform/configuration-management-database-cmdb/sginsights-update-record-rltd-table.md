@@ -2,6 +2,7 @@
 title: Edit a related table from CMDB performance insights in Service Graph Workspace
 description: Edit a related table on the Related Entries \[cmdb\_related\_entry\] table directly from the CMDB performance insights tool in the Service Graph Workspace Insights view. Update the related table to correctly reference another CI in the Referenced field when a reference is missing from the related table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sginsights-update-record-rltd-table.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

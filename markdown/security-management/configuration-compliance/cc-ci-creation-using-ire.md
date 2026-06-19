@@ -2,6 +2,7 @@
 title: Creating CIs for Configuration Compliance using the Identification and Reconciliation Engine
 description: Starting with Configuration Compliance 11.1, you can create configuration items \(CIs\) in the Configuration Management Database \(CMDB\) using the Identification and Reconciliation engine \(IRE\) API. By using the IRE API to create CIs, you can prevent duplicate CIs from being created and you can reconcile CI attributes by allowing only authoritative data sources to write to CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-ci-creation-using-ire.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -21,7 +22,7 @@ A CI class \(table\) is the original table name in the instance database. CMDB c
 
 Prior to version 11.1, if a matched CI was not found either in the Discovered Items list or CMDB, a CI was created in the Unmatched CI class \(`sn_sec_cmn_unmatched_ci`\).
 
-For more information, see [Reconcile unmatched discovered items for Configuration Compliance](../task/reapply-reconcile-unmatched-discovered-items-cc.md).
+For more information, see [Reconcile unmatched discovered items for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/reapply-reconcile-unmatched-discovered-items-cc.md).
 
 Starting with version 11.1, you can use the IRE API to create CIs in CMDB. Instead of using the Unmatched CI class, a CI is created in the Unclassed Hardware or Incomplete IP Identified Device class.
 
@@ -70,7 +71,7 @@ CI is created in this table if any of the following information is available in 
 **Related topics**  
 
 
-[CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)
+[bundle-platcap.cmdb-ci-class-models]
 
-[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire.md)
+[bundle-platcap.ire]
 

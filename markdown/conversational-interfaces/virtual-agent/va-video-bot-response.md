@@ -2,6 +2,7 @@
 title: Video bot response control
 description: Use the Video bot response control in a Virtual Agent topic to include a video in the conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-video-bot-response.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ The Video bot response control includes a navigation button, which gives users t
 
 When users have finished watching the video, they can select the navigation button to continue with the conversation.
 
-**Note:** Topic authors can also use the [Card bot response control](va-card-output.md) to include a video in conversations. However, the Card bot response control doesn't include the navigation button, which gives users time to watch the video.
+**Note:** Topic authors can also use the [Card bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-card-output.md) to include a video in conversations. However, the Card bot response control doesn't include the navigation button, which gives users time to watch the video.
 
 ## Video bot response control properties
 
@@ -69,9 +70,9 @@ Fields that correspond to the numbers shown on the template. These fields are th
 
 For example, in the path shown below, the video identifier is `FVgtjdEOa5M`.
 
-![In the URL www.youtube.com/watch?v=FVgtjdEOa5M, the video identifier is FVgtjdEOa5M.](../images/va-video-unique-id.png)
+\[Omitted image "va-video-unique-id.png"\] Alt text: In the URL www.youtube.com/watch?v=FVgtjdEOa5M, the video identifier is FVgtjdEOa5M.
 
-![In this URL, the video identifier is the video ID in curly brackets.](../images/va-video-unique-id-2.png)
+\[Omitted image "va-video-unique-id-2.png"\] Alt text: In this URL, the video identifier is the video ID in curly brackets.
 
 
 </td></tr><tr><td class="sub-head" colspan="2">
@@ -287,16 +288,16 @@ Card output
 
 </th></tr></thead><tbody><tr><td rowspan="2">
 
-![Basic properties include the node name, card type, template, title, title link, description, and YouTube video ID.](../images/va-card-video-properties-2.png "Video bot response control basic properties")
+\[Omitted image "va-card-video-properties-2.png"\] Alt text: Basic properties include the node name, card type, template, title, title link, description, and YouTube video ID.
 
 </td><td>
 
-![Video card with the header "Returning to work using Safe Workplace Suite," a description, and a "Continue" navigation button.](../images/va-video-with-nav-button.png "Video bot response output on the chat widget with the navigation button")
+\[Omitted image "va-video-with-nav-button.png"\] Alt text: Video card with the header "Returning to work using Safe Workplace Suite," a description, and a "Continue" navigation button.
 
 </td></tr><tr><td>
 
-![Video card with the header, "Returning to work using Safe Workplace Suite" and a description.](../images/va-video-without-nav-button.png "Video bot response output on the chat widget without the navigation button")
+\[Omitted image "va-video-without-nav-button.png"\] Alt text: Video card with the header, "Returning to work using Safe Workplace Suite" and a description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

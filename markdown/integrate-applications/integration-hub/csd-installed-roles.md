@@ -2,6 +2,7 @@
 title: Roles installed
 description: These roles are installed with the Client Software Distribution plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-installed-roles.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -45,5 +46,5 @@ Administrator role for managing client software distribution application.
 -   workflow\_admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with client software distribution](comp-installed-csd-ihub.md)
+</table>**Parent Topic:**[Components installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/comp-installed-csd-ihub.md)
 

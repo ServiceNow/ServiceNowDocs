@@ -2,6 +2,7 @@
 title: Exploring Operational Resilience
 description: The Operational Resilience application provides a complete view of your operational resilience status including business service details, entities, and the status of your core business areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/what-is-opres.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -38,7 +39,7 @@ As stated earlier, Operational Resilience provides a clear understanding of your
 
 Users, managers, and administrators with an Operational Resilience IRM Pro license can now access the associated reports, charts, and data. Similarly, those with an Operational Resilience BCM Pro license can also access their respective reports, charts, and data.
 
-For more information on the updated roles, see [Roles installed with Operational Resilience](../reference/roles-installed-with-op-res.md).
+For more information on the updated roles, see [Roles installed with Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/roles-installed-with-op-res.md).
 
 ## Operational Resilience workflow
 
@@ -69,11 +70,11 @@ The Operational Resilience application provides the following benefits:
 
 |Benefits|Features|Users|
 |--------|--------|-----|
-|Analyze the importance and impact tolerance of a business service.|[Performing Importance and impact tolerance assessment](../../grc-operational-res-ws/concept/analyze-impact-tolerance-importance-of-service-in-ws.md)|Operational Resilience managers and users|
-|Perform a scenario analysis in Operational Resilience workspace.|[Conducting a Scenario analysis](../../grc-operational-res-ws/concept/scenario-analysis-in-ws.md)|Operational Resilience managers and users|
-|Self-attest the business services in Operational Resilience workspace.|[Certifying services using self-attestation](../../grc-operational-res-ws/concept/self-attestation-in-ws.md)|Operational Resilience managers and users|
-|Add an issue, change request, incident, and outage in Operational Resilience workspace.|[Creating or adding an issue](../../grc-operational-res-ws/concept/issue-architecture-changes.md)|Operational Resilience managers and users|
-|Add or remove an operational vulnerability in Operational Resilience workspace.|[Managing Operational vulnerability](operational-vulnerability.md)|Operational Resilience managers and users|
+|Analyze the importance and impact tolerance of a business service.|[Performing Importance and impact tolerance assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/analyze-impact-tolerance-importance-of-service-in-ws.md)|Operational Resilience managers and users|
+|Perform a scenario analysis in Operational Resilience workspace.|[Scenario analysis using simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analysis-in-ws.md)|Operational Resilience managers and users|
+|Self-attest the business services in Operational Resilience workspace.|[Certifying services using self-attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/self-attestation-in-ws.md)|Operational Resilience managers and users|
+|Add an issue, change request, incident, and outage in Operational Resilience workspace.|[Creating or adding an issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/issue-architecture-changes.md)|Operational Resilience managers and users|
+|Add or remove an operational vulnerability in Operational Resilience workspace.|[Managing Operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/operational-vulnerability.md)|Operational Resilience managers and users|
 
 ## Coral theme
 

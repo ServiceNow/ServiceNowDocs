@@ -2,6 +2,7 @@
 title: Enterprise asset reclamation
 description: Use a reclamation workflow to coordinate an employee's offboarding process that lets you request, assess, and reclaim enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enterprise-asset-reclamation.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,20 +22,20 @@ You can create an asset reclamation request via the Service Catalog application.
 
 **Note:** To use the Service Catalog application to reclaim enterprise assets, you must install the Enterprise Asset Management application.
 
-When you [create a reclaim asset](../task/create-enterprise-catalog-request.md) request via the Service Catalog application, an asset reclamation request is created. For each enterprise asset assigned to the departing employee, an enterprise asset reclamation line is created for the assets you select in the Reclaim Asset Service Catalog. Each enterprise asset reclamation line is closed through the following Enterprise Asset Reclamation Tasks:
+When you [create a reclaim asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-enterprise-catalog-request.md) request via the Service Catalog application, an asset reclamation request is created. For each enterprise asset assigned to the departing employee, an enterprise asset reclamation line is created for the assets you select in the Reclaim Asset Service Catalog. Each enterprise asset reclamation line is closed through the following Enterprise Asset Reclamation Tasks:
 
 -   Schedule drop off, Schedule pickup, or Schedule shipment task based on which reclamation method you select in the Reclaim Asset form
 -   Receive asset
 -   Evaluate
 
-The Enterprise Asset Reclamation Line also has a stage field, which changes when you [close a Enterprise Asset Reclamation Task](../task/close-enteprise-reclamation-request.md) as follows:
+The Enterprise Asset Reclamation Line also has a stage field, which changes when you [close a Enterprise Asset Reclamation Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/close-enteprise-reclamation-request.md) as follows:
 
 -   Pending
 -   Pending evaluation
 -   Complete
 
--   **[Create a catalog request to reclaim enterprise assets](../task/create-enterprise-catalog-request.md)**  
+-   **[Create a catalog request to reclaim enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-enterprise-catalog-request.md)**  
 Create a catalog request to efficiently reclaim enterprise assets when an employee leaves an organization or moves to a different role.
 
-**Parent Topic:**[IT Asset Management](../../software-asset-management2/concept/it-asset-management.md)
+**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

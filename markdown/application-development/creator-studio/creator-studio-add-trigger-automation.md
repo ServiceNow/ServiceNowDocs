@@ -2,6 +2,7 @@
 title: Edit the trigger for a playbook in Creator Studio
 description: Define the trigger for a playbook in Creator Studio to specify what makes the playbook start running.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-add-trigger-automation.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -35,9 +36,9 @@ To edit the trigger for a playbook, you must be given permission to work on the 
 
 4.  Select the automation that contains the playbook that you want to edit the trigger for.
 
-    ![Select the automation in the navigation panel](../image/crs-auto-copy-nav.png "Select automation that has the playbook")
+    \[Omitted image "crs-auto-copy-nav.png"\] Alt text: Select the automation in the navigation panel
 
-5.  Select the **Trigger** \(![](../image/cs-trigger-icon.png)\).
+5.  Select the **Trigger** \(\[Omitted image "cs-trigger-icon.png"\] Alt text:\).
 
     The Additional properties modal appears, where you can edit some of the trigger's settings.
 
@@ -52,14 +53,14 @@ To edit the trigger for a playbook, you must be given permission to work on the 
 
 8.  Change the conditions that must be met for the playbook to begin running by selecting **Add condition set**.
 
-    -   If you want to trigger the playbook based on the value of a column in a table, select the **[Field](../concept/creator-studio-glossary.md#)** that you want to be the trigger, as well as its condition **Operator** and the specific trigger **Value**. For example, when a **Start date** is **after** the **Date** needed.
+    -   If you want to trigger the playbook based on the value of a column in a table, select the **[Field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md)** that you want to be the trigger, as well as its condition **Operator** and the specific trigger **Value**. For example, when a **Start date** is **after** the **Date** needed.
     -   If you want to trigger the playbook based on the response from a form, select **Questions** as the trigger **Field**. Then select the question you want in the **Question** field, the condition **Operator** and the answer's **Value**.
-    ![Use a specific answer to a form's question as trigger](../image/crs-trigger-question-answer.png "Question answer as trigger for an automation")
+    \[Omitted image "crs-trigger-question-answer.png"\] Alt text: Use a specific answer to a form's question as trigger
 
-    Add as many conditions as you need. For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
+    Add as many conditions as you need. For more information, see .
 
 9.  Save your changes by selecting the **Done** button.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-working-with-automations.md)
 

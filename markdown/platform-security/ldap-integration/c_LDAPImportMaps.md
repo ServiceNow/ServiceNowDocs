@@ -2,6 +2,7 @@
 title: Import and map data
 description: LDAP import maps match fields in your LDAP database to fields in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_LDAPImportMaps.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

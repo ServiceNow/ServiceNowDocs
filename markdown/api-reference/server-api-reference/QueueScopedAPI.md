@@ -2,6 +2,7 @@
 title: Queue - Scoped
 description: The Queue API provides methods that allow you to retrieve or join a Connect Support chat queue.Retrieves a specified chat queue.Adds the current user to an existing Connect Support chat queue and posts the specified question.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/QueueScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The Queue API provides methods that allow you to retrieve or join a Connect Supp
 
 To execute this class in a scoped application, use the `sn_connect` namespace identifier. The Connect Scriptable APIs plugin \(ID: com.glide.connect.scriptable\) must be enabled to access the Queue API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Scoped Queue - get\(String sysID\)
 
@@ -39,7 +40,7 @@ var queue = sn_connect.Queue.get("ab73be7dc09a4300964f336ee6b74361");
 
 Adds the current user to an existing Connect Support chat queue and posts the specified question.
 
-Before calling this method, you must call the [Scoped Queue - get\(String sysID\)](QueueScopedAPI.md#) method to retrieve the chat queue to which to attach the current user.
+Before calling this method, you must call the [Scoped Queue - get\(String sysID\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/QueueScopedAPI.md) method to retrieve the chat queue to which to attach the current user.
 
 |Name|Type|Description|
 |----|----|-----------|

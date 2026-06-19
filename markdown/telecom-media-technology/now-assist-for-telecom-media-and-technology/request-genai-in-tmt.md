@@ -2,6 +2,7 @@
 title: Request generative AI capabilities in TMT using the Now Assist panel
 description: Request the contextual generative AI capabilities by using the conversational interface in the Now Assist panel. These capabilities include service problem case summary or resolution notes in the TMT application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/request-genai-in-tmt.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -17,7 +18,7 @@ Request the contextual generative AI capabilities by using the conversational in
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md).
+Make sure that Next Experience is enabled in the instance. For more information, see .
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
@@ -25,7 +26,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 You can use the Now Assist panel in CSM/FSM Configurable Workspace to request a service problem case summary and generate service problem case resolution notes.
 
-For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+For more information about the Now Assist panel, see . For information about activating the Now Assist panel, see .
 
 ## Procedure
 
@@ -35,12 +36,12 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 3.  Open a service problem case.
 
-4.  From the header menu, select the Now Assist icon \(![Now assist icon.](../../../common/image/icon-ai-sparkle.png)\) and request the generative AI capabilities in TMT for a service problem case.
+4.  From the header menu, select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\) and request the generative AI capabilities in TMT for a service problem case.
 
 5.  Select the relevant generative AI capability from the Now Assist panel.
 
     -   To summarize the service problem case, select **Summarize a record**.
     -   To generate the service problem case resolution notes, select **Generate resolution notes**.
 
-**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](../concept/now-assist-spm-using.md)
+**Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
 

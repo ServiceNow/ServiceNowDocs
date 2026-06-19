@@ -2,6 +2,7 @@
 title: Edit the default onboarding modal
 description: Edit the default onboarding modal to personalize content for your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/configure-next-experience-onboarding.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -61,5 +62,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Onboarding modals](../concept/next-experience-onboarding.md)
+**Parent Topic:**[Onboarding modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/next-experience-onboarding.md)
 

@@ -2,6 +2,7 @@
 title: Delete alert rules
 description: Remove alert rules to adjust monitoring criteria and thresholds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/delete-metric-rules.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -27,7 +28,7 @@ Deleting any rules results in their permanent removal, and they can’t be retri
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the Alert rules card.
 
@@ -42,5 +43,5 @@ Deleting any rules results in their permanent removal, and they can’t be retri
     The alert rule is removed from the list.
 
 
-**Parent Topic:**[Managing DEX alert rules](../concept/dex-metrics-metric-rules-management.md)
+**Parent Topic:**[Managing DEX alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-metrics-metric-rules-management.md)
 

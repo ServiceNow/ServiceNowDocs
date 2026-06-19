@@ -2,6 +2,7 @@
 title: Exploring Interview Management
 description: Learn more about Interview management and review the benefits it can provide for different users in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/exploring-interview-management.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -35,24 +36,24 @@ Additionally, it facilitates seamless feedback sharing and tracking, empowering 
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Request applicants on a job requisition to share their scheduling preferences.|[Request applicant to share scheduling preferences](../task/request-applicant-availability.md)|Recruiter|
-|Request interviewers on a job requisition to share their scheduling preferences.|[Request interviewer to share scheduling preferences](../task/request-interviewer-availability.md)|Recruiter|
-|View the scheduling preferences shared by applicants to schedule interviews accordingly.|[View applicant's scheduling preferences](../task/view-applicant-availability.md)|Recruiter|
-|View the scheduling preferences shared by interviewers and schedule interviews accordingly.|[View interviewer's scheduling preferences](../task/view-interviewer-availability.md)|Recruiter|
-|Configure interview phases and use them to efficiently schedule interviews, enhancing transparency and saving time.|[Add interview phase](../task/add-interview-phase.md)|Recruiter|
-|Remove interview phases once they're not needed anymore.|[Remove interview phase](../task/remove-interview-phase.md)|Recruiter|
-|Schedule interview with applicants on a job requisition to get started with the interview journey.|[Schedule an interview](../task/schedule-interview.md)|Recruiter|
-|Manage interviews for a job requisition as a recruiter.|[Manage interviews](../task/manage-interviews-recruiter.md)|Recruiter|
-|Provide feedback for interviews that you're a part of.|[Provide interview feedback](../task/provide-interview-feedback-recruiter.md)|Recruiter|
-|Share scheduling preferences as an interviewer.|[Share scheduling preferences](../task/share-availability-interviewer.md)|Interviewer|
-|Manage interviews as an interviewer.|[Managing interviews as an interviewer](manage-interviews-interviewer.md)|Interviewer|
-|As an interviewer, provide feedback for interviews that you're a part of.|[Provide interview feedback](../task/provide-interview-feedback-hm-interviewer.md)|Interviewer, Hiring manager|
+|Request applicants on a job requisition to share their scheduling preferences.|[Request applicant to share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/request-applicant-availability.md)|Recruiter|
+|Request interviewers on a job requisition to share their scheduling preferences.|[Request interviewer to share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/request-interviewer-availability.md)|Recruiter|
+|View the scheduling preferences shared by applicants to schedule interviews accordingly.|[View applicant's scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/view-applicant-availability.md)|Recruiter|
+|View the scheduling preferences shared by interviewers and schedule interviews accordingly.|[View interviewer's scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/view-interviewer-availability.md)|Recruiter|
+|Configure interview phases and use them to efficiently schedule interviews, enhancing transparency and saving time.|[Add interview phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/add-interview-phase.md)|Recruiter|
+|Remove interview phases once they're not needed anymore.|[Remove interview phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/remove-interview-phase.md)|Recruiter|
+|Schedule interview with applicants on a job requisition to get started with the interview journey.|[Schedule an interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/schedule-interview.md)|Recruiter|
+|Manage interviews for a job requisition as a recruiter.|[Manage interviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/manage-interviews-recruiter.md)|Recruiter|
+|Provide feedback for interviews that you're a part of.|[Provide interview feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/provide-interview-feedback-recruiter.md)|Recruiter|
+|Share scheduling preferences as an interviewer.|[Share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/share-availability-interviewer.md)|Interviewer|
+|Manage interviews as an interviewer.|[Managing interviews as an interviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/manage-interviews-interviewer.md)|Interviewer|
+|As an interviewer, provide feedback for interviews that you're a part of.|[Provide interview feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/provide-interview-feedback-hm-interviewer.md)|Interviewer, Hiring manager|
 
 ## What to explore next
 
 To learn more about configuring and using Interview management, see:
 
--   [Configuring Interview Management](configuring-interview-management.md)
--   [Using Interview Management](../../human-resources/concept/using-interview-management.md)
--   [Interview Management reference](interview-management-reference.md)
+-   [Configuring Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/configuring-interview-management.md)
+-   [Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-interview-management.md)
+-   [Interview Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/interview-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Install Financial Services Business Loan Operations
 description: You can install the Financial Services Business Loan Operations application \(sn\_bom\_loan\_b2b\) if you have the admin role. The application includes demo data and install-related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/install-fso-business-loan-ops.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -30,7 +31,7 @@ The following items are installed with Financial Services Business Loan Operatio
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Financial Services Business Loan Operations](../reference/installed-with-business-loan-operations.md).
+For more information, see [Components installed with Financial Services Business Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-loan-operations/installed-with-business-loan-operations.md).
 
 ## Procedure
 
@@ -40,7 +41,7 @@ For more information, see [Components installed with Financial Services Business
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -53,5 +54,5 @@ For more information, see [Components installed with Financial Services Business
 5.  Select **Install**.
 
 
-**Parent Topic:**[Install Financial Services Loan Operations](../concept/install-loan-operations.md)
+**Parent Topic:**[Install Financial Services Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-loan-operations/install-loan-operations.md)
 

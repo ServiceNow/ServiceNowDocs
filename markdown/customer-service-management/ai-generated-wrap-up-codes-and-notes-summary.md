@@ -2,7 +2,10 @@
 title: Use AI to generate wrap up code and notes summary
 description: Now Assist automatically analyzes customer interaction transcripts to suggest wrap up codes and generate wrap up note summaries during the Interaction wrap up process. This capability reduces post call tasks while improving documentation quality and consistency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,10 +24,10 @@ Admins can configure the feature to make it available for the agents to use.
 
 For more information, see:
 
--   [Enable Now Assist to generate wrap up code and notes summary](../task/enable-ai-wrap-up-code-and-notes-summary-generation.md)
--   [AI interaction wrap-up](interaction-wrapup-ai-generated.md)
+-   [Enable Now Assist to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md)
+-   [AI interaction wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-ai-generated.md)
 
-![AI generated wrap up code and notes summary](../image/int-ai-generated-wrap-up-code-and-notes-summary.jpg)
+\[Omitted image "int-ai-generated-wrap-up-code-and-notes-summary.jpg"\] Alt text: AI generated wrap up code and notes summary
 
 ## Key Features and benefit
 

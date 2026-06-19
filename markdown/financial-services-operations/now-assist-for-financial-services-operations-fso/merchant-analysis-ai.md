@@ -2,6 +2,7 @@
 title: Merchant analysis with AI agent
 description: The Merchant analysis for disputes AI agent checks the credibility of the merchant in the context of the dispute, based on ratings and reviews from web search. If a web search returns no results for a merchant, then the merchant is classified as not credible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/merchant-analysis-ai.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -27,7 +28,7 @@ This agent retrieves dispute task details, performs a web search to assess merch
 
 1.  Navigate to **Workspaces** &gt; **Financial Services Workspace** and open a card dispute.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -54,21 +55,21 @@ This agent retrieves dispute task details, performs a web search to assess merch
     **Note:** You can also access the recommendation for the merchant analysis as follows.
 
     1.  Once the dispute agent selects **Assign to me**, a notification appears for that agent in the Now Assist.
-    2.  Select the Now Assist panel icon \(![now assist panel icon](../../../common/image/icon-ai-sparkle.png)\) and open the active chat for the disputed transaction.
+    2.  Select the Now Assist panel icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: now assist panel icon\) and open the active chat for the disputed transaction.
     3.  In the chat, the AI agent generates a recommendation for the dispute with a valid reason.
 
         If the dispute agent disagrees with the analysis, then a rationale is prompted by the AI agent for the disagreement. On providing a valid rationale, the task proceeds to the next task.
 
-    ![Evaluate merchant analysis AI agent in ACH disputes](../image/now-assist-merchant-analysis.png)
+    \[Omitted image "now-assist-merchant-analysis.png"\] Alt text: Evaluate merchant analysis AI agent in ACH disputes
 
 11. Once the dispute agent selects the appropriate action, the **Merchant analysis action** is updated with the **Final action** and **Resolution reason**.
 
-    For information about evaluate merchant analysis in ACH disputes, see [Evaluate merchant analysis](../../fso-card-operations/task/fso-ach-evaluate-merchant.md).
+    For information about evaluate merchant analysis in ACH disputes, see [Evaluate merchant analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/fso-ach-evaluate-merchant.md).
 
 
 ## Result
 
-Based on the response from the dispute agent, the **Final action** field is updated as **Credible** or **Not credible**. The task navigates to the next task, [Evaluate Nacha operating guidelines with AI agent](nacha-guidelines-ai.md).
+Based on the response from the dispute agent, the **Final action** field is updated as **Credible** or **Not credible**. The task navigates to the next task, [Evaluate Nacha operating guidelines with AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/nacha-guidelines-ai.md).
 
-**Parent Topic:**[Resolve ACH disputes with AI agents](resolve-ach-disputes-with-ai-agents.md)
+**Parent Topic:**[Resolve ACH disputes with AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/resolve-ach-disputes-with-ai-agents.md)
 

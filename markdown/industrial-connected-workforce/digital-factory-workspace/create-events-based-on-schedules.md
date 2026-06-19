@@ -2,6 +2,7 @@
 title: Create a standard schedule plan
 description: Create a plan for the scheduled creation of standard tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-events-based-on-schedules.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -17,43 +18,45 @@ Create a plan for the scheduled creation of standard tasks.
 
 ## Before you begin
 
-To create a template schedule, you must define a schedule first. For more information about defining schedules, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md). To create a custom template that is based on shifts, refer to [Define a shift](define-shifts.md) to configure shifts.
+To create a template schedule, you must define a schedule first. For more information about defining schedules, see . To create a custom template that is based on shifts, refer to [Define a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/define-shifts.md) to configure shifts.
 
 Role required: sn\_icw\_std.standard\_author
 
 ## Procedure
 
-1.  Open the standard for which you want to create a plan.
+1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Select the Standards hub menu \(\[Omitted image "icw-standards-hub-icon.png"\] Alt text:\)**
 
-2.  Navigate to the tab **Scheduled Plans**.
+2.  Open the standard for which you want to create a plan.
 
-3.  Select **New schedule**.
+3.  Navigate to the tab **Scheduled Plans**.
 
-4.  On the Scheduled plan form, fill in the fields.
+4.  Select **New schedule**.
 
-    For a description of field values, see [Schedule plan form](../reference/scheduled-plan-form.md).
+5.  On the Scheduled plan form, fill in the fields.
 
-5.  Select **Save**.
+    For a description of field values, see [Schedule plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/scheduled-plan-form.md).
 
-6.  For custom schedules, select **Custom schedule** to configure the scheduled plan.
+6.  Select **Save**.
 
-7.  To create a shift-based schedule, enable the **Shift** option before filling in the Custom schedule form fields.
+7.  For custom schedules, select **Custom schedule** to configure the scheduled plan.
 
-    **Note:** If you enable shift-based scheduling, the form hides the **Start date/time** and **End date/time** fields and displays a **Start date** field instead. The system automatically calculates the start and end time frames from the shift configuration. For more information, see [Create a shift-based schedule plan](create-shift-based-schedule.md).
+8.  To create a shift-based schedule, enable the **Shift** option before filling in the Custom schedule form fields.
 
-8.  On the Custom schedule form, fill in the fields.
+    **Note:** If you enable shift-based scheduling, the form hides the **Start date/time** and **End date/time** fields and displays a **Start date** field instead. The system automatically calculates the start and end time frames from the shift configuration. For more information, see [Create a shift-based schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-shift-based-schedule.md).
 
-    For a description of field values, see [Custom schedule plan form](../reference/custom-schedule-plan-form.md).
+9.  On the Custom schedule form, fill in the fields.
 
-9.  Select **Save**.
+    For a description of field values, see [Custom schedule plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/custom-schedule-plan-form.md).
+
+10. Select **Save**.
 
 
 ## Result
 
 The new schedule plan is displayed in the list of schedule plans for the standard.
 
--   **[Create a shift-based schedule plan](create-shift-based-schedule.md)**  
+-   **[Create a shift-based schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-shift-based-schedule.md)**  
 Create a scheduled plan for standard tasks based on shift configuration of a functional location.
 
-**Parent Topic:**[Scheduling standards](../concept/scheduling-standards.md)
+**Parent Topic:**[Scheduling standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/scheduling-standards.md)
 

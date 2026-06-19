@@ -2,13 +2,14 @@
 title: Configure schedule adherence properties
 description: Configure schedule adherence properties to calculate the adherence to improve the operational efficiency of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/configure-scheduling-adherence-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up Scheduling for Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure scheduling, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure schedule adherence properties
@@ -41,5 +42,5 @@ The threshold settings for adherence and conformance indicate how many minutes e
 3.  Click **Save**.
 
 
-**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](setup-scheduling-wfo-hr.md)
+**Parent Topic:**[Configure Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
 

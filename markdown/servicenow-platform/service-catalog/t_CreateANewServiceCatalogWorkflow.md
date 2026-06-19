@@ -2,6 +2,7 @@
 title: Create a catalog workflow
 description: Create service catalog workflows when the default workflows are not appropriate for a fulfillment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreateANewServiceCatalogWorkflow.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -29,7 +30,7 @@ This example describes the procedure to set up fulfillment for a laptop request.
 
 2.  Click **New Workflow**.
 
-    ![Service catalog workflow form](../image/ServiceCatalogWorkflowForm.png "Service catalog workflow form")
+    \[Omitted image "ServiceCatalogWorkflowForm.png"\] Alt text: Service catalog workflow form
 
 3.  Complete the form with the following information.
 
@@ -101,12 +102,12 @@ Description
 </td></tr></tbody>
 </table>4.  Click **Submit**.
 
-    ![Service catalog workflow form activities](../image/ServiceCatalogWorkflowFormActivities.png "Service catalog workflow form activities")
+    \[Omitted image "ServiceCatalogWorkflowFormActivities.png"\] Alt text: Service catalog workflow form activities
 
 
 ## What to do next
 
 After initiating a workflow, add workflow activities to it. Workflow activities are listed on the **Core** tab in the right pane.
 
-**Parent Topic:**[Service catalog workflows](../concept/c_ServiceCatalogWorkflowDefinition.md)
+**Parent Topic:**[Service catalog workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogWorkflowDefinition.md)
 

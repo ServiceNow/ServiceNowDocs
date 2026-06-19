@@ -2,6 +2,7 @@
 title: Components installed for Advanced Work Assignment for Legal Service Delivery reference
 description: Several types of components are installed with activation of the Advanced Work Assignment for Legal Service Delivery plugin application, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-components-installed-awa.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Advanced work assignment for Legal Service Delivery, Int
 
 Several types of components are installed with activation of the Advanced Work Assignment for Legal Service Delivery plugin application, including user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 
@@ -41,9 +42,8 @@ Provides administrative access to Advanced Work Assignment for legal application
 
 </td><td>
 
--   awa\_admin
--   sn\_lg\_ops.legal\_user
+sn\_lg\_ops.legal\_user**Note:** To enable a user with the sn\_lg\_awa.admin role to configure Advanced Work Assignment, add the awa\_admin role as a contained role of sn\_lg\_awa.admin on your instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Advanced Work Assignment for Legal Service Delivery reference](../concept/lsd-awa-reference-landing.md)
+</table>**Parent Topic:**[Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-awa-reference-landing.md)
 

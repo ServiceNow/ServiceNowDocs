@@ -2,13 +2,14 @@
 title: Install ATF troubleshooting agent
 description: Install the Now Assist for Creator application from the ServiceNow Store to get the ATF troubleshooting agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/test-agent-install.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Install ATF troubleshooting agent
@@ -36,12 +37,12 @@ Role required: admin
 
     1.  Navigate to **Admin** &gt; **Now Assist Admin**.
 
-    2.  Go to the **Now Assist Skills** tab and select **Creator**.![ATF troubleshooting agent is listed as Now Assist for Creator skills.](../images/atf-troubleshooting-agent.png)
+    2.  Go to the **Now Assist Skills** tab and select **Creator**.\[Omitted image "atf-troubleshooting-agent.png"\] Alt text: ATF troubleshooting agent is listed as Now Assist for Creator skills.
 
     3.  Select **Turn on** to enable the skill.
 
     The skill is enabled for all users.
 
 
-**Parent Topic:**[ATF troubleshooting agent](../reference/atf-troubleshooting-agent-landing-page.md)
+**Parent Topic:**[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
 

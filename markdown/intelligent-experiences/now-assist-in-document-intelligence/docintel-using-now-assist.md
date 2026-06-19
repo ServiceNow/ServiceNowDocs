@@ -2,6 +2,7 @@
 title: Using Now Assist in Document Intelligence
 description: If you have an agent role, you can use the Now Assist in Document Intelligence workspace to analyze and extract information from your documents with generative AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/docintel-using-now-assist.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -18,7 +19,7 @@ If you have an agent role, you can use the Now Assist in Document Intelligence w
 
 The following diagram shows how the Now Assist in Document Intelligence skills are set up and used to process documents.
 
-![Diagram showing the document processing flow in Now Assist in Document Intelligence.](../image/mmasset0020964-using-nadi-horizontal.png "Now Assist in Document Intelligence document processing workflow")
+\[Omitted image "mmasset0020964-using-nadi-horizontal.png"\] Alt text: Diagram showing the document processing flow in Now Assist in Document Intelligence.
 
 In this workflow:
 
@@ -29,8 +30,8 @@ In this workflow:
 -   The agent provides input to validate or correct the values predicted by Now Assist.
 -   The task is completed and the integrated workflow proceeds as defined.
 
--   **[Review extracted information in the Document Intelligence workspace](../task/review-extracted-information.md)**  
+-   **[Review extracted information in the Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/review-extracted-information.md)**  
 Use the Document Intelligence workspace to review the information that was extracted from a document or image file by Now Assist in Document Intelligence.
 
-**Parent Topic:**[Now Assist in Document Intelligence](docintel-nowassist-landing.md)
+**Parent Topic:**[Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md)
 

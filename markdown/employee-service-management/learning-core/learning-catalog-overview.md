@@ -2,6 +2,7 @@
 title: Learning catalog overview
 description: Learning catalog overview dashboard provides the learning catalog manager with a detailed view of the user activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/learning-catalog-overview.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -17,7 +18,7 @@ Learning catalog overview dashboard provides the learning catalog manager with a
 
 The Learning Catalog overview dashboard gives a bird's eye view of all the learning activity of the users to the Catalog manager.
 
-![Overview dashboard shows active users, in progress activities, total completions, content by status, and completion trends.](../image/learning-catalog-overview.png "Learning Catalog Overview")
+\[Omitted image "learning-catalog-overview.png"\] Alt text: Overview dashboard shows active users, in progress activities, total completions, content by status, and completion trends.
 
-**Parent Topic:**[Reporting solutions for Learning](reporting-solutions-learning.md)
+**Parent Topic:**[Reporting solutions for Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/reporting-solutions-learning.md)
 

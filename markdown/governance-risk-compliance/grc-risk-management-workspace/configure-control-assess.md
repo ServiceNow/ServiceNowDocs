@@ -2,6 +2,7 @@
 title: Configure a control effectiveness assessment
 description: Configure and publish a control effectiveness assessment to assess the effectiveness of controls in mitigating risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/configure-control-assess.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -31,7 +32,7 @@ Configure the control assessment criteria with details such as factors, the scor
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the control assessment form, see [Control Assessment form](../reference/control-assessment-form.md).
+    For a description of the field values on the control assessment form, see [Control Assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/control-assessment-form.md).
 
 4.  Select the Factors section and select **Edit**.
 
@@ -83,8 +84,8 @@ Configure the control assessment criteria with details such as factors, the scor
 
 The control assessment type is published.
 
--   **[Control Assessment form](../reference/control-assessment-form.md)**  
+-   **[Control Assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/control-assessment-form.md)**  
 Use the Control Assessment form in the Advanced Risk application to assess the effectiveness of controls in mitigating risks.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

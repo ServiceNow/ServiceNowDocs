@@ -2,6 +2,7 @@
 title: Viewing HR Performance Analytics Scoped
 description: HR Performance Analytics for the scoped version of HR Service Delivery helps you align resources and systems to strategic objectives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/viewing-hr-perf-analytics.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,13 +26,13 @@ After activating HR Performance Analytics, the collection job runs daily by defa
 
     -   \[PA HR Case\] Daily Data Collection
     -   \[PA HR Case\] Historic Data Collection
-    See [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md).
+    See Create or schedule a data collection job.
 
 -   **Indicators**
 
     Each job has indicators to make data collection efficient and defines what data to collect.
 
-    See [Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-job-indicator.md).
+    See Configure a job indicator.
 
 -   **View dashboards**
 
@@ -89,7 +90,7 @@ The **Performance Analytics** dashboard provides the following reports.
 -   More info: A description of the logic that generates the report, how often the job runs, and when the data was last collected.
 -   If a menu icon appears when you point your cursor to a chart, you can click the icon to export the chart to an image file.
 
-For more information about performance analytics and how to develop and modify widgets for your organization, see [Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PerformanceAnalytics.md) .
+For more information about performance analytics and how to develop and modify widgets for your organization, see Performance Analytics concepts .
 
-**Parent Topic:**[Performance Analytics for HR Service Delivery](../concept/scoped-hr-performance-analytics.md)
+**Parent Topic:**[Performance Analytics for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/scoped-hr-performance-analytics.md)
 

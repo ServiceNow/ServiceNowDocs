@@ -2,6 +2,7 @@
 title: Health tab in AI Control Tower
 description: Monitor the performance of guardrails enabled through Now Assist Guardian.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/aict-health-tab.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -18,7 +19,7 @@ Monitor the performance of guardrails enabled through Now Assist Guardian.
 
 The Health tab in the AI Control Tower dashboard helps you monitor and evaluate the effectiveness of offensive content and prompt injection guardrails active on your ServiceNow AI assets.
 
-![Health tab showing the metrics for offensive content and prompt injection guardrails.](../image/aict-health-tab.png "Health tab in AI Control Tower")
+\[Omitted image "aict-health-tab.png"\] Alt text: Health tab showing the metrics for offensive content and prompt injection guardrails.
 
 The visualizations on the Health tab provide the following insights.
 
@@ -36,13 +37,13 @@ Apply the filters on the dashboard to view guardrail activity for skills in a da
 
     This area of the dashboard shows the number of offensive content and prompt injection occurrences in the selected date range.
 
-    ![Visualization showing the total number of content items flagged for offensiveness and prompt injection.](../image/aict-health-total-content-flagged.png "Number of content items flagged")
+    \[Omitted image "aict-health-total-content-flagged.png"\] Alt text: Visualization showing the total number of content items flagged for offensiveness and prompt injection.
 
 -   **Percentage of content items flagged of total use**
 
     This area of the dashboard shows the percentage of requests and responses to and from the large language model \(LLM\) service that are flagged for offensiveness and prompt injection.
 
-    ![Visualization showing the percent of content items flagged for offensiveness and prompt injection.](../image/aict-health-total-percentage-content-flagged.png "Percentage of content items flagged of total use")
+    \[Omitted image "aict-health-total-percentage-content-flagged.png"\] Alt text: Visualization showing the percent of content items flagged for offensiveness and prompt injection.
 
 
 ## Offensive content visualizations
@@ -51,31 +52,31 @@ Apply the filters on the dashboard to view guardrail activity for skills in a da
 
     This area of the dashboard shows the average latency as a result of the active offensive content guardrail for the selected skills and date range.
 
-    ![Guardrail latency for offensiveness guardrail.](../image/aict-health-guardrail-latency-offensive-content.png "Guardrail-added latency for offensiveness")
+    \[Omitted image "aict-health-guardrail-latency-offensive-content.png"\] Alt text: Guardrail latency for offensiveness guardrail.
 
 -   **Percentage flagged as offensive**
 
     This area of the dashboard shows the percentage of requests and responses to and from the large language model \(LLM\) service that are flagged for offensive content.
 
-    ![Percentage of offensive content occurrences.](../image/aict-health-percentage-offensive-content.png "Percentage flagged as offensive")
+    \[Omitted image "aict-health-percentage-offensive-content.png"\] Alt text: Percentage of offensive content occurrences.
 
 -   **Total offensive content occurrences**
 
     This area of the dashboard shows the total number of offensive content occurrences for the selected skills and date range.
 
-    ![Total number of offensive content occurrences.](../image/aict-health-total-offensive-content.png "Total offensive content occurrences")
+    \[Omitted image "aict-health-total-offensive-content.png"\] Alt text: Total number of offensive content occurrences.
 
 -   **Categories of offensive content**
 
     This area of the dashboard shows a breakdown of offensive content occurrences by the categories. If content is deemed to be offensive under more than one category, for example, toxic and defamatory, the occurrence is counted individually toward both the categories. For more information on offensive content categories, see .
 
-    ![Visualization showing the categories of offensive content.](../image/aict-health-categories-offensive-content.png "Categories of offensive content")
+    \[Omitted image "aict-health-categories-offensive-content.png"\] Alt text: Visualization showing the categories of offensive content.
 
 -   **Offensive content occurrences by skill**
 
     This area of the dashboard shows the number of offensive content occurrences over time by the skills in which the content is detected.
 
-    ![Offensive content occurrences by skill.](../image/aict-health-offensive-content-occurrences-by-skill.png "Offensive content occurrences by skill")
+    \[Omitted image "aict-health-offensive-content-occurrences-by-skill.png"\] Alt text: Offensive content occurrences by skill.
 
 
 ## Prompt injection visualizations
@@ -84,24 +85,24 @@ Apply the filters on the dashboard to view guardrail activity for skills in a da
 
     This area of the dashboard shows the average latency as a result of the active prompt injection guardrail for the selected skills and date range.
 
-    ![Visualization showing the guardrail-added latency](../image/aict-health-guardrail-latency-prompt-injection.png "Guardrail-added latency for prompt injection")
+    \[Omitted image "aict-health-guardrail-latency-prompt-injection.png"\] Alt text: Visualization showing the guardrail-added latency
 
 -   **Percentage flagged as prompt injection**
 
     This area of the dashboard shows the percentage of requests and responses to and from the LLM service that are flagged for offensive content.
 
-    ![Visualization showing the percentage of requests and responses flagged as prompt injection.](../image/aict-health-percentage-prompt-injection.png "Percentage flagged as prompt injection")
+    \[Omitted image "aict-health-percentage-prompt-injection.png"\] Alt text: Visualization showing the percentage of requests and responses flagged as prompt injection.
 
 -   **Total prompt injection occurrences**
 
     This area of the dashboard shows the total number of offensive content occurrences for the selected skills and date range.
 
-    ![Total prompt injection occurrences.](../image/aict-health-total-prompt-injection.png "Total prompt injection occurrences")
+    \[Omitted image "aict-health-total-prompt-injection.png"\] Alt text: Total prompt injection occurrences.
 
 -   **Prompt injection occurrences by skill**
 
     This area of the dashboard shows the number of prompt injection occurrences over time by the skills where prompt injection attempts were detected.
 
-    ![Visualization showing the number of prompt injection occurrences by skill.](../image/aict-health-prompt-injection-by-skill.png "Prompt injection occurrences by skill")
+    \[Omitted image "aict-health-prompt-injection-by-skill.png"\] Alt text: Visualization showing the number of prompt injection occurrences by skill.
 
 

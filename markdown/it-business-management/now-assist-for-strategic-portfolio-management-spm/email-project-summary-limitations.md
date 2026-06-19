@@ -2,6 +2,7 @@
 title: Additional information on Project insights generation skill
 description: View the additional information about project insights generation skill such as column restrictions, date criteria, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/email-project-summary-limitations.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm

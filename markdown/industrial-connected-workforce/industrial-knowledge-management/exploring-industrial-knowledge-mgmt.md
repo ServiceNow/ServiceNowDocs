@@ -2,6 +2,7 @@
 title: Exploring Industrial Knowledge Management
 description: Industrial Knowledge Management for Industrial Connected Workforce \(ICW\) enables you to organize and manage your knowledge resources in a single place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-knowledge-management/exploring-industrial-knowledge-mgmt.html
 release: australia
 product: Industrial Knowledge Management
 classification: industrial-knowledge-management
@@ -25,5 +26,5 @@ Knowledge authors and knowledge managers can contribute to the knowledge base, w
 
 Knowledge articles can be linked to functional locations and equipment records. This association makes maintenance and troubleshooting guidance immediately accessible in the context of the asset that the operator is working on. You can manage these associations from the related lists on the knowledge article form.
 
-**Parent Topic:**[Industrial Knowledge Management](icw-knowledge-management-landing-page.md)
+**Parent Topic:**[Industrial Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-knowledge-management/icw-knowledge-management-landing-page.md)
 

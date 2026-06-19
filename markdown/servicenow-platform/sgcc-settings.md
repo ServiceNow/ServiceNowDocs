@@ -2,6 +2,7 @@
 title: Configuring Service Graph Connector settings in SGC Central
 description: You can view and configure settings for your Service Graph Connectors within the SGC Central view of the Service Graph Workspace or CMDB Workspace.Configure system properties for a Service Graph Connector within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-settings.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,7 +14,7 @@ breadcrumb: [Configuring SGC Central, SGC Central, Integrating third-party data 
 
 You can view and configure settings for your Service Graph Connectors within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 
-In SGC Central, you can configure Service Graph Connector settings related to system properties. See [Configure system properties for a Service Graph Connector in SGC Central](sgcc-settings.md#).
+In SGC Central, you can configure Service Graph Connector settings related to system properties. See [Configure system properties for a Service Graph Connector in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-settings.md).
 
 ## Configure system properties for a Service Graph Connector in SGC Central
 
@@ -27,7 +28,7 @@ Role required: admin
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  Select **Settings**.
 
@@ -41,6 +42,6 @@ Role required: admin
 
 6.  Select **Save**.
 
-7.  Repeat steps from [4](sgcc-settings.md#sys-prop-select) to [6](sgcc-settings.md#sys-prop-save) for any other property.
+7.  Repeat steps from [4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-settings.md) to [6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-settings.md) for any other property.
 
 

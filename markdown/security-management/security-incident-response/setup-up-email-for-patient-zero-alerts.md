@@ -2,6 +2,7 @@
 title: Set up email alerts for Patient 0 events
 description: Configure Zscaler Internet Access product to identify and scan for unknown, potentially malicious files, such as Patient 0 events so that you can protect your network from malicious files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/setup-up-email-for-patient-zero-alerts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,19 +30,13 @@ Patient O is an alert class that includes an unknown file that has been permitte
 
 2.  In the Inbound Email Configuration section, select the **Email receiving enabled** option.
 
-    ![Configuring inbound email.](../image/zscaler-inbound-email-config.png "Inbound email configuration")
-
-3.  Click **Save**.
+3.  Select **Save**.
 
 4.  Navigate to **System Mailboxes** &gt; **Administration** &gt; **Email Accounts**.
-
-    ![ServiceNow AI Platform SMTP email account.](../image/zscaler-smtp-email-account.png)
 
 5.  Select the **ServiceNow SMTP** email account.
 
     Note the user name. The user name that is identified here is the ServiceNow AI Platform email address that you use to configure in Zscaler for Patient 0 alerts.
-
-    ![User name for the ServiceNow AI Platform SMTP account.](../image/zscaler-user-name.png "User name for the ServiceNow AI Platform SMTP account")
 
 6.  Log in to the Zscaler Internet Access administration portal.
 
@@ -49,7 +44,7 @@ Patient O is an alert class that includes an unknown file that has been permitte
 
 7.  Navigate to **Administration** &gt; **Alerts** &gt; **Publish Alerts**.
 
-8.  Click **Add Alert Subscription**.
+8.  Select **Add Alert Subscription**.
 
 9.  On the form, fill in the fields.
 
@@ -58,6 +53,6 @@ Patient O is an alert class that includes an unknown file that has been permitte
     |Email|ServiceNow AI Platform SMTP account email address.|
     |Description|Field for adding more details about the Patient 0 alerts.|
 
-10. Click **Save**.
+10. Select **Save**.
 
 

@@ -2,6 +2,7 @@
 title: Request evidence during audits using Audit Workspace
 description: Request evidence at any stage during an audit using the Audit Workspace. The details about the items for which evidence is requested are also provided to the person responsible for providing the evidence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/request-evidence-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -23,7 +24,7 @@ Role required: sn\_audit.user
 
 1.  Navigate to **All** &gt; **Audit Workspace**.
 
-2.  In the Audit Workspace select the List icon \(![List](../../grc-cam-workspace/image/ws-list-icon.png)\).
+2.  In the Audit Workspace select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Navigate to **Evidence requests** &gt; **My request**.
 
@@ -213,7 +214,7 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](../../grc-audit/concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>6.  Save the form.

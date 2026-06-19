@@ -2,6 +2,7 @@
 title: Set up GRC Virtual Agent
 description: Set up the Governance, Risk, and Compliance Virtual Agent to request an exception to a policy or a control objective from the Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/grc-virtual-agent-for-policy-exception.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -43,8 +44,8 @@ A virtual agent chatbot enables customers to request an exception. The chatbot a
 
 6.  In the Filter Widget search field, type `Virtual Agent Service Portal Widget` and drag and drop the widget anywhere on the screen.
 
-    You can see the chat icon at the bottom-right of the screen.![Virtual agent chat icon](../image/chat_icon.png)
+    You can see the chat icon at the bottom-right of the screen.\[Omitted image "chat\_icon.png"\] Alt text: Virtual agent chat icon
 
 
-**Parent Topic:**[Policy and Compliance Management enhancement steps](../../grc-policy-compliance-implementation/concept/policy-compliance-optional-steps.md)
+**Parent Topic:**[Policy and Compliance Management enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md)
 

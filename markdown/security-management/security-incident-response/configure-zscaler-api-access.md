@@ -2,6 +2,7 @@
 title: Configure access to Zscaler Internet Access APIs
 description: Configure access to the Zscaler Internet Access server to authenticate the secure connection between the ServiceNow AI Platform instance and the Zscaler server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-zscaler-api-access.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

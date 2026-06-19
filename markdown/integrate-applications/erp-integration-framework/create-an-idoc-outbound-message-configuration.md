@@ -2,6 +2,7 @@
 title: Create an IDoc outbound message configuration in Zero Copy Connector for ERP
 description: Use IDoc outbound message configurations to create and change some SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/create-an-idoc-outbound-message-configuration.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -24,7 +25,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the outbound messages list by selecting the outbound messages icon ![](../image/erp-outbound-messages-icon.png) in the side panel.
+2.  Open the outbound messages list by selecting the outbound messages icon \[Omitted image "erp-outbound-messages-icon.png"\] Alt text: in the side panel.
 
 3.  Select **New**.
 
@@ -38,12 +39,12 @@ Role required: sn\_erp\_integration.erp\_admin
 
 8.  Specify the **Message type**, for example, ORDERS.
 
-    ![New outbound message configuration record with fields completed.](../image/erp-create-idoc-outbound-message1.png)
+    \[Omitted image "erp-create-idoc-outbound-message1.png"\] Alt text: New outbound message configuration record with fields completed.
 
-    For a detailed description of the field values, see [Outbound message configuration fields](../reference/erp-canvas-add-new-outbound-message-configuration-fields.md).
+    For a detailed description of the field values, see [Outbound message configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-outbound-message-configuration-fields.md).
 
 9.  Select **Save**.
 
 
-**Parent Topic:**[Create and change SAP business entities with IDoc](../concept/create-and-change-sap-business-entities-with-idoc.md)
+**Parent Topic:**[Create and change SAP business entities with IDoc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
 

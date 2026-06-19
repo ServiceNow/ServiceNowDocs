@@ -2,6 +2,7 @@
 title: Provide more details on your purchase from Employee Center
 description: Provide additional information on your purchase from Employee Center by answering the follow-up questions that the procurement specialist has posted regarding your order. Your response to these to-dos ensures that the procurement specialist understands your exact requirements and has all the necessary information before proceeding with the sourcing request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/provide-more-details-tasks-ec.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -44,5 +45,5 @@ You can provide more information on the queries that the procurement buyer has p
 
 You can view the completed task in the **Completed** tab.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

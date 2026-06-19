@@ -2,6 +2,7 @@
 title: Ingesting the sample IBM QRadar offenses
 description: You can ingest sample offenses for one or more selected IBM QRadar rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/qradar-ibm-create-profile-ingestion.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +30,7 @@ Role required: sn\_si.admin
 
     -   Retrieve most recent offenses: The three most recent offenses for the selected rules are retrieved.
     -   Select offenses based on offenses ID: Specify the offense ID for the offenses to be retrieved. You can specify a maximum of 3 offense ids separated by commas.
-    ![IBM QRadar: Create Profile: Mapping: Default](../image/ibm-qradar-profile-mapping-default.png)
+    \[Omitted image "ibm-qradar-profile-mapping-default.png"\] Alt text: IBM QRadar: Create Profile: Mapping: Default
 
 3.  Select **Fetch Sample Data** to pull the latest sample offense data from the IBM QRadar console for the selected offense rules.
 
@@ -76,7 +77,7 @@ Role required: sn\_si.admin
         -   source\_addresses \(source\_ip\)
     Select the **Fetch additional event and flow fields \(Optional\)** check box. You can fetch sample event and flow data from any active, valid custom event and flow fields. Specify the custom fields separated by commas as shown below:
 
-    ![IBM QRadar: Create Profile: Mapping: Custom](../image/ibm-qradar-profile-mapping-custom1.png)
+    \[Omitted image "ibm-qradar-profile-mapping-custom1.png"\] Alt text: IBM QRadar: Create Profile: Mapping: Custom
 
     Select **Fetch Sample Data**.
 

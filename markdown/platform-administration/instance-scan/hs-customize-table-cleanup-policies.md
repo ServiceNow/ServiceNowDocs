@@ -2,6 +2,7 @@
 title: Customize table cleanup policies
 description: Clean up previous scan results at a regular interval by customizing the table cleanup time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hs-customize-table-cleanup-policies.html
 release: australia
 product: Instance Scan
 classification: instance-scan

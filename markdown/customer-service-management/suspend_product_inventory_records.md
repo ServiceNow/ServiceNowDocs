@@ -2,9 +2,12 @@
 title: Suspend product inventory records
 description: Perform the Suspend operation on single or multiple product inventory records that result in the creation of orders or quotes on the CSM Configurable Workspace. By suspending a product inventory, you can pause your services for a period of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/suspend\_product\_inventory\_records.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---

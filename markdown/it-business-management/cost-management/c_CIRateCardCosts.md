@@ -2,6 +2,7 @@
 title: CI rate card costs
 description: CI rate card costs generate expense lines for configuration items on the associated rate cardYou can add a rate card cost to the CI rate card.You can remove a rate card cost on the CI Rate Card form.To prevent a cost from processing, clear the Active option. Use the option to make a rate card cost permanently inactive or to temporarily skip a cost from processing.Configuration item costs often change over time as facilities or vendor rates change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/c\_CIRateCardCosts.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -19,7 +20,7 @@ Costs associated with rate cards are stored in the Rate Card Cost \(`fm_ci_rate_
 
 Expense Line is active by default.
 
-**Parent Topic:**[CI rate cards](c_CIRateCards.md)
+**Parent Topic:**[CI rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_CIRateCards.md)
 
 ## Add a CI rate card cost
 

@@ -2,6 +2,7 @@
 title: Exclude Field Service technicians from being assigned work order tasks
 description: Exclude Field Service technicians from being assigned work order tasks with dynamic scheduling, or Schedule Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -19,7 +20,7 @@ Exclude Field Service technicians from being assigned work order tasks with dyna
 
 Role required: wm\_dispatcher, wm\_manager, wm\_admin
 
-If you’re using Technician Preferences for dynamic scheduling, then you must have the **Ignore Excluded Technician** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to ignore excluded technicians](prevent-excluded-agents.md).
+If you’re using Technician Preferences for dynamic scheduling, then you must have the **Ignore Excluded Technician** criterion added to your task filter to add preferred technicians. For more information, see [Example - configure dynamic scheduling to ignore excluded technicians](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/prevent-excluded-agents.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Microsoft SQL Server licensing in container deployments
 description: The Software Asset Management publisher pack for Microsoft supports licensing rules for Microsoft SQL Server products that are deployed across both on-premise and cloud environments using Docker containers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/microsoft-licensing-software-containers.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -27,15 +28,15 @@ The Software Asset Management application works in conjunction with the ServiceN
 
 The Software Asset Management application uses the resulting data to create corresponding software installation records for each of your discovered containers. You can then reconcile these container-based software installations to track and optimize the license compliance of the Microsoft SQL Server products that are deployed through each container.
 
-For more visibility into the Microsoft SQL Server products that are deployed through your Docker containers, view the [Licensable Software Products Deployed on Containers report](../reference/microsoft-licensable-software-products-deployed-containers-report.md).
+For more visibility into the Microsoft SQL Server products that are deployed through your Docker containers, view the [Licensable Software Products Deployed on Containers report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-licensable-software-products-deployed-containers-report.md).
 
-For more information on Docker discovery, see [Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c-docker-virtualization.md). For more information on Kubernetes discovery, see [Kubernetes discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md).
+For more information on Docker discovery, see Docker virtualization. For more information on Kubernetes discovery, see Kubernetes discovery.
 
 ## Supported licensing models
 
 The Microsoft publisher pack supports the following licensing models for Microsoft SQL Server products that are deployed through containers:
 
-**Note:** For more information on each licensing model, refer to [Supported Microsoft license types](../reference/supported-microsoft-license-types.md).
+**Note:** For more information on each licensing model, refer to [Supported Microsoft license types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/supported-microsoft-license-types.md).
 
 <table id="table_pmq_j3c_tvb"><thead><tr><th>
 
@@ -69,8 +70,8 @@ You must license each container using a server \(per instance or per server\) li
 -   To grant a set number of devices access to a physical server, regardless of how many users are accessing the server through those devices, use a device CAL license.
 
 </td></tr></tbody>
-</table>-   **[Licensable Software Products Deployed on Containers report](../reference/microsoft-licensable-software-products-deployed-containers-report.md)**  
+</table>-   **[Licensable Software Products Deployed on Containers report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-licensable-software-products-deployed-containers-report.md)**  
 You can use the Licensable Software Products Deployed on Containers report to gain visibility into the software products that are deployed across both on-premise and cloud environments using Docker containers.
 
-**Parent Topic:**[Software Asset Management publisher pack for Microsoft](microsoft-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 

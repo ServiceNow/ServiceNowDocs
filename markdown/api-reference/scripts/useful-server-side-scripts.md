@@ -2,6 +2,7 @@
 title: Server-side script use cases
 description: Use cases for server-side scripts include logging output, getting user objects, and modifying date/time values.A catalog item has been requested, and the attached workflow contains a run script activity that populates a value in the scratchpad. From a business rule running on the requested item, you want to retrieve or set scratchpad values.Assign a service catalog item to the database group if it uses a delivery plan that has a catalog task that is assigned to the desktop group.Often you may need to provide users with a way to specify when a task or process is due. Using the DurationCalculator script include, you can calculate the due date using either a simple duration or relative duration.How much work is required to complete a task can be expressed as a "relative duration".This business rule and script example demonstrate how to calculate a simple duration.An example of a relative duration calculation script.You can implement a relative duration by creating the cmn\_relative\_duration table and the DurationCalculator script include.The cmn\_relative\_duration table supports the definition of a due date as either a duration of time or a relative duration.In a business rule or other server script, the gs.getUser\(\) method returns a user object. The user object is an internal representation of the currently logged in user and provides information about the user and various utility functions.GSLog is a script include that simplifies script logging and debugging by implementing levels of log output, selectable by per-caller identified sys\_properties values.This example demonstrates how to modify a GlideDateTime field value using a server-side script.You can use custom queues for applications that create a large volume of events or events that take a long time to process. This task shows how to create a custom queue, its monitoring process, and use a script to send events to the queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/useful-server-side-scripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Useful scripts, Scripting, API implementation, API implementation a
 
 Use cases for server-side scripts include logging output, getting user objects, and modifying date/time values.
 
-**Parent Topic:**[Useful scripts](usefulScripts.md)
+**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/usefulScripts.md)
 
 ## Accessing the workflow scratchpad from business rules
 
@@ -111,7 +112,7 @@ Typically, setting a due date requires that you calculate work time rather than 
 10am-5pm on Monday (6 hours) + 8am-12pm on Tuesday (4 hours)
 ```
 
-For information on schedules, which you can use as inputs to DurationCalculator methods, see [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md).
+For information on schedules, which you can use as inputs to DurationCalculator methods, see Creating and using schedules.
 
 This script demonstrates how to use DurationCalculator to compute a due date.
 
@@ -193,7 +194,7 @@ To calculate a relative duration, the calendar and time zone must be considered 
 
 **Note:** Next business day is often defined by a starting day and time. For example, "next business day at 4pm if before 2pm" indicates that if the current time is after 2pm on a business day, then "Next business day" really means 2 business days since today does not count.
 
-For more information on relative durations, see [Define a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineARelativeDuration.md).
+For more information on relative durations, see .
 
 #### Calculating a simple duration
 
@@ -463,7 +464,7 @@ In a business rule or other server script, the gs.getUser\(\) method returns a u
 
 ### About this task
 
-For a list and description of the available scoped methods for the user object, see [GlideUser](../../../app-store/dev_portal/API_reference/GlideUser_global/concept/GUserAPI.md#).
+For a list and description of the available scoped methods for the user object, see [GlideUser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GUserAPI.md).
 
 ### Procedure
 
@@ -498,9 +499,9 @@ Logs can be at the level of debug, info, notice, warning, err, or crit \(after B
 
 Use for any server-side script where you want to implement event logging.
 
-For the API reference, see [GSLog\(\)](../../../app-store/dev_portal/API_reference/GSLogBoth/concept/GSLogBoth.md#).
+For the API reference, see [GSLog\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GSLogBoth.md).
 
-For more information, see [Debugging scripts](../../debugging/concept/script-debug-overview.md)
+For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md)
 
 ## Modify a GlideDateTime field value
 
@@ -547,14 +548,14 @@ gs.info('In ' + GlideSession.get().getTimeZoneName() + ": " + gdt.getDisplayValu
 
 See also:
 
--   [GlideDateTime](../../glide-server-apis/topic/p_GlideServerAPIs.md#)
--   [GlideDate - Global](../../../app-store/dev_portal/API_reference/GlideDate/concept/GlideDateAPI.md#)
--   [GlideDate - Scoped](../../../app-store/dev_portal/API_reference/glideDateScoped/concept/c_GlideDateScopedAPI.md#)
--   [GlideDateTime - Global](../../../app-store/dev_portal/API_reference/GlideDateTime/concept/c_GlideDateTimeAPI.md#)
--   [GlideDateTime - Scoped](../../../app-store/dev_portal/API_reference/glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#)
--   [GlideElement - Global](../../../app-store/dev_portal/API_reference/GlideElement_global/concept/c_GlideElementAPI.md#)
--   [GlideElement - Scoped](../../../app-store/dev_portal/API_reference/glideElement/concept/c_GlideElementScopedAPI.md#)
--   [GlideTime - Scoped](../../../app-store/dev_portal/API_reference/glideTimeScoped/concept/c_GlideTimeScopedAPI.md#)
+-   [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md)
+-   [GlideDate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideDateAPI.md)
+-   [GlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
+-   [GlideDateTime - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md)
+-   [GlideDateTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
+-   [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md)
+-   [GlideElement - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
+-   [GlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md)
 
 ## Using custom queues to process events
 
@@ -582,13 +583,13 @@ Role required: admin
 
     A new event is listed in the Events \[sysevent\] table.
 
-    In the following example, when the employeeOccasion event is generated, the event is added to my\_queue. The events are stuck in the queue. To resolve this issue, create a process to watch the queue for events.![Events table listing the event with the added queue listed in the queue field.](../image/queue-create-new-val.png)
+    In the following example, when the employeeOccasion event is generated, the event is added to my\_queue. The events are stuck in the queue. To resolve this issue, create a process to watch the queue for events.\[Omitted image "queue-create-new-val.png"\] Alt text: Events table listing the event with the added queue listed in the queue field.
 
 5.  Navigate to **System Scheduler** &gt; **Scheduled Jobs** &gt; **Scheduled Jobs** and open the scheduled job named **text index events process**.
 
-    ![Schedule table with *text in the Name search field and the name of the text index events process schedule highlighted.](../image/queue-create-process-locate.png)
+    \[Omitted image "queue-create-process-locate.png"\] Alt text: Schedule table with \*text in the Name search field and the name of the text index events process schedule highlighted.
 
-6.  Click the additional actions menu icon ![additional actions icon menu](../../../product/wsd-indoor-mapping/images/additional_icon.png)\)--&gt; and select **Insert and Stay** to create a copy of **text index events process**.
+6.  Click the additional actions menu icon \[Omitted image "additional\_icon.png"\] Alt text: additional actions icon menu\)--&gt; and select **Insert and Stay** to create a copy of **text index events process**.
 
     **Important:** Be sure to copy the job and not overwrite the **text index events process** Scheduled Job.
 
@@ -596,11 +597,11 @@ Role required: admin
 
 8.  In the **Job context** field, replace the value for the GlideEventManager\(\) parameter with the name of the new queue.
 
-    ![Schedule Item form showing the copied item renamed and the updated queue name for GlideEventManager in theJob context field.](../image/queue-create-process-name.png)
+    \[Omitted image "queue-create-process-name.png"\] Alt text: Schedule Item form showing the copied item renamed and the updated queue name for GlideEventManager in theJob context field.
 
     The queue monitoring process looks for and processes events in the example **my\_queue** event queue.
 
-    ![Events table highlighting the contents of the Processed and Queue fields.](../image/queue-create-processed.png)
+    \[Omitted image "queue-create-processed.png"\] Alt text: Events table highlighting the contents of the Processed and Queue fields.
 
 9.  Use the gs.eventQueue\(\) method's fifth parameter to send events to the custom queue.
 

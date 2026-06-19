@@ -2,6 +2,7 @@
 title: Configuring Smart Assessment from new templates
 description: Configure Smart Assessment questionnaires from new Smart Assessment templates and associate them with work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-sa-from-new-template.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -17,6 +18,6 @@ Configure Smart Assessment questionnaires from new Smart Assessment templates an
 
 The steps to configure Smart Assessment questionnaires from new templates are:
 
-1.  [Author and publish a Smart Assessment template](../task/create-a-smart-assessment-template.md)
-2.  [Create Smart Assessment questionnaires from new templates](../task/create-smart-assessment-questionnaire.md)
+1.  [Author and publish a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/create-a-smart-assessment-template.md)
+2.  [Create Smart Assessment questionnaires from new templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/create-smart-assessment-questionnaire.md)
 

@@ -2,6 +2,7 @@
 title: Execute the scheduled jobs
 description: Execute the scheduled jobs required for the main node relationships. After the scheduled jobs are executed, CSDM objects with their configured relationships are imported into Operational Resilience for reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/execute-sch-jobs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -41,7 +42,7 @@ Operational Resilience administrators can perform all the functions as the Opera
 
 Before running the scheduled job, verify that the relationships are set up for an object as shown in the following example.
 
-![CSDM objects.](../image/csdm-objects-rel.png)
+\[Omitted image "csdm-objects-rel.png"\] Alt text: CSDM objects.
 
 ## Procedure
 
@@ -54,7 +55,7 @@ Before running the scheduled job, verify that the relationships are set up for a
     1.  When the script is run, it cleans all the records in the staging tables. Staging tables are used in Operational Resilience to save the red flags, which are displayed on the dashboard.
     2.  Next, it updates the CSDM dependencies by calling the relationship API.
     3.  As the final step, it runs the configurations in parallel to ensure that the scheduled job completes quickly and loads the data efficiently.
-    ![Scheduled job.](../image/sch-job-csdm.png)
+    \[Omitted image "sch-job-csdm.png"\] Alt text: Scheduled job.
 
 3.  Select **Execute Now**.
 
@@ -76,6 +77,6 @@ Before running the scheduled job, verify that the relationships are set up for a
     -   sn\_oper\_res\_critical\_service\_outage
     -   sn\_oper\_res\_incident
     -   sn\_oper\_res\_issue
-    The business views are mapped into the entity hierarchy. Red flags for the entities, such as Failed controls, High risks, Issues, Vulnerability response, are displayed in the reports on the landing page. For more information, see [Business services overview tab](../../grc-operational-res-ws/concept/bs-ov.md).
+    The business views are mapped into the entity hierarchy. Red flags for the entities, such as Failed controls, High risks, Issues, Vulnerability response, are displayed in the reports on the landing page. For more information, see [Business services overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bs-ov.md).
 
 

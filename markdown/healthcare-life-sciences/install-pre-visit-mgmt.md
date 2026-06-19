@@ -2,6 +2,7 @@
 title: Install Pre-Visit Management
 description: You can install the Pre-Visit Management application \(sn\_previsit\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/install-pre-visit-mgmt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -35,7 +36,7 @@ The following items are installed with Pre-Visit Management:
 -   Scheduled jobs
 -   Business rules
 
-For more information, see [Components installed with Pre-Visit Management](../reference/pre-visit-components-installed.md).
+For more information, see [Components installed with Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-components-installed.md).
 
 ## Procedure
 
@@ -45,7 +46,7 @@ For more information, see [Components installed with Pre-Visit Management](../re
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
 

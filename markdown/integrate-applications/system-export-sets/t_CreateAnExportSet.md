@@ -2,6 +2,7 @@
 title: Create an export set
 description: Create an export set to export records from your instance to a file on a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/t\_CreateAnExportSet.html
 release: australia
 product: System Export Sets
 classification: system-export-sets
@@ -31,7 +32,7 @@ Role required: export\_set\_admin
 
 3.  In the **What to export** section, define what data to export in one of these ways.
 
-<table id="choicetable_hdz_2mk_vs"><tbody><tr><td id="d429455e92">
+<table id="choicetable_hdz_2mk_vs"><tbody><tr><td id="d426450e92">
 
 **Select __Yes__ and select an __Export Definition__ record.**
 
@@ -39,7 +40,7 @@ Role required: export\_set\_admin
 
 Use this configuration if you have already created an export definition record specifying what data to export.
 
-</td></tr><tr><td id="d429455e107">
+</td></tr><tr><td id="d426450e107">
 
 **Select __No__ and select a table to export data from.**
 
@@ -50,7 +51,7 @@ Use this configuration if you have not created an export definition record. A ne
 </td></tr></tbody>
 </table>4.  In the **Where to export to** section, define where you want to export data to in one of these ways.
 
-<table id="choicetable_thz_tzk_vs"><tbody><tr><td id="d429455e131">
+<table id="choicetable_thz_tzk_vs"><tbody><tr><td id="d426450e131">
 
 **Select __Yes__ and select an __Export Target__ record.**
 
@@ -58,7 +59,7 @@ Use this configuration if you have not created an export definition record. A ne
 
 Use this configuration if you have already created an export target record specifying where to export data to.
 
-</td></tr><tr><td id="d429455e146">
+</td></tr><tr><td id="d426450e146">
 
 **Select __No__ and select a MID Server, and specify a path on the MID Server to save the exported data to.**
 

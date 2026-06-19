@@ -2,11 +2,12 @@
 title: CMDB classes targeted in Service Graph Connector for Tanium
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Tanium. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-tanium-classes.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Tanium, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

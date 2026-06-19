@@ -2,6 +2,7 @@
 title: LDAP script examples
 description: The following script examples assume you use an Active Directory \(AD\) for your LDAP server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_LDAPScriptExamples.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

@@ -2,13 +2,14 @@
 title: Create configuration values for risk scores
 description: Use the Risk Score module to create configuration values for risk score bands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/risk-score-config.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing risks scores in Enterprise Asset Management, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring risk, Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create configuration values for risk scores
@@ -29,15 +30,15 @@ Role required: sn\_eam.enterprise\_admin
 
 3.  Fill in the form details.
 
-<table id="choicetable_or4_fxl_stb"><thead><tr><th align="left" id="d295319e83">
+<table id="choicetable_or4_fxl_stb"><thead><tr><th align="left" id="d76012e89">
 
 Field
 
-</th><th align="left" id="d295319e86">
+</th><th align="left" id="d76012e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d295319e92">
+</th></tr></thead><tbody><tr><td id="d76012e98">
 
 **Start**
 
@@ -45,7 +46,7 @@ Description
 
 Start value of the risk score band.
 
-</td></tr><tr><td id="d295319e101">
+</td></tr><tr><td id="d76012e107">
 
 **End**
 
@@ -53,7 +54,7 @@ Start value of the risk score band.
 
 End value of the risk score band. The value is automatically populated using the maximum likelihood and impact configuration values.
 
-</td></tr><tr><td id="d295319e110">
+</td></tr><tr><td id="d76012e116">
 
 **Label**
 
@@ -61,7 +62,7 @@ End value of the risk score band. The value is automatically populated using the
 
 Label of the risk score band.
 
-</td></tr><tr><td id="d295319e119">
+</td></tr><tr><td id="d76012e125">
 
 **Color**
 
@@ -87,5 +88,5 @@ Color depicting a risk score band. Following are the values to choose from:-   G
     To edit the records, select **Unfreeze**.
 
 
-**Parent Topic:**[Managing risks scores in Enterprise Asset Management](../concept/managing-eam-risk-scores.md)
+**Parent Topic:**[Managing risks scores in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 

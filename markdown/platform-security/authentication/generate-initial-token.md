@@ -2,11 +2,12 @@
 title: Generate Personal Auth Initiator URL
 description: Generate the initial token for a user who doesn’t have access to the credentials page to configure personal authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/generate-initial-token.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Personal authentication, Authentication, Access Management]
 ---
@@ -23,7 +24,7 @@ Role required: connection\_admin, oauth\_admin
 
 Users without the **connection\_admin** role can’t access the Credentials page to generate OAuth tokens. These users must generate a personal token using the `oauth_initiator` URL with additional parameter indicating that the token is personal and requested for session user.
 
-You can also use the scoped `PersonalAuthAPI` with the `sn_personal_auth` plugin to generate the initiator URL. For more information, see [PersonalAuthAPI - getInitiatorURL\(String aliasId\)](https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/app-store/dev_portal/API_reference/PersonalAuthAPI/concept/PersonalAuthAPIScoped.html#title_PerAuth-getInitiatorURL_S)
+You can also use the scoped `PersonalAuthAPI` with the `sn_personal_auth` plugin to generate the initiator URL. For more information, see PersonalAuthAPI - getInitiatorURL\(String aliasId\)
 
 **Note:** If the personal authentication plugin \(`com.snc.sn_ihub_personal_auth`\) is activated, use the scoped API to generate the initiator URL. This. API is available only if the plugin is installed.
 

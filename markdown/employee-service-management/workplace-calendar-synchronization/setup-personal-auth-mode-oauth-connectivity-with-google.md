@@ -2,13 +2,14 @@
 title: Set up personal authentication mode OAuth connectivity with Google
 description: Create a personal authentication mode application registry for Google Calendar with your instance for OAuth authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-google.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a personal authentication mode connection for Google, Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a personal authentication mode connection for Google, Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Set up personal authentication mode OAuth connectivity with Google
@@ -17,11 +18,11 @@ Create a personal authentication mode application registry for Google Calendar w
 
 ## Before you begin
 
-[Authenticate Google for calendar synchronization](../task/authenticate-google-for-calendar-sync.md)
+[Authenticate Google for calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/authenticate-google-for-calendar-sync.md)
 
 Ensure that the application scope is set to **Google Calendar Spoke**. Otherwise, do the following:
 
-1.  Select the Application scope icon \(![Application scope to set the scope of your application.](../image/application-scope-globe-icon.png)\) on the top-right corner of your Employee Center homepage.
+1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope to set the scope of your application.\) on the top-right corner of your Employee Center homepage.
 2.  In the drop- down, select the option consisting **Application scope:**.
 3.  In the filter navigator, search and select **Google Calendar Spoke**.
 4.  Refresh the page.

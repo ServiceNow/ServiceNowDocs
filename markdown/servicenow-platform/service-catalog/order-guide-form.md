@@ -2,6 +2,7 @@
 title: Order guide form
 description: Description of the fields on the Order guide form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/order-guide-form.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -53,7 +54,7 @@ Two step
 
 </td><td>
 
-Check box to enable two step ordering instead of the default [three-step ordering](../task/t_OrderProcess.md#), omitting the final step. With two step ordering, selecting **Check out** submits the request immediately, then displays the order confirmation screen. This is not applicable for Service Portal.
+Check box to enable two step ordering instead of the default [three-step ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_OrderProcess.md), omitting the final step. With two step ordering, selecting **Check out** submits the request immediately, then displays the order confirmation screen. This is not applicable for Service Portal.
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Meta
 
 </td><td>
 
-Comma-separated list of tags used to search for the order guide. See [Configure keyword search for catalog items](../task/search-catalog-item.md).
+Comma-separated list of tags used to search for the order guide. See [Configure keyword search for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/search-catalog-item.md).
 
 </td></tr><tr><td>
 
@@ -192,7 +193,7 @@ If selected, a toggle is displayed for each catalog item in the **Choose Options
  For upgrade customers, this option is selected by default only for new order guides.
 
 </td></tr></tbody>
-</table>For information about creating an order guide, see [Create an order guide](../task/t_CreateAnOrderGuide.md).
+</table>For information about creating an order guide, see [Create an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAnOrderGuide.md).
 
-**Parent Topic:**[Service Catalog Reference](../concept/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
 

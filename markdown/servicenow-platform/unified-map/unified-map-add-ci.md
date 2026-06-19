@@ -2,6 +2,7 @@
 title: Add a CI to a map using the map editor
 description: You can view an existing CI on the map to enable you to create, modify, or delete its connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-add-ci.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -31,10 +32,10 @@ Role required: sn\_cmdb\_admin or sn\_cmdb\_editor
 
 ## Procedure
 
-1.  While working in a map, select the edit map icon ![](../image/icon-um-edit-map.png) and then take one of the following actions:
+1.  While working in a map, select the edit map icon \[Omitted image "icon-um-edit-map.png"\] and then take one of the following actions:
 
     -   Select and hold \(or right-click\) in an empty spot on the map and select **Add CI**.
-    -   Select the Add CI icon ![](../image/icon-um-add-ci.png).
+    -   Select the Add CI icon \[Omitted image "icon-um-add-ci.png"\].
 2.  On the Add a CI panel, specify the class of CI to add.
 
 3.  Define a filter that will generate a list of CIs of the class that you specified.
@@ -43,7 +44,7 @@ Role required: sn\_cmdb\_admin or sn\_cmdb\_editor
 
     2.  Save the condition set as a custom filter for future use.
 
-        Select the save custom icon ![](../image/icon-um-save-custom.png) and specify a name for the filter. You can select the filter whenever you add a CI.
+        Select the save custom icon \[Omitted image "icon-um-save-custom.png"\] and specify a name for the filter. You can select the filter whenever you add a CI.
 
 4.  To add a CI that is already connected to another CI on the map, select **Add to map** or skip this step for a CI that is not yet connected to another CI on the map.
 
@@ -51,9 +52,9 @@ Role required: sn\_cmdb\_admin or sn\_cmdb\_editor
 
 5.  To add a CI that is not yet connected to another CI on the map, select **Add to map and connect**.
 
-    The map re-centers on the added CI and the Manage connection panel ![](../image/icon-um-edit-connection.png) opens.
+    The map re-centers on the added CI and the Manage connection panel \[Omitted image "icon-um-edit-connection.png"\] opens.
 
-6.  On the Manage connection panel \(![](../image/icon-um-edit-connection.png)\), specify the settings.
+6.  On the Manage connection panel \(\[Omitted image "icon-um-edit-connection.png"\]\), specify the settings.
 
 <table id="table_qwp_hq5_k2c"><thead><tr><th>
 
@@ -69,7 +70,7 @@ Source CI
 
 </td><td>
 
-You can select the swap icon ![](../image/icon-um-edit-swap.png) to swap source and target.
+You can select the swap icon \[Omitted image "icon-um-edit-swap.png"\] to swap source and target.
 
  **Note:** In the context of a CI relationship, this is the parent CI.
 
@@ -79,7 +80,7 @@ Target CI
 
 </td><td>
 
-You can select the swap icon ![](../image/icon-um-edit-swap.png) to swap source and target.
+You can select the swap icon \[Omitted image "icon-um-edit-swap.png"\] to swap source and target.
 
  **Note:** In the context of a CI relationship, this is the child CI.
 

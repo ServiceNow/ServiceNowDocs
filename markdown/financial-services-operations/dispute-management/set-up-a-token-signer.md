@@ -2,12 +2,14 @@
 title: Set up a Token Signer
 description: Configure a token signer to enable secure JWT-based authentication for tokenizer service integration. This task involves creating an OAuth entity profile with JWT Bearer grant type, setting up OAuth credentials, and establishing a connection alias that links to your tokenizer service endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-a-token-signer.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [set up token signer, data token signer, jwt bearer grant type, oauth entity profile, token signing, context-aware authorization, carddatasecurity datatokensigner, token signer configuration, jwt bearer authentication]
 breadcrumb: [Set up OAuth for Card Data Security, Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -23,10 +25,10 @@ Complete set up for context-aware authorization in the tokenizer service. See [I
 
 Perform the following set up tasks for the token signer:
 
--   [Create a JKS file](create-a-jks-file.md)
--   [Create an X.509 Certificate](create-an-x-509-certificate.md)
--   [Set up a JWT key](set-up-a-jwt-key.md)
--   [Set up a JWT Provider](set-up-a-jwt-provider.md)
+-   [Create a JKS file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-a-jks-file.md)
+-   [Create an X.509 Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-an-x-509-certificate.md)
+-   [Set up a JWT key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-key.md)
+-   [Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md)
 
 **Note:** Ensure you are using the Token Signing credentials JSON file from the tokenizer service when performing the above set up tasks.
 
@@ -40,13 +42,13 @@ Perform the following set up tasks for the token signer:
     |-----|-----|
     |**Grant type**|JWT Bearer|
     |**OAuth provider**|&lt;The OAuth provider for the client bearer token&gt;|
-    |**JWT Provider**|&lt;The Token Signing JWT Provider created from the task [Set up a JWT Provider](set-up-a-jwt-provider.md)&gt;|
+    |**JWT Provider**|&lt;The Token Signing JWT Provider created from the task [Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md)&gt;|
 
 3.  Select **Submit**.
 
 4.  In the OAuth Entity Profiles list, verify **Is default** is set to `false`.
 
-5.  [Set up an OAuth Credential](set-up-an-oauth-credential.md).
+5.  [Set up an OAuth Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-credential.md).
 
     In the **OAuth entity profile** field, select the OAuth entity profile created earlier in this procedure.
 

@@ -2,6 +2,7 @@
 title: Configure profiles and security incidents for the FireEye HX integration
 description: After you create a profile and select the FireEye HX capabilities that you want the profile to run, configure the settings so that the profile can be invoked only under the defined conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-profiles-security-incidents-for-fireeye-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -43,21 +44,21 @@ Configure the profile so that it runs only when the conditions you specify are f
         -   Select the **Define Alternative Field** option to define an alternative input field.
         -   Select the input field from the **Alternate CI Trigger Field**.
 
-            **Note:** For more information, see [Understand how trigger conditions work with a configuration item](../concept/understand-trigger-conditions-work-with-configuration-item.md).
+            **Note:** For more information, see [Understand how trigger conditions work with a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/understand-trigger-conditions-work-with-configuration-item.md).
 
-        ![Additional Configuration section for FireEye Capability Profile.](../image/additional-config.png)
+        \[Omitted image "additional-config.png"\] Alt text: Additional Configuration section for FireEye Capability Profile.
 
     -   **Tags**: You can optionally tag security incidents with the FireEye HX profile initiated, profile completed, and profile failed tags.
 
         Select the **Display Tag** check box to enable tagging security incidents, profile name is prefixed on enabling the tag. By default, this option is disabled for all profiles.
 
-        ![Enabling Tags for security incidents.](../image/display-tag.png)
+        \[Omitted image "display-tag.png"\] Alt text: Enabling Tags for security incidents.
 
     -   **Approvals**: Select the **Require Approval** check box to provide an extra level of control when using the FireEye HX capabilities for isolating host machines, restoring them to the network, and to get the files.
 
         The approvals option in the profile configuration appears only for Isolate Host, Remove Host Isolation, and Get File capabilities.
 
-        ![Setting up parameters in the Approval section.](../image/approval-checkbox.png)
+        \[Omitted image "approval-checkbox.png"\] Alt text: Setting up parameters in the Approval section.
 
 4.  Click **Done**.
 

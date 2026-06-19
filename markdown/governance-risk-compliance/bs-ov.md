@@ -2,6 +2,7 @@
 title: Business services overview tab
 description: The Business services overview tab in the Operational Resilience Workspace provides a comprehensive summary of active business services, highlighting any red flags or urgent issues, status of resilience activities like assessments, scenario analysis, self-attestations. It also offers suggestions for mitigating top risks or vulnerabilities and strengthening top controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bs-ov.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,13 +18,13 @@ The **Business services overview** tab in the Operational Resilience Workspace p
 
 Existing customers typically use the Service \(CMDB\) Main node configuration, while new customers use the Opres with CSDM header Main node configuration. Administrators show the **Business services overview** tab and hide the **Services overview** tab from the Operational Resilience Workspace view based on your organizational needs.
 
-![Overview.](../../grc-operational-res/image/bs-overview.png)
+\[Omitted image "bs-overview.png"\] Alt text: Overview.
 
 ## Summarized report on the business services
 
 The Business services report on the **Business services overview** tab provides a quick summary with precise metrics on the types of business services and their current status.
 
-![Status.](../../grc-operational-res/image/bs-status.png)
+\[Omitted image "bs-status.png"\] Alt text: Status.
 
 -   Active business services
 -   Business services by number of red flags
@@ -36,7 +37,7 @@ The Red flags report on the **Business services overview** tab shows the total n
 
 A sample Red flags report for the business services is shown in the example.
 
-![Red flags.](../../grc-operational-res/image/bs-red-flags.png)
+\[Omitted image "bs-red-flags.png"\] Alt text: Red flags.
 
 The following data is displayed for the business services in the report:
 
@@ -221,7 +222,7 @@ Top vulnerabilities to be fixed for the services. Source table for this report: 
 
 The Activities report on the **Business services overview** tab displays tasks and status for the following Operational Resilience activities for the business services.
 
-![Activities.](../../grc-operational-res/image/bs-activities.png)
+\[Omitted image "bs-activities.png"\] Alt text: Activities.
 
 -   Tasks
 -   Importance and impact assessments
@@ -232,7 +233,7 @@ The Activities report on the **Business services overview** tab displays tasks a
 
 The Suggestions report on the **Business services overview** tab offers recommendations and workarounds to mitigate issues and risks for various resilience metrics for the business services.
 
-![Suggestions.](../../grc-operational-res/image/bs-suggestions.png)
+\[Omitted image "bs-suggestions.png"\] Alt text: Suggestions.
 
 Depending on the applications integrated with Operational Resilience, suggestions are displayed in the report. For example, if you have installed the Policy and Compliance Management, Risk Management, and Vulnerability Response applications, the following suggestions are displayed in the report.
 

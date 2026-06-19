@@ -2,13 +2,14 @@
 title: Add a workplace contract location in Core UI
 description: Add a location that is covered by the contract to a workplace contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/add-lease-contract-location.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create workplace contracts in Core UI, Working with Workplace Lease Administration from the Core UI, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create workplace contracts in Core UI, Working with Workplace Lease Administration from the Core UI, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add a workplace contract location in Core UI
@@ -42,5 +43,5 @@ Role required: sn\_wsd\_la.manager or sn\_wsd\_la.admin
 
 The locations are added to the contract.
 
-**Parent Topic:**[Create workplace contracts in Core UI](create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/create-lease-contracts.md)
 

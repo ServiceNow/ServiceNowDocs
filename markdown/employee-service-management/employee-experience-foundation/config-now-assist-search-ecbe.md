@@ -2,6 +2,7 @@
 title: Set up Now Assist search in Browser Extension for Employee Center
 description: Set up the Now Assist Virtual Agent search profile on the Browser Extension for Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-now-assist-search-ecbe.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ Set up the Now Assist Virtual Agent search profile on the Browser Extension for 
 
 Role required: sn\_ex\_brw\_ext.ecbe\_admin
 
-Now Assist Virtual Agent plugin \(sn\_nowassist\_va\) version 9.0 must be installed to avail the Now Assist search functionality and the conversational flow in the Browser Extension for Employee Center. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+Now Assist Virtual Agent plugin \(sn\_nowassist\_va\) version 9.0 must be installed to avail the Now Assist search functionality and the conversational flow in the Browser Extension for Employee Center. For more information, see .
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Testing support for playbooks
 description: The Automated Test Framework \(ATF\) can be used to create automated tests to confirm your playbooks run as planned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/testing-support-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,12 +16,12 @@ breadcrumb: [Running Playbooks, Playbooks, Workflow Studio, Build workflows]
 
 The Automated Test Framework \(ATF\) can be used to create automated tests to confirm your playbooks run as planned.
 
-For more information about the Automated Test Framework, see [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md).
+For more information about the Automated Test Framework, see .
 
--   **[Configure testing support for playbooks](../task/config-playbook-test-sup.md)**  
+-   **[Configure testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/config-playbook-test-sup.md)**  
 Configure the Automated Test Framework \(ATF\) to support testing playbooks by authoring tests in the ATF UI on your ServiceNow instance.
--   **[Run an automated test on a playbook](../task/run-atf-test-on-playbook.md)**  
+-   **[Run an automated test on a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/run-atf-test-on-playbook.md)**  
 After creating your test and adding steps, run and monitor the progress of your automated test.
 
-**Parent Topic:**[Running Playbooks](../../workspace/concept/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

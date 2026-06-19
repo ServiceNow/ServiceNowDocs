@@ -2,6 +2,7 @@
 title: View suggested mentors
 description: Enrolled Mentees can instantly view Mentor suggestions based on their enrollment preferences and also view additional match insights and mentor expertise to be able to choose an appropriate mentor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/view-suggested-mentors.html
 release: australia
 product: Mentoring
 classification: mentoring
@@ -17,9 +18,9 @@ Enrolled Mentees can instantly view Mentor suggestions based on their enrollment
 
 ## Before you begin
 
-Enroll as a mentee. See [Enroll as a mentor or mentee](enroll-mentoring.md).
+Enroll as a mentee. See [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/enroll-mentoring.md).
 
-Add mentee preferences. See [Add mentee preferences](add-preferences-mentee.md).
+Add mentee preferences. See [Add mentee preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/add-preferences-mentee.md).
 
 Role required: none
 

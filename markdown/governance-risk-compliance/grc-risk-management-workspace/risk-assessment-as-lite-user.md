@@ -2,6 +2,7 @@
 title: Privacy risk management
 description: As users of Privacy Management, you can perform advanced risk assessments with a limited set of features even if you do not have the complete license for Integrated Risk Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-as-lite-user.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -19,12 +20,12 @@ To prioritize the areas that need attention, risk assessment is performed by var
 
 The following are the key points to consider when users use the limited advanced risk assessment for their risk assessments.
 
--   The lite users of other business units can only have two published [risk assessment methodologies](../task/configure-ram.md).
--   [Automated factors](factors.md) are available for use.
+-   The lite users of other business units can only have two published [risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-ram.md).
+-   [Automated factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/factors.md) are available for use.
 -   Managing risk events and using the risk identification workflow are not available in limited risk assessments.
 
--   **[Risk score rollup in Privacy Management](risk-rollup-in-bcm-privacy.md)**  
+-   **[Risk score rollup in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-in-bcm-privacy.md)**  
 When users of Privacy Management perform advanced risk assessments, they get the risk scores automatically rolled up.
 
-**Parent Topic:**[Advanced Risk Assessment](advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 

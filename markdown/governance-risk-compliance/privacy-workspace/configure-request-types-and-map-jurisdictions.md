@@ -2,13 +2,14 @@
 title: Configure request types and map jurisdictions
 description: Configure new privacy request types by adding a request type with relevant details, and then map it to a specific jurisdiction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/configure-request-types-and-map-jurisdictions.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Personal Data Rights \(PDR\) external-facing form, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Configure request types and map jurisdictions
@@ -47,4 +48,6 @@ Role required: sn\_grc\_pdr.pdr\_admin
     -   Regularly review and update jurisdiction mappings to stay compliant with changing regulations.
 6.  Select **Submit**.
 
+
+**Parent Topic:**[Configuring Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configuring-personal-data-rights.md)
 

@@ -2,11 +2,12 @@
 title: Contact Tracing
 description: The ServiceNow Contact Tracing application helps organizations reduce workplace transmission of infectious diseases, such as COVID-19, by identifying any on-site users who might have been in contact with an affected user. The user receives updates about the number of reported cases or symptoms in the location. A list of potentially exposed users is created from various data inputs, such as badge scans, Wi-Fi access logs, and daily contact logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/contact-tracing.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -32,15 +33,15 @@ In Contact Tracing version 1.29.4. and above, the navigation path is not availab
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
-    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 
 ## Use with other ServiceNow® Safe Workplace suiteand applications
 
 The Contact Tracing application provides enhanced capabilities and additional features with other Safe Workplace suite applications.
 
--   Emergency Outreach: Configure and send email and mobile notifications to users requesting them to submit [daily contact logs](employee-daily-log.md) and to get [responses for privacy consents](contact-tracing-user-privacy-options.md).
--   Emergency Exposure Management: Run a diagnostic report on affected users to identify potentially exposed users who might have interacted with the affected user. You can use multiple data sources to broaden the coverage of finding potential exposure. Review [tracing systems](../../business-continuity/concept/tracing-systems-exposure-mgnt.md) for data sources provided by Contact Tracing to see whether these tracing systems meet your business needs. You can modify these tracing systems or set up a new tracing system for your data source. For more information, see [Set up a tracing system for an exposure data source](../../business-continuity/task/set-up-tracing-system.md).
+-   Emergency Outreach: Configure and send email and mobile notifications to users requesting them to submit [daily contact logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/employee-daily-log.md) and to get [responses for privacy consents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing-user-privacy-options.md).
+-   Emergency Exposure Management: Run a diagnostic report on affected users to identify potentially exposed users who might have interacted with the affected user. You can use multiple data sources to broaden the coverage of finding potential exposure. Review [tracing systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/tracing-systems-exposure-mgnt.md) for data sources provided by Contact Tracing to see whether these tracing systems meet your business needs. You can modify these tracing systems or set up a new tracing system for your data source. For more information, see [Set up a tracing system for an exposure data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/set-up-tracing-system.md).
 -   Safe Workplace Dashboard: View the trend of active cases and potentially exposed contacts over a given time period for a campus or location. You can also get alerts to determine when the number of active cases is higher than the threshold in a particular campus or location.
 -   Emergency Self Report: A case is created automatically for a user who is reported to be in quarantine if no active case exists for the user at the time of reporting.
 -   Employee Readiness Core:
@@ -50,7 +51,7 @@ The Contact Tracing application provides enhanced capabilities and additional fe
 
 ## Domain separation for the Contact Tracing application
 
-The Contact Tracing application supports domain separation at the Standard\* level. For more information, see [Domain separation and Contact Tracing](contact-tracing-domain-separation.md). For a deeper understanding of the support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+The Contact Tracing application supports domain separation at the Standard\* level. For more information, see [Domain separation and Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing-domain-separation.md). For a deeper understanding of the support levels, see Application support for domain separation.
 
 ## Notice regarding use by organizations
 
@@ -64,22 +65,22 @@ ServiceNow is offering this application to government agencies and their authori
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
 
--   **[Install Contact Tracing](../task/install-contact-tracing.md#)**  
+-   **[Install Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/install-contact-tracing.md)**  
 You can install Contact Tracing if you have the admin role.
--   **[Setting up Contact Tracing](set-up-contact-tracing.md)**  
+-   **[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md)**  
 Configure system properties, scheduled jobs, script includes, Wi-Fi access log integration, and outreach notifications to aggregate contact tracing information for various data sources.
--   **[Maintaining user data privacy in Contact Tracing](contact-tracing-user-privacy-options.md)**  
+-   **[Maintaining user data privacy in Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing-user-privacy-options.md)**  
 The Contact Tracing application enables your organization to maintain the data privacy of all users given the high sensitivity of the data collected throughout the contact tracing process.
--   **[Collecting user badge data](badge-management.md)**  
+-   **[Collecting user badge data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/badge-management.md)**  
 In the Contact Tracing application, manage data for user badges and badge readers. Identify potentially exposed users who may have come in contact with affected users by importing their badge swipe data into the application.
--   **[Collecting risk scores in Contact Tracing](contact-tracing-collect-risk-scores.md)**  
+-   **[Collecting risk scores in Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing-collect-risk-scores.md)**  
 Identify at-risk and potentially exposed users by importing and monitoring risk scores from their wearable devices and external systems.
--   **[Retrieving Wi-Fi access log data](wifi-access-management.md)**  
+-   **[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/wifi-access-management.md)**  
 
--   **[Tracking employee contacts using daily logs](employee-daily-log.md)**  
+-   **[Tracking employee contacts using daily logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/employee-daily-log.md)**  
 After employees start returning to the workplace, use daily contact logs to help promote the health and safety of all your employees. Let employees submit a list of other people with whom they come in contact during the day. Send mobile and email push notifications to employees to submit their contact log for the day.
--   **[Managing cases to follow up with potentially exposed contacts](exposure-case-management.md)**  
+-   **[Managing cases to follow up with potentially exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/exposure-case-management.md)**  
 When an employee who returns to the workplace is classified as positive for a condition, such as COVID-19, the case manager creates a case to identify and follow up with potentially exposed contacts.
 
-**Parent Topic:**[Safe Workplace](../../human-resources/concept/safe-workplace.md)
+**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/safe-workplace.md)
 

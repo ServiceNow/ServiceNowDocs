@@ -2,6 +2,7 @@
 title: Order a Microsoft Azure DevOps catalog item
 description: Provision the Microsoft Azure DevOps catalog by using the Microsoft Azure DevOps catalog order form in the Cloud Services Catalog application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/azure-devops-pipeline-flow.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -17,7 +18,7 @@ Provision the Microsoft Azure DevOps catalog by using the Microsoft Azure DevOps
 
 ## Before you begin
 
-To use Microsoft Azure DevOps for Cloud Services Catalog, assign Azure DevOps and Cloud Management capabilities to the MID Server. For more information, see [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md).
+To use Microsoft Azure DevOps for Cloud Services Catalog, assign Azure DevOps and Cloud Management capabilities to the MID Server. For more information, see Configure MID Server capabilities.
 
 Set the deploymentID as variables in the AWS pipelines that you want to discover. The subscriptionID isn’t required for Microsoft Azure pipelines.
 
@@ -27,19 +28,19 @@ Role required: none
 
 ## About this task
 
-View this video to understand ADO deployment with Cloud Services CatalogFollow this short video to learn how to order an Azure DevOps catalog item.
+Follow this short video to learn how to order an Azure DevOps catalog item.
 
 ## Procedure
 
 1.  In the **Update variable** dialog box, override the pipeline variables by selecting the **Let users override this value when running this pipeline** check box.
 
-2.  ![Dialog box that has two options that you can select. You can either keep the value secret or to override the value when you run the pipeline.](../image/update-variable.png)
+2.  \[Omitted image "update-variable.png"\] Alt text: Dialog box that has two options that you can select. You can either keep the value secret or to override the value when you run the pipeline.
 
 3.  Navigate to **Employee Center** &gt; **Cloud Services** &gt; **Integrations** &gt; **CSC DevOps Integration**.
 
     Use this Azure DevOps Catalog item order form to call an ADO pipeline.
 
-    ![Ordering an Azure DevOps catalog item.](../image/ado-catalog-form.png)
+    \[Omitted image "ado-catalog-form.png"\] Alt text: Ordering an Azure DevOps catalog item.
 
 4.  On the form, fill in the **UserGroup** and **Change Request** fields.
 
@@ -71,5 +72,5 @@ View this video to understand ADO deployment with Cloud Services CatalogFollow t
 
 Verify that a blueprint approval policy \(CSC Content Approval Policy ADO Integration\) is applied on the Microsoft Azure DevOps catalog. This policy mandates that an approval must be obtained from the Change management group before any provisioning can take place.
 
-**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](../concept/integrating-azure-devops-and-cicd-pipeline.md)
+**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
 

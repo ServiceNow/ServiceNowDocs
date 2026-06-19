@@ -2,6 +2,7 @@
 title: Monitoring Workflow Data Fabric capability usage with Subscription Management
 description: You can monitor Workflow Data Fabric capability usage and the relative token use rate of each capability with Subscription Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/monitoring-wdf-capability-use.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ The **Column values** column has two comma-separated entries per row. The first 
 
 Match the entries under **Column names** to the entries under **Column values** to determine how many tokens are expended per Workflow Data Fabric capability.
 
-![Token ratio tab showingColumn names and Column values columns. All rows under Column names display "capability_id, exchange_value." Refer to the following example for more detail](../image/sub-mgt-wdf-token-ratio.png)
+\[Omitted image "sub-mgt-wdf-token-ratio.png"\] Alt text: Token ratio tab showingColumn names and Column values columns. All rows under Column names display "capability\_id, exchange\_value." Refer to the following example for more detail
 
 The first row under **Column values** displays "API\_ACCESS, 8." Because the entries under **Column values** correspond to capability\_id and exchange\_value from **Column names**, the capability\_id is "API\_ACCESS" and the exchange\_value is "8." In other words, a Workflow Data Fabric capability that requires API access expends eight tokens.
 

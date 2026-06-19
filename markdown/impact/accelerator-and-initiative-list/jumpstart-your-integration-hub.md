@@ -2,6 +2,7 @@
 title: Jumpstart Your Integration Hub
 description: This accelerator provides a demonstration of the possibilities and capabilities of Integration Hub, a part of Workflow Data Fabric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-integration-hub.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,6 +20,8 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator Overview
 
 Jumpstart Your Integration Hub provides Impact customers with an overview and applied demonstration of Integration Hub, external triggers, and spokes. It helps customers understand the value of building integrations using Integration Hub as part of the Workflow Data Fabric, while also providing key resources and leading practices to support successful implementation.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -51,6 +54,8 @@ Jumpstart Your Integration Hub provides Impact customers with an overview and ap
 |Subject Matter Expert\(s\)|Subject Matter Experts responsible for integration.|✓| |
 |Platform Architect|Provide a holistic view of the ServiceNow platform, processes, and other systems, including any necessary policy or organizational requirements.| |✓|
 |Trusted Service Partners|Attend ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

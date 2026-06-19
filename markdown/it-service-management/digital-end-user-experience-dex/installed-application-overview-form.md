@@ -2,6 +2,7 @@
 title: Installed application — Overview page
 description: The overview page for an installed application provides information on the active alerts, active incidents, current impacted devices, and the average-time-to-resolve for the incidents. Tracking the total active incidents can help you to monitor and manage the overall health of the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/installed-application-overview-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -74,5 +75,5 @@ Displays the total number of devices per version of the application.**Note:** Yo
 </td></tr></tbody>
 </table>**Note:** The Active Alerts and Incidents bar chart lets you quickly analyze application version distribution.
 
-**Parent Topic:**[Applications list](application-form.md)
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/application-form.md)
 

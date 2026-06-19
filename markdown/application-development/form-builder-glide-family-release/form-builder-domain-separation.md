@@ -2,6 +2,7 @@
 title: Domain separation and Table Builder
 description: Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/form-builder-domain-separation.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -25,7 +26,7 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of domain separation
 
@@ -47,10 +48,10 @@ In the global domain, a developer can expand the domain scope to see all form vi
 
 **Note:** Single section form records do not have a **sys\_ui\_forms** record attached to it. Instead, these records only have an attached **sys\_ui\_section** record until a second section is created. If a single section form has existing domain overrides, and the developer adds another section to the form, the existing domain overrides will break.
 
-**Parent Topic:**[Exploring Table Builder](exploring-fb.md)
+**Parent Topic:**[Exploring Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/exploring-fb.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

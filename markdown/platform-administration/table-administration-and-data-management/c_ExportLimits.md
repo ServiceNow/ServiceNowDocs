@@ -2,6 +2,7 @@
 title: Export limits
 description: The platform provides a default upper limit for data exports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_ExportLimits.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -15,7 +16,7 @@ breadcrumb: [Data export reference, Exporting data, Tables and data, Configure c
 
 The platform provides a default upper limit for data exports.
 
-The purpose of the upper limit is to avoid creating performance issues when a table is excessively large. If you must export more records than the threshold permits, [Break up a large export](../task/t_BreakUpALargeExport.md) into separate manageable chunks.
+The purpose of the upper limit is to avoid creating performance issues when a table is excessively large. If you must export more records than the threshold permits, [Break up a large export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_BreakUpALargeExport.md) into separate manageable chunks.
 
 ## Export limit properties
 
@@ -23,7 +24,7 @@ You can set the number of records to return during an export using the **sysparm
 
 However, the system analyzes the following settings to determine whether an export limit should be applied.
 
-1.  First, the platform checks the property that defines the format-specific export limit. Each format can have a different limit. Although this property can be set to any value, exceeding the default export limit can impact system performance. You may want to set the property at or below the default limit and have users [Break up a large export](../task/t_BreakUpALargeExport.md) to export large amounts of data.
+1.  First, the platform checks the property that defines the format-specific export limit. Each format can have a different limit. Although this property can be set to any value, exceeding the default export limit can impact system performance. You may want to set the property at or below the default limit and have users [Break up a large export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_BreakUpALargeExport.md) to export large amounts of data.
 2.  If the format-specific property is not set, the system checks the property for the general export limit. This property can also be set to any value, but exceeding the default export limit can impact system performance.
 3.  If both the format-specific export limit and the general export limit property aren't set, the system enforces the default export limit.
 
@@ -206,7 +207,7 @@ glide.ui.export.limit
 10,000
 
 </td></tr></tbody>
-</table>A warning threshold property called **glide.ui.export.warn.threshold** controls how the records are exported. When you export enough records from a list to exceed the threshold, a choice dialog appears. You can choose to wait for the export to complete or email the exported records as an attachment. The warning threshold can be changed in the system property. The email attachment must not exceed the maximum [Email size limits](../../notification/concept/c_EmailAttachmentLimits.md).
+</table>A warning threshold property called **glide.ui.export.warn.threshold** controls how the records are exported. When you export enough records from a list to exceed the threshold, a choice dialog appears. You can choose to wait for the export to complete or email the exported records as an attachment. The warning threshold can be changed in the system property. The email attachment must not exceed the maximum [Email size limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_EmailAttachmentLimits.md).
 
 <table id="table_jyw_zvl_2r"><thead><tr><th>
 

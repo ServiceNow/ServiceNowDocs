@@ -2,6 +2,7 @@
 title: Export Set properties
 description: Multiple properties control export set behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/r\_ExportSetProperties.html
 release: australia
 product: System Export Sets
 classification: system-export-sets
@@ -33,11 +34,11 @@ For Excel files, option to format currency values to match the localization of t
 
  For example, say you've activated the I18N: French Canada Translations plugin on your instance, and you're exporting a currency value of 6300. If this property is set to true, the value will be correctly formatted as 6,300 €. If this property is set to false, the value will be formatted as € 6,300.
 
- For more information on localization, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md).
+ For more information on localization, see .
 
  -   Type: true \| false
 -   Default: false
--   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+-   Location: 
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ For Excel files, option to format duration fields in days, hours, minutes, and s
 
  -   Type: true \| false
 -   Default: false
--   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+-   Location: 
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ For XLSX files, controls the compression mode. When true, XSLX files are generat
 
  -   Type: true \| false
 -   Default: false
--   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+-   Location: 
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ For XLSX files, controls the compression mode. When true, XSLX files are generat
 
 When true, if a parent scheduled export set encounters an error, scheduled child export sets don't run.-   Type: true \| false
 -   Default: false
--   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+-   Location: 
 
 </td></tr><tr><td>
 

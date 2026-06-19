@@ -2,13 +2,14 @@
 title: Analytics and Reporting Solutions for Hardware Asset Management
 description: This Platform Analytics Solution contains preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.View the key metrics on your hardware and consumable models and assets for the entire asset life cycle in the Hardware Asset dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/hardware-asset-content-pack.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 ---
 
 # Analytics and Reporting Solutions for Hardware Asset Management
@@ -21,9 +22,9 @@ Use the Performance Analytics widgets on the dashboard to visualize data over ti
 
 **Note:** Solutions include some dashboards that are inactive by default. You can activate these dashboards to make them visible to end users according to your business needs.
 
-For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+For unlimited access to all features of this Platform Analytics Solution, purchase a Performance Analytics subscription. For more information, see Activating your Performance Analytics subscription.
 
-To use this Analytics and Reporting Solution, you must be entitled to use Performance Analytics with Hardware Asset Management. For more information about entitlements to Performance Analytics, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+To use this Analytics and Reporting Solution, you must be entitled to use Performance Analytics with Hardware Asset Management. For more information about entitlements to Performance Analytics, see Activating your Performance Analytics subscription
 
 This Out-of-the-box Performance Analytics Solution is available from the ServiceNow Store. To enable this solution, an admin navigates to **System Applications** &gt; **Search ServiceNow Store**. When the landing page for the ServiceNow Store opens, search for Hardware Asset Management. When you have found the Solution, follow the instructions in the Store. The ServiceNow Store has its own documentation.
 
@@ -46,7 +47,7 @@ The Performance Analytics dashboards available for Hardware Asset Management are
 
 Beginning with the Xanadu release, note the following points about the Core UI Performance Analytics dashboards:
 
--   The Procurement Overview and Asset Contract overview module links are redirected to [Hardware Asset Workspace](../../../product/hardware-asset-management/concept/using-ham-workspace.md).
+-   The Procurement Overview and Asset Contract overview module links are redirected to [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/using-ham-workspace.md).
 -   The following Next Experience Platform Analytics dashboard versions of the Asset Overview and My Assets Core UI Performance Analytics dashboards are available:
     -   Analytics Overview: You can access this dashboard by navigating to **Asset** &gt; **Analytics Overview**.
     -   My Assets Analytics: You can access this dashboard by navigating to **Self-Service** &gt; **My Assets Analytics**.
@@ -56,7 +57,7 @@ Beginning with the Xanadu release, note the following points about the Core UI P
 **Related topics**  
 
 
-[Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)
+[bundle-par.c_PremiumPerformanceAnalytics]
 
 ## Hardware Asset dashboard
 
@@ -85,7 +86,7 @@ This tab gives you an overview of hardware and consumable models that are missin
 |Asset incident Frequency|Incident \[incident\]|Assets that have been reported with frequent incidents.|
 |Active Assets - Not Discovered|Asset \[alm\_asset\]|Assets that aren’t discovered at all or not discovered within one month.|
 
-![Asset Health tab on the Hardware Dashboard.](../../../product/hardware-asset-management/image/asset-health.jpg "Asset Health tab")
+\[Omitted image "asset-health.jpg"\] Alt text: Asset Health tab on the Hardware Dashboard.
 
 ### Model Management tab
 
@@ -208,7 +209,7 @@ CDS table \[cds\_client\_schedule\]
 The days since the content service library was last downloaded on your instance and the days remaining for the next download to take place.
 
 </td></tr></tbody>
-</table>![Model Management tab on the Hardware Dashboard.](../image/model-management.png "Model Management tab")
+</table>\[Omitted image "model-management.png"\] Alt text: Model Management tab on the Hardware Dashboard.
 
 ### Procurement tab
 
@@ -275,7 +276,7 @@ Request \[sc\_request\]
 Requests that haven’t yet been addressed. Requests for which either a purchase order or a transfer order hasn’t been initiated.
 
 </td></tr></tbody>
-</table>![Procurement tab on the Hardware Dashboard.](../image/procurement-dashboard.png "Procurement tab")
+</table>\[Omitted image "procurement-dashboard.png"\] Alt text: Procurement tab on the Hardware Dashboard.
 
 ### Inventory tab
 
@@ -390,7 +391,7 @@ RMA Request Line \[sn\_hamp\_rma\_request\_line\]
 List of all the open RMA request lines.**Note:** The asset, itil, or inventory\_user role can only access the RMA Request Line \[sn\_hamp\_rma\_request\_line\] reports.
 
 </td></tr></tbody>
-</table>![Inventory tab on the Hardware Dashboard.](../image/inventory-dashboard.png "Inventory tab")
+</table>\[Omitted image "inventory-dashboard.png"\] Alt text: Inventory tab on the Hardware Dashboard.
 
 ### End of Life tab
 
@@ -487,5 +488,5 @@ Requested Item \[sc\_req\_item\]
 A list of Hardware Asset Refresh ordered.
 
 </td></tr></tbody>
-</table>![End of Life tab on the Hardware Dashboard.](../image/endoflife-dashboard.png "End of Life tab")
+</table>\[Omitted image "endoflife-dashboard.png"\] Alt text: End of Life tab on the Hardware Dashboard.
 

@@ -2,6 +2,7 @@
 title: Create an AI issue in the AI Control Tower
 description: Identify and manage issues related to the impacted areas for the reported AI case in the AI Control Tower.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-ai-issue-in-the-ai-control-tower.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -29,7 +30,7 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst or sn\_grc\_a
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Create New AI case, see [Create new AI issue form](create-a-new-ai-issue-form.md).
+    For a description of the field values on the Create New AI case, see [Create new AI issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-a-new-ai-issue-form.md).
 
 5.  Select **Save**.
 

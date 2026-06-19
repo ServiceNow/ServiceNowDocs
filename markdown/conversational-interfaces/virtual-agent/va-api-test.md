@@ -2,6 +2,7 @@
 title: Test your Virtual Agent API configuration
 description: Test your Virtual Agent API configuration using API testing tool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-api-test.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -53,8 +54,8 @@ API tests are a way to ensure that your API is behaving as you expect it to. To 
 
     You can check the response of your payload and your communication status in the response section.
 
-    -   If your instance is on asynchronous mode, you have to check enabling Virtual Agent API logging. See [Common errors in Virtual Agent API](../reference/virtual-agent-common-errors.md) for more information.
+    -   If your instance is on asynchronous mode, you have to check enabling Virtual Agent API logging. See [Common errors in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-common-errors.md) for more information.
     -   If your instance is on synchronous mode, you have to check the Body of the response.
 
-**Parent Topic:**[Configuring Virtual Agent API](../concept/configure-virtual-agent-api.md)
+**Parent Topic:**[Configuring Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent-api.md)
 

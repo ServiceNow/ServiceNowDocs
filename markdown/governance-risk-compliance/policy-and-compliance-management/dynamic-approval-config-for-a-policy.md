@@ -2,6 +2,7 @@
 title: Set up dynamic approval configuration on a policy record
 description: A policy is a set of guidelines and rules established by a business organization to govern its operations. Creating an approval configuration record for a policy enables you to define one or more approval levels and approval rules based on various dynamic conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/dynamic-approval-config-for-a-policy.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -48,7 +49,7 @@ This use case highlights the importance of integrating dynamic approval configur
 
 To use the approval configuration, the approval method on the policy should be selected as **Use approval rule** as shown in the following example.
 
-![Use approval rule.](../image/use-approval-rule.png)
+\[Omitted image "use-approval-rule.png"\] Alt text: Use approval rule.
 
 Approval configuration should be created for the policy and valid approval rules should be configured for the users.
 
@@ -64,13 +65,13 @@ You can set up various approval rules using the Approval Configurator:
 
 To set up approval configuration on a record, see the following sections.
 
-1.  To set up an approval configuration record, see [Set up an approval configuration record](../../grc-common/task/set-up-approval-configurator.md).
-2.  To assign an approval level for the approval configuration record, see [Assign an approval level for the approval configuration record](../../grc-common/task/set-up-approval-levels.md).
-3.  To set up an approval rule for the approval level in the approval configuration record, see [Set up an approval rule for the approval level](../../grc-common/task/set-up-approval-rules.md).
+1.  To set up an approval configuration record, see [Set up an approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.md).
+2.  To assign an approval level for the approval configuration record, see [Assign an approval level for the approval configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-levels.md).
+3.  To set up an approval rule for the approval level in the approval configuration record, see [Set up an approval rule for the approval level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-rules.md).
 
 **Note:**
 
-For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](../../grc-common/reference/roles-installed-with-approver-configurator.md).
+For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
 
 ## Roles required for creating policy approval rules
 
@@ -92,7 +93,7 @@ When you set up approval configuration on a policy record, the workflow contains
 
 The workflow steps are shown in the following example.
 
-![Approval configuration process.](../image/policy-approval-process.png)
+\[Omitted image "policy-approval-process.png"\] Alt text: Approval configuration process.
 
 If you are the policy owner, you can select the approvers for the policy in the **Approvers** field of the Policy form. The approvers are usually the users who have the Compliance User role. If you do not have proper access, you cannot access the policy record. To request access to the policy record, you must contact the Compliance Administrator.
 
@@ -102,7 +103,7 @@ To integrate dynamic approval configuration with a policy record, you can set up
 
 The workflow for integrating dynamic approval configuration with a policy is shown in the following example and steps.
 
-![Integrating dynamic approval configuration.](../image/integrating-approval-config-with-policy.png)
+\[Omitted image "integrating-approval-config-with-policy.png"\] Alt text: Integrating dynamic approval configuration.
 
 -   When an approval is requested for the policy, the state of the policy changes to the **Awaiting approval** state.
 -   The dynamic approval configuration searches for the approval configuration record that is suitable to the current policy.
@@ -111,7 +112,7 @@ The workflow for integrating dynamic approval configuration with a policy is sho
 
 The complete workflow is shown in the following example.
 
-![Workflow.](../image/approval-config-workflow.png)
+\[Omitted image "approval-config-workflow.png"\] Alt text: Workflow.
 
 ## Components used for dynamic approval configuration
 

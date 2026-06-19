@@ -2,6 +2,7 @@
 title: Integrate Continual Improvement Management using extension point
 description: Integrate CIM with other applications by using the CIMIntegrationAPI extension point. It defines the inbound and outbound extension points for integrating CIM with other applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/integrate-extension-api.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -45,7 +46,7 @@ The CIMIntegrationAPI defines the inbound and outbound extension points for inte
     -   For outbound integrations, add application names in the **var tables** parameter of the getOutboundIntegrationTables function.
     Enclose the values in single quotation marks and use commas to separate multiple values.
 
-    The following example shows integrating improvement initiatives from change requests with CIM by editing the inbound extension point of CIMIntegrationAPI.![Inbound integration of change requests using the CIMIntegrationAPI extension point](../image/cim-inbound-eg.png)
+    The following example shows integrating improvement initiatives from change requests with CIM by editing the inbound extension point of CIMIntegrationAPI.\[Omitted image "cim-inbound-eg.png"\] Alt text: Inbound integration of change requests using the CIMIntegrationAPI extension point
 
 8.  Save and update the record.
 
@@ -53,8 +54,8 @@ The CIMIntegrationAPI defines the inbound and outbound extension points for inte
 
 9.  For outbound integrations, configure related links on CIM task records to integrated applications.
 
-    For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
+    For more information, see .
 
 
-**Parent Topic:**[Applications integrated with Continual Improvement Management](../reference/cim-integration.md)
+**Parent Topic:**[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-integration.md)
 

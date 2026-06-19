@@ -2,11 +2,14 @@
 title: Reverse matching
 description: Reverse matching uses the same matching rules to match tasks to a resource rather than resources to a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ReverseMatching.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Route and assign cases, Administer, Customer Service Management]
+breadcrumb: [Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Reverse matching
@@ -38,9 +41,4 @@ The same matching rule can be used for both forward and reverse matching.
     MatchingRuleProcessor.processAndGetCandidates(resource, taskLimit, "sn_customerservice_case", "reverse", false, [<array of cases to consider>])
     ```
 
-
--   **[Limit the number of task sys\_ids returned for reverse matching rules](reverse-match-limit.md)**  
-Reverse matching rules return a list of case sys\_ids. Limit the number of cases returned by configuring the number in the reverse.matchingrule.entity.limit system property.
-
-**Parent Topic:**[Routing and assigning customer service cases](../concept/c_CaseRouting.md)
 

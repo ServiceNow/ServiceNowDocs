@@ -2,6 +2,7 @@
 title: Discrete replication
 description: Distinguish consumers in Instance Data Replication \(IDR\) using discrete mapping in a producer replication set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/discrete-producer-replication-sets.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -36,5 +37,5 @@ With bidirectional replication, records created on a consumer instance are repli
 
 When a record is manually added to consumer instance B with the Region field set to Asia, bi-directional replication sends the record from the consumer to the producer to be inserted, but the region field is overwritten and the value is changed to Europe. The discrete value that is defined in the producer replication set is used instead.
 
-For details on the implications with discrete mappings and data transfer between instances, see [data privacy in IDR](data-privacy-consumers-idr.md).
+For details on the implications with discrete mappings and data transfer between instances, see [data privacy in IDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/data-privacy-consumers-idr.md).
 

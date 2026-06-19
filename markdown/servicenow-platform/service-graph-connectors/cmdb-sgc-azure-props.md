@@ -2,12 +2,13 @@
 title: Service Graph Connector for Microsoft Azure properties
 description: Service Graph Connector for Microsoft Azure properties control the behavior of the connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Reference, Microsoft Azure, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -48,10 +49,18 @@ This property is used to filter Azure Databricks CIs using the Vendor tag provid
 
 Starting with the Service Graph Connector for Microsoft Azure 1.14.0 version, all Azure Databricks CIs that have the value of the Vendor tag set to `Databricks` are filtered out from discovery during a full data load.
 
-During delta loads, set the value of the **insert\_short\_lived\_vms** custom system property to `false` to filter Azure Databricks CIs that are marked as retired during discovery \(see [Custom system properties](cmdb-sgc-azure-props.md#section_rrf_frg_23c)\). Additionally, for each Hardware connection, set the **filter\_databricks** connection property to `true`.
+During delta loads, set the value of the **insert\_short\_lived\_vms** custom system property to `false` to filter Azure Databricks CIs that are marked as retired during discovery \(see [Custom system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.md)\). Additionally, for each Hardware connection, set the **filter\_databricks** connection property to `true`.
 
 -   Type: true \| false
 -   Default value: false
+
+</td></tr><tr><td>
+
+last\_full\_load\_date
+
+</td><td>
+
+Enable this property to run a delta data load on Hardware connections. When this property is deactivated, the next scheduled import automatically runs a full data load.​**Note:** Enable the **SG - Azure Hardware Clear Last success imports time** scheduled import job and set the run frequency to schedule regular full data loads. The default run frequency is `daily`. When this scheduled import job is enabled, the last\_full\_load\_date property is deactivated.
 
 </td></tr><tr><td colspan="2">
 
@@ -182,7 +191,7 @@ Set the partition size for Azure full data pull. This property determines the nu
 
 **Note:** If no value is specified, the property value is determined based on the number of active threads in the instance.
 
-See [Set partition size for parallel loading-enabled Azure accounts](../task/sgc-azure-partition-size-prop.md).
+See [Set partition size for parallel loading-enabled Azure accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-azure-partition-size-prop.md).
 
 </td></tr><tr><td>
 
@@ -214,7 +223,7 @@ Set the property to `false` to deactivate delta synchronization.-   Type: true \
 -   Default value: `false`
 -   Location: System Property \[sys\_properties\] table
 
-See [Configuring data synchronization in Service Graph Connector for Microsoft Azure](../concept/sgc-cmdb-azure-data-sync.md#).
+See [Configuring data synchronization in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-data-sync.md).
 
 </td></tr><tr><td>
 
@@ -336,12 +345,24 @@ Enter the maximum number of records fetched per page when importing the power st
 -   Default value: `1000`
 -   Location: System Property \[sys\_properties\] table
 
+</td></tr><tr><td>
+
+sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image
+
+</td><td>
+
+Set this property to `true` to import Cloud OS Image data to the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. When this property is set to `false`, Cloud OS Image data is imported to the Image \[cmdb\_ci\_os\_template\] table.For more information, see the [Service Graph Connector For Azure - Cloud OS Image model \[KB2828502\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2828502) article in the Now Support Knowledge Base.
+
+-   Type: true \| false
+-   Default value: `false`
+-   Location: System Property \[sys\_properties\] table
+
 </td></tr></tbody>
 </table>## Custom system properties
 
 You can create these custom system properties for the Service Graph Connector for Microsoft Azure. These properties must be created in the Service Graph Connector for Microsoft Azure application scope. The custom properties that you create are listed in the System Properties \[sys\_properties\] table.
 
-For more information about creating custom system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+For more information about creating custom system properties, see .
 
 <table id="table_r43_g5k_c3c"><thead><tr><th>
 
@@ -383,9 +404,9 @@ Set the value to `true` to add new resource types to the Service Graph Resource 
 </td></tr></tbody>
 </table>## Related content
 
-[Data mapping for Service Graph Connector for Microsoft Azure](cmdb-data-mapping-azure.md)
+[Data mapping for Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-data-mapping-azure.md)
 
-[CMDB classes targeted in Service Graph Connector for Microsoft Azure](cmdb-azure-classes.md)
+[CMDB classes targeted in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-azure-classes.md)
 
-**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](../concept/sgc-azure-reference.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-azure-reference.md)
 

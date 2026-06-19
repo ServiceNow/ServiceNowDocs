@@ -2,6 +2,7 @@
 title: Playbooks reference
 description: Guides, lists, tables and more that you can reference as you work with Playbooks and their associated components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/process-automation-designer-reference.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

@@ -2,13 +2,14 @@
 title: Create linear asset types
 description: Create linear asset types to categorize linear assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-linear-asset-types.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create linear asset types
@@ -44,6 +45,4 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
     The new linear asset type appears in the Linear asset types related list. If you don't see it in the related list, select the Refresh List icon on the right side of the page.
 
-
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
 

@@ -2,6 +2,7 @@
 title: Manage upcoming shifts with On-Call Scheduling
 description: As an On-Call Scheduling manager, view your team's schedule and perform activities like approving time-off requests and providing coverage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/manage-upcoming-shifts.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

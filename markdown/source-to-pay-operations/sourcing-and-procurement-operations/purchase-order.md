@@ -2,6 +2,7 @@
 title: Purchase order
 description: A purchase order is a binding contract between a buyer and a supplier that authorizes a purchasing transaction. It contains the descriptions, quantities, prices, applicable discounts, payment terms, delivery dates, and other associated terms and conditions with the supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-order.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -147,7 +148,7 @@ Shipping method
 
 </td><td>
 
-Details of the carrier, the applicable suppliers, and the valid delivery location countries for those suppliers.For more information on shipping methods and handling fees, see [Handling fees](../concept/handling-fees.md).
+Details of the carrier, the applicable suppliers, and the valid delivery location countries for those suppliers.For more information on shipping methods and handling fees, see [Handling fees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -243,7 +244,7 @@ The receipt fields \(**Received amount** and **Received percent**\) on the Accou
     -   When the acknowledgment type is service acknowledgment: The received amount is populated based on the approved invoice line amount. The received quantity and received percent are calculated based on the received amount.
     -   When the acknowledgment type is a two-way match: The received amount is populated with the line amount invoiced \(editable field\) when the status of the invoice line associated with the purchase order line is Invoice Confirmed. The received quantity and received percent are calculated based on the received amount.
 
-For more information on purchase order lines, see [Purchase order lines](../../accounts-payable-operations/reference/purchase-order-lines.md).
+For more information on purchase order lines, see [Purchase order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/purchase-order-lines.md).
 
 The following are the key related lists of a purchase order record:
 
@@ -277,7 +278,7 @@ Receipts
 
 </td><td>
 
-Provides details of the receipts created for this purchase order. For details, see [Receipts](receipts.md).This related list is visible for standard order type.
+Provides details of the receipts created for this purchase order. For details, see [Receipts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/receipts.md).This related list is visible for standard order type.
 
 </td></tr><tr><td>
 
@@ -285,7 +286,7 @@ Milestones
 
 </td><td>
 
-Provides details of the milestones for this purchase order. For details, see [Milestones](milestones.md).This related list is visible for standard order type.
+Provides details of the milestones for this purchase order. For details, see [Milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/milestones.md).This related list is visible for standard order type.
 
 </td></tr><tr><td>
 
@@ -293,7 +294,7 @@ Invoices
 
 </td><td>
 
-Provides details of the invoices generated for this purchase order. For details, see [Invoices](invoices.md).This related list is visible for standard order type.
+Provides details of the invoices generated for this purchase order. For details, see [Invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/invoices.md).This related list is visible for standard order type.
 
 </td></tr><tr><td>
 
@@ -301,7 +302,7 @@ Related Contracts
 
 </td><td>
 
-Provides details of related contracts associated for this purchase order. For details, see [Contracts](contracts.md).This related list is visible for standard order type.
+Provides details of related contracts associated for this purchase order. For details, see [Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/contracts.md).This related list is visible for standard order type.
 
 </td></tr><tr><td>
 
@@ -336,7 +337,7 @@ Purchase Order History
 List of purchase orders before the current revision. This related list is visible if the purchase order has revisions.
 
 </td></tr></tbody>
-</table>For a list of all purchase order states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md).
+</table>For a list of all purchase order states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-po-sr-states.md).
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

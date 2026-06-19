@@ -2,6 +2,7 @@
 title: Create a Service user to make calls from Microsoft Teams
 description: Create a service user role to be able to start online meetings on behalf of users in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/provide-app-access-policy-nc-st.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -54,19 +55,19 @@ Role required: Microsoft Teams admin
         connect-microsoftteams
         ```
 
-        ![PowerShell connect Teams command](../../meeting-extensibility/image/powershell-connect-teams-command.png)
+        \[Omitted image "powershell-connect-teams-command.png"\] Alt text: PowerShell connect Teams command
 
         Upon successful connection, a confirmation message is displayed in the browser.
 
-        ![Authentication message in browser](../../meeting-extensibility/image/authentication-message-browser.png)
+        \[Omitted image "authentication-message-browser.png"\] Alt text: Authentication message in browser
 
         PowerShell will also display the tenant details.
 
-        ![Powershell confirmation](../../meeting-extensibility/image/powershell-confirmation.png)
+        \[Omitted image "powershell-confirmation.png"\] Alt text: Powershell confirmation
 
 4.  Run the command below to create a new Application Access Policy in PowerShell.
 
-    Use the bot ID created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://servicenow.com/docs/bundle/utah-employee-service-management/page/product/notify2/task/create-app-ms-teams.html) as the AppId for the command.
+    Use the bot ID created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-app-ms-teams.md) as the AppId for the command.
 
     For more information on the application access policy, see [Configure application access to online meetings](https://learn.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
@@ -81,11 +82,11 @@ Role required: Microsoft Teams admin
     For Example: New-CsApplicationAccessPolicy -Identity "OnlineMeetingsAccessPolicy" -AppIds "aaaaaaaa-1234-er4r-8dc9-123456789012" -Description "Grant OnlineMeeting Application Permission"
     ```
 
-    ![App access policy in Powershell](../../meeting-extensibility/image/app-access-policy.png)
+    \[Omitted image "app-access-policy.png"\] Alt text: App access policy in Powershell
 
     Upon successfully creating the policy, the details are displayed in PowerShell.
 
-    ![App access policy success message in Powershell](../../meeting-extensibility/image/powershell-app-access-success.png)
+    \[Omitted image "powershell-app-access-success.png"\] Alt text: App access policy success message in Powershell
 
 5.  Run the user permission policy in PowerShell.
 
@@ -110,8 +111,8 @@ Role required: Microsoft Teams admin
         
         ```
 
-        ![User permissions](../../meeting-extensibility/image/powershell-user-permissions.png)
+        \[Omitted image "powershell-user-permissions.png"\] Alt text: User permissions
 
 
-**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](../concept/setup-notify-ms-teams-single-tenant.md)
+**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md)
 

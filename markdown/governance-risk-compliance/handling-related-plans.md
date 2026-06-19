@@ -2,6 +2,7 @@
 title: Associating related plans to a recovery task
 description: You can now associate related plans with recovery tasks, making it easier to identify and manage plans during recovery. You can then use auto-generated nested plans in an event, reducing the manual effort of adding plans and improving system performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/handling-related-plans.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ You can now associate related plans with recovery tasks, making it easier to ide
 
 For configuring cross-plan dependencies, you must associate related plans to a recovery task. Whenever a related plan is associated with a recovery task in an event, a new activated plan is created from this task.
 
-For more information on using nested plans in an event, see [Using nested plans](creating-nested-plan-in-event.md).
+For more information on using nested plans in an event, see [Using nested plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/creating-nested-plan-in-event.md).
 
-**Parent Topic:**[Add associated plans and recovery teams](../task/add-related-plans-recovery-teams-bcp-uib-ws.md)
+**Parent Topic:**[Add associated plans and recovery teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-related-plans-recovery-teams-bcp-uib-ws.md)
 

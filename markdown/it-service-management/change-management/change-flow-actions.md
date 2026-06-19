@@ -2,6 +2,7 @@
 title: Change Management Workflow Studio actions
 description: Use Workflow Studio actions as building blocks to handle the Change models and types. The flow actions are available under the ITSM spoke in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-flow-actions.html
 release: australia
 product: Change Management
 classification: change-management
@@ -67,5 +68,5 @@ Evaluates the Change Model associated with this change request against the curre
  Evaluating the change model evaluates all applicable conditions, determines if the state should be changed and changes it if one matches.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Change flows](change-flows.md)
+</table>**Parent Topic:**[Change flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-flows.md)
 

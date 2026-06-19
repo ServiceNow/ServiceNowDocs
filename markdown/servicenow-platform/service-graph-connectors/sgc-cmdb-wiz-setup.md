@@ -2,6 +2,7 @@
 title: Set up the Wiz environment
 description: You must obtain the credentials associated with the Wiz service account to configure Wiz for use with the Service Graph Connector for Wiz.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-setup.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

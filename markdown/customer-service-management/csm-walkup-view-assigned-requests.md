@@ -2,7 +2,10 @@
 title: Manage Walk-up Experience interactions manually
 description: Technicians supporting walk-up locations can manually manage queue requests with several CSM Walk-up Experience interaction-related modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-view-assigned-requests.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -19,7 +22,7 @@ Role required: sn\_csm\_walkup.walkup\_technician
 
 ## About this task
 
-Manage interactions manually using the CSM Walk-up Experience Technician modules found in the application navigator. To manage automatically assigned interactions from the CSM Configurable Workspace inbox, refer to [Manage automatically assigned Walk-up Experience interactions](csm-walkup-view-auto-assigned-requests.md).
+Manage interactions manually using the CSM Walk-up Experience Technician modules found in the application navigator. To manage automatically assigned interactions from the CSM Configurable Workspace inbox, refer to [Manage automatically assigned Walk-up Experience interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-view-auto-assigned-requests.md).
 
 Walk-up queues support guests in the order that they check into the queue — first come, first served. Technicians supporting the queue can decide who will work the first interaction. As new guests enter the queue and submit interactions, technicians share the workload, assigning queued interactions to themselves.
 

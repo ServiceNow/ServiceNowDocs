@@ -2,6 +2,7 @@
 title: Healthcare and Life Sciences Service Management glossary
 description: Learn about the terms and concepts that are unique to Healthcare and Life Sciences Service Management.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/glossary-hcls-sm.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -16,7 +17,7 @@ breadcrumb: [Reference, Healthcare and Life Sciences Service Management Core, He
 
 Learn about the terms and concepts that are unique to Healthcare and Life Sciences Service Management.
 
-**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](hcls-serv-mgmt-core-reference.md)
+**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core-reference.md)
 
 ## B
 

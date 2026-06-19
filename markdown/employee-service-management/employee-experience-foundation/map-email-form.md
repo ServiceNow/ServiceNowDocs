@@ -2,6 +2,7 @@
 title: Map email fields to a form
 description: Map email fields to form fields to pre-fill information and reduce the time taken to submit an incident or a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/map-email-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,9 +28,9 @@ Role required: sn\_outlook\_addin.outlook\_addin\_setup, sn\_hr\_sp.admin, sn\_h
 
 3.  On the Form Mappings Configurations form, fill in the fields.
 
-    For a description of the field values, see [Form Mapping Configurations form](../reference/form-mapping-config-form.md).
+    For a description of the field values, see [Form Mapping Configurations form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/form-mapping-config-form.md).
 
-    **Note:** The fields from Microsoft Outlook are based on the Extension Point Type selected in the manifest file. Ensure that the table matches the table in the office controls of the add-in manifest. For more information about the manifest, see [Create a manifest file](create-ms365-addin-manifest.md).
+    **Note:** The fields from Microsoft Outlook are based on the Extension Point Type selected in the manifest file. Ensure that the table matches the table in the office controls of the add-in manifest. For more information about the manifest, see [Create a manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-ms365-addin-manifest.md).
 
 4.  Save the form.
 
@@ -39,12 +40,12 @@ Role required: sn\_outlook\_addin.outlook\_addin\_setup, sn\_hr\_sp.admin, sn\_h
 
 6.  On the Office Mailbox to Form Field Mappings form, fill in the fields.
 
-    For a description of the field values, see [Office Mailbox to Form Field Mappings form](../reference/mailbox-form-mapping-form.md).
+    For a description of the field values, see [Office Mailbox to Form Field Mappings form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/mailbox-form-mapping-form.md).
 
 7.  Save the form.
 
     An Office Mailbox to Form Field Mappings record is created. You can create more records to map fields based on your requirement.
 
 
-**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](../concept/configuring-sn-addin-for-ms365.md)
+**Parent Topic:**[Configuring ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configuring-sn-addin-for-ms365.md)
 

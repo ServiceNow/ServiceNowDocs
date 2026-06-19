@@ -2,6 +2,7 @@
 title: Configure an inherent assessment
 description: Configure and publish an inherent assessment in the Advanced Risk application to assess the inherent risks in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/configure-inherent-assessment.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -31,7 +32,7 @@ Configure the criteria for an inherent risk assessment by adding the factors, sc
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the inherent assessment form, see [Inherent Assessment form](../reference/inherent-assessment-form.md).
+    For a description of the field values on the inherent assessment form, see [Inherent Assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/inherent-assessment-form.md).
 
 4.  To add factors, select the Factors related list.
 
@@ -134,8 +135,8 @@ Risk appetite scale for the risk rating criteria. The appetite scales must be ma
 
 The assessment type is published.
 
--   **[Inherent Assessment form](../reference/inherent-assessment-form.md)**  
+-   **[Inherent Assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/inherent-assessment-form.md)**  
 Use the Inherent Assessment form in the Advanced Risk application to assess the inherent risks in your organization.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

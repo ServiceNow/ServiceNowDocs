@@ -2,6 +2,7 @@
 title: Add a datacenter to a cloud account
 description: At any time, you can add a logical datacenter to the cloud infrastructure that is represented by a cloud account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-datacntr-to-cloud-acct.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -27,7 +28,7 @@ Role required: sn\_cmp.cloud\_admin
 
 3.  Click the **Datacenters** tab and then select the **Service Account** that holds the credentials that enable access to the provider account that includes the datacenter to add.
 
-    ![Add a datacenter](../image/add-datacenter-to-srvc-acct.png)
+    \[Omitted image "add-datacenter-to-srvc-acct.png"\] Alt text: Add a datacenter
 
     When you select the service account, the list of discovered datacenters for the service account appears.
 
@@ -42,5 +43,5 @@ Role required: sn\_cmp.cloud\_admin
 
 The datacenters are added to the cloud account and appear on the **Datacenters** tab. When Discovery runs, the resources in the datacenter appear on the Resources tab.
 
-![New datacenter on the cloud account](../image/new-datacenter-on-cloud-acct.png "New datacenter on the cloud account")
+\[Omitted image "new-datacenter-on-cloud-acct.png"\] Alt text: New datacenter on the cloud account
 

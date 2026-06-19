@@ -2,6 +2,7 @@
 title: Add an activity to a catalog workflow
 description: You can add activities to a workflow to perform tasks such as running a script, sending notifications, or requesting approvals. Activities can succeed or fail, which can result in actions performed by other activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_AddActiviToServiceCataWorkflow.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -88,7 +89,7 @@ After creating the workflow to add a laptop fulfillment process, add the activit
 
 6.  Drag the activity **Create Task** onto the arrow between **Procurement** and **End**, and then fill in the form.
 
-<table id="choicetable_yn3_s25_dq"><tbody><tr><td id="d285205e469">
+<table id="choicetable_yn3_s25_dq"><tbody><tr><td id="d276352e469">
 
 **Name**
 
@@ -96,7 +97,7 @@ After creating the workflow to add a laptop fulfillment process, add the activit
 
 Set Up Laptop
 
-</td></tr><tr><td id="d285205e478">
+</td></tr><tr><td id="d276352e478">
 
 **Stage**
 
@@ -104,7 +105,7 @@ Set Up Laptop
 
 Fulfillment
 
-</td></tr><tr><td id="d285205e487">
+</td></tr><tr><td id="d276352e487">
 
 **Task Type**
 
@@ -112,7 +113,7 @@ Fulfillment
 
 Catalog Task
 
-</td></tr><tr><td id="d285205e496">
+</td></tr><tr><td id="d276352e496">
 
 **Priority**
 
@@ -120,7 +121,7 @@ Catalog Task
 
 3 - Moderate
 
-</td></tr><tr><td id="d285205e505">
+</td></tr><tr><td id="d276352e505">
 
 **Fulfillment Group**
 
@@ -128,7 +129,7 @@ Catalog Task
 
 Hardware
 
-</td></tr><tr><td id="d285205e515">
+</td></tr><tr><td id="d276352e515">
 
 **Short Description**
 
@@ -158,5 +159,5 @@ Set up laptop.
     Leaves a message in the log to record the successful completion of the workflow.
 
 
-**Parent Topic:**[Service catalog workflows](../concept/c_ServiceCatalogWorkflowDefinition.md)
+**Parent Topic:**[Service catalog workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogWorkflowDefinition.md)
 

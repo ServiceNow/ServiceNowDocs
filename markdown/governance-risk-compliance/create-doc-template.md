@@ -2,6 +2,7 @@
 title: Set up the Document Template
 description: Set up the Document Template \(HTML Template\) that is used for generating the PDF of the Operational vulnerability record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-doc-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: sn\_oper\_res.admin
 
 3.  On the HTML Template record form, fill in the fields.
 
-    For more information on the fields, see [HTML Template form](../reference/html-template-form-op-vul.md).
+    For more information on the fields, see [HTML Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/html-template-form-op-vul.md).
 
 4.  Select **Submit**.
 
@@ -37,7 +38,7 @@ Role required: sn\_oper\_res.admin
 
 7.  To add blocks for advanced search, select **Add Blocks**.
 
-<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d375903e149">
+<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d389647e149">
 
 **To add an existing document block to the template**
 
@@ -45,7 +46,7 @@ Role required: sn\_oper\_res.admin
 
 In Search blocks, type in the name of an existing document block, select the document block, and select **Insert**.
 
-</td></tr><tr><td id="d375903e161">
+</td></tr><tr><td id="d389647e161">
 
 **To add a new document block to the template**
 

@@ -2,6 +2,7 @@
 title: Access the classic Project Workspace
 description: Open the project workspace to display all your projects at a single location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/access-the-project-workspace.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -29,12 +30,12 @@ Role required: it\_project\_user or it\_project\_manager
 
 2.  In the **My Projects Space** page, add filter criteria to display the required projects as cards.
 
-    **Note:** You can [configure](configure-project-card-parameters.md) the information which is displayed on a card.
+    **Note:** You can [configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-project-card-parameters.md) the information which is displayed on a card.
 
 3.  Click a project to open it in project workspace.
 
 4.  Click the required tab in project workspace to work in it.
 
 
-**Parent Topic:**[Project workspace classic - Legacy](../concept/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-classic.md)
 

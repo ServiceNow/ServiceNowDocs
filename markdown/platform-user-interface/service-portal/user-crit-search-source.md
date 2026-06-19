@@ -2,11 +2,12 @@
 title: Apply user criteria to a search source
 description: Assign user criteria to search sources to limit user access to content in a portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/user-crit-search-source.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [User criteria for Service Portal, Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can add user criteria to custom or default [Configuring search in a portal](../concept/search-service-portal.md).
+You can add user criteria to custom or default [Configuring search in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-service-portal.md).
 
 ## Procedure
 
@@ -35,10 +36,10 @@ You can add user criteria to custom or default [Configuring search in a portal](
 
 5.  Select a criteria from the **Can View** or **Cannot View** list.
 
-    Selecting criteria from the **Can View** or **Cannot View** list applies user criteria records created in [Create a user criteria record for Service Portal](create-user-criteria-record.md) to the selected search source.
+    Selecting criteria from the **Can View** or **Cannot View** list applies user criteria records created in [Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-user-criteria-record.md) to the selected search source.
 
 6.  Click **Save**.
 
 
-**Parent Topic:**[User criteria for Service Portal](../concept/user-criteria.md)
+**Parent Topic:**[User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md)
 

@@ -2,6 +2,7 @@
 title: Copy a Spotlight group to domains
 description: You can copy a Spotlight group to other domains, saving the effort of reproducing the group manually for each domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/copy-spotlight-group-domain.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -33,15 +34,15 @@ When you first create a Spotlight group, it is created in the domain that you ar
 
 3.  In the Copy Spotlight Group dialog, select a value for **Name Preference**.
 
-<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d199178e85">
+<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d130543e85">
 
 Value
 
-</th><th align="left" id="d199178e88">
+</th><th align="left" id="d130543e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d199178e94">
+</th></tr></thead><tbody><tr><td id="d130543e94">
 
 **Do not change the name**
 
@@ -49,7 +50,7 @@ Description
 
 All copies will have the same name as the original Spotlight group.
 
-</td></tr><tr><td id="d199178e103">
+</td></tr><tr><td id="d130543e103">
 
 **Change the name**
 
@@ -57,7 +58,7 @@ All copies will have the same name as the original Spotlight group.
 
 Manually write a new name that will be given to all copies of the Spotlight group.
 
-</td></tr><tr><td id="d199178e112">
+</td></tr><tr><td id="d130543e112">
 
 **Add domain name to new name as prefix**
 
@@ -65,7 +66,7 @@ Manually write a new name that will be given to all copies of the Spotlight grou
 
 For each copy of the Spotlight group, the domain name is added to the beginning of the Spotlight group name. You can keep the base name from the original Spotlight group or specify a new one.The **New Name** field does not show these prefixes.
 
-</td></tr><tr><td id="d199178e127">
+</td></tr><tr><td id="d130543e127">
 
 **Add domain name to new name as suffix**
 
@@ -83,7 +84,7 @@ For each copy of the Spotlight group, the domain name is added to the end of the
 
 5.  Click **OK**.
 
-    The Spotlight group is copied. If copying is successful, a list of the Spotlight groups that you have just created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](../concept/spotlight-copy-logs.md#).
+    The Spotlight group is copied. If copying is successful, a list of the Spotlight groups that you have just created opens. If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
 
 6.  Open each of the Spotlight groups you have just created and perform the following steps:
 
@@ -100,25 +101,25 @@ In this example, the ACME - Incident Spotlight group, which was created in the A
 
 1.  Open the Spotlight Groups list and click **ACME - Incident Spotlight.**.
 
-    ![The Spotlight Groups list with ACME - Incident Spotlight highlighted](../image/spotlight-select-group-domain.png)
+    \[Omitted image "spotlight-select-group-domain.png"\] Alt text: The Spotlight Groups list with ACME - Incident Spotlight highlighted
 
-2.  The Incident Spotlight group record opens, and you click **Copy to domain**.![Spotlight group record with the Copy to Domain button highlighted](../image/spotlight-copy-to-domain.png)
-3.  In the **Copy Spotlight Group** dialog, you select the ACME - Metallurgy and ACME - Rocketry subdomains. Only ACME and ACME subdomains are available because the original Spotlight group was created in the ACME domain. You want the domain names to appear at the beginning of the group names, so you also select **Add domain name to new name as prefix**.![Copy Spotlight Group dialog, with the ACME - Metallurgy and ACME - Rocketry subdomains about to be selected.](../image/spotlight-copy-group-domains.png)
-4.  Because the domain names that will be added as prefixes begin with ACME, you do not need ACME in the base name of the group. Therefore, you remove it.![The filled-out Copy Spotlight Group dialog with the new group name shortened](../image/spotlight-copy-group-short-name-domains.png)
-5.  You click **OK**, and you are taken to a list showing you the Spotlight groups that you have just created. Note that both have the base name Incident Spotlight, as shown in the New Name field of the **Copy Spotlight Group** dialog, with the domain name added as a prefix. ![List of the new Spotlight groups you have created by copying a group.](../image/spotlight-new-group-copies-domain.png)
+2.  The Incident Spotlight group record opens, and you click **Copy to domain**.\[Omitted image "spotlight-copy-to-domain.png"\] Alt text: Spotlight group record with the Copy to Domain button highlighted
+3.  In the **Copy Spotlight Group** dialog, you select the ACME - Metallurgy and ACME - Rocketry subdomains. Only ACME and ACME subdomains are available because the original Spotlight group was created in the ACME domain. You want the domain names to appear at the beginning of the group names, so you also select **Add domain name to new name as prefix**.\[Omitted image "spotlight-copy-group-domains.png"\] Alt text: Copy Spotlight Group dialog, with the ACME - Metallurgy and ACME - Rocketry subdomains about to be selected.
+4.  Because the domain names that will be added as prefixes begin with ACME, you do not need ACME in the base name of the group. Therefore, you remove it.\[Omitted image "spotlight-copy-group-short-name-domains.png"\] Alt text: The filled-out Copy Spotlight Group dialog with the new group name shortened
+5.  You click **OK**, and you are taken to a list showing you the Spotlight groups that you have just created. Note that both have the base name Incident Spotlight, as shown in the New Name field of the **Copy Spotlight Group** dialog, with the domain name added as a prefix. \[Omitted image "spotlight-new-group-copies-domain.png"\] Alt text: List of the new Spotlight groups you have created by copying a group.
 6.  In the **Run as** field, you browse for a user in the ACME - Metallurgy domain and select Wiley C. Latrans. Only global users and users in the domain of the Spotlight group are available. Spotlight jobs run more efficiently with a **Run as** user in the same domain as the Spotlight group, because only the records visible to this domain are evaluated.
 
-    ![Selecting a TOP/ACME/ACME - Metallurgy user as the Run As user.](../image/spotlight-acme-employee-domain.png)
+    \[Omitted image "spotlight-acme-employee-domain.png"\] Alt text: Selecting a TOP/ACME/ACME - Metallurgy user as the Run As user.
 
 7.  Review the Spotlight job run schedule, and activate the Spotlight group.
 
-    ![Activating the ACME - Metallurgy - Incident Spotlight group](../image/spotlight-group-domain-activate.png)
+    \[Omitted image "spotlight-group-domain-activate.png"\] Alt text: Activating the ACME - Metallurgy - Incident Spotlight group
 
 8.  You verify the schedule for the ACME - Rocketry - Incident Spotlight group and activate the group.
 
 ## What to do next
 
-If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](../concept/spotlight-copy-logs.md#).
+If any error messages or warnings appeared during the copying process, read the [Spotlight group copy logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-copy-logs.md).
 
-**Parent Topic:**[Ranking records with Spotlight](../concept/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
 

@@ -2,6 +2,7 @@
 title: Content filtering for Workflow Studio flows
 description: Specify which content a user can access based on the user's role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/content-filtering-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -36,7 +37,7 @@ Content filtering rules specify the role that a user must have to access the con
 
 ## Feature access
 
-You can also filter access to Workflow Studio flow features. Features are UI elements and sections. Access to both elements and sections can be managed by configuring content definitions and filtering rules. However, access to UI elements can also be managed through a simplified UI. For more information, see [Manage access to Workflow Studio flow features](../task/manage-access-features.md).
+You can also filter access to Workflow Studio flow features. Features are UI elements and sections. Access to both elements and sections can be managed by configuring content definitions and filtering rules. However, access to UI elements can also be managed through a simplified UI. For more information, see [Manage access to Workflow Studio flow features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-access-features.md).
 
 ## Read-only flows
 

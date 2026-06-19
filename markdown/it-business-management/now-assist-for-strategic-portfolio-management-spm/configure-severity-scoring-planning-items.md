@@ -2,11 +2,12 @@
 title: Update severity scoring configuration for portfolio insights
 description: Configure the severity thresholds and scoring factors that determine how planning items are classified as critical, medium, or low risk, so that Portfolio insights generates recommendations based on your organization's risk criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-severity-scoring-planning-items.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Configure, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -57,11 +58,11 @@ The insights are generated for the following categories for a portfolio plan:
 
 2.  In the **Type** column, right-click **Portfolio** and select **Show Matching** to show only records with the type set to **Portfolio**.
 
-    ![Show the Portfolio Insight topic table records.](../images/update-severity-scoring-for-planning-items.png)
+    \[Omitted image "update-severity-scoring-for-planning-items.png"\] Alt text: Show the Portfolio Insight topic table records.
 
     After applying the filter, the following three insight topic table records appear.
 
-    ![Insight topic table records portfolio insights](../images/insight-topic-table-portfolio-insights.png)
+    \[Omitted image "insight-topic-table-portfolio-insights.png"\] Alt text: Insight topic table records portfolio insights
 
 3.  Next to an Insight topic record, select preview icon to open the record.
 
@@ -69,7 +70,7 @@ The insights are generated for the following categories for a portfolio plan:
 
 4.  In the `severityThresholds` section of the **Default topic config** field, set the score range for each severity level according to your organization's risk criteria.
 
-    ![Default delayed planning items record.](../images/default-delayed-planning-items-record.png)
+    \[Omitted image "default-delayed-planning-items-record.png"\] Alt text: Default delayed planning items record.
 
     |Severity level|Description|
     |--------------|-----------|
@@ -97,5 +98,5 @@ The insights are generated for the following categories for a portfolio plan:
 
 ## What to do next
 
-To verify that the configuration is working as expected, open a portfolio plan that contains planning items with known delays and confirm that the severity classifications reflect the thresholds you set. For details, see [View portfolio insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM](view-portfolio-insights.md).
+To verify that the configuration is working as expected, open a portfolio plan that contains planning items with known delays and confirm that the severity classifications reflect the thresholds you set. For details, see [View insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/view-portfolio-insights.md).
 

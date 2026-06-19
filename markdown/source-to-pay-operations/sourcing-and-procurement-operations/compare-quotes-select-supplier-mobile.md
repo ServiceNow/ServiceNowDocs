@@ -2,6 +2,7 @@
 title: Compare quotes and select a supplier from your mobile device
 description: When you raise a sourcing request, the procurement team works with suppliers to get quotes for the good or service you are looking for. When you receive these quotes, you can review them from your mobile application. You can choose to award the supplier with the quote that best fulfills your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/compare-quotes-select-supplier-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -43,5 +44,5 @@ Role required: sn\_shop.shopper
 6.  Tap the Next icon.
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

@@ -2,6 +2,7 @@
 title: Hardening settings
 description: The ServiceNow Security Center \(SSC\) hardening settings content contains detailed descriptions and compliance values for the security-related system properties and plugins in the ServiceNow AI Platform. You can set these properties using the hardening settings app in the Security Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/security-hardening-settings.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -134,46 +135,46 @@ Links to configuration documentation or other helpful information.
 </td></tr></tbody>
 </table>**Note:** Some of the configurations can only be completed by Customer Service and Support and will be indicated as such.
 
-To learn more about ensuring your instances meet hardening requirements, see [Security hardening](../concept/sc-hardening.md).
+To learn more about ensuring your instances meet hardening requirements, see [Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-hardening.md).
 
 ## Other resources
 
-For user reference, the ServiceNow AI Platform maintains extensive configuration capabilities information in the product documentation. You access most of the security content using the links found in [Secure your instance](../../general/concept/platsec-landing.md). Also, see the following:
+For user reference, the ServiceNow AI Platform maintains extensive configuration capabilities information in the product documentation. You access most of the security content using the links found in [Secure your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/platsec-landing.md). Also, see the following:
 
--   [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+-   Available system properties
 -   General security settings properties
--   [High Security Settings](../../security/concept/c_HighSecuritySettings.md)
+-   [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/c_HighSecuritySettings.md)
 
--   **[Hardening settings baseline versions](../concept/hardening-settings-baseline.md)**  
+-   **[Hardening settings baseline versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/hardening-settings-baseline.md)**  
 Explore how baseline versions for hardening settings align with family and store releases.
--   **[Access control](sc-access-control.md)**  
+-   **[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)**  
 The access control category audits the process of protecting resources from unauthorized access through granting and denying requests based on a permission model. This includes ensuring an entity accessing a resource holds valid credentials to do so, creating and protecting a well-defined set of roles or permissions and ensuring role or permission controls are protected from replay and tampering.
--   **[API and web service](sc-api-web-service.md)**  
+-   **[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)**  
 The API and Web Service category ensures that applications have appropriate authentication, authorization and session management, validate all input that traverses a trust boundary and include security controls for all API types.
--   **[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)**  
+-   **[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)**  
 This broad control addresses high level design considerations and key elements to implement a secure application. This covers the tenants of availability, confidentiality processing integrity, non-repudiation and privacy. Additionally, elements of a secure software development lifecycle are included.
--   **[Authentication](sc-authentication.md)**  
+-   **[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)**  
 The authentication category covers the main elements of modern authentication to confirm an entity and its claims are authentic and correct, resistant to impersonation and prevent interception of passwords.
--   **[Business Logic](sc-business-logic.md)**  
+-   **[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-business-logic.md)**  
 This category looks at the logic and flow unique to each application with general secure principles. Specifically ensure that the intended sequence of business logic flow cannot by bypassed, that limits exist to detect and prevent automated attacks, and that protections against spoofing, tampering, information disclosure and elevation of privilege attacks exist.
--   **[Communications](sc-communications.md)**  
+-   **[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-communications.md)**  
 This control ensures proper encryption using strong algorithms and ciphers. This includes ensuring the recommended version of TLS is used for client connectivity, use of strong cipher suites, use of trusted and signed certificates, ensuring connections are encrypted between components and logging of connection failures.
--   **[Configuration](sc-configuration.md)**  
+-   **[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)**  
 The Configuration category ensures applications have a secure build environment and hardened third party library components. Specifically, ensuring a build and deploy pipeline is repeatable and includes automated testing and prevents known security issues from being deployed. This includes keeping dependencies up to date and free from known vulnerabilities.
--   **[Data protection](sc-data-protection.md)**  
+-   **[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)**  
 The data protection category addresses the elements of confidentiality, integrity and availability \(CIA\) of data.
--   **[Error handling and logging](sc-error-handling-logging.md)**  
+-   **[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)**  
 The error handling and logging category addresses the quality and verbosity of logged information exposed to stakeholders.
--   **[File and resources](sc-file-resources.md)**  
+-   **[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)**  
 The file and resources category ensures applications handle untrusted file data securely and store untrusted data from untrusted sources with limited permissions in an appropriate location.
--   **[Malicious code](sc-malicious-code.md)**  
+-   **[Malicious code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-malicious-code.md)**  
 The Malicious Code category ensures that best efforts are made to confirm that your code is free of vulnerabilities and unwanted functionality.
--   **[Session management](sc-session-management.md)**  
+-   **[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)**  
 This category looks at the security of the application state for a user. Sessions should be unique to each individual, unable to be guessed or shared, and invalidated after periods of inactivity or when not required. This includes factors such as cookie attributes for cookie-based sessions, session token generation, and storage and requirements for federated re-authentication.
--   **[Stored cryptography](sc-stored-cryptography.md)**  
+-   **[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)**  
 This category focuses on the encryption of stored data. It encompasses several key aspects, such as employing established algorithms and cryptographic modules, ensuring the proper generation of pseudo-random values, implementing encryption based on data classification, and securely storing and isolating key material.
--   **[Validation, sanitization, and encoding](validation-sanitization-encoding.md)**  
+-   **[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)**  
 Validation, sanitization, and encoding addresses input validation to prevent against vulnerabilities like Cross-Site Scripting \(XSS\), SQL injection and other attacks.
 
-**Parent Topic:**[Platform Security](../../general/concept/platsec-sublanding.md)
+**Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/platsec-sublanding.md)
 

@@ -2,6 +2,7 @@
 title: GlideUICompatibility - Scoped
 description: The GlideUICompatibility API provides the ability for scoped applications to define their own minimum browser versions. This is done by creating system properties for the scoped application.Creates a GlideUICompatibility object.Returns the terms "block" or "allow" based upon the browser version.Determines if the browser is not supported \(blocked\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideUICompatibilityScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -24,7 +25,7 @@ You create the properties using the sys\_properties list and assign a version nu
 
 You can then use the GlideUICompatibility class to determine if the current browser is supported.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideUICompatibility - GlideUICompatibility\(String scopeName\)
 

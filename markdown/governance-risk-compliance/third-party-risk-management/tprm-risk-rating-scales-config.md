@@ -2,6 +2,7 @@
 title: Set up risk rating scales for scoring
 description: The risk rating scale helps business users better understand risk assessment results. For example, in the default settings, risk scores in the 20 through 39 range indicate high risk, while scores in the 60 through 79 range indicate low risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -29,15 +30,15 @@ Role required: admin or sn\_vdr\_risk\_asmt.vendor\_risk\_manager
 
     The base system includes five ratings. You can customize their maximum and minimum values.
 
-    ![Risk Rating Scales list.](../image/vrm-risk-scale.png)
+    \[Omitted image "vrm-risk-scale.png"\] Alt text: Risk Rating Scales list.
 
 2.  Refine the existing values.
 
-    1.  Hover over the risk rating you want to update and select the information icon ![](../../grc-risk/image/icon-information.png) to preview the **Risk Rating Scale** record.
+    1.  Hover over the risk rating you want to update and select the information icon \[Omitted image "icon-information.png"\] Alt text: to preview the **Risk Rating Scale** record.
 
     2.  Select **Open Record** in the Default risk rating scale pop-up.
 
-        ![Open a Risk record.](../image/vrm-risk-open-record.png)
+        \[Omitted image "vrm-risk-open-record.png"\] Alt text: Open a Risk record.
 
 3.  Customize the **Minimum** and **Maximum** to adjust the lowest and highest value that falls in the risk rating scale range.
 

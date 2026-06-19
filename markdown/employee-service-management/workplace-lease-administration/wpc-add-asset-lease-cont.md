@@ -2,13 +2,14 @@
 title: Add asset to workplace contract in Workplace Central
 description: Add assets to the workplace contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-add-asset-lease-cont.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add asset to workplace contract in Workplace Central
@@ -48,5 +49,5 @@ Linking a contract with assets clarifies what the contract legally covers. The A
 8.  Select **Add**.
 
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

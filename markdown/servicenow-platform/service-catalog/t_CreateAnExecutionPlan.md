@@ -2,6 +2,7 @@
 title: Create an execution plan
 description: Administrators and catalog administrators can create and manage execution plans and the associated variable tasks.You can add variables of a catalog item to a task to specify information about the requested catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CreateAnExecutionPlan.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -25,16 +26,16 @@ Role required: admin
 
 2.  Click **New**.
 
-    ![](../image/CreateAnExecutionPlan.png "New execution plan")
+    \[Omitted image "CreateAnExecutionPlan.png"\] Alt text:
 
 3.  Enter a Name and Short description for the execution plan.
 
-4.  Specify [delivery information](../concept/c_ExecutionPlanTasks.md#) in the Total delivery time and On Calendar fields.
+4.  Specify [delivery information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ExecutionPlanTasks.md) in the Total delivery time and On Calendar fields.
 
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Execution Plans](../concept/c_ExecutionPlans.md)
+**Parent Topic:**[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ExecutionPlans.md)
 
 ## Add catalog item variables to a task
 

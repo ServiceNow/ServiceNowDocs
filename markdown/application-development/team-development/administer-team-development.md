@@ -2,6 +2,7 @@
 title: Administer Team Development
 description: Administer Team Development within your instance to compare instances, push or pull record versions, or view the team development dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/administer-team-development.html
 release: australia
 product: Team Development
 classification: team-development
@@ -23,11 +24,11 @@ Team Development provides the following features:
 -   The ability to compare a development instance to other development instances.
 -   A central dashboard for all Team Development activities.
 
--   [Code reviews](../concept/c_CodeReview.md)
--   [Code review notifications](../concept/c_CodeReviewNotifications.md)
--   [Code review workflow](../concept/c_CodeReviewWorkflow.md)
--   [Exclusion policies](../concept/c_ExclusionPolicies.md)
--   [Instance hierarchies](../concept/c_InstanceHierarchies.md)
--   [Pulls and pushes](../concept/c_PullsAndPushes.md)
--   [Team Development process](t_TeamDevelopmentProcess.md)
+-   [Code reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_CodeReview.md)
+-   [Code review notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_CodeReviewNotifications.md)
+-   [Code review workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_CodeReviewWorkflow.md)
+-   [Exclusion policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_ExclusionPolicies.md)
+-   [Instance hierarchies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_InstanceHierarchies.md)
+-   [Pulls and pushes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_PullsAndPushes.md)
+-   [Team Development process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_TeamDevelopmentProcess.md)
 

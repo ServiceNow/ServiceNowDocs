@@ -2,6 +2,7 @@
 title: SAML Guided Tour
 description: Use the SAML Guided Tour to configure SAML for single sign-on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/saml-guided-tour.html
 release: australia
 product: Authentication
 classification: authentication
@@ -24,9 +25,9 @@ Before using the guided tour, you must configure a SAML application in your pref
     -   [Configure SAML 2.0 for ServiceNow®](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-ServiceNow.html)
 -   Microsoft Azure: [Single sign-on \(SSO\) integration with ServiceNow®](https://learn.microsoft.com/en-us/azure/active-directory/saas-apps/servicenow-tutorial)
 -   Ping: [Configuring SAML SSO with ServiceNow®](https://docs.pingidentity.com/bundle/configuration_guides/page/dqw1619131345786.html)
--   ADFS: [Integration with SAML 2.0](../../saml/concept/c_ADFSIntegrationWithSAML2.0.md)
+-   ADFS: [Integration with SAML 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_ADFSIntegrationWithSAML2.0.md)
 
-To use the SAML Guided tour, activate the Integration - Multiple Provider Single Sign-On Installer plugin. For more information see, [Activate Multi-Provider SSO plugin](../task/t_ActivateMultipleProviderSSO.md).
+To use the SAML Guided tour, activate the Integration - Multiple Provider Single Sign-On Installer plugin. For more information see, [Activate Multi-Provider SSO plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ActivateMultipleProviderSSO.md).
 
 To use the SAML Guided Tour, follow these steps:
 
@@ -36,5 +37,5 @@ To use the SAML Guided Tour, follow these steps:
 4.  Click the **Help** icon.
 5.  Click **Take a Tour**.
 
-To know more about SAML configuration, see [SAML 2.0 configuration using Multi-Provider SSO](../task/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
+To know more about SAML configuration, see [SAML 2.0 configuration using Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateASAML2Upd1SSOConfigMultiSSO.md).
 

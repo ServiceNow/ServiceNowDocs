@@ -2,6 +2,7 @@
 title: Synchronizing alert response with automated alert grouping
 description: Synchronize alert response with grouping by ensuring alert management jobs runs after alert grouping jobs—this prevents duplicate actions like incident creation on secondary alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/coordinating-alert-response-with-automated-alert-grouping.html
 release: australia
 product: Event Management
 classification: event-management
@@ -24,6 +25,8 @@ Role required: admin
 By default, the alert grouping job \(**Service Analytics group alerts using RCA/Alert Aggregation**\) and the alert management job \(**Event Management - Evaluate Scoped Alert Rules Management0**\) run independently of each other. To synchronize the alert response with automated alert grouping \(for example, to avoid creating an incident on a secondary alert\), you must enable the property **evt\_mgmt.avoid\_int\_enabled**to ensure that the Alert Management job is executed after the Alert Grouping job is completed. This property is accessible from the Event Management Properties page \(**All** &gt; **Event Management** &gt; **Administration** &gt; **Event Management Properties**\). In addition, you must configure the relevant alert management rule \(for example, for incident creation\), to filter out all secondary alerts.
 
 **Note:** If only one alert exists when the Alert Management job runs, an incident is created. When a second alert arrives later, the next Alert Grouping job forms a group, makes the new alert as secondary, and creates a new incident.
+
+To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
 
 ## Procedure
 
@@ -49,5 +52,5 @@ By default, the alert grouping job \(**Service Analytics group alerts using RCA/
 9.  Select **Update**.
 
 
-**Parent Topic:**[Alert management rules for resolving alerts](../concept/alert-management-rule.md)
+**Parent Topic:**[Alert management rules for resolving alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-management-rule.md)
 

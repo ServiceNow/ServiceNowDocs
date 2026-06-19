@@ -2,6 +2,7 @@
 title: Install synthetic monitoring
 description: You can install the synthetic monitoring application \(com.snc.uib.sow\_synthetics\) with the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/install-synthetic-monitoring.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,7 +21,7 @@ You can install the synthetic monitoring application \(`com.snc.uib.sow_syntheti
 -   Confirm that the Configuration items \(CI\) that you want to monitor exist in the CMDB HTTP Endpoints \[cmdb\_ci\_endpoint\_http\] table.
 -   Confirm that configured credentials exist in the Credentials \[discovery\_credentials\] table if your endpoint requires authentication.
 
-    **Note:** Synthetic monitoring supports API key credentials, basic authentication credentials, and OAuth.
+    **Note:** OAuth credentials are not supported for Agent Client Collector \(ACC\) locations.
 
 
 Role required: sn\_sow\_synthetics.synthetics\_admin
@@ -33,7 +34,7 @@ The following items are installed with synthetic monitoring:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with synthetic monitoring](../reference/components-installed-with-synthetic-monitoring.md).
+For more information, see [Components installed with synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/components-installed-with-synthetic-monitoring.md).
 
 ## Procedure
 
@@ -56,7 +57,7 @@ For more information, see [Components installed with synthetic monitoring](../re
 
 ## What to do next
 
-[Create synthetic monitoring locations](create-synthetic-monitoring-locations.md)
+[Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-synthetic-monitoring-locations.md)
 
-**Parent Topic:**[Configuring synthetic monitoring](../concept/configuring-synthetic-monitoring.md)
+**Parent Topic:**[Configuring synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-synthetic-monitoring.md)
 

@@ -2,6 +2,7 @@
 title: Allow multiple triggers to process an inbound email
 description: Configure Workflow Studio to allow an inbound email to be processed by multiple inbound email triggers in a specific order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/deactivate-stop-processing.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,7 +28,7 @@ Although you can process an inbound email with multiple inbound email actions, y
 
 ## Procedure
 
-1.  [Add a property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) with the following settings:
+1.  Add a property with the following settings:
 
     -   Name: **glide.hub.flow.inbound\_email\_trigger.show\_advanced**
     -   Type: true \| false
@@ -36,7 +37,7 @@ Although you can process an inbound email with multiple inbound email actions, y
 
 2.  Create multiple flows with an inbound email trigger.
 
-    For more information, see [Create a flow with an inbound email trigger](../../flow-designer/task/create-inbound-email-flow.md).
+    For more information, see [Create a flow with an inbound email trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-inbound-email-flow.md).
 
 3.  Specify the processing order for each of the inbound email flows:
 
@@ -51,5 +52,5 @@ Although you can process an inbound email with multiple inbound email actions, y
         To end the sequence on a particular flow, leave the option selected in that flow.
 
 
-**Parent Topic:**[Create a flow with an inbound email trigger](../../flow-designer/task/create-inbound-email-flow.md)
+**Parent Topic:**[Create a flow with an inbound email trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-inbound-email-flow.md)
 

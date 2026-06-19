@@ -2,6 +2,7 @@
 title: View Overview Dashboard
 description: The Overview dashboard provides a graphical representation of HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_Overview.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,5 +44,5 @@ You can customize any dashboard that you can access to add or remove reports and
     |**Save the chart as an image file**|If a menu icon appears when you point your cursor to a chart, you can click the icon to export the chart to an image file.|
 
 
-**Parent Topic:**[HR Dashboards &amp; Reports](../concept/c_HRDashboardsReports.md)
+**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 

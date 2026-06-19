@@ -2,6 +2,7 @@
 title: Install Legal Simple Contracts
 description: You can install the Legal Simple Contracts application \(sn\_lg\_contracts\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/install-legal-simple-contracts.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -29,7 +30,7 @@ The following items are installed with Legal Simple Contracts:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Legal Simple Contracts](../reference/installed-with-legal-simple-contracts.md).
+For more information, see [Components installed with Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/installed-with-legal-simple-contracts.md).
 
 ## Procedure
 
@@ -39,7 +40,7 @@ For more information, see [Components installed with Legal Simple Contracts](../
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -52,5 +53,5 @@ For more information, see [Components installed with Legal Simple Contracts](../
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configure Legal Simple Contracts](../concept/setting-up-legal-contracts.md)
+**Parent Topic:**[Configure Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/setting-up-legal-contracts.md)
 

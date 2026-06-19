@@ -2,7 +2,10 @@
 title: Playbook layout and features
 description: A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-playbook-layout.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
@@ -13,14 +16,14 @@ breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize age
 
 A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CSM Configurable Workspace.
 
-UI Builder [page templates](csm-playbook-templates.md) and [record pages](csm-playbook-pages.md) that include horizontally and vertically oriented playbooks are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\].
+UI Builder [page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-templates.md) and [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-pages.md) that include horizontally and vertically oriented playbooks are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\].
 
 For more information about using these record pages, see the following topics:
 
--   [Case playbook: horizontal stages](csm-playbook-horizontal-stages.md) record page
--   [Case playbook: vertical stages](csm-playbook-vertical-stages.md) record page
+-   [Case playbook: horizontal stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-horizontal-stages.md) record page
+-   [Case playbook: vertical stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-playbook-vertical-stages.md) record page
 
-![Playbook with horizontal stage picker and playbook features highlighted. Descriptions of each feature are included in the following table.](../image/csm-playbook-horiz-stages-callouts.png "Playbook with horizontal stage picker")
+\[Omitted image "csm-playbook-horiz-stages-callouts.png"\] Alt text: Playbook with horizontal stage picker and playbook features highlighted. Descriptions of each feature are included in the following table.
 
 <table id="table_j4r_cww_5pb"><thead><tr><th>
 
@@ -111,7 +114,7 @@ The activity view determines how the stages and activities are displayed in the 
 -   **Focused**: Displays the stages and activities in the playbook lifecycle panel and the current activity in the playbook work area.
 -   **Stacked**: Displays the stages in the playbook lifecycle panel and cards for each of the activities in the current stage in the playbook work area.
 
-The system administrator can configure the playbook activity view in UI Builder. For more information, see [Select a playbook activity view](../task/playbook-select-activity-view.md).
+The system administrator can configure the playbook activity view in UI Builder. For more information, see [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-select-activity-view.md).
 
 ## Playbook stages
 
@@ -119,9 +122,9 @@ Playbooks contain one or more stages and stages contain one or more activities. 
 
 The stages in the stage picker include icons that indicate the stage status:
 
--   A check mark ![Check mark image.](../../../reuse/icons/product-icons/circle-check-outline-24.svg) indicates that the stage is complete.
--   A pen icon ![Pen image.](../image/icon-pencil-ac.png) indicates the current stage.
--   A lock icon ![Lock image.](../image/lock-icon.png) indicates that a stage is locked and can’t be started until the previous stage is complete.
+-   A check mark \[Omitted image "circle-check-outline-24.svg"\] Alt text: Check mark image. indicates that the stage is complete.
+-   A pen icon \[Omitted image "icon-pencil-ac.png"\] Alt text: Pen image. indicates the current stage.
+-   A lock icon \[Omitted image "lock-icon.png"\] Alt text: Lock image. indicates that a stage is locked and can’t be started until the previous stage is complete.
 
 There are two versions of stage picker: horizontal and vertical.
 
@@ -132,9 +135,9 @@ There are two versions of stage picker: horizontal and vertical.
 
 Activities are the individual tasks that an agent needs to complete in order to complete a playbook stage. The activity picker displays the activities for the current playbook stage. Each activity in the activity picker has an indicator that shows the activity state:
 
--   Complete \(![circle icon with green check mark symbol](../image/icon-circle-green-check.png)\)
--   In Progress \(![purple filled circle icon with white pencil symbol](../image/icon-circle-filled--purple-pencil.png)\)
--   Pending \(![circle icon with purple lock symbol](../image/icon-circle-purple-lock.png)\)
+-   Complete \(\[Omitted image "icon-circle-green-check.png"\] Alt text: circle icon with green check mark symbol\)
+-   In Progress \(\[Omitted image "icon-circle-filled--purple-pencil.png"\] Alt text: purple filled circle icon with white pencil symbol\)
+-   Pending \(\[Omitted image "icon-circle-purple-lock.png"\] Alt text: circle icon with purple lock symbol\)
 -   Skipped
 
 Selecting an activity displays the details of that activity in the activity viewer.
@@ -147,7 +150,7 @@ When an agent opens a record that uses a playbook, it opens to the current stage
 
 When an agent selects an available activity, it becomes the current activity. An agent can navigate stages and activities in any order as long as there is at least one available activity to select.
 
-**Note:** The playbook configuration determines the visibility and accessibility of pending stages and activities. For more information, see [Configure playbook stage and activity visibility](../task/playbook-config-activity-visibility.md).
+**Note:** The playbook configuration determines the visibility and accessibility of pending stages and activities. For more information, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md).
 
 ## Using keyboard navigation in a playbook
 
@@ -161,7 +164,7 @@ Use the following keyboard keys to navigate playbook stages and activities.
 
 Agents can filter playbook activities and see those activities that match the filter conditions.
 
--   To filter playbook activities, select the filter icon \(![playbook header filter icon.](../image/playbook-filter.png)\) and select one or more of the following states:
+-   To filter playbook activities, select the filter icon \(\[Omitted image "playbook-filter.png"\] Alt text: playbook header filter icon.\) and select one or more of the following states:
     -   Complete
     -   In Progress
     -   Pending
@@ -175,5 +178,5 @@ Users with the admin role can configure the visibility of playbook stages and ac
 -   Showing or hiding stages and activities that are pending.
 -   Showing or hiding stages and activities where a user does not have access.
 
-The administrator configures these settings in the Playbook Experience record. For more information, see [Configure playbook stage and activity visibility](../task/playbook-config-activity-visibility.md).
+The administrator configures these settings in the Playbook Experience record. For more information, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md).
 

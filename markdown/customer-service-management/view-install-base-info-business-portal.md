@@ -2,7 +2,10 @@
 title: View install base information from the Business Portal
 description: View a list of install base to track the instances provisioned for your account and see which products or services run on them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-install-base-info-business-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -2,11 +2,12 @@
 title: Lifecycle Events evaluation interval
 description: There is a mechanism available to ensure timers within a workflow trigger automatically rather than wait for the evaluation interval to trigger.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-evaluation-interval1.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Configure a lifecycle event, Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -24,7 +25,7 @@ Activity sets can be triggered using different methods based on how you configur
 -   Combination or different trigger types
 -   \*Other activity sets
 
-    **Note:** For more information on activity set triggering, see [Configure a lifecycle event activity set](../task/configure-hr-lifecycle-event-activity-set.md) and [Lifecycle Events workflows](LEWorkflow.md).
+    **Note:** For more information on activity set triggering, see [Configure a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity-set.md) and [Lifecycle Events workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/LEWorkflow.md).
 
 
 \*When an activity set is triggered by other activity sets it must wait for all dependencies to resolve before triggering.
@@ -41,7 +42,7 @@ The Wait to reevaluate Trigger Script timer uses the **sn\_hr\_le.All activity s
 
 You can reduce the value in the **sn\_hr\_le.All activity set closure timer** field in order to launch the activity set sooner.
 
-**Note:** Use caution if you decide to change the default value. Frequent updates trigger more events and can cause your lifecycle event activity sets to cancel before it can complete. For more information, see [Lifecycle event properties](../task/lifecycle-event-properties-page.md).
+**Note:** Use caution if you decide to change the default value. Frequent updates trigger more events and can cause your lifecycle event activity sets to cancel before it can complete. For more information, see [Lifecycle event properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/lifecycle-event-properties-page.md).
 
 ## Condition with Event BR \(Demo\) activity set
 
@@ -57,7 +58,7 @@ An alternative to using the **Evaluation interval** field is to use the **Condit
     -   It then looks for the workflows that are running for the LE case until it finds the HR Activity Set Trigger Check workflow and broadcasts the check\_activity\_set\_trigger event to that workflow.
 -   You can modify the **Condition with Event BR \(Demo\)** activity set, **Email - Condition with Event BR \(Demo\)** activity, and **Condition with Event BR \(Demo\)** business rule to fit your requirements.
 
-    **Note:** For more information, see [Lifecycle Events workflows](LEWorkflow.md) and [Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/business-rules-classic/c_BusinessRules.md).
+    **Note:** For more information, see [Lifecycle Events workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/LEWorkflow.md) and Business rules.
 
 
 ## HR Activity Set Trigger Check workflow
@@ -71,16 +72,16 @@ The HR Activity Set Trigger Check workflow \(see below\) was added to the HR Act
 -   If the trigger conditions have not been met, it still waits for the evaluation interval to run.
 -   If the check\_activity\_set\_trigger event fires, the Activity set trigger conditions are checked immediately.
 
--   **[View and use the Condition with Event BR \(Demo\) activity set](../task/le-evaluation-interval-process.md)**  
+-   **[View and use the Condition with Event BR \(Demo\) activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-evaluation-interval-process.md)**  
 You can trigger activity sets using an event that is included in the Condition with Event BR \(Demo\) activity set or you can create and use server-side code \(business rule, event script, scheduled job, etc.\) that triggers the check\_activity\_set\_trigger event into the HR Activity Set Trigger Check workflow.
--   **[View and use the Condition with Event BR \(Demo\) business rule](../task/le-eval-interval-business-rule.md)**  
+-   **[View and use the Condition with Event BR \(Demo\) business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-eval-interval-business-rule.md)**  
 You can view and use the Condition with Event BR \(Demo\) business rule to trigger an evaluation of your activity set faster.
--   **[Change the evaluation interval default wait time](../task/le-activity-set-evaluation-interval.md)**  
+-   **[Change the evaluation interval default wait time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-activity-set-evaluation-interval.md)**  
 As an administrator, you can change the default time that an activity set waits before the activity set is evaluated.
--   **[Configure a Lifecycle Events trigger for activity sets](../task/le-config-event-trigger.md)**  
+-   **[Configure a Lifecycle Events trigger for activity sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-config-event-trigger.md)**  
 Create triggers for activity sets in Lifecycle Events.
--   **[Lifecycle Events triggers and workflow reference](../reference/le-eval-interval-trigger-workflow-info.md)**  
+-   **[Lifecycle Events triggers and workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-eval-interval-trigger-workflow-info.md)**  
 Information about Lifecycle Events triggers and workflow.
 
-**Parent Topic:**[Configure a lifecycle event](../task/configure-hr-lifecycle-event-type.md)
+**Parent Topic:**[Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md)
 

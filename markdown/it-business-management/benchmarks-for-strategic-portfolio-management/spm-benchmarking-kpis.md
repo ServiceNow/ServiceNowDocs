@@ -2,6 +2,7 @@
 title: SPM Benchmarks KPIs
 description: The Strategic Portfolio Management KPIs are performance analytic indicators that collect the usage count data. Strategic, Alignment, and Execution KPIs are available by default in the SPM Benchmarks application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/benchmarks-for-strategic-portfolio-management/spm-benchmarking-kpis.html
 release: australia
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -39,5 +40,5 @@ The Strategic Portfolio Management KPIs are performance analytic indicators that
 |Average number of scrum teams per ART|Total number of teams in ARTs / Total number of ARTs|
 |Average scrum team size|Total number of members in scrum teams / Total number of scrum teams|
 
-**Parent Topic:**[SPM Benchmarks reference](benchmarks-reference.md)
+**Parent Topic:**[SPM Benchmarks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/benchmarks-reference.md)
 

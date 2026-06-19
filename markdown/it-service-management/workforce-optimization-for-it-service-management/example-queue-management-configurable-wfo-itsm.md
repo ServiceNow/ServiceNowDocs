@@ -2,6 +2,7 @@
 title: Example for using channel management in Workforce Optimization for ITSM
 description: Understand how you can route work to specific groups and monitor real-time performance using Channel Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/example-queue-management-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -24,5 +25,5 @@ As a manager, the manager must ensure that they can set up **Channel Management*
 -   Monitor their teams' ongoing work and performance
 -   Join chat conversations to assist agents
 
-For detailed information on setting up channels using Workforce Optimization for ITSM, refer to [Setting up Channels using Workforce Optimization for ITSM](setup-channels-configurable-workforce-optimization-itsm.md).
+For detailed information on setting up channels using Workforce Optimization for ITSM, refer to [Setting up Channels using Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md).
 

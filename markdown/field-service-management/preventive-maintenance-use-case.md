@@ -2,7 +2,10 @@
 title: Field Service preventive maintenance workflow example
 description: This Field Service preventive maintenance workflow example provides an example of an aircraft maintenance manager setting up a maintenance plan to trigger a diagnostic alert after every 25 hours of flight time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/preventive-maintenance-use-case.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -23,7 +26,7 @@ With Field Service Management, Lisa ensures passenger and crew safety, boosts re
 
 ## Field Service Preventive maintenance workflow diagram
 
-![Preventive maintenance workflow](../image/preventive-maintenance-use-case.png)
+\[Omitted image "preventive-maintenance-use-case.png"\] Alt text: Preventive maintenance workflow
 
 ## Field Service Preventive maintenance workflow steps
 
@@ -39,5 +42,5 @@ The following table provides the steps for the Field Service preventive maintena
 |6. Provide audit trail|All completed tasks and data are tracked in the maintenance plan records for future reference, so administrators can easily pull data needed for trend analysis, reports, and audits to satisfy compliance requirements.|
 |7. Report and analyze|Track tasks and data in a maintenance plan to support future analysis, reporting, audits, and compliance activity.|
 
-**Parent Topic:**[Field Service Management workflow examples](fsm-use-cases.md)
+**Parent Topic:**[Field Service Management workflow examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-use-cases.md)
 

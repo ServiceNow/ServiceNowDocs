@@ -2,6 +2,7 @@
 title: Install Kubernetes Visibility Agent \(KVA\) Informer
 description: You can install Kubernetes Visibility Agent Informer using either a Helm chart or the Kubernetes YAML file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-deploy-install.html
 release: australia
 product: Discovery
 classification: discovery
@@ -56,12 +57,12 @@ This procedure describes the standard Kubernetes Visibility Agent Informer insta
                     ```
 
             2.  In the command, configure additional settings as needed:
-                -   [Configure the memory limit of the Informer pod](cnov-config-informer-memory.md)
-                -   [Change the full discovery frequency in Kubernetes Visibility Agent](cnov-config-full-discovery-frequency.md)
-                -   [Deactivate continuous discovery in Kubernetes Visibility Agent](cnov-config-continuous-discovery-off.md)
+                -   [Configure the memory limit of the Informer pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-informer-memory.md)
+                -   [Change the full discovery frequency in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-full-discovery-frequency.md)
+                -   [Deactivate continuous discovery in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-continuous-discovery-off.md)
                 -   Suppress frequent changes in the Kubernetes cluster to reduce the load on your instance. When this feature is active, the Informer does not report changes above the configured threshold rate back to the instance. For more information, see the [Suppressing frequent changes in Kubernetes clusters reported by Kubernetes Visibility Agent \(formerly CNO for visibility\) \[KB1580745\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580745) article in the Now Support Knowledge Base.
                 -   Control the maximum number of full discoveries that informers can run on multiple clusters at the same time. For more information, see the [Scheduling Full Discoveries in Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1580250\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1580250) article in the Now Support Knowledge Base.
-                -   [Enabling application service maps](../concept/enabling-application-service-maps.md)
+                -   [Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enabling-application-service-maps.md)
         2.  Run the command.
     -   Install Kubernetes Visibility Agent Informer using the Kubernetes YAML file.
         1.  Download the Kubernetes YAML zip file provided in the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Helm Chart and Kubernetes YAML file releases \[KB1564347\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1564347) article in the Now Support Knowledge Base.
@@ -80,7 +81,7 @@ This procedure describes the standard Kubernetes Visibility Agent Informer insta
             -   Replace all occurrences of &lt;INSTANCE\_NAME&gt; with the name of your instance, without the domain name.
             -   Replace &lt;CLUSTER\_NAME&gt; with the name of your cluster as it appears in the CMDB.
             -   If the Informer is installed in OpenShift, change the value of the OPENSHIFT environment variable to `true`.
-            -   [Enabling application service maps](../concept/enabling-application-service-maps.md)
+            -   [Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enabling-application-service-maps.md)
         4.  If you use the Hybrid service maps to map resources both inside and outside the Kubernetes cluster, set the following parameters:
 
             ```
@@ -102,26 +103,26 @@ Kubernetes Visibility Agent is deployed on the Kubernetes cluster and begins to 
 
 For information about Kubernetes Visibility Agent administration and troubleshooting, see the [Administrating and Troubleshooting Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1532614\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1532614) article in the Now Support Knowledge Base.
 
--   **[Configure the memory limit of the Informer pod](cnov-config-informer-memory.md)**  
+-   **[Configure the memory limit of the Informer pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-informer-memory.md)**  
 Set the memory limit of the Kubernetes Visibility Agent Informer pod.
--   **[Change the full discovery frequency in Kubernetes Visibility Agent](cnov-config-full-discovery-frequency.md)**  
+-   **[Change the full discovery frequency in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-full-discovery-frequency.md)**  
 Customize how often you want the Kubernetes Visibility Agent Informer to run a full discovery.
--   **[Deactivate continuous discovery in Kubernetes Visibility Agent](cnov-config-continuous-discovery-off.md)**  
+-   **[Deactivate continuous discovery in Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-continuous-discovery-off.md)**  
 Switch off continuous discovery by Kubernetes Visibility Agent if all you need is periodic snapshots of your cluster resources. If you have multiple clusters with frequent changes, deactivating continuous discovery reduces the load on your instance.
--   **[Display the Kubernetes cluster version in the CMDB](cnov-config-see-cluster-version.md)**  
+-   **[Display the Kubernetes cluster version in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-see-cluster-version.md)**  
 Make the Kubernetes Visibility Agent Informer populate the relevant field in the cmdb\_ci\_kubernetes\_cluster CI to display the Kubernetes cluster version.
--   **[Create a cmdb\_ci\_linux\_server CI for each Kubernetes node](cnov-config-linux-server-ci.md)**  
+-   **[Create a cmdb\_ci\_linux\_server CI for each Kubernetes node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-linux-server-ci.md)**  
 Configure if you want the Kubernetes Visibility Agent Informer to create a cmdb\_ci\_linux\_server CI for each Kubernetes node.
--   **[Retain inactive namespace CIs for audits](remove-inactive-cis.md)**  
+-   **[Retain inactive namespace CIs for audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/remove-inactive-cis.md)**  
 If required by your corporate standards, retain inactive namespace configuration items \(CIs\) for reference and auditing purposes with the option to delete them manually later.
--   **[Define include and exclude lists of Labels and Annotations](cnov-config-annotations-allowed.md)**  
+-   **[Define include and exclude lists of Labels and Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-annotations-allowed.md)**  
 In Kubernetes Visibility Agent, define include and exclude lists of Labels and Annotations in Kubernetes resources that the Informer pulls into the Configuration Management Database \(CMDB\).
--   **[Add custom Labels and Annotations to Kubernetes resources](cnov-config-add-custom-labels.md)**  
+-   **[Add custom Labels and Annotations to Kubernetes resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-config-add-custom-labels.md)**  
 Add custom Labels and Annotations to all resources deployed by Kubernetes Visibility Agent in the Kubernetes cluster.
--   **[Upgrade Kubernetes Visibility Agent Informers remotely](cnov-informer-upgrade-remote.md)**  
+-   **[Upgrade Kubernetes Visibility Agent Informers remotely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-informer-upgrade-remote.md)**  
 Upgrade Kubernetes Visibility Agent Informer pods in Kubernetes clusters remotely from the ServiceNow Instance to avoid dependence on your Kubernetes admin. You can upgrade a single Informer or multiple Informers together.
--   **[Override Informer parameters from the Instance](cnov-params-override.md)**  
+-   **[Override Informer parameters from the Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-params-override.md)**  
 Control Kubernetes Visibility Agent Informer execution parameters from the ServiceNow Instance to avoid dependence on your Kubernetes admin.
 
-**Parent Topic:**[Configuring Kubernetes Visibility Agent](../concept/cnov-configuring.md)
+**Parent Topic:**[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-configuring.md)
 

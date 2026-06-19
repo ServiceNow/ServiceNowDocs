@@ -2,6 +2,7 @@
 title: Create an API user for the Anglepoint integration
 description: Create a user who is permitted to access the APIs used by the Anglepoint integration. These APIs provide the given user access to the Anglepoint integration resources that are available on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-anglepoint-integration-user.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -115,7 +116,7 @@ Web service access only
 
 </td><td>
 
-Option to designate the user as a non-interactive user. Non-interactive users can use only assigned credentials to authorize API connections, including JSON, SOAP, and WSDL. See [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md) for more information on non-interactive users.**Note:** This option must be enabled.
+Option to designate the user as a non-interactive user. Non-interactive users can use only assigned credentials to authorize API connections, including JSON, SOAP, and WSDL. See Non-interactive sessions for more information on non-interactive users.**Note:** This option must be enabled.
 
 </td></tr><tr><td>
 
@@ -123,7 +124,7 @@ Internal Integration User
 
 </td><td>
 
-Option to designate the user as an internal integration user. See [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md) for more information on internal integration users.
+Option to designate the user as an internal integration user. See Mark service accounts as internal integration users for more information on internal integration users.
 
 </td></tr><tr><td>
 
@@ -221,7 +222,7 @@ Photo of the user.
         -   snc\_platform\_rest\_api\_access
         -   oauth\_user
         -   sn\_samp\_ibm\_lic.sam\_ibm\_data\_integrator
-    3.  Select the Add button ![Add button.](../image/add-icon.png) to move the selected roles from the Collection list to the Roles List.
+    3.  Select the Add button \[Omitted image "add-icon.png"\] to move the selected roles from the Collection list to the Roles List.
 
     4.  Select **Save**.
 
@@ -230,5 +231,5 @@ Photo of the user.
     5.  Verify that all selected roles appear on the **Roles** related tab.
 
 
-**Parent Topic:**[Creating a connection for the Anglepoint integration](../concept/creating-connection-anglepoint-elevate-platform.md)
+**Parent Topic:**[Creating a connection for the Anglepoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/creating-connection-anglepoint-elevate-platform.md)
 

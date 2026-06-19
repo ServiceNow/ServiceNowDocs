@@ -2,6 +2,7 @@
 title: Configure holiday calendars in HR Service Delivery Advanced Integration with Oracle HCM
 description: Pull holiday calendars from the Oracle HCM system into a ServiceNow application. Display applicable holiday calendars to employees in the configured Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-hc-ador.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +28,7 @@ Role required: sn\_hr\_oracle\_adv.admin
 
 2.  To run the View Holiday Calendar widget successfully, configure BI report and Connection &amp; Credential Aliases in Oracle Cloud HCM Spoke.
 
-    For more information, see set up [Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-hcm.md).
+    For more information, see set up Oracle HCM Cloud spoke.
 
 3.  Navigate to **Oracle Advanced Use Cases** &gt; **Holiday Calendar**.
 

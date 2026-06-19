@@ -2,6 +2,7 @@
 title: Define a REST message HTTP method
 description: Define an HTTP method such as GET or POST to send a request to a web service provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_DefineAnHTTPMethod.html
 release: australia
 product: Web Services
 classification: web-services
@@ -44,8 +45,8 @@ When you create a REST message record, several default HTTP methods are automati
 
 After creating the HTTP method, you can override the security settings from the parent REST message, configure HTTP headers, add variables, or test the method. For PUT, POST, and PATCH methods you can define a message body.
 
--   **[Testing REST message HTTP methods](../concept/c_TestingMethods.md)**  
+-   **[Testing REST message HTTP methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_TestingMethods.md)**  
 Test an HTTP method for an outbound REST message to ensure that the request is valid and the response returns as expected.
 
-**Parent Topic:**[Create a REST message](t_ConfiguringARESTMessage.md)
+**Parent Topic:**[Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md)
 

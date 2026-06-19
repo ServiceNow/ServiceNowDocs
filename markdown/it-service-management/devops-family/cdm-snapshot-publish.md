@@ -2,6 +2,7 @@
 title: Publish or unpublish a snapshot
 description: Publish a snapshot so that it can be exported to enable the CI/CD pipeline to access and use the config data. Exporters can execute only on published snapshots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-snapshot-publish.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ Publish a snapshot so that it can be exported to enable the CI/CD pipeline to ac
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: CDM Editor \[sn\_cdm.cdm\_editor\] or CDM Admin \[sn\_cdm.cdm\_admin\]
 
@@ -44,7 +45,7 @@ Role required: CDM Editor \[sn\_cdm.cdm\_editor\] or CDM Admin \[sn\_cdm.cdm\_ad
 
     -   On any tab for an open snapshot, select **Publish**.
     -   On the **Version** tab for an application, select **Publish** from the **Actions** menu for the snapshot.
-    ![Snapshots tab for a mature application](../image/cdm-snapshots-tab.png)
+    \[Omitted image "cdm-snapshots-tab.png"\] Alt text: Snapshots tab for a mature application
 
 2.  View info
 

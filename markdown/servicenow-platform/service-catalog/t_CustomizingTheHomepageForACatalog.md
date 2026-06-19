@@ -2,6 +2,7 @@
 title: Customize a catalog homepage
 description: Customize a catalog homepage to provide end users with access to catalogs from one homepage.By default, subcategories are displayed in a panel at the bottom of the category page. You can change a system property to list subcategories at the top.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_CustomizingTheHomepageForACatalog.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  Select a category in the middle panel of the pop-up window that appears.
 
-    ![Add a category](../image/ServiceCatalogAddCategoriesPopup.png "Service Catalog add categories pop-up window")
+    \[Omitted image "ServiceCatalogAddCategoriesPopup.png"\] Alt text: Add a category
 
 4.  Click **Add here** in the location where the category appears on the homepage.
 
@@ -42,7 +43,7 @@ Role required: admin
 9.  Add a shopping cart on the page.
 
 
-**Parent Topic:**[Service catalog home page configuration](../concept/c_ManagingTheHomepageForACatalog.md)
+**Parent Topic:**[Service catalog home page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ManagingTheHomepageForACatalog.md)
 
 ## Display subcategories in a panel
 
@@ -68,13 +69,13 @@ When set to ****No, the subcategories appear as a list at the top.
 
 
 
- ![](../image/SC_DisplaySubcatPanel-1.png)
+ \[Omitted image "SC\_DisplaySubcatPanel-1.png"\] Alt text:
 
 </td><td>
 
 
 
- ![](../image/SC_DisplaySubcatPanel-2.png)
+ \[Omitted image "SC\_DisplaySubcatPanel-2.png"\] Alt text:
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: PlaybookExperience - Scoped
 description: The PlaybookExperience API provides methods for handling playbook executions.Cancel an individual playbook.Cancels playbook executions for a given parent record.Gets a list of playbook executions for a given parent record.Checks whether a parent record has playbook executions.Restarts an execution from the beginning \(the entire playbook\) or from a specific stage or activity of a playbook.Initiates a playbook for a parent record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PlaybookExperienceScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The PlaybookExperience API provides methods for handling playbook executions.
 
 This API requires the Playbook Experience Core plugin \(com.glide.playbook\_experience.config\) and is provided within the `sn_playbook` namespace.
 
-This API requires at least one playbook in the Process Definition \[sys\_pd\_process\_definition\] table. To use this API, you must have the roles required to view and cancel a running process in Process Automation Designer. For more information, see [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md).
+This API requires at least one playbook in the Process Definition \[sys\_pd\_process\_definition\] table. To use this API, you must have the roles required to view and cancel a running process in Process Automation Designer. For more information, see Process Automation Designer.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## PlaybookExperience - cancelPlaybook\(String playbookContext, String cancellationReason, String playbookExperienceId, Boolean force\)
 
@@ -71,7 +72,7 @@ String
 
 </td><td>
 
-Optional. Sys\_id of the playbook experience record in the Playbook Experience \[sys\_playbook\_experience\] table to use for the cancellation. Use this parameter if you've defined custom activity state mappings. See [Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-activity-state-mapping.md).Default: Sys\_id of the Global Playbook Experience record.
+Optional. Sys\_id of the playbook experience record in the Playbook Experience \[sys\_playbook\_experience\] table to use for the cancellation. Use this parameter if you've defined custom activity state mappings. See Playbook activity state mapping.Default: Sys\_id of the Global Playbook Experience record.
 
 </td></tr><tr><td>
 
@@ -481,7 +482,7 @@ String
 
 </td><td>
 
-Optional. Sys\_id of the playbook experience record in the Playbook Experience \[sys\_playbook\_experience\] table to use for the cancellation. Use this parameter if you've defined custom activity state mappings. See[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-activity-state-mapping.md).Default: Sys\_id of the Global Playbook Experience record.
+Optional. Sys\_id of the playbook experience record in the Playbook Experience \[sys\_playbook\_experience\] table to use for the cancellation. Use this parameter if you've defined custom activity state mappings. See.Default: Sys\_id of the Global Playbook Experience record.
 
 </td></tr></tbody>
 </table><table id="table_vdh_zjr_ypb" class="returns"><thead><tr><th>
@@ -1170,7 +1171,7 @@ String
 
 </td><td>
 
-Optional. The sys\_id of the playbook experience that you want to use for the restarted run. Use this parameter if you have defined custom activity state mappings. See [Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-activity-state-mapping.md).Default: Global Playbook Experience
+Optional. The sys\_id of the playbook experience that you want to use for the restarted run. Use this parameter if you have defined custom activity state mappings. See .Default: Global Playbook Experience
 
 Table: Playbook Experience \[sys\_playbook\_experience\]
 

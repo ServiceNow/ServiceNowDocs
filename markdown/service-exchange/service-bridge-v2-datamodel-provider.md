@@ -2,6 +2,7 @@
 title: Service Exchange for Providers data model
 description: The Service Exchange for Providers data model provides insight into how the tables that are used in the Service Exchange for Providers application relate to each other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-datamodel-provider.html
 release: australia
 product: Service Exchange
 classification: service-exchange

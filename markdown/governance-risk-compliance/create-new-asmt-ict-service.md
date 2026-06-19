@@ -2,6 +2,7 @@
 title: Create New Assessment of the ICT service
 description: On the Create New Assessment of the ICT service form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-asmt-ict-service.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -245,5 +246,5 @@ Available options are:-   **None**
 -   **Lack of real alternatives and difficulties in migrating or reintegrating**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an assessment and enhance digital resilience data](../task/create-drtp-reg-assmt.md)
+</table>**Parent Topic:**[Create an assessment and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-assmt.md)
 

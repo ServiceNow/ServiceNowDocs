@@ -2,11 +2,12 @@
 title: Binding alerts to a specific host CI \(default binding\)
 description: Binding alerts to Configuration Items \(CIs\) using the Node field or the CI Identifier field ensures accurate event association. By comparing an event record’s Node or CI Identifier value, alerts are linked to the right system. This improves response, root cause analysis, and impact assessment by providing clear visibility into affected assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/binding-alert-CI-host-default.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -50,4 +51,6 @@ Imagine a server \(Server-123\) in your network generates an event. The event re
     2.  It compares "Server-123.example.com" with the FQDN, IP, MAC address, or Name of existing host CIs.
     3.  If a match is found \(e.g., FQDN in the CMDB is also "Server-123.example.com"\), the alert is linked to that CI.
 2.  Applying Event Rules: Even if the Node resolves to Server-123, additional event rules might determine if the alert should be linked differently. For example, an event rule may specify that alerts from Server-123 should be linked to a parent CI \(like a cluster\) instead of the individual server.
+
+**Note:** You can also use Service Operations Workspace to bind alerts. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
 

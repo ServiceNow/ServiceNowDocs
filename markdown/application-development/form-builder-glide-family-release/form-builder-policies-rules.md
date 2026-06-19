@@ -2,6 +2,7 @@
 title: Policies and rules in Table Builder
 description: Policies and rules define how information appears to users based on role and entries, as well as who can access tables and forms built in Table Builder.Configure UI policies in Table Builder to adjust how forms appear based on roles and user input.Edit UI policies to change how forms appear based on roles and user input in Table Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/form-builder-policies-rules.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -27,7 +28,7 @@ The **Policies and rules** tab in Table Builder has several sections, but you ca
 |Business Rules|Create business rules to accomplish tasks like automatically changing values in form fields when certain conditions are met.|No.|
 |Workspace view rules|Define rules to control how users view workspaces based on criteria.|No.|
 
-To manage a rule or policy script outside of Table Builder, select ![View external link icon.](../image/view-external-link-icon.png) for the entry. Or, you can view the full list of rules and scripts outside of Table Builder by selecting the **Full list** ![View external link icon.](../image/view-external-link-icon.png) link for each section of the **Policies and rules** tab:
+To manage a rule or policy script outside of Table Builder, select \[Omitted image "view-external-link-icon.png"\] Alt text: View external link icon. for the entry. Or, you can view the full list of rules and scripts outside of Table Builder by selecting the **Full list** \[Omitted image "view-external-link-icon.png"\] Alt text: View external link icon. link for each section of the **Policies and rules** tab:
 
 -   **Full ACL list**
 -   **Full client scripts list**
@@ -42,7 +43,7 @@ For example, you can use UI policies to make a field on a form read-only or requ
 
 You can also use client scripts to perform all these actions, but for faster load times use UI policies when possible.
 
-**Parent Topic:**[Using Table Builder](using-fb.md)
+**Parent Topic:**[Using Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/using-fb.md)
 
 ## Create a UI policy in Table Builder
 
@@ -50,15 +51,15 @@ Configure UI policies in Table Builder to adjust how forms appear based on roles
 
 ### Before you begin
 
--   Launch Table Builder. For more information, see [Accessing Table Builder](accessing-form-builder.md).
--   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](form-builder-domain-separation.md).
--   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](fb-application-scope.md).
+-   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
+-   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
+-   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_rules or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](../../../build/app-engine-studio/concept/aes-app-dev-workflow.md).
+Role required: personalize\_rules or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### About this task
 
-You can create and edit UI policies only for applications that you own. For more information on application scope, see [Domain separation and Table Builder](form-builder-domain-separation.md).
+You can create and edit UI policies only for applications that you own. For more information on application scope, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 
 ### Procedure
 
@@ -74,11 +75,11 @@ You can create and edit UI policies only for applications that you own. For more
 
     -   If the link is inactive, you must change the scope that you're working with on the **Forms** tab.
     -   If a field has policy and appears in the view, the active icon appears on the top corner of the field as shown in the following example.
-    ![Add new policy link in UI policies section.](../image/fb-ui-policy-add.png)
+    \[Omitted image "fb-ui-policy-add.png"\] Alt text: Add new policy link in UI policies section.
 
 5.  On the form, fill in the fields for the Policy details section.
 
-    For more information on field definitions, see [Policies and rules properties in Table Builder](../reference/ui-policy-fields.md).
+    For more information on field definitions, see [Policies and rules properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/ui-policy-fields.md).
 
 6.  In the When these conditions are met section, specify the conditions that, if fulfilled, cause the UI policy to be applied using the condition builder.
 
@@ -91,7 +92,7 @@ You can create and edit UI policies only for applications that you own. For more
 
 ### Result
 
-After you add the UI policy, you can configure scripts and the related list actions for it. For more information on client scripts and UI policies, see [Client scripts for UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAUIPolicy.md).
+After you add the UI policy, you can configure scripts and the related list actions for it. For more information on client scripts and UI policies, see Client scripts for UI policies.
 
 ## Modify a UI policy in Table Builder
 
@@ -99,15 +100,15 @@ Edit UI policies to change how forms appear based on roles and user input in Tab
 
 ### Before you begin
 
--   Launch Table Builder. For more information, see [Accessing Table Builder](accessing-form-builder.md).
--   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](form-builder-domain-separation.md).
--   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](fb-application-scope.md).
+-   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
+-   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
+-   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-Role required: personalize\_rules or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](../../../build/app-engine-studio/concept/aes-app-dev-workflow.md).
+Role required: personalize\_rules or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ### About this task
 
-You can create and edit UI policies only for applications that you own. For more information on application scope, see [Domain separation and Table Builder](form-builder-domain-separation.md).
+You can create and edit UI policies only for applications that you own. For more information on application scope, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
 
 ### Procedure
 
@@ -117,7 +118,7 @@ You can create and edit UI policies only for applications that you own. For more
 
 2.  Change the UI policy fields and attributes as needed.
 
-    For more information on field definitions, see [Policies and rules properties in Table Builder](../reference/ui-policy-fields.md).
+    For more information on field definitions, see [Policies and rules properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/ui-policy-fields.md).
 
 3.  Click **Update UI policy**.
 

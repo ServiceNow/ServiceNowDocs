@@ -2,6 +2,7 @@
 title: Create REST API access policy
 description: Create an API access policy and map an authentication profile to restrict the authentication type for a REST API. For example, you can create an API access policy that allows only ID token authentication for a REST API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-api-access-policy.html
 release: australia
 product: Authentication
 classification: authentication
@@ -17,7 +18,7 @@ Create an API access policy and map an authentication profile to restrict the au
 
 ## Before you begin
 
-Make sure that an authentication profile is created. For more information, see [Create an authentication profile](create-authentication-profile.md).
+Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-authentication-profile.md).
 
 Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
@@ -29,7 +30,7 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 3.  On the form, fill in the mandatory fields and submit.
 
-    ![API access policy fields](../images/rest-api-access-policy.png)
+    \[Omitted image "rest-api-access-policy.png"\] Alt text: API access policy fields
 
     **Note:** You must reopen the submitted form to populate additional fields.
 
@@ -155,18 +156,18 @@ Option to apply the policy to all tables. This option only applies to policies f
 
 </td></tr><tr><td>
 
-[Advertise all auth schemes](create-authentication-profile.md)
+[Advertise all auth schemes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-authentication-profile.md)
 
 </td><td>
 
 Determines whether the `WWW-Authenticate` header includes all configured authentication schemes. When set to `false` \(default\), the header includes only the most recently configured authentication profile in the policy. When set to `true`, the header lists all configured authentication schemes.
 
 </td></tr></tbody>
-</table>    **Note:** To understand more about the API access policy prioritization, see [API access policy prioritization](../../inbound-rest/concept/api-access-policy-prioritization.md).
+</table>    **Note:** To understand more about the API access policy prioritization, see [API access policy prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/api-access-policy-prioritization.md).
 
 4.  Double-click **Insert a new row**.
 
-5.  Select an inbound authentication profile from the list and select the save icon ![save icon](../images/green-checkmark.png).
+5.  Select an inbound authentication profile from the list and select the save icon \[Omitted image "green-checkmark.png"\] Alt text: save icon.
 
     For example, you can add **Basic Auth**, **ID Token**, **Certificate based Auth**, **OAuth** or **WSSE Auth**.
 
@@ -178,7 +179,7 @@ Determines whether the `WWW-Authenticate` header includes all configured authent
         -   **Create WSSE authentication profiles**
         -   **Create API Key authentication profiles**
         -   **Create HMAC authentication profiles**
-        ![Authentication profile](../../inbound-soap/image/auth-profile.png)
+        \[Omitted image "auth-profile.png"\] Alt text: Authentication profile
 
     3.  After creating the authentication profile, save the record.
 

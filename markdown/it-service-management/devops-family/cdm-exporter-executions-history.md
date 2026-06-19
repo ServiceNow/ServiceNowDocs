@@ -2,6 +2,7 @@
 title: View the history of exporter executions
 description: View a list of exporter executions to identify config updates that are successful and to isolate changes that caused failure in the pipeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-executions-history.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ View a list of exporter executions to identify config updates that are successfu
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_viewer or cdm\_exporter\_editor or cdm\_editor or cdm\_admin
 
@@ -25,13 +26,13 @@ Role required: cdm\_viewer or cdm\_exporter\_editor or cdm\_editor or cdm\_admin
 
 ## Procedure
 
-1.  Select the Admin icon \(![Admin icon.](../image/icon-admin-wrench.png)\) to open the **Administration** page.
+1.  Select the Admin icon \(\[Omitted image "icon-admin-wrench.png"\] Alt text: Admin icon.\) to open the **Administration** page.
 
 2.  On the **Exporters** tab, select the name of the exporter.
 
 3.  Select the **Executions** tab to view the list of executions.
 
-    ![Executions tab that lists all executions for an exporter](../image/cdm-exporter-executions-tab.png)
+    \[Omitted image "cdm-exporter-executions-tab.png"\] Alt text: Executions tab that lists all executions for an exporter
 
 <table><thead><tr><th>
 

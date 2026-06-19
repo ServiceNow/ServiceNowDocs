@@ -2,6 +2,7 @@
 title: Delete request items
 description: Use ServiceNow's web-based interface to delete items from a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/t\_DeleteRequestItems.html
 release: australia
 product: Self-service
 classification: self-service
@@ -34,5 +35,5 @@ All users can delete items from their own requests any time prior to delivery. M
     ServiceNow recalculates the price and delivery date for the order.
 
 
-**Parent Topic:**[Service catalog requests](../topic/p_ServiceCatalogRequests.md)
+**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 

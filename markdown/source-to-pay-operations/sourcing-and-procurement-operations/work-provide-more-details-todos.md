@@ -2,6 +2,7 @@
 title: Provide more details on your purchase from Shopping Hub Home
 description: Provide additional information on your purchase from Shopping Hub Home by answering the follow-up questions that the procurement specialist has posted regarding your order. Your response to these to-dos ensures that the procurement specialist understands your exact requirements and has all the necessary information before proceeding with the sourcing request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/work-provide-more-details-todos.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -40,5 +41,5 @@ You can provide more information on the queries that the procurement buyer has p
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

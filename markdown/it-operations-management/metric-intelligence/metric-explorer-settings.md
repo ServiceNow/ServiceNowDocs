@@ -2,6 +2,7 @@
 title: Insights Explorer settings
 description: You can configure Insights Explorer settings to control for example, the refresh frequency or the display of related records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/metric-explorer-settings.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -42,10 +43,10 @@ Indicators
 Enable any indicator to display related records such as incidents or problems for CIs. The respective icon displays on the timeline in the metric chart, indicating the number of records for the CI.A toggle is available only if the **Active in Metrics** field is selected on the Map Indicator form for the respective table. For example, the **Incident** toggle is available only if **Active in Metrics** is selected on the Map Indicator form for the incident \[Incident\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Metric Intelligence reference](../../metric-intelligence/reference/metric-intelligence-reference.md)
+</table>**Parent Topic:**[Metric Intelligence reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/metric-intelligence-reference.md)
 
 **Related topics**  
 
 
-[Dependency Views map indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/t_CreateModifyNGBSMMapIndicators.md)
+[bundle-platcap.t_CreateModifyNGBSMMapIndicators]
 

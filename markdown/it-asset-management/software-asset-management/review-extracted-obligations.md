@@ -2,6 +2,7 @@
 title: Review AI-extracted obligations Software Asset Workspace
 description: Use the contract playbook to review, edit, approve, or reject obligations automatically extracted from contract documents. Approved obligations are added as obligations records in the Obligations tab of the contract repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/review-extracted-obligations.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -49,13 +50,13 @@ The manage contract repository agentic workflow uses AI agents to extract key co
 
         **Note:** Complete all required fields before saving the changes or approving the obligation.
 
-        For a description of the field values, see [Obligation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-form.md).
+        For a description of the field values, see .
 
     -   To save the changes, select **Save**.
     -   To approve the extracted obligation and add it as a record in the contract repository, select **Approve**.
     -   To reject the extracted obligation, select **Reject**.
 
-        After an obligation is rejected, it’s deactivated and can’t be reactivated again. To add an obligation later, you must create an obligation record manually. For more information, see [Create an obligation record in the Software Asset Workspace](../../software-asset-management2/task/create-obligation-record-sam.md).
+        After an obligation is rejected, it’s deactivated and can’t be reactivated again. To add an obligation later, you must create an obligation record manually. For more information, see [Create an obligation record in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-obligation-record-sam.md).
 
 8.  Repeat step 7 for all the extracted obligations.
 
@@ -70,7 +71,7 @@ Approved obligations are available as records in the **Obligations** tab of the 
 
 If the schedule of the obligation is recurring, the obligation tasks are automatically created based on the interval specified in the **Repeats** field.
 
-If the schedule of the obligation is adhoc, you must create obligation tasks manually. For more information, see [Create an obligation record in the Software Asset Workspace](../../software-asset-management2/task/create-obligation-record-sam.md).
+If the schedule of the obligation is adhoc, you must create obligation tasks manually. For more information, see [Create an obligation record in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-obligation-record-sam.md).
 
-**Parent Topic:**[Use manage contract repository agentic workflow in the Software Asset Workspace](../concept/manage-contract-repository-workflow.md)
+**Parent Topic:**[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)
 

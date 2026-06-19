@@ -2,6 +2,7 @@
 title: Track classification prediction results over time
 description: Use the Prediction Results dashboard to determine if classification solution predictions are improving over time. Identify solutions that need refining or retraining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/review-prediction-results.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -23,7 +24,7 @@ Use the Prediction Results dashboard to determine if classification solution pre
 
 The Prediction Results dashboard reports on coverage, precision, and recall over time for classification solutions.
 
-With the Xanadu release, this dashboard has been migrated to the Next Experience UI. Customers upgrading from previous releases can access the Core UI version from the current dashboard. ![The Prediction Results dashboard for classification solutions, displayed in the Next Experience UI.](../images/review-prediction-results_X1.png)
+With the Xanadu release, this dashboard has been migrated to the Next Experience UI. Customers upgrading from previous releases can access the Core UI version from the current dashboard. \[Omitted image "review-prediction-results\_X1.png"\] Alt text: The Prediction Results dashboard for classification solutions, displayed in the Next Experience UI.
 
 On the Prediction Results dashboard, statistics are provided in two timeframes: the average for the past 30 days, and daily. The indicators coverage, precision, and recall are defined as follows.
 
@@ -50,5 +51,5 @@ On the Prediction Results dashboard, statistics are provided in two timeframes: 
 
 Refine the solution definition filter by including or excluding classes as needed. After updating, retrain the solution.
 
-**Parent Topic:**[Testing and monitoring predictions](../concept/testing-reviewing-ml-solutions.md)
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
 

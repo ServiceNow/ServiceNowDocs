@@ -2,11 +2,12 @@
 title: Show IoC information for a security incident
 description: You can view IoC information, such as observables and sightings search results associated with a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/show-ioc-info-for-si.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Manage observables, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -29,7 +30,7 @@ Role required: sn\_si.basic
 
     |Tab|Description|
     |---|-----------|
-    |Observables|View or manually add or edit observables associated with the security incident. For more information, see [Manage observables](../concept/sec-inc-observables.md).|
+    |Observables|View or manually add or edit observables associated with the security incident. For more information, see [Manage observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sec-inc-observables.md).|
     |Associated Indicators|If Threat Intelligence is activated, you can view any other indicators associated with any of the same threat records.|
     |Sightings Search Results|Contains Sightings Search results.|
     |Sightings Search Details|Contains Sightings Search record details.|
@@ -41,10 +42,10 @@ Role required: sn\_si.basic
 
 4.  Click any of the following related links to further update the security incident:
 
-    -   [Show Affected Items](show-affected-items-for-si.md)
-    -   [Show Related Items](show-related-items-for-si.md)
-    -   [Show Enrichment Data](show-enrich-data-for-si.md)
-    -   [Show Response Tasks](show-response-tasks-for-si.md)
+    -   [Show Affected Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/show-affected-items-for-si.md)
+    -   [Show Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/show-related-items-for-si.md)
+    -   [Show Enrichment Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/show-enrich-data-for-si.md)
+    -   [Show Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/show-response-tasks-for-si.md)
 5.  When you have completed your entries, click **Submit**.
 
 

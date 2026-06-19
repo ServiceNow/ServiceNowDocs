@@ -2,6 +2,7 @@
 title: Software EOL request fields
 description: Use the Software EOL request form to create a software end of life \(EOL\) request for software products in your asset estate that are reaching or have reached EOL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/software-eol-request.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -288,5 +289,5 @@ Work notes
 Information about how the software EOL task is resolved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
 

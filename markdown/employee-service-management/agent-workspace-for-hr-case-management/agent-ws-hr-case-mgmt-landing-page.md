@@ -2,6 +2,7 @@
 title: Agent Workspace for HR Case Management
 description: Agent Workspace for HR Case Management \(Configurable\) is one of two workspaces available for the HR Service Delivery application and uses the Next Experience user interface. It is built on a configurable UI Builder version, which makes it easy to configure and extend according to business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -55,15 +56,15 @@ Personalize landing, record, list, and case creation pages
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -71,15 +72,15 @@ Single-pane view
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -87,15 +88,15 @@ Integrate communication channels
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -103,15 +104,15 @@ Agent assist
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -122,15 +123,15 @@ Leverage UI Builder-   Edit component properties
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -138,15 +139,15 @@ Multi-tab view
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -154,15 +155,15 @@ List view
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -170,15 +171,15 @@ Record view
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -186,15 +187,15 @@ Case creation
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -202,15 +203,15 @@ Bulk case creation
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -218,15 +219,15 @@ Add checklists for HR cases
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -234,15 +235,15 @@ Contextual side panel
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)**Note:** Only a few features are available in the contextual side panel. For a new set of features introduced in the panel, migrate to Agent Workspace for HR Case Management \(Configurable\).
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes**Note:** Only a few features are available in the contextual side panel. For a new set of features introduced in the panel, migrate to Agent Workspace for HR Case Management \(Configurable\).
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -250,15 +251,15 @@ Create reminders to enable timely communication
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -266,15 +267,15 @@ Create additional cases while working on an HR case
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -282,15 +283,15 @@ Send email feature
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -298,15 +299,15 @@ Create and use interaction records
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -314,15 +315,15 @@ ML-driven personalizations
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -330,15 +331,15 @@ Supports employee document management
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -346,15 +347,15 @@ Agent chat
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -362,15 +363,15 @@ View Service Level Agreements\(SLAs\)
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -378,15 +379,15 @@ Supports Conversational SMS service channel application
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -394,15 +395,15 @@ Custom My Lists
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -410,15 +411,15 @@ Document templates
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr><tr><td>
 
@@ -426,39 +427,39 @@ Response templates
 
 </td><td>
 
-![No](../../../reuse/images/icon-error-red-x.png)
+\[Omitted image "icon-error-red-x.png"\] Alt text: No
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td>
 
-![Yes](../../../reuse/images/icon-check-mark-green.png)
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td></tr></tbody>
 </table>## Get started
 
 <table id="table_rwk_drp_bwb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../reuse/icons/brand-icons/bus-explore.svg) Learn more about Agent Workspace for HR Case Management.](agent-ws-hr-case-mgmt-exploring.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Learn more about Agent Workspace for HR Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-exploring.md)
 
 </td><td>
 
-[Configure ![Configure](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your implementation.](setup-configurable-hr-agent-workspace.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/setup-configurable-hr-agent-workspace.md)
 
 </td></tr><tr><td>
 
-[Use ![Use](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Learn how to use HR Agent Workspace.](agent-ws-hr-case-mgmt-use.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Learn how to use HR Agent Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md)
 
 </td><td>
 
-[Reference ![Reference](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, and properties.](../reference/agent-ws-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

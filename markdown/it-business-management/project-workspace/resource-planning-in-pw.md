@@ -2,6 +2,7 @@
 title: Resource planning in Project Workspace
 description: Plan and allocate resources using the Project Workspace application to enable optimal resource utilization and execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/resource-planning-in-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -37,5 +38,5 @@ After a resource assignment is created, the project manager verifies resource av
 
 **Note:** After the resource assignment is created and has any requested allocations, a resource plan is created automatically in the allocated state in the back-end. Either a new resource plan and resource allocation are created, or an existing resource plan is retrieved based on the attributes. As a result, its planned cost and allocated cost are matched, and its planned and allocated hours are also matched. These resource plans aren’t displayed in the Resource Allocation Workbench.
 
-**Parent Topic:**[Exploring Project Workspace](../../project-workspace/concept/exploring-project-workspace.md)
+**Parent Topic:**[Exploring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/exploring-project-workspace.md)
 

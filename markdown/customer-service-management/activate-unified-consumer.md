@@ -2,7 +2,10 @@
 title: Activate Unified Consumer
 description: Activate the Unified Consumer functionality within the Customer Service Management \(CSM\) application by updating the Consumer script include. This modification enables you to display the other sys\_user extension records in the reference list for the users in the csm\_consumer table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-unified-consumer.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -50,5 +53,5 @@ To enable access to sys\_users \(internal users\), add the sys\_user to the user
 
 ## What to do next
 
-Add a user to your instance. For more information, see [Creating and associating a Unified Consumer user to a consumer record](../concept/associating-users-to-a-consumer-record.md#).
+Add a user to your instance. For more information, see [Creating and associating a Unified Consumer user to a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associating-users-to-a-consumer-record.md).
 

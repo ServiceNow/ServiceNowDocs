@@ -2,11 +2,12 @@
 title: CI deletion strategies for pattern discovery
 description: When you perform discovery with a pattern, you can choose what to do with configuration items \(CIs\) that are in the Configuration Management Database \(CMDB\) but Discovery can no longer find.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/deletion-strategy.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -25,13 +26,13 @@ When you use a pattern to perform discovery, you identify a CI Type, which is th
 
 The dependency map on the main CI also shows the related CIs, as illustrated by the following graphic:
 
-![related CIs to an IIS server](../image/iis-server-related-cis.png "An example of an IIS server main CI and its related CIs")
+\[Omitted image "iis-server-related-cis.png"\] Alt text: related CIs to an IIS server
 
 After you discover the main CI and its related CIs for the first time using a pattern, you must manually configure an entry in the Related CI Types \[sa\_ci\_to\_pattern\] table for each relation between the main CI and a related CI type. These records are where you determine the deletion strategy for each related CI based on its type. Note that you cannot set a deletion strategy for the main CI for Infrastructure pattern type.
 
 You can view a list of the relations as the following image illustrates:
 
-![CIs related to an IIS server](../image/iis-server-related-cis-list.png "Example CIs related to an IIS server")
+\[Omitted image "iis-server-related-cis-list.png"\] Alt text: CIs related to an IIS server
 
 The deletion strategy on a related CI takes effect when both of these conditions occur:
 
@@ -89,10 +90,10 @@ Mark as retired
 Marks the **Status** \[install\_status\] field of the configuration file CI record as **Retired**, meaning that Discovery no longer uses this configuration file. This status does not instruct the system to delete the actual CI or the relationship.
 
 </td></tr></tbody>
-</table>**Note:** Deletion strategies are not available for related entries, which are rules that are based on related CIs. For more information, see [Related entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md#section_ftc_tg4_j1b).
+</table>**Note:** Deletion strategies are not available for related entries, which are rules that are based on related CIs. For more information, see Related entries.
 
--   **[Set a deletion strategy](../task/set-deletion-strategy.md)**  
+-   **[Set a deletion strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-deletion-strategy.md)**  
 Set a deletion strategy when you want to take action on a related configuration item \(CI\) that Discovery can no longer find through pattern discovery. You can delete the main CI only when it is an Application or Cloud Resource pattern type.
 
-**Parent Topic:**[Advanced Discovery configuration](c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

@@ -2,6 +2,7 @@
 title: Create an application with the ServiceNow IDE
 description: Create an application to develop in source code with the ServiceNow IDE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/create-application-servicenow-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -17,9 +18,9 @@ Create an application to develop in source code with the ServiceNow IDE.
 
 ## Before you begin
 
-Create a workspace for your applications. For more information, see [Create a workspace in the ServiceNow IDE](create-workspace-servicenow-ide.md).
+Create a workspace for your applications. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
 
-**Note:** You can use Build Agent to help you create and edit applications in the ServiceNow IDE. For more information, see [Build Agent](../../build-agent/concept/build-agent.md).
+**Note:** You can use Build Agent to help you create and edit applications in the ServiceNow IDE. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/build-agent.md).
 
 Role required: admin
 
@@ -45,7 +46,7 @@ Role required: admin
 
 8.  For scoped applications, enter a scope name and press Enter.
 
-    The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](../../applications/concept/c_NamespaceIdentifier.md).
+    The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_NamespaceIdentifier.md).
 
 9.  Enter a package name for the application and press Enter.
 
@@ -53,14 +54,14 @@ Role required: admin
 
 10. Select a template that defines the default application structure.
 
-11. Build and install your application to compile source code into application metadata and make your changes available across the instance. For more information, see [Build and install an application in the ServiceNow IDE](build-applications-servicenow-ide.md).
+11. Build and install your application to compile source code into application metadata and make your changes available across the instance. For more information, see [Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md).
 
 
 ## Result
 
-An application with the default application structure is added to the instance and open in your workspace. For information about the application structure, see the [Application structure](../../custom-application/concept/building-applications-source-code.md#application-structure) section of the Building applications in source code topic.
+An application with the default application structure is added to the instance and open in your workspace. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/building-applications-source-code.md) section of the Building applications in source code topic.
 
-![An application open in the File Explorer view.](../image/servicenow-ide-create-app.png)
+\[Omitted image "servicenow-ide-create-app.png"\] Alt text: An application open in the File Explorer view.
 
 In the status bar, a message confirms whether the application was created. If the application creation fails, review the output logs in the panel.
 
@@ -68,7 +69,7 @@ In the status bar, a message confirms whether the application was created. If th
 
 ## What to do next
 
-From your Git provider, create a dedicated Git repository for the application. Initialize a local Git repository for your application and push it to the remote repository. For more information, see [Initialize a Git repository with the ServiceNow IDE](initialize-git-repository-servicenow-ide.md).
+From your Git provider, create a dedicated Git repository for the application. Initialize a local Git repository for your application and push it to the remote repository. For more information, see [Initialize a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/initialize-git-repository-servicenow-ide.md).
 
 In the ServiceNow IDE, start developing your application in source code with ServiceNow Fluent, writing custom JavaScript modules, or adding third-party libraries.
 

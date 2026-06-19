@@ -2,6 +2,7 @@
 title: Set data filter and map filter
 description: Set the data and map filters to focus on the data as per your requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/map-data-filter.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -34,10 +35,10 @@ There are two types of filters:
 
 4.  In the filters list, you see the filters that are applied to the project.
 
-    ![Data and map filters](../image/data-map-filter.png)
+    \[Omitted image "data-map-filter.png"\] Alt text: Data and map filters
 
 5.  Select any filter, and select **Clear** to remove the filter.
 
 
-**Parent Topic:**[Filtering project data](filter-project.md)
+**Parent Topic:**[Filtering project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/filter-project.md)
 

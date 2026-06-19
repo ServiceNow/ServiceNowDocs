@@ -2,6 +2,7 @@
 title: HR for HR Security
 description: Even Employee Relations agents with privileges to view and modify an ER case are limited from viewing, modifying, or restricting and ER case under certain circumstances for security purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-case-restriction-er-agent.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Components installed
 description: Several types of components are installed with the installation of the Dispute Rules Content Pack for Mastercard plugin, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-mastercard.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -32,5 +33,5 @@ Several types of components are installed with the installation of the Dispute R
 |-----|-----------|
 |Mastercard Chargeback Reason Code Message \[sn\_bom\_mcard\_cp\_mastercard\_chargeback\_reason\_codes\]|Contains the Mastercard chargeback reason codes and associated messages.|
 
-**Parent Topic:**[Dispute Rules Content Pack for Mastercard reference](../concept/dispute-rules-content-pack-for-mastercard-reference.md)
+**Parent Topic:**[Dispute Rules Content Pack for Mastercard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-reference.md)
 

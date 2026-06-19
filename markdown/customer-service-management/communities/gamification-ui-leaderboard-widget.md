@@ -2,6 +2,7 @@
 title: Leaderboard widgets
 description: Leaderboard widgets appear on the Community homepage and on forum and topic landing pages. These widgets display the users with the highest point totals within the community, forum, or topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-ui-leaderboard-widget.html
 release: australia
 product: Communities
 classification: communities
@@ -15,9 +16,9 @@ breadcrumb: [Gamification user interface components, Gamification, Using communi
 
 Leaderboard widgets appear on the Community homepage and on forum and topic landing pages. These widgets display the users with the highest point totals within the community, forum, or topic.
 
-The leaderboard widget shows the top five users. If there are more than five users that have earned points within the community, forum, or topic, **Show Leaderboard** appears at the bottom. Click this button to display all of the users on the [leaderboard page](gamification-ui-leaderboard.md).
+The leaderboard widget shows the top five users. If there are more than five users that have earned points within the community, forum, or topic, **Show Leaderboard** appears at the bottom. Click this button to display all of the users on the [leaderboard page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/gamification-ui-leaderboard.md).
 
-![Leaderboard ranking the top users by total points.](../images/CommunitiesForumLeaderboardWidget.png "Community forum leaderboard widget")
+\[Omitted image "CommunitiesForumLeaderboardWidget.png"\] Alt text: Leaderboard ranking the top users by total points.
 
 For forums and topics, the leaderboard widget header displays the forum or topic name. When navigating to the leaderboard page from a forum/topic, the leaderboard shows the top point earners for that forum/topic.
 
@@ -28,5 +29,5 @@ System administrators can configure settings for the leaderboard widget:
 -   The leaderboard type \(community, forum, or topic\)
 -   Anchor to a specific forum or topic \(not recommended\)
 
-**Parent Topic:**[Gamification user interface components](../concept/communities-gamification-UI.md)
+**Parent Topic:**[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-UI.md)
 

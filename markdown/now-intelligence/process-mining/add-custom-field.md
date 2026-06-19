@@ -2,6 +2,7 @@
 title: Add custom fields to the audit table
 description: The custom fields form as breakdown filters when viewing the process graph. Without custom fields, there won't be any breakdown filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/add-custom-field.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -48,10 +49,10 @@ Role required: sn\_process\_mining\_admin
 
     **Note:** This screen provides you with the name of the table that is created. You’ll need this table name in the next steps while importing data.
 
-    ![Import external dataset](../image/ext-dataset3.png)
+    \[Omitted image "ext-dataset3.png"\] Alt text: Import external dataset
 
     The audit table is ready. You’re now set to import data into the table.
 
 
-**Parent Topic:**[Working with external datasets](../concept/external-dataset.md)
+**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md)
 

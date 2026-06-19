@@ -2,6 +2,7 @@
 title: Configure repeating pattern
 description: Configure a repeating pattern definition to view a pattern with a series of repeating sequence of steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/repeating-pattern.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -21,13 +22,13 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 Repeating pattern finding definition displays the repetition of a specific order of steps. This brings the focus to the areas where you want to improve or automate certain parts or the process that are revisited.
 
-![Repeating patterns](../image/repeating-patterns.png)
+\[Omitted image "repeating-patterns.png"\] Alt text: Repeating patterns
 
 ## Procedure
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about the Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Repeating pattern card.
 
@@ -120,7 +121,7 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 
     Default values are provided. You can edit them if needed.
 
-    ![Repeating patterns configuration](../image/repeating-patterns-config.png)
+    \[Omitted image "repeating-patterns-config.png"\] Alt text: Repeating patterns configuration
 
     According to the example, records that meet the following conditions will be available as improvement opportunities in the Summary and insights page:
 
@@ -130,5 +131,5 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting Automated improvement opportunities](../concept/automated-findings.md)
+**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
 

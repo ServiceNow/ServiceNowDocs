@@ -2,6 +2,7 @@
 title: Use a custom tab for the Career tab in Skills Foundation
 description: Use a custom tab as a replacement for the Career tab in Employee Profile by updating the tab ID so employees are redirected to this custom tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/update-career-tab-id.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -17,7 +18,7 @@ Use a custom tab as a replacement for the **Career** tab in Employee Profile by 
 
 ## Before you begin
 
-Create a custom tab to display skills-related content in the employee profile. For more information on creating a tab, see [Manage profile tabs and visibility in Employee Profile](../../employee-center/task/manage-employee-profile-tabs-visibility.md).
+Create a custom tab to display skills-related content in the employee profile. For more information on creating a tab, see [Manage profile tabs and visibility in Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-employee-profile-tabs-visibility.md).
 
 Role required: sn\_skills\_int.admin, sn\_hr\_sp.esc\_admin
 
@@ -29,7 +30,7 @@ Role required: sn\_skills\_int.admin, sn\_hr\_sp.esc\_admin
 
     2.  Select the tab that you want to use instead of the **Career** tab.
 
-    3.  Select the Additional actions icon \(![Additional actions icon](../../human-resources/image/additional-actions-icon.png)\) and select **Copy sys\_id**.
+    3.  Select the Additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) and select **Copy sys\_id**.
 
 2.  Access the sn\_skills\_int-tab\_id system property.
 

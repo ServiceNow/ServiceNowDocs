@@ -2,6 +2,7 @@
 title: Activate Field Service Territory Planning
 description: You can activate the Field Service Territory Planning plugin \(com.snc.fsm\_territory\_planning\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -34,7 +35,7 @@ The following items are installed with Field Service Territory Planning:
 -   Properties
 -   Query rules
 
-For more information, see [Field Service Territory Planning components](../reference/territory-planning-components-fsm.md#).
+For more information, see [Field Service Territory Planning components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/territory-planning-components-fsm.md).
 
 ## Procedure
 
@@ -48,12 +49,12 @@ For more information, see [Field Service Territory Planning components](../refer
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## Result
 
 The Field Service Territory Planning plugin when activated successfully adds the default territory model, Field\_Service\_Territories to the Field Service configurations, inside the Add-ons tab.
 
-**Note:** You must activate the **Field\_Service\_Territories** model after setting up your territories to schedule work order tasks based on territories. For more information, see [Enable the Field Service territory model](enable-territory-model.md).
+**Note:** You must activate the **Field\_Service\_Territories** model after setting up your territories to schedule work order tasks based on territories. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 

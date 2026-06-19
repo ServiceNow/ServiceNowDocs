@@ -2,6 +2,7 @@
 title: Create an epic in Agile Development 2.0
 description: Define the high-level requirements of the features that you want to develop by creating epics in Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-an-epic.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -31,7 +32,7 @@ Create epics in Agile Development 2.0 and organize them in a hierarchy of parent
 
     Alternatively, you can open the new epic form using the Agile board, from a theme record, or from a product record.
 
-    You can also convert an existing active story into an epic. For details, see [Related links and lists for a Story in Agile Development 2.0](../reference/agile-2-0-story-related-lists-related-links.md).
+    You can also convert an existing active story into an epic. For details, see [Related links and lists for a Story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-2-0-story-related-lists-related-links.md).
 
 3.  On the form, fill in the fields.
 
@@ -193,7 +194,7 @@ Program mapped to the scrum work enabling top-down hybrid planning.This field is
 
 -   Add child epics or stories to the epic:
     -   Create a child epic for this epic by selecting **New** from the Child Epics related list.
-    -   Add stories to this epic by selecting **New** from the Stories related list. For more information, see [Create a story in Agile Development 2.0](create-a-story.md).
+    -   Add stories to this epic by selecting **New** from the Stories related list. For more information, see [Create a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-story.md).
 
         An epic can have one or more stories, but a story can belong to only one epic at a time.
 
@@ -202,14 +203,14 @@ Program mapped to the scrum work enabling top-down hybrid planning.This field is
     This related list appears only when the value for the **Execution Type** field is selected as **Agile** and the Agile Development 2.0 plugin is installed.
 
 
--   **[Create a monetary benefit plan for an epic](create-monetary-benefit-plan-agile-epic.md)**  
+-   **[Create a monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-monetary-benefit-plan-agile-epic.md)**  
 Epic benefit plans capture the potential benefits accrued by the epic when the epic is executed. Create a monetary benefit plan to specify the estimated benefit in a category spanning one or more fiscal periods.
--   **[Create a non-monetary benefit plan for an epic](create-non-monetary-benefit-plan-agile-epic.md)**  
+-   **[Create a non-monetary benefit plan for an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-non-monetary-benefit-plan-agile-epic.md)**  
 Epic benefit plans capture the potential non-financial benefits accrued by the epic when the epic is executed. Create a non-monetary benefit plan to specify the estimated benefit in a category spanning one or more fiscal periods.
--   **[Associate monetary and non-monetary benefit plans](associate-benefit-plans-agile-epic.md)**  
+-   **[Associate monetary and non-monetary benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/associate-benefit-plans-agile-epic.md)**  
 Associate monetary and non-monetary benefit plans, so that you can capture the potential benefits \(financial and non-financial\) accrued by the epic for the hybrid benefit plans.
--   **[Generate labor costs for epics](gen-labor-costs-epics.md)**  
+-   **[Generate labor costs for epics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/gen-labor-costs-epics.md)**  
 View the labor cost expenses based on the resource assignments for your epics.
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](../concept/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
 

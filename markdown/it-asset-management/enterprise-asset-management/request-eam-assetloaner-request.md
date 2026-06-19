@@ -2,6 +2,7 @@
 title: Request a loaner asset in Enterprise Asset Workspace
 description: Request a temporary or loaner asset or a consumable and use it for a specified period of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/request-eam-assetloaner-request.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -49,7 +50,7 @@ While requesting a loaner asset, ensure that the start date is within three mont
     |Return date|Date when you want to return the asset.|
     |Justification|Reason why you need the asset.|
 
-    After entering the **Start date** and **Return date**, if there are no loaner assets available in the selected location and for the selected time period, a warning appears. If you still submit the loaner order, your loaner order will be in a waitlist. For more information on waitlisted loaner orders, see [Loaner asset reservation](../../hardware-asset-management/concept/loaner-asset.md#).
+    After entering the **Start date** and **Return date**, if there are no loaner assets available in the selected location and for the selected time period, a warning appears. If you still submit the loaner order, your loaner order will be in a waitlist. For more information on waitlisted loaner orders, see [Loaner asset reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/loaner-asset.md).
 
 5.  Select **Submit**.
 
@@ -62,8 +63,8 @@ To view your request, navigate to **Self-Service** &gt; **My Requests**.
 
 Before you receive your loaner asset, you can cancel the loaner asset request by selecting **Cancel**. After you receive your loaner asset, the **Cancel** button doesn't appear anymore. You can also return your loaner asset before the specified **Return date**.
 
--   **[Prepare, deploy, and reclaim loaner assets in Enterprise Asset Workspace](prepare-deploy-reclaim-eamassets.md)**  
+-   **[Prepare, deploy, and reclaim loaner assets in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/prepare-deploy-reclaim-eamassets.md)**  
 Select and prepare the loaner asset or consumable for deployment and reclamation by using loaner asset tasks. Deploy the loaner asset or consumable for a specific period of time, and reclaim it on the return date.
 
-**Parent Topic:**[Create and manage enterprise asset inventory](../concept/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

@@ -2,6 +2,7 @@
 title: Auto-map a location and create a campus
 description: Create multiple campuses automatically by mapping them from locations so that they appear on the Safe Workplace Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-dashboard/autoconfig-safe-wp-dash.html
 release: australia
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -38,5 +39,5 @@ Role required: sn\_imt\_dashboard.admin
 
 A site is created based on the parent name. The parent name is based on the location name. If a region does not exist, a region is created.
 
-**Parent Topic:**[Create a campus to appear on the Safe Workplace Dashboard](../concept/configrng-safe-workplce-dshbrd.md)
+**Parent Topic:**[Create a campus to appear on the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/configrng-safe-workplce-dshbrd.md)
 

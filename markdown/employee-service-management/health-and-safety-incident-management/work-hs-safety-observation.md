@@ -2,6 +2,7 @@
 title: Work on a safety observation
 description: Work on a safety observation assigned to you to resolve it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/work-hs-safety-observation.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -23,7 +24,7 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the incident management icon \(![Incident Management icon.](../image/list-icon-hs.png)\).
+2.  Select the incident management icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Incident Management icon.\).
 
 3.  In the **Lists** tab, select **Safety Observations** and then **All**.
 
@@ -35,13 +36,13 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
     1.  In the **Assets** tab, select **New** to associate an asset to the observation.
 
-        **Note:** The assets field appears only when Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](install-hs-incident-mgmt.md#table_ix1_bff_gxb)
+        **Note:** The assets field appears only when Expanded Model and Asset Classes \[sn\_ent\] application is installed. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md)
 
         The fields related to the selected asset are auto-populated from the asset record.
 
     2.  In the **People involved** tab, select **New** to add people involved in the observation such as witnesses and collaborators.
 
-        -   For a description of the field values, see [People Involved form](../reference/hs-people-involved-form.md).
+        -   For a description of the field values, see [People Involved form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-people-involved-form.md).
         -   If an observation involves more than one person, add a record for each.
         -   To modify the record of an existing person involved, select it in the list to open it and update.
     3.  In the **Root cause analysis** tab, select **New** to perform the root cause analysis for the observation.
@@ -50,7 +51,7 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 6.  Add an action based on your root cause analysis.
 
-    For more information, see [Add an action for a safety incident or observation](add-hs-action.md).
+    For more information, see [Add an action for a safety incident or observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/add-hs-action.md).
 
 7.  Record your findings that you gathered about the observation.
 
@@ -58,20 +59,20 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
     -   **Attachments** section to attach findings in the form of image, video, and documentation such as a signed witness statement.
     -   **Activity** section to add findings in the form of free text. You can also use this section to add links to related knowledge base articles.
-8.  Research content related to the observation by selecting the Agent assist icon \(![agent assist icon](../../../common/image/Form_AgentAssistIcon.png)\).
+8.  Research content related to the observation by selecting the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: agent assist icon\).
 
     Agent assist searches the knowledge base using the text from the observation's **Short description** field and shows relevant articles.
 
 9.  Generate a report for the safety observation, if needed.
 
-    For more information, see [Generate a report for a safety incident, observation, or injury](generate-report-safety-incident-obsv-injury.md).
+    For more information, see [Generate a report for a safety incident, observation, or injury](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/generate-report-safety-incident-obsv-injury.md).
 
-10. [Close the safety observation](close-hs-incident-observation.md) after all activities are complete.
+10. [Close the safety observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/close-hs-incident-observation.md) after all activities are complete.
 
 
 ## Result
 
 The observation moves to the Closed Complete state.
 
-**Parent Topic:**[Managing Health and Safety incidents and observations](../concept/managing-hs-incidents-obs.md)
+**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

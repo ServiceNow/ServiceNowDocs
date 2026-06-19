@@ -2,6 +2,7 @@
 title: Manage involved parties in a legal request or legal matter
 description: Add a new involved party or modify the information of an existing involved party in a legal request or legal matter related to a complaint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/add-involved-party.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -35,10 +36,10 @@ Involved parties are individuals who are directly or indirectly connected to a c
     -   To modify an existing an involved party, open an involved party from the list.
 4.  On the form, fill in the fields.
 
-    For field descriptions, see [Involved Party form](../reference/involved-party-form.md).
+    For field descriptions, see [Involved Party form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/involved-party-form.md).
 
 5.  Click **Save**.
 
 
-**Parent Topic:**[Managing complaint requests](../concept/managing-legal-investigations-request.md)
+**Parent Topic:**[Managing complaint requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/managing-legal-investigations-request.md)
 

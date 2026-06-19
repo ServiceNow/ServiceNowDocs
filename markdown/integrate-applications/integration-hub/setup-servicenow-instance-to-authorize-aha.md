@@ -2,6 +2,7 @@
 title: Set up ServiceNow instance for Aha!
 description: Set up your ServiceNow instance to add the Aha! Client ID and Client Secret keys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-servicenow-instance-to-authorize-aha.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -33,12 +34,12 @@ Set up your ServiceNow instance to add the Aha! Client ID and Client Secret keys
 
     -   To configure the default connection and credential alias record that is shipped along with the Aha! spoke, select **View Details**.
 
-        ![Connection for the Aha! spoke](../image/aha-spoke-tile.jpg)
+        \[Omitted image "aha-spoke-tile.jpg"\] Alt text: Connection for the Aha! spoke
 
-    -   To manage more than one Aha! spoke connection records, you should create child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Aha! spoke connection records, you should create child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
 
-    ![Initial connection configuration](../image/aha-spoke-configure.jpg)
+    \[Omitted image "aha-spoke-configure.jpg"\] Alt text: Initial connection configuration
 
 5.  On the form, fill in the details.
 
@@ -50,7 +51,7 @@ Set up your ServiceNow instance to add the Aha! Client ID and Client Secret keys
     |OAuth Client Secret|OAuth Client Secret key that you received while creating an OAuth2 authentication from the Aha! site.|
     |OAuth Redirect URL|ServiceNow redirect URL.|
 
-    ![Configure a connection for the Aha! spoke](../image/aha-spoke-edit-connection.jpg)
+    \[Omitted image "aha-spoke-edit-connection.jpg"\] Alt text: Configure a connection for the Aha! spoke
 
 6.  Select **Save and Get OAuth Token** and then select **Authorize**.
 

@@ -2,6 +2,7 @@
 title: Download Oracle Global License Advisory Services \(GLAS\) data
 description: Download Oracle GLAS data in CSV format to get detailed information on patterns and configuration items. You can also download reports for Oracle Database, Middleware, Oracle Java, VM, and vCenter hardware information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/download-oracle-glas-data.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -29,14 +30,14 @@ ServiceNow maintains regular verification with Oracle GLAS to provide you with i
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Oracle GLAS Data Collection** &gt; **Download GLAS Data Collection**.![Oracle GLAS download page](../image/oracle-glas-download.png)
+1.  Navigate to **All** &gt; **Oracle GLAS Data Collection** &gt; **Download GLAS Data Collection**.\[Omitted image "oracle-glas-download.png"\] Alt text: Oracle GLAS download page
 
 2.  Download the following reports for Oracle GLAS data:
 
     -   For downloading Oracle Database, Middleware, and Java reports, navigate to **Step 1: Download GLAS Data Collection** and select your data collection options.
     -   For downloading vCenter hardware information based on your environment setup, navigate to **Step 2: Download vCenter Hardware Information**.
     -   For downloading VM information, navigate to **Step 3: Download VM Information**.
-3.  Select the download icon \(![Download icon](../image/download-icon.png)\).
+3.  Select the download icon \(\[Omitted image "download-icon.png"\] Alt text: Download icon\).
 
 4.  In the Enter email address dialog box, enter the email address where you want to receive a notification when the report is ready.
 
@@ -44,7 +45,7 @@ ServiceNow maintains regular verification with Oracle GLAS to provide you with i
 
     After the report creation status message appears, you can check the status of the download job by selecting the link provided in the message.
 
-    ![Message for report creation status](../image/report-creation-msg.png)
+    \[Omitted image "report-creation-msg.png"\] Alt text: Message for report creation status
 
     The Oracle GLAS Report Job Log \[sn\_itom\_oracleglas\_job\_log\] table opens in a new window. After your report is successfully created, the status of the report changes to Complete in the Oracle GLAS Report Job Logs table.
 
@@ -77,7 +78,7 @@ ServiceNow maintains regular verification with Oracle GLAS to provide you with i
             -   CPUQ folder – contains CPUQ files, vCenter Hardware, and VM information
     -   If you selected **Step 2: Download vCenter Hardware Information**, one hardware inventory CSV file is downloaded per vCenter in your environment.
     -   If you selected **Step 3: Download VM Information**, one VM information CSV file is downloaded per vCenter in your environment.
-    **Note:** You can also download the CSV files for Oracle Database by navigating to **Oracle GLAS Data Collection** &gt; **Oracle GLAS Data**. From the list that opens, select the table that you want to download and then select **Download GLAS Report**.
+    **Note:** For V1, you can also download the CSV files for Oracle Database by navigating to **Oracle GLAS Data Collection** &gt; **Oracle GLAS Data**. From the list that opens, select the table that you want to download and then select **Download GLAS Report**.
 
 
 ## Result
@@ -168,7 +169,7 @@ Defines the maximum overall payload size for the payload of results that come fr
  Default value: 300000
 
 </td></tr></tbody>
-</table>If you receive an SSH timeout error, you must create and set the following properties. See "Create a MID Server property" in [MID Server Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) for details.
+</table>If you receive an SSH timeout error, you must create and set the following properties. See "Create a MID Server property" in MID Server Properties for details.
 
 <table id="table_x43_2gc_ddc"><thead><tr><th>
 
@@ -209,5 +210,5 @@ The amount of time, in milliseconds, that a MID Server waits for activity when p
  Type: integer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Oracle Global License Advisory Services \(GLAS\) data collection using patterns](../reference/oracle-glas-discovery.md)
+</table>**Parent Topic:**[Oracle GLAS data collection using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/oracle-glas-discovery.md)
 

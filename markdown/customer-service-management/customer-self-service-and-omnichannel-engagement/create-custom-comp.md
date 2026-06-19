@@ -2,6 +2,7 @@
 title: Create a custom component
 description: Create a custom component to present information, capture user input, or offer interactive functionality on a third party website. You can also clone the existing component and customize it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/create-custom-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

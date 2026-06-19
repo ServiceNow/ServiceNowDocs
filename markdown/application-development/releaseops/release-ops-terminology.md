@@ -2,6 +2,7 @@
 title: ReleaseOps terminology
 description: Before getting started with ReleaseOps, it's important to understand some key concepts used in the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/release-ops-terminology.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -15,7 +16,7 @@ breadcrumb: [Reference, ReleaseOps, Deploying applications, Building application
 
 Before getting started with ReleaseOps, it's important to understand some key concepts used in the application.
 
-**Parent Topic:**[ReleaseOps reference](../reference/releaseops-reference.md)
+**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-reference.md)
 
 ## deployment analyzer
 

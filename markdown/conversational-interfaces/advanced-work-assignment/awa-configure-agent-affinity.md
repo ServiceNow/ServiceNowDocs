@@ -2,6 +2,7 @@
 title: Configure Agent Affinity rules
 description: Create or change the Agent Affinity rules that route work items in Advanced Work Assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-configure-agent-affinity.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

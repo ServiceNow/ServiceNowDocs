@@ -2,13 +2,14 @@
 title: Adjuster tasks
 description: Adjusters can work on claim tasks from the claim workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/adjuster-tasks-workspace.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Commercial Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Adjuster tasks
@@ -30,5 +31,5 @@ From the claim workspace, an adjuster can also access tabs to view the Fraud sco
 
 ## Adjuster claim workspace - Commercial auto claim review
 
-![Adjuster claim workspace for commercial auto claim that shows the Claim details, Claim properties list, Claim participants list, Task details, and Task work list.](../image/claim-workspace-commercial-claim-review.png)
+\[Omitted image "claim-workspace-commercial-claim-review.png"\] Alt text: Adjuster claim workspace for commercial auto claim that shows the Claim details, Claim properties list, Claim participants list, Task details, and Task work list.
 

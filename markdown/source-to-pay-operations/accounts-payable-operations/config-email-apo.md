@@ -2,6 +2,7 @@
 title: Configure Email response generation skill in Now Assist for Accounts Payable Operations \(APO\)
 description: If you have the admin role, you can configure the Email response generation skill in Now Assist for Accounts Payable Operations \(APO\) so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace to draft professional responses automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/config-email-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -29,7 +30,7 @@ Role required: admin
 
     2.  Select **Email response for invoice task** if you want to activate the skill for invoice task.
 
-    For more information on email generation, see [Generate email response for invoice case](generate-email-invoice-case-apo.md) and [Generate email response for invoice task](generate-email-invoice-task-apo.md).
+    For more information on email generation, see [Generate email response for invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/generate-email-invoice-case-apo.md) and [Generate email response for invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/generate-email-invoice-task-apo.md).
 
 3.  Select **Activate skill**.
 
@@ -49,10 +50,10 @@ Role required: admin
 
 6.  Review and activate the skill.
 
-    For more information on drafting email responses in an invoice case or a task, see [Composing emails with predefined content from the Source-to-Pay Workspace](../concept/email-composer-apm-workspace.md).
+    For more information on drafting email responses in an invoice case or a task, see [Composing emails with predefined content from the Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/email-composer-apm-workspace.md).
 
 
 ## Result
 
-The Email generation for invoice case is activated. You can now select ![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg) in the Email tab of an invoice case or a task to draft professional responses.
+The Email generation for invoice case is activated. You can now select \[Omitted image "bus-ai-sparkle.svg"\] Alt text: in the Email tab of an invoice case or a task to draft professional responses.
 

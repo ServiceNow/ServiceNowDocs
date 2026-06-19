@@ -2,7 +2,10 @@
 title: ITOM AIOps
 description: ITOM AIOps enables IT operations teams, site reliability engineers, and DevOps professionals to proactively monitor, analyze, and optimize the health and performance of their IT infrastructure and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-health-landing-page.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2026-04-21"
 reading_time_minutes: 1
@@ -17,15 +20,15 @@ ITOM AIOps enables IT operations teams, site reliability engineers, and DevOps p
 
 <table id="table_ty2_cyx_z3c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about ITOM AIOps](exploring-itom-aiops.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/exploring-itom-aiops.md)
 
 </td><td>
 
-[Configure](../../service-operations-workspace-itom/concept/configure-sow-itom.md)![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Service Operations Workspace to work with ITOM AIOps
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-sow-itom.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Service Operations Workspace to work with ITOM AIOps
 
 </td></tr><tr><td>
 
-[Reference](../concept/itom-health-use-case-product-view.md)![](../../../reuse/icons/brand-icons/bus-learn.svg)Find reference information about ITOM AIOps
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-use-case-product-view.md)\[Omitted image "bus-learn.svg"\] Alt text:Find reference information about ITOM AIOps
 
 </td><td>
 
@@ -36,39 +39,28 @@ ITOM AIOps enables IT operations teams, site reliability engineers, and DevOps p
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
-
-    [ServiceNow Community](https://community.servicenow.com/community)
-
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-dev-portal.svg) Developer**
-
-    [developer.servicenow.com](https://developer.servicenow.com/)
-
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-impact.svg) Impact**
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
+-   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
+-   **\[Omitted image "dcx-icon-impact.svg"\] Impact**
 
     [http://impact.servicenow.com](http://impact.servicenow.com)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-learning.svg) ServiceNow University**
-
-    [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
-
--   **![](../../../reuse/icons/dcx-icons/dcx-icon.svg) Best Practices**
-
-    [Best Practices](https://mynow.servicenow.com/now/best-practices/home)
-
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-partner.svg) Partner**
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
+-   **\[Omitted image "dcx-icon.svg"\] Best Practices**
+-   **\[Omitted image "dcx-icon-partner.svg"\] Partner**
 
     [https://www.servicenow.com/partners.html](https://www.servicenow.com/partners.html)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon.svg) ServiceNow**
+-   **\[Omitted image "dcx-icon.svg"\] ServiceNow**
 
     [http://servicenow.com](http://servicenow.com)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-store.svg) ServiceNow Store**
+-   **\[Omitted image "dcx-icon-store.svg"\] ServiceNow Store**
 
     [http://servicenow.com](http://servicenow.com)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-support.svg) Support**
-    -   [https://support.servicenow.com/now](https://support.servicenow.com/now)
-    -   [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
+
+    [https://support.servicenow.com/now](https://support.servicenow.com/now)
+
 

@@ -2,11 +2,14 @@
 title: Install the OT Discovery Collector on a Windows system
 description: Install the OT Discovery Collector on a Windows system. The OT Discovery Collector installation is compatible on Windows 10 or Windows 11 systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/installing-collector-on-windows.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 2
-breadcrumb: [Configure the OT Discovery Collector, OT Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install the OT Discovery Collector on a Windows system
@@ -23,13 +26,15 @@ Role required: admin
 
 1.  On your instance, navigate to the Service Graph Connector for ServiceNow OT Discovery Guided Setup page.
 
-2.  Click the **Get Started**.
+2.  Select the **Get Started**.
 
     The **Download &amp; Deploy OT Discovery** page opens.
 
 3.  In the first section of the setup, select **Download &amp; Deploy OT Discovery**.
 
 4.  Select **Configure** and the **Downloads** page opens.
+
+    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Downloads page
 
     **Note:** Read the End User License Agreement \(EULA\) carefully and then check **Agree**.
 
@@ -62,13 +67,13 @@ Role required: admin
     -   `client.device.rabbit.privatekey.pem`
 13. Navigate to the `ServiceNow_OT_Discovery_Collector_Windows_Installer_[datestamp]` folder.
 
-14. In this folder, select and hold \(or right-click\) on the `ServiceNow_OT_Discovery_Collector_Windows_Installer` file and select **Run as Administrator**.
+14. In this folder, select and hold the right key on the `ServiceNow_OT_Discovery_Collector_Windows_Installer` file and select **Run as Administrator**.
 
 15. When prompted, select **Yes** to enable this app to change to your computer.
 
     The ServiceNow OT Discovery Collector Installer window starts the installation.
 
-    ![OT Discovery Collector Installer window](../../ot-discovery-solution-install-deploy-guide/images/new-scout-installer-screen.png)
+    \[Omitted image "new-scout-installer-screen.png"\] Alt text: OT Discovery Collector Installer window
 
 16. Select the **View/accept EULA** button to accept the End User License Agreement \(EULA\).
 
@@ -88,7 +93,7 @@ Role required: admin
 
     When complete, the ServiceNow OT Discovery Collector Installer window displays `Installation Complete`.
 
-    ![Installation complete screen](../images/install-complete-collector.png)
+    \[Omitted image "install-complete-collector.png"\] Alt text: Installation complete screen
 
 21. Navigate to your local disk program files folder, so that you can see the `SNDiscoveryCollector` folder is present.
 

@@ -2,6 +2,7 @@
 title: Create a test for Configurable Workspace interaction via Page Inspector
 description: Leverage the Page Inspector to create tests by directly interacting with components on most Configurable Workspace pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-create-tests-ws.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -46,7 +47,7 @@ Role required: admin
 
 8.  Select Test Page test step.
 
-    **Note:** This step is applicable only if you want to interact with a seismic component on a workspace page. See [Testable Configurable Workspace components](../reference/atf-conf-ws-components.md) for more information.
+    **Note:** This step is applicable only if you want to interact with a seismic component on a workspace page. See [Testable Configurable Workspace components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-conf-ws-components.md) for more information.
 
     The Configurable Workspace Test Authoring modal shows up.
 
@@ -74,5 +75,5 @@ Role required: admin
     The Page Inspector loads the workspace page from the most recent Open Workspace Page step and replay all Test Page steps in the batch. Deleting previous steps results in the reload and replay of all Test Page steps in the batch to validate a successful workspace navigation path.
 
 
-**Parent Topic:**[Testing Configurable Workspace components](../concept/atf-conf-ws.md)
+**Parent Topic:**[Testing Configurable Workspace components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-conf-ws.md)
 

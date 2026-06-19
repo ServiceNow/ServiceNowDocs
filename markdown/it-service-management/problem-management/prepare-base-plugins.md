@@ -2,6 +2,7 @@
 title: Prepare base plugins
 description: Prepare to restore the base functionality that is required for the problem state model you have modified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/prepare-base-plugins.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -39,5 +40,5 @@ Role required: admin
 
 ## What to do next
 
-[Restore base plugins](restore-base-plugins.md).
+[Restore base plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/restore-base-plugins.md).
 

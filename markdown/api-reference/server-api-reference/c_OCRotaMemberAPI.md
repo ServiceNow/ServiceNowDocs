@@ -2,6 +2,7 @@
 title: OCRotaMember - Global
 description: The OCRotaMember script include provide methods to perform maintenance operations on the On-call Member \[cmn\_rota\_member\] table.Deactivates the user's rota member records according to the deactivate date.Checks whether the cmn\_rota\_member record has changed. Checks the Member, From, To, and Order fields have changed.On update of a cmn\_rota\_member record, checks whether the order of the record has changed.Recalculates the schedule for the cmn\_rota\_member record.Ensures that the From date occurs before or on the same date as the To date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_OCRotaMemberAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OCRotaMember script include provide methods to perform maintenance operations on the On-call Member \[cmn\_rota\_member\] table.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## OCRotaMember - deactivateUser \(String userId, GlideDateTime deactivateDate\)
 

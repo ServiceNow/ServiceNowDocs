@@ -2,6 +2,7 @@
 title: Creator Studio reference
 description: Find details on the parts of building apps in Creator Studio, such as descriptions of all possible types of questions or layout options for forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-reference.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -15,14 +16,14 @@ breadcrumb: [Creator Studio, Building no-code applications, Developing your appl
 
 Find details on the parts of building apps in Creator Studio, such as descriptions of all possible types of questions or layout options for forms.
 
--   **[Creator Studio form settings](creator-studio-form-settings.md)**  
+-   **[Creator Studio form settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-settings.md)**  
 You can edit the settings for an app's form in Creator Studio at any time. For example, to change who can access it.
--   **[Available question types in Creator Studio](creator-studio-form-elements-ref.md)**  
+-   **[Available question types in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-elements-ref.md)**  
 Build apps using different types of questions on a form in Creator Studio.
--   **[Layout options for forms in Creator Studio](creator-studio-form-layout-options.md)**  
+-   **[Layout options for forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-form-layout-options.md)**  
 Adjust how your form, which creates a catalog item, appears in Creator Studio using layout options.
--   **[Creator Studio glossary](../concept/creator-studio-glossary.md#)**  
+-   **[Creator Studio glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-glossary.md)**  
 Learn about the terms and concepts used in Creator Studio.
 
-**Parent Topic:**[Creator Studio](../concept/creator-studio-landing.md)
+**Parent Topic:**[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-landing.md)
 

@@ -2,7 +2,10 @@
 title: Third-party data integration sample remote table script
 description: The remote table script can be designed to pull records from a third-party application. This script is called when a query to access data in the remote table is made.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-third-party-data-scripts.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -58,5 +61,5 @@ For example, if you need to bring account information from the Salesforce applic
 
 ```
 
-**Note:** Not all IntegrationHub actions can be invoked from the remote table scripts. Specifically, Data Stream Actions cannot be called from the scripts. If the action you would like to use is a Data Stream Action, you might need to create your own action based on the REST step. An easy way to create an action is to copy an existing action and then modify it to accomplish your goal. You can find an example of custom spoke actions in this topic: [Create Salesforce spoke actions to retrieve Opportunities for use in the remote table definition](../concept/csm-integration-salesforce-spoke.md).
+**Note:** Not all IntegrationHub actions can be invoked from the remote table scripts. Specifically, Data Stream Actions cannot be called from the scripts. If the action you would like to use is a Data Stream Action, you might need to create your own action based on the REST step. An easy way to create an action is to copy an existing action and then modify it to accomplish your goal. You can find an example of custom spoke actions in this topic: [Create Salesforce spoke actions to retrieve Opportunities for use in the remote table definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-salesforce-spoke.md).
 

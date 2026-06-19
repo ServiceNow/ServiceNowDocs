@@ -2,6 +2,7 @@
 title: Purge stale records from the AI Search index
 description: Execute a scheduled job to delete stale records from the AI Search index.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/purge-stale-records-ais-index.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -19,7 +20,7 @@ Execute a scheduled job to delete stale records from the AI Search index.
 
 Role required: admin
 
-**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see [Restrict access to background script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-restrict-access-to-background-script.md).
+**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see .
 
 ## About this task
 
@@ -30,13 +31,13 @@ If either of these conditions is satisfied for a record in the AI Search index, 
 
 AI Search automatically purges stale records from the index daily. Administrators can purge records manually by running a background script.
 
-For more information on running background scripts, see [Scripts - Background module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptsBackground.md).
+For more information on running background scripts, see .
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scripts - Background**.
 
-    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md).
+    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see .
 
 2.  In the **Run script \(JavaScript executed on server\)** text field, enter one of the following background scripts.
 
@@ -63,5 +64,5 @@ For more information on running background scripts, see [Scripts - Background mo
 
 The background script executes, deleting stale records from the AI Search index.
 
-**Parent Topic:**[Indexed source retention policies and filter conditions](../concept/retention-policies-conditions-ais.md)
+**Parent Topic:**[Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/retention-policies-conditions-ais.md)
 

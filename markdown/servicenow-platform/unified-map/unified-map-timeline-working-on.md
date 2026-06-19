@@ -2,6 +2,7 @@
 title: Viewing related items on the Unified Map timeline
 description: The timeline indicates related items like incidents, problems, and changes over a specified period of time for the selected CI. You can use the timeline to visualize the history of changes to a CI and how they affect the topology of the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-timeline-working-on.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -23,7 +24,7 @@ The timeline indicates related items like incidents, problems, and changes over 
 
 -   The map and the timeline are synchronized. The map shows the selected CI and its connections as they existed \(based on the creation date of nodes\) at the specified map time. The timeline displays markers \(B in the image\) to indicate related items that happened at or before map time.
 
-    ![The timeline indicates all related items for the CI within a time span that happened before the specified map time.](../image/um-timeline.png)
+    \[Omitted image "um-timeline.png"\] Alt text: The timeline indicates all related items for the CI within a time span that happened before the specified map time.
 
 -   You can also specify the overall time span \(C in the image\) of the timeline view.
 
@@ -46,7 +47,7 @@ Show or hide the timeline
 
 </td><td>
 
-Select the Timeline icon ![](../image/icon-um-toggle-timeline.png).
+Select the Timeline icon \[Omitted image "icon-um-toggle-timeline.png"\].
 
 </td></tr><tr><td>
 
@@ -94,7 +95,7 @@ Change the time span of the timeline
 
 </td><td>
 
-Select a zoom icon ![](../image/icon-um-timeline-zoom-out.png) or ![](../image/icon-um-timeline-zoom-in.png).
+Select a zoom icon \[Omitted image "icon-um-timeline-zoom-out.png"\] or \[Omitted image "icon-um-timeline-zoom-in.png"\].
 
  The time span can range from six months in the past to six months in the future.
 
@@ -106,7 +107,7 @@ Manage a marker
 
 </td><td>
 
-Select the marker, select the more actions icon ![](../image/icon-um-more-options-vertical.png), and then select one of the following actions:
+Select the marker, select the more actions icon \[Omitted image "icon-um-more-options-vertical.png"\], and then select one of the following actions:
 
  -   **Replace marker**: Replace the current marker with a marker for the specified date.
 -   **Clear marker**: Clear all markers.
@@ -123,5 +124,5 @@ Select an empty space on the map.
 </td></tr></tbody>
 </table>## Configuring general timeline properties
 
-Admins can configure some properties of the timeline that affect all users, such as which related item details appear on timelines. For more information, see [Configure how to display related items on the map](../task/unified-map-config-related-items.md).
+Admins can configure some properties of the timeline that affect all users, such as which related item details appear on timelines. For more information, see [Configure how to display related items on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-config-related-items.md).
 

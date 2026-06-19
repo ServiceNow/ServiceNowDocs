@@ -2,6 +2,7 @@
 title: Configure property to set employee hours worked
 description: Configure the property that sets the total number of employee hours worked for your organization in the past 12 months. These hours are for the entire organization and are not broken down per establishment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/configure-hs-property-hours-worked.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -34,5 +35,5 @@ The property value is also used to auto-fill the total hours worked when exporti
 3.  Select **Save**.
 
 
-**Parent Topic:**[Setting up Health and Safety Incident Management](../concept/setting-up-hs-incident-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
 

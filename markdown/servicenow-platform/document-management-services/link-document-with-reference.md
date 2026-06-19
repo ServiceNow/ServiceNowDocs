@@ -2,6 +2,7 @@
 title: Create document references from document record
 description: Link the document record to other records in any other table or record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/link-document-with-reference.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -29,16 +30,16 @@ Role required: none
 
     In the dialog box, the **Document** field reflects the document you selected.
 
-4.  In the **Target Record** field, select the Lookup documents using list icon ![Lookup documents using list icon](../image/lookup-icom.png).
+4.  In the **Target Record** field, select the Lookup documents using list icon \[Omitted image "lookup-icom.png"\] Alt text: Lookup documents using list icon.
 
 5.  In the Select the document dialog box, for the **Table name** field, select the table for the record you want to link the document to.
 
-6.  In the **Document** field, select the Lookup using list icon \(![Lookup using list icon](../image/lookup-icom.png)\) and select the record to which you are linking the document.
+6.  In the **Document** field, select the Lookup using list icon \(\[Omitted image "lookup-icom.png"\] Alt text: Lookup using list icon\) and select the record to which you are linking the document.
 
 7.  Select **OK**.
 
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Document references](../concept/doc-mgt-references.md)
+**Parent Topic:**[Document references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-references.md)
 

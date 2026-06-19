@@ -2,6 +2,7 @@
 title: Configure testing support for playbooks
 description: Configure the Automated Test Framework \(ATF\) to support testing playbooks by authoring tests in the ATF UI on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/config-playbook-test-sup.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ Role required: admin or atf\_test\_admin
 
 ## About this task
 
-For more information about the ATF test configuration, see [Build and run your first automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-tut-build-first.md).
+For more information about the ATF test configuration, see .
 
 ## Procedure
 
@@ -80,11 +81,11 @@ For more information about the ATF test configuration, see [Build and run your f
 
 ## Result
 
-Return to your test configuration page on your instance, refresh the page, and you can see the test step you just configured added to the Test Steps tab. For more information, see [Build and run your first automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-tut-build-first.md).
+Return to your test configuration page on your instance, refresh the page, and you can see the test step you just configured added to the Test Steps tab. For more information, see .
 
 ## What to do next
 
-Add as many test steps as you need and then run the test. For information about running an ATF test, see [Run an automated test on a playbook](run-atf-test-on-playbook.md).
+Add as many test steps as you need and then run the test. For information about running an ATF test, see [Run an automated test on a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/run-atf-test-on-playbook.md).
 
-**Parent Topic:**[Testing support for playbooks](../concept/testing-support-playbooks.md)
+**Parent Topic:**[Testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/testing-support-playbooks.md)
 

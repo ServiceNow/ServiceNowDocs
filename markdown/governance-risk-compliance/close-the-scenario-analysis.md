@@ -2,11 +2,12 @@
 title: Close the scenario analysis
 description: Close the scenario analysis in the Operational Resilience Workspace. Typically, scenario analyses that are incomplete or canceled are moved to the Closed state. Once closed, you can share your observations and notes with stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/close-the-scenario-analysis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a scenario analysis, Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Close the scenario analysis

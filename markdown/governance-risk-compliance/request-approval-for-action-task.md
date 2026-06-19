@@ -2,6 +2,7 @@
 title: Request an approval for the action task
 description: Complete the work on the assessment-type or the investigation-type action task and then request an approval from the approvers of the Operational vulnerability record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/request-approval-for-action-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -44,5 +45,5 @@ Role required: sn\_oper\_res.manager, Action task owner
 
 ## What to do next
 
-Devise a course of treatment plan and perform root cause analysis. For more information, see [Decide the treatment and perform a root cause analysis](deciding-treatment-analysis.md).
+Devise a course of treatment plan and perform root cause analysis. For more information, see [Decide the treatment and perform a root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/deciding-treatment-analysis.md).
 

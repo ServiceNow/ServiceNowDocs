@@ -2,6 +2,7 @@
 title: Test read-only options
 description: Test read-only behavior on a non-production instance before updating Read only option field values on your production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/test-read-only-options.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -45,15 +46,15 @@ When a field's **Read only option** is set to Instance Configured, read-only beh
 
     The option that you enter determines how strict the system treats the security of read-only values once they've been entered. Each option displays the field as read-only in the UI.
 
-<table id="choicetable_ic3_bwk_tgc"><thead><tr><th align="left" id="d318916e139">
+<table id="choicetable_ic3_bwk_tgc"><thead><tr><th align="left" id="d267962e139">
 
 Option
 
-</th><th align="left" id="d318916e142">
+</th><th align="left" id="d267962e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d318916e148">
+</th></tr></thead><tbody><tr><td id="d267962e148">
 
 **`display_read_only`**
 
@@ -61,7 +62,7 @@ Description
 
 Allows changes to the read-only field through client scripts and server-side operations such as **TableAPI**, **GraphQL**, and **GlideRecordSecure\(\)**.
 
-</td></tr><tr><td id="d318916e170">
+</td></tr><tr><td id="d267962e170">
 
 **`client_script_modifiable`**
 
@@ -69,7 +70,7 @@ Allows changes to the read-only field through client scripts and server-side ope
 
 Allows changes to the read-only field through client scripts but not through background scripts or server-side APIs like **TableAPI**, **GraphQL**, and **GlideRecordSecure\(\)**.
 
-</td></tr><tr><td id="d318916e192">
+</td></tr><tr><td id="d267962e192">
 
 **`strict_read_only`**
 
@@ -85,5 +86,5 @@ Prevents any changes from both client scripts and server-side APIs.
 
 Test any client scripts or server-side APIs that update read-only fields work as expected in your non-production environment. After testing the functionality, you can update individual fields in your production instance and set the **Read only option** field to the option that you verified in your non-production instance.
 
-**Parent Topic:**[Configuring read-only security options](../concept/read-only-option.md)
+**Parent Topic:**[Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/read-only-option.md)
 

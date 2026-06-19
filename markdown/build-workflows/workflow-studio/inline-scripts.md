@@ -2,6 +2,7 @@
 title: Inline scripts
 description: Enable users with coding experience to write inline scripts that set and modify input values during the configuration of an action or flow. Use inline scripts to modify input values that require small format conversions, data transformations, or math operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/inline-scripts.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build w
 
 Enable users with coding experience to write inline scripts that set and modify input values during the configuration of an action or flow. Use inline scripts to modify input values that require small format conversions, data transformations, or math operations.
 
-You can also modify input values without scripting by using transform functions. For a list of available options, see [Transform functions](transform-functions.md).
+You can also modify input values without scripting by using transform functions. For a list of available options, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md).
 
 Workflow Studio displays a Script button when you configure these components.
 
@@ -29,7 +30,7 @@ Workflow Studio displays a Script button when you configure these components.
 
 Inline scripts must return values in the same data type as the input expects. For example, an inline script for a Record input must return a GlideRecord object and an inline script for a Date input must return a date-time value. Always test actions and flows containing inline scripts, and verify that there are no runtime errors in the flow execution details.
 
-Script writers should be familiar with ServiceNow AI Platform table structures and [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md). In addition, they should know how to work with record and system data using the ServiceNow API.
+Script writers should be familiar with ServiceNow AI Platform table structures and field types. In addition, they should know how to work with record and system data using the ServiceNow API.
 
 ## Benefits
 
@@ -47,17 +48,17 @@ You can grant users access to online scripting by either granting them the flow\
 
 When you enable a user to create inline scripts, Workflow Studio displays a script button next to flow and step inputs.
 
-![Inputs available for the Log action. The Level and Message inputs display Script buttons.](../images/inline-script-button-01.png "Script buttons display beside inputs")
+\[Omitted image "inline-script-button-01.png"\] Alt text: Inputs available for the Log action. The Level and Message inputs display Script buttons.
 
 Clicking the **Script** button opens the Script editor, which replaces the standard input interface. Enter a script to compute the input value.
 
 Ensure your script includes a `return` statement with the results of your script. For example, `return shortDesc;` returns the value of the `shortDesc` variable.
 
-![Inputs available for the Log action. The Message input displays the Script editor and a script that returns a math calculation for the square root of 64.](../images/inline-script-button-02.png "Script editor for input")
+\[Omitted image "inline-script-button-02.png"\] Alt text: Inputs available for the Log action. The Message input displays the Script editor and a script that returns a math calculation for the square root of 64.
 
 Clicking the **Collapse Script** button hides the Script editor and displays a read-only version of the input. Clicking the **Expand Script** button displays the Script editor and allows you to edit the script.
 
-![Inputs available for the Log action. The Message input displays the text Scripted (expand to edit).](../images/inline-script-button-03.png "Input containing script")
+\[Omitted image "inline-script-button-03.png"\] Alt text: Inputs available for the Log action. The Message input displays the text Scripted \(expand to edit\).
 
 ## Workflow Studio data object
 
@@ -89,7 +90,7 @@ Follow these general guidelines to create reusable and maintainable inline scrip
 
 -   **Call script includes from inline script**
 
-    Call a script include from your inline script to reduce the amount of code you write and also to maintain common code in a single location. Use the class constructor to call your script include. For more information about creating a script include, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+    Call a script include from your inline script to reduce the amount of code you write and also to maintain common code in a single location. Use the class constructor to call your script include. For more information about creating a script include, see .
 
     ```
     var si = new MyScriptInclude();
@@ -137,12 +138,12 @@ Inline scripts that call integration APIs are subject to Integration Hub licensi
 
 The code editor provides text editor support for inline scripts.
 
-The code editor has these features for the supported language services and [Inline scripts](inline-scripts.md).
+The code editor has these features for the supported language services and [Inline scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/inline-scripts.md).
 
 -   Syntax coloring, indentation, line numbers, and automatic creation of closing braces and quotes
 -   Auto-suggestions and auto-completions
 
-![Code editor in Workflow Studio](../../../script/general-scripting/image/monaco-editor.png "Code editor")
+\[Omitted image "monaco-editor.png"\] Alt text: Code editor in Workflow Studio
 
 ## Editing tips
 
@@ -152,5 +153,5 @@ The code editor has these features for the supported language services and [Inli
 -   To remove one tab from the start of a line of code, click in the line and press Shift+Tab.
 -   To declare variables, use the `var` keyword so that they remain within the proper JavaScript scope.
 
-**Parent Topic:**[Building flows](flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
 

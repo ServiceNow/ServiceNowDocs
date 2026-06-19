@@ -2,6 +2,7 @@
 title: ServiceRegistryQuery - Global
 description: The ServiceRegistryQuery script include provides methods to map Shazzam service registry query results against a port probe. Child classes provide specifics on mapping.Creates an instance of the ServiceRegistryQuery class.Parses an array of IDs for the given port probe.Retrieves a registry service by id, regardless of child class.Returns the Shazzam! querier class name.Retrieves the port probe XML and creates a map.Creates XML output for Shazzam! port probes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_ServiceRegistryQueryAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ServiceRegistryQuery script include provides methods to map Shazzam service 
 
 Use this script include during the discovery scanning phase.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ServiceRegistryQuery - ServiceRegistryQuery\(Object source\)
 

@@ -2,6 +2,7 @@
 title: View your recovery tasks from Self-service
 description: View the tasks assigned to you or a recovery task team that you are a part of to recover assets from a crisis or exercise \(Functional type\) event. Your BCM Program Manager assigns the tasks to you and you can view them any time you want from the self-service application menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-recovery-task-self-service.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ Role required: sn\_bcm.recovery\_team\_member
 
 8.  To close the task, click either **Close Complete** or **Close Incomplete** button.
 
-    For more information, see [State transitions of an event task](view-exercise-crisis-event-details.md#rec-task-state-trans).
+    For more information, see [State transitions of an event task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-exercise-crisis-event-details.md).
 
 9.  Click **Update** after your changes.
 

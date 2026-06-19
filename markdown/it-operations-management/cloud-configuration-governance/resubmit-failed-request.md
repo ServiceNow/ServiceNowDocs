@@ -2,11 +2,12 @@
 title: Resubmit a failed stack request
 description: The Cloud Provisioning and Governance application creates a remediation or a catalog task when a request for a stack fails to provision. You can resubmit the failed request or assign it to the Cloud Operator group to handle it for you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/resubmit-failed-request.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

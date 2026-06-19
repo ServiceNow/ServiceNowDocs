@@ -2,7 +2,10 @@
 title: Configure instance options for Help topics widget
 description: Configure the instance options for the Help topics widget on the CBS employee portal according to your organizational requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/instance-option-helpt.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,8 +28,8 @@ Role required: sn\_cbs.admin
 
 3.  In the Instance form, fill in the fields, and select **Save**.
 
-    For a description of the field values, see [Help topics instance options](../reference/helpt-instance-form.md).
+    For a description of the field values, see [Help topics instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/helpt-instance-form.md).
 
 
-**Parent Topic:**[Configure Core Business Suite Foundation](../concept/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
 

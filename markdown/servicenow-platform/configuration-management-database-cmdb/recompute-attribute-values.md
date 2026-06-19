@@ -2,6 +2,7 @@
 title: Recompute CI attribute values
 description: Modify reconciliation rules, or exclude a discovery source which is found to be invalid. Then, use the updated reconciliation rules in recomputing CI attribute values, for which those reconciliation rules or discovery source are applicable to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/recompute-attribute-values.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ Modify reconciliation rules, or exclude a discovery source which is found to be 
 
 ## Before you begin
 
-[Enable and configure CMDB 360](../concept/multisource-cmdb.md#section_enable_multisource_CMDB).
+[Enable and configure CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
 
 If you want to recompute to apply updated reconciliation rules, then you must first update the reconciliation rules.
 
@@ -27,7 +28,7 @@ Role required: sn\_cmdb\_admin or itil\_admin
 
 CMDB 360 automatically generates a recompute task for each recompute that you submit. If you submit multiple recomputes, a recompute task is generated for each operation, but only one task runs at any given time. To list all recompute tasks, enter `cmdb_multisource_recomp_task.list` in the left navigation search box.
 
-There is a maximum number of records that can be included in a single recompute operation. This number is specified by the system property [glide.identification\_engine.multisource.recompute.max.ci.limit](../reference/components-multisource-cmdb.md) \(100,000 by default\).
+There is a maximum number of records that can be included in a single recompute operation. This number is specified by the system property [glide.identification\_engine.multisource.recompute.max.ci.limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) \(100,000 by default\).
 
 **Note:**
 

@@ -2,6 +2,7 @@
 title: Create a strategic plan
 description: As a strategy planner, you can create and manage strategic plans for your organization. Create a strategic plan to define the purpose of your organization, its strategic priorities, and the associated goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/create-strategic-plan.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -29,7 +30,7 @@ Role required: sn\_gf.strategy\_planner
 
 3.  On the form, fill in the fields.
 
-    For field information, see [Strategic Plan form](../reference/strategic-plan-form.md).
+    For field information, see [Strategic Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/strategic-plan-form.md).
 
 4.  Click **Submit**.
 

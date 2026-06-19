@@ -2,6 +2,7 @@
 title: Guided tours in ERP Semantic Mining
 description: Learn about ERP Semantic Mining guided tours, including how to access and take them to build your knowledge of ERP Semantic Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/guided-tours-in-erp-customization-mining.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -21,7 +22,7 @@ Learn about ERP Semantic Mining guided tours, including how to access and take t
 
 Guided tours are part of the default ServiceNow platform. There are guided tours available to take and you can use the Guided Tours application to create custom tours yourself in your own instances.
 
-Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/exploring-guided-tours.md).
+Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see .
 
 ## How to access and use ERP Semantic Mining guided tours
 
@@ -45,5 +46,5 @@ At the end of the guided tour, select **Complete**.
 |Export snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the configuration icon.|
 |Import snapshot|ERP Semantic Mining Configuration page|Navigate to ERP Semantic Mining and select the Configuration icon.|
 
-**Parent Topic:**[Exploring ERP Semantic Mining](exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

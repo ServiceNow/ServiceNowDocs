@@ -2,6 +2,7 @@
 title: Transfer an HR case
 description: You can create and use methods to reclassify or transfer an opened HR case from one HR service to another. Oftentimes an HR case opens as a General Benefits Inquiry. After investigating, you can transfer it to the applicable HR service.The base system provides examples of HR transfer case configuration types. You can also create your own.You can reclassify an HR case that you originally create under one HR service but want to move it under a different HR service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/reclassify-hr-case.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -39,10 +40,10 @@ The base system provides:
     -   Previous interaction records from the current case are copied and moved to the new case.
 -   Sys property:
 
-    The sn\_hr\_core.reclassify\_default\_transfer sys property determines the default method to use after upgrade. For more information, see [HR properties](../task/t_HRProperties.md).
+    The sn\_hr\_core.reclassify\_default\_transfer sys property determines the default method to use after upgrade. For more information, see [HR properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_HRProperties.md).
 
 
-**Parent Topic:**[Use HR Case Management](c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 
 ## Configure HR transfer case
 
@@ -54,7 +55,7 @@ Role required: sn\_hr\_core.admin
 
 ### About this task
 
-If you are creating a transfer case configuration, you must also create a script include to implement the sn\_hr\_core HR case transfer extension point. For more information, see [Registering custom script includes against the scripted extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
+If you are creating a transfer case configuration, you must also create a script include to implement the sn\_hr\_core HR case transfer extension point. For more information, see Registering custom script includes against the scripted extension points.
 
 Refer to the existing script includes as examples:
 
@@ -64,7 +65,7 @@ Refer to the existing script includes as examples:
 
 The hr\_TransferCase script include provides a list of fields ignored in the transfer and acts as a utility for the other two script includes.
 
-**Note:** Refer to [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+**Note:** Refer to Script includes.
 
 ### Procedure
 
@@ -110,9 +111,9 @@ HR criteria
 
 </td><td>
 
-Defines what HR agents can view and use this transfer type when performing an HR case transfer from the HR case form.See [HR criteria](hr-criteria.md#).
+Defines what HR agents can view and use this transfer type when performing an HR case transfer from the HR case form.See [HR criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-criteria.md).
 
-**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -164,6 +165,6 @@ You can also retain the details of the original case. For example, you can take 
 
     **Note:** If the sn\_hr\_core.restrict\_guest\_email system property is False \(default\), text from an email appears in the Work notes field when the employee is responding from a personal email account.
 
-    See [Email setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailConfiguration.md).
+    See Email setup.
 
 

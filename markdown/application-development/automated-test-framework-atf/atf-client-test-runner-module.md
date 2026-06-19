@@ -2,6 +2,7 @@
 title: Client test runner
 description: The Client Test Runner opens a browser window or tab for running manually-started client automated tests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-client-test-runner-module.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -15,7 +16,7 @@ breadcrumb: [Run, Automated Test Framework \(ATF\) reference, Automated Test Fra
 
 The Client Test Runner opens a browser window or tab for running manually-started client automated tests.
 
-You can toggle a client test runner to act as either a manual or scheduled client test runner. For more information about scheduling test suites, see [Schedule an automated test suite](../task/atf-sched-suite-steps.md).
+You can toggle a client test runner to act as either a manual or scheduled client test runner. For more information about scheduling test suites, see [Schedule an automated test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-sched-suite-steps.md).
 
 <table id="table_vtz_r4g_sz"><thead><tr><th>
 
@@ -27,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Form preferences icon \(![Personalize form icon](../../../common/image/Form_PersonalizeFormIcon.png)\)
+Form preferences icon \(\[Omitted image "Form\_PersonalizeFormIcon.png"\] Alt text: Personalize form icon\)
 
 </td><td>
 
@@ -43,7 +44,7 @@ Choose among:-   Enable for all steps
 -   Enable for failed steps
 -   Disable for all steps
 
-For additional information, see [Set the system property to control when the Automated Test Framework captures screenshots](../concept/atf-screenshot-modes.md#)
+For additional information, see [Set the system property to control when the Automated Test Framework captures screenshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-screenshot-modes.md)
 
 </td></tr><tr><td>
 
@@ -55,5 +56,5 @@ Click to toggle between:-   On \(green\): Use this client test runner to run onl
 -   Off \(gray\): Use this client test runner to run only manually-started tests and suites.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Run](../concept/run-module.md)
+</table>**Parent Topic:**[Run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/run-module.md)
 

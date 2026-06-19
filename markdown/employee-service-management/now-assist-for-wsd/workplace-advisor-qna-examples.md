@@ -2,6 +2,7 @@
 title: Workplace Advisor QnA examples
 description: You can interact with the Now Assist panel to retrieve workplace-related information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/workplace-advisor-qna-examples.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -37,5 +38,5 @@ Workplace Advisor QnA has the following limitations:
 -   Queries that use aggregate operations, such as Get a count of all reservations for location Aspen, may not provide accurate results in the current version.
 -   Queries with date or time conditions might sometimes display inconsistencies because date-time values could be interpreted as either UTC or the user’s local time zone.
 
-**Parent Topic:**[Workplace advisor QnA agentic workflow](workplace-advisor-qna.md)
+**Parent Topic:**[Workplace advisor QnA agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-advisor-qna.md)
 

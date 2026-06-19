@@ -2,6 +2,7 @@
 title: cabrillo.nowapp - Client
 description: The name space for Cabrillo Now App functions. This enables you to interact with screens inside of ServiceNow AI Platform native mobile apps.Opens a mobile launcher native screen.Opens a mobile native screen.Opens a mobile native screen with a record context.Executes a native mobile function.Refresh the UI stack in the event a table update is made in the web view that may affect a previous screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/cabrillo-nowapp-namespace.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 The name space for Cabrillo Now App functions. This enables you to interact with screens inside of ServiceNow AI Platform® native mobile apps.
 
-**Parent Topic:**[Client mobile API reference](../../../../../build/applications/concept/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## cabrillo.nowapp - openLauncherScreen\(String launcherScreenId\)
 
@@ -157,7 +158,7 @@ true
 
 Executes a native mobile function.
 
-**Note:** Only Action functions are supported for the Vancouver release. For more information, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-actions.md).
+**Note:** Only Action functions are supported for the Vancouver release. For more information, see .
 
 <table id="table_tjf_5vj_kxb" class="parameters"><thead><tr><th>
 
@@ -193,7 +194,7 @@ string
 
 </td><td>
 
-The record table. Optional for Global Action items. For more information about mobile function, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-actions.md).**Note:** Differences between Global and Record actions:
+The record table. Optional for Global Action items. For more information about mobile function, see .**Note:** Differences between Global and Record actions:
 
 -   Record: Applies an action at the record level. For example, use this option to create a button that changes the state of a record. You can set the context to Record for actions on a particular field, a particular record, or swipe actions. If the action function includes a UI parameter with the Input source field set to Auto fill, you must specify the table in the Table field.
 -   Global: Applies an action at the global, or list level. For example, use this option to add a button that creates a record. Do not use the Global setting for actions that are in the context of a record, or actions that include a UI parameter with the Input source field set to Auto fill.
@@ -208,7 +209,7 @@ string
 
 </td><td>
 
-The record sys\_id. Optional for Global Action Items. For more information about mobile function, see [Action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-actions.md).
+The record sys\_id. Optional for Global Action Items. For more information about mobile function, see .
 
  **Note:** Differences between Global and Record action items:
 

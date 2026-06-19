@@ -2,6 +2,7 @@
 title: Edge status configuration form
 description: Use the Edge configuration form to configure the Edge status settings for the selected Nexus map configuration. You can customize the display of connectors that meet specific conditions by assigning them distinct colors and connector types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/edge-status-configuration-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

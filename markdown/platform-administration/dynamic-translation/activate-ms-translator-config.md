@@ -2,6 +2,7 @@
 title: Activate the Microsoft translator configuration
 description: Make the Microsoft translation service available for use by activating the Microsoft translator configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/activate-ms-translator-config.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -39,9 +40,9 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Microsoft Azure Translator Service spoke](../concept/microsoft-translation-spoke.md)
+**Parent Topic:**[Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
 
-**Previous topic:**[Create a connection for the MicrosoftTranslation alias](create-connection-ms-translation.md)
+**Previous topic:**[Create a connection for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-connection-ms-translation.md)
 
-**Next topic:**[Migrate customized Translator Configurations to v3 flows](migrate-v3-dynamic-translation.md)
+**Next topic:**[Migrate customized Translator Configurations to v3 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/migrate-v3-dynamic-translation.md)
 

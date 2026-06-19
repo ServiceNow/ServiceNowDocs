@@ -2,6 +2,7 @@
 title: Configure the OT Subnet Mapping scheduled flow
 description: Configure the OT device mapping flow to automatically map OT devices to sites and equipment model entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/run-ot-subnet-mapping-scheduled-job.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -19,8 +20,8 @@ Configure the OT device mapping flow to automatically map OT devices to sites an
 
 The following plugins must be installed:
 
--   [Operational Technology Manager](../../mftg-manufacturing-oper-tech-mgr/concept/operational-technology-manager.md)
--   [Industrial Process Manager](../../mftg-manufacturing-process-mgr/concept/industrial-process-manager-overview.md)
+-   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)
+-   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
 
 Role required: admin
 
@@ -47,5 +48,5 @@ The OT device mapping flow can be set to run on a scheduled basis to automatical
     **Note:** Subnet mapping also supports Discovery created configuration items \(CIs\) for ISA equipment models.
 
 
-**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

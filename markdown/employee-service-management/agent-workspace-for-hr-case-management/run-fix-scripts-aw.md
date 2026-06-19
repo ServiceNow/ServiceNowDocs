@@ -2,6 +2,7 @@
 title: RCA approvals in Agent Workspace for HR Case Management
 description: After you install or upgrade to the latest Agent Workspace for HR Case Management from ServiceNow Store, you might encounter Restricted Caller Access \(RCA\) approval messages in the HR Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/run-fix-scripts-aw.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

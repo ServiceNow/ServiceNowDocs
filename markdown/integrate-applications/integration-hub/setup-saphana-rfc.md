@@ -2,6 +2,7 @@
 title: Set up the SAP S4 HANA RFC spoke
 description: Integrate the ServiceNow instance and SAP S4 HANA RFC spoke by using the Basic Auth credentials to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-saphana-rfc.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -33,7 +34,7 @@ Integrate the ServiceNow instance and SAP S4 HANA RFC spoke by using the Basic A
 
     2.  Disable the MIME type validation for file attachments.
 
-        ![Option to disable the MIME type validation](../image/mime-type-sap-ecc-rfc.png)
+        \[Omitted image "mime-type-sap-ecc-rfc.png"\] Alt text: Option to disable the MIME type validation
 
         **Note:** This is applicable only if your MID Server is installed on a Linux machine.
 
@@ -41,7 +42,7 @@ Integrate the ServiceNow instance and SAP S4 HANA RFC spoke by using the Basic A
 
     4.  Upload the required SAP proprietary files \(JAR, SO, or DLL\) obtained after contacting your SAP S4 HANA RFC admin.
 
-        For more information, see [Synchronize a JAR file to MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SynchronizeAJARFiletoMIDServers.md).
+        For more information, see Synchronize a JAR file to MID Servers.
 
     **Note:** Ensure that the files are synchronized in the `<MID-Server-root-directory>/agent/extlib` directory. If the files aren't synchronized, restart the MID Server.
 
@@ -113,7 +114,7 @@ MID Application
 
 </td><td>
 
-Option to use a MID Server to run the SFTP step. This field is available when **Define Connection Inline** is selected from the Source Connection list and **Auto-Select MID Server** is selected from the MID Selection list.To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
+Option to use a MID Server to run the SFTP step. This field is available when **Define Connection Inline** is selected from the Source Connection list and **Auto-Select MID Server** is selected from the MID Selection list.To learn more about how a MID Server is selected during runtime, see MID Server selection.
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Capabilities
 
 </td><td>
 
-Capability of the MID Server. Select **SSH**. This field is available when **Define Connection Inline** is selected from the Source Connection list and **Auto-Select MID Server** is selected from the MID Selection list.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
+Capability of the MID Server. Select **SSH**. This field is available when **Define Connection Inline** is selected from the Source Connection list and **Auto-Select MID Server** is selected from the MID Selection list.Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see MID Server selection.
 
 </td></tr><tr><td>
 

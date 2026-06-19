@@ -2,6 +2,7 @@
 title: Knowledge Management Service Portal article view page features
 description: The knowledge article view page in Knowledge Management Service Portal displays the knowledge article details, including the article number, short description, and article content. You can also give feedback or comment on an article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-service-portal-view.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -49,7 +50,7 @@ Click **Subscribe** to subscribe to the knowledge article. Unsubscribe by clicki
 
 </td></tr><tr><td>
 
-Actions ![More icon](../image/KnowledgeServicePortalOverflowIcon.png)
+Actions \[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: More icon
 
 </td><td>
 
@@ -175,8 +176,8 @@ Use the search bar to start a new search. The search is executed in the current 
 -   If enabled, users can subscribe to articles, view article versions, and create feedback for articles that are rated as not helpful.
 -   The dynamic titles don’t apply to the knowledge article view page in the Knowledge Management Service Portal.
 
--   **[Knowledge article URL parameters](../reference/knowledge-article-URL-parameters.md#)**  
+-   **[Knowledge article URL parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-URL-parameters.md)**  
 You can add parameters to an article URL to view the latest version and an existing translation.
 
-**Parent Topic:**[Using Knowledge Management](using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

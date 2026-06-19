@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for IT Service Management \(ITSM\)
 description: Get a quick overview of the important information that is related to the Now Assist for IT Service Management \(ITSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -23,7 +24,7 @@ Get a quick overview of the important information that is related to the Now Ass
 
 ## Supported language models for all Now Assist for ITSM skills and AI agents
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Role masking for Now Assist for ITSM agentic workflows, AI agents, and skills
 
@@ -50,13 +51,13 @@ Consider a user who has been assigned multiple roles: A, B, and C, each with dis
 
 By applying both ACL permissions and role masking, the system ensures a secure and granular access control mechanism for ITSM skills, protecting sensitive information while providing users with the insights they need to perform their tasks effectively.
 
-For information on role masking, see [Role masking in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md).
+For information on role masking, see .
 
 ## Supported user interfaces
 
 The Now Assist for ITSM application includes the skills that are listed in the following table.
 
-**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-adoption-paths.md).
+**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see .
 
 <table id="table_rnv_mfg_qyb"><thead><tr><th>
 
@@ -102,5 +103,5 @@ Core UI
 -   Email reply recommendation
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Now Assist for IT Service Management \(ITSM\)](exploring-now-assist-itsm.md)
+</table>**Parent Topic:**[Exploring Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/exploring-now-assist-itsm.md)
 

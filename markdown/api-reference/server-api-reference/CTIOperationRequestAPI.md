@@ -2,6 +2,7 @@
 title: CTIOperationRequest - Scoped, Global
 description: The CTIOperationRequest script include provides methods to set and get data on the current CTIOperationRequest object.Instantiates a CTIOperationRequest object.Returns the authentication token set on the associated CTIOperationRequest object.Returns the interaction GlideRecord associated with the operation request.Returns the sys\_id of the interaction record associated with the current CTIOperationRequest object.Returns the ISO 639.1 language code that was set on the current CTIOperationRequest object.Returns the major version of the computer telephony integrator \(CTI\) software set on the current CTIOperationRequest object.Returns the minor version of the computer telephony integrator \(CTI\) software associated with a CTIOperationRequest object.Returns the name of the operation that the computer telephony integration \(CTI\) provider is requesting to execute.Returns the substep operation handler name set on the current CTIOperationRequest object.Returns the value of a specified key previously set on the current CTIOperationRequest object.Returns the key-value pairs for all parameters that were previously set on the current CTIOperationRequest object.Returns the value of a specified session attribute key set on the current CTIOperationRequest object.Returns a key-value pair map of all session attributes set on the current CTIOperationRequest object.Returns the handling behavior for a subsep when a substep's operation handler is not found.Sets an authentication token on the current CTIOperationRequest object.Sets the sys\_id of the interaction record associated with the operation request on the current CTIOperationRequest object.Sets the ISO 639.1 language code to use when processing the associated operation on a CTIOperationRequest object.Sets the major version of the computer telephony integrator \(CTI\) provider software making the request on the associated CTIOperationRequest object.Sets the minor version of the computer telephony integrator \(CTI\) provider software making the request on the associated CTIOperationRequest object.Sets the name of the operation that the computer telephony integration \(CTI\) provider is attempting to execute on the current CTIOperationRequest object.Sets the operation substep name on the current CTIOperationRequest object.Sets the specified key-value pair on the parameter object of the current CTIOperationRequest object.Sets the specified session attribute key-value pair on the current CTIOperationRequest object.Sets the behavior to perform if the current substep's operation handler is not found.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CTIOperationRequestAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -110,13 +111,13 @@ For example, the following operation handler script stores values that were set 
 })(request, response, ctx);
 ```
 
-For additional information on creating operation handlers, see [Configure a contact flow for an automated caller interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/establish-automated-bot-interactions.md).
+For additional information on creating operation handlers, see Configure a contact flow for an automated caller interaction.
 
-This script include runs in the `sn_cti_core` namespace. Before you are able to access the CTIOperationRequest script include, the ServiceNow Voice \(sn\_cti\_core\) plugin must be activated. For information on activating ServiceNow Voice, see [Install ServiceNow Voice applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/install-ccc-apps.md).
+This script include runs in the `sn_cti_core` namespace. Before you are able to access the CTIOperationRequest script include, the ServiceNow Voice \(sn\_cti\_core\) plugin must be activated. For information on activating ServiceNow Voice, see Install ServiceNow Voice applications.
 
-For additional information on the ServiceNow Voice, see [ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cloud-call-center-overview.md).
+For additional information on the ServiceNow Voice, see ServiceNow Voice.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CTIOperationRequest - CTIOperationRequest\(String origin\)
 
@@ -265,7 +266,7 @@ Returns the interaction GlideRecord associated with the operation request.
 
 An interaction represents a customer request for assistance made through a chat, phone call, or in-person. Interactions can be routed to queues for assignment or assigned to agents directly. Interaction records are stored in the Interaction \[interaction\] table and can contain any type of data that describes service account interactions with a customer for a specific session.
 
-Interaction records are associated with a CTIOperationRequest object through the [CTIOperationRequest - setInteractionSysId\(String Id\)](CTIOperationRequestAPI.md#) method. This method is typically called by the message transformer and must be called prior to calling the getInteractionRecord\(\) method.
+Interaction records are associated with a CTIOperationRequest object through the [CTIOperationRequest - setInteractionSysId\(String Id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method. This method is typically called by the message transformer and must be called prior to calling the getInteractionRecord\(\) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -314,7 +315,7 @@ Interaction records are associated with a CTIOperationRequest object through the
 
 Returns the sys\_id of the interaction record associated with the current CTIOperationRequest object.
 
-The [CTIOperationRequest - setInteractionSysId\(String Id\)](CTIOperationRequestAPI.md#) method must have been called prior to calling this method.
+The [CTIOperationRequest - setInteractionSysId\(String Id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method must have been called prior to calling this method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -371,7 +372,7 @@ Returns the ISO 639.1 language code that was set on the current CTIOperationRequ
 
 Using the customer preferred language enables you to use platform-provided internationalization and localization capabilities to customize messages and other communications with the associated caller.
 
-Typically an operation handler calls the getLanguage\(\) method and the message transformer sets the language on the CTIOperationRequest object by calling the [CTIOperationRequest - setLanguage\(String languageCode\)](CTIOperationRequestAPI.md#) method.
+Typically an operation handler calls the getLanguage\(\) method and the message transformer sets the language on the CTIOperationRequest object by calling the [CTIOperationRequest - setLanguage\(String languageCode\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -421,7 +422,7 @@ Returns the major version of the computer telephony integrator \(CTI\) software 
 
 Use this method if the CTI providers connected to your ServiceNow instance are running multiple versions of their software, as different software versions may require different processing behavior. If the processing behavior is only slightly different between the software versions, it may make sense to have only a single operation handler. You can then handle the processing differences by just checking the version of software making the request and process the request/data within your operation handler. If the required processing is significantly different between versions, it may be more effective to use multiple operation handlers.
 
-Typically the message transformer sets the software version on the CTIOperationRequest object by calling the [CTIOperationRequest - setMajorVersion\(Number majorVersion\)](CTIOperationRequestAPI.md#) method and an operation handler then consumes the set value using this method. You can also get/set the minor version value of a provider's software using the [CTIOperationRequest - getMinorVersion\(\)](CTIOperationRequestAPI.md#) and [CTIOperationRequest - setMinorVersion\(Number minorVersion\)](CTIOperationRequestAPI.md#) methods.
+Typically the message transformer sets the software version on the CTIOperationRequest object by calling the [CTIOperationRequest - setMajorVersion\(Number majorVersion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method and an operation handler then consumes the set value using this method. You can also get/set the minor version value of a provider's software using the [CTIOperationRequest - getMinorVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) and [CTIOperationRequest - setMinorVersion\(Number minorVersion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) methods.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -455,7 +456,7 @@ Returns the minor version of the computer telephony integrator \(CTI\) software 
 
 Use this method if the CTI providers connected to your ServiceNow instance are running multiple versions of their software, as different software versions may require different processing behavior. If the processing behavior is only slightly different between the software versions, it may make sense to have only a single operation handler. You can then handle the processing differences by just checking the version of software making the request and process the request/data within your operation handler. If the required processing is significantly different between versions, it may be more effective to use multiple operation handlers.
 
-Typically the message transformer sets the software version on the CTIOperationRequest object by calling the [CTIOperationRequest - setMinorVersion\(Number minorVersion\)](CTIOperationRequestAPI.md#) [CTIOperationRequest - setMinorVersion\(Number minorVersion\)](CTIOperationRequestAPI.md#) method and an operation handler then consumes the set value using this method. You can also get/set the major version value of a provider's software using the [CTIOperationRequest - getMajorVersion\(\)](CTIOperationRequestAPI.md#) [CTIOperationRequest - getMajorVersion\(\)](CTIOperationRequestAPI.md#) and [CTIOperationRequest - setMajorVersion\(Number majorVersion\)](CTIOperationRequestAPI.md#) [CTIOperationRequest - setMajorVersion\(Number majorVersion\)](CTIOperationRequestAPI.md#) methods.
+Typically the message transformer sets the software version on the CTIOperationRequest object by calling the [CTIOperationRequest - setMinorVersion\(Number minorVersion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) [CTIOperationRequest - setMinorVersion\(Number minorVersion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method and an operation handler then consumes the set value using this method. You can also get/set the major version value of a provider's software using the [CTIOperationRequest - getMajorVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) [CTIOperationRequest - getMajorVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) and [CTIOperationRequest - setMajorVersion\(Number majorVersion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) [CTIOperationRequest - setMajorVersion\(Number majorVersion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) methods.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -487,7 +488,7 @@ var minorVersion = request.getMinorVersion();
 
 Returns the name of the operation that the computer telephony integration \(CTI\) provider is requesting to execute.
 
-The operation name determines the operation handler that is used to process a request. Typically the message transformer sets the operation name on the CTIOperationRequest object using the [CTIOperationRequest - setOperationName\(String name\)](CTIOperationRequestAPI.md#) method.
+The operation name determines the operation handler that is used to process a request. Typically the message transformer sets the operation name on the CTIOperationRequest object using the [CTIOperationRequest - setOperationName\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method.
 
 **Note:** The getOperationName\(\) method does not instantiate the associated operation handler. This is done by the ServiceNow Voiceframework. This method simply returns the associated operation handler name.
 
@@ -528,7 +529,7 @@ The ServiceNow Voice framework performs the following steps to locate the requir
     -   If set, executes the behavior, otherwise, errors out.
 4.  Executes the primary operation handler \(`myOpersation_SUFFX` or `myOperation`.\)
 
-Typically the message transformer sets the substep name on the CTIOperationRequest object using the [CTIOperationRequest - setOperationSubStepName\(String name\)](CTIOperationRequestAPI.md#) method. You can override this behavior if you are creating your own transformer by calling the [CTIOperationRequest - setSubStepNotFoundBehaviour\(Object behaviour\)](CTIOperationRequestAPI.md#) method.
+Typically the message transformer sets the substep name on the CTIOperationRequest object using the [CTIOperationRequest - setOperationSubStepName\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method. You can override this behavior if you are creating your own transformer by calling the [CTIOperationRequest - setSubStepNotFoundBehaviour\(Object behaviour\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -547,7 +548,7 @@ var name = request.getOperationSubStepName();
 
 Returns the value of a specified key previously set on the current CTIOperationRequest object.
 
-Using the get/set parameter methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation request. The operation handler determines what key/value pairs are required as it consumes these values. Typically the message transformer sets these parameters on the CTIOperationRequest object by calling the [CTIOperationRequest - setParameter\(String key, Object value\)](CTIOperationRequestAPI.md#) method and the operation handler consumes them using this method.
+Using the get/set parameter methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation request. The operation handler determines what key/value pairs are required as it consumes these values. Typically the message transformer sets these parameters on the CTIOperationRequest object by calling the [CTIOperationRequest - setParameter\(String key, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method and the operation handler consumes them using this method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -589,7 +590,7 @@ Using the get/set parameter methods enables the passing of virtually any string 
 
 Returns the key-value pairs for all parameters that were previously set on the current CTIOperationRequest object.
 
-Using the get/set parameter methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation request. The operation handler determines what key/value pairs are required as it consumes these values. Typically the message transformer sets these parameters on the CTIOperationRequest object by calling the [CTIOperationRequest - setParameter\(String key, Object value\)](CTIOperationRequestAPI.md#) method and the operation handler consumes them using this method.
+Using the get/set parameter methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation request. The operation handler determines what key/value pairs are required as it consumes these values. Typically the message transformer sets these parameters on the CTIOperationRequest object by calling the [CTIOperationRequest - setParameter\(String key, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method and the operation handler consumes them using this method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -611,7 +612,7 @@ for(var key in parms) {
 
 Returns the value of a specified session attribute key set on the current CTIOperationRequest object.
 
-Using the get/set session attribute methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The sessionAttribute object can contain zero or more key/value pairs of data that are valid for the duration of a computer telephony integration provider defined session, such as the contact's phone number. Session attributes can also be accessed within a contact flow. The operation handler determines what session attribute key/value pairs are needed as it consumes these values. Typically the message transformer sets these attributes on the CTIOperationRequest object by calling the [CTIOperationRequest - setSessionAttribute\(String key, Object value\)](CTIOperationRequestAPI.md#) method. Session attributes are different than parameters in that they persist for the life of the session \(such as the entire call\) and should be passed back by the CTI provider with each operation request within that call session.
+Using the get/set session attribute methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The sessionAttribute object can contain zero or more key/value pairs of data that are valid for the duration of a computer telephony integration provider defined session, such as the contact's phone number. Session attributes can also be accessed within a contact flow. The operation handler determines what session attribute key/value pairs are needed as it consumes these values. Typically the message transformer sets these attributes on the CTIOperationRequest object by calling the [CTIOperationRequest - setSessionAttribute\(String key, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method. Session attributes are different than parameters in that they persist for the life of the session \(such as the entire call\) and should be passed back by the CTI provider with each operation request within that call session.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -630,7 +631,7 @@ var phoneAttribute = request.getSessionAttribute('contact.phone');
 
 Returns a key-value pair map of all session attributes set on the current CTIOperationRequest object.
 
-Using the get/set session attribute methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The sessionAttribute object can contain zero or more key/value pairs of data that are valid for the duration of a computer telephony integration provider defined session, such as the contact's phone number. Session attributes can also be accessed within a contact flow. The operation handler determines what session attribute key/value pairs are needed as it consumes these values. Typically the message transformer sets these attributes on the CTIOperationRequest object by calling the [CTIOperationRequest - setSessionAttribute\(String key, Object value\)](CTIOperationRequestAPI.md#) method. Session attributes are different than parameters in that they persist for the life of the session \(such as the entire call\) and should be passed back by the CTI provider with each operation request within that call session.
+Using the get/set session attribute methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The sessionAttribute object can contain zero or more key/value pairs of data that are valid for the duration of a computer telephony integration provider defined session, such as the contact's phone number. Session attributes can also be accessed within a contact flow. The operation handler determines what session attribute key/value pairs are needed as it consumes these values. Typically the message transformer sets these attributes on the CTIOperationRequest object by calling the [CTIOperationRequest - setSessionAttribute\(String key, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method. Session attributes are different than parameters in that they persist for the life of the session \(such as the entire call\) and should be passed back by the CTI provider with each operation request within that call session.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -772,11 +773,11 @@ Sets the sys\_id of the interaction record associated with the operation request
 
 If you want to maintain contact interaction information within a contact-specific interaction record, the interaction record sys\_id must be maintained for the entire ServiceNow Voice call session.
 
-Typically, an operation handler creates an interaction record when a new contact call is initiated. It then sets the interaction record sys\_id and table name on the associated CTIOperationResponse object as session attributes using the [CTIOperationRequest - setSessionAttribute\(String key, Object value\)](../../CTIOperationResponse/concept/CTIOperationResponseAPI.md#) method. The associated method transformer then translates this information into the computer telephony integration \(CTI\) provider payload and sends it back to the CTI provider.
+Typically, an operation handler creates an interaction record when a new contact call is initiated. It then sets the interaction record sys\_id and table name on the associated CTIOperationResponse object as session attributes using the [CTIOperationRequest - setSessionAttribute\(String key, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationResponseAPI.md) method. The associated method transformer then translates this information into the computer telephony integration \(CTI\) provider payload and sends it back to the CTI provider.
 
 The CTI provider must store the interaction record sys\_id for the contact session locally. Each time the CTI provider interacts with the ServiceNow Voice for this contact session, it must pass back the corresponding interaction record sys\_id in its payload. The receiving message transformer then parses the payload and uses the CTIOperationRequest - setInteractionSysId\(\) method to set the interaction record sys\_id on the associated CTIOperationtRequest object.
 
-The [CTIOperationRequest - getInteractionRecord\(\)](CTIOperationRequestAPI.md#) method uses this sys\_id to obtain the correct interaction record for the contact session.
+The [CTIOperationRequest - getInteractionRecord\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method uses this sys\_id to obtain the correct interaction record for the contact session.
 
 <table id="table_usk_lrg_ykb" class="parameters"><thead><tr><th>
 
@@ -932,7 +933,7 @@ Sets the major version of the computer telephony integrator \(CTI\) provider sof
 
 Use this method if the CTI providers connected to your ServiceNow instance are running multiple versions of their software, as different software versions may require different processing behavior. If the processing behavior is only slightly different between the software versions, it may make sense to have only a single operation handler. You can then handle the processing differences by just checking the version of software making the request and process the request/data within your operation handler. If the required processing is significantly different between versions, it may be more effective to use multiple operation handlers.
 
-Typically the message transformer sets the software version on the CTIOperationRequest object by calling this method and an operation handler then consumes the set value using the [CTIOperationRequest - getMajorVersion\(\)](CTIOperationRequestAPI.md#) method. You can also get/set the minor version value of a provider's software using the [CTIOperationRequest - getMinorVersion\(\)](CTIOperationRequestAPI.md#) and [CTIOperationRequest - setMinorVersion\(Number minorVersion\)](CTIOperationRequestAPI.md#) methods.
+Typically the message transformer sets the software version on the CTIOperationRequest object by calling this method and an operation handler then consumes the set value using the [CTIOperationRequest - getMajorVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method. You can also get/set the minor version value of a provider's software using the [CTIOperationRequest - getMinorVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) and [CTIOperationRequest - setMinorVersion\(Number minorVersion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) methods.
 
 <table id="table_jlt_pz1_zkb" class="parameters"><thead><tr><th>
 
@@ -974,7 +975,7 @@ Sets the minor version of the computer telephony integrator \(CTI\) provider sof
 
 Use this method if the CTI providers connected to your ServiceNow instance are running multiple versions of their software, as different software versions may require different processing behavior. If the processing behavior is only slightly different between the software versions, it may make sense to have only a single operation handler. You can then handle the processing differences by just checking the version of software making the request and process the request/data within your operation handler. If the required processing is significantly different between versions, it may be more effective to use multiple operation handlers.
 
-Typically the message transformer sets the software version on the CTIOperationRequest object by calling this method and an operation handler then consumes the set value using the [CTIOperationRequest - getMinorVersion\(\)](CTIOperationRequestAPI.md#) method. You can also get/set the major version value of a provider's software using the [CTIOperationRequest - getMajorVersion\(\)](CTIOperationRequestAPI.md#) and [CTIOperationRequest - setMajorVersion\(Number majorVersion\)](CTIOperationRequestAPI.md#) methods.
+Typically the message transformer sets the software version on the CTIOperationRequest object by calling this method and an operation handler then consumes the set value using the [CTIOperationRequest - getMinorVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method. You can also get/set the major version value of a provider's software using the [CTIOperationRequest - getMajorVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) and [CTIOperationRequest - setMajorVersion\(Number majorVersion\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) methods.
 
 <table id="table_zqj_52b_zkb" class="parameters"><thead><tr><th>
 
@@ -1121,7 +1122,7 @@ The ServiceNow Voice framework performs the following steps to locate the requir
     -   If set, executes the behavior, otherwise, errors out.
 4.  Executes the primary operation handler \(`myOpersation_SUFFX` or `myOperation`.\)
 
-You can set the default behavior of a substep by calling the [CTIOperationRequest - setSubStepNotFoundBehaviour\(Object behaviour\)](CTIOperationRequestAPI.md#) method.
+You can set the default behavior of a substep by calling the [CTIOperationRequest - setSubStepNotFoundBehaviour\(Object behaviour\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1201,7 +1202,7 @@ You can set the default behavior of a substep by calling the [CTIOperationReques
 
 Sets the specified key-value pair on the parameter object of the current CTIOperationRequest object.
 
-Using the get/set parameter methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation request. The operation handler determines what key/value pairs are required as it consumes these values. Typically the message transformer sets these parameters on the CTIOperationRequest object by calling this method and the operation handler consumes them using the [CTIOperationRequest - getParameter\(String key\)](CTIOperationRequestAPI.md#) or [CTIOperationRequest - getParameters\(\)](CTIOperationRequestAPI.md#) method.
+Using the get/set parameter methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The parameter object can contain zero or more key/value pairs of data that directly correlate to the current operation request. The operation handler determines what key/value pairs are required as it consumes these values. Typically the message transformer sets these parameters on the CTIOperationRequest object by calling this method and the operation handler consumes them using the [CTIOperationRequest - getParameter\(String key\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) or [CTIOperationRequest - getParameters\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method.
 
 **Note:** You should only store objects that can survive a `JSON.parse(JSON.stringify(object))` operation. Objects not meeting this criteria may not propagate correctly through the entire operation processing chain.
 
@@ -1347,7 +1348,7 @@ Value to store.Valid data types:
 
 Sets the specified session attribute key-value pair on the current CTIOperationRequest object.
 
-Using the get/set session attribute methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The sessionAttribute object can contain zero or more key/value pairs of data that are valid for the duration of a computer telephony integration provider defined session. Session attributes can also be accessed within a contact flow. The operation handler determines what session attribute key/value pairs are needed as it consumes these values. Typically the message transformer sets these attributes on the CTIOperationRequest object by calling this method and the operation handler gets the attributes using the [CTIOperationRequest - getSessionAttribute\(String key\)](CTIOperationRequestAPI.md#) or [CTIOperationRequest - getSessionAttribute\(\)](CTIOperationRequestAPI.md#) method.
+Using the get/set session attribute methods enables the passing of virtually any string or number value between a message transformer and an operation handler. The sessionAttribute object can contain zero or more key/value pairs of data that are valid for the duration of a computer telephony integration provider defined session. Session attributes can also be accessed within a contact flow. The operation handler determines what session attribute key/value pairs are needed as it consumes these values. Typically the message transformer sets these attributes on the CTIOperationRequest object by calling this method and the operation handler gets the attributes using the [CTIOperationRequest - getSessionAttribute\(String key\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) or [CTIOperationRequest - getSessionAttribute\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CTIOperationRequestAPI.md) method.
 
 **Note:** You should only store objects that can survive a `JSON.parse(JSON.stringify(object))` operation. Objects not meeting this criteria may not propagate correctly through the entire operation processing chain.
 

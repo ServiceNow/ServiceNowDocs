@@ -2,6 +2,7 @@
 title: Define batch size for Jira project metadata
 description: Define a batch size value that is used to fetch the metadata from the Jira projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/define-batch-size.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common

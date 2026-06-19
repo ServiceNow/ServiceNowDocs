@@ -2,6 +2,7 @@
 title: Using the Dispute Content Pack for US Regulations
 description: Dispute agents use the Dispute Content Pack for US Regulations to track the dispute cases that are governed by United States \(US\) Regulations \(Reg E and Reg Z\) and ensure they are in conformance with the regulatory guidance. This application provides the required Service Level Agreement \(SLA\) definitions and provide details to the dispute manager to monitor and take necessary actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/using-the-dispute-content-pack-for-us-regulation.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -35,25 +36,25 @@ When an agent disputes a transaction on behalf of a customer or through the Cust
 
         **Note:** The **Dispute reported date** field cannot be changed to a future date after it has been set.
 
-        ![Card disputes transactions table with Dispute reported date column highlighted.](../image/reg-sla-dispute-reported-date.png)
+        \[Omitted image "reg-sla-dispute-reported-date.png"\] Alt text: Card disputes transactions table with Dispute reported date column highlighted.
 
 3.  Submit the case for investigation.
-    -   In the **Submit dispute** activity, the agent reviews the dispute amount. The agent selects the option **Is this a new financial account?** and submits the case for further investigation. For more information on the various stages, see [Overview of the Dispute Management workflow](../../fso-card-operations/concept/dispute-management-workflows.md).
+    -   In the **Submit dispute** activity, the agent reviews the dispute amount. The agent selects the option **Is this a new financial account?** and submits the case for further investigation. For more information on the various stages, see [Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-management-workflows.md).
     -   After submitting the case, the agent accesses the **Task SLAs** tab to view the SLA definitions that have been applied.
 
         The following example shows the task SLAs tab view of the SLA definitions.
 
-        ![Task SLAs tab view of the SLA definitions.](../image/task-sla-playbook.png)
+        \[Omitted image "task-sla-playbook.png"\] Alt text: Task SLAs tab view of the SLA definitions.
 
     -   The agent reviews the SLA definitions.
     -   The agent selects **Acknowledgement sent** at the case record to indicate that the dispute acknowledgement has been issued to the customer. It updates the **Acknowledgement sent** field for each transaction to Yes, and sets the acknowledgement limit SLA status to complete.
 
-        ![Card disputes transactions tab showing the Acknowledgement sent button highlighted.](../image/reg-sla-acknowledgement-sent.png)
+        \[Omitted image "reg-sla-acknowledgement-sent.png"\] Alt text: Card disputes transactions tab showing the Acknowledgement sent button highlighted.
 
         The agent may also select **Acknowledgement sent** in the transaction record. This sets the **Acknowledgement sent** field to Yes for that specific transaction.
 
 
-For more information, see [Initiate a dispute](../../fso-card-operations/task/create-case-with-intake-workspace.md#).
+For more information, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
 
-**Parent Topic:**[Dispute Content Pack for US Regulations](dispute-content-pack-for-us-regulation-landing-page.md)
+**Parent Topic:**[Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md)
 

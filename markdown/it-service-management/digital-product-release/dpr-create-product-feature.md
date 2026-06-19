@@ -2,6 +2,7 @@
 title: Add a product feature to a product or service
 description: Add a product feature to a product or service to help you plan and manage the scope of a release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-product-feature.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -23,7 +24,7 @@ Role required: sn\_dpr\_model.product\_manager
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the products and services icon \(![Products and services icon.](../image/dpr-icon-products.png)\).
+2.  Select the products and services icon \(\[Omitted image "dpr-icon-products.png"\] Alt text: Products and services icon.\).
 
 3.  Select a product or service from the list to open.
 
@@ -57,7 +58,7 @@ Role required: sn\_dpr\_model.product\_manager
 
 10. Add artifacts for the product feature.
 
-    1.  Select the attachment icon \(![Attachment icon.](../image/dpr-icon-attachment.png)\) on the contextual menu to open the **Attachments** pane.
+    1.  Select the attachment icon \(\[Omitted image "dpr-icon-attachment.png"\] Alt text: Attachment icon.\) on the contextual menu to open the **Attachments** pane.
 
     2.  Select the **Select** button to upload and attach a file.
 

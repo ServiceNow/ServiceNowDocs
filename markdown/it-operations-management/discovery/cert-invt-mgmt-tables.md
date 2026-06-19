@@ -1,19 +1,20 @@
 ---
 title: Certificate Inventory and Management tables
-description: Certificate Inventory and Management tables provide a centralized system to track and manage digital certificates. They capture key details, including discovered certificates, installation locations, historical data, and associated tasks such as renewals and requests. This framework ensures efficient certificate management, supporting security, compliance, and streamlined operations.
+description: This framework supports security, compliance, and streamlined operations. Certificate Inventory and Management tables provide a centralized system to track and manage digital certificates. They capture key details, including discovered certificates, installation locations, historical data, and associated tasks such as renewals and requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-invt-mgmt-tables.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-25"
 reading_time_minutes: 2
 breadcrumb: [Certificate Inventory and Management reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Certificate Inventory and Management tables
 
-Certificate Inventory and Management tables provide a centralized system to track and manage digital certificates. They capture key details, including discovered certificates, installation locations, historical data, and associated tasks such as renewals and requests. This framework ensures efficient certificate management, supporting security, compliance, and streamlined operations.
+This framework supports security, compliance, and streamlined operations. Certificate Inventory and Management tables provide a centralized system to track and manage digital certificates. They capture key details, including discovered certificates, installation locations, historical data, and associated tasks such as renewals and requests.
 
 <table id="table_vph_p4w_31c"><thead><tr><th>
 
@@ -29,7 +30,7 @@ Unique Certificate \[cmdb\_ci\_certificate\]
 
 </td><td>
 
-Discovery populates this table with one record for each unique certificate discovered for certificate management. Fingerprint column is unique for every server certificate.**Note:** You can also view the entire certificate chain using the related list in the Unique Certificate table.
+The Fingerprint column is unique for every server certificate. **Note:** You can also view the entire certificate chain using the related list in the Unique Certificate table.
 
 </td></tr><tr><td>
 
@@ -37,7 +38,7 @@ Installed Certificate \[sn\_disco\_certmgmt\_cmdb\_installed\_certificate\]
 
 </td><td>
 
-Discovery populates this table with all discovered certificates and shows all locations where certificates are installed. It does not have a reference to the server CI and does not go through IRE. All the relationships with the managed certificate are stored in the CI Relationship \[cmdb\_rel\_ci\] table. The relationships can be for servers, applications, or business services.
+Discovery populates this table with all discovered certificates and shows all locations where certificates are installed. It does not have a reference to the server CI and does not go through IRE. Relationships with the managed certificate are stored in the CI Relationship \[cmdb\_rel\_ci\] table. The relationships can be for servers, applications, or business services.
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ Certificate Domain \[certificate\_domain\]
 
 </td><td>
 
-Stores one or more domains for the subject alternative name.
+Contains one or more domains for the subject alternative name.
 
 </td></tr><tr><td>
 
@@ -61,7 +62,7 @@ Certificate Task \[sn\_disco\_certmgmt\_certificate\_task\]
 
 </td><td>
 
-Stores all certificate renewal tasks and new certificate request tasks.
+Contains all certificate renewal tasks and new certificate request tasks.
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Certificate URL \[sn\_disco\_certmgmt\_cert\_url\]
 
 </td><td>
 
-Holds a list of URLs by row to target for certificate discovery.
+Contains URLs targeted for certificate discovery.
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ Certificate Management Credential\[sn\_disco\_certmgmt\_certificate\_management\
 
 </td><td>
 
-Stores the CA types including GoDaddy and DigiCert. Others are populated based on the certificate\_authority script. Only discovery\_admin will be able to create other CA credentials. External Credential support will be available in a future release.
+Stores the CA types including GoDaddy and DigiCert. Others are populated based on the **certificate\_authority** script. Only discovery\_admin can create other CA credentials.
 
 </td></tr><tr><td>
 
@@ -97,7 +98,7 @@ Certificate Authority\[sn\_disco\_certmgmt\_ca\]
 
 </td><td>
 
-Contains the Certificate Authority Name and Base URL of REST API.
+Contains the Certificate Authority name and base URL of the REST API.
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ Routing Policy\[sn\_disco\_certmgmt\_routing\_policy\]
 
 </td><td>
 
-Decides which CA needs to be contacted for certificate operations. This table contains the CA, CA URL, Credential, Approval Group, Assignment Group, and CSR attributes.
+Determines which CA to contact for certificate operations. This table contains the CA, CA URL, Credential, Approval Group, Assignment Group, and CSR attributes.
 
 </td></tr><tr><td>
 
@@ -137,7 +138,7 @@ New Certificate Tasks \[sn\_disco\_certmgmt\_new\_task\]
 
 </td><td>
 
-Extends from sn\_disco\_certmgmt\_task and contains new certificate request tasks.
+Extends from \[sn\_disco\_certmgmt\_task\] and contains new certificate request tasks.
 
 </td></tr><tr><td>
 
@@ -147,7 +148,7 @@ Renew Certificate Tasks\[sn\_disco\_certmgmt\_renew\_task\]
 
 </td><td>
 
-Extends from sn\_disco\_certmgmt\_task and contains renew certificate request tasks.
+Extends from \[sn\_disco\_certmgmt\_task\] and contains renew certificate request tasks.
 
 </td></tr><tr><td>
 
@@ -157,7 +158,7 @@ Revoke Certificate Tasks \[sn\_disco\_certmgmt\_revoke\_task\]
 
 </td><td>
 
-Extends from sn\_disco\_certmgmt\_task ans contains revoke certificate request tasks.
+Extends from \[sn\_disco\_certmgmt\_task\] and contains revoke certificate request tasks.
 
 </td></tr><tr><td>
 
@@ -169,6 +170,26 @@ Certificate Extensions \[sn\_disco\_certmgmt\_certificate\_extension\]
 
 Stores information for all server certificates.
 
+</td></tr><tr><td>
+
+Microsoft Teams Channel \[sn\_disco\_certmgmt\_microsoft\_teams\_channel\]
+
+\(Version 4.2.0 Certificate Inventory and Management\)
+
+</td><td>
+
+Stores the Microsoft Teams channel configuration.
+
+</td></tr><tr><td>
+
+Certificate Notification Policysn\_disco\_certmgmt\_notification\_policy
+
+\(Version 4.2.0 Certificate Inventory and Management\)
+
+</td><td>
+
+Stores the Microsoft Teams channel notification settings for certificate events.
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Certificate Inventory and Management reference](cert-invt-mgmt-references.md)
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-invt-mgmt-references.md)
 

@@ -2,6 +2,7 @@
 title: About the tag-based application service form
 description: The tag-based application service form provides a centralized location for viewing detailed information about a selected tag-based service, including its configuration and its associated configuration items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/tag-based-service-form.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -22,7 +23,7 @@ The tag-based application service form offers a comprehensive view of a tag-base
 To access the tag-based application service form:
 
 1.  Navigate to **Workspaces** &gt; **Service Mapping** &gt; **.**
-2.  Select the **Tag-based Service Mapping** icon ![](../../../reuse/icons/product-icons/tag-outline-24.svg) from the navigation pane.
+2.  Select the **Tag-based Service Mapping** icon \[Omitted image "tag-outline-24.svg"\] from the navigation pane.
 3.  Select the **Tag-based service maps** tile.
 4.  Select the desired tag-based service to view the tag-based application service form.
 

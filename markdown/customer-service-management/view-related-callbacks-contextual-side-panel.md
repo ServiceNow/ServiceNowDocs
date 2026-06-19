@@ -2,7 +2,10 @@
 title: View related callbacks in the contextual side panel
 description: View and manage active callbacks for a contact or consumer from the contextual side panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-related-callbacks-contextual-side-panel.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -27,11 +30,11 @@ When working on a case or interaction, callback tiles appear automatically in th
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace.**.
 
-2.  Select the List icon \(![List icon to view callback list](../image/list-icon-callback.png)\)
+2.  Select the List icon \(\[Omitted image "list-icon-callback.png"\] Alt text: List icon to view callback list\)
 
 3.  Open a case or interaction.
 
-4.  Select the Related lists \(![Related icon.](../image/related-lists-callback.png)\) icon.
+4.  Select the Related lists \(\[Omitted image "related-lists-callback.png"\] Alt text: Related icon.\) icon.
 
 5.  Select **Related Callbacks**.
 

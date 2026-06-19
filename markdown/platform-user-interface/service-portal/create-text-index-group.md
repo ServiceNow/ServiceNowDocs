@@ -2,6 +2,7 @@
 title: Add a text index group to a portal
 description: Define how users see search results. For example, combine search results from several sources, or set the weight of certain fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/create-text-index-group.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -21,9 +22,9 @@ Role required: admin
 
 If you have a custom search source or portal, consider whether you want to use the base system **portal\_index\_group** text index group, or create your own text index group. The base system text index group includes the Catalog items and Knowledge tables. When a user searches for an item in Service Portal, they see combined results from these tables.
 
-**Note:** Index tables before adding them to a text index group. To learn more about text indexing, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
+**Note:** Index tables before adding them to a text index group. To learn more about text indexing, see .
 
-Text index groups are a ServiceNow AI Platform feature. To learn more, see [Configure multiple tables for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/index-multiple-tables.md).
+Text index groups are a ServiceNow AI Platform feature. To learn more, see Configure multiple tables for indexing and searching.
 
 ## About this task
 
@@ -44,5 +45,5 @@ Text index groups are a ServiceNow AI Platform feature. To learn more, see [Conf
 
 Search results display according to the text index group's rules.
 
-**Parent Topic:**[Zing search in Service Portal](../concept/zing-search-service-portal.md)
+**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
 

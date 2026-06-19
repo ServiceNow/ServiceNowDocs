@@ -2,6 +2,7 @@
 title: Microsoft Defender integration for Security Operations
 description: The Microsoft Defender integration for ServiceNow Security Operations ingests alerts and incidents into the ServiceNow Security Incident Response \(SIR\) platform for centralized case management. Bi-directional synchronization keeps status and work notes aligned across both platforms, ensuring teams working in either system maintain consistent information without discrepancies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-defender.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,13 +24,13 @@ If you are currently using the Azure Sentinel integration with Security Incident
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Microsoft Defender and Security Operations
 
 See the following diagram to learn how the Microsoft Defender incident flows with Security Operations applications.
 
-![Microsoft Defender and Security Operations](../image/md-secops.png)
+\[Omitted image "md-secops.png"\] Alt text: Microsoft Defender and Security Operations
 
 ## Key Features
 
@@ -49,5 +50,5 @@ Microsoft Defender integration tasks involve the following roles.
 -   sn\_si.ingestion\_profile\_admin: Can read, write, and delete records.
 -   sn\_si.analyst: Can read, write, and delete records.
 
-For more information on Roles installed, see [Components installed with Security Incident Response](../../../security-incident-response/reference/installed-with-sir.md)
+For more information on Roles installed, see [Components installed with Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/installed-with-sir.md)
 

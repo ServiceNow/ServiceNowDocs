@@ -2,6 +2,7 @@
 title: Edit settings form reference
 description: The Edit settings form displays information about the Amazon Web Services \(AWS\) settings used to record and deliver the AWS events to the listening endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/edit-aws-event-recording-settings-form-reference.html
 release: australia
 product: Discovery
 classification: discovery
@@ -85,5 +86,5 @@ Amazon SNS topic to which the AWS Config service should publish the events.1.  S
 2.  Select the Amazon SNS topic from the SNS topic name drop-down list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Discovery reference](../../discovery/reference/cloud-discovery-reference.md)
+</table>**Parent Topic:**[Cloud Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-reference.md)
 

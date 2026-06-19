@@ -2,6 +2,7 @@
 title: Debug performance diagnostics of a catalog item
 description: Analyze the impact of the variable setup in a catalog item on its runtime performance, and identify any issues. You can review the processing time of the catalog item and its variables based on the triggered SQL queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/debug-perf-diagnostics.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -39,7 +40,7 @@ The variable SQL debugger is not applicable for the following variables:
     -   To disable the variable SQL debugger, navigate to **Service Catalog** &gt; **Catalog Variables** &gt; **Disable Variable SQL Debugger**.
 2.  Navigate to **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintain Items**, select a catalog item that you want to debug, and click **Try It**.
 
-3.  Click the more options icon \(![more options icon](../image/Actions.png)\) and select **Show Variable SQL Debugger**.
+3.  Click the more options icon \(\[Omitted image "Actions.png"\] Alt text: more options icon\) and select **Show Variable SQL Debugger**.
 
     The following information is displayed in the Variable SQL Debugger window:
 
@@ -70,5 +71,5 @@ The variable SQL debugger is not applicable for the following variables:
     **Note:** By default, triggered SQLs are sorted in descending order by their execution order.
 
 
-**Parent Topic:**[Debugging Service Catalog](../concept/debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
 

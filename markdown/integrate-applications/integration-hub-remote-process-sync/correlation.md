@@ -2,6 +2,7 @@
 title: Correlation
 description: Establish a synchronization relationship between records that reside on separate instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/correlation.html
 release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
@@ -28,7 +29,7 @@ Prior to Integration Hub Remote Process Sync, you could only create correlations
 
 A classic correlation creates a one-to-one relationship between a record on the local system and a record on a remote system. One local record can only ever correlate to one remote record. The correlation provides no information about the remote system nor the current state of the correlation. Administrators manually manage classic correlations from the records being updated.
 
-![A classic correlation between Incident record INC100001 and Problem record PRB123456.](../images/correlation-classic-example.png "Sample classic correlation field")
+\[Omitted image "correlation-classic-example.png"\] Alt text: A classic correlation between Incident record INC100001 and Problem record PRB123456.
 
 ## Integration Hub Correlation records
 
@@ -65,7 +66,7 @@ A Correlation record contains these fields.
 
 Integration Hub Remote Process Sync manages correlation records for you. Directly editing correlation records may prevent synchronization of records, and may result in data loss.
 
-![](../images/correlation-record-example.png "Sample Integration Hub Correlation record")
+\[Omitted image "correlation-record-example.png"\] Alt text:
 
 Correlation records offer several advantages over a single correlation field.
 

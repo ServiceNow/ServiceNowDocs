@@ -2,6 +2,7 @@
 title: Delete a CDM application
 description: Delete a CDM application to delete all associated config data and snapshots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-application-delete.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,13 +18,13 @@ Delete a CDM application to delete all associated config data and snapshots.
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: CDM Admin \[sn\_cdm.cdm\_admin\]
 
 ## Procedure
 
-1.  Select the **Applications** icon \(![Applications icon](../image/icon-applications-nav.png)\) and then select one or more applications.
+1.  Select the **Applications** icon \(\[Omitted image "icon-applications-nav.png"\] Alt text: Applications icon\) and then select one or more applications.
 
 2.  Select **Delete** and then confirm the delete action.
 

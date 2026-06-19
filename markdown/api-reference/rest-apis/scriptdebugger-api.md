@@ -2,6 +2,7 @@
 title: Script Debugger API
 description: The Script Debugger API provides endpoints to debug lines of server-side JavaScript code, such as business rules and script includes.Retrieve a list of breakpoints or logpoints in a server-side script, such as a business rule or script include.Add, update, or remove breakpoints or logpoints in a server-side script, such as a business rule or script include. Process several breakpoints or logpoints at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/scriptdebugger-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -15,11 +16,11 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Script Debugger API provides endpoints to debug lines of server-side JavaScript code, such as business rules and script includes.
 
-For more information about the Script Debugger, see [Script Debugger and Session Log](../../../script/debugging/concept/script-debugger.md).
+For more information about the Script Debugger, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md).
 
 This API is available by default.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Script Debugger - GET /js/debugpoints/script/\{tableName\}/\{sysId\}/\{fieldName\}
 
@@ -74,7 +75,7 @@ Name of the field that contains the server-side script content.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -99,7 +100,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -491,7 +492,7 @@ Required. Name of the table that contains the server-side script, such as sys\_s
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -524,7 +525,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

@@ -2,6 +2,7 @@
 title: Filter talent profiles
 description: Use filter options to find relevant talent profiles quickly in the Talent pool tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/filter-tp.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 2.  Go to the **Talent pool** tab.
 
-3.  Select the filter icon ![Filter icon](../images/icon-filter.png) and select **Advanced view**.
+3.  Select the filter icon \[Omitted image "icon-filter.png"\] Alt text: Filter icon and select **Advanced view**.
 
 4.  You can either filter the talent profiles by the applicant option or by user title option.
 
@@ -34,5 +35,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 5.  Select **Update** to set the filter conditions.
 
 
-**Parent Topic:**[Using Talent profile](../concept/config-t-pool.md)
+**Parent Topic:**[Using Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-t-pool.md)
 

@@ -2,6 +2,7 @@
 title: Zebra MotionWorks RFID integration for Enterprise Asset Management
 description: You can integrate your ServiceNow instance with third-party Zebra MotionWorks location solutions to import and view real-time radio-frequency identification \(RFID\) location data for your enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eam-zebra-rfid-integration.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -36,15 +37,15 @@ On successful mapping, you can run the **RFID Asset Mapping Job** scheduled job 
 -   If a corresponding asset record already exists for an enterprise asset that you want to map data for, it automatically updates each time the RFID location data for that enterprise asset changes. In addition, the **Status** of the enterprise asset changes from **New** to **Matched** in the RFID Asset \[sn\_itam\_common\_rfid\_asset\] table.
 -   If a corresponding asset record does not already exist, data for that enterprise asset cannot be mapped from the RFID Asset \[sn\_itam\_common\_rfid\_asset\] table to the Asset \[alm\_asset\] table. The **Status** of the enterprise asset changes from **New** to **Unmatched** in the RFID Asset \[sn\_itam\_common\_rfid\_asset\] table.
 
-    You can view and take action on these unmatched enterprise assets by using the **Unmatched RFID tags** important action that appears on the **Overview** tab of the Enterprise asset estate view. For more information on the Enterprise asset estate view, see [Enterprise asset estate overview for Enterprise Asset Workspace](asset-estate-overview-eam.md).
+    You can view and take action on these unmatched enterprise assets by using the **Unmatched RFID tags** important action that appears on the **Overview** tab of the Enterprise asset estate view. For more information on the Enterprise asset estate view, see [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md).
 
 
-You can view your asset records in the [Enterprise asset estate view](asset-estate-overview-eam.md) of the Enterprise Asset Workspace. For details on the RFID fields that are included in each asset record, see [Asset fields for enterprise assets](../reference/asset-fields-eam.md).
+You can view your asset records in the [Enterprise asset estate view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md) of the Enterprise Asset Workspace. For details on the RFID fields that are included in each asset record, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
 
 **Note:** If you are importing RFID location data for parent enterprise assets with one or more child enterprise assets, RFID location data for those child enterprise assets is based on the RFID tags that they are associated with.
 
 -   If a child enterprise asset contains an RFID tag, RFID location data for that asset is based on that RFID tag.
 -   If a child enterprise asset does not contain an RFID tag, RFID location data for that asset is based on the RFID tag of the parent enterprise asset. If you remove the parent enterprise asset, all RFID location data is cleared for the child enterprise asset.
 
-**Parent Topic:**[Create and manage enterprise assets](create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

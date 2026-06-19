@@ -2,6 +2,7 @@
 title: Create a remote task using Workflow Studio in Service Exchange for Providers
 description: As a provider, proactively create remote tasks for your customers by using Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-remote-task-flow-desig.html
 release: australia
 product: Service Exchange
 classification: service-exchange

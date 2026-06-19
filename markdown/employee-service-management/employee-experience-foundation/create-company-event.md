@@ -2,6 +2,7 @@
 title: Create a company event
 description: Use company events to configure a live-streamed event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-company-event.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -18,13 +19,13 @@ Use company events to configure a live-streamed event.
 ## Before you begin
 
 -   Role required: sn\_cd.content\_manager
--   To create and publish company events with greater efficiency, use a content template. For more information, see [Create a Content template](ec-create-content-template.md).
--   You can assign one or more content categories to the company event so employees can filter by category. See [Create a content category](../concept/ec-content-cat.md).
--   Social engagement settings enable employees to view page count, select a reaction icon, or leave a comment. See [Content engagement](../concept/ec-content-engagement.md).
+-   To create and publish company events with greater efficiency, use a content template. For more information, see [Create a Content template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-create-content-template.md).
+-   You can assign one or more content categories to the company event so employees can filter by category. See [Create a content category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-cat.md).
+-   Social engagement settings enable employees to view page count, select a reaction icon, or leave a comment. See [Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-engagement.md).
 
 ## About this task
 
-The company event content type is built using the Rich Content Editor and published to the employee portal via widgets. For an overview, see [Company events](../concept/ec-company-events.md).
+The company event content type is built using the Rich Content Editor and published to the employee portal via widgets. For an overview, see [Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-company-events.md).
 
 ## Procedure
 
@@ -123,7 +124,7 @@ Article content
 
 </td><td>
 
-Link to assemble the body of the company event using the Rich Content Editor. See [Microsites](../concept/ec-rich-content.md)
+Link to assemble the body of the company event using the Rich Content Editor. See [Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content.md)
 
 </td></tr><tr><td>
 
@@ -131,7 +132,7 @@ Content template \(Optional\)
 
 </td><td>
 
-Option to use a preconfigured template which provides a content layout and generates a publish plan. See [Content templates](../concept/ec-content-templates.md).
+Option to use a preconfigured template which provides a content layout and generates a publish plan. See [Content templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-templates.md).
 
 </td></tr><tr><td>
 
@@ -163,7 +164,7 @@ If the Content Admin enabled social engagement, the following settings appear in
 ## What to do next
 
 -   Review how the event will appear in the portal by clicking **Preview on portal**.
--   [Publish the company event](ec-publish-company-events.md)
+-   [Publish the company event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-company-events.md)
 
-**Parent Topic:**[Company events](../concept/ec-company-events.md)
+**Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-company-events.md)
 

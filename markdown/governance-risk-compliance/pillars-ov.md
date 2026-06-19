@@ -2,6 +2,7 @@
 title: Pillars overview tab
 description: A pillar is a foundational element that supports your organization's operational resilience. You can map business services and processes to these pillars in the Operational Resilience application to establish relationships and monitor their status on the dashboard in the Operational Resilience Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/pillars-ov.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ A pillar is a foundational element that supports your organization's operational
 
 The **Pillars overview** tab on the landing page of the Operational Resilience Workspace provides information on the pillars, which are part of the base system in Operational Resilience. From the dashboard, you can monitor the status of the services for each pillar. The Pillars overview section displays data filtered for the selected pillar as shown in the example.
 
-![Pillars overview.](../../grc-operational-res/image/p-ov-hp.png)
+\[Omitted image "p-ov-hp.png"\] Alt text: Pillars overview.
 
 ## Tables associated with the Pillars overview tab
 
@@ -143,7 +144,7 @@ The following sample report shows data for the Application Service pillar with i
 -   Supported services
 -   Supported business services
 
-![Overview.](../../grc-operational-res/image/p-ov.png)
+\[Omitted image "p-ov.png"\] Alt text: Overview.
 
 ## Report on the red flags
 
@@ -153,7 +154,7 @@ If you install the optional applications from the GRC product suite, such as Bus
 
 A sample Red flags report for the pillars is shown in the example.
 
-![Red flags.](../../grc-operational-res/image/p-red-flags.png)
+\[Omitted image "p-red-flags.png"\] Alt text: Red flags.
 
 The following data is displayed for the pillars in the Red flags report:
 
@@ -165,7 +166,7 @@ The following data is displayed for the pillars in the Red flags report:
 
 The Suggestions report on the **Pillars overview** tab offers recommendations and workarounds to mitigate issues and risks for various resilience metrics associated with the pillar.
 
-![Suggestions.](../../grc-operational-res/image/p-suggestions.png)
+\[Omitted image "p-suggestions.png"\] Alt text: Suggestions.
 
 Depending on the applications integrated with Operational Resilience, suggestions are displayed in the report. For example, if you have installed the Policy and Compliance Management, Risk Management, and Vulnerability Response applications, the following suggestions are displayed in the report.
 
@@ -173,5 +174,5 @@ Depending on the applications integrated with Operational Resilience, suggestion
 -   Top risks to be mitigated
 -   Top vulnerabilities to be fixed
 
-For more information on the pillars in Operational Resilience, see [Exploring Operational Resilience](../../grc-operational-res/concept/what-is-opres.md).
+For more information on the pillars in Operational Resilience, see [Exploring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/what-is-opres.md).
 

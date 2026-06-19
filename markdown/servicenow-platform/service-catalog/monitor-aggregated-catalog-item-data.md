@@ -2,6 +2,7 @@
 title: Monitoring aggregated catalog item data
 description: Monitor aggregated catalog item data like fulfillment automation coverage, translation coverage, and conversational coverage using the Service Catalog Overview dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/monitor-aggregated-catalog-item-data.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -19,7 +20,7 @@ Monitor aggregated catalog item data like fulfillment automation coverage, trans
 
 You can access the aggregated catalog item data graphs in the Service Catalog Overview dashboard by navigating to **All &gt; Service Catalog &gt; Service Catalog Overview** if you have the catalog\_admin role.
 
-The Catalog item translation coverage graph is displayed only if you have enabled the Localization framework. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md).
+The Catalog item translation coverage graph is displayed only if you have enabled the Localization framework. For more information, see .
 
 |Graph|Description|
 |-----|-----------|
@@ -29,9 +30,9 @@ The Catalog item translation coverage graph is displayed only if you have enable
 |Catalog item fulfillment automation coverage|Vertical bar graph representing the count of fulfillment automation coverage of catalog items. It specifies whether items are fully automated, semi-automated, manual, unspecified, or empty.|
 |Catalog item translation coverage|Vertical bar graph representing the count of the translation status of catalog items. It specifies whether items are completely translated, partially translated, not translated, or in-progress.|
 
-![Service Catalog Overview dashboard](../image/sc-overview-dashboard.png)
+\[Omitted image "sc-overview-dashboard.png"\] Alt text: Service Catalog Overview dashboard
 
-**Parent Topic:**[Service Catalog items](../concept/c_IntroductionToCatalogItems.md)
+**Parent Topic:**[Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 
 **Related topics**  
 

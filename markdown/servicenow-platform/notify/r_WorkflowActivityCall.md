@@ -2,6 +2,7 @@
 title: Call workflow activity
 description: The Call activity makes outbound phone calls using a Notify workflow. This workflow activity can be added to any table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_WorkflowActivityCall.html
 release: australia
 product: Notify
 classification: notify

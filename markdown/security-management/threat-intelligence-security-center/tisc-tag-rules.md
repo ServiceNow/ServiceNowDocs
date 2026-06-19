@@ -2,6 +2,7 @@
 title: Configure Tagging Rules in TISC
 description: Use tagging rules to automatically assign tags and taxonomies to RSS feeds. Tagging rules evaluate incoming feed data based on defined criteria and apply the appropriate tags and taxonomies when a match is found.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-tag-rules.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -291,7 +292,7 @@ If this check box isn't selected, spaces are preserved and treated as part of th
         -   Applied tags
         -   Applied taxonomy values
 
-            ![TISC Tagging Rules - Activity Stream](../image/tisc-tag-rule-activity-stream.png)
+            \[Omitted image "tisc-tag-rule-activity-stream.png"\] Alt text: TISC Tagging Rules - Activity Stream
 
 
 If multiple rules are triggered, each rule appears as a separate row. When multiple tags and taxonomies values are applied by a single rule, they are listed as comma-separated values with tags and taxonomies separately applied by each tagging rule. When multiple tagging rules utilize the same tags or taxonomies values, the application ensures that duplicate tags and taxonomies are automatically managed. This prevents the same tag or taxonomy from being applied more than once to an RSS Feed record.

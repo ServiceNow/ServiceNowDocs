@@ -2,9 +2,12 @@
 title: Review OTM resource usage against allocated subscription units
 description: Review and analyze resource statistics that OTM products can manage and compare this information to the average allocation of subscription units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/review-otm-resource-usage-licenses.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -19,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Explore detailed licensing data trends of OTM using the [OTM Licensing dashboard](../../operational-technology-management/reference/otm-licensing-dashboard.md). Observe daily CI counts or view the averages for the last 90 daily counts. This feature provides domain-specific information and specific CI listings for each daily count, enabling you to effectively monitor and analyze resource usage over time.
+Explore detailed licensing data trends of OTM using the [OTM Licensing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/otm-licensing-dashboard.md). Observe daily CI counts or view the averages for the last 90 daily counts. This feature provides domain-specific information and specific CI listings for each daily count, enabling you to effectively monitor and analyze resource usage over time.
 
 **Note:** CIs managed by SG-OT Excel are counted and listed for license consumption with last\_scan dates more recent than, equal to, and older than 90 days.
 
@@ -33,6 +36,6 @@ Explore detailed licensing data trends of OTM using the [OTM Licensing dashboard
 
 4.  Select the bar to view a list of the type of OT devices.
 
-5.  Review the dashboard described in [OTM Licensing dashboard](../../operational-technology-management/reference/otm-licensing-dashboard.md).
+5.  Review the dashboard described in [OTM Licensing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/otm-licensing-dashboard.md).
 
 

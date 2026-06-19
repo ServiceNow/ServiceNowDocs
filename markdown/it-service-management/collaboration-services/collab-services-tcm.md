@@ -2,6 +2,7 @@
 title: Collaboration services
 description: Collaboration services provides a way to communicate and collaborate in real-time. You can directly use a collaboration tool from task records and as a channel within communication plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/collab-services-tcm.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services
@@ -30,10 +31,10 @@ Compatible with all the releases starting with the Madrid release.
     -   Initiate a chat using Microsoft Teams directly from tasks.
     -   Import message history into a task record from Microsoft Teams, manually or automated.
     -   Send individual notification and collaboration on Major Incident and Incident Communication Plan using Slack or Microsoft Teams.
-    -   For information about ServiceNow for Microsoft Teams integrations, see [ServiceNow for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_ServiceNowForMSTeams.md).
+    -   For information about ServiceNow for Microsoft Teams integrations, see ServiceNow for Microsoft Teams.
 -   ServiceNow for Zoom
     -   Initiate a chat using Zoom Team Chat directly from tasks.
     -   Import message history into a task record from Zoom Team Chat.
-    -   For information about ServiceNow for Zoom integrations, see [ServiceNow for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn_zoomIntegration.md).
-    -   Access ServiceNow Employee Center in the Zoom application. For information about ServiceNow Employee Center in Zoom, see [Make Employee Center capabilities available in Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md).
+    -   For information about ServiceNow for Zoom integrations, see ServiceNow for Zoom.
+    -   Access ServiceNow Employee Center in the Zoom application. For information about ServiceNow Employee Center in Zoom, see Make Employee Center capabilities available in Zoom.
 

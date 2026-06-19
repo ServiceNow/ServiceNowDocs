@@ -2,6 +2,7 @@
 title: View users’ consent tracking selections
 description: View and analyze details regarding users and their tracking selection preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-view-user-decision.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -33,8 +34,8 @@ Role required: analytics\_admin
 
     Users who fall under an **Explicit Opt-In** or **Notice** consent policy, they receive an annual opt-in or notice message based on the date set in the User Consent Decision record.
 
-    See [How users consent to tracking in Usage Insights](user-exp-analytics-user-set.md) for information on how users manually update their preference.
+    See [How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-user-set.md) for information on how users manually update their preference.
 
 
-**Parent Topic:**[How users consent to tracking in Usage Insights](user-exp-analytics-user-set.md)
+**Parent Topic:**[How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-user-set.md)
 

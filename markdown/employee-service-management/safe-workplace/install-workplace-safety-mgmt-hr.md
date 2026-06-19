@@ -2,6 +2,7 @@
 title: Install Workplace Core
 description: You can install the Workplace Core application if you have the admin role. This application includes optional demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/install-workplace-safety-mgmt-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -87,7 +88,7 @@ The following components are installed with installation of the Workplace Core a
 -   Roles
 -   Tables
 
-See [Components installed with Workplace Core](../reference/components-installed-with-workplace-safety-mgmt-hr.md#) for more information.
+See [Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.md) for more information.
 
 ## Procedure
 
@@ -95,7 +96,7 @@ See [Components installed with Workplace Core](../reference/components-installed
 
 2.  Find the application using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -114,10 +115,10 @@ See [Components installed with Workplace Core](../reference/components-installed
 6.  Click **Install**.
 
 
--   **[Components installed with Workplace Core](../reference/components-installed-with-workplace-safety-mgmt-hr.md#)**  
+-   **[Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/components-installed-with-workplace-safety-mgmt-hr.md)**  
 Several types of components are installed with installation of the Workplace Core application, including user roles, scheduled jobs, tables, and business rules.
--   **[Properties installed with Workplace Core](../reference/properties-installed-with-workplace-safety-mgmt-hr.md)**  
+-   **[Properties installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/properties-installed-with-workplace-safety-mgmt-hr.md)**  
 Customize the properties available with Workplace Core.
 
-**Parent Topic:**[Workplace Core](../concept/workplace-safety-mgmt-hr.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.md)
 

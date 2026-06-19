@@ -2,6 +2,7 @@
 title: Manage document versions in external cloud
 description: Manage document versions from external cloud directly in the record within the workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/manage-documents-external-cloud.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -21,7 +22,7 @@ Manage document versions from external cloud directly in the record within the w
 
 ## Before you begin
 
-Multi Provider plugin should be installed. Fro more information, see [Activate Multi Provider Document Services Framework](activate-multi-provider-doc-framework.md) and [Document Management integration with external content providers](../concept/integration-external-content-providers.md)
+Multi Provider plugin should be installed. Fro more information, see [Activate Multi Provider Document Services Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/activate-multi-provider-doc-framework.md) and [Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/integration-external-content-providers.md)
 
 Role required: none
 
@@ -31,7 +32,7 @@ Role required: none
 
 2.  Select the documents icon from the left side panel to display the list of all document files and folders.
 
-3.  Go to the document card, select the vertical ellipse ![Translation-indicator icon](../../../administer/dynamic-translation/image/Ellipses.png).
+3.  Go to the document card, select the vertical ellipse \[Omitted image "Ellipses.png"\] Alt text: Translation-indicator icon.
 
 4.  Select **Manage external cloud**.
 
@@ -68,5 +69,5 @@ Role required: none
     4.  Select **Upload** to upload a new document version.
 
 
-**Parent Topic:**[Document Management in Workspace](../concept/document-management-workspace.md)
+**Parent Topic:**[Document Management in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-management-workspace.md)
 

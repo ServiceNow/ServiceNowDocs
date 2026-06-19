@@ -2,6 +2,7 @@
 title: Generate certificates for Headless Browser setup for Linux
 description: Generate TLS/SSL certificates to secure the Docker REST API and authenticate HTTP requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/headless-browser-certificates.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -17,7 +18,7 @@ Generate TLS/SSL certificates to secure the Docker REST API and authenticate HTT
 
 ## Before you begin
 
-Complete the prerequisites listed in the [Headless Browser setup for Linux](../concept/headless-browser-procedure-linux.md) topic.
+Complete the prerequisites listed in the [Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-linux.md) topic.
 
 Role required: admin on your ServiceNow instance and local administrator on the host machine.
 
@@ -84,9 +85,9 @@ To learn more, see [Use TLS \(HTTPS\) to protect the Docker daemon socket](https
     Now that you have added all of the certificates to the keystore file, save the file **my.keystore** for later, as it will be uploaded to the ServiceNow instance. In addition, be sure to remember the password that you entered when prompted to create the keystore file; you will need to enter that into a form in the ServiceNow instance.
 
 
-**Parent Topic:**[Headless Browser setup for Linux](../concept/headless-browser-procedure-linux.md)
+**Parent Topic:**[Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-linux.md)
 
-**Previous topic:**[Headless Browser setup for Linux](../concept/headless-browser-procedure-linux.md)
+**Previous topic:**[Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-linux.md)
 
-**Next topic:**[Configure Docker for Headless Browser setup in Linux](headless-browser-configure-docker.md)
+**Next topic:**[Configure Docker for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-configure-docker.md)
 

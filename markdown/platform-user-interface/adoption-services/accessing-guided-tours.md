@@ -2,11 +2,12 @@
 title: Start a guided tour
 description: Guided Tours are available across four user interface types: Standard, Service Portal, Workspace, and Custom UI. If you have the appropriate roles, you can access a guided tour from Standard Forms and Lists UI, Workspace, and Custom UI.If you have the appropriate roles, you can access a guided tour from Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/accessing-guided-tours.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Use Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
@@ -17,7 +18,7 @@ Guided Tours are available across four user interface types: Standard, Service P
 
 The way-guided tours start varies depending on the specific interface type \(tour type\).
 
-**Parent Topic:**[Using Guided Tours](using-guided-tours.md)
+**Parent Topic:**[Using Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/using-guided-tours.md)
 
 ## Start guided tour from Help Center
 
@@ -29,7 +30,7 @@ Role required: user
 
 ### Procedure
 
-1.  Select the ![Help](../image/gtd-bluehelp-icon.png) icon to open the Help Center.
+1.  Select the \[Omitted image "gtd-bluehelp-icon.png"\] Alt text: Help icon to open the Help Center.
 
     The Help Center lists a maximum of four tours.
 
@@ -56,7 +57,7 @@ Role required: user
 
 1.  Go to the Service Portal page that has a guided tour.
 
-    The ![Tours](../image/gtd-tours-button.png) menu appears on the banner with a color indicator to the right of the menu.
+    The \[Omitted image "gtd-tours-button.png"\] Alt text: Tours menu appears on the banner with a color indicator to the right of the menu.
 
 2.  Select the **Tours** menu.
 
@@ -66,7 +67,7 @@ Role required: user
 
     **Note:**
 
-    If a page doesn’t have a Service Portal Header Menu, you can’t access the **Tours** menu. In this case, the guided tour is only available to you through auto-launch. See [Configure auto-launch for Guided Tours](../task/auto-launch-guided-tours.md).
+    If a page doesn’t have a Service Portal Header Menu, you can’t access the **Tours** menu. In this case, the guided tour is only available to you through auto-launch. See [Configure auto-launch for Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/auto-launch-guided-tours.md).
 
     If a tour is assigned at least one role, the audience is limited to users with that role.
 

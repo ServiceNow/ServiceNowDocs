@@ -2,6 +2,7 @@
 title: Create a flow with a Kafka Message trigger
 description: Build a flow that processes events from a Kafka stream. Start the flow when an event is available in the specified topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-kafka.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -31,7 +32,7 @@ This trigger requires the ServiceNow Stream Connect Installer \[com.glide.hub.st
 
 3.  Define the flow properties.
 
-    For more information, see [Create a flow in Workflow Studio](create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
 4.  In the Trigger section, click **Add a trigger** and select **Application** &gt; **Kafka Message**.
 
@@ -60,7 +61,7 @@ Serialization format
 </td><td>
 
 The serialization format for the message. Select one of the following. -   **Plain Text**: Select this option for any plain-text messages. This is the default format.
--   **Encoded**: Select this option for messages in an Apache Avro format. Converting plain-text messages to an Avro format requires a schema. Select the schema registry in the **Schema registry** field. For information on schemas, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/schema-management.md).
+-   **Encoded**: Select this option for messages in an Apache Avro format. Converting plain-text messages to an Avro format requires a schema. Select the schema registry in the **Schema registry** field. For information on schemas, see .
 
 
 </td></tr><tr><td>
@@ -124,9 +125,9 @@ Number of messages to process each run. This field appears only when **Number of
 
     1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Administration** &gt; **Settings**.
 
-    2.  In the **Flow/SubFlow/Action** field, select the info icon \(![info icon](../../integrationhub/images/info-icon.png)\) for the flow, then select **Open Record**.
+    2.  In the **Flow/SubFlow/Action** field, select the info icon \(\[Omitted image "info-icon.png"\] Alt text: info icon\) for the flow, then select **Open Record**.
 
-    3.  Select the Additional actions icon \(![additional actions icon](../images/context-menu-icon.png)\) and select **View** &gt; **Kafka**.
+    3.  Select the Additional actions icon \(\[Omitted image "context-menu-icon.png"\] Alt text: additional actions icon\) and select **View** &gt; **Kafka**.
 
         The **Max concurrency** field appears on the form.
 
@@ -175,16 +176,16 @@ This field appears only when **Advanced** is selected.
 
 9.  To test the flow, click the **Test** button.
 
-    The **Test** button opens the Test flow dialog, where you can create a message to send to the flow. The system tests the flow with this newly created message, not with messages from the Kafka topic. The flow doesn't start receiving messages from the topic until the flow is activated. For more information, see [Test a flow](flow-test.md).
+    The **Test** button opens the Test flow dialog, where you can create a message to send to the flow. The system tests the flow with this newly created message, not with messages from the Kafka topic. The flow doesn't start receiving messages from the topic until the flow is activated. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
 
 10. To activate the flow, click the **Activate** button.
 
-    When you activate the flow, the system begins looking for messages in the topic. You must activate the flow to receive messages. For more information, see [Activate a flow](flow-activate.md).
+    When you activate the flow, the system begins looking for messages in the topic. You must activate the flow to receive messages. For more information, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
 
 
 ## Result
 
 When there's a message in the Kafka topic, the flow triggers and runs the actions.
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
 

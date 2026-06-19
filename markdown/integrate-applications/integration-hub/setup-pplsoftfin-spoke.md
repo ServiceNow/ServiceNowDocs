@@ -2,6 +2,7 @@
 title: Set up the Oracle Peoplesoft Financial spoke
 description: Integrate the Oracle Peoplesoft Financial and ServiceNow instances, and authenticate the requests using the basic authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-pplsoftfin-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -32,11 +33,11 @@ Integrate the Oracle Peoplesoft Financial and ServiceNow instances, and authenti
 
     3.  Navigate to **Copy Project** &gt; **From File** and select the project file.
 
-        ![Import the project file.](../image/pplsoft-import-project.png)
+        \[Omitted image "pplsoft-import-project.png"\] Alt text: Import the project file.
 
     4.  Click **Copy** to copy the definition types.
 
-        ![Copy the definition types.](../image/pplsoft-copy-def-types.png)
+        \[Omitted image "pplsoft-copy-def-types.png"\] Alt text: Copy the definition types.
 
     5.  Verify that the project has all the objects; Application packages, Records, Services, and Service Operations.
 
@@ -44,7 +45,7 @@ Integrate the Oracle Peoplesoft Financial and ServiceNow instances, and authenti
 
     7.  Select **Create Tables**, **Create Views**, and **Execute and build script** options.
 
-        ![Build project.](../image/pplsoft-build-project.png)
+        \[Omitted image "pplsoft-build-project.png"\] Alt text: Build project.
 
         The required tables are created in the target Oracle Peoplesoft Financial database.
 
@@ -56,7 +57,7 @@ Integrate the Oracle Peoplesoft Financial and ServiceNow instances, and authenti
 
     3.  In the Search Criteria, specify `sn_` for **Service Name** and click **Search**.
 
-        ![ServiceNow webservices.](../image/peoplesoft-webservices.png)
+        \[Omitted image "peoplesoft-webservices.png"\] Alt text: ServiceNow webservices.
 
     4.  Select the check box against the required web services and click **Next**.
 
@@ -111,13 +112,13 @@ Integrate the Oracle Peoplesoft Financial and ServiceNow instances, and authenti
 
     3.  Select **Service** option, specify the service name in **Service**, and click **Search**.
 
-        ![Permissions for the web services.](../image/peoplesoft-permission.png)
+        \[Omitted image "peoplesoft-permission.png"\] Alt text: Permissions for the web services.
 
     4.  Select the check box against the required web service and click **Set Security**.
 
     5.  In **Web Service Access**, provide access as per your requirement and click **Save**.
 
-        ![Provide the required access.](../image/peoplesoft-access.png)
+        \[Omitted image "peoplesoft-access.png"\] Alt text: Provide the required access.
 
 4.  Using SQL Developer or Data Mover in Oracle Peoplesoft Application Designer, connect to the database and run these scripts to ensure that the journal entry, SN\_ACCT\_ENTRY is built.
 
@@ -177,11 +178,11 @@ Integrate the Oracle Peoplesoft Financial and ServiceNow instances, and authenti
 
         **Note:** Don't click **Add Connection**.
 
-        ![Oracle Peoplesoft spoke connection template alias](../image/orc-peoplesft-conn-template.png)
+        \[Omitted image "orc-peoplesft-conn-template.png"\] Alt text: Oracle Peoplesoft spoke connection template alias
 
     5.  Click **Configure**.
 
-        ![Oracle Peoplesoft spoke connection template configuration](../image/orc-pplesft-con-tempt-confg.png)
+        \[Omitted image "orc-pplesft-con-tempt-confg.png"\] Alt text: Oracle Peoplesoft spoke connection template configuration
 
     6.  On the **Configure Connection**, fill in the fields.
 

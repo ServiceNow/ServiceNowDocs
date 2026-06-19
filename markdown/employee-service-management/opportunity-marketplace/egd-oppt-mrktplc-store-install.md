@@ -2,6 +2,7 @@
 title: Install Opportunity Marketplace
 description: Opportunity Marketplace \(OPM\) is a key application that works as part of the Talent Development suite of applications. OPM improves employee engagement and retention with internal mobility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-store-install.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -51,5 +52,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Install and configure Opportunity Marketplace](../concept/egd-oppt-mrktplc-inst-config.md)
+**Parent Topic:**[Install and configure Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-inst-config.md)
 

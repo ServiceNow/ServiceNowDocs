@@ -2,6 +2,7 @@
 title: Add task template to journey
 description: Use task templates to quickly add pre-configured tasks to an employee's journey, such as scheduling a meeting or taking a learning course.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-add-task-template-journey.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -18,8 +19,8 @@ Use task templates to quickly add pre-configured tasks to an employee's journey,
 ## Before you begin
 
 -   Role required: Modifier \[sn\_jny.writer\]
--   [Create a journey](jny-dsgnr-create-journey.md)
--   [Create a task template](jny-dsgnr-create-task-template.md)
+-   [Create a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-create-journey.md)
+-   [Create a task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-create-task-template.md)
 
 ## Procedure
 
@@ -36,5 +37,5 @@ Use task templates to quickly add pre-configured tasks to an employee's journey,
 6.  Select from the available task templates and click **Use template**.
 
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](../concept/jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

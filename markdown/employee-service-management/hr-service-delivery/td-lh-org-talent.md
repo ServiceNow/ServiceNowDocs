@@ -2,6 +2,7 @@
 title: Org talent page
 description: The Org talent page provides your organizational leaders with a centralized location to view the talents of each team that exists within their organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-org-talent.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

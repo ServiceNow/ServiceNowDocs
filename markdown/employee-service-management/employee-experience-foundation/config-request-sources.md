@@ -2,6 +2,7 @@
 title: Set up request sources
 description: Create different request sources for different applications to see all your requests under the Requests section on Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-request-sources.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ Role required: sn\_hr\_sp.esc\_admin
 
 3.  On the Request source form, fill in the fields, and select **Submit**.
 
-    For a description of the field values, see [Request source form](../reference/request-source-form.md).
+    For a description of the field values, see [Request source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/request-source-form.md).
 
 
 ## Result

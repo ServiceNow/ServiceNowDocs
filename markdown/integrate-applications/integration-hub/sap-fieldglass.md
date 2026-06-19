@@ -2,6 +2,7 @@
 title: SAP Fieldglass Spoke
 description: The SAP Fieldglass spoke is built by Bristlecone, Inc. Manage job postings, workers, timesheets and expenses, and approvals in SAP Fieldglass account from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sap-fieldglass.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The SAP Fieldglass spoke is built by Bristlecone, Inc. Manage job postings, work
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP Fieldglass spoke v1.2.1 is the latest version.
+SAP Fieldglass spoke v1.3.0 is the latest version.
 
 ## Supported versions
 
@@ -160,15 +161,15 @@ The SAP Fieldglass spoke adds the SAP Fieldglass Spoke application to your insta
 |Module|Description|
 |------|-----------|
 |Active Worker Downloads|Displays details of the active workers. Data is retrieved when you run the Look up Active Workers spoke action.|
-|Create Job Postings|Displays details about the job postings. Data is retrieved from the SAP Fieldglass instance after you set up the webhook. For more information, see [Set up webhook for the SAP Fieldglass spoke](../task/fieldglass-webhk.md).|
+|Create Job Postings|Displays details about the job postings. Data is retrieved from the SAP Fieldglass instance after you set up the webhook. For more information, see [Set up webhook for the SAP Fieldglass spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fieldglass-webhk.md).|
 |SAP Fieldglass Buyer Credentials|Displays the buyer credential records.|
 |SAP Fieldglass Modules|Displays details about the modules. The spoke actions internally use these modules during flow execution. You can manage the modules as per your requirement.|
 |SAP Fieldglass Supplier Credentials|Displays the supplier credential records.|
-|SAP Fieldglass Webhook Registries|Displays the webhook registries. You can create webhook registry for an event as per your requirement. For more information, see [Set up webhook for the SAP Fieldglass spoke](../task/fieldglass-webhk.md).|
+|SAP Fieldglass Webhook Registries|Displays the webhook registries. You can create webhook registry for an event as per your requirement. For more information, see [Set up webhook for the SAP Fieldglass spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fieldglass-webhk.md).|
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
-Two connection and credential aliases are available along with spoke; one record for supplier and another record for buyer. For information about setting up the spoke, see [Set up the SAP Fieldglass spoke](../task/fieldglass-setup.md).
+Two connection and credential aliases are available along with spoke; one record for supplier and another record for buyer. For information about setting up the spoke, see [Set up the SAP Fieldglass spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/fieldglass-setup.md).
 

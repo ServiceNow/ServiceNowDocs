@@ -2,6 +2,7 @@
 title: Select an Appointment window
 description: To book or reschedule an appointment for a service, use the Select Appointment pop-up window. To see what time slots are available, choose your preferred day and time, and then submit your appointment request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/appt-booking-select-appt-window.html
 release: australia
 product: Appointment Booking
 classification: appointment-booking
@@ -39,5 +40,5 @@ The time zone used for appointment is displayed in the lower corner of the windo
 **Related topics**  
 
 
-[Personalize the system time format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_PersonalizeTheSystemTimeFormat.md)
+[bundle-platadm.t_PersonalizeTheSystemTimeFormat]
 

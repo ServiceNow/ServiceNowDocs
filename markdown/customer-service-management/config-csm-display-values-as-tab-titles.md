@@ -2,7 +2,10 @@
 title: Display field values as interaction record tab titles
 description: Display field values, such as contact or consumer names, as titles on interaction record tabs in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-csm-display-values-as-tab-titles.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

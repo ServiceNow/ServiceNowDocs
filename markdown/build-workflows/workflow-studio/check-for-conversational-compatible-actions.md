@@ -2,6 +2,7 @@
 title: Check for conversational compatible actions
 description: Run a compatibility check on new or all actions to determine if they are conversational compatible. Review the inputs of an action to determine if their data types are compatible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/check-for-conversational-compatible-actions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -34,7 +35,7 @@ You can only configure conversational settings for actions that are marked as co
 
 3.  Goo to the **Conversational compatible** tab and select **Run compatibility check**.
 
-    ![Image of the conversational compatible tab on the actions page.](../images/conv-compatible-action.png)
+    \[Omitted image "conv-compatible-action.png"\] Alt text: Check for conversation compatible actions in the Actions tab.
 
     By default, the system only checks new actions that were created since the last compatibility check. If you want to check all actions, select **Complete scan**. You can use a complete scan to verify that updated actions remain conversationally compatible.
 
@@ -47,5 +48,5 @@ The system updates the list of conversational compatible actions.
 
 ## What to do next
 
-To make an action conversational, configure its conversational settings. See [Configure action conversational settings](configure-action-conversation-settings.md).
+To make an action conversational, configure its conversational settings. See [Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configure-action-conversation-settings.md).
 

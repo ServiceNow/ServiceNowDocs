@@ -2,6 +2,7 @@
 title: Import a Microsoft Teams chat as a guest user
 description: Import your Microsoft Teams chat with an external organization user as a guest user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/import-chat-as-guest-user.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: agent
 
 ## About this task
 
-This procedure is accomplished through the classic ServiceNow® user interface. For information about the same procedure accomplished through the workspace, see [Import messages from Agent Workspace](import-messages-agent-workspace.md).
+This procedure is accomplished through the classic ServiceNow® user interface. For information about the same procedure accomplished through the workspace, see [Import messages from Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/import-messages-agent-workspace.md).
 
 When a guest imports a chat, attachments are not uploaded to the record. Attachments appear as a link to the file on the Microsoft OneDrive application.
 
@@ -48,5 +49,5 @@ When a guest imports a chat, attachments are not uploaded to the record. Attachm
 8.  Select **Import**.
 
 
-**Parent Topic:**[Request-based chat - Start and import chat as guest user from classic view](../concept/start-import-req-based-chat-as-guest.md)
+**Parent Topic:**[Request-based chat - Start and import chat as guest user from classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/start-import-req-based-chat-as-guest.md)
 

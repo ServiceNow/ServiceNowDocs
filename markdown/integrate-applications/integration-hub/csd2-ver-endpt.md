@@ -2,6 +2,7 @@
 title: Verify the Microsoft Endpoint Configuration Manager spoke records
 description: Verify that the spoke is integrated with CSD 2.0 after setting up and configuring the Microsoft Endpoint Configuration Manager spoke and create server instance record to use Microsoft Endpoint Configuration Manager spoke with CSD 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-ver-endpt.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Verify that the spoke is integrated with CSD 2.0 after setting up and configurin
 
 ## Before you begin
 
--   Activate the Microsoft Endpoint Configuration Manager spoke and set up the spoke. For more information about the spoke setup, see [Set up the Microsoft Endpoint Configuration Manager spoke](../concept/csd2-conf-sccm.md#).
+-   Activate the Microsoft Endpoint Configuration Manager spoke and set up the spoke. For more information about the spoke setup, see [Set up the Microsoft Endpoint Configuration Manager spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-conf-sccm.md).
 -   Activate the CSD 2.0 application.
 -   Role required: admin
 
@@ -45,10 +46,10 @@ Verify that the spoke is integrated with CSD 2.0 after setting up and configurin
 
     3.  Verify that the flows are configured correctly in the record.
 
-        ![Verify that the flows are configured.](../image/csd2-prvdr-rec.png)
+        \[Omitted image "csd2-prvdr-rec.png"\] Alt text: Verify that the flows are configured.
 
         **Note:** You can configure the default flows as per your requirement.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](../concept/csd2.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2.md)
 

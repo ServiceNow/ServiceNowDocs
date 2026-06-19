@@ -1,19 +1,21 @@
 ---
 title: Configure Invoice case summarization
-description: Enable fulfiller to use the generative AI based invoice case summarization to quickly analyze the case and take necessary action.
+description: Enable Accounts Payable fulfillers to use generative AI case summarization to quickly analyze invoice cases and determine next steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-invoice-case-summarization.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, generative AI, AP case]
 breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure Invoice case summarization
 
-Enable fulfiller to use the generative AI based invoice case summarization to quickly analyze the case and take necessary action.
+Enable Accounts Payable fulfillers to use generative AI case summarization to quickly analyze invoice cases and determine next steps.
 
 ## Before you begin
 
@@ -36,7 +38,7 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 4.  For Invoice case summarization skill:
 
-    ![Invoice case summarization in Now Assist](../image/invoice-case-na.png)
+    \[Omitted image "invoice-case-na.png"\] Alt text: Invoice case summarization in Now Assist
 
     1.  Select **General Details**, review the details about the skill, and then select **Save and continue** to go to the next step.
 
@@ -50,15 +52,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d195009e228">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d181928e246">
 
 Option
 
-</th><th align="left" id="d195009e231">
+</th><th align="left" id="d181928e249">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d195009e237">
+</th></tr></thead><tbody><tr><td id="d181928e255">
 
 **Skill is always available**
 
@@ -66,7 +68,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d195009e246">
+</td></tr><tr><td id="d181928e264">
 
 **Customize skill availability**
 
@@ -79,15 +81,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d195009e282">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d181928e300">
 
 Option
 
-</th><th align="left" id="d195009e285">
+</th><th align="left" id="d181928e303">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d195009e291">
+</th></tr></thead><tbody><tr><td id="d181928e309">
 
 **In-product desktop**
 
@@ -95,13 +97,13 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d195009e302">
+</td></tr><tr><td id="d181928e320">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see .**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
 </td></tr></tbody>
 </table>5.  Select **Save and continue** to go to the next step.

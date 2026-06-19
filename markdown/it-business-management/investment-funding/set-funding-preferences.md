@@ -2,6 +2,7 @@
 title: Set Investment Funding preferences
 description: As an administrator, you can set global defaults for Investment Funding preferences, which affect the funding behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/set-funding-preferences.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -59,5 +60,5 @@ Role required: sn\_invst\_pln\_investment\_admin
 10. Click **Confirm**.
 
 
-**Parent Topic:**[Investment Funding administration](../concept/investment-funding-administration.md)
+**Parent Topic:**[Investment Funding administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-administration.md)
 

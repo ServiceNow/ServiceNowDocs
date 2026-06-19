@@ -2,6 +2,7 @@
 title: Manually normalize a SAM Foundation software discovery model
 description: You can edit a software discovery model to manually normalize discovered software on the Software Discovery Models form so that it can be reconciled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_EditASoftwareDiscModelSAMF.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -34,5 +35,5 @@ If the information automatically added to the software discovery model is incomp
     The normalization status is set to Manually Normalized.
 
 
-**Parent Topic:**[Configuring the classic Software Asset Management Foundation plugin](../concept/samf-plugin-configuration.md)
+**Parent Topic:**[Configuring the classic Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
 

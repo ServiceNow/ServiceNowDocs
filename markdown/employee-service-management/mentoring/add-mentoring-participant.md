@@ -2,6 +2,7 @@
 title: Add a new Mentoring participant
 description: As a manager, add members from your team either as mentors or mentees to participate in mentoring programs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/add-mentoring-participant.html
 release: australia
 product: Mentoring
 classification: mentoring

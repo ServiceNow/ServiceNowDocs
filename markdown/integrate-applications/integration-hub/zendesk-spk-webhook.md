@@ -2,6 +2,7 @@
 title: Set up a webhook
 description: Configure a webhook to subscribe to Zendesk with a ServiceNow callback URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/zendesk-spk-webhook.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -83,7 +84,7 @@ Conditions
 
 </td><td>
 
-Trigger conditions.Under **Meet ANY of the following conditions**, provide these conditions:![Trigger conditions.](../image/zendesk-trigger-condition.png)
+Trigger conditions.Under **Meet ANY of the following conditions**, provide these conditions:\[Omitted image "zendesk-trigger-condition.png"\] Alt text: Trigger conditions.
 
 </td></tr><tr><td>
 

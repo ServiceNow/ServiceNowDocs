@@ -2,6 +2,7 @@
 title: Add a tool
 description: Add and configure tools in the Now Assist Skill Kit tool canvas to gather data and context before a prompt runs. Tools can be chained sequentially, run in parallel, or branched conditionally using decision nodes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/add-a-tool.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -58,11 +59,11 @@ Two types of nodes are available:
         |Tool type|Description|
         |---------|-----------|
         |Flow Action|Runs a flow action from Workflow Studio as a tool.|
-        |Retriever|Retrieves records or data from the platform to use as context in the prompt. See [Add a retriever](../task/add-retriever.md).|
+        |Retriever|Retrieves records or data from the platform to use as context in the prompt. See [Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-retriever.md).|
         |Script|Runs a custom server-side script as a tool.|
         |Skill|Calls another published skill as a tool, enabling skill chaining.|
         |Sub Flow|Runs a subflow from Workflow Studio as a tool.|
-        |Web Search|Searches the web and returns results to use as context in the prompt. See [Add a web search tool](../task/add-web-search.md).|
+        |Web Search|Searches the web and returns results to use as context in the prompt. See [Add a web search tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/add-web-search.md).|
         |Predictive Intelligence|Uses a Predictive Intelligence solution to classify or predict values as part of the skill flow. See .|
         |Document Intelligence|Extracts structured data from documents as part of the skill flow. See .|
 
@@ -109,7 +110,7 @@ Two types of nodes are available:
 
 ## What to do next
 
-After adding and testing your tools, configure the prompt to reference tool outputs using the **+ Inputs and tools** button in the prompt editor. To learn more, see [Create a prompt](../task/create-prompt-template.md).
+After adding and testing your tools, configure the prompt to reference tool outputs using the **+ Inputs and tools** button in the prompt editor. To learn more, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
 
-**Parent Topic:**[Create a prompt](../task/create-prompt-template.md)
+**Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

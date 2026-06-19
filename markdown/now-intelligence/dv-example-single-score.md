@@ -2,6 +2,7 @@
 title: Single score data visualization example
 description: Use a single score visualization when you want to show a single value or metric, such as overall revenue or number of open incidents. The basic score visualizes a single value with a descriptive heading and date/timestamp.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-single-score.html
 release: australia
 topic_type: task
 last_updated: "2026-03-25"
@@ -15,7 +16,7 @@ Use a single score visualization when you want to show a single value or metric,
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -25,7 +26,7 @@ In this example, you create a single score visualization that shows the number o
 
 ## Procedure
 
-1.  Follow the first steps to [Create a single score data visualization](../../reporting/task/create-dv-sing-sc-ac.md):
+1.  Follow the first steps to [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -49,7 +50,7 @@ In this example, you create a single score visualization that shows the number o
 
     A single score data visualization with the current value of the selected data appears in the Visualization Designer.
 
-    ![A single score visualization based on the Incident table and the default metric of Count with no further configuration](../../reporting/image/dv-ex-single-score-1.png)
+    \[Omitted image "dv-ex-single-score-1.png"\] Alt text: A single score visualization based on the Incident table and the default metric of Count with no further configuration
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -105,7 +106,7 @@ In this example, you create a single score visualization that shows the number o
 
     3.  Select the color type `Single color`.
 
-        ![Single score visualization showing selection of score size, score icon, icon style, and color<](../../reporting/image/dv-ex-single-score-show-display.png)
+        \[Omitted image "dv-ex-single-score-show-display.png"\] Alt text: Single score visualization showing selection of score size, score icon, icon style, and color&lt;
 
 8.  Configure a color rule for the score.
 
@@ -121,7 +122,7 @@ In this example, you create a single score visualization that shows the number o
 
         Retain the order 100.
 
-        ![Color rule options with lower than operator selected, value set to 6, and color options set to Positive Green](../../reporting/image/dv-ex-single-score-color-rule-1.png)
+        \[Omitted image "dv-ex-single-score-color-rule-1.png"\] Alt text: Color rule options with lower than operator selected, value set to 6, and color options set to Positive Green
 
     4.  To indicate a value that requires more attention, create a second rule with the **Operator** `between`, the values `5` and `25`, the color and icon color `Warning Orange`, and the order `50`.
 
@@ -129,7 +130,7 @@ In this example, you create a single score visualization that shows the number o
 
     You've created three rules to show whether the single score value is in line with what you want to see.
 
-    ![Single score in red with XL size, update time, a color that reflects defined coloring rules.](../../reporting/image/dv-ex-single-score-complete.png)
+    \[Omitted image "dv-ex-single-score-complete.png"\] Alt text: Single score in red with XL size, update time, a color that reflects defined coloring rules.
 
 9.  Select **Save**.
 
@@ -138,5 +139,5 @@ In this example, you create a single score visualization that shows the number o
 
 You have created a single score visualization based on a single metric, open incidents. You have also configured user options regarding filters and drilldowns, and configured a color, an icon, and coloring rules.
 
-**Parent Topic:**[Create a single score data visualization](../../reporting/task/create-dv-sing-sc-ac.md)
+**Parent Topic:**[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-sing-sc-ac.md)
 

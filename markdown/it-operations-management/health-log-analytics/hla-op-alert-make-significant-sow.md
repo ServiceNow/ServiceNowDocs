@@ -2,6 +2,7 @@
 title: Mark an alert as significant in Health Log Analytics
 description: Make an alert more likely to be included in a Log Analytics group when the associated metric behaves anomalously by labeling the alert as meaningful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-alert-make-significant-sow.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -31,8 +32,8 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 3.  Restore the significant alert.
 
-    If you no longer want the significant alert to be treated specially, you can restore normal significance to the alert metric. For more information, see [Restore normal importance to an alert metric in Health Log Analytics](hla-op-alert-restore-user-defined-sow.md).
+    If you no longer want the significant alert to be treated specially, you can restore normal significance to the alert metric. For more information, see [Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined-sow.md).
 
 
-**Parent Topic:**[Assign higher or lower significance to an alert in Health Log Analytics](../concept/hla-op-alert-significance.md)
+**Parent Topic:**[Assign higher or lower significance to an alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-significance.md)
 

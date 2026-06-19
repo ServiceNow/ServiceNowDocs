@@ -2,6 +2,7 @@
 title: Approval rule considerations
 description: Factors like currency, which includes foreign exchange, reference, and transactional, decide the approval rules to be triggered. Some of the other factors are purchasing limit, line amount, and received lines, among others.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-considerations.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,5 +28,5 @@ If an approval rule has an approval trigger defined using the total line amount,
 
 For a fully received line, the line amount is taken into consideration to determine the approval rule that needs to be triggered.
 
-**Parent Topic:**[Create an approval rule](../task/create-approval-rule.md)
+**Parent Topic:**[Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.md)
 

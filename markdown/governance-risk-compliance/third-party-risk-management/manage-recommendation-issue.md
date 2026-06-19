@@ -2,6 +2,7 @@
 title: Create or dismiss issues using recommendations
 description: Accept recommendations to create issues based on historical assessment data, or dismiss recommendations that aren’t relevant. Accepting or dismissing issue recommendations helps reviewers efficiently act on AI‑predicted findings while retaining control over which issues are created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/manage-recommendation-issue.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -18,7 +19,7 @@ Accept recommendations to create issues based on historical assessment data, or 
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
@@ -26,7 +27,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Questionnaire requests** &gt; **All**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Questionnaire requests** &gt; **All**.
 
 2.  Select an **Assessment instance** in the Responses received, Generating responses, or Completed state that you want to view generated issues for.
 
@@ -52,15 +53,15 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 5.  Create issues based on these recommendations or dismiss the recommendations.
 
-<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d42746e243">
+<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d44345e242">
 
 Option
 
-</th><th align="left" id="d42746e246">
+</th><th align="left" id="d44345e245">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42746e252">
+</th></tr></thead><tbody><tr><td id="d44345e251">
 
 **Create issues or dismiss issues from the Predicted issues pane**
 
@@ -70,7 +71,7 @@ Description
 2.  Select **Create issue** or **Dismiss**.
 
 
-</td></tr><tr><td id="d42746e276">
+</td></tr><tr><td id="d44345e275">
 
 **Create issues or dismiss issues from the Predicted issues list**
 
@@ -90,5 +91,5 @@ If you accepted any recommendations, confirm the creation of your issues by navi
 
 **Note:** Dismissed issues and created issues reappear if when you select **Generate predicted issues** again.
 
-**Parent Topic:**[Generate issue recommendations for TPRM](create-recommendation-tprm-issue.md)
+**Parent Topic:**[Generate issue recommendations for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/create-recommendation-tprm-issue.md)
 

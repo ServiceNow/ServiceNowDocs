@@ -2,6 +2,7 @@
 title: Deactivate a control objective using the Compliance Workspace
 description: Using the Compliance Workspace, you can deactivate control objectives that are no longer relevant to their citation or parent control objective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/deactivate-ctrl-objective-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

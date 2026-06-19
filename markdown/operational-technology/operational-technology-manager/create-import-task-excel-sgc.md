@@ -2,6 +2,7 @@
 title: Create an import task
 description: Create an import task for the Service Graph Connector for Microsoft Excel to handle the import of Operational Technology \(OT\) device data from your Microsoft Excel spreadsheet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/create-import-task-excel-sgc.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -27,7 +28,7 @@ Create an import task in the Industrial Workspace
 
 ## Procedure
 
-1.  In the Industrial Workspace, select the **List** \(![List icon](../../../common/image/icon-list.png)\) icon.
+1.  In the Industrial Workspace, select the **List** \(\[Omitted image "icon-list.png"\] Alt text: List icon\) icon.
 
 2.  Under the OT Excel SGC - Import Task module, select one of the available lists.
 
@@ -39,15 +40,15 @@ Create an import task in the Industrial Workspace
 
 6.  Refresh the form to access the Microsoft Excel template.
 
-7.  From the **Attachments** panel, download the Microsoft Excel template by selecting the **Actions** ![](../../mftg-manufacturing-ot-knowledge/image/more-actions.png) icon next to the **sg\_ot\_excel\_staging.xlsx** template and clicking **Download**.
+7.  From the **Attachments** panel, download the Microsoft Excel template by selecting the **Actions** \[Omitted image "more-actions.png"\] Alt text: icon next to the **sg\_ot\_excel\_staging.xlsx** template and clicking **Download**.
 
 8.  Save the template locally on your computer.
 
 9.  Fill in the template as needed with your OT device data.
 
-    For more information about how to fill out the spreadsheet, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
+    For more information about how to fill out the spreadsheet, see [Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md).
 
-10. From the **Attachments** panel, delete the original template by selecting the **Actions** ![](../../mftg-manufacturing-ot-knowledge/image/more-actions-vertical.png) icon next to the **sg\_ot\_excel\_staging.xlsx** and clicking **Delete**.
+10. From the **Attachments** panel, delete the original template by selecting the **Actions** \[Omitted image "more-actions-vertical.png"\] Alt text: icon next to the **sg\_ot\_excel\_staging.xlsx** and clicking **Delete**.
 
 11. Upload your completed Microsoft Excel spreadsheet.
 
@@ -72,10 +73,10 @@ After the import process is complete and the Microsoft Excel spreadsheet has bee
 
 ## What to do next
 
-After the import process is complete, you can validate the imported staging records. For more information, see [Validate imported staging records](run-validations.md).
+After the import process is complete, you can validate the imported staging records. For more information, see [Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/run-validations.md).
 
--   **[Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md)**  
+-   **[Prepare your Pre-import OT Worksheet Entry Review tool for Service Graph Connector import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/preparing-your-pre-import-ot-worksheet-entry-review-tool-for-sgc-import.md)**  
 Prepare your spreadsheet by positioning your existing data in the correct columns is crucial to the success of your upload.
 
-**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](../concept/use-excel-sgc-through-import-tasks.md)
+**Parent Topic:**[Using the Service Graph Connector for Microsoft Excel through import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/use-excel-sgc-through-import-tasks.md)
 

@@ -2,11 +2,14 @@
 title: Edit a role for an Impact user in the Impact Delivery Instance
 description: Update a role for an Impact user role after the initial assignment in the Impact Delivery Instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/edit-impact-user.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage Impact Delivery Instance users, Configure the Impact Delivery Instance, Configuring Impact, Impact]
+breadcrumb: [Manage Impact Delivery Instance users, Configure the Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Edit a role for an Impact user in the Impact Delivery Instance
@@ -31,12 +34,12 @@ Role required: Impact admin
 
 6.  Edit the user role and access accordingly.
 
-    **Note:** Refer to [Roles installed with Impact](../reference/impact-roles.md) for details on which role to assign to the user for the appropriate access level in Impact.
+    **Note:** Refer to [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-roles.md) for details on which role to assign to the user for the appropriate access level in Impact.
 
 7.  Select **Confirm**.
 
     -   A confirmation message displays then you are returned to the company users page.
     -   An email will be sent to the user with information on how to log in to Impact.
 
-**Parent Topic:**[Manage Impact Delivery Instance users](ide-user-management.md)
+**Parent Topic:**[Manage Impact Delivery Instance users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/ide-user-management.md)
 

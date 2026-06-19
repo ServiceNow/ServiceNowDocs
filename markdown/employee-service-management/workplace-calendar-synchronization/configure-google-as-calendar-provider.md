@@ -2,13 +2,14 @@
 title: Configure Google as calendar provider
 description: Configure Google as calendar provider to start synchronizing reservation. Link it to the connection and credential alias and configure rooms to start synchronizing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/configure-google-as-calendar-provider.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-23"
 reading_time_minutes: 3
-breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure Google as calendar provider
@@ -20,10 +21,10 @@ Configure Google as calendar provider to start synchronizing reservation. Link i
 Ensure the following:
 
 -   You have created the connection and credential alias. If not, do one of the following:
-    -   Configure the default connection and credential alias. Refer to [Create a Connection and credential record for Google](create-connection-configuration-with-google.md).
+    -   Configure the default connection and credential alias. Refer to [Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md).
     -   Create your own connection and credential alias if you do not want to use the default alias. Refer to .
 -   Application scope is set to **Google Calendar Spoke**. If it is not set, complete the following:
-    1.  Select the Application scope icon \(![Application scope icon.](../image/application-scope-globe-icon.png)\) your Employee Center homepage.
+    1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon.\) your Employee Center homepage.
     2.  In the drop- down, select **Application scope**.
     3.  In the filter navigator, search and select **Google Calendar Spoke**.
     4.  Refresh the page.
@@ -166,5 +167,5 @@ Google Calendar is configured as calendar provider.
     3.  On the Location form, select **Sync Location**.
     Perform Step 2 and Step 3 on all the Reservable sync config records.
 
--   [Add multiple Reservable Sync Configurations](add-reservable-sync-config.md)
+-   [Add multiple Reservable Sync Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.md)
 

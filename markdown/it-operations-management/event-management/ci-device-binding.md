@@ -2,11 +2,12 @@
 title: Bind alerts to a specific device
 description: Bind each alert directly to the originating device to establish a clear source of impact. This ensures accurate troubleshooting, reduces noise from unrelated alerts, and helps teams focus on resolving the right issue faster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ci-device-binding.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Bind host CIs using CI field matching, Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -31,7 +32,7 @@ The following example procedure shows the alert binding configuration for a swit
 
 2.  Select **New**.
 
-    ![List of event rules](../image/ci-device-map-event-rule.png)
+    \[Omitted image "ci-device-map-event-rule.png"\] Alt text: List of event rules
 
 3.  Select the **Binding** tab.
 
@@ -43,19 +44,19 @@ The following example procedure shows the alert binding configuration for a swit
 
     The **CI type** determines the specific CMDB table where the system searches for the matching CI.
 
-    ![Binding and CI type](../image/ci-device-map-binding-type.png)
+    \[Omitted image "ci-device-map-binding-type.png"\] Alt text: Binding and CI type
 
 7.  Navigate to **All** and search `em_binding_device_map.list`.
 
     The Binding Device Maps page opens. Here the column values **From ci type** is mapped to **To ci type** using the **Mapped column**. For example,**cmdb\_ci\_ip\_switch** is mapped to the Switchport \[dscy\_switchport\] table using the reference field **cmdb\_ci**.
 
-    ![Binding device maps](../image/ci-device-binding-map.png)
+    \[Omitted image "ci-device-binding-map.png"\] Alt text: Binding device maps
 
 8.  Navigate to **All** and search `switches` and select **Configuration** &gt; **Network** &gt; **Switches**.
 
     The IP Switches page opens.
 
-    ![IP switches page](../image/ci-device-map-ip-switches.png)
+    \[Omitted image "ci-device-map-ip-switches.png"\] Alt text: IP switches page
 
 9.  Select **IP-Switch-1** to view the details page.
 
@@ -65,10 +66,10 @@ The following example procedure shows the alert binding configuration for a swit
 
 12. Select the event with **Node** value as **IP-Switch-1**.
 
-    ![Additional information field of the event](../image/ci-device-map-addi-info.png)
+    \[Omitted image "ci-device-map-addi-info.png"\] Alt text: Additional information field of the event
 
     In the following image, you can see the processing notes indicating that the binding has occurred between the alert and the matching device.
 
-    ![Processing Notes of the event](../image/ci-device-map-processing-notes.png)
+    \[Omitted image "ci-device-map-processing-notes.png"\] Alt text: Processing Notes of the event
 
 

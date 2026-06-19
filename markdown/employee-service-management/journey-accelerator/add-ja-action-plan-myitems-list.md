@@ -2,6 +2,7 @@
 title: Add a Journey Accelerator action plan link to My Active Items list
 description: Add a menu item for Journey Accelerator action plans to the header menus in the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -17,7 +18,7 @@ Add a menu item for Journey Accelerator action plans to the header menus in the 
 
 ## Before you begin
 
-The latest Employee Center app installed on your instance. See, [Install Employee Center](../../employee-center/task/activate-ec.md).
+The latest Employee Center app installed on your instance. See, [Install Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-ec.md).
 
 Role required: admin
 
@@ -38,5 +39,5 @@ Role required: admin
 
 ## What to do next
 
-Go to **Employee Center** &gt; **Activity Configuration**, and create an Employee Center activity configuration for the activity you created. See, [Create an Employee Center activity configuration](create-ja-activity-config.md).
+Go to **Employee Center** &gt; **Activity Configuration**, and create an Employee Center activity configuration for the activity you created. See, [Create an Employee Center activity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/create-ja-activity-config.md).
 

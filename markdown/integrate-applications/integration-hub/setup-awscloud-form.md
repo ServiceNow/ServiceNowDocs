@@ -2,6 +2,7 @@
 title: Set up the AWS CloudFormation spoke
 description: Integrate the ServiceNow instance and AWS CloudFormation using AWS credential to authenticate ServiceNow requests.Create Credential record for your AWS CloudFormation account. The AWS CloudFormation spoke connection and credential alias uses this credential to perform actions in AWS CloudFormation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-awscloud-form.html
 release: australia
 product: Integration Hub
 classification: integration-hub

@@ -1,17 +1,18 @@
 ---
-title: Handling API notifications
+title: Exploring API Notification Management
 description: Use the Telecommunications API notification to inform third-party systems about the incidents or cases that are created in a reactive or proactive way in the ServiceNow instance. The customer will receive notifications regarding updates on the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Product Support for Technology]
+breadcrumb: [API Notification Management, Product Support for Technology]
 ---
 
-# Handling API notifications
+# Exploring API Notification Management
 
 Use the Telecommunications API notification to inform third-party systems about the incidents or cases that are created in a reactive or proactive way in the ServiceNow instance. The customer will receive notifications regarding updates on the incident.
 
@@ -23,13 +24,13 @@ Trouble ticket in the TMF ecosystem is an incident that tracks and resolves cust
 
 The following diagram shows the components in the framework for the trouble ticket notification.
 
-![Trouble ticket notification data model](../image/trouble-ticket-datamodel.png "Trouble ticket notification data model")
+\[Omitted image "trouble-ticket-datamodel.png"\] Alt text: Trouble ticket notification data model
 
 The trouble ticket notification uses a generic framework to send the outbound notifications to the external system. This framework supports two use cases:
 
 1.  Publish messages to Hermes Kafka using the Hermes messaging service. The cloud customers who use the Hermes Kafka can use this architecture to receive the notification.
 
-    To learn more, see [Producing outbound API notifications using Hermes](hermes-stream-connect-kafka-workflow.md).
+    To learn more, see [Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md).
 
-2.  Publish messages to open message bus. This use case is message-bus agnostic and therefore supports publishing the notification to any open message bus. Both cloud and on-premise customers can use this use case. To learn more, see [Producing outbound trouble ticket notifications using the open message bus](trouble-ticket-workflow-using-pub-sub-model.md).
+2.  Publish messages to open message bus. This use case is message-bus agnostic and therefore supports publishing the notification to any open message bus. Both cloud and on-premise customers can use this use case. To learn more, see [Outbound trouble ticket notifications via open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.md).
 

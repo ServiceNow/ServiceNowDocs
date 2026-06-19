@@ -2,6 +2,7 @@
 title: Schedule and run an audit
 description: The system performs audits automatically from the schedule you configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_AuditScheduling.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

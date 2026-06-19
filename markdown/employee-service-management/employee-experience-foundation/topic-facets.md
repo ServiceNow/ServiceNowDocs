@@ -2,6 +2,7 @@
 title: Improved search functionality
 description: The improved global search provides narrowed down content browsing on the global search for quicker and more specific content browsing experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/topic-facets.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ The improved global search by topic facets provides filtered data based on its a
 -   The topic facets filter content by hierarchy. Select a sub-topic to get specific hierarchical data.
 -   The base system facet levels available are two. You can add up to 10 levels.
 
-    For more information on adding facet levels, see [Configure search by the topic facets](../task/config-facets.md).
+    For more information on adding facet levels, see [Configure search by the topic facets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-facets.md).
 
 -   The two sort options available on the search are **Most relevant** and **Most recent**.
     -   Most relevant is the base system sorting option.

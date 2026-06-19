@@ -2,6 +2,7 @@
 title: Manage Conversational Integration with Workplace from Facebook
 description: Manage your Conversational Integration with Workplace from Facebook application, its branding, and customize the bot-specific messages in your ServiceNow instance after integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/manage-workplace-integ.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -31,14 +32,14 @@ Roles required:
 
 3.  On the Channels and integrations screen, in the Workplace tile, select **Manage**.
 
-    ![](../images/workplace-snow-integ.png)
+    \[Omitted image "workplace-snow-integ.png"\] Alt text:
 
     When you select **Manage**, you are redirected to the Manage Workplace channel page where you can manage the bots.
 
-4.  Select the Manage Bot icon and select **Manage Virtual Agent**.![The Manage Virtual Agent option displays on the Manage bot menu for the Workplace channel.](../images/manage-wrkplc-snow-bot.png)
+4.  Select the Manage Bot icon and select **Manage Virtual Agent**.\[Omitted image "manage-wrkplc-snow-bot.png"\] Alt text: The Manage Virtual Agent option displays on the Manage bot menu for the Workplace channel.
 
-    You are redirected to the Bot Messages page where you can create and edit a bot message. For more information, see [Create bot messages](create-bot-messages.md#).
+    You are redirected to the Bot Messages page where you can create and edit a bot message. For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-bot-messages.md).
 
 
-**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](../concept/configuring-ci-workplace-fb.md)
+**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-ci-workplace-fb.md)
 

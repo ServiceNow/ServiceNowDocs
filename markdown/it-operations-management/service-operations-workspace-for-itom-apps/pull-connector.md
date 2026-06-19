@@ -2,13 +2,14 @@
 title: Configure an event pull connector
 description: Configure event pull connectors that require a script, connector definition, and connector instance to pull events from external devices. These connectors automate the data retrieval process, ensuring the seamless integration of external events into your system for efficient monitoring and management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/pull-connector.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure an event pull connector
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -33,19 +34,19 @@ Role required: evt\_mgmt\_admin
 
     Only pull connector tiles are displayed.
 
-    ![Filtering with Pull connectors](../image/pull-connectors-page.png "Pull connectors")
+    \[Omitted image "pull-connectors-page.png"\] Alt text: Filtering with Pull connectors
 
 5.  Select a pull connector tile.
 
     If a pop-up menu opens, select the data to track from that connector and select **Continue**.
 
-    ![Pull connectors details page](../image/pull-connectors-details.png "Pull connectors details page")
+    \[Omitted image "pull-connectors-details.png"\] Alt text: Pull connectors details page
 
 6.  In the **Details** tab, in the **Connector name** field, enter a unique name for the connector type.
 
 7.  In the **Tags** field, enter tags to help locate and identify connectors of this type on the Express List.
 
-    To add additional tags, select the plus icon \(![Plus sign to add more tags.](../image/icon-plus-sign.png)\) next to the **Tags** field. The Add tags window opens.
+    To add additional tags, select the plus icon \(\[Omitted image "icon-plus-sign.png"\] Alt text: Plus sign to add more tags.\) next to the **Tags** field. The Add tags window opens.
 
     1.  In the **Key** field, enter a tag key.
     2.  In the **Value** field, enter a tag value.
@@ -156,5 +157,5 @@ Sets the duration for the initial synchronization process when retrieving histor
 
 ## What to do next
 
-To confirm the successful configuration of the pull connector and the flow of events into the system, select the **Related events** tab. If the setup is successful, proceed to **Add automation** to establish an alert automation. For details on **Related events** tab, see [Review integration and configuration health](review-integration-config-health.md) and for information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](../concept/sow-itom-alert-automation.md).
+To confirm the successful configuration of the pull connector and the flow of events into the system, select the **Related events** tab. If the setup is successful, proceed to **Add automation** to establish an alert automation. For details on **Related events** tab, see [Review integration and configuration health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/review-integration-config-health.md) and for information on alert automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.md).
 

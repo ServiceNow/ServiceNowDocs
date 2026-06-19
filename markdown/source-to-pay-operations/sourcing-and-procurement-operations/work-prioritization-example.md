@@ -2,6 +2,7 @@
 title: Work prioritization example
 description: This example shows how an organization might configure work prioritization rules for all three record types, and what happens when records are evaluated against those rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/work-prioritization-example.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -80,5 +81,5 @@ After the rules are configured in the table, the system re-evaluates the case th
 
 This means work prioritization does not require all rules to be in place before the feature is active. Records created before rules are configured accumulate at Planning priority and are re-evaluated naturally as they are updated.
 
-**Parent Topic:**[Work prioritization](work-prioritization.md)
+**Parent Topic:**[Work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/work-prioritization.md)
 

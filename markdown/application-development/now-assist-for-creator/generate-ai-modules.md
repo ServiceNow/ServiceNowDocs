@@ -2,13 +2,14 @@
 title: Generate modules using Now Assist
 description: Use Now Assist to generate modules for your application by entering natural language prompts instead of manually configuring them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/generate-ai-modules.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
-breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Generate modules using Now Assist
@@ -17,7 +18,7 @@ Use Now Assist to generate modules for your application by entering natural lang
 
 ## Before you begin
 
-Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](install-ui-generation.md) and [Grant UI Builder admin role](grant-ui-builder-admin-role.md).
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/install-ui-generation.md) and [Grant UI Builder admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/grant-ui-builder-admin-role.md).
 
 Role required: admin
 
@@ -29,7 +30,7 @@ Use Now Assist to generate modules by providing prompts in natural language. The
 
 1.  From the application navigator, select **All**, and then select **Create menu**.
 
-    ![image.ui_gen_module_gen_create_menu]
+    \[Omitted image "ui\_gen\_module\_gen\_create\_menu.png"\] Alt text: The Create menu button \(+\) highlighted in the UI Builder navigation panel.
 
     The module creation page opens.
 
@@ -114,5 +115,5 @@ Module generation issues
 4.  \(Optional\) If needed, add, or rearrange modules.
 5.  Select **Done** to finish.
 
-**Parent Topic:**[Using UI generation](../concept/using-ui-generation.md)
+**Parent Topic:**[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-ui-generation.md)
 

@@ -2,6 +2,7 @@
 title: Policies for Cloud Provisioning
 description: A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-policy.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -24,7 +25,7 @@ A cloud policy can override a property value set by a user, create an approval t
 4.  While the approver \(the manager\) reviews the approval request, the user sees a "waiting for approval" status message on the Cloud User Portal.
 5.  After the manager approves, the blueprint is provisioned.
 
-![User waiting for approval](../image/user-awaiting-approval.png "User waiting for approval")
+\[Omitted image "user-awaiting-approval.png"\] Alt text: User waiting for approval
 
 **Note:** You cannot invoke flows while adding a resource operation step. This is a known limitation.
 
@@ -36,7 +37,7 @@ Triggers are events that set the policy engine in motion. For example, the on Ca
 -   A resource reaches the end of its lease \(the on Lease End trigger fires\)
 -   A user requests a particular stack \(the on Blueprint provision trigger fires\)
 
-You typically refer to a policy by the name of the trigger for the policy. For example, you might refer to a policy that is triggered by the on Lease end trigger as a "Lease end policy." For more detail on the types of trigger that you can implement, see [Triggers for cloud policies](../reference/policy-triggers-cloud-mgt.md).
+You typically refer to a policy by the name of the trigger for the policy. For example, you might refer to a policy that is triggered by the on Lease end trigger as a "Lease end policy." For more detail on the types of trigger that you can implement, see [Triggers for cloud policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/policy-triggers-cloud-mgt.md).
 
 ## How policies work
 
@@ -89,18 +90,18 @@ A policy rule is a collection of conditions and actions. ​If all conditions ev
 -   Use policy action scripts to get, update, or set values in cloud requests.
 -   Your instance tracks tagged resources for billing and reporting. Policy action scripts can add and modify resource tags.
 
--   **[Cloud policy example](../task/policy-walkthrough.md)**  
+-   **[Cloud policy example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/policy-walkthrough.md)**  
 A base system cloud policy, Lease End ServiceNow, uses the on Lease end trigger that fires when a virtual resource is near the lease end date. If the conditions in the policy rule are met, the policy engine sends a notification to the owner of the resource and performs operations on the resource.
--   **[Triggers for cloud policies](../reference/policy-triggers-cloud-mgt.md)**  
+-   **[Triggers for cloud policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/policy-triggers-cloud-mgt.md)**  
 Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule and performs the actions specified in the rule, if the conditions are met.
--   **[Create a cloud policy](../task/create-cloud-policy.md)**  
+-   **[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)**  
 A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
--   **[Create a cloud approval policy](../task/create-cloud-approval-policy.md)**  
+-   **[Create a cloud approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-approval-policy.md)**  
 A cloud approval policy specifies the users who must approve a specified cloud activity before the activity can proceed. Approvers can include the manager of the user making a request, a specified user or group, or users with a specified role. You can specify multiple approvers. Approvals occur in the order that you specify.
--   **[Create a cloud policy group](../task/create-cloud-policy-group.md)**  
+-   **[Create a cloud policy group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-policy-group.md)**  
 A cloud policy group is a container for related policies. Consider grouping policies that are often used together or should be considered together. Grouping policies can help you to apply policies consistently across your organization.
--   **[Export or import a cloud policy](../task/export-import-policy.md)**  
+-   **[Export or import a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/export-import-policy.md)**  
 To back up, move, or restore a policy, you can export and import the policy as an update set. The update set includes rules, conditions, actions, scripts, and script categories.
 
-**Parent Topic:**[Cloud Admin Portal](cloud-admin-portal.md)
+**Parent Topic:**[Cloud Admin Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-admin-portal.md)
 

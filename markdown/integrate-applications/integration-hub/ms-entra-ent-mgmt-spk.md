@@ -2,6 +2,7 @@
 title: Microsoft Entra Entitlement Management Spoke
 description: Retrieves details of access packages and access package assignments in Microsoft Entra Entitlement Management from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ms-entra-ent-mgmt-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -36,7 +37,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 ## Microsoft Entitlement Management account requirements
 
-The Microsoft Entitlement Management spoke requires creating a custom app on your Microsoft Entra account to generate OAuth 2.0 tokens. See: [Create a custom application in Azure portal](../task/setup-entra-entitlement-spk.md#).
+The Microsoft Entitlement Management spoke requires creating a custom app on your Microsoft Entra account to generate OAuth 2.0 tokens. See: [Create a custom application in Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-entra-entitlement-spk.md).
 
 ## Spoke actions
 

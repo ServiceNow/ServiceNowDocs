@@ -2,6 +2,7 @@
 title: Schedule Item \[sys\_trigger\] records for Spotlight
 description: Setting a Spotlight group to Active creates a Schedule Item \[sys\_trigger\] record. As an administrator, access this record to troubleshoot scheduling. This record contains the scheduling information that is set on the Spotlight group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/activating-spotlight-group.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -29,5 +30,5 @@ The process of creating, editing, and deleting Schedule Item \[sys\_trigger\] re
 |Reactivating a Spotlight group|Create Schedule Item \[sys\_trigger\] record|A new Schedule Item \[sys\_trigger\] record is created with the scheduling information.|
 |Deleting a Spotlight group|Delete Schedule Item \[sys\_trigger\] record|The existing Schedule Item \[sys\_trigger\] record associated with that Spotlight group is deleted.|
 
-**Parent Topic:**[Administering Spotlight](administering-spotlight.md)
+**Parent Topic:**[Administering Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/administering-spotlight.md)
 

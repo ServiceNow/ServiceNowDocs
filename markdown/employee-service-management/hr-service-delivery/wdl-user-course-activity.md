@@ -2,6 +2,7 @@
 title: HR Service Delivery Integration with Workday Learning user course activity staging
 description: Import workday learning user course activity staging information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/wdl-user-course-activity.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Import workday learning user course activity staging information.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_workday.admin
 
 ## Procedure
 
@@ -27,10 +28,10 @@ Role required: admin
 
 3.  On the form, edit the fields.
 
-    For a description of the field values, see [Workday learning user course activity staging form](../reference/wdl-user-course-activity-form.md).
+    For a description of the field values, see [Workday learning user course activity staging form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/wdl-user-course-activity-form.md).
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Import set tables in HR Service Delivery Integration with Workday Learning](../concept/import-set-tables.md)
+**Parent Topic:**[Import set tables in HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/import-set-tables.md)
 

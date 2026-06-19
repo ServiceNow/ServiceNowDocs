@@ -2,6 +2,7 @@
 title: Create a Slack channel for a collaborative communication task
 description: Create a Slack channel for a collaborative communication task to collaborate and discuss the communication task details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/create-slack-for-collab-comm-task.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services
@@ -52,6 +53,6 @@ Role required: major\_incident\_manager
 
 9.  To import messages, click **Import messages**.
 
-    For more information on how to import messages, see [import-messages-from-incident](import-messages-from-incident.md).
+    For more information on how to import messages, see [import-messages-from-incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/import-messages-from-incident.md).
 
 

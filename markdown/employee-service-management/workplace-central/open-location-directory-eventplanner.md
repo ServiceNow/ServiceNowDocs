@@ -2,6 +2,7 @@
 title: Open and view Location directory from Event Planner
 description: Open and view the location directory portal from the Event planner home page and the Scheduled view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/open-location-directory-eventplanner.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -37,11 +38,11 @@ Role required: sn\_wsd\_rsv.reservation\_viewer
 
 1.  Navigate to **All** &gt; **Workplace Central**.
 
-2.  Select the **Event Planner** icon \(![Event planner icon.](../images/event-planner-icon.png)\).
+2.  Select the **Event Planner** icon \(\[Omitted image "event-planner-icon.png"\] Alt text: Event planner icon.\).
 
     The Event planner home page is displayed.
 
-    ![Event planner home page showing the Open Location directory option.](../images/wsd-event-planner-homepage.png)
+    \[Omitted image "wsd-event-planner-homepage.png"\] Alt text: Event planner home page showing the Open Location directory option.
 
 3.  Select the **Open location directory** option.
 
@@ -53,7 +54,7 @@ Role required: sn\_wsd\_rsv.reservation\_viewer
 
 5.  Select **Open Location Directory** from the Scheduled view page.
 
-    ![Event planner Scheduled view showing the Open Location Directory option.](../images/wsd-eventplanner-scheduledview-use.png)
+    \[Omitted image "wsd-eventplanner-scheduledview-use.png"\] Alt text: Event planner Scheduled view showing the Open Location Directory option.
 
     1.  Based on your selection of a campus, building, or floor on the Scheduled view, the following options are displayed:
 
@@ -75,5 +76,5 @@ Role required: sn\_wsd\_rsv.reservation\_viewer
         "Looks like this location doesn't exist." You are redirected to the default Card view.
 
 
-**Parent Topic:**[Working with Event planner](../concept/working-with-event-planner.md)
+**Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-event-planner.md)
 

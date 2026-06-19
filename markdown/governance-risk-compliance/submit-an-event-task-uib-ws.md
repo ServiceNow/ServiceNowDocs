@@ -2,11 +2,12 @@
 title: Request an approval and approve the event
 description: Approve the exercise in BCM UIB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/submit-an-event-task-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Request an approval and approve the event
@@ -27,7 +28,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     **Note:** Submitting a functional exercise or actual event for approval when an activated plan is still in the **Open** state results in an error message: `All activated plans must be closed before submitting the event for an approval`.
 
-    ![Error message.](../image/event-error-msg.png)
+    \[Omitted image "event-error-msg.png"\] Alt text: Error message.
 
 4.  Select **Submit for approval**.
 
@@ -41,5 +42,5 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
     You can update the state of the event to **Closed Complete**.
 
 
-**Parent Topic:**[Structured workflows for exercises](../concept/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

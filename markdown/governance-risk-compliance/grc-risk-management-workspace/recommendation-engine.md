@@ -2,6 +2,7 @@
 title: Recommendation engine for risk and compliance mapping
 description: A recommendation engine is a system that suggests products, services, and information to users based on data analysis. A recommendation engine boosts revenues and other essential metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/recommendation-engine.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -25,5 +26,5 @@ When using the recommendation engine, the risk manager has to map the informatio
 -   Reduces the time spent on mapping the risk and compliance libraries.
 -   Improves the overall time it takes to scope the right applications and assets that must be audited for a particular type of audit.
 
-**Parent Topic:**[Associate risks, citations, policies, and controls with a risk identification record](../task/associate-risks-pols-citations-risk-idenfn.md)
+**Parent Topic:**[Associate risks, citations, policies, and controls with a risk identification record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/associate-risks-pols-citations-risk-idenfn.md)
 

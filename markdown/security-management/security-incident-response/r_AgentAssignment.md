@@ -2,12 +2,13 @@
 title: Assigning security analysts
 description: Depending on your settings in the SIR Administration Configuration screen, you can assign security analysts to security incidents manually; automatically by using a workflow; or automatically by using auto-assignment.You can configure the Security Incident Response Administration Configuration screen to require that security analysts be assigned manually whenever someone or the SIR application creates a security incident or generates a security response task.You can configure the Security Incident Response Administration Configuration screen to use a selected workflow to assign the security analyst whenever someone or the SIR application creates a security incident or security response task.You can configure the Security Incident Response Administration Configuration screen to auto-assign the security analyst whenever someone or the SIR application creates a security incident or security response task. Auto-assignment allows you to define, based on the needs of your organization, the criteria by which analysts are assigned automatically to security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/r\_AgentAssignment.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -47,11 +48,11 @@ The settings for the auto-assignment weighting properties, found in **Security I
 
 These values help you prioritize which auto-assignment selection criterion is more important to your organization. Set the priority values between 1 \(less important\) and 10 \(important\).
 
-For an example of how the weighting properties affect agent ratings, see [Agent auto-assignment using multiple selection criteria](r_AgentAssignment.md#auto-agent-mult-criteria).
+For an example of how the weighting properties affect agent ratings, see [Agent auto-assignment using multiple selection criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_AgentAssignment.md).
 
 ### On-call scheduling
 
-The On-Call Scheduling application helps you to ensure that dedicated support team members are available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation. The application identifies the assigned and available member of a support group, for example, when assigning an incident. See [On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md) for more information. On-call scheduling for Security Incident Response works the same way.
+The On-Call Scheduling application helps you to ensure that dedicated support team members are available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation. The application identifies the assigned and available member of a support group, for example, when assigning an incident. See  for more information. On-call scheduling for Security Incident Response works the same way.
 
 ### Agent auto assignment using location
 
@@ -75,7 +76,7 @@ When a task is created, agent locations are compared to the following ranges to 
 |40.1 to 100|0.1|
 |&gt;100|0|
 
-If the application is configured to use other selection criteria, such as skills, time zone, or schedule, the ratings of all selection criteria are weighted and summed up. The agent with the highest overall rating is auto-assigned for the task. See [Agent auto-assignment using multiple selection criteria](r_AgentAssignment.md#auto-agent-mult-criteria) for details.
+If the application is configured to use other selection criteria, such as skills, time zone, or schedule, the ratings of all selection criteria are weighted and summed up. The agent with the highest overall rating is auto-assigned for the task. See [Agent auto-assignment using multiple selection criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_AgentAssignment.md) for details.
 
 ### Agent auto-assignment using skills
 
@@ -99,7 +100,7 @@ For example, if a task requires four skills, and Agent A possesses three of them
 -   Agent A skill rating = 3/4 or 0.75
 -   Agent B skill rating = 2/4 or 0.5
 
-If the application is configured to use other selection criteria, such as location or time zone, the ratings of all selection criteria are weighted and summed up. The agent with the highest overall rating is selected for the task. See [Agent auto-assignment using multiple selection criteria](r_AgentAssignment.md#auto-agent-mult-criteria) for details.
+If the application is configured to use other selection criteria, such as location or time zone, the ratings of all selection criteria are weighted and summed up. The agent with the highest overall rating is selected for the task. See [Agent auto-assignment using multiple selection criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_AgentAssignment.md) for details.
 
 ### Agent auto-assignment using time zones
 
@@ -133,7 +134,7 @@ The rating of the agent in Paris is calculated as:
 
 So if the auto-assignment of the task is based on the time zone alone, it’s assigned to the agent from Los Angeles.
 
-If the application is configured to use other selection criteria, such as skills or location, the ratings of all selection criteria are weighted and summed. The agent with the highest overall rating is selected for the task. See [Agent auto-assignment using multiple selection criteria](r_AgentAssignment.md#auto-agent-mult-criteria) for the details.
+If the application is configured to use other selection criteria, such as skills or location, the ratings of all selection criteria are weighted and summed. The agent with the highest overall rating is selected for the task. See [Agent auto-assignment using multiple selection criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_AgentAssignment.md) for the details.
 
 ### Agent auto-assignment using group coverage areas
 
@@ -143,9 +144,9 @@ Agents can be auto-assigned based on the group coverage area defined in their us
 
 When a task is created, the agents ratings are calculated. For more information, see:
 
--   [Agent auto assignment using location](r_AgentAssignment.md#auto-agent-location)
--   [Agent auto-assignment using skills](r_AgentAssignment.md#auto-agent-skills)
--   [Agent auto-assignment using time zones](r_AgentAssignment.md#auto-agent-timezones)
+-   [Agent auto assignment using location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_AgentAssignment.md)
+-   [Agent auto-assignment using skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_AgentAssignment.md)
+-   [Agent auto-assignment using time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/r_AgentAssignment.md)
 
 Auto-assignment is based on the following calculation:
 
@@ -172,5 +173,5 @@ In this example, Agent A is auto-assigned the task.
 
 ### Agent assignment using Advanced Work Assignment \(AWA\)
 
-You can configure [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md) to automatically assigns security incidents to your security analysts, based on their availability, capacity, and optionally, skills. AWA pushes work to qualified security analysts using work item queues, routing conditions, and assignment criteria that you define.
+You can configure  to automatically assigns security incidents to your security analysts, based on their availability, capacity, and optionally, skills. AWA pushes work to qualified security analysts using work item queues, routing conditions, and assignment criteria that you define.
 

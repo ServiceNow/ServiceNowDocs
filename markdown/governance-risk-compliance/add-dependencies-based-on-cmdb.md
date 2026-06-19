@@ -2,6 +2,7 @@
 title: Add dependencies based on CI relationships in CMDB
 description: Add an item by referencing its CI relationship to drill down to the item that is related directly to the dependency group. You can map the item's relationship with the dependency group while assessing the business impact analysis of an asset that is at risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-dependencies-based-on-cmdb.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ For example, your business function, Accounts Receivable, may depend on the busi
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the lists icon \(![Lists icon](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
 3.  Click the link to the record in the **Name** column in the **In Draft** state.
 
@@ -59,7 +60,7 @@ For example, your business function, Accounts Receivable, may depend on the busi
 
         **Note:** If you select an item **Based on CMDB dependencies \(Level 1\)**, only those items that are directly related or in the level 1 of dependency based on the relationship types identified in CMDB are listed in the Add items pop-up. On the other hand, if you select **From all records**, then all items from the respective table, irrespective of its relationship in CMDB, are displayed and are tracked up to a maximum of five levels.
 
-8.  To view the details of the dependent item, click ![Information icon](../image/InformationIcon.png).
+8.  To view the details of the dependent item, click \[Omitted image "InformationIcon.png"\] Alt text: Information icon.
 
     The dependency details of the item that your business function depends on opens in a new tab. You can update the required recovery timeframe, required data backup, and the description of its use in the business function, and save the details.
 

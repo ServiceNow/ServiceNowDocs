@@ -2,6 +2,7 @@
 title: Select fields for an extraction table in Zero Copy Connector for ERP
 description: Add or remove fields for an extraction table in Zero Copy Connector for ERP\(Enterprise Resource Planning\). For example, you may want to remove fields with sensitive information, such as birthdays.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-select-extraction-table-fields.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,7 +19,7 @@ Add or remove fields for an extraction table in Zero Copy Connector for ERP\(Ent
 
 ## Before you begin
 
-If you don't see the fields that you want to add to the extraction table, you must first add them to the model. For more information, see [Choose output parameters for a model](erp-canvas-manage-outputs.md).
+If you don't see the fields that you want to add to the extraction table, you must first add them to the model. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 Role required: sn\_erp\_integration.erp\_admin
 
@@ -26,7 +27,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP extraction tables page by selecting the extraction tables icon ![](../image/erpc-extraction-table-icon.png) in the side panel.
+2.  Open the ERP extraction tables page by selecting the extraction tables icon \[Omitted image "erpc-extraction-table-icon.png"\] Alt text: in the side panel.
 
 3.  Select an extraction table to work with by selecting the **Name**.
 
@@ -43,5 +44,5 @@ Role required: sn\_erp\_integration.erp\_admin
 5.  Confirm that the fields appear correctly as columns on the extraction table by selecting the **Extraction table fields** tab.
 
 
-**Parent Topic:**[Extracting and transforming data in Zero Copy Connector for ERP](../concept/erp-canvas-extraction-tables.md)
+**Parent Topic:**[ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

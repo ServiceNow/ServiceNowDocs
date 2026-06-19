@@ -2,6 +2,7 @@
 title: Validate your API connector
 description: Test the connection for your API connector. You must pass both checks before you can publish your connector. You must review your input and mapping to be sure that it is accurate before publishing your connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-sgc-validate-api-connector.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -2,6 +2,7 @@
 title: Apply user criteria to a page, widget, or widget instance
 description: Assign user criteria to pages, widgets, or widget instances to limit user access to content in a portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/widget-user-criteria.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -39,10 +40,10 @@ You can apply several user criteria records to a single portal item.
 
 6.  Select a criteria from the **Can View** or **Cannot View** list.
 
-    Selecting criteria from the **Can View** or **Cannot View** list applies user criteria records created in [Create a user criteria record for Service Portal](create-user-criteria-record.md) to the selected page, widget, or widget instance.
+    Selecting criteria from the **Can View** or **Cannot View** list applies user criteria records created in [Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-user-criteria-record.md) to the selected page, widget, or widget instance.
 
 7.  Click **Save**.
 
 
-**Parent Topic:**[User criteria for Service Portal](../concept/user-criteria.md)
+**Parent Topic:**[User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md)
 

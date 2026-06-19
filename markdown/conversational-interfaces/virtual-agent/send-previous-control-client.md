@@ -2,6 +2,7 @@
 title: Send previous control to client
 description: Provide the ability to send previous control to client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/send-previous-control-client.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -35,5 +36,5 @@ Example script:
 })(inputs, outputs);
 ```
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](../concept/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

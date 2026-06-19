@@ -2,6 +2,7 @@
 title: Set up optional inventor rewards in Legal Invention Disclosure
 description: Set up optional rewards for inventors to be granted at three stages of applying for and acquiring a patent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-invention-disclosure/setup-rewarding-rules-and-configurations.html
 release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -17,7 +18,7 @@ Set up optional rewards for inventors to be granted at three stages of applying 
 
 ## Before you begin
 
-You must update the locale settings in the system properties and then configure the system locale currency before configuring the patent rewards. For more information, see [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/locales.md) and [Configuring FX Currency global settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-configure.md).
+You must update the locale settings in the system properties and then configure the system locale currency before configuring the patent rewards. For more information, see  and .
 
 Role required: sn\_lg\_ip.patent\_config
 
@@ -163,5 +164,5 @@ The status of the application at which the inventor should be rewarded.The stage
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Legal Invention Disclosure](../concept/configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

@@ -2,6 +2,7 @@
 title: Select2 functionalities in ATF
 description: Use the Select2 component to search and select your option from a drop-down menu easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-select2.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -23,7 +24,7 @@ Select the **Set Component Value** option under **Action** to search for a compo
 
 **Note:** If multiple, similarly named component options show up on searching a term, only the first option is selected.
 
-![Gif showing the select2 functionalities](../image/select2.gif "Select2 component")
+\[Omitted image "select2.gif"\] Alt text: Gif showing the select2 functionalities
 
 ## Limitations of the select2 support
 
@@ -40,5 +41,5 @@ Search and select your options efficiently with the following design considerati
 -   Prevent failing of tests by avoiding jquery library name change
 -   Select2 Adapter and Decorator features are not supported
 
-**Parent Topic:**[Custom UI test steps](custom-ui-test-steps.md)
+**Parent Topic:**[Custom UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/custom-ui-test-steps.md)
 

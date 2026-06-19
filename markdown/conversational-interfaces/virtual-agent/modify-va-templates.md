@@ -2,6 +2,7 @@
 title: View and modify Virtual Agent style templates
 description: Virtual Agent provides optimized templates for the mobile experience. You can view and modify the style sheets in the Adapter Cards \[sys\_cs\_adapter\_card\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/modify-va-templates.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -36,5 +37,5 @@ Role required: virtual\_agent\_admin or admin
 5.  Click **Update**.
 
 
-**Parent Topic:**[Configure Virtual Agent for a ServiceNow mobile application](configure-va-mobile-web-client.md)
+**Parent Topic:**[Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md)
 

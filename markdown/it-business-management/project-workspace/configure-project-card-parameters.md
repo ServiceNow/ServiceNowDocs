@@ -2,6 +2,7 @@
 title: Configure parameters displayed on project cards in classic Project Workspace
 description: Configure the parameters that are displayed on a project card in My Projects Space page of classic Project Workspace. A card shows the project summary so that project managers can quickly gauge project status and health by looking at the card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configure-project-card-parameters.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -79,5 +80,5 @@ You can configure the information which is displayed in row 2 and row3 on a card
     The parameter is added or updated for the selected state. It appears under selected section in row 3 on the project cards for the state it was added.
 
 
-**Parent Topic:**[Project workspace classic - Legacy](../concept/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-classic.md)
 

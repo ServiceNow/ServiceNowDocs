@@ -2,6 +2,7 @@
 title: Exploring Cloud License Estimator
 description: Learn about Cloud License Estimator features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-license-estimator/explore-cloud-license-estimator.html
 release: australia
 product: Cloud License Estimator
 classification: cloud-license-estimator

@@ -2,13 +2,14 @@
 title: Test generation
 description: Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available with Now Assist for Creator. Simply describe your test requirements, and Test generation generates the test for you. You can then review the generated test before accepting it or make any edits with an updated prompt.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/test-generation-intro.html
 release: australia
 product: Test Generation
 classification: test-generation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Test generation
@@ -17,7 +18,7 @@ Simplify your automated test authoring by leveraging the power of ServiceNow's T
 
 Starting with the Australia release, Test generation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-**Note:** Test generation leverages the foundation provided by the Automated Test Framework \(ATF\). Refer [Automated Test Framework \(ATF\)](../../auto-test-framework/concept/atf-landing-page.md) documentation for further details.
+**Note:** Test generation leverages the foundation provided by the Automated Test Framework \(ATF\). Refer [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md) documentation for further details.
 
 The Test generation skill is available only for Next Experience UI users.
 
@@ -25,15 +26,15 @@ The Test generation skill is available only for Next Experience UI users.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../T2T/image/t2t-icon-explore.png)Learn about Upgrade Management Console](tg-explore.md)
+[Explore\[Omitted image "t2t-icon-explore.png"\] Alt text:Learn about Upgrade Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-explore.md)
 
 </td><td>
 
-[Use![](../../T2T/image/t2t-review-icon.png) Use the tools, relevant information, and guided setup for your upgrades](tg-use.md)
+[Use\[Omitted image "t2t-review-icon.png"\] Alt text: Use the tools, relevant information, and guided setup for your upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-use.md)
 
 </td></tr><tr><td>
 
-[Reference![](../../T2T/image/t2t-reference-icon.png) Learn miscellaneous information about Upgrade Management Console](tg-reference.md)
+[Reference\[Omitted image "t2t-reference-icon.png"\] Alt text: Learn miscellaneous information about Upgrade Management Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-reference.md)
 
 </td><td>
 
@@ -45,7 +46,7 @@ The Test generation skill is available only for Next Experience UI users.
 -   [Ask or answer questions about Test generation in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 
-For more information, see [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see Now Assist documentation.
 
 ## AI limitations
 
@@ -57,14 +58,14 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
--   **[Exploring Test generation](tg-explore.md)**  
+-   **[Exploring Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-explore.md)**  
 If you are new to Test generation application, read this overview to learn what the app can do.
--   **[Using Test generation](tg-use.md)**  
+-   **[Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-use.md)**  
 Leverage the power of Now Assist technology to streamline test creation with the Test generation application.
--   **[Test generation references](tg-reference.md)**  
+-   **[Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-reference.md)**  
 The reference topics provide additional information about the Test generation application.
 
-**Parent Topic:**[Using generative AI with Now Assist for Creator](../../../build/now-assist-for-creator/concept/using-gen-ai-now-assist-for-creator.md)
+**Parent Topic:**[Using generative AI with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)
 

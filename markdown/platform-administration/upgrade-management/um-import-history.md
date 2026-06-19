@@ -2,6 +2,7 @@
 title: View import history
 description: View your import history by accessing the My Application Import History module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-import-history.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -29,8 +30,8 @@ Role required: admin
 
     The form view of sys\_upgrade\_history record shows up.
 
-    **Note:** To learn more about importing from Source Control, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/c_ServiceNowStudio.md). Once the importing is done, use the **My Application Import History** module to view the import history.
+    **Note:** To learn more about importing from Source Control, see ServiceNow Studio. Once the importing is done, use the **My Application Import History** module to view the import history.
 
 
-**Parent Topic:**[Reviewing upgrade history](../concept/um-review-history.md)
+**Parent Topic:**[Reviewing upgrade history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-review-history.md)
 

@@ -2,6 +2,7 @@
 title: Update insurance information table
 description: The Update insurance information \[hcls\_insurance\_info\_task\] table stores the task details for updating the insurance information of a patient in your healthcare organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-insurance-info-task-table.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Update insurance information \[hcls\_insurance\_info\_task\] table stores th
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 <table id="table_gsz_dbb_npb"><thead><tr><th>
 
@@ -145,5 +146,5 @@ String
 Processor control number \(PCN\) is another identifier used to route pharmacy reimbursements.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

@@ -2,6 +2,7 @@
 title: Configure reasons for rejecting work items
 description: Define the reasons that agents can use to decline work assignments that they receive in their Agent Workspace inbox. A reject reason can apply to all service channels or a single channel that you specify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-configure-reject-reasons.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

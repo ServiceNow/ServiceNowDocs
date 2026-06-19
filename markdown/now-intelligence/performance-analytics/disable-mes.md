@@ -2,6 +2,7 @@
 title: Disable multiple element selection on a dashboard
 description: Dashboard owners have the option to disable multiple element select on an entire breakdown dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/disable-mes.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -44,11 +45,11 @@ When you filter the dashboard on breakdown elements, you can select only one bre
 
 <table id="simpletable_a2p_ksn_n3b"><tbody><tr><td>
 
-![Element selection with Multiple element selection disabled, and the Awaiting Approval state selected.](../image/mes-disabled.png "List of breakdown elements - multiple element selection disabled")
+\[Omitted image "mes-disabled.png"\] Alt text: Element selection with Multiple element selection disabled, and the Awaiting Approval state selected.
 
 </td><td>
 
-![Element selection with Multiple element selection enabled, and Awaiting Approval and Awaiting User states selected.](../image/mes-enabled.png "List of breakdown elements - multiple element selection enabled")
+\[Omitted image "mes-enabled.png"\] Alt text: Element selection with Multiple element selection enabled, and Awaiting Approval and Awaiting User states selected.
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Translate a field value for the Classic Environment
 description: Field values are the text entries that are used for fields with the type translated\_field, such as the Title or Hint field in the Module \[sys\_app\_module\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_TranslateAFieldValue.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The following procedure works best for translating values for individual fields, such as those added with a customization. To translate large numbers of field values, use the procedure described in [Export and edit translation records](t_TranslateTheInterface.md#).
+The following procedure works best for translating values for individual fields, such as those added with a customization. To translate large numbers of field values, use the procedure described in [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateTheInterface.md).
 
 ## Procedure
 
@@ -31,12 +32,12 @@ The following procedure works best for translating values for individual fields,
 
 3.  Update the field value with the text translated into the target language \(Spanish\).
 
-    ![Translation field values.](../image/TranslationFieldValues.png)
+    \[Omitted image "TranslationFieldValues.png"\] Alt text: Translation field values.
 
 4.  Select **Update**.
 
-    This creates a new record in the Translated Name / Field \[sys\_translated\] table for the selected language or updates the existing record if a translation already exists. For more information about this table, see [Translated Name / Field table](../reference/r_TranslatedNameFieldTable.md).
+    This creates a new record in the Translated Name / Field \[sys\_translated\] table for the selected language or updates the existing record if a translation already exists. For more information about this table, see [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslatedNameFieldTable.md).
 
-    ![New record added to the Translated Name / Fields table for the field value translated into Spanish.](../image/translated-field-value.png "Translated field")
+    \[Omitted image "translated-field-value.png"\] Alt text: New record added to the Translated Name / Fields table for the field value translated into Spanish.
 
 

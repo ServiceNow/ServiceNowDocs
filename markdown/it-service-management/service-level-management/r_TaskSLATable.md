@@ -2,6 +2,7 @@
 title: Task SLA table
 description: The Task SLA \[task\_sla\] table stores Task SLA records for the SLAs attached to particular tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_TaskSLATable.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -17,11 +18,11 @@ The Task SLA \[task\_sla\] table stores Task SLA records for the SLAs attached t
 
 For each task, attached SLAs are accessible in a related list on the Task's form.
 
-![Task SLA table with two definitions](../image/TaskSLATable.png "Task SLA table")
+\[Omitted image "TaskSLATable.png"\] Alt text: Task SLA table with two definitions
 
 The SLA form for a task shows further details:
 
-![Task SLA form view](../image/TaskSLAForm.png "Task SLA form")
+\[Omitted image "TaskSLAForm.png"\] Alt text: Task SLA form view
 
 ## Stage values
 
@@ -127,5 +128,5 @@ Original breach time
 The date/time the SLA would breach, as calculated when the SLA is first attached.**Note:** You may have to configure the form to see this field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Level Management reference](../concept/service-level-management-reference.md)
+</table>**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: GlideDialogWindow - Client \(deprecated\)
 description: The GlideDialogWindow API provides methods for displaying a dialog in the current window and frame.Provides methods for displaying a dialog in the current window and frame.Adjusts the body height of a dialog window to be the window height minus the header height.Closes the dialog window.Renders the dialog window.Sets a given window property to a specified value.Sets the size of the dialog window.Sets the title of the dialog window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideDialogWindowAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,9 +18,9 @@ The GlideDialogWindow API provides methods for displaying a dialog in the curren
 
 Use these methods in scripts anywhere that you can use a client-side JavaScript. These methods are most often called from a UI action with the **Client** check box selected.
 
-**Note:** This API has been deprecated, use the [GlideModal](../../GlideModalClientSideV3/concept/c_GlideModalV3API.md#) API instead.
+**Note:** This API has been deprecated, use the [GlideModal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideModalV3API.md) API instead.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## GlideDialogWindow - GlideDialogWindow\(String id, Boolean readOnly, Number width, Number height\)
 

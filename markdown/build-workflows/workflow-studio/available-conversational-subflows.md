@@ -2,6 +2,7 @@
 title: Available conversational subflows
 description: Workflow Studio provides a set of subflows that are preconfigured to be compatible with and callable by conversational interfaces such as Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/available-conversational-subflows.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

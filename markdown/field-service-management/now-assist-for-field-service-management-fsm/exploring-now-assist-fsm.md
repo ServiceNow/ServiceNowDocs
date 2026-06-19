@@ -2,12 +2,14 @@
 title: Exploring Now Assist for Field Service Management \(FSM\)
 description: With the Now Assist for Field Service Management \(FSM\) application, users can generate work order task summaries and knowledge articles from work order task information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: concept
-last_updated: "2026-03-27"
+last_updated: "2026-05-13"
 reading_time_minutes: 2
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Now Assist for FSM]
 ---
 
@@ -15,7 +17,14 @@ breadcrumb: [Now Assist for FSM]
 
 With the Now Assist for Field Service Management \(FSM\) application, users can generate work order task summaries and knowledge articles from work order task information.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
+**Important:**
+
+-   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Now Assist for Field Service Management \(FSM\) Overview
 
@@ -51,7 +60,7 @@ The Now Assist for FSM application includes generative AI skills that enable use
 
 ## AI agents
 
-The Now Assist for FSM application includes AI agents that automate field service tasks on the platform or on the ServiceNow Agent mobile application. For more information about setting up and using AI agents, see [Using agentic AI in Now Assist for Field Service Management \(FSM\)](fsm-ai-agent-use-cases.md).
+The Now Assist for FSM application includes AI agents that automate field service tasks on the platform or on the ServiceNow Agent mobile application. For more information about setting up and using AI agents, see [Using agentic AI in Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/fsm-ai-agent-use-cases.md).
 
 -   **Create work order**
 

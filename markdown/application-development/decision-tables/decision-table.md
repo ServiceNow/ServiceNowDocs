@@ -2,6 +2,7 @@
 title: Decision Tables
 description: Use decision tables to decouple decision logic from your code by creating and maintaining decision rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/decision-tables/decision-table.html
 release: australia
 product: Decision Tables
 classification: decision-tables
@@ -15,11 +16,11 @@ breadcrumb: [Builder library, Developing your application, Building applications
 
 Use decision tables to decouple decision logic from your code by creating and maintaining decision rules.
 
-**Important:** Try creating decision tables in Workflow Studio instead. Workflow Studio integrates workflow authoring, configuring, and monitoring into a single page experience. For more information, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
+**Important:** Try creating decision tables in Workflow Studio instead. Workflow Studio integrates workflow authoring, configuring, and monitoring into a single page experience. For more information, see .
 
 Use decisions tables to help you reach outcomes that depend on multiple factors. In these tables, each factor is a decision input. For example, if you are trying to make a decision about car insurance coverage, your inputs might include the location where the insured person lives, the age and accident history of the insured person, the car make, the car model, and the car year. This logic can save time and present a more organized, readable format than using a script. Decision tables provide a single point where you can create, view, and modify decisions.
 
-To interact with Decision Tables in script, use the [DecisionTableAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DecisionTableAPI.md).
+To interact with Decision Tables in script, use the .
 
 ## Components of a decision
 
@@ -40,8 +41,8 @@ To interact with Decision Tables in script, use the [DecisionTableAPI - Scoped, 
     Answer records represent answers that are reached using different decision input values. Answers records can be records on any table, but you need to choose the table when creating your Decision Table record. You could, for example, use the sys\_choice table to use existing choice records. From the example about insurance coverage, you could create a table where each record contains details about the levels of insurance coverage.
 
 
--   **[Decision tables in the classic environment](decision-tables-classic-ui.md)**  
+-   **[Decision tables in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-tables-classic-ui.md)**  
 In the classic environment, you can develop a table to use for your decision answer records. You then associate an answer record to each decision on your decision table. This answer record is returned when the decision is reached based on your inputs.
 
-**Parent Topic:**[Builder library](../../../build/custom-application/concept/builder-library-table.md)
+**Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/builder-library-table.md)
 

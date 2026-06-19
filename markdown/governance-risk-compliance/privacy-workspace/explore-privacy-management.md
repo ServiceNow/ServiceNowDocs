@@ -2,6 +2,7 @@
 title: Exploring Privacy Management
 description: The ServiceNow Privacy Management application enables you to manage your company’s privacy programs. Some examples of privacy programs are privacy regulatory compliance programs, privacy impact assessments, privacy policy management, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/explore-privacy-management.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -40,24 +41,24 @@ The Privacy Management application is available on the Privacy Workspace. This w
 
 The Privacy Management solution is available as an add-on in the Integrated Risk Management \(IRM\) suite.
 
--   **[Processing activities](ropa-record.md)**  
+-   **[Processing activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ropa-record.md)**  
 A processing activity is a record that processes personal data. Examples of such records can be a business process or a business application of an organization that has personal information. Processing activities enable the privacy management teams to understand how personal information is being processed or used.
--   **[Privacy classic assessments](privacy-impact-assessments.md)**  
+-   **[Privacy classic assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-impact-assessments.md)**  
 Privacy assessments are used to collect information from business owners. This information helps the privacy teams to understand how personal information \(PI\) is being used or stored in a processing activity.
--   **[Smart assessments in Privacy Management](smart-assessments-in-privacy-management.md)**  
+-   **[Smart assessments in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/smart-assessments-in-privacy-management.md)**  
 The new and improved assessment experience in Privacy Management uses the Smart Assessment Engine \(SAE\) application. The assessment engine enables you to perform privacy screening and privacy impact assessments to collect the necessary information for the privacy teams.
--   **[Risk assessments in Privacy Management](risk-assessments-in-privacy-management.md)**  
+-   **[Risk assessments in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/risk-assessments-in-privacy-management.md)**  
 You can perform risk assessments on your processing activities to determine their risk scores and find out the privacy risk posture of your organization.
--   **[Information objects in Privacy Management](information-object-in-privacy.md)**  
+-   **[Information objects in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/information-object-in-privacy.md)**  
 The purpose of an information object is to logically describe the type of data that is exchanged between an application and a database.
--   **[Privacy Workspace for the privacy manager](privacy-mgmt-ws-privacy-compliance-manager.md)**  
+-   **[Privacy Workspace for the privacy manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-compliance-manager.md)**  
 The Privacy management dashboard provides a centralized interface for monitoring and managing privacy-related data processing activities within the organization.
--   **[Privacy Workspace for the privacy analyst](privacy-mgmt-ws-privacy-analyst.md)**  
+-   **[Privacy Workspace for the privacy analyst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-analyst.md)**  
 Privacy analysts manage the privacy compliance posture of the processing activity owned by them. Compliance posture refers to the overall compliance status of an organization, business process, or business application, and so on based on the compliant and non-compliant status of controls across various regulations.
--   **[Privacy Management solution overview](privacy-mgmt-workflow.md)**  
+-   **[Privacy Management solution overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-workflow.md)**  
 The Privacy Management solution provides you with a framework to manage your privacy-specific libraries such as citations, policies, control objectives, risk statements, privacy impact assessments, and privacy risk assessments. It also provides processing activity records to track privacy risk and compliance posture.
--   **[Data subject types](data-subjects.md)**  
+-   **[Data subject types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/data-subjects.md)**  
 Data subjects are individuals whose personal data is collected, used, and processed by an organization. Data subject classification enables organizations to define and manage distinct groups, enabling a granular and context-specific representation of data processing activities.
 
-**Parent Topic:**[Privacy Management](privacy-management.md)
+**Parent Topic:**[Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-management.md)
 

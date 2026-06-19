@@ -2,6 +2,7 @@
 title: Setup for integrating self-configured apps with Microsoft Teams for Agent Experience
 description: Allow the agents to work and manage the major incidents from Major Incident Management \(MIM\) workbench through Microsoft Teams self-configured app environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/c\_agent\_ex\_s\_tnt.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,10 +16,10 @@ breadcrumb: [Setup for integrating self-configured apps, Setup the Servicenow in
 
 Allow the agents to work and manage the major incidents from Major Incident Management \(MIM\) workbench through Microsoft Teams self-configured app environment.
 
--   **[Integrating Notify connector self-configured app with Microsoft Teams](../../notify2/concept/setup-notify-ms-teams-single-tenant.md)**  
+-   **[Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md)**  
 Set up the Notify connector for Microsoft Teams using the self-configured app.
--   **[Integrate Meeting Extensions self-configured app with Microsoft Teams](../../meeting-extensibility/concept/setup-meeting-extensibility-single-tenant.md)**  
+-   **[Integrate Meeting Extensions self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-single-tenant.md)**  
 Configure Meeting Extensions for Microsoft Teams using the self-configured app environment.
 
-**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams](setup-single-tenant.md)
+**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-single-tenant.md)
 

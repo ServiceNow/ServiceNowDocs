@@ -2,6 +2,7 @@
 title: Install and configure Reverse Whois
 description: Before you run the integration on your instance, complete the installation and configuration steps so the Reverse Whois application properly integrates with the Security Operations product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-and-config-reversewhois.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -17,7 +18,7 @@ Before you run the integration on your instance, complete the installation and c
 
 ## Before you begin
 
-Complete the following setup checklist prior to installation. These setup tasks are required for a smooth installation and configuration.
+Complete the following setup checklist before installation. These setup tasks are required for a smooth installation and configuration.
 
 <table id="table_ywj_yls_ycb"><thead><tr><th>
 
@@ -62,7 +63,7 @@ Madrid and later release requirements
 3.  Security Support Common
 4.  Security Support Orchestration
 
- For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information on setting up your ServiceNow AI Platform instance for the integration, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>Role required: admin
@@ -73,15 +74,15 @@ Madrid and later release requirements
 
     1.  Delete the existing configuration.
 
-    2.  Install and create a new configuration using the API key that you have obtained.
+    2.  Install and create the configuration using the API key that you have obtained.
 
-2.  If you have not installed the application for the integration, see [Install a Security Operations integration](../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+2.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 3.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Reverse Whois API tile.
 
-4.  Click **Configure**.
+4.  Select **Configure**.
 
-    ![A description of the app and the button used to initiate the configuration.](../images/reverse-whois-config-tile.png)
+    \[Omitted image "reverse-whois-config-tile.png"\] Alt text: A description of the app and the button used to initiate the configuration.
 
 5.  In the **Reverse Whois API Configuration** dialog box, enter the API key you obtained from the Whois XML API website.
 
@@ -96,20 +97,20 @@ Madrid and later release requirements
 
     These configuration settings remain saved until you change them and apply to all Reverse Whois API searches.
 
-    ![Reverse Whois API Configuration completed configuration.](../images/reverse-config-9-4.png)
+    \[Omitted image "reverse-config-9-4.png"\] Alt text: Reverse Whois API Configuration completed configuration.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
     Configuration is successfully completed unless an error message is displayed.
 
 
 If an error message is displayed, the API key may be invalid.
 
-![Configuration error message example.](../images/reverse-whois-config-error.png "Error message")
+\[Omitted image "reverse-whois-config-error.png"\] Alt text: Configuration error message example.
 
-**Parent Topic:**[Reverse Whois integration](../concept/reversewhois-lookups.md)
+**Parent Topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/reversewhois-lookups.md)
 
-**Previous topic:**[Reverse Whois integration](../concept/reversewhois-lookups.md)
+**Previous topic:**[Reverse Whois integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/reversewhois-lookups.md)
 
-**Next topic:**[\(Optional\) Install and configure Whois](whois-install-and-config.md)
+**Next topic:**[\(Optional\) Install and configure Whois](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/whois-install-and-config.md)
 

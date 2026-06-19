@@ -2,6 +2,7 @@
 title: API access to Workflow Studio flows
 description: Application developers can access Workflow Studio functionality through APIs for flows, subflows, and actions. Flow authors can enable individual flows, subflows, and actions to be client callable during design.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/api-access-flow-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,23 +22,23 @@ Trigger flows, subflows, and actions using these APIs from server or client scri
 
 -   **Server side**
 
-    [FlowAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md): Trigger a flow, subflow, or action using synchronous or asynchronous methods, with or without execution details.
+    FlowAPI: Trigger a flow, subflow, or action using synchronous or asynchronous methods, with or without execution details.
 
 -   **Client side**
 
-    [GlideFlow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideFlowAPI.md): Perform client-side interactions with actions, flows, and subflows. Flow designers must enable a flow, subflow, and action to be called from the client.
+    GlideFlow: Perform client-side interactions with actions, flows, and subflows. Flow designers must enable a flow, subflow, and action to be called from the client.
 
 
 ## FlowAPI quick methods
 
-Use quick methods in the [FlowAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md) class to run an action, flow, or subflow from a server-side script without creating execution details or other related records. Use these methods to increase the speed of high-volume processing in a production environment, and to improve performance by eliminating record-keeping overhead. Methods include:
+Use quick methods in the FlowAPI class to run an action, flow, or subflow from a server-side script without creating execution details or other related records. Use these methods to increase the speed of high-volume processing in a production environment, and to improve performance by eliminating record-keeping overhead. Methods include:
 
 -   executeActionQuick\(\), executeFlowQuick\(\), executeSubflowQuick\(\): Run an action, flow, or subflow from a server-side script synchronously from the current user session.
 -   startActionQuick\(\), startFlowQuick\(\), startSubflowQuick\(\): Run an action, flow, or subflow from a server-side script asynchronously.
 
 ## XML and JSON streaming APIs
 
-Builds a large streaming or non-streaming JSON or XML payload to use in a REST or SOAP request to send bulk data to a third-party API. For example, you can use these APIs to create a JSON payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see [JSONStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md) and [XMLStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.md).
+Builds a large streaming or non-streaming JSON or XML payload to use in a REST or SOAP request to send bulk data to a third-party API. For example, you can use these APIs to create a JSON payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see JSONStreamingBuilder and XMLStreamingBuilder.
 
 ## Client callable APIs
 
@@ -45,7 +46,7 @@ By default, the flows, subflows, and actions can only be called by the FlowAPI w
 
 ## Run as support
 
-Flows and subflows can run as either the system user or the user who initiates the session. Set this behavior from the [flow properties](../task/create-flow.md). All API quick methods ignore the run as property, and always run as the system user.
+Flows and subflows can run as either the system user or the user who initiates the session. Set this behavior from the [flow properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md). All API quick methods ignore the run as property, and always run as the system user.
 
 Actions always run as the user who initiates the session.
 

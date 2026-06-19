@@ -2,6 +2,7 @@
 title: Incident Management and CSDM tables
 description: Incident Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Incident Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/itsm-incident-use-case.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -72,5 +73,5 @@ When you use Incident Management with other ServiceNow products, you increase th
 
 -   **Customer Service Management \(CSM\)**
 
-**Parent Topic:**[Applying CSDM guidelines to Incident Management](../concept/itsm-incident-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/itsm-incident-use-case-product-view.md)
 

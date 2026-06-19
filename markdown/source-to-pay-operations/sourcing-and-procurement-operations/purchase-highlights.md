@@ -1,21 +1,27 @@
 ---
-title: Purchase highlights
+title: Purchase state indicators
 description: Your purchases, which include purchase requisitions, purchase requisition lines, purchase orders, purchase order lines, and sourcing requests, are highlighted with color coding to help you quickly understand their state and due date. The progress bar on these purchases follows a similar color coding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-highlights.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [My purchases on Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
+keywords: [purchase states, purchase state indicators, purchase state tracking, track purchase states]
+breadcrumb: [Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Purchase highlights
+# Purchase state indicators
 
 Your purchases, which include purchase requisitions, purchase requisition lines, purchase orders, purchase order lines, and sourcing requests, are highlighted with color coding to help you quickly understand their state and due date. The progress bar on these purchases follows a similar color coding.
 
-A red state badge is displayed if a purchase is closed canceled or closed rejected. A yellow state badge indicates that a purchase requires decision or needs information. For all other states, a grey badge is displayed.
+A red state badge is displayed if a purchase is closed canceled or closed rejected.\[Omitted image "my-purchases-rejected.png"\] Alt text: Red state badge for rejected purchase.
+
+A yellow state badge indicates that a purchase requires decision or needs information.
+
+For all other states, a grey badge is displayed.
 
 A red due date badge is displayed for a purchase if:
 
@@ -31,5 +37,5 @@ A procurement administrator can use the sn\_shop.spend.sla.due.days purchasing p
 
 Your purchases are also highlighted with colored information banners when approvers request for clarification, or reject your purchase requisitions, purchase orders, or sourcing requests, in whole or in part. The reason for rejection is also displayed.
 
-**Parent Topic:**[My purchases on Shopping Hub](my-purchases.md)
+**Parent Topic:**[Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-hub-overview.md)
 

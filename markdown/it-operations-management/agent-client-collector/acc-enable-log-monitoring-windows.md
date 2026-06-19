@@ -2,6 +2,7 @@
 title: Enable log monitoring in a Windows environment
 description: To enable monitoring logs in a Windows environment, select the relevant policy and assign specific check parameters to the policy. When log monitoring is enabled and a specified string is discovered in the log being monitored, the system creates an event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-enable-log-monitoring-windows.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -71,5 +72,5 @@ Strings which are being searched for in the log. Default values are **Severe** a
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Deploying Agent Client Collector on servers](../concept/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

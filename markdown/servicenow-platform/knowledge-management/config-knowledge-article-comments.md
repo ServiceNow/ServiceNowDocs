@@ -2,6 +2,7 @@
 title: Configure article comments instance options
 description: Configure the Knowledge Article Comments widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-knowledge-article-comments.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -55,7 +56,7 @@ CSS
 
 </td><td>
 
-Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/scss-primer.md).
+Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.
 
 </td></tr><tr><td colspan="2">
 
@@ -102,5 +103,5 @@ Maximum attachment file size in MB that can be attached to a comment included fo
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](../concept/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

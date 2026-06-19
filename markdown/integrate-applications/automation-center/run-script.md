@@ -2,6 +2,7 @@
 title: Run fix script to view results
 description: Run a fix script in ServiceNow to view the results of the automation explorer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/run-script.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -42,5 +43,5 @@ Role required: admin
     -   Records Skipped — the number of records that did not meet processing criteria.
     -   Errors — any errors encountered during execution. Investigate and resolve before re-running the script if errors are present.
 
-**Parent Topic:**[Using Now Assist for Automation Center](../concept/use-now-assist.md)
+**Parent Topic:**[Using Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/use-now-assist.md)
 

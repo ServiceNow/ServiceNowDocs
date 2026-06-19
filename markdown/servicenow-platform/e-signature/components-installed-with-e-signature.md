@@ -2,6 +2,7 @@
 title: Components installed with e-signature
 description: Several types of components are installed with activation of e-signature, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/e-signature/components-installed-with-e-signature.html
 release: australia
 product: e-Signature
 classification: e-signature
@@ -15,7 +16,7 @@ breadcrumb: [E-signature reference, E-signature, Manage people and work capabili
 
 Several types of components are installed with activation of e-signature, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -60,11 +61,11 @@ None
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddARoleToAnExistingRole.md).
--   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
--   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+-   To assign a role to another role, see Add a role to an existing role.
+-   To assign a role to a group, see Assign a role to a group.
+-   To assign a role to a user, see Assign a role to a user.
 
-For further information on user administration and how to manage users, see [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_UserAdministration.md).
+For further information on user administration and how to manage users, see User administration.
 
 ## Tables installed
 
@@ -93,7 +94,7 @@ E-Signature Acknowledgement\[sn\_esign\_acknowledgement\]
 E-signature acknowledgment table.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md).
+</table>For further information on table administration and how to manage data, see Table administration.
 
-**Parent Topic:**[E-signature reference](esignature-reference.md)
+**Parent Topic:**[E-signature reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/e-signature/esignature-reference.md)
 

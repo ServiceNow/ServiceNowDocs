@@ -2,6 +2,7 @@
 title: Create and manage Journey types
 description: Create plan types to manage the top-level classification for stages and tasks for Journey types, as well as the header views for users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-create-manage-journey-types.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -17,7 +18,7 @@ Create plan types to manage the top-level classification for stages and tasks fo
 
 ## Before you begin
 
-Role required: sn\_jny.admin or admin
+Role required: sn\_jny.admin
 
 ## Procedure
 
@@ -34,10 +35,10 @@ Role required: sn\_jny.admin or admin
     -   View for manager
     -   View for employee
     -   View for mentor
-    See [Create and configure Journey designer headers](jny-dsgnr-header-configuration.md) to customize headers for a plan.
+    See [Create and configure Journey designer headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-header-configuration.md) to customize headers for a plan.
 
 5.  After you have selected any header configuration you want to change, select **Submit**.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

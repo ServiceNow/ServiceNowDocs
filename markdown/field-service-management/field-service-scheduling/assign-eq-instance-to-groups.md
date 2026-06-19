@@ -2,6 +2,7 @@
 title: Assign an equipment instance to groups
 description: Assign equipment instances to groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/assign-eq-instance-to-groups.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

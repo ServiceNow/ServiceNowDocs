@@ -2,6 +2,7 @@
 title: Exploring Personal Data Rights
 description: Personal data rights \(PDR\) refer to the legal rights individuals have regarding the collection, use, storage, and protection of their personal data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/exploring-personal-data-rights.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace

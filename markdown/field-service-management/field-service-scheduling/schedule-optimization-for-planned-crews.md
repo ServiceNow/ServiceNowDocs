@@ -2,6 +2,7 @@
 title: Schedule Optimization for Planned Crews
 description: Use Schedule Optimization to assign tasks efficiently to planned crews, ensuring alignment with crew schedules and locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/schedule-optimization-for-planned-crews.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -24,8 +25,8 @@ Schedule Optimization supports task assignment only for **planned crews**, which
 
 To enable Schedule Optimization for planned crews:
 
--   [Activate the Crew Operations for Field Service](activate-fsm-crew-scheduling.md) plugin.
--   [Create planned crews](create-crews-fsm.md) in the system.
+-   [Activate the Crew Operations for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-fsm-crew-scheduling.md) plugin.
+-   [Create planned crews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-crews-fsm.md) in the system.
 -   Ensure each planned crew is assigned a specific **location** and **schedule**.
 
 These steps ensure that the optimization engine can accurately match tasks to available crews based on time and geography.

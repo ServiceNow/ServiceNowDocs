@@ -2,6 +2,7 @@
 title: Add all translated Knowledge Base articles after an upgrade
 description: Complete bulk tagging after you upgrade Employee Center by running the utility script. You can determine how many disassociated Knowledge Base article translations and unlinked topics that you have, using this script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/run-utility-script-to-add-all-translated-articles-post-employee-center-app-upgrade.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

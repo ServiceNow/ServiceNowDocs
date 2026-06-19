@@ -2,6 +2,7 @@
 title: Agent and system configuration records in Task Mining
 description: Configuration records manage the behavior of the workstation agent and Task Mining environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/agent-system-configuration-records.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Task Mining, Platform Analytics]
 
 Configuration records manage the behavior of the workstation agent and Task Mining environment.
 
-For information about configuration, see [Adjust Task Mining agent parameters](../task/set-system-parameters.md).
+For information about configuration, see [Adjust Task Mining agent parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/set-system-parameters.md).
 
 |Record|Description|Default value|
 |------|-----------|-------------|
@@ -37,5 +38,5 @@ For information about configuration, see [Adjust Task Mining agent parameters](.
 |Off activity threshold|Determines the duration threshold that triggers Lock and Private activities to be reclassified as Off. Value in seconds.|7200|
 |Max treemap categories displayed|Defines the maximum number of categories displayed in a treemap. Additional categories are aggregated into a tile labeled Minor activities.|99|
 
-**Parent Topic:**[Task Mining Reference](../concept/reference-task-mining.md)
+**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
 

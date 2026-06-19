@@ -2,6 +2,7 @@
 title: Automatic case creation from emails
 description: Cases are automatically created from incoming emails from shoppers based on the keywords used by them in the subject lines and bodies of the emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/case-creation-from-emails.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -30,10 +31,10 @@ If you use the automatic case creation functionality in both Supplier Lifecycle 
 
 For example:
 
--   In SLO, set the email address to supplierhelp@acme.com for creating supplier cases. For more information, see [Enable automatic creation of supplier cases from incoming emails](../../supplier-lifecycle-operations/task/config-email-properties.md).
+-   In SLO, set the email address to supplierhelp@acme.com for creating supplier cases. For more information, see [Enable automatic creation of supplier cases from incoming emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/config-email-properties.md).
 -   In Sourcing and Procurement Operations, set the email address to procurementhelp@acme.com for creating procurement cases.
 
 This approach enables seamless case creation and accurate email-to-user mapping.
 
-**Parent Topic:**[Using Advanced Work Assignment for Source-to-Pay Operations](using-awa-spo.md)
+**Parent Topic:**[Using Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-awa-spo.md)
 

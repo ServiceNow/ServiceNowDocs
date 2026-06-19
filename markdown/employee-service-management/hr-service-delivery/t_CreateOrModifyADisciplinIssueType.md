@@ -2,6 +2,7 @@
 title: Add or modify disciplinary issue types
 description: Disciplinary issue types are misconduct that can trigger a disciplinary action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyADisciplinIssueType.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -67,5 +68,5 @@ Default types of disciplinary issues include:
 8.  Click **Save** to stay on the **HR Disciplinary Issue Type** form or **Update** to return to the **HR Disciplinary Issue Types** list.
 
 
-**Parent Topic:**[Managed lists](../concept/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

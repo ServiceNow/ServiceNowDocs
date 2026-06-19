@@ -2,6 +2,7 @@
 title: Configure a process for a clustering solution
 description: Configure a process to be able to generate a cluster analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/process-configuration-clustering.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -30,16 +31,16 @@ Configure a process to be able to generate a cluster analysis.
 
 2.  Open the process configuration for which you want to configure the cluster analysis.
 
-    Alternately, you can also choose to create a new process configuration by selecting **New**. For more information, see [Create process configuration using Classic view](create-process-config.md).
+    Alternately, you can also choose to create a new process configuration by selecting **New**. For more information, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-process-config.md).
 
-    ![Configuring cluster analysis](../image/config-cluster-analysis.png)
+    \[Omitted image "config-cluster-analysis.png"\] Alt text: Configuring cluster analysis
 
 3.  In the **Cluster Analysis** tab, select the search icon from the **Clustering solution definition** field.
 
 4.  From the Clustering Definitions list, select an existing definition from the list, or select **New** to create a new clustering solution definition form.
 
     -   The administrator and ml\_admin roles can create a new clustering solution definition.
-    -   If creating a new definition, configure the fields per guidance in [creating and training a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
+    -   If creating a new definition, configure the fields per guidance in creating and training a clustering solution.
 5.  Select **Submit**.
 
     A clustering solution definition is associated with the process for the selected table.
@@ -47,7 +48,7 @@ Configure a process to be able to generate a cluster analysis.
 
 ## What to do next
 
-[Perform a cluster analysis](request-cluster-analysis.md)
+[Perform a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/request-cluster-analysis.md)
 
-**Parent Topic:**[Cluster analysis](../concept/cluster-analysis.md)
+**Parent Topic:**[Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md)
 

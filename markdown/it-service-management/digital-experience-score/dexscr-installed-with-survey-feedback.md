@@ -2,6 +2,7 @@
 title: Components installed with Digital Experience Feedback Survey
 description: Several types of components are installed with activation of the Digital Experience Feedback Survey app, including tables and user roles. DEX Score uses the Digital Experience Feedback Survey application for configuring and storing survey information sent to employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-installed-with-survey-feedback.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -75,5 +76,5 @@ Survey Feedback Topic Definition
 Stores the areas for which the survey feedback rating is given. These areas are shown in the survey form sent out to the employees.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Experience Score​ reference](../concept/dexscr-dex-score-reference.md)
+</table>**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 

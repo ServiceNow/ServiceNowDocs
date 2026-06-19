@@ -2,6 +2,7 @@
 title: SD-WAN Alerts Dashboard
 description: Monitor and analyze SD-WAN network alerts across customers and devices, with views for today's alerts, 30-day alert history, and alert trends over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/sd-wan-alerts-dashboard.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -23,7 +24,7 @@ Access the SD-WAN Alerts Dashboard by navigating to **All** &gt; **Platform Anal
 
 The **Alert Summary** tab provides the capability to filter SD-WAN alert activity by severity, state, customer, or CI.
 
-![SD-WAN Alert Summary tab](../images/sd-wan-alert-dashboard.png)
+\[Omitted image "sd-wan-alert-dashboard.png"\] Alt text: SD-WAN Alert Summary tab
 
 |Title|Type|Description|
 |-----|----|-----------|
@@ -35,7 +36,7 @@ The **Alert Summary** tab provides the capability to filter SD-WAN alert activit
 
 The **Alert Categorization** tab displays SD-WAN alerts grouped by customer and severity.
 
-![SD-WAN Alert Categorization](../images/Events-Dashboard.png)
+\[Omitted image "Events-Dashboard.png"\] Alt text: SD-WAN Alert Categorization
 
 |Title|Type|Description|
 |-----|----|-----------|

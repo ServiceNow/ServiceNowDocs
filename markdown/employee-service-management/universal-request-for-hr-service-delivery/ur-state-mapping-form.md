@@ -2,6 +2,7 @@
 title: State mapping form
 description: Use the State Mapping form to map your service specific state to the Universal request states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-state-mapping-form.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -64,5 +65,5 @@ Universal Request template
 Select the fields that you want to populate other than the state.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Request reference](ur-reference-topic.md)
+</table>**Parent Topic:**[Universal Request reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.md)
 

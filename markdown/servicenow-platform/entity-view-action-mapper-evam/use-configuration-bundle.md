@@ -2,6 +2,7 @@
 title: View configurations, view templates, and configuration bundles for EVAM
 description: A view configuration combines conditions, database fields, and declarative actions with an associated view template. You can also group view configurations together to create configuration bundles using the Entity View Action Mapper \(EVAM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/entity-view-action-mapper-evam/use-configuration-bundle.html
 release: australia
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam

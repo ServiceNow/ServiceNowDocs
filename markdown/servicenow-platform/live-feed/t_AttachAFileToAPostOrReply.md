@@ -2,6 +2,7 @@
 title: Attach a file to a post or reply
 description: You can attach files to a post by dragging a file into a post or pasting an image from the clipboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_AttachAFileToAPostOrReply.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -21,13 +22,13 @@ Role required: none
 
 ## About this task
 
-Use the paperclip icon to drag files into a post. Additionally, you can [paste images into a post or reply from the clipboard](t_CopyAnImageFromTheClipboard.md).
+Use the paperclip icon to drag files into a post. Additionally, you can [paste images into a post or reply from the clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_CopyAnImageFromTheClipboard.md).
 
 ## Procedure
 
 1.  Do one of the following:
 
-    -   While composing a post or reply \(see [Reply to a Message](t_ReplyToAMessage.md)\), locate one or more images or other supported types of files, and drag them into the message box.
+    -   While composing a post or reply \(see [Reply to a Message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ReplyToAMessage.md)\), locate one or more images or other supported types of files, and drag them into the message box.
 
     -   Click the paperclip icon in the message box, navigate to the location of the files you want to attach, select them, and click **Open**.
 
@@ -46,5 +47,5 @@ Use the paperclip icon to drag files into a post. Additionally, you can [paste i
 7.  Click the link to download the files.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

@@ -2,6 +2,7 @@
 title: XMLNode - Scoped, Global
 description: The XMLNode API provides methods to query values from XML nodes. XMLNodes are extracted from XMLDocument2 objects, which contain XML strings.Gets the value of the attribute.Returns an object containing the node's attributes as properties with values.Gets a XMLNodeIterator object that can be used to walk through the list of child nodes.Gets the node's first child node.Gets the node's last child node.Gets the node's name. A node's name is determined by the node type. A document-element node's name is \#document. A text node's name is \#text. An element node's name is the element's name.Gets the node's value. A node's value is determined by the node type. Element and document-element nodes return null.Gets the text content of the current node. The text content of a node consists of all the node's child text nodesDetermines if the node has the specified attribute.Indicates whether the CDATA node is preserved as a separate node.Returns the string value of the current node.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_XMLNodeScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The XMLNode API provides methods to query values from XML nodes. XMLNodes are extracted from XMLDocument2 objects, which contain XML strings.
 
-There are no constructors for creating a stand alone instance of an XMLNode object. Instead, use the createElement\(\) method of [XMLDocument2](../../XMLDocument2ScopedAPI/concept/c_XMLDocument2ScopedAPI.md#), which adds a node to an existing document.
+There are no constructors for creating a stand alone instance of an XMLNode object. Instead, use the createElement\(\) method of [XMLDocument2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md), which adds a node to an existing document.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Scoped XMLNode - getAttribute\(String attribute\)
 
@@ -295,7 +296,7 @@ true
 
 Indicates whether the CDATA node is preserved as a separate node.
 
-Use the [Scoped XMLDocument2 - setEnableCDATAReporting\(Boolean enable\)](../../XMLDocument2ScopedAPI/concept/c_XMLDocument2ScopedAPI.md#) method to ensure that CDATA nodes are preserved and not handled as text.
+Use the [Scoped XMLDocument2 - setEnableCDATAReporting\(Boolean enable\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md) method to ensure that CDATA nodes are preserved and not handled as text.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -321,7 +322,7 @@ Flag that indicates whether a queried node is CDATA or plain text.Valid values:
 -   false: The node queried is plain text.
 
 </td></tr></tbody>
-</table>The following example shows how to parse an XML string with CDATA reporting enabled using [Scoped XMLDocument2 - setEnableCDATAReporting\(Boolean enable\)](../../XMLDocument2ScopedAPI/concept/c_XMLDocument2ScopedAPI.md#). The code uses isCDATANode\(\) to show that the first node queried in the XML string is a CDATA node.
+</table>The following example shows how to parse an XML string with CDATA reporting enabled using [Scoped XMLDocument2 - setEnableCDATAReporting\(Boolean enable\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLDocument2ScopedAPI.md). The code uses isCDATANode\(\) to show that the first node queried in the XML string is a CDATA node.
 
 ```
 var xmlString = "<test>" +

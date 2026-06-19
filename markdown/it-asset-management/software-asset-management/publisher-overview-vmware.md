@@ -2,6 +2,7 @@
 title: Publisher overview for VMware, Inc. in the Software Asset Workspace
 description: View license usage information related to VMware in the publisher overview for VMware, Inc. in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/publisher-overview-vmware.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ From the Software Asset Workspace, access the VMware, Inc. publisher overview by
 
 Results are updated whenever a new reconciliation result is available.
 
-![VMware, Inc. publisher overview.](../image/publsher-overview-vmware.png)
+\[Omitted image "publsher-overview-vmware.png"\] Alt text: VMware, Inc. publisher overview.
 
 You can view a summary of your license usage information in the Summary section of the VMware, Inc. publisher overview.
 
@@ -80,7 +81,7 @@ Summary of your license compliance progress.This summary includes the following 
 -   **Removal candidates**: Total number of VMware removal candidates. Select the number to view the list of all software removal candidates.
 
 </td></tr></tbody>
-</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](workbench-publisherfields-workspace.md).
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).
 
-**Parent Topic:**[Software Asset Management publisher pack for VMware](../concept/vmware-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/vmware-publisher-pack.md)
 

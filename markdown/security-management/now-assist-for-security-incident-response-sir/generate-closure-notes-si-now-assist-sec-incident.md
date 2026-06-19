@@ -2,6 +2,7 @@
 title: Generate closure notes for a security incident with Now Assist for Security Incident Response
 description: Automatically generate a draft of the closure notes for a security incident when you close it. The draft is editable and will be reviewed prior to closing the security incident, and it can be used or modified as needed. Closure notes provide information about the resolution of a security incident to other analysts, managers, and key stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -32,15 +33,15 @@ If the Close code or Close notes fields are already updated for a security incid
 
 3.  Close the security incident.
 
-<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d294636e107">
+<table id="choicetable_dkw_4rr_1cc"><thead><tr><th align="left" id="d111372e103">
 
 Option
 
-</th><th align="left" id="d294636e110">
+</th><th align="left" id="d111372e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d294636e116">
+</th></tr></thead><tbody><tr><td id="d111372e112">
 
 **Close the security incident in legacy Core UI16**
 
@@ -61,7 +62,7 @@ The resolution summary is displayed in the Resolution Information section on the
 
 **Note:** Using the Now Assist Context menu, you can directly add or generate the resolution notes in the **Close notes** section on the incident record itself, when the incident is in the **Review** state. For more information, see the screen shot below.
 
-</td></tr><tr><td id="d294636e186">
+</td></tr><tr><td id="d111372e182">
 
 **Close the security incident from the Security Incident Response Workspace**
 
@@ -87,14 +88,14 @@ The resolution summary is displayed on the **Details** tab on the security incid
 </td></tr></tbody>
 </table>    The following screen shot depicts the resolution notes generated for closing the security incident in Core UI16.
 
-    ![Close the security incident - Resolution notes generated in Core UI16.](../image/NA-RN-UI16.png)
+    \[Omitted image "NA-RN-UI16.png"\] Alt text: Close the security incident - Resolution notes generated in Core UI16.
 
     Auto-generated resolution notes from the Security Incident Response Workspace.
 
-    ![Resolution Notes on the Security Incident Response workspace](../image/NA-RN-NAPanel.png)
+    \[Omitted image "NA-RN-NAPanel.png"\] Alt text: Resolution Notes on the Security Incident Response workspace
 
     Edit the resolution notes generated using the Now Assist context menu on the Security Incident Response workspace.
 
-    ![Now Assist Context menu for the Close notes.](../image/NA-R-notes.png)
+    \[Omitted image "NA-R-notes.png"\] Alt text: Now Assist Context menu for the Close notes.
 
 

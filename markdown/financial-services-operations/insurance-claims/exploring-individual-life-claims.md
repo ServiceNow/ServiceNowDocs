@@ -2,13 +2,14 @@
 title: Exploring Individual Life Claims
 description: Learn how your first-notice-of-loss \(FNOL\) representatives, adjusters, and managers can use Individual Life Claims to create and manage individual life insurance claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/exploring-individual-life-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Individual Life Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Individual Life Claims

@@ -2,6 +2,7 @@
 title: Planned Savings \(Current Year\) metric calculation
 description: Planned Savings \(Current Year\) shows the projected savings from pipeline projects in Planned state—projects approved and scheduled but not yet started. This metric uses the Targeted savings field to represent future savings goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-planned-savings-current-year.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -90,5 +91,5 @@ The final aggregation sums the prorated values:
 |PIPE-202|$500,000.00|
 |**Total Planned Savings \(Current Year\)**|**$680,000.00**|
 
-**Parent Topic:**[Pipeline management tab](pipeline-mgmt-tab.md)
+**Parent Topic:**[Pipeline management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pipeline-mgmt-tab.md)
 

@@ -2,6 +2,7 @@
 title: Create OAuth 2.0 Client in Lucidchart
 description: Integrate your ServiceNow instance with your Lucidchart account. Create a custom OAuth application in Lucidchart to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-lucidchart.html
 release: australia
 product: Integration Hub
 classification: integration-hub

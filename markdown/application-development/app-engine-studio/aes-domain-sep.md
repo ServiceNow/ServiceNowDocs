@@ -2,6 +2,7 @@
 title: AES and domain separation
 description: In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is unsupported for App Engine Studio \(AES\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-domain-sep.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -20,12 +21,12 @@ Domain separation is unsupported for App Engine Studio \(AES\). Domain separatio
 -   The domain field may exist on data tables but there is no business logic to manage the data.
 -   This level is not considered domain-separated.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
-**Parent Topic:**[Configuring App Engine Studio and related apps](aes-setup.md)
+**Parent Topic:**[Configuring App Engine Studio and related apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-setup.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

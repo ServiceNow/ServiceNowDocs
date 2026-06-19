@@ -2,6 +2,7 @@
 title: Create supplier tasks for the action plan
 description: Create supplier tasks for the affected KPIs in the action plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-tasks-for-the-action-plan.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -25,7 +26,7 @@ Role required: sn\_kpi.admin
 
 2.  Select **Create**.
 
-    The **Crate new action plan item** dialog box is displayed.![Create new action plan item dialog box for creating supplier task](../image/create-supplier-task.png)
+    The **Crate new action plan item** dialog box is displayed.\[Omitted image "create-supplier-task.png"\] Alt text: Create new action plan item dialog box for creating supplier task
 
 3.  Select **Supplier task**.
 
@@ -61,5 +62,9 @@ Role required: sn\_kpi.admin
 8.  Select **Save** to create and save the new supplier task.
 
 
-**Parent Topic:**[Create action plan for KPIs](create-action-plan-for-kpis.md)
+## Result
+
+The supplier tasks are visible to the supplier in the portal view.
+
+**Parent Topic:**[Create action plan for KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.md)
 

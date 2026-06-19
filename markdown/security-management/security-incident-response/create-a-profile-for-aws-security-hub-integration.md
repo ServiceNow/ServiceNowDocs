@@ -2,6 +2,7 @@
 title: Create a profile for AWS Security Hub finding integration
 description: Create an AWS Security Hub profile in your ServiceNow AI Platform instance which you are going to use to ingest data from AWS Security Hub and create a corresponding security incident in Security Incident Response Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-a-profile-for-aws-security-hub-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

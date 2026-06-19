@@ -2,6 +2,7 @@
 title: View applicant's scheduling preferences
 description: As a recruiter, view the scheduling preferences shared by applicants to schedule interviews accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/view-applicant-availability.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -31,8 +32,8 @@ Role required: sn\_ta\_hiring\_core.recruiter or sn\_ta\_hiring\_core.recruitmen
 
     The scheduling preferences shared by the applicant are displayed.
 
-    **Note:** You can only view the scheduling preferences if the applicants have shared the details after you have requested for it. For more information, see [Request applicant to share scheduling preferences](request-applicant-availability.md).
+    **Note:** You can only view the scheduling preferences if the applicants have shared the details after you have requested for it. For more information, see [Request applicant to share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/request-applicant-availability.md).
 
 
-**Parent Topic:**[Using Interview Management](../concept/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/using-interview-mgmnt.md)
 

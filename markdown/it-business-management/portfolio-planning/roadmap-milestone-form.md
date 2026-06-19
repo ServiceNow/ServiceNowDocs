@@ -2,6 +2,7 @@
 title: Roadmap milestone form
 description: Learn about the fields of the roadmap milestone form. Use this form to create a milestone for the timeline of your roadmap in Portfolio Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/roadmap-milestone-form.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -60,5 +61,5 @@ Assigned to
 User who is assigned to the milestone.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Portfolio Planning](form-field-information-for-portfolio-planning.md)
+</table>**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

@@ -2,6 +2,7 @@
 title: Specify field for attached Knowledge article links
 description: Specify which field to add a note to when you attach a Knowledge article to a record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/specify-field-copy-kb-article.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -37,7 +38,7 @@ You can specify the local field using the following procedure.
 
 3.  Select the Search Action Configurations related list.
 
-    ![Field where a link to the Knowledge article is embedded.](../image/polaris-ui-kb-attach-field.png)
+    \[Omitted image "polaris-ui-kb-attach-field.png"\] Alt text: Field where a link to the Knowledge article is embedded.
 
 4.  For each search action that you want to change the default field for, perform the following steps:
 
@@ -64,5 +65,5 @@ Clear the system cache to make sure the changed field specification applies. You
 
 Clearing the system cache can affect overall performance and degrade system response times. Don't run cache flushes during business hours, and don't trigger cache flushes automatically.
 
-**Parent Topic:**[Attach a Knowledge article](t_AttachAnArticle.md)
+**Parent Topic:**[Attach a Knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_AttachAnArticle.md)
 

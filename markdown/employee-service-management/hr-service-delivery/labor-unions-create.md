@@ -2,13 +2,14 @@
 title: Create a labor union
 description: Create a union with details that identify it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/labor-unions-create.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up labor unions, Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Components installed with Labor Unions, Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a labor union
@@ -17,7 +18,7 @@ Create a union with details that identify it.
 
 ## Before you begin
 
-Role required: admin
+Role required: HR admin \[sn\_hr\_core.admin\]
 
 **Note:** You must create a union before you can create local chapters and union contacts.
 
@@ -39,8 +40,11 @@ Role required: admin
 
     If you select **Save**, the **Local Union Chapters** and **Labor Union Contacts** tabs appear.
 
-    **Note:** For more information on **Local Union Chapters**, see [Create a local chapter](labor-unions-local-chapter.md). For more information on **Labor Union Contacts**, see [Create union contacts](labor-union-contacts.md).
 
+## What to do next
 
-**Parent Topic:**[Setting up labor unions](../concept/labor-unions-setting-up.md)
+-   [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md)
+-   [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-union-contacts.md)
+
+**Parent Topic:**[Components installed with Labor Unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)
 

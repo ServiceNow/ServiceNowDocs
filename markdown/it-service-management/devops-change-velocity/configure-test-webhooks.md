@@ -2,6 +2,7 @@
 title: Configure and test webhooks
 description: Manually configure webhooks in Azure DevOps and test them.Configure webhooks in Azure DevOps to send sync notifications to the DevOps Change Velocity application.You can manually test if webhooks are configured correctly directly from Azure DevOps for each project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/configure-test-webhooks.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -15,7 +16,7 @@ breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Managem
 
 Manually configure webhooks in Azure DevOps and test them.
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 
 ## Configure webhooks in Azure DevOps manually
 
@@ -37,13 +38,13 @@ You can also access manual configuration from the Azure DevOps tool record in De
 
 3.  In DevOps Change Velocity, choose **Configure manually** when configuring the tool instance to send data.
 
-    ![Azure DevOps configuring tool](../image/azure-plybk-13.png)
+    \[Omitted image "azure-plybk-13.png"\] Alt text: Azure DevOps configuring tool
 
 4.  In DevOps Change Velocity, copy the **Webhook URL** field from the ServiceNow instance connection details for Azure DevOps.
 
     **Note:** Select **Copy** in the appropriate field to copy the value to your clipboard. The field label changes to **Copied**, but you can copy multiple times.
 
-    ![Azure DevOps configure webhooks manually](../image/azure-manual-webhooks-3.png)
+    \[Omitted image "azure-manual-webhooks-3.png"\] Alt text: Azure DevOps configure webhooks manually
 
 5.  Modify the copied Webhook URL to reflect your tool details, and paste the URL in Azure DevOps.
 
@@ -100,7 +101,7 @@ HTTP headers
  `token : <tokenValue>`
 
 </td></tr></tbody>
-</table>    ![Azure DevOps configure webhooks manually](../image/azure-manual-webhooks.png)
+</table>    \[Omitted image "azure-manual-webhooks.png"\] Alt text: Azure DevOps configure webhooks manually
 
 
 ## Test webhooks in Azure DevOps
@@ -132,31 +133,31 @@ Role required: Azure DevOps admin privileges
 
 4.  Select **Next** to see the URL and authentication details.
 
-    ![Details of the configured webhook.](../image/azure-test-wh-01.png)
+    \[Omitted image "azure-test-wh-01.png"\] Alt text: Details of the configured webhook.
 
 5.  To test the webhook, select **Test**.
 
     -   If the webhook is configured correctly, you’ll receive a **Succeeded** message.
 
-        ![Success message when webhook is configured correctly.](../image/azure-test-wh-02.png)
+        \[Omitted image "azure-test-wh-02.png"\] Alt text: Success message when webhook is configured correctly.
 
     -   If the webhook is configured incorrectly, you’ll receive a **Failed** message.
 
-        ![Failure message when webhook is configured correctly.](../image/azure-test-wh-03.png)
+        \[Omitted image "azure-test-wh-03.png"\] Alt text: Failure message when webhook is configured correctly.
 
         To fix a webhook, you can try the following options:
 
         -   Reconfigure the webhooks by selecting **Configure** from the project record page in DevOps Change Velocity. This will reconfigure all the existing webhooks for the project.
         -   Verify if the **toolId** and **projectId** are correct in the **URL** field. You can find the correct values in the tool record page in DevOps Change Velocity.
 
-            ![toolId and projectId in the URL.](../image/azure-test-wh-04.png)
+            \[Omitted image "azure-test-wh-04.png"\] Alt text: toolId and projectId in the URL.
 
         -   If you're using the integration user credentials for authentication, check if the credentials are correct in the **Basic authentication** username and password fields.
 
-            ![Basic authentication fields in the webhook.](../image/azure-test-wh-05.png)
+            \[Omitted image "azure-test-wh-05.png"\] Alt text: Basic authentication fields in the webhook.
 
         -   If you're using the secret token for authentication, the token value is masked in the **Basic authentication password** field. You can replace the token in this field.
 
-            ![Token in the webhook.](../image/azure-test-wh-06.png)
+            \[Omitted image "azure-test-wh-06.png"\] Alt text: Token in the webhook.
 
 

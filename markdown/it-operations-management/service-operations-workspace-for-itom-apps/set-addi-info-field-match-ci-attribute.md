@@ -2,11 +2,12 @@
 title: Set additional info fields to match CI attribute format
 description: Set additional info fields in alerts to match the field and value format of CI attributes in CI records. This ensures accurate alert-to-CI binding, improving alert tracking and reducing manual effort.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/set-addi-info-field-match-ci-attribute.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Create Enrich automation, Alert automation in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -29,17 +30,17 @@ The system attempts to match the **Additional Info** fields of the alert with at
 
 1.  Under **Improve configuration item \(CI\) identification**, in the **Select which CI class you'd like to identify** field, select the CI class.
 
-    ![Improve configuration item (CI) identification option](../image/sow-enrich-ci-binding-0.png)
+    \[Omitted image "sow-enrich-ci-binding-0.png"\] Alt text: Improve configuration item \(CI\) identification option
 
 2.  Select **View items** next to the **Select which CI class you'd like to identify** field to open the list of CIs of the selected CI class.
 
-    ![List of CIs](../image/sow-enrich-ci-binding-1.png)
+    \[Omitted image "sow-enrich-ci-binding-1.png"\] Alt text: List of CIs
 
 3.  Select a CI name to open its details or record page.
 
     At least one field and its corresponding value from the CI details page must appear in the **Additional info** field of the alert.
 
-    ![Details of a CI](../image/sow-enrich-ci-binding-2.png)
+    \[Omitted image "sow-enrich-ci-binding-2.png"\] Alt text: Details of a CI
 
 4.  In the Enrich Alerts page, use **Extract fields**, **Copy or Compose fields**, and **Change alert values** to set at least one **Additional info** field in your alert to precisely match the field and value format of the CI attributes in the CI record.
 
@@ -47,6 +48,6 @@ The system attempts to match the **Additional Info** fields of the alert with at
 
     Map the `${u_host_host}` field to a new field called **name**. This field is added to the **Additional info** and is used for CI identification during the binding stage.
 
-    ![Fields and its corresponding values from the CI details page appear in the Additional info field of the alert.](../image/sow-enrich-ci-binding-3.png)
+    \[Omitted image "sow-enrich-ci-binding-3.png"\] Alt text: Fields and its corresponding values from the CI details page appear in the Additional info field of the alert.
 
 

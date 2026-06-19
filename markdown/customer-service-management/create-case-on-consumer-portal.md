@@ -1,8 +1,11 @@
 ---
 title: Get product help from the Consumer Portal
-description: Create cases from the Consumer Portal using the consumer role.
+description: Submit a case from the Consumer Portal to get help with a product question or issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-on-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -11,7 +14,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Get product help from the Consumer Portal
 
-Create cases from the Consumer Portal using the consumer role.
+Submit a case from the Consumer Portal to get help with a product question or issue.
 
 ## Before you begin
 

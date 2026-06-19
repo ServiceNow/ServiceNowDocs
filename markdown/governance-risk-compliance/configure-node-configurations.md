@@ -2,6 +2,7 @@
 title: Configure the Node configurations
 description: Configure the settings for the selected node. It helps you to determine the UI display in the Nexus map. You can select the table associated with the node and configure the primary label, icon, secondary label, tooltip, and so on for the node.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-node-configurations.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,15 +26,15 @@ Role required: sn\_oper\_res.admin
 
     The following example shows the Nexus map configuration record with the Node configurations related list.
 
-    ![Tab1.](../image/nexus-map-config-record-tab1.png)
+    \[Omitted image "nexus-map-config-record-tab1.png"\] Alt text: Tab1.
 
 3.  In the Node configurations related list, select **New**.
 
     The Node configuration new record is displayed as shown in the example.
 
-    ![Node configuration new record.](../image/node-config-new-record.png)
+    \[Omitted image "node-config-new-record.png"\] Alt text: Node configuration new record.
 
-    For more information on the fields, see [Node configuration form](../reference/node-configuration-form.md).
+    For more information on the fields, see [Node configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/node-configuration-form.md).
 
 4.  Select the table in the **Table** field.
 
@@ -55,7 +56,7 @@ Role required: sn\_oper\_res.admin
 
     A sample record with the details filled in is shown for reference.
 
-    ![Sample.](../image/node-config-sample.png)
+    \[Omitted image "node-config-sample.png"\] Alt text: Sample.
 
 11. To clear the selections for the context record, primary label, secondary label, tooltip, select **Clear selections**.
 
@@ -63,10 +64,10 @@ Role required: sn\_oper\_res.admin
 
     The Node configuration record is displayed in the Nexus map configurations related list.
 
-    ![Record.](../image/nexus-map-config-record-tab1.png)
+    \[Omitted image "nexus-map-config-record-tab1.png"\] Alt text: Record.
 
 
 ## What to do next
 
-To customize the map display such as assigning specific colors and icons to nodes that meet certain conditions, configure the Node status configuration. For more information, see [Configure the Node status configurations](configure-node-status-configurations.md).
+To customize the map display such as assigning specific colors and icons to nodes that meet certain conditions, configure the Node status configuration. For more information, see [Configure the Node status configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-node-status-configurations.md).
 

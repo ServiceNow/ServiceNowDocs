@@ -2,6 +2,7 @@
 title: Updated hardening settings
 description: Updated hardening settings are broken out for each baseline release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/hardening-settings-updated.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -15,18 +16,18 @@ breadcrumb: [Baseline versions, Hardening settings, Platform Security]
 
 Updated hardening settings are broken out for each baseline release.
 
--   **[Updated hardening settings for baseline version 8.0](updated-hardening-settings-for-baseline-version-eight.md)**  
+-   **[Updated hardening settings for baseline version 8.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/updated-hardening-settings-for-baseline-version-eight.md)**  
 Some hardening settings have been updated with the release of Security Center baseline version 8.0.
--   **[Updated hardening settings for baseline version 7.0](updated-hardening-settings-for-baseline-version-seven.md)**  
+-   **[Updated hardening settings for baseline version 7.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/updated-hardening-settings-for-baseline-version-seven.md)**  
 Some hardening settings have been updated with the release of Security Center baseline version 7.0.
--   **[Updated hardening settings for baseline version 6.0](updated-hardening-settings-for-baseline-version-six.md)**  
+-   **[Updated hardening settings for baseline version 6.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/updated-hardening-settings-for-baseline-version-six.md)**  
 Some hardening settings have been updated with the release of Security Center baseline version 6.0.
--   **[Updated hardening settings for baseline version 5.0](updated-hardening-settings-for-baseline-version-five.md)**  
+-   **[Updated hardening settings for baseline version 5.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/updated-hardening-settings-for-baseline-version-five.md)**  
 Some hardening settings have been updated with the release of Security Center baseline version 5.0.
--   **[Updated hardening settings for baseline version 4.0](updated-hardening-settings-for-baseline-version-four.md)**  
+-   **[Updated hardening settings for baseline version 4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/updated-hardening-settings-for-baseline-version-four.md)**  
 Some hardening settings have been updated with the release of Security Center baseline version 4.0.
--   **[Updated hardening settings for baseline version 2.0](updated-hardening-settings.md)**  
+-   **[Updated hardening settings for baseline version 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/updated-hardening-settings.md)**  
 Some hardening settings have been updated with the release of Security Center baseline version 2.0.
 
-**Parent Topic:**[Hardening settings baseline versions](hardening-settings-baseline.md)
+**Parent Topic:**[Hardening settings baseline versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/hardening-settings-baseline.md)
 

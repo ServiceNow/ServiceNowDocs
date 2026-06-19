@@ -2,6 +2,7 @@
 title: Add or modify HR systems
 description: You can add or modify an HR operations system using the HR Administration module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyHROpSystem.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,5 +51,5 @@ Role required: sn\_hr\_core.basic or sn\_hr\_core.manager
 7.  Click **Save** to stay on the **HR Operations System** form or **Update** to return to the **HR Operations Systems** list.
 
 
-**Parent Topic:**[Managed lists](../concept/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

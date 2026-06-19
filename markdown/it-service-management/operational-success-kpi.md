@@ -2,7 +2,10 @@
 title: Platform Analytics KPIs and dashboards
 description: Use the dashboards to monitor the operational KPIs and identify areas for improvement, optimize processes, to achieve their strategic goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/operational-success-kpi.html
 release: australia
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

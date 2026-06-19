@@ -2,6 +2,7 @@
 title: Now Assist for Strategic Portfolio Management \(SPM\)
 description: Use the ServiceNow Now Assist for Strategic Portfolio Management \(SPM\) application to summarize feedback in Strategic Planning or text in Docs, create a demand with a conversational experience, generate insights for projects, and generate stories from epics. Product, project, and demand managers can use the Now Assist skills and AI agents to streamline their projects and workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -19,23 +20,23 @@ Use the ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) appli
 
 <table id="table_xsp_hjf_1zb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for SPM](exploring-now-assist-for-spm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/exploring-now-assist-for-spm.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the application to get started with Now Assist for SPM](configuring-na-spm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the application to get started with Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md)
 
 </td><td>
 
-[Use AI agents![](../../../reuse/icons/brand-icons/bus-virtual-agent.svg)Use the generative AI agents of Now Assist for SPM](using-na-spm-ai-agents.md)
+[Use AI agents\[Omitted image "bus-virtual-agent.svg"\] Alt text:Use the generative AI agents of Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-spm-ai-agents.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use the generative AI capabilities of Now Assist for SPM](using-now-assist-for-spm.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities of Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-now-assist-for-spm.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about forms and fields of Now Assist for SPM](../reference/now-assist-spm-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about forms and fields of Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm-reference.md)
 
 </td><td>
 
@@ -49,7 +50,7 @@ Use the ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) appli
 -   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then you can set skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then you can set skill-level preferences in the Now Assist Admin console.
 
 ## Troubleshoot and get help
 
@@ -66,11 +67,11 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 
 ## Now assist tiers
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 

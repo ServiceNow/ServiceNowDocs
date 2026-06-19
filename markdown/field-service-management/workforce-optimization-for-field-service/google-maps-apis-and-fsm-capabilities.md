@@ -2,6 +2,7 @@
 title: Google Maps APIs for Field Service capabilities
 description: Field Service requires Google Maps API configuration for users to operate location features properly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/google-maps-apis-and-fsm-capabilities.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

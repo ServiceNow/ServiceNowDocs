@@ -2,6 +2,7 @@
 title: Adding applications in ServiceNow IDE
 description: Add applications in the ServiceNow IDE to get started with development in source code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/creating-applications-servicenow-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -15,20 +16,20 @@ breadcrumb: [ServiceNow IDE, Building applications in source code, Building pro-
 
 Add applications in the ServiceNow IDE to get started with development in source code.
 
-1.  [Create a workspace in the ServiceNow IDE](../task/create-workspace-servicenow-ide.md)
+1.  [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md)
 
     Create a workspace in which you can add applications in the ServiceNow IDE.
 
 2.  Get started developing an application in source code by creating an application, converting an existing application, or cloning an existing application from a Git repository:
-    -   [Create an application with the ServiceNow IDE](../task/create-application-servicenow-ide.md)
+    -   [Create an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-application-servicenow-ide.md)
 
         Create an application that supports development in source code.
 
-    -   [Convert an application with the ServiceNow IDE](../task/convert-application-servicenow-ide.md)
+    -   [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
 
         Convert an existing application to support development in source code.
 
-    -   [Clone a Git repository with the ServiceNow IDE](../task/clone-git-repository-servicenow-ide.md)
+    -   [Clone a Git repository with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.md)
 
         Clone an existing application that supports development in source code from a remote Git repository.
 

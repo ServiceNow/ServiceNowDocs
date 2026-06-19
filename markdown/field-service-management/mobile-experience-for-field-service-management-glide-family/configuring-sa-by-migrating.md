@@ -2,6 +2,7 @@
 title: Migrating to Smart Assessment from survey-based questionnaire
 description: You can configure Smart Assessment questionnaires by migrating from existing survey-based questionnaires and use smart assessments to gather data from users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-sa-by-migrating.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -17,7 +18,7 @@ You can configure Smart Assessment questionnaires by migrating from existing sur
 
 The steps to migrate from survey-based questionnaires are:
 
-1.  [Migrate a survey-based questionnaire to Smart Assessment](../task/migrate-to-smart-assessment-template.md)
-2.  [Author and publish a Smart Assessment template](../task/create-a-smart-assessment-template.md)
-3.  [Migrate survey instances to Smart Assessment](../task/migrate-survey-instances-to-smart-assessment.md)
+1.  [Migrate a survey-based questionnaire to Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/migrate-to-smart-assessment-template.md)
+2.  [Author and publish a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/create-a-smart-assessment-template.md)
+3.  [Migrate survey instances to Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/migrate-survey-instances-to-smart-assessment.md)
 

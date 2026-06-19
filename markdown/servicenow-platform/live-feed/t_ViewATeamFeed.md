@@ -2,6 +2,7 @@
 title: View a team feed
 description: View a team feed to see messages belonging to that team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_ViewATeamFeed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -31,5 +32,5 @@ Role required: admin
         You must be a member to view the feed for a private team.
 
 
-**Parent Topic:**[Use teams in Live Feed](../concept/c_UseTeamsInLiveFeed.md)
+**Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 

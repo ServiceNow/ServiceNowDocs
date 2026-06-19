@@ -2,6 +2,7 @@
 title: TuneUp Your Security
 description: Guidance on platform security
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-your-security.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,9 +20,11 @@ Guidance on platform security
 
 TuneUp Your Security provides Impact customers with insight into their existing ServiceNow instance security configurations, instance security leading practices, and a demonstration on which instance security settings may be enabled to further enhance instance security. It aims to help customers better understand security configuration changes in the context of ServiceNow’s published security guidance.
 
-**Note:** This Accelerator is available in Guided, Advanced, and Total Packages.
+## Package Availability
 
-Offered pursuant to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 

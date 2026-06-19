@@ -2,6 +2,7 @@
 title: Create a cryptographic module life-cycle policy
 description: Create a cryptographic module life-cycle policy to place limits on cryptographic modules, such as how long the key is good for. Create policies to safeguard cryptographic modules by limiting their exposure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/create-cryptographic-module-lifecycle-policy.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -52,10 +53,10 @@ The following features govern cryptographic modules:
 
 ## What to do next
 
-If you want to add exceptions to this life-cycle policy at the module level, see [Create module life-cycle policy exceptions](create-module-policy-exceptions.md).
+If you want to add exceptions to this life-cycle policy at the module level, see [Create module life-cycle policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-module-policy-exceptions.md).
 
--   **[Create module life-cycle policy exceptions](create-module-policy-exceptions.md)**  
+-   **[Create module life-cycle policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-module-policy-exceptions.md)**  
 Create a module policy exception to change the life-cycle policy of a key only for a specific on one instance.
 
-**Parent Topic:**[Configuring the Key Management Framework](../../encryption/concept/configure-kmf.md)
+**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-kmf.md)
 

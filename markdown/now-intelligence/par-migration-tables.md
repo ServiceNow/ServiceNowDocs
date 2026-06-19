@@ -2,6 +2,7 @@
 title: Platform Analytics migration tables
 description: The following tables are used in the process of migrating to Platform Analytics. Each row of the bridging tables states the migration type: bulk, owner, list, or upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/par-migration-tables.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

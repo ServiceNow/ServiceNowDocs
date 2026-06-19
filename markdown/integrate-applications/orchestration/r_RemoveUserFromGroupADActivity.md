@@ -2,6 +2,7 @@
 title: Remove User from Group AD activity
 description: The Remove User from Group activity removes a user from a group in Windows Active Directory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_RemoveUserFromGroupADActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -30,7 +31,7 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Variable|Description|
 |--------|-----------|
 |result|Either **success** or **failure**.|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](../../orchestration-activity-designer/task/t_CreateAParsingRule.md#).|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md).|
 
 ## Conditions
 
@@ -39,5 +40,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Success|User was successfully removed from the group.|
 |Failure|An error occurred while attempting to remove the user from the group. Additional details may be available in the workflow log.|
 
-**Parent Topic:**[Active Directory activity pack](../concept/c_OrchActiveDirectoryActivities.md)
+**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchActiveDirectoryActivities.md)
 

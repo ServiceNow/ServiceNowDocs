@@ -2,20 +2,21 @@
 title: Personal Data Rights \(PDR\) external-facing form
 description: The Personal Data Rights \(PDR\) external-facing form enables secure submission of Data Subject Requests \(DSRs\) from a public website, without logging in. The form is customizable, supports jurisdiction-based privacy rights, and verifies requester identity via email before creating a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/pdr-external-facing.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Personal Data Rights \(PDR\) external-facing form
 
 The Personal Data Rights \(PDR\) external-facing form enables secure submission of Data Subject Requests \(DSRs\) from a public website, without logging in. The form is customizable, supports jurisdiction-based privacy rights, and verifies requester identity via email before creating a case.
 
-The Personal Data Rights \(PDR\) external-facing form enables customers, ex-employees, or third party individuals to securely initiate Data Subject Requests \(DSRs\), without logging into internal portals. Organizations can embed a dedicated PDR form URL into their public website or privacy page, enabling a requester to submit a privacy request end‑to‑end while the system verifies identity through email-based verification before a case is created. The PDR form is customizable and can be easily embedded on external sites.
+The PDR external-facing form enables customers, ex-employees, or third-party individuals to securely initiate Data Subject Requests \(DSRs\), without logging into internal portals. Organizations can embed a dedicated PDR form URL into their public website or privacy page. This enables a requester to submit a privacy request end‑to‑end while the system verifies identity through email-based verification before a case is created. The PDR form is customizable and can be easily embedded on external sites.
 
 ## Audience
 

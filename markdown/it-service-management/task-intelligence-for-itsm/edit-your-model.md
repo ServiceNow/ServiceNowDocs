@@ -2,6 +2,7 @@
 title: Edit an incident prediction model in Task Intelligence for ITSM
 description: Edit either the Similar Incidents or Incident Categorization model that has already been trained and deployed. Change the model configurations, view the updated training results, and redeploy the model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/edit-your-model.html
 release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -17,7 +18,7 @@ Edit either the Similar Incidents or Incident Categorization model that has alre
 
 ## Before you begin
 
-A prediction model must already be created, trained, and deployed. For more information on how to create a model, see [Managing Task Intelligence for ITSM models](../concept/using-task-intelligence-itsm.md).
+A prediction model must already be created, trained, and deployed. For more information on how to create a model, see [Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md).
 
 Role required: sn\_ti\_admin.tia\_admin or sn\_itsm\_ml\_task.ti\_admin
 
@@ -25,7 +26,7 @@ Role required: sn\_ti\_admin.tia\_admin or sn\_itsm\_ml\_task.ti\_admin
 
 You have two options for editing your model: view the current training results or retrain the model. The first time you edit a model, a pop-up appears to ask you which option you would like to take.
 
-![UI of the popup options to edit your model.](../image/ti-edit-model.png)
+\[Omitted image "ti-edit-model.png"\] Alt text: UI of the popup options to edit your model.
 
 Resetting your prediction preferences enables you to change how visible the predictions are for agents. Retraining your model enables you to select new data for training, which changes the prediction capabilities of the model.
 
@@ -37,7 +38,7 @@ Changes aren’t saved until you redeploy the model. The updated model replaces 
 
 1.  Navigate to **All** &gt; **Task Intelligence for ITSM** &gt; **Setup**.
 
-2.  From the **Models** list, select the menu \(![Menu icon](../../configurable-workforce-optimization-itsm/image/menu-icon.png)\) icon of the model you want to edit, and then select **Edit Model**.
+2.  From the **Models** list, select the menu \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) icon of the model you want to edit, and then select **Edit Model**.
 
 3.  Modify the fields to get the required predictions.
 
@@ -45,7 +46,7 @@ Changes aren’t saved until you redeploy the model. The updated model replaces 
 
     A warning message appears.
 
-    ![Warning message.](../image/ti-edit-model-retrain.png)
+    \[Omitted image "ti-edit-model-retrain.png"\] Alt text: Warning message.
 
 5.  Select **Retrain**.
 
@@ -61,7 +62,7 @@ Changes aren’t saved until you redeploy the model. The updated model replaces 
 
     The **Deploy your model** screen loads and shows the changes that you made indicated in yellow. If you don't want to deploy the changes, select **Discard changes**.
 
-    ![UI of the page to review the model changes.](../image/ti-edit-retrain-review.png)
+    \[Omitted image "ti-edit-retrain-review.png"\] Alt text: UI of the page to review the model changes.
 
 10. Review the model and select **Redeploy**.
 
@@ -70,5 +71,5 @@ Changes aren’t saved until you redeploy the model. The updated model replaces 
 
 Your updated model is deployed.
 
-**Parent Topic:**[Managing Task Intelligence for ITSM models](../concept/using-task-intelligence-itsm.md)
+**Parent Topic:**[Managing Task Intelligence for ITSM models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/using-task-intelligence-itsm.md)
 

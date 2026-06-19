@@ -2,6 +2,7 @@
 title: Manage third-party RFx tasks in Employee Center
 description: Requesters can view and manage third-party Request for anything \(RFx\) tasks in the Employee Center and navigate to the third-party sourcing tool to review, publish, and award RFx.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/third-party-rfx-task-management-for-requestors.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,13 +24,13 @@ Role required: sn\_shop.shopper
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
-    ![RFx tasks in Employee Center homepage.](../image/rfx-task-homepage.png)
+    \[Omitted image "rfx-task-homepage.png"\] Alt text: RFx tasks in Employee Center homepage.
 
     RFx tasks appear on the home page and display their closure deadline.
 
 2.  Select **View details** on any RFx task to review:
 
-    ![RFx task details.](../image/rfx-task-details.png)
+    \[Omitted image "rfx-task-details.png"\] Alt text: RFx task details.
 
     -   Sourcing request
     -   Status
@@ -43,5 +44,5 @@ Role required: sn\_shop.shopper
 
 You’re redirected to the third-party sourcing tool to complete required actions, such as reviewing, publishing, or awarding RFx. The task closes automatically when the event is completed, or can be closed manually.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](../concept/psm-integration-third-party-sourcing.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-integration-third-party-sourcing.md)
 

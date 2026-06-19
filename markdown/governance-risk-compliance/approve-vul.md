@@ -2,6 +2,7 @@
 title: Approve the operational vulnerability
 description: Approve the Operational vulnerability record after verifying its details such as the root cause analysis, treatment plan, timelines, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/approve-vul.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Role required: sn\_oper\_res.manager, sn\_oper\_res.admin, approver of the vulne
 
     The state of the operational vulnerability is updated from **Requested** to **Approved**. The state transition in the Approvers related list is shown in the example.
 
-    ![Update the state.](../image/update-vul-to-approved.png)
+    \[Omitted image "update-vul-to-approved.png"\] Alt text: Update the state.
 
     The state of the operational vulnerability record is updated to **Approved**. The fields on the vulnerability record are now locked.
 

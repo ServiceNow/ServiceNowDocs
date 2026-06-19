@@ -2,6 +2,7 @@
 title: Video hosting integrations framework
 description: Connect Content Publishing with a video hosting service, to make the hosted videos available for content authoring and publishing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/content-providers.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,7 +34,7 @@ Content Publishing offers content managers the ability to build content using vi
 
 -   **Content processor**
 
-    Content processors provide an interface to configure API calls to the video hosting service. They are powered by subflows from the Flow Designer. For more information, see [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+    Content processors provide an interface to configure API calls to the video hosting service. They are powered by subflows from the Flow Designer. For more information, see .
 
     There are two actions available:
 
@@ -54,10 +55,10 @@ The following process overview guides you through setting up content providers s
 
 1.  The following domains are available out-of-the-box: youtube.com, player.vimeo.com, vimeo.com,players.brightcove.net, and brightcove.net.
 
-    To configure an additional domain, the system admin must add the host domain to the `glide.html.enable_media_sites` system property. For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+    To configure an additional domain, the system admin must add the host domain to the `glide.html.enable_media_sites` system property. For more information, see 
 
-2.  [Configure content provider and mapping](../task/configure-content-provider.md)
-3.  \(Optional\) If the video hosting service contains private videos that require credentials, [Configure a video authorization](../task/configure-content-processor.md)
-4.  \(Optional\) To provide content managers with an interface where they can select a video, [Configure video content search](../task/configure-content-search.md)
-5.  \(Optional\) To add interface elements to the Rich Content Editor video picker, [Configure content rendering parameter](../task/configure-content-rendering-parameter.md)
+2.  [Configure content provider and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-content-provider.md)
+3.  \(Optional\) If the video hosting service contains private videos that require credentials, [Configure a video authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-content-processor.md)
+4.  \(Optional\) To provide content managers with an interface where they can select a video, [Configure video content search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-content-search.md)
+5.  \(Optional\) To add interface elements to the Rich Content Editor video picker, [Configure content rendering parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-content-rendering-parameter.md)
 

@@ -2,6 +2,7 @@
 title: Script Debugger Scripts - Background support
 description: The Scripts - Background module does not support setting breakpoints directly in the script field. You can however, set breakpoints in the script objects called or triggered by the Scripts - Background module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/scripts-background-support.html
 release: australia
 product: Scripts
 classification: scripts
@@ -21,5 +22,5 @@ While running arbitrary JavaScript code in the **Scripts - Background** module, 
 -   Trigger a business rule containing breakpoints.
 -   Trigger a script action containing breakpoints.
 
-**Parent Topic:**[Script Debugger and Session Log](script-debugger.md)
+**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debugger.md)
 

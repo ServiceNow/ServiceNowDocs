@@ -2,6 +2,7 @@
 title: Upload document from My Tasks page
 description: Complete the document upload tasks assigned to you from the My tasks page on the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/upload-document-from-my-tasks-page.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -33,10 +34,10 @@ Role required: sn\_slm.contact
 
 5.  In the Attachments section, upload your document.
 
-    ![Attachments section for uploading documents](../image/doc-upload-my-tasks.png)
+    \[Omitted image "doc-upload-my-tasks.png"\] Alt text: Attachments section for uploading documents
 
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](upload-doc-portal.md)
+**Parent Topic:**[Manage documents from the Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/upload-doc-portal.md)
 

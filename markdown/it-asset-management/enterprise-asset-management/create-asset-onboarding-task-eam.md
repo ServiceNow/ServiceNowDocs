@@ -2,6 +2,7 @@
 title: Create an asset onboarding process
 description: Create an asset onboarding process to walk you through the process of entering important information for assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-asset-onboarding-task-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -87,8 +88,8 @@ Substates
     Your asset is successfully onboarded.
 
 
--   **[View an automatically created onboarding task](view-auto-onboard-task.md)**  
+-   **[View an automatically created onboarding task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/view-auto-onboard-task.md)**  
 View an automatically created asset onboarding task.
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

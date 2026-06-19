@@ -2,13 +2,14 @@
 title: Opt in to model categories to track performance KPIs for hardware assets
 description: Monitor the performance KPIs of hardware assets in your organization by enabling the KPI tracking for the models to which the assets belong.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/opt-in-kpi-tracking-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace, Manage and monitor hardware asset performance, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure settings to monitor asset KPIs, Manage and monitor hardware asset performance, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Opt in to model categories to track performance KPIs for hardware assets
@@ -34,5 +35,5 @@ Role required: admin
 
 ## Result
 
-[Create an operational schedule for hardware assets](create-operational-schedule-ham.md).
+[Create an operational schedule for hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-operational-schedule-ham.md).
 

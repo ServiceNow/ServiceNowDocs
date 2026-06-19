@@ -2,6 +2,7 @@
 title: Configure a Lifecycle Events trigger for activity sets
 description: Create triggers for activity sets in Lifecycle Events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-config-event-trigger.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -31,15 +32,15 @@ Role required: admin
 
 5.  Select a **Trigger type**.
 
-    For information about the trigger types, see [Lifecycle Events activity set trigger types](../reference/le-activity-set-trigger-types.md).
+    For information about the trigger types, see [Lifecycle Events activity set trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-activity-set-trigger-types.md).
 
 6.  Select **Update**.
 
 
--   **[Lifecycle Events activity set trigger types](../reference/le-activity-set-trigger-types.md)**  
+-   **[Lifecycle Events activity set trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-activity-set-trigger-types.md)**  
 Administrators can configure activity set triggers to make activities in an activity set available.
--   **[Lifecycle Events activity set progress optimization](../concept/le-stagnant-activity-set.md)**  
+-   **[Lifecycle Events activity set progress optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-stagnant-activity-set.md)**  
 Ensure that the activity sets you have defined for Lifecycle Events progress seamlessly through completion when they meet the conditions to be triggered for a Lifecycle Events case.
 
-**Parent Topic:**[Lifecycle Events evaluation interval](../concept/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

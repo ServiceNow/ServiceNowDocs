@@ -2,6 +2,7 @@
 title: Create New ICT third-party service provider form
 description: On the Create New ICT third-party service provider form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-ICT-thirdparty-serv-prov-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -53,6 +54,9 @@ Type of additional identification code to identify the ICT service provider
 Type of additional identification code to identify the ICT third-party service provider. The available options are as follows:
 
 -   **LEI**
+
+: The last two digits of the LEI must be valid MOD 97-10 check digits per ISO 17442. The system rejects submissions with an invalid checksum.
+
 -   **EUID**
 -   **Country Code\_CRN**: Company Registration Number
 -   **Country Code\_VAT**: Value-added Tax Identification number
@@ -181,5 +185,5 @@ Type of ICT services. The available options are as follows:-   **ICT project man
 -   **Cloud services: SaaS**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a third party and enhance digital resilience data](../task/create-drtp-reg-third-party.md)
+</table>**Parent Topic:**[Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-third-party.md)
 

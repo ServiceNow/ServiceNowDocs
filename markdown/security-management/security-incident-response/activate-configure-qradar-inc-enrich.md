@@ -2,6 +2,7 @@
 title: Get started with the IBM QRadar - Incident Enrichment integration
 description: IBM QRadar is an enterprise security information and event management \(SIEM\) product that integrates easily with Security Operations. Before you can use the IBM QRadar - Incident Enrichment integration, you must download it from the ServiceNow Store and add the appropriate API Base URL and API Key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-configure-qradar-inc-enrich.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](../../../security-incident-response/reference/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md).
 
 2.  When the installation is complete, access IBM QRadar and obtain the API Base URL and API Key under your IBM QRadar profile.
 
@@ -29,9 +30,7 @@ Role required: sn\_si\_admin
 
     The available security integrations appear as a series of cards.
 
-4.  In the IBM QRadar - Incident Enrichment card, click **New**.
-
-    ![IBM QRadar - Incident Enrichment Configuration](../image/QRadar-config.png)
+4.  In the IBM QRadar - Incident Enrichment card, select **New**.
 
 5.  Fill in the fields, as needed.
 
@@ -44,19 +43,19 @@ Role required: sn\_si\_admin
     |API Key|The API key you obtained from the IBM QRadar site.|
     |Max Rows|The maximum number of rows you want to search.|
     |Earliest Result \(days\)|The earliest results you want to see in number of days.|
-    |Include raw data samples in search results|Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](../../../security-incident-response/reference/installed-with-sir.md).|
+    |Include raw data samples in search results|Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the **number of rows of raw data** property in [Security Incident Response properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/installed-with-sir.md).|
     |MID Server|Select **Any** to use any active MID Server, or select a specific MID Server name.|
 
     **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     The integration configuration card displays.
 
-7.  When viewing the new configuration card, you can click **Configure** or **Delete** to change or delete the configuration, respectively.
+7.  When viewing the new configuration card, you can select **Configure** or **Delete** to change or delete the configuration, respectively.
 
 8.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
 
 
-**Parent Topic:**[IBM QRadar - Incident Enrichment Integration](../reference/qradar-landing-page.md)
+**Parent Topic:**[IBM QRadar - Incident Enrichment Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/qradar-landing-page.md)
 

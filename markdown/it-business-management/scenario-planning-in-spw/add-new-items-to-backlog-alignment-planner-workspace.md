@@ -2,6 +2,7 @@
 title: Add planning items to Prioritization
 description: All references to "Backlog" are changed to "Prioritization" following the change of the feature name in the app.Add new planning items to your portfolio plan's work backlog in Strategic Planning Workspace and ensure that the work pipeline is current.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ Add new planning items to your portfolio plan's work backlog in Strategic Planni
 
 ## Before you begin
 
-[Create a portfolio plan](../../alignment-planner-workspace/task/create-portfolio-plans-in-alignment-planner-workspace.md)
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)
 
 Role required: sn\_align\_core.apw\_user
 
@@ -37,11 +38,11 @@ You can use the Prioritization, Kanban, or the Hierarchy tabs while you perform 
 
     Use the More options drop-down to select the planning item that you want to create.
 
-    ![Sample drop-down list actions showing options to select New epic and New project as a new planning item on the Prioritization page.](../images/new-planning-item.png)
+    \[Omitted image "new-planning-item.png"\] Alt text: Sample drop-down list actions showing options to select New epic and New project as a new planning item on the Prioritization page.
 
 4.  On the form, fill in the short description and approved dates.
 
-    For full information, see [Planning item form](../../alignment-planner-workspace/reference/planning-item-form.md).
+    For full information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
     You can refine planning item descriptions—for item types such as Demand, Epic, Project, Capability, Feature, and Story—using the Write planning item skill, if the Now Assist for SPM application is installed.
 
@@ -49,7 +50,7 @@ You can use the Prioritization, Kanban, or the Hierarchy tabs while you perform 
 
 6.  If you're using PPM, Agile Development 2.0, or SAFe to execute the planned work, you can also import your work items from these applications.
 
-    For more information, see [Executing Strategic Planning work in PPM, Agile 2.0, and SAFe](../../apw-internal-integrations/concept/using-apw-with-agile-safe-and-ppm.md).
+    For more information, see [Executing Strategic Planning work in PPM, Agile 2.0, and SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/using-apw-with-agile-safe-and-ppm.md).
 
 
 ## Result
@@ -65,7 +66,7 @@ The new item is created with its **Planning state** field is set to **New** and 
 
 ## What to do next
 
--   [Rank planning items](rank-and-prioritize-backlog-alignment-planner-workspace.md).
--   [Update planning item details from Prioritization tab](update-planning-item-details-from-backlog-in-alignment-planner-workspace.md).
--   Learn about [Personalizing views for prioritization](../concept/personalize-prioritization-page-in-strategic-planinng-workspace.md)
+-   [Rank planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/rank-and-prioritize-backlog-alignment-planner-workspace.md).
+-   [Update planning item details from Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.md).
+-   Learn about [Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
 

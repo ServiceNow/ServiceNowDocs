@@ -2,6 +2,7 @@
 title: Activate intraday optimization
 description: Activate Intraday optimization by activating the Field Service Management Scheduling Automations plugin \(com.snc.sn\_app\_fsm\_scheduling\_flows\) for Field Service Management. After the plugin is installed, navigate to flow designer to activate the relevant flows to trigger Intraday optimization to run throughout the day as scheduling conditions change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activate-intraday-optimization.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -33,7 +34,7 @@ Role required: wm\_admin
 
     1.  Select the Agent time off created Field Service Management Scheduling Automations flow.
 
-    2.  Copy the flow by selecting the More actions icon \(![More actions icon](../image/more_actions.png)\) in the top right and selecting **Copy flow**.
+    2.  Copy the flow by selecting the More actions icon \(\[Omitted image "more\_actions.png"\] Alt text: More actions icon\) in the top right and selecting **Copy flow**.
 
     3.  Enter a name for the copied flow or retain the default name, which appends the word "Copy" to the name of the flow.
 
@@ -47,7 +48,7 @@ Role required: wm\_admin
 
     7.  Repeat these steps for the following event trigger flows: High priority work order task dispatched, Work order task canceled, and Work order task progressed.
 
-        Optimization doesn’t consider priority unless the "Maximize assignment of higher priority tasks" constraint exists on the policy for the qualifier that triggered the event. For more information on adding constraints, see [Add constraints to a policy](add-constraint-schedule-optimization-policy.md).
+        Optimization doesn’t consider priority unless the "Maximize assignment of higher priority tasks" constraint exists on the policy for the qualifier that triggered the event. For more information on adding constraints, see [Add constraints to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/add-constraint-schedule-optimization-policy.md).
 
     8.  Repeat the steps to active the event trigger flow, Agent WFO time off.
 
@@ -57,7 +58,7 @@ Role required: wm\_admin
 
     1.  Select the Schedule intraday jobs Field Service Management Schedule Optimization flow.
 
-    2.  Copy the flow by selecting the More actions icon \(![More actions icon](../image/more_actions.png)\) in the top right and selecting **Copy flow**.
+    2.  Copy the flow by selecting the More actions icon \(\[Omitted image "more\_actions.png"\] Alt text: More actions icon\) in the top right and selecting **Copy flow**.
 
     3.  Enter a name for the copied flow or retain the default name, which appends the word "Copy" to the name of the flow.
 
@@ -84,5 +85,5 @@ Role required: wm\_admin
 
 ## What to do next
 
-[Configure intraday optimization](configure-intraday-optimization.md)
+[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

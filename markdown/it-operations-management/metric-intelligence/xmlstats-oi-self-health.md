@@ -2,6 +2,7 @@
 title: View self-health monitoring statistics for Metric Intelligence
 description: Monitor the status of components and processes of Metric Intelligence. Use the XMLStats page to view statistics and diagnostic details that can help with troubleshooting issues with Metric Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/xmlstats-oi-self-health.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -50,5 +51,5 @@ Details in the instance section are for the entire instance, showing the status 
 |oi\_extension\_monitor|Status of the self-health monitor that checks if the Metric Intelligence extension is running properly.|
 |metrics\_collection\_monitor|Status of the self-health monitor that checks if metrics are being collected by active connectors that are configured for metrics collection.|
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

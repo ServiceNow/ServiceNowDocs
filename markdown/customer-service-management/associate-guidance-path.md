@@ -2,7 +2,10 @@
 title: Provide actions to agents in a decision tree
 description: Associate a guidance to a guidance node so that service agents can act to resolve or escalate a customer issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-guidance-path.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,9 +26,9 @@ Create a guidance path first. A guidance node is automatically created with the 
 
 A guidance is an outcome of a decision tree.
 
-You can either create a guidance or select a guidance from a list. For a complete list of guidances that are available by default, see [Components installed with Guided Decisions Experience](../reference/components-installed-with-guided-decisions.md). You can then enter guidance inputs, as required.
+You can either create a guidance or select a guidance from a list. For a complete list of guidances that are available by default, see [Components installed with Guided Decisions Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-with-guided-decisions.md). You can then enter guidance inputs, as required.
 
-You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](../concept/decision-trees-in-gdb.md).
+You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/decision-trees-in-gdb.md).
 
 ## Procedure
 
@@ -50,5 +53,5 @@ You can edit or extend existing decision trees in the Core UI but you can no lon
 
 ## What to do next
 
-[Link task input in the start node to the guidance](associate-task-input-to-guidance.md)
+[Link task input in the start node to the guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-task-input-to-guidance.md)
 

@@ -2,7 +2,10 @@
 title: Change your password from the Consumer Service Portal
 description: Change your password from the consumer portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/change-password-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

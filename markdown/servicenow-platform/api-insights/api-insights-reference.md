@@ -2,6 +2,7 @@
 title: API Insights reference
 description: Reference topics provide additional information about API Insights components, API Insights properties, and domain separation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-reference.html
 release: australia
 product: API Insights
 classification: api-insights
@@ -15,12 +16,12 @@ breadcrumb: [API Insights, Configuration Management Database \(CMDB\), Configura
 
 Reference topics provide additional information about API Insights components, API Insights properties, and domain separation.
 
--   **[Components installed with API Insights](../reference/api-insights-components-installed.md)**  
+-   **[Components installed with API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-components-installed.md)**  
 Several types of components are installed with activation of the API Insights plugin, including tables, user roles, and scheduled jobs.
--   **[API Insights properties](../reference/api-insights-props.md)**  
+-   **[API Insights properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-props.md)**  
 API Insights properties control the behavior of the application.
--   **[Domain separation and API Insights](api-insights-domain-separation.md)**  
+-   **[Domain separation and API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-domain-separation.md)**  
 Domain separation is unsupported for API Insights. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[API Insights](../reference/api-insights.md)
+**Parent Topic:**[API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights.md)
 

@@ -2,6 +2,7 @@
 title: Create a Data Discovery policy
 description: Create a Data Discovery Policy for granular control over your Data Discovery jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/create-a-data-discovery-policy.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -81,5 +82,5 @@ The data pattern the policy will use.
 
 ## Result
 
-Select the policy when creating a [Data Discovery jobs](../concept/data-discovery-jobs.md).
+Select the policy when creating a [Data Discovery jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-jobs.md).
 

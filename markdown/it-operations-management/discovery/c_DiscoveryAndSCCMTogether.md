@@ -2,6 +2,7 @@
 title: Discovery and SCCM together
 description: Use these guidelines to avoid common issues when you use Discovery and System Center Configuration Manager \(SCCM\) together.When Discovery and SCCM are both enabled on a system, the software records found through both tools could overwrite each other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryAndSCCMTogether.html
 release: australia
 product: Discovery
 classification: discovery
@@ -23,7 +24,7 @@ When Software Asset Management is not enabled, software installation records are
 
 ## Overview of Service Graph connector for Microsoft SCCM
 
-Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into your ServiceNow instance. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more details.
+Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into your ServiceNow instance. See Service Graph connector for Microsoft SCCM for more details.
 
 **Note:** If you upgrade your instance to a version of the ServiceNow AI Platform that does not provide support for your version of SCCM, you can continue to use that version. However, all new instances require the use of a supported SCCM version.
 
@@ -32,7 +33,7 @@ Use the Service Graph connector for Microsoft SCCM to pull data from SCCM into y
 The ServiceNow SCCM integrations are self-contained and can exist independently. They each use their own import set tables, data sources and transform maps. However, all SCCM integrations will transform data into the same tables within the ServiceNow CMDB. To avoid the data being overwritten by another source:
 
 -   Use one SCCM integration and disable all other SCCM scheduled imports.
--   Perform a [full import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/how-sccm-integration-works.md) to clear the cmdb\_software\_instance table, the cmdb\_sam\_sw\_install table, and other tables of old SCCM data.
+-   Perform a full import to clear the cmdb\_software\_instance table, the cmdb\_sam\_sw\_install table, and other tables of old SCCM data.
 
 ## Collect software data with either SCCM or Discovery
 
@@ -65,5 +66,5 @@ To determine how software data is collected, configure the **glide.discovery.sof
 
 ### What to do next
 
-Use these Discovery properties to avoid software data discrepancy between Discovery and SCCM: **glide.discovery.enable.software\_simplify** and **glide.discovery.enable.software\_simplify\_sccm**. See [Discovery properties](../reference/r_DiscoveryProperties.md) for more information.
+Use these Discovery properties to avoid software data discrepancy between Discovery and SCCM: **glide.discovery.enable.software\_simplify** and **glide.discovery.enable.software\_simplify\_sccm**. See [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md) for more information.
 

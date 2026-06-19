@@ -1,13 +1,14 @@
 ---
 title: GlideAggregate - Scoped
-description: The GlideAggregate API enables creating database aggregation queries.Creates a GlideAggregate object on the specified table.Adds an aggregate to a database query.Adds an encoded query to the other queries that may have been set for this aggregate.Adds a query to the aggregate.Adds a not null query to the aggregate.Adds a null query to the aggregate.Adds a trend for a specified field. Use a trend to show patterns over a period of time.Returns the value of an aggregate from the current record.Gets the query necessary to return the current aggregate.Retrieves the encoded query.Retrieves the number of rows in the GlideAggregate object.Retrieves the table name associated with this GlideAggregate object.Returns the value of the specified field.Provides the name of a field to use in grouping the aggregates.Determines if there are any more records in the GlideAggregate object.Moves to the next record in the GlideAggregate.Orders the aggregates using the value of the specified field. The field is also added to the group-by list.Orders the aggregates based on the specified aggregate and field.Sorts the aggregates in descending order based on the specified field. The field will also be added to the group-by list.Issues the query and gets the results.Limits the number of rows from the table to include in the aggregate query.Activates or deactivates the running of business rules for aggregate queries.Sets whether to group the return results.Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the dayofweek time interval.
+description: The GlideAggregate API enables creating database aggregation queries.Creates a GlideAggregate object on the specified table.Adds an aggregate to a database query.Adds an encoded query to the other queries that may have been set for this aggregate.Adds a query to the aggregate.Adds a not null query to the aggregate.Adds a null query to the aggregate.Adds a trend for a specified field. Use a trend to show patterns over a period of time.Returns the value of an aggregate from the current record.Gets the query necessary to return the current aggregate.Retrieves the encoded query.Retrieves the number of rows in the GlideAggregate object.Retrieves the table name associated with this GlideAggregate object.Returns the value of the specified field.Provides the name of a field to use in grouping the aggregates.Determines if there are any more records in the GlideAggregate object.Moves to the next record in the GlideAggregate.Orders the aggregates using the value of the specified field. The field is also added to the group-by list.Orders the aggregates based on the specified aggregate and field.Sorts the aggregates in descending order based on the specified field. The field will also be added to the group-by list.Issues the query and gets the results.Limits the number of rows from the table to include in the aggregate query.Activates or deactivates the running of business rules for aggregate queries.Sets the query category, which determines how the query is routed to a secondary database.Sets whether to group the return results.Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the dayofweek time interval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideAggregateScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 15
+reading_time_minutes: 16
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -17,11 +18,11 @@ The GlideAggregate API enables creating database aggregation queries.
 
 The GlideAggregate class is an extension of the GlideRecord class and provides database aggregation \(AVG, COUNT, GROUP\_CONCAT, GROUP\_CONCAT\_DISTINCT, MAX, MIN, STDDEV, SUM\) queries. This functionality can be helpful when creating customized reports or in calculations for calculated fields.
 
-When you use GlideAggregate methods on currency or price fields, you are working with the reference currency value. Be sure to convert the aggregate values to the user's session currency for display. Because the conversion rate between the currency or price value \(displayed value\) and its reference [currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency.md) value \(aggregation value\) might change, the result may not be what the user expects.
+When you use GlideAggregate methods on currency or price fields, you are working with the reference currency value. Be sure to convert the aggregate values to the user's session currency for display. Because the conversion rate between the currency or price value \(displayed value\) and its reference currency value \(aggregation value\) might change, the result may not be what the user expects.
 
 **Note:** When using an on-premise system, the database server time zone must be set to GMT/UTC for this class to work properly.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideAggregate - GlideAggregate\(String tableName\)
 
@@ -295,7 +296,7 @@ var count = new GlideAggregate('incident');
 
 Adds a trend for a specified field. Use a trend to show patterns over a period of time.
 
-**Note:** To control whether to group **dayofweek** results by year, use [Scoped GlideAggregate - setIntervalYearIncluded\(Boolean b\)](c_GlideAggregateScopedAPI.md#).
+**Note:** To control whether to group **dayofweek** results by year, use [Scoped GlideAggregate - setIntervalYearIncluded\(Boolean b\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 <table id="table_tlk_cdk_ws" class="parameters"><thead><tr><th>
 
@@ -807,7 +808,7 @@ String
 
 </td><td>
 
-Name of the field to order the aggregates by.Alternatively, you can provide a glidefunction to order the aggregates, such as `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
+Name of the field to order the aggregates by.Alternatively, you can provide a glidefunction to order the aggregates, such as `glidefunction:length(short_description)`. For more information about glidefunctions, see glidefunction operations.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1029,6 +1030,53 @@ BUSINESS RULE - About to execute business rule 'incident query' on incident:<spa
 BUSINESS RULE - Finished executing business rule 'incident query' on incident:<span class = "session-log-bold-text"> </span>
 ```
 
+## Scoped GlideAggregate - setCategory\(String category\)
+
+Sets the query category, which determines how the query is routed to a secondary database.
+
+This method requires the Secondary Database Pools \[com.glide.secondary\_db\_pools\] plugin. Call this method to route queries to a secondary \(read replica\) database based on the specified category, reducing load on the primary database. Due to replication lag, execution of a query on a read replica database may return slightly out of date results compared to executing the same query on the primary database.
+
+Modifications to data are always serviced by the primary database, even if setCategory\(\) is used in the query. For example, a call to GlideRecord.update\(\) is always directed to the primary database even if the GlideRecord object has been provided with the name of a secondary database category via setCategory\(\).
+
+For more information, see [KB0824441 Introduction to ServiceNow Read Replica Databases](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824441).
+
+<table id="table_bns_y1r_cjc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+category
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the category to use to route the query to a secondary database.Table: Secondary Database Categories \[sys\_db\_category\]
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+This example uses the `embedded_list` category to route the query to a secondary database.
+
+```
+var ga = new GlideAggregate('task');
+ga.setCategory('embedded_list');
+ga.query();
+```
+
 ## Scoped GlideAggregate - setGroup\(Boolean b\)
 
 Sets whether to group the return results.
@@ -1096,7 +1144,7 @@ Category software 11
 
 Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the **dayofweek** time interval.
 
-Dependency: [Scoped GlideAggregate - addTrend\('&lt;fieldName&gt;', 'dayofweek'\)](c_GlideAggregateScopedAPI.md#).
+Dependency: [Scoped GlideAggregate - addTrend\('&lt;fieldName&gt;', 'dayofweek'\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 <table class="parameters"><thead><tr><th>
 

@@ -2,6 +2,7 @@
 title: Application Dependency Mapping \(ADM\) for Discovery
 description: Application Dependency Mapping \(ADM\) discovers CIs by detecting TCP connections between devices.Using properties, you can enable or disable ADM discovery, and you can set the location of the TCP tracking file for enhanced ADM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_ApplicationDependencyMapping.html
 release: australia
 product: Discovery
 classification: discovery
@@ -36,7 +37,7 @@ IPv6 Is supported for ADM.
     ADME discovery is not enabled by default.
 
 
-Service Mapping uses the ADM probes for traffic-based discovery. See [Discovery based on Predictive Intelligence](../../service-mapping/concept/predictive-intelligence-discovery.md) for more information.
+Service Mapping uses the ADM probes for traffic-based discovery. See [Discovery based on Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/predictive-intelligence-discovery.md) for more information.
 
 ## Requirements
 
@@ -48,7 +49,7 @@ Both standard and enhanced ADM discovery support the following operating systems
 -   AIX
 -   HP-UX
 
-To use the WMI protocol, [version 3.0 of PowerShell](r_PowerShellForDiscovery.md) is required.
+To use the WMI protocol, [version 3.0 of PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md) is required.
 
 **Note:**
 
@@ -132,18 +133,18 @@ Note the following for the sudo commands:
 
 To set up and use enhanced ADM, perform these steps:
 
-1.  [Enable enhanced ADM with the glide.discovery.enable\_adme Discovery property](r_ApplicationDependencyMapping.md#).
-2.  Determine the base directory where the TCP tracking file is placed on the host computers. If you want to change the location, [specify it in these Discovery properties](r_ApplicationDependencyMapping.md#):
+1.  [Enable enhanced ADM with the glide.discovery.enable\_adme Discovery property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ApplicationDependencyMapping.md).
+2.  Determine the base directory where the TCP tracking file is placed on the host computers. If you want to change the location, [specify it in these Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ApplicationDependencyMapping.md):
     -   `glide.discovery.adme.base_dir_unix`
     -   `mid.powershell.target_base_dir`
 3.  Do either of the following based on the operating systems of the host computers:
-    -   Linux: [modify the sudoers file](r_ApplicationDependencyMapping.md#sudoers) to include the necessary commands.
+    -   Linux: [modify the sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ApplicationDependencyMapping.md) to include the necessary commands.
     -   Windows: Set the `mid.windows.management_protocol` parameter on the MID Server to use WinRM or WMI. This parameter sets the protocol that your MID Server uses to communicate with remote Windows hosts.
-4.  [Create a schedule and run Discovery](../task/t_CreateADiscoverySchedule.md#).
-5.  [View the results in the TCP tables](r_DataCollDiscoTCPConnections.md).
-6.  Optionally control both the size of the TCP tracking file and the payload using parameters on the enhanced ADM probes. See [TCP connection discovery](r_DataCollDiscoTCPConnections.md) for the names of the probes and parameters.
+4.  [Create a schedule and run Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
+5.  [View the results in the TCP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md).
+6.  Optionally control both the size of the TCP tracking file and the payload using parameters on the enhanced ADM probes. See [TCP connection discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md) for the names of the probes and parameters.
 
-**Parent Topic:**[Advanced Discovery configuration](../concept/c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 
 ## Configure ADM discovery parameters and properties
 
@@ -155,7 +156,7 @@ Role required: discovery\_admin or admin
 
 ### About this task
 
-You can also control both the size of the TCP tracking file and the payload using parameters on the enhanced ADM probes. See [TCP connection discovery](r_DataCollDiscoTCPConnections.md) for the names of the probes and parameters.
+You can also control both the size of the TCP tracking file and the payload using parameters on the enhanced ADM probes. See [TCP connection discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md) for the names of the probes and parameters.
 
 ### Procedure
 
@@ -235,7 +236,7 @@ glide.discovery.adme.base\_dir\_unix
 
 </td><td>
 
-ADME - Unix Base Dir: An existing directory on the target UNIX machines to be used as a workspace. Must be an absolute path to the directory. The [UNIX and Linux credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md) that you use to connect to the device must also be able to access this folder.-   Type: string
+ADME - Unix Base Dir: An existing directory on the target UNIX machines to be used as a workspace. Must be an absolute path to the directory. The UNIX and Linux credentials that you use to connect to the device must also be able to access this folder.-   Type: string
 -   Default value: /tmp
 
 

@@ -2,6 +2,7 @@
 title: Create an assessment and enhance digital resilience data
 description: Create an assessment of the Information and Communication Technology \(ICT\) service in Digital resilience third-party registers using Third-party Risk Management. Add details such as the contractual arrangement reference number, identification code, and type of code for the ICT third-party service provider. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-assmt.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -38,7 +39,7 @@ It's required that you review your contracts and third parties annually. You can
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Contracts** and then select the contract record you want to associate an assessment record with.
 
@@ -46,7 +47,7 @@ It's required that you review your contracts and third parties annually. You can
 
 4.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Contractual arrangement form](../reference/tprm-create-new-cont-arrange-form.md).
+    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
 
 5.  Select **Save**.
 
@@ -83,6 +84,6 @@ It's required that you review your contracts and third parties annually. You can
 
 Once all details are captured, you can perform the following tasks:
 
--   Download the information using the Microsoft Excel download feature. For more information, see [Create a Microsoft Excel download request](tprm-excel-upload-download-request.md).
--   Upload updated records as needed. For more information, see [Update existing records in bulk](tprm-bulk-update.md).
+-   Download the information using the Microsoft Excel download feature. For more information, see [Create a Microsoft Excel download request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-request.md).
+-   Upload updated records as needed. For more information, see [Update existing records in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-bulk-update.md).
 

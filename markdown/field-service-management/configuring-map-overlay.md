@@ -2,7 +2,10 @@
 title: Configuring a map overlay
 description: Configure a map overlay to view its corresponding data items in the territory map.Create a marker layer overlay to specify the data items associated with the markers on a map. You can set up markers for assets, locations, or points of interest.A shape layer overlay enables you to create custom shapes, such as polygons or lines, on a map. This type of overlay is useful for defining boundaries, illustrating routes, or highlighting specific geographic areas of interest.Create a heatmap to provide a visual representation of data density or intensity on a map using colors. A heatmap can help you identify areas with higher concentrations of data, highlight hotspots, and find patterns in data distribution.Create custom map marker icons for the marker type overlay.Create Info window field set to retrieve the field data from the database and display on a card when a marker is clicked on a map.Create a map overlay definition by linking the map overlay data items, info window field set, and marker icons \(in case of marker overlay\). The overlay definition appears in the map and is further used to view and filter the data on the map.Establish a link between the overlay group and overlay definition in the group usage table. This helps the overlay definition to appear in the Territory Planning console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/configuring-map-overlay.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 19
@@ -33,7 +36,7 @@ To create a marker layer overlay specifically for agents, do the following:
 4.  Create an overlay definition for agents by linking the data item, map marker icons, and info window field set.
 5.  Link the agents group and the agents overlay definition in the group usage table.
 
-The following snapshot displays data related to multiple layers and heatmap in the Territory Planning console. ![Territory Planning console displaying layers information such as agents, assets, and crews and a heatmap for work order tasks.](../image/tp-console-csp.jpg)
+The following snapshot displays data related to multiple layers and heatmap in the Territory Planning console. \[Omitted image "tp-console-csp.jpg"\] Alt text: Territory Planning console displaying layers information such as agents, assets, and crews and a heatmap for work order tasks.
 
 ## Viewing and filtering data
 
@@ -50,31 +53,31 @@ You can manage and control multiple map overlays. Toggle between overlays to tai
 
 The steps for configuring a map overlay are:
 
--   [Create a marker layer overlay](configuring-map-overlay.md#)
+-   [Create a marker layer overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md)
 
     Create a marker layer overlay to specify the data items associated with the markers on a map. You can set up markers for assets, locations, or points of interest.
 
--   [Create a shape layer overlay](configuring-map-overlay.md#)
+-   [Create a shape layer overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md)
 
     Create a shape layer to create custom shapes, such as polygons or lines, on a map. This type of overlay is useful for defining boundaries, illustrating routes, or highlighting specific geographic areas of interest.
 
--   [Create a heatmap](configuring-map-overlay.md#)
+-   [Create a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md)
 
     Create a heatmap to provide a visual representation of data density or intensity on a map using colors. A heatmap can help you identify areas with higher concentrations of data, highlight hotspots, and find patterns in data distribution.
 
--   [Create map marker icons](configuring-map-overlay.md#)
+-   [Create map marker icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md)
 
     Create custom map marker icons for the marker type overlay to identify selected data item as either a single entity or multiple entities at the same location in the territory.
 
--   [Create info window field set](configuring-map-overlay.md#)
+-   [Create info window field set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md)
 
     Create Info window field set to retrieve the field data from the database and display on a card when a marker is clicked on a map.
 
--   [Create a map overlay definition](configuring-map-overlay.md#)
+-   [Create a map overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md)
 
     Create a map overlay definition to link data items, info windows, and marker icons for clear visual representation on the map. This allows users to easily view and filter map data.
 
--   [Link overlay group and overlay definition](configuring-map-overlay.md#)
+-   [Link overlay group and overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md)
 
     Establish a link between the overlay group and overlay definition in the group usage table to ensure the overlay definition is displayed in the Territory Planning console.
 
@@ -221,26 +224,26 @@ Address information associated with the marker. For example, location of an agen
 </td></tr></tbody>
 </table>4.  Add map marker icons to represent individual data items and visually indicate the underlying data points on the map.
 
-    For more information, see [Create map marker icons](configuring-map-overlay.md#).
+    For more information, see [Create map marker icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 5.  Configure an info window field set to determine the fields that you want to display in a card when a map marker icon is selected.
 
-    For more information, see [Create info window field set](configuring-map-overlay.md#).
+    For more information, see [Create info window field set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 6.  Create a map overlay definition, to link the overlay definition and data item.
 
-    This step establishes the connection between the visual representation, such as marker icons, and the associated data item. For more information, see [Create a map overlay definition](configuring-map-overlay.md#).
+    This step establishes the connection between the visual representation, such as marker icons, and the associated data item. For more information, see [Create a map overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 7.  Link the created map overlay definition and the chosen overlay group.
 
-    This linkage ensures that the overlay is appropriately organized and managed within the specified overlay group. For more information, see [Link overlay group and overlay definition](configuring-map-overlay.md#).
+    This linkage ensures that the overlay is appropriately organized and managed within the specified overlay group. For more information, see [Link overlay group and overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
     The marker layer is created.
 
 
 ### Result
 
-The following snapshot illustrates an example of marker layer representing agents in San Diego territory. Select any agent's map marker to view agent details in the right contextual side panel. ![Snapshot of agents in San Diego territory.](../image/marker-layer.png)
+The following snapshot illustrates an example of marker layer representing agents in San Diego territory. Select any agent's map marker to view agent details in the right contextual side panel. \[Omitted image "marker-layer.png"\] Alt text: Snapshot of agents in San Diego territory.
 
 ## Create a shape layer overlay
 
@@ -330,15 +333,15 @@ Use the reference script to employ your own customized script for the map overla
 </td></tr></tbody>
 </table>4.  Configure an info window field set to determine the fields that you want to display in a card when a map marker icon is selected.
 
-    For more information, see [Create info window field set](configuring-map-overlay.md#).
+    For more information, see [Create info window field set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 5.  Create a map overlay definition, you need to link the overlay definition and data item.
 
-    This step establishes the connection between the visual representation of the shape and the associated data item. For more information, see [Create a map overlay definition](configuring-map-overlay.md#).
+    This step establishes the connection between the visual representation of the shape and the associated data item. For more information, see [Create a map overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 6.  Link the created map overlay definition and the chosen overlay group.
 
-    This linkage ensures that the overlay is appropriately organized and managed within the specified overlay group. For more information, see [Link overlay group and overlay definition](configuring-map-overlay.md#).
+    This linkage ensures that the overlay is appropriately organized and managed within the specified overlay group. For more information, see [Link overlay group and overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
     The shape layer is created.
 
@@ -347,7 +350,7 @@ Use the reference script to employ your own customized script for the map overla
 
 The following snapshot illustrates an example of a shape layer representing linear segments of the San Francisco territory. Select the linear segment to view details in the right contextual side panel.
 
-![Snapshot of Linear segments in San Francisco territory.](../image/shapes-layer.png)
+\[Omitted image "shapes-layer.png"\] Alt text: Snapshot of Linear segments in San Francisco territory.
 
 ## Create a heatmap
 
@@ -470,19 +473,19 @@ Enter weight for heatmap. Determines the intensity of a data point on the heatma
 </td></tr></tbody>
 </table>4.  Change the color gradient of the visualization using the Heatmap Gradient \(sn\_cmn\_mo.HeatmapGradient\) extension point.
 
-    For more information, see [Extension points in Field Service Management](../reference/extension-points-field-service.md).
+    For more information, see [Extension points in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/extension-points-field-service.md).
 
 5.  Change the opacity level and the radius that influence the data point in the heatmap.
 
-    For more information, see [Field Service Territory Planning console properties](../reference/territory-planning-components-fsm.md#).
+    For more information, see [Field Service Territory Planning console properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/territory-planning-components-fsm.md).
 
 6.  Create a map overlay definition, link the overlay definition and data item.
 
-    This step establishes the connection between the visual representation of the heatmap and the associated data item. For more information, see [Create a map overlay definition](configuring-map-overlay.md#).
+    This step establishes the connection between the visual representation of the heatmap and the associated data item. For more information, see [Create a map overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 7.  Link the created map overlay definition and the chosen overlay group.
 
-    This linkage ensures that the overlay is appropriately organized and managed within the specified overlay group. For more information, see [Link overlay group and overlay definition](configuring-map-overlay.md#).
+    This linkage ensures that the overlay is appropriately organized and managed within the specified overlay group. For more information, see [Link overlay group and overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 8.  Select **Submit**.
 
@@ -495,7 +498,7 @@ The following example shows how agents as markers and a heatmap for work order t
 
 By using this combined approach, you can assess the spatial distribution of agents and gain insights into the workload based on the intensity of work order tasks. Select the map marker or heatmap to view the details in the right contextual side panel.
 
-![Snapshot displaying agents and work order tasks in the map.](../image/heatmap.png).
+\[Omitted image "heatmap.png"\] Alt text: Snapshot displaying agents and work order tasks in the map..
 
 ## Create map marker icons
 
@@ -534,7 +537,7 @@ You can create custom map markers and use them in the marker layer map overlay d
 
 ### What to do next
 
-Once the map marker icons are created, you can link them to the overlay definition to identify the data items as single entities, multiple entities, or a combination at the same location on the map. For more information, see [Create a map overlay definition](configuring-map-overlay.md#).
+Once the map marker icons are created, you can link them to the overlay definition to identify the data items as single entities, multiple entities, or a combination at the same location on the map. For more information, see [Create a map overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 ## Create info window field set
 
@@ -592,7 +595,7 @@ The info window field set is created with the specified field. The values for th
 
 ### What to do next
 
-Link the map marker icons to the overlay definition. For more information, see [Create a map overlay definition](configuring-map-overlay.md#).
+Link the map marker icons to the overlay definition. For more information, see [Create a map overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 ## Create a map overlay definition
 
@@ -648,7 +651,7 @@ Data item
 
 </td><td>
 
-Contains meta data for overlays. For example, stockroom related data. For more information, see [Create a marker layer overlay](configuring-map-overlay.md#).
+Contains meta data for overlays. For example, stockroom related data. For more information, see [Create a marker layer overlay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).
 
 </td></tr><tr><td>
 
@@ -664,7 +667,7 @@ Info Window Field Set
 
 </td><td>
 
-Select a field set or create a new field set by configuring the field values to appear in the right contextual panel when you click on the overlay item. For more information, see [Create info window field set](configuring-map-overlay.md#).**Note:** Appears only when the selected data item is either of type marker or shape layer.
+Select a field set or create a new field set by configuring the field values to appear in the right contextual panel when you click on the overlay item. For more information, see [Create info window field set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).**Note:** Appears only when the selected data item is either of type marker or shape layer.
 
 </td></tr><tr><td>
 
@@ -684,7 +687,7 @@ The map overlay definition is created.
 
 ### What to do next
 
-[Link overlay group and overlay definition](configuring-map-overlay.md#)
+[Link overlay group and overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md)
 
 ## Link overlay group and overlay definition
 
@@ -717,7 +720,7 @@ You can link the overlay group and overlay definition to any one of the followin
     |------|-----------|
     |Group|Select the overlay group.|
     |Application|Global|
-    |Overlay|Select the map overlay definition. For more information, see [Create a map overlay definition](configuring-map-overlay.md#).|
+    |Overlay|Select the map overlay definition. For more information, see [Create a map overlay definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configuring-map-overlay.md).|
     |Active|Select the check box to ensure the overlay definition appears in map.|
     |Order|Order of the overlays to be displayed in map.|
 

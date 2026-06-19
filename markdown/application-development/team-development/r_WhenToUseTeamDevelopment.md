@@ -2,6 +2,7 @@
 title: When to use Team Development
 description: Team Development allows multiple developers to work on applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/r\_WhenToUseTeamDevelopment.html
 release: australia
 product: Team Development
 classification: team-development

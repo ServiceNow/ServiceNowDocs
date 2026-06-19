@@ -2,6 +2,7 @@
 title: Update dependency details of a BIA in Self Service
 description: Use contributor role to update the disruption duration of the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity related item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/my-self-service-bia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

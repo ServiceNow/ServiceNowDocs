@@ -2,6 +2,7 @@
 title: Update an agent's profile
 description: Update shifts, skills, schedules, schedule attributes, and work order tasks for agents in your assignment groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/manage-agent-profile-team-calendar.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce

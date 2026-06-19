@@ -2,6 +2,7 @@
 title: Create physical connection using design and assign
 description: Create an physical connection record using the design and assign function in the Telecommunications Network Inventory application. By creating the physical connection and its related inventory records, you can fulfill an order request for an equipment record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-design-assign.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -21,13 +22,13 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-When you create a physical connection, it creates the corresponding configuration item \(CI\) records in the Physical Connection \[cmdb\_ci\_ni\_physical\_link\] table. To learn more, see [Data model](../concept/uses-for-network-inventory-data.md).
+When you create a physical connection, it creates the corresponding configuration item \(CI\) records in the Physical Connection \[cmdb\_ci\_ni\_physical\_link\] table. To learn more, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon](../image/ni-workspace-list-icon.png)\), and then go to **Changes** &gt; **All**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon\), and then go to **Changes** &gt; **All**.
 
 3.  Select the **New** button.
 
@@ -39,7 +40,7 @@ When you create a physical connection, it creates the corresponding configuratio
 
 6.  On the **Details** tab, fill in the fields.
 
-    For a description of the field values, see [Change request and change task forms](../concept/change_request_forms.md).
+    For a description of the field values, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 7.  Select **Save**.
 
@@ -49,10 +50,10 @@ When you create a physical connection, it creates the corresponding configuratio
 
 9.  On the **Task Attributes** tab, fill in the fields.
 
-    To learn more, see [Task attributes in Create physical connection form](../reference/task-attributes-create-physical-connection-form.md).
+    To learn more, see [Task attributes in Create physical connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/task-attributes-create-physical-connection-form.md).
 
 10. Select **Submit**.
 
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](../concept/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

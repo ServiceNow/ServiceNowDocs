@@ -2,6 +2,7 @@
 title: Create dynamic filtered card displays
 description: Create an interactive card layout to display records, add a dropdown to filter visible cards by name, and configure each card to open the full record in another UI Builder page when selected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/comp-ex-dynamic-filtered-card.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -26,7 +27,7 @@ This example shows how to bind data to components so you can display record info
 
 This procedure uses UI Builder components to create dynamic, interactive layouts. For more information on how to configure components, see:
 
--   [Add and configure components](add-components.md#)
+-   [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md)
 -   [UI Builder Quick Bits: Navigating Component Configuration](https://www.servicenow.com/community/next-experience-blog/ui-builder-quick-bits-navigating-component-configuration/ba-p/3181624)
 
 <table id="table_exc_zzf_dhc"><thead><tr><th>
@@ -102,15 +103,15 @@ Stylized text
 
 3.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 4.  Create a page from scratch.
 
-    For more information about how to create a page, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
 
 5.  Create a data resource to pull records from the Incident table.
 
-    Data resources expose data from tables and records to the page. In this example, we add a data resource to pull records from the incident table so we can display them using components. For more information, see [Add and configure data resources to a page](add-data-resources.md).
+    Data resources expose data from tables and records to the page. In this example, we add a data resource to pull records from the incident table so we can display them using components. For more information, see [Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-data-resources.md).
 
     1.  In the **Data and scripts** drawer, under **Data resources**, select **+ Add data resource**.
 
@@ -152,7 +153,7 @@ Return fields
 2.  Enter `Caller`, select it to add it to the **Selected** column, then clear the search box.
 3.  Repeat the above step for **Priority** and **Short description**.
 
-![Choose fields modal showing Caller, Priority, and Short description.](../image/comp-ex-dfc-data-resource-fields.png)
+\[Omitted image "comp-ex-dfc-data-resource-fields.png"\] Alt text: Choose fields modal showing Caller, Priority, and Short description.
 
 4.  Select **Apply**.
 
@@ -166,7 +167,7 @@ Max results
 Enter `25`.
 
 </td></tr></tbody>
-</table>        ![Edit data resource dialog for "Incident lookup" with callouts highlighting the Table, Return fields, and Max results fields.](../image/comp-ex-dfc-data-resource.png)
+</table>        \[Omitted image "comp-ex-dfc-data-resource.png"\] Alt text: Edit data resource dialog for "Incident lookup" with callouts highlighting the Table, Return fields, and Max results fields.
 
     7.  Select the **X** in the upper right to close the dialog.
 
@@ -180,11 +181,11 @@ Enter `25`.
 
     3.  With **Column 1** selected in the content tree, navigate to **Layout** in the configuration panel and set the **Direction** to **Row**.
 
-        ![Configuration panel for single column layout, with a cursor hovering over the Direction > Row property.](../image/comp-ex-dfc-layout-row.png)
+        \[Omitted image "comp-ex-dfc-layout-row.png"\] Alt text: Configuration panel for single column layout, with a cursor hovering over the Direction &gt; Row property.
 
 7.  Add and configure a repeater on your page with data binding.
 
-    Data binding is the process of associating data exposed by a data resource with a component. In this example, we bind the results of our **Incident lookup** data resource to the **Data array** property of the repeater component. For more information, see [Connect data components](../concept/connect-data-components.md).
+    Data binding is the process of associating data exposed by a data resource with a component. In this example, we bind the results of our **Incident lookup** data resource to the **Data array** property of the repeater component. For more information, see [Connect data components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data-components.md).
 
     1.  In the content tree, under **Column 1**, select **+ Add content**.
 
@@ -192,15 +193,15 @@ Enter `25`.
 
     3.  Select **Cancel** to close the preset window.
 
-    4.  Keeping **Repeater 1** selected, in the configuration panel, hover over the **Data array** field and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
+    4.  Keeping **Repeater 1** selected, in the configuration panel, hover over the **Data array** field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 
-        ![Configurational panel for repeater, with a cursor hovering over the bind data icon.](../image/comp-ex-dfc-bind-data.png)
+        \[Omitted image "comp-ex-dfc-bind-data.png"\] Alt text: Configurational panel for repeater, with a cursor hovering over the bind data icon.
 
     5.  In the **Bind data to Data array** dialog, under **Data types**, select **Data resource**.
 
     6.  Select the **Incident lookup** pill, then double-click or drag the **results** pill to move it to the area above.
 
-        ![Data binding modal showing the selection of data resource pills to configure the repeater.](../image/comp-ex-dfc-repeater.png "Bind data to Data array")
+        \[Omitted image "comp-ex-dfc-repeater.png"\] Alt text: Data binding modal showing the selection of data resource pills to configure the repeater.
 
     7.  Select **Apply** to confirm the binding.
 
@@ -226,7 +227,7 @@ Enter `25`.
 
     5.  Set the **Height** to `200`px.
 
-        ![Configuration panel for Card Base Container, with callouts highlighting the Width and Height fields.](../image/comp-ex-dfc-card-style.png)
+        \[Omitted image "comp-ex-dfc-card-style.png"\] Alt text: Configuration panel for Card Base Container, with callouts highlighting the Width and Height fields.
 
 9.  Part 2: Add components and bind data
 
@@ -238,7 +239,7 @@ Enter `25`.
 
     2.  Add the following components in the order listed below and edit each in the configuration panel:
 
-        **Tip:** To keep all components nested in **Card Base Container**, add the first component, then use **Add after** from the configure icon ![](../image/uib-configure-icon.png) for each one that follows.
+        **Tip:** To keep all components nested in **Card Base Container**, add the first component, then use **Add after** from the configure icon \[Omitted image "uib-configure-icon.png"\] Alt text: for each one that follows.
 
         If a preset window appears, select **Cancel** to close it.
 
@@ -246,7 +247,7 @@ Enter `25`.
         2.  Label value: In the **Configure** tab, in the **Label** field, enter `Caller:`
         3.  Stylized text: In the **Configure** tab, set the **HTML tag** to **Paragraph**
         4.  Highlighted value: In the **Styles** tab, set the **Width** to `100`px
-        ![UI Builder editor with callouts highlighting the Repeater and its nested components in the content tree.](../image/comp-ex-dfc-cards.png)
+        \[Omitted image "comp-ex-dfc-cards.png"\] Alt text: UI Builder editor with callouts highlighting the Repeater and its nested components in the content tree.
 
     3.  Select **Save**.
 
@@ -261,7 +262,7 @@ Enter `25`.
 
     1.  In the content tree, select the component listed in the table.
 
-    2.  In the configuration panel, on the Configure tab, hover over the specified field and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
+    2.  In the configuration panel, on the Configure tab, hover over the specified field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 
     3.  In the data binding modal:
 
@@ -271,7 +272,7 @@ Enter `25`.
 
     5.  Repeat the process for each row in the table.
 
-        ![UI Builder editor showing data-bound values on each card.](../image/comp-ex-dfc-cards2.png)
+        \[Omitted image "comp-ex-dfc-cards2.png"\] Alt text: UI Builder editor showing data-bound values on each card.
 
     6.  Select **Save**.
 
@@ -279,9 +280,9 @@ Enter `25`.
 
     1.  In the content tree, select **Highlighted value 1**.
 
-    2.  In the configuration panel, on the Configure tab, hover over **Color** and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
+    2.  In the configuration panel, on the Configure tab, hover over **Color** and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 
-    3.  Select the **Use script** icon ![](../image/uib-use-script-icon.png) in the upper right.
+    3.  Select the **Use script** icon \[Omitted image "uib-use-script-icon.png"\] Alt text: in the upper right.
 
     4.  Replace the existing code with the following:
 
@@ -310,7 +311,7 @@ Enter `25`.
 
     Verify that the highlighted value changes color depending on the priority of the record.
 
-    ![UI Builder editor showing highlighted value in a different color, depending on record priority.](../image/comp-ex-dfc-cards3.png)
+    \[Omitted image "comp-ex-dfc-cards3.png"\] Alt text: UI Builder editor showing highlighted value in a different color, depending on record priority.
 
 13. Part 3: Add filtering with dropdown
 
@@ -318,7 +319,7 @@ Enter `25`.
 
 14. Create a client state parameter to track user selections.
 
-    The client state parameter can be modified by components when they trigger events. For more information, see [Client state parameters](../concept/client-state-parameters.md).
+    The client state parameter can be modified by components when they trigger events. For more information, see [Client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/client-state-parameters.md).
 
     1.  In the **Data and scripts** drawer, next to **Client state parameters**, select the **+** icon.
 
@@ -335,13 +336,13 @@ Enter `25`.
 
     2.  Select **Edit conditions**.
 
-        ![Edit Incident lookup dialog with a highlight over the Edit conditions button.](../image/comp-ex-dfc-edit-conditions.png)
+        \[Omitted image "comp-ex-dfc-edit-conditions.png"\] Alt text: Edit Incident lookup dialog with a highlight over the Edit conditions button.
 
     3.  In the **Conditions** dialog, enter **Caller** in the first field and select it from the list.
 
     4.  Leave the second field as is.
 
-    5.  Hover over the third field and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
+    5.  Hover over the third field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 
     6.  In the data binding modal, select **Client states**, then double-click or drag the `selected_caller` pill to move it to the area above.
 
@@ -349,7 +350,7 @@ Enter `25`.
 
     8.  Select **Apply** to save the condition.
 
-        ![Conditions modal showing the condition, Caller is selected_caller.](../image/comp-ex-dfc-conditions.png)
+        \[Omitted image "comp-ex-dfc-conditions.png"\] Alt text: Conditions modal showing the condition, Caller is selected\_caller.
 
     9.  Select the **X** in the upper right to close the **Incident lookup** dialog.
 
@@ -361,7 +362,7 @@ Enter `25`.
 
     3.  Select the **look\_up\_multiple\_records\_1** ID to open the **Data resource details** form.
 
-        ![Edit data resource dialog with a highlight over the label and ID fields.](../image/comp-ex-dfc-data-resource2.png)
+        \[Omitted image "comp-ex-dfc-data-resource2.png"\] Alt text: Edit data resource dialog with a highlight over the label and ID fields.
 
     4.  Replace the text in the **Data resource label** field with `sys_user_lookup`.
 
@@ -423,7 +424,7 @@ Enter `250`.
 
 17. Add and configure a dropdown component.
 
-    1.  In the content tree, hover over **Column layout 1** and select the **Configure** icon ![](../image/uib-configure-icon.png).
+    1.  In the content tree, hover over **Column layout 1** and select the **Configure** icon \[Omitted image "uib-configure-icon.png"\] Alt text:.
 
     2.  Select **Add before**.
 
@@ -461,11 +462,11 @@ Configure
 
 </td><td>
 
-In the **List items** field:1.  Hover over the field and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
-2.  In the data binding modal, select the **Use script** icon ![](../image/uib-use-script-icon.png).
+In the **List items** field:1.  Hover over the field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
+2.  In the data binding modal, select the **Use script** icon \[Omitted image "uib-use-script-icon.png"\] Alt text:.
 3.  Replace the existing code with the following:
 
-**Tip:** You can select the format code icon ![](../image/comp-ex-dfc-format-code-icon.png) to make the code more readable.
+**Tip:** You can select the format code icon \[Omitted image "comp-ex-dfc-format-code-icon.png"\] Alt text: to make the code more readable.
 
     ```
 function evaluateProperty({ api, helpers }) {
@@ -537,7 +538,7 @@ Value to use after triggering event
 
 </td><td>
 
-1.  Hover over the field and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
+1.  Hover over the field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 2.  Select **Data types**, then **Event payload**.
 3.  Under **Pill view**, double-click or drag the **value** pill to move it to the area above.
 4.  Select **Apply** to confirm the binding.
@@ -549,7 +550,7 @@ Value to use after triggering event
 
     6.  Locate **Incident lookup \(1\)**, select the **REFRESH** handler, then select **Continue**.
 
-        ![Events modal with the Incident lookup - REFRESH handler selected.](../image/comp-ex-dfc-dropdown-events.png)
+        \[Omitted image "comp-ex-dfc-dropdown-events.png"\] Alt text: Events modal with the Incident lookup - REFRESH handler selected.
 
     7.  Select **Add**.
 
@@ -613,7 +614,7 @@ sysId
 
 </td><td>
 
-1.  Hover over the **sysId** field and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
+1.  Hover over the **sysId** field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 2.  Locate **Data types** on the left and select **Repeater**.
 3.  In the **Pill view**, select **value**, then **\_row\_data**, then double-click **uniqueValue**.
 4.  Select **Apply**.
@@ -622,7 +623,7 @@ sysId
 </td></tr></tbody>
 </table>    8.  Select **Select**.
 
-        ![Select page destination modal.](../image/comp-ex-dfc-card-events.png)
+        \[Omitted image "comp-ex-dfc-card-events.png"\] Alt text: Select page destination modal.
 
     9.  Select the check box to enable the **Open in new tab** property.
 
@@ -640,8 +641,8 @@ sysId
 
     3.  Select a card to view the full record in a new tab.
 
-    ![Preview of UI Builder page showing the card display filtered for a specific user.](../image/comp-ex-dfc-result.png)
+    \[Omitted image "comp-ex-dfc-result.png"\] Alt text: Preview of UI Builder page showing the card display filtered for a specific user.
 
 
-**Parent Topic:**[Learn components by example](../concept/learning-components-by-example.md)
+**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-components-by-example.md)
 

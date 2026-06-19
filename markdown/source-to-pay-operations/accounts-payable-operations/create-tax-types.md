@@ -1,19 +1,21 @@
 ---
 title: Create tax types to be used in an invoice
-description: Create tax types to be added in the invoice.
+description: Create tax types to categorize taxes applied to invoices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-tax-types.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, tax, manager]
 breadcrumb: [Tax calculations, Create an invoice manually, Work with invoices, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create tax types to be used in an invoice
 
-Create tax types to be added in the invoice.
+Create tax types to categorize taxes applied to invoices.
 
 ## Before you begin
 
@@ -23,7 +25,7 @@ Role required: Tax manager
 
 1.  Navigate to **All** &gt; **Finance Common** &gt; **Tax types**.
 
-    ![Navigate to Finance Common and Tax Types](../image/apo-create-tax-type.png)
+    \[Omitted image "apo-create-tax-type.png"\] Alt text: Navigate to Finance Common and Tax Types
 
 2.  Select **New** on the tax type page.
 
@@ -86,5 +88,5 @@ State to make the tax type available.
 
 The tax type details are added.
 
-**Parent Topic:**[Tax calculations](../concept/tax-calculations-in-apo.md)
+**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.md)
 

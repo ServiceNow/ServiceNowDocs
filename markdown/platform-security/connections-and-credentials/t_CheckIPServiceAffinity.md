@@ -2,6 +2,7 @@
 title: Check IP service affinity for Discovery and Orchestration
 description: You can check the IP Services table for a list of IP addresses that are associated with a protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/t\_CheckIPServiceAffinity.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials

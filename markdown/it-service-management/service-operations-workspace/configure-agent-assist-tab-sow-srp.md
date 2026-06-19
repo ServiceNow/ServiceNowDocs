@@ -2,6 +2,7 @@
 title: Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page
 description: Enable or disable the Agent Assist tab in the contextual side panel for the required record type using the Standard Record Page \(SRP\) in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-agent-assist-tab-sow-srp.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -25,7 +26,7 @@ Role required: admin
 
 Add or remove a record table from the screen condition, update the sys\_id for the record, and update the script conditions to enable or disable the Agent Assist tab for that table.
 
-**Important:** If you are on a version prior to 4.0, see [Configure the Agent Assist tab in Service Operations Workspace](configure-the-agent-assist-tab-in-service-operations-workspace.md).
+**Important:** If you are on a version prior to 4.0, see [Configure the Agent Assist tab in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-the-agent-assist-tab-in-service-operations-workspace.md).
 
 ## Procedure
 
@@ -39,11 +40,11 @@ Add or remove a record table from the screen condition, update the sys\_id for t
 
 4.  Select **Settings** to switch to the Settings mode.
 
-    ![Settings page button indicated by a box](../image/settings_SRP.jpg)
+    \[Omitted image "settings\_SRP.jpg"\] Alt text: Settings page button indicated by a box
 
 5.  To update the Script Conditions, do the following:
 
-    1.  Select the **Scripted Screen Conditions** icon \(![Scripted Screen Conditions icon](../image/scripting_icon.png)\) to open the script conditions.
+    1.  Select the **Scripted Screen Conditions** icon \(\[Omitted image "scripting\_icon.png"\] Alt text: Scripted Screen Conditions icon\) to open the script conditions.
 
     2.  Under **Active** column, select **True**.
 
@@ -65,17 +66,17 @@ Add or remove a record table from the screen condition, update the sys\_id for t
 
     3.  If you want to enable the Agent Assist tab, add the relevant sys\_id of the table configuration in **Macroponent Configuration**.
 
-        For more information, see [Edit the table configuration for Agent Assist in Service Operations Workspace using the Standard Record Page](edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.md).
+        For more information, see [Edit the table configuration for Agent Assist in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.md).
 
     4.  If you want to disable the Agent Assist tab, remove the sys\_id of the relevant table configuration in **Macroponent Configuration**.
 
-        ![UX Screen form with callouts the additions to the Screen Condition and Macroponent Configuration fields](../image/screen_variant_srp.png)
+        \[Omitted image "screen\_variant\_srp.png"\] Alt text: UX Screen form with callouts the additions to the Screen Condition and Macroponent Configuration fields
 
     5.  Select **Update**.
 
 
--   **[Edit the table configuration for Agent Assist in Service Operations Workspace using the Standard Record Page](edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.md)**  
+-   **[Edit the table configuration for Agent Assist in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.md)**  
 Edit the table configuration for Agent Assist to see the required search results in the Agent Assist tab using Standard Record Page \(SRP\) in Service Operations Workspace.
 
-**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](../concept/srp-service-operations-workspace.md)
+**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
 

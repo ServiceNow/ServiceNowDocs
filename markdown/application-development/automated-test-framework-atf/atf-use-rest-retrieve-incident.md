@@ -2,6 +2,7 @@
 title: Automated Test Framework use case: retrieve an incident using REST-Inbound
 description: The Get Newly Created Resource via REST API Test test is provided with the Automated Test Framework, and uses the REST - Inbound and assert steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-use-rest-retrieve-incident.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -17,7 +18,7 @@ The **Get Newly Created Resource via REST API Test** test is provided with the A
 
 ## Before you begin
 
-Review the [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md) and the [Send REST Request- Inbound- REST API Explorer](../reference/test-steps-rest-category.md#) configuration step information before creating this test.
+Review the REST APIs and the [Send REST Request- Inbound- REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-rest-category.md) configuration step information before creating this test.
 
 Role required: atf\_ws\_designer
 
@@ -119,5 +120,5 @@ This task steps you through creating the **Get Newly Created Resource via REST A
         To replicate the **Get Newly Created Resource via REST API Test** test, repeat this step to create **Assert Response JSON Payload is Valid**, and **Assert JSON Response Payload Element** test steps.
 
 
-**Parent Topic:**[Automated Test Framework use case examples](../concept/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
 

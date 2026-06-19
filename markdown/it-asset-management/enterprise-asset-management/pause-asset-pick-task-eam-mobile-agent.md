@@ -2,6 +2,7 @@
 title: Pause an enterprise asset pick task using the Mobile Agent application
 description: Record a break from an enterprise asset pick task by using the Mobile Agent application if you’re not continuing to work on it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/pause-asset-pick-task-eam-mobile-agent.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -37,8 +38,8 @@ After you pause a task, you can resume when you start working on it again. The s
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text: and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:, tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the asset pick task record that you want to pause.
 
 6.  In the **Details** tab, tap **Pause**.

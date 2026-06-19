@@ -2,6 +2,7 @@
 title: Submit multi-product sourcing requests
 description: Requesters can submit sourcing requests with multiple products in a single sourcing intake form. When a sourcing request form contains multiple products, the third-party sourcing solution automatically creates individual sourcing events for each product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/multi-product-sourcing-intake-with-third-party-integration.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,15 +38,15 @@ When a requester submits a sourcing intake form with multiple products, the thir
 
 3.  Select the **I need a product** record producer.
 
-    ![Purchase requests displayed.](../image/multi-prod-3p-step3.png)
+    \[Omitted image "multi-prod-3p-step3.png"\] Alt text: Purchase requests displayed.
 
 4.  Select your request details.
 
-    ![Select your requirement for the request.](../image/multi-prod-3p-step4.png)
+    \[Omitted image "multi-prod-3p-step4.png"\] Alt text: Select your requirement for the request.
 
 5.  Select your preferred supplier.
 
-    ![Add existing supplier in the system.](../image/multi-prod-3p-step5.png)
+    \[Omitted image "multi-prod-3p-step5.png"\] Alt text: Add existing supplier in the system.
 
     To add an existing supplier:
 
@@ -59,7 +60,7 @@ When a requester submits a sourcing intake form with multiple products, the thir
     3.  Select **Add**.
 6.  Select your delivery address and delivery date.
 
-    ![Selected a saved address for delivery address and as soon as possible for delivery date.](../image/multi-prod-3p-step6.png)
+    \[Omitted image "multi-prod-3p-step6.png"\] Alt text: Selected a saved address for delivery address and as soon as possible for delivery date.
 
 7.  Under **Products** section, select **Add**.
 
@@ -67,20 +68,20 @@ When a requester submits a sourcing intake form with multiple products, the thir
 
 8.  For each product, enter the product name, quantity or budget, delivery address, and delivery date.
 
-    ![Form to add product details.](../image/multi-prod-3p-step8.png)
+    \[Omitted image "multi-prod-3p-step8.png"\] Alt text: Form to add product details.
 
 9.  Enter the reason why you need these products.
 
-    ![Enter the reason to request the products.](../image/multi-prod-3p-step9.png)
+    \[Omitted image "multi-prod-3p-step9.png"\] Alt text: Enter the reason to request the products.
 
 10. Select **Submit**.
 
-    ![Multiple sourcing requests are created for the same purchase requisition.](../image/multi-prod-3p-result.png)
+    \[Omitted image "multi-prod-3p-result.png"\] Alt text: Multiple sourcing requests are created for the same purchase requisition.
 
 
 ## Result
 
 Multiple sourcing requests are created and linked to the same purchase record. All related requests are visible and manageable in the Source-to-Pay Workspace, and each sourcing request has its own sourcing event and RFQ identifier.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](../concept/psm-integration-third-party-sourcing.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-integration-third-party-sourcing.md)
 

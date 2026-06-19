@@ -2,6 +2,7 @@
 title: Tutorial part 6: Learn more about the ServiceNow IDE
 description: Learn more about the ServiceNow IDE to develop more complex applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/tutorial-next-steps-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -19,8 +20,8 @@ Congratulations! You have created your first application in the ServiceNow IDE, 
 
 For more information about development in the ServiceNow IDE, refer to the following resources:
 
--   [ServiceNow IDE documentation](../concept/servicenow-ide-landing.md)
--   [ServiceNow Fluent API reference](../../servicenow-sdk/reference/servicenow-fluent-api-reference.md)
+-   [ServiceNow IDE documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md)
+-   [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 -   [Introduction to the ServiceNow IDE](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-the-servicenow-ide?id=learning_course_prev&course_id=9b44e9a49340ead4d28b7e6badba1069) on ServiceNow University
 -   [ServiceNow IDE Demo](https://youtu.be/32cYYrBXJvk?si=tpOV1cKWCAhNND5E) video
 -   [ServiceNow IDE and Fluent Creator Toolbox](https://www.youtube.com/live/PHFZBsbTTtI?si=4eU7gkhiMSGo5yaN) video
@@ -30,5 +31,5 @@ For more information about development in the ServiceNow IDE, refer to the follo
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
-**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](../concept/getting-started-create-application-ide.md)
+**Parent Topic:**[Getting started: Create your first application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/getting-started-create-application-ide.md)
 

@@ -2,6 +2,7 @@
 title: Configure reassignable settings
 description: Configure whether an agent who rejected a work item is eligible to be offered the same work item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/reassign-rejected-timed-out-work-items.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

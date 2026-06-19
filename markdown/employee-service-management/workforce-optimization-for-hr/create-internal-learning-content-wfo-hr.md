@@ -2,6 +2,7 @@
 title: Create internal learning in Workforce Optimization for HR
 description: Add internal courses so that agents can learn new content and enhance their skill set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/create-internal-learning-content-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -135,5 +136,5 @@ Length of time when the course has to be completed. For example, for a video, it
     5.  In the **Due date** field, select the calendar icon and select the date and time when you want to trainee to complete the learning task.
     6.  Click **Save**.
 
-**Parent Topic:**[Learning in Workforce Optimization for HR](../concept/learning-wfo-hr.md)
+**Parent Topic:**[Learning in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/learning-wfo-hr.md)
 

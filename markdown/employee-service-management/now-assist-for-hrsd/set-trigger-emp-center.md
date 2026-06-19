@@ -2,6 +2,7 @@
 title: Set Onboarding ramp up trigger to use Employee Center portal
 description: Set Onboarding ramp-up trigger to use Employee Center portal in the trigger configuration so the onboarding ramp-up plan workflow is accessible through the portal. Without setting the portal, the trigger will not be visible or usable in the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/set-trigger-emp-center.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

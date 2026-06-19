@@ -2,6 +2,7 @@
 title: Talent profile definition form
 description: The following table provides the field and its corresponding description. The fields are required to create a talent profile definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/talent-profile-def-form.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -44,7 +45,7 @@ Types of talent profiles. There are four types available by default.
 -   Alumni
 -   Contingent
 
-For more information on creating a talent type, see [Create a talent type](../task/create-implement-ta-tp.md).
+For more information on creating a talent type, see [Create a talent type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-implement-ta-tp.md).
 
 </td></tr><tr><td>
 

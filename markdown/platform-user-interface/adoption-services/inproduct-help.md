@@ -2,11 +2,12 @@
 title: In-product help
 description: There are two kinds of in-product help to assist users understand the UI that they are using: Embedded Help and Help Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/inproduct-help.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Adoption services, Configure user experiences]
 ---
@@ -19,25 +20,25 @@ There are two kinds of in-product help to assist users understand the UI that th
 
 For both in-product help experiences, ServiceNow® provides some help content out of box, and you can replace it or create your own custom help content based on the needs of your users.
 
-Embedded Help provides targeted help content to a user in a page in the classic environment based on the user's role. For more information, see [Embedded Help](../../help-guided-tours/concept/embedded-help.md).
+Embedded Help provides targeted help content to a user in a page in the classic environment based on the user's role. For more information, see [Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help.md).
 
-![Catalog task page with embedded help.](../image/embedded-help.png "Embedded Help for a Catalog task page")
+\[Omitted image "embedded-help.png"\] Alt text: Catalog task page with embedded help.
 
 The Help Center is the next-generation Embedded Help product for configurable workspace. The Help Center provides targeted help content to users based on their role and specific to their location in a configurable workspace or page built with the Next Experience UI Framework.
 
-Help Center will display Embedded Help content, so you don't have to rewrite any content you previously created for Embedded Help. For more information, see [Help Center](help-center.md).
+Help Center will display Embedded Help content, so you don't have to rewrite any content you previously created for Embedded Help. For more information, see [Help Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/help-center.md).
 
-![Workspace dashboard with help view.](../image/help-center-icon-view.png "Help Center within the Service Operations Workspace")
+\[Omitted image "help-center-icon-view.png"\] Alt text: Workspace dashboard with help view.
 
 ## Get started
 
 <table id="table_h5k_wp5_5zb" class="nav-card"><tbody><tr><td>
 
-[Embedded Help![](../../../reuse/icons/brand-icons/bus-light-bulb.svg)Embedded Help provides targeted help content to a user in a UI page, based on their role.](../../help-guided-tours/concept/embedded-help.md)
+[Embedded Help\[Omitted image "bus-light-bulb.svg"\] Alt text:Embedded Help provides targeted help content to a user in a UI page, based on their role.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help.md)
 
 </td><td>
 
-[Help Center![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Help Center is the next-generation Embedded Help product for configurable workspaces and pages built on the Next Experience UI framework. Help Center provides targeted help content to users in a UI page, based on the user's role.](help-center.md)
+[Help Center\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Help Center is the next-generation Embedded Help product for configurable workspaces and pages built on the Next Experience UI framework. Help Center provides targeted help content to users in a UI page, based on the user's role.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/help-center.md)
 
 </td></tr></tbody>
 </table>## Workarounds

@@ -2,6 +2,7 @@
 title: OAuth 2.0
 description: OAuth 2.0 lets users access instance resources through external clients by obtaining a token rather than by entering login credentials with each resource request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_OAuthApplications.html
 release: australia
 product: Authentication
 classification: authentication
@@ -120,11 +121,11 @@ The user who delegates access rights to a client application, which is often a w
 
 A grant type is the way that the client obtains the access token. The following grant types are supported:
 
--   **Authorization code**: The consumer first gets an authorization code and then uses it to get an access token. You can [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md) and specify this grant type. The process that uses the authorization code is also referred to as auth code flow or authorization code flow.
+-   **Authorization code**: The consumer first gets an authorization code and then uses it to get an access token. You can Specify an OAuth profile and specify this grant type. The process that uses the authorization code is also referred to as auth code flow or authorization code flow.
 -   **Resource owner password credentials**: The consumer of the resource already has the user credentials to get the access token. This process is also referred to as password flow.
 -   **Client credentials**: The consumer of the resource uses the client ID and client secret that is already configured in the application registry.
 
 ## Storage of authentication credentials
 
-The OAuth client secret is stored as a **password2** type field, which is encrypted with KMF. User passwords, which are used to check incoming endpoint requests, are stored as a hash value in the User table in a **password** type field \(SHA 256\). For details on this encryption, see [Password2 encryption with KMF](../../key-management-framework/concept/password-2way-encrypted-fields.md)
+The OAuth client secret is stored as a **password2** type field, which is encrypted with KMF. User passwords, which are used to check incoming endpoint requests, are stored as a hash value in the User table in a **password** type field \(SHA 256\). For details on this encryption, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md)
 

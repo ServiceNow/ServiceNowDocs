@@ -2,6 +2,7 @@
 title: Fetch Response - Scoped,Global
 description: The Fetch Response API provides methods for creating a new Response object and for handling the response body created by a Fetch Request API method.Creates a new Response object using the Response\(\) constructor.Returns a promise that resolves with an ArrayBuffer.Returns a promise that resolves with a Blob.Returns a promise that resolves with an Uint8Array.Returns a promise that resolves with a FormData object.Returns a promise that resolves to the result of parsing the body text as JSON.Reads the response body and returns it as a plain string. The response is always decoded using UTF-8.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/Fetch.ResponseAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,13 +18,13 @@ The Fetch Response API provides methods for creating a new Response object and f
 
 The Fetch Response API is part of a set of Fetch APIs, which provide various actions for fetching resources from external websites. The full Fetch API collection includes:
 
--   [Fetch - fetch\(String resource, Object options\)](FetchAPI.md#): Starts the process of fetching a resource from the network.
--   [Fetch Headers - Scoped, Global](Fetch.HeadersAPI.md#): Retrieve and modify request and response headers.
--   [Fetch Request - Scoped, Global](Fetch.RequestAPI.md#): Create a new request object.
--   [Fetch RequestInit - Scoped, Global](Fetch.RequestInitAPI.md#): Set options to configure a fetch request.
--   [Fetch Response - Scoped,Global](Fetch.ResponseAPI.md#): Create a new response object.
+-   [Fetch - fetch\(String resource, Object options\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/FetchAPI.md): Starts the process of fetching a resource from the network.
+-   [Fetch Headers - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/Fetch.HeadersAPI.md): Retrieve and modify request and response headers.
+-   [Fetch Request - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/Fetch.RequestAPI.md): Create a new request object.
+-   [Fetch RequestInit - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/Fetch.RequestInitAPI.md): Set options to configure a fetch request.
+-   [Fetch Response - Scoped,Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/Fetch.ResponseAPI.md): Create a new response object.
 
-To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+To support fetch actions, the system property, `glide.hosts.allowlist`, allows controls over what hosts a fetch method can access. It applies to HTTP APIs like RestMessageV2 and those mentioned above. For more information about `glide.hosts.allowlist`, see .
 
 ## Response properties
 
@@ -259,7 +260,7 @@ const myURL = myRequest.url; // "https://github.com/mdn/dom-examples/tree/main/f
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+</table>**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Fetch Response - Response\(Object body, Object options\)
 
@@ -311,7 +312,7 @@ Object
 
 </td><td>
 
-Optional. An options object containing any custom settings that you want to apply to the response, or an empty object \(which is the default value\). The possible options are:-   headers: Any headers you want to add to your response, contained within a [Fetch Headers - Scoped, Global](Fetch.HeadersAPI.md#) object or object literal of string key/value pairs \(see [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) for a reference\). Empty by default.
+Optional. An options object containing any custom settings that you want to apply to the response, or an empty object \(which is the default value\). The possible options are:-   headers: Any headers you want to add to your response, contained within a [Fetch Headers - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/Fetch.HeadersAPI.md) object or object literal of string key/value pairs \(see [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) for a reference\). Empty by default.
 -   status: The status code for the response. The default value is `200`.
 -   statusText: The status message associated with the status code, such as `"OK"`. The default value is `""`.
 

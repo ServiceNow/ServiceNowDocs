@@ -2,6 +2,7 @@
 title: ValidateWorkflowStateValues
 description: The ValidateWorkflowStateValues validator checks a number of stage aspects in workflow activities for correctness.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_VldtWorkflowStateValues.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -33,7 +34,7 @@ This validator has multiple possible error messages.
 -   Suggested Action: If this is not by design, make the appropriate changes.
 -   Publishable: Yes.
 -   Runnable: Yes
--   Related Information: [Workflow activities](../../using-workflows/concept/c_WorkflowActivities.md).
+-   Related Information: [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md).
 
 ## Troubleshooting
 
@@ -47,10 +48,10 @@ Use the following procedure to troubleshoot this validator:
 
 4.  If the same stage name or value apprears more than once, remove one of the rows. It is then very important to go through the workflow and reassign stages in the activities that used the removed stage.
 
-    ![Workflow Stages record showing the Request Cancelled and Closed Incomplete stage names with a value of closed_complete.](../image/ValidateWorkflowStateValues.png "Validate Workflow Stage Values")
+    \[Omitted image "ValidateWorkflowStateValues.png"\] Alt text: Workflow Stages record showing the Request Cancelled and Closed Incomplete stage names with a value of closed\_complete.
 
 
 Tip: Make a list of which activities assign which stages.
 
-**Parent Topic:**[Workflow validator](r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
 

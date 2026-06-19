@@ -2,6 +2,7 @@
 title: Rating Scale New Record form
 description: Use the Rating Scale New Record form to set up the default importance rating scale to define the parameters of the rating scale for your business services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/importance-and-impact-rating-scale-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,6 +2,7 @@
 title: Advanced Governance, Risk, and Compliance Application Risk dashboard
 description: The GRC Application Risk and Compliance Overview Dashboard provides the latest view of risk and compliance aspects for the business applications that are used in an enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/advanced-grc-dashboard-2.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,16 +22,14 @@ The Application Risk Dashboard is useful for the Chief Information Officer \(CIO
 
 The Application Risk and Compliance Overview dashboard provides you a detailed report of the risk and compliance posture of all the business applications in an organization.
 
-![Advanced GRC application risk dashboard](../image/advanced-grc-dashboard.png "Application Risk and Compliance Dashboard")
-
-This dashboard highlights the following:
+The dashboard highlights the following:
 
 -   The compliance impact of applications in use.
 -   The risk posture of applications.
 -   The state of remediation and exceptions activity of the issues.
 -   The audit activity around applications and status.
 
-This dashboard provides answers to the following questions that are of interest to the CIO and the application owner:
+The dashboard provides answers to the following questions that are of interest to the CIO and the application owner:
 
 1.  What are the key applications, and are they all operational and delivering the required services optimally?
 2.  What are the policies and authority documents that the applications must be compliant to? Are the applications compliant to them?
@@ -145,7 +144,7 @@ The Issues Overview tab appears when you activate either the Risk Management plu
 -   Remediation Task Creation Trend: This report displays the trend of how remediation tasks are created over a period.
 -   Remediation Task Closure Trend: This report displays the trend of how remediation tasks are closed over a period.
 
-**Parent Topic:**[Analytics and reporting solutions for Risk Management](../../../use/dashboards/application-content-packs/grc-risk-mgmt-content-pack.md)
+**Parent Topic:**[Analytics and reporting solutions for Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-risk-mgmt-content-pack.md)
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

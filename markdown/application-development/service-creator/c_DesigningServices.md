@@ -2,6 +2,7 @@
 title: Designing services
 description: Service creator includes an interface for designing services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/service-creator/c\_DesigningServices.html
 release: australia
 product: Service Creator
 classification: service-creator

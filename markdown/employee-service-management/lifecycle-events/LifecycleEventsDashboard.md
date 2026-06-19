@@ -2,6 +2,7 @@
 title: Lifecycle event dashboards
 description: Use lifecycle event dashboards to gain visibility into active lifecycle event and onboarding cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/LifecycleEventsDashboard.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -38,5 +39,5 @@ The Onboarding Executive View dashboard requires the Performance Analytics - Con
     -   The **Activity Analysis** tab shows bottlenecks in the onboarding process. Details on each activity set per week by fulfiller or employee. The time it takes to close activities and overdue activities by fulfiller and employee also appears.
     -   The **New Hire Experience** tab shows the results of the new hire survey that helps measure the new hire experience. Information on employees leaving within a year also appears.
 
-See, [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-overview.md)
+See, Performance Analytics
 

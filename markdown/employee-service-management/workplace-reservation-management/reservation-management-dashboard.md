@@ -2,13 +2,14 @@
 title: Reservation Management dashboard
 description: Use the Reservation Management dashboard to monitor the reservations and meeting frequency in your organization. On any day, you can view details such as number of reservations, peak meeting times, and number of meetings for different locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/reservation-management-dashboard.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Analytics and Reporting Solutions for Workplace Reservation Management, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Analytics and Reporting, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Reservation Management dashboard
@@ -19,9 +20,9 @@ Use the Reservation Management dashboard to monitor the reservations and meeting
 
 Old dashboards are not supported for new Workplace Service Delivery customers. For existing customers, old dashboards are currently available but will be deprecated soon.
 
-For more information about the migrated dashboard, see [Reservation Management dashboard](reservation-management-dashboard.md).
+For more information about the migrated dashboard, see [Reservation Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/reservation-management-dashboard.md).
 
-![Reservation Management dashboard](../image/reservation-management-dashboard.png "Reservation Management dashboard")
+\[Omitted image "reservation-management-dashboard.png"\] Alt text: Reservation Management dashboard
 
 To access the Reservation Management Dashboard, navigate to **All** &gt; **Workplace Central** &gt; **Workplace Dashboards**.
 
@@ -59,12 +60,12 @@ sn\_wsd\_rsv.manager
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Meetings per location last month|Column ![Columns icon](../../performance-analytics/image/column-icon.png)|Number of meetings scheduled in each location in the last month.|
-|Peak meeting hours last 3 months|Line ![Line icon](../../performance-analytics/image/line-icon.png)|Peak hours when the maximum number of meetings were scheduled in the last 3 months.|
-|Location reservations per day this week|Stacked columns ![Stacked columns icon](../../performance-analytics/image/stacked-column-bkdown-icon.png)|Number of reservations made each day for the current week.|
+|Meetings per location last month|Column \[Omitted image "column-icon.png"\] Alt text: Columns icon|Number of meetings scheduled in each location in the last month.|
+|Peak meeting hours last 3 months|Line \[Omitted image "line-icon.png"\] Alt text: Line icon|Peak hours when the maximum number of meetings were scheduled in the last 3 months.|
+|Location reservations per day this week|Stacked columns \[Omitted image "stacked-column-bkdown-icon.png"\] Alt text: Stacked columns icon|Number of reservations made each day for the current week.|
 |Location reservations today|List|Number of reservations scheduled for today grouped by location.|
 
-**Parent Topic:**[Analytics and Reporting Solutions for Workplace Reservation Management](../../../product/wsd-reservation-management/concept/analytics-reporting-for-rsv-mgmt.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/analytics-reporting-for-rsv-mgmt.md)
 
-**Parent Topic:**[Manage Workplace Dashboards](../../../product/workplace-central/task/workplace-dashboards-wsd-central.md)
+**Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
 

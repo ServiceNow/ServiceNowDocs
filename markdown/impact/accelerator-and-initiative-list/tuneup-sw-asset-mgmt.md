@@ -2,6 +2,7 @@
 title: TuneUp Your Software Asset Management
 description: The TuneUp Your Software Asset Management \(SAM\) Accelerator provides guidance on maintaining and governing Software Asset Management health to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-sw-asset-mgmt.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,11 +20,13 @@ The TuneUp Your Software Asset Management \(SAM\) Accelerator provides guidance 
 
 TuneUp Your Software Asset Management provides Impact customers with an assessment of their current SAM implementation. This Accelerator includes  an  applied demonstration of SAM capabilities to reduce IT costs and limit various risks  through managing and optimizing software assets across the customer's lifecycle.  Customers obtain assistance for better insight into their SAM investment and  are provided leading practices on how to best increase adoption and usage.
 
-See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md) for additional information about SAM.
+See  for additional information about SAM.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 

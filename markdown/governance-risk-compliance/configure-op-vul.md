@@ -2,6 +2,7 @@
 title: Setting up the Operational vulnerability module
 description: Configure the Operational vulnerability feature in the Operational Resilience Workspace to help identify and address operational vulnerabilities within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-op-vul.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

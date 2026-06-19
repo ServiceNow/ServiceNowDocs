@@ -2,6 +2,7 @@
 title: Task mapping form
 description: The descriptions provided are required to fill the form to map a task with a task type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/answer-record-ta.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -117,5 +118,5 @@ Roles
 Roles who have access to the answer record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recruitment Workspace reference](../concept/recruitment-workspace-reference.md)
+</table>**Parent Topic:**[Recruitment Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-reference.md)
 

@@ -2,6 +2,7 @@
 title: Configure Google reCAPTCHA for external user self-registration
 description: To use the Google reCAPTCHA service, you must request an API key pair from Google and then configure the related system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-recaptcha-sp.html
 release: australia
 product: Authentication
 classification: authentication

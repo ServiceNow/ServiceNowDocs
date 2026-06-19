@@ -2,6 +2,7 @@
 title: Configuring Lifecycle Events
 description: Plan and configure Lifecycle Events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/configuring-lifecycle-events.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -17,6 +18,6 @@ Plan and configure Lifecycle Events.
 
 ## Configuration overview
 
-1.  [Activate Lifecycle Events for Enterprise](../task/activate-hr-lifecycle-events-for-enterprise-1.md)
-2.  [Activate Lifecycle Events](../task/activate-enterprise-onboarding-and-transitions-scoped.md)
+1.  [Activate Lifecycle Events for Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+2.  [Activate Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
 

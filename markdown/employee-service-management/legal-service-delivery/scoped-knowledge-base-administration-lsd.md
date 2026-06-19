@@ -2,6 +2,7 @@
 title: Scoped knowledge bases
 description: To protect knowledge bases containing sensitive articles, use a scoped knowledge base. Even system administrators and knowledge administrators can't administer scoped knowledge bases unless explicitly authorized through user criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/scoped-knowledge-base-administration-lsd.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,14 +24,14 @@ Users with the admin role of an application and the knowledge\_admin role can ad
 
 You can't modify the scope of existing knowledge bases. They remain in the global scope. However, you can create a scoped knowledge base to protect sensitive knowledge articles.
 
-To create a scoped knowledge base for an application, in addition to the knowledge\_admin or admin role, you must have access to view and select that application in the application picker \(see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md)\). For example, before you create a knowledge base in the Human Resources: Core application, you must select the Human Resources: Core application in the application picker, and then create the knowledge base. Then, when you create a knowledge base, on the Knowledge base form, the application scope of the knowledge base is set in the **Application** field.
+To create a scoped knowledge base for an application, in addition to the knowledge\_admin or admin role, you must have access to view and select that application in the application picker \(see Application picker\). For example, before you create a knowledge base in the Human Resources: Core application, you must select the Human Resources: Core application in the application picker, and then create the knowledge base. Then, when you create a knowledge base, on the Knowledge base form, the application scope of the knowledge base is set in the **Application** field.
 
 **Related topics**  
 
 
-[Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-a-knowledgebase.md)
+[bundle-platcap.create-a-knowledgebase]
 
-[Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md)
+[bundle-cadev.application-administration]
 
-[Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md)
+[bundle-platcap.t_SelectUserCriteria]
 

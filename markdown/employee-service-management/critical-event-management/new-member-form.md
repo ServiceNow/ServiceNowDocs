@@ -2,6 +2,7 @@
 title: New member form
 description: Field descriptions to add a new member to a group mapped to a location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/new-member-form.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -36,5 +37,5 @@ Field descriptions to add a new member to a group mapped to a location.
 |Mobile phone|Member's mobile phone number|
 |Photo|Attach a photo of the member, if appropriate.|
 
-**Parent Topic:**[Critical Event Management reference](../concept/critical-event-management-reference.md)
+**Parent Topic:**[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/critical-event-management-reference.md)
 

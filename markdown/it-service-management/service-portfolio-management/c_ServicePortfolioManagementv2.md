@@ -2,6 +2,7 @@
 title: Exploring Service Portfolio Management
 description: The Service Portfolio Management application enables you to document and manage your services, service offerings, and portfolios using a standardized, structured format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/c\_ServicePortfolioManagementv2.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -27,7 +28,7 @@ Service portfolios typically have three phases:
 
 ## Service Portfolio Management users
 
-The following table presents the most common users for Service Portfolio Management. For more information about core roles and tables, see [Installed with Service Portfolio Management](../reference/r_InstalledWSPM2.md).
+The following table presents the most common users for Service Portfolio Management. For more information about core roles and tables, see [Installed with Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/r_InstalledWSPM2.md).
 
 <table id="table_gkv_mr4_5bc"><thead><tr><th>
 
@@ -90,7 +91,7 @@ View all service portfolios, services, and service offerings.
 
 Depending on your role, you can use Service Portfolio Management for a variety of use cases.
 
-![Service Portfolio Management overview.](../image/SPM-Process-flow.png "Service Portfolio Management overview")
+\[Omitted image "SPM-Process-flow.png"\] Alt text: Service Portfolio Management overview.
 
 -   Portfolio admins create service portfolios, services, and service offerings. Portfolio admins can also use the ServiceNow® Service Builder application to create and edit services and service offerings.
 -   Portfolio editors and service editors create, add, and assign roles to service offerings. Portfolio editors and service editors can also log outages, assess availability commitment results, assess service level agreements \(SLA\) commitment results, and identify service impacts from dependencies.
@@ -118,7 +119,7 @@ Create and manage service portfolios and add services and offerings to the portf
 
 </td><td>
 
-[Create portfolios in Service Portfolio Management](../task/create-or-modify-SPM2-portfolios.md)
+[Create portfolios in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-or-modify-SPM2-portfolios.md)
 
 </td><td>
 
@@ -130,7 +131,7 @@ Create and manage the overall portfolio taxonomy, including service nodes.
 
 </td><td>
 
-[Service Portfolio Management taxonomy](SPM2-taxonomy.md)
+[Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-taxonomy.md)
 
 </td><td>
 
@@ -142,7 +143,7 @@ Create taxonomy nodes
 
 </td><td>
 
-[Create taxonomy nodes](../task/create-or-mod-SPM2-taxonomy-nodes.md)
+[Create taxonomy nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-or-mod-SPM2-taxonomy-nodes.md)
 
 </td><td>
 
@@ -154,7 +155,7 @@ Create services
 
 </td><td>
 
-[Create a service in Service Portfolio Management](../task/create-or-modify-SPM2-services.md)
+[Create a service in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-or-modify-SPM2-services.md)
 
 </td><td>
 
@@ -166,7 +167,7 @@ Create service offerings, commitments, assign support teams to a service offerin
 
 </td><td>
 
-[Service offerings in Service Portfolio Management](SPM2-service-offerings.md)
+[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-offerings.md)
 
 </td><td>
 
@@ -180,7 +181,7 @@ Log outages
 
 </td><td>
 
-[Log outages in Service Portfolio Management](../task/create-SPM2-outages.md)
+[Log outages in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-SPM2-outages.md)
 
 </td><td>
 
@@ -192,7 +193,7 @@ View availability results
 
 </td><td>
 
-[View availability results in Service Portfolio Management](SPM2-view-availability-results.md)
+[View availability results in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-view-availability-results.md)
 
 </td><td>
 
@@ -204,7 +205,7 @@ Set the time zone for availability results
 
 </td><td>
 
-[Set the time zone for availability results in Service Portfolio Management](../task/spm2-set-timezone.md)
+[Set the time zone for availability results in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td><td>
 
@@ -216,7 +217,7 @@ Integrates with the Common Service Data Model \(CSDM\)
 
 </td><td>
 
-[Applying the CSDM guidelines to Service Portfolio Management](SPM2-csdm.md)
+[Applying the CSDM guidelines to Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-csdm.md)
 
 </td><td>
 
@@ -227,14 +228,14 @@ Admin
 
 To learn more about configuring and using Service Portfolio Management, see:
 
--   [Configuring Service Portfolio Management](SPM2-configuring.md)
--   [Using Service Portfolio Management](SPM2-using.md)
--   [Service Portfolio Management reference](../reference/SPM2-reference.md)
+-   [Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
+-   [Using Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
+-   [Service Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-reference.md)
 
--   **[Use Service Portfolio Management services](SPM2-services.md)**  
+-   **[Use Service Portfolio Management services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-services.md)**  
 Configure IT services within your portfolios to add the most value to your organization. The IT services defined in your portfolios may, or may not be, aligned to an application. IT services defined in your portfolios may, or may not be, represented in a request catalog.
--   **[Service Portfolio Management portfolios](SPM2-service-portfolios.md)**  
+-   **[Service Portfolio Management portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-service-portfolios.md)**  
 A service portfolio presents an overall top-level view of your currently available services, possible future services, and services that existed in the past. Evaluate the impact that services have on your business and manage them in a single portfolio or multiple portfolios with unique taxonomy structures, owners, and market scope.
 
-**Parent Topic:**[Service Portfolio Management](../reference/SPM2-landing-page.md)
+**Parent Topic:**[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-landing-page.md)
 

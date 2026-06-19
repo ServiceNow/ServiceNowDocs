@@ -2,7 +2,10 @@
 title: View Walk-up Experience inbox
 description: View a personal inbox of automatically assigned Walk-up Experience interactions using the CSM Configurable Workspace feature interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-view-inbox.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

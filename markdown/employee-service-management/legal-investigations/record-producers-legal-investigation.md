@@ -2,6 +2,7 @@
 title: Record producers for legal investigations
 description: A record producer helps you set up an intake form containing fields that a requester has to fill in and initiate a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/record-producers-legal-investigation.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -113,7 +114,7 @@ Universal Request \[universal\_request\]
 -   Marks the request as a sensitive case by default.
 
 </td></tr></tbody>
-</table>For more information, see [Managing record producers for legal services](../../legal-request-management/concept/record-producers-legal-services.md).
+</table>For more information, see [Managing record producers for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/record-producers-legal-services.md).
 
-**Parent Topic:**[Legal Investigations reference](legal-investigations-reference.md)
+**Parent Topic:**[Legal Investigations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/legal-investigations-reference.md)
 

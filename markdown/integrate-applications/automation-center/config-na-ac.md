@@ -2,6 +2,7 @@
 title: Configuring Now Assist for Automation Center
 description: Configure Now Assist for Automation Center to use all the features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/config-na-ac.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -25,8 +26,8 @@ The Now Assist for Automation Center plugin helps you to:
 -   Explore all automations in your instance
 -   Automatically create automation requests from Task Mining Workspace
 
--   **[Activate skills for Now Assist for Automation Center](../task/activate-skill.md)**  
+-   **[Activate skills for Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md)**  
 Activate the skills available for Now Assist for Automation Center to work with ease and reduce manual effort in creating automation requests and exploring automations.
 
-**Parent Topic:**[Now Assist for Automation Center](nowassist-ac.md)
+**Parent Topic:**[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/nowassist-ac.md)
 

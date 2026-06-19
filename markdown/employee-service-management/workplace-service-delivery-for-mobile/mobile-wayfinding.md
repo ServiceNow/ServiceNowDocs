@@ -2,13 +2,14 @@
 title: Mobile Wayfinding Administration
 description: Configure map providers to enable Workplace Service Delivery for Mobile users to get directions to another workplace easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/mobile-wayfinding.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace Service Delivery for Mobile, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Mobile Wayfinding Administration
@@ -21,27 +22,27 @@ Mobile wayfinding functionality is available for mobile users.
 
 -   Create a custom Map provider. Configure Indoor mapping as your map providers so that directions are displayed from one location to another.
 
-    For more information, see [Configure a custom Map provider](../task/configure-custom-map-provider.md).
+    For more information, see [Configure a custom Map provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-custom-map-provider.md).
 
 -   Configure a custom Map screen. Configure map screens for wayfinding.
 
-    For more information, see [Configure a custom map screen](../task/create-custom-map-screen.md).
+    For more information, see [Configure a custom map screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/create-custom-map-screen.md).
 
 -   Indoor Navigation User profile: Use an employee's workplace profile for wayfinding. The Get directions option appears based on these conditions.
 
     -   Employee must have a floor map configured Indoor Mapping or Mappedin.
-    -   Indoor wayfinding-My Reservation: Get directions to a location from the reservation details page. The specified location must have a floor map defined to view the **Get Directions** option. For more information, see [Get directions to a workplace](../task/get-directions-to-a-workplace.md).
+    -   Indoor wayfinding-My Reservation: Get directions to a location from the reservation details page. The specified location must have a floor map defined to view the **Get Directions** option. For more information, see [Get directions to a workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/get-directions-to-a-workplace.md).
     Employees must have an ongoing reservation. If there is no reservation, the location specified in the employee's workplace profile is used.
 
 
--   **[Configure a custom map screen](../task/create-custom-map-screen.md)**  
+-   **[Configure a custom map screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/create-custom-map-screen.md)**  
 Configure a map screen to see location-based information on a map from a mobile app. The map highlights points of interest and users can switch between a map view and list view.
--   **[Configure a custom Map provider](../task/configure-custom-map-provider.md)**  
+-   **[Configure a custom Map provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-custom-map-provider.md)**  
 Configure map providers so that directions are displayed from one location to another in Workplace Service Delivery for Mobile
 
-**Parent Topic:**[Configure Workplace Service Delivery for Mobile](configure-wsd-mobile.md)
+**Parent Topic:**[Configure Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
 
-**Previous topic:**[Install Workplace Service Delivery for Mobile](../task/install-wsd-for-mobile.md)
+**Previous topic:**[Install Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/install-wsd-for-mobile.md)
 
-**Next topic:**[Configure a custom map screen](../task/create-custom-map-screen.md)
+**Next topic:**[Configure a custom map screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/create-custom-map-screen.md)
 

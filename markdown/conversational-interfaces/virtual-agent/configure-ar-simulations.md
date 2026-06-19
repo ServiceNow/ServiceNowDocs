@@ -2,6 +2,7 @@
 title: Configure and run an Issue Auto Resolution simulation
 description: Use the incident data from your organization to run simulations from the matching intents that the Issue Auto Resolution application based its predictions on from the case descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-ar-simulations.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -177,5 +178,5 @@ Percentage of cases that the simulation has predicted that match active intents 
     |Unmapped intents|Intent that was successfully predicted from the case description, but the intent itself hasn’t been added to the intent to topic map table in the configuration. To increase the coverage for those incidents, add those additional intents to the table.|
 
 
-**Parent Topic:**[Using Issue Auto Resolution](../concept/auto-resolution-va.md)
+**Parent Topic:**[Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md)
 

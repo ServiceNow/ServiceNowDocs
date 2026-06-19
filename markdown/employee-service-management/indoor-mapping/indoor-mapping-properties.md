@@ -2,6 +2,7 @@
 title: Indoor Mapping properties
 description: Customize and render map components and objects by updating the Indoor Mapping properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/indoor-mapping-properties.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -121,9 +122,9 @@ Threshold to simplify complex shapes or geometries that have 20 or more coordina
 </table>3.  Click **Save**.
 
 
-**Parent Topic:**[Configure Indoor Mapping](../concept/configure-ind-mapping.md)
+**Parent Topic:**[Configure Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/configure-ind-mapping.md)
 
-**Previous topic:**[Configure role-based access in Indoor Mapping](map-limited-editor.md)
+**Previous topic:**[Configure role-based access in Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/map-limited-editor.md)
 
-**Next topic:**[Manage CAD source files](../concept/manage-autocad-files.md)
+**Next topic:**[Manage CAD source files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-autocad-files.md)
 

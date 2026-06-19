@@ -2,6 +2,7 @@
 title: Approve a cloud account request
 description: Approve or deny a cloud account request as an approver. A notification email is received when the requester creates an account request. When a cloud account is requested, the table captures and retrieves the details of the request. Once the Cloud Account Management request is approved, it’s assigned to a provisioner, such as CCOE, DevOps, or SRE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/approve-account.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

@@ -2,6 +2,7 @@
 title: Verify the Vulnerability Response Integration with Palo Alto Prisma Cloud import run status
 description: Use the Vulnerability Response Integration with Palo Alto Prisma Cloud import run status to verify the success of your integration runs and to identify any issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/verify-integration-run.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

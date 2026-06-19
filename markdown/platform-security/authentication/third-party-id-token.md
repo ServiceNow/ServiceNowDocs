@@ -2,11 +2,12 @@
 title: Third party token grant
 description: The third party token grant enables ServiceNow to accept identity tokens from trusted external identity providers, such as Azure AD or Okta. Third party token grant provides secure, token-based access. This method supports secure access and single sign-on \(SSO\) in federated authentication scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/third-party-id-token.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -28,6 +29,6 @@ The client application requests an ID or access token from a trusted external id
 
 You can use accounts from a third-party identity provider \(IdP\) to access the ServiceNow® API for:
 
--   [Third party token workflow for user accounts](third-party-token-worflow-for-user-accounts.md)
--   [Third party token workflow for service accounts](third-party-token-workflow-for-service-accounts.md)
+-   [Third party token workflow for user accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/third-party-token-worflow-for-user-accounts.md)
+-   [Third party token workflow for service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/third-party-token-workflow-for-service-accounts.md)
 

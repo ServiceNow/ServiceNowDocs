@@ -2,11 +2,12 @@
 title: Schedule Monthly Health Assessment scans
 description: Automate monthly Health Assessment scans and reports to help improve the health of your ServiceNow platform implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/schedule-monthly-health-assessment-scans.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Monthly Health Assessment, HealthScan tech KPIs, HealthScan, Platform Health, Using Impact, Impact]
+breadcrumb: [Monthly Health Assessment, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Schedule Monthly Health Assessment scans
@@ -21,7 +22,7 @@ Role required: impact\_permission\_authorizer
 
 1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Diagnose**.
 
-    A banner displays introducing the Monthly Health Assessment.![The banner to activate the monthly healthscans.](../image/monthly-healthscan-banner.png)
+    A banner displays introducing the Monthly Health Assessment.\[Omitted image "monthly-healthscan-banner.png"\] Alt text: The banner to activate the monthly healthscans.
 
 2.  Select **Turn on**.
 
@@ -29,12 +30,14 @@ Role required: impact\_permission\_authorizer
 
     **Important:** If you do not consent to run the automated reports, the Monthly HealthScan reports will not be scheduled.
 
-    ![Screen to consent and setup the auto health assessment.](../image/enable-auto-health-assessment.png)
+    \[Omitted image "enable-auto-health-assessment.png"\] Alt text: Screen to consent and setup the auto health assessment.
 
 4.  Select **Enable.**
 
     -   A success banner displays with the option to request an Accelerator, as needed, or Close.
     -   The scans are conducted monthly as long as the consent is active.
-5.  Access the Monthly HealthScan reports in the [Health Assessment Dashboard](../concept/health-assessment-dashboard.md).
+5.  Access the Monthly HealthScan reports in the [Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/health-assessment-dashboard.md).
 
+
+**Parent Topic:**[Monthly Health Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/monthly-health-assessment.md)
 

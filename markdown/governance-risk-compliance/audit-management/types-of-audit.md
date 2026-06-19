@@ -2,6 +2,7 @@
 title: Audit types
 description: There are many types of audits and each of the audit types has a specific use in an audit engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/types-of-audit.html
 release: australia
 product: Audit Management
 classification: audit-management

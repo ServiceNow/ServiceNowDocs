@@ -2,6 +2,7 @@
 title: Configure work prioritization for sourcing requests
 description: Configure the Priority defaulting for sourcing requests decision table to automatically assign priority levels to sourcing requests based on the organizational seniority of the business owner or other administrator-defined conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-sourcing-requests.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -25,7 +26,7 @@ Before configuring work prioritization for sourcing requests, confirm the follow
 -   Job code records exist in the instance and are associated with user profiles in the expected way.
 -   The **Business owner** field is populated on sourcing request records. If it is empty, no job code can be evaluated and no rule will match.
 
-Role required: sn\_spend\_psd.psd\_admin or admin
+Role required: decision\_table\_admin
 
 ## About this task
 
@@ -61,7 +62,7 @@ If your organization does not use job code hierarchy as the basis for sourcing p
 
     -   To set a condition, select the operator cell and choose an operator, then select the condition value cell and enter a value. To match on business owner job code, use the dot-walked field `business_owner.job_code`. Use the reference field lookup to select the correct job code records rather than entering values manually.
     -   To set the result, select the result value cell and choose the priority level to assign when the rule matches.
-    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see [Modify decision table rules in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/modify-decision-table-rules.md).
+    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see .
 
 7.  In the **Rank** column, set the evaluation sequence for each rule.
 
@@ -88,5 +89,5 @@ If your organization does not use job code hierarchy as the basis for sourcing p
 
 Sourcing requests are automatically assigned a priority level when they are created or updated. Procurement specialists can sort and filter their work queue by priority to work the most urgent sourcing requests first.
 
-**Parent Topic:**[Configuring work prioritization](../concept/configuring-work-prioritization.md)
+**Parent Topic:**[Configuring work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.md)
 

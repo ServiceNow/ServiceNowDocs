@@ -2,6 +2,7 @@
 title: Service Graph Connector for Active Directory
 description: The Service Graph Connector for Active Directory retrieves computer and software information from the Microsoft Active Directory \(AD\) product and imports it into the Configuration Management Database \(CMDB\) in your instance using Lightweight Directory Access Protocol \(LDAP\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-ad-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,7 +18,7 @@ The Service Graph Connector for Active Directory retrieves computer and software
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Supported versions
 
@@ -33,11 +34,11 @@ Import computer and software details about your assets from the Microsoft Active
 
 ## Guided setup
 
-The guided setup for the Service Graph Connector for Active Directory provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, [Configure Service Graph Connector for Active Directory](../task/sgc-ad-configure.md).
+The guided setup for the Service Graph Connector for Active Directory provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, [Configure Service Graph Connector for Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-ad-configure.md).
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Microsoft Active Directory integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](../../../configuration-management/concept/integration-commons-for-cmdb.md#section_fxg_lh4_blb).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Microsoft Active Directory integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 ## Data mapping
 

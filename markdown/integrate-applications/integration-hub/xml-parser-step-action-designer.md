@@ -2,6 +2,7 @@
 title: XML parser step
 description: Identify structured data from an XML payload without having to write script. Map incoming XML elements to a complex object output that you can use in other steps or actions. At runtime, values from an XML payload populate the complex object output.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/xml-parser-step-action-designer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -15,7 +16,7 @@ breadcrumb: [Integration steps, Build integrations, Integration Hub, Workflow Da
 
 Identify structured data from an XML payload without having to write script. Map incoming XML elements to a complex object output that you can use in other steps or actions. At runtime, values from an XML payload populate the complex object output.
 
-To learn more about complex objects, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
+To learn more about complex objects, see Complex data.
 
 **Note:** This step requires an Integration Hub subscription. For more information, see [Legal schedules - Integration Hub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf). After the required plugin is activated, the step is visible under Integrations.
 
@@ -25,7 +26,7 @@ Available as an Workflow Studio action step. Users with the action\_designer rol
 
 ## Payload size limit
 
-At runtime, XML parser step supports payloads up to 10 MB. For larger payloads, create a Data Stream action. For more information, see [Data Stream actions and pagination](../../integrationhub/concept/data-stream-actions.md).
+At runtime, XML parser step supports payloads up to 10 MB. For larger payloads, create a Data Stream action. For more information, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
 
 At design time, XML parser step supports sample payloads up to 64,000 characters.
 
@@ -86,13 +87,13 @@ View or edit the XML payload's output structure. Create a structured output by c
 
 -   **Type**: Data type, which must be String, Object, Array.String, or Array.Object. The top-level element must be an Object.
 -   **Mandatory**: Toggle to make the element required. This only applies to elements of type String.
--   **Add child item**: Select the add child item icon \(![Add child item icon](../images/plus-icon-gray.png)\) to add a nested child element.
+-   **Add child item**: Select the add child item icon \(\[Omitted image "plus-icon-gray.png"\] Alt text: Add child item icon\) to add a nested child element.
 
  Elements of type Object contain the **Save as Template** advanced option, which allows you to save your object's structure as a complex object template. You can then use this template to define the schema of an Object output for your action.
 
  For elements of type String, you can also add a max length, hint, and default value as advanced options.
 
- In the Target header, select **Exit Edit Mode** when you're done making changes to your output's structure. You can then select the toggle advanced inputs icon \(![Toggle advanced inputs icon](../images/toggle-advanced-inputs-icon.png)\) to view the **XPath** option.
+ In the Target header, select **Exit Edit Mode** when you're done making changes to your output's structure. You can then select the toggle advanced inputs icon \(\[Omitted image "toggle-advanced-inputs-icon.png"\] Alt text: Toggle advanced inputs icon\) to view the **XPath** option.
 
  The XPath is the path to the element. Modify the XPath to change how source data elements map to complex data variables. If manually adding complex data variables, you can copy the XPath from the **Payload view** field and paste it in a complex data variable XPath field to ensure the correct hierarchy. Conditional XPath expressions are not supported.
 

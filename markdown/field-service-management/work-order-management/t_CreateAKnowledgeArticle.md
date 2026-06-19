@@ -2,6 +2,7 @@
 title: Create a knowledge article for a work order template
 description: You can add knowledge articles and guides \(such as installation guides, maintenance procedures, and checklists\) to the default knowledge base for hardware, software, and consumable templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CreateAKnowledgeArticle.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -35,7 +36,7 @@ Role required: wm\_admin or model\_manager
     |Name|\[Required\] Unique and descriptive name for this template.|
     |Short description|\[Required\] Content that is copied into the **Short description** field of a work order when this work order template is used. The exception to this is a work order created from an incident, problem, or change request, which always uses the short description of the source task, even when a template is applied.|
     |Description|More in-depth description of the purpose of the template.|
-    |Checklist template|Select a checklist template to add a checklist to the work orders created from this work order template. For information on checklists, see [Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Checklists.md).|
+    |Checklist template|Select a checklist template to add a checklist to the work orders created from this work order template. For information on checklists, see Checklists.|
     |Workflow|The workflow for work orders created from this template.|
     |Qualification group|The qualification group for work orders created from this template.|
 

@@ -2,11 +2,12 @@
 title: Cloud scripts and cloud script templates
 description: In the Cloud Provisioning and Governance application, script execution is divided into cloud scripts and cloud script templates. Use scripts in blueprints, resource blocks, OS profiles, and use policy scripts to set request form attributes. Policy scripts cannot override user data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-scripts-and-templates.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -65,15 +66,15 @@ Cloud providers provide a way to execute scripts at boottime for virtual machine
 
 -   Image level: At the time of creating a cloud script, you can specify an image against which this script should be executed. Once an OS profile which contains this specific image gets selected, the default cloud script against this image is executed. In the example below, an Apache cloud script is associated with a particular image.
 
-    ![Apache cloud script associated with an image.](../image/apache-cloud-script.png)
+    \[Omitted image "apache-cloud-script.png"\] Alt text: Apache cloud script associated with an image.
 
 -   OS profile level: You can run a cloudinit against a specific cloud provider and against a specific AMI/image. You can also be generic and associate a cloudinit to an OS profile, irrespective of the underlying image. In the following example, multiple images are associated with the OS profile. You can map any cloud script to the OS profile in the Cloud Script OS Profile Mappings tab. The mapping of a cloud script with an OS profile takes precedence over the image-level cloud script association.
 
-    ![cloud script default at OS profile](../image/os-profile-example.png)
+    \[Omitted image "os-profile-example.png"\] Alt text: cloud script default at OS profile
 
     In this example, the Apache cloud script is mapped to the Centos OS profile. If needed, you can override the script parameters in the OS Profile Mapping Overrides section.
 
--   Resource blocks: While mapping a cloud script to an OS profile, you can choose whether to execute the cloud script for a specific resource block used in a blueprint and against a particular resource alias. See [Create an OS profile](../task/create-os-profile.md).
+-   Resource blocks: While mapping a cloud script to an OS profile, you can choose whether to execute the cloud script for a specific resource block used in a blueprint and against a particular resource alias. See [Create an OS profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-os-profile.md).
 
 ## Cloud scripts as Postinit
 

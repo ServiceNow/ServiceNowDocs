@@ -2,6 +2,7 @@
 title: Configure an HR badge
 description: Use Badges to create or modify visual indicators that provide quick insights into important attributes of employees, cases, or assigned users, such as organization, role, status, or special conditions on the HR Ticket page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/CreateModHRBadges.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -47,5 +48,5 @@ Custom badges only appear for specif .
 4.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[HR Administration](../concept/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

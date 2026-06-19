@@ -2,6 +2,7 @@
 title: Playbook for Legal Request
 description: The Legal Request playbook provides step-by-step guidance on how you can inform legal about the latest summary of an MSI so that they can notify the SEC in the 4-day time frame that is required for material breaches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-legal-request.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,7 +31,7 @@ The following are the lanes of the process definition and correspond to the majo
 
 Each lane has certain activities within it.
 
-![Playbook for Legal Request](../image/msim-playbook-list.png "Playbook for Legal Request")
+\[Omitted image "msim-playbook-list.png"\] Alt text: Playbook for Legal Request
 
 Once you mark a task complete in a lane, you can move to the next task. You can save a task at any point in time and return to the playbook at a later date and time. After you complete all the tasks in a lane, you can move to the next lane. The status is reflected in the left-hand panel as you keep completing tasks and lanes. An Activity Log on the right-hand side of the playbook shows all the data that you have entered for each task.
 

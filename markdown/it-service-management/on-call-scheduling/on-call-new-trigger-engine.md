@@ -2,6 +2,7 @@
 title: On-Call Scheduling new trigger engine
 description: On-Call Scheduling new trigger engine enables the on-call subflows to get launched via the flow runner queue instead of the event queue. Launching via the flow runner queue improves the on-call performance and helps to alert the on-call members faster than launching via event queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/on-call-new-trigger-engine.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -34,5 +35,5 @@ The new trigger engine is applicable only when the following conditions are met:
 -   Subflows are used. The new engine is only applicable to on-call subflows and not the workflows.
 -   The **On-Call rotation new trigger engine** \[**com.snc.on\_call\_rotation.new\_trigger\_engine**\] system property is set to `true`.
 
-**Parent Topic:**[Exploring On-Call Scheduling](exploring-on-call-scheduling.md)
+**Parent Topic:**[Exploring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/exploring-on-call-scheduling.md)
 

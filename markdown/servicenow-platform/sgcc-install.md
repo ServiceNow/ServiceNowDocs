@@ -2,6 +2,7 @@
 title: Install SGC Central
 description: You can install the SGC Central application \(sn\_sgc\_central\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-install.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -64,7 +65,7 @@ The following items are installed with SGC Central:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with SGC Central](../concept/sgcc-installed-components.md).
+For more information, see [Components installed with SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-installed-components.md).
 
 ## Procedure
 

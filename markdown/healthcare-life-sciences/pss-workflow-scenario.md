@@ -2,6 +2,7 @@
 title: Patient Support Services - Workflow scenario
 description: Use the Patient Support Services application for streamlining enrollment activities for a patient support service including patient onboarding and pre-authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-workflow-scenario.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

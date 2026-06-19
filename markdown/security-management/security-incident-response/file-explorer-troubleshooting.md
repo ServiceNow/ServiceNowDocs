@@ -2,6 +2,7 @@
 title: File Explorer troubleshooting
 description: The troubleshooting section can help you resolve some of the technical issues that you may encounter when setting up File Explorer component.Scheduled Jobs are automated jobs that are run to process the notifications from Microsoft SharePoint, ingest the files metadata into ServiceNow instance and renew the file repository subscriptions on a recurring schedule.Following are the available Microsoft SharePoint File Explorer connector system properties.Following are the Flow Designer subflows which are installed with Microsoft SharePoint File Explorer connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-explorer-troubleshooting.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -17,7 +18,7 @@ The troubleshooting section can help you resolve some of the technical issues th
 
 Refer to the following section on the scheduled jobs, system properties, and File Explorer flow designer subflows in detail.
 
-**Parent Topic:**[Configure File Explorer Component](../../security-incident-response/concept/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
 
 ## Scheduled jobs for File Explorer
 
@@ -35,7 +36,7 @@ Scheduled Jobs are automated jobs which are run in the background to:
 |Microsoft SharePoint File Explorer Connector: Ingest Files|Runs every 30 seconds and primarily responsible for processing the drives \(sn\_fe\_file\_repo\_drive\) which are in pending state and pulls the delta file changes from the configured Microsoft SharePoint document library since the last pull.|
 |Microsoft SharePoint File Explorer: Renew Subscription|Runs every 10mins and responsible for renewing the Microsoft SharePoint document library subscription a day before its expiry date. Usually, these subscriptions expire in 30 days.|
 
-![Scheduled jobs](../../security-incident-response/image/fe-scheduled-jobs.png)
+\[Omitted image "fe-scheduled-jobs.png"\] Alt text: Scheduled jobs
 
 ## Available File Explorer system properties
 

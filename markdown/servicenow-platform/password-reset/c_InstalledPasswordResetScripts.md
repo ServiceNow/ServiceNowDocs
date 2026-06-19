@@ -2,6 +2,7 @@
 title: Password Reset script includes
 description: The Password Reset plugin installs script includes that implement password reset processes. To enable you to extend functionality, each base-system script include provides extension points that you can use to invoke "extension scripts" that you customized.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/c\_InstalledPasswordResetScripts.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -15,7 +16,7 @@ breadcrumb: [Password Reset reference, Password Reset, Manage service capabiliti
 
 The Password Reset plugin installs script includes that implement password reset processes. To enable you to extend functionality, each base-system script include provides extension points that you can use to invoke "extension scripts" that you customized.
 
-The [extension script category](pw-reset-extension-script.md) refers to the specific types of behavior for an extension script \(for example, credential store, verification, identification type, or as a post-processor\).
+The [extension script category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/pw-reset-extension-script.md) refers to the specific types of behavior for an extension script \(for example, credential store, verification, identification type, or as a post-processor\).
 
 ## 'Enrollment check' script includes
 
@@ -123,11 +124,11 @@ All post processor script includes take the following parameters.
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-extension-points.md)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/client-extension-points.md)
+[bundle-crapiref.client-extension-points]
 

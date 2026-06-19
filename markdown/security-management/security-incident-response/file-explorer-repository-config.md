@@ -2,6 +2,7 @@
 title: Configure File Explorer Repository Drive
 description: The Microsoft SharePoint connector provides various capabilities to be implemented in Microsoft SharePoint File Explorer features by managing and tracking the file metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-explorer-repository-config.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -75,7 +76,7 @@ Graph Connection
 
 </td><td>
 
-Select the File Explorer Graph tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md).
+Select the File Explorer Graph tenant record. For more information on the tenant connection configuration, see Microsoft SharePoint spoke.
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Rest Connection
 
 </td><td>
 
-Select the File Explorer REST tenant record. For more information on the tenant connection configuration, see [Microsoft SharePoint spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md).
+Select the File Explorer REST tenant record. For more information on the tenant connection configuration, see Microsoft SharePoint spoke.
 
 </td></tr></tbody>
 </table>3.  Select **Save**.
@@ -99,5 +100,5 @@ Select the File Explorer REST tenant record. For more information on the tenant 
     **Note:** Using the **Test Connection** button, either MSI Administrator or MSI Manager can only validate the file repository configuration.
 
 
-**Parent Topic:**[Configure File Explorer Component](../concept/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
 

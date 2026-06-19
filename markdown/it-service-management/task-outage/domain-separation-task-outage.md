@@ -2,6 +2,7 @@
 title: Domain separation and task outage
 description: Domain separation is supported in task outage. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-outage/domain-separation-task-outage.html
 release: australia
 product: Task Outage
 classification: task-outage
@@ -25,16 +26,16 @@ Domain separation is supported in task outage. Domain separation enables you to 
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Task Outage overview
 
 Task-Outage Relationship \[cmdb\_ci\_outage\] is domain separated. Outages are now data separated, meaning they can be exposed to the appropriate personas without risk of data exposure. Fulfillers can view any Task-Outage Relationship records regardless of the domain that the records belong to. The Task-Outage Relationship table is installed when administrator activates the optional Task-Outage Relationship plugin.
 
-**Parent Topic:**[Task Outage](task-outage.md)
+**Parent Topic:**[Task Outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-outage/task-outage.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

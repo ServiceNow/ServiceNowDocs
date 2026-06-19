@@ -2,6 +2,7 @@
 title: Map API response to SPC attributes
 description: Map API response properties to SPC attributes.￼ After you have mapped the attributes, you publish your connector so it imports data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-sgc-stepper-5.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -20,11 +21,11 @@ For this step, you map parameters to SPC attributes and policies from the data y
 -   Select and use the API response sample in the list in the Reference section for SPC attributes.
 -   Select the API response schema sample in the list for API attributes to help you map the properties to dedicated SPC attributes.
 
-These schema and samples are provided for you after you enter values and save your edits in the [previous step](spc-sgc-template-stepper-4.md). The response schema is aggregated. To see all observed properties, change the reference list to **API response schema**.
+These schema and samples are provided for you after you enter values and save your edits in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-sgc-template-stepper-4.md). The response schema is aggregated. To see all observed properties, change the reference list to **API response schema**.
 
-You have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response AI skills and agentic workflows](../../now-assist-vulnerability-response/concept/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with Now Assist for Vulnerability Response](../../now-assist-vulnerability-response/concept/using-now-assist-api-connector.md) about using the skill in connector framework.
+You have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring Now Assist for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/using-now-assist-api-connector.md) about using the skill in connector framework.
 
-**Note:** Regardless of whether you enter your parameters manually, or if you choose use Now Assist to generate your parameters automatically, you must [Validate your API connector](spc-sgc-validate-api-connector.md) before you can publish it.
+**Note:** Regardless of whether you enter your parameters manually, or if you choose use Now Assist to generate your parameters automatically, you must [Validate your API connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-sgc-validate-api-connector.md) before you can publish it.
 
 Roles required:
 

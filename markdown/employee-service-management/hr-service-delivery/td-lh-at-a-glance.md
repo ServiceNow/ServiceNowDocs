@@ -2,6 +2,7 @@
 title: At a glance page
 description: The At a glance page provides your organizational and HR leaders with instant access to a comprehensive overview of their organization's talent. This page offers a glance at data that measures employee engagement and skill proficiency, along with a glimpse of the teams that comprise your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-at-a-glance.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

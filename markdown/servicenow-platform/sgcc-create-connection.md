@@ -2,6 +2,7 @@
 title: Create a connection for a Service Graph Connector in SGC Central
 description: Create a connection added for a Service Graph Connector within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-create-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: SGC-admin or admin
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  On the Overview page, select **Create connection**.
 
@@ -34,5 +35,5 @@ Role required: SGC-admin or admin
     **Note:**
 
     -   When you select a connector type, the application scope changes to the selected type.
-    -   When setting up a connection using a Service Graph Connector for the first time, you might need to complete the initial setup tasks. See [Perform initial setup tasks when creating a connection in SGC Central](sgcc-first-time-setup.md).
+    -   When setting up a connection using a Service Graph Connector for the first time, you might need to complete the initial setup tasks. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
 

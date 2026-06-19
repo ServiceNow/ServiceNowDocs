@@ -2,6 +2,7 @@
 title: Create process configurations using content packs
 description: Create process configurations using content packs to use the configuration already created for the content packs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/process-config-content-pack.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -23,7 +24,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  On the left of the page, select the Process configurations icon \(![Process configuration builder](../image/icon-process-config.png)\).
+2.  On the left of the page, select the Process configurations icon \(\[Omitted image "icon-process-config.png"\] Alt text: Process configuration builder\).
 
 3.  Select the **Content pack templates** tab.
 
@@ -33,7 +34,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     **Note:** You will get the list of tables on which the content packs are created for all the content packs that are installed.
 
-    ![Process configuration from content pack template](../image/process-config-cp.png)
+    \[Omitted image "process-config-cp.png"\] Alt text: Process configuration from content pack template
 
 5.  Select the **Copy as process configuration** button.
 
@@ -41,7 +42,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 6.  Select **Create** on the dialog box that appears.
 
-7.  Select the import button ![Import preferences from content pack](../image/icon-import-cp.png).
+7.  Select the import button \[Omitted image "icon-import-cp.png"\] Alt text: Import preferences from content pack.
 
     If the content pack has any configuration, it is imported. When you select the import button, you are guided to first remove your original configuration for that particular field. Only then you can import the configurations from the content pack template. However, if in that section some fields are populated and some are not, then it will be clearly mentioned which values will be imported.
 
@@ -49,8 +50,8 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 8.  Configure the process table using the content pack template from the Process Configuration Builder.
 
-    For more information, see [Create process configuration using Process Configuration Builder](process-config-builder.md).
+    For more information, see [Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-config-builder.md).
 
 
-**Parent Topic:**[Creating process configurations using content pack templates](content-pack-config.md)
+**Parent Topic:**[Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/content-pack-config.md)
 

@@ -2,6 +2,7 @@
 title: Remove a service from SRM
 description: Remove a service from Service Reliability Management \(SRM\) when you no longer need to track or monitor its reliability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-remove-service.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -51,12 +52,12 @@ Removing a service from SRM doesn't affect the service reliability tasks, such a
 
     The page displays `<service-name> removed from SRM`. The service no longer appears in the SRM application, but it remains in the CMDB. You can add it back to SRM at any time.
 
-    **Note:** If you receive an error when removing a service, see [Troubleshoot SRM](../reference/srm-troubleshoot.md).
+    **Note:** If you receive an error when removing a service, see [Troubleshoot SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/srm-troubleshoot.md).
 
 
 ## What to do next
 
-To learn how to monitor and manage services that remain in SRM, see [Working with SRM services](../concept/sr-work-services.md). To add a service that you want to monitor or that was removed by mistake, see [Add a service to SRM](sr-add-service.md).
+To learn how to monitor and manage services that remain in SRM, see [Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-services.md). To add a service that you want to monitor or that was removed by mistake, see [Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-service.md).
 
-**Parent Topic:**[Working with SRM services](../concept/sr-work-services.md)
+**Parent Topic:**[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-services.md)
 

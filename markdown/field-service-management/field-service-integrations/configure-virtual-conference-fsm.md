@@ -2,6 +2,7 @@
 title: Configure Field Service Management Virtual Conferencing Integration
 description: Install and set up the Field Service Management Virtual Conferencing Integration application to interact with customers and peer agents using Zoom or Microsoft Teams meetings initiated from the Now Agent mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/configure-virtual-conference-fsm.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -27,15 +28,15 @@ This task provides general steps to set up the Field Service Management Virtual 
 
 1.  Configure the conference call bridge.
 
-<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d51396e89">
+<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d51027e89">
 
 To
 
-</th><th align="left" id="d51396e92">
+</th><th align="left" id="d51027e92">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d51396e98">
+</th></tr></thead><tbody><tr><td id="d51027e98">
 
 **Set up the Zoom meeting**
 
@@ -43,17 +44,17 @@ Do this
 
 1.  Integrate the Zoom account of your company with your ServiceNow instance using the Zoom spoke.
 
-For more information, see [Setup Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zoom.md).
+For more information, see Setup Zoom spoke.
 
 2.  Set up the Notify Zoom connector in Zoom for associating the Notify communication channel with Zoom meetings.
 
-The conference call details of the Zoom meetings are stored in the Notify Conference Calls \[notify\_conference\_call\] table. For more information, see [Notify Zoom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-zoom-connector.md).
+The conference call details of the Zoom meetings are stored in the Notify Conference Calls \[notify\_conference\_call\] table. For more information, see Notify Zoom connector.
 
 3.  Configure a conference provider or a phone number to be used as choices for initiating a conference call.
 
-For more information, see [Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configure-providers-for-provider-selectors.md).
+For more information, see Configure a provider in Notify.
 
-</td></tr><tr><td id="d51396e168">
+</td></tr><tr><td id="d51027e168">
 
 **Set up the Microsoft Teams meeting**
 
@@ -61,7 +62,7 @@ For more information, see [Configure a provider in Notify](https://raw.githubuse
 
 1.  Integrate the Microsoft Teams account of your company with your ServiceNow instance using the Microsoft Teams Communication spoke.
 
-For more information, see [Set up the Microsoft Teams Communications spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msteams-comm.md) .
+For more information, see Set up the Microsoft Teams Communications spoke .
 
 2.  Set up the Notify connector for Microsoft Teams in Microsoft Teams for associating the Notify communication channel with Microsoft Teams meetings.
 
@@ -70,17 +71,17 @@ The conference call details of Microsoft Teams meetings are stored in the Notify
 </td></tr></tbody>
 </table>2.  Install the Field Service Management Virtual Conferencing Integration application.
 
-    For more information, see [Install Field Service Management Virtual Conferencing Integration](install-virtual-conferencing-fsm.md).
+    For more information, see [Install Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.md).
 
 3.  Add the **Conferences** related list to the work order task form.
 
     If the related list does not already appear, right-click the **Work Order Task** form header and select **Configure** &gt; **Related Lists**. Use the dual listbox to add the Conferences-&gt;Work Order Task related list.
 
-    **Note:** You must personalize the Conferences related list to get detailed information about the conference recordings for work order tasks. For more information, see [Customize the display of conference recording information](personalize-conference-list.md).
+    **Note:** You must personalize the Conferences related list to get detailed information about the conference recordings for work order tasks. For more information, see [Customize the display of conference recording information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/personalize-conference-list.md).
 
 
--   **[Customize the display of conference recording information](personalize-conference-list.md)**  
+-   **[Customize the display of conference recording information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/personalize-conference-list.md)**  
 Customize the Conferences related list to display specific information about conference recordings for work order tasks.
 
-**Parent Topic:**[Integration with Virtual Conferencing](../concept/virtual-conference-integration-fsm.md)
+**Parent Topic:**[Integration with Virtual Conferencing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/virtual-conference-integration-fsm.md)
 

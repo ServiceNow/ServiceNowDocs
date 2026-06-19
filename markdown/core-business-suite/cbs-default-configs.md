@@ -2,7 +2,10 @@
 title: Core Business Suite Foundation default configurations
 description: Details of the default configurations for Core Business Suite Foundation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-default-configs.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: concept
 last_updated: "2026-03-28"
 reading_time_minutes: 1
@@ -43,5 +46,5 @@ Applies default Employee Center settings to establish the Core Business Suite us
 -   Quick links – Provides shortcuts to frequently used tools and resources.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Core Business Suite Foundation](../task/set-up-cbs.md)
+</table>**Parent Topic:**[Install Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/set-up-cbs.md)
 

@@ -2,6 +2,7 @@
 title: Create a table cleanup rule in Core UI
 description: Define the criteria for deleting unwanted records in a table cleanup rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/activate-table-cleanup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,15 +22,15 @@ Role required: admin
 
 1.  Access the new Auto Flush form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d71159e52">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d52578e52">
 
 Option
 
-</th><th align="left" id="d71159e55">
+</th><th align="left" id="d52578e55">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d71159e61">
+</th></tr></thead><tbody><tr><td id="d52578e61">
 
 **Using the Data Management Console**
 
@@ -39,7 +40,7 @@ Steps
 2.  On the Overview tab, select **New cleanup rule**.
 
 
-</td></tr><tr><td id="d71159e96">
+</td></tr><tr><td id="d52578e96">
 
 **Using a data management policy**
 
@@ -145,5 +146,5 @@ Condition builder for specifying filter conditions that define the records to be
 
 The table cleanup rule runs automatically and deletes records when they meet the specified record age and any conditions that you set for them.
 
-**Parent Topic:**[Deleting older or unwanted records in Core UI](../concept/deleting-older-records.md)
+**Parent Topic:**[Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-older-records.md)
 

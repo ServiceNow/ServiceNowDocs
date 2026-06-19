@@ -2,6 +2,7 @@
 title: Learned patterns report
 description: The Learned Patterns report helps assess the efficiency of alert aggregation and identify recurring alert patterns. It enables proactive issue resolution, enhancing overall system performance by providing insights into frequent alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/c\_SALearnedPattersReport.html
 release: australia
 product: Event Management
 classification: event-management

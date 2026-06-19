@@ -2,6 +2,7 @@
 title: Remove enterprise assets from a move order
 description: Remove any enterprise assets that you no longer want to include in a move order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/remove-enterprise-assets-move-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -42,5 +43,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 The selected enterprise assets are automatically updated with a status of Cancelled. All enterprise move tasks that are associated with the corresponding enterprise move lines are also updated with a state of Closed Incomplete.
 
-**Parent Topic:**[Managing enterprise asset move orders](../concept/managing-enterprise-asset-move-orders.md)
+**Parent Topic:**[Managing enterprise asset move orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-move-orders.md)
 

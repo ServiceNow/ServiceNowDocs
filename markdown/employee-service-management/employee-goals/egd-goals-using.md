@@ -2,6 +2,7 @@
 title: Using Employee Goals
 description: Use the Employee Goals app to access goal management data across several applications in the Talent Development suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-goals/egd-goals-using.html
 release: australia
 product: Employee Goals
 classification: employee-goals

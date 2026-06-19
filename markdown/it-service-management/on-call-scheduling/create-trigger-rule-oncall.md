@@ -2,6 +2,7 @@
 title: Create an escalation trigger rule
 description: Create a trigger rule to specify both the conditions under which an escalation process should begin and the actions \(workflow or script\) to perform for the escalation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/create-trigger-rule-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -60,7 +61,7 @@ Task table that applies to the trigger rule.
 **Note:**
 
 -   Only tables and database views that are in the same scope as the trigger rule appear in the list.
--   Tables that do not extend tasks do appear in the list only if those tables are configured for trigger rules in the [Trigger Rule Table Configuration](configure-tables-for-escalation-trigger-rule.md) \[trigger\_rule\_table\_cfg\] table.
+-   Tables that do not extend tasks do appear in the list only if those tables are configured for trigger rules in the [Trigger Rule Table Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md) \[trigger\_rule\_table\_cfg\] table.
 .
 
 </td></tr><tr><td>
@@ -102,7 +103,7 @@ Trigger fields
 List of fields for a specific table which when changed causes the trigger rule to re-run. For example, for the incident table, you can select fields such as assignment group, priority and state.**Note:**
 
 -   This field is visible only if the **Run Trigger** field is set to **Every time trigger field changes**.
--   You can use the Trigger Rule Table Configs table to configure which fields must be displayed for a specific table. For more information, see [Configure a table for escalation trigger rules](configure-tables-for-escalation-trigger-rule.md).
+-   You can use the Trigger Rule Table Configs table to configure which fields must be displayed for a specific table. For more information, see [Configure a table for escalation trigger rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md).
 
 
 </td></tr><tr><td>
@@ -174,7 +175,7 @@ Action that is triggered when the **Match conditions** and **Conditions** are me
     -   For new users, the **Subflow** option is visible while the **Workflow** option is not visible.
     -   For existing or upgrade users, both the **Subflow** and **Workflow** options are visible, and either of them can be selected.
 -   The **Script** option is available only for users with the rota\_admin and admin roles.
-For more information, see [On-Call Scheduling subflows](../reference/on-call-scheduling-subflows-overview.md).
+For more information, see [On-Call Scheduling subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-scheduling-subflows-overview.md).
 
 </td></tr><tr><td>
 
@@ -210,5 +211,5 @@ Script \(server-side JavaScript\) to run. Available only if the **Trigger action
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Designing an escalation process](../concept/designing-escalation-process-oncall.md)
+**Parent Topic:**[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)
 

@@ -2,6 +2,7 @@
 title: \(Workaround\) Enable service provider-initiated authentication
 description: Use this workaround if authentication fails because you do not have SAML 2.0 Update 1. This issue can happen if users attempt to skip IdP authentication and navigate directly to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_EnableSvcProviderInitiatedAuth.html
 release: australia
 product: Authentication
 classification: authentication

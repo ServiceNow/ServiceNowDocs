@@ -2,6 +2,7 @@
 title: Service Level Management concepts
 description: The ServiceNow Service Level Management \(SLM\) application facilitates you to oversee and control the services within the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/service-level-management-concepts.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -29,7 +30,7 @@ Ensure that users can perform all necessary actions by assigning SLA roles.
 
 |Role|Definition|
 |----|----------|
-|sla\_admin|Provides full administrative rights to SLM. Users that possess the sla\_admin role can configure SLM properties, run SLA repair, view the SLA Overview dashboard, and manage SLA definitions. They may associate existing workflows or schedules to SLA definitions, but are unable to create workflows. The additional roles required to create workflows or schedules must be granted explicitly. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md) for more information.|
+|sla\_admin|Provides full administrative rights to SLM. Users that possess the sla\_admin role can configure SLM properties, run SLA repair, view the SLA Overview dashboard, and manage SLA definitions. They may associate existing workflows or schedules to SLA definitions, but are unable to create workflows. The additional roles required to create workflows or schedules must be granted explicitly. See Base system roles for more information.|
 |sla\_manager|Lets users define SLA definitions, view SLA repair logs, and view the SLA Overview dashboard. Does not let users change SLM property values or define SLA condition types.|
 
 ## Service Level Agreement \(SLA\) definitions
@@ -65,5 +66,5 @@ Application Templates support Service Level Management tables to be included whe
 -   SLA Timer Configuration\[sla\_timer\_config\]
 -   SLA timer configuration mapping\[sla\_timer\_config\_mapping\]
 
-**Parent Topic:**[Exploring Service Level Management](exploring-slm.md)
+**Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/exploring-slm.md)
 

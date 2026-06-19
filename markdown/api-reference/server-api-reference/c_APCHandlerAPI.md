@@ -2,6 +2,7 @@
 title: APCHandler - Global
 description: The APCHandler script include provides methods to handle SNMP classification and identification for uninterruptible power supplies, environmental monitors, and power distribution units made by APC.Classifies and identifies APC devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_APCHandlerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The APCHandler script include provides methods to handle SNMP classification and
 
 Use this API for SNMP classification and identification.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## APCHandler - classifyAndIdentify\(\)
 

@@ -2,6 +2,7 @@
 title: Configure signal actions for Proactive Prompts
 description: Set signal actions to enable end users who receive a prompt through Virtual Agent to act on it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-signal-actions.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -61,7 +62,7 @@ VA topic
 
 </td><td>
 
-The relevant Virtual Agent topic for the signal action. For more information on creating a Virtual Agent topic, see [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md). For information on publishing the topics, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md).
+The relevant Virtual Agent topic for the signal action. For more information on creating a Virtual Agent topic, see . For information on publishing the topics, see .
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Mobile experience for Change Management
 description: Manage your change tasks from anywhere using the Mobile Agent mobile application. With this mobile application, you can stay connected and access the information in real time to complete your tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/mobile-experience-cm.html
 release: australia
 product: Change Management
 classification: change-management
@@ -22,12 +23,12 @@ As an ITSM agent or technician, you can use Mobile Agent when connected online t
 -   Receive push notifications for change tasks assigned or commented on.
 -   Approve or reject change requests, requests, and requested items.
 
-Watch this three-minute video to learn about the Mobile Agent for managing change tasks.This video demonstrates using the ServiceNow Agent mobile app for managing change tasks.
+Watch this three-minute video to learn about the Mobile Agent for managing change tasks.
 
--   **[Download the Mobile Agent mobile application](../task/configure-servicenow-agent.md)**  
+-   **[Download the Mobile Agent mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-servicenow-agent.md)**  
 Access Mobile Agent on your mobile device to manage your change tasks.
--   **[Get started with Change Management mobile tasks](../task/getting-started-with-changetasks.md)**  
+-   **[Get started with Change Management mobile tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/getting-started-with-changetasks.md)**  
 Access Mobile Agent on your mobile device to manage change tasks.
 
-**Parent Topic:**[Using Change Management](using-change-management.md)
+**Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-change-management.md)
 

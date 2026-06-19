@@ -2,6 +2,7 @@
 title: Set up triggers for the Jenkins spoke
 description: Set up triggers for the Jenkins spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.Configure endpoint for webhooks in the Jenkins that support the token authentication.Create a pipeline projects in Jenkins to add the endpoint URL in Jenkinsfile that is generated in your ServiceNow instance and enable webhooks to connect with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jenkinsv2-triggers.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,19 +38,19 @@ Role required: flow\_designer and connection\_admin
 
 4.  Locate the **JenkinsV2 Spoke** endpoint and click **View Details**.
 
-    ![](../image/jenkinsv2-ext-triggers1.jpg)
+    \[Omitted image "jenkinsv2-ext-triggers1.jpg"\] Alt text:
 
 5.  For the **JenkinsV2 External Trigger** end point, click **Configure**.
 
-    ![](../image/jenkinsv2-ext-triggers2.jpg)
+    \[Omitted image "jenkinsv2-ext-triggers2.jpg"\] Alt text:
 
 6.  Select the user who can trigger the endpoint and click **Activate**.
 
-    ![](../image/jenkinsv2-ext-trig3.jpg)
+    \[Omitted image "jenkinsv2-ext-trig3.jpg"\] Alt text:
 
 7.  Copy the generated endpoint URL.
 
-    ![](../image/jenkinsv2-ext-trig4.jpg)
+    \[Omitted image "jenkinsv2-ext-trig4.jpg"\] Alt text:
 
 
 ## Create a pipeline project in Jenkins
@@ -82,7 +83,7 @@ Create a pipeline projects in Jenkins to add the endpoint URL in `Jenkinsfile` t
         -   read:packages
     For more information about creating a classic personal access token, see [Creating a personal access token \(classic\)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic) in [GitHub Docs](https://docs.github.com/en).
 
-    For the list of supported events, see the [Spoke triggers](../concept/jenkins-spoke.md#section_ccf_fn2_t3c) section.
+    For the list of supported events, see the [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkins-spoke.md) section.
 
 -   Role required: admin
 
@@ -162,9 +163,9 @@ Script path
 
 </td><td>
 
-Relative location within the checkout of your Pipeline script.**Important:** In `Jenkinsfile`, paste the endpoint URL that was generated after you configured triggers in your ServiceNow instance. For more information, see [Configure triggers in ServiceNow instance](jenkinsv2-triggers.md#).
+Relative location within the checkout of your Pipeline script.**Important:** In `Jenkinsfile`, paste the endpoint URL that was generated after you configured triggers in your ServiceNow instance. For more information, see [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkinsv2-triggers.md).
 
-![](../image/jenkinsv2-file.jpg)
+\[Omitted image "jenkinsv2-file.jpg"\] Alt text:
 
 </td></tr></tbody>
 </table>6.  Click **Save**.

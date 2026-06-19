@@ -2,6 +2,7 @@
 title: Create a custom action to generate an object from a record
 description: Generate an object from a User record. Learn how to use an Action output to create an object from record values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-custom-action-object.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -34,7 +35,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    Use the [Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/guided-application-creator/guided-app-creator.md).
+    Use the Guided Application Creator.
 
     For example, create `My Application`.
 
@@ -198,5 +199,5 @@ You have a custom action that looks up a User record and converts it into a cont
 
 Customize the action to use your own logic.
 
-**Parent Topic:**[Complex data](../concept/complex-data.md)
+**Parent Topic:**[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md)
 

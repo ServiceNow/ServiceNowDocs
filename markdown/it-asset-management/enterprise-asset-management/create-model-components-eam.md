@@ -2,6 +2,7 @@
 title: Create enterprise model components
 description: Create model components and add them to a model. A model comprising of one or more model components is a multi-component model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-model-components-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -44,5 +45,5 @@ The model category for the component can differ from that of the model. You can 
     The newly created model component appears in the Model Components tab and by default, is in the **In production** status even though the model is in **Build**status.
 
 
-**Parent Topic:**[Create and manage enterprise models](../concept/create-manage-enterprise-models.md)
+**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

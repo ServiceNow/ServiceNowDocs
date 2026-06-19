@@ -2,6 +2,7 @@
 title: Identifying ERP candidates to replatform with Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP enables you to connect to your ERP \(Enterprise Resource Planning\) system of record, and to organize its data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpi-and-ecm-together.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -23,5 +24,5 @@ ERP Semantic Mining enables you to find good candidates for replatforming from t
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-**Parent Topic:**[Exploring Zero Copy Connector for ERP](exploring-erp-integration.md)
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

@@ -2,6 +2,7 @@
 title: Source for HR Service Delivery Integration with Magnit
 description: Once you set up the HR Service Delivery Integration with Magnit application, the source record for HR Service Delivery Integration with Magnit application is automatically created in Enterprise Service Management Integrations Framework, Source module. The Magnit source record in the Enterprise Service Management Integrations Framework application contains a predefined set of properties and HR integration service.Once you set up the HR Service Delivery Integration with Magnit application, HR integration service for Magnit is automatically created in Enterprise Service Management Integrations Framework. The flow in HR Integration Service communicates with the Magnit system to pull contingent workers into ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/source-magnit.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

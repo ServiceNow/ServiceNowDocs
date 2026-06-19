@@ -2,13 +2,14 @@
 title: Approve a reserve or payment amount
 description: Approve an assigned claim reserve or a payment amount that is higher than an adjuster's approval authority for Individual Life Claims cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/approve-reserve-or-payment-amount.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Individual Life Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Approve a reserve or payment amount
@@ -27,11 +28,11 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  On the **Lists** tab, under Individual death claims approvals, select the item that you need to approve.
 
-<table id="choicetable_sbb_pcs_dcc"><tbody><tr><td id="d39445e114">
+<table id="choicetable_sbb_pcs_dcc"><tbody><tr><td id="d40199e114">
 
 **List name**
 
@@ -39,7 +40,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 Description
 
-</td></tr><tr><td id="d39445e123">
+</td></tr><tr><td id="d40199e123">
 
 **My approvals - Reserves**
 
@@ -47,7 +48,7 @@ Description
 
 Presents a list of approval tasks for reserve requests.
 
-</td></tr><tr><td id="d39445e132">
+</td></tr><tr><td id="d40199e132">
 
 **My approvals - Payments**
 
@@ -60,15 +61,15 @@ Presents a list of approval tasks for payment requests.
 
 5.  Submit your decision from the Claim reserve or Claim payment task form.
 
-<table id="choicetable_dhz_trz_pbc"><thead><tr><th align="left" id="d39445e156">
+<table id="choicetable_dhz_trz_pbc"><thead><tr><th align="left" id="d40199e156">
 
 Approval task
 
-</th><th align="left" id="d39445e159">
+</th><th align="left" id="d40199e159">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39445e165">
+</th></tr></thead><tbody><tr><td id="d40199e165">
 
 **To approve an amount**
 
@@ -76,7 +77,7 @@ Action
 
 Approve the reserve or payment amount by selecting **Approve**.
 
-</td></tr><tr><td id="d39445e177">
+</td></tr><tr><td id="d40199e177">
 
 **To reject an amount**
 

@@ -2,6 +2,7 @@
 title: Copy Splunk Enterprise Security profiles from one instance to another using export/import functionality
 description: You can export and import Splunk Enterprise Security profiles settings from one ServiceNow AI Platform instance to a different ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/import-and-export-splunk-profile-data.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -37,13 +38,9 @@ This functionality allows the security administrator to copy profiles that have 
 
     You can select multiple profiles for export.
 
-3.  From the Actions menu, click **Export**.
+3.  From the Actions menu, select **Export**.
 
-4.  Once the export complete message appears, click **Download**.
-
-    The following illustration shows exporting a profile \(SplunkES3profile\) from the ServiceNow AI Platform instance \(psand.service-now.com\).
-
-    ![Exporting Splunk profile data.](../image/splunk-profile-export.gif)
+4.  Once the export complete message appears, select **Download**.
 
     The exported payload.xml file is downloaded on your computer. The file contains the profile name, correlation rules, mappings, filters, aggregation criteria, field translations, fetched sample data, scheduling, and configuration tile source information. When you select and download multiple profiles, they appear in the same payload.xml file.
 
@@ -51,17 +48,13 @@ This functionality allows the security administrator to copy profiles that have 
 
 5.  Navigate to **Splunk ES Integration** &gt; **Splunk ES Event Profiles**.
 
-6.  Click **Import**.
+6.  Select **Import**.
 
-7.  Click **Choose file** and select the xml file on your computer.
+7.  Select **Choose file** and select the xml file on your computer.
 
-8.  Click **Upload**.
+8.  Select **Upload**.
 
-9.  Click **Close and Reload Profiles**.
-
-    The following illustration shows importing a profile \(SplunkES3profile\) from the ServiceNow AI Platform instance \(psand.service-now.com\) to the ServiceNow AI Platform instance \(ppsand.service-now.com\).
-
-    ![Importing a Splunk Profile.](../image/splunk-profile-import.gif)
+9.  Select **Close and Reload Profiles**.
 
     You have successfully imported the profile from another ServiceNow AI Platform instance.
 
@@ -71,7 +64,7 @@ This functionality allows the security administrator to copy profiles that have 
 
 11. Navigate to **Security Operations** &gt; **Integration Configurations**.
 
-12. Select the Splunk Enterprise Security configuration tile, and click **Update**.
+12. Select the Splunk Enterprise Security configuration tile, and select **Update**.
 
 13. Review and update the Source and MID Server details as required.
 

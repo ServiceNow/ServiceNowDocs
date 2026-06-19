@@ -2,6 +2,7 @@
 title: Milestones
 description: Milestones represent an acknowledgment that a certain deliverable is achieved for a service. You can create a milestone against the purchase line and purchase order line for a service product type, when the acknowledgment type is set to Milestones.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/milestones.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -158,5 +159,5 @@ The \[PSM\] Monitor Milestone Tasks scheduled job monitors the completion date o
 
 The UI action to confirm or defer the milestone is displayed when the state of the milestone is **Confirmation Required**.
 
-**Parent Topic:**[Purchase lines](purchase-lines.md)
+**Parent Topic:**[Purchase lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.md)
 

@@ -2,6 +2,7 @@
 title: Customize Now Assist for IT Service Management \(ITSM\) Request Management skills
 description: If you have the admin role, you can customize a Now Assist for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-request-summarization-skill.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -45,7 +46,7 @@ The following procedure contains examples that are specific to the request summa
 
     **Note:** Activity response generation skills cannot be copied at this time, and their input table and input fields are read-only.
 
-    1.  Select the more actions icon ![More actions icon.](../../itsm-workspace/image/more-actions-icon.png) for the skill, and select **Make a copy** to create a copy to customize.
+    1.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill, and select **Make a copy** to create a copy to customize.
 
     2.  Select the copied skill and select **Activate** to activate the skill.
 
@@ -59,7 +60,7 @@ The following procedure contains examples that are specific to the request summa
 
 6.  Choose input data.
 
-    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](../reference/now-assist-itsm-skills.md).
+    For information about the inputs and triggers for each skill, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
     Each skill relies on a base input table and input fields with descriptions to provide context for the Now LLM Service to generate a response.
 
@@ -67,7 +68,7 @@ The following procedure contains examples that are specific to the request summa
 
     1.  Add multiple base input tables and fields if more inputs are needed.
 
-        ![Choose input data screen that contains the input tables and fields to define the prompt.](../image/now-assist-itsm-request-summarization-skill.png)
+        \[Omitted image "now-assist-itsm-request-summarization-skill.png"\] Alt text: Choose input data screen that contains the input tables and fields to define the prompt.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -106,7 +107,7 @@ Description of the base input field value.
 
         Configuring the related table fields follows the same format as the base input table fields in the Choose input step.
 
-        ![Choose additional input data screen that contains the input tables and fields to define the prompt.](../image/now-assist-itsm-request-management-sla.png)
+        \[Omitted image "now-assist-itsm-request-management-sla.png"\] Alt text: Choose additional input data screen that contains the input tables and fields to define the prompt.
 
     3.  Select **Save and continue** to go to the next step.
 
@@ -116,7 +117,7 @@ Description of the base input field value.
 
     2.  Select **Edit prompt in Now Assist Skill Kit** to make necessary changes to the prompt in the Now Assist Skill Kit.
 
-        ![Edit prompt screen to modify prompts in the Now Assist Skill Kit.](../image/now-assist-itsm-request-edit-prompt.png)
+        \[Omitted image "now-assist-itsm-request-edit-prompt.png"\] Alt text: Edit prompt screen to modify prompts in the Now Assist Skill Kit.
 
     3.  Select **Save and continue** to go to the next step.
 
@@ -146,7 +147,7 @@ Description of the base input field value.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

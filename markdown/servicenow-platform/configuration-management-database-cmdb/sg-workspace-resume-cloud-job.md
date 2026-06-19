@@ -2,6 +2,7 @@
 title: Resume a disabled Cloud vs Non-cloud resources scheduled job
 description: Reactivate a scheduled job to resume data collection for the Cloud vs Non-cloud resources chart that appears in the Insights view in Service Graph Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-resume-cloud-job.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

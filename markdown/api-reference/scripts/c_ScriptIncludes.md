@@ -2,6 +2,7 @@
 title: Script includes
 description: Script includes are used to store JavaScript that runs on the server.Script includes have a name, description, and, script. They also specify whether they are active or not, and whether they can be called from a client script. View existing or create a new script include using the Script Include form.Script includes are found under System Definition or System UI. You can call existing script includes from a script or create a new script include.Glide AJAX enabled Script Includes make the script include available to client scripts, list/report filters, reference qualifiers, or if specified as part of the URL.Privacy settings for Glide AJAX enabled script includes determine who can access a Glide AJAX enabled script include.Change the privacy setting for a single Glide AJAX enabled script include by adding the isPublic\(\) function.Protect your Glide AJAX enabled script includes against unauthorized use. For all records which are created a customer application, recommendations display that may help reduce security risk.Discovery script includes define JavaScript classes that you can use to accomplish Discovery tasks.When writing Discovery sensors and sensor-related scripts, you may want to use DiscoveryException or AutomationException to indicate that an exception has come from Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_ScriptIncludes.html
 release: australia
 product: Scripts
 classification: scripts
@@ -17,11 +18,11 @@ Script includes are used to store JavaScript that runs on the server.
 
 Create script includes to store JavaScript functions and classes for use by server scripts. Each script include defines either an object class or a function.
 
-Consider using script includes instead of global business rules because script includes are only loaded on request. See [Privacy settings on Glide AJAX enabled script includes](c_ScriptIncludes.md#) and [Discovery script includes](c_ScriptIncludes.md#) for more information.
+Consider using script includes instead of global business rules because script includes are only loaded on request. See [Privacy settings on Glide AJAX enabled script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md) and [Discovery script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md) for more information.
 
-For additional examples of scripts, see [Useful scripts](../../useful-scripts/concept/usefulScripts.md).
+For additional examples of scripts, see [Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/usefulScripts.md).
 
-**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md)
 
 ## Script include form
 
@@ -59,7 +60,7 @@ Glide AJAX enabled \(or Client callable\)
 
 </td><td>
 
-The script include is available to client scripts, list/report filters, reference qualifiers, or if specified as part of the URL. Glide AJAX enabled script includes are invoked from `GlideAjax` and require that users satisfy an ACL associated with the script include. When selected, the **Access Controls** Related Link is available. See [Privacy settings on Glide AJAX enabled script includes](c_ScriptIncludes.md#) for more information.
+The script include is available to client scripts, list/report filters, reference qualifiers, or if specified as part of the URL. Glide AJAX enabled script includes are invoked from `GlideAjax` and require that users satisfy an ACL associated with the script include. When selected, the **Access Controls** Related Link is available. See [Privacy settings on Glide AJAX enabled script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md) for more information.
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Sandbox enabled
 
 The script include is available to scripts invoked from the script sandbox, such as a query condition.**Important:** Script includes should only be made available to the script sandbox if necessary.
 
-For information about the script sandbox, see [Script sandbox evaluator](script-sandbox.md).
+For information about the script sandbox, see [Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox.md).
 
 </td></tr><tr><td>
 
@@ -183,7 +184,7 @@ Versions
 
 </td><td>
 
-Shows all versions of the script include. Use this list to compare versions or to revert to a previous version. See [Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_Versions.md).
+Shows all versions of the script include. Use this list to compare versions or to revert to a previous version. See Versions.
 
 </td></tr><tr><td>
 
@@ -232,11 +233,11 @@ Role required: admin
 
 2.  Select **New** or select an existing script include for viewing or editing.
 
-    See [Use script includes](c_ScriptIncludes.md#) for additional information on writing script includes.
+    See [Use script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md) for additional information on writing script includes.
 
 3.  Complete the form and select the **Glide AJAX enabled** option.
 
-    A role selector pops up to select a user role and automatically create an Access Control entry. Select a user role and click **OK**.![Select a user role window.](../../../administer/security/image/role-selector-ccsi.png)
+    A role selector pops up to select a user role and automatically create an Access Control entry. Select a user role and click **OK**.\[Omitted image "role-selector-ccsi.png"\] Alt text: Select a user role window.
 
     **Note:** To disable the role selector window, set the glide.script.ccsi.enable\_acl\_create\_ux to **false**.
 
@@ -255,7 +256,7 @@ The private privacy-setting means that guests who access public pages cannot acc
 
 A public privacy-setting means that the client script can be executed by non-logged-in users that create an appropriate HTTP request. This can create a security problem if the client script provides confidential information.
 
-The following script includes remain public by default because [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_MakeAPagePublic.md) need to access them:
+The following script includes remain public by default because Make UI pages public or private need to access them:
 
 -   GlideSystemAjax
 -   SysMessageAjax
@@ -275,7 +276,7 @@ To provide further control over all Glide AJAX enabled script includes, administ
 |Type|true\|false|
 |Value|false|
 
-**Note:** To learn more about this property, see [Require authentication by default for client-callable script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-privacy-on-client-callable-script-includes.md) in Instance Security Hardening Settings.
+**Note:** To learn more about this property, see  in Instance Security Hardening Settings.
 
 #### Change privacy on a single Glide AJAX enabled script include
 
@@ -315,7 +316,7 @@ When creating a Glide AJAX enabled script include, the system displays the follo
     **Note:** To disable the security recommendation messages, set the property glide.script.ccsi.customer\_scoped.security\_msgs\_enabled to **false** in the sys\_properties table. The default value is set to **true**.
 
 
-See [Instance Security Hardening Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md) for additional information on security compliance.
+See Instance Security Hardening Settings for additional information on security compliance.
 
 ## Discovery script includes
 
@@ -325,7 +326,7 @@ Discovery script includes define JavaScript classes that you can use to accompli
 
 ### Using GlideRecordUtil to Work with GlideRecords
 
-GlideRecordUtil is a utility class that provides methods that are useful for working with GlideRecords during Discovery. Refer to [GlideRecordUtil](../../../app-store/dev_portal/API_reference/GlideRecordUtil/concept/c_GlideRecordUtilAPI.md#) for descriptions of available methods.
+GlideRecordUtil is a utility class that provides methods that are useful for working with GlideRecords during Discovery. Refer to [GlideRecordUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordUtilAPI.md) for descriptions of available methods.
 
 ### Getting a GlideRecord Instance
 

@@ -2,6 +2,7 @@
 title: Customize your field map configuration
 description: Map a field of your preference for a Jira project.Understand how to configure a reference field while creating a new field map configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/custom-field-map-configuration.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -17,14 +18,14 @@ Map a field of your preference for a Jira project.
 
 ## Before you begin
 
--   [Discover and import Jira projects and boards](discover-projects.md).
+-   [Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/discover-projects.md).
 -   Role required: sn\_jira\_int.user
 
 ## About this task
 
 If you have a custom field for a Jira project that you want to map with a field in Agile Development 2.0, you can create custom field map configuration that would apply only to this Jira project.
 
-If you have a custom field that is applicable to all Jira projects of a specific project type, see [Apply custom map configuration to multiple Jira projects](apply-custom-field-map-to-all-jira-projects.md).The following field types are supported for custom field map configuration:
+If you have a custom field that is applicable to all Jira projects of a specific project type, see [Apply custom map configuration to multiple Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/apply-custom-field-map-to-all-jira-projects.md).The following field types are supported for custom field map configuration:
 
 -   Number
 -   Select
@@ -111,7 +112,7 @@ Display name of the field in Jira. Ensure that this field is added to the Jira p
         **Important:** If your custom map configuration is invalid or if the custom field configured is not added to the default screen scheme of the issue, the export action does not work.
 
 
-**Parent Topic:**[Customizing map configuration for your Jira projects](../reference/custom-map-configuration.md)
+**Parent Topic:**[Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md)
 
 ## Configuring a reference field in Jira
 

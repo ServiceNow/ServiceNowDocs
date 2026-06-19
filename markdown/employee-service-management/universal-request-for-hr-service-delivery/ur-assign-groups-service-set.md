@@ -2,6 +2,7 @@
 title: Assign assignment group to service sets
 description: After creating your service-specific assignment groups, assign them to the service sets. Assigning assignment groups to the various departmental service sets facilitates in automatically routing universal requests to the right agents \(assignment group\) within a specific department \(service set\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-assign-groups-service-set.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -34,5 +35,5 @@ Also, after triaging, agents can also transfer universal requests and department
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

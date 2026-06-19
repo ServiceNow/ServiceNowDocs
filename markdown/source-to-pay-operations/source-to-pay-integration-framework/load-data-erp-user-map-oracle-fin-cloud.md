@@ -2,6 +2,7 @@
 title: Load data to ERP user-mapping table for Oracle Financial Cloud
 description: Set up Oracle Financial Cloud and ERP User ID mapping for the integration to work. The mapping is maintained for all active users who have the procurement buyer role in ERP. These users should be used in the requisition assignment rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/load-data-erp-user-map-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -29,7 +30,7 @@ Role required: sn\_shop.procurement\_administrator
 
 4.  Select **Choose File** to import the source Excel spreadsheet.
 
-    ![Load data to ERP user-mapping table for Oracle Financial Cloud](../../source-to-pay-operations/image/oracle-fin-load-data-erp.png "Load data to ERP user-mapping table for Oracle Financial Cloud")
+    \[Omitted image "oracle-fin-load-data-erp.png"\] Alt text: Load data to ERP user-mapping table for Oracle Financial Cloud
 
 5.  If appropriate, specify the Work sheet and Header row number.
 
@@ -37,13 +38,13 @@ Role required: sn\_shop.procurement\_administrator
 
     The imported data is now available in the new Import Set table.
 
-7.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target ERP User Mapping \[sn\_fcms\_intg\_erp\_user\_map\] table.
+7.   to define the field mapping between columns of the import set and columns of the target ERP User Mapping \[sn\_fcms\_intg\_erp\_user\_map\] table.
 
     The ERP User Mapping table maintains mapping between ERP user IDs and ServiceNow user IDs.
 
 8.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RunImport.md).
+    For more information, see .
 
     The data is imported into the Oracle Financial Cloud ERP User Mapping `(sn_fcms_intg_erp_user_map)` table.
 

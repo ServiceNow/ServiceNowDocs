@@ -2,6 +2,7 @@
 title: Add a timestamp format in Health Log Analytics
 description: Define any timestamp format that does not appear in the list of defined formats. Health Log Analytics must be able to read timestamps of any format contained in your log files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-timestamp-formats-add.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -88,5 +89,5 @@ Description of the timestamp format.
 
 The system validates the timestamp format and adds it to the list of available timestamps.
 
-**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](../concept/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 

@@ -2,6 +2,7 @@
 title: Define a third-party risk domain
 description: A risk domain defines the type of risk to assess for a third party. For example, you might want to assess a data-management third party in terms of security risk and a bank in terms of financial risk. Security risk and financial risk are risk domains. Some platform applications refer to risk domains as "risk areas."
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-define.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -37,7 +38,7 @@ In this procedure, you create a Risk domain definition. In each definition, you 
 
 1.  Navigate to **All** &gt; **Third-party Risk Management** &gt; **Scoring Setup** &gt; **Risk Domains**.
 
-    ![Third-party risk area definitions.](../image/vendor-risk-area-def.png)
+    \[Omitted image "vendor-risk-area-def.png"\] Alt text: Third-party risk area definitions.
 
 2.  Select **New**, fill in the form, and then select **Submit**.
 
@@ -85,6 +86,6 @@ Default weight
 The default weight for third parties in this risk domain.
 
 </td></tr></tbody>
-</table>    ![Third-party risk area definition — new record.](../image/vendor-risk-area-def-new.png)
+</table>    \[Omitted image "vendor-risk-area-def-new.png"\] Alt text: Third-party risk area definition — new record.
 
 

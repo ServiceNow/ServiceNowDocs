@@ -2,6 +2,7 @@
 title: Domain separation and Universal Task
 description: Domain separation is supported for ServiceNow Universal Task. Universal Task enables agents to request extra information from the employee or to task the employee to accomplish an activity, in order to resolve a ticket. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/domain-sep-universal-task.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -25,7 +26,7 @@ Domain separation is supported for ServiceNow Universal Task. Universal Task ena
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview
 
@@ -52,10 +53,10 @@ The following Data tables are data separated.
 -   sn\_uni\_task\_template
 -   sn\_uni\_task\_employee\_form
 
-**Parent Topic:**[Setting up and configuring Universal Task](set-up-universal-task.md)
+**Parent Topic:**[Setting up and configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/set-up-universal-task.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

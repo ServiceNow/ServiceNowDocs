@@ -2,6 +2,7 @@
 title: Create LEAP problem records
 description: Create problem records for LEAP from available incident clusters, also known as automation opportunities, for further analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -52,8 +53,8 @@ The automated data transfer is characterized with:
 
 4.  Select **Actions** &gt; ******Create problem record** button to create a record for further in-depth analysis.
 
-    ![](../images/create-problem-record.png)
+    \[Omitted image "create-leap-problem-record-updated.png"\] Alt text: Create problem records
 
-    Another option is to invoke the LEAP AI agent by selecting the Explore button ![Explore button](../images/explore-button.png) and creating problem record.
+    Another option is to invoke the LEAP AI agent by selecting the Explore button \[Omitted image "explore-button.png"\] Alt text: Explore button and creating problem record.
 
 

@@ -2,6 +2,7 @@
 title: Packages call removal tool
 description: Activate and run the Packages Call Removal Tool \(com.glide.script.packages\_call\_removal\) plugin, and then consider whether each of the proposed changes should be completed or rejected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-packages-call-removal-tool.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -45,17 +46,17 @@ The Packages Call Removal Tool might report some package calls used in `sa_mappi
 
 1.  Navigate to **System Definition** &gt; **Plugins**
 
-    ![Packages call removal tool 1](../../security/image/packages-call-removal-tool1.png)
+    \[Omitted image "packages-call-removal-tool1.png"\] Alt text: Packages call removal tool 1
 
 2.  Search for the plugin ID = **com.glide.script.packages\_call\_removal**.
 
-    ![Packages call removal tool 2](../../security/image/packages-call-removal-tool2.png)
+    \[Omitted image "packages-call-removal-tool2.png"\] Alt text: Packages call removal tool 2
 
 3.  Click **Activate/Upgrade** to activate the plugin.
 
-    ![Packages call removal tool 3](../../security/image/packages-call-removal-tool3.png)
+    \[Omitted image "packages-call-removal-tool3.png"\] Alt text: Packages call removal tool 3
 
-4.  To check inclusion list package calls and inclusion list member calls, complete the actions outlined in the Steps to Configure sections in [Restrict allowed Java packages \[Updated in Security Center 1.3\]](sc-java-packages-allowlist.md).
+4.  To check inclusion list package calls and inclusion list member calls, complete the actions outlined in the Steps to Configure sections in [Restrict allowed Java packages \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-java-packages-allowlist.md).
 
-**Parent Topic:**[Restrict allowed Java packages \[Updated in Security Center 1.3\]](sc-java-packages-allowlist.md)
+**Parent Topic:**[Restrict allowed Java packages \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-java-packages-allowlist.md)
 

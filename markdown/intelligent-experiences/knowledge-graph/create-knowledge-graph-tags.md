@@ -2,6 +2,7 @@
 title: Create Knowledge Graph tag
 description: Create Knowledge Graph tags for Now Assist Virtual Agent, AI agent or Now Assist panel Enterprise Graph using Knowledge Graph Designer to improve accuracy of natural language queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph
@@ -25,11 +26,11 @@ Role required: admin
 
     You are navigated to the Create New Tag record page.
 
-    ![Tag Module navigation](../Images/kg-tags.png)
+    \[Omitted image "kg-tags.png"\] Alt text: Tag Module navigation
 
 2.  On the Create New Tag record page, add the following information:
 
-    ![Tag Module](../Images/kg-tagging-module.png)
+    \[Omitted image "kg-tagging-module.png"\] Alt text: Tag Module
 
     -   Tag name: Name for the tag.
     -   Description
@@ -41,7 +42,7 @@ Role required: admin
 
     The selected tables will be displayed on the left pane of the Configure tables page.
 
-    ![New tag configure tables page](../Images/kg-new-tag-table-config.png)
+    \[Omitted image "kg-new-tag-table-config.png"\] Alt text: New tag configure tables page
 
 4.  Select a table from the left pane to add the following: , column and edge configurations, data filters and hidden columns.
 
@@ -56,14 +57,14 @@ Role required: admin
     -   Edge \(relationship\)
     Each instruction can optionally be marked as **Always Include**, ensuring critical business logic applies unconditionally across all queries. For example, excluding retired assets or closed tickets by default unless explicitly requested.
 
-    For best results, write instructions as generalized, context-driven guidance rather than hard-coded references to specific table values. See [Improving Natural Language Queries with Tag configuration](../concept/ai-instructiona-and-examples.md) to see detailed examples.
+    For best results, write instructions as generalized, context-driven guidance rather than hard-coded references to specific table values. See [Improving Natural Language Queries with Tag configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/ai-instructiona-and-examples.md) to see detailed examples.
 
 5.  Add alternative names in the **Table synonyms** field and select **Add**.
 
     -   Use the commonly used table names as synonyms to help AI recognize it in natural language queries.
     -   Example: you can add Tickets as a synonym for the Incident table.
     -   You can add up to five synonyms only.
-6.  To delete a synonym, select ![](../../document-intelligence/image/icon-docintel-delete-grid-line.png) icon next to the synonym.
+6.  To delete a synonym, select \[Omitted image "icon-docintel-delete-grid-line.png"\] icon next to the synonym.
 
 7.  Add AI Instructions in the Table Configurations section and select **Add**.
 
@@ -80,7 +81,7 @@ Role required: admin
     -   You can add up to five synonyms only.
     The selected columns and edges are added to the **Column / Edge configurations** section.
 
-10. To delete a column from the section, select ![delete icon](../../../common/image/icon-delete-trashcan.png) next to the column.
+10. To delete a column from the section, select \[Omitted image "icon-delete-trashcan.png"\] Alt text: delete icon next to the column.
 
 11. Add AI Instructions in the **Column/Edge Configurations** section and select **Add**.
 

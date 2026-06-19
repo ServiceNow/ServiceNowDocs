@@ -2,6 +2,7 @@
 title: Exploring Export to PowerPoint
 description: The Export to PowerPoint application helps you generate and download your project status report. Use this file to present your project status report to stakeholders or teams for collaboration and to identify the next steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/export-to-powerpoint-for-application-portfolio-management/explore-export-to-ppt.html
 release: australia
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
@@ -66,5 +67,5 @@ Repeater
 A token used to generate data for all the entries in a record by retaining the template format.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Export to PowerPoint for Strategic Portfolio Management](export-ppt-landing-page.md)
+</table>**Parent Topic:**[Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/export-ppt-landing-page.md)
 

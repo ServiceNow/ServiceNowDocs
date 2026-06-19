@@ -2,6 +2,7 @@
 title: TISC Intel Exchange API
 description: Enables external systems to share threat intelligence data with the Threat Intelligence Security Center \(TISC\) application.Shares threat intelligence data from an external source with the Threat Intelligence Security Center \(TISC\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/tisc-intel-ex-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,13 +18,13 @@ Enables external systems to share threat intelligence data with the Threat Intel
 
 This API requires the Threat Intelligence Security Center application, which is available on the ServiceNow Store.
 
-For additional information about TISC, see [Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-landing-page.md).
+For additional information about TISC, see .
 
 This API runs in the `sn_sec_tisc` namespace. The calling user must have the sn\_sec\_tisc.api\_post\_intel role.
 
 The current version of this API is `v1`.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## TISC Intel Exchange - POST /sn\_sec\_tisc/tisc\_intel\_sharing\_api/post\_intel
 
@@ -122,7 +123,7 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only spe
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -166,7 +167,7 @@ Format of the data being shared.Possible values:
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

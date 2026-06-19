@@ -2,6 +2,7 @@
 title: Compute Autocad floor surface area
 description: Compute floor size area and dimensions in Indoor Mapping Map Studio while importing your AutoCAD floor sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/compute-autocad-floor-surface.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -49,7 +50,7 @@ Role required: admin
 
     **Note:** It's optional and not mandatory to select a **Layer** while selecting the **Use for floor surface area calculation** option.
 
-    ![AutoCAD source page showing floor surface area computation property.](../images/wsd-map-studio-compute-floor.png)
+    \[Omitted image "wsd-map-studio-compute-floor.png"\] Alt text: AutoCAD source page showing floor surface area computation property.
 
 8.  Select a **Layer** that represents the outline of the floor to compute the floor surface area value.
 
@@ -154,10 +155,10 @@ Default value is **Global**. Retain **Global** to avoid any conflicts between yo
 
         The CAD file unit value can be computed correctly in the Map Studio based on the AutoCAD file coordinates. Navigate back to the CAD file configuration page for a floor plan and perform the following;
 
-        -   Select the More actions icon \(![more options icon.](../../wsd-for-mobile/images/more-options-icon.png)\) on the top right pane of the Map Studio.
+        -   Select the More actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: more options icon.\) on the top right pane of the Map Studio.
         -   Select the **Edit file unit** option.
 
-            ![CAD file edit unit option on the CAD configuration page.](../images/wsd-edit-file-unit-autocad.png)
+            \[Omitted image "wsd-edit-file-unit-autocad.png"\] Alt text: CAD file edit unit option on the CAD configuration page.
 
         -   Select a unit from the drop-down list.
 
@@ -166,7 +167,7 @@ Default value is **Global**. Retain **Global** to avoid any conflicts between yo
         -   Click **Save**.
         -   Click **Start Import** and run the synchronization again.
 
-            For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](synchronize-ind-mapping-wsd.md).
+            For more information, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
             The conversions are now accurate.
 

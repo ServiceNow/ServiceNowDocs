@@ -2,6 +2,7 @@
 title: View matrix report in landing page and record page of Audit Workspace
 description: View the Matrix report in the Audit Workspace that presents the data in a structured format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/matrix-report-view-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -29,15 +30,15 @@ The report helps to analyze relationships between different objects such as asse
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the matrix report icon \(![Matrix report icon.](../image/matrix-report-icon.png)\) and click the matrix report that you configured.
+2.  Select the matrix report icon \(\[Omitted image "matrix-report-icon.png"\] Alt text: Matrix report icon.\) and click the matrix report that you configured.
 
 3.  For the landing page display type matrix configuration, you can view the Matrix report in the Audit Workspace.
 
-4.  Select the view related information icon \(![View related information.](../image/view-related-info-icon.png)\) to get a complete tabular view of the matrix report.
+4.  Select the view related information icon \(\[Omitted image "view-related-info-icon.png"\] Alt text: View related information.\) to get a complete tabular view of the matrix report.
 
     The source record details are displayed on the left pane for the top two orders. The target table fields that you configured are displayed as column heads on the right pane.
 
-    ![Landing page display type of the Risk and Control Matrix report in the Audit Workspace.](../image/matrix-report-audit-workspace.png)
+    \[Omitted image "matrix-report-audit-workspace.png"\] Alt text: Landing page display type of the Risk and Control Matrix report in the Audit Workspace.
 
     Since risk is the base source table, all the risk-related fields are displayed on the left pane. Level 0 is the risk, which is the default base table. All the data that are fetched from the risk record are Level 1.
 
@@ -45,7 +46,7 @@ The report helps to analyze relationships between different objects such as asse
 
     For the record page display type matrix configuration, you can view the matrix report in the List view of the Audit Workspace.
 
-5.  Select the list icon \(![List icon](../image/ListsIcon.jpg)\) of the Audit Workspace.
+5.  Select the list icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: List icon\) of the Audit Workspace.
 
 6.  Select any record from the configured table of the Matrix report configuration.
 
@@ -57,6 +58,6 @@ The report helps to analyze relationships between different objects such as asse
 
 8.  Select the **Matrix report** tab to view the report in the record page.
 
-    ![Record page display type of Risk and Control Matrix report in the List view of the Audit Workspace.](../image/matrix-report-record-audit-ws.png)
+    \[Omitted image "matrix-report-record-audit-ws.png"\] Alt text: Record page display type of Risk and Control Matrix report in the List view of the Audit Workspace.
 
 

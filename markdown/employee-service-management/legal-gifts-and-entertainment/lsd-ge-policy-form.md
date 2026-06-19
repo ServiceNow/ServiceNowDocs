@@ -2,6 +2,7 @@
 title: Gift Policies form
 description: Use the Gift Policies form to add policy in accordance with your organization's policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-ge-policy-form.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -45,7 +46,7 @@ Category
 
 </td><td>
 
-The category of transaction. **Note:** You can add subcategories as per your requirement. For more information, see [Add a subcategory for the intake form](../../legal-request-management/task/add-subcategories-intakeform.md).
+The category of transaction. **Note:** You can add subcategories as per your requirement. For more information, see [Add a subcategory for the intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/add-subcategories-intakeform.md).
 
 </td></tr><tr><td>
 
@@ -98,5 +99,5 @@ Active
 Option for if the gift policy is active.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Gifts and Entertainment Compliance reference](lsd-ge-reference.md)
+</table>**Parent Topic:**[Gifts and Entertainment Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-reference.md)
 

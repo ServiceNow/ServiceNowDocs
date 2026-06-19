@@ -2,6 +2,7 @@
 title: Work on a legal request through Mobile Agent
 description: As a member of the legal department, work on legal requests submitted by employees to resolve their issues or to answer their queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/work-on-legal-request-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile
@@ -39,8 +40,8 @@ The state of the legal request changes from Assigned to Work in Progress.
 
 ## What to do next
 
--   [Create and manage checklist](manage-checklist-for-request-mobile.md) to track what should be done to resolve the legal request.
--   [Add documents, videos, images](add-files-to-artifact-mobile.md).
--   [Promote the legal request to a legal matter](promote-legal-request-to-matter-mobile.md). This option is available only if you have installed the Legal Matter Management application.
--   [Close the legal request](close-legal-request-mobile.md) when the request is resolved.
+-   [Create and manage checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-mobile/manage-checklist-for-request-mobile.md) to track what should be done to resolve the legal request.
+-   [Add documents, videos, images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-mobile/add-files-to-artifact-mobile.md).
+-   [Promote the legal request to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-mobile/promote-legal-request-to-matter-mobile.md). This option is available only if you have installed the Legal Matter Management application.
+-   [Close the legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-mobile/close-legal-request-mobile.md) when the request is resolved.
 

@@ -2,6 +2,7 @@
 title: Purchase requisition merging
 description: Purchase requisitions can be merged if certain criteria are met. This avoids multiple purchase orders from being created unnecessarily and also helps enforce approval rule limits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition-merging.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -75,5 +76,5 @@ Purchase lines within a purchase requisition can also be merged under the follow
 
 **Note:** Purchase requisition merging and purchase line merging are not applicable for bundled products.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

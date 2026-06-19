@@ -2,6 +2,7 @@
 title: Outbound staging tables for Sourcing and Procurement Operations
 description: The outbound staging tables for Sourcing and Procurement Operations store sourcing and procurement data before it is exported to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/spo-outbound-staging-tables.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

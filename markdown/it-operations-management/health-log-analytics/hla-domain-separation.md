@@ -2,6 +2,7 @@
 title: Domain separation and Health Log Analytics
 description: Domain separation is supported for Health Log Analytics. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-domain-separation.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -25,7 +26,7 @@ Domain separation is supported for Health Log Analytics. Domain separation enabl
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation and Health Log Analytics overview
 
@@ -54,10 +55,10 @@ Using domain separation in your instance is transparent to Health Log Analytics.
 -   An operator in a tenant organization wants to provide feedback for alerts only in their own domain​.
 -   An MSP Admin wants to view log data from all of their organization's tenant domains.
 
-**Parent Topic:**[Health Log Analytics reference](hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

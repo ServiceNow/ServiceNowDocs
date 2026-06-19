@@ -2,6 +2,7 @@
 title: Compare APIs in API Insights
 description: Compare APIs available within your organization in the API Insights workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-compare.html
 release: australia
 product: API Insights
 classification: api-insights

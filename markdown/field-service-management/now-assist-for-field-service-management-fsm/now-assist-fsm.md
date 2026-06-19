@@ -2,12 +2,14 @@
 title: Now Assist for Field Service Management \(FSM\)
 description: Use the ServiceNow Now Assist for Field Service Management \(FSM\) application to summarize work order tasks. You can enable users to generate work order task summaries so that they can create notes faster and with more detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: reference
-last_updated: "2026-03-27"
-reading_time_minutes: 2
+last_updated: "2026-05-13"
+reading_time_minutes: 3
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 ---
 
 # Now Assist for Field Service Management \(FSM\)
@@ -18,22 +20,38 @@ Use the ServiceNow® Now Assist for Field Service Management \(FSM\) application
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for FSM](../concept/exploring-now-assist-fsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/exploring-now-assist-fsm.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for FSM application to get started](../task/configure-now-assist-fsm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for FSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/configure-now-assist-fsm.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use generative AI capabilities offered by Now Assist for FSM](../concept/using-now-assist-fsm.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for FSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
-**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
-**Important:** Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Foundation: AI basics to deliver insights
+-   Advanced: AI to boost productivity across relevant use cases
+-   Prime: Act autonomously with all AI assets, and create your own
+
+For more information, see .
+
+For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
+
+-   
+-   
+
+**Important:**
+
+-   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
 
@@ -51,7 +69,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect task data \(for Case Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 

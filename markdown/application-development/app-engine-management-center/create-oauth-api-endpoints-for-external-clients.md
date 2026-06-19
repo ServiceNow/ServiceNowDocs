@@ -2,6 +2,7 @@
 title: Create OAuth API endpoints for external clients
 description: Create OAuth API endpoints to enable your controller instance to have two-way communication with your non-production instances. Follow and complete each step carefully on the specified instances before moving on to create your third-party OAuth provider records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/create-oauth-api-endpoints-for-external-clients.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -14,8 +15,6 @@ breadcrumb: [Configure OAuth credentials, Configure environment credentials, Con
 # Create OAuth API endpoints for external clients
 
 Create OAuth API endpoints to enable your controller instance to have two-way communication with your non-production instances. Follow and complete each step carefully on the specified instances before moving on to create your third-party OAuth provider records.
-
-Demonstration of how to create OAuth API endpoints for external clients
 
 ## Before you begin
 
@@ -154,5 +153,5 @@ Redirect URLs
 
 ## What to do next
 
-Follow the steps in [Create third-party OAuth provider records](create-third-party-oauth-provider-records.md) on the specified instances.
+Follow the steps in [Create third-party OAuth provider records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/create-third-party-oauth-provider-records.md) on the specified instances.
 

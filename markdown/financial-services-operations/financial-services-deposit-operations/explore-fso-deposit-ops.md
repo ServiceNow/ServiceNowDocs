@@ -2,6 +2,7 @@
 title: Exploring Financial Services Deposit Operations
 description: You can use ServiceNow Financial Services Deposit Operations to manage a streamlined resolution of cases related to savings and checking deposit accounts by automating and optimizing the common deposit account requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/explore-fso-deposit-ops.html
 release: australia
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -88,5 +89,5 @@ Agents in the middle or back office of financial institutions who work with the 
 -   Document agent
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Deposit Operations](fso-deposit-ops-landing-page.md)
+</table>**Parent Topic:**[Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/fso-deposit-ops-landing-page.md)
 

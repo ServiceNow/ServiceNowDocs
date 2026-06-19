@@ -2,6 +2,7 @@
 title: Viewing resource quota limits
 description: View quota limits to see how many resources you have consumed and how many you can provision based on quota limits set for you and your user group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/resource-quota.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -31,15 +32,15 @@ The Quota section on the Overview page displays the quota limits in a graph.
 
 -   Green indicates that sufficient resources are available.
 -   Red indicates that insufficient resources are available.
--   If quota limits have been exceeded, the system might either display an error message or trigger a policy-based approval when you attempt to provision a stack. For more information, see [Provisioning stacks based on quota limits](quota-template-based-stacks.md).
+-   If quota limits have been exceeded, the system might either display an error message or trigger a policy-based approval when you attempt to provision a stack. For more information, see [Provisioning stacks based on quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/quota-template-based-stacks.md).
 
 The quota limit that is displayed on the Quota section is an aggregate from all of the user groups to which you belong. To view quota limits separately for you and each of your user groups, click **View All**. The Quota Details pop-up window is displayed.
 
-![Quota details for user and user groups.](../image/quota-details.png "Quota Details pop-up window")
+\[Omitted image "quota-details.png"\] Alt text: Quota details for user and user groups.
 
 The Quota Details pop-up window indicates your consumed quota compared to your allocated quota limit for each resource type. For example, 0/5 for a resource type means that zero has been consumed and five is the allocated quota limit.
 
 The quota limit for a resource type appears as either a sum or count. For example, the Storage Volume Size is shown as a sum in GB and the VM Count is shown as a number.
 
-You can also view quota limits when launching stacks. For more information, see [Launch a stack](../task/cloudmgt-launch-stack.md).
+You can also view quota limits when launching stacks. For more information, see [Launch a stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-launch-stack.md).
 

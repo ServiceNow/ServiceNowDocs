@@ -2,6 +2,7 @@
 title: Advanced Work Assignment monitoring page
 description: Administrators \(admin or awa\_admin\) can monitor Advanced Work Assignment activity by reviewing information on the Advanced Work Assignment Stats page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-monitoring-page.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

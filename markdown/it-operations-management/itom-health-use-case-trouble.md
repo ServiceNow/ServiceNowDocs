@@ -2,7 +2,10 @@
 title: ITOM AIOps considerations for CSDM framework
 description: ITOM AIOps aligns with CSDM framework to ensure standardized data management and optimize IT operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-health-use-case-trouble.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Configure a push connector instance
 description: Configure a push connector instance to receive the events from an external system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-push-connector-instance.html
 release: australia
 product: Event Management
 classification: event-management
@@ -36,7 +37,7 @@ You can use a connector instance to receive the events coming from external sour
 
 3.  On the **Push Connector Instance** form, fill in the fields.
 
-    For more details, see [Push connector instance form](../reference/push-connector-instance-form.md).
+    For more details, see [Push connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/push-connector-instance-form.md).
 
 4.  Select **Submit** or **Update**.
 

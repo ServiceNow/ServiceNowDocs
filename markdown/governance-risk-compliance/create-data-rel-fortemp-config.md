@@ -2,6 +2,7 @@
 title: Configure the data relationships
 description: Configure the data relationships in the Template Configurations module, which helps you to navigate from a record in the template configuration to any table. When you create these paths, you can fetch necessary data from each of these records in the BCM report template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-data-rel-fortemp-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,11 +32,11 @@ When you create data relationships, you can specify how selected records, such a
 
     The Data relationship new record is displayed.
 
-    ![Data relationship new record.](../image/data-rela-new-record.png)
+    \[Omitted image "data-rela-new-record.png"\] Alt text: Data relationship new record.
 
     You can add the source and target relationships.
 
-    ![Source relationships.](../image/data-rel-record-source-rel-list.png)![Target relationships.](../image/data-rel-record-target-rel-list.png)
+    \[Omitted image "data-rel-record-source-rel-list.png"\] Alt text: Source relationships.\[Omitted image "data-rel-record-target-rel-list.png"\] Alt text: Target relationships.
 
 4.  On the form, fill in the fields.
 
@@ -108,10 +109,10 @@ Table from which the data is obtained. This field is automatically populated.
 
     The Data relationships related list is shown in the example.
 
-    ![Data relationships related list.](../image/data-rela-template-config.png)
+    \[Omitted image "data-rela-template-config.png"\] Alt text: Data relationships related list.
 
 
 ## What to do next
 
-Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Set up the content configurations](create-content-config-for-temp-config.md).
+Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Set up the content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-content-config-for-temp-config.md).
 

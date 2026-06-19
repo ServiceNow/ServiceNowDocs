@@ -2,6 +2,7 @@
 title: Automated Mapping Across Zone-based IP Network Groups
 description: Automate mapping of Operational Technology \(OT\) devices to the production process using the Automated Mapping Across Zone-based IP Network Groups \(AMAZING\) feature.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -28,7 +29,7 @@ When OT managers experience vulnerabilities or must manage workflow involving OT
 
 Industrial networks use subnets to divide the private IP address space with a single subnet often aligned to a part of the production process, or the equipment model entity. For example, a canning line runs on a 192.168.101.0/24 network in which all the equipment was programmed by the integrator. The IPs used by the control systems, or OT devices, are often hard-coded into the automation software used to run the line. If the subnet maps to the canning line in the Atlanta site, a manager can automatically map a detected PLC with IP 192.168.101.66 to the canning line.
 
-The mapping feature relates each subnet to an equipment model entity, enabling you to automatically map OT devices to the subnets associated with the equipment model entity based on the IP address that was reported upon import from an OT-certified integration or ServiceNow®'s [IT Discovery for Operational Technology \(OT\) Networks](../../mftg-manufacturing-oper-tech-mgr/concept/discovery-for-operational-technology.md).​
+The mapping feature relates each subnet to an equipment model entity, enabling you to automatically map OT devices to the subnets associated with the equipment model entity based on the IP address that was reported upon import from an OT-certified integration or ServiceNow®'s [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/discovery-for-operational-technology.md).​
 
 ## Types of mapping
 
@@ -84,9 +85,9 @@ The discovered subnets live in the OT Discovered Subnets \[sn\_ot\_discovered\_s
 -   Discovered Managed Network
 -   Site
 
-For more information about Industrial Core, see [Industrial Core plugin](../../mftg-manufacturing-oper-tech-mgr/reference/industrial-core-plugin.md).
+For more information about Industrial Core, see [Industrial Core plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/industrial-core-plugin.md).
 
-You can also manually create a discovered subnet. For more information, see the [Create an OT discovered subnet](../../mftg-manufacturing-process-mgr/task/create-ot-discovered-subnet.md).
+You can also manually create a discovered subnet. For more information, see the [Create an OT discovered subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-ot-discovered-subnet.md).
 
 ## Automated mapping feature personas
 
@@ -132,30 +133,30 @@ The ISA editor performs these tasks:-   Manually creates and updates OT subnet m
 
 Enabling the mapping feature requires the following plugins:
 
--   [Operational Technology Manager](../../mftg-manufacturing-oper-tech-mgr/concept/operational-technology-manager.md)
--   [Industrial Process Manager](../../mftg-manufacturing-process-mgr/concept/industrial-process-manager-overview.md)
--   [Industrial Core](../../mftg-manufacturing-oper-tech-mgr/reference/industrial-core-plugin.md)
+-   [Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager.md)
+-   [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/industrial-process-manager-overview.md)
+-   [Industrial Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/industrial-core-plugin.md)
 
 If the required plugins are installed, an ISA administrator can access the subnet mapping feature from the Industrial Process Manager application menu on the ServiceNow AI Platform.
 
--   **[Workflow for the automated mapping feature](../concept/workflow-automated-dynamic-mapping-feature.md)**  
+-   **[Workflow for the automated mapping feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/workflow-automated-dynamic-mapping-feature.md)**  
 The Industrial Process Manager includes an automated flow for the automated mapping feature.
--   **[Configure Automated Mapping of OT devices using guided setup](map_ot_assets_using_guided_setup.md)**  
+-   **[Configure Automated Mapping of OT devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/map_ot_assets_using_guided_setup.md)**  
 Use the Industrial Process Manager guided setup to automatically map OT devices to the ISA equipment model entity.
--   **[Configure the OT Subnet Mapping scheduled flow](run-ot-subnet-mapping-scheduled-job.md)**  
+-   **[Configure the OT Subnet Mapping scheduled flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/run-ot-subnet-mapping-scheduled-job.md)**  
 Configure the OT device mapping flow to automatically map OT devices to sites and equipment model entities.
--   **[Automatically map all OT devices to an equipment model entity](automatedly-map-all-ot-assets.md)**  
+-   **[Automatically map all OT devices to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.md)**  
 An Operational Technology \(OT\) Amazing admin can trigger automated mapping of all OT devices to the appropriate ISA equipment model entity.
--   **[Create an OT discovered subnet](../../mftg-manufacturing-process-mgr/task/create-ot-discovered-subnet.md)**  
+-   **[Create an OT discovered subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-ot-discovered-subnet.md)**  
 Create an Operational Technology \(OT\) discovered subnet to use during OT subnet mapping to help identify OT devices and assign them to the correct equipment model entity.
--   **[View OT devices not assigned to a site](view-ot-devices-not-assigned-to-a-site.md)**  
+-   **[View OT devices not assigned to a site](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/view-ot-devices-not-assigned-to-a-site.md)**  
 View the list of Operational Technology \(OT\) devices that aren't assigned to a site.
--   **[View unmapped OT devices](view-unmapped-ot-devices.md)**  
+-   **[View unmapped OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/view-unmapped-ot-devices.md)**  
 View a list of Operational Technology \(OT\) devices with IP addresses that aren't mapped to any equipment model entity.
--   **[View OT subnet mappings](view-ot-subnet-to-equip-model-mappings.md)**  
+-   **[View OT subnet mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/view-ot-subnet-to-equip-model-mappings.md)**  
 View all mapped OT subnets assigned to an equipment model entity.
--   **[View all mapped OT devices](view-all-mapped-ot-devices.md)**  
+-   **[View all mapped OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/view-all-mapped-ot-devices.md)**  
 View a list of all the Operational Technology \(OT\) devices that are mapped to an equipment model entity.
 
-**Parent Topic:**[Managing equipment models](../../mftg-manufacturing-process-mgr/task/managing-equipment-models-after-data-import.md)
+**Parent Topic:**[Managing equipment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/managing-equipment-models-after-data-import.md)
 

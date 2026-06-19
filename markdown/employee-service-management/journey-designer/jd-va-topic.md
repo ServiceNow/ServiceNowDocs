@@ -2,6 +2,7 @@
 title: Now Assist Virtual Agent topics for Journey designer
 description: Complete the Journey designer related tasks from Employee Center using the Now Assist Virtual Agent topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jd-va-topic.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -25,9 +26,9 @@ The Create JA task Virtual Agent topic enables you to create a JA task for any j
 
 From Employee Center, open a chat window and type in words such as, create JA task. After you have provided the required details \(such as journey to which you want to add the JA task, stage at which you want to add the JA task, template for the JA task, due date for the task\) the JA task is created. You can view the created task by navigating to the provided link in the topic flow.
 
-![Creating a Journey Accelerator task for a new hire](../image/ja-task-hrsd.png)
+\[Omitted image "ja-task-hrsd.png"\] Alt text: Creating a Journey Accelerator task for a new hire
 
-![Adding a Journey Accelerator task to a new hire journey](../image/ja-task-hrsd-1.png)
+\[Omitted image "ja-task-hrsd-1.png"\] Alt text: Adding a Journey Accelerator task to a new hire journey
 
-**Parent Topic:**[Using Journey designer](using-jny-dsnr.md)
+**Parent Topic:**[Using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/using-jny-dsnr.md)
 

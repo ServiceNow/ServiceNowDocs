@@ -2,6 +2,7 @@
 title: Example integration points
 description: Each element on the page links to a specific URL point.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_IntegrationPointsExample.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -15,7 +16,7 @@ breadcrumb: [Content Management integration points, Content Management System, C
 
 Each element on the page links to a specific URL point.
 
-![Each element under the Business Services, Features Services, and Reporting sections has a specific URL link integration point.](../image/IntegrationPointsSmall.png "Integration points")
+\[Omitted image "IntegrationPointsSmall.png"\] Alt text: Each element under the Business Services, Features Services, and Reporting sections has a specific URL link integration point.
 
 **Business Services** links to a content page \(CMS page referenced: Business Service Portfolio, URL: \(`business_service_category.do`\) that pulls the system service catalog homepage into a frame within the content area. Each link within this section uses the browse by category page, where you pass in the name of the category to return results.
 
@@ -47,5 +48,5 @@ Each element on the page links to a specific URL point.
     -   **Service Availability** URL: .`./home.do?sysparm_userpref_homepage=8ee772000a0a0bad00c38eb7e68b93d0`
     -   **Service Level Agreements \(SLA\)** URL: .`./home.do?sysparm_userpref_homepage=757e86a30a0006d4010a6851639498d1`
 
-**Parent Topic:**[Content Management integration points](c_CMSIntegrationPoints.md)
+**Parent Topic:**[Content Management integration points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_CMSIntegrationPoints.md)
 

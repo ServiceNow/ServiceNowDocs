@@ -2,6 +2,7 @@
 title: View and track amendment requests as a legal user
 description: View the details of an amendment request after it has been submitted and track the activities in the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-view-amend-req-details.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -92,5 +93,5 @@ Request Details
 </table>5.  Track the activities in the request and post messages for the fulfiller working on it by accessing the **Activity** tab.
 
 
-**Parent Topic:**[Contract amendments](../concept/snlc-amend-req-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
 

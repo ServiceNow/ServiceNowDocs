@@ -2,6 +2,7 @@
 title: Demand tasks
 description: A demand task is a unit of work created within a demand to break down initial planning activities before converting the demand into an entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/demand-tasks-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -35,5 +36,5 @@ Resource assignments aren’t associated with the demand by default. Don’t use
 
 ## Actual cost and effort
 
-The actual effort for work performed on the demand task is derived from the time card. The actual cost is derived from the hourly resource rate defined in the rate model, default labor rate, or default system property. The actual cost and effort for a demand task roll up to derive the actual cost and effort for the associated demand. For more information, see [Actual cost and effort calculation for a demand and demand task](actual-cost-and-effort-calculation-ppw.md).
+The actual effort for work performed on the demand task is derived from the time card. The actual cost is derived from the hourly resource rate defined in the rate model, default labor rate, or default system property. The actual cost and effort for a demand task roll up to derive the actual cost and effort for the associated demand. For more information, see [Actual cost and effort calculation for a demand and demand task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/actual-cost-and-effort-calculation-ppw.md).
 

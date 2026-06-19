@@ -2,6 +2,7 @@
 title: Troubleshoot a null response in a C Sharp integration
 description: Receiving a null response from ServiceNow's web service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_Troubleshoot.html
 release: australia
 product: Web Services
 classification: web-services
@@ -19,5 +20,5 @@ If you are receiving a "null" response from your web service in your client code
 
 Remember to recompile your code against the WSDL after you have changed this setting and saved it.
 
-**Parent Topic:**[Web services C Sharp .NET end to end tutorial](c_CSharpNETEndEnd.md)
+**Parent Topic:**[Web services C Sharp .NET end to end tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_CSharpNETEndEnd.md)
 

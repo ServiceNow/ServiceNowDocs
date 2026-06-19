@@ -2,6 +2,7 @@
 title: Anti-CSRF token validation time
 description: The glide.security.csrf\_previous.time\_limit property specifies the time in seconds for a secure token to expire.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-anti-csrf-token-validation-time.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Functional impact
 This property determines the duration in seconds for a secure token to remain valid. The secure token expires when the user session expires unless the **allowing reuse of expired tokens** property is enable, and the token is within the time frame specified in this property. This token prevents cross-site request forgery attacks. It has a default value of 86400 seconds or 1 day.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

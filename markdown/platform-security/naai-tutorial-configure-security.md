@@ -2,6 +2,7 @@
 title: Configure security controls
 description: Set up Now Assist Guardian guardrails and data privacy controls to protect your AI agent interactions before testing begins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-tutorial-configure-security.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -26,7 +27,7 @@ Complete the following Guardian configuration steps:
 3.  Activate offensiveness protection to log and optionally block offensive content in AI-generated responses. See .
 4.  Configure prompt injection attack protection to detect and optionally block prompt injection attempts. See .
 5.  If your agent uses Virtual Agent, configure sensitive topic filters to redirect users when subject matter is detected that should be handled by a human agent or HR case. See .
-6.  Enable Guardian specifically for AI agents to protect your agentic workflows from harmful content in human-agent messages. See [Enable Now Assist Guardian for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-aia-na-guardian.md).
+6.  Enable Guardian specifically for AI agents to protect your agentic workflows from harmful content in human-agent messages. See .
 
 **Note:** Configure Guardian to log before enabling blocking. Reviewing logs from your test runs will help you understand what your agent's interactions look like before deciding whether to block content.
 
@@ -34,13 +35,13 @@ Complete the following Guardian configuration steps:
 
 Before your agent goes into testing, verify that personally identifiable information \(PII\) is handled appropriately. Complete the following steps if you have not already done so:
 
-1.  Assign a data steward if one is not already assigned. The data steward is responsible for data sharing decisions for Now Assist on your instance. See [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/assign-data-steward-role.md).
-2.  Configure privacy policies to control how PII is de-identified before it reaches the large language model. See [Configuring Data Privacy for Now Assist](configure-now-assist-data-privacy.md).
-3.  Review your data sharing preferences and opt out if your organization policy requires it. See [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+1.  Assign a data steward if one is not already assigned. The data steward is responsible for data sharing decisions for Now Assist on your instance. See .
+2.  Configure privacy policies to control how PII is de-identified before it reaches the large language model. See [Configuring Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md).
+3.  Review your data sharing preferences and opt out if your organization policy requires it. See .
 
 ## Next step
 
-When Guardian is configured and data privacy controls are in place, proceed to [Test and validate](naai-tutorial-test-validate.md).
+When Guardian is configured and data privacy controls are in place, proceed to [Test and validate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-test-validate.md).
 
-**Parent Topic:**[Create and secure an AI agent in Now Assist](naai-tutorial-overview.md)
+**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-overview.md)
 

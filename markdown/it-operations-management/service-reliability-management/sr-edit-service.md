@@ -2,6 +2,7 @@
 title: Edit service details in SRM
 description: Edit an existing service owned by your team. For each service that you support in SRM provide general information about the service and the SRM team that supports it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-edit-service.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,7 +28,7 @@ Role required: srm\_admin, srm\_manager, or srm\_responder
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select the **Services** icon \(![Services icon](../image/icon-sr-services.png)\).
+2.  From the primary navigation, select the **Services** icon \(\[Omitted image "icon-sr-services.png"\] Alt text: Services icon\).
 
 3.  From your services list, select the service that you want to edit or update.
 
@@ -37,10 +38,10 @@ Role required: srm\_admin, srm\_manager, or srm\_responder
 
 5.  Fill in or edit the fields.
 
-    For more information on the field descriptions, see [Edit service details form](../reference/sr-edit-service-form.md).
+    For more information on the field descriptions, see [Edit service details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-edit-service-form.md).
 
 6.  To save the updated service details after editing, select **Save**.
 
 
-**Parent Topic:**[Working with SRM services](../concept/sr-work-services.md)
+**Parent Topic:**[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-services.md)
 

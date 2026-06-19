@@ -2,6 +2,7 @@
 title: Target tables for storing API Service Graph Connector for Apigee X data
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from an Apigee X application. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] classes and other non-CMDB tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x-tables.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

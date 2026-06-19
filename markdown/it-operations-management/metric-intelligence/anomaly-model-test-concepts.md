@@ -2,6 +2,7 @@
 title: Anomaly model testing
 description: Use anomaly model testing to apply and evaluate anomaly detection for a small set of CIs and metrics, using actual metric data. Compare test results to expected results, then fine-tune the anomaly detection model before enabling anomaly detection for the tested CIs and metrics in the production environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/anomaly-model-test-concepts.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence

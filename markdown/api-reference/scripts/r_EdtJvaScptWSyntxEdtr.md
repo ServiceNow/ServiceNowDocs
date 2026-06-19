@@ -2,6 +2,7 @@
 title: Using the JavaScript syntax editor
 description: The syntax editor provides editing functions to support editing JavaScript scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_EdtJvaScptWSyntxEdtr.html
 release: australia
 product: Scripts
 classification: scripts
@@ -149,14 +150,14 @@ Scripts use ECMA 262 standard JavaScript. Helpful resources include:
 -   History and overview: [http://javascript.crockford.com/survey.html](http://javascript.crockford.com/survey.html)
 -   JavaScript number reference: [http://www.hunlock.com/blogs/The\_Complete\_Javascript\_Number\_Reference](http://www.hunlock.com/blogs/The_Complete_Javascript_Number_Reference)
 
--   **[Syntax editor keyboard shortcuts and actions](r_SyntxEdtrKybrdSrtctsActn.md)**  
+-   **[Syntax editor keyboard shortcuts and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_SyntxEdtrKybrdSrtctsActn.md)**  
 The syntax editor offers keyboard shortcuts and actions to assist in writing code.
--   **[JavaScript syntax editor macros](r_SyntaxEditorMacros.md)**  
+-   **[JavaScript syntax editor macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_SyntaxEditorMacros.md)**  
 Script macros provide shortcuts for typing commonly used code. To insert macro text into a script field, enter the macro keyword followed by the Tab.
--   **[Context menu in the syntax editor](../concept/context-menu-syntax-editor.md)**  
+-   **[Context menu in the syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/context-menu-syntax-editor.md)**  
 View the context menu for script includes, Glide APIs, and tables in the JavaScript syntax editor.
--   **[Syntax errors and warnings](../../debugging/concept/c_ScriptSyntaxErrorChecking.md)**  
+-   **[Syntax errors and warnings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptSyntaxErrorChecking.md)**  
 All script fields provide controls for checking the syntax for errors and for locating the error easily when one occurs.
 
-**Parent Topic:**[JavaScript syntax editor](../concept/c_SyntaxEditor.md)
+**Parent Topic:**[JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SyntaxEditor.md)
 

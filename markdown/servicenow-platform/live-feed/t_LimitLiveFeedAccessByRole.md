@@ -2,6 +2,7 @@
 title: Limit Live Feed access by role
 description: All active users in the instance have access to Live Feed by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_LimitLiveFeedAccessByRole.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -52,5 +53,5 @@ Role required: live\_feed\_admin and admin
         -   $live\_feed\_small
     -   **Requires role**: in this related list, add roles to define who can access the Live Feed pages. Users who do not have these roles cannot access Live Feed.
 
-**Parent Topic:**[Live Feed security and table access](../reference/r_LiveFeedTableAccessRules.md)
+**Parent Topic:**[Live Feed security and table access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_LiveFeedTableAccessRules.md)
 

@@ -2,11 +2,12 @@
 title: Configure profiles and security incidents for the CrowdStrike Falcon Insight integration
 description: Configure your profile settings so that the profile triggers only under the conditions that you set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-profiles-and-security-incidents-for-the-crowdstrike-falcon-insight-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,7 +24,7 @@ Role required: sn\_si.admin
 
 Define the conditions that automatically trigger the CrowdStrike Falcon Insight capabilities that you selected for the profile. You can also select an alternate input field for the Configuration Item \(CI\) field. In this alternate field, you can set filtering conditions so that only those security incidents that are related to your triggering event automatically trigger the profile.
 
-**Note:** Navigate to the Profile Configuration page only after you enter the profile details. For more information, see [Create a capability profile for the CrowdStrike Falcon Insight integration](create-a-capability-profile-for-the-crowdstrike-falcon-insight-integration.md).
+**Note:** Navigate to the Profile Configuration page only after you enter the profile details. For more information, see [Create a capability profile for the CrowdStrike Falcon Insight integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-a-capability-profile-for-the-crowdstrike-falcon-insight-integration.md).
 
 ## Procedure
 
@@ -43,7 +44,7 @@ Define the conditions that automatically trigger the CrowdStrike Falcon Insight 
 
     To provide an extra level of control when you’re using the CrowdStrike Falcon Insight capabilities, select the **Require Approval** option. The approvals option in the profile configuration appears only for the Isolate Host and Remove Host Isolation capabilities.
 
-    **Note:** The approval authority is assigned to the user with the sn\_si.admin role. You can also reassign this approval authority to an approval group. For more information, see [set up an approval group](create-approval-group.md).
+    **Note:** The approval authority is assigned to the user with the sn\_si.admin role. You can also reassign this approval authority to an approval group. For more information, see [set up an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-approval-group.md).
 
     **Additional Configuration**
 
@@ -53,7 +54,7 @@ Define the conditions that automatically trigger the CrowdStrike Falcon Insight 
 
     2.  In the **Alternate CI Trigger Field**, select an input field.
 
-        **Note:** For more information, see [Understand how trigger conditions work with a configuration item for a profile](../concept/define-trigger-conditions.md).
+        **Note:** For more information, see [Understand how trigger conditions work with a configuration item for a profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/define-trigger-conditions.md).
 
     **Tags**
 
@@ -61,7 +62,7 @@ Define the conditions that automatically trigger the CrowdStrike Falcon Insight 
 
     **Note:** These tags are provided with the base system. You can create your own tags if required.
 
-    ![Display tags in the security incident](../image/falcon-insight-display-tags.png)
+    \[Omitted image "falcon-insight-display-tags.png"\] Alt text: Display tags in the security incident
 
 2.  Click **Done**.
 

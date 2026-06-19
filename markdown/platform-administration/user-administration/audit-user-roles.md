@@ -1,7 +1,8 @@
 ---
 title: Audit user roles
-description: Changes to user roles are automatically tracked in the Audit Roles \[sys\_audit\_role\] table.
+description: Changes to user roles are tracked in the Audit Roles \[sys\_audit\_role\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/audit-user-roles.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -13,13 +14,13 @@ breadcrumb: [Managing roles, User administration, Configure core features, Admin
 
 # Audit user roles
 
-Changes to user roles are automatically tracked in the Audit Roles \[sys\_audit\_role\] table.
+Changes to user roles are tracked in the Audit Roles \[sys\_audit\_role\] table.
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** If the [Prevent duplicate entries with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/Role-Mgmt-V2.md) plugin is installed, you must [Enable role auditing with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/enable-audit-roles.md).
+**Note:** If the Prevent duplicate entries with Contextual Security: Role Management V2 plugin is installed, you must Enable role auditing with Contextual Security: Role Management V2.
 
 ## Procedure
 
@@ -89,5 +90,5 @@ The affected user.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing roles](../concept/ua-creating-roles.md)
+**Parent Topic:**[Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
 

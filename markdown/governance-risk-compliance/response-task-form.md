@@ -2,11 +2,12 @@
 title: Scenario analysis response task form
 description: Use the Scenario analysis response task form in Operational Resilience Workspace to add the details about the response task that is associated with a scenario event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/response-task-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Add a scenario event, Adding a scenario event to the analysis, Create a scenario analysis, Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Add a scenario event, Adding a scenario event to the analysis, Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Scenario analysis response task form

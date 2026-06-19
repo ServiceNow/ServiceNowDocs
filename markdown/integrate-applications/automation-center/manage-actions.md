@@ -2,6 +2,7 @@
 title: Manage actions
 description: Manage the actions to set permissions of who can access the actions and view any details or logs of the executed actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/manage-actions.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,10 +20,10 @@ As an administrator or technical user, you must set permissions of who can acces
 
 After the actions are executed, you can view the logs to understand details of the executions.
 
--   **[Create assigned groups](../task/create-assigned-groups.md)**  
+-   **[Create assigned groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-assigned-groups.md)**  
 Create assigned groups to limit the availability of the action to a specific group.
--   **[View action logs](../task/view-execution-logs.md)**  
+-   **[View action logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/view-execution-logs.md)**  
 View action logs to see details of actions that are executed.
 
-**Parent Topic:**[Working with actions](actions.md)
+**Parent Topic:**[Working with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/actions.md)
 

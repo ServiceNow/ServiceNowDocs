@@ -2,6 +2,7 @@
 title: Get employee or visitor health data
 description: Send a GET request for Employee Health and Safety Status data to use in your third-party system. Get data to determine an employee or visitor's current health status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/query-health-data.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -23,7 +24,7 @@ Role required: sn\_imt\_core.reader
 
 1.  Send a GET request to the Table API on your instance.
 
-    For more information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
+    For more information, see Table API.
 
     1.  Construct the endpoint using the Health and Safety User \[sn\_imt\_core\_health\_and\_safety\_user\] table.
 
@@ -37,7 +38,7 @@ Role required: sn\_imt\_core.reader
 
         -   `user.email=<user-email-address>`: Queries the provided employee's email address.
         -   `visitor.email=<visitor-email-address>`: Queries the provided visitor's email address.
-        ![Example sysparm_query value to query a specific user's email address.](../image/sysparm-query.png)
+        \[Omitted image "sysparm-query.png"\] Alt text: Example sysparm\_query value to query a specific user's email address.
 
     This example cURL request queries the Health and Safety User table and returns records associated with Abel Tuter's email address.
 
@@ -97,7 +98,7 @@ requirements\_status
 
 </td><td>
 
-Whether the visitor or employee has completed all requirements to return to the workplace. For more information, see [Create health and safety user records](create-readiness-user.md) and [Create a health and safety requirement](create-readiness-requirement.md).-   Cleared: The visitor or employee has completed all requirements to return to the workplace.
+Whether the visitor or employee has completed all requirements to return to the workplace. For more information, see [Create health and safety user records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/create-readiness-user.md) and [Create a health and safety requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/create-readiness-requirement.md).-   Cleared: The visitor or employee has completed all requirements to return to the workplace.
 -   Not Cleared: The visitor or employee has not completed all requirements to return to the workplace.
 
  Data type: String

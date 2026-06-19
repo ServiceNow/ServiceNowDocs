@@ -2,11 +2,12 @@
 title: Workforce Optimization for HR Overview
 description: Workforce Optimization for HR simplifies the daily routine of HR Agent Managers to develop high-performing teams by optimizing schedules and work assignments, respond to ad hoc changes in real time, manage time-off requests and providing the skills they need to succeed—all in one workspace.Manage and maintain the productivity of your workforce from a single application using Workforce Optimization for HR. With this application, you can efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/wfo-hr-overview.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
@@ -14,6 +15,8 @@ breadcrumb: [HR Service Delivery, Employee Service Management]
 # Workforce Optimization for HR Overview
 
 Workforce Optimization for HR simplifies the daily routine of HR Agent Managers to develop high-performing teams by optimizing schedules and work assignments, respond to ad hoc changes in real time, manage time-off requests and providing the skills they need to succeed—all in one workspace.
+
+**Note:** Workforce Optimization for HR \(com.sn\_hr\_wfo\) is planned for deprecation in July 2027. There is no replacement for this application as of now.
 
 ## Workforce Optimization for HR
 
@@ -51,19 +54,19 @@ Workforce Optimization for HR WFO enables you to do these tasks:
 
 <table id="table_nlp_srv_zqb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how managers use Workforce Optimization for HR.](explore-wfo-hr.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how managers use Workforce Optimization for HR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/explore-wfo-hr.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation.](configure-wfo-hr.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/configure-wfo-hr.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Schedule, coach and train your agents.](use-wfo-hr.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Schedule, coach and train your agents.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/use-wfo-hr.md)
 
 </td></tr><tr><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about the components and roles installed with Workforce Optimization for HR.](../reference/wfo-hr-reference.md#)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Learn about the components and roles installed with Workforce Optimization for HR.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/wfo-hr-reference.md)
 
 </td><td>
 
@@ -76,7 +79,7 @@ Workforce Optimization for HR WFO enables you to do these tasks:
 </td></tr></tbody>
 </table>### Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

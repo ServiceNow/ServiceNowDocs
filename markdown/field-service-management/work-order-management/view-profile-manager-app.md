@@ -2,6 +2,7 @@
 title: View your profile in Field Service Manager Mobile
 description: Managers can view their profile to check on their personal details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-profile-manager-app.html
 release: australia
 product: Work Order Management
 classification: work-order-management

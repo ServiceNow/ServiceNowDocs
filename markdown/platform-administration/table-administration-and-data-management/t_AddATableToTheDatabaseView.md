@@ -2,6 +2,7 @@
 title: Add a table to the database view
 description: Specify the table to join to the database view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_AddATableToTheDatabaseView.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -27,14 +28,14 @@ The **Table** field in the View Table form specifies the table to join to the da
 
 When you write the **Where clause**, add the field name to the **Variable prefix** of its table with an underscore. In the following example, **mi\_id** refers to the **id** field in the Metric Instance \[metric\_instance\] table \(mi\) and **inc\_sys\_id** refers to the **sys\_id** field in the Incident \[incident\] table \(inc\).
 
-![Database View Table form](../image/Dbviews4.png "Database View Table form")
+\[Omitted image "Dbviews4.png"\] Alt text: Database View Table form
 
 **Note:**
 
--   Database views cannot be created on tables that participate in [table rotation](../../../administer/platform-performance/concept/c_TableRotation.md).
+-   Database views cannot be created on tables that participate in [table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md).
 -   Use only lowercase characters in the **Variable prefix**. Using uppercase characters may prevent you from viewing the database view in a list.
 
-To see an example of using left joins to create a view, see [Example left join in creating a database view](example-left-join-db-view.md).
+To see an example of using left joins to create a view, see [Example left join in creating a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/example-left-join-db-view.md).
 
 The **Where clause** supports these JavaScript conditional operators:
 
@@ -53,7 +54,7 @@ There is no support for LIKE or CONTAINS conditions in the **Where clause** clau
 
 1.  From the Database View form, select **New** on the View Tables related list.
 
-2.  [Configure the form](../../../administer/form-administration/concept/configure-form-layout.md#) and add the **Left join** field \(a check box\) to the form.
+2.  [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) and add the **Left join** field \(a check box\) to the form.
 
 3.  Select **Save**.
 

@@ -2,6 +2,7 @@
 title: See Spotlight score details
 description: To see the criteria whose weights contributed to a Spotlight score, view the details of the Spotlight record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/view-details-of-a-spotlight.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -23,7 +24,7 @@ Role required: pa\_spotlight or admin
 
 1.  Navigate to **All** &gt; **Spotlight** &gt; **Spotlight** or view the **Spotlights** related list in a Spotlight Group record.
 
-2.  Locate the Spotlight that interests you and click the information icon ![](../../common-ui-elements/image/PreviewIcon.png).
+2.  Locate the Spotlight that interests you and click the information icon \[Omitted image "PreviewIcon.png"\] Alt text:.
 
 3.  Click **Open Record**
 
@@ -36,7 +37,7 @@ The Spotlight record opens. In the Spotlight Audits related list, you can see wh
 
 Consider the Spotlight record for Incident INC0006831, which had a Spotlight score of 1,200 against a threshold of 1,000.
 
-![The Spotlights list showing the preview of the Spotlight for Incident INC0006831](../image/spotlight-record-entry.png "Spotlights list with selected record")
+\[Omitted image "spotlight-record-entry.png"\] Alt text: The Spotlights list showing the preview of the Spotlight for Incident INC0006831
 
 Opening the Spotlight record, you see that the following criteria weights contributed to the total score:
 
@@ -50,5 +51,5 @@ Opening the Spotlight record, you see that the following criteria weights contri
 |Incidents older than 90 days|25|
 |TOTAL SCORE:|1,200|
 
-**Parent Topic:**[Ranking records with Spotlight](../concept/spotlight.md)
+**Parent Topic:**[Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md)
 

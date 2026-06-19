@@ -2,6 +2,7 @@
 title: Enable Apache Kafka health monitoring
 description: Set configurations in the Apache HTTP server application to enable the Agent Client Collector to perform Apache Kafka HTTP server monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/enable-kafka-metrics.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -38,5 +39,5 @@ Set configurations in the Apache HTTP server application to enable the Agent Cli
     The default port is 8080.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](../concept/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

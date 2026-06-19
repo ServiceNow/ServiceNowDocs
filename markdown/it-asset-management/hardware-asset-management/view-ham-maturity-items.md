@@ -2,13 +2,14 @@
 title: View all maturity items for Hardware Asset Management
 description: View the maturity of your Hardware Asset Management \(HAM\) program to analyze the status of each maturity stage, where each stage shows the number of maturity items completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-ham-maturity-items.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Assess performance of Hardware Asset Management, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Assess performance of Hardware Asset Management, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # View all maturity items for Hardware Asset Management
@@ -29,7 +30,7 @@ The maturity of your HAM program is divided into three stages:
 -   Walk
 -   Run
 
-For more information, see [Maturity stages of your Hardware Asset Management program](../reference/maturity-stages-ham.md).
+For more information, see [Maturity stages of your Hardware Asset Management program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/maturity-stages-ham.md).
 
 **Note:** The maturity level can’t be modified for a required maturity item.
 
@@ -43,10 +44,10 @@ For more information, see [Maturity stages of your Hardware Asset Management pro
 
 3.  Select a maturity item to view its details.
 
-    For a description of the field values, see [Maturity item details](../reference/maturity-item-details.md).
+    For a description of the field values, see [Maturity item details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/maturity-item-details.md).
 
 4.  Select **Save**.
 
 
-**Parent Topic:**[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+**Parent Topic:**[Assess performance of Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/suc-goal-act-hw.md)
 

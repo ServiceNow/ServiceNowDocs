@@ -2,11 +2,12 @@
 title: Serverless Discovery
 description: Discovery can find applications on host machines without the need to discover the host first. This type of Discovery is referred to as serverless Discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/serverless-discovery.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, IT
 
 Discovery can find applications on host machines without the need to discover the host first. This type of Discovery is referred to as serverless Discovery.
 
-Serverless Discovery relies on infrastructure patterns to explore CIs on a host. This kind of Discovery skips the [scanning and classification phases of Discovery](disco-process-flow-patterns.md). There are two types of serverless Discovery: standard and host-based. Both types require an infrastructure pattern.
+Serverless Discovery relies on infrastructure patterns to explore CIs on a host. This kind of Discovery skips the [scanning and classification phases of Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-process-flow-patterns.md). There are two types of serverless Discovery: standard and host-based. Both types require an infrastructure pattern.
 
 ## Standard serverless Discovery
 
@@ -34,6 +35,6 @@ For this type of Discovery, you also need an infrastructure pattern, but you do 
 
 The infrastructure patterns that serverless Discovery uses are triggered from a Discovery schedule, rather than from a classifier. Serverless Discovery ignores classifiers. Use a serverless schedule type for both types of serverless Discovery. The serverless schedule allows you to specify:
 
--   Values for input parameters in the pattern if you are using standard serverless Discovery. See [Create a schedule for standard serverless Discovery](../task/create-pattern-for-serverless.md#) for instructions.
--   A host CI if you are using proxy-host based Discovery. See [Create a schedule for host-based serverless Discovery](../task/create-pattern-for-proxy-serverless.md#) for more information.
+-   Values for input parameters in the pattern if you are using standard serverless Discovery. See [Create a schedule for standard serverless Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-pattern-for-serverless.md) for instructions.
+-   A host CI if you are using proxy-host based Discovery. See [Create a schedule for host-based serverless Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-pattern-for-proxy-serverless.md) for more information.
 

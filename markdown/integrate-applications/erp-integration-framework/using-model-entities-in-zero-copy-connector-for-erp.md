@@ -2,6 +2,7 @@
 title: Using model entities in Zero Copy Connector for ERP
 description: Specify the entity that a model uses for read, update, or create operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/using-model-entities-in-zero-copy-connector-for-erp.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,9 +19,9 @@ Specify the entity that a model uses for read, update, or create operations.
 
 You must have the sn\_erp\_integration.erp\_admin role to create and edit models.
 
--   Read operations retrieve ERP data by reading a table or using a BAPI, RFC, or OData.
--   Update operations use a BAPI, RFC, OData, or IDoc to write updates to the ERP system.
--   Create operations use a BAPI, RFC, OData, or IDoc to create an instance of the business object in the SAP system.
+-   Read operations retrieve ERP data by reading a table or using a BAPI, RFC, OData, or REST.
+-   Update operations use a BAPI, RFC, OData, IDoc, or REST to write updates to the ERP system.
+-   Create operations use a BAPI, RFC, OData, IDoc, or REST to create an instance of the business object in the SAP system.
 
-**Parent Topic:**[Add an entity to a model](add-an-entity-to-model.md)
+**Parent Topic:**[Add an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

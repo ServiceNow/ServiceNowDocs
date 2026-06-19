@@ -2,6 +2,7 @@
 title: Topic NLU Intent tab
 description: You can edit and refine ServiceNow NLU models from within Assistant Designer. When a conversation topic is bound to an associated NLU model and intent, use the NLU Intent tab to review and edit utterances and associated entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/vad-topic-nlu-intent-tab.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -16,7 +17,7 @@ breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Vi
 
 You can edit and refine ServiceNow NLU models from within Assistant Designer. When a conversation topic is bound to an associated NLU model and intent, use the **NLU Intent** tab to review and edit utterances and associated entities.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 If your topic uses NLU discovery, the topic **NLU Intent** tab appears on the Assistant Designer interface. Test your topic to see the prediction results for topic discovery and the corresponding confidence scores for the results. Depending on the results, you can modify the associated utterances and entities in the NLU model for your topic intent.
 
@@ -46,7 +47,7 @@ Edit an utterance
 
 </td><td>
 
-Select the Edit icon ![](../images/edit-icon.png) next to the utterance.
+Select the Edit icon \[Omitted image "edit-icon.png"\] Alt text: next to the utterance.
 
 </td></tr><tr><td>
 
@@ -54,7 +55,7 @@ Duplicate an utterance
 
 </td><td>
 
-Select the Copy icon ![](../images/copy-utterance-icon.png) next to the utterance.
+Select the Copy icon \[Omitted image "copy-utterance-icon.png"\] Alt text: next to the utterance.
 
 </td></tr><tr><td>
 
@@ -62,7 +63,7 @@ Move an utterance to another intent
 
 </td><td>
 
-Select the Menu icon ![](../images/manage-bot-icon.png), and then select **Move this utterance to another intent**.
+Select the Menu icon \[Omitted image "manage-bot-icon.png"\] Alt text:, and then select **Move this utterance to another intent**.
 
 </td></tr><tr><td>
 
@@ -70,7 +71,7 @@ Delete an utterance
 
 </td><td>
 
-Select the Menu icon ![](../images/manage-bot-icon.png), and then select **Delete this utterance**.
+Select the Menu icon \[Omitted image "manage-bot-icon.png"\] Alt text:, and then select **Delete this utterance**.
 
 </td></tr><tr><td>
 
@@ -81,27 +82,27 @@ Define a new entity
 1.  Select a word in an utterance to use as an entity.
 2.  In the Create New Entity picker, select the type of entity to be created, such as a simple or system-derived entity.
 
-For information about the types of entities that you can define, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md). For information about system entities, see [NLU system entities](nlu-system-entities.md). When you add an entity, it is also displayed in the **Associated Entities** tab.
+For information about the types of entities that you can define, see NLU entities. For information about system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-system-entities.md). When you add an entity, it is also displayed in the **Associated Entities** tab.
 
 
 </td></tr></tbody>
-</table>![The Check IT Ticket Status topic displays 24 utterances. There are two associated entities. You can add more utterances, or train and test your model.](../images/NLU-intent-tab-utterances-2.png "Example utterances on the NLU Intent tab")
+</table>\[Omitted image "NLU-intent-tab-utterances-2.png"\] Alt text: The Check IT Ticket Status topic displays 24 utterances. There are two associated entities. You can add more utterances, or train and test your model.
 
-![Select a word or phrase in an utterance, then use the Create New Entity picker to add an entity related to it.](../images/NLU-intent-create-entities-2.png "Adding entities on the Utterances tab")
+\[Omitted image "NLU-intent-create-entities-2.png"\] Alt text: Select a word or phrase in an utterance, then use the Create New Entity picker to add an entity related to it.
 
 ## Associated Entities tab
 
 Use the **Associated Entities** tab to view the entities defined for the intent. Select the name to view the utterances that the entity is associated with.
 
-![The Associated Entities sub-tab lists the entities associated with the intent.](../images/associated-entities-tab.png "Entities defined for an intent named UpdatePhoneNumber")
+\[Omitted image "associated-entities-tab.png"\] Alt text: The Associated Entities sub-tab lists the entities associated with the intent.
 
-You can also associate system entities, such as date and time, with an intent. For more information about supported system entities, see [NLU system entities](nlu-system-entities.md).
+You can also associate system entities, such as date and time, with an intent. For more information about supported system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-system-entities.md).
 
 ## Conflicts tab
 
 Use the **Conflicts** tab to view conflicts among your intents. For example, if two different intents use the same utterance, this will appear as a conflict in both Assistant Designer and NLU Workbench. Identifying and resolving conflicts improves the effectiveness of NLU topic discovery.
 
-![The Conflicts tab shows problems that may interfere with topic discovery. In this example, two separate intents contain the same utterance.](../images/nlu-intent-tab-conflicts-2.png "Utterance conflict between two intents")
+\[Omitted image "nlu-intent-tab-conflicts-2.png"\] Alt text: The Conflicts tab shows problems that may interfere with topic discovery. In this example, two separate intents contain the same utterance.
 
-**Parent Topic:**[Assistant Designer interface reference](../concept/vad-reference.md)
+**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
 

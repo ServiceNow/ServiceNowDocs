@@ -2,6 +2,7 @@
 title: Onboard Jira to DevOps Change Velocity — Classic
 description: Connect your Jira Server or Jira Cloud instance to discover, configure, and import projects and work items such as stories, epics, and features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-jira-to-devops-change-velocity-classic.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -17,7 +18,7 @@ Connect your Jira Server or Jira Cloud instance to discover, configure, and impo
 
 ## Before you begin
 
-Complete the tasks in [Getting started with DevOps Change Velocity](../concept/setting-up-devops-change-velocity.md).
+Complete the tasks in [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md).
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -68,24 +69,16 @@ Jira Cloud
 **Note:** The Jira user that you use here must have the Jira Administrators permissions.
 
     2.  Enter the password or access token to access this instance.
-**OAuth 2.0**
+**OAuth 2.0 with 3LO**
 
-Pre-requisites:
-
-    -   
-    -   [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-serv-mgmt.md)
-    -   
-    -   Create credential record for Jira Cloud
-In the **Tool credential** field, select an existing OAuth 2.0 tool credential record.
-
-**Note:** Only records that are not in use and configured for Jira Cloud can be selected as an existing credential record.
+Select the OAuth credential record. For more information, see [Connect a Jira tool using OAuth 2.0 with 3LO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.md).
 
 </td></tr></tbody>
-</table>        For a list of all the permissions required on the credentials for connecting to Jira, see Jira permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>        For a list of all the permissions required on the credentials for connecting to Jira, see Jira permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
 
     3.  If your Jira instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-        For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
+        For more information about MID server, see MID Server selection
 
     4.  Select **Submit**.
 
@@ -130,5 +123,5 @@ In the **Tool credential** field, select an existing OAuth 2.0 tool credential r
     **Note:** If the project key for a project is updated in Jira, the updated object names will not reflect in DevOps Change Velocity. Only when the object is updated in Jira, the new name will reflect in DevOps Change Velocity.
 
 
-**Parent Topic:**[Jira integration with DevOps Change Velocity](../concept/jira-integration-dev-ops.md)
+**Parent Topic:**[Jira integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jira-integration-dev-ops.md)
 

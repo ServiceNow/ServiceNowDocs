@@ -2,6 +2,7 @@
 title: Provider properties for Amazon Connect
 description: View and update the provider properties available for Amazon Connect
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/provider-properties-ivr.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,11 +26,11 @@ Role required: admin
 
 2.  Select the provider **VA Amazon Connect Adapter Provider**.
 
-    ![Connections table.](../images/provider-prop-01.png)
+    \[Omitted image "provider-prop-01.png"\] Alt text: Connections table.
 
 3.  In the Provider Channels form, select the **Provider Properties** tab.
 
-    ![Provider properties tab.](../images/provider-prop-02.png)
+    \[Omitted image "provider-prop-02.png"\] Alt text: Provider properties tab.
 
 
 ## What to do next
@@ -119,5 +120,5 @@ support\_skill\_card
 Internal, do not change.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Conversational IVR with Amazon Connect](configure-va-ivr.md)
+</table>**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-ivr.md)
 

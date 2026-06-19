@@ -2,6 +2,7 @@
 title: Platform Analytics solutions
 description: Prepackaged solutions featuring Platform Analytics dashboards with data visualizations and Performance Analytics indicators \(KPIs\) are available for many ServiceNow products. Use these solutions to get started quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/content-packs-in-form-analytics-published.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -19,7 +20,7 @@ Prepackaged solutions featuring Platform Analytics dashboards with data visualiz
 
 ## Performance Analytics in your solutions
 
-Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics indicator data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 Platform Analytics Solutions provide all the configuration records required to analyze default applications. Customize these records for use in your production environment. For more information, see .
 
@@ -29,16 +30,16 @@ To enable a Platform Analytics solution, an entitlement to use Platform Analytic
 
 Platform Analytics Solutions that don’t contain any Performance Analytics components don't need a Performance Analytics entitlement.
 
--   **[Available Platform Analytics Solutions](../reference/r_AvailableContentPacks.md)**  
+-   **[Available Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/r_AvailableContentPacks.md)**  
 The following Platform Analytics Solutions are available for their corresponding ServiceNow Performance Analytics entitlements. The solutions are at no extra charge, but the underlying applications require appropriate licensing.
--   **[ServiceNow Store applications with Performance Analytics content](../reference/store-apps-pa-content.md)**  
+-   **[ServiceNow Store applications with Performance Analytics content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/store-apps-pa-content.md)**  
 The following applications on the ServiceNow® Store include Performance Analytics components, such as a dashboard showing widgets for indicators.
--   **[Install a dashboard](../task/install-content.md)**  
+-   **[Install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/install-content.md)**  
 Use the Solution Library to install a dashboard and all its associated visualizations such as widgets and reports, and to configure existing dashboards.
--   **[Configure Platform Analytics Solutions](../../performance-analytics/concept/configure-nowintel-solutions.md)**  
+-   **[Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-nowintel-solutions.md)**  
 Platform Analytics Solutions come configured with the expectation that you keep your ServiceNow AI Platform data in a standard set of tables and fields. If you are using different fields, configure the Solutions to point to the correct locations.
--   **[Collect data for Platform Analytics Solutions](../../performance-analytics/concept/collect-data-nowintel-solutions.md)**  
+-   **[Collect data for Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/collect-data-nowintel-solutions.md)**  
 After you install an Platform Analytics Solution and ensure that it points at the correct data structures in your instance, collect the data for the indicators and breakdowns.
 
-**Parent Topic:**[Reporting, dashboards, and Performance Analytics in the Core UI](../../reporting/concept/classic-vis-overview.md)
+**Parent Topic:**[Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/classic-vis-overview.md)
 

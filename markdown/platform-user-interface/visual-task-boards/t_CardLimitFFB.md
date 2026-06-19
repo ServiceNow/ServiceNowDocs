@@ -2,6 +2,7 @@
 title: Configure the card limit for Visual Task boards
 description: Freeform and data driven boards can display up to 1,000 cards by default. You can change the default card limit by adding a system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_CardLimitFFB.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -25,7 +26,7 @@ You can set card limit for both Freeform board and Flexible and Guided board in 
 
 ## Procedure
 
-1.  [Add a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) with the following field values:
+1.  Add a new system property with the following field values:
 
     |Field|Value|
     |-----|-----|
@@ -37,5 +38,5 @@ You can set card limit for both Freeform board and Flexible and Guided board in 
     **Note:** Performance degradation may occur if you set the **Value** to a number greater than 1,000, especially on tablet devices.
 
 
-**Parent Topic:**[Working with Visual Task Board cards](../reference/r_TaskCards.md)
+**Parent Topic:**[Working with Visual Task Board cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/r_TaskCards.md)
 

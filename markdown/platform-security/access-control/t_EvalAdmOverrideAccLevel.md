@@ -2,6 +2,7 @@
 title: Evaluate the admin override at the access level
 description: If you want to force ACL evaluation for admin overrides at the access level, you can add a system property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/t\_EvalAdmOverrideAccLevel.html
 release: australia
 product: Access Control
 classification: access-control

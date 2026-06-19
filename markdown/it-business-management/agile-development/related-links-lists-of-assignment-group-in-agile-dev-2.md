@@ -2,6 +2,7 @@
 title: Related links and lists of assignment group in Agile Development 2.0
 description: Use the related lists in the Group form for the actions that you need to perform for your assignment group in Agile Development 2.0, such as adding sprints and editing group members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/related-links-lists-of-assignment-group-in-agile-dev-2.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -18,7 +19,7 @@ Use the related lists in the Group form for the actions that you need to perform
 |Name|Description|
 |----|-----------|
 |Create Sprints|Create sprints for the team. New sprints are listed in the Sprints related list of the group.|
-|Sprint Planning|[Plan your sprint activities in Agile Development 2.0](../../sdlc-scrum/task/plan-sprint-activities.md).|
+|Sprint Planning|[Plan your sprint activities in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/plan-sprint-activities.md).|
 
 <table id="table_w25_h1v_cdc"><thead><tr><th>
 
@@ -45,5 +46,5 @@ Sprints
 Lists the sprints for the group. Click **New** to add a sprint to the group.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agile Development 2.0 reference](agile-development-2-reference.md)
+</table>**Parent Topic:**[Agile Development 2.0 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development-2-reference.md)
 

@@ -2,6 +2,7 @@
 title: Remove an app from App Engine Studio
 description: If you have the appropriate permissions, you can remove an application from App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/delete-application.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,7 +18,7 @@ If you have the appropriate permissions, you can remove an application from App 
 
 ## Before you begin
 
-Role required: admin, delete application, or delegated developer with permissions. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: admin, delete application, or delegated developer with permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ Delegated developers can delete applications based on their permissions. To requ
 
 2.  From the My Apps page, open your application.
 
-3.  In your application, select the Edit application properties icon \(![Edit application properties icon](../image/edit-application-properties-purple.png)\).
+3.  In your application, select the Edit application properties icon \(\[Omitted image "edit-application-properties-purple.png"\] Alt text: Edit application properties icon\).
 
 4.  Select **Delete application**.
 

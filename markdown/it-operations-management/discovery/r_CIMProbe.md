@@ -2,6 +2,7 @@
 title: CIM probe
 description: The CIM probe uses WBEM protocols to query a particular CIM server, the CIM Object Manager, for a set of data objects and properties. CimIQL syntax consists of several elements, including a query and different tokens.The CimIQL probe requires operation tokens.The CimIQL probe requires component tokens, which are sub-components of operational tokens.This is a tutorial by example where each example builds on the previous example.CIM Probe results are passed to the probe sensor as an XML document embedded within the &lt;output&gt; element.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_CIMProbe.html
 release: australia
 product: Discovery
 classification: discovery
@@ -15,7 +16,7 @@ breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Disco
 
 The CIM probe uses WBEM protocols to query a particular CIM server, the CIM Object Manager, for a set of data objects and properties.
 
-For instructions on configuring probe parameters, see [Set probe parameters](../task/t_SetProbeParameters.md).
+For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md).
 
 The following parameters may be passed to the CIM probe:
 
@@ -51,7 +52,7 @@ CimIQL currently supports the standard Web-Based Enterprise Management \(WBEM\) 
 
 **Note:** CimIQL is pronounced "simicle".
 
-**Parent Topic:**[List of Discovery probes](r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 
 ## CimIQL syntax
 
@@ -62,8 +63,8 @@ CimIQL syntax consists of several elements, including a query and different toke
 |Statement|The most basic element of CimIQL is a valid . A statement contains multiple queries delimited by a period . character.|
 |Query|A represents a single high-level protocol-independent request. Each query is comprised of nested language components and sub-components known as tokens.|
 |Token|A describes a specific lexical aspect of the CimIQL syntax.|
-|[Operation Token](r_CIMProbe.md#)|The first token of each query must be an , which represents the overall logical operation to be performed.|
-|[Component Token](r_CIMProbe.md#)|A is a sub-component of an operation token.|
+|[Operation Token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md)|The first token of each query must be an , which represents the overall logical operation to be performed.|
+|[Component Token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md)|A is a sub-component of an operation token.|
 |Result|Each query is paired with a result, which is then provided as input to the next query in the statement. A is comprised of a set of objects and their properties.|
 
 ## CimIQL operation tokens
@@ -90,7 +91,7 @@ class object
 
 </td><td>
 
-[Get Object](r_CIMProbe.md#GetObjectToken) Retrieves a single object of a specific class by specifying all of its unique keys \(as [key tokens](r_CIMProbe.md#KeyToken)\) and any optional [parameter tokens](r_CIMProbe.md#ParameterToken), separated by commas.
+[Get Object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) Retrieves a single object of a specific class by specifying all of its unique keys \(as [key tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md)\) and any optional [parameter tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md), separated by commas.
 
 </td><td>
 
@@ -102,7 +103,7 @@ class object
 
 </td><td>
 
-[Enumerate Objects](r_CIMProbe.md#EnumerateObjectsToken) Retrieves objects that match a set of [condition tokens](r_CIMProbe.md#ConditionToken) and [parameter tokens](r_CIMProbe.md#ParameterToken).
+[Enumerate Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) Retrieves objects that match a set of [condition tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) and [parameter tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md).
 
 </td><td>
 
@@ -114,7 +115,7 @@ class object
 
 </td><td>
 
-[Enumerate Associated Objects](r_CIMProbe.md#EnumerateAssociatedObjectsToken) Retrieves objects associated with each result from the preceding query.
+[Enumerate Associated Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) Retrieves objects associated with each result from the preceding query.
 
 </td><td>
 
@@ -126,7 +127,7 @@ statement results
 
 </td><td>
 
-[Substitution](r_CIMProbe.md#SubstitutionToken) A no-op token that feeds the results of a previous named statement as input into the next query of its own statement.
+[Substitution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) A no-op token that feeds the results of a previous named statement as input into the next query of its own statement.
 
 </td><td>
 
@@ -137,7 +138,7 @@ Reference the results of a named statement
 
 &lt;classname&gt;\{&lt;key token&gt;,&lt;parameter token&gt;,...\}
 
--   Retrieves a single object of a specific class by specifying all of its unique keys \(as key tokens [key tokens](r_CIMProbe.md#KeyToken)\) and any optional [parameter tokens](r_CIMProbe.md#ParameterToken), separated by commas. This token is also known as the .
+-   Retrieves a single object of a specific class by specifying all of its unique keys \(as key tokens [key tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md)\) and any optional [parameter tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md), separated by commas. This token is also known as the .
 -   The &lt;classname&gt; is the case-sensitive CIM class name of the desired object. By default, objects of the specified class and of any extended classes are retrieved.
 -   The key and parameter tokens are enclosed by a single pair of curly brackets \{ ... \}.
 -   This token must only be used as the first query in a statement.
@@ -153,10 +154,10 @@ Reference the results of a named statement
 
 &lt;classname&gt;\{\{&lt;condition token&gt;,&lt;parameter token&gt;,...\}\}&lt;array index token&gt; OR &lt;classname&gt;&lt;array index token&gt;
 
--   Retrieves objects that match a set of [condition tokens](r_CIMProbe.md#ConditionToken) and [parameter tokens](r_CIMProbe.md#ParameterToken). This token is also known as the .
+-   Retrieves objects that match a set of [condition tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) and [parameter tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md). This token is also known as the .
 -   The condition tokens and parameter tokens are enclosed by two pairs of curly brackets \{\{ ... \}\}. The curly brackets are optional if there are no conditions or parameters necessary.
 -   The &lt;classname&gt; is the case-sensitive CIM class name of the desired objects. By default, objects of the specified class and of any extended classes are retrieved.
--   The [index token](r_CIMProbe.md#IndexToken) is optional.
+-   The [index token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) is optional.
 -   This token must only be used as the first query in a statement.
 -   Returns: class object
 -   Example:
@@ -171,10 +172,10 @@ Reference the results of a named statement
 &lt;association classname&gt;\{\{&lt;property filter token&gt;,&lt;parameter token&gt;,...\}\}&lt;array index token&gt; OR &lt;association classname&gt;&lt;array index token&gt;
 
 -   Retrieves objects associated with each result from the preceding query.
--   The [condition tokens](r_CIMProbe.md#ConditionToken) and [parameter tokens](r_CIMProbe.md#ParameterToken) are enclosed by two pairs of curly brackets \{\{ ... \}\}. The curly brackets are optional if there are no properties filters or parameters necessary.
+-   The [condition tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) and [parameter tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) are enclosed by two pairs of curly brackets \{\{ ... \}\}. The curly brackets are optional if there are no properties filters or parameters necessary.
 -   The &lt;association classname&gt; is the name of the many-to-many or one-to-many class that associates two objects together. By default, objects of the specified class and of any extended classes are retrieved.
 -   The &lt;parameter token&gt;, ResultClass, may be specified to filter results based on the resulting object's classname.
--   The [index token](r_CIMProbe.md#IndexToken) is optional.
+-   The [index token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) is optional.
 -   This token must not be used as the first query in a statement.
 -   Returns: class object
 -   Example:
@@ -201,7 +202,7 @@ $\{&lt;statement name&gt;\}
 
 The CimIQL probe requires component tokens, which are sub-components of operational tokens.
 
-The following tokens are sub-components of [operation tokens](r_CIMProbe.md#).
+The following tokens are sub-components of [operation tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md).
 
 <table id="table_rk1_jzc_lp"><thead><tr><th>
 
@@ -367,7 +368,7 @@ CIM\_ComputerSystem\[0\].\*
 
 </td><td>
 
-Retrieves the [first result](r_CIMProbe.md#IndexToken) of all instances of CIM\_ComputerSystem and its descendants. Retrieves all [properties](r_CIMProbe.md#PropertiesToken).
+Retrieves the [first result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) of all instances of CIM\_ComputerSystem and its descendants. Retrieves all [properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md).
 
 </td></tr><tr><td>
 
@@ -379,7 +380,7 @@ CIM\_ComputerSystem.PrimaryOwnerContact
 
 </td><td>
 
-Retrieves all instances of CIM\_ComputerSystem and their descendants. Retrieves only one [property](r_CIMProbe.md#PropertiesToken), PrimaryOwnerContact.
+Retrieves all instances of CIM\_ComputerSystem and their descendants. Retrieves only one [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md), PrimaryOwnerContact.
 
 </td></tr><tr><td>
 
@@ -391,7 +392,7 @@ CIM\_ComputerSystem\{CreationClassName='Linux\_ComputerSystem',Name='runtime'\}.
 
 </td><td>
 
-Retrieves a single unique instance of CIM\_ComputerSystem and its descendants. All [key tokens](r_CIMProbe.md#KeyToken) must be specified within the \{ \} [identity token](r_CIMProbe.md#GetObjectToken).
+Retrieves a single unique instance of CIM\_ComputerSystem and its descendants. All [key tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) must be specified within the \{ \} [identity token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md).
 
 </td></tr><tr><td>
 
@@ -403,9 +404,9 @@ CIM\_ComputerSystem\{\{Name!='runtime'\}\}.\*
 
 </td><td>
 
-Retrieves all instances and descendants of CIM\_ComputerSystem that do not have a Name [property](r_CIMProbe.md#PropertiesToken) of 'runtime'.
+Retrieves all instances and descendants of CIM\_ComputerSystem that do not have a Name [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) of 'runtime'.
 
- The [filter token](r_CIMProbe.md#EnumerateObjectsToken) \{\{ \}\} filters out instances that do not contain all of the properties/keys specified.
+ The [filter token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) \{\{ \}\} filters out instances that do not contain all of the properties/keys specified.
 
 </td></tr><tr><td>
 
@@ -421,7 +422,7 @@ Retrieves all instances and descendants of CIM\_ComputerSystem that have a value
 
 **Note:** The regular expression does not require single quotations.
 
- The [filter token](r_CIMProbe.md#EnumerateObjectsToken) \{\{ \}\} filters out instances that do not contain all of the properties/keys specified.
+ The [filter token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) \{\{ \}\} filters out instances that do not contain all of the properties/keys specified.
 
 </td></tr><tr><td>
 
@@ -433,13 +434,13 @@ CIM\_ComputerSystem\{\{Name='runtime'\}\}\[2\].\*
 
 </td><td>
 
-Retrieves the [second result](r_CIMProbe.md#EnumerateAssociatedObjectsToken) of all instances of CIM\_ComputerSystem and its descendants [where](r_CIMProbe.md#EnumerateObjectsToken) the instances have a property Name of 'runtime'.
+Retrieves the [second result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) of all instances of CIM\_ComputerSystem and its descendants [where](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) the instances have a property Name of 'runtime'.
 
  The order of operations follows the query syntax.
 
-1.  [Query](r_CIMProbe.md#GetObjectToken) server for all CIM\_ComputerSystem and descendants.
-2.  [Filter](r_CIMProbe.md#EnumerateObjectsToken) results based on Name property.
-3.  [Retrieve the second](r_CIMProbe.md#EnumerateAssociatedObjectsToken) instance that passed the filter.
+1.  [Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) server for all CIM\_ComputerSystem and descendants.
+2.  [Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) results based on Name property.
+3.  [Retrieve the second](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) instance that passed the filter.
 
 </td></tr><tr><td>
 
@@ -451,9 +452,9 @@ CIM\_ComputerSystem.CIM\_RunningOS\[0\].Name
 
 </td><td>
 
-Retrieves the Name [property](r_CIMProbe.md#PropertiesToken) for the first CIM\_OperatingSystem instance of each CIM\_ComputerSystem instance.
+Retrieves the Name [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) for the first CIM\_OperatingSystem instance of each CIM\_ComputerSystem instance.
 
- The middle-token, CIM\_RunningOS, is the name of the [Associator class](r_CIMProbe.md#EnumerateAssociatedObjectsToken), not the end-result.
+ The middle-token, CIM\_RunningOS, is the name of the [Associator class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md), not the end-result.
 
 </td></tr><tr><td>
 
@@ -465,7 +466,7 @@ CIM\_ComputerSystem.CIM\_RunningOS\{\{Name=/CentOS/\}\}\[0\].Name
 
 </td><td>
 
-Retrieves the Name [property](r_CIMProbe.md#PropertiesToken) for the first CIM\_OperatingSystem instance of each CIM\_ComputerSystem instance, [where](r_CIMProbe.md#EnumerateObjectsToken) each CIM\_OperatingSystem instance has a Name property containing 'CentOS'.
+Retrieves the Name [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) for the first CIM\_OperatingSystem instance of each CIM\_ComputerSystem instance, [where](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_CIMProbe.md) each CIM\_OperatingSystem instance has a Name property containing 'CentOS'.
 
 </td></tr></tbody>
 </table>## CimIQL results

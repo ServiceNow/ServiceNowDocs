@@ -2,6 +2,7 @@
 title: Add Field Service crew members
 description: Add agents to a Field Service crew as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/add-crew-members.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

@@ -2,6 +2,7 @@
 title: Configure an alert action
 description: The alert actions are the follow-up actions that you can perform from the crisis map dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-alert-actions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

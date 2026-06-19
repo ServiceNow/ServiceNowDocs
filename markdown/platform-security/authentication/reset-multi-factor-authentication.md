@@ -2,6 +2,7 @@
 title: Reset Multi-factor Authentication \(MFA\) for users
 description: Administrators can reset MFA for users who deleted the app, lost access to the device, or have no alternative MFA associated with their device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/reset-multi-factor-authentication.html
 release: australia
 product: Authentication
 classification: authentication
@@ -35,7 +36,7 @@ The following procedure describes how a ServiceNow® administrator can reset the
 
 6.  Delete all the records for this user.
 
-7.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent User Factors**.
+7.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **User Recent Used Factors**.
 
 8.  Search for the same user.
 

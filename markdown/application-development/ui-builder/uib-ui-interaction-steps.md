@@ -2,6 +2,7 @@
 title: UI interaction toolbox steps
 description: Find details about UI interaction toolbox steps, organized by interaction type, with step descriptions and any available outgoing events. Steps are added to a UI interaction using the toolbox in the UI interaction editor. The available steps depend on the type you selected when you created the UI interaction, whether Generic, Form, or List.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/uib-ui-interaction-steps.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -329,5 +330,5 @@ The following steps are only available when the UI interaction type is set to Li
 |Set query|Updates the encoded query of the list.|None|
 |Sort|Sorts the list by a specified column, ascending or descending.|None|
 
-**Parent Topic:**[UI interactions](../concept/uib-ui-interactions.md)
+**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)
 

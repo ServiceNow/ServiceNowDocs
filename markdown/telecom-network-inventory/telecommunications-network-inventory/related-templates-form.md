@@ -2,6 +2,7 @@
 title: Related templates form
 description: The Related templates form enables you to understand all fields of the related templates tab for slots, equipment, and shelves.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/related-templates-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -37,7 +38,7 @@ Inventory model
 
 </td><td>
 
-List of all child product models based on the selected rack unit of the rack. The child product models are defined in the network model relationships for each inventory model of a rack unit. Select the search icon \(![Search icon.](../image/search.png)\) and select a model. To learn more, see [Create inventory models](../concept/creating-your-inventory-models.md).
+List of all child product models based on the selected rack unit of the rack. The child product models are defined in the network model relationships for each inventory model of a rack unit. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a model. To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
 
 **Note:** A list of all product models is displayed if the inventory model is not defined in the model relationship.
 
@@ -55,7 +56,7 @@ Inventory template
 
 </td><td>
 
-Template of the selected inventory model. Select the search icon \(![Search icon.](../image/search.png)\) and select a template.
+Template of the selected inventory model. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a template.
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ Default field values
 
 </td><td>
 
-Default template where the default CI attribute values can be defined. The values in the list depend on the selected inventory model. Select the search icon \(![Search icon.](../image/search.png)\) and select a type code. To learn more, see [Create a default template](../task/create-default-templates.md).
+Default template where the default CI attribute values can be defined. The values in the list depend on the selected inventory model. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a type code. To learn more, see [Create a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create-default-templates.md).
 
 **Note:** This field is applicable only for equipment.
 
@@ -100,5 +101,5 @@ Name pattern
 Name pattern of the shelf or slot or equipment
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

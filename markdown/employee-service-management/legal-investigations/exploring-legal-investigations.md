@@ -2,6 +2,7 @@
 title: Exploring Legal Investigations
 description: Legal Investigations enables the Legal department to accept complaints and conduct detailed legal investigations by conducting interviews, gathering evidence, and preparing final reports and recommended actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/exploring-legal-investigations.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -21,7 +22,7 @@ Legal Investigations enables the Legal department to accept complaints and condu
 -   Option for submitting anonymous or named complaints.
 -   Intake form to gather detailed information about the incident, complaint type, involved parties, and incident date.
 
-For interdepartmental transfer of complaints between Legal and HR departments, see [Better together solution: Legal Investigations and HR Service Delivery Employee Relations](lsd-investigations-hr-emp-relations.md).
+For interdepartmental transfer of complaints between Legal and HR departments, see [Better together solution: Legal Investigations and HR Service Delivery Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/lsd-investigations-hr-emp-relations.md).
 
 ## Legal Investigations - workflow
 

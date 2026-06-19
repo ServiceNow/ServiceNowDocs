@@ -2,11 +2,12 @@
 title: Create a similar tasks group in a crisis
 description: Identify and group similar or duplicate tasks related to a crisis event using the Similar tasks groups tab. Grouping similar tasks helps you to optimize event task management and minimize redundant work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-sim-tasks-grp-crisis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create a similar tasks group in a crisis
@@ -21,9 +22,9 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 You can create a similar tasks group and add tasks to it only in the **Draft** state of the event.
 
-For information on identifying and grouping duplicate event tasks, see [Creating similar tasks groups](../concept/identifying-running-dup-tasks-once.md).
+For information on identifying and grouping duplicate event tasks, see [Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identifying-running-dup-tasks-once.md).
 
-For information on the state changes for event tasks in similar tasks groups, see [State changes for event tasks in groups](../concept/transition-states-of-event-task.md).
+For information on the state changes for event tasks in similar tasks groups, see [State changes for event tasks in groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/transition-states-of-event-task.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ For information on the state changes for event tasks in similar tasks groups, se
 
     -   Choose similar event tasks in the **Event tasks** tab and select the **Create similar tasks group** UI action.
 
-        ![Event tasks tab.](../image/event-tasks-from-event-task-tab.png)
+        \[Omitted image "event-tasks-from-event-task-tab.png"\] Alt text: Event tasks tab.
 
         1.  In the Create similar tasks group, add a name for the group and select **Create**.
         2.  Verify that the group is created and shows up in the Similar tasks groups list.
@@ -41,7 +42,7 @@ For information on the state changes for event tasks in similar tasks groups, se
 
         1.  Select **New** in the **Similar tasks groups** tab and select **Save**.
 
-            ![Event tasks tab in the group.](../image/event-tasks-from-grp.png)
+            \[Omitted image "event-tasks-from-grp.png"\] Alt text: Event tasks tab in the group.
 
         2.  From the **Event tasks** tab in the group, select **Add**, choose applicable tasks from the tasks list, and select **Add**.
         Applicable event tasks are added to the Similar tasks group.
@@ -50,7 +51,7 @@ For information on the state changes for event tasks in similar tasks groups, se
 
     To add events tasks with dependencies to the Similar tasks group, a cyclic dependency validation check is performed by the system. An event task and its dependent event task cannot be added to the same similar task group. For example, if you add task 4 into an event task group and task 5 is dependent on task 4, then task 5 cannot be added into the same group as task 4 as shown in the example.
 
-    ![Cyclic check.](../image/event-task-cyclic-check.png)
+    \[Omitted image "event-task-cyclic-check.png"\] Alt text: Cyclic check.
 
     When an event starts, the system identifies the first executed event task as the original task. Other similar tasks are marked as duplicate tasks in the group.
 
@@ -67,5 +68,5 @@ For information on the state changes for event tasks in similar tasks groups, se
     The event task is deleted from the event.
 
 
-**Parent Topic:**[Structured workflows for crisis events](../concept/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

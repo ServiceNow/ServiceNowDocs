@@ -2,6 +2,7 @@
 title: Edit a process step filter
 description: Edit a process step filter if you want to make any changes to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/edit-transition-filter.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -27,20 +28,20 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 3.  Apply filters including a process step filter in between.
 
-    For information about how to apply filters, see [Create a process step filter manually](create-transition-manually.md).
+    For information about how to apply filters, see [Create a process step filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-transition-manually.md).
 
 4.  Open the **Applied Filters** list.
 
-    ![Applied filters list](../image/edit-transition-filter.png)
+    \[Omitted image "edit-transition-filter.png"\] Alt text: Applied filters list
 
-5.  Select the edit icon \(![Edit icon](../image/edit-icon.png)\) beside the process step filter.
+5.  Select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\) beside the process step filter.
 
-    The process step filter form is displayed. For information on the form, see [Create a process step filter manually](create-transition-manually.md).
+    The process step filter form is displayed. For information on the form, see [Create a process step filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-transition-manually.md).
 
 6.  Edit the filter as required.
 
     **Note:** You will be able to edit the transition filter only using the fields in the view on which the filter is applied.
 
 
-**Parent Topic:**[Applying a process step filter on an activity](node-to-node-conditions.md)
+**Parent Topic:**[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/node-to-node-conditions.md)
 

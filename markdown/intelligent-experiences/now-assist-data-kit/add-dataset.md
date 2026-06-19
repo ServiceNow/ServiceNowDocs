@@ -1,7 +1,8 @@
 ---
 title: Add a dataset
-description: Add the data from a table to a data catalog as a dataset through generative AI by using the Now Assist Data Kit application. Adding a dataset is required to create and publish a data collection.
+description: Import data from a ServiceNow table or a local file into Now Assist Data Kit as a dataset. Datasets are the foundation of data collections, which you publish for use in custom skill evaluation in Now Assist Skill Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/add-dataset.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -13,7 +14,7 @@ breadcrumb: [Using Now Assist Data Kit, Now Assist Data Kit, Enable AI experienc
 
 # Add a dataset
 
-Add the data from a table to a data catalog as a dataset through generative AI by using the Now Assist Data Kit application. Adding a dataset is required to create and publish a data collection.
+Import data from a ServiceNow table or a local file into Now Assist Data Kit as a dataset. Datasets are the foundation of data collections, which you publish for use in custom skill evaluation in Now Assist Skill Kit.
 
 ## Before you begin
 
@@ -23,21 +24,19 @@ Role required: sn\_data\_kit.admin
 
 1.  Navigate to **All** &gt; **Now Assist Data Kit** &gt; **Home**.
 
-2.  Navigate to Discover datasets and select **Get started**.
+2.  On the **Datasets** tab, select **Create dataset**.
 
-3.  On the **Datasets** tab, select **New**.
+3.  On the **Choose data** page, select how you want to import data.
 
-4.  Select where to curate data from.
+    -   **Import data from Instance table**
+    -   **Import data from my computer**
+4.  Select the table and columns.
 
-    -   I'll import data from Instance table
-    -   I'll import data from my computer
-5.  On the Choose data form, select the table and columns.
+    If a column does not appear as a possible selection, the field is not a supported data type. For example, Watch List fields are the glide\_list datatype, which is not supported, so Watch List is not a selectable field.
 
-    If a column does not appear as a possible selection, then the field is not a supported data type. For example, Watch List fields are the glide\_list datatype, which is not supported, so Watch List is not a selectable field.
+5.  Select **Add column via scripting** to include columns stored in other tables, such as comments or work notes.
 
-6.  Select **Add column via scripting** if you have columns, such as work notes or comments, that aren't stored in the table.
-
-    This is an example script for adding worknotes.
+    This is an example script for adding work notes.
 
     ```
     (function generate(current) {
@@ -61,36 +60,40 @@ Role required: sn\_data\_kit.admin
     })(current);
     ```
 
-7.  Select **Edit filter condition**.
+    **Note:** Additional columns are not included in the dataset preview.
 
-8.  Review the records and select **Continue**.
+6.  Select **Edit filter condition** to filter which records are included in the dataset.
 
-9.  On the form, fill in the fields.
+7.  Review the dataset preview and select **Continue**.
+
+8.  On the **Add dataset info** page, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Dataset name|Name of the dataset.|
-    |Dataset description|Description of the dataset.|
+    |Description|Description of the dataset.|
+    |Source type|The origin of the dataset data. This field is automatically populated based on your import selection.|
+    |Tags|Keywords to help identify and search for the dataset. Press Enter after each tag to add it.|
 
-10. Add tags to identify the dataset.
+9.  In the **Data governance** section, select the check boxes.
 
-11. Navigate to the Data governance section and select each check box.
-
-    ![Data governance options for Now Assist Data Kit](../image/nadk-data-governance.png)
+    \[Omitted image "nadk-data-governance.png"\] Alt text: Data governance options for Now Assist Data Kit
 
     -   I'm assuring to use data responsibly for AI Evaluation
     -   Scan for personally identifiable or information sensitive data before creating datasets. You can turn this off if you prefer.
 
-        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using [vault service](https://www.servicenow.com/docs/bundle/yokohama-platform-security/page/administer/general/concept/privacy-landing-page.html). After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
+        **Note:** If you opt in, your data is scanned for sensitive data like names or email addresses using vault service. After the scan, records will be highlighted and give you an option to anonymize them. You can also choose to scan the dataset after it is generated.
 
-12. Select **Generate dataset**.
+10. Select **Add data**.
 
     Fields of any data type are stored as strings when converted to a data asset.
 
-    The dataset is added to the data assets.
+    The dataset is added to the data catalog.
 
 
 ## What to do next
 
-After your dataset is added to the data catalog, you can choose to create a smaller dataset by creating a derived dataset or adding a ground truth to your existing data set. For more information, see [Create a derived dataset](create-derived-dataset.md) or [Add a ground truth to each dataset record](add-ground-truth.md).
+After your dataset is added, you can create a derived dataset or add a ground truth to your existing dataset. For more information, see [Create a derived dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/create-derived-dataset.md) or [Add a ground truth to each dataset record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-data-kit/add-ground-truth.md).
+
+**Important:** Datasets cannot be edited or deleted after creation. Before generating a dataset, verify your table selection, filter conditions, and column choices.
 

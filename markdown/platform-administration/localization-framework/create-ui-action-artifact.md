@@ -2,6 +2,7 @@
 title: Create a UI action for the custom artifact
 description: Create a UI action to request translations for the custom artifact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/create-ui-action-artifact.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -25,7 +26,7 @@ Role required: localization\_admin
 
     Find the table using its table name. For example, **\[sys\_cs\_topic\]** is the table name for Virtual Agent topics.
 
-2.  Click the hamburger icon \(![Hamburger icon](../../search-administration/image/hamburger-icon.png)\) at any of the columns and navigate to **Configure** **UI Actions**.
+2.  Click the hamburger icon \(\[Omitted image "hamburger-icon.png"\] Alt text: Hamburger icon\) at any of the columns and navigate to **Configure** **UI Actions**.
 
 3.  Click **New**.
 
@@ -130,10 +131,10 @@ List choice
 Option to enable the UI action in the choice list.
 
 </td></tr></tbody>
-</table>    **Note:** Configure the form to see all the fields. For more information, see [Create a UI action](../../list-administration/task/t_EditingAUIAction.md).
+</table>    **Note:** Configure the form to see all the fields. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_EditingAUIAction.md).
 
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Artifact configurations](../concept/framework-configuration.md)
+**Parent Topic:**[Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md)
 

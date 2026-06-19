@@ -2,6 +2,7 @@
 title: Create new interview phase form
 description: The Create New Interview phase form provides the field descriptions required to define interview phases for a job requisition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/add-interview-phase-form.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -108,5 +109,5 @@ Description
 A short description of the interview phase.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Interview Management reference](../concept/interview-management-reference.md)
+</table>**Parent Topic:**[Interview Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/interview-management-reference.md)
 

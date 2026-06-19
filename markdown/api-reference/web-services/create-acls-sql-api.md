@@ -2,6 +2,7 @@
 title: Create Access Control Lists \(ACLs\) for SQL API
 description: Configure table-level access control using the egress\_sql and read operations to grant Service Accounts query access to specific tables through the SQL API.
 locale: en-us
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/create-acls-sql-api.html
 release: australia
 product: Web Services
 classification: web-services
@@ -83,7 +84,7 @@ Requires role
 Enter the role assigned to your Service Account \(for example, **sn\_odbc\_rest\_access**, **sn\_jdbc\_rest\_access**\).Add the role **sn\_sql\_api\_privileged\_mode** to turn off row and field-level checks at the Service Account level.
 
 </td></tr></tbody>
-</table>    ![UI screen example showing configuration of access control definition with the required roles.](../image/sql-api-acl-conditions.png)
+</table>    \[Omitted image "sql-api-acl-conditions.png"\] Alt text: UI screen example showing configuration of access control definition with the required roles.
 
 4.  Select and hold \(or right-click\) the form header and select **Save**.
 
@@ -111,5 +112,5 @@ You have successfully configured table-level access control for the SQL API. The
 
 Remember that access is granted on a per-table basis. If you grant access to additional tables, or if you create additional Service Accounts with different roles, repeat this procedure to create the appropriate ACLs.
 
-**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](configure-sql-api-overview.md)
+**Parent Topic:**[Configure SQL API plugin on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configure-sql-api-overview.md)
 

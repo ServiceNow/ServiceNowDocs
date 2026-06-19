@@ -2,6 +2,7 @@
 title: Customize the Monitoring Technology Dashboard
 description: Customize the Monitoring Technology Dashboard widgets in the Data Visualizations library so your dashboard displays information exactly as you want to see it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/customize-dashboard-widgets.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -31,22 +32,22 @@ Role required: agent\_client\_collector\_admin
 
 4.  Select the widget that you want to change.
 
-5.  Select the \(![Context menu icon](../../event-management/image/context-menu-icon.png)\) icon, and select **Duplicate**.
+5.  Select the \(\[Omitted image "context-menu-icon.png"\] Alt text: Context menu icon\) icon, and select **Duplicate**.
 
 6.  In the **New name** field in the dialog box, enter a name for your duplicated widget, and select **Duplicate**.
 
 7.  In the widget's **Configuration** tab on the right, expand the relevant options and customize the information for the widget to display.
 
-    ![Monitoring Technology Dashboard Configuration tab](../image/configuration-tab-monitor-tech-dashboard.png "Configuration tab")
+    \[Omitted image "configuration-tab-monitor-tech-dashboard.png"\] Alt text: Monitoring Technology Dashboard Configuration tab
 
-    For details on working with data visualizations, see [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md) [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+    For details on working with data visualizations, see Data visualizations in the Analytics Center Data visualizations in the Analytics Center.
 
 8.  Select **Save and close**.
 
 
 ## Result
 
-Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see [Create a dashboard with the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md)\).
+Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see Create a dashboard with the In-line editor\).
 
-**Parent Topic:**[Understanding the Monitoring Technology Dashboard](../concept/monitor-tech-dashboard-concept.md)
+**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

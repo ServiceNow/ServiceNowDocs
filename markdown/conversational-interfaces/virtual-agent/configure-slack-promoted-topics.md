@@ -2,6 +2,7 @@
 title: Configure promoted topics for Conversational Integration with Slack
 description: Configure promoted topics to push out important, common topics for users' quick consumption during a conversation with the Slack bot. You can configure up to six different promoted topics to be displayed on the Slack channel greeting message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-slack-promoted-topics.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -26,7 +27,7 @@ Role required: admin or va\_admin
 
 2.  On the Virtual Agent settings page, navigate to the Custom greetings and setup and select **View All**.
 
-    The promoted topics that you have previously configured reside in the default chat experience. For more information, see [Configure a Virtual Agent chat experience](configure-default-chat-experience.md). If default chat experience is the only row that you have on your instance, then you observe that the promoted topics will be applied to chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Slack as instructed below.\)
+    The promoted topics that you have previously configured reside in the default chat experience. For more information, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-default-chat-experience.md). If default chat experience is the only row that you have on your instance, then you observe that the promoted topics will be applied to chat widget, Microsoft Teams, and Slack \(unless you configure something unique for Slack as instructed below.\)
 
     If you want to set up unique promoted topics for Slack that have to be different from the chat widget, follow the procedure below.
 
@@ -153,5 +154,5 @@ Start a conversation with the Slack bot and you should be able to see the promot
 
 In you have not configured the promoted topics for Slack, then the promoted topics from the default chat experience are displayed.
 
-**Parent Topic:**[Configure Virtual Agent settings for Slack](configure-va-slack-settings.md)
+**Parent Topic:**[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)
 

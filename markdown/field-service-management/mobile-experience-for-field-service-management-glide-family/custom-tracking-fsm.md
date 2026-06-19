@@ -2,6 +2,7 @@
 title: Action-based location tracking for Field Service Management example
 description: Make updates to action-based location tracking for more accurate tracking of an agent’s location. That way you can make scheduling adjustments on the fly if you see they’re location is farther away than anticipated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/custom-tracking-fsm.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -25,9 +26,9 @@ Role required: admin
 
 In the example below you’re adjusting the start travel action item to track the agent for a longer period and more accurately.
 
-Action based tracking will track a Field Service agent’s location when the agent clicks a work order task action button. The duration for tracking is configured by an administrator. Changing action based settings don’t impact status changes if you have manual tracking configured. Action based is customizable to all functions that change the state of a work order task out of the box. For more information on action based tracking, see [Configuring action-based location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-action-config.md).
+Action based tracking will track a Field Service agent’s location when the agent clicks a work order task action button. The duration for tracking is configured by an administrator. Changing action based settings don’t impact status changes if you have manual tracking configured. Action based is customizable to all functions that change the state of a work order task out of the box. For more information on action based tracking, see .
 
-Manual based tracking will track a Field Service agent for a certain period of time. For example continuously, or for a given set of hours, regardless of if a Field Service agent clicks a work order task action button. For more information on manual based tracking, see [Configuring manual location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-manual-config.md).
+Manual based tracking will track a Field Service agent for a certain period of time. For example continuously, or for a given set of hours, regardless of if a Field Service agent clicks a work order task action button. For more information on manual based tracking, see .
 
 The wm\_agent role is required for tracking. This must be applied to the agent in order for customer and geolocation tracking.
 
@@ -43,7 +44,7 @@ The wm\_agent role is required for tracking. This must be applied to the agent i
 
 4.  Open the **Location Tracking** tab.
 
-5.  Select the Preview this record icon ![Preview this record](../image/preview-record.png) on the Tracking Properties line.
+5.  Select the Preview this record icon \[Omitted image "preview-record.png"\] Alt text: Preview this record on the Tracking Properties line.
 
 6.  Select **Open Record**.
 

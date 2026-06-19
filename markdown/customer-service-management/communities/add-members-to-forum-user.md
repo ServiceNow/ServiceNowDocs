@@ -2,6 +2,7 @@
 title: Add members to a forum user
 description: Add members to a forum user. Members can be individual users or user groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/add-members-to-forum-user.html
 release: australia
 product: Communities
 classification: communities
@@ -69,5 +70,5 @@ User or user group to add to the forum user.If you selected **Membership Type** 
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Create a forum user](add-user.md)
+**Parent Topic:**[Create a forum user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/add-user.md)
 

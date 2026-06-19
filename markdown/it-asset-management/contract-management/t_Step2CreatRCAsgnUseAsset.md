@@ -2,6 +2,7 @@
 title: Create a rate card and assign a user or asset
 description: You can assign a user or asset when you create a rate card. You can only assign the user or asset that is assigned to the contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/t\_Step2CreatRCAsgnUseAsset.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -44,9 +45,9 @@ Role required: financial\_mgmt\_user, asset, or contract\_manager
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Generating expense lines based on assets or users](t_GenExpnsLinOnAssetsUsers.md)
+**Parent Topic:**[Generating expense lines based on assets or users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_GenExpnsLinOnAssetsUsers.md)
 
-**Previous topic:**[Add a user or asset to a contract](t_Step1AddAUserOrAssetToAContract.md)
+**Previous topic:**[Add a user or asset to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_Step1AddAUserOrAssetToAContract.md)
 
-**Next topic:**[Configure rate card expense generation](t_Step3ConfigRCExpenseGen.md)
+**Next topic:**[Configure rate card expense generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/t_Step3ConfigRCExpenseGen.md)
 

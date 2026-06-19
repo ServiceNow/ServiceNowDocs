@@ -2,6 +2,7 @@
 title: Modify the scheduled data import job
 description: As an administrator, review and modify the scheduled data import jobs used for importing badge access and Wi-Fi access data from an Excel file into the Contact Tracing application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/configure-badge-sched-import-job.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -26,7 +27,7 @@ The following scheduled jobs are installed with the Contact Tracing application:
 -   **Badge Access Register Scheduled Import**
 -   **Wi-Fi Access Register Scheduled Import**
 
-These jobs are set for manual execution to import the [badge access data](import-badge-register-data.md) or [Wi-Fi access data](import-wifi-data.md) from an Excel file. You can modify the settings based on when and how you want to import the data.
+These jobs are set for manual execution to import the [badge access data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/import-badge-register-data.md) or [Wi-Fi access data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/import-wifi-data.md) from an Excel file. You can modify the settings based on when and how you want to import the data.
 
 ## Procedure
 
@@ -36,15 +37,15 @@ These jobs are set for manual execution to import the [badge access data](import
 
 3.  Review and modify the settings as required.
 
-    For more information on configuring a scheduled data import, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
+    For more information on configuring a scheduled data import, see Schedule a data import.
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Setting up Contact Tracing](../concept/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 
 **Related topics**  
 
 
-[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md)
+[bundle-crint.t_ScheduleADataImport]
 

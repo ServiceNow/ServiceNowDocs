@@ -2,6 +2,7 @@
 title: Create an identity provider \(IdP\) for Engagement Messenger
 description: Create an IdP for your Engagement Messenger so that you can enable customer authentication. You can create an IdP for either the OpenID Connect \(OIDC\) or Security Assertion Markup Language \(SAML\) authentication type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/create-identity-providers-for-engagement-messenger.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -25,8 +26,8 @@ If you previously configured an IdP, you can ignore this task and reuse the exis
 
 **Note:** If you have configured multiple IdPs on your instance and want to select a specific IdP for your Engagement Messenger module, do the following:
 
--   [Enable Engagement Messenger on a website when third-party application cookies are blocked](../task/allowlist-em-third-party-website.md)
--   [Custom URL with Identity Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/custom-url-with-multiple-identity-providers.md)
+-   [Enable Engagement Messenger on a website when third-party application cookies are blocked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/allowlist-em-third-party-website.md)
+-   
 -   If you have multiple IdPs on your instance:
 
     -   In case of OIDC authentication type, the generated ID token should contain the client ID of a IdP record against which authentication is required.
@@ -42,8 +43,8 @@ If you previously configured an IdP, you can ignore this task and reuse the exis
 
 3.  Select either **OpenID Connect** or **SAML**.
 
-    -   If you select **OpenID Connect**, follow the procedure in [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-OIDC-configuration-SSO.md).
-    -   If you select **SAML**, follow the procedure from step 3 in [Create and update identity providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateUpdateIdentityProvider.md).
+    -   If you select **OpenID Connect**, follow the procedure in Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\).
+    -   If you select **SAML**, follow the procedure from step 3 in Create and update identity providers.
 
 ## What to do next
 
@@ -51,7 +52,7 @@ If you previously configured an IdP, you can ignore this task and reuse the exis
 
     You must verify that the customers of your website are also added in your OIDC or SAML authentication provider for the ServiceNow instance.
 
--   Enable cross-domain requests between Engagement Messenger and your website. For more information, see [Configure a CORS rule for Engagement Messenger](../task/create-cors-for-rest-api-ec.md).
+-   Enable cross-domain requests between Engagement Messenger and your website. For more information, see [Configure a CORS rule for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-cors-for-rest-api-ec.md).
 
 **Related topics**  
 

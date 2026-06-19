@@ -2,6 +2,7 @@
 title: Creating an action task for the operational vulnerability
 description: The Operational vulnerability analysts gather additional information or an evidence on the vulnerability by creating one or more action tasks. An action task can be of an assessment or investigation type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/creating-action-tasks.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,8 +18,8 @@ The Operational vulnerability analysts assign the assessment or investigation ac
 
 Task owners typically perform the following actions:
 
--   [Manage an assessment-type action task](../task/create-action-task-op-vul.md)
--   [Manage an investigation-type action task](../task/update-state-of-action-task.md)
+-   [Manage an assessment-type action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-action-task-op-vul.md)
+-   [Manage an investigation-type action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-state-of-action-task.md)
 
 ## Workflow states for an action task
 

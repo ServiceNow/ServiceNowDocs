@@ -2,6 +2,7 @@
 title: SOAP web service
 description: Simple Object Access Protocol \(SOAP\) is an XML-based protocol for accessing web services over HTTP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_SOAPWebService.html
 release: australia
 product: Web Services
 classification: web-services
@@ -21,9 +22,9 @@ You can use SOAP to access data on your instance. Available SOAP web services ar
 
 ServiceNow publishes its underlying table structures and associated data using the following web service methods:
 
--   [Direct web services](c_DirectWebServices.md): Use a URL query to request a table's WSDL.
--   [SOAP web service import sets](soap-web-service-import-sets.md): Use import tables and transform maps to automate web service requests for tables.
--   [Scripted SOAP web services](c_ScriptedWebServices.md): Use custom JavaScript to execute SOAP web services requests.
+-   [Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md): Use a URL query to request a table's WSDL.
+-   [SOAP web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/soap-web-service-import-sets.md): Use import tables and transform maps to automate web service requests for tables.
+-   [Scripted SOAP web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ScriptedWebServices.md): Use custom JavaScript to execute SOAP web services requests.
 
 **Note:** SOAP messages are sent with the assumption that the recipient is XML compliant. No encoding is applied to a SOAP message. SOAP always decodes responses as UTF-8, the XML encoding header is not used.
 
@@ -90,7 +91,7 @@ By default, a set of processor ACL rules require users to have the soap\_query r
 
 If you want to change these role requirements, you can deactivate the ACL rules.
 
-![Access controls table.](../image/WebServiceProcessorACLs.png "Web service processor ACLs")
+\[Omitted image "WebServiceProcessorACLs.png"\] Alt text: Access controls table.
 
 ## Basic authentication
 
@@ -111,9 +112,9 @@ The Enhanced Web Service Provider - Common plugin adds the SOAP Security Policie
 -   Enable or disable signing SOAP requests when consuming an external web service
 -   Specify the authentication requirements SOAP requests must meet when communicating over WS-Security.
 
-To know more about SOAP access policy, see [SOAP API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/soap-api-access-policies.md).
+To know more about SOAP access policy, see SOAP API access policies.
 
-![The SOAP Security Policies module is selected in the All menu.](../image/SOAPSecurityPolicies.png "SOAP security policies")
+\[Omitted image "SOAPSecurityPolicies.png"\] Alt text: The SOAP Security Policies module is selected in the All menu.
 
 ## Certificates required for signed SOAP requests
 
@@ -130,7 +131,7 @@ Administrators can specify the SOAP security policy an instance uses with the sy
 |-----|-----------|
 |Type|String|
 |Default value|Default Security Policy|
-|Location|[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table|
+|Location|Add a system property to the System Properties \[sys\_properties\] table|
 
 ## WS-Security
 
@@ -154,11 +155,11 @@ A WS-security profile determines how a web services message is authenticated whe
 |Certificate verification|Verifies the certificate associated with the request. Verifying the request's certificate requires uploading the requester's certificate and certificate authority.|
 |User credentials|Authenticates the web services request by verifying the user credentials associated with the request. This type of authentication can either verify that the request's credentials match an existing user's credentials or that the request's credentials match a user name and password provided in the profile record.|
 
-Specify the authentication mechanism you want to use when you [create a new WS-security profile](../task/t_CreateANewWS-SecurityProfile.md).
+Specify the authentication mechanism you want to use when you [create a new WS-security profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreateANewWS-SecurityProfile.md).
 
 The WS-Security Profiles module lists the WS-Security profiles that are currently in effect.
 
-![WS Security Profiles table is populated with X509 and Username record types.](../image/WS-SecurityProfilesModule.png "WS-Security Profiles module")
+\[Omitted image "WS-SecurityProfilesModule.png"\] Alt text: WS Security Profiles table is populated with X509 and Username record types.
 
 ## WS-Security error logging
 
@@ -170,7 +171,7 @@ The system property `glide.processor.debug.SOAPProcessor` enables \(true\) or di
 |-----|-----------|
 |Type|true \| false|
 |Default value|false|
-|Location|[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to the System Properties \[sys\_properties\] table|
+|Location|Add a system property to the System Properties \[sys\_properties\] table|
 
 ## WSS X.509 Token Profile
 
@@ -185,7 +186,7 @@ Use the [X.509 authentication framework](https://www.oasis-open.org/committees/d
 
 Upload the certificate and reference it in the **X509 Certificate** field. If a bound session, select the user to impersonate when the WS-Security authentication succeeds.
 
-![WS Security Profile form is populated with a user type, order, and certificate.](../image/WSSX509SecurityProfile.png "WSS X.509 Security Profile")
+\[Omitted image "WSSX509SecurityProfile.png"\] Alt text: WS Security Profile form is populated with a user type, order, and certificate.
 
 ## WSS UsernameToken Profile
 
@@ -197,13 +198,13 @@ There are two ways to authenticate a UsernameToken.
 
 1.  Authenticate with existing user credentials.
 
-    ![WS Security Profile form is populated with Username type and the profile action set to 'authenticate with user'.](../image/AuthenticateWithExistingServiceNowUserCredentials.png "Authenticate with existing user credentials")
+    \[Omitted image "AuthenticateWithExistingServiceNowUserCredentials.png"\] Alt text: WS Security Profile form is populated with Username type and the profile action set to 'authenticate with user'.
 
     Use the user name of the incoming SOAP request to look up a user by the specified **User** field to match the **UserName** value. The system uses the password value in the incoming UsernameToken to authenticate the request. When the **Bind session** option is selected, the user that authenticates successfully is used for the session.
 
 2.  Authenticate with specified user credentials.
 
-    ![WS Security Profile form is populated with the username type, user, and profile information.](../image/AuthenticateWithSpecifiedUserCredentials.png "Authenticate with specified user credentials")
+    \[Omitted image "AuthenticateWithSpecifiedUserCredentials.png"\] Alt text: WS Security Profile form is populated with the username type, user, and profile information.
 
     Authenticate using login credentials unrelated to users in the User table. When the **Bind session** option is selected, the user that is specified in the **Run as user** field is used for the session.
 
@@ -214,7 +215,7 @@ There are two ways to authenticate a UsernameToken.
 
 By default, basic authentication for web services only determines whether a user is authorized to access the instance with a SOAP connection. Once authorized, any user can access any table published as a web service.
 
-The system property **Enforce strict security on incoming SOAP requests** changes this behavior and requires that users meet [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/r_ContextualSecurity.md) requirements to access instance resources from web services.
+The system property **Enforce strict security on incoming SOAP requests** changes this behavior and requires that users meet Contextual Security Manager requirements to access instance resources from web services.
 
 With this property enabled, only users that have the proper SOAP role and also meet the ACL conditions the table and operation can perform that operation from a SOAP connection.
 
@@ -253,59 +254,59 @@ Duration, in seconds, that an active session remains open. After this duration i
 </td></tr></tbody>
 </table>**Note:** To learn more about properties that affect SOAP web services processing, see the following topics in Instance Security Hardening Settings:
 
--   [Access control \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
--   [Basic auth: SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.md)
+-   Access control \(instance security hardening\)
+-   Basic auth: SOAP requests
 
--   **[Scripted SOAP web services](c_ScriptedWebServices.md)**  
+-   **[Scripted SOAP web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ScriptedWebServices.md)**  
 Scripted SOAP web services allow a ServiceNow administrator to create custom SOAP web services.
--   **[Direct web services](c_DirectWebServices.md)**  
+-   **[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DirectWebServices.md)**  
 A direct web service is available for any table in the system if the correct access control list is configured.
--   **[SOAP web service import sets](soap-web-service-import-sets.md)**  
+-   **[SOAP web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/soap-web-service-import-sets.md)**  
 Web service import sets complement direct web services and scripted SOAP web services by providing a web service interface to import sets tables.
--   **[AttachmentCreator SOAP web service](../reference/r_AttachmentCreatorSOAPWebService.md)**  
+-   **[AttachmentCreator SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AttachmentCreatorSOAPWebService.md)**  
 Attach documents to records in ServiceNow by sending a SOAP message targeting the ecc\_queue table.
--   **[Override a SOAP endpoint](c_OverridingTheSOAPEndpoint.md)**  
+-   **[Override a SOAP endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OverridingTheSOAPEndpoint.md)**  
 The SOAP endpoint address where the SOAP message is posted is consistent with the endpoint of the WSDL.
--   **[Enable HTTP compression](c_EnablingHTTPCompression.md)**  
+-   **[Enable HTTP compression](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_EnablingHTTPCompression.md)**  
 By default, the SOAP request is accepted un-compressed and the result of the request is returned un-compressed.
--   **[Prevent empty elements in SOAP messages](c_PreventEmptyElementSOAPMsgs.md)**  
+-   **[Prevent empty elements in SOAP messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_PreventEmptyElementSOAPMsgs.md)**  
 By default, an instance does not omit empty elements, elements with NULL or NIL values, from SOAP messages.
--   **[Insert related records using SOAP](../task/t_InsertRelatedRecordsUsingSOAP.md)**  
+-   **[Insert related records using SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_InsertRelatedRecordsUsingSOAP.md)**  
 Support is available for inserting hierarchical data into tables or web service import set tables. The hierarchical data in the Insert API is automatically mapped to related records of the targeted table.
--   **[Specify requirement for signed SOAP requests](../task/t_SpecifyReqForSignedSOAPRequests.md)**  
+-   **[Specify requirement for signed SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyReqForSignedSOAPRequests.md)**  
 Use a SOAP security policy to specify whether the instance requires signed SOAP requests for all inbound SOAP traffic.
--   **[Activate the Enhanced Web Service Provider - Common plugin](../task/t_ActivateEnhancedWSPPlugin.md)**  
+-   **[Activate the Enhanced Web Service Provider - Common plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ActivateEnhancedWSPPlugin.md)**  
 Administrators can activate the Enhanced Web Service Provider - Common plugin to enable unsigned WS-Security requests and specify what authentication requirements SOAP requests have.
--   **[Configure SOAP security](../task/t_ConfigureSOAPSecurity.md)**  
+-   **[Configure SOAP security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfigureSOAPSecurity.md)**  
 Administrators can configure web service security for inbound SOAP requests made to the ServiceNow instance.
--   **[Set the SOAP default security policy](../task/t_SetTheSOAPDefaultSecurityPolicy.md)**  
+-   **[Set the SOAP default security policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SetTheSOAPDefaultSecurityPolicy.md)**  
 Set the SOAP default security policy.
--   **[Create a new security policy](../task/t_CreateANewSecurityPolicy.md)**  
+-   **[Create a new security policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreateANewSecurityPolicy.md)**  
 Administrators can specify which security profiles WS-Security communications must meet by creating a new security policy.
--   **[Create a new WS-Security profile](../task/t_CreateANewWS-SecurityProfile.md)**  
+-   **[Create a new WS-Security profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreateANewWS-SecurityProfile.md)**  
 Create a new WS Security profile to define how to authenticate a web services message when WS-Security is enabled.
--   **[Enforce strict security for inbound SOAP](../task/t_EnforceStrictSecurityWebSvcConns.md)**  
+-   **[Enforce strict security for inbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_EnforceStrictSecurityWebSvcConns.md)**  
 Strict security for web services requires that users meet Contextual Security requirements to access instance resources.
--   **[Enable WS-Security verification](../task/t_EnableWS-SecurityVerification.md)**  
+-   **[Enable WS-Security verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_EnableWS-SecurityVerification.md)**  
 Administrators can enable Web Services Security \(WSS\) verification from the Web Services system properties.
--   **[Debug incoming SOAP envelope](c_DebuggingIncomingSOAPEnvelope.md)**  
+-   **[Debug incoming SOAP envelope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_DebuggingIncomingSOAPEnvelope.md)**  
 To capture incoming SOAP envelope XML in the system log, add the property **glide.processor.debug.SOAPProcessor** with a value of **true**.
--   **[View a SOAP session log](../task/t_ViewingASOAPSessionReport.md)**  
+-   **[View a SOAP session log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ViewingASOAPSessionReport.md)**  
 You can view a user's log from a SOAP session.
--   **[Basic authentication code samples](../reference/r_BasicAuthenticationExamples.md)**  
+-   **[Basic authentication code samples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_BasicAuthenticationExamples.md)**  
 Samples of basic authentication code for several programming languages and versions.
--   **[Example: WS-Security SOAP envelope header](../reference/r_SmplWSSecSOAPEnvHeader.md)**  
+-   **[Example: WS-Security SOAP envelope header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_SmplWSSecSOAPEnvHeader.md)**  
 An example of a valid WS-Security SOAP envelope header.
--   **[WS-Security properties](../reference/ws-security-properties.md)**  
+-   **[WS-Security properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ws-security-properties.md)**  
 These properties control the behavior of WS-Security X.509 tokens.
--   **[WS-Security error messages](../reference/r_WS-SecurityErrorMessages.md)**  
+-   **[WS-Security error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_WS-SecurityErrorMessages.md)**  
 An instances produces one of the following error messages when it encounters an issue with a WS-security SOAP message.
--   **[WS-Security reference](../reference/ws-security-reference.md)**  
+-   **[WS-Security reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ws-security-reference.md)**  
 Support for WS-Security 1.1 in the form of WSS X.509 Token Profile and WSS Username Token Profile is available for incoming SOAP requests.
--   **[Long-running SOAP request properties](../reference/LongRunningSOAPRequestProps.md)**  
+-   **[Long-running SOAP request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/LongRunningSOAPRequestProps.md)**  
 The following properties are available for long-running SOAP requests.
--   **[Retrieve a large number of records using SOAP](../../examples/concept/c_RtvLrgNmbrRcrdSOAP.md)**  
+-   **[Retrieve a large number of records using SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_RtvLrgNmbrRcrdSOAP.md)**  
 By default, a single SOAP request can retrieve a maximum of 250 records.
 
-**Parent Topic:**[Inbound web services](../../web-services/concept/inbound-web-services.md)
+**Parent Topic:**[Inbound web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/inbound-web-services.md)
 

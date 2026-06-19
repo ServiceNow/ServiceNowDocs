@@ -2,6 +2,7 @@
 title: IP Filter
 description: Use IP filter criteria to filter the users based on the user's IP addresses. Both IPv4 and IPv6 are supported.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/ip-filter.html
 release: australia
 product: Authentication
 classification: authentication

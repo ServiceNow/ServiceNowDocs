@@ -2,7 +2,10 @@
 title: Configuring a contact as a consumer
 description: Associating a contact with the consumer in Customer Service Management \(CSM\) application enables you to function as both a B2B contact and a B2C consumer. Using this feature, you can easily switch between different customer portals without separate login credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-a-contact-as-a-unified-consumer.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,5 +22,5 @@ Earlier, Customer Service Management \(CSM\) required separate user records for 
 
 For example, in banking and financial services, a customer has a personal savings account \(B2C consumer\) and also owns a small business with a business account \(B2B contact\). With Contact as a Consumer, they can use one login to manage both accounts, switching between personal and business contexts as needed.
 
-![Flow explaining the model of contact as consumer](../image/Contact_flow.png)
+\[Omitted image "Contact\_flow.png"\] Alt text: Flow explaining the model of contact as consumer
 

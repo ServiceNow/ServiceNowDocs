@@ -2,6 +2,7 @@
 title: IPService - Global
 description: The IPService script include provides methods that encapsulate an IP Service.Creates an instance of the IPService class.The table where this service creates entries.Description of the IPService.Returns an array of IPService instances specified by a Java ArrayList of sys\_ids.The TCP or UDP port used by the service.The protocol used by the service \("UDP", "TCP", or "TCP/UDP"\).A short name or handle for the IPService.A long, descriptive English name for the IPService.The sys\_id of this record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_IPServiceAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The IPService script include provides methods that encapsulate an IP Service.
 
 Use this class during the discovery scanning phase.
 
-See also [AbstractDBObject - isValid\(\)](../../AbstractDBObject/concept/c_AbstractDBObject.md#).
+See also [AbstractDBObject - isValid\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_AbstractDBObject.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## IPService - IPService\(Object source\)
 

@@ -2,6 +2,7 @@
 title: Creating configurations
 description: Setting up the Cloud Account Management app is a prerequisite task before proceeding to create, suspend, or scan a service account. By configuring Cloud Account Management, you can ensure that the application is ready to effectively execute account management tasks and deliver the desired results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/cam-config.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

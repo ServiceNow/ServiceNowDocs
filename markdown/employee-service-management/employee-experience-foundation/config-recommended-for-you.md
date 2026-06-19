@@ -2,6 +2,7 @@
 title: Modify the Recommended for you widget display
 description: The Recommended for you widget displays catalog items and knowledge articles, enabling you to view information that is most relevant to you. You can configure the instance options to control the appearance of the widget, such as the title, number of items to display, and what category of items you want to view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-recommended-for-you.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: sp\_admin or admin
 
 2.  Press and hold the control key, right-click the Recommended for you widget, and then select **Instance Options**.
 
-    ![Recommended for you widget instance options.](../images/reco-for-you-inst-opts.png)
+    \[Omitted image "reco-for-you-inst-opts.png"\] Alt text: Recommended for you widget instance options.
 
 3.  Configure the instance options.
 

@@ -2,6 +2,7 @@
 title: Set up the Requests filter configuration
 description: Set up the request filter configuration to determine the filter options are available under the Requests tabs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-req-filter-config.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,10 +32,10 @@ Role required: sn\_hr\_sp.esc\_admin
 
 4.  On the New filter configuration form, fill in the fields, and select **Submit**.
 
-    For a description of the field values, see [Request filter configuration form](../reference/filter-config-form-req.md).
+    For a description of the field values, see [Request filter configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/filter-config-form-req.md).
 
 
 ## What to do next
 
-[Set up the Requests filter condition](setup-req-filter-con.md)
+[Set up the Requests filter condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-req-filter-con.md)
 

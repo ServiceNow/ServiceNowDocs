@@ -2,6 +2,7 @@
 title: Business App Mapping AI Agent confidence thresholds
 description: Use this reference to understand how the Business App Mapping AI Agent handles matches based on their AI confidence score, and what action is taken for each score range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/sm-ai-specialist-confidence-thresholds.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -22,5 +23,5 @@ Use this reference to understand how the Business App Mapping AI Agent handles m
 |0.1 – 0.29|Medium|The agent saves the candidate to the staging table \[sn\_sm\_gen\_ai\_ba\_candidate\_rel\] for administrator review. No relationship is created automatically. Administrators can accept a candidate to create the \[cmdb\_rel\_ci\] relationship, or dismiss it.|
 |Below 0.1|Low|The candidate is filtered out. The agent does not create a record or a relationship.|
 
-**Parent Topic:**[AI Agents for Service Mapping](../concept/service-mapping-ai-specialists.md)
+**Parent Topic:**[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
 

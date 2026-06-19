@@ -2,6 +2,7 @@
 title: Perform a basic activity configuration
 description: Configure activities to determine which records you want to retrieve from a table when certain conditions are met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-my-basic-activity.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: admin, sp\_admin, or ESC admin
 
 3.  On the form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Activity Configuration form](../reference/ec-activity-configuration-form.md).
+    For more information about the form fields and descriptions, see [Activity Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-activity-configuration-form.md).
 
 4.  Click **Save** or **Submit**.
 
@@ -36,7 +37,7 @@ Role required: admin, sp\_admin, or ESC admin
 
 If you click **Save**, the **Activity Configuration Details** tab appears. Provide details for a basic activity configuration.
 
-Provide details for a advanced activity configuration. For more information, see [Perform an advanced activity configuration](configure-my-activity.md).
+Provide details for a advanced activity configuration. For more information, see [Perform an advanced activity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-my-activity.md).
 
-If you click **Save**, the **Activity Configuration Details** and **Activity Access** tabs appear.Restrict access to an activity. For more information, see [Restrict access to an activity](grant-restrict-activity-access.md).
+If you click **Save**, the **Activity Configuration Details** and **Activity Access** tabs appear.Restrict access to an activity. For more information, see [Restrict access to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/grant-restrict-activity-access.md).
 

@@ -2,6 +2,7 @@
 title: Install Healthcare Operations Core
 description: You can install the Healthcare Operations Core application \[sn\_hco\] if you have the admin role. The application includes demo data for Healthcare Operations Core and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/activate-hco-core.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -29,7 +30,7 @@ The following items are installed with Healthcare and Life Sciences Service Mana
 -   ServiceNow Store applications
 -   Business rules
 
-For more information, see [Components installed with Healthcare Operations Core](../reference/hcls-cto-components_0.md).
+For more information, see [Components installed with Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-components_0.md).
 
 ## Procedure
 

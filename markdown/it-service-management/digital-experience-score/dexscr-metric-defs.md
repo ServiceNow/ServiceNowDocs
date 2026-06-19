@@ -2,6 +2,7 @@
 title: DEX Score metric definitions
 description: List of the base system DEX Score metric definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-metric-defs.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -56,7 +57,7 @@ Customer satisfaction scores for incident resolved
 
 </td><td>
 
-The score for customer satisfaction surveys sent to users for resolved incidents. Scores are calculated only for those surveys that have been successfully submitted by users.Normalized values for surveys are considered and surveys with normalized values greater than zero are assigned weights on a scale of 0–100. For more information, see [Normalized value for an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/example-normalized-value-calc.md).
+The score for customer satisfaction surveys sent to users for resolved incidents. Scores are calculated only for those surveys that have been successfully submitted by users.Normalized values for surveys are considered and surveys with normalized values greater than zero are assigned weights on a scale of 0–100. For more information, see .
 
 </td></tr><tr><td>
 
@@ -117,5 +118,5 @@ The total duration of outages or degradation \(in hours\) caused by incidents.It
 </td></tr></tbody>
 </table>The number of closed major incidents, resolved incidents, and total outages due to incidents are metrics that help evaluate service desk experience but don’t contribute to the experience score.
 
-**Parent Topic:**[Digital Experience Score​ reference](../concept/dexscr-dex-score-reference.md)
+**Parent Topic:**[Digital Experience Score​ reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 

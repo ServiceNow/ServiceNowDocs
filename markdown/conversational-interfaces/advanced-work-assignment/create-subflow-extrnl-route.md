@@ -2,11 +2,12 @@
 title: Create a subflow
 description: Create a subflow for the Workflow Studio for enabling external routing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/create-subflow-extrnl-route.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -25,9 +26,9 @@ Role required: admin
 
 2.  From the Actions list, select **Template - AWA Send Event**.
 
-3.  Select **Copy subflow** from the More Actions menu ![More actions menu.](../../../product/service-catalog-management/image/more-actions-ne-icon.png), copy the contents of the **Template - AWA Send Event** subflow and provide a name to it.
+3.  Select **Copy subflow** from the More Actions menu \[Omitted image "more-actions-ne-icon.png"\] Alt text: More actions menu., copy the contents of the **Template - AWA Send Event** subflow and provide a name to it.
 
-4.  Configure the action that you created in [Create a custom flow action](create-custom-action.md).
+4.  Configure the action that you created in [Create a custom flow action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/create-custom-action.md).
 
     1.  Select the Add an Action, Flow Logic, or Subflow.
 
@@ -47,7 +48,7 @@ Action
 
 </td><td>
 
-The custom action that you created.For more information, see [Create a custom flow action](create-custom-action.md).
+The custom action that you created.For more information, see [Create a custom flow action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/create-custom-action.md).
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Connection Alias \[Connection &amp; Credential Aliases
 
 </td><td>
 
-The HTTP\(s\) Connection that you created.For more information, see [Create a connection Alias for third-party provider](create-cnctn-alias.md).
+The HTTP\(s\) Connection that you created.For more information, see [Create a connection Alias for third-party provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/create-cnctn-alias.md).
 
 </td></tr><tr><td>
 

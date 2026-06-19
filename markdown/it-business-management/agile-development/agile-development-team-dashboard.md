@@ -2,6 +2,7 @@
 title: Agile 2.0 Team Dashboard
 description: Team Dashboard provides a visualization of the team's progress on stories over a given period. It provides team predictability charts and helps you plan the team's capacity for the upcoming sprints. In addition, it provides details of all the team members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-development-team-dashboard.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -17,13 +18,13 @@ Team Dashboard provides a visualization of the team's progress on stories over a
 
 Navigate to **All** &gt; **Agile Development** &gt; **Dashboards** and select **Agile 2.0 Team Dashboard**.
 
-![Team work item progress](../image/agile-team-wip-tab.png "Work item progress tab")
+\[Omitted image "agile-team-wip-tab.png"\] Alt text: Team work item progress
 
-![Sprint Variance tab](../image/agile-team-sprint-variance.png "Sprint Performance tab")
+\[Omitted image "agile-team-sprint-variance.png"\] Alt text: Sprint Variance tab
 
-![Agile team members](../image/agile-team-members.png "Team Members tab")
+\[Omitted image "agile-team-members.png"\] Alt text: Agile team members
 
-![Agile team Cycle Time](../image/team-cycle-time.png "Cycle Time tab")
+\[Omitted image "team-cycle-time.png"\] Alt text: Agile team Cycle Time
 
 ## End user and roles
 
@@ -83,7 +84,7 @@ The Team Dashboard reports are segregated into the following three tabs:
 -   Sprint Performance: Reports of Velocity History and Sprint Variance
 -   Team Members: List of all the members of the team
 
-    **Note:** For existing customers who upgrade to the latest version, the list of the team members appears in both the Work item progress and Team Members tabs but only one of these locations would display the accurate information. You can remove this widget from the Work item progress tab to avoid this issue. For more information on how to remove a widget, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md).
+    **Note:** For existing customers who upgrade to the latest version, the list of the team members appears in both the Work item progress and Team Members tabs but only one of these locations would display the accurate information. You can remove this widget from the Work item progress tab to avoid this issue. For more information on how to remove a widget, see Edit a responsive dashboard.
 
 
 If you are upgrading from version 1.0.2 or earlier of Performance Analytics Content Pack for Agile 2.0, then install this dashboard from Solution Library to upgrade its layout and access the following visualizations:
@@ -93,7 +94,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Sprint Variance
 -   Story Cycle Time
 
-For more information, see [Upgrading the layout of Agile 2.0 dashboards](../reference/using-solution-library-for-agile-2.0-dashboards.md).
+For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 <table id="table_xvt_hl4_2fb"><thead><tr><th>
 
@@ -113,7 +114,7 @@ Active Stories by State
 
 </td><td>
 
-Bar chart![](../../reporting/image/inline-data-vis-96px-bar-vertical.png)
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -125,7 +126,7 @@ Time in State
 
 </td><td>
 
-Stacked bar chart![](../../reporting/image/inline-data-vis-96px-bar-vertical.png)
+Stacked bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -137,7 +138,7 @@ Average Cycle Time per State
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -162,7 +163,7 @@ Velocity History
 
 </td><td>
 
-Bar chart![](../../reporting/image/inline-data-vis-96px-bar-vertical.png)
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -184,7 +185,7 @@ Velocity by Type
 
 Stacked bar chart
 
- ![](../../reporting/image/inline-data-vis-96px-bar-vertical.png)
+ \[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -199,7 +200,7 @@ Analyze the way your team's velocity changes over time and compare the team's st
 
  Data displayed in this report is of the past 10 sprints with the earliest sprint on the left.
 
- **Note:** This report is not available by default. You can add it from Scrum custom charts to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_EditADashboard.md).
+ **Note:** This report is not available by default. You can add it from Scrum custom charts to your dashboard. For more information, see Edit a responsive dashboard.
 
 </td></tr><tr><td>
 
@@ -207,7 +208,7 @@ Sprint Variance
 
 </td><td>
 
-Bar chart![](../../reporting/image/inline-data-vis-96px-bar-vertical.png)
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -237,7 +238,7 @@ Team Members
 
 </td><td>
 
-List![](../../reporting/image/inline-data-vis-96px-list.png)
+List\[Omitted image "inline-data-vis-96px-list.png"\] Alt text:
 
 </td><td>
 
@@ -262,7 +263,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart![](../../reporting/image/inline-data-vis-96px-bubble.png)
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
@@ -283,10 +284,10 @@ Identify the time taken for each story, which the team has worked on, to move fr
 
  If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
 
- ![Cycle Time Zoom](../image/cycle-time-zoom.gif)
+ \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
  **Note:** The stories shown in this chart are the ones that the team has completed in the past 30 days.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](pa-content-pack-for-agile-2.0.md)
+</table>**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

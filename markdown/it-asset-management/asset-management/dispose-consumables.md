@@ -2,13 +2,14 @@
 title: Dispose of consumable assets
 description: Dispose of those consumable assets that are no longer required in your stockrooms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/dispose-consumables.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Consumables life cycle, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Consumables life cycle, Use, Asset Management, IT Asset Management]
 ---
 
 # Dispose of consumable assets
@@ -50,5 +51,5 @@ Know that the Planned for disposal column in the Consumable \[alm\_consumable\] 
     The Planned for disposal column is set to false. If you added this consumable record to a disposal record, the planned asset record is deleted.
 
 
-**Parent Topic:**[Consumables life cycle](../../asset-management/concept/c_FollowLifeCycleConsumbl.md)
+**Parent Topic:**[Consumables life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_FollowLifeCycleConsumbl.md)
 

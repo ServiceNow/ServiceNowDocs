@@ -2,6 +2,7 @@
 title: Components installed with Critical Event Management
 description: Several types of components are installed with the Critical Event Management application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/components-installed-with-cem.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -33,7 +34,7 @@ Health and Safety Core
 
 Installs core data model for Health and Safety. This data model includes common components such as Health and Safety user profile and actions that are used in the Health and Safety applications.
 
- For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](../../hs-core/reference/components-installed-hs-core.md).
+ For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/components-installed-hs-core.md).
 
 </td></tr><tr><td>
 
@@ -252,5 +253,5 @@ Geo Map componentsn\_geo\_map
 Enables the map component on the Critical Event Management dashboard.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Critical Event Management reference](../concept/critical-event-management-reference.md)
+</table>**Parent Topic:**[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/critical-event-management-reference.md)
 

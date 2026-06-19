@@ -2,6 +2,7 @@
 title: CI Lifecycle Management API
 description: The CI Lifecycle Management API provides endpoints to manipulate configuration item \(CI\) operational states and apply CI actions.Removes a configuration item \(CI\) action for a list of CIs.Unregisters an operator for non-workflow users.Returns a list of active configuration item \(CI\) actions for the specified CI.Determines whether two specified configuration item \(CI\) actions are compatible.Determines whether the lease has expired for the requestor of a configuration item \(CI\) action applied to the specified CI.Determines whether a specified configuration item \(CI\) action is not allowed for a CI of a specified class when in a specified operational state.Determines whether a configuration item \(CI\) from a specified class can transition from a specified operational state to a second specified operational state.Determines whether the specified active workflow user or registered user is a valid requestor.Returns the current operational state for the specified configuration item \(CI\).Extends the specified configuration item \(CI\) action's lease expiration time for the specified user.Adds a specified configuration item \(CI\) action to a specified list of CIs.Registers an operator for a non-workflow user.Sets the operational state for a specified list of configuration items \(CIs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/ci-lifecycle-management-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,7 +18,7 @@ The CI Lifecycle Management API provides endpoints to manipulate configuration i
 
 The API interfaces adhere to restrictions and allowances specified by not allowed CI actions, compatible CI actions, and not allowed operational transitions. If an interface attempts a restricted operation, the operation is blocked, an error is logged, and a task is created if appropriate.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## CI Lifecycle Management - DELETE /now/cilifecyclemgmt/actions
 
@@ -29,7 +30,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/actions`
 
 Default URL: `/api/now/cilifecyclemgmt/actions`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -72,7 +73,7 @@ requestorId
 
 </td><td id="requestor-id-query-param-desc-entry">
 
-Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](ci-lifecycle-management-api.md#) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
+Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ci-lifecycle-management-api.md) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
 
  Data type: String
 
@@ -91,7 +92,7 @@ Required. Comma-separated list of CI sys\_ids.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -116,7 +117,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_od5_2wf_mmb"><thead><tr><th>
 
@@ -279,7 +280,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/operators/{req_id}`
 
 Default URL: `/api/now/cilifecyclemgmt/operators/{req_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -305,7 +306,7 @@ req\_id
 
 </td><td id="req-id-desc-entry">
 
-Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](ci-lifecycle-management-api.md#) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
+Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ci-lifecycle-management-api.md) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
 
  Data type: String
 
@@ -320,7 +321,7 @@ Sys\_id of a workflow context, or an operator user ID returned from the [CI Life
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -345,7 +346,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_hsj_2wf_mmb"><thead><tr><th>
 
@@ -508,7 +509,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/actions/{sys_id}`
 
 Default URL: `/api/now/cilifecyclemgmt/actions/{sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -547,7 +548,7 @@ Sys\_id of the CI for which to return associated CI actions.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -572,7 +573,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_lrs_cwf_mmb"><thead><tr><th>
 
@@ -744,7 +745,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/compatActions`
 
 Default URL: `/api/now/cilifecyclemgmt/compatActions`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -796,7 +797,7 @@ Required. Name of CI action to compare. Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -821,7 +822,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_vz1_cwf_mmb"><thead><tr><th>
 
@@ -911,7 +912,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/leases/{sys_id}/expired`
 
 Default URL: `/api/now/cilifecyclemgmt/leases/{sys_id}/expired`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -962,7 +963,7 @@ requestorId
 
 </td><td id="requestor-id-query-param-desc-entry">
 
-Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](ci-lifecycle-management-api.md#) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
+Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ci-lifecycle-management-api.md) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
 
  Data type: String
 
@@ -973,7 +974,7 @@ Required. Sys\_id of a workflow context, or an operator user ID returned from th
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -998,7 +999,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_hwr_bwf_mmb"><thead><tr><th>
 
@@ -1159,7 +1160,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/notAllowedAction`
 
 Default URL: `/api/now/cilifecyclemgmt/notAllowedAction`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1219,7 +1220,7 @@ Required. Operational state to check.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1244,7 +1245,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_qqg_bwf_mmb"><thead><tr><th>
 
@@ -1334,7 +1335,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/notAllowedOpsTransition`
 
 Default URL: `/api/now/cilifecyclemgmt/notAllowedOpsTransition`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1394,7 +1395,7 @@ Required. Label of operational state that is the target of the transition.Data t
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1419,7 +1420,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_clt_1wf_mmb"><thead><tr><th>
 
@@ -1509,7 +1510,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/requestors/{req_id}/valid
 
 Default URL: `/api/now/cilifecyclemgmt/requestors/{req_id}/valid`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1535,7 +1536,7 @@ req\_id
 
 </td><td id="req-id-desc-entry">
 
-Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](ci-lifecycle-management-api.md#) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
+Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ci-lifecycle-management-api.md) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
 
  Data type: String
 
@@ -1550,7 +1551,7 @@ Sys\_id of a workflow context, or an operator user ID returned from the [CI Life
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1575,7 +1576,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_mbj_1wf_mmb"><thead><tr><th>
 
@@ -1734,7 +1735,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/statuses/{sys_id}`
 
 Default URL: `/api/now/cilifecyclemgmt/statuses/{sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1773,7 +1774,7 @@ Sys\_id of the CI.Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1798,7 +1799,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_pdp_yvf_mmb"><thead><tr><th>
 
@@ -1954,7 +1955,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/leases/{sys_id}`
 
 Default URL: `/api/now/cilifecyclemgmt/leases/{sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2015,7 +2016,7 @@ requestorId
 
 </td><td id="requestor-id-query-param-desc-entry">
 
-Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](ci-lifecycle-management-api.md#) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
+Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ci-lifecycle-management-api.md) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
 
  Data type: String
 
@@ -2026,7 +2027,7 @@ Required. Sys\_id of a workflow context, or an operator user ID returned from th
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2059,7 +2060,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_rwq_xvf_mmb"><thead><tr><th>
 
@@ -2220,7 +2221,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/actions`
 
 Default URL: `/api/now/cilifecyclemgmt/actions`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2281,7 +2282,7 @@ requestorId
 
 </td><td id="requestor-id-query-param-desc-entry">
 
-Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](ci-lifecycle-management-api.md#) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
+Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ci-lifecycle-management-api.md) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
 
  Data type: String
 
@@ -2300,7 +2301,7 @@ Required. Comma-separated list of CI sys\_ids to which to add the CI action. Dat
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2333,7 +2334,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_wj1_xvf_mmb"><thead><tr><th>
 
@@ -2495,7 +2496,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/operators`
 
 Default URL: `/api/now/cilifecyclemgmt/operators`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2526,7 +2527,7 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only spe
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2559,7 +2560,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_oj2_wvf_mmb"><thead><tr><th>
 
@@ -2728,7 +2729,7 @@ Versioned URL: `/api/now/{api_version}/cilifecyclemgmt/statuses`
 
 Default URL: `/api/now/cilifecyclemgmt/statuses`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2779,7 +2780,7 @@ requestorId
 
 </td><td id="requestor-id-query-param-desc-entry">
 
-Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](ci-lifecycle-management-api.md#) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
+Required. Sys\_id of a workflow context, or an operator user ID returned from the [CI Lifecycle Management - POST /now/cilifecyclemgmt/operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ci-lifecycle-management-api.md) endpoint. Operator user IDs are located in the CI State Registered Users \[statemgmt\_register\_users\] table.
 
  Data type: String
 
@@ -2798,7 +2799,7 @@ Required. Comma-separated list of sys\_ids of CIs for which the operational stat
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2831,7 +2832,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 

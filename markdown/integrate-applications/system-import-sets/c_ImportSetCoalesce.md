@@ -2,6 +2,7 @@
 title: Updating records using coalesce
 description: The coalesce option allows you to update existing target table records when transforming import data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_ImportSetCoalesce.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -15,7 +16,7 @@ breadcrumb: [Import sets, Imports, Workflow Data Fabric]
 
 The coalesce option allows you to update existing target table records when transforming import data.
 
-The coalesce option on a field map allows you to specify if the selected **Target field** should be used to coalesce on when import set records are transformed. If the field map **Coalesce** checkbox is selected, when the import set row is transformed the instance checks for an existing record in the target table that has the same value in the **Target field** as the import set row **Source field**. For step-by-step instructions, see [Create a field map](../../../script/server-scripting/task/t_CreatingAFieldMap.md).
+The coalesce option on a field map allows you to specify if the selected **Target field** should be used to coalesce on when import set records are transformed. If the field map **Coalesce** checkbox is selected, when the import set row is transformed the instance checks for an existing record in the target table that has the same value in the **Target field** as the import set row **Source field**. For step-by-step instructions, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreatingAFieldMap.md).
 
 If an existing record with a matching value in the target table is found, that record is updated. If no matching record is found, then a new record is created in the target table.
 

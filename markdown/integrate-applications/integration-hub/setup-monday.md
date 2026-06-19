@@ -2,6 +2,7 @@
 title: Set up the monday.com spoke
 description: Integrate the ServiceNow instance and monday.com by creating a custom OAuth application in monday.com to authenticate ServiceNow requests.Create a monday OAuth2 application to authorize access to the monday.com API.Create a connection between your monday applications and your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-monday.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -135,7 +136,7 @@ Role required: admin
     |Connection URL|Base URL for the monday.com API. This field is automatically set to `https://api.monday.com/v2`.|
     |OAuth Client ID|Client ID that is assigned to your monday application.|
     |OAuth Client Secret|Client secret that is assigned to your monday application.|
-    |OAuth Redirect URL|URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the redirect URL that you specified in [Create a monday OAuth2 application](setup-monday.md#).|
+    |OAuth Redirect URL|URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the redirect URL that you specified in [Create a monday OAuth2 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-monday.md).|
 
 5.  Click **Create and Get OAuth Token**.
 

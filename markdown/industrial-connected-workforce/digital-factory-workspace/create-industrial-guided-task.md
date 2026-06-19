@@ -2,6 +2,7 @@
 title: Create an Industrial Guided Task from the Standards hub
 description: Create an Industrial Guided Task \(IGT\) from an IGT standard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-industrial-guided-task.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -31,7 +32,7 @@ Role required: sn\_icw\_igt.user or sn\_icw\_igt.expert
 
 4.  On the Guided Task form, fill in the fields.
 
-    For a description of the field values, see [Industrial Guided Task form](../reference/industrial-guided-task-form.md).
+    For a description of the field values, see [Industrial Guided Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-form.md).
 
 5.  Select **Save**.
 
@@ -44,5 +45,5 @@ The new industrial guided task is displayed in the following lists:
 -   List of industrial guided tasks
 -   The **Open tasks** tab for an Industrial Guided Task standard
 
-**Parent Topic:**[Using Industrial Guided Tasks](../concept/using-industrial-guided-tasks.md)
+**Parent Topic:**[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)
 

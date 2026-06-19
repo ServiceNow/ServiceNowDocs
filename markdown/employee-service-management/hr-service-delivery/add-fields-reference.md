@@ -2,6 +2,7 @@
 title: Set up field data on the job requisition request form
 description: Add an entry to the reference tables to provide the field values in the job requisition request form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/add-fields-reference.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,10 +20,10 @@ Add an entry in the respective tables for the following field values to be avail
 
 You must have the admin role to configure the fields.
 
--   Add the Job Profile field entry to the Job Profile \[sn\_skills\_int\_job\_profile\] table and the Job Level field entry to the Job Level \[sn\_skills\_int\_job\_level\] table. For more information, see [Components installed with Skills Foundation](../../skills-intelligence/reference/skills-intelligence-users-and-roles-1.md).
--   Add the Office Location field entry to the Office Location \[sn\_fin\_office\_location\] table. For more information, see [Add office locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-office-locations.md).
+-   Add the Job Profile field entry to the Job Profile \[sn\_skills\_int\_job\_profile\] table and the Job Level field entry to the Job Level \[sn\_skills\_int\_job\_level\] table. For more information, see [Components installed with Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+-   Add the Office Location field entry to the Office Location \[sn\_fin\_office\_location\] table. For more information, see .
 
 The Office Location field must have the Legal Entity field defined. For more information on adding a legal entity entry to the Legal Entity \[sn\_fin\_legal\_entity\] table, see .
 
-**Parent Topic:**[Configuring Hiring](configuring-hiring-tab.md)
+**Parent Topic:**[Configuring Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configuring-hiring-tab.md)
 

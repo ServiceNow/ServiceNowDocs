@@ -2,6 +2,7 @@
 title: Virtual Agent translation tables
 description: Virtual Agent uses the \[sys\_translated\_text\] and \[sys\_ui\_message\] tables to store translated text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-translation-tables.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -31,7 +32,7 @@ Translated Text \[sys\_translated\_text\]
 
 Stores translations for fields with the field type translated\_text or translated\_html \(see the dictionary entry\).The \[sys\_cs\_topic\] table contains the English keywords and topic titles. It pulls translations from the \[sys\_translated\_text\] table.
 
- For details about translating text content into different languages, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslatedText.md) and [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_UseTranslatedText.md).
+ For details about translating text content into different languages, see Translated text table and Translating text fields.
 
 </td></tr><tr><td>
 
@@ -39,7 +40,7 @@ Message \[sys\_ui\_message\]
 
 </td><td>
 
-Stores expert translations for messages in Virtual Agent topics.Pre-built topics have already been translated, but you must provide translations for any content you create for your instance. For more information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
+Stores expert translations for messages in Virtual Agent topics.Pre-built topics have already been translated, but you must provide translations for any content you create for your instance. For more information about the Message table, see Message table.
 
 </td></tr><tr><td>
 
@@ -47,8 +48,8 @@ Text Translations for Dynamic Translation \[sys\_cs\_dynamic\_translation\_text\
 
 </td><td>
 
-Stores copies of the translations found in the Message \[sys\_ui\_message\] table and previously dynamically translated messages.This view-only table is only available when the Dynamic Translation for Virtual Agent plugin is installed and the Dynamic Translation in Virtual Agent feature is enabled. This table is cleared every 24 hours to ensure that the most up-to-date translations stored in the Message \[sys\_ui\_message\] table are being referenced. For more information about how the Text Translations for Dynamic Translation \[sys\_cs\_dyamic\_translation\_text\] table works with Dynamic Translation in Virtual Agent, see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](../concept/dynamic-lang-detection-translation-enhanced-chat.md).
+Stores copies of the translations found in the Message \[sys\_ui\_message\] table and previously dynamically translated messages.This view-only table is only available when the Dynamic Translation for Virtual Agent plugin is installed and the Dynamic Translation in Virtual Agent feature is enabled. This table is cleared every 24 hours to ensure that the most up-to-date translations stored in the Message \[sys\_ui\_message\] table are being referenced. For more information about how the Text Translations for Dynamic Translation \[sys\_cs\_dyamic\_translation\_text\] table works with Dynamic Translation in Virtual Agent, see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/dynamic-lang-detection-translation-enhanced-chat.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Localizing Virtual Agent conversations](../concept/localize-va-topic.md)
+</table>**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

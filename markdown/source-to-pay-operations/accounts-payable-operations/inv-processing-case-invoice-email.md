@@ -2,6 +2,7 @@
 title: Copy and configure Invoice Processing Case for Invoice email flow
 description: Configure the invoice processing case invoice email flow to process invoices received through email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/inv-processing-case-invoice-email.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -34,7 +35,7 @@ Plugins required:
 
 2.  Search for **Invoice Processing Case for Invoice email** flow.
 
-3.  Select the ![more actions](../image/more-actions.png) icon &gt; **Copy flow**.
+3.  Select the \[Omitted image "more-actions.png"\] Alt text: more actions icon &gt; **Copy flow**.
 
     A copy of the **Invoice Processing Case for Invoice email** is created.
 
@@ -42,7 +43,7 @@ Plugins required:
 
 5.  Update the email conditions according to your business requirements.
 
-    ![Invoice processing case for invoice email](../image/inv-proceesing-email.png)
+    \[Omitted image "inv-proceesing-email.png"\] Alt text: Invoice processing case for invoice email
 
     **Note:** If you're upgrading Accounts Payable Operations from previous versions to version 12, then you must deactivate the existing **Invoice Processing Case for Invoice email** flow and make a fresh copy of the **Invoice Processing Case for Invoice email** flow to process invoices received through email.
 

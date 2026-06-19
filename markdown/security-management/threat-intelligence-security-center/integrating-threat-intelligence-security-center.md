@@ -2,6 +2,7 @@
 title: Integrate
 description: Use this section to understand the Threat Intelligence Security Center integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/integrating-threat-intelligence-security-center.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -50,10 +51,10 @@ View details about threat intelligence feeds and configure new feeds.The availab
 -   Custom - Configure custom feed types such as MISP, CrowdStrike
 
 </td></tr></tbody>
-</table>-   **[Threat Intelligence Security Center Catalog](threat-intelligence-security-center-catalogue.md)**  
+</table>-   **[Threat Intelligence Security Center Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-catalogue.md)**  
 The Threat Intelligence Security Center Catalog is a curated list of Threat Intelligence feeds and enrichment integrations available in the application. You can enable them after adding the required information and schedule the feed to automatically ingest Threat Intelligence data on a set frequency.
--   **[Threat Intelligence Feeds](threat-intelligence-feeds.md)**  
+-   **[Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md)**  
 Configure threat intelligence data sources to automatically import security indicators into your ServiceNow instance. Use feeds to keep threat data current and enhance security monitoring capabilities.
--   **[TISC Integrations](tisc-integrations.md)**  
+-   **[TISC Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-integrations.md)**  
 This section provides instructions for configuring and enabling the Threat Intelligence integrations.
 

@@ -2,6 +2,7 @@
 title: HR Service Delivery Integration with SuccessFactors
 description: The ServiceNow HR Service Delivery Integration with SuccessFactors application is built by Bristlecone, Inc.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-service-delivery-integration-success-factors.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,15 +20,15 @@ Using HR Service Delivery Integration with SuccessFactors you can enable employe
 
 <table id="table_rd1_bl3_2tb" class="nav-card"><tbody><tr><td>
 
-[Configure ![Plan and configure your integration.](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your integration.](configuring-hr-service-delivery-integration-with-success-factors.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your integration. Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configuring-hr-service-delivery-integration-with-success-factors.md)
 
 </td><td>
 
-[Use ![Work on integrating ServiceNow HR Service Delivery with SuccessFactors.](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Work on integrating ServiceNow HR Service Delivery with SuccessFactors.](using-hr-service-delivery-integration-with-success-factors.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Work on integrating ServiceNow HR Service Delivery with SuccessFactors. Work on integrating ServiceNow HR Service Delivery with SuccessFactors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
 
 </td><td>
 
-[Reference ![Get details about components like tables, user roles, and properties](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like tables, user roles, and properties.](hr-service-delivery-integration-with-success-factors-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like tables, user roles, and properties Get details about components like tables, user roles, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Off-board a Service Exchange provider
 description: Off-board a provider connection and delete all related records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-offboard-provider.html
 release: australia
 product: Service Exchange
 classification: service-exchange

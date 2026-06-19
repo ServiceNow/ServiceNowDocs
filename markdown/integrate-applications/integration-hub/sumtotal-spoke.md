@@ -2,6 +2,7 @@
 title: SumTotal Spoke
 description: Pull learning courses from SumTotal instance to ServiceNow instance to build an integrated learning content repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sumtotal-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -51,5 +52,5 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the SumTotal spoke](../task/setup-sumtotal.md#).
+For information about setting up the spoke, see [Set up the SumTotal spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sumtotal.md).
 

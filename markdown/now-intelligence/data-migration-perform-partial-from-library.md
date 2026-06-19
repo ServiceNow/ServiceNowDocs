@@ -2,6 +2,7 @@
 title: Perform a partial dashboard migration from the library
 description: Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics experience. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have a large number of dashboards and want to migrate in segments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-perform-partial-from-library.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -26,6 +27,8 @@ This task is only applicable on instances that are upgraded to releases Xanadu o
 
 **Note:**
 
+You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
+
 If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
 
 The migrated dashboard appears in the Platform Analytics library. The original Core UI dashboard is listed as Inactive in the library.
@@ -40,19 +43,19 @@ The migrated dashboard appears in the Platform Analytics library. The original C
 
 3.  Select **Switch to Next UI**.
 
-    ![Dashboard library with two Core UI dashboards that are ready to migrate selected and the Switch to Next UI button highlighted](../image/data-mig-selected-from-library.png)
+    \[Omitted image "data-mig-selected-from-library.png"\] Alt text: Dashboard library with two Core UI dashboards that are ready to migrate selected and the Switch to Next UI button highlighted
 
     A message confirming the number of dashboards you want to migrate appears. Select **Switch to Next UI** again to open the Migration Center.
 
 4.  In the Migration Center, you can compare the two versions of the selected dashboards, view the logs, and choose which to migrate to Next Experience.
 
-    For more information, see [Evaluate full data migration](data-migration-evaluate.md).
+    For more information, see [Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-evaluate.md).
 
 5.  Select **See All Content** to replace the list of selected dashboards with the list of all dashboards on the instance.
 
 6.  Select the dashboard's name in the Migration Center to edit it before you activate.
 
-7.  When you are satisfied, choose which dashboards to migrate and select **Activate selected**.![Migration center with two dashboards selected and the Activate selected button enabled.](../image/data-mig-activate-selected.png)
+7.  When you are satisfied, choose which dashboards to migrate and select **Activate selected**.\[Omitted image "data-mig-activate-selected.png"\] Alt text: Migration center with two dashboards selected and the Activate selected button enabled.
 
 
 ## Result
@@ -61,5 +64,5 @@ In the library, migrated dashboards are listed next to their Core UI counterpart
 
 ## What to do next
 
-Verify that the migrated dashboards have all the features of the Core UI dashboards, either as fully migrated content or as iframed content. For more information, see [Content not migrated or migrated in compatibility mode](../reference/data-mig-unmigrated-content.md).
+Verify that the migrated dashboards have all the features of the Core UI dashboards, either as fully migrated content or as iframed content. For more information, see [Content not migrated or migrated in compatibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-mig-unmigrated-content.md).
 

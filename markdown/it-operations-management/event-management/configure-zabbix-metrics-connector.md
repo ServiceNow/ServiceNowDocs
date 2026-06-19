@@ -2,11 +2,12 @@
 title: Configure the Zabbix metrics connector instance
 description: Configure the Zabbix Metric connector instance to receive Metric Intelligence raw data from the Zabbix server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-zabbix-metrics-connector.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -17,7 +18,7 @@ Configure the Zabbix Metric connector instance to receive Metric Intelligence ra
 
 ## Before you begin
 
-To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](configure-itoa-metric-extension.md).
+To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/configure-itoa-metric-extension.md).
 
 Create basic authentication credentials on ServiceNow instance with Zabbix server username and password.
 
@@ -36,7 +37,7 @@ ServiceNow does not support discovery for Zabbix, so CI entries must be manually
 
 2.  Select **New** and create a connector instance.
 
-    For details on the connector instance fields displayed on the page, see [Zabbix connector instance form](../reference/zabbix-connector-instance-form.md).
+    For details on the connector instance fields displayed on the page, see [Zabbix connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/zabbix-connector-instance-form.md).
 
 3.  Select and hold \(or right-click\) the form header and select **Save**.
 
@@ -44,7 +45,7 @@ ServiceNow does not support discovery for Zabbix, so CI entries must be manually
 
 4.  In the Connector Instance Values section, you can edit the values of the mandatory Zabbix parameters.
 
-    For details on the connector instance value parameters, see [Zabbix connector instance value parameters](../reference/zabbix-connector-instance-value-parameters.md).
+    For details on the connector instance value parameters, see [Zabbix connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/zabbix-connector-instance-value-parameters.md).
 
 5.  In the MID Servers for Connectors section, add a MID Server for the Zabbix connector to use.
 
@@ -55,5 +56,5 @@ ServiceNow does not support discovery for Zabbix, so CI entries must be manually
     **Note:** ServiceNow supports only unsigned float and unsigned integer metric types for Zabbix.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

@@ -2,6 +2,7 @@
 title: Approval rule types
 description: Approval rule types determine the methods by which approvals are created during the purchase requisition process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-types.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -110,5 +111,5 @@ Such requesters can also complete approval tasks, if configured, and provide app
 
 **Note:** In case of any issues related to approvals not getting created as expected, ensure that the flag on the rule is in the correct state and the rule conditions are met.
 
-**Parent Topic:**[Create an approval rule](../task/create-approval-rule.md)
+**Parent Topic:**[Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.md)
 

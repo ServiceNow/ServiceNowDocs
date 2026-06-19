@@ -2,6 +2,7 @@
 title: Execute an Industrial Guided Task with the Industrial Connected Workforce Mobile Experience
 description: Execute an Industrial Guided Task \(IGT\) with the Industrial Connected Workforce Mobile Experience to keep operations consistent, safe, and aligned with industry standards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/execute-igt-icw-mobile.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -39,7 +40,7 @@ Role required: sn\_icw\_igt.user
 
 6.  Follow the instructions, and after answering all questions, select **Submit**.
 
-    If a question requires scanning a bar code or QR code, it will be marked with the scan icon \(![Scan icon](../image/barcode-icon.png)\).
+    If a question requires scanning a bar code or QR code, it will be marked with the scan icon \(\[Omitted image "barcode-icon.png"\] Alt text: Scan icon\).
 
 7.  Navigate to the three-dot menu and then tap **Add attachment** to provide additional information while executing the task.
 
@@ -49,12 +50,12 @@ Role required: sn\_icw\_igt.user
 
     When you save while offline, the IGT progress is stored in the outbox on your device. Your changes are saved even if you close the app. When your device reconnects, the saved changes are automatically uploaded to the server.
 
-    For more information, see [Save an Industrial Guided Task while offline](save-igt-offline-icw-mobile.md).
+    For more information, see [Save an Industrial Guided Task while offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/save-igt-offline-icw-mobile.md).
 
 
 ## Result
 
 The task is completed successfully, and its status is changed to Closed Complete.
 
-**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](../concept/using-icw-mobile-experience.md)
+**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
 

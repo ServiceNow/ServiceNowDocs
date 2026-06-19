@@ -2,6 +2,7 @@
 title: Components installed with Career Assessment
 description: Several types of components are installed with the activation of Career Assessment, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/components-installed-career-asst.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

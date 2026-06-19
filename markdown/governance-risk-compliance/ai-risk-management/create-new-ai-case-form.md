@@ -2,13 +2,14 @@
 title: Create New AI case form
 description: Use the Create New AI case form in the AI Risk and Compliance workspace to report an AI case with the necessary details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/create-new-ai-case-form.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Create an AI case in the AI Risk and Compliance workspace, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [Create an AI case, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Create New AI case form
@@ -419,5 +420,5 @@ Additional comments \(Customer visible\)
 Additional information about the request that you want to share with your customers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an AI case in the AI Risk and Compliance workspace](../task/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)
+</table>**Parent Topic:**[Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)
 

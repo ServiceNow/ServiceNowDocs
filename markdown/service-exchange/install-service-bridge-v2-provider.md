@@ -2,6 +2,7 @@
 title: Install Service Exchange for Providers
 description: If you have an admin role, you can install the Service Exchange for Providers \(sn\_sb\_pro\) application. The application includes the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/install-service-bridge-v2-provider.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -32,7 +33,7 @@ The following plugins are automatically installed with the Service Exchange for 
 -   com.glide.hub.process.sync
 -   com.snc.ihub\_spoke\_util\_pack
 
-Apart from these, several components including roles, business rules, tables, and flows are also installed. For more information about the components that are installed with this application, see [Components installed with Service Exchange for Providers](../reference/service-bridge-v2-installed-components-provider.md).
+Apart from these, several components including roles, business rules, tables, and flows are also installed. For more information about the components that are installed with this application, see [Components installed with Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-installed-components-provider.md).
 
 ## Procedure
 
@@ -42,7 +43,7 @@ Apart from these, several components including roles, business rules, tables, an
 
     You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the application installation dialog, review the application dependencies.
 

@@ -2,6 +2,7 @@
 title: Get the Alexa skill ID
 description: Get the Alexa Skill ID from your Alexa developer console after configuring the skill. The Skill ID is the Alexa identifier for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/get-skill-id.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -38,5 +39,5 @@ Role required: admin
 3.  Click **Update**.
 
 
-**Parent Topic:**[Set up Conversational Integration with Alexa](setup-alexa.md)
+**Parent Topic:**[Set up Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-alexa.md)
 

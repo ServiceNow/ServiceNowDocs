@@ -1,19 +1,21 @@
 ---
 title: Run the fix script for Accounts Payable Operations
-description: Run the fix script for successful installation of Accounts Payable Operations.
+description: Run the fix script for the successful installation of Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/run-fix-script-for-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation]
 breadcrumb: [Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Run the fix script for Accounts Payable Operations
 
-Run the fix script for successful installation of Accounts Payable Operations.
+Run the fix script for the successful installation of Accounts Payable Operations.
 
 ## Before you begin
 
@@ -36,7 +38,7 @@ Role required: admin
 
 2.  Click **New**.
 
-    A new Fix script record opens.![Fix Script record.](../../../apo-fix-script.png)
+    A new Fix script record opens.\[Omitted image "apo-fix-script.png"\] Alt text: Fix Script record.
 
 3.  In the **Name** field, enter name as `Update PO Invoiced Amounts for APO`.
 

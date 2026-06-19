@@ -2,6 +2,7 @@
 title: Clone a stop word dictionary
 description: Create a copy of an existing stop word dictionary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/clone-stop-word-dictionary-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -38,5 +39,5 @@ Cloning a stop word dictionary copies the source dictionary's settings and all o
 
 The new stop word dictionary form opens. All stop word terms defined in the source dictionary appear in the AI Search Dictionary Terms related list.
 
-**Parent Topic:**[Stop words](../concept/stop-words-ais.md)
+**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
 

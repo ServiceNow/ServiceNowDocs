@@ -2,7 +2,10 @@
 title: Using the Service Desk Team Dashboard
 description: Service desk managers can use the Service Desk Team Dashboard to view key performance metrics, including incident and requested item backlog, and team MTTR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/using-now-assist-ai-native-itsm.html
 release: australia
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Key performance metrics include:
 
 You can filter performance data by assignment group and date range.
 
-![](../image/service-desk-dash-ai-native.png)
+\[Omitted image "service-desk-dash-ai-native.png"\] Alt text:
 
-**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](fulfiller-experience-ai-native-itsm.md)
+**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)
 

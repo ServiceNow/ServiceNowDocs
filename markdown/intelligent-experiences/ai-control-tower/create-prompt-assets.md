@@ -2,6 +2,7 @@
 title: Create prompt assets
 description: Create AI assets to track and manage the life cycles of your prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-prompt-assets.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -120,7 +121,7 @@ The prompt is added to your AI asset inventory. It automatically enters the onbo
 
 ## What to do next
 
-Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the prompt. For detailed instructions, see [Complete AI asset lifecycle](complete-ai-asset-lifecycle.md).
+Users who are assigned the AI steward \(sn\_ai\_governance.ai\_steward\) role can start the review process to begin tracking and managing the life cycle of the prompt. For detailed instructions, see [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md).
 
-**Parent Topic:**[Creating AI assets](../concept/creating-ai-assets.md)
+**Parent Topic:**[Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
 

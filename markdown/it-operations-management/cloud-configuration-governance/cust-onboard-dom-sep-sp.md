@@ -2,6 +2,7 @@
 title: On-board a Company
 description: Review the following considerations to on-board customers or companies in a domain separated instance, for Cloud Provisioning and Governance services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cust-onboard-dom-sep-sp.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -21,35 +22,35 @@ Domain separation for Cloud Provisioning and Governance is designed to give Serv
 
 ## Customer On-boarding by Service Providers
 
--   [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md).
+-   Create the MID Server user and grant the role.
 
     Domain Separation in Cloud Provisioning and Governance is achieved by installing and configuring one or more dedicated MID Servers for each company/ domain that you are managing in your instance. Specifying a MID Server for each domain/company, ensures that Config Items \(CIs\) are assigned to the intended domain. Each domain has one or more MID Servers setup for cloud discovery, provisioning, and other orchestration.
 
-    **Note:** Create a MID Server in the global domain so that you can explore targets in other domains. For more information, see [Set up domain separation for MID servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDomainSeparation.md)
+    **Note:** Create a MID Server in the global domain so that you can explore targets in other domains. For more information, see Set up domain separation for MID servers
 
     The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network. The MID Server enables communication and the movement of data between a ServiceNow® instance and external applications, data sources, and services.
 
     To communicate with the instance, MID Servers need a user ID and the appropriate role. Create the user ID for a MID Server and grant the ID the **mid\_server** role. To prevent MID Server validation failure, the system runs business rules to monitor the settings selected for MID Server users.
 
--   [Setting up the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+-   Setting up the MID Server.
 
     For more information on setting up the MID Server, see:
 
-    -   [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md)
-    -   [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
--   [Resource Blocks in Cloud Provisioning and Governance](../concept/resource-blocks.md)
+    -   Installing the MID Server
+    -   Configuring MID Servers
+-   [Resource Blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 
     Create Resource Blocks in global domain as there is a 1:1 relationship between CI and resource block. Do not create resource blocks in any of the child or leaf domains. Resource blocks act as a process record, so any template of a parent domain is visible and works in the child domain.
 
     Resource blocks act as a type of middleware component between catalog items, the Cloud API \(CAPI\), and the CMDB.
 
-    -   -   If the blocks in the base system do not provide the cloud resources that you need to provision, you can [create a custom resource block](../task/create-resource-block.md).
--   In the Cloud Provisioning and Governance application, script execution is divided into cloud scripts and cloud script templates. Use scripts in catalog items, resource blocks, OS profiles, and use policy scripts to set request form attributes. Policy scripts cannot override user data. For more information, see [Cloud scripts and cloud script templates](../concept/cloud-scripts-and-templates.md).
--   [Map a script to an OS profile](../task/map-script-to-os-profile.md)
+    -   -   If the blocks in the base system do not provide the cloud resources that you need to provision, you can [create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md).
+-   In the Cloud Provisioning and Governance application, script execution is divided into cloud scripts and cloud script templates. Use scripts in catalog items, resource blocks, OS profiles, and use policy scripts to set request form attributes. Policy scripts cannot override user data. For more information, see [Cloud scripts and cloud script templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-scripts-and-templates.md).
+-   [Map a script to an OS profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/map-script-to-os-profile.md)
 
     To execute scripted actions during VM provisioning, you can map a script to an OS profile. The script runs on VMs that are created based on the image template in the OS profile.
 
-    -   [Define Resource Profile](../concept/cloud-resource-profiles.md)
+    -   [Define Resource Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
 
         Create resource profile definitions in the global domain, and create mappings to these definitions in the child \(leaf\) domains. Do not delete resource profiles without checking with all impacted companies. You can create domain-specific resource pools and pools filters for all supported cloud providers. As a Domain admin you can see global, domain and custom resource pools specific to sub-domains. A resource pool is a query or script that filters a table. You configure a resource pool to limit the values that are available to users when they request a catalog item. For domain separated resource pools only records of the relevant domain are returned.
 
@@ -59,12 +60,12 @@ Domain separation for Cloud Provisioning and Governance is designed to give Serv
 
     |Type|Description|
     |----|-----------|
-    |[Quotas](../concept/quotas.md)|Quotas are limitations or requirements for groups and users on CIs or cloud resources. Use quotas to prevent wasteful resource usage in your cloud environment.|
-    |[Policies](../concept/cloud-policy.md)|A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.|
-    |[Pools](../concept/pools.md)|A resource pool is a query or script that filters a table. You configure a resource pool to limit the values that are available to users when they request a catalog item.|
-    |[Permissions](../concept/cloud-permissions.md)|Permissions are user group-level access rights to features in the Cloud Provisioning and Governance application and to specific records in the instance, such as blueprints or cloud accounts.|
+    |[Quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/quotas.md)|Quotas are limitations or requirements for groups and users on CIs or cloud resources. Use quotas to prevent wasteful resource usage in your cloud environment.|
+    |[Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)|A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.|
+    |[Pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/pools.md)|A resource pool is a query or script that filters a table. You configure a resource pool to limit the values that are available to users when they request a catalog item.|
+    |[Permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-permissions.md)|Permissions are user group-level access rights to features in the Cloud Provisioning and Governance application and to specific records in the instance, such as blueprints or cloud accounts.|
 
-    Permissions are user group-level access rights to features in the Cloud Provisioning and Governance application and to specific records in the instance, such as catalog items or cloud accounts. You could also set up basic governance policies, quotas, pools, and allow the cloud admin user to further customize them based on their needs. Create a user-group representing the domain users and associate permission to this user group, to set up permissions at a domain level. For more information on managing permissions for Cloud Provisioning and Governance roles, see [Manage Cloud Permissions](../concept/cloud-permissions.md).
+    Permissions are user group-level access rights to features in the Cloud Provisioning and Governance application and to specific records in the instance, such as catalog items or cloud accounts. You could also set up basic governance policies, quotas, pools, and allow the cloud admin user to further customize them based on their needs. Create a user-group representing the domain users and associate permission to this user group, to set up permissions at a domain level. For more information on managing permissions for Cloud Provisioning and Governance roles, see [Manage Cloud Permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-permissions.md).
 
 -   Configure and manage policies and manage lease for provisioned stack. A policy rule is a collection of conditions and actions. ​If all conditions evaluate to true, the policy engine performs the actions. If any condition evaluates to false, the policy engine does not perform the actions.
 
@@ -72,11 +73,11 @@ Domain separation for Cloud Provisioning and Governance is designed to give Serv
 
     For more information, see:
 
-    -   [Policy governance in Cloud Provisioning and Governance](../concept/cloud-policy.md)
-    -   [Configure a cloud policy rule](../task/configure-cloud-policy-rule.md)
-    -   [Create an action for an 'on Lease end' policy](../task/create-action-on-lease-end.md)
-    -   [Cloud policy example](../task/policy-walkthrough.md)
--   [Create a cloud catalog item](../task/create-cloud-catalog-item.md)
+    -   [Policy governance in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)
+    -   [Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.md)
+    -   [Create an action for an 'on Lease end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-action-on-lease-end.md)
+    -   [Cloud policy example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/policy-walkthrough.md)
+-   [Create a cloud catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-catalog-item.md)
 
     Create a cloud catalog item for provisioning, based on a template and publish the catalog item to provide a service.
 
@@ -84,29 +85,29 @@ Domain separation for Cloud Provisioning and Governance is designed to give Serv
 
     Deployment, post-provisioning, and Day-2 operations are domain separated. For example, if a cloud portal user from a specific company orders a VM, the stack, the request, virtual machine, and all components in the stack are stored in its respective domain. Subsequent operations for a domain are also handled in same manner. You can generate a catalog item based on Terraform configuration management template, or use Azure Resource Manager and AWS CloudFormation templates.
 
--   [Create Cloud Templates](../task/create-cloud-template.md)
+-   [Create Cloud Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-template.md)
 
     Do not add sensitive and private information such as CIDR values, IP addresses, credentials, etc, to the template content, if setting up the catalog item as a global catalog item. The sensitive information could be exposed to other cloud admins.
 
     Create a cloud template and associate the template with a catalog item. Once you've created a template, you can reuse the template to create additional catalog items for the services you want to provision.
 
--   [Set capacity limits on user requests for resources](../../cloud-management-v2-setup/task/set-capacity-limits-cloud-mgt.md)
+-   [Set capacity limits on user requests for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/set-capacity-limits-cloud-mgt.md)
 
     Capacity limits place restrictions on the attributes of cloud resources such as the number of virtual machines, virtual CPUs, or aggregate storage. You can set limits on resources separately for each logical datacenter in a cloud account.
 
--   [Create a cloud quota definition](../task/create-cloud-quota.md)
+-   [Create a cloud quota definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-quota.md)
 
     You can set up separate quota definitions for each domain you're managing in an instance.
 
     You apply quotas to a resource, such as a virtual server, datacenter, or a generic cloud resource, and to users of a particular group. You can set a per-user limit, and a total limit for the group for the resource. A cloud quota definition specifies the limitations on a resource block. You can use templates or manually create different types of configurations for each quota definition.
 
--   [Using the IPAM integration](../concept/IPAM-integration.md)
+-   [Using the IPAM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/IPAM-integration.md)
 
     IP address management \(IPAM\) in Cloud Provisioning and Governance supports domain separation.
 
     If you use an IP address management \(IPAM\) tool such as Infoblox, you can manage cloud IP addresses, networks, and subnets in your cloud catalog offerings.
 
--   [Business hours scheduling](../../cloud-management-v2-user/concept/business-hours-scheduling.md)
+-   [Business hours scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/business-hours-scheduling.md)
 
     Set up business hour scheduling on all virtual machines in a stack. Business hour scheduling can be set up on stacks at the time of provisioning or on existing stacks. Schedules can be set for when a stack should be started, stopped, and/or deprovisioned by defining parameters such as business hours, holidays, long weekends.
 
@@ -114,12 +115,12 @@ Domain separation for Cloud Provisioning and Governance is designed to give Serv
 
     **Note:** Global Business schedules apply to all domains. You cannot set up domain-specific schedules if an active global schedule exists.
 
--   [Create a schedule profile](../task/create-schedule-profile.md)
+-   [Create a schedule profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-schedule-profile.md)
 
     To set up domain-specific lease schedules ensure that no global lease schedules exist. You can only create a domain-specific lease or schedule when no active global policies exist. While you can have multiple leases or schedules in draft state, only one lease or schedule can be active.
 
 
 ## Next Steps
 
-For more information on provisioning cloud resources, and making Cloud Provisioning and Governance life-cycle operations available for each domain that you are managing in your instance for, see [Domain admin considerations](domain-admin-workflow.md).
+For more information on provisioning cloud resources, and making Cloud Provisioning and Governance life-cycle operations available for each domain that you are managing in your instance for, see [Domain admin considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/domain-admin-workflow.md).
 

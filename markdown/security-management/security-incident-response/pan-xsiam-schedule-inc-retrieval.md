@@ -2,6 +2,7 @@
 title: Schedule incident retrieval
 description: Configure a schedule to define how and when you pull incidents from Cortex XSIAM tenant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/pan-xsiam-schedule-inc-retrieval.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -95,5 +96,5 @@ The date since historical incidents were ingested from Cortex XSIAM.
 
 ## What to do next
 
-[Automate incident updates and closures](pan-xsiam-automate-inc-updates.md)
+[Automate incident updates and closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/pan-xsiam-automate-inc-updates.md)
 

@@ -2,11 +2,14 @@
 title: Network Zones page
 description: The Network Zones page in the Sensors section includes a list of all Network Zones on the console. Network zones group assets by IP address to help distinguish one or more assets that share an IP address but are in different local area networks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/network-zones-page.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Network Zones page
@@ -26,5 +29,5 @@ Additionally, each of the Network Zones can be deleted when they are no longer i
 
 The following image shows an example of the Network Zones page.
 
-![Network Zones page](../images/network-zone-page.png)
+\[Omitted image "network-zone-page.png"\] Alt text: Network Zones page
 

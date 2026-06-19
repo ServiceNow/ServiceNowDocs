@@ -2,6 +2,7 @@
 title: Transfer a legal ticket to another department
 description: Transfer a legal ticket \(legal request or legal matter\) associated with a universal request to another department or back to the universal request for processing and resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/transfer-legal-request-universal-request.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -23,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the List icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  Open the list of legal requests or legal matters.
 
@@ -102,5 +103,5 @@ Options for including additional comments and attachments from the legal ticket 
 -   The legal ticket is transferred to the selected department.
 -   The legal ticket no longer remains a primary ticket for the universal request.
 
-**Parent Topic:**[Universal Request for Legal Service Delivery](../concept/universal-requests-legal.md)
+**Parent Topic:**[Universal Request for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/universal-requests-legal.md)
 

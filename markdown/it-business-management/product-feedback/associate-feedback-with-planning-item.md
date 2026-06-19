@@ -2,6 +2,7 @@
 title: Associate a feedback or product idea with a planning item
 description: Link a feedback or product idea record with a planning item. By doing this association, you can address customer concerns promptly in a central location and ensure that every input is considered when making decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/associate-feedback-with-planning-item.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -31,11 +32,11 @@ You can associate a feedback or product idea record with only one planning item 
 
 2.  Select **Feedback**.
 
-3.  Select **Feedback** and then [Create feedback](create-feedback-in-sp.md).
+3.  Select **Feedback** and then [Create feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/create-feedback-in-sp.md).
 
 4.  Once the feedback is created, from the link product idea list, select the planning item to associate with the feedback.
 
-    ![This image displays feedback list from where you can select the items.](../image/feedback-list.png)
+    \[Omitted image "feedback-list.png"\] Alt text: This image displays feedback list from where you can select the items.
 
     From the planning item list, select one or multiple records that you want to associate. You can follow similar steps for the product idea.
 

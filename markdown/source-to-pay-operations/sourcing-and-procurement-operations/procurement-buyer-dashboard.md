@@ -2,6 +2,7 @@
 title: Procurement Buyer Dashboard
 description: Visually analyze how you’re placed with your work and achievements over a given period of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/procurement-buyer-dashboard.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -296,9 +297,9 @@ View the average purchase requisition cycle time from when a purchase requisitio
  The report pulls all the purchase requisitions that went into Closed Complete, Closed Rejected, or Closed Canceled status for the month, and takes the cycle time from when they were opened. This data is retrieved from the **Duration** field on the purchase requisition.
 
 </td></tr></tbody>
-</table>For information on how to work with dashboards in configurable workspaces, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
+</table>For information on how to work with dashboards in configurable workspaces, see .
 
-For information on how to work with widgets and data visualizations in configurable workspaces, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+For information on how to work with widgets and data visualizations in configurable workspaces, see .
 
-**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
+**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/performance-analytics-for-spo.md)
 

@@ -2,6 +2,7 @@
 title: Configure a business role
 description: Create or modify a business role based on job function, geography, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-journey-management/configure-business-role.html
 release: australia
 product: Employee Journey Management
 classification: employee-journey-management
@@ -79,7 +80,7 @@ Audience
 
 Defines the conditions or criteria that the new hire must meet for the hiring manager to be able to assign the business role on their behalf.For example, you can use audience records so that one business role is only available for on-site workers and another business role is only available for remote workers.
 
- For details on how to configure an audience record, see [Audiences](../../employee-center/concept/ecpro-audience.md).
+ For details on how to configure an audience record, see [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md).
 
 </td></tr><tr><td>
 
@@ -115,5 +116,5 @@ Option to activate the business role for use.
 7.  Click **Update**.
 
 
-**Parent Topic:**[Business roles](../concept/business-roles.md)
+**Parent Topic:**[Business roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/business-roles.md)
 

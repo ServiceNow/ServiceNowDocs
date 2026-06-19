@@ -2,6 +2,7 @@
 title: Require authorization for SOAP requests
 description: Use the glide.basicauth.required.soap property to designate if incoming SOAP requests should require basic authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -62,8 +63,8 @@ Recommended value
 
 </td><td>
 
--   false
--   false
+-   true
+-   true
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
+false
 
 </td></tr><tr><td>
 
@@ -79,8 +80,8 @@ Fallback value
 
 </td><td>
 
--   true
--   true
+-   &lt;none&gt;
+-   &lt;none&gt;
 
 </td></tr><tr><td>
 
@@ -88,7 +89,7 @@ Category
 
 </td><td>
 
-[API and web service](sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -110,7 +111,7 @@ This remediation enforces a combination of authentication methods, in the form o
 -   It restricts any guest users who are currently accessing this data.
 -   Create an account for a user who needs access to this content, with the necessary access control permissions.
 
- To learn more, see [SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md) and [MID Server authentication credentials and SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-authentication-soap-requests.md).
+ To learn more, see SOAP web service and MID Server authentication credentials and SOAP requests.
 
 </td></tr><tr><td>
 
@@ -121,5 +122,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API and web service](sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

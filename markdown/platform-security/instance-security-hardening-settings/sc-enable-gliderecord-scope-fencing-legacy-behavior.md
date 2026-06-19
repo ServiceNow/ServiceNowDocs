@@ -2,6 +2,7 @@
 title: Disable GlideRecord Scope Fencing Legacy Behavior
 description: The glide.record.legacy\_cross\_scope\_access\_policy\_in\_script property disables scope fencing allowing scoped apps to access global script interfaces. It was created as a patch to GlideRecord's cross scope access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

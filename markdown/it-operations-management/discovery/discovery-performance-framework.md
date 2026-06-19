@@ -2,6 +2,7 @@
 title: Discovery performance metrics
 description: This Discovery enhancement collects performance metrics on probe/pattern and sensor processing times and then aggregates that data over time. You can use the roll-up data to monitor the performance of specific discoveries or to compare performance between versions after an upgrade. By default, Discovery tracks the performance of individual probes, sensors, and patterns by measuring the processing time. When patterns are used, Discovery measures the Identification and Reconciliation Engine \(IRE\) processing time. Use the roll-up by build data to ensure that the processing times for Discovery components remain consistent for discoveries in a 24 hour period. View aggregate build data before and after an upgrade to compare the performance of the old and new versions. All aggregated performance data is read-only.Use the roll-up by status data to ensure that the processing times for probes/patterns and sensors remain consistent for a specific Discovery. All aggregated performance data is read-only.Use the roll-up by target data to ensure that the processing times for probes/patterns and sensors remain consistent for each Discovery of a specific IP address. All aggregated performance data is read-only.Discovery performance metrics can accumulate data for probes, patterns, and sensors each time Discovery runs. Discovery calculates processing times and increments the number of times a component runs for each roll-up profile: status, target, or build. All aggregated performance data is read-only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-performance-framework.html
 release: australia
 product: Discovery
 classification: discovery
@@ -123,7 +124,7 @@ Role required: discovery\_admin or admin
 
     All probe and sensor metrics data are read-only.
 
-    ![Individual probe and sensor metrics](../image/DiscoPerformanceMetricProbe.png)
+    \[Omitted image "DiscoPerformanceMetricProbe.png"\] Alt text: Individual probe and sensor metrics
 
     The Probe and Sensor Metrics \(Individual\) form provides these fields:
 
@@ -157,7 +158,7 @@ Role required: discovery\_admin or admin
 
 2.  Sort the list by **Build/version**.
 
-    ![Filtering the list of performance data aggregated by build](../image/DiscoPerformanceBuildFilter.png)
+    \[Omitted image "DiscoPerformanceBuildFilter.png"\] Alt text: Filtering the list of performance data aggregated by build
 
 3.  Filter by a specific build to see the aggregated processing times for the probes and patterns that performed a Discovery on that build.
 
@@ -184,7 +185,7 @@ Role required: discovery\_admin or admin
 
 2.  Sort the list by **Discovery status** to see the aggregated processing times for the probes and patterns that ran during a specific Discovery.
 
-    ![Filtering the list of performance data aggregated by status](../image/DiscoPerformanceStatusFilter.png)
+    \[Omitted image "DiscoPerformanceStatusFilter.png"\] Alt text: Filtering the list of performance data aggregated by status
 
 3.  Filter by a specific status to display metrics available for probes and patterns that ran in that status.
 
@@ -209,7 +210,7 @@ Role required: discovery\_admin or admin
 
 2.  Sort the list by **Target IP address**.
 
-    ![Filtering the list of performance data aggregated by target IP address](../image/DiscoPerformanceTargetFilter.png)
+    \[Omitted image "DiscoPerformanceTargetFilter.png"\] Alt text: Filtering the list of performance data aggregated by target IP address
 
 3.  Filter by a specific IP address to see the aggregated processing times for the probes and patterns that performed the Discovery of that IP address.
 
@@ -228,7 +229,7 @@ Discovery performance metrics can accumulate data for probes, patterns, and sens
 
 This is an example of an aggregation record for probe and sensor metrics. The metrics fields shown here are used for each aggregation.
 
-![Sample roll-up by Status form](../image/PerfFrameworkStatusRollup.png "Sample roll-up by Status form")
+\[Omitted image "PerfFrameworkStatusRollup.png"\] Alt text: Sample roll-up by Status form
 
 ### Performance Framework aggregated data
 

@@ -2,12 +2,14 @@
 title: Work on a fraud case for card fraud by alert
 description: Use card fraud by alert to work on a fraud case that is created for processing alerts that are received from an external fraud detection system, ensure that any outstanding tasks are completed, and the cases are investigated and resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/work-on-a-fraud-case.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [work on a fraud case, card fraud by alert, process fraud alerts, external fraud detection system, fraud risk evaluation, fraud risk low risk high risk, decision builder fraud rules, investigate fraud cases, fraud case playbook, case disposition, fraud write-off, manager approval for fraud, sn\_bom\_fraud.agent]
 breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -23,7 +25,7 @@ Role required: sn\_bom\_fraud.agent or sn\_bom\_fraud.agent\_connector
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Fraud cases**, open the case list.
 

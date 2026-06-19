@@ -2,13 +2,14 @@
 title: Request foundation data sync offerings
 description: Request a foundation data sync \(FDS\) offering from your provider to receive foundational data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-request-fds-offerings.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring inbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Configure inbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Request foundation data sync offerings
@@ -42,5 +43,5 @@ A consumer offering request is created, and the state changes to Work in Progres
 
 ## What to do next
 
-[Validate the subscription](service-bridge-v2-validate-fds-subscription.md) to start receiving foundation data.
+[Validate the subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-validate-fds-subscription.md) to start receiving foundation data.
 

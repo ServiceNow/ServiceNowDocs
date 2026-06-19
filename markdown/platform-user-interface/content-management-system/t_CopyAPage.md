@@ -2,6 +2,7 @@
 title: Copy a page
 description: Copying pages is an efficient way to avoid duplicating the same work and to create pages quickly from a guiding base template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_CopyAPage.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -36,5 +37,5 @@ Role required: content\_admin or admin
 6.  Click **Update**.
 
 
-**Parent Topic:**[Content pages in CMS](../concept/c_ContentPages.md)
+**Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentPages.md)
 

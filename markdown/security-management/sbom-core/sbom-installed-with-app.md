@@ -2,6 +2,7 @@
 title: Components installed with Software Bill of Materials applications
 description: Several types of components are installed with activation of the Software Bill of Materials applications, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/sbom-installed-with-app.html
 release: australia
 product: SBOM Core
 classification: sbom-core

@@ -2,6 +2,7 @@
 title: Set up the Google Cloud Translator Service spoke
 description: Integrate your Google account with your ServiceNow instance.Encrypt the security certificates obtained from Google by creating a Java KeyStore \(JKS\) file.Enable the JWT client authentication by attaching a valid Java KeyStore \(JKS\) certificate to Google Cloud Translator Service spoke.Assign a JSON Web Token \(JWT\) signing key to your Java KeyStore certificate.Add a JSON Web Token \(JWT\) provider to Google Cloud Translator Service spoke.Authorize actions of Google Cloud Translator Service spoke by configuring the Google OAuth 2.0 credential.Connect to the Google's translation service by configuring the Google connection. Provide information that is used by HTTP\(s\) actions or activities to connect to that service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-google-translator.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -123,10 +124,10 @@ Enable the JWT client authentication by attaching a valid Java KeyStore \(JKS\) 
     |Active|Option to activate the certificate.|
     |Type|Type of the certificate. Select **Java Key Store**.|
     |Expires in days|Number of days until the certificate expires.|
-    |Key store password|Password to access the certificate. Use the destination keystore password specified when creating the JKS certificate. For more information on this password, see [Create a Java KeyStore certificate](setup-google-translator.md#).|
+    |Key store password|Password to access the certificate. Use the destination keystore password specified when creating the JKS certificate. For more information on this password, see [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-google-translator.md).|
     |Short description|Summary about the certificate.|
 
-4.  Click the manage attachments icon \(![Attachments icon](../image/attachments-icon.png)\) and attach a JKS certificate.
+4.  Click the manage attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon\) and attach a JKS certificate.
 
 5.  To validate the JKS certificate, click **Validate Stores/Certificates**.
 
@@ -155,7 +156,7 @@ Role required: admin
     |Signing Keystore|Valid JKS certificate for which you want to assign the key.|
     |Key Id|Key ID to identify which key is used when multiple keys are used to sign tokens.|
     |Signing Algorithm|Algorithm to sign with the key.|
-    |Signing Key Password|Password associated with the key. Use the export password or the source keystore password specified when creating the JKS certificate. For more information on this password, see [Create a Java KeyStore certificate](setup-google-translator.md#).|
+    |Signing Key Password|Password associated with the key. Use the export password or the source keystore password specified when creating the JKS certificate. For more information on this password, see [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-google-translator.md).|
     |Active|Option to activate the key.|
 
 4.  Click **Submit**.

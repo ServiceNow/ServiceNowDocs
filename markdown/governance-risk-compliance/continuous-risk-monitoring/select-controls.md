@@ -2,6 +2,7 @@
 title: RMF step 2 - Select controls for an authorization package
 description: When the impact levels for the package have been approved, it is time to select baseline controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/select-controls.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -92,7 +93,7 @@ Verifies if a system owner can create an Authorization Boundary by completing th
 Quebec \(compatible with Paris and Orlando\)
 
 </td></tr></tbody>
-</table>To learn more about Continuous Authorization and Monitoring, see [Continuous Authorization and Monitoring](../reference/grc-cam-landing-page.md).
+</table>To learn more about Continuous Authorization and Monitoring, see [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 ## About this task
 
@@ -155,7 +156,7 @@ Inherit controls from common controls
 
 You can create common controls to which other, subordinate controls can be assigned so they can inherit risk guidance from them. For example, if you have a control that handles an entire facility, you can identify related controls that will inherit protection and compliance from the common control.
 
- To create a common control, select the control, select **Create Common Control**, select **OK** to confirm. For information on allowing a control to inherit from a common control, see [Inherit from a common control](create-common-control.md).
+ To create a common control, select the control, select **Create Common Control**, select **OK** to confirm. For information on allowing a control to inherit from a common control, see [Inherit from a common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/create-common-control.md).
 
 </td></tr></tbody>
 </table>3.  Select **Request Approval**.

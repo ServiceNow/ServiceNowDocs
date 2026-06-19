@@ -2,6 +2,7 @@
 title: Configure an auto-populate value for a question in Catalog Builder
 description: Configure the value of a question to populate automatically whenever the value of another question of the reference type changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/config-auto-populate-value-for-question-cat-builder.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -53,7 +54,7 @@ In a catalog item, for example, you can set up the value of the “Name of the m
 
         The list displays all the Reference and Requested For question types that belong to the current catalog item and the associated single-row variable sets.
 
-    2.  To select the field that contains the value that you want to set, select the Select the lookup field icon \(![Select the lookup field icon.](../image/magic-wand-icon.png)\).
+    2.  To select the field that contains the value that you want to set, select the Select the lookup field icon \(\[Omitted image "magic-wand-icon.png"\] Alt text: Select the lookup field icon.\).
 
         The list shows all the values in the sys\_user table.
 
@@ -61,10 +62,10 @@ In a catalog item, for example, you can set up the value of the “Name of the m
 
         **Note:** To search any value, enter what you're looking for, for example, `manager` or dot-walk to get the required value.
 
-        For more information about dot-walking, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_DotWalking.md).
+        For more information about dot-walking, see .
 
 8.  Select **Insert question**.
 
 
-**Parent Topic:**[Create a question for a catalog item in Catalog Builder](create-question-cat-builder.md)
+**Parent Topic:**[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md)
 

@@ -2,6 +2,7 @@
 title: RMF steps 4, 5, and 6 - Assess, authorize, and monitor
 description: After you have implemented controls, you can assess internal and external controls, generate Plans of Action and Milestones \(POA&amp;M\), and manage change requests and vulnerable items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/assess-control-effectiveness.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -37,7 +38,7 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
 1.  For an authorization package in the Implement state, select **Assess**.
 
-    ![Transition to the Assess state](../image/assess.png)
+    \[Omitted image "assess.png"\] Alt text: Transition to the Assess state
 
     **Note:** An Audit Engagement is automatically created.
 
@@ -45,7 +46,7 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
 2.  Select the **Control Assessments** related list to view the Audit engagement.
 
-    ![Control Assessments](../image/control-asmts.png)
+    \[Omitted image "control-asmts.png"\] Alt text: Control Assessments
 
     **Note:** The Audit Engagement is automatically assigned to the SCA.
 
@@ -53,27 +54,27 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
     Notice that the **Entities** tab is displaying the authorization boundary for the package.
 
-    ![Tabs for assessment.](../image/entity.png)
+    \[Omitted image "entity.png"\] Alt text: Tabs for assessment.
 
 4.  Select the **Controls** tab to view all the controls that your team implemented.
 
-    ![Controls](../image/controls-tab.png)
+    \[Omitted image "controls-tab.png"\] Alt text: Controls
 
 5.  Select the **Test plans** tab.
 
-    Test plans are automatically created for the control. For more information on test plans, see [Generate assessment procedure plans for a test plan](cam-assess-controls-assess-obj.md).
+    Test plans are automatically created for the control. For more information on test plans, see [Generate assessment procedure plans for a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-assess-controls-assess-obj.md).
 
 6.  Select the **Control tests** tab to view the tasks for assessing the controls.
 
-    **Note:** The **Audit tasks** tab in the Default view is renamed as **Control tests** tab in the CAM view. The names of the related list labels vary and are specific to the Default view or CAM view. You can change the view by selecting the Additional actions icon \(![Additional actions menu icon.](../../../common/image/Form_MenuIcon.png)\).
+    **Note:** The **Audit tasks** tab in the Default view is renamed as **Control tests** tab in the CAM view. The names of the related list labels vary and are specific to the Default view or CAM view. You can change the view by selecting the Additional actions icon \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Additional actions menu icon.\).
 
-    ![Control tests tab.](../image/cam-control-tests.png)
+    \[Omitted image "cam-control-tests.png"\] Alt text: Control tests tab.
 
-    For more information on test plans, see [Determine control effectiveness of a control test](cam-control-effectiveness-control-test.md).
+    For more information on test plans, see [Determine control effectiveness of a control test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-control-effectiveness-control-test.md).
 
     1.  Select a control test.
 
-        ![Assessment procedures related list.](../image/cam-assessment-proc.png)
+        \[Omitted image "cam-assessment-proc.png"\] Alt text: Assessment procedures related list.
 
     2.  From the **Assessment procedures** list, select a record.
 
@@ -81,11 +82,11 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
     4.  Select the **Notes** field to enter additional assessment details.
 
-        ![Assessment procedure record view.](../../grc-cam-workspace/image/cam-assessment-proc-ws.png)
+        \[Omitted image "cam-assessment-proc-ws.png"\] Alt text: Assessment procedure record view.
 
 7.  In the Default view, select an audit task and perform the Design Test and Operation Test to judge the control's effectiveness.
 
-    For details on this process, see [Manage engagements](../../grc-audit/concept/c_Engagements.md).
+    For details on this process, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md).
 
     **Note:** Any issues that arise during the Assess phase appear in the **POA&amp;M** tab. Additionally, any open Change Requests or Vulnerable Items targeting the system elements in the package appear under those tabs.
 
@@ -93,7 +94,7 @@ The Assess state adds **Control Assessments** and **Risk Summary** related lists
 
 9.  When the review is complete, select **Authorize**.
 
-    **Note:** In the Monitor state, continuous monitoring is achievable if you have indicators. If not, you can manually review the controls. For more information, see [Manage control indicators](../../grc-policy-and-compliance/concept/manage-indicators-policy-comp.md#).
+    **Note:** In the Monitor state, continuous monitoring is achievable if you have indicators. If not, you can manually review the controls. For more information, see [Manage control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-indicators-policy-comp.md).
 
     You can select **Generate Report\(s\)** to generate a FedRAMP System Security Plan \(SSP\) document for the authorization package in PDF format.
 

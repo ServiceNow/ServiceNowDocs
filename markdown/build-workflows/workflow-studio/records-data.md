@@ -2,6 +2,7 @@
 title: Records.\[Table\] data type
 description: Stores one or more Sys ID references to records in a specific table. The Records data format is also known as a Glide List since it stores a list of GlideRecord Sys ID values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/records-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -33,13 +34,13 @@ Stores one or more Sys ID references to records in a specific table. The Records
 
 ## Script support
 
-The records data type is supported in script by the GlideRecord class, which can produce an array containing one or more sys\_id values. For more information about the GlideRecord class and its available methods, see [GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md).
+The records data type is supported in script by the GlideRecord class, which can produce an array containing one or more sys\_id values. For more information about the GlideRecord class and its available methods, see .
 
 ## Output of a Look Up Records action
 
-![Execution details for a Look Up Records action](../images/example-look-up-records-action-execution-details.png)
+\[Omitted image "example-look-up-records-action-execution-details.png"\] Alt text: Execution details for a Look Up Records action
 
 The Look Up Records action uses the Records data type to store its results. In this example, the action looked up Configuration Item records assigned to the requester of a change request. Each configuration item record is a reference by its Sys ID. The flow execution details shows the configuration item display value, which in this case is the name.
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
 

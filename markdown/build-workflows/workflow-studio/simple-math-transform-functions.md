@@ -2,6 +2,7 @@
 title: Simple math transform functions
 description: Use simple math transform functions to perform basic mathematical calculations on Number data pills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/simple-math-transform-functions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Transform functions, Flows, subflows, and actions reference, Flows,
 
 Use simple math transform functions to perform basic mathematical calculations on Number data pills.
 
-Simple math transform functions require an Array.Number, Array.Integer, or Array.Decimal input data pill. Make sure to use the correct input [data pill type](action-inputs-outputs.md) when applying simple math transform functions. If a simple math transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](../task/flow-test.md).
+Simple math transform functions require an Array.Number, Array.Integer, or Array.Decimal input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md) when applying simple math transform functions. If a simple math transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
 
 ## Absolute Value
 
@@ -191,5 +192,5 @@ Truncates a floating number to the specified number of decimal places.
 -   Parameter: `2`
 -   Output: `1.93`
 
-**Parent Topic:**[Transform functions](../concept/transform-functions.md)
+**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md)
 

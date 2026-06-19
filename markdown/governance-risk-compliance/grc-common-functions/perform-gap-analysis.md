@@ -2,6 +2,7 @@
 title: Perform gap analysis
 description: Perform a Gap analysis of cybersecurity activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/perform-gap-analysis.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -52,5 +53,5 @@ NIST CSF sn\_irm\_nist\_csf.risk\_executive or sn\_irm\_nist\_csf.security\_offi
 12. Click **Save**.
 
 
-**Parent Topic:**[Align and prioritize cybersecurity activities](../concept/align-prioritize-activities.md)
+**Parent Topic:**[Align and prioritize cybersecurity activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/align-prioritize-activities.md)
 

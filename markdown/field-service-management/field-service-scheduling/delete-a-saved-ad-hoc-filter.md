@@ -2,6 +2,7 @@
 title: Delete a saved ad hoc filter
 description: Delete ad hoc filters saved in Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/delete-a-saved-ad-hoc-filter.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -29,7 +30,7 @@ Role required: wm\_dispatcher
 
 4.  Select a filter.
 
-5.  Select the **More Actions** \(![More actions icon.](../image/more_actions1.png)\) icon.
+5.  Select the **More Actions** \(\[Omitted image "more\_actions1.png"\] Alt text: More actions icon.\) icon.
 
 6.  Select **Delete**.
 

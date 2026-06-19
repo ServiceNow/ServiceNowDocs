@@ -2,6 +2,7 @@
 title: Create requirement form
 description: The requirement form information is used to create a requirement for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-requirement-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

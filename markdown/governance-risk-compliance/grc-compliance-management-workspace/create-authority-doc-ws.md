@@ -2,6 +2,7 @@
 title: Create an authority document using the Compliance Workspace
 description: Authority documents manage a process, and citations are created within them to manage the points of the process. For example, the process called Building Security contains a citation for Entry Control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/create-authority-doc-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

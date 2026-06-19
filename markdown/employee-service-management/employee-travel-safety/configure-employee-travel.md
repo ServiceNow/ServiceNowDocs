@@ -2,6 +2,7 @@
 title: Configure Employee Travel Safety
 description: Complete all configuration tasks to ensure that travel notifications and approvals are set up correctly for your company.Set up user groups and roles so that employee travel can be approved by managers or by designated travel approvers.Set up Employee Travel Safety properties to ensure that site safety verification emails, employee contact logs, and employee health verifications are managed according to your company's requirements.Modify the travel approval flow to change the default travel approval settings.Modify the notification emails that are sent to employees, managers and travel approvers, and employee travel contacts to customize the notifications for your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-travel-safety/configure-employee-travel.html
 release: australia
 product: Employee Travel Safety
 classification: employee-travel-safety
@@ -15,7 +16,7 @@ breadcrumb: [Employee Travel Safety, Safe Workplace, Health and Safety, Employee
 
 Complete all configuration tasks to ensure that travel notifications and approvals are set up correctly for your company.
 
-**Parent Topic:**[Employee Travel Safety](../concept/employee-travel-safety.md)
+**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 
 ## Set up travel approvers
 
@@ -32,7 +33,7 @@ Setting up manager approval or designated approvers is a required configuration 
     To set up designated travel approvers, add users to the Travel Approvers group. Members of this group can view and approve travel requests for all employees. Don't add managers to the Travel Approvers group unless it's acceptable for them to view and approve travel requests for all employees.
 
 
-By default, a travel request must be approved by both the employee's manager and a member of the Travel Approvers group. If the employee doesn't have a manager listed in your ServiceNow instance or there are no users in the Travel Approvers group, one approval is enough to approve the travel request. An employee's travel request is automatically rejected if the employee doesn't have a manager listed in your ServiceNow instance and there are no users in the Travel Approvers group. For information about changing the default approval settings, see [Modify the travel approval flow](configure-employee-travel.md#).
+By default, a travel request must be approved by both the employee's manager and a member of the Travel Approvers group. If the employee doesn't have a manager listed in your ServiceNow instance or there are no users in the Travel Approvers group, one approval is enough to approve the travel request. An employee's travel request is automatically rejected if the employee doesn't have a manager listed in your ServiceNow instance and there are no users in the Travel Approvers group. For information about changing the default approval settings, see [Modify the travel approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-travel-safety/configure-employee-travel.md).
 
 ## Set up Employee Travel Safety properties
 
@@ -114,7 +115,7 @@ Enables outreach to relevant employees about travel-related health verifications
 
 </td><td>
 
-When enabled, employees who are approved for travel receive notifications to complete a health verification. To set the frequency of the notifications, select a value for the **sn\_imt\_travel.health.verification.run.type** property. For more information about employee health verification, see [Employee Health Screening](../../employee-health-screening/concept/employee-health-screening.md).
+When enabled, employees who are approved for travel receive notifications to complete a health verification. To set the frequency of the notifications, select a value for the **sn\_imt\_travel.health.verification.run.type** property. For more information about employee health verification, see [Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md).
 
 </td></tr><tr><td>
 
@@ -150,7 +151,7 @@ Enables outreach to traveling employees about their daily travel contacts.\[sn\_
 
 </td><td>
 
-When enabled, employees receive notifications to complete a daily contact log during internal travel. Contact log notifications are not sent for external travel. Employees must be assigned the sn\_imt\_tracing.dailylog\_user role to receive contact log notifications. This property requires the Contact Tracing and Emergency Outreach applications. For more information about contact logs, see [Contact Tracing](../../contact-tracing/concept/contact-tracing.md).**Note:** Employees who are already enrolled in daily contact logs before their trip will see no change. They will not receive additional notifications and they will still be enrolled after their trip is complete.
+When enabled, employees receive notifications to complete a daily contact log during internal travel. Contact log notifications are not sent for external travel. Employees must be assigned the sn\_imt\_tracing.dailylog\_user role to receive contact log notifications. This property requires the Contact Tracing and Emergency Outreach applications. For more information about contact logs, see [Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing.md).**Note:** Employees who are already enrolled in daily contact logs before their trip will see no change. They will not receive additional notifications and they will still be enrolled after their trip is complete.
 
 </td></tr></tbody>
 </table>3.  Click **Save**.
@@ -178,7 +179,7 @@ If you decide to modify the flow, deactivate the original flow and make a copy. 
 
 3.  Click **Deactivate**, then click **OK** to confirm.
 
-4.  In the upper-right corner, click the More actions icon \(![More actions icon](../../../common/image/Form_MoreOptions.png)\), then click **Copy flow**.
+4.  In the upper-right corner, click the More actions icon \(\[Omitted image "Form\_MoreOptions.png"\] Alt text: More actions icon\), then click **Copy flow**.
 
 5.  Enter a name for the new flow.
 
@@ -300,7 +301,7 @@ This email is sent to an employee if they don't complete a health verification b
 
     **Tip:** The image must be added before the mail script so that it appears at the top of the email.
 
-    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see [Upload one or more images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/upload-multiple-images.md).
+    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see Upload one or more images.
 
 6.  Click the **Show Notification Scripts** related link.
 
@@ -312,7 +313,7 @@ This email is sent to an employee if they don't complete a health verification b
 
 9.  If you would like to make any other changes to the email notification, update the **Script** field as needed.
 
-    If you change any text used in calls to `gs.getMessage` or `gs.getMessageLang`, you must provide translations for your custom text in the Message table \[sys\_ui\_message\]. For more information, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
+    If you change any text used in calls to `gs.getMessage` or `gs.getMessageLang`, you must provide translations for your custom text in the Message table \[sys\_ui\_message\]. For more information, see Message table.
 
 10. Click **Update**.
 

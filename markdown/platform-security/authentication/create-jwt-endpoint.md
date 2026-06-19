@@ -2,6 +2,7 @@
 title: Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)
 description: OAuth JWT bearer token enables the client web applications to authenticate with your instance seamlessly using the inbound JWT grant type instead of requiring the end user to manually log in or share the password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-jwt-endpoint.html
 release: australia
 product: Authentication
 classification: authentication
@@ -26,7 +27,7 @@ Generate a JWT with the following claims at the client side:
 -   `iss`: Recommended matching the value of the Client ID. If the `aud` and `iss` isn’t matching, then add the `iss` value in the claim validation.
 -   `exp`: Any desired expiration.
 
-![Example decoded JSON Web Token](../image/example-jwt.png "Example decoded JSON Web Token")
+\[Omitted image "example-jwt.png"\] Alt text: Example decoded JSON Web Token
 
 ## Configuration in ServiceNow
 
@@ -112,7 +113,7 @@ Accessible from
 
 </td><td>
 
-Cross-scope access policy. For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md).
+Cross-scope access policy. For more information, see Application access settings.
 
 </td></tr><tr><td>
 
@@ -154,7 +155,7 @@ Enforce Token Restrictions
 
 </td><td>
 
-Select to only enable tokens to be used with APIs set to enable the authentication profile. You can set grant access using an API access policy. For more information, see [Create REST API access policy](../../../integrate/authentication/task/create-api-access-policy.md).Default: Unselected.
+Select to only enable tokens to be used with APIs set to enable the authentication profile. You can set grant access using an API access policy. For more information, see [Create REST API access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-api-access-policy.md).Default: Unselected.
 
 </td></tr><tr><td>
 
@@ -181,7 +182,7 @@ Client Type
 Choose the client type, based on the type of your client. Options:-   **iframe Embedded**
 -   **Integration as a User**
 -   **Integration as a Service**
-To know more, see [Configure client type for OAuth and SSO records](../../../integrate/authentication/concept/client-type.md).
+To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>    4.  Save the form.
@@ -221,7 +222,7 @@ To know more, see [Configure client type for OAuth and SSO records](../../../int
     The following is a sample cURL command requesting an access token:
 
     ```
-    $ curl -d"grant_type= urn:ietf:params:oauth:grant-type:jwt-bearer
+    $ curl -d"grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer
     &client_id=be3aeb583ace210011c15b24a43e25d8
     &client_secret=client_password
     &assertion= eyJraWQiOiJzYW1wbGVrZXlpZCIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJhdWQiOiI5YzZlMmQxNzU0MzMyMDEwMDFhMTE4Y2FhMGVhMmE0MyIsInN1YiI6ImFkbWluQGV4YW1wbGUuY29tIiwiaXNzIjoiOWM2ZTJkMTc1NDMzMjAxMDAxYTExOGNhYTBlYTJhNDMiLCJleHAiOjE2MjI3MDI1MjYsImlhdCI6MTYyMjcwMjQ2NiwianRpIjoiNWRkMGUxYzctYjY1Ny00YmQ4LTlkY2UtMTdhZDdlZmUwNmFiIn0.PDoffnN2nq9ZNdxhOTLNbzlls4C1gsacahWr0kmPcGJDUJ_OQunmY5YXfpqkASiZixcQDS4kMwyqK9bha1-SnPOXq7zCIlJGCGFOv_OjEpQvMqmiKtLVk3jCsD03eXSoR4V-EzoCChiXpK87K5tMfM5k0YV9KfrxgvjUipgfni5N0JeyqkssMXBdkuE90XW_hBCo9AMMQm6J2PNMWb2O_O8rOX06KHuc4-Ip8wcRZ8a_bndCSmHl8Em7v4DvqTkLzlnF_-BXuM3T7nTI21cDXQKqZnqzzriu8irlAsscJFTxkh-_Ynei5RgYtL_Mvx2-HDO-XGofBhlAY2t9K36sz71HHqFZr5qCOIOAPguNzAy5-MOuZjOU_kH6ugIRycaNMDRjaU7gOvUHEERw3d0sI20OChIWOryBSwdTs7lgB1WzsJWCNVo81ssc2yko3jPoygt90tMwI_6A-4J-mlgq_fS_SvPUAqq_2UUJfVOTT5WGeq58cXfwRJmsDo49IhL3kXDVWT2gxaqhEdBQEW16UmRoTUzRs9A9sOm18y3skmOVtnEOm-MlJMFQZ754UMzbiH0ZsMmk1ivCGIjex5J0_lDjKElWF5RHGz3YShCoa4JKDZsqYMvIk1SvzyQXjuFqPdS2vzg2m1eKGUwr3m6uNs_HflcDystwVdMZ7nLlBG4"
@@ -231,7 +232,7 @@ To know more, see [Configure client type for OAuth and SSO records](../../../int
     If the JWT client is a public client, such as the Mobile SDK, then you can omit the client\_id and client\_secret parameters from the request. The following is a sample cURL command requesting an access token that omits the client\_id and client\_secret:
 
     ```
-    $ curl -d"grant_type= urn:ietf:params:oauth:grant-type:jwt-bearer
+    $ curl -d"grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer
     &assertion= eyJraWQiOiJzYW1wbGVrZXlpZCIsInR5cCI6IkpXVCIsImFsZyI6IlJTMjU2In0.eyJhdWQiOiI5YzZlMmQxNzU0MzMyMDEwMDFhMTE4Y2FhMGVhMmE0MyIsInN1YiI6ImFkbWluQGV4YW1wbGUuY29tIiwiaXNzIjoiOWM2ZTJkMTc1NDMzMjAxMDAxYTExOGNhYTBlYTJhNDMiLCJleHAiOjE2MjI3MDI1MjYsImlhdCI6MTYyMjcwMjQ2NiwianRpIjoiNWRkMGUxYzctYjY1Ny00YmQ4LTlkY2UtMTdhZDdlZmUwNmFiIn0.PDoffnN2nq9ZNdxhOTLNbzlls4C1gsacahWr0kmPcGJDUJ_OQunmY5YXfpqkASiZixcQDS4kMwyqK9bha1-SnPOXq7zCIlJGCGFOv_OjEpQvMqmiKtLVk3jCsD03eXSoR4V-EzoCChiXpK87K5tMfM5k0YV9KfrxgvjUipgfni5N0JeyqkssMXBdkuE90XW_hBCo9AMMQm6J2PNMWb2O_O8rOX06KHuc4-Ip8wcRZ8a_bndCSmHl8Em7v4DvqTkLzlnF_-BXuM3T7nTI21cDXQKqZnqzzriu8irlAsscJFTxkh-_Ynei5RgYtL_Mvx2-HDO-XGofBhlAY2t9K36sz71HHqFZr5qCOIOAPguNzAy5-MOuZjOU_kH6ugIRycaNMDRjaU7gOvUHEERw3d0sI20OChIWOryBSwdTs7lgB1WzsJWCNVo81ssc2yko3jPoygt90tMwI_6A-4J-mlgq_fS_SvPUAqq_2UUJfVOTT5WGeq58cXfwRJmsDo49IhL3kXDVWT2gxaqhEdBQEW16UmRoTUzRs9A9sOm18y3skmOVtnEOm-MlJMFQZ754UMzbiH0ZsMmk1ivCGIjex5J0_lDjKElWF5RHGz3YShCoa4JKDZsqYMvIk1SvzyQXjuFqPdS2vzg2m1eKGUwr3m6uNs_HflcDystwVdMZ7nLlBG4"
     https://instancename.service-now.com/oauth_token.do
     ```

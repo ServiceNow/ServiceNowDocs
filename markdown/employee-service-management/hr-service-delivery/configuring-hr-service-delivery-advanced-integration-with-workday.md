@@ -2,6 +2,7 @@
 title: Configure HR Service Delivery Advanced Integration with Workday
 description: Configure HR Service Delivery Advanced Integration with Workday.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configuring-hr-service-delivery-advanced-integration-with-workday.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Configure HR Service Delivery Advanced Integration with Workday.
 
 ## Application setup
 
-First, you must activate the HR Service Delivery Advanced Integration with Workday application from ServiceNow Store, which automatically activates the Workday HR Spoke. Next, set up [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md) [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md) , and install the following applications:
+First, you must activate the HR Service Delivery Advanced Integration with Workday application from ServiceNow Store, which automatically activates the Workday HR Spoke. Next, set up Workday HR Spoke  , and install the following applications:
 
 -   Glide Virtual Agent plugin \[com.glide.cs.chatbot\]
 -   Human Resources Scoped App: NLU Model\[com.sn\_hr\_nlu\_model\]

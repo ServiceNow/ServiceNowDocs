@@ -2,6 +2,7 @@
 title: Install the Document designer add-in
 description: Install ServiceNow Document designer add-in in Microsoft Word. You can then customize the BIA, BCP, event reports, and Microsoft Word templates according to your business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/install-docu-designer-add-in-for-bcm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +33,7 @@ Role required: sys\_admin
 
     The Manifest file is downloaded in your local drive.
 
-    ![Manifest file.](../image/download-manifest.png)
+    \[Omitted image "download-manifest.png"\] Alt text: Manifest file.
 
 4.  To enable the add-in, contact your Microsoft 365 account manager who can use the manifest file you downloaded in step 3.
 

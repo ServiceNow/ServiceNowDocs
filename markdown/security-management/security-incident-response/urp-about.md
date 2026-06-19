@@ -2,6 +2,7 @@
 title: Create security incidents from User Reported Phishing emails
 description: Use this feature to create security incidents from user reported phishing emails.The User Reported Phishing feature available is an enhanced version of the existing user reported phishing functionality. See Create rules to validate user-reported phishing attacks.As a user with the sn\_si.admin role, you can define email matching rules to filter user reported phishing emails based on specific criteria. For example, you can define a rule where all emails sent either directly or through the Report Phish button to security@acme.com are categorized as user reported phishing emails.Define the header information that must be captured from user reported phishing emails.User reported phishing emails are converted to security incidents based on the email matching rules that have been defined.The Transform Phishing Email to Security Incident flow converts or transforms phishing email records to security incidents.Phishing email records stored in the sn\_si\_phishing\_email table are converted to security incidents records.You can view security incidents associated with the phishing email records in the Security Analyst Workspace.This section covers some of the frequently asked questions about the enhanced User Reported Phishing feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/urp-about.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,11 +24,11 @@ The enhanced User Reported Phishing functionality includes aggregation capabilit
 
         -   Select the **Report Phish** button.
         -   Forward phishing emails from a mobile device using the **Report Phish** option.
-        ![Report phishing emails](../image/urp-report-phish.png)
+        \[Omitted image "urp-report-phish.png"\] Alt text: Report phishing emails
 
     -   You can upload a phishing email \(in .eml format\).
 
-        ![Report phishing emails as attachments](../image/urp-report-phish-1.png)
+        \[Omitted image "urp-report-phish-1.png"\] Alt text: Report phishing emails as attachments
 
 -   User reported phishing includes **aggregation business logic** that identifies duplicate phishing emails reported by users in an organization. Users can use this capability to:
     -   Aggregate duplicate or similar user reported phishing incidents \(company initiated phishing campaigns\).
@@ -46,23 +47,23 @@ The enhanced User Reported Phishing functionality includes aggregation capabilit
 
 ## Set up ingestion rules for user reported phishing
 
-As a user with the `sn_si.admin` role, you can define email matching rules to filter user reported phishing emails based on specific criteria. For example, you can define a rule where all emails sent either directly or through the Report Phish button to `security@acme.com` are categorized as user reported phishing emails. For more information, see [Set up ingestion rules for User Reported Phishing](urp-about.md#).
+As a user with the `sn_si.admin` role, you can define email matching rules to filter user reported phishing emails based on specific criteria. For example, you can define a rule where all emails sent either directly or through the Report Phish button to `security@acme.com` are categorized as user reported phishing emails. For more information, see [Set up ingestion rules for User Reported Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md).
 
 ## Define user reported phishing properties
 
-Define the header information that needs to be captured from user reported phishing emails. For more information, see [Define User Reported Phishing properties](urp-about.md#).
+Define the header information that needs to be captured from user reported phishing emails. For more information, see [Define User Reported Phishing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md).
 
 ## Phishing email records created from user reported phishing emails
 
-User reported phishing emails are converted to security incidents based on the email matching rules that have been defined. For more information, see [Phishing email records created from user reported phishing emails](urp-about.md#).
+User reported phishing emails are converted to security incidents based on the email matching rules that have been defined. For more information, see [Phishing email records created from user reported phishing emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md).
 
 ## Transform phishing email to security incident
 
-The Transform Phishing Email to Security Incident flow converts or transforms phishing email records to security incidents. For more information, see [Transform user-reported phishing emails to security incidents](urp-about.md#).
+The Transform Phishing Email to Security Incident flow converts or transforms phishing email records to security incidents. For more information, see [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md).
 
 ## Security incident records created from phishing email records
 
-View the security incident record details including the Related Lists, Worknotes, and other important information. For more information, see [Security incident records created from phishing email records](urp-about.md#).
+View the security incident record details including the Related Lists, Worknotes, and other important information. For more information, see [Security incident records created from phishing email records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md).
 
 ## Required components and plugins
 
@@ -74,21 +75,21 @@ This enhancement replaces the existing User Reported Phishing design. The new de
 
 -   The existing **User Reported Phishing** email inbound actions \(Type = Forward and Type = New\) have been disabled.
 -   A new **Create Phishing Email** inbound action is now available.
--   The [Transform user-reported phishing emails to security incidents](urp-about.md#) is a new flow that contains the security incident creation and aggregation business logic for the new design. You must activate this flow for the new design to take effect.
+-   The [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) is a new flow that contains the security incident creation and aggregation business logic for the new design. You must activate this flow for the new design to take effect.
 -   The existing User Reported Phishing rules have been preserved during the upgrade.
 
 **Note:** If you use custom email inbound actions and custom workflows for user reported phishing submissions, you must review both the old and new designs for conflicting or overlapping functionalities.
 
 **User Reported Phishing Enhancement details**: The following are the details of the enhancement:
 
--   Reporting the phishing email in multiple ways: See [Create security incidents from User Reported Phishing emails](urp-about.md#) for the details. The phishing email is then moved to the `sn_si_phishing_email` table.
--   Creating phishing email records: If the email-matching rules are met \(See [Set up ingestion rules for User Reported Phishing](urp-about.md#)\), the **Create Phishing Email** inbound action creates a phishing email record. The parsed email headers are stored in the `sn_si_phishing_email_header` table and associated with the phishing email as a related list.
--   Aggregating similar phishing records into a single security incident: The [Transform user-reported phishing emails to security incidents](urp-about.md#) flow creates security incidents from the phishing email records and aggregates similar records into a single incident. The aggregation conditions can be modified as required in this flow.
+-   Reporting the phishing email in multiple ways: See [Create security incidents from User Reported Phishing emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) for the details. The phishing email is then moved to the `sn_si_phishing_email` table.
+-   Creating phishing email records: If the email-matching rules are met \(See [Set up ingestion rules for User Reported Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md)\), the **Create Phishing Email** inbound action creates a phishing email record. The parsed email headers are stored in the `sn_si_phishing_email_header` table and associated with the phishing email as a related list.
+-   Aggregating similar phishing records into a single security incident: The [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) flow creates security incidents from the phishing email records and aggregates similar records into a single incident. The aggregation conditions can be modified as required in this flow.
 
 **Note:**
 
 -   The **User Reported Phishing** inbound actions available prior to the Security Incident Response 9.0 release are now disabled. Security incidents are no longer created through the disabled inbound actions.
--   The Security Operations spoke application must be installed for the new design to take effect. This includes the [Transform user-reported phishing emails to security incidents](urp-about.md#) flow which is available in an inactive state by default. Activate this flow to create security incidents from the phishing email records.
+-   The Security Operations spoke application must be installed for the new design to take effect. This includes the [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) flow which is available in an inactive state by default. Activate this flow to create security incidents from the phishing email records.
 
 To use the enhanced User Reported Phishing feature, the following plugins and components are required:
 
@@ -108,7 +109,7 @@ To use the enhanced User Reported Phishing feature, the following plugins and co
 
 The following figure shows the new phishing emails table with references to the matched URP rule and target security incident record \(sn\_si\_incident\).
 
-![URP Data model](../image/sec-inc-resp-datamodel.png)
+\[Omitted image "sec-inc-resp-datamodel.png"\] Alt text: URP Data model
 
 ## Set up ingestion rules for User Reported Phishing
 
@@ -136,8 +137,8 @@ Role required: sn\_si.admin
 
     The following are some sample rules:
 
-    -   **To Rule**: Filter emails that have been sent directly or forwarded to `security@example.com` email id. ![Define ToRule](../image/urp-torule-example.png)
-    -   **User ID Rule**: Filter emails that have been sent from a specific email id. ![Define User ID Rule](../image/urp-phishbox-example.png)
+    -   **To Rule**: Filter emails that have been sent directly or forwarded to `security@example.com` email id. \[Omitted image "urp-torule-example.png"\] Alt text: Define ToRule
+    -   **User ID Rule**: Filter emails that have been sent from a specific email id. \[Omitted image "urp-phishbox-example.png"\] Alt text: Define User ID Rule
 
 ## Define User Reported Phishing properties
 
@@ -159,7 +160,7 @@ Use these options to configure the following user reported phishing settings.
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Email Processing** &gt; **User Reported Phishing Properties**.
 
-    ![User Reported Phishing Properties](../image/urp-phishing-email-properties.png)
+    \[Omitted image "urp-phishing-email-properties.png"\] Alt text: User Reported Phishing Properties
 
 2.  Specify the configuration for extracting email headers from the email body:
 
@@ -174,7 +175,7 @@ Use these options to configure the following user reported phishing settings.
 
 4.  Enable or disable parent-child association.
 
-    By default, the **Yes** option is enabled. Select **Yes** to indicate that child security incidents must be created when user reported phishing emails are aggregated. If you select **No**, child security incidents are not created, but the user reported phishing emails are associated with the security incident and the security incident record is updated. See [Transform user-reported phishing emails to security incidents](urp-about.md#) for more information on how the child security incidents are created.
+    By default, the **Yes** option is enabled. Select **Yes** to indicate that child security incidents must be created when user reported phishing emails are aggregated. If you select **No**, child security incidents are not created, but the user reported phishing emails are associated with the security incident and the security incident record is updated. See [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) for more information on how the child security incidents are created.
 
 5.  Enable or disable the option to display the phishing email content in HTML format.
 
@@ -188,16 +189,16 @@ User reported phishing emails are converted to security incidents based on the e
 When a new phishing email is reported, the following actions take place:
 
 -   An email record is created in the `sys_email` table.
--   The **Create Phishing Email** inbound action runs on the email record and uses the Email Matching Rules \(see [Set up ingestion rules for User Reported Phishing](urp-about.md#)\) to determine if it is a phishing email.
+-   The **Create Phishing Email** inbound action runs on the email record and uses the Email Matching Rules \(see [Set up ingestion rules for User Reported Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md)\) to determine if it is a phishing email.
 
     **Note:** The email is first verified with all the email matching rules where the **Rule Type** is set to **Deny**. If the email matches to the condition for any of the deny rule, an audit record is created in the `sn_si_phishing_email_deny_audit` table. A security incident isn’t created for such email.
 
 -   When the email is identified as a phishing email, and it matches to an email matching rule where the **Rule Type** is set to **Allow**, a phishing email record is created in the `sn_si_phishing_email` table.
--   Finally, the [Transform user-reported phishing emails to security incidents](urp-about.md#) flow is applied to convert the phishing email record to a security incident.
+-   Finally, the [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) flow is applied to convert the phishing email record to a security incident.
 
-To view the email details, navigate to **Security Incident** &gt; **Show All Phishing Emails**. A list of phishing email records are displayed. Select the date link in the Created column to view the email record.
+To view the email details, navigate to **Security Incident** &gt; **Phishing Emails** &gt; **Show All Phishing Emails**. A list of phishing email records are displayed. Select the date link in the Created column to view the email record.
 
-![Phishing email with To Rule](../image/urp-torule-email-record.png)
+\[Omitted image "urp-torule-email-record.png"\] Alt text: Phishing email with To Rule
 
 <table id="table_k3m_qxf_djb"><thead><tr><th>
 
@@ -249,15 +250,15 @@ The id assigned to the message.
 
 </td></tr><tr><td>
 
-Matched URP rule
+Matched Ingestion rule
 
 </td><td>
 
-The User Reported Phishing rule that is to be applied on this email. Select the Information icon to view additional details.
+The User Reported Phishing rule that is to be applied on this email.
 
 </td></tr><tr><td colspan="2">
 
-![URP ingestion rule](../image/urp-emailmatch-torule.png) As you can see, in this example, the **Condition** field shows that the ToRule is applied on this email and a security incident is created. See [Set up ingestion rules for User Reported Phishing](urp-about.md#) for more information on defining email matching rules.
+See [Set up ingestion rules for User Reported Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) for more information on defining email matching rules.
 
 </td></tr><tr><td>
 
@@ -265,7 +266,7 @@ State
 
 </td><td>
 
-When a new phishing email record is created in the `sn_si_phishing_email` table, the State field is set to **New**. When this email record is converted to a security incident \(see [Transform user-reported phishing emails to security incidents](urp-about.md#)\), the State field is updated to **Processed**.
+When a new phishing email record is created in the `sn_si_phishing_email` table, the State field is set to **New**. When this email record is converted to a security incident \(see [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md)\), the State field is updated to **Processed**.
 
 </td></tr><tr><td>
 
@@ -290,7 +291,7 @@ Security Incident
 
 </td><td>
 
-This field is blank when the user-reported-phishing email is first reported. When the [Transform user-reported phishing emails to security incidents](urp-about.md#) flow has been executed, this email is converted to a security incident record and the number of this record is displayed here.**Note:** Security incident is only created for the emails, which matches to an email matching rule where the **Rule Type** is set to **Allow**.
+This field is blank when the user-reported-phishing email is first reported. When the [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) flow has been executed, this email is converted to a security incident record and the number of this record is displayed here.**Note:** Security incident is only created for the emails, which matches to an email matching rule where the **Rule Type** is set to **Allow**.
 
 </td></tr><tr><td>
 
@@ -298,11 +299,11 @@ Raw headers
 
 </td><td>
 
-This field shows the complete header information extracted from the email as defined in the [Define User Reported Phishing properties](urp-about.md#) page. The headers are parsed into key value pairs and displayed in the Phishing Email Headers list.
+This field shows the complete header information extracted from the email as defined in the [Define User Reported Phishing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) page. The headers are parsed into key value pairs and displayed in the Phishing Email Headers list.
 
 </td></tr><tr><td colspan="2">
 
-![Phishing email headers](../image/urp-phishing-email-headers.png)
+\[Omitted image "urp-phishing-email-headers.png"\] Alt text: Phishing email headers
 
 </td></tr><tr><td>
 
@@ -319,7 +320,7 @@ The **Transform Phishing Email to Security Incident** flow converts or transform
 
 ### Before you begin
 
-**Note:** To enable the User Reported Phishing functionality, you must make a copy of the flow and [activate](../task/getting-started-phishing-playbook.md) it. If you have created custom inbound actions and custom flows to handle user reported phishing submissions, the flow modifications suggested here aren’t required.
+**Note:** To enable the User Reported Phishing functionality, you must make a copy of the flow and [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/getting-started-phishing-playbook.md) it. If you have created custom inbound actions and custom flows to handle user reported phishing submissions, the flow modifications suggested here aren’t required.
 
 -   Role required: sn\_si.admin
 -   Flow Designer spoke must be installed.
@@ -337,89 +338,85 @@ This flow is automatically launched when a user reported phishing email record w
 
 -   Navigate to **Flow Designer** &gt; **Designer** to view the flows available with the Security Operations spoke.
 
-    ![Security Operations Flows](../image/cj-sir-flow-phishing.png)
+    \[Omitted image "cj-sir-flow-phishing.png"\] Alt text: Security Operations Flows
 
 -   Select the **Transform Phishing Email to Security Incidents** link to view the flow.
 
 -   This flow is provided with the base system and is in **Read Only** mode and can’t be used.
 
-    Select the more icon ![More icon](../image/cj-sir-flow-more-icon.png), make a copy of the flow and open it for your use. You can now change your flow, such as modifying trigger conditions or actions, or adding and removing actions. After making the necessary changes, you must activate \(See [Activate a Security Incident Response flow](../task/getting-started-phishing-playbook.md)\) the flow so that it can be executed.![Transform Phishing Email to Security Incidents flow](../image/urp-transform-flow.png)
+    Select the more icon \[Omitted image "cj-sir-flow-more-icon.png"\] Alt text: More icon, make a copy of the flow and open it for your use. You can now change your flow, such as modifying trigger conditions or actions, or adding and removing actions. After making the necessary changes, you must activate \(See [Activate a Security Incident Response flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/getting-started-phishing-playbook.md)\) the flow so that it can be executed.\[Omitted image "urp-transform-flow.png"\] Alt text: Transform Phishing Email to Security Incidents flow
 
     This figure shows the trigger and the steps executed with the flow. The-right hand panel shows the data flow. Select on an icon to expand the step and view the details.
 
 -   Select the **Trigger** icon.
 
-    In the first step, you define or set the trigger for the flow. Specify the conditions for the trigger and task to be performed when the conditions are met. This flow is initiated when a **New** record is uploaded to the `sn_si_phishing_email` table.![Transform flow: trigger](../image/urp-transform-flow-trigger.png)
+    In the first step, you define or set the trigger for the flow. Specify the conditions for the trigger and task to be performed when the conditions are met. This flow is initiated when a **New** record is uploaded to the `sn_si_phishing_email` table.\[Omitted image "urp-transform-flow-trigger.png"\] Alt text: Transform flow: trigger
 
--   In step 1, the flow verifies if the **Create child incidents for aggregated email submissions?** flag is enabled or disabled on the [Transform user-reported phishing emails to security incidents](urp-about.md#) page.
+-   In step 1, the flow verifies if the **Create child incidents for aggregated email submissions?** flag is enabled or disabled on the [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) page.
 
-    ![Transform flow: Action 1](../image/urp-transform-flow-action1.png)
+    \[Omitted image "urp-transform-flow-action1.png"\] Alt text: Transform flow: Action 1
 
 -   In step 2, the oldest parent security incident is identified.
 
-    Notice the icon in step 2. This indicates that the Phishing Email Aggregation Subflow will be executed as part of this step.![Transform flow: Action 2](../image/urp-transform-flow-action2.png)
+    Notice the icon in step 2. This indicates that the Phishing Email Aggregation Subflow will be executed as part of this step.\[Omitted image "urp-transform-flow-action2.png"\] Alt text: Transform flow: Action 2
 
     Select the action designer icon to see a detailed view of the action. This subflow checks the phishing email and matches it with an existing security incident based on the specified criteria.
 
-    ![Transform flow: Phishing Email Aggregation subflow](../image/urp-transform-flow-action2-subflow.png)
+    \[Omitted image "urp-transform-flow-action2-subflow.png"\] Alt text: Transform flow: Phishing Email Aggregation subflow
 
     These two actions are performed when this subflow is executed. Select on the link of the first action to view additional details.
 
-    ![Transform flow: Subflow: Action](../image/urp-transform-flow-action2-subflow-action.png)
+    \[Omitted image "urp-transform-flow-action2-subflow-action.png"\] Alt text: Transform flow: Subflow: Action
 
     This action checks the emails that match the criteria for the new incoming email based on conditions such as:
 
     -   Security Incident State isn’t **Closed**.
-    -   Subject or From value match the email matching rule conditions defined \(See [Set up ingestion rules for User Reported Phishing](urp-about.md#)\).
+    -   Subject or From value match the email matching rule conditions defined \(See [Set up ingestion rules for User Reported Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md)\).
     If these conditions are met, you can see the number of records that match the criteria in the Max Results field. The oldest or the first record in the list is designated as the parent record against which the security incidents are aggregated.
 
--   Step 3 is applicable only if the **Create child incidents for aggregated email submissions?** flag was set to **No** in the [Transform user-reported phishing emails to security incidents](urp-about.md#) page.
+-   Step 3 is applicable only if the **Create child incidents for aggregated email submissions?** flag was set to **No** in the [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) page.
 
     In this case, the phishing email is associated with the security incident record and the flow ends.
 
-    ![Transform flow: Action 3](../image/urp-transform-flow-action3.png)
-
 -   If the **Create child incidents for aggregated email submissions?** is set to **Yes**, the flow continues to run and a new security incident is created based on the user-reported phishing email.
-
-    ![Transform flow: Action 4](../image/urp-transform-flow-action4.png)
 
 -   In step 5, users who received the phishing email \(employees in the To and CC list of the phishing email\) are added to the Affected Users related list in the security incident record.
 
-    ![Transform form: Action 4](../image/urp-transform-flow-action5.png)
+    \[Omitted image "urp-transform-flow-action5.png"\] Alt text: Transform form: Action 4
 
 -   In step 6, allow listed observables are filtered from the list of observables in the security incident.
 
     These allow listed observables won’t be added to the security incident.
 
-    ![Transform flow: Filter allow listed observables](../image/urp-transform-flow-action6.png)
+    \[Omitted image "urp-transform-flow-action6.png"\] Alt text: Transform flow: Filter allow listed observables
 
 -   In step 7, unknown observables from the user-reported phishing email are identified and added to the Observables related list.
 
-    ![Transform flow: Add observables](../image/urp-transform-flow-action7.png)
+    \[Omitted image "urp-transform-flow-action7.png"\] Alt text: Transform flow: Add observables
 
 -   In step 8, an email search query is generated which is a combination of the Subject and the From address of the email.
 
     This information is useful in identifying the employees in the organization who have been phished.
 
-    ![Transform flow: Create email search query](../image/urp-transform-flow-action8.png)
+    \[Omitted image "urp-transform-flow-action8.png"\] Alt text: Transform flow: Create email search query
 
 -   In step 9, the user reported phishing email is associated with the security incident and the security incident record \(created in step 4\) is updated.
 
-    ![Transform flow: Update security incident record](../image/urp-transform-flow-action9.png)
+    \[Omitted image "urp-transform-flow-action9.png"\] Alt text: Transform flow: Update security incident record
 
 -   In step 10, the parent security incident is identified and a check is made to see if it’s an open security incident record.
 
-    ![Transform flow: Look up security incident record](../image/urp-transform-flow-action10.png)
+    \[Omitted image "urp-transform-flow-action10.png"\] Alt text: Transform flow: Look up security incident record
 
 -   If the parent security is active, notes are added to the child and the parent security incident records indicating how they’re associated with each other.
 
 -   In step 12, if no Affected Users were found \(in step 5 of the flow\), a worknote is added and the security incident record is updated.
 
-    ![Transform flow: Add worknote for unmatched users](../image/urp-transform-flow-action12.png)
+    \[Omitted image "urp-transform-flow-action12.png"\] Alt text: Transform flow: Add worknote for unmatched users
 
 -   In step 13, a worknote is added with the list of allow listed observables.
 
-    ![Transform flow: Add list of allow listed observables](../image/urp-transform-flow-action13.png)
+    \[Omitted image "urp-transform-flow-action13.png"\] Alt text: Transform flow: Add list of allow listed observables
 
 
 ### What to do next
@@ -428,9 +425,7 @@ You can select **Test** to simulate the actions in the flow before it is publish
 
 Select **Executions** to view the execution details of the flow.
 
-![Transform flow: Execution details](../image/urp-transform-flow-execute.png)
-
-When the flow has been executed, the phishing email record is converted to a security incident. See [Security incident records created from phishing email records](urp-about.md#).
+When the flow has been executed, the phishing email record is converted to a security incident. See [Security incident records created from phishing email records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md).
 
 ## Security incident records created from phishing email records
 
@@ -438,11 +433,11 @@ Phishing email records stored in the `sn_si_phishing_email` table are converted 
 
 To view the security incident associated with the phishing email record, click **Security incident** &gt; **Phishing Email** &gt; **Show All Phishing emails**.
 
-![Phishing email table](../image/urp-phish-email-table.png)
+\[Omitted image "urp-phish-email-table.png"\] Alt text: Phishing email table
 
 Click the link in the Security Incident column associated with the phishing email record. The security incident details are displayed.
 
-![Security incident associated with the phishing email record](../image/urp-phish-email-sec-rec.png)
+\[Omitted image "urp-phish-email-sec-rec.png"\] Alt text: Security incident associated with the phishing email record
 
 ### Related lists
 
@@ -452,29 +447,29 @@ Scroll down to the Related Links section of the security incident and click **Sh
 
 Click the **Child Security Incidents** tab. You can see a list of child security incidents associated with the parent security incident based on the aggregation logic that has been applied. For every child record added, an automated system activity is added \(in the Worknote section\) to the parent record. This notifies the security analyst about the aggregated child record.
 
-**Note:** You can see the child security incidents here only if the **Create child incidents for aggregated emails submissions** flag is set to **Yes** in the User Reported Phishing Properties page. See [Define User Reported Phishing properties](urp-about.md#) for the details.
+**Note:** You can see the child security incidents here only if the **Create child incidents for aggregated emails submissions** flag is set to **Yes** in the User Reported Phishing Properties page. See [Define User Reported Phishing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) for the details.
 
 **Associated phishing emails**
 
 Click the **Associated Phish Emails** tab. You see a list of phishing email records \(duplicate records\) associated with the parent phishing email record.
 
-![Associcated phishing email records](../image/urp-sec-rec-ass-phish-emails.png)
+\[Omitted image "urp-sec-rec-ass-phish-emails.png"\] Alt text: Associcated phishing email records
 
 **Associated phishing email headers**
 
 Click the **Associated Phish Emails** tab. You see the phishing email header details that have been captured as part of the security incident. You can view the rolled-up headers of all child records and phishing email records aggregated to the parent security incident.
 
-![Associated phishing email headers](../image/urp-sec-rec-assphish-email-head.png)
+\[Omitted image "urp-sec-rec-assphish-email-head.png"\] Alt text: Associated phishing email headers
 
 ### Allowed list observables
 
-As the [Transform user-reported phishing emails to security incidents](urp-about.md#) flow is being executed, you can monitor the status of the security incident. When certain observables are marked as allowed list observables, they aren’t added to the Observables Related list. By marking the observables to the allow list, you can ensure that only the important details are displayed. For example, if www.google.com is one of the URLs that has been tagged as the allowed list, the following system message is displayed. Allowed list observables ensure that only the important observables are monitored.
+As the [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) flow is being executed, you can monitor the status of the security incident. When certain observables are marked as allowed list observables, they aren’t added to the Observables Related list. By marking the observables to the allow list, you can ensure that only the important details are displayed. For example, if www.google.com is one of the URLs that has been tagged as the allowed list, the following system message is displayed. Allowed list observables ensure that only the important observables are monitored.
 
 ### Capturing unmatched users
 
 Some email ids in the To and CC list of the phishing email may not belong to users in the organization. These email ids are categorized as unmatched users and aren’t included in the Affected Users related list. A worknote indicating that these are unmatched users is displayed.
 
-![Unmatched users](../image/urp-sec-rec-unmatch1.png)
+\[Omitted image "urp-sec-rec-unmatch1.png"\] Alt text: Unmatched users
 
 ### User Reported Phishing in the Security Analyst Workspace
 
@@ -506,7 +501,7 @@ This section covers some of the frequently asked questions about the enhanced Us
 
     By default, the User Reported Phishing functionality has been disabled.
 
-    To enable this feature, you must make a copy of the read-only [Transform user-reported phishing emails to security incidents](urp-about.md#) flow and activate it before use.
+    To enable this feature, you must make a copy of the read-only [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/urp-about.md) flow and activate it before use.
 
 2.  While ingesting phishing emails and converting them into security incidents, what precautionary measures are used to handle malicious links and attachments in the phishing emails?
 

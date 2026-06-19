@@ -2,6 +2,7 @@
 title: Begin a discussion from a Talent Feedback request
 description: You can choose to begin a discussion regarding a talent feedback request using the Discuss option.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/discussion-skill-feedback.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

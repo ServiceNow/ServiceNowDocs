@@ -2,6 +2,7 @@
 title: Configure Financial Services Know Your Customer
 description: Review the components that are installed with the Financial Services Know Your Customer \(KYC\) application. You can modify the components as needed for your organization's business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-configure.html
 release: australia
 product: Financial Services Know Your Customer \(KYC\)
 classification: financial-services-know-your-customer-kyc
@@ -17,7 +18,7 @@ Review the components that are installed with the Financial Services Know Your C
 
 ## Before you begin
 
-Financial Services Know Your Customer is automatically installed when you install certain Financial Services Operations applications. For more information, see [Components installed with Financial Services Know Your Customer](../reference/fso-kyc-installed-with.md).
+Financial Services Know Your Customer is automatically installed when you install certain Financial Services Operations applications. For more information, see [Components installed with Financial Services Know Your Customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-installed-with.md).
 
 Role required: sn\_bom\_kyc.admin and admin
 
@@ -27,8 +28,8 @@ Role required: sn\_bom\_kyc.admin and admin
 
     |Task|Description|
     |----|-----------|
-    |**Configure service definitions**|[Configure service definitions](../../fso-common/task/configure-service-definitions.md) to enable specific views for KYC service cases and tasks.|
-    |**Configure record producers**|[Create or modify record producers](../../fso-common/task/create-modify-record-producers-fso-apps.md) to define request forms.|
-    |**Edit or create new flows**|[Edit or create new flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md) using ServiceNow® Workflow Studio.|
+    |**Configure service definitions**|[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-service-definitions.md) to enable specific views for KYC service cases and tasks.|
+    |**Configure record producers**|[Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/create-modify-record-producers-fso-apps.md) to define request forms.|
+    |**Edit or create new flows**|[Edit or create new flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md) using ServiceNow® Workflow Studio.|
 
 

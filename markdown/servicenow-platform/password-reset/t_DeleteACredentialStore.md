@@ -2,6 +2,7 @@
 title: Delete a connection to a credential store for Password Reset
 description: Important: Before you delete the connection to a credential store, check all Password Reset processes to ensure that the credential store is not in use. If the credential store is being used by a process, update the process before deleting the credential store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_DeleteACredentialStore.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -26,5 +27,5 @@ Role required: password\_reset\_admin or password\_reset\_credential\_manager
 2.  In the Actions choice list, select **Delete**.
 
 
-**Parent Topic:**[Credential stores for Password Reset](../concept/c_CredentialStores.md)
+**Parent Topic:**[Credential stores for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_CredentialStores.md)
 

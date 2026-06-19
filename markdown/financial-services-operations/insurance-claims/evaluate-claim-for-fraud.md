@@ -2,13 +2,14 @@
 title: Evaluate a commercial claim for fraud
 description: A special investigations agent can review a claim to determine whether a claim is fraudulent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/evaluate-claim-for-fraud.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Commercial Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Evaluate a commercial claim for fraud
@@ -29,11 +30,11 @@ When business rule logic identifies a claim case as a 'close proximity' claim- a
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the special investigation tasks list.
 
-<table id="choicetable_bn1_2hs_25b"><tbody><tr><td id="d61452e94">
+<table id="choicetable_bn1_2hs_25b"><tbody><tr><td id="d63284e94">
 
 **From the Special Investigation tasks list**
 

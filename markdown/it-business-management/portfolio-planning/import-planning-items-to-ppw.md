@@ -2,6 +2,7 @@
 title: Import records to Portfolio Planning Workspace
 description: Import records from Project Portfolio Management, after the relevant table maps, fields maps, and choice maps are configured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/import-planning-items-to-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,7 +30,7 @@ Role required: sn\_align\_core.apw\_admin
 
 4.  On the Create Import Request form, fill in the date range for importing the records.
 
-    ![Fill in the dates to import records.](../../apw-internal-integrations/images/create-import-request.png "Create Import Request")
+    \[Omitted image "create-import-request.png"\] Alt text: Fill in the dates to import records.
 
 5.  Select **OK**.
 

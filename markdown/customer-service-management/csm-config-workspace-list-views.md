@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace list views
 description: The CSM Configurable Workspace list views provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-list-views.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -26,7 +29,7 @@ CSM Configurable Workspace presents the Core UI lists and forms in one interface
 
 List pages for CSM Configurable Workspace are created with the List page template in UI Builder. The List page template includes the Record List component bundle and List menu component.
 
-![CSM Configurable Workspace includes several filtered lists that display database table, record, and field data](../image/csm-config-ws-lists.png "CSM Configurable Workspace lists")
+\[Omitted image "csm-config-ws-lists.png"\] Alt text: CSM Configurable Workspace includes several filtered lists that display database table, record, and field data
 
 ## Record List component bundle
 
@@ -52,7 +55,7 @@ The List menu component is configured by admins in UI Builder. For information o
 
 The Predicate Builder component enables agents to set conditions from the list header to filter which records appear in a list.
 
-![Predicate Builder for a Configurable Workspace](../../../administer/workspace/image/configurable-workspace-predicate-builder.png)
+\[Omitted image "configurable-workspace-predicate-builder.png"\] Alt text: Predicate Builder for a Configurable Workspace
 
 The Predicate Builder is configured by admins in UI Builder. For more information, see [Predicate Builder UIB Setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-predicate-builder/overview).
 
@@ -64,8 +67,8 @@ For example, an agent may have the Open Cases list open and receive a link to a 
 
 ## Additional information
 
-For more information about working with lists, see the following topics in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) documentation:
+For more information about working with lists, see the following topics in the Configurable Workspace UI documentation:
 
--   [Administering lists for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-lists-configurable-workspace.md)
--   [Using lists in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-lists-configurable-workspace.md)
+-   Administering lists for Configurable Workspace
+-   Using lists in Configurable Workspace
 

@@ -2,6 +2,7 @@
 title: Remote Process Sync system properties
 description: Refer to the list of system properties for Remote Process Sync to learn how to manage your process-oriented, multi-instance integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-system-properties.html
 release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync

@@ -2,6 +2,7 @@
 title: Monitor ongoing work in service channels and queues​
 description: Monitor the incoming data and on-going work done by your agents against each service channel and queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/monitor-service-channels-configurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -44,5 +45,5 @@ Drill-down into the specific record and perform the following actions against ea
 3.  Monitor ongoing work from agents.
 
 
-**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](../concept/configurable-channels-workforce-optimization-itsm.md)
+**Parent Topic:**[Routing work items using Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-channels-workforce-optimization-itsm.md)
 

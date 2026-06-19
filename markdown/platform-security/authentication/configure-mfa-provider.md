@@ -2,6 +2,7 @@
 title: Configure MFA Provider
 description: Configure SMS and Email with the Provider to ensure every user can login securely.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-mfa-provider.html
 release: australia
 product: Authentication
 classification: authentication
@@ -28,7 +29,7 @@ Role required: adaptive\_auth\_admin
     -   Email Provider Configuration
     -   Twilio Provider Configuration
     -   Infobip Provider Configuration.
-    ![MFA Providers](../images/mfa-provider.png)
+    \[Omitted image "mfa-provider.png"\] Alt text: MFA Providers
 
 2.  To create a new provider, click **New**.
 
@@ -64,7 +65,7 @@ Provider
 
 </td><td>
 
-Choose **Twilio** or **Custom**.**Note:** To configure Twilio, see [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md).
+Choose **Twilio** or **Custom**.**Note:** To configure Twilio, see Configure Notify with Twilio.
 
  When choosing **Custom**, you need to specify the following fields:
 

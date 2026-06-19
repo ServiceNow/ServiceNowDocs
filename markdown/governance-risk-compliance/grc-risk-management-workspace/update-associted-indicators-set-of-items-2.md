@@ -2,6 +2,7 @@
 title: Update associated GRC indicators for a set of items
 description: You can update all the items belonging to a GRC content record so each item is individually related to the PA indicator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/update-associted-indicators-set-of-items-2.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -32,5 +33,5 @@ Role required: sn\_risk.manager or sn\_compliance.manager
     All the risks or controls related to the risk statement or policy statement are automatically associated with all the risk statement or policy indicators of the statement. Also, if the indicator has a breakdown that matches the risk or entity of the control \(for example a Business Service breakdown\), the **Breakdown** and **Element** fields for the relationship are automatically filled in.
 
 
-**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](../../grc-risk/concept/pa-indicators-risk.md)
+**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.md)
 

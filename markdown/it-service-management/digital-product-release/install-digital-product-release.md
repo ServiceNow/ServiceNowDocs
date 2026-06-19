@@ -2,6 +2,7 @@
 title: Install Digital Product Release
 description: You can install the Digital Product Release application \(sn\_dpr\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/install-digital-product-release.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -53,7 +54,7 @@ The following items are installed with Digital Product Release:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Digital Product Release](../reference/installed-with-dpr.md).
+For more information, see [Components installed with Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/installed-with-dpr.md).
 
 ## Procedure
 

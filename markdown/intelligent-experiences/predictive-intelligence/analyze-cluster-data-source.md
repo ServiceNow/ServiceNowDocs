@@ -2,6 +2,7 @@
 title: Analyze a cluster with Cluster Insight
 description: Analyze a cluster by a field available on the source table. With the Cluster Insight check box, you can add a filter condition on your input field when you review the list of results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/analyze-cluster-data-source.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -22,7 +23,7 @@ Analyze a cluster by a field available on the source table. With the Cluster Ins
 
 ## About this task
 
-Drill down into a cluster and filter its records with Cluster Insight. You can add cluster insight analysis when creating a solution or editing an existing solution. For more information, see [https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006](https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006).![Create Cluster Insight table check box in the Clustering Definition page.](../images/clusterinsight_table_check.png)
+Drill down into a cluster and filter its records with Cluster Insight. You can add cluster insight analysis when creating a solution or editing an existing solution. For more information, see [https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006](https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006).\[Omitted image "clusterinsight\_table\_check.png"\] Alt text: Create Cluster Insight table check box in the Clustering Definition page.
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Drill down into a cluster and filter its records with Cluster Insight. You can a
 
 ## Result
 
-In the **Solutions** \[ml\_solution\] table, open the trained solution, then open the **Cluster Visualization** tab. When you select a cluster, all records included in the cluster are displayed as a list. Using the filter icon \(![](../../../common/image/List_FilterIcon.png)\), open the list's filter conditions. Search for the input field from your source table. For example, if your source table is Incident and the input field is Short Description, you could filter for records containing the word "help" in the Short Description.
+In the **Solutions** \[ml\_solution\] table, open the trained solution, then open the **Cluster Visualization** tab. When you select a cluster, all records included in the cluster are displayed as a list. Using the filter icon \(\[Omitted image "List\_FilterIcon.png"\]\), open the list's filter conditions. Search for the input field from your source table. For example, if your source table is Incident and the input field is Short Description, you could filter for records containing the word "help" in the Short Description.
 
 To make other dimensions from your source table available for filtering, add them as input fields on the solution definition form.
 

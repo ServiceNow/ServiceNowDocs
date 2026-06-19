@@ -2,6 +2,7 @@
 title: Agentic Playbooks reference
 description: Reference topics provide associated roles and guidelines for configuring Agentic Playbooks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/agentic-playbook-reference.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

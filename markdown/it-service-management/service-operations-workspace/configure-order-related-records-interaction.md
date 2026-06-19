@@ -2,6 +2,7 @@
 title: Configure the display of requester related records in an interaction
 description: For an interaction, ensure that related records of a requester are displayed as intended for Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-order-related-records-interaction.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,7 +24,7 @@ View the order of the My Requests - Requested item predicate EVAM view config.
 
 ## About this task
 
-The records related to a requester are displayed when an agent views the requester information in an interaction. For information about agent actions on an interaction, see [Work on an interaction in Service Operations Workspace](work-on-interaction-sow.md).
+The records related to a requester are displayed when an agent views the requester information in an interaction. For information about agent actions on an interaction, see [Work on an interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/work-on-interaction-sow.md).
 
 ## Procedure
 
@@ -36,5 +37,5 @@ The records related to a requester are displayed when an agent views the request
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](../concept/configure-interaction-management-sow.md)
+**Parent Topic:**[Configuring Interaction Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-interaction-management-sow.md)
 

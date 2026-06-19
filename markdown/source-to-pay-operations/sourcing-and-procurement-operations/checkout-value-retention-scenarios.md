@@ -2,6 +2,7 @@
 title: Checkout data loss scenarios
 description: The data you enter during checkout are lost in an incomplete checkout process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/checkout-value-retention-scenarios.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -24,5 +25,5 @@ This happens if you perform any of the following actions:
 
 However, if you refresh the page, values on the current and previous steps are retained.
 
-**Parent Topic:**[Complete your checkout](../task/complete-your-checkout.md)
+**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
 

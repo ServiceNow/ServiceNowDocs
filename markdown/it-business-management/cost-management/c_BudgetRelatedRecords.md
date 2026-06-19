@@ -2,6 +2,7 @@
 title: Budget related records
 description: Budgets are related to additional records, displayed as related lists on its form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/c\_BudgetRelatedRecords.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -20,5 +21,5 @@ The following are the related lists on a Budget record. You can add additional r
 -   Cost Centers: Shows the cost centers that are a member of this budget.
 -   Expense Allocations: Shows all of the expense allocation records during the budget time period for all of the budget's cost centers.
 
-**Parent Topic:**[Cost Management](../reference/r_CostManagement.md)
+**Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_CostManagement.md)
 

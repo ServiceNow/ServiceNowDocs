@@ -2,11 +2,12 @@
 title: Configure the Learning Enrollment report
 description: Configure the Learning Enrollment report in Workday to retrieve user's learning enrollments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/wd-learning-confrep1.html
 release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Workday Learning Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -33,27 +34,27 @@ User with access to report creation and the Learning Enrollments data source.
 
 1.  Create Lookup Related Value type calculated field with name, **CF\_assigned\_by\_empid**.
 
-    ![](../image/wd-learning-prop-enrol1.png)
+    \[Omitted image "wd-learning-prop-enrol1.png"\] Alt text:
 
 2.  Create Lookup Related Value type calculated field with name, **cf\_initiator\_wid**.
 
-    ![](../image/wd-learning-prop-enrol2.png)
+    \[Omitted image "wd-learning-prop-enrol2.png"\] Alt text:
 
 3.  Create the True/False condition type calculated field with name, **CF\_status\_successfully\_completed**.
 
-    ![](../image/wd-learning-prop-enrol3.png)
+    \[Omitted image "wd-learning-prop-enrol3.png"\] Alt text:
 
 4.  Create Extract Multi-instance type calculated field with name, **CF\_enrollment\_successfully\_completed** and select **CF\_status\_successfully\_completed** as the return value.
 
-    ![](../image/wd-learning-prop-enrol4.png)
+    \[Omitted image "wd-learning-prop-enrol4.png"\] Alt text:
 
 5.  Create the True/False condition type calculated field with name, **Initiator = Worker**.
 
-    ![](../image/wd-learning-prop-enrol5.png)
+    \[Omitted image "wd-learning-prop-enrol5.png"\] Alt text:
 
 6.  Create the Lookup Related Value type calculated field with name, **cf\_initiator**.
 
-    ![](../image/wd-learning-prop-enrol6.png)
+    \[Omitted image "wd-learning-prop-enrol6.png"\] Alt text:
 
 7.  Create the Learning Enrollment report.
 
@@ -71,43 +72,43 @@ User with access to report creation and the Learning Enrollments data source.
 
     7.  Click **Ok**.
 
-        ![](../image/wd-learning-prop-enrol7.png)
+        \[Omitted image "wd-learning-prop-enrol7.png"\] Alt text:
 
     8.  Select the report business object and report fields.
 
-        ![](../image/wd-learning-prop-enrol8.png) ![](../image/wd-learning-prop-enrol9.png)
+        \[Omitted image "wd-learning-prop-enrol8.png"\] Alt text: \[Omitted image "wd-learning-prop-enrol9.png"\] Alt text:
 
     9.  In the **Group Column Headings** section, select all business objects as shown here.
 
         The **Group Column Heading** for each business object is empty.
 
-        ![](../image/wd-learning-prop-enrol10.png)
+        \[Omitted image "wd-learning-prop-enrol10.png"\] Alt text:
 
     10. In the **Filter** section, select the values as shown here.
 
         Be sure to add the parentheses.
 
-        ![](../image/wd-learning-prop-enrol11.png)
+        \[Omitted image "wd-learning-prop-enrol11.png"\] Alt text:
 
     11. In the **Prompts** section, select the **Populate undefined prompt defaults** check box.
 
-        ![](../image/wd-learning-prop-enrol12.png)
+        \[Omitted image "wd-learning-prop-enrol12.png"\] Alt text:
 
     12. Under the **Prompts** section, select values as shown here.
 
         Make sure that the values of **Label For Prompt XML Alias** for all prompt fields are as shown.
 
-        ![](../image/wd-learning-prop-enrol13.png)
+        \[Omitted image "wd-learning-prop-enrol13.png"\] Alt text:
 
     13. In the **Advanced** section, select the **Enable as webservice** check box and click **Ok**.
 
     14. After report configuration is done, click the three dots icon and navigate to **Web Services** &gt; **View URLs**.
 
-        ![](../image/wd-learning-prop-enrol14.png)
+        \[Omitted image "wd-learning-prop-enrol14.png"\] Alt text:
 
     15. Select time range and click **Ok**.
 
-        ![](../image/wd-learning-prop-enrol15.png)
+        \[Omitted image "wd-learning-prop-enrol15.png"\] Alt text:
 
     16. In the View URLs Web Service page, click the active link you want to generate.
 

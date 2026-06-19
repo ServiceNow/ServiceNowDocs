@@ -2,6 +2,7 @@
 title: Create a process step filter manually
 description: Create a process step filter to meet your needs and apply it to view the result on the process graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/create-transition-manually.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -29,13 +30,13 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 4.  Select **Process steps** from the Advanced filters area.
 
-    ![Transitions from Advanced filters area](../image/transition-location-1.png)
+    \[Omitted image "transition-location-1.png"\] Alt text: Transitions from Advanced filters area
 
     The Process step filter form is displayed.
 
 5.  Fill the Process step filter form with the required conditions.
 
-    ![Process step filter conditions](../image/transition-filter.png)
+    \[Omitted image "transition-filter.png"\] Alt text: Process step filter conditions
 
     The predicates available are:
 
@@ -79,7 +80,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
     7.  You can copy or paste a process step filter by selecting the **Copy** or **Paste** option from the list.
 
-        ![Copy or paste a filter](../image/copy-process-filter.png)
+        \[Omitted image "copy-process-filter.png"\] Alt text: Copy or paste a filter
 
     8.  When you have finished creating your filter, select **Apply** to save and return to **Analyst workbench**.
 
@@ -88,5 +89,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 6.  When the task completes, select **View result** in the Scheduled tasks panel of Analyst workbench.
 
 
-**Parent Topic:**[Applying a process step filter on an activity](node-to-node-conditions.md)
+**Parent Topic:**[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/node-to-node-conditions.md)
 

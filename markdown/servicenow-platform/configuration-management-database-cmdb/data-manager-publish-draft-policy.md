@@ -2,6 +2,7 @@
 title: Publish a draft CMDB Data Manager policy
 description: If you created a draft Data Manager policy, or imported legacy certification schedules, you can activate that draft policy by publishing it in CMDB Workspace or in Service Graph Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

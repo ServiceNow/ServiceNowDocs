@@ -2,6 +2,7 @@
 title: SLA timer
 description: Use the SLA timer component to track the amount of time that is required to complete the task as defined by the matching SLA definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/sla-timer.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -37,12 +38,12 @@ In-progress
 
 </td><td>
 
-![SLA timer stage: In-progress](../image/sla-timer-inprogress.png)
+\[Omitted image "sla-timer-inprogress.png"\] Alt text: SLA timer stage: In-progress
 
 </td><td>
 
-The stage of the timer when the task SLA is in progress. You can find more information about the schedule and time on tooltip. The color code changes for in-progress state:-   ![SLA timer: 50% time lapsed](../image/sla-timer-inprogressyellow.png)green to yellow: When the time to complete reaches 50%
--   ![SLA timer: 75% time lapsed](../image/sla-timer-inprogressorange.png)yellow to orange: When the time to complete reaches 25%
+The stage of the timer when the task SLA is in progress. You can find more information about the schedule and time on tooltip. The color code changes for in-progress state:-   \[Omitted image "sla-timer-inprogressyellow.png"\] Alt text: SLA timer: 50% time lapsedgreen to yellow: When the time to complete reaches 50%
+-   \[Omitted image "sla-timer-inprogressorange.png"\] Alt text: SLA timer: 75% time lapsedyellow to orange: When the time to complete reaches 25%
 
 </td></tr><tr><td>
 
@@ -50,7 +51,7 @@ Breached
 
 </td><td>
 
-![SLA timer state: Breached](../image/sla-timer-breached.png)
+\[Omitted image "sla-timer-breached.png"\] Alt text: SLA timer state: Breached
 
 </td><td>
 
@@ -62,7 +63,7 @@ Cancelled
 
 </td><td>
 
-![SLA timer state: Cancelled](../image/sla-timer-cancelled.png)
+\[Omitted image "sla-timer-cancelled.png"\] Alt text: SLA timer state: Cancelled
 
 </td><td>
 
@@ -74,7 +75,7 @@ Paused
 
 </td><td>
 
-![SLA timer state: Paused](../image/sla-timer-pause.png)
+\[Omitted image "sla-timer-pause.png"\] Alt text: SLA timer state: Paused
 
 </td><td>
 
@@ -86,7 +87,7 @@ Achieved \(2010 SLA engine\)
 
 </td><td>
 
-![SLA timer state: Achieved](../image/sla-timer-achieved.png)
+\[Omitted image "sla-timer-achieved.png"\] Alt text: SLA timer state: Achieved
 
 </td><td>
 
@@ -98,7 +99,7 @@ Completed
 
 </td><td>
 
-![SLA timer state: Completed](../image/sla-timer-completed.png)
+\[Omitted image "sla-timer-completed.png"\] Alt text: SLA timer state: Completed
 
 </td><td>
 
@@ -110,12 +111,12 @@ Out of Schedule
 
 </td><td>
 
-![SLA timer state: Out-of-schedule](../image/sla-timer-out-of-schedule.png)
+\[Omitted image "sla-timer-out-of-schedule.png"\] Alt text: SLA timer state: Out-of-schedule
 
 </td><td>
 
 The stage of the timer when the task SLA goes out-of-schedule. You can find more information about the schedule and time on tooltip.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Service Level Management](exploring-slm.md)
+</table>**Parent Topic:**[Exploring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/exploring-slm.md)
 

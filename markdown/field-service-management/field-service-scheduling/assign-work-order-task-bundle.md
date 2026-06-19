@@ -2,6 +2,7 @@
 title: Assign a work order task bundle
 description: Assign work order task bundles so agents can plan their work effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/assign-work-order-task-bundle.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

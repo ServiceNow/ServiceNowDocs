@@ -2,6 +2,7 @@
 title: Source requests from Enterprise Asset workspace
 description: You can create a request in the Service Catalog application and source that request from the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/source-requests-from-workspace.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

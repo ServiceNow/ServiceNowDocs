@@ -2,6 +2,7 @@
 title: Customization properties table for Google Maps
 description: Customization properties for Google Maps are explained in the Google Maps Properties table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-customization-prop-table-f-g-maps.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Description
 
 Defines which method of authentication should be used for Google Mapsgoogle.maps.method
 
-**Note:** The "Name of the customization property" column refers to the customization properties mentioned in the [Customization properties for Google Maps](../concept/crisis-map-customization-properties-for-g-maps.md) topic.
+**Note:** The "Name of the customization property" column refers to the customization properties mentioned in the [Customization properties for Google Maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-customization-properties-for-g-maps.md) topic.
 
 </td><td>
 
@@ -113,5 +114,5 @@ Enable this property only when you want to alter the Google map's behavior based
 -   Type: yes or no
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customization properties for Google Maps](../concept/crisis-map-customization-properties-for-g-maps.md)
+</table>**Parent Topic:**[Customization properties for Google Maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-customization-properties-for-g-maps.md)
 

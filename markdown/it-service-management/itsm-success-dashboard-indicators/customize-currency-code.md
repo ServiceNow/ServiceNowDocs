@@ -2,6 +2,7 @@
 title: Modify the currency code for ITSM Success Dashboard indicators
 description: Modify the currency code for ITSM Success Dashboard indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/customize-currency-code.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -34,5 +35,5 @@ Role required: sn\_sd.success\_dashboard\_admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Success Dashboard indicators KPIs](config-kpis-sdb.md)
+**Parent Topic:**[Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
 

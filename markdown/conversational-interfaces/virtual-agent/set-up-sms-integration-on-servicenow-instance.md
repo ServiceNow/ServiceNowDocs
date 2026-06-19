@@ -2,11 +2,12 @@
 title: Set up SMS integration on ServiceNow instance
 description: Set up conversational SMS on a ServiceNow instance to enable customers to seamlessly talk to virtual or live agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/set-up-sms-integration-on-servicenow-instance.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Configure, Conversational SMS Integration with AWS End User Messaging, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Procure an Amazon Web Services \(AWS\) account with the administrative access to complete the setup of SMS integration and ensure to set up integration on Amazon Web Services before this. To learn how to set up integration on AWS, see [Set up SMS End User Messaging Service and AWS resources](set-up-sms-integration-on-amazon-web-services.md).
+Procure an Amazon Web Services \(AWS\) account with the administrative access to complete the setup of SMS integration and ensure to set up integration on Amazon Web Services before this. To learn how to set up integration on AWS, see [Set up SMS End User Messaging Service and AWS resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-sms-integration-on-amazon-web-services.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Procure an Amazon Web Services \(AWS\) account with the administrative access to
         |-----|-----------|
         |Name|Name of the auth token, such as AWSSMSTestAppAuthToken|
         |Description|Description of the auth token.|
-        |Secret|Key value generated while uploading the key material to KMS key during the AWS setup. To learn more about key value, see [Set up SMS End User Messaging Service and AWS resources](set-up-sms-integration-on-amazon-web-services.md).|
+        |Secret|Key value generated while uploading the key material to KMS key during the AWS setup. To learn more about key value, see [Set up SMS End User Messaging Service and AWS resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-sms-integration-on-amazon-web-services.md).|
         |Domain|Domain of the hash message, such as global.|
 
     3.  Select **Update**.
@@ -220,5 +221,5 @@ AWS IAM Auth.
 </table>    5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](../concept/configure-ci-sms-with-aws.md)
+**Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)
 

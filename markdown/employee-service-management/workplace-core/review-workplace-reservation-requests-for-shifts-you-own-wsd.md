@@ -2,6 +2,7 @@
 title: Review workplace reservations for shifts that you own
 description: Review the workplace reservations and the reservation requests made for the shifts that you own in Workplace Core. You can identify pending requests and work with your workplace manager to resolve them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/review-workplace-reservation-requests-for-shifts-you-own-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -37,5 +38,5 @@ Role required: sn\_wsd\_core.workplace\_shift\_owner
 4.  If you are viewing employee requests, note any requests in the **Pending** state so you can work with your workplace manager to resolve them.
 
 
-**Parent Topic:**[Managing workplace shifts that you own](../concept/managing-shifts-you-own-wsd.md)
+**Parent Topic:**[Managing workplace shifts that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-shifts-you-own-wsd.md)
 

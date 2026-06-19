@@ -2,6 +2,7 @@
 title: Set up triggers for the Aha! spoke
 description: Set up triggers for the Aha! spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.Configure endpoint for webhooks in the Aha! that support the token authentication.Add the endpoint URL that is generated in your ServiceNow instance in the Aha! account to enable webhooks to connect with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/aha-ext-triggers.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,19 +38,19 @@ Role required: flow\_designer and connection\_admin
 
 4.  Locate the **Aha! Spoke** endpoint and click **View Details**.
 
-    ![](../image/aha-ext-triggers1.jpg)
+    \[Omitted image "aha-ext-triggers1.jpg"\] Alt text:
 
 5.  For the **Aha! External Trigger** end point, click **Configure**.
 
-    ![](../image/aha-ext-triggers2.jpg)
+    \[Omitted image "aha-ext-triggers2.jpg"\] Alt text:
 
 6.  Select the user who can trigger the endpoint and click **Activate**.
 
-    ![](../image/aha-ext-triggers3.jpg)
+    \[Omitted image "aha-ext-triggers3.jpg"\] Alt text:
 
 7.  Copy the generated endpoint URL.
 
-    ![](../image/aha-ext-triggers4.jpg)
+    \[Omitted image "aha-ext-triggers4.jpg"\] Alt text:
 
 
 ## Add the endpoint URL in Aha!
@@ -72,11 +73,11 @@ Role required: admin
 
 5.  On the form, for **Hook URL** paste the generated endpoint URL that was generated after you configured triggers in the ServiceNow instance.
 
-    For more information, see [Configure triggers in ServiceNow instance](aha-ext-triggers.md#).
+    For more information, see [Configure triggers in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aha-ext-triggers.md).
 
 6.  Select the activities and users as per your requirement.
 
-    For the list supported events, see the [Spoke triggers](../concept/aha-spoke.md#section_wjk_vm2_t3c) section.
+    For the list supported events, see the [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aha-spoke.md) section.
 
 7.  Select the **Valid certificate**, **Reduce webhook delay**, and **Enable** check boxes.
 

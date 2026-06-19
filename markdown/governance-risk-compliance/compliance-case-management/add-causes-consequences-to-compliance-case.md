@@ -2,6 +2,7 @@
 title: Add a cause and consequence to a compliance case
 description: Define the root cause for the reported compliance case or event and its consequences on the organization by using the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/add-causes-consequences-to-compliance-case.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -27,7 +28,7 @@ You can add multiple causes to a compliance case or event and define a primary c
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list ![](../../grc-cam-workspace/image/ws-list-icon.png) icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
 
 3.  From the list, select **All Cases**.
 
@@ -37,13 +38,13 @@ You can add multiple causes to a compliance case or event and define a primary c
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values on the Cause and Consequence form, see [Cause and Consequence form](../reference/cause-consequence-form.md).
+    For a description of the field values on the Cause and Consequence form, see [Cause and Consequence form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/cause-consequence-form.md).
 
 7.  Select **Save**.
 
 
--   **[Cause and Consequence form](../reference/cause-consequence-form.md)**  
+-   **[Cause and Consequence form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/cause-consequence-form.md)**  
 Use the Cause and Consequence form to define the cause and consequence that a case has on your organization in the GRC: Compliance Case Management application.
 
-**Parent Topic:**[Using Compliance Case Management](../concept/use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

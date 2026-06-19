@@ -2,6 +2,7 @@
 title: NowWebThemeable protocol - iOS
 description: The NowWebThemeable protocol provides properties that enable you to override the colors used within web pages hosted on your ServiceNow instance in a native web view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -21,9 +22,9 @@ public protocol NowWebThemeable {
 }
 ```
 
-The [NowWebColoring](../../NowWebColoring/concept/NowWebColoringiOSProtocol.md) protocol contains **NowUIColoring**. This property is used to reference default color variables that NowWebThemeable can use.
+The [NowWebColoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebColoringiOSProtocol.md) protocol contains **NowUIColoring**. This property is used to reference default color variables that NowWebThemeable can use.
 
-For additional information on how to theme the UI, see [Use NowUIColoring to theme NowWebTheme and NowChatTheme](../../../../../../integrate/guides/mobile_sdk/mobile_sdk-android/reference/mobsdk-and-color-theming.md) in the Mobile SDK Developer Guide - iOS.
+For additional information on how to theme the UI, see [Use NowUIColoring to theme NowWebTheme and NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/mobsdk-and-color-theming.md) in the Mobile SDK Developer Guide - iOS.
 
 ## Define WebColors using default colors
 
@@ -131,5 +132,5 @@ func webViewController(for url: URL, delegate: NowWebViewControllerDelegate) -> 
 }
 ```
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

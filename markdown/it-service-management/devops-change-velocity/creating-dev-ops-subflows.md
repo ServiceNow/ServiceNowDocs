@@ -2,6 +2,7 @@
 title: Creating DevOps subflows
 description: For user-created integrations, create a DevOps Workflow Studio subflow to collect and transform data from the tool you are integrating.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/creating-dev-ops-subflows.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -15,9 +16,9 @@ breadcrumb: [User created, Integrate, DevOps Change Velocity, IT Service Managem
 
 For user-created integrations, create a DevOps Workflow Studio subflow to collect and transform data from the tool you are integrating.
 
-ServiceNow [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) is a ServiceNow AI Platform feature your integration developer can use to automate processes using a sequence of actions. Trigger conditions start the flow, and variables pass information between actions.
+ServiceNow  is a ServiceNow AI Platform feature your integration developer can use to automate processes using a sequence of actions. Trigger conditions start the flow, and variables pass information between actions.
 
-See [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for information on how to create a subflow.
+See  Subflows for information on how to create a subflow.
 
 ## Notification capability subflow
 
@@ -239,7 +240,7 @@ N/A
     ```
 
 
-![DevOps Notification Coding Tool Flow](../image/dev-ops-notification-coding-flow.png "DevOps Notification capability flow diagram example - Coding tool")
+\[Omitted image "dev-ops-notification-coding-flow.png"\] Alt text: DevOps Notification Coding Tool Flow
 
 ## Connect capability subflow
 
@@ -269,7 +270,7 @@ Label: current
 
 Outputs
 
- See [subflow outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+ See subflow outputs.
 
 </td><td>
 
@@ -298,7 +299,7 @@ String message displayed on the form for connection failure. The variable is an 
     The connection\_state attribute could not be updated for an unknown reason.
 
 
-![DevOps Connect Orchestration Tool](../image/dev-ops-connect-orch-flow.png "DevOps Connect capability flow diagram example - Orchestration tool")
+\[Omitted image "dev-ops-connect-orch-flow.png"\] Alt text: DevOps Connect Orchestration Tool
 
 ## Discover capability subflow
 
@@ -326,7 +327,7 @@ Label: current
 
 Outputs
 
- See [subflow outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+ See subflow outputs.
 
 </td><td>
 
@@ -592,9 +593,9 @@ Unmatched
 --
 
 </td></tr></tbody>
-</table>![DevOps Discover Plan Tool Flow](../image/dev-ops-discover-planning-flow.png "DevOps Discover capability flow diagram example - Planning tool")
+</table>\[Omitted image "dev-ops-discover-planning-flow.png"\] Alt text: DevOps Discover Plan Tool Flow
 
-![Flow diagram of a typical discover flow with pagination support](../image/dev-ops-user-integrations-pagination.png "DevOps Discover capability with pagination support flow diagram")
+\[Omitted image "dev-ops-user-integrations-pagination.png"\] Alt text: Flow diagram of a typical discover flow with pagination support
 
 ## Update Import Request Workflow Studio action
 
@@ -642,5 +643,5 @@ details
 \(String\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[User-created integrations in DevOps Change Velocity](dev-ops-tool-integration.md)
+</table>**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

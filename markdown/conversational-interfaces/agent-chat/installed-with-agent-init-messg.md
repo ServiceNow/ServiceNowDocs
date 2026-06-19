@@ -2,6 +2,7 @@
 title: Components installed with Agent-Initiated Messaging Interface
 description: Several types of components are installed with installation of the Agent-Initiated Messaging Interface application, including tables, plugins, and ServiceNow Store applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/installed-with-agent-init-messg.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -15,7 +16,7 @@ breadcrumb: [Configure Agent-Initiated Messaging Interface, Configure, Agent Cha
 
 Several types of components are installed with installation of the Agent-Initiated Messaging Interface application, including tables, plugins, and ServiceNow Store applications.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 
@@ -35,5 +36,5 @@ Several types of components are installed with installation of the Agent-Initiat
 |-----------|-----------|
 |Agent Messaging Component|Contains UI components for composing agent-initiated messages.|
 
-**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](../concept/config-agent-init-messg-interface.md)
+**Parent Topic:**[Configuring Agent-Initiated Messaging Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/config-agent-init-messg-interface.md)
 

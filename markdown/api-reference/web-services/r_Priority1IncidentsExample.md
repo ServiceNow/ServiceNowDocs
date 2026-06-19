@@ -2,6 +2,7 @@
 title: Priority 1 incidents example
 description: This example scrolling element demonstrates how to create a UI macro to a scrolling list of priority 1 incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_Priority1IncidentsExample.html
 release: australia
 product: Web Services
 classification: web-services
@@ -55,5 +56,5 @@ Use the following example code:
 
 Navigate to **System UI** &gt; **Formatters** and create a Formatter that refers to the UI Macro above.
 
-**Parent Topic:**[Add scrolling elements in forms](../task/t_AddingScrollingElementsInForms.md)
+**Parent Topic:**[Add scrolling elements in forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_AddingScrollingElementsInForms.md)
 

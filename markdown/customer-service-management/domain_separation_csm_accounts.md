@@ -2,7 +2,10 @@
 title: Domain separation and entity relationships
 description: With domain separation in Customer Service Management, you can further control visibility and access to data by using contact, partner, and parent-child relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/domain\_separation\_csm\_accounts.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -31,5 +34,5 @@ The account hierarchy feature creates a parent-child relationship between accoun
 
 To provide access from the child account to the parent account, you need to set domain visibility. Navigate to the child account and set visibility in the Visibility Domains related list \(sys\_user\_visibility\) by connecting the user to the domain.
 
-**Parent Topic:**[Domain separation and Customer Service Management](../concept/domain-separation-customer-service.md)
+**Parent Topic:**[Domain separation and Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/domain-separation-customer-service.md)
 

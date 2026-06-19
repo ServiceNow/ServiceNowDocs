@@ -2,6 +2,7 @@
 title: Collaborate on a free-form roadmap with stakeholders
 description: Add comments and attachments to a free-form roadmap for other users of your organization can review and share their feedback. Collaborate and ensure that your roadmap aligns with your company's priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/collaborate-free-form-roadmap-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -32,23 +33,23 @@ Using the Comments side panel, add attachments or notes at the roadmap-level or 
 
 3.  Select the appropriate tab at the roadmap-level or planning item-level.
 
-<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d215652e109">
+<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d210347e109">
 
 Choice
 
-</th><th align="left" id="d215652e112">
+</th><th align="left" id="d210347e112">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d215652e118">
+</th></tr></thead><tbody><tr><td id="d210347e118">
 
 **Roadmap-level**
 
 </td><td>
 
-From the roadmap header, select the **Comments** icon \(![Comments icon.](../../alignment-planner-workspace/images/icon-comments.png)\)
+From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-comments.png"\] Alt text: Comments icon.\)
 
-</td></tr><tr><td id="d215652e139">
+</td></tr><tr><td id="d210347e139">
 
 **Planning item-level**
 
@@ -61,15 +62,15 @@ From the roadmap header, select the **Comments** icon \(![Comments icon.](../../
 </td></tr></tbody>
 </table>4.  Add attachments or worknotes.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d215652e167">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d210347e167">
 
 Choice
 
-</th><th align="left" id="d215652e170">
+</th><th align="left" id="d210347e170">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d215652e176">
+</th></tr></thead><tbody><tr><td id="d210347e176">
 
 **Attachments**
 
@@ -77,7 +78,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d215652e191">
+</td></tr><tr><td id="d210347e191">
 
 **Comments**
 
@@ -89,5 +90,5 @@ In the Comments tab, add notes or comments and select **Post Worknotes**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a free-form roadmap](create-free-form-roadmap-portfolio-planning-workspace.md)
+**Parent Topic:**[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)
 

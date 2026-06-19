@@ -2,6 +2,7 @@
 title: Monitor your user apps network
 description: Monitor your app's network to ensure top performance, reduce latency, and improve security. Track key metrics to spot issues early, optimize resource use, and fix problems before they impact users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/monitor-user-apps-network.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -23,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the **Devices** icon\(![Devices icon](../image/icon-devices.png)\) from the primary navigation pane.
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the **Devices** icon\(\[Omitted image "icon-devices.png"\] Alt text: Devices icon\) from the primary navigation pane.
 
 2.  Select a device from the list.
 
@@ -39,6 +40,6 @@ Role required: admin
         This option is applicable only to Windows OS.
 
     -   Live application hops: List of hops between the user's device and an application server that can help you identify and fix network bottlenecks.
-    For more details, see [Network experience pages](../reference/network-experience-pages.md).
+    For more details, see [Network experience pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/network-experience-pages.md).
 
 

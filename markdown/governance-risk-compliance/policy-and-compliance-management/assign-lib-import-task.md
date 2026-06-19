@@ -2,11 +2,12 @@
 title: Assign a library import task for compliance approval
 description: Assign a library import task to the compliance managers assignment group by using the library import task form in the GRC: Policy and Compliance integrator application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/assign-lib-import-task.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [GRC: Policy and Compliance integrator, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -147,5 +148,5 @@ Provider import tasks that are related to the library import task. This task is 
 
 ## What to do next
 
-To learn how to approve the library import task that is assigned to the compliance managers assignment group, see [Approve the library import task](approve-lib-import-task.md).
+To learn how to approve the library import task that is assigned to the compliance managers assignment group, see [Approve the library import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/approve-lib-import-task.md).
 

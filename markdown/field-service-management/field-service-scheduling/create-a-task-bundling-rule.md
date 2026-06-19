@@ -2,6 +2,7 @@
 title: Create a task bundling rule
 description: Create a task bundling rule to bundle tasks dynamically according to the selected parameters with Field Service Task Bundling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-a-task-bundling-rule.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,9 +18,9 @@ Create a task bundling rule to bundle tasks dynamically according to the selecte
 
 ## Before you begin
 
-To add rules to any policy other than the default policy, create a policy first. For more information, see [Create a task bundling policy](create-a-task-bundling-policy.md).
+To add rules to any policy other than the default policy, create a policy first. For more information, see [Create a task bundling policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-a-task-bundling-policy.md).
 
-[Enable the Field Service territory model](enable-territory-model.md) plugin when bundling tasks by territory.
+[Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md) plugin when bundling tasks by territory.
 
 Role required: wm\_admin
 
@@ -66,7 +67,7 @@ Policy
 
 </td><td>
 
-Policy that this rule is grouped under.**Note:** To add rules to any policy other than the default policy, create a policy first. For more information, see [Create a task bundling policy](create-a-task-bundling-policy.md).
+Policy that this rule is grouped under.**Note:** To add rules to any policy other than the default policy, create a policy first. For more information, see [Create a task bundling policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-a-task-bundling-policy.md).
 
 </td></tr><tr><td>
 

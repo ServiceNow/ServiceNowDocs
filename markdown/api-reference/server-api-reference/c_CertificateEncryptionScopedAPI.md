@@ -2,6 +2,7 @@
 title: CertificateEncryption - Scoped
 description: The CertificateEncryption API provides methods for encrypting certificates in scoped applications.Instantiates a CertificateEncryption object in a scoped application.Generates the Message Authentication Code \(MAC\), which is used to authenticate a message.Generates a hash \(SHA-1, SHA-256, and so on\) for the certificate from Trust Store Cert.Generates a hash \(SHA-1, SHA-256, and so on\) for the certificate from the keystore entry.Signs the data using the private key and the specified algorithm.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CertificateEncryptionScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CertificateEncryption API provides methods for encrypting certificates in sc
 
 Use these methods to generate a hash for the certificate, sign data using a private key, and generate a message authentication code.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CertificateEncryption - CertificateEncryption\(\)
 

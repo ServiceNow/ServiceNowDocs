@@ -2,6 +2,7 @@
 title: Exploring Cloud Services Catalog
 description: The Cloud Services Catalog application is the single place that you have to go to for automating cloud management tooling. It replaces and improves on the capabilities that were offered by Cloud Provisioning and Governance user and admin portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/exploring-cloud-services-catalog.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -26,18 +27,18 @@ The following table lists the benefits of Cloud Services Catalog.
 |Benefit|Feature|
 |-------|-------|
 |Assistance for users|Guided Setup|
-|Out Of Box content for Amazon AWS Cloud request and automation|[AWS Out Of Box Catalogs](out-of-the-box-catalog-items.md)|
-|Out Of Box content for Microsoft AzureMicrosoft Azure Cloud Services request and automation|[Azure Out Of Box Catalogs](out-of-the-box-catalog-items.md)|
-|Out Of Box content for Google Cloud Platform request|[Out Of Box Catalogs using Cloud Services Catalog](out-of-the-box-catalog-items.md)|
-|Requests for process and pages for ordering Cloud Services|[Cloud Services Request process](../task/request-the-cloud-services-user-portal.md)|
-|My Stacks management page for viewing and operating on stacks|[Stacks Management](manage-stacks.md)|
-|My Resources management page for viewing and operating on resources|[Resources Management](explore-my-resources.md)|
-|Azure DevOps Continuous Integration Continuous Deployment \(CICD\) Pipeline Integration|[Azure DevOps and CI-CD Pipeline Integration](integrating-azure-devops-and-cicd-pipeline.md)|
-|Integration of Ansible with Cloud services|[Integrate Ansible](integrating-ansible-with-cloud-services-catalog.md)|
+|Out Of Box content for Amazon AWS Cloud request and automation|[AWS Out Of Box Catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)|
+|Out Of Box content for Microsoft AzureMicrosoft Azure Cloud Services request and automation|[Azure Out Of Box Catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)|
+|Out Of Box content for Google Cloud Platform request|[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)|
+|Requests for process and pages for ordering Cloud Services|[Cloud Services Request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/request-the-cloud-services-user-portal.md)|
+|My Stacks management page for viewing and operating on stacks|[Stacks Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)|
+|My Resources management page for viewing and operating on resources|[Resources Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/explore-my-resources.md)|
+|Azure DevOps Continuous Integration Continuous Deployment \(CICD\) Pipeline Integration|[Azure DevOps and CI-CD Pipeline Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)|
+|Integration of Ansible with Cloud services|[Integrate Ansible](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md)|
 |Microsoft Azure and Amazon AWS Cloud setup|Cloud Setup|
-|Multi-repo support with Terraform Connector app|[Exploring Cloud Services Catalog Terraform Connector](../../cloud-management-v2/concept/exploring-cpg-terraform-connector.md)|
+|Multi-repo support with Terraform Connector app|[Exploring Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md)|
 
 ## What to do next
 
-See [Plugins or applications installed with ITOM Cloud Accelerate](../../itom-cloud-accelerate/reference/plugin-app-cloud-accelerate.md) to find the list of plugins you activate with Cloud Services Catalog.
+See [Plugins or applications installed with ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md) to find the list of plugins you activate with Cloud Services Catalog.
 

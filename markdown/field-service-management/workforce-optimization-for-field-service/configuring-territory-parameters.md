@@ -2,6 +2,7 @@
 title: Creating geographies
 description: Create geographies and assign them to territories to efficiently schedule and assign the most appropriate agents and crews for work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/configuring-territory-parameters.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

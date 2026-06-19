@@ -2,6 +2,7 @@
 title: Create a work order on ServiceNow Agent using Now Assist for Field Service Management \(FSM\)
 description: Create a work order on the ServiceNow Agent mobile application using Now Assist for Field Service Management \(FSM\) from a text description or an image of the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/create-work-order-mobile-now-assist-fsm.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -30,13 +31,13 @@ Role required: wm\_qualifier or wm\_dispatcher or wm\_agent
 
 2.  Navigate to **My Work**.
 
-3.  Tap the plus icon ![](../image/mobile-plus-icon.png).
+3.  Tap the plus icon \[Omitted image "mobile-plus-icon.png"\] Alt text:.
 
 4.  Tap **Ask Now Assist**.
 
 5.  Tap **Create work order**, or ask Now Assist to create a work order.
 
-    ![The Create work order workflow in Now Assist Virtual Agent on the mobile app.](../image/now-assist-mobile-create-wo.png)
+    \[Omitted image "now-assist-mobile-create-wo.png"\] Alt text: The Create work order workflow in Now Assist Virtual Agent on the mobile app.
 
 6.  Provide a description of the issue for the work order.
 

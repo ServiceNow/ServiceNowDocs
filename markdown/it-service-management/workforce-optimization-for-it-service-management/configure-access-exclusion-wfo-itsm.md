@@ -2,6 +2,7 @@
 title: Exclude access for specific groups in Workforce Optimization for ITSM manager workspace
 description: You can remove access to assignment group data and display only the assignment groups that are relevant for the logged-in user in the Workforce Optimization for ITSM manager workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-access-exclusion-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -31,10 +32,10 @@ Role required: admin
 
     For example, if you define a condition as **\[Name\]** **\[does not contain\]****\[Support\]**, then the Workforce Optimization for ITSM manager workspace doesn't display any groups that contain Support in the group name.
 
-    For information on configuring condition builders, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+    For information on configuring condition builders, see .
 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Add or remove access to assignment groups in Workforce Optimization for ITSM manager workspace](../concept/specify-access-assignment-group-wfo-itsm.md)
+**Parent Topic:**[Add or remove access to assignment groups in Workforce Optimization for ITSM manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/specify-access-assignment-group-wfo-itsm.md)
 

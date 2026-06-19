@@ -2,6 +2,7 @@
 title: Responsibility for indicator targets
 description: A user can be responsible for targets on one or more Performance Analytics indicator/breakdown combinations \(KPIs\). Responsible users are expected to track progress towards the targets and can change the targets on their KPIs.After an admin creates a target, assign responsibility for reviewing and editing the target to a subject matter expert \(SME\) in the business area.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/responsibiity-targets-kpi-details.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -46,17 +47,17 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin.
 
 2.  Either:
 
-    -   Create a target, as described in [Create a target in KPI Details](../task/create-kpi-details-targets.md).
-    -   Open an existing target, as described in [Edit multiple targets in KPI Details](../task/edit-multiple-targets.md).
+    -   Create a target, as described in [Create a target in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-kpi-details-targets.md).
+    -   Open an existing target, as described in [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-multiple-targets.md).
 3.  Click the cogwheel to open the **Targets Configuration** page.
 
-    ![Targets panel top showing config cogwheel.](../image/kpi-details-target-config-cogwheel.png)
+    \[Omitted image "kpi-details-target-config-cogwheel.png"\] Alt text: Targets panel top showing config cogwheel.
 
     The **Targets configuration** view opens.
 
 4.  Open the Responsibility tab.
 
-    ![Selecting the Responsibility tab in Targets Configuration.](../image/kpi-details-targets-responsibility.png)
+    \[Omitted image "kpi-details-targets-responsibility.png"\] Alt text: Selecting the Responsibility tab in Targets Configuration.
 
 5.  Select one or more unique indicator/breakdown element combinations \(KPIs\).
 
@@ -64,7 +65,7 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin.
 
     You can select only one user at a time, but you can repeat the selection process as often as you want. Only users who can view all selected KPIs are available.
 
-    ![Selecting responsible users.](../image/kpi-details-targets-select-resp-user.png)
+    \[Omitted image "kpi-details-targets-select-resp-user.png"\] Alt text: Selecting responsible users.
 
 7.  Click **Update**.
 

@@ -2,6 +2,7 @@
 title: AWS OS image pattern-based discovery
 description: Discovery and Service Mapping Patterns finds AWS OS images \(both owned and executable\) on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-os-image-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,11 +19,11 @@ Discovery and Service Mapping Patterns finds AWS OS images \(both owned and exec
 
 Discovery uses the Amazon AWS - Owned Template \(LP\) and Amazon AWS - Executable Template \(LP\) patterns to discover AWS OS images from your AWS account. Owned images are custom images created by your AWS account, while executable images include public and shared images your account has permission to use.
 
-When using the Image \[cmdb\_ci\_os\_template\] table to store Cloud OS images, you may notice an unusually large number of records. To avoid this issue, you can store the discovered OS images in the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. When enabled, Discovery launches the Amazon AWS - Owned Cloud OS Image \(LP\) and Amazon AWS - Executable Cloud OS Image \(LP\) patterns, which populate the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. For more information, see [Enable Cloud OS Image discovery](../../discovery/task/enable-cloud-os-image-discovery-pattern.md).
+When using the Image \[cmdb\_ci\_os\_template\] table to store Cloud OS images, you may notice an unusually large number of records. To avoid this issue, you can store the discovered OS images in the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. When enabled, Discovery launches the Amazon AWS - Owned Cloud OS Image \(LP\) and Amazon AWS - Executable Cloud OS Image \(LP\) patterns, which populate the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table. For more information, see [Enable Cloud OS Image discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-cloud-os-image-discovery-pattern.md).
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the AWS discovery prerequisites section in [AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md).
+Verify the AWS discovery prerequisites section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -112,5 +113,5 @@ Starting with Discovery and Service Mapping Patterns version 1.30.2, the pattern
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Image \[cmdb\_ci\_os\_template\] or Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table.|
 
-**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

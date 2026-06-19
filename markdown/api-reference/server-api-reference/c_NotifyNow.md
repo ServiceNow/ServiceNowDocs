@@ -2,6 +2,7 @@
 title: NotifyNow \(Legacy\) - Global
 description: The legacy NotifyNow API provides functionality for sending emails, sending SMS messages, and setting up conference calls.Adds ad-hoc users to an ongoing conference call.Converts a local phone number to an E.164-compliant phone number based on a user's location.Returns all participants for a conference call.Returns a number of frequently-called users, up to the limit parameter, in alphabetical order.Returns a user's preferred E.164-compliant phone number for SMS messages.Returns a user's preferred E.164-compliant phone number for voice calls.Returns a user's preferred email addressIndicates whether Notify is set up correctly or not.Returns the current status of Notify configuration.Initiate a new conference call.Initiate a new conference call.Determines whether a user is callable or not.Checks if the telephone number associated with the Twilio account is capable of sending SMS messages.Checks if a user is able to send SMS messages.Checks if the telephone number associated with the Twilio account is capable of setting up phone calls.Checks if a user is able to make voice calls.Removes a participant from a conference call.Mutes a participant on a conference call.Send an email question to an email address.Sends an SMS message to an E.164-compliant mobile phone number.Sends an SMS message to an E.164-compliant mobile phone number.Sends an SMS question.Unmutes a participant on a conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_NotifyNow.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ Use this when you want to use Notify functionality with applications on your sys
 
 **Note:** This API is included with the legacy Notify functionality. For APIs included in the current Notify feature, see the Notify, NotifyAction, NotifyPhoneNumber, and NotifyClient APIs.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## NotifyNow - addConferenceCallParticipant\(String conferenceCall, String participant\)
 
@@ -608,7 +609,7 @@ Sends an SMS message to an E.164-compliant mobile phone number.
 
 Notify supports international numbers. Using this method with a number that does not support sending SMS messages results in an error being logged.
 
-See also: [Advanced configuration for SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyforVoiceandSMS.md).
+See also: Advanced configuration for SMS.
 
 |Name|Type|Description|
 |----|----|-----------|

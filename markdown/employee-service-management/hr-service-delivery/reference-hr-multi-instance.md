@@ -2,6 +2,7 @@
 title: Reference for HR Multi Instance Integration
 description: Reference for HR Multi Instance Integration.Several types of components are installed with activation of the HR Multi Instance Integration for Provider plugin, including user roles.Several types of components are installed with activation of the HR Multi Instance Integration for Consumer plugin, including tables, user roles, and scheduled jobs.Review these general guidelines and limitations before using the HR Multi Instance Integration application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/reference-hr-multi-instance.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

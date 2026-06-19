@@ -2,6 +2,7 @@
 title: Normalization statuses
 description: Description of normalization statuses for discovery models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/normalization-status.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -80,5 +81,5 @@ New
 The software discovery model has not yet run through the normalization process.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
 

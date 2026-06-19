@@ -2,6 +2,7 @@
 title: DataBuilder - Scoped, Global
 description: The DataBuilder API provides methods to create a series of data points for a metric. Use the sn\_clotho.Client.put\(\) method to save the values.Creates an instance of the DataBuilder class.Adds a series of data points to the DataBuilder object. Each data point is a time stamp and a value.Adds a data point to the DataBuilder object. Each data point is a time stamp and a value. This method does not save the data point in the metric. Use the sn\_clotho.Client.put\(\) method to save the values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DataBuilderScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ You can call this class in scoped and global server scripts. When using the Data
 
 This class is part of the MetricBase application.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## DataBuilder - DataBuilder\(Object glideRecord, String subject, String metric\)
 

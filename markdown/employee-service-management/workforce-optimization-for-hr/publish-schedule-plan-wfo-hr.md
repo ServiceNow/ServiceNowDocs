@@ -2,6 +2,7 @@
 title: Publish a schedule plan for visibility into team coverage
 description: Generate a preview of your schedule plan and publish it so that your agents can see their shifts and schedules ahead of time. You can unpublish a schedule to make changes and then publish it again.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/publish-schedule-plan-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -38,12 +39,12 @@ You can also unpublish a schedule make updates, and then publish it again.
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule icon \(![Schedule icon](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\).
+2.  Click the Schedule icon \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\).
 
 3.  Generate a schedule preview.
 
     1.  Click the **Team Calendar** tab.
-    2.  Click the Show Schedules \(![Show Schedules icon.](../image/show-schedule-new.png)\) icon to display in the contextual side panel.
+    2.  Click the Show Schedules \(\[Omitted image "show-schedule-new.png"\] Alt text: Show Schedules icon.\) icon to display in the contextual side panel.
     The team calendar refreshes and generates the preview when you save a work shift.
 
 4.  Publish a schedule.
@@ -59,5 +60,5 @@ You can also unpublish a schedule make updates, and then publish it again.
 
 All the schedules that are in **Draft** state move to **Published** state. You can view the published schedule in the team calendar.
 
-**Parent Topic:**[Scheduling in Workforce Optimization for HR](../concept/scheduling-configurable-wfo-hr.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
 

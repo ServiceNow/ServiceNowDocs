@@ -2,6 +2,7 @@
 title: Enable daily data collection for Agile 2.0 dashboards
 description: Enable scheduled data collection to begin collecting scores on new data automatically. Data collection jobs automatically collect scores for automated indicators and breakdowns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/enable-daily-data-collection.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -46,5 +47,5 @@ Role required: pa\_admin or admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

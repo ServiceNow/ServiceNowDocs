@@ -2,6 +2,7 @@
 title: Employee Relations case restrictions
 description: Use Case Restriction Configuration to determine what groups and agents can access or restrict ER cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-case-restriction.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -24,7 +25,7 @@ Restrict access by Center of Excellence \(COE\) for specific groups:
 
 The base system provides one case restriction configuration that enables the HR Confidential group to access ER cases.
 
-For more information, see [Manage HR Groups](../task/t_ManageHRGroups.md).
+For more information, see [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md).
 
 **Note:** When creating case restrictions, be sure that you have at least one configuration that enables you to read these cases.
 
@@ -32,7 +33,7 @@ For more information, see [Manage HR Groups](../task/t_ManageHRGroups.md).
 
 Members of groups that can access ER cases must have the sn\_hr\_er.confidential role.
 
-For more information, see [Manage HR roles](c_ManageRoles.md) and [Evidence Management for Employee Relations](hr-er-evidence-mgmt.md#).
+For more information, see [Manage HR roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManageRoles.md) and [Evidence Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
 
 ## COE Security Configuration
 
@@ -42,9 +43,9 @@ You can then restrict the COE with read and write capabilities.
 
 **Note:** If you choose to restrict other COEs besides Employee Relations Case \[sn\_hr\_er\_case\], you can cause performance issues. ER cases numbering more than 100 K can impact performance.
 
-For more information, see [Create a COE security policy](../task/hr-create-coe-security-policy.md).
+For more information, see [Create a COE security policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-create-coe-security-policy.md).
 
-COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
+COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
 
 Collaborators and the COE for the HR case can conflict. The basic rules are:
 
@@ -55,11 +56,11 @@ Collaborators and the COE for the HR case can conflict. The basic rules are:
 
 Use ER assignment rules to assign a group to an ER case.
 
-For more information, see [Employee Relations assignment rules](hr-er-assign-rules.md).
+For more information, see [Employee Relations assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-assign-rules.md).
 
 ## ER matching rules
 
 Use ER matching rules to assign an agent that has the least number of cases, the required skills, and matches the location.
 
-For more information, see [Employee Relations matching rules](hr-er-matching-rules.md).
+For more information, see [Employee Relations matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-er-matching-rules.md).
 

@@ -2,6 +2,7 @@
 title: Team Development roles
 description: To use Team Development, developers must have admin access to their development instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_TeamDevelopmentRoles.html
 release: australia
 product: Team Development
 classification: team-development
@@ -15,9 +16,9 @@ breadcrumb: [Administer, Team Development, Planning your application, Building a
 
 To use Team Development, developers must have admin access to their development instance.
 
-To allow pushes to the parent instance, a [remote instance connection](../task/t_DefineARemoteInstance.md) must be defined with a user account that has admin access to the parent instance.
+To allow pushes to the parent instance, a [remote instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_DefineARemoteInstance.md) must be defined with a user account that has admin access to the parent instance.
 
-To limit developer access to the parent instance, see [Granting Access Rights to Developers](../reference/r_GrantingAccessRightsToDevelopers.md).
+To limit developer access to the parent instance, see [Granting Access Rights to Developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/r_GrantingAccessRightsToDevelopers.md).
 
-To use code review features, users must have the teamdev\_code\_reviewer role. See [Code Review](c_CodeReview.md).
+To use code review features, users must have the teamdev\_code\_reviewer role. See [Code Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_CodeReview.md).
 

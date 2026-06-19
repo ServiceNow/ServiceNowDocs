@@ -2,6 +2,7 @@
 title: Use the Repeat Detection playbook
 description: Use this playbook to investigate if the incident response has been provided on an exact or similar phishing report in the past and automatically works on the new report similarly. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Repeat Detection playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-repeat-detection-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -51,5 +52,5 @@ Role required:
     In Action 15, if the matching incident is found, the playbook automatically updates the worknote that a match has been found based on the automation for Repeat Detection. In Action 16, the flow ends.
 
 
-**Parent Topic:**[Playbook for Repeat Detection](../concept/playbook-repeat-detection.md)
+**Parent Topic:**[Playbook for Repeat Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-repeat-detection.md)
 

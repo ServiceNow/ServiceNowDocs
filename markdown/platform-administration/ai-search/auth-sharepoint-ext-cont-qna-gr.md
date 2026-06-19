@@ -2,6 +2,7 @@
 title: Sign in to Microsoft SharePoint Online to authorize External Content Q&amp;A Genius Results
 description: Obtain an OAuth 2.0 token from Microsoft SharePoint Online so that External Content Q&amp;A Genius Results can find documents and generate answers when you search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/auth-sharepoint-ext-cont-qna-gr.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -18,7 +19,7 @@ Obtain an OAuth 2.0 token from Microsoft SharePoint Online so that External Cont
 
 ## Before you begin
 
-You only need to perform this task if your search results page displays this informational message: `To view results generated from SharePoint, you need to be signed in.`
+Only perform this task if your search results page displays this informational message: `To view results generated from SharePoint, you need to be signed in.`
 
 Role required: none
 
@@ -28,7 +29,7 @@ External Content Q&amp;A Genius Results use an OAuth 2.0 token to access your Mi
 
 Perform this task to generate a valid OAuth 2.0 token in Microsoft SharePoint Online and authorize External Content Q&amp;A Genius Results for your searches.
 
-**Note:** How often you need to sign in depends on your Microsoft SharePoint Online instance's settings. For questions about the OAuth 2.0 token's lifespan, contact your Microsoft SharePoint Online administrator.
+**Note:** How often you need to sign in depends on your Microsoft SharePoint Online instance's settings. Ask your Microsoft SharePoint Online administrator about the OAuth 2.0 token's lifespan.
 
 ## Procedure
 
@@ -36,12 +37,12 @@ Perform this task to generate a valid OAuth 2.0 token in Microsoft SharePoint On
 
 2.  When prompted, enter your Microsoft SharePoint Online credentials to authenticate with Microsoft.
 
-    **Note:** This login step submits your credentials directly to Microsoft. If you're unable to authenticate, contact your Microsoft SharePoint Online administrator.
+    **Note:** This login step submits your credentials directly to Microsoft. If you're unable to authenticate, ask your Microsoft SharePoint Online administrator for assistance.
 
-3.  Once you're authenticated, repeat your previous search.
+3.  After you're authenticated, repeat your previous search.
 
     **Note:** External Content Q&amp;A Genius Results respect your Microsoft SharePoint Online user profile security settings. If you're not seeing an expected Genius Result answer, it's a good idea to check with your Microsoft SharePoint Online administrator to make sure you have access to the appropriate source documents.
 
 
-**Parent Topic:**[External Content Q&amp;A Genius Results](../concept/external-content-qna.md)
+**Parent Topic:**[External Content Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-qna.md)
 

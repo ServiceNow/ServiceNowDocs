@@ -2,6 +2,7 @@
 title: Create a Kafka stream
 description: Define a data stream for an Extract Transform Load \(ETL\), Transform Map, or Script consumer. A Kafka stream defines the stream of data to your consumer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-kafka-stream.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -154,7 +155,7 @@ Option to view the advanced fields **Relative weight** and **Message handling**.
 
 ## Result
 
-When you activate the stream, the consumer begins looking for messages to process in the specified topic. You can view detailed information about the consumer and its performance by visiting its subscription page. For details, see [Viewing Kafka subscriptions and statistics](../concept/kafka-subscriptions-statistics.md).
+When you activate the stream, the consumer begins looking for messages to process in the specified topic. You can view detailed information about the consumer and its performance by visiting its subscription page. For details, see [Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/kafka-subscriptions-statistics.md).
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](../concept/stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

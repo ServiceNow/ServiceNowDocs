@@ -2,12 +2,13 @@
 title: Parallel branches
 description: Add branches for activities and stages that run in parallel to another branch of activities and stages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-parallel-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -23,7 +24,7 @@ Role required: playbook.admin or pd\_author
 
 Parallel activities create branches like decision activities. Unlike decision activities, the activities and stages on a parallel can run on the same conditions as other branches. For example, in this credit card approval playbook:
 
-![Parallel activities and stages in Diagram view](../images/playbook-parallel-example.png "Parallel activities and stages")
+\[Omitted image "playbook-parallel-example.png"\] Alt text: Parallel activities and stages in Diagram view
 
 In this example, agents verify information or identity at the same time as when they check credit scores. All activities and all stages will run.
 
@@ -33,41 +34,14 @@ In this example, agents verify information or identity at the same time as when 
 
     The mini-picker displays.
 
-2.  Select the parallel icon ![Parallel icon in diagram view](../images/diagram-parallel-icon.png) to add a parallel branch.
+2.  Select the parallel icon \[Omitted image "diagram-parallel-icon.png"\] Alt text: Parallel icon in diagram view to add a parallel branch.
 
     A parallel branch is added.
 
 
 ## What to do next
 
-Add and configure the [stage](add-configure-stage.md) or [activity](add-configure-activity.md) that will run at the same time as the other branches of stages or activities.
+Add and configure the [stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-stage.md) or [activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-activity.md) that will run at the same time as the other branches of stages or activities.
 
-**Parent Topic:**[Stages and activities](../concept/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook](add-configure-stage.md)
-
-[Activity definitions](../concept/activity-definitions.md)
-
-[Add and configure an activity in a playbook](add-configure-activity.md)
-
-[Use AI agent as an activity](ai-agent-as-activity.md)
-
-[Automation Assets](../concept/automation-assets.md)
-
-[Start with delay input properties](../reference/start-with-delay-properties.md)
-
-[Optional activities](../concept/optional-activities.md#)
-
-[Decision activities](create-a-decision-activity.md)
-
-[Decision stages](create-decision-stage.md)
-
-[Questionnaire activity](../reference/questionnaire-activity.md)
-
-[Add dynamic inputs to an activity](add-dynamic-inputs-to-activity.md)
-
-[Playbook activity state mapping](../../workspace/concept/playbook-activity-state-mapping.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

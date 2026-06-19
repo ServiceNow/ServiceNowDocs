@@ -2,6 +2,7 @@
 title: Asset governance overview
 description: Enhance your Asset Audit Response experience by using the modernized and user-friendly Asset governance overview. This simplified and intuitive overview helps you use the Asset Audit Response application more effectively by reducing complexity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/asset-governance-overview.html
 release: australia
 product: Asset Audits
 classification: asset-audits
@@ -20,7 +21,7 @@ You can use the Asset governance overview to perform the following tasks:
 -   Fulfill, respond to, and track the progress of your assigned evidence requests.
 -   Track and manage remediation tasks.
 
-![Asset Governance overview.](../image/asset-governance-overview.png)
+\[Omitted image "asset-governance-overview.png"\] Alt text: Asset Governance overview.
 
 Select any widget to view more detailed information or to perform a relevant task.
 

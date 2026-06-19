@@ -2,6 +2,7 @@
 title: Write a processing activity script
 description: Write custom scripts on the assessment templates to update the processing activity fields using a script. The script runs when the assessment response is completed. You can write multiple scripts for both screening assessments and impact assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/configure-a-processing-activity-script.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -83,5 +84,5 @@ Script to be used to update the processing activity.
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Create a privacy assessment](create-assessment-template.md)
+**Parent Topic:**[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
 

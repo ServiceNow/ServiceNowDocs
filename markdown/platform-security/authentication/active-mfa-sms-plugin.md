@@ -2,6 +2,7 @@
 title: Activate the MFA with SMS plugin
 description: For MFA with SMS, install the Multi-factor authentication with SMS \(com.snc.authentication.sms\_mfa\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/active-mfa-sms-plugin.html
 release: australia
 product: Authentication
 classification: authentication
@@ -42,6 +43,6 @@ Dependent Plugin: Integration - Multifactor Authentication \(`com.snc.integratio
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

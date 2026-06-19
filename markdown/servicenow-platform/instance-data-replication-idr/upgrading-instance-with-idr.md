@@ -2,6 +2,7 @@
 title: Upgrading your instance with Instance Data Replication enabled
 description: When upgrading your instance, IDR automatically pauses replication to maintain data replication without any manual intervention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/upgrading-instance-with-idr.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -23,5 +24,5 @@ Upgrading your instance with Instance Data Replication \(IDR\) enabled is a seam
 -   Seeding requests can't be initiated during an instance upgrade.
 -   Replication resumes immediately after the upgrade is completed. There is no need to make any adjustments to IDR for record replication to continue.
 
-**Parent Topic:**[Configuring Instance Data Replication](configuring-instance-data-replication.md)
+**Parent Topic:**[Configuring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/configuring-instance-data-replication.md)
 

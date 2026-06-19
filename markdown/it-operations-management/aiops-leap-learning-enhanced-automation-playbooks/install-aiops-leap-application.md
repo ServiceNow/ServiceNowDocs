@@ -2,6 +2,7 @@
 title: Install LEAP
 description: You can install the LEAP application using Now Assist for IT Operations Management \(ITOM\) \(sn\_itom\_gen\_ai\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plug-ins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/install-aiops-leap-application.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -30,7 +31,7 @@ The following items are installed with LEAP:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with LEAP](../reference/components-installed-with-aiops-leap.md).
+For more information, see [Components installed with LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/components-installed-with-aiops-leap.md).
 
 ## Procedure
 

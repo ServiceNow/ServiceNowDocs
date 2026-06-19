@@ -2,6 +2,7 @@
 title: CostPlanBatchOperations - Global
 description: The CostPlanBatchOperations script include provides methods that enable the creation of a large number of cost plan records for demands and projects using batch processing. Use this script include instead of GlideRecord to more efficiently create multiple cost plan records.Adds one or more cost plans to a specified task \(project or demand\). Use this method when you want to create multiple cost plans.Removes all cost plan objects that were added using the CostPlanBatchOperations.add\(\) method.Processes all of the cost plans that were added using the CostPlanBatchOperations.add\(\) method and creates corresponding cost plans and relevant rollups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CostPlanBatchOperationsAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,13 +20,13 @@ Use the CostPlanBatchOperations.add\(\) method to add any number of cost plans t
 
 To use this script include you must activate the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CostPlanBatchOperations - add\(Object costPlan\)
 
 Adds one or more cost plans to a specified task \(project or demand\). Use this method when you want to create multiple cost plans.
 
-Once processed, the cost plans are inserted into the specified project or demand. You can then view and modify them within your instance. For additional information, see [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [Create a demand cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateADemandCostPlan.md).
+Once processed, the cost plans are inserted into the specified project or demand. You can then view and modify them within your instance. For additional information, see Create a project cost plan and Create a demand cost plan.
 
 **Note:** This method only defines the cost plans to add to your instance. The cost plans are not inserted into your instance until the costPlanBatchOperations.process\(\) is called.
 

@@ -2,6 +2,7 @@
 title: Install Content library portal for Software Asset Management
 description: Install the Content library portal store application to view the data stored in the Software Asset Management Content Service.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/install-contentlookup.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -37,7 +38,7 @@ Install the Content library portal store application to view the data stored in 
             Activates AI search functionality.
 
 
-**Note:** If you have installed Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management Professional \(com.sn\_hamp\) plugins, you can view both Software Asset Management and Hardware Asset Management data stored in the Content service. For more information about installing Content lookup portal for Hardware Asset Management, see [Install Content lookup to view Hardware Asset Management data](../../hardware-asset-management/concept/content-lookup-ham.md#).
+**Note:** If you have installed Software Asset Management Professional \(com.sn\_samp\_master\) plugin, you can view data stored in the Software Asset Management Content service. If you have installed both Software Asset Management Professional \(com.sn\_samp\_master\) and Hardware Asset Management Professional \(com.sn\_hamp\) plugins, you can view both Software Asset Management and Hardware Asset Management data stored in the Content service. For more information about installing Content lookup portal for Hardware Asset Management, see [Install Content lookup to view Hardware Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/content-lookup-ham.md).
 
 Role required: sam\_admin
 
@@ -49,7 +50,7 @@ Role required: sam\_admin
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -58,5 +59,5 @@ Role required: sam\_admin
 4.  Select **Install**.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

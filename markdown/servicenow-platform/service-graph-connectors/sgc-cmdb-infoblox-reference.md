@@ -2,6 +2,7 @@
 title: Service Graph Connector for Infoblox reference
 description: Reference topics provide additional information about Service Graph Connector for Infoblox components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-reference.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -15,10 +16,10 @@ breadcrumb: [Infoblox, Service Graph Connectors, Integrating third-party data in
 
 Reference topics provide additional information about Service Graph Connector for Infoblox components.
 
--   **[Life cycle management of records in Service Graph Connector for Infoblox](sgc-cmdb-infoblox-lc.md)**  
+-   **[Life cycle management of records in Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-lc.md)**  
 Life cycle management in the Service Graph Connector for Infoblox monitors and updates the statuses of Infoblox resources throughout their life cycle, from creation to deletion.
--   **[Service Graph Connector for Infoblox properties](../reference/cmdb-sgc-infoblox-props.md)**  
+-   **[Service Graph Connector for Infoblox properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-infoblox-props.md)**  
 Service Graph Connector for Infoblox properties control the behavior of the connector.
 
-**Parent Topic:**[Service Graph Connector for Infoblox](sgc-cmdb-integration-infoblox.md)
+**Parent Topic:**[Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-integration-infoblox.md)
 

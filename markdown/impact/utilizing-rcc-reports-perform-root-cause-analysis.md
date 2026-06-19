@@ -2,7 +2,10 @@
 title: Use the Root cause analysis history
 description: Check the Root cause analysis \(RCA\) History page to investigate the issues that caused an alert to trigger or performance to degrade to Critical or Warning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/utilizing-rcc-reports-perform-root-cause-analysis.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -44,5 +47,5 @@ Role required: admin
     The table contains information on the alerts.
 
 
-**Parent Topic:**[Generative AI powered Root cause analysis](generative-ai-root-cause-anal.md)
+**Parent Topic:**[Generative AI powered Root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/generative-ai-root-cause-anal.md)
 

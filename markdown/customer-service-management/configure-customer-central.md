@@ -2,7 +2,10 @@
 title: Configure Customer Central
 description: Provide customer service agents with all the information about a customer in one central place by configuring the Customer Information and Customer History views for Customer Central.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-customer-central.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Customer Central provides customer service agents with all the information about
 
 Customer Central consists of two views, Customer Information and Customer History. In CSM Configurable Workspace, Customer Central is displayed on the interaction, account, contact, or consumer records.
 
-For more information, see [Customer Central](../concept/customer-central.md).
+For more information, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md).
 
 ## Procedure
 
@@ -53,7 +56,7 @@ The Customer Central application \(com.sn\_csm\_customer\_central\) is activated
 
 </td></tr><tr><td>
 
-[Configure the Customer Information view using CSM Configurable Workspace](cust-central-configure-info-tab.md)
+[Configure the Customer Information view using CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cust-central-configure-info-tab.md)
 
 </td><td>
 
@@ -61,7 +64,7 @@ Configure the display of the Customer Information view using CSM Configurable Wo
 
 </td></tr><tr><td>
 
-[Configure the Customer History view](configure-customer-activity.md)
+[Configure the Customer History view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-activity.md)
 
 </td><td>
 

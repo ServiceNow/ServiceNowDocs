@@ -2,11 +2,12 @@
 title: Reapply CI lookup rules on selected discovered items for Configuration Compliance
 description: Reapply configuration item \(CI\) lookup rules on selected discovered items from the discovered item list view select actions. The administrator might have to edit or update a lookup rule for multiple reasons. If the lookup rule changes, they can reapply them on the discovered items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/reapply-ci-lookup-rules-di-cc.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Discovered Items for Configuration Compliance, Configuration Compliance imported data, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -21,7 +22,7 @@ Roles required:
 
 ## About this task
 
-If the CI changes after reapplying the CI lookup rules, the discovered items are updated with the new CI and test results. For more information, see [CI changes for discovered items for Configuration Compliance](../concept/reapply-discovered-items-ci-changes-cc.md).
+If the CI changes after reapplying the CI lookup rules, the discovered items are updated with the new CI and test results. For more information, see [CI changes for discovered items for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/reapply-discovered-items-ci-changes-cc.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ If the CI changes after reapplying the CI lookup rules, the discovered items are
 
 2.  Select the required discovered items and click **Action on selected rows**.
 
-    ![Reapply CI lookup rules on DIs](../image/reapply-action-di-cc.png)
+    \[Omitted image "reapply-action-di-cc.png"\] Alt text: Reapply CI lookup rules on DIs
 
 3.  Select **Reapply CI lookup rules** from the list.
 

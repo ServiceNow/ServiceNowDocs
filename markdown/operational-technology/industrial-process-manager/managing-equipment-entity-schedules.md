@@ -2,6 +2,7 @@
 title: Managing an equipment model entity schedule
 description: You can manage an equipment model entity schedule with the Industrial Process Manager application. By using a schedule, you can track several maintenance tasks for one equipment model entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/managing-equipment-entity-schedules.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -21,7 +22,7 @@ You can link schedules to any equipment model entity. If you have the Equipment 
 
 -   Maintain the schedules for the various equipment model entities.
 -   Associate these schedules with equipment model entities.
--   Pick a time slot from a schedule so that you can work on an Operational Technology \(OT\) incident or remediation task. For more information, see [Select a start time for an OT remediation task](../../mftg-manufacturing-ot-vulnerability-response/task/select-start-time-for-ot-remediation-task.md).
+-   Pick a time slot from a schedule so that you can work on an Operational Technology \(OT\) incident or remediation task. For more information, see [Select a start time for an OT remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-vulnerability-response/select-start-time-for-ot-remediation-task.md).
 
 ## Examples
 
@@ -31,14 +32,14 @@ If you no longer want a schedule associated with an equipment model entity, you 
 
 If you want to view existing schedules for an equipment model entity, you can do so in the Equipment Model Manager or in the Planned Downtime module on the Platform.
 
--   **[Create an equipment model entity schedule](../task/create-equipment-model-entity-schedule.md)**  
+-   **[Create an equipment model entity schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-equipment-model-entity-schedule.md)**  
 Create an equipment model entity schedule with the Industrial Process Manager application. With these schedules, you can easily maintain multiple equipment model entities.
--   **[Create a schedule entry](../task/create-new-schedule-entry.md)**  
+-   **[Create a schedule entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-new-schedule-entry.md)**  
 Create a schedule entry for an existing equipment model entity schedule in the Industrial Process Manager application. You can create more than one entry for a schedule. Schedule entries allow multiple maintenance tasks to take place for one equipment model entity.
--   **[Associate a schedule with an equipment model entity](../task/associate-schedules-with-equipment-model-entity.md)**  
+-   **[Associate a schedule with an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/associate-schedules-with-equipment-model-entity.md)**  
 Create one or more maintenance schedules for an equipment model entity, edit an existing schedule, or delete schedules with the Industrial Process Manager application.
--   **[Add a child schedule](../task/create-child-schedules.md)**  
+-   **[Add a child schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-child-schedules.md)**  
 Add a child schedule to an existing equipment model entity schedule with the Industrial Process Manager application. When you make adjustments to the child schedule, it also applies to the parent schedule. For example, you might want to extend the scheduled time on a particular day or remove the holidays from a schedule.
 
-**Parent Topic:**[Configuring the Industrial Process Manager](configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

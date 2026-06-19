@@ -2,6 +2,7 @@
 title: Set up the Asana spoke
 description: Configure the Asana spoke to integrate your ServiceNow instance with the Asana instance. The integration enables you to set up a flow and, when a trigger occurs, automate actions on the Asana instance. For example, set a trigger that triggers a flow every day at 13:00 to get the meta data about a workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-the-asana-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

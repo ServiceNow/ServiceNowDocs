@@ -2,12 +2,14 @@
 title: Initiate risk assessment on AI asset's risks
 description: Request risk assessments for risks identified during the AI system's impact assessment. These risks are generated based on the responses provided during the impact assessment of the AI system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [request risk assessments, AI asset risk evaluation, risk assessor]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -23,7 +25,7 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance** &gt; **AI Risk and Compliance Workspace**.
 
-2.  Select the list icon ![](../image/list-icon-airc-ws.png).
+2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:.
 
 3.  From the List, open the AI asset for which you want to request risk assessments.
 
@@ -103,7 +105,7 @@ Number of days within which the assessment should be completed after it’s init
 
 ## What to do next
 
-[Perform advanced risk assessment in the Risk Workspace](../../grc-workspace-risk/task/perform-ara-workspace.md)
+[Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md)
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

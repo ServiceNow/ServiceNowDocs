@@ -2,12 +2,13 @@
 title: Configure obligation review for the playbook
 description: Create a page in UI Builder that uses a viewport component to dynamically load obligation review content in the playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-add-obligation-playbook.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure the Playbook tab, Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  Create a new page by selecting the **+** icon.
 
-    ![Add pages and variants on an experience page in UI Builder.](../image/cmpro-new-page-uib.png "Create page and variants")
+    \[Omitted image "cmpro-new-page-uib.png"\] Alt text: Add pages and variants on an experience page in UI Builder.
 
 5.  Select **Create from scratch instead**.
 
@@ -41,11 +42,11 @@ Role required: admin
 
 8.  Complete the remaining steps to create the page.
 
-    For more information, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+    For more information, see .
 
 9.  Add a viewport component for the page.
 
-    For more information on adding a viewport, see [Add a viewport component to your page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-with-viewport-components.md).
+    For more information on adding a viewport, see .
 
     1.  In the configuration panel, select **+ Add** to attach the **Now Assist in Contract Management** page collection.
 
@@ -53,7 +54,7 @@ Role required: admin
 
 10. Create a client script for the page.
 
-    For more information on adding a client script, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/define-client-scripts.md).
+    For more information on adding a client script, see .
 
     1.  Select **+** next to **Client scripts**.
 
@@ -91,7 +92,7 @@ Role required: admin
 
 11. Select the **Body** component and then select the **Events** tab under **Page configuration**.
 
-    ![Events tab under Page Configuration.](../image/cmpro-page-events-tab.png "Events tab for page")
+    \[Omitted image "cmpro-page-events-tab.png"\] Alt text: Events tab under Page Configuration.
 
     1.  Select **Add handler** under the **Page ready** section.
 
@@ -105,8 +106,8 @@ Role required: admin
 
 13. Navigate to the **General** tab under **Settings** and verify that **table**, **sysId**, and **diTaskSysId** are available under the **Required parameters**.
 
-    If the parameters are not available, add them manually. For more information on modifying the page settings, see [Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/edit-variant-settings.md).
+    If the parameters are not available, add them manually. For more information on modifying the page settings, see .
 
 
-**Parent Topic:**[Configuring the Playbook tab on contract repository records](cmpro-config-playbook-tab.md)
+**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
 

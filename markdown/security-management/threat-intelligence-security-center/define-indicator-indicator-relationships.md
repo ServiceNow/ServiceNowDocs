@@ -2,6 +2,7 @@
 title: Define indicator-indicator relationships
 description: Define relationships between the indicator object and other Use the relationships objects to link together two observables or an observable and SDO to explain how they relate to each other..
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/define-indicator-indicator-relationships.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -31,15 +32,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d320496e102">
+<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d140447e98">
 
 Field
 
-</th><th align="left" id="d320496e105">
+</th><th align="left" id="d140447e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d320496e111">
+</th></tr></thead><tbody><tr><td id="d140447e107">
 
 **Description**
 
@@ -47,7 +48,7 @@ Description
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d320496e120">
+</td></tr><tr><td id="d140447e116">
 
 **Domain**
 
@@ -55,7 +56,7 @@ Specifies the threat source from which this record is created.
 
 Defines the scope of the object record. The value in this field is auto populated.
 
-</td></tr><tr><td id="d320496e131">
+</td></tr><tr><td id="d140447e127">
 
 **Target Indicator**
 
@@ -63,7 +64,7 @@ Defines the scope of the object record. The value in this field is auto populate
 
 Select and define the target indicator object.
 
-</td></tr><tr><td id="d320496e140">
+</td></tr><tr><td id="d140447e136">
 
 **Relationship Type**
 
@@ -75,7 +76,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d320496e160">
+</td></tr><tr><td id="d140447e156">
 
 **Source Indicator**
 
@@ -87,5 +88,5 @@ Select and define the source object indicator.
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Relationships Objects](../concept/relationship-objects.md)
+**Parent Topic:**[Relationships Objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/relationship-objects.md)
 

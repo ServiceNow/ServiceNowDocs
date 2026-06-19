@@ -2,6 +2,7 @@
 title: GRC Choice New record form
 description: Use the GRC Choice New record form to add a role for the participants of your scenario analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/participant-role-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

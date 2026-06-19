@@ -2,6 +2,7 @@
 title: File type data sources
 description: Import a file from a local source, a remote network server, or another instance by providing a path and authentication information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_FileTypeDataSource.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -41,7 +42,7 @@ Attachment
 
 </td><td>
 
-[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_AddingAnAttachment.md) a file to the record and import that file in an import set.
+Add and manage attachments a file to the record and import that file in an import set.
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ You can import using both the XLSX format and the legacy XLS format. XLS is the 
 -   All .xls files must use the 1900 date system as opposed to the 1904 date system. The 1904 date system causes your dates to be imported with a year that is four years earlier than what appears in your spreadsheet. Refer to MS Support for additional information about date systems.
 -   When importing a file from Excel that has upper case boolean values of \(TRUE/FALSE\), both values always transform to false. To prevent this behavior, set the **glide.transform.boolean.casesensitive** property to false.
 
-![Microsoft Excel demo data](../image/Xls_shot.png "Microsoft Excel Demo Data")
+\[Omitted image "Xls\_shot.png"\] Alt text: Microsoft Excel demo data
 
 ## XML data source file
 
@@ -178,7 +179,7 @@ CSV files are used as a cross-compatible file format for transferring files acro
 "fred.luddy","Fred Luddy","fred.luddy@yourcompany.com","2004-05-01 17:00:00","true"
 ```
 
-When using CSV files, you can specify the encoding charset using the **Properties** field on the Data Source form. You may need to [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) the Data Source form to see this field. For example, to use utf-8 encoding, enter **charset=utf-8**.
+When using CSV files, you can specify the encoding charset using the **Properties** field on the Data Source form. You may need to Configuring the form layout the Data Source form to see this field. For example, to use utf-8 encoding, enter **charset=utf-8**.
 
 ## Data in single column
 
@@ -191,11 +192,11 @@ If you create a JSON format data source to save data in a single column, selecti
 -   **Discard Array** becomes unselected and is removed from the form.
 -   **Expand node children** becomes selected and is removed from the form.
 
-![JSON data in a single column](../image/json-data-in-single-column.png "JSON data in a single column")
+\[Omitted image "json-data-in-single-column.png"\] Alt text: JSON data in a single column
 
 If you create an XML format data source to save data in a single column and you select the **Data in single column** check box, **Expand node children** becomes selected and is removed from the form.
 
-![XML data in a single column](../image/xml-data-in-single-column.png "XML data in a single column")
+\[Omitted image "xml-data-in-single-column.png"\] Alt text: XML data in a single column
 
 ## Custom \(Parse by Script\) format
 
@@ -209,7 +210,7 @@ The Javascript has three predefined parameters:
 
 The **result** parameter is an instance of Java object ScopedScriptParseResult. When you type `result.`, four available methods appear as script auto-complete in the Javascript editor:
 
-![Auto-complete menu](../image/auto-complete.png "Auto-complete menu")
+\[Omitted image "auto-complete.png"\] Alt text: Auto-complete menu
 
 -   `void setSkip(boolean skip);`
 -   `boolean getSkip();`

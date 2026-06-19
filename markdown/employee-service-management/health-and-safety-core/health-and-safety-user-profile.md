@@ -2,6 +2,7 @@
 title: Health and Safety user profile
 description: A Health and Safety profile provides safety team with all the information about a user in one central place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/health-and-safety-user-profile.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -21,7 +22,7 @@ It enables them to access all safety-related information about users \(including
 
 The following image shows an example profile of a Health and Safety user.
 
-![A Health and Safety profile showing all safety related information about the user.](../image/hs-user-profile.png "Example Health and Safety profile")
+\[Omitted image "hs-user-profile.png"\] Alt text: A Health and Safety profile showing all safety related information about the user.
 
 The **Details** tab displays key information about the user such as their expertise, location, and employment start date.
 
@@ -47,10 +48,10 @@ The tabs in a profile appear based on the installed Health and Safety applicatio
 To open the Health and Safety profile for a user,
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
-2.  Select the configuration icon \(![Configuration icon](../../hs-risk-management/image/icon-config.png)\) and select the **Health and safety profiles** list.
+2.  Select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\) and select the **Health and safety profiles** list.
 
 ## Assigning Health and Safety profile
 
--   To assign Health and Safety profile for a user, see [Assign Health and Safety profile to a user](../task/assign-hs-profile-user.md).
--   To assign Health and Safety profile for a contract worker, see [Assign Health and Safety profile to a contractor worker](../../hs-contractor-management/task/hs-assign-hs-user-profile-contract-worker.md).
+-   To assign Health and Safety profile for a user, see [Assign Health and Safety profile to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/assign-hs-profile-user.md).
+-   To assign Health and Safety profile for a contract worker, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
 

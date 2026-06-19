@@ -2,6 +2,7 @@
 title: Pick a browser
 description: If the test or test suite you are running contains steps that work with a form \(any step involving a UI\), or any other UI test step element \(such as Automated Service Catalog test steps\), work with the Pick a Browser dialog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-pick-a-browser.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -19,7 +20,7 @@ If the test or test suite you are running contains steps that work with a form \
 
 You must have created the test you want to run.
 
-The [test execution property](../reference/atf-admin-properties.md) must be enabled. You must have an admin or atf\_test\_admin role to do so.
+The [test execution property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-admin-properties.md) must be enabled. You must have an admin or atf\_test\_admin role to do so.
 
 **Note:** The test execution property is disabled by default to prevent running tests on a production system. Run tests only on development, test, and other sub-production instances.
 
@@ -33,11 +34,11 @@ The Pick a Browser dialog appears after you click **Run Test** or **Run Test Sui
 
 1.  Choose the browser in which the test or test suite should run or be rerun again in the case of failed tests.
 
-    All registered client test runners that are currently active appear in the Pick a Browser dialog. \(Current session\) indicates that the browser is currently running. See [Working with client test runners](../concept/atf-test-runners.md).
+    All registered client test runners that are currently active appear in the Pick a Browser dialog. \(Current session\) indicates that the browser is currently running. See [Working with client test runners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-runners.md).
 
 2.  Click **Manage your test runners here** as needed to view all client test runners registered for the current user.
 
-    See [Active manual test runners](../reference/atf-active-manual-runners-module.md).
+    See [Active manual test runners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-active-manual-runners-module.md).
 
 3.  If you want to open a client test runner in this browser session, click **Start a new test runner**, which appears when client test runners are only available in other browsers for the current user.
 
@@ -51,8 +52,8 @@ The Pick a Browser dialog appears after you click **Run Test** or **Run Test Sui
 
 The test, test suite or failed tests run in the selected browser or client test runner. The Progress viewer appears for monitoring of the progress of the test run.
 
--   **[Cloud Runner browser](../concept/atf-cloud-runner-browser.md)**  
+-   **[Cloud Runner browser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-cloud-runner-browser.md)**  
 If you are running a test or a test suite, select the Cloud Runner browser option to run your tests in a cloud browser.
 
-**Parent Topic:**[UI test steps](../concept/ui-test-steps.md)
+**Parent Topic:**[UI test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/ui-test-steps.md)
 

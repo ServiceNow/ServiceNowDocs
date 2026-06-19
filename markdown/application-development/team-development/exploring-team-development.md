@@ -2,6 +2,7 @@
 title: Exploring Team Development
 description: Team Development supports parallel development on multiple, non-production ServiceNow instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/exploring-team-development.html
 release: australia
 product: Team Development
 classification: team-development
@@ -26,7 +27,7 @@ After setting up the instance hierarchy, you can develop changes on your local d
 -   Comparing your instance with other development instances and resolving any collisions with other development projects.
 -   Pushing changes when a feature is tested and ready to promote to the parent development instance.
 
-Developers with admin access to their development instance and the parent instance can use Team Development. For alternative access settings, see [https://servicenow.com/docs/bundle/xanadu-application-development/page/build/team-development/reference/r\_GrantingAccessRightsToDevelopers.html](https://servicenow.com/docs/bundle/xanadu-application-development/page/build/team-development/reference/r_GrantingAccessRightsToDevelopers.html).
+Developers with admin access to their development instance and the parent instance can use Team Development. For alternative access settings, see [Access rights for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/r_GrantingAccessRightsToDevelopers.md).
 
 ## Team Development users
 
@@ -39,6 +40,6 @@ Developers with admin access to their development instance and the parent instan
 
 To learn more about configuring and using Team Development, see:
 
--   [Configuring Team Development](../task/configuring-team-development.md)
--   [Administer Team Development](../task/administer-team-development.md)
+-   [Configuring Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/configuring-team-development.md)
+-   [Administer Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/administer-team-development.md)
 

@@ -2,6 +2,7 @@
 title: View Configuration Compliance authoritative sources
 description: Use this module to view summary information about each authoritative source and to research the source publications that were used to create the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/view-vuln-config-compl-auth-sources.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

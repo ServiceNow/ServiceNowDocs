@@ -2,6 +2,7 @@
 title: Run quick start tests for Talent Development Core
 description: Run quick start tests to verify the Talent Development Core app and features still work after each upgrade and deployment of new applications or integrations. If you customized Talent Development Core, you must configure the quick start tests to ensure they're compatible with your customizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-td-core-run-quick-start-test.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Search and select the quick start tests you want to run.
 
-    For information on available quick start tests, see [Quick start tests for Talent Development Core](../reference/egd-quick-start-tests-td-core.md).
+    For information on available quick start tests, see [Quick start tests for Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-quick-start-tests-td-core.md).
 
 3.  Click **Run Test**.
 
@@ -36,7 +37,7 @@ Role required: admin
 
 ## What to do next
 
-Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-perf-prof.md).
+Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See .
 
-**Parent Topic:**[Quick start tests for Talent Development Core](../reference/egd-quick-start-tests-td-core.md)
+**Parent Topic:**[Quick start tests for Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-quick-start-tests-td-core.md)
 

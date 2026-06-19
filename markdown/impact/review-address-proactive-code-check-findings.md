@@ -2,11 +2,14 @@
 title: Proactive Code Check analytics for the Impact Store Application
 description: Platform Owners use Proactive Code Check to track compliance against coding best practices and organizational standards. Owners can review detailed findings and audit the status of issues that were uncovered during the scan. Historical data is available up to six months.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/review-address-proactive-code-check-findings.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Proactive Code Check, Platform Health, Using Impact, Impact]
+breadcrumb: [Proactive Code Check, Impact reference, Impact]
 ---
 
 # Proactive Code Check analytics for the Impact Store Application
@@ -52,4 +55,6 @@ Role required: Impact\_platform\_owner, sn.mif\_mif\_read
         |Count of Findings New|New and Updated on Today|
         |Count of Findings Muted|Muted and Updated on Today|
 
+
+**Parent Topic:**[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/proactive-code-check.md)
 

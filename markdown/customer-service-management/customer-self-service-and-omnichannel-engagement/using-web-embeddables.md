@@ -2,6 +2,7 @@
 title: Configure Web Embeddables
 description: Web Embeddables capability enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. You can use the default components or create your own custom components to interact with the ServiceNow platform, using dedicated APIs that allow for real-time data exchange and functionality without requiring users to directly access the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -35,5 +36,5 @@ You can configure and embed the following ServiceNow components on the third-par
 
 ## Web Embeddables end-to-end flow
 
-![Screenshot displaying steps to configure and embed a Web Embeddables component on an external site.](../image/we-end-to-end-workflow.svg)
+\[Omitted image "we-end-to-end-workflow.svg"\] Alt text: Screenshot displaying steps to configure and embed a Web Embeddables component on an external site.
 

@@ -2,6 +2,7 @@
 title: Jumpstart Your Now Assist in Virtual Agent
 description: The Jumpstart Your Now Assist in Virtual Agent \(VA\) Accelerator provides a demonstration of the possibilities and capabilities of Now Assist in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-now-assist-virtual-agent.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,11 +20,13 @@ The Jumpstart Your Now Assist in Virtual Agent \(VA\) Accelerator provides a dem
 
 Jumpstart Your Now Assist in Virtual Agent provides Impact customers with an overview and applied  demonstration that helps you to gain a deeper understanding of how to get started with Now Assist in VA. This Accelerator guides customers through the setup process, while highlighting  the potential of Generative AI in the Virtual Agent space. Additionally, it offers key resources and leading practices for getting started with confidence.
 
-For additional information on the feature, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)
+For additional information on the feature, see 
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 

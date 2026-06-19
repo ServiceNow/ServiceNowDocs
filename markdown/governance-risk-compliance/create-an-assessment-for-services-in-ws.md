@@ -2,6 +2,7 @@
 title: Create an Importance and impact tolerance assessment
 description: Determine the importance and impact tolerance of a business service by conducting an assessment using either Smart Assessment or Legacy assessment. The assessment questionnaire helps you to measure the service's importance and its impact on customers based on their responses. By evaluating the feedback, you can effectively gauge the significance of your business service and understand its effects on your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-an-assessment-for-services-in-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Operational Resilience Managers \(sn\_oper\_res.manager\) have the Smart Assessm
 
     The Importance and impact tolerance assessments \(IIA\) in the Operational Resilience application are displayed in the All assessments list view as shown in the following example.
 
-    ![List view in the All assessments form.](../image/list-view-of-assessments.png "List view in the All assessments form")
+    \[Omitted image "list-view-of-assessments.png"\] Alt text: List view in the All assessments form.
 
 2.  To create an assessment, select **New**.
 
@@ -41,15 +42,15 @@ Operational Resilience Managers \(sn\_oper\_res.manager\) have the Smart Assessm
 
     -   Smart Assessment: You can add multiple smart assessment templates for the `Assessment type: Smart assessment` in the **Smart assessment templates** field.
     -   Legacy Assessment: You can add a single assessment template for the `Assessment type: Legacy assessment` in the **Assessment template** field.
-<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d185642e176">
+<table id="choicetable_ltj_f4q_xfc"><thead><tr><th align="left" id="d192277e176">
 
 Choice
 
-</th><th align="left" id="d185642e179">
+</th><th align="left" id="d192277e179">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d185642e185">
+</th></tr></thead><tbody><tr><td id="d192277e185">
 
 **Select __Smart assessment__.**
 
@@ -77,9 +78,9 @@ Only when these conditions are met, the template is available for selection in t
 
  Operational Resilience administrators can edit or create Smart Assessment templates in the base version and update their automation logic to suit the business needs.
 
- **Note:** For information on setting up Smart Assessment templates, see [Create a Smart Assessment template](../../grc-operational-res/task/create-sm-asmt-temp-as-ws.md) and [Create an assessment template](../../assessment-engine/task/sae-asmnt-template-create.md).
+ **Note:** For information on setting up Smart Assessment templates, see [Create a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-sm-asmt-temp-as-ws.md) and [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
-</td></tr><tr><td id="d185642e324">
+</td></tr><tr><td id="d192277e324">
 
 **Select __Legacy assessment__.**
 
@@ -94,7 +95,7 @@ Legacy assessment method for performing the importance and impact tolerance asse
 
     **Note:** The approver must be a user other than the owner and assessor.
 
-    For a description of the field values on the Importance and impact tolerance assessment form, see [Create New Importance and impact tolerance assessment form](../reference/importance-and-impact-tolerance-assessment-reference-in-ws.md).
+    For a description of the field values on the Importance and impact tolerance assessment form, see [Create New Importance and impact tolerance assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/importance-and-impact-tolerance-assessment-reference-in-ws.md).
 
 6.  In the **Assessment due date** field under the Milestones panel, select the due date for the assessment.
 
@@ -118,10 +119,10 @@ Legacy assessment method for performing the importance and impact tolerance asse
 
     An assessment is created in the **Draft** state. The details of the assessment are displayed in the assessment form as shown in the following example.
 
-    ![Importance and impact tolerance assessment.](../image/assessment-draft-state-details-panel.png "Importance and impact tolerance assessment")
+    \[Omitted image "assessment-draft-state-details-panel.png"\] Alt text: Importance and impact tolerance assessment.
 
 
 ## What to do next
 
-Add scope for the assessment. For more information, see [Define the scope and begin the assessment](submit-an-assessment-in-ws.md).
+Add scope for the assessment. For more information, see [Define the scope and begin the assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/submit-an-assessment-in-ws.md).
 

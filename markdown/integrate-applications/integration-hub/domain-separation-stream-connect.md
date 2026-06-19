@@ -2,6 +2,7 @@
 title: Domain separation and Stream Connect
 description: Domain separation is supported for Stream Connect. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/domain-separation-stream-connect.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -24,7 +25,7 @@ Domain separation is supported for Stream Connect. Domain separation enables you
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Message replication
 
@@ -45,7 +46,7 @@ A Kafka topic replication record has the same domain as its associated channel r
 
 You can use topic namespaces to configure which domains can access a Kafka topic on a domain-separated instance. In ServiceNow, Kafka topics are linked to a namespace. Namespaces can be linked to ServiceNow domains. When a namespace is assigned to a specific domain, all the topics created with that namespace are also assigned to the namespace's domain. Users can only see and interact with the topics they have access to, based on domain visibility and access control lists \(ACLs\).
 
-For more information, see [Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md).
+For more information, see .
 
 ## Producers and consumers
 
@@ -59,7 +60,7 @@ For consumers, all the tables used to keep runtime data are domain separated. Th
 -   Kafka Consumer Statistics \[sys\_kafka\_consumer\_statistics\]
 -   Kafka Unprocessed Messages \[sys\_kafka\_unprocessed\_messages\]
 
-Domain users can create domain-specific Kafka streams with the topics that are visible to the domain. When activating a Kafka stream, the subscription and partition groups are created within the same domain. At runtime, the domain of the partition group is set by the consumer thread so that all the data is imported to the correct domain. For more information on producers, consumers, and Kafka streams, see [Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md).
+Domain users can create domain-specific Kafka streams with the topics that are visible to the domain. When activating a Kafka stream, the subscription and partition groups are created within the same domain. At runtime, the domain of the partition group is set by the consumer thread so that all the data is imported to the correct domain. For more information on producers, consumers, and Kafka streams, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 
 ## Schema management
 
@@ -72,5 +73,5 @@ Tables for schemas and schema registries are domain separated. These include the
 -   Confluent Stream Connect Schema \[confluent\_stream\_connect\_schema\]
 -   Standalone Stream Connect Schema \[standalone\_stream\_connect\_schema\]
 
-**Parent Topic:**[Integration Hub reference](integration-hub-reference.md)
+**Parent Topic:**[Integration Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-hub-reference.md)
 

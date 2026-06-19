@@ -2,6 +2,7 @@
 title: OSCAL Assessment Plan field mapping
 description: CAM exports engagement and control test data to OSCAL Assessment Plan format using the following field mappings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-ap-field-mapping.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -247,5 +248,5 @@ The href uses the package UUID. If the package was imported, it uses the UUID fr
 
 Custom properties contain CAM-specific data not natively supported by OSCAL standards. These properties use the ServiceNow namespace \(identified by "ns:servicenow" in the JSON\). Custom properties include engagement-specific fields such as fieldwork dates, budget information, and control test methods. Documentation of all custom properties is available on the ServiceNow product documentation site.
 
-**Parent Topic:**[CAM OSCAL](../../grc-cam-workspace/concept/oscal-cam-ws.md)
+**Parent Topic:**[CAM OSCAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-cam-ws.md)
 

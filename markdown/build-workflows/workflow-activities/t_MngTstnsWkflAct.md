@@ -2,6 +2,7 @@
 title: Manage transitions between workflow activities
 description: Transitions define the processing path of the workflow, depending on conditions defined in each activity.Controls on the Approval - User activity enable an administrator to add additional workflow transitions to the activity other than the default transitions of Approved or Rejected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/t\_MngTstnsWkflAct.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -25,7 +26,7 @@ All conditions in an activity must have a transition and all transitions must ha
 
 **Note:**
 
-Run the [workflow validation](../../workflow-validation/concept/c_WorkflowValidation.md) tool prior to publishing to detect missing or disconnected transitions that could cause a workflow to hang.
+Run the [workflow validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowValidation.md) tool prior to publishing to detect missing or disconnected transitions that could cause a workflow to hang.
 
 ## Procedure
 
@@ -33,11 +34,11 @@ Run the [workflow validation](../../workflow-validation/concept/c_WorkflowValida
 
     -   Drag and drop an activity directly onto a transition line to connect it to the adjacent activities. The transition line turns blue when the connection is made. The system updates the transitions automatically to reflect the new sequence.
 
-        ![Add a transition by dragging and dropping an activity on an existing transition line.](../image/WorkflowAddActivity.png)
+        \[Omitted image "WorkflowAddActivity.png"\] Alt text: Add a transition by dragging and dropping an activity on an existing transition line.
 
     -   Drag the activity to an open area in the canvas and create the transitions manually. Click the yellow square on the right side of the activity condition and drag a connector to the next task.
 
-        ![Draw a line from one activity to another to create a transition manually.](../../workflow-activities/image/CreateTransitionManually.png)
+        \[Omitted image "CreateTransitionManually.png"\] Alt text: Draw a line from one activity to another to create a transition manually.
 
 2.  You can draw multiple transitions from the same activity condition if the activity executes concurrently.
 

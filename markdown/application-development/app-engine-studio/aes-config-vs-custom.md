@@ -2,6 +2,7 @@
 title: Use App Engine instead of customization
 description: App Engine development tools, such as App Engine Studio, offer an excellent alternative to customizing existing applications on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-config-vs-custom.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio

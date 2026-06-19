@@ -2,7 +2,10 @@
 title: View a case from the Consumer Service Portal
 description: Users with the consumer role can view a list of cases from the Consumer Service Portal and select individual cases to see more detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-cases-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

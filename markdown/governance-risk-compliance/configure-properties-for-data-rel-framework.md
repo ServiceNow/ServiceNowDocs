@@ -2,6 +2,7 @@
 title: Configure the properties for the Data Relationships Framework
 description: Configure the properties for the Data Relationships Framework application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-properties-for-data-rel-framework.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,13 +24,13 @@ Role required: sn\_grc\_rel\_config.admin
 
 2.  Update the properties in the form.
 
-    For information on the properties in the form, see [Data Relationships Framework properties form](../reference/data-rel-framework-properties-form.md).
+    For information on the properties in the form, see [Data Relationships Framework properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-rel-framework-properties-form.md).
 
 3.  Select **Save**.
 
 
--   **[Data Relationships Framework properties form](../reference/data-rel-framework-properties-form.md)**  
+-   **[Data Relationships Framework properties form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-rel-framework-properties-form.md)**  
 Use the Data Relationships Framework properties form to configure the relationship properties for Data Relationships Framework APIs.
 
-**Parent Topic:**[Data Relationships Framework](../concept/data-relationship-framework.md)
+**Parent Topic:**[Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/data-relationship-framework.md)
 

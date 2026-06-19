@@ -2,6 +2,7 @@
 title: Connecting with Microsoft Copilot Studio Via AI Gateway
 description: Connecting with a Microsoft Copilot Studio via AI Gateway.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-agent-in-copilot-studio-for-mcp-client-integration.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

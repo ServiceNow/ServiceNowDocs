@@ -2,6 +2,7 @@
 title: Update entity classes for multiple entities
 description: Provide an entity class for multiple entities where the class field is empty. Entity classes are used to add a conceptual information about the entity and classify the entities. As an administrator, you can update the entity classes for multiple entities with a single click.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/bulk-update-entity-class.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -50,5 +51,5 @@ The classes are only added for the entities that match the filter conditions and
 
 The entity classes for multiple entities are updated.
 
-**Parent Topic:**[Entity classes](../concept/entity-class-in-risk-ws.md)
+**Parent Topic:**[Entity classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-class-in-risk-ws.md)
 

@@ -2,11 +2,14 @@
 title: Deleting assets in bulk
 description: Filter assets and do a bulk deletion in the Discovery Console for OT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/bulk-delete-assets.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Assets page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Assets page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Deleting assets in bulk
@@ -25,11 +28,11 @@ Role required: admin
 
 3.  Select the plus sign at the top of the pane.
 
-4.  In the new entry field, select a filter type from the pop-up menu by selecting the down arrow icon ![](../../msi-console/image/arrow-down-icon.png).
+4.  In the new entry field, select a filter type from the pop-up menu by selecting the down arrow icon \[Omitted image "arrow-down-icon.png"\] Alt text:.
 
     For example, if you select Brand, a second entry field options and provides a pop-up list of brands. You can select more than one type of filter and the associated list, but you can only delete one group of assets.
 
-    ![Brand filter](../../msi-console/image/filter-brands.png)
+    \[Omitted image "filter-brands.png"\] Alt text: Brand filter
 
 5.  After you have filtered your assets, select **Enter**.
 
@@ -37,7 +40,7 @@ Role required: admin
 
 6.  Select the **Action** button.
 
-    ![Action>Delete Assets](../../msi-console/image/actions-delete-assets-choice.png)
+    \[Omitted image "actions-delete-assets-choice.png"\] Alt text: Action&gt;Delete Assets
 
 7.  Select **Delete Assets**.
 

@@ -2,6 +2,7 @@
 title: Edit a role's access to the experience switcher
 description: Add more roles to the Experience Visibility Controls table \[sn\_udc\_experience\_visibility\_control\] to give them access to other products in the experience switcher, such as ServiceNow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/crs-edit-role-access-experience-switcher.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -38,22 +39,22 @@ This topic is for giving non-default roles to the experience switcher. The follo
 
 4.  Specify the roles that should get access to the experience.
 
-    1.  Unlock the **Available for roles** field by selecting the lock icon ![](../image/crs-purple-lock.png).
+    1.  Unlock the **Available for roles** field by selecting the lock icon \[Omitted image "crs-purple-lock.png"\] Alt text:.
 
     2.  Start typing and then select the name of the role you're giving access to.
 
-    3.  Lock the **Available for roles** field by selecting the unlock icon ![](../image/crs-purple-unlock.png).
+    3.  Lock the **Available for roles** field by selecting the unlock icon \[Omitted image "crs-purple-unlock.png"\] Alt text:.
 
 5.  Specify the roles that should not have access to the experience.
 
-    1.  Unlock the **Not available for roles** field by selecting the lock icon ![](../image/crs-purple-lock.png).
+    1.  Unlock the **Not available for roles** field by selecting the lock icon \[Omitted image "crs-purple-lock.png"\] Alt text:.
 
     2.  Start typing and then select the name of the role you're restricting access for.
 
-    3.  Lock the **Not available for roles** field by selecting the unlock icon ![](../image/crs-purple-unlock.png).
+    3.  Lock the **Not available for roles** field by selecting the unlock icon \[Omitted image "crs-purple-unlock.png"\] Alt text:.
 
 6.  Select **Submit** to save the changes.
 
 
-**Parent Topic:**[Administering access to the experience switcher](../concept/crs-experience-switcher-role-access.md)
+**Parent Topic:**[Administering access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/crs-experience-switcher-role-access.md)
 

@@ -2,6 +2,7 @@
 title: Suspend and resume SLA timing from a work order task
 description: Pause and resume the timing on a work order SLA from a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_SpndRsmSLATimingWOTsk.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,13 +2,14 @@
 title: Add a quick action in your mobile applications
 description: Provide your users with a shortcut, which is also known as a quick action, to an item or action in your mobile apps. Quick actions appear on the applet launcher page.Provide easy access to an important item by creating a quick action. For example, you can create a quick action that opens a Service Catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/add-quick-action.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configuring Now Mobile, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Now Mobile, Now Mobile app, Unified Employee Experience, Employee Service Management]
 ---
 
 # Add a quick action in your mobile applications
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  In the applet launchers \[sys\_sg\_applet\_launcher\] table, open the applet launcher record that you would like to add the catalog item to.
 
-    For example, open the Homepage record to add the catalog item under the ![Plus icon](../image/more-items.png) icon on the home page.
+    For example, open the Homepage record to add the catalog item under the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the home page.
 
 3.  Select the **Body** tab.
 
@@ -45,9 +46,9 @@ Role required: admin
 
 ## Result
 
-Your users can open the quick action by selecting the ![Plus icon](../image/more-items.png) icon on the applet launcher page.
+Your users can open the quick action by selecting the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page.
 
-**Parent Topic:**[Configuring Now Mobile](../concept/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 
 ## Create a quick action in your mobile applications
 
@@ -103,7 +104,7 @@ Type of quick action that you want to create.
 
  To create a quick action that opens a Service Catalog item, select **URL**.
 
-For more information about function types, see [Configure a smart button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-config-smart-button.md).
+For more information about function types, see Configure a smart button.
 
 </td></tr><tr><td>
 
@@ -270,7 +271,7 @@ Icon
 
 </td><td>
 
-Icon to display next to the label. For more details on mobile icons, see [Mobile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-icon.md).**Note:** Not all listed icons work with quick actions. To see a list of compatible icons, filter your list where the **Icons** field contains `now-mobile-icons-buttons`.
+Icon to display next to the label. For more details on mobile icons, see Mobile icons.**Note:** Not all listed icons work with quick actions. To see a list of compatible icons, filter your list where the **Icons** field contains `now-mobile-icons-buttons`.
 
  **Note:** The **Icons** field is not on the icon list by default. To add the **Icon** field to your list, right-click the list header and select **Configure** &gt; **List Layout**. Then, add the Icon field to the selected list. You should see the icon field on your reference field list.
 
@@ -290,5 +291,5 @@ Number that indicates the order that the functions are listed. If there are mult
 
 ### Result
 
-Your users can open the quick action by selecting the ![Plus icon](../image/more-items.png) icon on the applet launcher page.
+Your users can open the quick action by selecting the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page.
 

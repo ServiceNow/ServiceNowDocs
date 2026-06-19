@@ -2,6 +2,7 @@
 title: Verify and update search sources on your service portal
 description: You can verify the search sources on your service portal and update them, as required, so that the required data is queried seamlessly from the respective instance tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/review-update-search-sources.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,11 +18,11 @@ You can verify the search sources on your service portal and update them, as req
 
 ## Before you begin
 
-Role required: admin or sp\_admin
+Role required: sn\_shop.shopping\_hub\_admin and sp\_admin
 
 ## About this task
 
-Verify that the appropriate search sources, including Suppliers and Purchasing, are listed for your service portal. These should be available by default. If for some reason they aren't, you can add them manually. For more information on search sources, see [AI Search for Sourcing and Procurement Operations](../concept/ai-search-sourcing-procurement-operations.md).
+Verify that the appropriate search sources, including Suppliers and Purchasing, are listed for your service portal. These should be available by default. If for some reason they aren't, you can add them manually. For more information on search sources, see [AI Search for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ai-search-sourcing-procurement-operations.md).
 
 ## Procedure
 
@@ -48,5 +49,5 @@ Verify that the appropriate search sources, including Suppliers and Purchasing, 
 9.  Repeat steps 5-8 for the Purchasing search source.
 
 
-**Parent Topic:**[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+**Parent Topic:**[Service portal configuration for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/service-portal-configuration-for-shoppinghub.md)
 

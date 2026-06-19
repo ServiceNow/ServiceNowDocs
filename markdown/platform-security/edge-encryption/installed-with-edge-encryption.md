@@ -2,6 +2,7 @@
 title: Installed with Edge Encryption
 description: Edge Encryption installs tables to store encryption-related data, system properties to configure default behavior, and the edge\_encryption role to administer Edge Encryption.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/installed-with-edge-encryption.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -111,5 +112,5 @@ Edge Encryption adds the following properties.
     -   **Default value**: false
     -   **Location**: System Properties \[sys\_properties\] table
 
-**Parent Topic:**[Exploring Edge Encryption](../concept/c_EdgeEncryptionOverview.md)
+**Parent Topic:**[Exploring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionOverview.md)
 

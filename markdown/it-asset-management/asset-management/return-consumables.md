@@ -2,13 +2,14 @@
 title: Return consumable assets to stockrooms
 description: Move a consumable asset that is in a consumed state and has completed its life cycle back to an in-stock status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/return-consumables.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Consumables life cycle, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Consumables life cycle, Use, Asset Management, IT Asset Management]
 ---
 
 # Return consumable assets to stockrooms
@@ -40,5 +41,5 @@ Role required: asset, itil, itil\_admin
     You return to the consumable record. A message appears at the top of the form layout with the number of assets that you have retired.
 
 
-**Parent Topic:**[Consumables life cycle](../../asset-management/concept/c_FollowLifeCycleConsumbl.md)
+**Parent Topic:**[Consumables life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_FollowLifeCycleConsumbl.md)
 

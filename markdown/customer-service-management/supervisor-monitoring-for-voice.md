@@ -2,7 +2,10 @@
 title: Supervisor call monitoring
 description: Supervisors can monitor live customer interactions and respond to agent help requests by listening-in, coaching, or barging-in to calls. All supervisor actions taken after accepting a Help Request from an agent are logged with timestamps for audit and reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/supervisor-monitoring-for-voice.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -28,9 +31,8 @@ Each action taken after a **Help Request** is accepted and recorded with a times
 
 For more information, see:
 
--   [Manager Workspace landing page](../../workforce-optimization-for-customer-service-configurable/concept/csm-configurable-manager-workspace-dashboards-new.md)
--   [Manager dashboard for operational Insights](../../workforce-optimization-for-customer-service-configurable/concept/manager-dashboard-for-operational-insights.md)
--   [Listen, Monitor or Barge in to an agent call](../../workforce-optimization-for-customer-service-configurable/task/listen-agent-call-configurable-wfo-cs.md)
+-   [Manager Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-configurable-manager-workspace-dashboards-new.md)
+-   [Listen, Monitor or Barge in to an agent call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/listen-agent-call-configurable-wfo-cs.md)
 
 ## Dependencies
 

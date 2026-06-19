@@ -2,6 +2,7 @@
 title: Update the resource aggregates
 description: From the Resource Manager view, you can update the resource aggregates for a specific time frame.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/update-aggregate-capacity.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -39,5 +40,5 @@ You can use the **Update Resource Aggregates** related link in the following sce
 5.  Select **OK**.
 
 
-**Parent Topic:**[User resources and group resources](../reference/r_UserResourcesAndGroupResources.md)
+**Parent Topic:**[User resources and group resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_UserResourcesAndGroupResources.md)
 

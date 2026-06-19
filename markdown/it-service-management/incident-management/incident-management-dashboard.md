@@ -2,6 +2,7 @@
 title: Legacy: Incident Management dashboard
 description: The Incident Management dashboard lets you see recent trends in incident creation, duration, and resolution. Use the information on this dashboard to spot problem areas and plan your incident management strategy going forward.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-management-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -17,9 +18,9 @@ The Incident Management dashboard lets you see recent trends in incident creatio
 
 **Important:**
 
-Starting in Xanadu release, the Incident Management dashboard is deprecated. Users can use [Incident management dashboard](performance-analytics/incident.md) to view the recent trends in incident creation, duration, and resolution and plan the incident management strategy accordingly.
+Starting in Xanadu release, the Incident Management dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the recent trends in incident creation, duration, and resolution and plan the incident management strategy accordingly.
 
-![Animated gif taking you through the tabs of the dashboard](../../performance-analytics/image/Incident-Management-dashboard_V2.gif "Tabs of the Incident Management dashboard")
+\[Omitted image "Incident-Management-dashboard\_V2.gif"\] Alt text: Animated gif taking you through the tabs of the dashboard
 
 ## End user and roles
 
@@ -77,5 +78,5 @@ The following indicators are not shown directly on the dashboard but are used in
 -   Priority
 -   Age
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
 

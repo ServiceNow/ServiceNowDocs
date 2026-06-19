@@ -2,6 +2,7 @@
 title: Set up the First Advantage spoke
 description: Integrate the ServiceNow instance with your First Advantage account using an API key to authenticate ServiceNow requests.Create a connection record to integrate your ServiceNow instance and the First Advantage server. Your ServiceNow instance uses this connection record to perform the First Advantage spoke actions.Create First Advantage states to be displayed in the State list in your ServiceNow instance.Create the Draft, Ready, and In Progress states in the Task \[task\] table.Create the Complete and Cancelled states in the First Advantage Task \[sn\_fadv\_spoke\_first\_advantage\_task\] table.Create the Complete - Success and Complete - Deal Broken states in the First Advantage Employee Task \[sn\_fadv\_spoke\_first\_advantage\_employee\_task\_table\] table.Receive invite and order event updates at your ServiceNow instance by setting up the webhooks.Create a authorization key to authorise requests from Jenkins.Set up the First Advantage webhook by providing key for the First Advantage webhook client.Access the API endpoint for the invite and order events and share the required details with First Advantage to set up the webhooks.Store the details of the First Advantage accounts and packages by synchronizing First Advantage accounts and packages with ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-first-adv.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -45,7 +46,7 @@ Acquire the API key from the First Advantage server.
 
 5.  On the FirstAdvantage tile, select **View Details**.
 
-    ![View Details button on FirstAdvantage alias tile.](../image/first-adv-view-details.png)
+    \[Omitted image "first-adv-view-details.png"\] Alt text: View Details button on FirstAdvantage alias tile.
 
 6.  Select **Configure**.
 
@@ -59,7 +60,7 @@ Acquire the API key from the First Advantage server.
     |Version|Option to provide the version of the API.|
     |API Key|Option to enter the API key that the First Advantage server uses to authenticate access requests.|
 
-    ![First Advantage connection form.](../image/first-adv-conn-form.png)
+    \[Omitted image "first-adv-conn-form.png"\] Alt text: First Advantage connection form.
 
 8.  Select **Configure Connection**.
 
@@ -252,7 +253,7 @@ Role required: admin
 
 4.  Copy and record the generated value for later use.
 
-    ![Client Secret or Authorization Key](../image/auth-token.png)
+    \[Omitted image "auth-token.png"\] Alt text: Client Secret or Authorization Key
 
 
 ### Provide key in your ServiceNow instance
@@ -261,7 +262,7 @@ Set up the First Advantage webhook by providing key for the First Advantage webh
 
 #### Before you begin
 
--   [Create authorization key for the First Advantage spoke](setup-first-adv.md#) and record the value.
+-   [Create authorization key for the First Advantage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-first-adv.md) and record the value.
 -   Role required: admin
 
 #### Procedure
@@ -275,7 +276,7 @@ Set up the First Advantage webhook by providing key for the First Advantage webh
     |Field|Description|
     |-----|-----------|
     |Name|Name to uniquely identify the record.|
-    |Authorization Key|Authorization key you had generated. For more information, see [Create authorization key for the First Advantage spoke](setup-first-adv.md#).|
+    |Authorization Key|Authorization key you had generated. For more information, see [Create authorization key for the First Advantage spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-first-adv.md).|
 
 4.  Click **Submit**.
 

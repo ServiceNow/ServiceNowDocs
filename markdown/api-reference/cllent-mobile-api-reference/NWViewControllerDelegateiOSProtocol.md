@@ -2,6 +2,7 @@
 title: NowWebViewControllerDelegate protocol - iOS
 description: The NowWebViewControllerDelegate protocol provides callbacks for notification of issues within the NowWebViewController processing such as when a flow ends or a navigation fails.Callback that notifies the host application that the specified Cabrillo \(mobile web\) flow has ended.Callback that notifies the host application that the web view navigation has failed.Callback that notifies the host application that the web view attempted to load an unsupported URL.Callback that notifies the host application that during a back navigation attempt, the stack was exhausted. The host application can then decide whether to dismiss the NowWebViewController instance.Callback that notifies the host application that the system web UI theme changed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NWViewControllerDelegateiOSProtocol.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 The NowWebViewControllerDelegate protocol provides callbacks for notification of issues within the NowWebViewController processing such as when a flow ends or a navigation fails.
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowWebViewControllerDelegate - nowWebViewController\(\_ nowWebViewController: NowWebViewController, didEndFlow flowName: String\)
 
@@ -23,7 +24,7 @@ Callback that notifies the host application that the specified Cabrillo \(mobile
 
 |Name|Type|Description|
 |----|----|-----------|
-|nowWebViewController|[NowWebViewController](../../NowWebViewController/concept/NWebViewControlleriOSAPI.md#)|Instance of NowWebViewController where the flow ended.|
+|nowWebViewController|[NowWebViewController](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NWebViewControlleriOSAPI.md)|Instance of NowWebViewController where the flow ended.|
 |didEndFlow flowName|String|Name of the Cabrillo flow that ended|
 
 |Type|Description|
@@ -44,7 +45,7 @@ Callback that notifies the host application that the web view navigation has fai
 
 |Name|Type|Description|
 |----|----|-----------|
-|nowWebViewController|[NowWebViewController](../../NowWebViewController/concept/NWebViewControlleriOSAPI.md#)|Instance of NowWebViewController in which the navigation failed.|
+|nowWebViewController|[NowWebViewController](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NWebViewControlleriOSAPI.md)|Instance of NowWebViewController in which the navigation failed.|
 |didFailNavigationWith error|Swift.Error|Error raised from the navigation failure.|
 
 |Type|Description|
@@ -69,7 +70,7 @@ An unsupported URL could be one for a different ServiceNow instance or an absolu
 
 |Name|Type|Description|
 |----|----|-----------|
-|nowWebViewController|[NowWebViewController](../../NowWebViewController/concept/NWebViewControlleriOSAPI.md#)|Instance of NowWebViewController used when attempting to load the unsupported URL.|
+|nowWebViewController|[NowWebViewController](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NWebViewControlleriOSAPI.md)|Instance of NowWebViewController used when attempting to load the unsupported URL.|
 |didReceive unsupportedUrl|URL|Invalid URL trying to be loaded.|
 
 |Type|Description|
@@ -90,7 +91,7 @@ Callback that notifies the host application that during a back navigation attemp
 
 |Name|Type|Description|
 |----|----|-----------|
-|nowWebViewController|[NowWebViewController](../../NowWebViewController/concept/NWebViewControlleriOSAPI.md#)|Instance of NowWebViewController in which the back navigation was attempted.|
+|nowWebViewController|[NowWebViewController](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NWebViewControlleriOSAPI.md)|Instance of NowWebViewController in which the back navigation was attempted.|
 
 |Type|Description|
 |----|-----------|
@@ -110,7 +111,7 @@ Callback that notifies the host application that the system web UI theme changed
 
 |Name|Type|Description|
 |----|----|-----------|
-|nowWebViewController|[NowWebViewController](../../NowWebViewController/concept/NWebViewControlleriOSAPI.md#)|Instance of NowWebViewController in which the web UI theme changed.|
+|nowWebViewController|[NowWebViewController](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NWebViewControlleriOSAPI.md)|Instance of NowWebViewController in which the web UI theme changed.|
 |traitCollection|[UITraitCollection](https://developer.apple.com/documentation/uikit/uitraitcollection)|UITraitCollection object that contains the new theme.|
 
 |Type|Description|

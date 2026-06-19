@@ -2,13 +2,14 @@
 title: Remote task definition inbound and outbound fields
 description: The inbound and outbound fields of the remote task definition required for the Zero Touch Refresh flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/inbound-outbound-fields-for-rtd.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Hardware Asset Management reference, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reference, Hardware Asset Management, IT Asset Management]
 ---
 
 # Remote task definition inbound and outbound fields
@@ -61,5 +62,5 @@ The **Sync when** value is **Insert and Update**, which updates the target field
 |Return tracking number|return\_tracking\_number|40|Tracking number \(return\_tracking\_number\)|
 |Return carrier|return\_carrier|80|\(return\_carrier\)|
 
-**Parent Topic:**[Hardware Asset Management reference](../concept/reference-hardware-asset-management.md)
+**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
 

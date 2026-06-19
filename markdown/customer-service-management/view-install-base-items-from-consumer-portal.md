@@ -1,8 +1,11 @@
 ---
 title: Access your list of install base items from the Consumer Portal
-description: Access your install base items from the Consumer Portal to view detailed information, such as the number of items registered to you.
+description: View install base items registered to your account from the Consumer Portal, including details for each device or service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-install-base-items-from-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -11,7 +14,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Access your list of install base items from the Consumer Portal
 
-Access your install base items from the Consumer Portal to view detailed information, such as the number of items registered to you.
+View install base items registered to your account from the Consumer Portal, including details for each device or service.
 
 ## Before you begin
 

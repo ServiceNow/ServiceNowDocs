@@ -2,13 +2,14 @@
 title: Exploring ATF troubleshooting agent
 description: ATF troubleshooting agent streamlines the process of figuring out why tests are failing on specific metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/atf-troubleshooting-agent-explore.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Exploring ATF troubleshooting agent
@@ -19,11 +20,11 @@ ATF troubleshooting agent streamlines the process of figuring out why tests are 
 
 Use ATF troubleshooting agent to simplify test failure diagnosis on specific metadata.
 
-![Landing page](../images/test-agent.gif)
+\[Omitted image "test-agent.gif"\] Alt text: Landing page
 
 ## ATF troubleshooting agent users
 
-AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md).
+AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an AI agent.
 
 ATF troubleshooting agent has the following users.
 
@@ -64,14 +65,14 @@ This role is required to access metadata tables to accurately troubleshoot test 
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Simplify test failure diagnosis|[Troubleshoot test failures](../task/atf-troubleshooting-agent-test-failure.md)|atf\_triager + now\_assist\_panel\_user|
+|Simplify test failure diagnosis|[Troubleshoot test failures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-test-failure.md)|atf\_triager + now\_assist\_panel\_user|
 
 ## What to explore next
 
 To learn more about configuring and using ATF troubleshooting agent, see:
 
--   [Install ATF troubleshooting agent](../task/test-agent-install.md)
--   [Use](../task/atf-troubleshooting-agent-test-failure.md)
+-   [Install ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/test-agent-install.md)
+-   [Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-test-failure.md)
 
-**Parent Topic:**[ATF troubleshooting agent](../reference/atf-troubleshooting-agent-landing-page.md)
+**Parent Topic:**[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
 

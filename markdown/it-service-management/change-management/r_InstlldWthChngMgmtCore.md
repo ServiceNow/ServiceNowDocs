@@ -2,6 +2,7 @@
 title: Installed with Change Management - Core
 description: Several types of components are installed with the Change Management - Core.Change Management - Core modifies the following table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/r\_InstlldWthChngMgmtCore.html
 release: australia
 product: Change Management
 classification: change-management
@@ -15,7 +16,7 @@ breadcrumb: [Activate Change Management - Core, Change Management plugins, Confi
 
 Several types of components are installed with the Change Management - Core.
 
-**Parent Topic:**[Activate Change Management - Core](../task/t_ActivateChangeMgmtCore.md)
+**Parent Topic:**[Activate Change Management - Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ActivateChangeMgmtCore.md)
 
 ## Tables installed with Change Management core
 

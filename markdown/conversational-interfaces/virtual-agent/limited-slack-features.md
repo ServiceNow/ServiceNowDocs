@@ -2,6 +2,7 @@
 title: Unsupported Virtual Agent features in Slack
 description: Refer to the unsupported features of Virtual Agent in Conversational Integration with Slack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/limited-slack-features.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,5 +23,5 @@ Virtual Agent does not support the following functionalities during a conversati
 -   Connect Support
 -   Geo-location topic block
 
-**Parent Topic:**[Virtual Agent features supported in Slack conversations](../concept/va-slack-other-features.md)
+**Parent Topic:**[Virtual Agent features supported in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-slack-other-features.md)
 

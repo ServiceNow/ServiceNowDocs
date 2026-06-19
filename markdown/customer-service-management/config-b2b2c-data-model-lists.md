@@ -2,7 +2,10 @@
 title: Configure the Install Base Items and Sold Products lists
 description: Enable account consumers to view the Account, Contact, and Consumer fields for the Self-Service view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-b2b2c-data-model-lists.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,9 +24,9 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Products** &gt; **Install Base Items**.
 
-2.  Select **View** &gt; **Self-Service** from the Additional Actions menu ![additional actions menu](../../../common/image/icon-menu.png).
+2.  Select **View** &gt; **Self-Service** from the Additional Actions menu \[Omitted image "icon-menu.png"\] Alt text: additional actions menu.
 
-3.  Select the gear icon \(![Gear icon.](../../../common/image/gear.png)\).
+3.  Select the gear icon \(\[Omitted image "gear.png"\] Alt text: Gear icon.\).
 
 4.  Select the Account, Contact, and Consumer fields in the **Available** column and move them to the **Selected** column.
 

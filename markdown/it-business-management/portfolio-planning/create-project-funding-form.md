@@ -2,6 +2,7 @@
 title: Create project funding form
 description: The project funding form information is used to create a project funding budget for the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-project-funding-form.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

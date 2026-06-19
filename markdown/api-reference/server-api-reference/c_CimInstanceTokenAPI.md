@@ -2,6 +2,7 @@
 title: CimInstanceToken - Global
 description: The CimInstanceToken script include provides methods to represent the unique query identity of a Common Information Model \(CIM\) instance.Parses the instance token.Parses the instance token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CimInstanceTokenAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CimInstanceToken script include provides methods to represent the unique que
 
 Use with any server-side discovery script.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CimInstanceToken - getHashToken\(String cimomip\)
 

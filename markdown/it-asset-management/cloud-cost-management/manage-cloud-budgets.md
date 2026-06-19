@@ -2,6 +2,7 @@
 title: Manage cloud budgets
 description: Define and monitor custom budget plans for managing your cloud spend by using the Budget view in the Cloud Cost Management Workspace.Create budget policy to specify a budgeted amount, cost type, reset period, and other aspects of the budget. In addition, specify who can view budget data and who is notified of variances from the budgeted amount.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/manage-cloud-budgets.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -15,7 +16,7 @@ breadcrumb: [Using Cloud Cost Management, Cloud Cost Management, IT Asset Manage
 
 Define and monitor custom budget plans for managing your cloud spend by using the Budget view in the Cloud Cost Management Workspace.
 
-**Parent Topic:**[Using Cloud Cost Management](using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 
 ## Create or update a budget policy
 
@@ -43,7 +44,7 @@ You must select one of the Cloud Cost Management application scopes to create or
 
 3.  On the Budget policy creation form, fill in the fields.
 
-    For a description of the field values, see [List of Budget policy creation fields](../reference/budget-policy-fields.md).
+    For a description of the field values, see [List of Budget policy creation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/budget-policy-fields.md).
 
 4.  Select **Submit**.
 

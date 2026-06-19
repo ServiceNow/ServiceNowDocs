@@ -2,6 +2,7 @@
 title: DEX system requirements
 description: System requirements are the fundamental specifications and configuration needed to install and run DEX effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-sys-requirements.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

@@ -2,6 +2,7 @@
 title: Creator Studio tutorial
 description: Use this tutorial to create a Gift Card Request app to streamline the processes of providing recognition to a team.Begin by creating an app from the Creator Studio home page.Adding a form enables people to make a request. Forms contain questions that people respond to when submitting a service desk request.Customize the form for the gift card request app by manually entering questions. When it's done, you can mark the form as ready to be published.Add a playbook that uses the form that you just created to automate approval for the gift card request app.Customize the lists and submitted records in the workspace where fulfillers can process gift card requests from the. In this list customization, you add a column to view the assignment group.Test your app and then request that an admin review and deploy the app to production.Impersonate an admin to deploy the gift card request app that you created.Use the deployed gift card request app that you just created to request a gift card.Verify that your app is working by checking the Request App Workspace to view the gift card request that you submitted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-tutorial-landing.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -52,21 +53,21 @@ Video on how to create an app
 
 1.  Go to **All** &gt; **App Engine** &gt; **Creator Studio**.
 
-    ![Select the All menu and search for Creator Studio](../image/crs-all-menu-callouts.png "Start Creator Studio")
+    \[Omitted image "crs-all-menu-callouts.png"\] Alt text: Select the All menu and search for Creator Studio
 
 2.  Select the **Create app** button.
 
-    ![Select the Create app button](../image/crs-tutorial-create-app-button.png "Create app button")
+    \[Omitted image "crs-tutorial-create-app-button.png"\] Alt text: Select the Create app button
 
-    -   If you're a system administrator, you can read more about this topic in [Application collaboration](../../applications/concept/application-collaboration.md).
-    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](../task/creator-studio-request-app-added.md).
+    -   If you're a system administrator, you can read more about this topic in [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/application-collaboration.md).
+    -   If you want to know how to request an admin to create the app for you, check out [Ask an admin to create an app for you in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-request-app-added.md).
 3.  Select the type of app you want to build, such as **Service Desk**.
 
     Service Desk apps enable users to submit requests, report issues, and access support related to services within your company.
 
     **Note:** Your admin may have hidden this page.
 
-    ![Within the Creator Studio interface, select the "Service Desk" app option. This type of app is designed to streamline the management of incoming requests or support tickets.](../image/crs-interstitial-sd.png "Select the app type")
+    \[Omitted image "crs-interstitial-sd.png"\] Alt text: Within the Creator Studio interface, select the "Service Desk" app option. This type of app is designed to streamline the management of incoming requests or support tickets.
 
 4.  Select the **Continue** button.
 
@@ -77,7 +78,7 @@ Video on how to create an app
     |Name|`Gift Card Request`|
     |Description|`Request an internal or third party gift card for employee recognition.`|
 
-    ![Enter app name and description](../image/crs-tutorial-create-app-nav.png "Add Gift card request app basic details")
+    \[Omitted image "crs-tutorial-create-app-nav.png"\] Alt text: Enter app name and description
 
 6.  Select the **Create app** button.
 
@@ -100,11 +101,11 @@ Role required: Creator Studio User
 
     You can select **+Add form** in either the navigation panel or the app canvas.
 
-    ![Select + Add form to start adding a form](../image/crs-add-form-nav.png "Start adding a form")
+    \[Omitted image "crs-add-form-nav.png"\] Alt text: Select + Add form to start adding a form
 
 2.  Verify on the template page that the **Creator Studio Default Template** is selected.
 
-    ![Select the default template and then select Apply](../image/crs-tutorial-template-select.png "Select the template")
+    \[Omitted image "crs-tutorial-template-select.png"\] Alt text: Select the default template and then select Apply
 
 3.  Select the **Apply template and continue** button.
 
@@ -135,7 +136,7 @@ You can also use Now Assist for Creator on the **Build with Now Assist** tab to 
     |Short description|`Request an internal or third party gift card for employee recognition.`|
     |Long description|`Looking for a great way to recognize your colleagues? Use this form to request a gift card to our internal company store or to a third party store of your choice!`|
 
-    ![Form name, short and long descriptions](../image/crs-tutorial-add-form-info-nav.png "Enter form details")
+    \[Omitted image "crs-tutorial-add-form-info-nav.png"\] Alt text: Form name, short and long descriptions
 
     **Note:** This page enables you to specify details for your first form. You can also edit the form details, such as name and description, from inside the app after the form is generated.
 
@@ -147,9 +148,9 @@ You can also use Now Assist for Creator on the **Build with Now Assist** tab to 
 
     You can use any image that you like.
 
-    ![Select the image icon to upload an image](../image/crs-tut-add-image.png "Add an image")
+    \[Omitted image "crs-tut-add-image.png"\] Alt text: Select the image icon to upload an image
 
-    1.  Select the add image icon ![](../image/crs-tut-add-image-icon.png).
+    1.  Select the add image icon \[Omitted image "crs-tut-add-image-icon.png"\] Alt text:.
 
     2.  Search for and choose your image to add to the form.
 
@@ -166,7 +167,7 @@ You can also use Now Assist for Creator on the **Build with Now Assist** tab to 
         |Show question on form|Select this option|
         |Mark as required|Select this option|
 
-        ![Specify values to create the first question, and then save](../image/crs-tut-question1.png "Add the first question")
+        \[Omitted image "crs-tut-question1.png"\] Alt text: Specify values to create the first question, and then save
 
     3.  Select the **Save** button.
 
@@ -183,7 +184,7 @@ You can also use Now Assist for Creator on the **Build with Now Assist** tab to 
         |Show question on form|Select this option|
         |Mark as required|Select this option|
 
-        ![Specify values to create the second question, and then save](../image/crs-tut-question2.png "Add the second question")
+        \[Omitted image "crs-tut-question2.png"\] Alt text: Specify values to create the second question, and then save
 
     3.  Select the **Save** button.
 
@@ -200,7 +201,7 @@ You can also use Now Assist for Creator on the **Build with Now Assist** tab to 
         |Show question on form|Select this option|
         |Source table|`User (sys_user)`|
 
-        ![Specify values to create the third question, and then save](../image/crs-tut-question3.png "Add the third question")
+        \[Omitted image "crs-tut-question3.png"\] Alt text: Specify values to create the third question, and then save
 
     3.  Select the **Save** button.
 
@@ -216,7 +217,7 @@ You can also use Now Assist for Creator on the **Build with Now Assist** tab to 
         |Content type|Leave as **Multi-line text**|
         |Show question on form|Select this option|
 
-        ![Specify values to create the fourth question, and then save](../image/crs-tut-question4.png "Add the fourth question")
+        \[Omitted image "crs-tut-question4.png"\] Alt text: Specify values to create the fourth question, and then save
 
     3.  Select the **Save** button.
 
@@ -226,45 +227,45 @@ You can also use Now Assist for Creator on the **Build with Now Assist** tab to 
 
     **Note:** The published form appears only on the non-production instance where you're developing your app. You must request that your admin deploy the app to production for the form to appear in the catalog on the production instance.
 
-    ![Select the Mark as ready button](../image/crs-tut-mark-ready.png "Mark a form as ready")
+    \[Omitted image "crs-tut-mark-ready.png"\] Alt text: Select the Mark as ready button
 
 10. Specify where users can access the form in the Service Catalog and Employee Center.
 
     1.  Select the **Edit location setting** button.
 
-        ![Warning to edit location](../image/crs-tutorial-location-form1.png "Edit location settings warning")
+        \[Omitted image "crs-tutorial-location-form1.png"\] Alt text: Warning to edit location
 
     2.  Select the **Edit** button to add the form to a Service Catalog topic.
 
-        ![Edit the categories](../image/crs-tut-catgory-select.png "Form settings modal")
+        \[Omitted image "crs-tut-catgory-select.png"\] Alt text: Edit the categories
 
     3.  Select the catalog that represents the business area the app will use.
 
         For example, you can expand the **Service Catalog** and then select the **Can we help you?** category.
 
-        ![Select where the form will appear](../image/crs-tut-catalog-select-cat.png "Form settings modal catalogs")
+        \[Omitted image "crs-tut-catalog-select-cat.png"\] Alt text: Select where the form will appear
 
     4.  Select the **Apply** button to save your changes.
 
     5.  Select the **Edit** button to add the form to an Employee Center topic.
 
-        ![Select Employee Center topics](../image/crs-tutorial-location-form2.png "Select topics in the Employee Center topic")
+        \[Omitted image "crs-tutorial-location-form2.png"\] Alt text: Select Employee Center topics
 
     6.  Choose the section of the Employee Center where the form will live.
 
-        ![Select where the topic will live](../image/crs-tutorial-location-form3.png "Select the Employee Center topic")
+        \[Omitted image "crs-tutorial-location-form3.png"\] Alt text: Select where the topic will live
 
 11. Select the **Apply** button.
 
 12. Select the **Save all settings** button to save your changes.
 
-    ![Save all settings on the location](../image/crs-tutorial-location-form4.png "Save all location settings")
+    \[Omitted image "crs-tutorial-location-form4.png"\] Alt text: Save all settings on the location
 
 13. See how the form will look by selecting the **Preview** button.
 
     You can see a preview of the how the current version of the form will appear in various experiences by selecting **Portal** \(such as Employee Portal\), **Now Mobile**, or **Virtual Agent**. You can fill in the form when previewing, but selecting the **Submit** button doesn't generate a task record.
 
-    ![Preview how a form looks on mobile](../image/crs-preview-mobile.png "Preview a form")
+    \[Omitted image "crs-preview-mobile.png"\] Alt text: Preview how a form looks on mobile
 
 
 ## Tutorial part 4:Add an automated playbook
@@ -279,7 +280,7 @@ Role required: Creator Studio User
 
 1.  Select **+ Add automation** for the Gift card request form.
 
-    ![Select + Add automation under the form](../image/crs-tut-add-auto-link.png "Select to add an automation")
+    \[Omitted image "crs-tut-add-auto-link.png"\] Alt text: Select + Add automation under the form
 
 2.  Enter the following values in the Create a playbook modal:
 
@@ -290,23 +291,23 @@ Role required: Creator Studio User
     |Form|Make sure the name of the form that you created \(**Gift card request**\) is selected.|
     |Trigger|Leave the trigger as **Form submitted**.|
 
-    ![Enter details for the playbook](../image/crs-tut-playbook-details.png "Enter playbook details")
+    \[Omitted image "crs-tut-playbook-details.png"\] Alt text: Enter details for the playbook
 
 3.  Select the **Create** button.
 
 4.  Add the manager approval activity.
 
-    1.  Select the add icon \(![](../image/cs-add-icon.png)\).
+    1.  Select the add icon \(\[Omitted image "cs-add-icon.png"\] Alt text:\).
 
-        ![Select the plus sign to add an activity](../image/crs-tut-playbook-plus.png "Add manager approval activity: Step 1")
+        \[Omitted image "crs-tut-playbook-plus.png"\] Alt text: Select the plus sign to add an activity
 
-    2.  Select the Add an activity icon ![](../image/cs-add-activity-icon.png).
+    2.  Select the Add an activity icon \[Omitted image "cs-add-activity-icon.png"\].
 
-        ![Select the square to add an activity](../image/crs-tut-playbook-step2.png "Add manager approval activity: Step 2")
+        \[Omitted image "crs-tut-playbook-step2.png"\] Alt text: Select the square to add an activity
 
     3.  Select the **Request approval** activity.
 
-        ![Select to add a Request approval activity](../image/crs-tut-playbook-step3-zs2.png "Add manager approval activity: Step 3")
+        \[Omitted image "crs-tut-playbook-step3-zs2.png"\] Alt text: Select to add a Request approval activity
 
         The Request approval properties panel appears, where you can define the activity.
 
@@ -319,23 +320,23 @@ Role required: Creator Studio User
         |Approval type|Leave as **Anyone approves**.|
         |Conditions|Select **When playbook starts**.|
 
-        ![Enter details to define the activity](../image/crs-tut-playbook-step4.png "Request manager approval details")
+        \[Omitted image "crs-tut-playbook-step4.png"\] Alt text: Enter details to define the activity
 
     5.  Select **Save and close**.
 
 5.  Add the finance approval activity.
 
-    1.  Select the add icon ![](../image/cs-add-icon.png).
+    1.  Select the add icon \[Omitted image "cs-add-icon.png"\].
 
-        ![Select the plus sign to add an activity](../image/crs-tut-playbook-step5.png "Add finance approval activity: Step 1")
+        \[Omitted image "crs-tut-playbook-step5.png"\] Alt text: Select the plus sign to add an activity
 
-    2.  Select the add an activity icon ![](../image/cs-add-activity-icon.png).
+    2.  Select the add an activity icon \[Omitted image "cs-add-activity-icon.png"\].
 
-        ![Select the square to add an activity](../image/crs-tut-playbook-step6.png "Add finance approval activity: Step 2")
+        \[Omitted image "crs-tut-playbook-step6.png"\] Alt text: Select the square to add an activity
 
     3.  Select the **Request approval** activity.
 
-        ![Select to add a Request approval activity](../image/crs-tut-playbook-step7.png "Add finance approval activity: Step 3")
+        \[Omitted image "crs-tut-playbook-step7.png"\] Alt text: Select to add a Request approval activity
 
         The Request approval properties panel appears, where you can define the activity.
 
@@ -349,13 +350,13 @@ Role required: Creator Studio User
         |Approval type|Leave as **Anyone approves**.|
         |Conditions|Leave as **After specific activity** with **Request manager approval** selected.|
 
-        ![Enter details to define the activity](../image/crs-tut-playbook-step8.png "Request finance approval details")
+        \[Omitted image "crs-tut-playbook-step8.png"\] Alt text: Enter details to define the activity
 
     5.  Select **Save and close**.
 
 6.  Activate the playbook so that it can run when the form is submitted by selecting the **Activate** button.
 
-    ![Select the Activate button](../image/crs-tut-playbook-step9.png "Activate the playbook")
+    \[Omitted image "crs-tut-playbook-step9.png"\] Alt text: Select the Activate button
 
 
 ### Result
@@ -374,25 +375,25 @@ Role required: Creator Studio User
 
 1.  Select the **List configurations** section in the navigation panel.
 
-    ![Select List configurations](../image/crs-tut-lists-step1.png "List configurations in the navigation panel")
+    \[Omitted image "crs-tut-lists-step1.png"\] Alt text: Select List configurations
 
 2.  Add the assignment group to the workspace.
 
     1.  Select the **Manage columns** link in the Filtered list details panel.
 
-        ![Select to manage columns](../image/crs-tut-lists-step2.png "Manage columns link")
+        \[Omitted image "crs-tut-lists-step2.png"\] Alt text: Select to manage columns
 
     2.  Search for `Assignment group` in the Available columns.
 
     3.  Select the **Assignment group**.
 
-        ![Add a column and select Apply](../image/crs-tutorial-form-sub-select-col.png "Manage the columns to add a column")
+        \[Omitted image "crs-tutorial-form-sub-select-col.png"\] Alt text: Add a column and select Apply
 
     4.  Select the **Apply** button.
 
     5.  Select the **Save** button in the Filtered list details panel.
 
-        ![Select Save to save changes](../image/crs-tut-lists-step3.png "Save changes to workspace configuration")
+        \[Omitted image "crs-tut-lists-step3.png"\] Alt text: Select Save to save changes
 
 
 ### Result
@@ -415,11 +416,11 @@ Role required: Creator Studio User
 
     1.  Select the **Gift card request** form from the navigation panel.
 
-        ![Select Gift card request form in navigation panel](../image/crs-tut-submit-step1.png "Select the form to test it")
+        \[Omitted image "crs-tut-submit-step1.png"\] Alt text: Select Gift card request form in navigation panel
 
     2.  Select the **Try it** button.
 
-        ![Select Try it](../image/crs-tut-submit-step2.png "Try it button")
+        \[Omitted image "crs-tut-submit-step2.png"\] Alt text: Select Try it
 
     3.  Complete the form by entering the following values for each field.
 
@@ -430,7 +431,7 @@ Role required: Creator Studio User
         |Recipient|Choose a recipient from the list of people.|
         |Justification|`Onboarding a cool new person for our team!`|
 
-        ![Enter responses onto the form](../image/crs-tut-submit-step3.png "Test the form")
+        \[Omitted image "crs-tut-submit-step3.png"\] Alt text: Enter responses onto the form
 
     4.  Select the **Submit** button when you're done.
 
@@ -438,15 +439,15 @@ Role required: Creator Studio User
 
     The record that your submitted form creates appears in Creator Studio. You can view the results of the playbooks and interact with the record to see how it appears in the Request App Workspace.
 
-    ![Submitted record in Creator Studio](../image/crs-tut-submit-step4.png "View the submitted record")
+    \[Omitted image "crs-tut-submit-step4.png"\] Alt text: Submitted record in Creator Studio
 
 2.  Select the **Submit for review** button.
 
-    ![Select the submit for review button](../image/crs-tut-submit-step5.png "Submit an app for review")
+    \[Omitted image "crs-tut-submit-step5.png"\] Alt text: Select the submit for review button
 
 3.  Select **Continue** on the Submit app for review modal.
 
-    ![Initial submit for review modal](../image/crs-tutorial-sub-review1.png "Start the submit for review process")
+    \[Omitted image "crs-tutorial-sub-review1.png"\] Alt text: Initial submit for review modal
 
 4.  Check the form to be reviewed for deployment in the Review request forms modal.
 
@@ -456,7 +457,7 @@ Role required: Creator Studio User
 
     3.  Select **Continue**.
 
-    ![Review the form to be deployed with the app](../image/crs-tutorial-sub-review2.png "Check the form to be deployed")
+    \[Omitted image "crs-tutorial-sub-review2.png"\] Alt text: Review the form to be deployed with the app
 
 5.  Check the form to be reviewed for deployment in the Review playbooks modal.
 
@@ -466,11 +467,11 @@ Role required: Creator Studio User
 
     3.  Select **Continue**.
 
-    ![Review the playbook to be deployed with the app](../image/crs-tutorial-sub-review3.png "Check the playbook to be deployed")
+    \[Omitted image "crs-tutorial-sub-review3.png"\] Alt text: Review the playbook to be deployed with the app
 
 6.  Confirm that the information in the Review versioning modal is correct, and add the **Release notes**.
 
-    ![Add release notes and submit for review](../image/crs-tutorial-sub-review-4.png "Check and update release version and submit for review")
+    \[Omitted image "crs-tutorial-sub-review-4.png"\] Alt text: Add release notes and submit for review
 
 7.  Select **Submit for review**.
 
@@ -479,7 +480,7 @@ Role required: Creator Studio User
 
 Congratulations, you have created your gift card request app! Now your admin must review and deploy it.
 
-![Confirmation message modal](../image/crs-tutorial-sub-review-5.png "Confirmation of review submission")
+\[Omitted image "crs-tutorial-sub-review-5.png"\] Alt text: Confirmation message modal
 
 ## Tutorial part 7:Admin deploys the app
 
@@ -499,15 +500,15 @@ Role required: admin
 
 3.  Select the number **1** in the Pending requests to complete section.
 
-    ![Select the 1](../image/crs-tutorial-deploy1.png "Apps ready for deployment")
+    \[Omitted image "crs-tutorial-deploy1.png"\] Alt text: Select the 1
 
 4.  Open the deployment record by selecting its **Number**.
 
-    ![Select the Number](../image/crs-tutorial-deploy2.png "List of apps to deploy")
+    \[Omitted image "crs-tutorial-deploy2.png"\] Alt text: Select the Number
 
 5.  Select the **Approve** button.
 
-    ![Select Approve](../image/crs-tutorial-deploy4.png "Approve button for deployment")
+    \[Omitted image "crs-tutorial-deploy4.png"\] Alt text: Select Approve
 
 6.  Select **Save**.
 
@@ -515,18 +516,18 @@ Role required: admin
 
 8.  Select the **Approve and deploy app** button.
 
-    ![Select Approve and deploy](../image/crs-tutorial-deploy5.png "Approve and deploy button for deployment")
+    \[Omitted image "crs-tutorial-deploy5.png"\] Alt text: Select Approve and deploy
 
 9.  Select the **Deploy** button.
 
-    ![Select Deploy](../image/crs-tutorial-deploy6.png "Deploy the app")
+    \[Omitted image "crs-tutorial-deploy6.png"\] Alt text: Select Deploy
 
 
 ### Result
 
 The app has been deployed to production. Select **Show more** in the activity section if you want to view details for the app.
 
-![Select Show more](../image/crs-tutorial-deploy7.png "Verify the deployment details")
+\[Omitted image "crs-tutorial-deploy7.png"\] Alt text: Select Show more
 
 You can end the admin impersonation now.
 
@@ -542,19 +543,19 @@ Role required: ServiceNow AI Platform user
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
-    ![Use the All menu to open Employee Center](../image/crs-tutorial-view-app1.png "Open Employee Center")
+    \[Omitted image "crs-tutorial-view-app1.png"\] Alt text: Use the All menu to open Employee Center
 
 2.  Search for `Gift card request` in the search bar.
 
-    ![Enter "gift card request" in the search bar](../image/crs-tutorial-view-app2.png "Search for the Gift card request app")
+    \[Omitted image "crs-tutorial-view-app2.png"\] Alt text: Enter "gift card request" in the search bar
 
 3.  Select the **Gift card request** app that appears in the search results.
 
-    ![Select the app to open it](../image/crs-tutorial-view-app3.png "Open the app")
+    \[Omitted image "crs-tutorial-view-app3.png"\] Alt text: Select the app to open it
 
 4.  Fill out the gift card request form to request a gift card.
 
-    ![Fill out the app's form](../image/crs-tutorial-view-app4.png "Request a gift card")
+    \[Omitted image "crs-tutorial-view-app4.png"\] Alt text: Fill out the app's form
 
 5.  Select the **Submit** button.
 
@@ -571,13 +572,13 @@ Role required: admin or the app's agent role, for example, x\_snc\_app\_name.age
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Request App Workspace**.
 
-    ![Use the All menu to open the workspace](../image/crs-tutorial-workspace1.png "Open the Request App Workspace")
+    \[Omitted image "crs-tutorial-workspace1.png"\] Alt text: Use the All menu to open the workspace
 
 2.  Find the gift card request that you submitted and select its **Number** to open it.
 
 3.  View the gift card request details.
 
-    ![Gift card request details](../image/crs-tut-workspace2.png "Gift card request details")
+    \[Omitted image "crs-tut-workspace2.png"\] Alt text: Gift card request details
 
 
 ### Result

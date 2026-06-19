@@ -2,13 +2,14 @@
 title: View open remediation tasks for asset attestations in the Hardware Asset Workspace
 description: Get the details of all the remediation tasks for asset attestations that are awaiting your action in the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/view-open-remediations-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Audit your hardware assets by using Asset Attestation, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # View open remediation tasks for asset attestations in the Hardware Asset Workspace
@@ -36,7 +37,7 @@ The list of asset remediation tasks with **Status** as **Open** is displayed.
 
 ## What to do next
 
-[Complete the remediation task for asset attestation in the Hardware Asset Workspace](complete-attestation-remediation-ham.md).
+[Complete the remediation task for asset attestation in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/complete-attestation-remediation-ham.md).
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

@@ -2,6 +2,7 @@
 title: Debug incoming SOAP envelope
 description: To capture incoming SOAP envelope XML in the system log, add the property glide.processor.debug.SOAPProcessor with a value of true.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_DebuggingIncomingSOAPEnvelope.html
 release: australia
 product: Web Services
 classification: web-services
@@ -17,5 +18,5 @@ To capture incoming SOAP envelope XML in the system log, add the property **glid
 
 When enabled, this property adds the incoming SOAP envelope in the **Message** field of the system log \(**System Logs** &gt; **All**\). Disable this debugging feature as soon as you are finished so that the log is not overwhelmed with excessive and unnecessary debugging information.
 
-**Parent Topic:**[SOAP web service](c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
 

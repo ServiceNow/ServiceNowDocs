@@ -2,11 +2,14 @@
 title: Activity page
 description: The Activity page lists only the Sensor activity on your system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/activity-page.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Activity page

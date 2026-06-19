@@ -2,7 +2,10 @@
 title: Roles installed with Impact
 description: Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/impact-roles.html
 release: australia
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -299,5 +302,5 @@ Impact Admin
 -   Has full access to all Impact features.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impact reference](impact-reference.md)
+</table>**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-reference.md)
 

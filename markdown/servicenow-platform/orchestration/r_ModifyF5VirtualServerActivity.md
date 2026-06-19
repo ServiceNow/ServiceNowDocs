@@ -2,6 +2,7 @@
 title: Modify F5 Virtual Server activity
 description: The Modify F5 Virtual Server activity configures a virtual server assigned to an F5 load balancer pool with irules and a vlan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_ModifyF5VirtualServerActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [F5 Network Management activity pack, Orchestration activity packs, 
 
 The Modify F5 Virtual Server activity configures a virtual server assigned to an F5 load balancer pool with irules and a vlan.
 
-This activity was built using the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
+This activity was built using the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 
 ## REST settings
 
@@ -81,5 +82,5 @@ Vlans for the virtual server, such as `internal`.
 |Success|Activity successfully configured a virtual server assigned to an F5 load balancer pool.|
 |Failure|Activity failed to configure a virtual server assigned to an F5 load balancer pool.|
 
-**Parent Topic:**[F5 Network Management activity pack](../concept/c_OrchF5LoadBalancerActivities.md)
+**Parent Topic:**[F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchF5LoadBalancerActivities.md)
 

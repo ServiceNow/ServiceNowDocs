@@ -2,6 +2,7 @@
 title: Receive an enterprise asset at a stockroom in the Enterprise Asset Workspace
 description: Receive a single enterprise asset that has arrived at your stockroom, whether it's part of a workflow or not, in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/receive-assets-stockroom-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -173,5 +174,5 @@ Request number of the source workflow that's associated with the asset that you 
             -   The **Stockroom** field on the asset form is automatically updated with the stockroom at which you received the asset.
             -   The receive task in the source workflow is automatically closed only if you provided the Source type and Source ticket details.
 
-**Parent Topic:**[Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace](../concept/manage-stockroom-receive-eam.md)
+**Parent Topic:**[Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-receive-eam.md)
 

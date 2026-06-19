@@ -2,6 +2,7 @@
 title: Use Guided Tours in Agent Workspace for HR Case Management
 description: Use Guided Tours in Agent Workspace for HR Case Management to get instructions on how to perform a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/guided-tour-aws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -21,7 +22,7 @@ Role required: sn\_hr\_core.writer
 
 ## About this task
 
-Guided Tours help train and onboard users within the workspace. Each tour is designed to provide an overview, guide you through a task, or complete a process. If needed, administrators can create more tours. For more information, see [Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md).
+Guided Tours help train and onboard users within the workspace. Each tour is designed to provide an overview, guide you through a task, or complete a process. If needed, administrators can create more tours. For more information, see .
 
 When you visit a page that has a guided tour for the first time, a welcome screen appears. You can choose to either begin the tour or skip the tour. The tour can be revisited from the Help Center menu.
 
@@ -33,9 +34,9 @@ When you visit a page that has a guided tour for the first time, a welcome scree
 
     -   Home page
     -   List page
-3.  Select the **Show help** icon \(![Show help icon](../../wsd-indoor-mapping/images/help_question_mark_icon.png)\).​
+3.  Select the **Show help** icon \(\[Omitted image "help\_question\_mark\_icon.png"\] Alt text: Show help icon\).​
 
-4.  Select the **Pin Help Center menu** icon ![Pin Help Center menu](../image/pol-nav-pin.png) to pin the Help Center side panel on the page.
+4.  Select the **Pin Help Center menu** icon \[Omitted image "pol-nav-pin.png"\] Alt text: Pin Help Center menu to pin the Help Center side panel on the page.
 
 5.  Select **Take a Tour**​.
 

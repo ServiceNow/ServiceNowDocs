@@ -2,6 +2,7 @@
 title: Configure moderation settings for a new user
 description: Configure the system to prevent inappropriate user contributions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/define-moderation-new-users.html
 release: australia
 product: Communities
 classification: communities
@@ -36,5 +37,5 @@ Role required: sn\_communities.admin or sn\_communities.moderation\_admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Moderate a community](moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
 

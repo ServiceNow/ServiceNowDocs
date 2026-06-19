@@ -1,19 +1,22 @@
 ---
-title: Multicurrency fields in demand-related forms
-description: When you enable the Demand Currency view in Demand, Cost Plan, and Cost Plan Breakdown forms, multicurrency fields appear in the Financials section of these forms.
+title: Multicurrency fields in demand forms
+description: Multicurrency fields are available in the demand forms when the demand currency view is enabled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-tables-with-demand-currency-fields.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Multicurrency reference, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Multicurrency fields in demand-related forms
+# Multicurrency fields in demand forms
 
-When you enable the **Demand Currency** view in Demand, Cost Plan, and Cost Plan Breakdown forms, multicurrency fields appear in the Financials section of these forms.
+Multicurrency fields are available in the demand forms when the demand currency view is enabled.
+
+## Demand form
 
 <table id="table_nzw_snf_3jb"><thead><tr><th>
 
@@ -29,15 +32,7 @@ Demand currency
 
 </td><td>
 
-Currency for managing and tracking the demand. The available currency options depend on your selection in **Preferences-Project** under **Project Administration**. For more information, see [Select demand currency preference](../task/select-demand-currency-preference-dw.md).This field becomes read only once you create a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown.
-
-</td></tr><tr><td>
-
-Project currency
-
-</td><td>
-
-Currency for implementing the project when this demand is converted to a project. This value carries over to the Project form in Project Management.
+Currency for managing and tracking the demand.This field is set to read-only after a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown is created.
 
 </td></tr><tr><td>
 
@@ -45,7 +40,7 @@ Capital expense in demand currency
 
 </td><td>
 
-Capital expenditure \(Capex\) for the demand.
+Capital expenditure \(Capex\) value of the demand.
 
 </td></tr><tr><td>
 
@@ -53,7 +48,7 @@ Capital budget in demand currency
 
 </td><td>
 
-Total capital budget allocated to the demand across all fiscal years. Rolled up from the Capex budget of the demand.
+Total capital budget value allocated to the demand across all fiscal years.
 
 </td></tr><tr><td>
 
@@ -61,7 +56,7 @@ Operating expense in demand currency
 
 </td><td>
 
-Operational expenditure \(Opex\) for the demand in the selected demand currency.
+Operational expenditure \(Opex\) value of the demand.
 
 </td></tr><tr><td>
 
@@ -69,7 +64,7 @@ Operating budget in demand currency
 
 </td><td>
 
-Total operational budget allocated to the demand across all fiscal years in the selected demand currency. Rolled up from the Opex budget of the demand.
+Total operational budget value allocated to the demand across all fiscal years in the selected demand currency.
 
 </td></tr><tr><td>
 
@@ -77,7 +72,7 @@ Total planned cost in demand currency
 
 </td><td>
 
-Estimated cost of the demand in demand currency.
+Estimated cost of the demand.
 
 </td></tr><tr><td>
 
@@ -85,7 +80,7 @@ Financial return in demand currency
 
 </td><td>
 
-Estimated revenue based on the **Total planned costs in demand currency** and **Financial benefit in demand currency** fields.
+Estimated revenue of the demand.
 
 </td></tr><tr><td>
 
@@ -93,7 +88,7 @@ Financial benefit in demand currency
 
 </td><td>
 
-Estimated revenue if the demand is approved in the selected demand currency. Rolled up from the benefit breakdown of the demand.
+Estimated revenue if the demand is approved.
 
 </td></tr><tr><td>
 
@@ -101,7 +96,7 @@ Net present value in demand currency
 
 </td><td>
 
-Present value of future cash based on the given annual interest rate in the selected demand currency. A measure for comparing money spent today against future expected financial benefits, helping evaluate overall investment performance.
+Present value of future cash based on the annual interest rate.This field compares the money spent today against the financial benefits expected in the future. It enables evaluation of overall investment performance.
 
 </td></tr><tr><td>
 
@@ -109,51 +104,216 @@ Actual cost in demand currency
 
 </td><td>
 
-Total cost incurred while working on a demand and demand tasks in the selected demand currency.
+Total cost incurred while working on a demand and its demand tasks.
 
 </td></tr></tbody>
-</table>|Field|Description|
-|-----|-----------|
-|Demand currency|Currency specified in the **Demand currency** field of the Demand form.|
-|Actual cost in demand currency|Total cost incurred while working on the demand tasks in the selected demand currency. Actual cost populates after the assignee creates and submits a time card. When the time card is approved, the resource rate from the rate card, labor rate, or system properties populates this field.|
+</table>## Demand Task form
 
-## Financials section of the Cost Plan form
+<table id="table_pj5_syf_dnb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Demand currency
+
+</td><td>
+
+Currency for managing and tracking the demand.This field is set to read-only after a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown is created.
+
+</td></tr><tr><td>
+
+Actual cost in demand currency
+
+</td><td>
+
+Total cost incurred while working on a demand and its demand tasks.
+
+</td></tr></tbody>
+</table>## Cost Plan form
+
+<table id="table_amq_p4f_3jb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Demand currency
+
+</td><td>
+
+Currency for managing and tracking the demand.This field is set to read-only after a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown is created.
+
+</td></tr><tr><td>
+
+Cost in demand currency
+
+</td><td>
+
+Rolled-up value from the **Entered cost** field of all cost plan breakdowns.
+
+</td></tr></tbody>
+</table>## Cost Plan Breakdown form
+
+<table id="table_ccf_cpf_3jb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Demand currency
+
+</td><td>
+
+Currency for managing and tracking the demand.This field is set to read-only after a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown is created.
+
+</td></tr><tr><td>
+
+Cost in demand currency
+
+</td><td>
+
+Cost amount for the demand.
+
+</td></tr><tr><td>
+
+Demand currency exchange rate
+
+</td><td>
+
+Rate in effect for the period corresponding to the cost plan breakdown.
+
+</td></tr><tr><td>
+
+Demand currency exchange rate date
+
+</td><td>
+
+Reference date on which the currency exchange rate is applied for conversion.
+
+</td></tr></tbody>
+</table>## Benefit Plan form
+
+<table id="table_xtl_xy5_jjb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Demand currency
+
+</td><td>
+
+Currency for managing and tracking the demand.This field is set to read-only after a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown is created.
+
+</td></tr><tr><td>
+
+Benefit in demand currency
+
+</td><td>
+
+Benefit incurred from the demand.
+
+</td></tr><tr><td>
+
+Actual benefit in demand currency
+
+</td><td>
+
+Actual benefit value of the demand.
+
+</td></tr></tbody>
+</table>## Benefit Plan Breakdown form
+
+<table id="table_rsj_jz5_jjb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Demand currency
+
+</td><td>
+
+Currency for managing and tracking the demand.This field is set to read-only after a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown is created.
+
+</td></tr><tr><td>
+
+Benefit in demand currency
+
+</td><td>
+
+Benefit incurred from the demand.
+
+</td></tr><tr><td>
+
+Demand currency exchange rate
+
+</td><td>
+
+Rate in effect for the period corresponding to the benefit plan breakdown.
+
+</td></tr><tr><td>
+
+Demand currency exchange rate date
+
+</td><td>
+
+Reference date on which the currency exchange rate is applied for conversion.
+
+</td></tr></tbody>
+</table>## Expense Line form
+
+<table id="table_mnc_x5j_kjb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Demand currency
+
+</td><td>
+
+Currency for managing and tracking the demand.This field is set to read-only after a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown is created.
+
+</td></tr><tr><td>
+
+Amount in demand currency
+
+</td><td>
+
+Expense cost amount for the expense line.
+
+</td></tr></tbody>
+</table>## Project Funding form
 
 |Field|Description|
 |-----|-----------|
-|Demand currency|Currency specified in the **Demand currency**Demand currency field of the Demand form.|
-|Cost in demand currency|Value that is rolled up from the **Entered cost** field of all cost plan breakdowns.|
-
-**Note:** Any change to the unit cost, quantity, or fiscal period of a cost plan recalculates the amounts in demand currency. See [Cost plan updates and cost recalculation in demand currency](cost-plan-recalculation-in-dw.md).
-
-|Field|Description|
-|-----|-----------|
-|Demand currency|Currency specified in the **Demand currency** field of the Demand form.|
-|Cost in demand currency|Breakdown amount in demand currency.|
-|Demand currency exchange rate|Rate in effect for the period corresponding to the cost plan breakdown in the demand currency.|
-|Demand currency exchange rate date|Reference date on which the currency exchange rate is applied for conversion.|
-
-|Field|Description|
-|-----|-----------|
-|Demand currency|Currency specified in the **Demand currency** field of the Demand form.|
-|Benefit in demand currency|Benefit incurred from demand in demand currency.|
-|Actual benefit in demand currency|Actual benefit value rolled up from the actual benefit in the benefit breakdown.|
-
-|Field|Description|
-|-----|-----------|
-|Demand currency|Currency specified in the **Demand currency** field of the Demand form.|
-|Benefit in demand currency|Benefit incurred from demand in demand currency.|
-|Demand currency exchange rate|Rate in effect for the period corresponding to the benefit plan breakdown in demand currency.|
-|Demand currency exchange rate date|Reference date on which the currency exchange rate is applied for conversion.|
-
-|Field|Description|
-|-----|-----------|
-|Demand currency|Currency specified in the **Demand currency** field of the Demand form.|
-|Amount in demand currency|Expense cost in demand currency. Amount entered in the Amount field is converted to demand currency.|
-
-|Field|Description|
-|-----|-----------|
-|Capex budget in Demand Currency|Planned expense amount allocated for capital expenditure in the selected currency.|
-|Opex budget in Demand Currency|Operating expense amount in the selected currency.|
-|Total Budget in Demand Currency|Sum of Capex and Opex amounts in the selected currency.|
+|Capex budget in demand currency|Planned expense amount allocated for the capital expenditure of the demand.|
+|Opex budget in demand currency|Planned expense amount allocated for the operating expenditure of the demand.|
+|Total budget in demand currency|Sum of the Capex and Opex amounts.|
 

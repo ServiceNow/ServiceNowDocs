@@ -2,6 +2,7 @@
 title: Multilingual model management
 description: Use multilingual Natural Language Understanding \(NLU\) models for the system to understand user input in several languages. The NLU Workbench helps you manage and maintain a consistent structure for content across languages to provide a unified experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/multilingual-model-managent.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -21,7 +22,7 @@ A primary language is the source language you choose when creating a model. Thes
 
 The NLU Workbench home displays primary and secondary language models nested under the model name. Select the arrow to the left of the model name to expand the language group.
 
-![On the NLU Workbench homepage, VA tab, one grouped model is expanded to show two different languages.](../images/nlu-modelsV2.png)
+\[Omitted image "nlu-modelsV2.png"\] Alt text: On the NLU Workbench homepage, VA tab, one grouped model is expanded to show two different languages.
 
 Multilingual model management provides a way for you to group, oversee, and update your NLU models. The designation for the model language works as follows:
 
@@ -30,14 +31,14 @@ Multilingual model management provides a way for you to group, oversee, and upda
 -   Any supported language can be the primary language for a primary model or the secondary language for a secondary model.
 -   Within a model group, you can't have two secondary models that use the same language.
 
-For more information on the languages available in NLU, see [NLU language support](nlu-language-support.md).
+For more information on the languages available in NLU, see [NLU language support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-language-support.md).
 
 ## Implementing language grouping
 
 Grouping languages is optional but helps with organizing various language versions of models. There are two methods for ensuring that model languages are grouped:
 
--   You can add a language to a primary model in the model's More options menu, which automatically creates a secondary language model with translation options. For more information on adding and translating a language, see [Translate a multilingual model](../task/translate-multilingual-model.md).
--   You can access the instance model migration page directly by visiting `<instance_name>.service-now.com/$nlu-studio.do#/model-migration`. For more information on language grouping using this method, see [Model language grouping](../reference/model-language-grouping.md).
+-   You can add a language to a primary model in the model's More options menu, which automatically creates a secondary language model with translation options. For more information on adding and translating a language, see [Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/translate-multilingual-model.md).
+-   You can access the instance model migration page directly by visiting `<instance_name>.service-now.com/$nlu-studio.do#/model-migration`. For more information on language grouping using this method, see [Model language grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/model-language-grouping.md).
 
 ## Primary and secondary model interactions
 
@@ -47,13 +48,13 @@ When you add an intent to a primary model, the intent is added to all of its sec
 
 When you delete an intent or entity in a primary model, its corresponding intents and entities are also deleted in its secondary models. Therefore, the secondary models follow the status of the primary model content. Although you can't delete intents in secondary models, you can deactivate them.
 
-For more information on intent interactions, see [Import primary model content to a secondary model](../task/import-primary-model-content-to-secondary-model.md).
+For more information on intent interactions, see [Import primary model content to a secondary model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/import-primary-model-content-to-secondary-model.md).
 
 You can't delete an entity created in a secondary model if it's a copy of a corresponding entity created in the primary model. However, you can add or delete an entity in a secondary model if it doesn't have a corresponding entity in the primary model.
 
 Whenever you translate a model or add intents and entities to secondary models, the model must be reviewed. Secondary models marked with **Needs review** must be manually reviewed before publishing.
 
-![Models page in the NLU Workbench with secondary models that need reviewing.](../images/multilingual-model02.png "Viewing secondary models that need reviewing")
+\[Omitted image "multilingual-model02.png"\] Alt text: Models page in the NLU Workbench with secondary models that need reviewing.
 
 If every intent in a secondary model is deactivated, then the **Train** and **Try** buttons are also deactivated in the model. However, even if only one intent is enabled in the model, then you can train and test the model. Ensure that some intents are enabled in your secondary models to translate them.
 
@@ -61,7 +62,7 @@ If every intent in a secondary model is deactivated, then the **Train** and **Tr
 
 When looking at a model, you can navigate between languages in the model group. On a Model details page, use the **Model language** drop-down list to navigate to other models.
 
-![Model details page with the Model language drop-down list.](../images/multilingual-model05.png "Viewing model languages list")
+\[Omitted image "multilingual-model05.png"\] Alt text: Model details page with the Model language drop-down list.
 
 ## Duplicating grouped models and model groups
 
@@ -76,5 +77,5 @@ Following is a list of system behaviors you may encounter when you duplicate the
 -   If you select a secondary model in an existing model group as a new primary model while duplicating the group, all the deactivated entities are enabled for the duplicated version of the secondary model. The secondary model becomes the primary model in the new duplicated model group.
 -   If you duplicate a primary model without any secondary model, the duplicated version becomes a separate primary model.
 
-For more information, see [Duplicate an NLU model](../task/clone-nlu-model.md).
+For more information, see [Duplicate an NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/clone-nlu-model.md).
 

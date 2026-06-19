@@ -1,19 +1,21 @@
 ---
 title: Invoice status messages
-description: Invoice-related status messages are displayed in the Accounts Payable Operations application.
+description: Reference information for invoice status messages and the conditions that trigger each status during invoice processing in Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-status.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice management]
 breadcrumb: [Create New Invoice case form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice status messages
 
-Invoice-related status messages are displayed in the Accounts Payable Operations application.
+Reference information for invoice status messages and the conditions that trigger each status during invoice processing in Accounts Payable Operations.
 
 <table id="table_ztk_xj1_dwb"><thead><tr><th>
 
@@ -90,7 +92,7 @@ Exceptions found
 
 </td><td>
 
-An invoice is updated with the status Exceptions found, when it finds any one or more of the exceptions that were defined in Accounts Payable Operations. For more information on exceptions, see [Invoice exceptions](../concept/work-with-invoice-exceptions.md).
+An invoice is updated with the status Exceptions found, when it finds any one or more of the exceptions that were defined in Accounts Payable Operations. For more information on exceptions, see [Invoice exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-with-invoice-exceptions.md).
 
 </td></tr><tr><td>
 
@@ -158,5 +160,5 @@ Paid
 After the invoice is posted to ERP and paid in the ERP, the payment is posted back to Accounts Payable Operations without integration error. Then, the invoice moves to **Paid** State.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create New Invoice case form](create-new-ap-case-form.md)
+</table>**Parent Topic:**[Create New Invoice case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-ap-case-form.md)
 

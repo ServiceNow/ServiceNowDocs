@@ -2,6 +2,7 @@
 title: Configure assignment group types
 description: Use the Type field to define categories of groups. Once defined, you can use these categories to filter assignment groups based on the group type using a reference qualifier.You can add additional group types to filter assignment groups for tasks.You can assign group types to filter assignment groups for tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/c\_ConfigGroupTypesForAssignGroups.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -21,11 +22,11 @@ The following items are provided in the base system.
 
 -   The types **catalog**, **itil**, and **survey**.
 -   The reference qualifier on \[task.assignment\_group\] filters on **\[Type\] \[equals\] \[itil\]**.
--   A reference qualifier named **GetGroupFilter** is available to filter for group types using [Create a dynamic filter option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_DynamicFilterOptions.md).
+-   A reference qualifier named **GetGroupFilter** is available to filter for group types using Create a dynamic filter option.
 
-**Note:** Dictionary overrides enable administrators to filter a group type on an extended table using a simple [reference qualifier](../../../script/server-scripting/concept/c_ReferenceQualifiers.md) override.
+**Note:** Dictionary overrides enable administrators to filter a group type on an extended table using a simple [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/c_ReferenceQualifiers.md) override.
 
-**Parent Topic:**[Creating groups](../../roles/concept/ua-creating-groups.md)
+**Parent Topic:**[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-groups.md)
 
 ## Add a group type
 
@@ -37,7 +38,7 @@ Role required: admin
 
 ### About this task
 
-You may need to configure the form to display the **Type** field. For more information see: [Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_PersonalizeAForm.md)
+You may need to configure the form to display the **Type** field. For more information see: 
 
 ### Procedure
 

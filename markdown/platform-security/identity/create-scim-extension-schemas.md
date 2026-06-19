@@ -2,6 +2,7 @@
 title: Create a SCIM Extension schema
 description: Create custom attributes to map to fields that are not mapped as part of either the core schema or the ServiceNow extension schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/create-scim-extension-schemas.html
 release: australia
 product: Identity
 classification: identity
@@ -82,7 +83,7 @@ Schema JSON
 Details within the JSON schemas. For more information about defining the extension schema with attributes, see [Datatracker](https://datatracker.ietf.org/doc/html/rfc7643#section-7).
 
 </td></tr></tbody>
-</table>    ![SCIM Extension schema](../images/scim-extension-schemas.png)
+</table>    \[Omitted image "scim-extension-schemas.png"\] Alt text: SCIM Extension schema
 
 4.  Validate the attributes by clicking **Validate**.
 
@@ -91,5 +92,5 @@ Details within the JSON schemas. For more information about defining the extensi
 
 ## Result
 
-The extension schema with custom attributes related to User or Group resource type is created. Use the SCIM ETL Definitions to map the resources based on the extension schema on the sys\_user and sys\_user\_group table. For more information, see [Create a SCIM ETL definition](create-scim-etl-definitions.md).
+The extension schema with custom attributes related to User or Group resource type is created. Use the SCIM ETL Definitions to map the resources based on the extension schema on the sys\_user and sys\_user\_group table. For more information, see [Create a SCIM ETL definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-etl-definitions.md).
 

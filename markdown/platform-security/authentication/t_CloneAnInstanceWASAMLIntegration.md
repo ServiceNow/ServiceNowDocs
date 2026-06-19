@@ -2,6 +2,7 @@
 title: Clone an instance with a SAML integration
 description: Clone an instance with a SAML integration. Before you clone an instance that uses SAML 2.0, preserve the SAML SSO-related settings on the target instance or you might make the target instance inaccessible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_CloneAnInstanceWASAMLIntegration.html
 release: australia
 product: Authentication
 classification: authentication
@@ -33,7 +34,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
     -   glide.saml2
     -   com.glide.communications
     -   com.snc.integration.saml\_esig
-    ![Data preserver SAML.](../image/DataPreserverSAML.png)
+    \[Omitted image "DataPreserverSAML.png"\] Alt text: Data preserver SAML.
 
     **Note:** When you create the clone, include attachments so that certificates carry over to the target instance. Also, make sure the **Theme** check box is cleared so these properties are preserved regardless of whether you preserve the instance theme.
 

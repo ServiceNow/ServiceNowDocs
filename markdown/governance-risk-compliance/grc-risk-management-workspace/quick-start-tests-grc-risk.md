@@ -2,6 +2,7 @@
 title: Quick start tests for Risk Management
 description: Validate that Risk Management still works after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/quick-start-tests-grc-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -30,10 +31,10 @@ GRC: Risk Management quick start tests require activating the Risk Management pl
 |GRC: ATF flow for Indicator \(Basic\)|Create an indicator template with type basic and result as failed. Associate a control objective to it and give the supporting data. Execute one of the indicators thus formed. The associated control will become non- compliant and an issue will be generated.|New York|
 |GRC: ATF flow for indicator \(Script\)|Create an indicator template with type script and enter a script and set the value of result.passed and result.value. Associate a control objective to it. Execute one of the indicators. The associated control will become non-compliant and an issue will be generated.|New York|
 
-**Parent Topic:**[Risk Management detailed setup](../../../product/grc-risk/concept/setup-risk-management.md)
+**Parent Topic:**[Risk Management detailed setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/setup-risk-management.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

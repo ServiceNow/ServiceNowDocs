@@ -2,6 +2,7 @@
 title: Properties installed with Recruitment workspace
 description: The system properties installed with the Recruitment workspace plugin is required to configure different functionality in the Recruitment Workspace environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/properties-recruit-w.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -104,5 +105,5 @@ Property to enable the outlook integration for Interview scheduling.-   Type: tr
 -   Ignore cache: Selected
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recruitment Workspace reference](../concept/recruitment-workspace-reference.md)
+</table>**Parent Topic:**[Recruitment Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-reference.md)
 

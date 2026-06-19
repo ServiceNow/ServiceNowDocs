@@ -2,7 +2,10 @@
 title: Create installed products
 description: Create an installed product to create an association between sold products and install base items. Installed products provide information on the instances that a sold product is deployed on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-deployed-sold-item.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

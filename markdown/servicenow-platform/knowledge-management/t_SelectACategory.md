@@ -2,6 +2,7 @@
 title: Select a knowledge article category
 description: Knowledge articles within a knowledge base are grouped by category. These groups can help you define the knowledge base taxonomy, and can help users find articles within that knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_SelectACategory.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -40,5 +41,5 @@ As a knowledge contributor, when editing a knowledge article you can select cate
 5.  Click **OK**.
 
 
-**Parent Topic:**[Creating and maintaining articles](../concept/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

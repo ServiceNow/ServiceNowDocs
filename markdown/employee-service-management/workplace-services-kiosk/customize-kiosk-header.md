@@ -2,6 +2,7 @@
 title: Customize the kiosk header
 description: Customize the kiosk header by editing the CSS code of the Kiosk Header record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-services-kiosk/customize-kiosk-header.html
 release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -34,5 +35,5 @@ Role required: sp\_admin
     For example, you can hide the kiosk header by setting the display of the `header-container` class to `none`.
 
 
-**Parent Topic:**[Configuring Workplace Services Kiosk](../concept/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

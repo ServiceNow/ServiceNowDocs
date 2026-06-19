@@ -2,6 +2,7 @@
 title: UserSkillAnalyzer - Global
 description: The UserSkillAnalyzer API provides methods to analyze user skills against skills required to complete work items.Instantiates a new UserSkillAnalyzer object.Analyzes user skills against the required skills and sets the number of matching skills, skill level gap, and qualification that can be collected from an instance.Analyzes user skills against the required skills and sets the number of matching skills, skill-level gap, and qualification that can be collected from an instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/UserSkillAnalyzerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The UserSkillAnalyzer API provides methods to analyze user skills against skills
 
 This API requires the Skills Management plugin \(com.snc.skills\_management\), which you can activate if you have the admin role.
 
-See [Qualify and rank users based on skills and skill levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/assign-work-based-on-skills.md).
+See Qualify and rank users based on skills and skill levels.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## UserSkillAnalyzer - UserSkillAnalyzer\(\)
 

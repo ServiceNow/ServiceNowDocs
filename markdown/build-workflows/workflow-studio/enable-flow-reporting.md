@@ -2,6 +2,7 @@
 title: Activate flow reporting
 description: Choose whether to generate execution details for all flows and actions run, just for individual flows and actions, or just when you test a flow or action. Specify the level of detail the execution details contain.Generate execution details for an individual flow, subflow, or action every time it runs, not just during testing.Generate execution details for all items that Workflow Studio runs rather than just generating execution details during testing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/enable-flow-reporting.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions,
 
 Choose whether to generate execution details for all flows and actions run, just for individual flows and actions, or just when you test a flow or action. Specify the level of detail the execution details contain.
 
-**Parent Topic:**[Flow administration](../concept/flow-administration.md)
+**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-administration.md)
 
 ## Activate reporting for an individual flow, subflow, or action
 
@@ -39,7 +40,7 @@ You can activate reporting for an individual flow, subflow, or action by creatin
 
     The system displays the list of individual items for which flow reporting is activated.
 
-2.  In the **Flow/SubFlow/Action** field, select the lookup icon \(![](../images/lookup-using-list-icon.png)\) to select the type item for which you want to activate reporting.
+2.  In the **Flow/SubFlow/Action** field, select the lookup icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text:\) to select the type item for which you want to activate reporting.
 
     The system displays a dialog box to select the type and specific instance.
 
@@ -50,7 +51,7 @@ You can activate reporting for an individual flow, subflow, or action by creatin
     |**Flow**|Table for flows and subflows|
     |**Action Type**|Table used for actions|
 
-4.  In the **Document** field, select the lookup icon \(![](../images/lookup-using-list-icon.png)\).
+4.  In the **Document** field, select the lookup icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text:\).
 
     The system displays a list of items of the matching type.
 
@@ -84,7 +85,7 @@ You can activate reporting for an individual flow, subflow, or action by creatin
 
 8.  Select **Submit**.
 
-    For example, this setting enables the full reporting level and warning log level for the Acknowledge Alert flow. ![Flow reporting setting for the Acknowledge Alert flow](../images/example-flow-reporting-setting.png)
+    For example, this setting enables the full reporting level and warning log level for the Acknowledge Alert flow. \[Omitted image "example-flow-reporting-setting.png"\] Alt text: Flow reporting setting for the Acknowledge Alert flow
 
 
 ### Result

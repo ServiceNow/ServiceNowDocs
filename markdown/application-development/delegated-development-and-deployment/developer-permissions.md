@@ -2,6 +2,7 @@
 title: Developer and deployment permissions
 description: Using Manage Developers, administrators can assign one or more developer and deployment permissions to a group or user for a specific application. These permissions designate the specific actions the assigned user can perform for the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/developer-permissions.html
 release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -51,7 +52,7 @@ All File Types
 
 </td><td>
 
-Grants the assigned developer access to all application file types, including some not granted by the other options. This permission is equivalent to granting the user the admin role but with some limitations. Specifically, it provides access to all file types that are configured in your application per the Manage Developers task in the Application Creator. For an example of such file types, see the permissions example in [Delegated development and deployment](../concept/c_DelegatedDevelopment.md).
+Grants the assigned developer access to all application file types, including some not granted by the other options. This permission is equivalent to granting the user the admin role but with some limitations. Specifically, it provides access to all file types that are configured in your application per the Manage Developers task in the Application Creator. For an example of such file types, see the permissions example in [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 </td></tr><tr><td>
 
@@ -192,7 +193,7 @@ Grants access to all Delegated Development permissions so that permissions do no
 </td></tr></tbody>
 </table>## Deployment permissions
 
-The update set deployment permissions are hidden by default and require a system administrator to enable them with system properties. See [Display or hide update set deployment permissions](../task/display-or-hide-deployment-permissions.md) for more information.
+The update set deployment permissions are hidden by default and require a system administrator to enable them with system properties. See [Display or hide update set deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.md) for more information.
 
 The Submit for Deployment, Manage Collaborators, and Invite Collaborators delegated development permission sets are only available with the Developer Collaborator feature. They will not be shown in Manage Developers.
 
@@ -226,7 +227,7 @@ Publish To App Store
 
 </td><td>
 
-Grants a user with an assigned delegated developer role permission to publish associated application to the ServiceNow Store in the current instance. **Note:** The **Upgrade App**, **Publish To App Repo**, and **Publish To App Store** permissions display by default. The **Publish To Update Set** permission only displays if manually enabled by a system administrator. For more details, see [Display or hide update set deployment permissions](../task/display-or-hide-deployment-permissions.md).
+Grants a user with an assigned delegated developer role permission to publish associated application to the ServiceNow Store in the current instance. **Note:** The **Upgrade App**, **Publish To App Repo**, and **Publish To App Store** permissions display by default. The **Publish To Update Set** permission only displays if manually enabled by a system administrator. For more details, see [Display or hide update set deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.md).
 
 </td></tr><tr><td>
 

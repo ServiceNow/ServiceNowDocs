@@ -2,6 +2,7 @@
 title: Quick start tests for Incident Management in Service Operations Workspace
 description: Validate that Incident Management in Service Operations Workspace still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/quick-start-tests-im-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -24,12 +25,12 @@ Incident Management in Service Operations Workspace quick start tests are availa
 |SOW Incident: Create problem from incident|Test to verify the creation of a problem record from an Incident using the **Create Problem** UI action on the Incident form.|Xanadu \(August store release, 6.0 version\)|
 |SOW Incident: Verify Assign to me button functionality|Test to verify the assignment of the incident record to the logged-in user using the **Assign to me** UI option on the Record information side panel of the Incident form.|Xanadu \(August store release, 6.0 version\)|
 
-To learn more about Incident Management in Service Operations Workspace, see [Incident Management in Service Operations Workspace](../../../product/service-operations-workspace/concept/incident-sow.md).
+To learn more about Incident Management in Service Operations Workspace, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/incident-sow.md).
 
-**Parent Topic:**[Incident Management in Service Operations Workspace reference](../../../product/service-operations-workspace/concept/sow-im-reference.md)
+**Parent Topic:**[Incident Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-im-reference.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

@@ -1,19 +1,21 @@
 ---
 title: Tax type fields
-description: As a Tax manager, you can create tax types to be applied to an invoice.
+description: Field descriptions for the Tax type form used to define and apply tax types to invoices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-type-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Master data table for Accounts Payable Operations, Reference, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, invoice management, tax, invoice automation]
+breadcrumb: [Data required for invoice processing, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Tax type fields
 
-As a Tax manager, you can create tax types to be applied to an invoice.
+Field descriptions for the Tax type form used to define and apply tax types to invoices.
 
 ## Tax type fields
 
@@ -68,5 +70,5 @@ Active
 The status of the tax type. By default the active check box is inactive.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+</table>**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

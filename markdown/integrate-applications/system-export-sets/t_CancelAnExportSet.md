@@ -2,6 +2,7 @@
 title: Cancel an export set
 description: You can cancel a running export set to stop the data from being sent to a MID server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-export-sets/t\_CancelAnExportSet.html
 release: australia
 product: System Export Sets
 classification: system-export-sets

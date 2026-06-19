@@ -2,6 +2,7 @@
 title: Importing from another ServiceNow instance
 description: There are several methods for moving data from one instance to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_ImportingFromAnotherSNInstance.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -31,12 +32,12 @@ The system offers the following processes to move data from one instance to anot
 -   Create XML import sets and transform data as needed
 -   Export and import CSV files from lists
 
--   **[XML records from lists](c_XMLRecordsFromLists.md#)**  
+-   **[XML records from lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_XMLRecordsFromLists.md)**  
 You can directly export records as XML from any list or form.
--   **[Using XML import sets](c_XMLImportSets.md)**  
+-   **[Using XML import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_XMLImportSets.md)**  
 Use an XML import set to import data from another instance.
--   **[Retrieving data from a CSV formatted file](../task/t_RetrieveDataFromACSVFormatFile.md)**  
+-   **[Retrieving data from a CSV formatted file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_RetrieveDataFromACSVFormatFile.md)**  
 In this method, you import data from another instance using an HTTPS data source to return a CSV formatted file containing the rows to be imported.
 
-**Parent Topic:**[Import sets](../reference/import-sets-landing-page.md)
+**Parent Topic:**[Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
 

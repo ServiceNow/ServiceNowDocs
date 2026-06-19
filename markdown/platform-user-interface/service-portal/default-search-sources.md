@@ -2,6 +2,7 @@
 title: Set the default portal search source
 description: Use the glide.service\_portal.default\_search\_sources system property to define default search sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/default-search-sources.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -23,7 +24,7 @@ Role required: admin
 
 If you don't define specific search sources for your portal, the system uses default search sources instead.
 
-![Flow chart for default search sources, which shows how default search sources are only used if no search sources are defined](../image/DefaultSearchSources.png "Default search source flow chart")
+\[Omitted image "DefaultSearchSources.png"\] Alt text: Flow chart for default search sources, which shows how default search sources are only used if no search sources are defined
 
 ## Procedure
 
@@ -42,5 +43,5 @@ If you don't define specific search sources for your portal, the system uses def
 4.  Click **Update**.
 
 
-**Parent Topic:**[Zing search in Service Portal](../concept/zing-search-service-portal.md)
+**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
 

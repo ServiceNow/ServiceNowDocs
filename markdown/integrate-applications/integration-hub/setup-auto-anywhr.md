@@ -2,6 +2,7 @@
 title: Set up the Automation Anywhere spoke
 description: Integrate ServiceNow and Automation Anywhere instances by using the Automation Anywhere credential record to authenticate ServiceNow requests.Create a credential record for the Automation Anywhere instance. The Automation Anywhere spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-auto-anywhr.html
 release: australia
 product: Integration Hub
 classification: integration-hub

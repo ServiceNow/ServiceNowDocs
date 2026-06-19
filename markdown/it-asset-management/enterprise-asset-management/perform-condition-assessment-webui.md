@@ -2,6 +2,7 @@
 title: Perform condition evaluation from the Enterprise Asset Workspace
 description: Perform condition evaluation to calculate the score and result of the condition attributes from the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/perform-condition-assessment-webui.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.asset\_technician
 
 ## About this task
 
-These steps detail the process of performing the condition evaluation from the Enterprise Asset Workspace. Condition evaluation can also be performed from the Mobile application. For details, see [Perform condition evaluation from the Mobile Agent application](perform-condition-assessment-mobileapp.md).
+These steps detail the process of performing the condition evaluation from the Enterprise Asset Workspace. Condition evaluation can also be performed from the Mobile application. For details, see [Perform condition evaluation from the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/perform-condition-assessment-mobileapp.md).
 
 ## Procedure
 
@@ -51,6 +52,6 @@ These steps detail the process of performing the condition evaluation from the E
 
 10. Select **Close Complete** in the Condition work task page.
 
-    The Enterprise asset manager can review the asset condition results and view the reports in the Work management dashboard. For more details, see [Review the asset condition results](review-service-event-conditions.md).
+    The Enterprise asset manager can review the asset condition results and view the reports in the Work management dashboard. For more details, see [Review the asset condition results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/review-service-event-conditions.md).
 
 

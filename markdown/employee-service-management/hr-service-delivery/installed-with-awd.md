@@ -2,6 +2,7 @@
 title: Components installed with HR Service Delivery Advanced Integration with Workday
 description: Several types of components are installed with activation of the HR Service Delivery Advanced Integration with Workday, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-awd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -173,5 +174,5 @@ Total Rewards Template Setup\[sn\_hr\_workday\_adv\_total\_rewards\_template\_se
 Store details of Total Rewards templates with sections and plans associated to it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference](reference-hr-service-delivery-advanced-integration-with-workday.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-hr-service-delivery-advanced-integration-with-workday.md)
 

@@ -2,6 +2,7 @@
 title: Article versioning changes
 description: Article versioning introduces new actions that allow knowledge users to create and revise versions of existing articles. It also introduces new fields and related lists to the Knowledge form, new columns to the Knowledge list, and updates to Knowledge dashboard reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/article-versioning-changes.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -26,7 +27,7 @@ As part of creating article versions, users can:
 -   Recall an article that is being reviewed or scheduled for publish by clicking **Recall** on the Knowledge form.
 -   Select a previously published article in the Outdated state and make it the current published version by clicking **Make this current**in the Knowledge form header.
 
-**Note:** To edit a published article without having to create a new version, make sure the **glide.knowman.versioning.enable\_minor\_edits** property is enabled.
+Define minor fields so users can make some edits without triggering a new version. First, set the **glide.knowman.versioning.enable\_minor\_edits** property to true. Then, in the **glide.knowman.versioning.minor\_edit\_fields** property, specify the fields to define as minor. For example, set **Valid To** and **Meta** as fields that can be edited without creating a new version.
 
 ## Changes to the Knowledge list
 

@@ -2,6 +2,7 @@
 title: Manage work configurations
 description: Manage work configurations to ensure the configurations refer to the appropriate task tables and appear in the selected Service Management \(SM\) configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/work-configs-manage.html
 release: australia
 product: Work Order Management
 classification: work-order-management

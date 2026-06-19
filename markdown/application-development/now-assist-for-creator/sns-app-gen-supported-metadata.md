@@ -2,6 +2,7 @@
 title: App generation supported metadata
 description: App generation creates seven metadata types, including tables, roles, and record producers. Use this reference to understand what each metadata type does and how app generation uses it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/sns-app-gen-supported-metadata.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -9,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [agentic ai, app gen, app generation, now assist, application generation, app creation, application creation, servicenow studio, generative ai]
-breadcrumb: [Reference, App generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, App generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # App generation supported metadata
@@ -32,7 +33,7 @@ Usage
 
 </th></tr></thead><tbody><tr><td>
 
-[Access control list \(ACL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/exploring-access-control-list.md)
+Access control list \(ACL\)
 
 </td><td>
 
@@ -45,7 +46,7 @@ ACLs manage role-based access control for the application:-   Rules that define 
 
 </td></tr><tr><td>
 
-[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md)
+Flows
 
 </td><td>
 
@@ -57,7 +58,7 @@ Flows automate a repeatable, multi-step process.
 
 </td></tr><tr><td>
 
-[Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UsingForms.md)
+Form
 
 </td><td>
 
@@ -69,7 +70,7 @@ Interface that enables users to submit data to create or update records in a tab
 
 </td></tr><tr><td>
 
-[Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md)
+Record producer
 
 </td><td>
 
@@ -81,7 +82,7 @@ Type of form that enables users to enter information that generates a task-based
 
 </td></tr><tr><td>
 
-[Role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md)
+Role
 
 </td><td>
 
@@ -93,7 +94,7 @@ Set of permissions that are assigned to users and groups
 
 </td></tr><tr><td>
 
-[Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_TableAdministration.md)
+Table
 
 </td><td>
 
@@ -107,7 +108,7 @@ Tables organize data into rows and columns for easy reference:-   Collection of 
 
 </td></tr><tr><td>
 
-[Workspace Builder](../../workspace-builder/concept/workspace-builder-landing.md)
+[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md)
 
 </td><td>
 
@@ -118,5 +119,5 @@ sys\_ux\_page\_registry
 A targeted experience for an application that includes data visualizations and other user experience components to allow a user to interact with an application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[App generation reference](../concept/sns-app-gen-reference-landing.md)
+</table>**Parent Topic:**[App generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-app-gen-reference-landing.md)
 

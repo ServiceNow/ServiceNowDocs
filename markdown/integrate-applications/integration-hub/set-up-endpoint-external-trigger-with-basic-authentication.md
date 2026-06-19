@@ -2,6 +2,7 @@
 title: Manage endpoint with Basic authentication support
 description: Generate endpoint for webhooks in third-party applications that support basic authentication. The endpoint enables webhooks to connect with your ServiceNow instance. You can deactivate or remove the configuration of the endpoint from the connection when you want the endpoint to no longer listen to the external webhook.Configure the endpoint that listens to the webhook from a third-party application.Deactivate the endpoint so that it stops listening to a webhook. However, you can activate it again.Remove the configuration of the endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-endpoint-external-trigger-with-basic-authentication.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -23,7 +24,7 @@ Subscription required: This feature requires an Integration Hub subscription. Fo
 
 Ensure that you've installed the required spoke plugin.
 
-**Parent Topic:**[Set up external trigger endpoints](set-up-external-webhook-endpoints.md)
+**Parent Topic:**[Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-external-webhook-endpoints.md)
 
 ## Configure endpoint with Basic authentication support
 
@@ -41,21 +42,21 @@ Ensure that you've installed the required spoke plugin.
 
 1.  Under the Endpoints heading, select **Configure** for the connection to set up an endpoint with basic authentication support.
 
-    ![Configure button for basic auth.](../images/set-up-endpoint-basic-auth.png)
+    \[Omitted image "set-up-endpoint-basic-auth.png"\] Alt text: Configure button for basic auth.
 
-2.  To display the Add Role field, select ![Select roles icon.](../images/select-roles-plus-icon.png).
+2.  To display the Add Role field, select \[Omitted image "select-roles-plus-icon.png"\] Alt text: Select roles icon..
 
-3.  To select one or more roles, select ![Select roles icon.](../images/select-roles-drop-down.png) or enter the name of one or more roles.
+3.  To select one or more roles, select \[Omitted image "select-roles-drop-down.png"\] Alt text: Select roles icon. or enter the name of one or more roles.
 
-    ![Enter the roles.](../images/select-role-basic-auth.png)
+    \[Omitted image "select-role-basic-auth.png"\] Alt text: Enter the roles.
 
 4.  Select **Activate**.
 
     The endpoint for the third-party application webhook is generated in the URL field.
 
-    ![Endpoint is generated.](../images/basic-auth-endpoint-generated.png)
+    \[Omitted image "basic-auth-endpoint-generated.png"\] Alt text: Endpoint is generated.
 
-5.  To copy the endpoint, select the copy endpoint icon \(![Copy endpoint icon.](../images/copy-endpoint-icon.png)\)
+5.  To copy the endpoint, select the copy endpoint icon \(\[Omitted image "copy-endpoint-icon.png"\] Alt text: Copy endpoint icon.\)
 
     **Tip:** Keep the endpoint at a secure place to use later at the third-party application webhook.
 
@@ -99,11 +100,11 @@ Ensure that you've installed the required spoke plugin.
 
 1.  Select **Edit**.
 
-    ![Edit button.](../images/endpoint-deconfigure-edit-button.png)
+    \[Omitted image "endpoint-deconfigure-edit-button.png"\] Alt text: Edit button.
 
 2.  Remove the roles.
 
-    ![Remove roles.](../images/deconfigure-edit-remove-roles.png)
+    \[Omitted image "deconfigure-edit-remove-roles.png"\] Alt text: Remove roles.
 
 3.  Select **Update**.
 

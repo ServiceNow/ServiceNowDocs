@@ -2,6 +2,7 @@
 title: SCIM customization
 description: Customize SCIM protocols for your identity management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/scim-customisation.html
 release: australia
 product: Identity
 classification: identity
@@ -26,9 +27,9 @@ You need the `scim_config_admin` to define custom extension schemas for user and
 
 For SCIM customization, you should perform the following tasks:
 
--   Define a custom extension schema for users and groups in the SCIM Extension schema table.  For more information see, [Create a SCIM Extension schema](../task/create-scim-extension-schemas.md).
--   Create entities in an ETL definition for custom schema attributes. The entities are created for the target table that is mapped with either the `sys_user` and `sys_user_group` attributes. For more information see, [Create a SCIM ETL definition](../task/create-scim-etl-definitions.md).
--   Create an RTE mapping between these two entities.  For more information see, step [5](../task/create-scim-etl-definitions.md#RTEMapping) in the [Create a SCIM ETL definition](../task/create-scim-etl-definitions.md).
+-   Define a custom extension schema for users and groups in the SCIM Extension schema table.  For more information see, [Create a SCIM Extension schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-extension-schemas.md).
+-   Create entities in an ETL definition for custom schema attributes. The entities are created for the target table that is mapped with either the `sys_user` and `sys_user_group` attributes. For more information see, [Create a SCIM ETL definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-etl-definitions.md).
+-   Create an RTE mapping between these two entities.  For more information see, step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-etl-definitions.md) in the [Create a SCIM ETL definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/create-scim-etl-definitions.md).
 -   Send custom schema attributes with data in the SCIM API request payload.
 
 The SCIM API calls the RTE engine with the defined mapping. The data is stored in the respective fields in the target table as defined in the mapping.

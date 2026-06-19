@@ -2,6 +2,7 @@
 title: Activate Document Management
 description: Activate the Document Management plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/activate-doc-mgmt-plugin.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -26,7 +27,7 @@ The following items are installed with Document Management:
 -   Roles
 -   Tables
 
-For more information, see[Components installed with Document Management](../reference/installed-with-doc-mgmt.md).
+For more information, see[Components installed with Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/installed-with-doc-mgmt.md).
 
 ## Procedure
 
@@ -40,6 +41,6 @@ For more information, see[Components installed with Document Management](../refe
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

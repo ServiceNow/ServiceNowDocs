@@ -2,11 +2,12 @@
 title: Import plans and recovery tasks
 description: Import the business continuity plans and associated recovery tasks in the event. Using automated tasks during an exercise enhances efficiency and reduces response time for users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/import-the-automated-task-in-an-exercise.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Import plans and recovery tasks
@@ -27,7 +28,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 3.  Fill in the required fields in the **Details** tab.
 
-    For more information on the fields, see [Create New Event Task form](../reference/create-new-event-task-form-uib-ws.md).
+    For more information on the fields, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
 
 4.  Select the plan associated with the event from the Planning list in the Workspace view.
 
@@ -51,5 +52,5 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
     Plan activation and task copying: When a plan is activated during an event, its associated recovery tasks are copied into event tasks. This includes the asset recovery level details. If the recovery progress is already complete, the **View progress** button may not be visible. The recovery tasks from the original plan are accurately replicated in the event tasks, maintaining the same step sequence. For instance, if steps 2, 3, and 4 were defined in the plan, they are copied over to the event tasks in the same order.
 
 
-**Parent Topic:**[Structured workflows for exercises](../concept/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

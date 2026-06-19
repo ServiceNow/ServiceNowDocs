@@ -2,6 +2,7 @@
 title: Add or modify HR report types
 description: Report types define the category of information that appears in an HR operational report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyAnHRSysReportType.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -60,5 +61,5 @@ Types of system reports include:
 8.  Click **Update**.
 
 
-**Parent Topic:**[Managed lists](../concept/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

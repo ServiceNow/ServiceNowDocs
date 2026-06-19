@@ -2,6 +2,7 @@
 title: Available interactive filter UI control types
 description: The interactive filter UI control type field provides several options for displaying the filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/interactive-filters/r\_HomepagePublisherUIControlTypes.html
 release: australia
 product: Interactive Filters
 classification: interactive-filters
@@ -28,5 +29,5 @@ Filtering behavior depends on the filter type when selecting multiple values usi
 
 A filter may be converted from the **Check boxes** to the **Select Multiple Input** control type for performance reasons.
 
-**Parent Topic:**[Creating Interactive Filters of different types](r_AvailableHomepagePublisherTypes.md)
+**Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/interactive-filters/r_AvailableHomepagePublisherTypes.md)
 

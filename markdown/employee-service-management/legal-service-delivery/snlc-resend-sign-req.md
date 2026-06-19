@@ -2,13 +2,14 @@
 title: Resend signature request
 description: Resend signature request functionality enables contract fulfillers to manually trigger signature request when needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-resend-sign-req.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Signature workflow for a request, Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Signature workflow for a request, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Resend signature request
@@ -34,5 +35,5 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 Notification is resent to the current signatory.
 
-**Parent Topic:**[Signature workflow for a request](../concept/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

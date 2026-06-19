@@ -2,6 +2,7 @@
 title: Exploring Access Analyzer
 description: Analyze identities on the ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/explore-access-analyzer.html
 release: australia
 product: Access Control
 classification: access-control

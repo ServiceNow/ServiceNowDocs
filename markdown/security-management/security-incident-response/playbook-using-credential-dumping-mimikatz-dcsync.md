@@ -2,6 +2,7 @@
 title: Use the T1003 - Credential Dumping - Mimikatz DCsync playbook
 description: Use this playbook to investigate incidents suspected to be caused by Mimikatz DCSync. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the T1003 - Credential Dumping - Mimikatz DCsync playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-credential-dumping-mimikatz-dcsync.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -67,5 +68,5 @@ Role required:
 12. In Action 20, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for T1003 - Credential Dumping - Mimikatz DCSync](../concept/playbook-credential-dumping-mimikatz-dcsync.md)
+**Parent Topic:**[Playbook for T1003 - Credential Dumping - Mimikatz DCSync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-credential-dumping-mimikatz-dcsync.md)
 

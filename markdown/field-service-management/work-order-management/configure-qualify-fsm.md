@@ -2,6 +2,7 @@
 title: Configure the qualification state for work orders
 description: Enable work order qualification so work orders move from draft to awaiting qualification, and then qualified before they’re ready for dispatch. Qualification allows for a quality check to make sure that the work order meets a certain standard before it moves to the next step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/configure-qualify-fsm.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Turn on the switch that says **Qualification is required for new requests**.
 
-    ![qualify task switch](../image/switch-qualify.png)
+    \[Omitted image "switch-qualify.png"\] Alt text: qualify task switch
 
 3.  Select **Save**.
 

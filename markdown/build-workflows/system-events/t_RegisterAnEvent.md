@@ -2,6 +2,7 @@
 title: Register an event
 description: You can register an event for a specific table and a business rule that fires the event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/t\_RegisterAnEvent.html
 release: australia
 product: System Events
 classification: system-events
@@ -55,7 +56,7 @@ Queue
 
 </td><td>
 
-Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See [Using custom queues to process events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/useful-server-side-scripts.md).
+Name of the queue that the event is placed into when triggered.Use only lowercase letters, no spaces, and no special characters except underscore \(\_\). For example, `my_queue`. See .
 
 </td></tr><tr><td>
 
@@ -93,5 +94,5 @@ Short description of the purpose of the event.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing system events](../concept/managing-system-events.md)
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/managing-system-events.md)
 

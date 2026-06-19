@@ -2,7 +2,10 @@
 title: Manage work items with recommendations for the Impact Store Application
 description: Convert an Impact entity to an SPM entity either from the Impact home page or from the Recommendations list. Creating an Impact entity and associating the SPM record details help you to avoid manual intervention in converting the entities from Impact to SPM portals, and thereafter any duplication of entities in the process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/convert-spm-entity-impact-entity-recommendations.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -64,7 +67,7 @@ Impact entities that can be converted to SPM entities are:
 
     You can view the work items that you created for this recommendation.
 
-    ![New SPM entity created from the Impact entity.](../image/recom-spm-entity-impact.png)
+    \[Omitted image "recom-spm-entity-impact.png"\] Alt text: New SPM entity created from the Impact entity.
 
     In the recommendation pop-up, the **My work items** tab lists all the SPM entities like demands, projects, and others that are associated to the recommendation. If you would like to create another work item, then select **Convert to work item**.
 

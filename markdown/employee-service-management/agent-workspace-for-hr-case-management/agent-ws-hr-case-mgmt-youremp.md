@@ -2,6 +2,7 @@
 title: Using At a Glance in Agent Workspace for HR Case Management
 description: Use the At a Glance feature from the contextual side panel to quickly view HR profile information for the Opened for person on an HR case enabling HR agents to better assist and resolve employee requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-youremp.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -19,11 +20,11 @@ The At a Glance panel displays key HR profile details about the employee, such a
 
 ## HR profile
 
-What appears under **Your Employee** section depends on what you configure on the HR profile. You can open any HR profile and edit the fields you want to be displayed by adding or removing them. The fields you selected appear for all HR profiles, but fields with data are only displayed in the **Your Employee** section. For more information, see [Configure the At a Glance panel](../task/hr-agent-ws-config-ataglance.md).
+What appears under **Your Employee** section depends on what you configure on the HR profile. You can open any HR profile and edit the fields you want to be displayed by adding or removing them. The fields you selected appear for all HR profiles, but fields with data are only displayed in the **Your Employee** section. For more information, see [Configure the At a Glance panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-config-ataglance.md).
 
 **Note:** If the subject person on an HR case does not have an HR profile record, the At a Glance icon does not appear in the contextual side panel.
 
 If you change the subject person, the profile information of that person will also be immediately updated in the **Your Employee** section, enabling you to verify the right person even before saving the change.
 
-For more information, see [HR profile editable field configuration](c_HRProfileEditableFieldConfig.md).
+For more information, see [HR profile editable field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileEditableFieldConfig.md).
 

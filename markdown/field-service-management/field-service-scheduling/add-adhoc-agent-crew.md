@@ -2,6 +2,7 @@
 title: Assign an ad hoc agent to the crew on a work order task
 description: Add ad hoc members to a work order task that requires a crew.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/add-adhoc-agent-crew.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

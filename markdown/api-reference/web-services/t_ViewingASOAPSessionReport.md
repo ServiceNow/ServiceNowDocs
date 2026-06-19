@@ -2,6 +2,7 @@
 title: View a SOAP session log
 description: You can view a user's log from a SOAP session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ViewingASOAPSessionReport.html
 release: australia
 product: Web Services
 classification: web-services
@@ -28,5 +29,5 @@ Role required: admin
     The SOAP session is marked as inactive within 60 seconds of the last transaction.
 
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
 

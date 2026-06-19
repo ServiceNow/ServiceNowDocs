@@ -2,6 +2,7 @@
 title: Reassign an Assessment type Action task
 description: Reassign an Assessment type Action task to another user in the GRC: Compliance Case Management application. For example, a case analyst or an action task owner can reassign a compliance Action task to another Action task owner if an action task is wrongly assigned or isn’t accepted by the Action task owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/reassign-a-compliance-case-task.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -46,5 +47,5 @@ As an action task owner, you can also accept the task, start working on it, and 
 7.  In the Reassign Action task dialog box, select **Reassign**.
 
 
-**Parent Topic:**[Work on an action task](work-on-compliance-case-task.md)
+**Parent Topic:**[Work on an action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/work-on-compliance-case-task.md)
 

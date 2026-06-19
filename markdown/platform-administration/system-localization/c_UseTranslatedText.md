@@ -2,6 +2,7 @@
 title: Translating text fields
 description: Translate long pieces of text into the language of the user.Translate the content of translated text and HTML fields directly in the form where the content is specified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/c\_UseTranslatedText.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -26,9 +27,9 @@ These fields operate the same as normal text and HTML fields respectively, excep
 
 **Note:** There is a slight performance penalty associated with changing a normal HTML or text field into a translated HTML or text field. It is best only to use translated fields if the translated capability is required.
 
-For translated text and HTML fields, the English language text is stored in the main table, but the values of other languages are stored in the Translated Text \[sys\_translated\_text\] table. Each translated field on every row has one or more entries in the Translated Text table: one per language for which ServiceNow provides a translation. For more information, see [Translated text table](../reference/r_TranslatedText.md).
+For translated text and HTML fields, the English language text is stored in the main table, but the values of other languages are stored in the Translated Text \[sys\_translated\_text\] table. Each translated field on every row has one or more entries in the Translated Text table: one per language for which ServiceNow provides a translation. For more information, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslatedText.md).
 
-**Note:** Knowledge article translation uses a separate system that relies on the I18N: Knowledge Management Internationalization Plugin. If this plugin is not activated, knowledge article translation falls back on the system described here, with translations kept in the Translated Text \[sys\_translated\_text\] table. For more information about Knowledge Management internationalization, see [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translation-management.md) in the Knowledge Management documentation.
+**Note:** Knowledge article translation uses a separate system that relies on the I18N: Knowledge Management Internationalization Plugin. If this plugin is not activated, knowledge article translation falls back on the system described here, with translations kept in the Translated Text \[sys\_translated\_text\] table. For more information about Knowledge Management internationalization, see Translation management in the Knowledge Management documentation.
 
 ## Translate long text content
 
@@ -40,7 +41,7 @@ Role required: admin
 
 ### About this task
 
-Use the following procedure to translate the content for customer-created text fields. To edit existing text translations, export the records from the Translated Text table and follow the procedure in [Export and edit translation records](../task/t_TranslateTheInterface.md#).
+Use the following procedure to translate the content for customer-created text fields. To edit existing text translations, export the records from the Translated Text table and follow the procedure in [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateTheInterface.md).
 
 ### Procedure
 
@@ -54,13 +55,13 @@ Use the following procedure to translate the content for customer-created text f
 
         In this example, the context menu has been opened for the **Name** field for a record in the Record Producer \[sc\_cat\_item\_producer\] table.
 
-        ![The context menu from clicking on the label of the Name field, with the Configure Dictionary option highlighted.](../image/field-label-context-menu.png "Context menu for field")
+        \[Omitted image "field-label-context-menu.png"\] Alt text: The context menu from clicking on the label of the Name field, with the Configure Dictionary option highlighted.
 
     2.  In the **Dictionary Entry** record that opens, confirm that the **Type** field is **Translated Text** or **Translated HTML**.
 
         In this example, you see that the **Name** field is of the type **Translated Text**.
 
-        ![Dictionary entry for the Name field, with the Type highlighted.](../image/field-type-dictionary-entry.png "Dictionary entry for field")
+        \[Omitted image "field-type-dictionary-entry.png"\] Alt text: Dictionary entry for the Name field, with the Type highlighted.
 
     3.  Navigate back to the form.
 
@@ -70,6 +71,6 @@ Use the following procedure to translate the content for customer-created text f
 
 5.  Select **Submit**.
 
-    A new record in the Translated Text \[sys\_translated\_text\] table for the active language is added. For more information about this table, see [Translated text table](../reference/r_TranslatedText.md).
+    A new record in the Translated Text \[sys\_translated\_text\] table for the active language is added. For more information about this table, see [Translated text table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslatedText.md).
 
 

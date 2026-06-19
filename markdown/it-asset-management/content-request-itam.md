@@ -2,7 +2,10 @@
 title: IT Asset Management content request process
 description: The IT Asset Management Content Service team manages and supports content requests from IT Asset Management customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/content-request-itam.html
 release: australia
+product: IT Asset Management
+classification: it-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Examples of content requests include but are not limited to the addition of or u
 
 Content requests fall into the following categories:
 
--   New content: you require content that is not currently in the Content Library. You can request new content by [submitting a catalog request](../task/create-itam-content-request.md) through the Now Support portal
+-   New content: you require content that is not currently in the Content Library. You can request new content by [submitting a catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/create-itam-content-request.md) through the Now Support portal
 -   Content correction: you require previously delivered content to be corrected. You can request content update by filing a case with ServiceNow Customer Support through the Now Support portal.
 
 For more details on content requests, see this Knowledge base article on the ServiceNow Now Support [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0790305](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0790305).

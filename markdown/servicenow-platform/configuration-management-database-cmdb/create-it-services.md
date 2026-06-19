@@ -2,6 +2,7 @@
 title: Create a Service instance \(application service\)
 description: Create an application service to adhere to Common Service Data Model standards and to standardize the organization, maintenance, and monitoring of services in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-it-services.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -33,9 +34,9 @@ An application service has an entry point, which lets users access the applicati
 
 All application services created in the Application Service wizard, are set with the **application service** classification.
 
-Service Mapping, if activated, can automatically discover and map application services as described in [Application service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_DefineMapBusinessServices.md). A discovered application service contains the CIs and the connections between them that Service Mapping discovered and mapped.
+Service Mapping, if activated, can automatically discover and map application services as described in Application service mapping. A discovered application service contains the CIs and the connections between them that Service Mapping discovered and mapped.
 
-You can also create an application service by using the [createOrUpdateService - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/application-service-api.md) REST API.
+You can also create an application service by using the createOrUpdateService - POST REST API.
 
 ## Procedure
 
@@ -140,7 +141,7 @@ User who is familiar with the infrastructure and applications making up the serv
  If the owner name is not listed, create a user with the sm\_app\_owner role, as the owner. Alternatively, you can choose a user with the sm\_admin role.
 
 </td></tr></tbody>
-</table>        **Note:** See [Teams related list](../../configuration-management/reference/r_RelatedListsOfCIComponents.md) for details about the automatic synchronization between the assignment group fields and the **Teams** related list.
+</table>        **Note:** See [Teams related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_RelatedListsOfCIComponents.md) for details about the automatic synchronization between the assignment group fields and the **Teams** related list.
 
     2.  In the Set Relationships section, add relationships between the application service and other components in the CSDM domain.
 
@@ -154,23 +155,23 @@ User who is familiar with the infrastructure and applications making up the serv
             -   Shared technical service dependencies
     4.  Select **Next**.
 
-    For information about CSDM relationships, see [CI relationships in the CSDM](../../csdm-implementation/concept/ci-relationships.md).
+    For information about CSDM relationships, see [CI relationships in the CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/ci-relationships.md).
 
-    Also, some fields and relationships are noted as required on the page. To change which fields and which relationships are required, see [Modify the attributes and relationships required for application services](../../configuration-management/task/modify-req-fields-appservice.md).
+    Also, some fields and relationships are noted as required on the page. To change which fields and which relationships are required, see [Modify the attributes and relationships required for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/modify-req-fields-appservice.md).
 
 4.  On the **Populate the Application Service** tab:
 
-    ![Populate the application service tab for a new application service](../image/app-services-tab2.png)
+    \[Omitted image "app-services-tab2.png"\] Alt text: Populate the application service tab for a new application service
 
     1.  Click **Choose a Method** or select **Next** to skip selecting a service population method.
 
     2.  On the Choose a Method page, select a **Service Population Method**, and then follow the respective link to complete the specific population method:
 
-        -   **Top Down Discovery**: [Use top-down discovery to populate application services](../../configuration-management/task/populate-app-service-top-down.md)
-        -   **Dynamic CI Group**: [Populate an application service using the Dynamic CI Group method](../../configuration-management/task/populate-app-service-dynamic-group.md).
-        -   **Tags**: [Use tags to populate application services](../../configuration-management/task/populate-app-service-tags.md)
-        -   **Manual**: [Use the Manual method to populate application services](../../configuration-management/task/populate-app-service-manual.md)
-        -   **Dynamic Service**: [Populate an application service using the Dynamic Service method](../../configuration-management/task/populate-app-service-dynamic-service.md)
+        -   **Top Down Discovery**: [Use top-down discovery to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-top-down.md)
+        -   **Dynamic CI Group**: [Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md).
+        -   **Tags**: [Use tags to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-tags.md)
+        -   **Manual**: [Use the Manual method to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-manual.md)
+        -   **Dynamic Service**: [Populate an application service using the Dynamic Service method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-service.md)
         **Note:** The **Top Down Discovery** and the **Tags** options are available only if Service Mapping is installed.
 
     3.  To add another method to populate the application service, click **Add Method** on the Service Population Methods page.
@@ -178,10 +179,10 @@ User who is familiar with the infrastructure and applications making up the serv
         Or, select **Next**.
 
         -   You can add any combination of the **Top Down Discovery** and the **Manual** methods. However, if you select the **Dynamic CI Group**, **Tags**, or the **Dynamic Service** method, the **Add Method** button is grayed out and you can’t add additional methods.
-        -   You can select a card for a Converted Business Service method to see details about the service conversion, such as the conversion type. For more information, see [Convert business services to application services](../concept/convert-bus-to-app-svc-intro.md#).
+        -   You can select a card for a Converted Business Service method to see details about the service conversion, such as the conversion type. For more information, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md).
 5.  On the **Preview the Service** tab, review and verify the summaries for creating and populating the application service.
 
-    ![Preview service tab](../image/app-services-tab3.png)
+    \[Omitted image "app-services-tab3.png"\] Alt text: Preview service tab
 
     1.  Review **Relationships**.
 
@@ -210,10 +211,10 @@ The application service is created, and you can access the new application servi
     -   Select **View Service CI's** to list all the CIs in the application service.
     Both lists of CIs are identical, unless the CMDB group contains more than 10,000 CIs. In this case, **View CMDB Group CI's** shows all the CIs in the CMDB group, and **View Service CI's** shows only the 10,000 CIs that are members of the application service.
 
--   If the service population method is **Tags**, **Top Down Discovery**, or **Manual**, and select **View Map** to [view the application service map](../../configuration-management/task/app-service-map-base-system.md) where you can:
-    -   [Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/link-services-to-services.md)
-    -   [View CI attributes in an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIDetails.md)
-    -   [View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_ViewCIChanges.md)
-    -   [Compare two versions of an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CompareBS.md)
+-   If the service population method is **Tags**, **Top Down Discovery**, or **Manual**, and select **View Map** to [view the application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-map-base-system.md) where you can:
+    -   Link application services
+    -   View CI attributes in an application service map
+    -   View the change history of application services
+    -   Compare two versions of an application service
 -   Select **Advanced**, and then on the Advanced Details page, select **Additional Info**, **Questionnaire**, **Reject Messages**, or **Worknotes**, to add details.
 

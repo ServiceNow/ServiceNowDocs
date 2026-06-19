@@ -2,6 +2,7 @@
 title: Create a sales opportunity
 description: Create sales opportunities for services, products, or assets identified during field service visits using the ServiceNow Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-opportunity.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -30,15 +31,15 @@ Role required: wm\_technician\_sales\_write
 
 2.  Create a sales opportunity.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d85597e105">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d82234e105">
 
 From
 
-</th><th align="left" id="d85597e108">
+</th><th align="left" id="d82234e108">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d85597e114">
+</th></tr></thead><tbody><tr><td id="d82234e114">
 
 **My Work**
 
@@ -46,11 +47,11 @@ Do this
 
 1.  Tap **My Work**.
 2.  In the **My Tasks** section, select the relevant work order task.
-3.  Tap Overflow action ![overflow action icon](../image/more_actions1.png) icon.
+3.  Tap Overflow action \[Omitted image "more\_actions1.png"\] Alt text: overflow action icon icon.
 4.  Tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d85597e153">
+</td></tr><tr><td id="d82234e153">
 
 **My Work**
 
@@ -61,7 +62,7 @@ Do this
 3.  In the **Related** tab, tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d85597e186">
+</td></tr><tr><td id="d82234e186">
 
 **Sales**
 

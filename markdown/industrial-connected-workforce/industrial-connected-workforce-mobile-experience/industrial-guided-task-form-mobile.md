@@ -2,6 +2,7 @@
 title: Industrial Guided Task form
 description: The following table describes the field values for the Industrial Guided Task form in Industrial Connected Workforce Mobile Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-guided-task-form-mobile.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -96,5 +97,5 @@ Assigned to
 User that the task has been assigned to.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Connected Workforce Mobile Experience reference](industrial-connected-workforce-mobile-experience-reference.md)
+</table>**Parent Topic:**[Industrial Connected Workforce Mobile Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-connected-workforce-mobile-experience-reference.md)
 

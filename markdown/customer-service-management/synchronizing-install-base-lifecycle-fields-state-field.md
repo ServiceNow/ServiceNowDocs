@@ -2,7 +2,10 @@
 title: Synchronizing the install base life cycle fields with the state and status fields
 description: You can synchronize the Life cycle stage field and the Life cycle stage status fields with the State and Status fields on the install base form so that you can track the lifecycle of an install base entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/synchronizing-install-base-lifecycle-fields-state-field.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ You can synchronize the **Life cycle stage** field and the **Life cycle stage st
 
 ## Overview
 
-Track the lifecycle of an install base entity by migrating to the Common Service Data Model. To learn more about the CSDM framework, see [Common Service Data Model framework for Install Base Management](csdm-framework-for-install-base-management.md).
+Track the lifecycle of an install base entity by migrating to the Common Service Data Model. To learn more about the CSDM framework, see [Common Service Data Model framework for Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csdm-framework-for-install-base-management.md).
 
 ## Life Cycle Mapping table
 
@@ -23,7 +26,7 @@ The Life Cycle Mapping \[life\_cycle\_mapping\] table is already populated with 
 
 You can create custom choices for the **State** and **Status** field by adding a mapping record in the Life Cycle Mapping \[life\_cycle\_mapping\] table. Each custom value has related records on the Life Cycle Mapping \[life\_cycle\_mapping\] table. You must activate the mapping records for the synchronization to begin.
 
-For information on how to create the custom choices and then map the **Life cycle stage** and **Life cycle stage status** fields with the legacy **State** field, see [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+For information on how to create the custom choices and then map the **Life cycle stage** and **Life cycle stage status** fields with the legacy **State** field, see .
 
 **Note:** If the custom choices have no lifecycle mappings, then the **Life cycle stage** and the **Life cycle stage status** fields remain in the **To Be Determined** state.
 

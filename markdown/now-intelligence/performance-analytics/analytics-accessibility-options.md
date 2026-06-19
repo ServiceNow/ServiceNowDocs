@@ -2,6 +2,7 @@
 title: Accessibility options on dashboards
 description: Understand how accessibility settings affect reports and Performance Analytics widgets on dashboards. Data visualizations on a Workspace are also affected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/analytics-accessibility-options.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -15,18 +16,18 @@ breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Rep
 
 Understand how accessibility settings affect reports and Performance Analytics widgets on dashboards. Data visualizations on a Workspace are also affected.
 
-![Data visualization accessibility on a dashboard](../image/visualization-accessibility-dashboard.png)
+\[Omitted image "visualization-accessibility-dashboard.png"\] Alt text: Data visualization accessibility on a dashboard
 
 You can enable and disable these Accessibility options to make your experience in an instance more accessible:
 
 -   Replace colors and patterns in charts and graphs
 -   Enable data table for charts and graphs
 
-Open your **Preferences** to access the Accessibility options. For more information, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
+Open your **Preferences** to access the Accessibility options. For more information, see .
 
-![Menu for opening preferences for an instance.](../image/open-preferences.png)
+\[Omitted image "open-preferences.png"\] Alt text: Menu for opening preferences for an instance.
 
-![Accessibility options for data visualizations.](../image/accessibility-options-for-data-viz.png)
+\[Omitted image "accessibility-options-for-data-viz.png"\] Alt text: Accessibility options for data visualizations.
 
 ## Data visualization patterns enabled
 
@@ -36,23 +37,23 @@ Here's an example of a dashboard showing visualizations without accessibility en
 -   A bar report
 -   A time series Performance Analytics widget
 
-![Example dashboard - non-accessible visualization](../image/example-dashboard-non-accessible-vis.png)
+\[Omitted image "example-dashboard-non-accessible-vis.png"\] Alt text: Example dashboard - non-accessible visualization
 
 When you select **Replace colors with patterns with charts and graphs**, you can see how the visualization's solid colors become differently patterned for more accessible viewing.
 
-![Example dashboard - accessible patterns](../image/example-dashboard-accessible-patterns.png)
+\[Omitted image "example-dashboard-accessible-patterns.png"\] Alt text: Example dashboard - accessible patterns
 
 ## Data table enabled
 
 When you select **Enable data table for charts and graphs**, data tables replace the charts on Performance Analytics widgets. On reports, a plus + icon appears.
 
-![Dashboard with data tables replacing charts.](../image/accessibility-enabled.png)
+\[Omitted image "accessibility-enabled.png"\] Alt text: Dashboard with data tables replacing charts.
 
 Here's a closer view of the plus icon which, when enabled, displays regardless of the data table setting set for individual reports.
 
-![Accessibiity enabled - closer view at a donut chart](../image/accessibility-enabled-donut.png)
+\[Omitted image "accessibility-enabled-donut.png"\] Alt text: Accessibiity enabled - closer view at a donut chart
 
 Click the plus icon to display the corresponding data table.
 
-![Accessibility enabled - chart view](../image/accessibility-enabled-chart.png)
+\[Omitted image "accessibility-enabled-chart.png"\] Alt text: Accessibility enabled - chart view
 

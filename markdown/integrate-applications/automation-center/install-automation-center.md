@@ -2,6 +2,7 @@
 title: Install Automation Center
 description: If you have the admin role, you can install the Automation Center application \(sn\_ac\). If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/install-automation-center.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -32,7 +33,7 @@ The following items are installed with Automation Center:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Automation Center](../reference/components-installed-with-automation-center.md).
+For more information, see [Components installed with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/components-installed-with-automation-center.md).
 
 ## Procedure
 
@@ -61,5 +62,5 @@ For more information, see [Components installed with Automation Center](../refer
 
 The data in Automation Center Value dashboard is derived from the Performance Analytics \(PA\) tables. The PA jobs are scheduled to run at a specific time in the day. If you want to view the data immediately after the installation and before the scheduled run, then you have to manually run the PA jobs.
 
-**Parent Topic:**[Configuring Automation Center](../concept/automation-center-setup.md)
+**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-setup.md)
 

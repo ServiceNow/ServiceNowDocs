@@ -2,7 +2,10 @@
 title: Use the Field Service Management dashboard
 description: The Field Service Management overview module provides a dispatch map that displays tasks and links to the related task records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/t\_UseTheFieldServiceOverviewModule.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -30,5 +33,5 @@ Role required: dispatcher
     You can click elements within the reports to obtain more information without leaving the overview page.
 
 
-**Parent Topic:**[Monitoring operations in real time](../../field-service-management/concept/monitoring-operations-in-real-time.md)
+**Parent Topic:**[Monitoring operations in real time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/monitoring-operations-in-real-time.md)
 

@@ -2,6 +2,7 @@
 title: CdmApplicationsApi
 description: The CdmApplicationsApi provides endpoints that enable you to uploadzoominsoftware.io/utah-devops/ configuration data to the component, collection, deployable, and component variable folders found in the DevOps Config Workspace UI. It also has endpoints that enable you to export deployable configuration data to your DevOps pipeline and manage shared components and shared applications.Deletes a specified Configuration Data Management \(CDM\) deployable.Removes the shared component usage reference from a specified Configuration Data Management \(CDM\) application.Returns the content associated with a specified configuration data export request.Returns the current status of the specified configuration data export request.Returns the list of shared components used by a specified application. You can also specify to only return those shared components that have a new version available.Returns a map of shared components and the applications that use them that are within a specified library.Returns the current status of the specified configuration data upload request.Creates a new deployable and automatically connects it to a specified Configuration Data Management \(CDM\) application.Creates one or more new deployables.Submits a request to export the current snapshot for a specified application and one or more deployables into the CDM Exporter Cache \[sn\_cdm\_exporter\_cache\] table.Associates the specified shared component to the application within a specified changeset.Submits a request to upload the passed-in configuration data for a specific component, within the system components folder, for the specified application.Uploads files as part of the Configuration Data Model \(CDM\) to the components folder.Submits a request to upload the passed-in configuration data under the vars folder, within the system components folder, for the specified application.Submits a request to upload the passed-in configuration data for a specific collection, within the system collections folder, for the specified application.Uploads a file to the collections folder in the Configuration Data Model \(CDM\).Submits a request to upload the configuration content for a specific deployable within the deployables system folder of a specified application.Uploads files to the deployables folder in the Configuration Data Model \(CDM\).Updates the specified shared component in an application within a specified changeset.Need proper description.Updates the specified shared component in an application within a specified changeset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/applications-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,7 +18,7 @@ The CdmApplicationsApi provides endpoints that enable you to `uploadzoominsoftwa
 
 The export and upload endpoints use an asynchronous queuing implementation. With this type of implementation, you first call the desired export or upload request endpoint. These endpoints queue your request and return a request identifier. You then use this request identifier to call the appropriate status endpoint, one for uploads and a different one for exports, to obtain the status of the upload/export. For export requests, once the export is complete, you can also request the content of the export.
 
-This API does not provide endpoints that perform simple retrieval of application records. To retrieve these records, use the [Table](c_TableAPI.md#) API.
+This API does not provide endpoints that perform simple retrieval of application records. To retrieve these records, use the [Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md) API.
 
 You must have one of the following roles to access this API:
 
@@ -26,11 +27,11 @@ You must have one of the following roles to access this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on Configuration Data Management and the DevOps Config Workspace UI, see [Uploading your config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-upload-process.md).
+For additional information on Configuration Data Management and the DevOps Config Workspace UI, see Uploading your config data.
 
-For additional information on shared components and shared libraries, see [Sharing components among applications — Component libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-component-libraries.md).
+For additional information on shared components and shared libraries, see Sharing components among applications — Component libraries.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## CdmApplicationsApi - DELETE /sn\_cdm/applications/deployables
 
@@ -44,7 +45,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/deployables`
 
 Default URL: `/api/sn_cdm/applications/deployables`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -100,7 +101,7 @@ Table: CDM Deployable \[sn\_cdm\_deployable\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -112,7 +113,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -155,7 +156,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/shared_components`
 
 Default URL: `/api/sn_cdm/applications/shared_components`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -223,7 +224,7 @@ Table: CDM Shared Component \[sn\_cdm\_shared\_component\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -248,7 +249,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -337,7 +338,7 @@ Response:
 
 Returns the content associated with a specified configuration data export request.
 
-Only call this endpoint once you have received a `complete` response from the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/status](applications-api.md#) endpoint. If you call this endpoint before the export is complete, a 400 status error is returned.
+Only call this endpoint once you have received a `complete` response from the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint. If you call this endpoint before the export is complete, a 400 status error is returned.
 
 ### URL format
 
@@ -345,7 +346,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/deployables/exports/{expo
 
 Default URL: `/api/sn_cdm/applications/deployables/exports/{export_id}/content`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -371,7 +372,7 @@ export\_id
 
 </td><td>
 
-Unique identifier for the export request whose configuration data to return. This value is returned by the [CdmApplicationsApi - POST /sn\_cdm/applications/deployables/exports](applications-api.md#) endpoint.
+Unique identifier for the export request whose configuration data to return. This value is returned by the [CdmApplicationsApi - POST /sn\_cdm/applications/deployables/exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint.
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -384,7 +385,7 @@ Unique identifier for the export request whose configuration data to return. Thi
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -396,7 +397,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -505,7 +506,7 @@ The following shows the possible return results.
 
 Returns the current status of the specified configuration data export request.
 
-Use the [CdmApplicationsApi - POST /sn\_cdm/applications/deployables/exports](applications-api.md#) endpoint to make an export request.
+Use the [CdmApplicationsApi - POST /sn\_cdm/applications/deployables/exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to make an export request.
 
 ### URL format
 
@@ -513,7 +514,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/deployables/exports/{expo
 
 Default URL: `/api/sn_cdm/applications/deployables/exports/{export_id}/status`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -539,7 +540,7 @@ export\_id
 
 </td><td>
 
-Sys\_id of the export request whose status to return. This value is returned by the [CdmApplicationsApi - POST /sn\_cdm/applications/deployables/exports](applications-api.md#) endpoint.
+Sys\_id of the export request whose status to return. This value is returned by the [CdmApplicationsApi - POST /sn\_cdm/applications/deployables/exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint.
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -552,7 +553,7 @@ Sys\_id of the export request whose status to return. This value is returned by 
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -564,7 +565,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -728,7 +729,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/shared_components`
 
 Default URL: `/api/sn_cdm/applications/shared_components`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -787,7 +788,7 @@ Default: false
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -812,7 +813,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -960,7 +961,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/shared_libraries/componen
 
 Default URL: `/api/sn_cdm/applications/shared_libraries/components/applications`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1016,7 +1017,7 @@ Table: CDM Application \[sn\_cdm\_application\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1041,7 +1042,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1183,7 +1184,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/upload-status/{upload_id}
 
 Default URL: `/api/sn_cdm/applications/upload-status/{upload_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1222,7 +1223,7 @@ Sys\_id of the upload request whose status to return. This value is returned by 
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1234,7 +1235,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1356,7 +1357,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -1467,7 +1468,7 @@ upload\_id
 
 </td><td>
 
-Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.Data type: String
+Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -1539,9 +1540,9 @@ You can create a deployable for any one of three environment types: Development,
 
 To access this endpoint the caller must have the CDM Admin role.
 
-If you need to create multiple deployables, use the [CdmApplicationsApi - POST /sn\_cdm/applications/deployables/create](applications-api.md#) endpoint.
+If you need to create multiple deployables, use the [CdmApplicationsApi - POST /sn\_cdm/applications/deployables/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint.
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### URL format
 
@@ -1635,7 +1636,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1648,7 +1649,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1973,7 +1974,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/deployables/create`
 
 Default URL: `/api/sn_cdm/applications/deployables/create`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2056,7 +2057,7 @@ Required. Number of deployables to create.Data type: Number
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2069,7 +2070,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2176,9 +2177,9 @@ The following shows the possible responses to this call, both as a success and a
 
 Submits a request to export the current snapshot for a specified application and one or more deployables into the CDM Exporter Cache \[sn\_cdm\_exporter\_cache\] table.
 
-This endpoint returns a unique identifier for the request, which you then use to call the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/status](applications-api.md#) endpoint to retrieve the status of the export. Once the export is complete, you can use the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/content](applications-api.md#) endpoint to retrieve the associated application's configuration data.
+This endpoint returns a unique identifier for the request, which you then use to call the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to retrieve the status of the export. Once the export is complete, you can use the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to retrieve the associated application's configuration data.
 
-A snapshot is the complete data model of a deployable at the time a configuration change is committed. This includes any included components, collections, and vars, as well as deployable-specific vars and overrides. For additional information on deployables, see [Create and update a deployable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-deployable-define.md).
+A snapshot is the complete data model of a deployable at the time a configuration change is committed. This includes any included components, collections, and vars, as well as deployable-specific vars and overrides. For additional information on deployables, see Create and update a deployable.
 
 **Note:** Snapshots cannot exceed 10,000 configuration data items \(CDIs\) per deployable or 100,000 CDIs per application.
 
@@ -2188,7 +2189,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/deployables/exports`
 
 Default URL: `/api/sn_cdm/applications/deployables/exports`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2303,7 +2304,7 @@ exporterName
 
 </td><td>
 
-Required. Name of the exporter to use to export the snapshot data. Exporters are custom to the implementer. For details on creating a custom exporter, see [Create a custom exporter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-exporter-create-custom.md).Data type: String
+Required. Name of the exporter to use to export the snapshot data. Exporters are custom to the implementer. For details on creating a custom exporter, see Create a custom exporter.Data type: String
 
 </td></tr><tr><td>
 
@@ -2335,7 +2336,7 @@ Name of the snapshot to export. This can only be one of the snapshot names assoc
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2348,7 +2349,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -2434,7 +2435,7 @@ export\_id
 
 </td><td>
 
-Unique identifier of the export request. Use this ID when calling the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/status](applications-api.md#) endpoint to check the current status of the export request.Data type: String
+Unique identifier of the export request. Use this ID when calling the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to check the current status of the export request.Data type: String
 
 </td></tr><tr><td>
 
@@ -2483,7 +2484,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/shared_components`
 
 Default URL: `/api/sn_cdm/applications/shared_components`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2569,7 +2570,7 @@ Table: CDM Application \[sn\_cdm\_application\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2594,7 +2595,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2902,15 +2903,15 @@ Response:
 
 Submits a request to upload the passed-in configuration data for a specific component, within the system components folder, for the specified application.
 
-This endpoint returns the ID of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.
+This endpoint returns the ID of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.
 
 **Note:** The maximum default upload content size is 2 MB. You can modify this default by updating the property sn\_cdm.max\_allowed\_upload\_file\_size.
 
 The following image shows an example of where the component configuration data is uploaded in reference to the ServiceNow DevOps Config UI. Assumes the component is **dbComponent** and the application is **paymentSvc**.
 
-![Example configuration content location within UI](../image/apps-uploads-components_data.png)
+\[Omitted image "apps-uploads-components\_data.png"\] Alt text: Example configuration content location within UI
 
-**Note:** This upload method cannot be used to modify nodes. Use the alternative [CdmApplicationsApi - POST sn\_cdm/applications/uploads/components/file](applications-api.md#) method to modify nodes.
+**Note:** This upload method cannot be used to modify nodes. Use the alternative [CdmApplicationsApi - POST sn\_cdm/applications/uploads/components/file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) method to modify nodes.
 
 ### URL format
 
@@ -2918,7 +2919,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/uploads/components`
 
 Default URL: `/api/sn_cdm/applications/uploads/components`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -3010,9 +3011,9 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
-Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
+Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) results.
 
 Table: CDM Changeset \[sn\_cdm\_changeset\]
 
@@ -3040,7 +3041,7 @@ dataFormatAttributes
 
 </td><td id="cdm_app-dataFormAtt-entry">
 
-Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see [Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-csv-file.md).Data type: Object
+Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see .Data type: Object
 
 ```
 "dataFormatAttributes" {
@@ -3061,7 +3062,7 @@ Flag that indicates whether the data contains a header row.Valid values:
 
 -   true: Data contains a header row. The first row in the data is considered the header row.
 
-![Header row example](../image/cdm_header_row_example.png)
+\[Omitted image "cdm\_header\_row\_example.png"\] Alt text: Header row example
 
 -   false: Data doesn't contain a header row. You must pass the header information in the **dataFormatAttributes.headers** parameter.
 
@@ -3227,7 +3228,7 @@ Table: CDM Application \[sn\_cdm\_application\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_trg_k25_2wb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -3260,7 +3261,7 @@ Data format of the request body. Supported types: **text/plain** and **applicati
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_vvq_4wh_psb"><thead><tr><th>
 
@@ -3357,7 +3358,7 @@ upload\_id
 
 </td><td>
 
-Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.Data type: String
+Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -3410,7 +3411,7 @@ Versioned URL: `POST /api/sn_cdm/{api_version}/applications/uploads/components/f
 
 Default URL: `POST /api/sn_cdm/applications/uploads/components/file`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -3487,9 +3488,9 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
-Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
+Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) results.
 
 Table: CDM Changeset \[sn\_cdm\_changeset\]
 
@@ -3541,7 +3542,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -3600,7 +3601,7 @@ Data type of the file to be uploaded. Supported types: **application/zip**, **te
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_cdq_fft_byb"><thead><tr><th>
 
@@ -3697,7 +3698,7 @@ upload\_id
 
 </td><td>
 
-Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.Data type: String
+Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -3740,7 +3741,7 @@ Submits a request to upload the passed-in configuration data under the vars fold
 
 The following image shows an example of where the component's vars configuration data is uploaded in reference to the ServiceNow DevOps Config Workspace UI. Assumes the application is **paymentSvc**.
 
-![Upload vars directory](../image/apps-uploads-comp-vars_data.png)
+\[Omitted image "apps-uploads-comp-vars\_data.png"\] Alt text: Upload vars directory
 
 **Note:** The maximum default upload content size is 2 MB. You can modify this default by updating the property sn\_cdm.max\_allowed\_upload\_file\_size.
 
@@ -3750,7 +3751,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/uploads/components/vars`
 
 Default URL: `/api/sn_cdm/applications/uploads/components/vars`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -3842,9 +3843,9 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
-Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
+Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) results.
 
 Table: CDM Changeset \[sn\_cdm\_changeset\]
 
@@ -3991,7 +3992,7 @@ Table: CDM Application \[sn\_cdm\_application\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_cvs_bmb_fwb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -4024,7 +4025,7 @@ Data format of the request body. Supported types: **text/plain** and **applicati
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_dqr_z13_psb"><thead><tr><th>
 
@@ -4121,7 +4122,7 @@ upload\_id
 
 </td><td>
 
-Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.Data type: String
+Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -4168,15 +4169,15 @@ The following return results show both a successful and an error response for th
 
 Submits a request to upload the passed-in configuration data for a specific collection, within the system collections folder, for the specified application.
 
-This endpoint returns the ID of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.
+This endpoint returns the ID of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.
 
 **Note:** The maximum default upload content size is 2 MB. You can modify this default by updating the property sn\_cdm.max\_allowed\_upload\_file\_size.
 
 The following image shows an example of where the configuration data is uploaded in reference to the ServiceNow DevOps Config Workspace UI. Assumes the collection is **db0Release1.0** and the application is **paymentSvc**.
 
-![Collections upload folder](../image/apps-uploads-collections_data.png)
+\[Omitted image "apps-uploads-collections\_data.png"\] Alt text: Collections upload folder
 
-**Note:** This upload method cannot be used to modify nodes. Use the alternative [CdmApplicationsApi - POST /sn\_cdm/applications/uploads/collections/file](applications-api.md#) method to modify nodes.
+**Note:** This upload method cannot be used to modify nodes. Use the alternative [CdmApplicationsApi - POST /sn\_cdm/applications/uploads/collections/file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) method to modify nodes.
 
 ### URL format
 
@@ -4184,7 +4185,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/uploads/collections`
 
 Default URL: `/api/sn_cdm/applications/uploads/collections`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -4276,9 +4277,9 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
-Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
+Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) results.
 
 Table: CDM Changeset \[sn\_cdm\_changeset\]
 
@@ -4318,7 +4319,7 @@ dataFormatAttributes
 
 </td><td id="cdm_app-dataFormAtt-entry">
 
-Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see [Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-csv-file.md).Data type: Object
+Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see .Data type: Object
 
 ```
 "dataFormatAttributes" {
@@ -4339,7 +4340,7 @@ Flag that indicates whether the data contains a header row.Valid values:
 
 -   true: Data contains a header row. The first row in the data is considered the header row.
 
-![Header row example](../image/cdm_header_row_example.png)
+\[Omitted image "cdm\_header\_row\_example.png"\] Alt text: Header row example
 
 -   false: Data doesn't contain a header row. You must pass the header information in the **dataFormatAttributes.headers** parameter.
 
@@ -4433,7 +4434,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_h4r_fmb_fwb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -4466,7 +4467,7 @@ Data format of the request body. Supported types: **text/plain** and **applicati
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_szz_f33_psb"><thead><tr><th>
 
@@ -4563,7 +4564,7 @@ upload\_id
 
 </td><td>
 
-Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.Data type: String
+Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -4616,7 +4617,7 @@ Versioned URL: `POST /api/sn_cdm/{api_version}/applications/uploads/collections/
 
 Default URL: `POST /api/sn_cdm/applications/uploads/collections/file`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -4703,9 +4704,9 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
-Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
+Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) results.
 
 Table: CDM Changeset \[sn\_cdm\_changeset\]
 
@@ -4757,7 +4758,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -4816,7 +4817,7 @@ Content Type of the file to be uploaded. Examples: application/zip, text/plain, 
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_cdq_fft_byb"><thead><tr><th>
 
@@ -4913,7 +4914,7 @@ upload\_id
 
 </td><td>
 
-Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.Data type: String
+Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -4953,15 +4954,15 @@ The following return results show both a successful and an error response to thi
 
 Submits a request to upload the configuration content for a specific deployable within the deployables system folder of a specified application.
 
-This endpoint returns the ID of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.
+This endpoint returns the ID of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.
 
 **Note:** The maximum default upload content size is 2 MB. You can modify this default by updating the property sn\_cdm.max\_allowed\_upload\_file\_size.
 
 The following image shows an example of where the deployable configuration data is uploaded in reference to the ServiceNow DevOps Config UI. Assumes the deployable is **Development\_1** and the application is **paymentSvc**.
 
-![Deployables config data location in UI](../image/apps-uploads-deployables_data.png)
+\[Omitted image "apps-uploads-deployables\_data.png"\] Alt text: Deployables config data location in UI
 
-**Note:** This upload method cannot be used to modify nodes. Use the alternative [CdmApplicationsApi - POST /sn\_cdm/applications/uploads/deployables/file](applications-api.md#) method to modify nodes.
+**Note:** This upload method cannot be used to modify nodes. Use the alternative [CdmApplicationsApi - POST /sn\_cdm/applications/uploads/deployables/file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) method to modify nodes.
 
 ### URL format
 
@@ -4969,7 +4970,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/uploads/deployables`
 
 Default URL: `/api/sn_cdm/applications/uploads/deployables`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -5061,9 +5062,9 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
-Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
+Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) results.
 
 Table: CDM Changeset \[sn\_cdm\_changeset\]
 
@@ -5091,7 +5092,7 @@ dataFormatAttributes
 
 </td><td id="cdm_app-dataFormAtt-entry">
 
-Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see [Parsing of CSV files in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-parsing-csv-file.md).Data type: Object
+Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see .Data type: Object
 
 ```
 "dataFormatAttributes" {
@@ -5112,7 +5113,7 @@ Flag that indicates whether the data contains a header row.Valid values:
 
 -   true: Data contains a header row. The first row in the data is considered the header row.
 
-![Header row example](../image/cdm_header_row_example.png)
+\[Omitted image "cdm\_header\_row\_example.png"\] Alt text: Header row example
 
 -   false: Data doesn't contain a header row. You must pass the header information in the **dataFormatAttributes.headers** parameter.
 
@@ -5266,7 +5267,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -5281,7 +5282,7 @@ Default: publish\_none
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_ilq_dmb_fwb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -5314,7 +5315,7 @@ Data format of the request body. Supported types: **text/plain** and **applicati
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_gty_cw3_psb"><thead><tr><th>
 
@@ -5411,7 +5412,7 @@ upload\_id
 
 </td><td>
 
-Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.Data type: String
+Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -5462,7 +5463,7 @@ Versioned URL: `POST /api/sn_cdm/{api_version}/applications/uploads/deployables/
 
 Default URL: `POST /api/sn_cdm/applications/uploads/deployables/file`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -5539,9 +5540,9 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
-Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
+Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) results.
 
 Table: CDM Changeset \[sn\_cdm\_changeset\]
 
@@ -5603,7 +5604,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -5662,7 +5663,7 @@ Data type of the file to be uploaded. Supported types: **application/zip**, **te
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="id_cdq_fft_byb"><thead><tr><th>
 
@@ -5759,7 +5760,7 @@ upload\_id
 
 </td><td>
 
-Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) endpoint to obtain the status of the upload.Data type: String
+Sys\_id of the upload request. Use this ID to call the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/applications-api.md) endpoint to obtain the status of the upload.Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -5816,7 +5817,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/deployables`
 
 Default URL: `/api/sn_cdm/applications/deployables`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -5908,7 +5909,7 @@ Optional. Comma-separated list of fields to be returned as part of the response.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -5916,7 +5917,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -6121,7 +6122,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/applications/shared_components`
 
 Default URL: `/api/sn_cdm/applications/shared_components`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -6209,7 +6210,7 @@ Table: CDM Snapshot \[sn\_cdm\_snapshot\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -6234,7 +6235,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

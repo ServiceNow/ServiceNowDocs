@@ -2,7 +2,10 @@
 title: Chat with an agent from the Customer Service Portal
 description: Chat with a virtual agent or a customer service agent from the Customer Service Portal to resolve issues quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_StartAChatWithAnAgent.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,11 +22,11 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 ## Procedure
 
-1.  Select the Chat icon \( ![Chat icon.](../image/chat-icon.png)\) in the Customer Service Portal to start a conversation.
+1.  Select the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Customer Service Portal to start a conversation.
 
     A virtual agent or a customer service agent responds.
 
-2.  To talk to a person instead of a virtual agent, select ![Contact Support icon.](../../customer-communities/images/contact-support-icon.png) and then **Contact Support**.
+2.  To talk to a person instead of a virtual agent, select \[Omitted image "contact-support-icon.png"\] Alt text: Contact Support icon. and then **Contact Support**.
 
 3.  When you’re finished with the chat, select **End Conversation**.
 

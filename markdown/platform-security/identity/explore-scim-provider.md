@@ -2,6 +2,7 @@
 title: Exploring SCIM Provider
 description: The Service Provider provisions users and groups using the SCIM API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/explore-scim-provider.html
 release: australia
 product: Identity
 classification: identity
@@ -23,16 +24,16 @@ The SCIM provider synchronizes the changes made to identities in the IdP, includ
 
 To configure the SCIM Provider, perform the following tasks:
 
--   Activate the **SCIM v2 - ServiceNow Cross-domain Identity Management** plugin. To learn more, see [Activating the SCIM plugin](../task/activate-scim-plugin.md).​
+-   Activate the **SCIM v2 - ServiceNow Cross-domain Identity Management** plugin. To learn more, see [Activating the SCIM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/activate-scim-plugin.md).​
 -   Activate the other plugins that other plugins that are required for SCIM:
-    -   [OAuth 2.0](../../../administer/security/task/t_SettingUpOAuth.md)
+    -   [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SettingUpOAuth.md)
     -   REST API Provider
-    -   [REST API Access Policy​](../task/activate-rest-api-access-policy.md)
+    -   [REST API Access Policy​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/activate-rest-api-access-policy.md)
 -   Add the scim\_admin role as part of the SCIM service.​
 
 **Warning:** Grant this role carefully. The scim\_admin role is equivalent to giving the user the admin role, where the scmin\_admin can add or update Personally Identifiable Information \(PII\).
 
 ## Tables
 
-Two tables, sys\_user and sys\_group, contain the SCIM attributes that do not map to existing ServiceNow tables. To know more about the tables, see the [SCIM-specific tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/scim-api.md).
+Two tables, sys\_user and sys\_group, contain the SCIM attributes that do not map to existing ServiceNow tables. To know more about the tables, see the SCIM-specific tables.
 

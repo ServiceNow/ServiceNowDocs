@@ -2,6 +2,7 @@
 title: Award or remove points for a community user
 description: Award points to a user to recognize their contributions to the community. Remove points for a user if you observe that they are cheating the gamification system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-award-user-points.html
 release: australia
 product: Communities
 classification: communities
@@ -42,5 +43,5 @@ Role required: sn\_gamification.moderator
     An entry for the point assignment activity shows at the top of the Points list and the user's point total is updated.
 
 
-**Parent Topic:**[Moderate gamification](../concept/communities-gamification-moderate.md)
+**Parent Topic:**[Moderate gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-moderate.md)
 

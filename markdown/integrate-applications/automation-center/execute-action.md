@@ -2,6 +2,7 @@
 title: Execute actions in Automation Center
 description: Execute an action to fix common repeated issues efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/execute-action.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -25,7 +26,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
     The Automation Center dashboard is displayed.
 
-2.  Select the Action Center icon \(![Action Center icon](../images/action-center-icon.png)\) on the left.![Action Center](../images/action-center-page.png)
+2.  Select the Action Center icon \(\[Omitted image "action-center-icon.png"\] Alt text: Action Center icon\) on the left.\[Omitted image "action-center-page.png"\] Alt text: Action Center
 
     -   In the **Recents** section, all actions that have been executed are displayed.
     -   You can view all the actions that have been executed by selecting the **View list** button in the **Recents** section.
@@ -39,5 +40,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
     The action is run and displayed in the **Recents** section.
 
 
-**Parent Topic:**[Working with actions](../concept/actions.md)
+**Parent Topic:**[Working with actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/actions.md)
 

@@ -2,7 +2,10 @@
 title: Template item actions
 description: Template items have an available set of actions, including row-level actions that enable users to create new template items and to edit, clone, and delete template items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/task-plan-template-item-actions.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

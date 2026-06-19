@@ -2,6 +2,7 @@
 title: Receive employee data from UKG to the Employee Center Pro Kiosk
 description: Map the employee IDs between the UKG system and the Employee Center Pro Kiosk to see employee details in your organizational kiosks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/user-map-kronos-kiosk.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -34,5 +35,5 @@ Map the **Person Number** from the UKG system to the **Employee number** in the 
 
 You have mapped the employee data flow from the UKG system to the Employee Center Pro Kiosk.
 
-**Parent Topic:**[Integrate with the UKG spoke](integrate-kiosk-kronos.md)
+**Parent Topic:**[Integrate with the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/integrate-kiosk-kronos.md)
 

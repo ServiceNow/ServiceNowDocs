@@ -2,6 +2,7 @@
 title: Add recommended topics and intents to Virtual Agent
 description: After you run and review a Topic Recommendations report, select the pre-built topics and suggested intents to add to Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-tr-results-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -40,7 +41,7 @@ When you add a recommended topic to Virtual Agent, the Topic Recommendations app
 
     Selected cards are highlighted in blue and display as **Selected**, as shown in the following example.
 
-    ![When selected, the topic card is blue and displays "Selected" with a check mark.](../images/selected-topic-recommendation.png)
+    \[Omitted image "selected-topic-recommendation.png"\] Alt text: When selected, the topic card is blue and displays "Selected" with a check mark.
 
 4.  If you're using ServiceNow NLU, select one of the following options in the **Model** list:
 
@@ -48,15 +49,15 @@ When you add a recommended topic to Virtual Agent, the Topic Recommendations app
 
         Select this option to create a new model group. If other languages are enabled for your instance, select the languages to add as secondary models in the group. Select **make primary** for the primary language in the group.
 
-        ![Select Create new model and enter a name. Specify which language should be the primary language for the model.](../images/tr-create-model-add-va.png "Adding selected recommendations to a new model group")
+        \[Omitted image "tr-create-model-add-va.png"\] Alt text: Select Create new model and enter a name. Specify which language should be the primary language for the model.
 
-        For more information about model groups, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
+        For more information about model groups, see Multilingual model management.
 
     -   An existing model name
 
         If other languages are enabled for your instance, select the languages to add as secondary models in the group.
 
-        ![In the Model list, choose an existing model and select the languages you want to add as secondary models for the topic in the group.](../images/tr-intent-add-nlu.png "Adding selected recommendations to an existing model group")
+        \[Omitted image "tr-intent-add-nlu.png"\] Alt text: In the Model list, choose an existing model and select the languages you want to add as secondary models for the topic in the group.
 
 5.  Select **Add to VA**.
 
@@ -65,7 +66,7 @@ When you add a recommended topic to Virtual Agent, the Topic Recommendations app
 
 For recommended pre-built topics, Virtual Agent duplicates the topic \(but removes the **Template** portion of the file name\). For recommended intents, Virtual Agent creates a new topic mapped to the intent. These topics are added to the **Recommended** category in the Virtual Agent Designer Topics page.
 
-In the Topic recommendations page, the topic card shows the date it was added and its status \(**Active** or **Inactive**\). To open the new topic from the Topic Recommendations page, select the info icon to open the overlay card. Select the open link icon ![Open link icon.](../images/icon-open-link.png) to open the topic in Virtual Agent Designer.
+In the Topic recommendations page, the topic card shows the date it was added and its status \(**Active** or **Inactive**\). To open the new topic from the Topic Recommendations page, select the info icon to open the overlay card. Select the open link icon \[Omitted image "icon-open-link.png"\] Alt text: Open link icon. to open the topic in Virtual Agent Designer.
 
-![The pre-built topic card in Topic Recommendations page shows the date that it was added and its current state. The duplicated topic card displays in the Topics page.](../images/tr-vad-topic.png "Recommended topic cards for an added topic")
+\[Omitted image "tr-vad-topic.png"\] Alt text: The pre-built topic card in Topic Recommendations page shows the date that it was added and its current state. The duplicated topic card displays in the Topics page.
 

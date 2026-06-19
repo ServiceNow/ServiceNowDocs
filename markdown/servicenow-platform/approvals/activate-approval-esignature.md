@@ -2,11 +2,12 @@
 title: Activate Approval with e-Signature plugin
 description: The Approval with e-Signature plugin \(com.glide.e\_signature\_approvals\) allows users to approve requests by re-entering their login credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/approvals/activate-approval-esignature.html
 release: australia
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,8 +34,8 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Approval with e-signature](../../../administer/service-administration/concept/approval-with-e-signature.md)
+**Parent Topic:**[Approval with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/approval-with-e-signature.md)
 

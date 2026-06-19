@@ -2,6 +2,7 @@
 title: Send a document version for review and approval
 description: Send a document version for review and approval before publishing the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/send-document-for-review.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -28,5 +29,5 @@ Role required: none
 3.  Select the version and select **Submit Version**.
 
 
-**Parent Topic:**[Document approval and publish process](../concept/document-review-approval.md)
+**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md)
 

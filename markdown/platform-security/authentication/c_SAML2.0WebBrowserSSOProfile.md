@@ -2,6 +2,7 @@
 title: SAML
 description: The Security Assertion Markup Language \(SAML\) is an XML-based standard for exchanging authentication and authorization data between security domains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_SAML2.0WebBrowserSSOProfile.html
 release: australia
 product: Authentication
 classification: authentication
@@ -21,5 +22,5 @@ The [SAML 2.0](http://saml.xml.org/saml-specifications) integration enables SSO 
 
 If you are using the SAML 2.0 plugin for SSO authentication, you must set the glide.ui.rotate\_sessions property to false. Otherwise, it interferes with the session information sharing that takes place between the instance and the Identity Provider. Users with the security\_admin elevated privilege can access this property.
 
-**Note:** It is recommended that customers using an existing SAML 2.0 integration upgrade to the [Multi-Provider SSO plugin.](../../single-sign-on/task/t_ActivateMultipleProviderSSO.md)
+**Note:** It is recommended that customers using an existing SAML 2.0 integration upgrade to the [Multi-Provider SSO plugin.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ActivateMultipleProviderSSO.md)
 

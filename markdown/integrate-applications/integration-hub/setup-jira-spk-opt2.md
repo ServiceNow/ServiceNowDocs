@@ -2,6 +2,7 @@
 title: Set up the Jira spoke for Jira Cloud
 description: Integrate your ServiceNow instance with the Jira Cloud instance to authenticate the requests from ServiceNow.Integrate the ServiceNow instance with your Jira account using OAuth to authenticate ServiceNow requests.Obtain the value of Cloud ID of the Jira Cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Add and configure a Jira connection to authenticate ServiceNow requests in Jira spoke.Integrate the ServiceNow instance with your Jira account using OAuth to authenticate ServiceNow requests.Create a credential record for the Jira account. The Jira spoke connection and credential alias uses this credential to authorize actions.Create a connection record for the Jira account. The connection and credential alias uses this connection to perform actions in Jira.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jira-spk-opt2.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -75,7 +76,7 @@ Role required: admin
 4.  Locate the **Jira** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Jira spoke, click **View Details**.
-    -   To manage more than one Jira spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Jira spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 5.  On the **Connection** form, fill in the fields.
@@ -86,7 +87,7 @@ Role required: admin
     |Connection URL|URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/{cloud-id}/`. Replace `{cloud-id}` with value of the Cloud ID you had obtained previously.|
     |Scopes|By default, these scopes are provided `read:jira-work, read:jira-user, write:jira-work, manage:jira-project, manage:jira-configuration, manage:jira-webhook, manage:jira-data-provider, delete:sprint:jira-software, read:sprint:jira-software, write:sprint:jira-software, read:board-scope:jira-software, read:project:jira, read:jql:jira, read:issue-details:jira, read:me, read:account, offline_access`. You can modify the scopes as per your requirement.|
 
-    ![](../image/jira-new-conf-temp.jpg)
+    \[Omitted image "jira-new-conf-temp.jpg"\] Alt text:
 
 6.  Click **Save and Get OAuth Token**.
 
@@ -174,7 +175,7 @@ Role required: admin
     |Field|Description|
     |-----|-----------|
     |Name|Name to identify the credential record for the Jira spoke. For example, `Jira client credential cred`.|
-    |OAuth Entity Profile|Select the OAuth entity profile record that was created when the application registry record is configured. For more information, see [Create an application registry record](setup-jira-spk-opt2.md#).|
+    |OAuth Entity Profile|Select the OAuth entity profile record that was created when the application registry record is configured. For more information, see [Create an application registry record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).|
 
 5.  Right-click the form header and click **Save**.
 
@@ -231,7 +232,7 @@ Connection URL
 
 </td><td>
 
-Enter the URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/<Cloud-ID>`.For information about obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](setup-jira-spk-opt2.md#).
+Enter the URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/<Cloud-ID>`.For information about obtaining the value of Cloud ID, see [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira-spk-opt2.md).
 
 </td></tr></tbody>
 </table>5.  Click **Submit**.

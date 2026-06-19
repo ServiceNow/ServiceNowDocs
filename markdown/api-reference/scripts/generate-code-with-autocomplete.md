@@ -2,11 +2,12 @@
 title: Generate code with autocomplete
 description: The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/generate-code-with-autocomplete.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Use Now Assist for Code, Now Assist for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -51,6 +52,6 @@ Role required: now.assist.creator
 
     **Note:** To disable autocomplete for your session, in the script editor select **Code with Now Assist** from the status bar at the bottom of the editor, and then clear **Autocomplete**.
 
-    ![Click to disable autocomplete](../image/now-assist-code-disable-autocomplete.png)
+    \[Omitted image "now-assist-code-disable-autocomplete.png"\] Alt text: Click to disable autocomplete
 
 

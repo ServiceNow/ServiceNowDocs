@@ -2,6 +2,7 @@
 title: Create a service channel to route requests
 description: Create a service channel in Advanced Work Assignment so that you can route change requests to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/custom-service-channel-tutorial.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,7 +2,10 @@
 title: Add a sold product or install base item to a customer contract
 description: Add the sold products or the install base items covered to customer contracts, contract lines, or entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-products-service-contract.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -31,15 +34,15 @@ A sold product or an install base item can be added to a Customer Contracts and 
 
 1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d167198e88">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d165631e88">
 
 Interface
 
-</th><th align="left" id="d167198e91">
+</th><th align="left" id="d165631e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d167198e97">
+</th></tr></thead><tbody><tr><td id="d165631e97">
 
 **ServiceNow AI Platform interface**
 
@@ -47,7 +50,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements**.
 
-</td></tr><tr><td id="d167198e120">
+</td></tr><tr><td id="d165631e120">
 
 **CSM Configurable Workspace**
 
@@ -60,15 +63,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Add the sold product or install base item covered to customer contracts, contract lines, or entitlements.
 
-<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d167198e170">
+<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d165631e170">
 
 Add to
 
-</th><th align="left" id="d167198e173">
+</th><th align="left" id="d165631e173">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d167198e179">
+</th></tr></thead><tbody><tr><td id="d165631e179">
 
 **Customer Contracts**
 
@@ -82,7 +85,7 @@ Procedure
 3.  From the Products Covered or Install Base Items Covered related list, select **New**.
 
 
-</td></tr><tr><td id="d167198e220">
+</td></tr><tr><td id="d165631e220">
 
 **Customer Contract Lines**
 
@@ -97,7 +100,7 @@ Procedure
 4.  From the Sold Product Covered or Install Base Items Covered related list, select **New**.
  **Note:** When a sold product or an install base item covered is added to a contract line, it is not added to the related entitlements.
 
-</td></tr><tr><td id="d167198e267">
+</td></tr><tr><td id="d165631e267">
 
 **Entitlements**
 
@@ -128,7 +131,7 @@ Procedure
     -   The state of the entity shouldn't be Expired or Canceled.
 3.  On the Sold Product Covered form, fill in the fields.
 
-    For a description of the field values, see [Sold product form](../../customer-service-management/reference/sold-product-form.md).
+    For a description of the field values, see [Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/sold-product-form.md).
 
 4.  Select **Submit**.
 

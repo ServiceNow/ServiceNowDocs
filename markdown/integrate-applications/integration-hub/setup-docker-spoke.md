@@ -2,6 +2,7 @@
 title: Set up the Docker spoke
 description: Integrate the ServiceNow instance and Docker spoke by using the Docker Connection and Credential alias to authenticate ServiceNow requests.Add and configure a Docker connection to authenticate ServiceNow requests in Docker spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-docker-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -41,12 +42,12 @@ Role required: admin
 
     -   To configure the default connection and credential alias record that is shipped along with the Docker spoke, click **View Details**.
 
-        ![Connection template for Docker spoke](../image/docker-conn-template.png)
+        \[Omitted image "docker-conn-template.png"\] Alt text: Connection template for Docker spoke
 
-    -   To manage more than one Docker spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Docker spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    ![Configure connection for Docker spoke](../image/config-docker-conn.png)
+    \[Omitted image "config-docker-conn.png"\] Alt text: Configure connection for Docker spoke
 
 5.  On the Configure Connection form, fill in the fields.
 
@@ -61,7 +62,7 @@ Role required: admin
     |Password|Password of your Docker account.|
     |Server Address|IP address of the host server where Docker is installed.|
 
-    ![Configure a connection for Docker spoke.](../image/docker-spk-conf-temp.png)
+    \[Omitted image "docker-spk-conf-temp.png"\] Alt text: Configure a connection for Docker spoke.
 
 6.  Click **Configure Connection**.
 

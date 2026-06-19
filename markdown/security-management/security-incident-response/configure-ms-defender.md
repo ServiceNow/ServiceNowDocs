@@ -2,6 +2,7 @@
 title: Install and Configure
 description: Install and Configure Microsoft Defender integration from the ServiceNow Store to control how incidents are retrieved, processed, and converted into security incidents within SIR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-ms-defender.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -91,5 +92,5 @@ Client secret of your registered application in the Microsoft portal.
 
 ## What to do next
 
-[Create an incident profile](ms-defender-profile.md)
+[Create an incident profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-defender-profile.md)
 

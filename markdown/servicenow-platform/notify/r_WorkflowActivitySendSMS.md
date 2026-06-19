@@ -2,6 +2,7 @@
 title: Send SMS workflow activity
 description: The send SMS workflow activity to send short text messages using Notify to users' phones. This workflow activity can be added to any table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_WorkflowActivitySendSMS.html
 release: australia
 product: Notify
 classification: notify
@@ -17,7 +18,7 @@ The **send SMS** workflow activity to send short text messages using Notify to u
 
 ## Notify requirements
 
-To send SMS messages, you must add and configure a provider in Notify. For more information about configuring a provider, see [Configure a provider in Notify](../../../product/notify2/task/configure-providers-for-provider-selectors.md).
+To send SMS messages, you must add and configure a provider in Notify. For more information about configuring a provider, see [Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configure-providers-for-provider-selectors.md).
 
 ## Input variables
 

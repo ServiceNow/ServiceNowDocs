@@ -2,6 +2,7 @@
 title: Install the Leader Hub application
 description: Install the Leader Hub application to equip your organizational and HR leaders with the necessary tools to cultivate growth, develop talent, and make critical decisions that guide their organization toward long-term prosperity. The Leader Hub app gives leaders access to data about their organization's talent from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-install.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,7 +30,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -44,5 +45,5 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Installing and configuring Leader Hub](../concept/td-lh-install-config.md)
+**Parent Topic:**[Installing and configuring Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-install-config.md)
 

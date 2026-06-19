@@ -2,6 +2,7 @@
 title: Now Assist in Conversational Spokes
 description: Use Now Assist in Conversational Spokes application to start utilizing the conversational ability of Integration Hub spoke actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/conv-spokes-na.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -23,7 +24,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Perform business actions through conversational interface like Now Assist. Unlock the interactive conversational experience to automate your business workflows. This feature requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
-For information about configuring the conversational settings, see [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-actions.md). For information about the Integration Hub Spoke actions that are currently conversational ready, see [Available conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/available-conversational-actions.md).
+For information about configuring the conversational settings, see . For information about the Integration Hub Spoke actions that are currently conversational ready, see .
 
 ## Supported versions
 
@@ -42,8 +43,8 @@ Now Assist in Conversational Spokes application offers generative AI capabilitie
 
 After installing the Now Assist in Conversational Spokes application, you can configure the available conversational spoke actions.
 
--   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-subflows.md) to learn more about configuring the conversational settings.
--   See  in [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
+-   See  to learn more about configuring the conversational settings.
+-   See  in  to learn more about conversation experience and skills.
 
-**Parent Topic:**[Building integrations in Integration Hub](building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
 

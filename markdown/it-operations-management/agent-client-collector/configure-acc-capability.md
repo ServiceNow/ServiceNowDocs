@@ -2,6 +2,7 @@
 title: Configure the Agent Client Collector capabilities for MID Servers
 description: Configure the MID Servers with Agent Client Collector capabilities to enable the MID Servers to work with agents. Agents that have identical MID Server capabilities are eligible for automatic MID Server selection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-acc-capability.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -21,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-A capability defines MID Server functions. Any MID Server that is assigned with a capability that has **Is ACC Capability=true** is enabled to work with an agent. For details on the MID Server capabilities, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/mid-server-capabilities.md).
+A capability defines MID Server functions. Any MID Server that is assigned with a capability that has **Is ACC Capability=true** is enabled to work with an agent. For details on the MID Server capabilities, see .
 
 ## Procedure
 
@@ -40,5 +41,5 @@ A capability defines MID Server functions. Any MID Server that is assigned with 
 
 MID Servers with the same capabilities are eligible to be used during automatic MID Server selection.
 
-**Parent Topic:**[Automatic MID Server selection](../concept/acc-auto-mid-selection.md)
+**Parent Topic:**[Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-auto-mid-selection.md)
 

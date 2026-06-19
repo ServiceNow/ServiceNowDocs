@@ -2,6 +2,7 @@
 title: Approve the business impact analysis
 description: Approve the business impact analysis in BCM UI Builder Workspace in the BCM application. If you’re the business impact analysis owner or the BCM lead for the business impact analysis, you can approve the business impact analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/approve-bia-in-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -37,5 +38,5 @@ Role required: sn\_bia.bia\_admin, sn\_bia.bia\_manager, sn\_bcm.program\_manage
     When you approve the business impact analysis, its state is updated to **Approved**.
 
 
-**Parent Topic:**[Structured workflows for BIAs](../concept/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

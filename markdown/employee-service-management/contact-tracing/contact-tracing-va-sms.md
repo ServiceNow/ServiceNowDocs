@@ -2,6 +2,7 @@
 title: Virtual Agent conversations for Contact Tracing
 description: Contact Tracing provides a Virtual Agent conversation to assess the health of potentially exposed contacts via SMS.As an administrator, you can configure Contact Tracing to enable Exposure Case Task Surveys to be automatically sent via SMS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/contact-tracing-va-sms.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -25,8 +26,8 @@ Organizations can use the Exposure conversation topic and Exposure Case Task Sur
 
 **Note:** To complete the customization, you must apply any changes to both the Exposure conversation topic in **Virtual Agent** &gt; **Designer** and the Exposure Case Task Survey in **Survey** &gt; **View Surveys**. Applying changes to only the conversation topic or the survey will not update both the topic and survey.
 
--   For more information on updating conversation topics, see [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
--   For more information on updating surveys, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
+-   For more information on updating conversation topics, see Virtual Agent Designer.
+-   For more information on updating surveys, see Survey designer.
 
 ## Installation and setup requirements
 
@@ -36,23 +37,23 @@ Note the following requirements to use Virtual Agent with SMS:
 
 -   The Emergency Outreach application.
 
-    For details, see [Install Emergency Outreach](../../business-continuity/task/install-emergency-outreach.md#).
+    For details, see [Install Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/install-emergency-outreach.md).
 
 -   The Virtual Agent plugin \(com.glide.cs.chatbot\).
 
 -   Conversational SMS Integration with Twilio application \(sn\_va\_sms\_twilio\).
 
-    For more information, see [Set up the Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-twilio-adapter.md).
+    For more information, see Set up the Conversational SMS Integration with Twilio.
 
 
 Note the following requirements for users to complete Exposure Case Task Surveys via SMS:
 
 -   Your organization must install and set up Virtual Agent for use with SMS.
 -   To receive SMS messages for Contact Tracing, users must have a mobile phone number listed on their user record \[sys\_user\]. Mobile numbers must be in E.164 format, for example, `+18585551212`.
--   Privacy consent for Contact Tracing must be configured before users can reply to SMS messages. For instructions and more information, see [Setting up data privacy consent settings for Contact Tracing](set-up-privacy-consent-settings.md).
+-   Privacy consent for Contact Tracing must be configured before users can reply to SMS messages. For instructions and more information, see [Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md).
 -   Users must agree to the privacy consent before they can respond to the survey.
 
-**Parent Topic:**[Setting up Contact Tracing](set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 
 ## Send Exposure Case Task Surveys automatically via SMS
 
@@ -60,7 +61,7 @@ As an administrator, you can configure Contact Tracing to enable Exposure Case T
 
 ### Before you begin
 
-Ensure that the installation and setup requirements to enable Virtual Agent conversations for Contact Tracing are met. For more information, see [Virtual Agent conversations for Contact Tracing](contact-tracing-va-sms.md#).
+Ensure that the installation and setup requirements to enable Virtual Agent conversations for Contact Tracing are met. For more information, see [Virtual Agent conversations for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing-va-sms.md).
 
 Role required: admin
 
@@ -84,11 +85,11 @@ Enable the **sn\_imt\_tracing.enable\_sms\_exposure\_survey** property so that E
 
     1.  Update the Exposure Virtual Agent conversation topic in **Virtual Agent** &gt; **Designer**.
 
-        For more information on updating conversation topics, see [Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+        For more information on updating conversation topics, see Virtual Agent Designer.
 
     2.  Update the Exposure Case Task Survey in **Survey** &gt; **View Surveys**.
 
-        For more information on updating surveys, see [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
+        For more information on updating surveys, see Survey designer.
 
     To complete the customization, you must apply any changes to both the Exposure conversation topic in **Virtual Agent** &gt; **Designer** and the Exposure Case Task Survey in **Survey** &gt; **View Surveys**. Applying changes to only the conversation topic or the survey will not update both the topic and survey.
 

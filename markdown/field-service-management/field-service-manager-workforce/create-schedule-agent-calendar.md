@@ -2,6 +2,7 @@
 title: Create a schedule to use with the agent calendar
 description: Users with the agent calendar administrator role can create a schedule to use with the agent calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/create-schedule-agent-calendar.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -21,14 +22,14 @@ Role required: agent\_schedule\_admin
 
 ## About this task
 
-Creating a schedule for the agent calendar uses the schedule feature. For more information, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md).
+Creating a schedule for the agent calendar uses the schedule feature. For more information, see Schedules.
 
 Schedules are configured with two types of records.
 
 -   Schedule records specify a time zone and a type of schedule and use one or more schedule entries. Schedule records are saved in the Schedule \[cmn\_schedule\] table.
 -   Schedule entry records specify the time periods that are included or excluded from a schedule. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table.
 
-For more information on schedule fields, see [Schedule fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_ScheduleFields.md).
+For more information on schedule fields, see .
 
 ## Procedure
 

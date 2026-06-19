@@ -2,6 +2,7 @@
 title: Maximize failed login unlock timeout duration \[Updated in Security Center 1.3\]
 description: A script action is available that enables site administrators to manage the number of times a user can provide an incorrect password before being locked out from the ServiceNow AI Platform. You can enable this script action to manage failed login attempts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-managing-unlock-timeout-after-failed-logins.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -54,7 +55,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -98,5 +99,5 @@ Security risk
 3.  To enable management of failed login attempts, change the Active state of either the **SNC User Lockout Check with Auto Unlock** or **SNC User Lockout Check** scripts actions from **false** to **true**.
 4.  To reset the failed login counter after a successful login, you can activate the **SNC User Clear** script action.
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

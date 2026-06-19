@@ -2,6 +2,7 @@
 title: Create a Profile for Proofpoint DLP integration
 description: Create an incident profile in your  ServiceNow AI Platform instance. Determine the  Proofpoint DLP incidents that are suitable for creating DLP incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -72,15 +73,15 @@ Description
 Description to help distinguish this profile from other profiles.
 
 </td></tr></tbody>
-</table>    ![Create a profile for Proofpoint DLP integration.](../../data-loss-prevention/image/dlp-proofpoint-name.gif)
+</table>    \[Omitted image "dlp-proofpoint-name.gif"\] Alt text: Create a profile for Proofpoint DLP integration.
 
 4.  Click **Continue** and move to the Filtering section.
 
 
--   **[Define filters to apply for the Incident creation](../concept/define-filters-incident-creation-proofpoint.md)**  
+-   **[Define filters to apply for the Incident creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/define-filters-incident-creation-proofpoint.md)**  
 Define and set filter conditions to filter the incoming  Proofpoint DLP  incidents. Control which DLP incidents should be created on ServiceNow®.
--   **[Preview evidence files](preview-file-proofpoint.md)**  
+-   **[Preview evidence files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/preview-file-proofpoint.md)**  
 Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](../concept/dlp-incident-response-integration-proofpoint.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)
 

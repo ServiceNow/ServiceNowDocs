@@ -2,6 +2,7 @@
 title: Tables installed with AI Control Tower
 description: Certain Tables or fields are installed along with the activation of the AI Control Tower core plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/tables-installed-with-ai-control-tower.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

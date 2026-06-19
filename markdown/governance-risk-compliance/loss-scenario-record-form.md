@@ -2,6 +2,7 @@
 title: Loss Scenario record form
 description: Use the Loss Scenario record form in BCM UIB Workspace to configure a plan for an identified loss scenario.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/loss-scenario-record-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -23,5 +24,5 @@ For description of the field values, see the table.
 |Elements impacted|Items or assets that are impacted because of the loss scenario.|
 |Description|Short note about the loss scenario.|
 
-**Parent Topic:**[Configure loss scenarios in the plan](../task/configure-plan-loss-scenario-uib-ws.md)
+**Parent Topic:**[Configure loss scenarios in the plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-plan-loss-scenario-uib-ws.md)
 

@@ -2,12 +2,13 @@
 title: Components installed with Security Incident Response
 description: Several types of components are installed when you download and activate the Security Incident Response application, including user roles, tables, properties, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/installed-with-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -15,7 +16,7 @@ breadcrumb: [Install and configure Security Incident Response, Security Incident
 
 Several types of components are installed when you download and activate the Security Incident Response application, including user roles, tables, properties, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -275,6 +276,7 @@ Full control over all Security Incident Response data. Also administers territor
 -   sn\_si.knowledge\_admin
 -   sn\_si.manager
 -   sn\_sec\_cmn.admin
+-   sn\_secops\_setup.admin
 -   sn\_si.restriction\_access\_manager
 -   sn\_si.special\_access\_read\_manager
 -   sn\_si.special\_access\_write\_manager
@@ -488,6 +490,18 @@ Manage the Security Incident Special Access \[sn\_si.special\_access\] role. Use
 </td><td>
 
 sn\_si.special\_access\_enabler
+
+</td></tr><tr><td>
+
+Secops Setup Assistant Administrator\[sn\_secops\_setup.admin\]
+
+</td><td>
+
+Full control over Setup Assistant configuration. This role is required to access the Setup Assistant UI and related REST endpoints.
+
+</td><td>
+
+N/A
 
 </td></tr></tbody>
 </table>## Scheduled jobs installed
@@ -721,6 +735,14 @@ Template Workflow Activity Outcome Evaluator \[sn\_si\_wf\_activity\_outcome\_ev
 </td><td>
 
 Maps a capability with an evaluation script. A new subflow can be added to a template workflow to set a response task outcome rather than having an analyst manually set it.
+
+</td></tr><tr><td>
+
+Setup Status\[sn\_secops\_setup\_status\]
+
+</td><td>
+
+Tracks the completion state of each Setup Assistant step. The key and complete fields are enforced as strict read-only.
 
 </td></tr></tbody>
 </table>

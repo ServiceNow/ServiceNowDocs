@@ -2,6 +2,7 @@
 title: Subscribe to request for entry updates
 description: Send the result of each Employee Health Screening entry request to a third-party system by configuring a webhook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/get-health-data.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -23,13 +24,13 @@ Sending outbound webhook calls requires the following plugins.
 -   Workflow Studio Action Step - Payload Builder \(com.glide.hub.action\_step.payload\)
 -   ServiceNow Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
 
-These plugins must be requested through the Now Support Service Catalog. For instructions, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md).
+These plugins must be requested through the Now Support Service Catalog. For instructions, see Request a plugin.
 
 When you set up the webhook, the system automatically sends a REST request to a third-party endpoint every time an employee or visitor requests entry. Work with an administrator for the third-party system to determine the correct endpoint to provide.
 
 **Note:** The webhook does not include authentication headers in the request. Ensure that you provide an endpoint that includes query parameters to authenticate the request.
 
-To learn more about the Employee Health Screening Request Entry module, see [Conduct a health screen for entry](../../employee-health-screening/task/screen-returning-employee.md).
+To learn more about the Employee Health Screening Request Entry module, see [Conduct a health screen for entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/screen-returning-employee.md).
 
 Role required: sn\_imt\_core.admin or admin
 

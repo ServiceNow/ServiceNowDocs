@@ -2,6 +2,7 @@
 title: Configure SMS authentication
 description: Authenticate all users using Conversational SMS Integration with Twilio with Soft PIN \(SN\) and Google authenticators as the 2-factor authentication mechanisms for account linking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-sms-auth.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -71,8 +72,8 @@ Role required: virtual\_agent\_admin or admin
     When authentication is enabled for SMS, even when an actionable notification is triggered for the user in SMS conversation, user is expected to enter the Soft PIN and MFA to execute the action. For example, when an incident is updated, an actionable notification is triggered on the SMS app and you are asked to input your authentication code \(Soft PIN or MFA code\).
 
 
--   **[Rate limiting policy for SMS Authentication](../concept/sms-authentication.md)**  
+-   **[Rate limiting policy for SMS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/sms-authentication.md)**  
 Rate limiting policy locks out a user when an invalid or incorrect Soft PIN is entered consecutively for 3 times in a span of 24 hours.
 
-**Parent Topic:**[Configuring Conversational SMS Integration with Twilio](../concept/configure-va-sms-twilio-app.md)
+**Parent Topic:**[Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
 

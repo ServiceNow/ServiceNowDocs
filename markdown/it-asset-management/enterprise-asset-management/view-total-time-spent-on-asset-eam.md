@@ -2,6 +2,7 @@
 title: View the total time worked on all tasks related to an enterprise asset
 description: Use the Asset task time summary report to see the details of the time spent on all tasks for an asset and its child assets, grouped by task category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/view-total-time-spent-on-asset-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -75,11 +76,11 @@ The total time spent is grouped by the following task categories:
 
 3.  Select the asset record for which you want to view the details of the total time spent on the tasks.
 
-4.  On the contextual sidebar, select the Asset task time summary icon ![](../image/asset-task-summary-icon.png).
+4.  On the contextual sidebar, select the Asset task time summary icon \[Omitted image "asset-task-summary-icon.png"\] Alt text:.
 
     **Total time spent by task category** report is displayed.
 
-    ![Asset task time summary](../image/asset-task-summary-eam.png)
+    \[Omitted image "asset-task-summary-eam.png"\] Alt text: Asset task time summary
 
     The Asset task time summary report includes the following details:
 
@@ -103,5 +104,5 @@ The total time spent is grouped by the following task categories:
     -   **Closed**: The date and time when the asset task was closed.
     -   **Task category**: Category to which the task belongs.
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

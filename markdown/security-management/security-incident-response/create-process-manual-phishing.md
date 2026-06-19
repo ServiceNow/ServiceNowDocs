@@ -2,6 +2,7 @@
 title: Create playbooks for Manual Phishing in Workflow Studio
 description: Use these steps to create playbooks for Manual Phishing in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-process-manual-phishing.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -74,8 +75,8 @@ Role required: sn\_si.admin or sn\_si.manager
 16. Select **View all properties** and enable the **Advanced properties** toggle to display all the activity experience fields from the activity definition.
 
 
--   **[Add parallel activities](../concept/parallel-activities.md)**  
+-   **[Add parallel activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/parallel-activities.md)**  
 If the **When to Start** field is set to **With Previous**, then parallel activities can be initiated.
 
-**Parent Topic:**[Playbook for Manual Phishing](../concept/playbook-manual-phishing.md)
+**Parent Topic:**[Playbook for Manual Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-manual-phishing.md)
 

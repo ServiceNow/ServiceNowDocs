@@ -2,6 +2,7 @@
 title: Changes due to the Multi-factor Authentication enforcement
 description: Information about the changes that are expected due to the MFA enforcement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/changes-mfa-enforcement.html
 release: australia
 product: Authentication
 classification: authentication
@@ -27,7 +28,7 @@ As an administrator, you can prepare for the MFA enforcement based on the follow
 
 -   Review the MFA Context Policy configuration and adjust the policy conditions according to your business requirements.
 -   Add the exempted group provided by default, if there are any other users who must be exempted.
--   Review the MFA Enforcement Properties and adjust based on your requirements. To learn more, see [MFA enforcement properties](mfa-enforcement-properties.md).
+-   Review the MFA Enforcement Properties and adjust based on your requirements. To learn more, see [MFA enforcement properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-enforcement-properties.md).
 
 ## MFA enforcement scenario after 30 days of the MFA enforcement
 

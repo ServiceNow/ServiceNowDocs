@@ -2,6 +2,7 @@
 title: Procurement
 description: Procurement managers can use the ServiceNow Procurement application to create purchase orders and to obtain items for fulfilling service catalog requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/c\_Procurement.html
 release: australia
 product: Procurement
 classification: procurement
@@ -22,22 +23,22 @@ Procurement offers the ability to perform the following functions.
 -   Create and manage transfer orders
 -   Receive assets
 
--   **[Procurement roles](../reference/r_ProcurementRoles.md)**  
+-   **[Procurement roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/r_ProcurementRoles.md)**  
 The Procurement application uses the following roles.
--   **[Procurement workflows](c_ProcurementWorkflows.md)**  
+-   **[Procurement workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_ProcurementWorkflows.md)**  
 Procurement uses the following workflows. You can edit the existing flows or create a flow in the graphical Workflow Studio to meet your organization's asset procurement process.
--   **[Use the Procurement Overview module](../task/t_UsingTheProcurementOverviewModule.md)**  
+-   **[Use the Procurement Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_UsingTheProcurementOverviewModule.md)**  
 Use the gauges on the Procurement Overview homepage to help you track and manage requests, purchase orders, and other important aspects of the procurement process.
--   **[Activate Procurement](../task/t_ActivateProcurement.md)**  
+-   **[Activate Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_ActivateProcurement.md)**  
 You can activate the Procurement plugin that provides core procurement capabilities.
--   **[Sourcing items in a service catalog request](c_SourcingRequestItems.md)**  
+-   **[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_SourcingRequestItems.md)**  
 A service catalog request can contain multiple items that must be sourced.
--   **[Procurement purchase order management for assets](c_UseProcurement.md)**  
+-   **[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_UseProcurement.md)**  
 Accurate purchase order information is important for invoice tracking, receiving, and reporting in the ServiceNow platform.
--   **[Receive assets](c_ReceiveAssets.md)**  
+-   **[Receive assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_ReceiveAssets.md)**  
 Assets can be received and added to the system when they are delivered to a stockroom.
--   **[Domain separation and Procurement](domain-separation-procurement.md)**  
+-   **[Domain separation and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/domain-separation-procurement.md)**  
 Domain separation is supported in Procurement processing. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Asset Management](../../asset-management/concept/c_AssetManagement.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/asset-management/c_AssetManagement.md)
 

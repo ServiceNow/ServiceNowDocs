@@ -2,6 +2,7 @@
 title: Using Federal plugin
 description: With the Federal plugin, promote interoperability between agencies or shared services and augment the delivered HR Service Delivery and ServiceNow AI Platform tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/using-fed-app.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,8 +20,8 @@ With the Federal plugin, promote interoperability between agencies or shared ser
 
 Role required: admin
 
--   [Activate Federal plugin](set-up-fed.md#).
--   [Import an excel template for Federal plugin](set-up-fed.md#).
+-   [Activate Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-fed.md).
+-   [Import an excel template for Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-fed.md).
 -   Review this [KB](https://support.servicenow.com/kb_knowledge.do?sys_id=3c1bdd45476c82d0f93138ce536d437b&sysparm_view=&sysparm_domain=null&sysparm_domain_scope=null) article.
 
     **Note:** If you cannot access the KB article, search for Federal Data table plugin in [ServiceNow Community](https://www.servicenow.com/community/).
@@ -34,6 +35,6 @@ Role required: admin
 
 ## Procedure
 
-1.  [Configure an HR service](configure-hr-service.md).
+1.  [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
 

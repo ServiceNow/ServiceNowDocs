@@ -2,6 +2,7 @@
 title: Integrate the Idea portal with Feedback application
 description: Integrate the Idea portal with Feedback application to enable collaboration of product ideas with feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/integrate-idea-portal-with-product-feedback.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -33,8 +34,8 @@ One-way synchronization is supported and mapping is done from the idea portal to
 
 4.  Create the table map between feedback and idea table by selecting **Generate Default Mapping Configurations**.
 
-    Mapping configurations consist of table, field, and choice maps for each record. For more information on creating custom mapping configurations between feedback and other tables, see [Create custom mapping configurations](../../apw-internal-integrations/task/generate-custom-mapping-configurations.md).
+    Mapping configurations consist of table, field, and choice maps for each record. For more information on creating custom mapping configurations between feedback and other tables, see [Create custom mapping configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/generate-custom-mapping-configurations.md).
 
 
-**Parent Topic:**[Configuring Feedback application in Strategic Planning](../concept/configuring-product-feedback-in-sp.md)
+**Parent Topic:**[Configuring Feedback application in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/configuring-product-feedback-in-sp.md)
 

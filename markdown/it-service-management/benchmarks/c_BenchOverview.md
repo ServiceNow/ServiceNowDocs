@@ -2,6 +2,7 @@
 title: Benchmarks overview
 description: The ServiceNow Benchmarks application securely collects daily data on your instance and then aggregates the data into monthly global benchmark reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c\_BenchOverview.html
 release: australia
 product: Benchmarks
 classification: benchmarks
@@ -16,8 +17,6 @@ breadcrumb: [Benchmarks, IT Service Management]
 The ServiceNow Benchmarks application securely collects daily data on your instance and then aggregates the data into monthly global benchmark reports.
 
 This video provides an overview of how you can get started with Benchmarks.
-
-Getting started with Benchmarks
 
 Performance Analytics collects daily data on customer instances. The data from the previous month is uploaded at the beginning of the following month via a scheduled job. If there are any errors, there are multiple retries.
 
@@ -50,7 +49,7 @@ Changing KPI configuration within the month requires one to two months of data c
 
 ## Key features
 
--   Available KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations. For more information, see [Benchmark KPIs](c_BenchKPIConfig.md).
+-   Available KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations. For more information, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
 -   Ability to change KPI definitions to match customizations.
 -   Benchmarks dashboard in Service Portal \(mobile friendly\).
 -   Ability to download KPI reports.
@@ -63,7 +62,7 @@ Changing KPI configuration within the month requires one to two months of data c
 -   Product category-based roles to limit data access.
 -   Integration with Performance Analytics for daily data collection and drill-down on KPI data.
 
-![Benchmarks dashboard](../image/BenchITSMTileView.png "Benchmarks dashboard")
+\[Omitted image "BenchITSMTileView.png"\] Alt text: Benchmarks dashboard
 
 <table id="table_llt_zby_c1b"><thead><tr><th>
 
@@ -154,9 +153,9 @@ These on-demand scheduled jobs are useful if, for any reason, there was a failur
 
 ## Benchmarks KPI categories
 
-Benchmarks supports KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations, Conversational Interfaces, Success Dashboard, and Strategic Portfolio Management. For more information, see [Benchmark KPIs](c_BenchKPIConfig.md).
+Benchmarks supports KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations, Conversational Interfaces, Success Dashboard, and Strategic Portfolio Management. For more information, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
 
 **Note:** The categories do not display on the Benchmarks dashboard unless, any KPI is opted in for tracking the metrics in Benchmarks.
 
-**Parent Topic:**[Benchmarks](../reference/r_Benchmarks.md)
+**Parent Topic:**[Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/r_Benchmarks.md)
 

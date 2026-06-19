@@ -2,6 +2,7 @@
 title: DevOps Config powered by CDM and PaCE
 description: DevOps Config uses Configuration Data Management and Policy as Code Engine platform capabilities to manage configuration data and policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-capabilities.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,11 +16,11 @@ breadcrumb: [Exploring DevOps Config, DevOps Config, IT Service Management]
 
 DevOps Config uses Configuration Data Management and Policy as Code Engine platform capabilities to manage configuration data and policies.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 ## DevOps Config platform capabilities
 
-![DevOps Config capabilities](../image/devops-config-capabilities.png)
+\[Omitted image "devops-config-capabilities.png"\] Alt text: DevOps Config capabilities
 
 -   **Configuration Data Management \(CDM\)**
 
@@ -62,7 +63,7 @@ DevOps Config uses Configuration Data Management and Policy as Code Engine platf
 
 ## DevOps Config dependencies
 
-![DevOps Config dependencies](../image/devops-config-dependencies.png)
+\[Omitted image "devops-config-dependencies.png"\] Alt text: DevOps Config dependencies
 
 These plugins are installed with core DevOps Config applications. They are critical to DevOps Config and do not function properly without them.
 
@@ -87,5 +88,5 @@ These plugins are installed with core DevOps Config applications. They are criti
     These extensions include class descriptions, identification rules, identifier entries, and dependent relationships.
 
 
-**Parent Topic:**[Exploring DevOps Config](devops-config-getting-started.md)
+**Parent Topic:**[Exploring DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-getting-started.md)
 

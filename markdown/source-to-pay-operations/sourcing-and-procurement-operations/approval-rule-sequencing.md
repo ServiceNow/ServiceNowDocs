@@ -2,6 +2,7 @@
 title: Approval rule grouping and sequencing
 description: As a Procurement Administrator, you can associate approval rules with approval groups and define the sequence to determine when these rules should be triggered. With this association, a set of approval rules within a rule group is triggered in sequence, instead of all of them being evaluated simultaneously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/approval-rule-sequencing.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,7 +28,7 @@ Consider the following scenarios:
 -   Business owner’s job code is IC3, cost center is Engineering
 -   Business owner’s managerial job code hierarchy is IC3 =&gt; M3 =&gt; M4 =&gt; CFO
 
-![Approval rules A and B](../image/approval_rule_grouping_1.png "Approval rules A and B")
+\[Omitted image "approval\_rule\_grouping\_1.png"\] Alt text: Approval rules A and B
 
 -   Without rule group and group sequencing, approval rules A and B are triggered simultaneously.
 -   With rule group and group sequencing, approval rule A is triggered first, followed by approval rule B when A is complete.
@@ -38,7 +39,7 @@ Consider the following scenarios:
 -   Business owner’s job code is IC3, cost center is Engineering
 -   Business owner’s managerial job code hierarchy is IC3 =&gt; M3 =&gt; M4 =&gt; CFO
 
-![Approval rules A, B, and C](../image/approval_rule_grouping_2.png "Approval rules A, B, and C")
+\[Omitted image "approval\_rule\_grouping\_2.png"\] Alt text: Approval rules A, B, and C
 
 -   Without rule group and group sequencing, approval rules A, B, and C are triggered simultaneously.
 -   With rule group and group sequencing, approval rules A and C are triggered first, followed by approval rule B when A is complete.
@@ -48,7 +49,7 @@ Consider the following scenarios:
 -   One purchase made for $120k
 -   Another purchase made for $95k
 
-![Approval rules A, B, C, and D](../image/approval_rule_grouping_3.png "Approval rules A, B, C, and D")
+\[Omitted image "approval\_rule\_grouping\_3.png"\] Alt text: Approval rules A, B, C, and D
 
 -   Without rule group and group sequencing, approval rules A, B, C, and D are triggered simultaneously.
 -   With rule group and group sequencing, approval rules A and D are triggered first, followed by approval rules B and C when A is complete.
@@ -68,5 +69,5 @@ For example, in scenario 2:
 -   If the property is set to Yes, and rules A, B, and C are satisfied as a result of a revision, then all approvals are resent.
 -   If the property is set to Yes, and rules A, C, and a new rule D are satisfied as a result of a revision, then approvals A and C are resent, and a new approval D is sent.
 
-**Parent Topic:**[Create an approval rule](../task/create-approval-rule.md)
+**Parent Topic:**[Create an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-approval-rule.md)
 

@@ -2,6 +2,7 @@
 title: Set up Document Services framework for Google Drive
 description: Integrate a ServiceNow instance and Google Drive spoke for Google Drive by using Google Drive credentials to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/setup-gdrive-spoke-document-services.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -25,20 +26,20 @@ Role required: admin
 
 1.  Set up and connect Google Drive Spoke.
 
-    For more information, see [Set up Google Drive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gdrive.md).
+    For more information, see .
 
 2.  Set up and connect Google Directory Spoke.
 
-    For more information, see [Google Directory Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gdirectory-spoke.md).
+    For more information, see .
 
 3.  Set up and connect Google Doc Spoke.
 
-    For more information, see [Google Docs Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gdocs-spoke.md).
+    For more information, see .
 
 4.  Activate Document Services for Google Drive Spoke.
 
-    For more information, see [Document Services Framework for Google Drive](../concept/google-drive-spoke-document-services.md).
+    For more information, see [Document Services Framework for Google Drive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/google-drive-spoke-document-services.md).
 
 
-**Parent Topic:**[Google Drive integration with Document Services](../concept/google-drive-integration.md)
+**Parent Topic:**[Google Drive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/google-drive-integration.md)
 

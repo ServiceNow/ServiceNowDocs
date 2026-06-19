@@ -2,6 +2,7 @@
 title: Create a custom Notify subflow
 description: Create your own custom flows to use in Notify using Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/modify-notify-flow.html
 release: australia
 product: Notify
 classification: notify
@@ -53,5 +54,5 @@ Role required: admin
 
 In order to use your workflow, you can test and map the subflow to a Notify number group. To map the subflow, you must navigate to **All** &gt; **Notify** &gt; **Number Groups**. Select a Notify group, and then map the created subflow.
 
-**Parent Topic:**[Notify flows](../concept/notify-flow-designer.md)
+**Parent Topic:**[Notify flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-flow-designer.md)
 

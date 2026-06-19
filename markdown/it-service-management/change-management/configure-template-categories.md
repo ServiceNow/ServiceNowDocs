@@ -2,6 +2,7 @@
 title: Configure template categories
 description: Create template categories and child categories to classify templates based on a change model, template usage, and organizational areas like software or security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-template-categories.html
 release: australia
 product: Change Management
 classification: change-management
@@ -17,7 +18,7 @@ Create template categories and child categories to classify templates based on a
 
 ## Before you begin
 
-The change template for which you want to create categories should already exist. For more information, see [Create and propose a change template](create-change-template.md).
+The change template for which you want to create categories should already exist. For more information, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md).
 
 Role required: change\_manager
 
@@ -54,5 +55,5 @@ You must have a role configured with access to approve the templates for the cha
 
 Categories and, if configured, child categories are created, and are available in the **Templates** menu on the Create a change request form. The child categories are displayed in the defined order, and the selected templates are available under each category.
 
-**Parent Topic:**[Create and propose a change template](create-change-template.md)
+**Parent Topic:**[Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-template.md)
 

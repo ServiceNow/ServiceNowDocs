@@ -2,6 +2,7 @@
 title: Create a proxy agent cluster
 description: Create a cluster of agents on multiple proxy servers to monitor services external to the host server. Creating a cluster of agents enables you to assign that cluster to multiple policies instead of having to assign the agents individually to every policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-agent-proxy-cluster.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -39,9 +40,9 @@ The default CPU threshold value when working with proxy agent clusters is 80%. Y
 
     1.  In the **Agents in cluster** section, locate the **Agent** column and select **Insert a new row**.
 
-    2.  Select the search icon \(![search icon](../../event-management/image/search-icon.png)\) and select an agent to add to the cluster.
+    2.  Select the search icon \(\[Omitted image "search-icon.png"\] Alt text: search icon\) and select an agent to add to the cluster.
 
-    3.  Select the check icon \(![check icon](../image/check-icon.png)\) to add the agent to the cluster.
+    3.  Select the check icon \(\[Omitted image "check-icon.png"\] Alt text: check icon\) to add the agent to the cluster.
 
     Repeat this step for each agent that you want to add to the cluster.
 
@@ -54,7 +55,7 @@ The **Proxy Agent Clusters** page appears and displays the agent added to the cl
 
 ## What to do next
 
-Select this proxy cluster to monitor CIs specified in an agent policy. For details, see [Configure an agent on a proxy server](configure-agent-proxy-server.md).
+Select this proxy cluster to monitor CIs specified in an agent policy. For details, see [Configure an agent on a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configure-agent-proxy-server.md).
 
-**Parent Topic:**[Using proxy agents in Agent Client Collector](../concept/proxy-agent.md)
+**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/proxy-agent.md)
 

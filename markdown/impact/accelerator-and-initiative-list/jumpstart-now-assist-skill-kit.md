@@ -2,6 +2,7 @@
 title: Jumpstart Your Now Assist Skill Kit
 description: This Accelerator provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-now-assist-skill-kit.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator overview
 
 Jumpstart Your Now Assist Skill Kit provides Impact customers with an overview of the capabilities and features of Now Assist Skill Kit. Through an applied  demonstration, we highlight the  creation of a simple, custom use case, such as Sentiment Analysis, illustrating how Skill Kit enables customers to harness the full potential of Now LLM and the platform combined for their unique needs. Additionally, this Accelerator provides customers with key resources and leading practices guides for getting started.​
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -60,6 +63,8 @@ Refer to the applicable Impact Accelerator description available at [https://www
 ## Exclusions
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
+
+## Exclusions
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

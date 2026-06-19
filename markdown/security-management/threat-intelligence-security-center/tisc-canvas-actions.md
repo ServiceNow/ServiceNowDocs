@@ -2,6 +2,7 @@
 title: Working with Actions on the Investigation Canvas
 description: This section describes the various actions that you can perform on the investigation canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-canvas-actions.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -23,7 +24,7 @@ Investigation canvas includes:
 4.  Edge actions
 5.  Toolbar actions
 
-![TISC Investigation canvas view.](../image/tisc-investigation-canvas-view.png "Investigation Canvas")
+\[Omitted image "tisc-investigation-canvas-view.png"\] Alt text: TISC Investigation canvas view.
 
 |Action|Operation|
 |------|---------|
@@ -248,9 +249,9 @@ This option provides you a visual representation of the nodes and entities curre
 The following illustrates the legends for node, link, and entity representations:
 
 </td></tr></tbody>
-</table>![node and link representation](../image/tisc-nodes-legend.png "Node and Link representation")
+</table>\[Omitted image "tisc-nodes-legend.png"\] Alt text: node and link representation
 
-![Entities representation](../image/tisc-entities-legend.png "Entities representation")
+\[Omitted image "tisc-entities-legend.png"\] Alt text: Entities representation
 
 ## Grouping or Ungrouping records from Investigation Canvas
 
@@ -321,5 +322,5 @@ Other Actions
 Actions such as removing a node or modifying edges follow all grouping rules and behaviors.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Working with Investigation Canvas](tisc-investigation-canvases.md)
+</table>**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

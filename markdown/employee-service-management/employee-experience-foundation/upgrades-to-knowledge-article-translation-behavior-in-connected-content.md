@@ -2,6 +2,7 @@
 title: Translated Knowledge Base article attachment behaviour
 description: Use the upgraded translated Knowledge Base article attachment feature to find a Knowledge Base article in your own language on topic pages. As an admin, easily link all translated articles. As an employee, quickly find different translated versions, enhancing the navigation experience in different topic pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/upgrades-to-knowledge-article-translation-behavior-in-connected-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,6 +2,7 @@
 title: OAuthUtil - Global
 description: The OAuthUtil script include modifies request parameters and parses the token response during runtime.Returns a GlideRecord representing the current OAuth profileAdds a name:value pair to the request parameters.Parses the token received into a parameter map.Set the endpoiont for your OAuth requestAdd a header to an outbound token request.Add a query parameter to an OAuth request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_OAuthUtilScriptInclude.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -25,7 +26,7 @@ preprocessAccessToken: function(requestParamMap) {
 },
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## OAuthUtil - getOAuthProfile\(\)
 

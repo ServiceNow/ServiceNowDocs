@@ -2,6 +2,7 @@
 title: Page collections
 description: Page Collections are groups of pages that can be used across multiple experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/page-collections.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -21,7 +22,7 @@ Page Collections \(sys\_ux\_extension\_point\) are groups of pages that are mean
 
 Page collections are sandboxed inside of the pages they are within, this means that they do not have direct access to change the parent page. However, because of the way seismic works, your page collection page can dispatch an event that the calling page can listen for to take action. This is the only way to achieve a change in the calling page.
 
-!['List page modals' page collection with several variants displayed.](../image/page-collection-example.png)
+\[Omitted image "page-collection-example.png"\] Alt text: 'List page modals' page collection with several variants displayed.
 
 ## Why should you use page collections
 
@@ -57,10 +58,10 @@ Add a link to creating a page collection.
 
 You create a page collection within the ServiceNow platform. At this time, only the Tab and Viewport component can be used when creating a page collection. You can select a controller or pass controller dependencies using JSON.
 
-![New record for page collection on the platform.](../image/page-collection-platform-form.png)
+\[Omitted image "page-collection-platform-form.png"\] Alt text: New record for page collection on the platform.
 
--   **[Create a page collection across multiple UI pages](../task/create-page-collection.md)**  
+-   **[Create a page collection across multiple UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page-collection.md)**  
 Create a page collection to accommodate tabbed content that can be used across experiences.
 
-**Parent Topic:**[Customize UI Builder pages using components](work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
 

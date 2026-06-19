@@ -2,6 +2,7 @@
 title: Configure the Our culture widget
 description: Journey designer administrators can configure the Our culture widget to enhance the employee's onboarding experience using rich content. Rich content includes videos, images, or other forms of engaging media to provide the onboarding employee an immersive experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-configure-our-culture.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -41,12 +42,12 @@ Role required: admin \[sn\_jny.admin\]
 
 6.  Fill in the fields in the Our culture content form.
 
-    For more information about the fields associated with this form, see [Create rich content](../../employee-center/task/ec-content-library-portal-rich-content.md).
+    For more information about the fields associated with this form, see [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md).
 
 7.  Select **Open editor**.
 
     The information you entered in the form is saved.
 
 
-**Parent Topic:**[Enable and configure the Pre-hire Experience](../concept/jny-pre-hire-enable-configure.md)
+**Parent Topic:**[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)
 

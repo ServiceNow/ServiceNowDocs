@@ -2,6 +2,7 @@
 title: Install Configuration Compliance
 description: Before you run Configuration Compliance in your ServiceNow AI Platform instance, you must first download and install the Configuration Compliance application from the ServiceNow Store. This application is available as a separate subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/install-and-configure-cc.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -17,7 +18,7 @@ Before you run Configuration Compliance in your ServiceNow AI Platform® instanc
 
 ## Before you begin
 
-Complete the setup checklist described in [Setting up, installing, and configuring the Configuration Compliance application](../concept/cc-configuring.md) prior to installation. These setup tasks are required for a smooth installation and configuration.
+Complete the setup checklist described in [Setting up, installing, and configuring the Configuration Compliance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/cc-configuring.md) prior to installation. These setup tasks are required for a smooth installation and configuration.
 
 Role required: admin
 
@@ -35,7 +36,7 @@ Role required: admin
 
     In the ServiceNow Store, you must verify that you have entitlements \(or licenses\) to the application and its dependent applications. After you have logged in, you can use the menu in the upper right with your initials to manage entitlements and opt-in.
 
-    If you want to use a version of this application that is compatible with Unified Security Exposure Management \(USEM\), see [Migrating from Vulnerability Response to Unified Security Exposure Management \(USEM\)](../../vulnerability-response/concept/migrating-to-usem.md) for more information about USEM and the Unified Security Exposure Management migration.
+    If you want to use a version of this application that is compatible with Unified Security Exposure Management \(USEM\), see [Migrating from Vulnerability Response to Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/migrating-to-usem.md) for more information about USEM and the Unified Security Exposure Management migration.
 
     If you do not intend to upgrade to Unified Security Exposure Management, install a version that is lower than v30.x of this application and for upgrades to its supported third-party integration applications.
 

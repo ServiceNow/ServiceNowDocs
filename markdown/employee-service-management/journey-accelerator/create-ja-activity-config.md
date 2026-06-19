@@ -2,6 +2,7 @@
 title: Create an Employee Center activity configuration
 description: Create or modify an activity configuration to define how the Employee Center handles application links in My active items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/create-ja-activity-config.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -17,9 +18,9 @@ Create or modify an activity configuration to define how the Employee Center han
 
 ## Before you begin
 
-Use the application picker to set the appropriate scope. Employee Center. See, [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md)
+Use the application picker to set the appropriate scope. Employee Center. See, Application picker
 
-The name of the activity to configure. Use the name of the activity created in the [Add a Journey Accelerator action plan link to My Active Items list](add-ja-action-plan-myitems-list.md) task example `Action plan items`.
+The name of the activity to configure. Use the name of the activity created in the [Add a Journey Accelerator action plan link to My Active Items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md) task example `Action plan items`.
 
 Role required: admin
 
@@ -27,8 +28,8 @@ Role required: admin
 
 Activity configurations enable administrators to control the actions of links associated with applications and features. For more information about activity configuration:
 
--   [Activity Configuration form](../../employee-center/reference/ec-activity-configuration-form.md)
--   [Activity Configuration Detail form](../../employee-center/reference/activity-configuration-detail-form.md)
+-   [Activity Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-activity-configuration-form.md)
+-   [Activity Configuration Detail form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activity-configuration-detail-form.md)
 
 The scope of an activity configuration is associated with an application. Availability of fields in an activity form depends on the selected application. This task starts in the Employee Center application and creates conditional filters applied to the Journey Accelerator application.
 

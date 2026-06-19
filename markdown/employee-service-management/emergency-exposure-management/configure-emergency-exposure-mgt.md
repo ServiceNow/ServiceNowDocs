@@ -2,6 +2,7 @@
 title: Configure Microsoft Office 365 for Emergency Exposure Management
 description: Configure Emergency Exposure Management by setting the application system properties. If you want to search by Microsoft Office 365 meeting information, you also must register the Microsoft application and configure it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/configure-emergency-exposure-mgt.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -19,7 +20,7 @@ Configure Emergency Exposure Management by setting the application system proper
 
 **Important:**
 
-If you are an on-premise customer with Microsoft Office 365 and you need assistance in configuring Emergency Exposure Management, contact your sales representative or contact Customer Service and Support at [https://support.servicenow.com/now?draw=case](https://support.servicenow.com/now?draw=case).
+If you are an on-premise customer with Microsoft Office 365 and you need assistance in configuring Emergency Exposure Management, contact your sales representative or contact Customer Service and Support at .
 
 Role required: admin
 
@@ -74,7 +75,7 @@ Role required: admin
 
     2.  In the left navigation pane, select **Certificates and Secrets**.
 
-    3.  Select **Upload certificate** and upload the certificate created in step [3](configure-emergency-exposure-mgt.md#generate-cert).
+    3.  Select **Upload certificate** and upload the certificate created in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/configure-emergency-exposure-mgt.md).
 
 5.  Create a Java Key Store certificate in your ServiceNow instance.
 
@@ -82,11 +83,11 @@ Role required: admin
 
     2.  Click **New** and create a new certificate with a **Type** value of **Java Key Store**.
 
-    3.  Set the **Short Description** text to the alias used in [3](configure-emergency-exposure-mgt.md#generate-cert).
+    3.  Set the **Short Description** text to the alias used in [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/configure-emergency-exposure-mgt.md).
 
-    4.  Set the **Keystore Password** to the password used in step [3](configure-emergency-exposure-mgt.md#generate-cert).
+    4.  Set the **Keystore Password** to the password used in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/configure-emergency-exposure-mgt.md).
 
-    5.  Attach the `keystore.jks` certificate exported in step [3](configure-emergency-exposure-mgt.md#generate-cert).
+    5.  Attach the `keystore.jks` certificate exported in step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/configure-emergency-exposure-mgt.md).
 
 6.  In your ServiceNow instance, set system properties for Emergency Exposure Management.
 
@@ -98,8 +99,8 @@ Role required: admin
 
         -   Client ID
         -   Tenant ID
-        -   Certificate – The sys\_id of the certificate created in Step [5](configure-emergency-exposure-mgt.md#keystore-cert).
-        -   Private key – Use the password used to generate the keystore in Step [3](configure-emergency-exposure-mgt.md#generate-cert).
+        -   Certificate – The sys\_id of the certificate created in Step [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/configure-emergency-exposure-mgt.md).
+        -   Private key – Use the password used to generate the keystore in Step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/configure-emergency-exposure-mgt.md).
         -   \(Optional\) Location – Location accessible from tables, such as a floor or building.
     4.  Verify that the Microsoft URL for token generation is correct for your organization.
 

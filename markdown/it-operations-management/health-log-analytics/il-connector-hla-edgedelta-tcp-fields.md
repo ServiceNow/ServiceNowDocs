@@ -2,6 +2,7 @@
 title: Edge Delta TCP integration configuration fields
 description: Description of the fields on the Edge Delta TCP integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-edgedelta-tcp-fields.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -16,7 +17,7 @@ breadcrumb: [Integration configuration fields, Health Log Analytics reference, H
 
 Description of the fields on the Edge Delta TCP integration configuration forms for Health Log Analytics.
 
-For the Edge Delta TCP integration setup procedure, see [Set up an Edge Delta TCP integration for Health Log Analytics](../task/il-connector-hla-edgedelta-tcp.md).
+For the Edge Delta TCP integration setup procedure, see [Set up an Edge Delta TCP integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-edgedelta-tcp.md).
 
 <table id="table_avj_dqh_chc"><thead><tr><th>
 
@@ -176,5 +177,5 @@ Drop if queue is full
 Option to discard logs if there is a load on the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration fields](../concept/hla-connector-config-fields.md)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

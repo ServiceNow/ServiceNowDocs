@@ -1,24 +1,25 @@
 ---
 title: Install Agent Client Collector on a Linux system
-description: Install Agent Client Collector using a package distribution tool. Prior to installing, you can manually install the Agent Client Collector on a few machines to ensure that your agents contain the correct policies and checks before installing a large number of agents.
+description: Install Agent Client Collector using a package distribution tool. Before installing, you can manually install the Agent Client Collector on a few machines to ensure that your agents contain the correct policies and checks before installing a large number of agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/install-acc-linux.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Install Agent Client Collector on a Linux system
 
-Install Agent Client Collector using a package distribution tool. Prior to installing, you can manually install the Agent Client Collector on a few machines to ensure that your agents contain the correct policies and checks before installing a large number of agents.
+Install Agent Client Collector using a package distribution tool. Before installing, you can manually install the Agent Client Collector on a few machines to ensure that your agents contain the correct policies and checks before installing a large number of agents.
 
 ## Before you begin
 
 -   Ensure that the Agent Client Collector Listener is configured on your MID Servers, and the service is available from your target hosts.
--   Verify that your server's OS and version is supported. For a list of supported OS's and versions, see [Agent Client Collector installation](../concept/acc-installation.md).
+-   Verify that your server's OS and version is supported. For a list of supported OS's and versions, see [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-installation.md).
 -   Verify whether there are restrictions or requirements to be aware of during deployment, such as specifying an account other than the default servicenow account. For more information about embedding the agent into your own automated system, see [ITOM Agent Client Collector documentation material \[KB1122613\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613).
 -   Ensure that the MID Server and its MID Web Server and ACC Websocket Endpoint extensions are up and running.
 -   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker takes no action during new Linux installations, as there is nothing which requires cleaning.
@@ -163,13 +164,13 @@ SLES
     |SLES|`zypper install`|
     |Debian-based|`apt-get install`|
 
-    Alternatively, if these commands are not configured correctly, you can use the core commands that are configured to run with the package manager commands.
+    Alternatively, if these commands aren't configured correctly, you can use the core commands that are configured to run with the package manager commands.
 
     -   RPM-based system: `# rpm -vi agent-client-collector-<version number>-x86_64.rpm`
     -   Debian-based system: `# dpkg -i agent-client-collector-<version number>-<distro>_amd64.deb`
     Verify that the package commands are configured correctly with your system administrator.
 
-    **Note:** Some file systems may have restrictions enabled; for example, `/var/` may be mounted with a **noexec** flag. Because the agent must execute Agent Client Collector plugins that are normally store in the `/var/cache` directory, you must deploy the application into specific folders by customizing the installation paths using the **--relocate** option as an `.rpm` parameter.
+    **Note:** Some file systems may have restrictions enabled; for example, `/var/` may be mounted with a **noexec** flag. Because the agent must execute Agent Client Collector plugins that are normally stored in the `/var/cache` directory, you must deploy the application into specific folders by customizing the installation paths using the **--relocate** option as an `.rpm` parameter.
 
     For example: `rpm -i --relocate /var/cache=/opt/cache agent-client-collector-<version_number>-x86_64.rpm`
 
@@ -178,11 +179,13 @@ SLES
     |Path|Notes|
     |----|-----|
     |`/etc`|When updating, you must also update the **allow-list** parameter in the `acc.yml` file with the new path.|
-    |`/usr/share`|N/A|
-    |`/var/cache`|Updating the `/var` directory retains all `/var` subdirectories, nested under the new directory.|
+    |`<usr share location>/usr/share`|N/A|
+    |`<cache dir location>/var/cache`|Updating the `/var` directory retains all `/var` subdirectories, nested under the new directory.|
     |`/var/log`|
     |`/var/run`|
     |`/var`|
+
+    After relocating an installation path, update the relevant `ACC_UPGRADE_CMD` string described in step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/install-acc-linux.md).
 
     Review the paths in `/usr/lib/systemd/system/acc.service` to ensure that they appear as expected.
 
@@ -245,6 +248,9 @@ SLES
         ACC_USERS ALL = (root) NOPASSWD:ACC_CMD
         ACC_USERS ALL = (root) NOPASSWD:SETENV:ACC_CMD_SETENV
         Defaults:ACC_USERS !requiretty
+        
+        Cmnd_Alias ACC_UPGRADE_CMD = /usr/bin/systemd-run --unit=acc-upgrade --collect /usr/share/servicenow/agent-client-collector/embedded/bin/ruby /var/cache/servicenow/agent-client-collector/acc-f-commons/bin/linux_run_upgrade.rb /usr/bin/dpkg\ --install\ --refuse-downgrade\ --skip-same-version /var/cache/servicenow/agent-client-collector/upgrade/agent-client-collector-upgrade.deb /usr/bin/systemctl\ start\ acc /usr/bin/systemctl\ stop\ acc /usr/bin/systemctl\ daemon-reload /var/log/servicenow/agent-client-collector/upgrade.log *
+        ACC_USERS ALL = (root) NOPASSWD:ACC_UPGRADE_CMD
         ```
 
     -   When installing agents on an RPM system, run the following:
@@ -257,6 +263,9 @@ SLES
         ACC_USERS ALL = (root) NOPASSWD:ACC_CMD
         ACC_USERS ALL = (root) NOPASSWD:SETENV:ACC_CMD_SETENV
         Defaults:ACC_USERS !requiretty
+        
+        Cmnd_Alias ACC_UPGRADE_CMD = /usr/bin/systemd-run --unit=acc-upgrade --collect /usr/share/servicenow/agent-client-collector/embedded/bin/ruby /var/cache/servicenow/agent-client-collector/acc-f-commons/bin/linux_run_upgrade.rb /usr/bin/rpm\ -Uv /var/cache/servicenow/agent-client-collector/upgrade/agent-client-collector-upgrade.rpm /usr/bin/systemctl\ start\ acc /usr/bin/systemctl\ stop\ acc /usr/bin/systemctl\ daemon-reload /var/log/servicenow/agent-client-collector/upgrade.log *
+        ACC_USERS ALL = (root) NOPASSWD:ACC_UPGRADE_CMD
         ```
 
 8.  Configure the agent to run as a service.
@@ -308,5 +317,5 @@ SLES
         `# systemctl start acc`
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

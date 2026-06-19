@@ -2,6 +2,7 @@
 title: OnCallRotation - Global
 description: The OnCallRotation script include provides methods to manage on-call schedules.Creates an instance of the OnCallRotation class.Add the current escalation member to the list of notified users so that the API knows who has been contacted. This API is applicable for a single shift, overlapping shifts, and custom escalation.Cancels any escalations for the GlideRecord that were started with the startEscalations API. This API is applicable for a single shift, overlapping shifts, and custom escalation.Continue the escalations for a document\(incident now\_GR\) and group. This API is applicable for a single shift, overlapping shifts, and custom escalation.Gets the sys\_id of the catch all person. Use together with the getCatchAllType\(\) method to determine the source of the returned id. This API is applicable for a single shift, overlapping shifts, and custom escalation.Gets the type of \_catch all\_ that lives at the end of the escalation chain. When the escalation chain finishes without assigning an on-call person, if configured, the incident is assigned to the \_catch all\_. This API is applicable for a single shift, overlapping shifts, and custom escalation.Gets an item to escalate to, either a user \[sys\_user\], group, or notification device \[cmn\_notif\_device\], for a group's shift at the specified date and time and at a certain position in the escalation lineup. This API is applicable for a single shift.Gets a list of escalatees that are on-call for a given time. If no time is specified, then the current time is used. If no groupSysIds are provided, empty list is returned. This API is applicable for a single shift, overlapping shifts, and custom escalation.Gets a list of objects to escalate to, escalation plans that consist of either a user \[sys\_user\] or notification device \[cmn\_notif\_device\], for a group's shift at the specified date and time. This API is applicable for a single shift, overlapping shifts, and custom escalation.Gets the type of escalation based on a simple calculation. If there is one active roster in the rota, rotate through members. If there is more than one active roster in the rota, rotate through rosters. This API is applicable for a single shift, overlapping shifts, and custom escalation.Gets the escalatees \(either a user, group, or device records depending on the notification rules\) at a specific time and position. This API is applicable for a single shift, overlapping shifts and custom escalation.Gets the sys\_id of the current primary contact when there is a single shift.Gets the sys\_id of the current primary user of the specified shift. This API is applicable for a single shift and overlapping shifts.Gets the name of the current primary contact. This API is applicable for a single shift.Gets the name of the current primary user of the specified shift. This API is applicable for a single shift and overlapping shifts.Gets the list of primary contacts for a shift. This API is applicable for a single shift, overlapping shifts, and custom escalation.Checks if the parent span and child spans overlap.Start the escalations for a document\(incident now\_GR\) and group, and specify the event name for the escalation notifications. In addition, specify the name of the business rule to call when an escalation occurs. This method should be used after a succesful call to who or whoAt methods. This API is applicable for a single shift, overlapping shifts, and custom escalation.Specifies if there is an on-call user, group, or device. This method is applicable for a single shift, overlapping shifts, and custom escalation.Specifies if there is an on-call user, group, or device. This API is applicable for a single shift, overlapping shifts, and custom escalation.Gets the list of users that are on-call at a given time. If no time is specified, then current time is used. This API is applicable for a single shift and overlapping shifts.Escalation business rules determine who in the shift should be contacted next. The escalation record passed to the method tracks the escalation between invocations of the business rule. This API is applicable for a single shift, overlapping shifts, and custom escalation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_OnCallRotationAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OnCallRotation script include provides methods to manage on-call schedules.
 
-For information, see [On-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md).
+For information, see On-call scheduling.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## OnCallRotation - OnCallRotation\(\)
 
@@ -1133,7 +1134,7 @@ gdt
 
 </td><td>
 
-[GlideDateTime](../../GlideDateTime/concept/c_GlideDateTimeAPI.md#)
+[GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md)
 
 </td><td>
 
@@ -1189,7 +1190,7 @@ taskGR
 
 </td><td>
 
-[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#)
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)
 
 </td><td>
 

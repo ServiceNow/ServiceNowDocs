@@ -2,6 +2,7 @@
 title: Create a BMC Remedy object in your ServiceNow instance
 description: Manage other objects in BMC Remedy from your ServiceNow instance by creating the required object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-obj-bmc.html
 release: australia
 product: Integration Hub
 classification: integration-hub

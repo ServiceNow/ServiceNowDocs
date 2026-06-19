@@ -2,6 +2,7 @@
 title: Employee passport
 description: Enable employee's data export, which can be used by any other agency or department for tracking, compliance, and regulatory purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/employee-passport.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,5 +26,5 @@ As an HR agent, you can extract the employment history of an employee by perform
 
 2.  Use the **Generate Attachments** option in the document template to generate the employment history in a PDF, and attach it to the case.
 
-**Parent Topic:**[HR Administration](c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

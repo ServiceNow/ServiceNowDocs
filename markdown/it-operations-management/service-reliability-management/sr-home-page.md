@@ -2,6 +2,7 @@
 title: SRM Home page
 description: The Service Reliability Management \(SRM\) Home page provides relevant information about your work, services, schedules, maintenance reminders, and teams. View the Home page by navigating to Service Reliability Management .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-home-page.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,9 +18,9 @@ The Service Reliability Management \(SRM\) Home page provides relevant informati
 
 ## Service Reliability Management Home page sections
 
-In the workspace, select **Home** \(![Home icon](../image/icon-sr-homepage.png)\) to view the Home page.
+In the workspace, select **Home** \(\[Omitted image "icon-sr-homepage.png"\] Alt text: Home icon\) to view the Home page.
 
-![Service Reliability Management Home](../image/sr-homepage.png)
+\[Omitted image "sr-homepage.png"\] Alt text: Service Reliability Management Home
 
 When you're on-call, your schedule is listed.
 
@@ -29,7 +30,7 @@ Get started
 
 </td><td>
 
-Contains setup tasks and their progress for teams and services. For more information on completing setup, see [Add a service to SRM](../task/sr-add-service.md) and [Edit service details in SRM](../task/sr-edit-service.md).**Note:** You can skip any section and come back to it later. Progress is marked in percentages by the actions that you take. As long as a step remains incomplete, the tiles are available. You can minimize them, at any point, by selecting the Up icon ![Up icon](../image/icon-sr-caret.png).
+Contains setup tasks and their progress for teams and services. For more information on completing setup, see [Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-service.md) and [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-edit-service.md).**Note:** You can skip any section and come back to it later. Progress is marked in percentages by the actions that you take. As long as a step remains incomplete, the tiles are available. You can minimize them, at any point, by selecting the Up icon \[Omitted image "icon-sr-caret.png"\] Alt text: Up icon.
 
 Use **Dismiss** to remove it from your page.
 
@@ -72,5 +73,5 @@ Your teams' work
 Contains incidents and alerts assigned to your team. Select a card to see the list view for that area.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Get started with Service Reliability Management](../concept/sr-get-started.md)
+</table>**Parent Topic:**[Get started with Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-get-started.md)
 

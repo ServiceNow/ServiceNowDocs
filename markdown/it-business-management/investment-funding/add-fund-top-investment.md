@@ -2,6 +2,7 @@
 title: Fund a top-level investment
 description: Allocate funds to a top-level investment so that the investment owner can distribute funds further.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/add-fund-top-investment.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -69,5 +70,5 @@ Amount funded as an operating expense.
 
 The top-level investment is funded with the specified amount for the selected period.
 
-**Parent Topic:**[Create a top-level investment](create-top-level-investment.md)
+**Parent Topic:**[Create a top-level investment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/create-top-level-investment.md)
 

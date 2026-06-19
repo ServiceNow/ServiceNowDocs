@@ -2,6 +2,7 @@
 title: Form field information for Feedback application
 description: Field information for forms used in the Feedback application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/form-field-information-for-product-feedback.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -15,10 +16,10 @@ breadcrumb: [Feedback reference, Feedback application in Strategic Planning, Str
 
 Field information for forms used in the Feedback application.
 
--   **[Product idea form](product-idea-form.md)**  
+-   **[Product idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-idea-form.md)**  
 Learn about the fields of the Product idea form. Use this form to create or edit the details of a product idea in Strategic Planning.
--   **[Feedback form](feedback-form.md)**  
+-   **[Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/feedback-form.md)**  
 Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in Feedback.
 
-**Parent Topic:**[Feedback reference](product-feedback-reference.md)
+**Parent Topic:**[Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/product-feedback/product-feedback-reference.md)
 

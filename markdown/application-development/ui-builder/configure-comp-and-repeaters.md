@@ -2,6 +2,7 @@
 title: Configure components and repeaters \(advanced feature\)
 description: You can add and configure components as you build pages in UI Builder. You can also use repeaters to repeat components or multiple components with results from a data resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/configure-comp-and-repeaters.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -15,12 +16,12 @@ breadcrumb: [Advanced UI Builder, UI Builder, Builder library, Developing your a
 
 You can add and configure components as you build pages in UI Builder. You can also use repeaters to repeat components or multiple components with results from a data resource.
 
--   **[Add and configure components](../task/add-components.md#)**  
+-   **[Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md)**  
 Learn how to add components to your page in UI Builder. A page is built by adding components.
--   **[Add repeaters to components](../task/repeaters.md)**  
+-   **[Add repeaters to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/repeaters.md)**  
 In UI Builder, use repeaters to repeat one or more components with results from a data resource.
--   **[Optimize page loading performance \(Advanced Feature\)](../task/performance-settings.md)**  
+-   **[Optimize page loading performance \(Advanced Feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/performance-settings.md)**  
 Performance settings enhances leading speeds and user engagement by displaying high-priority content first, making key components interactive sooner for a faster perceived performance.
 
-**Parent Topic:**[Advanced UI Builder](advanced-uib.md)
+**Parent Topic:**[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/advanced-uib.md)
 

@@ -2,6 +2,7 @@
 title: Customize Certificate Inventory and Management
 description: Customize various aspects within Certificate Inventory and Management using Discovery properties, enabling you to tailor the solution to your specific needs and enhance the overall management of TLS certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/customize-cert-inventory-mgmt.html
 release: australia
 product: Discovery
 classification: discovery
@@ -21,7 +22,7 @@ Role required: discovery\_admin or admin
 
 ## Procedure
 
-1.  To edit [Discovery properties](../reference/r_DiscoveryProperties.md), navigate to **All** &gt; **Discovery Definition** &gt; **Properties**.
+1.  To edit [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryProperties.md), navigate to **All** &gt; **Discovery Definition** &gt; **Properties**.
 
     -   glide.discovery.certs.cert\_admin\_user\_id
     -   glide.discovery.certs.days\_before\_expiration\_to\_create\_renewal\_task

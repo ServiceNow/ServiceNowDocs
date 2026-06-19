@@ -2,6 +2,7 @@
 title: Create an HR case from Universal Request in HR Service Delivery Agent Workspace
 description: Create an HR case from a universal request record to restore service to a customer as soon as possible. After creating the HR case record, you can investigate potential solutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/create-case-ur-hr-agent.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

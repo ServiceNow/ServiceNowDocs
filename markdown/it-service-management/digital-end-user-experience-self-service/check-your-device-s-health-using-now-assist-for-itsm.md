@@ -2,11 +2,12 @@
 title: Check device health using Now Assist for ITSM Virtual Agent
 description: Use the Now Assist for ITSM Virtual Agent to monitor device performance, diagnose potential issues, and use suggested resolutions to address them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/check-your-device-s-health-using-now-assist-for-itsm.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Use, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
@@ -17,15 +18,15 @@ Use the Now Assist for ITSM Virtual Agent to monitor device performance, diagnos
 
 ## Before you begin
 
--   Install the Digital End-User Experience \(sn\_dex\) application. For more information, see [Install Digital End-User Experience](install-app-device-health.md).
+-   Install the Digital End-User Experience \(sn\_dex\) application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md).
 -   Configure Now Assist for ITSM to access the Check Device health topic in the Virtual Agent chat box.
--   Install the Desktop Assistant \[sn\_dex\_desktop\] plugin if you're launching Virtual Agent from Desktop Assistant. For more information, see [Download and install Desktop Assistant](download-desktop-experience.md).
+-   Install the Desktop Assistant \[sn\_dex\_desktop\] plugin if you're launching Virtual Agent from Desktop Assistant. For more information, see [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: none
 
 ## Procedure
 
-1.  Select the Virtual Agent or chat icon \(![Virtual agent or chat icon](../image/icon-virtual-agent.png)\) that appears on any portal or on the Desktop Assistant header.
+1.  Select the Virtual Agent or chat icon \(\[Omitted image "icon-virtual-agent.png"\] Alt text: Virtual agent or chat icon\) that appears on any portal or on the Desktop Assistant header.
 
 2.  Perform any of the following actions to begin a conversation:
 
@@ -142,7 +143,7 @@ Single resolution
 
 </td><td>
 
-Depending on the fallback action configured in the resolution, the Virtual Agent redirects you to a live agent, creates an incident, or prompts you to create an incident.The DEX administrator configures the resolutions and fallback actions. For more information, see [Engagement Settings for Proactive Engagement](../../proactive-engagement/reference/engagement-settings.md).
+Depending on the fallback action configured in the resolution, the Virtual Agent redirects you to a live agent, creates an incident, or prompts you to create an incident.The DEX administrator configures the resolutions and fallback actions. For more information, see [Engagement Settings for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/engagement-settings.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: XTM Translation Management System spoke
 description: The XTM Translation Management System spoke provides subflows and actions to localize the artifacts using the XTM translation management system service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/xtm-spoke.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -50,7 +51,7 @@ Ensure that you are registered with XTM TMS and obtain the credential informatio
 
 ## Connection and Credential alias requirements
 
-The IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Connections and Credentials Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+The IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see Connections and Credentials Information.
 
 To use the spoke connection aliases, use an associated connection record and a credential record created with the XTM TMS spoke installation.
 
@@ -61,7 +62,7 @@ The following are the connection alias requirements.
 -   Connection type: HTTP
 -   Connection URL: For example, `https://languagecloud.sdl.com`. This is a sample URL. Users can have a different URL based on their geographical preference.
 
-See [Configure XTM TMS in the Localization Framework](../task/configure-xtm-tms.md) to connect to the XTM TMS services and use them to localize the artifacts.
+See [Configure XTM TMS in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/configure-xtm-tms.md) to connect to the XTM TMS services and use them to localize the artifacts.
 
-**Parent Topic:**[Translation Management System configurations](tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md)
 

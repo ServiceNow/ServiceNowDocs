@@ -2,6 +2,7 @@
 title: NowAPIEndpoint protocol - iOS
 description: The NowAPIEndpoint protocol provides an interface for accessing any publicly exposed ServiceNow REST APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowAPIEndpointiOSProtocol.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -64,5 +65,5 @@ Boolean
 Flag that indicates whether the endpoint requires authentication.Default: true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

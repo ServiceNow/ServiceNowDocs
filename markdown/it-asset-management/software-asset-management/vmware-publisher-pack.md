@@ -2,6 +2,7 @@
 title: Software Asset Management publisher pack for VMware
 description: Use the Software Asset Management publisher pack for VMware to track and optimize licensing for your VMware software products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/vmware-publisher-pack.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -15,15 +16,15 @@ breadcrumb: [Supported software publisher licenses, Software Asset Management, I
 
 Use the Software Asset Management publisher pack for VMware to track and optimize licensing for your VMware software products.
 
-To use the VMware publisher pack, activate the Software Asset Management Professional for VMware \(com.sn\_samp\_vmware\) [plugin](../task/t_RequSoftwareAssetMgmt.md).
+To use the VMware publisher pack, activate the Software Asset Management Professional for VMware \(com.sn\_samp\_vmware\) [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 VMware offers virtualization and cloud computing technologies that enable you to run software products and applications on virtual machines \(VMs\). The main component of VMware virtualization is the VMware hypervisor, which is a virtual machine monitor \(VMM\) that allows you to create and run VMs on your physical hosts. You can use either a Type 1 \(bare metal\) or Type 2 \(hosted\) hypervisor. A Type 1 hypervisor runs directly on the hardware of the underlying physical host, while a Type 2 hypervisor runs as a software layer on the operating system \(OS\) of the underlying physical host.
 
-You can collect and identify data for your VMware software installations by using a discovery tool, such as the ServiceNow® Discovery application. For more information on the discovery process, see [Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md).
+You can collect and identify data for your VMware software installations by using a discovery tool, such as the ServiceNow® Discovery application. For more information on the discovery process, see Data collected by ITOM Visibility.
 
-View your VMware license compliance position in the License usage view of the Software Asset Workspace. If any of your VMware software products are out of compliance, the License usage view provides corresponding remediation suggestions. For more information, see [License usage view](sam-workspace-workbench.md).
+View your VMware license compliance position in the License usage view of the Software Asset Workspace. If any of your VMware software products are out of compliance, the License usage view provides corresponding remediation suggestions. For more information, see [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-workspace-workbench.md).
 
-View compliance analysis results for VMware in either the Software Publisher Analytics dashboard for VMware \(Software Asset Management classic application\) or the publisher overview for VMware, Inc. \(Software Asset Workspace\). For more information on the Software Publisher Analytics dashboard for VMware, see [Software Publisher Analytics dashboard for VMware in Software Asset Management classic](../reference/dashboard-vmware.md). For more information on the publisher overview for VMware, Inc., see [Publisher overview for VMware, Inc. in the Software Asset Workspace](../reference/publisher-overview-vmware.md).
+View compliance analysis results for VMware in either the Software Publisher Analytics dashboard for VMware \(Software Asset Management classic application\) or the publisher overview for VMware, Inc. \(Software Asset Workspace\). For more information on the Software Publisher Analytics dashboard for VMware, see [Software Publisher Analytics dashboard for VMware in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/dashboard-vmware.md). For more information on the publisher overview for VMware, Inc., see [Publisher overview for VMware, Inc. in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/publisher-overview-vmware.md).
 
 ## VMware licensing
 
@@ -61,10 +62,10 @@ You can calculate licensing requirements for these software products by using th
 -   Per OSI: You must license the underlying physical and virtual servers on which you access the software product. Each server requires one right.
 -   Per Processor: You must license the processors on the underlying physical hosts. Each processor requires one right for every 32 cores.
 
--   **[Software Publisher Analytics dashboard for VMware in Software Asset Management classic](../reference/dashboard-vmware.md)**  
+-   **[Software Publisher Analytics dashboard for VMware in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/dashboard-vmware.md)**  
 View compliance analysis results related to VMware on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
--   **[Publisher overview for VMware, Inc. in the Software Asset Workspace](../reference/publisher-overview-vmware.md)**  
+-   **[Publisher overview for VMware, Inc. in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/publisher-overview-vmware.md)**  
 View license usage information related to VMware in the publisher overview for VMware, Inc. in the Software Asset Workspace.
 
-**Parent Topic:**[Supported software publisher licenses](sam-publisher-packs.md)
+**Parent Topic:**[Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-publisher-packs.md)
 

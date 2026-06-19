@@ -2,6 +2,7 @@
 title: Report vaccination status to your organization
 description: Provide your organization with information about whether you received a vaccine and the date that you received it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/report-vaccination-status.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -104,7 +105,7 @@ The type of attachment that you are submitting if it is required by a validator 
 </td></tr></tbody>
 </table>4.  Add attachments, such as a SMART health card or an image of supporting documentation, by selecting **Add attachments**.
 
-    For more information on supported formats, see [Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/Documentviewer.md).
+    For more information on supported formats, see Document Viewer.
 
     **Note:** If you are adding an attachment required by a validator service, ensure that you've selected the correct **Attachment type**.
 
@@ -115,11 +116,11 @@ The type of attachment that you are submitting if it is required by a validator 
 
 ## What to do next
 
-Your organization might require that you be vaccinated before returning to the site. To check your progress on all site entry requirements, see [View your health and safety status](../../employee-readiness-core/task/view-health-safety-status.md).
+Your organization might require that you be vaccinated before returning to the site. To check your progress on all site entry requirements, see [View your health and safety status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/view-health-safety-status.md).
 
 **Note:** You are not considered fully vaccinated until 14 days after receiving your vaccination \(single-dose vaccine\) or your final dose \(multi-dose vaccine\).
 
 Depending on your organization's requirements, if your vaccine has a vaccine booster available, you might not be considered fully vaccinated until you report receiving your booster.
 
-**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status.md)
 

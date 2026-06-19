@@ -2,6 +2,7 @@
 title: SummaryTableWriter - Global
 description: The SummaryTableWriter script include enables the creation of summary sets for reports that can be generated with standard queries and trending.Produces a summary set for the COUNT of all incidents grouped by category.Creates the summary set of records for reports.Defines the query to use to load the data for the summary record set.Defines the column on which to stack the incident records.Sets the title of the summary set, which is also the chart title.Sets the time field used for the X axis or stacking field; can also set the time interval used to calculate the trend.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_SummaryTableWriter.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The SummaryTableWriter script include enables the creation of summary sets for r
 
 This script include provides methods that enable you to customize the output of the summary sets for reports, such as adding a title, defining a query on which to base the report data, and specifying the stack column and X axis.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SummaryTableWriter - SummaryTableWriter\(String tableName, String columnName\)
 

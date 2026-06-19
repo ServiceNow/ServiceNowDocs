@@ -2,6 +2,7 @@
 title: Setting improvement opportunities
 description: Set improvement opportunities to find areas of improvement by which you could optimize a process. You can either select from a list of rules available to you or set your own rules. Based on the rules set by you, you can view your areas of improvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/working-with-imp-opp.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -27,14 +28,14 @@ There are two types of improvement opportunities:
 -   Automated improvement opportunities: These improvement opportunities are displayed based on the default patterns that are already available for selection.
 
 
--   **[Set rule-based improvement opportunity](../task/rule-based-builder.md)**  
+-   **[Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/rule-based-builder.md)**  
 Rule-based finding definition is a custom rule that displays improvement opportunities for a use case on the Summary and insights page.
--   **[Setting Automated improvement opportunities](automated-findings.md)**  
+-   **[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)**  
 Automated improvement opportunities highlight potential areas for process optimization based on a set of prebuilt patterns.
--   **[Set improvement opportunities for process tables](impr-opp-table.md)**  
+-   **[Set improvement opportunities for process tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/impr-opp-table.md)**  
 Set improvement opportunities for process tables using the Finding Builder.
--   **[Setting improvement opportunity for projects](project-imp-opp.md)**  
+-   **[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-imp-opp.md)**  
 Set improvement opportunities for projects to find areas of improvement by which teams can optimize a process. You can either select from a list of rules available to you or set your own rules. Based on the rules set by you, you can view your areas of improvement.
 
-**Parent Topic:**[Using Process Mining](use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
 

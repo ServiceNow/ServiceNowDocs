@@ -2,6 +2,7 @@
 title: Industrial Core plugin
 description: The Industrial Core plugin contains the class mappings needed for the Operational Technology \(OT\) certified Service Graph Connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/industrial-core-plugin.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -43,9 +44,9 @@ The Industrial Core plugin introduces a configuration template to manage class m
 
 **Note:** Partners can extend the OT Class Mapping Template table in the scope of their application to capture the class mappings specific to the integration.
 
-With the OT Class Mapping template, you can also define an OT device naming strategy per class by using the **Allow Custom Device Naming** and **Device Naming Strategy** fields. For more information about how to implement the device naming strategy, see [Create and use an OT device naming strategy](../task/create-use-ot-device-naming-strategy.md).
+With the OT Class Mapping template, you can also define an OT device naming strategy per class by using the **Allow Custom Device Naming** and **Device Naming Strategy** fields. For more information about how to implement the device naming strategy, see [Create and use an OT device naming strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/create-use-ot-device-naming-strategy.md).
 
-For more information about the OT Class Mapping Template and its available fields, see the **OT Class Mapping Template** section in [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](../task/review-class-mappings-sgc-excel.md).
+For more information about the OT Class Mapping Template and its available fields, see the **OT Class Mapping Template** section in .For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ OT Device Network Connection \[sn\_ot\_device\_network\_connection\]
 
 The OT Device Network Connection \[sn\_ot\_device\_network\_connection\] table references the CI relationships \[cmdb\_rel\_ci\] table, and identifies device-to-device connections in CI relationships for OT devices.**Note:** This data is populated with the available OT integrations and cannot be manually created.
 
-For more information about the OT Device Network Connection data model, see [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).
+For more information about the OT Device Network Connection data model, see .
 
 </td></tr><tr><td>
 
@@ -131,8 +132,8 @@ OT AutomationCommit \[ot\_automation\_commit\]
 OT AutomationCommit \[ot\_automation\_commit\] class acts as a reference to the changes you have committed to a project.
 
 </td></tr></tbody>
-</table>-   **[Create and use an OT device naming strategy](../task/create-use-ot-device-naming-strategy.md)**  
+</table>-   **[Create and use an OT device naming strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/create-use-ot-device-naming-strategy.md)**  
 Create and use the Operational Technology \(OT\) device naming strategy to create unique names for your OT devices.
 
-**Parent Topic:**[Operational Technology Manager reference](operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

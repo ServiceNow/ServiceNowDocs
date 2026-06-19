@@ -2,6 +2,7 @@
 title: Using agentic workflows in Now Assist for Telecommunications, Media and Technology \(TMT\)
 description: Use the Now Assist for TMT agentic workflows to complete tasks autonomously.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/using-aiagents-usecases.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -183,7 +184,7 @@ Assist the customer to automatically draft, refine, and distribute the release a
 Email communication manager AI agent
 
 </td></tr></tbody>
-</table>Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+</table>Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see .
 
 **Important:** By default, all agentic workflows and AI agent records are read only.
 
@@ -193,7 +194,7 @@ To run the AI agents autonomously, you must first duplicate the agentic workflow
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-Once you [duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) the agentic workflow, adjust the settings according to your requirements. Next, you [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md) the duplicated agentic workflow. You can also [test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md) the agentic workflow to analyze its performance in the AI Agent Studio, while it executes the instructions that you defined.
+Once you duplicate the agentic workflow, adjust the settings according to your requirements. Next, you activate the duplicated agentic workflow. You can also test the agentic workflow to analyze its performance in the AI Agent Studio, while it executes the instructions that you defined.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 

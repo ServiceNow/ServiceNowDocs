@@ -2,6 +2,7 @@
 title: Configure ServiceNow
 description: Configure ServiceNow with Azure AD details to use SSO.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-servicenow.html
 release: australia
 product: Authentication
 classification: authentication
@@ -217,12 +218,12 @@ URL for redirecting failed authentication requests. By default, this is the URL 
 
     **Note:** Use your own certificates for the encryption and signing.
 
-    ![Encryption and Signing tab](../../authentication/images/encryption-signing.png)
+    \[Omitted image "encryption-signing.png"\] Alt text: Encryption and Signing tab
 
     |Property|Description|
     |--------|-----------|
-    |Signing/Encryption Key Alias|Alias of the key entry stored in [SAML 2.0 SP Keystore](t_CreatingAServiceProviderKeyStore.md).|
-    |Signing Key Password|Password of the key entry stored in [SAML 2.0 SP Keystore](t_CreatingAServiceProviderKeyStore.md).|
+    |Signing/Encryption Key Alias|Alias of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
+    |Signing Key Password|Password of the key entry stored in [SAML 2.0 SP Keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreatingAServiceProviderKeyStore.md).|
     |Encrypt Assertion|Check box to encrypt the assertion in the SAML response. The metadata generated for the IDP embeds the x509 certificate, which the IDP uses to encrypt the assertion in the SAML response that it generates.|
     |Signing Signature Algorithm|URL that points to the SAML 2.0 Identity Provider AuthnRequest Consumer for eSignature Authentication.|
     |Sign AuthnRequest|Check box to enable the IdP single-sign on service to receive a signed AuthnRequest.|
@@ -230,7 +231,7 @@ URL for redirecting failed authentication requests. By default, this is the URL 
 
 8.  User Provisioning tab
 
-    ![User Provisioning Tab.](../../authentication/images/user-provisioning.png)
+    \[Omitted image "user-provisioning.png"\] Alt text: User Provisioning Tab.
 
     |Property|Description|
     |--------|-----------|
@@ -239,7 +240,7 @@ URL for redirecting failed authentication requests. By default, this is the URL 
 
 9.  Advanced tab
 
-    ![Advanced tab](../../authentication/images/advanced.png)
+    \[Omitted image "advanced.png"\] Alt text: Advanced tab
 
 <table id="table_aqk_mnd_4z"><thead><tr><th>
 
@@ -343,7 +344,7 @@ Request
 
 </td><td>
 
-Unique id as part of request. The id can be a user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information, see [Test IdP connections](../../single-sign-on/task/t_TestIdPConnections.md).
+Unique id as part of request. The id can be a user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information, see [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr><tr><td>
 
@@ -351,7 +352,7 @@ Response
 
 </td><td>
 
-Unique id as part of response. The id can be a user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information, see [Test IdP connections](../../single-sign-on/task/t_TestIdPConnections.md).
+Unique id as part of response. The id can be a user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information, see [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr></tbody>
 </table>10. Select **Test Connection** at the upper-right corner of the page.

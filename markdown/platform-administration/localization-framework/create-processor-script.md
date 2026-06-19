@@ -2,6 +2,7 @@
 title: Create a processor script
 description: You can create a processor script to include in your custom artifact configuration to extract the translatable content and save the translated content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/create-processor-script.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -32,5 +33,5 @@ Role required: localization\_admin and script\_include\_admin
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Artifact configurations](../concept/framework-configuration.md)
+**Parent Topic:**[Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md)
 

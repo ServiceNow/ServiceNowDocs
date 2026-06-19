@@ -2,6 +2,7 @@
 title: Create and configure a custom artifact
 description: Create and configure custom artifacts of your choice to use the Localization Framework functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/create-configure-custom-artifact.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -23,7 +24,7 @@ Role required: localization\_admin and script\_include\_admin.
 
 ## About this task
 
-From the Zurich release, your custom artifacts can be made available in [Localization Workspace](../../localization-workspace/concept/localization-workspace.md). For information about making custom artifacts selectable in Localization Workspace translation requests, see [Dynamic artifact detection in Localization Workspace](../../localization-workspace/concept/lw-dynamic-artifact-detection.md).
+From the Zurich release, your custom artifacts can be made available in [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace.md). For information about making custom artifacts selectable in Localization Workspace translation requests, see [Dynamic artifact detection in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-dynamic-artifact-detection.md).
 
 ## Procedure
 
@@ -71,11 +72,11 @@ Processor script
 
 </td><td>
 
-Extracts the translatable content associated with the translation request and saves the translations into the database.You can select a script include using the search ![magnifying glass icon](../image/magnifying_glass.png) icon, or you can create a new script include.The processor script contains the following functions:
+Extracts the translatable content associated with the translation request and saves the translations into the database.You can select a script include using the search \[Omitted image "magnifying\_glass.png"\] Alt text: magnifying glass icon icon, or you can create a new script include.The processor script contains the following functions:
 
 -   getTranslatableContent: Extracts the translatable content.
 -   saveTranslatedContent: Saves the translated content back to the system.
-For more information, see [Processor script functions](../reference/processor-script-functions.md).To create a new processor script for the artifact, see [Create a processor script](create-processor-script.md).
+For more information, see [Processor script functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/processor-script-functions.md).To create a new processor script for the artifact, see [Create a processor script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/create-processor-script.md).
 
 **Note:** Under **Related Links** on an existing artifact record, you can switch to **Legacy View** for script editing.
 
@@ -85,7 +86,7 @@ Application
 
 </td><td>
 
-Application scope. The value is the current application selected for the logged-in user session. For more information, see [Select an application from the application picker](../../../build/applications/task/t_SelectAnAppFromTheAppPicker.md).
+Application scope. The value is the current application selected for the logged-in user session. For more information, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_SelectAnAppFromTheAppPicker.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ Generate insights
 
 </td><td>
 
-Option to turn on or turn off the localization insights for the artifact. For more information, see [Localization Insights dashboard](../../../use/dashboards/application-content-packs/localization-insights-dashboard.md).
+Option to turn on or turn off the localization insights for the artifact. For more information, see [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-insights-dashboard.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
@@ -111,5 +112,5 @@ Option to turn on or turn off the localization insights for the artifact. For mo
 
 For examples of Localization Framework artifacts that you can set up, see the LF Artifact blog posts list on [https://www.servicenow.com/community/international-localization/need-to-translate-a-par-dashboard-check-this/ta-p/2839751](https://www.servicenow.com/community/international-localization/need-to-translate-a-par-dashboard-check-this/ta-p/2839751) in the ServiceNow Community. These examples include Processor scripts.
 
-**Parent Topic:**[Artifact configurations](../concept/framework-configuration.md)
+**Parent Topic:**[Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md)
 

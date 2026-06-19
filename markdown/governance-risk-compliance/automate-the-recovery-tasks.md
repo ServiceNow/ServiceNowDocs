@@ -2,10 +2,11 @@
 title: Automate recovery tasks
 description: Automate the manual recovery task within the business continuity plan. You can classify the manual recovery task as an automated task first and then attach an automated flow to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/automate-the-recovery-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -19,7 +20,7 @@ Role required: admin for the Workflow Studio, sn\_bcm.admin, sn\_bcm.program\_ma
 
 ## About this task
 
-Administrators or low-code developers are responsible for building the automation flow. Users with the BCM planner or above role then attach the automation flow to the recovery task. The Workflow Studio is used for this purpose, requiring a local developer persona due to permission restrictions. The Workflow Studio role does not require any extra licensing. However, it requires some special roles. For more information on the Workflow Studio roles and permissions, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+Administrators or low-code developers are responsible for building the automation flow. Users with the BCM planner or above role then attach the automation flow to the recovery task. The Workflow Studio is used for this purpose, requiring a local developer persona due to permission restrictions. The Workflow Studio role does not require any extra licensing. However, it requires some special roles. For more information on the Workflow Studio roles and permissions, see .
 
 The flow setup involves these steps:
 
@@ -27,7 +28,7 @@ The flow setup involves these steps:
 2.  User then defines the inputs to provide necessary information for the automation flow.
 3.  The automation process includes actions to automate the manual task and update its completion status.
 
-Automated tasks are executed sequentially until a manual task is encountered. If an automated task fails, manual intervention is required to trigger it again. In case of a failure in the automation process,you can retrigger it and verify its completion. If a task fails, the backup assignee is notified via email and must perform the necessary manual actions to address the failure. This confirms that the recovery process continues smoothly even in the event of automation issues.
+Automated tasks are executed sequentially until a manual task is encountered. If an automated task fails, manual intervention is required to trigger it again. In case of a failure in the automation process, you can retrigger it and verify its completion. If a task fails, the backup assignee is notified via email and must perform the necessary manual actions to address the failure. This confirms that the recovery process continues smoothly even in the event of automation issues.
 
 ## Procedure
 
@@ -41,9 +42,9 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
 4.  On the form, fill in the fields.
 
-    For more information on creating a customized subflow for automating the tasks in the BCM application, see [Create a subflow form](../reference/create-new-subflow-for-bcm.md).
+    For more information on creating a customized subflow for automating the tasks in the BCM application, see [Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-subflow-for-bcm.md).
 
-    For more information on creating a subflow, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
+    For more information on creating a subflow, see .
 
     The properties for the subflow are filled in.
 
@@ -55,7 +56,7 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
     To establish a reference to the record linked to the task, you can specify the name and type for the input in the Inputs &amp; Outputs section of the subflow. By defining the inputs, you can create a reference to the task responsible for executing the automation.
 
-    ![Reference to the task.](../image/automated-tasks-input.png)
+    \[Omitted image "automated-tasks-input.png"\] Alt text: Reference to the task.
 
     1.  Select the label for the input in the **Label** field.
 
@@ -71,15 +72,15 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
     4.  To mark the input as mandatory, select the **Mandatory** option.
 
-        For information on creating subflow inputs and outputs, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
+        For information on creating subflow inputs and outputs, see .
 
     5.  Select **+** to add a new input.
 
-    Once you create the flow variables, you can access them on Workflow Studio. For information on creating subflow inputs and outputs, see [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
+    Once you create the flow variables, you can access them on Workflow Studio. For information on creating subflow inputs and outputs, see .
 
 7.  In the Actions section, select **Send Email**.
 
-    Expanding the Send Email section displays the fields as shown in the example. The fields on the form are described in the table. ![Revised subflow.](../image/automated-tasks-revised-subflow.png)
+    Expanding the Send Email section displays the fields as shown in the example. The fields on the form are described in the table. \[Omitted image "automated-tasks-revised-subflow.png"\] Alt text: Revised subflow.
 
 <table id="table_fxr_ghx_hbc"><thead><tr><th>
 
@@ -168,7 +169,7 @@ Description and action steps about the issue.
 
 9.  Select **Update record** in the Actions section of the subflow.
 
-    You can update the original plan task to be completed by updating the record section of the subflow. ![Update the record.](../image/automated-tasks-update-record.png)
+    You can update the original plan task to be completed by updating the record section of the subflow. \[Omitted image "automated-tasks-update-record.png"\] Alt text: Update the record.
 
     1.  In the **Action** field, select **Update record**.
 
@@ -188,13 +189,13 @@ Description and action steps about the issue.
 
     The recovery task form is displayed.
 
-    ![Tasks in the Automated flow field.](../image/automated-tasks-automated-flow.png)
+    \[Omitted image "automated-tasks-automated-flow.png"\] Alt text: Tasks in the Automated flow field.
 
 12. In the **Task classification** field, select **Automated** to change the manual task to an automated task and select **Save**.
 
     After saving the form, the flow variables are displayed.
 
-    When you select and save the task, the variables associated with the automated flow are displayed in the **Variables** field of the recovery task.![Variables for the automated flow.](../image/automated-tasks-variable.png)
+    When you select and save the task, the variables associated with the automated flow are displayed in the **Variables** field of the recovery task.\[Omitted image "automated-tasks-variable.png"\] Alt text: Variables for the automated flow.
 
 13. In the Assignment details, confirm that the **Backup assignee** field is filled in.
 
@@ -205,8 +206,8 @@ Description and action steps about the issue.
     The Recovery task form now includes a Task classification column where the automated tasks are displayed. These automated tasks are executed automatically by the system as part of the plan.
 
 
--   **[Create a subflow form](../reference/create-new-subflow-for-bcm.md)**  
+-   **[Create a subflow form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-subflow-for-bcm.md)**  
 Use the Create a subflow form to automate a manual recovery task within the business continuity plan.
 
-**Parent Topic:**[Structured workflows for BCPs](../concept/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

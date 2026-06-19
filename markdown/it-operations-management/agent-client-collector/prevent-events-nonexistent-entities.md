@@ -2,6 +2,7 @@
 title: Block event creation for non-existent entities
 description: Invoke the skip\_events\_for\_nonexistent parameter to block event creation when specific process, service, or log does not exist. Invoke this parameter if you do not want to be notified about these non-existent entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/prevent-events-nonexistent-entities.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -44,5 +45,5 @@ A process, service, or log does not exist when the following checks do not conta
     If you want to receive notification about the missing process or service, leave the **skip\_events\_for\_nonexistent** parameter with its default value of **false**.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](../concept/acc-shared-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

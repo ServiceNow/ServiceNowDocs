@@ -2,6 +2,7 @@
 title: Client scripts installed with Contract Management
 description: Client scripts are added with Contract Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/r\_ClientScriptsIWContractMgmt.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -26,5 +27,5 @@ Client scripts are added with Contract Management.
 |Tax exempt/ rate|Contract \[ast\_contract\]|Changes all tax-related fields on the Contract form to read-only if the **Tax Exempt** check box is selected.|
 |Tax rate/exempt|Contract \[ast\_contract\]|Changes all tax-related fields on the Contract form to writeable if the **Sales Tax** check box is selected.|
 
-**Parent Topic:**[Components installed with Contract Management](r_ComponentsInstalledWContractMgmt.md)
+**Parent Topic:**[Components installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/r_ComponentsInstalledWContractMgmt.md)
 

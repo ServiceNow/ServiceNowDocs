@@ -2,6 +2,7 @@
 title: Create a copy of an existing test suite
 description: Create a test suite with the details of an existing test suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_CopyATestSuite.html
 release: australia
 product: Test Management
 classification: test-management
@@ -17,7 +18,7 @@ Create a test suite with the details of an existing test suite.
 
 ## Before you begin
 
--   [Create a test suite](t_CreateATestSuite.md).
+-   [Create a test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATestSuite.md).
 -   Role required: tm\_test\_manager or tm\_tester
 
 ## Procedure
@@ -44,5 +45,5 @@ You can use the related links and related lists of the new test suite for the fo
 -   Add this test suite, with all associated test cases, to a test plan by clicking the **Add to Test Plan** related link.
 -   use the Test Cases related list to associate test cases to this test suite.
 
-**Parent Topic:**[Test suites](../concept/c_TestSuites.md)
+**Parent Topic:**[Test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_TestSuites.md)
 

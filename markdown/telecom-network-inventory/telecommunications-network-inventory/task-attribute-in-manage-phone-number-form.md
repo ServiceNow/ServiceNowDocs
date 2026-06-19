@@ -2,11 +2,12 @@
 title: Task Attribute in Manage Phone Number Form
 description: The Task attributes in Manage Phone Number Form form enables you to design and assign a phone number in the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/task-attribute-in-manage-phone-number-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
@@ -46,7 +47,7 @@ Service
 
 </td><td>
 
-Service for these numbers. The selected service gets assigned to the numbers.**Note:** Ensure that you’ve created a service for this phone number. To learn more, see [Manage your network functions](../concept/services.md).
+Service for these numbers. The selected service gets assigned to the numbers.**Note:** Ensure that you’ve created a service for this phone number. To learn more, see [Manage your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/services.md).
 
 </td></tr><tr><td>
 
@@ -97,5 +98,5 @@ Area code
 Geographic area code that forms part of the telephone number.**Note:** This field appears only if Allocate action is selected from the **Action** dropdown.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

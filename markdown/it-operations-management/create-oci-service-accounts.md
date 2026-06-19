@@ -2,7 +2,10 @@
 title: Create OCI service accounts
 description: Create Oracle Cloud Infrastructure \(OCI\) service accounts on the ServiceNow AI Platform to access your Oracle account during Oracle discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/create-oci-service-accounts.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -16,7 +19,7 @@ Create Oracle Cloud Infrastructure \(OCI\) service accounts on the ServiceNow AI
 
 ## Before you begin
 
-Verify that Oracle API credentials have been created. For more information, see [Create Oracle API credentials](create-oracle-api-credentials.md).
+Verify that Oracle API credentials have been created. For more information, see [Create Oracle API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-oracle-api-credentials.md).
 
 Retrieve the Compartment ID, which can be found under **Identity &amp; Security** &gt; **Compartments** in the Oracle Cloud Console.
 
@@ -84,7 +87,7 @@ Type of the datacenter where the account is hosted, which should be OCI Datacent
 
 ## What to do next
 
-Schedule an OCI cloud discovery. For more information, see [Create an OCI Discovery schedule in Discovery Admin Workspace](../../discovery/task/create-oci-schedule-DAW.md).
+Schedule an OCI cloud discovery. For more information, see [Create an OCI Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-oci-schedule-DAW.md).
 
-**Parent Topic:**[Set up Oracle Cloud infrastructure \(OCI\) service accounts](../concept/set-up-oracle-cloud-infrastructure-oci-service-accounts.md)
+**Parent Topic:**[Set up Oracle Cloud infrastructure \(OCI\) service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/set-up-oracle-cloud-infrastructure-oci-service-accounts.md)
 

@@ -2,6 +2,7 @@
 title: Create New Company form
 description: On the Create New Company form, fill in the fields for the legal entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-new-legal-entity-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

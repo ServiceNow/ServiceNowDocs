@@ -2,6 +2,7 @@
 title: Migrate active records
 description: Migrate active records to apply the new mappings to your active problem and problem task records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/migrate-active-records.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -36,5 +37,5 @@ Role required: admin
 
 ## What to do next
 
-[Migrate inactive records](migrate-inactive-records.md).
+[Migrate inactive records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/migrate-inactive-records.md).
 

@@ -2,21 +2,22 @@
 title: ATF troubleshooting agent references
 description: The reference topics provide additional information about ATF troubleshooting agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/atf-troubleshooting-agent-references.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # ATF troubleshooting agent references
 
 The reference topics provide additional information about ATF troubleshooting agent.
 
--   **[ATF troubleshooting agent design considerations](atf-troubleshooting-agent-exceptions.md)**  
+-   **[ATF troubleshooting agent design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-exceptions.md)**  
 Leverage the full potential of ATF troubleshooting agent by following these design considerations.
 
-**Parent Topic:**[ATF troubleshooting agent](../reference/atf-troubleshooting-agent-landing-page.md)
+**Parent Topic:**[ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md)
 

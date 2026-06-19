@@ -2,6 +2,7 @@
 title: Configure branding for your ServiceNow Virtual Agent bot in Microsoft Teams
 description: Enable users to configure branding for the published Microsoft Teams bot app, the ServiceNow Virtual Agent. Users are provided with the flexibility to customize the default ServiceNow branding for the Microsoft Teams production bot name and icon.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-msteams-branding.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -47,5 +48,5 @@ Role required: admin
     **Note:** Please note that the changes you made to the app may take up to 24 hours to reflect.
 
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

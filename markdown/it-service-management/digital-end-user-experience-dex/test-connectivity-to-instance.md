@@ -2,6 +2,7 @@
 title: Test connectivity to the ServiceNow instance
 description: Test the ServiceNow DEX instance network connectivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/test-connectivity-to-instance.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -49,5 +50,5 @@ The match confirms that the connection is established with the ServiceNow® inst
 
 If there’s no match, fix your network connection issues.
 
-**Parent Topic:**[Installing DEX on your local machine](../concept/installing-dex-local.md)
+**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 

@@ -1,19 +1,21 @@
 ---
 title: Set system properties for scheduler
-description: Set the system property sn\_ap\_apm.exception.engine.scheduler\_cool\_off\_period which defines the time interval in minutes after which the invoice is picked for processing.
+description: Set the scheduler cool-off period system property \( sn\_ap\_apm.exception.engine.scheduler\_cool\_off\_period \) to define the time interval between invoice exception engine processing cycles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/set-system-properties-for-scheduler.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, Accounts Payable Operations, invoice exception, invoice processing, admin]
 breadcrumb: [Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Set system properties for scheduler
 
-Set the system property `sn_ap_apm.exception.engine.scheduler_cool_off_period` which defines the time interval in minutes after which the invoice is picked for processing.
+Set the scheduler cool-off period system property \(`sn_ap_apm.exception.engine.scheduler_cool_off_period`\) to define the time interval between invoice exception engine processing cycles.
 
 ## Before you begin
 

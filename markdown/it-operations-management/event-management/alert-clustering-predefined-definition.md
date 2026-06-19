@@ -2,6 +2,7 @@
 title: Activate a predefined alert clustering definition
 description: Activate the predefined alert clustering definitions provided with the Tag-Based Alert Clustering Engine application before use. Utilizing these preconfigured definitions minimizes setup time and ensures a more efficient configuration process, allowing for quicker implementation and streamlined alert management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-clustering-predefined-definition.html
 release: australia
 product: Event Management
 classification: event-management
@@ -27,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
 2.  Select a predefined definition.
 
-    **Note:** For a complete list of the available predefined definitions, see [List of predefined tag-based alert grouping definitions](../reference/alert-clustering-predefined-definition-list.md).
+    **Note:** For a complete list of the available predefined definitions, see [List of predefined tag-based alert grouping definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-predefined-definition-list.md).
 
 3.  On the Tag Based Alert Clustering Definition form, select the **Active** check box.
 
@@ -37,4 +38,6 @@ Role required: evt\_mgmt\_admin
 ## Result
 
 In the Tag Based Alert Clustering Definitions table, the **Active** field for the activated definition displays the value **true**. You can now associate an alert clustering tag with this definition, enabling effective grouping of alerts based on the defined criteria.
+
+To group alerts using tag-based grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
 

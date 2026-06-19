@@ -2,6 +2,7 @@
 title: Integration Hub plugins
 description: Request Integration Hub plugins included in your subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ih-plugins.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -174,7 +175,7 @@ ServiceNow Stream Connect Installer\[com.glide.hub.stream\_connect.installer\]
 
 </td><td>
 
-Enables the licensed components for working with message-based streaming data in [Stream Connect for Apache Kafka](../concept/stream-connect-apache-kafka.md).
+Enables the licensed components for working with message-based streaming data in [Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
 
  Activating this plugin activates the following plugins.
 
@@ -250,5 +251,5 @@ Stream Connect MID Hermes API\[com.glide.mid.hermes\_api\]
 Provides the capability to produce messages from the MID Server to a topic in the Hermes Messaging Service.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request Integration Hub](../../flow-designer/concept/request-ih-overview.md)
+</table>**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
 

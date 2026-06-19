@@ -2,9 +2,10 @@
 title: Export Now Assist Guardian logs
 description: Export logs from Now Assist Guardian to get insights into how often different guardrails are being detected and used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/export-now-assist-guardian-logs.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Export, Now Assist Guardian, logs, Gen AI, Generative AI, admin, offensiveness, prompt injection]
 breadcrumb: [Now Assist Guardian, Agentic AI security and governance]
@@ -22,7 +23,7 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 Now Assist Guardian logs all three types of guardrails available. Reviewing the logs can help you determine how often offensive content is generated, prompt injection attack attempts occur, or sensitive topics are detected.
 
-See [Now Assist Guardian](../../now-assist-platform/concept/now-assist-guardian.md) for more information.
+See [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md) for more information.
 
 ## Procedure
 
@@ -32,15 +33,15 @@ See [Now Assist Guardian](../../now-assist-platform/concept/now-assist-guardian.
 
 3.  Export logs for the guardrail.
 
-<table><thead><tr><th align="left" id="d228604e136">
+<table><thead><tr><th align="left" id="d38161e136">
 
 Option
 
-</th><th align="left" id="d228604e139">
+</th><th align="left" id="d38161e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d228604e145">
+</th></tr></thead><tbody><tr><td id="d38161e145">
 
 **Export offensive content detection logs**
 
@@ -50,7 +51,7 @@ Description
 2.  In the **Active** tab, select the workflow you want to export logs for, and then select **Export**.
 
 
-</td></tr><tr><td id="d228604e178">
+</td></tr><tr><td id="d38161e178">
 
 **Export Prompt injection logs**
 
@@ -60,7 +61,7 @@ Description
 2.  Select **Export Log**.
 
 
-</td></tr><tr><td id="d228604e208">
+</td></tr><tr><td id="d38161e208">
 
 **Export sensitive topic logs**
 
@@ -80,5 +81,5 @@ The log is exported as a .csv file to your computer.
 
 If you do not see any log data, then it is most likely that the guardrail has not been triggered yet. If you believe you should be seeing data but aren't, reach out to Now Support.
 
-**Parent Topic:**[Now Assist Guardian](../../now-assist-platform/concept/now-assist-guardian.md)
+**Parent Topic:**[Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-guardian.md)
 

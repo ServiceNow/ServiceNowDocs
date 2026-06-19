@@ -2,6 +2,7 @@
 title: Procurement Strategy &amp; Ops Dashboard
 description: Visually analyze how your organization is placed strategically and operationally, over a given period of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/procurement-strategy-ops-dashboard.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -383,9 +384,9 @@ View the time taken for the breached records of the team.The Procurement Special
 Data for this widget is derived from the Task SLA table that is fed by SLA definitions created on the active fields of PSM record types.
 
 </td></tr></tbody>
-</table>For information on how to work with dashboards in configurable workspaces, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-dashboards.md).
+</table>For information on how to work with dashboards in configurable workspaces, see .
 
-For information on how to work with widgets and data visualizations in configurable workspaces, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+For information on how to work with widgets and data visualizations in configurable workspaces, see .
 
-**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
+**Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/performance-analytics-for-spo.md)
 

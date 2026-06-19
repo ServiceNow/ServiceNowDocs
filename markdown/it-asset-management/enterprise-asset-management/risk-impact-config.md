@@ -2,13 +2,14 @@
 title: Create configuration values for risk impact
 description: Use the Risk Impact module to create configuration values for the impact vector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/risk-impact-config.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing risks scores in Enterprise Asset Management, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring risk, Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create configuration values for risk impact
@@ -44,5 +45,5 @@ Role required: sn\_eam.enterprise\_admin
     **Note:** You cannot add or delete any impact configuration records after you select **Freeze**. You can however edit the **Label** field in the existing records.
 
 
-**Parent Topic:**[Managing risks scores in Enterprise Asset Management](../concept/managing-eam-risk-scores.md)
+**Parent Topic:**[Managing risks scores in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 

@@ -2,6 +2,7 @@
 title: Client software distribution ordering process
 description: Software deployed by CSD 2.0 can be ordered from the service catalog by individual users or by approved users on behalf of others.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-orderprocess.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -29,7 +30,7 @@ If the software catalog item is configured with **Access Type** as **Restricted*
 
 In this example, a user has logged into the service catalog to order Google Chrome for the assigned computer. User selects the machine from a list of devices and selects the date and time the lease should begin.
 
-![Ordering software as the logged in user.](../../integrationhub/images/CSDCatOrderLease2.png)
+\[Omitted image "CSDCatOrderLease2.png"\] Alt text: Ordering software as the logged in user.
 
 ## Software ordered on behalf of another user
 
@@ -37,14 +38,14 @@ If the software catalog item is configured with **Access Type** as **Delegated**
 
 In this example, a manager is ordering Google Chrome for a contractor. The manager selects the contractor from the **User** field and then chooses a computer from the list of devices assigned to the contractor. This software has a Microsoft Endpoint Configuration Manager uninstall collection configured, which enables the manager to select an end date for the lease that coincides with the end of the user's contract. When the lease expires, Microsoft Endpoint Configuration Manager automatically uninstalls the software from the device.
 
-![Defining software lease window.](../../integrationhub/images/CSDCatOrderLease.png)
+\[Omitted image "CSDCatOrderLease.png"\] Alt text: Defining software lease window.
 
 **Note:**
 
 -   For Jamf, the device must have its serial number populated in the device table.
 -   For Microsoft Endpoint Configuration Manager, the name must be populated.
 
-![Required fields.](../image/csd2-ordering.png)
+\[Omitted image "csd2-ordering.png"\] Alt text: Required fields.
 
-**Parent Topic:**[Client Software Distribution 2.0 application](../concept/csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)
 

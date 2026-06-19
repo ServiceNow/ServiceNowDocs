@@ -2,6 +2,7 @@
 title: Search in Field Service Manager Mobile
 description: Use search to quickly find work order tasks, field service agents, assignment groups, or territories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/search-manager-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -33,6 +34,6 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 5.  Filter your results by tapping one of the filter bubbles at the top of the page.
 
-    ![manager mobile search results page](../image/manage-mobile-search.png)
+    \[Omitted image "manage-mobile-search.png"\] Alt text: manager mobile search results page
 
 

@@ -2,6 +2,7 @@
 title: Guidelines for writing AI agent instructions
 description: Review the guidelines to write affective instructions for the AI agents to complete your Agentic Playbooks activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/guidelines-agent-instruction.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -87,6 +88,14 @@ Specify query operations
 </td><td>
 
 Using the keyword Query helps our data gathering AI agent to pick the more effective Knowledge Graph over the AI search.
+
+</td></tr><tr><td>
+
+Custom agents
+
+</td><td>
+
+To maintain accuracy, add a maximum of 5-6 custom agents to an activity.
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Conversational Interfaces Guided Setup
 description: Use the Conversational Interfaces Guided Setup to create a personalized setup process for just the conversational interface features you need. The Conversational Interfaces Guided Setup starts with a survey and creates a personalized task list based on your survey responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ci-guided-setup.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -37,7 +38,7 @@ Role required: admin
 
 5.  Select the type of agents that you're using and the type of setup \(Quick or Manual\).
 
-    ![Guided Setup page for specifying the type of agents for certain business areas and quick or manual setup.](../image/ci-guided-setup-custom.png)
+    \[Omitted image "ci-guided-setup-custom.png"\] Alt text: Guided Setup page for specifying the type of agents for certain business areas and quick or manual setup.
 
 6.  Select **Continue** and complete the subsequent setup tasks.
 
@@ -49,5 +50,5 @@ After you've completed the setup tasks, you and your topic authors can explore t
 **Related topics**  
 
 
-[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md)
+[bundle-platux.guided-setup]
 

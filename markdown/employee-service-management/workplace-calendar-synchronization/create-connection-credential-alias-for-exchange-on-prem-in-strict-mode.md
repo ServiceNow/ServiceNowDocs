@@ -2,13 +2,14 @@
 title: Create a strict mode Connection and credential alias for Microsoft Exchange On-Premises
 description: Establish a strict mode connection and credential alias for Microsoft Exchange On-Premises so that you can synchronize reservations. Ensure that the values for the connection and credentials alias are set as specified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/create-connection-credential-alias-for-exchange-on-prem-in-strict-mode.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a strict mode connection for Microsoft Exchange On-Premises, Microsoft Exchange On-Premises - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a strict mode connection for Microsoft Exchange On-Premises, Microsoft Exchange On-Premises - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a strict mode Connection and credential alias for Microsoft Exchange On-Premises
@@ -17,7 +18,7 @@ Establish a strict mode connection and credential alias for Microsoft Exchange O
 
 ## Before you begin
 
-[Connect Microsoft Exchange On-Premises MID server with ServiceNow](connect-onprem-mid-server-with-servicenow-strict-mode.md)
+[Connect Microsoft Exchange On-Premises MID server with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/connect-onprem-mid-server-with-servicenow-strict-mode.md)
 
 Role required: admin
 
@@ -58,5 +59,5 @@ The Connection and Credentials alias is created.
 
 ## What to do next
 
-[Configure Microsoft Exchange On-Premises as calendar provider in strict mode](configure-exchange-onprem-calendarprovider-strict-mode.md)
+[Configure Microsoft Exchange On-Premises as calendar provider in strict mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-exchange-onprem-calendarprovider-strict-mode.md)
 

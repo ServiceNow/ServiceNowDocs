@@ -2,6 +2,7 @@
 title: Show Business services overview tab in Workspace view
 description: Starting with Release 20.1.x, the Services overview and Business services overview tabs are displayed on the landing page of the Operational Resilience Workspace. Administrators or UI Builder administrators can show or hide one of these tabs from the Workspace view based on organizational needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/displaying-services-overview-tab.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Starting with Release 20.1.x, the **Services overview** and **Business services 
 
 To show the **Business services overview** tab and hide the **Services overview** tab, UI Builder administrators can open the **Settings** tab in the UI Builder and choose **Hide tab** as shown in the example.
 
-![Hiding the Services overview tab.](../image/hide-services-overview-tab.png)
+\[Omitted image "hide-services-overview-tab.png"\] Alt text: Hiding the Services overview tab.
 
 Once the settings are saved, the **Business services overview** tab is displayed and the **Services overview** tab is hidden from the landing page.
 
@@ -25,7 +26,7 @@ Once the settings are saved, the **Business services overview** tab is displayed
 
 To show the **Services overview** tab and hide the **Business services overview** tab, UI Builder administrators can open the **Settings** tab in the UI Builder and deselect the **Active** flag \(mark it as inactive\) as shown in the example.
 
-![Hiding the Business services overview tab.](../image/hide-b-services-overview-tab.png)
+\[Omitted image "hide-b-services-overview-tab.png"\] Alt text: Hiding the Business services overview tab.
 
 Once the settings are saved, the **Services overview** tab is displayed and the **Business services overview** tab is hidden from the landing page.
 

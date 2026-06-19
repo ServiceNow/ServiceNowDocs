@@ -2,11 +2,12 @@
 title: Edge Encryption MID Server integration
 description: Configure the MID Server to route data through an Edge Encryption proxy server.To pass data from the MID Server through the Edge Encryption proxy server, update the MID Server configuration file to point the MID Server to the Edge Encryption proxy server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/edge-mid-pass-through.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Data integration with Edge Encryption, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -24,7 +25,7 @@ When MID Server data is configured to pass through the Edge Encryption proxy ser
 -   Encryption of ECC Queue fields is not supported.
 -   Encrypted data cannot be used with Discovery or Service Mapping.
 
-**Parent Topic:**[Data integration with Edge Encryption](data-integration.md)
+**Parent Topic:**[Data integration with Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/data-integration.md)
 
 ## Point the MID Server to the Edge Encryption proxy server
 

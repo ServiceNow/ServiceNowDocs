@@ -2,6 +2,7 @@
 title: Create an entity in the Multiple Case Configuration table for multi-store creation in Retail Task Management Core
 description: Create an entity in the multiple case creation configuration table based on the mapping that you created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-retail-create-entitt-multiple-case-creation.html
 release: australia
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-![Adding an entity to the Multiple Case Configuration table for Retail Task Management Core.](../image/rahi-retail-create-entity.png)
+\[Omitted image "rahi-retail-create-entity.png"\] Alt text: Adding an entity to the Multiple Case Configuration table for Retail Task Management Core.
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Troubleshoot breakdown filters
 description: In Platform Analytics experience, it's not possible to do extend the functionality of a migrated breakdown filter that doesn't have an associated indicator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/troubleshoot-breakdown-filters.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

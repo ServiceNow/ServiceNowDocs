@@ -2,6 +2,7 @@
 title: Service Exchange for Consumers
 description: Use the Service Exchange for Consumers application to seamlessly interact and collaborate with your providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-consumers-landing-page.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -15,7 +16,7 @@ breadcrumb: [Service Exchange]
 
 Use the Service Exchange for Consumers application to seamlessly interact and collaborate with your providers.
 
-## Service Exchange Overview
+## Service Exchange overview
 
 As a consumer, you can:
 
@@ -25,11 +26,11 @@ As a consumer, you can:
 
 <table id="table_k52_dyx_yxb" class="nav-card"><tbody><tr><td>
 
-[Configure for consumers![](../image/bus-optimize-manage-sb.svg)Learn how to install and configure Service Exchange for consumers.](service-bridge-v2-install.md)
+[Configure for consumers\[Omitted image "bus-optimize-manage-sb.svg"\]Learn how to install and configure Service Exchange for consumers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-install.md)
 
 </td><td>
 
-[User for consumers![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)Learn how to use Service Exchange for consumers.](se-consumer-using.md)
+[Use for consumers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for consumers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/se-consumer-using.md)
 
 </td></tr></tbody>
 </table>

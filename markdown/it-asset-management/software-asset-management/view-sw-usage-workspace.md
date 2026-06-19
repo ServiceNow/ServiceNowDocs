@@ -2,6 +2,7 @@
 title: View or create software usage
 description: View software usage records to track the usage of software products that you have created reclamation rules for. You can also create software usage records manually from third party integrations or Microsoft SCCM integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-sw-usage-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -150,5 +151,5 @@ Date and time that the software product was last used.
 
 After the software usage is created, you can view it by navigating to **License operations** &gt; **Discovery** &gt; **Software usage**.
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

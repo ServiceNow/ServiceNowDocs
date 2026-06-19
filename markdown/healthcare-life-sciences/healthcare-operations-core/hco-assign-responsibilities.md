@@ -2,6 +2,7 @@
 title: Assign responsibilities to Healthcare Operations Core users
 description: Assign responsibilities to users in Healthcare Operations Core to dictate which specific records users are authorized to view or modify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -46,7 +47,7 @@ You can edit the responsibilities of Healthcare Operations Core users when addin
 
     If a newly added user isn’t populated in the Available list, search for them manually using the lookup icon.
 
-    On occasion, newly added members don’t appear within the Selected panel due to property configurations. If this occurs, see [Configure global system properties to edit members in Healthcare Operations Core](hcls-cto-configure-properties-edit-members.md).
+    On occasion, newly added members don’t appear within the Selected panel due to property configurations. If this occurs, see [Configure global system properties to edit members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configure-properties-edit-members.md).
 
 7.  Select **Save**.
 

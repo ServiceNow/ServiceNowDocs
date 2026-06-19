@@ -2,6 +2,7 @@
 title: Now Assist for Telecommunications, Media and Technology \(TMT\) AI agent collection recommend risk signal solutions agentic workflow
 description: Use the Analyze risk and recommend solutions agentic workflow to monitor and mitigate risks in customer engagements with minimal user intervention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-resolve-risk.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -32,9 +33,9 @@ You can trigger this workflow in two ways:
     1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
     2.  From the **Customer Success** menu, select **All Risks and issues** and open a risk signal record.
     3.  Select the **Recommend solutions** button in the risk record
-2.  Navigate to the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md) panel in the **CSM/FSM Configurable Workspace** and specify a risk number to be resolved.
+2.  Navigate to the  panel in the **CSM/FSM Configurable Workspace** and specify a risk number to be resolved.
 
-For information on how risks are generated, see [Define risk criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md).
+For information on how risks are generated, see .
 
 ## Configure the Recommend risk signal solutions agentic workflow
 
@@ -44,8 +45,8 @@ Before you use the agentic workflow, do the following:
 
     -   Rank: The order in which the conditions are evaluated.
     -   Category: The category of the risk signal, from the Risk Signal and Issues table.
-    -   Customer Success Definition: The Customer Success definition to use for the risk category. Each Customer Success definition specifies the subflow to execute when the solution option is selected. See [Create a customer success definition record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-create-ale-defn.md) for details. You can map multiple definitions to the same category.![Engagement risk definition table](../image/risk-decision-table.jpg)
-    See [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md) for details on configuring the decision table.
+    -   Customer Success Definition: The Customer Success definition to use for the risk category. Each Customer Success definition specifies the subflow to execute when the solution option is selected. See  for details. You can map multiple definitions to the same category.\[Omitted image "risk-decision-table.jpg"\] Alt text: Engagement risk definition table
+    See  for details on configuring the decision table.
 
 -   The solution subflow must contain the following input:
 

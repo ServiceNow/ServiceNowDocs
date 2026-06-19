@@ -2,6 +2,7 @@
 title: Analyzing Virtual Agent performance
 description: Analyze the performance of Virtual Agent through preconfigured dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/analyzing-virtual-agent-performance.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

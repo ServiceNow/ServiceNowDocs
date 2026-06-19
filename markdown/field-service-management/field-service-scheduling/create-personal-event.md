@@ -2,6 +2,7 @@
 title: Show that an agent is busy with a non-work order event
 description: Block time on agent calendars for events that aren’t related to work orders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-personal-event.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -23,7 +24,7 @@ Role required: wm\_dispatcher
 
 Dispatchers can use non-work order personal events to show an agent is busy. For example, if an agent is in training all day, you can use a personal event to show an agent is busy on the calendar in Dispatcher Workspace.
 
-For information on editing or deleting personal events, see [Edit or delete an event](edit-delete-event.md).
+For information on editing or deleting personal events, see [Edit or delete an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/edit-delete-event.md).
 
 **Note:** You can't create recurring personal events.
 
@@ -35,7 +36,7 @@ Route optimization doesn't change when personal events are scheduled.
 
 2.  Select **Dispatcher Workspace**.
 
-3.  Select the ![Event management](../image/event-manage-coral.png) **Event Management** icon.
+3.  Select the \[Omitted image "event-manage-coral.png"\] Alt text: Event management **Event Management** icon.
 
 4.  On the form, fill in the fields.
 

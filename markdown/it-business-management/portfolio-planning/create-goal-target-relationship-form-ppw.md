@@ -2,6 +2,7 @@
 title: Create goal/target relationship form
 description: The goal/target relationship form information is used to create a relationship between a goal and a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-goal-target-relationship-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -101,7 +102,7 @@ Progress
 
 </td><td>
 
-Percentage completion for the goal. If the goal has subgoals or/and targets, the progress value is calculated automatically.For more information on how the progress value is calculated, see [Progress value calculation](../../goal-framework/concept/progress-value-calculation.md).
+Percentage completion for the goal. If the goal has subgoals or/and targets, the progress value is calculated automatically.For more information on how the progress value is calculated, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/progress-value-calculation.md).
 
 </td></tr><tr><td>
 

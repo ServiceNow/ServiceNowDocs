@@ -2,6 +2,7 @@
 title: View Zero Copy Connector for ERP partner profile information
 description: In Zero Copy Connector for ERP \(Enterprise Resource Planning\), view partner profile information including number and type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -28,26 +29,26 @@ Partner profiles are fetched from SAP during initial load. If any new profiles a
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP systems list by selecting the systems icon ![](../image/erp-systems-icon-sidebar.png) in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
 
 3.  Open a system record.
 
 4.  Check the **IDoc retrieval status** on the record.
 
-    ![Zero Copy Connector for ERP system record with IDOC retrieval status area highlighted.](../image/erp-system-partner-profile-tab2.png)
+    \[Omitted image "erp-system-partner-profile-tab2.png"\] Alt text: Zero Copy Connector for ERP system record with IDOC retrieval status area highlighted.
 
 5.  Select the **Partner profile** tab to view available profiles.
 
-    ![Zero Copy Connector for ERP system record with partner profile tab displayed.](../image/erp-system-partner-profile-tab.png)
+    \[Omitted image "erp-system-partner-profile-tab.png"\] Alt text: Zero Copy Connector for ERP system record with partner profile tab displayed.
 
-    For column descriptions, see [Zero Copy Connector for ERP partner profile tab column descriptions](../reference/erp-partner-profile-tab-fields.md).
+    For column descriptions, see [Zero Copy Connector for ERP partner profile tab column descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-partner-profile-tab-fields.md).
 
 6.  Select a **Partner number** to view information about a specific profile.
 
-    ![Zero Copy Connector for ERP profile record for one individual profile.](../image/erp-system-partner-profile-tab3.png)
+    \[Omitted image "erp-system-partner-profile-tab3.png"\] Alt text: Zero Copy Connector for ERP profile record for one individual profile.
 
-    For field descriptions, see [Zero Copy Connector for ERP partner profile field descriptions](../reference/erp-partner-profile-fields.md).
+    For field descriptions, see [Zero Copy Connector for ERP partner profile field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-partner-profile-fields.md).
 
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](../concept/erp-canvas-work-with-systems.md)
+**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
 

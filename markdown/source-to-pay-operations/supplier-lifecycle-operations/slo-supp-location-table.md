@@ -2,6 +2,7 @@
 title: Supplier Location table
 description: The Supplier Location \[sn\_slm\_m2m\_location\] table stores important information about the geographical location of a supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-supp-location-table.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -157,7 +158,7 @@ The category that the supplier location belongs to. The choices are:-   Contract
 -   Service center
 
 </td></tr></tbody>
-</table>For more information, see [Supplier Lifecycle Operations data model](slo-data-model.md).
+</table>For more information, see [Supplier Lifecycle Operations data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/slo-data-model.md).
 
-**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

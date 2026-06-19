@@ -2,6 +2,7 @@
 title: Bulk Import of Redaction Categories and Values
 description: Import redaction categories. Bulk importing of redaction categories and their associated values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-bulk-import-redaction.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -73,5 +74,5 @@ This property sets the maximum number of rows allowed when bulk importing data i
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working on the Redaction Library](tisc-redaction-library.md)
+**Parent Topic:**[Working on the Redaction Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-redaction-library.md)
 

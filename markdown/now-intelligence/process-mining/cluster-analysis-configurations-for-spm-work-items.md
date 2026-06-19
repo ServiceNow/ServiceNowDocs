@@ -2,6 +2,7 @@
 title: Cluster analysis configurations for SPM work items
 description: The Process Mining application provides solution definitions for demands, that you can use to configure cluster analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/cluster-analysis-configurations-for-spm-work-items.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -15,7 +16,7 @@ breadcrumb: [SPM, Activate content packs, Activate, Process Mining, Platform Ana
 
 The Process Mining application provides solution definitions for demands, that you can use to configure cluster analysis.
 
-**Important:** This feature is available with the ServiceNow Store Process Mining SPM content pack v1.0. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+**Important:** This feature is available with the ServiceNow Store Process Mining SPM content pack v1.0. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Clustering solution definition configurations
 
@@ -29,5 +30,5 @@ A Process Mining administrator \(sn\_process\_mining\_admin\) can access the SPM
 
 The clustering solution definitions also contain the purity fields for demands, which are department, business\_unit, and priority.
 
-**Parent Topic:**[Content pack for SPM](integration-with-spm.md)
+**Parent Topic:**[Content pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-with-spm.md)
 

@@ -2,6 +2,7 @@
 title: Grouping assessments for control attestations
 description: Control attestation feature is enhanced to display all the control related information in the assessment page. You can also group assessments for a user and combine them together. Therefore, all assessments that the user has to assess can be done together without having to assess one after the other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/combined-assessments-control-attest.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -21,13 +22,13 @@ The **GRC attestation** template for control category of assessment had two targ
 
 The contextual information such as its name, description, entity, control objective, status, owner, current compliance score, tier value, tiering assessor, enforcement, classification, and others are populated and displayed as you open an assessment in the Details pane on the right.
 
-![Details of the control as reference information on the Details pane.](../image/grc-attestation-reference.png)
+\[Omitted image "grc-attestation-reference.png"\] Alt text: Details of the control as reference information on the Details pane.
 
 ## Grouping control attestations
 
 You can group a list of assessments assigned to a particular user as Combined Assessments and assign a new name for the grouped assessments.
 
-![Grouping attestations for a user to assess them together.](../image/grc-attestation-combine-group.png)
+\[Omitted image "grc-attestation-combine-group.png"\] Alt text: Grouping attestations for a user to assess them together.
 
-To group assessments, see [Combine assessments for control attestations](../task/smart-assess-combine-attest.md).
+To group assessments, see [Combine assessments for control attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/smart-assess-combine-attest.md).
 

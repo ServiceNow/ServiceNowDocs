@@ -2,6 +2,7 @@
 title: HCM AI agents
 description: Place requests to the Human Capital Management \(HCM\) system using the HR Service Delivery AI agent collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/conversational-agents.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -17,61 +18,61 @@ Place requests to the Human Capital Management \(HCM\) system using the HR Servi
 
 ## HCM AI agents Overview
 
-You can submit requests to the HCM system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents from the HR Service Delivery AI Agent Collection](../task/configure-hcm-agents.md).
+You can submit requests to the HCM system, for example, apply for time off or update your details, using the HR Service Delivery AI agent collection in Employee Center. To access and use the HCM AI agents, ensure to [Configure HCM AI agents from the HR Service Delivery AI Agent Collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-hcm-agents.md).
 
 ## Worker profile retriever AI agent
 
 The Worker profile retriever AI agent enables you to find details about a colleague. The details could include the department, job, email, or phone number, based on your request.
 
-![](../image/worker-profile-ca.png)
+\[Omitted image "worker-profile-ca.png"\] Alt text:
 
 ## Employee holiday calendar retrieval AI agent
 
 The Employee holiday calendar retrieval AI agent retrieves holiday information for the specified year.
 
-![](../image/holiday-ca.png)
+\[Omitted image "holiday-ca.png"\] Alt text:
 
 ## Time off requester AI agent
 
 The Time off requester AI agent enables you to request time off or retrieve your time off balance.
 
-![](../image/timeoff-ca.png)
+\[Omitted image "timeoff-ca.png"\] Alt text:
 
 ## Employee total rewards information AI agent
 
 The Employee total rewards information AI agent enables you to retrieve your total rewards details.
 
-![](../image/total-rewards-ca.png)
+\[Omitted image "total-rewards-ca.png"\] Alt text:
 
 ## Benefits enrollment retriever AI agent
 
 The Benefits enrollment retriever AI agent enables you to view the benefits information you’re enrolled in.
 
-![](../image/benefits-ca.png)
+\[Omitted image "benefits-ca.png"\] Alt text:
 
 ## Employee details updater AI agent
 
 The Employee details updater AI agent enables you to update personal information such as email address, phone number, home address, blood type, and date of birth.
 
-![](../image/employee-update-ca-2.png)
+\[Omitted image "employee-update-ca-2.png"\] Alt text:
 
-![](../image/employee-update-ca-1.png)
+\[Omitted image "employee-update-ca-1.png"\] Alt text:
 
 ## HCM feedback retriever AI agent
 
 The HCM feedback retriever AI agent enables you to view feedback you have received in the HCM system.
 
-![](../image/feedback-ca.png)
+\[Omitted image "feedback-ca.png"\] Alt text:
 
 ## View paychecks AI agent
 
 The View paychecks AI agent enables you to view paycheck summaries for the selected period.
 
-![](../image/paycheck-1.png)
+\[Omitted image "paycheck-1.png"\] Alt text:
 
-![](../image/paycheck-2.png)
+\[Omitted image "paycheck-2.png"\] Alt text:
 
-![](../image/paycheck-3.png)
+\[Omitted image "paycheck-3.png"\] Alt text:
 
-![](../image/paycheck-4.png)
+\[Omitted image "paycheck-4.png"\] Alt text:
 

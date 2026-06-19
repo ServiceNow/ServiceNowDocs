@@ -2,6 +2,7 @@
 title: Infoblox credentials
 description: Infoblox credentials are required to set up IP pools \(IPAM\) in the Cloud Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/infoblox-creds.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials

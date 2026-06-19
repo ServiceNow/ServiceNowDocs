@@ -2,12 +2,13 @@
 title: Analyze security operations metrics agentic workflow
 description: Chat with an AI agent from the Now Assist panel to help you gain insight into how efficiently your security analysts are working with security incidents resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/assess-metrics-sir-aiagent.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Analyze security operations metrics agentic workflow, Use agentic workflows, Now Assist for Security Incident Response, Security Operations]
 ---
 
@@ -21,11 +22,11 @@ Role required: sn\_si.manager
 
 ## About this task
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see .
 
 ## Procedure
 
-1.  Select the Now Assist icon \(![Now Assist icon.](../../../common/image/icon-ai-sparkle.png)\) from anywhere in your instance.
+1.  Select the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.\) from anywhere in your instance.
 
     The Now Assist panel is displayed.
 
@@ -65,7 +66,7 @@ End the conversation.
 </td></tr></tbody>
 </table>    You might prefer to have the Security Incident Response workspace open in another tab so that you can refer to assignment groups, dates, and other information for your prompts.
 
-    Your conversation is saved until you start a new chat. To start a new chat, select the New chat icon \(![New chat icon.](../image/na-new-chat.png)\).
+    Your conversation is saved until you start a new chat. To start a new chat, select the New chat icon \(\[Omitted image "na-new-chat.png"\] Alt text: New chat icon.\).
 
     Your request is repeated and displayed in highlighted text with more information.
 

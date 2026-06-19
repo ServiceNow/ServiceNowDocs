@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP SAP Foundation content pack models
 description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) SAP Foundation content pack contains models that you may need when interacting with an SAP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sap-foundation-models.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -39,5 +40,5 @@ The Zero Copy Connector for ERP \(Enterprise Resource Planning\) SAP Foundation 
 |Storage Location|Retrieve a list of storage locations.|ERP|RFC/BAPI|
 |Valuation Area|Retrieve a list of valuation areas.|ERP|RFC/BAPI|
 
-**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](../concept/erp-canvas-enterprise-data-foundation-content-pack.md)
+**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
 

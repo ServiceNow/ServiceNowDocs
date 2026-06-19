@@ -2,6 +2,7 @@
 title: Exploring Conversational Interfaces Console
 description: The Conversational Interfaces applications enable your users to engage with live agents, virtual agents, or both. These interfaces provide tools for creating and managing optimal conversational experiences for your users, in the chat channels that they prefer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/exploring-ci.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -35,10 +36,10 @@ Conversational Interfaces console provides the following features:
 
 Navigate to **All** &gt; **Conversational Interfaces** &gt; **Home** to start exploring its features.
 
-**Note:** The Conversational Interfaces console is also available in the Omni-Experience Standard Feature Set app from the ServiceNow Store. Existing customers don't need to install it from the store. However, subsequent updates will be available there. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/53b1b0e79761011018b2fa98c253afcc/) website for more information. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+**Note:** The Conversational Interfaces console is also available in the Omni-Experience Standard Feature Set app from the ServiceNow Store. Existing customers don't need to install it from the store. However, subsequent updates will be available there. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/53b1b0e79761011018b2fa98c253afcc/) website for more information. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Monitoring and managing Conversational Interfaces applications](monitor-manage-ci-applications.md)**  
+-   **[Monitoring and managing Conversational Interfaces applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/monitor-manage-ci-applications.md)**  
 Use the Conversational Interfaces Home page to monitor the performance of recent Virtual Agent conversations or test your bot. Plugin update notices will alert you when a feature update is ready.
--   **[Channels in Conversational Interfaces](ci-channels-overview.md)**  
+-   **[Channels in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-channels-overview.md)**  
 The various ways in which your end users engage with virtual and live agents are called channels. In Conversational Interfaces, users and agents converse through channels that have specific communication modes: chat mode for real-time conversations and messaging mode for long-running conversations.
 

@@ -2,6 +2,7 @@
 title: Create sub-groups for automation opportunities
 description: Large automation opportunities in LEAP are broken into smaller, more manageable sub-groups to support focused and contextual incident resolution steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/creating-subgroups-for-automation-opportunities.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -27,7 +28,7 @@ Role required: LEAP admin
 
 3.  Select **Create Sub Groups**.
 
-    The records in the automation opportunity are divided into sub-groups.
+    The records in the automation opportunity are divided into sub-groups.\[Omitted image "create-sub-group.png"\] Alt text: Action insight to create automation opportunity subgroups
 
 4.  Select the **Sub Groups** tab to view the child sub-groups created.
 

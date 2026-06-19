@@ -1,19 +1,20 @@
 ---
 title: Remove collaborators from an app in ServiceNow Studio
-description: Restrict a user or group from working on an app in ServiceNow Studio by removing them as a collaborator.
+description: Remove a user or group as a collaborator in ServiceNow Studio to revoke their access to an app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/remove-collaborators-servicenow-studio.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-11"
 reading_time_minutes: 1
 breadcrumb: [Collaborating on apps, Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Remove collaborators from an app in ServiceNow Studio
 
-Restrict a user or group from working on an app in ServiceNow Studio by removing them as a collaborator.
+Remove a user or group as a collaborator in ServiceNow Studio to revoke their access to an app.
 
 ## Before you begin
 
@@ -25,20 +26,22 @@ Role required: admin or delegated\_developer
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Select the app that you want to remove collaborators from, and select **App details**.
+2.  Select the app you want to remove collaborators from, then select **App details**.
 
-3.  Access collaboration settings by selecting the more options icon ![](../image/sn-studio-more-options-icon.png) and selecting **Invite**.
+3.  Access collaboration settings by selecting the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text: and selecting **Invite**.
 
-    ![Invite collaborators to work on your app using the more options menu on the app details page.](../image/sn-studio-collab-select-zs2.png)
+    \[Omitted image "sn-studio-collab-select-zs2.png"\] Alt text: Invite collaborators to work on your app using the more options menu on the app details page.
 
-4.  Select **Remove** for the user or group in the Collaborators section of the modal.
+4.  In the **Collaborators** section of the **Collaborate with others** dialog, select **Remove** for the user or group.
 
-    ![Remove a collaborator from accessing an app](../../app-engine-studio/image/remove-collaborator-purple.png "Remove a collaborator")
+    \[Omitted image "remove-collaborator-purple.png"\] Alt text: Remove a collaborator from an app.
+
+    The collaborator is removed and no longer has access to the app.
 
 
 ## Result
 
-Your changes are automatically saved when you close the Collaborate with others modal.
+Changes are saved automatically when you close the **Collaborate with others** dialog.
 
-**Parent Topic:**[Collaborating on apps using ServiceNow Studio](../concept/manage-app-collab-servicenow-studio.md)
+**Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
 

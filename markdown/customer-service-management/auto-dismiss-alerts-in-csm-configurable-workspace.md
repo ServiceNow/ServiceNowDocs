@@ -2,7 +2,10 @@
 title: Auto-dismiss alerts in CSM Configurable Workspace
 description: In CSM Configurable Workspace, alerts automatically dismiss after a set time to reduce alert fatigue and help agents stay focused. By default, Info, Low, and Moderate alerts dismiss after 5 seconds, while Critical and High alerts remain persistent until manually dismissed. Admins can customize the auto-dismiss behavior and timer duration for each alert level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/auto-dismiss-alerts-in-csm-configurable-workspace.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

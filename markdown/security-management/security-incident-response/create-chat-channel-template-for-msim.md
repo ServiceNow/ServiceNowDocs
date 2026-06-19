@@ -2,6 +2,7 @@
 title: Create a chat channel template
 description: Configure Chat Teams and Channel Templates to create chat teams and channels to collaborate, track the chat conversations, and add users and user groups to those Chat Channels. These Channel templates are created in the Microsoft Teams when a major security incident is promoted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-chat-channel-template-for-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -76,7 +77,7 @@ Table
 Major Security Incident \(sn\_msi\_incident\).
 
 </td></tr></tbody>
-</table>    ![Chat Team Configuration](../../security-incident-response/image/channel-templates-config.png)
+</table>    \[Omitted image "channel-templates-config.png"\] Alt text: Chat Team Configuration
 
 4.  Select **Submit**.
 
@@ -92,12 +93,12 @@ Major Security Incident \(sn\_msi\_incident\).
 
 9.  **Submit** the new chat channel configuration record.
 
-    ![Chat Channel Configuration](../../security-incident-response/image/chat-channel-config-new-record.png)
+    \[Omitted image "chat-channel-config-new-record.png"\] Alt text: Chat Channel Configuration
 
 
 ## Result
 
 The chat channel is now created and the users are assigned to those chat channel groups. You can view the collaboration chat activities both in Microsoft Teams and in the Collaboration activity stream of the MSIM Workspace with the organized chat channel hierarchy structure as configured in the Chat Channel provider configuration.
 
-**Parent Topic:**[Configure Microsoft Teams](../../security-incident-response/concept/chat-channel-provider-config.md)
+**Parent Topic:**[Configure Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/chat-channel-provider-config.md)
 

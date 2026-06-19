@@ -2,6 +2,7 @@
 title: View or join slack channel from an incident
 description: View all slack channels associated with an incident to know if a required slack channel already exists before you create a new one. You can also import messages from a slack channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/view-slack-channel.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

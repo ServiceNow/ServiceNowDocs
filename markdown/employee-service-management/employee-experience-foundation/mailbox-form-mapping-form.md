@@ -2,6 +2,7 @@
 title: Office Mailbox to Form Field Mappings form
 description: The Office Mailbox to Form Field Mappings form helps you map an email field to a form field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mailbox-form-mapping-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -64,5 +65,5 @@ Active
 Option to activate the record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](sn-addin-for-ms365-reference.md)
+</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-addin-for-ms365-reference.md)
 

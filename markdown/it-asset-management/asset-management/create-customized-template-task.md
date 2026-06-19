@@ -2,13 +2,14 @@
 title: Create a customized template task
 description: Create customized template tasks to configure your specific task workflow for transfer order lines. Default template tasks are available with the Asset Management application. You can’t modify or delete a default template task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/create-customized-template-task.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customize transfer order line tasks, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Customize transfer order line tasks, Manage transfer order, Use, Asset Management, IT Asset Management]
 ---
 
 # Create a customized template task
@@ -48,5 +49,5 @@ Template tasks help you progress through the various stages of the transfer orde
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Customize transfer order line tasks](../concept/customize-transfer-order-line-tasks.md)
+**Parent Topic:**[Customize transfer order line tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/customize-transfer-order-line-tasks.md)
 

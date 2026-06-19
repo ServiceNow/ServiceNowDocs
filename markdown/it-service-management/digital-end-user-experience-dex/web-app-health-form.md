@@ -2,6 +2,7 @@
 title: Web application — Performance page
 description: Monitor the application performance to enable proactive detection and resolution of issues, maintain optimal performance, improve user experience, troubleshoot the performance issues, and confirm that the application meets its intended purpose.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/web-app-health-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -107,5 +108,5 @@ Availability
 Measure of the system's operational performance and its ability to be accessible and usable when needed. It’s typically expressed as a percentage, representing the proportion of time the application is functional and available for use.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Applications list](application-form.md)
+</table>**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/application-form.md)
 

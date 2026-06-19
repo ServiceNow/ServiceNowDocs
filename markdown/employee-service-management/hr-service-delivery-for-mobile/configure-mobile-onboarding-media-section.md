@@ -2,6 +2,7 @@
 title: Configure a media section for Now Mobile
 description: Configure one or more of the media sections for Now Mobile to provide relevant content to new hires at different stages of the onboarding process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-mobile/configure-mobile-onboarding-media-section.html
 release: australia
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
@@ -27,7 +28,7 @@ Media sections are a type of UI section that you can add to an applet launcher. 
 
 <table id="table_ojp_z2s_c3b"><tbody><tr><td>
 
-![Media section for Welcome to ServiceNow Before Joining](../image/mobile-onboarding-media-section-1.png)
+\[Omitted image "mobile-onboarding-media-section-1.png"\] Alt text: Media section for Welcome to ServiceNow Before Joining
 
 </td><td>
 
@@ -39,11 +40,11 @@ New Hire OrientationDisplays beginning one day before the new hire's start state
 
 </td><td>
 
-![Media section for New Hire Orientation](../image/mobile-onboarding-media-section-2.png)
+\[Omitted image "mobile-onboarding-media-section-2.png"\] Alt text: Media section for New Hire Orientation
 
 </td></tr><tr><td>
 
-![Media section for Welcome to ServiceNow After joining](../image/mobile-onboarding-media-section-3.png)
+\[Omitted image "mobile-onboarding-media-section-3.png"\] Alt text: Media section for Welcome to ServiceNow After joining
 
 </td><td>
 
@@ -55,11 +56,11 @@ Case CompleteDisplays on the upper half of the Welcome screen after the onboardi
 
 </td><td>
 
-![Media section for Case Complete](../image/mobile-onboarding-media-section-4.png)
+\[Omitted image "mobile-onboarding-media-section-4.png"\] Alt text: Media section for Case Complete
 
 </td></tr><tr><td>
 
-![Media section for Download the employee app](../image/mobile-onboarding-media-section-5.png)
+\[Omitted image "mobile-onboarding-media-section-5.png"\] Alt text: Media section for Download the employee app
 
 </td><td>
 
@@ -72,11 +73,11 @@ Download the employee appDisplays on the lower half of the Welcome screen after 
 
 2.  Open the **Onboarding Homepage** record.
 
-    ![Open the record for the Mobile Onboarding app.](../image/mobile-onboarding-homepage-record.png)
+    \[Omitted image "mobile-onboarding-homepage-record.png"\] Alt text: Open the record for the Mobile Onboarding app.
 
 3.  In the Body related list, open a media section record.
 
-    ![Configure the media sections for the Mobile Onboarding app.](../image/mobile-onboarding-media-sections.png)
+    \[Omitted image "mobile-onboarding-media-sections.png"\] Alt text: Configure the media sections for the Mobile Onboarding app.
 
 4.  Configure the media section.
 
@@ -87,10 +88,10 @@ Download the employee appDisplays on the lower half of the Welcome screen after 
     -   Image or video
     -   Function instance
 
-        **Note:** You can personalize the label and configure the associated function. To learn more about how to configure functions, see [Functions in ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
+        **Note:** You can personalize the label and configure the associated function. To learn more about how to configure functions, see Functions in ServiceNow mobile.
 
 5.  Click **Update**.
 
 
-**Parent Topic:**[Administer Now Mobile](../concept/administer-mobile-employee-onboarding-for-hr-service-delivery.md)
+**Parent Topic:**[Administer Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-mobile/administer-mobile-employee-onboarding-for-hr-service-delivery.md)
 

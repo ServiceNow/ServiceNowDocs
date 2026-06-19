@@ -2,6 +2,7 @@
 title: Next Experience for Demand Management key terms
 description: Important terms in Next Experience for Demand Management are listed in the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-workspace-key-terms.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

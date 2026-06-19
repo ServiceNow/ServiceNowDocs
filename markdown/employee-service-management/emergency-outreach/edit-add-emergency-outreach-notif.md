@@ -2,6 +2,7 @@
 title: Modify notifications used with Emergency Outreach
 description: The administrator can modify email notifications used with Emergency Outreach.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/edit-add-emergency-outreach-notif.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -17,7 +18,7 @@ The administrator can modify email notifications used with Emergency Outreach.
 
 ## Before you begin
 
-Review the details about planning for, creating, and modifying system notifications by starting with [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+Review the details about planning for, creating, and modifying system notifications by starting with Create an email notification.
 
 Role required: admin
 
@@ -73,11 +74,11 @@ Contact Tracing
 
 
 </td></tr></tbody>
-</table>3.  Click the preview icon \(![Preview icon](../../safe-workplace-dashboard/image/icon-preview.png)\) beside the **Notification** field, and then click **Open record**.
+</table>3.  Click the preview icon \(\[Omitted image "icon-preview.png"\] Alt text: Preview icon\) beside the **Notification** field, and then click **Open record**.
 
 4.  In the notification record, modify the details of the notification.
 
-    Follow the requirements for the particular notification for the application. To review the requirements for each application, see [Add email notifications for use with Emergency Outreach](configure-outreach-email-notif.md).
+    Follow the requirements for the particular notification for the application. To review the requirements for each application, see [Add email notifications for use with Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/configure-outreach-email-notif.md).
 
 5.  Click **Preview Notification** and verify your changes.
 

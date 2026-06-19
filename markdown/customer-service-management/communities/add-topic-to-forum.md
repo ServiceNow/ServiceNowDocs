@@ -2,6 +2,7 @@
 title: Add a topic to a forum
 description: Add a topic to a forum so that users can associate content to that topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/add-topic-to-forum.html
 release: australia
 product: Communities
 classification: communities
@@ -40,5 +41,5 @@ A topic can belong to more than one forum.
     The selected topic is added to the Forum Topics list in the forum. The topic is available to users in this forum.
 
 
-**Parent Topic:**[Configure community forums](configure-forums-topics.md)
+**Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-forums-topics.md)
 

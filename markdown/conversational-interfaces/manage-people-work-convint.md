@@ -2,7 +2,10 @@
 title: Manage people and work
 description: Use these applications to help streamline communications and manage work assignments and interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/manage-people-work-convint.html
 release: australia
+product: Conversational Interfaces
+classification: conversational-interfaces
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -15,19 +18,19 @@ Use these applications to help streamline communications and manage work assignm
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
 
-[Advanced Work Assignment ![](../../../reuse/icons/brand-icons/bus-work-order.svg) Handle team assignments, route workflow, and provide user assistance.](../../advanced-work-assignment/concept/awa-overview.md)
+[Advanced Work Assignment \[Omitted image "bus-work-order.svg"\] Alt text: Handle team assignments, route workflow, and provide user assistance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md)
 
 </td><td>
 
-[Omnichannel Callback ![](../../../reuse/icons/brand-icons/bus-mobile-native.svg) Connect users and agents with callback service options.](../../omnichannel-callback/concept/omnichannel-callback.md)
+[Omnichannel Callback \[Omitted image "bus-mobile-native.svg"\] Alt text: Connect users and agents with callback service options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback.md)
 
 </td><td>
 
-[Zoom extension for Omnichannel Callback![](../../../reuse/icons/brand-icons/bus-2-person.svg) Enables other ServiceNow® applications to display a Zoom callback option.](../../zoom-channel-omni-callback/Concept/zoom-extension-omni-callback.md)
+[Zoom extension for Omnichannel Callback\[Omitted image "bus-2-person.svg"\] Alt text: Enables other ServiceNow® applications to display a Zoom callback option.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/callback-over-zoom/zoom-extension-omni-callback.md)
 
 </td></tr><tr><td>
 
-[Proactive Triggers![](../../../reuse/icons/brand-icons/bus-forward.svg) Provides helpful platform actions, using real-time data.](../../proactive-triggers/reference/proactive-triggers-landing-page.md)
+[Proactive Triggers\[Omitted image "bus-forward.svg"\] Alt text: Provides helpful platform actions, using real-time data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers-landing-page.md)
 
 </td><td>
 

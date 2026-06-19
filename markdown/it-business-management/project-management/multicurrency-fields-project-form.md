@@ -2,6 +2,7 @@
 title: Multicurrency fields in project-related forms
 description: When you enable the Project Currency view in Project, Cost Plan, and Cost Plan Breakdown forms, you can observe multicurrency fields in the Financials section of the forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/multicurrency-fields-project-form.html
 release: australia
 product: Project Management
 classification: project-management
@@ -153,7 +154,7 @@ Currency in which the project status report is generated.If you have the Project
  -   **Functional currency**: Currency obtained from the glide.system.locale property in which the project status report is created.
 -   **Project currency**: Project status report is created in the local currency that is selected. If you select Project currency, you can view the planned cost and actual cost in the selected project currency.
 
- To view the status report of the project, see [View project status reports](../../project-management/task/project-status-report.md).
+ To view the status report of the project, see [View project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-status-report.md).
 
 </td></tr></tbody>
 </table>## Financials section of the Cost Plan form
@@ -166,7 +167,7 @@ Currency in which the project status report is generated.If you have the Project
 |Estimate at completion in project currency|Sum of all actuals for past fiscal periods added to the functional cost for future fiscal periods in project currency.|
 |Estimate to completion in project currency|Sum of functional cost for all fiscal periods in project currency.|
 
-**Note:** Any change that you make to the unit cost, quantity, or fiscal period of a cost plan has the amounts recalculated in project currency. See [Updates in cost plan and recalculation of cost in project currency](../concept/change-cost-calculated-project-currency.md).
+**Note:** Any change that you make to the unit cost, quantity, or fiscal period of a cost plan has the amounts recalculated in project currency. See [Updates in cost plan and recalculation of cost in project currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/change-cost-calculated-project-currency.md).
 
 ## Multicurrency fields in the Cost Plan Breakdown form
 

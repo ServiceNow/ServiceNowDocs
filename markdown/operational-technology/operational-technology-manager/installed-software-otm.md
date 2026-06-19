@@ -2,6 +2,7 @@
 title: Installed software for Operational Technology Management
 description: The installed software for the Operational Technology Management solution comes from IT Discovery for Operational Technology \(OT\) Networks or from the OT-certified Service Graph Connectors that support installed software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/installed-software-otm.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -23,9 +24,9 @@ The installed software for a CI varies depending on if you have the Software Ass
 -   Software Model \[cmdb\_software\_product\_model\]
 -   Software Installation \[cmdb\_sam\_sw\_install\]
 
-For more information about how the table structure for managing software installations behaves differently when SAM is activated, see [Discovery with Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoSWAssetMgmtTableSchema.md).
+For more information about how the table structure for managing software installations behaves differently when SAM is activated, see .
 
-You can also configure a computer CI to display Software Asset Management data. For more information, see [Configure a CI to display Software Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/configure-ci-to-display-sam-data.md).
+You can also configure a computer CI to display Software Asset Management data. For more information, see .
 
 ## View installed software for OT devices
 
@@ -35,5 +36,5 @@ You can view the installed software for OT devices in the Industrial Workspace i
 -   The **Software Installed on OT Devices** list in the Industrial Workspace list view under the **Operational Technology \(OT\)** module.
 -   The **Software Installed** list under the **Related Records** tab in an OT device record.
 
-**Parent Topic:**[Operational Technology Manager reference](operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

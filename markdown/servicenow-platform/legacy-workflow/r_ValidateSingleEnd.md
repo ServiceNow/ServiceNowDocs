@@ -2,6 +2,7 @@
 title: ValidateSingleEnd
 description: The ValidateSingleEnd validator finds and identifies multiple End activities in a single workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_ValidateSingleEnd.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -36,13 +37,13 @@ As soon as an **End** activity is encountered in the workflow, the workflow comp
 
 In the case of large workflows, it is often more intuitive to read the workflow when there are multiple **End** activities. In the following example, the paths to the two **Ends** are mutually exclusive execution paths. If this was a large workflow, with many activities between **Branch** and the second **End**, the value of the multiple ends becomes apparent. Tracing a **No** response from **User is invalid** to a single **End** behind 33 other activities would be significantly more difficult. There is no risk in this workflow design because there is no reason for other activities to execute if the **End** after the **Notification** activity terminates the workflow.
 
-![](../image/TwoEndExampleValid.png "Mutually exclusive execution paths")
+\[Omitted image "TwoEndExampleValid.png"\] Alt text:
 
 The next example has multiple **End** activities in execution paths that are not mutually exclusive. A **Yes** response from **User is valid** causes the **Set Values** activity to finish immediately. By reaching its **End** activity first, this execution path cancels the **Approval for Apps** and the **DB Task** activities, which might not be the desired outcome. If the paths are all expected to complete before **End**, the activities should come to a **Join** \(as in the previous example\) that transitions to a single **End**.
 
-![](../image/TwoEndExampleInValid.png "Mutually inexclusive execution paths")
+\[Omitted image "TwoEndExampleInValid.png"\] Alt text:
 
 **Note:** To add the second **End**, right-click to copy the original **End** activity and paste it onto the canvas. In most cases, a single **End** is the best and most reliable way to ensure that all activities expected to execute prior to workflow completion, do so successfully.
 
-**Parent Topic:**[Workflow validator](r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
 

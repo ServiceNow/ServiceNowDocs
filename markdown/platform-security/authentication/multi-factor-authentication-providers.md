@@ -2,6 +2,7 @@
 title: Multi-factor authentication Providers
 description: Use MFA providers to configure SMS and Email based authentication to ensure every user can login securely.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/multi-factor-authentication-providers.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Access analytics overlay
 description: Use the utility icon for quick, in-context page usage metrics, offering faster access to analytics without leaving the page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-access-analytics-overlay.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -17,16 +18,11 @@ Use the utility icon for quick, in-context page usage metrics, offering faster a
 
 ## Before you begin
 
-Role required: You need one of the following roles to use the utility icon
-
--   analytics\_admin
--   analytics\_viewer
-
-**Note:** Only a user with one of the above roles can see the utility icon.
+Role required: analytics\_admin or analytics\_viewer
 
 ## About this task
 
-**Note:** This feature supports only portals and workspaces and the main platform navigation \(unified navigation app\).
+**Note:** This feature only supports portals, workspaces, and the main platform navigation \(Unified Navigation\).
 
 ## Procedure
 
@@ -36,7 +32,7 @@ Role required: You need one of the following roles to use the utility icon
 
     A panel on the right hand side of the application/portal page shows up. It has some key usage metrics for the application pages.
 
-    **Note:** The information in the panel is visible only if Usage Insights is tracked for the application/portal.
+    **Note:** The information in the panel is visible only if Usage Insights is tracked for the application or portal.
 
 3.  Review the following usage insights information shown in the panel.
 
@@ -45,12 +41,12 @@ Role required: You need one of the following roles to use the utility icon
     -   Avg. duration: Average time the user spent in the application across all versions and devices.
     -   Avg. load time: Shows the average time it takes to load the page, this data is sampled and based on 5%-10% of total page loads.
     -   Top 5 Events: Top 5 actions that were triggered within this page.
-4.  Select **Analyze with Usage Insights** if you want to view comprehensive data usage information on the dashboard.
+4.  Select **Analyze with User Experience Analytics** if you want to view comprehensive data usage information on the dashboard.
 
-    This option redirects you to the Usage Insightsdashboard.
+    This option redirects you to the dashboard.
 
     **Note:** On the dashboard, in addition to individual application or portal pages, you can also gain insights by analyzing the entire application as a whole.
 
 
-**Parent Topic:**[Using Usage Insights](../content-framework/concept/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
 

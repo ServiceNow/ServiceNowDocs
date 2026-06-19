@@ -2,6 +2,7 @@
 title: UPSHandler - Global
 description: The UPSHandler script include provides methods to handle SNMP classification and identification for uninterruptible power supplies \(UPSs\).Classifies and identifies the UPSs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_UPSHandlerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The UPSHandler script include provides methods to handle SNMP classification and
 
 Use this script include for SNMP-related discovery.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## UPSHandler - classifyAndIdentify\(\)
 

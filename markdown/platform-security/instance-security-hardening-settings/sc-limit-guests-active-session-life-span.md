@@ -1,23 +1,24 @@
 ---
 title: Limit guest's active session life span
-description: Use the glide.guest.active.session.life\_span property to control the duration of an active guest’s HTTP sessions.
+description: Use the glide.guest.active.session.life\_span property to control the duration of an active guest's HTTP sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-limit-guests-active-session-life-span.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-29"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
 # Limit guest's active session life span
 
-Use the **glide.guest.active.session.life\_span** property to control the duration of an active guest’s HTTP sessions.
+Use the **glide.guest.active.session.life\_span** property to control the duration of an active guest's HTTP sessions.
 
-The **glide.guest.active.session.life\_span** system property enforces a maximum lifespan on active guest HTTP sessions irrespective of inactive timeout. The configured value is in minutes and the value of `0` disables timing out the active sessions. This property is limited to Guest users, which have low privilege access to an instance.
+The **glide.guest.active.session.life\_span** system property enforces a maximum lifespan on active guest HTTP sessions, regardless of session inactivity. The configured value is in minutes. A value of `0` disables the lifespan limit entirely, allowing sessions to persist until the inactive timeout fires. Guest users are unauthenticated users who access the instance without logging in.
 
-Set the **glide.guest.active.session.life\_span** system property to a value greater than `0` and less than or equal to `720`.
+Set the **glide.guest.active.session.life\_span** system property to `720`.
 
 ## More information
 
@@ -59,7 +60,7 @@ Recommended value
 
 </td><td>
 
-Less than or equal to 720
+720
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ Functional impact
 
 </td><td>
 
-This configuration enforces max life-span on active guest HTTP sessions irrespective of inactive timeout. The configured value is in minutes. A value of zero will disable timing out the active sessions. The max life-span should be more than the inactive timeout **glide.ui.session\_timeout** \(default 30 minutes\).
+This configuration enforces max life-span on active guest HTTP sessions irrespective of inactive timeout. The configured value is in minutes. A value of zero disables the lifespan limit entirely. The max life-span should be more than the inactive timeout **glide.ui.session\_timeout** \(default 30 minutes\).
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

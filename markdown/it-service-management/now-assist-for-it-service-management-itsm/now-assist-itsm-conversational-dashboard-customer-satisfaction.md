@@ -2,6 +2,7 @@
 title: ITSM Virtual Agent Customer satisfaction analytics
 description: Track customer satisfaction through AI interaction transcript analysis and user feedback to gauge experience quality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-customer-satisfaction.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -32,7 +33,7 @@ Analyze CSAT metrics by comparing ITSM Virtual Agent performance against live ag
 
 ## Customer satisfaction \(CSAT\) metrics
 
-![Now Assist for ITSM CSAT Virtual Agent Analytics](../image/now-assist-itsm-csat-va-analytics.png)
+\[Omitted image "now-assist-itsm-csat-va-analytics.png"\] Alt text: Now Assist for ITSM CSAT Virtual Agent Analytics
 
 <table><thead><tr><th>
 
@@ -75,7 +76,7 @@ This metric provides a holistic view of customer experience across your entire s
 </td></tr></tbody>
 </table>## Customer satisfaction - feedback metrics
 
-![Now Assist for ITSM CSAT metrics - Thumbs up and Thumbs down](../image/now-assist-itsm-csat-va-thumbs-up-down.png)
+\[Omitted image "now-assist-itsm-csat-va-thumbs-up-down.png"\] Alt text: Now Assist for ITSM CSAT metrics - Thumbs up and Thumbs down
 
 |Indicators|Descriptions|
 |----------|------------|
@@ -84,5 +85,5 @@ This metric provides a holistic view of customer experience across your entire s
 
 You can drill down into the data by selecting the thumbs-up or thumbs-down icon and then selecting the filter icon in the KPI details page. You can then see the breakdown of the thumbs-up or thumbs-down feedback data based on the different portals, such as Now Assist panel or Now Assist in Virtual Agent, in which it was given.
 
-![Number of chat messages that received feedback from different portals](../image/now-assist-itsm-va-csat-feedback-drilldown.png)
+\[Omitted image "now-assist-itsm-va-csat-feedback-drilldown.png"\] Alt text: Number of chat messages that received feedback from different portals
 

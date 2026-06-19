@@ -2,6 +2,7 @@
 title: Escalate an HR case
 description: Escalate an HR case when you cannot resolve it yourself. The system reassigns the case according to your organization's escalation rules and marks it as high priority.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_EscalateAnHRCase.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,7 +29,7 @@ Escalate an HR case when you encounter any of these situations:
 -   You need assistance from a senior team member
 -   The case requires management approval or intervention
 
-The escalated case is reassigned based on escalation rules configured for your organization. For information about configuring these rules, see [Configure escalation rules for HR cases](t_CreateOrModifyEscalationRules.md).
+The escalated case is reassigned based on escalation rules configured for your organization. For information about configuring these rules, see [Configure escalation rules for HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyEscalationRules.md).
 
 ## Procedure
 
@@ -49,5 +50,5 @@ The escalated case is reassigned based on escalation rules configured for your o
 
 The escalated case appears in the assignee's work queue with high priority status. The case history records the escalation action and reason.
 
-**Parent Topic:**[Use HR Case Management](../concept/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

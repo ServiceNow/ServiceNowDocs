@@ -2,11 +2,14 @@
 title: Upload firmware packages
 description: If you're using a local repository, upload firmware packages to the Discovery Console for OT so the system knows when an update is needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-package-settings.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Upload firmware packages

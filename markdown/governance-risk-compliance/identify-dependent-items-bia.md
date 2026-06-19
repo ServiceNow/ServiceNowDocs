@@ -2,6 +2,7 @@
 title: Identify critical dependencies to prioritize recovery plans
 description: Use the Dependency Assessment tab to identify items or assets that belong to a definite object type or a dependency group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/identify-dependent-items-bia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ The BIA template that you use to create a business impact analysis has dependenc
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the lists icon ![Lists icon](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+2.  Click the lists icon \[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
 3.  Click the link to the record in the **Name** column in the **In Draft** state.
 
@@ -39,7 +40,7 @@ The BIA template that you use to create a business impact analysis has dependenc
 
 5.  To add an item to a dependency group, click the **Add New** button of that container.
 
-    -   If it is the Application, Hardware, or Software dependency group that uses class extensions to populate configuration items and discover technologies or software, see [Add dependencies based on CI relationships in CMDB](add-dependencies-based-on-cmdb.md).
+    -   If it is the Application, Hardware, or Software dependency group that uses class extensions to populate configuration items and discover technologies or software, see [Add dependencies based on CI relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-dependencies-based-on-cmdb.md).
     -   If it is Vendors or Locations group, add assets accordingly. You can add multiple items in the modal form. The grid in the container becomes editable and you can enter data in each cell for an item.
     The state of the dependency group changes to **Pending**.
 
@@ -53,9 +54,9 @@ The BIA template that you use to create a business impact analysis has dependenc
 
         While configuring an element in the Element Definition form, you can set the **Requires data backup** field as **Yes**. However, at the time when a BIA is created, the application copies the required data backup information from the element definition over to the dependency group of the BIA. If at this point, the required data backup is true for the dependency group, then the **Required Data Backup** column appears in the grid.
 
-6.  To expand the dependency grid to full screen and edit the grid values, click the full screen icon \(![Full-screen icon](../image/FullScreenIcon.png)\).
+6.  To expand the dependency grid to full screen and edit the grid values, click the full screen icon \(\[Omitted image "FullScreenIcon.png"\] Alt text: Full-screen icon\).
 
-    You can use the collapse screen icon \(![Collapse-screen icon](../image/CollapseScreenIcon.png)\) to collapse the grid back to the normal screen size.
+    You can use the collapse screen icon \(\[Omitted image "CollapseScreenIcon.png"\] Alt text: Collapse-screen icon\) to collapse the grid back to the normal screen size.
 
 7.  To update a group with dependent items, click the **Edit** button.
 
@@ -79,7 +80,7 @@ The BIA template that you use to create a business impact analysis has dependenc
 
     **Note:** Dependency mapping of the dependency groups to their CIs is tracked up to five levels. Items within these five layers are added as dependent items to those Dependency Assessments that are only defined in the BIA template. For example, if Applications, Hardware, and Software are defined as Dependency Assessments in the Business Process BIA template, then only those CIs mapped up to five levels of the Dependency Assessments are added.
 
-    To select and add CI as dependent item to each dependency group individually, see [Add dependencies based on CI relationships in CMDB](add-dependencies-based-on-cmdb.md).
+    To select and add CI as dependent item to each dependency group individually, see [Add dependencies based on CI relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-dependencies-based-on-cmdb.md).
 
     The filter condition in the Element definition is used to add specific configuration items \(CIs\) via the pop-up. The **Update dependencies** UI action also considers the element definition's filter and retrieves the related CIs of the configuration item listed in the **Applies to** field of the BIA. These relationships are retrieved from the CI Relationships table.
 

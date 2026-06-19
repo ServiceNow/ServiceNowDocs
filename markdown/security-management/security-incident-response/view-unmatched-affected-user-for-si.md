@@ -2,6 +2,7 @@
 title: Add unmatched affected user for security incidents
 description: Add affected users that could not be matched to the existing system user records during data processing for preserving the context for the security analysts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-unmatched-affected-user-for-si.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

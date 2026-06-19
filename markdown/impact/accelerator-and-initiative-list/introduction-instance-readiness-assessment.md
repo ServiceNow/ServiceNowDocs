@@ -2,6 +2,7 @@
 title: Introduction to Instance Readiness Assessment
 description: The Introduction to Instance Readiness Assessment Accelerator provides guidance on understanding and interpreting instance readiness using the Instance Readiness Assessment \(IRA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/introduction-instance-readiness-assessment.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,9 @@ The Introduction to Instance Readiness Assessment Accelerator provides guidance 
 
 Introduction to Instance Readiness Assessment provides Impact customers with an overview of Instance Readiness Assessment.  This proactive approach helps you effectively address issues by guiding you on interpreting findings to enhance instance readiness. This Accelerator highlights the results of the Instance Readiness Assessment, providing key resources and leading  practices for getting started.
 
-**Note:** This Accelerator is available for the Impact Guided package.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\) packages.
 
 ## What you get
 

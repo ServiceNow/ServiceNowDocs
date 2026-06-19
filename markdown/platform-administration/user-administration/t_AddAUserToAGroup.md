@@ -2,6 +2,7 @@
 title: Add a user to a group
 description: Add a user to a group so that the user inherits all the roles assigned to the group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/t\_AddAUserToAGroup.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -48,5 +49,5 @@ If you’re a non-admin user, you can’t add a user to a group that contains th
         **Note:** Before selecting **Delete**, first make sure you have properly selected the rows containing the users you want to remove from the group.
 
 
-**Parent Topic:**[Creating groups](../../roles/concept/ua-creating-groups.md)
+**Parent Topic:**[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-groups.md)
 

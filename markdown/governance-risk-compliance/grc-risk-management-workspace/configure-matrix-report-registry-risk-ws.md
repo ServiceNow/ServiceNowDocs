@@ -2,6 +2,7 @@
 title: Configure Matrix report registry
 description: Configure the Matrix report registry to select the base table. You can create a relationship of the base with the target table to configure the details of the report for an entity-related record or a landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/configure-matrix-report-registry-risk-ws.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -41,7 +42,7 @@ Role required: sn\_matrix\_report.admin
 
 8.  On the form, fill in the fields.
 
-    For a description of the field values, see [Matrix relationship form](../../grc-workspace-audit/reference/matrix-rel-audit-report-ws.md).
+    For a description of the field values, see [Matrix relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/matrix-rel-audit-report-ws.md).
 
 9.  Select **Submit**.
 
@@ -52,7 +53,7 @@ Role required: sn\_matrix\_report.admin
 
 ## What to do next
 
-After the matrix relationship is complete, you can [Configure target table fields as columns for matrix report](../../grc-workspace-audit/task/matrix-report-relationship-audit-ws.md).
+After the matrix relationship is complete, you can [Configure target table fields as columns for matrix report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/matrix-report-relationship-audit-ws.md).
 
-**Parent Topic:**[Matrix report in Risk Workspace](../concept/matrix-report-in-risk-workspace.md)
+**Parent Topic:**[Matrix report in Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/matrix-report-in-risk-workspace.md)
 

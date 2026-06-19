@@ -2,6 +2,7 @@
 title: Reinitiate a conference call from Webex in Service Operations Workspace
 description: Reinitiate a conference call to discuss about the resolution of an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/reinitiate-webex-call.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,18 +24,18 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(![List icon](../image/list-icon-new.png)\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select the incident record that has an active conference call.
 
-5.  Select the **Collaborate** icon \(![Collaborate icon](../image/collab-icon-02.png)\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
 
 6.  Select the **Calls** tab.
 
 7.  In the **Completed** calls, select **Reinitiate call**.
 
 
-**Parent Topic:**[Use Webex for conference calls in Service Operations Workspace](../concept/cisco-webex-sow.md)
+**Parent Topic:**[Use Webex for conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/cisco-webex-sow.md)
 

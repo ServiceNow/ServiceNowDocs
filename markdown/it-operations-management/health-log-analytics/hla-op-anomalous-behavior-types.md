@@ -2,6 +2,7 @@
 title: Types of anomalous behavior in Health Log Analytics
 description: Anomalous behavior in a CI or a service can indicate an important issue. For example, a spike in the frequency or number of messages of a particular type can indicate a problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-anomalous-behavior-types.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -43,7 +44,7 @@ The Anomaly card illustrates the anomalous activity that led to the alert. The c
 
 In this example, the system tracks the baseline rate \(the average number of events per minute\) for a specific log pattern. When this typically inactive log generates a spike in events, the system detects the deviation from the baseline and generates an alert.
 
-![Anomaly card identifies and illustrates anomalous behavior.](../image/anomaly-spike.png "Anomaly card")
+\[Omitted image "anomaly-spike.png"\] Alt text: Anomaly card identifies and illustrates anomalous behavior.
 
 ## Kinds of anomalies
 

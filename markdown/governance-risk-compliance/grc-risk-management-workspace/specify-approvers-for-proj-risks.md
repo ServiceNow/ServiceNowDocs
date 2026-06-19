@@ -2,11 +2,12 @@
 title: Configure Project Portfolio Management and Advanced Risk integration
 description: Use the Project Integration Configuration form to set up the risk assessment. You have to select the risk assessment methodology, the right assessors and approvers, and the formula to roll up the risk scores and show the scores at a project level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/specify-approvers-for-proj-risks.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-04"
 reading_time_minutes: 3
 breadcrumb: [Project Risk Assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -40,9 +41,9 @@ Two predefined RAMs are provided for Enterprise Risk Assessment and Project Risk
 
 1.  Navigate to **All** &gt; **Advanced Risk Assessment** &gt; **Administration** &gt; **Project Integration Configuration**.
 
-2.  Click the information ![Information icon.](../image/icon-information.png) icon to view the project risk integration configuration record.
+2.  Select the information \[Omitted image "icon-information.png"\] Alt text: Information icon. icon to view the project risk integration configuration record.
 
-3.  Click **Open Record**.
+3.  Select **Open Record**.
 
 4.  On the form, fill in the fields.
 
@@ -87,7 +88,7 @@ Risk rollup formula
 The formula used to roll up the project risk scores. The choices are as follows:-   Average
 -   Maximum
 -   Minimum
- **Note:** Only the risks that are assessed using Advanced Risk Assessment are aggregated and have their scores rolled up. If a risk is retired, then the score of the retired risk is not aggregated. For details, see [Risk score rollup in Advanced Risk Assessment](../concept/risk-rollup-ara-concept.md).
+ **Note:** Only the risks that are assessed using Advanced Risk Assessment are aggregated and have their scores rolled up. If a risk is retired, then the score of the retired risk is not aggregated. For details, see [Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md).
 
 </td></tr><tr><td>
 
@@ -143,12 +144,12 @@ Assessor group
 The group which assesses the enterprise risk if the **Assessor type** field has **Group**.
 
 </td></tr></tbody>
-</table>5.  Click **Update**.
+</table>5.  Select **Update**.
 
 
 ## Result
 
 The assessor and approver details are set.
 
-**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](../concept/risk-and-ppm-better-together.md)
+**Parent Topic:**[Project Risk Assessment using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-and-ppm-better-together.md)
 

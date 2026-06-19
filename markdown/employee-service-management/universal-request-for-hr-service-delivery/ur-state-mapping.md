@@ -2,6 +2,7 @@
 title: Universal Request state mapping
 description: All workflows consist of states, transitions, and reasons. Map your service-specific states to the Universal Request states to provide a better user experience during request state transition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-state-mapping.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -23,7 +24,7 @@ Role required: admin
 
 For example, consider a universal request that has an HR payroll case attached to it as a primary task. When the HR case state changes from **In-progress** to **Awaiting Acceptance**, then the universal request state is updated to **Awaiting Response From User**.
 
-![UR state mapping](../images/statemap.png)
+\[Omitted image "statemap.png"\] Alt text: UR state mapping
 
 By mapping the states of the service to the UR state, it is ensured that the correct state of UR is displayed. The state transition of the primary ticket is hidden from the requester and they only see the simplified UR state transitions that are driven by the state mappings. The following table describes the universal request states and the suggested mappings.
 
@@ -41,8 +42,8 @@ By mapping the states of the service to the UR state, it is ensured that the cor
 
 3.  On the form, fill in the fields.
 
-    For more information on the field description, see [State mapping form](../reference/ur-state-mapping-form.md).
+    For more information on the field description, see [State mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-state-mapping-form.md).
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

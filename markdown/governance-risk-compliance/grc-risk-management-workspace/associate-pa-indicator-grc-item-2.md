@@ -2,6 +2,7 @@
 title: Associate a PA indicator with risks and controls
 description: You can associate Performance Analytics indicators with risks and controls to analyze trends related to the entity that risk or control belongs to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/associate-pa-indicator-grc-item-2.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -69,5 +70,5 @@ Break down element to view a particular trend and scorecard. **Note:** This fiel
     On the Risk or Control form, in the **PA Indicators** related list, you see the associated indicator. You can optionally click **View Indicator** on the desired indicator to see the Performance Analytics scorecard of the indicator.
 
 
-**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](../../grc-risk/concept/pa-indicators-risk.md)
+**Parent Topic:**[Monitor risks using GRC Performance Analytics Indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/pa-indicators-risk.md)
 

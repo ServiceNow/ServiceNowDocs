@@ -2,6 +2,7 @@
 title: Create a UI action
 description: Create a UI action to display a button on a change request for the Complete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_CreateNewUIAction.html
 release: australia
 product: Change Management
 classification: change-management
@@ -114,9 +115,9 @@ function moveToComplete(){
 </table>6.  Click **Update**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Update the state model script include](t_UpdateStateModelScriptInclude.md)
+**Previous topic:**[Update the state model script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_UpdateStateModelScriptInclude.md)
 
-**Next topic:**[Create a process flow record](t_CreateNewProcessFlowRecord.md)
+**Next topic:**[Create a process flow record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewProcessFlowRecord.md)
 

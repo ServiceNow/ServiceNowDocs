@@ -1,72 +1,81 @@
 ---
 title: Configure other integration options
-description: Perform the following procedure to configure options other than ServiceNow, Azure, or Jira.The following leading practices are guidelines for creating other integration type scripts.
+description: Configure the Other integration type to create work items in any external system using a custom payload script and basic authentication.The following leading practices are guidelines for creating other integration type scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/configure-other-integration-options.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [User story integration, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+last_updated: "2026-05-05"
+reading_time_minutes: 2
+breadcrumb: [Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
 # Configure other integration options
 
-Perform the following procedure to configure options other than ServiceNow, Azure, or Jira.
+Configure the Other integration type to create work items in any external system using a custom payload script and basic authentication.
 
 ## Before you begin
 
-Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\)
+Confirm the API endpoint URL and request body format required by your external system. The payload script must produce a request body in the format your system expects.
+
+Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
 
 ## Procedure
 
-1.  Select **Other** as the integration type.
+1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
 
-2.  Enter your:
+2.  Set **Integration Type** to `Other`.
 
-    -   Integration name
-    -   End point
-    -   Content type
-    -   Issue type
-3.  **Payload** contains the script used by the task creation integration.
+3.  Populate the following fields.
 
-4.  Enter your username and API token which will allow authentication to your connection point.
+    |Field|Value|
+    |-----|-----|
+    |Integration name|A descriptive name for this integration.|
+    |Endpoint|The full URL of the API to call. Determine what the API expects in the request body to format the payload correctly.|
+    |Content type|The content type required by the external API \(for example, `application/json`\).|
+    |Issue type|The work item type to create in the external system.|
 
+4.  In the **Payload** field, enter the script that builds the request body.
+
+    The credentials provided on the form are used in a basic authentication authorization header. See [Other integration leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-other-integration-options.md) for available script variables and leading practices.
+
+5.  Enter the **Username** and **API token** for authentication.
+
+
+**Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-integration-scan-engine.md)
 
 ## Other integration leading practices
 
 The following leading practices are guidelines for creating other integration type scripts.
 
--   This integration allows a more generic approach to building a request body object to send to a third-party API.
--   The **Payload** field is used to format the request body.
--   The API called is determined by the endpoint, and the credentials provided on the form are used in a basic authentication authorization to the third-party tool.
--   The endpoint should be the URL to the API you are calling. You will need to know what is needed in the request body to format the payload correctly. Refer to documentation for your third-party API tool to learn what format is needed in the request body.
--   Currently, only basic authentication is supported when using **Other** as the integration type.
+### Script variables
 
-There are several predefined variables available for **Other** type integrations:
+The payload script runs on the ServiceNow instance when a work item is created. Use the `payload` variable to build the request body in the format your external system requires. The script output is sent as the request body to the configured endpoint using basic authentication.
 
-<table id="table_csf_rdy_2hc"><tbody><tr><td>
+|Variable|Description|
+|--------|-----------|
+|`payload`|The content to send in the request body. Structure this object to match the format expected by your external API.|
+|`grFinding`|GlideRecord of the finding. Use this to read finding data for the request body.|
+|`workItemType`|The work item type selected for this integration.|
 
-payload
+### Leading practices
 
-</td><td>
+-   **Review your target API documentation before writing the script**
 
-The content you want to send in the request body.
+    The external system's API determines the required request body format, field names, and data types. Review the API documentation for your target system before building the `payload` object to avoid silent mapping failures.
 
-</td></tr><tr><td>
+-   **Match the payload structure to the API's expected format**
 
-grFinding
+    Set the **Content type** field and the structure of `payload` to match what the API expects. For a JSON API, build `payload` as a plain JavaScript object — it will be serialized automatically. For other formats, construct the payload string directly.
 
-</td><td>
+-   **Use grFinding to include finding context**
 
-The glide record of the finding that sends the request.
+    Read finding fields using standard GlideRecord methods on `grFinding` and map them to the fields your external system expects. For example, `grFinding.getValue('short_description')` can populate a title or summary field.
 
-</td></tr><tr><td>
+-   **Enable ES12 mode for modern JavaScript**
 
-workItemType
+    To use modern JavaScript syntax, enable **ECMAScript 2021 \(ES12\) mode** in Scan Engine Properties before writing your payload script.
 
-</td><td>
 
-The work item type selected for the Other integration.
-
-</td></tr></tbody>
-</table>

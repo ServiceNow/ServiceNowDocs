@@ -2,6 +2,7 @@
 title: API reference
 description: Use ServiceNow APIs to change functionality and add features on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/api-reference.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,35 +18,35 @@ Use ServiceNow APIs to change functionality and add features on the ServiceNow A
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Client ![](../../../reuse/icons/brand-icons/bus-monitor.svg) Control how the ServiceNow AI Platform functions and is displayed within the web browser.](api-client.md)
+[Client \[Omitted image "bus-monitor.svg"\] Alt text: Control how the ServiceNow AI Platform functions and is displayed within the web browser.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 </td><td>
 
-[Client Next Experience ![](../../../reuse/icons/brand-icons/bus-laptop.svg) Control how the ServiceNow AI Platform functions and is displayed within the web browser in the Next Experience UI Framework.](api-client-next.md)
+[Client Next Experience \[Omitted image "bus-laptop.svg"\] Alt text: Control how the ServiceNow AI Platform functions and is displayed within the web browser in the Next Experience UI Framework.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client-next.md)
 
 </td><td>
 
-[Client mobile ![](../../../reuse/icons/brand-icons/bus-mobile-native.svg) Build custom mobile experiences inside of ServiceNow AI Platform native mobile apps.](api-client-mobile.md)
+[Client mobile \[Omitted image "bus-mobile-native.svg"\] Alt text: Build custom mobile experiences inside of ServiceNow AI Platform native mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 </td><td>
 
-[Mobile SDK ![](../../../reuse/icons/brand-icons/bus-mobile-phone.svg) Leverage the ServiceNow AI Platform within standalone Android and iOS apps.](api-mobile_sdk.md)
+[Mobile SDK \[Omitted image "bus-mobile-phone.svg"\] Alt text: Leverage the ServiceNow AI Platform within standalone Android and iOS apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-mobile_sdk.md)
 
 </td></tr><tr><td>
 
-[Server ![](../../../reuse/icons/brand-icons/bus-server.svg) Build and update applications.](api-server.md)
+[Server \[Omitted image "bus-server.svg"\] Alt text: Build and update applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 </td><td>
 
-[REST ![](../../../reuse/icons/brand-icons/bus-cloud.svg) Access and update data.](api-rest.md)
+[REST \[Omitted image "bus-cloud.svg"\] Alt text: Access and update data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 </td><td>
 
-[UI Builder ![](../../../reuse/icons/brand-icons/bus-service-map.svg) Build client scripts in UI Builder.](api-uib.md)
+[UI Builder \[Omitted image "bus-service-map.svg"\] Alt text: Build client scripts in UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/ui-builder-api-reference/api-uib.md)
 
 </td><td>
 
-[Browse APIs by product ![](../../../reuse/icons/brand-icons/bus-find-an-app.svg) Find APIs to use with your ServiceNow products.](api-product-type.md)
+[Browse APIs by product \[Omitted image "bus-find-an-app.svg"\] Alt text: Find APIs to use with your ServiceNow products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-product-type.md)
 
 </td></tr></tbody>
 </table>## Client
@@ -54,8 +55,8 @@ Use client-side JavaScript APIs to control how the ServiceNow AI Platform functi
 
 Common use cases:
 
--   Use the [GlideAjax](../../../app-store/dev_portal/API_reference/GlideAjax/concept/c_GlideAjaxAPI.md#) API to call server-side code from a client script.
--   Use the [GlideForm](../../../app-store/dev_portal/API_reference/GlideForm/concept/c_GlideFormAPI.md#) API to customize forms.
+-   Use the [GlideAjax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideAjaxAPI.md) API to call server-side code from a client script.
+-   Use the [GlideForm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideFormAPI.md) API to customize forms.
 
 ## Client mobile
 
@@ -81,9 +82,9 @@ Use server-side JavaScript APIs to change the functionality of existing applicat
 
 Common use cases:
 
--   Use the [GlideRecord](../../../app-store/dev_portal/API_reference/glideRecordScoped/concept/c_GlideRecordScopedAPI.md#) or [GlideQuery](../../../app-store/dev_portal/API_reference/GlideQuery/concept/GlideQueryGlobalAPI.md#) APIs to perform create, read, update, and delete operations on record data from server-side scripts.
--   Use the [GlideSystem](../../../app-store/dev_portal/API_reference/glideSystemScoped/concept/c_GlideSystemScopedAPI.md#) API to access information about the instance or the current user session and to write informational or error messages.
--   Use [FlowAPI](../../../app-store/dev_portal/API_reference/ScriptableFlowAPI/concept/ScriptableFlowAPI.md#) methods to trigger flows, subflows, and actions from server-side scripts.
+-   Use the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) or [GlideQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideQueryGlobalAPI.md) APIs to perform create, read, update, and delete operations on record data from server-side scripts.
+-   Use the [GlideSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md) API to access information about the instance or the current user session and to write informational or error messages.
+-   Use [FlowAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md) methods to trigger flows, subflows, and actions from server-side scripts.
 
 ## REST
 
@@ -91,13 +92,13 @@ Use REST APIs to access and update data on the ServiceNow AI Platform. You can d
 
 Common use cases:
 
--   Use the [Attachment API](../../../integrate/inbound-rest/concept/c_AttachmentAPI.md#) to upload and query file attachments.
--   Use the [Email API](../../../integrate/inbound-rest/concept/email-api.md#) to send and receive email messages.
--   Use the [Table API](../../../integrate/inbound-rest/concept/c_TableAPI.md#) to create, read, update, and delete records in a table.
+-   Use the [Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_AttachmentAPI.md) to upload and query file attachments.
+-   Use the [Email API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/email-api.md) to send and receive email messages.
+-   Use the [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md) to create, read, update, and delete records in a table.
 
 ## UI Builder
 
-Use UI Builder APIs when developing client scripts in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md). Client scripts are executed in response to something happening on a page, such as:
+Use UI Builder APIs when developing client scripts in the . Client scripts are executed in response to something happening on a page, such as:
 
 -   User interaction events/actions, such as a button click.
 -   Lifecycle events, such as a data broker execution started.

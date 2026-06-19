@@ -2,6 +2,7 @@
 title: Onboard Bitbucket to DevOps Change Velocity — Classic
 description: Create, connect, discover, and configure your Bitbucket instance using the Classic UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-bitbucket-to-devops-change-velocity-classic.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -19,7 +20,7 @@ Create, connect, discover, and configure your Bitbucket instance using the Class
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
-Complete the steps specified in the [Getting started](../concept/setting-up-devops-change-velocity.md) section before connecting to a tool.
+Complete the steps specified in the [Getting started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md) section before connecting to a tool.
 
 ## About this task
 
@@ -67,7 +68,7 @@ Tool username, Tool password / Access token
 Login credentials of the existing Bitbucket instance.
 
 </td></tr></tbody>
-</table>    For a list of all the permissions required on the credentials for connecting to Bitbucket, see Bitbucket permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>    For a list of all the permissions required on the credentials for connecting to Bitbucket, see Bitbucket permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 3.  Select **MID Server** for an on-premises tool that is attached to a MID Server.
 
@@ -100,12 +101,12 @@ Login credentials of the existing Bitbucket instance.
 
 9.  Select **Import** to import historical data from the repository.
 
-    **Note:** If your tool credential has changed, you must update the credentials in your ServiceNow instance. For more information, see [Update third-party tool credentials in DevOps Change Velocity](update-third-party-tool-credentials-in-devops-change-velocity.md).
+    **Note:** If your tool credential has changed, you must update the credentials in your ServiceNow instance. For more information, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
     Imported commits, branches, and pull request records from the repository are added to the corresponding related lists.
 
 10. In the **App** field, click the lookup list and select an App record to associate with the repository, or click **New** to create one.
 
 
-**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](../concept/bitbucket-integration-dev-ops.md)
+**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md)
 

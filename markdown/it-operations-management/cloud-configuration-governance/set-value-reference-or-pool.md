@@ -2,6 +2,7 @@
 title: Set default values for a cloud catalog form fields
 description: You can set default values for all users or you can populate fields with default values based on conditions. This example shows you how to set a default schedule profile and business service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/set-value-reference-or-pool.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -21,9 +22,9 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 Before you can follow this example, you should be familiar with creating blueprints and blueprint rules. See these resources:
 
--   [Cloud Provisioning Blueprints](../concept/blueprints.md)
--   [Build a Cloud Provisioning blueprint](create-blueprint-cmp.md)
--   [Configure a blueprint rule](configure-a-blueprint-rule.md#)
+-   [Cloud Provisioning Blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/blueprints.md)
+-   [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md)
+-   [Configure a blueprint rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-a-blueprint-rule.md)
 
 ## About this task
 
@@ -43,11 +44,11 @@ The example in this topic sets the values in different ways:
 
     For this example, a blueprint with a virtual server on an AWS datacenter is used.
 
-    ![Virtual server on AWS](../image/blueprint-virtual-server-aws.png)
+    \[Omitted image "blueprint-virtual-server-aws.png"\] Alt text: Virtual server on AWS
 
 2.  On the blueprint form, click the **Catalog** tab, and then click the tile that represents the **Provision** operation.
 
-    ![Catalog item](../image/request-operation-catalog-item.png)
+    \[Omitted image "request-operation-catalog-item.png"\] Alt text: Catalog item
 
 3.  Click the **General Info** variable set in the Variable Sets related list.
 
@@ -55,13 +56,13 @@ The example in this topic sets the values in different ways:
 
     Notice that the **Pool** field on the **Type Specifications** tab specifies the pool from which the values for the schedule profile are derived: ScheduleProfilePool.
 
-    The **ScheduleProfilePool** pool specifies the **All** filter, which returns the values in the Name field from the Schedule Profile \[sn\_cmp\_schedule\_profile\] table. These values are static text values, which means that you can specify the exact text value for the name of the schedule profile that you want to make the default. ![The ScheduleProfile pool](../image/schedule-profile-pool.png)
+    The **ScheduleProfilePool** pool specifies the **All** filter, which returns the values in the Name field from the Schedule Profile \[sn\_cmp\_schedule\_profile\] table. These values are static text values, which means that you can specify the exact text value for the name of the schedule profile that you want to make the default. \[Omitted image "schedule-profile-pool.png"\] Alt text: The ScheduleProfile pool
 
 5.  On the **Default Value** tab of the ScheduleProfile property form, enter the text that matches the value in the Name field from the Schedule Profile \[sn\_cmp\_schedule\_profile\] table.
 
     In this example, that value is `8-5 weekdays`.
 
-    ![8-5 Weekdays](../image/schedule-profile-default-value.png)
+    \[Omitted image "schedule-profile-default-value.png"\] Alt text: 8-5 Weekdays
 
 6.  Click **Update**.
 
@@ -69,7 +70,7 @@ The example in this topic sets the values in different ways:
 
     Notice that the **Reference** field on the **Type Specifications** tab specifies the Service \[cmdb\_ci\_service\] table, from which the values for the business service are derived.
 
-    ![The Business Service property](../image/business-service-property.png)
+    \[Omitted image "business-service-property.png"\] Alt text: The Business Service property
 
     By default, to refer to a specific record in a table, you must know the Sys ID of the record.
 
@@ -83,7 +84,7 @@ The example in this topic sets the values in different ways:
 
         This example uses **Workday Enterprise Services**.
 
-        ![Copy the Sys ID](../image/copy-workday-sys-id.png)
+        \[Omitted image "copy-workday-sys-id.png"\] Alt text: Copy the Sys ID
 
 9.  On the **BusinessService** variable form, create a rule, action, and condition with these values:
 
@@ -134,18 +135,18 @@ The Sys ID of the business service that you copied.
 </td></tr></tbody>
 </table>        In this example, the business service is set to Workday Enterprise Services by default, which is represented in the system with the Sys ID that you already copied.
 
-        ![Business Service Rule with default value](../image/bp-set-business-service-action.png)
+        \[Omitted image "bp-set-business-service-action.png"\] Alt text: Business Service Rule with default value
 
     6.  Click **Submit**.
 
 
 ## Result
 
-![Default values for schedule profile and business service](../image/cloud-management-v2-admin.png)
+\[Omitted image "cloud-management-v2-admin.png"\] Alt text: Default values for schedule profile and business service
 
 ## What to do next
 
 You can create a condition or multiple conditions that must be met before the system sets the default value for the business service. For example, you might want to change the default value of business service to Workday Enterprise Services only when the group that the user belongs to is the Workday Admins group.
 
-**Parent Topic:**[Cloud catalog form configuration examples](../concept/example-blueprint-rules.md)
+**Parent Topic:**[Cloud catalog form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/example-blueprint-rules.md)
 

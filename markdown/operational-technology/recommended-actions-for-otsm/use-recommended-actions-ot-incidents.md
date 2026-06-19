@@ -2,6 +2,7 @@
 title: Apply Recommended Actions to your Operational Technology incidents
 description: Apply Recommended Actions to your Operational Technology \(OT\) incidents to display relevant actions to users based on the context of an OT incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/recommended-actions-for-otsm/use-recommended-actions-ot-incidents.html
 release: australia
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
@@ -25,7 +26,7 @@ Role required: sn\_ot\_incident\_write
 
 You can use the Recommendations panel and AI search when viewing an OT incident record to view and select relevant actions related to your incident.
 
-For more information about Recommended Actions, see [Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-using-recommended-actions.md).
+For more information about Recommended Actions, see .
 
 ## Procedure
 
@@ -37,10 +38,10 @@ For more information about Recommended Actions, see [Using the Recommended Actio
 
 4.  Open the incident record that you want to review the recommended actions for.
 
-5.  Select the **Recommended Actions** \(![Recommended Actions icon](../../operational-technology-recommended-actions/image/recommendations-icon.png)\) icon.
+5.  Select the **Recommended Actions** \(\[Omitted image "recommendations-icon.png"\] Alt text: Recommended Actions icon\) icon.
 
 6.  In the **Recommendations** panel, review and select the recommended actions.
 
 
-**Parent Topic:**[Using Recommended Actions for Operational Technology Service Management \(OTSM\)](../../operational-technology-recommended-actions/concept/using-recommended-actions-otsm.md)
+**Parent Topic:**[Using Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/using-recommended-actions-otsm.md)
 

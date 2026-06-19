@@ -2,6 +2,7 @@
 title: Post CSV or Excel files directly to an import set
 description: An administrator can post CSV or Excel files directly to instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_PostCSVOrExcelFilesToImportSet.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -31,8 +32,8 @@ https://<instance>.service-now.com/sys_import.do?sysparm_import_set_tablename=<t
 
 **Important:** The body of the POST must contain the file as a multi-part attachment.
 
--   **[Posting a CSV file - Perl and Java examples](../reference/r_PerlExample.md)**  
+-   **[Posting a CSV file - Perl and Java examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_PerlExample.md)**  
 An example using Perl to post a CSV file with basic auth credentials and Java Apache HttpClient class to post a CSV file with basic auth credentials.
 
-**Parent Topic:**[Importing data using import sets](../concept/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

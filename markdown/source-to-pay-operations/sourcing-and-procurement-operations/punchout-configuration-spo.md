@@ -2,6 +2,7 @@
 title: Punchout configuration in SPO
 description: You must configure punchout for third-party suppliers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/punchout-configuration-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -24,7 +25,7 @@ The following configuration is required in SPO to enable punchout:
     -   API Exchange: If the record is marked for API Exchange, the API Configuration related list provides options for setting up API-based integration with PunchOut systems.
     -   SpendInt API: If the record is marked for SpendInt API, configuration options for data load are available. This supports pre-PunchOut configuration for integrations.
 
-For more information, see [Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md).
+For more information, see [Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md).
 
-**Parent Topic:**[Understanding Punchout](punchout-overview.md)
+**Parent Topic:**[Understanding Punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
 

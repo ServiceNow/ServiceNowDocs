@@ -2,6 +2,7 @@
 title: Share data between tables
 description: Share data between tables to avoid data duplication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-share-data.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -33,11 +34,11 @@ Phase 1
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Create a data table](app-tutorial-create-table.md)
+[Create a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-table.md)
 
 </td></tr><tr><td>
 
@@ -45,11 +46,11 @@ Phase 2
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Configure a data table](app-tutorial-configure-table.md)
+[Configure a data table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-configure-table.md)
 
 </td></tr><tr><td>
 
@@ -57,11 +58,11 @@ Phase 3
 
 </td><td align="justify">
 
-![In progress icon](../image/app-tutorial-progress-wip.png)
+\[Omitted image "app-tutorial-progress-wip.png"\] Alt text: In progress icon
 
 </td><td>
 
-[Share data between tables](app-tutorial-share-data.md)
+[Share data between tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-share-data.md)
 
 </td></tr></tbody>
 </table>Storing data in multiple tables enables you to keep your data organized and modular. When you want to share data between tables you can create reference fields, which pull records from one table into another without duplicating the data.
@@ -86,17 +87,17 @@ Fourth video in the app creation tutorial series.
 
 1.  Create a new table to store airport information.
 
-    In our tutorial, we create a new table from a spreadsheet that stores airport information. To follow along with the tutorial, [download the airport spreadsheet](https://downloads.docs.servicenow.com/resource/enus/tutorial/app-tutorial-airports.xlsx). Then use the procedures in [Import a spreadsheet](spreadsheet-importing-spreadsheet.md) and [Create new table from spreadsheet import](spreadsheet-create-new-table.md) to create a new table from the airport spreadsheet.
+    In our tutorial, we create a new table from a spreadsheet that stores airport information. To follow along with the tutorial, [download the airport spreadsheet](https://downloads.docs.servicenow.com/resource/enus/tutorial/app-tutorial-airports.xlsx). Then use the procedures in [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md) and [Create new table from spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-create-new-table.md) to create a new table from the airport spreadsheet.
 
 2.  Customize the table so that it displays the information that you want to reference.
 
     1.  Select the airport table from your application dashboard in App Engine Studio.
 
-    2.  On the table landing page, select the More actions icon \(![](../../../administer/ui-builder/image/three-dot-icon.png)\) next to **Data** in the top ribbon, then select **Fields**.
+    2.  On the table landing page, select the More actions icon \(\[Omitted image "three-dot-icon.png"\] Alt text:\) next to **Data** in the top ribbon, then select **Fields**.
 
-        ![Choose theFields data view to add and configure fields in your table.](../image/app-tutorial-connect-tables-data-fields.png)
+        \[Omitted image "app-tutorial-connect-tables-data-fields.png"\] Alt text: Choose theFields data view to add and configure fields in your table.
 
-    3.  On the **Fields** page, in the **Name** field, toggle on the **Display** switch \(![](../../../administer/form-builder/image/toggle-on.png)\) to enable other tables to reference airport names.
+    3.  On the **Fields** page, in the **Name** field, toggle on the **Display** switch \(\[Omitted image "toggle-on.png"\] Alt text:\) to enable other tables to reference airport names.
 
         **Important:** You can select only one field to be referenced by other tables. If you attempt to select multiple fields, Table Builder keeps only one of your selections when you save your changes.
 
@@ -106,7 +107,7 @@ Fourth video in the app creation tutorial series.
 
 4.  Select the employee travel request table, where you’ll create the reference fields that pull data from the airport table.
 
-5.  On the table landing page, select the More actions icon \(![](../../../administer/ui-builder/image/three-dot-icon.png)\) next to **Data**, then select **Fields**.
+5.  On the table landing page, select the More actions icon \(\[Omitted image "three-dot-icon.png"\] Alt text:\) next to **Data**, then select **Fields**.
 
 6.  Create the reference fields.
 
@@ -132,7 +133,7 @@ Fourth video in the app creation tutorial series.
 
         In our tutorial, the reference fields are labeled `Travel From` and `Travel To`.
 
-        ![You can search for fields to add to your table in the search bar in the Add form elements panel.](../image/app-tutorial-search-add-form-elements.png)
+        \[Omitted image "app-tutorial-search-add-form-elements-v2.png"\] Alt text: You can search for fields to add to your table in the search bar in the Add form elements panel.
 
     3.  Drag the reference fields from the **Add form elements** panel to the **Default view** panel.
 
@@ -147,5 +148,5 @@ The data model for the employee travel request application is complete.
 
 ## What to do next
 
-Continue building the employee travel request application by proceeding to the next step in the app creation tutorial: [Creating user experiences](../concept/app-tutorial-experience-layer.md).
+Continue building the employee travel request application by proceeding to the next step in the app creation tutorial: [Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-experience-layer.md).
 

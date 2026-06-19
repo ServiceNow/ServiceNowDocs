@@ -2,6 +2,7 @@
 title: Import bulk entitlements in workspace
 description: You can import multiple entitlements at one go in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/import-entitlements-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -31,7 +32,7 @@ You can leverage the Activity center in the Software asset overview landing page
 
 2.  Select **Create entitlement**.
 
-    ![Bulk import of entitlements](../image/create-bulkimport.png)
+    \[Omitted image "create-bulkimport.png"\] Alt text: Bulk import of entitlements
 
 3.  In the Create new entitlement dialog box, select **Import multiple entitlements from an Excel file** and select **Next**.
 
@@ -75,12 +76,12 @@ You can leverage the Activity center in the Software asset overview landing page
 
     If an import error record doesn't have a software model but the **Publisher** and **Product** fields have valid values, then on selecting **Import**, a software model is automatically created and the status of the record changes to **Manually fixed**.
 
-    For a detailed description of the entitlement import error fields, see [Entitlement import error fields](../reference/entitlement-import-error-fields.md)
+    For a detailed description of the entitlement import error fields, see [Entitlement import error fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/entitlement-import-error-fields.md)
 
 12. Correct the errors and select **Import**.
 
-    The entitlement is successfully created. Further processing of the entitlement continues such as validation of downgrade models for the entitlement. For more information on resolving errors, see [Entitlement import error actions](../reference/import-software-rights-form.md).
+    The entitlement is successfully created. Further processing of the entitlement continues such as validation of downgrade models for the entitlement. For more information on resolving errors, see [Entitlement import error actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-software-rights-form.md).
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Create a connection and credential in Virtual Agent Bot Interconnect
 description: Create a connection and credential in Virtual Agent Bot Interconnect \(primary instance\) to enable uploading of attachments in the secondary bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances-uploading-attachments.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -67,10 +68,10 @@ Role required: admin
 
     For example, `SNowSecondaryBotAttachmentToken`.
 
-    ![ServiceNow Secondary Bot HTTPS connection view. Credential and Connection URL fields are highlighted as newly created credential record and VA API installation on the secondary bot instance.](../images/api-secondary-bot-attachment-connection-credential.png "Connection and credential record in the ServiceNow Bot Interconnect instance")
+    \[Omitted image "api-secondary-bot-attachment-connection-credential.png"\] Alt text: ServiceNow Secondary Bot HTTPS connection view. Credential and Connection URL fields are highlighted as newly created credential record and VA API installation on the secondary bot instance.
 
 15. Click **Update**.
 
 
-**Parent Topic:**[Create a connection and credential in Virtual Agent Bot Interconnect](create-connection-credential-two-sn-instances.md)
+**Parent Topic:**[Create a connection and credential in Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances.md)
 

@@ -2,6 +2,7 @@
 title: Create a CI manually in Service Graph Workspace
 description: Create a CI in Service Graph Workspace, while applying Identification and Reconciliation Engine \(IRE\) processes and other requirements for the CI's class. IRE identification rules enforce the new CI to be unique and to comply with other class requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-sg-workspace.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,35 +18,35 @@ Create a CI in Service Graph Workspace, while applying Identification and Reconc
 
 ## About this task
 
-Creating specialty CIs such as a service instance, isn't supported in this Create CI experience. Typically, such CIs aren't discoverable and you must create them manually using specific wizards, such as the [Application service\(Service instance\) wizard](../../service-mapping/task/create-it-services.md).
+Creating specialty CIs such as a service instance, isn't supported in this Create CI experience. Typically, such CIs aren't discoverable and you must create them manually using specific wizards, such as the [Application service\(Service instance\) wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
 You can access the Create CI experience in either of the following ways:
 
 -   Select the **Create CI** link in the Management tools, Create section on the Governance view of Service Graph Workspace which lets you then select a class for the new CI.
--   Drill down a class group bar in the CI Summary tab on the CI overview tile, in which case the class you are drilling down from becomes the class for the new CI. This option is available only if you drill down a class that isn't excluded for the Create CI experience. For information about excluding classes for the Create CI experience in Service Graph Workspace, see [Limit the class list for new CIs created in a workspace](limit-class-create-ci-workspace-sg.md).
+-   Drill down a class group bar in the CI Summary tab on the CI overview tile, in which case the class you are drilling down from becomes the class for the new CI. This option is available only if you drill down a class that isn't excluded for the Create CI experience. For information about excluding classes for the Create CI experience in Service Graph Workspace, see [Limit the class list for new CIs created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace-sg.md).
 
 As you progress through the procedure, fields appear dynamically according to your selections and entries on the current or previous pages.
 
-To manually create a new CI without applying IRE processes \(Core UI\), see [Populating the CMDB](../concept/c_OptionsToPopulateCMDB.md). For more information about mandatory attributes, IRE processes, dependent CIs, and the CI relationship editor \(Core UI\), see:
+To manually create a new CI without applying IRE processes \(Core UI\), see [Populating the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_OptionsToPopulateCMDB.md). For more information about mandatory attributes, IRE processes, dependent CIs, and the CI relationship editor \(Core UI\), see:
 
--   [Set a CI attribute to be mandatory](t_SetCIFieldMandatory.md)
--   [Identification rules](../concept/c_IdentificationRules.md)
--   [CMDB classifications and class dependency](../concept/c_CMDBClassifications.md)
--   [CI relationship editor](../concept/c_RelationshipEditor.md)
+-   [Set a CI attribute to be mandatory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_SetCIFieldMandatory.md)
+-   [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md)
+-   [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
+-   [CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_RelationshipEditor.md)
 
 ## Before you begin
 
 Configure any customizations to the create CI experience before creating new CIs:
 
--   Complete any request by an administrator for additional non-mandatory attributes. For information about how an administrator can use configuration identifiers to incorporate requests for attributes into the flow of creating a new CI, see [Request additional attributes for new CIs](add-att-create-ci-sg-workspace.md).
--   Complete any settings for limiting the list of classes available to choose from, for a new CI. For information about how an administrator can use configuration identifiers to create a custom list of classes for a new CI, see [Limit the class list for new CIs created in a workspace](limit-class-create-ci-workspace-sg.md).
+-   Complete any request by an administrator for additional non-mandatory attributes. For information about how an administrator can use configuration identifiers to incorporate requests for attributes into the flow of creating a new CI, see [Request additional attributes for new CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/add-att-create-ci-sg-workspace.md).
+-   Complete any settings for limiting the list of classes available to choose from, for a new CI. For information about how an administrator can use configuration identifiers to create a custom list of classes for a new CI, see [Limit the class list for new CIs created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace-sg.md).
 
 If you want additional actions to be performed after creating a CI, such as creating a record that references the new CI, implement the ManualCreateCIExtPoint extension point:
 
 -   In the getAppId\(\) function, add the sys\_id of the application containing the workspace from the UX Application \[sys\_ux\_page\_registry\] table.
 -   In the postInsertCI\(\) function, define the additional actions you want to perform.
 
-Your extension point implementation runs after a new CI is created in the application specified in getAppId\(\). You can create additional implementations as needed for additional applications. For more information about extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+Your extension point implementation runs after a new CI is created in the application specified in getAppId\(\). You can create additional implementations as needed for additional applications. For more information about extension points, see .
 
 Role required: cmdb\_manual\_ci\_ire\_access \(contained in the sn\_cmdb\_editor role by default\)
 
@@ -119,5 +120,5 @@ In the new CI, **Discovery source** is set to **Manual via IRE**.
 
 ## What to do next
 
-You can view the new CI or other CIs, using CI Form in Service Graph Workspace. For more information about using the CI Form, see [Manage CI details using CI Form in Service Graph Workspace](../concept/ci-form-sg-workspace.md).
+You can view the new CI or other CIs, using CI Form in Service Graph Workspace. For more information about using the CI Form, see [Manage CI details using CI Form in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-form-sg-workspace.md).
 

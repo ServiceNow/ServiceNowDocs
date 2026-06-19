@@ -2,6 +2,7 @@
 title: Get entitlement for the BCM application
 description: The first step in installing an application is to verify that the application or the product and its associated applications have valid ServiceNow entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/entitle-bcm-product.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -50,5 +51,5 @@ Individuals performing entitlement must have a Now Support account and have perm
     You are now ready to install the application.
 
 
-**Parent Topic:**[Business Continuity Management and ServiceNow Store](../concept/bcm-and-store.md)
+**Parent Topic:**[Business Continuity Management and ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-and-store.md)
 

@@ -2,6 +2,7 @@
 title: Event Notification Management Open API Developer Guide
 description: Use the Event Notification Management Open API to create, update, and delete event records in the Events \[em\_event\] table.You can extend and modify the functionality of the Event Notification Management Open API by editing its associated script include files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/event-mgmt-notif\_dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -23,11 +24,11 @@ You can extend and modify the functionality of the Event Notification Management
 
 The following are the script includes that the Event Notification Management Open API uses to process event notification requests passed to the API:
 
--   `AlarmAPIProcessorOOB`: Contains helper functions that support functions in the `TMFTopicEventAPIUtil` script include. For additional information on the `AlarmAPIProcessorOOB` script include, see the [Alarm Management Open API Developer Guide](alarm-mgmt_dev-guide.md#).
+-   `AlarmAPIProcessorOOB`: Contains helper functions that support functions in the `TMFTopicEventAPIUtil` script include. For additional information on the `AlarmAPIProcessorOOB` script include, see the [Alarm Management Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/alarm-mgmt_dev-guide.md).
 -   `AlarmAPIProcessor`: An empty script include file. Update this file to define any functions that you want to override in the `AlarmAPIProcessorOOB` script include.
 -   `JSONSchemaValidation`: Contains functions to handle the validation of schemas for the payload defined in the `TMFAlarmAPIConstants` script include. This script include is under the tmt\_core plugin.
 -   `TMFAlarmAPIConstants`: Contains constants and required parameter information. It also contains the schemas for the payloads passed in the Event Notification Management Open endpoint.
--   [`TMFTopicEventAPIUtilOOB`](../../../../app-store/dev_portal/API_reference/TMFTopicEventAPIUtilOOB/concept/tmftopiceventapiutiloobScopedAPI.md#): Contains functions to handle API requests that are triggered by [external trigger definition flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-flow-ihub.md) that have the actions `AlarmCreateNotification`, `AlarmChangeNotification`, `AlarmDeleteNotification` which create, update, and delete events.
+-   [`TMFTopicEventAPIUtilOOB`](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/tmftopiceventapiutiloobScopedAPI.md): Contains functions to handle API requests that are triggered by external trigger definition flows that have the actions `AlarmCreateNotification`, `AlarmChangeNotification`, `AlarmDeleteNotification` which create, update, and delete events.
 -   `TMFTopicEventAPIUtil`: An empty script include file. Update this file to define any functions that you want to override in the `TMFTopicEventAPIUtilOOB` script include.
 
 The following sections provide examples of some of the customizations that you can make to the Event Notification Management Open API processing by extending/modifying these script include files.

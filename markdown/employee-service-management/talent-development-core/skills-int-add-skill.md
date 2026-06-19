@@ -2,6 +2,7 @@
 title: Adding a skill in Skills Foundation
 description: Add the skills required across your organization by Identifying the skills you currently have and might need. These skills can be associated with people and roles to deliver employee growth.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-int-add-skill.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -38,7 +39,7 @@ Role required: sn\_skills\_int.admin
     -   Technical
     **Note:** The Generic level type is available by default. For the remaining level types, you must select the option to install the skills demo data.
 
-    For more information on defining a skill level type, see [Define a skill level type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/define-skill-level-type.md).
+    For more information on defining a skill level type, see .
 
 5.  Activate the skill by selecting the **Active** check box.
 

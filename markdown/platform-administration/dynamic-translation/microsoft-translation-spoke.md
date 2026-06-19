@@ -2,6 +2,7 @@
 title: Microsoft Azure Translator Service spoke
 description: Microsoft Azure Translator Service spoke provides subflows and actions to detect and translate user-entered text, using the Microsoft machine translation service. Dynamic Translation supports detection and translation of single texts and multiple texts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/microsoft-translation-spoke.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -36,7 +37,7 @@ The spoke provides subflows in the Published state to integrate with Microsoft t
 |Subflow|Description|
 |-------|-----------|
 |Detect Language \[detect\_language\_v3\]|Contains a set of inputs, actions, and output to detect the language of the input text. Releases before Xanadu Patch 3 use v3 flows.|
-|Detect Language V4 \[detect\_language\_v4\]|Contains a set of inputs, actions, and output to detect the language of the input text. Releases from Xanadu Patch 3 use v4 flows. For more information about v4 flows, see [Migrate customized Translator Configurations to v4 flows](../task/migrate-v4-dynamic-translation.md).|
+|Detect Language V4 \[detect\_language\_v4\]|Contains a set of inputs, actions, and output to detect the language of the input text. Releases from Xanadu Patch 3 use v4 flows. For more information about v4 flows, see [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).|
 |Translate Text \[translate\_text\_v3\]|Contains a set of inputs, actions, and outputs to translate the input text to multiple languages. This subflow uses v3 for releases before and after Xanadu Patch 3.|
 
 ## Spoke actions
@@ -56,7 +57,7 @@ For information on Microsoft Translator Text API, see the [Microsoft](https://do
 
 ## Connection and credential alias requirements
 
-IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see Credentials and connection information.
 
 To use the spoke connection aliases, create an associated connection record and a credential record for each alias.
 
@@ -72,12 +73,12 @@ The following are the connection alias requirements.
 
 Perform the following tasks to connect to the Microsoft machine translation service.
 
-1.  [Create a credential for the MicrosoftTranslation alias](../task/create-credential-ms-translation.md)  
+1.  [Create a credential for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-credential-ms-translation.md)  
 Authorize actions of Microsoft Azure Translator Service spoke by creating a credential for the MicrosoftTranslation connection and credential alias.
-2.  [Create a connection for the MicrosoftTranslation alias](../task/create-connection-ms-translation.md)  
+2.  [Create a connection for the MicrosoftTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-connection-ms-translation.md)  
 Connect to the Microsoft translation service by creating a connection. Provide information that is used by HTTP\(s\) actions or activities to connect to that service.
-3.  [Activate the Microsoft translator configuration](../task/activate-ms-translator-config.md)  
+3.  [Activate the Microsoft translator configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/activate-ms-translator-config.md)  
 Make the Microsoft translation service available for use by activating the Microsoft translator configuration.
 
-**Parent Topic:**[Integration with other translation services](integration-with-other-translation-services.md)
+**Parent Topic:**[Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integration-with-other-translation-services.md)
 

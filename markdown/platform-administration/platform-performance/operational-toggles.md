@@ -2,6 +2,7 @@
 title: Operational toggles
 description: You can control how much bandwidth an application uses on your system by mapping system run levels to operational toggles. An excessive bandwidth could impact your system performance and your users' experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/operational-toggles.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -25,9 +26,9 @@ You can also create operational toggles to enhance user experience. For example,
 
 ## Operational toggle levels
 
-You can create different levels of your desired toggle. For example, you might want to perform a type-ahead search every keystroke or every fifth keystroke. For more information about toggle levels, see [Create an operational toggle level](../task/create-operational-toggle-level.md).
+You can create different levels of your desired toggle. For example, you might want to perform a type-ahead search every keystroke or every fifth keystroke. For more information about toggle levels, see [Create an operational toggle level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/create-operational-toggle-level.md).
 
 ## Run level toggle mapping
 
-You can associate the system run level to the toggle level with toggle mapping. Depending on your instance health, the API returns the appropriate toggle level value and exception roles. For information about how to create run level toggle mapping, see. [Create run level toggle mapping](../task/create-run-level-toggle-mapping.md).
+You can associate the system run level to the toggle level with toggle mapping. Depending on your instance health, the API returns the appropriate toggle level value and exception roles. For information about how to create run level toggle mapping, see. [Create run level toggle mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/create-run-level-toggle-mapping.md).
 

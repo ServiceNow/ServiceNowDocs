@@ -2,6 +2,7 @@
 title: Submit an edit receipt request from Shopping Hub
 description: As a shopper, you can revise previously accepted receipts to address any discrepancies, ensuring accurate updates to purchase orders, purchase order lines, and received quantities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/submit-edit-receipt-request.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -29,7 +30,7 @@ Role required: sn\_shop.shopper
 
 3.  Select the kebab menu, and then select **Edit a receipt**.
 
-    ![Edit a receipt option.](../image/sh-edit-receipt-option.png)
+    \[Omitted image "sh-edit-receipt-option.png"\] Alt text: Edit a receipt option.
 
 4.  On the Edit a request form, fill in the fields.
 
@@ -46,7 +47,7 @@ Role required: sn\_shop.shopper
 
     A procurement case of type Edit a receipt is created.
 
-    ![Procurement case of type Edit a receipt.](../image/sh-edit-receipt-pc.png)
+    \[Omitted image "sh-edit-receipt-pc.png"\] Alt text: Procurement case of type Edit a receipt.
 
 
 ## What to do next
@@ -55,5 +56,5 @@ Role required: sn\_shop.shopper
 -   Shoppers can review the request details from **ShoppingHub** &gt; **** &gt; **My purchases**, accessed from the profile image or from the footer.
 -   Buyers can track the progress of the procurement case and procurement case line requests from **Source-to-Pay Workspace**.
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

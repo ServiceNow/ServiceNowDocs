@@ -2,6 +2,7 @@
 title: Dispute communication initiation
 description: Initiate customer communication after the final decision on ACH dispute resolution is completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-dispute-communication.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -19,13 +20,13 @@ Initiate customer communication after the final decision on ACH dispute resoluti
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Note:** When the ACH disputes resolution agentic workflow in Now Assist for FSO is enabled, the dispute communication AI Agent is available to assist you at this step. See [Dispute communication AI agent](../../fso-now-assist/task/dispute-communication-ai.md) for more information.
+**Note:** When the ACH disputes resolution agentic workflow in Now Assist for FSO is enabled, the dispute communication AI Agent is available to assist you at this step. See [Dispute communication AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/dispute-communication-ai.md) for more information.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -56,5 +57,5 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 12. Close the task.
 
 
-**Parent Topic:**[Processing an ACH dispute](../concept/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
 

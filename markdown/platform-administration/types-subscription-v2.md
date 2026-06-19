@@ -2,6 +2,7 @@
 title: Types of subscriptions in Subscription Management
 description: Subscriptions to ServiceNow applications come in different types. The type of subscription determines the allocation of users, access to applications, and custom application and table entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/types-subscription-v2.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -115,5 +116,5 @@ Automatically allocated by your instance
 Provides entitlements for an organization's number of active users regardless of their role assignments. An active user is any user whose record in the Users \[sys\_user\] table has a value in the **User ID** field and has the **Active** field set to true.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Subscription Management reference](subscription-management-reference-v2.md)
+</table>**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-reference-v2.md)
 

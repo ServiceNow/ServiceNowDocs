@@ -2,6 +2,7 @@
 title: Create a queue for product issues
 description: Create a queue for the Chat service channel that routes product issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/product-context-example.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

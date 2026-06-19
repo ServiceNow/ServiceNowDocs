@@ -2,6 +2,7 @@
 title: Use schedule flows in Oracle Financial Cloud
 description: Use the schedule flows to retrieve information from Oracle Financial Cloud, including Currencies, General Ledger \(GL\) accounts, Legal entities, Payment terms details from Oracle Financial Cloud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/use-schedule-flows-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

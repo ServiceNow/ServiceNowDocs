@@ -2,6 +2,7 @@
 title: Order a product with quick checkout
 description: Order a product or service that you want to purchase from the product catalog available on Shopping Hub Home.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/order-a-product.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -25,7 +26,7 @@ Role required: sn\_shop.shopper
 
     If you’re shopping for someone else as a delegate, select the appropriate shopper from the Shopping as list.
 
-    **Note:** This option is visible only if you’re [configured to delegate for another employee shopper](configure-delegate-for-a-shopper.md).
+    **Note:** This option is visible only if you’re [configured to delegate for another employee shopper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-delegate-for-a-shopper.md).
 
 2.  Browse for the required product or service in one of the following ways: .
 
@@ -34,7 +35,7 @@ Role required: sn\_shop.shopper
     -   If you’re a returning shopper, find your recently viewed items on the home page.
     On the product details page, you can see the price of the product and the probable date of its delivery.
 
-    If the pricing isn’t available and you need to contact the supplier for it, you can check the expected date by which the pricing details will likely be provided. For more information, see [Complete sourcing checkout](complete-sourcing-checkout.md).
+    If the pricing isn’t available and you need to contact the supplier for it, you can check the expected date by which the pricing details will likely be provided. For more information, see [Complete sourcing checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-sourcing-checkout.md).
 
 3.  Place an order for a product or service that has pricing.
 
@@ -49,9 +50,9 @@ Role required: sn\_shop.shopper
         -   To perform a quick checkout with your selected product, select **Request to buy**.
         -   To save your product to your cart and continue shopping, select **Add to cart**.
 
-            **Note:** For more information on how to use your shopping cart, see [Shopping cart](../concept/shopping-cart.md).
+            **Note:** For more information on how to use your shopping cart, see [Shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopping-cart.md).
 
-            ![Order a product with quick checkout](../image/spo-order-quick-checkout.png "Order a product with quick checkout")
+            \[Omitted image "spo-order-quick-checkout.png"\] Alt text: Order a product with quick checkout
 
     4.  On the form, fill in the fields.
 
@@ -98,7 +99,7 @@ Method of making the payment. Select a cost center from the list, which is defau
 
 You can view the cost center and allocation breakup from the purchase requisition that is created, by navigating to the Cost Allocations related list of the associated purchase requisition line.
 
-If you have available credits, the same is displayed here as a mode of payment. For details, see [Shop with employee credits](shop-employee-credits.md).
+If you have available credits, the same is displayed here as a mode of payment. For details, see [Shop with employee credits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shop-employee-credits.md).
 
 </td></tr></tbody>
 </table>        **Note:** If you change the quantity or delivery location during checkout, the shipping and tax estimates are recalculated and updated accordingly. The cart line is also updated with the new estimates.
@@ -127,16 +128,16 @@ Yes
 
 </td><td>
 
-Purchase is for an existing project. Enter the project details as required.**Note:** You must have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](../concept/integration-psm-ppm.md).
+Purchase is for an existing project. Enter the project details as required.**Note:** You must have the Procurement with Project Management \(sn\_spend\_ppm\) application installed, and also have the IT Project User role. For more information, see [Sourcing and Procurement Operations integration with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/integration-psm-ppm.md).
 
 </td></tr></tbody>
 </table>    6.  In the **Purchase reason** field, provide your reason for making the purchase.
 
-        ![Purchase reason and watchlist for the purchase request](../image/spo-pr-watchlist.png "Purchase reason and watchlist for the purchase request")
+        \[Omitted image "spo-pr-watchlist.png"\] Alt text: Purchase reason and watchlist for the purchase request
 
     7.  In the **Watchlist** field, select one or more users to be added to the watchlist of the purchase request.
 
-        The users on the Watchlist receive email notifications when specific conditions are fulfilled and the purchase request status is updated. By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the system properties. For more information, see [Components installed with Sourcing and Procurement Operations](../reference/installed-with-FSC.md).
+        The users on the Watchlist receive email notifications when specific conditions are fulfilled and the purchase request status is updated. By default, you can add up to 20 users in the watchlist. You can modify this value by configuring the system properties. For more information, see [Components installed with Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md).
 
         **Note:** This limit for the number of users on the watchlist is applicable only while making the purchase request. You can add more users to the watchlist after the purchase request is created. However, you can add more users only at the purchase requisitions page.
 
@@ -153,8 +154,8 @@ Purchase is for an existing project. Enter the project details as required.**Not
 
     -   View the list of all purchases placed from your shopping account.
     -   Track the progress of an order, review to-dos, and so on.
-    **Note:** For more information, see [My purchases](../concept/my-purchases.md).
+    **Note:** For more information, see [My purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/my-purchases.md).
 
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Cloud Services Catalog Terraform Connector
 description: Whether you're starting or expanding your implementation of Cloud Services Catalog Terraform Connector, learn more about the available features that help in provisioning and managing cloud resources across various public and private clouds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -50,17 +51,17 @@ Use Cloud Services Catalog Terraform Connector to discover the IaC \(Terraform\)
 -   Public and self-hosted GitLab
 -   Public and self-hosted Microsoft Azure DevOps
 
-For more information, see [Run the IaC Discovery](../task/discover-terraform-config-installables-vcs-workspaces.md).
+For more information, see [Run the IaC Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/discover-terraform-config-installables-vcs-workspaces.md).
 
 Utilize the hierarchical structure of multiple repositories with the support of Terraform Connector IaC discovery capabilities.
 
 ## Create catalog items from the Terraform templates
 
-Use the Cloud Services Catalog Terraform Connector app to create catalog items from the discovered Terraform templates and use them to provision resources in various clouds. For more information, see [Create a catalog item from the Terraform template](../task/catalog-item-terraform-template.md).
+Use the Cloud Services Catalog Terraform Connector app to create catalog items from the discovered Terraform templates and use them to provision resources in various clouds. For more information, see [Create a catalog item from the Terraform template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.md).
 
 ## Detect changes in the Terraform templates
 
-Use IaC Discovery to detect changes in the Terraform templates that are used in existing catalog items. When Cloud Services Catalog Terraform Connector detects a change in the Terraform template, it creates an IaC change task. You can use the IaC change task to update the affected catalog item or deactivate it, and then create another catalog item from the updated Terraform template. For more information on the catalog item change task, see [Manage the Terraform template-based catalog items](../task/create-or-update-terraform-based-catalog-item.md).
+Use IaC Discovery to detect changes in the Terraform templates that are used in existing catalog items. When Cloud Services Catalog Terraform Connector detects a change in the Terraform template, it creates an IaC change task. You can use the IaC change task to update the affected catalog item or deactivate it, and then create another catalog item from the updated Terraform template. For more information on the catalog item change task, see [Manage the Terraform template-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-or-update-terraform-based-catalog-item.md).
 
 ## Reduce Terraform Cloud license cost
 

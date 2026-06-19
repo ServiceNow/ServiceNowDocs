@@ -2,11 +2,14 @@
 title: Configure Scan Engine properties
 description: Configure the primary scanning capabilities and configuration options for scheduled, on-demand and real-time scans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/configure-scan-engine-properties.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
-last_updated: "2026-04-02"
-reading_time_minutes: 3
-breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
+last_updated: "2026-06-11"
+reading_time_minutes: 4
+breadcrumb: [Activate Scan Engine and review settings, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
 # Configure Scan Engine properties
@@ -15,7 +18,7 @@ Configure the primary scanning capabilities and configuration options for schedu
 
 ## Before you begin
 
-[Run your first scan with the Scan Engine](run-scan-engine.md) to run your initial scan.
+Reference these properties in preparation to [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/run-scan-engine.md) or to make changes to Scan Engine behavior.
 
 Role required: Scan Engine admin and Impact admin
 
@@ -27,15 +30,15 @@ Role required: Scan Engine admin and Impact admin
 
 3.  Select **Run Scheduled Scan** to schedule nightly, weekly, or monthly scans, and then configure the following options.
 
-<table id="choicetable_rs4_qpx_2hc"><thead><tr><th align="left" id="d62802e105">
+<table id="choicetable_rs4_qpx_2hc"><thead><tr><th align="left" id="d25244e109">
 
 Schedule option
 
-</th><th align="left" id="d62802e108">
+</th><th align="left" id="d25244e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62802e114">
+</th></tr></thead><tbody><tr><td id="d25244e118">
 
 **Run**
 
@@ -43,7 +46,7 @@ Description
 
 Daily, Weekly, or Monthly scheduled scan run times.
 
-</td></tr><tr><td id="d62802e123">
+</td></tr><tr><td id="d25244e127">
 
 **Day of Week**
 
@@ -51,7 +54,7 @@ Daily, Weekly, or Monthly scheduled scan run times.
 
 The day of the week on which to run weekly scans.
 
-</td></tr><tr><td id="d62802e132">
+</td></tr><tr><td id="d25244e136">
 
 **Day of Month**
 
@@ -59,7 +62,7 @@ The day of the week on which to run weekly scans.
 
 The day of the month on which to run monthly scans.
 
-</td></tr><tr><td id="d62802e141">
+</td></tr><tr><td id="d25244e145">
 
 **Time Zone**
 
@@ -67,7 +70,7 @@ The day of the month on which to run monthly scans.
 
 Your time zone.
 
-</td></tr><tr><td id="d62802e151">
+</td></tr><tr><td id="d25244e155">
 
 **Time**
 
@@ -80,15 +83,15 @@ Your time zone.
 </td></tr></tbody>
 </table>4.  Choose what to scan and how to track the findings.
 
-<table id="choicetable_a4y_xpx_2hc"><thead><tr><th align="left" id="d62802e180">
+<table id="choicetable_a4y_xpx_2hc"><thead><tr><th align="left" id="d25244e184">
 
 Setting
 
-</th><th align="left" id="d62802e183">
+</th><th align="left" id="d25244e187">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62802e189">
+</th></tr></thead><tbody><tr><td id="d25244e193">
 
 **Scan Non-Configuration Records**
 
@@ -96,7 +99,7 @@ Description
 
 Includes non-configuration tables \(which do not extend `sys_metadata`\) in the scan.
 
-</td></tr><tr><td id="d62802e201">
+</td></tr><tr><td id="d25244e205">
 
 **Scan Read-Only Records**
 
@@ -107,7 +110,7 @@ Includes non-configuration tables \(which do not extend `sys_metadata`\) in the 
 -   Read-only records are scanned by default.
 
 
-</td></tr><tr><td id="d62802e227">
+</td></tr><tr><td id="d25244e231">
 
 **Track Resolved Findings**
 
@@ -115,7 +118,7 @@ Includes non-configuration tables \(which do not extend `sys_metadata`\) in the 
 
 Logs any resolved findings as part of the scan and includes them in the View Resolved Findings module of the dashboard.
 
-</td></tr><tr><td id="d62802e236">
+</td></tr><tr><td id="d25244e240">
 
 **Scan Findings Limit**
 
@@ -127,7 +130,7 @@ Logs any resolved findings as part of the scan and includes them in the View Res
 -   Prevents excessive or redundant findings and optimizes scan performance.
 
 
-</td></tr><tr><td id="d62802e263">
+</td></tr><tr><td id="d25244e267">
 
 **Custom Workday**
 
@@ -135,7 +138,7 @@ Logs any resolved findings as part of the scan and includes them in the View Res
 
 By default, technical debt is calculated as a 24-hour day, which allows you to specify a number of hours for a workday. For example, developer workdays can be set to 8 hours instead of 24.**Note:** This is used to calculate various metrics that appear in the Analytics Dashboards.
 
-</td></tr><tr><td id="d62802e274">
+</td></tr><tr><td id="d25244e278">
 
 **Average hourly rate of development**
 
@@ -143,7 +146,7 @@ By default, technical debt is calculated as a 24-hour day, which allows you to s
 
 This figure calculates the cost of technical debt that displays on your dashboard by multiplying it by the estimated time to resolve each finding in the system.
 
-</td></tr><tr><td id="d62802e283">
+</td></tr><tr><td id="d25244e287">
 
 **Batch Record Size**
 
@@ -157,7 +160,7 @@ This figure calculates the cost of technical debt that displays on your dashboar
 
 **Note:** This is a read-only system property that cannot be modified through the UI.
 
-</td></tr><tr><td id="d62802e314">
+</td></tr><tr><td id="d25244e318">
 
 **Scheduled Scan Logging Frequency**
 
@@ -167,7 +170,7 @@ This figure calculates the cost of technical debt that displays on your dashboar
 -   Leave blank to disable verbose logging. When set, logs scan progress after processing the specified number of records
 
 
-</td></tr><tr><td id="d62802e334">
+</td></tr><tr><td id="d25244e338">
 
 **Days of scan finding histories to keep**
 
@@ -178,7 +181,7 @@ This figure calculates the cost of technical debt that displays on your dashboar
 
 **Note:** This controls how long historical scan data is retained, not the findings themselves.The default value is 30 days.
 
-</td></tr><tr><td id="d62802e356">
+</td></tr><tr><td id="d25244e360">
 
 **Include review findings in technical debt**
 
@@ -186,7 +189,7 @@ This figure calculates the cost of technical debt that displays on your dashboar
 
 Displays findings on the dashboard where the level of the rule is equal to Review.
 
-</td></tr><tr><td id="d62802e366">
+</td></tr><tr><td id="d25244e370">
 
 **Enable instance specific definitions**
 
@@ -199,7 +202,7 @@ Displays findings on the dashboard where the level of the rule is equal to Revie
 
 **Note:** Configuration option that controls whether definitions run only on specified instances.
 
-</td></tr><tr><td id="d62802e394">
+</td></tr><tr><td id="d25244e398">
 
 **Scan Non-Configuration Records**
 
@@ -212,3 +215,18 @@ Displays findings on the dashboard where the level of the rule is equal to Revie
 
 </td></tr></tbody>
 </table>
+-   **[Configure scanning properties per persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/teamdev-scanning-properties.md)**  
+You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to permit users, team leads, and admins to access content.
+-   **[Configure Scan Engine instance integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/add-view-scan-engine-related-lists.md)**  
+You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to implement its various scanning types.
+-   **[Configure definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/additional-scan-engine-properties.md)**  
+You can configure additional capabilities and configuration options for the definition ruleset.
+-   **[Configure real-time scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-real-time-scanning-properties.md)**  
+Real-time scanning properties allow control over which users have access to real-time scanning, and how the scan operates within their environment. Perform the following procedure to configure real time scanning properties.
+-   **[Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/exception-reason-properties.md)**  
+When real-time enforcement, `enforce_real_time_validation` is set to `true`, Recommend level findings require an approved exception reason before the form can be saved.
+-   **[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/update-set-scanning-properties.md)**  
+The Scan Engine provides several options to further configure update set scanning and enhance the governance over update set management. Update set scanning occurs during scheduled instance scans. The settings on this tab define which update sets will be scanned, and the parameters those update sets have to meet in order to be marked complete.
+
+**Parent Topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-initial-scan-engine-settings.md)
+

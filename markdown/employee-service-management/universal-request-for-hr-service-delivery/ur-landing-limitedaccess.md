@@ -2,6 +2,7 @@
 title: Universal Request
 description: ServiceNow Universal Request empowers customers in their journey toward Enterprise Service Management \(ESM\) or Global Business Services \(GBS\) by enabling agents to resolve cases seamlessly across the enterprise to provide a better employee experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-landing-limitedaccess.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Employee Service Management]
 
 ServiceNow Universal Request empowers customers in their journey toward Enterprise Service Management \(ESM\) or Global Business Services \(GBS\) by enabling agents to resolve cases seamlessly across the enterprise to provide a better employee experience.
 
-![Universal Request application](../images/ur-landing-infographics.png)
+\[Omitted image "ur-landing-infographics.png"\] Alt text: Universal Request application
 
 ## Employee experience
 
@@ -35,49 +36,49 @@ Task employees to get additional information needed to fulfill the employee’s 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how employees, agents, and managers use Universal Request.](explore-universal-request.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Learn about how employees, agents, and managers use Universal Request.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)
 
 </td><td>
 
-[Configure ![Configure](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your implementation.](setup-configure-ur.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/setup-configure-ur.md)
 
 </td><td>
 
-[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Extend Universal Request capabilities by integrating with other applications.](ur-integration-with-uni-task.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend Universal Request capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-integration-with-uni-task.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Work on universal requests, and manage security and transfers.](using-ur.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Work on universal requests, and manage security and transfers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions ![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg)Coordinate work and improve processes with dashboards and reports.](reporting-soln-for-ur.md)
+[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Coordinate work and improve processes with dashboards and reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/reporting-soln-for-ur.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components like fields, tables, and properties.](../reference/ur-reference-topic.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.md)
 
 </td></tr></tbody>
-</table>-   **[Exploring Universal Request](explore-universal-request.md)**  
+</table>-   **[Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)**  
 The ServiceNow Universal Request application enables cross-departmental reporting from the time of an initial employee request through the final issue resolution. You can map various departmental ticket states and activity streams into a unified and simplified experience for your employees and agents.
--   **[Setting up and configuring Universal Request](setup-configure-ur.md)**  
+-   **[Setting up and configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/setup-configure-ur.md)**  
 Set up and configure Universal Request to enable agents to create universal requests and work on them to resolve employee issues.
--   **[Using Universal Request](using-ur.md)**  
+-   **[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)**  
 Use Universal Request to enable cross-departmental reporting from the time of an initial employee request through the final issue resolution. You can map various departmental ticket states and activity streams into a unified and simplified experience for your employees and agents.
--   **[Reporting solutions for Universal Request](reporting-soln-for-ur.md)**  
+-   **[Reporting solutions for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/reporting-soln-for-ur.md)**  
 Universal Request \(UR\) reporting solutions contain preconfigured dashboards with actionable data visualizations to improve your employee service delivery processes.
--   **[Virtual Agent for Universal Request](ur-va-landing.md)**  
+-   **[Virtual Agent for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-va-landing.md)**  
 The Virtual Agent capabilities of Universal Request provide automated chat options to employees. It reduces the workload of agents by assisting the requester with certain basic tasks. It can display suggestions for self-help topics and knowledge articles based on keywords. It can also help employees to update their universal requests.
--   **[Universal Request reference](../reference/ur-reference-topic.md)**  
+-   **[Universal Request reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.md)**  
 Reference topics provide additional information about the universal requests, including lists and forms.
--   **[Integrating Universal Request with other applications](ur-integration-with-uni-task.md)**  
+-   **[Integrating Universal Request with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-integration-with-uni-task.md)**  
 Extend the capabilities of Universal Request and connect with other departments to assist with ticket resolution. By integrating with other applications, you provide a consistent ticketing experience and facilitate inter-department request transfers and multi-department use cases.
--   **[Quick start tests for Universal Request](../../../administer/atf-quick-start-tests/reference/quick-start-test-ur.md)**  
+-   **[Quick start tests for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/quick-start-test-ur.md)**  
 Validate that Universal Request still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
--   **[Universal Request in Agent Workspaces](universal-request-workspace.md)**  
+-   **[Universal Request in Agent Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/universal-request-workspace.md)**  
 Use Universal Request in Agent Workspaces to create, view, and work on the universal request.
--   **[Using agentic flows in Universal Request AI agent collection](ur-ai-agent-collection.md)**  
+-   **[Using agentic flows in Universal Request AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-ai-agent-collection.md)**  
 Use the Universal Request AI agent collection to complete tasks autonomously.
 
-**Parent Topic:**[Employee Service Management](../../employee-service-management/concept/employee-service-management-overview.md)
+**Parent Topic:**[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-service-management-overview.md)
 

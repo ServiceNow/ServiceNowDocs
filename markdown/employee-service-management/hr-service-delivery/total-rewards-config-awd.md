@@ -2,6 +2,7 @@
 title: Set up sections for Total Rewards templates
 description: Create sections and associate plans to it. Add those sections to Total Rewards Template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/total-rewards-config-awd.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

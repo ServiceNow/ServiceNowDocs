@@ -2,6 +2,7 @@
 title: Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace
 description: As an Asset Manager, you can create an SR or PR in SPO from the ITAM Workspace to fulfill IT and asset requests submitted through Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -47,11 +48,11 @@ To ensure a seamless integration between ITAM and SPO, the following updates hav
 
 3.  On the **Catalog tasks** tab, select and open the sourcing task for the request.
 
-    ![Catalog tasks tab showing the sourcing task.](../image/itam-spo-catalog-tasks.png)
+    \[Omitted image "itam-spo-catalog-tasks.png"\] Alt text: Catalog tasks tab showing the sourcing task.
 
 4.  Select **Source Request**.
 
-    ![Source Request option on the Catalog tasks page.](../image/itam-spo-source-request.png)
+    \[Omitted image "itam-spo-source-request.png"\] Alt text: Source Request option on the Catalog tasks page.
 
     A confirmation message is displayed informing you that you're being redirected to the appropriate Asset Management workspace.
 
@@ -59,7 +60,7 @@ To ensure a seamless integration between ITAM and SPO, the following updates hav
 
 6.  On the Sourcing page, select **Purchase**.
 
-    ![Purchase option on the Sourcing page.](../image/itam-spo-workspace.png)
+    \[Omitted image "itam-spo-workspace.png"\] Alt text: Purchase option on the Sourcing page.
 
     You' are guided through stages that enhance the better together experience using SPO’s Shopping Hub workflows, helping you efficiently source the products you need.
 
@@ -67,11 +68,11 @@ To ensure a seamless integration between ITAM and SPO, the following updates hav
 
 8.  Select **Select Supplier**.
 
-    ![Select Supplier option on the Select the requested items you want to purchase page.](../image/itam-spo-select-items.png)
+    \[Omitted image "itam-spo-select-items.png"\] Alt text: Select Supplier option on the Select the requested items you want to purchase page.
 
 9.  On the Select suppliers for requested items page, select the suppliers from whom you want to buy the requested items.
 
-    ![Request items and checkout option on the Select Suppliers page.](../image/itam-spo-select-suppliers.png)
+    \[Omitted image "itam-spo-select-suppliers.png"\] Alt text: Request items and checkout option on the Select Suppliers page.
 
     **Note:** The purchase quantity you specify should not exceed the quantity specified on the original request in the Service Catalog application. In the **Purchase quantity** field, if you specify a quantity that exceeds the original quantity, you see a message that informs you that the total quantity selected exceeds the quantity to be sourced.
 
@@ -79,16 +80,16 @@ To ensure a seamless integration between ITAM and SPO, the following updates hav
 
     One of the following occurs depending on whether the requested items have a price associated with them.
 
-    -   For products that do not have an associated price, the sourcing flow is triggered. For more information, see [Create sourcing request from the ITAM Workspace](itam-spo-sourcing-checkout.md).
+    -   For products that do not have an associated price, the sourcing flow is triggered. For more information, see [Create sourcing request from the ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md).
 
-    -   For products, that have an associated price, the purchasing flow is triggered. For more information, see [Create purchase requisition from the ITAM Workspace](itam-spo-quick-checkout.md).
+    -   For products, that have an associated price, the purchasing flow is triggered. For more information, see [Create purchase requisition from the ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md).
 11. Select **Checkout**.
 
 
--   **[Create sourcing request from the ITAM Workspace](itam-spo-sourcing-checkout.md)**  
+-   **[Create sourcing request from the ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-sourcing-checkout.md)**  
 As an asset manager, use SPO’s sourcing flow from the ITAM Workspace to complete checkout when the requested item doesn’t have contractual pricing.
--   **[Create purchase requisition from the ITAM Workspace](itam-spo-quick-checkout.md)**  
+-   **[Create purchase requisition from the ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.md)**  
 As an asset manager, use SPO’s purchasing flow from the ITAM Workspace to complete checkout when the requested item has contractual pricing.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with IT Asset Management](../concept/spo-itam-better-together.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-better-together.md)
 

@@ -2,11 +2,12 @@
 title: Manually submit files or URLs to Sandbox
 description: You can manually submit a file or URL to a sandbox when certain incident criteria, such as category is phishing, are met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/submit-files-or-urls-to-sandbox.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -31,15 +32,15 @@ After reviewing the security incident and the file or URL, you can select the **
 
 3.  On the **Observables** tab, select a record or multiple records for which you want to perform malware or threat analysis and select **Submit to Sandbox**.
 
-    ![Submit to sandbox for malware analysis.](../image/submit-to-sandbox.png)
+    \[Omitted image "submit-to-sandbox.png"\] Alt text: Submit to sandbox for malware analysis.
 
 4.  When the File Submission filter appears, select your preferred sandbox configuration in **Submission configuration**, and select **Submit to Sandbox**.
 
-    ![Filter and submit files to the sandbox.](../image/observable-submission-sandbox.png)
+    \[Omitted image "observable-submission-sandbox.png"\] Alt text: Filter and submit files to the sandbox.
 
 5.  Select **Additional runtime options** if you want to provide further custom options.
 
-    ![File submission with additional runtime options.](../image/observable-submission-dialog-box.png)
+    \[Omitted image "observable-submission-dialog-box.png"\] Alt text: File submission with additional runtime options.
 
     |Field|Description|
     |-----|-----------|
@@ -54,5 +55,5 @@ After reviewing the security incident and the file or URL, you can select the **
 
 ## What to do next
 
-When you submit the observables to the sandbox for malware analysis, [view the sandbox submission results](view-sandbox-submission-results.md) to take the next steps on potential threats.
+When you submit the observables to the sandbox for malware analysis, [view the sandbox submission results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-sandbox-submission-results.md) to take the next steps on potential threats.
 

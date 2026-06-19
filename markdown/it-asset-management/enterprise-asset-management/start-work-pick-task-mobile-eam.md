@@ -2,6 +2,7 @@
 title: Start working on an enterprise asset pick task using the Mobile Agent application
 description: Indicate in the Mobile Agent application when you start work on an asset pick task assigned to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/start-work-pick-task-mobile-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -31,8 +32,8 @@ Role required: inventory\_user
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text: and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:, tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the Asset pick task that you want to start.
 
     Use the details provided in the following fields on the **Details** tab to start work on the assigned asset pick task:
@@ -49,5 +50,5 @@ On the **Details** tab, the **Start work** link changes to **Start timer**, **Lo
 
 ## What to do next
 
-Complete the asset pick task assigned to you. For details, see [Locate and pick the enterprise assets in your stockroom using the Mobile Agent application](locate-and-pick-enterprise-asset-mobile-app.md).
+Complete the asset pick task assigned to you. For details, see [Locate and pick the enterprise assets in your stockroom using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/locate-and-pick-enterprise-asset-mobile-app.md).
 

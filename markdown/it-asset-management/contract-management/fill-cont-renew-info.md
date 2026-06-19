@@ -2,6 +2,7 @@
 title: Supply contract renewal information
 description: Supply the contract renewal information by completing the Build renewal task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/fill-cont-renew-info.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -44,5 +45,5 @@ New draft contracts are created.
 
 ## What to do next
 
-[Add or remove assets for a contract renewal](select-hw-asset.md)
+[Add or remove assets for a contract renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/contract-management/select-hw-asset.md)
 

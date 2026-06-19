@@ -2,6 +2,7 @@
 title: Configure archive settings for process contexts
 description: Change the default settings for the automated archiving feature for process contexts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/config-archive-settings-process-contexts.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Change the default settings for the automated archiving feature for process cont
 
 Role required: playbook.admin
 
-If you want to turn off automated archiving instead, see [Turn off automated archiving](turn-off-automated-archiving.md).
+If you want to turn off automated archiving instead, see [Turn off automated archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/turn-off-automated-archiving.md).
 
 ## Procedure
 
@@ -42,7 +43,7 @@ If you want to turn off automated archiving instead, see [Turn off automated arc
 
 ## Change the wait period to 30 days
 
-![Changing the Value from 14 to 30](../images/change-archive-wait-period.gif)
+\[Omitted image "change-archive-wait-period.gif"\] Alt text: Changing the Value from 14 to 30
 
-**Parent Topic:**[Archive process contexts](archive-process-executions.md)
+**Parent Topic:**[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/archive-process-executions.md)
 

@@ -2,13 +2,14 @@
 title: Use the Scratchpad to complete your request fulfillment tasks
 description: As a provider, use the Scratchpad feature of the Service Exchange application to send updates to the ServiceNow instance of your consumer while performing the request fulfillment tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/using-scratchpad-for-provider-updates.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Zero Touch request flow, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Use the Scratchpad to complete your request fulfillment tasks
@@ -17,7 +18,7 @@ As a provider, use the Scratchpad feature of the Service Exchange application to
 
 The Zero Touch request flow requires you to send Scratchpad updates to your consumer's ServiceNow instance when you complete the confirmation and shipment tasks successfully. Based on the updates that you send, the Zero Touch flow progresses on your consumer's ServiceNow instance.
 
-You must include the code specific to your tasks in the **PSBScratchpadUtil** API. For more information, see [Using the Scratchpad for Service Exchange tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-scratchpad.md). Confirm that the Scratchpad codes associated with the tasks of your request fulfillment flow are in the following format.
+You must include the code specific to your tasks in the **PSBScratchpadUtil** API. For more information, see . Confirm that the Scratchpad codes associated with the tasks of your request fulfillment flow are in the following format.
 
 ## Sample code for request confirmation
 

@@ -2,6 +2,7 @@
 title: Check F5 Pool activity
 description: The Check F5 Pool activity checks the status of a pool to determine if it is available to accept traffic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_CheckF5PoolActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -17,7 +18,7 @@ The Check F5 Pool activity checks the status of a pool to determine if it is ava
 
 Use this activity to determine if a pool you just created is up and running with the proper configuration.
 
-This activity was built using the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
+This activity was built using the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 
 ## REST settings
 
@@ -46,5 +47,5 @@ This activity was built using the [REST web service activity template](../../orc
 |Success|Activity successfully returned the status of the F5 load balancer pool.|
 |Failure|Activity failed to return the status of the F5 load balancer pool.|
 
-**Parent Topic:**[F5 Network Management activity pack](../concept/c_OrchF5LoadBalancerActivities.md)
+**Parent Topic:**[F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchF5LoadBalancerActivities.md)
 

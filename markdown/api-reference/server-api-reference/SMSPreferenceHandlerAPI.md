@@ -2,6 +2,7 @@
 title: SMSPreferenceHandlerSNC - Scoped, Global
 description: The SMSPreferenceHandler script include provides methods to manage short message service \(SMS\) configurations.Instantiates the SMSPreferenceHandler script include object.Returns the preferences configuration record for the current telephony service provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SMSPreferenceHandlerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The SMSPreferenceHandler script include provides methods to manage short message
 
 This script include is implemented as the script include SMSPreferenceHandlerSNC and resides in the `sn_sms_pref` namespace. To use this API you must install the Notify plugin \(com.snc.notify\) which requires a separate subscription. You can activate this plugin if you have the admin role.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SMSPreferenceHandlerSNC - SMSPreferenceHandler\(String provider\)
 

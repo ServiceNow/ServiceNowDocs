@@ -2,6 +2,7 @@
 title: Wrap up segments
 description: Define the wrap up segments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/wrap-up-segments.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,6 +2,7 @@
 title: Send a SOAP message through a MID server
 description: When creating SOAP message functions, you can configure the function to be sent through a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_SendSOAPMsgMIDServer.html
 release: australia
 product: Web Services
 classification: web-services
@@ -17,9 +18,9 @@ When creating SOAP message functions, you can configure the function to be sent 
 
 There must be a running MID Server associated with your instance to use this functionality. All SOAP messages sent through a MID Server are performed asynchronously.
 
-![MID server is supplied in the SOAP message form.](../image/SoapMessageMid.png "Soap message mid")
+\[Omitted image "SoapMessageMid.png"\] Alt text: MID server is supplied in the SOAP message form.
 
 By specifying a MID Server, all SOAP requests that use this SOAP message are sent through that MID Server. You can override the selected MID Server by using the setMIDServer\(mid server\) API call in a script.
 
-**Parent Topic:**[SOAP message](c_SOAPMessage.md)
+**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessage.md)
 

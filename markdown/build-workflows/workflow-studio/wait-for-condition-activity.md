@@ -2,6 +2,7 @@
 title: Wait For Condition activity
 description: Pause the playbook until a record has field values that match a set of conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/wait-for-condition-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ Pause the playbook until a record has field values that match a set of condition
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -97,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ Criteria that a record must meet for the playbook to continue.
 </td></tr></tbody>
 </table>## Advanced inputs
 
-After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](../concept/activity-definitions.md#activity-experience).
+After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md).
 
 |Input|Type|Description|
 |-----|----|-----------|

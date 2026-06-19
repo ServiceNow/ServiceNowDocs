@@ -2,6 +2,7 @@
 title: Configuration for bulk skill sensing
 description: Define conditions to create a sub set of learning courses on which you can run the scheduled job enabling you to accept multiple recommended skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/skill-sensing-configuration.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -113,5 +114,5 @@ A description for the configuration.
     .
 
 
-**Parent Topic:**[Skill sensing for learning content](../concept/skill-sensing-for-learning-content.md)
+**Parent Topic:**[Skill sensing for learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/skill-sensing-for-learning-content.md)
 

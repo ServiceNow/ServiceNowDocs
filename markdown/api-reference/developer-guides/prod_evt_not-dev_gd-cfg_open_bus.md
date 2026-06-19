@@ -2,6 +2,7 @@
 title: Configure the Producer Event Notification Framework to use the Open Message Bus
 description: If you have deployed or plan to deploy the Open Message Bus in your instance, you must configure the Producer Event Notification Framework for this message-bus. You can deploy this message-bus for both cloud and on-premise instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/prod\_evt\_not-dev\_gd-cfg\_open\_bus.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -19,15 +20,15 @@ If you have deployed or plan to deploy the Open Message Bus in your instance, yo
 
 Role required: admin
 
-For additional information on the publishing of messages using the open message bus, see [Producing outbound trouble ticket notifications using the open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.md).
+For additional information on the publishing of messages using the open message bus, see .
 
 ## Procedure
 
 1.  Synchronize the topics in your current message-bus with your ServiceNow instance.
 
-    For additional information on synchronizing topics, see [Producing outbound trouble ticket notifications using the open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/trouble-ticket-workflow-using-pub-sub-model.md).
+    For additional information on synchronizing topics, see .
 
-2.  Customize the [OpenMessageBusEventPublisherOOB - publishMessageToComptibleRestProxy\(Object tmfEventPayload, Array compatibleTopicArr\)](../../../../app-store/dev_portal/API_reference/OpenMessageBusEventPublisherOOB/concept/OpenMsgBusEvtPubScopedAPI.md#) method to send messages directly to a preconfigured REST action.
+2.  Customize the [OpenMessageBusEventPublisherOOB - publishMessageToComptibleRestProxy\(Object tmfEventPayload, Array compatibleTopicArr\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/OpenMsgBusEvtPubScopedAPI.md) method to send messages directly to a preconfigured REST action.
 
     This method is responsible for sending a message to the custom message platform’s REST proxy using spoke selector. The custom message platform is your message-bus through which messages are published.
 

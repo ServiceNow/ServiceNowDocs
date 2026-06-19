@@ -2,6 +2,7 @@
 title: Request an enterprise asset refresh
 description: Use the Enterprise Asset Refresh flow to track the assets that are nearing the end of their life cycle and replace them with new assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/request-eam-assetrefresh.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -31,7 +32,7 @@ The Workflow Studio application is used to create the Enterprise Asset Refresh f
 
 2.  Login with credentials for the role of sys \_admin role and add the **Enterprise Asset Lifecycle** catalog.
 
-    The **Enterprise Asset Lifecycle** catalog is not on the Service Catalog page by default. To add this catalog, select the Add Content icon ![](../../hardware-asset-management/image/add_content_icon.png) beside the search catalog bar and then select **Enterprise Asset Lifecycle**.
+    The **Enterprise Asset Lifecycle** catalog is not on the Service Catalog page by default. To add this catalog, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: beside the search catalog bar and then select **Enterprise Asset Lifecycle**.
 
 3.  Login with credentials for the role of sn\_eam.enterptrise\_asset\_manager and select the **Enterprise Asset Lifecycle** catalog.
 
@@ -39,7 +40,7 @@ The Workflow Studio application is used to create the Enterprise Asset Refresh f
 
 4.  Navigate to **Service Catalog** &gt; **Enterprise Asset Lifecycle**.
 
-    The **Enterprise Asset Lifecycle** catalog is not on the Service Catalog page by default. To add this category, select the add content icon ![](../../hardware-asset-management/image/add_content_icon.png) beside the search catalog bar and then select **Enterprise Asset Lifecycle**.
+    The **Enterprise Asset Lifecycle** catalog is not on the Service Catalog page by default. To add this category, select the add content icon \[Omitted image "add\_content\_icon.png"\] Alt text: beside the search catalog bar and then select **Enterprise Asset Lifecycle**.
 
 5.  Open **Enterprise Asset Refresh Order**.
 
@@ -87,7 +88,7 @@ Available
 
 </td><td>
 
-Displays only those assets for which the **Eligible for Refresh** check box on the Asset page is selected. To view all assets that are nearing their end of life, execute the condition `Eligible for refresh is false`.**Note:** For details on the **Eligible for Refresh** check box, see [Asset fields for enterprise assets](../reference/asset-fields-eam.md).
+Displays only those assets for which the **Eligible for Refresh** check box on the Asset page is selected. To view all assets that are nearing their end of life, execute the condition `Eligible for refresh is false`.**Note:** For details on the **Eligible for Refresh** check box, see [Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-fields-eam.md).
 
 </td></tr></tbody>
 </table>7.  If you want to replace the aged hardware assets with different models of new hardware assets, do the following:

@@ -2,6 +2,7 @@
 title: Mobile experience for On-Call Scheduling
 description: View and manage on-call schedules from a mobile device with the On-Call Scheduling mobile applet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/mobile-experience-ocs.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -30,14 +31,14 @@ Members of a roster can perform the following actions:
 -   Submit time-off and shift swap requests.
 -   Send a message \(Slack /MS teams/ Push notifications\) to find a replacement.
 
--   **[Getting started with the On-Call Scheduling mobile app](../task/mobile-getting-started-oncall.md)**  
+-   **[Getting started with the On-Call Scheduling mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/mobile-getting-started-oncall.md)**  
 Use the ServiceNow Agent mobile app to access the On-Call Scheduling mobile application. Then log in to an instance and work on your schedules.
--   **[Mobile On-Call Scheduling overview](mobile-ocs-overview.md)**  
+-   **[Mobile On-Call Scheduling overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/mobile-ocs-overview.md)**  
 Members and managers of a shift can use the On-Call Scheduling applets and navigation menu on the Mobile Agent application to view and manage shifts and schedules.
--   **[Manage work with ITSM Mobile Agent](my-work-ocs.md)**  
+-   **[Manage work with ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/my-work-ocs.md)**  
 As a member of a shift, view your upcoming shifts, request time off, and accomplish daily tasks related to your schedule.
--   **[Manage team with ITSM Mobile Agent](my-team-ocs.md)**  
+-   **[Manage team with ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/my-team-ocs.md)**  
 As a shift manager, view your team's schedule and perform activities like approving time-off requests and providing coverage.
 
-**Parent Topic:**[On-Call Scheduling](c_OnCallScheduling.md)
+**Parent Topic:**[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
 

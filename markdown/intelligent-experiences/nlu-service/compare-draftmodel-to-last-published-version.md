@@ -2,6 +2,7 @@
 title: Compare draft and published versions of your NLU model
 description: Compare a draft trained Natural Language Understanding \(NLU\) model to its most recent published version. Test and review the changes to make sure that your draft model will have increased performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/compare-draftmodel-to-last-published-version.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -58,7 +59,7 @@ In this example procedure, you've cloned the model from a pre-built read-only HR
 
     The panel displays predictions results for both the published model and the trained model. Compare the results of the two versions of the model, before and after your changes. In this example, the confidence score increased by a small margin. By making significant changes to the model content, the confidence score or even the intent predictions may change.
 
-    ![Intent page with the comparing prediction results feature in the test panel.](../images/compare-draft-published01.png)
+    \[Omitted image "compare-draft-published01.png"\] Alt text: Intent page with the comparing prediction results feature in the test panel.
 
 
 ## What to do next

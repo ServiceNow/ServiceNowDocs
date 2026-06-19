@@ -2,6 +2,7 @@
 title: Configure a risk assessment methodology
 description: Configure a risk assessment methodology \(RAM\) in the Advanced Risk application so that you can assess the risks or objects in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/configure-ram.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -35,7 +36,7 @@ After you move a RAM to the **Retired** state, you can also move it back to the 
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the risk assessment methodology form, see [Risk Assessment Methodology form](../reference/risk-assessment-methodology-form.md).
+    For a description of the field values on the risk assessment methodology form, see [Risk Assessment Methodology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-methodology-form.md).
 
 4.  Right-click and save the form.
 
@@ -43,18 +44,18 @@ After you move a RAM to the **Retired** state, you can also move it back to the 
 
     |Choice|Related link|
     |------|------------|
-    |**Configure inherent assessment**|See [Configure an inherent assessment](configure-inherent-assessment.md).|
-    |**Configure control effectiveness**|See [Configure a control effectiveness assessment](configure-control-assess.md)|
-    |**Configure residual assessment**|See [Configure a residual assessment](configure-residual-assessment.md)|
-    |**Configure target assessment**|See [Configure a target assessment](configure-target-assessment.md)|
+    |**Configure inherent assessment**|See [Configure an inherent assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-inherent-assessment.md).|
+    |**Configure control effectiveness**|See [Configure a control effectiveness assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-control-assess.md)|
+    |**Configure residual assessment**|See [Configure a residual assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-residual-assessment.md)|
+    |**Configure target assessment**|See [Configure a target assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-target-assessment.md)|
 
 6.  Select **Publish**.
 
     **Note:** After a new assessment is created on the same risk and the assessment is in the **Monitor** state, the other assessments automatically move to the **Completed** state. When an assessment instance is in the **Monitor** state, you can’t move the RAM back to the **Draft** state. A RAM can only be moved back to the **Draft** state if there are no assessment instances.
 
 
--   **[Risk Assessment Methodology form](../reference/risk-assessment-methodology-form.md)**  
+-   **[Risk Assessment Methodology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-methodology-form.md)**  
 Use the Risk Assessment Methodology form in the Advanced Risk application to specify the types of risk assessments and the entities on which the risk assessment is performed.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

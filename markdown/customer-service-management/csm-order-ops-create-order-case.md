@@ -2,7 +2,10 @@
 title: Create an order case
 description: Create an order case for a customer order or for selected order lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-create-order-case.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -61,8 +64,8 @@ Role required: sn\_order\_case.creator, sn\_order\_case.agent, sn\_customerservi
 
 After submitting an order case, you can:
 
--   [Add or delete orders or order lines to an order case](csm-order-ops-create-order-case.md)
--   [Create new order case lines for an order case](csm-order-ops-order-case-add-lines.md)
--   [Edit the information in order case line records](csm-order-ops-order-case-edit-lines.md)
--   [Create tasks for order case lines and assign them to other users](csm-order-ops-order-case-create-task.md)
+-   [Add or delete orders or order lines to an order case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-order-ops-create-order-case.md)
+-   [Create new order case lines for an order case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-order-ops-order-case-add-lines.md)
+-   [Edit the information in order case line records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-order-ops-order-case-edit-lines.md)
+-   [Create tasks for order case lines and assign them to other users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-order-ops-order-case-create-task.md)
 

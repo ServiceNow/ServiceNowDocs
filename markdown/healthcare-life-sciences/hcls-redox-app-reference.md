@@ -2,6 +2,7 @@
 title: Redox Inbound Integration reference
 description: Reference topics provide additional information about the supported data models and event types for Redox Inbound Integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-redox-app-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -19,8 +20,8 @@ Starting with the Yokohama release, Redox Inbound Integration is being prepared 
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
--   **[Supported data models and event types for Redox Inbound Integration](hcls-redox-supported-dm.md)**  
+-   **[Supported data models and event types for Redox Inbound Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-redox-supported-dm.md)**  
 In the Redox engine, a request is determined by the event type and workflow set up for your integration.
 
-**Parent Topic:**[Redox Inbound Integration](../concept/hcls-redox-app.md)
+**Parent Topic:**[Redox Inbound Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-redox-app.md)
 

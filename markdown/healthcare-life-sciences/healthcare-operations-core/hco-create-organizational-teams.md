@@ -2,6 +2,7 @@
 title: Create organizational teams in Healthcare Operations Core
 description: Create a healthcare organization to associate with your healthcare department.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hco-create-organizational-teams.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

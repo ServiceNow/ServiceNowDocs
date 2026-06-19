@@ -2,6 +2,7 @@
 title: Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for ITSM
 description: Add a system property to display the desired indicator in the Coaching Overview tab in the Coaching application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/add-property-coaching-quality-indicator.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -17,7 +18,7 @@ Add a system property to display the desired indicator in the Coaching Overview 
 
 ## Before you begin
 
-Set the map application scope to **Coaching**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-map-application-scope.md).
+Set the map application scope to **Coaching**. For information on how to set the scope, see Set map application scope.
 
 Role required: admin
 
@@ -71,7 +72,7 @@ Value
 
 </td><td>
 
-\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the [unique record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md) \(sys\_id\) of the indicator.
+\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifier \(sys\_id\) of the indicator.
 
  Example:
 
@@ -92,8 +93,8 @@ sn\_coaching.coach
 
     The configured indicator replaces the existing indicator in the Overview tab in the Coaching application in Workforce Optimization for ITSM.
 
-    The image below show an example of the configured indicator displayed in the Coaching Overview tab.![Coaching quality indicator](../image/coaching-quality-indicator-uib.png)
+    The image below show an example of the configured indicator displayed in the Coaching Overview tab.\[Omitted image "coaching-quality-indicator-uib.png"\] Alt text: Coaching quality indicator
 
 
-**Parent Topic:**[Setting up Coaching in Workforce Optimization for ITSM](../concept/setup-coaching-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-coaching-configurable-workforce-optimization-itsm.md)
 

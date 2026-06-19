@@ -2,11 +2,12 @@
 title: Using Conversational SMS Integration with AWS End User Messaging
 description: Enable a customer to converse with a live or virtual agent using the SMS integration with AWS End User Messaging.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/using-conversational-sms-integration-with-amazon.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Conversational SMS Integration with AWS End User Messaging, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -19,5 +20,5 @@ Customers can message the phone number to speak to an agent and resolve their qu
 
 A live agent can accept SMS conversations as a work item from their Agent Workspace inbox and can converse with the customer through a series of text messages. A live agent can also share knowledge articles as a link, share any URLs, or even add images as attachments.
 
-**Parent Topic:**[Conversational SMS Integration with AWS End User Messaging](conversational-sms-integration-amazon.md)
+**Parent Topic:**[Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversational-sms-integration-amazon.md)
 

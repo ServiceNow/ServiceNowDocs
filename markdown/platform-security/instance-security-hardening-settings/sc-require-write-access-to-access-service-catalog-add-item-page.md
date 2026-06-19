@@ -2,6 +2,7 @@
 title: Require write access to access service catalog add item page
 description: Use the glide.sc.request.add\_item\_write\_access property to prevent unauthorized operations from being performed on catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-require-write-access-to-access-service-catalog-add-item-page.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Configuration](sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Functional impact
 When the property is true, the user must have write access to the record in the context of the UI page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuration](sc-configuration.md)
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

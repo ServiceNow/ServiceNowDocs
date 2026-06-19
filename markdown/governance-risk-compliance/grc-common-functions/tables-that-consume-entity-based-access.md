@@ -2,6 +2,7 @@
 title: Entity-based access applicable record types
 description: Entity-based access applicable record types refer to the specific tables or record categories within the system for which entity-based access rules can be defined. This table holds information about all the EBA enabled tables and their relationships with entity or primary tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/tables-that-consume-entity-based-access.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -152,5 +153,5 @@ GRC Advanced Core
 sn\_grc\_advanced\_triage \(primary table\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Entity Based Access reference](entity-based-access-reference.md)
+</table>**Parent Topic:**[Entity Based Access reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access-reference.md)
 

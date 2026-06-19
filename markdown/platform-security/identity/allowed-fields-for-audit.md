@@ -2,6 +2,7 @@
 title: Supported and unsupported fields in Identity Access and Audit
 description: A list of fields that support auditing and those that do not.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/allowed-fields-for-audit.html
 release: australia
 product: Identity
 classification: identity

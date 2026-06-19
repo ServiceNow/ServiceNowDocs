@@ -2,6 +2,7 @@
 title: Viewing table rules
 description: View a summary and execution history of the data management rules that have been created on a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/data-management-table-rules.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +21,7 @@ View a summary and execution history of the data management rules that have been
 -   View rule execution history for the last seven days.
 -   View a detailed list of the table's data management rules. Select a rule to view a detailed summary.
 
-![A summary of the data management rules on the current table.](../image/dmc-table-rules.png "Viewing data management rules on a table")
+\[Omitted image "dmc-table-rules.png"\] Alt text: A summary of the data management rules on the current table.
 
 ## Required ServiceNow AI Platform roles
 
@@ -43,8 +44,8 @@ View a list of the data management rules on the current table.
 
 View the total number of data management rules created on the current table, including the number of active and inactive rules. Manage the growth of data in the current table by creating data management rules or adjusting current rule conditions.
 
--   Create a table cleaner rule to delete older or unwanted records by selecting **New cleanup rule**. See [Create a table cleanup rule in Core UI](../task/activate-table-cleanup.md).
--   Create an archive rule to move data that's no longer needed every day to an archive table by selecting **New archive rule**. See [Create an archive rule in Core UI](../../database-rotation/task/t_CreateAnArchiveRule.md#).
+-   Create a table cleaner rule to delete older or unwanted records by selecting **New cleanup rule**. See [Create a table cleanup rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-table-cleanup.md).
+-   Create an archive rule to move data that's no longer needed every day to an archive table by selecting **New archive rule**. See [Create an archive rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md).
 
 ## Records in backlog
 

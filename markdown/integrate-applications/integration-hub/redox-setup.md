@@ -2,6 +2,7 @@
 title: Set up the Redox Electronic Health Record Spoke
 description: Integrate your ServiceNow instance and the Redox engine with both inbound and outbound configuration.Enable your ServiceNow instance to connect with the Redox engine by setting up a connection and credential record.Enable the Redox Electronic Health Record Spoke to send data to the external Redox healthcare system by configuring the source and destination IDs of the system in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/redox-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -34,11 +35,11 @@ This task gives the procedure to set up both the inbound and outbound transactio
 
 ## Procedure
 
-1.  [Create a Redox Electronic Health Record Spoke connection and credential record](redox-setup.md#).
+1.  [Create a Redox Electronic Health Record Spoke connection and credential record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/redox-setup.md).
 
     This procedure enables the outbound transactions.
 
-2.  [Configure the external Redox healthcare system as a source system for the Redox Electronic Health Record Spoke](redox-setup.md#).
+2.  [Configure the external Redox healthcare system as a source system for the Redox Electronic Health Record Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/redox-setup.md).
 
     This procedure enables the inbound transactions.
 
@@ -65,11 +66,11 @@ Role required: admin
 
 3.  On the Flow Designer page, select Connections.
 
-4.  In the Search all connections field, enter `Redox`.![Enter Redox spoke name in search field.](../image/redox-spoke-search-redox.png)
+4.  In the Search all connections field, enter `Redox`.\[Omitted image "redox-spoke-search-redox.png"\] Alt text: Enter Redox spoke name in search field.
 
 5.  On the Redox Electronic Health Record Spoke card, click **View Details**.
 
-6.  Click **Configure**.![Redox connection and credential configure button.](../image/redox-configure-button.png)
+6.  Click **Configure**.\[Omitted image "redox-configure-button.png"\] Alt text: Redox connection and credential configure button.
 
 7.  In the Configure Connection form, fill details.
 
@@ -126,9 +127,9 @@ The source secret to access the Redox engine dashboard. You must generate the se
 
     The connection and credential record is created.
 
-9.  Click **View connection alias**.![View connection alias button on Redox spoke record.](../image/redox-spoke-click-connection-alias.png)
+9.  Click **View connection alias**.\[Omitted image "redox-spoke-click-connection-alias.png"\] Alt text: View connection alias button on Redox spoke record.
 
-10. In the **Credential** column, select **Redox Credential**.![Credential column value in the Connections tab.](../image/redox-spoke-click-creds.png)
+10. In the **Credential** column, select **Redox Credential**.\[Omitted image "redox-spoke-click-creds.png"\] Alt text: Credential column value in the Connections tab.
 
 11. On the Redox credential page, click **Get Token** to generate a token for raising authenticated requests from the spoke actions.
 
@@ -151,7 +152,7 @@ Role required: admin
 
 -   Configure the Source system \[sn\_hcls\_source\_system\] table to send data to an external Redox healthcare system by using the Redox Inbound Integration application.
 
-    For more information, see [Configure an external Redox healthcare system as a source system for a custom integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-source-system.md).
+    For more information, see Configure an external Redox healthcare system as a source system for a custom integration.
 
 -   Specify the destination ID used in the Source system \[sn\_hcls\_source\_system\] table for each spoke action in your flow.
 

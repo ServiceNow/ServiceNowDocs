@@ -2,6 +2,7 @@
 title: Bring your own license or subscription to the public cloud
 description: Bring your own license \(BYOL\) support enables you to determine the license compliance of your Microsoft and Oracle software products across hybrid infrastructures. Bring your own subscription \(BYOS\) support enables you to determine the license compliance of your Red Hat Enterprise Linux \(RHEL\) software products across hybrid infrastructures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/byol-concepts.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -195,7 +196,7 @@ Shared
 -   Provide advanced support for optimization through Cloud Special Rights, such as dual use rights, edition flexibility, and unlimited virtualization.
 -   Perform remediation when your software is out of compliance.
 
-![Flowchart for BYOL and BYOS, starting with ServiceNow Discovery and ending with remediation.](../image/byol.png "Bring your own license or subscription flow")
+\[Omitted image "byol.png"\] Alt text: Flowchart for BYOL and BYOS, starting with ServiceNow Discovery and ending with remediation.
 
 ## Prerequisites
 
@@ -203,11 +204,11 @@ Before you can begin determining the license compliance of software across your 
 
 -   Activate the Discovery \(com.snc.discovery\) plugin on your ServiceNow instance.
 
-    See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) for detailed instructions.
+    See Request Discovery for detailed instructions.
 
 -   Request and install the Discovery and Service Mapping Patterns application from the [ServiceNow Store](https://store.servicenow.com/).
 
-    See [Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md) for more information on Discovery and Service Mapping patterns.
+    See Discovery patterns used by ITOM Visibility for more information on Discovery and Service Mapping patterns.
 
 -   Migrate cloud discoveries from Cloud API \(CAPI\) probes to pattern-based discovery.
 
@@ -215,11 +216,11 @@ Before you can begin determining the license compliance of software across your 
 
 -   Request and install the CMDB CI Class Models application from the [ServiceNow Store](https://store.servicenow.com/).
 
-    See [CMDB CI Class Models store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md) for more information on the CMDB CI Class Models application.
+    See CMDB CI Class Models store app for more information on the CMDB CI Class Models application.
 
 -   Request and install the Cloud Cost Management application from the [ServiceNow Store](https://store.servicenow.com/).
 
-    The Cloud Cost Management application is required for discovering the license types of software in your Microsoft SQL Server deployments on AWS. See [Cloud Insights application](../../cloud-insights/reference/cloud-insights-landing-page.md) for more information on the Cloud Cost Management application.
+    The Cloud Cost Management application is required for discovering the license types of software in your Microsoft SQL Server deployments on AWS. See [Cloud Insights application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md) for more information on the Cloud Cost Management application.
 
 
 ## BYOL and BYOS discovery
@@ -233,7 +234,7 @@ With BYOL and BYOS, the ServiceNow® Discovery application locates and identifie
 -   License type, such as BYOL, BYOS, or License Included
 -   Software that is installed on the virtual machine
 
-**Note:** The Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud discovery patterns are included in the Discovery and Service Mapping Patterns store application. For more information on Amazon AWS Cloud discovery patterns, see [Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md). For more information on Microsoft Azure Cloud discovery patterns, see [Microsoft Azure Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md). For more information on Google Cloud discovery patterns, see [Google Cloud Platform \(GCP\) resource inventory discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.md) and [Google Cloud Platform \(GCP\) Organization discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/google-gcp-organization-discovery.md).
+**Note:** The Amazon AWS Cloud, Microsoft Azure Cloud, and Google Cloud discovery patterns are included in the Discovery and Service Mapping Patterns store application. For more information on Amazon AWS Cloud discovery patterns, see Amazon AWS Cloud components discovery using patterns. For more information on Microsoft Azure Cloud discovery patterns, see Microsoft Azure Cloud components discovery using patterns. For more information on Google Cloud discovery patterns, see  and .
 
 Resources for your discovered software are populated and stored in corresponding Configuration Management Database \(CMDB\) tables, including the Host \[cmdb\_ci\_cloud\_host\] and Serverless Hardware \[cmdb\_ci\_serverless\_hardware\] tables, on your ServiceNow instance.
 
@@ -244,7 +245,7 @@ License type determination varies by product and cloud environment, as shown in 
 |Product|AWS|Microsoft Azure|GCP|
 |-------|---|---------------|---|
 |Microsoft Windows Server|Automatic|Automatic|Automatic|
-|Microsoft SQL Server|CCM or manual|Automatic|Manual|
+|Microsoft SQL Server|CCM or manual|Automatic|Automatic|
 |Oracle Database|Automatic|Manual|None|
 |Oracle WebLogic Server|Manual|Manual|None|
 |Red Hat Enterprise Linux Server|Automatic|Automatic|Automatic|
@@ -278,13 +279,13 @@ You can use these key-value pairs to determine whether the associated software l
 
 After your discovered software is marked as BYOL, BYOS, or License Included, reconciliation runs on the software that is marked as BYOL or BYOS. You can then use the resulting information to determine the software compliance across your hybrid infrastructure.
 
-BYOL and BYOS licensing rules can differ for the same software products across different cloud providers. For example, Windows Server has different licensing rules on AWS and on Microsoft Azure. These rules must be combined with existing on-premise rules so that you can determine the complete license compliance position of each software product across your hybrid infrastructures. Microsoft offers special rights for products that are deployed on AWS vs Microsoft Azure, such as dual use rights, edition flexibility, and unlimited virtualization. For more information on licensing rules, see [Licensing rules for BYOL and BYOS](../reference/byol-license-rules.md).
+BYOL and BYOS licensing rules can differ for the same software products across different cloud providers. For example, Windows Server has different licensing rules on AWS and on Microsoft Azure. These rules must be combined with existing on-premise rules so that you can determine the complete license compliance position of each software product across your hybrid infrastructures. Microsoft offers special rights for products that are deployed on AWS vs Microsoft Azure, such as dual use rights, edition flexibility, and unlimited virtualization. For more information on licensing rules, see [Licensing rules for BYOL and BYOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/byol-license-rules.md).
 
 The Software Asset Management application automatically reconciles these rules and provides an accurate license position report that can be viewed in the License usage view of the Software Asset Workspace.
 
--   You can view BYOL license rights for your Microsoft software products in the Microsoft publisher overview of the Software Asset Workspace. For more information on the Microsoft publisher overview, see [Publisher overview for Microsoft in the Software Asset Workspace](../reference/publisher-overview-microsoft.md).
--   You can view BYOL license rights for your Oracle software products in the Oracle publisher overview of the Software Asset Workspace. You can also view information about your Oracle Database server deployments across hybrid infrastructures, based on the agreement type, in the Oracle DB Server Deployments per Agreement report. For more information on the Oracle publisher overview, see [Publisher overview for Oracle in the Software Asset Workspace](../reference/publisher-overview-oracle.md). For more information on the Oracle DB Server Deployments per Agreement report, see the [Oracle DB Server Deployments per Agreement report](../reference/oracle-server-agreement.md).
--   You can view BYOS license rights for your RHEL software products in the Red Hat publisher overview of the Software Asset Workspace. For more information on the Red Hat publisher overview, see [Publisher overview for Red Hat in the Software Asset Workspace](../reference/publisher-overview-red-hat.md).
+-   You can view BYOL license rights for your Microsoft software products in the Microsoft publisher overview of the Software Asset Workspace. For more information on the Microsoft publisher overview, see [Publisher overview for Microsoft in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/publisher-overview-microsoft.md).
+-   You can view BYOL license rights for your Oracle software products in the Oracle publisher overview of the Software Asset Workspace. You can also view information about your Oracle Database server deployments across hybrid infrastructures, based on the agreement type, in the Oracle DB Server Deployments per Agreement report. For more information on the Oracle publisher overview, see [Publisher overview for Oracle in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/publisher-overview-oracle.md). For more information on the Oracle DB Server Deployments per Agreement report, see the [Oracle DB Server Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-server-agreement.md).
+-   You can view BYOS license rights for your RHEL software products in the Red Hat publisher overview of the Software Asset Workspace. For more information on the Red Hat publisher overview, see [Publisher overview for Red Hat in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/publisher-overview-red-hat.md).
 
 ## Cloud-based remediation options
 
@@ -303,10 +304,10 @@ To remediate non-compliance for cloud installations, the Software Asset Manageme
     For more information on AWS core counts and core thread counts, see [Configuring the processor for a DB instance class](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.html#USER_ConfigureProcessor).
 
 
--   **[Microsoft Windows and SQL Server infrastructure details reports](../reference/azure-byol-realized-savings-report.md)**  
+-   **[Microsoft Windows and SQL Server infrastructure details reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/azure-byol-realized-savings-report.md)**  
 You can use the Microsoft Windows and SQL Server infrastructure details reports to gain visibility into the SQL Server and Windows Server deployments and infrastructure for different cloud providers including Microsoft Azure, AWS, and GCP.
--   **[Core infrastructure suite \(CIS\) support for BYOL](cis-byol.md)**  
+-   **[Core infrastructure suite \(CIS\) support for BYOL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cis-byol.md)**  
 Use your on-premise CIS entitlements to license Windows Server installations on cloud platforms such as AWS and Microsoft Azure.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

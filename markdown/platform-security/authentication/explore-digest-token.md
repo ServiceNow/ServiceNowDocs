@@ -2,6 +2,7 @@
 title: Explore digest token authentication
 description: The instance reads the HTTP header value and compares its computed hash value of the digest token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/explore-digest-token.html
 release: australia
 product: Authentication
 classification: authentication
@@ -21,7 +22,7 @@ Digest token authentication is more secure than simple unencrypted HTTP headers 
 
 To know more about digest link expiry, see this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1186365).
 
-**Note:** Use Time Limited Authentication \(TLA\) to configure time based expiry links. To know more, see [Time limited authentication](time-limited-authentication.md).
+**Note:** Use Time Limited Authentication \(TLA\) to configure time based expiry links. To know more, see [Time limited authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/time-limited-authentication.md).
 
 ## Integration requirements
 

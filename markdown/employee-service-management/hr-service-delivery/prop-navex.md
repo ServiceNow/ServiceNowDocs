@@ -2,6 +2,7 @@
 title: Configure properties
 description: Configure properties to ensure that data is properly mapped between the Navex EthicsPoint system and the ServiceNow system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/prop-navex.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -79,7 +80,7 @@ Pull attachments. Please configure MID Server if you want to pull the attachment
 
 </td><td>
 
-Option to pull cases along with the attachments from Navex EthicsPoint instance into ServiceNow instance.To use this feature, you must enable the MID Server. For more information, see [Configure MID Server network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConnectionPrerequisites.md)
+Option to pull cases along with the attachments from Navex EthicsPoint instance into ServiceNow instance.To use this feature, you must enable the MID Server. For more information, see 
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Pull the attachments from the case file. \(Make sure that the mid server is on, 
 
 </td><td>
 
-Option to provide the **Sync attachments** button on cases that are that are already pulled from Navex EthicsPoint instance into ServiceNow instance. The **Sync attachments** button can be used to pull attachments of cases at a later point in time.To use this feature, you must enable the MID Server. For more information, see [Configure MID Server network connectivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConnectionPrerequisites.md)
+Option to provide the **Sync attachments** button on cases that are that are already pulled from Navex EthicsPoint instance into ServiceNow instance. The **Sync attachments** button can be used to pull attachments of cases at a later point in time.To use this feature, you must enable the MID Server. For more information, see 
 
 </td></tr></tbody>
 </table>3.  Click **Save**.

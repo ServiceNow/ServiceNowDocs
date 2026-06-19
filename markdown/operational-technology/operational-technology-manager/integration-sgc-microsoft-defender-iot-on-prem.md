@@ -2,6 +2,7 @@
 title: Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)
 description: Integrate Microsoft Defender for IoT \(On-premises Management Console\) with the ServiceNow Operational Technology Manager application to automate import of sensor appliances, OT devices, and network connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -29,11 +30,11 @@ You can use the Service Graph Connector for Microsoft Defender for IoT \(On-prem
 
 ## Guided setup
 
-The guided setup for the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure guided setup](../task/configuring-sgc-microsoft-d4iot-on-prem.md).
+The guided setup for the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-on-prem.md).
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md#section_fxg_lh4_blb).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see .
 
 ## Data mapping
 
@@ -97,14 +98,14 @@ The imported data from the staging tables is then inserted into the following ta
 -   Uninterruptible Power Supply \(UPS\) \[cmdb\_ci\_ups\]
 -   Wireless Access Point \[cmdb\_ci\_wap\_network\]
 
-For more information on where data is saved when pulling data from a Microsoft Defender for IoT \(On-premises Management Console\) project, see [CMDB classes targeted](../reference/sgc-microsoft-d4iot-on-prem-classes.md).
+For more information on where data is saved when pulling data from a Microsoft Defender for IoT \(On-premises Management Console\) project, see [CMDB classes targeted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-microsoft-d4iot-on-prem-classes.md).
 
--   **[Configure the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](../task/configuring-sgc-microsoft-d4iot-on-prem.md)**  
+-   **[Configure the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-on-prem.md)**  
 Use the Guided Setup for the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\) to lead you through the integration steps.
--   **[CMDB classes targeted in the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](../reference/sgc-microsoft-d4iot-on-prem-classes.md)**  
+-   **[CMDB classes targeted in the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-microsoft-d4iot-on-prem-classes.md)**  
 When you complete the guided setup, you can configure the integration to periodically pull data from a Microsoft Defender for IoT \(On-premises Management Console\) project. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
--   **[Attribute mapping and classification for the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](../reference/attribute-mapping-sgc-msft-d4iot-on-prem.md)**  
+-   **[Attribute mapping and classification for the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/attribute-mapping-sgc-msft-d4iot-on-prem.md)**  
 The following tables describe the attribute mapping and classification for sensors and devices.
 
-**Parent Topic:**[Operational Technology Manager Integrations](otm_integrations.md)
+**Parent Topic:**[Operational Technology Manager Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/otm_integrations.md)
 

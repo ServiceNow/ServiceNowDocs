@@ -2,6 +2,7 @@
 title: Add a Global MCP client
 description: Add a Global Model Context Protocol \(MCP\) client from the AI Gateway configuration page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-a-global-mcp-client.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

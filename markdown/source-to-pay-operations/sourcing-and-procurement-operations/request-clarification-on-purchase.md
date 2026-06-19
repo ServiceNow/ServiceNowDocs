@@ -2,6 +2,7 @@
 title: Request clarification on a purchase request from Shopping Hub Home
 description: As an approver, request clarification from the shopper on a purchase requisition if you have questions that you need answers to before approving or rejecting the purchase requisition. Purchase requisition approvals are generated when an approval rule is triggered on meeting certain criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/request-clarification-on-purchase.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -44,5 +45,5 @@ Role required: sn\_shop.shopper
 
 View the clarifications requested by you and other approvers, or ask for more clarifications if required, from the activity stream of that to-do.
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

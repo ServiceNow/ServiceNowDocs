@@ -2,6 +2,7 @@
 title: Associate multiple incidents with a major incident
 description: You can associate one or more incidents with a major incident using the Actions menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/asso-multi-inci-with-major-inci.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -27,13 +28,13 @@ When a major incident occurs, there are usually multiple incidents created for t
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Select the incidents that need to be associated with a major incident.
 
 3.  On the Actions menu, click **Link to Major Incident**.
 
-    ![Associate multiple incidents with a major incident](../image/link-inci-to-major-inci.png)
+    \[Omitted image "link-inci-to-major-inci.png"\] Alt text: Associate multiple incidents with a major incident
 
 4.  In the Choose a Major Incident dialog box, select the major incident with which you want to associate the incidents.
 
@@ -42,5 +43,5 @@ When a major incident occurs, there are usually multiple incidents created for t
     The incidents are added as a child to the major incident.
 
 
-**Parent Topic:**[Working on major incident management](../concept/work-on-mim.md)
+**Parent Topic:**[Working on major incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/work-on-mim.md)
 

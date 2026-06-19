@@ -2,6 +2,7 @@
 title: Configure the global DSN default
 description: Configure the global default used by all newly created DSNs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ConfigureTheGlobalDSNDefault.html
 release: australia
 product: Web Services
 classification: web-services
@@ -31,7 +32,7 @@ A default DSN is preloaded with the ODBC driver installation ServiceNow data sou
 
     `OpenAccess SDK 6.0 Manager\<installation location>\Services\ServiceNow_ODBC\Data Source Settings\ServiceNow\IP Parameters`
 
-    ![ODBC Management Console](../image/OdbcManagementConsole.png)
+    \[Omitted image "OdbcManagementConsole.png"\] Alt text: ODBC Management Console
 
 3.  Double-click the **DataSourceIPProperties** attribute for the ServiceNow data source setting to open the Properties dialog box.
 
@@ -39,8 +40,8 @@ A default DSN is preloaded with the ODBC driver installation ServiceNow data sou
 
     `https://<your instance>.service-now.com`
 
-    ![ODBC Management Console](../image/OdbcManagementConsole2.png)
+    \[Omitted image "OdbcManagementConsole2.png"\] Alt text: ODBC Management Console
 
 
-**Parent Topic:**[Configuring the ODBC driver](../concept/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-odbc.md)
 

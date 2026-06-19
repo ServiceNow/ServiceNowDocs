@@ -2,6 +2,7 @@
 title: Any object assessment using Advanced Risk Assessment
 description: If you don't have the complete GRC setup for entities, risk statements, controls, and so on, even then, you can still assess the risks on any ServiceNow record or object. An example of object assessment is assessing change management or assessing a citation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/any-object-assessment.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -32,5 +33,5 @@ For information on how to configure any object assessment in the Risk Workspace,
 
 **Note:** You must log in to Now Support to view the articles.
 
-**Parent Topic:**[Advanced Risk Assessment](advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 

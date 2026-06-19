@@ -2,6 +2,7 @@
 title: Run scheduled jobs in Oracle Financial Cloud
 description: Run adhoc scheduled jobs to look up entity primary data from the target Oracle Financial Cloud ERP source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/run-scheduled-jobs-oracle-fin-cloud.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

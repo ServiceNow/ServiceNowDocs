@@ -2,6 +2,7 @@
 title: New privacy assessment creation form
 description: Use the fields on the new privacy assessment creation form to create a new privacy assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/new-privacy-assessment-creation-form.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -41,5 +42,5 @@ Use the fields on the new privacy assessment creation form to create a new priva
 |Work notes \(Private\)|Work notes for the assessment.|
 |Additional comments \(Customer visible\)|Comments for updating this assessment.|
 
-**Parent Topic:**[Send a privacy assessment from an entity](../task/send-privacy-assessmt-entity.md)
+**Parent Topic:**[Send a privacy assessment from an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/send-privacy-assessmt-entity.md)
 

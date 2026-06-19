@@ -2,7 +2,10 @@
 title: Create a customer service case from a chat
 description: If a customer chat results in the need to open a case, create the case directly from the conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateACaseFromAChat.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ When you create a customer service case from a support conversation, the system 
 
 **Important:**
 
-Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
+Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 ## Procedure
 
@@ -31,11 +34,11 @@ Starting in Utah, Connect Support has been deprecated and is no longer supported
 
     The Connect workspace opens in a new tab.
 
-2.  Click the support tab of the Connect sidebar, indicated by a headset icon \(![Support icon](../../../use/collaboration/image/IconSupport.png)\).
+2.  Click the support tab of the Connect sidebar, indicated by a headset icon \(\[Omitted image "IconSupport.png"\] Alt text: Support icon\).
 
 3.  Under **Cases**, open a customer service conversation.
 
-4.  At the bottom of the conversation, click the menu icon \(![Menu icon](../../../use/collaboration/image/IconMenu.png)\) to open the Connect actions menu.
+4.  At the bottom of the conversation, click the menu icon \(\[Omitted image "IconMenu.png"\] Alt text: Menu icon\) to open the Connect actions menu.
 
 5.  In the Connect actions menu, select **Create Case**.
 
@@ -45,7 +48,7 @@ Starting in Utah, Connect Support has been deprecated and is no longer supported
 
     Any comments or work notes in the record conversation appear as comments on the incident form. Work notes do not appear in the chat for the ESS user. The chat agent can select whether a message is a Comment or Work Note in the conversation.
 
-    1.  In the record conversation, by the text entry field, click the message type icon \(![Message type icon.](../../../use/collaboration/image/IconMessageType.png)\).
+    1.  In the record conversation, by the text entry field, click the message type icon \(\[Omitted image "IconMessageType.png"\] Alt text: Message type icon.\).
 
     2.  Select **Comment** or **Work Note**.
 
@@ -61,5 +64,5 @@ Starting in Utah, Connect Support has been deprecated and is no longer supported
 **Related topics**  
 
 
-[Connect workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationWorkspace.md)
+[bundle-platcap.c_CollaborationWorkspace]
 

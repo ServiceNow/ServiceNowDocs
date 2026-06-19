@@ -2,6 +2,7 @@
 title: Add a system property to set default date range in Workforce Optimization for ITSM
 description: Add a system property to set the default date range in the configurable Workforce Optimization for ITSM application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/add-property-date-range-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -40,5 +41,5 @@ The Teams application uses the sn\_optimize.default\_date\_range property in the
     |Write roles|sn\_team\_perf.team\_performance\_admin|
 
 
-**Parent Topic:**[Setting up Teams in Workforce Optimization for ITSM](../concept/setup-teams-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-teams-configurable-workforce-optimization-itsm.md)
 

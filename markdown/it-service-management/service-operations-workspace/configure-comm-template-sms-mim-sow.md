@@ -2,6 +2,7 @@
 title: Configure a communications template for SMS in Major Incident Management
 description: Configure a communication template for SMS in Major Incident Management to help reduce the efforts and time spent in creating and composing communication SMS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-comm-template-sms-mim-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Configure a communication template for SMS in Major Incident Management to help 
 
 ## Before you begin
 
-Major Incident Management must be installed and activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](install-mim-sow.md).
+Major Incident Management must be installed and activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/install-mim-sow.md).
 
 Role required: admin
 
@@ -33,7 +34,7 @@ Role required: admin
 
 3.  In the **Communications Template** section, select **Configure SMS**.
 
-    The Notify SMS template page displays a list of available communication SMS templates. For more information on Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
+    The Notify SMS template page displays a list of available communication SMS templates. For more information on Notify, see .
 
 4.  Select **New**.
 

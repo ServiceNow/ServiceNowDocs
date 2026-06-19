@@ -2,6 +2,7 @@
 title: Components installed with Sourcing and Procurement Operations
 description: Several types of components are installed with the activation of Sourcing and Procurement Operations, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -225,7 +226,7 @@ Can view and access the Pipeline management tab.
 None
 
 </td></tr></tbody>
-</table>**Note:** An application-specific admin role enables a user to manage application-level configurations, roles, and access controls. Your system-level admin on the production instance must grant the application-specific admin role to the appropriate users, and then remove the application-specific admin role from all users with the system-level admin role to help prevent system-level admins from viewing sensitive application data via forms, lists, and the UI. For more information, see [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-administration.md).
+</table>**Note:** An application-specific admin role enables a user to manage application-level configurations, roles, and access controls. Your system-level admin on the production instance must grant the application-specific admin role to the appropriate users, and then remove the application-specific admin role from all users with the system-level admin role to help prevent system-level admins from viewing sensitive application data via forms, lists, and the UI. For more information, see .
 
 ## Scheduled jobs installed
 
@@ -1203,7 +1204,7 @@ sn\_shop.spend.requisition.autoorder
 
 </td><td>
 
-Purchase order that can be automatically created on completion of purchasing tasks without having to undergo a manual final review.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](../concept/pr-auto-order.md).
+Purchase order that can be automatically created on completion of purchasing tasks without having to undergo a manual final review.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.md).
 
 </td></tr><tr><td>
 
@@ -1211,7 +1212,7 @@ sn\_shop.spend.requisition.autoorder.threshold
 
 </td><td>
 
-Dollar amount threshold above which a final review is required before a purchase order is created even when the automatic creation of purchase orders property is set to Yes.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](../concept/pr-auto-order.md).
+Dollar amount threshold above which a final review is required before a purchase order is created even when the automatic creation of purchase orders property is set to Yes.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.md).
 
 </td></tr><tr><td>
 
@@ -1268,7 +1269,7 @@ To modify the user limit, do the following:
 
 Enable the `sn_spend_cp.enable_automated_edit_receipt_flow` system property to automate the approval and processing of edit receipt requests without manual intervention. The automated process updates the purchase order \(PO\) and purchase order line \(POL\) quantities, while also automatically closing the associated procurement case in the Source-to-Pay Workspace.
 
-Role required: admin
+Role required: sn\_shop.shopping\_hub\_admin and sn\_shop.procurement\_administrator
 
 This property is enabled by default. However, if this property is disabled, do the following to enable it:
 
@@ -1284,5 +1285,5 @@ This property is enabled by default. However, if this property is disabled, do t
 4.  If the **Value** field shows **OFF**, change it to **ON** to enable this property.
 5.  Select **Update**.
 
-**Parent Topic:**[Install Sourcing and Procurement Operations](../task/activate-finance-spend-central.md)
+**Parent Topic:**[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/activate-finance-spend-central.md)
 

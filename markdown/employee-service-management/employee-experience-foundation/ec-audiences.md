@@ -2,6 +2,7 @@
 title: Create an audience
 description: Create or modify an audience record to define the conditions or criteria that users must meet to view content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-audiences.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,7 +32,7 @@ Each audience record is configured based on user conditions, user criteria, HR p
 
     **Note:** Content Managers can create audiences. To enable this, the **Allow Ownership for Audiences** option must be turned off. If the **Ownership Property** is enabled, the Content Manager will not have permission to create audiences. Refer to the example below.
 
-    ![Allows the ability to turn off ownership for audiences](../images/audiences-allow-ownership.png "Content ownership settings")
+    \[Omitted image "audiences-allow-ownership.png"\] Alt text: Allows the ability to turn off ownership for audiences
 
 <table id="table_ykv_ngg_wfb"><thead><tr><th>
 
@@ -75,7 +76,7 @@ User Criteria \[user\_criteria\]
 
 </td><td>
 
-Criteria based on role, department, group, location, or company. User criteria is a platform feature. See [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md).
+Criteria based on role, department, group, location, or company. User criteria is a platform feature. See .
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ HR Criteria \[sn\_hr\_core\_criteria\]
 
 </td><td>
 
-\(HR Service Delivery only\) Use pre-defined HR criteria. HR criteria is based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\] or User \[sys\_user\] tables. The base system provides examples that can be used.**Note:** For more information, see [HR criteria](../../human-resources/concept/hr-criteria.md#) and [Configure an HR criteria record](../../human-resources/concept/hr-criteria.md#).
+\(HR Service Delivery only\) Use pre-defined HR criteria. HR criteria is based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\] or User \[sys\_user\] tables. The base system provides examples that can be used.**Note:** For more information, see [HR criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-criteria.md) and [Configure an HR criteria record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-criteria.md).
 
 </td></tr><tr><td>
 
@@ -116,5 +117,5 @@ Browse and choose a file with populated with user names or email addresses. -   
 
 If you click **Save** and the **Allow Ownership for Audiences** property is set to **Yes**, the **Restrict audience by user** and **Restrict audience by group** related lists appear.
 
-**Note:** For more information on restricting an audience by user or group, see [Content Ownership](../concept/ecpro-content-restriction.md) and [Assign ownership of an audience](ecpro-ca-cd-audience-delegation.md).
+**Note:** For more information on restricting an audience by user or group, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md) and [Assign ownership of an audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-ca-cd-audience-delegation.md).
 

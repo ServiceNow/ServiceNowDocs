@@ -2,6 +2,7 @@
 title: Connect spoke
 description: Provides actions to automate the creation of conversations, to add users to a conversation, and to send messages to a conversation. These actions work with Connect API version 3 and later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/connect-spoke.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,5 +22,5 @@ Provides actions to automate the creation of conversations, to add users to a co
 |Add User to Task Conversation|Create a task conversation, and add a user to it.|
 |Send Message to Task Conversation|Send a message to all users of a task conversation.|
 
-**Parent Topic:**[Spokes](../concept/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
 

@@ -2,6 +2,7 @@
 title: Key Management Framework Resource Exchange
 description: ServiceNow Resource Exchange is a KMF feature that gives you the capability to exchange resources between instances in a secure manner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/resource-exchange.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -28,16 +29,16 @@ When using the Resource Exchange, reference the following terminology:
 
 ## Overview
 
-Resource Exchange utilizes the KMF cryptographic APIs to provide confidentiality, integrity, authentication, and non-repudiation. Currently, Resource Exchange supports the Key Exchange functionality. See [Key Management Framework Key Exchange](kmf-key-exchange-overview.md) for additional information.
+Resource Exchange utilizes the KMF cryptographic APIs to provide confidentiality, integrity, authentication, and non-repudiation. Currently, Resource Exchange supports the Key Exchange functionality. See [Key Management Framework Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf-key-exchange-overview.md) for additional information.
 
--   **[Key Management Framework Key Exchange](kmf-key-exchange-overview.md)**  
+-   **[Key Management Framework Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/kmf-key-exchange-overview.md)**  
 KMF Key Exchange is a subset function of KMF Resource Exchange. Key Exchange securely transfers encrypted data across multiple instances.
--   **[Configure Key Exchange](../task/configure-key-exchange.md)**  
-Key Management Framework \(KMF\) generates automatic key exchange requests for supported cryptographic modules during the fresh installation or upgrade of the instance. manages the data encryption key locally for the instance.
--   **[Rekey ciphertext with Key Exchange](rekey-keyexchange.md)**  
+-   **[Configure Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-key-exchange.md)**  
+Key Management Framework \(KMF\) generates automatic key exchange requests for supported cryptographic modules during the fresh installation or upgrade of the instance, and manages the data encryption key locally for the instance.
+-   **[Rekey ciphertext with Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/rekey-keyexchange.md)**  
 Resource Exchange supports rekeying of ciphertext on the target instance that was encrypted with keys from the source. Rekey activity is tracked in the key life-cycle.
--   **[Recurring Key Exchange walkthrough](../task/key-exchange-walkthrough.md)**  
+-   **[Recurring Key Exchange walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/key-exchange-walkthrough.md)**  
 Use this walkthrough to set up a recurring key exchange in your instance using and Resource Exchange.
 
-**Parent Topic:**[Key Management Framework](../../encryption/concept/encryption.md)
+**Parent Topic:**[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/encryption.md)
 

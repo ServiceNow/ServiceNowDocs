@@ -2,6 +2,7 @@
 title: Set up a custom URL as the instance URL
 description: Add a custom URL to your instance configuration to use instead of your ServiceNow URL. This custom URL ensures that embedded components remain accessible in your browser, even when third-party cookies are turned off.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-custom-url.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ Add a custom URL to your instance configuration to use instead of your ServiceNo
 
 ## Before you begin
 
--   You must Activate the custom URL plugin. For more information, see [Activate custom URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/activate-custom-url-plugin.md).
+-   You must Activate the custom URL plugin. For more information, see .
 -   You must purchase or register a URL before adding the custom URL to your instance.
 
 Role required: admin

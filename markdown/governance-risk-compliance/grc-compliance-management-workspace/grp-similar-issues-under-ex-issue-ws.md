@@ -2,6 +2,7 @@
 title: Group similar issues under an existing parent issue using the Compliance Workspace
 description: When you are creating an issue using the Compliance Workspace, you have the option of grouping the issue with other similar issues as part of an existing parent issue group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/grp-similar-issues-under-ex-issue-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -32,7 +33,7 @@ Role required: \(per product\)
     -   **Audit** &gt; **Issues** &gt; **Create New**.
 2.  On the form, locate the **Parent** field.
 
-3.  Click the bulb icon \(![bulb icon](../../grc-policy-and-compliance/image/bulb.png)\) and select **Issues with existing parent** from the **Group with** drop-down list.
+3.  Click the bulb icon \(\[Omitted image "bulb.png"\] Alt text: bulb icon\) and select **Issues with existing parent** from the **Group with** drop-down list.
 
 4.  Click the **Similar issue** you want to group with the current issue.
 

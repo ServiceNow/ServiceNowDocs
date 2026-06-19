@@ -2,6 +2,7 @@
 title: Monitor the plan list and generate the PDF
 description: Monitor the list of the business continuity plans \(BCPs\) in the BCM mobile application. You can save and generate the PDF of a plan record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-plans-list-and-generate-pdf.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ To access the plan list screen, both the BCM mobile application and the BCM plan
 
     In the BCM mobile application, the plan list screen is displayed to the users. The BCP plan viewer has access to the plans list when they’re logged in to the instance through an agent.
 
-    ![Mobile app.](../image/mobile-plan-list.png)
+    \[Omitted image "mobile-plan-list.png"\] Alt text: Mobile app.
 
     An instance can have the BCM mobile application as the only ServiceNow Agent application. When multiple ServiceNow Agent applications are available, the BCP plan viewer selects the BCM mobile application from the list and navigates to the plans. A list of the approved plans is displayed.
 
@@ -41,7 +42,7 @@ To access the plan list screen, both the BCM mobile application and the BCM plan
 
     You can generate the PDF of the plan by tapping the **Generate PDF** UI action.
 
-    ![PDF.](../image/mobile-generate-pdf.png)
+    \[Omitted image "mobile-generate-pdf.png"\] Alt text: PDF.
 
     The PDF is generated and a message is displayed that the selected plan PDF has been successfully generated for download.
 
@@ -51,6 +52,6 @@ To access the plan list screen, both the BCM mobile application and the BCM plan
 
     The PDF of the selected plan is saved in the instance. Similarly, as a plan manager or plan viewer, you can view all saved records in the **Saved items** tab of the app.
 
-    ![Saved items.](../image/mobile-saved-tems-tab.png)
+    \[Omitted image "mobile-saved-tems-tab.png"\] Alt text: Saved items.
 
 

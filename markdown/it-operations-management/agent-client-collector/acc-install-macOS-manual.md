@@ -2,6 +2,7 @@
 title: Manually install Agent Client Collector on macOS
 description: Install Agent Client Collector manually on a machine that uses macOS when the agent is not connected to the instance or you want enhanced customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-install-macOS-manual.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,7 +19,7 @@ Install Agent Client Collector manually on a machine that uses macOS when the ag
 ## Before you begin
 
 -   Ensure that you have configured the Agent Client Collector web server.
--   Verify that your server's OS and version matches the list of supported OS versions as described in [Agent Client Collector installation](../concept/acc-installation.md).
+-   Verify that your server's OS and version matches the list of supported OS versions as described in [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-installation.md).
 -   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
 -   Navigate to **Agent Client Collector** &gt; **Deployment** &gt; **Agent Downloads** and download the signed `.pkg` relevant for your OS.
 -   Store the `.pkg` installation package on one of your installed agents.
@@ -63,7 +64,7 @@ Role required: agent\_client\_collector\_admin
 
     **Note:** This action compromises your system's security and is recommended only as a temporary measure until you finish updating the allow list. After completing the update, uncomment the allow list parameter in the configuration file to re-activate the allow list.
 
-    For details on adding custom checks to an allow list, see [Generate an Agent Client Collector allow list](acc-generate-allow-list.md).
+    For details on adding custom checks to an allow list, see [Generate an Agent Client Collector allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-generate-allow-list.md).
 
 6.  Save the configuration file.
 
@@ -93,5 +94,5 @@ Role required: agent\_client\_collector\_admin
     **Note:** By default, exiting the installation program causes the program to restart immediately. To ensure that the program remains stopped after exiting, set the KeepAlive property in the `/Library/LaunchDaemons/com.sn.acc.plist` file to **false**.
 
 
-**Parent Topic:**[Agent Client Collector installation on a macOS system](../concept/acc-install-mac-os.md)
+**Parent Topic:**[Agent Client Collector installation on a macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

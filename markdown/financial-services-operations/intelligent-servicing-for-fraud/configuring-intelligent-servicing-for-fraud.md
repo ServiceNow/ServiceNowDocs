@@ -2,12 +2,14 @@
 title: Configuring Intelligent Servicing for Fraud
 description: You can set up your implementation for the Intelligent Servicing for Fraud application by installing the application, importing financial services data, and reviewing and configuring the components that are installed with the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/configuring-intelligent-servicing-for-fraud.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [configure intelligent servicing for fraud, set up fraud application, install intelligent servicing for fraud, assign roles for fraud users, configure service definitions, configure playbooks, configure workspace, configure user groups, configure assignment rules, configure slas, service level agreements, fraud operations analyst, fraud operations manager, fraud case routing]
 breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -33,7 +35,7 @@ Install Intelligent Servicing for Fraud.
 
 Install the Intelligent Servicing for Fraud application to work on fraud cases.
 
- For detailed instructions on how to install the application, see [Install Intelligent Servicing for Fraud](../task/install-intelligent-servicing-for-fraud.md).
+ For detailed instructions on how to install the application, see [Install Intelligent Servicing for Fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/intelligent-servicing-for-fraud/install-intelligent-servicing-for-fraud.md).
 
 </td></tr><tr><td>
 
@@ -43,7 +45,7 @@ Assign roles for Intelligent Servicing for Fraud users.
 
 Assign roles to control the actions that are available for each user.
 
- For detailed instructions on how to assign roles, see [Assign roles for Intelligent Servicing for Fraud users](../task/assign-roles-for-intelligent-servicing-for-fraud-users.md).
+ For detailed instructions on how to assign roles, see [Assign roles for Intelligent Servicing for Fraud users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/intelligent-servicing-for-fraud/assign-roles-for-intelligent-servicing-for-fraud-users.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +55,7 @@ Configure service definitions.
 
 Configure service definitions by navigating to **Fraud Operations** &gt; **Administration** &gt; **Service Definitions.**.
 
- For detailed instructions on how to configure service definitions, see [Configure service definitions](../../fso-common/task/configure-service-definitions.md).
+ For detailed instructions on how to configure service definitions, see [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-service-definitions.md).
 
 </td></tr><tr><td>
 
@@ -63,7 +65,7 @@ Configure a playbook.
 
 Configure the playbook by navigating to **All** &gt; **Process Automation** &gt; **Process Automation Designer.**.
 
- For detailed instructions on how to edit or create flows, see [Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md).
+ For detailed instructions on how to edit or create flows, see [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-playbooks-fso-apps.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +75,7 @@ Configure CSM Configurable Workspace.
 
 Configure CSM Configurable Workspace to enable agents to interact with customers and to create and work on cases.
 
- For detailed instructions on how to configure CSM Configurable Workspace, see [Configure CSM Configurable Workspace.](../../fso-common/task/configure-csm-workspace-fso-apps.md)
+ For detailed instructions on how to configure CSM Configurable Workspace, see [Configure CSM Configurable Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md)
 
 </td></tr><tr><td>
 
@@ -83,7 +85,7 @@ Edit or create flows.
 
 Edit or create flows by navigating to **All** &gt; **Process Automation** &gt; **Flow Designer.**.
 
- For detailed instructions on how to edit or create flows, see [Configure flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md)
+ For detailed instructions on how to edit or create flows, see [Configure flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md)
 
 </td></tr><tr><td>
 
@@ -93,7 +95,7 @@ Configure service level agreements \(SLAs\).
 
 Configure an SLA by navigating to **All** &gt; **Service Level Management** &gt; **SLA** &gt; **SLA Definitions**.
 
- For detailed instructions on how to configure an SLA, see [Configure the Service Level Agreements \(SLAs\)](../../fso-common/task/configure-sla-definitions-fso-cases.md).
+ For detailed instructions on how to configure an SLA, see [Configure the Service Level Agreements \(SLAs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-sla-definitions-fso-cases.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +109,7 @@ Configure the following user groups for case and task assignments. You can also 
 -   Fraud operations investigator \(sn\_bom\_fraud.agent\)
 -   Fraud operations manager \(sn\_bom\_fraud.manager and sn\_process\_optimization\_analyst\)
 
- For detailed instructions on how to configure user groups, see [Configure user groups](../../fso-common/task/configure-groups-fso.md).
+ For detailed instructions on how to configure user groups, see [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-groups-fso.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +119,7 @@ Configure assignment rules to route tasks to agents, based on their skill sets.
 
 Configure the Fraud case \(sn\_bom\_fraud\_case\) assignment rule to identify cases that meet certain conditions and then route those cases to agents.
 
- For detailed instructions on how to configure assignment rules, see [Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md)
+ For detailed instructions on how to configure assignment rules, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Configure Slack as a communication channel for a communication task
 description: Configure Slack as a mode of communication for a communication task to send direct message to the users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/configure-slack-for-comm-task.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

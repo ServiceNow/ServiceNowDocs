@@ -2,6 +2,7 @@
 title: Set up Workplace from Facebook spoke
 description: Integrate the ServiceNow instance and your Workplace from Facebook account using the Workplace from Facebook credentials to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-fb-wp.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -35,11 +36,11 @@ Integrate the ServiceNow instance and your Workplace from Facebook account using
 
 4.  Click **Add to Workplace**.
 
-    ![Add to ServiceNow spoke to Workplace](../image/fb-add-to-workplace.png)
+    \[Omitted image "fb-add-to-workplace.png"\] Alt text: Add to ServiceNow spoke to Workplace
 
     The ServiceNow spoke is added to Workplace account and a confirmation message is displayed.
 
-    ![ServiceNow spoke added to Workplace](../image/fb-confirmation.png)
+    \[Omitted image "fb-confirmation.png"\] Alt text: ServiceNow spoke added to Workplace
 
 5.  Click **Done**.
 

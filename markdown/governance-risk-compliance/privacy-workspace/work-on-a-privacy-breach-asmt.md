@@ -2,6 +2,7 @@
 title: Work on a privacy breach assessment
 description: Accept the work of assessing a privacy breach assessment and work on the assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/work-on-a-privacy-breach-asmt.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -52,5 +53,5 @@ Role required: admin
 10. To confirm, select **Request**.
 
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

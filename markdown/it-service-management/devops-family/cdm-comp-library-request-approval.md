@@ -2,6 +2,7 @@
 title: Accept or reject a component request for inclusion in a component library
 description: Review a request for adding a component to a component library and approve or reject it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-comp-library-request-approval.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,9 +18,9 @@ Review a request for adding a component to a component library and approve or re
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-Someone has requested to add a local component from an application to the component library as a shared component. If there are such requests in a library that need your approval, you see a **Requests** label \(![The Requests label beside the library name in the list.](../image/cdm-comp-library-request.png)\) beside the library name.
+Someone has requested to add a local component from an application to the component library as a shared component. If there are such requests in a library that need your approval, you see a **Requests** label \(\[Omitted image "cdm-comp-library-request.png"\] Alt text: The Requests label beside the library name in the list.\) beside the library name.
 
 Role required: cdm\_admin or cdm\_editor
 
@@ -27,7 +28,7 @@ Role required: cdm\_admin or cdm\_editor
 
 1.  Navigate to **All** &gt; **DevOps Config** &gt; **DevOps Config Workspace**.
 
-2.  Click the component libraries icon \(![Component libraries icon.](../image/icon-component-libraries.png)\) in the left navigation to open the **Component libraries** tab.
+2.  Click the component libraries icon \(\[Omitted image "icon-component-libraries.png"\] Alt text: Component libraries icon.\) in the left navigation to open the **Component libraries** tab.
 
 3.  Open a component library and select the **Requests** tab.
 
@@ -39,15 +40,15 @@ Role required: cdm\_admin or cdm\_editor
 
 5.  As required, click accept or reject the request.
 
-<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d389910e130">
+<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d44073e131">
 
 Approval action
 
-</th><th align="left" id="d389910e133">
+</th><th align="left" id="d44073e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d389910e139">
+</th></tr></thead><tbody><tr><td id="d44073e140">
 
 **Accept a request**
 
@@ -68,7 +69,7 @@ Description
 5.  Click **Accept**.
 
 
-</td></tr><tr><td id="d389910e209">
+</td></tr><tr><td id="d44073e210">
 
 **Reject a request**
 

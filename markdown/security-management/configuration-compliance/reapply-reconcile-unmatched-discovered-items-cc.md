@@ -2,11 +2,12 @@
 title: Reconcile unmatched discovered items for Configuration Compliance
 description: Create a schedule job to reconcile unmatched discovered items. When a test result is created, the configuration item \(CI\) added to it at the time of creation might be an outdated one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/reapply-reconcile-unmatched-discovered-items-cc.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Discovered Items for Configuration Compliance, Configuration Compliance imported data, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -23,7 +24,7 @@ Role required: admin
 
 If the information in the CMDB changes, unmatched CI information is not reconciled. To reconcile, apply CI lookup rules on the test results that are in an unmatched state when the CMDB is updated with the latest CIs.
 
-A schedule job is run on demand to reapply the CI matching rule for the discovered items in an unmatched state. If the CI changes after reapplying the lookup rules, the discovered items are updated with the new CI. Impacted test results are also updated. For details, see [CI changes for discovered items for Configuration Compliance](../concept/reapply-discovered-items-ci-changes-cc.md).
+A schedule job is run on demand to reapply the CI matching rule for the discovered items in an unmatched state. If the CI changes after reapplying the lookup rules, the discovered items are updated with the new CI. Impacted test results are also updated. For details, see [CI changes for discovered items for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/reapply-discovered-items-ci-changes-cc.md).
 
 **Note:**
 

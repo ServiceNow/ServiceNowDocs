@@ -2,6 +2,7 @@
 title: Example: set up a GitHub search source
 description: Set up an advanced search source that queries data from an external website.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/search-sp-advanced.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -59,7 +60,7 @@ To create an advanced search source, you need authenticated access to an externa
     })(query);
     ```
 
-    **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the external resource. For more detail, see [GlideHTTPRequest - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideHTTPRequestAPI.md).
+    **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the external resource. For more detail, see GlideHTTPRequest - Global.
 
 6.  Use the Search page template to customize the way the search results display.
 
@@ -79,5 +80,5 @@ To create an advanced search source, you need authenticated access to an externa
     ```
 
 
-**Parent Topic:**[Define a search source](add-table-search-source.md)
+**Parent Topic:**[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-table-search-source.md)
 

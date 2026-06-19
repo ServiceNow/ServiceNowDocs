@@ -2,9 +2,12 @@
 title: Add related parties to a billing account
 description: Extend billing account access to additional customers or stakeholders by configuring billing account related parties. Related parties enable you to define relationships between billing accounts and other entities such as contacts, consumers, or accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-related-parties-to-a-billing-account.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configuring billing accounts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -30,7 +33,7 @@ Ensure the following prerequisites are in place:
 
 2.  Select a billing account from the list.
 
-    For more information on how to create a new billing account record, see [Install Billing Account](install-billing-account.md).
+    For more information on how to create a new billing account record, see [Install Billing Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-billing-account.md).
 
 3.  Select **New** from the billing account related parties related list.
 

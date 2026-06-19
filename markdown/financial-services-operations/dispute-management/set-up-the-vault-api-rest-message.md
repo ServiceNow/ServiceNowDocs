@@ -2,12 +2,14 @@
 title: Set up the OAuth Vault API REST message
 description: Configure the Data Security Vault API REST message with the correct endpoint URL and OAuth authentication profile. This setup enables secure communication between ServiceNow and the tokenizer service for Card Data Security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-the-vault-api-rest-message.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [set up oauth vault api rest message, data security vault api, rest message oauth, tokenuri endpoint, oauth 2.0 authentication, oauth profile, data security rest message, vault api rest message configuration]
 breadcrumb: [Set up OAuth for Card Data Security, Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -19,7 +21,7 @@ Configure the Data Security Vault API REST message with the correct endpoint URL
 
 Role required: admin
 
-This task requires an OAuth Provider created for Card Data Security. See [Set up an OAuth Provider](set-up-an-oauth-provider.md) for more information.
+This task requires an OAuth Provider created for Card Data Security. See [Set up an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-provider.md) for more information.
 
 ## Procedure
 

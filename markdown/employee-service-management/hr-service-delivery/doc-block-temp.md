@@ -2,6 +2,7 @@
 title: Document blocks in Document Templates
 description: Replace blocks of text in a document based on certain rules so that you do not have to create multiple template versions of the same document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/doc-block-temp.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

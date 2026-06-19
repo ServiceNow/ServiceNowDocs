@@ -2,6 +2,7 @@
 title: Manage knowledge subscriptions
 description: Manage knowledge base and knowledge article subscriptions from the Notification Settings page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/manage-knowledge-subscriptions.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -27,15 +28,15 @@ Users can manage knowledge subscriptions from the Knowledge application or from 
 
 1.  Navigate to the Notification Settings page.
 
-<table id="choicetable_jx3_rxw_jz"><thead><tr><th align="left" id="d503009e63">
+<table id="choicetable_jx3_rxw_jz"><thead><tr><th align="left" id="d352774e63">
 
 Location
 
-</th><th align="left" id="d503009e66">
+</th><th align="left" id="d352774e66">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d503009e72">
+</th></tr></thead><tbody><tr><td id="d352774e72">
 
 **From the Knowledge application**
 
@@ -43,7 +44,7 @@ Description
 
 Click the **Notification Settings** module.**Note:** Activate Knowledge Management Core plugin \(com.glideapp.knowledge\).
 
-</td></tr><tr><td id="d503009e87">
+</td></tr><tr><td id="d352774e87">
 
 **From the Knowledge Management Service Portal**
 
@@ -61,5 +62,5 @@ Click the user name in the portal header and then click **Notification Settings*
     The link toggles to **Unsubscribed**.
 
 
-**Parent Topic:**[Use knowledge subscriptions](../concept/use-knowledge-subscriptions.md)
+**Parent Topic:**[Use knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-knowledge-subscriptions.md)
 

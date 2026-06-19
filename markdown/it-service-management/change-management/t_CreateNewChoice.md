@@ -2,6 +2,7 @@
 title: Create a new choice
 description: Create a new choice for the change request state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_CreateNewChoice.html
 release: australia
 product: Change Management
 classification: change-management
@@ -39,16 +40,16 @@ Role required: admin
 
 4.  Use the up and down arrows to move the new state between **Implement** and **Review** states.
 
-    ![Complete field placement](../image/NewStateTutNewChoice2.png)
+    \[Omitted image "NewStateTutNewChoice2.png"\] Alt text: Complete field placement
 
 5.  Click **Save**.
 
     The new choice is created and the **Change Request** form reopens.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Tutorial: add a new change management state](t_AddNewStateTutorial.md)
+**Previous topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Next topic:**[Create a custom field](t_CreateCustomField.md)
+**Next topic:**[Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateCustomField.md)
 

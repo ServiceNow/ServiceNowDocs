@@ -2,6 +2,7 @@
 title: v\_query – Scoped, Global
 description: The v\_query API provides methods to obtain information about a scriptable object that represents a query running against a remote table.Gets an encoded query string for the specified field.Returns the query against a remote table as an encoded query stringGets the value of a field in an equality query condition.Returns the sys\_id value in a get query.Gets a text search query parameter.Determines if the query is a get query, that is, a query that retrieves a record by sys\_id.Indicates if the query contains a text query parameter.Sets the last error message in the GlideRecord.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/v\_queryAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,17 +16,17 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The v\_query API provides methods to obtain information about a scriptable object that represents a query running against a remote table.
 
-This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For additional information, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md).
+This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For additional information, see Retrieving external data using remote tables and scripts.
 
-Remote table rows are created using the [v\_table](../../v_table/concept/v_tableAPI.md#) API.
+Remote table rows are created using the [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## v\_query - getCondition\(String field\)
 
 Gets an encoded query string for the specified field.
 
-See also [v\_table](../../v_table/concept/v_tableAPI.md#) API.
+See also [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -33,7 +34,7 @@ See also [v\_table](../../v_table/concept/v_tableAPI.md#) API.
 
 |Type|Description|
 |----|-----------|
-|String|Returns an [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) for the given field.|
+|String|Returns an encoded query string for the given field.|
 
 The following example shows results for a field with an encoded query of `number=INC0001^active=true`.
 
@@ -52,9 +53,9 @@ number=INC0001
 
 Returns the query against a remote table as an encoded query string
 
-For details, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+For details, see Encoded query strings.
 
-See also [v\_table](../../v_table/concept/v_tableAPI.md#) API.
+See also [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -64,7 +65,7 @@ See also [v\_table](../../v_table/concept/v_tableAPI.md#) API.
 |----|-----------|
 |String|The encoded query as a string.|
 
-The following example is a snippet from [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md).
+The following example is a snippet from Retrieving specific records from a third-party source.
 
 ```
 gs.info(v_query.getEncodedQuery());
@@ -82,8 +83,8 @@ Gets the value of a field in an equality query condition.
 
 See also:
 
--   [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md)
--   [v\_table](../../v_table/concept/v_tableAPI.md#) API
+-   Retrieving specific records from a third-party source
+-   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -117,7 +118,7 @@ Returns the sys\_id value in a get query.
 |----|-----------|
 |String|Sys\_id value in the get query, for example, if `sys_id=123`, this method returns `123`.|
 
-The following example is a snippet from [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md).
+The following example is a snippet from Retrieving specific records from a third-party source.
 
 ```
 v_query.getSysId();
@@ -135,9 +136,9 @@ Gets a text search query parameter.
 
 See also:
 
--   [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md)
--   [Querying tables in script](../../../../../script/server-scripting/concept/c_UsingGlideRecordToQueryTables.md#)
--   [v\_table](../../v_table/concept/v_tableAPI.md#) API
+-   Encoded query strings
+-   [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md)
+-   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -166,8 +167,8 @@ Determines if the query is a get query, that is, a query that retrieves a record
 
 See also:
 
--   [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md)
--   [v\_table](../../v_table/concept/v_tableAPI.md#) API
+-   Retrieving specific records from a third-party source
+-   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -215,9 +216,9 @@ Indicates if the query contains a text query parameter.
 
 See also:
 
--   [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md)
--   [Querying tables in script](../../../../../script/server-scripting/concept/c_UsingGlideRecordToQueryTables.md#)
--   [v\_table](../../v_table/concept/v_tableAPI.md#) API
+-   Encoded query strings
+-   [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md)
+-   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -255,9 +256,9 @@ Sets the last error message in the GlideRecord.
 
 See also:
 
--   [Scoped GlideRecord - getLastErrorMessage\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)
--   [Retrieving specific records from a third-party source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-table-script-def-example2.md)
--   [v\_table](../../v_table/concept/v_tableAPI.md#) API
+-   [Scoped GlideRecord - getLastErrorMessage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   Retrieving specific records from a third-party source
+-   [v\_table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/v_tableAPI.md) API
 
 |Name|Type|Description|
 |----|----|-----------|

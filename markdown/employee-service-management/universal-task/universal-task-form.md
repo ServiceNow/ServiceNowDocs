@@ -2,6 +2,7 @@
 title: Universal Task form
 description: Universal Task form to create a task record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/universal-task-form.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -102,7 +103,7 @@ Checklist
 
 </td><td>
 
-In the **Checklist** section, add the checklist items. For detailed information, see [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAChecklist.md)
+In the **Checklist** section, add the checklist items. For detailed information, see Create a checklist
 
 </td></tr><tr><td>
 
@@ -110,7 +111,7 @@ Collect Employee Input
 
 </td><td>
 
-In the **Employee form** field, select the employee form that the user will fill out. **Note:** Employee forms can be built using the survey designer. See [Create an employee form](../task/ut-create-employee-form.md) for more information.
+In the **Employee form** field, select the employee form that the user will fill out. **Note:** Employee forms can be built using the survey designer. See [Create an employee form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-create-employee-form.md) for more information.
 
 </td></tr><tr><td>
 
@@ -122,7 +123,7 @@ In the **URL** field, specify a URL that will be displayed in the task that is a
 
 </td></tr><tr><td colspan="2">
 
-To know more about the function of each type, see [Universal Task types](../concept/universal-task-types.md)
+To know more about the function of each type, see [Universal Task types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/universal-task-types.md)
 
 </td></tr><tr><td>
 
@@ -299,5 +300,5 @@ Work notes
 Information about how to resolve the Universal Task or steps taken to resolve it, if applicable. This note is for internal use. The work notes information is not visible to customers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Task reference](../concept/universal-task-reference.md)
+</table>**Parent Topic:**[Universal Task reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/universal-task-reference.md)
 

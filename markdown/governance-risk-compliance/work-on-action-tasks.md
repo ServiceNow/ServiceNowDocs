@@ -2,6 +2,7 @@
 title: Complete action tasks and report incidents associated with regulations
 description: Report incidents or security incidents associated with multiple regulations for various legal entities. The automated workflow generates regulatory reporting assessments of IT incidents, and Digital resilience incident \(DRI\) Initial, Intermediate, and Final reports, all within regulatory timelines. Complete the action tasks and generate reports in Microsoft Word format, as required by regulatory authorities for analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/work-on-action-tasks.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: sn\_oper\_res.manager
 
     From the Digital resilience incident reporting \(DRIR\) cases in the instance, DRI0001003 is selected for this example.
 
-    ![Cases.](../image/drir-cases-created-opres.png)
+    \[Omitted image "drir-cases-created-opres.png"\] Alt text: Cases.
 
     Its automated workflow generates the Regulatory reporting assessment of IT incidents, DRI Initial report, DRI Intermediate report, and DRI Final report action tasks.
 
@@ -35,23 +36,23 @@ Role required: sn\_oper\_res.manager
 
     The examples show that an action task is assigned automatically.
 
-    ![Action task is assigned automatically to the case.](../image/ent-acer-w-dora-regulation.png)
+    \[Omitted image "ent-acer-w-dora-regulation.png"\] Alt text: Action task is assigned automatically to the case.
 
     A regulation is mapped to the case.
 
-    ![Regulation is mapped to the case.](../image/ent-acer-w-dora-regulation-mapped.png)
+    \[Omitted image "ent-acer-w-dora-regulation-mapped.png"\] Alt text: Regulation is mapped to the case.
 
 3.  Review the details of the Digital resilience incident reporting case and verify that the owner of the case is a member of the assignment group.
 
     A sample Digital resilience incident reporting incident is shown where the source is Incident, Source record is in the New state, the source record is an Incident INC0010005, and the date of discovery is listed. The case is assigned to the 'Digital Resilience Incident Managers' assignment group.
 
-    ![Incident assigned.](../image/inci-assigned.png)
+    \[Omitted image "inci-assigned.png"\] Alt text: Incident assigned.
 
 4.  As a Digital Resilience Incident Manager, log in to the case record, assign it to an analyst from your group, and select **Save**.
 
-    The example shows that an analyst, Opres manger01, is assigned to the 'Digital resilience incident reporting: Facility issue' case.
+    The example shows that an analyst, Opres manager01, is assigned to the 'Digital resilience incident reporting: Facility issue' case.
 
-    ![Case assigned.](../image/dri-case-to-analyst.png)
+    \[Omitted image "dri-case-to-analyst.png"\] Alt text: Case assigned.
 
     As the assigned analyst, you can begin working on the action tasks.
 
@@ -59,9 +60,9 @@ Role required: sn\_oper\_res.manager
 
     The example shows that the 'Regulatory reporting assessment of IT incidents' action task is updated to the **Assigned** state.
 
-    ![Action task state is updated.](../image/update-state-assigned.png)
+    \[Omitted image "update-state-assigned.png"\] Alt text: Action task state is updated.
 
-    ![Action task is in the assigned state.](../image/act-task-assigned.png)
+    \[Omitted image "act-task-assigned.png"\] Alt text: Action task is in the assigned state.
 
 6.  Select **View assessment**, select **Start** in the assessment section of the action task, and respond to the questions in the assessment template.
 
@@ -69,35 +70,35 @@ Role required: sn\_oper\_res.manager
 
     As an analyst, you can start the assessment as shown in the example.
 
-    ![Start the assessment.](../image/asmt-section-of-action-task.png)
+    \[Omitted image "asmt-section-of-action-task.png"\] Alt text: Start the assessment.
 
     Sample assessment questions and answers are shown in the example.
 
     **Note:** You can trigger the assessment from an incident or a security incident.
 
-    ![Sample assessment questions and answers.](../image/act-t1-asmt-q.png)
+    \[Omitted image "act-t1-asmt-q.png"\] Alt text: Sample assessment questions and answers.
 
 7.  To submit the responses to the questions, select **Submit** and respond to the confirmation message by selecting **Submit** again.
 
     The assessment submission form is shown in the example.
 
-    ![Submit the assessment.](../image/act-task-submit-asmt.png)
+    \[Omitted image "act-task-submit-asmt.png"\] Alt text: Submit the assessment.
 
     When you complete the assessment, its state is shown as **Completed** in the **Assessment** tab.
 
-    ![Assessment completed.](../image/act-task-asmt-comp.png)
+    \[Omitted image "act-task-asmt-comp.png"\] Alt text: Assessment completed.
 
     The assessment is pending for review and the state is updated to **Review** as shown in the action task.
 
-    ![Pending for review.](../image/act-task-asmt-pending-review.png)
+    \[Omitted image "act-task-asmt-pending-review.png"\] Alt text: Pending for review.
 
     Once the assessment is submitted, the regulation status is updated to 'Reportable' as shown in the Regulations related list.
 
-    ![Reporting status is updated to Reportable.](../image/regu-reportable.png)
+    \[Omitted image "regu-reportable.png"\] Alt text: Reporting status is updated to Reportable.
 
     In this example, the action task CCT002001 is in the 'Review' state, while CCT002002 for 'DRI Initial report' has been created automatically.
 
-    ![Second action task is created.](../image/act-t2-created.png)
+    \[Omitted image "act-t2-created.png"\] Alt text: Second action task is created.
 
 8.  As a reviewer of the action task, log in and complete the review.
 
@@ -118,7 +119,7 @@ Role required: sn\_oper\_res.manager
     -   **Generate MS Word**: Creates a Microsoft Word document of the assessment.
     -   **Export Excel**: Displays the assessment sections in separate sheets in Microsoft Excel, with questions as column headers and their respective answers in the columns.
     -   **Export JSON**: Provides a JSON structure with question-and-answer pairs in key-value format, ideal for automated systems and integrations.
-    ![Options to export the action task reports.](../image/dri-act-task-asmts-export-options.png)
+    \[Omitted image "dri-act-task-asmts-export-options.png"\] Alt text: Options to export the action task reports.
 
     Select a format from the **Export** drop-down, enter a file name, and save— the report downloads automatically. This enhancement streamlines your workflow for regulatory reporting, documentation, and compliance purposes.
 
@@ -147,7 +148,7 @@ Role required: sn\_oper\_res.manager
 
         When you navigate to an assessment action task, you can access the export options as shown in the example.
 
-        ![Options to export the action task reports.](../image/dri-act-task-asmts-export-options.png)
+        \[Omitted image "dri-act-task-asmts-export-options.png"\] Alt text: Options to export the action task reports.
 
     The report downloads automatically.
 
@@ -161,7 +162,7 @@ Role required: sn\_oper\_res.manager
 
         The example shows the Word template and sample name of the report.
 
-        ![Generate report UI action.](../image/act-task-word-report.png)
+        \[Omitted image "act-task-word-report.png"\] Alt text: Generate report UI action.
 
     3.  Select **Generate**.
 
@@ -169,9 +170,9 @@ Role required: sn\_oper\_res.manager
 
     The action task report is generated in the Microsoft Word format. It includes information from the **Details** and **Assessments** tabs and attachments. It includes information such as form sections, questions, template sections, question answers, and attachment links as shown in the examples.
 
-    ![Word report sections.](../image/word-rep-1.png)![Details of Word report.](../image/word-rep-2.png)
+    \[Omitted image "word-rep-1.png"\] Alt text: Word report sections.\[Omitted image "word-rep-2.png"\] Alt text: Details of Word report.
 
-    For information on Word templates and Template configurations, see [Generating Microsoft Word reports using Document designer](../concept/gen-word-reports.md).
+    For information on Word templates and Template configurations, see [Generating Microsoft Word reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/gen-word-reports.md).
 
     The generation of Microsoft Word reports, required by regulatory authorities for analysis in Digital resilience incident reporting, is completed with this step.
 
@@ -179,13 +180,13 @@ Role required: sn\_oper\_res.manager
 
     The **Microsoft Excel** file and formats are shown in the example.
 
-    ![Excel.](../image/drir-downloaded-excel-file.png)
+    \[Omitted image "drir-downloaded-excel-file.png"\] Alt text: Excel.
 
 16. To generate a report in JSON format, select **Export JSON**.
 
     The example shows a report in JSON format.
 
-    ![JSON format.](../image/drir-downloaded-json-file-keypairs.png)
+    \[Omitted image "drir-downloaded-json-file-keypairs.png"\] Alt text: JSON format.
 
 17. To save the action task in the instance, select **Save**.
 

@@ -2,6 +2,7 @@
 title: Migrate operational resource plans
 description: Migrate the required Operational resource plans to attribute-based Operational resource assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/migrate-operational-rsrc-plans.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -29,8 +30,8 @@ Role required: resource\_manager, it\_project\_manager, demand\_manager, admin
 
     Operational resource plans are migrated to Operational resource assignments. You can view the list of Operational resource assignments at **All** &gt; **Resource** &gt; **Resource Assignment** &gt; **Operational Resource Assignments**.
 
-    **Tip:** You can [Activate a scheduled job to migrate resource plans and cost plans](migrate-rsrc-plan-cost-plan-scheduled-job.md).
+    **Tip:** You can [Activate a scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md).
 
 
-**Parent Topic:**[Migration of resource plans, operational resource plans, and cost plans](../concept/rsrc-plans-rsrc-asgmnts.md)
+**Parent Topic:**[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)
 

@@ -2,6 +2,7 @@
 title: Confirm meeting a milestone for your service from Shopping Hub Home
 description: Provide confirmation from Shopping Hub Home on whether the supplier has met a milestone for a service you had ordered, so that payment can be processed to the supplier for that milestone. If a milestone hasn’t been met by the due date, you can raise a cancel request or propose a new completion date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/work-milestone-todos.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,15 +38,15 @@ You can provide confirmation on whether the supplier has met a milestone for a s
 
 5.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d126104e116">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d118849e116">
 
 Action
 
-</th><th align="left" id="d126104e119">
+</th><th align="left" id="d118849e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126104e125">
+</th></tr></thead><tbody><tr><td id="d118849e125">
 
 **Additional comments**
 
@@ -53,7 +54,7 @@ Description
 
 Provide your response, if any, and select **Complete**.
 
-</td></tr><tr><td id="d126104e137">
+</td></tr><tr><td id="d118849e137">
 
 **Defer completion**
 
@@ -63,7 +64,7 @@ Push the milestone to a later date.On the **Defer completion** window, provide y
 
 **Note:** Milestones can be received in percentage and amount, but can only be deferred if not complete until they’re processed for the full milestone. This is because milestones are parts of the whole, and partials aren’t supported.
 
-</td></tr><tr><td id="d126104e156">
+</td></tr><tr><td id="d118849e156">
 
 **Cancel milestone**
 
@@ -73,5 +74,5 @@ Cancel the milestone altogether. On the **Cancel milestone** window, provide you
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

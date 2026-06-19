@@ -2,6 +2,7 @@
 title: Machine Learning solutions for Flow Designer
 description: With Predictive Intelligence for Flow Designer \(com.snc.ml\_flowdesigner\), you can deploy machine learning solutions in your instance. This spoke provides actions to incorporate Predictive Intelligence model predictions into flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/predictive-intelligence-spoke.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ With Predictive Intelligence for Flow Designer \(com.snc.ml\_flowdesigner\), you
 
 ## Predictive Intelligence activation
 
-This spoke requires Predictive Intelligence \(com.glide.platform\_ml\). For more information, see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
+This spoke requires Predictive Intelligence \(com.glide.platform\_ml\). For more information, see .
 
 ## Key features
 
@@ -110,10 +111,10 @@ Predictive Intelligence for Flow Designer provides these user roles to control a
 |---------|-----------|
 |ml\_admin|Grants access to all Predictive Intelligence features|
 
-**Parent Topic:**[Spokes](../concept/spokes.md)
+**Parent Topic:**[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md)
 
 **Related topics**  
 
 
-[Use Predictive Intelligence in Flow Designer with ML actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/use-predictive-intelligence-flow-designer-ml-actions.md)
+[bundle-platai.use-predictive-intelligence-flow-designer-ml-actions]
 

@@ -2,6 +2,7 @@
 title: Create a domain
 description: You can create a domain by creating a record in the \[domain\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-a-domain.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -56,5 +57,5 @@ When creating a new domain, keep the following in mind:
 
 To change the domain hierarchy, go to the Contains Domains related list and select the domain records that is the child \(contained\) domains of the contains relationship.
 
-**Parent Topic:**[Domain separation in GRC](../concept/grc-domain-separation.md)
+**Parent Topic:**[Domain separation in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-domain-separation.md)
 

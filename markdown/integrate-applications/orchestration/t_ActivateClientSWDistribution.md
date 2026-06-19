@@ -2,6 +2,7 @@
 title: Request client software distribution
 description: Client software distribution requires the Orchestration - Client Software Distribution plugin \(com.snc.orchestration.client\_sf\_distribution\), which is available by request with a subscription to Orchestration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_ActivateClientSWDistribution.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Orchestration - Client Software Distribution plugin activates the [Orchestration - System Center Configuration Manager](t_ActivateSysCentrConfigMgrActiv.md) plugin that contains the custom SCCM activities used to deploy or revoke software using an SCCM server. For additional plugin dependencies, see [Plugins installed with client software distribution](../reference/r_IWClientSWDist.md#).
+The Orchestration - Client Software Distribution plugin activates the [Orchestration - System Center Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_ActivateSysCentrConfigMgrActiv.md) plugin that contains the custom SCCM activities used to deploy or revoke software using an SCCM server. For additional plugin dependencies, see [Plugins installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_IWClientSWDist.md).
 
 **Note:** The Orchestration - Client Software Distribution plugin runs in its own application scope.
 
@@ -57,7 +58,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -75,5 +76,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Client Software Distribution](../concept/c_ClientSoftwareDistribution.md)
+**Parent Topic:**[Client Software Distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ClientSoftwareDistribution.md)
 

@@ -2,6 +2,7 @@
 title: Specify a connection string
 description: You can specify a connection string instead of defining a DSN.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/specify-connection-string.html
 release: australia
 product: Web Services
 classification: web-services
@@ -21,7 +22,7 @@ You must have administrator-level access for the Windows computer on which you w
 
 ## About this task
 
-This is an alternative method of connecting with different instance URLs. See also [Create a new DSN](t_CreatingANewDSN.md).
+This is an alternative method of connecting with different instance URLs. See also [Create a new DSN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreatingANewDSN.md).
 
 A connection string must follow this format:
 
@@ -41,5 +42,5 @@ The driver name varies depending on whether you use the 32-bit or 64-bit version
 3.  Note the value in the **Driver** column for the ServiceNow data source.
 
 
-**Parent Topic:**[Configuring the ODBC driver](../concept/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-odbc.md)
 

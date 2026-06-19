@@ -2,6 +2,7 @@
 title: Properties installed
 description: Properties for client software distribution \(CSD\) manage the installation status of requested software deployments and configure scheduled Discoveries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-prop-installed.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -44,7 +45,7 @@ Controls how many days the system waits before ignoring the software installatio
  -   **Not installed**: User has not installed requested software prior to the expiration of the configured time limit.
 -   **Installed**: Software was installed within the configured time limit.
 -   **Status check expired**: Time limit has expired for the user to install the requested software. The system no longer checks the status of this deployment.
--   **Revoked**: Software was [revoked](../tasks/revoke-from-serv-cat.md) by the administrator.
+-   **Revoked**: Software was [revoked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/revoke-from-serv-cat.md) by the administrator.
 
  -   **Type**: integer
 -   **Default value**: 30
@@ -102,5 +103,5 @@ Determines how many days prior to the end of a software lease to notify the requ
 -   **Default value**: 5
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with client software distribution](comp-installed-csd-ihub.md)
+</table>**Parent Topic:**[Components installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/comp-installed-csd-ihub.md)
 

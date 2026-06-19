@@ -2,6 +2,7 @@
 title: Components installed with Software Asset Management Professional
 description: Roles, plugins, and scheduled jobs are installed with the activation of the Software Asset Management Professional application. Demo data is available with this application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-installed-components.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -51,7 +52,7 @@ Granular admin role that has full access to the Software Asset Management applic
 -   model\_manager
 -   contract\_manager
 
- **Note:** The sam\_spend\_import role is installed with Software Spend Detection. The it\_demand\_user role is no longer automatically installed with [PPM Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md).
+ **Note:** The sam\_spend\_import role is installed with Software Spend Detection. The it\_demand\_user role is no longer automatically installed with PPM Standard.
 
 </td></tr><tr><td>
 
@@ -152,7 +153,7 @@ This plugin is for releases prior to Australia. Loads the following Software Ass
 -   All publisher pack add-on plugins
 -   Software Asset Management UI Components \(com.sn\_samp\_workbench\)
 
- **Note:** To enable SaaS License Management, you must request the Software Asset Management — SaaS License Management \(sn\_sam\_saas\_int\) plugin separately from the ServiceNow Store. See [Request SaaS License Management](../task/request-saas-license-management.md) for information on how to request and activate this plugin.
+ **Note:** To enable SaaS License Management, you must request the Software Asset Management — SaaS License Management \(sn\_sam\_saas\_int\) plugin separately from the ServiceNow Store. See [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md) for information on how to request and activate this plugin.
 
 </td></tr><tr><td>
 
@@ -166,7 +167,7 @@ Now Support Service Portal
 
 Required to gather software usage data from Microsoft SCCM \(System Center Configuration Manager\) 2012 v2.Automatically activates the Integration — Microsoft SCCM 2012 v2 \(com.snc.integration.sccm2012v2\) plugin if not already active.
 
- **Important:** This plugin will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated this plugin on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration to the Service Graph connector. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more information on the Service Graph connector.
+ **Important:** This plugin will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated this plugin on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration to the Service Graph connector. See Service Graph connector for Microsoft SCCM for more information on the Service Graph connector.
 
 </td></tr><tr><td>
 
@@ -180,7 +181,7 @@ Now Support Service Portal
 
 Required to gather software usage data from Microsoft SCCM \(System Center Configuration Manager\) 2016.Automatically activates the Integration — Microsoft SCCM 2016 \(com.snc.integration.sccm2016\) plugin if not already active.
 
- **Important:** This plugin will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated this plugin on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration to the Service Graph connector. See [Service Graph connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-sccm.md) for more information on the Service Graph connector.
+ **Important:** This plugin will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the [ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated this plugin on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration to the Service Graph connector. See Service Graph connector for Microsoft SCCM for more information on the Service Graph connector.
 
 </td></tr><tr><td>
 
@@ -202,7 +203,7 @@ Software Asset Management — SaaS License Management\(sn\_sam\_saas\_int\)
 
 ServiceNow Store
 
- See [Request SaaS License Management](../task/request-saas-license-management.md) for information on how to request and activate this plugin from the ServiceNow Store.
+ See [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/request-saas-license-management.md) for information on how to request and activate this plugin from the ServiceNow Store.
 
 </td><td>
 
@@ -359,5 +360,5 @@ Now Support Service Portal
 Requires the Software Asset Management Professional \(com.snc.samp\) plugin. Provides additional capabilities to reconcile engineering applications such as AutoCAD.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
 

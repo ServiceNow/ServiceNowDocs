@@ -2,7 +2,10 @@
 title: Decision tree nodes
 description: Decision trees include several types of nodes, including start nodes, question nodes, guidance nodes, and linking nodes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/guided-decision-tree-node-types.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -18,9 +21,9 @@ A decision tree begins with a start node, which presents the first set of questi
 You can enable agents to modify their responses in previous nodes:
 
 -   Agents can go back to the previous node by selecting the **Back** button.
--   Agents can jump to any previous node by selecting the Edit icon ![Edit icon](../image/icon-pencil-ac.png)\) in the View my responses tab.
+-   Agents can jump to any previous node by selecting the Edit icon \[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\) in the View my responses tab.
 
-For more information, see [Create a decision tree in Core UI](../task/configure-decision-trees-gdb.md) and [Add questions or instructions to a decision tree](../task/configure-start-node-gdb.md).
+For more information, see [Create a decision tree in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-decision-trees-gdb.md) and [Add questions or instructions to a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-start-node-gdb.md).
 
 ## Start nodes
 
@@ -39,7 +42,7 @@ A question node presents the agent with a question or instructions to follow to 
 
 The answers to the questions are used to create path conditions.
 
-For more information about the available answer types, see [Answer types for questions](../reference/type-of-answer.md).
+For more information about the available answer types, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/type-of-answer.md).
 
 **Note:** Using unsupported input types can cause errors in the runtime experience.
 
@@ -56,9 +59,9 @@ A guidance can have outputs, which drive further decision making. With a guidanc
 -   Connect the guidance to the guidance node's next node.
 -   Map the outputs of the guidance to inputs for the guidance node's next node.
 
-For descriptions of the available guidances, see [Guidances included with Guided Decisions Experience application](../reference/components-installed-with-guided-decisions.md#section_mt1_njl_d5b).
+For descriptions of the available guidances, see [Guidances included with Guided Decisions Experience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/components-installed-with-guided-decisions.md).
 
-Users with the Decision tree author role can also create guidances to reuse in decision trees or recommended actions. For more information, see [Create a guidance in the Core UI](../task/create-guidances.md).
+Users with the Decision tree author role can also create guidances to reuse in decision trees or recommended actions. For more information, see [Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-guidances.md).
 
 ## Linking nodes
 
@@ -74,6 +77,6 @@ A linking node includes the following elements:
 
 For more information, see the following topics:
 
--   For Decision Tree Builder: [Link an activated decision tree to this decision tree](../task/configure-linking-node-dtb.md).
--   For Core UI: [Link another decision tree to this decision tree](../task/configure-linking-node.md)
+-   For Decision Tree Builder: [Link an activated decision tree to this decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-linking-node-dtb.md).
+-   For Core UI: [Link another decision tree to this decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-linking-node.md)
 

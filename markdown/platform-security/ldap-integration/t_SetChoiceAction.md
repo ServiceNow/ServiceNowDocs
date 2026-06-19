@@ -2,6 +2,7 @@
 title: Set choice action for reference field imports
 description: The LDAP transform map determines how fields in the Import Set table map to fields in existing tables such as Incident or User.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_SetChoiceAction.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

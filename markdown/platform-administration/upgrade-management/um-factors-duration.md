@@ -2,6 +2,7 @@
 title: Factors affecting upgrade duration
 description: Various factors affect how long the system takes to perform an upgrade. The Upgrade Monitor on non-production instance can help you understand those factors and estimate how long the upgrade to your production instance takes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-factors-duration.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -29,5 +30,5 @@ Upgrading a non-production instance can help you estimate how long the upgrade t
 -   The production instance may have more memory and processing power.
 -   The production instance may have more nodes than the non-production instance.
 
-After upgrading the first non-production instance, examine the [Upgrade Summary Report](../reference/um-complete-summary.md) for data to help estimate the impact of these factors.
+After upgrading the first non-production instance, examine the [Upgrade Summary Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-complete-summary.md) for data to help estimate the impact of these factors.
 

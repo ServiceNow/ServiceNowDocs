@@ -2,13 +2,14 @@
 title: Tables installed with engineering applications
 description: Tables are installed with the Software Asset Management Professional for Engineering Applications store app \(sn\_samp\_eng\_app\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/components-installed-engg-app.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Engineering license management, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Engineering license management, Software Asset Management, IT Asset Management]
 ---
 
 # Tables installed with engineering applications
@@ -195,5 +196,5 @@ Unrecognized Publisher Integration Map\[samp\_unrec\_publisher\_integration\_map
 Maps unrecognized publishers to subscription integrations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Engineering license management](../concept/concurrent-licenses.md)
+</table>**Parent Topic:**[Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/concurrent-licenses.md)
 

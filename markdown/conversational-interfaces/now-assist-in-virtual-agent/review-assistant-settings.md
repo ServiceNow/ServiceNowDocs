@@ -2,6 +2,7 @@
 title: Review chat assistant settings
 description: Review your chat assistant settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/review-assistant-settings.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Review your chat assistant settings.
 
 ## Before you begin
 
-See [Enable additional chat features](additional-chat-features.md).
+See [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/additional-chat-features.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -48,5 +49,5 @@ The configuration for each step is shown on the review page. You will need to **
 
 ## What to do next
 
-See [Test a chat assistant](test-assistant.md).
+See [Test a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/test-assistant.md).
 

@@ -2,6 +2,7 @@
 title: Define Virtual Agent notification actions
 description: Create the actions for a Virtual Agent chat or messaging channel to send actionable notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/define-va-notif-actions.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Create the actions for a Virtual Agent chat or messaging channel to send actiona
 
 ## Before you begin
 
--   An action requires an associated, published \(active\) Virtual Agent topic, a Scriptable action, or a Flow action which can perform the action represented by a button in the notification, such as talk to an agent \(live agent support\) or bot feedback \(Virtual Agent feedback\). Consider working with your topic authors to determine the appropriate topics and corresponding actions. For more information about designing the Virtual Agent topics, see [Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md).
+-   An action requires an associated, published \(active\) Virtual Agent topic, a Scriptable action, or a Flow action which can perform the action represented by a button in the notification, such as talk to an agent \(live agent support\) or bot feedback \(Virtual Agent feedback\). Consider working with your topic authors to determine the appropriate topics and corresponding actions. For more information about designing the Virtual Agent topics, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
     **Note:** Scriptable actions and Flow actions are asynchronous and are executed when you select the action without a Virtual Agent topic. You can select either an existing flow that is defined or coordinate with the flow authors to send actionable notifications.
 
@@ -31,7 +32,7 @@ Create the actions for a Virtual Agent chat or messaging channel to send actiona
 
 3.  Select a notification action.
 
-    ![The Notification Action page displaying the notification action types that user can choose and create. The available options are Scriptable Action, Flow Actions, and Virtual Agent.](../images/va-notif-actions-prompt.png "Select notification action")
+    \[Omitted image "va-notif-actions-prompt.png"\] Alt text: The Notification Action page displaying the notification action types that user can choose and create. The available options are Scriptable Action, Flow Actions, and Virtual Agent.
 
 4.  On the form, fill in the fields to define the notification actions.
 
@@ -159,7 +160,7 @@ Script to pass inputs to a flow action.This Script field appears when you select
 
 ## What to do next
 
-[Define link actions to notification content](define-va-notif-link-actions.md).
+[Define link actions to notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-va-notif-link-actions.md).
 
-**Parent Topic:**[Configuring Virtual Agent notifications](../concept/configuring-va-notifications.md)
+**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 

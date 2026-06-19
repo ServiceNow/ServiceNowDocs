@@ -2,6 +2,7 @@
 title: Installed with SLA breakdown definitions
 description: Several types of components are installed with the SLA breakdown definitions.Plugins are added with activation of SLA breakdowns.Tables are added with activation of SLA breakdowns.Properties are added with activation of SLA breakdowns.UI policies are added with activation of SLA breakdowns.Script includes are added with activation of SLA breakdowns.Client scripts are added with activation of SLA breakdowns.Business rules are added with the activation of SLA breakdowns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/installed-with-sla-breakdowns.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -15,7 +16,7 @@ breadcrumb: [Activate SLA Breakdown definitions, Service Level Management plugin
 
 Several types of components are installed with the SLA breakdown definitions.
 
-**Parent Topic:**[Activate SLA Breakdown definitions](activate-sla-breakdowns-plugin.md)
+**Parent Topic:**[Activate SLA Breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/activate-sla-breakdowns-plugin.md)
 
 ## Plugins installed with SLA breakdowns
 

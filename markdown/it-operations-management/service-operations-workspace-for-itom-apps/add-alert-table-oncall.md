@@ -2,6 +2,7 @@
 title: Add alert table to enable on-call scheduling for Service Operations Workspace for ITOM
 description: Enable on-call scheduling by incorporating the Alert table \[em\_alert\] into the Trigger Rule Table Config list. This allows for creating shifts and implementing escalation triggers and policies, ensuring teams can promptly respond to alerts and maintain operational continuity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/add-alert-table-oncall.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -28,7 +29,7 @@ Role required: evt\_mgmt\_admin
 
 2.  On the form, fill in the fields with the following values.
 
-    ![Trigger rule table config form.](../image/sow-trigger-rule-table-config.png)
+    \[Omitted image "sow-trigger-rule-table-config.png"\] Alt text: Trigger rule table config form.
 
     -   In the **Table** field, select **Alert \[em\_alert\]**.
     -   In the **Trigger group** field, select **Assignment group**.
@@ -39,7 +40,7 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-[Create on-call shift for your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md).
+Create on-call shift for your team.
 
-**Parent Topic:**[On-call scheduling in Service Operations Workspace for ITOM](../concept/oncall-schedule-escalation.md)
+**Parent Topic:**[On-call scheduling in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/oncall-schedule-escalation.md)
 

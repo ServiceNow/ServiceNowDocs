@@ -2,6 +2,7 @@
 title: Create New Plan form
 description: Use the Create New Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -249,5 +250,5 @@ Template
 Panel to populate the template for the business continuity plan. You can view all or customized templates in this panel.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a business continuity plan](../task/create-bcp-plan-in-uib-ws.md)
+</table>**Parent Topic:**[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)
 

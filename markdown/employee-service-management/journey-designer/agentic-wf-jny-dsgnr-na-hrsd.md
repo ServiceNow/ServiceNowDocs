@@ -2,6 +2,7 @@
 title: Agentic workflows for Journey designer
 description: Use agentic workflows and Now Assist for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/agentic-wf-jny-dsgnr-na-hrsd.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -29,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Generate onboarding ramp-up plan](onboarding-ramp-up-plan-agentic-wf.md)
+[Generate onboarding ramp-up plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.md)
 
 </td><td>
 
@@ -58,11 +59,11 @@ To modify an agentic workflow, you must first duplicate the agentic workflow tha
 
 For more information about duplicating an agentic workflow and activating the required components, see the following topics:
 
--   [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md)
--   [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md)
--   [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md)
+-   Duplicate an agentic workflow
+-   
+-   
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
-**Parent Topic:**[Using Journey designer](using-jny-dsnr.md)
+**Parent Topic:**[Using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/using-jny-dsnr.md)
 

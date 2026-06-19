@@ -2,6 +2,7 @@
 title: Create a central office code
 description: Created topic for STRY55294083 - DOC1071773Create a central office code to allocate it to an area code of a country by using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create\_a\_central\_office\_code.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,7 +28,7 @@ You can create, review, update, or delete a central office code. You can also vi
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Administration** &gt; **Central office code**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Administration** &gt; **Central office code**.
 
 3.  Select **New**
 
@@ -60,18 +61,18 @@ Central office code that is also referred to as NXX. The NXX portion of a teleph
  For example, in the phone number \(123\) 456-7890, "456" represents the central office code.
 
 </td></tr></tbody>
-</table>5.  Add the attachments, such as the graphics or documents, by selecting the attachment icon \(![Attachment icon.](../image/attachments-icon.png)\) in the right panel.
+</table>5.  Add the attachments, such as the graphics or documents, by selecting the attachment icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachment icon.\) in the right panel.
 
 6.  Select **Save**.
 
     A central office code and an area code are added in the list view of the central office code.
 
-7.  If you want to delete a central office code, navigate to that code, select the options icon \(![Options icon.](../image/options-icon.png)\), select **Delete**, and select **OK** when you see the confirmation window.
+7.  If you want to delete a central office code, navigate to that code, select the options icon \(\[Omitted image "options-icon.png"\] Alt text: Options icon.\), select **Delete**, and select **OK** when you see the confirmation window.
 
 
 ## What to do next
 
-Create a country code. For information, see [Create a country code](create_a_country_code.md).
+Create a country code. For information, see [Create a country code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_country_code.md).
 
-**Parent Topic:**[Create the components of a telephone number](../concept/create_components_of_a_telephone_number.md)
+**Parent Topic:**[Create the components of a telephone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_components_of_a_telephone_number.md)
 

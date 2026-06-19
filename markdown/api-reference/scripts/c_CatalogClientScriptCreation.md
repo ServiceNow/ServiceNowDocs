@@ -2,6 +2,7 @@
 title: Catalog client scripts
 description: Client-side scripts can add dynamic effects and validation to forms. Scripts can apply to service catalog items or variable sets, allowing administrators to use the same functionality that is available on other forms.When you create catalog client scripts, be aware of the following considerations.Catalog client scripts are very similar to standard client scripts, with a few important differences.Follow this procedure to create a catalog client script.Examples of client scripts to perform common actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_CatalogClientScriptCreation.html
 release: australia
 product: Scripts
 classification: scripts
@@ -24,7 +25,7 @@ You can use client side scripts to:
 -   Add something to the cart.
 -   Order something immediately.
 
-**Parent Topic:**[Client-side scripting](client-side-scripting-overview.md)
+**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-side-scripting-overview.md)
 
 ## Catalog client script considerations
 
@@ -47,6 +48,10 @@ Catalog client scripts are very similar to standard client scripts, with a few i
 ## Create a catalog client script
 
 Follow this procedure to create a catalog client script.
+
+### Before you begin
+
+Role required: admin
 
 ### Procedure
 
@@ -98,7 +103,10 @@ UI Type
 
 </td><td>
 
-Whether to apply this to desktop, mobile, or both.
+Whether to apply this to desktop, mobile, or both.-   Desktop: The script runs only in the desktop Core UI.
+-   Mobile / Service Portal: The script runs only in mobile, portal, or configurable workspace UIs.
+-   All: The script executes across all available UIs.
+
 
 </td></tr><tr><td>
 
@@ -138,7 +146,7 @@ Applies on Requested Items
 
 </td><td>
 
-Select the check box to apply the catalog client script on a Requested Item form, after the item is requested. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md) .
+Select the check box to apply the catalog client script on a Requested Item form, after the item is requested. Available in the fulfiller view. See VEditor .
 
 </td></tr><tr><td>
 
@@ -146,7 +154,7 @@ Applies on Catalog Tasks
 
 </td><td>
 
-Select the check box to apply the catalog client script when a Catalog Task form for the item is being displayed. Available in the fulfiller view. See [VEditor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md) .
+Select the check box to apply the catalog client script when a Catalog Task form for the item is being displayed. Available in the fulfiller view. See VEditor .
 
 </td></tr><tr><td>
 
@@ -154,7 +162,7 @@ Applies on the Target Record
 
 </td><td>
 
-Select the check box to support the catalog UI policy on a record created for task-extended tables via record producers. See [Default variable editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md) .
+Select the check box to support the catalog UI policy on a record created for task-extended tables via record producers. See Default variable editor .
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

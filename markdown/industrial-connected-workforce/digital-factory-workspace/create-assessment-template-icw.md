@@ -2,6 +2,7 @@
 title: Create an assessment template
 description: Create an assessment template for creating standards from templates in the Digital Factory Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-assessment-template-icw.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -27,7 +28,7 @@ Role required: sn\_icw\_igt.standard author
 
 3.  One the Assessment template form, fill in the fields.
 
-    For a description of the field values, see [Create assessment template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/create-assessment-template-form.md). The Purpose field lets you select from the list of assessment template categories.
+    For a description of the field values, see . The Purpose field lets you select from the list of assessment template categories.
 
     **Note:**
 
@@ -43,7 +44,7 @@ Role required: sn\_icw\_igt.standard author
 
 5.  In the **Questions** tab, fill in the template.
 
-    For a description of the field values, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    For a description of the field values, see .
 
     **Note:** The following controls are to be kept as is:
 
@@ -56,5 +57,5 @@ Role required: sn\_icw\_igt.standard author
 
 The template is now available when creating standards in the Standards hub.
 
-**Parent Topic:**[Using templates to create standards](../concept/creating-standards-from-templates.md)
+**Parent Topic:**[Using templates to create standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/creating-standards-from-templates.md)
 

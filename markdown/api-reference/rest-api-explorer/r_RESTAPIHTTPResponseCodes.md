@@ -2,6 +2,7 @@
 title: REST API HTTP response codes
 description: REST messages sent to an instance return a specific HTTP response code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/r\_RESTAPIHTTPResponseCodes.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -31,5 +32,5 @@ REST messages sent to an instance return a specific HTTP response code.
 |502|Bad gateway|The server, while acting as a gateway or proxy, received an invalid response from the upstream server.|
 |503|Service unavailable|The server is currently unable to handle the request.|
 
-**Parent Topic:**[REST APIs](../concept/c_RESTAPI.md)
+**Parent Topic:**[REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md)
 

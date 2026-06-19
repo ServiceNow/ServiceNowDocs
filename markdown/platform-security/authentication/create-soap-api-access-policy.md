@@ -2,6 +2,7 @@
 title: Create SOAP API access policy
 description: Create an API access policy and map an authentication profile to restrict the authentication type for a SOAP API. For example, you can create an API access policy that allows only ID token authentication for a SOAP API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-soap-api-access-policy.html
 release: australia
 product: Authentication
 classification: authentication
@@ -17,7 +18,7 @@ Create an API access policy and map an authentication profile to restrict the au
 
 ## Before you begin
 
--   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](../../authentication/task/create-authentication-profile.md).
+-   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-authentication-profile.md).
 -   Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 ## Procedure
@@ -37,9 +38,9 @@ Create an API access policy and map an authentication profile to restrict the au
 
 4.  In the Inbound Authentication section, double-click **Insert a new row**.
 
-5.  Select an inbound authentication profile from the list and click the save icon ![save icon](../../authentication/images/green-checkmark.png).
+5.  Select an inbound authentication profile from the list and click the save icon \[Omitted image "green-checkmark.png"\] Alt text: save icon.
 
-    For example, you can add **Basic Auth**, **ID Token**, **Certificate based Auth**, **OAuth** or **WSSE Auth**.![SOAP API Access Policy](../image/create-soap-api-policy.png)
+    For example, you can add **Basic Auth**, **ID Token**, **Certificate based Auth**, **OAuth** or **WSSE Auth**.\[Omitted image "create-soap-api-policy.png"\] Alt text: SOAP API Access Policy
 
     1.  To add one or more inbound authentication profiles, click **New** to create a new profile.
 
@@ -47,7 +48,7 @@ Create an API access policy and map an authentication profile to restrict the au
 
         -   **Create standard http authentication profiles**
         -   **Create WSSE authentication profiles**
-        ![Authentication Profile](../image/auth-profile.png)
+        \[Omitted image "auth-profile.png"\] Alt text: Authentication Profile
 
     3.  To create a WSSE authentication profile, on the form, fill in the fields.
 
@@ -59,7 +60,7 @@ Create an API access policy and map an authentication profile to restrict the au
         |Active|Option to make the API access policy active.|
         |Type|WSSE Auth as authentication profile WSSE \(Web Security\).|
 
-        ![WSSE Authentication Profile](../image/wsse-profile.png)
+        \[Omitted image "wsse-profile.png"\] Alt text: WSSE Authentication Profile
 
     4.  After creating the authentication profile, save the record.
 

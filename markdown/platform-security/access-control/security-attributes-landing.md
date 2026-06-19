@@ -2,6 +2,7 @@
 title: Security Attributes
 description: Security Attributes offer a flexible alternative to access control lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/security-attributes-landing.html
 release: australia
 product: Access Control
 classification: access-control
@@ -19,19 +20,19 @@ Security Attributes offer a flexible alternative to access control lists.
 
 <table id="table_tnd_gtm_qzb" class="nav-card"><tbody><tr><td>
 
-[Explore Security Attributes![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn fundamentals of Security Attributes](../concept/security-attribute-fundamentals.md)
+[Explore Security Attributes\[Omitted image "bus-explore.svg"\] Alt text:Learn fundamentals of Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/security-attribute-fundamentals.md)
 
 </td><td>
 
-[Create Security Attributes![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Create new Security Attributes](../task/create-security-attributes.md)
+[Create Security Attributes\[Omitted image "bus-sdlc.svg"\] Alt text:Create new Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/create-security-attributes.md)
 
 </td></tr><tr><td>
 
-[OOB\(Out-of-Box\) Security Attributes![](../../../reuse/icons/brand-icons/bus-release.svg)Explain OOB Security Attributes](oob-security-attributes.md)
+[OOB\(Out-of-Box\) Security Attributes\[Omitted image "bus-release.svg"\] Alt text:Explain OOB Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/oob-security-attributes.md)
 
 </td><td>
 
-[Security Attributes Logging![](../../../reuse/icons/brand-icons/bus-documentation.svg)Review Security Attribute logging](../concept/security-attribute-scope.md#)
+ 
 
 </td></tr></tbody>
 </table>

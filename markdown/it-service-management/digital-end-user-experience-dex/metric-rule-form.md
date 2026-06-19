@@ -2,6 +2,7 @@
 title: Metric rules page
 description: The metric rules page shows information about a specific rule, including its name, CI type, application name, alert severity, and alert status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/metric-rule-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -80,7 +81,7 @@ Updated
 Date and time when the metric rule is last updated.
 
 </td></tr></tbody>
-</table>To return to the metric rules page, see [Using metric rules for Digital End-User Experience](../concept/metric-rules.md).
+</table>To return to the metric rules page, see [Using metric rules for Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/metric-rules.md).
 
-**Parent Topic:**[Administration cards](administration-cards.md)
+**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

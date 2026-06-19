@@ -2,6 +2,7 @@
 title: Chef server credentials
 description: Chef server credentials access chef integrations with the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/chef-server-creds.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials

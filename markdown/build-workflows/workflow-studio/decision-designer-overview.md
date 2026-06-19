@@ -2,6 +2,7 @@
 title: Exploring Decision Tables
 description: Decision tables in Workflow Studio enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/decision-designer-overview.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -23,25 +24,25 @@ For an in-depth review and demo of decision table features and benefits, see [De
 
 -   As of the Washington DC release, Decision Builder is now part of Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor processes, flows, subflows, playbooks, actions, and decision tables in one place.
 -   The core Decision Builder feature is still available with the ServiceNow AI Platform® by default, but the latest updates are available for download through the Workflow Studio application in the ServiceNow® Store.
--   For more information about this update, see the [Washington DC Decision Builder release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/decision-builder-rn.md).
+-   For more information about this update, see the Washington DC Decision Builder release notes.
 
 ## Get started
 
 <table id="table_p4v_mvz_nyb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about decision table concepts and features](exploring-decision-builder.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about decision table concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-decision-builder.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure environments, tools, and user access for decision tables in Workflow Studio](configuring-decision-builder.md#)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure environments, tools, and user access for decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configuring-decision-builder.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-service-aware-cmdb.svg)Build decision tables in Workflow Studio](using-decision-builder.md)
+[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Build decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about decision table properties and Domain Separation](decision-builder-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about decision table properties and Domain Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-builder-reference.md)
 
 </td></tr></tbody>
 </table>## Features
@@ -52,7 +53,7 @@ Workflow Studio provides an intuitive interface to create and manage decision ta
 
 Decision tables embed business logic into a series of if-then decision rules. Decision tables read data from inputs and evaluate the data according to specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results.
 
-Administrators can use the delegated development capability to manage workload efficiently by assigning the delegated development role to developers or non-admin users. A delegated developer has more permissions than a user, but less than an admin. Non-admin designated users can create and manage decision tables at the application level. For more information, see [Delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+Administrators can use the delegated development capability to manage workload efficiently by assigning the delegated development role to developers or non-admin users. A delegated developer has more permissions than a user, but less than an admin. Non-admin designated users can create and manage decision tables at the application level. For more information, see Delegated development.
 
 Decision tables in Workflow Studio enable you to do the following:
 
@@ -87,7 +88,7 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-overview.md)
+App Engine Studio
 
 </td><td>
 
@@ -96,15 +97,12 @@ Reference
 
 </td><td>
 
-See [Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-automation.md) in App Engine Studio.
+See Add a decision in App Engine Studio.
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
 -   Contact your company's Customer Admin to unlock or add user accounts, perform restores or zBoots, and more.
-
-    Contact your company's Customer Admin
-
 -   [Decision Builder in the ServiceNow Community](https://www.servicenow.com/community/workflow-automation-articles/getting-started-with-decision-builder-workflow-automation-coe/ta-p/2359919)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

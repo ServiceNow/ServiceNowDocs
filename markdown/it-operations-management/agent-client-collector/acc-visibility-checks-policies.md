@@ -2,12 +2,13 @@
 title: Agent Client Collector for Visibility - Content default checks and policies
 description: Agent Client Collector for Visibility - Content \(ACC-VC\) provides various checks and policies as well as a business rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-visibility-checks-policies.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -103,7 +104,9 @@ File-based Discovery background policy
 Takes the config file as input from the instance to an agent. Scans the system using config file parameters and stores the output in two separate files on the agent.-   FBDSAMOutput.json: Stores metadata related to the set of file names generated from the **samp\_file\_name** table.
 -   FBDFileOutput.json: Stores metadata related to files scanned by a wildcard extension.
 
-Runs on the agent when file-based discovery is invoked. For details, see [File-based Discovery](../../discovery/concept/file-based-discovery.md).
+Runs on the agent when file-based discovery is invoked. For details, see [Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/file-based-discovery-overview.md).
+
+Default: false. To activate, navigate to **All** &gt; **Discovery Definition** &gt; **Configuration Console** and in the **File Based Discovery** section, activate the Enable File Based Discovery toggle switch.
 
 </td><td>
 
@@ -111,33 +114,11 @@ File-based discovery background
 
 </td></tr><tr><td>
 
-File-based Discovery policy
-
-</td><td>
-
-Collects the output file from the agent's background policy. Sends the collected information to the configuration tables and deletes the file after sending. The output file cannot exceed 2MB.Runs weekly on the agent when file-based discovery is activated on the configuration console. For details, see [File-based Discovery](../../discovery/concept/file-based-discovery.md).
-
-**Note:**
-
--   During file-based discovery on a Windows system, the servicenow user does not have the necessary permissions. Therefore, manually grant the List Folder Contents permission to the folder you want to scan.
--   To ensure successful retrieval of the file version, run the agent as the local system account user instead of the **servicenow** user.
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
 File-based Discovery - SAM
 
 </td><td>
 
-Collects the SAM related output file from the agent, in a Linux, Windows, or macOS environment. Sends the collected software metadata identification information to the instance, and populates the relevant tables \(File information, Software installation, and Unidentified file set\). Runs daily.Runs on the agent when file-based discovery is invoked. For details, see [File-based Discovery](../../discovery/concept/file-based-discovery.md).
-
-**Note:**
-
--   During file-based discovery on a Windows system, the servicenow user does not have the necessary permissions. Therefore, manually grant the List Folder Contents permission to the folder you want to scan.
--   To ensure successful retrieval of the file version, run the agent as the local system account user instead of the **servicenow** user.
+Discovers known software files on the endpoint. Uses an allowlist of recognized software filenames maintained by ServiceNow. When a file on disk matches an allowlist entry, FBD uses the FileBasedDiscovery API to identify the collected software metadata \(file name, path, size, and version\), identifies the software package it belongs to and records the installation on the instance. Unrecognized files are tracked in the unidentified file records table \(cmdb\_unidentified\_file\_set\). Runs daily.Default: false. To activate, navigate to **All** &gt; **Discovery Definition** &gt; **Configuration Console** and in the **File Based Discovery** section, activate the Enable File Based Discovery toggle switch.
 
 </td><td>
 
@@ -145,23 +126,31 @@ File-based discovery - SAM
 
 </td></tr><tr><td>
 
+File-based Discovery - SWID tag
+
+</td><td>
+
+Enables SWID tag scanning on a Windows, Linux or macOS platform. When enabled, the scanner looks for `.swid`, `.swidtag`, and `.cmptag` files in the configured scan directories. Stores results in the following tables:-   cmdb\_swid\_tag: Parsed SWID tag records
+-   cmdb\_file\_information: Individual file records
+-   cmdb\_sam\_sw\_install: Individual software records
+
+Default: false. To activate, navigate to **All** &gt; **Discovery Definition** &gt; **Configuration Console** and in the **File Based Discovery** section, activate the Enable File Based Discovery toggle switch.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
 File-based Discovery - File management
 
 </td><td>
 
-Collects the file management related output file from the agent, in a Windows environment. Sends the collected file management information to the instance, and populates the File information table only.Runs on the agent when file-based discovery is invoked. For details, see [File-based Discovery](../../discovery/concept/file-based-discovery.md).
+Discovers files based on customer-defined rules. Administrators configure which file extensions to look for and define filename matching rules such as exact match, starts with, ends with, or contains. This policy builds a device-level file inventory based on the organization's specific needs. Results are stored in the sn\_acc\_vis\_content\_device\_file\_information table.Configure rules in the File Matching rules \(sn\_acc\_vis\_contet\_file\_config\) and File extensions \(sn\_acc\_vis\_content\_file\_extension\) properties. For details on these properties, see [Agent Client Collector File-Based Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/file-based-discovery-configuration-properties.md).
 
-A large number of extension wildcards may decrease system performance. Therefore, you might want to decrease the frequency of which this policy runs by doing the following:
+File Management supports delta scanning; after the initial full scan, only added, modified, and deleted files are sent on subsequent runs. For details on delta scanning, see [Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/file-based-discovery-overview.md).
 
-1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Policies**.
-2.  Select **File Based Discovery Policy - File Management**.
-3.  Select the **Scheduling** tab.
-4.  Increase the value of the **Interval\(sec\)** field.
-
-**Note:**
-
--   During file-based discovery on a Windows system, the servicenow user does not have the necessary permissions. Therefore, manually grant the List Folder Contents permission to the folder you want to scan.
--   To ensure successful retrieval of the file version, run the agent as the local system account user instead of the **servicenow** user.
+Default: false. To activate, navigate to **All** &gt; **Discovery Definition** &gt; **Configuration Console** and in the **File Based Discovery** section, activate the Enable File Based Discovery toggle switch.
 
 </td><td>
 
@@ -211,7 +200,7 @@ VISC Get URL metrics
 
 Controls the collection of web usage data from Windows and macOS managed devices. Runs daily.Default: Inactive. To activate the policy, set the **sn\_acc\_vis\_content.enable\_full\_monitoring** property to **true**.
 
-For details on web usage data system properties, see .
+For details on web usage data system properties, see [Web usage data collection tables and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/web-usage-collection-tables.md).
 
 </td><td>
 
@@ -220,7 +209,7 @@ VISC Get URL metrics
 </td></tr></tbody>
 </table>**Note:** Windows endpoint devices include devices that have a Windows operating system and belong to CI class: computer.
 
-See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) for more details. For more details on policies, see [Checks and policies](../concept/checks-policies.md).
+See System properties for more details. For more details on policies, see [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/checks-policies.md).
 
 ## Check type
 
@@ -257,7 +246,7 @@ Enhanced Discovery
 
 </td><td>
 
-Synced to all agents based on the policy filter defined by ACC-VC. The Check definition is configured to run with certain assets and determines what gets synced between the agent and the MID Server. For more details on policies, see [Checks and policies](../concept/checks-policies.md).**Note:**
+Synced to all agents based on the policy filter defined by ACC-VC. The Check definition is configured to run with certain assets and determines what gets synced between the agent and the MID Server. For more details on policies, see [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/checks-policies.md).**Note:**
 
 For the agent to retrieve the OS serial numbers and TCP connections along with associated running processes, sudo access for “dmidecode” and “ss” is required on Linux systems. For example, this content could be added to /etc/sudoers or to an individual file in `/etc/sudoers.d/`:
 
@@ -311,5 +300,5 @@ Fetches the file data from the agent.
 
 The **Enhanced Discovery – On CI Delete** business rule triggers the Endpoint Discovery Check when the CI associated with a given CI is deleted from sn\_agent\_cmdb\_ci\_agent.
 
-**Parent Topic:**[Agent Client Collector for Visibility - Content reference](../concept/agent-client-collector-for-visibility-references.md)
+**Parent Topic:**[Agent Client Collector for Visibility - Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

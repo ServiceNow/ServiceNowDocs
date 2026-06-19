@@ -2,6 +2,7 @@
 title: Household widget
 description: The Household widget displays a list of household members that the logged in user is authorized representative for.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-widget-household.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -15,7 +16,7 @@ breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Scien
 
 The Household widget displays a list of household members that the logged in user is authorized representative for.
 
-![Infographic widget displays people and their information that belongs toHousehold.](../image/hcls-widget-household.png "Household widget")
+\[Omitted image "hcls-widget-household.png"\] Alt text: Infographic widget displays people and their information that belongs toHousehold.
 
 ## Key features
 
@@ -25,5 +26,5 @@ The Household widget displays a list of household members that the logged in use
 
 The Household widget does not include instance options.
 
-**Parent Topic:**[Patient Portal widget library](hcls-pat-widget-library.md)
+**Parent Topic:**[Patient Portal widget library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pat-widget-library.md)
 

@@ -2,6 +2,7 @@
 title: Customize badge Reader Integration
 description: Badge Reader Integration includes several scripted extension points for you to customize script includes installed with the feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/badge-reader-integ-customization.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -74,7 +75,7 @@ Extension point used by the BadgeReaderScanProcessor script include.
  Use this frontage to manage the badge scan event.
 
 </td></tr></tbody>
-</table>For complete details about scripted extension points and how to create and use them, refer to [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md) and [Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
+</table>For complete details about scripted extension points and how to create and use them, refer to Using extension points to extend application functionality and Creating and adding a scripted extension point.
 
-**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](walkup-badge-read-integ-config.md)
+**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-badge-read-integ-config.md)
 

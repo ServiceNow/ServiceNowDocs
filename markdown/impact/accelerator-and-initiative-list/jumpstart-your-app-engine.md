@@ -2,12 +2,13 @@
 title: Jumpstart Your App Engine
 description: Prescriptive guidance on enabling Citizen Development and utilizing App Engine Studio
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-app-engine.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
@@ -15,11 +16,15 @@ breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives a
 
 Prescriptive guidance on enabling Citizen Development and utilizing App Engine Studio
 
-## Overview
+## Accelerator Overview
 
 Jumpstart Your App Engine provides Impact customers with an introduction to Citizen Development and how to empower users to develop applications on the ServiceNow platform. It includes an applied demonstration on using App Engine Studio \(AES\) and App Engine Management Center, a guided tour of its features and benefits via a temporary cloned instance, and leading practices on getting started.
 
-Offered pursuant to the applicable Impact Accelerator Description available at [Impact Upgrade Schedules.](https://www.servicenow.com/legal/servicenow-impact.html)
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 

@@ -2,6 +2,7 @@
 title: Administer table and field descriptions
 description: Users with the report\_description\_admin role can add and edit table and field descriptions that users see when they create reports.Users with the admin role can enable the report\_description\_admin role. Users with this role can add and edit table and field descriptions.Users with the report\_description\_admin role can add and edit table and field descriptions that users see when they create reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/admin-table-field-descriptions.html
 release: australia
 product: Reporting
 classification: reporting
@@ -19,9 +20,9 @@ A user with the admin role must enable the report\_description\_admin role. The 
 
 In the Report Designer, the user sees the table descriptions on the **Data** tab. When appropriate, the user sees the field descriptions on the **Configure** tab.
 
-![Group by field in Configure tab showing field description.](../image/field-hint-in-report-designer.png)
+\[Omitted image "field-hint-in-report-designer.png"\] Alt text: Group by field in Configure tab showing field description.
 
-**Parent Topic:**[Administering reports](../concept/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## Enable the report description admin role
 
@@ -39,11 +40,11 @@ Role required: admin
 
 3.  Install the **Table and field description configuration for report** plugin.
 
-    This plugin enables the configuration of table and field descriptions in reports. ![Find the table and field description configuration plugin and install it.](../image/enable-table-field-descr-plugin.png)
+    This plugin enables the configuration of table and field descriptions in reports. \[Omitted image "enable-table-field-descr-plugin.png"\] Alt text: Find the table and field description configuration plugin and install it.
 
 4.  Assign the report\_description\_admin role.
 
-    For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md) and [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
+    For more information, see Assign a role to a user and Assign a role to a group
 
     Users with the report\_admin role have the new role automatically.
 
@@ -86,12 +87,12 @@ Role required: report\_description\_admin
 
 2.  Double-click the cell in the **Hint** column and add or edit the description.
 
-    Click the check icon to save the description.![A description being added to the severity element on the incident table.](../image/add-field-description.png)
+    Click the check icon to save the description.\[Omitted image "add-field-description.png"\] Alt text: A description being added to the severity element on the incident table.
 
 
 ### Result
 
 In the Report Designer, when you group by a field that you have added a hint to, you see that hint text in the Information popup for the field.
 
-![The added description of the severity element visible on the Report Designer.](../image/field-hint-in-report-designer.png)
+\[Omitted image "field-hint-in-report-designer.png"\] Alt text: The added description of the severity element visible on the Report Designer.
 

@@ -2,6 +2,7 @@
 title: Scheduling the delivery of content
 description: After you create content in Content Publishing, use Schedule Content to post to your Employee Center, in a campaign, To-dos, email notifications, and community.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-schedule-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,15 +22,15 @@ Role required: sn\_cd.content\_manager
 
 You can also schedule content after creating and saving it from the related list of the content. See the following:
 
--   [Configure mobile content](ecpro-content-delivery-mobile.md)
--   [Portal content](../concept/ec-streamline-content.md)
--   [Create email, SMS, or push notification content](ecpro-manage-notification-content.md)
--   [Create to-do content](ecpro-manage-content-to-do.md)
--   [Add or modify forum content](ecpro-manage-community-content.md)
--   [Add or modify links to other content sources](ecpro-manage-link-content.md)
--   [Add or modify block content](ecpro-manage-block-content.md)
+-   [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md)
+-   [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
+-   [Create email, SMS, or push notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-notification-content.md)
+-   [Create to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-content-to-do.md)
+-   [Add or modify forum content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-community-content.md)
+-   [Add or modify links to other content sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-link-content.md)
+-   [Add or modify block content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.md)
 
-**Note:** Ensure you schedule the portal content when you are adding a link content to a banner or styled content. The to-do content is automatically scheduled separately when the link content is scheduled. For more information, see [Creating to-do content](../concept/ecpro-content-to-dos.md).
+**Note:** Ensure you schedule the portal content when you are adding a link content to a banner or styled content. The to-do content is automatically scheduled separately when the link content is scheduled. For more information, see [Creating to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-to-dos.md).
 
 ## Procedure
 
@@ -59,7 +60,7 @@ Content
 
 The content or information you want to make available to employees.Select content from the list or **New** to create content.
 
- When scheduling content you want to appear as a link for to-do content in a banner or styled content, ensure you select the portal content you created. Do not schedule the to-do content, it automatically schedules with the portal content. For more information, see [Creating to-do content](../concept/ecpro-content-to-dos.md).
+ When scheduling content you want to appear as a link for to-do content in a banner or styled content, ensure you select the portal content you created. Do not schedule the to-do content, it automatically schedules with the portal content. For more information, see [Creating to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-to-dos.md).
 
 **Note:** You cannot schedule Link Content and Block Content as standalone content because it is reusable content.
 
@@ -75,7 +76,7 @@ Content Request Item
 
 A unique number that identifies the content item associated with the content request. Content requests can be created from the Employee Center by employees or from the Content Request form by content managers or admins.
 
- For more information, see [Edit a content request item](../concept/ec-content-gov-request.md#).
+ For more information, see [Edit a content request item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-request.md).
 
 </td><td>
 
@@ -137,7 +138,7 @@ Audience
 
 </td><td>
 
-Who you want to see the content.See [Audiences](../concept/ecpro-audience.md).
+Who you want to see the content.See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md).
 
  Does not show for Community Content.
 
@@ -155,7 +156,7 @@ Who you want to approve the content before it is available.Only users with the C
 
  After adding approvers, click **Update** or **Save**.
 
- You can send email notifications to approvers requesting their approval. See [Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notifications.md) and [Email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailTemplates.md).
+ You can send email notifications to approvers requesting their approval. See Notifications and Email templates.
 
 **Note:** If **Yes** is the value in the **sn\_cd.all\_must\_approve** Content Delivery property, all approvers must approve before campaign publication. If **No** is the value, you only need one approver.
 
@@ -259,7 +260,7 @@ Where the content you are scheduling appears. Your choices are:-   Service Porta
 
 </td><td>
 
-The following fields appear when **Service Portal** is selected from the **Content location** field. For more information, see [Portal content](../concept/ec-streamline-content.md).
+The following fields appear when **Service Portal** is selected from the **Content location** field. For more information, see [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
 </td><td>
 
@@ -311,11 +312,11 @@ Taxonomy
 
 Filters what topics you can schedule your content to. Taxonomy is a collection of hierarchical topics that brings together different content types, like requests, articles, quick links, and employee communications. For example, you can set up separate taxonomies for HR and IT so you can group specific topics under each.
 
- For this field to appear, select a page that has Taxonomy \(sn\_ex\_sp\_taxonomy\) entered in the Choices tab for the dictionary entry for the Category table of the page. For more information, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
+ For this field to appear, select a page that has Taxonomy \(sn\_ex\_sp\_taxonomy\) entered in the Choices tab for the dictionary entry for the Category table of the page. For more information, see Create a table.
 
- For more information on taxonomy for the Employee Center, see [Unified Taxonomy for Employee Center](../concept/config-taxonomy.md).
+ For more information on taxonomy for the Employee Center, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
- For child topics to appear on your Employee Center, you must add it to the Portal form under Service Portal. For more information, see [Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md).
+ For child topics to appear on your Employee Center, you must add it to the Portal form under Service Portal. For more information, see Create a portal.
 
 </td></tr><tr><td>
 
@@ -327,7 +328,7 @@ Topic
 
 </td><td>
 
-The topics you want your content to appear in under a taxonomy. For more information, see [Create and associate topics](create-topics-for-taxonomy.md).
+The topics you want your content to appear in under a taxonomy. For more information, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md).
 
 </td></tr><tr><td>
 
@@ -335,7 +336,7 @@ The topics you want your content to appear in under a taxonomy. For more informa
 
 </td><td>
 
-The following fields appear when **Community Content** is the content type for content selected. For more information, see [Community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/c_communities-content-types.md).
+The following fields appear when **Community Content** is the content type for content selected. For more information, see Community content types.
 
 </td><td>
 
@@ -351,7 +352,7 @@ Forum
 
 </td><td>
 
-The forum you want to post the community content.For more information on forums, see [Create a forum](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-forum.md).
+The forum you want to post the community content.For more information on forums, see Create a forum.
 
 </td></tr><tr><td>
 
@@ -365,7 +366,7 @@ Topics
 
 The area of interest that users can discuss.Click to select a topic that is within the forum.
 
- For more information on topics, see [Create a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/create-topic.md).
+ For more information on topics, see Create a topic.
 
 </td></tr><tr><td>
 
@@ -406,6 +407,6 @@ To find content identifiers for the base system provided workspace landing pages
 </td></tr></tbody>
 </table>4.  Select **Submit** or **Update**.
 
-    You can also select **Publish with Approval** when a content request and content request item have been approved by the content requester. For more information, see [Add or remove content approvers](../concept/ec-content-gov-approval.md).
+    You can also select **Publish with Approval** when a content request and content request item have been approved by the content requester. For more information, see [Add or remove content approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-gov-approval.md).
 
 

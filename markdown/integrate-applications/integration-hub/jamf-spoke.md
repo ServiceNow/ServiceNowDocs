@@ -2,6 +2,7 @@
 title: Jamf Spoke
 description: Manage users, mobile devices, groups, and computers in the Jamf account from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jamf-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage users, mobile devices, groups, and computers in the Jamf account from you
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Jamf spoke v1.4.0 is the latest version.
+Jamf spoke v2.0.0 is the latest version.
 
 ## Supported versions
 
@@ -57,7 +58,7 @@ The Jamf spoke provides sample subflows to demonstrate automating tasks. To cust
 |Revoke Application|Removes the provided user or device from the given group in the Jamf Server.|
 |Look up Configuration Data|Retrieves configuration data for the specified requested item or software configuration record.|
 
-**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](csd-app-2.md) is installed.
+**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 ## Spoke actions
 
@@ -169,7 +170,7 @@ Removes a target computer group from a Mac application given the current scope o
 
 </td></tr><tr><td rowspan="2">
 
-Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](csd-app-2.md) is installed.
+Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 </td><td>
 
@@ -508,9 +509,9 @@ The Jamf spoke adds the Jamf application to your instance. The application inclu
 |Policies|Displays the list of policies from the Jamf server.|Policy \[sn\_jamf\_spoke\_policy\]|
 |Server Instances|Stores details of the provider servers.|Server Instance \[sn\_jamf\_spoke\_server\]|
 
-**Note:** These modules and tables are available only when the [Client Software Distribution 2.0 application](csd-app-2.md) is installed.
+**Note:** These modules and tables are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
-Another table is Jamf Credential \[sn\_jamf\_spoke\_jamf\_credential\] is available that stores details of the credential records. This table is available along with the Jamf spoke and doesn't require installation of the [Client Software Distribution 2.0 application](csd-app-2.md).
+Another table is Jamf Credential \[sn\_jamf\_spoke\_jamf\_credential\] is available that stores details of the credential records. This table is available along with the Jamf spoke and doesn't require installation of the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md).
 
 ## Spoke triggers
 
@@ -522,11 +523,11 @@ Use triggers in the Jamf spoke to subscribe to the required events. The endpoint
 |Group Management|Smart Group Computer Membership Change|Trigger initiates when a managed computer joins or leaves the membership of a smart computer group.|
 |Mobile Device Management|Mobile Device Inventory Completed|Trigger initiates when a device completes the Update Inventory MDM command.|
 
-For information about setting up the triggers for the Jamf spoke, see [Set up triggers for the Jamf spoke](../task/jamf-setup-triggers.md#). For more information about inbound integration, see [Conditional and event-driven inbound integration](../../integrationhub/concept/conditional-and-event-driven-inbound-integration.md).
+For information about setting up the triggers for the Jamf spoke, see [Set up triggers for the Jamf spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jamf-setup-triggers.md). For more information about inbound integration, see [Conditional and event-driven inbound integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.md).
 
 ## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Jamf spoke](../task/setup-jamf-spk.md).
+For information about setting up the spoke, see [Set up the Jamf spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jamf-spk.md).
 

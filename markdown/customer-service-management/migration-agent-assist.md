@@ -2,7 +2,10 @@
 title: Agent assist
 description: Learn about how the Workspace Agent assist functions with Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-agent-assist.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -17,5 +20,5 @@ Agent assist provides agents with automatic search results that show possible so
 
 **Note:** You may need to log in to the Developer Site to see the content.
 
-For more information about using contextual search for Agent Assist, see [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/c_ContextualSearch.md).
+For more information about using contextual search for Agent Assist, see .
 

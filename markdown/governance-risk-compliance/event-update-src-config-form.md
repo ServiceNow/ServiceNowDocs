@@ -2,6 +2,7 @@
 title: Event dependency source configuration form
 description: Use the Event dependency source configuration form to add the event dependency details such as the event record name, its target records, and sources in the BCM application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/event-update-src-config-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -94,5 +95,5 @@ Source records to consider
 Option to select a specific record or all records. When selecting source records from the specified sources, the system retrieves dependencies from either all matching records or only from the most recently matched BIA record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Event dependency source configuration record](../task/conf-event-dep-source-confi-module.md)
+</table>**Parent Topic:**[Configure Event dependency source configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-event-dep-source-confi-module.md)
 

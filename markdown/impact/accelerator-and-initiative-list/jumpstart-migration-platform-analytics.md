@@ -2,6 +2,7 @@
 title: Jumpstart Your Migration of Platform Analytics
 description: The Jumpstart Your Migration of Platform Analytics Accelerator provides a demonstration of how to successfully prepare and migrate your Platform Analytics content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-migration-platform-analytics.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -15,13 +16,15 @@ breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives a
 
 The Jumpstart Your Migration of Platform Analytics Accelerator provides a demonstration of how to successfully prepare and migrate your Platform Analytics content.
 
-## Overview
+## Accelerator Overview
 
 Jumpstart Your Migration of Platform Analytics provides Impact customers with an overview of the changes required to migrate your Platform Analytics content. The Accelerator includes walking through the migration process with a clone of the customer's instance and highlighting some typical questions, issues, and next steps. Advice and direction are provided to prepare for the change.
 
-See [Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md) for additional information on Platform Analytics applications.
+See  for additional information on Platform Analytics applications.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
@@ -124,7 +127,7 @@ Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leadin
 </td></tr></tbody>
 </table>## Requested Information
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+Please refer to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## Exclusions
 

@@ -2,6 +2,7 @@
 title: Root cause analysis form
 description: The following tables describe the field values for the Root cause analysis form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/root-cause-analysis-form.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -145,7 +146,7 @@ Priority of the analysis. This field is automatically set based on impact and ur
 -   4 - Within 7 days
 -   5 - Within 30 days
 
-For more details, see [Priority matrix for root cause analysis](priority-matrix-root-cause-analyses.md).
+For more details, see [Priority matrix for root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/priority-matrix-root-cause-analyses.md).
 
 </td></tr><tr><td>
 
@@ -213,5 +214,5 @@ How
 Details of how the issue occurred and how it was resolved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Factory Workspace reference](digital-factory-workspace-reference.md)
+</table>**Parent Topic:**[Digital Factory Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/digital-factory-workspace-reference.md)
 

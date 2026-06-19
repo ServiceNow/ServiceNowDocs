@@ -2,6 +2,7 @@
 title: Create a new agent in Google Dialogflow
 description: To use Google Dialogflow with Virtual Agent Bot Interconnect, you must first create a new agent in Google Dialogflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-new-agent-google-dialogflow.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,22 +25,22 @@ Role required: admin
 
 1.  Create a new agent in Google Dialogflow: [https://dialogflow.cloud.google.com/\#/newAgent](https://dialogflow.cloud.google.com/#/newAgent)
 
-    ![In Dialogflow Essentials, select Create Agent and specify a name and default language.](../images/ggl-dialogflow-create-agent.png)
+    \[Omitted image "ggl-dialogflow-create-agent.png"\] Alt text: In Dialogflow Essentials, select Create Agent and specify a name and default language.
 
     This also creates a new Google project.
 
 2.  Select the agent settings icon, and then find the project ID on the **General** tab.
 
-    ![Select settings, and then find the Google Project ID on the General tab.](../images/ggl-dialogflow-projectid.png)
+    \[Omitted image "ggl-dialogflow-projectid.png"\] Alt text: Select settings, and then find the Google Project ID on the General tab.
 
 3.  Select the Project ID.
 
     The project dashboard opens.
 
 
-**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-va-api-ggl-dialogflow.md)
+**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
 
-**Previous topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-va-api-ggl-dialogflow.md)
+**Previous topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
 
-**Next topic:**[Create a service account and private key for the Google Dialogflow project](create-srvc-acct-key-dialogflow.md)
+**Next topic:**[Create a service account and private key for the Google Dialogflow project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-srvc-acct-key-dialogflow.md)
 

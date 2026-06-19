@@ -2,6 +2,7 @@
 title: Assign a resource using AI resource finder
 description: Use AI resource finder to identify and assign a resource to an unassigned resource assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/assign-resources-using-resource-finder-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -41,9 +42,9 @@ AI resource finder helps resource and project managers identify the best-fit res
 
 3.  Create a unassigned resource assignment by selecting **Add resource** and selecting an attribute.
 
-4.  From unassigned tasks pane, select the context menu row \(![3 vertical dots denoting the row context menu.](../../spw-financials/images/row-context-menu-icon.png)\) for any task and select **Resource finder**.
+4.  From unassigned tasks pane, select the context menu row \(\[Omitted image "row-context-menu-icon.png"\] Alt text: 3 vertical dots denoting the row context menu.\) for any task and select **Resource finder**.
 
-    ![Resource-finder-modal.](../../now-assist-spm/images/resource-finder-modal.png)
+    \[Omitted image "resource-finder-modal.png"\] Alt text: Resource-finder-modal.
 
 5.  From Resource finder modal, select **Show monthly availability** toggle or weekly.
 
@@ -51,10 +52,10 @@ AI resource finder helps resource and project managers identify the best-fit res
 
 7.  From Assign resources modal, review the allocations and distributions and select **Assign**.
 
-    ![assign-resources](../../now-assist-spm/images/assign-resources-ai.png)
+    \[Omitted image "assign-resources-ai.png"\] Alt text: assign-resources
 
     The resource is assigned to the task.
 
 
-**Parent Topic:**[Resource assignments in Project Workspace](../../pw-resource-management/concept/resource-assignments-pw.md)
+**Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/resource-assignments-pw.md)
 

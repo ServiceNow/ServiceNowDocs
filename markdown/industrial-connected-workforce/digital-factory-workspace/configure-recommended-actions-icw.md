@@ -2,6 +2,7 @@
 title: Configure Recommended Actions for the Industrial Connected Workforce
 description: Configure Recommended Actions for the Industrial Connected Workforce. Recommended Actions are based on context, rules, and recommendations and can be configured to support additional use cases. You can create rules and recommendations or modify existing ones to meet the specific requirements of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/configure-recommended-actions-icw.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -25,15 +26,15 @@ Role required: sn\_nb\_action.next\_best\_action\_author or sn\_icw.application\
 
 2.  Configure Recommended Actions for the Industrial Connected Workforce for either tasks, standard tasks, or rules for recommended actions.
 
-<table id="choicetable_wkw_13n_pgc"><thead><tr><th align="left" id="d23895e118">
+<table id="choicetable_wkw_13n_pgc"><thead><tr><th align="left" id="d24695e118">
 
 What to configure
 
-</th><th align="left" id="d23895e121">
+</th><th align="left" id="d24695e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23895e127">
+</th></tr></thead><tbody><tr><td id="d24695e127">
 
 **Task \(deviation and root cause analysis\)**
 
@@ -41,7 +42,7 @@ Description
 
 From the list of contexts, select Industrial tasks context and make changes as needed.
 
-</td></tr><tr><td id="d23895e136">
+</td></tr><tr><td id="d24695e136">
 
 **Standard task**
 
@@ -49,18 +50,18 @@ From the list of contexts, select Industrial tasks context and make changes as n
 
 From the list of contexts, select the Industrial standard task context and make changes as needed.
 
-</td></tr><tr><td id="d23895e145">
+</td></tr><tr><td id="d24695e145">
 
 **Rule for recommended actions**
 
 </td><td>
 
-Create a context and within it rules and recommendations, as explained in:-   [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-contexts-create.md)
--   [Create a rule in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-rules-create.md)
--   [Create a recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-recommendations-create.md)
+Create a context and within it rules and recommendations, as explained in:-   
+-   
+-   
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring Digital Factory Workspace](../../icw-digital-factory-workspace/concept/configuring-digital-factory-workspace.md)
+**Parent Topic:**[Configuring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/configuring-digital-factory-workspace.md)
 

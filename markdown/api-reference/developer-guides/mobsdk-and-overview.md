@@ -2,6 +2,7 @@
 title: Mobile SDK Developer Guide - Android
 description: The ServiceNow Mobile SDK enables you to leverage the functionality and resources of the ServiceNow platform within your standalone mobile Android applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-overview.html
 release: australia
 product: Developer Guides
 classification: developer-guides

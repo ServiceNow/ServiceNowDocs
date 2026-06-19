@@ -2,6 +2,7 @@
 title: Set up the Pluralsight spoke
 description: Integrate the ServiceNow instance and your Pluralsight Skills account using an API key to have the ServiceNow instance requests authenticated by the Pluralsight host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-pluralsight-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -24,7 +25,7 @@ Integrate the ServiceNow instance and your Pluralsight Skills account using an A
 
 ## About this task
 
-This task enables you to integrate your ServiceNow instance with the Pluralsight host. See the flow, as given in the image below.![Flow to set connection and credential record for Pluralsight spoke.](../image/conn-cred-record-pluralsight.png)
+This task enables you to integrate your ServiceNow instance with the Pluralsight host. See the flow, as given in the image below.
 
 ## Procedure
 
@@ -36,21 +37,21 @@ This task enables you to integrate your ServiceNow instance with the Pluralsight
 
     3.  Click the [Pluralsight Developer Portal](https://developer.pluralsight.com/) link.
 
-        ![Link to the Pluralsight Developer Portal](../image/pluralsight-dev-portal.png)
+        \[Omitted image "pluralsight-dev-portal.png"\] Alt text: Link to the Pluralsight Developer Portal
 
     4.  In the [Pluralsight Developer Portal](https://developer.pluralsight.com/), click the **Manage Keys** tab.
 
     5.  Click **Add Api Key**.
 
-        ![Add API Key](../image/pluralsight-add-api.png)
+        \[Omitted image "pluralsight-add-api.png"\] Alt text: Add API Key
 
     6.  On the form, fill the fields and provide write permissions to the API Key.
 
-        ![Add API Key](../image/pluralsight-api-key.png)
+        \[Omitted image "pluralsight-api-key.png"\] Alt text: Add API Key
 
     7.  Copy the API Key for later use.
 
-        ![Copy the API key](../image/pluralsight-copy-api-key.png)
+        \[Omitted image "pluralsight-copy-api-key.png"\] Alt text: Copy the API key
 
 2.  Log in to your ServiceNow instance.
 
@@ -64,12 +65,12 @@ This task enables you to integrate your ServiceNow instance with the Pluralsight
 
     -   To configure the default connection and credential alias record that is shipped along with the Pluralsight spoke, click **View Details**.
 
-        ![Pluralsight connection.](../image/pluralsight-connection.png)
+        \[Omitted image "pluralsight-connection.png"\] Alt text: Pluralsight connection.
 
-    -   To manage more than one Pluralsight spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Pluralsight spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    ![Configure button for configuring Pluralsight spoke connection and credentials.](../image/configure-button-pluralsight-conn-cred.png)
+    \[Omitted image "configure-button-pluralsight-conn-cred.png"\] Alt text: Configure button for configuring Pluralsight spoke connection and credentials.
 
 7.  On the Configure Connection form, fill the values,
 
@@ -79,7 +80,7 @@ This task enables you to integrate your ServiceNow instance with the Pluralsight
     |Connection URL|The URL to the Pluralsight skills account. Enter `https://paas-api.pluralsight.com/`|
     |API Key|API key generated earlier from the Pluralsight developers portal.|
 
-    ![Configure the default connection.](../image/pluralsight-conf-template.png)
+    \[Omitted image "pluralsight-conf-template.png"\] Alt text: Configure the default connection.
 
 8.  Click **Configure Connection**.
 

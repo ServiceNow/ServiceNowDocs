@@ -2,6 +2,7 @@
 title: Generate report using repository URL
 description: Generate a migration report using the repository URL that has all the automation files saved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/repo-url.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -23,7 +24,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 ## Procedure
 
-1.  Follow steps 1 through 4 in the [Generate report](../concept/generate-report.md) section.
+1.  Follow steps 1 through 4 in the [Generate report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-report.md) section.
 
 2.  On step 4, select the **Repository URL** option.
 
@@ -32,7 +33,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
     1.  **Connection alias**: Select a saved connection alias form the list.
     2.  \(Optional\) Select **Create connection** to create a connection.
 
-        For more information, see [Configure an instance for migration](config-instance.md).
+        For more information, see [Configure an instance for migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-instance.md).
 
     3.  **Base URL**: This field auto-populates with the corresponding value when an alias is selected.
 4.  Select **Generate report**.
@@ -42,5 +43,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
     The report is generated.
 
 
-**Parent Topic:**[Generate report](../concept/generate-report.md)
+**Parent Topic:**[Generate report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-report.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Spend and Savings Management
 description: Several types of components are installed with activation of the Spend and Savings Management \(sn\_spend\_mgmt\) plugin, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/components-spend-savings.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -57,5 +58,5 @@ Spend to Product Category Mapping\(sn\_spend\_mgmt\_m2m\_spend\_product\)
 Stores the mapping of spend categories to product categories.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Spend and Savings Management](../concept/spo-spend-mgmt.md)
+</table>**Parent Topic:**[Spend and Savings Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-spend-mgmt.md)
 

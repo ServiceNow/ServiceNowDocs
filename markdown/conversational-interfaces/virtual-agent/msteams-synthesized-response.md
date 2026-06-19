@@ -2,11 +2,12 @@
 title: Synthesized response in Microsoft Teams conversations
 description: Conversational Integration with Microsoft Teams is designed to provide new and rich user experience with synthesized responses using Large Language Models \(LLM\) based results summarized in a single response for users to see information in a conversational way, and avoid browsing through carousels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/msteams-synthesized-response.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Use Now Assist in VA conversations with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -25,9 +26,9 @@ The overall synthesized response helps users experience a conversational flow th
 
 When you enable the synthesized response picker on Microsoft Teams, users who start a conversation with a Virtual Agent can view a synthesized response picker in response to a query. The response contains catalog items and topics followed by the citation links. For example, if you input a command `laptop` in your conversations, you’ll see the responses in a synthesized format.
 
-![Search results in Microsoft Teams appearing as a synthesized response.](../images/teams-syntehised-resonse-picker.png)
+\[Omitted image "teams-syntehised-resonse-picker.png"\] Alt text: Search results in Microsoft Teams appearing as a synthesized response.
 
 Mid-topic switching is also possible during a conversation with synthesized responses and user can continue with their original request or switch the conversation. When the user selects the **View other options** button they get the list of available Knowledge Base articles and catalogs, which the user can select and go through the details.
 
-**Parent Topic:**[Using Now Assist in Virtual Agent conversations with Microsoft Teams](na-va-llm-teams.md)
+**Parent Topic:**[Using Now Assist in Virtual Agent conversations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/na-va-llm-teams.md)
 

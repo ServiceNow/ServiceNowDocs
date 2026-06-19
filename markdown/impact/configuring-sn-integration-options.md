@@ -1,88 +1,77 @@
 ---
-title: Configure ServiceNow integration options
-description: Perform the following procedure to configure your ServiceNow integration options.The following leading practices are guidelines for creating ServiceNow integration scripts.
+title: Configure ServiceNow user story integration
+description: Configure the ServiceNow instance user story integration to create stories in a production instance directly from finding records on a non-production instance.TScript variables and leading practices for writing field mapping scripts in the ServiceNow instance user story integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/configuring-sn-integration-options.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+last_updated: "2026-05-05"
+reading_time_minutes: 2
+breadcrumb: [User story integration, Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
-# Configure ServiceNow integration options
+# Configure ServiceNow user story integration
 
-Perform the following procedure to configure your ServiceNow integration options.
+Configure the ServiceNow instance user story integration to create stories in a production instance directly from finding records on a non-production instance.
 
 ## Before you begin
+
+-   My SN Instances registration and authentication must be complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md).
+-   The User Story Table must exist on both the source and target instances before configuring field mappings.
 
 Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
 ## Procedure
 
-1.  Select **ServiceNow instance** as the integration type.
+1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
 
-2.  Select the **User story table** for creating tasks in your designated target instance.
+2.  Set **Integration Type** to `ServiceNow instance`.
 
-    The table must exist in your Source instance as well as the Target instance.
+3.  Set the **User Story Table**.
 
-3.  **User story field mapping** contains the script used by the task creation integration for mapping fields from findings to the chosen task table.
+    This table must exist on both the source and target instances.
 
-    **Note:** This script is executed twice. Once in the Source instance and once in the Target instance.
+4.  Define field mappings in **User Story Field Mapping**.
 
+    The mapping script executes once on the Source instance and once on the Target instance. Use the available script variables to control behavior in each context. See [ServiceNow integration script leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-sn-integration-options.md) guidance on writing effective field mapping scripts.
+
+
+**Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-story-integration-properties.md)
 
 ## ServiceNow integration script leading practices
 
-The following leading practices are guidelines for creating ServiceNow integration scripts.
+TScript variables and leading practices for writing field mapping scripts in the ServiceNow instance user story integration.
 
--   First, check the predefined variable isSourceto ensure that the script executes within the Source environment. Then check the predefined variable isDestination to ensure that the script is being executed in the Destination instance \(usually Production\).
--   The predefined variable payload is an object that can be used to store variables so that they are available in the Destination instance. You should load the payload with data when the script is executing on the Source instance, and extract the payload data when the script is executing on the Destination instance.
--   Use Violation in the script only when it is executing in the Source instance.
--   Use grTaskin the script only when it is executing in the Destination instance.
--   Use isSource in the script only when it is executing in the Source instance.
--   Use isDestination in the script only when it is executing in the Destination instance.
--   The payload object can be used regardless of the environment.
+### Script variables
 
-The predefined variables available for ServiceNow integrations are:
+The field mapping script executes twice, once on the Source \(Development\) instance and once on the Destination \(Production\) instance. Use the `isSource` and `isDestination` variables to scope logic appropriately for each context.
 
-<table id="table_vgz_hzx_2hc"><tbody><tr><td>
+|Variable|Description|
+|--------|-----------|
+|`isSource`|True when executing on the Source \(Development\) instance.|
+|`isDestination`|True when executing on the Destination \(Production\) instance.|
+|`payload`|User-defined variable for passing data between instances.|
+|`grFinding`|GlideRecord of the finding. Available on the Source instance only.|
+|`grTask`|GlideRecord of the task being created on the Destination instance.|
 
-isSource
+### Leading practices
 
-</td><td>
+-   **Scope logic by instance context**
 
-True when on the Source instance \(Development\).
+    Always wrap Source-side logic in `if (isSource)` and Destination-side logic in `if (isDestination)`. The script runs in both contexts — accessing `grFinding` on the Destination instance will fail because the finding record does not exist there.
 
-</td></tr><tr><td>
+-   **Use payload to pass data across instances**
 
-isDestination
+    Populate `payload` on the Source instance with any values you need on the Destination. For example, set `payload.shortDescription = grFinding.short_description` on the Source, then read `payload.shortDescription` on the Destination to set the task field.
 
-</td><td>
+-   **Enable ES12 mode for modern JavaScript**
 
-True when on the Destination instance \(Production\).
+    To use modern JavaScript syntax such as arrow functions, destructuring, or template literals, enable **ECMAScript 2021 \(ES12\) mode** in Scan Engine Properties before writing your mapping script.
 
-</td></tr><tr><td>
+-   **Validate field existence before mapping**
 
-payload
+    Confirm that all target fields in `grTask` exist on the User Story Table in the production instance. Mapping to a non-existent field fails silently and the value is discarded.
 
-</td><td>
 
-The user-defined variable that passes information between the instances.
-
-</td></tr><tr><td>
-
-grFinding
-
-</td><td>
-
-The glide record of the finding that sends the request, on the Defined instance in Source only.
-
-</td></tr><tr><td>
-
-grTask
-
-</td><td>
-
-The glide record being created on the Destination instance.
-
-</td></tr></tbody>
-</table>

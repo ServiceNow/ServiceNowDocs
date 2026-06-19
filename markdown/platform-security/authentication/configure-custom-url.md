@@ -2,6 +2,7 @@
 title: Set a custom URL as the instance URL
 description: Add a custom URL to your instance configuration to use instead of your ServiceNow URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-custom-url.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Set up the Zoom spoke
 description: Integrate your Zoom account with your ServiceNow instance so that you can use the Zoom spoke to perform various actions on your Zoom account. You can also create a custom OAuth application in the Zoom account so that it can authenticate requests from your instance.Create a connected app in your Zoom account to establish an OAuth 2.0 level of authentication between the Zoom APIs and the Zoom spoke on the ServiceNow AI Platform. After creating the connected app, you can add scopes that enable you to perform different actions from the Zoom spoke.Use the information generated during Zoom account configuration to register Zoom spoke as an OAuth provider and allow the instance to request OAuth 2.0 tokens. Add the Zoom connection in Workflow Studio to perform actions in Zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-zoom.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -42,13 +43,13 @@ Creating the connected app is a one-time activity.
 
 3.  Select **General App**.
 
-    ![General App option to create an app.](../image/zoom-spk-build-app-general.png)
+    \[Omitted image "zoom-spk-build-app-general.png"\] Alt text: General App option to create an app.
 
 4.  Select **Create**.
 
 5.  Double-click the default name of the app and update the name.
 
-    ![Update general app name.](../image/zoom-spk-app-name.png)
+    \[Omitted image "zoom-spk-app-name.png"\] Alt text: Update general app name.
 
 6.  Select **Admin-managed**.
 
@@ -56,7 +57,7 @@ Creating the connected app is a one-time activity.
 
 8.  Under the App Credentials section, copy the Client ID and Client secret and store them at a secure place.
 
-    ![Client ID and client secret.](../image/zoom-spk-client-id-secret.png)
+    \[Omitted image "zoom-spk-client-id-secret.png"\] Alt text: Client ID and client secret.
 
 9.  Under the OAuth Information section, do the steps.
 
@@ -70,7 +71,7 @@ Creating the connected app is a one-time activity.
 
         The following example shows the screen that you use to generate the credentials for the OAuth app.
 
-        ![OAuth credentials configuration for Zoom spokes.](../image/zoom-app-conf.png "OAuth credentials configuration for Zoom spokes")
+        \[Omitted image "zoom-app-conf.png"\] Alt text: OAuth credentials configuration for Zoom spokes.
 
         **Note:** To know the difference between the Redirect URL for OAuth and the URL that is mentioned in the OAuth allow list, see [Zoom Developer Forum](https://devforum.zoom.us/t/difference-between-redirect-url-and-allow-list-in-app-settings/58709).
 
@@ -88,13 +89,13 @@ Creating the connected app is a one-time activity.
 
     The granular scope appears.
 
-    ![Scope search and find.](../image/zoom-spk-find-scope.png)
+    \[Omitted image "zoom-spk-find-scope.png"\] Alt text: Scope search and find.
 
 15. Select the scope and then select **Done**.
 
     The granular scope is added.
 
-    ![Granular scope is added.](../image/zoom-spk-scope-added.png)
+    \[Omitted image "zoom-spk-scope-added.png"\] Alt text: Granular scope is added.
 
 16. Repeat the steps to add more granular scopes.
 
@@ -120,7 +121,7 @@ Role required: admin
 4.  In the Zoom card, select **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Zoom spoke, click **View Details**.
-    -   To manage more than one Zoom spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Zoom spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, select **Configure**. Otherwise, click **Edit**.
 
 5.  On the form, fill these values.
@@ -134,10 +135,10 @@ Role required: admin
     |OAuth Client Secret|Client secret created during application registration.|
     |OAuth Redirect URL|OAuth callback endpoint. Enter `https://<instance-name>.service-now.com/oauth_redirect.do`.|
 
-    ![Generate OAuth token.](../image/zoom-conn-template.png)
+    \[Omitted image "zoom-conn-template.png"\] Alt text: Generate OAuth token.
 
 6.  Click **Configure and Get OAuth Token**.
 
-    A confirmation message is displayed that the token is available.![Confirmation that refresh token is available.](../image/zoom-conn-confirmation.png)
+    A confirmation message is displayed that the token is available.\[Omitted image "zoom-conn-confirmation.png"\] Alt text: Confirmation that refresh token is available.
 
 

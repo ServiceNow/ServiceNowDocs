@@ -2,6 +2,7 @@
 title: Tutorial: add a new change management state
 description: This tutorial provides an example of adding a new state to the existing state model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_AddNewStateTutorial.html
 release: australia
 product: Change Management
 classification: change-management
@@ -32,24 +33,24 @@ Perform the following steps:
 1.  Open the **Change Request** form.
 
 
-1.  [Create a new choice](t_CreateNewChoice.md)  
+1.  [Create a new choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewChoice.md)  
 Create a new choice for the change request state.
-2.  [Create a custom field](t_CreateCustomField.md)  
+2.  [Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateCustomField.md)  
 Create a custom choice field to indicate whether a change request must go through the **Review** state.
-3.  [Add a UI policy](t_AddUIPolicy.md)  
+3.  [Add a UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddUIPolicy.md)  
 Add a UI policy to display the **Needs review** field for **Normal** change requests when it reaches the **Complete** state.
-4.  [Create an ACL](t_CreateNewACL.md)  
+4.  [Create an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewACL.md)  
 Create an access control rule \(ACL\) to avoid the **Needs review** field from being modified after it has been set.
-5.  [Update the state handler script include](t_UpdateStateHandlerScriptInclude.md)  
+5.  [Update the state handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_UpdateStateHandlerScriptInclude.md)  
 Update the ChangeRequestStateHandler script include with the new **Complete** state.
-6.  [Update the state model script include](t_UpdateStateModelScriptInclude.md)  
+6.  [Update the state model script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_UpdateStateModelScriptInclude.md)  
 Update the ChangeRequestStateModel\_normal script include to add new functions for the **Complete** state.
-7.  [Create a UI action](t_CreateNewUIAction.md)  
+7.  [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewUIAction.md)  
 Create a UI action to display a button on a change request for the **Complete** state.
-8.  [Create a process flow record](t_CreateNewProcessFlowRecord.md)  
+8.  [Create a process flow record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewProcessFlowRecord.md)  
 Create and add a process flow record for the **Complete** state. The process flow formatter displays at the top of the Change Request form.
-9.  [Update the change request workflow](t_UpdateWorkflow.md)  
+9.  [Update the change request workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_UpdateWorkflow.md)  
 Update the change request workflow to reflect the addition of the **Complete** state.
 
-**Parent Topic:**[Reference section for Change Management](../concept/reference-change-management.md)
+**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/reference-change-management.md)
 

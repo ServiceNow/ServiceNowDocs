@@ -2,6 +2,7 @@
 title: Configure the MID Server for CyberArk CCP
 description: Configure the config.xml file to grant the MID Server access to the CyberArk CCP vault.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/t\_ConfigureTheMIDServerForCyberArkCCP.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -21,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Manually configure the MID Server [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) file with these parameters.
+1.  Manually configure the MID Server Add a MID Server parameter file with these parameters.
 
     This configuration cannot be done from the instance.
 
@@ -211,5 +212,5 @@ SNMPv2 is not natively supported in CyberArk. If your organization has created c
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[CyberArk integration configuration](../concept/c_CyberArkIntegrationConfiguration.md)
+**Parent Topic:**[CyberArk integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkIntegrationConfiguration.md)
 

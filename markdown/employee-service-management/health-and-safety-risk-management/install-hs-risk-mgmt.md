@@ -2,6 +2,7 @@
 title: Install Health and Safety Risk Management
 description: You can install the Health and Safety Risk Management application \(sn\_hs\_rm\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/install-hs-risk-mgmt.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -30,7 +31,7 @@ The following items are installed with Health and Safety Risk Management:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Health and Safety Risk Management](../reference/components-installed-with-hs-risk-mgmt.md).
+For more information, see [Components installed with Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/components-installed-with-hs-risk-mgmt.md).
 
 ## Procedure
 
@@ -55,5 +56,5 @@ For more information, see [Components installed with Health and Safety Risk Mana
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](../concept/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

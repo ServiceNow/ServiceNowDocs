@@ -2,6 +2,7 @@
 title: Update or create web components
 description: Enables you to update or create ServiceNow web components on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/update-create-comps.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,6 +2,7 @@
 title: Versions transferring
 description: Administrators transfer version records between instances by moving customizations with Update Sets or the Team Development application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_TransferringVersions.html
 release: australia
 product: Team Development
 classification: team-development
@@ -21,5 +22,5 @@ Administrators transfer version records between instances by moving customizatio
     -   Pushing adds to the parent instance only the current local version, not all the local versions.
     -   Loading changes from peer instances adds selected versions to the local instance.
 
-**Parent Topic:**[Versions](c_Versions.md)
+**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_Versions.md)
 

@@ -2,6 +2,7 @@
 title: Manage chat collaborations of a processing activity
 description: Initiate quick discussions with key stakeholders while working on a processing activity, privacy case, or a personal data rights request. The chat feature is integrated with Microsoft Teams and a group is automatically created on Microsoft Teams when a discussion is initiated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/manage-discussions-of-a-pa.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -21,7 +22,7 @@ Role required: sn\_privacy.analyst
 
 ## About this task
 
-Because privacy cases are time-sensitive, they sometimes need quick collaborations. The Discuss button facilitates these collaborations and the chats are stored making it simpler for the privacy teams to refer to them when working on a task. Apart from processing activities, the Discuss feature is available for privacy cases, and personal data rights requests. For more information, refer to [Sidebar and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/sidebar-teams-overview.md).
+Because privacy cases are time-sensitive, they sometimes need quick collaborations. The Discuss button facilitates these collaborations and the chats are stored making it simpler for the privacy teams to refer to them when working on a task. Apart from processing activities, the Discuss feature is available for privacy cases, and personal data rights requests. For more information, refer to .
 
 ## Procedure
 
@@ -42,5 +43,5 @@ Because privacy cases are time-sensitive, they sometimes need quick collaboratio
 
 The chat gets stored and can be viewed under Activity on the side panel.
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

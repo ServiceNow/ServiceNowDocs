@@ -2,6 +2,7 @@
 title: Generate location-based privacy configurations for Contact Tracing
 description: As an administrator, generate the privacy configuration for locations set up in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/generate-location-privacy-configuration.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -37,15 +38,15 @@ You can generate a location-based, default privacy configuration for each countr
 
 4.  Configure the privacy consent text if necessary.
 
-<table id="choicetable_w2c_2lg_gmb"><thead><tr><th align="left" id="d404276e101">
+<table id="choicetable_w2c_2lg_gmb"><thead><tr><th align="left" id="d80822e101">
 
 Privacy consent status
 
-</th><th align="left" id="d404276e104">
+</th><th align="left" id="d80822e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d404276e110">
+</th></tr></thead><tbody><tr><td id="d80822e110">
 
 **Consent is not required for the location**
 
@@ -53,7 +54,7 @@ Action
 
 Clear the **Needs privacy consent** check box.
 
-</td></tr><tr><td id="d404276e122">
+</td></tr><tr><td id="d80822e122">
 
 **Consent is required for the location**
 
@@ -76,7 +77,7 @@ The location-based privacy configuration is set.
 
 ## What to do next
 
-[Configure an email notification for a privacy consent request](configure-privacy-email.md).
+[Configure an email notification for a privacy consent request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/configure-privacy-email.md).
 
-**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](../concept/set-up-privacy-consent-settings.md)
+**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md)
 

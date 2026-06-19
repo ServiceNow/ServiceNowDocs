@@ -2,11 +2,12 @@
 title: Implement Customer Actions
 description: Learn how to implement Customer Actions on your instance to increase its security posture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/implement-steps-for-critical-updates.html
 release: australia
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Customer Actions, Security configuration console, Security Center, Platform Security]
 ---
@@ -37,7 +38,7 @@ Customer Actions provides you step by step instructions for how to implement the
 
 4.  Implement the update steps.
 
-    ![Enable 3DES deprecation for Password2 fields](../images/critical-updates-steps.png)
+    \[Omitted image "critical-updates-steps.png"\] Alt text: Enable 3DES deprecation for Password2 fields
 
     1.  Read each group of instructions and implement them within your instance.
 
@@ -50,5 +51,5 @@ Customer Actions provides you step by step instructions for how to implement the
     The Customer Action should appear in the **Complete** tab.
 
 
-**Parent Topic:**[Customer Actions](../concept/critical-updates.md)
+**Parent Topic:**[Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/critical-updates.md)
 

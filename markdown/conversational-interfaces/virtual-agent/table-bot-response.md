@@ -2,6 +2,7 @@
 title: Table bot response control
 description: Use the Table bot response control in a Virtual Agent topic to display a bot response as a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/table-bot-response.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -67,7 +68,7 @@ Filter rows
 
 </td><td>
 
-Options for filtering the contents of the table. Choose one of the following:-   **Condition**: Specify a no-code condition statement using the condition builder. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+Options for filtering the contents of the table. Choose one of the following:-   **Condition**: Specify a no-code condition statement using the condition builder. For more information, see Condition builder.
 -   **Script**: Enter a low-code script that specifies a condition.
 
  This field is available only when the **Table** option is selected.
@@ -165,7 +166,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |LINE|Supported|None|
 |WhatsApp|Not supported|Not applicable|
 |Apple Messages for Business|Supported|None|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the table will be read, if possible. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](../concept/va-settings-for-alexa.md).|
+|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the table will be read, if possible. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
 
 ## Example Table bot response output
 
@@ -181,16 +182,16 @@ Table bot response output
 
 </th></tr></thead><tbody><tr><td rowspan="2">
 
-![Basic properties include the node name, the method of populating the table, the filter, and the columns to be returned.](../images/table-bot-response.png "Table bot response control basic properties")
+\[Omitted image "table-bot-response.png"\] Alt text: Basic properties include the node name, the method of populating the table, the filter, and the columns to be returned.
 
 </td><td>
 
-![Table in a chat window that displays the 2020 Company Holidays by Holiday and Date.](../images/table-bot-response-web-ui.png "Web UI Table bot response output")
+\[Omitted image "table-bot-response-web-ui.png"\] Alt text: Table in a chat window that displays the 2020 Company Holidays by Holiday and Date.
 
 </td></tr><tr><td>
 
-![Table in a chat window that displays the first six 2021 Company Holidays by Holiday and Date. The user can choose an option to view all 11 rows.](../images/table-bot-response-mobile.png "Table bot response output in ServiceNow mobile")
+\[Omitted image "table-bot-response-mobile.png"\] Alt text: Table in a chat window that displays the first six 2021 Company Holidays by Holiday and Date. The user can choose an option to view all 11 rows.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

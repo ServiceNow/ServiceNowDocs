@@ -2,6 +2,7 @@
 title: Enable custom item types in Strategic Planning
 description: Enable the usage of a custom planning item type in Strategic Planning so that your planning managers can start adding them to their free-form roadmaps or portfolio plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/enable-custom-item-types-strategic-planning-workspace.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -35,13 +36,13 @@ Add the table that you want to allow for planning in Portfolio plans and free-fo
 
     For example, add **sn\_align\_core\_custom\_planning\_item\_1**.
 
-    ![Enable custom item types in Strategic Planning.](../images/allow_list.png)
+    \[Omitted image "allow\_list.png"\] Alt text: Enable custom item types in Strategic Planning.
 
 4.  Select **Update**.
 
 
 ## What to do next
 
--   For portfolio plans: Add your custom planning item type to the lens that your planning managers want to use. See [Lens form](../reference/lens-form-alignment-planner-workspace.md).
--   For free-form roadmaps: [Create planning items from the roadmap view](../../spw-roadmap/task/create-new-items-from-a-roadmap.md).
+-   For portfolio plans: Add your custom planning item type to the lens that your planning managers want to use. See [Lens form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/lens-form-alignment-planner-workspace.md).
+-   For free-form roadmaps: [Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md).
 

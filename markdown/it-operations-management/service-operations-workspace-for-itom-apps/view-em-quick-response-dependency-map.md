@@ -2,11 +2,12 @@
 title: View Dependency View map from quick response of an alert
 description: View the Dependency View map for an alert from the Quick Response menu in Event Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/view-em-quick-response-dependency-map.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Dependency View maps, Express List in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -27,18 +28,18 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     The Alert form opens.
 
-    ![The Alert form from All Alerts list in Event Management.](../image/event-alert-record.png)
+    \[Omitted image "event-alert-record.png"\] Alt text: The Alert form from All Alerts list in Event Management.
 
 3.  Select **Quick Response**.
 
     The **Quick Response** menu opens.
 
-    ![Event management alert record quick response menu.](../image/event-alert-response-dependency.png)
+    \[Omitted image "event-alert-response-dependency.png"\] Alt text: Event management alert record quick response menu.
 
 4.  Under **Launch Application**, select **Dependency View**.
 
     The map opens in Service Operations Workspace.
 
 
-**Parent Topic:**[Dependency View maps](../concept/dependency-maps.md)
+**Parent Topic:**[Dependency View maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/dependency-maps.md)
 

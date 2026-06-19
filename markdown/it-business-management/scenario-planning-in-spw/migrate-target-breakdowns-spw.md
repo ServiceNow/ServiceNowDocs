@@ -2,6 +2,7 @@
 title: Migrate target breakdowns
 description: After upgrading to Strategic Planning v4.3.2 or later, run the Migrate BreakdownInterval To Checkinfrequency scheduled job to migrate the existing values from the Review frequency field to the Check-in frequency field in the target records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/migrate-target-breakdowns-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ After upgrading to Strategic Planning v4.3.2 or later, run the **Migrate Breakdo
 
 ## About this task
 
-After running the job, the value in the **Check-in frequency** field for a target is populated based on the existing value in the **Review frequency** field of the target. If the existing value in the **Review frequency** field was set to any option other than **None**, then target breakdowns will be created for such targets based on the value in the existing check-in frequency of the target. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](../concept/target-breakdowns-migration-spw.md).
+After running the job, the value in the **Check-in frequency** field for a target is populated based on the existing value in the **Review frequency** field of the target. If the existing value in the **Review frequency** field was set to any option other than **None**, then target breakdowns will be created for such targets based on the value in the existing check-in frequency of the target. For more information on how these values are migrated for targets with different values, see [Target breakdowns migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-breakdowns-migration-spw.md).
 
 ## Before you begin
 
@@ -34,8 +35,8 @@ Role required: admin
 4.  Select **Execute Now**.
 
 
--   **[Target breakdowns migration](../concept/target-breakdowns-migration-spw.md)**  
+-   **[Target breakdowns migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/target-breakdowns-migration-spw.md)**  
 As an administrator, when you run the **Migrate BreakdownInterval To Checkinfrequency** scheduled job, the existing values in the **Review frequency** and **Breakdown interval** fields are migrated to the **Check-in frequency** field in the target records.
 
-**Parent Topic:**[Configuring goals in Strategic Planning](../concept/configuring-goal-framework-apw.md)
+**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
 

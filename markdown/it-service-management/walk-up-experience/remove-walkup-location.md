@@ -2,6 +2,7 @@
 title: Remove a Walk-up Experience location
 description: If you permanently close down a physical Walk-up Experience location, you can also remove the location from the Walk-up Location Queues table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/remove-walkup-location.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -34,5 +35,5 @@ Role required: sn\_walkup.walkup\_admin or admin
     The Walk-up Experience location queue is removed from the application.
 
 
-**Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

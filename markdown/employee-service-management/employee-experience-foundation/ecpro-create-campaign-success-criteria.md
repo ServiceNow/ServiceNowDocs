@@ -2,6 +2,7 @@
 title: Create campaign success goals
 description: Create your own success goals to see how your campaign is progressing and learn how to use baselines to compare against your target goals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-create-campaign-success-criteria.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

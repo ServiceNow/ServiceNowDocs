@@ -2,6 +2,7 @@
 title: Configure the system property to open the unfurled links
 description: Configure the property to view the content when the user clicks the adaptive card shared in the Microsoft Teams chat conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-links-chat-conversations-it.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,20 +32,20 @@ By default, this property is set as true. If you set the property as false, all 
 
 2.  In the Name column, search for `sn_now_teams.link_unfurl.view_action_choice` property.
 
-    ![Unfurl link property](../images/unfurl-link-option.png)
+    \[Omitted image "unfurl-link-option.png"\] Alt text: Unfurl link property
 
 3.  Click the property.
 
     If the record is uneditable, click here to edit the record.
 
-    ![Edit the record](../images/edit-link-unfurl-property.png)
+    \[Omitted image "edit-link-unfurl-property.png"\] Alt text: Edit the record
 
 4.  Update the **Value** field as `false` to view the links in a browser.
 
-    ![Update unfurl link record](../images/update-link-unfurl-property2.png)
+    \[Omitted image "update-link-unfurl-property2.png"\] Alt text: Update unfurl link record
 
 5.  Click **Update**.
 
 
-**Parent Topic:**[Unfurl the web links in Microsoft Teams chat](../concept/enable-link-unfurling-it.md)
+**Parent Topic:**[Unfurl the web links in Microsoft Teams chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enable-link-unfurling-it.md)
 

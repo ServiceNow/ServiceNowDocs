@@ -2,6 +2,7 @@
 title: Delete a document from a parent record
 description: Delete documents directly from a parent record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/delete-doc-parent-rec.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -38,5 +39,5 @@ User: owner
 4.  Select **Delete**.
 
 
-**Parent Topic:**[Linking documents to a parent record](../concept/doc-linked-parent-rec.md)
+**Parent Topic:**[Linking documents to a parent record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-linked-parent-rec.md)
 

@@ -2,6 +2,7 @@
 title: Risk Workspace for the business operational risk manager
 description: Business operational risk managers are the first lines of defense for each individual line of business. They are responsible to manage the risk posture of their specific business units.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/business-op-risk-manager.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -27,11 +28,11 @@ A business operational risk manager has the role sn\_risk\_workspace.business\_o
 -   View the control status, the number of new controls, and the number of controls not attested.
 -   View the number of overdue issues and the number of new issues.
 
-The following image shows the operational risk manager's view of the Risk Workspace ![Workspace for the business operational risk manager.](../image/risk-business-op-risk-new.png).
+The following image shows the operational risk manager's view of the Risk Workspace \[Omitted image "risk-business-op-risk-new.png"\] Alt text: Workspace for the business operational risk manager..
 
 To view the risk assessments for the top risks for your entities, click the **Top risks** card.
 
-The heatmap on the workspace gives critical insights into the risks when you select each tile of the heatmap. You can use the filter on the heatmap to view either the inherent risk posture or the residual risk posture. For more information, see [Risk heatmap workbench](risk-heatmap-workbench.md).
+The heatmap on the workspace gives critical insights into the risks when you select each tile of the heatmap. You can use the filter on the heatmap to view either the inherent risk posture or the residual risk posture. For more information, see [Risk heatmap workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-heatmap-workbench.md).
 
-**Parent Topic:**[GRC Risk Workspace](risk-workspace.md)
+**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Create contact import rules
 description: Create a contact import rule to apply on the User table and filter out users as contacts for emergency notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/contact-import-sync-rule.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

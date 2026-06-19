@@ -2,6 +2,7 @@
 title: Sync agents to set up live agent transfer
 description: After the installation and configuration of Amazon Connect, you must sync agents to enable live transfer. You can sync agents stored in Amazon Connect with the agents on your ServiceNow agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/setup-live-agent-transfer.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -48,5 +49,5 @@ Role required: admin
     Login as the synced user and make sure that the agent is available in Agent Workspace and also login to the Amazon Connect instance with the same ServiceNow user to verify.
 
 
-**Parent Topic:**[Configure Conversational IVR with Amazon Connect](configure-va-ivr.md)
+**Parent Topic:**[Configure Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-ivr.md)
 

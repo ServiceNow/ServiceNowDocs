@@ -2,6 +2,7 @@
 title: Configuring cloud providers
 description: The topics in this section cover various cloud configurations required to set up and work with Cloud Account Management in Cloud Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configuring-cloud.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

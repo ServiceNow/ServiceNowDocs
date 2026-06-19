@@ -2,6 +2,7 @@
 title: Generate a target for an entity
 description: Generate a target record for an entity to track NIST CSF attributes for that entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/generate-target.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -45,5 +46,5 @@ Role required: admin, sn\_irm\_nist\_csf.risk\_executive or sn\_irm\_nist\_csf.s
     3.  Confirm that the target appears in the list.
 
 
-**Parent Topic:**[Align and prioritize cybersecurity activities](../concept/align-prioritize-activities.md)
+**Parent Topic:**[Align and prioritize cybersecurity activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/align-prioritize-activities.md)
 

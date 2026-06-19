@@ -2,6 +2,7 @@
 title: Provide feedback on community content
 description: Provide feedback on content that you find useful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/provide-feedback.html
 release: australia
 product: Communities
 classification: communities
@@ -69,5 +70,5 @@ Feedback entered by you.
 </table>    **Note:** The homepage activity feed is not automatically refreshed. If updates occur while viewing the activity feed, a **New Updates Available** message appears. You can click and view all new updates. If you are in the middle of making a comment and you click **New Updates Available**, a warning message appears asking if you want to continue.
 
 
-**Parent Topic:**[Post and respond to content in the community](post-respond-content.md)
+**Parent Topic:**[Post and respond to content in the community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/post-respond-content.md)
 

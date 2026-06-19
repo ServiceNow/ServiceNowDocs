@@ -2,6 +2,7 @@
 title: Summarize a journey with Now Assist for HR Service Delivery \(HRSD\)
 description: Managers can instantly summarize the information that appears on the Journey detail page to acquire an overview of an employee's journey. This summary also reflects the blockers that are impeding the journey's progress and the steps required to resume the journey's progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/summarize-jny.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -56,5 +57,5 @@ The following sections appear in the summary that is generated:
 4.  Review the summary to acquire pertinent information about your employee's journey.
 
 
-**Parent Topic:**[Activate the Journey Summarization for Managers skill](activate-jny-summarization.md)
+**Parent Topic:**[Activate the Journey Summarization for Managers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/activate-jny-summarization.md)
 

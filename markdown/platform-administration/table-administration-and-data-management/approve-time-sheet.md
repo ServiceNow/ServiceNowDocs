@@ -2,6 +2,7 @@
 title: Approve or reject a time sheet
 description: View, approve, or reject time sheet or time cards for your user, for the given week, in a single step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/approve-time-sheet.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -23,7 +24,7 @@ Role required: timecard\_approver or timecard\_admin
 
 A user manager is the one who has either of the required roles and is selected in the **Manager** field on User form of the time card user.
 
-During out-of-office time, the user manager can [Delegate time sheet approvals to another user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/delegate-time-sheet-approvals.md) with the required roles as the time sheet approver. For the specified time period, the delegated user also receives all the time sheets submitted by the time card users to process.
+During out-of-office time, the user manager can Delegate time sheet approvals to another user with the required roles as the time sheet approver. For the specified time period, the delegated user also receives all the time sheets submitted by the time card users to process.
 
 **Note:**
 
@@ -47,9 +48,9 @@ During out-of-office time, the user manager can [Delegate time sheet approvals t
 
 The time sheet moves to the Approved or Rejected state.
 
--   If a time sheet is rejected, it gets listed in the notifications for the rejected time sheets under the show notifications icon \(![Show notifications icon](../image/NotificationIcon.png)\) on [Time Sheet Portal](../concept/worker-portal.md#section_sth_2wd_vz) and is moved back to the submitter to adjust the corrections and resubmit it. For more information, see [Submit a time sheet](submit-time-sheet.md).
+-   If a time sheet is rejected, it gets listed in the notifications for the rejected time sheets under the show notifications icon \(\[Omitted image "NotificationIcon.png"\] Alt text: Show notifications icon\) on [Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/worker-portal.md) and is moved back to the submitter to adjust the corrections and resubmit it. For more information, see [Submit a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/submit-time-sheet.md).
 -   Once a time sheet is approved, all the time cards associated with the time sheet are also approved or rejected automatically.
--   If any time cards in the time sheet are pending approval by one of the approvers as defined by the [time sheet policy](create-time-sheet-policy.md#time_sheet_policy_form), the time sheet remains in the Submitted state.
+-   If any time cards in the time sheet are pending approval by one of the approvers as defined by the [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/create-time-sheet-policy.md), the time sheet remains in the Submitted state.
 
-**Parent Topic:**[Time Sheets](../concept/time-sheets.md)
+**Parent Topic:**[Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/time-sheets.md)
 

@@ -2,6 +2,7 @@
 title: Scriptable service catalog variables
 description: You can use scripting to reference any request item variable from a table in scoped and non-scoped environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ScriptableServiceCatalogVariables.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -277,5 +278,5 @@ row.deleteRow()
 2.  There is nothing in place to prevent namespace collision with variables. Creating two variables named computer\_speed would result in only one of them showing up; the second one would overwrite the first one.
 3.  Date/time variables use the same time zone formatting and storage rules as all other dates in the system. They are stored internally in GMT, but translated into the user's local time zone and format for display.
 
-**Parent Topic:**[Service Catalog scoping](../../../product/service-catalog-management/concept/scoping-support-catalog.md)
+**Parent Topic:**[Service Catalog scoping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/scoping-support-catalog.md)
 

@@ -2,6 +2,7 @@
 title: Usage tab
 description: The Usage tab provides usage information related to conversation type, language used in the conversations, and engagement rate of actionable notifications delivered by Virtual Agent \(VA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/usage-tab-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -52,9 +53,9 @@ Languages used by users and the number of conversations in each language.This in
 </td></tr></tbody>
 </table>You must have the Chat Analytics Admin or Chat Analytics Viewer role to access the **Usage** tab.
 
-![Indicators displayed in the Usage tab: Conversation type, languages used, and topics sent via actionable notification.](../images/usage-tab-pae.png "Usage tab")
+\[Omitted image "usage-tab-pae.png"\] Alt text: Indicators displayed in the Usage tab: Conversation type, languages used, and topics sent via actionable notification.
 
 Click on the data points in the Conversation type and Languages indicators to drill down to the list of conversations based on the selected conversation type and language respectively.
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

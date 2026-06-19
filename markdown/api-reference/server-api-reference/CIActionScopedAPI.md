@@ -2,6 +2,7 @@
 title: CIActionEngine - Scoped
 description: The CIActionEngine API provides methods that enable you to execute any action on a configuration item \(CI\), to check the authorization of a user before executing an action, and to get the status and action outputs of any action execution request.Executes any action on a CI with the configured action parameters.Gets the status and action outputs of an action execution request.Checks the authorization of the signed-in user before they can execute an action according to specified configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CIActionScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CIActionEngine API provides methods that enable you to execute any action on
 
 The CI action is associated with the Metrics and CI Actions Framework application. To use this class in a scoped application, use the `sn_cimaf` namespace identifier. The CIActionEngine API requires the Metrics and CI Actions Framework \(com.snc.sn\_cimaf\) plugin and is provided within the `sn_cimaf` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CIActionEngine - execute\(\)
 

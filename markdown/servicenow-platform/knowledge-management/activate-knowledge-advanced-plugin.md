@@ -2,6 +2,7 @@
 title: Activate the Knowledge Management Advanced plugin
 description: Activate the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\) to enable advanced features for Knowledge Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -36,17 +37,17 @@ The Knowledge Management Advanced Installer plugin performs two validation steps
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 The Knowledge Management Advanced plugin activates the following features:
 
--   [Article versioning](../concept/article-versioning.md)
--   [Article subscriptions](../concept/knowledge-article-subscriptions.md)
--   [Article quality index](../concept/knowledge-article-quality-index.md)
--   [Article templates](../concept/knowledge-article-templates.md)
--   [Ownership groups](../concept/enable-ownership-group.md)
--   [In context article creation](../concept/administer-create-article-from-case.md)
--   [Translation management](../concept/translation-management.md)
+-   [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-versioning.md)
+-   [Article subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-subscriptions.md)
+-   [Article quality index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-quality-index.md)
+-   [Article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md)
+-   [Ownership groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/enable-ownership-group.md)
+-   [In context article creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/administer-create-article-from-case.md)
+-   [Translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/translation-management.md)
 
 Demo data is included as part of the Knowledge Management Advanced plugin. If the validation step performed by the Knowledge Management Advanced Installer plugin completes successfully, the Knowledge Management Advanced plugin is activated automatically. However, the demo data isn’t included in this activation. To load the demo data, go to the Knowledge Management Advanced plugin page, select the **Load Demo Data Only** related link, and then select **OK**.
 
@@ -62,8 +63,8 @@ Demo data is included as part of the Knowledge Management Advanced plugin. If th
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Configuring Knowledge Management](../concept/configuring-knowledge-management.md)
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

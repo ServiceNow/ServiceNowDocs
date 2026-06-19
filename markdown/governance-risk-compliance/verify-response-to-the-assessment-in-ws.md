@@ -2,6 +2,7 @@
 title: Request an approval for the assessment
 description: Request an approval for the Importance and impact tolerance assessment in Operational Resilience Workspace. With an approval, you can make sure that an accurate rating is assigned to your business services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/verify-response-to-the-assessment-in-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,5 +43,5 @@ Role required: sn\_oper\_res.manager
 
 ## What to do next
 
-Having an approved Importance and impact tolerance assessment completes the workflow. To close an inactive assessment, see [Close the assessment](approve-the-assessment-in-ws.md). Note that closed assessments are considered inactive.
+Having an approved Importance and impact tolerance assessment completes the workflow. To close an inactive assessment, see [Close the assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/approve-the-assessment-in-ws.md). Note that closed assessments are considered inactive.
 

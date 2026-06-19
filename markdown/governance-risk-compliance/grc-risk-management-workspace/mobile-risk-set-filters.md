@@ -2,6 +2,7 @@
 title: Filter records with the GRC Mobile application
 description: Set additional filters to limit the number of records that are displayed on a screen. Filtering records in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-set-filters.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  To further refine your search results, or to enter additional filter criteria on any list of records that is displayed, tap the filter icon \(![Filter icon.](../../grc-common/image/grc-filter-image.png)\).
+1.  To further refine your search results, or to enter additional filter criteria on any list of records that is displayed, tap the filter icon \(\[Omitted image "grc-filter-image.png"\] Alt text: Filter icon.\).
 
 2.  With the Filters screen displayed, tap a field to expand it.
 
@@ -29,15 +30,15 @@ Role required: admin
 
     For many of the filters, you can select more than one option.
 
-4.  Tap the Back icon \(![Back icon](../../grc-common/image/back.jpg)\) or **DONE** to save your changes to a field.
+4.  Tap the Back icon \(\[Omitted image "back.jpg"\] Alt text: Back icon\) or **DONE** to save your changes to a field.
 
     The criteria you chose are displayed on the Filters screen. The number of records that match your criteria is also displayed at the top of the screen. Tap **Clear** or **RESET** to remove any filters and restore the default setting.
 
 5.  Repeat steps 1 - 4 with the Filters screen displayed to continue setting your filter criteria.
 
-6.  Tap the intersection icon after you set all criteria to create AND conditions.![Intersection icon AND.](../../grc-common/image/mobile-filter-1.jpg)\).
+6.  Tap the intersection icon after you set all criteria to create AND conditions.\[Omitted image "mobile-filter-1.jpg"\] Alt text: Intersection icon AND.\).
 
-    Alternatively, tap the union icon \(![Union icon OR.](../../grc-common/image/mobile-filter-2.jpg)\) to create OR conditions.
+    Alternatively, tap the union icon \(\[Omitted image "mobile-filter-2.jpg"\] Alt text: Union icon OR.\) to create OR conditions.
 
 7.  After you have added all the criteria you want, with the Filters screen displayed, tap **DONE**.
 
@@ -48,5 +49,5 @@ Role required: admin
 
 View the records that are displayed after your search for more details.
 
-**Parent Topic:**[Mobile experience for GRC Risk Management](../concept/mobile-risk-overview.md)
+**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
 

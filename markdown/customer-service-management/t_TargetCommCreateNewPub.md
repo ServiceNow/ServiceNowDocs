@@ -2,7 +2,10 @@
 title: Create a publication
 description: Create a publication to send articles or emails to internal or external customers. You can specify the content type and include an optional email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_TargetCommCreateNewPub.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -151,7 +154,7 @@ This field appears when you select **Wiki** as the **Content Type**. Click the W
 </td></tr></tbody>
 </table>3.  Click one of the following options.
 
-<table id="choicetable_wk1_4th_t5"><tbody><tr><td id="d87496e332">
+<table id="choicetable_wk1_4th_t5"><tbody><tr><td id="d87463e332">
 
 **Submit**
 
@@ -159,7 +162,7 @@ This field appears when you select **Wiki** as the **Content Type**. Click the W
 
 The stage is set to **Author** and the publication record is saved.
 
-</td></tr><tr><td id="d87496e344">
+</td></tr><tr><td id="d87463e344">
 
 **Send for Review**
 

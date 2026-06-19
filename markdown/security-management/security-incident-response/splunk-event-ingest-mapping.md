@@ -2,6 +2,7 @@
 title: Mapping alerts and events for the Splunk Enterprise Event Ingestion integration
 description: After you identify the sources for scheduled alert ingestion or manual event forwarding, the next step is to map individual event fields to the fields on a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest-mapping.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ The following figures are examples of the default mapping grids that are provide
 
 Select the **Alert Name**, and after you select **Fetch Sample Data**, the Splunk alert field values are populated on the left side of the form when sample alerts are ingested by the profile. These are the Splunk alert fields that you map to the SIR security incident fields.
 
-![Default mapping form for alerts.](../image/splunk-event-ingestion-alerts-mapping-fetch.png "Default mapping form for alerts")
+\[Omitted image "splunk-event-ingestion-alerts-mapping-fetch.png"\] Alt text: Default mapping form for alerts.
 
 After you select to load attachment data for forwarded events, the Splunk event fields are populated on the left side of the form. These are the Splunk data fields that are mapped to the SIR security incident fields.
 
@@ -43,15 +44,15 @@ Mapping alerts and exporting events on-demand from your Splunk enterprise consol
 
 After creating a scheduled alert profile, the process flow for the configuration is shown in the following figure.
 
-![Process flow for scheduled alert.](../image/splunk_alert_flow.png "Process flow for scheduled alert profiles")
+\[Omitted image "splunk\_alert\_flow.png"\] Alt text: Process flow for scheduled alert.
 
 ## Manual Event forwarding profiles
 
 After creating a profile for an event, the process flow for the configuration is shown in the following figure.
 
-![Process flow for event export.](../image/splunk_event_flow.png "Process flow for event profiles")
+\[Omitted image "splunk\_event\_flow.png"\] Alt text: Process flow for event export.
 
 The next step is to ingest triggered alerts or export data and map values to the SIR security incident fields.
 
-**Parent Topic:**[Create and name an event profile](../task/splunk-event-ingest-create-profile.md)
+**Parent Topic:**[Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
 

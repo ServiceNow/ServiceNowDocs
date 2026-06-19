@@ -2,6 +2,7 @@
 title: Activate Palo Alto Networks - WildFire
 description: Before you can use the Security Operations Palo Alto Networks - WildFire integration, you must download the integration from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-secops-palo-alto-network.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,19 +22,15 @@ Role required: admin
 
 ## Procedure
 
-1.  [Download the integration from the ServiceNow Store](../../../security-incident-response/reference/download-app-first-time.md).
+1.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md).
 
 2.  Navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 
     The available security integrations appear as a series of cards.
 
-    ![Palo Alto Networks - Wildfire card](../image/wf-config-card.png)
+3.  In the Carbon Black card, select **Configure**.
 
-3.  In the Carbon Black card, click **Configure**.
-
-    ![Wildfire Configuration](../image/wf-config.png)
-
-4.  Enter the API key, and click **Submit**.
+4.  Enter the API key, and select **Submit**.
 
     The integration configuration card displays.
 

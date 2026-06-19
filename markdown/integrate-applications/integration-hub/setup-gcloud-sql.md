@@ -2,6 +2,7 @@
 title: Set up the Google Cloud SQL spoke
 description: Integrate the ServiceNow instance and Google Cloud SQL spoke using Google Cloud Platform credentials to authenticate ServiceNow requests.Create a custom OAuth application from your Google Cloud Platform account to enable OAuth 2.0 authentication with the Google Cloud SQL spoke.Use the information generated during Google Cloud SQL account configuration to register the Google Cloud SQL application as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create a credential record to connect the Google Cloud custom application you created during account configuration. The Google Cloud SQL spoke connection and credential aliases use these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gcloud-sql.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -130,7 +131,7 @@ Role required: admin
     |OAuth Entity Profile|Select the default OAuth entity profile, **Google Cloud SQL**.|
     |Credential alias|Credential alias associated with this record. The default alias record, **sn\_gcpcloudsql\_spk.Google\_Cloud\_SQL** is selected.|
 
-    ![Credential record for Google Cloud SQL spoke.](../image/gcloud-sql-cred.png)
+    \[Omitted image "gcloud-sql-cred.png"\] Alt text: Credential record for Google Cloud SQL spoke.
 
 6.  Right-click the form header and click **Save**.
 

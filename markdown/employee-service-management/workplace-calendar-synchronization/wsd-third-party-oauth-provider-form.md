@@ -2,13 +2,14 @@
 title: Third-party OAuth Provider form
 description: The Third-party OAuth Provider form includes OAuth provider details such as the client ID and client secret for personal authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/wsd-third-party-oauth-provider-form.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Workplace Calendar Synchronization references, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Third-party OAuth Provider form

@@ -2,6 +2,7 @@
 title: Create a new state model attribute
 description: Create custom state model attributes to add specialized capabilities to workflow steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/configure-new-state-model-attributes.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -31,7 +32,7 @@ Role required: sn\_irm\_cont\_auth.admin
 
 5.  To add a new attribute, select **New**.
 
-    ![Configuring state model attribute.](../image/WF-state-attributes1.png)
+    \[Omitted image "WF-state-attributes1.png"\] Alt text: Configuring state model attribute.
 
 6.  On the **State Model Attribute New record** form, fill in the fields.
 
@@ -76,7 +77,7 @@ Table name
 Specifies which table this attribute applies to.**Note:** To configure the attribute to the authorization package, you must select **Authorization Package \[sn\_irm\_cont\_auth\_auth\_pack\]** in the table name drop-down.
 
 </td></tr></tbody>
-</table>    ![State model attribute fields.](../image/WF-state-attributes2.png)
+</table>    \[Omitted image "WF-state-attributes2.png"\] Alt text: State model attribute fields.
 
 7.  Select **Submit** to save the attribute.
 

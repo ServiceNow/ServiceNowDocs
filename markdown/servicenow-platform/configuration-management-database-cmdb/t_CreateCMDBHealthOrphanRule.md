@@ -2,6 +2,7 @@
 title: Create a CMDB Health orphan rule
 description: Create an orphan rule to determine the percentage of orphan CIs in the CMDB. This sum is then aggregated into the correctness CMDB Health KPI. Orphan rules are defined per class, and only a single orphan rule can be defined per class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreateCMDBHealthOrphanRule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,7 +24,7 @@ Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and i
 
 Specify the conditions that CIs must meet to be considered an orphan CI. Specify attributes that a CI must have, relationships that a CI should not have, or both. In the relationship conditions, you can either specify that the CI has no relationships, or a set of specific relationships that the CI doesn't have.
 
-**Note:** If there is a [health inclusion rule](create-health-inclusion-rule.md) for the orphan metric, then the conditions in the health inclusion rule and the conditions in the health orphan rule, shouldn't be identical.
+**Note:** If there is a [health inclusion rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-health-inclusion-rule.md) for the orphan metric, then the conditions in the health inclusion rule and the conditions in the health orphan rule, shouldn't be identical.
 
 A health orphan rule can for example, identify a CI of the cmdb\_ci\_computer class as an orphan CI if the CI is not set with an owner or an asset. Or, for example, you can create an orphan rule for a CI in the Disk \[cmdb\_ci\_disk\] class. If that CI doesn't have a Contains::Contained by or Contained by::Contains relationship with a Computer CI, then it is an orphan CI.
 

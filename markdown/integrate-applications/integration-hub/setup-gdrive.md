@@ -2,6 +2,7 @@
 title: Set up Google Drive spoke
 description: Integrate a ServiceNow instance and Google Drive spoke by using Google Drive credentials to authenticate ServiceNow requests.Create a custom OAuth application from your Google Drive account to enable OAuth 2.0 authentication with the Google Drive spoke.Use the information generated during Google Drive account configuration to register the Google Drive application as an OAuth provider and allow the instance to request OAuth 2.0 tokens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gdrive.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -67,7 +68,7 @@ Complete these steps from your Google G Suite or Google Drive account. See the G
 
 10. Create a Credentials application and save the Client ID and Client secret.
 
-    The Client Secret is only displayed in plain text for a short time. Copy the Client ID and the Client Secret to a text file so that you can use them when you [Configure the Google Drive connection](setup-gdrive.md#).
+    The Client Secret is only displayed in plain text for a short time. Copy the Client ID and the Client Secret to a text file so that you can use them when you [Configure the Google Drive connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gdrive.md).
 
 
 ## Configure the Google Drive connection
@@ -89,7 +90,7 @@ Role required: admin.
 4.  Locate the **Google Drive** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Google Drive spoke, click **View Details**.
-    -   To manage more than one Google Drive spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Google Drive spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 5.  On the form, fill in the fields.
@@ -106,7 +107,7 @@ Role required: admin.
     |OAuth Client Secret|Client Secret you generated when you created the application in G Suite.|
     |OAuth Redirect URL|ServiceNow instance URL in this format: `https://<Instance-Name>.service-now.com/oauth_redirect.do`|
 
-    ![Google Drive Connection.](../image/gdrive-connection.png)
+    \[Omitted image "gdrive-connection.png"\] Alt text: Google Drive Connection.
 
 6.  Click **Configure and Get OAuth Token**.
 

@@ -2,6 +2,7 @@
 title: Set up an Identity Access Manager account for a ServiceNow user in AWS
 description: Create an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\) so you can manage multiple AWS accounts with a centralized IAM user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -18,7 +19,7 @@ Create an AWS CloudFormation Identity Access Manager \(IAM\) user in the managem
 ## Before you begin
 
 -   Role required: AWS admin
--   The ServiceNow IAM user account requires specific AWS IAM permissions to perform basic operations. To learn more about the permissions, see [About Amazon Web Services API permissions](about-aws-api-permissions.md).
+-   The ServiceNow IAM user account requires specific AWS IAM permissions to perform basic operations. To learn more about the permissions, see [About Amazon Web Services API permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/about-aws-api-permissions.md).
 
 
 ## Procedure
@@ -180,5 +181,5 @@ Create an AWS CloudFormation Identity Access Manager \(IAM\) user in the managem
 
 ## What to do next
 
-[Set up suspension of an AWS account using service control policy](../task/configure-suspension-policy.md)
+[Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configure-suspension-policy.md)
 

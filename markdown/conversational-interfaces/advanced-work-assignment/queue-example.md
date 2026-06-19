@@ -2,6 +2,7 @@
 title: Create a queue to route new change requests
 description: Create a work item queue in Advanced Work Assignment that routes new change requests through the service channel that handles change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/queue-example.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

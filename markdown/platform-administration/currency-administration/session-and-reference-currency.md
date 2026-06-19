@@ -2,6 +2,7 @@
 title: Session and reference currency
 description: The default, or standard, currency fields in the ServiceNow AI Platform use two kinds of currency, Session and Reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/session-and-reference-currency.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -69,5 +70,5 @@ The user might see the following issues:
 
 This confusion may be the result of the difference between session and reference currencies, changing conversion rates, and different session currencies used by different users.
 
-**Parent Topic:**[Standard currency fields](configure-and-use-default-currency-fields.md)
+**Parent Topic:**[Standard currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-and-use-default-currency-fields.md)
 

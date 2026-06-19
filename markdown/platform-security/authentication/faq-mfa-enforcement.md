@@ -2,6 +2,7 @@
 title: MFA enforcement requirements – What and Why
 description: FAQ related to MFA enforcement and why it’s important.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/faq-mfa-enforcement.html
 release: australia
 product: Authentication
 classification: authentication
@@ -17,7 +18,7 @@ FAQ related to MFA enforcement and why it’s important.
 
 1.  What is the MFA?
 
-    Multi-factor Authentication \(MFA\) is a security process that requires you to provide two or more forms of verification before they can access an account or system. To learn more, see [Exploring Multi-factor Authentication](explore-mfa.md).
+    Multi-factor Authentication \(MFA\) is a security process that requires you to provide two or more forms of verification before they can access an account or system. To learn more, see [Exploring Multi-factor Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/explore-mfa.md).
 
 2.  Why is the MFA enforcement mandate?
 
@@ -37,7 +38,7 @@ FAQ related to MFA enforcement and why it’s important.
 
     For existing customers upgrading their instance to the Yokohama or a later release:
 
-    -   If the instance doesn’t already have the **Adaptive Authentication** – [Multi-factor Authentication context](mfa-auth-context.md) turned on, automatically it’s enabled as a default MFA policy.
+    -   If the instance doesn’t already have the **Adaptive Authentication** – [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-context.md) turned on, automatically it’s enabled as a default MFA policy.
     -   All the internal users \(users who don’t have snc\_external role\) logging in with local or LDAP authentication must set up MFA within 30 days of their first successful login. During this time, you can log in normally but see a message at the time of login to enroll in MFA.
     -   After 30 days, MFA will be required by default, and users won’t be able to log in without completing the MFA setup.
 6.  What is the MFA requirement for new customers?

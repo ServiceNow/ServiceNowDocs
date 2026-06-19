@@ -2,6 +2,7 @@
 title: Use system-derived entities in an NLU topic
 description: Associate system-derived entities such as such as date, time, duration, or location with a node in a topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/use-system-entities-va-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,13 +18,13 @@ Associate system-derived entities such as such as date, time, duration, or locat
 
 ## Before you begin
 
-Create the Booking Reservations NLU model and system entities \(`FromLocation` and `ToLocation`\) as described in [Create a system-derived entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-system-derived-entity.md). In this example procedure, you will create a topic that can slot fill locations that are used in an utterance.
+Create the Booking Reservations NLU model and system entities \(`FromLocation` and `ToLocation`\) as described in Create a system-derived entity. In this example procedure, you will create a topic that can slot fill locations that are used in an utterance.
 
 Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  [Create a new topic](create-virtual-agent-topic.md) called `Booking Reservations`.
+1.  [Create a new topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) called `Booking Reservations`.
 
     When completing the **Properties** tab, make sure that you choose the Booking Reservations NLU model that you created in an earlier exercise.
 
@@ -36,7 +37,7 @@ Role required: virtual\_agent\_admin or admin
     |Node name|Type `Intro`.|
     |Response Message|Type `Let's get you booked on a flight`.|
 
-    ![In the Text response properties, the Node name is "Intro," and the Response Message is, "Let's get you booked on a flight."](../images/sys-entities-example-1.png "Intro Text response properties")
+    \[Omitted image "sys-entities-example-1.png"\] Alt text: In the Text response properties, the Node name is "Intro," and the Response Message is, "Let's get you booked on a flight."
 
 3.  Drag a Text user input component onto the canvas.
 
@@ -107,7 +108,7 @@ Enable NLU to switch topics
 Slide this toggle switch to enable topic switching.
 
 </td></tr></tbody>
-</table>    ![In the Fromwhere Text user input node, the prompt reads, "Where are you departing from?" The NLU entity used is FromLocation. Topic switching is enabled.](../images/sys-entities-example-2.png "Fromwhere Text user input response properties")
+</table>    \[Omitted image "sys-entities-example-2.png"\] Alt text: In the Fromwhere Text user input node, the prompt reads, "Where are you departing from?" The NLU entity used is FromLocation. Topic switching is enabled.
 
 4.  Drag another Text user input component onto the canvas.
 
@@ -178,7 +179,7 @@ Enable NLU to switch topics
 Slide this toggle switch to enable topic switching.
 
 </td></tr></tbody>
-</table>    ![In the Towhere Text user input node, the prompt reads, "Where are you heading?" The NLU entity used is ToLocation. Topic switching is enabled.](../images/sys-entities-example-3.png "Towhere Text user input response properties")
+</table>    \[Omitted image "sys-entities-example-3.png"\] Alt text: In the Towhere Text user input node, the prompt reads, "Where are you heading?" The NLU entity used is ToLocation. Topic switching is enabled.
 
 5.  Drag another Text bot response component onto the canvas, and then select it.
 
@@ -189,7 +190,7 @@ Slide this toggle switch to enable topic switching.
     |Node name|Type `Confirmation`.|
     |Response Message|Type `Great! I have you booked on a flight from [Fromwhere] to [Towhere]. Bon voyage!` Use dot-walking to replace `[Fromwhere]` and `[Towhere]` with the input variables you created in the previous nodes.|
 
-    ![The Confirmation node displays the message, "Great! I have you booked on a flight from blank to blank," which will be slot-filled from the Fromwhere and Towhere input variables.](../images/sys-entities-example-4.png "Confirmation text response properties")
+    \[Omitted image "sys-entities-example-4.png"\] Alt text: The Confirmation node displays the message, "Great! I have you booked on a flight from blank to blank," which will be slot-filled from the Fromwhere and Towhere input variables.
 
 6.  Click **Save**.
 
@@ -198,7 +199,7 @@ Slide this toggle switch to enable topic switching.
 
 Use additional system-derived entities for your Booking a Reservation topic. For example, you can use system-derived entities to capture the dates that the user wants to travel.
 
-For more information about default system entities, see [NLU system entities](../reference/nlu-system-entities.md).
+For more information about default system entities, see [NLU system entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-system-entities.md).
 
-**Parent Topic:**[Creating a Virtual Agent topic](create-virtual-agent-topic.md)
+**Parent Topic:**[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
 

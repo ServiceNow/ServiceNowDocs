@@ -2,6 +2,7 @@
 title: Work on Walk-up interaction in Service Operations Workspace
 description: Manage your Walk-up appointments in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/work-on-walkup-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -53,5 +54,5 @@ Role required: itil or admin
 11. After you have fulfilled or resolved the request, set the state of the Walk-up interaction to **Closed Complete**.
 
 
-**Parent Topic:**[Walk-up Experience management in Service Operations Workspace](../concept/walkup-sow.md)
+**Parent Topic:**[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/walkup-sow.md)
 

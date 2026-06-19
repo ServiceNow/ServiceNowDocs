@@ -2,6 +2,7 @@
 title: Script includes installed with Procurement
 description: Procurement plugin adds the following script include.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/r\_ScriptIncludesProcurement.html
 release: australia
 product: Procurement
 classification: procurement
@@ -19,5 +20,5 @@ Procurement plugin adds the following script include.
 |--------------|-----------|
 |ProcurementUtils|Provides utilities for Procurement.|
 
-**Parent Topic:**[Components installed with Procurement](r_InstalledWithProcurement.md)
+**Parent Topic:**[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/r_InstalledWithProcurement.md)
 

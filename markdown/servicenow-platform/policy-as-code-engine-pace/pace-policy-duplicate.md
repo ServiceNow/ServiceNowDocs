@@ -2,6 +2,7 @@
 title: Duplicate a PaCE policy
 description: Create a duplicate of an existing policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-policy-duplicate.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

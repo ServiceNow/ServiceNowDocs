@@ -2,6 +2,7 @@
 title: Automated Test Framework roles
 description: Automated Test Framework is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-roles.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -17,7 +18,7 @@ Automated Test Framework is installed with these roles.
 
 ## ATF test administrator \[atf\_test\_admin\]
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 Create or edit Automated Test Framework properties. Has permission to:
 
@@ -46,7 +47,7 @@ Create or edit Automated Test Framework properties. Has permission to:
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see .
 
     No.
 
@@ -57,7 +58,7 @@ Create or edit Automated Test Framework properties. Has permission to:
 
 ## ATF test designer \[atf\_test\_designer\]
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 View Automated Test Framework properties only \(can't create or edit properties\). Has permission to:
 
@@ -89,7 +90,7 @@ View Automated Test Framework properties only \(can't create or edit properties\
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see .
 
     No.
 
@@ -100,7 +101,7 @@ View Automated Test Framework properties only \(can't create or edit properties\
 
 ## ATF workspace designer \[atf\_ws\_designer\]
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 View or set the basic or mutual authentication needed for REST endpoints that require authentication.
 
@@ -124,7 +125,7 @@ View or set the basic or mutual authentication needed for REST endpoints that re
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see .
 
     No.
 
@@ -133,5 +134,5 @@ View or set the basic or mutual authentication needed for REST endpoints that re
     None.
 
 
-**Parent Topic:**[Automated Test Framework \(ATF\) reference](../concept/atf-ref-overview.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-ref-overview.md)
 

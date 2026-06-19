@@ -2,6 +2,7 @@
 title: Kubernetes Visibility Agent advanced configuration
 description: This section refers to advanced configuration options for the Kubernetes Visibility Agent component running in a Kubernetes cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-adv-configuration.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,5 +19,5 @@ This section refers to advanced configuration options for the Kubernetes Visibil
 
 For the latest information, see the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) Advanced Configuration Options \[KB1648891\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1648891) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Kubernetes Visibility Agent Reference](cnov-reference.md)
+**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-reference.md)
 

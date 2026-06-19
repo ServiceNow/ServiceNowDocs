@@ -2,6 +2,7 @@
 title: Add message for users during health screening
 description: Add an optional custom message for people to read during their health screenings with additional information or guidelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/add-screening-information-message.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -42,5 +43,5 @@ Role required: sn\_imt\_monitoring.monitoring\_admin
 
 Users in the selected audience will see this message when they complete their health screening.
 
-**Parent Topic:**[Employee Health Screening](../concept/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
 

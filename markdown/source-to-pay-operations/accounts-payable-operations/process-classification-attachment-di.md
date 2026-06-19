@@ -2,6 +2,7 @@
 title: Configure Process Classification Attachment using DI flow
 description: Configure process classification attachment di flow using the flow designer to enable submitting of email attachments to the Document Intelligence classification use case \(consisting of AI solution\) for document type identification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/process-classification-attachment-di.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -34,9 +35,9 @@ Plugins required:
 
 2.  Search for **Process Classification Attachment using DI** flow.
 
-3.  Select the ![more actions](../image/more-actions.png) icon &gt; **Copy flow**.
+3.  Select the \[Omitted image "more-actions.png"\] Alt text: more actions icon &gt; **Copy flow**.
 
-    A copy of the **Process Classification Attachment using DI** is created. ![Process classification attachment using DI flow](../image/proces-classify-flow.png)
+    A copy of the **Process Classification Attachment using DI** is created. \[Omitted image "proces-classify-flow.png"\] Alt text: Process classification attachment using DI flow
 
 4.  Select **Done**.
 

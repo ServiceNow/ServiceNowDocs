@@ -2,11 +2,12 @@
 title: Manage multiple Cisco Meraki SD-WAN instances
 description: Configure and manage multiple Cisco Meraki instances within a single ServiceNow AI Platform environment. This functionality facilitates the creation of distinct connection aliases and the establishment of independent import schedules that you can customize to accommodate specific data filtering and frequency requirements for administrators and integrators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/manage-multiple-cisco-meraki-instances.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Configure Cisco Meraki SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -21,8 +22,8 @@ Verify the following:
 
 -   The active application scope is Service Graph Connector \(SGC\) for Meraki.
 -   The SGC for Cisco Meraki has been installed.
--   The initial Cisco Meraki instance has been set up. For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](set-up-cisco-meraki.md).
--   The associated MID Server has been set up and validated. For more information, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/configure-mid-server.md).
+-   The initial Cisco Meraki instance has been set up. For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-cisco-meraki.md).
+-   The associated MID Server has been set up and validated. For more information, see .
 
 Role required: TSOM Visibility admin
 
@@ -47,7 +48,7 @@ You can configure additional Cisco Meraki instances or reuse the same Cisco Mera
     1.  Select **Configure**.
     2.  In the **API Key** field, enter the API key created in the dashboard.
 
-        **Note:** Other authentication fields might be required depending on the authentication methods used in your Cisco Meraki instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+        **Note:** Other authentication fields might be required depending on the authentication methods used in your Cisco Meraki instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see .
 
     3.  In the **User name** field, specify your Cisco Meraki instance user name.
     4.  Retain the default values in the rest of the fields.
@@ -94,7 +95,7 @@ You can configure additional Cisco Meraki instances or reuse the same Cisco Mera
 
     1.  Select **Configure** and fill in the fields.
 
-        For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](set-up-cisco-meraki.md).
+        For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-cisco-meraki.md).
 
     2.  In the **Use connection** field, choose the new Meraki instance.
 

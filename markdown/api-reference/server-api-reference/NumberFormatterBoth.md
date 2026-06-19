@@ -2,6 +2,7 @@
 title: NumberFormatter - Scoped, Global
 description: The NumberFormatter API includes methods that return numbers formatted according to the language of the current user.Returns a string representation of a number formatted according to the language setting of the current user.Returns a string representation of a number formatted according to the language passed as a parameter.Parses a number from a passed text string, traversing left-to-right, to extract the numeric value. It then uses the passed country and language codes to identify the locale of the number and returns the parsed number in that format.Parses and returns a number from a passed text string, traversing left-to-right, until it encounters a character that it can't parse. Parsable values include numbers and the specified grouping and decimal separators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/NumberFormatterBoth.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ This API is available in scoped and global apps and runs in the sn\_i18n namespa
 
 When formatted by language or locale, users can view numbers as expected. For example, if the locale is fr \(French\), a value provided as 100.00 returns as 100,00.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## NumberFormatter – format\(Number number\)
 

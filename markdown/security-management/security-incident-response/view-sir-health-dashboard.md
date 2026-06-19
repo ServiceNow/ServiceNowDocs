@@ -2,6 +2,7 @@
 title: View Security Incident Response Health dashboard
 description: Security Incident Response Health dashboard feature provides a centralized view of critical aspects related to incident response process implementation, issues/errors encountered, and performance metrics. It serves as a vital tool for monitoring and optimizing the effectiveness of an organization's security incident response capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-sir-health-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -38,7 +39,7 @@ You can monitor the health of the security incidents using the widgets and trend
 
 4.  Select the **Process** tab to view the number of security incidents that were triggered on a weekly basis for each alert sensor on the chart.
 
-    ![Process tab on the SIR Health dashboard](../image/sir-health-dash-process.png "Process tab")
+    \[Omitted image "sir-health-dash-process.png"\] Alt text: Process tab on the SIR Health dashboard
 
     You can perform the following tasks:
 
@@ -52,7 +53,7 @@ You can monitor the health of the security incidents using the widgets and trend
 
 5.  Select the **Implementation** tab to view the number of customizations that were created for the security incidents in the Security Incident Response applications.
 
-    ![Implementation tab on the SIR Health dashboard](../image/sir-health-dash-implementation.png "Implementation tab")
+    \[Omitted image "sir-health-dash-implementation.png"\] Alt text: Implementation tab on the SIR Health dashboard
 
     **Implementation** tab:
 
@@ -65,7 +66,7 @@ You can monitor the health of the security incidents using the widgets and trend
     -   **Upgrade Conflicts**: This widget displays the number of conflicts that were triggered during upgrades in the SIR applications.
 6.  Select the **Issues/Errors** tab to view the number of issues or errors that were triggered in the Security Incident Response applications.
 
-    ![Issues/Errors tab on the SIR Health dashboard](../image/sir-health-dash-errors.png "Issues/Errors tab")
+    \[Omitted image "sir-health-dash-errors.png"\] Alt text: Issues/Errors tab on the SIR Health dashboard
 
     **Issues/Errors** tab:
 
@@ -78,7 +79,7 @@ You can monitor the health of the security incidents using the widgets and trend
     -   **PAD Playbook executions in error state**: This widget displays the number of PAD Playbook execution errors that were triggered in the SIR applications.
 7.  Select the **Performance** tab to view the number of performance issues that were triggered in the Security Incident Response applications.
 
-    ![Performance tab on the SIR Health dashboard](../image/sir-health-dash-performance.png "Performance tab")
+    \[Omitted image "sir-health-dash-performance.png"\] Alt text: Performance tab on the SIR Health dashboard
 
     **Performance** tab:
 

@@ -2,6 +2,7 @@
 title: Set up continuous replication
 description: Enable near-real time data replication from a producer instance to one or more consumer instances in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/set-up-continuous-replication-idr.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -19,7 +20,7 @@ Enable near-real time data replication from a producer instance to one or more c
 
 Verify that the producer and consumer instances belong to the same customer.
 
-Plan your data replication strategy by reviewing the important considerations described in [Preparing for Instance Data Replication](../concept/prepare-instance-data-replication.md).
+Plan your data replication strategy by reviewing the important considerations described in [Preparing for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/prepare-instance-data-replication.md).
 
 Role required: idr\_admin or admin
 
@@ -41,7 +42,7 @@ Role required: idr\_admin or admin
 
     The producer replication set is created with an auto-generated producer ID that identifies the producer instance in the system.
 
-    ![Producer replication set.](../image/producer-replication-set.png)
+    \[Omitted image "producer-replication-set.png"\] Alt text: Producer replication set.
 
 6.  Specify the tables and columns on the producer instance that you want to replicate.
 
@@ -76,7 +77,7 @@ Filter
 Filter criteria to control the records in the table that the system is replicating. -   Use the filter to limit the number of records in your replication set. For example, if the table has an **Active** field, add a filter condition like **\[Active\] \[is\] \[True\]** to replicate only active records.
 -   If you want to replicate and preserve a parent and child table hierarchy, add a filter for the sys\_class\_name column to each outbound entry. This ensures that all of the child table columns are replicated, and not just the parent the columns.
 
-For example, to replicate both the Task \[task\] parent table and the Incident \[incident\] child table, you must add **\[Task type\] \[is\] \[Task\]** as a filter in the parent table entry and **\[Task type\] \[is\] \[Incident\]** as a filter in the child table entry. In this example, Task type is the label for the sys\_class\_name column on each table. For details, see [Preserving table hierarchy in Instance Data Replication](../concept/preserving-table-hierarchy.md).
+For example, to replicate both the Task \[task\] parent table and the Incident \[incident\] child table, you must add **\[Task type\] \[is\] \[Task\]** as a filter in the parent table entry and **\[Task type\] \[is\] \[Incident\]** as a filter in the child table entry. In this example, Task type is the label for the sys\_class\_name column on each table. For details, see [Preserving table hierarchy in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/preserving-table-hierarchy.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +109,7 @@ Coalesce Field
 
 </td><td>
 
-Choose a field to use to coalesce IDR. Only unique fields are available. See [Custom coalescing](../concept/modifying-replication-behavior-idr.md#).
+Choose a field to use to coalesce IDR. Only unique fields are available. See [Custom coalescing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/modifying-replication-behavior-idr.md).
 
  This field only displays if you select **Enable Custom Coalesce**.
 
@@ -168,9 +169,9 @@ Data in the producer tables is replicated into tables and table columns of the s
 
 ## What to do next
 
--   [Seed a consumer instance](seed-consumer-instance.md)
--   [Transform replication data](modify-replicated-data.md)
--   [Trigger a workflow after replication](../concept/modifying-replication-behavior-idr.md#)
+-   [Seed a consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/seed-consumer-instance.md)
+-   [Transform replication data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/modify-replicated-data.md)
+-   [Trigger a workflow after replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/modifying-replication-behavior-idr.md)
 
-**Parent Topic:**[Replicating data with Instance Data Replication](../concept/replicating-data.md)
+**Parent Topic:**[Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/replicating-data.md)
 

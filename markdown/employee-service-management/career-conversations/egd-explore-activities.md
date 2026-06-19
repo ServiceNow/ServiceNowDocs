@@ -2,6 +2,7 @@
 title: Explore Career Conversations application
 description: The Career Conversations app provides employees and managers with the ability to create and track conversations between managers and employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/career-conversations/egd-explore-activities.html
 release: australia
 product: Career Conversations
 classification: career-conversations
@@ -15,7 +16,7 @@ breadcrumb: [Career Conversations, Growth Experiences, HR Service Delivery, Empl
 
 The Career Conversations app provides employees and managers with the ability to create and track conversations between managers and employees.
 
-Career Conversations is an application closely integrated with Talent Development Core. It is used to manage conversations between employees and manager. It also interacts with the [Talent Development Core application](egd-landing-page.md) to provide a complete career growth and development solution.
+Career Conversations is an application closely integrated with Talent Development Core. It is used to manage conversations between employees and manager. It also interacts with the [Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-landing-page.md) to provide a complete career growth and development solution.
 
 ## Discover and get apps on the Store
 
@@ -23,8 +24,8 @@ Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) 
 
 For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Career Conversations](egd-activities-conversations-module.md)**  
+-   **[Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-activities-conversations-module.md)**  
 The Career Conversations application supports dialogue between subordinates and their leaders. This application enables your employees to engage in meaningful conversations that are focused on the employee's growth and development.
 
-**Parent Topic:**[HR Service Delivery](../../human-resources/concept/hr-service-delivery.md)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

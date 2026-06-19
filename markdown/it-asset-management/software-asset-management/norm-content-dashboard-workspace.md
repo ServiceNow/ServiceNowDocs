@@ -2,6 +2,7 @@
 title: Normalization and content dashboard
 description: View normalization trend charts on the Normalization and content dashboard, which is integrated with Performance Analytics in Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/norm-content-dashboard-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -21,7 +22,7 @@ You can filter the count of installations based on a publisher or product by usi
 
 You can access the Normalization and content dashboard by navigating to **Workspaces** &gt; **Software Asset Workspace** &gt; **Software asset analytics** &gt; **Normalization and content**.
 
-![Normalization and content dashboard view](../image/normalization-dashboard-workspace.png "Normalization and content dashboard")
+\[Omitted image "normalization-dashboard-workspace.png"\] Alt text: Normalization and content dashboard view
 
 <table id="table_pp1_2fh_rpb"><thead><tr><th>
 

@@ -2,6 +2,7 @@
 title: Third-party Model Mapping outbound staging table
 description: The Third-party Model Mapping \[sn\_spend\_intg\_third\_party\_category\_map\] outbound staging table stores important data about the Third-party Model Mapping created so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/third-party-model-map-staging-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

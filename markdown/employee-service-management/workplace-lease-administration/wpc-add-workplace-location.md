@@ -2,13 +2,14 @@
 title: Add workplace contract locations in Workplace Central
 description: Add locations to the workplace contract for the locations the contract covers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-add-workplace-location.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add workplace contract locations in Workplace Central
@@ -29,15 +30,15 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 4.  In the **Contract locations** related list, either select an existing location or add a new location.
 
-<table id="choicetable_ctc_x4q_gwb"><thead><tr><th align="left" id="d644918e88">
+<table id="choicetable_ctc_x4q_gwb"><thead><tr><th align="left" id="d424534e88">
 
 Location source
 
-</th><th align="left" id="d644918e91">
+</th><th align="left" id="d424534e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d644918e97">
+</th></tr></thead><tbody><tr><td id="d424534e97">
 
 **Existing location**
 
@@ -48,7 +49,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d644918e124">
+</td></tr><tr><td id="d424534e124">
 
 **New location**
 
@@ -65,5 +66,5 @@ Action
 
 The locations covered are added to the contract.
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

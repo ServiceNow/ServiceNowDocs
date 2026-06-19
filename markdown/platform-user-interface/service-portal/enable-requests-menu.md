@@ -2,6 +2,7 @@
 title: Enable the My Requests menu for an upgrade scenario
 description: Enable the My Requests menu that uses the My Requests \(my-requests-v2\) widget for an upgrade scenario.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-requests-menu.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The My Requests menu that is based on the My Requests \(my-requests-v2\) widget is available by default for zBoot users. For more information about this widget, refer to [My Requests widget](../concept/my-request-widget-portal.md).
+The My Requests menu that is based on the My Requests \(my-requests-v2\) widget is available by default for zBoot users. For more information about this widget, refer to [My Requests widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/my-request-widget-portal.md).
 
 ## Procedure
 
@@ -44,5 +45,5 @@ The My Requests menu that is based on the My Requests \(my-requests-v2\) widget 
 7.  Click **Update**.
 
 
-**Parent Topic:**[My Requests widget](../concept/my-request-widget-portal.md)
+**Parent Topic:**[My Requests widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/my-request-widget-portal.md)
 

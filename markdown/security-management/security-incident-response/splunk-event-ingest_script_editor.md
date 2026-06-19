@@ -2,6 +2,7 @@
 title: Use the script editor to format alert values for the Splunk Enterprise Event Ingestion integration
 description: Use the script editor to format field values on the security incident during the mapping step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-ingest\_script\_editor.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -31,7 +32,7 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 
 1.  With the mapping form displayed, select the link to open the script editor.
 
-    ![Format a field value](../image/214_SplunkFieldTranslationExampleCMDB_1.png)
+    \[Omitted image "214\_SplunkFieldTranslationExampleCMDB\_1.png"\] Alt text: Format a field value
 
 2.  From the choice list, select a destination field for the value that you want to edit.
 
@@ -43,7 +44,7 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 
     The editor opens with the field displayed in Destination Field. The following image shows the editor with the `Configuration item` field as the Destination Field.
 
-    ![Script editor.](../image/214_SplunkFieldTranslationExampleCMDB.png)
+    \[Omitted image "214\_SplunkFieldTranslationExampleCMDB.png"\] Alt text: Script editor.
 
 4.  Enter any changes to then script, and select **Update** to save your changes.
 
@@ -52,5 +53,5 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 5.  Close the table to return to the Mapping form.
 
 
-**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](../concept/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

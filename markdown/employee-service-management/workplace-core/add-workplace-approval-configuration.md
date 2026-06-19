@@ -2,6 +2,7 @@
 title: Add a workplace approval configuration
 description: Add approvers to an approval definition. The assigned approvers receive the approval requests of those reservations that match the conditions defined in the approval definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/add-workplace-approval-configuration.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -61,7 +62,7 @@ Approvers
 
 </td><td>
 
-Approvers for the approval definition. Select one or more approvers to approve the reservations that match the approval definition. To add approvers, refer to [Create a workplace performer criteria](create-workplace-performer-criteria.md).
+Approvers for the approval definition. Select one or more approvers to approve the reservations that match the approval definition. To add approvers, refer to [Create a workplace performer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-performer-criteria.md).
 
 </td></tr><tr><td>
 
@@ -106,5 +107,5 @@ Importance level of the approval. The approval with the lowest level is implemen
 
 The workplace approval configuration is added.
 
-**Parent Topic:**[Create a workplace performer criteria](create-workplace-performer-criteria.md)
+**Parent Topic:**[Create a workplace performer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-performer-criteria.md)
 

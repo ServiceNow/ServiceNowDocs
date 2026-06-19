@@ -2,6 +2,7 @@
 title: Create a task for an idea
 description: Create a task for planning and developing an accepted idea.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/create-a-task-for-an-idea.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -29,11 +30,11 @@ Create a task such as a demand, project, story, SAFe epic, SAFe feature, or SAFe
 
 2.  Select the title of an idea that you want to create a task for.
 
-3.  Open the idea in form view by clicking the more options \(![More options icon](../image/more-options-icon.png)\) icon, and selecting the **Open in platform** option.
+3.  Open the idea in form view by clicking the more options \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon\) icon, and selecting the **Open in platform** option.
 
 4.  Select an appropriate state for the idea from the State list based on the priority of the idea.
 
-    For more information about different idea states, see [Manage ideas](manage-ideas.md).
+    For more information about different idea states, see [Manage ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/manage-ideas.md).
 
 5.  Select **Create Task**.
 
@@ -53,5 +54,5 @@ Create a task such as a demand, project, story, SAFe epic, SAFe feature, or SAFe
     **Note:** You must also have the appropriate role based on the plugins to create these task types.
 
 
-**Parent Topic:**[Managing ideas using Innovation Management](../concept/using-innovation-management.md)
+**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/using-innovation-management.md)
 

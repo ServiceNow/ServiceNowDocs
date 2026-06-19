@@ -2,6 +2,7 @@
 title: Clone a request task
 description: Existing tasks can be cloned to create tasks with the same populated fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CloneARequestTask.html
 release: australia
 product: Work Order Management
 classification: work-order-management

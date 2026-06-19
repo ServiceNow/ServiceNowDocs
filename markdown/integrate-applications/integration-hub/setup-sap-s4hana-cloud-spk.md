@@ -2,6 +2,7 @@
 title: Setup the SAP S4 HANA Public Cloud spoke
 description: Integrate the ServiceNow instance and SAP S4 HANA public cloud instance by using basic authentication to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sap-s4hana-cloud-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub

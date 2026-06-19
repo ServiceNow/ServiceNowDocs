@@ -2,6 +2,7 @@
 title: Purchase requisition
 description: A purchase requisition represents a request that is sent internally within an organization to obtain purchased goods or services. It consists of items that need to be ordered, and may need to go through approvals for a purchase order to be created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-requisition.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -20,7 +21,7 @@ A purchase requisition is created in either of the following scenarios:
 -   When a shopper selects **Request to buy** from a product details page on ShoppingHub.
 -   When a supplier is selected after providing quotes in a sourcing request.
 
-Through a purchase requisition, the purchasing department understands details of the items that are requested, the quantity, supplier, cost, and reason for purchase.![Purchase requisition.](../image/create_purchase_requisition.png)
+Through a purchase requisition, the purchasing department understands details of the items that are requested, the quantity, supplier, cost, and reason for purchase.\[Omitted image "create\_purchase\_requisition.png"\] Alt text: Purchase requisition.
 
 <table id="table_a5j_d3r_flb"><thead><tr><th>
 
@@ -46,7 +47,7 @@ Requisition type
 
 Indicates if this requisition is net new or a revision.The shopper can revise the quantity of the product or delivery location for on order from ShoppingHub or the buyer can submit a revision from the Sourcing and Purchasing Automation module.
 
-To understand how revisions are handled, see [Purchase revisions](purchase-revisions.md).
+To understand how revisions are handled, see [Purchase revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revisions.md).
 
 </td></tr><tr><td>
 
@@ -164,7 +165,7 @@ Shipping method
 
 </td><td>
 
-Details of the carrier, the applicable suppliers, and the valid delivery location countries for those suppliers.For more information on shipping methods and handling fees, see [Handling fees](../concept/handling-fees.md).
+Details of the carrier, the applicable suppliers, and the valid delivery location countries for those suppliers.For more information on shipping methods and handling fees, see [Handling fees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.md).
 
 </td></tr><tr><td>
 
@@ -259,7 +260,7 @@ Purchase Lines
 
 </td><td>
 
-Provides information of the individual lines under a purchase requisition for the referenced supplier. Handling fees, if applicable, are added as a purchase line for this purchase requisition. For more details, see [Purchase lines](purchase-lines.md).For information on shipping methods and handling fees, see [Handling fees](../concept/handling-fees.md).
+Provides information of the individual lines under a purchase requisition for the referenced supplier. Handling fees, if applicable, are added as a purchase line for this purchase requisition. For more details, see [Purchase lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-lines.md).For information on shipping methods and handling fees, see [Handling fees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.md).
 
 </td></tr><tr><td>
 
@@ -267,7 +268,7 @@ Purchasing Tasks
 
 </td><td>
 
-Provides information of all purchasing tasks that must be completed prior to creation of a purchase order​.For more details, see [Purchasing tasks and procurement cases](purchasing-tasks.md).
+Provides information of all purchasing tasks that must be completed prior to creation of a purchase order​.For more details, see [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
 
 </td></tr><tr><td>
 
@@ -358,11 +359,11 @@ Associated email communication that has been sent.
 -   sn\_shop.spend.requisition.autoorder
 -   sn\_shop.spend.requisition.autoorder.threshold
 
-    For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](../concept/pr-auto-order.md).
+    For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.md).
 
 -   sn\_shop.approval.reassessment.resend
 
-For the list of all purchasing properties, see [Purchasing properties](installed-with-FSC.md#section_fls_xdt_flb). If you have the role of a procurement administrator, you can access the Purchasing Properties module by navigating to **Sourcing and Purchasing Automation** &gt; **Administration**.
+For the list of all purchasing properties, see [Purchasing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/installed-with-FSC.md). If you have the role of a procurement administrator, you can access the Purchasing Properties module by navigating to **Sourcing and Purchasing Automation** &gt; **Administration**.
 
 The default states that are available for a purchase requisition are listed.
 
@@ -378,10 +379,10 @@ The default states that are available for a purchase requisition are listed.
 -   Pending Revision
 -   Pending Supplier Confirmation
 
-For a list of all purchase requisition states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md).
+For a list of all purchase requisition states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/pr-po-sr-states.md).
 
--   **[Handling fees](../concept/handling-fees.md)**  
+-   **[Handling fees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/handling-fees.md)**  
 As an administrator, you can configure the conditions of a purchase request, which when met, adds a handling fee to that purchase request. Any field on the Purchase Request table can be used as part of the conditions to determine if a handling fee is to be applied for a purchase.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

@@ -2,6 +2,7 @@
 title: Import sets key concepts
 description: Learn about import sets before importing data to your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_ImportSetsKeyConcepts.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -167,7 +168,7 @@ You can write custom JavaScript to parse input lines into the list of maps.
 |ServiceNow® REST \(Integration Hub\)|REST imports require a valid transform map.|
 |Custom \(Load by Script\)|Custom imports require a valid transform map.|
 
-For more details about the different data sources, see [Data sources](c_DataSources.md).
+For more details about the different data sources, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_DataSources.md).
 
 ## Transform maps versus robust import set transformers
 
@@ -181,9 +182,9 @@ By default, the job deletes all import sets that are older than 7 days, as well 
 
 **Note:** If scheduled cleanup is not currently active on your system, you must ensure that your import set tables are not too large \(&gt; 5 million records total across all tables\) before enabling this cleanup. If the tables are too large, manually delete the records first before proceeding. Contact Customer Service and Support to coordinate the deletion of this data.
 
-![Import Set Deleter.](../image/import-set-scheduled-cleanup.png "Scheduled Script Execution")
+\[Omitted image "import-set-scheduled-cleanup.png"\] Alt text: Import Set Deleter.
 
-For procedures, see [Delete import sets](../task/delete-import-sets.md).
+For procedures, see [Delete import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/delete-import-sets.md).
 
 ## Import set table deleter
 
@@ -196,9 +197,9 @@ You can manually delete any or all of the following import set tables:
 
 You can also delete the related transform maps, or you can delete data only and preserve the table structure.
 
-![Import set table deleter.](../image/cleanup-import-set-tables.png "Tables available for deletion")
+\[Omitted image "cleanup-import-set-tables.png"\] Alt text: Import set table deleter.
 
-For procedures, see [Delete import set tables](../task/delete-import-set-tables.md).
+For procedures, see [Delete import set tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/delete-import-set-tables.md).
 
-**Parent Topic:**[Import sets](../reference/import-sets-landing-page.md)
+**Parent Topic:**[Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
 

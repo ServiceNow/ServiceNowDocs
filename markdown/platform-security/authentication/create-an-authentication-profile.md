@@ -2,6 +2,7 @@
 title: Create an authentication profile
 description: Create an authentication profile and add one or more authentication policies to the profile. You can also configure the ID Token and OAuth Token authentication profiles that are available by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-an-authentication-profile.html
 release: australia
 product: Authentication
 classification: authentication
@@ -33,7 +34,7 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
     -   **Create standard http authentication profiles**
     -   **Create WSSE authentication profiles**
-    ![Authentication profile](../../inbound-soap/image/auth-profile.png)
+    \[Omitted image "auth-profile.png"\] Alt text: Authentication profile
 
 4.  On the form, fill in the fields.
 
@@ -48,7 +49,7 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 5.  Double-click **Insert a new row**.
 
-6.  Select an authentication policy from the list and select the save icon ![save icon](../images/green-checkmark.png).
+6.  Select an authentication policy from the list and select the save icon \[Omitted image "green-checkmark.png"\] Alt text: save icon.
 
     **Note:** Don’t select **Allow Access Policy** or **Deny Access Policy**. These policies are meant only for user logins.
 

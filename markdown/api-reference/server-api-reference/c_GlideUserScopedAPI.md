@@ -2,6 +2,7 @@
 title: GlideUser - Scoped
 description: The GlideUser API provides methods to access information about the current user and current user roles.Returns the current user's company sys\_id.Returns the current user's display name.Returns the user's email address.Returns the user's first name.Gets the sys\_id of the current user.Returns the user's last name.Returns the user ID, or login name, of the current user.Gets the specified user preference value for the current user.Returns a list of roles that includes explicitly granted roles, inherited roles, and roles acquired by group membership.Returns the current user's time zone label in the current user's preferred language.Returns the current user's time zone label in the specified language.Returns the list of roles explicitly granted to the user.Determines if the current user has the specified role.Determines if the current user is a member of the specified group.Saves a user preference value to the database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideUserScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideUser API provides methods to access information about the current user 
 
 Using the GlideUser API avoids the need to use the slower GlideRecord queries to get user information.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideUser - getCompanyID\(\)
 
@@ -177,7 +178,7 @@ gs.info(currentUser.getRoles());
 
 Returns the current user's time zone label in the current user's preferred language.
 
-For more information about setting a user's preferred language, see [User specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_UserSpecificLanguage.md).
+For more information about setting a user's preferred language, see .
 
 |Name|Type|Description|
 |----|----|-----------|

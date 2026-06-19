@@ -2,6 +2,7 @@
 title: Validate your ILMT connection health
 description: Validate the health of your ILMT connections to help improve the success of each connection. Use the results to evaluate how you can resolve unsuccessful connections, such as adjusting the connection response time or fixing errors related to invalid hardware serial numbers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/validate-ilmt-connection-health.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -34,5 +35,5 @@ Role required: sam\_admin
     For example, if a connection has failed due to a timeout issue, the **Information** field indicates that the connection has timed out. The **Information** field also suggests a recommended timeout value to help prevent the connection from failing again.
 
 
-**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](../concept/ibm-ilmt-bigfix-inventory-integration.md)
+**Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)
 

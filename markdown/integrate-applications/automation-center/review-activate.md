@@ -2,6 +2,7 @@
 title: Review and activate automation source
 description: Review all configurations for the automation source, and then activate the automation source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/review-activate.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Review all configurations for the automation source, and then activate the autom
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
-Proceed from the **Map source values** section. For information on aligning source and destination values, see [Map source values](map-values.md).
+Proceed from the **Map source values** section. For information on aligning source and destination values, see [Map source values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-values.md).
 
 ## Procedure
 
@@ -32,5 +33,5 @@ Proceed from the **Map source values** section. For information on aligning sour
     The **Automation sources** list is displayed with the newly created automation source.
 
 
-**Parent Topic:**[Create an automation source](create-auto-source.md)
+**Parent Topic:**[Create an automation source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-auto-source.md)
 

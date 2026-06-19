@@ -2,6 +2,7 @@
 title: Advanced Work Assignment roles
 description: Advanced Work Assignment \(AWA\) is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-roles.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -15,5 +16,5 @@ breadcrumb: [Reference, Advanced Work Assignment, Manage people and work, Conver
 
 Advanced Work Assignment \(AWA\) is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 

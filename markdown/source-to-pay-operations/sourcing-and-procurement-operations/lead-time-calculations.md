@@ -2,6 +2,7 @@
 title: Lead time calculations
 description: Lead time \(in days\) of a supplier product consist of the time for sourcing, supplier onboarding, purchasing, and shipping for a supplier product, product model, or a product category. Each of these durations are used to calculate the total lead time which determines the number of days to execute a purchase order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -273,5 +274,5 @@ The total lead time of a supplier product is recalculated every time the values 
 
 **Note:** All the lead times are recalculated and refreshed after completion of each purchase requisition. For these calculations, only the purchase requisition data of the recent 12 months is considered.
 
-**Parent Topic:**[Setting up primary data for ShoppingHub](set-up-master-data-shopping-hub.md)
+**Parent Topic:**[Setting up primary data for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/set-up-master-data-shopping-hub.md)
 

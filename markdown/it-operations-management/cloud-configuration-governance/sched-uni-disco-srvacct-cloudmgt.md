@@ -2,6 +2,7 @@
 title: Schedule discovery of all resources in a service account
 description: Add a custom schedule for Discovery to discover all resources in each datacenter in a service account and then update the CMDB with the new information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/sched-uni-disco-srvacct-cloudmgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -24,7 +25,7 @@ Role required: sn\_cmp.cloud\_admin
 
 ## About this task
 
--   Scheduled [Cloud Discovery](../../discovery/concept/cloud-discovery-wizard.md) discovers only datacenters that are part of the service account when the schedule is created. If datacenters have been added since the time you created the schedule, Discovery does not discover those datacenters. Delete the old schedule and create a schedule every time the datacenters in a service account change.
+-   Scheduled [Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-wizard.md) discovers only datacenters that are part of the service account when the schedule is created. If datacenters have been added since the time you created the schedule, Discovery does not discover those datacenters. Delete the old schedule and create a schedule every time the datacenters in a service account change.
 -   Discovery populates the CMDB with the discovered resources and updates the resource information on the **Resources** tab. You can view Discovery results on the **Discovery Log** tab.
 
 **Important:** Use the Cloud Discovery Workspace to run the discovery schedule. The discover datacenter UI action is legacy and the preferred approach is to setup schedules from CDW.
@@ -171,12 +172,12 @@ If you configured a Discovery schedule, it appears in the Discovery Config - Log
 
 Open a datacenter record to see the relationships between the datacenter and the resources in the datacenter.
 
-![Resources in an AWS datacenter](../../cloud-management-v2/image/discovered-datacenter-example.png "Resources in an AWS datacenter")
+\[Omitted image "discovered-datacenter-example.png"\] Alt text: Resources in an AWS datacenter
 
-**Note:** By default, Discovery stores the discovered VM hardware types in the Hardware Type \[cmdb\_ci\_compute\_template\] table. If you notice an unusually large number of records in this table, use the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table to store the discovered VM hardware types. For more information, see [Enable the Cloud Hardware Type class extension](../../discovery/task/enable-hardware-type-class-extension.md). All Cloud Provisioning and Governance features, such as provisioning, quotas, and so on continue to work as is after you switch to the Cloud Hardware Type table.
+**Note:** By default, Discovery stores the discovered VM hardware types in the Hardware Type \[cmdb\_ci\_compute\_template\] table. If you notice an unusually large number of records in this table, use the Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table to store the discovered VM hardware types. For more information, see [Enable the Cloud Hardware Type class extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/enable-hardware-type-class-extension.md). All Cloud Provisioning and Governance features, such as provisioning, quotas, and so on continue to work as is after you switch to the Cloud Hardware Type table.
 
 ## What to do next
 
 -   To view discovery status, discovery logs, discovered devices, and the ECC queue, click **Advanced View**.
--   If Discovery fails, check the Cloud Discovery results on the [Discovery Home page](../../discovery/concept/discovery-home-page.md#).
+-   If Discovery fails, check the Cloud Discovery results on the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-home-page.md).
 

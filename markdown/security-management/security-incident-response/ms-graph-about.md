@@ -2,6 +2,7 @@
 title: Microsoft Graph Security API alert ingestion integration
 description: Use the Microsoft Graph Security API integration to ingest alerts from Microsoft Graph security providers and automatically create security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-about.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

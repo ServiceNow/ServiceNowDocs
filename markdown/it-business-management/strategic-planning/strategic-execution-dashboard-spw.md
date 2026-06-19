@@ -2,11 +2,12 @@
 title: Strategy Execution Dashboard in Strategic Planning Workspace
 description: The Strategy Execution Dashboard helps portfolio managers monitor the alignment between strategy and business outcomes, and quickly assess goal progress to ensure high-impact delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/strategic-execution-dashboard-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -19,7 +20,7 @@ The Strategy Execution Dashboard provides various analytics through the tabs and
 
 ## Strategic Overview tab in the Strategy Execution Dashboard
 
-![Strategy Execution Dashbaord-Strategic Overview in Strategic Planning.](../Images/strategy-execution-dashboard-strategic-spw.gif)
+\[Omitted image "strategy-execution-dashboard-strategic-spw.gif"\] Alt text: Strategy Execution Dashbaord-Strategic Overview in Strategic Planning.
 
 |Widget/Visualization|Description|
 |--------------------|-----------|
@@ -31,7 +32,7 @@ The Strategy Execution Dashboard provides various analytics through the tabs and
 
 ## Execution tab in the Strategy Execution Dashboard
 
-![Strategy Execution Dashbaord-Execution Hub in Strategic Planning](../Images/strategy-execution-dashboard-execution-spw.gif)
+\[Omitted image "strategy-execution-dashboard-execution-spw.gif"\] Alt text: Strategy Execution Dashbaord-Execution Hub in Strategic Planning
 
 |Widget/Visualization|Description|
 |--------------------|-----------|
@@ -56,5 +57,5 @@ The Strategy Execution Dashboard provides various analytics through the tabs and
 |Resource Assignments Ready for Review|Visualization of resource assignments count that is ready for review.|
 |Upcoming Items with Resource Assignments That Are Unassigned, Unapproved, or Pending|List of upcoming planning items whose resource assignments status is Unassigned, Unapproved, or Pending.|
 
-**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](exploring-dashboards-spw.md)
+**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/exploring-dashboards-spw.md)
 

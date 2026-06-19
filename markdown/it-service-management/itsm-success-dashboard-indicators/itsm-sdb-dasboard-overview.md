@@ -2,6 +2,7 @@
 title: ITSM Success Dashboard indicators components
 description: Analyze the performance and self-solve data visually and drive business outcomes with the help of the dashboard components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/itsm-sdb-dasboard-overview.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -21,7 +22,7 @@ With the Now Assist for Success Dashboard, you can summarize the chat conversati
 
 The **Self-solved using QnA** KPI in the ITSM Success Dashboard uses Now Assist and AI search QnA as contributing indicators. You can interact with a Virtual Agent, read the Knowledge base article, get a summarized/succinct response by Now LLM in Virtual Agent or on the portal. This interaction, subsequently does not create an incident, access any knowledge base article, or interact with a live agent in the next 24 hours.
 
-To update the live agent script include see, [Update the live agent script include](../task/update-live-agent-script-include.md).
+To update the live agent script include see, [Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md).
 
 ## Proactive Engagement for DEX
 
@@ -40,27 +41,27 @@ As an admin, you see the role-specific variant of the landing page. Admin landin
 
 ## Performance overview in the ITSM Success Dashboard indicators
 
-Measure the key performance indicators \(KPIs\) like Self-solved percentage, Call deflection percentage, Requests completed, and Successful predictions on the **Performance overview** tab. For more information, see [ITSM Success Dashboard KPI definitions and formulas](sd-kpi-formulae.md).
+Measure the key performance indicators \(KPIs\) like Self-solved percentage, Call deflection percentage, Requests completed, and Successful predictions on the **Performance overview** tab. For more information, see [ITSM Success Dashboard KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md).
 
-![Success Dashboard showing the Performance overview tab.](../image/itsm-sd-landing-page-nov23.png)
+\[Omitted image "itsm-sd-landing-page-nov23.png"\] Alt text: Success Dashboard showing the Performance overview tab.
 
 ## Service quality in the ITSM Success Dashboard indicators
 
-Measure the key performance indicators \(KPIs\) like Customer satisfaction score, Mean time to resolve, % Breached SLA, and % First assignment resolution on the **Service quality** tab. For more information, see [ITSM Success Dashboard KPI definitions and formulas](sd-kpi-formulae.md).
+Measure the key performance indicators \(KPIs\) like Customer satisfaction score, Mean time to resolve, % Breached SLA, and % First assignment resolution on the **Service quality** tab. For more information, see [ITSM Success Dashboard KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md).
 
-![Success Dashboard showing the Service quality tab.](../image/service-quality-nov23.png)
+\[Omitted image "service-quality-nov23.png"\] Alt text: Success Dashboard showing the Service quality tab.
 
 ## Cost savings in the ITSM Success Dashboard indicators
 
 View the overall estimated cost saved by using the ITSM Success Dashboard capabilities for Knowledge articles, Predictive Intelligence, Virtual Agent conversations, and Catalog submissions.
 
-![Cost savings displayed on the Performance overview tab.](../image/cost-savings-nov23.png)
+\[Omitted image "cost-savings-nov23.png"\] Alt text: Cost savings displayed on the Performance overview tab.
 
 ## Scorecards in the ITSM Success Dashboard indicators
 
 View the aggregation of the daily values for KPIs in the selected period in the scorecards with the following information.
 
-![Scorecards for Self solved percentage.](../image/sdb-widgets.png "Scorecard widget")
+\[Omitted image "sdb-widgets.png"\] Alt text: Scorecards for Self solved percentage.
 
 -   **Current period score**: View the aggregated score for the current time period. Select one of the following options:
     -   **Monthly:** View the data aggregated monthly. For counts, this data is the monthly sum of the daily values. For percentages, this data is the monthly average of the daily percentages.
@@ -72,15 +73,15 @@ View the aggregation of the daily values for KPIs in the selected period in the 
 
 Use the info icons to view the short description of the indicator and understand how the indicator value is calculated.
 
-![Details of info icon](../image/sdb-widget-info.png "Info icon")
+\[Omitted image "sdb-widget-info.png"\] Alt text: Details of info icon
 
 ## Trends in the ITSM Success Dashboard indicators
 
 View the trend of the aggregated scores for the selected metric scorecard.
 
-![Call deflection percentage trend example.](../image/sdb-trend-1.png "Call deflection trend")
+\[Omitted image "sdb-trend-1.png"\] Alt text: Call deflection percentage trend example.
 
-![structured tickets completed trend.](../image/sdb-structured-trend.png "Structured tickets completed trend")
+\[Omitted image "sdb-structured-trend.png"\] Alt text: structured tickets completed trend.
 
 ## View details in the ITSM Success Dashboard indicators
 
@@ -88,29 +89,29 @@ See the constituent drill-down views and their contextual descriptions for KPIs.
 
 -   View the primary indicators.
 
-    ![Information on view details breakdown.](../image/sdb-view-details.png "Top-level primary indicators")
+    \[Omitted image "sdb-view-details.png"\] Alt text: Information on view details breakdown.
 
-    You can replace or add new indicators to suit your implementation in addition to the base system indicators. See [Configure Success Dashboard indicators KPIs](../task/config-kpis-sdb.md) for more details.
+    You can replace or add new indicators to suit your implementation in addition to the base system indicators. See [Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md) for more details.
 
 -   View the contributing indicators.
 
-    ![Second-level contributing indicators.](../image/second-level-kpis-sdb.png "Second-level contributing indicators")
+    \[Omitted image "second-level-kpis-sdb.png"\] Alt text: Second-level contributing indicators.
 
     You can view a graph of the contributing indicators scores over time along with the KPI value.
 
 -   View the record-level breakdown.
 
-    ![Record-level information on view details breakdown.](../image/view-record-level-sdb.png "Record-level breakdown indicators")
+    \[Omitted image "view-record-level-sdb.png"\] Alt text: Record-level information on view details breakdown.
 
 
-This level of drill down helps you view the record-level details of the indicator when you have the `sn_sd.success_dashboard_details_read` user permissions. See [KPI details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md) for more information.
+This level of drill down helps you view the record-level details of the indicator when you have the `sn_sd.success_dashboard_details_read` user permissions. See KPI details for more information.
 
 ## View cost saving details in the ITSM Success Dashboard indicators
 
 Enable Cost savings and view the drill-down views and their contextual descriptions for KPIs. The detailed information can be viewed by selecting **View Details**.
 
--   View the primary indicators:![First-level cost savings indicators.](../image/cost-savings-first-level.png)
--   Second-level contributing indicators ![Contributing indicators impacting cost savings.](../image/second-level-cost-savings.png)
+-   View the primary indicators:\[Omitted image "cost-savings-first-level.png"\] Alt text: First-level cost savings indicators.
+-   Second-level contributing indicators \[Omitted image "second-level-cost-savings.png"\] Alt text: Contributing indicators impacting cost savings.
 
 ## Contextual side panel in the ITSM Success Dashboard indicators
 
@@ -118,19 +119,19 @@ View the contextual formula and definitions, insights, and cost savings in the *
 
 More Information side panel.
 
-![Side panel with more information.](../image/more-info.png)
+\[Omitted image "more-info.png"\] Alt text: Side panel with more information.
 
 ## Insights side panel
 
 View the insights of the KPIs.
 
-![Insights side panel displaying the Self solved percentage.](../image/more-info-insights.png)
+\[Omitted image "more-info-insights.png"\] Alt text: Insights side panel displaying the Self solved percentage.
 
 ## Cost Savings side panel
 
 View the amount saved for the KPI.
 
-![Cost Savings panel displaying the KPI details.](../image/more-info-cost-savings.png)
+\[Omitted image "more-info-cost-savings.png"\] Alt text: Cost Savings panel displaying the KPI details.
 
 ## View process insights on the ITSM Success Dashboard
 
@@ -146,7 +147,7 @@ The Operational Success dashboard provides a consolidated view of the end-to-end
 
 The dashboard showcases a snapshot of the performances for the Incident, Major Incident, Change, Request, Service Catalog, Interaction, Problem, and On-Call Scheduling applications. These indicators help teams and the leadership focus on areas that have an impact on business outcomes.
 
-![Operational Success dashboard showing the Service Catalog tab.](../image/operational-success.png)
+\[Omitted image "operational-success.png"\] Alt text: Operational Success dashboard showing the Service Catalog tab.
 
-**Parent Topic:**[Exploring ITSM Success Dashboard indicators](explore-success-dashboard-indicators.md)
+**Parent Topic:**[Exploring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md)
 

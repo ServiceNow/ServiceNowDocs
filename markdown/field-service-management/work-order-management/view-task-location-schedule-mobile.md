@@ -2,6 +2,7 @@
 title: Plan your schedule
 description: View tasks to be executed as well as your personal events on a particular day to plan your schedule for that day. Add events for yourself and display your availability to team members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-task-location-schedule-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -45,7 +46,7 @@ The task list displays the following information for each work order task:
 
 6.  Add or edit a personal event.
 
-    1.  Tap the more actions \( ![More actions icon](../image/OverflowIcon.png)\) icon and select **Create Event**.
+    1.  Tap the more actions \( \[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and select **Create Event**.
     2.  Fill in the following fields:
 
 <table id="table_jmn_qtj_4gb"><thead><tr><th>

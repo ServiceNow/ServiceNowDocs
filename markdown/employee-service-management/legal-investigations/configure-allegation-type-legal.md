@@ -2,6 +2,7 @@
 title: Configure an allegation type and its subtypes
 description: Configure allegation types and allegation subtypes that the legal fulfillers working on complaints can choose when adding new allegations during investigations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/configure-allegation-type-legal.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -31,7 +32,7 @@ Role required: sn\_lg\_investigate.config or admin
 
 4.  Select the **Active** option to enable the allegation type.
 
-    Only active allegation types are listed in the **Allegation type** field on the [Allegation form](add-allegation-matter.md) of a legal matter.
+    Only active allegation types are listed in the **Allegation type** field on the [Allegation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/add-allegation-matter.md) of a legal matter.
 
 5.  Save the allegation type.
 

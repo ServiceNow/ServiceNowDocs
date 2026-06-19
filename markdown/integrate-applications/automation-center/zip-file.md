@@ -2,6 +2,7 @@
 title: Generate a report using a ZIP file
 description: Generate a migration report using all the files that you have on your local system in a zip file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/zip-file.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -21,7 +22,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 ## Procedure
 
-1.  Follow steps 1 through 4 in the [Generate report](../concept/generate-report.md) section.
+1.  Follow steps 1 through 4 in the [Generate report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-report.md) section.
 
 2.  On step 4, select the **Upload ZIP \(with XAML file\)** option.
 
@@ -36,5 +37,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
     The report is generated.
 
 
-**Parent Topic:**[Generate report](../concept/generate-report.md)
+**Parent Topic:**[Generate report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/generate-report.md)
 

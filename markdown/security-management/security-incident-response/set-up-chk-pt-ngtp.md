@@ -2,6 +2,7 @@
 title: Set up the Check Point NGTP integration
 description: Complete the following steps to set up the Check Point Next Generation Threat Prevention integration. This would ensure that the pre-requisites for the integration to work are in place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-chk-pt-ngtp.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -31,11 +32,11 @@ Role required: admin
 
     2.  Navigate to **Security Policies** &gt; **Threat Prevention** &gt; **Policy**.
 
-        ![Policy](../image/policy.png)
+        \[Omitted image "policy.png"\] Alt text: Policy
 
     3.  Open the Threat Prevention Policy in Edit Mode.
 
-        ![Edit Policy](../image/edit-policy.png)
+        \[Omitted image "edit-policy.png"\] Alt text: Edit Policy
 
     4.  Active Protections → Severity should be “Medium or above”
 
@@ -43,7 +44,7 @@ Role required: admin
 
     6.  Blades Activation à Anti-Virus and Anti-Bot should be selected.
 
-        ![Policies optimized](../image/policies-optimized.png)
+        \[Omitted image "policies-optimized.png"\] Alt text: Policies optimized
 
     7.  Publish the changes \(if any\) and Install the Policy.
 
@@ -59,11 +60,11 @@ Role required: admin
 
     2.  Navigate to **Servers and Gateways**, and double-click on the applicable server.
 
-        ![Servers and gateways](../image/servers-and-gateways.png)
+        \[Omitted image "servers-and-gateways.png"\] Alt text: Servers and gateways
 
     3.  Navigate to **Network Management** &gt; **Proxy**.
 
-        ![Network Management proxy](../image/network-mgmt-proxy.png)
+        \[Omitted image "network-mgmt-proxy.png"\] Alt text: Network Management proxy
 
     4.  Provide the Proxy Details to be used for routing the HTTP traffic.
 
@@ -79,7 +80,7 @@ Role required: admin
 
     3.  Navigate to **HTTPS Inspection**.
 
-        ![HTTPS inspection](../image/https-nspection.png)
+        \[Omitted image "https-nspection.png"\] Alt text: HTTPS inspection
 
     4.  Follow the [steps to configure HTTPS Inspection](https://sc1.checkpoint.com/documents/R80.10/WebAdminGuides/EN/CP_R80.10_NexGenSecurityGateway_Guide/html_frameset.htm?topic=documents/R80.10/WebAdminGuides/EN/CP_R80.10_NexGenSecurityGateway_Guide/13700) in the Check Point User Guide.
 

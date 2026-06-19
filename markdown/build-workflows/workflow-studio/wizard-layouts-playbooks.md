@@ -2,6 +2,7 @@
 title: Wizard layouts for playbooks
 description: Wizard layouts present a playbook as a guided, step-by-step experience that helps end users complete a process in a clear and structured way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/wizard-layouts-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -37,12 +38,12 @@ In a wizard layout:
 -   Navigation controls guide users between activities.
 -   Completion rules ensure that required information is provided before users proceed.
 
-![Playbook wizard layout](../images/playbk-wizard-layout.png "Playbook wizard layout")
+\[Omitted image "playbk-wizard-layout.png"\] Alt text: Playbook wizard layout
 
 The underlying playbook logic and activity configuration remain the same. The wizard layout changes how the playbook is presented to end users, not what the playbook does.
 
--   **[Configure a wizard layout for a playbook](../task/add-wizard-layout-playbooks.md)**  
+-   **[Configure a wizard layout for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-wizard-layout-playbooks.md)**  
 Configure a wizard layout that presents a playbook as a guided, step-by-step experience for end users.
 
-**Parent Topic:**[Designing Playbook Experience](../../workspace/concept/playbook-experience-admins.md)
+**Parent Topic:**[Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-experience-admins.md)
 

@@ -2,6 +2,7 @@
 title: Configure confidentiality in GRC tables
 description: You can create a confidentiality configuration record in your GRC tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-confidentilaity-on-grc-tables.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -35,9 +36,9 @@ For more information, see [KB1497382](https://support.servicenow.com/kb?id=kb_ar
 
 2.  In the new confidential configuration form, fill in the fields that are required for enabling confidentiality for the GRC tables.
 
-    For more information about the fields, see [Confidentiality configuration form](../reference/confidentiality-configuration-form.md).
+    For more information about the fields, see [Confidentiality configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/confidentiality-configuration-form.md).
 
-    ![Confidentiality configuration record.](../image/confidential-configuration.png "Confidentiality configuration record")
+    \[Omitted image "confidential-configuration.png"\] Alt text: Confidentiality configuration record.
 
 3.  Select **Submit**.
 
@@ -46,8 +47,8 @@ For more information, see [KB1497382](https://support.servicenow.com/kb?id=kb_ar
 
 Confidentiality is enabled for the GRC table that you selected.
 
--   **[Confidentiality configuration form](../reference/confidentiality-configuration-form.md)**  
+-   **[Confidentiality configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/confidentiality-configuration-form.md)**  
 The Confidentiality configuration form is used for the configuration of the confidential records for your GRC tables.
 
-**Parent Topic:**[Confidential records](../concept/confidential-records.md)
+**Parent Topic:**[Confidential records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/confidential-records.md)
 

@@ -2,6 +2,7 @@
 title: Sales CRM Pricing - DELETE - /api/sn\_csm\_pricing/v1/pricingengine/pricing\_context/\{pricing\_context\_id\}
 description: Terminate a session with a given ID that was established during a configurator session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/sales\_crm\_pricing-DELETE-pricing-context-id.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -58,7 +59,7 @@ ID from pricing engine request when scope is configurator.
 
 ## Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](../concept/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -85,7 +86,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ## Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](../concept/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -105,5 +106,5 @@ curl -i -X DELETE \
 --user 'username:password'
 ```
 
-**Parent Topic:**[Sales CRM Pricing API](../concept/sales-crm-pricing-api.md)
+**Parent Topic:**[Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales-crm-pricing-api.md)
 

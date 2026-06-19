@@ -2,6 +2,7 @@
 title: Control the conditions for a page variant
 description: Set the conditions and manage the criteria that determine when a page variant is displayed. UI Builder page variants enable you to create different versions of a page to tailor content for a specific audience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/control-conditions-for-your-variant.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -27,7 +28,7 @@ If you have multiple page variants that all have the same conditions, the varian
 
 1.  Create a page variant.
 
-    For more information, see [Create a page variant](create-variant.md).
+    For more information, see [Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md).
 
 2.  Set the conditions for a new variant.
 
@@ -43,7 +44,7 @@ If you have multiple page variants that all have the same conditions, the varian
 
         Notice that **table** and **sysId** are added as required parameters, which appear in the URL preview.
 
-        ![Required parameters 'table' and 'sysId' along with the URL preview for the page.](../image/control-conditions-parameters.png)
+        \[Omitted image "control-conditions-parameters.png"\] Alt text: Required parameters 'table' and 'sysId' along with the URL preview for the page.
 
     4.  On the **Tell us about your variant** screen, enter a name for your variant.
 
@@ -100,7 +101,7 @@ The number, text, or option input that you want to compare with the parameter.
 </td></tr></tbody>
 </table>        **Note:** The **table** and **sysId** parameters are available options for the **Parameter** field because they're required parameters as a part of the **Standard record** template.
 
-        ![Tell us about your variant screen with 'Name' set to 'Task', 'Parameter' to 'table', 'Operator' to 'is', and 'Value' to 'task'.](../image/control-conditions-fields.png)
+        \[Omitted image "control-conditions-fields.png"\] Alt text: Tell us about your variant screen with 'Name' set to 'Task', 'Parameter' to 'table', 'Operator' to 'is', and 'Value' to 'task'.
 
     6.  Select **Create**.
 
@@ -120,22 +121,22 @@ The number, text, or option input that you want to compare with the parameter.
 
         The condition you previously set appears. You can update these fields.
 
-    4.  On the **Edit variant conditions** screen, next to the condition, select the **and**\(![Button labeled 'and'.](../image/control-conditions-and-button.png)\) or **or**\(![Button labeled 'or'.](../image/control-conditions-or-button.png)\) button to add another condition and specify the criteria.
+    4.  On the **Edit variant conditions** screen, next to the condition, select the **and**\(\[Omitted image "control-conditions-and-button.png"\] Alt text: Button labeled 'and'.\) or **or**\(\[Omitted image "control-conditions-or-button.png"\] Alt text: Button labeled 'or'.\) button to add another condition and specify the criteria.
 
         For example, by adding the following **AND** condition \(**\[sysId\]** **\[is\]** `[abcd1234]`\), you configure the page variant to display when you access a record from the Task table with a sys\_id of abcd1234.
 
         **Note:** You can add **AND** or **OR** conditions. To mix both types, you must write an encoded query.
 
-        ![Page variant conditions with 'table = task' AND 'sysId = abcd1234'.](../image/control-conditions-and.png)
+        \[Omitted image "control-conditions-and.png"\] Alt text: Page variant conditions with 'table = task' AND 'sysId = abcd1234'.
 
     5.  Select **Enter as text** to write an encoded query that specifies the criteria.
 
         The **Edit variant conditions** screen displays the encoded query field, where the conditions you previously set are shown in encoded query form: `table=task^sysId=abcd1234`.
 
-        For example, by adding the following 'OR' condition \(`^ORsysId=efgh5678`\), you set the page variant to display when you access a record from the Task table with a sys\_id of either abcd1234 or efgh5678. For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+        For example, by adding the following 'OR' condition \(`^ORsysId=efgh5678`\), you set the page variant to display when you access a record from the Task table with a sys\_id of either abcd1234 or efgh5678. For more information on writing encoded queries, see .
 
-        ![Edit variant conditions screen displaying encoded query 'table=task^sysId=abcd1234^ORsysId=efgh5678' in the field.](../image/control-conditions-or.png)
+        \[Omitted image "control-conditions-or.png"\] Alt text: Edit variant conditions screen displaying encoded query 'table=task^sysId=abcd1234^ORsysId=efgh5678' in the field.
 
 
-**Parent Topic:**[Create a page variant](create-variant.md)
+**Parent Topic:**[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-variant.md)
 

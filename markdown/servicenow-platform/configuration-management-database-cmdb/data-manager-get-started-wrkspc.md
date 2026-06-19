@@ -2,6 +2,7 @@
 title: Get started with CMDB Data Manager
 description: The Data Manager overview page in CMDB Workspace and in Service Graph Workspace provides a dashboard view of Data Manager tasks, and lets you get started in using the CMDB Data Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-manager-get-started-wrkspc.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -67,9 +68,9 @@ Role required: sn\_cmdb\_admin
 
 ## What to do next
 
--   [Create a CMDB Data Manager policy](data-manager-create-policy-wrkspc.md).
--   [Manage retirement definitions for CMDB Data Manager](data-manager-manage-ret-def-wrkspc.md#).
--   [Manage exclusion lists for CMDB Data Manager](data-mgr-manage-ci-exclusion-wrkspc.md).
--   [View CMDB Data Manager analytics](data-manager-view-analytics-wrkspc.md).
--   View properties and other settings for CMDB Data Manager by selecting **Settings** in the left navigation pane. For details about the system properties associated with those settings, see [Components related to CMDB Data Manager](../reference/components-cmdb-data-manager.md).
+-   [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+-   [Manage retirement definitions for CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md).
+-   [Manage exclusion lists for CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-mgr-manage-ci-exclusion-wrkspc.md).
+-   [View CMDB Data Manager analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-view-analytics-wrkspc.md).
+-   View properties and other settings for CMDB Data Manager by selecting **Settings** in the left navigation pane. For details about the system properties associated with those settings, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 

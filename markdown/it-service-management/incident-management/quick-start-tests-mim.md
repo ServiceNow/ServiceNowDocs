@@ -2,6 +2,7 @@
 title: Quick start tests for Major Incident Management
 description: Validate that Major Incident Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/quick-start-tests-mim.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -38,12 +39,12 @@ Major Incident Management quick start tests require activating the Incident Mana
 |MIM: Major Incident workbench layout verification|Test is to verify Major Incident workbench layout verification.|Orlando|
 |MIM: Verify communication task from MI workbench|Test is to verify communication task from MI workbench.|Orlando|
 
-To learn more about Major Incident Management, see [Major Incident Management](../../../product/incident-management/concept/major-incident-management.md).
+To learn more about Major Incident Management, see [Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md).
 
-**Parent Topic:**[Managing major incidents](../../../product/incident-management/concept/major-incident-management.md)
+**Parent Topic:**[Managing major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-management.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

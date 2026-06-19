@@ -2,6 +2,7 @@
 title: Downgrade a license using the legacy Software Asset Management plugin
 description: Use the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin to downgrade a software license through one of two methods: through a software model record or through a software license record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_DowngradingALicense.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -52,8 +53,8 @@ Role required: sam
     6.  Click **Submit**.
 
 
--   **[Identify a downgrade child from a software license record using the legacy Software Asset Management plugin](t_IdentifyADGChildFromASWLicRec.md)**  
+-   **[Identify a downgrade child from a software license record using the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_IdentifyADGChildFromASWLicRec.md)**  
 Use the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin to identify a downgrade child from a software license record.
 
-**Parent Topic:**[License upgrade and downgrade with the legacy Software Asset Management plugin](../concept/c_UpgradingAndDowngradingLicenses.md)
+**Parent Topic:**[License upgrade and downgrade with the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UpgradingAndDowngradingLicenses.md)
 

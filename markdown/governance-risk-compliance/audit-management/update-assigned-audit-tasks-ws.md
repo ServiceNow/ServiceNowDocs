@@ -2,11 +2,12 @@
 title: Update other assigned audit tasks in Audit Workspace
 description: Update the audit tasks such as walkthroughs and interviews that are assigned to you when you get a notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/update-assigned-audit-tasks-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-04"
 reading_time_minutes: 1
 breadcrumb: [Audit Workspace for the Auditor, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -27,18 +28,18 @@ Audit tasks are completed throughout an engagement and provide documented eviden
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Click the tasks icon \(![Tasks icon.](../image/TasksIcon.jpg)\).
+2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
 
     The workspace opens listing **All** tasks in the **My pending tasks** tab. You can view **All – Audit tasks** assigned to you.
 
-3.  Click the audit task record either an interview, activity, or a walkthrough that you want to update in the **Name** column.
+3.  Select the audit task record either an interview, activity, or a walkthrough that you want to update in the **Name** column.
 
     The record opens in the **Overview** tab displaying the workflow of its state.
 
-4.  Click the **Details** tab to review and update the audit task details.
+4.  Select the **Details** tab to review and update the audit task details.
 
     In addition to entering other details, you can also move the state of the audit task to **Work In Progress**, **Review**, or **Close Complete**.
 
-5.  Click **Save**.
+5.  Select **Save**.
 
 

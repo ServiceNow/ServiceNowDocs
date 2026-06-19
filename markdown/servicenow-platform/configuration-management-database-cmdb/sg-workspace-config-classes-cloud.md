@@ -2,6 +2,7 @@
 title: Configure classes for Cloud vs Non-cloud resources in Service Graph Workspace
 description: Include or exclude pairs of CI Class/Type in the Cloud vs Non-cloud resources chart that appears in the Insights view in Service Graph Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-config-classes-cloud.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

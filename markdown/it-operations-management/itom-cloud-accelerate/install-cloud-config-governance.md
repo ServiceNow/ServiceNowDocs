@@ -2,6 +2,7 @@
 title: Install Cloud Configuration Governance
 description: You can install the Cloud Configuration Governance application \(com.sn.itom.ccg\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/install-cloud-config-governance.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -33,7 +34,7 @@ Cloud Configuration Governance uses the ServiceNow® ITOM Cloud Accelerate subsc
 
     You can search for the application by its name or ID. If you can’t find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the application installation dialog box, review the application dependencies.
 
@@ -44,7 +45,7 @@ Cloud Configuration Governance uses the ServiceNow® ITOM Cloud Accelerate subsc
 
 ## What to do next
 
-To access the base system contents such as policies, configuration collectors, remediations, and more, install the CCG Content Pack application. For more information, see [Install CCG Content Pack](install-ccg-content-pack.md).
+To access the base system contents such as policies, configuration collectors, remediations, and more, install the CCG Content Pack application. For more information, see [Install CCG Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/install-ccg-content-pack.md).
 
-**Parent Topic:**[Exploring Cloud Configuration Governance](../concept/exploring-cloud-configuration-governance.md)
+**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/exploring-cloud-configuration-governance.md)
 

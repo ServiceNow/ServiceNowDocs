@@ -2,6 +2,7 @@
 title: Retrieve existing incidents
 description: Use a GET request to view existing incident records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t\_GetStartedRetrieveExisting.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -31,7 +32,7 @@ Use the REST API Explorer to send the following request:
 
 2.  Click **Retrieve records from a table \(GET\)**.
 
-    For more information about this API endpoint, see [Table - GET /now/table/\{tableName\}](../concept/c_TableAPI.md#).
+    For more information about this API endpoint, see [Table - GET /now/table/\{tableName\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
 
 3.  In the Path Parameters section, select the **Incident \(incident\)** table.
 
@@ -41,8 +42,8 @@ Use the REST API Explorer to send the following request:
 
     The response also indicates the **Status code** and **Execution time** \(in milliseconds\) of the request.
 
-    ![REST API Explorer GET response](../image/rest-api-exp-get-response.png)
+    \[Omitted image "rest-api-exp-get-response.png"\] Alt text: REST API Explorer GET response
 
 
-**Parent Topic:**[Use the REST API Explorer](../concept/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

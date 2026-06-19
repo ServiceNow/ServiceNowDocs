@@ -2,6 +2,7 @@
 title: Edit a published control objective
 description: Revise a published control objective by creating a staging record, drafting changes, and publishing them after approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/task\_edit\_published\_cob.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

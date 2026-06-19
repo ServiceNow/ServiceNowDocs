@@ -2,6 +2,7 @@
 title: Create workplace reservations for an employee
 description: Create workplace reservations for an employee in the Workplace Core application using the shifts and shift schedules that you defined.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/reserve-workspaces-for-employees-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -17,13 +18,13 @@ Create workplace reservations for an employee in the Workplace Core application 
 
 ## Before you begin
 
--   [Define shifts for your workplace](create-shifts-wsd.md).
--   [Assign employees to a shift](associate-employees-with-shifts-wsd.md).
--   [Associate areas and spaces with a shift](associate-workspaces-with-shifts-wsd.md).
--   [Define the capacity of workplace areas](define-capacity-of-workplace-areas-wsd.md)
+-   [Define shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-shifts-wsd.md).
+-   [Assign employees to a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/associate-employees-with-shifts-wsd.md).
+-   [Associate areas and spaces with a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/associate-workspaces-with-shifts-wsd.md).
+-   [Define the capacity of workplace areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/define-capacity-of-workplace-areas-wsd.md)
 -   Ensure you have the data that shows the mapping of employees to the workplaces in your workplace.
 
-**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see Configure a catalog in Service Portal.
 
 Role required: sn\_wsd\_core.workplace\_manager
 
@@ -106,5 +107,5 @@ Date and time until which the reservation remains active.
 -   A preconfigured email with the reservation details is sent to the shift owner and the employee for whom you reserved the workplace.
 -   The reservation is added to the list of all reservations that you can view by navigating to **Workplace Core** &gt; **Space Reservations** &gt; **All Reservations**.
 
-**Parent Topic:**[Managing workplace reservations for employees](../concept/managing-workplace-reservations-wsd.md)
+**Parent Topic:**[Managing workplace reservations for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-workplace-reservations-wsd.md)
 

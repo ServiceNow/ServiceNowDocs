@@ -2,6 +2,7 @@
 title: Find a responsive dashboard
 description: Use dashboard categories, dashboard groups, and dashboard lists to find the dashboard you want to use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/find-resp-db.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -18,15 +19,15 @@ Use dashboard categories, dashboard groups, and dashboard lists to find the dash
 
 ## Before you begin
 
-**Note:** This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Dashboards in the library](../concept/find-dashboard-library.md).
+**Note:** This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Dashboards in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/find-dashboard-library.md).
 
-Role required: There are no specific permissions required to view dashboards. However, you must have permission to view at least one dashboard to see the Dashboards Overview and the dashboard picker. For more information about dashboard permissions, see [Solving permissions issues on a responsive dashboard](../../performance-analytics/task/troubleshoot-dashboard-permissions.md#).
+Role required: There are no specific permissions required to view dashboards. However, you must have permission to view at least one dashboard to see the Dashboards Overview and the dashboard picker. For more information about dashboard permissions, see [Solving permissions issues on a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/troubleshoot-dashboard-permissions.md).
 
 ## About this task
 
 On the Dashboards Overview, each tile contains information about the dashboard it represents: Thumbnails of the widgets on the dashboard, the Dashboard group, your role on the dashboard, the name of the dashboard, and the owner of the dashboard. Dashboards that are not assigned a group by their creators are assigned the group **Other**.
 
-![Dashboard tile example with callouts for dashboard group, the viewer's role, the widget types on the dashboard, and the dashboard name](../image/dashboard-tile-layout-p.png)
+\[Omitted image "dashboard-tile-layout-p.png"\] Alt text: Dashboard tile example with callouts for dashboard group, the viewer's role, the widget types on the dashboard, and the dashboard name
 
 ## Procedure
 
@@ -34,7 +35,7 @@ On the Dashboards Overview, each tile contains information about the dashboard i
 
     If Platform Analytics experience is enabled, the dashboard picker shows both Core UI and Platform Analytics experience dashboards.
 
-    ![Dashboards overview with Recent category selected.](../image/db-overview-p.png)
+    \[Omitted image "db-overview-p.png"\] Alt text: Dashboards overview with Recent category selected.
 
 2.  Select a category:
 
@@ -64,11 +65,11 @@ On the Dashboards Overview, each tile contains information about the dashboard i
     -   Enter your search string without double quotes to return all matches that contain the string. Searching for `Open Incidents` returns the dashboards Open Incidents, Open Incidents Reports, and Open Incident State Monitor.
     **Note:** Neither of these search strings returns the keywords in a different order. For example, neither will return the dashboard Incidents Open This Week.
 
-    Search results are limited to 100 results per category. To change this value, create and configure the system property **glide.cms.dashboards.sharing.search.maxRecords**. For more information see [Responsive dashboard properties](../reference/dashboard-properties.md).
+    Search results are limited to 100 results per category. To change this value, create and configure the system property **glide.cms.dashboards.sharing.search.maxRecords**. For more information see [Responsive dashboard properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboard-properties.md).
 
 5.  Select a dashboard tile to open that dashboard.
 
-6.  On any open dashboard, select the Dashboards Overview icon \(![Dashboards overview icon](../image/db-grid-icon.png)\) to return to the Dashboards Overview.
+6.  On any open dashboard, select the Dashboards Overview icon \(\[Omitted image "db-grid-icon.png"\] Alt text: Dashboards overview icon\) to return to the Dashboards Overview.
 
 7.  To find another dashboard, click the arrow next to the dashboard name to open the Dashboard Picker.
 
@@ -80,7 +81,7 @@ On the Dashboards Overview, each tile contains information about the dashboard i
         The **Group filter** shows all dashboard groups in the instance. If you do not have permission to view any dashboards in a selected group, you will see the message, No dashboards shared with you match your search
 
     -   Scroll through all dashboards you have permission to open, starting with the most recent that you have viewed.
-    ![Dashboard picker with callouts for the Dashboards Overview icon, the dashboard picker, and the dashboard group selector.](../image/db-picker-p.png)
+    \[Omitted image "db-picker-p.png"\] Alt text: Dashboard picker with callouts for the Dashboards Overview icon, the dashboard picker, and the dashboard group selector.
 
 8.  Select the name of a dashboard to replace the current dashboard with the new one.
 

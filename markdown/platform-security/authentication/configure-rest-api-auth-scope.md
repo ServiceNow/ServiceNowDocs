@@ -2,6 +2,7 @@
 title: Configure REST API Auth scope
 description: Link the OAuth entity with an auth scope to manage the token to access the REST APIs that are linked with the auth scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-rest-api-auth-scope.html
 release: australia
 product: Authentication
 classification: authentication
@@ -152,15 +153,15 @@ When enabled, applies the auth scope to all resources in the API
 
 The first auth scope is mapped to the **Table API** with all the http methods, versions, and resources enabled.
 
-![REST API Auth Scope3](../image/auth-scope3.png)
+\[Omitted image "auth-scope3.png"\] Alt text: REST API Auth Scope3
 
 The second auth scope is mapped to the **Table API** with all the versions and resources enabled. But, you choose the HTTP Method, in this example, the **GET** method.
 
-![REST API Auth Scope2](../image/auth-scope2.png)
+\[Omitted image "auth-scope2.png"\] Alt text: REST API Auth Scope2
 
 The third auth scope is mapped to the **Table API** without the http methods, versions, and resources enabled. But, you choose the HTTP Method, Version, and Resource manually. In this example, HTTP Method is **GET**, REST API Version is **latest**, and Resource is `/now/table/{tableName}`.
 
-![REST API Auth Scope1](../image/auth-scope1.png)
+\[Omitted image "auth-scope1.png"\] Alt text: REST API Auth Scope1
 
 If all these auth scopes are created, you can use **GET** method with all the three scopes, but for **POST**, **PUT**, **DELETE**, or **PATCH** methods only **scope3** can be used.
 

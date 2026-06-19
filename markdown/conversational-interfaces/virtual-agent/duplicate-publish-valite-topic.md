@@ -2,6 +2,7 @@
 title: Duplicate and publish Virtual Agent Lite topics
 description: Copy and publish a pre-built ITSM Virtual Agent Lite topic to deploy it to your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/duplicate-publish-valite-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Copy and publish a pre-built ITSM Virtual Agent Lite topic to deploy it to your 
 
 ## Before you begin
 
-[Preview \(test\) the pre-built ITSM Virtual Agent Lite topics](test-valite-topic.md).
+[Preview \(test\) the pre-built ITSM Virtual Agent Lite topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-valite-topic.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -51,5 +52,5 @@ When your users run Virtual Agent, the chat client displays the published topics
 
 For example, in the Microsoft Teams integration, the topic selection menu displays these three topics as buttons.
 
-![Microsoft Teams conversation showing a welcome message with topic choices and asking to type hi to if you need further help.](../images/va-lite-msteams.png "Topic choices in the Microsoft Teams channel")
+\[Omitted image "va-lite-msteams.png"\] Alt text: Microsoft Teams conversation showing a welcome message with topic choices and asking to type hi to if you need further help.
 

@@ -2,7 +2,10 @@
 title: Customer service agent tasks
 description: A customer service agent can view customer projects and create cases for customer projects and tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-agent-tasks.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

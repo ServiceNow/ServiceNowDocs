@@ -2,6 +2,7 @@
 title: Configure Microsoft Endpoint Configuration Manager and set up the spoke
 description: Follow the Microsoft Endpoint Configuration Manager configuration procedures in the order shown.Ensure that the Microsoft Endpoint Configuration Manager administrative user has the correct permissions to deploy software and that PowerShell is properly configured.Ensure that the Microsoft Endpoint Configuration Manager Cmdlet Library is up-to-date.Integrate the ServiceNow instance and Microsoft Endpoint Configuration Manager account using the PowerShell and JDBC credentials to authenticate ServiceNow requests.Create a connection record for your Microsoft Endpoint Configuration Manager. The Microsoft Endpoint Configuration Manager connection and credential aliases use these connections to perform actions in Microsoft Endpoint Configuration Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-conf-sccm.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -43,13 +44,13 @@ These instructions are for Microsoft Windows Server 2016 Standard.
 
 6.  If the user does not already have this role, click **Add**, select this role from the list, and click **OK**.
 
-    ![Granting the deployment role on the Microsoft Endpoint Configuration Manager server.](../image/SCCMConsole.png "Granting the Application Administrator role on the Microsoft Endpoint Configuration Manager server")
+    \[Omitted image "SCCMConsole.png"\] Alt text: Granting the deployment role on the Microsoft Endpoint Configuration Manager server.
 
 7.  Log into Microsoft Endpoint Configuration Manager as the user with the Application Administrator role.
 
 8.  Open the menu from the upper left corner of the console and select **Connect via Windows PowerShell**.
 
-    ![Connect to PowerShell.](../image/ConnectSCCMviaPowerShell.png "Connect to PowerShell")
+    \[Omitted image "ConnectSCCMviaPowerShell.png"\] Alt text: Connect to PowerShell.
 
 9.  Ensure that the user can access the CM console.
 
@@ -137,7 +138,7 @@ Integrate the ServiceNow instance and Microsoft Endpoint Configuration Manager a
 
 2.  To use the two advanced actions, Look up Device Collections Stream \(Database\) and Look up User Collections Stream \(Database\), configure the JDBC credential.
 
-    **Note:** If you are using the Microsoft Endpoint Configuration Manager spoke with [Client Software Distribution 2.0 application](csd-app-2.md), you must configure the JDBC credential.
+    **Note:** If you are using the Microsoft Endpoint Configuration Manager spoke with [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md), you must configure the JDBC credential.
 
     1.  Navigate to **Connections &amp; Credentials** &gt; **Credentials**.
 
@@ -163,7 +164,7 @@ Integrate the ServiceNow instance and Microsoft Endpoint Configuration Manager a
 
 ### What to do next
 
-To use the Microsoft Endpoint Configuration Manager spoke with [Client Software Distribution 2.0 application](csd-app-2.md), see [CSD 2.0 for Microsoft Endpoint Configuration Manager](csd2.md).
+To use the Microsoft Endpoint Configuration Manager spoke with [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md), see [CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2.md).
 
 ## Create a connection and credential record for the Microsoft Endpoint Configuration Manager spoke REST actions
 

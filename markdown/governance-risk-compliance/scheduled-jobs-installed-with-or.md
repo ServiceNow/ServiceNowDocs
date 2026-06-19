@@ -2,6 +2,7 @@
 title: Scheduled jobs installed with Operational Resilience
 description: When you install the Operational Resilience application, the Update CSDM and other dependencies, Calculate red flags for CSDM and dependencies, Update other dependencies scheduled jobs are added to your instance. As a user with the sn\_oper\_res.admin role, you may find this information useful.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/scheduled-jobs-installed-with-or.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

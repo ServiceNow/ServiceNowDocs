@@ -2,6 +2,7 @@
 title: Troubleshoot issues with Topic Recommendations
 description: Investigate and resolve unexpected behavior with Topic Recommendations, or find answers to common questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/tr-troubleshooting.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Using Virtual Agent Topic Recommendations, Build and deploy, Virtua
 
 Investigate and resolve unexpected behavior with Topic Recommendations, or find answers to common questions.
 
-For information about using Topic Recommendations, see [Quick start for Topic Recommendations](getting-started-topic-recommendations.md).
+For information about using Topic Recommendations, see [Quick start for Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/getting-started-topic-recommendations.md).
 
 **Note:** Topic Recommendations tries to train the model when you add new topics to Virtual Agent. If an error occurs during training, the topic is still added, but the model remains in a draft state.
 
@@ -33,7 +34,7 @@ Topic Recommendations page is blank
 
 </td><td>
 
-No analysis reports have been configured.[Configure an analysis report](../task/define-tr-settings.md). You can also install or activate ITSM Virtual Agent Conversations, which will add default configurations to Topic Recommendations. For more information, see [Set up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.md).
+No analysis reports have been configured.[Configure an analysis report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/define-tr-settings.md). You can also install or activate ITSM Virtual Agent Conversations, which will add default configurations to Topic Recommendations. For more information, see Set up ITSM Virtual Agent.
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Reports have intent matches, but no pre-built topic matches
 
 </td><td>
 
-Make sure ITSM Virtual Agent Conversations is installed and activated for the instance. If the app is installed, then none of the pre-built topics address the issues found in your reports. For more information, see [Set up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.md).
+Make sure ITSM Virtual Agent Conversations is installed and activated for the instance. If the app is installed, then none of the pre-built topics address the issues found in your reports. For more information, see Set up ITSM Virtual Agent.
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Check the status in the Discovery Report Definitions table:1.  Navigate to **All
 2.  Sort the table on the Created column, and then find the name of the affected analysis definition.
 3.  If the Status column is empty, the analysis failed. Try running it again.
 
- You can also navigate to **NLU Workbench** &gt; **Intent Discovery** to see if something went wrong in the intent discovery process. For more information, see [Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/intent-discovery.md).
+ You can also navigate to **NLU Workbench** &gt; **Intent Discovery** to see if something went wrong in the intent discovery process. For more information, see Intent Discovery.
 
 </td></tr><tr><td>
 

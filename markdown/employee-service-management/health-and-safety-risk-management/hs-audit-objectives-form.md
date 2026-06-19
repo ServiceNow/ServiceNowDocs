@@ -2,6 +2,7 @@
 title: Objective form for safety audits
 description: The safety audit manager can use the audit objectives form to define the objectives and scope of a safety audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-audit-objectives-form.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Em
 
 The safety audit manager can use the audit objectives form to define the objectives and scope of a safety audit.
 
-For information on audit objectives, see [Define an objective for a safety audit](../task/hs-define-safety-audit-objectives.md).
+For information on audit objectives, see [Define an objective for a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-safety-audit-objectives.md).
 
 <table id="table_rx3_bsr_l3c"><thead><tr><th>
 
@@ -71,7 +72,7 @@ Assigned to
 
 </td><td>
 
-Person responsible for this objective.Only people added to the **People involved** list of this audit are available in this field. For more information, see [Add people involved in a safety audit](../task/hs-add-people-involved-safety-audit.md).
+Person responsible for this objective.Only people added to the **People involved** list of this audit are available in this field. For more information, see [Add people involved in a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-people-involved-safety-audit.md).
 
 </td></tr><tr><td>
 
@@ -106,5 +107,5 @@ Expected outcome
 Description of what a satisfactory result looks like for this objective.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

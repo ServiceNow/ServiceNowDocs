@@ -2,6 +2,7 @@
 title: Create product categories to group product models
 description: Create categories for your product models to group your product models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-product-model-categories.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -141,7 +142,7 @@ Sourcing time in days
 
 </td><td>
 
-Number of days that are required to source a product of this category from the supplier.For details, see [Lead time calculations](../reference/lead-time-calculations.md).
+Number of days that are required to source a product of this category from the supplier.For details, see [Lead time calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.md).
 
 </td></tr><tr><td>
 
@@ -149,7 +150,7 @@ Supplier onboarding time in days
 
 </td><td>
 
-Number of days that are required for a new supplier of a product in this category to onboard.For details, see [Lead time calculations](../reference/lead-time-calculations.md).
+Number of days that are required for a new supplier of a product in this category to onboard.For details, see [Lead time calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/lead-time-calculations.md).
 
 </td></tr><tr><td>
 
@@ -257,8 +258,8 @@ Ledger Assignment Rules
 
 </td><td>
 
-Ledger assignment rules for this product category.Select **New** to [add a ledger assignment rule](create-ledger-assignment-rules.md).
+Ledger assignment rules for this product category.Select **New** to [add a ledger assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-ledger-assignment-rules.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Setting up your product catalog](create-product-catalogue.md)
+</table>**Parent Topic:**[Setting up your product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-product-catalogue.md)
 

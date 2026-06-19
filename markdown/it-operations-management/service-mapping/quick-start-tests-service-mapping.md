@@ -2,6 +2,7 @@
 title: Quick start tests for Service Mapping
 description: After upgrades and deployments of new applications or integrations, run quick start tests to verify that Service Mapping still works. If you have customized Service Mapping, copy the quick start tests and configure them for your customizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/quick-start-tests-service-mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -75,5 +76,5 @@ Orlando
 </table>**Related topics**  
 
 
-[Run an automated test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-run-test.md)
+[bundle-cadev.atf-run-test]
 

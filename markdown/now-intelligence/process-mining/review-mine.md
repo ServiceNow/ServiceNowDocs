@@ -2,12 +2,13 @@
 title: Review and mine your project
 description: After you’ve created the project by setting the objectives, scoping the analysis, and adding improvement opportunities, it’s time to mine the project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/review-mine.html
 release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
 
@@ -19,6 +20,32 @@ After you’ve created the project by setting the objectives, scoping the analys
 
 Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
+## About this task
+
+**Record limits for Process Mining projects**
+
+Process Mining enforces a maximum of 500,000 records from the primary table. This limit scales down proportionally as child tables are added to the project.
+
+|Table configuration|Record limit|
+|-------------------|------------|
+|1 table|500,000|
+|1 table + 1 child|~250,000|
+|1 table + 2 children|~125,000|
+|1 table + 3 children|~100,000|
+
+Nested child tables reduce the record limit significantly more than flat structures, because deeper relationships multiply the processing cost per record.
+
+|Table configuration|Record limit|
+|-------------------|------------|
+|1 table → child → grandchild → great-grandchild|~71,000|
+
+**What happens when the limit is exceeded**
+
+If your record count exceeds the adjusted limit, mining is blocked. To resolve this:
+
+-   Narrow your project filter to reduce the number of records.
+-   Simplify your table structure by removing unnecessary child or nested tables.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
@@ -27,13 +54,13 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 2.  Select **Edit** for the project that you want to review and mine.
 
-    You are taken to the **Review and mine** tab.
+    You're taken to the **Review and mine** tab.
 
 3.  On the **Review and mine** tab, review the project.
 
     You can do some additional steps on this page.
 
-    ![Additional tasks](../image/mine-extra-steps.png)
+    \[Omitted image "mine-extra-steps.png"\] Alt text: Additional tasks
 
     -   Select **Manage watchlist** to add users who receive notifications regarding the status of the mined project.
     -   Select **Copy project definition** to copy the project.
@@ -53,7 +80,7 @@ The **Mining Progress** page is displayed. After the mining is completed, a **Mi
 
 **Note:** If you select **Full Mine** and your project includes consumption-based tables, a warning message appears when the number of records exceeds the threshold defined in the `promin.metered_usage.warning_limit` property. To turn off this warning, set the `promin.metered_usage.warning_limit` property to **-1**. The default value for this property is -1, which means it is turned off.
 
-![Mining summary](../image/mining-summary.png)
+\[Omitted image "mining-summary.png"\] Alt text: Mining summary
 
-**Parent Topic:**[Create a project or template using Project Builder](define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md)
 

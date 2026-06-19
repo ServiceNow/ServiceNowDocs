@@ -2,6 +2,7 @@
 title: Add multiple change requests to a problem
 description: Add multiple change requests to a problem to capture all the requests that you need to implement to fix the problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/add-multi-change-req-to-prob.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -38,5 +39,5 @@ The topic applies to Problems where you have activated the Problem Management Be
     The selected change requests appear under the **Change Requests** tab.
 
 
-**Parent Topic:**[Managing Problems](../concept/problem-mgmt-lifecycle.md)
+**Parent Topic:**[Managing Problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/problem-mgmt-lifecycle.md)
 

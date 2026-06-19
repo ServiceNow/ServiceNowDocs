@@ -2,7 +2,10 @@
 title: Add an entitlement to a case line
 description: Add one or more entitlements to a case line in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-entitlement-to-case-line.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

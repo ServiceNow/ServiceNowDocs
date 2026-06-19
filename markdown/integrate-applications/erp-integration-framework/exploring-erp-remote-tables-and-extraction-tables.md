@@ -2,6 +2,7 @@
 title: Exploring Zero Copy Connector for ERP remote tables and extraction tables
 description: Configure remote tables and extraction tables to work with data from the ERP \(Enterprise Resource Planning\) system of record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-remote-tables-and-extraction-tables.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -18,7 +19,7 @@ Configure remote tables and extraction tables to work with data from the ERP \(E
 
 In Zero Copy Connector for ERP, use remote tables and extraction tables to obtain ERP data after a model has been configured. They serve the same general purpose but are designed for different data volumes. You can use them together when a single approach is not enough.
 
-![Infographic comparing the two types of tables: remote and extraction.](../image/erp-explore-table-types-infographic.png)
+\[Omitted image "erp-explore-table-types-infographic.png"\] Alt text: Infographic comparing the two types of tables: remote and extraction.
 
 Remote tables get their records from running an associated script against an external data source. Remote tables describe the schema for the data that you want to retrieve from an ERP system of record. Use remote tables to connect to third-party sources, or to another instance, so that you can retrieve external data and optionally cache it in the memory. You can view external data in lists or forms and process it with standard Glide scripts. You can also group, sort, aggregate, and filter the data just like you would for standard internal tables.
 
@@ -44,5 +45,5 @@ A developer creates an extraction table linked to the Purchase Orders model. The
 
 For instant needs, such as looking up the current status of a specific PO in response to a supplier inquiry, the developer also configures a remote table pointing to the same model. When a procurement team member opens a PO record and needs live data, the remote table queries SAP directly and returns the current value on demand.
 
-**Parent Topic:**[Exploring Zero Copy Connector for ERP](exploring-erp-integration.md)
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

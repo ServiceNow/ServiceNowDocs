@@ -2,7 +2,10 @@
 title: Additional search resources
 description: The similar case recommendation feature uses additional search resources, which are configured using the Contextual Search application.The Major Case agent assist recommendations is used for recommending major cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/similar-cases-additional-resources.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -167,15 +170,15 @@ The agent assist provides a recommendation for each of the two major case scenar
 -   Major case found: returns a list with one or more major cases created in the time-frame indicated in the solution definition that are similar to the current case. Cases are listed by similarity score. The default time-frame is set to the start of yesterday.
 -   No major case found: returns a recommendation based on the number of cases created in the time-frame indicated in the solution definition that is similar to the current case \(does not include any major cases\). The default time-frame is set to the start of yesterday.
 
-To configure the time-frame for the solution definition threshold, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
+To configure the time-frame for the solution definition threshold, see Update your similarity score threshold.
 
 If the Major Case agent assist recommendations find one or more major cases similar to the current case, the Predictive Intelligence tab displays these cases ranked by similarity score. The case with the highest score is highlighted with a white box and the title **Major Case** and includes a user action to link the current case to the major case.
 
-![Agent Assist window in the Predictive Intelligence tab displaying a recommendation to link the current case to a major case.](../image/csm-agent-intelligence-tab-major-case.png "Predictive Intelligence major case recommendation")
+\[Omitted image "csm-agent-intelligence-tab-major-case.png"\] Alt text: Agent Assist window in the Predictive Intelligence tab displaying a recommendation to link the current case to a major case.
 
 If the Major Case agent assist recommendations find cases similar to the current case, but no major cases, the Predictive Intelligence tab displays a recommendation highlighted with a blue box. It includes the option to propose the current case as a major case candidate.
 
-![Agent Assist window in the Predictive Intelligence tab displaying a recommendation to propose the current case as a major case.](../image/csm-agent-intelligence-tab-recommendation.png "Predictive Intelligence tab similar case recommendation")
+\[Omitted image "csm-agent-intelligence-tab-recommendation.png"\] Alt text: Agent Assist window in the Predictive Intelligence tab displaying a recommendation to propose the current case as a major case.
 
 The Major Case agent assist recommendations:
 

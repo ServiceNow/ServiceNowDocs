@@ -2,6 +2,7 @@
 title: Setting up push notifications on your ServiceNow instance
 description: For each Mobile SDK application that incorporates the Virtual Agent service and leverages push notifications, you must complete the following configuration process on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-setup-push-instance.html
 release: australia
 product: Developer Guides
 classification: developer-guides

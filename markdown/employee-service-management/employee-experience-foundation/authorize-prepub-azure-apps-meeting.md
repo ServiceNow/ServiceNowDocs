@@ -2,6 +2,7 @@
 title: Authorize pre-published SSO and Activity Notification Azure apps to grant required permissions
 description: Authorize the pre-published SSO and Activity Notification apps to enable ServiceNow to make API calls from a personal tab in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/authorize-prepub-azure-apps-meeting.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,5 +37,5 @@ To connect your ServiceNow instance to your Microsoft 365 tenant and to Authoriz
     Upon successful authorization, the app status is displayed as Installed.
 
 
-**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](../concept/setup-meeting-extensibility-multi-tenant.md)
+**Parent Topic:**[Integrate Meeting Extensions pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-meeting-extensibility-multi-tenant.md)
 

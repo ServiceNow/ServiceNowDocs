@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Automation Center
 description: Explore the benefits of Now Assist for Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/explore-na-ac.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -21,11 +22,11 @@ Now Assist for Automation Center helps you create an automation request from Tas
 
 ## User Task Step Summarization skill
 
-Now Assist for Automation Center includes the User task step summarization skill, which must be activated before you can create automation requests from the Task Mining Workspace. For information about creating an automation request from Task Mining workspace, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/integration-with-automation-center.md).
+Now Assist for Automation Center includes the User task step summarization skill, which must be activated before you can create automation requests from the Task Mining Workspace. For information about creating an automation request from Task Mining workspace, see .
 
 ## Saving Estimator skill
 
-Now Assist for Automation Center includes the Saving Estimator skill, which must be activated to explore and discover automations from your ServiceNow® instance. For information about activating the skill, see [Activate skills for Now Assist for Automation Center](../task/activate-skill.md). For information about how to explore automations, see [Explore automations](../task/auto-explorer.md).
+Now Assist for Automation Center includes the Saving Estimator skill, which must be activated to explore and discover automations from your ServiceNow® instance. For information about activating the skill, see [Activate skills for Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/activate-skill.md). For information about how to explore automations, see [Explore automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/auto-explorer.md).
 
-**Parent Topic:**[Now Assist for Automation Center](nowassist-ac.md)
+**Parent Topic:**[Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/nowassist-ac.md)
 

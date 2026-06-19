@@ -2,6 +2,7 @@
 title: List of Search Result EVAM card properties
 description: You can customize the appearance of standard search results in your AI Search application by changing these properties in the application's Search Result EVAM \(Entity View Action Mapping\) cards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/search-result-evam-card-opts.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -15,7 +16,7 @@ breadcrumb: [Configure EVAM display settings for search results, Configuring AI 
 
 You can customize the appearance of standard search results in your AI Search application by changing these properties in the application's Search Result EVAM \(Entity View Action Mapping\) cards.
 
-To learn about configuring properties for Search Result EVAM cards, see [Configure EVAM display settings for search results in AI Search applications](../task/configure-search-result-card-opts.md).
+To learn about configuring properties for Search Result EVAM cards, see [Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-search-result-card-opts.md).
 
 **Note:** The following properties are only supported for EVAM cards with `component` property value `sn-search-result-evam-card`. Don't set these properties for EVAM cards with any other `component` value.
 
@@ -36,7 +37,7 @@ avatarURL
 Defines the URL for the image you want to show on the Search Result card when **imageType** is set to **avatar**. -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -72,7 +73,7 @@ detailLabelOne, detailLabelTwo, detailLabelThree, detailLabelFour, detailLabelFi
 Defines label content for the Search Result card's detail label-value pairs. You can show up to 10 label-value pairs on the Search Result card. -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
  To define value content for these label-value pairs, see **detailValueOne** through **detailValueTen**. **detailValueOne** sets the value for **detailLabelOne**, **detailValueTwo** sets the value for **detailLabelTwo**, and so on up through **detailValueTen** and **detailLabelTen**
 
@@ -87,7 +88,7 @@ detailLabelSeparator
 Defines the character used to separate inline label-value pairs. Only applies when **detailLabelType** is set to **inline**. -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -122,7 +123,7 @@ detailValueOne, detailValueTwo, detailValueThree, detailValueFour, detailValueFi
 Defines value content for the Search Result card's detail label-value pairs. You can show up to 10 label-value pairs on the Search Result card. -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
  To define label content for these label-value pairs, see **detailLabelOne** through **detailLabelTen**. **detailLabelOne** sets the label for **detailValueOne**, **detailLabelTwo** sets the label for **detailValueTwo**, and so on up through **detailLabelTen** and **detailValueTen**
 
@@ -161,7 +162,7 @@ icon
 Defines the icon you want to show on the Search Result card when **imageType** is set to **icon**. This icon is also shown as a fallback when **imageType** is set to **image** but no **imageURL** value is provided. -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
  For the set of available icon names, see the [Icon Gallery](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/now-components/now-icon/gallery) in the Next Experience reference section on the ServiceNow® Developer Site.
 
@@ -200,7 +201,7 @@ imageURL
 Defines the URL for the image you want to show on the Search Result card when **imageType** is set to **image**. -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -211,7 +212,7 @@ summary
 Defines the content of the Search Result card's summary field. -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -236,7 +237,7 @@ textHeaderLabelOne, textHeaderLabelTwo, and textHeaderLabelThree
 Defines the content of the Search Result card's text header labels. If you specify multiple text header labels, they appear separated by a pipe `|` character. -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for one of these properties, include the property in the `staticValues` object and specify the text as its `key` value. To populate one of these properties with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -261,7 +262,7 @@ titleLabel
 Defines the content of the Search Result card's title field. -   Type: string
 -   Default value: \(no value\)
 
-**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](index-fields-list-ais.md).
+**Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
 </td></tr><tr><td>
 
@@ -269,7 +270,7 @@ useAttachmentViewer
 
 </td><td>
 
-Option to use Document Viewer to display grouped attachments shown on the Search Result card in collapsed format. To learn more about Document Viewer, see [Enable Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-document-viewer.md). For more information on grouped attachments and how they're shown on the Search Result card, see [Grouping attachment search results with their parent search results](../concept/grouping-attachment-srch-results-ais.md).
+Option to use Document Viewer to display grouped attachments shown on the Search Result card in collapsed format. To learn more about Document Viewer, see . For more information on grouped attachments and how they're shown on the Search Result card, see [Grouping attachment search results with their parent search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/grouping-attachment-srch-results-ais.md).
 
  -   Type: true \| false
 -   Default value: false
@@ -281,5 +282,5 @@ Option to use Document Viewer to display grouped attachments shown on the Search
     -   **false**: Download attachments selected from the Search Result card.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure EVAM display settings for search results in AI Search applications](../task/configure-search-result-card-opts.md)
+</table>**Parent Topic:**[Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configure-search-result-card-opts.md)
 

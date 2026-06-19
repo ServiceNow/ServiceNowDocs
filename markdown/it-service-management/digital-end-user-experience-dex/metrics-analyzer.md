@@ -2,6 +2,7 @@
 title: Metrics analyzer form
 description: DEX Metrics analyzer provides you with an ability to look up metrics collected for specific devices and applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/metrics-analyzer.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -97,5 +98,5 @@ This option is only available or an application.
 -   Custom date range
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

@@ -2,6 +2,7 @@
 title: Inherent Assessment form
 description: Use the Inherent Assessment form in the Advanced Risk application to assess the inherent risks in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/inherent-assessment-form.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -158,7 +159,7 @@ Factor for X-axis
 
 </td><td>
 
-Factor that appears on the X-axis of the heatmap.**Note:** Only qualitative factors of the type **Choice** or factors with the transformation criteria can be selected. For more information, see [Transformation criteria](../concept/transformation-criteria.md).
+Factor that appears on the X-axis of the heatmap.**Note:** Only qualitative factors of the type **Choice** or factors with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
 
 </td></tr><tr><td>
 
@@ -166,8 +167,8 @@ Factor for Y-axis
 
 </td><td>
 
-Factor that appears on the Y-axis of the heatmap.**Note:** Only qualitative factors of the type **Choice** or with the transformation criteria can be selected. For more information, see [Transformation criteria](../concept/transformation-criteria.md).
+Factor that appears on the Y-axis of the heatmap.**Note:** Only qualitative factors of the type **Choice** or with the transformation criteria can be selected. For more information, see [Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure an inherent assessment](../task/configure-inherent-assessment.md)
+</table>**Parent Topic:**[Configure an inherent assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-inherent-assessment.md)
 

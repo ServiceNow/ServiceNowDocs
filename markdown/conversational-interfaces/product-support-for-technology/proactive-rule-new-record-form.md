@@ -2,6 +2,7 @@
 title: Proactive Rule form
 description: When creating a Proactive Triggers rule, the Proactive Rule form includes the following fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/proactive-rule-new-record-form.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -43,7 +44,7 @@ Rules are triggered when the Virtual Agent is available.
 
 -   Live Agent only
 
-Rules are triggered when the web client is configured to live agent only. You can configure the web client to live agent only from the Service Portal. For instructions, see [Configure Agent Chat in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md).
+Rules are triggered when the web client is configured to live agent only. You can configure the web client to live agent only from the Service Portal. For instructions, see .
 
 
 </td></tr><tr><td>
@@ -82,7 +83,7 @@ Frequency
 
 How often the rule should be applied. Choices are:-   Every time: Every time an end user visits the page.
 -   Once per visit: Every time an end user visits a page per user log in.
--   Once per user: Applies the rule only the first time that an end user visits the page. With this frequency setting, you must clear the rule's history if you want to run this rule again for a user. For more information about clearing the rule history, see [Multiple Proactive Triggers rules and actions](../concept/multiple-rules-and-actions.md).
+-   Once per user: Applies the rule only the first time that an end user visits the page. With this frequency setting, you must clear the rule's history if you want to run this rule again for a user. For more information about clearing the rule history, see [Multiple Proactive Triggers rules and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/multiple-rules-and-actions.md).
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Trigger type
 
 </td><td>
 
-System API or web browsing URL for the type of trigger. Select the lookup list icon \(![Lookup using list icon.](../image/look-up-icon.png)\) to view your default choices.
+System API or web browsing URL for the type of trigger. Select the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list icon.\) to view your default choices.
 
  If enabled, your default system API choice is **Search Event**. This trigger type triggers an action when no search results are found on the Service Portal or Employee Service Center.
 
@@ -122,14 +123,14 @@ System API or web browsing URL for the type of trigger. Select the lookup list i
 
 Define the URL components as shown in this example.
 
-![URL trigger type format example.](../image/url-trigger-type.png)
+\[Omitted image "url-trigger-type.png"\] Alt text: URL trigger type format example.
 
 **Important:**
 
     -   If you're using the Virtual Agent web client outside of the ServiceNow instance \(for example, as part of a third-party website\), use the URL trigger type. Don't use any of the other trigger types.
     -   The URL trigger type applies only if no other available trigger types match the URL.
 
- If you don’t see the trigger type that you need using the lookup list icon \(![Lookup using list icon.](../image/look-up-icon.png)\), you can create your own custom trigger type. For more information about custom trigger types, see [Create custom trigger types](../task/create-custom-trigger-types.md).
+ If you don’t see the trigger type that you need using the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list icon.\), you can create your own custom trigger type. For more information about custom trigger types, see [Create custom trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/create-custom-trigger-types.md).
 
 </td></tr><tr><td>
 
@@ -137,13 +138,13 @@ Conditions
 
 </td><td>
 
-Conditions that must be met for the trigger type to run as defined by the admin. Conditions vary by trigger type. Specify the Proactive Triggers conditions that you want to use.For more information about using conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+Conditions that must be met for the trigger type to run as defined by the admin. Conditions vary by trigger type. Specify the Proactive Triggers conditions that you want to use.For more information about using conditions, see .
 
  **Note:** Rule conditions are case-sensitive and must match. For example, if you want to use the name of a catalog item, such as the iPhone condition, entering "iphone" doesn't give you the results that you want.
 
-![Proactive Triggers conditions.](../image/specify-conditions.png)
+\[Omitted image "specify-conditions.png"\] Alt text: Proactive Triggers conditions.
 
-**Note:** When specifying the conditions that must be met for a trigger type, be careful not to specify conflicting trigger types and conditions. Conflicting URL trigger types and conditions can cause errors. For more information, see [Manage Proactive Triggers](../concept/manage-proactive-triggers-2.md).
+**Note:** When specifying the conditions that must be met for a trigger type, be careful not to specify conflicting trigger types and conditions. Conflicting URL trigger types and conditions can cause errors. For more information, see [Manage Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/manage-proactive-triggers-2.md).
 
 </td></tr><tr><td>
 
@@ -151,7 +152,7 @@ Advanced conditions
 
 </td><td>
 
-Option for using scripts to define the condition.![Specify advanced conditions.](../image/specify-advanced-conditions.png)
+Option for using scripts to define the condition.\[Omitted image "specify-advanced-conditions.png"\] Alt text: Specify advanced conditions.
 
 </td></tr><tr><td>
 
@@ -162,5 +163,5 @@ Find available agent
 Option to check for any available live agents.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Proactive Triggers reference](proactive-triggers-reference.md)
+</table>**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)
 

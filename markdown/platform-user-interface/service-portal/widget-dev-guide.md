@@ -2,6 +2,7 @@
 title: Developing custom widgets
 description: Develop custom widgets for portals using AngularJS, Bootstrap, and the ServiceNow API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/widget-dev-guide.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -98,7 +99,7 @@ Like Angular directives, widgets execute a specified behavior within a Service P
 
 When a widget begins to render for the first time on a page, the server script executes first and accesses three global objects: **input**, **options**, and **data**. Because the **input** variable is a data object sent from the client script, this variable is undefined when first initialized.
 
-![Available variables in server and client script global.](../image/Server-ClientGlobalScripts.png)
+\[Omitted image "Server-ClientGlobalScripts.png"\] Alt text: Available variables in server and client script global.
 
 When a widget is first instantiated, the server script:
 
@@ -122,34 +123,34 @@ The client script:
 
 When you create a widget, a record is created in the sp\_widget table. However, you can use the Widget Editor in Service Portal Configuration as your scripting environment. The Widget Editor is a full page application similar to an IDE. You can show the parts of the widget you want to edit and hide the rest, while previewing your changes in real time.
 
-**Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see [Turn on ECMAScript 2021 \(ES12\) mode for a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-es12-mode-scripts.md).
+**Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see .
 
-![Widget Editor in Service Portal Configuration as a script editor.](../image/basic-widget.png)
+\[Omitted image "basic-widget.png"\] Alt text: Widget Editor in Service Portal Configuration as a script editor.
 
--   **[General guidelines for developing widgets](general-guidelines-developing-widgets.md)**  
+-   **[General guidelines for developing widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/general-guidelines-developing-widgets.md)**  
 When developing custom widgets, keep these general guidelines in mind for optimal performance, scalable development, and a good user experience.
--   **[Tutorial: Build a custom widget](adv-widget-tutorial.md#)**  
+-   **[Tutorial: Build a custom widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/adv-widget-tutorial.md)**  
 Follow this tutorial to build a custom widget that displays Service Catalog items. Use this tutorial as a model to help you understand the advanced scripting power of the Service Portal.
--   **[Clone a widget](../task/t_CloneAndEditAWidget.md)**  
+-   **[Clone a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_CloneAndEditAWidget.md)**  
 Take advantage of existing code by cloning and editing an existing widget.
--   **[Create a new widget](../task/create-new-widget.md)**  
+-   **[Create a new widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-new-widget.md)**  
 Create a new widget to build a custom widget from scratch.
--   **[Widget option schema](c_WidgetInstanceOptions.md#)**  
+-   **[Widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetInstanceOptions.md)**  
 Widget instances allow users to uniquely configure each widget they add to a page. Use the option schema to define the parameters for your widget.
--   **[Widget API reference](../reference/widget-api-reference.md#)**  
+-   **[Widget API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-api-reference.md)**  
 Service Portal includes client and server side APIs to use in widget client and server scripts.
--   **[Reuse components with Angular Providers](../task/angular-providers.md)**  
+-   **[Reuse components with Angular Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/angular-providers.md)**  
 Angular Providers are reusable components that can be injected into multiple widgets. To ensure quick loading widgets and a high performing portal, create Angular Providers instead of overloading your client controllers with persistent data and additional logic. With Angular Providers, you can maintain data for the lifetime of your Service Portal and reuse components and data objects across multiple widgets.
--   **[Embedded widgets](c_NestedWidgets.md#)**  
+-   **[Embedded widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_NestedWidgets.md)**  
 Embed a widget in the HTML template, server script, or client script.
--   **[Create a widget dependency](../task/widget-dependencies.md)**  
+-   **[Create a widget dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dependencies.md)**  
 In Service Portal, you can link JavaScript and CSS files to widgets to create dependencies between widgets and third-party libraries, external style sheets, and angular modules.
--   **[Internationalize a widget](c_WidgetLocalization.md)**  
+-   **[Internationalize a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_WidgetLocalization.md)**  
 Use the `${}` or `gs.getMessage()` syntax in the **HTML Template**, **Client Script**, or **Server Script** fields of a widget to tag strings for translation so you can localize your Service Portal content.
--   **[Replace a Service Catalog form script with a widget](../task/ui-macro-widget.md)**  
+-   **[Replace a Service Catalog form script with a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ui-macro-widget.md)**  
 You can use widgets in Service Portal to replace UI Macros. If your Service Catalog form includes a UI Macro that references other fields or variables on the form, you can create a widget to hold reusable code and embed it within the Service Catalog form. Use special syntax to access any variable fields on the form.
--   **[Widget troubleshooting guide](../reference/widget-troubleshooting-guide.md)**  
+-   **[Widget troubleshooting guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-troubleshooting-guide.md)**  
 Use the following tools to investigate and resolve unexpected behavior in your custom Service Portal widgets.
 
-**Parent Topic:**[Service Portal](c_ServicePortal.md)
+**Parent Topic:**[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
 

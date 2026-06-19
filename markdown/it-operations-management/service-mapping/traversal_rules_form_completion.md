@@ -2,6 +2,7 @@
 title: Traversal Rules for Application Services form completion
 description: To edit an existing CI relationship or add a new CI relationship during the tag-based discovery process, complete the Traversal Rules for Application Services form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/traversal\_rules\_form\_completion.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -32,7 +33,7 @@ Rule Definition
 To create a new CI relationship:
 
 1.  Select **New**.
-2.  Select the Lookup using list icon ![](../../event-management/image/LookupUsingList.png) and to view the available CI Relationship Type Rule Definitions.
+2.  Select the Lookup using list icon \[Omitted image "LookupUsingList.png"\] and to view the available CI Relationship Type Rule Definitions.
 
 Continue as follows, depending on your situation:
 
@@ -50,7 +51,7 @@ Continue as follows, depending on your situation:
  To edit a preconfigured CI relationship:
 
 1.  Select the preconfigured CI relationship in the **Parent Type** column.
-2.  Select the Preview this record icon ![](../image/preview-connection-suggestion-icon.png), then select Open Record.
+2.  Select the Preview this record icon \[Omitted image "preview-connection-suggestion-icon.png"\] Alt text:, then select Open Record.
 3.  Modify the **Parent Type**, **Relationship Type**, or **Child Type** as needed.
 4.  Select **Update**.
 
@@ -95,5 +96,5 @@ Order
 Enter a number for the order. The system uses traversal rules for discovery in sequence from low order to high.**Note:** When configuring traversal rules with dependencies, verify that prerequisite rules are executed before dependent ones by assigning them a lower-order number.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](service-mapping-reference.md)
+</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 

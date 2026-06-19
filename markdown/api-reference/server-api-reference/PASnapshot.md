@@ -2,6 +2,7 @@
 title: PASnapshot - Scoped
 description: The PASnapshot API enables you to query information about Performance Analytics snapshots. Snapshots are the lists of records \(sys\_ids\) that are collected at the time that the scores for those records are collected. A snapshot is made only for automated indicators with Collect records selected.Compares records in snapshots for a specified indicator at multiple dates, such as to identify records included in one snapshot but not the other.Returns the query used to compare records in snapshots for a specified indicator at multiple dates.Returns the sys\_id values for all records contained in the snapshot for a specified indicator at the specified date.Returns the query used to generate the snapshot for a specified indicator at the specified date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PASnapshot.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The PASnapshot API enables you to query information about Performance Analytics 
 
 You can query information about a snapshot at a certain date using the indicator sys\_id and date, and perform comparisons between snapshots for an indicator at different dates.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## PASnapshot - getCompareIDs\(String sys\_id, Number date1, Number date2, String type\)
 

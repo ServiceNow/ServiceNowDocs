@@ -2,6 +2,7 @@
 title: Define the capacity of workplace areas
 description: Set the capacity for areas of your workplace in Workplace Core to enable reservations for the area. The capacity ensures a limit to the workplace reservations for these areas so you can ensure safety guidelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/define-capacity-of-workplace-areas-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Set the capacity for areas of your workplace in Workplace Core to enable reserva
 
 ## Before you begin
 
--   [Add your workplace data](../concept/providing-your-workplace-data-wsd.md).
+-   [Add your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 -   Ensure you have the details of the maximum capacity for the areas of your workplace.
 
 Role required: sn\_wsd\_core.workplace\_manager
@@ -35,5 +36,5 @@ Role required: sn\_wsd\_core.workplace\_manager
 4.  Select **Update**.
 
 
-**Parent Topic:**[Managing workplace reservations for employees](../concept/managing-workplace-reservations-wsd.md)
+**Parent Topic:**[Managing workplace reservations for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-workplace-reservations-wsd.md)
 

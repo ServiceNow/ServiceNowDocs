@@ -2,6 +2,7 @@
 title: Sales CRM Pricing - POST /api/sn\_csm\_pricing/\{api\_version\}/pricingengine/computePrice
 description: Enables callers to compute the price of products specified in the request payload. The pricing settings included in the payload determine and control the execution flow of the Pricing Engine, such as whether to apply validations, adjustments, or rollups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/sales\_crm\_pricing-POST-compute-price.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -330,7 +331,7 @@ Example: `true`
 </td></tr></tbody>
 </table>## Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](../concept/c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -355,7 +356,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ## Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](../concept/c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2790,7 +2791,7 @@ The following result shows that the request status is successful.
 
 This example demonstrates how to update an active product configuration session by changing a user-selectable option \(characteristic\). This is a common action in a product configurator, such as changing a color, size, or feature.
 
-Prerequisite: You need to include the `pricing_context_id` that is returned when initiating a [product configuration session](sales_crm_pricing-POST-compute-price.md#example_zbg_2jt_ygc). This tells the pricing engine which session to update.
+Prerequisite: You need to include the `pricing_context_id` that is returned when initiating a [product configuration session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales_crm_pricing-POST-compute-price.md). This tells the pricing engine which session to update.
 
 Note: The lineItems array only needs to contain the specific item that is being modified, it is not necessary to send the entire product hierarchy again.
 
@@ -3165,7 +3166,7 @@ This example demonstrates how to update an active product configuration by desel
 
 Just like in the previous use case, this request must include the correct `pricing_context_id` to ensure the change is applied to the correct session. The pricing engine will then recalculate all prices for the entire bundle with that item removed, which may affect overall discounts and roll-ups.
 
-Prerequisite: You need to include the `pricing_context_id` that is returned when initiating a [product configuration session](sales_crm_pricing-POST-compute-price.md). This tells the pricing engine which session to update.
+Prerequisite: You need to include the `pricing_context_id` that is returned when initiating a [product configuration session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales_crm_pricing-POST-compute-price.md). This tells the pricing engine which session to update.
 
 Note: The lineItems array only needs to contain the specific item that is being modified, it is not necessary to send the entire product hierarchy again.
 
@@ -5124,5 +5125,5 @@ curl "https://instance.servicenow.com/api/sn_csm_pricing/v1/pricingengine/comput
 }
 ```
 
-**Parent Topic:**[Sales CRM Pricing API](../concept/sales-crm-pricing-api.md)
+**Parent Topic:**[Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales-crm-pricing-api.md)
 

@@ -2,6 +2,7 @@
 title: Manage endpoint with Hash message support
 description: Generate endpoint for webhooks in third-party applications that support hash message authentication. The endpoint enables webhooks to connect with your ServiceNow instance. You can deactivate or remove the configuration of the endpoint from the connection when you want the endpoint to no longer listen to the external webhook.Configure the endpoint that listens to the webhook.Deactivate the endpoint so that it stops listening to a webhook. However, you can activate it again.Remove the configuration of the endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/generate-endpoint-with-hash-message-support.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -23,7 +24,7 @@ Subscription required: This feature requires an Integration Hub subscription. Fo
 
 Ensure that you've installed the required spoke plugin.
 
-**Parent Topic:**[Set up external trigger endpoints](set-up-external-webhook-endpoints.md)
+**Parent Topic:**[Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-external-webhook-endpoints.md)
 
 ## Configure endpoint with Hash message support
 
@@ -41,19 +42,19 @@ Ensure that you've installed the required spoke plugin.
 
 1.  Under the Endpoints heading, select **Configure** for the connection to set up an endpoint with hash message authentication support.
 
-    ![Configure button for hash message authentication.](../images/configure-hash-message-auth.png)
+    \[Omitted image "configure-hash-message-auth.png"\] Alt text: Configure button for hash message authentication.
 
 2.  In the Configure endpoint form, select Generate secret.
 
-    ![Generate secret link.](../images/configure-endpoint-generate-secret.png)
+    \[Omitted image "configure-endpoint-generate-secret.png"\] Alt text: Generate secret link.
 
     The secret is generated in the Secret field.
 
-3.  To generate the endpoint that the external webhook uses to connect to your ServiceNow instance, select **Activate**.![Activate button.](../images/configure-endpoint-activate-endpoint.png)
+3.  To generate the endpoint that the external webhook uses to connect to your ServiceNow instance, select **Activate**.\[Omitted image "configure-endpoint-activate-endpoint.png"\] Alt text: Activate button.
 
-    The value in the Header parameter name field becomes available after you generate the endpoint.![Endpoint generated.](../images/configure-hash-auth-generate-endpoint.png)
+    The value in the Header parameter name field becomes available after you generate the endpoint.\[Omitted image "configure-hash-auth-generate-endpoint.png"\] Alt text: Endpoint generated.
 
-4.  To copy the endpoint, select the copy endpoint icon \(![Copy endpoint icon.](../images/copy-endpoint-icon.png)\)
+4.  To copy the endpoint, select the copy endpoint icon \(\[Omitted image "copy-endpoint-icon.png"\] Alt text: Copy endpoint icon.\)
 
     **Tip:** Keep the endpoint at a secure place to use later at the third-party application webhook.
 
@@ -99,7 +100,7 @@ Ensure that you've installed the required spoke plugin.
 
 1.  Select **Edit**.
 
-    ![Edit button.](../images/endpoint-deconfigure-hash-edit-button.png).
+    \[Omitted image "endpoint-deconfigure-hash-edit-button.png"\] Alt text: Edit button..
 
     1.  Select **Update**.
 
@@ -109,7 +110,7 @@ Ensure that you've installed the required spoke plugin.
 
 2.  Remove the secret.
 
-    ![Secret field.](../images/endpoint-deconfigure-hash-remove-secret.png).
+    \[Omitted image "endpoint-deconfigure-hash-remove-secret.png"\] Alt text: Secret field..
 
 3.  Select **Update**.
 

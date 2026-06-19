@@ -2,6 +2,7 @@
 title: Create an external identity provider
 description: After you have configured the multi-provider SSO properties, you can update or create new SAML 2.0 or digest token identity provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_CreateUpdateIdentityProvider.html
 release: australia
 product: Authentication
 classification: authentication
@@ -33,7 +34,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
     -   For digest token configurations: Click **Digest SSO** and enter the digest properties for multi-provider single sign-on.
     -   For SAML2 configurations: Click **MultiSSOV2\_SAML2\_custom** and import the identity provider metadata from a URL, as XML, or manually enter the identity provider information.
 
-        ![Importing identity provider metadata](../image/Import_metadata.png)
+        \[Omitted image "Import\_metadata.png"\] Alt text: Importing identity provider metadata
 
     -   For OpenID Connect: Click **OpenID Connect** and enter client ID, client secret, and well known configuration URL.
 4.  To make the IdP the failover IdP that is used when the default IdP is not available, select the **Default** check box.
@@ -46,6 +47,6 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 5.  If E-Signature is active, configure the Identity Provider form and add the **Assertion Consumer URL for eSignature authentication** field.
 
-    In most cases, this URL is: `https://YOURINSTANCE.service-now.com/consumer.do`. However, if you employ a customized method of handling the SAML authentication for E-Signature, you can set up your own consumer URL. If you are only using SAML 2.0 Update 1 and not using Multi-Provider Single Sign-on, configure the assertion consumer URL with [E-signature SAML properties](../../saml/concept/c_AddingSupportForESignature.md).
+    In most cases, this URL is: `https://YOURINSTANCE.service-now.com/consumer.do`. However, if you employ a customized method of handling the SAML authentication for E-Signature, you can set up your own consumer URL. If you are only using SAML 2.0 Update 1 and not using Multi-Provider Single Sign-on, configure the assertion consumer URL with [E-signature SAML properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_AddingSupportForESignature.md).
 
 

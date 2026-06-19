@@ -2,13 +2,14 @@
 title: Create assets
 description: Create hardware, software, consumable, bundle, pallet, mobile, and facility assets using the Core UI or the Hardware Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_CreatingAssets.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Work with Asset and CI, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Work with Asset and CI, Use, Asset Management, IT Asset Management]
 ---
 
 # Create assets
@@ -23,7 +24,7 @@ Role required: asset
 
 -   **Unique identifiers for assets**
 
-    When you create an asset that belongs to a model category linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records. However, specifying the values for these fields is optional in the following scenarios:
+    When you create an asset that belongs to a model category linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see  and . These rules help to uniquely identify the asset through these required fields and maintain accurate asset records. However, specifying the values for these fields is optional in the following scenarios:
 
     -   When you are creating an asset that belongs to a model category without a CI class.
     -   When you are creating an asset that belongs to a model category linked to a CI class without any identification rules defined.
@@ -32,15 +33,15 @@ Role required: asset
 
 1.  Create an asset.
 
-<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d103449e99">
+<table id="choicetable_tcm_zwf_cxb"><thead><tr><th align="left" id="d73161e97">
 
 Interface
 
-</th><th align="left" id="d103449e102">
+</th><th align="left" id="d73161e100">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d103449e108">
+</th></tr></thead><tbody><tr><td id="d73161e106">
 
 **Core UI**
 
@@ -51,7 +52,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d103449e147">
+</td></tr><tr><td id="d73161e145">
 
 **Hardware Asset Workspace**
 
@@ -65,10 +66,10 @@ Action
 </td></tr></tbody>
 </table>2.  On the Asset record fields form, fill in the fields.
 
-    For a description of the field values, see [Asset record fields](../reference/asset-record-fields.md).
+    For a description of the field values, see [Asset record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/asset-record-fields.md).
 
 3.  Submit or save the asset form.
 
 
-**Parent Topic:**[Work with Asset and CI](../../hardware-asset-management/concept/work-with-asset-ci.md)
+**Parent Topic:**[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-asset-ci.md)
 

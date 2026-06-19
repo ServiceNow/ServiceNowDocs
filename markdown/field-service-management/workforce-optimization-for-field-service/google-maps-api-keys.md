@@ -2,6 +2,7 @@
 title: Configuring Google Maps API keys
 description: Google Maps API keys are essential for accessing and utilizing the features provided by the Google Maps Platform in Field Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/google-maps-api-keys.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -33,11 +34,11 @@ If you create new Google API keys after March 1, 2025, you must enable the new A
 
 The steps for setting up Google Maps API keys are:
 
-1.  [Setting up system properties](../task/configuring-google-maps-in-fsm.md)
+1.  [Setting up system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/configuring-google-maps-in-fsm.md)
 
     Field Service Management requires Google Maps configuration for users to view maps and operate location features properly.
 
-2.  [Setting client and server API keys](../../work-management/reference/google-maps-apis-and-fsm-capabilities.md)
+2.  [Setting client and server API keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/google-maps-apis-and-fsm-capabilities.md)
 
     Field Service requires Google Maps API configuration for users to operate location features properly.
 

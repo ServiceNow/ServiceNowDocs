@@ -2,6 +2,7 @@
 title: Minimize reset password request expiration duration
 description: The password\_reset.request.expiry denotes the time period in minutes during which a user must perform the password reset process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-reset-password-request-expiration.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[Configure Password Reset properties](../../login/task/t_SetPwdResetProps.md)
+[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SetPwdResetProps.md)
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Authentication](sc-authentication.md)
+**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

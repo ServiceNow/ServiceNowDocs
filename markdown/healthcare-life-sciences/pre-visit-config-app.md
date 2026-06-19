@@ -2,6 +2,7 @@
 title: Configuring Pre-Visit Management
 description: Set up the Pre-Visit Management application to complete pre-visit activities associated with a procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-config-app.html
 release: australia
 topic_type: concept
 last_updated: "2023-08-03"
@@ -21,7 +22,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 The following table provides an overview of the configuration tasks required for Pre-Visit Management.
 
-**Note:** The Pre-Visit Management application is based on the [Healthcare and Life Sciences data model](hcls-serv-mgmt-core.md) and stores all procedure requests in the Procedure request \[sn\_previsit\_procedure\_request\] table.
+**Note:** The Pre-Visit Management application is based on the [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core.md) and stores all procedure requests in the Procedure request \[sn\_previsit\_procedure\_request\] table.
 
 <table id="table_ksw_gpr_4nb"><thead><tr><th>
 
@@ -33,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Pre-Visit Management](../task/install-pre-visit-mgmt.md).
+[Install Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/install-pre-visit-mgmt.md).
 
 </td><td>
 
@@ -41,7 +42,7 @@ Install the Pre-Visit Management application to work on procedure requests.
 
 </td></tr><tr><td>
 
-[Assign roles for Pre-Visit Management users](../task/pre-visit-assign-roles.md).
+[Assign roles for Pre-Visit Management users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-assign-roles.md).
 
 </td><td>
 
@@ -49,7 +50,7 @@ Assign roles to control access to features, capabilities, and data in the Pre-Vi
 
 </td></tr><tr><td>
 
-[Approve restricted caller access privileges for Pre-Visit Management.](pre-visit-approve-rca.md)
+[Approve restricted caller access privileges for Pre-Visit Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-approve-rca.md)
 
 </td><td>
 
@@ -57,7 +58,7 @@ Approve restricted caller access \(RCA\) privileges for accessing document templ
 
 </td></tr><tr><td>
 
-[Determine who can work on the appointment booking task for a procedure](../task/pre-visit-proc-scheduler-grp.md).
+[Determine who can work on the appointment booking task for a procedure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-proc-scheduler-grp.md).
 
 </td><td>
 
@@ -65,7 +66,7 @@ Add users who can work on the appointment booking task for a procedure to the Pr
 
 </td></tr><tr><td>
 
-[Configure when to send the procedure consent form to a patient](../task/pre-visit-config-proc-consent-time.md).
+[Configure when to send the procedure consent form to a patient](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-config-proc-consent-time.md).
 
 </td><td>
 
@@ -73,7 +74,7 @@ Configure the Pre-Visit Management application to when to send the procedure con
 
 </td></tr><tr><td>
 
-[Specify a to-do item for patients](pre-visit-config-to-do-items.md).
+[Specify a to-do item for patients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-config-to-do-items.md).
 
 </td><td>
 
@@ -81,7 +82,7 @@ Add a to-do item that patients must complete as part of their pre-visit planning
 
 </td></tr><tr><td>
 
-[Configure the auto-generation of documents for a procedure request](pre-visit-config-doc-decisions.md).
+[Configure the auto-generation of documents for a procedure request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-config-doc-decisions.md).
 
 </td><td>
 
@@ -89,7 +90,7 @@ Define the conditions for auto-generating documents for a procedure request.
 
 </td></tr><tr><td>
 
-[Configure the patient portal to add a to-dos menu item for procedure request tasks](pre-visit-config-to-do.md).
+[Configure the patient portal to add a to-dos menu item for procedure request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-config-to-do.md).
 
 </td><td>
 
@@ -97,7 +98,7 @@ Configure the patient portal to add a menu item that lists all to-do items for p
 
 </td></tr><tr><td>
 
-[Configure a playbook for Pre-Visit Management](pre-visit-config-playbook.md).
+[Configure a playbook for Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-config-playbook.md).
 
 </td><td>
 
@@ -105,7 +106,7 @@ Configure a playbook to provide step-by-step guidance for resolving procedure re
 
 </td></tr><tr><td>
 
-[Configure a Pre-Visit Management email notification](pre-visit-config-emails.md).
+[Configure a Pre-Visit Management email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-config-emails.md).
 
 </td><td>
 
@@ -113,7 +114,7 @@ Configure the Pre-Visit Management email notifications sent to patients about pr
 
 </td></tr><tr><td>
 
-[Determine additional user profiles](pre-visit-connector-contributor.md).
+[Determine additional user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-connector-contributor.md).
 
 </td><td>
 
@@ -121,7 +122,7 @@ Determine who can act as an agent connector or contributor for procedure request
 
 </td></tr><tr><td>
 
-[Set up the process for contributors to create a procedure request case](pre-visit-case-contributor.md).
+[Set up the process for contributors to create a procedure request case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-case-contributor.md).
 
 </td><td>
 

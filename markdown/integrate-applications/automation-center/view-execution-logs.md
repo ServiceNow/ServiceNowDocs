@@ -2,6 +2,7 @@
 title: View action logs
 description: View action logs to see details of actions that are executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/view-execution-logs.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -23,12 +24,12 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
 
-2.  Select the Lists icon \(![Lists icon](../images/list-icon.png)\) on the left.
+2.  Select the Lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon\) on the left.
 
 3.  Select **Monitor** &gt; **Action Logs**.
 
 4.  The logs of all executed actions is displayed.
 
 
-**Parent Topic:**[Manage actions](../concept/manage-actions.md)
+**Parent Topic:**[Manage actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/manage-actions.md)
 

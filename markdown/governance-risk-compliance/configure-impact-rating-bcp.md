@@ -2,6 +2,7 @@
 title: Configure an impact rating to assess an impact category
 description: Configure a rating for each category to help you measure the intensity of loss when a business downtime occurs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-impact-rating-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

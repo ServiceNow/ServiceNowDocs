@@ -2,6 +2,7 @@
 title: Data egress reports in the Integration Hub Usage Dashboard
 description: The Data egress reports give insights on data egress from the ServiceNow instance through API protocols or export sets. You can view more information when you select specific records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ihub-dashboard-api-egress.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -33,7 +34,7 @@ Data Egress by source: Data egress volume by API protocols and export.
 
 Data Egress Trends: Trends in data egress across the time period.
 
-![Overview section that shows data egress.](../images/ihub-dashboard-overview.png)
+\[Omitted image "ihub-dashboard-overview.png"\] Alt text: Overview section that shows data egress.
 
 **Note:** All charts are adjusted to the nearest data metric starting with Bytes.
 
@@ -45,7 +46,7 @@ Data Egress by API Protocols: Data egress volume by API protocols.
 
 Data Egress Trends: Trends in data egress across the time period.
 
-![API section showing data egress by protocols.](../images/ihub-data-egress-api-protocols.png)
+\[Omitted image "ihub-data-egress-api-protocols.png"\] Alt text: API section showing data egress by protocols.
 
 **Note:** All charts are adjusted to the nearest data metric starting with Bytes.
 
@@ -78,7 +79,7 @@ View different insights on data going out of the ServiceNow instance. For exampl
 
 ## View egress data for a specified time period
 
-![Filter to specify date range.](../images/ihub-dashboard-date-range.png)
+\[Omitted image "ihub-dashboard-date-range.png"\] Alt text: Filter to specify date range.
 
 ## Overview of data egress
 
@@ -92,11 +93,11 @@ Do the steps.
 
 2.  Select the data egress volume in the Data Egress report.
 
-    ![Total data egress volume.](../images/ihub-dashboard-data-egress-overview.png)
+    \[Omitted image "ihub-dashboard-data-egress-overview.png"\] Alt text: Total data egress volume.
 
     The data egress by API protocols and exports appear.
 
-    ![Data egress by API protocols and exports.](../images/ihub-dashboard-data-egress-by-api-exports.png)
+    \[Omitted image "ihub-dashboard-data-egress-by-api-exports.png"\] Alt text: Data egress by API protocols and exports.
 
 
 ## Data egress by API protocols or exports
@@ -111,13 +112,13 @@ Do the steps.
 
 2.  On the Data Egress by source report, select a source.
 
-    ![Data egress by API protocols and exports.](../images/ihub-usage-dashboard-data-egress-api-exports.png)
+    \[Omitted image "ihub-usage-dashboard-data-egress-api-exports.png"\] Alt text: Data egress by API protocols and exports.
 
     For example, select API.
 
     The data egress by API protocols such as REST and SOAP appears.
 
-    ![Data egress by sources.](../images/ihub-usage-dashboard-data-egress-sources.png)
+    \[Omitted image "ihub-usage-dashboard-data-egress-sources.png"\] Alt text: Data egress by sources.
 
 
 ## View data egress by API protocols or exports on a specified date
@@ -132,7 +133,7 @@ Do the following steps.
 
 2.  On the Data Egress Trends report, move the pointer to a date and then select the source.
 
-    ![Date and source selection for data egress report.](../images/ihub-dashboard-data-egress-by-date.png)
+    \[Omitted image "ihub-dashboard-data-egress-by-date.png"\] Alt text: Date and source selection for data egress report.
 
     All records of data egress by the date and source that you specified appears.
 
@@ -147,19 +148,19 @@ Do the steps.
 2.  From the Filter by list, select **API**.
 3.  In the Data Egress by API Protocols report, select an API protocol, for example, REST.
 
-    ![Selection of an API protocol.](../images/data-egress-by-api-prot.png)
+    \[Omitted image "data-egress-by-api-prot.png"\] Alt text: Selection of an API protocol.
 
     All records of data egress by the API protocol that you specified appears.
 
-    ![Data egress shown by the API protocol that you specified.](../images/data-egress-by-api-prot-result.png)
+    \[Omitted image "data-egress-by-api-prot-result.png"\] Alt text: Data egress shown by the API protocol that you specified.
 
-4.  To view more data on a specific record, select the View Aggregate Breakdown icon ![Drill down icon.](../images/ihub-usage-drill-down-icon.png).
+4.  To view more data on a specific record, select the View Aggregate Breakdown icon \[Omitted image "ihub-usage-drill-down-icon.png"\] Alt text: Drill down icon..
 
-    ![Select the View Aggregate Breakdown icon.](../images/ihub-usage-view-aggr-breakdown.png)
+    \[Omitted image "ihub-usage-view-aggr-breakdown.png"\] Alt text: Select the View Aggregate Breakdown icon.
 
     The transaction log appears.
 
-    ![Transaction log.](../images/ihub-usage-transac-log.png)
+    \[Omitted image "ihub-usage-transac-log.png"\] Alt text: Transaction log.
 
 
 ## View data egress by API protocols on a specified date
@@ -172,19 +173,19 @@ Do the steps.
 2.  From the Filter by list, select **API**.
 3.  Move the pointer to a date on the graph, and select an API protocol.
 
-    ![API protocol graph.](../images/ihub-usage-select-date.png)
+    \[Omitted image "ihub-usage-select-date.png"\] Alt text: API protocol graph.
 
     The data egress by the selected API protocol on the selected date appears.
 
-    ![Data egress by date.](../images/ihub-usage-protocol-date.png)
+    \[Omitted image "ihub-usage-protocol-date.png"\] Alt text: Data egress by date.
 
-4.  To view more data on a specific record, select the View Aggregate Breakdown icon ![Drill down icon.](../images/ihub-usage-drill-down-icon.png).
+4.  To view more data on a specific record, select the View Aggregate Breakdown icon \[Omitted image "ihub-usage-drill-down-icon.png"\] Alt text: Drill down icon..
 
-    ![Data egress API trends.](../images/ihub-usage-api-prot-trends.png)
+    \[Omitted image "ihub-usage-api-prot-trends.png"\] Alt text: Data egress API trends.
 
     The transaction log appears.
 
-    ![Transaction log.](../images/ihub-usage-transac-log.png)
+    \[Omitted image "ihub-usage-transac-log.png"\] Alt text: Transaction log.
 
 
 ## Reports on data egress by export
@@ -202,15 +203,15 @@ To access the reports on data egress by export sets or URI, do the steps.
 
 1.  On the Data Egress by Exports report pie-chart, select the data export type. For example, export sets.
 
-    ![Data egress by export type.](../images/ihub-usage-egress-export-uri.png)
+    \[Omitted image "ihub-usage-egress-export-uri.png"\] Alt text: Data egress by export type.
 
     The date-wise data exports by the source you specified appears.
 
-    ![Export source-wise data.](../images/ihub-usage-export-set.png)
+    \[Omitted image "ihub-usage-export-set.png"\] Alt text: Export source-wise data.
 
-2.  To view more information on an export set on a date, select the View Aggregate Breakdown icon ![Drill down icon.](../images/ihub-usage-drill-down-icon.png).
+2.  To view more information on an export set on a date, select the View Aggregate Breakdown icon \[Omitted image "ihub-usage-drill-down-icon.png"\] Alt text: Drill down icon..
 
-    ![Select the View Aggregate Breakdown icon.](../images/ihub-usage-export-drilldown.png)
+    \[Omitted image "ihub-usage-export-drilldown.png"\] Alt text: Select the View Aggregate Breakdown icon.
 
     The data appears.
 
@@ -223,23 +224,23 @@ Do the following steps.
 
 1.  On the Data Egress Trends report, move the pointer to a date and then select the export type. For example, move the pointer to April 19, and then select Export Sets.
 
-    ![Data export by export type on a date.](../images/ihub-usage-export-by-date.png)
+    \[Omitted image "ihub-usage-export-by-date.png"\] Alt text: Data export by export type on a date.
 
     The egress data on the export type and date that you specified appears.
 
-    ![Date-wise and source-wise egress data.](../images/ihub-usage-export-date.png)
+    \[Omitted image "ihub-usage-export-date.png"\] Alt text: Date-wise and source-wise egress data.
 
-2.  To view more data on a specific record, select the View Aggregate Breakdown icon ![Drill down icon.](../images/ihub-usage-drill-down-icon.png).
+2.  To view more data on a specific record, select the View Aggregate Breakdown icon \[Omitted image "ihub-usage-drill-down-icon.png"\] Alt text: Drill down icon..
 
-![View Aggregate Breakdown icon.](../images/ihub-usage-export-drill-down.png)
+\[Omitted image "ihub-usage-export-drill-down.png"\] Alt text: View Aggregate Breakdown icon.
 
 The data appears.
 
-![Drill-down data.](../images/ihub-usage-datewise-export-egress.png)
+\[Omitted image "ihub-usage-datewise-export-egress.png"\] Alt text: Drill-down data.
 
 ## Data generation in the reports
 
 Data in the reports are generated from the `data_egress_count` table. [View](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1638468) how data is populated in the `data_egress_count`.
 
-**Parent Topic:**[Integration Hub Usage Dashboard](../concept/integrationhub-usage-dashboard.md)
+**Parent Topic:**[Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-usage-dashboard.md)
 

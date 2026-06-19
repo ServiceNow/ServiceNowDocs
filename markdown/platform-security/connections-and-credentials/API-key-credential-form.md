@@ -2,6 +2,7 @@
 title: API key credentials
 description: An API key is a unique code that is passed in to an API to identify the calling application or user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/API-key-credential-form.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials

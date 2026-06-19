@@ -2,11 +2,14 @@
 title: Configure exception reasons for Scan Engine
 description: Configure how exception reasons are enforced, approved, and re-evaluated when findings are detected using the ServiceNow Scan Engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/configure-exception-reasons-scan-engine.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-04-13"
 reading_time_minutes: 1
-breadcrumb: [Real-time prevention monitoring for Scan Engine, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # Configure exception reasons for Scan Engine

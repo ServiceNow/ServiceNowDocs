@@ -2,6 +2,7 @@
 title: Integrating RCM with other applications
 description: Extend the capabilities of RCM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/integrating-with-rcm.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -15,8 +16,8 @@ breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 
 Extend the capabilities of RCM.
 
--   **[RSS feeds overview](rss-feeds.md)**  
+-   **[RSS feeds overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rss-feeds.md)**  
 A Really simple syndication \(RSS\) feed in Regulatory Change Management is like a subscription service for updates about new or changed rules and regulations. Instead of visiting multiple websites to check for updates, you can subscribe to feeds from regulatory bodies or industry news.
 
-**Parent Topic:**[Regulatory Change Management](../reference/reg-change-mgmt-landing-page.md)
+**Parent Topic:**[Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.md)
 

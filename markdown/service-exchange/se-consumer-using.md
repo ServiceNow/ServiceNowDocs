@@ -2,6 +2,7 @@
 title: Use for consumers
 description: As a consumer, learn how to use Service Exchange to activate various entitlements to fulfill your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-consumer-using.html
 release: australia
 product: Service Exchange
 classification: service-exchange

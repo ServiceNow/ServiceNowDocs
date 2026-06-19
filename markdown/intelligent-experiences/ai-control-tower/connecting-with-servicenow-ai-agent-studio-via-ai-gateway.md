@@ -2,6 +2,7 @@
 title: Connecting with AI Agent Studio Via AI Gateway
 description: Connecting with AI Agent Studio via AI Gateway.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/connecting-with-servicenow-ai-agent-studio-via-ai-gateway.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

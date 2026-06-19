@@ -2,6 +2,7 @@
 title: Use Article Quality Index
 description: Use article quality index \(AQI\) to assess the quality of knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/use-article-quality-index.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -15,20 +16,20 @@ breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content ca
 
 Use article quality index \(AQI\) to assess the quality of knowledge articles.
 
--   **[Create an AQI checklist](../task/create-an-aqi-checklist.md#)**  
+-   **[Create an AQI checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-an-aqi-checklist.md)**  
 Create a checklist of questions that reviewers can use to evaluate the quality of knowledge articles.
--   **[Assign an AQI checklist to a knowledge base](../task/assign-an-aqi-checklist-to-a-knowledgebase.md)**  
+-   **[Assign an AQI checklist to a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/assign-an-aqi-checklist-to-a-knowledgebase.md)**  
 Before a knowledge reviewer can start performing the AQI review, you must assign an AQI checklist to a knowledge base.
--   **[Remove an AQI checklist from a knowledge base](../task/remove-an-aqi-checklist-from-a-knowledgebase.md)**  
+-   **[Remove an AQI checklist from a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/remove-an-aqi-checklist-from-a-knowledgebase.md)**  
 Before you can edit a checklist that is assigned to a knowledge base, you must remove it from the knowledge base.
--   **[Delete questions from an AQI checklist](../task/delete-questions-from-an-aqi-checklist.md)**  
+-   **[Delete questions from an AQI checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/delete-questions-from-an-aqi-checklist.md)**  
 Deleting a question in a checklist deletes the text in the question of previously performed AQI reviews that use the checklist. Deleting an AQI question from a checklist will not affect the score of the previously performed AQI reviews. However, the text of the question will not be displayed in the checklist.
--   **[Perform the Article Quality Index review](../task/perform-an-aqi.md)**  
+-   **[Perform the Article Quality Index review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/perform-an-aqi.md)**  
 Perform the Article Quality Index \(AQI\) review to evaluate the quality of the article.
--   **[View all pending and completed AQI reviews](../task/view-all-aqi-reviews.md)**  
+-   **[View all pending and completed AQI reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-all-aqi-reviews.md)**  
 View checklists of all users to monitor the pending and completed reviews.
--   **[Delete AQI reviews](../task/delete-aqi-reviews.md)**  
+-   **[Delete AQI reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/delete-aqi-reviews.md)**  
 Delete an AQI review that was created by mistake or is no longer required.
 
-**Parent Topic:**[Using Knowledge Management](using-knowledge-management.md)
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

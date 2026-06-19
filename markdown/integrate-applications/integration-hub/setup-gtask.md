@@ -2,6 +2,7 @@
 title: Set up the Google Tasks spoke
 description: Integrate the ServiceNow instance and the Google Tasks spoke by using the G Suite credentials to authenticate the ServiceNow requests.Create a custom OAuth application to enable OAuth 2.0 authentication of the ServiceNow by the Google Workspace.Create a connection and credential record to establish a connection between the ServiceNow instance and the Google Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gtask.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -56,7 +57,7 @@ Complete these steps from the [Google Developers Console](https://console.develo
 
 8.  Copy the Client ID and the Client Secret to a text file.
 
-    The animation demonstrates the setting up of OAuth Client ID. You must activate the Google Tasks API on [https://console.cloud.google.com/welcome?project=nowgsintegration](https://console.cloud.google.com/welcome?project=nowgsintegration) before creating an OAuth Client ID.![Set up OAuth Client ID.](../image/OAuth-client-ID.gif)
+    The animation demonstrates the setting up of OAuth Client ID. You must activate the Google Tasks API on [https://console.cloud.google.com/welcome?project=nowgsintegration](https://console.cloud.google.com/welcome?project=nowgsintegration) before creating an OAuth Client ID.\[Omitted image "OAuth-client-ID.gif"\] Alt text: Set up OAuth Client ID.
 
     **Tip:** Save the JSON file containing the OAuth client details for later reference.
 

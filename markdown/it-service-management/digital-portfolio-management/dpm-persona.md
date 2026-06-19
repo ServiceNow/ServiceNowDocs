@@ -2,6 +2,7 @@
 title: Digital Portfolio Management persona
 description: The Digital Portfolio Management \(DPM\) persona is a solution owner — That is one that owns services, service offerings, business applications, or service instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-persona.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -19,7 +20,7 @@ The Digital Portfolio Management \(DPM\) persona is a solution owner — That is
 
 The Digital Portfolio Management \(DPM\) target persona owns solutions like services, service offerings, business applications, or service instances. The DPM workspace enables a single view of the full life cycle to determine the overall health and performance of solutions.
 
-![DPM solution owner.](../image/dpm-target-persona.png "DPM solution owner")
+\[Omitted image "dpm-target-persona.png"\] Alt text: DPM solution owner.
 
-**Parent Topic:**[Digital Portfolio Management reference](dpm-reference-cfw.md)
+**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 

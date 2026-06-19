@@ -2,6 +2,7 @@
 title: Create an Aha! OAuth2 application
 description: Create an OAuth2 application in the Aha! account so that the application can authenticate access requests to the Aha! server from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-aha-oauth2-authentication.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -29,7 +30,7 @@ Ensure that you've installed the Aha! spoke plugin.
 
 2.  Log in to the Aha! site using your admin credentials.
 
-3.  On the Features board page, click the settings icon \(![Aha settings icon.](../image/aha-settings-icon.png)\).
+3.  On the Features board page, click the settings icon \(\[Omitted image "aha-settings-icon.png"\] Alt text: Aha settings icon.\).
 
 4.  On the Personal settings page, click **Developer**.
 

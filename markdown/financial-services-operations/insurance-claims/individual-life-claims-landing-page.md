@@ -2,13 +2,14 @@
 title: Individual Life Claims
 description: The Individual Life Claims application enables your organization to set up the various stages of the individual life claim process quickly, starting from the first notice of loss to the claim closure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/individual-life-claims-landing-page.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Individual Life Claims
@@ -19,19 +20,19 @@ The Individual Life Claims application enables your organization to set up the v
 
 <table id="table_kc5_rdc_mbc" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how processors and adjustors use Individual Life Claims](exploring-individual-life-claims.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how processors and adjustors use Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/exploring-individual-life-claims.md)
 
 </td><td>
 
-[Set up![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up Individual Life Claims](setting-up-individual-life-claims.md)
+[Set up\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-learn.svg)Manage cases for insurance claims from the first notice of loss to the claim closure](using-individual-life-claims.md)
+[Use\[Omitted image "bus-learn.svg"\] Alt text:Manage cases for insurance claims from the first notice of loss to the claim closure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/using-individual-life-claims.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg)Get details about components such as roles, tables, plugins, and store applications that are installed](individual-life-claims-reference.md)
+[Reference\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Get details about components such as roles, tables, plugins, and store applications that are installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/individual-life-claims-reference.md)
 
 </td></tr></tbody>
 </table>

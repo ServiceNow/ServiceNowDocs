@@ -2,6 +2,7 @@
 title: Map source values
 description: Map the source state values with the destination state values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/map-values.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Map the source state values with the destination state values.
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
-Proceed from the **Add source values** section. For information on aligning source and destination fields, see [Add source values](add-source-values.md).
+Proceed from the **Add source values** section. For information on aligning source and destination fields, see [Add source values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/add-source-values.md).
 
 ## Procedure
 
@@ -32,5 +33,5 @@ Proceed from the **Add source values** section. For information on aligning sour
     The **Review and activate** section is displayed.
 
 
-**Parent Topic:**[Aligning source and destination values](align-values.md)
+**Parent Topic:**[Aligning source and destination values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/align-values.md)
 

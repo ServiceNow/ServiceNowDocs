@@ -2,11 +2,14 @@
 title: Activate Data Collection for HR
 description: Activate the Data Collection Pack for HR after you enable and configure it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-hr-activate.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for HR, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for HR, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Activate Data Collection for HR

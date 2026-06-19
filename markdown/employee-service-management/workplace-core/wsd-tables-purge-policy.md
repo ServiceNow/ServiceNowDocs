@@ -2,6 +2,7 @@
 title: Apply the archive rule
 description: Apply the archival policy for Workplace Core to archive old table records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/wsd-tables-purge-policy.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -50,10 +51,10 @@ The archival policy archives old table records to improve performance and restri
 
     **Note:** The child tables in the following applications are also archived when this archive policy is run:
 
-    -   Workplace Case Management: [Components installed with Workplace Case Management](../../workplace-case-mgmt/reference/components-installed-with-workplace-case-mgmt.md)
-    -   Workplace Reservation Management: [Components installed with Workplace Reservation Management](../../wsd-reservation-management/reference/components-installed-with-wsd-reservation-mgmt.md)
-    -   Workplace Calendar Synchronization: [Components installed with Workplace Calendar Synchronization](../../workplace-calendar-synchronization/reference/components-installed-with-workplace-calendar-syncn.md)
-    -   Workplace Move Management: [Components installed with Workplace Move Management](../../workplace-move-mgmt/reference/components-installed-with-workplace-move-mgmt.md)
+    -   Workplace Case Management: [Components installed with Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/components-installed-with-workplace-case-mgmt.md)
+    -   Workplace Reservation Management: [Components installed with Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/components-installed-with-wsd-reservation-mgmt.md)
+    -   Workplace Calendar Synchronization: [Components installed with Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/components-installed-with-workplace-calendar-syncn.md)
+    -   Workplace Move Management: [Components installed with Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/components-installed-with-workplace-move-mgmt.md)
 
-**Parent Topic:**[Managing workplace tasks](../concept/managing-workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
 

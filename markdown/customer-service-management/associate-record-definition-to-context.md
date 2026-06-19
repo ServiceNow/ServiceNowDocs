@@ -2,7 +2,10 @@
 title: Associate related record definitions with a related record context
 description: Associate the desired related record definitions with a context record to determine which related records appear for the selected record type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-record-definition-to-context.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

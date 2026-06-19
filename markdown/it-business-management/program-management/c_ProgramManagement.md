@@ -2,6 +2,7 @@
 title: Program Management
 description: A program helps you to logically group related projects or demands under a single entity. The ServiceNow Program Management application helps you to manage related projects and demands in coordinated way which is not possible when projects and demands are managed independently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/program-management/c\_ProgramManagement.html
 release: australia
 product: Program Management
 classification: program-management
@@ -15,7 +16,7 @@ breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 
 A program helps you to logically group related projects or demands under a single entity. The ServiceNow® Program Management application helps you to manage related projects and demands in coordinated way which is not possible when projects and demands are managed independently.
 
-The it\_program\_manager [role](../../project-portfolio-suite-with-financials/reference/roles-installed-with-PPS-finance.md#roles_ProgramMgmt) is essential to be able to manage programs. The Program Management application provides the following capabilities to the program manager:
+The it\_program\_manager [role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/roles-installed-with-PPS-finance.md) is essential to be able to manage programs. The Program Management application provides the following capabilities to the program manager:
 
 -   Create a program by adding related projects and demands.
 -   Create tasks specific to the program. These tasks are essential for completion of the program but are outside the scope of projects.
@@ -31,13 +32,13 @@ When you create a program, consider:
 
 The following diagram illustrates how you can implement programs.
 
-![Program implementation](../image/ProgramManagementConcept.png "Program implementation")
+\[Omitted image "ProgramManagementConcept.png"\] Alt text: Program implementation
 
 ## Basics of Program Management
 
 When you create a program, you can add multiple projects or demands to it. If you have created cost plans for the projects and demands, certain values are rolled up from the cost breakdown of program. At the same time, the risk and issues of the projects and demands are also included with the program. The following diagram illustrates how information in the program is related to the projects and demands that are part of the program.
 
-![Information population in program](../image/program_project_demand_relation.png "Information population in program")
+\[Omitted image "program\_project\_demand\_relation.png"\] Alt text: Information population in program
 
 Project workbench provides graphical charts to view and monitor the progress of the program and the projects and demands that are part of it. You can also view the progress of a program, projects, and demands against a timeline with the details of milestones and key milestones.
 
@@ -72,12 +73,12 @@ Program vs Project decision criteria:
 -   Use Program when: Multi-project initiative, $1M+ budget, 2+ year duration, cross-organizational scope
 -   Use Project when: Single deliverable
 
--   **[Create a program to manage projects and demands](../task/t_CreateAProgram.md)**  
+-   **[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/t_CreateAProgram.md)**  
 Create a program to manage related projects and demands. Define the duration, estimated cost, benefits, and ROI to the organization.
--   **[Program workbench](c_ProgramWorkbench.md)**  
+-   **[Program workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/c_ProgramWorkbench.md)**  
 The program workbench is a central location for viewing details of a program and the projects and demands that are part of the program.
--   **[Program Dashboard](c_ProgramManagerDashboard.md)**  
+-   **[Program Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/program-management/c_ProgramManagerDashboard.md)**  
 The PMO dashboard provides a central location to a program manager to generate different graphical reports.
 
-**Parent Topic:**[Project Portfolio Management](../../project-portfolio-suite/concept/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

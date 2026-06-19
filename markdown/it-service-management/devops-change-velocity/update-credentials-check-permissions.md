@@ -2,6 +2,7 @@
 title: Check permissions and update credentials for tools — Workspace
 description: You can perform permission checks and update credentials like passwords and access tokens for your tools from the tool details page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/update-credentials-check-permissions.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -142,8 +143,8 @@ These tools don't check for permissions. To update credentials:1.  Click **Updat
 </table>    Permission checks are run on the new credentials. Once permissions check is completed, you can proceed with updating the credentials. If you want to abort the update, click **Cancel**.
 
 
--   **[Permissions required for DevOps tools](tool-req-permission.md)**  
+-   **[Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md)**  
 Permissions required in your third-party tool to connect to DevOps Change Velocity.
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

@@ -2,6 +2,7 @@
 title: Configure a dosage specification for a medication product associated with a program
 description: Create a dosage specification associated with a medication product included in a program.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-dosage.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,7 +18,7 @@ Create a dosage specification associated with a medication product included in a
 
 ## Before you begin
 
--   [Configure a program](hcls-create-program.md#).
+-   [Configure a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
     **Note:** When configuring a program, associate medication products with the program.
 
@@ -32,7 +33,7 @@ By default, the application provides a few sample dosage characteristics for the
 
 1.  Navigate to **All** &gt; **HCLS Service Management** &gt; **Administration** &gt; **Dosage specifications**.
 
-    Alternatively, when [configuring a program](hcls-create-program.md#), select the Dosage specifications related list.
+    Alternatively, when [configuring a program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md), select the Dosage specifications related list.
 
 2.  In the Dosage specifications list, modify an existing dosage specification or click **New** to create another specification.
 
@@ -133,7 +134,7 @@ Additional information about the dosage specification.
 
     -   Save a new specification by clicking **Submit**.
     -   Save the changes to an existing specification by clicking **Update**.
-5.  [Configure characteristics for the dosage specification](hcls-create-program.md#).
+5.  [Configure characteristics for the dosage specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
 6.  Publish the dosage specification for use in the medication products added to the associated program.
 

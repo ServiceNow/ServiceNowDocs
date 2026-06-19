@@ -2,6 +2,7 @@
 title: Focus the Navigator panel on an app or app file
 description: Focus the Navigator panel on any open app or app file in ServiceNow Studio so the Navigator panel reflects your current work context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/qs-focus-navigator-panel-on-app-app-file.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -33,7 +34,7 @@ Video on how to focus the Navigator panel on an app or app file in ServiceNow St
 
     In this example, the file open in the canvas and the Navigator panel are both from the Dining Pass Share application.
 
-    ![Several files are open, and you can select Show in File Navigator to focus the Navigator panel on that file.](../image/sn-studio-focus-navigator.png)
+    \[Omitted image "sn-studio-focus-navigator.png"\] Alt text: Several files are open, and you can select Show in File Navigator to focus the Navigator panel on that file.
 
 4.  Verify that the Navigator panel now shows the selected file.
 
@@ -41,6 +42,6 @@ Video on how to focus the Navigator panel on an app or app file in ServiceNow St
 
     **Note:** The file open in the canvas stays the same until you select a different tab.
 
-    ![The focused file displayed in the Navigator panel.](../image/sn-studio-focus-nav-2.png)
+    \[Omitted image "sn-studio-focus-nav-2.png"\] Alt text: The focused file displayed in the Navigator panel.
 
 

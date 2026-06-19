@@ -2,11 +2,12 @@
 title: Integrate Datadog with OAuth authentication
 description: Integrate Datadog with Event Management by authenticating Datadog V1 or V2 tokens in the Datadog Monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/datadog-oauth-authentication.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Integrate Datadog platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -119,5 +120,5 @@ Datadog integration with OAuth authentication is available starting from the Was
 
 Alerts start flowing from Datadog agents into the Event Management plugin. The plugin extracts information from the original Datadog alert message to populate the required event fields and inserts the event into the database. In your ServiceNow AI Platform instance, navigate to All Events to see the events.
 
-**Note:** By default, host binding is enabled for Datadog events for \(AWS/Azure/GCP\) providers. If all hosts in the environment are discovered using Cloud Discovery by providing credentials and discovered resources are in the cmdb\_ci\_vm\_object list, then the VM binding may not occur. To resolve this, you must enable the Datadog - General event rule. For further information about Event rules, see [Event rules](../concept/create-event-rules.md).
+**Note:** By default, host binding is enabled for Datadog events for \(AWS/Azure/GCP\) providers. If all hosts in the environment are discovered using Cloud Discovery by providing credentials and discovered resources are in the cmdb\_ci\_vm\_object list, then the VM binding may not occur. To resolve this, you must enable the Datadog - General event rule. For further information about Event rules, see [Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md).
 

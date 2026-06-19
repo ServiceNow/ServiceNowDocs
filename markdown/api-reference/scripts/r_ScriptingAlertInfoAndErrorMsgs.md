@@ -2,6 +2,7 @@
 title: Scripting alert, info, and error messages
 description: You can send messages to customers as alerts, informational messages, or error messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_ScriptingAlertInfoAndErrorMsgs.html
 release: australia
 product: Scripts
 classification: scripts
@@ -78,7 +79,7 @@ Result
 
 </td><td>
 
-Displays a window with `Hello World` and an **OK** button.**Note:** Rather than use JavaScript alert\(\), for a cleaner look, you can display an error on the form itself with thee showFieldMsg\(\) and hideFieldMsg\(\) methods. For more information, see [Display field messages](../../useful-scripts/concept/useful-client-side-scripts.md#).
+Displays a window with `Hello World` and an **OK** button.**Note:** Rather than use JavaScript alert\(\), for a cleaner look, you can display an error on the form itself with thee showFieldMsg\(\) and hideFieldMsg\(\) methods. For more information, see [Display field messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/useful-client-side-scripts.md).
 
 </td></tr><tr><td>
 
@@ -118,5 +119,5 @@ The text size of info and error messages at the top of the screen is customizabl
 |`css.outputmsg.info.text.font-size`|Sets the size for info messages. Default is 11pt.|
 |`css.outputmsg.error.text.font-size`|Sets the size for error messages. Default is 11pt.|
 
-**Parent Topic:**[Scripting](../../topic/c_Script.md)
+**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
 

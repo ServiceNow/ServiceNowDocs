@@ -2,7 +2,10 @@
 title: View case records from the Customer and Consumer Service Portals
 description: View case records such as requests, changes, or problems, from the Customer or Consumer Service Portals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-related-records-from-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

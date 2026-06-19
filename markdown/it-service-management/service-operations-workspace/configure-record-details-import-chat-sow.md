@@ -2,6 +2,7 @@
 title: Configure the task record information in the MS Teams Import tab
 description: Customize the task record fields displayed when you view or import a Microsoft Teams chat conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-record-details-import-chat-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,9 +24,9 @@ Role required: admin
 
 When you view or import a Microsoft Teams chat conversation for a task record, the record details are displayed in the **Details** section of the **MS Teams Import** tab. These details are configured in the **Script** field of an implementation corresponding to the task record in the sn\_tcm\_collab\_hook.MSTeamsTaskInfoCardHandler extension point.
 
-For information about collaborating on a task record using Microsoft Teams chat, see [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](start-msteams-chat-sow.md).
+For information about collaborating on a task record using Microsoft Teams chat, see [Collaborate on a task record using Microsoft Teams in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/start-msteams-chat-sow.md).
 
-![MS Teams Import tab.](../image/ms-teams-chat-page.png "MS Teams Import tab")
+\[Omitted image "ms-teams-chat-page.png"\] Alt text: MS Teams Import tab.
 
 ## Procedure
 
@@ -40,5 +41,5 @@ For information about collaborating on a task record using Microsoft Teams chat,
 5.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](../concept/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

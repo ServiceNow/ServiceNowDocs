@@ -2,6 +2,7 @@
 title: Workflow fields with deleted records
 description: Workflow fields may indicate when a record required by the workflow is deleted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_WorkflowFieldsWithDeletedRecords.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -17,11 +18,11 @@ Workflow fields may indicate when a record required by the workflow is deleted.
 
 After a referenced record is deleted, the reference in the primary record is no longer valid. If the stage renderer detects a reference that is no longer valid, the stage field displays a message about the deleted record.
 
-Administrators can restore deleted records. For more information, see [Use the Deleted Records module to restore a deleted record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_RestoreADeletedRecordAndRef.md).
+Administrators can restore deleted records. For more information, see Use the Deleted Records module to restore a deleted record.
 
-![](../image/600pxWFRenderMissingrecordEdited.png "Workflows with missing records")
+\[Omitted image "600pxWFRenderMissingrecordEdited.png"\] Alt text:
 
 The image shows a list with two workflows. The top request does not have an associated request item. The bottom request has an associated request item, but the item does not have an associated workflow context.
 
-**Parent Topic:**[Workflow stages](../../using-workflows/concept/c_WorkflowStages.md)
+**Parent Topic:**[Workflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowStages.md)
 

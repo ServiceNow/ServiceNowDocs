@@ -2,6 +2,7 @@
 title: Workspace Playbook summary
 description: The following describes the process summary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-workspace-playbook-summary.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,5 +31,5 @@ The following describes the process summary.
 -   Some activities can be made to handle both automatic and interactive using wait for user input flag in the subflow. This input can be passed while configuring the activity in the process definition.
 -   After you have all the activity definition required for your process, start building the process definition using Workflow Studio.
 
-**Parent Topic:**[Playbook for Manual Phishing](playbook-manual-phishing.md)
+**Parent Topic:**[Playbook for Manual Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-manual-phishing.md)
 

@@ -2,7 +2,10 @@
 title: Email Interaction record page
 description: The Email interaction record page enables agents to manage email conversations with customers using interaction records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-email-interaction-record-page.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 10
@@ -17,7 +20,7 @@ The Email interaction record page enables agents to manage email conversations w
 
 The Email interaction record page variant is included with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\). This page variant includes the following settings.
 
-![email-interaction-record-page](../image/email-interaction-record-page.png)
+\[Omitted image "email-interaction-record-page.png"\] Alt text: email-interaction-record-page
 
 <table id="table_zqv_lvv_q1c"><thead><tr><th>
 
@@ -33,7 +36,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The Email Interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](../task/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The Email Interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +63,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see the page variant. The Email Interaction record page does not have a defined audience.For more information, see [Learn about audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-audiences.md).
+The audience determines who can see the page variant. The Email Interaction record page does not have a defined audience.For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -128,7 +131,7 @@ The lookup components display contact and consumer lookup cards on the left side
 -   Unlink a contact or consumer.
 -   Collapse or expand the contact or consumer card.
 
-For more information, see [Lookup component](csm-record-page-lookup-component.md).
+For more information, see [Lookup component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-record-page-lookup-component.md).
 
 </td></tr><tr><td>
 
@@ -171,7 +174,7 @@ The contextual side panel component includes different tools that agents can use
 </td></tr></tbody>
 </table>## Customer History component
 
-The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the [Customer Central](customer-central.md) plugin, which is activated as part of the CSM Configurable Workspace application.
+The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md) plugin, which is activated as part of the CSM Configurable Workspace application.
 
 The Customer History component includes the **Customer** tab. This tab displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab also includes a search field, filter, and date range selector that agents can use to find specific information in the history.
 
@@ -215,7 +218,7 @@ When an account is selected on the interaction record, the account history is di
 
 ## Workspace dock
 
-The [workspace dock](csm-config-ws-bottom-utility-bar.md) component provides agents with a centralized location where they can see all current drafts at a glance. The dock also contains the actions available to users while working on email interaction records.
+The [workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md) component provides agents with a centralized location where they can see all current drafts at a glance. The dock also contains the actions available to users while working on email interaction records.
 
 **Note:** The specific actions available are determined by factors such as the user role and other attributes.
 
@@ -243,15 +246,15 @@ The Email Interaction record page supports actions from the following Customer S
 -   Time Recording for Customer Service \(com.snc.csm\_time\_recording\)
 -   Omni-Experience Standard Feature Set
 
-If you are using any additional plugins, you need to add the actions from those plugins to the Email Interaction record page action bar. For more information, see the configuration steps in this topic: [Configure the Front-line case page action bar](../task/config-front-line-case-page-action-bar.md).
+If you are using any additional plugins, you need to add the actions from those plugins to the Email Interaction record page action bar. For more information, see the configuration steps in this topic: [Configure the Front-line case page action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-front-line-case-page-action-bar.md).
 
 ## Thin compose modeless dialogs
 
 The thin composer is located at the bottom of the activity stream with the Email tab as the first tab. Agents can pop out the composer into a separate window called a modeless dialog.
 
-Drafts are created when agents add or modify content in the composer. Minimized modeless dialogs appear in the [workspace dock](csm-config-ws-bottom-utility-bar.md).
+Drafts are created when agents add or modify content in the composer. Minimized modeless dialogs appear in the [workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-bottom-utility-bar.md).
 
-For more information about modeless dialogs, see [Thin compose modeless dialogs](csm-front-line-case-page-modeless-dialogs.md#section_nws_1rs_rfc).
+For more information about modeless dialogs, see [Thin compose modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
 
 ## Contextual side panel component
 
@@ -273,7 +276,7 @@ Recommended Actions
 
 The Recommended Actions tab is now available as the first tab in the contextual side panel and is enabled for Pro customers. It includes a set of base system recommendations, such as similar incidents and similar open incidents.
 
-The Recommended Actions tab includes [AI search](ra-csm-ai-search.md) functionality and suggested actions. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the interaction short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality and suggested actions. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the interaction short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can select a source to see search results of that type.
 
@@ -283,10 +286,14 @@ Depending on the source type, agents can do the following:
 -   Flag an article.
 -   Mark an article as helpful.
 -   Order a catalog item.
+-   Attach and add a link in email.
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](../task/nba-use-ai-search.md).
+The workspace switches to the relevant tab. The inserted link displays the knowledge article title and article number as a hyperlink, in the format `Article Title: KB0012345`.
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+
+For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba-use-ai-search.md).
+
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 
@@ -326,12 +333,12 @@ Collaborate
 
 </td><td>
 
-The Collaborate component enables agents to communicate with stakeholders and other users and gather information for case resolution. For more information, see [Collaborate component](csm-config-ws-collaborate-component.md).
+The Collaborate component enables agents to communicate with stakeholders and other users and gather information for case resolution. For more information, see [Collaborate component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-collaborate-component.md).
 
 </td></tr></tbody>
 </table>## Email interaction tab notifications
 
 Unread email counters display on email interaction tabs to help agents track new email activity across multiple interactions. When new emails arrive for an email interaction that's open in an inactive tab, an unread counter appears on the tab. The counter increments as additional emails arrive and clears when you select the tab.
 
-For example, you have multiple email interactions open. A customer replies to an interaction in an inactive tab. The tab displays an unread counter \(for example, "2"\), so you can identify which interactions have new activity without losing context. For configuration requirements, see [View unread email counters on interaction tabs](../task/view-unread-email-counters-on-interaction-tabs.md).
+For example, you have multiple email interactions open. A customer replies to an interaction in an inactive tab. The tab displays an unread counter \(for example, "2"\), so you can identify which interactions have new activity without losing context. For configuration requirements, see [View unread email counters on interaction tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-unread-email-counters-on-interaction-tabs.md).
 

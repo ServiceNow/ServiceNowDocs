@@ -2,6 +2,7 @@
 title: DevOps dashboards
 description: Use the DevOps Insights dashboard to evaluate the results of your overall DevOps process. Use the DevOps Pipeline UI view to visually analyze your pipeline executions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/insights-dashboard-dev-ops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -33,13 +34,13 @@ DevOps managers, Change managers, and executives can use this dashboard to deter
 -   Track performance over time using ServiceNow Performance Analytics.
 -   View break down of the numbers by application, repository, service, business app, work item type, and product over time. 
 
-For more information, see [DevOps Insights dashboard - Workspace](devops-insights-dboard-ws.md#).
+For more information, see [DevOps Insights dashboard - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-insights-dboard-ws.md).
 
 ## DevOps System Health dashboard
 
 The System Health dashboard lets the DevOps administrator view the overall health of integrations, connectivity status, as well as view trends of inbound event processing data.
 
-For more information, see [DevOps System Health dashboard](devops-system-health-dashboard.md).
+For more information, see [DevOps System Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-system-health-dashboard.md).
 
-**Parent Topic:**[Exploring DevOps Change Velocity](dev-ops-landing-page.md)
+**Parent Topic:**[Exploring DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-landing-page.md)
 

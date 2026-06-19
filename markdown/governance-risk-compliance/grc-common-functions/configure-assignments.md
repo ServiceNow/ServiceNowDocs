@@ -2,11 +2,12 @@
 title: Configure assignments
 description: Assignment configuration rules help in automating organization’s task records such as action tasks, and non-task records such as issues, incidents, regulatory alerts, etc.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-assignments.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Assignment Configurator for non-regulatory alerts, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -31,12 +32,12 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For information on the fields in the form, see [Assignment Configuration New Record](../reference/assignment-configuration-new-record.md).
+    For information on the fields in the form, see [Assignment Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/assignment-configuration-new-record.md).
 
     **Note:** You cannot have more than one approval configuration applying to the table with the same priority.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Assignment Configurator for non-regulatory alerts](assignment-configurator-for-non-regulatory-alerts.md)
+**Parent Topic:**[Assignment Configurator for non-regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/assignment-configurator-for-non-regulatory-alerts.md)
 

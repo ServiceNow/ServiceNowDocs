@@ -2,6 +2,7 @@
 title: Time Limited Authentication Properties form
 description: Use the Issue Auto Resolution time-limited authentication record to set the fields that are related to the link's validity, expiry, and failed redirect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/iar-time-limited-authentication-properties-form.html
 release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr

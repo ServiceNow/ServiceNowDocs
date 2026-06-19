@@ -2,6 +2,7 @@
 title: Implement pre-upgrade activities on a prod instance
 description: Complete the pre-upgrade tasks for a successful upgrade experience on your production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-pre-upgrade-prod.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -50,11 +51,11 @@ Role required: admin
 
             You will see the following modal when you select Select upgrade plan. You can then select either one upgrade plan or multiple plans to be merged and applied to the current upgrade.
 
-            ![](../image/um-upgrade-plans-merge.jpeg)
+            \[Omitted image "um-upgrade-plans-merge.jpeg"\] Alt text:
 
             **Note:** The **Apply** option is visible only when you select one upgrade plan to be applied to the current upgrade.
 
-            ![](../image/um-upgrade-plans-apply.jpeg)
+            \[Omitted image "um-upgrade-plans-apply.jpeg"\] Alt text:
 
             **Note:** The **Merge and apply** option is visible only if you have selected multiple upgrade plans. The upgrade plan name changes as per the selection of upgrade plans.
 
@@ -67,7 +68,7 @@ Role required: admin
 
             If you select the **Create a plan** option again after creating a plan, you will see the following message.
 
-            ![](../image/um-override-upgrade-plan.png)
+            \[Omitted image "um-override-upgrade-plan.png"\] Alt text:
 
             **Note:** Only the most recent upgrade plan without any upgrade plan items is retained. For example, if the most recent upgrade plan is created without upgrade plan items, it automatically overrides any earlier upgrade plan that also doesn't have upgrade plan items. There can be more than one upgrade plan with upgrade plan items.
 
@@ -124,7 +125,7 @@ Role required: admin
     -   Upgrade preview: You can view the current version and the previewing version of the upgrade in this section. You can also see if there is any upgrade been scheduled.
     -   Skipped record summary: You can view the following information.
 
-        ![](../image/um-skipped-without-tests.png)
+        \[Omitted image "um-skipped-without-tests.png"\] Alt text:
 
         -   Total records changed: Gives the total number of records that have changed since last upgrade. Select the Review changes link to see the list of records that have changed.
         -   Total skipped records: Shows the numbers of skipped records that have been resolved, total skipped records that need to be reviewed and the number of skipped records that have already been reviewed.
@@ -146,7 +147,7 @@ Role required: admin
 
         **Note:** This step is completed within the Review predicted skipped records step.
 
-        ![Screenshot showing skipped record rules editor in a prod instance](../image/um-skipped-record-rules-prod.png)
+        \[Omitted image "um-skipped-record-rules-prod.png"\] Alt text: Screenshot showing skipped record rules editor in a prod instance
 
         The skipped records matching the set conditions in the skipped record rules editor, perform the previously selected actions. Select **View latest upgrade history** to determine the actions and conditions to be set depending on the previous upgrades.
 
@@ -166,5 +167,5 @@ Role required: admin
     -   Ensure to review and update the list of skipped records after the upgrade.
     -   Once done with the reviewing of the skipped records, complete the next activities required in the pre-upgrade process.
 
-**Parent Topic:**[Access guided upgrade on a production instance](um-guided-tour-implement-prod.md)
+**Parent Topic:**[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)
 

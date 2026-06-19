@@ -2,6 +2,7 @@
 title: Configure work prioritization for purchase requisitions
 description: Configure the Priority defaulting for purchase requisitions decision table to automatically assign priority levels to purchase requisitions based on line item values or other administrator-defined conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-purchase-requisitions.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -24,7 +25,7 @@ Before configuring work prioritization for purchase requisitions, confirm the fo
 -   The following priority levels exist and are active in the instance's priority choice list: Critical, High, Moderate, Low, and Planning.
 -   If demo data is loaded in the instance, review whether the default rules in the decision table reflect your organization's criteria before adding or modifying rules.
 
-Role required: sn\_spend\_psd.psd\_admin or admin
+Role required: decision\_table\_admin
 
 ## About this task
 
@@ -52,7 +53,7 @@ Any field on the purchase requisition or purchase line record can be used as a c
 
     -   To set a condition, select the operator cell and choose an operator, then select the condition value cell and enter a value. For amount fields, enter a numeric value. For category or supplier fields, use the reference field lookup to select the correct records.
     -   To set the result, select the result value cell and choose the priority level to assign when the rule matches.
-    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see [Modify decision table rules in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/modify-decision-table-rules.md).
+    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see .
 
 6.  In the **Rank** column, set the evaluation sequence for each rule.
 
@@ -79,5 +80,5 @@ Any field on the purchase requisition or purchase line record can be used as a c
 
 Purchase requisitions are automatically assigned a priority level when they are created or updated. Procurement specialists can sort and filter their work queue by priority to work the most urgent requisitions first.
 
-**Parent Topic:**[Configuring work prioritization](../concept/configuring-work-prioritization.md)
+**Parent Topic:**[Configuring work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.md)
 

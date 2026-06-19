@@ -2,6 +2,7 @@
 title: Configuring Field Service Management Customer Experience
 description: Configure the Field Service Management Customer Experience application to enable sending notifications to your customers through email and SMS.Activate the Field Service Management Customer Experience plugin \(com.snc.fsm\_customer\_experience\) to use the Customer Experience feature with Field Service Management.Set up notification messages and emails to update customers about the status of their work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Configuring-cust-exp.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -19,11 +20,11 @@ Configure the Field Service Management Customer Experience application to enable
 
 The steps for setting up Field Service Management Customer Experience are:
 
-1.  [Activate Field Service Management Customer Experience](Configuring-cust-exp.md#)
+1.  [Activate Field Service Management Customer Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Configuring-cust-exp.md)
 
     Activate the Field Service Management Customer Experience plugin \(com.snc.fsm\_customer\_experience\) to use the Customer Experience feature with Field Service Management.
 
-2.  [Customer notifications for work order tasks](Configuring-cust-exp.md#)
+2.  [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/Configuring-cust-exp.md)
 
     Set up notification messages and emails to update customers about the status of their work order tasks.
 
@@ -69,7 +70,7 @@ Provides APIs and workflow activities for applications to handle various notific
 
 -   **Notify**
 
-    Provides support for enabling and configuring customer SMS and email notifications For more information about activating Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
+    Provides support for enabling and configuring customer SMS and email notifications For more information about activating Notify, see Notify.
 
 
 The following items are installed with Field Service Management Customer Experience:
@@ -78,7 +79,7 @@ The following items are installed with Field Service Management Customer Experie
 -   Properties
 -   Business rules
 
-For more information, see [Customer Experience components](../reference/customer-experience-components.md).
+For more information, see [Customer Experience components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/customer-experience-components.md).
 
 ### Procedure
 
@@ -95,7 +96,7 @@ Set up notification messages and emails to update customers about the status of 
 
 Customers can receive notifications about the work order tasks created for them. Customers can unsubscribe to stop receiving any notifications.
 
-Customer notifications for work order tasks use the Field Service Management - Customer Experience plugin to send both SMS and email notifications on the registered mobile number and email address. Users with the system administrator role can enable and configure customer SMS and email notifications. For more information, see [Notify Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/Notify-TwilioDirectDriver.md).
+Customer notifications for work order tasks use the Field Service Management - Customer Experience plugin to send both SMS and email notifications on the registered mobile number and email address. Users with the system administrator role can enable and configure customer SMS and email notifications. For more information, see .
 
 Customers are notified when one of the following activities is performed to the work order task:
 

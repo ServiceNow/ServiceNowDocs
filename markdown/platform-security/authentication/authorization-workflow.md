@@ -2,11 +2,12 @@
 title: Authorization code grant workflow
 description: ServiceNow handles both authentication and API access by acting as the authorization and resource server. When single sign-on \(SSO\) is enabled, it redirects users to the configured IdP for authentication and issues tokens after successful login.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/authorization-workflow.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 5
 breadcrumb: [OAuth Code Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -23,7 +24,7 @@ Role required: `oauth_admin, mi_admin, admin`
 
 This topic collection provides information about how ServiceNow manages authentication and API access when acting as both the authorization server and the resource server. It describes the behavior when SSO is enabled, including redirection to the identity provider \(IdP\) for user authentication and the issuance of an authorization code by ServiceNow after successful authentication. The usage of authorization code ensures that ServiceNow retains control over token issuance and access to protected resources.
 
-![Authorization Workflow](../../machine-identity/images/mic-authorization-flow.png "Authorization workflow")
+\[Omitted image "mic-authorization-flow.png"\] Alt text: Authorization Workflow
 
 ## Procedure
 

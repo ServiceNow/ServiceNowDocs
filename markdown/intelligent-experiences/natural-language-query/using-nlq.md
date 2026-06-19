@@ -2,6 +2,7 @@
 title: Using Natural Language Query
 description: With Natural Language Query \(NLQ\), you can query data in your tables by entering requests in natural, everyday language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/natural-language-query/using-nlq.html
 release: australia
 product: Natural Language Query
 classification: natural-language-query
@@ -27,13 +28,13 @@ NLQ works on any list on the platform. It returns results only from the table or
 
 Selecting the natural language filter icon brings up the NLQ interface.
 
-![NLQ interface in list view.](../images/using-nlqT1.png)
+\[Omitted image "using-nlqT1.png"\] Alt text: NLQ interface in list view.
 
 Enter your request in the What do you want to see field, then select **Ask**. NLQ parses your request, then displays the query in the condition builder. The results of the query are displayed in the list.
 
 With the default configuration of NLQ, you can continue to refine your query by entering another request into the What do you want to see field.
 
-![Using NLQ to append a query to a previous query](../images/using-nlq-washingtondc.gif "Using NLQ to build on a previous query")
+\[Omitted image "using-nlq-washingtondc.gif"\] Alt text: Using NLQ to append a query to a previous query
 
 This example image and procedure illustrates how to build a query using NLQ:
 
@@ -48,8 +49,8 @@ This example image and procedure illustrates how to build a query using NLQ:
 Keep the following information in mind when using NLQ.
 
 -   Your requests can contain periods and apostrophes, but not wildcard characters such as asterisks or regex.
--   To group by a field or column, that column must be visible in the list view. Use the personalize list icon \(![Personalize list icon.](../../../common/image/List_PersonalizeListIcon.png)\) to hide or display columns.
--   For information about querying CMDB tables, see [Querying the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md).
+-   To group by a field or column, that column must be visible in the list view. Use the personalize list icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Personalize list icon.\) to hide or display columns.
+-   For information about querying CMDB tables, see Querying the CMDB.
 
 ## Tips for improving your queries
 

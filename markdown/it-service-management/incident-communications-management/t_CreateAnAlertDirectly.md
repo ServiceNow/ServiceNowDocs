@@ -2,6 +2,7 @@
 title: Create adhoc incident communication plan from Incident Communications Management
 description: Create an incident communication plan from Incident Communications Management when an issue is not considered earlier. If you need collaboration on that issue, you can create an incident communication plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/t\_CreateAnAlertDirectly.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -23,11 +24,11 @@ Role required: major\_incident\_manager, ia\_admin, or admin
 
 1.  Navigate to **All** &gt; **Incident Communications Management** &gt; **Create New**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  On the form, fill in the fields.
 
-    ![Incident communication plan form](../image/new-incident-communications-plan-form.png "Incident Communication Plan form")
+    \[Omitted image "new-incident-communications-plan-form.png"\] Alt text: Incident communication plan form
 
     |Field|Description|
     |-----|-----------|
@@ -48,5 +49,5 @@ Role required: major\_incident\_manager, ia\_admin, or admin
     An incident communication plan is created. The **Communication** tab lists the communication tasks that have email, SMS, or slack as the communication channel. The **Conference** tab lists the communication tasks that have conference as the communication channel.
 
 
-**Parent Topic:**[Create adhoc incident communication plan](../concept/c_CreateIncidentAlerts.md)
+**Parent Topic:**[Create adhoc incident communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/c_CreateIncidentAlerts.md)
 

@@ -2,6 +2,7 @@
 title: Set up the Confluence Cloud spoke
 description: Integrate the ServiceNow instance and Confluence Cloud by creating a custom OAuth 2.0 application in Confluence Cloud to authenticate ServiceNow requests.Add and configure a Confluence Cloud connection to authenticate ServiceNow requests in Confluence Cloud spoke.Specify the groups that have access to Confluence products so that you can manage the users within only these groups using the Confluence Cloud spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-confluence-cloud.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -47,7 +48,7 @@ Role required: admin
 4.  Locate the **Confluence Cloud** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Confluence Cloud spoke, click **View Details**.
-    -   To manage more than one Confluence Cloud spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Confluence Cloud spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 5.  On the **Connection** form, fill in the fields.
@@ -85,7 +86,7 @@ Scopes
 By default, these scopes are provided: `ace:confluence, read:page:confluence, search:confluence, read:confluence-groups, write:confluence-groups, read:confluence-user, read:me, read:account, offline_access`. You can modify the scopes as per your requirement. **Note:** After the scopes are modified and saved, whenever you edit the connection record, the scopes are reset to the default scopes.
 
 </td></tr></tbody>
-</table>    ![Create a connection for Confluence Cloud spoke using connection template](../image/confluence-cloud-spoke-conn-config.png)
+</table>    \[Omitted image "confluence-cloud-spoke-conn-config.png"\] Alt text: Create a connection for Confluence Cloud spoke using connection template
 
 6.  Click **Save and Get OAuth Token**.
 

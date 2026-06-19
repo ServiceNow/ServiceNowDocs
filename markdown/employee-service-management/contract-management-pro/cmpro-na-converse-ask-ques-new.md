@@ -2,6 +2,7 @@
 title: Search in contracts document
 description: Ask question in the Now Assist panel to search for information in the content of the contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-converse-ask-ques-new.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -30,13 +31,13 @@ Conversational search enables you to find information by searching within the co
 
 You can customize the columns to be displayed by using the **Personalize fields** option under **More Actions** icon.
 
-![Conversational search results for query related to content in the document](../image/cmpro-na-converse-rag-result.png)
+\[Omitted image "cmpro-na-converse-rag-result.png"\] Alt text: Conversational search results for query related to content in the document
 
 Contract fulfillers and assignment group managers with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller and now\_assist\_panel\_user role can view the agentic workflow conversation in the Now Assist panel.
 
 **Note:** The agentic workflow isn’t supported in the Virtual Agent panel.
 
-For feature limitations, see [Explore Now Assist in Contract Management](cncore-exp-now-assist-land.md).
+For feature limitations, see [Explore Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
 
 ## Procedure
 
@@ -44,7 +45,7 @@ For feature limitations, see [Explore Now Assist in Contract Management](cncore-
 
 2.  Enter a query in the Now Assist panel.
 
-    ![Conversational search for contracts](../image/cmpro-na-converse-result.png "Conversational search for contracts")
+    \[Omitted image "cmpro-na-converse-result.png"\] Alt text: Conversational search for contracts
 
 3.  Select **Show** to view the search results.
 
@@ -60,11 +61,11 @@ For feature limitations, see [Explore Now Assist in Contract Management](cncore-
 
     1.  Select the link in the **Document** column to open the contract document.
 
-        ![Open contract document](../image/cmpro-na-converse-docselect.png)
+        \[Omitted image "cmpro-na-converse-docselect.png"\] Alt text: Open contract document
 
     2.  View the document and enter text in the Search Document field to search within the document.
 
-        ![View and search in the document](../image/cmpro-na-converse-docview.png)
+        \[Omitted image "cmpro-na-converse-docview.png"\] Alt text: View and search in the document
 
 6.  Navigate to the Summary and Section columns to view the AI generated summary for the search and to view the specific section where the search result was found.
 

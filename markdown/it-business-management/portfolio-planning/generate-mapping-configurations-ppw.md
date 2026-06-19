@@ -2,6 +2,7 @@
 title: Generate default mapping configurations
 description: Generate default mapping configurations to automatically create table maps, field maps, and choice maps for projects and demands, or customize mappings for specific integration needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/generate-mapping-configurations-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

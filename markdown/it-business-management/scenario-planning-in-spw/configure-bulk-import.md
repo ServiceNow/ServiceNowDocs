@@ -2,6 +2,7 @@
 title: Configure bulk import
 description: This system property enables you to update the bulk import functionality in Strategic Planning with PPM, Agile 2.0, and SAFe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/configure-bulk-import.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

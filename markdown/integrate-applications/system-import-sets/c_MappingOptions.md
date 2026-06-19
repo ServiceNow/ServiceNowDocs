@@ -2,6 +2,7 @@
 title: Mapping options
 description: You can map fields in a number of ways depending on the circumstances of the import and whether data must be transformed prior to loading onto a production table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_MappingOptions.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -25,15 +26,15 @@ The simplest mapping method is where all of the field names of the import sets m
 
 The mapping assist utility provides a visually intuitive environment for specifying mapping between import set fields and production table fields. The mapping assist utility makes it possible to map a single source field \(field on an import set table\) to multiple destination fields \(fields on a production table\).
 
-![](../image/MappingAssist.png "Mapping assist")
+\[Omitted image "MappingAssist.png"\] Alt text:
 
 ## Changing the Date Format
 
 If the date format of the source field does not match the format of the target field, you can set a date format mapping to transform dates from one format to another. For example, this mapping specifies that the date format of the CSV source file uses the **MM-dd-yyyy** format.
 
-![](../image/FieldMapDateFormat.png "Field map date format")
+\[Omitted image "FieldMapDateFormat.png"\] Alt text:
 
-![](../image/FieldMapDateFormatOptions.png "Field map date format options")
+\[Omitted image "FieldMapDateFormatOptions.png"\] Alt text:
 
 Date format options include:
 
@@ -116,7 +117,7 @@ You may want to use a source script instead of the **Source field** when:
 
 For example, this example source script computes the value of the user\_name field when it is blank in the source.
 
-![](../image/FieldMapSourceScript.png "Field map source script")
+\[Omitted image "FieldMapSourceScript.png"\] Alt text:
 
 A source script expects the calculated value to be set in the global variable `answer`.
 
@@ -164,5 +165,5 @@ var iCont = "" ;
   agr.update(); }
 ```
 
-**Parent Topic:**[Importing data using import sets](../../../administer/import-sets/concept/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

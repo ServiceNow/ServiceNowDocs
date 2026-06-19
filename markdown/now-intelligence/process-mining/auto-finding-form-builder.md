@@ -2,6 +2,7 @@
 title: Automated finding definition form
 description: Use the Create Improvement opportunity definition form to create an automated finding definition from the Finding Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/auto-finding-form-builder.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -91,5 +92,5 @@ Impacted KPIs
 Select the KPIs most likely impacted by the findings. Choosing the affected KPIs enables you to assess the business impact. You can view the KPI-related findings in the insights panel of the Process Mining workspace.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-reference.md)
 

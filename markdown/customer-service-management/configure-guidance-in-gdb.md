@@ -2,7 +2,10 @@
 title: Provide actions to agents in a decision tree
 description: Configure a guidance node in Decision Tree Builder so agents can view a recommendation on what to do next.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-guidance-in-gdb.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -15,7 +18,7 @@ Configure a guidance node in Decision Tree Builder so agents can view a recommen
 
 ## Before you begin
 
-Verify that the guidances you want to use exist or create them. For more information, see [Create a guidance in the Core UI](create-guidances.md).
+Verify that the guidances you want to use exist or create them. For more information, see [Create a guidance in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-guidances.md).
 
 Role required: admin, sn\_gd\_core.decision\_tree\_author
 
@@ -35,7 +38,7 @@ You can select a guidance from the list of available guidances to link to your g
 
 3.  Select **Open in Builder**.
 
-4.  In Decision Tree Builder, add a new node by selecting the Add path icon \(![Add path icon](../image/icon-add-path.png)\) on a node.
+4.  In Decision Tree Builder, add a new node by selecting the Add path icon \(\[Omitted image "icon-add-path.png"\] Alt text: Add path icon\) on a node.
 
 5.  Select **Add node**.
 
@@ -49,16 +52,16 @@ You can select a guidance from the list of available guidances to link to your g
 
 9.  Enter specific values for guidance inputs in the **Set field inputs to pass data into this guidance** section.
 
-    These fields can contain static text, dynamic content such as field values from guidance inputs, or a combination of static text and dynamic content. To use dynamic content, select the Link input icon \(![Link input icon](../image/icon-link-input.png)\) next to the field and select a guidance input from the list.
+    These fields can contain static text, dynamic content such as field values from guidance inputs, or a combination of static text and dynamic content. To use dynamic content, select the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) next to the field and select a guidance input from the list.
 
 10. Enter placeholder values for guidance inputs in the **Set more field inputs to show to users** section.
 
-    Agents can substitute their own information for the placeholder values. These fields can contain static text, dynamic content such as field values from guidance inputs, or a combination of static text and dynamic content. To use dynamic content, select the Link input icon \(![Link input icon](../image/icon-link-input.png)\) next to the field and select a guidance input from the list.
+    Agents can substitute their own information for the placeholder values. These fields can contain static text, dynamic content such as field values from guidance inputs, or a combination of static text and dynamic content. To use dynamic content, select the Link input icon \(\[Omitted image "icon-link-input.png"\] Alt text: Link input icon\) next to the field and select a guidance input from the list.
 
 11. Select **Save and close**.
 
 
 ## What to do next
 
-[Add a next node that is a question node after a guidance node.](configure-start-node-gdb.md)
+[Add a next node that is a question node after a guidance node.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-start-node-gdb.md)
 

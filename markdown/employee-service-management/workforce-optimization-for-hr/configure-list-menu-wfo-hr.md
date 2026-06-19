@@ -2,13 +2,14 @@
 title: Configure a list menu to display in the Learning tab in Workforce Optimization for HR
 description: Add list or list categories to modify the list menu for Coaching with Learning in the Coaching application in Workforce Optimization for HR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/configure-list-menu-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up Coaching in Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure coaching, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure a list menu to display in the Learning tab in Workforce Optimization for HR
@@ -17,9 +18,9 @@ Add list or list categories to modify the list menu for Coaching with Learning i
 
 ## Before you begin
 
-**Important:** This feature is available with the Workforce Optimization for HR Configurable Workspace from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](../concept/activate-wfo-hr.md).
+**Important:** This feature is available with the Workforce Optimization for HR Configurable Workspace from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
 
-Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see [Set map application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-map-application-scope.md).
+Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see Set map application scope.
 
 Role required: sn\_hr\_wfo.admin
 
@@ -58,5 +59,5 @@ Role required: sn\_hr\_wfo.admin
 9.  Click **Update**.
 
 
-**Parent Topic:**[Setting up Coaching in Workforce Optimization for HR](../concept/setup-coaching-wfo-hr.md)
+**Parent Topic:**[Configure Coaching in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-coaching-wfo-hr.md)
 

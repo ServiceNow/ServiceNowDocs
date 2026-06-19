@@ -2,6 +2,7 @@
 title: Impact Rating record form
 description: Use the Impact Rating record form to assess an impact category such as low, moderate, high, or critical by using BCM UIB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/impact-rating-new-record-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -43,7 +44,7 @@ Numerical value for the impact rating. You can associate a unique numerical valu
 
  For example, you can assign value **1** to the **01-Low** impact category as shown below. After you do so, you cannot assign value **1** to any other impact rating in your BCM application instance.
 
- ![Impact Rating form showing the name, value description, and question text](../image/question-text.png)
+ \[Omitted image "question-text.png"\] Alt text: Impact Rating form showing the name, value description, and question text
 
 </td></tr><tr><td>
 
@@ -83,10 +84,10 @@ Question text
 
 </td><td>
 
-Field to revise the question text. For the recovery time objective of an impact category, you can revise the question that is displayed in the RTO assessment questionnaire. You can navigate to the Impact Rating record as shown in the example:![Navigating to the Impact Rating record for an impact category.](../image/updating-question-text-field.png)Update the question text for the RTO assessment as shown in the example:
+Field to revise the question text. For the recovery time objective of an impact category, you can revise the question that is displayed in the RTO assessment questionnaire. You can navigate to the Impact Rating record as shown in the example:\[Omitted image "updating-question-text-field.png"\] Alt text: Navigating to the Impact Rating record for an impact category.Update the question text for the RTO assessment as shown in the example:
 
-![Revising the question text.](../image/question-text.png)The revised question is then displayed in the RTO assessment of the business impact analysis record.
+\[Omitted image "question-text.png"\] Alt text: Revising the question text.The revised question is then displayed in the RTO assessment of the business impact analysis record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure impact ratings](../task/configure-impact-rating-uib-ws.md)
+</table>**Parent Topic:**[Configure impact ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-impact-rating-uib-ws.md)
 

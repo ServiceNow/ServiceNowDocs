@@ -2,7 +2,10 @@
 title: Create a notification
 description: Create notifications for Core Business Suite business units through the Now Assist conversational experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/create-notification-using-na.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 1
@@ -17,8 +20,8 @@ Create notifications for Core Business Suite business units through the Now Assi
 
 Ensure that the following are activated:
 
--   AI search \([Activate AI Search](activate-ai-search.md)\)
--   Now Assist panel \([Activate Now Assist panel](enable-now-assist-panel.md)\)
+-   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/activate-ai-search.md)\)
+-   Now Assist panel \([Activate Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/enable-now-assist-panel.md)\)
 
 Role required: admin, sn\_cbs.admin
 
@@ -69,5 +72,5 @@ Role required: admin, sn\_cbs.admin
     Now Assist creates the notification and displays a success message.
 
 
-**Parent Topic:**[Now Assist for Core Business Suite](../concept/now-assist-cbs.md)
+**Parent Topic:**[Now Assist for Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/now-assist-cbs.md)
 

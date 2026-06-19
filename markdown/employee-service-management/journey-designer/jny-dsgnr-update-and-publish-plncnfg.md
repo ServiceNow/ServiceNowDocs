@@ -2,6 +2,7 @@
 title: Update and publish changes to plan configurations
 description: Plan owners update plan configurations and publish the changes for review and approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-update-and-publish-plncnfg.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -54,7 +55,7 @@ Plan configuration owners can:
 
     -   **Stages**: logical containers of task templates.
     -   **Task templates**: individual tasks assigned to employees, mentors, or managers.
-    For details about the see, [Journey designer journey template reference](../reference/jny-dsgnr-plncnfg-info.md).
+    For details about the see, [Journey designer journey template reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-plncnfg-info.md).
 
 5.  Select **Publish journey template**.
 
@@ -69,5 +70,5 @@ Plan configuration owners can:
     Owners and co-owners can cancel an approval request as long as an approver hasn’t approved or rejected the request.
 
 
-**Parent Topic:**[Journey designer plan configuration owners](../concept/jny-dsgnr-owner-role-and-responsibility.md)
+**Parent Topic:**[Journey designer plan configuration owners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-owner-role-and-responsibility.md)
 

@@ -2,6 +2,7 @@
 title: GlideURLV3 - Client
 description: The GlideURLV3 API provides methods for manipulating a URI.Creates an instance of the GlideURL class.Adds a query string name-value pair to the URL.Get the entire context path and query string parameters as a single URI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideURLV3API.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -19,7 +20,7 @@ You can only use this API in client-side scripts using ListV2 and ListV3 APIs.
 
 **Note:** This API is not supported by Service Portal, Now Mobile, or Agent Workspace.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## GlideURLV3 - GlideURL\(String contextPath\)
 

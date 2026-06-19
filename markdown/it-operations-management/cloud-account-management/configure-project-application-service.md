@@ -2,6 +2,7 @@
 title: Create an application service for Cloud Account Management
 description: Create an application service to standardize the organization, maintenance, and monitoring of services in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configure-project-application-service.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

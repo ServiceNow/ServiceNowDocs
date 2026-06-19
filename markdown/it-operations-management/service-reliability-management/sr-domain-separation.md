@@ -2,6 +2,7 @@
 title: Domain separation and SRM
 description: Domain separation is supported for Service Reliability Management \(SRM\).This needs to be updated with correct version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-domain-separation.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -25,7 +26,7 @@ The support level is Basic but has some exceptions or special conditions.
 
 Sample use case: When an SP uses chat to respond to a tenant-customer’s message, the client must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of domain separation
 
@@ -42,12 +43,12 @@ The specific conditions indicated by the Basic\* support level rating above rela
 -   Only one catalog item and flow can be set up for each instance. The customer is responsible for setting up team properties to support domain separation as a customization of the existing flows.
 -   The requestor of a team catalog item is associated with the domain and is available as part of the request item. As a result, if needed, the requester can create the team in a specific domain or the catalog Item and extend it to capture the domain another way. In either case, the Service Operations Workspace must make changes to the Integration Hub flows and actions to support this.
 
-For more information, see [Domain separation and On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/domain-separation-on-call-scheduling.md).
+For more information, see .
 
-**Parent Topic:**[Service Reliability Management reference](../reference/service-reliability-management-reference.md)
+**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

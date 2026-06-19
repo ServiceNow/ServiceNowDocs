@@ -2,6 +2,7 @@
 title: Manage Field Service and Customer Service skills
 description: Field Service and Customer Service managers can create or edit skills, assign skills to agents, and view agents with a specific skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/field-service-manager-agent-skills.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

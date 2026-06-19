@@ -2,6 +2,7 @@
 title: Red Hat JBoss Fuse discovery
 description: The ServiceNow Discovery and Service Mapping applications can find and map the Fuse application server using the JBoss Fuse pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/jboss-fuse-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -17,7 +18,9 @@ The ServiceNow Discovery and Service Mapping applications can find and map the F
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+**Note:** The Discovery and Service Mapping Patterns application supports JBoss Fuse running on Karaf only.
 
 ## Prerequisites
 
@@ -53,5 +56,5 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Service Mapping discovers the connection between the JBoss Fuse server and the IBM Informix Dynamic server.
 
-**Parent Topic:**[Available on-premise discovery patterns](available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

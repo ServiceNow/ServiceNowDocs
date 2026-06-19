@@ -2,6 +2,7 @@
 title: DCIM Metric Data Feed API
 description: The DCIM Metric Data Feed API provides an endpoint to accept Data Center Infrastructure Management \(DCIM\) metric data from an external system and store the data in a MetricBase database.Stores metric data such as temperature, humidity, and power usage into MetricBase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/dcim-metric-data-feed-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,13 +18,13 @@ The DCIM Metric Data Feed API provides an endpoint to accept Data Center Infrast
 
 This API receives near real-time metric data such as temperature, humidity, and power usage.
 
-This API can be extended for use with a chosen external system by implementing the scripted extension point TNIDCIMFeedParser. The default implementation TNIDCIMFeedParserImpl can be used as an example. For more information about extension points, see [Using extension points to extend application functionality](../../../build/applications/concept/extension-points.md).
+This API can be extended for use with a chosen external system by implementing the scripted extension point TNIDCIMFeedParser. The default implementation TNIDCIMFeedParserImpl can be used as an example. For more information about extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 This API is included in the Network Inventory Advanced application, which is available on the ServiceNow Store. This API also requires the MetricBase plugin \(com.snc.clotho\).
 
 The calling user must have the sn\_ni\_adv.metric\_integrator role.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## DCIM Metric Data Feed - POST /sn\_ni\_adv/dcim/feed/\{vendorname\}
 
@@ -37,7 +38,7 @@ By default, this endpoint can be used to store data about the following types of
 -   Data Center \[cmdb\_ci\_datacenter\]
 -   Data Center Zone \[cmdb\_ci\_zone\]
 
-To use this endpoint with additional CI types, [create metric definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/set-up-data-monitoring.md) and implement the scripted extension point TNIDCIMFeedParser.
+To use this endpoint with additional CI types, create metric definitions and implement the scripted extension point TNIDCIMFeedParser.
 
 ### URL format
 
@@ -594,7 +595,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -608,7 +609,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

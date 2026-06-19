@@ -2,6 +2,7 @@
 title: Install SPW Jira Integrations
 description: You can install the SPW Jira Integrations application \(sn\_spw\_jira\_int\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/install-spw-jira-integrations.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -31,7 +32,7 @@ The following items are installed with SPW Jira Integrations:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with SPW Jira Integrations](../reference/components-installed-with-spw-jira-integrations.md).
+For more information, see [Components installed with SPW Jira Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/components-installed-with-spw-jira-integrations.md).
 
 ## Procedure
 

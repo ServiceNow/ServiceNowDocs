@@ -2,6 +2,7 @@
 title: Change flows
 description: The Change Management Change flows provide a library of reusable actions and end-to-end implementations of the Change models provided in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-flows.html
 release: australia
 product: Change Management
 classification: change-management
@@ -45,8 +46,8 @@ By default, these Change flows are provided:
 |Change - Unauthorized - Authorize|Process an unauthorized change for approvals.|
 |Change - Unauthorized - Review|Review an unauthorized change.|
 
--   **[Change Management Workflow Studio actions](change-flow-actions.md)**  
+-   **[Change Management Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-flow-actions.md)**  
 Use Workflow Studio actions as building blocks to handle the Change models and types. The flow actions are available under the ITSM spoke in Workflow Studio.
 
-**Parent Topic:**[Reference section for Change Management](reference-change-management.md)
+**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/reference-change-management.md)
 

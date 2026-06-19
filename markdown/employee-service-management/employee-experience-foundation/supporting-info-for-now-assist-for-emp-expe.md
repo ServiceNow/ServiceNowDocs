@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for Employee Experience
 description: Get a quick overview of the key information related to the Now Assist for Employee Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/supporting-info-for-now-assist-for-emp-expe.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,7 +36,7 @@ This store app has the following dependencies:
 -   Now Assist for platform \(sn\_genai\_platform\)
 -   Employee Center \(sn\_ex\_sp\)
 
-For more information, see [Configure Now Assist for Employee Experience](../task/configure-nowassist-emp-exp.md).
+For more information, see [Configure Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-nowassist-emp-exp.md).
 
-**Parent Topic:**[Explore Now Assist for Employee Experience](explore-now-assist-for-emp-exp.md)
+**Parent Topic:**[Explore Now Assist for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/explore-now-assist-for-emp-exp.md)
 

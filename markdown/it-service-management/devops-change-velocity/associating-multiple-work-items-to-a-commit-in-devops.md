@@ -2,6 +2,7 @@
 title: Associating multiple work items to a commit in DevOps
 description: Multiple work items for a commit are supported in DevOps for Azure DevOps, Bitbucket, GitHub, and GitLab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/associating-multiple-work-items-to-a-commit-in-devops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -85,9 +86,9 @@ DevopsCommitMessageParser.prototype = Object.extendsObject(DevopsCommitMessagePa
 });
 ```
 
-Linking work items to a commit using the Azure DevOps user interface is also supported in DevOps. ![Link work item to a commit in Azure DevOps](../image/commit-workitem-association.png)
+Linking work items to a commit using the Azure DevOps user interface is also supported in DevOps. \[Omitted image "commit-workitem-association.png"\] Alt text: Link work item to a commit in Azure DevOps
 
 You can view the list of associated work items in the DevOps Commit record, and in the Pipeline UI.
 
-**Parent Topic:**[Managing DevOps Change Velocity](using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

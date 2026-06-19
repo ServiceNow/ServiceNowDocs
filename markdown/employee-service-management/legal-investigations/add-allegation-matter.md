@@ -2,6 +2,7 @@
 title: Add an allegation record and associate it with an involved party
 description: Add an allegation record to the legal matter as part of your complaint investigation, and associate it with an involved party.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/add-allegation-matter.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations

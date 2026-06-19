@@ -2,6 +2,7 @@
 title: Set up the REST API
 description: You use the LogRhythm REST API key to gather additional event details for individual alarm fields. The API key provides details that are unavailable using the LogRhythm REST API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/drilldown-api-lr.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,44 +30,44 @@ This task is performed on the LogRhythm Client Console. Set up the LogRhythm RES
 
 2.  Click **New** to create a new user.
 
-    ![File menu expanded in the LogRhythm Console.](../image/lr-soap-5-cropped.png)
+    \[Omitted image "lr-soap-5-cropped.png"\] Alt text: File menu expanded in the LogRhythm Console.
 
 3.  In the **Is Person an Individual?** dialog that is displayed, click **Yes**.
 
-    ![Is Person an Individual dialog.](../image/lr-soap-6.png)
+    \[Omitted image "lr-soap-6.png"\] Alt text: Is Person an Individual dialog.
 
 4.  In the Person Properties dialog that is displayed, fill in the Name fields.
 
     Use a different name for the LogRhythm REST API than the one you used to create the REST API, for example, `REST API_2`.
 
-    ![Person Properties dialog with name fields highlighted.](../image/lr-api-2-CDAPI.png)
+    \[Omitted image "lr-api-2-CDAPI.png"\] Alt text: Person Properties dialog with name fields highlighted.
 
 5.  Click **OK**.
 
 6.  Right-click the new listing in the Name column \(**API\_2\_REST**\) and, in the choice list, select **Create Case API Account**.
 
-    ![Create Case API Account in LogRhythm Console.](../image/lr-api-3-CDAPI.png)
+    \[Omitted image "lr-api-3-CDAPI.png"\] Alt text: Create Case API Account in LogRhythm Console.
 
     **Note:** The Case API is not used, but the credentials for the Case API Account and the LogRhythm REST API are the same.
 
 7.  In the Service Account Properties dialog, click **Generate**.
 
-    ![API Token in Service Account Properties dialog.](../image/lr-api-4-CDAPI.png)
+    \[Omitted image "lr-api-4-CDAPI.png"\] Alt text: API Token in Service Account Properties dialog.
 
 8.  Click **Copy**.
 
-    ![Copy button on API Token API in Service Account Properties dialog.](../image/lr-api-5-CDAPI.png)
+    \[Omitted image "lr-api-5-CDAPI.png"\] Alt text: Copy button on API Token API in Service Account Properties dialog.
 
-    You have now set up the LogRhythm REST API. You paste the string you copied in the previous step into your ServiceNow AI Platform instance in the LogRhythm REST API Token field during the configuration steps listed in [Install the plugin and configure LogRhythm](install-and-config-logrhythm.md).
+    You have now set up the LogRhythm REST API. You paste the string you copied in the previous step into your ServiceNow AI Platform instance in the LogRhythm REST API Token field during the configuration steps listed in [Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-logrhythm.md).
 
 
 ## What to do next
 
-You are now ready to [Install the plugin and configure LogRhythm](install-and-config-logrhythm.md).
+You are now ready to [Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-logrhythm.md).
 
-**Parent Topic:**[LogRhythm Overview](../concept/ovrview-logrhythm.md)
+**Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ovrview-logrhythm.md)
 
-**Previous topic:**[LogRhythm Overview](../concept/ovrview-logrhythm.md)
+**Previous topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ovrview-logrhythm.md)
 
-**Next topic:**[Install the plugin and configure LogRhythm](install-and-config-logrhythm.md)
+**Next topic:**[Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-config-logrhythm.md)
 

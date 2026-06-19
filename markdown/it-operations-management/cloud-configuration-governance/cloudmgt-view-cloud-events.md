@@ -2,11 +2,12 @@
 title: View cloud events
 description: You can view the events that are generated from your cloud resources if your administrator configured Cloud Provisioning and Governance to monitor them. All events are listed on the Cloud Events tab on the stack details page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloudmgt-view-cloud-events.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Using the Activities page, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

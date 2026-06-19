@@ -2,6 +2,7 @@
 title: View a feed member
 description: View a specific member of a group feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_ViewAFeedMember.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -32,5 +33,5 @@ Role required: none
     The list of feed members appears, organized by feed administrators and members.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

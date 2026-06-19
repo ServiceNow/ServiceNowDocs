@@ -2,6 +2,7 @@
 title: Test SQL API ODBC driver connection using Interactive SQL
 description: Run the Interactive SQL application for quick verification of connectivity and to test query results without using a full application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.html
 release: australia
 product: Web Services
 classification: web-services
@@ -47,8 +48,8 @@ Role required: local administrator on client machine
 
     Include the semicolon at the end of your query statement. Otherwise, the system displays a `'Cont>'` prompt.
 
-    ![Sample SQL Query.](../../odbc-driver/image/SampleSQLQuery.png)
+    \[Omitted image "SampleSQLQuery.png"\] Alt text: Sample SQL Query.
 
 
-**Parent Topic:**[Configuring SQL API](../concept/configuring-sql-api.md)
+**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)
 

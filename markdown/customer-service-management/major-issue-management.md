@@ -2,11 +2,14 @@
 title: Major issue management overview
 description: Major issue management enables customer communication for issues that impact a wider audience. Use this application to proactively identify impacted customers, provide information to these customers, and manage the resolution process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/major-issue-management.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Administer, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Major issue management overview
@@ -19,7 +22,7 @@ Major issue management introduces the concept of a major case which contains the
 
 Identify affected customers by creating a recipients list of accounts or consumers and attaching it to the major case. Create this list using the Targeted Communications application. Build a recipients list by identifying dynamic conditions, running a script, or importing customer information into a template. Once attached to a major case, use the recipients list to create a child case for each customer included in the list.
 
-Install the [Major issue management](major-issue-management-application.md) application from the ServiceNow® Store.
+Install the [Major issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-management-application.md) application from the ServiceNow® Store.
 
 A major case is created in one of two ways:
 

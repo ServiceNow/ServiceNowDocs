@@ -2,6 +2,7 @@
 title: Alert grouping and use cases
 description: Alert grouping methods range from user-defined approaches, like Manual and Rule-based to advanced, fine-tunable algorithms, including Automatic, Mixed, Text-based, Log Analytics, and Network Traffic-based grouping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-group-use-cases.html
 release: australia
 product: Event Management
 classification: event-management
@@ -67,7 +68,7 @@ Advanced algorithms automatically identify and group related alerts based on pat
 
  Automatic alert grouping consists of the following components.
 
--   Alert Aggregation Learner \(**Service Analytics Alert Aggregation Learner - Daily**\): This offline job runs daily to process past alerts and perform statistical analysis to build alert patterns. For details, see [Configure pattern based alert grouping](../task/configure-alert-aggregation.md).
+-   Alert Aggregation Learner \(**Service Analytics Alert Aggregation Learner - Daily**\): This offline job runs daily to process past alerts and perform statistical analysis to build alert patterns. For details, see [Configure pattern based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-alert-aggregation.md).
 -   Real-time Alert Aggregation job \(**Service Analytics group alerts using RCA/Alert Aggregation**\): This job runs every minute to generate alert aggregation groups based on alert patterns, CMDB relationships, text similarity, user-defined alert clustering tags, and network traffic connection between processes.
 
 </td><td>
@@ -142,5 +143,5 @@ A system administrator receives multiple alerts about different services failing
 
 **Note:** In domain-separated environments, alert groups are created only for alerts within the same domain.
 
-For information on scheduled jobs and parameters, refer to [Scheduled jobs and parameters for alert grouping](alert-grp-jobs-parameters.md). For detailed information on different grouping types, see [Alert grouping types and creation methods](Alert-Groups.md).
+For information on scheduled jobs and parameters, refer to [Scheduled jobs and parameters for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-grp-jobs-parameters.md). For detailed information on different grouping types, see [Alert grouping types and creation methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/Alert-Groups.md).
 

@@ -2,6 +2,7 @@
 title: Add a push application record
 description: You must create a push application record and enter your Apple Push Notification certificate in that record to use push notifications in a Mobile SDK application that leverages Virtual Agent and push notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-add-push-app.html
 release: australia
 product: Developer Guides
 classification: developer-guides

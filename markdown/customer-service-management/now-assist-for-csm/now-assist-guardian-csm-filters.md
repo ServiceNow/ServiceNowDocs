@@ -2,6 +2,7 @@
 title: Now Assist Guardian CSM filters
 description: Activate base system Now Assist Guardian CSM filters to automatically detect sensitive content in case conversations using the emotional tone of the message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-guardian-csm-filters.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -83,5 +84,5 @@ Test the filter by creating a test case with sample phrases that should trigger 
 **Related topics**  
 
 
-[bundle-platai.now-assist-guardian]
+[bundle-psec.now-assist-guardian]
 

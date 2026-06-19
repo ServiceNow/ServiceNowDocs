@@ -2,6 +2,7 @@
 title: Enable premium chat experience in Virtual Agent API
 description: Enable premium chat experience in Virtual Agent API to support generative AI skills across multiple provider channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-api-enable-premium-chat.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,5 +25,5 @@ Role required: admin
 1.  Navigate to **All** &gt; **** &gt; ****.
 
 
-**Parent Topic:**[Using Virtual Agent API](../concept/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

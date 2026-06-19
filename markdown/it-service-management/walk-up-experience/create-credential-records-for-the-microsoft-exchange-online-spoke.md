@@ -2,6 +2,7 @@
 title: Create credential records for the Microsoft Exchange Online spoke
 description: Authorize the Microsoft Exchange Online spoke actions by creating credential records for the application registered in the Microsoft Azure portal. The Microsoft Exchange Online connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/create-credential-records-for-the-microsoft-exchange-online-spoke.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -70,5 +71,5 @@ Role required: admin.
 
 The credential records for the Microsoft Exchange Online spoke are created.
 
-**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](setup-walkup-msoffice365-cal-integ.md)
+**Parent Topic:**[Set up Microsoft Office 365 integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/setup-walkup-msoffice365-cal-integ.md)
 

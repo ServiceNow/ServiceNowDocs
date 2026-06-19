@@ -2,6 +2,7 @@
 title: Associate existing slack channel with a group
 description: Associate an existing slack channel to reach out to an assignment group from an incident. Assignment groups are a great way to contact all your stakeholders at once.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/setup-slack-assign-grp.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

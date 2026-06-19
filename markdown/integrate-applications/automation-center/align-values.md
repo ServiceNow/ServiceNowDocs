@@ -2,6 +2,7 @@
 title: Aligning source and destination values
 description: Align source and destination values for precise data representation in Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/align-values.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -15,10 +16,10 @@ breadcrumb: [Create an automation source, Working with Connection Manager, Use, 
 
 Align source and destination values for precise data representation in Automation Center.
 
--   **[Add source values](add-source-values.md)**  
+-   **[Add source values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/add-source-values.md)**  
 Manually add the status or state values of your automation from the source system.
--   **[Map source values](map-values.md)**  
+-   **[Map source values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-values.md)**  
 Map the source state values with the destination state values.
 
-**Parent Topic:**[Create an automation source](create-auto-source.md)
+**Parent Topic:**[Create an automation source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-auto-source.md)
 

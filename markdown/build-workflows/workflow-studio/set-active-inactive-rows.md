@@ -2,6 +2,7 @@
 title: Set rows active or inactive
 description: Activating a row in a Decision Tables includes its conditions and rules when executing the Decision Tables, while deactivating rows excludes the logic while executing the Decision Tables. This feature lets you use or skip conditions in the rows when executing the Decision Tables without deleting them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/set-active-inactive-rows.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -22,15 +23,15 @@ This feature helps you to mark Decision Tables row as either active or inactive.
     **Note:** .
 
     -   By default, the rows are set to active state.
-    -   You can activate or deactivate multiple rows. You can select the ![ellipses](../image/ellipses.png)**Inactive row** &gt; **Active row**.
-    ![Setting rows as inactive](../image/inactive-rows.png)
+    -   You can activate or deactivate multiple rows. You can select the \[Omitted image "ellipses.png"\] Alt text: ellipses**Inactive row** &gt; **Active row**.
+    \[Omitted image "inactive-rows.png"\] Alt text: Setting rows as inactive
 
 -   Mark Rows as active- If you mark a row as active, the system includes the rules and logic in the rows while executing the conditions given in the Decision Tables. It’s useful for verifying that conditions in the rows are met while executing the Decision Table.
 
     **Note:** Inactive rows can be identified with a Grey color band appearing in the beginning of the row as in the screenshot.
 
-    ![Setting rows as active](../image/active-rows.png)
+    \[Omitted image "active-rows.png"\] Alt text: Setting rows as active
 
 
-**Parent Topic:**[Using decision tables](using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

@@ -2,6 +2,7 @@
 title: Select an HR document template for an e-signature task
 description: If the document type of the e-signature template you are using is an HR document template, then you must select the HR document template that the signatory will sign on the HR case form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/select-hr-document-template-for-e-signature-task.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,9 +28,9 @@ Depending on the HR service you are using to request the e-signature, you may ne
 
 2.  On the HR case form, in the **PDF Template** field, select an HR document template.
 
-    **Note:** If the **PDF Template** field is not visible, make sure that the HR case form for the HR service you are using is configured to show that field. See [Configure the HR case form for an HR service](configure-case-form-for-hr-service.md#) for more information, and also [HR case form configuration examples](configure-case-form-for-hr-service.md#) for an e-signature-specific example.
+    **Note:** If the **PDF Template** field is not visible, make sure that the HR case form for the HR service you are using is configured to show that field. See [Configure the HR case form for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-case-form-for-hr-service.md) for more information, and also [HR case form configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-case-form-for-hr-service.md) for an e-signature-specific example.
 
-    ![On the HR case form, in the PDF Template field, select an HR document template.](../image/select-hr-doc-template-for-e-signature-case.png)
+    \[Omitted image "select-hr-doc-template-for-e-signature-case.png"\] Alt text: On the HR case form, in the PDF Template field, select an HR document template.
 
 3.  Assign the case to a user.
 

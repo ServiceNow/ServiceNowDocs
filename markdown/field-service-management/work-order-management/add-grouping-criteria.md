@@ -2,6 +2,7 @@
 title: Add grouping criteria
 description: Define criteria to group similar work orders for a work plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/add-grouping-criteria.html
 release: australia
 product: Work Order Management
 classification: work-order-management

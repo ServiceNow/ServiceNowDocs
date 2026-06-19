@@ -2,6 +2,7 @@
 title: Require Minimum and Maximum Password Length
 description: Set minimum and maximum password lengths to avoid compliance issues and reduce the risk of a successful brute force attack
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-set-minimal-password-length.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -29,9 +30,9 @@ For each password credential store record in the Password Reset Credential Store
 
     Navigate to the Password Policy \[password\_policy\] record referenced in the record's **Password policy** field. Ensure that the **Minimum Password Length** field is set to at least 15 and **Maximum Password Length** field is set to at least 64.
 
-3.  Further instructions on configuring a password policy can be in the documentation: [Enable password policies on your instance](../../../integrate/authentication/task/enable-password-policies.md)
+3.  Further instructions on configuring a password policy can be in the documentation: [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/enable-password-policies.md)
 
-Further instructions on configuring a password policy, see [Enable password policies on your instance](../../../integrate/authentication/task/enable-password-policies.md).
+Further instructions on configuring a password policy, see [Enable password policies on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/enable-password-policies.md).
 
 ## More information
 
@@ -78,7 +79,7 @@ Recommended value
 
 -   The **Enable password policy** field on each Password Reset Credential Stores \[pwd\_cred\_store\] record must be activated\(true\).
 -   The **Minimum Password Length** on the associated Password Policy \[password\_policy\] record must be at least 15.
--   The **Maximum Password Length** on the associated Password Policy \[password\_policy\] record must be equal or less than 64.
+-   The **Maximum Password Length** on the associated Password Policy \[password\_policy\] record must be at least 64.
 
 </td></tr><tr><td>
 
@@ -104,7 +105,7 @@ Category
 
 </td><td>
 
-[Authentication](sc-authentication.md)
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -133,5 +134,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](sc-authentication.md)
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

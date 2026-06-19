@@ -2,6 +2,7 @@
 title: JSON object format
 description: The JSON object is built in two structures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_JSONObjectFormat.html
 release: australia
 product: Web Services
 classification: web-services
@@ -200,5 +201,5 @@ The following is a record array of incident responses with an error.
 }
 ```
 
-**Parent Topic:**[JSONv2 web service](c_JSONv2WebService.md)
+**Parent Topic:**[JSONv2 web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JSONv2WebService.md)
 

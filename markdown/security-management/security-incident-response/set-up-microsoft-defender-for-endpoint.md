@@ -2,6 +2,7 @@
 title: Get started with the Microsoft Defender for Endpoint integration
 description: The following section lists the setup tasks that you are required to complete in your ServiceNow AI Platform instance prior to installing the Microsoft Defender for Endpoint application from the ServiceNow store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-microsoft-defender-for-endpoint.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -63,7 +64,7 @@ An optional approval workflow is available for isolating host machines, restorin
 
  As a Security Administrator, you can set up approval while configuring the profiles and the default settings. An approval group must be available on the Groups list in your instance.
 
- To monitor and process requests submitted by the users with sn\_si.analyst role, each member of the approval group should navigate to My Approvals in the ServiceNow AI Platform®. Alternatively, the approvers can find the requests submitted exclusively for Microsoft Defender for Endpoint integration under the Approvals module. For more information on how to create a user group, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+ To monitor and process requests submitted by the users with sn\_si.analyst role, each member of the approval group should navigate to My Approvals in the ServiceNow AI Platform®. Alternatively, the approvers can find the requests submitted exclusively for Microsoft Defender for Endpoint integration under the Approvals module. For more information on how to create a user group, see Create a user group.
 
 </td></tr></tbody>
 </table>## What to do next

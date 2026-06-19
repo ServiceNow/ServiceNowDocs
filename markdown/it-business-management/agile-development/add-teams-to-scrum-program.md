@@ -2,6 +2,7 @@
 title: Assign teams to a scrum program
 description: Add teams to your scrum program to assign work and track the progress of the work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/add-teams-to-scrum-program.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -17,7 +18,7 @@ Add teams to your scrum program to assign work and track the progress of the wor
 
 ## Before you begin
 
-Ensure that the teams that work on this scrum program are created as agile groups. For the procedure to create an agile group and assign members to it, see [Create an agile group in Agile Development 2.0](../../agile-development/task/create-an-agile-group.md#).
+Ensure that the teams that work on this scrum program are created as agile groups. For the procedure to create an agile group and assign members to it, see [Create an agile group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-an-agile-group.md).
 
 Role required: it\_program\_manager
 
@@ -38,7 +39,7 @@ Role required: it\_program\_manager
 
 ## What to do next
 
-[Plan a scrum program](plan-scrum-program.md).
+[Plan a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/plan-scrum-program.md).
 
-**Parent Topic:**[Scrum Programs for Agile Development 2.0](../concept/scrum-programs-concept.md)
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/scrum-programs-concept.md)
 

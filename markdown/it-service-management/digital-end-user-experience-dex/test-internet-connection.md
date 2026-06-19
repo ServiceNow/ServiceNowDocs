@@ -2,6 +2,7 @@
 title: Test network connectivity of your device
 description: Test your device's network connectivity to evaluate its performance. If the performance is below average, running a speed test helps diagnose if the issue is with your device or your Internet service provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/test-internet-connection.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Test your device's network connectivity to evaluate its performance. If the perf
 
 ## Before you begin
 
-Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](install-app-device-health.md) and [Download and install Desktop Assistant](download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
@@ -25,7 +26,7 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
 1.  Log in to Desktop Assistant.
 
-    For more information, see [Open and log in to Desktop Assistant](open-desktop-exp.md).
+    For more information, see [Open and log in to Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/open-desktop-exp.md).
 
 2.  On the Desktop Assistant home page, select **Network test**.
 

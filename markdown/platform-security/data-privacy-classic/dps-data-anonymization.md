@@ -2,6 +2,7 @@
 title: Data anonymization
 description: Anonymization provides a way to easily transform data so that it is unidentifiable and more compliant with data privacy regulations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-data-anonymization.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -23,13 +24,13 @@ Use the anonymization section of data privacy to create and view privacy policie
 
 ## Anonymization techniques
 
-Anonymization techniques are options you select to determine how your data is anonymized. You must create an anonymization technique to reference in the anonymization job. See [Create anonymization techniques](../task/dps-create-anonymization-techniques.md) to associate a privacy technique to an associated **Anonymization technique configuration**.
+Anonymization techniques are options you select to determine how your data is anonymized. You must create an anonymization technique to reference in the anonymization job. See [Create anonymization techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-create-anonymization-techniques.md) to associate a privacy technique to an associated **Anonymization technique configuration**.
 
 ## Anonymization policies
 
-Configure an anonymization policy to specify which data privacy techniques are used when anonymizing your data. See for [Create anonymization policies](../task/dps-create-anonymization-policies.md) details.
+Configure an anonymization policy to specify which data privacy techniques are used when anonymizing your data. See for [Create anonymization policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-create-anonymization-policies.md) details.
 
 ## Anonymization jobs
 
-Anonymization jobs use all of these components to anonymize your data. For more information on these jobs, see [Create anonymization job](../task/dps-create-anonymization-job.md).
+Anonymization jobs use all of these components to anonymize your data. For more information on these jobs, see [Create anonymization job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-create-anonymization-job.md).
 

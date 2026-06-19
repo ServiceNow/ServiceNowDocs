@@ -2,7 +2,10 @@
 title: Service Model Foundation business locations
 description: Use the business location entity to create an organizational structure that includes internal and external business locations such as stores, branches, franchises, and dealerships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/industry-data-model-locations.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ With the business location entity you can:
 
 ## Creating a business location
 
-Maintain an organizational structure by creating internal and external business locations. To create a business location, see [Create a business location](../concept/create-business-location.md).
+Maintain an organizational structure by creating internal and external business locations. To create a business location, see [Create a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-business-location.md).
 
 ## Accessing business locations
 

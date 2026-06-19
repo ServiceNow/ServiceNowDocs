@@ -2,6 +2,7 @@
 title: Set up the Salesforce spoke
 description: Integrate your Salesforce account with your ServiceNow instance. Create a custom OAuth application in Salesforce and authenticate requests from ServiceNow.Add and configure a Salesforce connection to authenticate ServiceNow requests in Salesforce spoke.Create a connected app in your Salesforce account to enable OAuth 2.0 authentication with the Salesforce spoke.Integrate your Salesforce account with your ServiceNow instance. Create a custom OAuth application in Salesforce and authenticate requests from ServiceNow using OAuth authorization template.Integrate your Salesforce account with your ServiceNow instance. Create a custom OAuth application in Salesforce and authenticate requests from ServiceNow using JWT signing key.Enable the JSON Web Token \(JWT\) Bearer Grant token authentication by attaching a valid Java KeyStore \(JKS\) certificate to the Salesforce spoke.Create a JSON Web Token \(JWT\) signing key to assign to your Java KeyStore certificate.Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.Use the information generated during Salesforce connected app configuration to register Salesforce as an OAuth provider and enable the instance to request OAuth 2.0 tokens.Create Credential records for the Salesforce connected app that you created. The Salesforce spoke connection and credential alias use these credentials to authorize actions.Create connection records for your Salesforce account. The Salesforce spoke connection and credential alias use these connections to perform actions in Salesforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sf-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -23,8 +24,8 @@ Integrate your Salesforce account with your ServiceNow instance. Create a custom
 
 **Note:** Two spoke setup procedures are outlined here. Perform one of the procedures as per your requirement.
 
--   To setup the spoke using OAuth authorization template, see [Option 1: Set up the Salesforce spoke using OAuth authorization template](setup-sf-spk.md#).
--   To setup the spoke using JWT signing key, see [Option 2: Set up the Salesforce spoke using JWT signing key](setup-sf-spk.md#).
+-   To setup the spoke using OAuth authorization template, see [Option 1: Set up the Salesforce spoke using OAuth authorization template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sf-spk.md).
+-   To setup the spoke using JWT signing key, see [Option 2: Set up the Salesforce spoke using JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sf-spk.md).
 
 **Note:** Don't delete the default connection alias record. This can result in an unexpected behavior. Configure your connection using the default connection alias.
 
@@ -46,7 +47,7 @@ Role required: admin
 
 4.  Use the search box to find the **Salesforce** connection alias.
 
-5.  Select **View Details**.![Connection template for Salesforce spoke](../image/salesforce-spoke-conn-templt.png)
+5.  Select **View Details**.\[Omitted image "salesforce-spoke-conn-templt.png"\] Alt text: Connection template for Salesforce spoke
 
 6.  Configure the Salesforce connection.
 
@@ -54,7 +55,7 @@ Role required: admin
 
         -   To set up an existing connection, select **Configure** or **Edit**.
         -   To create and configure a new connection, select **Add Connection**.
-        **Note:** To support multiple connections through a spoke, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+        **Note:** To support multiple connections through a spoke, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
 
     2.  On the configuration form, fill in the fields.
 
@@ -204,7 +205,7 @@ Integrate your Salesforce account with your ServiceNow instance. Create a custom
 
 ### Before you begin
 
--   [Create a connected app in Salesforce](setup-sf-spk.md#)
+-   [Create a connected app in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sf-spk.md)
 -   Role required: admin
 
 ### Procedure
@@ -301,7 +302,7 @@ Integrate your Salesforce account with your ServiceNow instance. Create a custom
 
 ### Before you begin
 
--   [Create a connected app in Salesforce](setup-sf-spk.md#)
+-   [Create a connected app in Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sf-spk.md)
 -   Role required: admin
 
 ### Attach a Java Key Store certificate to the Salesforce spoke
@@ -337,7 +338,7 @@ Enable the JSON Web Token \(JWT\) Bearer Grant token authentication by attaching
     |Short description|Summary about the certificate.|
     |PEM Certificate|Contents of the X509 certificate.|
 
-4.  Click the attachments icon \(![Attachments icon](../image/attachments-icon.png)\) and attach a JKS certificate.
+4.  Click the attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon\) and attach a JKS certificate.
 
 5.  Click **Validate Stores/Certificates**.
 

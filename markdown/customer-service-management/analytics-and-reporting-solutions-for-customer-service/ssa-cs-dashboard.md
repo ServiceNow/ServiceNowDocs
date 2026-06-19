@@ -2,6 +2,7 @@
 title: Self-Service Analytics dashboard for Customer Service Management
 description: Measure and track the effectiveness of self-service content through user activities on self-service portals to enrich the content and address any self-service gaps.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
@@ -15,21 +16,21 @@ breadcrumb: [Platform Analytics Solutions for Self-Service Analytics for Custome
 
 Measure and track the effectiveness of self-service content through user activities on self-service portals to enrich the content and address any self-service gaps.​
 
-![Overview tab displaying different widgets such as self-service engagements, successful engagements, success rate, cost saved by channel, deflection activity, resolution by channel, and self-service demand by channel.](../../../product/customer-service-management/image/self-service-dashboard-overview.png "Overview tab")
+\[Omitted image "self-service-dashboard-overview.png"\] Alt text: Overview tab displaying different widgets such as self-service engagements, successful engagements, success rate, cost saved by channel, deflection activity, resolution by channel, and self-service demand by channel.
 
-![Knowledge tab displaying different widgets to analyse the engagements, success rates, and deflection activity.](../../../product/customer-service-management/image/self-service-dashboard-knowledge.png "Knowledge tab")
+\[Omitted image "self-service-dashboard-knowledge.png"\] Alt text: Knowledge tab displaying different widgets to analyse the engagements, success rates, and deflection activity.
 
-![Communities tab displaying different widgets to analyse the engagements, success rates, and deflection activity.](../../../product/customer-service-management/image/self-service-dashboard-communities.png "Communities tab")
+\[Omitted image "self-service-dashboard-communities.png"\] Alt text: Communities tab displaying different widgets to analyse the engagements, success rates, and deflection activity.
 
-![Catalog tab displaying different widgets to analyse the engagements, success rates, and deflection activity.](../../../product/customer-service-management/image/self-service-dashboard-catalog.png "Catalog tab")
+\[Omitted image "self-service-dashboard-catalog.png"\] Alt text: Catalog tab displaying different widgets to analyse the engagements, success rates, and deflection activity.
 
-![Virtual agent tab displaying different tab to analyse the engagements, success rates, and deflection activity.](../../../product/customer-service-management/image/self-service-dashboard-virtual-agent.png "Virtual agent tab")
+\[Omitted image "self-service-dashboard-virtual-agent.png"\] Alt text: Virtual agent tab displaying different tab to analyse the engagements, success rates, and deflection activity.
 
-You can access this dashboard by navigating to **All** &gt; **Platform analytics** &gt; **Library** &gt; **Dashboards**, and search for Self-Service Analytics dashboard. To edit this dashboard, you must set the application scope to **Self-Service Analytics for Customer Service** using the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+You can access this dashboard by navigating to **All** &gt; **Platform analytics** &gt; **Library** &gt; **Dashboards**, and search for Self-Service Analytics dashboard. To edit this dashboard, you must set the application scope to **Self-Service Analytics for Customer Service** using the application picker.
 
 **Note:**
 
--   On the Knowledge tab, you can report knowledge gaps for unsuccessful searches. For more information, see [Report knowledge gaps based on unsuccessful searches](../../performance-analytics/task/report-knowledge-gap-unsucc-search.md).
+-   On the Knowledge tab, you can report knowledge gaps for unsuccessful searches. For more information, see [Report knowledge gaps based on unsuccessful searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/analytics-and-reporting-solutions-for-customer-service/report-knowledge-gap-unsucc-search.md).
 -   The Communities tab is available when the Communities plugin \(com.sn\_communities\) is activated.
 -   The Virtual Agent tab is available when the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) is activated.
 
@@ -90,7 +91,7 @@ The Self-Service Analytics for Customer Service plugin includes the following in
 
     A monthly calculation of the cost saving for a deflection. The score is calculated according to the formula `([[Self-Service: Confirmed Deflections]] + [[Self-Service: Potential Deflections]]) * 20`.
 
-    **Note:** By default, the cost saved by each deflection is set to $20. However, you can modify the formula and set a different cost. To edit the formula, navigate to **Performance Analytics** &gt; **Formula Indicators**, search for and click the **Self-Service: Cost Saved** indicator, and edit the numeric value in the **Formula** field. For more information, see [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md).
+    **Note:** By default, the cost saved by each deflection is set to $20. However, you can modify the formula and set a different cost. To edit the formula, navigate to **Performance Analytics** &gt; **Formula Indicators**, search for and click the **Self-Service: Cost Saved** indicator, and edit the numeric value in the **Formula** field. For more information, see Create a formula indicator.
 
 -   **Self-Service: Potential Deflections**
 
@@ -211,10 +212,10 @@ This dashboard includes the following breakdowns:
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Unsuccessful Searches|Bar ![Bar icon.](../../performance-analytics/image/column-icon.png)|A monthly collection of searches for knowledge articles with no results or results with no clicks.|
+|Unsuccessful Searches|Bar \[Omitted image "column-icon.png"\] Alt text: Bar icon.|A monthly collection of searches for knowledge articles with no results or results with no clicks.|
 
 **Related topics**  
 
 
-[Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/self-service-analytics.md)
+[bundle-platcap.self-service-analytics]
 

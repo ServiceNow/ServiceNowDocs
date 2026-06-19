@@ -2,6 +2,7 @@
 title: Set up OAuth
 description: Set up and activate OAuth, enable the OAuth system property, create an OAuth application endpoint for external client applications to access the instance, and set OAuth parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SettingUpOAuth.html
 release: australia
 product: Authentication
 classification: authentication
@@ -21,14 +22,14 @@ Role required: oauth\_admin
 
 ## Procedure
 
-1.  Make sure the [OAuth plugin](t_ActivateOAuth.md) is active and the [OAuth activation property](t_SetTheOAuthProperty.md) is set to true.
+1.  Make sure the [OAuth plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ActivateOAuth.md) is active and the [OAuth activation property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SetTheOAuthProperty.md) is set to true.
 
 2.  Create an OAuth application registry using one of the following methods:
 
-    -   [Create an endpoint for external clients](t_CreateEndpointforExternalClients.md) that want to access your instance. This creates an **OAuth client application** record and generates a client ID and client secret that the client needs to access the restricted resources on the instance.
-    -   [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md) that provides the authorization for access to your instance.
+    -   [Create an endpoint for external clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md) that want to access your instance. This creates an **OAuth client application** record and generates a client ID and client secret that the client needs to access the restricted resources on the instance.
+    -   Use a third-party OAuth provider that provides the authorization for access to your instance.
 
-        [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md) and [Specify an OAuth scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthScope.md) when you are connecting to another OAuth provider.
+        Specify an OAuth profile and Specify an OAuth scope when you are connecting to another OAuth provider.
 
 3.  Configure your client applications to create an HTTP POST that requests an OAuth token.
 

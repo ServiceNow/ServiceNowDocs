@@ -2,6 +2,7 @@
 title: Benchmarks KPI performance trend
 description: The Benchmarks KPI performance chart trend view shows your KPI performance comparison with global data, and provides details about the KPI on the contextual side panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c\_NewbenchKPItrendrecommend.html
 release: australia
 product: Benchmarks
 classification: benchmarks
@@ -19,7 +20,7 @@ The KPI Performance Trends chart section is shown only for users with the Benchm
 
 ## KPI Performance Trends chart
 
-![KPI Performance Trends](../image/BenchTrend2.png "6-month monthly data mapped against global data")
+\[Omitted image "BenchTrend2.png"\] Alt text: KPI Performance Trends
 
 Your 6-month monthly data is mapped against global data, and your percentile rank indicating your standing within the participating peer group is shown.
 

@@ -2,6 +2,7 @@
 title: Seed a consumer instance
 description: Seed all or some of the tables in your Instance Data Replication \(IDR\) replication sets depending on the needs of your consumer instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/seed-consumer-instance.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -83,10 +84,10 @@ The producer instance handles one seeding request at a time. When the producer i
 
 In a successful seeding, all selected data on a producer instance is replicated on a consumer instance. After seeding, the consumer instance maintains a history of all field updates.
 
-If you encounter an error during seeding, see [Fix seeding errors](fix-seeding-errors.md).
+If you encounter an error during seeding, see [Fix seeding errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/fix-seeding-errors.md).
 
 -   Seeding continues even if errors occur on some consumer tables. You can restart seeding specifically on the tables that have errors or on all tables in a replication set.
--   The maximum for a retry reseeding request is 10,000 errors. If you have more errors, perform a [full seeding](seed-consumer-instance.md).
+-   The maximum for a retry reseeding request is 10,000 errors. If you have more errors, perform a [full seeding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/seed-consumer-instance.md).
 
-**Parent Topic:**[Replicating data with Instance Data Replication](../concept/replicating-data.md)
+**Parent Topic:**[Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/replicating-data.md)
 

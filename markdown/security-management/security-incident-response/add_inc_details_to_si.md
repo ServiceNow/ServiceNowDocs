@@ -2,11 +2,12 @@
 title: Add information to a security incident
 description: After a security incident is created, you can add more details to aid in analysis, such as access roles and different kinds of notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add\_inc\_details\_to\_si.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,7 +24,7 @@ Role required: sn\_si.basic
 
 1.  If it is not already open, open the security incident you want to update.
 
-2.  Click the **Incident Details** tab.
+2.  Select the **Incident Details** tab.
 
 3.  Fill in the fields, as needed.
 
@@ -53,7 +54,7 @@ Watch list
 
 </td><td>
 
-Click the lock icon to add users who are notified when changes to the security incident occur. After the field is unlocked, options are available for adding or removing multiple users or entering user email addresses. When you have completed your entries, click the lock icon to lock the field.
+Select the lock icon to add users who are notified when changes to the security incident occur. After the field is unlocked, options are available for adding or removing multiple users or entering user email addresses. When you have completed your entries, select the lock icon to lock the field.
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Work notes list
 
 </td><td>
 
-Click the lock icon \(![Lock](../../security-operations-common/common/images/lock.png)\) to add users who are notified when new work notes are added. After the field is unlocked, options are available for adding or removing multiple users or entering user email addresses. When you have completed your entries, click the lock icon to lock the field.
+Select the lock icon \(\[Omitted image "lock.png"\] Alt text: Lock\) to add users who are notified when new work notes are added. After the field is unlocked, options are available for adding or removing multiple users or entering user email addresses. When you have completed your entries, select the lock icon to lock the field.
 
 </td></tr><tr><td>
 
@@ -107,24 +108,22 @@ Activity
 
 Displays information manually entered in Work notes, and all dynamically updated task activity \(actions, comments, work notes, and so on\) on related records for this security incident. Work notes appear with a yellow color band.
 
-![Manually-entered work note](../image/manual-work-note.png)
+\[Omitted image "manual-work-note.png"\] Alt text: Manually-entered work note
 
  Automatically generated notes appear with a gray color band.
 
-![Automatically-generated work note](../image/auto-work-note.png)
+\[Omitted image "auto-work-note.png"\] Alt text: Automatically-generated work note
 
 </td></tr></tbody>
-</table>4.  You can limit the types of information displayed in the **Activity** field by clicking the filter \(![Filter](../image/filter-icon.png)\) icon.
-
-    ![Filter activities](../image/filter.png)
+</table>4.  You can limit the types of information displayed in the **Activity** field by selecting the filter \(\[Omitted image "filter-icon.png"\] Alt text: Filter\) icon.
 
     **Note:** The **Automation activity** check box allows you to include any enrichment performed by this security incident, including workflow activities, risk score updates, and so forth.
 
-5.  Click any of the following tabs to further update the security incident:
+5.  Select any of the following tabs to further update the security incident:
 
-    -   [Related Records](add-rel-recs-to-si.md)
-    -   [Post Incident Review](../concept/c_PostIncidentReview.md)
-    -   [Closure Information](add-closure-info-to-si.md)
-6.  When you have completed your entries, click **Submit**.
+    -   [Related Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-rel-recs-to-si.md)
+    -   [Post Incident Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_PostIncidentReview.md)
+    -   [Closure Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-closure-info-to-si.md)
+6.  When you have completed your entries, select **Submit**.
 
 

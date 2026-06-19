@@ -2,6 +2,7 @@
 title: Learn about FSC common applications
 description: Learn about the FSC common application plugins and their dependencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/common-service-delivery/learn-common-apps.html
 release: australia
 product: Common Service Delivery
 classification: common-service-delivery
@@ -39,7 +40,7 @@ Finance Common Architecture \[sn\_fin\]
 
 Maintains primary data such as Enterprise Resource Planning \(ERP\) sources, legal entities, accounting periods, and so on.
 
- For more information about the components installed with this plugin, see [Components installed with Finance Common Architecture](../../sourcing-procurement-operations/reference/installed-with-finance-common.md).
+ For more information about the components installed with this plugin, see [Components installed with Finance Common Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-finance-common.md).
 
 </td><td>
 
@@ -58,7 +59,7 @@ ERP Integration Framework \[sn\_fcms\_integrations\]**Important:** Check your en
 
 </td><td>
 
-Provides integration support between the Platform and common ERP systems.For more information about the components installed with this plugin, see [Components installed with ERP Integration Framework](../../sourcing-procurement-operations/reference/installed-with-FSC-ERP.md).
+Provides integration support between the Platform and common ERP systems.For more information about the components installed with this plugin, see [Components installed with ERP Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/common-service-delivery/installed-with-FSC-ERP.md).
 
 </td><td>
 

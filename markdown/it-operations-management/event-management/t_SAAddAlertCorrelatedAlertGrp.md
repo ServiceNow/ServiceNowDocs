@@ -2,6 +2,7 @@
 title: Create alert group manually
 description: Manually create an alert group to organize and manage related alerts when not using scheduled jobs. This provides flexibility to group alerts on-demand for effective resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_SAAddAlertCorrelatedAlertGrp.html
 release: australia
 product: Event Management
 classification: event-management
@@ -31,16 +32,16 @@ Role required: evt\_mgmt\_admin
 
 3.  Scroll down and in the **Secondary Alerts** tab, select **Add To Group**.
 
-    ![Option to add secondary alerts to the group.](../image/em-secondary-alert-1.png)
+    \[Omitted image "em-secondary-alert-1.png"\] Alt text: Option to add secondary alerts to the group.
 
 4.  Select the check boxes for all alerts you want to add to the group as secondary alerts and select **Add Selected**.
 
-    ![Select the alerts that you want to add as secondary alerts to the group.](../image/em-secondary-alert-2.png)
+    \[Omitted image "em-secondary-alert-2.png"\] Alt text: Select the alerts that you want to add as secondary alerts to the group.
 
 5.  In the **Secondary Alerts** tab, view the alerts that have been added as secondary.
 
-    ![Secondary alerts are added to the group.](../image/em-secondary-alert-3.png)
+    \[Omitted image "em-secondary-alert-3.png"\] Alt text: Secondary alerts are added to the group.
 
 
-**Parent Topic:**[Manual alert grouping](../concept/manual-alert-grouping.md)
+**Parent Topic:**[Manual alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/manual-alert-grouping.md)
 

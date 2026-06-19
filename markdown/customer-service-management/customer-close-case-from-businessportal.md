@@ -2,7 +2,10 @@
 title: Close a case from the Business Portal
 description: Close completed or resolved cases from the business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-close-case-from-businessportal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

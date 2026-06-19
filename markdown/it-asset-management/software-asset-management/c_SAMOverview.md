@@ -2,6 +2,7 @@
 title: Software Asset Management overview
 description: An overview of the functionality of the Software Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMOverview.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -83,7 +84,7 @@ Optimization
 
 </td><td>
 
-The reclamation process remediates non-compliance by uninstalling software from devices and reclaiming those software rights. The reclamation process can be automated using Client Software Distribution \(CSD\).Features include removal candidate and workflows, reclamation rule creation, software usage listing, and support for creating a purchase order directly using Procurement integration. For more information, see the [Procurement overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/c_Procurement.md).
+The reclamation process remediates non-compliance by uninstalling software from devices and reclaiming those software rights. The reclamation process can be automated using Client Software Distribution \(CSD\).Features include removal candidate and workflows, reclamation rule creation, software usage listing, and support for creating a purchase order directly using Procurement integration. For more information, see the Procurement overview.
 
 </td></tr><tr><td>
 
@@ -91,8 +92,8 @@ Downgrade Rights
 
 </td><td>
 
-The concept of downgrading licenses is built into the Software Asset Management plugin feature. Downgrade rights is the process of having acquired the rights to the latest version of software but using the rights to license earlier versions of the same software. For more information, see [Downgrade Rights](downgrade-rights.md).
+The concept of downgrading licenses is built into the Software Asset Management plugin feature. Downgrade rights is the process of having acquired the rights to the latest version of software but using the rights to license earlier versions of the same software. For more information, see [Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/downgrade-rights.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+</table>**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

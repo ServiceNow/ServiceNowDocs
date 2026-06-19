@@ -2,6 +2,7 @@
 title: Download evidence files
 description: Download files that violate the DLP policy on Netskope. Download this file onto your local machine from the DLP IR Analyst workspace and DLP IR End user workspace for approvers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/download-files-netskope.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -42,8 +43,8 @@ You need to enable file download for Netskope before moving ahead.
 
     The file that violates the DLP policy on the Netskope will be downloaded to the user’s local machine.
 
-    **Note:** DLP admin can control the access of **Download File** action for all integrations by disabling the **Should downloading the violating file of the reported incident be allowed** option from the **Advanced Settings** page of DLP Administration. For more information, see [Configure advanced settings](../../data-loss-prevention/task/configure-advanced-settings-dlp.md).
+    **Note:** DLP admin can control the access of **Download File** action for all integrations by disabling the **Should downloading the violating file of the reported incident be allowed** option from the **Advanced Settings** page of DLP Administration. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md).
 
 
-**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](../concept/dlp-incident-response-integration-netskope.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Netskope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-netskope.md)
 

@@ -2,6 +2,7 @@
 title: Designate a service fulfiller
 description: Service fulfillers can complete service requests submitted for a service category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/t\_DesignatingServiceFulfillers.html
 release: australia
 product: Service Creator
 classification: service-creator
@@ -39,6 +40,6 @@ The Service Fulfillers related list on the Service Category form displays all us
 
 5.  Click **Save**.
 
-    ![Service Creator Service Fulfillers](../image/ServiceCreatorServiceFulfillers.png)
+    \[Omitted image "ServiceCreatorServiceFulfillers.png"\] Alt text: Service Creator Service Fulfillers
 
 

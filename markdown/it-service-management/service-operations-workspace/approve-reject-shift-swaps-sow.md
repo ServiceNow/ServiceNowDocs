@@ -2,6 +2,7 @@
 title: Approve or reject a shift-swap in Service Operations Workspace
 description: You can approve a shift swap requested by your peer if you are available to work for that time period. You can reject it if you are unable to work then.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/approve-reject-shift-swaps-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -33,8 +34,8 @@ Role required: sn\_shift\_planning.agent
 
     -   To approve the request, click **Approve**.
     -   To reject the request, click **Reject**.
-    If you approve a shift-swap, the application moves the request to your manager's approval queue. For more information, go to [Track and manage your teams' schedule](../../configurable-workforce-optimization-itsm/task/approve-time-off-shift-swaps-wfo-itsm.md).
+    If you approve a shift-swap, the application moves the request to your manager's approval queue. For more information, go to [Track and manage your teams' schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/approve-time-off-shift-swaps-wfo-itsm.md).
 
 
-**Parent Topic:**[Service Operations Workspace - Scheduling](../concept/itsm-sow-workspace-scheduling.md)
+**Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)
 

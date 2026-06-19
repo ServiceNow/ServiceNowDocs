@@ -2,6 +2,7 @@
 title: Configure the Upcoming section on the landing page
 description: Configure the data displayed in the Upcoming section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/modify-upcoming-section.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Using an extension point, you can call the custom scripts to extend the functionality of the **Upcoming** section and also easily integrate customizations without having to alter the base code. For information about extension points, see [Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
+Using an extension point, you can call the custom scripts to extend the functionality of the **Upcoming** section and also easily integrate customizations without having to alter the base code. For information about extension points, see Creating and adding a scripted extension point.
 
 |Extension point|Description|
 |---------------|-----------|
@@ -191,5 +192,5 @@ Using an extension point, you can call the custom scripts to extend the function
     5.  Verify that the task appears in the **Upcoming** section of the Service Operations Workspace landing page for the selected user.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](../concept/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

@@ -2,6 +2,7 @@
 title: Legacy: Incident Premium dashboard
 description: This dashboard uses Workbench widgets and other advanced Platform Analytics features to give you all the information about the Incident process in one place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/incident-premium-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -17,15 +18,15 @@ This dashboard uses Workbench widgets and other advanced Platform Analytics feat
 
 **Important:**
 
-Starting in Xanadu release, the Incident Premium dashboard is deprecated. Users can use [Incident management dashboard](performance-analytics/incident.md) for Workbench widgets and other advanced Platform Analytics features to know about the Incident process in one place.
+Starting in Xanadu release, the Incident Premium dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) for Workbench widgets and other advanced Platform Analytics features to know about the Incident process in one place.
 
-![Incident Premium dashboard tabs](../image/incident-premium-tab-p.gif "Tabs of the Incident Premium dashboard")
+\[Omitted image "incident-premium-tab-p.gif"\] Alt text: Incident Premium dashboard tabs
 
 ## Access the Incident Premium dashboard
 
 To access the Incident Premium dashboard, navigate to **All** &gt; **Self-Service** &gt; **Dashboard**. On the Dashboards Overview, search for Incident Premium dashboard.
 
-![Incident premium dashboard search on dashboards](../image/incident-premium-location-p.png)
+\[Omitted image "incident-premium-location-p.png"\] Alt text: Incident premium dashboard search on dashboards
 
 ## End user and roles
 
@@ -166,21 +167,21 @@ The following indicators are not shown directly on the dashboard but are used in
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Incidents Opened Today|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of incidents created on the current date.|
-|Unassigned Incidents|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of incidents that are still not assigned.|
-|Overdue Incidents|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of incidents that exceed its SLA.|
-|Open Incidents|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of incidents that do not have a resolution date.|
-|Incidents not updated for 7 days|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of incidents that were updated more than 7 days ago.|
-|Open incidents older than 30 days|Single score \(![Singe score icon](../../reporting/image/icon-single-score-report-p.png)\)|Total number of open incidents that were created 30 days ago.|
-|Open Incidents - Grouped|Vertical bar \(![Vertical bar](../../reporting/image/icon-bar-report-p.png)\)|Total number of open incidents grouped by priority.|
-|Open incidents older than 30 days - Grouped|Horizontal bar \(![Horizontal bar](../../reporting/image/icon-horizontal-bar-report-p.png)\)|Total number of open incidents that were created more than 30 days ago.|
-|Incidents by Priority and State|Heatmap icon \(![Heatmap icon](../../reporting/image/icon-heatmap-report-p.png)\)|Total number of incidents grouped by priority and state.|
-|Incidents by Priority and State older than 30 days|Heatmap icon \(![Heatmap icon](../../reporting/image/icon-heatmap-report-p.png)\)|Total number of incidents grouped by priority and state that were created more than 30 days ago.|
-|Incidents per week|Area icon \(![Area icon](../../reporting/image/icon-area-report-p.png)\)|Total number of incidents opened or closed in each week.|
-|Open Incidents older than 30 days by Assignment Group and State|Heatmap icon \(![Heatmap icon](../../reporting/image/icon-heatmap-report-p.png)\)|Total number of incidents opened more than 30 days ago and that are grouped by assignment group and state of the incident.|
-|Open Incidents Not Updated In Last 30 Days by Assignment Group and State|Heatmap icon \(![Heatmap icon](../../reporting/image/icon-heatmap-report-p.png)\)|Total number of open incidents updated more than 30 days ago and that are grouped by assignment group and state of the incident.|
-|Open Incidents where assignee is not active|Heatmap icon \(![Heatmap icon](../../reporting/image/icon-heatmap-report-p.png)\)|Total number of incidents where the user in the **Assigned to** field have an inactive status.|
-|Open Incidents with closed Problem|Heatmap icon \(![Heatmap icon](../../reporting/image/icon-heatmap-report-p.png)\)|Total number of open incidents that have an associated problem with closed status.|
+|Incidents Opened Today|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of incidents created on the current date.|
+|Unassigned Incidents|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of incidents that are still not assigned.|
+|Overdue Incidents|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of incidents that exceed its SLA.|
+|Open Incidents|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of incidents that do not have a resolution date.|
+|Incidents not updated for 7 days|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of incidents that were updated more than 7 days ago.|
+|Open incidents older than 30 days|Single score \(\[Omitted image "icon-single-score-report-p.png"\] Alt text: Singe score icon\)|Total number of open incidents that were created 30 days ago.|
+|Open Incidents - Grouped|Vertical bar \(\[Omitted image "icon-bar-report-p.png"\] Alt text: Vertical bar\)|Total number of open incidents grouped by priority.|
+|Open incidents older than 30 days - Grouped|Horizontal bar \(\[Omitted image "icon-horizontal-bar-report-p.png"\] Alt text: Horizontal bar\)|Total number of open incidents that were created more than 30 days ago.|
+|Incidents by Priority and State|Heatmap icon \(\[Omitted image "icon-heatmap-report-p.png"\] Alt text: Heatmap icon\)|Total number of incidents grouped by priority and state.|
+|Incidents by Priority and State older than 30 days|Heatmap icon \(\[Omitted image "icon-heatmap-report-p.png"\] Alt text: Heatmap icon\)|Total number of incidents grouped by priority and state that were created more than 30 days ago.|
+|Incidents per week|Area icon \(\[Omitted image "icon-area-report-p.png"\] Alt text: Area icon\)|Total number of incidents opened or closed in each week.|
+|Open Incidents older than 30 days by Assignment Group and State|Heatmap icon \(\[Omitted image "icon-heatmap-report-p.png"\] Alt text: Heatmap icon\)|Total number of incidents opened more than 30 days ago and that are grouped by assignment group and state of the incident.|
+|Open Incidents Not Updated In Last 30 Days by Assignment Group and State|Heatmap icon \(\[Omitted image "icon-heatmap-report-p.png"\] Alt text: Heatmap icon\)|Total number of open incidents updated more than 30 days ago and that are grouped by assignment group and state of the incident.|
+|Open Incidents where assignee is not active|Heatmap icon \(\[Omitted image "icon-heatmap-report-p.png"\] Alt text: Heatmap icon\)|Total number of incidents where the user in the **Assigned to** field have an inactive status.|
+|Open Incidents with closed Problem|Heatmap icon \(\[Omitted image "icon-heatmap-report-p.png"\] Alt text: Heatmap icon\)|Total number of open incidents that have an associated problem with closed status.|
 
 ## Filters
 
@@ -194,5 +195,5 @@ The dashboard includes the following filters:
 |Incident Category|Choice list|Filter the report visualizations based on the **Category** of the incident record.|
 |Incident Opened|Date|Filter the report visualizations based on the date when the incident is created.|
 
-**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](incident-content-pack.md)
+**Parent Topic:**[Legacy: Incident Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-content-pack.md)
 

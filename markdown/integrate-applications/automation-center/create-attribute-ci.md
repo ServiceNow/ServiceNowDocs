@@ -2,6 +2,7 @@
 title: Update an automation attribute
 description: Update an automation attribute to include the automation source and time savings information. This information is available in the Automation Center Value dashboard for analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-attribute-ci.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -29,7 +30,7 @@ When data is sent from ServiceNow RPA and flows or any third-party vendor, the c
 
 1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation Center Home**.
 
-2.  Select the list icon \(![List icon.](../images/autocenter-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Administration**, select **Automation Attributes**.
 
@@ -91,5 +92,5 @@ Time saved after each run of the automation.
 </table>6.  Select **Update**.
 
 
-**Parent Topic:**[Working with automations](../concept/automations.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
 

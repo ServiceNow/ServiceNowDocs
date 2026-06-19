@@ -2,11 +2,12 @@
 title: Create a custom list based on a system table
 description: Create a custom list on Workplace Central based on a system table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/create-custom-list.html
 release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Creating custom lists on Workplace Central, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -29,7 +30,7 @@ Role required: sn\_wsd\_central.workspace\_user
 
 1.  Navigate to **All** &gt; **Workplace Central** &gt; **Workplace Central**.
 
-2.  Select the **Lists** icon \(![Lists icon.](../images/wsd-central-lists-icon.png)\).
+2.  Select the **Lists** icon \(\[Omitted image "wsd-central-lists-icon.png"\] Alt text: Lists icon.\).
 
 3.  Select the **My Lists** tab, then select **Add new list**.
 
@@ -74,15 +75,15 @@ Columns that are picked from the selected system table and displayed on the cust
 </td></tr></tbody>
 </table>6.  In the Add filters section, use the following options to filter and sort the records in your custom list.
 
-<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d333752e209">
+<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d310868e209">
 
 Option
 
-</th><th align="left" id="d333752e212">
+</th><th align="left" id="d310868e212">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d333752e218">
+</th></tr></thead><tbody><tr><td id="d310868e218">
 
 **Use existing filter**
 
@@ -90,7 +91,7 @@ Description
 
 Use an existing filter that is available with the selected Workplace Central list.
 
-</td></tr><tr><td id="d333752e230">
+</td></tr><tr><td id="d310868e230">
 
 **Save filter**
 
@@ -98,7 +99,7 @@ Use an existing filter that is available with the selected Workplace Central lis
 
 Save the current filter criteria.You can use saved filters for other custom lists. You can also grant permissions to other users to use the filter for their custom lists.
 
-</td></tr><tr><td id="d333752e241">
+</td></tr><tr><td id="d310868e241">
 
 **Refresh \(Update count\)**
 
@@ -106,7 +107,7 @@ Save the current filter criteria.You can use saved filters for other custom list
 
 Update the number of records based on the current filter criteria.
 
-</td></tr><tr><td id="d333752e250">
+</td></tr><tr><td id="d310868e250">
 
 **Editor**
 
@@ -114,7 +115,7 @@ Update the number of records based on the current filter criteria.
 
 Create condition sets for the filter criteria.
 
-</td></tr><tr><td id="d333752e260">
+</td></tr><tr><td id="d310868e260">
 
 **Sort by**
 
@@ -126,5 +127,5 @@ Select fields that are to sort the results in the custom lists in ascending or d
 </table>7.  Select **Create**.
 
 
-**Parent Topic:**[Creating custom lists on Workplace Central](../concept/creating-custom-lists-wsd.md)
+**Parent Topic:**[Creating custom lists on Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/creating-custom-lists-wsd.md)
 

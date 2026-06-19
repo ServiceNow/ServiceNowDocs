@@ -2,6 +2,7 @@
 title: Roles installed with Digital resilience incident reporting
 description: Certain roles are installed with the Digital resilience incident reporting functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/roles-with-drir.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

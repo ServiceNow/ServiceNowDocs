@@ -2,6 +2,7 @@
 title: Components installed with Audit Management
 description: Activating the GRC: Audit Management \(com.sn\_audit\) plugin adds or modifies several tables, user roles, and other components.Properties are added with activation of GRC: Audit Management.Roles are added with activation of GRC: Audit Management.Tables are added with activation of GRC: Audit Management.Tables are added with activation of GRC: Advanced Audit
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/r\_InstallWAudit.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -15,7 +16,7 @@ breadcrumb: [Audit Management reference, Audit Management, Governance, Risk, and
 
 Activating the GRC: Audit Management \(com.sn\_audit\) plugin adds or modifies several tables, user roles, and other components.
 
-**Parent Topic:**[Audit Management reference](audit-management-reference.md)
+**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-reference.md)
 
 ## Properties installed with Audit Management and Advanced Audit
 

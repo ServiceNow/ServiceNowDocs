@@ -2,6 +2,7 @@
 title: Setup a kiosk on a physical device for reservations
 description: Kiosk operators can bind the kiosk configuration to a physical device for employees and guests to make workplace reservations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-services-kiosk/kiosk-setup-rsv-space.html
 release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -25,22 +26,22 @@ Role required: sn\_wsd\_kiosk.operator
 
 2.  On the kiosk setup welcome page for a device, select the **Select Kiosk** tab.
 
-    ![Select and assign kiosk to a device page. Kiosk operators can assign kiosk to a device.](../images/kiosk-operator-role-login-page2.png)
+    \[Omitted image "kiosk-operator-role-login-page2.png"\] Alt text: Select and assign kiosk to a device page. Kiosk operators can assign kiosk to a device.
 
 3.  Search and select the kiosk that you want to assign to your device \(for example, **Default kiosk**\).
 
-    The selected kiosk should be assigned to a Reservable module and should have spaces configured for it. For more information, see [Configure Reservable Module for kiosk reservation](config-rsv-module-kiosk.md).
+    The selected kiosk should be assigned to a Reservable module and should have spaces configured for it. For more information, see [Configure Reservable Module for kiosk reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/config-rsv-module-kiosk.md).
 
 4.  Select **Continue** and enable the kiosk to access a physical device's camera.
 
 5.  Select **Save kiosk** to complete the kiosk assignment to a device.
 
-    ![Allow access to your device's camera for a kiosk. Save the kiosk to complete kiosk assignment to your device.](../images/kiosk-camera-access-setup-page-3.png)
+    \[Omitted image "kiosk-camera-access-setup-page-3.png"\] Alt text: Allow access to your device's camera for a kiosk. Save the kiosk to complete kiosk assignment to your device.
 
 6.  The Welcome to the Kiosk setup page opens and shows the default kiosk as selected.
 
-    You have successfully setup the kiosk on your device for workplace visitors and guests to make a reservation. For more information, see [Make workplace reservations on the kiosk](rsv-space-kiosk-map.md).
+    You have successfully setup the kiosk on your device for workplace visitors and guests to make a reservation. For more information, see [Make workplace reservations on the kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.md).
 
 
-**Parent Topic:**[Configuring Workplace Services Kiosk](../concept/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

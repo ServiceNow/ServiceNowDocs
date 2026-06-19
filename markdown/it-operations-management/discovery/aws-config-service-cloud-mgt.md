@@ -1,17 +1,18 @@
 ---
-title: Configure the AWS Config service to send event notifications to the ServiceNow instance
+title: Configure AWS Config event notifications
 description: Configure the Amazon Web Services \(AWS\) Config service to send event notifications to the ServiceNow instance for any changes in the lifecycle state of a resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/aws-config-service-cloud-mgt.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [AWS events-driven discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure the AWS Config service to send event notifications to the ServiceNow instance
+# Configure AWS Config event notifications
 
 Configure the Amazon Web Services \(AWS\) Config service to send event notifications to the ServiceNow instance for any changes in the lifecycle state of a resource.
 
@@ -29,11 +30,11 @@ Roles required:
     -   Resource types for which you want to track the configuration change
 -   ServiceNow roles:
     -   discovery\_admin
-    -   sn\_cmp.cloud\_event\_integration: The access credentials of a ServiceNow user with the sn\_cmp.cloud\_event\_integration role is required to subscribe the instance to the SNS notifications. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md) and [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    -   sn\_cmp.cloud\_event\_integration: The access credentials of a ServiceNow user with the sn\_cmp.cloud\_event\_integration role is required to subscribe the instance to the SNS notifications. For more information, see Create a user and Assign a role to a user.
 
 ## About this task
 
-The ServiceNow® event-driven discovery uses the events to update the latest resource information in the Configuration Management Database \(CMDB\). For more information, see [AWS events-driven discovery](../concept/aws-events-driven-discovery.md).
+ServiceNow® event-driven discovery uses the events to update the latest resource information in the Configuration Management Database \(CMDB\). For more information, see [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/aws-events-driven-discovery.md).
 
 Many of the steps in the topic are performed in the AWS portal. For more information, see the following AWS documents:
 
@@ -156,12 +157,12 @@ https://<username>:<user_password>@<instance_URL>/api/now/cloud_event?sysparm_re
 
     5.  Fill the values on the Edit settings form.
 
-        For a description of the form fields, see [Edit settings form reference](../reference/edit-aws-event-recording-settings-form-reference.md).
+        For a description of the form fields, see [Edit settings form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/edit-aws-event-recording-settings-form-reference.md).
 
     6.  Select **Save**.
 
 
 ## What to do next
 
-After some events are generated, navigate to the [Cloud User Portal](../../cloud-management-v2-user/task/cloudmgt-view-cloud-events.md) to view the events.
+After some events are generated, navigate to the [Cloud User Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-view-cloud-events.md) to view the events.
 

@@ -1,7 +1,8 @@
 ---
 title: AI Search Genius Result Configuration form
-description: The AI Search Genius Result Configuration form contains information about Genius Result configurations defined for your search profiles in AI Search. Use this form when creating or modifying a Genius Result configuration.
+description: The AI Search Genius Result Configuration form enables you to create a Genius Result configuration for use in your AI Search search profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/genius-result-cfg-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -13,9 +14,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 # AI Search Genius Result Configuration form
 
-The AI Search Genius Result Configuration form contains information about Genius Result configurations defined for your search profiles in AI Search. Use this form when creating or modifying a Genius Result configuration.
+The AI Search Genius Result Configuration form enables you to create a Genius Result configuration for use in your AI Search search profiles.
 
-For details on creating or editing a Genius Result configuration, see [Create a Genius Result configuration](../task/create-genius-results-config-ais.md).
+For details on creating or editing a Genius Result configuration, see [Create a Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-genius-results-config-ais.md).
 
 <table id="table_wqk_ttg_trb"><thead><tr><th>
 
@@ -42,7 +43,7 @@ Trigger condition
 Condition that triggers evaluation of the Genius Result configuration. Supported values:
 
 -   **Always**: The Genius Result configuration triggers for every search query.
--   **NLU**: The Genius Result configuration triggers when the search query's detected intent matches an [NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-models.md) intent. To use this trigger condition, you must link the NLU model and one or more of its intents to your Genius Result configuration. For instructions, see [Link an NLU model and intents to a Genius Result configuration](../task/link-nlu-model-genius-result-ais.md).
+-   **NLU**: The Genius Result configuration triggers when the search query's detected intent matches an NLU model intent. To use this trigger condition, you must link the NLU model and one or more of its intents to your Genius Result configuration. For instructions, see [Link an NLU model and intents to a Genius Result configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/link-nlu-model-genius-result-ais.md).
 
 **Note:**
 
@@ -97,7 +98,7 @@ Server-side script function that takes a GeniusResultContext object as its param
 
  To define a search query, use the GeniusResultAnswer.setTable\(\), GeniusResultAnswer.addSearchPhrases\(\), and GeniusResultAnswer.setSearchPhrase\(\) API methods.
 
- For details of API methods usable in this script function, including examples of use, see the [GeniusResultAnswer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultAnswerScopedAPI.md) and [GeniusResultContext](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultContextScopedAPI.md) scoped JavaScript API descriptions.
+ For details of API methods usable in this script function, including examples of use, see the GeniusResultAnswer and GeniusResultContext scoped JavaScript API descriptions.
 
 **Note:** The GeniusResultContext.getMatchingDocuments\(\) API method returns no results when invoked in an **AI Search request processor** script, since the script is executed before AI Search computes results for the triggering search query. Don't use this method in your request processor scripts.
 
@@ -113,7 +114,7 @@ Server-side script function that takes a GeniusResultContext object as its param
 
  To define your map of key-value pairs, use the GeniusResultAnswer.addDataMap\(\) API method. Each key-value pair represents a field name and value that you can display on the Genius Result answer card using the **Return fields** list.
 
- For details of API methods usable in this script function, including examples of use, see the [GeniusResultAnswer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultAnswerScopedAPI.md) and [GeniusResultContext](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GeniusResultContextScopedAPI.md) scoped JavaScript API descriptions.
+ For details of API methods usable in this script function, including examples of use, see the GeniusResultAnswer and GeniusResultContext scoped JavaScript API descriptions.
 
 </td></tr><tr><td>
 
@@ -134,9 +135,9 @@ Comma-separated list of fields to display on the Genius Result answer card. This
     -   table
 You can optionally use this field to specify any additional AI Search index fields that you want to display for search results shown on the Genius Result answer cards.
 
-To view the list of AI Search index fields, see [AI Search index fields](index-fields-list-ais.md).
+To view the list of AI Search index fields, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
 

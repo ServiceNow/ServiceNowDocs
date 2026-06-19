@@ -2,6 +2,7 @@
 title: Configure the Source-to-Pay integration with SAP Ariba
 description: Integrate the ServiceNow instance and SAP Ariba using the SSH, Basic Auth, OAuth 2.0, and API Key credentials SAP Ariba to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/configuring-source-to-pay-sap-ariba-integration.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -18,8 +19,8 @@ Integrate the ServiceNow instance and SAP Ariba using the SSH, Basic Auth, OAuth
 ## Application set up
 
 -   Activate the Source-to-Pay integration with the SAP Ariba application from the ServiceNow Store. This automatically activates the SAP Ariba Spoke.
--   Set up [SAP Ariba Spoke](https://www.servicenow.com/docs/bundle/yokohama-integrate-applications/page/administer/integrationhub-store-spokes/concept/sap-ariba-spoke.html).
--   Activate the Source-to-Pay integration framework from the ServiceNow Store. Source-to-Pay integration with SAP Ariba uses the Source-to-Pay integration framework to pull tasks from SAP Ariba into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](../../source-to-pay-operations/concept/source-to-pay-integration-framework.md).
+-   Set up SAP Ariba Spoke.
+-   Activate the Source-to-Pay integration framework from the ServiceNow Store. Source-to-Pay integration with SAP Ariba uses the Source-to-Pay integration framework to pull tasks from SAP Ariba into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-framework.md).
 
 
 ## Primary Data Integration with SAP Ariba Dependencies
@@ -66,14 +67,14 @@ Install the following dependencies of Accounts Payable Operations integration wi
 |Accounts Payable Invoice Processing|sn\_ap\_apm|
 |Source-to-Pay Integration Framework|sn\_spend\_intg|
 
--   **[ERP source configuration for SAP Ariba](erp-source-configuration-sap-ariba.md)**  
+-   **[ERP source configuration for SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/erp-source-configuration-sap-ariba.md)**  
 Configure your Source-to-Pay \(S2P\) instance to support inbound and outbound integration with your ERP system. This integration configuration enables you to post purchase order, receipt, invoice, and download primary data automatically from the ERP system.
--   **[Define ERP source configuration for SAP Ariba](../task/define-erp-source-sap-ariba.md)**  
+-   **[Define ERP source configuration for SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-sap-ariba.md)**  
 ERP source configuration determines the ERP source to which your ERP system connects. Map the integration payload with the SAP Ariba tables.
--   **[Configure integration services for SAP Ariba](configure-service-maps-sap-ariba.md)**  
+-   **[Configure integration services for SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/configure-service-maps-sap-ariba.md)**  
 For configuring integration services, provide the connection end point and the SAP Ariba credentials that you set up for your authentication profile. Also, create a integration service record for each entity you want to customize.
--   **[Look up primary data in SAP Ariba](look-up-primary-data-sap-ariba.md)**  
+-   **[Look up primary data in SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/look-up-primary-data-sap-ariba.md)**  
 You can run a job to look up primary data from different ERP sources into ServiceNow.
 
-**Parent Topic:**[Source-to-Pay integration with SAP Ariba](source-to-pay-integration-sap-ariba.md)
+**Parent Topic:**[Source-to-Pay integration with SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/source-to-pay-integration-sap-ariba.md)
 

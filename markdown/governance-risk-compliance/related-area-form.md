@@ -2,6 +2,7 @@
 title: Primary origin form
 description: On the Primary origin form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/related-area-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

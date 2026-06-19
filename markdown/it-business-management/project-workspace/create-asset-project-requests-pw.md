@@ -2,6 +2,7 @@
 title: Create an Asset Project Request from Project Workspace
 description: Create a new asset project request directly from Project Workspace and associate it to a project for tracking and reporting purpose.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/create-asset-project-requests-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -27,7 +28,7 @@ Portfolio and project managers can create and track asset requests across multip
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the details page of the project by selecting **Details** from the list.
 
@@ -46,8 +47,8 @@ Portfolio and project managers can create and track asset requests across multip
 
 A new asset project request is created and linked to the project. The request appears in the Asset Project Requests list for the project.
 
--   **[View asset project requests for a project](view-asset-project-requests-pw.md)**  
+-   **[View asset project requests for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-asset-project-requests-pw.md)**  
 Analyze asset project requests associated with a project from Project Workspace, so you can track hardware requests and refresh activities linked to the project plan.
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
 

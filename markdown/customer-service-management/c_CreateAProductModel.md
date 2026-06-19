@@ -2,7 +2,10 @@
 title: Create a product model
 description: Create a record for a type of product that your company sells and supports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CreateAProductModel.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -42,7 +45,7 @@ Product models provide customer service agents and customers with a common under
     -   **Software**
 4.  Fill in the fields for the selected product model as appropriate.
 
-    See [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/r_ModelFormFields.md) for field descriptions.
+    See Model form fields for field descriptions.
 
 5.  Select **Submit**.
 

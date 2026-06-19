@@ -2,7 +2,10 @@
 title: Create cases as a proxy contact
 description: The proxy contact role enables employees to create cases for customer accounts and contacts. Employees can also be proxy case contacts on behalf of customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/employee-create-case-for-customer.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -17,7 +20,7 @@ Assign the proxy contact role \(sn\_customerservice.proxy\_contact\) to employee
 
 **Note:** This role requires licensing for access to CSM applications. The proxy contact cannot co-exist with the contributor roles.
 
-Install the [CSM Extension for Proxy Contacts](../task/csm-extension-for-proxy-contacts.md) to use this functionality.
+Install the [CSM Extension for Proxy Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-extension-for-proxy-contacts.md) to use this functionality.
 
 Employees with the proxy contact role can do the following:
 

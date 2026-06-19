@@ -2,13 +2,14 @@
 title: Archive and purge Environmental data
 description: Use the archive rules and destroy rules to archive and purge the environmental data. Archive and purge the Environmental data \(sn\_wsd\_wc\_space\_envrionment\) table records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/archive-purge-environmental-data.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setup Workplace Connectors for environmental data, Configure Workplace Connectors, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Setup Workplace Connectors for environmental data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Archive and purge Environmental data
@@ -46,9 +47,9 @@ Role required: admin
     Destroys archived records for sn\_wsd\_wc\_space\_environment table. The data table records are deleted permanently.
 
 
-**Parent Topic:**[Setup Workplace Connectors for environmental data](../concept/setup-environmental-data-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-environmental-data-connectors.md)
 
-**Previous topic:**[Configure environmental sensor data for a workplace location](config-connectors-env-sensor.md)
+**Previous topic:**[Configure environmental sensor data for a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/config-connectors-env-sensor.md)
 
-**Next topic:**[Workplace Connectors references](../concept/workplace-connectors-references.md)
+**Next topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 

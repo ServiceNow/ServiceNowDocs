@@ -2,6 +2,7 @@
 title: Define a CI action
 description: Define a CI Lifecycle Management CI action that can be later applied to CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/define-cmdb-ci-action.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -34,5 +35,5 @@ You can view a list of all the actions that are currently applied to CIs by navi
 4.  Select **Submit**.
 
 
-**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](../concept/cmdb-ci-lifecycle-mgmt.md)
+**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.md)
 

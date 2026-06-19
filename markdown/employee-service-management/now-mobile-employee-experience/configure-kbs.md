@@ -2,13 +2,14 @@
 title: Configure knowledge bases
 description: Enable users to view knowledge articles from the mobile app. If no knowledge bases are selected, users can view articles from all knowledge bases in the system. By default, the app uses the IT knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/configure-kbs.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Mobile, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Now Mobile, Now Mobile app, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure knowledge bases
@@ -49,7 +50,7 @@ Role required: admin
 
 ## Result
 
-Users can select the ![Plus icon](../image/more-items.png) icon on the applet launcher page to open the quick action.
+Users can select the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page to open the quick action.
 
-**Parent Topic:**[Configuring Now Mobile](../concept/setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

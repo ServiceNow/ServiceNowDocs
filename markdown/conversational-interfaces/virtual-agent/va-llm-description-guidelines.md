@@ -2,6 +2,7 @@
 title: LLM description and instruction guidelines for Virtual Agent topics
 description: When you create large language model \(LLM\) topics, you provide instructions that determine the behavior of the LLM and a description that determines how the topic is discovered by the LLM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-llm-description-guidelines.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -45,7 +46,7 @@ When constructing an LLM description or instruction, consider these basic guidel
 
 NLU utterances are more dependent on keywords and their phrasing, but LLM descriptions work very differently. The problem with NLU utterances in descriptions is that they don't provide instructions for the LLM. Google search descriptions won't work well with LLMs, either. When writing descriptions, you need to be specific about the purpose of the topic and the context of the task being performed in that topic. Keywords aren't necessarily helpful, but logic is.
 
-For more information, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.md).
+For more information, see .
 
 ## Example topic descriptions
 
@@ -94,5 +95,5 @@ Strong instruction
 Collect AD Operation Type **Additional instructions for LLM**: For this input, these are mapped values, : \{"reset":\["reset","locked","unable to sign in","expiry", "expired", "expire"\],"change":\["change"\]\}. The key needs to be extracted if the user input contains the values associated with the keys.
 
 </td></tr></tbody>
-</table>![Text input node with the Detail description field filled in to include specific entity information.](../images/llm-input-node-detail-desc-example.png "Strong detail description example of LLM input node")
+</table>\[Omitted image "llm-input-node-detail-desc-example.png"\] Alt text: Text input node with the Detail description field filled in to include specific entity information.
 

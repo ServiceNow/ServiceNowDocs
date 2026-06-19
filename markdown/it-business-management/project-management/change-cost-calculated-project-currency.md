@@ -2,6 +2,7 @@
 title: Updates in cost plan and recalculation of cost in project currency
 description: If the unit cost, quantity, or fiscal period of a cost plan are updated, then all the related amount fields in the cost plan, its breakdowns, and the project to which it is rolling up are recalculated in project currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/change-cost-calculated-project-currency.html
 release: australia
 product: Project Management
 classification: project-management

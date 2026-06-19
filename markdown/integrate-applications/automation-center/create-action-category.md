@@ -2,6 +2,7 @@
 title: Create an action category
 description: Create an action category to associate with an action. Action categories help users to categorize the actions into different categories, which would make selecting categories easier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-action-category.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -43,7 +44,7 @@ The action category is created.
 
 ## What to do next
 
-[Create an action type](create-action-type.md)
+[Create an action type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-action-type.md)
 
-**Parent Topic:**[Creating an action](../concept/creating-action.md)
+**Parent Topic:**[Creating an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-action.md)
 

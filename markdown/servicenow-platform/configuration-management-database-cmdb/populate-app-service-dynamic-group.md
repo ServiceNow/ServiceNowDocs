@@ -2,6 +2,7 @@
 title: Use the Dynamic CI Group method to populate application services
 description: The Dynamic CI Group method for populating an application service, automatically generates a dynamic CI group. The members of the CMDB group that the dynamic CI group is based on, populates the application service. The application service continuously synchronizes with the CMDB group to reflect any changes in membership in the CMDB group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,15 +18,15 @@ The Dynamic CI Group method for populating an application service, automatically
 
 ## Before you begin
 
-The Dynamic CI Group is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](../../service-mapping/task/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
+The Dynamic CI Group is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
 
 **Note:**
 
 -   The number of CIs in an application service that is populated by the Dynamic CI Group method, is limited to 10,000, even if the associated CMDB group has more than 10,000 CIs.
--   A CMDB group can be used to populate only a single application service. For more information about populating and using CMDB groups, see [CMDB groups](../concept/cmdb-groups.md#).
+-   A CMDB group can be used to populate only a single application service. For more information about populating and using CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
 -   A dynamic CI group contains CIs but can't contain other groups.
 
-For information about the different types of application services and the different methods you can use to populate application services, including Dynamic CI Group, see [Service instances \(Application services\)](../concept/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including Dynamic CI Group, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 Role required: app\_service\_admin
 
@@ -79,9 +80,9 @@ The alert impact on dynamic CI groups is calculated on the following CIs:
 -   Children of current CIs with a relationship of: **Runs on::Runs**
 -   CIs related to either the current CIs or their children, with a relationship of: **Virtualized by::Virtualizes**
 
-For more information, see [alert impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMImpactCalculation.md).
+For more information, see alert impact calculation.
 
 ## What to do next
 
-Complete the generic procedure [Create an application service](../../service-mapping/task/create-it-services.md).
+Complete the generic procedure [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 

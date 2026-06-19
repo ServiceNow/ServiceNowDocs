@@ -2,6 +2,7 @@
 title: Track ServiceNow flows and actions as automations
 description: Track ServiceNow flows and actions as automations so you can view summary and detailed information of the flows and actions in the Automation Center Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-auto-tracker.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -15,7 +16,7 @@ breadcrumb: [Configure, Automation Center, Workflow Data Fabric]
 
 Track ServiceNow flows and actions as automations so you can view summary and detailed information of the flows and actions in the Automation Center Workspace.
 
-This video show you how to perform the following procedure.This video show you how to track ServiceNow flows and actions as automations
+This video show you how to perform the following procedure.
 
 ## Before you begin
 
@@ -36,5 +37,5 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 Refresh the Automation Trackers list to view the newly created automations.
 
-**Parent Topic:**[Configuring Automation Center](../concept/automation-center-setup.md)
+**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-setup.md)
 

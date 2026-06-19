@@ -2,6 +2,7 @@
 title: Pause and resume all or multiple workflows
 description: Use Workflow Pause Group Requests to pause, or resume, groups of workflows, or all active workflows. If pausing a group of workflows, use filtering functions to select the workflows. If pausing all active workflows, select the Pause All check box to indicate that all currently active workflows should be paused.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/pause-resume-all-multiple-workflows.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -33,7 +34,7 @@ Install and activate the Workflow Pause Utility plugin.
 
 3.  To pause all active workflows, select **Pause All**, then click **Update**. To pause a filtered group of active workflow contexts, skip this step.
 
-    All currently active workflow contexts in the instance are paused until you resume them. Use [Workflow pause request](monitor-workflow-pause-requests.md) to monitor their status.
+    All currently active workflow contexts in the instance are paused until you resume them. Use [Workflow pause request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/monitor-workflow-pause-requests.md) to monitor their status.
 
 4.  To pause a filtered group of active workflow contexts, use the **Filter** field, specify the conditions for the search, then click **Update**.
 
@@ -47,11 +48,11 @@ Install and activate the Workflow Pause Utility plugin.
 
 7.  For the paused workflow group request, use the **Resume At** field to specify the date and time of day at which the paused workflow contexts should resume.
 
-    1.  Click ![Calendar icon](../image/WorkflowPauseResumeAtCalendar.png) to select the date, and enter the time of day \(in hours, minutes, and seconds\) at which the workflow contexts should resume. You can select the current date or future date, but you must enter a time of day in the future.
+    1.  Click \[Omitted image "WorkflowPauseResumeAtCalendar.png"\] Alt text: Calendar icon to select the date, and enter the time of day \(in hours, minutes, and seconds\) at which the workflow contexts should resume. You can select the current date or future date, but you must enter a time of day in the future.
 
         For example, to pause the workflow context group at 13:30:00 \(1:30 pm\), select the date from the calendar, and then enter `13`, `30`, and `00` into the respective **Time:** fields.
 
-    2.  Click ![Green check mark icon](../image/Check.png) when finished.
+    2.  Click \[Omitted image "Check.png"\] Alt text: Green check mark icon when finished.
 
     3.  The selected date and time of day appear in the **Resume At** field.
 
@@ -87,5 +88,5 @@ Install and activate the Workflow Pause Utility plugin.
     |Paused Workflow Count|Number of current paused workflow contexts.|
 
 
-**Parent Topic:**[Workflow pause utility](../concept/workflow-pause-utility.md)
+**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflow-pause-utility.md)
 

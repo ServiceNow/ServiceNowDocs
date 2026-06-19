@@ -2,11 +2,12 @@
 title: JSON APIs
 description: JSON APIs can be used after calling getAsJsonContent\(\) on either the request object or a ParameterValue property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/json-overview.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Encryption rule objects and APIs, Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -140,10 +141,10 @@ function encryptFieldsInRecord(jsonNode) {
 
 In this example, the rule iterates over **data**. As it finds **records**, it performs the same logic as in the second example, iterating over fields in each node. When it finds the **query** node, it calls encodedQueryFor\(\) to encrypt values that should be encrypted in the query.
 
--   **[JsonNode](c_JsonNodeAPI.md#)**  
+-   **[JsonNode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_JsonNodeAPI.md)**  
 A global object that provides methods to iterate over the JSON content.
--   **[JsonNodeIterator](c_JsonNodeIteratorAPI.md#)**  
+-   **[JsonNodeIterator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_JsonNodeIteratorAPI.md)**  
 You get a JsonNodeIterator object by calling the getIterator\(\) or iterator\(\) methods of the JsonNode class.
 
-**Parent Topic:**[Encryption rule objects and APIs](api-overview.md)
+**Parent Topic:**[Encryption rule objects and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/api-overview.md)
 

@@ -2,6 +2,7 @@
 title: Configure insights for SPM demands in the Process Mining dashboard
 description: Configure rule definitions for demands to discover insights in the Summary and insights page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/configure-insights-for-spm.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -17,7 +18,7 @@ Configure rule definitions for demands to discover insights in the Summary and i
 
 ## Before you begin
 
-**Important:** This feature is available with the ServiceNow Store Process Mining SPM content pack v1.0. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+**Important:** This feature is available with the ServiceNow Store Process Mining SPM content pack v1.0. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Role required: sn\_process\_mining\_power\_user
 
@@ -25,7 +26,7 @@ Role required: sn\_process\_mining\_power\_user
 
 1.  Navigate to **All** &gt; **Process Mining** &gt; **Process Configurations**.
 
-2.  [Configure the desired finding definitions](view-business-findings.md#).
+2.  [Configure the desired finding definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-business-findings.md).
 
     The insights filters available for a demand by default are defined in the following table:
 
@@ -55,7 +56,7 @@ Rework
 3.  On the Summary and insights page, for the selected insight:
 
     -   To perform process analysis, select **Process Analysis**. You can view the Process Mining map with the applied filters.
-    -   To perform cluster analysis, select **Cluster Analysis**. Select **View cluster** to view the results. For more information, see [View a cluster analysis](cluster-analysis.md).
+    -   To perform cluster analysis, select **Cluster Analysis**. Select **View cluster** to view the results. For more information, see [View a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md).
 
-**Parent Topic:**[Content pack for SPM](integration-with-spm.md)
+**Parent Topic:**[Content pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-with-spm.md)
 

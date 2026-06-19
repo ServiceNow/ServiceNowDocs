@@ -2,6 +2,7 @@
 title: Configure outbound configurations in ServiceNow instance
 description: Specify events in ServiceNow instance for which actions must be performed on your Slack spoke application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/conf-outbound-slack.html
 release: australia
 product: Integration Hub
 classification: integration-hub

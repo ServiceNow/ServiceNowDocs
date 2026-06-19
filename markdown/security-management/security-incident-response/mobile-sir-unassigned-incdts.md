@@ -2,6 +2,7 @@
 title: View, edit and assign unassigned security incidents with the Security Incident Response Mobile app
 description: From your mobile device, view, edit, and assign unassigned Security Incident Response \(SIR\) incidents. View related lists and the audit trail of work notes for more details about incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mobile-sir-unassigned-incdts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,37 +26,37 @@ From the list of records, assign an open, unassigned security incident to yourse
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](mobile-sir-get-started.md).
+1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-get-started.md).
 
 2.  With the Security Incidents landing screen displayed, tap **Unassigned Incidents**.
 
     If you navigate away from the Security Incident Response Mobile app after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Unassigned incidents applet highlighted.](../image/mobile_SIR_applet_callout_unassgnsi.jpg)
+    \[Omitted image "mobile\_SIR\_applet\_callout\_unassgnsi.jpg"\] Alt text: Unassigned incidents applet highlighted.
 
     The Unassigned Incidents screen is displayed with a list of unassigned security incident records.
 
-    ![Unassigned security incidents list.](../image/mobile_SIR_unassgnsi-list.jpg)
+    \[Omitted image "mobile\_SIR\_unassgnsi-list.jpg"\] Alt text: Unassigned security incidents list.
 
-3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](mobile-sir-search.md) to search for security incidents that match specific criteria.
+3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sir-search.md) to search for security incidents that match specific criteria.
 
-    Alternatively, with the filter icon \(![Filter icon.](../image/sir-filter-image.png)\) displayed, [Set filters to limit the number of records](mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
+    Alternatively, with the filter icon \(\[Omitted image "sir-filter-image.png"\] Alt text: Filter icon.\) displayed, [Set filters to limit the number of records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mobile-sire-filters.md) on the list. Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 
 4.  To assign or reassign an open security incident record directly from the list, with the list of open unassigned security incident records displayed, swipe left on a record to open the menu.
 
-    ![Swipe action on unassigned security incident record.](../image/mobile-sir-unassgnsi-swipe.jpg)
+    \[Omitted image "mobile-sir-unassgnsi-swipe.jpg"\] Alt text: Swipe action on unassigned security incident record.
 
 5.  Choose one from the menu to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d224915e190">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d214222e186">
 
 Option
 
-</th><th align="left" id="d224915e193">
+</th><th align="left" id="d214222e189">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d224915e199">
+</th></tr></thead><tbody><tr><td id="d214222e195">
 
 **Assign to Me**
 
@@ -63,7 +64,7 @@ Description
 
 Assign the security incident to yourself. If the security incident is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d224915e208">
+</td></tr><tr><td id="d214222e204">
 
 **Reassign**
 
@@ -75,42 +76,42 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**.
 
  1.  Tap **Assigned to**.
 2.  Tap a name from the list that is displayed, or enter text in the search field.
- Tap the send icon \(![Send icon in Android.](../../vulnerability-response/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
+ Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android.\) or **Submit** to save and submit your changes.
 
 </td></tr></tbody>
 </table>6.  Alternatively, with the Unassigned Incidents screen displayed, tap a record on the list.
 
 7.  On the open record that is displayed, choose one option from the following table to continue.
 
-    ![Unassigned security incident with tabs highlighted.](../image/mobile-sir-unassgn-record.jpg)
+    \[Omitted image "mobile-sir-unassgn-record.jpg"\] Alt text: Unassigned security incident with tabs highlighted.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d224915e284">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d214222e280">
 
 Option
 
-</th><th align="left" id="d224915e287">
+</th><th align="left" id="d214222e283">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d224915e293">
+</th></tr></thead><tbody><tr><td id="d214222e289">
 
-**Tap the menu icon \(![Menu icon.](../../vulnerability-response/image/mobile-top-menu.png)\) on the upper right of the screen.**
+**Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) on the upper right of the screen.**
 
 </td><td>
 
 From the menu that is displayed, choose from the following options.-   Tap **Edit**. With the Edit Security Incident screen displayed, tap a field to expand it and choose one or more of the options that are displayed. Alternatively, tap the search icon and enter text.
 -   To assign or reassign the incident, tap **Reassign** or **Assign to Me**. Follow the instructions described in the previous table.
- After you complete your edits, tap the send icon \(![Send icon in Android.](../../vulnerability-response/image/mobile_instances_send_droid.png)\) or **Submit** to save your changes and update the security incident.
+ After you complete your edits, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android.\) or **Submit** to save your changes and update the security incident.
 
-</td></tr><tr><td id="d224915e338">
+</td></tr><tr><td id="d214222e334">
 
 **Activity Stream tab**
 
 </td><td>
 
-With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon \(![Plus icon.](../../vulnerability-response/image/mobile_instances_plus.png)\) to add a work note or attach a file.
+With the Activity Stream tab selected, review the audit trail of work notes, activities, and additional comments of the record. Tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\) to add a work note or attach a file.
 
-</td></tr><tr><td id="d224915e356">
+</td></tr><tr><td id="d214222e352">
 
 **Related List tab**
 
@@ -120,7 +121,7 @@ With the Related List tab selected, view the items on any of the Related Lists t
 
  Tap an item on the list that is displayed to view the details for a related list. From the lists of items that are displayed, tap an item to continue to view the activity streams and related lists associated with the parent security incident.
 
-</td></tr><tr><td id="d224915e371">
+</td></tr><tr><td id="d214222e367">
 
 **Screen icons at the bottom of the screen.**
 

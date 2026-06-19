@@ -2,6 +2,7 @@
 title: Set up the AWS IAM spoke
 description: Integrate the ServiceNow instance and AWS IAM using AWS credential to authenticate ServiceNow requests.Create Credential record for your AWS IAM account. The AWS IAM spoke connection and credential alias uses this credential to perform actions on AWS IAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-aws-iam.html
 release: australia
 product: Integration Hub
 classification: integration-hub

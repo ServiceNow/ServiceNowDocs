@@ -2,6 +2,7 @@
 title: Create an alignment integration
 description: Internal alignment integration synchronizes internal processes and data to support Strategic Portfolio Management, confirming that planning and execution are aligned with business objectives through real-time bi-directional synchronization with applications such as Project Portfolio Management, Agile Development 2.0, and Scaled Agile Framework \(SAFe\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-alignment-integration-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

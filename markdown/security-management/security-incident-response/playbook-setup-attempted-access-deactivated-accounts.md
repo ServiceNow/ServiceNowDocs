@@ -2,6 +2,7 @@
 title: Set up the Attempted Access Deactivated Account playbook
 description: Use the following steps to set up the Attempted Access Deactivated Account playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-attempted-access-deactivated-accounts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,9 +33,9 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  Create a copy of the Attempted Access Deactivated Account playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, select the ![More actions menu](../image/more-action-menu.png) icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
-    ![Overview of the Attempted Access to Deactivated Accounts playbook.](../image/playbook-attempted-access-deactivated-overview.png "Attempted Access to Deactivated Accounts playbook")
+    \[Omitted image "playbook-attempted-access-deactivated-overview.png"\] Alt text: Overview of the Attempted Access to Deactivated Accounts playbook.
 
 4.  Activate the playbooks.
 
@@ -46,8 +47,8 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     This playbook is triggered when the security incident is created or updated based on your required conditions. For example, when **Category** is **Insider Breach**
 
-    ![Trigger condition for Attempted Access to Deactivated Accounts playbook.](../image/playbook-attempted-access-deactivated-trigger.png "Attempted Access to Deactivated Accounts playbook trigger condition")
+    \[Omitted image "playbook-attempted-access-deactivated-trigger.png"\] Alt text: Trigger condition for Attempted Access to Deactivated Accounts playbook.
 
 
-**Parent Topic:**[Playbook for Attempted Access to Deactivated Accounts](../concept/playbook-attempted-access-deactivated-accounts.md)
+**Parent Topic:**[Playbook for Attempted Access to Deactivated Accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-attempted-access-deactivated-accounts.md)
 

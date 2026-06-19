@@ -2,6 +2,7 @@
 title: Guided Tours dashboard
 description: The Guided Tours Overview dashboard provides statistics related to guided tour usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/guided-tour-overview.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -35,7 +36,7 @@ The User Engagement tab displays the following widgets.
 |Weekly Engagement|Trends and patterns of user engagement with guided tours per day over a period. You can save this graph in PNG or JPEG format by hovering over the graph and choosing the relevant format from the context menu.|
 |Disengaged Users|Number of users who turned off the auto-launch feature for the guided tour. You can save this graph in PNG or JPEG format by hovering over the graph and choosing the relevant format from the context menu.|
 
-![User Engagement tab](../image/userengagementtab1.png "Sample User Engagement tab")
+\[Omitted image "userengagementtab1.png"\] Alt text: User Engagement tab
 
 ## Tour Statistics
 
@@ -102,7 +103,7 @@ Top 10 Tour Dismissals
 Shows the 10 tours that are dismissed most frequently.
 
 </td></tr></tbody>
-</table>![Tour Statistics tab](../image/dashboardtourstatistics1.png "Sample Tour Statistics tab")
+</table>\[Omitted image "dashboardtourstatistics1.png"\] Alt text: Tour Statistics tab
 
-**Parent Topic:**[Using Guided Tours](../concept/using-guided-tours.md)
+**Parent Topic:**[Using Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/using-guided-tours.md)
 

@@ -2,6 +2,7 @@
 title: MIDServerCluster - Global
 description: The MIDServerCluster script include provides methods to find MID Server clusters for a given MID Server and reassigns the jobs if necessary.Brief description of the method.Determines if a cluster exists.Gets the cluster agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_MIDServerClusterAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ If the MID Server agent is up, this class gathers all MID Servers \(including th
 
 Use in server scripts to get MID Server cluster information.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## MIDServerCluster - MIDServerCluster\(GlideRecord agent\)
 

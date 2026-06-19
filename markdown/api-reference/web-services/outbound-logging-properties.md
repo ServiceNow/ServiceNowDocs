@@ -2,6 +2,7 @@
 title: Outbound web service logging properties
 description: These properties allow you to control the behavior of outbound web service request logging.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/outbound-logging-properties.html
 release: australia
 product: Web Services
 classification: web-services
@@ -74,5 +75,5 @@ The log level to use for all requests and responses when **glide.outbound\_http\
 -   Location: Add to the System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Outbound web services: Logging](../concept/outbound-request-logging.md)
+</table>**Parent Topic:**[Outbound web services: Logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md)
 

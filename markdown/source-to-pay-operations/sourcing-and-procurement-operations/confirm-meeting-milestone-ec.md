@@ -2,6 +2,7 @@
 title: Confirm meeting a milestone for your service from Employee Center
 description: Provide confirmation from Employee Center on whether the supplier has met a milestone for a service you had ordered, so that payment can be processed to the supplier for that milestone. If a milestone hasn’t been met by the due date, you can raise a cancel request or propose a new completion date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/confirm-meeting-milestone-ec.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -37,15 +38,15 @@ This confirm milestone completion task is automatically created by the system on
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d108720e109">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d40784e109">
 
 Action
 
-</th><th align="left" id="d108720e112">
+</th><th align="left" id="d40784e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d108720e118">
+</th></tr></thead><tbody><tr><td id="d40784e118">
 
 **Comments**
 
@@ -53,7 +54,7 @@ Description
 
 Provide your response, if any, and select **Confirm**.
 
-</td></tr><tr><td id="d108720e130">
+</td></tr><tr><td id="d40784e130">
 
 **Request to cancel**
 
@@ -61,7 +62,7 @@ Provide your response, if any, and select **Confirm**.
 
 Request to cancel the milestone altogether.On the **Request to cancel milestone** window, provide your reason for canceling the milestone, and select **Submit**.
 
-</td></tr><tr><td id="d108720e147">
+</td></tr><tr><td id="d40784e147">
 
 **Propose new completion date**
 
@@ -77,5 +78,5 @@ Push the milestone to a later date.On the **Propose a new expected completion da
 
 You can view the completed task in the **Completed** tab after the fulfiller has also reviewed and confirmed that the task is complete.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

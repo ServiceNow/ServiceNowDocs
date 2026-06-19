@@ -2,6 +2,7 @@
 title: Removing Roles from users
 description: Use the Simulate Remove Role for simulating the user's access changes for a resource \(tables\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/remove-role-from-user.html
 release: australia
 product: Access Control
 classification: access-control
@@ -19,7 +20,7 @@ Use the **Simulate Remove Role** for simulating the user's access changes for a 
 
 Role required: access\_analyzer\_admin
 
-Enable Take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](configure-access-simulator.md).
+Enable Take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/configure-access-simulator.md).
 
 ## Procedure
 
@@ -38,7 +39,7 @@ Enable Take actions. For more information, see [Configuring the Access Simulator
     |Select record|Specify a record name and select from the list.|
     |Select field|Specify a field name and select from the list. This field can be used to analyze permissions at the field level. For example, **Active**, **Created By**, and so on.|
 
-    ![Remove a role - criteria](../images/simulate-remove-criteria.png)
+    \[Omitted image "simulate-remove-criteria.png"\] Alt text: Remove a role - criteria
 
 4.  Select **Next**.
 
@@ -46,13 +47,13 @@ Enable Take actions. For more information, see [Configuring the Access Simulator
 
     Use the **Preview changes** view to see a simulation of your configured choices. Validate the roles and child roles that have been removed from the user before moving to the next step.
 
-    ![Preview changes](../images/simulate-remove-preview.png)
+    \[Omitted image "simulate-remove-preview.png"\] Alt text: Preview changes
 
 6.  Click **Next**.
 
 7.  In the **Simulated results** view, check the **Present status** and **Simulated status** to validate that access is **Passed** or **Blocked** to the simulated user as intended.
 
-    ![Results](../images/simulate-remove-results.png)
+    \[Omitted image "simulate-remove-results.png"\] Alt text: Results
 
     **Note:**
 
@@ -66,8 +67,8 @@ Enable Take actions. For more information, see [Configuring the Access Simulator
     **Note:**
 
     -   If Access Simulator isn’t enabled, you can't complete the simulation. To enable it, select **Enable actions** and accept the legal information.
-    -   To hide the simulation, select **Hide actions**. To unhide and enable actions, go to **Settings**. For more information, see [Configuring the Access Simulator \(Take actions\)](configure-access-simulator.md).
+    -   To hide the simulation, select **Hide actions**. To unhide and enable actions, go to **Settings**. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/configure-access-simulator.md).
     -   To exit the simulation without applying the simulated changes, select **Skip and Exit**.
-    If you clicked **Remove and complete**, the roles are successfully removed from the user. You can verify the access again using the Access Analyzer. For more information about how to verify the access of a user, see [Access Analyzer](../concept/access-analyzer.md).
+    If you clicked **Remove and complete**, the roles are successfully removed from the user. You can verify the access again using the Access Analyzer. For more information about how to verify the access of a user, see [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-analyzer.md).
 
 

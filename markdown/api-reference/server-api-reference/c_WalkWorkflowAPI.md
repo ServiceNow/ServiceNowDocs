@@ -2,6 +2,7 @@
 title: WalkWorkflow - Global
 description: The WalkWorkflow script include provides methods to walk a workflow and return a list of successors for each activity along with a shortest path order that indicates the activity depth in the workflow.Constructor for Walkworkflow class.Computes the full sequence for every path.Computes the sequences of activities.Outputs the internal state of this class to gs.print\(\).Outputs the sequences internal to this class to gs.print\(\).Outputs the shortest path orders internal to this object to gs.print\(\).Returns all the activities at the specified shortest path order.Returns the activity sequences.Walks the workflow and sets up the activity shortest path ordering.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_WalkWorkflowAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The WalkWorkflow script include provides methods to walk a workflow and return a list of successors for each activity along with a shortest path order that indicates the activity depth in the workflow.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Walkworkflow - Walkworkflow\(GlideRecord workflowVersion\)
 

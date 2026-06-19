@@ -2,6 +2,7 @@
 title: StartDiscovery - Global
 description: The StartDiscovery script include provides methods to start discovery jobs.Adds an IP \(or comma-separated list of IPs\) to an existing discovery \(used by networks discovery\).Handles discovery of devices \(whether basic or advanced\) from a schedule.Returns the cancel script.If the schedule specifies a cancel time, if necessary, schedules a job to cancel the discovery.Starts a discovery for a single IP using the specified schedule to get information such as MID servers and behaviors.Invoked by the discovery script include to kick off a scheduled \(or discover now\) discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_StartDiscoveryAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The StartDiscovery script include provides methods to start discovery jobs.
 
 Use this script include during the discovery scanning phase.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## StartDiscovery - addAdditionalIP\(String status, String ip, String sensor\)
 

@@ -1,23 +1,25 @@
 ---
 title: Operations tab
-description: The Operations tab on the AI Risk and Compliance workspace provides an overview of AI systems by state and department. You can see risk assessments, AI assessments, control assurance, and a breakdown of issues by priority and policy exceptions by risk rating. It also shows the number of AI cases by priority.
+description: The Operations tab on the AI Risk and Compliance workspace provides an overview of AI systems by state, along with metrics for assessments, control assurance, issues, policy exceptions, and AI cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/operations-tab.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-21"
 reading_time_minutes: 2
+keywords: [Operations tab, AI risk and compliance workspace, dashboard widgets, AI systems by state, risk assessments, control assurance, AI cases]
 breadcrumb: [AI Risk and Compliance workspace, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Operations tab
 
-The Operations tab on the AI Risk and Compliance workspace provides an overview of AI systems by state and department. You can see risk assessments, AI assessments, control assurance, and a breakdown of issues by priority and policy exceptions by risk rating. It also shows the number of AI cases by priority.
+The Operations tab on the AI Risk and Compliance workspace provides an overview of AI systems by state, along with metrics for assessments, control assurance, issues, policy exceptions, and AI cases.
 
 The Operations tab displays the widgets that are listed in the following table. You can drill down into the data on each widget.
 
-**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role, you can mark assets as Managed or Unmanaged. For more information, see [Assets list managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.md).
+**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role, you can mark assets as Managed or Unmanaged. For more information, see .
 
 <table id="table_nry_11l_bfc"><thead><tr><th>
 

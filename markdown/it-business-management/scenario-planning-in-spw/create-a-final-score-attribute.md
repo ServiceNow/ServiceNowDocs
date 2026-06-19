@@ -2,6 +2,7 @@
 title: Create a final score attribute
 description: Learn how to create an attribute to calculate the final score of your Scoring Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-a-final-score-attribute.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -20,8 +21,6 @@ Learn how to create an attribute to calculate the final score of your Scoring Fr
 Role required: sn\_align\_core\_apw\_admin
 
 ## About this task
-
-Create an attribute to calculate the final score of a Scoring Framework.
 
 ## Procedure
 
@@ -49,10 +48,10 @@ Create an attribute to calculate the final score of a Scoring Framework.
     ICE score = Impact * Confidence * Ease
     ```
 
-    ![Final score formula of the ICE custom framework.](../images/ice-example.png)
+    \[Omitted image "ice-example.png"\] Alt text: Final score formula of the ICE custom framework.
 
 7.  Select **Update**.
 
 
-**Parent Topic:**[Custom scoring frameworks in Strategic Planning](../concept/custom-scoring-frameworks-in-strategic-planning.md)
+**Parent Topic:**[Custom scoring frameworks in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/custom-scoring-frameworks-in-strategic-planning.md)
 

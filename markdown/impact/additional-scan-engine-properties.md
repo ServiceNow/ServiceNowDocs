@@ -2,11 +2,14 @@
 title: Configure definition properties
 description: You can configure additional capabilities and configuration options for the definition ruleset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/additional-scan-engine-properties.html
 release: australia
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine properties, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
 # Configure definition properties
@@ -73,4 +76,5 @@ Override Instance-Specific Definitions For Update Set Scans
  **Note:** This property only applies if you enable instance-specific Scan Engine definitions.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
+

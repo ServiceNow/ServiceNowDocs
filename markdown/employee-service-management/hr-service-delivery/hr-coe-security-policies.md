@@ -2,6 +2,7 @@
 title: Configuring HR Service Delivery Center of Excellence \(COE\) security policies
 description: Use COE Access Control List \(ACLs\) Configuration to allow specific groups read or write access to HR cases under a specific COE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-coe-security-policies.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Use COE Access Control List \(ACLs\) Configuration to allow specific groups read
 
 For example, you don't want the Benefits group to view the cases created by the Compensation group. You create a COE security policy that allows the Compensation group access. Groups that aren't included on the policy cannot access the cases.
 
-Use this feature as an alternative to using ACLs rules. For more information on ACLs, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
+Use this feature as an alternative to using ACLs rules. For more information on ACLs, see Access control list rules.
 
 COE security policies don't affect case creation. COE security policies affect what cases you can view or modify after creation.
 
@@ -25,7 +26,7 @@ You can still reclassify \(transfer\) HR cases from one HR service to another. D
 
 COE ACL Configuration uses the COE Security Policy \[sn\_hr\_core\_coe\_security\_policy\] table to determine access to the extended HR case tables \(COEs\).
 
-The \* next to a table indicates it was deprecated for customers taking the Rome release to support a new data model. Existing customers using the legacy COEs and tables are not affected. These tables have been replaced by the Employee Relations feature. For more information, see [Employee Relations](hr-case-employee-relations.md).
+The \* next to a table indicates it was deprecated for customers taking the Rome release to support a new data model. Existing customers using the legacy COEs and tables are not affected. These tables have been replaced by the Employee Relations feature. For more information, see [Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-case-employee-relations.md).
 
 The tables you can provide security for are:
 
@@ -59,5 +60,5 @@ To define security for a COE:
     **Note:** Condition builder is a powerful tool that filters specific actions on the COE. Use caution when using conditions on your security policy. It may also affect system performance.
 
 
-**Parent Topic:**[HR service categorization](hr-service-categorization.md)
+**Parent Topic:**[HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-categorization.md)
 

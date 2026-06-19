@@ -2,7 +2,10 @@
 title: Create a service definition category
 description: Create a service definition category record in the Customer Service Management \(CSM\) application. Then use the category to create logical groupings of service definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-csm-service-def-category.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -56,5 +59,5 @@ When an agent is using the case type selector to create a case, they can select 
 
 ## Result
 
-After creating a service definition category, you can [associate service definitions with the category](service-def-category-associate-service.md). These associated service definitions are stored in the Service Definition Category Relationships related list.
+After creating a service definition category, you can [associate service definitions with the category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-category-associate-service.md). These associated service definitions are stored in the Service Definition Category Relationships related list.
 

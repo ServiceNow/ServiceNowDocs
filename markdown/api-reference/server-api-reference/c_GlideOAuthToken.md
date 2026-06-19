@@ -2,6 +2,7 @@
 title: GlideOAuthToken - Scoped, Global
 description: The GlideOAuthToken API provides methods for retrieving OAuth access token and information about the access token.Retrieves the access token associated with the GlideOAuthToken object.Deprecated. Retrieves the sys\_id of the token ID associated with the GlideOAuthToken object.Retrieves the lifespan of the access token associated with the GlideOAuthToken object.Refreshes the token associated with the GlideOAuthToken object.Deprecated. Retrieves the sys\_id of the refresh token.Retrieves the token scope, which is the amount of access granted by the access token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideOAuthToken.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideOAuthToken API provides methods for retrieving OAuth access token and i
 
 You can use this API in global and scoped scripts. In scoped scripts use the `sn_auth` namespace identifier.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideOAuthToken - getAccessToken\(\)
 
@@ -31,7 +32,7 @@ Retrieves the access token associated with the GlideOAuthToken object.
 |----|-----------|
 |String|Access token.|
 
-This example code shows how to retrieve access and refresh tokens from the instance database. See also [GlideOAuthClient](../../GlideOAuthClient/concept/c_GlideOAuthClient.md#).
+This example code shows how to retrieve access and refresh tokens from the instance database. See also [GlideOAuthClient](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideOAuthClient.md).
 
 ```
 function dumpToken(token) {
@@ -92,7 +93,7 @@ Number \(Long\)
 Lifespan of the token.Unit: Seconds
 
 </td></tr></tbody>
-</table>This example code shows how to retrieve access and refresh tokens from the instance database. See also [GlideOAuthClient](../../GlideOAuthClient/concept/c_GlideOAuthClient.md#).
+</table>This example code shows how to retrieve access and refresh tokens from the instance database. See also [GlideOAuthClient](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideOAuthClient.md).
 
 ```
 function dumpToken(token) {
@@ -128,7 +129,7 @@ Refreshes the token associated with the GlideOAuthToken object.
 |----|-----------|
 |String|Refreshed token.|
 
-This example code shows how to retrieve access and refresh tokens from the instance database. See also [GlideOAuthClient](../../GlideOAuthClient/concept/c_GlideOAuthClient.md#).
+This example code shows how to retrieve access and refresh tokens from the instance database. See also [GlideOAuthClient](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideOAuthClient.md).
 
 ```
 function dumpToken(token) {

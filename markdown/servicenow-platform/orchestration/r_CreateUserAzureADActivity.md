@@ -2,6 +2,7 @@
 title: Create User Azure AD activity
 description: The Create User activity creates a user for the Azure Active Directory tenant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_CreateUserAzureADActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -15,9 +16,9 @@ breadcrumb: [Azure AD activity pack, Orchestration activity packs, Classic Orche
 
 The Create User activity creates a user for the Azure Active Directory tenant.
 
-To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Azure AD**. This activity was built with the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#).
+To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Azure AD**. This activity was built with the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md).
 
-**Important:** The REST message used for this activity must be configured to use [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthApplications.md).
+**Important:** The REST message used for this activity must be configured to use OAuth 2.0.
 
 ## Input variables
 

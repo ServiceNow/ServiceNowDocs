@@ -2,7 +2,10 @@
 title: Guidances in Recommended Actions for Customer Service
 description: A guidance is an action that an agent can take or information that an agent can share as they work to resolve tasks, such as customer service cases. Guidances appear as cards in the contextual side panel in a workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-custom-guidances.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -25,7 +28,7 @@ These guidances enable search results from the corresponding search source table
 
 ## Knowledge guidance
 
-The Case Context record includes a search result mapping record for the Knowledge table that maps search results to the [Attach and share article](ra-csm-guidances-attach-share-article.md) guidance. When an agent is viewing a case record, preview cards for Knowledge search results in the Recommended Actions tab include the **Attach and share article** action.
+The Case Context record includes a search result mapping record for the Knowledge table that maps search results to the [Attach and share article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md) guidance. When an agent is viewing a case record, preview cards for Knowledge search results in the Recommended Actions tab include the **Attach and share article** action.
 
 ## Case guidance
 

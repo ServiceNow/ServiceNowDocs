@@ -2,6 +2,7 @@
 title: Map IP addresses to OT devices
 description: You can use the SyncIPAddressToOT scheduled job to update and synchronize the IP address information for all the available OT devices. The SyncIPAddressToOT scheduled job acquires the IP address information from the IP address \(cmdb\_ci\_ip\_address\) table and adds it to the IP address field of the CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/map-ip-addresses-to-ot-devices.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -30,5 +31,5 @@ Role required: admin
 4.  In the Scheduled Script ExecutionSyncIPAddressToOT page, select **Execute Now**.
 
 
-**Parent Topic:**[OT device related items and related lists](../reference/ot-assets-related-links-and-lists.md)
+**Parent Topic:**[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)
 

@@ -2,6 +2,7 @@
 title: Audit service catalog variables
 description: Audit the variables so that the audit history records all changes to the named variables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_AuditableServiceCatalogVariables.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -41,5 +42,5 @@ This auditing allows service catalog administrators to view a full history of ch
 3.  Select the **Yes** check box to enable auditing.
 
 
-**Parent Topic:**[Service catalog variables](../concept/c_ServiceCatalogVariables.md)
+**Parent Topic:**[Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariables.md)
 

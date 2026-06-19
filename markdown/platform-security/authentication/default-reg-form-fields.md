@@ -2,6 +2,7 @@
 title: Default registration form fields
 description: You can use the default registration form fields or create custom registration form fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/default-reg-form-fields.html
 release: australia
 product: Authentication
 classification: authentication

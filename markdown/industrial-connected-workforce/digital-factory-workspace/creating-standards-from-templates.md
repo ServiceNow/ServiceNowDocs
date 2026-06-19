@@ -2,6 +2,7 @@
 title: Using templates to create standards
 description: You can create templates as a means to implement structured standards. These templates are developed and maintained by Industrial Connected Workforce \(ICW\) admins and are made accessible to operators through the Standards hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/creating-standards-from-templates.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -74,12 +75,12 @@ Operators can find templates in the Standards hub and use them to create standar
 
 Operators can also choose to create a standard without using a template.
 
--   **[Create an assessment template category](../task/create-assessment-template-category-icw.md)**  
+-   **[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-assessment-template-category-icw.md)**  
 Set up an assessment template category so that you can build standard templates for that category and use them in the Standards hub.
--   **[Create an assessment template](../task/create-assessment-template-icw.md)**  
+-   **[Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-assessment-template-icw.md)**  
 Create an assessment template for creating standards from templates in the Digital Factory Workspace.
--   **[Create a standard from a template](../task/create-standard-from-template.md)**  
+-   **[Create a standard from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-standard-from-template.md)**  
 Create a standard by using available templates within your organization. This approach saves time and promotes consistency compared to building a new standard manually.
 
-**Parent Topic:**[Using Industrial Guided Tasks](using-industrial-guided-tasks.md)
+**Parent Topic:**[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)
 

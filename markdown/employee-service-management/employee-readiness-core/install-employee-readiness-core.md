@@ -2,6 +2,7 @@
 title: Install Employee Readiness Core
 description: You can install Employee Readiness Core if you have the admin role.Several types of components are installed with Employee Readiness Core, including user roles, tables, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/install-employee-readiness-core.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -23,7 +24,7 @@ Employee Readiness Core version 1.1.0 and later requires the following plugins.
 -   Workflow Studio Action Step - Payload Builder \(com.glide.hub.action\_step.payload\)
 -   ServiceNow Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
 
-These plugins must be requested through the Now Support Service Catalog. For instructions, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md).
+These plugins must be requested through the Now Support Service Catalog. For instructions, see Request a plugin.
 
 Role required: admin
 
@@ -89,13 +90,13 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 6.  When the installation is complete, click **Close**.
 
 
-**Parent Topic:**[Employee Readiness Core](../concept/employee-readiness-core.md)
+**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-readiness-core.md)
 
 ## Components installed with Employee Readiness Core
 
 Several types of components are installed with Employee Readiness Core, including user roles, tables, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ### Roles installed
 

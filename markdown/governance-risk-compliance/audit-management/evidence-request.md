@@ -2,6 +2,7 @@
 title: Evidence request
 description: Evidence request is used by audit and compliance teams for requesting supporting documents during an audit. Auditors and compliance teams require these documents from the first line of defense.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/evidence-request.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -32,5 +33,5 @@ An evidence request is frequently introduced during the audit preparation or the
 -   Improved communication channels between requesters and assignees streamline the approval process.
 -   Improved confidentiality constraints prevent unauthorized persons from viewing request information.
 
-Evidence can be requested from an engagement and all audit tables. To understand how to request evidence, refer to [Request evidence for audit](../task/request-evidence.md).
+Evidence can be requested from an engagement and all audit tables. To understand how to request evidence, refer to [Request evidence for audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/request-evidence.md).
 

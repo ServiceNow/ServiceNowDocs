@@ -2,6 +2,7 @@
 title: TISC playbook templates
 description: This section describes the playbook templates that are shipped with TISC Sentinel solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-playbook-templates.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -136,7 +137,7 @@ The last updated time\(in hours\) for observables.
 </table>
 ## Configure Export\_Incident\_Entities playbook
 
-This playbook uses TISC Add observables API. Using the Logic App Designer, you can edit the parameters that are sent to the API from the playbook. For more information see [TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/add\_observables](https://www.servicenow.com/docs/bundle/xanadu-api-reference/page/integrate/inbound-rest/concept/tisc-api.html#title_tisc-POST-add-observables).
+This playbook uses TISC Add observables API. Using the Logic App Designer, you can edit the parameters that are sent to the API from the playbook. For more information see TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/add\_observables.
 
 You can follow the same procedure for all the below listed playbooks which export different types of entities:
 
@@ -147,7 +148,7 @@ You can follow the same procedure for all the below listed playbooks which expor
 
 ## Configure Incident\_Enrichment playbook
 
-This playbook uses TISC Observables API. Using the Logic App Designer, you can edit the parameters that are sent to the API from the playbook. For more information see [TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/observables](https://www.servicenow.com/docs/bundle/xanadu-api-reference/page/integrate/inbound-rest/concept/tisc-api.html#title_tisc-POST-observables).
+This playbook uses TISC Observables API. Using the Logic App Designer, you can edit the parameters that are sent to the API from the playbook. For more information see TISC API - POST /sn\_sec\_tisc/threat\_intel\_data/observables.
 
 ## Run playbooks
 
@@ -163,5 +164,5 @@ The following table describes how you can run the following playbooks.
 |Export\_URL\_Entity|On a Sentinel incident, select **URL entity** &gt; **Run Playbook** for execution.|
 |Incident\_Enrichment|On a Sentinel incident, select **Incident Actions** &gt; **Run Playbook** for execution.|
 
-**Parent Topic:**[Microsoft Sentinel integration](tisc-sentinel-integration.md)
+**Parent Topic:**[Microsoft Sentinel integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-sentinel-integration.md)
 

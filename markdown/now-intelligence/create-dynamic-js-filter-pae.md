@@ -2,6 +2,7 @@
 title: Add a dynamic JavaScript filter
 description: Add a dynamic JavaScript statement for evaluation as part of a report visualization's filter criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dynamic-js-filter-pae.html
 release: australia
 topic_type: task
 last_updated: "2026-05-01"
@@ -19,7 +20,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ## About this task
 
-JavaScript filters can be single-line statements, or longer scripts. For longer JavaScript statements, create a script include that returns the correct format and data type, conforms to the specific data that the report should filter for, and is client callable. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+JavaScript filters can be single-line statements, or longer scripts. For longer JavaScript statements, create a script include that returns the correct format and data type, conforms to the specific data that the report should filter for, and is client callable. For more information, see Script includes.
 
 This table lists the operators supported by each field type that supports JavaScript filters. Field types that are not in this table do not support JavaScript filters and the **Value** field in the condition builder for those field types does not have the option to paste your own statements.
 
@@ -272,5 +273,5 @@ Textual representation of a complete or partial field name value.For the "is one
 
 After you add the necessary JavaScript statements and conditions and configure the remainder of the report, test the report to ensure it returns and displays the expected results.
 
-**Parent Topic:**[Filter data visualizations with the condition builder](../../reporting/task/filter-dv-condition-builder.md)
+**Parent Topic:**[Filter data visualizations with the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-dv-condition-builder.md)
 

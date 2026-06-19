@@ -2,6 +2,7 @@
 title: Resolve Coaching issues
 description: Resolve common issues when setting up or running Coaching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-coaching-troubleshooting.html
 release: australia
 product: Coaching
 classification: coaching
@@ -55,20 +56,20 @@ You want to override ACLs and trainings for the Assigned Training related list o
 
 </td><td>
 
-Implement Coaching [extension points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md):-   CoachingExtensionPoint
+Implement Coaching extension points:-   CoachingExtensionPoint
 -   CoachingACLExtensionPoint
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Coaching reference](cf-coaching-reference.md)
+</table>**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-reference.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-extension-points.md)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/client-extension-points.md)
+[bundle-crapiref.client-extension-points]
 

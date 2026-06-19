@@ -2,11 +2,12 @@
 title: Configure language groups
 description: After setting up individual language providers, you can define one or more language groups. Configuring language groups is an optional way to streamline the creation of translation requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/lw-configure-language-groups.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-11"
 reading_time_minutes: 3
 breadcrumb: [Language setup in Localization Workspace, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -17,8 +18,8 @@ After setting up individual language providers, you can define one or more langu
 
 ## Before you begin
 
--   Configure all individual language providers. See [Configure a language provider](lw-configure-translation-provider.md).
--   Role required: localization\_admin or admin.
+-   Configure all individual language providers. The localization\_admin role is required to create a language provider. See [Configure a language provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-configure-translation-provider.md).
+-   Role required: sn\_lw.user. The sn\_lw.user role can create a language group by selecting from existing language providers.
 
 ## About this task
 
@@ -26,13 +27,13 @@ From version 2.0.2: When your users create translation requests, they can select
 
 Individual languages may be included in more than one language group. If a language is included multiple times in one translation request, Localization Workspace clears out the preconfigured value for translation service provider. Then the translation requester must manually select the desired translation service provider.
 
-**Note:** From version 3.0.0, a Guided Tour is available to assist localization admins and localization requesters \(localization\_admin and localization\_requestor\) with the setup of a language group. Access the guided tour by selecting the Help Center icon ![](../../../common/image/Banner_HelpIcon.png) on the [Home](../concept/lw-status-synchronization.md) screen.
+**Note:** From version 3.0.0, a Guided Tour is available to assist localization admins and localization requesters \(localization\_admin and localization\_requestor\) with the setup of a language group. Access the guided tour by selecting the Help Center icon \[Omitted image "Banner\_HelpIcon.png"\] on the [Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-status-synchronization.md) screen.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Localization Workspace** &gt; **Language setup**, then select the **Language Groups** tab.
 
-    ![The Language setup area of Localization Workspace, with the Language Groups tab selected. Three groups have been configured.](../image/lw-configure-language-group-grouped-list.png)
+    \[Omitted image "lw-configure-language-group-grouped-list.png"\] Alt text: The Language setup area of Localization Workspace, with the Language Groups tab selected. Three groups have been configured.
 
 2.  Select the **New** button to open the **Language Groups** modal window.
 
@@ -40,11 +41,11 @@ Individual languages may be included in more than one language group. If a langu
 
 4.  Select a Target language and its Translation provider.
 
-    ![The Language Groups modal window with an available language selected in the drop-down menu.](../image/lw-configure-language-groups-dropdown.png)
+    \[Omitted image "lw-configure-language-groups-dropdown.png"\] Alt text: The Language Groups modal window with an available language selected in the drop-down menu.
 
-5.  Select the **Add new language** icon ![](../../../reuse/icons/product-icons/plus-outline-24.svg)to add another row.
+5.  Select the **Add new language** icon \[Omitted image "plus-outline-24.svg"\]to add another row.
 
-    Language groups must have a minimum of at least two members.![The Language Groups modal window, with the Add new language icon highlighted. There are two languages in the example language group.](../image/lw-configure-language-groups-add-new-lang.png)
+    Language groups must have a minimum of at least two members.\[Omitted image "lw-configure-language-groups-add-new-lang.png"\] Alt text: The Language Groups modal window, with the Add new language icon highlighted. There are two languages in the example language group.
 
 6.  Select **Submit** when you have finished adding all rows you want to include in the group.
 
@@ -57,7 +58,7 @@ Individual languages may be included in more than one language group. If a langu
 
 You can delete rows \(individual languages\) from Language Groups as follows.
 
-![In the Language Groups tab, one language group is expanded to show five rows. Check boxes in front of two language rows are selected. The Delete button is highlighted.](../image/lw-configure-language-groups-delete-rows.png)
+\[Omitted image "lw-configure-language-groups-delete-rows.png"\] Alt text: In the Language Groups tab, one language group is expanded to show five rows. Check boxes in front of two language rows are selected. The Delete button is highlighted.
 
 1.  In the list of language groups, expand a group to display its rows.
 2.  Select the check box of the row you want to delete.
@@ -66,14 +67,14 @@ You can delete rows \(individual languages\) from Language Groups as follows.
 
 You can edit a group as follows.
 
-![In the Language Groups tab, one group is expanded to show three rows. The group name in one of the rows is selected, so as to open a modal window.](../image/lw-configure-language-groups-edit.png)
+\[Omitted image "lw-configure-language-groups-edit.png"\] Alt text: In the Language Groups tab, one group is expanded to show three rows. The group name in one of the rows is selected, so as to open a modal window.
 
 1.  In the list of language groups, expand a group to display its rows.
 2.  Select the name of the group in any one row. The group opens in a modal window.
-3.  Select new values from drop-down lists. Use icons to add \(![](../../../reuse/icons/product-icons/plus-outline-24.svg)\) or delete \(![](../../../reuse/icons/product-icons/trash-outline-24.svg)\) rows.
+3.  Select new values from drop-down lists. Use icons to add \(\[Omitted image "plus-outline-24.svg"\]\) or delete \(\[Omitted image "trash-outline-24.svg"\]\) rows.
 4.  Select **Edit** to save your updates.
 
-![In the edit modal window of Language Groups, three language rows have add and delete icons along with drop-down lists. The Edit button is highlighted.](../image/lw-configure-language-groups-edit-modal.png)
+\[Omitted image "lw-configure-language-groups-edit-modal.png"\] Alt text: In the edit modal window of Language Groups, three language rows have add and delete icons along with drop-down lists. The Edit button is highlighted.
 
-**Parent Topic:**[Language setup in Localization Workspace](../concept/lw-language-setup.md)
+**Parent Topic:**[Language setup in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-language-setup.md)
 

@@ -2,12 +2,14 @@
 title: Set up AI Risk and Compliance properties
 description: Configure AI Risk and Compliance properties to specify which authority documents and policies you want to display on the home page. You can also specify a default automated risk classification assessment RAM for AI systems and specify a default RAM to be used for risk assessments of AI systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/configure-airc-properties.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [AIRC properties, authority documents, RAM configuration]
 breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -21,7 +23,7 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin
 
 ## About this task
 
-The authority documents and policies that you configure are used in the compliance overview section of the Risk &amp; compliance dashboard on the AI Risk and Compliance home page.
+Use these properties to configure how authority documents and policies are displayed in the compliance overview section of the Risk &amp; Compliance dashboard on the AI Risk and Compliance home page.
 
 ## Procedure
 

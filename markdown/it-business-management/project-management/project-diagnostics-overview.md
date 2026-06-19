@@ -2,6 +2,7 @@
 title: Project Diagnostics
 description: Project Diagnostics enables you to detect corrupt data in a project such as task validity, dependencies, and relationships using diagnostic scans that execute diagnostic scripts. You can also fix corrupt data using fix scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-diagnostics-overview.html
 release: australia
 product: Project Management
 classification: project-management
@@ -23,9 +24,9 @@ Data might become corrupt or invalid for various reasons, such as:
 
 Project Diagnostics uses diagnostic scans and fix scripts to detect and fix corrupt data in your projects. It enables you to do the following action:
 
--   [Create and add diagnostic features](../../project-portfolio-suite-with-financials/task/add-diagnostic-feature.md)
--   [Add diagnostic and fix scripts](../../project-portfolio-suite-with-financials/task/add-diagnostic-and-fix-script.md) to fix corrupt or invalid project data
--   [Create Diagnostic scans and map related scripts](../../project-portfolio-suite-with-financials/task/create-diagnostic-scan-map-script.md)
+-   [Create and add diagnostic features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-diagnostic-feature.md)
+-   [Add diagnostic and fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/add-diagnostic-and-fix-script.md) to fix corrupt or invalid project data
+-   [Create Diagnostic scans and map related scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-diagnostic-scan-map-script.md)
 -   Define fields for users to create specific filter conditions. The diagnostic scripts use the results of these filter conditions as input for detecting any corrupt or invalid data.
 
 Project Diagnostics page provides the default scans described in the following table.
@@ -164,7 +165,7 @@ Associate orphan expense lines to the system generated cost plan
 
 </td><td>
 
-Lists the expense lines that are not associated to any cost plan. When you run the fix script, these orphan expense lines are associated to a [system-generated cost plan](cost-plan-breakdown.md#) and then to the respective breakdowns of the system-generated cost plan.
+Lists the expense lines that are not associated to any cost plan. When you run the fix script, these orphan expense lines are associated to a [system-generated cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/cost-plan-breakdown.md) and then to the respective breakdowns of the system-generated cost plan.
 
 </td></tr></tbody>
 </table>

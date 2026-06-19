@@ -2,6 +2,7 @@
 title: Delete a PaCE policy
 description: You can delete a PaCE policy at any time. All related versions for that policy are also deleted. However, for auditing reasons you cannot delete policies that were or are currently in use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-delete-policy.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

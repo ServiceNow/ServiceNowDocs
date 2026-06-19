@@ -2,6 +2,7 @@
 title: JSON - Scoped
 description: The JSON script include provides scoped methods to create JSON objects from a string, and to turn JSON objects into strings.Creates an object or primitive type from a JSON formatted string.Creates a string from a JSON object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/JSONScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ For scoped applications, the JSON API uses static methods that call the JavaScri
 
 **Note:** Use the global keyword with JSON method calls in scoped scripts, for example, `global.JSON.stringify()`. Not using the global keyword could result in an error message, such as `ScopedRhinoObjectWrapper: not a wrappable type: com.glide.script.FieldGlideDescriptor`.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Scoped JSON - parse\(String str\)
 

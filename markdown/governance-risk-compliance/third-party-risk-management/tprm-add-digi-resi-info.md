@@ -2,11 +2,12 @@
 title: Add Digital resilience information to third-party engagements
 description: Add Digital resilience information to third-party engagements by creating ICT third-party service provider records in Digital resilience third-party registers using Third-party Risk Management. Add details such as name of the service provider, its identification code, type of ICT services, currency, and so on. This enhances the digital resilience information of its associated third-party engagement for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-add-digi-resi-info.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-15"
 reading_time_minutes: 1
 breadcrumb: [Create an engagement and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Third-party engagements** and select an engagement record you want.
 
@@ -29,7 +30,9 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 4.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New ICT third-party service provider form](../reference/tprm-create-ICT-thirdparty-serv-prov-form.md).
+    For descriptions of all these fields, see [Create New ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-ICT-thirdparty-serv-prov-form.md).
+
+    **Note:** When you enter or update an LEI identification code \(when Type of code is set to LEI\), the system validates it against the GLEIF database and auto-populates the legal name and country of headquarters fields. If you then edit those fields to values that no longer match GLEIF data, an inline warning is displayed on the edited field. You can still save the record. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 5.  Select **Save**.
 

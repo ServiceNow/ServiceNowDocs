@@ -2,6 +2,7 @@
 title: Set up the AWS Elastic Beanstalk spoke
 description: Create a credential record to integrate AWS Elastic Beanstalk with ServiceNow.Create an access key in Amazon Web Services to authorize actions.Create a credential record to integrate AWS Elastic Beanstalk with ServiceNow. The AWS Elastic Beanstalk connection and credential aliases use these credentials to authorize actions. Once connected, Elastic Beanstalk uses basic authentication to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-elasticbean-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -69,11 +70,11 @@ To set up the AWS Elastic Beanstalk spoke, you must be able to configure securit
     |Field|Description|
     |-----|-----------|
     |Name|Name to identify the credential record. For example, `Elastic Beanstalk Cred`.|
-    |Access Key ID|Access key ID you created in AWS Management Console. For more information, see [Create an access key](setup-elasticbean-spk.md#).|
-    |Secret Access Key|Secret access key you created in AWS Management Console. For more information, see [Create an access key](setup-elasticbean-spk.md#).|
+    |Access Key ID|Access key ID you created in AWS Management Console. For more information, see [Create an access key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-elasticbean-spk.md).|
+    |Secret Access Key|Secret access key you created in AWS Management Console. For more information, see [Create an access key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-elasticbean-spk.md).|
     |Authentication Algorithm|Select **AmazonElasticBeanstalkAuthAlgo**.|
 
-    ![Create credential record for the spoke.](../image/elasticbeanstalk-cred.jpg)
+    \[Omitted image "elasticbeanstalk-cred.jpg"\] Alt text: Create credential record for the spoke.
 
 6.  Click **Submit**.
 

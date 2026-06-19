@@ -2,6 +2,7 @@
 title: Spotlight database views
 description: Spotlight ensures that a database view joins the Spotlight \[spotlight\] table and the facts table whose records the Spotlight group evaluates. You need this database view to use Spotlight interactive analysis. Administrators can access this database view to create reports or to diagnose problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/spotlight-analyzing-data.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -23,7 +24,7 @@ If you are an administrator, you can access the database view directly. To see t
 
 If the database view is missing or invalid, an error message appears on the Spotlight Group record. In this case, you can click the **Generate Database View** related link, which becomes available. A message appears afterwards to inform you whether database generation succeeded.
 
-![Spotlight group form with missing database view warning and highlighted Generate database view link](../image/spotlight-missing-db-view.png "Spotlight group with missing database view")
+\[Omitted image "spotlight-missing-db-view.png"\] Alt text: Spotlight group form with missing database view warning and highlighted Generate database view link
 
 If you delete a Spotlight group, Spotlight deletes the database view associated with that group if it is safe to do so. To determine whether it is safe to delete the database view, Spotlight checks for the following conditions:
 
@@ -38,10 +39,10 @@ When creating, modifying, or deleting database views, Spotlight runs these busin
 -   Delete Database View
 -   Set DB View on Insert
 
-**Parent Topic:**[Administering Spotlight](administering-spotlight.md)
+**Parent Topic:**[Administering Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/administering-spotlight.md)
 
 **Related topics**  
 
 
-[Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DatabaseViews.md)
+[bundle-platadm.c_DatabaseViews]
 

@@ -1,17 +1,20 @@
 ---
 title: Restart OT Discovery Collector on a Linux system
-description: Perform manual restart of Collector when its configuration file has been refreshed, or if the OT Discovery Collectors is unstable. You can perform manual restart only on the Collectors installed in a Windows environment and for Linux-based agents that use systemd.
+description: Perform manual restart of Collector when its configuration file has been refreshed, or if the OT Discovery Collector is unstable. You can perform manual restart only on the Collectors installed in a Windows environment and for Linux-based agents that use systemd.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/restart-collector-on-linux.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use the OT Discovery Collector, OT Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Restart OT Discovery Collector on a Linux system
 
-Perform manual restart of Collector when its configuration file has been refreshed, or if the OT Discovery Collectors is unstable. You can perform manual restart only on the Collectors installed in a Windows environment and for Linux-based agents that use `systemd`.
+Perform manual restart of Collector when its configuration file has been refreshed, or if the OT Discovery Collector is unstable. You can perform manual restart only on the Collectors installed in a Windows environment and for Linux-based agents that use `systemd`.
 
 ## Before you begin
 
@@ -30,5 +33,5 @@ Role required: admin
 
 ## Result
 
-Discovery Scout restarts in the Linux environment.
+OT Discovery Collector restarts in the Linux environment.
 

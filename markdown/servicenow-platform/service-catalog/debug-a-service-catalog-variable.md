@@ -2,6 +2,7 @@
 title: Debug a Service Catalog variable
 description: Monitor changes in the state and the value of a Service Catalog variable due to catalog client scripts, catalog UI policies, and catalog data lookups. You can diagnose and resolve issues related to such changes, and track client-side scripting errors on this tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/debug-a-service-catalog-variable.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -17,19 +18,19 @@ Monitor changes in the state and the value of a Service Catalog variable due to 
 
 ## Before you begin
 
-Role required: admin or catalog\_adminFeatures available for debugging Service Catalog issues including UI macro customization debugging; variable action logger; variable watcher; item diagnostic report
+Role required: admin or catalog\_admin
 
 ## Procedure
 
 1.  Enable the JavaScript log and field watcher..
 
-    1.  In the banner, click the settings icon \(![Settings icon](../image/Settings.png)\).
+    1.  In the banner, click the settings icon \(\[Omitted image "Settings.png"\] Alt text: Settings icon\).
 
     2.  In the System Settings window, click the **Developer** tab.
 
     3.  Enable the **JavaScript Log and Field Watcher** option.
 
-        The **JavaScript Log** and **Field Watcher** tabs are displayed in a pane at the bottom of the page. For information about JavaScript logs and fields watcher, see [JavaScript log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_WritingToTheDebugLog.md) and [Field Watcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_FieldWatcher.md) .
+        The **JavaScript Log** and **Field Watcher** tabs are displayed in a pane at the bottom of the page. For information about JavaScript logs and fields watcher, see JavaScript log and Field Watcher .
 
     4.  Close the System Settings window.
 
@@ -39,7 +40,7 @@ Role required: admin or catalog\_adminFeatures available for debugging Service C
 
 4.  On the form, right-click a variable field label and select **Watch Variable**.
 
-    The debug icon \(![Debug icon](../image/Debug.png)\) is displayed next to the variable, and the **Field Watcher** tab in the bottom pane is replaced with the **Variable Watcher** tab.
+    The debug icon \(\[Omitted image "Debug.png"\] Alt text: Debug icon\) is displayed next to the variable, and the **Field Watcher** tab in the bottom pane is replaced with the **Variable Watcher** tab.
 
 5.  Edit the fields on the **Variable Watcher** tab.
 
@@ -47,7 +48,7 @@ Role required: admin or catalog\_adminFeatures available for debugging Service C
     |-----|-----------|
     |Item|Current catalog item.|
     |Variable|Variable that is being watched.|
-    |Type|[Type](../reference/r_VariableTypes.md) of the variable.|
+    |Type|[Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) of the variable.|
     |Create roles|User type that can create values for the variable.|
     |Write roles|User type that can edit values for the variable.|
     |Read roles|User type that can read values for the variable.|
@@ -61,7 +62,7 @@ Role required: admin or catalog\_adminFeatures available for debugging Service C
     |Data lookup|If selected, displays the action log of the variable due to data lookups.|
     |Catalog UI Policy|If selected, displays the action log of the variable due to catalog UI policies.|
 
-    ![Screenshot for the Variable Watcher tab](../image/VariableWatcherTab.png "Variable Watcher tab")
+    \[Omitted image "VariableWatcherTab.png"\] Alt text: Screenshot for the Variable Watcher tab
 
 6.  To watch another variable, right-click that variable and select **Watch Variable**.
 
@@ -69,12 +70,12 @@ Role required: admin or catalog\_adminFeatures available for debugging Service C
 
 7.  To stop watching a variable, right-click the variable and select **Unwatch Variable**.
 
-8.  To clear the logs, click the Clear log icon \(![Icon to clear log](../image/ClearLog.png) \).
+8.  To clear the logs, click the Clear log icon \(\[Omitted image "ClearLog.png"\] Alt text: Icon to clear log \).
 
 9.  To resize the pane, click **Small**, **Medium**, or **Large**.
 
-10. To close the pane, click the Close icon \(![Close icon](../image/CloseLog.png) \).
+10. To close the pane, click the Close icon \(\[Omitted image "CloseLog.png"\] Alt text: Close icon \).
 
 
-**Parent Topic:**[Debugging Service Catalog](../concept/debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
 

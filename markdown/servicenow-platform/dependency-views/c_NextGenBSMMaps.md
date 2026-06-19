@@ -2,6 +2,7 @@
 title: Dependency Views map
 description: ServiceNow Dependency Views maps graphically display CIs that support application or business services and the relationships between the CIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/c\_NextGenBSMMaps.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -15,13 +16,13 @@ breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Confi
 
 ServiceNow® Dependency Views maps graphically display CIs that support application or business services and the relationships between the CIs.
 
-The [CMDB Workspace](../../configuration-management/concept/cmdb-workspace.md)and [Service Graph Workspace](../../configuration-management/concept/sg-workspace.md) store apps provide the [Unified Map](../../configuration-management/concept/cmdb-workspace-unified-map.md) feature as an alternative to using Dependency Views. Unified Map combines the capabilities of Dependency Views and [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ServiceMappingOverview.md) into a single map experience.
+The [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md) store apps provide the [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) feature as an alternative to using Dependency Views. Unified Map combines the capabilities of Dependency Views and  into a single map experience.
 
 A ServiceNow service \(application service or business service\) is work or goods that are supported by an IT infrastructure. For example, delivering email service to an employee can require services such as email servers, web servers, and the work to configure the user's account.
 
 A Dependency Views map has one starting point, called the root CI or root node of the map. The root CI is surrounded by a darker frame that repaints itself with a pulsing effect drawing the attention to the root CI. The maps can show both upstream and downstream dependencies for the root CI. By default the Dependency Views map displays 3 levels, both upstream and downstream relationships. Administrators can configure the number of levels displayed. The map collapses and expands clusters to make them easier to view. By default, clusters are collapsed.
 
-In a Dependency Views map, map indicators indicate if a CI has any active, pending issues. You can investigate the tasks that are connected to a CI to get more details. When you return to the map from another form, the system restores the last map viewed, using the default filter and layout settings. When you click the icon \(![Open Dependency Views map for the CI.](../image/IconBSMMap.png)\) on a CI record or on a task record that identifies a CI, the map opens.
+In a Dependency Views map, map indicators indicate if a CI has any active, pending issues. You can investigate the tasks that are connected to a CI to get more details. When you return to the map from another form, the system restores the last map viewed, using the default filter and layout settings. When you click the icon \(\[Omitted image "IconBSMMap.png"\] Alt text: Open Dependency Views map for the CI.\) on a CI record or on a task record that identifies a CI, the map opens.
 
 Many of the relationships in map are created through the discovery process. You can also create, define, and delete CI relationships in the map. You can display the map from different perspectives and open specific records that relate to configuration items. The system refreshes the map automatically to reflect changes to the CMDB.
 
@@ -29,9 +30,9 @@ Many of the relationships in map are created through the discovery process. You 
 
 The Dependency Views module is active in all instances, and includes demo data.
 
-![CIs and connections on a Dependency Views map.](../image/DependencyView.png "Dependency Views sample map")
+\[Omitted image "DependencyView.png"\] Alt text: CIs and connections on a Dependency Views map.
 
-When you click the map icon \[![Display Dependency Views map for a CI.](../image/IconBSMMap.png)\] on a CI record or on a task record that identify a CI, a map opens.
+When you click the map icon \[\[Omitted image "IconBSMMap.png"\] Alt text: Display Dependency Views map for a CI.\] on a CI record or on a task record that identify a CI, a map opens.
 
 ## Roles
 

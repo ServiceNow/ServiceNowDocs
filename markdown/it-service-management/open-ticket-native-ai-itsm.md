@@ -2,11 +2,14 @@
 title: Open an IT ticket in Employee Center
 description: Resolve a user's issue by opening an IT ticket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/open-ticket-native-ai-itsm.html
 release: australia
+product: IT Service Management
+classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
+breadcrumb: [Employee experience using Employee Center, Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Open an IT ticket in Employee Center
@@ -31,21 +34,21 @@ Role required: none
 
 4.  In the **Add attachments** field, select a file related to the issue.
 
-    ![Create incident in employee portal](../image/AINativeCreateIncident.png)
+    \[Omitted image "AINativeCreateIncident.png"\] Alt text: Create incident in employee portal
 
 5.  Select **Save as Draft** to save the ticket as a draft request to update and submit later.
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d239220e121">
+<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d174656e121">
 
 Choice
 
-</th><th align="left" id="d239220e124">
+</th><th align="left" id="d174656e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d239220e130">
+</th></tr></thead><tbody><tr><td id="d174656e130">
 
 **If the related content is relevant**
 
@@ -53,7 +56,7 @@ Description
 
 Select **Solution found**.
 
-</td></tr><tr><td id="d239220e142">
+</td></tr><tr><td id="d174656e142">
 
 **If the related content is not relevant**
 
@@ -65,5 +68,5 @@ Select **Solution found**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Employee experience in Simplified IT Service Management](../concept/employee-experience-native-ai-itsm.md)
+**Parent Topic:**[Employee experience using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-experience-employee-center.md)
 

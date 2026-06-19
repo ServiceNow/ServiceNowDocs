@@ -2,6 +2,7 @@
 title: Update details of free-form roadmap
 description: Update the details of a free-form roadmap to reflect the changes in priorities or the timeline of the roadmap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/update-details-of-free-form-roadmap.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -18,7 +19,7 @@ Update the details of a free-form roadmap to reflect the changes in priorities o
 
 ## Before you begin
 
-[Create a free-form roadmap](create-free-form-roadmap-portfolio-planning-workspace.md).
+[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -28,7 +29,7 @@ Role required: sn\_align\_core.apw\_user
 
 2.  Select a roadmap to open it.
 
-3.  From the roadmap header, select the More actions icon \(![More actions icon in the free-form roadmap header.](../../alignment-planner-workspace/images/more-actions.png)\).
+3.  From the roadmap header, select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon in the free-form roadmap header.\).
 
 4.  Use the Update free-form roadmap wizard to edit out the details of your roadmap.
 
@@ -39,5 +40,5 @@ Role required: sn\_align\_core.apw\_user
 
 The roadmap is updated and the roadmap items are displayed according to the latest changes.
 
-**Parent Topic:**[Create a free-form roadmap](create-free-form-roadmap-portfolio-planning-workspace.md)
+**Parent Topic:**[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)
 

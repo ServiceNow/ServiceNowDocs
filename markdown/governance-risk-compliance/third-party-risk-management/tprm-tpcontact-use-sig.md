@@ -2,6 +2,7 @@
 title: Respond using the SIG
 description: Use the Shared Assessments Standardized Information Gathering questionnaire \(SIG\) to provide assessment documentation on the third-party portal. You can upload the pre-filled SIG spreadsheet or import a form-based questionnaire.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -23,9 +24,9 @@ Role required: vendor\_contact
 
 TPRM supports the current SIG version and prior versions up to 2021. The following SIG versions are supported:
 
--   SIG Full 2025, 2024, 2023, 2022, and 2021
--   SIG Core 2025, 2024, 2023, 2022, and 2021
--   SIG Lite 2025, 2024, 2023, 2022, and 2021
+-   SIG Full 2026, 2025, 2024, 2023, 2022, and 2021
+-   SIG Core 2026, 2025, 2024, 2023, 2022, and 2021
+-   SIG Lite 2026, 2025, 2024, 2023, 2022, and 2021
 
 **Note:** SIG 2020 versions are available for reactivation. SIG 2020 versions are deactivated by default.
 
@@ -39,15 +40,15 @@ If you upload a version prior to the earliest supported SIG, all responses for m
 
 2.  Upload a completed questionnaire or complete the questionnaire.
 
-<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d104909e92">
+<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d108984e92">
 
 Action
 
-</th><th align="left" id="d104909e95">
+</th><th align="left" id="d108984e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104909e101">
+</th></tr></thead><tbody><tr><td id="d108984e101">
 
 **Upload a completed SIG questionnaire**
 
@@ -55,9 +56,9 @@ Steps
 
 Select **Import**, navigate to the file, and then select **Open**.
 
- ![Import SIG questionnaire widget.](../image/import-sig.png)
+ \[Omitted image "import-sig.png"\] Alt text: Import SIG questionnaire widget.
 
-</td></tr><tr><td id="d104909e135">
+</td></tr><tr><td id="d108984e135">
 
 **Complete the questionnaire**
 

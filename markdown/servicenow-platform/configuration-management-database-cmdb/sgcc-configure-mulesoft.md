@@ -2,6 +2,7 @@
 title: Configure API Service Graph Connector for MuleSoft using SGC Central
 description: Set up scheduled import jobs to pull in MuleSoft Anypoint Platform data into your CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-mulesoft.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -17,7 +18,7 @@ Set up scheduled import jobs to pull in MuleSoft Anypoint Platform data into you
 
 ## Before you begin
 
-Install API Service Graph Connector for MuleSoft version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).
+Install API Service Graph Connector for MuleSoft version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
 
 Obtain the Connected App credentials from your MuleSoft Anypoint Platform administrator. Make a note of the following details:
 
@@ -34,13 +35,13 @@ Role required: The following table shows the roles required for each stage of th
 |Prerequisites|admin|
 |Setup|SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin|
 
-**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](../../configuration-management/concept/cmdb-sgc-intro.md#section_ett_spp_4hc).
+**Note:** The admin user role is required to run background scripts and to provide access to global tables to the SGC-Admin user. For information about the user roles for Service Graph Connectors, see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md).
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
-**Note:** Alternatively, you can configure a default connection already available from the installed or draft connections in SGC Central. Go to **All** &gt; **Service Graph Connectors**, then select **Setup** for the connector from the menu. To learn about installed and draft connections, see [Managing connections added for Service Graph Connectors in SGC Central](../concept/sgcc-managing-connection.md).
+**Note:** Alternatively, you can configure a default connection already available from the installed or draft connections in SGC Central. Go to **All** &gt; **Service Graph Connectors**, then select **Setup** for the connector from the menu. To learn about installed and draft connections, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-managing-connection.md).
 
 ## Procedure
 
@@ -56,7 +57,7 @@ The playbook experience for onboarding connectors is activated with SGC Central 
 
 5.  Complete the initial prerequisites when setting up a connection for the first time using a connector.
 
-    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](sgcc-first-time-setup.md).
+    **Note:** This step is required only during the first-time setup. See [Perform initial setup tasks when creating a connection in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-first-time-setup.md).
 
 6.  Enter connection details and test the API connection for importing MuleSoft data.
 
@@ -94,7 +95,7 @@ OAuth client ID
 
 </td><td>
 
-Client ID of your MuleSoft Connected App as noted in the [Before you begin](sgcc-configure-mulesoft.md#prereq) section.
+Client ID of your MuleSoft Connected App as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-mulesoft.md) section.
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client secret of the MuleSoft Connected App as noted in the [Before you begin](sgcc-configure-mulesoft.md#prereq) section.
+Client secret of the MuleSoft Connected App as noted in the [Before you begin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sgcc-configure-mulesoft.md) section.
 
 </td></tr><tr><td>
 
@@ -228,7 +229,7 @@ Separator for key and value in tags.
 
     3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md#table_r53_5hm_xp).
+        For more information, see .
 
     4.  Select **Save**.
 
@@ -243,5 +244,5 @@ Separator for key and value in tags.
 
 Select **View all connections** to review the connection details. The created connection appears in the Installed connections list.
 
-You can then manage connections from the SGC Central view of the CMDB Workspace. For more information, see [Managing connections added for Service Graph Connectors in SGC Central](../concept/sgcc-managing-connection.md).
+You can then manage connections from the SGC Central view of the CMDB Workspace. For more information, see [Managing connections added for Service Graph Connectors in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-managing-connection.md).
 

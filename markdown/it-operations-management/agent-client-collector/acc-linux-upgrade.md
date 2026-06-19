@@ -2,6 +2,7 @@
 title: Upgrade Agent Client Collector on a Linux system
 description: Upgrade your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-linux-upgrade.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,7 +19,7 @@ Upgrade your existing Agent Client Collector version on a system running a Linux
 ## Before you begin
 
 -   The upgrade procedure is the same for both MID Server and MID-less deployments.
--   Enable golden image mode for cloning additional instances by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker takes no action during new Linux installations, as there is nothing which requires cleaning.
+-   Enable golden image mode for cloning additional instances by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker is applied only during a Linux upgrade and not during new installations.
 -   Role required: agent\_client\_collector\_admin
 
 ## Procedure
@@ -31,7 +32,7 @@ Upgrade your existing Agent Client Collector version on a system running a Linux
     /usr/lib/systemd/system/acc.service
     ```
 
-2.  Download the .rpm/.deb agent package and signature files, as described in [Install Agent Client Collector on a Linux system](install-acc-linux.md).
+2.  Download the .rpm/.deb agent package and signature files, as described in [Install Agent Client Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/install-acc-linux.md).
 
 3.  Upgrade the package.
 
@@ -69,5 +70,5 @@ Upgrade your existing Agent Client Collector version on a system running a Linux
     ```
 
 
-**Parent Topic:**[Agent Client Collector installation on a Linux OS system](../concept/acc-install-linux-concept.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

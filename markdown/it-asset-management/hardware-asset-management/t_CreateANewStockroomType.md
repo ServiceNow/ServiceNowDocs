@@ -2,13 +2,14 @@
 title: Create a new stockroom type
 description: If you need stockroom types that are not included in the base system, you can create a custom stockroom type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/t\_CreateANewStockroomType.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create a new stockroom type
@@ -21,7 +22,7 @@ Role required: inventory\_admin
 
 ## About this task
 
-Check the [priority level](../reference/r_StockroomTypes.md) of the stockroom types provided in the base instance to ensure that you assign the correct priority level to any new stockroom types you create. You can also modify the stockroom types included in the base system.
+Check the [priority level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/r_StockroomTypes.md) of the stockroom types provided in the base instance to ensure that you assign the correct priority level to any new stockroom types you create. You can also modify the stockroom types included in the base system.
 
 ## Procedure
 
@@ -39,5 +40,5 @@ Check the [priority level](../reference/r_StockroomTypes.md) of the stockroom ty
 2.  Click **Submit**.
 
 
-**Parent Topic:**[Manage stockrooms](../../hardware-asset-management/concept/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

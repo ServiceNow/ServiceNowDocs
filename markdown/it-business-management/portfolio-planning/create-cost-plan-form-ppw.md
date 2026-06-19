@@ -2,6 +2,7 @@
 title: Create cost plan form
 description: The cost plan form information is used to create a cost plan for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-cost-plan-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

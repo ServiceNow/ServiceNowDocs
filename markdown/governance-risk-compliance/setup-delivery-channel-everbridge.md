@@ -2,6 +2,7 @@
 title: Import delivery channels from Everbridge
 description: After setting up the connection and credentials with Everbridge, you must import the delivery channels from Everbridge. Sending notifications is made easier through these delivery channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-delivery-channel-everbridge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

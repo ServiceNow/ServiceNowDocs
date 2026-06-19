@@ -2,6 +2,7 @@
 title: Web service import sets security requirements
 description: Web Service Import Sets use the same security mechanisms as SOAP Web Services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_SecurityRequirements.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -31,7 +32,7 @@ When displaying a mapped web service table, you have the following related links
 
 The following image shows a record that was inserted into the web service import set Notification. The target record is the resulting creation or modification to the Incident table record as a result of the transform.
 
-![](../image/SoapNotification.jpg "Soap Notification")
+\[Omitted image "SoapNotification.jpg"\] Alt text:
 
 ## Web service import sets example
 
@@ -95,7 +96,7 @@ name=sys_id   value=cd45649c0a0a0b2b00e6f27649d6bd2c
 
 The following image shows the resultant row created for the import set table Notification \(imp\_notification\).
 
-![](../image/WsIsetPerl.png "WS Iset Perl")
+\[Omitted image "WsIsetPerl.png"\] Alt text:
 
-**Parent Topic:**[Web service import sets](c_WebServiceImportSets.md)
+**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
 

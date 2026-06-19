@@ -2,6 +2,7 @@
 title: AI asset data model attributes
 description: Additional attributes for the AI asset data model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-asset-data-model-attributes.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

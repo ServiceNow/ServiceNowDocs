@@ -2,12 +2,13 @@
 title: Create a custom action to generate an array of objects from a list of records
 description: Generate an array of objects from a list of User records. Learn how to use a Script step to iterate through a list of records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-custom-action-array-objects.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Script support for complex data, Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
@@ -40,7 +41,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see [Building apps in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-creation.md).
+    You can use App Engine Studio to plan, create, and deploy applications. For more information about building a custom application, see .
 
     For example, create an application called `My Application`.
 
@@ -72,7 +73,7 @@ Use this example to see demonstrations of these operations and steps.
 
 8.  Configure the action input with these values.
 
-    ![Create an action input that stores a department record.](../images/array-objects-config-inputs.png)
+    \[Omitted image "array-objects-config-inputs.png"\] Alt text: Create an action input that stores a department record.
 
     |Field|Value|
     |-----|-----|
@@ -88,7 +89,7 @@ Use this example to see demonstrations of these operations and steps.
 
 11. Configure the step with these values.
 
-    ![Configure the Look Up Records step condition to use the department input variable.](../images/array-objects-config-look-up-records-step.png)
+    \[Omitted image "array-objects-config-look-up-records-step.png"\] Alt text: Configure the Look Up Records step condition to use the department input variable.
 
 <table id="table_cvp_l5p_lhb"><thead><tr><th>
 
@@ -151,7 +152,7 @@ Max Results
 
 15. Configure the input variable with these values.
 
-    ![Configure the Script step input variable to use the User records data pill from the Look Up Records step.](../images/array-objects-config-script-step-variable.png)
+    \[Omitted image "array-objects-config-script-step-variable.png"\] Alt text: Configure the Script step input variable to use the User records data pill from the Look Up Records step.
 
 <table id="table_uby_5zp_lhb"><thead><tr><th>
 
@@ -207,7 +208,7 @@ Value
 
 18. Configure the output variable with these values.
 
-    ![Create an array of objects called contacts. Within the array create an object called contact. Within contact object create three strings variables for first name, last name, and email address.](../images/array-objects-config-script-step-output-variables.png)
+    \[Omitted image "array-objects-config-script-step-output-variables.png"\] Alt text: Create an array of objects called contacts. Within the array create an object called contact. Within contact object create three strings variables for first name, last name, and email address.
 
     |Label|Name|Type|Mandatory|
     |-----|----|----|---------|
@@ -215,7 +216,7 @@ Value
 
 19. Expand the contacts Array.Object, and rename the child object to `contact`.
 
-20. From the row for the contact object, select the **Add Child Item** icon ![](../images/icon-add-child-item.png).
+20. From the row for the contact object, select the **Add Child Item** icon \[Omitted image "icon-add-child-item.png"\].
 
 21. Configure the child item with these values.
 
@@ -223,7 +224,7 @@ Value
     |-----|----|----|---------|
     |first name|first\_name|String|True|
 
-22. From the row for the contact object, select the **Add Child Item** icon ![](../images/icon-add-child-item.png).
+22. From the row for the contact object, select the **Add Child Item** icon \[Omitted image "icon-add-child-item.png"\].
 
 23. Configure the child item with these values.
 
@@ -231,7 +232,7 @@ Value
     |-----|----|----|---------|
     |last name|last\_name|String|True|
 
-24. From the row for the contact object, select the **Add Child Item** icon ![](../images/icon-add-child-item.png).
+24. From the row for the contact object, select the **Add Child Item** icon \[Omitted image "icon-add-child-item.png"\].
 
 25. Configure the child item with these values.
 
@@ -247,7 +248,7 @@ Value
 
 28. For **Enter a Name**, enter `contact`.
 
-    ![Save the object template with the name contact.](../images/array-objects-config-script-step-output-variable-template.png)
+    \[Omitted image "array-objects-config-script-step-output-variable-template.png"\] Alt text: Save the object template with the name contact.
 
 29. Click **Save**.
 
@@ -255,7 +256,7 @@ Value
 
 31. Configure the Action Output with these values.
 
-    ![Create an action output called contacts to store an array of objects.](../images/array-objects-config-outputs.png)
+    \[Omitted image "array-objects-config-outputs.png"\] Alt text: Create an action output called contacts to store an array of objects.
 
     |Label|Name|Type|Mandatory|
     |-----|----|----|---------|
@@ -279,7 +280,7 @@ Value
 
 37. For **contacts**, select **\[step-&gt;Script step-&gt;contacts\]**.
 
-    ![Configure the action output variable to use the contacts data pill from the Script step.](../images/array-objects-config-outputs-contacts.png)
+    \[Omitted image "array-objects-config-outputs-contacts.png"\] Alt text: Configure the action output variable to use the contacts data pill from the Script step.
 
     **Note:** You can select the Script step **contacts** data pill from the data panel or from the Data Pill Picker button.
 
@@ -291,7 +292,7 @@ Value
 
 40. Enter the following test value:
 
-    ![Select the Development department to test your action.](../images/array-objects-test-action-department.png)
+    \[Omitted image "array-objects-test-action-department.png"\] Alt text: Select the Development department to test your action.
 
     |Input|Value|
     |-----|-----|
@@ -307,9 +308,9 @@ Value
 
 43. Review the runtime value for the action Output data.
 
-    ![Execution details page for the test results of your custom action.](../images/array-objects-execution-details-page.png)
+    \[Omitted image "array-objects-execution-details-page.png"\] Alt text: Execution details page for the test results of your custom action.
 
-    Although the execution details display the output data as a JSON formatted string, the actual output data type is an array of objects. If you need a string version of your output, you can convert the object into a string using the JSON class. For more information about converting a JSON object into a string, see [Scoped JSON - stringify\(Object jsonObject\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONScopedAPI.md).
+    Although the execution details display the output data as a JSON formatted string, the actual output data type is an array of objects. If you need a string version of your output, you can convert the object into a string using the JSON class. For more information about converting a JSON object into a string, see .
 
     For this example, the contacts object contains an array of contact objects with first name, last name, and email information for three users in the Development department.
 
@@ -347,5 +348,5 @@ You have a custom action that looks up the Users for a given department and conv
 
 Customize this action to use your own logic.
 
-**Parent Topic:**[Script support for complex data](../concept/script-support-complex-data.md)
+**Parent Topic:**[Script support for complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/script-support-complex-data.md)
 

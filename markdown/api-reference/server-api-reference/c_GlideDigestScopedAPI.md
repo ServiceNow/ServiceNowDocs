@@ -2,6 +2,7 @@
 title: GlideDigest - Scoped
 description: The scoped GlideDigest class provides methods for creating a message digest from strings or input streams using MD5, SHA1, or SHA256 hash algorithms.Creates an instance of scoped GlideDigest.Creates a message digest from a string using the MD5 algorithm. The output string is in Base64.Creates a message digest from an input stream using the MD5 algorithm. The output string is in Base64.Creates a message digest from a string using the MD5 algorithm. The output string is in hexadecimal.Creates a message digest from an input stream using the MD5 algorithm. The output string is in hexadecimal.Creates a message digest from a string using the SHA1 algorithm. The output string is in Base64.Creates a message digest from an input stream using the SHA1 algorithm. The output string is in Base64.Creates a message digest from a string using the SHA1 algorithm. The output string is in hexadecimal.Creates a message digest from an input stream using the SHA1 algorithm. The output string is in hexadecimal.Creates a message digest from a string using the SHA256 algorithm. The output string is in Base64.Creates a message digest from an input stream using the SHA256 algorithm. The output string is in Base64.Creates a message digest from a string using the SHA256 algorithm. The output string is in hexadecimal.Creates a message digest from an input stream using the SHA256 algorithm. The output string is in hexadecimal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideDigestScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The scoped GlideDigest class provides methods for creating a message digest from strings or input streams using MD5, SHA1, or SHA256 hash algorithms.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideDigest - GlideDigest\(\)
 

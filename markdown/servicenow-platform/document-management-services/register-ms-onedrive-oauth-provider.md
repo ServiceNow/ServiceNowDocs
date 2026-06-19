@@ -2,6 +2,7 @@
 title: Register Microsoft OneDrive as an OAuth provider for Document Services
 description: Use the information generated during Microsoft OneDrive account configuration to register Microsoft OneDrive as an OAuth provider and allow the instance to request OAuth 2.0 tokens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/register-ms-onedrive-oauth-provider.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -124,5 +125,5 @@ Redirect URL
 
 The system validates the OAuth credentials.
 
-**Parent Topic:**[Microsoft OneDrive integration with Document Services](../concept/one-drive-integration.md)
+**Parent Topic:**[Microsoft OneDrive integration with Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/one-drive-integration.md)
 

@@ -2,6 +2,7 @@
 title: Create an action for an 'on Resource operation launch' policy
 description: The on Resource operation launch trigger fires before the catalog for a resource operation is loaded from the Cloud User Portal. A policy that is triggered by the on Resource operation launch trigger can run a script or can override a user-requested value \(text values only\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-action-on-resrce-op-launch.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -18,8 +19,8 @@ The on Resource operation launch trigger fires before the catalog for a resource
 ## Before you begin
 
 -   Role required: sn\_cmp.cloud\_governor or admin
--   Optional: [Create one or more cloud policy groups](create-cloud-policy-group-1.md).
--   [Configure a cloud policy rule](configure-cloud-policy-rule-1.md) and associated conditions.
+-   Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+-   [Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) and associated conditions.
 
 ## Procedure
 
@@ -31,7 +32,7 @@ The on Resource operation launch trigger fires before the catalog for a resource
 
 4.  On the popup, click **Create** for the type of action to perform, enter a unique and meaningful **Action Name**, and then fill in the form for the action.
 
-    ![Create Action popup](../image/action-on-cat-item-launch.png)
+    \[Omitted image "action-on-cat-item-launch.png"\] Alt text: Create Action popup
 
 <table id="table_nbq_j2h_sfb"><thead><tr><th>
 
@@ -63,7 +64,7 @@ Action Script
 
 </td><td>
 
-Create the script in the text box.See [Create a policy action script](create-policy-script-1.md) for details.
+Create the script in the text box.See [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details.
 
 </td></tr></tbody>
 </table><table id="table_qhx_32h_sfb"><thead><tr><th>
@@ -90,13 +91,13 @@ Value
 
 Enter a value that overrides the value in the **Property** field. You can override text values only. You can specify a static value, an expression, or both. The example action, named **SetTheCostCenter**, specifies the value **Marketing** for the **CostCenter** property.
 
-![Configure a Property Override action](../image/action-property-override.png "Configure a Property Override action")
+\[Omitted image "action-property-override.png"\] Alt text: Configure a Property Override action
 
 **Note:**
 
 When both a policy rule and a form rule overwrite a value, the value in the form rule is used.
 
-Expressions can perform the following actions \(see [Using expressions in Cloud Provisioning and Governance](../reference/expressions-cloud-mgt-1.md) for details\):
+Expressions can perform the following actions \(see [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details\):
 
 -   Set form data values using definition expressions. For example: `${parameter.formData.CatalogAttributeType}`
 -   Assign user data values using definition expressions. For example: `${parameter.userData.userId}`

@@ -2,6 +2,7 @@
 title: Add custom conditions to enable ReleaseOps deployments
 description: If you want to add additional conditions to enable ReleaseOps deployments, modify the Deployment Migration to ReleaseOps decision table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/add-custom-conditions-to-enable-releaseops-deployment.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -25,7 +26,7 @@ Role required: admin or app\_engine\_admin
 
 2.  On the Workflow Studio home page, select **Decision tables**.
 
-    ![Select Decision tables on the Workflow Studio home page to display only decision tables.](../image/aemc-workflow-studio-decision-tables.png)
+    \[Omitted image "aemc-workflow-studio-decision-tables.png"\] Alt text: Select Decision tables on the Workflow Studio home page to display only decision tables.
 
 3.  Select the decision table with the name **Deployment Migration to ReleaseOps**.
 
@@ -33,6 +34,6 @@ Role required: admin or app\_engine\_admin
 
     **Tip:** For more information about how to use decision tables, see the following resources:
 
-    -   [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
-    -   [Modify decision table rules in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/modify-decision-table-rules.md)
+    -   
+    -   
 

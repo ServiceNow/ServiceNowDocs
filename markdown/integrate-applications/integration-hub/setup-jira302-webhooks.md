@@ -2,6 +2,7 @@
 title: Set up a bi-directional webhook for the Jira spoke
 description: Configure a webhook to subscribe to Jira with a ServiceNow callback URL.Create a token to embed in the Jira webhook URL.Register a Jira webhook in ServiceNow to notify the ServiceNow app when certain events occur in Jira.Provide a webhook callback URL in yourJira Atlassian account to create a webhook.Create a webhook routing policy and subflow as per your requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jira302-webhooks.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -109,16 +110,16 @@ Role required: admin
 
     See the [Atlassian Developer](https://developer.atlassian.com/docs/) portal documentation for instructions on creating a webhook.
 
-    **Note:** If you select an HMAC-based callback URL while [registering a webhook](setup-jira302-webhooks.md#), enter the [secret token created](setup-jira302-webhooks.md#) from your ServiceNow instance in the webhook’s **Secret** field.
+    **Note:** If you select an HMAC-based callback URL while [registering a webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira302-webhooks.md), enter the [secret token created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira302-webhooks.md) from your ServiceNow instance in the webhook’s **Secret** field.
 
-    ![Jira spoke webhook creation in Jira portal.](../image/jira-spoke-webhook-secret.png)
+    \[Omitted image "jira-spoke-webhook-secret.png"\] Alt text: Jira spoke webhook creation in Jira portal.
 
 4.  Select the related events that should trigger the webhook.
 
 
 ### Result
 
-The callback URL is added in your Jira Atlassian account. You can create routing policies and subflows as per your requirement. See [Customize a bi-directional webhook](setup-jira302-webhooks.md#) for information regarding the creation of new routing policies and subflows.
+The callback URL is added in your Jira Atlassian account. You can create routing policies and subflows as per your requirement. See [Customize a bi-directional webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-jira302-webhooks.md) for information regarding the creation of new routing policies and subflows.
 
 ## Customize a bi-directional webhook
 
@@ -130,7 +131,7 @@ Role required: admin
 
 ### About this task
 
-The default routing policy in the Jira WebHook Routing Policies module triggers the Process Jira Webhooks subflow and notifies the ServiceNow app when certain events occur in Jira. See [Jira Spoke](../concept/jira-spoke-v3-0-2.md) for information about the fields that the default routing policy and subflows support. To use any other fields in your custom subflow and customize conditions in the routing policy, perform these steps.
+The default routing policy in the Jira WebHook Routing Policies module triggers the Process Jira Webhooks subflow and notifies the ServiceNow app when certain events occur in Jira. See [Jira Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md) for information about the fields that the default routing policy and subflows support. To use any other fields in your custom subflow and customize conditions in the routing policy, perform these steps.
 
 ### Procedure
 
@@ -140,7 +141,7 @@ The default routing policy in the Jira WebHook Routing Policies module triggers 
 
 3.  Create a copy of the default subflow, Process Jira Webhooks.
 
-4.  Customize the subflow as per your requirement and publish it. See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows and [Jira Spoke](../concept/jira-spoke-v3-0-2.md) for information about the fields that the default routing policy and subflows support.
+4.  Customize the subflow as per your requirement and publish it. See Building subflows for more information about creating and using subflows and [Jira Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md) for information about the fields that the default routing policy and subflows support.
 
 5.  Navigate to **Jira Webhooks** &gt; **Jira WebHook Routing Policies**.
 
@@ -170,7 +171,7 @@ Default answer
 
 </td><td>
 
-Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(![Lookup icon](../image/lookup-icon.png)\).
+Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon\).
 2.  Select the required subflow from the Document list.
 
 **Note:** Ensure that the **Table name** is `Flow [sys_hub_flow]`.
@@ -181,7 +182,7 @@ Condition
 
 </td><td>
 
-Conditions to be met when the required events occur in Jira. See [Jira webhooks](../concept/jira-spoke-v3-0-2.md) for information about the supported fields.
+Conditions to be met when the required events occur in Jira. See [Jira webhooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md) for information about the supported fields.
 
 </td></tr><tr><td>
 

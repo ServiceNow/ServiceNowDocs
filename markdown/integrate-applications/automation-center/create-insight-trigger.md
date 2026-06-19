@@ -2,6 +2,7 @@
 title: Create an insight trigger
 description: Create an active insight trigger so that you can run the related insight rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-insight-trigger.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Create an active insight trigger so that you can run the related insight rule.
 
 This task must be performed in the classic environment.
 
-Create an insight rule. For more information, see [Create an insight rule](create-insight-rule.md).
+Create an insight rule. For more information, see [Create an insight rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-insight-rule.md).
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
@@ -45,16 +46,16 @@ An insight rule doesn’t run unless it’s mapped to an insight trigger.
 
 5.  Select the appropriate type of insight trigger that you want to create:
 
-    -   [Map to an existing business rule](map-existing-rule-insight-trigger.md)
-    -   [Map to a new scheduled script](map-new-scheduled-script-trigger.md)
-    -   [Map to an existing scheduled job](map-existing-scheduled-job-trigger.md)
+    -   [Map to an existing business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-existing-rule-insight-trigger.md)
+    -   [Map to a new scheduled script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-new-scheduled-script-trigger.md)
+    -   [Map to an existing scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-existing-scheduled-job-trigger.md)
 
--   **[Map an insight rule to an existing business rule](map-existing-rule-insight-trigger.md)**  
+-   **[Map an insight rule to an existing business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-existing-rule-insight-trigger.md)**  
 Map an insight rule to an existing business rule to define the type of insight trigger. This insight trigger activates the associated insight rule to run.
--   **[Map an insight rule to a new scheduled script](map-new-scheduled-script-trigger.md)**  
+-   **[Map an insight rule to a new scheduled script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-new-scheduled-script-trigger.md)**  
 Map an insight rule to a new scheduled script to define the type of insight trigger. This insight trigger activates the associated insight rule to run.
--   **[Map an insight rule to an existing scheduled job](map-existing-scheduled-job-trigger.md)**  
+-   **[Map an insight rule to an existing scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/map-existing-scheduled-job-trigger.md)**  
 Map an insight rule to an existing scheduled job to define the type of insight trigger. This insight trigger activates the associated insight rule to run.
 
-**Parent Topic:**[Create an insight rule](create-insight-rule.md)
+**Parent Topic:**[Create an insight rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-insight-rule.md)
 

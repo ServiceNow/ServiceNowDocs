@@ -2,6 +2,7 @@
 title: Create stop words
 description: Define terms to remove from search queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/create-stop-word-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -21,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-You must have already created a stop word dictionary. For information on creating stop word dictionaries, see [Create a stop word dictionary linked to a search profile](create-stop-word-dict-ais.md).
+You must have already created a stop word dictionary. For information on creating stop word dictionaries, see [Create a stop word dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-stop-word-dict-ais.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ You must have already created a stop word dictionary. For information on creatin
 
 4.  On the Dictionary Term form, fill in the fields.
 
-    For a description of the field values, see [Dictionary Term form](../reference/dictionary-term-form-ais.md).
+    For a description of the field values, see [Dictionary Term form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dictionary-term-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -46,5 +47,5 @@ You must have already created a stop word dictionary. For information on creatin
     -   To save the modified dictionary and refresh its active stop words in all linked search profiles, select **Publish**.
     -   To save the modified dictionary without refreshing its active stop words in all linked search profiles, select **Update**.
 
-**Parent Topic:**[Stop words](../concept/stop-words-ais.md)
+**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
 

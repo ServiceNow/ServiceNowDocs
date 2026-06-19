@@ -2,6 +2,7 @@
 title: Components installed with Gifts and Entertainment Compliance
 description: Several types of components are installed with installation of the Gifts and Entertainment Compliance, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-installed-with-ge.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Gifts and Entertainment Compliance, Legal Service Delive
 
 Several types of components are installed with installation of the Gifts and Entertainment Compliance, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 
@@ -94,5 +95,5 @@ Gift Policy\[sn\_lg\_gifts\_policy\_configuration\]
 Stores gifts and entertainment policy records.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Gifts and Entertainment Compliance reference](lsd-ge-reference.md)
+</table>**Parent Topic:**[Gifts and Entertainment Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-reference.md)
 

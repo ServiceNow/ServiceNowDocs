@@ -2,6 +2,7 @@
 title: Configure total rewards in HR Service Delivery Advanced Integration with Oracle HCM
 description: Complete the set up to display Oracle total rewards to employees in the configured portal in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-tr-ado.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,7 +28,7 @@ Role required: sn\_hr\_oracle\_adv.admin
 
 2.  Add the BI report path in the Oracle HCM system.
 
-    This is required for the Get Total Rewards Action to pull Oracle HCM total rewards information into the ServiceNow instance. For more information, see set up [Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-hcm.md).
+    This is required for the Get Total Rewards Action to pull Oracle HCM total rewards information into the ServiceNow instance. For more information, see set up Oracle HCM Cloud spoke.
 
 3.  Click **Submit**.
 

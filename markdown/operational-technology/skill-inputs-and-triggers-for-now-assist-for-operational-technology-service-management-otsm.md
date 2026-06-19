@@ -2,7 +2,10 @@
 title: Skill inputs and triggers for Now Assist for Operational Technology Service Management \(OTSM\)
 description: Get a quick overview of the skill inputs and triggers for Now Assist for Operational Technology Service Management \(OTSM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/skill-inputs-and-triggers-for-now-assist-for-operational-technology-service-management-otsm.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -21,7 +24,7 @@ Depending on the selected skill, you can configure the inputs or triggers. These
 
 The OT incident summarization skill includes the inputs that identify the table and fields that are used when an OT incident summary is generated.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 The following table lists the inputs for the OT incident summarization skill.
 
@@ -124,7 +127,7 @@ OT incident task
 
 The OT resolution notes generation skill includes the inputs that identify the table and fields that are used when the resolution notes are generated for an OT incident.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 The following table lists the inputs for the resolution notes generation skill.
 
@@ -160,5 +163,7 @@ Input fields
 -   OT Device
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Now Assist for Operational Technology Service Management \(OTSM\)](configuring-now-assist-otsm.md)
+</table>**Parent Topic:**[Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-overview.md)
+
+**Parent Topic:**[Configure Now Assist for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-now-assist-otsm.md)
 

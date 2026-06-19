@@ -2,6 +2,7 @@
 title: Create assignment groups
 description: Create assignment groups to allocate job requisitions efficiently among the recruiters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/create-assignment-groups-ta.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -25,7 +26,7 @@ The process of assignment might be automated or manual. It serves the following 
 
 Set up the assignment groups to view data on the recruitment dashboard in the Recruitment workspace overview page.
 
-For more information on setting up assignment groups, see [Configure assignment group types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ConfigGroupTypesForAssignGroups.md).
+For more information on setting up assignment groups, see .
 
-**Parent Topic:**[Configuring Recruitment Workspace](config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
 

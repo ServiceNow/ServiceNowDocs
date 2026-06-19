@@ -2,6 +2,7 @@
 title: Set up AWS API configuration information in ServiceNow
 description: The credentials provided by your AWS administrator are used in this procedure to create a suspension profile, enabling you to temporarily suspend or terminate AWS accounts as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configure-aws-api-key-in-servicenow.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

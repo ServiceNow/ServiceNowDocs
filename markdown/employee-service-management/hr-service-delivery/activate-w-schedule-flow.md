@@ -2,6 +2,7 @@
 title: Activating schedule flows
 description: Activate the schedule flow that interacts with Workday to pull worker profile information and tasks into a ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activate-w-schedule-flow.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -65,5 +66,5 @@ The flow is activated after all the trigger conditions are met. The schedule flo
 -   Effective workers
 -   Jobs
 
-Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Use transform maps](../reference/transform-maps-w.md).
+Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Use transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/transform-maps-w.md).
 

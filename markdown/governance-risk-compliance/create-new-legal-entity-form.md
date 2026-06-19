@@ -2,6 +2,7 @@
 title: Create New Company form
 description: On the Create New Company form, fill in the fields for the legal entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-legal-entity-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -385,5 +386,5 @@ Risk intelligence rating
 Score that reflects the probability and impact of a risk event. This field is auto-filled.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a legal entity and enhance digital resilience data](../task/create-legal-entity.md)
+</table>**Parent Topic:**[Create a legal entity and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-legal-entity.md)
 

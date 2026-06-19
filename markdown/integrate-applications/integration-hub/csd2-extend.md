@@ -2,6 +2,7 @@
 title: Extend a software lease
 description: Users of software deployed by CSD 2.0 can request the extension of a lease window, if the software is revocable by a software distribution system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-extend.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -38,18 +39,18 @@ If your software has a lease end date defined, and the software status is **Inst
 
 3.  Under **Related Links** click **Extend Lease**.
 
-    ![Requested Software form](../../integrationhub/images/ExtendLease.png "Requested Software form")
+    \[Omitted image "ExtendLease.png"\] Alt text: Requested Software form
 
 4.  In the dialog box that appears, select a new lease end date in the calendar and click **OK**.
 
     You must select a date later than the current date.
 
-    ![New Lease End Date Time dialog](../../integrationhub/images/NewLeaseEndDate.png)
+    \[Omitted image "NewLeaseEndDate.png"\] Alt text: New Lease End Date Time dialog
 
     If the lease extension is subject to manager approval, you are notified of the decision. If the request is approved, a notification shows the new lease end date. If the new end date is within 5 days \(the default notification period\) of the date when you made the request, CSD 2.0 sends an immediate end-of-lease notification.
 
     **Important:** If lease extensions in your organization require approval, make sure the approver is available and has enough time to process your extension request. If the extension cannot be approved before the original end date expires, the software is revoked.
 
 
-**Parent Topic:**[Client Software Distribution 2.0 application](../concept/csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)
 

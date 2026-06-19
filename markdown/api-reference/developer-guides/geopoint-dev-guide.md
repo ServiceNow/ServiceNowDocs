@@ -2,6 +2,7 @@
 title: GlideGeoPoint Developer Guide
 description: The GlideGeoPoint developer guide contains information about how to compute distances between latitude and longitude values \(geopoints\), return locations within given geopoint and radius values, and use additional functionality provided by supported GlideGeoPoint API functions.Use the GlideGeoPoint API to insert new records and create new geopoints.Use the getDisplayValue\(\) GlideGeoPoint API function to read all geopoint values from a specific table.Use the distance\_sphere glide function to return the distance between geopoints in meters.Use the DISTANCE\_SPHERE\_WITHIN query condition to filter for records having a geopoint value within the radius of a defined latitude, longitude point. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/geopoint-dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -15,7 +16,7 @@ breadcrumb: [Developer guides, API implementation and reference]
 
 The GlideGeoPoint developer guide contains information about how to compute distances between latitude and longitude values \(geopoints\), return locations within given geopoint and radius values, and use additional functionality provided by supported GlideGeoPoint API functions.
 
-The [Geo point field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/geo-point-field-type.md) allows you to store a latitude and longitude pair in a single field. Geopoints can be useful anytime you want to store a geographical point of interest, to ask how far a part two points of interest are from one another, or to search for all points within a certain distance from another point. For example, you can use geopoint functionality to quickly determine all of your customer's delivery locations and then adjust delivery fees based on their distance from the store.
+The  allows you to store a latitude and longitude pair in a single field. Geopoints can be useful anytime you want to store a geographical point of interest, to ask how far a part two points of interest are from one another, or to search for all points within a certain distance from another point. For example, you can use geopoint functionality to quickly determine all of your customer's delivery locations and then adjust delivery fees based on their distance from the store.
 
 Key aspects of the geotype data type are:
 
@@ -25,7 +26,7 @@ Key aspects of the geotype data type are:
 -   Geopoint values are always accepted as input and display as a comma-separated pair: “longitude,latitude”. Parentheses may optionally surround the expression.
 -   Both longitude and latitude values are stored up to 6 decimal places of precision.
 
-For more information about the geopoint data type, see [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
+For more information about the geopoint data type, see .
 
 The examples in this guide assume that a custom table, `u_geopoint`, is populated with fields `u_name` and `u_location`, where `u_name` is of type 'string' and lists the names of major cities and `u_location` is of type 'geopoint' and lists the latitude/longitude points of each city respectively.
 
@@ -33,7 +34,7 @@ The examples in this guide assume that a custom table, `u_geopoint`, is populate
 
 Use the GlideGeoPoint API to insert new records and create new geopoints.
 
-The [GlideGeoPoint - Global](../../../../app-store/dev_portal/API_reference/GlideGeoPoint/concept/GlideGeopointGlobalAPI.md#) API allows you to set and retrieve geopoint values. However, you can perform additional functionality to insert new records by setting geopoints directly in a script using string notation or a GlideGeoPoint object.
+The [GlideGeoPoint - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideGeopointGlobalAPI.md) API allows you to set and retrieve geopoint values. However, you can perform additional functionality to insert new records by setting geopoints directly in a script using string notation or a GlideGeoPoint object.
 
 -   **Inserting a new record using string notation.**
 
@@ -74,7 +75,7 @@ The [GlideGeoPoint - Global](../../../../app-store/dev_portal/API_reference/Glid
 
 Use the getDisplayValue\(\) GlideGeoPoint API function to read all geopoint values from a specific table.
 
-The standard GlideGeoPoint API allows you to retrieve a geopoint value via the [GlideGeoPoint - getDisplayValue\(\)](../../../../app-store/dev_portal/API_reference/GlideGeoPoint/concept/GlideGeopointGlobalAPI.md#) function. However, it is possible to read all geopoints defined in an entire table. The following example script demonstrates how to use the getDisplayValue\(\) function to retrieve all records from the `u_geopoint` table, which includes the `u_location` field of type 'geopoint'. You can this example script and adjust it to your own specific use case.
+The standard GlideGeoPoint API allows you to retrieve a geopoint value via the [GlideGeoPoint - getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideGeopointGlobalAPI.md) function. However, it is possible to read all geopoints defined in an entire table. The following example script demonstrates how to use the getDisplayValue\(\) function to retrieve all records from the `u_geopoint` table, which includes the `u_location` field of type 'geopoint'. You can this example script and adjust it to your own specific use case.
 
 **Note:** GlideGeoPoint API values are always listed in longitude, latitude order.
 

@@ -2,6 +2,7 @@
 title: Configure activity patterns for Self-Service Analytics
 description: Configure an activity pattern to combine the pattern element, pattern element group, or both for a user entity and link them to an outcome.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/configure-activity-pattern.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ Configure an activity pattern to combine the pattern element, pattern element gr
 
 ## Before you begin
 
-[Configure pattern element groups for Self-Service Analytics](configure-pattern-element-group.md).
+[Configure pattern element groups for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-pattern-element-group.md).
 
 Role required: sn\_ssa\_core.self\_service\_manager
 
@@ -106,7 +107,7 @@ Domain in which the activities records exist.
 
     -   To use an existing element, select an element, modify the fields and click **Update**.
     -   To create another pattern element or pattern element group, click **New** and select the type of element, fill in the fields on the form, and then click **Submit**.
-    An element can be a pattern element or pattern element group. For more information, see [Configure pattern elements for Self-Service Analytics](configure-pattern-element.md) and [Configure pattern element groups for Self-Service Analytics](configure-pattern-element-group.md).
+    An element can be a pattern element or pattern element group. For more information, see [Configure pattern elements for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-pattern-element.md) and [Configure pattern element groups for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-pattern-element-group.md).
 
     In the **Order** column, the following conditions apply:
 
@@ -118,7 +119,7 @@ Domain in which the activities records exist.
 
 ## What to do next
 
-[Set up the deflection configuration for Self-Service Analytics](configure-deflection-ssa.md).
+[Set up the deflection configuration for Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-deflection-ssa.md).
 
-**Parent Topic:**[Configure Self-Service Analytics](config-ssa.md)
+**Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/config-ssa.md)
 

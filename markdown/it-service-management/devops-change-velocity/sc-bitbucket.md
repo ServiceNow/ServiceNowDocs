@@ -2,6 +2,7 @@
 title: Onboard Bitbucket to DevOps Change Velocity — Service Catalog
 description: Create, connect, discover, and configure your Bitbucket instance using the ServiceNow Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/sc-bitbucket.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -73,7 +74,7 @@ Select the credential type as one of the following:-   Basic Auth
 -   Access Token
 -   OAuth 2.0 - Authorization Code
 -   Oauth 2.0 - Client Credentials
- For more information, see [Bitbucket integration with DevOps Change Velocity](../concept/bitbucket-integration-dev-ops.md).
+ For more information, see [Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +85,7 @@ Use MidServer
 Optional. Select  MID Server for an on-premises tool that is attached to a  MID Server. Application is automatically set to  DevOps and capability is set to REST.
 
 </td></tr></tbody>
-</table>    For a list of all the permissions required on the credentials for connecting to Bitbucket, see Bitbucket permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>    For a list of all the permissions required on the credentials for connecting to Bitbucket, see Bitbucket permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
 
 5.  Select **Order Now**.
 
@@ -164,5 +165,5 @@ Leave empty.
     A request is created. When the request is approved, the repository objects are associated to the app record and webhooks are configured for real-time tracking. Historical data is imported for the selected repositories. The **Track** field is automatically enabled for imported repositories.
 
 
-**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](../concept/bitbucket-integration-dev-ops.md)
+**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md)
 

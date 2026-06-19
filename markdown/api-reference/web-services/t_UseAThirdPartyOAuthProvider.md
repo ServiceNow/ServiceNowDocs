@@ -2,6 +2,7 @@
 title: Use a third-party OAuth provider
 description: Each client application must register with the instance to participate in OAuth authorization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_UseAThirdPartyOAuthProvider.html
 release: australia
 product: Web Services
 classification: web-services
@@ -69,7 +70,7 @@ OAuth API Script
 
 </td><td>
 
-This option enables you to reference an amended OAuthUtil script include. Copy and rename the default OAuthUtil script include file, and then amend this version for specific requests and responses to match your 3rd party OAuth provider. The amended script name must have the prefix **OAuth**. See [OAuthUtil](../../../app-store/dev_portal/API_reference/OAuthUtil/concept/c_OAuthUtilScriptInclude.md#) to add the required body parameter in the proper method.
+This option enables you to reference an amended OAuthUtil script include. Copy and rename the default OAuthUtil script include file, and then amend this version for specific requests and responses to match your 3rd party OAuth provider. The amended script name must have the prefix **OAuth**. See [OAuthUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_OAuthUtilScriptInclude.md) to add the required body parameter in the proper method.
 
 </td></tr><tr><td>
 
@@ -167,7 +168,7 @@ OAuth Entity Profiles
 
 </td><td>
 
-The profiles that are associated with the OAuth provider. The profile includes the grant type. Click the profile name to go to [the OAuth Entity Profile form](t_SpecifyAnOAuthProfile.md).
+The profiles that are associated with the OAuth provider. The profile includes the grant type. Click the profile name to go to [the OAuth Entity Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md).
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ OAuth Entity Scopes
 
 </td><td>
 
-The entity scopes associated with the OAuth provider. The scope identifies the services the application has access to. Click the scope name to go to [the OAuth Entity Scope form](t_SpecifyAnOAuthScope.md).
+The entity scopes associated with the OAuth provider. The scope identifies the services the application has access to. Click the scope name to go to [the OAuth Entity Scope form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthScope.md).
 
 </td></tr></tbody>
 </table>3.  Click **Submit**. The record is saved in the Application Registries \[oauth\_entity\] table.
@@ -185,10 +186,10 @@ The entity scopes associated with the OAuth provider. The scope identifies the s
 
 ## What to do next
 
-You can [create additional profiles](t_SpecifyAnOAuthProfile.md), each with scopes.
+You can [create additional profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md), each with scopes.
 
--   **[OAuth profiles and scopes](../concept/c_OAuthProviderAndScope.md)**  
+-   **[OAuth profiles and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuthProviderAndScope.md)**  
 In the OAuth provider scenario, profiles and scopes specify the grant type, authorization type, and level of access.
 
-**Parent Topic:**[Configure a REST message with OAuth](../../../integrate/outbound-rest/task/t_ConfigureARESTMessageWithOAuth.md)
+**Parent Topic:**[Configure a REST message with OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfigureARESTMessageWithOAuth.md)
 

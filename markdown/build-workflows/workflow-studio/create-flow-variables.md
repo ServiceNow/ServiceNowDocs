@@ -2,6 +2,7 @@
 title: Create a flow variable
 description: Create a flow variable to store and retrieve a value throughout a flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-variables.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,13 +28,13 @@ Role required: flow\_designer or admin
 
 3.  On the Flow Properties form, fill in the fields.
 
-    For more information, see [Create a flow in Workflow Studio](create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
 4.  Click **Submit**.
 
-5.  Click the more actions icon \(![More actions menu](../images/more-actions-menu-icon.png)\) and select **Flow Variables**.
+5.  Click the more actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu\) and select **Flow Variables**.
 
-6.  In the upper-right side of the Flow Variables form, click the plus icon \(![Plus icon.](../../../build/app-engine-studio/image/plus-icon.png)\) to create a variable.
+6.  In the upper-right side of the Flow Variables form, click the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: Plus icon.\) to create a variable.
 
 7.  On the form, fill in the fields.
 
@@ -52,7 +53,7 @@ The Data panel displays the variable in the Flow Variables section. It appears a
 
 ## What to do next
 
-To assign a value to the variable, use the [Set Flow Variables flow logic](../concept/flow-logic-set-flow-variables.md). If you don't assign a value, the default value is null.
+To assign a value to the variable, use the [Set Flow Variables flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-logic-set-flow-variables.md). If you don't assign a value, the default value is null.
 
-**Parent Topic:**[Flow variables](../concept/flow-variables.md)
+**Parent Topic:**[Flow variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-variables.md)
 

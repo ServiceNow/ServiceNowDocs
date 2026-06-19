@@ -2,7 +2,10 @@
 title: Accept a live chat from a requester
 description: Automatically create an incident by accepting a live chat or phone call from a requester.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/accept-chat-ai-native-itsm.html
 release: australia
+product: IT Service Management
+classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -29,14 +32,14 @@ Role required: sn\_service\_desk\_agent
 
     **Note:** You must have both **Chat** and **Incident** check boxes selected to accept an incoming chat.
 
-    ![AI native Inbox availability setting.](../image/inbox-chat-ai-native-itsm.png)
+    \[Omitted image "inbox-chat-ai-native-itsm.png"\] Alt text: AI native Inbox availability setting.
 
 3.  Select **Accept** to accept the incoming chat.
 
     An incident is created and shown in the incident view, which consists of two panes.
 
     -   Chat and Details pane:
-        -   Chat tab.![](../image/chat-incident-ai-native-itsm.png)
+        -   Chat tab.\[Omitted image "chat-incident-ai-native-itsm.png"\] Alt text:
         -   Details tab: Includes all the details regarding the requester in addition to links to related incidents, assigned assets, attachments, and templates.
     -   Overview and Related records pane.
 4.  On the incident form, update the short description for the incident, and select the **Save** menu option from the More Options button.
@@ -54,7 +57,7 @@ Role required: sn\_service\_desk\_agent
 
 ## Incident created without an associated chat \(for example, using Employee Center portal or email\)
 
-![Ai native incident form with no chat panel.](../image/incident-ai-native-itsm.png)
+\[Omitted image "incident-ai-native-itsm.png"\] Alt text: Ai native incident form with no chat panel.
 
-**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](../concept/fulfiller-experience-ai-native-itsm.md)
+**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)
 

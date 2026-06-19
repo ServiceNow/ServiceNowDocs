@@ -2,6 +2,7 @@
 title: Viewing tasks or events on the calendar
 description: Dispatchers can view any task on the calendar to navigate to the scheduled time and date of the task they chose.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/view-task-calendar.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

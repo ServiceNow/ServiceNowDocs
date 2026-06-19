@@ -2,6 +2,7 @@
 title: Create equipment model level types
 description: Create granular level types within each equipment model template level that you created. The granular level types that you create within that level describe the type of production processes within it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-equipment-model-template-type.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -50,5 +51,5 @@ You can create types that represent the different types of locations, areas, or 
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Defining equipment model templates](../concept/defining-equipment-model-templates.md)
+**Parent Topic:**[Defining equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/defining-equipment-model-templates.md)
 

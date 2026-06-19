@@ -2,6 +2,7 @@
 title: Set up third-party contacts
 description: Set up your third-party contacts so that you can send assessments, address issues, and communicate any additional required information with these contacts using Third-party Risk Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-tp-contact-config.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -40,7 +41,7 @@ Third-party contacts are external users at the third-party organization. They us
             **Note:** The questionnaires, document requests, and issues that are currently assigned to the contact are listed in the associated tab.
 
         -   If you don't have the admin role, ask a user who does to verify that the vendor\_contact role appears for the user on the Roles related list. If the user with the admin role can't see the Roles related list, they have to go to step 4. If the user with the admin role can't see the vendor\_contact role listed for the user, they have to go to step 5.
-        **Note:** For more information on managing third-party contacts, see [Manage the access for your third-party contacts](../../grc-vendor-risk/task/tprm-manage-tp-contact.md).
+        **Note:** For more information on managing third-party contacts, see [Manage the access for your third-party contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-manage-tp-contact.md).
 
     -   To add a contact, select **New** and continue with the following steps.
     **Note:** It’s normal for a contact to have the snc\_external role because the vendor\_contact role includes it.
@@ -110,15 +111,15 @@ Third-party contact who can directly answer assessment questions or assign anoth
 
     1.  Add the Roles related list by selecting the actions icon and selecting **Configure** &gt; **Related Lists**.
 
-        ![Adding a related list to the form.](../image/vrm-vendor-contact-menu.png)
+        \[Omitted image "vrm-vendor-contact-menu.png"\] Alt text: Adding a related list to the form.
 
     2.  Move the Roles related list to the Selected list and then select **Save**.
 
-        ![Adding the Roles heading to the related list.](../image/vrm-vendor-contact-form.png)
+        \[Omitted image "vrm-vendor-contact-form.png"\] Alt text: Adding the Roles heading to the related list.
 
 5.  Grant third-party contacts access to the third-party portal by selecting **Edit** and adding **vendor\_contact** to the Roles list.
 
-    ![Assigning the vendor_contact role to a third-party contact.](../image/vrm_add_vendor_contact_role.png)
+    \[Omitted image "vrm\_add\_vendor\_contact\_role.png"\] Alt text: Assigning the vendor\_contact role to a third-party contact.
 
     **Warning:** If the user has other roles, such as snc\_internal, then the user might also be able to log in to your platform and have visibility into critical records.
 

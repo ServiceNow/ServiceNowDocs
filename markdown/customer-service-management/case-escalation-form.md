@@ -2,11 +2,14 @@
 title: Case and account escalation form
 description: Customer service agents use the Escalation form to manage escalations for cases and accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-escalation-form.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Case and account escalation, Administer, Customer Service Management]
+breadcrumb: [Case and account escalation, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case and account escalation form

@@ -2,6 +2,7 @@
 title: Configure the IP address deny list
 description: Prevent an IP address in your network from sending requests to your instance
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/deny-list-IPs.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -88,5 +89,5 @@ Description of the deny list record.
 
 The Edge Encryption proxy server terminates any connection from IP addresses, ranges, or network masks on the deny list and cannot forward the request to the instance.
 
-**Parent Topic:**[Configuring Edge Encryption](../concept/edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md)
 

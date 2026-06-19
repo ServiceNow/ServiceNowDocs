@@ -2,6 +2,7 @@
 title: Apply Reflow to playbook components
 description: Apply reflow to out-of-the-box standalone and custom layout Playbook Experience components so that the UI adjusts when you resize your window o r zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/apply-reflow-playbook-components.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

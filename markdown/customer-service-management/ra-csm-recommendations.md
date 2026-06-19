@@ -2,7 +2,10 @@
 title: Recommendations in Recommended Actions
 description: A recommendation is a way to suggest a helpful action to an agent. A recommendation includes the action and any relevant resources and inputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-recommendations.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -23,7 +26,7 @@ There are three types of recommendations that are provided to agents:
 
 When you create a recommendation, you can select the type from the New Recommendation screen. This screen lists the available types.
 
-![New Recommendation screen that presents available recommendation types.](../image/ra-new-recommendation-screen.png)
+\[Omitted image "ra-new-recommendation-screen.png"\] Alt text: New Recommendation screen that presents available recommendation types.
 
 Selecting a type on the New Recommendation screen takes you to the Recommendation form. The selected type is added to the **Action type** field on the Recommendation form.
 
@@ -35,7 +38,7 @@ When you create a recommendation, you select an action type and an action. The n
 
 When you create a recommendation, provide this information and save the record. After saving, you can see the Action inputs form section. Inputs are parameters that go into an action and enable agents to complete that action. You can select relevant inputs manually, from the context record, context inputs,or from the resource generator.
 
-You can access the recommendation records by navigating to **All** &gt; **Recommended Actions** &gt; **Recommendations**. New recommendations can be created only inside the rules. For more information, see [Create a recommendation](../task/ra-csm-recommendations-create.md).
+You can access the recommendation records by navigating to **All** &gt; **Recommended Actions** &gt; **Recommendations**. New recommendations can be created only inside the rules. For more information, see [Create a recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-recommendations-create.md).
 
 <table id="table_ic2_qzz_ztb"><thead><tr><th>
 

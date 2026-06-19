@@ -2,6 +2,7 @@
 title: Network ping default checks and policies
 description: Agent Client Collector provides the following default checks and policies for Network ping monitoring. Policies and checks are available for both Windows and Linux.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/network-ping-checks-policies.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -76,5 +77,5 @@ c7inc0047383.ping.packets_transmitted 5 1675923886
  **Note:** Windows does not support the **ping.time** and **ping.mdev** metrics.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

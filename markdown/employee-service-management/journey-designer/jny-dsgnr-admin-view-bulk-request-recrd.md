@@ -2,6 +2,7 @@
 title: View Journey designer bulk request task records
 description: View bulk update records to determine if updates were successful or failed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-admin-view-bulk-request-recrd.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -42,5 +43,5 @@ Role required: sn\_jny.admin
     Links that are selectable lead to additional information for the listed column.
 
 
-**Parent Topic:**[Manage Journey designer bulk updates for tasks](../concept/jny-dsgnr-bulk-update-admnstrtn.md)
+**Parent Topic:**[Manage Journey designer bulk updates for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-bulk-update-admnstrtn.md)
 

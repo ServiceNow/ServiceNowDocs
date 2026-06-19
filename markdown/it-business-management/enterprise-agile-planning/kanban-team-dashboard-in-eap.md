@@ -2,6 +2,7 @@
 title: Kanban Team dashboard in EAP
 description: The Kanban Team Dashboard in EAP provides the work item status and progress metrics for the Agile teams following the Kanban configuration in the Enterprise Agile Planning \(EAP\) workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/kanban-team-dashboard-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -15,7 +16,7 @@ breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planni
 
 The Kanban Team Dashboard in EAP provides the work item status and progress metrics for the Agile teams following the Kanban configuration in the Enterprise Agile Planning \(EAP\) workspace.
 
-![Kanban team dashboard in Enterprise Agile Planning Workspace.](../images/eap-dashboard-kanban-team.png)
+\[Omitted image "eap-dashboard-kanban-team.png"\] Alt text: Kanban team dashboard in Enterprise Agile Planning Workspace.
 
 ## Required EAP roles
 
@@ -79,7 +80,7 @@ Total stories
 
 Single Score
 
-![Total stories.](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+\[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text: Total stories.
 
 </td><td>
 
@@ -97,7 +98,7 @@ Total story points
 
 Single Score
 
-![Total story points.](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+\[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text: Total story points.
 
 </td><td>
 
@@ -115,7 +116,7 @@ Blocked stories
 
 Single Score
 
-![Blocked stories.](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+\[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text: Blocked stories.
 
 </td><td>
 
@@ -133,7 +134,7 @@ Stories missing estimates
 
 Single Score
 
-![Stories missing estimates.](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+\[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text: Stories missing estimates.
 
 </td><td>
 
@@ -151,7 +152,7 @@ Stories by state
 
 Bar graph
 
-![Stories by state.](../../../use/reporting/image/inline-data-vis-bar-column.png)
+\[Omitted image "inline-data-vis-bar-column.png"\] Alt text: Stories by state.
 
 </td><td>
 

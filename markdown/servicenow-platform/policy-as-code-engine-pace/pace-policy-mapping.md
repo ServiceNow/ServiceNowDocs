@@ -2,6 +2,7 @@
 title: PaCE Static and Dynamic Mapping
 description: Static Mapping enables you to map a set of policies to a record or object such as an incident or deployable. Dynamic Mapping enables you to map a set of policies on a dynamic set of records or objects such as a set of incidents or a set of deployables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-policy-mapping.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

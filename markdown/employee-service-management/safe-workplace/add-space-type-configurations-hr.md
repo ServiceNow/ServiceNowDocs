@@ -2,6 +2,7 @@
 title: Add a space type configuration
 description: Configure the different types of workspaces available in a workplace. You can add spaces based on different space types \(Workspace/Desk\). Space type enables employee to identify the different types of workspace available on a floor
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/add-space-type-configurations-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -45,5 +46,5 @@ Role required:sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
 The space type is configured. You can select this space type while creating a space or a type mapping.
 
-**Parent Topic:**[Providing your workplace data](../concept/providing-your-workplace-data.md)
+**Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/providing-your-workplace-data.md)
 

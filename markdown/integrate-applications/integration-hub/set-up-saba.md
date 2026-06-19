@@ -2,6 +2,7 @@
 title: Set up Saba spoke
 description: Integrate your Saba application with your ServiceNow instance. Register an OAuth application in Saba and authenticate requests from a ServiceNow instance.Use the information generated during the Saba application creation and configuration to register Saba as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create connection records to your Saba application. The Saba spoke connection and credential alias uses these connections to perform actions in Saba.Authorize the Saba spoke actions by creating credential records for the application registered in Saba. The Saba spoke connection and credential alias uses these credentials to authorize actions.Integrate the ServiceNow instance and Saba instance by using the basic Auth credentials to authenticate ServiceNow requests.Create a record to provide details and credentials of the required Saba user. The Saba spoke uses these user credentials to perform actions in Saba.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-saba.html
 release: australia
 product: Integration Hub
 classification: integration-hub

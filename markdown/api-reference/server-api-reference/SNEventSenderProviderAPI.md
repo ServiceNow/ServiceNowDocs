@@ -2,6 +2,7 @@
 title: SNEventSenderProvider - Global
 description: The SNEventSenderProvider API provides a method to instantiate an IEventSender instance.Returns an IEventSender object to use to send events from a MID Server to a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SNEventSenderProviderAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,13 +18,13 @@ The SNEventSenderProvider API provides a method to instantiate an IEventSender i
 
 Use this API when writing scripts that will run on MID Servers to instantiate the object to send an event to your ServiceNow instance.
 
-Use the [IEventSender](../../IEventSender/concept/IEventSenderAPI.md#) API to send the event to the ServiceNow instance. Use the [Event](../../Event/concept/EventAPI.md#) API to add/update fields within an event.
+Use the [IEventSender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/IEventSenderAPI.md) API to send the event to the ServiceNow instance. Use the [Event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/EventAPI.md) API to add/update fields within an event.
 
 You must activate the Event Management \(com.glideapp.itom.snac\) plugin before attempting to access this API. The Event Management plugin requires a separate subscription and must be activated. This plugin includes demo data and activates related plugins if they are not already active.
 
-For additional information on event management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md).
+For additional information on event management, see Event Management.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## EventSender - getEventSender\(\)
 

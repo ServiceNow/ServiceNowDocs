@@ -2,6 +2,7 @@
 title: Define priority lookup rules for Problem Management in Service Operations Workspace
 description: Define the impact and urgency of the problem to calculate its priority. Use the priority calculation to prioritize your work and to drive service level agreements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/define-priority-lookup-problem-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -27,6 +28,6 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For more information about the available fields, see [Data lookup for prioritizing problems](../../problem-management/concept/prioritise-problems.md).
+    For more information about the available fields, see [Data lookup for prioritizing problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/prioritise-problems.md).
 
 

@@ -2,7 +2,10 @@
 title: Chat Setup configuration form
 description: Description of the Chat setup configuration form fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/em-advanced-chat-setup.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -67,7 +70,7 @@ Agent Whisper
 
 </td><td>
 
-Option to enable Agent Whisper, which enables agents to message supervisors without the requester knowing.For more information, see [Agent Whisper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-whisper.md).
+Option to enable Agent Whisper, which enables agents to message supervisors without the requester knowing.For more information, see .
 
 </td></tr><tr><td>
 
@@ -75,7 +78,7 @@ Emoji Enabled
 
 </td><td>
 
-Option to enable the ability to include emojis in Agent Chat. For more information, see [Using emojis in Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-using.md).
+Option to enable the ability to include emojis in Agent Chat. For more information, see Using emojis in Agent Chat.
 
 </td></tr><tr><td>
 

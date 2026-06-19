@@ -2,6 +2,7 @@
 title: Perform an advanced activity configuration
 description: Configure activities to display their count and to display items in a list for a primary activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-my-activity.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: admin, sp\_admin, or ESC admin
 
 3.  On the form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Activity Configuration form](../reference/ec-activity-configuration-form.md).
+    For more information about the form fields and descriptions, see [Activity Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-activity-configuration-form.md).
 
 4.  Select the **Advanced** option.
 
@@ -48,5 +49,5 @@ Role required: admin, sp\_admin, or ESC admin
 
 ## What to do next
 
-If you click **Save**, the **Activity Access** tab appears. For more information, see [Restrict access to an activity](grant-restrict-activity-access.md).
+If you click **Save**, the **Activity Access** tab appears. For more information, see [Restrict access to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/grant-restrict-activity-access.md).
 

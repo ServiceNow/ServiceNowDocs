@@ -2,6 +2,7 @@
 title: Create a Salesforce CRM integration
 description: Integrate your ServiceNow instance with the Salesforce customer relationship management \(CRM\) services to track your software subscriptions and to reclaim unused licenses by using the guided walk-through playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/playbook-salesforce-crm.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -35,7 +36,7 @@ Role required: Salesforce admin, sam\_admin
 
 4.  Register the Salesforce application through the Salesforce admin portal.
 
-    For more information, see [Register a Salesforce application](../concept/integrate-with-salesforce-crm.md#).
+    For more information, see [Register a Salesforce application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-salesforce-crm.md).
 
     1.  Select **Register a Salesforce application** in the side pane.
 
@@ -67,7 +68,7 @@ Role required: Salesforce admin, sam\_admin
 
     1.  Select **Connection and credential** in the left pane.
 
-    2.  Open the connection &amp; credential aliases record by selecting the preview icon ![](../image/preview-icon.png) next to the **Connection &amp; Credential** field.
+    2.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field.
 
     3.  Select **Continue**.
 
@@ -139,7 +140,7 @@ OAuth Redirect URL
 
 </td><td>
 
-URL of the OAuth provider that users are redirected to after authentication. This is generally the URL of the ServiceNow instance that you specified while registering a Salesforce application in [Step 4](playbook-salesforce-crm.md#step4).
+URL of the OAuth provider that users are redirected to after authentication. This is generally the URL of the ServiceNow instance that you specified while registering a Salesforce application in [Step 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/playbook-salesforce-crm.md).
 
 </td></tr></tbody>
 </table>    6.  Select **Create and Get OAuth Token**.
@@ -164,7 +165,7 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
     1.  Select **Connect to additional Salesforce org \(Optional\)** in the left pane.
 
-    2.  Open the connection &amp; credential aliases record by selecting the preview icon ![](../image/preview-icon.png) next to the **Connection &amp; Credential** field.
+    2.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field.
 
         The display redirects to the ServiceNow Classic interface where you can configure the child alias.
 
@@ -188,13 +189,13 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
     2.  Review the details of the integration profile.
 
-    3.  In the Connection &amp; Credential field, select the preview icon ![](../image/preview-icon.png) to locate and select the child alias that you created in [Step 7](playbook-salesforce-crm.md#step-7).
+    3.  In the Connection &amp; Credential field, select the preview icon \[Omitted image "preview-icon.png"\] to locate and select the child alias that you created in [Step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/playbook-salesforce-crm.md).
 
         Selecting the child alias associates the additional integration profile with the child alias. Your ServiceNow instance uses this alias to identify the connection and credentials for this integration profile.
 
     4.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
 
-        **Note:** For more information, see [Minimal user permissions](../concept/integrate-with-workfront.md#) table.
+        **Note:** For more information, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-workfront.md) table.
 
         1.  In the Download Subscription Subflow section, verify that the **Subflow** field is set to **Salesforce CRM Download Subscriptions**.
 
@@ -217,5 +218,5 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
 After the integration is published successfully, you’re redirected to the record page. You can view the details of the integration profile, associated software models, triggered scheduled jobs, scheduled job results, and unrecognized subscription identifier.
 
-**Parent Topic:**[Playbook for SaaS integrations](../concept/playbook-saas-integrations.md)
+**Parent Topic:**[Playbook for SaaS integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/playbook-saas-integrations.md)
 

@@ -2,13 +2,14 @@
 title: Create single or multiple providers with Microsoft Exchange On-Premises
 description: Configure single or multiple providers to the Microsoft Exchange On-Premises calendar provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/create-multi-provider-connection-with-onprem.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Microsoft Exchange On-Premises - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Microsoft Exchange On-Premises - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create single or multiple providers with Microsoft Exchange On-Premises
@@ -17,7 +18,7 @@ Configure single or multiple providers to the Microsoft Exchange On-Premises cal
 
 ## Before you begin
 
-[Connect Microsoft Exchange On-Premises MID server with ServiceNow](connect-on-premise-mid-server-with-servicenow.md)
+[Connect Microsoft Exchange On-Premises MID server with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/connect-on-premise-mid-server-with-servicenow.md)
 
 Role required: admin
 

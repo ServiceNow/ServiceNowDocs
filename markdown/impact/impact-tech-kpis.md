@@ -2,11 +2,12 @@
 title: Diagnose with tech KPIs
 description: Tech Key Performance Indicators\(KPIs\) show how closely you're aligned to ServiceNow technical leading practices, offer recommendations for improvement, and help you monitor your instance health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/impact-tech-kpis.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [HealthScan, Platform Health, Using Impact, Impact]
+breadcrumb: [HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Diagnose with tech KPIs
@@ -30,13 +31,22 @@ Tech KPIs empowers you with a easy to use visualizations of your organizations t
 
 ## Monitor
 
-As a benefit of Advanced and Total packages, Impact delivers a daily performance summary of how your instances are doing. You can dive deeper into performance details using Instance Observer, which is supported on all Impact packages, pulling real-time metrics and set up performance alerts. See [Monitoring instance health with Instance Observer](io-overview.md) for more information.
+As a benefit of Advanced and Total packages, Impact delivers a daily performance summary of how your instances are doing. You can dive deeper into performance details using Instance Observer, which is supported on all Impact packages, pulling real-time metrics and set up performance alerts. See [Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md) for more information.
 
 ## Support
 
 Get a dashboard view of your company's cases, case response time, case trends, and changes. You can view specific details on changes or cases in Now Support.
 
-![Cases and trends charts](../image/platform-health-charts.png)
+\[Omitted image "platform-health-charts.png"\] Alt text: Cases and trends charts
 
-Receive developer support to help troubleshoot custom code and configurations. View the consumption report to see named contacts who can request developer support. See [Impact Developer Support](developer-support.md) for more information.
+Receive developer support to help troubleshoot custom code and configurations. View the consumption report to see named contacts who can request developer support. See [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md) for more information.
+
+-   **[Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/health-assessment-dashboard.md)**  
+View detailed Health Assessment results closer collaboration with the Impact squad to prioritize, review, and address best practice platform health findings.​
+-   **[Monthly Health Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/monthly-health-assessment.md)**  
+The Monthly Health Assessment feature provides Impact Guided customers with a self-service capability that automates Health Assessment scans and reports to provide details that can help you to improve the health of your ServiceNow platform implementation.
+-   **[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/healthscan-definitions.md)**  
+Some HealthScan definitions are deprecated or updated between releases.
+
+**Parent Topic:**[HealthScan for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/healthscan.md)
 

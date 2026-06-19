@@ -2,11 +2,12 @@
 title: PowerShell log property
 description: Enable debug messages to display from PowerShell.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/powershell-log-property.html
 release: australia
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [MID Servers for Orchestration, Classic Orchestration, Workflow Data Fabric]
 ---
@@ -33,11 +34,11 @@ The new MID Server PowerShell log property:
 
 If the property is set to true, debug messages display from the workflow context or from the Response popup after you test inputs. The ecc\_queue entry payload for each of the PowerShell activities is going to show all the debug messages that were logged.
 
-![powershell log response](../image/response-debug-message.png)
+\[Omitted image "response-debug-message.png"\] Alt text: powershell log response
 
 Enable the PowerShell log property for each MID Server. If the MID Server field is empty, the property applies to all MID Servers. There are separate credential debug messages that always come back regardless of this setting. The credential debug messages show which credentials have been used and other related information.
 
 **Note:** All the debug messages that come back to the instance are also saved to the MID Server log file. The log file might have additional debug messages generated from Java code, which might help the debug process.
 
-**Parent Topic:**[MID Servers for Orchestration](../../orchestration/concept/c_OrchestrationMID.md)
+**Parent Topic:**[MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationMID.md)
 

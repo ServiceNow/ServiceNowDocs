@@ -2,11 +2,12 @@
 title: Password Reset
 description: The ServiceNow Password Reset application enforces strong and secure passwords by enabling end users to reset or change their passwords either by using the self-service process or by requesting the assistance of a service desk agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/password-reset-landing-page.html
 release: australia
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,8 +15,6 @@ breadcrumb: [Manage service capabilities, Extend ServiceNow AI Platform capabili
 # Password Reset
 
 The ServiceNow® Password Reset application enforces strong and secure passwords by enabling end users to reset or change their passwords either by using the self-service process or by requesting the assistance of a service desk agent.
-
-Overview of the ServiceNow Password Reset application, as well as the Password Reset for Virtual Agent, Password Reset Windows Application, and Password Reset Interactive voice response \(IVR\).
 
 ## Password Reset for Virtual Agent
 
@@ -29,19 +28,19 @@ The Password Reset Windows Application enables a user, who forgets the password 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Password Reset concepts and features.](../concept/exploring-password-reset.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about Password Reset concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/exploring-password-reset.md)
 
 </td><td>
 
-[Set up and configure![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Set up and configure Password Reset for your users.](../concept/password-reset-admin-guide.md)
+[Set up and configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Set up and configure Password Reset for your users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-admin-guide.md)
 
 </td></tr><tr><td>
 
-[Enroll for Password Reset![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Enroll for Password Reset.](../concept/c_EnrollInPasswordReset.md)
+[Enroll for Password Reset\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Enroll for Password Reset.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields and properties.](password-reset-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-reference.md)
 
 </td></tr></tbody>
 </table>

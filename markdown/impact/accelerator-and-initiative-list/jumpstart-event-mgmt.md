@@ -2,6 +2,7 @@
 title: Jumpstart Your Event Management
 description: The Jumpstart Your Event Management Accelerator provides a demonstration of the possibilities and capabilities of Event Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-event-mgmt.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,9 +18,11 @@ The Jumpstart Your Event Management Accelerator provides a demonstration of the 
 
 ## Accelerator overview
 
-Jumpstart Your Event Management provides Impact customers with a comprehensive overview of Event Management. Through an applied demonstration, we highlight how you can leverage the power of the ServiceNow Configuration Management Database \(CMDB\) to receive and review near real-time alerts from your infrastructure directly within the ServiceNow platform. This offering equips our customers with essential ServiceNow resources and leading practice guides on  how to get started with Event Management. See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md) for additional information about the feature.
+Jumpstart Your Event Management provides Impact customers with a comprehensive overview of Event Management. Through an applied demonstration, we highlight how you can leverage the power of the ServiceNow Configuration Management Database \(CMDB\) to receive and review near real-time alerts from your infrastructure directly within the ServiceNow platform. This offering equips our customers with essential ServiceNow resources and leading practice guides on  how to get started with Event Management. See  for additional information about the feature.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

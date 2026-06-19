@@ -2,6 +2,7 @@
 title: Create an XML data source to another instance
 description: Data sources are used to create an import set so that data can be processed, if necessary, prior to being mapped onto a production table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_CreateADataSource.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -52,9 +53,9 @@ Role required: admin.
     **Note:** The 20 loaded records can't be transformed and are for testing purposes only.
 
 
-**Parent Topic:**[Using XML import sets](../concept/c_XMLImportSets.md)
+**Parent Topic:**[Using XML import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_XMLImportSets.md)
 
-**Previous topic:**[Using XML import sets](../concept/c_XMLImportSets.md)
+**Previous topic:**[Using XML import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_XMLImportSets.md)
 
-**Next topic:**[Create a transform map](t_CreateATransformMap.md)
+**Next topic:**[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md)
 

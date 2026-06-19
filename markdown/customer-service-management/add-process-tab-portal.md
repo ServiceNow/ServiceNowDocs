@@ -2,7 +2,10 @@
 title: Add the Process tab to the portal
 description: Add a Process tab to the CSM ticket page so that users can track the playbook process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-process-tab-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -27,7 +30,7 @@ Role required: admin
 
 4.  In the **Tab Configuration** form, fill in the fields as follows.
 
-    ![New tab configuration form](../image/tab-config.png "Tab Configuration form")
+    \[Omitted image "tab-config.png"\] Alt text: New tab configuration form
 
 <table id="table_mpx_lrs_1fc"><thead><tr><th>
 

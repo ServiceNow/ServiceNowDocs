@@ -2,6 +2,7 @@
 title: Set up the Cisco Webex Teams spoke
 description: Integrate the ServiceNow instance and Cisco Webex Teams by creating a custom OAuth application in Cisco Webex Teams or using the custom Cisco Webex Credentials to authenticate ServiceNow requests.Use the information generated during the Cisco Webex Teams application configuration to register Cisco Webex Teams as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.Create a credential record for the Cisco Webex Teams account. The Cisco Webex Teams Spoke connection and credential alias uses these credentials to authorize actions.Create a credential record for the Cisco Webex Teams account. The Cisco Webex Teams Spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Specify whether the record is for a host, instance, custom application, or account.. The Visa spoke connection and credential aliases use these connections to perform actions in .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-cisco-teams.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -185,7 +186,7 @@ Option to use mutual authentication for token request and revocation. This optio
 
 ### What to do next
 
-Ensure that the OAuth entity profile has these permissions:![OAuth entity profile scopes.](../image/cisco-teams-entity-profiles.png)
+Ensure that the OAuth entity profile has these permissions:\[Omitted image "cisco-teams-entity-profiles.png"\] Alt text: OAuth entity profile scopes.
 
 ## Create a OAuth credential record for the Cisco Webex Teams Spoke
 
@@ -235,13 +236,13 @@ Role required: admin.
 
 2.  Open the **CiscoWebexTeams** record.
 
-    ![Cisco Teams Webex connection and credential alias](../image/cisco_webex_teams_conn-credential.png)
+    \[Omitted image "cisco\_webex\_teams\_conn-credential.png"\] Alt text: Cisco Teams Webex connection and credential alias
 
     The **CiscoWebexTeams** Connection &amp; Credential Aliases display.
 
 3.  Click **New** under **Connections** tab.
 
-    ![New connection and credentials for Cisco Webex Teams](../image/new_connection_credential_cisco_webex_teams.png)
+    \[Omitted image "new\_connection\_credential\_cisco\_webex\_teams.png"\] Alt text: New connection and credentials for Cisco Webex Teams
 
 4.  On the form, fill these values.
 
@@ -282,7 +283,7 @@ Option to provide the connection URL.
  Provide the value as https://webexapis.com
 
 </td></tr></tbody>
-</table>    ![Connection record for Cisco Webex Teams](../image/connection_record_cisco_webex_teams.png)
+</table>    \[Omitted image "connection\_record\_cisco\_webex\_teams.png"\] Alt text: Connection record for Cisco Webex Teams
 
 5.  Right-click the form header and click **Submit**.
 

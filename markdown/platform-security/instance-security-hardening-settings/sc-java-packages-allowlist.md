@@ -2,6 +2,7 @@
 title: Restrict allowed Java packages \[Updated in Security Center 1.3\]
 description: Configuring these properties protect from dangerous APIs being exposed to the scripting engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-java-packages-allowlist.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -19,7 +20,7 @@ Configure the system tables and install the recommended plugin accordingly.
 
 If the **sys\_whitelist\_member** and **sys\_whitelist\_package** table are not empty values, then dangerous APIs may be exposed to the scripting engine. Entries correspond to the Java namespace that have not been approved by ServiceNow security teams.
 
-Install the Packages call removal tool. See [Packages call removal tool](sc-packages-call-removal-tool.md) for details.
+Install the Packages call removal tool. See [Packages call removal tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-packages-call-removal-tool.md) for details.
 
 Contact Customer Service and Support to edit these tables.
 
@@ -58,7 +59,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -109,10 +110,10 @@ Security risk rating
 8.2
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>To learn more about adding or creating a system property, see .
 
--   **[Packages call removal tool](sc-packages-call-removal-tool.md)**  
+-   **[Packages call removal tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-packages-call-removal-tool.md)**  
 Activate and run the Packages Call Removal Tool \(**com.glide.script.packages\_call\_removal**\) plugin, and then consider whether each of the proposed changes should be completed or rejected.
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

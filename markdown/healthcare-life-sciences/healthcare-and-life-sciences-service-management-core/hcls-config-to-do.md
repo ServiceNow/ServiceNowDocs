@@ -2,6 +2,7 @@
 title: Configure the service portal to add a to-dos menu item for completing healthcare-related tasks
 description: Enable the to-dos menu item that uses the HCLS to dos \(hcls-todo-list\) widget for displaying to-do items on a service portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-to-do.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,7 +18,7 @@ Enable the to-dos menu item that uses the HCLS to dos \(hcls-todo-list\) widget 
 
 ## Before you begin
 
-Set the application scope to Global using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Global using the application picker. For more information, see Application picker.
 
 Role required: admin
 

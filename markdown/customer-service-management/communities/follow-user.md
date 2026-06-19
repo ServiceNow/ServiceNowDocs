@@ -2,6 +2,7 @@
 title: Follow a community user
 description: Manage your network by following other community users and tracking their activity in the community.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/follow-user.html
 release: australia
 product: Communities
 classification: communities
@@ -37,5 +38,5 @@ There are several ways of following users in the community.
 3.  Point to **Following** and click **Unfollow** to stop following a user.
 
 
-**Parent Topic:**[Use a community profile](community-profile.md)
+**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-profile.md)
 

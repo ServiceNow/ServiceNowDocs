@@ -2,6 +2,7 @@
 title: Recording the time worked on a work order task
 description: Manage and record time worked on work order tasks and activities. Time recorded entries automatically generate time cards and time sheets for approval by managers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/Recording-time-spent-on-work-order-tasks.html
 release: australia
 product: Work Order Management
 classification: work-order-management

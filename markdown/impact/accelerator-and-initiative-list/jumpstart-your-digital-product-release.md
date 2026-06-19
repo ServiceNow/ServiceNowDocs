@@ -2,6 +2,7 @@
 title: Jumpstart Your Digital Product Release
 description: This accelerator provides a demonstration of the possibilities and capabilities of ServiceNow's Digital Product Release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-digital-product-release.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator Overview
 
 Jumpstart Your Digital Product Release \(DPR\) provides Impact customers with a comprehensive overview of Digital Product Release and its function as the orchestrator of the release process. It explains how DPR enables product and release teams to consistently plan and deliver new versions by providing visibility across the release life cycle and automating release-readiness validation. This accelerator also offers key resources and leading practices to help you get started.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -56,6 +59,8 @@ Jumpstart Your Digital Product Release \(DPR\) provides Impact customers with a 
 |Release Manager\(s\)|Maintain the day-to-day activities of the process. Gathering and reporting process metrics. Tracking compliance to the process. Ensuring that release requirements have been identified and addressed.|✓| |
 |Change Manager\(s\)|Responsible for the day-to-day facilitation of the change process. This role focuses on managing and administering all changes.|✓| |
 |Trusted Service Partner\(s\)|Attend ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

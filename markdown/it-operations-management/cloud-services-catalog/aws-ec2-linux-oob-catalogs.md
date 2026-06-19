@@ -2,6 +2,7 @@
 title: Amazon Web Services EC2 Linux Out Of Box Catalog items
 description: Cloud Services Catalog Linux VM with agent client collector \(ACC\), up to 10 additional disks on EC2 or with security groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/aws-ec2-linux-oob-catalogs.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -17,7 +18,7 @@ Cloud Services Catalog Linux VM with agent client collector \(ACC\), up to 10 ad
 
 This is a fully functional sample catalog item that can be used to request a Linux instance of any instance type from Amazon EC2.
 
-Order an AWS EC2 Linux VMThe video demonstrates how to order an Amazon Web Services EC2 Linux virtual machine.
+The video demonstrates how to order an Amazon Web Services EC2 Linux virtual machine.
 
 Linux VM orders and features:
 
@@ -62,8 +63,8 @@ Tag \(key-value\) is assigned to all deployed resources. Example: VM, network, s
 
 The key-value is updated only in the cmdb\_key\_value table, not in public cloud at this time. This will be fixed in future releases to update the tags in cloud.
 
--   **[Amazon Web Services EC2 Linux Out Of Box permissions](aws-ec2-linux-oob-catalog-items-permissions.md)**  
+-   **[Amazon Web Services EC2 Linux Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/aws-ec2-linux-oob-catalog-items-permissions.md)**  
 Amazon Web Services EC2 Linux OOB catalog items permissions
 
-**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

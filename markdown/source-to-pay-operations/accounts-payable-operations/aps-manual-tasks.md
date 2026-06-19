@@ -1,36 +1,38 @@
 ---
 title: Accounts Payable Specialist manual tasks
-description: Accounts Payable Operations performs invoice processing using automated workflows, with minimal manual intervention. In some situations, however, the Accounts Payable Specialist is required to perform a few manual tasks to move the invoice to the next stage of processing.
+description: Manual tasks in Accounts Payable Operations are actions that specialists complete when automated invoice processing workflows require human review or intervention to proceed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/aps-manual-tasks.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice processing, invoice automation, AP automation]
 breadcrumb: [Work on an invoice processing case, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Accounts Payable Specialist manual tasks
 
-Accounts Payable Operations performs invoice processing using automated workflows, with minimal manual intervention. In some situations, however, the Accounts Payable Specialist is required to perform a few manual tasks to move the invoice to the next stage of processing.
+Manual tasks in Accounts Payable Operations are actions that specialists complete when automated invoice processing workflows require human review or intervention to proceed.
 
--   **[View the invoice processing case associated with an invoice](../task/view-invoice-case.md)**  
+-   **[View the invoice processing case associated with an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/view-invoice-case.md)**  
 View the invoice processing case that is automatically created for an invoice and take any actions to process the invoice.
--   **[Review an invoice in Document Intelligence](../task/review-invoice-docintel.md)**  
-Review the invoice details, enter the required invoice field values, and submit the invoice if Document Intelligence encounters an extraction error.
--   **[Enter the missing required invoice information and submit an invoice](../task/enter-missing-docintel.md)**  
-If Document Intelligence encounters a transformation error, the invoice is created and associated with an invoice processing case. However, not all required information is populated on the invoice. You must manually enter the required information and submit the invoice for further processing.
--   **[Confirm whether an invoice is a duplicate](../task/confirm-duplicate-invoice.md)**  
-Confirm whether an invoice that is in the Suspected duplicate status is indeed a duplicate to determine if the invoice should be considered for processing.
--   **[Convert invoice type](../task/convert-invoice-case.md)**  
-You can convert invoice type from PO to Non-PO invoice and vice versa based on interaction between buyers and suppliers of business services.
--   **[Reset an invoice to the Received status](../task/reset-invoice-to-received.md)**  
+-   **[Review an invoice in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/review-invoice-docintel.md)**  
+Review invoice details, enter missing field values, and submit the invoice when Document Intelligence encounters an extraction error.
+-   **[Enter the missing required invoice information and submit an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/enter-missing-docintel.md)**  
+Manually enter missing invoice data and submit the invoice when Document Intelligence encounters a transformation error and only partially populates invoice fields.
+-   **[Confirm whether an invoice is a duplicate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/confirm-duplicate-invoice.md)**  
+Review invoices flagged as suspected duplicates and confirm or reject the duplicate status.
+-   **[Convert invoice type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/convert-invoice-case.md)**  
+Convert an invoice type between PO and Non-PO to correctly classify an invoice based on updated information from buyers or suppliers.
+-   **[Reset an invoice to the Received status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/reset-invoice-to-received.md)**  
 If you confirm an invoice as a duplicate by mistake, you can reset that invoice from the Confirmed duplicate status back to the Received status.
--   **[Check for invoice exceptions on a single invoice](../task/identify-exceptions-manually.md)**  
-Manually check for invoice exceptions on a single invoice so that you can resolve them.
--   **[Start the processing for an invoice imported via integration with third-party applications](../task/start-invoice-processing.md)**  
+-   **[Check for invoice exceptions on a single invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/identify-exceptions-manually.md)**  
+Manually check for exceptions on a single invoice in the Source-to-Pay Workspace when you want to identify and resolve issues before continuing to process the invoice.
+-   **[Start the processing for an invoice imported via integration with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/start-invoice-processing.md)**  
 Start the processing for an invoice that doesn't have an associated invoice processing case.
 
-**Parent Topic:**[Work on an invoice processing case](../task/work-manual-invoice-ingestion-case.md)
+**Parent Topic:**[Work on an invoice processing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-manual-invoice-ingestion-case.md)
 

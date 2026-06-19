@@ -2,6 +2,7 @@
 title: Explore
 description: Dynamic Guidance provides an assistance that is fully embedded within the product, enabling users to access relevant information without navigating away from their Workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/exploring.html
 release: australia
 product: Adoption Services
 classification: adoption-services

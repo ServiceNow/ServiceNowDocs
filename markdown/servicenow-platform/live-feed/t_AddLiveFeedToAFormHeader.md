@@ -2,6 +2,7 @@
 title: Add Live Feed to a form header
 description: Add the Live Feed button in the form header for a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_AddLiveFeedToAFormHeader.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -35,7 +36,7 @@ Role required: admin
 
 6.  Open the table record.
 
-7.  If the **Live feed** check box does not appear on the form, [configure the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md) to add the **Live feed** field.
+7.  If the **Live feed** check box does not appear on the form, configure the form layout to add the **Live feed** field.
 
 8.  On the form, select the **Live feed** check box.
 
@@ -48,5 +49,5 @@ Role required: admin
 
 The **Live Feed** button appears on the overflow menu of the form header.
 
-**Parent Topic:**[Configure record feeds](../concept/c_ConfigureRecordFeeds.md)
+**Parent Topic:**[Configure record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_ConfigureRecordFeeds.md)
 

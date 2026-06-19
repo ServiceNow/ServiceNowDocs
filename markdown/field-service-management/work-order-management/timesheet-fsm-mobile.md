@@ -2,6 +2,7 @@
 title: Time Sheets in ServiceNow Agent
 description: You can access and manage your time sheets from a mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/timesheet-fsm-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -29,5 +30,5 @@ Timesheets provide the following capabilities:
 -   Submit a time sheet
 -   Submit a time card
 
-![Mobile view of an agent's app displaying active time sheets.](../image/timesheet_fsm_mobile.png)
+\[Omitted image "timesheet\_fsm\_mobile.png"\] Alt text: Mobile view of an agent's app displaying active time sheets.
 

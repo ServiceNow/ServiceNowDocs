@@ -2,6 +2,7 @@
 title: Problem Management considerations
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/pm-use-case-trouble.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -20,5 +21,5 @@ Consider these points while implementing the CSDM framework.
     -   The problem is for an application issue: In this scenario the service instance may be populated in the configuration\_item attribute on the Problem form representing the unique deployment of an application stack. For example, the service instance of MyApp 3.0 Prod has been reported as being unavailable.
     -   The problem on an infrastructure CI is impacting devices. In this scenario the service instance might be populated on the problem’s Impacted Services related list, task\_cmdb\_ci\_service, to identify the service instance as one of the impacted services. For example, the Server Acme42 may be impacting **My service instance of MyApp 3.0 Prod** and other related services.
 
-**Parent Topic:**[Applying CSDM guidelines to Problem Management](pm-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/pm-use-case-product-view.md)
 

@@ -2,6 +2,7 @@
 title: Managing feed request responses
 description: When the job to pull RSS feeds runs at the scheduled time, the responses are automatically fetched from the configured feed sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/managing-feed-request-response.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

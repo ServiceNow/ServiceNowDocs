@@ -2,6 +2,7 @@
 title: Data sources for data visualizations
 description: Each workspace data visualization references a specific data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-sources-visualizations.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -54,7 +55,7 @@ When you select an indicator data source, you see a preview of the visualization
 
 **Note:** Many data visualizations support multiple data sources. However, you cannot mix Data snapshots indicators and regular indicators. If your first data source is a regular indicator \(automated, formula, or manual\), then only regular indicators are available for your additional data source. If your first data source is an automated or formula Data snapshots indicator, only Data snapshots are available for additional data sources.
 
-For more information, see [Performance Analytics indicators](../../performance-analytics/concept/c_Indicators.md).
+For more information, see [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ Activated by default. However, to include Usage Insights data sources in your vi
 
 </td><td>
 
-The ServiceNow® Usage Insights application provides dashboard views for monitoring usage analytics of your web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about Usage Insights, see [Usage Insights](../../../administer/user-exp-analytics/content-framework/landing-page/user-exp-analytics-landing.md). For more information specific to data visualizations, see [Usage Insights data sources for data visualizations](../../performance-analytics/concept/uxa-data-sources.md).
+The ServiceNow® Usage Insights application provides dashboard views for monitoring usage analytics of your web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. Visualize metrics and interactions to better understand the user experience, and create more intuitive journeys for your users.For more general information about Usage Insights, see [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md). For more information specific to data visualizations, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/uxa-data-sources.md).
 
 </td></tr><tr><td>
 
@@ -78,7 +79,7 @@ Requires a separate subscription and must be activated by ServiceNow personnel.
 
 </td><td>
 
-The MetricBase application stores time-series data, which is data that is sampled at regular intervals. You can graph the stored data or use it with triggers to execute Flow Designer flows. MetricBase helps developers working with IoT-based applications that monitor or act on large amounts of machine-generated data. For more information, see [MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase.md).
+The MetricBase application stores time-series data, which is data that is sampled at regular intervals. You can graph the stored data or use it with triggers to execute Flow Designer flows. MetricBase helps developers working with IoT-based applications that monitor or act on large amounts of machine-generated data. For more information, see MetricBase.
 
 </td></tr><tr><td>
 
@@ -90,7 +91,7 @@ Base system
 
 </td><td>
 
-Zero Copy Connector Hub provides a view where you can browse data sources, establish connections, and create data fabric tables that provide access to data from external sources. Workflow Data Fabric tables are found in the same list as other tables when you create a visualization. For more information, see [Workflow Data Fabric Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/wdf.md).
+Zero Copy Connector Hub provides a view where you can browse data sources, establish connections, and create data fabric tables that provide access to data from external sources. Workflow Data Fabric tables are found in the same list as other tables when you create a visualization. For more information, see .
 
 </td></tr><tr><td>
 
@@ -102,10 +103,10 @@ Requires a separate subscription and must be activated by ServiceNow personnel.
 
 </td><td>
 
-The Health Log Analytics application helps prevent IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data. For more information, see [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-landing-page.md).
+The Health Log Analytics application helps prevent IT issues before your users are affected. It helps you identify the root cause of an issue by enabling you to triage related logs and analyze the raw data. For more information, see .
 
  **Note:** You can create and edit data visualizations for Health Log Analytics only in the UI Builder, not in the Platform Analytics Visualization Designer or in dashboards.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data visualization reference](data-visualization-reference.md)
+</table>**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-visualization-reference.md)
 

@@ -2,6 +2,7 @@
 title: Get Device Collections activity
 description: The Get Device Collections activity returns the list of available device collections on a Microsoft System Center Configuration Manager \(SCCM\) host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_GetDeviceCollectionsActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [SCCM activity pack, Orchestration activity packs, Classic Orchestra
 
 The Get Device Collections activity returns the list of available device collections on a Microsoft System Center Configuration Manager \(SCCM\) host.
 
-The Get Device Collections activity uses the [Powershell activity template](../../orchestration-activity-designer/task/t_CreateAPowershellActivity.md#) to access the collections on the SCCM server. The activity is configured to use a MID Server with Powershell capabilities and to run a MID Server script called GetDeviceCollections.ps1 that returns the device collections on the server. This script filters the results of the GET, so that only specific attributes are returned for the device collections on the SCCM server. Filtering the results in this manner controls the size of the payload, while providing the most desirable device collection data. The list of available collections is returned as an array in a JSON object.
+The Get Device Collections activity uses the [Powershell activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAPowershellActivity.md) to access the collections on the SCCM server. The activity is configured to use a MID Server with Powershell capabilities and to run a MID Server script called GetDeviceCollections.ps1 that returns the device collections on the server. This script filters the results of the GET, so that only specific attributes are returned for the device collections on the SCCM server. Filtering the results in this manner controls the size of the payload, while providing the most desirable device collection data. The list of available collections is returned as an array in a JSON object.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **System Center Configuration Manager \(SCCM\)**.
 
@@ -66,5 +67,5 @@ Variable that contains the activity output error message.
 |Success|Activity successfully retrieved a list of device collections available on the SCCM host.|
 |Failure|Activity failed to retrieve a list of device collections available on the SCCM host.|
 
-**Parent Topic:**[SCCM activity pack](../concept/c_SCCMActivityPack.md)
+**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md)
 

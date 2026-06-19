@@ -2,6 +2,7 @@
 title: Jumpstart Your CSDM for Service Operations
 description: This accelerator provides a demonstration of the possibilities and capabilities of the Common Service Data Model \(CSDM\) for Service Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-csdm-for-service-operations.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -22,11 +23,13 @@ Jumpstart Your CSDM for Service Operations helps organizations understand the da
 
 The accelerator aligns you with CSDM leading practices and enables you to build a data foundation that helps achieve implementation success of both IT Service and IT Operation products.
 
+## Package Availability
+
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
 ## Prerequisites
 
-Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accelerator](jumpstart-csdm.md) before taking this one, as this offering builds on the foundational data required to operate, maintain and support business and technical services.
+Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md) before taking this one, as this offering builds on the foundational data required to operate, maintain and support business and technical services.
 
 ## What You Get
 
@@ -59,6 +62,8 @@ Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accele
 |Service Owner|Accountable for the end-to-end delivery, quality and value of a either a business or technical service as it is experienced by the customer \(external or internal\)|✓| |
 |Executive Sponsor\(s\)|Responsible for setting and communicating the vision of the ServiceNow Engagement within the rest of the enterprise. The Executive Sponsor also participates in engagement governance and removes roadblocks to a successful implementation.| |✓|
 |Trusted Service Partners|Attend ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

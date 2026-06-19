@@ -2,6 +2,7 @@
 title: Manage or add a service to your SRM team
 description: Add a service to an incident to increase the amount of data for the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-manage-team-services.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -27,27 +28,27 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select **Teams** \(![Teams.](../image/icon-sr-teams.png)\).
+2.  From the primary navigation, select **Teams** \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select a team card to open any team you want to view or add a service to.
 
 4.  From the team page, select the **Services managed** tab.
 
-    You can export the list of services. See [Export list information to a file](sr-export-to-file.md) for more information.
+    You can export the list of services. See [Export list information to a file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-export-to-file.md) for more information.
 
 5.  Add a service to your team by selecting **Add**.
 
 6.  Add a new service or register an existing one.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d235646e135">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d222201e135">
 
 Option
 
-</th><th align="left" id="d235646e138">
+</th><th align="left" id="d222201e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d235646e144">
+</th></tr></thead><tbody><tr><td id="d222201e144">
 
 **Add a new service**
 
@@ -56,12 +57,12 @@ Steps
 1.  In the **New or existing** field, select **Create a new service in Service Reliability Management**.
 2.  On the form, fill in the fields.
 
-For more information on the field descriptions, see [Add service form](../reference/sr-add-service-form.md).
+For more information on the field descriptions, see [Add service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-service-form.md).
 
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d235646e186">
+</td></tr><tr><td id="d222201e186">
 
 **Register an existing service**
 
@@ -81,15 +82,15 @@ For more information on the field descriptions, see [Add service form](../refere
 
 8.  Finish setting up your service or do it later.
 
-<table id="choicetable_mrc_vh1_lbc"><thead><tr><th align="left" id="d235646e252">
+<table id="choicetable_mrc_vh1_lbc"><thead><tr><th align="left" id="d222201e252">
 
 Option
 
-</th><th align="left" id="d235646e255">
+</th><th align="left" id="d222201e255">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d235646e261">
+</th></tr></thead><tbody><tr><td id="d222201e261">
 
 **Finish setting up your service**
 
@@ -100,7 +101,7 @@ Steps
 3.  Select **Add SLO &amp; SLI** and create a service level objective and measure your service health with a service level indicator.
 
 
-</td></tr><tr><td id="d235646e291">
+</td></tr><tr><td id="d222201e291">
 
 **Do it later**
 
@@ -109,8 +110,8 @@ Steps
 Select **Do it later**.
 
 </td></tr></tbody>
-</table>    See [Edit service details in SRM](sr-edit-service.md) and [Edit service details form](../reference/sr-edit-service-form.md)for information on the service and completion steps for setup.
+</table>    See [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-edit-service.md) and [Edit service details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-edit-service-form.md)for information on the service and completion steps for setup.
 
 
-**Parent Topic:**[Add an SRM team](sr-create-team.md)
+**Parent Topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md)
 

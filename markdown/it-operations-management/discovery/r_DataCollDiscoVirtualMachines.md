@@ -2,6 +2,7 @@
 title: Discovery for data-center virtualization
 description: Discovery and Service Mapping Patterns identify and classify information about virtual machines discovered in a data-center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DataCollDiscoVirtualMachines.html
 release: australia
 product: Discovery
 classification: discovery

@@ -2,6 +2,7 @@
 title: Receipts
 description: Receipts reference a purchase order line. Depending on the product type of the purchase, a goods receipt or services receipt is generated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/receipts.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -126,5 +127,5 @@ Amount received
 Receipt amount for the service received.This field is visible only for a services receipt.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+</table>**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

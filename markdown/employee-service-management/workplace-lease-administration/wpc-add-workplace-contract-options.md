@@ -2,13 +2,14 @@
 title: Add workplace contract options in Workplace Central
 description: Add workplace contract options such as option to renew, option to sub lease, option to terminate to store the lease contract options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-add-workplace-contract-options.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add workplace contract options in Workplace Central
@@ -29,7 +30,7 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 4.  In the **Workplace Contract Options** related list, select **New**.
 
-5.  For field details on the Workplace Contract Option form, see [Add workplace contract options in Core UI](add-workplace-contract-options.md).
+5.  For field details on the Workplace Contract Option form, see [Add workplace contract options in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/add-workplace-contract-options.md).
 
 6.  Select **Submit**.
 
@@ -38,5 +39,5 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 The contract options are added to the contract.
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

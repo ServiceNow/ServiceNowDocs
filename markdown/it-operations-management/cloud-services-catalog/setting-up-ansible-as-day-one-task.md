@@ -2,6 +2,7 @@
 title: Set up Ansible as a Day 1 task
 description: Set up the Ansible console as a Day 1 task before you run Discovery and deploy a job template via a ServiceNow catalog item by using the Cloud Services Catalog application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/setting-up-ansible-as-day-one-task.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -31,12 +32,12 @@ Role required: admin
 
 2.  Create Ansible tower credentials to be used in Ansible Discovery.
 
-    For more information, see [Configure Ansible Tower user name and password](../../cloud-management-v2/task/configure-ansible-creds.md).
+    For more information, see [Configure Ansible Tower user name and password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md).
 
 3.  Allow the extra variables and job templates to be overridden.
 
     The default Ansible job template must be overridden for the pipeline to work with a Cloud Services Catalog Ansible automation catalog item.
 
 
-**Parent Topic:**[Integrating Ansible with Cloud Services Catalog](../concept/integrating-ansible-with-cloud-services-catalog.md)
+**Parent Topic:**[Integrating Ansible with Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-ansible-with-cloud-services-catalog.md)
 

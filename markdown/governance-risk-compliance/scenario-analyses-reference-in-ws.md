@@ -1,19 +1,20 @@
 ---
-title: Create New Scenario analysis form
-description: Use the Create New Scenario analysis form in Operational Resilience Workspace to add the details about the scenario analysis, milestones, assignees, and so on.
+title: Create Scenario analysis form
+description: Use the Create Scenario analysis form in Operational Resilience Workspace to add the details about the scenario analysis, milestones, assignees, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/scenario-analyses-reference-in-ws.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Create a scenario analysis, Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a legacy scenario analysis, Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Scenario analysis form
+# Create Scenario analysis form
 
-Use the Create New Scenario analysis form in Operational Resilience Workspace to add the details about the scenario analysis, milestones, assignees, and so on.
+Use the Create Scenario analysis form in Operational Resilience Workspace to add the details about the scenario analysis, milestones, assignees, and so on.
 
-## Create New Scenario analysis form
+## Create Scenario analysis form
 
 For a description of the field values, see the following table.
 

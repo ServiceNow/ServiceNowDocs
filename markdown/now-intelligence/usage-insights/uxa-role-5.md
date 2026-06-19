@@ -2,6 +2,7 @@
 title: Mobile analytics viewer \[mobile\_analytics\_viewer\]
 description: View Usage Insights in the application navigator. Assigned users have viewer role permissions for Usage Insights for mobile applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-role-5.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -31,7 +32,7 @@ None.
 
 None.
 
-For more information, see [Usage Insights for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-analytics.md).
+For more information, see .
 
-**Parent Topic:**[Roles installed with Usage Insights](components-installed-user-exp-analytics.md)
+**Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 

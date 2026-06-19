@@ -2,6 +2,7 @@
 title: Change MID Server configuration file security schemes
 description: The MID Server provides several schemes for securing sensitive data in the config.xml file and allows you to switch between these options to suit your security requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/change-mid-server-security-schemes.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -36,5 +37,5 @@ Role required: admin
     The data is re-secured or encrypted, based on the security scheme you have selected.
 
 
-**Parent Topic:**[MID Server configuration file security](../reference/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
 

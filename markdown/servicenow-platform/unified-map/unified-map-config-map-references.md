@@ -2,6 +2,7 @@
 title: Configure display of connections to a referenced class
 description: Configure how to display connections to a referenced class and from a referencing class on Unified Map. A reference connects two CIs from differing classes that aren't connected by a relationship. These are general settings that only sn\_cmdb\_admin can configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-config-map-references.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -23,7 +24,7 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings do not affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
+These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings don't affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
 
 References connect CIs from two classes that don't have a direct relationship connection between them. On the map, any two CIs from the referenced class and from the referencing class appear connected by a dotted line. The relationship type is **Reference**. There are several preconfigured map references that you can modify, and you can also add map references.
 
@@ -45,8 +46,8 @@ For example, you want the map to display references to records in the File Syste
 
 3.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](../concept/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — admin settings](../concept/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
 

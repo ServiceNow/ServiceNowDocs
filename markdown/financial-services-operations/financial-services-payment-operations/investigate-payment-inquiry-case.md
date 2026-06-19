@@ -2,6 +2,7 @@
 title: Investigate a payment inquiry case
 description: Investigate the payment inquiry case so that you can get enough information about the case to resolve it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/investigate-payment-inquiry-case.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -23,7 +24,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Payment Inquiry Cases**, open the case list:
 
@@ -35,7 +36,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
     -   To work on a case that is not assigned to you yet, assign it to yourself by clicking **Assign to me**.
     The state of the case updates to Work in Progress.
 
-    For information on Payment inquiry form field descriptions, see [Field descriptions for a payment inquiry case](../reference/payment-inquiry-case-form-fields.md).
+    For information on Payment inquiry form field descriptions, see [Field descriptions for a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/payment-inquiry-case-form-fields.md).
 
 5.  Review the inquiry type in the **Inquiry type** field.
 
@@ -51,7 +52,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 
 8.  For any ad hoc internal follow-up, create an inquiry task by navigating to the **Inquiry Tasks** tab of the case and clicking **New**.
 
-9.  If there's an inquiry task associated with the case, [work on the inquiry task](work-on-inquiry-task.md) and move it to the **Closed** state.
+9.  If there's an inquiry task associated with the case, [work on the inquiry task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/work-on-inquiry-task.md) and move it to the **Closed** state.
 
 10. After you've received the required information from the recipient bank, update the necessary fields on the case as per the received information and change the state of the case to **Work in Progress**.
 
@@ -59,7 +60,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 
     **Note:** You can set a case as a valid claim only if it's an internal payment inquiry case.
 
-    For more information, see [Create a claim for a payment inquiry case](create-claim-case-inquiry-case.md).
+    For more information, see [Create a claim for a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/create-claim-case-inquiry-case.md).
 
 
 ## Result
@@ -68,12 +69,12 @@ The customer gets the pre-configured email notifications about the progress of t
 
 ## What to do next
 
-If you've finished the investigation, [propose a solution](propose-solution-inquiry-case.md) for the case to resolve it.
+If you've finished the investigation, [propose a solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/propose-solution-inquiry-case.md) for the case to resolve it.
 
--   **[Work on an inquiry task](work-on-inquiry-task.md)**  
+-   **[Work on an inquiry task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/work-on-inquiry-task.md)**  
 Work on a payment inquiry task to request additional information that is related to an inquiry case from the recipient bank.
--   **[Create a claim for a payment inquiry case](create-claim-case-inquiry-case.md)**  
+-   **[Create a claim for a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/create-claim-case-inquiry-case.md)**  
 Create a claim for an internal payment inquiry case when its investigation indicates that it's a valid claim and the customer is entitled to a refund.
 
-**Parent Topic:**[Managing payment inquiries](../concept/managing-payment-inquiries.md)
+**Parent Topic:**[Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
 

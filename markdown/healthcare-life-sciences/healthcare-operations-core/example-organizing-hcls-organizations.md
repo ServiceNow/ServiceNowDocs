@@ -2,6 +2,7 @@
 title: Organizing your healthcare organizations for Healthcare Operations Core
 description: Properly organize your healthcare organizations to reflect your team hierarchies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/example-organizing-hcls-organizations.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -19,7 +20,7 @@ In Healthcare Operations Core, healthcare organizations typically exist in a mul
 
 The Healthcare Operations app menu shows one example of what this structure might look like within your healthcare organization.
 
-![Healthcare Organizations app menu in Healthcare Operations Core.](../image/hcso-healthcare-org-menu.png)
+\[Omitted image "hcso-healthcare-org-menu.png"\] Alt text: Healthcare Organizations app menu in Healthcare Operations Core.
 
 Healthcare organizations use the child organization-related list to display their direct child organizations.
 

@@ -2,6 +2,7 @@
 title: Configure the credential for the GoogleTranslation alias
 description: Authorize actions of Google Cloud Translator Service spoke by configuring the Google OAuth 2.0 credential.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/configure-credential-google.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -34,9 +35,9 @@ Role required: admin
 6.  To verify if an OAuth Access token is generated to connect to Google's translation services, click the **Get OAuth Token** related link of the Google OAuth 2.0 credential.
 
 
-**Parent Topic:**[Set up the Google Cloud Translator Service spoke](setup-google-translator.md)
+**Parent Topic:**[Set up the Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/setup-google-translator.md)
 
-**Previous topic:**[Create a JWT provider for Google Cloud Translator Service spoke](create-jwtprovider-google.md)
+**Previous topic:**[Create a JWT provider for Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-jwtprovider-google.md)
 
-**Next topic:**[Configure the connection attributes for the GoogleTranslation alias](configure-connection-google.md)
+**Next topic:**[Configure the connection attributes for the GoogleTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configure-connection-google.md)
 

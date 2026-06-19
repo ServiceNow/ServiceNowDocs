@@ -2,6 +2,7 @@
 title: Conversation Member API
 description: The Conversation Member API provides methods for changing a specific agent’s member state to removed or updated in a given Agent Chat conversation.Drops an agent from a conversation.Updates the agent's member type in a given conversation to a public fulfiller from an observer or private fulfiller type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/conversation-member-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -15,11 +16,11 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Conversation Member API provides methods for changing a specific agent’s member state to removed or updated in a given Agent Chat conversation.
 
-This API provides the ability to programmatically manage an agent member’s state in conversations in Agent Chat experience of Conversational Interfaces. See [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-use-agent-chat.md) for more information.
+This API provides the ability to programmatically manage an agent member’s state in conversations in Agent Chat experience of Conversational Interfaces. See Agent Chat for more information.
 
 This API is available by default. The calling user must have the awa\_integration\_user role.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Conversation Member - PUT /now/conversation/member/\{user\_id\}/drop
 
@@ -75,7 +76,7 @@ Table: Interaction \[interaction\]
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -108,7 +109,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -365,7 +366,7 @@ Table: Conversation Member \[sys\_cs\_conversation\_member\], Field: Member Type
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -390,7 +391,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_xbw_3v5_bfc"><thead><tr><th>
 

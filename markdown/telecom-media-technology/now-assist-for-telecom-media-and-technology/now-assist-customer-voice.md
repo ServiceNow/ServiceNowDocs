@@ -2,6 +2,7 @@
 title: Now Assist for Telecommunications, Media and Technology \(TMT\) Customer voice quality issue resolution agentic workflow
 description: Use this agentic workflow to resolve customer voice quality issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-customer-voice.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -24,13 +25,13 @@ This agentic workflow is triggered when a new interaction is created in the CSM 
 -   Type: Phone or Chat
 -   Category: Network
 
-**Note:** The Customer voice quality issue resolution agentic workflow is available in read-only mode. Before using the workflow, you must make a copy and adjust the settings according to your requirements. See [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) for details.
+**Note:** The Customer voice quality issue resolution agentic workflow is available in read-only mode. Before using the workflow, you must make a copy and adjust the settings according to your requirements. See  for details.
 
 ## Role masking
 
 Required role: sn\_sprb\_mgmt.agent
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## Application dependency
 
@@ -41,7 +42,7 @@ The Customer voice quality issue resolution agentic workflow has the following d
 
 ## Configure the Customer voice quality issue resolution agentic workflow
 
-This agentic workflow requires a third-party agent, the RADCOM ticket handling agent, to retrieve the customer experience profile. To use the third-party agent, you must create an external agent by following the steps listed in the [Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-external-aia.md) section.
+This agentic workflow requires a third-party agent, the RADCOM ticket handling agent, to retrieve the customer experience profile. To use the third-party agent, you must create an external agent by following the steps listed in the  section.
 
 ## Test the agentic workflow
 
@@ -50,7 +51,7 @@ To access the use case testing page:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 2.  On the Overview page, select **Customer voice quality issue resolution**.
 
-To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
+To test the use case, see .
 
 ## AI agents used in the Customer voice quality issue resolution agentic workflow
 

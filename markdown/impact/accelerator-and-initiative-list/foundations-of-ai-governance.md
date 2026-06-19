@@ -2,6 +2,7 @@
 title: Foundations of AI Governance
 description: This accelerator provides foundational guidance on establishing and managing an Artificial Intelligence Management System \(AIMS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/foundations-of-ai-governance.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,9 @@ This accelerator provides foundational guidance on establishing and managing an 
 
 Foundations of AI Governance introduces Impact customers to the core principles and vocabulary of Artificial Intelligence Management System \(AIMS\) as defined by ISO/IEC 42001. Designed as the entry point for customers seeking to advance their AI governance maturity, this session will work as part one of a three-part series where we introduce, adopt, then audit customer AIMS as part of a comprehensive consulting solution. It also includes key resources and leading practice guides to help them approach AI governance with confidence.
 
-**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact  Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
 
 ## Prerequisites
 

@@ -2,6 +2,7 @@
 title: Create a conversion funnel
 description: View conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/create-funnel.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -27,21 +28,21 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 3.  Select **Analysis** &gt; **Conversion funnel**.
 
-4.  Select the **Create new funnel** button \(![Create new funnel button](../../../use/par-for-workspace/image/uxa-create-cohort-button.png)\).
+4.  Select the **Create new funnel** button \(\[Omitted image "uxa-create-cohort-button.png"\] Alt text: Create new funnel button\).
 
 5.  Enter a name for the relevant process you want to measure and, optionally, a description, and select **Next**.
 
 6.  From the **Step Type** options, select steps you want to measure, and screens, events, or actions as applicable.
 
-<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d92650e119">
+<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d89218e119">
 
 **Event Trigger**
 
 </td><td>
 
-Select [User Analytics Events KPIs](view-events.md#) to measure. To match a selected event by a certain property, select **Filter properties**, select a property from the drop down, and enter a value for the property.
+Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/view-events.md) to measure. To match a selected event by a certain property, select **Filter properties**, select a property from the drop down, and enter a value for the property.
 
-</td></tr><tr><td id="d92650e141">
+</td></tr><tr><td id="d89218e141">
 
 **Session Start \(1st\)**
 
@@ -49,7 +50,7 @@ Select [User Analytics Events KPIs](view-events.md#) to measure. To match a sele
 
 Select to measure users' first sessions.
 
-</td></tr><tr><td id="d92650e150">
+</td></tr><tr><td id="d89218e150">
 
 **Session Start \(any\)**
 
@@ -62,14 +63,14 @@ Select to measure any user sessions.
 
 8.  Select any additional steps to add to the funnel.
 
-    ![Create funnel wizard](../../../use/par-for-workspace/image/uxa-funnel-create.png)
+    \[Omitted image "uxa-funnel-create.png"\] Alt text: Create funnel wizard
 
-9.  Select **Add** to finish the funnel.![View funnel](../image/usage-insights-funnel.png)
+9.  Select **Add** to finish the funnel.\[Omitted image "usage-insights-funnel.png"\] Alt text: View funnel
 
 10. View the funnel in Platform Analytics.
 
-    You can view your funnel directly from Platform Analytics. When you create a new dashboard in Platform Analytics, select **add new element** and then **Usage Insights Funnel**.![View Usage Insights funnel in Platform Analytics](../image/uxa-view-funnnel-pa.png)
+    You can view your funnel directly from Platform Analytics. When you create a new dashboard in Platform Analytics, select **add new element** and then **Usage Insights Funnel**.\[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: View Usage Insights funnel in Platform Analytics
 
 
-**Parent Topic:**[Funnel reports in Usage Insights](../concept/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

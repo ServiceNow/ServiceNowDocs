@@ -2,6 +2,7 @@
 title: Export Security Tasks
 description: Learn how to export Security Tasks into files you can download and use in other software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/export-security-tasks.html
 release: australia
 product: Security Center
 classification: security-center
@@ -42,5 +43,5 @@ Role required: admin
         The **Email** field displays. Enter a email address in the **Email** field, and the export file is delivered to the specified email address.
 
 
-**Parent Topic:**[Security Tasks](../concept/security-task-manager.md)
+**Parent Topic:**[Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md)
 

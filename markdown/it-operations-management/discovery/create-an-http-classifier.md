@@ -2,6 +2,7 @@
 title: Create an HTTP classification
 description: An HTTP classifier enables the horizontal discovery process to find devices via the HTTP protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-an-http-classifier.html
 release: australia
 product: Discovery
 classification: discovery
@@ -25,14 +26,14 @@ If you want to classify devices via HTTP/REST, you can create additional HTTP cl
 
 **Important:** The HTTP Classify probe no longer attempts credentials over the HTTP protocol by default. To override this behavior, you can enable **mid.http\_classy.allow\_credentials\_over\_http**. However, enabling this setting can expose credentials to man-in-the-middle \(MitM\) attacks. Therefore, it’s strongly recommended to keep this property set to **false** and use HTTPS whenever possible.
 
-By default, the [F5 HTTP classifier](../concept/c_LoadBalancerF5BIGIP.md) is provided to classify F5 load balancers using REST. The **F5 LB REST** pattern is also provided to explore the device. You don’t need to create an HTTP classifier for F5 load balancers.
+By default, the [F5 HTTP classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md) is provided to classify F5 load balancers using REST. The **F5 LB REST** pattern is also provided to explore the device. You don’t need to create an HTTP classifier for F5 load balancers.
 
 Of all protocols that Discovery uses \(including WMI, SSH, and SNMP\), HTTP is the lowest priority by default. Discovery uses HTTP classification only if:
 
 -   Shazzam determines that the ports for HTTP \(80\) and HTTPS \(443\) traffic are open.
 -   The horizontal discovery process fails for the higher priority port probes \(WMI, SSH, and SNMP\) if the ports for those protocols are not open, or if discovery for those protocols fail. The horizontal discovery process can fail, for example, if SSH and SNMP credentials are not configured or are incorrect.
 
-    **Note:** See [Port Probes](../reference/r_PortProbes.md) for more details on how port scanning works and to see the priorities of the different protocols.
+    **Note:** See [Port Probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PortProbes.md) for more details on how port scanning works and to see the priorities of the different protocols.
 
 
 HTTP classification launches the **HTTP Classify** probe to classify the device. The **HTTP - Classify** probe runs a GET request for each device for each HTTP classification. The URL of the request is built as follows: `PROTOCOL://IP:PORT/PATH`, where:
@@ -45,7 +46,7 @@ HTTP classification launches the **HTTP Classify** probe to classify the device.
 
 3.  Fill out the form fields \(see table\):
 
-    ![HTTP classification](../image/http-classi.png "The F5 HTTP classification")
+    \[Omitted image "http-classi.png"\] Alt text: HTTP classification
 
 <table id="table_cyf_r1c_cdb"><thead><tr><th>
 
@@ -129,7 +130,7 @@ For example, if you want to use port 5000 and the HTTP protocol, add the 5000/HT
 
     2.  On the HTTP Classification Match form, fill in the form fields \(see table\).
 
-        ![HTTP classification match](../image/http-classi-match.png)
+        \[Omitted image "http-classi-match.png"\] Alt text: HTTP classification match
 
 <table id="table_vjr_l3c_cdb"><thead><tr><th>
 

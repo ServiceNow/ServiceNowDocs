@@ -2,6 +2,7 @@
 title: NowAPIService interface - Android
 description: The NowAPIService interface provides the ability to perform requests on a specified ServiceNow REST API.Calls the specified REST API on the specified ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowAPIServiceAndroidInterface.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -19,9 +20,9 @@ The NowAPIService interface provides the ability to perform requests on a specif
 
 |Name|Type|Description|
 |----|----|-----------|
-|configuration|[NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationAndroidAPI.md)|Service configuration to associate with the protocol.|
+|configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)|Service configuration to associate with the protocol.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowAPIService - data\(endpoint: NowAPIService.Endpoint, queryParams: QueryParams, headers: Headers, body: String\)
 
@@ -90,7 +91,7 @@ Optional. Object that contains the request body and content type to pass into th
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|[Call](../../Call/concept/CallAndroidInterface.md#)&lt;[ByteArray](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/)&gt;|Return results from the called REST endpoint.|
+|[Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/CallAndroidInterface.md)&lt;[ByteArray](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/)&gt;|Return results from the called REST endpoint.|
 
 ```
 suspend fun loadCases(): List<CaseItem> = withContext(Dispatchers.IO) {

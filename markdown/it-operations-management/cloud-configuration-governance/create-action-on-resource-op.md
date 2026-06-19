@@ -2,6 +2,7 @@
 title: Create an action for an 'on Resource operation' policy
 description: The on Resource operation trigger fires during the Orchestration process when a user performs a Start, Stop, or Deprovision life cycle operation on a specific resource. A policy that is triggered by the on Resource operation trigger can override a user-requested attribute value, run a script, call a Cloud API, or perform an IP address management operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-action-on-resource-op.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -18,8 +19,8 @@ The on Resource operation trigger fires during the Orchestration process when a 
 ## Before you begin
 
 -   Role required: sn\_cmp.cloud\_governor or admin
--   Optional: [Create one or more cloud policy groups](create-cloud-policy-group.md).
--   [Configure a cloud policy rule](configure-cloud-policy-rule.md) and associated conditions.
+-   Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-policy-group.md).
+-   [Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.md) and associated conditions.
 
 ## Procedure
 
@@ -31,7 +32,7 @@ The on Resource operation trigger fires during the Orchestration process when a 
 
 4.  On the popup, click **Create** for the type of action to perform, enter a unique and meaningful **Action Name**, and then fill in the form for the action.
 
-    ![Create Action popup](../image/action-on-resource-operation.png)
+    \[Omitted image "action-on-resource-operation.png"\] Alt text: Create Action popup
 
 <table id="table_qhx_32h_sfb"><thead><tr><th>
 
@@ -57,13 +58,13 @@ Value
 
 Enter a value that overrides the value in the **Property** field. You can override text values only. You can specify a static value, an expression, or both. The example action, named **SetTheCostCenter**, specifies the value **Marketing** for the **CostCenter** property.
 
-![Configure a Property Override action](../image/action-property-override.png "Configure a Property Override action")
+\[Omitted image "action-property-override.png"\] Alt text: Configure a Property Override action
 
 **Note:**
 
 When both a policy rule and a form rule overwrite a value, the value in the form rule is used.
 
-Expressions can perform the following actions \(see [Using expressions in Cloud Provisioning and Governance](../reference/expressions-cloud-mgt-1.md) for details\):
+Expressions can perform the following actions \(see [Using expressions in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details\):
 
 -   Set form data values using definition expressions. For example: `${parameter.formData.CatalogAttributeType}`
 -   Assign user data values using definition expressions. For example: `${parameter.userData.userId}`
@@ -133,7 +134,7 @@ Action Script
 
 </td><td>
 
-Create the script in the text box.See [Create a policy action script](create-policy-script-1.md) for details.
+Create the script in the text box.See [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) for details.
 
 </td></tr></tbody>
 </table>    If you select the **Call Cloud API** action type and save the record, the Policy Rule Action Attributes related list is populated with the attributes to pass to the provider. If you are integrating with Infoblox, you must configure the **DNSSuffix** field. When you create a host, for example, the value in the **DNSSuffix** field appears in Infoblox for the newly created virtual machine.
@@ -224,9 +225,9 @@ IPAM Method Name
 Select the IPAM Method Name. For Infoblox, select one of the following options: -   **Release IP Address**: Release an IP address from Infoblox when a machine is deprovisioned.
 -   **Register IP Address**: Register a new virtual machine to Infoblox. This option is used by AWS and Azure clouds.
 -   **Reserve IP Address**: Reserve a new IP address. This option is used by a vSphere cloud.
- See [Register IP addresses for AWS and Azure virtual machines in Infoblox](register-ip-address-aws-azure.md), [Reserve IP addresses for VMware vSphere virtual machines in InfoBlox](reserve-ipaddress-vmware.md), and [IPAM integration](../concept/IPAM-integration.md).
+ See [Register IP addresses for AWS and Azure virtual machines in Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/register-ip-address-aws-azure.md), [Reserve IP addresses for VMware vSphere virtual machines in InfoBlox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/reserve-ipaddress-vmware.md), and [IPAM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/IPAM-integration.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a cloud policy](create-cloud-policy.md)
+**Parent Topic:**[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)
 

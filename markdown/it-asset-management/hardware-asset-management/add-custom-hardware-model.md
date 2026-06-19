@@ -2,13 +2,14 @@
 title: Add a custom product
 description: If you have a product that is not represented in the Asset Management Content Service yet, you can create a custom product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/add-custom-hardware-model.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Work with hardware normalization, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Add a custom product
@@ -39,7 +40,7 @@ Role required: ham\_admin
 
 ## What to do next
 
-After you've created the hardware model, [normalize the model](normalize-hardware-consumable-models.md).
+After you've created the hardware model, [normalize the model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.md).
 
-**Parent Topic:**[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

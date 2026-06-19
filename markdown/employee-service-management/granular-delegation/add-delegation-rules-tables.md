@@ -2,6 +2,7 @@
 title: Add delegation rule tables
 description: To create delegation rules, you must add a task table to the Delegation Rule Tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/granular-delegation/add-delegation-rules-tables.html
 release: australia
 product: Granular Delegation
 classification: granular-delegation
@@ -38,5 +39,5 @@ Role required: delegation\_admin
 
 ## What to do next
 
-Next, create a delegation rule to specify the records that are available for employees to delegate. See [Create delegation rules](create-delegation-rules.md).
+Next, create a delegation rule to specify the records that are available for employees to delegate. See [Create delegation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-rules.md).
 

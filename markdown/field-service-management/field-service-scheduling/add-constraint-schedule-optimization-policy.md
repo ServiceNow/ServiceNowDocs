@@ -2,6 +2,7 @@
 title: Add constraints to a policy
 description: Add constraints to Schedule Optimization policies to define the mandatory conditions technicians must meet to be considered for a task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/add-constraint-schedule-optimization-policy.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -21,7 +22,7 @@ Role required: wm\_admin
 
 ## About this task
 
-Constraints are mandatory conditions embedded in policies that determine whether an assignment group can be considered for a task. If an assignment group does not meet a constraint, it is excluded from consideration. For example, if the Enable Mandatory Skills constraint is active, only assignment groups with agents who have the required skills are considered for task assignments. For a list of constraints, see [Objectives and constraints used with Schedule Optimization](../reference/hard-soft-constraints.md).
+Constraints are mandatory conditions embedded in policies that determine whether an assignment group can be considered for a task. If an assignment group does not meet a constraint, it is excluded from consideration. For example, if the Enable Mandatory Skills constraint is active, only assignment groups with agents who have the required skills are considered for task assignments. For a list of constraints, see [Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/hard-soft-constraints.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Constraints are mandatory conditions embedded in policies that determine whether
 
 4.  Select **New**.
 
-5.  In the **Optimization Features** field, select the Lookup icon \(![Lookup icon.](../../../common/image/List_SearchIcon.png)\) and select the constraint to add.
+5.  In the **Optimization Features** field, select the Lookup icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup icon.\) and select the constraint to add.
 
 6.  Select **Submit**.
 

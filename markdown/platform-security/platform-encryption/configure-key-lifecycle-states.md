@@ -2,6 +2,7 @@
 title: Configure key lifecycle states
 description: After you have created a cryptographic specification, you can configure the lifecycle actions for the keys in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/configure-key-lifecycle-states.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -27,7 +28,7 @@ Role required: sn\_kmf.admin
 
 3.  Select a key alias on the Crypto Specifications tab.
 
-    ![Shows how to select a key from the lifecycle definition.](../image/key-lifecycle-configuration.jpg)
+    \[Omitted image "key-lifecycle-configuration.jpg"\] Alt text: Shows how to select a key from the lifecycle definition.
 
 4.  Select **Next**.
 
@@ -57,7 +58,7 @@ For field
 
 </td><td>
 
-Select the type of control for the key that the lifecycle applies to.![Shows the values in the "For field."](../image/field-lifecycle-for-field.jpg "Key lifecycle management "For field" values")
+Select the type of control for the key that the lifecycle applies to.\[Omitted image "field-lifecycle-for-field.jpg"\] Alt text: Shows the values in the "For field."
 
 </td></tr><tr><td>
 
@@ -115,9 +116,9 @@ Relative to
 
 </td><td>
 
-Field the duration is relative to. Displays if a relative duration or operation is selected.![Shows the values of the "Relative to" list.](../image/relative-to-kl-state.jpg)
+Field the duration is relative to. Displays if a relative duration or operation is selected.\[Omitted image "relative-to-kl-state.jpg"\] Alt text: Shows the values of the "Relative to" list.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a cryptographic module](create-cryptographic-module.md)
+**Parent Topic:**[Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md)
 

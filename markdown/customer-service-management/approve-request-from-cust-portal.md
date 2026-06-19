@@ -2,7 +2,10 @@
 title: Approve a change request, or registration request
 description: Users with the snc\_external role can view and approve registration requests and change requests from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/approve-request-from-cust-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: snc\_external
 
 ## About this task
 
-A registration request or a change request may require approval from another employee within the same organization. For details on registration request, see [Customer contact self-registration](../concept/c_PortalSelfRegistration.md).
+A registration request or a change request may require approval from another employee within the same organization. For details on registration request, see [Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_PortalSelfRegistration.md).
 
 ## Procedure
 

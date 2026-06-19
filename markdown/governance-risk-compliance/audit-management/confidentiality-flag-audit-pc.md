@@ -2,6 +2,7 @@
 title: Confidentiality flag for audit and compliance records
 description: You can set the confidentiality flag at the record level for an issue, engagement, observation, control test, activity, interview, and walkthrough records. The users whom you determine to view and update these records are allowed users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.html
 release: australia
 product: Audit Management
 classification: audit-management

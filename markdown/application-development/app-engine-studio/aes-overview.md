@@ -2,11 +2,12 @@
 title: Build apps using App Engine Studio
 description: ServiceNow App Engine Studio \(AES\) is a guided, low-code tool for developing rich web applications to store information, automate business processes, and solve business problems. Work that was once assigned to administrators can now be delegated to employees with little to no training using AES.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-overview.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-02"
 reading_time_minutes: 3
 keywords: [App Engine, App Engine ServiceNow, App Engine Studio, low code development, ServiceNow App Engine, performance review template, app template, app engine studio in servicenow]
 breadcrumb: [Building low-code applications, Developing your application, Building applications]
@@ -15,10 +16,6 @@ breadcrumb: [Building low-code applications, Developing your application, Buildi
 # Build apps using App Engine Studio
 
 ServiceNow® App Engine Studio \(AES\) is a guided, low-code tool for developing rich web applications to store information, automate business processes, and solve business problems. Work that was once assigned to administrators can now be delegated to employees with little to no training using AES.
-
-The following video shows a visual overview of the app creation process using App Engine Studio.
-
-App Engine Studio overview
 
 ## Get started
 
@@ -30,27 +27,27 @@ By delegating development to citizen developers in your organization, administra
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about App Engine Studio concepts and features.](exploring-aes.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about App Engine Studio concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/exploring-aes.md)
 
 </td><td>
 
-[Install ![](../../../reuse/icons/brand-icons/bus-cloud-download.svg) Install App Engine Studio and its associated apps.](../task/install-aes.md)
+[Install \[Omitted image "bus-cloud-download.svg"\] Alt text: Install App Engine Studio and its associated apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/install-aes.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure environments, tools, and user access.](aes-setup.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-setup.md)
 
 </td></tr><tr><td>
 
-[Build ![](../../../reuse/icons/brand-icons/bus-low-code-dev-tools.svg) Build applications using App Engine Studio.](aes-app-creation.md)
+[Build \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Build applications using App Engine Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-creation.md)
 
 </td><td>
 
-[Deploy ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Deploy applications to the instances in your pipeline, from development to production using App Engine Management Center.](../../app-engine-management-center/concept/app-engine-management-center.md)
+[Deploy \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Deploy applications to the instances in your pipeline, from development to production using App Engine Management Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/app-engine-management-center.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about App Engine Studio components such as fields, tables, and properties.](../reference/aes-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about App Engine Studio components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources for App Engine Studio
@@ -69,29 +66,26 @@ App Engine Studio is a guided, low-code tool for developing rich web application
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-webinar.svg) [Create Apps Fast with App Engine Studio](https://www.youtube.com/watch?v=kQ8jjcsPf4M)
+\[Omitted image "bus-webinar.svg"\] Alt text: [Create Apps Fast with App Engine Studio](https://www.youtube.com/watch?v=kQ8jjcsPf4M)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-whitepaper.svg) [Build Apps Fast with App Engine](https://www.youtube.com/watch?v=ZRctXWpuB08)
+\[Omitted image "bus-whitepaper.svg"\] Alt text: [Build Apps Fast with App Engine](https://www.youtube.com/watch?v=ZRctXWpuB08)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-3-person.svg) [Getting Started on App Engine Studio](https://www.youtube.com/watch?app=desktop&v=4rCR9gBBRSQ)
+\[Omitted image "bus-3-person.svg"\] Alt text: [Getting Started on App Engine Studio](https://www.youtube.com/watch?app=desktop&v=4rCR9gBBRSQ)
 
 </td></tr></tbody>
 </table>## Request AES on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Before you can use AES, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
 
 ## Get help with App Engine Studio
 
 -   Contact your company's Customer Admin to unlock or add user accounts, perform restores or zBoots, and more.
-
-    Contact your company's Customer Admin
-
 -   [Ask or answer questions in the App Engine Studio community forum](https://community.servicenow.com/community?id=community_forum&sys_id=75291a2ddbd897c068c1fb651f9619f3)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Learn more about how to create your own apps on the developer site.](https://developer.servicenow.com/dev.do#!/)

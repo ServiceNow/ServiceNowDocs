@@ -2,6 +2,7 @@
 title: Document Template integration with Docusign
 description: The ServiceNow Document Template integration with Docusign application enables you to use the Docusign application for signing documents that are generated from ServiceNow Document Templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/docusign-doc.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,9 +29,9 @@ The ServiceNow® Document Template integration with Docusign application enables
 
 First, activate the Document Template Integration with DocuSign \[sn\_dt\_docusign\] and Document Templates \[sn\_doc\] applications from ServiceNow Store. Activating the Document Template integration with Docusign application automatically activates the Docusign spoke.
 
-Next, set up the Docusign spoke. For more information, see [Docusign eSignature Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/docusign-spoke.md).
+Next, set up the Docusign spoke. For more information, see .
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

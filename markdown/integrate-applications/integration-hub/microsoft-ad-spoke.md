@@ -2,6 +2,7 @@
 title: Microsoft Active Directory Spoke
 description: Create, delete, and manage objects in Microsoft Active Directory, such as users, groups, and computers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/microsoft-ad-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -89,7 +90,7 @@ The Microsoft AD spoke provides actions to automate Microsoft Active Directory t
 
 ## MID Server requirements
 
-To use these actions, your instance must have a MID Server set up and configured to use the PowerShell. For more information about running actions on the MID Server, see [Integration steps](integration-steps.md). For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+To use these actions, your instance must have a MID Server set up and configured to use the PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md). For information, see MID Server.
 
 **Note:** MID and Microsoft Active Directory must be installed on different servers.
 
@@ -103,5 +104,5 @@ This spoke uses the AD alias record to authorize actions in Microsoft Active Dir
 |----------------|-----------|--------------|
 |AD|Connection to Microsoft Active Directory.|The URL of the host machine where Microsoft Active Directory is installed.|
 
-For information about setting up the spoke, see [Set up Microsoft Active Directory spoke](../../integrationhub-store-spokes/task/set-up-ad.md#).
+For information about setting up the spoke, see [Set up Microsoft Active Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ad.md).
 

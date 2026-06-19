@@ -2,6 +2,7 @@
 title: Restore base plugins
 description: Repair the plugins in the specified order to restore the base functionality that is required for the problem state model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/restore-base-plugins.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -39,5 +40,5 @@ New York Patch 9, or Orlando Patch 3 or later are required before you can see an
 
 ## What to do next
 
-[Resolve blocking and warning modifications](resolve-blocking-warning-modifi.md).
+[Resolve blocking and warning modifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/resolve-blocking-warning-modifi.md).
 

@@ -2,6 +2,7 @@
 title: Create and manage queue triggers
 description: Create and manage queue triggers to set off multiple actions during customer wait times for a particular queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-create-queue-triggers.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

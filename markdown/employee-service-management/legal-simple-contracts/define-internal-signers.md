@@ -2,6 +2,7 @@
 title: Define a user as an internal signer
 description: Define a user as an internal signer so that the signer can be added to a contract template to automatically populate in a contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/define-internal-signers.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -51,7 +52,7 @@ Authorized signatory name
 
 </td><td>
 
-Legal name of the selected user.The legal name is fetched from the [Employee Profile form](../../employee-center/reference/employee-profile-fieldconfig.md).
+Legal name of the selected user.The legal name is fetched from the [Employee Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-profile-fieldconfig.md).
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: REST API Auth Scope
 description: Use the REST API Auth Scope to provide access to a specific REST API
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/rest-api-auth-scope.html
 release: australia
 product: Authentication
 classification: authentication
@@ -23,7 +24,7 @@ After creating REST API Auth Scope record, to access this REST API you must asso
 
 You must manually link the Auth scope within the OAuth Entity. The `useraccount` is a special scope, if it’s associated with an OAuth Entity it can access any API even if you have created a REST API Auth Scope record with a different auth scope.
 
-To learn more about how to use the API Auth Scope in the new Inbound integration experience, see [Inbound integrations](../../../integrate/machine-identity/concept/inbound-integrations.md).
+To learn more about how to use the API Auth Scope in the new Inbound integration experience, see [Inbound integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/inbound-integrations.md).
 
 **Note:**
 

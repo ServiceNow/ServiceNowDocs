@@ -2,6 +2,7 @@
 title: Serial number types for identification
 description: As Discovery finds CIs, their serial numbers are listed in the Serial Number \[cmdb\_serial\_number\] table so they are easy to identify. Serial number types vary depending on the CI, as described in the following examples.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_SerialNumberTypes.html
 release: australia
 product: Discovery
 classification: discovery
@@ -65,5 +66,5 @@ For SNMP, the mapping below is based on the code. Physical types of serial numbe
 'standard' : 'iso.org.dod.internet.private.enterprises.apc.products.hardware.ups.upsIdent.upsAdvIdent.upsAdvIdentSerialNumber'
 ```
 
-**Parent Topic:**[Discovery identifiers](../concept/c_DiscoveryIdentifiers.md)
+**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 

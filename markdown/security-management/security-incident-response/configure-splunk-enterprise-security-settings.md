@@ -2,6 +2,7 @@
 title: Configure Splunk Enterprise Security settings
 description: Use the Splunk Enterprise Security \(ES\) settings to modify the preset configurations and their values as per your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-splunk-enterprise-security-settings.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

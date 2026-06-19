@@ -2,6 +2,7 @@
 title: Investigate inbound REST API rate limit violations
 description: Investigate rate limit violations to determine which rate limit rules are being exceeded and which users are exceeding those rate limits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/investigate-rate-limit-violations.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -36,5 +37,5 @@ Violations are created when inbound REST API requests reach the maximum allowed 
 
 You may need to reevaluate the **Request limit per hour** value for a rate limit rule, depending on the number of violations of that rule. You may also need to educate users about rate limits, depending on how many times specific users violate rate limit rules.
 
-**Parent Topic:**[Inbound REST API rate limiting](../concept/inbound-REST-API-rate-limiting.md)
+**Parent Topic:**[Inbound REST API rate limiting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/inbound-REST-API-rate-limiting.md)
 

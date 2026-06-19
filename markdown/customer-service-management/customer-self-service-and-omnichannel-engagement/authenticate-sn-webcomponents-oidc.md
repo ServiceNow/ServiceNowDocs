@@ -2,6 +2,7 @@
 title: Authenticate the ServiceNow components using OIDC
 description: Set up auto-login and log out using OpenID Connect \(OIDC\) authentication to enable single and simultaneous login and logout in your website and embedded components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/authenticate-sn-webcomponents-oidc.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -33,7 +34,7 @@ Once the embeddable components are integrated into your website, you’re automa
 
     **Note:**
 
-    -   For more information, see [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
+    -   For more information, see .
     -   The OIDC IdP should match the IdP that you use to log in to the website.
 2.  Synchronize user records on the IdP with your ServiceNow instance.
 

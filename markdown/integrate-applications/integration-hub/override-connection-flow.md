@@ -2,6 +2,7 @@
 title: Override a connection in a flow
 description: Override a connection for a flow, subflow, or action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/override-connection-flow.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Override a connection for a flow, subflow, or action.
 
 ## Before you begin
 
-For details about flow overrides, including how they affect actions with dynamic inputs and how multiple overrides are applied, see [Supporting multiple connections](../concept/support-multiple-connections.md).
+For details about flow overrides, including how they affect actions with dynamic inputs and how multiple overrides are applied, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
 
 Role required: flow\_designer or admin
 
@@ -27,7 +28,7 @@ Role required: flow\_designer or admin
 
 2.  Select the flow or subflow that has the connection you want to modify.
 
-3.  Click the More actions icon \(![More actions icon](../images/more-actions-menu-icon.png)\), and select **Configure connections**.
+3.  Click the More actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Configure connections**.
 
 4.  In the Configure Connections window, identify the alias associated with the connection that you want to override and select a new connection from the list.
 

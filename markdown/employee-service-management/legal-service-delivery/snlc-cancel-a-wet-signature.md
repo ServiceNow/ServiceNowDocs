@@ -2,13 +2,14 @@
 title: Cancel a wet signature process for non-disclosure agreement legal requests
 description: As a legal user, cancel the wet signature process for contract documents in NDA legal requests that have been sent to signatories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-cancel-a-wet-signature.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Signature workflow for a request, Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Signature workflow for a request, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Cancel a wet signature process for non-disclosure agreement legal requests
@@ -27,15 +28,15 @@ The state of the contract request should be Awaiting signature.
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d715655e74">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d282432e74">
 
 Method
 
-</th><th align="left" id="d715655e77">
+</th><th align="left" id="d282432e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d715655e83">
+</th></tr></thead><tbody><tr><td id="d282432e83">
 
 **__Employee Center__**
 
@@ -46,7 +47,7 @@ Actions
 3.  Open the non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d715655e116">
+</td></tr><tr><td id="d282432e116">
 
 **__Legal Service Portal__**
 
@@ -68,5 +69,5 @@ Actions
 
 The contract status updates to Signature cancelled, and a notification email is sent to all signatories.
 
-**Parent Topic:**[Signature workflow for a request](../concept/snlc-lsd-signature-workflow.md)
+**Parent Topic:**[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
 

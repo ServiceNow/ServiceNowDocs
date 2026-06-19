@@ -2,6 +2,7 @@
 title: Managing credit card service requests
 description: By using the credit card service case and associated tasks, you can manage credit card service requests that you receive from your customers for your financial institution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/managing-credit-card-service-case-tasks.html
 release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -37,5 +38,5 @@ Each request type has a dedicated flow that triggers tasks from the parent credi
 
 To resolve cases, agents perform activities such as gathering documents, performing credit assessments, and changing credit limits for the tasks assigned to them.
 
-Both the case and its tasks are assigned to the assignment groups or agents by using assignment rules. For more information on assignment groups that are installed with the application, see [Configure groups](../../fso-common/task/configure-groups-fso.md).
+Both the case and its tasks are assigned to the assignment groups or agents by using assignment rules. For more information on assignment groups that are installed with the application, see [Configure groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-groups-fso.md).
 

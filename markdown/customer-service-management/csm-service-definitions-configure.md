@@ -2,7 +2,10 @@
 title: Configuring service definitions
 description: Create service definitions for the types of services required to support your products. Associate different features such as case types, playbooks, and record producers with service definitions so that customers can request the services they need and agents can create cases of the right type to support those services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-service-definitions-configure.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -25,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a service definition](../task/create-csm-service-definition.md)
+[Create a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-definition.md)
 
 </td><td>
 
@@ -33,7 +36,7 @@ Create a definition for a service that's offered to support a product.
 
 </td></tr><tr><td>
 
-[Associate a product with a service definition](../task/service-def-associate-products.md)
+[Associate a product with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-products.md)
 
 </td><td>
 
@@ -41,7 +44,7 @@ Configure the relationship between a product and service.
 
 </td></tr><tr><td>
 
-[Associate a case type with a service definition](../task/service-def-associate-case-type.md)
+[Associate a case type with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-case-type.md)
 
 </td><td>
 
@@ -49,7 +52,7 @@ A case type defines the case resolution process for a service definition.
 
 </td></tr><tr><td>
 
-[Associate a playbook with a service definition](../task/service-def-associate-playbook.md)
+[Associate a playbook with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-playbook.md)
 
 </td><td>
 
@@ -57,7 +60,7 @@ A playbook provides step-by-step guidance for resolving a specific type of case.
 
 </td></tr><tr><td>
 
-[Configure user criteria for a service definition](../task/configure-user-criteria-for-a-service-definition.md)
+[Configure user criteria for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-user-criteria-for-a-service-definition.md)
 
 </td><td>
 
@@ -65,7 +68,7 @@ Configure user criteria for a service definition that restricts access to the se
 
 </td></tr><tr><td>
 
-[Configure customer criteria for a service definition](../task/configure-customer-criteria-for-a-service-definition.md)
+[Configure customer criteria for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-criteria-for-a-service-definition.md)
 
 </td><td>
 
@@ -73,7 +76,7 @@ Configure customer criteria for a service definition that restricts access to th
 
 </td></tr><tr><td>
 
-[Configure default field values for a service definition](../task/service-def-default-field-values.md)
+[Configure default field values for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-default-field-values.md)
 
 </td><td>
 
@@ -81,7 +84,7 @@ Configure default values for fields in a service definition's target table. When
 
 </td></tr><tr><td>
 
-[Configure catalog items for a service definition](../task/service-def-config-catalog-items.md)
+[Configure catalog items for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-config-catalog-items.md)
 
 </td><td>
 
@@ -89,7 +92,7 @@ End users can select a catalog item from the service portal and use the record p
 
 </td></tr><tr><td>
 
-[Configure related services for a service definition](../task/service-def-config-related-services.md)
+[Configure related services for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-config-related-services.md)
 
 </td><td>
 
@@ -97,7 +100,7 @@ Associate one or more related services with a service definition to create paren
 
 </td></tr><tr><td>
 
-[Associate service organizations with a service](../task/associate-services-to-service-organization.md)
+[Associate service organizations with a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-services-to-service-organization.md)
 
 </td><td>
 
@@ -105,7 +108,7 @@ After creating a service definition, you can associate organizations offering se
 
 </td></tr><tr><td>
 
-[Create a service definition category](../task/create-csm-service-def-category.md)
+[Create a service definition category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-def-category.md)
 
 </td><td>
 
@@ -113,7 +116,7 @@ Create a category for service definitions. You can use these categories to creat
 
 </td></tr><tr><td>
 
-[Associate service definitions with a category](../task/service-def-category-associate-service.md)
+[Associate service definitions with a category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-category-associate-service.md)
 
 </td><td>
 
@@ -121,7 +124,7 @@ Add service definitions to a category. A category can have one or more associate
 
 </td></tr><tr><td>
 
-[Add a case type to the Case interceptor](../task/service-def-config-case-interceptor.md)
+[Add a case type to the Case interceptor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-config-case-interceptor.md)
 
 </td><td>
 

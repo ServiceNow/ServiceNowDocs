@@ -2,13 +2,14 @@
 title: Proactive Service Experience Workflows and Incident Management within the Service Operations Workspace
 description: You can use the Service Operations Workspace application to get an overview of how a network agent can prioritize tasks and resolve incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/service-operations-workspace-proactive.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Explore, Product Support for Technology]
+breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Proactive Service Experience Workflows and Incident Management within the Service Operations Workspace
@@ -23,11 +24,11 @@ From the **Workspaces** menu, select **Service Operations Workspace** and select
 
     The following example shows the List tab.
 
-    ![List view of all incidents, and tasks, and planned incidents.](../image/list-tab-sow-proactive.png "List tab")
+    \[Omitted image "list-tab-sow-proactive.png"\] Alt text: List view of all incidents, and tasks, and planned incidents.
 
 -   Records: Open any task record to navigate to its record view as shown in the following example.
 
-    ![Record view page of Service Operations Workspace.](../image/record-view-proactive.png "Record view")
+    \[Omitted image "record-view-proactive.png"\] Alt text: Record view page of Service Operations Workspace.
 
 
 ## Example
@@ -58,5 +59,5 @@ The following example demonstrates how Proactive Service Experience Workflows is
     The resolution information is copied down to each case record, while the Major Issue Manager resolves the major case record and any associated cases.
 
 
-**Parent Topic:**[Exploring the Product Support for Technology](../concept/explore-assurance-workflows.md)
+**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 

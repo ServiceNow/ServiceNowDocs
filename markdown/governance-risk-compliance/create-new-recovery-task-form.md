@@ -2,10 +2,11 @@
 title: Create New Recovery task form
 description: Use the Create New Recovery task form in the BCM Configurable Workspace to input the necessary details regarding the recovery task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-recovery-task-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-29"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Add recovery tasks, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -164,7 +165,7 @@ Option to enable clearer visual indicators for different levels of recovery prog
 
 Color coding in the Asset Recovery Level column provides clearer visual indicators for different recovery progress levels.
 
-![Asset Recovery Level column.](../image/asset-reco-level-column.png)The Asset recovery level column is introduced in both recovery tasks and event tasks. You can select the "Recovery Level" of asset. It will be updated once all tasks with similar recovery level are completed.
+\[Omitted image "asset-reco-level-column.png"\] Alt text: Asset Recovery Level column.The Asset recovery level column is introduced in both recovery tasks and event tasks. You can select the "Recovery Level" of asset. It will be updated once all tasks with similar recovery level are completed.
 
 The "Asset Recovery Level" column has been added to both recovery tasks and event tasks, enabling you to select the recovery level for an asset. Once all associated tasks with the same recovery level are completed, the asset's state is auto-updated.
 
@@ -239,6 +240,14 @@ Recovery team
 
 Recovery team that the recovery task is assigned to.
 
+</td></tr><tr><td>
+
+All assets from plan
+
+</td><td>
+
+Specifies the asset scope for the recovery task. Defaults to all assets defined in the plan. Narrow the scope when the task applies only to a subset of the plan's assets.
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Plan details
@@ -266,6 +275,14 @@ Recovery strategy
 </td><td>
 
 Recovery strategy defined on the **Recovery strategy** tab.
+
+</td></tr><tr><td>
+
+Plan loss scenario
+
+</td><td>
+
+Scopes the recovery task to a specific loss scenario defined in the plan, such as Loss of Datacenters. Tasks scoped to a loss scenario are surfaced only when the plan is exercised under that scenario type. The **Plan loss scenario** and **Task group** columns appear on the **Recovery tasks** tab of the loss scenario record.
 
 </td></tr><tr><td>
 
@@ -300,5 +317,5 @@ Backup assignee
 Assignees that are used as a backup if the automated task fails during the execution.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add recovery tasks](../task/add-a-recovery-task.md)
+</table>**Parent Topic:**[Add recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-a-recovery-task.md)
 

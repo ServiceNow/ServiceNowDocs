@@ -2,7 +2,10 @@
 title: Create a product case from the Customer Service Portal
 description: Create a case about a question or issue on a product from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateACaseFromCustPortal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

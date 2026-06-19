@@ -2,6 +2,7 @@
 title: TISC integration with SIR Workspace
 description: TISC integration with SIR Workspace automatically provides context for observables in the security incident workspace for security analysts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-integration-with-sir-workspace.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

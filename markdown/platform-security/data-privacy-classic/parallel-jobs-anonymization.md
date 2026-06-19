@@ -2,6 +2,7 @@
 title: Activate parallel jobs for data anonymization
 description: Use parallel jobs to reduce your anonymization job execution time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/parallel-jobs-anonymization.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic

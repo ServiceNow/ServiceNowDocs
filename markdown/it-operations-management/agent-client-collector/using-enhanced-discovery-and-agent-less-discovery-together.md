@@ -2,6 +2,7 @@
 title: Using push-based Discovery and horizontal IP-based Discovery together
 description: Discovery performed by Agent Client Collector for Visibility - Content \(ACC-VC\) is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -16,7 +17,7 @@ breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client C
 
 Discovery performed by Agent Client Collector for Visibility - Content \(ACC-VC\) is compatible and can coexist with horizontal IP-based Discovery. You may have ACC installed on a given target host and still have that host as part of a horizontal IP-based Discovery schedule as well.
 
-To avoid conflicts, ACC-VC does not perform Discovery when the target host’s IP already has a CI that has been discovered by horizontal IP-based Discovery \(discovery\_source is ServiceNow\). To override this behavior, set the system property \[**sn\_agent.disco\_disable\_ci\_clobber\_of\_agentless\_disco**\] to false. This setting is ignored if horizontal IP-based Discovery was not performed over a specific time. Update the system property \[**sn\_agent.disco\_ci\_clobber\_of\_agentless\_disco\_threshold\_days**\] if necessary. The default is 14 days. See [System properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) for more details.
+To avoid conflicts, ACC-VC does not perform Discovery when the target host’s IP already has a CI that has been discovered by horizontal IP-based Discovery \(discovery\_source is ServiceNow\). To override this behavior, set the system property \[**sn\_agent.disco\_disable\_ci\_clobber\_of\_agentless\_disco**\] to false. This setting is ignored if horizontal IP-based Discovery was not performed over a specific time. Update the system property \[**sn\_agent.disco\_ci\_clobber\_of\_agentless\_disco\_threshold\_days**\] if necessary. The default is 14 days. See System properties for more details.
 
 To enable Discovery using Agent Client Collector, enable the following Discovery properties on the Discovery properties page \(**All** &gt; **Discovery Definition** &gt; **Properties**\):
 
@@ -49,5 +50,5 @@ Enables cleanup for software’s name and version. If set to **true**, it remove
  **Note:** Once the property is set to **false**, to disable the cleanup, duplicate records are generated for a given software. Name and Version are the primary identifiers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Discovery](acc-discovery.md)
+</table>**Parent Topic:**[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-discovery.md)
 

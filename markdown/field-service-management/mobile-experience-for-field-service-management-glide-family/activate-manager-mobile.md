@@ -2,6 +2,7 @@
 title: Activate Field Service Manager Mobile
 description: Activate the Field Service Manager Mobile app to let managers effectively manage their teams from their mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-manager-mobile.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -19,7 +20,7 @@ Activate the Field Service Manager Mobile app to let managers effectively manage
 
 Role required: admin
 
-For more information on how Field Service Manager Mobile works, see [Field Service Manager Mobile](../concept/manager-mobile-app.md).
+For more information on how Field Service Manager Mobile works, see [Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/manager-mobile-app.md).
 
 ## Procedure
 
@@ -33,6 +34,6 @@ For more information on how Field Service Manager Mobile works, see [Field Servi
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

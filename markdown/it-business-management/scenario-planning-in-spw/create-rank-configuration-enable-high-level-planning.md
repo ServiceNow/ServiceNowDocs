@@ -2,6 +2,7 @@
 title: Create rank configuration for high-level planning
 description: To enable high-level planning on a table that is not a planning item in Strategic Planning Workspace, create a rank configuration for the global rank column of the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-rank-configuration-enable-high-level-planning.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ To enable high-level planning on a table that is not a planning item in Strategi
 
 ## Before you begin
 
-[Create global rank column for high-level planning](create-global-rank-field-to-enable-high-level-planning.md).
+[Create global rank column for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-global-rank-field-to-enable-high-level-planning.md).
 
 Role required: admin
 
@@ -67,5 +68,5 @@ Global rank column of your table.
 
 ## What to do next
 
-Create a portfolio plan configuration for your high-level planning table. See [Create portfolio plan configuration for high-level planning](create-portfolio-plan-configuration-for-high-level-planning.md).
+Create a portfolio plan configuration for your high-level planning table. See [Create portfolio plan configuration for high-level planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-portfolio-plan-configuration-for-high-level-planning.md).
 

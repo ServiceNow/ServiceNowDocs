@@ -2,7 +2,10 @@
 title: Configure dynamic filters in AI Search for Recommended Actions
 description: Configure AI Search to preprocess contextual inputs from Recommended Actions so that search results are dynamically filtered based on the current record context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-configure-contextual-filtering.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -33,7 +36,7 @@ When preprocessing is implemented, AI Search considers the defined filter condit
 
 2.  In the selected search source, select the **Has Dynamic Filters** check box and select **Save**.
 
-    **Note:** There may be multiple search profiles in your instance. Enable contextual filtering only for the search sources in a profile where you need this functionality. For more information on Search source form, see [Search Source form](https://www.servicenow.com/docs/bundle/zurich-platform-administration/page/administer/ai-search/reference/search-source-form-ais.html).
+    **Note:** There may be multiple search profiles in your instance. Enable contextual filtering only for the search sources in a profile where you need this functionality. For more information on Search source form, see Search Source form.
 
 3.  Create the AisDynamicFilter implementation for search sources.
 

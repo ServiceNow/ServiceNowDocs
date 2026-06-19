@@ -2,6 +2,7 @@
 title: Configure the goals set for goal insights generation
 description: Configure the filter criteria for the Goal insights generation scheduled job to define the set of goals for which insights are automatically generated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-goals-set-goal-insights-generation.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -24,7 +25,7 @@ Role required: sn\_gf.goal\_admin
 
 By default, the Goal insights generation job runs on the predefined set of goals using the goals filter criteria \(**Goal insights generation filter**\) in the system. If the predefined filter criteria doesn’t match goals set that you want to run the job, administrators must edit the predefined filter criteria to run the goal insights generation job on the specific set of goals as required.
 
-![Default goals set for goal insights generation.](../image/default-goals-set-for-goal-insights-generation.png "Goal insights generation filter")
+\[Omitted image "default-goals-set-for-goal-insights-generation.png"\] Alt text: Default goals set for goal insights generation.
 
 **Tip:** Defining a precise goals set helps optimize AI resource usage and prevents excessive token consumption.
 
@@ -38,13 +39,15 @@ If a goal does not match the configured filter criteria, users can still generat
 
 2.  Select the predefined goals list view by navigating to **List controls** &gt; **Filters** &gt; **Goal insights generation filter**
 
-    ![Goal insights generation filter.](../image/goal-insights-generation-filter.png)
+    \[Omitted image "goal-insights-generation-filter.png"\] Alt text: Goal insights generation filter.
 
-3.  Select the Show / hide filter icon \(![Show or hide filter icon.](../image/goal-insights-filter-icon.png)\).
+3.  Select the Show / hide filter icon \(\[Omitted image "goal-insights-filter-icon.png"\] Alt text: Show or hide filter icon.\).
 
 4.  Add or edit the filter conditions as needed per your set of goals on which you want to the scheduled job.
 
 5.  Select **Save Filters** to save the filter criteria.
+
+6.  Next to the Visible to option, select **Everyone** and then select **Save**.
 
 
 ## Result
@@ -53,5 +56,5 @@ The filter criteria is saved. The Goal insights generation job processes the goa
 
 ## What to do next
 
-Activate the Goal insights generation scheduled job to automatically generate AI-driven insights for a predefined set of goals at a scheduled frequency. For details, see [Activate and configure the Goal insights generation job](activate-goal-insights-generation-job.md).
+Activate the Goal insights generation scheduled job to automatically generate AI-driven insights for a predefined set of goals at a scheduled frequency. For details, see [Activate and configure the Goal insights generation job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 

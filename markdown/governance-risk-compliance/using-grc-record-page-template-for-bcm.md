@@ -2,6 +2,7 @@
 title: GRC record page template for BCM records
 description: Beginning with the Australia release, the GRC records use the common GRC record page template. You can leverage the new variant of record pages to streamline page creation, simplify maintenance, and minimize the cost of page ownership.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/using-grc-record-page-template-for-bcm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ With standard record page migration, you can configure consistent styling and a 
 
 A record in the BCM application with the GRC record template is shown in the example.
 
-![Header of a record page.](../image/bcm-record-with-record-template.png)
+\[Omitted image "bcm-record-with-record-template.png"\] Alt text: Header of a record page.
 
 **Note:** If you are upgrading to the version 17.x apps, you can also revert to the previous record page.
 
@@ -25,8 +26,8 @@ A record in the BCM application with the GRC record template is shown in the exa
 
 The stepper component on the **Overview** tab shows the progression of the states for the record.
 
--   **[Stepper component in the Overview tab of the records](stepper-component.md)**  
+-   **[Stepper component in the Overview tab of the records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/stepper-component.md)**  
 The stepper component on the **Overview** tab shows the progression of the states for the record.
 
-**Parent Topic:**[BCM reference](../reference/bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
 

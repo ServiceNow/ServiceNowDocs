@@ -2,6 +2,7 @@
 title: Managing appointments as a customer
 description: Manage appointments for a service from either the Customer or the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/manage-appts-as-a-customer.html
 release: australia
 product: Appointment Booking
 classification: appointment-booking

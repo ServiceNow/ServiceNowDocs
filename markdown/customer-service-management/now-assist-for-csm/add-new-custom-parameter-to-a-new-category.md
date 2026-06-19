@@ -2,6 +2,7 @@
 title: Add custom parameter to a new category
 description: Create a custom category and add a custom parameter to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/add-new-custom-parameter-to-a-new-category.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

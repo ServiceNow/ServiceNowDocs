@@ -2,13 +2,14 @@
 title: Components installed with Insurance claims
 description: Several types of components are installed with the activation of the Insurance claims application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/components-installed-with-insurance-claims-flow.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Reference, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Insurance claims
@@ -25,8 +26,8 @@ Several types of components are installed with the activation of the Insurance c
 
 |Store application|Description|
 |-----------------|-----------|
-|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](../../fso-common/reference/financial-services-operations-core-data-model.md).|
-|Playbooks in Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, enabling consistent responses to commonly encountered situations. For more information, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md).|
+|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/financial-services-operations-core-data-model.md).|
+|Playbooks in Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, enabling consistent responses to commonly encountered situations. For more information, see .|
 
 ## Roles installed
 
@@ -182,5 +183,5 @@ sn\_ins\_gen\_claim.manager
 |Claim Task \[sn\_ins\_gen\_claim\_task\]|Stores information about a claim task. This table extends the Financial Task \[sn\_bom\_task\] table.|
 |Claim Adjuster Task \[sn\_ins\_gen\_claim\_adj\_task\]|Stores information about an adjuster task for a claim. This table extends the Financial Task \[sn\_bom\_task\] table.|
 
-**Parent Topic:**[Insurance claims reference](../concept/insurance-claims-flow-reference.md)
+**Parent Topic:**[Insurance claims reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-flow-reference.md)
 

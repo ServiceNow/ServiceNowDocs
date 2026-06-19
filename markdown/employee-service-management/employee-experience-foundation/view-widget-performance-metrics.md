@@ -2,6 +2,7 @@
 title: View widget performance metrics
 description: View the metrics provided by the performance window to identify which widgets take the longest to load data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/view-widget-performance-metrics.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,13 +20,13 @@ View the metrics provided by the performance window to identify which widgets ta
 
 Role required: sp\_admin
 
-To track the performance of a custom widget, add a hotspot to the script: [Add hotspots to track custom widget performance](add-hotspots-track-custom-widget-performance.md)
+To track the performance of a custom widget, add a hotspot to the script: [Add hotspots to track custom widget performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-hotspots-track-custom-widget-performance.md)
 
 ## About this task
 
 The **Performance Details** window provides comprehensive tracking of each widget on a page, enabling better assessment of the user experience. You can view load times, customization status, and display visibility for each widget.
 
-![The Performance detailswindow displays widget performance metrics](../images/performance-details.jpg)
+\[Omitted image "performance-details.jpg"\] Alt text: The Performance detailswindow displays widget performance metrics
 
 ## Procedure
 
@@ -33,7 +34,7 @@ The **Performance Details** window provides comprehensive tracking of each widge
 
 2.  Select the clock icon to open the **Performance details** window.
 
-    The clock ![the clock icon to access the performance details page](../images/clock-icon.jpg) icon is located at the bottom-left corner of the screen.
+    The clock \[Omitted image "clock-icon.jpg"\] Alt text: the clock icon to access the performance details page icon is located at the bottom-left corner of the screen.
 
 3.  Click **Enable Performance Stats**.
 
@@ -45,13 +46,13 @@ The **Performance Details** window provides comprehensive tracking of each widge
 
     2.  Click **Impersonate**.
 
-        ![Impersonate button](../images/ec-impersonate.png)
+        \[Omitted image "ec-impersonate.png"\] Alt text: Impersonate button
 
     3.  Select the user to impersonate.
 
     4.  Click on your profile image and **End impersonation**.
 
-        ![End impersonation button](../images/ec-end-impersonation.png)
+        \[Omitted image "ec-end-impersonation.png"\] Alt text: End impersonation button
 
 6.  Select the clock icon to open the **Performance details** window.
 
@@ -64,5 +65,5 @@ The **Performance Details** window provides comprehensive tracking of each widge
 10. Click **Close** when you are done.
 
 
-**Parent Topic:**[Managing portal performance](../concept/improve-manage.md)
+**Parent Topic:**[Managing portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/improve-manage.md)
 

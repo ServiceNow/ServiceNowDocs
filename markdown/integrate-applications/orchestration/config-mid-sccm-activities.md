@@ -2,6 +2,7 @@
 title: Configure the MID Server for SCCM activities
 description: To use a MID Server with Microsoft System Center Configuration Management \(SCCM\) activities, configure it to communicate with the SCCM server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/config-mid-sccm-activities.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -40,7 +41,7 @@ Role required: admin
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring SCCM](../../../product/orchestration/concept/configuring-sccm.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configuring-sccm.md)
 
-**Parent Topic:**[SCCM activity pack](../concept/c_SCCMActivityPack.md)
+**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_SCCMActivityPack.md)
 

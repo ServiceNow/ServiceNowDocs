@@ -2,6 +2,7 @@
 title: Create a work order using Now Assist for Field Service Management \(FSM\)
 description: Use Now Assist for Field Service Management \(FSM\) to create a work order from a text description or an image of the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/create-work-order-now-assist-fsm.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -26,13 +27,13 @@ Role required: wm\_qualifier or wm\_dispatcher or wm\_agent
 
 ## Procedure
 
-1.  Select the Now Assist panel icon ![](../image/now-assist-panel-icon.png).
+1.  Select the Now Assist panel icon \[Omitted image "now-assist-panel-icon.png"\] Alt text:.
 
 2.  Select **Create work order**, or ask Now Assist to create a work order.
 
 3.  Provide a description of the issue for the work order.
 
-    ![The Create work order workflow in the Now Assist Panel.](../image/now-assist-create-wo.png)
+    \[Omitted image "now-assist-create-wo.png"\] Alt text: The Create work order workflow in the Now Assist Panel.
 
     The work order is created.
 

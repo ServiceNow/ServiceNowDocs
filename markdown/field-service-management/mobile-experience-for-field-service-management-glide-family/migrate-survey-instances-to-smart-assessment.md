@@ -2,6 +2,7 @@
 title: Migrate survey instances to Smart Assessment
 description: When you migrate a survey-based questionnaire to Smart Assessment, migrate all the associated instances of a survey to Smart Assessment and re-trigger them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/migrate-survey-instances-to-smart-assessment.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -21,7 +22,7 @@ Migrate survey instances for questionnaires to Smart Assessment by manually runn
 
 This job migrates all instances of a survey to Smart Assessment and re-triggers the instances.
 
-Smart Assessment uses the Smart Assessment Engine to migrate survey instances to Smart Assessment. For more information, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
+Smart Assessment uses the Smart Assessment Engine to migrate survey instances to Smart Assessment. For more information, see .
 
 **Note:**
 

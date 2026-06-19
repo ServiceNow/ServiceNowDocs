@@ -2,6 +2,7 @@
 title: Modify important actions on the Home view of CMDB Workspace
 description: Modify the appearance order and other properties of the important action cards that appear on the Home view of the CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-edit-imp-action.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -115,5 +116,5 @@ Attribute to group by the card's associated tasks in the card's list view. The c
 </table>4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring CMDB Workspace](../concept/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

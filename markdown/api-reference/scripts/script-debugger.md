@@ -2,6 +2,7 @@
 title: Script Debugger and Session Log
 description: The Script Debugger enables users with the script\_debugger role to debug server-side JavaScript. Users with the log\_debugger role can use the Session Log to view and download required logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/script-debugger.html
 release: australia
 product: Scripts
 classification: scripts
@@ -36,14 +37,14 @@ Use the Session Log tab to retrieve the session log for business rules, script i
 -   View logs for Agent Workspace.
 -   Specify debug options to view or download only the required logs.
 
-By default, 100 transactions and 10,000 messages appear on the Session Log tab. If the transaction or message count exceeds the default value, the session log is cleared and the next transactions or messages appear. You can configure this transaction and message count using the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences respectively. For more information about the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences, see [User preference settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UserPreferenceSettings.md).
+By default, 100 transactions and 10,000 messages appear on the Session Log tab. If the transaction or message count exceeds the default value, the session log is cleared and the next transactions or messages appear. You can configure this transaction and message count using the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences respectively. For more information about the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences, see User preference settings.
 
 **Note:** Enable Session Log as a separate tab with Script Debugger using the **glide.debugger.log.ui** system property.
 
 -   The **Page** option displays logs under forms and lists and on the **Session Log** tab.
 -   The **Session** option displays logs only on the **Session Log** tab.
 
-For more information about the **glide.debugger.log.ui** system property, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+For more information about the **glide.debugger.log.ui** system property, see Available system properties.
 
 When you execute a statement in the Console, the executed statement is stored in the browser cache. You can use the up arrow key to get the previous statement and down arrow key to get the next statement from the browser cache. The user preference setting,**glide.debugger.console.cached\_stmt\_limit**, defines the number of statements cached in a browser session. The default statement cache value is 20 and the maximum value is 100. You can configure the statement cache value from user preferences.
 
@@ -60,28 +61,28 @@ To debug client-side scripts, you can use browser-based developers tools.
 
 A debugger transaction remains open as long as the user session is valid. If a user logs out or their session times out, the system closes the debugger transaction.
 
-To view debug logs, see [Display debugging logs](c_SessionDebug.md#).
+To view debug logs, see [Display debugging logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SessionDebug.md).
 
 **Note:** When the Script Debugger is enabled, code is executed in interpreted mode. If parts of the script are set to run in strict mode, the debugger is not able to find the correct objects and the debugger fails. The Script Debugger must run on scripts outside of strict mode.
 
--   **[Access the Script Debugger](../task/launch-script-debugger.md)**  
+-   **[Access the Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/launch-script-debugger.md)**  
 Developers can access the Script Debugger from the application navigator, Studio, or from the syntax editor.
--   **[Script Debugger user interface](../reference/parts-script-debugger-interface.md)**  
+-   **[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/parts-script-debugger-interface.md)**  
 The Script Debugger user interface \(UI\) displays information about breakpoints set, the call stack and line number of the currently executing script line, details about variables and transactions, and status of console.
--   **[Evaluate expressions in runtime using Console](../task/evaluate-expressions.md)**  
+-   **[Evaluate expressions in runtime using Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/evaluate-expressions.md)**  
 Define, declare, and verify new variables and functions while you debug a script in runtime using Console. The script execution must be paused to use Console.
--   **[Set or remove breakpoints](../task/set-remove-breakpoints.md)**  
+-   **[Set or remove breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-remove-breakpoints.md)**  
 Set breakpoints or conditional breakpoints to pause scripts at specific lines, and remove breakpoints when you are done debugging them.
--   **[Set or remove logpoints](../task/set-remove-logpts.md)**  
+-   **[Set or remove logpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-remove-logpts.md)**  
 Set breakpoints or conditional logpoints to log messages to the console at specific lines, and remove logpoints when you are done debugging them.
--   **[Script Debugger multiple developer support](multiple-developer-support.md)**  
+-   **[Script Debugger multiple developer support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/multiple-developer-support.md)**  
 The Script Debugger allows multiple developers to debug their own transactions without affecting each other.
--   **[Script Debugger impersonation support](impersonation-support.md)**  
+-   **[Script Debugger impersonation support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/impersonation-support.md)**  
 You can use the Script Debugger while impersonating another user, but only if the impersonated user has the script\_debugger role and has read access to the target script.
--   **[Script Debugger Scripts - Background support](scripts-background-support.md)**  
+-   **[Script Debugger Scripts - Background support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/scripts-background-support.md)**  
 The Scripts - Background module does not support setting breakpoints directly in the script field. You can however, set breakpoints in the script objects called or triggered by the Scripts - Background module.
--   **[Domain separation and Script Debugger](domain-separation-script-debugging.md)**  
+-   **[Domain separation and Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/domain-separation-script-debugging.md)**  
 Domain separation is supported in Script Debugger. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Debugging scripts](script-debug-overview.md)
+**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-debug-overview.md)
 

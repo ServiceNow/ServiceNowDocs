@@ -2,6 +2,7 @@
 title: Set up the Oracle HCM Cloud spoke
 description: Set up the Oracle HCM spoke to integrate your ServiceNow instance with the Oracle REST APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-the-oracle-hcm-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

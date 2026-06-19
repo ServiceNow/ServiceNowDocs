@@ -2,6 +2,7 @@
 title: Modify the Content Experiences widget
 description: You can edit the banner of your Content Experiences widget to create a modern and unique layout for your content in the Content Experiences widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-edit-cew.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -122,5 +123,5 @@ Sets how the order in which the page and widgets data loads. Choose from:-   **A
 </table>4.  Click **Save**.
 
 
-**Parent Topic:**[Configure employee communications widgets](../concept/employee-comms-widgets.md)
+**Parent Topic:**[Configure employee communications widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-comms-widgets.md)
 

@@ -2,6 +2,7 @@
 title: Definitions of life-cycle values for intangible/logical entities
 description: The intangible/logical life-cycle value pairs represent the overall life cycle of logical assets and CIs as related to their products. A logical or software asset includes items like applications, services, and licenses. The life cycle stage and life cycle stage status values of logical items are visible only in tables related to intangible/logical items in Asset Management and the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-intangible-logical.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -17,7 +18,7 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
 
 ## Definitions
 
-![Relationships between CSDM stages and life cycle values.](../image/csdm-lifecycle-vp-intangible-logical.png)
+\[Omitted image "csdm-lifecycle-vp-intangible-logical.png"\] Alt text: Relationships between CSDM stages and life cycle values.
 
 -   **Ideation life cycle stage**
 
@@ -76,5 +77,5 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
     -   **Retired**: The software is no longer used and its licenses might have been revoked or reassigned.
     -   **Obsolete**: The software is no longer relevant due to security risks, incompatibility, or technological advancements.
 
-**Parent Topic:**[Life cycle of intangible/logical entities](../concept/csdm-lifecycle-logical.md)
+**Parent Topic:**[Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
 

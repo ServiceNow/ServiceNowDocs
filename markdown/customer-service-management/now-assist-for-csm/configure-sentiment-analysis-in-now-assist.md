@@ -2,6 +2,7 @@
 title: Configure sentiment analysis case
 description: Configure Sentiment Analysis to evaluate case sentiment, trends, and reasoning from case inputs, helping agents resolve cases more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-sentiment-analysis-in-now-assist.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -57,21 +58,13 @@ The Sentiment Reasoning field in the record provides details on which factors we
 
     Each skill has a guided setup with multiple steps. A check symbol next to each step indicates whether its setup is complete, partially complete, or incomplete. After configuring a step, select **Save and continue** to move forward, or **Back** to return to a previous step.
 
-4.  Select **Define Trigger** and edit the job schedule period to configure how often the skill will be implemented.
+4.  Select **General details** and edit name and description of the skill.
 
-    To enable a scheduled job for a custom table, follow these steps:
+    Additional information regarding details of the skill are displayed, but can't be edited.
 
-    1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
-    2.  Search and select **Sentiment analysis scheduler job CSM**.
-    3.  Replace the table name sn\_customerservice\_case with the name of your custom table in the script.
-    4.  Select **Update**.
-5.  Select **General details** and edit name and description of the skill.
+5.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
 
-    Additional information regarding details of the skill are displayed, but cannot be edited.
-
-6.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
-
-    **Note:** You cannot modify the input data source.
+    **Note:** You can't modify the input data source.
 
 <table id="id_xlz_fhc_4fc"><thead><tr><th>
 
@@ -103,7 +96,7 @@ Input fields
 
 
 </td></tr></tbody>
-</table>7.  Select **Role attribution**
+</table>6.  Select **Role attribution**
 
     **Note:** You cannot modify the input data source.
 
@@ -136,10 +129,18 @@ Requestor fields
 
 
 </td></tr></tbody>
-</table>8.  Select **Define Availability** to customize how and when the skill capability is active and accessible.
+</table>7.  Select **Define Availability** to customize how and when the skill capability is active and accessible.
 
     -   Select **Skill is always available** so no restrictions are placed on when a skill is available.
     -   Select **Customize skill availability** to define conditions and use the condition builder to configure fields and values.
+8.  Select **Define Trigger** and edit the job schedule period to configure how often the skill will be implemented.
+
+    To enable a scheduled job for a custom table, follow these steps:
+
+    1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
+    2.  Search and select **Sentiment analysis scheduler job CSM**.
+    3.  Replace the table name sn\_customerservice\_case with the name of your custom table in the script.
+    4.  Select **Update**.
 9.  Select **Enable dashboard** to see sentiment analysis across cases.
 
 10. Select **Define access** to determine who can access this skill.
@@ -154,7 +155,7 @@ Requestor fields
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
-11. Toggle to determine if chat recommendation appears in In-product desktop, displaying Now Assist skills on forms and workspaces.
+11. In **Select Display** toggle to determine if chat recommendation appears in In-product desktop, displaying Now Assist skills on forms and workspaces.
 
 12. After selecting **Review and Activate** to examine changes, select **Done** to close the Sentiment Analysis generation settings.
 

@@ -2,6 +2,7 @@
 title: Customize auto-linking for Conversational Integration with Microsoft Teams
 description: Customize auto-linking for user profiles by defining the email Id of the user in any custom table rather than just the User \[sys\_user\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/customize-autolink-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -46,5 +47,5 @@ The auto-linking process searches the user table for the email ID and if found, 
     Once the record is saved, you can initiate the conversation with the bot.
 
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

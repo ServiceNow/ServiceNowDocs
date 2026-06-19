@@ -2,7 +2,10 @@
 title: Add a follow-up set of questions or instructions in a decision tree
 description: Configure a question node in Decision Tree Builder to add follow-up questions or instructions. Answer to these questions either lead to a guidance or a further set of questions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-decision-node-in-gdb.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 3.  Select **Open in Builder**.
 
-4.  In Decision Tree Builder, add a new node by selecting the Add path icon \(![Add path icon](../image/icon-add-path.png)\) on a node.
+4.  In Decision Tree Builder, add a new node by selecting the Add path icon \(\[Omitted image "icon-add-path.png"\] Alt text: Add path icon\) on a node.
 
 5.  Select **Add node**.
 
@@ -41,13 +44,13 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 11. Select the type of answer.
 
-    For a description of the answer types, see [Answer types for questions](../reference/type-of-answer.md).
+    For a description of the answer types, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/type-of-answer.md).
 
     The answer the customer provides is passed to other nodes and paths via input mapping.
 
 12. Link inputs to reuse answers from prior nodes.
 
-    For more information, see [Reuse answers at decision points](map-inputs-in-decision-guidance-node.md).
+    For more information, see [Reuse answers at decision points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/map-inputs-in-decision-guidance-node.md).
 
 13. Add more questions or instructions.
 
@@ -58,6 +61,6 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 Continue building your decision tree.
 
--   Add a next set of questions. For more information, see [Add a follow-up set of questions or instructions in a decision tree](configure-decision-node-in-gdb.md)
--   Provide guidance to agents. For more information, see [Provide actions to agents in a decision tree](configure-guidance-in-gdb.md)
+-   Add a next set of questions. For more information, see [Add a follow-up set of questions or instructions in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-decision-node-in-gdb.md)
+-   Provide guidance to agents. For more information, see [Provide actions to agents in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-guidance-in-gdb.md)
 

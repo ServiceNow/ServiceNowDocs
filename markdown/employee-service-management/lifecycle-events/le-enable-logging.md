@@ -2,6 +2,7 @@
 title: Enable logging for Lifecycle Events
 description: Use the sn\_hr\_le.log\_level system property to enable logging for Lifecycle Events. The log entries that are generated can be used to identify errors or to acquire pertinent data about the processes that ran in a Lifecycle Events case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-enable-logging.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -45,5 +46,5 @@ Role required: sn\_hr\_le.admin
 6.  Select **Update**.
 
 
-**Parent Topic:**[Lifecycle Events logging](../concept/le-logging.md)
+**Parent Topic:**[Lifecycle Events logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-logging.md)
 

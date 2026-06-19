@@ -1,19 +1,21 @@
 ---
 title: Invoice form tabs
-description: The Invoice form includes tabs that store invoice information that an Accounts Payable Specialist can use to perform related tasks.
+description: Descriptions of the tabs on the Invoice form, including details, invoice lines, exceptions, payments, and related records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-form-related-list.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice processing]
 breadcrumb: [Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice form tabs
 
-The Invoice form includes tabs that store invoice information that an Accounts Payable Specialist can use to perform related tasks.
+Descriptions of the tabs on the Invoice form, including details, invoice lines, exceptions, payments, and related records.
 
 <table id="table_c3s_fj1_dwb"><thead><tr><th>
 
@@ -80,5 +82,5 @@ Goods receipts
 Displays the corresponding goods receipt information for the invoice.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create New Invoice form](create-new-invoice-form.md)
+</table>**Parent Topic:**[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)
 

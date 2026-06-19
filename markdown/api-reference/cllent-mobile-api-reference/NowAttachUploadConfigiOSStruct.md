@@ -2,6 +2,7 @@
 title: NowAttachmentUploadConfiguration structure - iOS
 description: The NowAttachmentUploadConfiguration structure enables you to define the configuration information for an attachment that you are uploading to your ServiceNow instance.Sets the upload configuration values for the specified attachment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowAttachUploadConfigiOSStruct.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -88,7 +89,7 @@ String
 Name of the table on the ServiceNow instance that contains the record specified in the **recordSysid** parameter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowAttachmentUploadConfiguration - init\(tableName: String, recordSysId: SysID, fileName: String, contentType: String, encryptionContext: String?\)
 

@@ -2,6 +2,7 @@
 title: REST test steps
 description: Test custom inbound web services and backwards compatibility by making REST calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/rest-test-steps.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -19,7 +20,7 @@ REST requests can only be sent to the current instance. You cannot send a reques
 
 The REST test configuration only supports the XML and JSON response formats. Binary formats are not supported.
 
-You can create tests that include steps from each of the test step configuration categories. The REST test configuration category contains the Send REST Request - Inbound and assert test configurations. Assert steps must immediately follow a **Send REST Request - Inbound** step. You can have multiple REST assert steps following a **Send REST Request - Inbound** step, but the assert steps cannot be separated from the **Send REST Request - Inbound** step by steps from other test categories. For more information about the REST test steps, see [REST category](../reference/test-steps-rest-category.md#).
+You can create tests that include steps from each of the test step configuration categories. The REST test configuration category contains the Send REST Request - Inbound and assert test configurations. Assert steps must immediately follow a **Send REST Request - Inbound** step. You can have multiple REST assert steps following a **Send REST Request - Inbound** step, but the assert steps cannot be separated from the **Send REST Request - Inbound** step by steps from other test categories. For more information about the REST test steps, see [REST category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/test-steps-rest-category.md).
 
 ## Authentication
 
@@ -32,5 +33,5 @@ When you use the REST API Explorer to create and test a request, and the request
 
 To address the issue of user credentials, you can create a basic-authentication profile for a test user and then on the **Send REST Request - Inbound** form, specify that the profile be used when the test is run.
 
-**Parent Topic:**[Server test steps](server-test-steps.md)
+**Parent Topic:**[Server test steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/server-test-steps.md)
 

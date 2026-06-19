@@ -2,11 +2,12 @@
 title: Add a Software Asset Management Foundation plugin custom license metric
 description: You can add a custom license metric to modify the default reconciliation process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Software Asset Management Foundation plugin Administration, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
@@ -25,7 +26,7 @@ Custom license metrics can be created to define specific software calculations n
 
 For example, you can create a custom metric to avoid over counting installs for products that are part of an unrecognized bundle.
 
-Custom metrics can be disabled using the custom license metric [property](../reference/sam-properties-samf.md). This feature is enabled by default.
+Custom metrics can be disabled using the custom license metric [property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/sam-properties-samf.md). This feature is enabled by default.
 
 ## Procedure
 
@@ -103,5 +104,5 @@ The calculation method for the license metric is script. Specify the reconciliat
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Software Asset Management Foundation plugin Administration](../concept/c_SAMAdministrationSAMF.md)
+**Parent Topic:**[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
 

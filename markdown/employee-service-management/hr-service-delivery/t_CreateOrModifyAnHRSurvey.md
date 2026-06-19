@@ -2,6 +2,7 @@
 title: Add or modify an HR survey
 description: You can modify the predefined HR satisfaction surveys to suit the needs of the organization, and create HR surveys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyAnHRSurvey.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,7 +24,7 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.manager
 
 For example, to create an HR survey to gauge the employee satisfaction of HR processes or services.
 
-The following steps describe how to work with survey questions in the Survey Definition form. You can also click **Survey Designer** to open the survey and its questions in the survey designer. When you save the survey, the survey definition is automatically added. See [Survey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesigner.md).
+The following steps describe how to work with survey questions in the Survey Definition form. You can also click **Survey Designer** to open the survey and its questions in the survey designer. When you save the survey, the survey definition is automatically added. See Survey designer.
 
 ## Procedure
 
@@ -33,10 +34,10 @@ The following steps describe how to work with survey questions in the Survey Def
 
 3.  Complete the form.
 
-    **Note:** Some fields were eliminated for HR. See [Modify a survey definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ModifySurveyDefinitions.md) for more information.
+    **Note:** Some fields were eliminated for HR. See Modify a survey definition for more information.
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[HR surveys](../concept/c_HRSurveysIst.md)
+**Parent Topic:**[HR surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRSurveysIst.md)
 

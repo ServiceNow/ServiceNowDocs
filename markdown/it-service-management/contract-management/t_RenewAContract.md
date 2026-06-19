@@ -2,6 +2,7 @@
 title: Renew a contract
 description: After you have created a contract or the contract has expired, you can renew the contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/t\_RenewAContract.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -26,7 +27,7 @@ Role required: admin, contract\_manager\(core UI or Hardware Asset Workspace onl
 -   Contract information and history is retained when a contract is renewed. If the end date of the contract changes, the end date of any associated assets changes to match. You can renew a contract that meets the following conditions.
     -   **State** is **Active** or **Expired**
     -   **Substate** is **None** or **Rejected**
--   If the system property **sn\_contract\_enable\_renewal\_flow** is enabled, the contract renewal workflow is available for maintenance &amp; warranty contracts. For more information, see [Contract renewal workflow](../concept/cont-renew-wf.md).
+-   If the system property **sn\_contract\_enable\_renewal\_flow** is enabled, the contract renewal workflow is available for maintenance &amp; warranty contracts. For more information, see [Contract renewal workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/cont-renew-wf.md).
 
 ## Procedure
 
@@ -70,5 +71,5 @@ Role required: admin, contract\_manager\(core UI or Hardware Asset Workspace onl
 
 If you selected the **Save** option, ensure that you click **Renew** when you are ready to submit the contract renewal for approval.
 
-**Parent Topic:**[Adjust a contract](t_AdjustAContract.md)
+**Parent Topic:**[Adjust a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_AdjustAContract.md)
 

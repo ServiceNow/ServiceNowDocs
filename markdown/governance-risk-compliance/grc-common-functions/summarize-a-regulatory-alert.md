@@ -2,6 +2,7 @@
 title: Activate the Regulatory alert summarization skill
 description: Activate and then configure the summarization skill from Now Assist to generate a brief summary of a regulatory alert by selecting the specific fields you would like included in the summary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/summarize-a-regulatory-alert.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -49,9 +50,9 @@ Also, define when the skill must be available: should it be available at all tim
 
     You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
 
-    -   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md)
-    -   [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
-    -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md)
+    -   
+    -   
+    -   
 <table id="id_o2v_k4c_cfc"><thead><tr><th>
 
 Field
@@ -119,7 +120,7 @@ Template used for this skill.
 
     These fields provide essential context to the LLM while preserving data integrity. Two input templates are defined based on the record’s state: one for the Default state and another for the New state. Each template includes rule conditions that determine when it’s applied. To enrich the context further, related tables are included, specifically linking regulatory alerts to taxonomy data using fields like taxonomy name and taxonomy category. This setup helps ensure that the LLM receives structured, relevant, and contextual information.
 
-    For more information, see [Choose input data form](../reference/input-data-rcm-skill.md).
+    For more information, see [Choose input data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/input-data-rcm-skill.md).
 
 6.  To specify the conditions when the skill becomes available, select **Define availability**.
 

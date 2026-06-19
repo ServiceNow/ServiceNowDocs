@@ -2,6 +2,7 @@
 title: Engagement Messenger for Customer Service Management
 description: By using the ServiceNow Engagement Messenger application, your customers use self-service to find the information or service that they need from your third-party web applications that are outside of the ServiceNow environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ By using the ServiceNow® Engagement Messenger application, your customers use s
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Engagement Messenger benefits
 
@@ -36,7 +37,7 @@ Engagement Messenger provides the following benefits:
     -   Walk-up appointment booking
     -   Knowledge article search that is powered by ServiceNow® AI Search
 
-For more information about the Engagement Messenger application, see [Features of Engagement Messenger](features-of-engagement-messenger.md).
+For more information about the Engagement Messenger application, see [Features of Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/features-of-engagement-messenger.md).
 
-To get started with the Engagement Messenger application, see [Set up Engagement Messenger](setting-up-engagement-messenger.md).
+To get started with the Engagement Messenger application, see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
 

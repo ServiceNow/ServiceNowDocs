@@ -2,6 +2,7 @@
 title: Configuring UiPath with Automation Center
 description: Easily view and analyze UiPath data from Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/uipath-config.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -17,7 +18,7 @@ Easily view and analyze UiPath data from Automation Center.
 
 You can view and analyze UiPath data in Automation Center using the Automation Center API and UiPath spoke. However, using UiPath spoke is more efficient and less time-consuming.
 
-Before configuring UiPath with Automation Center, you must install the UiPath spoke on your instance. For more details, see [UiPath spoke](../../../administer/integrationhub-store-spokes/concept/uipath-spoke.md).
+Before configuring UiPath with Automation Center, you must install the UiPath spoke on your instance. For more details, see [UiPath spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/uipath-spoke.md).
 
 After the UiPath spoke is installed, the following two options are available:
 
@@ -28,10 +29,10 @@ If an issue occurs while processing the UiPath data, an error message along with
 
 **Note:** The number of days the error records will be stored in the table is defined in the Automation Center purge system property \(sn\_ac.purge\_automation\_data\_in\_days\).
 
--   **[Create UiPath webhook registry](../task/webhook-registry.md)**  
+-   **[Create UiPath webhook registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/webhook-registry.md)**  
 Create UiPath webhook registries to establish a connection between UiPath and Automation Center.
--   **[Set UiPath WebHook routing policies](../task/routing-policies.md)**  
+-   **[Set UiPath WebHook routing policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/routing-policies.md)**  
 Set the UiPath WebHook routing policies to enable the data to get populated in the ServiceNow tables, and then used by Automation Center.
 
-**Parent Topic:**[Configuring Automation Center](automation-center-setup.md)
+**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-setup.md)
 

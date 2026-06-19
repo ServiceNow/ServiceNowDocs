@@ -2,13 +2,14 @@
 title: Retrieving Space Occupancy Data
 description: Retrieve the Space Occupancy Data table for loading workplace occupancy data and space occupancy data insights for a selected workplace location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/space-occupancy-data.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setup Workplace Connectors for occupancy data, Configure Workplace Connectors, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Retrieving Space Occupancy Data
@@ -88,12 +89,12 @@ To check for occupancy status of a space in the location directory \(Card view a
 
     The retrieved space occupancy data can be used to verify the following use cases:
 
-    -   Showing the occupancy data in the Location Directory. For more information, see [Manage workplace activities and services with Location directory](../../workplace-service-delivery/concept/location-directory.md).
-    -   Automatic reservation check-in. For more information, see [Configure automatic check-in for reserved spaces](../../wsd-reservation-management/concept/configure-rsv-check-in.md).
+    -   Showing the occupancy data in the Location Directory. For more information, see [Manage workplace activities and services with Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+    -   Automatic reservation check-in. For more information, see [Configure automatic check-in for reserved spaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-rsv-check-in.md).
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](../concept/setup-occupancy-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Previous topic:**[Retrieving Action Configurations data](actions-configurations-occupancy.md)
+**Previous topic:**[Retrieving Action Configurations data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/actions-configurations-occupancy.md)
 
-**Next topic:**[Archive and Purge space occupancy data](archive-purge-occupancy-data.md)
+**Next topic:**[Archive and Purge space occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/archive-purge-occupancy-data.md)
 

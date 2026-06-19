@@ -2,13 +2,14 @@
 title: Preview and sign closed work orders from the Customer or Consumer Service Portal
 description: As a customer, you can digitally sign work orders that are closed and in the Closed Complete or Closed Incomplete state to provide confirmation that the work order should be closed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/customer-experience-for-field-service-management/preview-sign-wo-csm-portal.html
 release: australia
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
+breadcrumb: [Customer self service, Use, Field Service Management]
 ---
 
 # Preview and sign closed work orders from the Customer or Consumer Service Portal

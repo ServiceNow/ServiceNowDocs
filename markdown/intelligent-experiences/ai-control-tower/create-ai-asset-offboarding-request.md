@@ -2,6 +2,7 @@
 title: Create offboarding requests for AI assets
 description: Create an offboarding request to retire AI assets that are no longer needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-asset-offboarding-request.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

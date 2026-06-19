@@ -2,6 +2,7 @@
 title: Use Wi-Fi access logs from Mist Systems
 description: Identify potentially exposed employees using Wi-Fi access logs from Mist Systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/identify-exposed-employees-wifi-logs.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -29,19 +30,19 @@ ServiceNow Contact Tracing integrates with an external application, Mist Systems
 
     -   By default, the asset data is available in the Computer table \[cmdb\_ci\_computer\]. If you are using a different table, specify it using the **sn\_imt\_tracing.wifi\_client\_table** property.
     -   Ensure that the MAC address is populated in the **mac\_address** field in the table that has the asset data.
-    For more information, see [System properties for tracing systems in Emergency Exposure Management](../../business-continuity/reference/list-of-tracing-system-sys-properties.md).
+    For more information, see [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md).
 
 2.  Set up the Contact Tracing BLE properties.
 
     -   By default, the asset data is available in the Wearable Technology \[cmdb\_ci\_wearable\] table. If you are using a different table, specify it using the **sn\_imt\_tracing.wifi\_ble\_client\_table** property.
     -   Ensure that the MAC address is populated in the **mac\_address** field in the table that has the asset data.
-    **Note:** The Wearable Technology \[cmdb\_ci\_wearable\] table is installed with the CMDB CI Class Models application available on ServiceNow Store. For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-iot.md).
+    **Note:** The Wearable Technology \[cmdb\_ci\_wearable\] table is installed with the CMDB CI Class Models application available on ServiceNow Store. For more information, see CMDB CI Class Models.
 
-    For more information on adding BLE-enabled devices or other wearable devices, see [Add wearable devices assigned to employees](add-wearable-devices.md).
+    For more information on adding BLE-enabled devices or other wearable devices, see [Add wearable devices assigned to employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/add-wearable-devices.md).
 
 3.  Set up an organization and load sites.
 
-    For more information, see [Set up an organization and load sites](set-up-organization.md).
+    For more information, see [Set up an organization and load sites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-organization.md).
 
 4.  Indicate that the diagnostic data should be accessed from Mist Systems.
 
@@ -73,12 +74,12 @@ ServiceNow Contact Tracing integrates with an external application, Mist Systems
 
     3.  Click **Run Diagnostics**.
 
-    For more information about how to run a diagnostic request, see [Run a diagnostic request](../../business-continuity/task/use-emergency-exposure-mgnt.md).
+    For more information about how to run a diagnostic request, see [Run a diagnostic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/use-emergency-exposure-mgnt.md).
 
 
 ## Result
 
 Mist Systems identifies the MAC addresses of the affected user for the specified start date and end date. The MAC addresses identify the zones visited by the affected employee. Potentially exposed employees who visited those zones are identified and displayed in the related list of the diagnostic request.
 
-**Parent Topic:**[Retrieving Wi-Fi access log data](../concept/wifi-access-management.md)
+**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/wifi-access-management.md)
 

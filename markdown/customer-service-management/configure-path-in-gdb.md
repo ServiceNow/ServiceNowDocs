@@ -2,7 +2,10 @@
 title: Determine the next node displayed in a decision tree
 description: Configure a path in Decision Tree Builder to set the conditions for when the next question or a guidance is displayed in a decision tree.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-path-in-gdb.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -31,7 +34,7 @@ Because you can add a question node only after a guidance node, the path configu
 
 3.  Select **Open in Builder**.
 
-4.  In Decision Tree Builder, select the Add path icon \(![Add path icon](../image/icon-add-path.png)\) on a node.
+4.  In Decision Tree Builder, select the Add path icon \(\[Omitted image "icon-add-path.png"\] Alt text: Add path icon\) on a node.
 
     A new path and a new node are added to the canvas.
 
@@ -58,6 +61,6 @@ Because you can add a question node only after a guidance node, the path configu
 
 Continue building your decision tree.
 
--   Add a next set of questions. For more information, see [Add a follow-up set of questions or instructions in a decision tree](configure-decision-node-in-gdb.md).
--   Provide guidance to agents. For more information, see [Provide actions to agents in a decision tree](configure-guidance-in-gdb.md)
+-   Add a next set of questions. For more information, see [Add a follow-up set of questions or instructions in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-decision-node-in-gdb.md).
+-   Provide guidance to agents. For more information, see [Provide actions to agents in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-guidance-in-gdb.md)
 

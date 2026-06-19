@@ -2,6 +2,7 @@
 title: Configure the property for 3E integration
 description: Configure the property that enables retrieving safety data sheets, SOP’s and other metadata from the 3E database to the chemical library. This property enables users to have the necessary safety information before they use the chemical.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-configure-property-3e-integration.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -34,5 +35,5 @@ The \[sn\_hs\_connector\_co.3e\_source\] property value is the unique identifier
 3.  Select **Save**.
 
 
-**Parent Topic:**[3E Protect](../../hs-integration-third-party/concept/hs-3e-protect.md)
+**Parent Topic:**[3E Protect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-3e-protect.md)
 

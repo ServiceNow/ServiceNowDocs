@@ -2,6 +2,7 @@
 title: Configure grid for BIA assessment
 description: Configure the grid to render the BIA dependency assessment grid with configured columns. Use the Grid Configurations module in the Business Continuity Management application navigator to configure the grid.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-grid-configuration-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,13 +26,13 @@ Role required: sn\_bcm.admin
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Grid configuration record form](../reference/grid-configuration-record-form.md).
+    For more information, see [Grid configuration record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grid-configuration-record-form.md).
 
 4.  Select **Submit**.
 
 
--   **[Grid configuration record form](../reference/grid-configuration-record-form.md)**  
+-   **[Grid configuration record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grid-configuration-record-form.md)**  
 Use the Grid configuration record form to set up the BIA assessment grid in the classic Workspace.
 
-**Parent Topic:**[General administration setup for BCM](../concept/set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

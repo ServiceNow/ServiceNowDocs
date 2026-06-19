@@ -2,6 +2,7 @@
 title: Configure access to an entity's related records
 description: Configure access to an entity for your users or user groups so that they can access the entity's related records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-an-entity-access-configuration.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -33,9 +34,9 @@ You can provide granular access control on objects that are linked to entities. 
 
     To apply the configuration to the selected entity, you can select the **Selected entity only** option in the **Applicability** field. To apply the configuration to the selected entity and its downstream entities, select the **Selected entity and downstream entities** option.
 
-3.  On the [form](../reference/entity-configurations-form.md), fill in the fields.
+3.  On the [form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-configurations-form.md), fill in the fields.
 
-    For a description of the field values, see [Entity configurations form](../reference/entity-configurations-form.md).
+    For a description of the field values, see [Entity configurations form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-configurations-form.md).
 
     The Entity Based Access Configuration record is displayed.
 
@@ -48,8 +49,8 @@ You can provide granular access control on objects that are linked to entities. 
     The access setup for the chosen entity is outlined and displayed in the instance. Access to the records is granted to the designated users and user groups according to the conditions that are set in the entity configuration.
 
 
--   **[Entity configurations form](../reference/entity-configurations-form.md)**  
+-   **[Entity configurations form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-configurations-form.md)**  
 Use the Entity configurations form to configure access to the objects through an entity.
 
-**Parent Topic:**[Managing Entity Based Access](../concept/using-entity-based-access.md)
+**Parent Topic:**[Managing Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-entity-based-access.md)
 

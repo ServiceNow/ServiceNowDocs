@@ -2,6 +2,7 @@
 title: Define shifts for your workplace
 description: Define shifts in Workplace Core with specific schedules so you can designate areas or workplace and assign employees for each shift.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/create-shifts.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -17,7 +18,7 @@ Define shifts in Workplace Core with specific schedules so you can designate are
 
 ## Before you begin
 
--   [Providing your workplace data](../../workplace-service-delivery/concept/providing-your-workplace-data-wsd.md).
+-   [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 -   Ensure you have the following information:
     -   Appropriate shift schedules
     -   Data of the employees who would operate from the office in this shift
@@ -65,7 +66,7 @@ Schedule
 
 Schedule for the shift.For a general shift schedule, select **General shift**.
 
- For more information about how to create a shift schedule, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md).
+ For more information about how to create a shift schedule, see Define a schedule.
 
 </td></tr><tr><td>
 
@@ -204,5 +205,5 @@ You can configure other information such as employees, workplaces, and maintenan
 -   Associate more workplaces with a shift.
 -   Associate tasks with a shift.
 
-**Parent Topic:**[Configuring shifts for your workplace](configuring-shifts-for-your-workplace.md)
+**Parent Topic:**[Configuring shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/configuring-shifts-for-your-workplace.md)
 

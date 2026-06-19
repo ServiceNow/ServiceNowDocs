@@ -2,6 +2,7 @@
 title: PagerDuty Spoke
 description: The PagerDuty spoke provides actions to view and analyze meaningful usage data for PagerDuty software subscriptions. Analyze on-call users to determine which licenses are stale so that you can reclaim these licenses and realize your potential savings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/pagerduty-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,11 +18,15 @@ The PagerDuty spoke provides actions to view and analyze meaningful usage data f
 
 ## Request apps on the Store
 
-Visit the [ServiceNow](https://store.servicenow.com/sn_appstore_store.do) Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow](https://store.servicenow.com/sn_appstore_store.do) Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+
+## Spoke version
+
+PagerDuty spoke v1.6.0 is the latest version.
 
 ## Supported versions
 
@@ -59,7 +64,7 @@ PagerDuty Download Subscriptions
 
 </td><td>
 
-Downloads user subscriptions from the PagerDuty portal.To use this subflow, perform the steps outlined in [Integrating with PagerDuty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-pagerduty.md).
+Downloads user subscriptions from the PagerDuty portal.To use this subflow, perform the steps outlined in Integrating with PagerDuty.
 
 </td></tr><tr><td>
 
@@ -67,7 +72,7 @@ PagerDuty Reclaim Subscription
 
 </td><td>
 
-Deactivates user accounts in PagerDuty.To use this subflow, perform the steps outlined in [Integrating with PagerDuty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-pagerduty.md).
+Deactivates user accounts in PagerDuty.To use this subflow, perform the steps outlined in Integrating with PagerDuty.
 
 </td></tr><tr><td>
 
@@ -75,7 +80,7 @@ PagerDuty Update User Activity
 
 </td><td>
 
-Retrieves the activity of users who are on an on-call schedule.To use this subflow, perform the steps outlined in [Integrating with PagerDuty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-pagerduty.md).
+Retrieves the activity of users who are on an on-call schedule.To use this subflow, perform the steps outlined in Integrating with PagerDuty.
 
 </td></tr></tbody>
 </table>## Spoke actions
@@ -150,16 +155,16 @@ The PagerDuty spoke provides actions to automate PagerDuty tasks when events occ
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 
@@ -177,11 +182,11 @@ Available AI agents include:
 |PagerDuty escalation policy management AI agent|Creates, updates, deletes, and retrieves escalation policies, as well as stream policy data for integration into workflows|
 |PagerDuty tag management AI agent|Creates tags, retrieves details of the required tag, retrieves tag streams, deletes tags, and assigns tags.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 

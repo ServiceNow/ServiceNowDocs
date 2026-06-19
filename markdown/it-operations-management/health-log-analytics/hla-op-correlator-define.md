@@ -2,6 +2,7 @@
 title: Add a log correlator to identify relationships between alerts in log data in Health Log Analytics
 description: In Health Log Analytics, detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-correlator-define.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -22,21 +23,21 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 ## About this task
 
-For information about the types and functions of log correlators, see [Identifying related alerts in log data by using log correlators in Health Log Analytics](../concept/hla-op-correlator-what-is-a.md).
+For information about the types and functions of log correlators, see [Identifying related alerts in log data by using log correlators in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
 
 ## Procedure
 
 1.  Use one of the following methods to add a log correlator.
 
-<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d330377e111">
+<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d269358e111">
 
 Option
 
-</th><th align="left" id="d330377e114">
+</th><th align="left" id="d269358e114">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d330377e120">
+</th></tr></thead><tbody><tr><td id="d269358e120">
 
 **Add a log correlator for a specific log source**
 
@@ -47,7 +48,7 @@ Procedure
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d330377e159">
+</td></tr><tr><td id="d269358e159">
 
 **Add a log correlator that applies either to all log sources or to only those log sources that become active after you define this log correlator**
 
@@ -64,10 +65,10 @@ The Log correlators related list displays the list of existing log correlators t
 </td></tr></tbody>
 </table>2.  Fill in the Log correlator form.
 
-    For a description of the fields, see [Log correlators form fields](../reference/hla-log-correlators-form-ref.md).
+    For a description of the fields, see [Log correlators form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-correlators-form-ref.md).
 
 3.  Select **Active** and then click **Submit**.
 
 
-**Parent Topic:**[Identifying related alerts in log data by using log correlators in Health Log Analytics](../concept/hla-op-correlator-what-is-a.md)
+**Parent Topic:**[Identifying related alerts in log data by using log correlators in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)
 

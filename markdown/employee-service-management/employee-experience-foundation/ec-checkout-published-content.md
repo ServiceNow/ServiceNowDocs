@@ -2,6 +2,7 @@
 title: Checkout published content
 description: After Portal or Rich content is published, you must checkout the content to modify it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-checkout-published-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,11 +20,11 @@ After Portal or Rich content is published, you must checkout the content to modi
 
 Role required: sn\_cd.content\_manager
 
-**Note:** Content versioning must be enabled in **Content Publishing** &gt; **Advanced** &gt; **Properties**. For more information, see [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md)
+**Note:** Content versioning must be enabled in **Content Publishing** &gt; **Advanced** &gt; **Properties**. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
 
 ## About this task
 
-For more information on content versioning, see [Content versioning](../concept/ec-content-versioning.md).
+For more information on content versioning, see [Content versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-versioning.md).
 
 ## Procedure
 
@@ -60,5 +61,5 @@ For more information on content versioning, see [Content versioning](../concept/
 
 ## What to do next
 
-After publishing the updated content, you can create additional publish plans: [Create a publish plan for your content](ec-content-library-publish2.md)
+After publishing the updated content, you can create additional publish plans: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md)
 

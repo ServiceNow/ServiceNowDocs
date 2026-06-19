@@ -2,6 +2,7 @@
 title: Specify the sources of contact information for schedule notifications
 description: Configure the communications methods that shift managers can choose from to send on-call schedule notifications. For example, add email and phone contact sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/config-contact-sources-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -94,5 +95,5 @@ Source
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Configure or update an On-Call schedule](create-update-schedule-oncall.md)
+**Parent Topic:**[Configure or update an On-Call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/create-update-schedule-oncall.md)
 

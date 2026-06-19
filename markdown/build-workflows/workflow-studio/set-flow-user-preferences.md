@@ -2,6 +2,7 @@
 title: Set flow user preferences
 description: Set your preferences when building and editing flows such as the default editor view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/set-flow-user-preferences.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,16 +28,16 @@ Role required: admin or flow\_designer
 
 3.  Create or select the flow you want to edit.
 
-4.  Select the **More Actions menu** icon. ![The More Actions icon](../images/more-actions-menu-icon.png)
+4.  Select the **More Actions menu** icon. \[Omitted image "more-actions-menu-icon.png"\] Alt text: The More Actions icon
 
 5.  From the list of menu options, select **User preferences**.
 
-    ![User preferences option in the More Actions menu](../images/example-user-preferences-menu-option.png)
+    \[Omitted image "example-user-preferences-menu-option.png"\] Alt text: User preferences option in the More Actions menu
 
 6.  Select the user preferences you want for building and editing flows.
 
-    ![Sample user preferences selected](../images/example-user-preferfences-options.png)
+    \[Omitted image "example-user-preferfences-options.png"\] Alt text: Sample user preferences selected
 
-    For more information about available user preferences, see [User preferences for flows](../reference/flow-preferences.md).
+    For more information about available user preferences, see [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-preferences.md).
 
 

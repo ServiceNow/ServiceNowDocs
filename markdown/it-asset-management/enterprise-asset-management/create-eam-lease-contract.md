@@ -2,6 +2,7 @@
 title: Create a contract for your leased enterprise assets
 description: Create a contract to define the lease details of your enterprise assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-lease-contract.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
-The following steps describe how to create contracts for leased enterprise assets only. For information on how to create other types of contracts, see [Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_ContractManagement.md).
+The following steps describe how to create contracts for leased enterprise assets only. For information on how to create other types of contracts, see Contract Management.
 
 ## Procedure
 
@@ -31,7 +32,7 @@ The following steps describe how to create contracts for leased enterprise asset
 
 3.  On the Create New Contract form, fill in the fields.
 
-    See [Contract fields for Enterprise Asset Management](../reference/contract-fields-eam.md) for a detailed description of each field.
+    See [Contract fields for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/contract-fields-eam.md) for a detailed description of each field.
 
 4.  Select **Save**.
 
@@ -39,9 +40,9 @@ The following steps describe how to create contracts for leased enterprise asset
 
 5.  Build terms and conditions for the lease contract.
 
-    Before you can build terms and conditions for a lease contract, you must create a terms and conditions record and add it to the contract. For detailed instructions on how to create a terms and conditions record, see [Create a terms and conditions record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_CreateATermsAndConditionsRecord.md). For detailed instructions on how to add a terms and conditions record to a contract, see [Add terms and conditions to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/t_AddTermsAndConditionsToAContract.md).
+    Before you can build terms and conditions for a lease contract, you must create a terms and conditions record and add it to the contract. For detailed instructions on how to create a terms and conditions record, see Create a terms and conditions record. For detailed instructions on how to add a terms and conditions record to a contract, see Add terms and conditions to a contract.
 
-    1.  On the lease contract record header, select the More Actions icon ![](../../hardware-asset-management/image/more-actions-icon.png).
+    1.  On the lease contract record header, select the More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text:.
 
     2.  When prompted, select **Build Terms and Conditions**.
 
@@ -49,7 +50,7 @@ The following steps describe how to create contracts for leased enterprise asset
 
 6.  Add all enterprise assets that are covered by the lease contract.
 
-    **Note:** If you created a multi-component asset from a multi-component model, only the parent asset can be added to the lease contract. The associated child assets cannot be added to the lease contract. See [Multi-component models and assets in Enterprise Asset Management](../concept/complex-models.md) for more information on multi-component assets.
+    **Note:** If you created a multi-component asset from a multi-component model, only the parent asset can be added to the lease contract. The associated child assets cannot be added to the lease contract. See [Multi-component models and assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complex-models.md) for more information on multi-component assets.
 
     1.  On the **Assets Covered** tab of the lease contract record, select **Add**.
 
@@ -69,7 +70,7 @@ The following steps describe how to create contracts for leased enterprise asset
 
     2.  On the Create New Expense Line form, fill in the fields.
 
-        See [Expense line fields for Enterprise Asset Management](../reference/expense-line-fields-eam.md) for a detailed description of each field.
+        See [Expense line fields for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/expense-line-fields-eam.md) for a detailed description of each field.
 
     3.  Select **Save**.
 
@@ -98,5 +99,5 @@ The following steps describe how to create contracts for leased enterprise asset
     A review notification is sent to the user that you specified in the **Approver** field of the lease contract record. After reviewing the lease contract, the user can either approve or reject it.
 
 
-**Parent Topic:**[Create and manage contracts for enterprise assets](../concept/create-manage-enterprise-asset-contracts.md)
+**Parent Topic:**[Create and manage contracts for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-asset-contracts.md)
 

@@ -2,6 +2,7 @@
 title: Restart a playbook
 description: Restart a playbook from the beginning, an activity, or a stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/restart-a-playbook.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Restart a playbook from the beginning, an activity, or a stage.
 
 Role required: agent or pd\_restarter
 
-If your playbook admin has enabled restart in your playbook, you can find the restart action in the action menus of the playbook, stages, or activities. If you are an admin and would like to enable and configure restart for a playbook in Workflow Studio, see [Configure restart for Playbooks](enable-define-restart.md).
+If your playbook admin has enabled restart in your playbook, you can find the restart action in the action menus of the playbook, stages, or activities. If you are an admin and would like to enable and configure restart for a playbook in Workflow Studio, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-define-restart.md).
 
 If a stage or activity is not configured to be restartable, you will not see all of the buttons in this procedure.
 
@@ -34,11 +35,11 @@ If a stage or activity is not configured to be restartable, you will not see all
 
 3.  To restart the whole playbook:
 
-    1.  Hover over the playbook name in the contextual side panel to open the context menu![context menu](../../../common/image/icon-menu.png).
+    1.  Hover over the playbook name in the contextual side panel to open the context menu\[Omitted image "icon-menu.png"\] Alt text: context menu.
 
     2.  Select **Restart playbook**.
 
-        ![Restart playbook button in the context menu](../images/restart-playbook-pe.png)
+        \[Omitted image "restart-playbook-pe.png"\] Alt text: Restart playbook button in the context menu
 
 4.  Restart stage
 5.  Open your playbook.
@@ -49,11 +50,11 @@ If a stage or activity is not configured to be restartable, you will not see all
 -   Re-enter information to complete restartable stages and activities again.
     To restart a stage:
 
-    1.  Hover over the name of the stage in the contextual side panel to open the context menu![More actions menu](../../../common/image/icon-menu.png).
+    1.  Hover over the name of the stage in the contextual side panel to open the context menu\[Omitted image "icon-menu.png"\] Alt text: More actions menu.
 
     2.  Select **Restart stage**
 
-        ![Restart stage button in the context menu](../images/restart-stage-pe.png)
+        \[Omitted image "restart-stage-pe.png"\] Alt text: Restart stage button in the context menu
 
         .
 
@@ -70,8 +71,8 @@ If a stage or activity is not configured to be restartable, you will not see all
 
     2.  Select **Restart**.
 
-        ![Restart button in activity card context menu](../images/restart-activity-pe.png)
+        \[Omitted image "restart-activity-pe.png"\] Alt text: Restart button in activity card context menu
 
 
-**Parent Topic:**[Running Playbooks](../../workspace/concept/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

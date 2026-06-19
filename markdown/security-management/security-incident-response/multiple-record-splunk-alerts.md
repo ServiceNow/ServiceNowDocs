@@ -2,6 +2,7 @@
 title: Multiple-record, custom field Splunk alerts
 description: Multi-record alerts \(defined using the Create Multiple ServiceNow Security Incidents and Create Multiple ServiceNow Security Events trigger actions\) can automatically create records with any set of fields supported.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/multiple-record-splunk-alerts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

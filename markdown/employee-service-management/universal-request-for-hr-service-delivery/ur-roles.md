@@ -2,6 +2,7 @@
 title: Universal Request roles and groups
 description: Users with certain roles and access can use Universal Request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-roles.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -62,5 +63,5 @@ Assignment group that consists of tier 1 agents who focus primarily on managing 
 -   Assign the Universal Request to another assignment group, such as HR routing group or IT routing group.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Universal Request](explore-universal-request.md)
+</table>**Parent Topic:**[Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)
 

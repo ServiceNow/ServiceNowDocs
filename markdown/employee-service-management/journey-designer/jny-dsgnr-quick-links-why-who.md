@@ -2,6 +2,7 @@
 title: Creating and managing quick links for journeys
 description: Quick links give employees quick access to varied resources directly from a journey. Administrators, journey owners, and mentors are able to add linked resources to journeys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-quick-links-why-who.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -15,7 +16,7 @@ breadcrumb: [Configure Journey designer features, Configure, Journey designer, E
 
 Quick links give employees quick access to varied resources directly from a journey. Administrators, journey owners, and mentors are able to add linked resources to journeys.
 
-**Note:** Journey owners and mentors must be given **Can add quick links** permission by an administrator. Journey permissions are assigned and managed in journey configurations. See, [Update users' permissions for journeys](../task/jny-dsgnr-update-user-permissions.md).
+**Note:** Journey owners and mentors must be given **Can add quick links** permission by an administrator. Journey permissions are assigned and managed in journey configurations. See, [Update users' permissions for journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-update-user-permissions.md).
 
 There are two types of quick links that can be added to a journey from **Journey designer**.
 
@@ -92,10 +93,10 @@ Managers and mentors with edit journey permission add external links to a journe
 |**Link text**|The user readable text that is visible in the journey.|
 |**Link address**|Manager and mentors add valid external links. The Quick Links widget checks for a valid URL format. For example, `https://www.website.com`.|
 
--   **[Create a quick link as an administrator](../task/jny-dsgnr-admin-created-qlink.md)**  
+-   **[Create a quick link as an administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-admin-created-qlink.md)**  
 Journey designer administrators create quick links that are part of a journey configuration. Administrator created quick links cannot be deleted or edited by journey owners or mentors.
--   **[Delete a quick link created by an administrator](../task/jny-dsgnr-delete-admin-created-qlink.md)**  
+-   **[Delete a quick link created by an administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-delete-admin-created-qlink.md)**  
 To delete an administrator created quick link in Journey designer, you must be an administrator.
 
-**Parent Topic:**[Configure Journey designer features](jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

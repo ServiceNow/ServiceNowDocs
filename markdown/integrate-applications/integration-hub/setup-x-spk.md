@@ -2,6 +2,7 @@
 title: Set up the X spoke
 description: Integrate the ServiceNow instance and X account to authenticate the requests from ServiceNow.Create an app in the X developer account and obtain the values of Access Token, Access Token Secret, Consumer key, and Consumer Secret for authenticating the requests.Add and configure the X connections to authenticate ServiceNow requests in the X spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-x-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -43,7 +44,7 @@ Role required: X admin.
 
     4.  Under **App name**, provide the app name in **DEVELOPMENT APP** and click **Next**.
 
-        Under **Keys &amp; Tokens**, the values of **API Key**, **API Key Secret**, and **Bearer Token** are displayed.![Values of API Key, API Key Secret, and Bearer Token.](../image/x-spk-keys-tokens.png)
+        Under **Keys &amp; Tokens**, the values of **API Key**, **API Key Secret**, and **Bearer Token** are displayed.\[Omitted image "x-spk-keys-tokens.png"\] Alt text: Values of API Key, API Key Secret, and Bearer Token.
 
     5.  Copy and record these values for later use.
 
@@ -55,7 +56,7 @@ Role required: X admin.
 
     3.  In the **Settings** tab, under **User authentication settings**, click **Set up**.
 
-    4.  On the User authentication settings page, under **App permissions** select the **Read and write and Direct message** option.![App permissions.](../image/x-spk-app-permissions.png)
+    4.  On the User authentication settings page, under **App permissions** select the **Read and write and Direct message** option.\[Omitted image "x-spk-app-permissions.png"\] Alt text: App permissions.
 
     5.  Click **Save**.
 
@@ -79,7 +80,7 @@ Role required: X admin.
 
     5.  Click **Yes, regenerate**.
 
-        The values of **Access Token** and **Access Token Secret** are displayed.![Copy the values of Access Token and Access Secret.](../image/x-spk-access-tok-sec.png)
+        The values of **Access Token** and **Access Token Secret** are displayed.\[Omitted image "x-spk-access-tok-sec.png"\] Alt text: Copy the values of Access Token and Access Secret.
 
     6.  Copy these values for later use.
 
@@ -115,7 +116,7 @@ Two connections, **Twitter** and **Twitter\_Media**, are provided in the Flow De
 
     5.  On the Twitter tile, select **View Details**.
 
-        ![](../image/twitter-alias-view-details.png)
+        \[Omitted image "twitter-alias-view-details.png"\] Alt text:
 
     6.  Select **Configure**.
 
@@ -130,7 +131,7 @@ Two connections, **Twitter** and **Twitter\_Media**, are provided in the Flow De
         |Access Token|Access token of your X developer app.|
         |Access Token Secret|Access token secret of your X developer app.|
 
-        ![Twitter alias connection form.](../image/twitter-conn-form.png)
+        \[Omitted image "twitter-conn-form.png"\] Alt text: Twitter alias connection form.
 
     8.  Select **Create Connection**.
 
@@ -146,7 +147,7 @@ Two connections, **Twitter** and **Twitter\_Media**, are provided in the Flow De
 
     5.  On the Twitter\_Media tile, select **View Details**.
 
-        ![Twitter_media alias View Details.](../image/twitter-media-alias-view-details.png)
+        \[Omitted image "twitter-media-alias-view-details.png"\] Alt text: Twitter\_media alias View Details.
 
     6.  Select **Configure**.
 
@@ -161,7 +162,7 @@ Two connections, **Twitter** and **Twitter\_Media**, are provided in the Flow De
         |Access Token|Access token of your X developer app.|
         |Access Token Secret|Access token secret of your X developer app.|
 
-        ![Twitter alias connection form.](../image/twitter-conn-form.png)
+        \[Omitted image "twitter-conn-form.png"\] Alt text: Twitter alias connection form.
 
     8.  Select **Create Connection**.
 

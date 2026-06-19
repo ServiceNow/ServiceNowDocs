@@ -2,6 +2,7 @@
 title: Activate Localization Framework
 description: You can activate the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) for Localization Framework if you have the admin role. The application installs related plugins if they are not already installed. Optionally, you can activate plugins for the Localization Framework Hub and Spoke architecture on a set of instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/activate-lf-plugin.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -26,7 +27,7 @@ The Localization Framework Installer plugin \(com.glide.localization\_framework.
 -   Manual installation of the plugin.
 -   Auto-installation of the plugin.
 
-    When a language plugin is installed, the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) is automatically installed with the language plugin. For more information, see [language plugins](../../localization/task/t_ActivateALanguage.md).
+    When a language plugin is installed, the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) is automatically installed with the language plugin. For more information, see [language plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
 
 
 The following items are installed with Localization Framework:
@@ -36,7 +37,7 @@ The following items are installed with Localization Framework:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Localization Framework](../reference/components-installed-with-lf.md).
+For more information, see [Components installed with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/components-installed-with-lf.md).
 
 ## Procedure
 
@@ -50,16 +51,16 @@ For more information, see [Components installed with Localization Framework](../
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 
 ## What to do next
 
-Optionally, next you can install plugins for the [Localization Framework Hub and Spoke architecture](../concept/localization-framework-hub-spoke-architecture.md). This enables you to designate one instance as a hub to fulfill localization requests, and one or more instances as spokes that submit requests to the hub.
+Optionally, next you can install plugins for the [Localization Framework Hub and Spoke architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-hub-spoke-architecture.md). This enables you to designate one instance as a hub to fulfill localization requests, and one or more instances as spokes that submit requests to the hub.
 
 Decide which instance should function as the hub. On that instance, follow the above procedure to search for and install the Localization Framework Hub plugin \[com.sn.localization\_framework.hub\].
 
 Decide which instance\(s\) should function as spokes. On each of those instances, follow the above procedure to search for and install the Localization Framework Spoke plugin \[com.sn.localization\_framework.spoke\].
 
-**Parent Topic:**[Activating the Localization Framework](../concept/activation-localization-framework.md)
+**Parent Topic:**[Activating the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/activation-localization-framework.md)
 

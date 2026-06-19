@@ -2,6 +2,7 @@
 title: Notify
 description: Notify provides support for SMS and voice channels on the ServiceNow platform for communicating internally with team members and externally with customers and contractors. The plug-in also provides APIs and workflow activities to achieve the above. Some customers directly make use of the APIs in their products, and others via products like Major Incident Management, On-Call and CTI Softphone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/notify-landing-page.html
 release: australia
 product: Notify
 classification: notify
@@ -19,43 +20,43 @@ Notify provides support for SMS and voice channels on the ServiceNow platform fo
 
 Explore
 
- -   [Notify Twilio Direct driver](../concept/Notify-TwilioDirectDriver.md)
--   [Notify Zoom connector](../concept/notify-zoom-connector.md)
--   [Notify voice and SMS capabilities](../concept/notify-voice-SMS-capabilities.md)
--   [Notify Cisco Webex Connector](../../cisco-webex-notify-connector/concept/cisco-webex-notify.md)
--   [Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notify-connector-ms-teams.md)
+ -   [Notify Twilio Direct driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/Notify-TwilioDirectDriver.md)
+-   [Notify Zoom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-zoom-connector.md)
+-   [Notify voice and SMS capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-voice-SMS-capabilities.md)
+-   [Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/cisco-webex-notify.md)
+-   
 
 </td><td>
 
 Configure
 
- -   [Activate Notify](../task/t_ActivateNotify.md)
--   [Configure Notify with Twilio](../task/t_ConfigureNotifyWithTwilio.md)
--   [Configure Notify Zoom connector in Notify](../task/configure-notify-zoom-connector.md)
--   [Configure a provider in Notify](../task/configure-providers-for-provider-selectors.md)
--   [Configure SMS opt-out preferences](../task/opt-out-requests.md)
--   [Configure Notify Cisco Webex Connector](../../cisco-webex-notify-connector/concept/setup-cisco-webex-notify.md)
--   [Install Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.md)
+ -   [Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md)
+-   [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
+-   [Configure Notify Zoom connector in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configure-notify-zoom-connector.md)
+-   [Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configure-providers-for-provider-selectors.md)
+-   [Configure SMS opt-out preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/opt-out-requests.md)
+-   [Configure Notify Cisco Webex Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/setup-cisco-webex-notify.md)
+-   
 
 </td></tr><tr><td>
 
 Use
 
- -   [Using Notify with SMS](../concept/c_NotifySMS.md)
--   [Using Notify for making conference calls](../concept/c_NotifyConferenceCalls.md)
--   [Using Notify with tasks](../concept/c_NotifyOnTask.md)
--   [Using Notify with Incident Communications Management](../concept/c_NotifyWithIncidentAlert.md)
--   [Using Notify with On-Call Scheduling](../concept/c_NotifyWithOnCall.md)
--   [Using the Notify Cisco Webex Connector with a major incident](../../cisco-webex-notify-connector/concept/use-cisco-webex-notify-mi.md)
--   [Use Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c-agent-ex-use-nc.md)
+ -   [Using Notify with SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifySMS.md)
+-   [Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyConferenceCalls.md)
+-   [Using Notify with tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyOnTask.md)
+-   [Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
+-   [Using Notify with On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyWithOnCall.md)
+-   [Using the Notify Cisco Webex Connector with a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/use-cisco-webex-notify-mi.md)
+-   
 
 </td><td>
 
 Reference
 
- -   [Differences between Notify-Twilio and Notify-Twilio Direct](difference-notify-twilio-direct.md)
--   [Notify workflow activities](../../../administer/workflow-activities/concept/c_NotifyActivities.md)
--   [Components installed with Notify](installed-with-notify2.md)
+ -   [Differences between Notify-Twilio and Notify-Twilio Direct](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/difference-notify-twilio-direct.md)
+-   [Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
+-   [Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/installed-with-notify2.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
 

@@ -2,6 +2,7 @@
 title: Issue a permit to work
 description: A permit coordinator can issue a permit after the permit approver approves a request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-issue-permit.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_hs\_rm.permit\_coordinator
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  In the **Permit to work** list, select **All** and then select a permit to review.
 
@@ -34,7 +35,7 @@ Role required: sn\_hs\_rm.permit\_coordinator
     -   Create a Health and Safety action
     -   Review the approvers
     -   Review the checklist
-5.  Research content related to the permit by selecting the Agent assist icon \(![agent assist icon](../../../common/image/Form_AgentAssistIcon.png)\).
+5.  Research content related to the permit by selecting the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: agent assist icon\).
 
     Agent assist searches the knowledge base using the text from the permit's **Short description** field and shows relevant articles.
 
@@ -52,5 +53,5 @@ Select **Close permit** when the job is complete. If necessary, the permit coord
 -   If there are unsafe condition, select **Cancel permit** in the UI action menu.
 -   If a danger is expected after the permit is issued, select **Suspend permit** in the UI action menu. The permit can be suspended until the inspection is completed.
 
-**Parent Topic:**[Permit-to-work system](../concept/hs-permit-to-work.md)
+**Parent Topic:**[Permit-to-work system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
 

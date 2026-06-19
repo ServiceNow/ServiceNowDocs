@@ -2,6 +2,7 @@
 title: Generate REST message variables
 description: Populate the list of variable substitutions automatically based on variables defined in several REST message HTTP method fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_GenerateMessageVariables.html
 release: australia
 product: Web Services
 classification: web-services
@@ -38,5 +39,5 @@ Role required: web\_service\_admin
 
 You can use the REST Message workflow activity to send the message, or click **Preview Script Usage** to get a sample script. The sample script includes a setStringParameter call for each defined variable substitution that allows you to assign a value to the variable in your script.
 
-**Parent Topic:**[Variable substitution in outbound REST messages](../concept/c_VariableSubstitutionREST.md)
+**Parent Topic:**[Variable substitution in outbound REST messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_VariableSubstitutionREST.md)
 

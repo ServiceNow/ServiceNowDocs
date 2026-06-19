@@ -2,6 +2,7 @@
 title: Set up the BMC Remedy spoke
 description: Integrate the ServiceNow instance and BMC Remedy by using Remedy credentials to authenticate ServiceNow requests.Create Credential records for your BMC Remedy application. The BMC Remedy spoke connection and credential alias uses these credentials to authorize actions.Create Connection record for your BMC Remedy application. The BMC Remedy spoke connection and credential alias uses this connection to perform actions in BMC Remedy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-bmc.html
 release: australia
 product: Integration Hub
 classification: integration-hub

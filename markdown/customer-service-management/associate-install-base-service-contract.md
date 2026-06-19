@@ -2,7 +2,10 @@
 title: Associate an install base to a service contract
 description: Associate install base items with a service contract to see the list of all the different service contracts that are associated to an install base item in the Customer Service Management application. By associating an install base, you can set a relationship between an install base and a contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-install-base-service-contract.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

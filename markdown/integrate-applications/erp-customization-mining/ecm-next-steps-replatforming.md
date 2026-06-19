@@ -2,6 +2,7 @@
 title: Next steps when replatforming apps to ServiceNow using ERP Semantic Mining
 description: After you use ERP Semantic Mining to identify legacy ERP \(Enterprise Resource Planning\) candidates, use additional ServiceNow AI Platform products and resources to replatform your app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/ecm-next-steps-replatforming.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -41,12 +42,12 @@ After you identify ERP data to replatform, citizen developers can use ServiceNow
 
 Use any of the following ServiceNow builders to create apps using custom data:
 
--   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
--   [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
--   [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
--   [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)
--   [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
--   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/workspace-builder-landing.md)
+-   
+-   
+-   
+-   
+-   
+-   
 
 For example, use in ServiceNow Studio, use a template \(or build the app from the ground up\) and incorporate remote tables using ERP models and remote tables. You can combine legacy data from the ERP models and remote tables with other ServiceNow data in tables.
 
@@ -54,7 +55,7 @@ For example, use in ServiceNow Studio, use a template \(or build the app from th
 
 You can also access data from the system of record through the Glide API.
 
-For more information, see [Sample Glide query for ERP data in ERP Semantic Mining](../reference/using-glide-to-query-erp-data.md).
+For more information, see [Sample Glide query for ERP data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/using-glide-to-query-erp-data.md).
 
 ## After you replatform custom code to a ServiceNow app
 
@@ -64,5 +65,5 @@ After you have identified candidates to replatform and taken the recommended act
 
 If you're sure that legacy code on the system of record isn't referenced elsewhere, you can remove it from the system after it's replatformed.
 
-**Parent Topic:**[Exploring ERP Semantic Mining](exploring-ecm.md)
+**Parent Topic:**[Exploring ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
 

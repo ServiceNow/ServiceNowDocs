@@ -2,7 +2,10 @@
 title: Machine learning model setup and behavior
 description: Set up models to predict field values and sentiment for customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-model-setup-behavior.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -19,7 +22,7 @@ Training a machine learning model is when the model learns patterns in past data
 
 ## Setting up a field prediction model
 
-Users with the ml\_admin role can create and train a machine learning model to predict field values from the [Task Intelligence Admin Console](csm-task-intel-admin-center.md).
+Users with the ml\_admin role can create and train a machine learning model to predict field values from the [Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-admin-center.md).
 
 Using the field prediction model as a starting point, you can choose the training data set that the model learns from. The model can be trained using data from the following tables:
 
@@ -43,7 +46,7 @@ If the model is configured to use text from attachments, the system performs the
 -   If the record has attachments in a supported format, the system parses the text and sends it as an input to the categorization model, along with text from the input fields.
 -   If the record does not have attachments, or no attachments in a supported format, the system sends text from the input fields to the categorization model.
 
-Supported content types and file extensions are stored in the **sn\_csm\_ml\_task.categorization.allowed\_content\_types** system property. For more information, see [Components installed with Task Intelligence for Customer Service](../reference/case-categorization-components.md#section_bqd_lqt_xrb).
+Supported content types and file extensions are stored in the **sn\_csm\_ml\_task.categorization.allowed\_content\_types** system property. For more information, see [Components installed with Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-categorization-components.md).
 
 ## Supporting multiple languages
 
@@ -63,5 +66,5 @@ The case sentiment model supports case types. When setting up a sentiment model,
 
 **Note:** The sentiment analysis feature supports one level of custom extension from the Case table.
 
-**Parent Topic:**[Task Intelligence Admin Console](csm-task-intel-admin-center.md)
+**Parent Topic:**[Task Intelligence Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-admin-center.md)
 

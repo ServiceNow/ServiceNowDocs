@@ -2,6 +2,7 @@
 title: Cancel a legal request
 description: Cancel a third-party contract request if it is no longer necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/cancel-legal-contract-request-tpc.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -40,5 +41,5 @@ Role required: sn\_lg\_ops.legal\_user
 -   The document status changes to Contract Voided.
 -   The document signature sent to signatories is canceled to block further signing. The signatories get an email notification that the legal request has been canceled.
 
-**Parent Topic:**[Third-party contract review requests](../concept/legal-request-third-party-contract.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-request-third-party-contract.md)
 

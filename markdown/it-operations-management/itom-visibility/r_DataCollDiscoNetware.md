@@ -2,6 +2,7 @@
 title: Netware discovery
 description: Discovery identifies and classifies information about Netware.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoNetware.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -27,5 +28,5 @@ Discovery identifies and classifies information about Netware.
 |RAM|cmdb\_ci\_netware\_server|ram|snmp|
 |CPU count|cmdb\_ci\_netware\_server|cpu\_count|snmp|
 
-**Parent Topic:**[Operating systems discovery](../concept/c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
 

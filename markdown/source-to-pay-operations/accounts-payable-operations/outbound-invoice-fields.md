@@ -1,19 +1,21 @@
 ---
 title: Outbound invoice fields
-description: The outbound invoice table transfers the invoice details from ServiceNow to third party applications through integration framework.
+description: Field descriptions and data types for the outbound invoice table used to transfer invoice details from Accounts Payable Operations to third-party applications through the integration framework.”
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/outbound-invoice-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, integration, invoice management]
 breadcrumb: [Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Outbound invoice fields
 
-The outbound invoice table transfers the invoice details from ServiceNow® to third party applications through integration framework.
+Field descriptions and data types for the outbound invoice table used to transfer invoice details from Accounts Payable Operations to third-party applications through the integration framework.”
 
 |Column|Description|Data type|
 |------|-----------|---------|
@@ -37,8 +39,8 @@ The outbound invoice table transfers the invoice details from ServiceNow® to th
 |Status|Current state of the invoice|Choice|
 |Invoice date|Date on which the invoice was created|String \(yyyy-mm-dd\)|
 
--   **[Outbound invoice line fields](outbound-invoice-line-fields.md)**  
-The Outbound invoice line table is the transfers the invoice line details table from ServiceNow® to third party application through integration framework.
+-   **[Outbound invoice line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/outbound-invoice-line-fields.md)**  
+Field descriptions and data types for the Outbound invoice line \[sn\_spend\_intg\_outbound\_invoice\_line\] table used to transfer invoice line details from Accounts Payable Operations to third-party applications through the integration framework.
 
-**Parent Topic:**[Create New Invoice form](create-new-invoice-form.md)
+**Parent Topic:**[Create New Invoice form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.md)
 

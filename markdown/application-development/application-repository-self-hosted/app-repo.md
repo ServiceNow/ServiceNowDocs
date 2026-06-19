@@ -2,6 +2,7 @@
 title: ServiceNow application repository
 description: After you develop and test a custom application, you can make the application available to company instances by publishing it to the ServiceNow application repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/app-repo.html
 release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -27,7 +28,7 @@ After you have designed, developed, and successfully tested a custom application
 
 An entitlement refers to permission given to an instance to install a scoped application from the application repository. An instance must be entitled to an application in order for you to be able to install the application on the instance.
 
-By default, after you publish an application to the application repository, all your company instances are entitled to the application automatically. To limit which company instances are entitled to the application, access the application repository by going to [https://apprepo.service-now.com/sn\_appstore\_store.do](https://apprepo.service-now.com/sn_appstore_store.do), and then change the entitlement type for the application. You can also entitle an instance again if the application entitlement has already been removed. For more information, see [Manage application entitlements from the application repository](../task/manage-app-entitlements.md).
+By default, after you publish an application to the application repository, all your company instances are entitled to the application automatically. To limit which company instances are entitled to the application, access the application repository by going to [https://apprepo.service-now.com/sn\_appstore\_store.do](https://apprepo.service-now.com/sn_appstore_store.do), and then change the entitlement type for the application. You can also entitle an instance again if the application entitlement has already been removed. For more information, see [Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-app-entitlements.md).
 
 ## Using the application repository
 
@@ -35,10 +36,10 @@ You can access the application repository by going to [https://apprepo.service-n
 
 **Note:** Customers using the Federal Store must log in to HIWave and then select the Federal Store option at the bottom of the page. Then, under your company name, select My Repository to proceed.
 
-After you [publish an application to the application repository](../task/t_PublishAppsToTheAppRepository.md), you can:
+After you [publish an application to the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/t_PublishAppsToTheAppRepository.md), you can:
 
--   [Install an application from the application repository](../task/install-app-from-repo.md)
--   [Manage application entitlements from the application repository](../task/manage-app-entitlements.md)
--   [Delete an application from the application repository](../task/delete-custom-app.md)
--   [Release a scope from the application repository](../task/release-scope.md)
+-   [Install an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/install-app-from-repo.md)
+-   [Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-app-entitlements.md)
+-   [Delete an application from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/delete-custom-app.md)
+-   [Release a scope from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/release-scope.md)
 

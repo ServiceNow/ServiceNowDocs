@@ -2,6 +2,7 @@
 title: Exploring Dispute Rules Content Pack for Mastercard
 description: Learn how the Dispute Rules Content Pack for Mastercard application uses dispute mapping to ensure that your organization can properly categorize and process disputes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/exploring-the-dispute-rules-content-pack-for-mastercard.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -30,5 +31,5 @@ Some of the key benefits of using Dispute Rules Content Pack for Mastercard are:
 -   Disputes are categorized for accurate processing.
 -   Chargeback eligibility is determined based on the Mastercard Chargeback rules.
 
-**Parent Topic:**[Dispute Rules Content Pack for Mastercard](dispute-rules-content-pack-for-mastercard-landing-page.md)
+**Parent Topic:**[Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)
 

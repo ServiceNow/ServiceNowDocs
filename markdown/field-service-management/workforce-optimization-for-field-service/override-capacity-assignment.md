@@ -2,6 +2,7 @@
 title: Create a capacity assignment override
 description: Override the default capacity assignment rules to accommodate changes in the plan within a capacity definition. This allows you to update existing capacity assignments for different time intervals, capacity reservation rules, and recurring patterns without creating a new capacity definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/override-capacity-assignment.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

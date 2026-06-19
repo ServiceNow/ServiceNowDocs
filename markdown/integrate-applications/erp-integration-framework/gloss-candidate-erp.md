@@ -2,6 +2,7 @@
 title: candidate
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/gloss-candidate-erp.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -17,5 +18,5 @@ A candidate is a group of recommended remote tables that you can use to create a
 
 Good candidates for replatforming tend to be smaller applications that use data from the system of record.
 
-**Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](../../../build/erp-integration/reference/erp-integration-glossary.md)
+**Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-glossary.md)
 

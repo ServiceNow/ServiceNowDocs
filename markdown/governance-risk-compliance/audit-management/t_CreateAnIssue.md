@@ -2,6 +2,7 @@
 title: Manually create GRC issues
 description: As a GRC user, you can manually create issues to document policy, risk, or audit observations, or to accept any GRC problems. You can also identify the source of the issue to help analyze and classify the issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateAnIssue.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -25,7 +26,7 @@ Role required: \(per product\)
 
 **Note:** Starting with Version 12.0.1 of the products mentioned above, the minimum role for the **Assigned to** user on the Issues form is GRC Business User \[sn\_grc.business\_user\]. The minimum role for the **Issue manager** is GRC User \[sn\_grc.\_user\].
 
-For more information on the access control limitations to issues, see [GRC business user role to control access and track usage of compliance tables](../../grc-policy-and-compliance/reference/r_InstallWPolAndCompl.md#acls-issue-busin-user).
+For more information on the access control limitations to issues, see [GRC business user role to control access and track usage of compliance tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_InstallWPolAndCompl.md).
 
 ## Procedure
 
@@ -36,7 +37,7 @@ For more information on the access control limitations to issues, see [GRC busin
     -   **Audit** &gt; **Issues** &gt; **Create New**.
     **Note:** Starting with Version 12.0.1 of the products mentioned above, the minimum role for the **Assigned to** user on the Issues form is GRC Business User \[sn\_grc.business\_user\]. The minimum role for the **Issue manager** is GRC User \[sn\_grc.\_user\].
 
-2.  On the [Issue form](../reference/issue-form.md), fill in the fields.
+2.  On the [Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/issue-form.md), fill in the fields.
 
     The due date under the **Dates** tab is automatically calculated based on the issue rating. You can manually override the calculated due date. The Task SLAs related list creates and displays SLAs based on the **Due date**.
 
@@ -48,21 +49,21 @@ For more information on the access control limitations to issues, see [GRC busin
 
     If the due date for the SLA changes, a new SLA is created. The SLA is completed when the issue transitions to **Closed Complete** or **Closed Incomplete**. Also, the SLA is cancelled if the **Due date** or **Assigned to** fields are empty, or the state is New.
 
-    Also starting with Version 12.0.1, remediation tasks can be created with the Assigned to user and issue manager user roles, as well as any user with the [GRC Business User role](../../grc-policy-compliance-implementation/task/assign-user-roles.md).
+    Also starting with Version 12.0.1, remediation tasks can be created with the Assigned to user and issue manager user roles, as well as any user with the [GRC Business User role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.md).
 
 
--   **[Group similar issues under a new parent issue](../../grc-policy-and-compliance/task/group-similar-issues.md)**  
+-   **[Group similar issues under a new parent issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/group-similar-issues.md)**  
 When you are creating an issue, you have the option of grouping the issue with other similar issues.
--   **[Group similar issues under an existing parent issue](../../grc-policy-and-compliance/task/group-similar-issues-existing-parent.md)**  
+-   **[Group similar issues under an existing parent issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/group-similar-issues-existing-parent.md)**  
 When you are creating an issue, you have the option of grouping the issue with other similar issues as part of an existing parent issue group.
--   **[User hierarchy access control](../../grc-policy-and-compliance/concept/user-hierarchy-risk-remed-task.md)**  
+-   **[User hierarchy access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/user-hierarchy-risk-remed-task.md)**  
 If a user is assigned to an issue or a remediation task, then the manager of the user and the manager above in the hierarchy also get access to the issue or remediation task record.
--   **[Report issues from the Service Portal](../../grc-risk/task/report-issues-from-serviceportal.md)**  
+-   **[Report issues from the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/report-issues-from-serviceportal.md)**  
 When you identify any deficiencies in the controls or improvements that can be made in the organization policies, report an issue from the ServiceNow, Inc. Service Portal.
--   **[Issue assignment using the Governance, Risk, and Compliance Predictive Intelligence plugin](../../grc-risk/concept/issue-assignment-using-predictive-intelli.md)**  
+-   **[Issue assignment using the Governance, Risk, and Compliance Predictive Intelligence plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/issue-assignment-using-predictive-intelli.md)**  
 Train a similarity solution model that uses machine learning so that the system can automatically suggest how to route issues to the correct assignee. Automatic routing suggestion reduces the time spent on deciding who should own the issue.
 
-**Parent Topic:**[Manage issues in Policy and Compliance Management](../../grc-policy-and-compliance/concept/manage-issues.md)
+**Parent Topic:**[Manage issues in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-issues.md)
 
-**Parent Topic:**[Using Risk Management](../../grc-risk/concept/using-risk-mgmt.md)
+**Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

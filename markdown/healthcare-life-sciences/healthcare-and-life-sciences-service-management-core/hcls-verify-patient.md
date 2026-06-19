@@ -2,6 +2,7 @@
 title: Associate a patient record with an interaction in Workspace
 description: Look up for the patient information within an interaction, review and confirm the information, and then populate the information on the interaction to resolve a healthcare-related request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-verify-patient.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -41,7 +42,7 @@ The **Consumer** field on the Interaction form is automatically populated with t
 
 6.  In the Verify Patient dialog box, click **Done**.
 
-    **Note:** If you can't find a patient record, you can create a patient record from within an interaction. For more information, see [Create a patient record in Workspace](hcls-create-patient-record.md).
+    **Note:** If you can't find a patient record, you can create a patient record from within an interaction. For more information, see [Create a patient record in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-patient-record.md).
 
 7.  On the Interaction form, click **Save**.
 

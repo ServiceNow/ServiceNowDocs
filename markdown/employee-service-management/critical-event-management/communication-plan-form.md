@@ -2,6 +2,7 @@
 title: Communication plan form
 description: Field description to add a new communication plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/communication-plan-form.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -26,5 +27,5 @@ Field description to add a new communication plan.
 |Description|Detailed description of the plan definition.|
 |Condition|Condition under which a communication plan gets attached to a table.|
 
-**Parent Topic:**[Critical Event Management reference](../concept/critical-event-management-reference.md)
+**Parent Topic:**[Critical Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/critical-event-management-reference.md)
 

@@ -1,0 +1,43 @@
+---
+title: Configure mobile re-authentication login timespan
+description: Define a time period in seconds that a user is not required to re-authenticate themselves. This parameter only applies when a user has permission to re-authenticate multiple times.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-platform/mobile-reauthentication-token-lifespan.html
+release: australia
+product: Mobile Platform
+classification: mobile-platform
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Re-authentication, System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+---
+
+# Configure mobile re-authentication login timespan
+
+Define a time period in seconds that a user is not required to re-authenticate themselves. This parameter only applies when a user has permission to re-authenticate multiple times.
+
+## Before you begin
+
+If **glide.sg.reauthentication.single\_use\_token** is set to `false`, you can configure this property.
+
+Make sure to select `Global` as the application scope.
+
+Role required: admin
+
+## Procedure
+
+1.  Type `sys_properties.list` in the Filter Navigator.
+
+2.  Select **New** in the System Property table.
+
+3.  In the form, match the following values:
+
+    |Field|Description|
+    |-----|-----------|
+    |Name|**glide.authenticate.reauth.token.lifespan**|
+    |Type|`integer`|
+    |Value|Integer value in seconds.|
+
+
+**Parent Topic:**[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/mobile-reautentication-concept.md)
+

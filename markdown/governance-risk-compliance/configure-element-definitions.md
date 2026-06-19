@@ -2,6 +2,7 @@
 title: Configure element definitions for Business Continuity Management
 description: Configure element definitions to identify the configuration item that has to be assessed in a business impact analysis and recovered in a business continuity plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-element-definitions.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -63,7 +64,7 @@ Requires data backup
 
 </td><td>
 
-Option to indicate if the primary element requires a data backup. Technology assets require data backup as they pertain to important IT information stored in a system or database.See [View business impact analysis details](view-bia-details.md#primary-elem-flag).
+Option to indicate if the primary element requires a data backup. Technology assets require data backup as they pertain to important IT information stored in a system or database.See [View business impact analysis details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/view-bia-details.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

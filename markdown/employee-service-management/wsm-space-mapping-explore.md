@@ -2,6 +2,7 @@
 title: Exploring Workplace Space Mapping
 description: Workplace Space Mapping provides interactive locations and wayfinding solutions in your workplace with Indoor Mapping and Mappedin. Indoor Mapping provides inbuilt indoor maps for Workplace Space Mapping. Mappedin is a third-party map provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-space-mapping-explore.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Workplace Space Mapping provides interactive locations and wayfinding solutions 
 
     **Note:** Install both Indoor Mapping and the dependent plugin Workplace Indoor Mapping.
 
--   To synchronize Indoor Mapping map data and map objects \(campus, buildings, floors, place, and place types\) that you created in Indoor Mapping Map Studio with Workplace Service Delivery, see [Synchronize Indoor Mapping with Workplace Service Delivery](../../wsd-indoor-mapping/task/synchronize-ind-mapping-wsd.md).
+-   To synchronize Indoor Mapping map data and map objects \(campus, buildings, floors, place, and place types\) that you created in Indoor Mapping Map Studio with Workplace Service Delivery, see [Synchronize Indoor Mapping with Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/synchronize-ind-mapping-wsd.md).
 
 ## Using External IDs
 

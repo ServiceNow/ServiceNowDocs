@@ -2,6 +2,7 @@
 title: Bookmark lists in ServiceNow Studio
 description: Bookmark lists in ServiceNow Studio so you can return to them quickly from the Bookmarks tab in the Navigator panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/bookmark-lists-in-sns.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -35,19 +36,21 @@ Role required: admin or delegated\_developer
 
     -   At the top of the list, select **Bookmark list** next to the **Create** button.
 
-        ![Bookmark the list from the top of the page.](../image/sn-studio-bookmark-top.png)
+        \[Omitted image "sn-studio-bookmark-top.png"\] Alt text: Bookmark the list from the top of the page.
 
-    -   Select the more options icon ![](../image/sn-studio-more-options-icon.png), then select **Bookmark list**. For example, open the list of all flows from the Automation file category and bookmark the list.
+    -   Select the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text:, then select **Add list to collections**. For example, open the list of all decision tables from the Automation file category and bookmark the list.
 
-        ![Bookmark a list from more options menu in the Navigator panel.](../image/sn-studio-bookmark-list.png)
+        \[Omitted image "sn-studio-add-list-to-collections.png"\] Alt text: Bookmark a list by adding it to the Bookmark collection.
 
-4.  Enter a name for the bookmark in the **Add to bookmarks** dialog.
+4.  Enter a name for the bookmark in the **Add to collections** dialog.
 
-5.  Select **Add**.
+5.  Select the **Bookmarks** collection.
 
-6.  Select **Close**.
+    \[Omitted image "sn-studio-bookmark-list-dec-tables.png"\] Alt text: Add the list to the Bookmarks collection.
 
-7.  Refresh the Navigator panel to view your new bookmark on the **Bookmarks** tab.
+6.  Select **Save**.
+
+7.  Refresh the Navigator panel to view your new bookmark in the **Bookmarks** collection.
 
 8.  To rename the bookmark, select the rename bookmark icon, enter a new name, and select **Save**.
 

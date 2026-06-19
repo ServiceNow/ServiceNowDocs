@@ -2,6 +2,7 @@
 title: Push a request to Field Service Marketplace
 description: Create a marketplace request and push to contractors using Field Service Marketplace.Use the Add Contractor button to add an eligible contractor to the list of marketplace participants once a work order task has already been pushed to Marketplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/push-task-fsm-mktplc.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -19,7 +20,7 @@ Create a marketplace request and push to contractors using Field Service Marketp
 
 Role required: sn\_mktplace\_core.mktplace\_requestor
 
-Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](activate-contractor-marketplace.md).
+Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md).
 
 The work order task must have the Marketplace task flag set to true.
 
@@ -33,7 +34,7 @@ You can push tasks to contractors on Field Service Marketplace. The following pr
 
 2.  Select a work order task.
 
-3.  Select the **More Actions** icon \(![More actions icon.](../image/more_actions1.png)\).
+3.  Select the **More Actions** icon \(\[Omitted image "more\_actions1.png"\] Alt text: More actions icon.\).
 
 4.  Select **Push to Marketplace**.
 
@@ -50,11 +51,11 @@ You can push tasks to contractors on Field Service Marketplace. The following pr
 
 ## Result
 
-The request is sent to the contractors. Contractors can respond with time or cost estimates depending on the configuration. For more information, see [Create a marketplace engagement method](create-marketplace-eng-mthd.md).
+The request is sent to the contractors. Contractors can respond with time or cost estimates depending on the configuration. For more information, see [Create a marketplace engagement method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-marketplace-eng-mthd.md).
 
 ## What to do next
 
-After receiving a response, review the responses to assign the task to a contractor or respond with other inquiries. For more information, see [Assign a task to a contractor on Field Service Marketplace](review-rspons-fsm-mrktplc.md).
+After receiving a response, review the responses to assign the task to a contractor or respond with other inquiries. For more information, see [Assign a task to a contractor on Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/review-rspons-fsm-mrktplc.md).
 
 ## Add a contractor to Marketplace participants post-push
 
@@ -64,7 +65,7 @@ Use the Add Contractor button to add an eligible contractor to the list of marke
 
 Role required: sn\_mktplace\_core.mktplace\_requestor
 
-Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](activate-contractor-marketplace.md).
+Ensure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md).
 
 The work order task must have already been pushed to Marketplace.
 

@@ -2,6 +2,7 @@
 title: Define login scenarios
 description: You can direct all users to the same page after login.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_LoginScenarios.html
 release: australia
 product: Authentication
 classification: authentication

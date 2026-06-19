@@ -2,6 +2,7 @@
 title: Track inventory
 description: View a map that shows stockrooms with available parts relative to your location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-available-parts-inventory.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -57,25 +58,25 @@ As an agent, you can search parts from your personal stock room, peer stockrooms
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_ack_gnh_wfb"><thead><tr><th align="left" id="d36249e190">
+<table id="choicetable_ack_gnh_wfb"><thead><tr><th align="left" id="d35946e190">
 
 To
 
-</th><th align="left" id="d36249e193">
+</th><th align="left" id="d35946e193">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d36249e199">
+</th></tr></thead><tbody><tr><td id="d35946e199">
 
 **Search for parts**
 
 </td><td>
 
 1.  Enter a keyword to search parts.
-2.  Tap the Search icon \(![](../image/search_icon.png)\)
+2.  Tap the Search icon \(\[Omitted image "search\_icon.png"\] Alt text:\)
 
 
-</td></tr><tr><td id="d36249e223">
+</td></tr><tr><td id="d35946e223">
 
 **Check part availability with your preference**
 
@@ -93,13 +94,13 @@ Do this
 7.  Tap **Next**.
  Swipe each part record displayed below the map to the left or the right to see the location of the selected part.
 
-</td></tr><tr><td id="d36249e280">
+</td></tr><tr><td id="d35946e280">
 
 **Reconcile assets between a physical location and the system**
 
 </td><td>
 
-For more information, see [Perform asset audit for personal stockrooms](perform-asset-audit.md).
+For more information, see [Perform asset audit for personal stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/perform-asset-audit.md).
 
 </td></tr></tbody>
 </table>
@@ -109,5 +110,5 @@ The stockroom locations' information appear in the form of interactive map and c
 
 ## What to do next
 
-[Request inventory](../concept/request-inventory.md#)
+[Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/request-inventory.md)
 

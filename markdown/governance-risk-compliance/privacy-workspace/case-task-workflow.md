@@ -2,6 +2,7 @@
 title: Case task workflow
 description: Case tasks help you to collaborate with multiple teams to investigate, perform impact assessment to establish case criticality, and gather evidence to capture the details and responses for further review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/case-task-workflow.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -25,12 +26,12 @@ After case task owners work on a task, they submit the task for the case analyst
 
 The following image displays the life cycle of a case task.
 
-![Life cycle of a case task until it is complete.](../../grc-compliance-case-mgmt/image/case-task-workflow.png "Case task workflow")
+\[Omitted image "case-task-workflow.png"\] Alt text: Life cycle of a case task until it is complete.
 
--   **[Create a case task](../task/prm-create-a-case-task.md)**  
+-   **[Create a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-create-a-case-task.md)**  
 Create case tasks to work on the various tasks such as investigations, assessments, inquiries, gathering evidence, and so on required to analyze and work on the case that has been reported. Each case can have multiple case tasks that can be assigned to different owners from various teams.
--   **[Work on a case task](../task/accept-a-case-task.md)**  
+-   **[Work on a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/accept-a-case-task.md)**  
 As a case task owner, accept the task, provide the details requested by the case analyst, and submit it for a review. If a case task is assigned to an assignment group, and not to a specific user, then any user who is a part of the assignment group can accept the task and work on it.
 
-**Parent Topic:**[Using Privacy Case Management](using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

@@ -2,6 +2,7 @@
 title: Reconcile a deployment task
 description: Reconcile a deployment task to enable a deployment request to move to the next stage in deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/reconcile-deployment-task.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -39,5 +40,5 @@ Role required: developer or release\_admin
 5.  Once you've addressed the issues in the deployment task, select **Resolve** to enable the deployment request to be reassessed.
 
 
-**Parent Topic:**[Using ReleaseOps to manage deployments](../concept/using-releaseops-to-manage-deployments.md)
+**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

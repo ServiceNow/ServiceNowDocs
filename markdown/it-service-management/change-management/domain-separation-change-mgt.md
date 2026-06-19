@@ -2,6 +2,7 @@
 title: Domain separation and Change Management
 description: Domain separation is supported in Change Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/domain-separation-change-mgt.html
 release: australia
 product: Change Management
 classification: change-management
@@ -25,7 +26,7 @@ Domain separation is supported in Change Management. Domain separation enables y
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation in Change Management overview
 
@@ -89,10 +90,10 @@ An ITIL user in the Acme domain logs in and creates a change request. The change
 
 An ITIL user in the ACME domain logs in and navigates to the Change Schedule landing page. The user can view the Change Schedules in both their current or global domain.
 
-**Parent Topic:**[Reference section for Change Management](reference-change-management.md)
+**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/reference-change-management.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

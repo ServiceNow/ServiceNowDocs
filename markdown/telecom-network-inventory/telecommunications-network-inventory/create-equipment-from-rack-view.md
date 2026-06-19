@@ -2,6 +2,7 @@
 title: Create equipment from rack view
 description: The Create new equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/create-equipment-from-rack-view.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -107,7 +108,7 @@ Managed by
 
 </td><td>
 
-Name of the person who manages this network asset. Select the search icon \(![Search icon](../image/search.png)\) and select a user from the listing.
+Name of the person who manages this network asset. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon\) and select a user from the listing.
 
 </td></tr><tr><td>
 
@@ -153,5 +154,5 @@ Configuration
 Under optional templates section, select a template for the multi slots.**Note:** This field is displayed only for multi slots template.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

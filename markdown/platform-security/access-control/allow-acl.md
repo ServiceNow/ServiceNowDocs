@@ -2,6 +2,7 @@
 title: Allow ACL
 description: Learn about Allow ACLs \(access control lists\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/allow-acl.html
 release: australia
 product: Access Control
 classification: access-control

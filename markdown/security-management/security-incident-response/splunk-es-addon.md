@@ -2,6 +2,7 @@
 title: Setup ServiceNow Security Operations Event Ingestion Addon for Splunk ES
 description: The ServiceNow Security Operations Event Ingestion Add-on for Splunk ES enables seamless integration between Splunk and ServiceNow Security Operations, allowing you to send security-related events from Splunk to ServiceNow security incident. For detailed instructions on downloading and installing the Addon, follow the steps outlined in this guide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-es-addon.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -18,7 +19,7 @@ The ServiceNow Security Operations Event Ingestion Add-on for Splunk ES enables 
 
 ## Before you begin
 
-Verify that you have installed the application for this integration from the ServiceNow Store prior to installing the addon plugin from splunkbase that is required for manual event ingestion. If you have not installed the application for the integration from the ServiceNow Store, see [Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration](splunk-event-ingest-install-and-configure.md) and follow the instructions to install it.
+Verify that you have installed the application for this integration from the ServiceNow Store prior to installing the addon plugin from splunkbase that is required for manual event ingestion. If you have not installed the application for the integration from the ServiceNow Store, see [Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-install-and-configure.md) and follow the instructions to install it.
 
 Role required: ServiceNow AI Platform administrator \(admin\)
 
@@ -26,7 +27,7 @@ Role required: ServiceNow AI Platform administrator \(admin\)
 
 **Important:**
 
-Create a **Manual event forwarding** profile to forward events on-demand from your Splunk Enterprise Security console to create a Security Incident Response \(SIR\) on the ServiceNow instance. For more information, see [Create and name an event profile](splunk-event-ingest-create-profile.md).
+Create a **Manual event forwarding** profile to forward events on-demand from your Splunk Enterprise Security console to create a Security Incident Response \(SIR\) on the ServiceNow instance. For more information, see [Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md).
 
 This add-on setup is necessary to enable manual event forwarding for the Splunk profile. Up to two configurations can be created for a particular add-on. \(**Splunk Primary** and **Splunk Secondary**\)
 
@@ -113,7 +114,7 @@ Username
 
 Username of the user.User with the \(sn\_sec\_splunkes.api\_account\_access\) role should be present in the instance specified in the preceding URL field for manual event forwarding.
 
-For more information about assigning this role, see [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](splunk-event-ingest-setup-sn.md).
+For more information about assigning this role, see [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-setup-sn.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +142,7 @@ Client Id
 
 </td><td>
 
-Client ID of the app created in the ServiceNow instance.For information on how to get the Client ID, see [Configure Application Registry on the ServiceNow instance](../../secops-integration-sir/secops-integration-splunk-addon/task/configure-application-registry-splunk.md).
+Client ID of the app created in the ServiceNow instance.For information on how to get the Client ID, see [Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-application-registry-splunk.md).
 
 </td></tr><tr><td>
 
@@ -149,7 +150,7 @@ Client Secret
 
 </td><td>
 
-Client Secret of the app created in the ServiceNow instance.For information on how to get the Client Secret, see [Configure Application Registry on the ServiceNow instance](../../secops-integration-sir/secops-integration-splunk-addon/task/configure-application-registry-splunk.md).
+Client Secret of the app created in the ServiceNow instance.For information on how to get the Client Secret, see [Configure Application Registry on the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-application-registry-splunk.md).
 
 </td></tr><tr><td>
 
@@ -202,5 +203,5 @@ The level of reporting logs generated by the integration, meaning the name of th
 
 ## What to do next
 
-[Using ServiceNow Security Operations Event Ingestion Add-on for Splunk ES](use-event-ingestion-addon.md)
+[Using ServiceNow Security Operations Event Ingestion Add-on for Splunk ES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-event-ingestion-addon.md)
 

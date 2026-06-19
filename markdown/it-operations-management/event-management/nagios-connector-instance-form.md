@@ -2,6 +2,7 @@
 title: Nagios connector instance form
 description: The Nagios connector instance form displays the fields you must fill in when creating a Nagios connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/nagios-connector-instance-form.html
 release: australia
 product: Event Management
 classification: event-management
@@ -88,5 +89,5 @@ Active
 Option to activate the connector instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
 

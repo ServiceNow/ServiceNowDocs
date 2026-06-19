@@ -2,6 +2,7 @@
 title: GRC Choices form
 description: Use the GRC Choices form to set up the rating of the assessment by updating its criticality and the order of the choice in the Important choices module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/important-choices-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -65,7 +66,7 @@ Order
 
 Field used for sorting the order of the assessment rating. Based on the Importance and Impact Assessment score, the application selects the corresponding rating.
 
-![Rating scales.](../image/or-rating-scales.png)
+\[Omitted image "or-rating-scales.png"\] Alt text: Rating scales.
 
 </td></tr><tr><td>
 

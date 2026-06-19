@@ -2,11 +2,12 @@
 title: Add a retriever
 description: Add a retriever to your prompt to augment and add context to your prompts with AI search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/add-retriever.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Create a prompt, Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
@@ -118,14 +119,14 @@ Search criteria
 -   Hybrid
 -   Semantic
 -   Keyword
- **Note:** If you choose Hybrid or Semantic, you can make selections for chunking and reranking. To learn more about chunking and reranking, see [Retriever chunking and reranking](retriever-chunking.md).
+ **Note:** If you choose Hybrid or Semantic, you can make selections for chunking and reranking. To learn more about chunking and reranking, see [Retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md).
 
 </td></tr></tbody>
 </table>9.  Select **Next**.
 
 10. Select an embedding model.
 
-    To learn about embedding models, see [Configuring your embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md).
+    To learn about embedding models, see .
 
 11. If you selected **Hybrid** or **Semantic** search criteria, select a semantic index.
 
@@ -137,15 +138,15 @@ Search criteria
 
 13. Select **Next**.
 
-    **Note:** If you selected **Hybrid** or **Semantic** search criteria, see [Retriever chunking and reranking](retriever-chunking.md) to complete setting up your retriever.
+    **Note:** If you selected **Hybrid** or **Semantic** search criteria, see [Retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md) to complete setting up your retriever.
 
 14. Review the retriever tool information.
 
 15. Select **Add tool**.
 
 
--   **[Retriever chunking and reranking](retriever-chunking.md)**  
+-   **[Retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md)**  
 When you’re building a skill prompt that uses a retriever you can use chunking and reranking to enhance the accuracy and relevance of your responses.
 
-**Parent Topic:**[Create a prompt](create-prompt-template.md)
+**Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

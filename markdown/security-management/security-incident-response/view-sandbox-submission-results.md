@@ -2,11 +2,12 @@
 title: Monitor the submission results in the sandbox
 description: Results for all Sandbox submissions are shown in the Sandbox Submission Results tab for every security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-sandbox-submission-results.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -31,7 +32,7 @@ Role required: sn\_si.analyst
 
 4.  Select open any record to view the complete sandbox analysis.
 
-    ![Review the sandbox submission results.](../image/sandbox-submission-results-new.png)
+    \[Omitted image "sandbox-submission-results-new.png"\] Alt text: Review the sandbox submission results.
 
 5.  Select **Resubmit to Sandbox** to reprocess the observable.
 

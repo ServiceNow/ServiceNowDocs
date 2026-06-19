@@ -2,6 +2,7 @@
 title: Create remote choice definitions in Service Exchange for Providers
 description: As a provider, define remote choice fields that allow consumers to retrieve choice data from their instances in real time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-remote-choice-fld-defs.html
 release: australia
 product: Service Exchange
 classification: service-exchange

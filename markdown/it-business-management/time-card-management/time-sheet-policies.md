@@ -2,6 +2,7 @@
 title: Time sheet policies
 description: Time sheet policies contain the policies to which a time sheet, or a time card must adhere.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/time-sheet-policies.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -19,16 +20,16 @@ By default, the Default time sheet policy is available with the system. As a Tim
 
 Time sheet policies also provide an ability to specify appropriate approval workflow for project and non-project tasks.
 
-A time sheet policy can be [set as a default policy](../task/set-default-time-sheet-policy.md). The default policy is a global time sheet policy which applies to all the users who are not assigned to any other time sheet policy. Only one time sheet policy can be set as a default policy.
+A time sheet policy can be [set as a default policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/set-default-time-sheet-policy.md). The default policy is a global time sheet policy which applies to all the users who are not assigned to any other time sheet policy. Only one time sheet policy can be set as a default policy.
 
 Navigate to **Time Sheets** &gt; **Administration** &gt; **Time Sheet Policies** to view the list of timesheet policies.
 
--   **[Create a time sheet policy](../task/create-time-sheet-policy.md)**  
+-   **[Create a time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/create-time-sheet-policy.md)**  
 As a time card administrator, you can create a time sheet policy to define the requirements for time card users to record their time worked. The time card approvers must review and process time sheets under the applicable time sheet policy.
--   **[Set a time sheet policy as default policy](../task/set-default-time-sheet-policy.md)**  
+-   **[Set a time sheet policy as default policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/set-default-time-sheet-policy.md)**  
 As a time card administrator, you can set a time sheet policy as the default policy. The default policy is a global time sheet policy which applies to all the users who are not assigned to any other time sheet policy.
--   **[Assign a time sheet policy to a user](../task/assign-time-sheet-policy-to-user.md)**  
+-   **[Assign a time sheet policy to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/assign-time-sheet-policy-to-user.md)**  
 As a time card administrator, you can assign a time sheet policy to a user.
 
-**Parent Topic:**[Time Card Management](time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-card-management.md)
 

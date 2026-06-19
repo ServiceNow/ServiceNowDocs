@@ -2,7 +2,10 @@
 title: Setting up the Customer Contracts and Entitlements application
 description: Configure the features and components of Customer Contracts and Entitlements to enable a seamless, end-to-end service experience including after sales services for your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/set-up-post-sales-support.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a characteristic](../reference/create-entitlement-template-characteristic.md)
+[Create a characteristic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-entitlement-template-characteristic.md)
 
 </td><td>
 
@@ -33,7 +36,7 @@ Create a characteristic to add to an entitlement. A characteristic refers to the
 
 </td></tr><tr><td>
 
-[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md)
+
 
 </td><td>
 
@@ -41,7 +44,7 @@ Add a user to your instance to enable them to log in and use designated applicat
 
 </td></tr><tr><td>
 
-[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
+
 
 </td><td>
 
@@ -49,7 +52,7 @@ Assign roles to users. Use this feature to grant the sn\_customerservice\_manage
 
 </td></tr><tr><td>
 
-[Create customer accounts](../../customer-service-management/task/import-create-csm-accounts.md)**Note:** On the Accounts form, to view the customer contracts, remove the contract-related lists and configure the customer contracts related list.
+[Create customer accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/import-create-csm-accounts.md)**Note:** On the Accounts form, to view the customer contracts, remove the contract-related lists and configure the customer contracts related list.
 
 </td><td>
 
@@ -57,7 +60,7 @@ Create an account and associate it to a customer contract.
 
 </td></tr><tr><td>
 
-[Create a consumer record](../../customer-service-management/task/create-a-consumer-record.md)
+[Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-consumer-record.md)
 
 </td><td>
 
@@ -65,7 +68,7 @@ Create a consumer record in Customer Service Management. A consumer can be assoc
 
 </td></tr><tr><td>
 
-[Create a sold product](../../customer-service-management/task/create-sold-item.md)
+[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-sold-item.md)
 
 </td><td>
 
@@ -73,7 +76,7 @@ Create a record for a product that is sold to an account or a consumer. A sold p
 
 </td></tr><tr><td>
 
-[Create an install base item](../../customer-service-management/task/create-install-base-item.md)
+[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-install-base-item.md)
 
 </td><td>
 

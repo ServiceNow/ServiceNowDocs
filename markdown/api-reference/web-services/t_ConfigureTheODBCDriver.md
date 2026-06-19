@@ -2,6 +2,7 @@
 title: Configure the ODBC driver
 description: Configure the ODBC driver to connect to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ConfigureTheODBCDriver.html
 release: australia
 product: Web Services
 classification: web-services
@@ -36,10 +37,10 @@ After the driver is installed, configure it for your instance. The driver is pre
 
 4.  Change the **Value** to the URL of your instance, such as `https://<instance>.service-now.com`.
 
-    If integrating the ODBC driver with Edge Encryption, change the **Value** to the URL of your encryption proxy. See [Edge Encryption ODBC driver integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_IntegrateODBCWithEdge.md) for more information.
+    If integrating the ODBC driver with Edge Encryption, change the **Value** to the URL of your encryption proxy. See Edge Encryption ODBC driver integration for more information.
 
 5.  Click **OK**.
 
 
-**Parent Topic:**[Configuring the ODBC driver](../concept/configuring-odbc.md)
+**Parent Topic:**[Configuring the ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-odbc.md)
 

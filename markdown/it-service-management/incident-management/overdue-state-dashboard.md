@@ -2,6 +2,7 @@
 title: Legacy: Overdue by State dashboard
 description: This dashboard lets you see incidents that are overdue according to an SLA, divided by the New, In Progress, and On Hold states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/overdue-state-dashboard.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -17,11 +18,11 @@ This dashboard lets you see incidents that are overdue according to an SLA, divi
 
 **Important:**
 
-Starting in Xanadu release, the Overdue by State dashboard is deprecated. Users can use [Incident management dashboard](performance-analytics/incident.md) to view the incidents that are overdue according to an SLA, divided by the New, In Progress, and On Hold states.
+Starting in Xanadu release, the Overdue by State dashboard is deprecated. Users can use [Incident management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident.md) to view the incidents that are overdue according to an SLA, divided by the New, In Progress, and On Hold states.
 
 You use this dashboard to view the average age of the incidents, the average number of times they have been reassigned, and how long on average since the last update. You can also group them by standard breakdowns like Priority and Assignment Group. This dashboard is inactive by default. Before using this dashboard, a Performance Analytics administrator or power user must open the Dashboard Properties, assign an owner, and select **Active**.
 
-![Incident overdue by state dashboard with workbench widget](../image/incident-sla-overdue-state.png)
+\[Omitted image "incident-sla-overdue-state.png"\] Alt text: Incident overdue by state dashboard with workbench widget
 
 ## End user and roles
 
@@ -83,5 +84,5 @@ The following indicators are used to calculate formulas but are not displayed di
 -   Assignment Group
 -   SLA
 
-**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](incident-sla-content-pack.md)
+**Parent Topic:**[Legacy: Incident SLA Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-sla-content-pack.md)
 

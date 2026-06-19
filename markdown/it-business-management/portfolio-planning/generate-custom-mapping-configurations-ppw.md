@@ -2,6 +2,7 @@
 title: Create custom mapping configurations
 description: Create mapping configurations for planning items that are not created by default such as features, stories, etc.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/generate-custom-mapping-configurations-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ Create mapping configurations for planning items that are not created by default
 
 As an admin, you can choose to create table maps, field maps, and choice maps for the planning items that are not created by default. For more information, see:
 
-1.  [Create a table map](create-custom-table-maps-for-custom-planning-items-ppw.md).
-2.  [Create a field map](create-field-map-ppw.md).
-3.  [Create a choice map](create-choice-map-ppw.md).
+1.  [Create a table map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-custom-table-maps-for-custom-planning-items-ppw.md).
+2.  [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-field-map-ppw.md).
+3.  [Create a choice map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-choice-map-ppw.md).
 

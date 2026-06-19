@@ -2,6 +2,7 @@
 title: Manage calendar synchronizations
 description: As an admin, monitor the number of events and calendar items in the Workplace Calendar Synchronization application whenever a reservation is synchronized.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/manage-calendar-synchronizations.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
@@ -22,15 +23,15 @@ As an admin, the application enables you to view and manage the following:
 -   Calendar items
 -   Synchronization deltas
 
-When you configure synchronization, you must keep in mind a few important conditions. Refer to [Synchronization - Prerequisites and implementation](../reference/synchronization-troubleshooting-and-conditions.md).
+When you configure synchronization, you must keep in mind a few important conditions. Refer to [Synchronization - Prerequisites and implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/synchronization-troubleshooting-and-conditions.md).
 
 ## Approvals
 
-If there are any reservations created from the calendar provider application that requires approval, you can approve them using the Workplace Core approval configuration. For more information on how to approve a reservation or create a performer criteria, refer to [Create a workplace performer criteria](../../workplace-service-delivery/task/create-workplace-performer-criteria.md).
+If there are any reservations created from the calendar provider application that requires approval, you can approve them using the Workplace Core approval configuration. For more information on how to approve a reservation or create a performer criteria, refer to [Create a workplace performer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-performer-criteria.md).
 
 ## Events
 
-Every action during a reservation synchronization triggers an event. These actions include creating, updating, or canceling a reservation. The Workplace Calendar Synchronization handles these events and sends notifications to the calendar services. For more information about an event and the type of events created in the application, refer to [Events in Workplace Calendar Synchronization](../reference/events-in-workplace-calendar-synchronization.md).
+Every action during a reservation synchronization triggers an event. These actions include creating, updating, or canceling a reservation. The Workplace Calendar Synchronization handles these events and sends notifications to the calendar services. For more information about an event and the type of events created in the application, refer to [Events in Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/events-in-workplace-calendar-synchronization.md).
 
 -   An event can create one or more calendar items.
 -   An event contains a request and a response to the request.

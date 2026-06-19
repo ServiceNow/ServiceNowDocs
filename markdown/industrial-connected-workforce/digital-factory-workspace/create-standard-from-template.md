@@ -2,6 +2,7 @@
 title: Create a standard from a template
 description: Create a standard by using available templates within your organization. This approach saves time and promotes consistency compared to building a new standard manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-standard-from-template.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -33,12 +34,12 @@ Role required: sn\_icw\_igt.standard\_author
 
 5.  Follow the steps for creating and publishing a standard.
 
-    To learn more about the following steps, see [Publish an Industrial Guided Task standard](publish-industrial-guided-task-standard.md).
+    To learn more about the following steps, see [Publish an Industrial Guided Task standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/publish-industrial-guided-task-standard.md).
 
 
 ## Result
 
 A new standard is created and displayed in the Standards hub. The standard is in either the Draft or Published state.
 
-**Parent Topic:**[Using templates to create standards](../concept/creating-standards-from-templates.md)
+**Parent Topic:**[Using templates to create standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/creating-standards-from-templates.md)
 

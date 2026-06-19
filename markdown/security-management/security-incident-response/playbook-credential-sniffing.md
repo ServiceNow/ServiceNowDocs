@@ -2,6 +2,7 @@
 title: Playbook for Credential Sniffing
 description: This playbook provides system remediation steps to investigate an incident involving credential sniffing activities performed through the sys\_installation\_exit table in a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-credential-sniffing.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -19,10 +20,10 @@ The Credential Sniffing playbook provides a script field to process the Database
 
 A malicious user may create a script to listen to the user requests and log these requests on the instance. The **sys\_installation\_exit** table on an instance defines the rules of processing the login and logout activities of all users on that instance.
 
--   **[Set up the Credential Sniffing playbook](../task/playbook-setup-credential-sniffing.md)**  
+-   **[Set up the Credential Sniffing playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-setup-credential-sniffing.md)**  
 Use the following steps to set up the Credential Sniffing playbook.
--   **[Use the Credential Sniffing playbook](../task/playbook-using-credential-sniffing.md)**  
+-   **[Use the Credential Sniffing playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-using-credential-sniffing.md)**  
 Use this playbook to investigate an incident involving credential sniffing activities performed through the **sys\_installation\_exit** table in a ServiceNow instance. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Credential Sniffing playbook.
 
-**Parent Topic:**[Flow-based Playbooks](playbook-flow-based.md)
+**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-flow-based.md)
 

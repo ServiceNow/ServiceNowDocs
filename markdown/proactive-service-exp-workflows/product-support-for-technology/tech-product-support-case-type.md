@@ -2,20 +2,21 @@
 title: Technology Product Support case type
 description: The Technology Product Support case type enables technology companies to provide support for digital products and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 14
-breadcrumb: [Technology Product Support Case, Explore, Product Support for Technology]
+breadcrumb: [Explore, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Technology Product Support case type
 
 The Technology Product Support case type enables technology companies to provide support for digital products and services.
 
-A [case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md) represents the processes and the data that are needed to resolve a specific type of customer issue. The Technology Product Support case type includes the table, roles, SLAs, email notifications, and other items needed to resolve technology issues.
+A case types represents the processes and the data that are needed to resolve a specific type of customer issue. The Technology Product Support case type includes the table, roles, SLAs, email notifications, and other items needed to resolve technology issues.
 
 The Technology Product Support Case application \(sn\_tech\_product\_support\) includes the Technology Product Support case type. To view a list of available case types, navigate to **Customer Service** &gt; **Case Types** &gt; **Manage Case Types**.
 
@@ -35,11 +36,11 @@ Tables
 
 </td><td>
 
-The Technology Product Support Case application includes the Tech Product Support Case \[sn\_tech\_product\_support\_case\] table. This table extends the Case table and can be extended.For a detailed description of the Tech Product Support Case table, including field descriptions, see [Tech Product Support Case table](../reference/tech-product-support-case-table.md).
+The Technology Product Support Case application includes the Tech Product Support Case \[sn\_tech\_product\_support\_case\] table. This table extends the Case table and can be extended.For a detailed description of the Tech Product Support Case table, including field descriptions, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
 
 </td></tr><tr><td>
 
-[Roles](tech-product-support-case-type.md#section_fwf_mlg_n1c)
+[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -47,7 +48,7 @@ Roles control access to features and capabilities in the Technology Product Supp
 
 </td></tr><tr><td>
 
-[Case states](tech-product-support-case-type.md#section_jtm_rjs_y1c)
+[Case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -55,7 +56,7 @@ Technology product support cases follow a specific life cycle and move through a
 
 </td></tr><tr><td>
 
-[State flows](tech-product-support-case-type.md#section_zmc_ptf_n1c)
+[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -63,7 +64,7 @@ State flows are customized transitions from one state to another, such as when a
 
 </td></tr><tr><td>
 
-[List views](tech-product-support-case-type.md#section_sh1_l3g_n1c)
+[List views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -71,7 +72,7 @@ The Technology Product Support Case application includes list views for CSM/FSM 
 
 </td></tr><tr><td>
 
-[Special handling notes](tech-product-support-case-type.md#section_h4k_rvg_n1c)
+[Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -79,7 +80,7 @@ Special handling notes bring important information to an agent's attention.
 
 </td></tr><tr><td>
 
-[Service definitions](tech-product-support-case-type.md#section_hjj_5jd_y1c)
+[Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -87,7 +88,7 @@ Service definitions enable customers to quickly discover and request the service
 
 </td></tr><tr><td>
 
-[Email notifications and email templates](tech-product-support-case-type.md#section_dwg_242_y1c)
+[Email notifications and email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -95,7 +96,7 @@ Email notifications are sent to the contact and, in some cases, to users on the 
 
 </td></tr><tr><td>
 
-[Provider notifications](tech-product-support-case-type.md#section_ahk_lyj_y1c)
+[Provider notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -103,7 +104,7 @@ Provider notifications for agents are sent following updates to technology produ
 
 </td></tr><tr><td>
 
-[Service level agreement \(SLA\) definitions](tech-product-support-case-type.md#section_vvh_sbl_y1c)
+[Service level agreement \(SLA\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -111,7 +112,7 @@ An SLA definition includes the timing, conditions, workflows, and other informat
 
 </td></tr><tr><td>
 
-[Record producer](tech-product-support-case-type.md#section_y4c_hgy_1bc)
+[Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -119,7 +120,7 @@ A record producer is a specific type of catalog item that allows end users to cr
 
 </td></tr><tr><td>
 
-[Case action status](tech-product-support-case-type.md#section_fvz_mrg_n1c)
+[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -127,7 +128,7 @@ The case action status feature enables agents to easily identify cases that need
 
 </td></tr><tr><td>
 
-[Field indicators and highlights](tech-product-support-case-type.md#section_xsn_gwd_y1c)
+[Field indicators and highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -135,7 +136,7 @@ The Technology Product Support case type uses field indicators and field highlig
 
 </td></tr><tr><td>
 
-[Auto close cases](tech-product-support-case-type.md#section_j3p_rsg_n1c)
+[Auto close cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)
 
 </td><td>
 
@@ -314,7 +315,7 @@ Users with the major case manager role can:-   Create major cases
 -   Add or remove child cases from major cases
 -   Add or remove impacted accounts or consumers
 
-For more information, see [Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/major-issue-management.md).
+For more information, see .
 
 </td><td>
 
@@ -585,9 +586,9 @@ The Technology Product Support Case application includes a configuration for spe
 
 Users can create special handling notes by navigating to **Special Handling Notes** &gt; **Special Handling Notes** and selecting **New**. For more information, see the following topics:
 
--   [Special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OnScreenAlerts.md)
--   [Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-special-handling-notes.md)
--   [Create a special handling note](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAnOnScreenAlert.md)
+-   
+-   
+-   
 
 ## Service definitions
 
@@ -598,7 +599,7 @@ The Technology Product Support Case application includes the following service d
 -   Something is Broken
 -   Performance Issue
 
-For more information, see [Service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md) and Service definition categories.
+For more information, see  and Service definition categories.
 
 ## Email notifications and email templates
 
@@ -816,7 +817,7 @@ To create a case from the Customer Service Portal using this record producer:
 1.  Select **Requests** &gt; **Request Something**.
 2.  Select the **Support** category.
 3.  Select the **Create a Technology Product Case** catalog item.
-4.  Fill in the fields on the record producer. For field definitions, see the [Create a Technology Product Case record producer fields table](tech-product-support-case-type.md#table_egg_1ky_1bc) below.
+4.  Fill in the fields on the record producer. For field definitions, see the [Create a Technology Product Case record producer fields table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md) below.
 5.  Select **Submit**.
 
 The **Create a Technology Product Case** record producer includes the following fields.
@@ -945,8 +946,8 @@ When a case is in the Awaiting Info state and the customer, or a customer contac
 
 For more information, see the following topics:
 
--   [Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-action-status.md)
--   [Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-action-status-csm-workspace.md) \(CSM Configurable Workspace\)
+-   
+-    \(CSM Configurable Workspace\)
 
 ## Field indicators and highlights
 
@@ -1009,7 +1010,7 @@ Field indicators and field highlights appear on the **Short description** field 
 -   Red: High severity
 -   Orange: Medium severity
 
- For more information, see [Administering case and account escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/administer-case-account-escalation.md).
+ For more information, see .
 
 </td></tr></tbody>
 </table>## Automatically close technology product support cases
@@ -1026,7 +1027,5 @@ Customers receive the following notifications before a case is automatically clo
 -   Second notification: sent after 5 days
 -   Third notification: sent after 8 days
 
-For more information, see [Automatically close customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/auto-close-customer-service-case.md).
-
-**Parent Topic:**[Exploring Technology Product Support Case](tech-product-support-case-app.md)
+For more information, see .
 

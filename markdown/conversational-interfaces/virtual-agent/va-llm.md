@@ -2,6 +2,7 @@
 title: LLM topic discovery in Virtual Agent
 description: Large language models \(LLMs\) enable Virtual Agent to process user statements in plain language. Conversations that use LLMs can outperform those conversations that use Natural Language Understanding \(NLU\), with easier setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-llm.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +33,7 @@ With LLMs, Virtual Agent can do the following:
 -   Extract entity values without prior mapping as in NLU modeling.
 -   Handle multiple conversation topic switches in a single conversation session.
 
-For more information about LLMs, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+For more information about LLMs, see .
 
 ## Topic discovery
 
@@ -50,10 +51,10 @@ Topic switching is faster and easier with LLMs compared to NLU topics. The LLM p
 
 For example, if you start a conversation by asking for a mobile phone, you don't have to cancel the order first or restart the conversation. Instead, you can ask Virtual Agent to order a laptop instead. Virtual Agent immediately switches from the mobile phone topic to the laptop topic. Topic switching can be done during a query, but not within a catalog ordering flow.
 
-Another example is when a user might ask a casual question or engage in small talk. The question might be unrelated to the original request. You can create small talk topics or set up small talk filters to help the Virtual Agent match and launch the appropriate conversation for the switched topic. For more information, see [Create a small talk topic](../task/create-small-talk.md) and [Configure small talk filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-small-talk-filters.md).
+Another example is when a user might ask a casual question or engage in small talk. The question might be unrelated to the original request. You can create small talk topics or set up small talk filters to help the Virtual Agent match and launch the appropriate conversation for the switched topic. For more information, see [Create a small talk topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-small-talk.md) and .
 
 ## Additional resources
 
--   [Now Assist in Virtual Agent](../../now-assist-in-va/concept/now-assist-in-va-landing.md)
--   [LLM assistants](../../now-assist-in-va/concept/llm-assistants.md)
+-   [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md)
+-   [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md)
 

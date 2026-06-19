@@ -2,7 +2,10 @@
 title: Create major cases for trending case topics
 description: Work through cases more efficiently and resolve similar cases at once by creating major cases to add the backlog of cases to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/major-cases-trending-topics.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

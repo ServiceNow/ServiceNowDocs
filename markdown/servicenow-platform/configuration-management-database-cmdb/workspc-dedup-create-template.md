@@ -2,6 +2,7 @@
 title: Create a de-duplication template
 description: Create a de-duplication template that you can then run to apply pre-configured and consistent remediation to de-duplication tasks, in bulk. Organize your templates in libraries that make sense in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-create-template.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -19,8 +20,8 @@ Create a de-duplication template that you can then run to apply pre-configured a
 
 Role required:
 
--   To access the [Management view in CMDB Workspace](../concept/cmdb-workspace-mangmnt-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To access the [Governance view in Service Graph Workspace](../concept/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
+-   To access the [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
+-   To access the [Governance view in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
 -   To perform this task: cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## About this task
@@ -180,15 +181,15 @@ When merging duplicate CIs into the main CI:-   Prevents updates to main CI attr
 
 10. **Merge related items**: Select the method to use for merging related items associated with the duplicate CIs into the main CI, and then select **Next**.
 
-<table id="choicetable_azk_5gj_yyb"><thead><tr><th align="left" id="d146478e580">
+<table id="choicetable_azk_5gj_yyb"><thead><tr><th align="left" id="d147223e580">
 
 Choice
 
-</th><th align="left" id="d146478e583">
+</th><th align="left" id="d147223e583">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146478e589">
+</th></tr></thead><tbody><tr><td id="d147223e589">
 
 **Merge default related items**
 
@@ -196,7 +197,7 @@ Description
 
 Merge only related items in the default related items list, from duplicate CIs into the main CI.
 
-</td></tr><tr><td id="d146478e598">
+</td></tr><tr><td id="d147223e598">
 
 **Do not merge any related items**
 
@@ -204,7 +205,7 @@ Merge only related items in the default related items list, from duplicate CIs i
 
 Don't merge related items from any duplicate CI into the main CI.
 
-</td></tr><tr><td id="d146478e607">
+</td></tr><tr><td id="d147223e607">
 
 **Merge all available related items**
 
@@ -212,7 +213,7 @@ Don't merge related items from any duplicate CI into the main CI.
 
 Merge all related items from all duplicate CIs into the main CI.
 
-</td></tr><tr><td id="d146478e616">
+</td></tr><tr><td id="d147223e616">
 
 **Merge related items based on condition**
 
@@ -223,8 +224,8 @@ Merge related items only if the main CI satisfies this condition. Related items 
  Select **Create a new condition** to build conditions.
 
 </td></tr></tbody>
-</table>    -   For information about the default list of related items used in de-duplication processes, see [Manage default related items list](manage-related-items-list.md).
-    -   For information about setting related tables so that automated workflows that might be blocking remediation of related items \(such as business rules and errors\), are disabled, see [Turn off workflows of related tables during remediation](dedup-ci-disable-workflow.md).
+</table>    -   For information about the default list of related items used in de-duplication processes, see [Manage default related items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-related-items-list.md).
+    -   For information about setting related tables so that automated workflows that might be blocking remediation of related items \(such as business rules and errors\), are disabled, see [Turn off workflows of related tables during remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-disable-workflow.md).
 11. **Duplicate CI actions**: Select what to do with the duplicate CIs after they’re merged into the main CI, according to the template settings, then select **Next**.
 
     |Choice|Description|
@@ -249,9 +250,9 @@ The new template is added to the specified library in draft mode and can be edit
 
 ## What to do next
 
--   [Publish a de-duplication template](workspc-dedup-unpublish-template.md)
--   [Run a template to process de-duplication tasks](workspc-dedup-run-template.md)
--   [Remediate a single de-duplication task](workspc-dedup-remediate-single-task.md)
+-   [Publish a de-duplication template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-unpublish-template.md)
+-   [Run a template to process de-duplication tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-run-template.md)
+-   [Remediate a single de-duplication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-remediate-single-task.md)
 
-**Parent Topic:**[CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](../concept/dedup-ci-exp-cmdb-workspace.md)
+**Parent Topic:**[CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
 

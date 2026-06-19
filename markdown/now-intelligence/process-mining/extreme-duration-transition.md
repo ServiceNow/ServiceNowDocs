@@ -2,6 +2,7 @@
 title: Configure extreme duration on transitions
 description: Configure an extreme duration \(Transition\) definition to view a pattern where transitions take significantly longer than the usual duration between the steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/extreme-duration-transition.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -21,13 +22,13 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 Extreme duration on transitions displays transitions that take significantly longer than the median duration. This helps uncover potential duration anomalies.
 
-![Extreme duration (Transition)](../image/extreme-duration-transition.png)
+\[Omitted image "extreme-duration-transition.png"\] Alt text: Extreme duration \(Transition\)
 
 ## Procedure
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about the Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Extreme duration \(Transition\) card.
 
@@ -120,7 +121,7 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 
     Default values are provided. You can edit them if needed.
 
-    ![Extreme duration (Transition) Config tab](../image/extreme-duration-transition-config.png)
+    \[Omitted image "extreme-duration-transition-config.png"\] Alt text: Extreme duration \(Transition\) Config tab
 
     According to the example, records that meet the following conditions are available as improvement opportunities in the Summary and insights page:
 
@@ -130,5 +131,5 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting Automated improvement opportunities](../concept/automated-findings.md)
+**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
 

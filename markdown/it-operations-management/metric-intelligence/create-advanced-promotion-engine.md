@@ -2,6 +2,7 @@
 title: Create a definition for the Advanced Promotion Engine
 description: Create a definition for the Advanced Promotion Engine so that you can define the conditions for promoting the anomaly alerts to IT alerts. By promoting the alerts that meet the conditions, only the most relevant alerts move to the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/create-advanced-promotion-engine.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -19,7 +20,7 @@ Create a definition for the Advanced Promotion Engine so that you can define the
 
 IT Alerts appear in the Express List and are addressed by an operator.
 
-Only metrics that are associated with a metric configuration rule that has **Anomaly score level = Anomaly alerts** are considered for promotion to IT alerts. For details on metric configuration rules, see [Metric Configuration Rules](../concept/metric-configuration-rule.md).
+Only metrics that are associated with a metric configuration rule that has **Anomaly score level = Anomaly alerts** are considered for promotion to IT alerts. For details on metric configuration rules, see [Metric Configuration Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/metric-configuration-rule.md).
 
 ## Before you begin
 
@@ -106,7 +107,7 @@ Number of days in the past that any CI created during that time is ignored. For 
 
 ## What to do next
 
-Ensure that the a metric configuration rule exists which includes metrics you want to be promoted to an IT alert, and that the anomaly score level of the rule is **Anomaly alerts**. For details on configuring a metric configuration rule, see [Create a configuration settings rule](../../event-management/task/create-config-overriding-rule.md).
+Ensure that the a metric configuration rule exists which includes metrics you want to be promoted to an IT alert, and that the anomaly score level of the rule is **Anomaly alerts**. For details on configuring a metric configuration rule, see [Create a configuration settings rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-config-overriding-rule.md).
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

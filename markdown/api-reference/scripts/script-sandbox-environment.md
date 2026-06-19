@@ -2,11 +2,12 @@
 title: Script sandbox environment
 description: The script sandbox environment is a restricted execution context in which untrusted, client-generated scripts run on the server using one of two evaluators: the guarded script evaluator or the script sandbox evaluator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/script-sandbox-environment.html
 release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-04-09"
+last_updated: "2026-05-05"
 reading_time_minutes: 3
 breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
 ---
@@ -106,10 +107,10 @@ Not applicable: script includes run outside the sandbox in the application scope
 </td></tr></tbody>
 </table>For details about each evaluator, including JavaScript restrictions, see the following topics and the [Server-Side Sandbox Runtime Replacement \[KB2944435\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2944435) article on the Now Support Knowledge Base.
 
--   **[Guarded script evaluator](guarded-script.md)**  
+-   **[Guarded script evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/guarded-script.md)**  
 The guarded script evaluator enhances instance security by supporting only a restricted scripting language and detecting or rejecting untrusted scripts that use unsupported JavaScript features.
--   **[Script sandbox evaluator](script-sandbox.md)**  
+-   **[Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/script-sandbox.md)**  
 The script sandbox evaluator helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
 
-**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md)
 

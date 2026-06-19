@@ -2,6 +2,7 @@
 title: Configuring Field Service Marketplace
 description: You can configure Contractor Marketplace to enable dispatchers to push tasks to marketplace when internal agents are unavailable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/configuring-contractor-marketplace.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -17,6 +18,6 @@ You can configure Contractor Marketplace to enable dispatchers to push tasks to 
 
 ## Configuration overview
 
-1.  [Activate Field Service Marketplace](../task/activate-contractor-marketplace.md)
-2.  [Create a marketplace engagement method](../task/create-marketplace-eng-mthd.md)
+1.  [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md)
+2.  [Create a marketplace engagement method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-marketplace-eng-mthd.md)
 

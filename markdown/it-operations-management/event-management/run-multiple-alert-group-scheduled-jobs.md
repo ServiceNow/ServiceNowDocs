@@ -2,11 +2,12 @@
 title: Run multiple scheduled jobs for alert grouping
 description: Run multiple scheduled jobs in parallel to group alerts. This helps prevent overwhelming the system during surges \(alert storms\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/run-multiple-alert-group-scheduled-jobs.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -45,7 +46,7 @@ Without setting at least one of these properties to true, the alerts will not be
 
 3.  For all existing scheduled jobs Service Analytics group alerts using RCA/Alert Aggregation, set the value in the **Active** column to **false**.
 
-    ![Deactivate scheduled job](../../service-operations-workspace-itom/image/deactivate-scheduled-job.png "Deactivate scheduled job")
+    \[Omitted image "deactivate-scheduled-job.png"\] Alt text: Deactivate scheduled job
 
 4.  Create a new property **sa\_analytics.agg.alert\_grouping.num\_of\_jobs**, or if it already exists, update the property to the desired number of multiple scheduled jobs for alert grouping such as 2 or 4.
 
@@ -77,7 +78,7 @@ Without setting at least one of these properties to true, the alerts will not be
 
 8.  Activate the new jobs by selecting the **Active** check box for each job.
 
-    ![Activate scheduled job](../../service-operations-workspace-itom/image/active-scheduled-job.png "Activate scheduled job")
+    \[Omitted image "active-scheduled-job.png"\] Alt text: Activate scheduled job
 
 
 ## Result

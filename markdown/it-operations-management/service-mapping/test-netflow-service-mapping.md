@@ -2,6 +2,7 @@
 title: Configure onetime data import using Netflow for testing purposes
 description: Configure and test Service Mapping discovery process based on data collected using the Netflow protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/test-netflow-service-mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -17,13 +18,13 @@ Configure and test Service Mapping discovery process based on data collected usi
 
 ## Before you begin
 
-Learn about [Traffic-based discovery in Service Mapping](../concept/traffic-based-discovery.md).
+Learn about [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
 
 Role required: admin or service\_mapping\_admin
 
 ## About this task
 
-In base systems, which are the default or standard configurations, traffic-based discovery relies solely on TCP-related data collected using the **netstat**, **ss**, and **lsof** commands. Discovery based on Netflow and VPC logs requires additional configuration. You can enrich your traffic-based discovery by configuring Service Mapping to use the Netflow protocol. For more information about the way Service Mapping to collect Netflow data, see [Data collection and discovery using Netflow](../concept/data-collection-netflow-mapping.md).
+In base systems, which are the default or standard configurations, traffic-based discovery relies solely on TCP-related data collected using the **netstat**, **ss**, and **lsof** commands. Discovery based on Netflow and VPC logs requires additional configuration. You can enrich your traffic-based discovery by configuring Service Mapping to use the Netflow protocol. For more information about the way Service Mapping to collect Netflow data, see [Data collection and discovery using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/data-collection-netflow-mapping.md).
 
 For testing purposes, install the Netflow Collector \(nfdump\) on a Unix server inside your organization. In this case, this Unix server should be different from the server hosting the MID Server server.
 
@@ -83,7 +84,7 @@ Configure the ServiceNow connector to trigger MID Server to collect the data fro
         |Field|Description|
         |-----|-----------|
         |**Name**|A descriptive name for the connector.|
-        |**nfdump data path**|The path to a location on the MID Server to which you saved the nfdump data file in [5](test-netflow-service-mapping.md#CopyNfdumpFile).|
+        |**nfdump data path**|The path to a location on the MID Server to which you saved the nfdump data file in [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/test-netflow-service-mapping.md).|
         |**MID Server**|The MID Server, onto which you copied the nfdump file.|
         |**Gzipped file**|If you converted the nfdump file into the gzip format before saving it on the MID Server, set this parameter to true to unzip it.|
 
@@ -104,7 +105,7 @@ Configure the ServiceNow connector to trigger MID Server to collect the data fro
 
 ## What to do next
 
-If you are satisfied with the results of the test, configure Netflow-based data collection as described in [Configure data collection using Netflow](configure-netflow-service-mapping.md).
+If you are satisfied with the results of the test, configure Netflow-based data collection as described in [Configure data collection using Netflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/configure-netflow-service-mapping.md).
 
-**Parent Topic:**[Advanced Service Mapping configuration](../concept/c_ConfigureSM.md)
+**Parent Topic:**[Advanced Service Mapping configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/c_ConfigureSM.md)
 

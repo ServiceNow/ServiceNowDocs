@@ -2,12 +2,13 @@
 title: Submit a report anonymously from the Anonymous Reporting Center
 description: Use Submit a report anonymously on the Anonymous Reporting Center \(ARC\) landing page to raise suspected compliance, privacy, or AI-related issues confidentially.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-submit-report-anonymously.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Anonymous Reporting Center, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -23,11 +24,11 @@ Role required: sn\_grc.business\_user
 
 ## About this task
 
-ARC gives employees a safe, confidential way to report suspected misconduct without revealing their identity, encouraging early disclosure of issues that might otherwise go unreported. You can report a case anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it.
+ARC enables you to report suspected misconduct safely and confidentially, encouraging early disclosure of issues that might otherwise go unreported. You can report a case anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it.
 
 **Note:** When submitting an anonymous report, don't include personal data about yourself or other individuals that could directly or indirectly reveal identity. For example, names, email addresses, or phone numbers.
 
-Anonymous reports accept standard text characters. Avoid including executable code, scripts, or unsupported special characters, as they may be removed automatically during submission. For more information, refer to [Anonymous Reporting Center](../concept/grc-anonymous-reporting-center.md).
+Anonymous reports accept standard text characters. Avoid including executable code, scripts, or unsupported special characters, as they may be removed automatically during submission. For more information, refer to [Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
 
 ## Procedure
 
@@ -48,9 +49,9 @@ Anonymous reports accept standard text characters. Avoid including executable co
 
 ## What to do next
 
--   [Report a compliance case anonymously](../../grc-compliance-case-mgmt/task/report-compliance-case-anonymously.md)
--   [Report a privacy case anonymously](../../grc-privacy-management/task/report-privacy-case-anonymously.md)
--   [Report an AI case anonymously](../../grc-ai-risk-compliance/task/report-ai-case-anon.md)
+-   [Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
+-   [Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
+-   [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
-**Parent Topic:**[Anonymous Reporting Center](../concept/grc-anonymous-reporting-center.md)
+**Parent Topic:**[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 

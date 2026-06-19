@@ -2,6 +2,7 @@
 title: Secure Text user input control
 description: The Secure Text control provides a means to encrypt sensitive information provided as simple text or other formats. Use this control to encrypt sensitive information in topics that use large language model \(LLM\) discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-secure-text.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -60,7 +61,7 @@ Text format that is validated when a user enters certain text items. When the in
 -   URL: Web address format.
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format isn’t entered.
 
- For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r-IPAddressFieldType.md).
+ For phone and IP address format examples, see E.164 phone formats and IP address field types.
 
 </td></tr><tr><td>
 
@@ -136,7 +137,7 @@ Skip reprompting
 
 </td><td>
 
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or [Dialog Act](../concept/c_dialog-acts.md), the Virtual Agent bypasses this node and automatically retain its original value.
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or [Dialog Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/c_dialog-acts.md), the Virtual Agent bypasses this node and automatically retain its original value.
 
 </td></tr></tbody>
 </table>## Example Secure Text user input control
@@ -151,11 +152,11 @@ Input prompt
 
 </th></tr></thead><tbody><tr><td>
 
-![Secure Text user input basic properties include node name, prompt, input format, hash function, and encryption salt. Advanced options include Default value, Confirmation message, and Hide or skip this node.](../images/va-secure-text-input.png "Secure Text input control basic properties")
+\[Omitted image "va-secure-text-input.png"\] Alt text: Secure Text user input basic properties include node name, prompt, input format, hash function, and encryption salt. Advanced options include Default value, Confirmation message, and Hide or skip this node.
 
 </td><td>
 
-![Secure Text input shown in the web client. The text reads, “What is your first and last name?” and the user response is automatically hidden.](../images/va-secure-text-input-web.png "Web UI Secure Text user input prompt")
+\[Omitted image "va-secure-text-input-web.png"\] Alt text: Secure Text input shown in the web client. The text reads, “What is your first and last name?” and the user response is automatically hidden.
 
 </td></tr></tbody>
 </table>## Channel support
@@ -177,5 +178,5 @@ Input prompt
 |Apple Messages for Business|Supported|None.|
 |Alexa \(Voice\)|Supported|For screen devices, character limits may apply. For more information, see the [Alexa developer documentation](https://developer.amazon.com/en-US/docs/alexa/custom-skills/display-interface-reference.html).|
 
-**Parent Topic:**[Assistant Designer user input controls](va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

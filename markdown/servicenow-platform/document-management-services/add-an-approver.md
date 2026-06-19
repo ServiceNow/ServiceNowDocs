@@ -2,6 +2,7 @@
 title: Add an approver
 description: Add a single or multiple approvers to the document approval and review rule for document approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/add-an-approver.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -21,7 +22,7 @@ Role required: platform\_document\_management\_admin or admin
 
 ## About this task
 
-The procedure described in this task applies to newly created records. For existing records, go to the document record, select the additional actions icon \(![Additional actions icon.](../../service-catalog-management/image/AdditinalActions.png)\) and select **Refresh Approvers and Reviewers** to match the rules and add approvers.
+The procedure described in this task applies to newly created records. For existing records, go to the document record, select the additional actions icon \(\[Omitted image "AdditinalActions.png"\] Alt text: Additional actions icon.\) and select **Refresh Approvers and Reviewers** to match the rules and add approvers.
 
 **Note:** The document reviewer and approver can be directly added through the document record but they aren't added to the Document approval and revision rule.
 
@@ -46,5 +47,5 @@ The procedure described in this task applies to newly created records. For exist
 8.  Repeat steps 3–7 to add multiple approvers.
 
 
-**Parent Topic:**[Document approval and publish process](../concept/document-review-approval.md)
+**Parent Topic:**[Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md)
 

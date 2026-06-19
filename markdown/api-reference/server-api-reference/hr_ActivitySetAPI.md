@@ -2,6 +2,7 @@
 title: hr\_ActivitySet - Scoped
 description: The hr\_ActivitySet API handles lifecycle event activity set cases.Instantiates an instance of the hr\_ActivitySet class.Creates a lifecycle event case based on a specified HR service.Checks for a case matching the specified combination of subject person user, HR service, and job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/hr\_ActivitySetAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,9 +20,9 @@ Lifecycle event activity sets represent different stages in the lifecycle event 
 
 The hr\_ActivitySet API requires the HR Lifecycle Events plugin \(com.sn\_hr\_lifecycle\_events\) and runs in the `sn_hr_le` namespace.
 
-For additional information, see [Understanding Enterprise Onboarding and Transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-journey-management/understanding-enterprise-onboarding-and-transitions.md).
+For additional information, see Understanding Enterprise Onboarding and Transitions.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## hr\_ActivitySet - hr\_ActivitySet\(\)
 

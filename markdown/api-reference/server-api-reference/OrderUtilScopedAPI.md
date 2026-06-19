@@ -2,6 +2,7 @@
 title: OrderUtil - Scoped
 description: The OrderUtil script include enables you to view and retrieve order details.Creates an instance of the OrderUtil class.Gets the state of a specified order.Returns whether the state of a specified order is in draft state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/OrderUtilScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The OrderUtil script include enables you to view and retrieve order details.
 
 To access the methods in this script include, use the `sn_ind_tmt_orm` namespace identifier. The Order Management \(com.sn\_ind\_tmt\_orm\) plugin is required to access the OrderUtil script include.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## OrderUtil - OrderUtil\(\)
 

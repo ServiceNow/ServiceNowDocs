@@ -2,6 +2,7 @@
 title: Activating Machine Identity Console
 description: Activate the Machine Identity Management com.glide.identity.machine\_identity\_management to manage your service accounts which are used for integrations with ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/activate-machine-identity-console.html
 release: australia
 product: Identity
 classification: identity
@@ -31,6 +32,6 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

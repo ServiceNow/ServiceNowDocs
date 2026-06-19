@@ -2,6 +2,7 @@
 title: CatalogItemVariable - Scoped
 description: The CatalogItemVariable API provides methods that enable you to create and modify service catalog item variables using scripts.Inserts the specified catalog item variable.Deletes the defined catalog item variable.Returns a mapping of catalog item variable attribute values.Defines attribute values for this catalog item variable.Updates current catalog item variable with set values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CatalogItemVariable.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The CatalogItemVariable API provides methods that enable you to create and modif
 
 This API runs in the `sn_sc` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CatalogItemVariable - create\(Boolean standardUpdate\)
 

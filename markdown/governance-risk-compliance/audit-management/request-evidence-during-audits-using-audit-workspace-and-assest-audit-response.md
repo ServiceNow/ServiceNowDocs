@@ -2,6 +2,7 @@
 title: Request evidence using Audit Workspace to Assest Audit Response
 description: Request evidence at any stage during an audit using the Audit Workspace. The details about the items for which evidence is requested are also provided to the person responsible for providing the evidence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/request-evidence-during-audits-using-audit-workspace-and-assest-audit-response.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -118,6 +119,6 @@ User responsible for providing evidence.
 Instructions for providing evidence. For example, list of supporting documents, files, and so on.
 
 </td></tr></tbody>
-</table>    ![Request evidence form.](../image/request_evidence_itam.png)
+</table>    \[Omitted image "request\_evidence\_itam.png"\] Alt text: Request evidence form.
 
 

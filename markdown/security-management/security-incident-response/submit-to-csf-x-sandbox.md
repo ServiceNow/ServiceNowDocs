@@ -2,6 +2,7 @@
 title: Submit to CSF X Sandbox
 description: Submit to CSF X Sandbox is an example of an activity definition process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/submit-to-csf-x-sandbox.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,9 +26,9 @@ Add the Automation plan, Activity experience and submit. Once submitted, edit th
 
 The Automation Plan associates the backend action/subflow built using the flow designer. This example uses the **Submit to Sandbox - ESCM Activity** sub-flow.
 
-![Activity definitions](../image/sandbox.png)
+\[Omitted image "sandbox.png"\] Alt text: Activity definitions
 
-![Activity Definition - Submit to CSF Sandbox](../image/sandbox-auto-plan.png)
+\[Omitted image "sandbox-auto-plan.png"\] Alt text: Activity Definition - Submit to CSF Sandbox
 
 This sub-flow enables submitting the malicious observables to sandbox. It has all the input fields and output fields defined.
 
@@ -92,5 +93,5 @@ To add a new action to the activity card, you need to create a new record in the
 
 No Playbook overrides for this example.
 
-**Parent Topic:**[Activity Definitions](../concept/build-activities.md)
+**Parent Topic:**[Activity Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/build-activities.md)
 

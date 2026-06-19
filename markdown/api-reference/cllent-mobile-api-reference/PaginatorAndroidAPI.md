@@ -2,6 +2,7 @@
 title: Paginator class - Android
 description: The Paginator class provides functions for paging through the return results passed back by a REST endpoint call, such as those returned by the NowTableService class.Fetches the first page of the return results.Checks whether there is a next page in the return results.Checks whether there in a previous page in the return results.Checks whether the Paginator is busy fetching data.Fetches the last page of the return results.Fetches the next page of the return results.Sets the Paginator object's callbacks. You must call this method before calling any other Paginator functions.Fetches the previous page of the return results.Resets the Paginator back to the first page but doesn’t return the first page of the return results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/PaginatorAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 The Paginator class provides functions for paging through the return results passed back by a REST endpoint call, such as those returned by the NowTableService class.
 
-You must first call the [NowTableService - paginator\(from tableName: String, configuration: FetchConfiguration? = nil\)](../../../MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#) or [NowTableService - paginator&lt;Model: Decodable&gt;\(from tableName: String, path: String = Constants.resultPath, coder: Coder = .default, configuration: FetchConfiguration? = nil\)](../../../MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#) function to retrieve paginate return results.
+You must first call the [NowTableService - paginator\(from tableName: String, configuration: FetchConfiguration? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md) or [NowTableService - paginator&lt;Model: Decodable&gt;\(from tableName: String, path: String = Constants.resultPath, coder: Coder = .default, configuration: FetchConfiguration? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md) function to retrieve paginate return results.
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## Paginator - first\(\)
 

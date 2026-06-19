@@ -1,19 +1,21 @@
 ---
 title: Create Integration Service record
-description: Create Integration Service records for entities using the sn\_fcms\_intg\_service table.
+description: Create Integration Service records to configure how ERP and external systems exchange data with Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/create-integration-service-record.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, integration, invoice automation, AP automation]
 breadcrumb: [Scheduled jobs to fetch primary data, Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Create Integration Service record
 
-Create Integration Service records for entities using the sn\_fcms\_intg\_service table.
+Create Integration Service records to configure how ERP and external systems exchange data with Accounts Payable Operations.
 
 ## Before you begin
 

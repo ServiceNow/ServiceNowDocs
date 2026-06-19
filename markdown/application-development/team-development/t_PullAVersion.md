@@ -2,6 +2,7 @@
 title: Pull a version
 description: Pulling retrieves versions of customized records from the parent instance and adds them on the development instance. Pulling does not retrieve any versions for changes made by system upgrades, but it retrieves all versions for changes made by users, not just the current version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_PullAVersion.html
 release: australia
 product: Team Development
 classification: team-development
@@ -33,7 +34,7 @@ Pulling retrieves all versions for changes made by users that have not already b
 
     The Push and Pull Versions related list for the Push or Pull form shows the customized records for which versions were retrieved and indicates if any pull exceptions exist.
 
-    ![Pull history](../image/PullHistory.png)
+    \[Omitted image "PullHistory.png"\] Alt text: Pull history
 
 4.  Resolve any collisions.
 

@@ -2,6 +2,7 @@
 title: Red Hat JBoss server discovery
 description: Discovery can detect JBoss application servers running on Linux and Windows systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_DataCollDiscoJBossServers.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -24,17 +25,17 @@ For JBoss application servers running on Linux systems.
 -   Set probe permissions to use these Bourne shell commands: find, cat, and dirname.
 -   Enable SSH on the JBoss application server. The SSH credential must also have read permissions on the `web.xml` and `jboss-service.xml` files.
 
-For JBoss application servers running on Windows systems, enable [PowerShell](../task/t_SetUpAMIDServerToUsePowerShell.md) on the MID Server.
+For JBoss application servers running on Windows systems, enable [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md) on the MID Server.
 
 **Note:** See the knowledge article [KB0687582](https://support.servicenow.com/kb_view.do?sysparm_article=KB0687582) for information on model\_id and manufacturer.
 
 ## Credentials
 
--   [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)
--   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)
--   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
+-   Applicative credentials
+-   Windows credentials
+-   SSH credentials
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 ## Classifiers, patterns, and probes
 
@@ -69,7 +70,7 @@ JBoss pattern
 </td></tr></tbody>
 </table>\*For new instances, these probes are inactive on the classifier. Discovery uses patterns for discovery.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](c-UsingPatternsForHorizontalDiscovery.md#) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected
 
@@ -106,8 +107,8 @@ Discovery populates the following fields on the Web Service \[cmdb\_ci\_web\_ser
 |cmdb\_ci\_app\_server\_jboss|Runs:Runs on|cmdb\_ci\_web\_application|
 |cmdb\_ci\_app\_server\_jboss|Runs:Runs on|cmdb\_ci\_web\_service|
 
--   **[Legacy: JBoss probes and sensors](../reference/r_JBossProbesAndSensorsForLinux.md)**  
+-   **[Legacy: JBoss probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_JBossProbesAndSensorsForLinux.md)**  
 Discovery identifies a Linux JBoss application server using probes and sensors.
 
-**Parent Topic:**[Operating systems discovery](c_Computers.md)
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Computers.md)
 

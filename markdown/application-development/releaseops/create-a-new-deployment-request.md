@@ -2,6 +2,7 @@
 title: Create a deployment request for a scheduled release
 description: Create a deployment request for a scheduled release to contain your update set and enable your changes to move through the pipeline for deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/create-a-new-deployment-request.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -20,7 +21,7 @@ Create a deployment request for a scheduled release to contain your update set a
 
 Role required: developer or release\_admin
 
-This procedure applies to deployment requests for scheduled releases. To create a deployment request for an on-demand release, see the procedure in [Create a deployment request for an on-demand release](create-a-deployment-request-for-on-demand-release.md).
+This procedure applies to deployment requests for scheduled releases. To create a deployment request for an on-demand release, see the procedure in [Create a deployment request for an on-demand release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-a-deployment-request-for-on-demand-release.md).
 
 ## Procedure
 
@@ -42,9 +43,9 @@ This procedure applies to deployment requests for scheduled releases. To create 
 
     **Note:** Releases must be activated in order to select them in a deployment request form.
 
-    If your deployment request applies to a release that hasn’t already been created, ask your release admin to create a release for you. The procedure for creating a release is outlined in [Create a release](create-a-release.md). You can only select releases that have been activated.
+    If your deployment request applies to a release that hasn’t already been created, ask your release admin to create a release for you. The procedure for creating a release is outlined in [Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-a-release.md). You can only select releases that have been activated.
 
-    If your deployment request applies to an on-demand release, see the procedure in [Create a deployment request for an on-demand release](create-a-deployment-request-for-on-demand-release.md).
+    If your deployment request applies to an on-demand release, see the procedure in [Create a deployment request for an on-demand release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-a-deployment-request-for-on-demand-release.md).
 
 6.  Select the **ATF suites** field, then select the tests that you want to run for your deployment request.
 
@@ -61,5 +62,5 @@ This procedure applies to deployment requests for scheduled releases. To create 
     When you have selected **Ready to assess**, ReleaseOps automatically begins assessing your deployment request. You can see how the assessment is running and any issues that the assessment encountered in the **Activity** section of the deployment request form. Once your deployment request has passed the assessment checks, your deployment request will be moved into the pipeline that your organization has configured.
 
 
-**Parent Topic:**[Using ReleaseOps to manage deployments](../concept/using-releaseops-to-manage-deployments.md)
+**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

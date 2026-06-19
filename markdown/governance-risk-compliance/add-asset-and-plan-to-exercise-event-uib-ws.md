@@ -2,11 +2,12 @@
 title: Track impacted assets and add associated plans
 description: Track the impacted assets and add an associated plan to the exercise. You can then monitor the assets and plans for the exercise in BCM UIB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-asset-and-plan-to-exercise-event-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Track impacted assets and add associated plans
@@ -29,7 +30,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
     **Note:** Starting with the Xanadu and later releases, the Crisis manager can initiate an event task even if the plan includes recovery tasks that do not have any assets tagged. The former requirement that every activated plan should have at least one tagged asset has been removed.
 
-    ![Adding an asset to the event.](../image/add-asset-to-an-event.png)
+    \[Omitted image "add-asset-to-an-event.png"\] Alt text: Adding an asset to the event.
 
     **Note:**
 
@@ -37,7 +38,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
     The following modal shows the columns that appear when you select **Add** for Applications asset type.
 
-    ![The source_table_fields are used to set the columns for the modal based on the asset type.](../image/event-asset-types.png)
+    \[Omitted image "event-asset-types.png"\] Alt text: The source\_table\_fields are used to set the columns for the modal based on the asset type.
 
 3.  Add an asset in the **Assets** tab and review the populated RTO values in the **Finalized RTO** and **Finalized RPO** columns.
 
@@ -45,11 +46,11 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
     **Note:** Recovery assets are now linked to their corresponding BIA records, enabling automatic retrieval of key data such as RTO, RPO, and Recovery Tier.
 
-    ![Event assets.](../image/acrobat-event-asset-rto.png)
+    \[Omitted image "acrobat-event-asset-rto.png"\] Alt text: Event assets.
 
     When you open the event asset record \(for example, "Acrobat"\), the "Finalized RTO," "Finalized RPO," "Recovery Tier," and "BIA" values are automatically populated and displayed in the record as shown in the example.
 
-    ![Event.](../image/acrobat-event-record.png)
+    \[Omitted image "acrobat-event-record.png"\] Alt text: Event.
 
 4.  To update the state of the impacted asset, open the newly added asset record from the list and select **State**.
 
@@ -59,13 +60,13 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
         The plans list is shown in the example.
 
-        ![Plans list.](../image/plans-list-in-event.png)
+        \[Omitted image "plans-list-in-event.png"\] Alt text: Plans list.
 
         **Note:** Starting with GRC: Crisis Management, version 9.1.4, the logic for fetching the plans into a recovery event is updated. Previously, all plans related to the target plan were automatically included. With a clear upstream and downstream plan hierarchy, pulling in a plan does not pull its upstream plans automatically.
 
         The plans are added to the event.
 
-        ![Plans added in event.](../image/plans-added-in-event.png)
+        \[Omitted image "plans-added-in-event.png"\] Alt text: Plans added in event.
 
 6.  To add all plans that are related to the asset, select **Add all plans related to asset**.
 
@@ -73,7 +74,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
     An informational message is displayed that all plans related to the selected application are added in the background as shown in the example.
 
-    ![Add all plans related to asset.](../image/exercise-event-add-all-plans-related-to-asset.png)
+    \[Omitted image "exercise-event-add-all-plans-related-to-asset.png"\] Alt text: Add all plans related to asset.
 
 7.  Select **Save**.
 
@@ -95,5 +96,5 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
     The exercise is saved in the **Pending** state.
 
 
-**Parent Topic:**[Structured workflows for exercises](../concept/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

@@ -2,6 +2,7 @@
 title: Import Microsoft entitlements from a Microsoft License Statement \(MLS\) in Software Asset Management classic
 description: Import entitlements from an MLS using the Software Asset Management classic application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/import-mls-entitlements-sam-classic.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -38,7 +39,7 @@ Role required: sam\_user or sam\_admin
     |Import type|Type of document that you’re importing software entitlements from. The options are **Standard import document** and **Microsoft license statement \(MLS\)**. Set this field to **Microsoft license statement \(MLS\)**.|
     |File|Spreadsheet of software entitlements that you want to import. Select **Click to add...** to search for and select the MLS Excel file that you requested from Microsoft.|
     |Description|Brief description of the software entitlement import.|
-    |Automatic creation of contracts|Option to enable automatic creation of both parent and child contracts for the selected MLS. Refer to [Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/c_Contracts.md) for more information about contracts.|
+    |Automatic creation of contracts|Option to enable automatic creation of both parent and child contracts for the selected MLS. Refer to Contracts for more information about contracts.|
     |Import status|Status of the import. This field populates automatically.|
 
 5.  Select **Import**.
@@ -62,13 +63,13 @@ Role required: sam\_user or sam\_admin
             |Number of entitlements in build state|Number of imported Microsoft Software Assurance \(SA\), Step-up, From SA, or Add-on entitlements that are in the build state and can be linked to a base entitlement.|
 
         -   To view the complete list of imported entitlements, select the **Entitlements** related list.
-        -   If you enabled the **Automatic creation of contracts** option in [step 4](import-mls-entitlements-sam-classic.md#step2), view the list of automatically created contracts by selecting the **Contracts** related list.
+        -   If you enabled the **Automatic creation of contracts** option in [step 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-mls-entitlements-sam-classic.md), view the list of automatically created contracts by selecting the **Contracts** related list.
 
             **Note:** These contracts are automatically linked to successfully imported entitlements.
 
         -   To view the list of imported Microsoft SA, Step-up, From SA, or Add-on entitlements that are in the build state and can be linked to base entitlements, select the **Entitlements in build state** related list.
 
-            See [step 7](import-mls-entitlements-sam-classic.md#assign-base-entitlement) for more information on how to assign a Microsoft SA, Step-up, From SA, or Add-on entitlement to a base entitlement.
+            See [step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-mls-entitlements-sam-classic.md) for more information on how to assign a Microsoft SA, Step-up, From SA, or Add-on entitlement to a base entitlement.
 
 7.  If your entitlement import contains any Microsoft SA, Step-up, From SA, or Add-on entitlements, assign those entitlements to base entitlements.
 
@@ -90,7 +91,7 @@ Role required: sam\_user or sam\_admin
 
         **Note:** If an appropriate base entitlement isn’t available for the given Microsoft SA, Step-up, From SA, or Add-on entitlement, you can create one.
 
-    7.  Select the Save \(Enter\) icon ![](../image/save-icon.png).
+    7.  Select the Save \(Enter\) icon \[Omitted image "save-icon.png"\].
 
     8.  Double-click the corresponding field in the **Active rights** column of the Related Entitlements list.
 
@@ -98,7 +99,7 @@ Role required: sam\_user or sam\_admin
 
         **Important:** For From SA rights, you must enter the total number of rights that you purchased for the base entitlement. For example, if you purchased 100 rights for the base entitlement, you must grant 100 From SA rights to that entitlement. For Add-on rights, you can enter any number of rights equal to or less than the total number of rights that you purchased for the given Add-on entitlement.
 
-    10. Select the Save \(Enter\) icon ![](../image/save-icon.png).
+    10. Select the Save \(Enter\) icon \[Omitted image "save-icon.png"\].
 
     11. Select **Save** on the Software Entitlement form header.
 
@@ -116,7 +117,7 @@ Role required: sam\_user or sam\_admin
 
     3.  Update the corresponding Entitlement Import Error form as needed to resolve the error.
 
-        For descriptions of the Entitlement Import Error form fields, see [Entitlement import error fields](../reference/entitlement-import-error-fields.md). For details about the actions that you can take on entitlement import errors, see [Entitlement import error actions](../reference/import-software-rights-form.md).
+        For descriptions of the Entitlement Import Error form fields, see [Entitlement import error fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/entitlement-import-error-fields.md). For details about the actions that you can take on entitlement import errors, see [Entitlement import error actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/import-software-rights-form.md).
 
     4.  Select **Import**.
 
@@ -125,5 +126,5 @@ Role required: sam\_user or sam\_admin
     5.  Repeat steps a-d for each error that you want to resolve.
 
 
-**Parent Topic:**[Importing Microsoft entitlements from a Microsoft License Statement \(MLS\)](../concept/importing-mls-entitlements.md)
+**Parent Topic:**[Importing Microsoft entitlements from a Microsoft License Statement \(MLS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/importing-mls-entitlements.md)
 

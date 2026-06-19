@@ -2,6 +2,7 @@
 title: Configure project status generation skill in the Now Assist Admin console
 description: Configure the project status generation Now Assist skill to enable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-project-status-generation-skill.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
@@ -21,9 +22,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Features**.
+1.  Navigate to **Admin** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Features** tab.
+    If you’re already in the Now Assist Admin console, select the **Now Assist Skills** tab.
 
 2.  On the navigation panel, select a workflow, such as **Technology**.
 

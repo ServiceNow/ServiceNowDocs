@@ -2,6 +2,7 @@
 title: Create a service account
 description: Create a service account in CAM. A service account holds the credential and account information that you created in your provider account. Discovery uses the information to access your provider account and then obtain information on each logical datacenter that is associated with the account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/create-service-account.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -25,7 +26,7 @@ Role required: discovery\_admin
 
 2.  Fill in the fields.
 
-    For more information, see [Cloud Service Account form](../../it-operations-management/task/create-aws-service-accounts.md#table_f5b_r22_kkb).
+    For more information, see [Cloud Service Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-aws-service-accounts.md).
 
 3.  Select **Submit**.
 

@@ -2,6 +2,7 @@
 title: Assign Knowledge article search languages by country
 description: Improve multilingual search recall by defining a set of Knowledge article search languages for each user country. User searches can match Knowledge articles in any of the search languages specified for their country as well as in the language associated with their ServiceNow AI Platform session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/assign-kb-srch-langs-country-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -41,7 +42,7 @@ Search administrators can expand the recall of Knowledge article searches for a 
 
     2.  On the AI Search Country To Search Language form, fill in the fields.
 
-        For a description of the field values, see [AI Search Country To Search Language form](../reference/ais-country-kb-srch-lang-form.md).
+        For a description of the field values, see [AI Search Country To Search Language form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-country-kb-srch-lang-form.md).
 
     3.  Select **Submit**.
 
@@ -52,5 +53,5 @@ Search administrators can expand the recall of Knowledge article searches for a 
 
 When users in a country with one or more Knowledge article search languages defined perform a search, they can match Knowledge articles in those search languages as well in the language associated with their ServiceNow AI Platform session.
 
-**Parent Topic:**[Internationalization support for AI Search](../concept/international-language-support-ais.md)
+**Parent Topic:**[Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/international-language-support-ais.md)
 

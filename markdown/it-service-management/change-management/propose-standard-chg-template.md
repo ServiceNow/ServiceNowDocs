@@ -2,6 +2,7 @@
 title: Propose a standard change template
 description: Propose a new standard change template when you identify a need while creating a change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/propose-standard-chg-template.html
 release: australia
 product: Change Management
 classification: change-management
@@ -50,7 +51,7 @@ As an IT technician, you can propose a new change template for a change request 
 
     **Note:**
 
-    -   Any change tasks that are included with the change also get copied to the new standard change proposal. The fields copied from both the change and change tasks are defined in the [Standard Change Properties](t_ConfigureTheStandardChangeCatalog.md).
+    -   Any change tasks that are included with the change also get copied to the new standard change proposal. The fields copied from both the change and change tasks are defined in the [Standard Change Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md).
     -   By default, approval records are created for members of the Change Management group.
     Alternatively, as a change manager, create and submit a standard change proposal that can be utilized as a template to draft a standard change request that occurs frequently and is of low risk. By default, the basic standard change proposal workflow sends approval records to members of the change management group where the members verify and modify the records, as appropriate. Navigate to **Change** &gt; **Standard Change** &gt; **My Proposals**. Click **New**, fill the form, and then click **Submit**.
 
@@ -65,5 +66,5 @@ As an IT technician, you can propose a new change template for a change request 
 
 A new template record is created for use.
 
-**Parent Topic:**[Create a standard change task template](create-a-standard-change-task-template.md)
+**Parent Topic:**[Create a standard change task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-standard-change-task-template.md)
 

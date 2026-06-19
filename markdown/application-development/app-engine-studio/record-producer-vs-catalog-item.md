@@ -2,6 +2,7 @@
 title: Choosing between record producers and catalog items
 description: Both the record producer and standard catalog item in App Engine Studio \(AES\) create experiences where users can submit requests through a service portal. However, record producers are more extensible, and enable users to create a record in any table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/record-producer-vs-catalog-item.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -128,11 +129,11 @@ Catalog items are typically built in a specific scope, and less flexible.
 For more information, see the following topics:
 
 -   Record producers:
-    -   [Add a record producer](../task/add-a-record-producer.md)
-    -   [Sample record producer](record-producers-example.md)
+    -   [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-a-record-producer.md)
+    -   [Sample record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/record-producers-example.md)
 -   Standard catalog items:
-    -   [Add a standard catalog item](../task/add-standard-catalog-item.md)
-    -   [Sample standard catalog item](standard-catalog-item-examples.md)
+    -   [Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-standard-catalog-item.md)
+    -   [Sample standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/standard-catalog-item-examples.md)
 
-**Parent Topic:**[Add an application experience](add-experience.md)
+**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
 

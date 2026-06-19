@@ -2,6 +2,7 @@
 title: NotSupportedPushError class - Android
 description: A function from the NotSupportedPushError class is thrown when the NowPushSDK cannot process the push notification request. When this type of error is thrown, you must parse and handle the push notification outside of the MobileSDK framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NotSupportedPushErrorAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -20,5 +21,5 @@ A function from the NotSupportedPushError class is thrown when the NowPushSDK ca
 |cause|[Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/)|Cause of the error.|
 |message|String|Message that contains the error details to display to the user.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

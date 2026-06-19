@@ -2,6 +2,7 @@
 title: Guided Tour Reference
 description: Reference topics provide additional information about configuration properties, roles, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/guided-tour-reference.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -15,8 +16,8 @@ breadcrumb: [Guided Tours, Adoption services, Configure user experiences]
 
 Reference topics provide additional information about configuration properties, roles, and more.
 
--   **[Guided Tour callout color](guided-tour-callout-color.md)**  
+-   **[Guided Tour callout color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-callout-color.md)**  
 Customize Guided Tours callout colors in Service Portal.
 
-**Parent Topic:**[Guided Tours](../concept/guided-tours.md)
+**Parent Topic:**[Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md)
 

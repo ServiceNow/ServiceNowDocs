@@ -2,6 +2,7 @@
 title: Workflow - Global
 description: The Workflow script include provides methods that interface with the Workflow engine.Sends the specified event \(message\) into the workflow context to pass along to the executing activities.Cancels all running workflows on this record by broadcasting the cancel event to activities in all running workflows on this record.Cancels this running context by broadcasting a cancel event to activities in this workflow context.Deletes all the workflows on the record.Fires the named event of a running workflow on the input record.Fires the named event on the record specified by record ID.Returns all workflow contexts for a specified record.Gets the estimated time for a workflow to complete.Get the estimated elapsed execution time for the workflow version.Gets the appropriate workflow return value for the input workflow ID. This is either the workflow checked out by the current user or the published workflow with the most recent date.Gets all the currently running workflow contexts for the input record.Gets the appropriate workflow version for the input workflow ID. This is either the workflow checked out by the current user or the published workflow with the most recent date.Returns the appropriate workflow version for the input workflow name.Returns the sys\_id of the workflow associated with the specified workflow name.Determines if a specified record has any workflow contexts associated to it.Recalculates the approvals and tasks for a workflow by adding new approvals and tasks, while not resetting current approvals and tasks.Runs all workflows for a given record in a given table and its descendant tables.Starts a specified workflow.Helper method for business rule Auto start on context.Used by business rule Start Workflow on table task\_sla. This starts a workflow and the extra arguments to this method are used by activity "Timer" to pause the execution of the workflow for some duration.Constructor for Workflow class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_Workflow\_api.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,15 +18,15 @@ The Workflow script include provides methods that interface with the Workflow en
 
 Use these methods to manipulate workflows.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Workflow - broadcastEvent\(String contextId, String eventName\)
 
 Sends the specified event \(message\) into the workflow context to pass along to the executing activities.
 
-Typical use of this method is to enable activities that wait for some action to occur before proceeding. For additional information on using broadcastEvent, refer to [Workflow event-specific functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowEventSpecificFunctions.md).
+Typical use of this method is to enable activities that wait for some action to occur before proceeding. For additional information on using broadcastEvent, refer to Workflow event-specific functions.
 
-For a list of the available OOB events, refer to [Workflow events in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowEventsInTheBaseSystem.md).
+For a list of the available OOB events, refer to Workflow events in the base system.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -155,7 +156,7 @@ Returns all workflow contexts for a specified record.
 
 |Name|Type|Description|
 |----|----|-----------|
-|record|[GlideRecord](../../GlideRecord/concept/c_GlideRecordAPI.md#)|GlideRecord for which the caller wants a list of all workflow contexts. This can be any record on any table for which the caller wants the running workflow contexts.|
+|record|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md)|GlideRecord for which the caller wants a list of all workflow contexts. This can be any record on any table for which the caller wants the running workflow contexts.|
 
 |Type|Description|
 |----|-----------|

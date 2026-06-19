@@ -2,6 +2,7 @@
 title: Content security in AI Search
 description: AI Search filters search query results and displays only records that the currently logged in user can access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/content-security-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -21,12 +22,12 @@ Content security is automatically enabled and isn't configurable.
 
 When indexing records from ServiceNow AI Platform® tables, AI Search preserves the following access control settings:
 
--   Role-based field-level [access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) \(ACLs\)
+-   Role-based field-level access control list rules \(ACLs\)
 -   Non-scripted conditional ACLs
 -   Scripted table-level ACLs
--   [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-before-query-business-rules.md)
--   [Domain separation](ai-search-domain-separation.md)
--   [User criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAUserCriteriaRecord.md) for records indexed from the Knowledge \[kb\_knowledge\] and Catalog Item \[sc\_cat\_item\] tables
+-   Before Query business rules
+-   [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ai-search-domain-separation.md)
+-   User criteria for records indexed from the Knowledge \[kb\_knowledge\] and Catalog Item \[sc\_cat\_item\] tables
 
 AI Search doesn't support scripted field-level ACLs or conditional field-level ACLs.
 
@@ -60,7 +61,7 @@ Late binding
 
 </td><td>
 
-More computationally expensive alternate content security implementation that post-filters search query results. The system applies security filters to the search query just as early binding security does. After retrieving records that match the filtered query, it invokes the [GlideRecord.canRead\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method for each record. To appear in the search results, records must match the search query, pass all security filters, and return **true** for the API method.
+More computationally expensive alternate content security implementation that post-filters search query results. The system applies security filters to the search query just as early binding security does. After retrieving records that match the filtered query, it invokes the GlideRecord.canRead\(\) method for each record. To appear in the search results, records must match the search query, pass all security filters, and return **true** for the API method.
 
  Late binding security supports all indexed security features.
 
@@ -69,16 +70,16 @@ More computationally expensive alternate content security implementation that po
 -   To make AI Search use late binding security for all results from an indexed source, set the value of that indexed source's **Force Late Binding** field to **true**.
 -   To make AI Search use late binding security for all search results, set the value of the **Force AI Search to use late binding for ACL evaluation** \(**glide.ais.security.force\_late\_binding**\) system property to **true**.
 
- If AI Search applies late binding security to any results from an indexed source used by a facet, the list of available filter selections for the facet changes. When this happens, the facet only displays field values found in the current page of search results. For details on facets, see [Create a facet in an AI Search application configuration](../task/create-facet-ais.md).
+ If AI Search applies late binding security to any results from an indexed source used by a facet, the list of available filter selections for the facet changes. When this happens, the facet only displays field values found in the current page of search results. For details on facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-facet-ais.md).
 
- When you enable search result counts for facets in a search application, the counts indicate the number of results that matched the user's search. Late binding security can remove results after they’re counted, causing the actual number of displayed results to be lower than the count. For more information on search result counts for facets, see [Show search result counts for facets on the results page for a search application](../task/display-result-counts-ais.md).
+ When you enable search result counts for facets in a search application, the counts indicate the number of results that matched the user's search. Late binding security can remove results after they’re counted, causing the actual number of displayed results to be lower than the count. For more information on search result counts for facets, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/display-result-counts-ais.md).
 
 </td></tr></tbody>
 </table>## Content security for external content
 
 AI Search preserves access permissions when ingesting external documents. You can alias ServiceNow AI Platform users to the externally defined users and groups specified in these access permissions. AI Search constructs content security filters for external document records from these permissions and aliases.
 
-To learn about using AI Search with external data sources, see [Indexing and searching external content in AI Search](external-content-ais.md). For full details on external content security, see [External content security for AI Search](external-content-security-ais.md).
+To learn about using AI Search with external data sources, see [Indexing and searching external content in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-ais.md). For full details on external content security, see [External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-security-ais.md).
 
-**Parent Topic:**[Administering AI Search](administer-ais.md)
+**Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/administer-ais.md)
 

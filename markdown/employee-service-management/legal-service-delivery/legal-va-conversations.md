@@ -2,6 +2,7 @@
 title: Legal Virtual Agent Conversations
 description: The ServiceNow Legal Virtual Agent Conversations application provides predefined conversation topics to enable automated chats with employees seeking legal services. You can build new topics or customize predefined topics to handle common legal requests from employees or guide them through self-service tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legal-va-conversations.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -53,16 +54,16 @@ The Legal Virtual Agent Conversations application installs the following virtual
     Finds and displays Legal knowledge base articles based on the entered search string.
 
 
-**Note:** If [Universal Request for legal services is enabled](universal-requests-legal.md), the system creates a universal request and an associated legal request when an employee submits a legal request through virtual agent. General Legal Request, Privacy Assessment, and Stock Trading request types are supported.
+**Note:** If [Universal Request for legal services is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/universal-requests-legal.md), the system creates a universal request and an associated legal request when an employee submits a legal request through virtual agent. General Legal Request, Privacy Assessment, and Stock Trading request types are supported.
 
--   **[Install Legal Virtual Agent Conversations](../task/install-legal-va-conv.md)**  
+-   **[Install Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/install-legal-va-conv.md)**  
 You can install the Legal Virtual Agent Conversations application \(sn\_lg\_va\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Configure Virtual Agent conversation topics for legal services](../task/configure-legal-va.md)**  
+-   **[Configure Virtual Agent conversation topics for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/configure-legal-va.md)**  
 Create or modify Virtual Agent conversation topics for legal services.
--   **[Live agent support for legal services](legal-va-live-agent.md)**  
+-   **[Live agent support for legal services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-live-agent.md)**  
 Employees can contact a live agent from the Legal department \(a paralegal staff or lawyer\) via the Virtual Agent chat window to seek legal help.
--   **[Start a chat session through Legal Counsel Center Inbox](../task/chat-employee-counsel-center.md)**  
+-   **[Start a chat session through Legal Counsel Center Inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/chat-employee-counsel-center.md)**  
 Accept an incoming chat request through Legal Counsel Center Inbox to start a chat session with the requester.
 
-**Parent Topic:**[Legal Service Delivery](legal-management-overview.md)
+**Parent Topic:**[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-management-overview.md)
 

@@ -2,6 +2,7 @@
 title: Configure general moderation settings
 description: Configure when to moderate content for users and user groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/configure-general-settings-moderation.html
 release: australia
 product: Communities
 classification: communities
@@ -36,5 +37,5 @@ Role required: sn\_communities.admin, or sn\_communities.moderation\_admin
 3.  Click **Update**.
 
 
-**Parent Topic:**[Moderate a community](moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
 

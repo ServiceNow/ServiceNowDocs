@@ -2,6 +2,7 @@
 title: Getting started with Symantec DLP integration for Data Loss Prevention
 description: Before you can use the integration, you must download it from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/getting-started-symantec-dlp-integration-dlp.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -63,5 +64,5 @@ Verify that the following DLP applications and security support common applicati
 -   Data Loss Prevention Incident Response
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](symantec-dlp-integration.md)
+</table>**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/symantec-dlp-integration.md)
 

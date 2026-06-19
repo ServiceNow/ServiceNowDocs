@@ -2,6 +2,7 @@
 title: Delete an event mapping
 description: Delete an event mapping that you no longer need in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/delete-event-mapping.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -25,20 +26,20 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    For more information, see [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md).
+    For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md).
 
 3.  Open or create a page.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select a component with a preset configured.
 
 5.  Select the **Events** tab in the configuration panel.
 
-6.  Select the delete all icon \(![Delete icon.](../image/uib-delete-event-mapping-icon.png)\) next to the event you want to delete.
+6.  Select the delete all icon \(\[Omitted image "uib-delete-event-mapping-icon.png"\] Alt text: Delete icon.\) next to the event you want to delete.
 
 7.  The event mapping is removed from the associated component.
 
 
-**Parent Topic:**[Manage actions in UI Builder pages](../concept/work-events.md)
+**Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md)
 

@@ -2,6 +2,7 @@
 title: Onboard Argo CD to DevOps Change Velocity — Classic
 description: Connect your Argo CD instance using the Classic UI in DevOps Change Velocity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/onboard-argo-cd-to-devops-change-velocity-classic.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -79,5 +80,5 @@ Password of your Argo CD instance.
     The tool is automatically Connected Successfully using a connection alias, and HTTP tool connection \(basic authentication credential\).
 
 
-**Parent Topic:**[Argo CD integration with DevOps Change Velocity](../concept/argo-cd-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Argo CD integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/argo-cd-integration-with-devops-change-velocity.md)
 

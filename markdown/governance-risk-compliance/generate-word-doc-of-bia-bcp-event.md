@@ -2,6 +2,7 @@
 title: Generate reports for BIAs, BCPs, and events
 description: Generate customized reports for BIAs, BCPs, and events directly from their respective records in Microsoft Word format. This functionality enables you to streamline reporting of impact analyses, plans, and events within your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/generate-word-doc-of-bia-bcp-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,11 +32,11 @@ You can control whether to retain or replace the existing report attachments by 
 
     A BIA record with the UI action is shown in the example.
 
-    ![BIA record.](../image/gen-ms-word-action.png)
+    \[Omitted image "gen-ms-word-action.png"\] Alt text: BIA record.
 
     The Generate report window is displayed.
 
-    ![Generate report window.](../image/generate-report.png)
+    \[Omitted image "generate-report.png"\] Alt text: Generate report window.
 
 4.  Select the report template for the BIA, BCP, or event and add the name of the report.
 

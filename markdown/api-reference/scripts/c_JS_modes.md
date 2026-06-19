@@ -2,6 +2,7 @@
 title: JavaScript modes
 description: JavaScript mode is a design and runtime setting for custom applications and scripts. To support existing server-side scripts and new scripts developed to the ECMAScript 2021 standard, the JavaScript engine has three modes: ECMAScript 2021 \(ES12\), ES5 Standards, and Compatibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_JS\_modes.html
 release: australia
 product: Scripts
 classification: scripts
@@ -17,7 +18,7 @@ JavaScript mode is a design and runtime setting for custom applications and scri
 
 The JavaScript mode controls which JavaScript features you have access to in an application or script. The default mode for new scoped applications is ECMAScript 2021 \(ES12\) and for new global applications, it’s ES5 Standards. You can also turn on ECMAScript 2021 \(ES12\) mode for individual scripts in applications that use ES5 Standards or Compatibility mode.
 
-For more information about features supported by the ECMAScript 2021 \(ES12\) and ES5 Standards modes, see [JavaScript engine feature support](../reference/javascript-engine-feature-support.md).
+For more information about features supported by the ECMAScript 2021 \(ES12\) and ES5 Standards modes, see [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/javascript-engine-feature-support.md).
 
 ## ECMAScript 2021 \(ES12\) mode
 
@@ -67,12 +68,12 @@ JSON support changes:
 
 The use of third-party JavaScript libraries isn’t supported in Compatibility mode.
 
--   **[Considerations for switching JavaScript modes](considerations-switching-javascript-mode.md)**  
+-   **[Considerations for switching JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/considerations-switching-javascript-mode.md)**  
 Switching the JavaScript mode for an application or script might change the behavior of existing scripts. Review some examples of behavior changes before switching JavaScript modes or to troubleshoot any issues that you experience after switching.
--   **[Set the JavaScript mode for an application](set-javascript-mode-application.md)**  
+-   **[Set the JavaScript mode for an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-javascript-mode-application.md)**  
 Configure which ECMAScript features can be used in an application by selecting the JavaScript mode.
--   **[Turn on ECMAScript 2021 \(ES12\) mode for a script](set-es12-mode-scripts.md)**  
+-   **[Turn on ECMAScript 2021 \(ES12\) mode for a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/set-es12-mode-scripts.md)**  
 Use the latest JavaScript features supported with ECMAScript 2021 \(ES12\) mode in server-side scripts in applications that use ES5 Standards mode or Compatibility mode.
 
-**Parent Topic:**[JavaScript engine on the platform](c_JS_engine_upgrade.md)
+**Parent Topic:**[JavaScript engine on the platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JS_engine_upgrade.md)
 

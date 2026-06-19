@@ -2,6 +2,7 @@
 title: Datasets
 description: Explore the datasets in detail with examples.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-datasets.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

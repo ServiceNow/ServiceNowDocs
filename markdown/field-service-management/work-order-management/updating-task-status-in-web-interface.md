@@ -2,6 +2,7 @@
 title: Updating task status in web interface
 description: Enable dispatchers, agents, and managers to efficiently track and manage the progress of work order tasks, ensuring that everyone involved can easily update and manage the current status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/updating-task-status-in-web-interface.html
 release: australia
 product: Work Order Management
 classification: work-order-management

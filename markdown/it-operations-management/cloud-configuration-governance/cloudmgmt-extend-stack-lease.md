@@ -2,6 +2,7 @@
 title: Modify the lease for a stack
 description: When a stack reaches the end of its lease, the system notifies the stack owner and deprovisions the stack. You can modify the lease for a stack before it approaches its end date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloudmgmt-extend-stack-lease.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

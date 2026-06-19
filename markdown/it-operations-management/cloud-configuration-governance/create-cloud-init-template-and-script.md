@@ -2,11 +2,12 @@
 title: Create cloud initialization script templates and a script
 description: Create cloud initialization templates and a script to use during VM provisioning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-cloud-init-template-and-script.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Cloud scripts and cloud script templates, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -37,12 +38,12 @@ Role required: cloud\_admin
     templateResolver.getTemplate(scriptName);
     ```
 
-    **Note:** For more information, see [Cloud scripts and cloud script templates](../concept/cloud-scripts-and-templates.md).
+    **Note:** For more information, see [Cloud scripts and cloud script templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-scripts-and-templates.md).
 
 6.  Click **Submit**.
 
 
 ## What to do next
 
-To run a script at the time a virtual resource is provisioned, map the script to an OS profile. To run a post-provisioning script, create a blueprint and specify the script in the Execute Script operation. See [Example: Post-provision cloud script](create-cloud-init-script-example.md) for an example.
+To run a script at the time a virtual resource is provisioned, map the script to an OS profile. To run a post-provisioning script, create a blueprint and specify the script in the Execute Script operation. See [Example: Post-provision cloud script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-init-script-example.md) for an example.
 

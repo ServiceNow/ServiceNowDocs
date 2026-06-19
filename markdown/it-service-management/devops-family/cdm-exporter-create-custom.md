@@ -2,6 +2,7 @@
 title: Create a custom exporter
 description: Copy an existing exporter script as a starting point for a custom exporter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-create-custom.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ Copy an existing exporter script as a starting point for a custom exporter.
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_exporter\_editor or cdm\_editor or cdm\_admin
 
@@ -27,13 +28,13 @@ DevOps Config content packs provide a variety of exporters. You can use any of t
 
 ## Procedure
 
-1.  Select the admin icon \(![Admin icon.](../image/icon-admin-wrench.png)\) to open the **Administration** page.
+1.  Select the admin icon \(\[Omitted image "icon-admin-wrench.png"\] Alt text: Admin icon.\) to open the **Administration** page.
 
 2.  On the **Exporters** tab, select **New**, enter a unique and meaningful name and description, and then select **Confirm**.
 
     The first draft version of the exporter is named **Draft 0.1** and is listed on the **Versions** tab.
 
-    ![DevOps Config validate](../image/cdm-exporter-create.png)
+    \[Omitted image "cdm-exporter-create.png"\] Alt text: DevOps Config validate
 
 3.  Select the **Version name** to open default exporter script on the **Exporter builder** tab.
 

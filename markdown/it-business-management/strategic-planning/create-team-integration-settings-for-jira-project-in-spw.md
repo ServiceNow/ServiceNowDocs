@@ -2,6 +2,7 @@
 title: Associate Jira projects with EAP teams
 description: Ensure work items from Jira are mapped to the right teams in Enterprise Agile Planning \(EAP\) by associating Jira projects with EAP teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-team-integration-settings-for-jira-project-in-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -17,7 +18,7 @@ Ensure work items from Jira are mapped to the right teams in Enterprise Agile Pl
 
 ## Before you begin
 
-[Import Jira projects to SPW](imports-jira-projects-to-spw.md)
+[Import Jira projects to SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/imports-jira-projects-to-spw.md)
 
 Role required: sn\_jira\_int.user
 
@@ -31,12 +32,12 @@ Role required: sn\_jira\_int.user
 
 4.  On the Team Integration Settings form, fill in the fields,
 
-    For field information, see [Team Integration Settings form](../reference/team-integration-settings-form.md).
+    For field information, see [Team Integration Settings form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/team-integration-settings-form.md).
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
-[Review default mapping configuration for Jira projects in SPW](review-default-map-config-jira-projects-spw.md).
+[Review default mapping configuration for Jira projects in SPW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/review-default-map-config-jira-projects-spw.md).
 

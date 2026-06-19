@@ -2,6 +2,7 @@
 title: Create Inbound Data Exclusion Rules
 description: Create inbound data exclusion rules in order to filter any type of data or any kind of incoming source records data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/define-filtering-rules.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

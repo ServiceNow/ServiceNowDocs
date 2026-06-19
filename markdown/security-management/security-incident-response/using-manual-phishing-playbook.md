@@ -2,6 +2,7 @@
 title: Using the Manual Phishing playbook
 description: Use these steps to learn how you can use the Manual Phishing playbook in the SIR Analyst Workspace and its capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-manual-phishing-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -44,5 +45,5 @@ Role required: sn\_si.admin or sn\_si.manager or sn\_si.analyst
 7.  If there’s any remaining activity or user action required in any of the phases, select the respective phase and perform the action to complete the activity.
 
 
-**Parent Topic:**[Playbook for Manual Phishing](../concept/playbook-manual-phishing.md)
+**Parent Topic:**[Playbook for Manual Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-manual-phishing.md)
 

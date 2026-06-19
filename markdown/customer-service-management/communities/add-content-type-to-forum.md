@@ -2,6 +2,7 @@
 title: Configure content types for a forum
 description: Define which types of content to use in a particular forum and associate a workflow so that content is reviewed before becoming visible to other community users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/add-content-type-to-forum.html
 release: australia
 product: Communities
 classification: communities
@@ -45,5 +46,5 @@ The selected content type is added to the **Content Types** related list in the 
 |Question|Answer|
 |Blog, Document, Event, Video|Comment|
 
-**Parent Topic:**[Configure community forums](configure-forums-topics.md)
+**Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-forums-topics.md)
 

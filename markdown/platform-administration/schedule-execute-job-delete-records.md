@@ -2,6 +2,7 @@
 title: Schedule or execute a job to delete records
 description: Schedule a date and time to execute a delete job or execute the job immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/schedule-execute-job-delete-records.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Consider scheduling the delete job to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use the table cleaner option instead. For more information, see [Deleting older or unwanted records in Core UI](../concept/deleting-older-records.md).
+Consider scheduling the delete job to run during non-business hours to minimize the potential performance impact on your users. Deleting all records in a table temporarily locks the table, which prevents inserts and updates. If you want to delete all records from a table, use the table cleaner option instead. For more information, see [Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-older-records.md).
 
 ## Procedure
 
@@ -32,7 +33,7 @@ Consider scheduling the delete job to run during non-business hours to minimize 
 
 ## Result
 
-The records are scheduled for deletion or deleted immediately. If you want to restore the deleted records, see [Rollback a delete job](rollback-delete-job.md).
+The records are scheduled for deletion or deleted immediately. If you want to restore the deleted records, see [Rollback a delete job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/rollback-delete-job.md).
 
-**Parent Topic:**[Deleting records safely in Core UI](../concept/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/deleting-records-safely.md)
 

@@ -2,6 +2,7 @@
 title: Set up Content Analytics tracking
 description: To use Content Analytics with custom pages or widgets, add the tracking profile to your Employee Center or service portal theme header and add the cdaAnalytics service to your custom widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-content-analytics-tracking-setup.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -32,7 +33,7 @@ options="{ 'tracking_profile_name': '{PROFILE_NAME}', 'enable_logging': false}"
 ></widget>
 ```
 
-**Note:** If you don’t specify a tracking profile in the options, content analytics tries to use the default tracking profile. See [Create a Content Analytics tracking profile](ecpro-content-analytics-setup.md).
+**Note:** If you don’t specify a tracking profile in the options, content analytics tries to use the default tracking profile. See [Create a Content Analytics tracking profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.md).
 
 ## Procedure
 
@@ -42,13 +43,13 @@ options="{ 'tracking_profile_name': '{PROFILE_NAME}', 'enable_logging': false}"
 
 3.  If necessary, clone the header.
 
-    For more information, see [Service Portal configuration page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-configuration-page.md). Or, you can use Angular Providers, see [Reuse components with Angular Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/angular-providers.md).
+    For more information, see Service Portal configuration page. Or, you can use Angular Providers, see Reuse components with Angular Providers.
 
 4.  If using a clone from the Content Publishing header, search for the cda-site-analytics widget tag in the **Body HTML template** field.
 
 5.  Then replace PROFILE\_NAME with the profile that you want to use for tracking.
 
-    For more information, see [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
+    For more information, see Configure a portal header menu.
 
 6.  If you’re using a different header, add the following to the Body HTML and replace PROFILE\_NAME:
 
@@ -63,7 +64,7 @@ options="{ 'tracking_profile_name': '{PROFILE_NAME}', 'enable_logging': false}"
 
     Track Employee Center events
 
-    To track Employee Center events, add the cdaAnalytics service to your custom widgets. See [Widget developer guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/widget-dev-guide.md).
+    To track Employee Center events, add the cdaAnalytics service to your custom widgets. See Widget developer guide.
 
     For example:
 

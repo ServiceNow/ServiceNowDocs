@@ -2,6 +2,7 @@
 title: Change a risk appetite status
 description: Change the default name, color, and icon that appear for the risk appetite status in the Advanced Risk application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/change-risk-appetite-status.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -75,5 +76,5 @@ Icon that appears for the risk appetite status.**Note:** To make this change on 
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Risk appetite setup](../concept/risk-appetite-setup.md)
+**Parent Topic:**[Risk appetite setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-appetite-setup.md)
 

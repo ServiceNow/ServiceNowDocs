@@ -2,6 +2,7 @@
 title: UX: Design for Employee Center
 description: The UX \(User Experience\): Design for Employee Center Accelerator provides UX Design support and guidance to help customers get started with Employee Center design.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-design-employee-center.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,7 +18,9 @@ The UX \(User Experience\): Design for Employee Center Accelerator provides UX D
 
 ## Accelerator overview
 
-UX: Design for Employee Center provides Impact customers with tailored advice on designing the user experience of their Employee Center. We offer valuable insights and recommendations to enhance the usability and effectiveness of their implementation. Additionally, this accelerator equips our customers with essential ServiceNow resources and leading practices guides on how to improve the user experience of their Employee Center. For additional information, see [Employee Center](https://www.servicenow.com/docs/csh?topicname=employee-center-landing-page.html&version=latest).
+UX: Design for Employee Center provides Impact customers with tailored advice on designing the user experience of their Employee Center. We offer valuable insights and recommendations to enhance the usability and effectiveness of their implementation. Additionally, this accelerator equips our customers with essential ServiceNow resources and leading practices guides on how to improve the user experience of their Employee Center. For additional information, see [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page).
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
@@ -57,6 +60,8 @@ One or more customer resource is requested. The specific number of resources pro
 -   Goals for base Employee Center implementation
 -   Background on journey to Employee Center
 -   Existing user research and feedback, plus relevant insights
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

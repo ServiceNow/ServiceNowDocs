@@ -2,11 +2,12 @@
 title: Import automated tasks and start an event
 description: Import the automated task from the business continuity plan in an actual event. Utilizing automated tasks during an actual event enhances efficiency and reduces response time for users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/import-the-automated-task-in-an-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Import automated tasks and start an event
@@ -29,7 +30,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     **Note:** For a crisis event, the event type is **Actual**.
 
-    For more information on the fields, see [Create Crisis Event form](../reference/create-crisis-event-ref-form.md).
+    For more information on the fields, see [Create Crisis Event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-crisis-event-ref-form.md).
 
 4.  Navigate to the Planning list in the Workspace view and select the plan associated with the event.
 
@@ -60,5 +61,5 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
     The event task is then saved within the instance.
 
 
-**Parent Topic:**[Structured workflows for crisis events](../concept/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

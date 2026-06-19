@@ -2,6 +2,7 @@
 title: Install and configure the CrowdStrike integrations for mitigation controls monitoring
 description: The CrowdStrike Service Graph Connector and API integrations require separate configuration steps. You configure the CrowdStrike Service Graph Connector to import asset details. You configure the CrowdStrike API Integration to gather mitigation data about the assets that are monitored by CrowdStrike.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-install-config-controls.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

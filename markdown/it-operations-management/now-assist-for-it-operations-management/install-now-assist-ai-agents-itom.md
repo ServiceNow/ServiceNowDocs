@@ -2,6 +2,7 @@
 title: Activate Now Assist AI agents for IT Operations Management \(ITOM\)
 description: Activate Now Assist AI agents associated with the Triage and analyze alerts agentic workflow, to enable the agentic AI experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/install-now-assist-ai-agents-itom.html
 release: australia
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -18,7 +19,7 @@ Activate Now Assist AI agents associated with the Triage and analyze alerts agen
 
 ## Before you begin
 
-Before activating the Now Assist AI agents, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install Now Assist for IT Operations Management](../../now-assist-setup-itom/task/install-now-assist-itom.md).
+Before activating the Now Assist AI agents, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/install-now-assist-itom.md).
 
 To get started with AI agents, you must have:
 
@@ -52,12 +53,12 @@ Role required: admin
 
     6.  Search for **Triage and analyze alerts**.
 
-    7.  Select the row Actions icon \(![Actions icon.](../../event-management/image/more-actions-icon.png)\), and select **Promoted**.
+    7.  Select the row Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: Actions icon.\), and select **Promoted**.
 
 
 ## What to do next
 
-To access AI agents in the Now Assist panel, you must enable the panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+To access AI agents in the Now Assist panel, you must enable the panel. For more information, see .
 
-**Parent Topic:**[Configure Now Assist for ITOM](../concept/now-assist-itom-configure.md)
+**Parent Topic:**[Configure Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-configure.md)
 

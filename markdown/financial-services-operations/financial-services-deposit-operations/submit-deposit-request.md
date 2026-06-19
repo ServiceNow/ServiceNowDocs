@@ -2,6 +2,7 @@
 title: Submitting a deposit service request
 description: Bank workers can begin the deposit workflow by submitting a deposit service request received from customers \(consumer or business contact\). Customers \(consumer or contact\) can also directly submit a request from the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/submit-deposit-request.html
 release: australia
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -36,8 +37,8 @@ Bank workers can begin the deposit workflow by submitting a deposit service requ
     Deposit agent connectors can collect required information and documents and submit deposit service requests for the accounts managed by them. Further, they can work on the cases to fulfill the service request.
 
 
--   **[Create a deposit service case as a contributor or agent connector](../task/submit-deposit-service-application-contributor.md)**  
+-   **[Create a deposit service case as a contributor or agent connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/submit-deposit-service-application-contributor.md)**  
 Begin the deposit service application process by creating a deposit case on behalf of your customer.
 
-**Parent Topic:**[Using Financial Services Deposit Operations](using-deposit-ops.md)
+**Parent Topic:**[Using Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/using-deposit-ops.md)
 

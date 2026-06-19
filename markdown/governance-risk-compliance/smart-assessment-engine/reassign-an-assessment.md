@@ -2,6 +2,7 @@
 title: Reassign an assessment
 description: Reassign assessment to redirect them to different users, enabling for flexible task management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/reassign-an-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -30,12 +31,12 @@ You can reassign an assessment to anyone if you have the assessment reassign \[s
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon ![](../image/list-icon.png).
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
     3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
     4.  The smart assessments list is displayed.
 2.  Select the assessments that you want to reassign.
 
-3.  To reassign the assessment, on the top pane select more action icon ![](../image/more-actions.png) and select **Reassign**.
+3.  To reassign the assessment, on the top pane select more action icon \[Omitted image "more-actions.png"\] Alt text: and select **Reassign**.
 
     A reassign dialog box appears.
 

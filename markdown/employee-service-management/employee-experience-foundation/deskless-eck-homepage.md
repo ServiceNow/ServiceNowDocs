@@ -2,11 +2,12 @@
 title: Use Employee Center Pro Kiosk
 description: Use the Kiosk experience to self-serve, leading to improved productivity, and operational efficiencies for the organization.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/deskless-eck-homepage.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Employee Center Pro Kiosk, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
 ---
@@ -17,7 +18,7 @@ Use the Kiosk experience to self-serve, leading to improved productivity, and op
 
 As an EC Pro Kiosk user \(sn\_ex\_sp\_pro\_kiosk.user\), you can easily navigate to the content that's organized to serve your work needs.
 
-![deskless kiosk experience](../images/deskless-homepage-eck.png "EC Pro Kiosk experience")
+\[Omitted image "deskless-homepage-eck.png"\] Alt text: deskless kiosk experience
 
 -   Be more productive with simplified authentication and guided help​.
 -   Access information, services, and technology​.
@@ -36,7 +37,7 @@ You can send useful information such as **Schedule** or **Article** to self as a
 3.  Sample SMS template for the schedule information.
 4.  Sample mail template for the schedule information.
 
-For more information, see [Employee Center Pro Kiosk](deskless-kiosk-overview.md) and [Configure the mail and SMS send to self](../task/deskless-kiosk-sendtoself-sms-email.md).
+For more information, see [Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md) and [Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md).
 
-**Parent Topic:**[Employee Center Pro Kiosk](deskless-kiosk-overview.md)
+**Parent Topic:**[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 

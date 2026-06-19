@@ -2,13 +2,14 @@
 title: Form Data Collector
 description: Learn about the Form Data Collector. This application is used to assist with populating case form fields during a customer's interaction with a Virtual Agent chatbot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/learn-about-the-form-data-collector.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Explore, Now Assist for FSO, Financial Services Operations \(FSO\)]
+breadcrumb: [Supporting information for Now Assist for FSO, Reference, Now Assist for FSO, Financial Services Operations \(FSO\)]
 ---
 
 # Form Data Collector
@@ -91,4 +92,6 @@ The Form Data Collector in Disputes intake via Virtual Agent will bypass the fol
 -   Do you see an extra transaction related to your original purchase?
 -   Did you make this transaction while commuting?
 -   What best describes your billing issue?
+
+**Parent Topic:**[Supporting information for Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/supporting-information-for-now-assist-for-financial-services-operations-fso.md)
 

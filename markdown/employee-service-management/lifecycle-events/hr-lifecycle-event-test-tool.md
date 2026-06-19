@@ -2,6 +2,7 @@
 title: Using the Test Activity Sets tool for a lifecycle event activity set
 description: Use the lifecycle event test tool to thoroughly test a lifecycle event before launching it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/hr-lifecycle-event-test-tool.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -37,12 +38,12 @@ The lifecycle event test tool provides different views of a lifecycle event. The
     A subject person is considered indeterminate when there is not enough information to determine if the subject person is part of the audience.
 
 
--   **[Preview and test a lifecycle event](../task/test-lifecycle-event.md)**  
+-   **[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/test-lifecycle-event.md)**  
 Preview and test a lifecycle event for different audience types. You can preview a lifecycle event to validate which activities will trigger or not for a particular audience. You can then create a test lifecycle event case for different users and select which activities to include or exclude in your test.
 
-**Parent Topic:**[Building a lifecycle event](hr-lifecycle-event-configuration.md)
+**Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
-**Previous topic:**[Configure an HR service for a journey](../task/configure-hr-service-for-journey.md)
+**Previous topic:**[Configure an HR service for a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-hr-service-for-journey.md)
 
-**Next topic:**[Preview and test a lifecycle event](../task/test-lifecycle-event.md)
+**Next topic:**[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/test-lifecycle-event.md)
 

@@ -2,6 +2,7 @@
 title: Exploring the Conversational Analytics dashboard in Platform Analytics experience
 description: Use Conversational Analytics dashboard to improve Virtual Agent \(VA\) interactions with users. The dashboard provides insights into conversational data, and helps you refine topics and improve the deflection rate of VA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/dashboard-explore-dashboard-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -27,7 +28,7 @@ Conversational Analytics dashboard provides insights into conversations so you c
 -   Conversation details using advanced filters
 -   How to optimize conversation design
 
-![Virtual agent analytics overview tab](../images/vaa-next-exp-overview-pae.png)
+\[Omitted image "vaa-next-exp-overview-pae.png"\] Alt text: Virtual agent analytics overview tab
 
 ## Key features
 
@@ -35,13 +36,13 @@ Conversational Analytics dashboard provides insights into conversations so you c
 
     See the underperforming VA topics to investigate and improve topic performance.
 
-    ![Virtual Agent Underperforming topics section with visualizations for least used and incomplete topics.](../images/vaa-next-least-performing-topic-pae.png)
+    \[Omitted image "vaa-next-least-performing-topic-pae.png"\] Alt text: Virtual Agent Underperforming topics section with visualizations for least used and incomplete topics.
 
 -   **Conversation details**
 
     Discover metadata about each VA interaction, including the user, chat duration, conversation type, and channel.
 
-    ![Virtual Agent Analytics Dashboard conversation details tab.](../images/vaa-next-conversation-details-pae.png)
+    \[Omitted image "vaa-next-conversation-details-pae.png"\] Alt text: Virtual Agent Analytics Dashboard conversation details tab.
 
 
 ## Overview of Conversational Analytics dashboard
@@ -52,7 +53,7 @@ The following sections provide a high-level overview of how to use each section 
 
     The **Start date** and **End date** fields at the top of the dashboard specify the data range of the data summarized on each page.
 
-    ![Virtual Agent chat data ranges shown by start and end dates in year-month-day format.](../images/dashboard-top-dates-pae.png)
+    \[Omitted image "dashboard-top-dates-pae.png"\] Alt text: Virtual Agent chat data ranges shown by start and end dates in year-month-day format.
 
     All data is continually pushed from Virtual Agent to the dashboard in real time, and retained for up to two years.
 
@@ -87,7 +88,7 @@ The following sections provide a high-level overview of how to use each section 
 
     This area of the dashboard contains indicators that show Virtual Agent activity such as number of active users who interacted with the Virtual Agent, number of conversations initiated on the Virtual Agent, and so on.
 
-    ![Virtual Agent analytics dashboard key performance indicators.](../images/vaa-next-virtual-agent-activity-pae.png)
+    \[Omitted image "vaa-next-virtual-agent-activity-pae.png"\] Alt text: Virtual Agent analytics dashboard key performance indicators.
 
     Selecting on the info icon displays the description of the indicator.
 
@@ -97,8 +98,8 @@ The following sections provide a high-level overview of how to use each section 
 
     This area of the dashboard contains indicators such as topic performance and user feedback that show how well Virtual Agent topics performed and the feedback from the user.
 
-    ![Virtual Agent analytics dashboard key performance indicators.](../images/vaa-next-virtual-agent-activity-pae.png)
+    \[Omitted image "vaa-next-virtual-agent-activity-pae.png"\] Alt text: Virtual Agent analytics dashboard key performance indicators.
 
 
-**Parent Topic:**[Conversational Analytics dashboard in Platform Analytics experience](VA-dashboard-landing-page-pae.md)
+**Parent Topic:**[Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/VA-dashboard-landing-page-pae.md)
 

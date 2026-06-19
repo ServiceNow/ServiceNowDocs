@@ -2,6 +2,7 @@
 title: Manually refresh Agent Client Collector certificates
 description: Refresh Agent Client Collector self-signed certificates manually to validate Agent Client Collector plugins, instead of waiting for the scheduled synchronization. For example, you can use this feature when the agent can't validate a plugin and you don't want to wait for the scheduled synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/manually-sync-certificates.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -36,5 +37,5 @@ Refresh Agent Client Collector self-signed certificates manually to validate Age
 
 When an agent fails to perform a certificate check, the agent synchronizes certificates available on the MID Server by pulling self-signed certificates from the install server. Certificates are downloaded by the Agent Client Collector if the agent does not validate its plugins.
 
-**Parent Topic:**[Agent Client Collector certificates](../concept/acc-certificates.md)
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-certificates.md)
 

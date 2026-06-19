@@ -2,6 +2,7 @@
 title: Enable recruiters to view email details in the activity stream
 description: Add the recruiter role to a system property. The recruiter can view the details of the email in the activity stream of the Recruitment workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/enable-emails-recruiters.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -32,5 +33,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Recruitment Workspace](../concept/config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
 

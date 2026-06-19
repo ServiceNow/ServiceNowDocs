@@ -2,6 +2,7 @@
 title: Provide feedback on Genius Results
 description: Users can submit feedback for each Genius Result answer card, specifying whether it was helpful for their search or not. For cards from default Genius Result configurations, users can also select the reason they found an answer unhelpful. AI Search records feedback responses as search signals that you can use to assess the relevancy of your Genius Result configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/genius-result-feedback-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -25,7 +26,7 @@ Role required: none
 
 You can provide feedback for each Genius Result answer card in your search result set, marking it as helpful or unhelpful for your search. If you mark an answer card produced by a default Genius Result configuration as unhelpful, you can also select the reason it was unhelpful.
 
-AI Search stores user feedback for Genius Result answers as signals in the Genius Result Event Action \[sys\_search\_genius\_result\_event\_action\] table. For more information on this table, see [Search signal tables](../../search-administration/reference/search-signal-tables.md).
+AI Search stores user feedback for Genius Result answers as signals in the Genius Result Event Action \[sys\_search\_genius\_result\_event\_action\] table. For more information on this table, see [Search signal tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-signal-tables.md).
 
 ## Procedure
 
@@ -44,5 +45,5 @@ AI Search stores user feedback for Genius Result answers as signals in the Geniu
 
 AI Search submits your feedback as a search signal.
 
-**Parent Topic:**[Searching in AI Search](../concept/use-ais.md)
+**Parent Topic:**[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md)
 

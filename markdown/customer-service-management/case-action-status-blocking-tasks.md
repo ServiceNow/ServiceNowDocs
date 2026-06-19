@@ -2,11 +2,14 @@
 title: Blocking tasks
 description: Certain agent actions trigger case flows which create and resolve the blocking tasks for customer service cases. These tasks determine the case action status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-action-status-blocking-tasks.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Administering case action status, Administer, Customer Service Management]
+breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Blocking tasks
@@ -92,6 +95,4 @@ When a blocking task is resolved:
 ## Blocking Tasks table
 
 Records that have the blocking tasks are stored in the Blocked By table \[sn\_action\_status\_blocked\_by\]. Records are periodically removed from this table. Six months after a blocked record is closed, the entries in the Blocked By table related to the blocked record are removed.
-
-**Parent Topic:**[Administering case action status](../concept/customer-service-case-action-status.md)
 

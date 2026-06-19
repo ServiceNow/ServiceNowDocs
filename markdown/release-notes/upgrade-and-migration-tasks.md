@@ -2,10 +2,13 @@
 title: Pre- and post-upgrade tasks for various products
 description: In preparation for your upgrade, review the upgrade and migration tasks for various applications and features. Plan to complete these tasks, when applicable, before or after the upgrade is complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrade-and-migration-tasks.html
 release: australia
+product: Release Notes
+classification: release-notes
 topic_type: reference
-last_updated: "2026-05-09"
-reading_time_minutes: 118
+last_updated: "2026-06-19"
+reading_time_minutes: 97
 breadcrumb: [Prepare your upgrade, Australia release notes]
 ---
 
@@ -15,7 +18,7 @@ In preparation for your upgrade, review the upgrade and migration tasks for vari
 
 ## Prepare your instance for a smoother upgrade
 
-![Pre-upgrade tasks, upgrade, post-upgrade tasks](../image/upgrade-migration-tasks.png)
+\[Omitted image "upgrade-migration-tasks.png"\] Alt text: Pre-upgrade tasks, upgrade, post-upgrade tasks
 
 Before you upgrade to Australia, review these pre- and post-upgrade tasks and complete the tasks as needed.
 
@@ -185,7 +188,7 @@ Configuration Management Database \(CMDB\)
 
 Due to changes in the Configuration Item \[cmdb\_ci\] table, if you're upgrading to Australia, you might experience an increased upgrade time. To learn more about this change and reducing its impact, see the [Increased Australia Upgrade Time due to cmdb\_ci composite index addition \[KB2588894\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2588894) article in the Now Support Knowledge Base.
 
- If you're upgrading from Xanadu or Yokohama directly to the Australia release, you must run the **Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles** scheduled job to correctly configure some user roles, such as CMDB Admin and CMDB Editor. For more information about this scheduled job and its use, see the [CMDB Zurich release notes](https://www.servicenow.com/docs/bundle/zurich-release-notes/page/release-notes/now-platform-capabilities/cmdb-rn.html).
+ If you're upgrading from Xanadu or Yokohama directly to the Australia release, you must run the **Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles** scheduled job to correctly configure some user roles, such as CMDB Admin and CMDB Editor. For more information about this scheduled job and its use, see the [CMDB Zurich release notes](https://servicenow.com/docs/access?context=cmdb-rn&family=australia&ft:locale=en-US).
 
  The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US).
 
@@ -234,7 +237,7 @@ Customer Engagement Sequences
 
 </td><td>
 
-If you configured sequences with the Schedule call activity on a release before Zurich, the activity is now labeled **Schedule call - Deprecated** in the activity picker in Workflow Studio. Existing sequences continue to work, but the Call icon ![](../../../reuse/icons/product-icons/phone-fill-24.svg) doesn't appear on the **Callback number** field on the Sequence Steps page during runtime. To enable the click-to-call capability, update the Customer Engagement Sequences application to use the new Schedule call activity.
+If you configured sequences with the Schedule call activity on a release before Zurich, the activity is now labeled **Schedule call - Deprecated** in the activity picker in Workflow Studio. Existing sequences continue to work, but the Call icon \[Omitted image "phone-fill-24.svg"\] Alt text: doesn't appear on the **Callback number** field on the Sequence Steps page during runtime. To enable the click-to-call capability, update the Customer Engagement Sequences application to use the new Schedule call activity.
 
 </td><td>
 
@@ -435,7 +438,7 @@ Now Assist for Creator
 
 </td><td>
 
-Australia early availability \(March\)
+Australia early availability
 
 -   To upgrade the Build Agent application, upgrade the Now Assist for Creator application \(sn\_now\_creator\), which includes the Build Agent Pro plugin \(sn\_build\_agent\_pro\). To upgrade the Build Agent \(Trial\) app, upgrade the sn\_build\_agent plugin.
 
@@ -479,18 +482,6 @@ Australia
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
-
-</td><td>
-
-
-
-</td><td>
-
-Australia
-
-</td></tr><tr><td>
-
 Now Assist
 
 </td><td>
@@ -499,9 +490,9 @@ If you customized actions on the user interface or other items that are associat
 
  If you run into issues when you're upgrading a Now Assist product, see the [Issues and mitigation for Now Assist \(generative AI\) Applications and Plugin updates \[KB1637452\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) article in the Now Support Knowledge Base. Log in to view the article.
 
- The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform. These changes include a new read\_only\_option field with granular control levels, including strict\_read\_onlyand client\_script\_modifiable. The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen instance security while preserving flexibility. If you have custom client scripts that modify read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to the [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) article in the Now Support Knowledge Base to identify affected fields and adjust the settings.
+ The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform. These changes include a new read\_only\_option field with granular control levels, including strict\_read\_only and client\_script\_modifiable. The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen instance security while preserving flexibility. If you have custom client scripts that modify read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to the [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) article in the Now Support Knowledge Base to identify affected fields and adjust the settings.
 
- The existing access control lists \(ACLs\) have been updated to replace the admin role with purpose-driven granular roles within scripts or security attributes. As part of this update, the `getRoles()` API is replaced with the `hasRole()` API for authorization purposes. Additionally, all references to the admin role in the code have been substituted with the granular roles for authorization use cases. For more information, see [https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html](https://www.servicenow.com/docs/r/platform-security/granular-admin-roles.html).
+ The existing access control lists \(ACLs\) have been updated to replace the admin role with purpose-driven granular roles within scripts or security attributes. As part of this update, the `getRoles()` API is replaced with the `hasRole()` API for authorization purposes. Additionally, all references to the admin role in the code have been substituted with the granular roles for authorization use cases. For more information, see [Granular admin roles](https://servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US).
 
 </td><td>
 
@@ -542,9 +533,9 @@ Platform Analytics experience
 
 </td><td>
 
-After upgrading, only admins can create Core UI analytics objects: reports, Performance Analytics widgets, responsive dashboards, and interactive filters. Other users can still view and edit Core UI objects but can create only Platform Analytics objects, such as data visualizations.
+When upgrading, all Core UI reports and dashboards are identified as such in the library under the **UI version** column. Users can edit these legacy artifacts in the Report Builder and Dashboard Builder applications.
 
- When upgrading, the published status on all Core UI reports changes to **false**, making them unpublished.
+**Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
 
  After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
 
@@ -570,7 +561,7 @@ Product Catalog Management and Pricing Management
 
 </td><td>
 
-Pricing Management v16.0.0 provides a default pricing plan that includes changes to support pricing strategies introduced in this release. If you have been using a custom pricing plan from an earlier release, after upgrading to Pricing Management v16.0.0, the default pricing plan is in a Retired state. Determine whether you want to publish the default pricing plan for use or customize it.
+Pricing Management v16.0.0 provides a default pricing plan that includes changes to support pricing strategies introduced in this release. If you've been using a custom pricing plan from an earlier release, after upgrading to Pricing Management v16.0.0, the default pricing plan is in a Retired state. Determine whether you want to publish the default pricing plan for use or customize it.
 
 </td><td>
 
@@ -772,9 +763,9 @@ Third-party Risk Management
 
 </td><td>
 
-If you’re a VRM user upgrading to TPRM and upgrading to Australia from an earlier release, you must run each upgrade sequentially to ensure that fix scripts run correctly. For example, you must upgrade from Xanadu to Yokohama, Yokohama to Zurich, and so on. If the scripts don’t run in the correct order, you can get data inconsistencies, broken functionalities, and conflicts.
+If you're a VRM user upgrading to TPRM and upgrading to Australia from an earlier release, you must run each upgrade sequentially to ensure that fix scripts run correctly. For example, you must upgrade from Xanadu to Yokohama, Yokohama to Zurich, and so on. If the scripts don't run in the correct order, you can get data inconsistencies, broken functionalities, and conflicts.
 
- After upgrading to version 21.0.x, you can enable the Smart Assessment Engine \(SAE\) by setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property. After setting this property, Smart Assessment Engine \(SAE\) becomes the default assessment engine and replaces the legacy experience. The transition isn’t reversible.
+ After upgrading to version 21.0.x, you can enable the Smart Assessment Engine \(SAE\) by setting the Smart Assessment Engine enabled \(**sn\_vdr\_risk\_asmt.sae\_enabled**\) property. After setting this property, Smart Assessment Engine \(SAE\) becomes the default assessment engine and replaces the legacy experience. The transition isn't reversible.
 
 **Warning:**
 
@@ -783,6 +774,8 @@ Set this property in your non-production instances and conduct thorough testing 
  For more information on upgrading from VRM to TPRM and the differences between the Smart and Classic Assessment engines, see [Third-party Risk Management upgrade information](https://servicenow.com/docs/access?context=grc-tprm-upgrade-info&family=australia&ft:locale=en-US).
 
  For existing TPRM customers, after upgrading to version 21.0.3, data from the Industry column in the Company \[core\_company\] table is automatically migrated to the tprm\_industry column. Migration can take several hours depending on the number of records in the Company \[core\_company\] table. After migration, a system log message confirms that the migration is complete. Review the Company \[core\_company\] table content and update any customizations referencing the Industry field to use tprm\_industry. After verifying the migration and updating customizations, you can drop the Industry column.
+
+ After upgrading to version 22.3.3, the `grc_business_user` and `grc_reader` roles are no longer directly inherited by TPRM roles. During upgrade, most users are automatically migrated to new feature‑specific roles. Users with custom role combinations may not be migrated automatically and require manual review before the grace period ends.
 
 </td><td>
 
@@ -813,616 +806,6 @@ If you're currently using Vulnerability Response, and you do not intend to upgra
 </td><td>
 
 Australia
-
-</td></tr><tr><td>
-
-AI Search
-
-</td><td>
-
-[Washington DC Patch 9](https://servicenow.com/docs/access?context=washingtondc-patch-9&family=washingtondc&ft:locale=en-US):
-
--   After you upgrade to Washington DC Patch 9 from an earlier release, make knowledge block content searchable by reindexing all your indexed sources that include knowledge articles. For details on reindexing, see [Index or reindex an indexed source](https://servicenow.com/docs/access?context=index-single-source-ais&family=washingtondc&ft:locale=en-US) or [Index or reindex multiple indexed sources](https://servicenow.com/docs/access?context=index-multiple-sources-ais&family=washingtondc&ft:locale=en-US).
-
- Washington DC:
-
--   When you upgrade to Washington DC, AI Search automatically updates your existing Genius Result configurations to use the new [AI Search Genius Result Configuration form](https://servicenow.com/docs/access?context=genius-result-cfg-form-ais&family=washingtondc&ft:locale=en-US) fields. This update procedure makes the following changes:
-    -   Removes existing **Genius result answer type** field values.
-    -   Migrates **Genius result logic** field values to the new **AI Search request processor** and **AI Search response processor** fields as appropriate.
--   After you upgrade your instance to Washington DC, AI Search retains the value that you previously set for the **Boolean search operator to use when a search query includes multiple terms** \(**glide.ais.query.search\_operator**\) system property. To gain the benefits of the new enhanced query mode for multi-term searches, set this system property's value to **AND then OR 2+ key terms**. For details on AI Search system properties, see [AI Search system properties](https://servicenow.com/docs/access?context=system-properties-ais&family=washingtondc&ft:locale=en-US).
--   Starting in Washington DC, the User \[sys\_user\] table defaults to sorting indexed records by their sys\_created\_on dates instead of sorting them by their sys\_updated\_on dates. This change requires reindexing of the User table indexed source for AI Search, which can be time-consuming. When you upgrade to Washington DC from a previous family release, AI Search does not automatically reindex the User table indexed source. If you need to be able to search the latest configuration for user records, you can [manually reindex](https://servicenow.com/docs/access?context=index-single-source-ais&family=washingtondc&ft:locale=en-US) the User table indexed source, which may take some time. Otherwise, AI Search will reindex individual User table records as they're updated until all records have been reindexed.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Automated Test Framework
-
-</td><td>
-
-Copy and customize quick start tests provided by the ServiceNow AI Platform® to validate that your instance works after you make any configuration changes. For example, if you apply an upgrade or develop an application.
-
- The tests can produce a pass result only when you run them on a base system without any customizations and with the default demo data that is provided with the application or feature plugin. To apply a quick start test to your instance-specific data, copy the quick start test and add your custom data. For more information, see [Available quick start tests by application or feature](https://servicenow.com/docs/access?context=available-quick-start-tests&family=washingtondc&ft:locale=en-US).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Business Continuity Management
-
-</td><td>
-
-After upgrading to the Washington DC release, you must note the following important information for the existing business impact analyses, business continuity plans, and events:
-
--   For business impact analyses, the Source column in the dependency assessment is renamed to Primary source and the **BCM** source is renamed to **Manual** for manually added dependencies following an upgrade. When you select the **Update dependencies** button, the system adds the CMDB dependencies.
--   For business continuity plans, the Source column is renamed to Primary source following an upgrade. When you select the **Update dependencies** button, the system adds the CMDB and BIA dependencies. To maintain compatibility with the previous releases, the BCM administrator can configure the sources and keep only the BIA upstream dependency and BIA downstream dependencies as the sources in the updated configuration.
--   For events and exercises, when you select the **Update dependencies** button, the system adds the CMDB, BIA, and Business Continuity Planning \(BCP\) dependencies after an upgrade. To maintain compatibility with the previous releases, the BCM administrator can configure the sources and keep only the BIA upstream dependency and BIA downstream dependencies as the sources in the updated configuration.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Configuration Management Database \(CMDB\)
-
-</td><td>
-
--   The column **product\_instance\_id** has been added to the base Configuration Item \[cmdb\_ci\] table to support the new product instance identifier \(PID\), which enables the lookup and linking of any pre-existing related assets, CIs, and Install Base Items \(IBI\). For more information about the impact of that change during upgrade and how to minimize that impact, see the [Upgrade impact of CMDB\_CI schema changes for Washington release \[KB1534035\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB1534035) knowledge base article.
--   If you enable CMDB 360 for the first time after upgrading to the Washington DC release, to enable the capture of CMDB 360 data for CIs from non-CMDB classes \(classes not derived from the Configuration Item \[cmdb\_ci\] class\) you must set the **glide.identification\_engine.multisource\_non\_cmdb\_ci\_enabled** system property to true.
--   If you have been using the legacy Data Certification application on Core UI, then any associated definitions won’t be available in the new implementation of Data Certification in CMDB Workspace. After upgrading to the Washington DC release and to CMDB Workspace version 6.0, you can convert definitions created in the legacy Data Certification application into draft Data Manager Certification policies in CMDB Workspace. For more information, see [.](https://servicenow.com/docs/access?context=convert-data-cert-definitions&family=washingtondc&ft:locale=en-US)
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Core ServiceNow AI Platform
-
-</td><td>
-
-Previously, if a transaction was canceled, certain auditable operations were not being recorded. This behavior of missing audit records is because the platform executes some operations between the record change and is canceled before audit creation. But now, audits are created immediately after the record is changed, reducing the chance of a canceled transaction aborting the operation before the audit is recorded. To facilitate this update, audits are now recorded in the same thread as the transaction. Earlier audits were created in a background thread.
-
- This change redefines the default value of the `glide.db.audit.lazy` property from true to false. Ideally, this property is not defined in the Properties table, which means that the majority of instances start using the new default value and behavior with the Washington DC release. On some instances, this property may have been inserted with the value set to true, which means that these instances won’t be able to use this change to audit behavior. Delete this property to leverage this update.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Encryption Key Management
-
-</td><td>
-
-If you upgrade your instance to Washington DC but don’t upgrade your MID Server, Secrets Management authentication fails. Avoid authentication failures by upgrading your MID Server to Washington DC. If you can’t upgrade, you must turn off authentication until MID Server is upgraded to Washington DC to avoid authentication failures.
-
- For details on MID Server upgrades, see [MID Server upgrades](https://servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=washingtondc&ft:locale=en-US).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Enterprise Asset Management
-
-</td><td>
-
-After you upgrade to Washington DC, the model\_component field isn't available in the Enterprise asset \[sn\_ent\_asset\] table. Instead, a new model\_component\_id field is available in the Asset \[alm\_asset\] table. The ENT - Migrate to new model component script moves the existing model\_component field data to the model\_component\_id field.
-
- Note the following upgrade scenarios for the Total Cost of Ownership \(TCO\) of assets:
-
--   Upgrade works for all Enterprise Asset Management flow tasks
--   You must have task rate cards for each workflow task.
--   The TCO upgrade populates the **Asset** and **Expense category** fields on expense lines corresponding to each task.
--   Expense category is populated based on the expense lines and the source of the expense line.
--   You need to populate the TCO benchmark cost and the TCO benchmark threshold field on all existing models manually or using the bulk import functionality.
--   TCO upgrade populates following fields on asset forms:
-    -   **Asset end of useful life**: The created date plus the useful life in months.
-    -   **Asset first used date**: The created date.
-    -   **Asset TCO**: The aggregated sum of all the expense lines related to the asset. For simple assets, Asset TCO is the aggregated sum of expense lines under it. For complex assets, Asset TCO is the aggregated sum of expense lines of the parent as well as its child assets.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Financial Services Operations Core
-
-</td><td>
-
-During the upgrade to Washington DC, the Financial Services Operations Core plugin reparents the following tables:
-
-**Note:** You may experience a longer time for the upgrade to complete if your upgraded instance has a large number of records.
-
--   The Service Definition \[sn\_bom\_service\_definition\] table extends from the Service Definition \[sn\_case\_type\_selection\] table instead of the Request Definition \[sn\_ind\_request\_definition.
--   The Financial task \[sn\_bom\_task\] table extends from the Customer Service Task \[sn\_customerservice\_task\] table instead of the Global Task \[task\] table.
--   The Policy Participant \[sn\_bom\_policy\_participant\] table extends from the Sold Product Related Party \[sn\_install\_base\_sold\_product\_related\_party\] table.
-
-Reparenting enables leveraging of the benefits and advancements introduced by ServiceNow® Customer Service Management \(CSM\) while preserving the functionality of existing applications.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Hardware Asset Management 10.0.0
-
-</td><td>
-
-After your upgrade to Washington DC, keep in mind the following upgrade scenarios for the Total Cost of Ownership \(TCO\) of assets:
-
--   Upgrade works for all Hardware Asset Management flow tasks.
--   You must have task rate cards for each workflow task.
--   TCO upgrade populates an asset and expense category field on the expense line corresponding to each task.
--   Expense category is populated based on the expense lines and the source of the expense line.
--   You must populate the TCO benchmark cost and the TCO benchmark threshold field on all existing models manually or using the bulk import functionality.
--   TCO upgrade populates the following fields on assets:
-    -   Asset end of useful life: Created date along with useful life in months.
-    -   Asset first used date: Same as the created date.
-    -   Asset TCO: Aggregated sum of all the expense lines related to the asset. For simple assets, Asset TCO is the aggregated sum of expense lines under it. For complex assets, Asset TCO is the aggregated sum of expense lines of the parent as well as its child assets.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Healthcare and Life Sciences Service Management Core
-
-</td><td>
-
-During the upgrade to Washington DC, the Healthcare sold product \[sn\_hcls\_sold\_product\] parent table changes to Install base item \[sn\_install\_base\_item\] for the following tables:
-
--   Member Plan \[sn\_hcls\_member\_plan\]
--   Medication \[sn\_hcls\_medication\]
--   Immunization \[sn\_hcls\_immunization\]
--   Enrolled Program \[sn\_hcls\_enrolled\_program\]
--   Enrolled Program Service \[sn\_hcls\_enrolled\_program\_service\]
-
- In addition, the following tables have had their parent tables removed and are standalone tables:
-
--   Healthcare Organization\[sn\_hcls\_organization\]
--   Healthcare Location\[sn\_hcls\_location\]
--   Practitioner Location\[sn\_hcls\_practitioner\_facility\]
-
-This reparenting enables customers to use the organizations and location tables for a broader set of use cases.
-
- Existing data is migrated in the following manner so that existing functionality isn’t impacted:
-
-1.  Reference of location field in sn\_hcls\_immunization updated to use cmn\_location.
-2.  All data is moved from Healthcare Sold Product to Install Base Item tables.
-3.  Rows in the affected Install Base Item are populated based on the source\_task value from the Healthcare Sold Product.
-4.  The state of sn\_hcls\_enrolled\_program and sn\_hcls\_enrolled\_program\_service are copied from hcls\_state.
-5.  All data moves to the standalone tables of Healthcare Organization, Healthcare Location, and Practitioner Location.
-    1.  The script creates records in the Business Location table for existing records in the Healthcare Organization table to form a 1:1 reference.
-    2.  Records that refer to a service organization are updated with a reference to the appropriate business location.
-    3.  Any practitioner who has a record in the practitioner location will have a record created in the Service Organization Member table with the appropriate business location.
-    4.  Records that contain healthcare location data will contain the parent service organization of that healthcare location.
-
-**Note:** You may experience a longer time for the upgrade to complete if your upgraded instance has a large number of records.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Industrial Process Manager
-
-</td><td>
-
-The Industrial Process Manager application now has a dependency with the Operational Technology Service Management applications, which include Operational Technology Incident Management and Operational Technology Change Management. To install Industrial Process Manager on your instance, one of the following SKUs is required:
-
--   Operational Technology Visibility SKU
--   Operational Technology Service Management SKU
--   Any custom SKU that entitles Industrial Process Manager
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Instance Data Replication
-
-</td><td>
-
-Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading your replication sets to V2, which uses the Hermes Messaging Service. For details, see [Upgrading legacy replication sets to V2 in Instance Data Replication](https://servicenow.com/docs/access?context=upgrading-legacy-replication-sets-v2&family=washingtondc&ft:locale=en-US).
-
- Log rotation is automatically enabled for the Replication Payload Error \[idr\_replication\_payload\_error\] table after the upgrade. By default, the log rotation schedule is comprised of seven shards, with five days for each shard. All log entries in this table created before the upgrade are automatically truncated.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-MID Server
-
-</td><td>
-
-For the latest MID Server system requirements, see [MID Server system requirements](https://servicenow.com/docs/access?context=r_MIDServerSystemRequirements&family=washingtondc&ft:locale=en-US). The minimum JRE version supported is 11.0.9 and the recommended version is 11.0.16.1.
-
- If you have installed your own JRE, the upgrade process takes the following actions to ensure that the MID Server uses a supported JRE:
-
--   If a MID Server is using an unsupported version of the JRE when it upgrades, the upgrade process displays a warning message with the minimum and recommended JRE version.
--   If a supported JRE is running on the MID Server host, the upgraded MID Server uses that version.
-
- All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages [MID Server upgrades](https://servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=washingtondc&ft:locale=en-US).
-
- Only one Windows MID Server service is permitted per executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See [MID Server fails to start](https://servicenow.com/docs/access?context=mid-startup-fails&family=washingtondc&ft:locale=en-US) for more information.
-
- For more information about MID Server upgrades, see the following topics:
-
--   [MID Server pre-upgrade check](https://servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=washingtondc&ft:locale=en-US): Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
--   [Upgrade the MID Server manually](https://servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=washingtondc&ft:locale=en-US): Describes how to upgrade your MID Servers manually.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Now Assist for Creator
-
-</td><td>
-
-To receive Workflow Studio performance improvements, install one of these versions of the Workflow Studio application from the ServiceNow Store. For more information about upgrading Workflow Studio, see [Update to the latest version of Workflow Studio](https://servicenow.com/docs/access?context=update-to-the-latest-version-of-workflow-studio&family=washingtondc&ft:locale=en-US).
-
- |Is Now Assist for Creator already installed?|Version of Workflow Studio to use for upgrade|
-|--------------------------------------------|---------------------------------------------|
-|No|Upgrade Workflow Studio to version 25.1.3|
-|Yes|Upgrade Workflow Studio to version 25.0.0|
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Now Assist
-
-</td><td>
-
-For more information about troubleshooting your Now Assist application and plugin upgrades, see the KB article for [issues and mitigation for Now Assist upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Order Management
-
-</td><td>
-
-New features introduced in this Washington DC release aren’t supported in earlier releases of Order Management for Telecommunications, Media, and Technology.
-
- Starting with the Washington DC release, the **Monthly Recurring Charges** \(MRC\) and the **Non Recurring Charges** \(NRC\) set for product offerings and product attribute characteristics are stored in the Pricing data model in price lists and price list lines, rather than the Product Offering data model. If you want to upgrade your pricing information to use price lists after upgrading to Washington DC, see the [Price Management Plugin \(com.sn\_csm\_pricing\) uptake for Telecommunications, Media, and Technology customers upgrading to Washington \[KB1585863\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585863) article in the Now Support Knowledge Base.
-
- After upgrading to the Washington DC release, a fix script runs automatically to deactivate certain telecommunications list records that are no longer needed to resume the capture of an unfinished order. For more information on these records and using the former order capture process if needed, see the [Deprecating Telco List for Order Capture \[KB1586538\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1586538) article in the Now Support Knowledge Base.
-
- After upgrading to the Washington DC, review the reconfiguration workarounds for working on new change orders or orders with disconnect, suspend, or resume actions while using the product configurator. For details, see the [Order line reconfiguration issues in Washington when using Order Capture UI \[KB1585976\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585976) article in the Now Support Knowledge Base.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Order Management
-
-</td><td>
-
-Features introduced in this Washington DC release aren’t supported in earlier releases of Order Management.
-
- If you’re upgrading from Order Management for Telecommunications and Media version 6.0 or earlier:
-
--   Starting with the  Washington DC  release, the  Monthly Recurring Charges  \(MRC\) and the  Non-Recurring Charges  \(NRC\) for product offerings and product attribute characteristics are stored in the Pricing data model in price lists and price list lines rather than in the Product Offering data model. If you want to upgrade your pricing information to use price lists after upgrading to  Washington DC, see the  [Price Management Plugin \(com.sn\_csm\_pricing\) uptake for Telecommunications, Media, and Technology customers upgrading to Washington \[KB1585863\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585863) article in the Now Support Knowledge Base.
--   After upgrading to the  release, a fix script runs automatically to deactivate certain telecommunications list records that are no longer needed to resume the capture of an unfinished order. For more information on these records and using the former order capture process if needed, see the  [Deprecating List for Order Capture \[KB1586538\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1586538) article in the Now Support Knowledge Base.
-
- After upgrading to the  Washington DC release, review the reconfiguration workarounds when working with new change orders or orders with disconnect, suspend, or resume actions while using the product configurator. For details, see the  [Order line reconfiguration issues in Washington when using Order Capture UI \[KB1585976\] ](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585976) article in the Now Support Knowledge Base.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Performance Analytics
-
-</td><td>
-
-The legacy PA Scores \[pa\_scores\] table is being deprecated. If you still have indicator scores captured in the PA Scores table and the number of such scores is fewer than 43 million, these scores will be migrated automatically to the pa\_scores\_l1 and pa\_scores\_l2 tables upon upgrade. The expected amount of time added to upgrade is approximately two hours. For more information, see [KB1294371](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1294371) or [Migrating Performance Analytics scores](https://servicenow.com/docs/access?context=pa-scores-migration&family=washingtondc&ft:locale=en-US).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Platform Analytics Experience
-
-</td><td>
-
-Platform Analytics Experience functionality was previously located in the Platform Analytics Workspace. The functionality is now part of the core ServiceNow AI Platform, accessible through the Next Experience Unified Navigation. You can migrate any dashboards, reports, and Performance Analytics widgets that were created in Core UI to this functionality.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Playbooks in Workflow Studio
-
-</td><td>
-
-After you upgrade to Washington DC, update the Playbooks and Workflow Studio applications in the ServiceNow Store.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Portfolio Planning
-
-</td><td>
-
-Starting with v8.0.0, you can access the Strategic Portfolio Management \(SPM\) Pro-licensed features only in Strategic Planning Workspace. If you have been using Portfolio Planning Workspace to access SPM Pro-licensed features, such as Goals, Product Feedback, and Hybrid Portfolio Planning, you must now install Strategic Planning to access these features. For more information on the features that can be accessed only in Strategic Planning Workspace, see [Comparing Portfolio Planning with Strategic Planning](https://servicenow.com/docs/access?context=exploring-portfolio-planning&family=washingtondc&ft:locale=en-US).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Predictive Intelligence
-
-</td><td>
-
-If you’re upgrading to Washington DC, you won't be able to create new regression solutions. If you have existing solutions, they will still be supported and you will be able to train and modify them, but you won't be able to create new ones.
-
- The changes to the similarity and clustering solutions apply to all instances that are on Washington DC.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Proactive Service Experience Workflows
-
-</td><td>
-
-Customers who prefer not to receive trouble ticket notifications can disable the business rules related to the incident and case tables. To learn more about how to disable the business rules for trouble ticket notification, see [Deactivate trouble ticket notification](https://servicenow.com/docs/access?context=deactivate-trouble-ticket-notification&family=washingtondc&ft:locale=en-US).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Product Catalog Management and Pricing Management
-
-</td><td>
-
-If you used attribute characteristics in the Standard Price Adjustment matrix in the initial release of the Sales Customer Relationship Management applications, and you're upgrading to the May 2024 release of Sales Customer Relationship Management applications, you must run a scheduled job that corrects the format of the automatically generated **Code** values. Run the **Schedule job to modify code field on characteristic records that contain special characters** on demand job to replace any character that is not a letter \(a-z, A-Z\), a number \(0-9\), an underscore \(\_\), or a dollar sign \($\) with an underscore \(\_\). This job corrects the **Code** value so that it doesn’t start or end with an underscore, doesn’t begin with a digit, and contains no consecutive underscores.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Public Sector Digital Services
-
-</td><td>
-
-After the upgrade, certain public sector menus and menu items in the CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the UX List Categories for Customer and Service Organizations. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Robotic Process Automation \(RPA\) Hub
-
-</td><td>
-
-Ensure that you upgrade any of the following currently installed Microsoft Software Installers \(MSIs\) by downloading the RPA applications:
-
--   RPA Desktop Design Studio
--   Attended Robot
--   Unattended Robot
--   Unattended Robot Login Agent
-
-For more information, see [Download the RPA applications from RPA Hub](https://servicenow.com/docs/access?context=download-installer-rpa&family=washingtondc&ft:locale=en-US).
-
- The following upgrade steps are applicable only when you’re upgrading from San Diego or Tokyo to Washington DC.
-
- Based on the number of records in the application file table, you could experience a potential delay while upgrading the RPA Hub applications from Tokyo or before to Washington DC.
-
- Before upgrading RPA Hub to Washington DC, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://servicenow.com/docs/access?context=t_AddAPropertyUsingSysPropsList&family=washingtondc&ft:locale=en-US).
-
- After you upgrade to the Washington DC, the bot process definitions change to the new structure, which is the bot process configuration.
-
- Although the bot process configuration doesn't replace the bot process completely, most fields are moved from bot process to bot process configuration. If you upgrade to the Utah version without updating the system property value, the tables don’t extend the Application File table. To update the table changes manually, see the [Restructuring RPA Hub tables to sys\_metadata in Utah](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1223629) article in the Now Support Knowledge Base.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Security Posture Control
-
-</td><td>
-
-For a complete list of the applications that are required to implement Security Posture Control, see [Install the supported applications for Security Posture Control](https://servicenow.com/docs/access?context=spc-install&family=washingtondc&ft:locale=en-US).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Service Operations Workspace for IT Service Management
-
-</td><td>
-
-Ensure that the following applications have compatible upgraded versions:
-
--   Service Operations Workspace ITSM Applications application \(sn\_sow\_itsm\_cont\)
--   Service Operations Workspace ITOM Applications application \(sn\_sow\_itom\_cont\)
-
- |SOW-ITSM \(sn\_sow\_itsm\_cont\)|SOW-ITOM \(sn\_sow\_itom\_cont\)|
-|--------------------------------|--------------------------------|
-|1.1.x|21.0.y|
-|1.2.x|21.1.y|
-|1.3.x|21.2.y, 21.5.y, and 21.6.y|
-|2.0.x|22.0.y|
-|2.1.x|22.1.y and 22.y.y|
-|3.1.x|23.y.y|
-|4.x.x|24.y.y|
-
- In the table, x is the subversion of the Service Operations Workspace ITSM Applications application \(sn\_sow\_itsm\_cont\) and y is the subversion of the Service Operations Workspace ITOM Applications application \(sn\_sow\_itom\_cont\).
-
- After the 3.0 upgrade, the Recommendation Framework feature is no longer available. Instead, only the standard version of the Recommended Actions for ITSM feature is available.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Service Portal
-
-</td><td>
-
-After upgrading, you must specify the tables from which guest users can access data for any public widgets that accept the table input parameter. By default in the Washington DC release, public widgets that accept the table input parameter can't access and return data from any tables for guest users. If you added the **glide.service\_portal.widget.table\_allow\_list** or **glide.service\_portal.widget.allow\_list** system properties before upgrading, the values of these properties will be migrated to the Public Table Allow List for widgets after upgrading. For more information, see [Configure widget security](https://servicenow.com/docs/access?context=configure-widget-security&family=washingtondc&ft:locale=en-US).
-
- Additionally, field-level read ACLs are enforced for filter conditions in Simple List widget instances by default. A new system property, **glide.service\_portal.enable\_acls\_for\_encoded\_query\_in\_list**, enforces these ACLs regardless of whether the **Enforce field-level Read ACLs on Filter query terms** option is selected for Simple List widget instances. To use the **Enforce field-level Read ACLs on Filter query terms** option, change the value of **glide.service\_portal.enable\_acls\_for\_encoded\_query\_in\_list** to false. For more information, see [Simple List widget](https://servicenow.com/docs/access?context=simple-list-widget&family=washingtondc&ft:locale=en-US).
-
- If a user previously selected a user consent preference for user experience analytics for portals different from the rest of the platform, the preference selected for the platform is also used for portals in the Washington DC release. For example, if users opted out of tracking for portals but opted in to tracking for the rest of the platform in the Vancouver release, user experience analytics for portals are tracked for them in the Washington DC release. Users can update their selection from the user profile page in portals at any time.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Software Asset Management
-
-</td><td>
-
-After upgrading to Washington DC, you must redo all your customizations related to Adobe and Microsoft 365 integrations with your ServiceNow instance because the functionalities of these integrations are moved to the Software Asset Management – SaaS License Management store application.
-
--   If you’ve customized an impacted file, the upgrade process skips the file and indicates a conflict. You must manually resolve the conflict and ensure that the old existing file is deleted.
--   If you haven't customized an impacted file, the file gets deleted as part of the upgrade, and a file with a new sys\_id is created.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Strategic Planning
-
-</td><td>
-
-Starting with v4.0.2, you can access the Strategic Portfolio Management \(SPM\) Pro-licensed features only in Strategic Planning Workspace. If you have been using Portfolio Planning Workspace to access SPM Pro-licensed features, such as Goals, Product Feedback, and Hybrid Portfolio Planning, you must now install Strategic Planning to access these features. For more information on the features that can be accessed only in Strategic Planning Workspace, see [Exploring Portfolio Planning in Strategic Planning](https://servicenow.com/docs/access?context=alignment-planner-workspace&family=washingtondc&ft:locale=en-US).
-
- If you’re upgrading to Strategic Planning v4.1.2 and previously had customized the List view or the Hierarchy view of the Goals page using the Personalization side panel, the user interface enhancements done in v4.1.2 may not appear. In this case, you must delete your user preference records. For more information on how to delete user preferences made using the Personalization side panel, see [KB1642037](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1642037).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Supplier Lifecycle Operations
-
-</td><td>
-
-After upgrading from the Vancouver release to the Washington DC release, you will see only the Source-to-Pay Workspace on the **All** navigation tab. You don't have to do anything if you choose to continue to use the Source-to-Pay Workspace.
-
- However, you will see both the Source-to-Pay Workspace and Supplier Manager Workspace on the **Workspaces** tab. If you want to use the Supplier Manager Workspace instead of the default Source-to-Pay Workspace, ensure that you run the `fixscript_migrate_workspace_to_smw.xml` fix script after upgrading to the Washington DC release. You can download the `fixscript_migrate_workspace_to_smw.xml` file from the ServiceNow Store.
-
- If you want to revert to using the Source-to-Pay Workspace, run the `fixscript_migrate_workspace_to_s2p.xml` fix script. You can download the `fixscript_migrate_workspace_to_smw.xml` file from the ServiceNow Store. For more information about how to run a fix script, see [Run fix scripts](https://servicenow.com/docs/access?context=t_RunFixScripts&family=washingtondc&ft:locale=en-US).
-
- After you upgrade to Washington DC, you must review all the post-upgrade tasks and complete them as needed. For more information, see [Post-upgrade tasks for Supplier Lifecycle Management](https://servicenow.com/docs/access?context=post-upgrade-tasks-slo&family=washingtondc&ft:locale=en-US).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Third-party Risk Management
-
-</td><td>
-
-If you are a VRM user upgrading to TPRM, when upgrading to Vancouver or later from an earlier release, you must run each upgrade sequentially to ensure that fix scripts run correctly. This means upgrading from Utah to Vancouver, Vancouver to Washington DC, and so on. If the scripts do not run in the correct order, it can result in data inconsistencies, broken functionalities, and conflicts.
-
- For more information on upgrading from VRM to TPRM, see [Third-party Risk Management upgrade information](https://servicenow.com/docs/access?context=grc-tprm-upgrade-info&family=washingtondc&ft:locale=en-US).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-User Experience Analytics
-
-</td><td>
-
--   Users can opt out of basic tracking.
--   A funnel data visualization is available for Usage Insights data sources.
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Vulnerability Response integrations
-
-</td><td>
-
--   For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Washington DC release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
--   For information about the new features of Vulnerability Response, see [Vulnerability Response release notes](https://servicenow.com/docs/access?context=secops-vuln-resp-rn&family=washingtondc&ft:locale=en-US).
-
-</td><td>
-
-Washington DC
-
-</td></tr><tr><td>
-
-Workflow Studio
-
-</td><td>
-
-To receive Workflow Studio performance improvements, install one of these versions of the Workflow Studio application from the ServiceNow Store.
-
- |Is Now Assist for Creator already installed?|Version of Workflow Studio to use for upgrade|
-|--------------------------------------------|---------------------------------------------|
-|No|Upgrade Workflow Studio to version 25.1.3|
-|Yes|Upgrade Workflow Studio to version 25.0.0|
-
-</td><td>
-
-Washington DC
 
 </td></tr><tr><td>
 
@@ -3062,7 +2445,7 @@ Enterprise Asset Management
 
 Starting with Zurich release, a new menu, Asset put away, has been added to the ServiceNow Agent app navigation bar. When upgrading to the Zurich release, a fix script identifies whether the ServiceNow Agent app navigation bar was customized and takes the necessary action.
 
--   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(![Asset put away icon](../../image/asset-putaway-icon-ma.png)\) is included in the navigation bar
+-   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(\[Omitted image "asset-putaway-icon-ma.png"\] Alt text: Asset put away icon\) is included in the navigation bar
 -   If the navigation bar was customized before the upgrade, two navigation bars appear: Customized old IT Asset Management and IT Asset Management. The new icon appears in the IT Asset Management navigation bar.
 
 </td><td>
@@ -3140,7 +2523,7 @@ Hardware Asset Management
         -   If the impacted workflows were customized before the upgrade, the Workflow Studio flows are installed but aren’t executed for any of the impacted flows post-upgrade. You can view and access the impacted workflows in the instance after the upgrade. However, the deprecated workflows are considered custom code and aren’t supported for maintenance.
 -   After upgrading to the Zurich release, if an approval history record exists for a contract that is no longer required, reject the record instead of deleting it. If the approval history record is deleted, Workflow Studio doesn’t support updating the contract’s **Substate** field value to display the correct state.
 -   Starting with Zurich release, a new menu, Asset put away, has been added to the ServiceNow Agent app navigation bar. When upgrading to the Zurich release, a fix script identifies whether the ServiceNow Agent app navigation bar was customized and takes the necessary action.
-    -   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(![Asset put away icon](../../image/asset-putaway-icon-ma.png)\) is included in the navigation bar
+    -   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(\[Omitted image "asset-putaway-icon-ma.png"\] Alt text: Asset put away icon\) is included in the navigation bar
     -   If the navigation bar was customized before the upgrade, two navigation bars appear: Customized old IT Asset Management and IT Asset Management. The new icon appears in the IT Asset Management navigation bar.
 -   A new role, sn\_itam\_recomm.recommendations\_read, helps ensure that only valid users can execute APIs related to the Important Actions menu in the Asset Workspace. The following roles, which have access to the Asset Workspace, now include the sn\_itam\_recomm.recommendations\_read role:
     -   procurement\_user
@@ -3390,7 +2773,7 @@ Now Assist in Contract Management
 
 </td><td>
 
-If you’re upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
+If you're upgrading to Now Assist in Contract Management from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the Now Assist Admin console.
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Fix Scripts**.
 2.  In the **Name** field, search for `Upsert DI skill config`.
@@ -3582,6 +2965,30 @@ Security Posture Control
 </td><td>
 
 For a complete list of the applications that are required to implement Security Posture Control, see [Install Security Posture Control](https://servicenow.com/docs/access?context=spc-install&family=zurich&ft:locale=en-US).
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+Service Exchange
+
+</td><td>
+
+-   Service Exchange version 2.x.x: Which was first released with the Xanadu release, doesn’t support migration of Service Exchange \(Legacy\) versions.
+
+Service Exchange \(Legacy\) version: Before you upgrade to the Zurich release, follow instructions in the [Service Bridge for Providers \(Legacy\) - Migration Utility \[KB1499823\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1499823) article in the Now Support Knowledge Base to migrate your configuration data.
+
+-   Service Exchange version 1.x.x: When upgrading, follow the steps in the [Upgrade Guide - Service Bridge for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) article in the Now Support Knowledge Base to migrate your Service Exchange applications.
+-   Service Exchange version 2.x.x: Due to the introduction of mismatched version support, new entitlements can’t be activated until both the consumers and providers upgrade to Service Exchange version 2.x.x. Older active entitlements continue to work but new ones can’t be activated.
+-   When you upgrade to Service Exchange version 2.0.55 with Sales Customer Relationship Management plug-in version 1.0.4, before upgrading the platform to the Zurich release, new Deny ACLs aren't installed. To ensure the Deny ACLs get installed, after upgrading to Zurich, select Repair to reinstall the Service Exchange application.
+-   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility.
+-   When you install the Service Exchange application, the Service Exchange Global Script Include is automatically installed or updated on the following platform versions:
+    -   Washington DC patch 9
+    -   Xanadu patch 4
+    -   Yokohama
+    -   Zurich
 
 </td><td>
 

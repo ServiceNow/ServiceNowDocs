@@ -1,25 +1,28 @@
 ---
 title: Enterprise model and asset classes
-description: The Enterprise Asset Management application supports enterprise model and asset classes that extend base classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, identifier entries, and dependent relationships.
+description: The Enterprise Asset Management application supports enterprise model and asset classes that extend base classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, and dependent relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-25"
-reading_time_minutes: 4
-breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
+reading_time_minutes: 5
+breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Enterprise model and asset classes
 
-The Enterprise Asset Management application supports enterprise model and asset classes that extend base classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, identifier entries, and dependent relationships.
+The Enterprise Asset Management application supports enterprise model and asset classes that extend base classes within the Configuration Management Database \(CMDB\) class hierarchy. These extensions include class descriptions, identification rules, and dependent relationships.
 
-To access enterprise model and asset classes in the Enterprise Asset Management application, you must install the Expanded Model and Asset Classes application from the ServiceNow® Store. For more information on this application, see [Expanded Model and Asset Classes](enterprise-model-asset-classes-app.md).
+To access enterprise model and asset classes in the Enterprise Asset Management application, you must install the Expanded Model and Asset Classes application from the ServiceNow® Store. For more information on this application, see [Expanded Model and Asset Classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-model-asset-classes-app.md).
+
+Enterprise model and asset classes form the structural backbone of the Enterprise Asset Management data model. These classes are organized into class hierarchies, in which child classes extend their parent classes and inherit all parent attributes. The Enterprise Asset Management application establishes relationships between enterprise model classes and enterprise asset classes through model categories. For more information on model categories, see [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/model-hierarchy.md).
 
 ## Supported enterprise model classes
 
-The Enterprise Asset Management application supports the Enterprise good model \[sn\_ent\_model\] class, Firmware model \[sn\_ent\_firmware\_model\] class, and Discovered firmware model \[sn\_ent\_discov\_firmware\_model\] class, which extend the base Product model \[cmdb\_model\] class. The Enterprise good model \[sn\_ent\_model\] class includes classifications for various enterprise model types, which are categorized into the following industry-based child classes:![Enterprise good model classes hierarchy.](../image/enterprise-model-classes-hierarchy.png)
+The Enterprise Asset Management application supports the Enterprise good model \[sn\_ent\_model\] class, Firmware model \[sn\_ent\_firmware\_model\] class, and Discovered firmware model \[sn\_ent\_discov\_firmware\_model\] class, which extend the base Product model \[cmdb\_model\] class. The Enterprise good model \[sn\_ent\_model\] class is the primary model class for enterprise assets in the Enterprise Asset Management application. It is also the parent class of the following industry-specific enterprise model child classes:\[Omitted image "enterprise-model-classes-hierarchy.png"\] Alt text: Enterprise good model classes hierarchy.
 
 <table id="table_o2v_sy5_25b"><thead><tr><th>
 
@@ -143,13 +146,13 @@ Payment card model\[sn\_ent\_payment\_card\_model\]
 Classifies payment card-based enterprise models, such as Debit Card and Credit Card.
 
 </td></tr></tbody>
-</table>**Important:** In the Zurich release, the Classification \(classification\) column in the Enterprise good model \[sn\_ent\_model\] table has been deprecated and renamed as Classification \(deprecated\). The data from this column is available in the new Classification \(classification\_code\) column in the Product model \[cmdb\_model\] table.
+</table>**Important:** Starting with the Zurich release, the Classification \(classification\) column of the Enterprise good model \[sn\_ent\_model\] table has been deprecated and renamed as Classification \(deprecated\). Data from the deprecated column is now available in the Classification \(classification\_code\) column of the Product model \[cmdb\_model\] table.
 
-Reports in the Enterprise Asset Workspace that previously referred to the Classification column in the Enterprise good model table now reference the new Classification \(classification\_code\) column in the Product model table.
+**Note:** The Enterprise Asset Management application does not classify consumable models through the Consumable model \[cmdb\_consumable\_product\_model\] class that is available in the base CMDB class hierarchy. Instead, you can manually designate any enterprise model in any model category as consumable by setting the **Model type** field to **Consumable** on the corresponding enterprise model record.
 
 ## Supported enterprise asset classes
 
-The Enterprise Asset Management application supports the Enterprise asset \[sn\_ent\_asset\] class, which extends the Base asset \[alm\_base\] class. The Enterprise asset \[sn\_ent\_asset\] class includes classifications for various enterprise asset types, which are categorized into the following industry-based child classes:![Enterprise asset classes hierarchy.](../image/enterprise-asset-classes-hierarchy.png)
+The Enterprise Asset Management application supports the Enterprise asset \[sn\_ent\_asset\] class, which extends the Base asset \[alm\_base\] class. The Enterprise asset \[sn\_ent\_asset\] class is the parent class of the following industry-specific enterprise asset child classes:\[Omitted image "enterprise-asset-classes-hierarchy.png"\] Alt text: Enterprise asset classes hierarchy.
 
 <table id="table_kw5_dfv_25b"><thead><tr><th>
 
@@ -240,4 +243,7 @@ System and smart card asset\[sn\_ent\_sys\_smart\_card\_asset\]
 Classifies system cards and smart cards, such as magnetic stripe cards.
 
 </td></tr></tbody>
-</table>
+</table>**Note:** The Linear asset \[sn\_eam\_linear\_asset\] class is the parent class of the Linear segment \[sn\_eam\_linear\_segment\] class, which classifies specific sections of a linear asset. For more information on linear assets and linear asset segments, see [Linear assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/using-linear-assets.md).
+
+**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
+

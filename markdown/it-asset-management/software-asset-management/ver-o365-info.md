@@ -2,6 +2,7 @@
 title: Determine and verify Microsoft 365 subscription information in your ServiceNow instance
 description: Determine the exact software subscription information to be pulled from the Microsoft 365 admin center and verify if complete subscription information is pulled accurately to ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/ver-o365-info.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -33,13 +34,13 @@ Role required: sam\_admin
 
 3.  If your Microsoft 365 subscription data isn’t getting pulled into Software Asset Management, verify your integration setup:
 
-    1.  On the Integration Profile form, open the REST message record by selecting the Preview icon ![](../image/preview-icon.png) next to the **REST message** field.
+    1.  On the Integration Profile form, open the REST message record by selecting the Preview icon \[Omitted image "preview-icon.png"\] next to the **REST message** field.
 
     2.  Select **Open Record** in the record preview.
 
     3.  On the Rest Message form, select the **Get OAuth Token** related link.
 
-        **Note:** For the role required to perform this step, refer to the [Minimal user permissions](../concept/integrate-with-microsoft.md) table.
+        **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrate-with-microsoft.md) table.
 
     4.  On the OAuth flow verification dialog box, view the status of the OAuth flow to determine whether your integration is set up correctly.
 
@@ -59,6 +60,6 @@ Role required: sam\_admin
         -   If the **powerBIAPIStatus** property is set to **failed**, the Power BI API connection wasn’t successful. Verify that you’ve followed all the integration setup steps correctly. You can also check your logs for more information about any errors in your integration setup.
 5.  If the **User** field in the Software Subscription \[samp\_sw\_subscription\] table is empty, you can map the field with an associated user.
 
-    For more information, see [Associate a user with subscription records](map-user-data.md).
+    For more information, see [Associate a user with subscription records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/map-user-data.md).
 
 

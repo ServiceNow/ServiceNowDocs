@@ -2,6 +2,7 @@
 title: Define criteria of a rate model
 description: Set the criteria of a rate model by adding attributes from a set of predefined entities to derive resource hourly rates based on the criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/rate-model/define-rate-model-criteria.html
 release: australia
 product: Rate Model
 classification: rate-model
@@ -92,7 +93,7 @@ User-friendly name for identifying the attribute. The default name populated is 
 
 ## What to do next
 
-[Create rate lines to define the hourly rates for resources.](create-rate-line.md)
+[Create rate lines to define the hourly rates for resources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/create-rate-line.md)
 
-**Parent Topic:**[Rate Models](../concept/rate-model.md)
+**Parent Topic:**[Rate Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md)
 

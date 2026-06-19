@@ -2,13 +2,14 @@
 title: Add multiple Reservable Sync Configurations
 description: Add workplace items that must be synchronized with the calendar provider whenever an employee makes a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/add-reservable-sync-config.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add multiple Reservable Sync Configurations
@@ -17,7 +18,7 @@ Add workplace items that must be synchronized with the calendar provider wheneve
 
 ## Before you begin
 
-Refer to [Explore Workplace Calendar Synchronization](../concept/workplace-calendar-synchronization-overview.md).
+Refer to [Explore Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-overview.md).
 
 Role required: sn\_wsd\_rsvsync.admin
 

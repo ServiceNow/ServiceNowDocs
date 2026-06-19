@@ -2,6 +2,7 @@
 title: Aha! Spoke
 description: Manage Aha! accounts using your ServiceNow instance. Analyze data usage for Aha! and reclaim idle accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/aha-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage Aha! accounts using your ServiceNow instance. Analyze data usage for Aha!
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Aha! spoke v1.8.0 is the latest version.
+Aha! spoke v1.9.0 is the latest version.
 
 ## Spoke requirements
 
@@ -189,7 +190,7 @@ Use triggers in the Aha! spoke to subscribe to the required events. The endpoint
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
-For information about setting up the spoke, see [Create an Aha! OAuth2 application](../task/create-aha-oauth2-authentication.md) and [Set up ServiceNow instance for Aha!](../task/setup-servicenow-instance-to-authorize-aha.md).
+For information about setting up the spoke, see [Create an Aha! OAuth2 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-aha-oauth2-authentication.md) and [Set up ServiceNow instance for Aha!](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-servicenow-instance-to-authorize-aha.md).
 

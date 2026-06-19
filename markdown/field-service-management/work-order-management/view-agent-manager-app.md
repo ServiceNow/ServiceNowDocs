@@ -2,6 +2,7 @@
 title: View agent information
 description: View information related to Field Service Management agents in Field Service Manager Mobile, giving managers the ability to see agent information no matter where they are.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-agent-manager-app.html
 release: australia
 product: Work Order Management
 classification: work-order-management

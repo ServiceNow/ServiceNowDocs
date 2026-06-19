@@ -2,6 +2,7 @@
 title: Confidence score calculation for hardware vulnerability assessment
 description: Confidence Score is displayed for partially matched assessments, vulnerable items \(VITs\), and ignored assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/otvr-hva-confidence-score-sample.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -55,7 +56,7 @@ The confidence score range is 0–1. Based on the CPE information, the confidenc
 .70
 ```
 
-**Note:** To refer to the values used to calculate the confidence score, see [Confidence score reference tables for hardware vulnerability assessment](otvr-hva-confidence-score-ref.md).
+**Note:** To refer to the values used to calculate the confidence score, see [Confidence score reference tables for hardware vulnerability assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/otvr-hva-confidence-score-ref.md).
 
-**Parent Topic:**[Operational Technology Hardware Vulnerability Assessment](../concept/understanding-hwd-vuln-assessment.md)
+**Parent Topic:**[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)
 

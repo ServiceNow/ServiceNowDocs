@@ -2,13 +2,14 @@
 title: Normalize hardware and consumable models
 description: After you have created your hardware and consumable models, normalize the information of the model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Work with hardware normalization, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Normalize hardware and consumable models
@@ -31,15 +32,15 @@ Role required: admin, asset, or model\_manager
 
 1.  Create a hardware or consumable model.
 
-<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d211897e74">
+<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d63403e74">
 
 Interface
 
-</th><th align="left" id="d211897e77">
+</th><th align="left" id="d63403e77">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d211897e83">
+</th></tr></thead><tbody><tr><td id="d63403e83">
 
 **Core UI**
 
@@ -49,11 +50,11 @@ Action
     -   **Product Catalog** &gt; **Product Models** &gt; **Hardware Models**.
     -   **Product Catalog** &gt; **Product Models** &gt; **Consumable Models**.
 2.  Select **New**.
-3.  On the Hardware Model or Consumable Model form [fill in the details](create-hardware-consumable-model.md).
+3.  On the Hardware Model or Consumable Model form [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d211897e150">
+</td></tr><tr><td id="d63403e150">
 
 **Hardware Asset Workspace**
 
@@ -64,7 +65,7 @@ Action
     -   For hardware models, select the **Hardware models** tab.
     -   For consumable models, select the **Consumable models** tab.
 3.  Select **New**.
-4.  On the Hardware model or Consumable model form, [fill in the details](create-hardware-consumable-model.md).
+4.  On the Hardware model or Consumable model form, [fill in the details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md).
 5.  Select **Save**.
 
 
@@ -75,15 +76,15 @@ Action
 
 2.  Normalize your model manually if the normalization status of your model is Partially Normalized or Publisher Normalized.
 
-<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d211897e230">
+<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d63403e230">
 
 Interface
 
-</th><th align="left" id="d211897e233">
+</th><th align="left" id="d63403e233">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d211897e239">
+</th></tr></thead><tbody><tr><td id="d63403e239">
 
 **Core UI**
 
@@ -91,7 +92,7 @@ Action
 
 Select the **Normalized** section and **Consumable Model Fields** section to normalize the model manually.
 
-</td></tr><tr><td id="d211897e254">
+</td></tr><tr><td id="d63403e254">
 
 **Hardware Asset Workspace**
 
@@ -125,5 +126,5 @@ Select **Save**.
 
 The **Normalization Status** field displays **Manually Normalized**.
 
-**Parent Topic:**[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

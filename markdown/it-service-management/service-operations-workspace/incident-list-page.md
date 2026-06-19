@@ -2,6 +2,7 @@
 title: Configure the list page in Service Operations Workspace for ITSM
 description: Configure the fuzzyCount property to modify how the number of records is displayed on the Service Operations Workspace \(SOW\) list page. Configuring the fuzzyCount property helps improve the system performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/incident-list-page.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -53,7 +54,7 @@ Description
 
 </td><td>
 
-Displays the count of the total number of records in a list. The fuzzyCount UX property is not applied to the SOW list page.![Count of incidents](../image/fuzzycount.png)
+Displays the count of the total number of records in a list. The fuzzyCount UX property is not applied to the SOW list page.\[Omitted image "fuzzycount.png"\] Alt text: Count of incidents
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Displays the count of the total number of records in a list. The fuzzyCount UX p
 
 Displays the count of the number of records in a list as &lt;integer+&gt;.For example, if the incident has 124 records, if you configure the value of the property as 10, the system displays the count of incidents as 10+.
 
-![Count after updating the value of fuzzyCount property](../image/fuzzycount-2.png)
+\[Omitted image "fuzzycount-2.png"\] Alt text: Count after updating the value of fuzzyCount property
 
 </td></tr><tr><td>
 
@@ -77,5 +78,5 @@ Displays the count of the number of records in a list as &lt;integer+&gt;. You c
 </table>5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](../concept/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

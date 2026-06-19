@@ -2,9 +2,10 @@
 title: Workplace Space Mapping
 description: ServiceNow Workplace Space Mapping provides indoor maps for interactive locations and wayfinding with Indoor Mapping and Mappedin. Indoor Mapping is part of the Workplace Service Delivery suite while Mappedin a third-party map provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-mappedin-admin.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,19 +18,19 @@ ServiceNow® Workplace Space Mapping provides indoor maps for interactive locati
 
 <table id="table_s3z_wrb_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Space Mapping and space optimization in your workplace with map providers.](wsm-space-mapping-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about Workplace Space Mapping and space optimization in your workplace with map providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-space-mapping-explore.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure and install Workplace Space Mapping with Indoor Mapping or Mappedin as your map provider.](wsm-config_space_mapping.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Configure and install Workplace Space Mapping with Indoor Mapping or Mappedin as your map provider.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-config_space_mapping.md)
 
 </td></tr><tr><td>
 
-[Using ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Use Workplace Space Mapping for interactive locations and reservation management in your workplace.](wsm-using-workplace-space-mapping.md)
+[Using \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Workplace Space Mapping for interactive locations and reservation management in your workplace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-using-workplace-space-mapping.md)
 
 </td><td>
 
-[References![](../../../reuse/icons/brand-icons/bus-learn.svg) Work with Workplace Space Mapping tables, properties, and components.](wsm-reference.md)
+[References\[Omitted image "bus-learn.svg"\] Alt text: Work with Workplace Space Mapping tables, properties, and components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-reference.md)
 
 </td></tr></tbody>
 </table>

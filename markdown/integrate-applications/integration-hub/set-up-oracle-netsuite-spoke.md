@@ -2,6 +2,7 @@
 title: Set up Oracle NetSuite Spoke
 description: Set up your ServiceNow instance and Oracle NetSuite application so that they are integrated.Configure an OAuth 2.0 profile on Oracle NetSuite that enables integration between it and the ServiceNow instance through the OAuth 2.0 framework.Upload and commit the Update Set to your ServiceNow instance to deploy a script include called OAuthCustomOracleNetsuitGlobal to the ServiceNow instance.Configure a connection record between your ServiceNow instance and Oracle NetSuite. The record centrally stores credentials, OAuth tokens, client ID, and client secret, and is a reusable connection across flows.Generate an authentication token that enables the Oracle NetSuite requests to your ServiceNow instance to get authenticated. The requests contain events occurring in the Oracle NetSuite real-time. For example, Oracle NetSuite sends a notification when a customer record is created.Deploy a SuiteScript that enables the Oracle NetSuite to send real-time event details to the scripted API in your ServiceNow instance using the webhook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-oracle-netsuite-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -99,7 +100,7 @@ Role required: admin
 
 2.  Close the notification, if it appears.
 
-    ![New version available notification.](../image/oracle-netsuite-spk-cls-note.png)
+    \[Omitted image "oracle-netsuite-spk-cls-note.png"\] Alt text: New version available notification.
 
 3.  Select **Integrations**.
 
@@ -111,11 +112,11 @@ Role required: admin
 
 6.  On the Oracle NetSuite card, select **View Details**.
 
-    ![Oracle NetSuite View Details button.](../image/oracle-netsuite-view-details.png)
+    \[Omitted image "oracle-netsuite-view-details.png"\] Alt text: Oracle NetSuite View Details button.
 
 7.  Select **Configure**.
 
-    ![Configure button.](../image/oracle-netsuite-spk-configure-button.png)
+    \[Omitted image "oracle-netsuite-spk-configure-button.png"\] Alt text: Configure button.
 
 8.  Fill the form.
 
@@ -137,7 +138,7 @@ Role required: admin
 
     **Note:** You must log in to Oracle NetSuite before the OAuth access token is granted.
 
-    ![Oracle NetSuite OAuth configuration done.](../image/oracle-netsuite-spk-oauth-token-avl.png)
+    \[Omitted image "oracle-netsuite-spk-oauth-token-avl.png"\] Alt text: Oracle NetSuite OAuth configuration done.
 
 
 ## Generate webhook authentication token
@@ -175,7 +176,7 @@ To access the webhook, navigate to **All**&gt;**System Web Services****&gt; Scri
 
     The authentication token is generated.
 
-    ![Authentication token generated.](../image/oracle-netsuite-spk-auth-token-generated.png)
+    \[Omitted image "oracle-netsuite-spk-auth-token-generated.png"\] Alt text: Authentication token generated.
 
 5.  Copy and store the authentication token at a secure place.
 
@@ -183,7 +184,7 @@ To access the webhook, navigate to **All**&gt;**System Web Services****&gt; Scri
 
     The webhook is recorded in the webhook registry.
 
-    ![Webhook registered in the webhook registry.](../image/oracle-netsuite-spk-webhook-regd.png)
+    \[Omitted image "oracle-netsuite-spk-webhook-regd.png"\] Alt text: Webhook registered in the webhook registry.
 
 
 ## Deploy SuiteScript in Oracle NetSuite
@@ -210,11 +211,11 @@ ServiceNow provides a preconfigured sample SuiteScript that you can update and e
 
 4.  Select **New Script**.
 
-    ![New Script button.](../image/oracle-netsuite-spk-deploy-netsuit1.png)
+    \[Omitted image "oracle-netsuite-spk-deploy-netsuit1.png"\] Alt text: New Script button.
 
 5.  Move the pointer over the **Script File** field, and click on the plus \(“+”\) icon
 
-    ![Script File field.](../image/oracle-netsuite-spk-deploy-script2.png)
+    \[Omitted image "oracle-netsuite-spk-deploy-script2.png"\] Alt text: Script File field.
 
 6.  Fill the form.
 
@@ -259,13 +260,13 @@ Select File
 Option to select the SuiteScript file.
 
 </td></tr></tbody>
-</table>    ![Enter file details.](../image/oracle-netsuite-spk-upload-script3.png)
+</table>    \[Omitted image "oracle-netsuite-spk-upload-script3.png"\] Alt text: Enter file details.
 
 7.  Select **Save**.
 
 8.  Select **Create Script Record**.
 
-    ![Create Script Record button.](../image/oracle-netsuite-spk-deploy-script4.png)
+    \[Omitted image "oracle-netsuite-spk-deploy-script4.png"\] Alt text: Create Script Record button.
 
 9.  In the Name field, enter a unique name.
 
@@ -277,13 +278,13 @@ Option to select the SuiteScript file.
 
 11. Select **Save**.
 
-    ![Create script records.](../image/oracle-netsuite-spk-deploy-script5.png)
+    \[Omitted image "oracle-netsuite-spk-deploy-script5.png"\] Alt text: Create script records.
 
     The script record screen appears.
 
 12. Select **Deploy Script**.
 
-    ![Deploy Script button.](../image/oracle-netsuite-spk-deploy-script6.png)
+    \[Omitted image "oracle-netsuite-spk-deploy-script6.png"\] Alt text: Deploy Script button.
 
 13. In the Script Deployment page, enter the name of the object in the Applies to field.
 

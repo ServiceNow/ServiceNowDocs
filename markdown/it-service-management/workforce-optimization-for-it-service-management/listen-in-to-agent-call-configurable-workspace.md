@@ -2,6 +2,7 @@
 title: Listen in to an agent call
 description: Monitor agent calls when they are resolving issues for external callers by using Workforce Optimization for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/listen-in-to-agent-call-configurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -34,5 +35,5 @@ When the Amazon Connect application answers a call from an external source, an i
 3.  Click **Monitor Call** and listen into the call in Amazon Connect.
 
 
-**Parent Topic:**[Using Voice with Workforce Optimization for ITSM](../../configurable-workforce-optimization-itsm/concept/voice-configurable-wfo-itsm.md)
+**Parent Topic:**[Using Voice with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/voice-configurable-wfo-itsm.md)
 

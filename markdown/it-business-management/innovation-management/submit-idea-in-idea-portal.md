@@ -2,6 +2,7 @@
 title: Submit an idea
 description: Submit an idea for a product, feature, enhancement, or change in the Idea Portal for others to vote on. Select categories relevant to the idea and, if useful, attach files to add details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/submit-idea-in-idea-portal.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -21,7 +22,7 @@ Role required: None
 
 ## About this task
 
-The Idea Portal is where you share your product, feature, change, or enhancement ideas. Submit your ideas, view, and subscribe to the ideas of other users, and track the progress of a subscribed idea. For more information, see [View, filter, and sort ideas](view-filter-sort-ideas.md) and [Collaborate on ideas](collaborate-on-an-idea.md). New ideas are created in the **Submitted** state. You can edit your submitted idea in the Idea Portal after it has been submitted until the state is changed to **Completed**.
+The Idea Portal is where you share your product, feature, change, or enhancement ideas. Submit your ideas, view, and subscribe to the ideas of other users, and track the progress of a subscribed idea. For more information, see [View, filter, and sort ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/view-filter-sort-ideas.md) and [Collaborate on ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/collaborate-on-an-idea.md). New ideas are created in the **Submitted** state. You can edit your submitted idea in the Idea Portal after it has been submitted until the state is changed to **Completed**.
 
 ## Procedure
 
@@ -29,7 +30,7 @@ The Idea Portal is where you share your product, feature, change, or enhancement
 
 2.  On the form, fill in the fields.
 
-    For more information on fields and description, see [Create an Idea form](../reference/create-an-idea-form.md).
+    For more information on fields and description, see [Create an Idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-an-idea-form.md).
 
 3.  If you have attachments related to the idea, select **Add attachments** and attach them.
 
@@ -38,11 +39,11 @@ The Idea Portal is where you share your product, feature, change, or enhancement
 
 ## What to do next
 
--   [View, filter, and sort ideas](view-filter-sort-ideas.md)
--   [Collaborate on ideas](collaborate-on-an-idea.md)
--   [Manage ideas](manage-ideas.md)
--   [Evaluate an idea](evaluate-an-idea.md)
--   [Create a task for an idea](create-a-task-for-an-idea.md)
+-   [View, filter, and sort ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/view-filter-sort-ideas.md)
+-   [Collaborate on ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/collaborate-on-an-idea.md)
+-   [Manage ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/manage-ideas.md)
+-   [Evaluate an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/evaluate-an-idea.md)
+-   [Create a task for an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-a-task-for-an-idea.md)
 
-**Parent Topic:**[Managing ideas using Innovation Management](../concept/using-innovation-management.md)
+**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/using-innovation-management.md)
 

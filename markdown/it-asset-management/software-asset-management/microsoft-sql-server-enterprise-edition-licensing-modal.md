@@ -2,6 +2,7 @@
 title: Licensing support for Microsoft SQL Server enterprise on Server+ CAL
 description: Leverage the enhanced licensing rule to optimize licensing for legacy  Microsoft SQL Server Enterprise edition licenses under the Server + CAL licensing model with Software Assurance \(SA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/microsoft-sql-server-enterprise-edition-licensing-modal.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -48,5 +49,5 @@ When calculating the required licenses, the maximum number of potential VMs per 
 
 For configuring the Microsoft SQL Server Enterprise on Software Asset Management Professional, see Microsoft SQL server enterprise, see [https://support.servicenow.com/kb?sys\_kb\_id=6ec3c13d93da3610080af35d6cba106e&amp;id=kb\_article\_view](https://support.servicenow.com/kb?sys_kb_id=6ec3c13d93da3610080af35d6cba106e&id=kb_article_view).
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

@@ -2,11 +2,12 @@
 title: Theming for AI Search in Service Portal
 description: You can customize the look and feel of the AI Search experience in Service Portal by updating the relevant CSS variables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/ais-sp-css-vars.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-17"
 reading_time_minutes: 3
 breadcrumb: [Override AI Search theming, AI Search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -15,12 +16,12 @@ breadcrumb: [Override AI Search theming, AI Search in Service Portal, Configurin
 
 You can customize the look and feel of the AI Search experience in Service Portal by updating the relevant CSS variables.
 
-The following CSS variables control the look and feel of the AI Search features in Service Portal. For more information about AI Search features, see [Using AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md).
+The following CSS variables control the look and feel of the AI Search features in Service Portal. For more information about AI Search features, see Using AI Search.
 
 You can edit these variables in the **CSS variables** field of a Theme \[sp\_theme\] record. You can also configure these variables with a CSS Include associated with a portal's theme. For more information, see the following topics:
 
--   [Create a portal theme](../concept/c_CustomCSS.md)
--   [Create a CSS include to override theming for AI Search in Service Portal](../task/css-override-ais-theming-sp.md)
+-   [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CustomCSS.md)
+-   [Create a CSS include to override theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/css-override-ais-theming-sp.md)
 
 <table id="table_wcz_tww_knb"><thead><tr><th>
 
@@ -568,7 +569,7 @@ The same variable as *--classicsponlydonotuse--rem-multipy*. **Note:** It's not 
 
 </td><td>
 
-None
+`transparent`
 
 </td><td>
 
@@ -586,8 +587,8 @@ Text background color for title highlights in search results.**Note:** For this 
 }
 ```
 
-To learn about configuring settings in EVAM view templates, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md).
+To learn about configuring settings in EVAM view templates, see .
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a CSS include to override theming for AI Search in Service Portal](../task/css-override-ais-theming-sp.md)
+</table>**Parent Topic:**[Create a CSS include to override theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/css-override-ais-theming-sp.md)
 

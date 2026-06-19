@@ -2,6 +2,7 @@
 title: Documentation Section record form
 description: Use the Documentation Section record form to describe a plan in the structured sections in the BCM UIB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/doc-section-record-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -24,5 +25,5 @@ For description of the field values, see the table.
 |Description|Brief description about the documentation section.|
 |Default Text|Default text relevant for the documentation section. The text can be edited later when the plan is formulated and the documentation sections are added, in accordance to the plan.|
 
-**Parent Topic:**[Configure documentation section](../task/configure-doc-section-for-bcp.md)
+**Parent Topic:**[Configure documentation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-doc-section-for-bcp.md)
 

@@ -2,6 +2,7 @@
 title: Configure a Field Query Role
 description: Learn how to enable and configure a Field Query Role attribute.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/configure-a-field-query-role.html
 release: australia
 product: Access Control
 classification: access-control

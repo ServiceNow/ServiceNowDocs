@@ -2,6 +2,7 @@
 title: Add or remove members in Healthcare Operations Core
 description: Add or remove members from your healthcare organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-edit-members-admin.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -41,7 +42,7 @@ Role required: admin
 
     If a newly added user isn’t populated in the Available list, search for them manually using the lookup icon.
 
-    On occasion, newly added members won’t appear within the Selected panel due to property configurations. If this occurs, see [Configure global system properties to edit members in Healthcare Operations Core](hcls-cto-configure-properties-edit-members.md).
+    On occasion, newly added members won’t appear within the Selected panel due to property configurations. If this occurs, see [Configure global system properties to edit members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configure-properties-edit-members.md).
 
 7.  Select **Save**.
 

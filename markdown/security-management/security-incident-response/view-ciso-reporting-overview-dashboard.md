@@ -2,6 +2,7 @@
 title: View CISO Reporting Overview dashboard
 description: This dashboard provides the Chief Information Security Officers \(CISOs\) with a high-level reporting overview of the security incidents and weekly incidents trends on the instance in the form of graphical charts. These charts help you effectively view and analyze how the Security operations center \(SOC\) performs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-ciso-reporting-overview-dashboard.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -42,7 +43,7 @@ The CISO Reporting Overview dashboard provides key insights about the security i
 
 3.  Select **CISO Reporting Overview** from the drop-down list.
 
-    ![CISO Reporting Overview dashboard](../image/ciso-report-dashboard-sir.png)
+    \[Omitted image "ciso-report-dashboard-sir.png"\] Alt text: CISO Reporting Overview dashboard
 
 4.  View the CISO Reporting dashboard for further action.
 

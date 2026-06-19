@@ -2,6 +2,7 @@
 title: Navigation between records
 description: Navigate between a customer update record and the customized object or the application file for the object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/navigation-between-records.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -32,5 +33,5 @@ Role required: admin
 5.  To navigate to the current customer update record from a customized object or an app file, select and hold \(or right-click\) the form header and select **Show latest Update**.
 
 
-**Parent Topic:**[Working with update sets](../concept/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
 

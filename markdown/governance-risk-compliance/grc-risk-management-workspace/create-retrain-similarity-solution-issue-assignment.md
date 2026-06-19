@@ -2,6 +2,7 @@
 title: Train and use the similarity solution definition for issue assignment prediction
 description: Train and use the machine learning solution by activating the Governance, Risk, and Compliance Predictive Intelligence plugin. The solution enables the system to automatically suggest correct assignees to route issues. These suggestions reduce the time spent on deciding who should own the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-retrain-similarity-solution-issue-assignment.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -24,7 +25,7 @@ Make sure that the following plugins are activated.
 -   GRC Profiles plugin must be activated
 -   The Predictive Intelligence plugin
 
-Modify the following [Governance, Risk, and Compliance properties](../../grc-common/reference/grc-properties.md) with the sn\_grc.admin role.
+Modify the following [Governance, Risk, and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-properties.md) with the sn\_grc.admin role.
 
 -   **Issue assignee suggestion based on** property \(**Similarity Analysis**\).
 -   **Machine Learning Solution for prediction of issue assignee** property \(**ml\_x\_snc\_sn\_grc\_pred\_intel\_global\_similarity\_solution\_definition\_for\_assigned\_to\_for\_issue**\).
@@ -152,5 +153,5 @@ Frequency of how often you want to refresh the data that you use to retrieve you
     |**Update and Retrain**|Modify your solution definition and train it.|
 
 
-**Parent Topic:**[Issue assignment using the Governance, Risk, and Compliance Predictive Intelligence plugin](../concept/issue-assignment-using-predictive-intelli.md)
+**Parent Topic:**[Issue assignment using the Governance, Risk, and Compliance Predictive Intelligence plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/issue-assignment-using-predictive-intelli.md)
 

@@ -2,6 +2,7 @@
 title: Data migrated from demands to Enterprise Agile Planning \(EAP\) entities
 description: Data fields are migrated from a demand to an EAP entity when the entity is created from the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/data-copied-from-demands-to-eap-entities.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -94,5 +95,5 @@ Goal/target relationships
 Goal/target relationships of the demand.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data migrated from demands to artifacts](data-copied-from-demands-to-artifacts.md)
+</table>**Parent Topic:**[Data migrated from demands to artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/data-copied-from-demands-to-artifacts.md)
 

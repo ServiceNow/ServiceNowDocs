@@ -2,6 +2,7 @@
 title: Deploy the Microsoft Viva integrations package in Microsoft SharePoint
 description: Deploy the Microsoft Viva integrations package in the Microsoft SharePoint admin center to enable the display of card details in the Microsoft Viva dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/deploy-viva-sharepoint.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,18 +24,18 @@ Role required: SharePoint administrator
 
 1.  Log in to Microsoft SharePoint admin center.
 
-2.  Navigate to **More features**![Microsoft Sharepoint admin center More Features item](../images/more-features.png).
+2.  Navigate to **More features**\[Omitted image "more-features.png"\] Alt text: Microsoft Sharepoint admin center More Features item.
 
-3.  Select **Open** under **Apps**![Microsoft Sharepoint admin center Open Apps action](../images/open-apps.png).
+3.  Select **Open** under **Apps**\[Omitted image "open-apps.png"\] Alt text: Microsoft Sharepoint admin center Open Apps action.
 
-4.  Select **Upload**![Microsoft Sharepoint admin center Upload package action](../images/upload-package.png).
+4.  Select **Upload**\[Omitted image "upload-package.png"\] Alt text: Microsoft Sharepoint admin center Upload package action.
 
 5.  Select the Microsoft Viva solution package.
 
-6.  Select **Enable this app and add it to all sites**![Microsoft Sharepoint admin center Enable app on all sites action](../images/enable-all-sites.png).
+6.  Select **Enable this app and add it to all sites**\[Omitted image "enable-all-sites.png"\] Alt text: Microsoft Sharepoint admin center Enable app on all sites action.
 
 7.  Select **Enable app**.
 
 
-**Parent Topic:**[Managing Employee Center for Microsoft Viva Connections](../concept/manage-viva.md)
+**Parent Topic:**[Managing Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-viva.md)
 

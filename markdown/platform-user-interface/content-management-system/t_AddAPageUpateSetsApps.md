@@ -2,6 +2,7 @@
 title: Add a page to an application
 description: Homepages and content pages are not added automatically to update sets and applications. They must be manually added.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_AddAPageUpateSetsApps.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -30,5 +31,5 @@ Role required: content\_admin or admin
     The page is added to the current application and to the current update set.
 
 
-**Parent Topic:**[Content pages in CMS](../concept/c_ContentPages.md)
+**Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentPages.md)
 

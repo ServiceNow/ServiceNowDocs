@@ -2,6 +2,7 @@
 title: Use manage contract repository agentic workflow in the Software Asset Workspace
 description: Use the manage contract repository agentic workflow to improve productivity by extracting metadata and obligations automatically from signed contracts. Set the contract reminder dates for contract renewal or termination.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/manage-contract-repository-workflow.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -32,7 +33,7 @@ The following workflow explains the metadata extraction and contract reminder se
 
 1.  As a Contract Admin with the AI role \(sn\_cm\_gen\_ai.ai\_contract\_config\), activate the contract metadata extraction skill and the contract obligation extraction skill in the Now Assist Admin console.
 
-    For more information, see [Configure the manage contract repository agentic workflow for Software Asset Management](../task/configure-manage-contract-repository-agentic-workflow.md).
+    For more information, see [Configure the manage contract repository agentic workflow for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-manage-contract-repository-agentic-workflow.md).
 
 2.  Navigate to **Software Asset Workspace** &gt; **License operations** &gt; **Contracts** &gt; **Software contracts** and select **New**.
 3.  On the Create New Contract form, fill in the required **Contract model** and **Contract number** fields.
@@ -46,11 +47,11 @@ The following workflow explains the metadata extraction and contract reminder se
     -   Presence of auto-renewal clause
     -   Notice period for contract renewal or termination
 
-        **Note:** If renewal notice period and termination notice period aren’t available, it uses the configured default notice period. For more information, see [Set the default notice period for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/conf-sys-prop-default-np.md).
+        **Note:** If renewal notice period and termination notice period aren’t available, it uses the configured default notice period. For more information, see .
 
 10. The Contract Manager sets the contract reminders in the playbook by reviewing the calculated date and configuring the recipient list for the reminders.
 
-    For more information about reviewing extracted metadata and contract reminders, see [Review AI-extracted metadata and contract reminder date in the Software Asset Workspace](../task/work-with-extracted-contract-metadata.md).
+    For more information about reviewing extracted metadata and contract reminders, see [Review AI-extracted metadata and contract reminder date in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/work-with-extracted-contract-metadata.md).
 
 11. The Contract Manager reviews extracted obligations within the contract playbook. Each obligation can be accepted or rejected based on relevance.
 12. Approved obligations are automatically added as obligation records in the **Obligations** tab of the contract record.
@@ -66,7 +67,7 @@ The following workflow explains the metadata extraction and contract reminder se
     -   If the obligation task is rejected, the state of the task changes to Open, and the assigned user continues to work on it.
     -   If the obligation task is approved, the state of the task changes to Completed.
 
-For more information reviewing extracted obligations, see [Review AI-extracted obligations Software Asset Workspace](../task/review-extracted-obligations.md).
+For more information reviewing extracted obligations, see [Review AI-extracted obligations Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/review-extracted-obligations.md).
 
 ## Conditions for initiating extraction from the contract file
 
@@ -102,14 +103,14 @@ Uses various tools to perform the following:-   Retrieves the contract repositor
 -   Calculates the average lead time for similar contracts.
 
 </td></tr></tbody>
-</table>-   **[Configure the manage contract repository agentic workflow for Software Asset Management](../task/configure-manage-contract-repository-agentic-workflow.md)**  
+</table>-   **[Configure the manage contract repository agentic workflow for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/configure-manage-contract-repository-agentic-workflow.md)**  
 Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\) and activate the generative AI skills to use the manage contract repository agentic workflow.
--   **[Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace](../task/extract-metadata-from-uploaded-contract-document.md)**  
+-   **[Initiate metadata and obligation extraction from a signed contract in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/extract-metadata-from-uploaded-contract-document.md)**  
 Reduce manual effort by leveraging the Manage contract repository agentic workflow to extract key metadata and obligations from an uploaded signed contract, and calculate the contract reminder date.
--   **[Review AI-extracted metadata and contract reminder date in the Software Asset Workspace](../task/work-with-extracted-contract-metadata.md)**  
+-   **[Review AI-extracted metadata and contract reminder date in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/work-with-extracted-contract-metadata.md)**  
 Use the contract playbook to review and update the AI-extracted metadata and contract reminder date.
--   **[Review AI-extracted obligations Software Asset Workspace](../task/review-extracted-obligations.md)**  
+-   **[Review AI-extracted obligations Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/review-extracted-obligations.md)**  
 Use the contract playbook to review, edit, approve, or reject obligations automatically extracted from contract documents. Approved obligations are added as obligations records in the **Obligations** tab of the contract repository.
 
-**Parent Topic:**[Using Software Asset Workspace](../../software-asset-management2/concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Legal request record - Details tab
 description: List of fields in the Details tab of a legal request in the Legal Counsel Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/legal-request-fields.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -168,5 +169,5 @@ Additional comments
 Comments or notes for the requester or users in the **Watch list** field who have the access to view the request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Request Management reference](legal-request-management-reference.md)
+</table>**Parent Topic:**[Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-reference.md)
 

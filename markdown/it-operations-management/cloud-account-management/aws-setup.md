@@ -2,6 +2,7 @@
 title: Set up and verify root email in AWS
 description: Create a unique email address to manage several accounts. Having multiple accounts and emails can be a significant challenge for an AWS admin. A single AD email for multiple AWS accounts simplifies management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/aws-setup.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

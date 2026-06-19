@@ -2,6 +2,7 @@
 title: Configure the Service Graph Connector for Splunk
 description: Configure your connections, set up scheduled imports, verify successful connections and optionally add multiple instances in the Guided Setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-splunk-configure.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,12 +18,12 @@ Configure your connections, set up scheduled imports, verify successful connecti
 
 ## Before you begin
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-license-module.md), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by ITOM Visibility or ITOM Discovery, these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
--   The [Integration Commons for CMDB](../../../configuration-management/concept/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](../../../configuration-management/concept/cmdb-ci-class-models.md).
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   Optional: Only required for event ingestion. Observability Commons for CMDB \(sn\_observability\). If used, this app must be installed prior to installing the connector for Event Management to work. For more information, see [Observability Commons for CMDB](https://store.servicenow.com/sn_appstore_store.do#!/store/application/97e04562072020107add6a77c4a9351a) on the ServiceNow Store.
 

@@ -2,11 +2,14 @@
 title: Force a password reset
 description: Force a user to reset their password.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/reset-users-password.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Users page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Users page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Force a password reset
@@ -31,11 +34,11 @@ An Administrator can force another user to change their password on that user's 
 
     The green key changes color to an orange key with backwards slash through it. This means the user needs to change their password the next time they log in. The key image does not display once the user changes their password and logs back in.
 
-    ![User keys](../../msi-console/image/password-keys.png)
+    \[Omitted image "password-keys.png"\] Alt text: User keys
 
     The next time the user logs into the console, the **Change Password** window opens.
 
-    ![Change Password window](../images/change-password-resized.png)
+    \[Omitted image "change-password-resized.png"\] Alt text: Change Password window
 
 4.  Enter a new password and then enter it again to confirm it.
 

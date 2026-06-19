@@ -2,6 +2,7 @@
 title: Configure vaccine or vaccine booster types for Vaccination Status
 description: Create or modify vaccine or vaccine booster types that people can use to report their vaccination status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/create-vaccination-status-vaccine.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -89,5 +90,5 @@ Number of days since vaccination before a booster is required. This field is vis
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status.md)
 

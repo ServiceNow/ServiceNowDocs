@@ -2,6 +2,7 @@
 title: Create application restricted caller access for provider application
 description: Create restricted caller access \(RCA\) privilege for the provider application to allow inbound updates to Workplace case or task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-application-restricted-caller-access.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management

@@ -2,6 +2,7 @@
 title: Privacy Management home page
 description: The Privacy Management home page provides an overview of the complete privacy risk and compliance posture with details, such as the processing activity criticality score, privacy risk assessment status, privacy impact assessment status, control attestations, issues-specific status, and privacy cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-manager-dashboard.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -17,7 +18,7 @@ The Privacy Management home page provides an overview of the complete privacy ri
 
 The home page is organized into four tabs: **Processing activity**, **Risk and compliance**, **Operations**, and **Privacy cases**.
 
-![Processing activity tab of the Privacy management dashboard.](../image/processing-activity-privacy-management-homepage.png)
+\[Omitted image "processing-activity-privacy-management-homepage.png"\] Alt text: Processing activity tab of the Privacy management dashboard.
 
 ## Required roles
 
@@ -47,7 +48,7 @@ For examples of how different people in your organization would use this home pa
 
 ## Risk and compliance reports
 
-![Reports on the Risk and compliance tab of the Privacy Management home page.](../image/risk-compliance-prm-home-page.png)
+\[Omitted image "risk-compliance-prm-home-page.png"\] Alt text: Reports on the Risk and compliance tab of the Privacy Management home page.
 
 |Title|Description|
 |-----|-----------|
@@ -58,7 +59,7 @@ For examples of how different people in your organization would use this home pa
 
 ## Operations reports
 
-![Reports on the Operations tab of the Privacy Management home page.](../image/operations-prm-home-page.png)
+\[Omitted image "operations-prm-home-page.png"\] Alt text: Reports on the Operations tab of the Privacy Management home page.
 
 <table id="table_df4_ccz_m3c"><thead><tr><th>
 
@@ -113,7 +114,7 @@ Control assurance status across three areas.-   Attestations: Number of open and
 </td></tr></tbody>
 </table>## Privacy cases reports
 
-![Reports on the Operations tab of the Privacy Management home page.](../image/privacy-cases-tab.png)
+\[Omitted image "privacy-cases-tab.png"\] Alt text: Reports on the Operations tab of the Privacy Management home page.
 
 |Title|Description|
 |-----|-----------|
@@ -124,5 +125,5 @@ Control assurance status across three areas.-   Attestations: Number of open and
 |Opened and closed cases in last 12 months|Trend of opened and closed cases over the last 12 months.|
 |Issues|Number of issues by priority, with counts for open, overdue, and due in 7 days.|
 
-**Parent Topic:**[Reporting for Privacy Management](reporting-prm.md)
+**Parent Topic:**[Reporting for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/reporting-prm.md)
 

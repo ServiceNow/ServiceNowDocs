@@ -2,6 +2,7 @@
 title: Asset Management references
 description: Reference topics provide additional information about the lists and forms that you use to configure and administer Asset Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/references-asset-management.html
 release: australia
 product: Asset Management
 classification: asset-management

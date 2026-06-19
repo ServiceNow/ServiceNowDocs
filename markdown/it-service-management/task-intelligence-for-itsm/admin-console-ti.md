@@ -2,6 +2,7 @@
 title: Task Intelligence for ITSM Admin Console
 description: Admin Console for Task Intelligence for ITSM provides you with an interface to create, train, access, set preferences, deploy, and monitor predictive models used for incident predictions and similar patterns recognition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/admin-console-ti.html
 release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm

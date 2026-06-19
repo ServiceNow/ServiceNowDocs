@@ -2,6 +2,7 @@
 title: Search for a record in the Industrial Workspace
 description: Search for a record in the Industrial Workspace related to Operational Technology \(OT\) data, or Configuration Management Database \(CMDB\) data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/search-in-industrial-workspace.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -22,7 +23,7 @@ Search for a record in the Industrial Workspace related to Operational Technolog
 
 ## About this task
 
-The Industrial Workspace search is configured to show Natural Language Query \(NLQ\) Genius Results for each search. For more information about how NLQ Genius Results are used in the Industrial Workspace, see [NLQ Genius Results used in the Industrial Workspace](../concept/nlq-genius-results-industrial-workspace.md). For more information about NLQ Genius Results, see [NLQ Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-result-nlq-ais.md).
+The Industrial Workspace search is configured to show Natural Language Query \(NLQ\) Genius Results for each search. For more information about how NLQ Genius Results are used in the Industrial Workspace, see [NLQ Genius Results used in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/nlq-genius-results-industrial-workspace.md). For more information about NLQ Genius Results, see .
 
 Using the search bar in the Industrial Workspace, you can search and find results for the following records.
 
@@ -51,11 +52,11 @@ Using the search bar in the Industrial Workspace, you can search and find result
 
 4.  If you're not in the Industrial Workspace but want to search for records in the Industrial Workspace, perform the following actions.
 
-    1.  In the Search bar, select the **Choose search context** \(![Choose search context icon available in the Search bar.](../image/choose-seach-context.png)\) icon.
+    1.  In the Search bar, select the **Choose search context** \(\[Omitted image "choose-seach-context.png"\] Alt text: Choose search context icon available in the Search bar.\) icon.
     2.  From the menu, select **Industrial Workspace**.
 
-        ![The Choose search context example options available to select, including Global, Service Operational Workspace, and Industrial Workspace.](../image/search-industrial-workspace.png)
+        \[Omitted image "search-industrial-workspace.png"\] Alt text: The Choose search context example options available to select, including Global, Service Operational Workspace, and Industrial Workspace.
 
 
-**Parent Topic:**[Using the Industrial Workspace](../concept/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

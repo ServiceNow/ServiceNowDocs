@@ -2,6 +2,7 @@
 title: Configure an agent's profile
 description: Configure shifts, skills, schedules, and schedule attributes for agents in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/configure-an-agent-s-profile.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

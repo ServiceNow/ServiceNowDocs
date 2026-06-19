@@ -2,6 +2,7 @@
 title: Set the audience URL for SAML
 description: Enable your instance to verify that it is the intended recipient of a SAML response by using the Audience property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SetTheAudienceURL.html
 release: australia
 product: Authentication
 classification: authentication

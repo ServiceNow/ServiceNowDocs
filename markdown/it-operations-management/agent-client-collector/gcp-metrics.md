@@ -2,6 +2,7 @@
 title: Google Cloud Platform \(GCP\) metrics
 description: The following table lists and describes the metrics that are gathered by the acc\_grp\_metrics\_list.json configuration data file. The file is uploaded to a check definition or check instance, and the metrics in the file are monitored by the check for its agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/gcp-metrics.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -872,5 +873,5 @@ network
 Current count of TCP connections.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

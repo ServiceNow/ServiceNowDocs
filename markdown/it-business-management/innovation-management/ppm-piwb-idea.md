@@ -2,6 +2,7 @@
 title: PPM PIWB template - Find similar ideas
 description: Use a guided template that walks you through training the Similar Ideas solution definition for finding similar ideas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/ppm-piwb-idea.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -42,8 +43,8 @@ Role required: piwb\_manager
 
     Configure or train the **Similarity** solution for finding similar ideas.
 
-    -   To configure the Similar Ideas solution definition \(ml\_sn\_global\_global\_similar\_ideas\), click **Configure**. For more information, see [Train the similarity solution for Innovation Management to find similar ideas](../../innovation-management/task/train-similarity-solution-im.md).
+    -   To configure the Similar Ideas solution definition \(ml\_sn\_global\_global\_similar\_ideas\), click **Configure**. For more information, see [Train the similarity solution for Innovation Management to find similar ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/train-similarity-solution-im.md).
     -   To train the Similar Ideas solution definition \(ml\_sn\_global\_global\_similar\_ideas\), click **Train**.
 
-**Parent Topic:**[Managing ideas using Innovation Management](../../innovation-management/concept/using-innovation-management.md)
+**Parent Topic:**[Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/using-innovation-management.md)
 

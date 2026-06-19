@@ -2,6 +2,7 @@
 title: Change an Authenticator app
 description: Generate a new code to change an Authenticator app on your device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/change-authenticator-app.html
 release: australia
 product: Authentication
 classification: authentication
@@ -31,7 +32,7 @@ Role required: none
 
 3.  Under **Authenticator app**, select the edit icon.
 
-    ![Manage Authenticator](../images/manage-authenticator-app.png)
+    \[Omitted image "manage-authenticator-app.png"\] Alt text: Manage Authenticator
 
 4.  In the Change authenticator code window, click **Change**.
 

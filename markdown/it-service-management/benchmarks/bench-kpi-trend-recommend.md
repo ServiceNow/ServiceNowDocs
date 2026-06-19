@@ -2,6 +2,7 @@
 title: Benchmarks KPI performance trend and recommendations \(deprecated\)
 description: The Benchmarks KPI performance chart trend view shows your KPI performance comparison with global data, and provides recommendations to implement for improved performance of your KPI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/bench-kpi-trend-recommend.html
 release: australia
 product: Benchmarks
 classification: benchmarks
@@ -19,7 +20,7 @@ The KPI Performance Trends chart section is shown only for users with the Benchm
 
 ## KPI Performance Trends chart
 
-![KPI Performance Trends](../image/BenchTrend.png "6-month monthly data mapped against global data")
+\[Omitted image "BenchTrend.png"\] Alt text: KPI Performance Trends
 
 Your 6-month monthly data is mapped against global data, and your percentile rank indicating your standing within the participating peer group is shown.
 
@@ -39,7 +40,7 @@ Recommendation candidates are provided in the performance trend view to help imp
 
 **Note:** Some KPI recommendations that use guided setup require system admin permission. Work with your system administrator to implement these recommendations.
 
-![Recommendations filtered into Implemented or Saved tabs](../image/bench-recommend.png "Recommendations filtered into Implemented or Saved tabs")
+\[Omitted image "bench-recommend.png"\] Alt text: Recommendations filtered into Implemented or Saved tabs
 
 Actions are available for each recommendation candidate. Based on the action, recommendations get filtered into the appropriate group tab \(Implemented or Saved\). Closing out the recommendation removes the recommendation candidate from the list.
 
@@ -80,5 +81,5 @@ Tabs for recommendation candidates:
     Lists all recommendation candidates that have been saved to implement later.
 
 
-**Parent Topic:**[Deprecated Benchmarks dashboard](c_BenchDashboard.md)
+**Parent Topic:**[Deprecated Benchmarks dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchDashboard.md)
 

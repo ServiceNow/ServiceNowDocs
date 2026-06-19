@@ -2,6 +2,7 @@
 title: Set up the Microsoft Azure DevOps Boards spoke using OAuth
 description: Integrate the ServiceNow instance and Azure DevOps Boards using OAuth 2.0 authentication to authenticate ServiceNow requests.Provide authorization to the ServiceNow instance by registering an application in the Microsoft Azure portal.Create a connection record that enables the ServiceNow instance to send connection requests to the Microsoft Azure DevOps Boards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-azdevops-boards-oauth.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,7 +27,7 @@ Integrate the ServiceNow instance and Azure DevOps Boards using OAuth 2.0 authen
 -   If you are setting up the Azure DevOps Boards spoke using OAuth, you need not set up the spoke using personal access token.
 -   If the Azure DevOps Boards spoke is already configured and set up, ensure that you set the value of **Active** to **false** for the existing connection before you proceed to set up the spoke using OAuth.
 
-    ![If connection is already configured, set the value of Active to false.](../image/azdevops-conn-false.png)
+    \[Omitted image "azdevops-conn-false.png"\] Alt text: If connection is already configured, set the value of Active to false.
 
 
 ## Register an application using the Microsoft Azure portal
@@ -53,13 +54,13 @@ Complete these steps from the Microsoft Azure portal.
 
     For Redirect URI, specify the ServiceNow instance URL in this format: `https://<ServiceNow-Instance-Name>.service-now.com/oauth_redirect.do`.
 
-    ![Register an application in Microsoft Azure portal.](../image/azdevops-boards-app.png)
+    \[Omitted image "azdevops-boards-app.png"\] Alt text: Register an application in Microsoft Azure portal.
 
 5.  Click **Register**.
 
     The application is created and the values of **Application \(client\) ID** and **Directory \(tenant\) ID** are displayed.
 
-    ![Values of Application (client) ID and Directory (tenant) ID displayed after application creation.](../image/azdevops-boards-app-ids.png)
+    \[Omitted image "azdevops-boards-app-ids.png"\] Alt text: Values of Application \(client\) ID and Directory \(tenant\) ID displayed after application creation.
 
 6.  Copy and record the values of **Application \(client\) ID** and **Directory \(tenant\) ID**.
 
@@ -73,13 +74,13 @@ Complete these steps from the Microsoft Azure portal.
 
     4.  Click **Add**.
 
-        ![Create a client secret.](../image/azdevops-boards-app-secret.png)
+        \[Omitted image "azdevops-boards-app-secret.png"\] Alt text: Create a client secret.
 
         The client secret is created and its value is displayed.
 
     5.  Copy the value of client secret for later use.
 
-        ![Copy the value of client secret for later use.](../image/azdevops-boards-app-clsecret.png)
+        \[Omitted image "azdevops-boards-app-clsecret.png"\] Alt text: Copy the value of client secret for later use.
 
 8.  Provide the required API permissions to the application.
 
@@ -89,7 +90,7 @@ Complete these steps from the Microsoft Azure portal.
 
     3.  Under **Microsoft APIs**, click **Azure DevOps**.
 
-        ![Add API permissions.](../image/azdevops-boards-app-api.png)
+        \[Omitted image "azdevops-boards-app-api.png"\] Alt text: Add API permissions.
 
     4.  Expand **vso** and select these permissions **vso.project\_manage** and **vso.work\_full**.
 
@@ -97,7 +98,7 @@ Complete these steps from the Microsoft Azure portal.
 
     5.  Click **Grant admin consent for ServiceNow**.
 
-        ![Grant admin consent for ServiceNow.](../image/azdevops-boards-app-api-perm.png)
+        \[Omitted image "azdevops-boards-app-api-perm.png"\] Alt text: Grant admin consent for ServiceNow.
 
     6.  When prompted, confirm your choice to grant admin consent for ServiceNow.
 
@@ -126,7 +127,7 @@ Role required: admin
 
 4.  In the Azure\_DevOps\_Boards tile, select **View Details**.
 
-    ![View Details button on Azure DevOps Boards tile.](../image/ms-devops-board-spk-view-details.png)
+    \[Omitted image "ms-devops-board-spk-view-details.png"\] Alt text: View Details button on Azure DevOps Boards tile.
 
 5.  Select **Configure**.
 
@@ -141,12 +142,12 @@ Role required: admin
     |OAuth Redirect URL|Option to provide the redirect URL. You must provide the redirect URL in the format `https://<your-instance-name>.service.now.com/oauth_redirect.do`.|
     |Tenant ID|Option to provide the tenant ID that you generated while registering an application on Microsoft Azure portal.|
 
-    ![Create Connection form.](../image/ms-azure-devops-board-spk-conn-form.png)
+    \[Omitted image "ms-azure-devops-board-spk-conn-form.png"\] Alt text: Create Connection form.
 
 7.  Select **Create and Get OAuth Token**.
 
     You log in to the Microsoft Azure portal and upon successful authentication, OAuth token is issued.
 
-    ![OAuth token is available.](../image/ms-azuredevops-board-spk-oauth-token.png)
+    \[Omitted image "ms-azuredevops-board-spk-oauth-token.png"\] Alt text: OAuth token is available.
 
 

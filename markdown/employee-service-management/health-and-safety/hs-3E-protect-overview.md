@@ -2,6 +2,7 @@
 title: 3E service provider overview
 description: 3E Protect is an external API service that provides access to a vast database of chemical metadata and Safety Data Sheets \(SDS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-3E-protect-overview.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -19,9 +20,9 @@ It’s integrated into the Health and Safety system through a dedicated connecto
 
 The service functions by enabling you to import or add new chemicals to the system, after which 3E service provider supplies detailed hazard identification, ingredient data, and SDS documents in multiple languages. If a chemical isn’t found in the 3E database, an obtainment process is triggered, where 3E staff actively source the required SDS from manufacturers.
 
-The applications **Spoke for 3E** \(com.sn\_hs\_spoke\_3e\) and **Health and Safety Connector Core** \(com.sn\_hs\_connector\_core\) are the optional plugins that can be installed to use this feature. For more information, see [Components installed with Health and Safety Environmental Management](../reference/hs-components-installed-environmental-management.md).
+The applications **Spoke for 3E** \(com.sn\_hs\_spoke\_3e\) and **Health and Safety Connector Core** \(com.sn\_hs\_connector\_core\) are the optional plugins that can be installed to use this feature. For more information, see [Components installed with Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-components-installed-environmental-management.md).
 
-For more information about 3E Protect and its subscription requirements, see [3E Protect](https://www.3eco.com/3e-solutions/product-stewardship/3e-regulatory-intelligence-api/#cta-form-block) on the 3E website.
+For more information about 3E Protect and its subscription requirements, see [3E Protect](https://www.3eco.com/3e-solutions/chemical-workplace-safety/3e-protect/) on the 3E website.
 
 ## Benefits
 
@@ -33,5 +34,5 @@ With 3E service provider integration you can obtain the following benefits:
 -   Ensure their records are current
 -   Reduce manual effort, improve accuracy, and streamline compliance processes
 
-**Parent Topic:**[3E Protect](../../hs-integration-third-party/concept/hs-3e-protect.md)
+**Parent Topic:**[3E Protect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-3e-protect.md)
 

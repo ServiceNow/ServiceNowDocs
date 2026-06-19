@@ -2,11 +2,12 @@
 title: Create a template from the incident form
 description: Create a template that define default values for forms so that users can easily create incident. You need to have appropriate permissions before creating templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/create-template-inci-form.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
@@ -21,15 +22,15 @@ Role required: itil, sn\_incident\_write, or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Incident** &gt; **Create New**.
+1.  Navigate to **All** &gt; **Incident** &gt; **Create**.
 
-2.  Select the More options icon ![More options icon](../../change-management/image/more-options.png) and then select **Show/Hide Template Bar** to see the template bar.
+2.  Select the more options icon \[Omitted image "more-options.png"\] Alt text: More options icon and then select **Toggle Template Bar** to see the template bar.
 
-    ![Toggle template bar](../image/toggle-template-bar.png)
+    \[Omitted image "toggle-template-bar.png"\] Alt text: Toggle template bar
 
-3.  On the template bar, select the **Create New template** icon \(![Create New template icon](../image/add_icon.png)\).
+3.  On the template bar, select the add icon \(\[Omitted image "add\_icon.png"\] Alt text: Add icon\).
 
-    ![Click add to create template.](../image/create-template-inci-form.png)
+    \[Omitted image "create-template-inci-form.png"\] Alt text: Select add to create template.
 
 4.  On the form, fill in the fields.
 
@@ -95,7 +96,7 @@ Global
 
 </td><td>
 
-Option for allowing any user who can access the templates to view and apply this template.
+Option for allowing any user with the **itil**,**sn\_incident\_write**, or **admin** role to view and apply this template. When you clear this option, only users or groups specified in the **User** and **Groups** fields can access the template.
 
 </td></tr><tr><td>
 

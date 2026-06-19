@@ -2,6 +2,7 @@
 title: Exploring Health Log Analytics
 description: ServiceNow Health Log Analytics \(HLA\) predicts IT issues before they affect your users by collecting, analyzing, and correlating machine-generated log data in real time. It discovers anomalies and alerts you to potential issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-exploring.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -26,7 +27,7 @@ Health Log Analytics can handle any kind of machine-generated textual log data. 
 -   Health Log Analytics supports only UTF-8 logs. It does not support binary logs.
 -   If you are sending logs in a language other than English, additional configuration may be required.
 
-For a brief explanation of key terms and concepts used in HLA, see the [Health Log Analytics terminology](../reference/hla-glossary.md).
+For a brief explanation of key terms and concepts used in HLA, see the [Health Log Analytics terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-glossary.md).
 
 ## Health Log Analytics users
 
@@ -73,7 +74,7 @@ Health Log Analytics collects and processes log data automatically. It structure
 
 The diagram shows the Health Log Analytics workflow from collecting the data through sending an event or alert to Event Management.
 
-![Health Log Analytics workflow: Ingestion - Structuring - Enrichment - Analysis - ML & AI - Alert in Event Management](../image/hla-workflow-img.png "Health Log Analytics workflow")
+\[Omitted image "hla-workflow-img.png"\] Alt text: Health Log Analytics workflow: Ingestion - Structuring - Enrichment - Analysis - ML &amp; AI - Alert in Event Management
 
 -   **Ingestion**
 
@@ -97,7 +98,7 @@ The diagram shows the Health Log Analytics workflow from collecting the data thr
 
     This layer handles identifying the variable parts of a log message.
 
-    ![Health Log Analytics workflow - Enrichment.](../image/hla-enrichment-img.png "Health Log Analytics workflow - Enrichment")
+    \[Omitted image "hla-enrichment-img.png"\] Alt text: Health Log Analytics workflow - Enrichment.
 
     It also identifies keywords and contextual properties. In the image, "WARN" and "Failed" are the keywords to track. "User," "source IP," and "port" are the contextual properties.
 
@@ -118,22 +119,22 @@ The diagram shows the Health Log Analytics workflow from collecting the data thr
 
 |Benefit|Feature|User|
 |-------|-------|----|
-|Use predictiveLog Analytics alerts to handle emerging IT issues before they escalate and impact users.|[Analyzing and resolving Log Analytics alerts](../../health-log-analytics-operator/concept/hla-analyzing-resolving-hla-alert.md)|Operator|
-|Set up log data connector integrations quickly and conveniently from the Integrations Launchpad.|[Log data connector integrations](hla-data-input-setup-integrations.md)|Administrator|
-|Shorten onboarding time by installing content packs.|[Content packs](hla-content-packs.md)|Administrator|
-|Save time and reduce errors by migrating data input configurations between instances.|[Data input migration](hla-data-input-migration.md)|Administrator|
-|Identify the root cause of an alert by analyzing the logs that surround the anomaly.|[Surrounding logs](../../health-log-analytics-operator/concept/hla-op-surrounding-logs-view-concept.md)|Operator|
-|Visualize anomalous log data.|[Log viewer](../../health-log-analytics-operator/concept/hla-op-logs-log-viewer-concept.md)|Operator|
-|Detect relationships in log data.|[Log correlators](../../health-log-analytics-operator/concept/hla-op-correlator-what-is-a.md)|Operator|
-|Assign higher or lower significance to alerts.|[Mute alert metrics](../../health-log-analytics-operator/concept/hla-op-alert-significance.md)|Operator|
-|Reduce noise by creating log filters.|[Log alert filters](../../health-log-analytics-operator/concept/hla-op-adv-alert-filtering.md)|Operator|
-|Influence how Health Log Analytics finds anomalies by managing keywords it looks for in the log data.|[Lexical keywords](hla-log-anomaly-detection.md)|Operator|
-|Create alerts for specified metrics by adding, changing, or deleting rules.|[Custom alert rules](hla-alert-rules-manage.md)|Operator|
+|Use predictiveLog Analytics alerts to handle emerging IT issues before they escalate and impact users.|[Analyzing and resolving Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-analyzing-resolving-hla-alert.md)|Operator|
+|Set up log data connector integrations quickly and conveniently from the Integrations Launchpad.|[Log data connector integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-integrations.md)|Administrator|
+|Shorten onboarding time by installing content packs.|[Content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-content-packs.md)|Administrator|
+|Save time and reduce errors by migrating data input configurations between instances.|[Data input migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-migration.md)|Administrator|
+|Identify the root cause of an alert by analyzing the logs that surround the anomaly.|[Analyzing the logs around an anomaly to help find the alert's root cause in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-surrounding-logs-view-concept-sow.md)|Operator|
+|Visualize anomalous log data.|[Reviewing the logs for an alert on the Log Viewer in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md)|Operator|
+|Detect relationships in log data.|[Log correlators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md)|Operator|
+|Assign higher or lower significance to alerts.|[Mute alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-alert-significance.md)|Operator|
+|Reduce noise by creating log filters.|[Log alert filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-adv-alert-filtering.md)|Operator|
+|Influence how Health Log Analytics finds anomalies by managing keywords it looks for in the log data.|[Lexical keywords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-anomaly-detection.md)|Operator|
+|Create alerts for specified metrics by adding, changing, or deleting rules.|[Custom alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-alert-rules-manage.md)|Operator|
 
 ## What to explore next
 
--   [Health Log Analytics architecture](hla-architecture.md)
--   [How Health Log Analytics generates alerts](../../health-log-analytics-operator/concept/hla-op-anomalies-detecting.md)
--   [Types of anomalous behavior in Health Log Analytics](../../health-log-analytics-operator/reference/hla-op-anomalous-behavior-types.md)
--   [Types of Health Log Analytics alerts](../../health-log-analytics-operator/reference/hla-op-log-analytics-alert-types.md)
+-   [Health Log Analytics architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-architecture.md)
+-   [How Health Log Analytics generates alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-anomalies-detecting.md)
+-   [Types of anomalous behavior in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-anomalous-behavior-types.md)
+-   [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md)
 

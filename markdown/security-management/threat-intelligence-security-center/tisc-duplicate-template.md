@@ -1,7 +1,8 @@
 ---
 title: Duplicate a Report Template
-description: Duplicate a report template if you want to add any incremental updates, then you can create a copy of the report template.
+description: Create a copy of a report template to make incremental updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-duplicate-template.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -13,7 +14,7 @@ breadcrumb: [About Report Templates in TISC, Administer, Threat Intelligence Sec
 
 # Duplicate a Report Template
 
-Duplicate a report template if you want to add any incremental updates, then you can create a copy of the report template.
+Create a copy of a report template to make incremental updates.
 
 ## Before you begin
 
@@ -25,14 +26,14 @@ Role required: sn\_sec\_tisc.admin
 
 2.  Select **Reports** &gt; **Report Template**.
 
-3.  Select the template.
+3.  Select the template you want to duplicate.
 
-4.  Click **Duplicate**.
+4.  Select **Duplicate**.
 
-    The contents of the selected template are duplicated and copy of that template is displayed. The template will again in the Draft state, you can customize the contents, and then rename the template as required.
+    The system creates a copy of the selected template. The template appears in Draft state. You can customize the contents and rename the template as needed.
 
 5.  Edit or modify the content of the copied template.
 
-    **Note:** You can also delete the report templates in case if you don't need them anymore and create new templates.
+    **Note:** You can also delete report templates you no longer need and create templates.
 
 

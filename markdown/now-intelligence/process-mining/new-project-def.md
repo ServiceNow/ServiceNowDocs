@@ -2,6 +2,7 @@
 title: Project definition form
 description: Use the Project definition form to create a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/new-project-def.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -108,7 +109,7 @@ Select the **Auto Retire** check box if you want to automatically retire the pro
 
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](../concept/data-cleanup.md#).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
 
 </td></tr><tr><td>
 
@@ -134,10 +135,10 @@ KPI dashboard
 
 The PAR dashboard \[par\_dashboard\] associated with this project. Select an existing dashboard or use the Plus \(+\) icon to create a dashboard.
 
- For details on creating these dashboards, see [Create and use dashboards](../../../use/dashboards/concept/create-and-edit-dashboards.md)
+ For details on creating these dashboards, see [Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
  **Note:** Adding a dashboard in this field links the dashboard at the project level. To add the dashboard at the process configuration level, use the same field on the process configuration \[promin\_process\_def\] record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Process Mining reference](../concept/process-mining-reference.md)
+</table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining-reference.md)
 

@@ -2,6 +2,7 @@
 title: Domain separation and Pre-Visit Management
 description: If any conrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file. In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is supported for Pre-Visit Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-domain-sep.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,11 +30,11 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Pre-Visit Management overview
 
-The Pre-Visit Management application includes domain separation for transactional data like procedure request cases. The application is based on the [Healthcare and Life Sciences data model](hcls-serv-mgmt-core.md) that also includes domain separation.
+The Pre-Visit Management application includes domain separation for transactional data like procedure request cases. The application is based on the [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core.md) that also includes domain separation.
 
 ## How domain separation works in Pre-Visit Management
 
@@ -43,5 +44,5 @@ For customers using the Pre-Visit Management application to raise procedure requ
 
 When healthcare providers have their healthcare data separated by domains, the healthcare requests and corresponding fulfillment tasks are associated with the respective customer domains.
 
-**Parent Topic:**[Pre-Visit Management reference](../reference/pre-visit-reference.md)
+**Parent Topic:**[Pre-Visit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-reference.md)
 

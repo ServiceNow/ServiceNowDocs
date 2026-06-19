@@ -2,7 +2,10 @@
 title: Request Predictive Intelligence for Incident
 description: To activate Predictive Intelligence for Incident, request the Predictive Intelligence for Incident plugin \(com.snc.incident.ml\) through the Now Support Customer Service system. This plugin activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-predictive-intelligence-for-im.html
 release: australia
+product: IT Service Management
+classification: it-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -70,7 +73,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -88,13 +91,13 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Predictive Intelligence for Incident](../concept/pi-for-incident.md)**  
+-   **[Predictive Intelligence for Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/pi-for-incident.md)**  
 Use your instance records to build Incident Management -specific solutions.
 
-**Parent Topic:**[Machine learning solutions for IT Service Management](../../it-service-management/concept/machine-learning-itsm.md)
+**Parent Topic:**[Machine learning solutions for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/machine-learning-itsm.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

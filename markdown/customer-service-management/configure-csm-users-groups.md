@@ -2,7 +2,10 @@
 title: Configure users and groups
 description: A user is an individual who can access your instance and a group is a set of users who share a common purpose. The users associated with a group are listed as group members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-users-groups.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ Any rule that is applied to a group is automatically assigned to group members; 
 
 -   You can create users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md)
-    -   [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md)
-    -   [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md)
+    -   Create a user
+    -   Create a user group
+    -   
 

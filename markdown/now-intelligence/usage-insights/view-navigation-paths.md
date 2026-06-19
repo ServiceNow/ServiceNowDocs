@@ -2,6 +2,7 @@
 title: Navigation paths
 description: Navigation paths enable you to quickly understand and isolate users' journeys through your web or mobile application. Assess the most and least common navigation paths your users take and how you can improve them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/view-navigation-paths.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -25,7 +26,7 @@ A navigation path shows the frequency of specific, ordered paths within the appl
 
 **Note:** Navigation path data is sampled to 15% by default. Toggle **Use data sampling** off to analyze the full data set.
 
-![Navigation path visualization](../../../use/par-for-workspace/image/uxa-nav-path-example.png)
+\[Omitted image "uxa-nav-path-example.png"\] Alt text: Navigation path visualization
 
 ## Viewing and interacting with a navigation path
 
@@ -61,5 +62,5 @@ Change the root screen several ways:-   Choose a start screen from the list labe
 Choose Session start from the **Navigation path analysis starting with** list to return to the full navigation path analysis.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Usage Insights](../content-framework/concept/using-uxa.md)
+</table>**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
 

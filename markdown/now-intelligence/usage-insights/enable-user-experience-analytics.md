@@ -2,6 +2,7 @@
 title: Enable Usage Insights
 description: You can enable or turn off Usage Insights for all applications in Usage Insights Properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/enable-user-experience-analytics.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -30,8 +31,8 @@ Usage Insights is enabled by default for all applications.
     To turn it off for all applications, clear the check box.
 
 
--   **[Enable Usage Insights for specific applications](config-analytics-settings.md)**  
+-   **[Enable Usage Insights for specific applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/config-analytics-settings.md)**  
 You can enable or turn off Usage Insights for specific Core UI, Next Experience, and Mobile applications on the Usage Insights Settings table.
 
-**Parent Topic:**[Configuring Usage Insights](../content-framework/create/configuring-user-exp-analytics.md)
+**Parent Topic:**[Configuring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/configuring-user-exp-analytics.md)
 

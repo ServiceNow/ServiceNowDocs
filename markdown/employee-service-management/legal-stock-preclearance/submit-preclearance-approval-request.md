@@ -2,11 +2,12 @@
 title: Submit a preclearance approval request
 description: As a designated access person, submit a request to obtain the preclearance approval from the legal department before you can trade in the securities of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-stock-preclearance/submit-preclearance-approval-request.html
 release: australia
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-19"
 reading_time_minutes: 1
 breadcrumb: [Requests, Legal Stock Preclearance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -27,17 +28,15 @@ You can submit a preclearance request during an open trading window period only 
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you are using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal portal and selecting a request from the **Service Catalog**.
+    **Note:** If you're using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal and selecting a request from the **Service Catalog**.
 
-2.  Select **Legal services** from the header.
+2.  Navigate to **Help center** &gt; **Legal services**.
 
-3.  Select **Browse Legal services**.
+3.  Search for the stock preclearance request item.
 
-4.  Search for the stock preclearance request item.
+4.  Select **Stock Preclearance**.
 
-5.  Click **Stock Preclearance**.
-
-6.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
 <table id="table_ljw_zb2_4jb"><thead><tr><th>
 
@@ -104,7 +103,7 @@ I agree
 Option to confirm your consent to trade in securities in accordance with your organization's insider trading policies.
 
 </td></tr></tbody>
-</table>7.  Click **Submit**.
+</table>6.  Click **Submit**.
 
 
 ## Result
@@ -124,5 +123,5 @@ Option to confirm your consent to trade in securities in accordance with your or
 
     -   Request Details: Review request details.
 
-**Parent Topic:**[Submitting Legal Stock Preclearance requests](../concept/submit-legal-stock-reqs.md)
+**Parent Topic:**[Submitting Legal Stock Preclearance requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-stock-preclearance/submit-legal-stock-reqs.md)
 

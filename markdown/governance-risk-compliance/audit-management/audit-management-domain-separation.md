@@ -2,6 +2,7 @@
 title: Domain separation and Audit Management
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Audit Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-management-domain-separation.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -25,7 +26,7 @@ Domain separation is supported for Audit Management. Domain separation enables y
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Benefits of having domain-separated tables in Audit Management
 
@@ -48,7 +49,7 @@ While GRC supports separation of data, separation of logic and process is not fu
 
     For example, suppose you have domains that look like:
 
-    ![Domain separation in GRC Audit Management application.](../../grc-policy-and-compliance/image/domain-separation-pc.png)
+    \[Omitted image "domain-separation-pc.png"\] Alt text: Domain separation in GRC Audit Management application.
 
 
 -   If you have a risk or control that you want to be assessed by users in domains A and B, the risk or control should be generated or manually created at the global level. If the risk or control is created in Domain B, you will not be able to recreate the risk or control in Domain A due to indexing.
@@ -115,10 +116,10 @@ The following changes are made to the domain assignment process to manage data s
 |Observation|Engagement|
 |Plan|User|
 
-**Parent Topic:**[Audit Management reference](../reference/audit-management-reference.md)
+**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-management-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

@@ -2,6 +2,7 @@
 title: Application service details page
 description: Provides comprehensive information about an application service, including its name, business criticality, ownership, process and operational status, traffic-based discovery details, discovery status, and relevant comments. This enables thorough analysis of the application service's current state and usage, provides clarity on ownership and criticality, and aids in prioritizing resources and actions effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/app-service-details.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -26,7 +27,7 @@ Provides comprehensive information about an application service, including its n
 |Discovery status|System's ability to locate and recognize the service within its network.|
 |Comments|Additional notes or pertinent information regarding the service that may be helpful for understanding its management or usage.|
 
-To return to the procedure, see [View application service details in Service Operations Workspace](../../event-management/task/worksplace-view-service-details.md).
+To return to the procedure, see [View application service details in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/worksplace-view-service-details.md).
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

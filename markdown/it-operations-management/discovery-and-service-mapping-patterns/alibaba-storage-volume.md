@@ -2,6 +2,7 @@
 title: Alibaba Cloud storage volume pattern-based discovery
 description: Discovery and Service Mapping Patterns uses the Alibaba - Storage Volume \(LP\) pattern to discover storage volumes during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/alibaba-storage-volume.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +19,7 @@ Discovery and Service Mapping Patterns uses the Alibaba - Storage Volume \(LP\) 
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the Alibaba Cloud discovery prerequisites section in [Alibaba Cloud discovery using patterns](../concept/alibaba-cloud-discovery-pattern.md).
+Verify the Alibaba Cloud discovery prerequisites section in [Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -110,5 +111,5 @@ The Alibaba - Storage Volume \(LP\) pattern collects tags and populates them in 
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Storage Volume \[cmdb\_ci\_storage\_volume\] table.|
 
-**Parent Topic:**[Alibaba Cloud discovery using patterns](../concept/alibaba-cloud-discovery-pattern.md)
+**Parent Topic:**[Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md)
 

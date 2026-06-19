@@ -2,6 +2,7 @@
 title: Track your epics
 description: Using the Board tab, track all epics of your portfolio and view their transition from one state \(lane\) to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/track-epics.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -35,8 +36,8 @@ Role required: sn\_portfolio\_safe.safe\_portfolio\_user
 
     2.  On the form, fill in the fields and submit it.
 
-        For more information on epic fields, see [Define an epic in SAFe](create-SAFeepic.md).
+        For more information on epic fields, see [Define an epic in SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFeepic.md).
 
 
-**Parent Topic:**[SAFe Board—Portfolio level](../concept/portfolio-tabs.md)
+**Parent Topic:**[SAFe Board—Portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/portfolio-tabs.md)
 

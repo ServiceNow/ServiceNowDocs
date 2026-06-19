@@ -2,6 +2,7 @@
 title: Set up the SCCM Usage Metering spoke
 description: Integrate the ServiceNow instance and SCCM using Java Database Connectivity \(JDBC\) credentials to authenticate ServiceNow requests.Create Connection records to the SCCM server. The SCCM Usage Metering spoke connection and credential aliases use these connections to perform actions in SCCM.Create Credential records to the SCCM server. The SCCM Usage Metering spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sccm-usage-metering-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -185,7 +186,7 @@ Capabilities
 
 </td><td>
 
-Capabilities that the MID Server must support to be eligible for selection. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
+Capabilities that the MID Server must support to be eligible for selection. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see MID Server selection.
 
 </td></tr><tr><td>
 
@@ -193,7 +194,7 @@ MID Application
 
 </td><td>
 
-Application that the MID Server must support to be eligible for selection. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
+Application that the MID Server must support to be eligible for selection. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see MID Server selection.
 
 </td></tr></tbody>
 </table>

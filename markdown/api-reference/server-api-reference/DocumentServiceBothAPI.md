@@ -2,6 +2,7 @@
 title: DocumentService - Scoped, Global
 description: The DocumentService API provides methods for creating, deleting, and updating a document.Instantiates a DocumentService object.Creates a document record in the Documents \[ds\_document\] table.Removes a document record from the Documents \[ds\_document\] table.Updates the field values of an existing document record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DocumentServiceBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,25 +16,25 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DocumentService API provides methods for creating, deleting, and updating a document.
 
-This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-services-landing-page.md).
+This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see Document Services.
 
-A document is a collection of information about a document record. The methods used to create or update a record modify fields using the [SystemDocument](../../SystemDocument/concept/SystemDocumentBothAPI.md#) object.
+A document is a collection of information about a document record. The methods used to create or update a record modify fields using the [SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentBothAPI.md) object.
 
 Document content is managed using versions. The following APIs enable you to define and manage document versions:
 
--   [SystemDocumentVersion](../../SystemDocumentVersion/concept/SystemDocumentVersionBothAPI.md#) – Define a document version as the source of the document content. Each version is an element containing the document content and is provided using a single URL or attachment. An attachment can only be added in the Document Versions \[ds\_document\_version\] table UI and not with the API.
--   [DocumentVersionService](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#) – Document content is managed using versions.
+-   [SystemDocumentVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentVersionBothAPI.md) – Define a document version as the source of the document content. Each version is an element containing the document content and is provided using a single URL or attachment. An attachment can only be added in the Document Versions \[ds\_document\_version\] table UI and not with the API.
+-   [DocumentVersionService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md) – Document content is managed using versions.
 
-Use the [DocumentReferenceService](../../DocumentReferenceService/concept/DocumentReferenceServiceBothAPI.md#) API to manage documents referenced in a target table, such as the Incidents \[incident\] or Knowledge \[kb\_knowledge\] table.
+Use the [DocumentReferenceService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentReferenceServiceBothAPI.md) API to manage documents referenced in a target table, such as the Incidents \[incident\] or Knowledge \[kb\_knowledge\] table.
 
 The Document Management plugin also supports creating lists of document templates to associate with your document. For example, a job application requiring multiple documents such as a diploma, ID, or passport.
 
--   [SystemDocumentList](../../SystemDocumentList/concept/SystemDocumentListBothAPI.md#) – Define a list of document templates.
--   [DocumentListService](../../DocumentListService/concept/DocumentListServiceBothAPI.md#) – Add or remove a document template list.
--   [SystemDocumentListEntry](../../SystemDocumentListEntry/concept/SystemDocumentListEntryBothAPI.md#) – Define a document template list entry.
--   [DocumentListEntryService](../../DocumentListEntryService/concept/DocumentListEntryServiceBothAPI.md#) – Add or remove a document template list entry.
+-   [SystemDocumentList](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentListBothAPI.md) – Define a list of document templates.
+-   [DocumentListService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentListServiceBothAPI.md) – Add or remove a document template list.
+-   [SystemDocumentListEntry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentListEntryBothAPI.md) – Define a document template list entry.
+-   [DocumentListEntryService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentListEntryServiceBothAPI.md) – Add or remove a document template list entry.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## DocumentService - DocumentService\(\)
 
@@ -55,7 +56,7 @@ Creates a document record in the Documents \[ds\_document\] table.
 
 |Name|Type|Description|
 |----|----|-----------|
-|doc|[SystemDocument](../../SystemDocument/concept/SystemDocumentBothAPI.md#)|One or more properties representing fields of a new record. The name property is required and can be set using the SystemDocument constructor or name\(\) method.|
+|doc|[SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentBothAPI.md)|One or more properties representing fields of a new record. The name property is required and can be set using the SystemDocument constructor or name\(\) method.|
 
 <table id="table_tj4_p5j_34b" class="returns"><thead><tr><th>
 
@@ -90,7 +91,7 @@ Message confirming success or error. Possible values:
 -   Create document sysId : &lt;sys\_id&gt; is successful.
 -   Document Name is mandatory and should be valid.
 -   Document Name is mandatory and it should not be null or empty.
--   &lt;[SystemDocument](../../SystemDocument/concept/SystemDocumentBothAPI.md#) property requiring sys\_id input&gt; with SysId: "&lt;sys\_id&gt;" does not exist
+-   &lt;[SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentBothAPI.md) property requiring sys\_id input&gt; with SysId: "&lt;sys\_id&gt;" does not exist
 
  Data type: String
 
@@ -231,7 +232,7 @@ Updates the field values of an existing document record.
 |Name|Type|Description|
 |----|----|-----------|
 |docSysId|String|Sys\_id of a document record in the Documents \[ds\_document\] table.|
-|doc|[SystemDocument](../../SystemDocument/concept/SystemDocumentBothAPI.md#)|One or more properties representing document fields to be updated.|
+|doc|[SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentBothAPI.md)|One or more properties representing document fields to be updated.|
 
 <table id="table_x4z_2cg_tpb" class="returns"><thead><tr><th>
 
@@ -285,7 +286,7 @@ Status indicating whether the operation is successful.Possible values:
  Data type: String
 
 </td></tr></tbody>
-</table>The following example shows how to change a document name. See also [SystemDocument](../../SystemDocument/concept/SystemDocumentBothAPI.md#).
+</table>The following example shows how to change a document name. See also [SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentBothAPI.md).
 
 ```
 var dId = "19aab54e24103410f877a6fed1c2b03d";

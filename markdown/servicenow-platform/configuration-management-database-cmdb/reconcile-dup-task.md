@@ -2,6 +2,7 @@
 title: Remediate a de-duplication task \(manual\)
 description: Remediate a single de-duplication task by using the Duplicate CI Remediator wizard. Use the wizard to guide you through the duplicate CI reconciliation process or to apply a custom workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -18,9 +19,9 @@ Remediate a single de-duplication task by using the Duplicate CI Remediator wiza
 ## Before you begin
 
 -   Review the following topics to familiarize yourself with important concepts of duplicate CI remediation:
-    -   [Duplicate CIs remediation](../concept/de-duplication-tasks.md): To learn about general duplicate CI remediation concepts, restrictions, and special cases such as remediations that involve a large number of duplicate CIs.
-    -   [Properties related to remediation of duplicate CIs](../reference/properties-duplicate-ci.md): To learn about important properties that affect processes of duplicate CI remediation. Including the glide.duplicate\_ci\_remediator.dry\_run property that determines if the Duplicate CI Remediator actually updates the CMDB or not.
--   To access the Now Assist for CMDB remediation option in the Duplicate CI Remediation wizard, the De-duplication task resolution assistant skill must be installed and enabled. For information about setting up Now Assist for CMDB 3.0, see [Now Assist for Configuration Management Database \(CMDB\)](../concept/now-assist-landing-cmdb.md).
+    -   [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md): To learn about general duplicate CI remediation concepts, restrictions, and special cases such as remediations that involve a large number of duplicate CIs.
+    -   [Properties related to remediation of duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.md): To learn about important properties that affect processes of duplicate CI remediation. Including the glide.duplicate\_ci\_remediator.dry\_run property that determines if the Duplicate CI Remediator actually updates the CMDB or not.
+-   To access the Now Assist for CMDB remediation option in the Duplicate CI Remediation wizard, the De-duplication task resolution assistant skill must be installed and enabled. For information about setting up Now Assist for CMDB 3.0, see [Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
 
 Role required: sn\_cmdb\_editor or itil to read. sn\_cmdb\_admin, cmdb\_dedup\_admin, or itil\_admin to write
 
@@ -29,11 +30,11 @@ Role required: sn\_cmdb\_editor or itil to read. sn\_cmdb\_admin, cmdb\_dedup\_a
 Important notes:
 
 -   Duplicate CI Remediator provides a remediation option that is based on the AI engine of the Now Assist for CMDB De-duplication task resolution assistant skill. This skill fills out the remediation options, based on the AI analysis of CMDB data. Use the Now Assist option to bypass all the tabs in the Duplicate CI Remediator where you typically manually enter those selections, and go directly to the final review to initiate the remediation.
--   Instead of using Duplicate CI Remediator \(built on Core UI\) to resolve a single de-duplication task, you can use the De-duplication Dashboard, and de-duplication templates and libraries, available in [CMDB Workspace](../concept/cmdb-workspace.md)and in [Service Graph Workspace](../concept/sg-workspace.md). Using de-duplication capabilities in CMDB Workspace or in Service Graph Workspace is especially useful for bulk remediation of de-duplication tasks. These capabilities let you preconfigure a de-duplication template with remediation settings, which can then be applied in a consistent manner to multiple de-duplication tasks. For more information, see [CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](../concept/dedup-ci-exp-cmdb-workspace.md).
+-   Instead of using Duplicate CI Remediator \(built on Core UI\) to resolve a single de-duplication task, you can use the De-duplication Dashboard, and de-duplication templates and libraries, available in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and in [Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace.md). Using de-duplication capabilities in CMDB Workspace or in Service Graph Workspace is especially useful for bulk remediation of de-duplication tasks. These capabilities let you preconfigure a de-duplication template with remediation settings, which can then be applied in a consistent manner to multiple de-duplication tasks. For more information, see [CI de-duplication experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md).
 
 As you progress through the tabs of the Duplicate CI Remediator, CIs aren't updated. All updates are applied only in the final step, after you select **Remediate**.
 
-**Note:** Remediation behaves differently when remediation involves a large number of duplicate CIs or where the duplicates are serial numbers. For information about special cases in remediation, see [Duplicate CIs remediation](../concept/de-duplication-tasks.md).
+**Note:** Remediation behaves differently when remediation involves a large number of duplicate CIs or where the duplicates are serial numbers. For information about special cases in remediation, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
 
 ## Procedure
 
@@ -50,7 +51,7 @@ As you progress through the tabs of the Duplicate CI Remediator, CIs aren't upda
         **Note:** This option isn't available with non-CMDB tables.
 
     -   **Use the Duplicate CI Remediator \(Now Assist\)**: Use the Now Assist for CMDB De-duplication task resolution assistant skill to skip directly to the final dashboard to review the selections made by the skill. Using this option, you can skip directly to the final step of this procedure.
-    -   **Use a custom remediation workflow**: Use an existing CMDB remediation rule or select **Add New** to [create a new one](t_CreateCMDBRemediationRule.md).
+    -   **Use a custom remediation workflow**: Use an existing CMDB remediation rule or select **Add New** to [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBRemediationRule.md).
 
         -   On the CMDB Remediation Rule form, set **Task type** to `Remediate Duplicate Task` and select **Active**.
         -   On the Workflow form, set **Table** to Remediate Duplicate Task \[reconcile\_duplicate\_task\] and **If condition matches** to `None`.
@@ -105,16 +106,16 @@ As you progress through the tabs of the Duplicate CI Remediator, CIs aren't upda
 
 8.  On the **Merge Relationships and Related Items** tab:
 
-    1.  In the Merge Relationships section, select whether to merge all relationships from all duplicate CIs into the main CI. Select **View all relationships** to display all the relationships in which a duplicate CI is a parent or a child. You can select a **Parent** or a **Child** link to display more details. Orphan and duplicate relationships of duplicate CIs are deleted if you choose to merge relationships. For more information about the CMDB Health relationship KPI, see [CMDB Health KPIs and metrics](../reference/r_CMDBHealthMetrics.md).
+    1.  In the Merge Relationships section, select whether to merge all relationships from all duplicate CIs into the main CI. Select **View all relationships** to display all the relationships in which a duplicate CI is a parent or a child. You can select a **Parent** or a **Child** link to display more details. Orphan and duplicate relationships of duplicate CIs are deleted if you choose to merge relationships. For more information about the CMDB Health relationship KPI, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
 
     2.  In the Merge Related Items section use the list collector to select related items to be merged into the main CI. Select **View all related items** to display all related tables \(items\) and the count of references in each table to one of the duplicate CIs. You can select the links in **Main CI Related Items** and **Duplicate CIs Related Items** to display details about the related items.
 
-        Related items in the list collector have the following format:![Details of related items in thee list collector.](../image/RelatedItemRemediator.png)
+        Related items in the list collector have the following format:\[Omitted image "RelatedItemRemediator.png"\] Alt text: Details of related items in thee list collector.
 
         -   All items in the default related items list are selected to be merged, by default.
         -   Related items \(tables\) that have no references to a duplicate CI aren't listed, unless that table is included in the default related items list.
         -   Asset related tables aren't available for merge since they're part of the exclusion list.
-        See [Manage default related items list](manage-related-items-list.md) for more information about configuring a default list of related items. For information about configuring the system to disable automated workflows \(such as business rules and errors\) which might be blocking remediation of related items, see [Turn off workflows of related tables during remediation](dedup-ci-disable-workflow.md).
+        See [Manage default related items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-related-items-list.md) for more information about configuring a default list of related items. For information about configuring the system to disable automated workflows \(such as business rules and errors\) which might be blocking remediation of related items, see [Turn off workflows of related tables during remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dedup-ci-disable-workflow.md).
 
     3.  Select **Next**.
 
@@ -122,13 +123,13 @@ As you progress through the tabs of the Duplicate CI Remediator, CIs aren't upda
 
     -   **Set attributes to custom values** \(recommended\): Retain all duplicate CIs. Mark the duplicate CIs as invalid by setting a specific **Attribute** to a specific **Value** for all duplicate CIs. For example, set **Operational Status** to `Retired` to retire the duplicate CIs.
 
-        The **duplicate\_of** attribute of the duplicate CIs is automatically set to the appropriate main CI. Also, the duplicate CIs won't be added to any de-duplication task after this task is remediated. If the identification engine isn't configured to [skip duplication](../concept/id-detect-dup-ci.md), verify that identification inclusion rules are configured to exclude the duplicate CIs during identification. This configuration helps prevent new de-duplication tasks with the same duplicate CIs from being created after remediation.
+        The **duplicate\_of** attribute of the duplicate CIs is automatically set to the appropriate main CI. Also, the duplicate CIs won't be added to any de-duplication task after this task is remediated. If the identification engine isn't configured to [skip duplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md), verify that identification inclusion rules are configured to exclude the duplicate CIs during identification. This configuration helps prevent new de-duplication tasks with the same duplicate CIs from being created after remediation.
 
         **Note:** Discovery fields, system fields, read-only fields, and date fields are excluded from the attributes list.
 
     -   **Delete**: Delete all duplicate CIs \(only the main CI remains\).
 
-        **Note:** Review [Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md) for information about reverting the deletion of CIs and related records.
+        **Note:** Review  for information about reverting the deletion of CIs and related records.
 
 10. On the **Review and Confirm** tab:
 
@@ -157,5 +158,5 @@ The reconciliation process runs in the background and may take a while to comple
 -   **Check Progress**: View the task activities that are logged as the remediation progresses.
 -   **View Main CI**: View the main CI for this reconciliation process.
 
-**Parent Topic:**[Duplicate CIs remediation](../concept/de-duplication-tasks.md)
+**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

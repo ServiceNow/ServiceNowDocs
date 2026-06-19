@@ -2,6 +2,7 @@
 title: Respond to a regulatory alert risk assessment
 description: Respond to a classic risk assessment on a regulatory alert to determine which entities are impacted and what actions must be taken to mitigate the risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/respond-to-a-regulatory-alert-risk-assessment.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

@@ -2,6 +2,7 @@
 title: Set up Planning dependency update configuration
 description: Configure the Planning dependency update configuration record to configure the plan record \(for which the dependencies are updated\), its target records, sources, and notification preferences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/conf-plan-dep-update-confi-module.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,21 +26,21 @@ Role required: sn\_bcm.admin, sn\_bcp.plan\_admin
 
     The example shows the Planning dependency update configuration record.
 
-    ![Updating the BCP dependencies.](../image/plan-dep-update-config.png)
+    \[Omitted image "plan-dep-update-config.png"\] Alt text: Updating the BCP dependencies.
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Planning dependency update configuration form](../reference/pla-dep-update-confi-form.md).
+    For more information on the fields in the form, see [Planning dependency update configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/pla-dep-update-confi-form.md).
 
 4.  Select **Submit**.
 
-    As per the sources and preferences set up by the BCM administrator in the BCM administrator in the Planning dependency update configuration record, the planning dependency updates are auto-updated for the plan record.
+    According to the sources and preferences set up by the BCM administrator, the planning dependency updates are auto-updated for the plan record.
 
     The BCP owner and approver review the updated dependencies and complete the BCP workflow.
 
 
--   **[Planning dependency update configuration form](../reference/pla-dep-update-confi-form.md)**  
+-   **[Planning dependency update configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/pla-dep-update-confi-form.md)**  
 Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences and schedule an auto-update of the related assets in the plans.
 
-**Parent Topic:**[Configuring planning dependency updates](../concept/confi-planning-dep-updates.md)
+**Parent Topic:**[Configuring planning dependency updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/confi-planning-dep-updates.md)
 

@@ -2,6 +2,7 @@
 title: OAuth implicit grants
 description: ServiceNow instances support the implicit grant of an access token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_OAuthImplicitGrants.html
 release: australia
 product: Authentication
 classification: authentication

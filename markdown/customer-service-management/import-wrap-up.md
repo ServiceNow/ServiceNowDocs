@@ -2,7 +2,10 @@
 title: Import wrap-up codes
 description: Import wrap-up codes from your contact center provider to ensure that each customer interaction is classified appropriately. For example, you can specify whether a call was for technical support, billing, or a product return.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-wrap-up.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Contact Center Integration Center** &gt; **CCaaS Admin Console**
 
-    ![admin console wrap-up codes import screen showing beginning state](../image/ccaas-import-wrapup.png "Admin console wrap-up codes import")
+    \[Omitted image "ccaas-import-wrapup.png"\] Alt text: admin console wrap-up codes import screen showing beginning state
 
 2.  Select a contact center provider to import wrap-up codes from.
 

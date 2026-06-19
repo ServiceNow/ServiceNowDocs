@@ -2,6 +2,7 @@
 title: WindowsOSNameHelper - Global
 description: The WindowsOSNameHelper script include provides methods to handle the formatting of Windows OS names.Formats the given Windows OS name.Ensures that the OS choice is valid.Cleans up the specified Windows OS name by stripping out incorrect characters, incorrect capitalization, extra spaces, or trailing spaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_WindowsOSNameHelperAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The WindowsOSNameHelper script include provides methods to handle the formatting
 
 Use in any server-side discovery scripts where you need to format OS names.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## WindowsOSNameHelper - formatWindowsOSName\(String name\)
 

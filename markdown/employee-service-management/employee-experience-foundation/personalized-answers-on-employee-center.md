@@ -2,6 +2,7 @@
 title: Personalized Answers on Employee Center
 description: Get personalized Answers about your leave balance within the ServiceNow system or with an integrated third-party application.Set up a third-party-integrated instance to provide employees with Personalized Answers for leave balances on Employee Center.Configure the leave balance-related actions or any other information like payroll, medical benefits. Configure the related actions depending on the data type.Configure the data fetch type according to your organizational requirement for Personalized Answers- time off on Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/personalized-answers-on-employee-center.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -49,11 +50,11 @@ The following plugins are required for the set-up of this feature with Kronos:
 -   app\_ex\_integrated\_answers
 -   com.glide.hub.action\_step.payload
 
-For more information on ServiceNow® plugins, see [List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+For more information on ServiceNow® plugins, see List of plugins
 
 **Note:** app\_ex\_integrated\_answers plugin runs with Employee Center version 26.0.1 and Employee Experience Foundation version 25.0.1. When you install the plugin, it prompts that the appropriate versions of the said applications are going to be installed.
 
-After the plugins are installed, [Set up the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-kronos.md) to register Kronos as an OAuth provider and authenticate requests from ServiceNow®.
+After the plugins are installed, Set up the UKG spoke to register Kronos as an OAuth provider and authenticate requests from ServiceNow®.
 
 After the UKG setup, ensure that the following prerequisites are established, before training and publishing the NLU model:
 
@@ -82,7 +83,7 @@ If both the prerequisites are in order, move on to the following procedure:
 
 7.  Select **Publish**.
 
-    ![This is a system diagram displaying the API calls made to use the Personalized Answers on Employee Center](../images/pa-api-calls-sys-diagram.jpg "Personalized Answers- Kronos integrated")
+    \[Omitted image "pa-api-calls-sys-diagram.jpg"\] Alt text: This is a system diagram displaying the API calls made to use the Personalized Answers on Employee Center
 
 8.  To test the published model, navigate to **All** &gt; **NLU Workbench** &gt; **Models** &gt; **Personalized Answers Leave Model** &gt; **Intents** &gt; **Try model**.
 

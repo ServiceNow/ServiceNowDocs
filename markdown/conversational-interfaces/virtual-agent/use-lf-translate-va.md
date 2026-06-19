@@ -2,6 +2,7 @@
 title: Localize Virtual Agent topics that use keyword topic discovery
 description: Use the ServiceNow Localization Framework to manage the process of localizing Virtual Agent conversations and keywords.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/use-lf-translate-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use the ServiceNow Localization Framework to manage the process of localizing Vi
 
 ## Before you begin
 
-Check the prerequisites for translating Virtual Agent components. For more information, see [Localizing Virtual Agent conversations](../concept/localize-va-topic.md).
+Check the prerequisites for translating Virtual Agent components. For more information, see [Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md).
 
 Make sure that your Virtual Agent topics are published and performing the way you want them to. Make any adjustments before you send them to localization.
 
@@ -31,11 +32,11 @@ Role required: virtual\_agent\_admin or admin
 
 3.  Select the **Languages** tab.
 
-    Only languages that are installed and activated are displayed. To learn how to activate localization plugins, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+    Only languages that are installed and activated are displayed. To learn how to activate localization plugins, see Activate a language.
 
     **Note:** The ServiceNow AI Platform provides translations for interface features and pre-built topics. So in some topics, languages may display as partially translated.
 
-    ![The Languages tab displays English as the primary language, with Brazilian Portuguese and Simplified Chinese languages available for translation.](../images/va-languages-tab-no-nlu.png)
+    \[Omitted image "va-languages-tab-no-nlu.png"\] Alt text: The Languages tab displays English as the primary language, with Brazilian Portuguese and Simplified Chinese languages available for translation.
 
 4.  Do one of the following:
 
@@ -43,9 +44,9 @@ Role required: virtual\_agent\_admin or admin
         1.  Select the applicable check boxes, and then click **Request translations**.
         2.  When prompted, confirm your choice.
 
-            A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see [Fulfill a localization task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/fulfill-localization-task.md).
+            A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see Fulfill a localization task.
 
-    -   [Edit translations directly in Virtual Agent Designer](edit-translations-va-topics.md).
+    -   [Edit translations directly in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/edit-translations-va-topics.md).
 
 ## Result
 
@@ -53,5 +54,5 @@ When translations are complete, Virtual Agent admins can view, unlock, or edit t
 
 Once translations are published, they are made available to Virtual Agent topics that use keywords dynamically.
 
-**Parent Topic:**[Localizing Virtual Agent conversations](../concept/localize-va-topic.md)
+**Parent Topic:**[Localizing Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/localize-va-topic.md)
 

@@ -1,19 +1,21 @@
 ---
 title: Create tax codes to be added in an invoice
-description: Create tax codes to be added in an invoice.
+description: Create tax codes to define tax rates and jurisdictions for invoice processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-tax-code.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, tax, tax code]
 breadcrumb: [Tax calculations, Create an invoice manually, Work with invoices, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create tax codes to be added in an invoice
 
-Create tax codes to be added in an invoice.
+Create tax codes to define tax rates and jurisdictions for invoice processing.
 
 ## Before you begin
 
@@ -23,7 +25,7 @@ Role required: Tax manager
 
 1.  Navigate to **All** &gt; **Finance Common** &gt; **Tax codes**.
 
-    ![Navigate to Finance Common and Tax Codes](../image/apo-create-tax-code.png)
+    \[Omitted image "apo-create-tax-code.png"\] Alt text: Navigate to Finance Common and Tax Codes
 
 2.  Select **New**.
 
@@ -47,5 +49,5 @@ Role required: Tax manager
 
 The tax code details are added.
 
-**Parent Topic:**[Tax calculations](../concept/tax-calculations-in-apo.md)
+**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-calculations-in-apo.md)
 

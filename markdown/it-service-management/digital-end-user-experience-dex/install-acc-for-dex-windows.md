@@ -2,6 +2,7 @@
 title: Install ACC for DEX on Windows
 description: Install Agent Client Collector \(ACC\) to work with Digital End-User Experience \(DEX\) to monitor and collect data, provide insights into system performance, identify issues, and enable proactive maintenance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/install-acc-for-dex-windows.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -105,15 +106,15 @@ Optional string. To disable verification of the installer certification validati
 4.  To collect DEX metrics, restart the ACC service using one of the following methods:
 
     -   Add **Remote Desktop user** to ServiceNow user.
-    -   [Run as a local system account user](run-acc-local-sys-account.md).
-    -   [Run as a managed group user](run-acc-as-managed-group-user.md).
+    -   [Run as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.md).
+    -   [Run as a managed group user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/run-acc-as-managed-group-user.md).
 5.  Restart the Agent Client Collector service.
 
 
--   **[Run ACC as a local system account user](run-acc-local-sys-account.md)**  
+-   **[Run ACC as a local system account user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/run-acc-local-sys-account.md)**  
 To fetch the complete playbook content data for a Windows device, the Agent Client Collector \(ACC\) must run as a local system account.
--   **[Run ACC as a managed group user](run-acc-as-managed-group-user.md)**  
+-   **[Run ACC as a managed group user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/run-acc-as-managed-group-user.md)**  
 Run Agent Client Collector \(ACC\) from a managed group account to meet your organization's security, manageability, and auditability requirements.
 
-**Parent Topic:**[Installing DEX on your local machine](../concept/installing-dex-local.md)
+**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 

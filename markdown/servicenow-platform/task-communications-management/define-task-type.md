@@ -2,6 +2,7 @@
 title: Create a task type
 description: Create the communication task type and specify whether the task is applicable to a particular table or is globally applicable. The communication task type helps you to filter a task by its type, generate a report of a particular task type, or create SLAs for any communication task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/define-task-type.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -42,5 +43,5 @@ Role required: sn\_comm\_management.comm\_plan\_admin
 
 Define a communication task.
 
-**Parent Topic:**[Working with Task Communications Management](../concept/working-with-tcm.md)
+**Parent Topic:**[Working with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/working-with-tcm.md)
 

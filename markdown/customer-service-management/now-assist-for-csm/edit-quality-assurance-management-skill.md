@@ -2,6 +2,7 @@
 title: Edit Automated quality assurance skill
 description: Edit the configuration of the Automated quality assurance skill to choose the inputs or parameters and display the location of the skill output.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/edit-quality-assurance-management-skill.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -22,15 +23,15 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **Now Assist admin** &gt; **Skills**.
 
-    If you’re already in the Now Assist Admin console, select the **Now Assist Skills** tab.
+    If you’re already in the Now Assist admin console, select the **Now Assist Skills** tab.
 
 2.  In the navigation pane, select the **Customer** workflow, and **CSM** as the product.
 
 3.  On the feature card that contains the default **Automated quality assurance** skill, select **View details**.
 
-4.  In the **All available skills** or **Active skills** section, select the **Options** icon ![](../image/csm-ws-dashboards-more-actions-icon.png) next to the Automated quality assurance skill that you want to configure.
+4.  In the **All available skills** or **Active skills** section, select the **Options** icon \[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More options next to the Automated quality assurance skill that you want to configure.
 
 5.  Select **Edit**.
 

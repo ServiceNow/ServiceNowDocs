@@ -2,6 +2,7 @@
 title: View universal requests with primary ticket
 description: A universal request can have multiple child requests, such as an IT ticket or an HR case. An active child request is called the primary ticket. At a given time, a universal request can have only one primary ticket.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-view-primary-ticket-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -30,5 +31,5 @@ To view the universal request with an active primary ticket, do the following.
 2.  Open and view the universal request you want to work on.
 
 
-**Parent Topic:**[Using Universal Request](../concept/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

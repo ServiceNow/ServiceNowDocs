@@ -2,6 +2,7 @@
 title: Analyst workbench page
 description: View the visualized process map with tools for managing visualizations and performing analysis tasks from a project's page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/analyst-workbench-dashboard.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -24,7 +25,7 @@ To access Analyst workbench:
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 2.  Open a project, and navigate to Analyst workbench.
 
-![Analyst workbench view](../image/explore-analyst-workbench2.png)
+\[Omitted image "explore-analyst-workbench2.png"\] Alt text: Analyst workbench view
 
 ## Breakdowns
 
@@ -36,23 +37,23 @@ Use the **Breakdowns** tab to create and delete filter sets, and set advanced fi
 
 </td><td>
 
-![Breakdown filter tab within the Analyst workbench](../image/breakdown-filter.png)
+\[Omitted image "breakdown-filter.png"\] Alt text: Breakdown filter tab within the Analyst workbench
 
 </td></tr><tr><td>
 
-Use the Filter breakdowns icon \(![Filter breakdown](../image/filter.png)\) to filter your breakdowns based on criteria you select in the filters.
+Use the Filter breakdowns icon \(\[Omitted image "filter.png"\] Alt text: Filter breakdown\) to filter your breakdowns based on criteria you select in the filters.
 
 </td><td>
 
-![Filter breakdowns modal within the Analyst workbench](../image/breakdown-filter-modal.png)
+\[Omitted image "breakdown-filter-modal.png"\] Alt text: Filter breakdowns modal within the Analyst workbench
 
 </td></tr><tr><td>
 
-Use the **Process steps** button to define advanced filters on your transitions. For details on this process, see [Create a process step filter manually](../task/create-transition-manually.md).You can filter the parent and the child tables in the multidimensional projects.
+Use the **Process steps** button to define advanced filters on your transitions. For details on this process, see [Create a process step filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-transition-manually.md).You can filter the parent and the child tables in the multidimensional projects.
 
 </td><td>
 
-![Add activity conditions using the process step filter](../image/transition-location-1.png)
+\[Omitted image "transition-location-1.png"\] Alt text: Add activity conditions using the process step filter
 
 </td></tr><tr><td>
 
@@ -60,7 +61,7 @@ You can also view the number of touchpoint records from the **Breakdowns** tab b
 
 </td><td>
 
-![Touchpoint records from Breakdowns tab](../image/touchpoints-breakdown.gif)
+\[Omitted image "touchpoints-breakdown.gif"\] Alt text: Touchpoint records from Breakdowns tab
 
 </td></tr><tr><td>
 
@@ -68,7 +69,7 @@ You can also view the number of idle case records from the **Breakdowns** tab by
 
 </td><td>
 
-![Idle case records from Breakdowns tab](../image/idletime-breakdowns.gif)
+\[Omitted image "idletime-breakdowns.gif"\] Alt text: Idle case records from Breakdowns tab
 
 </td></tr></tbody>
 </table>## Variation analysis
@@ -79,7 +80,7 @@ Use the **Variants** tab to view the routes taken by your records, the number of
 
 </td><td>
 
-![Variations tab within the Analyst workbench](../image/variation-analysis.png)
+\[Omitted image "variation-analysis.png"\] Alt text: Variations tab within the Analyst workbench
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ View the number of touchpoints from the **Variants** tab by selecting the column
 
 </td><td>
 
-![Touchpoints from the Variations tab](../image/touchpoint-variation.gif)
+\[Omitted image "touchpoint-variation.gif"\] Alt text: Touchpoints from the Variations tab
 
 </td></tr><tr><td>
 
@@ -95,7 +96,7 @@ View the number of idle case records from the **Variants** tab by selecting the 
 
 </td><td>
 
-![Idle time from the Variants tab](../image/idletime-variation.gif)
+\[Omitted image "idletime-variation.gif"\] Alt text: Idle time from the Variants tab
 
 </td></tr></tbody>
 </table>## Process map
@@ -106,7 +107,7 @@ Use the **Process map** to view a visualized map of your project. Within the map
 
 </td><td>
 
-![Process map within the Analyst workbench](../image/process-map-example.png)
+\[Omitted image "process-map-example.png"\] Alt text: Process map within the Analyst workbench
 
 </td></tr><tr><td>
 
@@ -119,7 +120,7 @@ Select a node or transition line within the map to view additional details about
 
  Select a bar, and select **Apply as filter** to filter by these results.
 
- For more information on using this tool, [Refining a process map](analyze-data.md).
+ For more information on using this tool, [Refining a process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/analyze-data.md).
 
  When you select a node, the modal window displays the outgoing and incoming distribution of records via the selected node.
 
@@ -127,7 +128,7 @@ Select a node or transition line within the map to view additional details about
 
 </td><td>
 
-![Details of a node or transition line](../image/node-details-analystwb.png)
+\[Omitted image "node-details-analystwb.png"\] Alt text: Details of a node or transition line
 
 </td></tr><tr><td>
 
@@ -137,13 +138,13 @@ When you select a transition line, the modal window displays the occurrences, re
 
  For information on each analysis, see the following topics:
 
--   [Cluster analysis](cluster-analysis.md)
--   [Work notes analysis](worknotes-analysis.md)
--   [Automated root cause analysis](auto-rca.md)
+-   [Cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/cluster-analysis.md)
+-   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/worknotes-analysis.md)
+-   [Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/auto-rca.md)
 
 </td><td>
 
-![Transition line details](../image/aw-tran-details.png)
+\[Omitted image "aw-tran-details.png"\] Alt text: Transition line details
 
 </td></tr><tr><td>
 
@@ -151,7 +152,7 @@ Select a node or transition, and from the dialog box, select **Filter on Process
 
 </td><td>
 
-![Filter on process step](../image/filter-process-step.png)
+\[Omitted image "filter-process-step.png"\] Alt text: Filter on process step
 
 </td></tr><tr><td>
 
@@ -163,7 +164,7 @@ This task runs using the scheduled tasks that run in the background. After the t
 
 </td><td>
 
-![Set filter on node](../image/filter-on-node.gif)
+\[Omitted image "filter-on-node.gif"\] Alt text: Set filter on node
 
 </td></tr><tr><td>
 
@@ -171,7 +172,7 @@ If a node name is long and is being truncated, you can view its full name. From 
 
 </td><td>
 
-![Auto-fit nodes](../image/auto-fit-nodes.gif)
+\[Omitted image "auto-fit-nodes.gif"\] Alt text: Auto-fit nodes
 
 </td></tr><tr><td>
 
@@ -179,7 +180,7 @@ You can apply multiple activity definitions in one view. Select multiple activit
 
 </td><td>
 
-![Applying multiple activity definitions in one view](../image/multiple-ads.png)
+\[Omitted image "multiple-ads.png"\] Alt text: Applying multiple activity definitions in one view
 
 </td></tr><tr><td>
 
@@ -191,7 +192,7 @@ You can chose to hide only incoming arcs, only outgoing arcs, or both.
 
 </td><td>
 
-![Hide incoming and outgoing arcs](../image/hide-incoming-outgoing.gif)
+\[Omitted image "hide-incoming-outgoing.gif"\] Alt text: Hide incoming and outgoing arcs
 
 </td></tr><tr><td>
 
@@ -205,7 +206,7 @@ This task runs in the background using scheduled tasks. Yo can view the data on 
 
 </td><td>
 
-![Touchpoints from the process map](../image/touchpoint.gif)
+\[Omitted image "touchpoint.gif"\] Alt text: Touchpoints from the process map
 
 </td></tr><tr><td>
 
@@ -213,22 +214,22 @@ You can view the number of idle time cases for the project from the process map.
 
 </td><td>
 
-![Idle time cases from the process map](../image/idletime.gif)
+\[Omitted image "idletime.gif"\] Alt text: Idle time cases from the process map
 
 </td></tr><tr><td>
 
 Create a Task Mining project.Select a node, then select the **Create project** button in the Task Mining section.
 
-For information on creating a Task Mining project, see [Create Task Mining project](create-task-mining-project.md).
+For information on creating a Task Mining project, see [Create Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-task-mining-project.md).
 
-You can access the associated Task Mining projects from the right panel using the icon \(![Task Mining icon](../image/icon-asso-proj.png)\).
+You can access the associated Task Mining projects from the right panel using the icon \(\[Omitted image "icon-asso-proj.png"\] Alt text: Task Mining icon\).
 
 </td><td>
 
-![Create a Task Mining project](../image/wrkbench-tm.png)
+\[Omitted image "wrkbench-tm.png"\] Alt text: Create a Task Mining project
 
 </td></tr></tbody>
-</table>**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](../../../use/par-for-workspace/task/configure-po-map.md).
+</table>**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-po-map.md).
 
-**Parent Topic:**[Process details page](project-view-screen.md)
+**Parent Topic:**[Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/project-view-screen.md)
 

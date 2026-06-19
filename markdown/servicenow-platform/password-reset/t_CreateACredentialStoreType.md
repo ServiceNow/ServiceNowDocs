@@ -2,6 +2,7 @@
 title: Create a credential store type for Password Reset
 description: Create a custom credential store type when the base-system types do not meet your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_CreateACredentialStoreType.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -35,7 +36,7 @@ You can also configure a credential store type to work independently with the pa
 
 5.  To use password reset subflows in Integration Hub, leave the **Use Flow** check box selected.
 
-    **Note:** See [Customize password reset processes and integrate third-party credential services](setup-pwd-reset-ihub.md) for information on creating provider-specific subflows.
+    **Note:** See [Customize password reset processes and integrate third-party credential services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/setup-pwd-reset-ihub.md) for information on creating provider-specific subflows.
 
 6.  Select the **Supports history check** check box to determine whether the credential store supports the history policy capability.
 
@@ -43,7 +44,7 @@ You can also configure a credential store type to work independently with the pa
 
 7.  Select the subflows created for the third-party application.
 
-    **Note:** See [Customize password reset processes and integrate third-party credential services](setup-pwd-reset-ihub.md) for information on creating provider-specific subflows.
+    **Note:** See [Customize password reset processes and integrate third-party credential services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/setup-pwd-reset-ihub.md) for information on creating provider-specific subflows.
 
 <table id="table_mpv_f3s_f5b"><thead><tr><th>
 
@@ -140,13 +141,13 @@ When selected, notifies the user to change the password when the user signs in f
     -   The workflows are available only if you have upgraded from the previous releases.
     |Field|Description|
     |-----|-----------|
-    |Password Reset workflow|Defines the credential store processing. Password Reset workflows are available to use as a model. Provide scripts for each of the activities defined for the subflow. For more information about how to create a workflow, see [Create a workflow](../../workflow-administration/task/t_CreateAWorkflow.md). For installed workflows, see [Installed with Password Reset](../reference/r_InstalledWithPasswordReset.md).|
-    |Connection test workflow|Defines how to test the connection. Connection test workflows are available to use as a model. If you create a connection test subflow, provide scripts for each of the activities defined for the subflow. For installed workflows, see [Installed with Password Reset](../reference/r_InstalledWithPasswordReset.md).|
-    |Get user lock state workflow|Defines how to get the user lock state. Get user lock state workflows are available to use as a model. Provide scripts for each of the activities defined for the subflow. For more on how to create a workflow, see [Create a workflow](../../workflow-administration/task/t_CreateAWorkflow.md). For installed workflows, see [Installed with Password Reset](../reference/r_InstalledWithPasswordReset.md).|
-    |Unlock user workflow|Defines how to unlock a user. Unlock user workflows are available to use as a model. If you create a connection test subflow, provide scripts for each of the activities defined for the subflow. For installed workflows, see [Installed with Password Reset](../reference/r_InstalledWithPasswordReset.md).|
+    |Password Reset workflow|Defines the credential store processing. Password Reset workflows are available to use as a model. Provide scripts for each of the activities defined for the subflow. For more information about how to create a workflow, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflow.md). For installed workflows, see [Installed with Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/r_InstalledWithPasswordReset.md).|
+    |Connection test workflow|Defines how to test the connection. Connection test workflows are available to use as a model. If you create a connection test subflow, provide scripts for each of the activities defined for the subflow. For installed workflows, see [Installed with Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/r_InstalledWithPasswordReset.md).|
+    |Get user lock state workflow|Defines how to get the user lock state. Get user lock state workflows are available to use as a model. Provide scripts for each of the activities defined for the subflow. For more on how to create a workflow, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflow.md). For installed workflows, see [Installed with Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/r_InstalledWithPasswordReset.md).|
+    |Unlock user workflow|Defines how to unlock a user. Unlock user workflows are available to use as a model. If you create a connection test subflow, provide scripts for each of the activities defined for the subflow. For installed workflows, see [Installed with Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/r_InstalledWithPasswordReset.md).|
 
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Customizing Password Reset processes](../concept/customizing-password-reset.md)
+**Parent Topic:**[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/customizing-password-reset.md)
 

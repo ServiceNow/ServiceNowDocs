@@ -2,6 +2,7 @@
 title: Use Microsoft Outlook to create incidents and VTB tasks
 description: Create an incident or VTB task or chat with a virtual agent directly from within Microsoft Outlook using ServiceNow icons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/use-outlook-add-in.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -17,13 +18,13 @@ Create an incident or VTB task or chat with a virtual agent directly from within
 
 ## Before you begin
 
-You must activate and deploy the ServiceNow Add-in for Microsoft outlook. For more information, see [Configuring Microsoft Outlook to create incidents and VTB tasks](../concept/create-incident-outlook.md)
+You must activate and deploy the ServiceNow Add-in for Microsoft outlook. For more information, see [Configuring Microsoft Outlook to create incidents and VTB tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-incident-outlook.md)
 
 Role required: none
 
 ## Procedure
 
-1.  On the Microsoft Outlook Home tab, click the **ServiceNow** icon \(![OutlookAddInIcon](../image/outlook-add-in-icon.png)\) and select **Create Incident** or **Create VTB Task**.
+1.  On the Microsoft Outlook Home tab, click the **ServiceNow** icon \(\[Omitted image "outlook-add-in-icon.png"\] Alt text: OutlookAddInIcon\) and select **Create Incident** or **Create VTB Task**.
 
 2.  In the ServiceNow IT Service Management pane, click **Login** and enter your ServiceNow credentials.
 

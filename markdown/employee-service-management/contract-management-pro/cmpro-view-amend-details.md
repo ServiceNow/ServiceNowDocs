@@ -2,6 +2,7 @@
 title: View amendment details
 description: View the amendment details in the contract repository record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-view-amend-details.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -57,8 +58,8 @@ You can view the certificate of completion in the Attachment pane.
 
 9.  To view certificate of completion for the contract and amendment request, navigate to **Attachments** pane.
 
-    The certification of completion is available for electronic signature workflow only. For more information, see [Activate a system property to generate a certificate of completion](cncore-config-system-prop-COC.md)
+    The certification of completion is available for electronic signature workflow only. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md)
 
 
-**Parent Topic:**[Contract amendments](cmpro-amend-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-amend-landing.md)
 

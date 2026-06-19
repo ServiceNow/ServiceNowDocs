@@ -2,6 +2,7 @@
 title: Map MID Server to container image repository
 description: If network access or datacenter location requires a specific MID Server, map MID Server to a private container image repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/map-mid-server-container-repository.html
 release: australia
 product: Discovery
 classification: discovery
@@ -21,14 +22,14 @@ If network access or datacenter location requires a specific MID Server, map MID
 -   Verify that you have at least version 1.30.2 of Discovery and Service Mapping Patterns.
 -   Verify that the Linux MID Server has the following requirements:
     -   8GB RAM with 4GB for the Java Virtual Machine \(JVM\).
-    -   MID Server **Capability** configured to **Scan Container Images**. For more information on configuring capabilities, see [MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/mid-server-capabilities.md).
+    -   MID Server **Capability** configured to **Scan Container Images**. For more information on configuring capabilities, see .
     -   Can access the image repository.
     -   Has Aqua Trivy, starting 0.44.0, installed on the MID Server. The last version validated is 0.68.2. For more information on installing Aqua Trivy, see the [Container Image scan feature overview \[KB1218504\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1218504) article in the Now Support Knowledge Base.
--   Verify that the container image repository credentials are configured for the private repositories. For more information, see [Create and test your credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_CreateCredential.md) and [Container image repository credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/container-image-repo-credential.md).
+-   Verify that the container image repository credentials are configured for the private repositories. For more information, see  and .
 -   Verify that a container image discovery has run for Docker, Kubernetes, or Amazon Elastic Container Service \(Amazon ECS\) discovery. For more information, see:
-    -   [Docker virtualization](../../discovery/concept/c-docker-virtualization.md)
-    -   [Kubernetes discovery using patterns](../concept/kubernetes-discovery.md)
-    -   [Amazon ECS resource discovery with Patterns](../reference/aws-ecs-fargate-discovery.md)
+    -   [Docker virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c-docker-virtualization.md)
+    -   [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/kubernetes-discovery.md)
+    -   [Amazon ECS resource discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md)
 -   Verify that the Container Repository table contains the repository names required for this mapping. You can view the container repository list by entering `cmdb_ci_container_repository_list.do` in the navigation filter.
 
 Role required: discovery\_admin
@@ -89,7 +90,7 @@ Option for enabling this mapping.
 
 ## What to do next
 
-Scan the container images. For more information, see [Scan container images](container-image-task.md).
+Scan the container images. For more information, see [Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-task.md).
 
-**Parent Topic:**[Container image scanning for software decomposition](../concept/container-image-concept.md)
+**Parent Topic:**[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-concept.md)
 

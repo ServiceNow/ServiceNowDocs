@@ -2,6 +2,7 @@
 title: Personal list administration
 description: Users can customize the layout for any list view by personalizing a list. Administrators can configure options related to list personalization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/c\_AdministeringPersonalLists.html
 release: australia
 product: List Administration
 classification: list-administration

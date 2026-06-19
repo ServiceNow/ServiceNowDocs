@@ -2,11 +2,12 @@
 title: Configure a portal header menu
 description: Define the look and behavior of the portal header menu and assign menu items to appear in the header. The header menu is one of the primary navigation controls for Service Portal users.Use the theme to add a header or footer to your portal.Create a menu with menu items to display in the header of a portal.Allow all users to select their language preferences by enabling the language selector in your portal header.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-header-menu.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 5
 breadcrumb: [Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -38,9 +39,9 @@ Configuring a portal header with a menu involves several steps.
 
 The main menu and header form a header menu when associated with a theme and a portal.
 
-![Gif showing how the header menu and the stock header combine to form the portal menu](../image/HeaderMenu.png)
+\[Omitted image "HeaderMenu.png"\] Alt text: Gif showing how the header menu and the stock header combine to form the portal menu
 
-**Parent Topic:**[Create a portal](create-a-portal.md)
+**Parent Topic:**[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md)
 
 ## Add a header or footer to a portal
 
@@ -206,7 +207,7 @@ Condition
 
 </td><td>
 
-Determines what conditions are required for menu items to show in the header. For example, the condition `gs.hasRole("sp_admin")` restricts access to menu items to users with the sp\_admin role. Hide a menu item by setting this value to **false**. For more information on what conditions to use in the **Condition** field, see [Create a UI Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewUIAction.md) .
+Determines what conditions are required for menu items to show in the header. For example, the condition `gs.hasRole("sp_admin")` restricts access to menu items to users with the sp\_admin role. Hide a menu item by setting this value to **false**. For more information on what conditions to use in the **Condition** field, see Create a UI Action .
 
 </td></tr><tr><td>
 
@@ -238,7 +239,7 @@ Allow all users to select their language preferences by enabling the language se
 
 ### Before you begin
 
-Active the languages your portal users need and configure a portal header menu. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md) and [Configure a portal header menu](configure-header-menu.md#).
+Active the languages your portal users need and configure a portal header menu. For more information, see  and [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md).
 
 Role required: admin
 
@@ -246,7 +247,7 @@ Role required: admin
 
 For all portals except the Knowledge \(/kb\), Customer Support \(/csm\), and Customer Service \(/csp\) portals, the language selector is included but turned off by default. To display the language selector in the portal header for other portals, you must enable it according to this procedure.
 
-In portal headers, the language selector displays the current language selection of the user and a menu of languages that the user can choose from. If region grouping is enabled, languages are displayed according to the configured region groups. For more information about grouping languages, see [Create regions for language selection in portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/create-regions.md).
+In portal headers, the language selector displays the current language selection of the user and a menu of languages that the user can choose from. If region grouping is enabled, languages are displayed according to the configured region groups. For more information about grouping languages, see .
 
 ### Procedure
 

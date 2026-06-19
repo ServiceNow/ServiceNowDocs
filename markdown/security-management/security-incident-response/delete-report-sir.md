@@ -2,6 +2,7 @@
 title: Delete a report
 description: You can delete a report in Security Incident Response which is in published or draft state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/delete-report-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -38,5 +39,5 @@ Role required: sn\_si.analyst
 6.  Select **Delete** to delete the report.
 
 
-**Parent Topic:**[Reports in Security Incident Response](../concept/report-templates-sir.md)
+**Parent Topic:**[Reports in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/report-templates-sir.md)
 

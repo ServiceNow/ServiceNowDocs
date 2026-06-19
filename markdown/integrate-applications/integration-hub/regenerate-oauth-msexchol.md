@@ -2,6 +2,7 @@
 title: Regenerate the Microsoft Exchange Online OAuth token
 description: Authorize the Microsoft Exchange Online spoke by regenerating the Microsoft Exchange Online OAuth token after it expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/regenerate-oauth-msexchol.html
 release: australia
 product: Integration Hub
 classification: integration-hub

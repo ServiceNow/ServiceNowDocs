@@ -2,6 +2,7 @@
 title: Configure GRC notification redirection
 description: Create notification routing rules that automatically direct users to workspace view or classic view based on their access permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -31,15 +32,15 @@ Notification routing rules determine which workspace a user is directed to when 
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_yhj_ymw_h3c"><thead><tr><th align="left" id="d201952e98">
+<table id="choicetable_yhj_ymw_h3c"><thead><tr><th align="left" id="d197960e98">
 
 Field
 
-</th><th align="left" id="d201952e101">
+</th><th align="left" id="d197960e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d201952e107">
+</th></tr></thead><tbody><tr><td id="d197960e107">
 
 **Table**
 
@@ -47,7 +48,7 @@ Description
 
 The table for which notification links are redirected to workspace view.
 
-</td></tr><tr><td id="d201952e116">
+</td></tr><tr><td id="d197960e116">
 
 **Target Workspace**
 
@@ -55,7 +56,7 @@ The table for which notification links are redirected to workspace view.
 
 The workspace to which users are redirected when they select notification links.
 
-</td></tr><tr><td id="d201952e125">
+</td></tr><tr><td id="d197960e125">
 
 **Order**
 
@@ -63,7 +64,7 @@ The workspace to which users are redirected when they select notification links.
 
 The evaluation priority for the routing rule. Lower values are evaluated first when multiple rules exist for the same table.
 
-</td></tr><tr><td id="d201952e134">
+</td></tr><tr><td id="d197960e134">
 
 **Active**
 
@@ -73,7 +74,7 @@ Indicates whether the routing rule is active.
 
  Only active rules apply to notification redirection.
 
-</td></tr><tr><td id="d201952e150">
+</td></tr><tr><td id="d197960e150">
 
 **Table filter**
 
@@ -93,5 +94,5 @@ Optional conditions that determine when the routing rule applies.
 
 The notification routing rule is active. Users with access to the configured workspace are directed to the workspace when they select notification links for records from the specified table. Users without workspace access are directed to the classic view.
 
-**Parent Topic:**[GRC notification redirection](../concept/email-notification-redirection.md)
+**Parent Topic:**[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/email-notification-redirection.md)
 

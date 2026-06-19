@@ -2,6 +2,7 @@
 title: Configure location migration hierarchy
 description: Create a hierarchy for how the location data from the ServiceNow Location table \[cmn\_location\] must be migrated to the Workplace Location \[sn\_wsd\_core\_workplace\_location\] table of Workplace Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/add-location-migration-hierarchy.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -36,9 +37,9 @@ The following location hierarchy is followed throughout the Workplace Service De
 |Area|Room|
 |Area|Space|
 
-For more information about location migration configuration and conditions, refer to [Location migration](../concept/location-migration.md).
+For more information about location migration configuration and conditions, refer to [Location migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/location-migration.md).
 
-After you create the location migration configurations, you must perform the migration separately. To perform the migration after location migration configuration, refer to [Migrate locations from Location table to Workplace locations table](migrate-locations-from-loc-table-to-workplaceloc-table.md).
+After you create the location migration configurations, you must perform the migration separately. To perform the migration after location migration configuration, refer to [Migrate locations from Location table to Workplace locations table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/migrate-locations-from-loc-table-to-workplaceloc-table.md).
 
 **Note:** You cannot migrate locations if they are not as the same as the Workplace Service Delivery location migration hierarchy, which is Region &gt; Site &gt; Campus &gt; Building &gt; Floor &gt; Area &gt; \(Room &gt; Space\) or \(Space &gt; Room\).
 
@@ -69,5 +70,5 @@ The location migration configuration record is added. The locations that match t
 
 ## What to do next
 
-[Migrate locations from Location table to Workplace locations table](migrate-locations-from-loc-table-to-workplaceloc-table.md).
+[Migrate locations from Location table to Workplace locations table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/migrate-locations-from-loc-table-to-workplaceloc-table.md).
 

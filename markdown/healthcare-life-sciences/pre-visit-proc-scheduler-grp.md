@@ -2,6 +2,7 @@
 title: Determine who can work on the appointment booking task for a procedure
 description: Add users who can work on the appointment booking task for a procedure to the Procedure scheduler assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-proc-scheduler-grp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

@@ -1,7 +1,8 @@
 ---
 title: Skill inputs for Now Assist for Accounts Payable Operations \(APO\)
-description: You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
+description: Skill inputs for the invoice case summarization skill, including the base input table and fields used to generate invoice case summaries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/skill-input-now-assist-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -13,7 +14,7 @@ breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now A
 
 # Skill inputs for Now Assist for Accounts Payable Operations \(APO\)
 
-You can configure some of the inputs for a generative AI skill. Inputs permit you to determine how and when a skill is used.
+Skill inputs for the invoice case summarization skill, including the base input table and fields used to generate invoice case summaries.
 
 ## Overview of skills
 

@@ -2,6 +2,7 @@
 title: Service Exchange consumer pre-flows
 description: As a consumer, you can control when data should be synced between the provider tasks on the consumer and provider instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-conf-consumer-flow.html
 release: australia
 product: Service Exchange
 classification: service-exchange

@@ -2,12 +2,13 @@
 title: Explore Now Assist for Sourcing and Procurement Operations \(SPO\)
 description: Now Assist for Sourcing and Procurement Operations \(SPO\) is an application that adds generative AI capabilities to the Source-to-Pay Workspace to help requesters and procurement teams work more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-exploring.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Explore Now Assist for Sourcing and Procurement Operations]
 breadcrumb: [Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -16,7 +17,7 @@ breadcrumb: [Now Assist for SPO, Sourcing and Procurement Operations, Finance an
 
 Now Assist for Sourcing and Procurement Operations \(SPO\) is an application that adds generative AI capabilities to the Source-to-Pay Workspace to help requesters and procurement teams work more efficiently.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Overview of Now Assist for Sourcing and Procurement Operations \(SPO\)
 
@@ -32,7 +33,7 @@ Now Assist for Sourcing and Procurement Operations \(SPO\) includes the followin
 
 ## Now Assist skills for Sourcing and Procurement Operations
 
-![Skills available on Now Assist for Sourcing and Procurement Operations.](../image/now-assist-spo-explore.png)
+\[Omitted image "now-assist-spo-explore.png"\] Alt text: Skills available on Now Assist for Sourcing and Procurement Operations.
 
 The following skills are available in Now Assist for Sourcing and Procurement Operations \(SPO\).
 
@@ -65,7 +66,7 @@ The following skills are available in Now Assist for Sourcing and Procurement Op
     **Note:** A fulfiller with the sn\_spend\_gen\_ai.now\_assist\_fulfiller role can use these summarization skills in Source-to-Pay Workspace.
 
 
-For more information about setting up Now Assist for SPO, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](../task/configure-now-assist-for-spo.md).
+For more information about setting up Now Assist for SPO, see [Configure Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-now-assist-for-spo.md).
 
 As a requester, you can use Now Assist for SPO to:
 
@@ -73,22 +74,22 @@ As a requester, you can use Now Assist for SPO to:
 -   Sourcing requests
 -   Request for products or services that aren't available in the catalog
 
-For guidance on using these capabilities in Now Assist for SPO, see [Use Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo-using.md).
+For guidance on using these capabilities in Now Assist for SPO, see [Use Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-using.md).
 
 Now Assist for SPO is also available in Virtual Agent, where it uses large language models \(LLMs\) and generative AI skills to enhance conversational experiences. These capabilities help improve deflection rates and reduce the manual effort required for Natural Language Understanding \(NLU\) topic discovery.
 
-For detailed information about Now Assist in Virtual Agent and how to use generative AI skills in your conversations, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/now-assist-in-va-landing.md).
+For detailed information about Now Assist in Virtual Agent and how to use generative AI skills in your conversations, see .
 
-To understand how you can interact with the Virtual Agent when Now Assist capabilities are enabled in your instance, see [Exploring Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/exploring-now-assist-va.md).
+To understand how you can interact with the Virtual Agent when Now Assist capabilities are enabled in your instance, see .
 
-During the Conversational Interfaces Assistants guided setup, a Now Assist assistant for Virtual Agent is created automatically. For more information about this assistant, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/llm-assistants.md).
+During the Conversational Interfaces Assistants guided setup, a Now Assist assistant for Virtual Agent is created automatically. For more information about this assistant, see .
 
-Domain separation is supported for Now Assist in Virtual Agent. For more information, see [Now Assist in Virtual Agent domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/na-in-va-domain-separation.md).
+Domain separation is supported for Now Assist in Virtual Agent. For more information, see .
 
--   **[Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo-supporting-info.md)**  
+-   **[Supporting information for Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md)**  
 Get a quick overview of the important information that is related to the Now Assist for Sourcing and Procurement Operations \(SPO\) application.
--   **[Automatically assign categories during SR and PR creation](automatically-assign-categories.md)**  
-AI-driven category prediction automatically assigns product and spend categories when service requests, purchase requisitions, or purchase orders are created or updated, ensuring consistent classification at the line level.
+-   **[Automatically assign categories during SR and PR creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/automatically-assign-categories.md)**  
+AI-driven category prediction automatically assigns product and spend categories when sourcing requests, purchase requisitions, or purchase orders are created or updated, ensuring consistent classification at the line level.
 
-**Parent Topic:**[Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo.md)
+**Parent Topic:**[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
 

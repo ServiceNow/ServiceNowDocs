@@ -2,6 +2,7 @@
 title: Map the Microsoft Azure Sentinel incident fields
 description: Map the individual Microsoft Azure Sentinel incident fields to the fields on the SIR security incident so that you can create incidents with the mapped data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/map-azure-sentinel-incident-fields.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -74,11 +75,11 @@ Click **Import Sample Data** to import sample incidents from Azure Sentinel.This
  Map these retrieved incidents to the **SIR Incident Target Fields**. The incident fields and values appear as individual tabs.
 
 </td></tr></tbody>
-</table>    ![Field mapping of Azure Sentinel incidents](../image/sentinel-field-mapping.png)
+</table>    \[Omitted image "sentinel-field-mapping.png"\] Alt text: Field mapping of Azure Sentinel incidents
 
 2.  To add fields to the default fields that are displayed on the security incident, do the following actions:
 
-    1.  On the SIR Incident Target Fields section, click the ![Map another field button.](../image/sentinel-map-button.png) Map another field button.
+    1.  On the SIR Incident Target Fields section, click the \[Omitted image "sentinel-map-button.png"\] Alt text: Map another field button. Map another field button.
 
         It shows a list of SIR fields, from which you can select a field for a new field to be displayed.
 
@@ -96,7 +97,7 @@ Click **Import Sample Data** to import sample incidents from Azure Sentinel.This
         -   For any other fields, you must select the checkbox that corresponds to a field for any new or updated changes made in the Azure Sentinel incident record within Azure Sentinel. This will automatically update the respective SIR incident data with the new incident data.
         **Important:** Due diligence is required to be done before selecting this functionality as overriding the existing data may result in unstable data for the analyst to work with and any other automation that is set even by the field values of security incident may also get affected. So, it is very important to do the due diligence before you select any override functionality.
 
-3.  To remove a field, use the ![Remove button](../image/sentinel-remove-button.png) Remove item button next to the input expression field in the SIR Incident Target Fields section.
+3.  To remove a field, use the \[Omitted image "sentinel-remove-button.png"\] Alt text: Remove button Remove item button next to the input expression field in the SIR Incident Target Fields section.
 
 4.  To map a field value from the Azure Sentinel Source Fields section to a field on the SIR Incident Target Fields section, use one of the following actions:
 
@@ -120,9 +121,9 @@ Click **Import Sample Data** to import sample incidents from Azure Sentinel.This
 
 5.  To format a field translation for a new field from an Azure sentinel incident to match a field value on a Security Incident, click the **Click here** link in the **SIR Incident Target Fields** header.
 
-6.  To modify the fields which support field translation, click the ![Field format button](../image/sentinel-field-format-button.png) script format field translation icon.
+6.  To modify the fields which support field translation, click the \[Omitted image "sentinel-field-format-button.png"\] Alt text: Field format button script format field translation icon.
 
-    The fields that support field translation are **Category**, **Configuration Item**, and **Priority**. For example, click on ![Field format button](../image/sentinel-field-format-button.png) icon next to the Category. The Azure Sentinel Field Translation script editor opens.
+    The fields that support field translation are **Category**, **Configuration Item**, and **Priority**. For example, click on \[Omitted image "sentinel-field-format-button.png"\] Alt text: Field format button icon next to the Category. The Azure Sentinel Field Translation script editor opens.
 
 7.  Enter any changes to the script and click **Update** to save the changes and return to the Mapping page.
 

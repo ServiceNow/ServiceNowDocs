@@ -2,6 +2,7 @@
 title: Modify classifiers for IP address discovery
 description: When you run an IP address type of discovery, port probes scan devices without the use of credentials, and then Discovery can determine which classifiers to use. You can add port probes and additional classifiers for IP address discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ClassifForIPAddrScan.html
 release: australia
 product: Discovery
 classification: discovery
@@ -33,7 +34,7 @@ To use IP address classification, follow these steps:
 
     The scan can reveal several pieces of data that are useful for configuring classification parameters. An Nmap scan displays port numbers, their state \(open or closed\), their service names, and any version information it can find. From the port information returned in the example below, we can construct criteria to classify UNIX servers \(port 22\), MySQL \(port 3306\), and Apache Tomcat \(port 16000\).
 
-    ![scan output](../image/DiscoveryNmapScan.png)
+    \[Omitted image "DiscoveryNmapScan.png"\] Alt text: scan output
 
 2.  Add an IP Service and port probe.
 
@@ -42,30 +43,30 @@ To use IP address classification, follow these steps:
     1.  Navigate to **Discovery Definition** &gt; **IP Services** and click New.
     2.  Create a new IP Service record using the port number and service from the Nmap scan. In this example, we associate the mysql service with port 3306 and add the CI \(sanops02\) on which the service runs to the Available on Related List.
 
-        ![IP service](../image/DiscoveryIPService.png "Discovery IP Service")
+        \[Omitted image "DiscoveryIPService.png"\] Alt text: IP service
 
     3.  To use Basic Discovery, navigate to **Discovery Definition** &gt; **Functionality Definition** and select the record for **All**.
     4.  Add the new port probes to the list. This tells Discovery which port probes to run for IP address scans.
 
-        ![Discovery functionality definition](../image/DiscoveryFunctionalityDef.png "Discovery functionality definition")
+        \[Omitted image "DiscoveryFunctionalityDef.png"\] Alt text: Discovery functionality definition
 
     5.  Save the record and navigate to **Discovery Definition** &gt; **Port Probes** and click **New**.
     6.  Create a port probe using the new IP Service you just defined.
 
-        ![Discovery Port Probe form](../image/DiscoveryPortProbe.png "Discovery Port Probe")
+        \[Omitted image "DiscoveryPortProbe.png"\] Alt text: Discovery Port Probe form
 
 3.  Create a new classification and add the parameter for IP address scanning.
 
     In this example, we have created an application classifier that will discover Apache Tomcat, based on the port information we received from the Nmap scan. See the following section for details about forming parameters for IP address scans.
 
-    ![Application Classifier form](../image/DiscoveryApplicationClassifier.png "Discovery Application Classifier")
+    \[Omitted image "DiscoveryApplicationClassifier.png"\] Alt text: Application Classifier form
 
 4.  In the Classification Criteria related list, create a criteria filter that determines when this classifier applies to the discovered devices.
 
-    See the [IP address classification parameters](../reference/classification-parameters.md) for a list of the parameters you can use.
+    See the [IP address classification parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/classification-parameters.md) for a list of the parameters you can use.
 
 
 ## What to do next
 
-Run a IP address discovery through the [Discovery Schedule](t_CreateADiscoverySchedule.md#) to search for devices.
+Run a IP address discovery through the [Discovery Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to search for devices.
 

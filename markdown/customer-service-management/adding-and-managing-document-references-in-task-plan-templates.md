@@ -2,7 +2,10 @@
 title: Document References in Task Plan Templates
 description: Document references in task plan templates allow documents to be associated with tasks or cases and made available to task owners. This capability supports adding, viewing, and managing documents within template items, ensuring task owners have access to the required files when working on assigned tasks or cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-and-managing-document-references-in-task-plan-templates.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

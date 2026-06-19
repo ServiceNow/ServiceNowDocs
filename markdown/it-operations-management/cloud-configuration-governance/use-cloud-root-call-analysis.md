@@ -2,6 +2,7 @@
 title: Use Cloud Root Cause Analysis reports
 description: Root Cause Analysis reports help you troubleshoot issues with Cloud Provisioning and Governance. Use the reports to view details about the Cloud Orchestration Trail and the Cloud API Trail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/use-cloud-root-call-analysis.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -29,23 +30,23 @@ Role required: sn\_cmp.cloud\_operator or sn\_cmp.cloud\_admin
     -   **Stages**: groups data by the stage, which identifies when the transaction took place.
     -   **Components**: groups data by the component in the system that was involved in the transaction.
     -   **Steps**: groups data by the step, which is the descriptive step associated with a stage and component.
-    See [The Cloud Orchestration Trail](../concept/cloud-orch-trail.md) for a list of possible steps.
+    See [The Cloud Orchestration Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-orch-trail.md) for a list of possible steps.
 
     Requests are also broken down by requester in the bar chart below. Stacks are broken down by datacenters.
 
-    ![The Cloud Root Cause Analysis dashboard](../image/cloud-root-cause-analysis.png "The Cloud Root Cause Analysis dashboard")
+    \[Omitted image "cloud-root-cause-analysis.png"\] Alt text: The Cloud Root Cause Analysis dashboard
 
 2.  Select an option to obtain the tag data that you want on the report.
 
     |Goal|Do this|
     |----|-------|
     |**Filter the data**|Select from the options, such as the **Level**, **Date**, and the **Request Item**.|
-    |**See updated data**|Point to the top of any of the charts until the refresh icon \(![Refresh icon](../image/icon-refresh.png)\) appears, and then click the icon.|
-    |**Save an image of a chart**|Point to any of the charts until the options icon \(![Options icon](../image/icon-options.png)\) appears, and then select **Save as PNG** or **Save as JPEG**.|
+    |**See updated data**|Point to the top of any of the charts until the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon\) appears, and then click the icon.|
+    |**Save an image of a chart**|Point to any of the charts until the options icon \(\[Omitted image "icon-options.png"\] Alt text: Options icon\) appears, and then select **Save as PNG** or **Save as JPEG**.|
 
 3.  Click any Cloud Orchestration API **Number** to view that specific record.
 
-    See [The Cloud Orchestration Trail](../concept/cloud-orch-trail.md) for field descriptions.
+    See [The Cloud Orchestration Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-orch-trail.md) for field descriptions.
 
 4.  To view reports about the Cloud API Trail, click the **Cloud API Dashboard** tab.
 
@@ -55,10 +56,10 @@ Role required: sn\_cmp.cloud\_operator or sn\_cmp.cloud\_admin
 
     Starting with Australia the Cloud API dashboard will be hidden and no longer activated on new instances but will continue to be supported. The Cloud Services Catalog application provides this functionality now. The application is being prepared for future deprecation.
 
-    ![The Cloud API dashboard](../image/cloud-api-dashboard.png "The Cloud API dashboard")
+    \[Omitted image "cloud-api-dashboard.png"\] Alt text: The Cloud API dashboard
 
 5.  Click any the data in the graphs to open the matching Cloud API Trail records.
 
-    See [The Cloud API Trail](../concept/cloud-api-trail.md#) for descriptions of the Cloud API Trail form fields.
+    See [The Cloud API Trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-api-trail.md) for descriptions of the Cloud API Trail form fields.
 
 

@@ -2,11 +2,12 @@
 title: Modify a legal request
 description: As a legal user, modify a legal request to update the request's details or replace the attached contract document with an updated version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/update-legal-contract-request-tpc.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-19"
 reading_time_minutes: 1
 breadcrumb: [Third-party contract review requests, Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -25,18 +26,16 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal portal and selecting **My Requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
 
-2.  Select **Legal services** from the header.
+2.  Open your submitted legal request from the **My Requests** option on the header menu.
 
-3.  Open your submitted legal request from the **My Requests** option on the header menu.
+3.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
-4.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
+4.  Update the request's details or replace the attached contract document with an updated version.
 
-5.  Update the request's details or replace the attached contract document with an updated version.
-
-6.  Select **Save** to update the record.
+5.  Select **Save** to update the record.
 
 
-**Parent Topic:**[Third-party contract review requests](../concept/legal-request-third-party-contract.md)
+**Parent Topic:**[Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-request-third-party-contract.md)
 

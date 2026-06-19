@@ -2,6 +2,7 @@
 title: Assign roles to Google Cloud Platform users
 description: You assign Cloud Provisioning and Governance roles to user groups and to individual users based on user activities and responsibilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/gcp-assign-roles-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -173,7 +174,7 @@ Grants admin access to any group that you belong to.
 **Related topics**  
 
 
-[Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md)
+[bundle-platadm.t_AssignRoleToGroup]
 
-[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
+[bundle-platadm.t_AssignARoleToAUser]
 

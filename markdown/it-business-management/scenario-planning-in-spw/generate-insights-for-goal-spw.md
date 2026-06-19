@@ -2,11 +2,12 @@
 title: Generate insights for a goal in Strategic Planning Workspace using Now Assist for SPM
 description: Review AI-generated insights to identify at-risk goals, assess forecasted statuses, and act on recommendations before goals fall off track.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/generate-insights-for-goal-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -17,7 +18,7 @@ Review AI-generated insights to identify at-risk goals, assess forecasted status
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Role required: sn\_apw\_advanced.spw\_goal\_user and \(sn\_align\_core.apw\_user or sn\_gf.goal\_admin\)
 
@@ -29,7 +30,7 @@ The skill analyzes the real-time data — including check-in patterns, comments,
 
 **Note:** Only the owner or contributors of the goal can generate insights for the goal.
 
-![Generate goal insights in Strategic Planning Workspace using Goal insights skill.](../images/generate-goal-insights-goal-spw.gif)
+\[Omitted image "generate-goal-insights-goal-spw.gif"\] Alt text: Generate goal insights in Strategic Planning Workspace using Goal insights skill.
 
 ## Procedure
 

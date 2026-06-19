@@ -2,6 +2,7 @@
 title: Quick start tests for Project Portfolio Management
 description: Validate that Project Portfolio Management still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/quick-start-tests-pps-financials.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -572,10 +573,10 @@ Validate that the resource plans associated with a project, project task, or dem
 Rome
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Portfolio Management reference](../../../product/project-portfolio-suite-with-financials/reference/project-portfolio-management-reference.md)
+</table>**Parent Topic:**[Project Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/project-portfolio-management-reference.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

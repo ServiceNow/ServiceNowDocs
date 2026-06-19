@@ -2,6 +2,7 @@
 title: View a job application
 description: Open a job application and see the details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/view-a-job-application.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -17,7 +18,7 @@ Open a job application and see the details.
 
 Open an active job application to view the details. The overview section shows you state, recruiter, location, and work persona.
 
-See the progression of the application along the hiring process on the stepper widget. For more information on the states visible, see [Application states for the applicant](../reference/application-state-applicant.md).
+See the progression of the application along the hiring process on the stepper widget. For more information on the states visible, see [Application states for the applicant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/application-state-applicant.md).
 
 You can also see the following on the page:
 
@@ -25,5 +26,5 @@ You can also see the following on the page:
 -   See your hiring team for the application on the **Hiring team** tab, if your recruiter adds the hiring team information to the tab.
 -   See the job description for the requisition you've applied to on the **Job description** tab.
 
-**Parent Topic:**[Using Applicant Center](use-applicant-center.md)
+**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/use-applicant-center.md)
 

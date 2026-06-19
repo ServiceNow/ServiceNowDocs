@@ -2,6 +2,7 @@
 title: Exploring Innovation Management
 description: The Innovation Management application is a central repository to gather and evaluate ideas to determine which ideas are most likely to be implemented.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/exploring-innovation-management.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -23,35 +24,35 @@ The process of innovation management includes managing an organization's innovat
 
 The image explains the idea workflow from submitting the idea to completing it.
 
-![Idea workflow from submission to completion.](../image/idea_workflow.png "Idea workflow")
+\[Omitted image "idea\_workflow.png"\] Alt text: Idea workflow from submission to completion.
 
 ## Innovation Management benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Collect new ideas for a product, feature in Idea Portal to vote on.|[Submit an idea](../task/submit-idea-in-idea-portal.md)|Users with access to the application.|
-|View, filter, and organize ideas to work upon.|[View, filter, and sort ideas](../task/view-filter-sort-ideas.md)|Users with access to the application.|
-|Collaborate through interactive comment boards to exchange information about ideas in a central location.|[Collaborate on ideas](../task/collaborate-on-an-idea.md)|idea\_manager|
-|Create a task to plan and develop an accepted idea.|[Create a task for an idea](../task/create-a-task-for-an-idea.md)|idea\_manager or idea\_manager\_professional|
-|Create an Idea module to store and group ideas.|[Create an Idea module](../task/create-idea-module.md)|idea\_admin|
-|Create new idea categories to associate with a submitted idea.|[Define new idea categories](../task/define-idea-categories.md)|idea\_admin|
-|Use the Idea Dashboard manager to analyze and review your ideas.|[Analyzing idea metrics using Idea Manager dashboard](../../../use/dashboards/application-content-packs/idea-manager-dashboard.md)|idea\_manager or idea\_manager\_professional|
-|Create an idea from a universal request and manage your ideas.|[Create an Idea from Universal Request](../task/create-idea-from-ur.md)|idea\_admin|
-|Transfer an idea to another department if the idea is rejected or can't be implemented.|[Transfer an Idea to another department](../task/transfer-idea-ur.md)|Agent to whom the idea is assigned or is a part of the assigned work group.|
+|Collect new ideas for a product, feature in Idea Portal to vote on.|[Submit an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/submit-idea-in-idea-portal.md)|Users with access to the application.|
+|View, filter, and organize ideas to work upon.|[View, filter, and sort ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/view-filter-sort-ideas.md)|Users with access to the application.|
+|Collaborate through interactive comment boards to exchange information about ideas in a central location.|[Collaborate on ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/collaborate-on-an-idea.md)|idea\_manager|
+|Create a task to plan and develop an accepted idea.|[Create a task for an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-a-task-for-an-idea.md)|idea\_manager or idea\_manager\_professional|
+|Create an Idea module to store and group ideas.|[Create an Idea module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-idea-module.md)|idea\_admin|
+|Create new idea categories to associate with a submitted idea.|[Define new idea categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/define-idea-categories.md)|idea\_admin|
+|Use the Idea Dashboard manager to analyze and review your ideas.|[Analyzing idea metrics using Idea Manager dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-manager-dashboard.md)|idea\_manager or idea\_manager\_professional|
+|Create an idea from a universal request and manage your ideas.|[Create an Idea from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-idea-from-ur.md)|idea\_admin|
+|Transfer an idea to another department if the idea is rejected or can't be implemented.|[Transfer an Idea to another department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/transfer-idea-ur.md)|Agent to whom the idea is assigned or is a part of the assigned work group.|
 
 ## What to explore next
 
 To learn more about configuring and using Innovation Management, see:
 
--   [Configuring Innovation Management](configuring-innovation-management.md)
--   [Managing ideas using Innovation Management](using-innovation-management.md)
--   [Managing Idea Portal](idea-portal.md)
--   [Analyzing idea metrics using Idea Manager dashboard](../../../use/dashboards/application-content-packs/idea-manager-dashboard.md)
--   [Integrating Innovation Management with Universal Request](universal-req-idea-mgmt.md)
--   [Innovation Management reference](../reference/innovation-management-reference.md)
+-   [Configuring Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/configuring-innovation-management.md)
+-   [Managing ideas using Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/using-innovation-management.md)
+-   [Managing Idea Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-portal.md)
+-   [Analyzing idea metrics using Idea Manager dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/idea-manager-dashboard.md)
+-   [Integrating Innovation Management with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/universal-req-idea-mgmt.md)
+-   [Innovation Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/innovation-management-reference.md)
 
--   **[Predictive Intelligence for Innovation Management](predictive-intelligence-for-innovation.md)**  
+-   **[Predictive Intelligence for Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/predictive-intelligence-for-innovation.md)**  
 The Predictive Intelligence for Innovation Management capability uses machine-learning algorithms to search and display similar ideas while submitting a new idea.
 
-**Parent Topic:**[Innovation Management](innovation-management-landing.md)
+**Parent Topic:**[Innovation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/innovation-management-landing.md)
 

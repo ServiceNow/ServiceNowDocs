@@ -2,6 +2,7 @@
 title: View SSO groups in workspace
 description: View details related to all SSO groups that have access to a SSO application in the Software Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-ssogroups-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -28,5 +29,5 @@ Role required: sam\_admin or sam\_user
 3.  Select a group record to view additional details such as the users and child groups within that group.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

@@ -2,13 +2,14 @@
 title: UI generation
 description: UI generation in Now Assist for Creator uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform using natural language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/ui-generation-landing.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # UI generation
@@ -19,19 +20,19 @@ UI generation in Now Assist for Creator uses AI-powered skills to help app devel
 
 <table id="table_a31_mx5_lbc" class="nav-card"><tbody><tr><td>
 
-[Explore UI generation![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn how you can create UI experiences with the power of AI.](exploring-ui-generation.md)
+[Explore UI generation\[Omitted image "bus-explore.svg"\] Alt text:Learn how you can create UI experiences with the power of AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-ui-generation.md)
 
 </td><td>
 
-[Configure UI generation![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure UI generation.](configuring-ui-generation.md)
+[Configure UI generation\[Omitted image "bus-sdlc.svg"\] Alt text:Configure UI generation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configuring-ui-generation.md)
 
 </td></tr><tr><td>
 
-[Using UI generation![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Quickly generate a UI with natural language.](using-ui-generation.md)
+[Using UI generation\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Quickly generate a UI with natural language.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-ui-generation.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about properties, roles, and more.](ui-generation-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about properties, roles, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -57,18 +58,18 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 
--   **[Exploring UI generation](exploring-ui-generation.md)**  
+-   **[Exploring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-ui-generation.md)**  
 Learn how UI generation uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform® using natural language.
--   **[Configuring UI generation](configuring-ui-generation.md)**  
+-   **[Configuring UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configuring-ui-generation.md)**  
 Configure and install UI generation.
--   **[Using UI generation](using-ui-generation.md)**  
+-   **[Using UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-ui-generation.md)**  
 UI generation in Now Assist for Creator enables developers to build ServiceNow portal experiences faster using natural language. Instead of manually configuring each page, module, or data binding, you describe what you need, and Now Assist for Creator it for you.
--   **[UI generation reference](ui-generation-reference.md)**  
+-   **[UI generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
-**Parent Topic:**[Using generative AI with Now Assist for Creator](../../../build/now-assist-for-creator/concept/using-gen-ai-now-assist-for-creator.md)
+**Parent Topic:**[Using generative AI with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)
 

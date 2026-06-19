@@ -2,6 +2,7 @@
 title: Onboard Jenkins to DevOps Change Velocity — Classic
 description: Connect your Jenkins instance to discover and track your pipelines, and import your orchestration tasks for end to end traceability and change automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/create-jenkins-tool-dev-ops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -19,7 +20,7 @@ Connect your Jenkins instance to discover and track your pipelines, and import y
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
-Install and enable the **ServiceNow DevOps** plugin for Jenkins. If you've already installed it, update to the latest version. For instructions, see [Configure Jenkins plugin](configure-jenkins-plugin.md#).
+Install and enable the **ServiceNow DevOps** plugin for Jenkins. If you've already installed it, update to the latest version. For instructions, see [Configure Jenkins plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-jenkins-plugin.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ Actions:
 -   **Discover** orchestration tasks and pipelines.
 -   **Import** task execution and step execution records.
 
-**Note:** You can authenticate your connection with Jenkins using Jenkins API tokens. For more information, see [Connect to Jenkins using API token authentication](authenticate-jenkins-using-api-token.md).
+**Note:** You can authenticate your connection with Jenkins using Jenkins API tokens. For more information, see [Connect to Jenkins using API token authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/authenticate-jenkins-using-api-token.md).
 
 ## Procedure
 
@@ -73,10 +74,10 @@ Tool Password / Access Token
 
 </td><td>
 
-Jenkins password, access token or the API token you generate.**Note:** To generate API token, see [Connect to Jenkins using API token authentication](authenticate-jenkins-using-api-token.md).
+Jenkins password, access token or the API token you generate.**Note:** To generate API token, see [Connect to Jenkins using API token authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/authenticate-jenkins-using-api-token.md).
 
 </td></tr></tbody>
-</table>        For a list of all the permissions required on the credentials for connecting to Jenkins, see Jenkins permissions in [Permissions required for DevOps tools](../reference/tool-req-permission.md).
+</table>        For a list of all the permissions required on the credentials for connecting to Jenkins, see Jenkins permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/tool-req-permission.md).
 
     3.  Select MID Server for an on-premises tool that is attached to a MID Server.
 
@@ -101,7 +102,7 @@ Jenkins password, access token or the API token you generate.**Note:** To genera
 
 4.  Click **Discover** to discover the existing orchestration tasks \(Jenkins stages\) and pipelines.
 
-    **Note:** Orchestration tasks and pipelines are discovered for folders nested to the level specified in the **sn\_devops.discover.folder.depth** property. For more information, see [Properties installed with DevOps](../concept/dev-ops-administration.md).
+    **Note:** Orchestration tasks and pipelines are discovered for folders nested to the level specified in the **sn\_devops.discover.folder.depth** property. For more information, see [Properties installed with DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-administration.md).
 
     Records are added to the corresponding related lists.
 
@@ -110,5 +111,5 @@ Jenkins password, access token or the API token you generate.**Note:** To genera
     Imported task execution records and step execution records are added to the corresponding related lists.
 
 
-**Parent Topic:**[Jenkins integration with DevOps Change Velocity](../concept/jenkins-integration-dev-ops.md)
+**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
 

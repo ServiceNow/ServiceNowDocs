@@ -2,6 +2,7 @@
 title: Basic authentication credentials
 description: The basic authentication credential type manages access to store basic authentication credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/r\_BasicAuthCredentialsForm.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -55,7 +56,7 @@ Credential ID
 
 </td><td>
 
-Enter the unique key configured for these credentials in the [CyberArk](../concept/c_CyberArkCredStorageIntegrate.md) external credential storage system. The credential ID may be used as a safe override when multiple safes are in use. By default, the syntax in the **Credential ID** field is this: **&lt;safe name&gt;:&lt;Credential ID&gt;**. If the safe name is omitted, there must be a safe name defined in the `config.xml` file. To change the separator character from the default colon to another character, override the value with the optional [**ext.cred.safe\_name**](../task/t_ConfigureTheMIDServerForCyberArk.md) parameter. The **Credential ID** field has a limit of 40 characters.This field is only visible when the **External storage** check box is selected.
+Enter the unique key configured for these credentials in the [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md) external credential storage system. The credential ID may be used as a safe override when multiple safes are in use. By default, the syntax in the **Credential ID** field is this: **&lt;safe name&gt;:&lt;Credential ID&gt;**. If the safe name is omitted, there must be a safe name defined in the `config.xml` file. To change the separator character from the default colon to another character, override the value with the optional [**ext.cred.safe\_name**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md) parameter. The **Credential ID** field has a limit of 40 characters.This field is only visible when the **External storage** check box is selected.
 
 </td></tr><tr><td>
 

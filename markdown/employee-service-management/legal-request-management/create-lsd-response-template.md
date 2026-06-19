@@ -2,6 +2,7 @@
 title: Create or modify a response template for legal services
 description: Create or modify a response template with a reusable message that legal fulfillers can use to send users quick and consistent messages. They can use these reusable messages in their assigned legal requests or legal matter forms, as well as in chat sessions or emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/create-lsd-response-template.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -23,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_config
 
 ## About this task
 
-Response templates are reusable messages that can be used by the legal fulfillers to respond to stakeholders of a legal request or legal matter. For more information, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md).
+Response templates are reusable messages that can be used by the legal fulfillers to respond to stakeholders of a legal request or legal matter. For more information, see Response templates.
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Response templates are reusable messages that can be used by the legal fulfiller
     -   To modify an existing response template, open it from the list.
 3.  On the form, fill in the fields.
 
-    For field descriptions, see [Response Template form](../reference/response-template-fields.md).
+    For field descriptions, see [Response Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/response-template-fields.md).
 
 4.  Save the response template.
 
@@ -60,5 +61,5 @@ Response templates are reusable messages that can be used by the legal fulfiller
 
 The response template is ready to be used by the legal fulfiller through the configured channels.
 
-**Parent Topic:**[Configuring Legal Request Management](../concept/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
 

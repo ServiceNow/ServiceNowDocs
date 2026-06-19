@@ -2,6 +2,7 @@
 title: Extend On-call users for Start Zoom Team Chat
 description: Shows the list of On-call users in Start Zoom Team Chat for a change, request, or a request item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/extend-oncall-users-start-zoom-chat.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -36,5 +37,5 @@ Role required: admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Chat group to include On-call Scheduling users for Start Zoom Team Chat](../concept/oncall-users-start-zoom-chat.md)
+**Parent Topic:**[Configure Chat group to include On-call Scheduling users for Start Zoom Team Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/oncall-users-start-zoom-chat.md)
 

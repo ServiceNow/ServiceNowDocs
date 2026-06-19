@@ -2,6 +2,7 @@
 title: Microsoft Server Infrastructure and License Consumption report
 description: Get a unified overview of your Microsoft server products, including their infrastructure, license usage, and exemptions, with detailed justifications for exemptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/device-license-consumption-report.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -61,7 +62,7 @@ The Microsoft Server Infrastructure and License Consumption report follows a hie
 
 To access all the information on the report, scroll all the way to the right of the report. For enhanced usability, you can also export the entire report to an Excel format, facilitating easier review and analysis.
 
-![Microsoft Infrastructure and License Consumption report](../image/microsoft-infrastructure-report.png)
+\[Omitted image "microsoft-infrastructure-report.png"\] Alt text: Microsoft Infrastructure and License Consumption report
 
 ## Understanding licensing layers
 
@@ -153,5 +154,5 @@ The following use cases are supported by the report:
 -   Dual Usage Rights.
 -   Licensing at the host layer.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

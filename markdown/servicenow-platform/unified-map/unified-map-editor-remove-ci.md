@@ -1,7 +1,8 @@
 ---
 title: Remove a CI from a map using the map editor
-description: You can remove \(hide\) a CI from the map only if you added it during the current editing session and have not yet saved the map. You cannot remove a CI that was on the map when you started the editing session.
+description: You can remove \(hide\) a CI from the map only if you added it during the current editing session and have not yet saved the map. You can't remove a CI that was on the map when you started the editing session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-editor-remove-ci.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -13,7 +14,7 @@ breadcrumb: [Editing a map, Use, Unified Map, Configuration Management Database 
 
 # Remove a CI from a map using the map editor
 
-You can remove \(hide\) a CI from the map only if you added it during the current editing session and have not yet saved the map. You cannot remove a CI that was on the map when you started the editing session.
+You can remove \(hide\) a CI from the map only if you added it during the current editing session and have not yet saved the map. You can't remove a CI that was on the map when you started the editing session.
 
 ## Before you begin
 
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-When you remove \(hide\) a CI from the map, the record of the CI in the CMDB is not deleted. In contrast, connection records for a removed CI are affected as described in [Deleting a connection](../concept/unified-map-editing-map.md#section-connections-deleting).
+When you remove \(hide\) a CI from the map, the record of the CI in the CMDB is not deleted. In contrast, connection records for a removed CI are affected as described in [Deleting a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/unified-map-editing-map.md).
 
 ## Procedure
 

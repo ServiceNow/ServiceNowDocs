@@ -2,6 +2,7 @@
 title: Configure email recommendation
 description: Configure email reply recommendation to help agents generate and refine efficient email responses based on conversation context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-email-reply-recommendation-in-now-assist.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

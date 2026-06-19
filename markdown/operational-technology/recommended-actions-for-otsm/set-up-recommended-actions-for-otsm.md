@@ -2,6 +2,7 @@
 title: Set up Recommended Actions for Operational Technology Service Management \(OTSM\)
 description: Set up recommended actions to display relevant recommendations in the Industrial Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/recommended-actions-for-otsm/set-up-recommended-actions-for-otsm.html
 release: australia
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
@@ -23,20 +24,20 @@ Role required: admin
 
 1.  Create a rule in Recommended Actions for OTSM.
 
-    OTSM enables you to create new rules. For more information, see [Create a rule in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-rules-create.md).
+    OTSM enables you to create new rules. For more information, see .
 
 2.  Create a recommendation.
 
-    OTSM enables you to create new recommendations. For more information, see [Create a recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-recommendations-create.md).
+    OTSM enables you to create new recommendations. For more information, see .
 
 3.  Create a resource generator.
 
-    OTSM enables you to create new resource generators. For more information, see [Create a resource generator in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-resource-generators-create.md).
+    OTSM enables you to create new resource generators. For more information, see .
 
 4.  Create Guidance and field recommendations.
 
-    OTSM enables you to configure or create guidance and field recommendations. For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-config-recommendations.md).
+    OTSM enables you to configure or create guidance and field recommendations. For more information, see .
 
 
-**Parent Topic:**[Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](../concept/configuring-recommended-actions-otsm.md)
+**Parent Topic:**[Configuring Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/recommended-actions-for-otsm/configuring-recommended-actions-otsm.md)
 

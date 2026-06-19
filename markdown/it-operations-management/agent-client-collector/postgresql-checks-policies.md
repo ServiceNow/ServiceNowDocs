@@ -2,6 +2,7 @@
 title: PostgreSQL default checks and policies
 description: Agent Client Collector provides the following default checks and policies for PostgreSQL health monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/postgresql-checks-policies.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -28,5 +29,5 @@ Agent Client Collector provides the following default checks and policies for Po
 |Metric|postgresql.metric-statsio|Provides table based metrics related index reads/total hits to a table index.|`commonchecks metric-postgres-statsio -s {{.labels.params_scope}} -H {{.labels.params_host}} -p {{.labels.params_port}} -d {{.labels.params_database}}`|
 |Metric|postgresql.metric-statstable|Provides metrics related to CRUD operations.|`commonchecks metric-postgres-statstable -d {{.labels.params_database}} -H {{.labels.params_host}} -s {{.labels.params_scope}} -p {{.labels.params_port}}`|
 
-**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

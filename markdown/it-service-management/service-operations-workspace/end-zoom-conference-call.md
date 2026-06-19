@@ -2,6 +2,7 @@
 title: End a Zoom conference call in Service Operations Workspace
 description: As a host or a user with the incident manager role, you can end the conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/end-zoom-conference-call.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,13 +24,13 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(![List icon](../image/list-icon-new.png)\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select the incident record that has an active conference call.
 
-5.  Select the **Collaborate** icon \(![Collaborate icon](../image/collab-icon-02.png)\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
 
 6.  Select the **Calls** tab.
 
@@ -40,5 +41,5 @@ Role required: itil
 9.  Select **End call**.
 
 
-**Parent Topic:**[Use Zoom to make conference calls in Service Operations Workspace](../concept/zoom-sow.md)
+**Parent Topic:**[Use Zoom to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/zoom-sow.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with Sourcing Pipeline Management
 description: Several types of components are installed with activation of the Sourcing Pipeline Management \(sn\_spend\_pipeline\) plugin, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/components-pipeline-mgmt.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -113,5 +114,5 @@ Pipeline Project\(sn\_spend\_pipeline\_project\)
 Stores the pipeline projects.Extends the Task \(task\) table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing Pipeline Management](../concept/spo-sourcing-pipeline-mgmt.md)
+</table>**Parent Topic:**[Sourcing Pipeline Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-sourcing-pipeline-mgmt.md)
 

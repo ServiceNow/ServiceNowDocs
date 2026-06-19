@@ -2,6 +2,7 @@
 title: Emergency Alert template
 description: Build an application in App Engine Studio \(AES\) using the Emergency Alert template to manage communications and track essential resources during an emergency.The following tables, experiences, automated workflows, and roles are included in the Emergency Alert template for App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/emergency-alert-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -19,9 +20,9 @@ An emergency alert app allows your organization to keep employees informed and c
 
 You can use the Emergency Alert template to create command center dashboards and a mobile app to monitor and notify employees about the latest news. Employees can self-report their status, request work-from-home or time off, and receive instructions during an emergency. Managers can assess the impact on their respective teams, approve or reject requests, request for status, and automatically receive instruction on actions to take during any emergency.
 
-For more information on creating an application using a template, see [Create your app using an application template](../task/use-app-template.md).
+For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)
 
 ## Emergency Alert template contents
 

@@ -2,6 +2,7 @@
 title: Add a Shopping Hub widget to your service portal
 description: You can add a Shopping Hub widget to your service portal so that shoppers can view the purchasing to-dos assigned to them from the service portal before getting redirected to work on them in the Shopping Hub portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/add-shoppinghub-widget-service-portal.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ You can add a Shopping Hub widget to your service portal so that shoppers can vi
 
 ## Before you begin
 
-Role required: admin or sp\_admin
+Role required: sn\_shop.shopping\_hub\_admin and sp\_admin
 
 ## Procedure
 
@@ -32,5 +33,5 @@ Role required: admin or sp\_admin
 
 You can select the individual to-dos or select **View all** to view and work on them in Shopping Hub.
 
-**Parent Topic:**[Service portal configuration for ShoppingHub](../concept/service-portal-configuration-for-shoppinghub.md)
+**Parent Topic:**[Service portal configuration for ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/service-portal-configuration-for-shoppinghub.md)
 

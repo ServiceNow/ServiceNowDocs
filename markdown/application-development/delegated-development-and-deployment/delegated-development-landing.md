@@ -2,6 +2,7 @@
 title: Delegated Development
 description: Delegated development allows designated users without a system admin role to develop or deploy applications on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/delegated-development-landing.html
 release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -19,15 +20,15 @@ Delegated development allows designated users without a system admin role to dev
 
 <table id="table_kqw_nbc_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Delegated Development features and concepts.](../concept/exploring-delegated-development.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Delegated Development features and concepts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/exploring-delegated-development.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure permissions and users.](../task/configuring-delegated-development.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure permissions and users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/configuring-delegated-development.md)
 
 </td><td>
 
-[Administer![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Administer permissions and users.](../task/administer-delegated-development.md)
+[Administer\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Administer permissions and users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/administer-delegated-development.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

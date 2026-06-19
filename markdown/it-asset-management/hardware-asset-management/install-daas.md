@@ -2,6 +2,7 @@
 title: Install Hardware Asset Management for DaaS
 description: You can install the Hardware Asset Management for DaaS application \(com.sn\_daas\_ham\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/install-daas.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -30,7 +31,7 @@ The following items are installed with Hardware Asset Management for DaaS:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Hardware Asset Management for DaaS](../reference/installed-with-daas.md).
+For more information, see [Components installed with Hardware Asset Management for DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/installed-with-daas.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Use Java/C\#/PHP code to fetch the XML data using basic authentication
 description: If a local data store is not an option, another way to get the data is to call the CSV/XML processor directly and then parse the results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_FetchTheXMLData.html
 release: australia
 product: Web Services
 classification: web-services
@@ -50,5 +51,5 @@ Use the resulting data in a similar manner as you would a direct SOAP call. An e
 ?>
 ```
 
-**Parent Topic:**[SOAP strategies](../concept/c_SOAPStrategies.md)
+**Parent Topic:**[SOAP strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPStrategies.md)
 

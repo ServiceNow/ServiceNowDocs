@@ -2,6 +2,7 @@
 title: Pre-link Virtual Agent requesters before integration with Slack
 description: Pre-link your Virtual Agent requesters to a ServiceNow instance before they run the Conversational Integration with Slack. Batch pre-linking enables your Virtual Agent users immediately to chat with a virtual agent and receive notifications without going through the initial authentication linking process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/prelink-va-users-integ-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,8 +18,8 @@ Pre-link your Virtual Agent requesters to a ServiceNow instance before they run 
 
 ## Before you begin
 
--   [Manage the ServiceNow Virtual Agent integration with Slack](configure-va-slack.md), with the **Automatically Link ServiceNow user profiles** option enabled.
--   [Set up Slack Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md).
+-   [Manage the ServiceNow Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-slack.md), with the **Automatically Link ServiceNow user profiles** option enabled.
+-   Set up Slack Spoke.
 
 Roles required:
 
@@ -51,10 +52,10 @@ Batch pre-linking happens automatically via the **Slack Daily Pre-Link Job** sch
 
 3.  In the **Run** field, change the run time to your desired time.
 
-4.  For a description of the other fields that you can change in this form, including **Time zone**, see [Automatically run a script of your choosing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
+4.  For a description of the other fields that you can change in this form, including **Time zone**, see Automatically run a script of your choosing.
 
 5.  Click **Save**.
 
 
-**Parent Topic:**[Configure Virtual Agent settings for Slack](configure-va-slack-settings.md)
+**Parent Topic:**[Configure Virtual Agent settings for Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-slack-settings.md)
 

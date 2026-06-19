@@ -2,11 +2,14 @@
 title: Create a Developer Support case
 description: Enter a support case to engage Developer Support assistance, if you are a named contact on the Impact plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/create-developer-support-case.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Developer Support, Platform Health, Using Impact, Impact]
+breadcrumb: [Debug instance customizations with Developer Support, Platform Health, Using Impact, Impact]
 ---
 
 # Create a Developer Support case

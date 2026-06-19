@@ -2,7 +2,10 @@
 title: Create a model to predict similar knowledge articles
 description: Use the Task Intelligence for CSM to create and train a machine learning model that recommends relevant knowledge articles based on the context of open incidents. The model analyzes existing data to display relevant articles when working on a current case, helping agents find useful information faster. The plugin includes a ready-to-train model for predicting similar articles and also enables you to create custom models tailored to your data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-task-intel-create-model-similar-knowledge-articles.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

@@ -2,6 +2,7 @@
 title: Define shifts for your workplace
 description: Define shifts in Workplace Core with specific schedules so you can designate areas or workplaces and assign employees for each shift.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/create-shifts-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -17,13 +18,13 @@ Define shifts in Workplace Core with specific schedules so you can designate are
 
 ## Before you begin
 
--   [Providing your workplace data](../concept/providing-your-workplace-data-wsd.md).
+-   [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/providing-your-workplace-data-wsd.md).
 -   Ensure you have the following information:
     -   Appropriate shift schedules
     -   Data of the employees who would operate from the office in this shift
     -   Data of the workplaces to be made available for this shift
 
-**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see Configure a catalog in Service Portal.
 
 Role required: sn\_wsd\_core.workplace\_manager
 
@@ -67,7 +68,7 @@ Schedule
 
 Schedule for the shift.For a general shift schedule, select **General shift**.
 
- For more information about how to create a shift schedule, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md).
+ For more information about how to create a shift schedule, see Define a schedule.
 
 </td></tr><tr><td>
 
@@ -206,5 +207,5 @@ You can configure other information such as employees, workplaces, and maintenan
 -   Associate more workplaces with a shift.
 -   Associate tasks with a shift.
 
-**Parent Topic:**[Configuring shifts for your workplace](../concept/configuring-shifts-for-your-workplace-wsd.md)
+**Parent Topic:**[Configuring shifts for your workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/configuring-shifts-for-your-workplace-wsd.md)
 

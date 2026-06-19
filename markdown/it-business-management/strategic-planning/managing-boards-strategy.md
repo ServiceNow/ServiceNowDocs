@@ -2,11 +2,12 @@
 title: Managing boards in Strategic Planning Workspace
 description: Using boards in Strategy and Goals within Strategic Planning Workspace, you can organize strategic plans, priorities, goals, and targets in a single, focused view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/managing-boards-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -32,7 +33,7 @@ When you create a board, you can choose whether to base it on strategic plans, s
 -   A goals-based board lets you create goals and targets that align with your strategic priorities, with the ability to tailor the board by entity type and entity to focus on the goals that matter most.
 -   A combined strategy and goals board includes two pages—Strategy and Goals—supporting both strategic planning and goal execution within a single board.
 
-![Create a combined strategy and goal-based board.](../image/board-creation-strategy-goals.gif "Creating a combined strategy and goals-based board")
+\[Omitted image "board-creation-strategy-goals.gif"\] Alt text: Create a combined strategy and goal-based board.
 
 ## What you can do with boards
 
@@ -51,12 +52,12 @@ Boards support the following capabilities to help you manage your organization's
     Add boards to your favorites for faster navigation. Favorited boards appear in your quick-access list, reducing time spent searching for frequently used views.
 
 
--   **[Create a board](../task/create-board-strategy.md)**  
+-   **[Create a board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/create-board-strategy.md)**  
 Create boards that bring strategic priorities, goals, and targets together in one focused view, helping your organization stay aligned and drive measurable business outcomes.
--   **[Modify a board](../task/modify-board-strategy.md)**  
+-   **[Modify a board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/modify-board-strategy.md)**  
 Update the details of a board, including its name, description, and configuration settings, to reflect changes in your strategic direction or organizational needs as they evolve.
--   **[Share a board](../task/share-board-strategy.md)**  
+-   **[Share a board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/share-board-strategy.md)**  
 Share your board with stakeholders and planning managers to provide visibility into goal and target progress, and enable collaboration across your organization.
 
-**Parent Topic:**[Strategy and Goals](../reference/strategy-goals-landing-page.md)
+**Parent Topic:**[Strategy and Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/strategy-goals-landing-page.md)
 

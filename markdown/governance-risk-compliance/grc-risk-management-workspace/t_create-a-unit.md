@@ -2,6 +2,7 @@
 title: Create a metric unit
 description: Define the units in which the metric scores are displayed. The units can be numbers, percentages, currencies, quantities of time, or any other unit that you define. The commonly used units are provided by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_create-a-unit.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -39,5 +40,5 @@ Role required: sn\_grc\_metric.manager, sn\_risk.user and sn\_compliance.user.
 
 The metric unit is saved in the Units list.
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

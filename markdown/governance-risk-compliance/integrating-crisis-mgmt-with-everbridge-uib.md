@@ -2,6 +2,7 @@
 title: Emergency notifications in Everbridge
 description: You can integrate Crisis Management in the BCM application with Everbridge notifications system. You can then send an emergency notification to an individual or a group of people alerting them of an impending emergency. It provides a one-way notification and two-way communication through properly established delivery channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/integrating-crisis-mgmt-with-everbridge-uib.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -25,17 +26,17 @@ When you send an emergency notification from the Business Continuity Workspace, 
 
 The emergency notifications for an event are displayed on the **Emergency notifications** tab for the event. You can view the details of the emergency notification such as the notification state, start date, end date, and so on as shown in the example.
 
-![Emergency notifications tab.](../image/emergency-notification.png)
+\[Omitted image "emergency-notification.png"\] Alt text: Emergency notifications tab.
 
 The emergency notification form is shown in the example.
 
-![Emergency notification form.](../image/notification-form.png)
+\[Omitted image "notification-form.png"\] Alt text: Emergency notification form.
 
 ## Summary of the notification sent to contacts
 
 The **Summary** section in the notification form displays a list of the contacts and groups to whom the notification was sent and their responses are also recorded. It also displays the number of contacts who could not be reached, the number of contacts who acknowledged the notification, and the number of pending acknowledgments. This information is retrieved from Everbridge and it is displayed in your Business Continuity Workspace as shown in the example.
 
-![Summary of the notification sent to the contacts.](../image/SummaryEmergNotif.png "Summary of the notification sent to the contacts")
+\[Omitted image "SummaryEmergNotif.png"\] Alt text: Summary of the notification sent to the contacts.
 
 The Summary section in the notification form contains details:
 
@@ -64,5 +65,5 @@ If there are many contacts to whom the notification could not be delivered, then
 
 ## Administrative tasks for integrating Crisis Management with Everbridge
 
-For information on the administrative tasks for integrating Crisis Management with Everbridge notifications system, see [Setup for Everbridge notifications](setup-steps-for-emergency-notification-uib-ws.md).
+For information on the administrative tasks for integrating Crisis Management with Everbridge notifications system, see [Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md).
 

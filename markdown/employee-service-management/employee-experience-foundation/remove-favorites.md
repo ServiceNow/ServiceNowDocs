@@ -2,6 +2,7 @@
 title: Remove favorites
 description: Enable the RCAs to manage the favorites options from the Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/remove-favorites.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

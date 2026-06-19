@@ -2,6 +2,7 @@
 title: Crisis map view
 description: When you install the GRC: Crisis map application in your instance, you can view the Crisis map icon in the List view. You can integrate the Crisis map application with BCM and analyze real-time threat alerts from different locations in a map view. You can then take remedial actions and manage the crisis events from Business Continuity Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-uib-ws.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -22,17 +23,17 @@ The Crisis map displays real‑time alerts from integrated threat feeds. Users c
 
     **Note:**
 
-    To enable the search functionality in Crisis map, you must set the **sn\_bcm\_map.use\_google\_places\_lib** system property. For more information on setting the property, see [Properties installed with BCM](../reference/properties-bcm.md).
+    To enable the search functionality in Crisis map, you must set the **sn\_bcm\_map.use\_google\_places\_lib** system property. For more information on setting the property, see [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/properties-bcm.md).
 
-    To enable Crisis map functionality in the GRC: Crisis map application, you must set up Google maps. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
+    To enable Crisis map functionality in the GRC: Crisis map application, you must set up Google maps. For more information, see Set up Google Maps API.
 
 -   Asset and task details for assessing risk and acting on alerts
 
 A typical view of the Crisis map application is shown in the example.
 
-![Integrating alerts in Crisis map.](../image/crisis-map-uib-ws.png)
+\[Omitted image "crisis-map-uib-ws.png"\] Alt text: Integrating alerts in Crisis map.
 
-For more information on the feeds, alerts, and events in Crisis map, see [Crisis map interface](threats-feeds-alerts-crisis-map.md).
+For more information on the feeds, alerts, and events in Crisis map, see [Crisis map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/threats-feeds-alerts-crisis-map.md).
 
 ## Tasks for BCM administrators
 
@@ -41,7 +42,7 @@ With the BCM administrator role, perform these setup tasks for Crisis map:
 -   Enable threat feed integrations that are provided by the base system.
 -   Configure additional threat feeds into the Crisis Management application. These configurations alert the crisis managers about the threats and aids them to take an appropriate action on time.
 
-For more information on the setup tasks for Crisis map, see [Setup for Crisis map](crisis-map-admin-tasks.md) in the configuration section.
+For more information on the setup tasks for Crisis map, see [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-admin-tasks.md) in the configuration section.
 
 ## Alerts panel in Crisis map
 
@@ -60,13 +61,13 @@ The **Alerts** panel in Crisis map displays the details:
 
 You can open or dismiss an alert in the alerts panel. You can also subscribe to an alert by selecting the bell icon as shown in the example.
 
-![Single alert panel.](../image/alerts-panel-crisis-map.png)
+\[Omitted image "alerts-panel-crisis-map.png"\] Alt text: Single alert panel.
 
 ## Alerts panel
 
 When you select an alert in the **Alerts** panel, it launches a zoomed-in view with the alert details such as category, event, and so on as shown in the example.
 
-![Focussed view for an alert.](../image/single-alert-zoomed-in-view.png)
+\[Omitted image "single-alert-zoomed-in-view.png"\] Alt text: Focussed view for an alert.
 
 You can view details of a single alert in the Alerts panel:
 
@@ -94,7 +95,7 @@ You can view details of a single alert in the Alerts panel:
 
 After you have set up Google maps, you can view the locations of the alerts in the Map view as shown in the example.
 
-![Locations of the alerts in the Map view.](../image/layers-icon-in-map-view-crisis-map.png)
+\[Omitted image "layers-icon-in-map-view-crisis-map.png"\] Alt text: Locations of the alerts in the Map view.
 
 You can view these details in the Map view.
 

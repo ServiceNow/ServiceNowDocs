@@ -2,7 +2,10 @@
 title: Components installed with ITOM/OT SU Licensing
 description: Several types of components are installed with activation of the ITOM/OT SU Licensing plugin, including tables and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/components-installed-with-itom-su-licensing.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -131,5 +134,5 @@ Historical Licensable CIs\[sn\_itom\_licensing\_itom\_lu\_historical\_cis\]
 Contains the list of Historical Licensable CIs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](itom-su-licensing-reference.md)
+</table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-su-licensing-reference.md)
 

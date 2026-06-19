@@ -2,6 +2,7 @@
 title: Translate a related list name
 description: Related lists appear at the bottom of forms. You can translate a related list name by configuring the list control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_TranslateARelatedListName.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -36,6 +37,6 @@ Role required: personalize\_control
 
 5.  Select **Submit** or **Update**.
 
-    The system creates a new entry in the Translated Name / Field \[sys\_translated\] table or updates the existing entry for this language. For more information about this table, see [Translated Name / Field table](../reference/r_TranslatedNameFieldTable.md).
+    The system creates a new entry in the Translated Name / Field \[sys\_translated\] table or updates the existing entry for this language. For more information about this table, see [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_TranslatedNameFieldTable.md).
 
 

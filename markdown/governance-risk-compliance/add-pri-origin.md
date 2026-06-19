@@ -2,9 +2,10 @@
 title: Add the primary origin
 description: Add a primary origin of an operational vulnerability in its record. Once the primary origin of the operational vulnerability is specified, its upstream dependencies are automatically included in the impacted areas. It enables you to view the operational vulnerability from all affected perspectives. The source is automatically added as the primary origin on the Primary origin tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-pri-origin.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-01"
 reading_time_minutes: 3
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -23,7 +24,7 @@ Beginning with Release 20.1.x, the Operational Resilience application supports t
 
 Consider the following example where the relationships are configured between objects.
 
-![CSDM objects.](../image/csdm-objects-rel.png)
+\[Omitted image "csdm-objects-rel.png"\] Alt text: CSDM objects.
 
 If you have a business process BP1 as shown in the relationship diagram, it has service offering SO1 and business service BS1 as upstream relationships. With the enhanced functionality, adding BP1 as an operational vulnerability automatically includes SO1 and BS1 in the impacted areas, which are displayed in the Impacted Areas tab of the operational vulnerability record.
 
@@ -37,17 +38,17 @@ If you have a business process BP1 as shown in the relationship diagram, it has 
 
 4.  Update the source record in the **Source record** field in the Primary origin section of the **Details** tab and select **Save**.
 
-    If you add the source in the **Source** field and the source record in the **Source record** field in the Primary origin section of the **Details** tab, the system automatically edits the primary origin and displays it on the **Primary origin** tab. In the following example, the Source Table is Business Service, the Source is Business service, and the selected source record is BS1000.![Source field.](../image/pri-origin-src-field.png)
+    If you add the source in the **Source** field and the source record in the **Source record** field in the Primary origin section of the **Details** tab, the system automatically edits the primary origin and displays it on the **Primary origin** tab. In the following example, the Source Table is Business Service, the Source is Business service, and the selected source record is BS1000.\[Omitted image "pri-origin-src-field.png"\] Alt text: Source field.
 
-    As shown in the example, the source record BS1000 is automatically updated as the primary origin on the **Primary origin** tab.![Primary origin tab.](../image/pri-origin-updated.png)
+    As shown in the example, the source record BS1000 is automatically updated as the primary origin on the **Primary origin** tab.\[Omitted image "pri-origin-updated.png"\] Alt text: Primary origin tab.
 
     Adding the primary origin automatically adds its upstream dependencies to the impacted areas as shown in the example. The operational vulnerability can be seen from all the impacted area.
 
-    ![Primary origin impacted area.](../image/pri-ori-imp-area.png)
+    \[Omitted image "pri-ori-imp-area.png"\] Alt text: Primary origin impacted area.
 
     For example, you establish a relationship from a business service to a service offering, and from the service offering to a business process \(BS - SO - BP\), where SO is the downstream entity of BS and BP is the downstream entity of SO. In the **Primary origin** tab of the operational vulnerability, if you fetch the business process \(BP\), it automatically adds its upstream dependencies, as shown in the examples.
 
-    ![Dependency.](../image/pri-ori-up-dep-1.png)![Upstream dependencies.](../image/pri-ori-up-dep-2.png)
+    \[Omitted image "pri-ori-up-dep-1.png"\] Alt text: Dependency.\[Omitted image "pri-ori-up-dep-2.png"\] Alt text: Upstream dependencies.
 
     **Note:** When the scheduled job is run, the operational vulnerabilities are gathered and shown in the red flags section of the Home page.
 
@@ -55,17 +56,17 @@ If you have a business process BP1 as shown in the relationship diagram, it has 
 
     You can add the primary origin of the operational vulnerability.
 
-    ![Primary origin added.](../image/op-vul-pri-ori.png)
+    \[Omitted image "op-vul-pri-ori.png"\] Alt text: Primary origin added.
 
     When you add the primary origin of the operational vulnerability, its impacted areas with upstream entities are updated on the **Impacted areas** tab.
 
     When the **Calculate red flags for CSDM and dependencies** scheduled job is executed, the updated impacted areas and the operational vulnerability count are updated on the dashboard.
 
-    ![Count 0.](../image/op-vul-count-0.png)
+    \[Omitted image "op-vul-count-0.png"\] Alt text: Count 0.
 
     For example, when the impacted areas in the operational vulnerability are updated, the operational vulnerability count on the overview page of SO1 is 0 before the scheduled job runs. After running the scheduled job, the operational vulnerability count on the overview page of SO1 is updated to 1. This ensures that the updated data is promptly reflected on the Operational Resilience dashboard.
 
-    ![Count 1.](../image/op-vul-count-1.png)
+    \[Omitted image "op-vul-count-1.png"\] Alt text: Count 1.
 
 6.  To update the impacted areas for a primary origin of the operational vulnerability, select **Updated impacted area**.
 
@@ -75,6 +76,6 @@ If you have a business process BP1 as shown in the relationship diagram, it has 
 
     The Operational Resilience administrator or manager can view the progress when adding the impacted assets to the operational vulnerabilities. The assets are listed in the **Impacted areas** tab as shown in the example.
 
-    ![Impacted areas.](../image/op-vul-pri-ori-view-progress.png)
+    \[Omitted image "op-vul-pri-ori-view-progress.png"\] Alt text: Impacted areas.
 
 

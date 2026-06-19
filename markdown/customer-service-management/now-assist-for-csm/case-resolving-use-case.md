@@ -2,6 +2,7 @@
 title: Customer Service Management AI agent collection triage cases agentic workflow
 description: Use CSM AI agents agentic workflow to process all routine cases coming in through email and other offline channels and increase agent productivity through faster resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/case-resolving-use-case.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -22,7 +23,7 @@ Using the Triage cases agentic workflow, handle end-to-end validation, creation,
 
 Refer to the information provided here on agents, tools, and triggers that are related to the Triage cases agentic workflow in AI agents for Customer Service Management.
 
-To modify the Triage cases agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
+To modify the Triage cases agentic workflow duplicate it, and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -37,7 +38,7 @@ To access the agentic workflow:
 
 ## Access control lists \(ACLs\)
 
-Access Control Lists \(ACLs\) are preconfigured to support the Triage use case, including AI agents and their associated flows and actions, such as the Document Verification Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
+Access Control Lists \(ACLs\) are preconfigured to support the Triage use case, including AI agents and their associated flows and actions, such as the Document Verification Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, .
 
 When updating the agent role for the Triage Cases Agentic Workflow, it’s important to also update the corresponding Access Control Lists \(ACLs\) to ensure proper permissions. To manually update ACLs for custom roles:
 
@@ -67,9 +68,17 @@ Required role: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_cu
 
 **Important:** To access data in the agentic workflow, the admin role must include the specified roles under **Contains roles**.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 In the data access settings, you must also add the necessary roles to access the cases that need triaging. For example, you can add the csm role to the agentic workflow's list of approved roles so that it can access case records.
+
+## Localization in Triage cases
+
+Multilingual and localization flows in the Triage Cases workflow are fully supported. When setting up translation, keep the following in mind:
+
+-   Add an explicit language instruction at the top of your prompt telling the model to respond in the user's language — instructions placed first carry the most weight.
+-   Avoid wrapping user-facing text in quotes. Quoted strings act as strong anchors that can override translation rules and force verbatim reproduction. Use semantic descriptions instead.
+-   Where possible, deliver static messages through `gs.getMessage()` in a script, and reserve the model's output for dynamic content only.
 
 ## Triaging the case
 
@@ -92,7 +101,7 @@ In the triaging the case agentic workflow, perform the following steps:
     The agent executes the **testing** in AI Agent Studio for the agentic workflow.
 
 
-![AI Agent Studio showing the testing output for Triage cases agentic workflow.](../image/case-resolving-use-case-output-in-ai-agent-studio.png "Example of a Triage cases agentic workflow testing in AI Agent Studio")
+\[Omitted image "case-resolving-use-case-output-in-ai-agent-studio.png"\] Alt text: AI Agent Studio showing the testing output for Triage cases agentic workflow.
 
-In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](../task/request-gen-ai-capabilities-csm-now-assist-panel.md).
+In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 

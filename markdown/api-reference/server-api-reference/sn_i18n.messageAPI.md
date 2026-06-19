@@ -2,6 +2,7 @@
 title: Message - Global
 description: The Message Server API allows you to retrieve localized messages from the Message \[sys\_ui\_message\] table for an entry with code equal to the code parameter, key equal to the message parameter, and language equal to the language of the session \(or fallback language\).Retrieves a localized message from the Message \[sys\_ui\_message\] table while allowing for disambiguation and dynamic content insertion.Retrieves a localized message within the Message \[sys\_ui\_message\] in the specified language, regardless of the current user's session language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/sn\_i18n.messageAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -23,7 +24,7 @@ The Message API supports internationalization \(i18n\) by dynamically fetching m
 
 The Message API is provided with the standard base system within the `sn_i18n` namespace and does not require any plugins or special roles to access it. Before calling any methods within this class, ensure appropriate Message \[sys\_ui\_message\] records exist and are populated with matching `key`, `code`, and `language` fields.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Message - getMessage\(String code, String message, Map args\)
 
@@ -105,7 +106,7 @@ Returns a value from the Message \[sys\_ui\_message\] table where:
 -   The first 255 characters of the message parameter match the key field.
 -   The session language matches the language field.
 
- If no match is found, any fallback languages are checked for a match \(see [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/set-fallback-language.md)\). If a match is still not found, the message value \(2nd parameter\) is returned.
+ If no match is found, any fallback languages are checked for a match \(see \). If a match is still not found, the message value \(2nd parameter\) is returned.
 
  Named Parameters are replaced with the specified values in the map passed in the args parameter.
 
@@ -274,7 +275,7 @@ Returns a value from the Message \[sys\_ui\_message\] table where:
 -   The first 255 characters of the message parameter match the key field.
 -   The session language matches the language field.
 
- If no match is found, any fallback languages are checked for a match \(see [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/set-fallback-language.md)\). If a match is still not found, the message value \(2nd parameter\) is returned.
+ If no match is found, any fallback languages are checked for a match \(see \). If a match is still not found, the message value \(2nd parameter\) is returned.
 
  Named Parameters are replaced with the specified values in the map passed in the args parameter.
 

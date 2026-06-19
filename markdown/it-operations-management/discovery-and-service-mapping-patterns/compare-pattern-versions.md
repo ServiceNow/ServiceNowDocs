@@ -2,6 +2,7 @@
 title: Compare pattern versions
 description: If you have multiple versions of the same pattern, you can compare them to decide which pattern version to use for discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/compare-pattern-versions.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -43,7 +44,7 @@ Service Mapping and Discovery use patterns in their discovery process. Every tim
 
 7.  In the Compare to Current window, click the **Pattern text** pane either under **Selected Version** or **Current Version**.
 
-    ![Click the Pattern text pane to open the text comparison window.](../image/CompareToCurrent.png)
+    \[Omitted image "CompareToCurrent.png"\] Alt text: Click the Pattern text pane to open the text comparison window.
 
     The text comparison view opens showing the text of the selected pattern version and the current pattern version side by side. The step containing a difference appears highlighted.
 
@@ -56,12 +57,12 @@ Service Mapping and Discovery use patterns in their discovery process. Every tim
 
 9.  If necessary, click **Revert chunk** to replace the step in the current version with the step from the previous version.
 
-    ![Click Revert chunk to replace the step in the current step with the step from the previous version.](../image/CompareToCurrentRevertChunk.png)
+    \[Omitted image "CompareToCurrentRevertChunk.png"\] Alt text: Click Revert chunk to replace the step in the current step with the step from the previous version.
 
 10. Click **OK** when done.
 
 11. If you copied any steps from the previous version and want to save the change, click **Save Merge**.
 
 
-**Parent Topic:**[Choose the pattern version](t_ChoosePatternVersionPatDef.md)
+**Parent Topic:**[Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)
 

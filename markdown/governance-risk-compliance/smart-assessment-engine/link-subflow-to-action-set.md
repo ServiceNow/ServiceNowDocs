@@ -2,6 +2,7 @@
 title: Link subflow to template category
 description: Linking a subflow to action categories ensures that this action becomes available in the action set. Template designers can configure these actions based on specific criteria to trigger automatically once the assessment is completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/link-subflow-to-action-set.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

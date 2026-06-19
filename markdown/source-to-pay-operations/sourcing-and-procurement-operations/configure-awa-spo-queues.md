@@ -2,6 +2,7 @@
 title: Configure the Sourcing and Procurement Operations queues
 description: Configure the Advanced Work Assignment for Source-to-Pay Operations queues to ensure that email and chat requests are routed and assigned to specific agents belonging to defined groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-awa-spo-queues.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -32,13 +33,13 @@ Role required: admin
 3.  In the Assignment Eligibility related list, select **New**.
 
     1.  In the **Agent assignment rule** field, select **Chat - Most Capacity**.
-    2.  Select the lock icon \(![Lock icon](../../supplier-lifecycle-operations/image/lock-icon.png)\) next to the **Groups** field.
-    3.  Select the look-up icon \(![Look-up icon](../../supplier-lifecycle-operations/image/look-up-icon.png)\) to view the list of groups.
+    2.  Select the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon\) next to the **Groups** field.
+    3.  Select the look-up icon \(\[Omitted image "look-up-icon.png"\] Alt text: Look-up icon\) to view the list of groups.
     4.  Select **New**.
     5.  In the **Name** field, enter a name for the group.
     6.  Fill in the remaining fields, as appropriate.
     7.  Select **Submit**.
-    8.  Select the lock icon \(![Lock icon](../../supplier-lifecycle-operations/image/lock-icon.png)\) to lock the **Groups** field.
+    8.  Select the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon\) to lock the **Groups** field.
     9.  Right-select and select **Save**.
 4.  Next to the **Groups** field, select the link to the group, which opens the group record.
 
@@ -51,5 +52,5 @@ Role required: admin
 5.  Repeat steps 3 and 4 for the remaining Advanced Work Assignment for Source-to-Pay Operations queues.
 
 
-**Parent Topic:**[Setting up Advanced Work Assignment for Source-to-Pay Operations](../concept/awa-spo-setup.md)
+**Parent Topic:**[Setting up Advanced Work Assignment for Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/awa-spo-setup.md)
 

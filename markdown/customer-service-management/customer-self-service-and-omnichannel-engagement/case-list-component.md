@@ -2,6 +2,7 @@
 title: Case list component
 description: Display a comprehensive list of multiple cases along with their key details to help you manage and act on any case. Once you select any case, you can see the details of the case in the Case View component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/case-list-component.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -19,5 +20,5 @@ Each case in the case list can include details such as the case number, the cust
 
 **Note:** The Case list component can show the records from any extended table of case or task table.
 
-![Case list component instance displaying list of cases in the Preview tab.](../image/we-case-list-comp.png "Case list component")
+\[Omitted image "we-case-list-comp.png"\] Alt text: Case list component instance displaying list of cases in the Preview tab.
 

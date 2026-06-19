@@ -2,6 +2,7 @@
 title: Set up iManage spoke
 description: Integrate a ServiceNow instance and the iManage spoke by using  iManage credentials to authenticate  ServiceNow  requests.Request an application with iManage and register it in the iManage Control Center.Register iManage as an OAuth provider to allow the instance to request OAuth 2.0 tokens.Integrate the connection to your iManage account. The iManage spoke connection &amp; credential aliases use these connections to perform actions in iManage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-imanage-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -50,7 +51,7 @@ Role required: admin
 
 ### What to do next
 
-[Register iManage as OAuth provider](set-up-imanage-spoke.md#).
+[Register iManage as OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-imanage-spoke.md).
 
 ## Register iManage as OAuth provider
 
@@ -96,7 +97,7 @@ iManage is registered as an OAuth provider, which enables the instance to reques
 
 ### What to do next
 
-[Integrate the iManage spoke with ServiceNow instance](set-up-imanage-spoke.md#).
+[Integrate the iManage spoke with ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-imanage-spoke.md).
 
 ## Integrate the iManage spoke with ServiceNow instance
 

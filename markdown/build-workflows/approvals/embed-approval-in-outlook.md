@@ -2,6 +2,7 @@
 title: Embed an approval request within the Outlook email client
 description: Embed an interactive approval request for service catalog requests in the email notification sent to a user. The user can accept or reject the approval request from the email client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/embed-approval-in-outlook.html
 release: australia
 product: Approvals
 classification: approvals

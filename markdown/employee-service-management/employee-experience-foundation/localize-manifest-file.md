@@ -2,6 +2,7 @@
 title: Translate the Microsoft Teams manifest file
 description: ServiceNow for Microsoft Teams supports localization to multiple languages, using UTF-8 for international characters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/localize-manifest-file.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,9 +16,9 @@ breadcrumb: [Integration for Employee Experience, Setup for integrating pre-publ
 
 ServiceNow for Microsoft Teams supports localization to multiple languages, using UTF-8 for international characters.
 
-You must activate the localized plugins in your instance. To install the language plugin, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+You must activate the localized plugins in your instance. To install the language plugin, see Activate a language.
 
-After installing the language plugin, you must create and download the manifest file and upload the file to Microsoft Teams. To download the manifest file, refer [Create and download the manifest file for pre-published apps](../task/download-manifest-file-mt.md).
+After installing the language plugin, you must create and download the manifest file and upload the file to Microsoft Teams. To download the manifest file, refer [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
 
-**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](c_employee_ex_tnt.md)
+**Parent Topic:**[Setup for integrating pre-published apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_tnt.md)
 

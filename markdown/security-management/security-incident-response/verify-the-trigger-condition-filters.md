@@ -2,6 +2,7 @@
 title: Verify the Trigger Condition Filters
 description: Validate the profile, and verify that the trigger condition filters that you have configured are working as expected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-the-trigger-condition-filters.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -27,19 +28,17 @@ After you activate the profile, based on the configured trigger conditions you c
 
 1.  Navigate to **Security Incidents** &gt; **Show All Incidents**.
 
-2.  To create a new security incident, select **New**.
+2.  To create a security incident, select **New**.
 
 3.  To trigger the respective profile, provide the filter conditions as given in the capability profile.
 
-4.  Click **Save**.
+4.  Select **Save**.
 
 5.  To validate the work notes and activities section, view and check the records that are tagged with the profile initiated, profile completed, or profile failed tags.
 
-    ![Validate the work notes and activities](../image/review_activities.png "Work notes and activities")
+6.  To validate all the data in the related lists, select **Show All Related Lists**.
 
-6.  To validate all the data in the related lists, click **Show All Related Lists**.
-
-7.  Click any **Related List** tab to validate the details.
+7.  Select any **Related List** tab to validate the details.
 
     For example, Host Details.
 

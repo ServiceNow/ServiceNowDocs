@@ -2,6 +2,7 @@
 title: Project reporting
 description: Get an at-a-glance view of projects with reports, the portfolio dashboard, and project views. You can see information such as projects with slipped milestones, graphs of resources by project, and projects listed by percentage complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/c\_ProjectReporting.html
 release: australia
 product: Project Management
 classification: project-management
@@ -30,10 +31,10 @@ The application provides several global reports, both lists and charts, that sho
 -   Pending projects: list report
 -   Active Projects by Manager: bar chart
 
-**Parent Topic:**[Using Project Management](using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
 
 **Related topics**  
 
 
-[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-landing-page.md)
+[bundle-par.reporting-landing-page]
 

@@ -2,6 +2,7 @@
 title: GRC state model form
 description: On the GRC state model form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-state-model-form-for-op-vul.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

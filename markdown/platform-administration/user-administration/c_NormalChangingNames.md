@@ -2,6 +2,7 @@
 title: Changing normalized company names
 description: You can change a normalized company name several different ways. In all cases, that change affects all normalized fields referring to that company.You can change normalized company names by editing records in the Normalized Company Name table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/c\_NormalChangingNames.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -23,7 +24,7 @@ You have several options for changing a normalized company name:
 
 **Warning:** If you edit a field whose value is a normalized name, you change the normalized name for ALL discovered names that map to it.
 
-**Parent Topic:**[Normalization data services](c_NormalizationOverview.md)
+**Parent Topic:**[Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NormalizationOverview.md)
 
 ## Change a normalized company name
 

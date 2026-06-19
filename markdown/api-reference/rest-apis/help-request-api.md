@@ -2,6 +2,7 @@
 title: Help Request API
 description: The Help Request API provides an endpoint to track supervisor help actions.Creates or updates a supervisor help action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/help-request-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -15,11 +16,11 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Help Request API provides an endpoint to track supervisor help actions.
 
-This API records supervisor help for agents working on interactions, including the help start and end time and the type of help. For more information about help requests, see [Agent help request for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-help-request-for-voice-calls.md).
+This API records supervisor help for agents working on interactions, including the help start and end time and the type of help. For more information about help requests, see .
 
 This API requires the Interactions Management plugin \(com.glide.interaction\). The calling user must have the interaction\_integration\_user role.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Help Request - POST /now/helprequest/action/create\_or\_update
 
@@ -77,7 +78,7 @@ Type of assistance provided by the supervisor. Required when creating a supervis
 -   monitor
 -   observe
 
-For additional information about supervisor actions, see [Monitoring calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/call-monitoring.md).
+For additional information about supervisor actions, see .
 
 Data type: String
 
@@ -136,7 +137,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -169,7 +170,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

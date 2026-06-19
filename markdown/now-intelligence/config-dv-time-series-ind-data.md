@@ -2,6 +2,7 @@
 title: Indicator data options for time series data visualizations
 description: The following Data configuration options are available for all time series type visualizations of indicator scores.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-dv-time-series-ind-data.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -17,11 +18,11 @@ The following Data configuration options are available for all time series type 
 
 The data source for a native Data snapshots indicator has the indicator type **Automated - Data Snapshots** or **Formula - Data Snapshots**.
 
-![Data source properties for a native Data snapshots indicator](../../par-for-workspace/image/ds-source-native.png)
+\[Omitted image "ds-source-native.png"\] Alt text: Data source properties for a native Data snapshots indicator
 
 The data source for a classic indicator with Data snapshots enabled has the indicator type of either **Automated** or **Formula**.
 
-![Data source properties for an enabled Data snapshots indicator](../../par-for-workspace/image/ds-source-enabled.png)
+\[Omitted image "ds-source-enabled.png"\] Alt text: Data source properties for an enabled Data snapshots indicator
 
 <table id="table_wqy_sjr_qtb"><thead><tr><th>
 
@@ -37,11 +38,11 @@ Data source
 
 </td><td>
 
-You have selected an Indicator data source in [Create time series data visualizations](../task/create-dv-time-series-ac.md).
+You have selected an Indicator data source in [Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-MetricIf there is more than one metric, you can change the time series chart type for that metric by clicking the Change chart type icon. Also, if there is more than one metric, you can use the More options list to select a main metric and to add a Y-axis for each metric. Lastly, you can set dashboard filters to apply only to specific metrics. For more information, see [Options for time series data visualizations with multiple metrics](../concept/chart-options-multi-metrics.md).
+MetricIf there is more than one metric, you can change the time series chart type for that metric by clicking the Change chart type icon. Also, if there is more than one metric, you can use the More options list to select a main metric and to add a Y-axis for each metric. Lastly, you can set dashboard filters to apply only to specific metrics. For more information, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/chart-options-multi-metrics.md).
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Time aggregation
 
 </td><td>
 
-Time aggregation to apply to the metric, such as 7-day running SUM or By-month AVG. Default is the same as the indicator period. For more information, see [Applying time series aggregations](../../performance-analytics/concept/applying-time-series-aggregations.md#).
+Time aggregation to apply to the metric, such as 7-day running SUM or By-month AVG. Default is the same as the indicator period. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
 
 </td></tr><tr><td>
 
@@ -89,7 +90,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -180,7 +181,7 @@ This selection opens a dialog in which you select additional items that the data
 
 Data snapshots indicators support only reference, boolean, and choice fields for alternative group bys.
 
-For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](../concept/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](../../performance-analytics/concept/select-group-runtime.md).
+For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-group-runtime.md).
 
 **Important:**
 
@@ -349,7 +350,7 @@ Configure forecast
 
 </td><td>
 
-Opens a dialog for configuring forecasting on this data visualization. A forecast configuration on the data visualization overrides any configuration set on the data source, such as an indicator. This override applies only to the specific data visualization.This option is available only when Show forecast is turned on. For more information, see [Configure a forecast in a time series data visualization](../task/configure-forecast-ts-viz.md#).
+Opens a dialog for configuring forecasting on this data visualization. A forecast configuration on the data visualization overrides any configuration set on the data source, such as an indicator. This override applies only to the specific data visualization.This option is available only when Show forecast is turned on. For more information, see [Configure a forecast in a time series data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-forecast-ts-viz.md).
 
 </td></tr><tr><td>
 
@@ -409,7 +410,7 @@ Follow filter per metric
 
 </td><td>
 
-If the visualization shows multiple metrics, toggle filter following on and off for each metric. Default: All metrics follow filters if Follow filters is on. For more information, see [Following filters per metric](../concept/chart-options-bars-multi-metrics.md).
+If the visualization shows multiple metrics, toggle filter following on and off for each metric. Default: All metrics follow filters if Follow filters is on. For more information, see [Following filters per metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/chart-options-bars-multi-metrics.md).
 
 </td></tr><tr><td>
 
@@ -500,5 +501,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series data visualizations](../task/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-time-series-ac.md)
 

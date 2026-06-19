@@ -2,7 +2,10 @@
 title: Resume a customer contract line
 description: Create an order to resume a customer contract line and its child customer contract lines on the CSM Configurable Workspace. By resuming a customer contract line, you are restarting the services specified in that customer contract line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-resume-service-contract-line.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

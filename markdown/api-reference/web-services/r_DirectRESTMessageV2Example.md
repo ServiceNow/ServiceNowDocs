@@ -2,6 +2,7 @@
 title: Direct RESTMessageV2 example
 description: You can send an outbound REST message directly to the endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_DirectRESTMessageV2Example.html
 release: australia
 product: Web Services
 classification: web-services
@@ -43,5 +44,5 @@ gs.info("Response: " + responseBody);
 gs.info("HTTP Status: " + status);
 ```
 
-**Parent Topic:**[Scripting outbound REST](../../../../../integrate/outbound-rest/concept/c_ScriptingOutboundREST.md)
+**Parent Topic:**[Scripting outbound REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ScriptingOutboundREST.md)
 

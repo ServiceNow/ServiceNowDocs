@@ -2,11 +2,12 @@
 title: Integrate Dynatrace with basic authentication
 description: Integrate Dynatrace with Event Management by adding a standard webhook in the Dynatrace console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/dynatrace-events-webhook.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Integrate Dynatrace platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -84,16 +85,16 @@ Configure the Event Management environment for the collection of events from Dyn
         1.  Navigate to **All** &gt; **IntegrationHub** &gt; **Connection &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
         2.  Select to open the connector for which you want to get the &lt;connections\_alias\_sys\_id&gt;.
 
-            ![Dynatrace connection aliases list.](../image/dynatrace-connection-aliases.png)
+            \[Omitted image "dynatrace-connection-aliases.png"\] Alt text: Dynatrace connection aliases list.
 
-        3.  Right-click the context menu \(![menu icon](../../../common/image/Form_MenuIcon.png)\) and then select **Copy sys\_id**.
+        3.  Right-click the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: menu icon\) and then select **Copy sys\_id**.
 
-            ![sys_id of the connection.](../image/dynatrace-static-sys-id.png)
+            \[Omitted image "dynatrace-static-sys-id.png"\] Alt text: sys\_id of the connection.
 
 
 ## Result
 
 Alerts start flowing from the Dynatrace console into the Event Management plugin. The plugin extracts information from the original Dynatrace alert message to populate the required event fields and inserts the event into the database. In your ServiceNow AI Platform instance, navigate to **All Events** to see the events.
 
-**Note:** By default, host binding is enabled for Dynatrace events for all providers \(Azure/AWS/Google\). If all hosts in the environment are discovered using Cloud Discovery by providing credentials and discovered resources are in the cmdb\_ci\_vm\_object list, then the VM binding may not occur. To resolve this, you must enable the **Dynatrace - General** event rule. For further information about Event rules, see [Event rules](../concept/create-event-rules.md).
+**Note:** By default, host binding is enabled for Dynatrace events for all providers \(Azure/AWS/Google\). If all hosts in the environment are discovered using Cloud Discovery by providing credentials and discovered resources are in the cmdb\_ci\_vm\_object list, then the VM binding may not occur. To resolve this, you must enable the **Dynatrace - General** event rule. For further information about Event rules, see [Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-event-rules.md).
 

@@ -2,6 +2,7 @@
 title: Configure CIM integration property
 description: Configure the CIM sn\_cim.initiative\_copy\_attributes integration property to define field values to be copied from an improvement initiative to application records that you create from the initiative.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/configure-cim-int-property.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -40,5 +41,5 @@ Role required: admin
     -   Type \(type\)
     -   Service offering \(service\_offering\)
 
-**Parent Topic:**[Create an improvement request](create-cim-request.md)
+**Parent Topic:**[Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/create-cim-request.md)
 

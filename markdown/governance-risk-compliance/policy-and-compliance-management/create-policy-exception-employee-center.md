@@ -2,6 +2,7 @@
 title: Create a policy exception from Employee Center
 description: Use the Employee Center to request exceptions for policies, control objectives, controls, or issues by specifying the reason of exception on a particular list of the systems, applications, networks, or entities for which the exception applies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-policy-exception-employee-center.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -178,7 +179,7 @@ Users that are notified when the request is updated.
 
     If you raise a policy exception from Employee Center and if verification rules are not configured, then the policy exception moves to the Analyze state. However, if verification rules are configured for the policy exception, then the policy exception moves to the New state and the verification approval process is triggered. As verification rules are configured the approver is required to verify the policy exception and approve it, only then the policy exception moves to Analyze state.
 
-    ![Request approval for a policy exception.](../image/PolicyExcepReqApproval.png "Request approval for a policy exception")
+    \[Omitted image "PolicyExcepReqApproval.png"\] Alt text: Request approval for a policy exception.
 
 10. After the policy exception is approved, you can request extension of your policy exception, select **Request extension** from the **Actions** list.
 

@@ -2,6 +2,7 @@
 title: Set the SingleLogoutRequest service URL
 description: Set the request service URLs for the integration's IdP by using the IdP's metadata.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SetTheSingleLogoutRequestSvcURL.html
 release: australia
 product: Authentication
 classification: authentication

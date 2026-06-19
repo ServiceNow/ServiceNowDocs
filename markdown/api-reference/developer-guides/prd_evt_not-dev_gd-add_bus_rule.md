@@ -2,6 +2,7 @@
 title: Add a business rule for a new trouble ticket event
 description: When adding a new trouble ticket event to your implementation, you must add a business rule to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/prd\_evt\_not-dev\_gd-add\_bus\_rule.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -19,7 +20,7 @@ This business rule must push the Glide snapshot of the corresponding incident or
 
 The following code snippet shows an example of a business rule for processing the `ResolveTroubleTicketEventForIncident` ticket notification event on the Incident \[incident\] table. When calling the pushEventsToQueue\(\) method to push the event onto the inbound queue, you must pass the event type. For this example it is `ResolveTroubleTicketEventForIncident`. This event type can be any alphanumeric value that you want, but it must be unique as it is used by the system to determine how to process the trouble ticket event. The list of event types for the base system are defined in the **Constants.EVENT\_TYPES** object in the `Constants [sn_api_notif_mgmt.Constants]` script include.
 
-For details on creating a business rule, see [Create a business rule for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-create-busrule-service.md).
+For details on creating a business rule, see .
 
 ```
 // Add following lines of code in script section (Advanced tab) of BR for pushing ‘ResolveTroubleTicketEventForIncident’ to the inbound queue.

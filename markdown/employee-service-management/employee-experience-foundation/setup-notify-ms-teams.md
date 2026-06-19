@@ -2,6 +2,7 @@
 title: Install Notify connector for Microsoft Teams
 description: Install and activate the Notify connector for Microsoft Teams plugin to be able to initiate a Microsoft Teams meeting directly from a Task record or via the Major Incident Workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,9 +24,9 @@ Ensure you have installed the following plugins on your ServiceNow instance.
 -   Microsoft Teams Communications spoke plugin `sn_msteams_com_spk`.
 -   Azure Active Directory User Mapping plugin `sn_now_azure`.
 
-For more information about Microsoft Teams Communications spoke, see [Microsoft Teams Communications spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msteams-comm.md).
+For more information about Microsoft Teams Communications spoke, see Microsoft Teams Communications spoke.
 
-For more information about Notify, see [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/notify-landing-page.md).
+For more information about Notify, see .
 
 Role required: admin
 
@@ -35,7 +36,7 @@ Role required: admin
 
 2.  Enter `Notify Connector for Microsoft Teams` or `sn_notify_msteams` in the search field.
 
-    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests on the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests on the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select **Install**.
 
@@ -44,8 +45,8 @@ Role required: admin
 
 Integrate Notify connector for Microsoft Teams in ServiceNow instance.
 
--   To set up pre-published app \(Single Microsoft Teams tenant to single ServiceNow instance\), see [Integrate Notify connector pre-published app with Microsoft Teams](../concept/setup-notify-ms-teams-multi-tenant.md).
--   To set up self-configured app \(Single Microsoft Teams tenant to multiple ServiceNow instance\), see [Integrating Notify connector self-configured app with Microsoft Teams](../concept/setup-notify-ms-teams-single-tenant.md).
+-   To set up pre-published app \(Single Microsoft Teams tenant to single ServiceNow instance\), see [Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md).
+-   To set up self-configured app \(Single Microsoft Teams tenant to multiple ServiceNow instance\), see [Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md).
 
-**Parent Topic:**[Plan your installation](../../sn-teams/concept/plan-installation-ms-teams.md)
+**Parent Topic:**[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)
 

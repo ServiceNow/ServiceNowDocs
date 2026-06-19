@@ -2,6 +2,7 @@
 title: Configurable actionable notifications for ITSM Mobile Agent
 description: With configurable actionable notifications for ITSM Mobile Agent, you can perform actions based on push notifications without having to open the ITSM Mobile Agent application.Create a push notification for various actions performed on the ITSM Mobile Agent application.Create a push action category if any of the pre-defined push action categories do not meet the business requirements.Create a push action if any of the pre-defined push actions do not meet the business requirements.Create a mobile function for each function in the action category. These actions perform tasks on your instance based on what the user selects in the notification.Associate functions to the actions for an actionable push notification.Create the content of the message to be displayed as a notification.Create a record to determine the information to be displayed for a notification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/actionable-notify-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -22,7 +23,7 @@ You can associate up to three actions with a push notification. These actions mu
 -   URL
 -   Chat launcher
 
-![Actionable push notifications](../image/actionable-notifications.png)
+\[Omitted image "actionable-notifications.png"\] Alt text: Actionable push notifications
 
 ## Process for creating actionable push notifications
 
@@ -130,9 +131,9 @@ Role required: admin
 
 3.  In the push action category form, enter a name for the category in the **Name** field.
 
-4.  Select the lock icon \(![Lock icon](../image/lock-icon.png)\) next to the **Actions** field.
+4.  Select the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon\) next to the **Actions** field.
 
-5.  Select the reference icon \(![Reference icon](../image/reference-lookup-icon.png)\) to display the **Push Actions** list and select the actions for the push action category.
+5.  Select the reference icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference icon\) to display the **Push Actions** list and select the actions for the push action category.
 
 6.  Select **Save**.
 
@@ -237,7 +238,7 @@ Role required: admin
     -   Navigation
     -   URL
     -   Chat launcher
-    For information on function types, and detailed steps for creating functions, see [Mobile functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-studio-mobile-button-types.md).
+    For information on function types, and detailed steps for creating functions, see Mobile functions.
 
 4.  Create additional functions for each push action.
 
@@ -246,7 +247,7 @@ Role required: admin
 
 ### What to do next
 
-[Map functions with push actions for actionable push notifications](actionable-notify-itsm-mobile.md#)
+[Map functions with push actions for actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/actionable-notify-itsm-mobile.md)
 
 ## Map functions with push actions for actionable push notifications
 
@@ -278,13 +279,13 @@ Role required: admin
 
 ### Example
 
-This example notification uses the accept-rejectwcomments-back in the **Category** field. Clicking the preview icon \(![Preview icon](../image/gac-info-icon.png)\) shows the two actions used by this category: Accept and Reject.
+This example notification uses the accept-rejectwcomments-back in the **Category** field. Clicking the preview icon \(\[Omitted image "gac-info-icon.png"\] Alt text: Preview icon\) shows the two actions used by this category: Accept and Reject.
 
-![Push notification displaying a preview of the category record.](../image/action-push-example-1.png)
+\[Omitted image "action-push-example-1.png"\] Alt text: Push notification displaying a preview of the category record.
 
 In the example push action instance, the Approve push action is selected in the **Push Action** field, and the **Approve REQ /w comments** function is selected in the **Button** field. The instance executes this function when a user taps the **Approve** button in the notification.
 
-![Push action instance associating an action with a function.](../image/action-push-example-2.png)
+\[Omitted image "action-push-example-2.png"\] Alt text: Push action instance associating an action with a function.
 
 ## Create push message content
 
@@ -342,9 +343,9 @@ Role required: admin
 
     1.  Select to display the **What to Send** tab.
 
-    2.  Select the lock icon \(![Lock icon](../image/lock-icon.png)\) next to the **Push Messages** field.
+    2.  Select the lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon\) next to the **Push Messages** field.
 
-    3.  Select the reference icon \(![Reference icon](../image/reference-lookup-icon.png)\) to display the **Push Notification Messages** list.
+    3.  Select the reference icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference icon\) to display the **Push Notification Messages** list.
 
     4.  Select **New**.
 

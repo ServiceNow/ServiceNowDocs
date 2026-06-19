@@ -2,6 +2,7 @@
 title: Working in UI Builder
 description: Get a full understanding of everything that you can do when creating a page for your workspace or custom portal experience in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/using-ui-builder.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -19,24 +20,24 @@ Get a full understanding of everything that you can do when creating a page for 
 
 The following information helps you along your UI Builder journey:
 
--   **[Configure how users interact with your applications in UI Builder](work-experiences.md)**  
+-   **[Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md)**  
 Learn what an experience is in UI Builder. Understand what an experience contains.
--   **[Manage UI Builder pages and page variants](work-pages.md)**  
+-   **[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md)**  
 Learn what a page is in UI Builder. Understand the building blocks of a UI Builder page, such as column layouts and components.
--   **[Organize components in UI Builder pages](work-layouts.md)**  
+-   **[Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-layouts.md)**  
 Column layouts organize components on a UI Builder page. Learn how column layouts are used in UI Builder.
--   **[Customize UI Builder pages using components](work-components.md)**  
+-   **[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)**  
 Learn what a component is in UI Builder. Also, see how components work within UI Builder.
--   **[Manage actions in UI Builder pages](work-events.md)**  
+-   **[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-events.md)**  
 Learn how to work with events so that you can add actions to components, pages, data resources, and declarative actions in UI Builder.
--   **[Manage the visual style of UI Builder experiences](manage-the-visual-style-of-ui-builder-experiences.md)**  
+-   **[Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md)**  
 Themes enable you to change the visual style of your UI Builder experiences so that they express the look and feel of your brand
--   **[Collaborate with other UI Builder developers](collaboration.md#)**  
+-   **[Collaborate with other UI Builder developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/collaboration.md)**  
 UI Builder provides real-time collaboration tools and user presence indicators for more efficient and intuitive UI development.
--   **[Find and fix issues in UI Builder](builder-assistant.md#)**  
+-   **[Find and fix issues in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/builder-assistant.md)**  
 UI Builder can help identify common configuration issues and guidance on how to fix them.
--   **[How to use the Now Assist panel in UI Builder](uib-now-assist-panel.md#)**  
+-   **[How to use the Now Assist panel in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-now-assist-panel.md)**  
 Use the Now Assist panel in UI Builder to request guidance, streamline page building, and better understand the content on your pages.
 
-**Parent Topic:**[UI Builder](ui-builder-overview.md)
+**Parent Topic:**[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
 

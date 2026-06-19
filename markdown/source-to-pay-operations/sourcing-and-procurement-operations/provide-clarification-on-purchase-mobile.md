@@ -2,6 +2,7 @@
 title: Provide clarification on your purchase from your mobile device
 description: Provide clarification on your purchase by answering the question that the approver has posted regarding your order, from your mobile application. Your response to this clarification ensures that the approver understands your exact requirements and has all the necessary information before proceeding with approving or rejecting your purchase request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/provide-clarification-on-purchase-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -40,5 +41,5 @@ Role required: sn\_shop.shopper
 8.  Tap **Submit**.
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

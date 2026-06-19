@@ -2,6 +2,7 @@
 title: Set up PagerDuty spoke
 description: Set up an outbound integration between your ServiceNow instance and the PagerDuty server with a connection and credential record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-pagerduty-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,9 +27,9 @@ Set up an outbound integration between your ServiceNow instance and the PagerDut
 
 1.  Set up PagerDuty as the OAuth provider.
 
-    1.  Log in to the PagerDuty application.![Log in page for PagerDuty application.](../image/pagerduty-spoke-log-in.png)
+    1.  Log in to the PagerDuty application.\[Omitted image "pagerduty-spoke-log-in.png"\] Alt text: Log in page for PagerDuty application.
 
-    2.  Navigate to **Integrations** &gt; **DEVELOPER TOOLS** &gt; **App Registration.**![App registration link.](../image/pagerduty-spoke-app-reg.png)
+    2.  Navigate to **Integrations** &gt; **DEVELOPER TOOLS** &gt; **App Registration.**\[Omitted image "pagerduty-spoke-app-reg.png"\] Alt text: App registration link.
 
     3.  Select **Create New App**.
 
@@ -38,13 +39,13 @@ Set up an outbound integration between your ServiceNow instance and the PagerDut
 
     6.  Select **Save**.
 
-    7.  Under the Classic User OAuth heading, select **Add**.![Add OAuth button.](../image/pagerduty-spoke-add-oauth.png)
+    7.  Under the Classic User OAuth heading, select **Add**.\[Omitted image "pagerduty-spoke-add-oauth.png"\] Alt text: Add OAuth button.
 
     8.  In the Redirect URL field, enter your ServiceNow instance URL.
 
     9.  Select **Save**.
 
-        PagerDuty generates the client ID and client secret.![Client ID and secret.](../image/pagerduty-oauth-secret.png)
+        PagerDuty generates the client ID and client secret.\[Omitted image "pagerduty-oauth-secret.png"\] Alt text: Client ID and secret.
 
     10. Copy and store the client ID and secret.
 
@@ -119,6 +120,6 @@ The redirect URL that you had provided when you set up the OAuth app.
 </td></tr></tbody>
 </table>    8.  Select **Create and Get OAuth Token**.
 
-        The OAuth token becomes available.![OAuth token is available.](../image/pagerduty-oauth-generated.png)
+        The OAuth token becomes available.\[Omitted image "pagerduty-oauth-generated.png"\] Alt text: OAuth token is available.
 
 

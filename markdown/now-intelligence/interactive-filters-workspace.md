@@ -2,6 +2,7 @@
 title: Filters in Platform Analytics
 description: Filter lists and data visualizations on an inline or technical dashboard. Filter by possible data value or text, by whether the value is true or false, or by date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/interactive-filters-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -13,9 +14,9 @@ breadcrumb: [Platform Analytics experience, Platform Analytics]
 
 Filter lists and data visualizations on an inline or technical dashboard. Filter by possible data value or text, by whether the value is true or false, or by date.
 
-To find Filters in Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Filters**. You can also navigate to this library from other Platform Analytics library pages. Access to the filter library requires the analytics\_filter\_admin role or higher. For more information on user roles in Filters, see [Filter roles](../reference/platform-analytics-roles.md#table_tm2_v15_32c).
+To find Filters in Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Filters**. You can also navigate to this library from other Platform Analytics library pages. Access to the filter library requires the analytics\_filter\_admin role or higher. For more information on user roles in Filters, see [Filter roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
-![Platform Analytics Filters library](../image/pa-filters-lib.png "Filter library")
+\[Omitted image "pa-filters-lib.png"\] Alt text: Platform Analytics Filters library
 
 Add an interactive filter to a Platform Analytics dashboard 
 
@@ -27,7 +28,7 @@ Technical dashboards are populated in the UI Builder and are more flexible but r
 
 **Note:** The default maximum number of custom filters you can save for the Usage Insights application is 500. You can modify the number of custom filters in the **uxa.query\_builder.max\_num\_of\_user\_filter** property.
 
-When you edit Core UI filters dashboards migrated in compatibility mode, you do so in the Core UI tools. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](../../reporting/concept/classic-vis-overview.md).
+When you edit Core UI filters dashboards migrated in compatibility mode, you do so in the Core UI tools. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/classic-vis-overview.md).
 
 ## Filters on inline dashboards
 
@@ -45,11 +46,11 @@ When you create a filter, you first specify the filter type. All further configu
 
 ## Retaining filter values
 
-Filter values are not retained when someone edits the filter configuration. On editing, the filter reverts to its default values for all users on their next login or page refresh. On technical dashboards and pages created in UI Builder, filters don't retain values across user sessions or refreshes. For an exception, see [Add a dashboard to a Dashboards page](../../performance-analytics/task/add-dashboard-to-workspace.md).
+Filter values are not retained when someone edits the filter configuration. On editing, the filter reverts to its default values for all users on their next login or page refresh. On technical dashboards and pages created in UI Builder, filters don't retain values across user sessions or refreshes. For an exception, see [Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dashboard-to-workspace.md).
 
-When you export a dashboard to Microsoft PowerPoint, filter values are applied automatically. When you export a dashboard to PDF, you can choose whether to retain filter values. Filter values are not retained when you export a technical dashboard. For more information, see [Export a Platform Analytics dashboard](../../dashboards/task/export-pae-dashboard-ppt.md).
+When you export a dashboard to Microsoft PowerPoint, filter values are applied automatically. When you export a dashboard to PDF, you can choose whether to retain filter values. Filter values are not retained when you export a technical dashboard. For more information, see [Export a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-pae-dashboard-ppt.md).
 
 ## Domain filters
 
-You can filter visualizations by domain on domain-separated instances. Domain filtering uses a different component. For more information, see [Create a domain filter](../task/create-domain-filter.md#).
+You can filter visualizations by domain on domain-separated instances. Domain filtering uses a different component. For more information, see [Create a domain filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-domain-filter.md).
 

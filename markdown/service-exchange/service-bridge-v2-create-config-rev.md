@@ -2,6 +2,7 @@
 title: Create configuration revisions
 description: As a provider, you can edit and create revisions of entitlements that contain updated functionality that can be developed and deployed to consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-config-rev.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -26,11 +27,11 @@ A configuration can be one of the following:
 
 **Note:** The following sections describe the various stages in the configuration revision life-cycle of a remote task definition. You can:
 
--   [Create a configuration revision](service-bridge-v2-create-config-rev.md#section_l2g_psf_tbc)
--   [Archive a configuration revision](service-bridge-v2-create-config-rev.md#section_zjw_2qc_sbc)
--   [Retire a configuration](service-bridge-v2-create-config-rev.md#section_x1w_dqc_sbc)
--   [Copy a configuration revision](service-bridge-v2-create-config-rev.md#section_gst_43n_tbc)
--   [Delete a configuration](service-bridge-v2-create-config-rev.md#section_igy_2jn_tbc)
+-   [Create a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Archive a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Retire a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Copy a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
+-   [Delete a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
 
 You can follow the same process to create revisions for a remote record producer.
 
@@ -41,14 +42,14 @@ You can follow the same process to create revisions for a remote record producer
 
     **Note:** The remote task definition that you select must be in the **Published** state.
 
-    ![Service Exchange Remote Task Definition](../image/service-bridge-v2-remote-task-defn1.jpg)
+    \[Omitted image "service-bridge-v2-remote-task-defn1.jpg"\] Alt text: Service Exchange Remote Task Definition
 
-    Note the **Compatibility** field. This field shows the Service Exchange version that is being used by the provider. If the consumer is using a compatible Service Exchange version, data can be synced between the provider and consumer instances. But if the consumer isn’t using a compatible version, any new entitlements can’t be activated until the corresponding Service Exchange version is upgraded. See [Mismatched version support](service-bridge-v2-mismatch-version.md) for additional information.
+    Note the **Compatibility** field. This field shows the Service Exchange version that is being used by the provider. If the consumer is using a compatible Service Exchange version, data can be synced between the provider and consumer instances. But if the consumer isn’t using a compatible version, any new entitlements can’t be activated until the corresponding Service Exchange version is upgraded. See [Mismatched version support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-mismatch-version.md) for additional information.
 
 3.  Select **Checkout**.
 4.  A new revision of the configuration is created and the State is set to **In Draft**.
 
-    ![Revisions related list for a Service Exchange](../image/service-bridge-v2-revision-rel-list.jpg)
+    \[Omitted image "service-bridge-v2-revision-rel-list.jpg"\] Alt text: Revisions related list for a Service Exchange
 
     You can view the older revision by navigating to the Revisions tab under the Related List section. As you can see in the preceding image, the older revision is still in the **Published** state.
 
@@ -56,7 +57,7 @@ You can follow the same process to create revisions for a remote record producer
 
     **Note:** The inactive configuration is still available to the consumers and data synchronization will continue until this configuration is either archived or retired.
 
-6.  On the consumer instance, navigate to **Service Exchange Consumer** &gt; **Provider Connections**. You can see the newly published configuration revision under the Entitlements tab in the Related Links section.![Configuration revisions entitled to consumer](../image/service-bridge-v2-config-rev-entitle.jpg)
+6.  On the consumer instance, navigate to **Service Exchange Consumer** &gt; **Provider Connections**. You can see the newly published configuration revision under the Entitlements tab in the Related Links section.\[Omitted image "service-bridge-v2-config-rev-entitle.jpg"\] Alt text: Configuration revisions entitled to consumer
 7.  Select the newly published configuration reference and select the **Entity reference** link to navigate to the Remote task definition page.
 8.  Select **Activate** to activate the new configuration revision. When the new revision is activated, the earlier revision moves to an **Inactive** state. Consumers can continue to use the earlier revision until it’s archived or retired.
 9.  You can create multiple configuration revisions for a single configuration but only the latest published revision is active and can be used by the consumers.

@@ -2,6 +2,7 @@
 title: Push connector instance form
 description: Push Connector Instance form displays the fields that you must fill when you create or modify a connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/push-connector-instance-form.html
 release: australia
 product: Event Management
 classification: event-management
@@ -53,7 +54,7 @@ Select the definition for the external system from which you want to receive eve
 -   Dynatrace
 -   Catchpoints
 
- For a list of the connector definitions available in the base system, see [Configure Event Management connectors](connectors-and-listeners.md).
+ For a list of the connector definitions available in the base system, see [Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/connectors-and-listeners.md).
 
  **Note:**
 
@@ -79,7 +80,7 @@ This field is auto-populated only after saving the details of the connector inst
 
  Instance: The URL has to be configured in an external system with the ServiceNow credential having a evt\_mgmt\_integration role to receive the events.
 
- MID push connector instance: The URL has to be configured from an external system with [Configure the MID Web Server extension](../task/configure-mid-web-server-extension.md) credential to receive the events.
+ MID push connector instance: The URL has to be configured from an external system with [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-mid-web-server-extension.md) credential to receive the events.
 
  This field appears only after the form has been saved.
 
@@ -94,5 +95,5 @@ Select this check box to enable receiving the events from this external event so
  This field appears only after the form has been saved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
 

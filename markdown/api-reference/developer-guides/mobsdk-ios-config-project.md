@@ -2,6 +2,7 @@
 title: Configure your project
 description: Before writing any application that leverages the Mobile SDK for iOS, you must configure your project to use the SDK.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-config-project.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -21,11 +22,11 @@ Before writing any application that leverages the Mobile SDK for iOS, you must c
 
     1.  In Xcode, drag the NowKit folder from Finder on to your Project Navigator pane \(⌘+1\). Xcode recognizes the folder as a Swift package and displays a folder icon next to **NowKit**.
 
-        ![NowKit menu](../image/mobile_skd-ios-nowkit-menu.png)
+        \[Omitted image "mobile\_skd-ios-nowkit-menu.png"\] Alt text: NowKit menu
 
     2.  Add the Mobile SDK to your target in the **Frameworks, Libraries, and Embedded Content** section of the project’s general settings by pressing the **+** icon and selecting the **NowKit** framework from the presented list.
 
-        ![Target framework screen](../image/mobile_sdk-ios-target-framework.png)
+        \[Omitted image "mobile\_sdk-ios-target-framework.png"\] Alt text: Target framework screen
 
 2.  Update your project settings.
 

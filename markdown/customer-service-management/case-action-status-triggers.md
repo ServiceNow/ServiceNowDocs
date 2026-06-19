@@ -2,11 +2,14 @@
 title: Actionable case flows
 description: Actionable case flows contain predefined user actions that automatically create and resolve blocking tasks for customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-action-status-triggers.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Administering case action status, Administer, Customer Service Management]
+breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Actionable case flows
@@ -62,6 +65,4 @@ The case action status feature provides the following flows for customer service
 If a problem is associated with a case with the **Need task resolution** blocking reason, a case flow is provided to resolve the blocking task when a fix is communicated or the problem record is closed or cancelled.
 
 If a problem is associated with a case with the **Need PRB workaround** blocking reason, a case flow is provided to resolve the blocking task when a workaround is provided or the problem record is closed or cancelled.
-
-**Parent Topic:**[Administering case action status](../concept/customer-service-case-action-status.md)
 

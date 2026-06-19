@@ -2,7 +2,10 @@
 title: Case management feature configuration
 description: Understand the configuration of the Cases feature in Engagement Messenger to configure the field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-management-feature-configuration-fields.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -58,11 +61,11 @@ Description for the Case form launcher widget in the messenger.
 
 <table id="table_tww_xgb_g4b"><tbody><tr><td>
 
-![Engagement Messenger home page displaying case widget to track all your cases and requests.](../image/em-cases-feature-widget.png "Cases feature widget")
+\[Omitted image "em-cases-feature-widget.png"\] Alt text: Engagement Messenger home page displaying case widget to track all your cases and requests.
 
 </td><td>
 
-![Widget displaying Chat with us and Submit a case features along with their description.](../image/em-case-launcher.png "Cases feature launcher widget")
+\[Omitted image "em-case-launcher.png"\] Alt text: Widget displaying Chat with us and Submit a case features along with their description.
 
 </td></tr></tbody>
 </table>

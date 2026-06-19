@@ -2,11 +2,12 @@
 title: Help Center
 description: Help Center is the next-generation Embedded Help product for configurable workspace. Help Center provides targeted help content to users in a UI page, based on the user's role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/help-center.html
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [In-product help, Adoption services, Configure user experiences]
 ---
@@ -21,11 +22,11 @@ Help Center is the next-generation Embedded Help product for configurable worksp
 
 <table id="table_ogr_cnc_tzb" class="nav-card"><tbody><tr><td>
 
-[![](../../../reuse/icons/brand-icons/bus-explore.svg)Exploring Help Center](exploring-help-center.md)
+[\[Omitted image "bus-explore.svg"\] Alt text:Exploring Help Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/exploring-help-center.md)
 
 </td><td>
 
-[![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Using Help Center](../task/using-help-center.md)
+[\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Using Help Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/using-help-center.md)
 
 </td><td>
 

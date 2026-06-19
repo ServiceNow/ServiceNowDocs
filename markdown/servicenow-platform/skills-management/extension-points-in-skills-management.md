@@ -2,6 +2,7 @@
 title: Extension points in Skills Management
 description: Use extension points to calls scripts to add custom group types to manage skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/extension-points-in-skills-management.html
 release: australia
 product: Skills Management
 classification: skills-management
@@ -23,5 +24,5 @@ Use scripted extension points to integrate customizations without altering the c
 |--------------------|-----------|
 |sn\_skill\_cfg\_page.ManageSkillsExtnPt|Implement this extension point to customize the logic of creating users by groups for the Manage IT skills page.|
 
-**Important:** You can configure additional groups using the `sn_skill_cfg_page.ManageSkillsConstants` script include. For information on script includes see, [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+**Important:** You can configure additional groups using the `sn_skill_cfg_page.ManageSkillsConstants` script include. For information on script includes see, .
 

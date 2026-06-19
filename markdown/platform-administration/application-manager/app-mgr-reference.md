@@ -2,6 +2,7 @@
 title: Application Manager reference
 description: Reference topics provide information to help understand Application Manager status indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/app-mgr-reference.html
 release: australia
 product: Application Manager
 classification: application-manager
@@ -16,10 +17,12 @@ breadcrumb: [Application Manager, Administering applications, Get started, Admin
 
 Reference topics provide information to help understand Application Manager status indicators.
 
--   **[Application state indicators in Application Manager](app-mgr-state-indicators.md)**  
+-   **[Domain separation and Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager-domain-separation.md)**  
+Domain separation is unsupported for Application Manager. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Application state indicators in Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/app-mgr-state-indicators.md)**  
 Application detail page headers display indicators with additional information about the state of that application. Indicators tell you about any specific requirements, limitations, or blockers related to installing the application.
--   **[App installation blocked when installing or updating Now Assist suite](app-installation-blocked.md)**  
-Unlicensed applications can block the installation or update of Now Assist suites.
+-   **[App installation blocked when installing or updating Now Assist Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/app-installation-blocked.md)**  
+Unlicensed applications can block the installation or update of Now Assist Suites.
 
-**Parent Topic:**[Administering applications](../../../build/applications/reference/administering-applications.md)
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/administering-applications.md)
 

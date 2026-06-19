@@ -2,6 +2,7 @@
 title: Request repair of enterprise assets using Service Catalog
 description: Submit a Service Catalog request to repair enterprise assets that are defective or pending repair in your stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/repair-req-eam-assets-using-catalog.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -56,13 +57,13 @@ Stockroom that has assets to be repaired.
 </td></tr></tbody>
 </table>3.  Select assets to be repaired.
 
-    1.  Select the Edit Asset\(s\) icon ![](../../../common/image/icon-lock.png).
+    1.  Select the Edit Asset\(s\) icon \[Omitted image "icon-lock.png"\] Alt text:.
 
     2.  Select the assets from the list.
 
         You can add one or more assets to the request.
 
-    3.  Select the Lock icon ![](../../software-asset-management2/image/unlock-icon.png).
+    3.  Select the Lock icon \[Omitted image "unlock-icon.png"\] Alt text:.
 
 4.  Select **Submit**.
 
@@ -73,5 +74,5 @@ Stockroom that has assets to be repaired.
 -   A repair order is created in the **Draft** stage.
 -   Each asset in the repair order is associated with a repair order line that is in the **Troubleshoot** stage.
 
-**Parent Topic:**[Request repair of defective enterprise assets](../concept/request-repair-defective-eam-assets.md)
+**Parent Topic:**[Request repair of defective enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/request-repair-defective-eam-assets.md)
 

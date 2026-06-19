@@ -2,12 +2,13 @@
 title: Producing and consuming messages from a Kafka client
 description: Learn how to produce and consume messages to Hermes from a Kafka client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/producing-consuming-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -27,11 +28,13 @@ One consumer process uses ports in the 410x range and the other uses ports in th
 
 ## Required port ranges
 
-Work with your network administrator to ensure that the following port ranges are open before you begin exchanging messages using Hermes:
+Work with your network administrator to confirm that the following port ranges are open before you begin exchanging messages using Hermes:
 
 -   Producer: 4000-4050
 -   Consumer1: 4100-4150
 -   Consumer2: 4200-4250
+
+**Note:** Proxy usage is not supported for Hermes connectivity. Hermes uses Kafka-native TCP connections \(not HTTP\). Therefore, proxy settings configured on a MID Server are ignored and don't provide a supported path to reach the Hermes cluster. The MID Server proxy configuration applies only to HTTP-based communication and does not apply to Kafka traffic. This applies to all applications that connect to Hermes, including Log Export Service and Stream Connect.
 
 To confirm that the ports are accessible through the firewall, run the following command:
 
@@ -85,5 +88,5 @@ When using the `list` command to view a list of topics, a list of current topics
 
 When accessing the Hermes clusters using the CLI, internal topics appear in addition to any topics you've created. For details, see [KB1705399](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1705399).
 
-You can't delete a topic from both Kafka clusters using a single command in the command-line interface \(CLI\). However, you can delete the topic from both clusters by deleting the topic record in your instance. See [Delete a topic in Hermes](../task/delete-topic-hermes.md).
+You can't delete a topic from both Kafka clusters using a single command in the command-line interface \(CLI\). However, you can delete the topic from both clusters by deleting the topic record in your instance. See [Delete a topic in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/delete-topic-hermes.md).
 

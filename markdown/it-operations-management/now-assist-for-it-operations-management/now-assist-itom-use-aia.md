@@ -1,7 +1,8 @@
 ---
-title: Use the analyze alert impact agentic workflow
+title: Analyze alert impact in the Now Assist panel
 description: Learn how to use the analyze alert impact agentic workflow in the Now Assist panel. The agentic workflow helps you investigate an alert and get the context that you need to respond efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.html
 release: australia
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -12,19 +13,15 @@ keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Analyze alert impact agentic workflow, Use agentic AI, Now Assist for ITOM, IT Operations Management]
 ---
 
-# Use the analyze alert impact agentic workflow
+# Analyze alert impact in the Now Assist panel
 
 Learn how to use the analyze alert impact agentic workflow in the Now Assist panel. The agentic workflow helps you investigate an alert and get the context that you need to respond efficiently.
 
 ## Before you begin
 
-Before using the analyze alert impact agentic workflow, you must have the following:
+Make sure Now Assist for ITOM is installed and observability agents are configured for third-party vendors. For more information, see  and [Configure observability agents for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/configure-integration-agents-for-now-assist.md).
 
--   Now Assist for IT Operations Management \(ITOM\) installed on your instance. See [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
--   The analyze alert impact agentic workflow turned on in the Now Assist panel. See [Analyze alert impact agentic workflow](../concept/now-assist-itom-agentic-aia.md).
--   AI agents configured and activated for the observability tools integrated with Event Management, such as Dynatrace, Kentik, or New Relic. See [Configuring agents for Now Assist for ITOM](../concept/itom-ai-agent-configuration.md).
-
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 Role required: evt\_mgmt\_operator
 
@@ -32,15 +29,15 @@ Role required: evt\_mgmt\_operator
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon \(![Express list icon](../../event-management/image/express-list1.png)\).
+2.  From the navigation bar, select the Express list icon \(\[Omitted image "express-list1.png"\] Alt text: Express list icon\).
 
-3.  Select an alert, making sure that the source is Dynatrace, Kentik, or New Relic.
+3.  Select an alertfrom a source associated with an observability agent.
 
-4.  Open the panel by selecting the Now Assist icon \(![Now Assist icon.](../../../administer/now-assist-platform/images/wwna-icon.png)\).
+4.  Open the panel by selecting the Now Assist icon \(\[Omitted image "wwna-icon.png"\] Alt text: Now Assist icon.\).
 
 5.  Ask a tool-specific question about the alert.
 
-    For example, for New Relic alerts, you can ask `Have there been recent deployments for this alert?`. See [Questions for the analyze alert impact agentic workflow](../reference/questions-now-assist-workflows.md) for the list of available questions.
+    For example, for New Relic alerts, you can ask `Have there been recent deployments for this alert?`. To better understand the type of data you can query, see the **Overview of data returned** row in the corresponding vendor's table in [Configure observability agents for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/configure-integration-agents-for-now-assist.md).
 
     Now Assist uses the relevant AI agents to analyze your question and respond with a summary or insight. The first response for an alert might take several seconds to appear.
 
@@ -49,5 +46,5 @@ Role required: evt\_mgmt\_operator
 
 Use the information that you received to understand the alert impact and respond accordingly. You can also ask more questions about the alert.
 
-**Note:** Your conversation in the Now Assist panel is specific to the alert that you selected in Step 3. To ask about a different alert, open that alert and select the Now Assist icon \(![Now Assist icon.](../../../administer/now-assist-platform/images/wwna-icon.png)\) to start a new conversation.
+**Note:** Your conversation in the Now Assist panel is specific to the alert that you selected in Step 3. To ask about a different alert, open that alert and select the Now Assist icon \(\[Omitted image "wwna-icon.png"\] Alt text: Now Assist icon.\) to start a new conversation.
 

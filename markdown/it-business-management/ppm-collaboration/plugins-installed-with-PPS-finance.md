@@ -2,6 +2,7 @@
 title: Plugins installed with PPM Standard \(Project Portfolio Management\)
 description: Multiple plugins are installed with activation of PPM Standard plugin, if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/plugins-installed-with-PPS-finance.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -224,5 +225,5 @@ Process Flow Formatter \[com.snc.process\_flow\_formatter\]
 Displays the different stages in a linear process flow across the top of a record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Project Portfolio Management \(PPM\) Standard](r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
+</table>**Parent Topic:**[Components installed with Project Portfolio Management \(PPM\) Standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/r_InstalledWithProjectPortfolioSuiteWithFinancials.md)
 

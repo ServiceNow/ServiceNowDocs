@@ -2,6 +2,7 @@
 title: Limitations in GCC-H or DoD for Microsoft Teams integration with Virtual Agent
 description: Learn about the limitations for Microsoft Teams Government Community Cloud - High \(GCC-H\) or the US Department of Defense \(DoD\) Microsoft Teams integration with Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/msteams-gcch-limitations.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,5 +21,5 @@ Learn about the limitations for Microsoft Teams Government Community Cloud - Hig
 1.  **Manifest version**: Up to v1.10. Ensure that the template that you create has version 1.10 or an earlier version.
 2.  **Adaptive Cards**: Enable the **sn\_va\_teams.send\_image\_as\_data** system property to upload images to your conversation on Microsoft Teams that is integrated with GCC-High. Apply this system property to image and card controls. If you're using an image URL, ensure that its source is a ServiceNow instance.
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](../concept/va-integ-msteams-gcch.md)
+**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md)
 

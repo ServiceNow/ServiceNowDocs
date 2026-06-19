@@ -2,6 +2,7 @@
 title: Activate the page route map for the standard ticket page
 description: If you have upgraded your instance, redirect the ticket page to standard\_ticket page in Service Portal and view requests on the standard ticket page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/config-pageroutemap-stpage.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -30,10 +31,10 @@ Role required: admin or sp\_admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Standard ticket page](../concept/standard-ticket-page.md)
+**Parent Topic:**[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/standard-ticket-page.md)
 
 **Related topics**  
 
 
-[Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-my-requests.md)
+[bundle-platcap.configure-my-requests]
 

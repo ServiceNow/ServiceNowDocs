@@ -2,6 +2,7 @@
 title: Configure mobile apps to access Health and Safety applications
 description: Configure the ServiceNow mobile apps to access Health and Safety applications for submitting safety incidents, observations, and job safety analyses \(JSAs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/configure-now-mobile-health-safety.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -33,11 +34,11 @@ Role required: none
 
     -   Now Mobile app for submitting safety incidents, observations, and JSAs, and viewing safety register documents.
 
-        For more information on using this mobile app, see [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md).
+        For more information on using this mobile app, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
     -   ServiceNow Agent mobile app for conducting inspection and audit surveys offline.
 
-        For more information on using this mobile app, see [Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience.md) app.
+        For more information on using this mobile app, see  app.
 
 2.  Open the Now Mobile appor Mobile Agent app and tap the plus icon \(**+**\).
 
@@ -58,5 +59,5 @@ Role required: none
 
 -   For an instance with the Health and Safety Risk Management application, the **Create a job safety analysis** quick link appears in the **Home** tab of the Now Mobile app in your mobile device.
 
-**Parent Topic:**[Mobile experience for Health and Safety](../concept/hs-health-safety-mobile.md)
+**Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

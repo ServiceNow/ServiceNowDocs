@@ -2,6 +2,7 @@
 title: Playbook for Endpoint Detection
 description: This playbook provides systematic remediation steps to investigate malware alerts triggered on a host or endpoint \(For example, a malicious file detection\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-endpoint-detection.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -17,10 +18,10 @@ This playbook provides systematic remediation steps to investigate malware alert
 
 When CrowdStrike alerts are triggered on a host or endpoint, you can use the Endpoint Detection playbook in the Flow Designer for guidance and help optimize the investigation of these malicious files.
 
--   **[Set up the Endpoint Detection playbook](../task/playbook-setup-endpoint-detection.md)**  
+-   **[Set up the Endpoint Detection playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-setup-endpoint-detection.md)**  
 Use the following steps to set up the Endpoint Detection playbook.
--   **[Use the Endpoint Detection playbook](../task/playbook-using-endpoint-detection.md)**  
+-   **[Use the Endpoint Detection playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-using-endpoint-detection.md)**  
 Use this playbook to investigate malware alerts triggered on a host or endpoint. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Endpoint Detection playbook.
 
-**Parent Topic:**[Flow-based Playbooks](playbook-flow-based.md)
+**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-flow-based.md)
 

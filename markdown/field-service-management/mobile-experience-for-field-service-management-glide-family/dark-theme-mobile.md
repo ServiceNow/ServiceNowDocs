@@ -2,6 +2,7 @@
 title: Enable dark theme in the Now Mobile Agent application
 description: Turn on dark theme to alleviate eye strain and improve readability. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/dark-theme-mobile.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

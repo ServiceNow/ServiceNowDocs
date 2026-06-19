@@ -2,6 +2,7 @@
 title: DEX check definitions for macOS
 description: Check definitions for macOS are predetermined sets of rules and criteria that assess the performance, security, and conformance of macOS devices. These checks can cover various aspects such as CPU usage, memory usage, battery details, and firewall status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-check-definitions-mac.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -843,5 +844,5 @@ duration
 Elevates temporary admin access to users for a period of time to perform specific tasks without compromising on security.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Content Playbook reference](dex-content-playbook-reference.md)
+</table>**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

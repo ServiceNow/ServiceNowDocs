@@ -2,10 +2,13 @@
 title: Using Now Assist in portal case form
 description: Guide requesters through a self-service flow to find solutions to their problems using Genius Results and reduce the number of cases created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Using Virtual Agent in service portals, Automate and optimize, Use, Customer Service Management]
 ---
@@ -27,7 +30,7 @@ Guided Flow for Case Creation
 1.  Enter Your Details:
     -   Navigate to **Request Something** &gt; **Support** &gt; **Create case for a product \(Now Assist\)**.
 
-        **Note:** Verify that AI search in portals is activated. For more info, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md)
+        **Note:** Verify that AI search in portals is activated. For more info, see Enable and configure AI Search in Service Portal
 
     -   A single Subject field appears. Start entering your issue, and genius results, sources, related catalog items, and knowledge articles are displayed under related content.
 
@@ -49,7 +52,7 @@ Guided Flow for Case Creation
 
         **Note:**
 
-        Enable enhanced chat experience from the Now Assist in Virtual Agent guided setup for the feature to work. For details, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+        Enable enhanced chat experience from the Now Assist in Virtual Agent guided setup for the feature to work. For details, see .
 
     -   If no relevant results are found, select **Continue with case creation** to proceed. This action enables the **Submit** button and shows the additional fields needed to complete the case form.
     -   Select **Submit** to create a record case.

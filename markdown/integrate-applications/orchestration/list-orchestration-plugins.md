@@ -2,6 +2,7 @@
 title: List of Orchestration plugins
 description: This table lists all plugins available for Orchestration and their dependencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/list-orchestration-plugins.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -48,7 +49,7 @@ Orchestration - Active Directory \[com.snc.orchestration.ad\]
 
 </td><td>
 
-Installs the [Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) activity pack. These activities create, delete, and manage objects in Windows Active Directory.
+Installs the Active Directory activity pack. These activities create, delete, and manage objects in Windows Active Directory.
 
 </td><td>
 
@@ -72,7 +73,7 @@ Orchestration - Azure Active Directory \[com.snc.orchestration.azure.ad\]
 
 </td><td>
 
-Installs the [Azure AD](../../../administer/orchestration-activities/concept/c_AzureADActivityPack.md) activity pack. These activities automate employee onboarding and offboarding functions on Azure Active Directory and manage Office 365 licensing.
+Installs the [Azure AD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_AzureADActivityPack.md) activity pack. These activities automate employee onboarding and offboarding functions on Azure Active Directory and manage Office 365 licensing.
 
 </td><td>
 
@@ -84,7 +85,7 @@ Orchestration - Client Software Distribution \[com.snc.orchestration.client\_sf\
 
 </td><td>
 
-Allows the [distribution of software](../concept/c_ClientSoftwareDistribution.md) from the service catalog using third party management systems, such as Microsoft System Center Configuration Manager \(SCCM\)**Note:** This plugin is not automatically enabled when Orchestration is active.
+Allows the [distribution of software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_ClientSoftwareDistribution.md) from the service catalog using third party management systems, such as Microsoft System Center Configuration Manager \(SCCM\)**Note:** This plugin is not automatically enabled when Orchestration is active.
 
 </td><td>
 
@@ -99,7 +100,7 @@ Orchestration - Exchange \[com.snc.orchestration.exchange\]
 
 </td><td>
 
-Installs the [Exchange](../../../administer/orchestration-activities/concept/c_OrchestrationExchangeActivities.md) activity pack. These activities manage Microsoft Exchange mail systems.
+Installs the [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationExchangeActivities.md) activity pack. These activities manage Microsoft Exchange mail systems.
 
 </td><td>
 
@@ -111,7 +112,7 @@ Orchestration - F5 network management \[com.snc.orchestration.f5\]
 
 </td><td>
 
-Installs the [F5 Network Management](../../../administer/orchestration-activities/concept/c_OrchF5LoadBalancerActivities.md) activity pack. These activities configure elements of an F5 load balancer, including pools, pool members, and the virtual servers contained in the pool.
+Installs the [F5 Network Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchF5LoadBalancerActivities.md) activity pack. These activities configure elements of an F5 load balancer, including pools, pool members, and the virtual servers contained in the pool.
 
 </td><td>
 
@@ -123,7 +124,7 @@ Orchestration - Infoblox DDI Activity Pack \[com.snc.orchestration.infoblox\]
 
 </td><td>
 
-Installs the [Infoblox DDI](../../../administer/orchestration-activities/concept/c_InfobloxDDIActivityPack.md) activity pack. These activities support Infoblox DDI management.
+Installs the [Infoblox DDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_InfobloxDDIActivityPack.md) activity pack. These activities support Infoblox DDI management.
 
 </td><td>
 
@@ -135,7 +136,7 @@ Orchestration - PowerShell \[com.snc.orchestration.powershell\]
 
 </td><td>
 
-Installs the [PowerShell](../../../administer/orchestration-activities/concept/c_OrchestrPwrshellActivityPack.md) activity pack. These activities control and automate the administration of Windows machines and applications, using the Windows .NET Framework.
+Installs the [PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrPwrshellActivityPack.md) activity pack. These activities control and automate the administration of Windows machines and applications, using the Windows .NET Framework.
 
 </td><td>
 
@@ -147,7 +148,7 @@ Orchestration - Probe \[com.snc.orchestration.probe\]
 
 </td><td>
 
-Installs the [Probe](../../../administer/orchestration-activities/concept/probe_activity-pack.md#) activity pack. These activities run ServiceNow®probes on target hosts to return specific information.
+Installs the [Probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/probe_activity-pack.md) activity pack. These activities run ServiceNow®probes on target hosts to return specific information.
 
 </td><td>
 
@@ -159,7 +160,7 @@ Orchestration - ROI \[com.snc.runbook\_automation.roi\]
 
 </td><td>
 
-Installs an Orchestration application that estimates savings resulting from automated tasks in an instance and computes actual savings. [Orchestration - ROI](../concept/c_OrchestrationROI.md) is activated automatically with a base Orchestration subscription.
+Installs an Orchestration application that estimates savings resulting from automated tasks in an instance and computes actual savings. [Orchestration - ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationROI.md) is activated automatically with a base Orchestration subscription.
 
 </td><td>
 
@@ -172,7 +173,7 @@ Orchestration - ROI Premium \[com.snc.runbook\_automation.roi\_premium\]
 
 </td><td>
 
-Installs a premium dashboard that displays detailed reports on calculated savings for automated tasks over time. The [Orchestration - ROI Premium](r_OrchestrationROIPremiumDashboard.md#) plugin requires purchase and activation of the Performance Analytics - Premium plugin to display its reports.**Note:** This plugin is not automatically enabled when Orchestration is active.
+Installs a premium dashboard that displays detailed reports on calculated savings for automated tasks over time. The [Orchestration - ROI Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/r_OrchestrationROIPremiumDashboard.md) plugin requires purchase and activation of the Performance Analytics - Premium plugin to display its reports.**Note:** This plugin is not automatically enabled when Orchestration is active.
 
 </td><td>
 
@@ -185,7 +186,7 @@ Orchestration - Runtime \[com.snc.runbook\_automation.runtime\]
 
 </td><td>
 
-Enables other applications on the ServiceNow® platform to distribute and use orchestration content without requiring an Orchestration subscription. The [Orchestration - Runtime](orchestration-runtime-plugin.md) plugin displays the Orchestration activities shipped with these applications in the Workflow Editor and allows customers to modify the activities without requiring an Orchestration license.
+Enables other applications on the ServiceNow® platform to distribute and use orchestration content without requiring an Orchestration subscription. The [Orchestration - Runtime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/orchestration-runtime-plugin.md) plugin displays the Orchestration activities shipped with these applications in the Workflow Editor and allows customers to modify the activities without requiring an Orchestration license.
 
 </td><td>
 
@@ -198,7 +199,7 @@ Orchestration - SFTP \[com.snc.orchestration.sftp\]
 
 </td><td>
 
-Installs the [SFTP File Transfer](../../../administer/orchestration-activities/concept/c_OrchestrationSFTPActivityPack.md) activity pack. These activities manage files and directories on an SFTP server and move files from one SFTP server to another.
+Installs the [SFTP File Transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md) activity pack. These activities manage files and directories on an SFTP server and move files from one SFTP server to another.
 
 </td><td>
 
@@ -210,7 +211,7 @@ Orchestration - SSH \[com.snc.orchestration.ssh\]
 
 </td><td>
 
-Installs the [SSH](../../../administer/orchestration-activities/concept/c_OrchestrationSSHCustomActivities.md) activity pack. These activities read, write, and copy files, and reset user passwords on Linux computers.
+Installs the [SSH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationSSHCustomActivities.md) activity pack. These activities read, write, and copy files, and reset user passwords on Linux computers.
 
 </td><td>
 
@@ -222,12 +223,12 @@ Orchestration - System Center Configuration Manager \[com.snc.orchestration.sccm
 
 </td><td>
 
-Installs the [System Center Configuration Manager \(SCCM\)](../../../administer/orchestration-activities/concept/c_SCCMActivityPack.md) activity pack. These activities manage software deployments and collections on an SCCM server.
+Installs the [System Center Configuration Manager \(SCCM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_SCCMActivityPack.md) activity pack. These activities manage software deployments and collections on an SCCM server.
 
 </td><td>
 
 Orchestration
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Orchestration](../task/t_ActivateOrchestration.md)
+</table>**Parent Topic:**[Activate Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_ActivateOrchestration.md)
 

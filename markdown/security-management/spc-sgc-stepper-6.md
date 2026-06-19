@@ -2,6 +2,7 @@
 title: Create an instance and set the import schedule
 description: Create an instance and determine when and how often you want your connector to import data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-sgc-stepper-6.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

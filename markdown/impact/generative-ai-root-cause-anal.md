@@ -2,7 +2,10 @@
 title: Generative AI powered Root cause analysis
 description: Root cause analysis in Instance Observer provides automated detection and summarization of issues. It includes built-in root cause correlation and root cause summary using a large language model \(LLM\), which helps reduce troubleshooting time, improve incident transparency, and generative AI driven root cause recommendation by analyzing similar historical incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/generative-ai-root-cause-anal.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -26,7 +29,7 @@ RCA automatically identifies and explains the origin of incidents by analyzing m
 -   Actionable summaries for faster remediation or automation.
 -   Recommended resolutions by analyzing similar historical incidents.
 
-For more information, see [Instance Observer performance insights](io-performance-insights.md).
+For more information, see [Instance Observer performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-performance-insights.md).
 
 ## Root Cause Correlation \(RCC\)
 
@@ -65,12 +68,12 @@ Review the query SELECT fcr.u\_XXXX\_approval\_status AS fcr\_u\_w7e\_XXX\_statu
 
 **Note:** RCA is a deterministic model. Therefore, you may not see an RCA report for every alert, or Critical or Warning performance scenario. In cases where the model doesn’t have sufficient or relevant data to generate a result, you can continue to rely on traditional manual analysis.
 
--   **[Root cause correlation](root-cause-correlation.md)**  
+-   **[Root cause correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/root-cause-correlation.md)**  
 Root Cause Correlation \(RCC\) finds a root cause by automatically correlating metrics, logs, and event information for supported symptoms on production instances for the last 24 hours.
--   **[Configure Root cause correlation alerts](configure-rcc-alerts.md)**  
+-   **[Configure Root cause correlation alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-rcc-alerts.md)**  
 Configure Root Cause Correlation \(RCC\) alerts to start receiving the Root Cause Analysis \(RCA\) reports for these alerts.
--   **[Use the Root cause analysis history](utilizing-rcc-reports-perform-root-cause-analysis.md)**  
+-   **[Use the Root cause analysis history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/utilizing-rcc-reports-perform-root-cause-analysis.md)**  
 Check the Root cause analysis \(RCA\) History page to investigate the issues that caused an alert to trigger or performance to degrade to Critical or Warning.
 
-**Parent Topic:**[Monitoring instance health with Instance Observer](io-overview.md)
+**Parent Topic:**[Monitoring instance health with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-overview.md)
 

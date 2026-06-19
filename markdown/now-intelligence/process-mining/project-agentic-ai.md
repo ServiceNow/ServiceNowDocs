@@ -2,6 +2,7 @@
 title: Create a project using Agentic AI
 description: Create a project using Agentic AI data to understand any bottlenecks and inefficiencies caused when using agentic AI in your processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/project-agentic-ai.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -29,19 +30,19 @@ You must have the Agentic AI plugin installed.
 
     The Set objectives tab is displayed.
 
-    ![Agentic AI project set up](../image/agentic-proj-obj.png)
+    \[Omitted image "agentic-proj-obj.png"\] Alt text: Agentic AI project set up
 
 3.  Provide details on the Set objectives tab.
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d64037e100">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d62487e100">
 
 Field
 
-</th><th align="left" id="d64037e103">
+</th><th align="left" id="d62487e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d64037e109">
+</th></tr></thead><tbody><tr><td id="d62487e109">
 
 **Select type**
 
@@ -49,7 +50,7 @@ Description
 
 Select `Project`.
 
-</td></tr><tr><td id="d64037e121">
+</td></tr><tr><td id="d62487e121">
 
 **Name**
 
@@ -57,7 +58,7 @@ Select `Project`.
 
 Provide an intuitive name for the project that you’re creating.
 
-</td></tr><tr><td id="d64037e130">
+</td></tr><tr><td id="d62487e130">
 
 **Short description**
 
@@ -65,7 +66,7 @@ Provide an intuitive name for the project that you’re creating.
 
 Provide a short description for the project you’re creating.
 
-</td></tr><tr><td id="d64037e139">
+</td></tr><tr><td id="d62487e139">
 
 **Source Type**
 
@@ -73,7 +74,7 @@ Provide a short description for the project you’re creating.
 
 Select `Agentic AI data` from the list.
 
-</td></tr><tr><td id="d64037e152">
+</td></tr><tr><td id="d62487e152">
 
 **Table**
 
@@ -81,7 +82,7 @@ Select `Agentic AI data` from the list.
 
 This is auto-populated \(Execution Plan\).
 
-</td></tr><tr><td id="d64037e161">
+</td></tr><tr><td id="d62487e161">
 
 **Mark as restricted**
 
@@ -91,7 +92,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d64037e174">
+</td></tr><tr><td id="d62487e174">
 
 **Auto retire**
 
@@ -105,9 +106,9 @@ This field is available only if you choose the type as **Project**.
 
  If you don’t change the retired status within the specified days, the mined versions are permanently deleted. However, the project definition isn’t deleted. You can opt out of auto retirement by clearing this check box.
 
- The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](../concept/data-cleanup.md#).
+ The default value of 90 days can be changed by the administrator in the System Properties. For more information see, [Data cleanup properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md).
 
-</td></tr><tr><td id="d64037e214">
+</td></tr><tr><td id="d62487e214">
 
 **Add a KPI dashboard**
 
@@ -115,7 +116,7 @@ This field is available only if you choose the type as **Project**.
 
 Select the check box if you want to add a KPI dashboard. You must then select a dashboard. If you want to create a dashboard, select the **New Dashboard** button. It automatically takes you to the Performance Analytics workspace.
 
-</td></tr><tr><td id="d64037e229">
+</td></tr><tr><td id="d62487e229">
 
 **Quick start**
 
@@ -134,8 +135,8 @@ The template for Agentic AI project is auto-selected.
 
     After you mine your project, you cannot use the some analysis such as root cause analysis, work notes analysis, and clustering. Task mining is also not available for Agentic AI projects.
 
-    ![Agentic AI project](../image/agentic-ai-project.png)
+    \[Omitted image "agentic-ai-project.png"\] Alt text: Agentic AI project
 
 
-**Parent Topic:**[Using Process Mining](../concept/use-process-mining.md)
+**Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-process-mining.md)
 

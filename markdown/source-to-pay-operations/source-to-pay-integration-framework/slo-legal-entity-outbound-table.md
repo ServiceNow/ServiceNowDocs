@@ -2,6 +2,7 @@
 title: Supplier legal entity mapping outbound staging table
 description: The Supplier legal entity mapping outbound \[sn\_fcms\_intg\_supplier\_legal\_entity\_outbound\] staging table temporarily stores important data about the legal entities of a supplier so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/slo-legal-entity-outbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

@@ -2,6 +2,7 @@
 title: Filter records by priority with a flyout menu
 description: Configure a flyout menu that filters a task record list based on priority.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/comp-ex-filter-flyout-menu.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -22,7 +23,7 @@ Role required: ui\_builder\_admin
 
 This procedure uses UI Builder components to create dynamic, interactive layouts. For more information on how to configure components, see:
 
--   [Add and configure components](add-components.md#)
+-   [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md)
 -   [UI Builder Quick Bits: Navigating Component Configuration](https://www.servicenow.com/community/next-experience-blog/ui-builder-quick-bits-navigating-component-configuration/ba-p/3181624)
 
 <table id="table_exc_zzf_dhc"><thead><tr><th>
@@ -57,11 +58,11 @@ Record list
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create a page from scratch.
 
-    For more information about how to create a page, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select **Add content** on the stage or in the content tree to open the toolbox, then add a **Record list** component to the page.
 
@@ -91,7 +92,7 @@ Record list
 
     2.  Set the operator to `is one of`.
 
-    3.  Hover over the third field and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
+    3.  Hover over the third field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 
     4.  In the data binding modal, select **Client states**, then double-click or drag the `priorityFilter` pill to move it to the area above.
 
@@ -101,7 +102,7 @@ Record list
 
 10. Add and configure a Flyout menu component.
 
-    1.  In the content tree, hover over **Record list** and select the **Configure** icon ![](../image/uib-configure-icon.png).
+    1.  In the content tree, hover over **Record list** and select the **Configure** icon \[Omitted image "uib-configure-icon.png"\] Alt text:.
 
     2.  Select **Add before**.
 
@@ -162,7 +163,7 @@ Value to use after triggering event
 
 </td><td>
 
-1.  Hover over the field and select the bind data icon ![](../image/uib-dynamic-data-binding-button.png).
+1.  Hover over the field and select the bind data icon \[Omitted image "uib-dynamic-data-binding-button.png"\] Alt text:.
 2.  Select **Data types**, then **Event payload**.
 3.  Under **Pill view**, double-click or drag the **value** pill to move it to the area above.
 4.  Select **Apply** to confirm the binding.
@@ -174,7 +175,7 @@ Value to use after triggering event
 
     6.  Locate **List Controller**, select the **REFRESH** handler, then select **Continue**.
 
-        ![Events modal with the List Controller - Data refresh requested handler selected.](../image/comp-ex-ffm-events.png)
+        \[Omitted image "comp-ex-ffm-events.png"\] Alt text: Events modal with the List Controller - Data refresh requested handler selected.
 
     7.  Select **Add**.
 
@@ -182,8 +183,8 @@ Value to use after triggering event
 
 14. Preview and test the page.
 
-    ![Preview of UI Builder page showing the record list filtered for a specific priority.](../image/comp-ex-ffm-result.png)
+    \[Omitted image "comp-ex-ffm-result.png"\] Alt text: Preview of UI Builder page showing the record list filtered for a specific priority.
 
 
-**Parent Topic:**[Learn components by example](../concept/learning-components-by-example.md)
+**Parent Topic:**[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-components-by-example.md)
 

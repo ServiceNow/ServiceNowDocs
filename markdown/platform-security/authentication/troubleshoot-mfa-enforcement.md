@@ -2,6 +2,7 @@
 title: Troubleshooting Multi-factor Authentication enforcement
 description: Troubleshooting information due to the MFA enforcement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/troubleshoot-mfa-enforcement.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Reference for Knowledge Graph
 description: Knowledge Graph uses the following terminologies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/reference-for-knowledge-graph.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph

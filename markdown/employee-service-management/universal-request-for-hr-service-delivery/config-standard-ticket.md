@@ -2,6 +2,7 @@
 title: Configure Standard Ticket page for Universal Request
 description: Use the Standard ticket page configuration for Universal Request to provide a consistent layout across all tickets raised and associated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/config-standard-ticket.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -37,8 +38,8 @@ By default, a standard ticket configuration is provided for UR. You can customiz
 
 6.  Click **New** to create your custom configuration.
 
-    For more information, see [Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/standard-ticket-page.md).
+    For more information, see Standard ticket page.
 
 
-**Parent Topic:**[Standard Ticket page for Universal Request](../concept/ur-std-ticket-page.md)
+**Parent Topic:**[Standard Ticket page for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-std-ticket-page.md)
 

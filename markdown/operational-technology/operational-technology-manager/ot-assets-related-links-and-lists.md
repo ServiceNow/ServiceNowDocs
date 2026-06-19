@@ -2,6 +2,7 @@
 title: OT device related items and related lists
 description: The All OT Devices, All OT Devices by IP Address, and All OT Devices by CI menu options contain several related items and lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -22,9 +23,9 @@ This section lists any related or subordinate items that are associated with thi
 **Note:** Not all OT devices display the following related lists. For OT devices in an Operational Technology class or extended class, the following related lists are displayed. For OT devices categorized in a different hardware class, such as Windows Server, an instance admin must add the related lists to the form.
 
 1.  To view the related records, click the name of the related item \(for example, Memory Modules\).
-2.  To add a configuration item \(CI\) relationship for this OT device, click the add CI relationships icon \(![Add CI relationships icon.](../image/add-ci-relationships-icon.png)\). Use the search field to find the CI item that you want to create a relationship for.
-3.  To access the Dependency View form to see a pictorial depiction of the OT device relationships, click the show dependency views icon \(![Show dependency views icon.](../image/show-dependency-views-icon.png)\).
-4.  To change the settings that govern how the related items appear and are filtered, click the settings icon \(![Settings icon.](../image/settings-icon.png)\).
+2.  To add a configuration item \(CI\) relationship for this OT device, click the add CI relationships icon \(\[Omitted image "add-ci-relationships-icon.png"\] Alt text: Add CI relationships icon.\). Use the search field to find the CI item that you want to create a relationship for.
+3.  To access the Dependency View form to see a pictorial depiction of the OT device relationships, click the show dependency views icon \(\[Omitted image "show-dependency-views-icon.png"\] Alt text: Show dependency views icon.\).
+4.  To change the settings that govern how the related items appear and are filtered, click the settings icon \(\[Omitted image "settings-icon.png"\] Alt text: Settings icon.\).
 
 <table id="table_opr_3t1_vxb"><thead><tr><th>
 
@@ -221,18 +222,18 @@ Captures the following VLAN information associated with the OT device.-   VLAN I
 -   VLAN Type
 
 </td></tr></tbody>
-</table>-   **[Operational Technology device form](ot-assets-form.md)**  
+</table>-   **[Operational Technology device form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-assets-form.md)**  
 Use the Operational Technology \(OT\) device form to edit the detailed information for the OT devices in your enterprise.
--   **[Convert an IT hardware device to an OT device](../task/convert-it-asset-into-ot-asset.md)**  
+-   **[Convert an IT hardware device to an OT device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/convert-it-asset-into-ot-asset.md)**  
 If you've identified IT hardware devices that belong to the OT network, you can convert these IT Configuration Items \(CI\) into OT devices.
--   **[Convert IT hardware to OT devices in a bulk edit](../task/bulk-edit-to-convert-it-records-into-ot-records.md)**  
+-   **[Convert IT hardware to OT devices in a bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/bulk-edit-to-convert-it-records-into-ot-records.md)**  
 Choose multiple IT hardware devices and convert them to OT devices in a bulk edit so that you can edit your records more quickly and efficiently.
--   **[Convert your OT devices to IT hardware devices in a bulk edit](../task/bulk-edit-ot-records.md)**  
+-   **[Convert your OT devices to IT hardware devices in a bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/bulk-edit-ot-records.md)**  
 Bulk edit your Operational Technology \(OT\) devices to remove the OT device details. Then convert your OT devices to IT hardware devices.
--   **[Map IP addresses to OT devices](../task/map-ip-addresses-to-ot-devices.md)**  
+-   **[Map IP addresses to OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/map-ip-addresses-to-ot-devices.md)**  
 You can use the `SyncIPAddressToOT` scheduled job to update and synchronize the IP address information for all the available OT devices. The `SyncIPAddressToOT` scheduled job acquires the IP address information from the IP address \(cmdb\_ci\_ip\_address\) table and adds it to the IP address field of the CI.
--   **[View and edit device to device connections](../task/view-device-to-device-connections.md)**  
+-   **[View and edit device to device connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/view-device-to-device-connections.md)**  
 View and edit device-to-device connections for your Operational Technology \(OT\) devices using the Device to Device Connections list in the Industrial Workspace.
 
-**Parent Topic:**[Edit or view OT devices after import or discovery](../task/view-ot-assets.md)
+**Parent Topic:**[Edit or view OT devices after import or discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/view-ot-assets.md)
 

@@ -1,8 +1,11 @@
 ---
 title: Install Implementation agent
-description: Install the Implementation Agent to enable an Admin Home dashboard where you can access and set up Core Business Suite.
+description: Install the Implementation Agent to enable an admin home dashboard where you can access and set up Core Business Suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/inst-implement-agent.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -11,11 +14,11 @@ breadcrumb: [Configure, Core Business Suite]
 
 # Install Implementation agent
 
-Install the Implementation Agent to enable an Admin Home dashboard where you can access and set up Core Business Suite.
+Install the Implementation Agent to enable an admin home dashboard where you can access and set up Core Business Suite.
 
 ## Before you begin
 
-For information on using a centralized Admin Home dashboard to set up and manage applications, see [Now Assist for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ia-landing.md).
+For information on using a centralized admin home dashboard to set up and manage applications, see .
 
 **Note:** Core Business Suite guided setup is supported only on Australia patch 1 and later. Verify that your instance meets this requirement before installing the Implementation Agent.
 
@@ -49,12 +52,12 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## What to do next
 
-Set up the Core Business Suite. For more information, see [Install Core Business Suite Foundation](set-up-cbs.md).
+Set up the Core Business Suite. For more information, see [Install Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/set-up-cbs.md).
 
-**Parent Topic:**[Configure Core Business Suite Foundation](../concept/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
 

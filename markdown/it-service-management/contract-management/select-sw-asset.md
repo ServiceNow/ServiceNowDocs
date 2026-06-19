@@ -2,6 +2,7 @@
 title: Add or remove entitlements for a contract renewal
 description: Add or remove software entitlements that you want to include in the contract renewal process by using the Software assets selection task. You can also view the entitlements carried over to the new contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/select-sw-asset.html
 release: australia
 product: Contract Management
 classification: contract-management
@@ -39,7 +40,7 @@ The entitlements with the following license types are carried over to the new co
 
     2.  On the Software Entitlement form, fill in the required fields.
 
-        For more information, see [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-entitlement-fields.md).
+        For more information, see Software entitlement fields.
 
     3.  Select **Save**.
 
@@ -49,15 +50,15 @@ The entitlements with the following license types are carried over to the new co
 
 3.  Update the existing entitlements for the draft contract.
 
-<table id="choicetable_ohx_k1c_qtb"><thead><tr><th align="left" id="d126615e134">
+<table id="choicetable_ohx_k1c_qtb"><thead><tr><th align="left" id="d86017e134">
 
 Interface
 
-</th><th align="left" id="d126615e137">
+</th><th align="left" id="d86017e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d126615e143">
+</th></tr></thead><tbody><tr><td id="d86017e143">
 
 **Core UI**
 
@@ -67,7 +68,7 @@ Action
 2.  Indicate the entitlements that you want to cover by moving them to the **Planned Entitlements** or removing them.
 
 
-</td></tr><tr><td id="d126615e167">
+</td></tr><tr><td id="d86017e167">
 
 **Hardware Asset Workspace**
 
@@ -87,5 +88,5 @@ Add or remove entitlements to indicate the entitlements you want to cover.
 
 ## What to do next
 
-[Update terms and conditions](update-terms-conditions.md)
+[Update terms and conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/contract-management/update-terms-conditions.md)
 

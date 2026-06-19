@@ -2,6 +2,7 @@
 title: Modify the my favorites widget display
 description: The My Favorites widget displays the favorite content for quick use. You can configure the instance options to control the appearance of the widget, such as the title and number of items to display you want to view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-favorites-instance-options.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ Role required: sp\_admin or admin
 
     Instance options page appears.
 
-    ![Instance options](../images/favorites-instance-options.png "Instance options")
+    \[Omitted image "favorites-instance-options.png"\] Alt text: Instance options
 
     .
 
@@ -105,6 +106,6 @@ You may make the load configuration Synchronous for the widgets visible on the H
 </td></tr></tbody>
 </table>4.  Select **Save**.
 
-    For more information, see [Cross-channel favorites](../concept/employee-center-favorites.md).
+    For more information, see [Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 

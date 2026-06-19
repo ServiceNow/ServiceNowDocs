@@ -2,6 +2,7 @@
 title: Nexus map configurations
 description: Beginning with Operational Resilience, version 21.1.x, the Nexus map configuration has been introduced. To display a main node in the Operational Resilience Workspace, you must configure the Nexus map. The Node Map configuration UI allows you to visualize related data hierarchically, track issues, and identify areas needing attention for effective resolution or health monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/nexus-map-configuration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -49,12 +50,12 @@ Access to records is determined by the read access control lists \(ACLs\) associ
 
 This functionality verifies that sensitive information is protected and you can only see data that you’re authorized to access.
 
-For details on Nexus map configurations, including Node and Edge configurations, refer to the "Nexus map configurations related list" in [Main node configurations: A component of the Data Relationships Framework](main-node-relationship-fw.md).
+For details on Nexus map configurations, including Node and Edge configurations, refer to the "Nexus map configurations related list" in [Main node configurations: A component of the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-relationship-fw.md).
 
--   **[Node and edge configurations and property setting from the UI](configuration-for-node-map.md)**  
+-   **[Node and edge configurations and property setting from the UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configuration-for-node-map.md)**  
 To access the Node map configuration from the Operational Resilience Workspace, BCM administrators must set up the Main node configurations. Once the Main node configuration table is set up, it enables you to create configurations for entities such as services, business services, offerings, business processes, and application services. You can update the properties, node, and edge configuration details.
--   **[Main node configuration source](main-node-configuration-source.md)**  
+-   **[Main node configuration source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-configuration-source.md)**  
 You can set up the source for the Main node configurations.
 
-**Parent Topic:**[Main node configurations: A component of the Data Relationships Framework](main-node-relationship-fw.md)
+**Parent Topic:**[Main node configurations: A component of the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-relationship-fw.md)
 

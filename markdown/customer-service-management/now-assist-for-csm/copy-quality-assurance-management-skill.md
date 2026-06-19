@@ -2,6 +2,7 @@
 title: Copy Automated quality assurance skill
 description: Use the make a copy feature to create a copy of the Automated quality assurance skill so that you can experiment with skill settings and configure it to fit your business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/copy-quality-assurance-management-skill.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -28,20 +29,20 @@ The skills that come with the Now Assist applications have default configuration
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **Now Assist admin** &gt; **Skills**.
 
     If you’re already in the Now Assist admin console, select the **Now Assist Skills** tab.
 
 2.  In the navigation pane, select the **Customer** workflow, and **CSM** as the product.
 
-3.  On the feature card that contains the default Automated quality assurance skill, select **Options** icon ![](../image/csm-ws-dashboards-more-actions-icon.png).
+3.  On the feature card that contains the default Automated quality assurance skill, select **Options** icon \[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More options.
 
 4.  Select **Make a copy**.
 
     **Note:**
 
     -   For skill copy, admin can edit the name and description. Once the skill is copied, by default you see \(Copy\) as a suffix. Only one version of a skill can be active at a time. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
-    -   [Cloning](../concept/clone-the-now-assist-for-csm-skills.md#) can also be done from Now Assist Skill Kit.
+    -   [Cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) can also be done from Now Assist Skill Kit.
 
 ## Result
 
@@ -49,5 +50,5 @@ A copy of the Automated quality assurance skill is generated, and you're taken t
 
 ## What to do next
 
-Continue the steps in the guided setup to activate the skill. For more information, see [Activate Automated quality assurance skill](../concept/quality-assurance-management.md).
+Continue the steps in the guided setup to activate the skill. For more information, see [Activate Automated quality assurance skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/quality-assurance-management.md).
 

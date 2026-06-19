@@ -2,6 +2,7 @@
 title: Configurations to use Workday SOAP Basic Auth with WS-Security
 description: Configure your ServiceNow instance to perform actions that use the Workday SOAP Basic Auth with WS-Security.Provide the base URL of your Workday HR instance in the Connection Details \[connection\_details\] table. Spoke actions based on the SOAP API, use these details for the action execution.Create a WS-Security Username Profile to provide your Workday credentials to authenticate requests from ServiceNow.Configure the SOAP security profile by adding the security user name profile you had created to authenticate requests from ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/soap-wd-hr-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -23,7 +24,7 @@ Role required: admin.
 
 This is the most traditional Workday SOAP authentication setup.
 
-**Note:** These configurations are needed to use the SOAP-based spoke actions. For information about the SOAP-based spoke actions, see the Spoke actions that use Workday SOAP APIs section in [Workday HR Spoke](../concept/workday-hr-spoke.md).
+**Note:** These configurations are needed to use the SOAP-based spoke actions. For information about the SOAP-based spoke actions, see the Spoke actions that use Workday SOAP APIs section in [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
 
 ## Provide the Workday HR base URL
 
@@ -94,13 +95,13 @@ Role required: admin.
 
     **Note:** If you intend to use another SOAP security policy record and not the default record, you must ensure that you select that record in all the actions that use Workday SOAP web services.
 
-    ![Select the required SOAP security policy if you are not using the default policy.](../image/ws-security-wd-hr-spoke.png)
+    \[Omitted image "ws-security-wd-hr-spoke.png"\] Alt text: Select the required SOAP security policy if you are not using the default policy.
 
     Except these listed actions, all other actions use Workday SOAP web services:
 
 3.  For **WS-Security Username Profile**, select the security username profile you had created for the Workday HR spoke.
 
-    See [Create a WS-Security Username Profile for the Workday HR spoke](soap-wd-hr-spoke.md#) for more information.
+    See [Create a WS-Security Username Profile for the Workday HR spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/soap-wd-hr-spoke.md) for more information.
 
 4.  Do not provide a value in **WS-Security X.509 Profile**.
 

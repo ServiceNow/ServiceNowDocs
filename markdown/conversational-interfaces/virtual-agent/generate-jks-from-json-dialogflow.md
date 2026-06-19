@@ -2,6 +2,7 @@
 title: Generate a Java Keystore file from the JSON private key file
 description: To use Google Dialogflow with Virtual Agent Bot Interconnect, the third step is to generate a JKS file from the JSON private key you created in the previous step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/generate-jks-from-json-dialogflow.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Copy the private key text, starting with the BEGIN PRIVATE KEY section and ending with the END PRIVATE KEY section.
 
-    ![Select the text starting with –––--BEGIN PRIVATE KEY----- and ending with –––--END PRIVATE KEY-----](../images/ggl-dialogflow-copy-private-key.png)
+    \[Omitted image "ggl-dialogflow-copy-private-key.png"\] Alt text: Select the text starting with –––--BEGIN PRIVATE KEY----- and ending with –––--END PRIVATE KEY-----
 
 3.  Remove the line return characters \(\\n\) from the key:
 
@@ -90,9 +91,9 @@ Role required: admin
 
 A JKS file is created.
 
-**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-va-api-ggl-dialogflow.md)
+**Parent Topic:**[Using Google Dialogflow as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ggl-dialogflow.md)
 
-**Previous topic:**[Create a service account and private key for the Google Dialogflow project](create-srvc-acct-key-dialogflow.md)
+**Previous topic:**[Create a service account and private key for the Google Dialogflow project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-srvc-acct-key-dialogflow.md)
 
-**Next topic:**[Configure connections to Google Dialogflow in your Virtual Agent Bot Interconnect instance](configure-sn-instance-google-dialogflow.md)
+**Next topic:**[Configure connections to Google Dialogflow in your Virtual Agent Bot Interconnect instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-sn-instance-google-dialogflow.md)
 

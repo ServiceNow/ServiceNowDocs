@@ -2,6 +2,7 @@
 title: Configure a workplace task template
 description: Configure templates in Workplace Core that can be used to create workplace tasks. You can either modify predefined workplace task templates or create your own templates and associate them with workplace tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/configure-workplace-task-template-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -34,7 +35,7 @@ Templates simplify the process of creating tasks in Workplace Core by populating
 
     -   If you are creating a new template, select **New**.
     -   If you are modifying an existing template, open the desired template.
-    For information about the template form fields, see [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md).
+    For information about the template form fields, see Create a template.
 
 3.  Select the **Workplace Task \[sn\_wsd\_core\_workplace\_task\]** table in the **Table** field.
 
@@ -48,10 +49,10 @@ Templates simplify the process of creating tasks in Workplace Core by populating
 
 6.  Add a checklist to the template.
 
-    For steps on how to add a checklist, see [Create a workplace task checklist](create-workplace-task-checklist-wsd.md).
+    For steps on how to add a checklist, see [Create a workplace task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-task-checklist-wsd.md).
 
 7.  Select **Update**.
 
 
-**Parent Topic:**[Managing workplace tasks](../concept/managing-workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
 

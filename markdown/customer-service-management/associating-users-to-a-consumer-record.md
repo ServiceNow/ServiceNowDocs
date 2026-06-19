@@ -2,7 +2,10 @@
 title: Creating and associating a Unified Consumer user to a consumer record
 description: Create and associate a Unified Consumer user with a consumer record so that your user can access the Customer Service Portal \(CSP\). This process involves creating a Unified Consumer user through a consumer form and then associating the user to a consumer record.Create a Consumer User through the User lookup list on the consumer form.Associate a user with a consumer record in the Customer Service Management \(CSM\) application. After the association is done, you can access the Consumer Service Portal \(CSP\) as a consumer to search for information, create cases, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associating-users-to-a-consumer-record.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -33,7 +36,7 @@ You can create both the internal \(snc\_internal\) and external \(snc\_external\
 
 2.  Select the consumer from the consumer record.
 
-3.  In the Login Details related list, select the User lookup icon ![Lookup icon.](../image/lookup-list.jpg) to open the list of sys\_users.
+3.  In the Login Details related list, select the User lookup icon \[Omitted image "lookup-list.jpg"\] Alt text: Lookup icon. to open the list of sys\_users.
 
 4.  On the Users list, select **New**.
 
@@ -41,14 +44,14 @@ You can create both the internal \(snc\_internal\) and external \(snc\_external\
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md).
+    For a description of the field values, see Create a user.
 
 6.  Select **Submit**.
 
 
 ### What to do next
 
-Associate an existing user with a consumer record. For more information, see [Associate an existing user with a consumer record](associating-users-to-a-consumer-record.md#).
+Associate an existing user with a consumer record. For more information, see [Associate an existing user with a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associating-users-to-a-consumer-record.md).
 
 ## Associate an existing user with a consumer record
 
@@ -64,7 +67,7 @@ Role required: sn\_crm\_consumer\_data\_manager, sn\_crm\_consumer\_relationship
 
 2.  Select the consumer from the consumer record.
 
-3.  In the Login Details related list, select the User lookup icon ![Lookup icon.](../image/lookup-list.jpg) to open the list of sys\_users.
+3.  In the Login Details related list, select the User lookup icon \[Omitted image "lookup-list.jpg"\] Alt text: Lookup icon. to open the list of sys\_users.
 
 4.  On the Users form, select the user to associate with the consumer record.
 

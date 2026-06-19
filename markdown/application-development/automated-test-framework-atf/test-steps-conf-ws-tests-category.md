@@ -2,6 +2,7 @@
 title: Configurable Workspace category
 description: Interact directly with the configurable workspace components for simpler test creation.Navigate to a workspace page using a URL. The feature allows for URLs to be entered with or without the preceding domain name.Interact with a seismic component on a workspace page using the Test Page test step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-conf-ws-tests-category.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -19,7 +20,7 @@ Interact directly with the configurable workspace components for simpler test cr
 
 Navigate to a workspace page using a URL. The feature allows for URLs to be entered with or without the preceding domain name.
 
-![Screenshot shows the workspace url form](../image/atf-ws-url-form.png)
+\[Omitted image "atf-ws-url-form.png"\] Alt text: Screenshot shows the workspace url form
 
 <table id="table_od3_dgb_hzb"><thead><tr><th>
 
@@ -92,7 +93,7 @@ Interact with a seismic component on a workspace page using the Test Page test s
 
 Enter the URL of the workspace page you want to inspect for the Configurable Workspace URL field on the Configurable Workspace Test Authoring modal.
 
-![Screenshot shows the test page modal](../image/atf-test-page-modal.png)
+\[Omitted image "atf-test-page-modal.png"\] Alt text: Screenshot shows the test page modal
 
 **Note:** By default, the URL from the preceding Open Workspace Page test step is displayed. If this step is not immediately preceded by an Open Workspace Page step, you must enter the target workspace page URL manually for inspection.
 

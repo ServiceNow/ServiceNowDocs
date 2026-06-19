@@ -2,6 +2,7 @@
 title: Configure moderation filters
 description: Create moderation filters to manage how content is moderated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/configure-moderation-filters.html
 release: australia
 product: Communities
 classification: communities
@@ -79,5 +80,5 @@ Check box to automatically moderate content when it is submitted. Any content th
 8.  Click **Update**.
 
 
-**Parent Topic:**[Moderate a community](moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
 

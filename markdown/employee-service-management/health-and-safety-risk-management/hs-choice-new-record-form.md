@@ -2,6 +2,7 @@
 title: Choice new record form
 description: Field description to add a new choice to create a new permit type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-choice-new-record-form.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -27,5 +28,5 @@ Field description to add a new choice to create a new permit type.
 |Dependent value|Leave empty.|
 |Hint|Leave empty.|
 
-**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

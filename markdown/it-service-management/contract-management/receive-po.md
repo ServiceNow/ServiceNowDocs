@@ -2,6 +2,7 @@
 title: Receive a purchase order for contract assets
 description: Receive the purchase order for assets covered in the contract by using the Renewal purchase order task. This task is available if you have added at least one hardware asset, created an entitlement, or selected an existing entitlement that is in the Build state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/contract-management/receive-po.html
 release: australia
 product: Contract Management
 classification: contract-management

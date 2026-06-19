@@ -2,6 +2,7 @@
 title: Issue provisional credit
 description: Initiate temporary provisional credit to the Mastercard card holder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/issue-provisional-credit-mc.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -19,7 +20,7 @@ Initiate temporary provisional credit to the Mastercard card holder.
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -29,7 +30,7 @@ A temporary credit is provided to the card holder to notify that the case is und
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -47,7 +48,7 @@ A temporary credit is provided to the card holder to notify that the case is und
 
 8.  Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](../../fso-mastercard/reference/mastercard-image-and-document-requirements.md).
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/mastercard-image-and-document-requirements.md).
 
 9.  In the  **Remarks** field, enter any comments.
 
@@ -59,5 +60,5 @@ A temporary credit is provided to the card holder to notify that the case is und
     |**To Issue provisional credit to customer**|Select **Close task**.|
 
 
-**Parent Topic:**[Processing a Mastercard dispute](../concept/processing-mastercard-dispute-case.md)
+**Parent Topic:**[Processing a Mastercard dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-mastercard-dispute-case.md)
 

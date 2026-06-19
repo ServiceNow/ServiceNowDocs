@@ -2,6 +2,7 @@
 title: Operational Equipment Model
 description: Use the Operational Equipment Model to define functional locations and equipment in accordance with the ISA-95 model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/operational-equipment-model.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -21,7 +22,10 @@ Newly added equipment appears in the equipment list. They can be used for variou
 
 The following image shows an example of the Operational Equipment Model.
 
-![Operational Equipment Model Functional Locations tab](../image/operational-equipment-model.png)
+\[Omitted image "operational-equipment-model.png"\] Alt text: Operational Equipment Model Functional Locations tab
 
-**Parent Topic:**[Industrial Data Models](industrial-data-models.md)
+-   **[Functional location vertical navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/functional-location-vertical-navigation.md)**  
+The functional location view in the Digital Factory Workspace uses a vertical navigation panel and a breadcrumb trail so that you can move between sections of a functional location and between locations in the equipment model.
+
+**Parent Topic:**[Industrial Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-data-models.md)
 

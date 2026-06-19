@@ -2,11 +2,12 @@
 title: Customize a case summarization skill in Now Assist for Customer Service Management \(CSM\)
 description: If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Configure, Now Assist for CSM, Customer Service Management]
 ---
@@ -25,7 +26,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
+1.  Navigate to **All** &gt; **Now Assist admin** &gt; **Features** to access the **Now Assist Features** tab of the Now Assist Admin console.
 
 2.  In the **Customer** workflow group, view the skills for the Now Assist for CSM features.
 
@@ -39,7 +40,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the More actions icon![](../image/more_vertical_icon.png) for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the More actions icon\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -49,7 +50,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Additional skill input and trigger information](additional-skill-input-and-trigger-information-for-now-assist_0.md).
+    For information about the inputs and triggers for each skill, see [Additional skill input and trigger information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/additional-skill-input-and-trigger-information-for-now-assist_0.md).
 
     1.  Enter a name and description for the skill.
 
@@ -69,7 +70,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
         Add multiple base input fields, as necessary.
 
-        ![View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.](../image/now-assist-csm-view-input.png "View input step")
+        \[Omitted image "now-assist-csm-view-input.png"\] Alt text: View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -128,9 +129,9 @@ Description of the base input field value.
 
 6.  Customize the prompt.
 
-    Review and test the default prompt provided. The prompt is fixed and cannot be customized directly within this step or from the Now Assist Admin screen.
+    Review and test the default prompt provided. The prompt is fixed and can't be customized directly within this step or from the Now Assist admin screen.
 
-    To customize or create new prompts, select **Edit prompt in Now Assist Skill Kit**. This will redirect you to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more info, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
+    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. This will redirect you to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more info, see Now Assist Skill Kit
 
     1.  For each input template state \(New, Work in progress, or Resolved\), select the prompt to include in the generated summary.
 
@@ -156,9 +157,9 @@ Description of the base input field value.
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
-    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
+    -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
-        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
 9.  Configure where to display the case summarization.
 
@@ -170,7 +171,7 @@ Description of the base input field value.
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

@@ -2,6 +2,7 @@
 title: Domain separation and Integration Hub
 description: Domain separation is supported for Integration Hub. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/domain-separation-integrationhub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -25,16 +26,16 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview
 
-In general, IntegrationHub inherits the domain separation features of Workflow Studio. As each spoke \(application\) can have its own domain separation relationship, there is no one specific support level to associate with IntegrationHub. To learn more, see [Domain separation and Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md).
+In general, IntegrationHub inherits the domain separation features of Workflow Studio. As each spoke \(application\) can have its own domain separation relationship, there is no one specific support level to associate with IntegrationHub. To learn more, see Domain separation and Flow Designer.
 
-**Parent Topic:**[Integration Hub reference](integration-hub-reference.md)
+**Parent Topic:**[Integration Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-hub-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

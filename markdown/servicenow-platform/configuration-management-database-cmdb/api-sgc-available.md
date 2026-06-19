@@ -2,6 +2,7 @@
 title: API Service Graph Connectors
 description: You can use an API Service Graph Connector to import and integrate third-party API data into CMDB tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/api-sgc-available.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -21,31 +22,31 @@ Select a technology to learn about the API Service Graph Connector available for
 
 <table id="table_t4z_2ww_3xb" class="nav-card"><tbody><tr><td>
 
-[![Apigee X logo.](../image/sgc-apigee.png)Apigee X](api-sgc-apigee-x.md)
+[\[Omitted image "sgc-apigee.png"\] Alt text: Apigee X logo.Apigee X](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-apigee-x.md)
 
 </td><td>
 
-[![AWS API Gateway logo.](../image/sgc-aws-api.png)AWS API Gateway](api-sgc-aws-gateway.md)
+[\[Omitted image "sgc-aws-api.png"\] Alt text: AWS API Gateway logo.AWS API Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-aws-gateway.md)
 
 </td><td>
 
-[![Azure API Management logo.](../image/sgc-azure-api.png)Azure API Management](api-sgc-azure-mgmt.md)
+[\[Omitted image "sgc-azure-api.png"\] Alt text: Azure API Management logo.Azure API Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt.md)
 
 </td></tr><tr><td>
 
-[![Boomi Cloud API Management logo.](../image/sgc-boomi.png)Boomi Cloud API Management](api-sgc-boomi-cloud.md)
+[\[Omitted image "sgc-boomi.png"\] Alt text: Boomi Cloud API Management logo.Boomi Cloud API Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-boomi-cloud.md)
 
 </td><td>
 
-[![Kong Gateway logo.](../image/sgc-kong.png)Kong Gateway](api-sgc-kong-gateway.md)
+[\[Omitted image "sgc-kong.png"\] Alt text: Kong Gateway logo.Kong Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-gateway.md)
 
 </td><td>
 
-[![Kong Konnect logo.](../image/sgc-kong.png)Kong Konnect](api-sgc-kong-konnect.md)
+[\[Omitted image "sgc-kong.png"\] Alt text: Kong Konnect logo.Kong Konnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-kong-konnect.md)
 
 </td></tr><tr><td>
 
-[![MuleSoft logo.](../image/sgc-mulesoft.png)MuleSoft](api-sgc-mulesoft.md)
+[\[Omitted image "sgc-mulesoft.png"\] Alt text: MuleSoft logo.MuleSoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/api-sgc-mulesoft.md)
 
 </td><td>
 

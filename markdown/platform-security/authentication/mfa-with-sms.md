@@ -2,6 +2,7 @@
 title: SMS as an MFA factor
 description: Multi-factor authentication \(MFA\) with SMS as a factor for your authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-with-sms.html
 release: australia
 product: Authentication
 classification: authentication
@@ -19,13 +20,13 @@ Admin can configure ServiceNow instance to require users who attempt to login th
 
 When users attempt to login to ServiceNow, SMS OTP is sent to the mobile number associated with the sys\_user record. User's can enter the six-digit verification code that it sent to the mobile device and verify their identity.
 
-You can configure MFA with SMS using the out of the box Twilio as well. For more information, see [Multi-factor authentication Providers](multi-factor-authentication-providers.md).
+You can configure MFA with SMS using the out of the box Twilio as well. For more information, see [Multi-factor authentication Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/multi-factor-authentication-providers.md).
 
-![MFA-SMS](../images/mobile-screen-mfa.png)
+\[Omitted image "mobile-screen-mfa.png"\] Alt text: MFA-SMS
 
 Further the MFA with SMS can be controlled based on the policy input and conditions using filter criteria. Following are the types of filter criteria:
 
--   [IP Filter Criteria](../task/create-ip-filter-criteria.md)
--   [Role Filter Criteria](../task/create-role-filter-criteria.md)
--   [Group Filter Criteria](../task/create-group-filter-criteria.md)
+-   [IP Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-ip-filter-criteria.md)
+-   [Role Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-role-filter-criteria.md)
+-   [Group Filter Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-group-filter-criteria.md)
 

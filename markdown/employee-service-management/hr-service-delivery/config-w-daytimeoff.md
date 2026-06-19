@@ -2,6 +2,7 @@
 title: Time offs
 description: Complete the one time set up of pulling time offs from Workday into the ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-w-daytimeoff.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ Complete the one time set up of pulling time offs from Workday into the ServiceN
 
 Role required: sn\_hr\_workday.admin
 
-Configure the required reports for the Time Off request functionality. See [Configure reports HR Service Delivery Advanced Integration with Workday](../concept/awd-config-re.md#).
+Configure the required reports for the Time Off request functionality. See [Configure reports HR Service Delivery Advanced Integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/awd-config-re.md).
 
 ## Procedure
 
@@ -37,5 +38,5 @@ Configure the required reports for the Time Off request functionality. See [Conf
 3.  Open the Time Off Request – Link to Workday record and modify the URL field.
 4.  Navigate to Employee Service Center. In the Catalog menu, open **Benefits Category** &gt; **Time Off Request –Link to Workday**. You are directed to the Workday Time Off request page.
 
-**Parent Topic:**[Time off request to Workday](../concept/w-timeoff.md)
+**Parent Topic:**[Time off request to Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/w-timeoff.md)
 

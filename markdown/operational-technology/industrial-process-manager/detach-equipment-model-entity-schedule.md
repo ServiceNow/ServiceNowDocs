@@ -2,6 +2,7 @@
 title: Detach a schedule from an equipment model entity
 description: Detach an existing schedule from an equipment model entity with the Industrial Process Manager application. If a schedule no longer applies to an equipment model entity, you can easily remove it so that it doesn't show up for that entity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/detach-equipment-model-entity-schedule.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -36,5 +37,5 @@ Role required: sn\_isa\_schedule\_admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Associate a schedule with an equipment model entity](associate-schedules-with-equipment-model-entity.md)
+**Parent Topic:**[Associate a schedule with an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/associate-schedules-with-equipment-model-entity.md)
 

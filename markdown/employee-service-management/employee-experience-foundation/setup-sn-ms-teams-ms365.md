@@ -2,6 +2,7 @@
 title: Integrating ServiceNow with Microsoft 365 applications for Employee Experience
 description: Set up your ServiceNow Employee Center instance to integrate Microsoft 365 applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,26 +34,26 @@ Before integrating Employee Center with your Microsoft 365 tenant, ensure that t
 
     -   IT Service Management for Microsoft 365
     -   HR Service Delivery for Microsoft 365
-    For more information on how to install IT Service Management with Microsoft 365 or HR Service Delivery with Microsoft 365, see [Integrating ServiceNow with Microsoft Teams and Microsoft 365](setup-sn-ms-teams.md).
+    For more information on how to install IT Service Management with Microsoft 365 or HR Service Delivery with Microsoft 365, see [Integrating ServiceNow with Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-sn-ms-teams.md).
 
 
 ## Integration process for pre-published apps
 
 1.  Upgrade to IT Service Management for Microsoft 365 / HR Service Delivery with Microsoft 365 by installing the latest IT Service Management for Microsoft 365 / HR Service Delivery with Microsoft 365 plugin.
 
-    **Note:** For more information on activating plugins, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+    **Note:** For more information on activating plugins, see .
 
 2.  Regenerate and download a new manifest file for Microsoft 365.
 
-    For more information on how to generate and download the manifest file, see [Create and download manifest file for Employee Center and Microsoft 365 integration](../task/download-manifest-ms365.md).
+    For more information on how to generate and download the manifest file, see [Create and download manifest file for Employee Center and Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/download-manifest-ms365.md).
 
-3.  [Upload manifest file in Microsoft Teams for Microsoft 365](../task/upload-manifest-ms-teams-ms365.md).
+3.  [Upload manifest file in Microsoft Teams for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams-ms365.md).
 
 ## Integration process for self-configured apps
 
 1.  Upgrade to IT Service Management for Microsoft 365 / HR Service Delivery with Microsoft 365 by installing the latest IT Service Management for Microsoft 365 / HR Service Delivery with Microsoft 365 plugin.
 
-    **Note:** For more information on activating plugins, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+    **Note:** For more information on activating plugins, see .
 
 2.  Authenticate users to access Employee Center in Microsoft 365 applications by updating the client IDs in the Microsoft Azure application.
 
@@ -121,11 +122,11 @@ Microsoft Outlook mobile application
 **27922004-5251-4030-b22d-91ecd9a37ea4**
 
 </td></tr></tbody>
-</table>    For more information on updating the Microsoft Azure application and authenticating users, see [Create Microsoft Azure application and authenticate users to access Employee Center in Microsoft Teams](../task/authenticate-users-your-hub-ms-teams.md).
+</table>    For more information on updating the Microsoft Azure application and authenticating users, see [Create Microsoft Azure application and authenticate users to access Employee Center in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/authenticate-users-your-hub-ms-teams.md).
 
 3.  Regenerate and download a new manifest file for Microsoft 365.
 
-    For more information on how to generate and download the manifest file, see [Create and download manifest file for Employee Center and Microsoft 365 integration](../task/download-manifest-ms365.md).
+    For more information on how to generate and download the manifest file, see [Create and download manifest file for Employee Center and Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/download-manifest-ms365.md).
 
-4.  [Upload manifest file in Microsoft Teams for Microsoft 365](../task/upload-manifest-ms-teams-ms365.md).
+4.  [Upload manifest file in Microsoft Teams for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams-ms365.md).
 

@@ -2,6 +2,7 @@
 title: Respond to an assessment
 description: Respond to an assessment that has been assigned to your queue. Your responses to the assessment help with making informed decisions and taking targeted actions by using the Smart Assessment Engine application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-asmnt-respond.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -32,7 +33,7 @@ When you’re assigned a task to respond to an assessment, you submit your respo
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon ![](../image/list-icon.png).
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
     3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
     4.  The smart assessments list is displayed.
 3.  Select the assessment you want to respond to.

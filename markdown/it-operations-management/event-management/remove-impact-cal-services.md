@@ -2,11 +2,12 @@
 title: Remove application services from impact calculation
 description: Exclude specific application services from impact calculation to reduce noise and focus on critical components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/remove-impact-cal-services.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -31,7 +32,7 @@ For the application service that you want to exclude from the impact calculation
 
     The Impact Filter Services page opens.
 
-    ![A list of application services that are included in impact calculation.](../image/em-impact-cal-app-services-list.png)
+    \[Omitted image "em-impact-cal-app-services-list.png"\] Alt text: A list of application services that are included in impact calculation.
 
 2.  For the application service that you want to exclude from the impact calculation, change the **Calculate impact** status of the application service to **false**.
 

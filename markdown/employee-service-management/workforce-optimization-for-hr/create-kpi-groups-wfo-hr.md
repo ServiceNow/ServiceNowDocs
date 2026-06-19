@@ -2,13 +2,14 @@
 title: Create KPI Groups to monitor performance
 description: Create key performance indicator \(KPI\) groups with the KPIs that matter most to your teams. When you associate your KPI groups with assignment groups, you can monitor your team's performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/create-kpi-groups-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up Teams in Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure teams, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Create KPI Groups to monitor performance
@@ -47,5 +48,5 @@ Role required: sn\_hr\_wfo.admin
     2.  Move the desired assignment groups from the Collection to the Assignment Groups list.
     3.  Click **Save**.
 
-**Parent Topic:**[Setting up Teams in Workforce Optimization for HR](setup-team-workforce-wfo-hr.md)
+**Parent Topic:**[Configure Teams in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-team-workforce-wfo-hr.md)
 

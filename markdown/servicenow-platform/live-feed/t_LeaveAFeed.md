@@ -2,6 +2,7 @@
 title: Leave a feed
 description: Members can choose to leave a group feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_LeaveAFeed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -27,8 +28,8 @@ Role required: none
 
 3.  Click **Leave**.
 
-    **Note:** If you leave a [feed](../concept/c_RecordFeeds.md) associated with a record, such as an incident, you automatically rejoin that feed if you modify the associated record again.
+    **Note:** If you leave a [feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_RecordFeeds.md) associated with a record, such as an incident, you automatically rejoin that feed if you modify the associated record again.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

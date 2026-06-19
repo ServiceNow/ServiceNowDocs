@@ -2,6 +2,7 @@
 title: Configure an HTML template
 description: Configure a signing template that you want to make available for signing the completed Workplace Core workplace tasks. You can configure the default signing template available with the application or create a new template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/configure-workplace-pdf-document-template.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -21,7 +22,7 @@ Role required: sn\_wsd\_core.admin
 
 ## About this task
 
-When a workplace manager signs a completed task, an e-signature PDF document is generated using a signing template and is attached to the task. For information about signing a workplace task, see [Sign a completed workplace task](../../workplace-service-delivery/task/sign-completed-task-wsd.md).
+When a workplace manager signs a completed task, an e-signature PDF document is generated using a signing template and is attached to the task. For information about signing a workplace task, see [Sign a completed workplace task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/sign-completed-task-wsd.md).
 
 ## Procedure
 
@@ -56,6 +57,22 @@ Name
 </td><td>
 
 Name of the signing template.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Option for making the template available for use. A template must be active to be used.
+
+</td></tr><tr><td>
+
+Domain
+
+</td><td>
+
+Domain assigned to the template. Select **Global** to allow any user who can access templates to view and apply this template.
 
 </td></tr><tr><td>
 
@@ -94,7 +111,7 @@ Placeholder for HTML text and variables. The variables are resolved when the PDF
 
     -   `${Checklist}`: Adds the checklist variable.
     -   `${Signature}`: Adds the signature variable.
-    ![Signature and checklist variables in signing template body](../../../reuse/workplace-safety-mgmt/images/signing-template-body.png)
+    \[Omitted image "signing-template-body.png"\] Alt text: Signature and checklist variables in signing template body
 
     In the signed PDF document, the signature and checklist are embedded at the same location where you entered these variables into the template body.
 
@@ -103,5 +120,5 @@ Placeholder for HTML text and variables. The variables are resolved when the PDF
 7.  Review the look of the PDF document by impersonating a workplace manager and signing a closed task.
 
 
-**Parent Topic:**[Managing workplace tasks](workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/workplace-maintenance-tasks.md)
 

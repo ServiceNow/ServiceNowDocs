@@ -2,6 +2,7 @@
 title: Jumpstart Your Now Assist in Document Intelligence
 description: This accelerator provides a demonstration of the possibilities and capabilities of Now Assist in Document Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-now-assist-document-intelligence.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator Overview
 
 Jumpstart Your Now Assist in Document Intelligence \(DocIntel\) provides Impact customers with an overview and applied demonstration of Now Assist in DocIntel functionality. This offering helps customers understand a capability that is central to both AI Agents and Now Assist Skills. It also serves as a valuable resource for developers building custom workflows that involve documents. Additionally, this accelerator includes key resources and leading practice guides to help customers get started.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -60,6 +63,8 @@ Please refer to the applicable Impact Accelerator Description available at [http
 ## Exclusions
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments or to self-hosted customers.
+
+## Exclusions
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

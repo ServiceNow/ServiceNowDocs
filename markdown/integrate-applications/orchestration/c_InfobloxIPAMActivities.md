@@ -2,6 +2,7 @@
 title: Infoblox IPAM activities
 description: The Infoblox IPAM activities manage IP addresses in your network using an Infoblox DDI Grid Server.The IPAM Register IP Address activity registers an IP address in a network using Infoblox IPAM.The IPAM Reserve IP Address activity reserves an IP address in a network using Infoblox IPAM.The IPAM List IP Reservations activity returns an array of all IP Address within the named InfoBlox Server.The IPAM Delete activity deletes an IP Address within a named InfoBlox server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/c\_InfobloxIPAMActivities.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -17,7 +18,7 @@ The Infoblox IPAM activities manage IP addresses in your network using an Infobl
 
 Use these activities to register, reserve, list, or delete IP addresses.
 
-**Parent Topic:**[Infoblox DDI activity pack](c_InfobloxDDIActivityPack.md)
+**Parent Topic:**[Infoblox DDI activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_InfobloxDDIActivityPack.md)
 
 ## IPAM Register IP Address activity
 
@@ -25,7 +26,7 @@ The IPAM Register IP Address activity registers an IP address in a network using
 
 The output of this activity produces an InfoBlox IP address record that can be used for other IPAM functions in the format `fixedaddress/<encrypted key>:<reserved ip address>/<view>`.
 
-The IPAM activities use the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
+The IPAM activities use the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Infoblox DDI** &gt; **IPAM**.
 
@@ -116,7 +117,7 @@ The IPAM Reserve IP Address activity reserves an IP address in a network using I
 
 The output of this activity produces an InfoBlox IP address record that can be used for other IPAM functions in the format `fixedaddress/<encrypted key>:<reserved ip address>/<view>`.
 
-The IPAM activities use the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
+The IPAM activities use the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Infoblox DDI** &gt; **IPAM**.
 
@@ -198,7 +199,7 @@ Name of the Infoblox network view. The default value is **default**. **Note:** I
 
 The IPAM List IP Reservations activity returns an array of all IP Address within the named InfoBlox Server.
 
-The IPAM activities use the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
+The IPAM activities use the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Infoblox DDI** &gt; **IPAM**.
 
@@ -267,7 +268,7 @@ The output of this activity produces an array of reserved IP addresses in the fo
 
 The IPAM Delete activity deletes an IP Address within a named InfoBlox server.
 
-The IPAM activities use the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
+The IPAM activities use the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Infoblox DDI** &gt; **IPAM**.
 

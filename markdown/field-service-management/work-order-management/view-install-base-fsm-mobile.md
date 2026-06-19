@@ -2,6 +2,7 @@
 title: View install base information on the ServiceNow Agent application
 description: View information about install base items in work order tasks on the ServiceNow Agent mobile application to track the status of the questions and issues raised for the purchased products or services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-install-base-fsm-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,6 +2,7 @@
 title: AWS VM provisioning walkthrough
 description: This example walks you through the components of Cloud Provisioning and Governance that function during the provisioning of a virtual machine in an AWS datacenter. Topics covered include blueprints, resource blocks, the Cloud API \(CAPI\), and MID Server script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/walk-through-provisioning.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -25,7 +26,7 @@ This walkthrough starts with a Windows VM that a user already provisioned in AWS
 
 This example uses default resource blocks and script includes that are available in your instance. Therefore, although you might not have a provisioned VM on your instance, you can still follow these steps and view the components used in this example to understand how the components work.
 
-For an example of a VM in Azure, see [Azure VM provisioning walkthrough](walk-through-azure-provisioning.md).
+For an example of a VM in Azure, see [Azure VM provisioning walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/walk-through-azure-provisioning.md).
 
 **Note:** The terms virtual machine, VM, and virtual server are used interchangeably in this example.
 
@@ -39,15 +40,15 @@ For an example of a VM in Azure, see [Azure VM provisioning walkthrough](walk-th
 
         In this example, the stack is named **MyStack**.
 
-        ![MyStack example](../image/mystack-example.png)
+        \[Omitted image "mystack-example.png"\] Alt text: MyStack example
 
     3.  Under **Resources**, click the VM in the stack.
 
-        ![Virtual Server example](../image/mystack-virtual-server.png)
+        \[Omitted image "mystack-virtual-server.png"\] Alt text: Virtual Server example
 
     4.  View the properties of the VM, and notice that it is in region us-east-1 in an AWS Datacenter.
 
-        ![VM details](../image/mystack-vm-details.png)
+        \[Omitted image "mystack-vm-details.png"\] Alt text: VM details
 
 2.  Look at the blueprint on which the VM is based:
 
@@ -55,23 +56,23 @@ For an example of a VM in Azure, see [Azure VM provisioning walkthrough](walk-th
 
         This example blueprint has three components: The container, the virtual server, which is the actual VM that is provisioned, and the AWS datacenter.
 
-        ![An example blueprint with a Windows server](../image/mystack-blueprint.png)
+        \[Omitted image "mystack-blueprint.png"\] Alt text: An example blueprint with a Windows server
 
     2.  Click the **Operations** tab on the bottom, and then click **Provision**.
 
-        ![Provision operation](../image/mystack-provision-block.png)
+        \[Omitted image "mystack-provision-block.png"\] Alt text: Provision operation
 
         The Provision operation is the operation that the system triggered when it created the VM. Other default operations are available, but this example focuses on the Provision operation.
 
     3.  Click the **Provision** block for Blueprint Container Resource.
 
-        ![My Azure VM blueprint container](../image/myazurevm-provision-container.png)
+        \[Omitted image "myazurevm-provision-container.png"\] Alt text: My Azure VM blueprint container
 
     4.  On the right, notice that one of the parameters in the Inputs list is Location.
 
         This parameter holds the value eastus, which is where the VM lives in the datacenter.
 
-        ![The Location parameter](../image/mystack-location-param.png)
+        \[Omitted image "mystack-location-param.png"\] Alt text: The Location parameter
 
         Inputs can be specified on the container, as it is in this example, or on any other resource block. By default, the **Location** parameter is already specified for you in the Blueprint Container resource block, so that you can use it in every blueprint like this one. If you switch the blueprint to **Draft**, you can add more parameters to the Blueprint Container resource block. You cannot add parameters to the Virtual Server resource block. For this walkthrough, no additional parameters are necessary.
 
@@ -81,29 +82,29 @@ For an example of a VM in Azure, see [Azure VM provisioning walkthrough](walk-th
 
     2.  Search for and open the **Virtual Server** resource block, which is provided by default with Cloud Provisioning and Governance.
 
-        ![The default virtual server resource block](../image/rb-virtual-server-tile.png)
+        \[Omitted image "rb-virtual-server-tile.png"\] Alt text: The default virtual server resource block
 
     3.  On the Resource Block form, click the **Host Resource** related list to view the list of supported host resource blocks.
 
     4.  Notice that the host interface and host resource are already specified:
 
-        ![Host interface on virtual server](../image/mystack-virtualserver-rb-interfaces.png)
+        \[Omitted image "mystack-virtualserver-rb-interfaces.png"\] Alt text: Host interface on virtual server
 
         -   The **Host Interface** field specifies the interface that must match the guest interface in the resource block that hosts this virtual machine. In this case, the host interface is the Compute Interface, which is also the guest interface on the AWS Datacenter resource block. By default, the datacenter resource blocks provide several guest interfaces that other resource blocks like virtual storage can use to connect to the datacenter.
         -   The **HostResource** column in the **Host Resource** related list already specifies **AWS Datacenter**, which means that the AWS datacenter resource block is a valid host for this VM.
     5.  Click the **Operations** tab, and then click the **Steps** subtab.
 
-        ![Selecting the Steps subtab](../image/mystack-operations-steps.png)
+        \[Omitted image "mystack-operations-steps.png"\] Alt text: Selecting the Steps subtab
 
     6.  Select **Provision** from the **Operation** list.
 
-        ![The Provision operation](../image/mystack-operations-provision.png)
+        \[Omitted image "mystack-operations-provision.png"\] Alt text: The Provision operation
 
         Remember that the Provision operation is the operation that the system used to create the VM. Other default operations are available, but this example focuses on the Provision operation.
 
     7.  Notice the step that appears in the list and the full step description that appears above the input parameters:
 
-        ![Step for Provision](../image/mystack-provision-step.png)
+        \[Omitted image "mystack-provision-step.png"\] Alt text: Step for Provision
 
         -   **Host Resource Operation:** indicates that this step calls an operation on the host resource \(the AWS datacenter in this example\).
         -   **Compute Interface** is the guest interface on the AWS datacenter that this step is using.
@@ -116,40 +117,40 @@ For an example of a VM in Azure, see [Azure VM provisioning walkthrough](walk-th
 
     10. Notice the supported guest interfaces in the **Guest Interface** related list:
 
-        ![Guest interfaces for AWS datacenter](../image/mystack-aws-rb-compute-interface.png)
+        \[Omitted image "mystack-aws-rb-compute-interface.png"\] Alt text: Guest interfaces for AWS datacenter
 
         These guest interfaces are the interfaces that the AWS datacenter makes available to other resource blocks. The **Compute Interface** is provided so that the Virtual Server resource block, which specifies the Compute Interface as its host interface, can connect to the datacenter.
 
     11. Click the **Operations** tab, and then click the **Steps** subtab.
 
-        ![Selecting the Steps subtab](../image/mystack-operations-steps.png)
+        \[Omitted image "mystack-operations-steps.png"\] Alt text: Selecting the Steps subtab
 
     12. In the **Interface** list, select **Compute Interface** if it is not already selected.
 
-        ![Compute interface](../image/mystack-awsdatacenter-compute.png)
+        \[Omitted image "mystack-awsdatacenter-compute.png"\] Alt text: Compute interface
 
         Remember that this interface is specified in the Virtual Server resource block.
 
     13. In the **Operation** list, search for and select **ConnectAndCreateVirtualMachine**.
 
-        ![The ConnectAndCreateVM operation](../image/mystack-connectandcreate-operation.png)
+        \[Omitted image "mystack-connectandcreate-operation.png"\] Alt text: The ConnectAndCreateVM operation
 
         Remember that this operation is specified in the Virtual Server resource block.
 
     14. Notice the CAPI call that is used in the only step for the ConnectAndCreateVirtualMachine operation:
 
-        ![The CreateNode API call](../image/mystack-awsdatacenter-createnode.png)
+        \[Omitted image "mystack-awsdatacenter-createnode.png"\] Alt text: The CreateNode API call
 
         -   **Cloud API:** indicates that this step calls CAPI, so that CAPI can execute a REST call to the cloud provider, which in this case is AWS.
         -   **Compute Interface** specifies the CAPI interface that this step calls.
         -   **CreateNode** indicates the method that is executed. As the name suggests, this method tells AWS to create the virtual machine.
     15. With the resource block in the **Draft** state, point to the highlighted \(blue\) step and then click the **Edit Step** icon to open the step configuration.
 
-        ![Edit step](../image/mystack-edit-step.png)
+        \[Omitted image "mystack-edit-step.png"\] Alt text: Edit step
 
     16. Look at the step configuration, and notice the settings that integrate with CAPI:
 
-        ![Step settings](../image/mystack-edit-steps.png)\\
+        \[Omitted image "mystack-edit-steps.png"\] Alt text: Step settings\\
 
         |Field|Description|
         |-----|-----------|
@@ -164,11 +165,11 @@ For an example of a VM in Azure, see [Azure VM provisioning walkthrough](walk-th
 
     18. With the **Compute Interface.CreateNode** step selected, click the **Response Processor** tab, and notice the **Create\_Virtual\_Server\_Response\_Processor** script.
 
-        ![Response Processor tab](../image/mystack-response-processor.png)
+        \[Omitted image "mystack-response-processor.png"\] Alt text: Response Processor tab
 
         This script is the response processors that updates the CMDB in your instance after the virtual machine is created in AWS.
 
-    19. View an explanation of the script and the example that is a part of the topic at [Create a Response Processor](../reference/response-processor-example.md).
+    19. View an explanation of the script and the example that is a part of the topic at [Create a Response Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/response-processor-example.md).
 
         When you finish reviewing that topic, return to this topic.
 
@@ -184,7 +185,7 @@ For an example of a VM in Azure, see [Azure VM provisioning walkthrough](walk-th
 
     4.  Look at how this CAPI API ties together an interface and a product:
 
-        ![AWS Compute API](../image/mystack-aws-compute-api.png)
+        \[Omitted image "mystack-aws-compute-api.png"\] Alt text: AWS Compute API
 
 <table id="table_afd_zy3_cfb"><thead><tr><th>
 
@@ -229,11 +230,11 @@ Product
 </td></tr></tbody>
 </table>    5.  In the CAPI Method Mappers related list, click the record preview icon for the **CreateNode** record, and then click **Open Record**.
 
-        ![Open CreateNode method mapper](../image/mystack-createnode-icon.png)
+        \[Omitted image "mystack-createnode-icon.png"\] Alt text: Open CreateNode method mapper
 
     6.  Look at the **CreateNode** method mapper:
 
-        ![The Method Mapper form for CreateNode](../image/mystack-createnode-mapperform.png)
+        \[Omitted image "mystack-createnode-mapperform.png"\] Alt text: The Method Mapper form for CreateNode
 
         Notice that the Endpoint operation is not **Execute Script**. This value indicates that the CreateNode method is using a Java call within the Cloud Provisioning and Governance application on your instance to make a REST call to the AWS API. Therefore, you cannot modify how the CreateNode method works. If the value was **Execute Script**, you would see a MID Server script include specified in the **Request** script field. You would be able to modify that script include, or specify a new one, to customize the REST calls to the AWS provider.
 
@@ -271,7 +272,7 @@ Credentials
 
 </td><td>
 
-The secret key is used with the access key for authentication. You configured this value in your AWS credential record during setup. To refer to that procedure, see [Configure access to the AWS accounts using permanent AWS credentials](../../it-operations-management/task/aws-create-creds-cloud-mgt.md).
+The secret key is used with the access key for authentication. You configured this value in your AWS credential record during setup. To refer to that procedure, see [Configure access to the AWS accounts using permanent AWS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-creds-cloud-mgt.md).
 
 </td></tr><tr><td>
 
@@ -302,7 +303,7 @@ The Identify record holds the AWS access key, which AWS requires for authenticat
 
     12. Review the contents of the interface.
 
-        Notice that the interface provides REST response structures for methods like **CreateNode**. You typically do not need to modify existing interfaces.![CreateNode response structure highlight](../image/mystack-compute-interface.png)
+        Notice that the interface provides REST response structures for methods like **CreateNode**. You typically do not need to modify existing interfaces.\[Omitted image "mystack-compute-interface.png"\] Alt text: CreateNode response structure highlight
 
         Note the service category and the operations:
 
@@ -342,7 +343,7 @@ Interface Operation Parameters
 These parameters are also the parameters that the CAPI interface needs from the system so it can pass it in the REST call to the cloud provider.
 
 </td></tr></tbody>
-</table>        ![The CreateNode operation](../image/capi-interface-createnode.png)
+</table>        \[Omitted image "capi-interface-createnode.png"\] Alt text: The CreateNode operation
 
     15. Navigate back to **Design** &gt; **Cloud API**, and then click the **Provider** tab.
 
@@ -350,19 +351,19 @@ These parameters are also the parameters that the CAPI interface needs from the 
 
         The AWS Provider form opens, showing you that this provider is based on an existing CMDB class: **AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]**.
 
-        ![The AWS Provider](../image/capi-product-aws.png)
+        \[Omitted image "capi-product-aws.png"\] Alt text: The AWS Provider
 
     17. Click the Cloud Products related list if it is not already selected, and sort the list by the **Name** column.
 
         Notice that several AWS products are already available by default. One of the most commonly used AWS products is **Elastic Compute Cloud \(EC2\)**.
 
-        ![Amazon EC2](../image/capi-product-ec2.png)
+        \[Omitted image "capi-product-ec2.png"\] Alt text: Amazon EC2
 
     18. Click **AWS Elastic Compute Cloud** in the **Name** column.
 
         Notice that the product specifies many resource types, each of which is mapped to a CI class.
 
-        ![AWS product](../image/mystack-aws-product.png)
+        \[Omitted image "mystack-aws-product.png"\] Alt text: AWS product
 
         These resource types indicates the some of the CIs, but not all, that are related to the virtual machine. The response processor in the resource block populates CIs with data when AWS provisions the VM.
 
@@ -372,19 +373,19 @@ These parameters are also the parameters that the CAPI interface needs from the 
 
     2.  Click the View Dependency icon.
 
-        ![Viewing the dependency](../image/mystack-view-dependency.png)
+        \[Omitted image "mystack-view-dependency.png"\] Alt text: Viewing the dependency
 
         The dependency map displays the stack CI at the top, the VM in the middle, and the various related CIs, such as the image, at the bottom.
 
-        ![The dependency map for a VM in a stack](../image/mystack-dependency-map.png)
+        \[Omitted image "mystack-dependency-map.png"\] Alt text: The dependency map for a VM in a stack
 
     3.  To view the form for the VM in the CMDB, right-click the arrow next to any CI, such as the VM.
 
-        ![View a VM Ci](../image/mystack-vm-ci-arrow.png)
+        \[Omitted image "mystack-vm-ci-arrow.png"\] Alt text: View a VM Ci
 
     4.  From the menu, select **View Form**.
 
-        ![View the CI form](../image/mystack-vm-ci-viewform.png)
+        \[Omitted image "mystack-vm-ci-viewform.png"\] Alt text: View the CI form
 
         The CI form opens, showing you that much of the information is already available on the Cloud User Portal when you view the properties of the VM.
 
@@ -398,13 +399,13 @@ VM properties in the Cloud User Portal
 
 </th></tr></thead><tbody><tr><td>
 
-![VM form](../image/mystack-vm-ci-form-view.png)
+\[Omitted image "mystack-vm-ci-form-view.png"\] Alt text: VM form
 
 </td><td>
 
-![VM details](../image/mystack-vm-properties.png)
+\[Omitted image "mystack-vm-properties.png"\] Alt text: VM details
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Cloud Provisioning and Governance](../concept/cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Activate and configure the Palo Alto Networks Firewall Integration
 description: The Integration Configuration feature allows you to quickly activate and set up third-party security integrations, including Palo Alto Networks - Firewall. Before you can use the Palo Alto Networks - Firewall, you must download it from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/activate-config-firewall.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Role required: sn\_si\_admin
 
     Take note of the names of the IP Dynamic List, URL Dynamic List, or Domain Dynamic List you're using for firewall blocking.
 
-2.  [Download the integration from the ServiceNow Store](../../../security-incident-response/reference/download-app-first-time.md).
+2.  [Download the integration from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md).
 
 3.  When the installation is complete, navigate to **Security Operations** &gt; **Integration Configuration**.
 

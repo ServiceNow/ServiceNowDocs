@@ -2,6 +2,7 @@
 title: Engineering License overview dashboard in workspace
 description: Monitor and gain insights into your engineering applications license position and usage by viewing product usage reports in the Engineering license overview dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/engineering-license-dashboard-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -25,7 +26,7 @@ All the reports are updated daily or whenever a new reconciliation result is ava
 
 You can access the Engineering license overview dashboard by navigating to **Software asset** &gt; **Software Asset Workspace** &gt; **Software asset analytics** &gt; **Engineering license overview**.
 
-![Engineering Overview dashboard in workspace](../image/engineering-dboard-workspace.png "Engineering license overview dashboard")
+\[Omitted image "engineering-dboard-workspace.png"\] Alt text: Engineering Overview dashboard in workspace
 
 <table id="table_xts_cjh_dpb"><thead><tr><th>
 

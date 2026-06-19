@@ -2,7 +2,10 @@
 title: Create a request on behalf of a customer or consumer
 description: Customer service agents can create requests on behalf of customers from CSM Configurable Workspace or from the platform interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/agent-create-request-for-customer.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -30,7 +33,7 @@ Customer service agents can browse the catalog and make a selection to create a 
 
 2.  To create a request, do one of the following.
 
-    -   CSM Configurable Workspace: Click the More UI Actions icon \(![More UI Actions icon.](../image/agent-workspace-more-ui-actions-icon.jpg)\) and select **Create Request**.
+    -   CSM Configurable Workspace: Click the More UI Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\) and select **Create Request**.
     -   Platform interface: Click the form context menu icon and select **Create Request**.
 3.  Select an item or a service from the catalog to display the item page.
 
@@ -38,15 +41,15 @@ Customer service agents can browse the catalog and make a selection to create a 
 
 5.  To complete the request, do one of the following.
 
-<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d118404e118">
+<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d79048e118">
 
 Interface
 
-</th><th align="left" id="d118404e121">
+</th><th align="left" id="d79048e121">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d118404e127">
+</th></tr></thead><tbody><tr><td id="d79048e127">
 
 **CSM Configurable Workspace**
 
@@ -59,7 +62,7 @@ Complete these steps:
 3.  Click **Checkout**.
  The system creates the request and displays the request number. Click **View Details** to open the request record.
 
-</td></tr><tr><td id="d118404e172">
+</td></tr><tr><td id="d79048e172">
 
 **Platform interface**
 

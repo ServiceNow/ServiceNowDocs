@@ -2,13 +2,14 @@
 title: Event type extension points in Workforce Optimization for HR
 description: Use extension points to call scripts for event categories such as meeting, time off, or work time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/eventy-type-extension-points-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up Scheduling for Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure scheduling, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Event type extension points in Workforce Optimization for HR
@@ -36,5 +37,5 @@ You can use extension points to create events such as meeting, training, and tim
 |On Call Time Off|AgentScheduleOnCallTimeOffEventManager|
 |Actual Work|AgentScheduleActualWorkEventManager|
 
-**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](../task/setup-scheduling-wfo-hr.md)
+**Parent Topic:**[Configure Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
 

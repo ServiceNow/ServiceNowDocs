@@ -2,6 +2,7 @@
 title: Disable legacy JQuery behavior
 description: The glide.jquery.legacy is used to prevent older prepatched JQuery versions from being used which will introduce unpatched vulnerabilities in the library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-legacy-jquery-behavior.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

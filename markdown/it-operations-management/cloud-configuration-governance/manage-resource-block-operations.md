@@ -2,6 +2,7 @@
 title: Configure resource block input parameters
 description: You can configure operations for each interface of a resource block by specifying input parameters, steps, and output attributes. Input parameters hold values that the system requires to identify and manage a virtual resource, such as the datacenter and resource group that the resource is in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/manage-resource-block-operations.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -27,7 +28,7 @@ The system automatically associates default operations from the Cloud API \(CAPI
 
 1.  Open a resource block, and then click the **Operations** tab.
 
-    ![Operations tab for resource blocks](../image/rb-operations.png)
+    \[Omitted image "rb-operations.png"\] Alt text: Operations tab for resource blocks
 
     The **Input Parameters** sub-tab appears by default.
 
@@ -35,7 +36,7 @@ The system automatically associates default operations from the Cloud API \(CAPI
 
     The interfaces in this choice list are derived from the **Resource Guest Interface** list on the **General Information** tab that you already configured when you created a resource block.
 
-    ![Selecting a resource block interface](../image/rb-interface-list.png)
+    \[Omitted image "rb-interface-list.png"\] Alt text: Selecting a resource block interface
 
 3.  Select the operation on which you want to modify the input parameters.
 
@@ -43,7 +44,7 @@ The system automatically associates default operations from the Cloud API \(CAPI
 
     1.  Click the **Add Operation** icon.
 
-        ![Adding an operation](../image/icon-add-operation.png)
+        \[Omitted image "icon-add-operation.png"\] Alt text: Adding an operation
 
     2.  Fill out the form \(see table\):
 
@@ -79,7 +80,7 @@ Access type
 
 Select **Public** to make the resource block operation available from the catalog order form when a user manages a stack that they own. The actual operations appear in a list on the catalog order form:
 
- ![Operations for the user](../image/user-portal-operations.png)
+ \[Omitted image "user-portal-operations.png"\] Alt text: Operations for the user
 
  Select **Private** to prevent the operation from being used when a user launches a stack.
 
@@ -96,7 +97,7 @@ Select **Public** to make the resource block operation available from the catalo
 
     1.  Click the **Add Input Parameters** icon.
 
-        ![add input parameters](../image/icon-add-input-parameters.png)
+        \[Omitted image "icon-add-input-parameters.png"\] Alt text: add input parameters
 
     2.  Add the **Name** of the parameter that you obtained from the cloud provider API.
 
@@ -107,7 +108,7 @@ Select **Public** to make the resource block operation available from the catalo
         This value specifies the source or location where the parameter value comes from:
 
         -   **Text**: a text value that the user passes.
-        -   **Pools**: the query that you want to run against a pool to get a value back from it. The pool **Datasource Value** should follow this convention: `ServiceNow::Pools::PoolName.Pool-Filter-Name`. See [Pools and Filters for Cloud Provisioning](../concept/pools.md) for more information on pools.
+        -   **Pools**: the query that you want to run against a pool to get a value back from it. The pool **Datasource Value** should follow this convention: `ServiceNow::Pools::PoolName.Pool-Filter-Name`. See [Pools and Filters for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/pools.md) for more information on pools.
         -   **CSVList**: values from a comma-separated value list that you enter into the **Datasource Value**.
         -   **Array**: an array of values. You can programmatically send it an array in JavaScript. The format is as follows: `['abc','def']`.
         -   **FormData**: data submitted from the form configured in the blueprint.
@@ -128,14 +129,14 @@ Select **Public** to make the resource block operation available from the catalo
 
         You can also select **Mandatory** to force the user to enter a value.
 
-    8.  In the **Restricted To** column, click the restricted icon \(![restricted to](../image/icon-restricted-to.png)\), and then select a resource block to restrict the attribute to be passed to a specific host.
+    8.  In the **Restricted To** column, click the restricted icon \(\[Omitted image "icon-restricted-to.png"\] Alt text: restricted to\), and then select a resource block to restrict the attribute to be passed to a specific host.
 
         In this example, you are configuring a resource block for a virtual server on vSphere, which requires the name of the VM folder \(represented by the `VmFolderName` attribute\). Other datacenter types do not need the name of the VM folder. Therefore, you can restrict `VmFolderName` to the vSphere datacenter resource block.
 
-        This image illustrates how the VMFolderName attribute is restricted to the vSphere Datacenter.![VMFolderName](../image/vmfoldername-attribute.png)
+        This image illustrates how the VMFolderName attribute is restricted to the vSphere Datacenter.\[Omitted image "vmfoldername-attribute.png"\] Alt text: VMFolderName
 
-        ![Restricting to a vSphere datacenter](../image/vsphere-datacenter-restricted-to.png)
+        \[Omitted image "vsphere-datacenter-restricted-to.png"\] Alt text: Restricting to a vSphere datacenter
 
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](../concept/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

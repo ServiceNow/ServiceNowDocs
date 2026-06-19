@@ -2,6 +2,7 @@
 title: Business Continuity Management and ServiceNow Store
 description: Business Continuity Management applications are available from the ServiceNow Store, enabling you to obtain new and updated features more rapidly. Before you can use the Business Continuity Management applications, you must verify that you have an entitlement to use them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcm-and-store.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Business Continuity Management applications are available from the ServiceNow St
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 The list of BCM applications available on ServiceNow Store is explained in the table.
 
@@ -32,14 +33,14 @@ The list of BCM applications available on ServiceNow Store is explained in the t
 
 GRC: Business Continuity Management – Core provides capabilities to configure data required for the business continuity management applications. This application also installs GRC: Business Continuity Management – Components: Now Design System components for the Business Continuity Management application.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
--   **[Get entitlement for the BCM application](../task/entitle-bcm-product.md)**  
+-   **[Get entitlement for the BCM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/entitle-bcm-product.md)**  
 The first step in installing an application is to verify that the application or the product and its associated applications have valid ServiceNow entitlements.
--   **[Install Business Continuity Management from ServiceNow Store](../task/install-business-continuity-management.md)**  
+-   **[Install Business Continuity Management from ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/install-business-continuity-management.md)**  
 You can install the Business Continuity Management application if you have the admin role. This application includes demo data and installs the related store applications if they are not already installed.
--   **[BCM lite operators](bcm-lite-operators.md)**  
+-   **[BCM lite operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-lite-operators.md)**  
 The Business Continuity Management application provides flexible user licensing terms. The terms are based on whether your operator has read-only access or can complete certain types of tasks.
 
-**Parent Topic:**[Configuring Business Continuity Management](configuring-business-continuity-management.md)
+**Parent Topic:**[Configuring Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configuring-business-continuity-management.md)
 

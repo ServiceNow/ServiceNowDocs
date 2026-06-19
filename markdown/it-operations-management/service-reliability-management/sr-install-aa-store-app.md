@@ -2,6 +2,7 @@
 title: Install the Alert Automation application
 description: Install the Alert Automation application and any supporting applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-install-aa-store-app.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -36,9 +37,9 @@ Before creating management rules, you must install and configure the Service Rel
     Alert automation rules are ready to use in SRM.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Configure Twilio to send notifications in SRM](sr-add-twilio-key.md)
+**Previous topic:**[Configure Twilio to send notifications in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-twilio-key.md)
 
-**Next topic:**[Using Service Reliability Management](../concept/using-service-reliability-management.md)
+**Next topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 

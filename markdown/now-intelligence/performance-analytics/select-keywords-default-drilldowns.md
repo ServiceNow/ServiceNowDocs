@@ -2,6 +2,7 @@
 title: Save keywords for text analytics
 description: You can save keywords that will always filter a text analytics widget. You can save them directly on the widget in a dashboard, choosing from the words in the word cloud. Alternatively, you can create or edit a record of saved keywords.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/select-keywords-default-drilldowns.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ Role required: pa\_analyst or admin
 
 To filter a word cloud by keywords, select the words in the cloud. You can save a list of the keywords, which will be used whenever someone views the widget. Each list of keywords applies to one breakdown and element combination for the indicator in one widget. In the following example, the word "battery" has been specified as a keyword. If you select **Save**, all viewers will see this widget filtered by "battery." Anyone with the required roles can delete the saved keywords later.
 
-![Word cloud of text from open incidents, bottom half](../image/word-cloud-bottom.png "Word cloud filtered by keyword 'battery'")
+\[Omitted image "word-cloud-bottom.png"\] Alt text: Word cloud of text from open incidents, bottom half
 
 Alternatively, you can create or edit the record where the keywords are saved. This approach does not restrict your selection to keywords that have already appeared in the word cloud.
 

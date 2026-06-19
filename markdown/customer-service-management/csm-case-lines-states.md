@@ -2,7 +2,10 @@
 title: Case line item states
 description: A case line item can be in one of several different states as agents work to resolve a case and the associated case line items. The case line items in a case can be in different states as the agent works to resolve each issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-lines-states.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

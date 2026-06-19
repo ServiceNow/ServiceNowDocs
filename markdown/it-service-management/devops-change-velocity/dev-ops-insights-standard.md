@@ -2,6 +2,7 @@
 title: DevOps Insights Standard dashboard - Classic
 description: Use the DevOps Insights application with ServiceNow Performance Analytics to gain insight into your DevOps environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-insights-standard.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -15,7 +16,7 @@ breadcrumb: [Reference, DevOps Change Velocity, IT Service Management]
 
 Use the DevOps Insights application with ServiceNow Performance Analytics to gain insight into your DevOps environment.
 
-**Important:** The Insights Standard dashboard is deprecated for new users. Instead, you can use the Insights dashboard from the DevOps Workspace. For more information, see [DevOps Insights dashboard - Workspace](devops-insights-dboard-ws.md#)
+**Important:** The Insights Standard dashboard is deprecated for new users. Instead, you can use the Insights dashboard from the DevOps Workspace. For more information, see [DevOps Insights dashboard - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-insights-dboard-ws.md)
 
 **Note:** To collect daily or historical Insights data, unless these jobs were previously customized, you must select **Active** and set the **Run As** credentials to **System Administrator**:
 
@@ -34,7 +35,7 @@ Reports in the dashboard tabs get updated when the dashboard is refreshed.
 
 ## Change Acceleration
 
-![DevOps Insights standard](../image/dev-ops-insights-standard.png)
+\[Omitted image "dev-ops-insights-standard.png"\] Alt text: DevOps Insights standard
 
 <table id="table_ztj_thg_3hb"><thead><tr><th>
 
@@ -181,7 +182,7 @@ Number of Non-DevOps changes awaiting approval by date range.
 
 The Accelerate Metrics tab shows deployment frequency, lead time, MTTR, and change failure rate info.
 
-![DevOps Insights accelerate metrics](../image/dev-ops-insights-standard6.png)
+\[Omitted image "dev-ops-insights-standard6.png"\] Alt text: DevOps Insights accelerate metrics
 
 <table id="table_nxx_flr_5lb"><thead><tr><th>
 
@@ -329,7 +330,7 @@ Demo data is also provided for the service availability widgets.
 
 **Note:** You must install the Service Portfolio Management Foundation \(com.snc.service\_portfolio\) plugin before installing the DevOps Insights application to see demo data.
 
-![DevOps Insights Stability tab](../image/dev-ops-insights-stability-tab.png)
+\[Omitted image "dev-ops-insights-stability-tab.png"\] Alt text: DevOps Insights Stability tab
 
 <table id="table_wrl_ryc_llb"><thead><tr><th>
 
@@ -456,7 +457,7 @@ Daily number of outages \(based on pipeline steps of type **Prod Deploy**\) link
 </td></tr></tbody>
 </table>## Development
 
-![DevOps Insights standard tab3](../image/dev-ops-insights-standard3.png)
+\[Omitted image "dev-ops-insights-standard3.png"\] Alt text: DevOps Insights standard tab3
 
 <table id="table_o3s_1jg_3hb"><thead><tr><th>
 
@@ -547,7 +548,7 @@ Number of work items that are complete or working in progress in the last 30 day
 </td></tr></tbody>
 </table>## Commit Insights
 
-![CommitInsightsStandard](../image/dev-ops-insights-standard4.png)
+\[Omitted image "dev-ops-insights-standard4.png"\] Alt text: CommitInsightsStandard
 
 <table id="table_ccl_gzd_jjb"><thead><tr><th>
 
@@ -670,7 +671,7 @@ Number of commits added per app in the last 30 days.
 </td></tr></tbody>
 </table>## Deployments
 
-![InsightsDeploymentStandard](../image/dev-ops-insights-standard5.png)
+\[Omitted image "dev-ops-insights-standard5.png"\] Alt text: InsightsDeploymentStandard
 
 Deployment frequency lets you know how often you are delivering value based on production deployments. Typically, more frequent deployments are desired.
 
@@ -797,7 +798,7 @@ Duration from the earliest commit time to production deployment \(for a successf
 </td></tr></tbody>
 </table>## System Health
 
-![DevOps Insights standard tab2](../image/dev-ops-insights-standard2.png)
+\[Omitted image "dev-ops-insights-standard2.png"\] Alt text: DevOps Insights standard tab2
 
 <table id="table_ikb_1jg_3hb"><thead><tr><th>
 
@@ -854,5 +855,5 @@ Default number of API calls in the last 30 days.
  **Note:** Filter is not applicable to this widget.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DevOps Change Velocity reference](../reference/devops-change-velocity-reference.md)
+</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

@@ -2,6 +2,7 @@
 title: Microsoft Endpoint Configuration Manager Spoke
 description: The Microsoft Endpoint Configuration Manager \(MECM\) spoke automates actions to manage user collections, device collections, devices, and application deployments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ms-endpoint.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The Microsoft Endpoint Configuration Manager \(MECM\) spoke automates actions to
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Endpoint Configuration Manager spoke v1.9 is the latest version.
+Microsoft Endpoint Configuration Manager spoke v1.10.2 is the latest version.
 
 ## Supported versions
 
@@ -146,7 +147,7 @@ Discover and Store Data
 Finds the data from the server and then updates the records in the Application, Collection, and Deployment tables.
 
 </td></tr></tbody>
-</table>**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](csd-app-2.md) is installed.
+</table>**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 ## Spoke actions
 
@@ -258,7 +259,7 @@ Retrieves the MECM Script Execution Response from the MECM server.
 
 </td></tr><tr><td rowspan="4">
 
-Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](csd-app-2.md) is installed.
+Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 </td><td>
 
@@ -471,17 +472,17 @@ The MECM spoke adds the MECM application to your instance. The application inclu
 |Deployments|Displays the list of deployments from the Microsoft Endpoint Configuration Manager server.|Deployment \[sn\_ms\_epcfgmgr\_spk\_deployment\]|
 |Collections|Displays the list of collections from the Microsoft Endpoint Configuration Manager server.|Collection \[sn\_ms\_epcfgmgr\_spk\_collection\]|
 
-**Note:** These modules are available only when the [Client Software Distribution 2.0 application](csd-app-2.md) is installed.
+**Note:** These modules are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 ## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Configure Microsoft Endpoint Configuration Manager and set up the spoke](csd2-conf-sccm.md#).
+For information about setting up the spoke, see [Configure Microsoft Endpoint Configuration Manager and set up the spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-conf-sccm.md).
 
 ## MID Server requirements
 
-To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](../../integrationhub/concept/integration-steps.md). For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md). For information, see MID Server.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

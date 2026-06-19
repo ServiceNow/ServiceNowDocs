@@ -2,6 +2,7 @@
 title: Set up SAP S4 HANA OData spoke
 description: Integrate the ServiceNow instance and SAP S4 HANA OData spoke by using the Basic Auth credentials to authenticate ServiceNow requests.Create a credential record for the SAP S4 HANA OData spoke. The SAP S4 HANA OData spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-sap-s4-hana-odata-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

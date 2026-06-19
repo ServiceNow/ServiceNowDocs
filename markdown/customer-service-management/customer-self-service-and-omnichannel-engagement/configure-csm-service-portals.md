@@ -2,13 +2,14 @@
 title: Configure the Customer and Consumer Service Portals
 description: Configure the Customer and Consumer Service Portals to provide information and support for your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Customer and Consumer Service Portals
@@ -59,5 +60,5 @@ Configure the Customer and Consumer Service Portals
 **Related topics**  
 
 
-[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
+[bundle-platux.c_ServicePortal]
 

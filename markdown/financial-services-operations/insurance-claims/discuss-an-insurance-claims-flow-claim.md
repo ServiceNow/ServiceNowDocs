@@ -2,13 +2,14 @@
 title: Discuss an Insurance claims claim
 description: Discuss details of an Insurance claims case with additional users that have access to the claim record. Use this feature to collaborate with other Insurance claims users and create or view an ongoing sidebar discussion for a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/discuss-an-insurance-claims-flow-claim.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Discuss an Insurance claims claim
@@ -27,7 +28,7 @@ This procedure references service definitions and products that are used in the 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open an Insurance claims case.
 

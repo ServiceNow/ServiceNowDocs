@@ -2,6 +2,7 @@
 title: Automated certificate management for TLS certificates
 description: From Certificate Inventory and Management Version 1.3.8, you can automate the request flow for new certificates, renewals, and revoking certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/automated-cert-requests.html
 release: australia
 product: Discovery
 classification: discovery

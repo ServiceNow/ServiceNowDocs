@@ -2,6 +2,7 @@
 title: For mobile text card
 description: Configure content for a mobile text card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-mobile-content-for-mobile-text-card.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -98,7 +99,7 @@ Option to activate the mobile content for use.
 
 4.  Schedule the content.
 
-    -   To schedule the content for delivery, see [Scheduling the delivery of content](ecpro-schedule-content.md).
+    -   To schedule the content for delivery, see [Scheduling the delivery of content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-schedule-content.md).
 
-**Parent Topic:**[Configure mobile content](ecpro-content-delivery-mobile.md)
+**Parent Topic:**[Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md)
 

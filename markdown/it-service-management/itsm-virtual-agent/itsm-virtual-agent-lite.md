@@ -2,6 +2,7 @@
 title: ITSM Virtual Agent Lite
 description: Access a pre-built subset of ITSM Virtual Agent features to quickly and easily implement a virtual agent for your end users. ITSM Virtual Agent Lite offers an introductory collection of conversation topics for IT support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-virtual-agent-lite.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -28,8 +29,8 @@ The ITSM Virtual Agent Lite pre-built, read-only topic conversation templates ar
 -   Check Ticket Status
 -   Report an Issue
 
--   **[Setting up ITSM Virtual Agent Lite](../task/setup-itsm-virtual-agent-lite.md)**  
+-   **[Setting up ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent-lite.md)**  
 Setup ITSM Virtual Agent Lite using to use the read-only, pre-built conversation topics for your most common ITSM self-service cases. For example, you can connect your users with a virtual agent to check ticket status, search the knowledge base, and report an issue.
 
-**Parent Topic:**[IT Service Management](../../it-service-management/reference/r_ITServiceManagement.md)
+**Parent Topic:**[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)
 

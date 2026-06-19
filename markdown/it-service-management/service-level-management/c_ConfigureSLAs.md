@@ -2,6 +2,7 @@
 title: Configure Service Level Agreement \(SLA\)
 description: Configure SLAs to define a set amount of time for a task to reach a certain condition, to ensure that incidents are closed or resolved according to the expectations set for customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_ConfigureSLAs.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -15,10 +16,10 @@ breadcrumb: [Configuring Service Level Management, Service Level Management, IT 
 
 Configure SLAs to define a set amount of time for a task to reach a certain condition, to ensure that incidents are closed or resolved according to the expectations set for customers.
 
-For more information on required roles and plugins, see [Installed with Service Level Management](../reference/r_InstalledWithServiceLevelMgmt.md#).
+For more information on required roles and plugins, see [Installed with Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/r_InstalledWithServiceLevelMgmt.md).
 
--   **[Service Level Agreement \(SLA\) definition](c_SLADefinitions.md)**  
+-   **[Service Level Agreement \(SLA\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLADefinitions.md)**  
 An SLA definition is used to create and progress SLAs, enabling you to use an SLA system for your organization's tasks.
 
-**Parent Topic:**[Configuring Service Level Management](configuring-service-level-management.md)
+**Parent Topic:**[Configuring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/configuring-service-level-management.md)
 

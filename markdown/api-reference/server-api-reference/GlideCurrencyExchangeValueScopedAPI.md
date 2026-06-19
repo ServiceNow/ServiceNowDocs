@@ -2,6 +2,7 @@
 title: GlideCurrencyExchangeValue - Scoped
 description: The GlideCurrencyExchangeValue API provides methods to access information related to FX Currency conversions.Returns the currency amount after the conversion.Returns the converted to currency type.Returns the original, pre-conversion currency type.Returns the original, pre-conversion amount.Returns the exchange rate used during the conversion.Returns the sys\_id of the record in the rate table used in the currency conversion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideCurrencyExchangeValueScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideCurrencyExchangeValue API provides methods to access information related to FX Currency conversions.
 
-There is no constructor for this class. Use the convert\(\) method from the [GlideCurrencyConverter](../../GlideCurrencyConverter/concept/GlideCurrencyConverterScopedAPI.md#) API to return a GlideCurrencyExchangeValue object.
+There is no constructor for this class. Use the convert\(\) method from the [GlideCurrencyConverter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideCurrencyConverterScopedAPI.md) API to return a GlideCurrencyExchangeValue object.
 
 This API is provided within the `sn_currency` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencyExchangeValue - getAmount\(\)
 

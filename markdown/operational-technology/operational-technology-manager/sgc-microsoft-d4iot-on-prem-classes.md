@@ -2,6 +2,7 @@
 title: CMDB classes targeted in the Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)
 description: When you complete the guided setup, you can configure the integration to periodically pull data from a Microsoft Defender for IoT \(On-premises Management Console\) project. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/sgc-microsoft-d4iot-on-prem-classes.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -216,5 +217,5 @@ The following attributes in the Serial Number \[cmdb\_serial\_number\] table are
 |Serial Number \[cmdb\_serial\_number\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
 |Network Adapter \[cmdb\_ci\_network\_adapter\]|Reference|Hardware \[cmdb\_ci\_hardware\]|
 
-**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](../concept/integration-sgc-microsoft-defender-iot-on-prem.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Defender for IoT \(On-premises Management Console\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-on-prem.md)
 

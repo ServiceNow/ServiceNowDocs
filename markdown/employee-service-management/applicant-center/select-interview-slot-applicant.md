@@ -2,6 +2,7 @@
 title: Select an interview slot
 description: As an applicant, select an interview slot from a list of proposed slots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/select-interview-slot-applicant.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -23,7 +24,7 @@ Role required: sn\_ta\_hiring\_core.external\_applicant or sn\_ta\_hiring\_core.
 
 1.  Log in to Applicant Center.
 
-    For more information, see [Access the Applicant Center](view-applicant-center.md).
+    For more information, see [Access the Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/view-applicant-center.md).
 
 2.  On the Applicant Center home page, under the Keep track of what’s going on section, locate the proposed interview.
 
@@ -35,11 +36,11 @@ Role required: sn\_ta\_hiring\_core.external\_applicant or sn\_ta\_hiring\_core.
 
     -   If you don't have Applicant Center activated, you can manually select a slot from the email that you receive after an interview is proposed by replying to the email.
     -   When selecting a slot, if it's already booked by another applicant, a message indicating the slot is unavailable is displayed.
-    -   If you're not able to find a suitable time slot or the slots have already been booked, you can request for additional time slots or share your scheduling preferences again. For more information, see [Request time slots](request-time-slots-ac.md) and [Share scheduling preferences](share-availability-applicant-ac.md).
+    -   If you're not able to find a suitable time slot or the slots have already been booked, you can request for additional time slots or share your scheduling preferences again. For more information, see [Request time slots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/request-time-slots-ac.md) and [Share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/share-availability-applicant-ac.md).
 
 ## Result
 
 After a slot is selected, an email with the confirmed slot is sent to the recruiter and the hiring team, and the interview is scheduled.
 
-**Parent Topic:**[Using Applicant Center](../concept/use-applicant-center.md)
+**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/use-applicant-center.md)
 

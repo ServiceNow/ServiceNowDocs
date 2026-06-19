@@ -2,6 +2,7 @@
 title: Add a default push registration
 description: Register the push notification so that all users of your application receive the push notifications by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-add-default-push-reg.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  In **Notification**, enter `Virtual Agent Message Push Notification`.
 
-    ![Virtual Agent push notification](../../image/mobsdk-push-default_reg.png)
+    \[Omitted image "mobsdk-push-default\_reg.png"\] Alt text: Virtual Agent push notification
 
 5.  Select **Submit**.
 

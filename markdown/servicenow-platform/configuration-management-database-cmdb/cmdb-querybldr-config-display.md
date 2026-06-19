@@ -2,6 +2,7 @@
 title: Configure CMDB Query Builder settings
 description: Configure settings that control some of the functionality of the CMDB Query Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-config-display.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

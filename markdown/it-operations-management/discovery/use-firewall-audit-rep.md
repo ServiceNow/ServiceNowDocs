@@ -2,6 +2,7 @@
 title: Visibility to Firewall inventory
 description: The Firewall Audits and Reporting application helps you to discover and take inventory of your firewall security policies, devices, device groups, and manager information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/use-firewall-audit-rep.html
 release: australia
 product: Discovery
 classification: discovery
@@ -19,12 +20,12 @@ The ServiceNow Platform helps organizations gain visibility to IT estate with th
 
 Currently, ServiceNow works with Palo Alto Networks Panorama. In future release, other firewall providers will be added. The integration uses XML APIs and SNMP to connect the Firewall Audits and Reporting application to firewall inventory and firewall policies.
 
--   **[Discover firewall policies](../task/disco-firewall-policies.md)**  
+-   **[Discover firewall policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-firewall-policies.md)**  
 As a member of a security team, you can discover firewall devices, policies, and owner groups, allowing a central view of the footprint. This data is updated in the ServiceNow CMDB. Set up a schedule to discover your firewall policies to help you keep track of your company's valuable information.
--   **[Customize Firewall Audits and Reporting](../task/customize-firewall-audit-reporting.md)**  
+-   **[Customize Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/customize-firewall-audit-reporting.md)**  
 Change Discovery properties to customize some of the aspects of Firewall Audits and Reporting.
--   **[Archive firewall rule audit, rule requests, and audit tasks](../task/archive-firewall-rule-req-tasks.md)**  
+-   **[Archive firewall rule audit, rule requests, and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/archive-firewall-rule-req-tasks.md)**  
 Archive firewall rule requests, audit requests, and audit tasks that are older than a specific time period to enhance system performance. At a later time, you can delete them from the archive table altogether to reduce the size of that table.
 
-**Parent Topic:**[Configuring Firewall Audits and Reporting](firewall-audit-report-config.md)
+**Parent Topic:**[Configuring Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-report-config.md)
 

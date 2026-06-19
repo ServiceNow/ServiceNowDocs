@@ -2,6 +2,7 @@
 title: Repair the RMA asset
 description: Indicate whether the Return Merchandise Authorization \(RMA\) asset has been repaired or considered unrepairable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/repair-asset-daas.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -92,9 +93,9 @@ Stockroom
 
 </td><td>
 
-This field is automatically populated with the stockroom details that you provided in the Receive task.For more information, see [Receive asset](receive-rma-asset.md).
+This field is automatically populated with the stockroom details that you provided in the Receive task.For more information, see [Receive asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/receive-rma-asset.md).
 
-**Note:** This field doesn't include any information for the On-site assessment flow. For more information about selecting the assessment action, see [Assess the RMA asset](assess-rma.md).
+**Note:** This field doesn't include any information for the On-site assessment flow. For more information about selecting the assessment action, see [Assess the RMA asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/assess-rma.md).
 
 </td></tr><tr><td>
 
@@ -159,5 +160,5 @@ Notes about the task that are visible to all users within your organization.
 
 ## What to do next
 
-[Evaluate the repaired asset](evaluate-asset.md) or [Ship the asset to the DaaS provider](ship-rma-asset.md)
+[Evaluate the repaired asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/evaluate-asset.md) or [Ship the asset to the DaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ship-rma-asset.md)
 

@@ -2,6 +2,7 @@
 title: Journey designer version 2 plan configuration fields
 description: These fields are for Journey designer version 2 plan configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-v2-plan-config.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -37,7 +38,7 @@ The title of the plan configuration that is visible in the Employee Center.
 
 </td><td>
 
-Used to restrict content access by an audience. See, [Restrictions for Content Publishing and Content Experience](../../employee-center/concept/ecpro-content-restriction.md)
+Used to restrict content access by an audience. See, [Restrictions for Content Publishing and Content Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md)
 
 </td></tr><tr><td>
 
@@ -90,5 +91,5 @@ A Journey designer plan configuration must be associated with a Journey Accelera
 -   **Ready**: A published plan configuration is in the ready state.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer reference](jny-dsnr-reference.md)
+</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsnr-reference.md)
 

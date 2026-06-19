@@ -2,6 +2,7 @@
 title: Create an extension point for post-processing of transfers
 description: Create a scripted extension point to perform additional actions after the cross-department transfer of a primary ticket in the Universal Request application. You can change the sample extension point to copy any additional information from the previous primary ticket's child entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/create-extension-points-ur-transfers.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -31,8 +32,8 @@ When a primary ticket of a Universal Request is transferred, the current mapping
 
 3.  Create your department-specific extension point by selecting **Create implementation**.
 
-    For more information about using extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
+    For more information about using extension points, see Using extension points to extend application functionality.
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

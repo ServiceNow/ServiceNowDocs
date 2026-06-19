@@ -2,6 +2,7 @@
 title: Approve a knowledge block in Agent Workspace
 description: Approve a knowledge block that is awaiting your review in Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/approve-knowledge-block-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

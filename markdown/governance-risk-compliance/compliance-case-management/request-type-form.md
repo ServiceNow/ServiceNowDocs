@@ -2,6 +2,7 @@
 title: Request type form
 description: Use the Request Type form in the Compliance Case Management application to categorize the compliance requests by their type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/request-type-form.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -25,9 +26,9 @@ The following table lists the descriptions of the field values.
 |Active|Option to select the request type as active or inactive.|
 |Description|Description about this request type. This description is for the administrator to understand the request type.|
 |State Model|
-|State Model|Workflow states for the request type. For more information, see [Create a compliance state model](../task/create-state-model.md).|
+|State Model|Workflow states for the request type. For more information, see [Create a compliance state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-state-model.md).|
 |Template Configuration|
 |Document templates|Template to generate Portable Document Format \(PDF\) reports for compliance requests associated with this request type.|
 
-**Parent Topic:**[Create a request type](../task/create-request-type.md)
+**Parent Topic:**[Create a request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-request-type.md)
 

@@ -2,6 +2,7 @@
 title: Create or modify an application configuration for Appointment Booking
 description: Set up an application configuration to manage appointment booking settings across all services within your application. You can either create a new configuration or modify an existing one provided by Field Service Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/appt-booking-create-app-config.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -70,13 +71,13 @@ Availability Method
 
 </td><td>
 
-Use one of the methods to determine appointment availability at the application-level. You can choose the availability method depending on the Field Service Management configuration setting in the **Assignment method for tasks** field of [Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md). The available methods are:-   **Number of appointments per slot**: Sets a fixed number of available appointments per time slot. Recommended if task assignment is manual.
+Use one of the methods to determine appointment availability at the application-level. You can choose the availability method depending on the Field Service Management configuration setting in the **Assignment method for tasks** field of [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md). The available methods are:-   **Number of appointments per slot**: Sets a fixed number of available appointments per time slot. Recommended if task assignment is manual.
 -   **Scripted**: Dynamically calculates availability of technicians using customized scripts. Recommended if auto-assignment or dynamic scheduling is used. This is the default setting.
--   **Based on capacity**: Calculates availability based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](../concept/assign-work-based-on-the-defined-capacity-.md)
+-   **Based on capacity**: Calculates availability based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
 
 This option is available when the Task Table is selected as work\_order and Field Service Capacity and Reservations Management plugin is installed.
 
-For more information on appointment availability methods, see [Learn about appointment availability settings](../reference/appt-booking-task-assignment.md).
+For more information on appointment availability methods, see [Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appt-booking-task-assignment.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +109,7 @@ Calendar View
 
 </td><td>
 
-Display available appointments in the [Select Appointment window](../reference/appt-booking-select-appt-window.md) on the Customer or Consumer Service Portal for a single day or for a week. The available options are:-   Day: Displays the available appointments for the day.
+Display available appointments in the [Select Appointment window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking/appt-booking-select-appt-window.md) on the Customer or Consumer Service Portal for a single day or for a week. The available options are:-   Day: Displays the available appointments for the day.
 -   Week: Displays the available appointments for the entire week.
 
 
@@ -130,5 +131,5 @@ The application configuration is created or modified. Appointment booking settin
 
 ## What to do next
 
-Create service configurations for each of the services available to the customers. For more information, see [Create or modify an application configuration for Appointment Booking](appt-booking-create-app-config.md).
+Create service configurations for each of the services available to the customers. For more information, see [Create or modify an application configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appt-booking-create-app-config.md).
 

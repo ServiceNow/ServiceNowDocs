@@ -2,6 +2,7 @@
 title: Allowing contractors to bid on work orders and tasks
 description: Field Service Marketplace optimizes contractor management, improves communication, and streamlines task allocation processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/using-fsm-marketplace.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

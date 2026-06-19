@@ -2,6 +2,7 @@
 title: Schedule an appointment
 description: Schedule a virtual or in-person appointment by selecting a reason and providing your contact information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/schedule-appointment.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,15 +26,15 @@ Role required: none
 
     Some entry points might not be available based on the configuration set by the admin.
 
-<table id="choicetable_jch_n5z_mdc"><thead><tr><th align="left" id="d270094e57">
+<table id="choicetable_jch_n5z_mdc"><thead><tr><th align="left" id="d252492e57">
 
 Entry Point
 
-</th><th align="left" id="d270094e60">
+</th><th align="left" id="d252492e60">
 
 Steps to schedule appointment
 
-</th></tr></thead><tbody><tr><td id="d270094e66">
+</th></tr></thead><tbody><tr><td id="d252492e66">
 
 **Employee Center**
 
@@ -44,7 +45,7 @@ Steps to schedule appointment
 -   In the **Human resources** menu, in the **Quick links** section, select **Schedule appointment**.
 
 
-</td></tr><tr><td id="d270094e109">
+</td></tr><tr><td id="d252492e109">
 
 **Employee Center Pro Kiosk**
 
@@ -52,7 +53,7 @@ Steps to schedule appointment
 
 In the **Get support** section, select **Schedule appointment**.
 
-</td></tr><tr><td id="d270094e126">
+</td></tr><tr><td id="d252492e126">
 
 **Knowledge Base article**
 
@@ -60,7 +61,7 @@ In the **Get support** section, select **Schedule appointment**.
 
 At the end of the article, select **Schedule an appointment**.
 
-</td></tr><tr><td id="d270094e138">
+</td></tr><tr><td id="d252492e138">
 
 **Request details**
 
@@ -68,7 +69,7 @@ At the end of the article, select **Schedule an appointment**.
 
 From the Actions menu, select **Schedule an appointment**.
 
-</td></tr><tr><td id="d270094e151">
+</td></tr><tr><td id="d252492e151">
 
 **My tasks page**
 
@@ -78,7 +79,7 @@ From the Actions menu, select **Schedule an appointment**.
 2.  In the task details pane, select **Schedule appointment**.
 
 
-</td></tr><tr><td id="d270094e172">
+</td></tr><tr><td id="d252492e172">
 
 **ITSM Walk-up Experience**
 
@@ -91,7 +92,7 @@ While scheduling a walk-up, select **Schedule appointment instead**.
 
 3.  On the Schedule appointment form, fill in the fields.
 
-    For a description of the field values, see [Schedule appointment form](../reference/schedule-appointment-form.md)
+    For a description of the field values, see [Schedule appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/schedule-appointment-form.md)
 
     **Note:** Some fields might not be available based on the configuration set by the admin.
 

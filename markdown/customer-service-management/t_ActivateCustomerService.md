@@ -2,7 +2,10 @@
 title: Activate Customer Service Management
 description: You can activate the Customer Service \(com.sn\_customerservice\) plugin, if you have the admin role. This plugin includes demo data and activates related plugins if they aren’t already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ActivateCustomerService.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-If the related plugins aren’t already active, the Customer Service Management plugin activates them. For more information, see [Plugins activated with Customer Service Management](../reference/plugins-activated-with-csm.md).
+If the related plugins aren’t already active, the Customer Service Management plugin activates them. For more information, see [Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/plugins-activated-with-csm.md).
 
 ## Procedure
 
@@ -33,12 +36,12 @@ If the related plugins aren’t already active, the Customer Service Management 
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## What to do next
 
-You can activate several related plugins after activating the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Additional plugins for Customer Service Management](../reference/r_CustServMgmtAddtlPluginsTable.md).
+You can activate several related plugins after activating the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md).
 
-**Parent Topic:**[Customer Service Management](../concept/c_CustomerServiceManagement.md)
+**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
 

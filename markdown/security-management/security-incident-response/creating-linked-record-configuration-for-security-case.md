@@ -2,6 +2,7 @@
 title: Step 1. Create linked record configuration for a Security Case
 description: Create a Linked Record configuration for a Security Case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/creating-linked-record-configuration-for-security-case.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,17 +26,15 @@ Role required: admin and sn\_msi.workspace\_admin
 
 1.  Search for the Linked Record Configuration from the left navigation.
 
-2.  Click **New**.
-
-    ![New button](../image/linked-record-new.png)
+2.  Select **New**.
 
 3.  Fill the form with the required columns and write a field mapping script.
 
-    ![Fill the form](../image/linked-record-fill-form.png)
+    \[Omitted image "linked-record-fill-form.png"\] Alt text: Fill the form
 
 4.  You have now created a linked record configuration for the Security Case by adding the values as described in the following table.
 
-    ![Create](../image/linked-record-create.png)
+    \[Omitted image "linked-record-create.png"\] Alt text: Create
 
 <table id="table_qqw_h5d_35b"><thead><tr><th>
 
@@ -70,7 +69,7 @@ Can promote to MSI
 True, select this check box to promote the security case to MSI.**Note:**
 
 -   Link and Unlink security case records to major security incidents both from Major Security Incident Management workspace. Also, Unlink record functionality is visible only for the linked records.
-    -   This will enable the link, promote, and propose to Security Case to Major Security Incident using classic environment actions, but those UI actions will not be available out of the box. Each UI action needs to be created manually. For more information, see [Step 3. Create UI actions for the Source Table for a Security Case](creating-ui-actions-for-source-table.md).
+    -   This will enable the link, promote, and propose to Security Case to Major Security Incident using classic environment actions, but those UI actions will not be available out of the box. Each UI action needs to be created manually. For more information, see [Step 3. Create UI actions for the Source Table for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/creating-ui-actions-for-source-table.md).
     -   Link/Promote/Propose UI action are available for Security Incident, Remediation Task, and Security Case out of the box.
 -   MSIM workspace linked record page will show the linked Security Case records.
  Refer to the below image 1 to view the options available after selecting this check box.
@@ -81,7 +80,7 @@ Modal List View
 
 </td><td>
 
-msim\_sn\_ti\_case\_model\_view**Note:** This view contains fields and fields order shown in list view on the Link Record Modal in MSIM workspace. For more information, see [Step 2. Create a view for modal window for a Security Case](creating-a-view-for-modal-window-for-security-case.md)
+msim\_sn\_ti\_case\_model\_view**Note:** This view contains fields and fields order shown in list view on the Link Record Modal in MSIM workspace. For more information, see [Step 2. Create a view for modal window for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/creating-a-view-for-modal-window-for-security-case.md)
 
  Refer to the below image 2 to view from the **Linked Records** page.
 
@@ -98,10 +97,6 @@ This script describes the fields from source tables record will mapped to newly 
  Script will read from the short description of the security case and copy it over as title to major security incident.
 
 </td></tr></tbody>
-</table>    ![Can promote to MSI](../image/can-promote-to-msi-step1.png "Image 1: Can Promote to MSI")
-
-    ![Modal view](../image/modal-view-step1.png "Image 2. Modal View")
-
-
-**Parent Topic:**[Rollup example use case implementation for a Security Case](../concept/use-case-for-a-security-case.md)
+</table>
+**Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-case-for-a-security-case.md)
 

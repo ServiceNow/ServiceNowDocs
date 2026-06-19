@@ -2,6 +2,7 @@
 title: Clone a permission
 description: Clone a permission if an existing permission record cannot be modified and you require a permission record with similar settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/clone-permission.html
 release: australia
 product: Communities
 classification: communities
@@ -30,5 +31,5 @@ Role required: sn\_communities.forum\_admin
     A new permission with the same access types as the source permission is created. The permission record name starts with **Clone of**.
 
 
-**Parent Topic:**[Forum and user permissions management](../concept/communities-permissions.md)
+**Parent Topic:**[Forum and user permissions management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-permissions.md)
 

@@ -2,6 +2,7 @@
 title: Configure Now Assist for Integrated Risk Management \(IRM\)
 description: If you have the admin role, you can configure Now Assist for IRM so that your agents can use the generative AI skills in the IRM workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -20,13 +21,13 @@ If you have the admin role, you can configure Now Assist for IRM so that your ag
 
 **Important:** After installing Now Assist for IRM, all Now Assist for IRM skills and agentic workflows are activated by default.
 
-Use the Now Assist Admin console to configure Now Assist for IRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the Now Assist Admin console to configure Now Assist for IRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see .
 
-For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md) to upgrade it to a later version.
+For earlier versions, go to  to upgrade it to a later version.
 
-For information about configuring generative AI skills and prompts, see [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md).
+For information about configuring generative AI skills and prompts, see .
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Now Assist for IRM plugins
 
@@ -36,7 +37,7 @@ This store app has the following dependencies:
 
 -   Now Assist Platform
 
-    Integrates generative AI into ServiceNow workflows, enabling intelligent assistance through summarization, content creation, conversational AI, and agentic workflows for IT, HR, and compliance processes. For more information, see [Now Assist Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+    Integrates generative AI into ServiceNow workflows, enabling intelligent assistance through summarization, content creation, conversational AI, and agentic workflows for IT, HR, and compliance processes. For more information, see Now Assist Platform.
 
 -   GRC Common Generative AI
 
@@ -52,10 +53,10 @@ This store app has the following dependencies:
 
 -   Recommendation Template
 
-    Provides actionable, AI-powered insights seamlessly within the user interface. The framework offers rich contextual details about recommendations to enable users to make informed decisions and take necessary follow-up actions effortlessly. Admin users can set up contexts for recommendations, and compliance users can review the recommendations for implementation. For more information, see [Recommendation contexts and templates](../../grc-rcm/concept/recommendation-contexts.md).
+    Provides actionable, AI-powered insights seamlessly within the user interface. The framework offers rich contextual details about recommendations to enable users to make informed decisions and take necessary follow-up actions effortlessly. Admin users can set up contexts for recommendations, and compliance users can review the recommendations for implementation. For more information, see [Recommendation contexts and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/recommendation-contexts.md).
 
 
-For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+For information about the installation process, see .
 
-**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md) and [User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md).
+**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see  and .
 

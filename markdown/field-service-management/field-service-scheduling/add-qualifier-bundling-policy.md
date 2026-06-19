@@ -2,6 +2,7 @@
 title: Add qualifiers to a task bundling policy
 description: Add qualifiers to task bundling policies to define whether policies apply for either assignment groups or territories with Field Service Task Bundling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/add-qualifier-bundling-policy.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,7 +18,7 @@ Add qualifiers to task bundling policies to define whether policies apply for ei
 
 ## Before you begin
 
-Qualifiers are subcomponents of policies. For more information on how to create a policy, see [Create a task bundling policy](create-a-task-bundling-policy.md).
+Qualifiers are subcomponents of policies. For more information on how to create a policy, see [Create a task bundling policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-a-task-bundling-policy.md).
 
 Role required: wm\_admin
 
@@ -38,7 +39,7 @@ Qualifiers dictate which work order tasks are targeted for bundling. Qualifiers 
     -   Enter an **Assignment Group** to assign the policy to an assignment group.
     -   Enter a **Territory** to assign the policy to a territory.
 
-        **Note:** **Assignment Group** appears by default. To replace with **Territory**, see [Enable the Field Service territory model](enable-territory-model.md).
+        **Note:** **Assignment Group** appears by default. To replace with **Territory**, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 5.  Select **Submit**.
 

@@ -2,6 +2,7 @@
 title: Key CMDB success advisor concepts
 description: Familiarize yourself with the key terms and concepts to work with CMDB success advisor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-key-concepts.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -60,5 +61,5 @@ Familiarize yourself with the key terms and concepts to work with CMDB success a
     A ServiceNow feature that defines which integration source has authority \(ownership\) over each CI attribute.
 
 
-**Parent Topic:**[CMDB success advisor reference](cmdb-sa-reference.md)
+**Parent Topic:**[CMDB success advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-reference.md)
 

@@ -2,6 +2,7 @@
 title: How Discovery identifiers work
 description: When Discovery has determined the device's class, it launches an identity probe that is configured to run one or more commands with a single authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_HowDiscoveryIdentifiersWork.html
 release: australia
 product: Discovery
 classification: discovery
@@ -19,5 +20,5 @@ The identity probe in the base Discovery system can be configured to ask the dev
 
 **Note:** When you use patterns for Discovery, the identity probe isn’t used. Discovery uses the appropriate identifier rules based on the CI type that you’re trying to discover as specified in the pattern operations. The operations in the pattern along with these identifier rules perform the identification and exploration phases of discovery.
 
-**Parent Topic:**[Discovery identifiers](c_DiscoveryIdentifiers.md)
+**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 

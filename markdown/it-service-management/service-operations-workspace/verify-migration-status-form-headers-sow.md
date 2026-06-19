@@ -2,6 +2,7 @@
 title: Perform post-migration tasks for form headers
 description: Verify that the form header in Service Operations Workspace \(SOW\) are consistent with the form header in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated form header settings in SOW based on your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/verify-migration-status-form-headers-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,7 +18,7 @@ Verify that the form header in Service Operations Workspace \(SOW\) are consiste
 
 ## Before you begin
 
-When performing the migration, you must have selected the **Record form headers** option for ITSM Agent Workspace features. For example, the **Record form headers** option for Change Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](migrate-itsm-agent-workspace-to-sow.md).![Record form header selected in SOW Migration utility tool options](../image/mu-sow-form-header-select.png)
+When performing the migration, you must have selected the **Record form headers** option for ITSM Agent Workspace features. For example, the **Record form headers** option for Change Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).\[Omitted image "mu-sow-form-header-select.png"\] Alt text: Record form header selected in SOW Migration utility tool options
 
 Role required: admin
 
@@ -47,12 +48,12 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(![Error](../../service-builder/image/sb-service-triangle.png)\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: Error\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 
-    4.  For each failed item, identify which step has failed and perform the steps mentioned in the [How the migration works](../reference/form-headers-migration-itsm-aw-sow.md#section_tmq_q2j_dcc) section.
+    4.  For each failed item, identify which step has failed and perform the steps mentioned in the [How the migration works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/form-headers-migration-itsm-aw-sow.md) section.
 
 
-**Parent Topic:**[Migration of form headers from ITSM Agent Workspace to Service Operations Workspace for ITSM](../reference/form-headers-migration-itsm-aw-sow.md)
+**Parent Topic:**[Migration of form headers from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/form-headers-migration-itsm-aw-sow.md)
 

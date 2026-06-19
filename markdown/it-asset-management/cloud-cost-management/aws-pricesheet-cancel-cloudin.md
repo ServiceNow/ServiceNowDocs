@@ -2,6 +2,7 @@
 title: Cancel an AWS Price sheet download job in Cloud Cost Management
 description: An AWS Price sheet download job downloads price sheet data from AWS. You can cancel any Price sheet download job individually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-pricesheet-cancel-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

@@ -2,6 +2,7 @@
 title: DEX policies for non-persistent VDIs
 description: Policy reference for DEX monitoring on Windows non-persistent \(NP\) Virtual Desktop Infrastructures \(VDI\). Use this reference to understand available check instances, frequencies, and parameters for application, network, and device monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-policies-np-vdis.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -93,5 +94,5 @@ DEX provides the following policies for non-persistent VDI devices.
 |os.win.check-system-metrics-historical|Collects all historical metrics.|5 mins|Historical|memory\_details, io\_usage\_write, io\_usage\_read, cpu\_usage|
 |os.win.check-system-metrics-latest|Collects all latest metrics.|24 hours|Latest|cpu\_usage|
 
-**Parent Topic:**[DEX Content Playbook reference](dex-content-playbook-reference.md)
+**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

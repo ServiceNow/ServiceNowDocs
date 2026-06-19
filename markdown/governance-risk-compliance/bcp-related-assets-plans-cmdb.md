@@ -2,9 +2,10 @@
 title: Add related assets and related plans
 description: Identify related assets and their referred plans to recover the assets in your planning stage. Reuse the configuration item relationship data that flow from CMDB to business impact analysis \(BIA\) during dependency assessment to identify the assets in your plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcp-related-assets-plans-cmdb.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -19,7 +20,7 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 ## About this task
 
-With this feature enhancement, the relationship data of the configuration items in CMDB flow in to the business impact analysis \(BIA\) when you [Add dependencies based on CI relationships in CMDB](add-dependencies-based-on-cmdb.md). If you have done the BIA, then the related assets data flow to the planning phase. In the planning phase, you can identify these BIA-dependent items as related assets. Additionally, if you have done the BIA and if your related assets has a plan, then you also have the capability to add the plan existing for the related assets as related plans in the planning phase, and as sub-plans in the execution phase of the event recovery process.
+With this feature enhancement, the relationship data of the configuration items in CMDB flow in to the business impact analysis \(BIA\) when you [Add dependencies based on CI relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-dependencies-based-on-cmdb.md). If you have done the BIA, then the related assets data flow to the planning phase. In the planning phase, you can identify these BIA-dependent items as related assets. Additionally, if you have done the BIA and if your related assets has a plan, then you also have the capability to add the plan existing for the related assets as related plans in the planning phase, and as sub-plans in the execution phase of the event recovery process.
 
 Therefore, instead of identifying new assets and creating plans to recover the assets you can use the BIA-dependent items that are added as configuration items from CMDB based on their CI relationship and reuse these items as related assets in the planning stage.
 
@@ -32,7 +33,7 @@ This feature gives you the ability to:
 
 1.  Navigate to **All** &gt; **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the lists icon \(![Lists icon](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
 3.  Click **In Draft** state in the Planning list.
 
@@ -42,7 +43,7 @@ This feature gives you the ability to:
 
     If you have added a business process or a location as an item in the **Scope** tab, and if the scoped item is related to the BIA, then all the related assets of the BIA are lined in to the **Related Assets** tab of the plan. In other words, the CMDB configuration item added as a dependency in BIA is pulled into the plan as related assets. The source of these related assets is displayed as BIA.
 
-    When you create a plan, you also select a primary element that the plan covers. Based on the [scope that you selected in the business continuity plan](add-plan-asset-scope-bcp.md) or the primary element of the plan, the application adds the related assets and related plans during the planning phase. These items could be business processes, critical business applications, data centers, or resources working from a location. All these dependencies if stored in the BIA are copied over to the plan in the **Related Assets** tab in addition to other dependencies that are added while creating the BIA.
+    When you create a plan, you also select a primary element that the plan covers. Based on the [scope that you selected in the business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-plan-asset-scope-bcp.md) or the primary element of the plan, the application adds the related assets and related plans during the planning phase. These items could be business processes, critical business applications, data centers, or resources working from a location. All these dependencies if stored in the BIA are copied over to the plan in the **Related Assets** tab in addition to other dependencies that are added while creating the BIA.
 
     **Note:** Unless you do the business impact analysis, the related items of the configured item data will not flow to the plan, although you have the option to manually add the related assets and related plans in the planning phase.
 
@@ -79,5 +80,5 @@ This feature gives you the ability to:
 
 ## What to do next
 
-You can [refer one of the related plans](bcp-recovery-tasks-grid.md#refer-related-plan-bcp) in a recovery task of the main plan and sequence the order of execution in the event.
+You can [refer one of the related plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-recovery-tasks-grid.md) in a recovery task of the main plan and sequence the order of execution in the event.
 

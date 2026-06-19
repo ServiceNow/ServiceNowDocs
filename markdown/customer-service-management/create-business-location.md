@@ -2,7 +2,10 @@
 title: Create a business location
 description: Establish internal and external locations so that users and consumers at a business location can create accounts, contacts, consumers, and households.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-business-location.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,6 +18,6 @@ Establish internal and external locations so that users and consumers at a busin
 
 |Task|Description|
 |----|-----------|
-|[Create an internal business location](../task/create-internal-business-location.md)|Create an internal business location.|
-|[Create an external business location](../task/create-external-business-location.md)|Create an external business location.|
+|[Create an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-internal-business-location.md)|Create an internal business location.|
+|[Create an external business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-external-business-location.md)|Create an external business location.|
 

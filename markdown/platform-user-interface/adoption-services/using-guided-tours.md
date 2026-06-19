@@ -2,6 +2,7 @@
 title: Using Guided Tours
 description: Use Guided Tours for onboarding new users, training on new features, and providing in-application assistance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/using-guided-tours.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -15,12 +16,12 @@ breadcrumb: [Guided Tours, Adoption services, Configure user experiences]
 
 Use Guided Tours for onboarding new users, training on new features, and providing in-application assistance.
 
--   **[Guided Tour Designer use case](guided-tour-designer-use-case.md)**  
+-   **[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)**  
 Guided Tour Designer is an interactive guide that assist administrators in creating and editing guided tours for ServiceNow® applications, service portals, and custom applications.
--   **[Start a guided tour](accessing-guided-tours.md#)**  
+-   **[Start a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/accessing-guided-tours.md)**  
 Guided Tours are available across four user interface types: Standard, Service Portal, Workspace, and Custom UI.
--   **[Guided Tours dashboard](../reference/guided-tour-overview.md)**  
+-   **[Guided Tours dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tour-overview.md)**  
 The Guided Tours Overview dashboard provides statistics related to guided tour usage.
 
-**Parent Topic:**[Guided Tours](guided-tours.md)
+**Parent Topic:**[Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md)
 

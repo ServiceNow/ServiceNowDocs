@@ -2,6 +2,7 @@
 title: SAML 2.0 troubleshooting
 description: Before contacting support, try the troubleshooting solutions available in the knowledge base on Hi.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_SAML2.0Troubleshooting.html
 release: australia
 product: Authentication
 classification: authentication
@@ -17,7 +18,7 @@ Before contacting support, try the troubleshooting solutions available in the kn
 
 **Note:** The instance does not support solutions provided by external sites.
 
-See the following knowledge base article: [KB0540617 '''SAML Error Matrix'''](https://support.servicenow.com/kb_view.do?sysparm_article=KB0540617).
+To know more, see the [KB0759251](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0759251).
 
 <table id="table_e5z_lcd_np"><thead><tr><th>
 

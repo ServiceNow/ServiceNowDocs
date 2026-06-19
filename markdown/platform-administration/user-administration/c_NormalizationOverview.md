@@ -2,6 +2,7 @@
 title: Normalization data services
 description: The Normalization Data Services plugin helps maintain consistency for table fields that refer to a company name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/c\_NormalizationOverview.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -32,18 +33,18 @@ The Normalization Data Services plugin stores data in two tables. The Normalized
 
 The Normalization Data Services plugin adds a unique index or hash on the \[core\_company\] table. You can store only one company record for a company name. The unique hash is the same for two companies with the same name. The uniqueness is required for many features to work correctly. For example, **Discovery**, which creates customer management database \(CMDB\) models and CIs. On a domain separated instance, the unique index is expanded to hash,sys\_scope. This enables each domain to have its own version of a company with the same name.
 
--   **[Implementing normalization data services using guided setup](implementing-normalization-data-services-using-guided-setup.md)**  
+-   **[Implementing normalization data services using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/implementing-normalization-data-services-using-guided-setup.md)**  
 You can implement Normalization Data Services using a guided setup.
--   **[Normalized company names table](../reference/r_NormalizedCompanyNames.md)**  
+-   **[Normalized company names table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_NormalizedCompanyNames.md)**  
 The Normalization Data Services plugin stores the normalized company names in the Normalized Company Names table.
--   **[Normalized Mappings table](../reference/r_NormalizedMappings.md)**  
+-   **[Normalized Mappings table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_NormalizedMappings.md)**  
 The Normalized Mappings table lists all the discovered names and the normalized name to which each maps.
--   **[Normalization properties](../reference/r_NormalizedProperties.md)**  
+-   **[Normalization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_NormalizedProperties.md)**  
 On the normalization properties form, you can see and change the configurable properties for the Normalization Data Services plugin.
--   **[Changing normalized company names](c_NormalChangingNames.md#)**  
+-   **[Changing normalized company names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NormalChangingNames.md)**  
 You can change a normalized company name several different ways. In all cases, that change affects all normalized fields referring to that company.
--   **[Enabling duplicate company names in extension tables](enhanced-nds-for-duplicate-records.md#)**  
+-   **[Enabling duplicate company names in extension tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/enhanced-nds-for-duplicate-records.md)**  
 You can create records with duplicate company names in extension tables, such as Customer Account \[customer\_account\] table, without causing normalization conflicts in Normalization Data Services.
 
-**Parent Topic:**[Creating users, companies, and departments](../../roles/concept/using-user-administration.md)
+**Parent Topic:**[Creating users, companies, and departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/using-user-administration.md)
 

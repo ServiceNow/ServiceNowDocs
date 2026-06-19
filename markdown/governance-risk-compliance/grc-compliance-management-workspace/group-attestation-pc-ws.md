@@ -2,11 +2,12 @@
 title: Group assessments for similar assessments in the Tasks page
 description: Provide response to similar assessments by grouping the assessments based on metric type, and additionally the same entity, control objective, or category in the Tasks page of the Compliance Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/group-attestation-pc-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +28,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the Tasks ![Tasks icon](../../grc-workspace-audit/image/TasksIcon.jpg) icon on the left pane.
+2.  Select the Tasks \[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon icon on the left pane.
 
 3.  Select the attestation records in the My pending tasks tab that you'd like to group.
 
@@ -37,7 +38,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 5.  Select a **Response type** in the Group assessments pop-up.
 
-    For more information on the response types, see [Group attestations using Same Response](../../grc-policy-and-compliance/concept/c_Attestations.md#).
+    For more information on the response types, see [Group attestations using Same Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
 
 6.  Select a criterion to group the assessments in the **Group by** list.
 
@@ -45,9 +46,9 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
     The **Group previews** section displays the grouping details, assessments with links, and an appropriate message information if they’re grouped or cannot be grouped based on the Group by criterion, status, assignee, or the evaluation method of the metric type.
 
-    ![Grouping assessments based on category.](../../grc-policy-and-compliance/image/group-attestation-ec-pc.png)
+    \[Omitted image "group-attestation-ec-pc.png"\] Alt text: Grouping assessments based on category.
 
-    ![Information message displaying that the assessments cannot be grouped based on reasons displayed in the Group previews.](../../grc-policy-and-compliance/image/group-attest-ec-pc.png)
+    \[Omitted image "group-attest-ec-pc.png"\] Alt text: Information message displaying that the assessments cannot be grouped based on reasons displayed in the Group previews.
 
 7.  Select the **Group** button.
 
@@ -61,7 +62,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
     If the status of a record that you’ve selected for grouping has changed and is being assessed before you select the **Group** button to group the assessments, then such a record can’t be grouped.
 
-    ![Error message indicating the assessments could not be grouped.](../../grc-policy-and-compliance/image/group-assess-no-grouping-ui.png)
+    \[Omitted image "group-assess-no-grouping-ui.png"\] Alt text: Error message indicating the assessments could not be grouped.
 
 8.  Select the link to the grouped assessment in the UI message.
 

@@ -2,6 +2,7 @@
 title: Setting up inventory and asset management
 description: Inventory and asset management in Field Service Management refers to the process of efficiently organizing, tracking, and controlling resources such as equipment, parts, stockrooms, and other assets used in field service operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/asset-management-for-field-service/setting-up-inventory-and-asset-management.html
 release: australia
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
@@ -15,17 +16,17 @@ breadcrumb: [Configure, Field Service Management]
 
 Inventory and asset management in Field Service Management refers to the process of efficiently organizing, tracking, and controlling resources such as equipment, parts, stockrooms, and other assets used in field service operations.
 
-Assets and model categories are created as needed, using Enterprise Asset Management. For more information, see [Create enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-eam.md).
+Assets and model categories are created as needed, using Enterprise Asset Management. For more information, see .
 
 ## Configuration overview
 
 If your organization needs to track inventory or schedule equipment, use the following information to set up one or both of the following features.
 
--   [Configuring stockrooms](configuring-stockrooms.md)
+-   [Configuring stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/configuring-stockrooms.md)
 
     Add stockrooms to strategically arrange and organize physical or virtual spaces to store and manage inventory items, such as assets or parts.
 
--   [Configuring resource scheduling](configure-equipment-scheduling.md)
+-   [Configuring resource scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/asset-management-for-field-service/configure-equipment-scheduling.md)
 
     Create equipment categories and instances to use when assigning crews or work order tasks.
 

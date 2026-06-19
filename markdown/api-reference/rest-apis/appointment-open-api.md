@@ -2,6 +2,7 @@
 title: Appointment Open API
 description: The Appointment Open API is a telecommunication API that allows you to interact with the appointment booking application. Use this API to book appointments and search available time slots.Returns time slots that were configured in the appointment booking service configuration along with their availability.Enables you to book appointments for a work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/appointment-open-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,7 +18,7 @@ The Appointment Open API is a telecommunication API that allows you to interact 
 
 The Appointment Open API is a ServiceNow® implementation of the Open API TMForum TMF646 Appointment REST API specification and is conformance certified by TM Forum. This implementation is based on [TMF646 Appointment API REST Specification R16.0.1](https://www.tmforum.org/resources/specification/tmf646-appointment-api-rest-specification-r16-0-1/).
 
-![TMF conformance logo](../image/tmf-conformance.png)
+\[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
 This API requires the following plugins available on the ServiceNow Store.
 
@@ -30,7 +31,7 @@ Before using this API, Appointment Booking Configuration and Service Configurati
 
 This API is provided within the `sn_tmf_api` namespace. The calling user must have the sn\_tmf\_api.appointment\_integrator role.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Appointment Open - GET /api/sn\_tmf\_api/appointment/searchTimeSlot
 
@@ -113,7 +114,7 @@ Format: YYYY-MM-DD 00:00:00. For example, `2025-01-31 09:00:00`.
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -125,7 +126,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -244,7 +245,7 @@ hasMore
 
 </td><td>
 
-Flag that indicates whether there are more appointment slots to fetch after returning the limit. The limit is specified in the Appointment Booking property, sn\_apptmnt\_booking.max\_appointments\_returned \(Default: 100\). See [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking-components.md) for more details about this property.Possible values:
+Flag that indicates whether there are more appointment slots to fetch after returning the limit. The limit is specified in the Appointment Booking property, sn\_apptmnt\_booking.max\_appointments\_returned \(Default: 100\). See  for more details about this property.Possible values:
 
 -   true: More appointment slots can be fetched.
 -   false: No more appointment slots are available.
@@ -624,7 +625,7 @@ Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -636,7 +637,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

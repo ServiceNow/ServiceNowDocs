@@ -2,6 +2,7 @@
 title: DEX guided setup
 description: Install and configure required plugins to start monitoring and administering your organization's devices using Digital End-User Experience guided setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-install-config.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ Install and configure required plugins to start monitoring and administering you
 
 After installing DEX, use the DEX guided setup experience to install and configure the associated plugins.
 
-In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\) and access-guided setup through the following cards:
+In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\) and access-guided setup through the following cards:
 
 -   **Agent deployment on Windows devices**
 
@@ -40,5 +41,5 @@ In the primary navigation pane, select the DEX Administration icon \(![](../imag
     Configure the DEX Self-service on your ServiceNow® instance.
 
 
-**Parent Topic:**[Digital End-User Experience](dex-landing.md)
+**Parent Topic:**[Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md)
 

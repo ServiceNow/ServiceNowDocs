@@ -2,6 +2,7 @@
 title: Clear Agent Client Collector plugins
 description: Clear the plugin and configuration file cache folder and control plugin downloads. Clearing the cache folder removes unwanted plugins that have synced to the agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/agent-plugins-remove.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -44,5 +45,5 @@ Role required: agent\_client\_collector\_admin
     Plugins download automatically when used by their respective checks/policies.
 
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](../concept/data-collection-enabling.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

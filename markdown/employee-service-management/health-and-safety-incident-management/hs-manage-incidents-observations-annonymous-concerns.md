@@ -2,6 +2,7 @@
 title: Manage incidents, observations, and anonymous safety concerns
 description: Use a structured approach to report, assess, and resolve workplace safety incidents and observations. You can also submit anonymous safety concerns so the organization can proactively manage risks and maintain a safe work environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/hs-manage-incidents-observations-annonymous-concerns.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management

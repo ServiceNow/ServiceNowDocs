@@ -2,6 +2,7 @@
 title: MIDServer - Global
 description: The MIDServer script include provides methods to encapsulate the notion of a MID Server.Returns the specified MID server.Returns the MID server associated with the specified schedule \(the MID server with the same name\). If there is no associated MID server, gets the next MID server in the ecc\_agent table.Returns the MID Server with the specified schedule and range set.The name of the MID server's host.The operating system of the MID server's host.The IP address of the MID server's host.Name of the MID server.The network containing the MID server's host.The IP address of the MID server host's default router.The MID server's status \("Up" or "Down"\).The sys\_id of the MID server record.The URL the MID server uses to contact the instance.Version of the MID server \(WAR name\).Windows domain of the MID server's host \(if it is a Windows machine\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_MIDServerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The MIDServer script include provides methods to encapsulate the notion of a MID
 
 Use these methods in server scripts to manage a MID Server using Ajax.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## MIDServer - getByName\(String name\)
 

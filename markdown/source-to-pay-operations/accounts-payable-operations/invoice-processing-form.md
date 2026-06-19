@@ -1,19 +1,21 @@
 ---
 title: Invoice processing details
-description: Accounts Payable Specialists can use the Invoice processing detailed form to view the invoice details. Invoice processing detail is found in the sn\_apm\_invoice\_attribute table.
+description: Field descriptions for the Invoice attributes form stored in the \[sn\_apm\_invoice\_attribute\] table, including invoice processing details such as approval status, exception handling, and matching errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-processing-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice processing]
 breadcrumb: [Invoice processing case form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice processing details
 
-Accounts Payable Specialists can use the Invoice processing detailed form to view the invoice details. Invoice processing detail is found in the `sn_apm_invoice_attribute` table.
+Field descriptions for the Invoice attributes form stored in the \[sn\_apm\_invoice\_attribute\] table, including invoice processing details such as approval status, exception handling, and matching errors.
 
 |Tab|Description|
 |---|-----------|
@@ -36,5 +38,5 @@ Accounts Payable Specialists can use the Invoice processing detailed form to vie
 |Updated by|Name of the person who updated the invoice processing detail record.|
 |Updates|Integer value set if any updates are performed on the invoice processing detail record.|
 
-**Parent Topic:**[Invoice processing case form](invoice-processing-case-form.md)
+**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
 

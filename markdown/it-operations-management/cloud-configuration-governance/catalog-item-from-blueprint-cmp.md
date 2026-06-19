@@ -2,6 +2,7 @@
 title: Publish a blueprint as a cloud catalog item
 description: You can create and publish a catalog item directly from a blueprint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/catalog-item-from-blueprint-cmp.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -20,7 +21,7 @@ You can create and publish a catalog item directly from a blueprint.
 Role required: sn\_cmp.cloud\_service\_designer
 
 -   Starting with Orlando, Cloud Provisioning blueprints are available on instances upgraded from a previous release but you cannot create new blueprints. Resource profiles and custom-created blueprints will no longer be supported starting with the Australia release.
--   Use Cloud Provisioning cloud templates to create catalog items in place of blueprints. Cloud Provisioning [cloud templates](create-cloud-template.md) allow you to ingest Azure ARM, AWS CFT, Google Deployment Manager \(GDM\) and Terraform specification syntax in cloud catalog items to run your cloud deployment orchestration.
+-   Use Cloud Provisioning cloud templates to create catalog items in place of blueprints. Cloud Provisioning [cloud templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-template.md) allow you to ingest Azure ARM, AWS CFT, Google Deployment Manager \(GDM\) and Terraform specification syntax in cloud catalog items to run your cloud deployment orchestration.
 
 ## Procedure
 

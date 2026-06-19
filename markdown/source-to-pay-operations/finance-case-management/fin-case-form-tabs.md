@@ -2,6 +2,7 @@
 title: Finance Case form tabs
 description: The Finance case form includes tabs that store finance case information that a finance specialist can use to perform related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/fin-case-form-tabs.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -15,7 +16,7 @@ breadcrumb: [Create a finance case form, Reference, Finance Case Management, Fin
 
 The Finance case form includes tabs that store finance case information that a finance specialist can use to perform related tasks.
 
-![Tabs on the Finance Case form](../image/fin-ops-case-form-tab.png)
+\[Omitted image "fin-ops-case-form-tab.png"\] Alt text: Tabs on the Finance Case form
 
 <table id="table_op1_2ml_w2c"><thead><tr><th>
 
@@ -85,5 +86,5 @@ Cases by same requester
 Cases that are opened by the same requester.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a finance case form](create-fin-inquiry-form.md)
+</table>**Parent Topic:**[Create a finance case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/create-fin-inquiry-form.md)
 

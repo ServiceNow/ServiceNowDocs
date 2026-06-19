@@ -2,6 +2,7 @@
 title: Maintain Workplace Service Delivery Mappedin credentials
 description: To configure and work with Mappedin ensure that you have a valid login credential. Work with the Mappedin to obtain these credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-mappedin-credentials.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -38,5 +39,5 @@ Role required: sn\_wsd\_mappedin.admin
 7.  Click **Update**.
 
 
-**Parent Topic:**[Setting up Workplace Space Mapping](../concept/set-up-workplace-service-mapping.md)
+**Parent Topic:**[Setting up Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/set-up-workplace-service-mapping.md)
 

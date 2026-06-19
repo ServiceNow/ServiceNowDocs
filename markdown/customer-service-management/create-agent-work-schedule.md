@@ -2,7 +2,10 @@
 title: Create a work schedule for agents
 description: Users with the agent schedule administrator role can create one or more work schedules for a customer service agent or a field service technician.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-agent-work-schedule.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

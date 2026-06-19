@@ -2,6 +2,7 @@
 title: Configure metric charts for Agent Workspace
 description: Configure the set of Metric Intelligence metric charts, chart types, and other chart characteristics, that appear in Agent Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/configure-metric-chart-workspace.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -23,7 +24,7 @@ Role required: admin or evt\_mgmt\_admin
 
 Up to 10 metric charts for a class can be configured to appear in the Metric Intelligence metric charts form in Agent Workspace. Metric chart configurations are stored in the Metric Dashboard Metadata \[sa\_metric\_dashboard\_metadata\] table, determining which metric charts appear for a CI that is associated with an alert. By default, the Metric Dashboard Metadata contains pre-configured metric charts for several classes.
 
-If [resource binding](../concept/resource-binding.md) is enabled and you specify a **Resource Type** in the metric chart configuration, then all the resources for the CI are included in the chart. The class table for the resource class \(such as **ci\_resource\_metric\_extension**\) that you specify is used for retrieving all the resources for the CI. Then, for each point in time in the data series, the values of resources are aggregated into a single data point which is the average of the metric values of all resources for that point of time.
+If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/resource-binding.md) is enabled and you specify a **Resource Type** in the metric chart configuration, then all the resources for the CI are included in the chart. The class table for the resource class \(such as **ci\_resource\_metric\_extension**\) that you specify is used for retrieving all the resources for the CI. Then, for each point in time in the data series, the values of resources are aggregated into a single data point which is the average of the metric values of all resources for that point of time.
 
 |Chart type|Resources|Aggregation|
 |----------|---------|-----------|
@@ -110,5 +111,5 @@ Chart Type
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

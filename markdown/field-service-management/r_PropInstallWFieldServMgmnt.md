@@ -2,10 +2,13 @@
 title: Properties installed with Field Service Management
 description: System properties provided with the Field Service Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_PropInstallWFieldServMgmnt.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 20
+reading_time_minutes: 21
 breadcrumb: [Components installed, Reference, Field Service Management]
 ---
 
@@ -67,7 +70,7 @@ work.management.allow.auto.metric\_cleanup
 
 </td><td>
 
-The frequency in number of days that the metric instance table should be purged of [work order task](../../field-service-management/concept/close-wo-wot-mobile.md#) information to avoid an unnecessary amount of data in the table.-   Type: Integer
+The frequency in number of days that the metric instance table should be purged of [work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md) information to avoid an unnecessary amount of data in the table.-   Type: Integer
 -   Default value: 365
 -   Location: System Properties list \[sys\_properties\] table
 
@@ -103,7 +106,7 @@ Calculates and automatically populates the potential assignment groups. Updates 
 
 **Note:** The **wm\_work\_order\_task\_potential\_assignment\_groups** table is populated only when:
 
--   The **sn\_fsm.update\_potential\_assignment\_groups** [system property](r_PropInstallWFieldServMgmnt.md) is set to true.
+-   The **sn\_fsm.update\_potential\_assignment\_groups** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md) is set to true.
 -   More than one assignment group is found for the location.
 -   Territory model is inactive.
 
@@ -394,7 +397,7 @@ Requires geolocation to be used to calculate the estimated travel time for dynam
 -   Default value: true
 -   Location: **Field Service** &gt; **Administration** &gt; **Properties** &gt; **Dispatch Properties for** Field Service Management
 
- **Note:** To use the Google Maps API with dynamic scheduling, you must also enable the **Use Google for travel time and traffic data** check box on the [Dynamic Scheduling Configuration](../../field-service-management/task/create-dynamic-scheduling-config.md#) form.
+ **Note:** To use the Google Maps API with dynamic scheduling, you must also enable the **Use Google for travel time and traffic data** check box on the [Dynamic Scheduling Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md) form.
 
 </td></tr><tr><td>
 
@@ -1112,6 +1115,66 @@ Controls time zone display for work order task. When set to "true", date time fi
 -   Default value: false
 -   Location: System Properties list \[sys\_properties\] table
 
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.calendar\_viewport.scroll\_behavior
+
+</td><td>
+
+Controls scroll behavior on the Dispatcher Workspace calendar. When enabled, the position you scrolled to on the calendar is maintained when you navigate to different days.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.viewport\_calendar\_resources\_page\_size
+
+</td><td>
+
+Number of resources to load per page on the Dispatcher Workspace calendar when viewport scroll behavior is enabled. The value must be between 1 and 500.-   Type: integer
+-   Default value: 100
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.collapse\_task\_panel\_in\_init\_load
+
+</td><td>
+
+Gives dispatchers the option to collapse all tasks in the task panel in Dispatcher Workspace when Dispatcher Workspace loads. Dispatchers can expand assignment groups or territories to see the members.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.calendar\_viewport.total\_resources\_to\_fetch\_events\_for
+
+</td><td>
+
+The number of resources to fetch events for. If you customize the day selection, for example adding a view for the five day work week, then you must update this property. If you add a value over 100, then it will revert back to 30.-   Type: string
+-   Default value: TIMELINE\_DAY=50; TIMELINE\_DAY\_WORK\_DAY=50; TIMELINE\_WEEK=30; TIMELINE\_FLEXIBLE\_WEEK\_DAYS=30
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.task\_panel\_card\_hover\_popover
+
+</td><td>
+
+Enable on-hover popover on the task card in the task panel on Dispatcher Workspace.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_event\_hover\_popover
+
+</td><td>
+
+Enable on-hover popover on events in the calendar on Dispatcher Workspace.-   Type: true/ false
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
 </td></tr></tbody>
 </table>## Database View
 
@@ -1134,5 +1197,5 @@ Mobile live location\[sn\_fsm\_mobile\_live\_location\_view​\]
 Mobile live location of Field Service agents.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Field Service Management](r_InstalledWithFSM.md)
+</table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_InstalledWithFSM.md)
 

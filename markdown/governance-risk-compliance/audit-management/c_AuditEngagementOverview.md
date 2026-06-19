@@ -2,6 +2,7 @@
 title: Engagement Overview
 description: The Engagement Overview is contained in the Audit Management application and provides an executive view into audit results, engagement breakdowns by task, and allows areas of concern to be identified quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/c\_AuditEngagementOverview.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -36,5 +37,5 @@ Users with the Audit Administrator, Audit User, and Audit Manager roles view the
 |Audit Task Breakdown|Bar Chart|Count of audit tasks grouped by Task Type, Assigned to, Top Task and State. Stacked by Task Type, Assigned to, Top Task, and State.|
 |Overdue Audit Tasks|List|List of open audit tasks that have exceeded the planned end date.|
 
-**Parent Topic:**[Manage GRC key risk and control indicators](../../grc-indicators/reference/continuous-monitoring.md)
+**Parent Topic:**[Manage GRC key risk and control indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/continuous-monitoring.md)
 

@@ -2,6 +2,7 @@
 title: Operational Success Admin Console
 description: The Operational Success dashboard provides a consolidated view of the end-to-end performance of the IT processes that are implemented.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/admin-console-os.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -29,8 +30,8 @@ Review and configure the data visualization available in the base system for Inc
 
 Operational Success Overview 
 
--   **[Create an operational success dashboard](../task/create-operational-success-dashboard.md)**  
+-   **[Create an operational success dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/create-operational-success-dashboard.md)**  
 Create a KPI category and map with the operational dashboard to view the performance of the ITSM processes in your organization.
 
-**Parent Topic:**[Configuring ITSM Success Dashboard indicators](configure-success-dashboards.md)
+**Parent Topic:**[Configuring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/configure-success-dashboards.md)
 

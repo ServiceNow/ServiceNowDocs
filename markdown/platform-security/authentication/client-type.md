@@ -2,6 +2,7 @@
 title: Configure client type for OAuth and SSO records
 description: Configure the Client Type field for OAuth and SSO record related configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/client-type.html
 release: australia
 product: Authentication
 classification: authentication
@@ -33,7 +34,7 @@ It is recommended to use client type field to every records created for OIDC \(O
 
 After configuring the field, whenever a user logs in from the corresponding configuration \(OAuth or SSO\), once the authentication is successful, the session is considered based on the configured client type and accordingly the session timeout is leveraged.
 
-For the current session, the corresponding security attribute are included or can be leveraged to prevent users from accessing table specific information within the selected client type. For more information, see [OOB \(Out-of-Box\) Security Attributes](../../../administer/contextual-security/reference/oob-security-attributes.md).
+For the current session, the corresponding security attribute are included or can be leveraged to prevent users from accessing table specific information within the selected client type. For more information, see [OOB \(Out-of-Box\) Security Attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/oob-security-attributes.md).
 
 ## Session time out for the Client Types
 

@@ -2,11 +2,12 @@
 title: OAuth 2.0 credentials
 description: OAuth 2.0 credentials enable ServiceNow to obtain access to user accounts on an HTTP service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/oauth-2-credentials.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -57,7 +58,7 @@ Connect to Auth Server via MID Server
 
 Connects your ServiceNow instance to an on-premise OAuth server that resides behind a firewall through a MID Server. It can also connect your ServiceNow instance to a cloud-based OAuth server through a MID server. When this option is enabled, the request for an OAuth token is sent through the MID Server.**Important:**
 
--   The option appears when the value in the **Grant type** field in the OAuth Entity Profile is set to either**Client Credentials**, **Authorization Code**, or **Resource Owner Password Credentials**. To learn how to set an OAuth entity profile for a third-party OAuth provider, see [Connect to a third-party OAuth provider](../../../administer/security/task/connect-3rd-party-oauth-provider.md).
+-   The option appears when the value in the **Grant type** field in the OAuth Entity Profile is set to either**Client Credentials**, **Authorization Code**, or **Resource Owner Password Credentials**. To learn how to set an OAuth entity profile for a third-party OAuth provider, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/connect-3rd-party-oauth-provider.md).
 -   If you select the **Connect to Auth Server via MID Server** checkbox, you must identify the required MID Server or MID Servers from the **Applies to** list.
 
 </td></tr><tr><td>
@@ -72,13 +73,13 @@ Specify if the credential record is applicable for all MID Servers, or a specifi
 
 Ensure that you are aware of these considerations if you have selected the **Connect to Auth Server via MID Server** check box.
 
--   Ensure that all the MID Servers selected in Applies to can communicate with the Auth server. This is required to execute the token request against the **Token URL** mentioned in the OAuth provider record \(that is linked to the OAuth entity profile specified in the OAuth 2.0 credential record\).![Token URL in the OAuth provider record.](../image/mid-server-access-token-url.png)
+-   Ensure that all the MID Servers selected in Applies to can communicate with the Auth server. This is required to execute the token request against the **Token URL** mentioned in the OAuth provider record \(that is linked to the OAuth entity profile specified in the OAuth 2.0 credential record\).\[Omitted image "mid-server-access-token-url.png"\] Alt text: Token URL in the OAuth provider record.
 -   Ensure that there is at least one MID Server \(in the MID Servers selected in **Applies to**\) with these configurations:
     -   The value of the **Status** field is **Up**.
     -   The value of the **Validated** field is **Yes**.
-    -   The capability of the MID Server is set to **REST** or **ALL**. To learn how to configure the MID server, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configure-capabilities.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configure-capabilities.md).![MID Server status.](../image/MidServerDashbardGaugeOAuth2.0.png)
+    -   The capability of the MID Server is set to **REST** or **ALL**. To learn how to configure the MID server, see .\[Omitted image "MidServerDashbardGaugeOAuth2.0.png"\] Alt text: MID Server status.
 
-To learn more about these statuses, see [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md).
+To learn more about these statuses, see .
 
 
 </td></tr><tr><td>

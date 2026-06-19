@@ -2,6 +2,7 @@
 title: Response Template form
 description: Legal configurator can use the Response Template form to create or modify a response template for reusable messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/response-template-fields.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -57,7 +58,7 @@ Condition
 
 </td><td>
 
-Conditions to determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+Conditions to determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
  **Note:** The conditions available depend on the table that you select. For chat response templates, specify the condition: **\[Type\] \[is\] \[Chat\]**
 
@@ -96,5 +97,5 @@ Select variables
 Fields from the selected table that you can include in the template body as variables.For example, say you selected the Legal Request \[sn\_lg\_ops\_request\] table in the **Table** field and then inserted the **Requested for** field variable in the template body. When the response template is used, this field variable will be replaced with the actual name of the user for whom the legal request was submitted.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Request Management reference](legal-request-management-reference.md)
+</table>**Parent Topic:**[Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-reference.md)
 

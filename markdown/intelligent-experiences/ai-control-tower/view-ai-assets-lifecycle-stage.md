@@ -2,6 +2,7 @@
 title: View AI assets by life-cycle stage
 description: View AI assets based on the AI asset life-cycle stage that they are currently in. Use this information to determine which AI assets require your attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/view-ai-assets-lifecycle-stage.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -38,8 +39,8 @@ Role required: sn\_ai\_governance.ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_
     -   To view the list of AI assets that are currently in the deploy stage, select **Deploy**.
 5.  Select an AI asset to launch the life-cycle review process or to view and modify additional details about the asset.
 
-    -   To initiate the life-cycle review process for the asset, select **Start review** and then follow the proceeding steps in [Complete AI asset lifecycle](complete-ai-asset-lifecycle.md).
-    -   To continue a life-cycle review that is already in progress, select the **Lifecycle** tab and then follow the proceeding steps in [Complete AI asset lifecycle](complete-ai-asset-lifecycle.md).
+    -   To initiate the life-cycle review process for the asset, select **Start review** and then follow the proceeding steps in [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md).
+    -   To continue a life-cycle review that is already in progress, select the **Lifecycle** tab and then follow the proceeding steps in [Complete AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.md).
     -   To view or modify general details about the asset, select the **Details** tab and then navigate to **Details** &gt; **Details**.
     -   To view or modify the use and purpose of the asset, select the **Details** tab and then navigate to **Details** &gt; **Use &amp; purpose**.
 
@@ -57,10 +58,10 @@ Role required: sn\_ai\_governance.ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_
         -   To associate the asset with a related AI asset that is not already available in your asset inventory, select **Create**. This option is not available for related AI tools.
         You can then follow the proceeding steps in the corresponding AI asset creation topic:
 
-        -   [Create AI system assets](create-ai-system-assets.md)
-        -   [Create AI model assets](create-ai-model-assets.md)
-        -   [Create prompt assets](create-prompt-assets.md)
-        -   [Create dataset assets](create-dataset-assets.md)
+        -   [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-ai-system-assets.md)
+        -   [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-ai-model-assets.md)
+        -   [Create prompt assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-prompt-assets.md)
+        -   [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-dataset-assets.md)
     -   To view evaluation metrics for the asset, select the **KPIs &amp; metrics** tab.
 
         **Note:** This tab is available only for AI systems and AI models.
@@ -69,11 +70,11 @@ Role required: sn\_ai\_governance.ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_
 
         **Note:** This tab is available only for AI systems.
 
-        For more information on value templates, see [Using value templates](../concept/using-value-templates.md).
+        For more information on value templates, see [Using value templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/using-value-templates.md).
 
     -   To view associated onboarding, change, and off-boarding requests for the asset, select the **Requests** tab.
 
-        For more information on change and off-boarding requests, see [Creating requests for AI assets](../concept/creating-ai-asset-requests.md).
+        For more information on change and off-boarding requests, see [Creating requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/creating-ai-asset-requests.md).
 
     -   To view the evaluations that are enabled for the asset, select the **Evaluation template** tab.
 

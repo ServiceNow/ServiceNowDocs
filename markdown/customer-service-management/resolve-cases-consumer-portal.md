@@ -2,7 +2,10 @@
 title: Accept or reject a case solution from the Consumer Service Portal
 description: Users with the consumer role can accept or reject the proposed solution for a case from the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/resolve-cases-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -33,7 +36,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 5.  Select one of the following from **Actions**.
 
-<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d111060e118">
+<table id="choicetable_ntm_ly1_1w"><tbody><tr><td id="d110883e118">
 
 **Accept Solution**
 
@@ -41,7 +44,7 @@ When an agent proposes a solution to a consumer's case, buttons for accepting or
 
 Accepts the solution proposed by the agent and changes the case state to **Closed**.
 
-</td></tr><tr><td id="d111060e130">
+</td></tr><tr><td id="d110883e130">
 
 **Reject Solution**
 

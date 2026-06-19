@@ -2,6 +2,7 @@
 title: Preview a remote update set
 description: Previewing checks a retrieved update set against the local instance to find issues. Resolve all problems before committing the update set.The process of previewing an update set creates a preview record for each update. You can review the preview records to make sure that the correct updates are being committed.Preview an update set to detect and resolve problems that may occur if you commit the updates on the local instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/t\_PreviewARemoteUpdateSet.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -44,7 +45,7 @@ If the system property glide.update\_set.auto\_preview is set to `true`, the sys
     If problems were detected, address each problem in the Update Set Preview Problems related list.
 
 
-**Parent Topic:**[Working with update sets](../concept/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
 
 ## Review a preview record for an update set
 

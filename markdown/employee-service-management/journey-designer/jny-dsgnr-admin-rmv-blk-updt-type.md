@@ -2,6 +2,7 @@
 title: Remove a task type from bulk update
 description: As an admin you can remove a task type from the types available for bulk update.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-admin-rmv-blk-updt-type.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -49,5 +50,5 @@ Role required: sn\_jny.admin
 6.  Select **Update**.
 
 
-**Parent Topic:**[Manage Journey designer bulk updates for tasks](../concept/jny-dsgnr-bulk-update-admnstrtn.md)
+**Parent Topic:**[Manage Journey designer bulk updates for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-bulk-update-admnstrtn.md)
 

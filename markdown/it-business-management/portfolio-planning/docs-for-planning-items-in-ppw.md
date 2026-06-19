@@ -2,11 +2,12 @@
 title: Docs for planning items in Portfolio Planning
 description: Store and manage all kinds of documentation for planning items from a centralized location of Portfolio Planning Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/docs-for-planning-items-in-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -46,7 +47,7 @@ The following are the key features of Docs:
 
 With the feature of real-time collaboration, edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators based on your preference while working on or reviewing the content of the page.
 
-![Docs real-time collaboration.](../../collab-work-mgmt/images/cwm-docs-rtc.png)
+\[Omitted image "cwm-docs-rtc.png"\] Alt text: Docs real-time collaboration.
 
 **Note:** Huge number of users editing the same block of content simultaneously might result in issues with application performance.
 
@@ -58,11 +59,11 @@ For example, if you add a reference to a Project record, the reference shows the
 
 A hover popover displays the details of the mentioned record, providing quick access to additional information without leaving the current context.
 
-![Dynamic linking a project record in SPW Docs.](../../collab-work-mgmt/images/cwm-docs-dynamic-record.png)
+\[Omitted image "cwm-docs-dynamic-record.png"\] Alt text: Dynamic linking a project record in SPW Docs.
 
 Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of a Project record.
 
-![Dynamic linking the Assigned to field of a project record in SPW Docs.](../../collab-work-mgmt/images/cwm-docs-dynamic-field.png)
+\[Omitted image "cwm-docs-dynamic-field.png"\] Alt text: Dynamic linking the Assigned to field of a project record in SPW Docs.
 
 You can add references from any ServiceNow table you have access to, with no setup or configuration needed.
 

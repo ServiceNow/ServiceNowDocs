@@ -1,7 +1,8 @@
 ---
-title: Dictionary and AI Search Dictionary forms
-description: The Dictionary and AI Search Dictionary forms contain information about your AI Search typo handling, stop word, and synonym dictionaries. Use these forms when creating or modifying a typo handling, stop word, or synonym dictionary for use with AI Search.
+title: Dictionary form
+description: The Dictionary form enables you to create a typo handling, stop word, or synonym dictionary for use in your AI Search search profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/dictionary-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -11,11 +12,13 @@ reading_time_minutes: 3
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Dictionary and AI Search Dictionary forms
+# Dictionary form
 
-The Dictionary and AI Search Dictionary forms contain information about your AI Search typo handling, stop word, and synonym dictionaries. Use these forms when creating or modifying a typo handling, stop word, or synonym dictionary for use with AI Search.
+The Dictionary form enables you to create a typo handling, stop word, or synonym dictionary for use in your AI Search search profiles.
 
-For details on creating and modifying dictionaries, see [Modify settings for a typo handling dictionary](../task/config-typo-handling-dict-ais.md), [Create a stop word dictionary linked to a search profile](../task/create-stop-word-dict-ais.md), and [Create a synonym dictionary linked to a search profile](../task/create-synonym-dict-ais.md).
+For details on creating and modifying dictionaries, see [Modify settings for a typo handling dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/config-typo-handling-dict-ais.md), [Create a stop word dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-stop-word-dict-ais.md), and [Create a synonym dictionary linked to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-synonym-dict-ais.md).
+
+**Note:** When creating a typo handling dictionary, the name of the form is shown as AI Search Dictionary instead of Dictionary.
 
 <table id="table_nss_bh5_kmb"><thead><tr><th>
 
@@ -73,7 +76,7 @@ Case sensitive
 
 </td><td>
 
-Option to enable case sensitivity for all terms in the dictionary. For more details on case sensitivity, see [Typo handling](../concept/typo-handling-ais.md), [Stop words](../concept/stop-words-ais.md), or [Synonyms](../concept/synonyms-ais.md).
+Option to enable case sensitivity for all terms in the dictionary. For more details on case sensitivity, see [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md), [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md), or [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md).
 
 </td></tr><tr><td>
 
@@ -81,7 +84,7 @@ Punctuation sensitive
 
 </td><td>
 
-Option to enable punctuation sensitivity for all terms in the dictionary. For more details on punctuation sensitivity, see [Typo handling](../concept/typo-handling-ais.md), [Stop words](../concept/stop-words-ais.md), or [Synonyms](../concept/synonyms-ais.md).
+Option to enable punctuation sensitivity for all terms in the dictionary. For more details on punctuation sensitivity, see [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/typo-handling-ais.md), [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md), or [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md).
 
 </td></tr><tr><td>
 
@@ -101,7 +104,7 @@ Indexed sources
 
 </td><td>
 
-List of indexed sources. The dictionary derives auto-correction terms from content indexed for these sources. This field only displays when editing a typo handling dictionary. For more information on indexed sources, see [Indexed sources in AI Search](../concept/indexed-sources-ais.md).
+List of indexed sources. The dictionary derives auto-correction terms from content indexed for these sources. This field only displays when editing a typo handling dictionary. For more information on indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md).
 
 </td></tr><tr><td>
 
@@ -120,10 +123,10 @@ Blocked Fields
 Comma-separated list of fields. The dictionary excludes terms found in these fields when deriving typo handling auto-correction terms from indexed source records. This field only displays when editing a typo handling dictionary. You can specify fields using the following formats:
 
 -   **\*** \(asterisk\): Exclude terms found in all fields. This value disables derivation of typo-handling auto-corrections for the dictionary.
--   **fieldname**: Exclude terms found in the specified AI Search index field, such as **title** or **text**. For details on AI Search index fields, see [AI Search index fields](index-fields-list-ais.md).
+-   **fieldname**: Exclude terms found in the specified AI Search index field, such as **title** or **text**. For details on AI Search index fields, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 -   **tablename.fieldname**: Exclude terms found in the specified field on the specified ServiceNow AI Platform® table.
 -   **tablename.\***: Exclude terms found in all fields in the specified ServiceNow AI Platform table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
 

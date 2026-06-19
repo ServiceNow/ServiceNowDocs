@@ -2,6 +2,7 @@
 title: View extracted MITRE ATT&amp;CK Techniques
 description: MITRE ATT&amp;CK Technique Extraction method describes how the extraction methods are performed and associated techniques are verified for observables, objects, and RSS feeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/mitre-extraction-method.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

@@ -2,6 +2,7 @@
 title: GRC Risk Management plugin Performance Analytics indicators
 description: The GRC Risk Management plugin contains various Performance Analytics indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/indicators-risk-mgmt.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -42,5 +43,5 @@ The GRC: Risk Management plugin includes the following Performance Analytics ind
     Number of risks which are not assessed.
 
 
-**Parent Topic:**[Operational Risk Management dashboard](operational-risk-dashboard.md)
+**Parent Topic:**[Operational Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.md)
 

@@ -2,6 +2,7 @@
 title: Managing Entity Based Access
 description: You can manage access to the objects or record types in a system by using the Entity Based Access application. You can restrict access by using an entity, entity class, or entity type configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/using-entity-based-access.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -25,18 +26,18 @@ You can apply entity-based access restriction in a two-step process.
 
 **Important:** Make sure to complete both these steps to enable an entity-based access restriction.
 
--   **[Configure access to an entity's related records](../task/create-an-entity-access-configuration.md)**  
+-   **[Configure access to an entity's related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-an-entity-access-configuration.md)**  
 Configure access to an entity for your users or user groups so that they can access the entity's related records.
--   **[Configure an entity class for a linked object](../task/create-an-entity-class-configuration-for-entity-based-access.md)**  
+-   **[Configure an entity class for a linked object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-an-entity-class-configuration-for-entity-based-access.md)**  
 Configure an entity class for a linked object by using the Entity Based Access application. You can define an entity class, such as Business Process, Business Service, or Database, and manage the object access for the entity that is linked to that entity class.
--   **[Configure an entity type for a linked object](../task/create-an-entity-type-configuration-for-entity-based-access.md)**  
+-   **[Configure an entity type for a linked object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-an-entity-type-configuration-for-entity-based-access.md)**  
 Configure an entity type by using the Entity Based Access application. You can specify an entity type, such as Company or Vendors, and manage the object access for the entity that is linked to that entity type.
--   **[Set access restrictions using an entity based record access update utility](../task/create-a-bulk-access-update-configuration.md)**  
+-   **[Set access restrictions using an entity based record access update utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-a-bulk-access-update-configuration.md)**  
 Set access restrictions for the existing records in bulk by using the Entity based record access update utility guided-experience. Use the workflow to enable or disable access to record types.
--   **[Configure entity-based record access rules](../task/configure-continuous-eba-monitoring-on-record-types.md)**  
+-   **[Configure entity-based record access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-continuous-eba-monitoring-on-record-types.md)**  
 Configure entity-based record access rules on record types to apply access restrictions to new records automatically.
--   **[Deactivate entity-based access configuration](../task/deactivate-entity-based-access-configuration.md)**  
+-   **[Deactivate entity-based access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/deactivate-entity-based-access-configuration.md)**  
 Deactivate an entity-based access \(EBA\) configuration to disable access restrictions from associated records, confirming only active and relevant configurations control data access.
 
-**Parent Topic:**[Entity Based Access](entity-based-access.md)
+**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md)
 

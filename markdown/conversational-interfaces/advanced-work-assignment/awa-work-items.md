@@ -2,6 +2,7 @@
 title: Work items
 description: View Advanced Work Assignment work items using the Work Items menu options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-work-items.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,6 +2,7 @@
 title: Enable skill determination
 description: Activate the skill determination business rule to tag skills for your work items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/skills-example-skill-determination.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

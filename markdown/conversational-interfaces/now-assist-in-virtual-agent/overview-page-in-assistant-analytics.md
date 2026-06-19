@@ -2,6 +2,7 @@
 title: Overview page in Assistant analytics
 description: View high-level summary of assistant activity, assist usage, user engagement and overall customer satisfaction \(CSAT\) score.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/overview-page-in-assistant-analytics.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ View high-level summary of assistant activity, assist usage, user engagement and
 
 The Overview dashboard page aggregates key metrics across all active assistants and channels, presenting total actions, user engagement, assist usage volume, and overall CSAT score.
 
-![Overview dashboard page in Assistant analytics.](../image/NAinVA-assistant-designer-analytics-overview.png "Overview dashboard page in Assistant analytics")
+\[Omitted image "NAinVA-assistant-designer-analytics-overview.png"\] Alt text: Overview dashboard page in Assistant analytics.
 
 The visualizations on the Overview page provide the following insights.
 
@@ -29,30 +30,30 @@ The visualizations on the Overview page provide the following insights.
 
     This area of the dashboard shows the total number of actions completed by AI assistants, aggregated over the selected date range. This metric helps you understand the volume of AI-driven interactions and track growth in AI adoption.
 
-    ![Cumulative AI-Assisted Actions.](../image/NAinVA-assistant-designer-analytics-overview-cumulative-actions.png "Cumulative AI-Assisted Actions")
+    \[Omitted image "NAinVA-assistant-designer-analytics-overview-cumulative-actions.png"\] Alt text: Cumulative AI-Assisted Actions.
 
 -   **Average Distinct Users**
 
     This area of the dashboard shows the average number of unique users interacting with assistants in the selected date range. This metric helps you identify periods of increasing or decreasing user engagement to take necessary action.
 
-    ![Average Distinct Users.](../image/NAinVA-assistant-designer-analytics-overview-average-users.png "Average Distinct Users")
+    \[Omitted image "NAinVA-assistant-designer-analytics-overview-average-users.png"\] Alt text: Average Distinct Users.
 
 -   **Assist Usage Volume**
 
     This area of the dashboard shows the trend of assists consumed via AI assistants within the selected date range. The assists are determined by the Now Assist actions executed. This metric reveals the assistants that are lowest and highest consumers of assists.
 
-    ![Assist Usage Volume.](../image/NAinVA-assistant-designer-analytics-overview-assist-usage.png "Assist Usage Volume (Assistants)")
+    \[Omitted image "NAinVA-assistant-designer-analytics-overview-assist-usage.png"\] Alt text: Assist Usage Volume.
 
 -   **Overall Average Conversation CSAT**
 
     This area of the dashboard shows the average inferred CSAT score for conversations handled by assistants in the selected date range. This metric measures the user sentiment and satisfaction with assistant interactions. Use the CSAT trends to identify areas for improvement in assistant responses or workflows.
 
-    ![Overall Average Conversation CSAT.](../image/NAinVA-assistant-designer-analytics-overview-overall-CSAT.png "Overall Average Conversation CSAT")
+    \[Omitted image "NAinVA-assistant-designer-analytics-overview-overall-CSAT.png"\] Alt text: Overall Average Conversation CSAT.
 
 -   **Total Assist Usage**
 
     This area of the dashboard shows the total number of assists consumed by the assistants in the selected date range. The assists are determined by the now assist actions executed. Use this metric to optimize assist usage and track progress towards usage goals.
 
-    ![Total Assist Usage.](../image/NAinVA-assistant-designer-analytics-overview-total-usage.png "Total Assist Usage")
+    \[Omitted image "NAinVA-assistant-designer-analytics-overview-total-usage.png"\] Alt text: Total Assist Usage.
 
 

@@ -2,6 +2,7 @@
 title: Access to Expertise
 description: The Access to Expertise Initiative connects Impact customers to ServiceNow subject matter experts via personalized virtual coaching sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/access-expertise-initiative.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -22,6 +23,8 @@ Access to Experts sessions offer specialized guidance on various ServiceNow prod
 Receive prescriptive and actionable guidance on effective strategies to address platform obstacles, processes, and workflows.
 
 An intelligent intake experience matches Impact Customers with suitable experts for tailored sessions aligned with your needs and platform lifecycle stage. Each request focuses on addressing one specific topic or application area per session.
+
+## Package Availability
 
 This initiative is available for packages such as Impact Advanced and Impact Total along with the Impact Guided package and Strategic Value or Platform Governance, as add-on.
 
@@ -88,5 +91,5 @@ Implementation Guidance
 How do you set up the workflow for Mobile barcode scanning upon initiation of a request?
 
 </td></tr></tbody>
-</table>Submit queries with detailed information using an intake form. See [Request Access to Expertise](../task/access-expertise.md) for details on entering the request.
+</table>Submit queries with detailed information using an intake form. See [Request Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/access-expertise.md) for details on entering the request.
 

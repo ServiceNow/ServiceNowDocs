@@ -2,6 +2,7 @@
 title: Use imported Wi-Fi access logs
 description: Identify potentially exposed employees by manually importing Wi-Fi access logs into the Wi-Fi Access Register table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/identify-exposed-employee-ma-logs.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -25,7 +26,7 @@ Role required: sn\_imt\_tracing.wifi\_admin
 
     By default, the asset data is available in the Computer table \[cmdb\_ci\_computer\]. If you are using a different table, specify it using the **sn\_imt\_tracing.wifi\_client\_table** property.
 
-    For more information, see [System properties for tracing systems in Emergency Exposure Management](../../business-continuity/reference/list-of-tracing-system-sys-properties.md).
+    For more information, see [System properties for tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/list-of-tracing-system-sys-properties.md).
 
 2.  Indicate that the diagnostic data should be accessed from manually loaded access logs.
 
@@ -51,7 +52,7 @@ Role required: sn\_imt\_tracing.wifi\_admin
 
 4.  Import Wi-Fi access logs into the Wi-Fi Access Register table \[sn\_imt\_tracing\_wifi\_access\_register\] using an Excel spreadsheet.
 
-    For more information, see [Import your Wi-Fi access logs spreadsheet](import-wifi-data.md).
+    For more information, see [Import your Wi-Fi access logs spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/import-wifi-data.md).
 
 5.  Run the diagnostic request.
 
@@ -61,12 +62,12 @@ Role required: sn\_imt\_tracing.wifi\_admin
 
     3.  Click **Run Diagnostics**.
 
-    For more information about how to run a diagnostic request, see [Run a diagnostic request](../../business-continuity/task/use-emergency-exposure-mgnt.md).
+    For more information about how to run a diagnostic request, see [Run a diagnostic request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/use-emergency-exposure-mgnt.md).
 
 
 ## Result
 
 Potentially exposed employees are displayed in the related list of the diagnostic request.
 
-**Parent Topic:**[Retrieving Wi-Fi access log data](../concept/wifi-access-management.md)
+**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/wifi-access-management.md)
 

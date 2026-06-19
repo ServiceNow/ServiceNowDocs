@@ -2,12 +2,13 @@
 title: Add in-form analytics to a form
 description: Create a UI action that enables users to view relevant analytics while completing a form. The UI action associates the table that uses the form, a breakdown used with that table, and a breakdown dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_CreateInFormAnalyticsAction.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [In-form analytics, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
@@ -17,11 +18,13 @@ Create a UI action that enables users to view relevant analytics while completin
 
 ## Before you begin
 
-Role required: pa\_power\_user, pa\_admin, or admin. In addition to the Performance Analytics roles, you must be able to create records on the UI Actions \[sys\_ui\_action\] table.
+**Important:** This feature is available only for Core UI dashboards. It is not available on net new instances.
 
-Before adding in-form analytics for a specific table and breakdown, create a breakdown dashboard that uses that table and the breakdown source of that breakdown. Design the dashboard so that it prominently displays the most useful information to the users who create records on that table. For more information about breakdown dashboards, see [Using breakdowns on dashboards](../concept/c_SpecialDashboards.md).
+Before adding in-form analytics for a specific table and breakdown, create a breakdown dashboard that uses that table and the breakdown source of that breakdown. Design the dashboard so that it prominently displays the most useful information to the users who create records on that table. For more information about breakdown dashboards, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 Performance Analytics must be active to create in-form analytics.
+
+Role required: pa\_power\_user, pa\_admin, or admin. In addition to the Performance Analytics roles, you must be able to create records on the UI Actions \[sys\_ui\_action\] table.
 
 ## About this task
 
@@ -44,19 +47,19 @@ Performance Analytics must be active to create in-form analytics.
 
 Consider the case where you want support engineers who create incidents to be able to see the expected time to close the incident based on the assignment group. You have designed a widget that shows the expected time to close an incident. You have added this widget to the In-form Analytics breakdown dashboard, which uses the Groups breakdown source. 'Groups' is the source for the Assignment Group breakdown.
 
-![Breakdown dashboard with the Groups breakdown source and a widget showing the expected time to close an incident](../image/in-form-analytics-dashboard.png "Breakdown dashboard")
+\[Omitted image "in-form-analytics-dashboard.png"\] Alt text: Breakdown dashboard with the Groups breakdown source and a widget showing the expected time to close an incident
 
 Now you create in-form analytics for the Incident \[incident\] table, the Assignment Group breakdown, and the In-form Analytics - Incidents dashboard. You select the icon for the UI Action. This icon will appear next to the Assignment Group field. You also decide to create a Related Link to the dashboard.
 
-![Creating in-form analytics for showing the dashboard with resolution time by assignment group for incidents](../image/in-form-analytics-create.png "Creating in-form analytics")
+\[Omitted image "in-form-analytics-create.png"\] Alt text: Creating in-form analytics for showing the dashboard with resolution time by assignment group for incidents
 
 Clicking the dial icon opens the pop-up view of the dashboard. Note that instead of the dashboard name, the pop-up window is titled "Analysis of \[Breakdown name\]".
 
-![The dashboard open from the icon next to the Assignment Group field.](../image/in-form-analytics-open-view.png "Opening dashboard view from incident form")
+\[Omitted image "in-form-analytics-open-view.png"\] Alt text: The dashboard open from the icon next to the Assignment Group field.
 
 The Self-Service view does not show the Assignment Group field by default. In this case, you can still view the analytics from the Related Links.
 
-![The dashboard pop-up opened from the Related Links](../image/in-form-analytics-related-link.png "Related link to analytics")
+\[Omitted image "in-form-analytics-related-link.png"\] Alt text: The dashboard pop-up opened from the Related Links
 
-**Parent Topic:**[In-form analytics](../concept/in-form-analytics.md)
+**Parent Topic:**[In-form analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/in-form-analytics.md)
 

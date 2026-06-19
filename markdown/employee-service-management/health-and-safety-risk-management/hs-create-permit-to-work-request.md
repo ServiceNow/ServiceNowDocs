@@ -2,11 +2,12 @@
 title: Create a permit-to-work request
 description: The permit-to-work request is submitted by the worker who will be carrying out a job with significant risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-create-permit-to-work-request.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Permit-to-work system, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -27,7 +28,7 @@ Role required: sn\_hs\_rm.permit\_requestor
 
 3.  On the Request a permit to work form, fill in the fields.
 
-    For a description of the field values, see [Permit-to-work request form](../reference/hs-permit-to-work-form.md).
+    For a description of the field values, see [Permit-to-work request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-permit-to-work-form.md).
 
 4.  Read the text in the **Acknowledgement Message** field and select the **Acknowledge** check box.
 
@@ -54,5 +55,5 @@ Role required: sn\_hs\_rm.permit\_requestor
     **Note:** The printed permit and checklist can be signed and attached in the attachment tab for this permit. The attached documents can be viewed in the activity stream.
 
 
-**Parent Topic:**[Permit-to-work system](../concept/hs-permit-to-work.md)
+**Parent Topic:**[Permit-to-work system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
 

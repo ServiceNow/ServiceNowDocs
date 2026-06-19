@@ -2,6 +2,7 @@
 title: Create or configure a service channel
 description: Create or configure a service channel that is used in Advanced Work Assignment \(AWA\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -36,7 +37,7 @@ If you activate the corresponding plugins or install the corresponding store app
 
 For each channel, you can change certain default settings, such as the default capacity \(workload\) for agents. You can also use the related lists to review associated queues, define the associated inbox layouts \(work item cards\) that are displayed in Workspace, and override the agent capacity value.
 
-You can also create a service channel record from the Service Channel module, but you must [create a queue](awa-create-queue.md), [assignment rule](awa-create-assignment-rule.md), and [eligible assignment pool](awa-specify-assignment-eligibility.md) to route work through the service channel. For more information, see [Set up a custom service channel](setup-custom-channel.md).
+You can also create a service channel record from the Service Channel module, but you must [create a queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md), [assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md), and [eligible assignment pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md) to route work through the service channel. For more information, see [Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/setup-custom-channel.md).
 
 In addition to task-based and interaction-based tables, AWA now supports routing of non-task and non-interaction tables such as Lead, Opportunity, Quote, and Order. Before configuring a service channel for one of these tables, ensure that the table has a corresponding record in the Document Type \[awa\_document\_type\] table.
 
@@ -294,10 +295,10 @@ Date and time that logging should stop. This field appears if **Enable logging**
 
 For service channels that use history-based affinity routing, AWA reads the assigned-to field from the service channel configuration to determine prior agent assignments. If no assigned-to field is configured on the service channel, AWA defaults to the assigned\_to field. This applies to all table types, including non-task and non-interaction tables.
 
--   [Override the agent capacity](awa-change-agent-capacity.md) for selected agents or groups.
--   [Create or modify an inbox layout](awa-modify-inbox-layout.md) for the service channel.
--   [Configure agent assignment rules](awa-create-assignment-rule.md) for the channel.
--   [Define agent pools eligible for assignment](awa-specify-assignment-eligibility.md).
--   [Create or modify a work item queue](awa-create-queue.md) for the channel.
--   [Create or modify a work item size override](awa-modify-work-item-size.md) for the channel.
+-   [Override the agent capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-change-agent-capacity.md) for selected agents or groups.
+-   [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md) for the service channel.
+-   [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md) for the channel.
+-   [Define agent pools eligible for assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md).
+-   [Create or modify a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md) for the channel.
+-   [Create or modify a work item size override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-work-item-size.md) for the channel.
 

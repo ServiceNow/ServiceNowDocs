@@ -2,6 +2,7 @@
 title: Manage controls
 description: Controls are specific implementations of a control objective. Retired controls do not appear in the list. Before defining controls, take time to rationalize, consolidate, and define the important controls in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/c\_GRCControls.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -25,7 +26,7 @@ If you upload all your controls in bulk, you are missing the opportunity to refi
 -   Is there a control you can put in place that reduces process overhead and improves IT performance while also mitigating risk?
 -   Can a complicated control be replaced with a simpler more effective control?
 
-**Note:** When you define controls manually or when you import them from the Unified Compliance Framework \(UCF\), an entity is associated with the controls. It is a mandatory field on the Control form. If, however, you import controls from a source other than the UCF, you may encounter controls that do not have associated entities. It is important that you return to the Control form and [add an entity to the control](../task/t_CreateAControl.md). Missing entities can cause unreliable results in calculations. Also, if you encounter a control with an entity that has been disabled, the control should be retired.
+**Note:** When you define controls manually or when you import them from the Unified Compliance Framework \(UCF\), an entity is associated with the controls. It is a mandatory field on the Control form. If, however, you import controls from a source other than the UCF, you may encounter controls that do not have associated entities. It is important that you return to the Control form and [add an entity to the control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md). Missing entities can cause unreliable results in calculations. Also, if you encounter a control with an entity that has been disabled, the control should be retired.
 
 ## Consolidate your controls
 
@@ -45,7 +46,7 @@ The business rules you define up front, establish the GRC configuration settings
 
 ## Entity Based Access \(EBA\)
 
-The Entity Based Access feature provides a framework for more granular approach to management of data access to objects associated with an entity. Administrators can grant access to an entity's related records by adding users or user groups, or by using entity user fields for entity-based access configuration. For more information, see [Entity Based Access](../../grc-common/concept/entity-based-access.md).
+The Entity Based Access feature provides a framework for more granular approach to management of data access to objects associated with an entity. Administrators can grant access to an entity's related records by adding users or user groups, or by using entity user fields for entity-based access configuration. For more information, see [Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md).
 
 When a user is qualified based on these configurations and has the minimum required roles, they will have access to the following tables:
 
@@ -57,5 +58,5 @@ When a user is qualified based on these configurations and has the minimum requi
 
 When entity based record access rules are enabled on the **Entity Based Access Configuration Properties** page, any newly created controls, control attestations, indicators, and indicator tasks associated with a configured entity will automatically inherit the entity-based access \(EBA\) value from that entity. Previously, users had to run bulk access updates to apply EBA restrictions whenever new objects were created.
 
-For more information, see [Entity based record access rules to secure new records](../../grc-common/concept/continuous-monitoring-of-entity-based-access.md).
+For more information, see [Entity based record access rules to secure new records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/continuous-monitoring-of-entity-based-access.md).
 

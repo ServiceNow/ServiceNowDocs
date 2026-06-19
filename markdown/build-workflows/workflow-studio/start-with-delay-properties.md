@@ -2,12 +2,13 @@
 title: Start with delay input properties
 description: Specify a duration of time to wait before running an activity or a stage whose start rule and conditions have been met. Give users time to act during automated playbooks. Give users time to wait for a specific date and time to complete actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/start-with-delay-properties.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -62,7 +63,7 @@ Template Value
 
 </td><td>
 
-Option to set a duration value manually or to select a Duration data pill from the data pill picker ![Data pill picker](../images/data-pill-picker-icon.png). -   **Explicit Duration**: Wait duration in hours, minutes, and seconds.
+Option to set a duration value manually or to select a Duration data pill from the data pill picker \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker. -   **Explicit Duration**: Wait duration in hours, minutes, and seconds.
 -   **Relative Duration**: Wait duration in hours, minutes, and seconds before or after a specific time. Select **Relative Duration** to specify a wait duration from a specific date.
 
 **Note:** Past dates don't affect the wait duration.
@@ -80,7 +81,7 @@ Integer
 
 </td><td>
 
-Percentage of time to wait from a specified end date before running an activity or stage. You can manually enter an end date or select a date/time data pill from the data pill picker ![Data pill picker](../images/data-pill-picker-icon.png). If you select an end date in the past, the wait duration is set to **0**. This field is only available when you set the **Duration Type** to **Percentage Duration**.
+Percentage of time to wait from a specified end date before running an activity or stage. You can manually enter an end date or select a date/time data pill from the data pill picker \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker. If you select an end date in the past, the wait duration is set to **0**. This field is only available when you set the **Duration Type** to **Percentage Duration**.
 
 </td></tr><tr><td>
 
@@ -92,35 +93,8 @@ Reference.Schedule \[cmn\_schedule\]
 
 </td><td>
 
-Schedule used to calculate an end date that occurs during your hours of operation. For example, the calculated end date for a 10-hour duration that occurs during a 8-5 weekdays schedule will always be one or more business days in the future. If you leave this field blank, the calculated end date does not follow a schedule. For information on creating schedules, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md).
+Schedule used to calculate an end date that occurs during your hours of operation. For example, the calculated end date for a 10-hour duration that occurs during a 8-5 weekdays schedule will always be one or more business days in the future. If you leave this field blank, the calculated end date does not follow a schedule. For information on creating schedules, see Define a schedule.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Stages and activities](../concept/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook](../task/add-configure-stage.md)
-
-[Activity definitions](../concept/activity-definitions.md)
-
-[Add and configure an activity in a playbook](../task/add-configure-activity.md)
-
-[Use AI agent as an activity](../task/ai-agent-as-activity.md)
-
-[Automation Assets](../concept/automation-assets.md)
-
-[Optional activities](../concept/optional-activities.md#)
-
-[Decision activities](../task/create-a-decision-activity.md)
-
-[Decision stages](../task/create-decision-stage.md)
-
-[Questionnaire activity](questionnaire-activity.md)
-
-[Parallel branches](../task/create-parallel-activity.md)
-
-[Add dynamic inputs to an activity](../task/add-dynamic-inputs-to-activity.md)
-
-[Playbook activity state mapping](../../workspace/concept/playbook-activity-state-mapping.md)
+</table>**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

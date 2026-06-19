@@ -2,6 +2,7 @@
 title: Perform export steps
 description: Export a file from a local source, a remote network server, or another instance by providing a path and authentication information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/validate-errors.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -44,15 +45,15 @@ Role required: admin
     Verify the accuracy of the data, identify any discrepancies, and share the errors with the reseller on the same FTP server. You may use flow designer to move the data from your instance to external applications.
 
 
--   **[Export data to the FTP server](export-data-ftp.md)**  
+-   **[Export data to the FTP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/export-data-ftp.md)**  
 Export a file from a local source, a remote network server, or another instance by providing a path and authentication information.
 
-**Parent Topic:**[Procurement File Transfer Framework](../concept/procurement-file-transfer-framework.md)
+**Parent Topic:**[Procurement File Transfer Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.md)
 
 **Related topics**  
 
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
+[bundle-platcap.mid-server-landing]
 
-[Introduction to credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md)
+[bundle-psec.credentials-connections-alias]
 

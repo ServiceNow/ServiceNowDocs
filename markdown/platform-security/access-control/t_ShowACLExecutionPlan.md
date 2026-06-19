@@ -2,6 +2,7 @@
 title: Show ACL execution plan
 description: Administrators can view how ACLs relate to each other by viewing an execution plan for any ACL in the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/t\_ShowACLExecutionPlan.html
 release: australia
 product: Access Control
 classification: access-control
@@ -21,19 +22,19 @@ Role required: security\_admin
 
 ## Procedure
 
-1.  [Elevate to a privileged role](../../security/task/t_ElevateToAPrivilegedRole.md).
+1.  [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **System Security** &gt; **Access Control \(ACL\)**.
 
 3.  Open an ACL with the type **record**.
 
-    ![ACL type equals "record."](../image/acl-type-record.png)
+    \[Omitted image "acl-type-record.png"\] Alt text: ACL type equals "record."
 
 4.  Click **Show ACL Execution Plan** in the Related Links section.
 
     The security rules window appears for the ACL. The example displays the execution plan for "vtb\_task".
 
-    ![An ACL execution plan](../image/ACL_execution_plan.png)
+    \[Omitted image "ACL\_execution\_plan.png"\] Alt text: An ACL execution plan
 
     |UI item|Description|
     |-------|-----------|

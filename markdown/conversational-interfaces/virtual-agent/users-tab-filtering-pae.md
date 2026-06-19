@@ -2,6 +2,7 @@
 title: Use filters in the Users tab
 description: You can use filters to get a deeper understanding of User data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/users-tab-filtering-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -26,11 +27,11 @@ The filter editor consists of the following:
 -   Operator: A list of operations that is contextually generated based on the selected field.
 -   Value: A text entry field or a list that is contextually generated based on the selected field.
 
-To remove a condition, select the delete icon ![Delete icon.](../images/delete-icon.png) next to the condition. To add dependent conditions in the condition builder, either select **or** or **and**. To filter the conversations list using the condition, select **Update**.
+To remove a condition, select the delete icon \[Omitted image "delete-icon.png"\] Alt text: Delete icon. next to the condition. To add dependent conditions in the condition builder, either select **or** or **and**. To filter the conversations list using the condition, select **Update**.
 
 To save a condition that you created in the filter editor, select **Save filter**. In the Save Filter pop-up window, specify a name for the filter. You can also set permissions for the filter in the Save Filter window. Users having the Chat Analytics Viewer \(chat\_analytics\_viewer\) role can select and modify your saved filters.
 
-![Filter Editor with filters dropdown open, All filter selected, and Channel Web Client shown under Saved Filters.](../images/condition-saved-pae.png "Saved condition")
+\[Omitted image "condition-saved-pae.png"\] Alt text: Filter Editor with filters dropdown open, All filter selected, and Channel Web Client shown under Saved Filters.
 
 ## Field options in the Filter Editor
 
@@ -51,5 +52,5 @@ To save a condition that you created in the filter editor, select **Save filter*
 |User|Filters users based on user name.|
 |Keywords|Filters users based on keywords related to the conversation.|
 
-**Parent Topic:**[Users tab](users-tab-pae.md)
+**Parent Topic:**[Users tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/users-tab-pae.md)
 

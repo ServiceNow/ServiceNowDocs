@@ -2,6 +2,7 @@
 title: Cisco ThousandEyes Observability tab for Service Observability
 description: Dashboard and charts on the Cisco ThousandEyes Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/cisco-thousand-eyes-observability-tab-for-service-observability.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -37,5 +38,5 @@ This dashboard displays synthetic monitoring metrics for the selected service.
 |Time to complete|Time required to fully load the monitored page.|Cisco ThousandEyes|
 |Error Count|Number of errors encountered during page load tests.|Cisco ThousandEyes|
 
-**Parent Topic:**[Cisco ThousandEyes templates for Service Observability](cisco-thousand-eyes-templates-for-service-observability.md)
+**Parent Topic:**[Cisco ThousandEyes templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/cisco-thousand-eyes-templates-for-service-observability.md)
 

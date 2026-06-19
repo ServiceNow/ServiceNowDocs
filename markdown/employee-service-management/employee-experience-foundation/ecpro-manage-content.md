@@ -2,6 +2,7 @@
 title: Create content for a campaign
 description: There are different places you can create content. You can create content from a campaign, bundle/stage, or directly from Manage Content under Content Experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-manage-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,7 +27,7 @@ Role required: sn\_ca.campaign\_manager, sn\_cd.content\_admin
     You can also create content from:
 
     -   The **Campaign Content** related list of a campaign
-    -   Select **Create new** from the content library column after selecting the ![Choice list icon](../images/choice-list-icon.png). For more information, see [Add content to a campaign using Content Experience Builder](ecpro-campaigns-manage-content-builder.md).
+    -   Select **Create new** from the content library column after selecting the \[Omitted image "choice-list-icon.png"\] Alt text: Choice list icon. For more information, see [Add content to a campaign using Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns-manage-content-builder.md).
 <table id="table_ujg_jcz_2mb"><thead><tr><th>
 
 Field
@@ -49,7 +50,7 @@ The title you entered from the **To-do content** form.This field only appears wh
 -   View Link
 These are all to-do types of content that request the user to complete a task.
 
-**Note:** For more information, see [Creating employee communications](../concept/ec-publish-content.md).
+**Note:** For more information, see [Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md).
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Content
 
 The content you want to appear in your campaign.Select the **Lookup using list** icon and select the content from the list. The content you want to select must already be created before you can add it to a campaign.
 
-**Note:** For more information, see [Creating employee communications](../concept/ec-publish-content.md).
+**Note:** For more information, see [Creating employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-publish-content.md).
 
 </td></tr><tr><td>
 
@@ -101,11 +102,11 @@ Taxonomy
 
 Filters what topics you can schedule your content to. Taxonomy is a collection of hierarchical topics that brings together different content types, like requests, articles, quick links, and employee communications. For example, you can set up separate taxonomies for HR and IT so you can group specific topics under each.
 
- For this field to appear, select a page that has Taxonomy \(sn\_ex\_sp\_taxonomy\) entered in the Choices tab for the dictionary entry for the Category table of the page. For more information, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md).
+ For this field to appear, select a page that has Taxonomy \(sn\_ex\_sp\_taxonomy\) entered in the Choices tab for the dictionary entry for the Category table of the page. For more information, see Create a table.
 
- For more information on taxonomy for the Employee Center, see [Unified Taxonomy for Employee Center](../concept/config-taxonomy.md).
+ For more information on taxonomy for the Employee Center, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
- For child topics to appear on your Employee Center, you must add it to the Portal form under Service Portal. For more information, see [Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-a-portal.md).
+ For child topics to appear on your Employee Center, you must add it to the Portal form under Service Portal. For more information, see Create a portal.
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ Topic
 
 </td><td>
 
-The topics you want your content to appear in under a taxonomy.Only topics that are associated with a specific page/template display. When the Allow Ownership for Topics \(sn\_cd.activate\_topic\_ownership\) sys property is set to **Yes**, topic ownership is enabled. For more information, see [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+The topics you want your content to appear in under a taxonomy.Only topics that are associated with a specific page/template display. When the Allow Ownership for Topics \(sn\_cd.activate\_topic\_ownership\) sys property is set to **Yes**, topic ownership is enabled. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
  Ownership of a topic includes:
 
@@ -122,7 +123,7 @@ The topics you want your content to appear in under a taxonomy.Only topics that 
 -   Ability to preview content for the topic.
 **Note:** Other users that have access to the content can view the restricted content assigned to a topic, but cannot edit or delete the topic.
 
- For more information, see [Content Ownership](../concept/ecpro-content-restriction.md) and [Create and associate topics](create-topics-for-taxonomy.md).
+ For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md) and [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md).
 
 </td></tr><tr><td>
 
@@ -165,19 +166,19 @@ Description
 Description of the to-do content.
 
 </td></tr></tbody>
-</table>    ![Campaign content - New](../images/campaign-content-new.png)
+</table>    \[Omitted image "campaign-content-new.png"\] Alt text: Campaign content - New
 
 2.  Click **New**.
 
-    ![Campaign Content - New](../images/campaign-content-2.png)
+    \[Omitted image "campaign-content-2.png"\] Alt text: Campaign Content - New
 
-3.  Select the **Lookup using list** ![Lookup using list icon](../../human-resources/image/magnify-glass-outline-icon.png) icon next to Content.
+3.  Select the **Lookup using list** \[Omitted image "magnify-glass-outline-icon.png"\] Alt text: Lookup using list icon icon next to Content.
 
-    ![Campaign Content](../images/campaign-content-type.png)
+    \[Omitted image "campaign-content-type.png"\] Alt text: Campaign Content
 
 4.  Select existing content or **New**.
 
-    ![Campaign Content Type select](../images/campaign-content-type-select.png)
+    \[Omitted image "campaign-content-type-select.png"\] Alt text: Campaign Content Type select
 
 5.  Select the content type.
 
@@ -195,7 +196,7 @@ Mobile Content
 
 </td><td>
 
-Announcement banners you can send to your employee's mobile devices. The banner can be an image that links to content of your Employee Center or Service Portal.**Note:** For information on creating mobile content, see [Configure mobile content](ecpro-content-delivery-mobile.md).
+Announcement banners you can send to your employee's mobile devices. The banner can be an image that links to content of your Employee Center or Service Portal.**Note:** For information on creating mobile content, see [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md).
 
 </td></tr><tr><td>
 
@@ -203,7 +204,7 @@ Notification Content
 
 </td><td>
 
-Information blast you send directly to your employees via email or push to their mobile devices.**Note:** For information on creating notification content, see [Create email, SMS, or push notification content](ecpro-manage-notification-content.md).
+Information blast you send directly to your employees via email or push to their mobile devices.**Note:** For information on creating notification content, see [Create email, SMS, or push notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-notification-content.md).
 
 </td></tr><tr><td>
 
@@ -211,7 +212,7 @@ Portal Content
 
 </td><td>
 
-Content that appears on your Employee Center or Service Portal.**Note:** For information on creating portal content, see [Portal content](../concept/ec-streamline-content.md).
+Content that appears on your Employee Center or Service Portal.**Note:** For information on creating portal content, see [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
 </td></tr><tr><td>
 
@@ -219,7 +220,7 @@ To-do Content
 
 </td><td>
 
-Content that assigns tasks to your employees and can be sent via email, SMS, or posted to your Employee Center or Service Portal.**Note:** For information on creating to-do content, see [Create to-do content](ecpro-manage-content-to-do.md).
+Content that assigns tasks to your employees and can be sent via email, SMS, or posted to your Employee Center or Service Portal.**Note:** For information on creating to-do content, see [Create to-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-manage-content-to-do.md).
 
 </td></tr></tbody>
 </table>6.  Click **Submit**.

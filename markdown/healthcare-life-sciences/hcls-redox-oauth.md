@@ -2,6 +2,7 @@
 title: Link your ServiceNow instance with your Redox account
 description: Create an OAuth application endpoint for the external Redox healthcare system to access your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-redox-oauth.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Starting with the Yokohama release, Redox Inbound Integration is being prepared 
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Ensure that the application scope is set to Redox Inbound Integration by using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Ensure that the application scope is set to Redox Inbound Integration by using the application picker. For more information, see Application picker.
 
 Role required: sn\_hcls.admin or admin
 
@@ -37,7 +38,7 @@ Role required: sn\_hcls.admin or admin
 
     **Note:** You can ignore the **Redirect URL** and **Logo URL** fields, which are not used for this configuration.
 
-    For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
+    For more information, see Create an endpoint for clients to access the instance.
 
 5.  Click **Submit**.
 

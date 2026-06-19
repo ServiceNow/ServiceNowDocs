@@ -2,6 +2,7 @@
 title: Map with transformation event scripts
 description: Transformation events occur during the process of transforming an import set table onto a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_MapWithTransformationEventScripts.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -17,11 +18,11 @@ Transformation events occur during the process of transforming an import set tab
 
 These events modify the transformation behavior from any type of mapping specification. Transformation Event scripts modify the processing of the events at various stages of the transformation.
 
-For example, the processing of a mapping operation defined using the [Mapping Assist Utility](../concept/c_MappingOptions.md) can be manipulated using the event scripts. There are a number of import set JavaScript objects that are accessible during these events. These objects represent tables or portions of tables. It is important to note that what these objects refer to varies depending on the context of the event in which they are referenced.
+For example, the processing of a mapping operation defined using the [Mapping Assist Utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_MappingOptions.md) can be manipulated using the event scripts. There are a number of import set JavaScript objects that are accessible during these events. These objects represent tables or portions of tables. It is important to note that what these objects refer to varies depending on the context of the event in which they are referenced.
 
 The following is a table of all of the transform events and their contextual variables.
 
-**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](../../../administer/import-sets/reference/r_ImportSetsProperties.md).
+**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 <table id="table_r1y_4rs_sq"><thead><tr><th>
 
@@ -97,7 +98,7 @@ Function
 
 </td><td>
 
-The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](../../../administer/import-sets/reference/r_ImportSetsProperties.md).
+The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 </td></tr><tr><td>
 
@@ -211,7 +212,7 @@ Function
 
 </td><td>
 
-The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](../../../administer/import-sets/reference/r_ImportSetsProperties.md).
+The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 </td></tr><tr><td>
 
@@ -313,7 +314,7 @@ Function
 
 </td><td>
 
-The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](../../../administer/import-sets/reference/r_ImportSetsProperties.md).
+The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 </td></tr><tr><td>
 
@@ -470,7 +471,7 @@ Function
 
 </td><td>
 
-The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](../../../administer/import-sets/reference/r_ImportSetsProperties.md).
+The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 </td></tr><tr><td>
 
@@ -602,7 +603,7 @@ Function
 
 </td><td>
 
-The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](../../../administer/import-sets/reference/r_ImportSetsProperties.md).
+The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 </td></tr><tr><td>
 
@@ -739,7 +740,7 @@ Function
 
 </td><td>
 
-The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](../../../administer/import-sets/reference/r_ImportSetsProperties.md).
+The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 </td></tr><tr><td>
 
@@ -888,7 +889,7 @@ Function
 
 </td><td>
 
-The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](../../../administer/import-sets/reference/r_ImportSetsProperties.md).
+The log object for the current import run. For example, log.info\(...\), log.warn\(...\), log.error\(...\).**Note:** To view the import logs, set the **glide.importlog.log\_to\_table** property to true. For more information, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_ImportSetsProperties.md).
 
 </td></tr></tbody>
 </table> Example:

@@ -2,6 +2,7 @@
 title: CMDB 360 insights dashboard in Service Graph Workspace
 description: The CMDB 360 insights dashboard provides aggregations and analysis of CMDB 360 data, where you can track activities and identify potential issues of discovery sources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -25,9 +26,9 @@ Role required: sn\_cmdb\_editor or sn\_cmdb\_admin
 
 The CMDB 360 insights page provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
 
-**Note:** Most cards on the CMDB 360 insights dashboard support non-CMDB tables in their aggregation, or can be configured to provide support. However, the CIs not reported by discovery sources card, for example, doesn't apply to non-CMDB tables. Creating queries for non-CMDB tables is also supported. For information about support for non-CMDB tables, see [IRE support for non-CMDB tables](ire-support-non-cmdb-tables.md).
+**Note:** Most cards on the CMDB 360 insights dashboard support non-CMDB tables in their aggregation, or can be configured to provide support. However, the CIs not reported by discovery sources card, for example, doesn't apply to non-CMDB tables. Creating queries for non-CMDB tables is also supported. For information about support for non-CMDB tables, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
--   For concepts and other background information about CMDB 360, see [CMDB 360](multisource-cmdb.md).
--   For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](../task/workspc-mltsrc-configure.md).
--   For information about using the CMDB 360 view, see [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](cmdb360-exp-cmdb-workspace.md).
+-   For concepts and other background information about CMDB 360, see [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
+-   For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace or in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   For information about using the CMDB 360 view, see [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md).
 

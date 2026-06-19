@@ -2,6 +2,7 @@
 title: CMDB — Hardware with Windows installed
 description: Use this example to build a CMDB query to find all hardware in my service offering that has Microsoft Windows installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-sample3-app-ser.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

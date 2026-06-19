@@ -2,6 +2,7 @@
 title: Set up the Oracle Autonomous DB spoke
 description: Integrate the ServiceNow instance and Oracle Autonomous DB by using the credentials to authenticate ServiceNow requests.Create a credential record for the Oracle Cloud IAM account. The Oracle Cloud IAM spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Oracle Cloud IAM account. The Oracle Cloud IAM spoke connection and credential aliases use these connections to perform actions in Oracle Cloud IAM.Create a credential record for the Oracle Autonomous DB account. The Oracle Autonomous DB spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Oracle Autonomous DB account. The Oracle Autonomous DB spoke connection and credential aliases use these connections to perform actions in Oracle Autonomous DB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-oracle-auto-db.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,7 +19,7 @@ Integrate the ServiceNow instance and Oracle Autonomous DB by using the  credent
 ## Before you begin
 
 -   Request an Integration Hub subscription.
--   Activate and set up the [Oracle Cloud IAM Spoke](../concept/oracle-iam.md).
+-   Activate and set up the [Oracle Cloud IAM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/oracle-iam.md).
 -   Activate the Oracle Autonomous DB spoke.
 -   Role required: admin.
 

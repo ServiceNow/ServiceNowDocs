@@ -2,6 +2,7 @@
 title: Shipment details
 description: Shipment details display tracking information of a product that is shipped to the employee shopper.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/shipment-details.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -106,5 +107,5 @@ Purchase order line associated with the shipment.
 </td></tr></tbody>
 </table>When the status of the shipment is updated to **Delivered**, a receipt is created for the quantity mentioned in the shipment.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

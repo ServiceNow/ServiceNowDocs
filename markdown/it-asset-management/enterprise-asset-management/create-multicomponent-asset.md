@@ -2,6 +2,7 @@
 title: Create a multi-component asset
 description: Track and manage your assets by creating a multi-component asset from a multi-component model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-multicomponent-asset.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Track and manage your assets by creating a multi-component asset from a multi-co
 
 ## Before you begin
 
-For details on multi-component models, see [Multi-component models and assets in Enterprise Asset Management](../concept/complex-models.md).
+For details on multi-component models, see [Multi-component models and assets in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complex-models.md).
 
 Role required:
 
@@ -28,17 +29,17 @@ Role required:
 
 1.  Create a model by navigating to **Enterprise Asset Workspace** &gt; **Enterprise model management**
 
-    For details on creating a model, see [Create enterprise models](create-model-eam.md).
+    For details on creating a model, see [Create enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-model-eam.md).
 
 2.  After you created a model, add model components to the model.
 
-    For details on creating model components, see [Create enterprise model components](create-model-components-eam.md).
+    For details on creating model components, see [Create enterprise model components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-model-components-eam.md).
 
 3.  Create assets from the multi-component model.
 
     You can create a pre-assembled or an user-assembled asset.
 
-    For details on creating an asset, see [Create enterprise assets](create-asset-eam.md). Once you create assets, child assets are automatically created.
+    For details on creating an asset, see [Create enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-eam.md). Once you create assets, child assets are automatically created.
 
     1.  If you create a user-assembled asset, open the asset record.
 
@@ -57,5 +58,5 @@ Role required:
     The multi-component asset needs to be in the **In maintenance** state to swap assets. You can swap multiple child assets at one go with other assets from the same model in any stockroom. The model must be in the **In stock** state and **Available** sub state.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

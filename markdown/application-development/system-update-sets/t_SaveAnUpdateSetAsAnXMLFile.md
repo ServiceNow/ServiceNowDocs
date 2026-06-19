@@ -2,6 +2,7 @@
 title: Save an update set as a local XML file
 description: Administrators can export an update set as an XML file to save a specific version of an application or set of changes.Administrators can load an update set XML file to apply a specific version of an application or set of changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/t\_SaveAnUpdateSetAsAnXMLFile.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -42,7 +43,7 @@ Create an XML file of an update set when:
     When a file is uploaded to a different instance, it’s recognized as a retrieved update set.
 
 
-**Parent Topic:**[Configuring System Update Sets](../concept/configure-system-update-sets.md)
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/configure-system-update-sets.md)
 
 ## Load customizations from a single XML file
 
@@ -66,6 +67,6 @@ Roles required: admin
 
     The customization is available as a retrieved update set with the state **Loaded**.
 
-6.  To commit the update set, see [Commit an update set](t_CommitAnUpdateSet.md).
+6.  To commit the update set, see [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
 

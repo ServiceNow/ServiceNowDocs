@@ -2,6 +2,7 @@
 title: Configure multi-instance management for AI Control Tower
 description: Configuring Multi-instance management for AI Control Tower.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -38,7 +39,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 Multi-instance management is configured for the AI Control Tower.
 
-For more information about Trust configuration and Trust configuration management, see [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/grant-access-v2.md)
+For more information about Trust configuration and Trust configuration management, see 
 
-For more information about AI asset synchronization process, see [Multi-instance Setup](../concept/multi-instance-management.md) section under Exploring the AI Control Tower configurations.
+For more information about AI asset synchronization process, see [Multi-instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/multi-instance-management.md) section under Exploring the AI Control Tower configurations.
 

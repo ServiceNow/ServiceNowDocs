@@ -2,6 +2,7 @@
 title: Create remote catalogs in Service Exchange for providers
 description: As a provider, you can create remote catalogs to automate the task fulfillment process for your consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-remote-catalog.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -19,7 +20,7 @@ By using remote catalogs, providers can maintain the development of shared catal
 
 The process for providers to create a remote catalog is as follows:
 
-1.  Create a remote record producer in a remote catalog. See [Create a remote record producers in a remote catalog in Service Exchange for Providers](../task/service-bridge-v2-create-remote-rec-prod.md).
-2.  Create variables for remote record producers. See [Create variables for remote record producers in Service Exchange for Providers](../task/service-bridge-v2-assign-variables-ser-defn.md).
+1.  Create a remote record producer in a remote catalog. See [Create remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-rec-prod.md).
+2.  Create variables for remote record producers. See [Create variables for remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
 3.  Associate flows to the record producers.
 

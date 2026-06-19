@@ -2,6 +2,7 @@
 title: Configure Predictive Intelligence for User Reported Phishing
 description: Configure and prepare the model to identify user reported phishing emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/cj-sir-ml-urp-configure.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

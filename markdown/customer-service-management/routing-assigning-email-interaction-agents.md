@@ -2,7 +2,10 @@
 title: Routing and assigning an email interaction to agents
 description: Route and assign email interactions to the appropriate agents based on predefined rules and criteria.Manually assign an interaction that is in the New state to yourself or another agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/routing-assigning-email-interaction-agents.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -16,7 +19,7 @@ Route and assign email interactions to the appropriate agents based on predefine
 
 When agents accept email interactions routed by Advanced Work Assignment \(AWA\), the interaction state changes from New to Work in progress and it’s assigned to the agent.
 
-For information on the configuration required to route and assign email interactions, see [Configure Advanced Work Assignment for routing email interactions](../task/configure-advanced-work-assignment-route-email-interactions.md).
+For information on the configuration required to route and assign email interactions, see [Configure Advanced Work Assignment for routing email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-advanced-work-assignment-route-email-interactions.md).
 
 Alternatively, agents can assign the email interactions manually.
 
@@ -36,7 +39,7 @@ The **Assign to me** button is only visible if the interaction is in the New sta
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(![List icon](../image/List_icon.jpg)\).
+2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
 
 3.  From the Interactions section, select **My Interactions**.
 

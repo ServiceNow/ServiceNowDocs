@@ -2,6 +2,7 @@
 title: Encryption rule conditions
 description: Encryption rule conditions determine if the rule should be executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_EncryptionRuleConditions.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -21,11 +22,11 @@ As you build your condition, keep in mind that only one rule is executed per req
 
 **Note:** Be careful when performing checks on content in the condition. Excessive checks can be expensive for the proxy server and may cause increased latency when handling complex requests.
 
-The condition can use the method type, content type, URL path, or any URL query string parameters to determine if the rule should handle the request. The condition has access to these fields via the [request](c_requestAPI.md#) object. Be sure that, prior to creating an encryption rule condition, you have inspected the client request and understand the conditions needed to trigger the rule.
+The condition can use the method type, content type, URL path, or any URL query string parameters to determine if the rule should handle the request. The condition has access to these fields via the [request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_requestAPI.md) object. Be sure that, prior to creating an encryption rule condition, you have inspected the client request and understand the conditions needed to trigger the rule.
 
 **Note:** To build efficient rules, consider easy ways to rule out requests that you do not want to be evaluated by a rule. Build your condition to return false for those requests first. This method increases performance and quickly routes the request to the correct rule faster.
 
-[Encryption rule objects and APIs](api-overview.md) are available to encryption rule conditions.
+[Encryption rule objects and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/api-overview.md) are available to encryption rule conditions.
 
 ## Example using path and postParams
 
@@ -57,5 +58,5 @@ function SampleCondition2(request) {
 }
 ```
 
-**Parent Topic:**[Define a custom encryption rule](c_EncryptionRules.md)
+**Parent Topic:**[Define a custom encryption rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EncryptionRules.md)
 

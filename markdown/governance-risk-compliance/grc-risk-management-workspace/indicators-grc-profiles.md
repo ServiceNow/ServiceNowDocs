@@ -2,6 +2,7 @@
 title: GRC Profiles plugin indicators
 description: The GRC Profiles plugin contains various indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/indicators-grc-profiles.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -114,5 +115,5 @@ The GRC: Profiles plugin includes the following indicators:
     Number of issues closed on this month
 
 
-**Parent Topic:**[Operational Risk Management dashboard](operational-risk-dashboard.md)
+**Parent Topic:**[Operational Risk Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/operational-risk-dashboard.md)
 

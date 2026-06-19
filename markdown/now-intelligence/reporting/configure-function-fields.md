@@ -2,6 +2,7 @@
 title: Configuring function fields
 description: You can configure up to 20 active function fields per table using the Report Designer. When you configure a function field on a table, you can group or stack by the results of the function calculation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/configure-function-fields.html
 release: australia
 product: Reporting
 classification: reporting
@@ -25,7 +26,7 @@ Limitations:
 -   Security is evaluated on the components of the function and on the calculated value of the field. When used in visualizations, sections that contain information that the user is not allowed to see are hidden from the user.
 -   Only the creator of a function field or a platform admin can edit or deactivate that field. Platform admins can deactivate any function field.
 -   Field function names must be unique.
--   Only 20 function fields can be active on a table at any one time. To add function fields, you must deactivate others. See [Deactivate a function field](delete-function-field.md).
+-   Only 20 function fields can be active on a table at any one time. To add function fields, you must deactivate others. See [Deactivate a function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/delete-function-field.md).
 
-**Parent Topic:**[Report on function fields](../concept/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md)
 

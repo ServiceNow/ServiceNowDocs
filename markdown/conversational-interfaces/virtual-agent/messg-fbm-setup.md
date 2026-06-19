@@ -2,6 +2,7 @@
 title: Set up Conversational Integration with Facebook Messenger
 description: Integrate Facebook Messenger with your ServiceNow instance using the Conversational Integration with Facebook Messenger application. Use the application to engage customers in conversations with bots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-setup.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -71,7 +72,7 @@ Token
 
 </td><td>
 
-Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a user with the admin role, you can set the **glide.cs.facebook\_messenger\_verify\_token** system property to a desired value and then enter that value in this field. Because the **glide.cs.facebook\_messenger\_verify\_token** system property isn't available by default, you must add it with the data type set to string. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a user with the admin role, you can set the **glide.cs.facebook\_messenger\_verify\_token** system property to a desired value and then enter that value in this field. Because the **glide.cs.facebook\_messenger\_verify\_token** system property isn't available by default, you must add it with the data type set to string. For more information, see Add a system property.
 
 </td></tr></tbody>
 </table>        3.  Click **Verify and Save**.
@@ -115,5 +116,5 @@ Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a
     A success message displays confirming the integration with the Facebook Messenger app.
 
 
-**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](messg-fbm-configure.md)
+**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
 

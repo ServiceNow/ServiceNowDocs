@@ -2,6 +2,7 @@
 title: Configure agent presence states
 description: Create or modify the availability states that agents use to indicate whether they can receive work or are offline or away. Agents set these states in their Workspace Inbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -108,7 +109,7 @@ Disable agent inactivity check
 
 </td><td>
 
-If this check box is selected, the agent's presence will not be automatically set to "offline" based on inactivity and it must be manually set by the [AWA Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-api.md). You may need to configure the form to add this field.
+If this check box is selected, the agent's presence will not be automatically set to "offline" based on inactivity and it must be manually set by the AWA Agent API. You may need to configure the form to add this field.
 
 </td></tr><tr><td>
 

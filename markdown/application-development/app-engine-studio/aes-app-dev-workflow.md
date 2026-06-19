@@ -2,6 +2,7 @@
 title: Delegate developers using AES
 description: Delegated development enables designated users without a system admin role to develop or deploy applications on the ServiceNow AI Platform. This enables administrators and delegated developers to work together to deliver custom applications through App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-app-dev-workflow.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -31,7 +32,7 @@ An admin may have several delegated developers, each with their own set of permi
 
 Some AES features may be inaccessible to the delegated developer, depending on permissions. Your role enables you to access, edit, and add objects. If a feature of App Engine Studio is unavailable to you, contact your system administrator.
 
-For more information about delegated development and permissions, see [Delegated development and deployment](../../applications/concept/c_DelegatedDevelopment.md).
+For more information about delegated development and permissions, see [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
 
 ## Restricted ability to create apps
 
@@ -40,5 +41,5 @@ In addition to delegated development, admins can define whether AES users can cr
 -   Grant access to build applications in AES by adding users to the App Engine Studio Users group in your organization's development instance. Each group member is automatically assigned the sn\_app\_eng\_studio.user role.
 -   To restrict access so that users can work in App Engine Studio but not create apps or see templates, add users to the App Engine Studio User Limited group.
 
-**Parent Topic:**[Configure App Engine Studio](configure-aes.md)
+**Parent Topic:**[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/configure-aes.md)
 

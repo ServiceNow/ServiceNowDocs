@@ -2,6 +2,7 @@
 title: Loan Restructure Proposal workflow
 description: Learn how bank agents, using the Loan Restructure Proposal workflow, contact a loan customer for restructuring an outstanding loan which otherwise could turn into a non-performing loan. The workflow applies to both business and personal loans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/loan-restructure-workflow.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -19,7 +20,7 @@ A loan restructuring is an action to prevent a loan from being classified as non
 
 The following diagram shows how the application helps bank agents handle a loan restructure.
 
-![Workflow that shows how a loan restructure is handled using the Loan Operations application.](../image/loan-restructure-workflow.png "Loan Restructure workflow")
+\[Omitted image "loan-restructure-workflow.png"\] Alt text: Workflow that shows how a loan restructure is handled using the Loan Operations application.
 
 The following workflow routes the case and tasks for a Loan Restructure to agents in different departments. The agents log in to Workspace to work on the tasks in their queue.
 

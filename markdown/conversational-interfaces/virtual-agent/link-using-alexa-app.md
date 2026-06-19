@@ -2,6 +2,7 @@
 title: Link your account using the Alexa app
 description: Link your ServiceNow account using your Alexa mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/link-using-alexa-app.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -46,5 +47,5 @@ Role required: admin
     **Note:** Insert the user record in the provider\_user\_map record to complete the account linking.
 
 
-**Parent Topic:**[Account linking with Alexa](../concept/account-linking-alexa.md)
+**Parent Topic:**[Account linking with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/account-linking-alexa.md)
 

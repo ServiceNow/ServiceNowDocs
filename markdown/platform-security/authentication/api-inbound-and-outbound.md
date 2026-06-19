@@ -2,6 +2,7 @@
 title: OAuth Inbound and Outbound authentication
 description: OAuth based authentication validates the identity of the client that attempts to establish a trust on the system by using an authentication protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/api-inbound-and-outbound.html
 release: australia
 product: Authentication
 classification: authentication
@@ -31,9 +32,9 @@ From Zurich, you can configure OAuth integration with the following enhancements
 
 ## Inbound
 
-Create an endpoint for external clients that want to access your instance. This creates an OAuth client application record and generates a client ID and client secret that the client needs to access the restricted resources on the instance. For more information see, [OAuth Inbound](oauth-inbound.md).
+Create an endpoint for external clients that want to access your instance. This creates an OAuth client application record and generates a client ID and client secret that the client needs to access the restricted resources on the instance. For more information see, [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/oauth-inbound.md).
 
 ## Outbound
 
-Use a third-party OAuth provider that provides the authorization for access to your instance. Specify an OAuth profile and OAuth scope when you are connecting to another OAuth provider. For more information see, [OAuth Outbound](oauth-outbound.md).
+Use a third-party OAuth provider that provides the authorization for access to your instance. Specify an OAuth profile and OAuth scope when you are connecting to another OAuth provider. For more information see, [OAuth Outbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/oauth-outbound.md).
 

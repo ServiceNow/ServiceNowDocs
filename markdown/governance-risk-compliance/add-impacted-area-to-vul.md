@@ -2,9 +2,10 @@
 title: Add the impacted area
 description: Add an impacted area or an object to the operational vulnerability record in the Operational Resilience Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-impacted-area-to-vul.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-01"
 reading_time_minutes: 1
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -33,21 +34,21 @@ Beginning with Release 20.1.x, the Operational Resilience application supports t
 
 4.  On the Impacted area form, fill in the fields.
 
-    To view more information on the fields, see the [Impacted area form](../reference/impacted-area-form.md).
+    To view more information on the fields, see the [Impacted area form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/impacted-area-form.md).
 
 5.  Select **Save**.
 
     When you add the primary origin of the operational vulnerability, its impacted areas with upstream entities are updated on the **Impacted areas** tab.
 
-    ![Impacted areas with upstream entities.](../image/op-vul-pri-ori-imp-area.png)
+    \[Omitted image "op-vul-pri-ori-imp-area.png"\] Alt text: Impacted areas with upstream entities.
 
     When the scheduled job is executed, the updated impacted areas and the overall operational vulnerability count are reflected in the dashboard.
 
-    ![Count 0.](../image/op-vul-count-0.png)
+    \[Omitted image "op-vul-count-0.png"\] Alt text: Count 0.
 
     For example, when the impacted areas in the operational vulnerability are updated, the operational vulnerability count on the overview page of SO1 remains at 0 before the scheduled job runs.
 
-    ![Count 1.](../image/op-vul-count-1.png)
+    \[Omitted image "op-vul-count-1.png"\] Alt text: Count 1.
 
     After running the scheduled job, the operational vulnerability count on the overview page of SO1 is updated to 1. This ensures that the updated data is promptly reflected on the Operational Resilience dashboard.
 

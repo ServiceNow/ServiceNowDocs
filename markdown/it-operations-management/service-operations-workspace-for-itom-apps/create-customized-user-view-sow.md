@@ -2,6 +2,7 @@
 title: Create a user view in Service Operations Workspace
 description: Create and customize a user view in the Service Operations Workspace to enable viewing information in the format you want.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/create-customized-user-view-sow.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -25,27 +26,27 @@ Role required: evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the left navigation bar, select the Service Dashboard icon: ![Service Dashboard icon](../image/icon-service-dashboard.png).
+2.  From the left navigation bar, select the Service Dashboard icon: \[Omitted image "icon-service-dashboard.png"\] Alt text: Service Dashboard icon.
 
     The Service Dashboard page appears.
 
-    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](../../event-management/task/add-impact-cal-services.md).
+    **Note:** The application services that appear in the Service Dashboard are those added to the Impact Filter Services list. For more information, see [Add application services for impact calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-impact-cal-services.md).
 
 3.  Customize the dashboard appearance by selecting output criteria from the **Group by**, **Group order**, or **Segment each group by** filters, or by selecting the relevant **Severity breakdown**.
 
     Selecting **Service group** &gt; **All** in the **Group by** filter displays all service groups.
 
-4.  Configure the information for the view to display by clicking the filter services icon \(![Filter services icon](../../event-management/image/filter-icon-button.png)\) and setting a global filter.
+4.  Configure the information for the view to display by clicking the filter services icon \(\[Omitted image "filter-icon-button.png"\] Alt text: Filter services icon\) and setting a global filter.
 
     For example, you can configure a filter to display only those services assigned to a specific user.
 
-    **Note:** To discard your changes and revert to the view's most recently saved state, select the More actions icon \(![More actions icon](../image/icon-more-actions.png)\) and select **Discard changes**.
+    **Note:** To discard your changes and revert to the view's most recently saved state, select the More actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: More actions icon\) and select **Discard changes**.
 
-    ![Option to discard view.](../image/sow-discard-view.png)
+    \[Omitted image "sow-discard-view.png"\] Alt text: Option to discard view.
 
-5.  Save your new view by clicking the More actions icon \(![More actions icon](../../event-management/image/more-actions-icon-horizontal.png)\) next to the **Save** button and select **Save as copy**.
+5.  Save your new view by clicking the More actions icon \(\[Omitted image "more-actions-icon-horizontal.png"\] Alt text: More actions icon\) next to the **Save** button and select **Save as copy**.
 
-    ![Create a view by saving it as a copy.](../image/sow-save-as-copy.png)
+    \[Omitted image "sow-save-as-copy.png"\] Alt text: Create a view by saving it as a copy.
 
 6.  In the Save as copy dialog box, enter the name of your view in the **View name** field.
 
@@ -57,8 +58,8 @@ Role required: evt\_mgmt\_admin
     -   **Private views**: Visible only to the logged-in user.
     **Note:** You can switch between different views by selecting a view from the list next to the **Save** button.
 
-    ![List that displays all the views.](../image/select-view-dropdown-2.png)
+    \[Omitted image "select-view-dropdown-2.png"\] Alt text: List that displays all the views.
 
 
-**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/workspace-dashboard-use.md)
 

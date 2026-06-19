@@ -2,11 +2,12 @@
 title: CAM workflow configuration
 description: Configure custom workflows in Continuous Authorization and Monitoring to support compliance requirements beyond the default National Institute of Standards and Technology NIST Risk Management Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/cam-workflow-configurator.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -56,7 +57,7 @@ Examples of validation conditions:
 
 Attributes add special capabilities to workflow states without requiring custom code. Attributes control features like approval requirements, report generation, related list actions, and UI page visibility for specific workflow states.
 
-For a complete list of available attributes, see [Add existing attributes to a GRC workflow state](../task/configure-state-model-attributes.md).
+For a complete list of available attributes, see [Add existing attributes to a GRC workflow state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/configure-state-model-attributes.md).
 
 ## Workflow limitations
 
@@ -64,7 +65,7 @@ Without the CAM Advanced plugin \(app-grc-cont-auth-monitor-advanced\), you can 
 
 ## Enabling workflow configuration
 
-The workflow configurator is available only when CAM Workspace is installed. A system property controls whether custom workflows are enabled. For more information, see [Continuous Authorization and Monitoring system properties](../reference/cam-components-installed.md#).
+The workflow configurator is available only when CAM Workspace is installed. A system property controls whether custom workflows are enabled. For more information, see [Continuous Authorization and Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/cam-components-installed.md).
 
 When you enable the workflow configuration property:
 

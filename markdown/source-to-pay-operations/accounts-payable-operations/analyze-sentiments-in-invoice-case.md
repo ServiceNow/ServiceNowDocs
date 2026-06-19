@@ -2,6 +2,7 @@
 title: Analyze sentiments in invoice cases
 description: Use the Sentiment Analysis skill in Now Assist for Accounts Payable Operations \(APO\) to analyze requester's response and determine the sentiment associated with an invoice case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/analyze-sentiments-in-invoice-case.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -17,7 +18,7 @@ Use the Sentiment Analysis skill in Now Assist for Accounts Payable Operations \
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 Role required: sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.admin
 
@@ -25,7 +26,7 @@ Role required: sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.admin
 
 1.  Navigate to **Workspaces** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
     A list of options within the workspace is displayed.
 
@@ -35,9 +36,9 @@ Role required: sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.admin
 
     The case detailed view appears.
 
-5.  Select the information icon ![sentiment analysis](../../sourcing-procurement-operations/image/icon-more-info.png) to view the reasoning behind the generated sentiment.![Sentiment analysis](../image/sentiment-apo-skill.png)
+5.  Select the information icon \[Omitted image "icon-more-info.png"\] Alt text: sentiment analysis to view the reasoning behind the generated sentiment.\[Omitted image "sentiment-apo-skill.png"\] Alt text: Sentiment analysis
 
-    You can view the updated Sentiment analysis by selecting the refresh icon ![Refresh](../../sourcing-procurement-operations/image/icon-refresh.png).
+    You can view the updated Sentiment analysis by selecting the refresh icon \[Omitted image "icon-refresh.png"\] Alt text: Refresh.
 
     Invoice cases display Sentiment analysis.
 

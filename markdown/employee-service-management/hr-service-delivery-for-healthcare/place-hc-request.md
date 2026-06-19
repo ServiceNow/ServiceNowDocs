@@ -2,6 +2,7 @@
 title: Request onboarding journey
 description: Request an onboarding journey for a healthcare professional. This triggers onboarding journey for the healthcare professional, creating a set of HR tasks for healthcare professional and HR agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/place-hc-request.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -27,7 +28,7 @@ Role required: None
 
 3.  On the form, fill in the fields:
 
-    See [Healthcare Employee Onboarding form](../reference/hr-emp-onboarding.md).
+    See [Healthcare Employee Onboarding form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-emp-onboarding.md).
 
 4.  In **Additional needs**, you can select options such as Needs work visa, Needs to transfer work visa, or Needs relocation assistance.
 

@@ -2,6 +2,7 @@
 title: Achievement form
 description: Create achievement definitions to associate them with courses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/achievements-definitions-form.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -73,5 +74,5 @@ Description
 Description of the achievement received.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Learning reference](learning-experience-reference.md)
+</table>**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-experience-reference.md)
 

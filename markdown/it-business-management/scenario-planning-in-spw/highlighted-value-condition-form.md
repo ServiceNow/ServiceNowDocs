@@ -2,6 +2,7 @@
 title: Highlighted Value Condition form
 description: Learn about the fields of the Highlighted Value Conditions form. Use this form to configure the display of highlighted fields in Strategic Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/highlighted-value-condition-form.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -57,7 +58,7 @@ Order in which this color appears on the legend in the Hierarchy view of the Pri
 
  For example, for the Planning Status column, the value **New** is given the order 1.
 
- ![Hierarchy view legend](../images/hierarchy-legend.png)
+ \[Omitted image "hierarchy-legend.png"\] Alt text: Hierarchy view legend
 
 </td></tr><tr><td>
 
@@ -108,5 +109,5 @@ Value Override
 Custom display text that replaces the actual field value in the view. When specified, the override text appears instead of the stored value.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

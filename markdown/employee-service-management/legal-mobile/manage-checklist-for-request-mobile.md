@@ -2,6 +2,7 @@
 title: Manage a checklist for a legal request through Mobile Agent
 description: Create and manage a checklist in an assigned legal request to ensure that you complete all the items necessary to fulfill the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/manage-checklist-for-request-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile
@@ -29,7 +30,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 4.  In the **Add Item** field, enter the checklist item description.
 
-5.  Tap the submit icon \(![Submit icon.](../image/submit-icon.png)\).
+5.  Tap the submit icon \(\[Omitted image "submit-icon.png"\] Alt text: Submit icon.\).
 
 6.  Continue to add checklist items for the necessary actions to handle the request.
 

@@ -2,6 +2,7 @@
 title: Manage Field Service agents from Field Service Manager Mobile
 description: Manage Field Service agents from Field Service Manager Mobile and do everything that you can from your computer while on the go.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/mange-agents-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -25,19 +26,19 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 2.  Tap the assignment group or territory that the Field Service agent you want to manage is part of.
 
-3.  Tap the more actions icon \(![more actions](../image/more-action-manager.png)\).
+3.  Tap the more actions icon \(\[Omitted image "more-action-manager.png"\] Alt text: more actions\).
 
 4.  Choose from the following.
 
-<table id="choicetable_yv1_mhr_2hc"><thead><tr><th align="left" id="d105168e98">
+<table id="choicetable_yv1_mhr_2hc"><thead><tr><th align="left" id="d101178e98">
 
 Selection
 
-</th><th align="left" id="d105168e101">
+</th><th align="left" id="d101178e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d105168e107">
+</th></tr></thead><tbody><tr><td id="d101178e107">
 
 **Contact**
 
@@ -45,7 +46,7 @@ Action
 
 Displays a choice to call or message the agent.
 
-</td></tr><tr><td id="d105168e116">
+</td></tr><tr><td id="d101178e116">
 
 **View tasks**
 
@@ -53,7 +54,7 @@ Displays a choice to call or message the agent.
 
 Shows the tasks that are assigned to the selected agent.
 
-</td></tr><tr><td id="d105168e125">
+</td></tr><tr><td id="d101178e125">
 
 **View schedule**
 
@@ -61,7 +62,7 @@ Shows the tasks that are assigned to the selected agent.
 
 Shows the selected agent’s schedule. **Note:** Tap a different day at the top of your screen to see the agent’s schedule for a different day.
 
-</td></tr><tr><td id="d105168e137">
+</td></tr><tr><td id="d101178e137">
 
 **View profile**
 

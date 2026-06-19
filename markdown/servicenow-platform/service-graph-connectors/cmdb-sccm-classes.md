@@ -2,6 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for Microsoft SCCM
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Microsoft SCCM. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-sccm-classes.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

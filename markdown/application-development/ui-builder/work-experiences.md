@@ -2,6 +2,7 @@
 title: Configure how users interact with your applications in UI Builder
 description: Learn what an experience is in UI Builder. Understand what an experience contains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/work-experiences.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -19,11 +20,11 @@ Learn what an experience is in UI Builder. Understand what an experience contain
 
 An experience in UI Builder is a collection of web pages for users to interact with an application.
 
-Many websites use the same basic structure on every page. For example, every page contains the same header, the same footer, and the same menus. These common page elements are called a shell. Experiences can have a shell, or wrapper, for each page in the experience. A shell gives an experience a consistent look and feel as users navigate from page to page. Shells are recommended but not required. For more information, see [Define UI experiences using app shells](app-shells-uibuilder.md).
+Many websites use the same basic structure on every page. For example, every page contains the same header, the same footer, and the same menus. These common page elements are called a shell. Experiences can have a shell, or wrapper, for each page in the experience. A shell gives an experience a consistent look and feel as users navigate from page to page. Shells are recommended but not required. For more information, see [Define UI experiences using app shells](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/app-shells-uibuilder.md).
 
 ## Ways to create an experience
 
-You can [Create an experience for UI Builder](../task/create-experience.md) from scratch or use UI generation to assist you in building an experience.
+You can [Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-experience.md) from scratch or use UI generation to assist you in building an experience.
 
 ## Experience view in UI Builder
 
@@ -37,16 +38,16 @@ The UI Builder experience view is a central place to view and understand the str
 -   Edit page and page variant settings.
 -   Duplicate page variants.
 
-![Experience view for the Admin Center experience.](../image/experience-view-admin-center.png "UI Builder experience view")
+\[Omitted image "experience-view-admin-center.png"\] Alt text: Experience view for the Admin Center experience.
 
--   **[Create an experience for UI Builder](../task/create-experience.md)**  
+-   **[Create an experience for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-experience.md)**  
 Learn how to create a workspace or portal experience for UI Builder in the ServiceNow platform.
--   **[Configure UI Builder workspace experiences](ui-builder-workspace-settings.md)**  
+-   **[Configure UI Builder workspace experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-workspace-settings.md)**  
 You can change the UI Builder workspace experience settings to fit your company goals.
--   **[Configure UI Builder portal experiences](ui-builder-portal-settings.md)**  
+-   **[Configure UI Builder portal experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-portal-settings.md)**  
 You can change your UI Builder custom portal experience settings to affect how your users interact with your portal experience.
--   **[Define UI experiences using app shells](app-shells-uibuilder.md)**  
+-   **[Define UI experiences using app shells](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/app-shells-uibuilder.md)**  
 Understand what app shells are, what app shells are available for UI Builder, and why you would pick one over another.
 
-**Parent Topic:**[Working in UI Builder](using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
 

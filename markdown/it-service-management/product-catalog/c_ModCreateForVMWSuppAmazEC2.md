@@ -2,6 +2,7 @@
 title: Models created for VMware support and Amazon EC2
 description: When you activate Orchestration for VMware and Amazon EC2, the system creates models automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/c\_ModCreateForVMWSuppAmazEC2.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -22,5 +23,5 @@ The system creates the following models:
 
 When the virtual machine is terminated, the asset state changes to **Retired**.
 
-**Parent Topic:**[Models](c_Models.md)
+**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/c_Models.md)
 

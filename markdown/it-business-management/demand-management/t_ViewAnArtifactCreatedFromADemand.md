@@ -2,6 +2,7 @@
 title: View an artifact created from a demand
 description: As the demand manager, you can view an artifact created from a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_ViewAnArtifactCreatedFromADemand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -30,5 +31,5 @@ Role required: it\_demand\_manager
     This action displays the artifact form for the selected demand in a new tab.
 
 
-**Parent Topic:**[View demands](t_ViewDemands.md)
+**Parent Topic:**[View demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_ViewDemands.md)
 

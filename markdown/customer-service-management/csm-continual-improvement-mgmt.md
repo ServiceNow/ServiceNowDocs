@@ -2,7 +2,10 @@
 title: Integrating with Continual Improvement Management
 description: Integrate Customer Service Management \(CSM\) with the Continual Improvement Management \(CIM\) application to request improvement opportunities and to implement phases and tasks to meet performance goals, track progress, and measure success.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-continual-improvement-mgmt.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -18,20 +21,20 @@ You can use CIM for improvements to Performance Analytics \(PA\) indicators and 
 -   Reduce the open case backlog.
 -   Improve the average case response time.
 
-See [Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-landing-page.md) for more information about how CIM can help you with setting goals, organizing effort, and completing tasks.
+See Continual Improvement Management for more information about how CIM can help you with setting goals, organizing effort, and completing tasks.
 
 ## Use CIM with Customer Service Management
 
-To use CIM with Customer Service Management, you must request the Continual Improvement Management \(com.sn\_cim\) plugin. For more information, see [Request Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/request-cim.md).
+To use CIM with Customer Service Management, you must request the Continual Improvement Management \(com.sn\_cim\) plugin. For more information, see Request Continual Improvement Management.
 
 **Related topics**  
 
 
-[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/get-started-cim.md)
+[bundle-itsm.get-started-cim]
 
-[Continual Improvement Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-roles.md)
+[bundle-itsm.cim-roles]
 
-[Requesting improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-improvement-request.md)
+[bundle-itsm.cim-improvement-request]
 
-[Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
+[bundle-itsm.cim-improvement-initiative-mgmt]
 

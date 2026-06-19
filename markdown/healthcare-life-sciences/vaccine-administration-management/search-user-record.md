@@ -2,6 +2,7 @@
 title: Search user records
 description: Search for a user record to check if the user record exists, before creating consumer users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/search-user-record.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -32,5 +33,5 @@ Role required: sn\_vaccine\_sm.clinician
     **Note:** Records of internal users who have provided personal information through the Vaccine Administration Management portal will be included in the search results. However, a clinician or a vaccine agent won’t be able to book appointments on behalf of the internal users.
 
 
-**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](../concept/user-appt-mngt-clinicans-agents.md)
+**Parent Topic:**[Manage user appointments as a clinician or a vaccine agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/user-appt-mngt-clinicans-agents.md)
 

@@ -2,6 +2,7 @@
 title: Conversation transcript template
 description: The conversation transcript .txt file contains information used to troubleshoot individual conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/chat-transcript-template-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -108,5 +109,5 @@ Name of the topic block defined in the current topic.-   Id: sys\_id of the topi
 -   Outputs: Output received from the topic block.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Conversations tab](../concept/conversation-tab-pae.md)
+</table>**Parent Topic:**[Conversations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-tab-pae.md)
 

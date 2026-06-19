@@ -2,6 +2,7 @@
 title: Troubleshooting the LogRhythm integration
 description: Troubleshoot connectivity and alarm ingestion issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/troubleshooting-logrhythm-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -20,14 +21,14 @@ Refer to the following topics for troubleshooting:
 -   Verify connectivity for LogRhythm
 -   Script execution and system log for LogRhythm
 
--   **[Verify connectivity for LogRhythm](../task/verify-connectivity.md)**  
+-   **[Verify connectivity for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-connectivity.md)**  
 Verify your connection to the LogRhythm Client Console by sending curl requests to test the LogRhythm REST API. The verification process is optional.
--   **[Script execution and system log for LogRhythm](../task/script-execution-logrhythm.md)**  
+-   **[Script execution and system log for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/script-execution-logrhythm.md)**  
 If you are troubleshooting an alarm ingestion issue, you can override the default five-minute polling interval to view results immediately. In this scenario, call the script execution manually to execute polling. This execution is optional.
 
-**Parent Topic:**[LogRhythm Overview](ovrview-logrhythm.md)
+**Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ovrview-logrhythm.md)
 
-**Previous topic:**[View LogRhythm drill down events](../task/drilldown-events.md)
+**Previous topic:**[View LogRhythm drill down events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/drilldown-events.md)
 
-**Next topic:**[Verify connectivity for LogRhythm](../task/verify-connectivity.md)
+**Next topic:**[Verify connectivity for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-connectivity.md)
 

@@ -2,6 +2,7 @@
 title: Analytics Project manager
 description: The Analytics Project manager provides the project managers with quick reports of time card exceptions, and category wise time reported for their projects. The dashboard displays time card reports only for the projects managed by a project manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/project-manager-dashboard.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -27,7 +28,7 @@ The Analytics Project manager consists of these components:
 
 It displays the total count of entries in **Project time card exceptions** report.
 
-![Screenshot for Project Time Card Exception Count section](../image/ProjectTimeCardExceptionCount.png "Project time card exception count")
+\[Omitted image "ProjectTimeCardExceptionCount.png"\] Alt text: Screenshot for Project Time Card Exception Count section
 
 ## Project time card exceptions report
 
@@ -43,14 +44,14 @@ The report is generated from the project\_timecard\_exception table. It requires
 
 It displays the total approved hours in all project categories displayed in **Time by Project Time Category** report.
 
-![Screenshot for total approved hours for selected projects](../image/ProjectDashboardTotalHours.png "Total approved hours for projects")
+\[Omitted image "ProjectDashboardTotalHours.png"\] Alt text: Screenshot for total approved hours for selected projects
 
 ## Time by Project Time Category report
 
 The bar chart report displays the time approved against each project category for the users allocated to the selected project.
 
--   **[Use the Analytics Project manager](../task/use-project-manager-dashboard.md)**  
+-   **[Use the Analytics Project manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/use-project-manager-dashboard.md)**  
 The Analytics Project manager shows the time card reports for the selected projects.
 
-**Parent Topic:**[Time Card Management](time-card-management.md)
+**Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-card-management.md)
 

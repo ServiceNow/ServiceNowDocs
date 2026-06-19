@@ -2,6 +2,7 @@
 title: Set up the Google Cloud Virtual Network spoke
 description: Integrate the ServiceNow instance and Google Cloud Virtual Network spoke by using OAuth 2.0 credentials to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gvirnetwork.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,7 +19,7 @@ Integrate the ServiceNow instance and Google Cloud Virtual Network spoke by usin
 ## Before you begin
 
 -   Request Integration Hub subscription.
--   Activate and set up the [Google Compute Engine Spoke](../concept/gcomengine-spoke.md).
+-   Activate and set up the [Google Compute Engine Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gcomengine-spoke.md).
 -   Activate the Google Cloud Virtual Network spoke.
 -   Role required: admin.
 

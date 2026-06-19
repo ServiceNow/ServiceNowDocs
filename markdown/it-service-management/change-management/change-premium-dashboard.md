@@ -2,6 +2,7 @@
 title: Legacy: Change Premium dashboard
 description: This dashboard uses Workbench widgets and other advanced Platform Analytics features to give you all the information about the Change process in one place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-premium-dashboard.html
 release: australia
 product: Change Management
 classification: change-management
@@ -17,9 +18,9 @@ This dashboard uses Workbench widgets and other advanced Platform Analytics feat
 
 **Important:**
 
-Starting in Xanadu release, the Change premium dashboard is deprecated. Users can use [Change dashboard](performance-analytics/change.md) to view the information about the Change process in one place.
+Starting in Xanadu release, the Change premium dashboard is deprecated. Users can use [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change.md) to view the information about the Change process in one place.
 
-![Animated tour of the tabs of the Change Premium dashboard](../image/change-mgmt-premium.gif)
+\[Omitted image "change-mgmt-premium.gif"\] Alt text: Animated tour of the tabs of the Change Premium dashboard
 
 ## End user and roles
 
@@ -100,18 +101,18 @@ The following indicators are not displayed on the dashboard but are used in form
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Changes Opened Today|Single Score![Single-score icon](../../performance-analytics/image/single-score.png)|Number of active changes opened on the day the dashboard is viewed.|
-|Unassigned Changes|Single Score![Single-score icon](../../performance-analytics/image/single-score.png)|Number of active changes that don't have an assignee.|
-|Overdue Changes|Single Score![Single-score icon](../../performance-analytics/image/single-score.png)|Number of changes that are in one of the following states: New, Assess, Authorize, or Scheduled and for which the planned start date is before the current date.|
-|Changes On Hold|Single Score![Single-score icon](../../performance-analytics/image/single-score.png)|Number of changes with the status On hold.|
-|Conflicting Changes|Single Score![Single-score icon](../../performance-analytics/image/single-score.png)|Number of changes with the status Conflict.|
-|Rejected Changes|Single Score![Single-score icon](../../performance-analytics/image/single-score.png)|Number of changes for which the approval status is Rejected.|
-|Open Changes - Grouped|Horizontal Bar![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|Open changes grouped by Priority|
-|Upcoming Changes \(30 days\) - Grouped|Horizontal Bar![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|Active changes for which the planned start date is in the past 30 days and for which the state is Scheduled.|
-|Open Changes by Risk and Priority|Heatmap![Heatmap icon](../../performance-analytics/image/heatmap.png)|Active changes sorted by risk on the Y-axis and priority on the X-axis. Cells are highlighted from white for low scores to dark blue for high scores.|
-|Upcoming Changes \(30 days\) by Risk and Priority|Heatmap![Heatmap icon](../../performance-analytics/image/heatmap.png)| |
-|Changes Opened per Month by Type|Column![Column report icon](../../performance-analytics/image/column-icon.png)|All closed reports opened in the current calendar year. Grouped by type and trended by month opened.|
-|Closed Changes per Month|Line ![Line report icon](../../performance-analytics/image/line-icon.png)|Number of closed changes per month expressed on a line chart.|
+|Changes Opened Today|Single Score\[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of active changes opened on the day the dashboard is viewed.|
+|Unassigned Changes|Single Score\[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of active changes that don't have an assignee.|
+|Overdue Changes|Single Score\[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of changes that are in one of the following states: New, Assess, Authorize, or Scheduled and for which the planned start date is before the current date.|
+|Changes On Hold|Single Score\[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of changes with the status On hold.|
+|Conflicting Changes|Single Score\[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of changes with the status Conflict.|
+|Rejected Changes|Single Score\[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of changes for which the approval status is Rejected.|
+|Open Changes - Grouped|Horizontal Bar\[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon|Open changes grouped by Priority|
+|Upcoming Changes \(30 days\) - Grouped|Horizontal Bar\[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon|Active changes for which the planned start date is in the past 30 days and for which the state is Scheduled.|
+|Open Changes by Risk and Priority|Heatmap\[Omitted image "heatmap.png"\] Alt text: Heatmap icon|Active changes sorted by risk on the Y-axis and priority on the X-axis. Cells are highlighted from white for low scores to dark blue for high scores.|
+|Upcoming Changes \(30 days\) by Risk and Priority|Heatmap\[Omitted image "heatmap.png"\] Alt text: Heatmap icon| |
+|Changes Opened per Month by Type|Column\[Omitted image "column-icon.png"\] Alt text: Column report icon|All closed reports opened in the current calendar year. Grouped by type and trended by month opened.|
+|Closed Changes per Month|Line \[Omitted image "line-icon.png"\] Alt text: Line report icon|Number of closed changes per month expressed on a line chart.|
 
-**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](change-content-pack.md)
+**Parent Topic:**[Legacy: Change Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-content-pack.md)
 

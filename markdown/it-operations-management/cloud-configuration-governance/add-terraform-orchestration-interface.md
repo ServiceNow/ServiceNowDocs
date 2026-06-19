@@ -2,6 +2,7 @@
 title: Add Terraform Orchestration interface on a resource block
 description: After you have activated the Terraform store app for Cloud Provisioning and Governance, to support cloud-based operations for cloud providers using Terraform Open Source Edition. Add the Terraform Orchestration interface on resource block, to execute cloud-based operations via terraform templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-terraform-orchestration-interface.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -193,7 +194,7 @@ ${CloudScript.scripts.DestroyTerraform}
 
 15. From the Operation list, select the **CreateStack** or **DeleteStack** operation.
 
-16. Click the add icon![Add Response Processor](../image/add-button.png)for **Add Response Processor**.
+16. Click the add icon\[Omitted image "add-button.png"\] Alt text: Add Response Processorfor **Add Response Processor**.
 
 17. Click the **Resource Script** sub tab, and then click **New**.
 
@@ -269,5 +270,5 @@ function processResponse (response, cloudServiceAccountId, ldc,
     The datacenter resource block moves from the draft to the published state and you cannot make further changes to the resource block. You can only modify a resource block after you set the status to **Draft**.
 
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](../concept/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

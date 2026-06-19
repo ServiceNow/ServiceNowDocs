@@ -2,6 +2,7 @@
 title: Perform PI planning in EAP
 description: Using the Planning board of Enterprise Agile Planning, plan work for multiple teams across iterations \(for example, Big Room Planning\). Track the progress of work, create and visualize dependencies between work items, and reschedule work to react quickly to changes while confirming alignment with business priorities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/pi-planning-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Using the Planning board of Enterprise Agile Planning, plan work for multiple te
 
 ## Layout of Planning board
 
-![ART planning board in EAP.](../images/eap-planning-board-art.png "Planning Board for an Agile Release Train (ART)")
+\[Omitted image "eap-planning-board-art.png"\] Alt text: ART planning board in EAP.
 
 Based on the EAP configuration, the layout of the Planning board across different team levels such as Agile Team, ART, Solution Train, or Portfolio is:
 
@@ -36,6 +37,8 @@ As you go bottom to top in an Agile structure, the cards are grouped as follows 
 
     For example, if Sprint is the planning calendar configured for an Agile Team, the cards on the Planning Board represent the work assigned for the selected Sprint. For an Agile Team, you can see Stories on the planning board.
 
+    If you use custom state choices as vertical lanes on the Planning board, you must map them to state buckets in the `rm_story` dictionary. Otherwise, story cards in those custom states don't appear after a page reload. For more information, see [Configure state bucket mapping for custom story states in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configure-state-buckets-for-custom-story-states-in-eap.md).
+
 -   ART: For an iteration, the Story cards are horizontally grouped by child teams and vertical lanes represent the iterations of the child teams.
 
     If Planning Interval \(PI\) is the planning calendar configured for ART, the vertical lanes represent the Sprints within the selected PI.
@@ -45,9 +48,9 @@ As you go bottom to top in an Agile structure, the cards are grouped as follows 
 -   If the **Dependency** toggle is enabled, you can visualize the dependencies between work items.
 -   If the **Capacity** toggle is enabled, you can visualize the work load of the teams.
 
-The Planning board for an EAP team shows only those work items that are enabled in its default configuration. For example, for an ART with Full Configuration, the Planning board shows only Features by default. If your product managers or team members want to switch to viewing other work item types such as Capabilities, Epics, or Stories, work with your admin to update the required EAP configuration details. For more information, see [Configure display of other work item types in EAP Backlog and Planning board](../task/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md).
+The Planning board for an EAP team shows only those work items that are enabled in its default configuration. For example, for an ART with Full Configuration, the Planning board shows only Features by default. If your product managers or team members want to switch to viewing other work item types such as Capabilities, Epics, or Stories, work with your admin to update the required EAP configuration details. For more information, see [Configure display of other work item types in EAP Backlog and Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md).
 
-![Switch between viewing Feature and Story on ART planning board.](../images/eap-art-feature-story-switch.png)
+\[Omitted image "eap-art-feature-story-switch.png"\] Alt text: Switch between viewing Feature and Story on ART planning board.
 
 **Tip:** For an ART, if you switch from viewing Story to another work item type on the planning board for the first time after updating this configuration, you might not have your work item cards displayed. To resolve this, ensure that the Vertical lane selection in the Planning board personalization is not set to Enterprise agile iteration.
 
@@ -57,7 +60,7 @@ The Planning board for Kanban teams is grouped as follows:
 
 -   Portfolio: Assigned work items are displayed in a two-dimensional Kanban board, with the teams as the horizontal lanes and state of the assigned work as the vertical lanes. Any work item that is not assigned to the child teams is displayed in the Portfolio section.
 
-    ![Planning Board for an EAP portfolio of the type Kanban.](../images/eap-kanban-portfolio-planning-board.png)
+    \[Omitted image "eap-kanban-portfolio-planning-board.png"\] Alt text: Planning Board for an EAP portfolio of the type Kanban.
 
 -   Team: Assigned work is displayed in one-dimensional Kanban board.
 
@@ -65,12 +68,12 @@ As with Backlog, you can change the **Type** of work items displayed and create 
 
 Use the following tasks to get started with PI Planning within Enterprise Agile Planning.
 
--   **[Plan work for an ART in EAP](../task/plan-work-for-teams-using-planning-board-in-eap.md)**  
+-   **[Plan work for an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/plan-work-for-teams-using-planning-board-in-eap.md)**  
 Plan work across all teams in an ART for multiple Planning Intervals, coordinate with different teams to manage dependencies and resolve blockers in real-time using the Planning board in Enterprise Agile Planning.
--   **[Work item dependencies in EAP](work-item-dependencies-in-eap.md)**  
+-   **[Work item dependencies in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/work-item-dependencies-in-eap.md)**  
 Learn about work item dependencies and how they're shown on the Planning board for a team in Enterprise Agile Planning.
--   **[Personalize the EAP Planning board](../task/personalize-cards-in-eap-planning-board.md)**  
+-   **[Personalize the EAP Planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/personalize-cards-in-eap-planning-board.md)**  
 Choose metrics and indicators to be shown on cards so that key information is available at a glance on the Planning board in Enterprise Agile Planning workspace.
 
-**Parent Topic:**[Using Enterprise Agile Planning](using-enterprise-agile-planning.md)
+**Parent Topic:**[Using Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-enterprise-agile-planning.md)
 

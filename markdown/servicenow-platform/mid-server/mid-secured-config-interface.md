@@ -2,6 +2,7 @@
 title: MID Server ISecuredConfigProvider interface
 description: Use the methods in this interface to create custom providers that manage secured parameter values in the MID Server config.xml file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-secured-config-interface.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -110,5 +111,5 @@ This parameter returns the unsecured value.
 `java.lang.Exception`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[MID Server configuration file security](mid-server-encrypter-api.md)
+</table>**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-encrypter-api.md)
 

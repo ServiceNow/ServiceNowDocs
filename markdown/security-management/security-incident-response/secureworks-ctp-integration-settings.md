@@ -2,6 +2,7 @@
 title: Configuration settings
 description: Use this option to modify the Secureworks CTP ticket ingestion integration default system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-integration-settings.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -18,8 +19,6 @@ Use this option to modify the Secureworks CTP ticket ingestion integration defau
 To modify the system properties, log in as a user with the `sn_si.admin` role and navigate to **Secureworks Ticket Ingestion Integration** &gt; **Secureworks Integration Settings**.
 
 The default configuration settings are displayed. You can modify these settings if required.
-
-![Secureworks CTP: Integration Settings](../image/secureworks-integration-settings.gif)
 
 Any modified integration settings will be applied during the next polling interval as defined in the profile.
 

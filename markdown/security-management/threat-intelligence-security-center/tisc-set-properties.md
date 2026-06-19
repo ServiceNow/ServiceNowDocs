@@ -2,6 +2,7 @@
 title: Set Threat Intelligence Security Center properties
 description: Review the components installed with Threat Intelligence Security Center to understand the roles, properties, and other elements added to your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-set-properties.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

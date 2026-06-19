@@ -2,6 +2,7 @@
 title: Core infrastructure suite \(CIS\) support for BYOL
 description: Use your on-premise CIS entitlements to license Windows Server installations on cloud platforms such as AWS and Microsoft Azure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cis-byol.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -17,5 +18,5 @@ Use your on-premise CIS entitlements to license Windows Server installations on 
 
 The CIS entitlements would license the Windows Server installations in accordance with the Microsoft licensing rules on cloud: If you licensed Windows Server through CIS, you can use the Azure Hybrid Use Benefit. The System Center component in CIS, however, is not covered.
 
-**Parent Topic:**[Bring your own license or subscription to the public cloud](byol-concepts.md)
+**Parent Topic:**[Bring your own license or subscription to the public cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/byol-concepts.md)
 

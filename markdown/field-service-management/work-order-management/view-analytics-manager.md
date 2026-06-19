@@ -2,6 +2,7 @@
 title: View analytics from Field Service Manager Mobile
 description: Managers can view analytics related to the teams they manage to see team task load, agent workload, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-analytics-manager.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,6 +2,7 @@
 title: Export data from a record
 description: Export a record to PDF or XML.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/export-form-data.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -29,11 +30,11 @@ A PDF is generated only if the form has been submitted. An unsubmitted form gene
 
 1.  Navigate to the record that you want to export.
 
-2.  Select the Additional actions menu \(![Additional actions menu.](../../../common/image/Form_MenuIcon.png)\).
+2.  Select the Additional actions menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Additional actions menu.\).
 
 3.  Select an export option.
 
-    **Note:** For export to PDF, when the accessibility property is enabled, users will get a pop up when they export to PDF where they can specify whether to create an accessible PDF or not. For more information, see [PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/pdf-generation-accessibility.md).
+    **Note:** For export to PDF, when the accessibility property is enabled, users will get a pop up when they export to PDF where they can specify whether to create an accessible PDF or not. For more information, see .
 
     -   To export the form data to PDF in portrait mode, select **Export** &gt; **PDF** &gt; **Portrait**, select **Export**.
     -   To export the form data to PDF in landscape mode, select **Export** &gt; **PDF** &gt; **Landscape**, select **Export**.

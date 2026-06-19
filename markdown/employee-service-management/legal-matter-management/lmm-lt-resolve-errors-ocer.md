@@ -2,6 +2,7 @@
 title: Resolve errors during matter creation
 description: In the Legal Tracker, a matter is created after outside counsel engagement requests have been approved and an integration initiated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-lt-resolve-errors-ocer.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -115,5 +116,5 @@ When a task was created for filling Legal Tracker details
 -   The task fulfiller submits the request for integration.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Engage with outside counsel](../../legal-matter-management/task/lmm-eng-outcounsel.md)
+</table>**Parent Topic:**[Engage with outside counsel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-eng-outcounsel.md)
 

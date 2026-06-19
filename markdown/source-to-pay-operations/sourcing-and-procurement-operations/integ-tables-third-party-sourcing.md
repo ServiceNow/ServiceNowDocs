@@ -2,6 +2,7 @@
 title: Integration tables for third-party sourcing
 description: Integration tables are used to interact with the third-party sourcing application. Relevant information that is required to conduct a Request for anything \(RFx\) in the third-party application is staged within ServiceNow and transferred through APIs to the third-party application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/integ-tables-third-party-sourcing.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -145,5 +146,5 @@ The following integration tables are used:
 |Third party tool name|String|Name of the third-party tool.|
 |Third party tool RFx URL|String|Event URL of the third-party tool.|
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](psm-integration-third-party-sourcing.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with third-party sourcing solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psm-integration-third-party-sourcing.md)
 

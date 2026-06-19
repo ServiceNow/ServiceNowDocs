@@ -2,6 +2,7 @@
 title: Hardening settings details
 description: Analyze the details of a hardening setting by selecting its link within the Security Center app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/hardening-settings-overview.html
 release: australia
 product: Security Center
 classification: security-center
@@ -17,9 +18,9 @@ Analyze the details of a hardening setting by selecting its link within the Secu
 
 Navigate to **Hardening** &gt; **All settings**, and then select a hardening setting to be redirected to a page within the hardening setting tool that displays its security-related information.
 
-![hardening setting page in UI](../images/hardening-setting-overview.png)
+\[Omitted image "hardening-setting-overview.png"\] Alt text: hardening setting page in UI
 
-Use the **+Create task** button to create a Security Task to complete a Customer Action. For details, see [Security Tasks](security-task-manager.md).
+Use the **+Create task** button to create a Security Task to complete a Customer Action. For details, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-task-manager.md).
 
 <table id="table_opc_tcz_rxb"><thead><tr><th>
 
@@ -94,5 +95,5 @@ Setting configuration
 Details related to the compliance status of your hardening setting along with instructions on how to make them compliant.**Note:** Some hardening settings may require you to configure multiple properties and plugins to make them compliant.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[All settings](all-settings.md)
+</table>**Parent Topic:**[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/all-settings.md)
 

@@ -2,11 +2,12 @@
 title: Configure Open Authorization details
 description: Edit the Open Authorization \(OAuth\) field values to update OAuth client application details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/configure-oauth-details.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -29,7 +30,7 @@ Role required: sn\_dex\_desktop.admin
 
 3.  On the Application Registries form, edit the required fields.
 
-    For a description of the field values, see [Application Registries form](../reference/application-registries-form.md).
+    For a description of the field values, see [Application Registries form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/application-registries-form.md).
 
 4.  Customize to avoid SSO Screen when logging in to DEX Desktop Assistant:
 

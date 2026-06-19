@@ -2,6 +2,7 @@
 title: Task Communications Management process
 description: Task Communications Management helps you to streamline the process by creating designated communication plans for effective communication during an event. The communication plan, with its defined tasks, helps you to focus on resolving the current issue instead of deciding when to send a communication, what information to share, and whom to inform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/task-communications-management.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -15,7 +16,7 @@ breadcrumb: [Task Communications Management, ServiceNow AI Platform Additional C
 
 Task Communications Management helps you to streamline the process by creating designated communication plans for effective communication during an event. The communication plan, with its defined tasks, helps you to focus on resolving the current issue instead of deciding when to send a communication, what information to share, and whom to inform.
 
-![Basic components](../image/tcm-basic-component.png "Task Communications Management basic components")
+\[Omitted image "tcm-basic-component.png"\] Alt text: Basic components
 
 ## How Task Communications Management works
 
@@ -42,7 +43,7 @@ Assume that you want an incident communication plan generated for a high-priorit
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-**Parent Topic:**[Task Communications Management](../reference/tcm-landing-page.md)
+**Parent Topic:**[Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/tcm-landing-page.md)
 

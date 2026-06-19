@@ -1,7 +1,8 @@
 ---
 title: Rule - Action Mapping form
-description: The Rule - Action Mapping form contains information about relationships between AI Search result improvement rules and boost actions. Use this form when linking boost actions to result improvement rules.
+description: The Rule - Action Mapping form enables you to link a boost action to a result improvement rule in an AI Search search profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/rule-action-map-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -13,9 +14,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 # Rule - Action Mapping form
 
-The Rule - Action Mapping form contains information about relationships between AI Search result improvement rules and boost actions. Use this form when linking boost actions to result improvement rules.
+The Rule - Action Mapping form enables you to link a boost action to a result improvement rule in an AI Search search profile.
 
-For information on configuring boost actions in result improvement rules, see [Boost search results using a result improvement rule](../task/boost-results-ais.md#).
+For information on configuring boost actions in result improvement rules, see [Boost search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/boost-results-ais.md).
 
 <table id="table_ksn_hqd_2nb"><thead><tr><th>
 
@@ -127,5 +128,5 @@ Matches A Synonym Dictionary
 Synonym dictionary to check for synonyms that match a search result's value for the field selected in the **When** field. This field appears only when you select **Boost By Synonym Dictionary** as the boost type.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
 

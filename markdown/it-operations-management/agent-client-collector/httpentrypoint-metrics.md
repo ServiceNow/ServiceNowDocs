@@ -2,6 +2,7 @@
 title: HTTP entry point metrics
 description: The following table lists the metrics that are gathered as output from HTTP entry point checks. Entries indicated as Featured metrics are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/httpentrypoint-metrics.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -149,5 +150,5 @@ Time for all redirection steps including:-   name lookup
 Shows the complete execution time for multiple redirections.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

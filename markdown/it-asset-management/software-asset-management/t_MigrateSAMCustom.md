@@ -2,11 +2,12 @@
 title: Overwrite customizations for Software Asset Management migration
 description: When migrating from the Software Asset Management plugin \(ITSM Software Asset Management feature of Asset Management\) to the Software Asset Management application, further actions are required by the customer after plugin activation to ensure successful migration of customized forms and lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_MigrateSAMCustom.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management]
 ---
@@ -29,7 +30,7 @@ If these lists and forms have been customized before the migration, they may hav
 -   Discovery Models
 -   Software Installations
 
-You can review plugin activation changes in the [Upgrade History module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-history-module.md) to determine what changes have automatically been skipped so you can [Resolve a skipped update and set a resolution status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-resolve-skipped-update.md), if needed.
+You can review plugin activation changes in the  to determine what changes have automatically been skipped so you can , if needed.
 
 Certain fields added by the migration also must be configured to take advantage of the new features offered.
 
@@ -69,10 +70,10 @@ Certain fields added by the migration also must be configured to take advantage 
 8.  If you have entitlements that require management of license keys, you can create multiple license keys associated to the same entitlement, as well as allocate these license keys to a user or device.
 
 
-**Parent Topic:**[Configuring Software Asset Management](../concept/Config-sam-workspace.md)
+**Parent Topic:**[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md)
 
 **Related topics**  
 
 
-[plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareAssetManagement.md)
+[bundle-itsm.c_SoftwareAssetManagement]
 

@@ -2,11 +2,12 @@
 title: Create an employee form
 description: Create or modify an employee form so that you can collect employee input. Configuration of the employee form is a three-part process. First, create the employee form record. Second, use the survey designer to build one or more questions for the employee form. Third, you can map questions from the employee form to corresponding fields on a target table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-employee-form.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Collect employee input, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -50,7 +51,7 @@ Role required: sn\_hr\_core.admin
     -   Number
     -   String
     -   Reference
-    For further details on the different question types, see [Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesignerElements.md).
+    For further details on the different question types, see Survey designer elements.
 
     **Note:** There are several limitations with native mobile screens, including custom and rating data types, validation scripts, read-only questions, and additional information fields. See this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2769842) for more details.
 
@@ -96,7 +97,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>    For example, you can map an employee form to the HR Profile \[sn\_hr\_core\_profile\] table with the following condition:
@@ -177,5 +178,5 @@ The following GIF shows an example of an HR agent creating a collect employee in
 
 The follow GIF shows an example of the employee, Eva Seahorn, then completing the collect employee input to-do in the Employee Center.
 
-**Parent Topic:**[Collect employee input](../concept/employee-form-configuration.md)
+**Parent Topic:**[Collect employee input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/employee-form-configuration.md)
 

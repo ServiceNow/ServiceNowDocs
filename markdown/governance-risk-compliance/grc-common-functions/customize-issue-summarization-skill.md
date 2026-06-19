@@ -2,6 +2,7 @@
 title: Customize the issue summarization skill in Now Assist for Integrated Risk Management \(IRM\)
 description: If you have the admin role, you can customize the issue summarization skill so that users can use the generative AI skills in Risk Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/customize-issue-summarization-skill.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -32,7 +33,7 @@ From the Now Assist Admin console, you can select the input data in various stat
 
 3.  Copy the issue summarization skill for customization.
 
-    1.  On the feature card that is associated with the skill that you would like to customize, select the Options \(![Options icon.](../image/option-icon.png)\) icon and then select **Make a copy**.
+    1.  On the feature card that is associated with the skill that you would like to customize, select the Options \(\[Omitted image "option-icon.png"\] Alt text: Options icon.\) icon and then select **Make a copy**.
 
     2.  On the confirmation dialog, select **Make a copy**.
 
@@ -46,7 +47,7 @@ From the Now Assist Admin console, you can select the input data in various stat
 
     Each skill relies on a base input table and input fields with descriptions to provide context for the Now LLM Service to generate a response.
 
-    ![Choose input data screen.](../image/choose-input-data.png)
+    \[Omitted image "choose-input-data.png"\] Alt text: Choose input data screen.
 
     1.  Select **Save and continue**.
 

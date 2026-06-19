@@ -2,6 +2,7 @@
 title: Employee Goals overview
 description: The Employee Goals application integrates with the Talent Development suite of applications to enhance the professional growth of employees in your organization. This application enables employees to access and monitor their career goals via specific applications in the Talent Development suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-goals/egd-goals-ovrvw.html
 release: australia
 product: Employee Goals
 classification: employee-goals

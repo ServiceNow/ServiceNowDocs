@@ -2,6 +2,7 @@
 title: Task relationships with UI actions
 description: After defining task relationships, you can use UI Actions to define the task relationship when a new task is being created from an old task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/r\_UIActions.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -105,5 +106,5 @@ m2m.type.setDisplayValue("Fixes::Fixed by");
 m2m.insert();}
 ```
 
-**Parent Topic:**[Creating many-to-many task relations](../concept/c_ManyToManyTaskRelations.md)
+**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
 

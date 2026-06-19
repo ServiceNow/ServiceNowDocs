@@ -1,19 +1,21 @@
 ---
 title: Create New Invoice form
-description: Use the Create New Invoice form to enter the details of the new invoice.
+description: Field descriptions for the Create New Invoice form, organized by section, for entering invoice details, supplier information, accounting data, and address fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-new-invoice-form.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice automation, invoice management, AP automation]
 breadcrumb: [Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Create New Invoice form
 
-Use the Create New Invoice form to enter the details of the new invoice.
+Field descriptions for the Create New Invoice form, organized by section, for entering invoice details, supplier information, accounting data, and address fields.
 
 <table id="table_lwn_2jj_lvb"><thead><tr><th>
 
@@ -399,12 +401,12 @@ Ship to state/province
 The state to which the items on the purchase order should be shipped.
 
 </td></tr></tbody>
-</table>-   **[Invoice form tabs](invoice-form-related-list.md)**  
-The Invoice form includes tabs that store invoice information that an Accounts Payable Specialist can use to perform related tasks.
--   **[Inbound Invoice Fields](inbound-invoice-fields.md)**  
-The Inbound invoice table is the source table from where you import the invoice required fields to successfully create an invoice through the integration framework.
--   **[Outbound invoice fields](outbound-invoice-fields.md)**  
-The outbound invoice table transfers the invoice details from ServiceNow® to third party applications through integration framework.
+</table>-   **[Invoice form tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-form-related-list.md)**  
+Descriptions of the tabs on the Invoice form, including details, invoice lines, exceptions, payments, and related records.
+-   **[Inbound Invoice Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)**  
+Field descriptions, data types, and mandatory fields for the Inbound Invoice table used to import invoice data through the integration framework to create invoices.
+-   **[Outbound invoice fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/outbound-invoice-fields.md)**  
+Field descriptions and data types for the outbound invoice table used to transfer invoice details from Accounts Payable Operations to third-party applications through the integration framework.”
 
-**Parent Topic:**[Create New Invoice Line form](create-invoice-line-form.md)
+**Parent Topic:**[Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/create-invoice-line-form.md)
 

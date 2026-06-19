@@ -2,6 +2,7 @@
 title: Anonymous Report Center \(ARC\)
 description: The Anonymous Report Center \(ARC\) enables employees to report discrimination or misconduct without revealing their identity. Employees are automatically signed out of the Employee Center when the ARC opens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/arc-portal.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ The Anonymous Report Center \(ARC\) enables employees to report discrimination o
 
 ## Anonymous reporting in the ARC
 
-The ARC homepage provides employees with options to submit a new report or return to an existing case. ![Use the ARC landing page to submit a report and track its progress anonymously.](../../grc-common/image/arc-landing-page.png)
+The ARC homepage provides employees with options to submit a new report or return to an existing case. \[Omitted image "arc-landing-page.png"\] Alt text: Use the ARC landing page to submit a report and track its progress anonymously.
 
 The following steps describe how an employee submits a report and how the system routes it for investigation:
 
@@ -31,11 +32,11 @@ The following steps describe how an employee submits a report and how the system
 
 <table id="table_nyp_yyr_qbc" class="nav-card"><tbody><tr><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Activation and set-up information](arc-setup.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Activation and set-up information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-setup.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-manage.svg)Submit and follow up on anonymous reports](arc-use.md)
+[Use\[Omitted image "bus-manage.svg"\] Alt text:Submit and follow up on anonymous reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-use.md)
 
 </td></tr></tbody>
 </table>**Note:**

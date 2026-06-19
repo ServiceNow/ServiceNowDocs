@@ -2,6 +2,7 @@
 title: Install the add-on for the Service Graph Connector for Splunk
 description: Install the Splunk add-on developed by ServiceNow engineering from splunkbase to search for Windows and Linux Assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/spc-install-splunk-add-on.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -58,6 +59,6 @@ Role required: admin or security\_admin
 
     2.  In the Status column, select the toggle to activate or deactivate individual workload rules.
 
-    See [Service Graph Connector for Splunk add-on](../concept/sgc-splunk-add-on.md) for more information about target workloads and supported deployments.
+    See [Service Graph Connector for Splunk add-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-splunk-add-on.md) for more information about target workloads and supported deployments.
 
 

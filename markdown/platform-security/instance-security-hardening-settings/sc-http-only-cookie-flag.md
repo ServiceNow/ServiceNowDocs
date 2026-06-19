@@ -2,6 +2,7 @@
 title: Enable HTTP Only Cookie Flag
 description: Use the glide.cookies.http\_only property to enable the HTTPOnly attribute for sensitive cookies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-http-only-cookie-flag.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Session management](sc-session-management.md)
+**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

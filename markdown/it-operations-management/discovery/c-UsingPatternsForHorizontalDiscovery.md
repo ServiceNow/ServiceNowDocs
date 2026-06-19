@@ -2,6 +2,7 @@
 title: Patterns and horizontal discovery
 description: A pattern is a series of operations that tell Discovery which CIs to find on your network, what credentials to use, and what tables to populate in the CMDB.Pattern Orchestrator is a process that allows a discovery to trigger multiple patterns related to a collection of data in a hierarchical manner. This is to help address issues with large datasets \(or large payloads\) that can cause slow discoveries and OOM \(out-of-memory\) issues on a MID Server.To use a pattern for the identification and exploration phases of horizontal discovery, you must add the Horizontal Pattern probe to the classifiers for the CIs are you trying to discover.If you want to use a new pattern, or if you already have a pattern that you were using for top-down discovery, you can use the pattern for horizontal discovery with a few modifications to the relevant classifier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -17,8 +18,8 @@ A pattern is a series of operations that tell Discovery which CIs to find on you
 
 This topic assumes you understand the phases of horizontal discovery. If you need to review the horizontal discovery process for probes and for patterns, see the following:
 
--   [Horizontal discovery process flow with probes and sensors](c_DiscoProcessFlows.md)
--   [Horizontal discovery process flow with patterns](disco-process-flow-patterns.md)
+-   [Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoProcessFlows.md)
+-   [Horizontal discovery process flow with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-process-flow-patterns.md)
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -28,7 +29,7 @@ A pattern performs the same function as a probe: it identifies and explores a ta
 
 When you kick off horizontal discovery with patterns, the Scanning and Classification phases run as they would if you were not using patterns \(only using probes and sensors\). After the Classification stage completes, Discovery looks at the trigger probes on the classifier to see which probe to launch. When the **Horizontal Pattern** probe is specified as a trigger probe, Discovery launches both the **Horizontal Pattern** probe and the pattern that it specifies.
 
-**Important:** Discovery now enforces code signing for Horizontal Pattern probes, probe parameters, and sensors when code signing is enabled on the instance. Unsigned or tampered payloads are blocked, and signatures are validated before execution. For more information about code signing, see [Discovery on Code Signing instances](code-sign-disco-probes.md).
+**Important:** Discovery now enforces code signing for Horizontal Pattern probes, probe parameters, and sensors when code signing is enabled on the instance. Unsigned or tampered payloads are blocked, and signatures are validated before execution. For more information about code signing, see [Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/code-sign-disco-probes.md).
 
 ## Differences between probes and patterns
 
@@ -80,7 +81,7 @@ Feature support
 
 </td><td>
 
-Supports all standard network, and CI discovery. Certain applications are not supported without the use of patterns. See [Detailed information on products discovered by ITOM Visibility](../../service-mapping/reference/r_SupportedApplications.md) for a full list.
+Supports all standard network, and CI discovery. Certain applications are not supported without the use of patterns. See [Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_SupportedApplications.md) for a full list.
 
 </td><td>
 
@@ -119,9 +120,9 @@ Discovery triggers one pattern during the identification an exploration phases. 
 </td></tr></tbody>
 </table>## Patterns for top-down and for horizontal discovery
 
-Both Discovery and Service Mapping can use the same pattern for horizontal and top-down discovery. But they are edited differently. See [Create or customize patterns](../../service-mapping/task/t_CreatePatternPatDef.md) for all steps. If you take a pattern that was exclusively used for top-down discovery and you want to use it for horizontal discovery, you have to make a few modifications. See [Use a pattern for horizontal discovery](c-UsingPatternsForHorizontalDiscovery.md#) for instructions.
+Both Discovery and Service Mapping can use the same pattern for horizontal and top-down discovery. But they are edited differently. See [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) for all steps. If you take a pattern that was exclusively used for top-down discovery and you want to use it for horizontal discovery, you have to make a few modifications. See [Use a pattern for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
-**Parent Topic:**[Using Discovery](using-discovery.md)
+**Parent Topic:**[Using Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/using-discovery.md)
 
 ## Pattern Orchestrator
 
@@ -129,7 +130,7 @@ Pattern Orchestrator is a process that allows a discovery to trigger multiple pa
 
 The Pattern Orchestrator is accessed in the **Pattern Orchestrator** tab in the **Pattern Designer**. The tab contains three new tables: **Trigger Rules**, **Orchestrator Input**, **Orchestrator Output**.
 
-![The Pattern Orchestrator tab in the Pattern Designer.](../image/pattern-orchestrator-tab.png)
+\[Omitted image "pattern-orchestrator-tab.png"\] Alt text: The Pattern Orchestrator tab in the Pattern Designer.
 
 The **Trigger Rules** table specifies the parent pattern with the **Parent Pattern** field. The **Batch Size** field specifies how many items should be triggered from the parent pattern to the child pattern. **Batch Size** has the options **Count**, **All**, and **Use Parent Context Only**.
 
@@ -179,7 +180,7 @@ Role required: discovery\_admin
 
 6.  From the related list view, double click the field under the **Pattern** column and add the pattern you want to associate with the classification.
 
-    ![Adding the Horizontal Pattern probe and a pattern](../image/TriggerProbe-HorizontalProbe.png)
+    \[Omitted image "TriggerProbe-HorizontalProbe.png"\] Alt text: Adding the Horizontal Pattern probe and a pattern
 
 7.  Remove or deactivate the other probes from the **Triggers probe** related list.
 
@@ -210,7 +211,7 @@ Role required: discovery\_admin
 
     3.  In the **Identification Sections** on the **Basic** tab, verify that there is at least one section that allows for an entry point type of **TCP** or **All**.
 
-        If not, create one. See the Identification steps for [creating a new pattern](../../service-mapping/task/t_CreatePatternPatDef.md).
+        If not, create one. See the Identification steps for [creating a new pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md).
 
     4.  Save the pattern.
 
@@ -227,10 +228,10 @@ Role required: discovery\_admin
         -   **Relationship type**: Select **Runs on::Runs** \(for process classifiers only\)
         -   **Condition**: Configure the same condition you defined in the pattern.
         -   **Triggers probes** Related list: Add the Horizontal Pattern probe, and then add the pattern you are using to the **Pattern** column.
-    See [Create a Discovery CI classification](../task/create-discovery-ci-classification.md) for a description of the other fields on the classifier.
+    See [Create a Discovery CI classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-discovery-ci-classification.md) for a description of the other fields on the classifier.
 
 
 ### What to do next
 
-Run the pattern in [Debug mode](../../service-mapping/task/t_CreatePatternPatDef.md) to test it. When you are sure the pattern works, you can run discovery by setting up a discovery schedule or running an on-demand discovery. See [Schedule a horizontal discovery](../task/t_CreateADiscoverySchedule.md#) for more information.
+Run the pattern in [Debug mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md) to test it. When you are sure the pattern works, you can run discovery by setting up a discovery schedule or running an on-demand discovery. See [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for more information.
 

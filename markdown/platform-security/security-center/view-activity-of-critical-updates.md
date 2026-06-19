@@ -2,11 +2,12 @@
 title: View Customer Actions
 description: See details of all of the activity related to your Customer Actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/view-activity-of-critical-updates.html
 release: australia
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Customer Actions, Security configuration console, Security Center, Platform Security]
 ---
@@ -33,14 +34,14 @@ The activities will be listed from newest to oldest so that you can analyze the 
 
     In the example below, the **Complete** state is selected and then the Customer Action for **End of Support: GlideEncrypter API** is selected.
 
-    ![different states of Customer Actions](../images/critical-updates-complete-state.png)
+    \[Omitted image "critical-updates-complete-state.png"\] Alt text: different states of Customer Actions
 
 4.  View the activity of your Customer Action.
 
-    ![Customer Action activities](../images/critical-updates-activity.png)
+    \[Omitted image "critical-updates-activity.png"\] Alt text: Customer Action activities
 
     All of the activity related to a Customer Action is automatically recorded. In addition, you have the ability to add additional comments to activities.
 
 
-**Parent Topic:**[Customer Actions](../concept/critical-updates.md)
+**Parent Topic:**[Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/critical-updates.md)
 

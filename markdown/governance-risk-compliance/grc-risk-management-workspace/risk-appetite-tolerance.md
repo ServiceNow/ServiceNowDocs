@@ -2,6 +2,7 @@
 title: Risk appetite and tolerance in Advanced Risk
 description: You can define a risk appetite and tolerance within your organization by using the Advanced Risk application. A risk appetite and tolerance enable your organization to define the boundaries for acceptable and unacceptable risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-appetite-tolerance.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -42,7 +43,7 @@ A risk tolerance is the standard deviation from the defined risk appetite that a
 
 ## Setting up a risk appetite and tolerance
 
-A risk administrator can configure and set up a risk appetite for your organization in the Advanced Risk application. For more information, see [Risk appetite setup](../../grc-risk/concept/risk-appetite-setup.md).
+A risk administrator can configure and set up a risk appetite for your organization in the Advanced Risk application. For more information, see [Risk appetite setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-appetite-setup.md).
 
-**Parent Topic:**[Advanced Risk Assessment](../../grc-risk/concept/advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 

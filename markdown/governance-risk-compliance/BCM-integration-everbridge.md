@@ -2,6 +2,7 @@
 title: Integrating Crisis Management with Everbridge
 description: You can integrate Crisis Management in Business Continuity Management application with Everbridge notifications system. Everbridge system enables you to send emergency notification to individuals or group of people alerting them of an impending emergency. It provides a one-way notification and two-way communication through properly established delivery channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/BCM-integration-everbridge.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

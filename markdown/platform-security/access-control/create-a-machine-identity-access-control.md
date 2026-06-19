@@ -2,6 +2,7 @@
 title: Create a machine identity access control
 description: Enable administrators to define and enforce granular control for integration users by introducing User Access Profiles. This feature provides an additional layer of security and control, allowing admins to specify the exact resources \(REST APIs and SOAP APIs\) that an integration user can access, ensuring tighter governance and minimizing security risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/create-a-machine-identity-access-control.html
 release: australia
 product: Access Control
 classification: access-control
@@ -73,7 +74,7 @@ REST API Policy
 
 </td><td>
 
-Select the target REST API policy. **Note:** Select the ![Lock](../../security/image/machine-acl-lock-icon.png) and the ![Search](../../security/image/machine-acl-search-icon.png) icon to add a policy.
+Select the target REST API policy. **Note:** Select the \[Omitted image "machine-acl-lock-icon.png"\] Alt text: Lock and the \[Omitted image "machine-acl-search-icon.png"\] Alt text: Search icon to add a policy.
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ SOAP API Policy
 
 </td><td>
 
-Select the target SOAP API policy. **Note:** Select the ![Lock](../../security/image/machine-acl-lock-icon.png) and the ![Search](../../security/image/machine-acl-search-icon.png) icon to add a policy.
+Select the target SOAP API policy. **Note:** Select the \[Omitted image "machine-acl-lock-icon.png"\] Alt text: Lock and the \[Omitted image "machine-acl-search-icon.png"\] Alt text: Search icon to add a policy.
 
 </td></tr><tr><td>
 
@@ -113,7 +114,7 @@ Check this to apply the policy to child tables of the **Tables** field
 
 The following is an example of a machine identity access control form that has been filled out:
 
-![An example of a machine identity access control form filled out.](../../security/image/machine-acl-example.png)
+\[Omitted image "machine-acl-example.png"\] Alt text: An example of a machine identity access control form filled out.
 
 A user with an machine identity access control cannot access any other APIs \(REST or SOAP\) and will only be able to access the resources explicitly stated in the access control, even if they have the required roles.
 

@@ -2,6 +2,7 @@
 title: Exploring Legal Request Management
 description: Legal Request Management enables authorized employees in the organization to submit legal requests and to track their progress while users in the legal department with appropriate roles can work to resolve these requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/legal-request-management-overview.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -17,7 +18,7 @@ Legal Request Management enables authorized employees in the organization to sub
 
 ## Legal Request Management overview
 
-Employees can read legal knowledge base articles, submit legal requests, monitor the progress of submitted requests, and interact through [Virtual Agent](legal-va-conversations.md).
+Employees can read legal knowledge base articles, submit legal requests, monitor the progress of submitted requests, and interact through [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md).
 
 ## Legal Request Management users
 
@@ -80,7 +81,7 @@ Remove manual, unstructured email processes and tasks with an easily accessed se
 
 </td><td>
 
-[Legal Request Management](../reference/legal-request-management-landing-page.md)
+[Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-landing-page.md)
 
 </td><td>
 
@@ -96,7 +97,7 @@ Automate responses for common legal requests with virtual agents
 
 </td><td>
 
-[Legal Virtual Agent Conversations](legal-va-conversations.md)
+[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-va-conversations.md)
 
 </td><td>
 
@@ -108,7 +109,7 @@ Make meaningful decisions by gaining real-time visibility on legal service deman
 
 </td><td>
 
-[Analytics and Reporting Solutions for Legal Service Delivery](../../../use/application-content-packs/concept/legalsd-content-pack.md)
+[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
@@ -120,7 +121,7 @@ Track, prioritize, and work on multiple requests concurrently with an optimized 
 
 </td><td>
 
-[Legal Counsel Center](legal-counsel-center-landing.md)
+[Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md)
 
 </td><td>
 
@@ -132,7 +133,7 @@ Attorney Client Privilege enables legal fulfillers to mark legal requests as pri
 
 </td><td>
 
-[Attorney-Client Privilege](lsd-acp-landing.md)
+[Attorney-Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/lsd-acp-landing.md)
 
 </td><td>
 
@@ -145,13 +146,13 @@ Attorney Client Privilege enables legal fulfillers to mark legal requests as pri
 
 To learn more about configuring and using Legal Request Management, see:
 
--   [Configuring Legal Request Management](legal-ops-administration.md)
--   [Using Legal Request Management](submitting-legal-request.md)
--   [Managing legal requests](managing-legal-request.md)
--   [Legal Request Management reference](../reference/legal-request-management-reference.md)
+-   [Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
+-   [Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/submitting-legal-request.md)
+-   [Managing legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/managing-legal-request.md)
+-   [Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-reference.md)
 
--   **[Attorney-Client Privilege](lsd-acp-landing.md)**  
+-   **[Attorney-Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/lsd-acp-landing.md)**  
 Attorney Client Privilege functionality enables legal fulfiller to designate legal requests as privileged and confidential. It restricts access to authorized stakeholders, marks communications with confidentiality banners, and maintains a document audit trail to help you protect sensitive legal communications.
 
-**Parent Topic:**[Legal Request Management](../reference/legal-request-management-landing-page.md)
+**Parent Topic:**[Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Create or modify a legal catalog category
 description: Create or modify a catalog category to organize your legal catalog items into logical groups in the Legal Operations Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/add-catalog-categories.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -123,15 +124,15 @@ Icon that appears next to the category header when the category is a top-level c
 
 ## Result
 
-The service catalog category is created. The catalog categories are listed in the **Service catalog category** field on the [Practice Area form](associate-categories-practice-area.md).
+The service catalog category is created. The catalog categories are listed in the **Service catalog category** field on the [Practice Area form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/associate-categories-practice-area.md).
 
 ## What to do next
 
--   Associate a record producer with the category using the [Catalog Item](create-record-producer-legal-request.md) related list.
+-   Associate a record producer with the category using the [Catalog Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/create-record-producer-legal-request.md) related list.
 -   Associate the catalog category with a practice area to map the practice area, record producer, and catalog category together. This mapping helps employees to use the relevant categories to submit legal requests. In turn, these requests are assigned to the correct groups or users through the associated practice area.
 
-    For more information, see [Create or modify a practice area](manage-practice-areas.md).
+    For more information, see [Create or modify a practice area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/manage-practice-areas.md).
 
 
-**Parent Topic:**[Configuring Legal Request Management](../concept/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
 

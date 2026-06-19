@@ -2,6 +2,7 @@
 title: Cloud Services Catalog Terraform Connector Create Config Provider form reference
 description: Cloud Provisioning and Governance uses the config provider to interact with the Terraform deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-config-provider-form.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -93,12 +94,12 @@ Version
 
 </td><td>
 
-Supported Terraform Open Source CLI version installed in the Terraform server.For more information on the supported Terraform Open Source versions, see the prerequisites section of [Create a Terraform Open Source config provider](../task/setup-cpg-terraform-connector-for-terraform-open-source.md).
+Supported Terraform Open Source CLI version installed in the Terraform server.For more information on the supported Terraform Open Source versions, see the prerequisites section of [Create a Terraform Open Source config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-open-source.md).
 
- For more information on the supported Terraform Enterprise and Terraform Cloud versions, see the prerequisites section of [Create a Terraform Enterprise or Terraform Cloud config provider](../task/setup-cpg-terraform-connector-for-terraform-enterprise.md).
+ For more information on the supported Terraform Enterprise and Terraform Cloud versions, see the prerequisites section of [Create a Terraform Enterprise or Terraform Cloud config provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-enterprise.md).
 
  Starting with Cloud Provisioning and Governance: Terraform Connector version 1.5.2, version 1.0.0 is deprecated. The deprecated version represents Terraform Open Source CLI version 0.11 and 0.12.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](cpg-terraform-connector-reference.md)
+</table>**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
 

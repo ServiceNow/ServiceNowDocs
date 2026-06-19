@@ -2,6 +2,7 @@
 title: Application states for the applicant
 description: An overview of the application states the way the applicants see it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/application-state-applicant.html
 release: australia
 product: Applicant Center
 classification: applicant-center

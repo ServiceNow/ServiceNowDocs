@@ -2,11 +2,12 @@
 title: Set a deletion strategy
 description: Set a deletion strategy when you want to take action on a related configuration item \(CI\) that Discovery can no longer find through pattern discovery. You can delete the main CI only when it is an Application or Cloud Resource pattern type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/set-deletion-strategy.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [CI deletion strategies for pattern discovery, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +23,7 @@ Set a deletion strategy when you want to take action on a related configuration 
 
 ## About this task
 
-You can set a deletion strategy for all discovered CIs, including configuration file CIs. However, the way you access the deletion strategy for tracked configuration files differs from the procedure in this topic. See [Set the deletion strategy for tracked configuration files](set-config-file-deletion-strategy.md) for instructions.
+You can set a deletion strategy for all discovered CIs, including configuration file CIs. However, the way you access the deletion strategy for tracked configuration files differs from the procedure in this topic. See [Set the deletion strategy for tracked configuration files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/set-config-file-deletion-strategy.md) for instructions.
 
 ## Procedure
 
@@ -34,7 +35,7 @@ You can set a deletion strategy for all discovered CIs, including configuration 
 
     Notice that the **cmdb\_ci\_cloud\_database** CI types have the **Is Main CI** value set to **true**. This indicates that you can set a deletion strategy for both AWS and Azure databases, even if they are the main CI that cloud discovery finds.
 
-    ![Cloud database CIs](../image/deletion-strategy-main-ci-cloud-database.png)
+    \[Omitted image "deletion-strategy-main-ci-cloud-database.png"\] Alt text: Cloud database CIs
 
 3.  From the list view, double click the value in the field in the **Deletion Strategy** column.
 
@@ -90,5 +91,5 @@ Marks the **Status** \[install\_status\] field of the configuration file CI reco
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[CI deletion strategies for pattern discovery](../concept/deletion-strategy.md)
+**Parent Topic:**[CI deletion strategies for pattern discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/deletion-strategy.md)
 

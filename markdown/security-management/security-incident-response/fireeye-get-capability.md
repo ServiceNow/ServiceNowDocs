@@ -2,6 +2,7 @@
 title: FireEye Get File Capability
 description: File acquisition requests instruct an Endpoint Security Agent to obtain a file from its host endpoint. File acquisitions are used for static or dynamic analysis of potential or verified compromises, as well as for evidence retention during insider threat investigations. Get File capability should be created as a separate profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/fireeye-get-capability.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -43,7 +44,7 @@ Triggering Get File Profile and create a FireEye HX capability profile with **Ge
 
     **Note:** The Get File profile is now triggered manually.
 
-    ![Get File related list](../image/get-file-related-list.png)
+    \[Omitted image "get-file-related-list.png"\] Alt text: Get File related list
 
     **To review a downloaded file acquisition:**
 
@@ -63,10 +64,10 @@ Triggering Get File Profile and create a FireEye HX capability profile with **Ge
             -   It is recommended that the file retrieved is added as an observable manually, so that it can be tracked as an evidence against the security incident. This will also help view the files in future, when password is forgotten or changed.
             -   The maximum file size supported for Get File action is 1024 MB, and this value can be configured by changing **com.glide.attachment.max\_size**, and the default timeout is 60 minutes that can be configured from the FireEye HX Default Settings page.
 
-                ![Get File update and delete options. Attachments rename and download options.](../image/get-file.png)
+                \[Omitted image "get-file.png"\] Alt text: Get File update and delete options. Attachments rename and download options.
 
             -   Get File can also be triggered from configuration item related list.
 
-                ![Get File update and delete options. Attachments rename and download options.](../image/get-file-related-list-01.png)
+                \[Omitted image "get-file-related-list-01.png"\] Alt text: Get File update and delete options. Attachments rename and download options.
 
 

@@ -2,6 +2,7 @@
 title: Usage Insights for pages and screens
 description: The Pages module for UI Analysis in Usage Insights shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.See user actions, performance and navigation analytics for each page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/view-pages.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -15,9 +16,9 @@ breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 
 The Pages module for UI Analysis in Usage Insights shows analytics specific to pages on the web-based UI in terms of page use and navigation. View user action, performance, and navigation details for each web page to identify pages where users might be having issues and optimize workflows accordingly.
 
-The analogous module for mobile applications is Screens. For more information, see [Usage Insights for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-analytics.md).
+The analogous module for mobile applications is Screens. For more information, see .
 
-![UXA Web Page details page with data visualizations for sessions, views, and durations and bar visualizations of preceding and succeeding pages](../image/uxa-web-page-details2.png)
+\[Omitted image "uxa-web-page-details2.png"\] Alt text: UXA Web Page details page with data visualizations for sessions, views, and durations and bar visualizations of preceding and succeeding pages
 
 <table id="table_zxj_x2s_gwb"><thead><tr><th>
 
@@ -75,7 +76,7 @@ Performance graph
 
 Displays the daily, weekly, or monthly performance trend of selected trace types in a graphical representation. From the menu arrow, select one of the following trace types: Browser Time, Server Time, Page Load Time, and Network Time. The Performance graph collects data from the installation of Yokohama patch 1.
 
-![Performance graph.](../../../use/par-for-workspace/image/uxa-web-page-performance-graph.png)
+\[Omitted image "uxa-web-page-performance-graph.png"\] Alt text: Performance graph.
 
 </td></tr><tr><td>
 
@@ -152,6 +153,6 @@ Role required: admin
 
     For mobile applications, select **Data Foundation** &gt; **Screens**.
 
-3.  Scroll the pages list, or use the Search icon \(![Search icon.](../../../use/navigation/image/IconSearch.png)\) to locate and select a page.
+3.  Scroll the pages list, or use the Search icon \(\[Omitted image "IconSearch.png"\] Alt text: Search icon.\) to locate and select a page.
 
 

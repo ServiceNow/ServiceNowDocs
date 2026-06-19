@@ -2,6 +2,7 @@
 title: Customizing UI actions for the Now Mobile Agent application
 description: Make it easier for your end users to get things done faster with the Field Service mobile application by creating custom UI actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-uiaction-fsm-mobile.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

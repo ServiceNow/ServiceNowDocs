@@ -2,6 +2,7 @@
 title: Edit an imported data source
 description: You can edit imported Excel spreadsheets \(.xlsx files\) of data maintained outside of your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/edit-config-external-data-source.html
 release: australia
 product: Reporting
 classification: reporting
@@ -27,7 +28,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 2.  Select the name of a report that uses to imported data source to open the report in the Report Designer.
 
-3.  On the **Data** tab, select the pencil icon \(![](../../dashboards/image/EditWidgetButton.png)\) next to the name of the external import.
+3.  On the **Data** tab, select the pencil icon \(\[Omitted image "EditWidgetButton.png"\] Alt text:\) next to the name of the external import.
 
 4.  In the **Edit external import** dialog box you can make these changes:
 
@@ -58,5 +59,5 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 If you changed the file, the data from the new file replaces that of the old in any reports that are based on the imported file. Changed name, expiry date, and visibility apply to the imported file.
 
-**Parent Topic:**[Create a Core UI report from an imported Microsoft Excel document](create-report-with-imported-data-source.md)
+**Parent Topic:**[Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/create-report-with-imported-data-source.md)
 

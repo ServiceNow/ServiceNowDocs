@@ -2,6 +2,7 @@
 title: Search in Legal Service Delivery
 description: Legal Service Delivery supports multiple search engines that helps you quickly find the most optimal information in the Legal Counsel Center and Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-search-overview.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -45,7 +46,7 @@ Enabled by default for the following when AI Search is activated:-   Global sear
 -   Legal Counsel Center
 -   Employee Center
 
-**Note:** If AI search is turned off for Legal Counsel Center or Employee center you need to enable it manually. For more information, see [Configure AI Search for Legal Counsel Center](../task/configure-ai-search-for-legal-counsel-center.md) and [Configure search source when AI search is disabled](../../employee-center/task/config-search-source.md).
+**Note:** If AI search is disabled for Legal Counsel Center or Employee center you need to enable it manually. For more information, see [Configure AI Search for Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/configure-ai-search-for-legal-counsel-center.md) and [Configure search source when AI search is disabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-search-source.md).
 
 </td></tr><tr><td>
 
@@ -53,14 +54,14 @@ Now Assist Q&amp;A Genius Results - Provides concise, actionable answers search 
 
 </td><td>
 
--   Legal Counsel Center - Enabled by default when AI Search and Legal Service Delivery - Prime are activated.
--   Global search - Enable it manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enabling-now-assist-qa-grs.md).
--   Employee Center - Enable it manually. For more information, see [Enable Now Assist genius results](../../employee-center/task/na-qa-activate.md)
+-   Legal Counsel Center - Enabled by default when AI Search and Now Assist for Legal Service Delivery \(LSD\) both are activated.
+-   Global search - Enable it manually. For more information, see .
+-   Employee Center - Enable it manually. For more information, see [Enable Now Assist genius results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-qa-activate.md)
 
 </td></tr></tbody>
 </table>For more information, see:
 
--   [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/c_ZingTextSearch.md)
--   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md)
--   [Now Assist for Legal Service Delivery \(LSD\)](now-assist-lsd-landing.md)
+-   
+-   
+-   [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
 

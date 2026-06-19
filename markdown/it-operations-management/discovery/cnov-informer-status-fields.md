@@ -2,6 +2,7 @@
 title: Kubernetes Visibility Agent Informer status fields
 description: The fields in the Kubernetes Visibility Agent Informers table sn\_acc\_visibility\_kubernetes\_informer describe the status of the Informer pods deployed in your Kubernetes clusters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-informer-status-fields.html
 release: australia
 product: Discovery
 classification: discovery
@@ -97,5 +98,5 @@ Upgrade Status
 The upgrade status of Informers in the cluster. Possible values are: Upgrade Pending, Upgrading, Desired image in use, Upgrade using kubectl/Helm.**Note:** When the upgrade status of an Informer is Upgrade using kubectl/Helm, contact your Kubernetes admin to upgrade the informer manually.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Kubernetes Visibility Agent Reference](cnov-reference.md)
+</table>**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-reference.md)
 

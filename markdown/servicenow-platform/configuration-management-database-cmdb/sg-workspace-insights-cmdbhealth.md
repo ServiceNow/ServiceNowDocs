@@ -2,6 +2,7 @@
 title: CMDB Health insights dashboard in Service Graph Workspace
 description: Use the CMDB Health Dashboard in the Insights view in Service Graph Workspace as a central location to view detailed health reports and aggregations for your CMDB at a glance. You can also use the provided functions to remediate issues that CMDB Health detected, to improve CMDB health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdbhealth.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -25,5 +26,5 @@ Role required: Any role containing sn\_cmdb\_user \(sn\_cmdb\_user, sn\_cmdb\_ed
 
 Once you configure CMDB Health and the CMDB Health Dashboard jobs are enabled, the CMDB Health Dashboard shows meaningful data that is automatically collected, calculated, and aggregated on a recurring schedule.
 
-For information about the CMDB Health Dashboard, see [View CMDB Health Dashboard](c_MonitorCMDBHealth.md), and for information about enabling the CMDB Health Dashboard jobs, see [Configuring CMDB Health](c_CMDBHealthSetupandConfig.md).
+For information about the CMDB Health Dashboard, see [View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md), and for information about enabling the CMDB Health Dashboard jobs, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
 

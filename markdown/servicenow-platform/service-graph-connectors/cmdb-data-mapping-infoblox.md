@@ -2,6 +2,7 @@
 title: Data mapping for Service Graph Connector for Infoblox
 description: Data from the Infoblox data source is mapped and transformed into the ServiceNow CMDB configuration item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-data-mapping-infoblox.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -49,7 +50,7 @@ SG-Infoblox IP Pool \[sn\_infoblox\_integ\_sg\_infoblox\_ip\_pool\]
 
 </td><td>
 
-[Managed IP Pool \[cmdb\_ci\_ip\_pool\]](sgc-cmdb-infoblox-classes.md#section_etk_zkg_fxb)
+[Managed IP Pool \[cmdb\_ci\_ip\_pool\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ SG-Infoblox Detailed Subnetwork \[sn\_infoblox\_integ\_sg\_infoblox\_detailed\_s
 
 </td><td>
 
-[Managed IP Network Subnet \[cmdb\_ci\_ip\_network\_subnet\]](sgc-cmdb-infoblox-classes.md#section_pmk_zkg_fxb)[Managed Network \[cmdb\_ci\_managed\_network\]](sgc-cmdb-infoblox-classes.md#section_xcl_zkg_fxb)
+[Managed IP Network Subnet \[cmdb\_ci\_ip\_network\_subnet\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)[Managed Network \[cmdb\_ci\_managed\_network\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)
 
 </td></tr><tr><td>
 
@@ -81,9 +82,9 @@ SG-Infoblox IP Address \[sn\_infoblox\_integ\_sg\_infoblox\_ip\_address\]
 
 </td><td>
 
-[Allocated IP Address \[cmdb\_ci\_allocated\_ip\_address\]](sgc-cmdb-infoblox-classes.md#section_c3g_zkg_fxb)[Managed IP Network Subnet \[cmdb\_ci\_ip\_network\_subnet\]](sgc-cmdb-infoblox-classes.md#section_pmk_zkg_fxb)
+[Allocated IP Address \[cmdb\_ci\_allocated\_ip\_address\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)[Managed IP Network Subnet \[cmdb\_ci\_ip\_network\_subnet\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)
 
-[Managed Network \[cmdb\_ci\_managed\_network\]](sgc-cmdb-infoblox-classes.md#section_xcl_zkg_fxb)
+[Managed Network \[cmdb\_ci\_managed\_network\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)
 
 </td></tr><tr><td>
 
@@ -99,20 +100,20 @@ SG-Infoblox DNS Alias \[sn\_infoblox\_integ\_sg\_infoblox\_dns\_alias\]
 
 </td><td>
 
-[DNS Alias \[cmdb\_ci\_dns\_alias\]](sgc-cmdb-infoblox-classes.md#section_ypk_wmh_yxb)
+[DNS Alias \[cmdb\_ci\_dns\_alias\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)
 
 </td></tr></tbody>
-</table>For the SG-Infoblox IP Address data source, the [Detailed Subnetwork](sgc-cmdb-infoblox-classes.md#section_nlp_s44_nfc) \[sn\_infoblox\_integ\_sg\_infoblox\_detailed\_subnetwork\] table determines which IP addresses are imported based on the value of the **Get Ip Address** field.
+</table>For the SG-Infoblox IP Address data source, the [Detailed Subnetwork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md) \[sn\_infoblox\_integ\_sg\_infoblox\_detailed\_subnetwork\] table determines which IP addresses are imported based on the value of the **Get Ip Address** field.
 
-A global default value can be set for the **Get Ip Address** option by setting the value of the **sn\_infoblox\_integ.default\_get\_ip\_address** system property in Service Graph Connector for Infoblox version 1.5.0 and later. Alternatively, you can update either the **sn\_infoblox\_integ.included\_network\_regex** system property to specify the list of IP addresses to be imported or the **sn\_infoblox\_integ.excluded\_network\_regex** system property to specify the list of IP addresses to be excluded from the import. For more information, see [Service Graph Connector for Infoblox properties](cmdb-sgc-infoblox-props.md).
+A global default value can be set for the **Get Ip Address** option by setting the value of the **sn\_infoblox\_integ.default\_get\_ip\_address** system property in Service Graph Connector for Infoblox version 1.5.0 and later. Alternatively, you can update either the **sn\_infoblox\_integ.included\_network\_regex** system property to specify the list of IP addresses to be imported or the **sn\_infoblox\_integ.excluded\_network\_regex** system property to specify the list of IP addresses to be excluded from the import. For more information, see [Service Graph Connector for Infoblox properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-infoblox-props.md).
 
-For more information on where data is saved when pulling data from Infoblox, see [CMDB classes targeted in Service Graph Connector for Infoblox](sgc-cmdb-infoblox-classes.md).
+For more information on where data is saved when pulling data from Infoblox, see [CMDB classes targeted in Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md).
 
-You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](../concept/integrationhub-etl.md) for more information.
+You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 
 ## Related content
 
-[CMDB classes targeted in Service Graph Connector for Infoblox](sgc-cmdb-infoblox-classes.md)
+[CMDB classes targeted in Service Graph Connector for Infoblox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-classes.md)
 
-[Service Graph Connector for Infoblox properties](cmdb-sgc-infoblox-props.md)
+[Service Graph Connector for Infoblox properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-infoblox-props.md)
 

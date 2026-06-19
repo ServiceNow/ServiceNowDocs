@@ -2,6 +2,7 @@
 title: Book an appointment for a customer
 description: Dispatchers and agents can book appointments for customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/appointment-booking-book-appt.html
 release: australia
 product: Appointment Booking
 classification: appointment-booking
@@ -19,7 +20,7 @@ Dispatchers and agents can book appointments for customers.
 
 Role required: wm\_dispatch, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
-You must activate and set up the Field Service Order Configuration, Field Service Task Configuration to book an appointment for work order and work order tasks respectively. For more information, see [Configuring Appointment Booking](../concept/appointment-booking-administer.md).
+You must activate and set up the Field Service Order Configuration, Field Service Task Configuration to book an appointment for work order and work order tasks respectively. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 
 ## About this task
 

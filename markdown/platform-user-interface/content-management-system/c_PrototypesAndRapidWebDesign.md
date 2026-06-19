@@ -2,6 +2,7 @@
 title: Prototypes and rapid web design
 description: Many user interface designers use prototypes and rapid web design techniques to visualize the final product before it is developed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_PrototypesAndRapidWebDesign.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -24,5 +25,5 @@ Define the following elements within the prototype.
 -   The site map for the entire site.
 -   A detailed prototype of every intended page, including elements such as links, link destinations, content, page names, and page descriptions.
 
-**Parent Topic:**[Content Management design](c_ContentManagementPlanning.md)
+**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
 

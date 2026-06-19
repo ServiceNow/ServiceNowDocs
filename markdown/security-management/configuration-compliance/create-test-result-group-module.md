@@ -2,6 +2,7 @@
 title: Manually create a Configuration Compliance remediation task
 description: You can manually create a remediation task from the Remediation Tasks module and perform remediation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/create-test-result-group-module.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -44,7 +45,7 @@ Using remediation task rules automatically populates the **Test Results** tab. M
 
 3.  Click **New**.
 
-    ![Remediation task form](../image/v11TestResultGroupNewForm.png "Remediation task form")
+    \[Omitted image "v11TestResultGroupNewForm.png"\] Alt text: Remediation task form
 
 4.  Fill in the fields on the Remediation Task form, as appropriate.
 
@@ -86,7 +87,7 @@ State
 
 </td><td>
 
-Initially **Open**, is the remediation state of the remediation task. For more information, see [Configuration Compliance states](../concept/vuln-config-compl-states.md).
+Initially **Open**, is the remediation state of the remediation task. For more information, see [Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-states.md).
 
 </td></tr><tr><td>
 
@@ -181,6 +182,6 @@ Work notes related to this remediation task.
 
     Displays the **Test Results** and **Change Request** related lists.
 
-    ![Test result group related tab](../image/TestResultGroupRelatedTab.png)
+    \[Omitted image "TestResultGroupRelatedTab.png"\] Alt text: Test result group related tab
 
 

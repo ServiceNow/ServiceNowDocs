@@ -2,13 +2,14 @@
 title: Create a stockroom type for enterprise assets
 description: If the base system stockroom types don't meet your needs, you can create a custom stockroom type in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eamstockroom-type.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a stockroom type for enterprise assets
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 
 ## About this task
 
-Stockroom types are categories of stockrooms. For detailed information on stockroom types, see [Stockroom types](../../asset-management/reference/r_StockroomTypes.md).
+Stockroom types are categories of stockrooms. For detailed information on stockroom types, see [Stockroom types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/r_StockroomTypes.md).
 
 ## Procedure
 
@@ -44,6 +45,4 @@ Stockroom types are categories of stockrooms. For detailed information on stockr
 
     The newly created stockroom type appears in the **Stockroom types** tab.
 
-
-**Parent Topic:**[Create and manage enterprise asset inventory](../concept/managing-enterprise-asset-inventory.md)
 

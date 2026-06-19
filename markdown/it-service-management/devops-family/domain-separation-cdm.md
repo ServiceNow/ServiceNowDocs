@@ -2,6 +2,7 @@
 title: Domain separation and CDM
 description: Domain separation is supported for CDM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/domain-separation-cdm.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,7 +16,7 @@ breadcrumb: [Domain separation and DevOps Config, DevOps Config reference, DevOp
 
 Domain separation is supported for CDM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 ## Support level: Basic
 
@@ -27,7 +28,7 @@ Domain separation is supported for CDM. Domain separation enables you to separat
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation and CDM overview
 
@@ -74,10 +75,10 @@ CDM tables include a **Domain** column.
 -   sn\_cdm\_restricted\_groups
 -   sn\_cdm\_snapshot
 
-**Parent Topic:**[Domain separation and DevOps Config](../../devops-config/concept/devops-config-domain-separation.md)
+**Parent Topic:**[Domain separation and DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-domain-separation.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

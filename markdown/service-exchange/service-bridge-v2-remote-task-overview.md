@@ -2,12 +2,14 @@
 title: Remote tasks
 description: Learn how you, as a provider, can resolve and fulfill multiple consumer tasks, such as incidents, cases, and service requests, by using remote tasks. Also as a consumer, you can assign the incidents to multiple providers for resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-remote-task-overview.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-13"
 reading_time_minutes: 1
+keywords: [remote tasks, remote task definition, incident fulfillment, bidirectional workflow]
 breadcrumb: [Explore, Service Exchange]
 ---
 
@@ -25,7 +27,7 @@ Remote tasks enable you to assign and synchronize the task's data on separate in
 
 As a provider, you must first create and publish the remote task definitions that your consumers can use for creating a remote task. You entitle these definitions to your consumers who can adjust the mappings and field data rules or simply activate the definition. Your consumers can apply a trigger on the definition or manually create a remote task for you, the provider, based on an active definition.
 
-For more information, see [Create a remote task definition in Service Exchange for Providers](../task/service-bridge-v2-create-remote-tasks-defs.md).
+For more information, see [Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md).
 
 The remote task feature includes a Remote Task table, which is an extension of the Task table in the ServiceNow AI Platform. With remote tasks, you can enable bidirectional linking of workflows between multiple ServiceNow instances.
 

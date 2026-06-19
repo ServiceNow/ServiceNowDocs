@@ -2,6 +2,7 @@
 title: Generate a Java KeyStore file
 description: Convert the public certificate that you had generated to a Java KeyStore file on your machine because your ServiceNow instance supports a Java KeyStore file. After generating, you must upload the file to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/generate-a-java-keystore-file.html
 release: australia
 product: Integration Hub
 classification: integration-hub

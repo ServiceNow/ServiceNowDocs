@@ -2,6 +2,7 @@
 title: Configure the eligibility criteria for a vaccination program
 description: Configure the eligibility criteria that users must meet to be eligible for a vaccination program.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/configure-eligibility-for-appointment-booking.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -36,5 +37,5 @@ The users register and provide personal information in the portal. The informati
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

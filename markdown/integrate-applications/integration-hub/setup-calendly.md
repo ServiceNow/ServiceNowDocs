@@ -2,6 +2,7 @@
 title: Set up the Calendly spoke
 description: Set up an outbound integration between your ServiceNow instance and the Calendly APIs by creating an OAuth application in Calendly and a connection and credential record on your ServiceNow instance.Set up an OAuth application that authenticates requests from your ServiceNow instance.Create a connection and credential record that contains the details required to access the Calendly APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-calendly.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -59,13 +60,13 @@ Role required: Calendly organization owner or admin
 
 7.  To copy the client secret, select **Copy**.
 
-    ![Calendly OAuth details.](../image/calendly-spoke-oauth.png)
+    \[Omitted image "calendly-spoke-oauth.png"\] Alt text: Calendly OAuth details.
 
 8.  Select **Return to My Apps**.
 
     The OAuth app is created.
 
-    ![OAuth app created.](../image/calendly-spoke-oauth-created.png)
+    \[Omitted image "calendly-spoke-oauth-created.png"\] Alt text: OAuth app created.
 
 
 ## Create a connection and credential record
@@ -86,17 +87,17 @@ Role required: ServiceNow admin
 
 4.  In the Search all connections field, enter `Calendly`.
 
-    ![Enter Calendly in the search field.](../image/calendly-search.png)
+    \[Omitted image "calendly-search.png"\] Alt text: Enter Calendly in the search field.
 
     The **Outbound** tab is enabled by default. Confirm that the **Outbound** tab is enabled already.
 
 5.  On the Calendly card, select **View Details**.
 
-    ![View Details button on Calendly card.](../image/calendly-click-view-details.png)
+    \[Omitted image "calendly-click-view-details.png"\] Alt text: View Details button on Calendly card.
 
 6.  Select **Configure**.
 
-    ![Configure button for Calendly connection.](../image/calendly-click-configure-button.png)
+    \[Omitted image "calendly-click-configure-button.png"\] Alt text: Configure button for Calendly connection.
 
 7.  Fill the form.
 
@@ -130,7 +131,7 @@ OAuth Client ID
 
 </td><td>
 
-Client ID that you had generated on the Calendly developers portal. To learn how to generate a client ID, see [Set up an OAuth application in Calendly](setup-calendly.md#).
+Client ID that you had generated on the Calendly developers portal. To learn how to generate a client ID, see [Set up an OAuth application in Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-calendly.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client ID that you had generated on the Calendly developers portal. To learn how to generate a client secret, see [Set up an OAuth application in Calendly](setup-calendly.md#).
+Client ID that you had generated on the Calendly developers portal. To learn how to generate a client secret, see [Set up an OAuth application in Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-calendly.md).
 
 </td></tr><tr><td>
 
@@ -155,7 +156,7 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
     The OAuth refresh token becomes available.
 
-    ![Connection and credential record created for Calendly.](../image/calendly-spoke-conn-cred-created.png)
+    \[Omitted image "calendly-spoke-conn-cred-created.png"\] Alt text: Connection and credential record created for Calendly.
 
 10. To get the OAuth token, select **Get OAuth Token**.
 

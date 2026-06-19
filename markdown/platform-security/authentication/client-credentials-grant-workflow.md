@@ -2,11 +2,12 @@
 title: Client credentials grant workflow
 description: Authenticate a client application using a client credentials workflow. The client credentials grant workflow is used by back-end services or system integrations to access ServiceNow APIs without user involvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/client-credentials-grant-workflow.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Client Credentials Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -23,7 +24,7 @@ Role required: `oauth_admin, mi_admin, admin`
 
 This workflow describes how a client application \(back-end service or system integration\) authenticates directly with ServiceNow using its client credentials without user interaction. The application requests an access token using its client ID and client secret, which ServiceNow validates before issuing the token. The client then uses this token to access ServiceNow APIs. ServiceNow validates each request before returning the appropriate response.
 
-![Client credentials grant workflow](../../machine-identity/images/mic-client-credentials-workflow.png "Client credentials grant workflow")
+\[Omitted image "mic-client-credentials-workflow.png"\] Alt text: Client credentials grant workflow
 
 ## Procedure
 

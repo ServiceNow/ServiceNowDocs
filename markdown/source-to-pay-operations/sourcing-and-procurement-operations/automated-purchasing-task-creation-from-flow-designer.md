@@ -2,6 +2,7 @@
 title: Purchasing task and procurement case creation
 description: Create purchasing tasks and procurement cases in sourcing requests and purchase requisitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/automated-purchasing-task-creation-from-flow-designer.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -28,7 +29,7 @@ If a new supplier is added to the sourcing request, the risk assessment and send
 
 Purchasing tasks and procurement cases for the awarded supplier that are created on a sourcing request are also shown on the purchase requisition.
 
-For information on how a supplier tiering assessment case influences sourcing request states, see [Sourcing and Procurement Operations integration with Third-party Risk Management](better-together-with-vrm.md).
+For information on how a supplier tiering assessment case influences sourcing request states, see [Sourcing and Procurement Operations integration with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/better-together-with-vrm.md).
 
 ## Purchase requisition
 
@@ -48,5 +49,5 @@ The integration error purchasing task is created in flow designer when integrati
 
 If a purchase requisition is created directly without a sourcing request, all purchasing tasks and procurement cases are created in flow designer when the state of the purchase requisition is Pending Review or Pending Approval \(if approvals are triggered\), with the exception of contract review case and integration error task. These are created when the state is Awaiting Task Completion. If the tasks and cases triggered during the Pending Review or Pending Approval state are still open after approvals are complete, the state of the purchase requisition is in Awaiting Task Completion. Only when all the **Order dependent on task** tasks and **Order dependent on case** cases are closed, the state of the purchase requisition is updated to Final Review or PO Created, based on the purchasing property.
 
-**Parent Topic:**[Purchasing tasks and procurement cases](../reference/purchasing-tasks.md)
+**Parent Topic:**[Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md)
 

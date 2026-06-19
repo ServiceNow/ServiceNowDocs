@@ -2,6 +2,7 @@
 title: Predictive Intelligence for Universal Request
 description: The Predictive Intelligence for Universal Request uses machine-learning algorithms for the auto-assignment of universal requests and to find similar knowledge articles and closed universal requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/predictive-intelligence-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -89,14 +90,14 @@ Classification
 Identifies and predicts that the UR is sensitive based on the short description and description of the request. It also marks the request as restricted.
 
 </td></tr></tbody>
-</table>-   **[Train the classification solution to predict the assignment group](../task/train-ur-classification-soln.md)**  
+</table>-   **[Train the classification solution to predict the assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/train-ur-classification-soln.md)**  
 Train the Universal Request classification solution definition to identify and predict an assignment group using the short description and create service level tickets that are associated with the universal request.
--   **[Train the similarity solution for similar knowledge articles](../task/train-similarity-for-articles-ur.md)**  
+-   **[Train the similarity solution for similar knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/train-similarity-for-articles-ur.md)**  
 Train the Similar Knowledge articles for UR solution definition to identify and predict knowledge articles using the short description. When an agent opens a universal request, similar knowledge articles are displayed in the Related Search section of the Universal Request record.
--   **[Train the similarity solution for similar closed Universal Requests](../task/train-similarity-for-closed-ur.md)**  
+-   **[Train the similarity solution for similar closed Universal Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/train-similarity-for-closed-ur.md)**  
 Train the Similar Closed Universal Request solution definition to identify and predict similar Universal Requests that are closed based on the short description, description, and the assignment group of the Universal Request created. When an agent opens a universal request, similar closed universal requests can be searched in the Related Search section of the Universal Request record.
--   **[Train the classification solution to identify UR with sensitive information](../task/train-classification-identify-restrict-ur.md)**  
+-   **[Train the classification solution to identify UR with sensitive information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/train-classification-identify-restrict-ur.md)**  
 Train the Universal Request classification solution definition to identify and predict universal request with sensitive information using the short description and description. The solution identifies and marks the UR as restricted, allowing only agents with access or from the assignment group to work on the request.
 
-**Parent Topic:**[Configuring Universal Request](configure-ur.md)
+**Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
 

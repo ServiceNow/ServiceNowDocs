@@ -2,6 +2,7 @@
 title: Display function results in a database view
 description: Add a function field to the output of a database view to see function results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/display-function-results-in-a-database-view.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  Add the function field to the database view output.
 
-    See [Configure items on forms or in lists using a list collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseSlushbuckets.md).
+    See .
 
 5.  Review the function definition if the expected value is not returned or a returned value indicates the function definition is invalid.
 
@@ -41,5 +42,5 @@ Role required: admin
 
 The function field operation is executed and the results appear in the database view output.
 
-**Parent Topic:**[Displaying function results in a database view](displaying-function-results-in-a-database-view.md)
+**Parent Topic:**[Displaying function results in a database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/displaying-function-results-in-a-database-view.md)
 

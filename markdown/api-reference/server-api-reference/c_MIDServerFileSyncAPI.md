@@ -2,6 +2,7 @@
 title: MIDServerFileSync - Global
 description: The MIDServerFileSync script include provides methods to check to see if there are any changes to attachments on tables that are instances of MID Server synchronized files \(ecc\_agent\_sync\_file\) and, if so, notifies the MID Servers of a change.Creates an instance of MIDServerFileSync.Checks for any changes to attachments on the specified table that are instances of MID server synchronized files and, if so, notifies the MID servers of a change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_MIDServerFileSyncAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ The tables that extend the sync tables are MID Server JAR file \(ecc\_agent\_jar
 
 Use in server scripts to notify MID Servers.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## MIDServerFileSync - MIDServerFileSync\(\)
 

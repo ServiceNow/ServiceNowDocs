@@ -2,6 +2,7 @@
 title: Set up recovery timeframe for a recovery tier
 description: Set up recovery timeframe that starts from when an incident or crisis happens to the time your business can resume usual operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-recovery-timeframe-bcm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

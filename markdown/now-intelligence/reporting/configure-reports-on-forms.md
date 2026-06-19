@@ -2,6 +2,7 @@
 title: Configure charts on forms
 description: You can add reports to forms such as change requests, and configure the report visualizations to display information relevant to the user of the form. The configuration is specific to the current view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/configure-reports-on-forms.html
 release: australia
 product: Reporting
 classification: reporting
@@ -27,15 +28,15 @@ The following report types are not supported on forms: List, Pivot, Multilevel P
 
     For example, select a record from `task.list`.
 
-2.  From the context menu \(![Context menu icon](../../performance-analytics/image/ContextMenu.png)\), select **Configure** &gt; **Form Layout**.
+2.  From the context menu \(\[Omitted image "ContextMenu.png"\] Alt text: Context menu icon\), select **Configure** &gt; **Form Layout**.
 
-    ![Configure form layout menu path](../image/config-form-layout.png)
+    \[Omitted image "config-form-layout.png"\] Alt text: Configure form layout menu path
 
 3.  From the **Available** list, add `*Chart` to the **Selected** column.
 
     Use the up and down arrows to position the report on the form.
 
-    ![Configure form layout options with *Chart highlighted in the Available column, highlighting the arrows.](../image/config-form-layout-options.png)
+    \[Omitted image "config-form-layout-options.png"\] Alt text: Configure form layout options with \*Chart highlighted in the Available column, highlighting the arrows.
 
 4.  Specify a label for the chart.
 
@@ -47,9 +48,9 @@ The following report types are not supported on forms: List, Pivot, Multilevel P
 
 6.  Select **Configure chart**.
 
-7.  Select the search icon \(![](../image/SearchIcon.png)\) to select a report.
+7.  Select the search icon \(\[Omitted image "SearchIcon.png"\] Alt text:\) to select a report.
 
-    ![Form chart form with the search icon highlighted](../image/config-form-select-report.png)
+    \[Omitted image "config-form-select-report.png"\] Alt text: Form chart form with the search icon highlighted
 
 8.  Specify the height of the chart.
 
@@ -67,12 +68,12 @@ The following report types are not supported on forms: List, Pivot, Multilevel P
 
 11. To change the configuration, right click on the label and select **Configure chart**.
 
-    ![Report on form label with context menu highlighting Configure chart.](../image/configure-chart-form.png)
+    \[Omitted image "configure-chart-form.png"\] Alt text: Report on form label with context menu highlighting Configure chart.
 
 
 ## Result
 
 The selected report appears on all forms which are of the same type as the one selected. These reports are filtered based on the report condition extensions.
 
-**Parent Topic:**[Advanced Core UI reporting topics](../concept/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 

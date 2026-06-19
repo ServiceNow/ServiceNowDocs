@@ -2,6 +2,7 @@
 title: Creating an event rule
 description: You can create an event rule to establish criteria and thresholds for performance, enabling timely alerts and proactive system management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/creating-an-event-rule.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,7 +18,7 @@ You can create an event rule to establish criteria and thresholds for performanc
 
 To create an event rule, perform the following steps.
 
-1.  [Select event rule filters](../task/event-rule-select-filters.md).
-2.  [Define alert criteria](../task/define-alert-criteria-event.md).
-3.  [Define alert rule name and status](../task/define-alert-name-state.md).
+1.  [Select event rule filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/event-rule-select-filters.md).
+2.  [Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/define-alert-criteria-event.md).
+3.  [Define alert rule name and status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/define-alert-name-state.md).
 

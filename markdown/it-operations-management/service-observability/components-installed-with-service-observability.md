@@ -2,6 +2,7 @@
 title: Components installed with Service Observability
 description: Several types of components are installed with activation of the Service Observability plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/components-installed-with-service-observability.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -175,5 +176,5 @@ Service Observability PA Dashboardssn\_sow\_svcobs\_pa\_dashboards
 Contains reference information for customized dashboards.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Observability reference](service-observability-reference.md)
+</table>**Parent Topic:**[Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/service-observability-reference.md)
 

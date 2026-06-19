@@ -2,6 +2,7 @@
 title: Introduction to CMDB: Ingestion
 description: This accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/introduction-to-cmdb-ingestion.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -20,6 +21,8 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 Introduction to CMDB: Ingestion provides Impact customers with a comprehensive overview and demonstration of how to standardize input sources for their Configuration Management Database \(CMDB\). This offering covers core functionality for obtaining and importing data, providing a clear understanding of the various methods to populate CMDB tables within a ServiceNow instance. This Accelerator also includes key resources and leading practice guides to help customers get started.
 
 The focus of this session is on Service Graph Connectors. Additional methods of population such as via Discovery or Agent Client Collector \(ACC\) are not deeply explored within this accelerator.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -66,6 +69,8 @@ Refer to the applicable Impact Accelerator description available at [https://www
 ## Exclusions
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
+
+## Exclusions
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

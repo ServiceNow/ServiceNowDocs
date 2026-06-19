@@ -2,6 +2,7 @@
 title: Setting up Cloud Account Management in Cloud Workspace
 description: This section covers all the general topics required to set up Cloud Account Management. The topics are arranged in order of configuration priority.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configuring-cloud-workspace.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

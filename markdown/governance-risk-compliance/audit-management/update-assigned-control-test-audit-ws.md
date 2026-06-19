@@ -2,6 +2,7 @@
 title: Update an assigned control test in Audit Workspace
 description: Use the Audit Workspace to ensure compliance with the established internal control procedures by reviewing records, reports, operating practices, and documentation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/update-assigned-control-test-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -23,7 +24,7 @@ Role required: sn\_audit\_ws.auditor, sn\_audit.user
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Click the tasks icon \(![Tasks icon.](../image/TasksIcon.jpg)\).
+2.  Click the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
 
     The workspace opens listing **All** tasks assigned to you in the My pending tasks related list.
 

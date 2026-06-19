@@ -2,6 +2,7 @@
 title: Azure metrics
 description: The following tables list and describe the metrics that are gathered as output from Azure checks. Entries indicated as Featured metrics are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/azure-metrics.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -46,6 +47,14 @@ cluster\_autoscaler\_scale\_down\_in\_cooldown
 </td><td>
 
 Determines if the scale down is in cooldown; no nodes are removed during this timeframe.
+
+</td></tr><tr><td>
+
+cluster\_autoscaler\_unneeded\_nodes\_count
+
+</td><td>
+
+Number of nodes that are currently not needed and can be removed by the autoscaler.
 
 </td></tr><tr><td>
 
@@ -712,5 +721,5 @@ Transactions
 Number of requests made to a storage service or the specified API operation. Includes successful and failed requests, as well as requests which produced errors. Use the **ResponseType** dimension for the number of different types of responses.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

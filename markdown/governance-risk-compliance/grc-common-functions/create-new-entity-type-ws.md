@@ -2,6 +2,7 @@
 title: Create an entity type
 description: Create an entity type for the entities in your system. Entity types enable you to find and create new entities that match a set of filter conditions. You can create a hierarchy of the entity types within the entity classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-new-entity-type-ws.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -50,10 +51,10 @@ Roles required: sn\_grc.manager, sn\_risk\_workspace.IT\_risk\_manager, and sn\_
     -   Policy Exceptions
     -   Content References
     -   Privacy Assessments
-    See [An entity in the workspace view](../concept/entities-in-risk-ws.md) for more information.
+    See [An entity in the workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entities-in-risk-ws.md) for more information.
 
 5.  To save the entity type, click **Save**.
 
 
-**Parent Topic:**[Entity types](../concept/entity-type-in-risk-ws.md)
+**Parent Topic:**[Entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-type-in-risk-ws.md)
 

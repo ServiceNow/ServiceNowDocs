@@ -2,6 +2,7 @@
 title: Set up a custom service channel
 description: Set up a custom service channel to expand the type and scope of work that is routed automatically to your agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/setup-custom-channel.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -41,21 +42,21 @@ You can create a service channel record from the Service Channel module, but you
 
 3.  Complete the service channel fields, and then select **Submit**.
 
-    For more information, see [Create or configure a service channel](awa-create-service-channel.md).
+    For more information, see [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md).
 
 4.  Create an assignment rule.
 
-    For more information, see [Configure agent assignment rules](awa-create-assignment-rule.md).
+    For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 5.  Create a work item queue for your service channel.
 
-    For more information, see [Create a work item queue](awa-create-queue.md).
+    For more information, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
 
 6.  On the form for the work item queue that you created, go to the **Assignment Eligibility** related link and create an eligible assignment pool.
 
     Make sure to associate your assignment rule to the eligible assignment pool.
 
-    For more information, see [Define agent pools eligible for assignment](awa-specify-assignment-eligibility.md).
+    For more information, see [Define agent pools eligible for assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md).
 
 7.  Make your service channel available in Agent Workspace.
 
@@ -71,7 +72,7 @@ You can create a service channel record from the Service Channel module, but you
 
 8.  Create or change the inbox card layout to show the most important information from a work item.
 
-    For more information, see [Create or change an inbox layout](awa-modify-inbox-layout.md).
+    For more information, see [Create or change an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md).
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Configure travel time estimates with a Third-party provider
 description: Use a third-party travel estimate provider, such as Beans.ai, to improve the accuracy of travel time estimates in Schedule Optimization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-travel-time-estimates-with-beans-ai.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -17,7 +18,7 @@ Use a third-party travel estimate provider, such as Beans.ai, to improve the acc
 
 ## Before you begin
 
-When configuring Beans.ai, a connection and credential must have been established before starting this procedure. For more information, see [Set up a connection and credential for Beans.ai travel estimate provider](create-a-connection-and-credential-for-beans-ai.md).
+When configuring Beans.ai, a connection and credential must have been established before starting this procedure. For more information, see [Set up a connection and credential for Beans.ai travel estimate provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-a-connection-and-credential-for-beans-ai.md).
 
 Role required: wm\_admin
 

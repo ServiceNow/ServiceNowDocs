@@ -2,6 +2,7 @@
 title: Sample C
 description: This C class illustrates creating a digest token from three input parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_SampleC.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Preferences widget for Employee Profile
 description: User Preferences can be accessed as a separate Preferences widget for customers who have opted in for the Employee Profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/preferences-widget.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

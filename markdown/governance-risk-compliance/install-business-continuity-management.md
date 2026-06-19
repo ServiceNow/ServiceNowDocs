@@ -2,6 +2,7 @@
 title: Install Business Continuity Management from ServiceNow Store
 description: You can install the Business Continuity Management application if you have the admin role. This application includes demo data and installs the related store applications if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/install-business-continuity-management.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,17 +26,17 @@ In the ServiceNow Store, you must verify that you have entitlements \(or license
 
     The navigation path is shown in the example.
 
-    ![Navigation path for installing the application.](../image/install-menu.png)
+    \[Omitted image "install-menu.png"\] Alt text: Navigation path for installing the application.
 
 2.  Find the Business Continuity Management application using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
     The path using the filter criteria is shown in the examples.
 
-    ![Application manager.](../image/install-application-manager.png)![Selecting the applications.](../image/bcm-install-select-install.png)
+    \[Omitted image "install-application-manager.png"\] Alt text: Application manager.\[Omitted image "bcm-install-select-install.png"\] Alt text: Selecting the applications.
 
 3.  Select **Install**.
 
@@ -43,11 +44,11 @@ In the ServiceNow Store, you must verify that you have entitlements \(or license
 
     Review the application listing in the instance for information on dependencies, licensing or subscription requirements, and release compatibility.
 
-    ![Review installation details.](../image/bcm-install-review-details.png)
+    \[Omitted image "bcm-install-review-details.png"\] Alt text: Review installation details.
 
     The Business Continuity Management application \(com.snc.sn\_bcm\) requires that the required applications are downloaded as shown in the example.
 
-    ![Required applications.](../image/bcm-install-dependencies-roles.png)
+    \[Omitted image "bcm-install-dependencies-roles.png"\] Alt text: Required applications.
 
     -   BCM core \(com.snc.bcm.app\_bcm\_core\)
     -   BIA \(com.snc.bcm.app\_bcm\_bia\)
@@ -73,5 +74,5 @@ In the ServiceNow Store, you must verify that you have entitlements \(or license
     **Note:** Installing GRC: Business Impact Analysis, GRC: Business Continuity Planning, or GRC: Crisis Management automatically installs GRC: Business Continuity Management – Core and GRC: Business Continuity Management – Components.
 
 
-**Parent Topic:**[Business Continuity Management and ServiceNow Store](../concept/bcm-and-store.md)
+**Parent Topic:**[Business Continuity Management and ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-and-store.md)
 

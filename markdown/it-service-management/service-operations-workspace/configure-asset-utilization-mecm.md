@@ -2,13 +2,14 @@
 title: Configure asset utilization metrics
 description: Configure the display of the asset utilization metrics for Microsoft Endpoint Configuration Manager for Investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-asset-utilization-mecm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring CI metrics for MECM, Investigation using Microsoft Endpoint Configuration Manager, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring CI metrics for MECM, Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure asset utilization metrics
@@ -25,7 +26,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 2.  Select the required CI device, and verify the CMPivot entities and attributes.
 
-    For more information, see [Verify a CMPivot entity](verify-cmpivot-entity.md).
+    For more information, see [Verify a CMPivot entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/verify-cmpivot-entity.md).
 
 3.  Configure the Disk Utilization metrics by verifying that the **Disk** CMPivot entity exists and has the attributes **Size** and **Free Space**.
 
@@ -37,7 +38,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 5.  Configure the CPU Utilization metrics by verifying that the **Processor** CMPivot entity exists and has the attribute **LoadPercentage**.
 
-    If the **Processor** CMPivot entity doesn’t exist, you must add the entity to the hardware inventory. For more information, see [Extend hardware inventory](extend-hardware-entity.md).
+    If the **Processor** CMPivot entity doesn’t exist, you must add the entity to the hardware inventory. For more information, see [Extend hardware inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/extend-hardware-entity.md).
 
 6.  Configure the Uptime metrics by verifying that the **OperatingSystem** CMPivot entity exists and has the attribute **LastBootUpTime**.
 
@@ -46,5 +47,5 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 The asset utilization metrics is displayed on the **Investigation** tab of the incident record in Service Operations Workspace.
 
-**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](../concept/config-ci-metrics-mecm-adapter.md)
+**Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)
 

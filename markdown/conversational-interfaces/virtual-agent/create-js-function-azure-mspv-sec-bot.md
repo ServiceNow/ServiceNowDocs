@@ -2,6 +2,7 @@
 title: Create a JavaScript function in Microsoft Azure using Visual Studio Code
 description: To use Power Virtual Agents with Virtual Agent Bot Interconnect, you must create a JavaScript function in Microsoft Azure using the sample code files in Bot Interconnect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-js-function-azure-mspv-sec-bot.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -47,7 +48,7 @@ Role required: admin
 
     The dependencies are added to the `package.json` file in your project.
 
-    ![The request and request-promise libraries are included as dependencies in your project, as "request" and "request-promise."](../images/va-api-azure-libs-package-json.png)
+    \[Omitted image "va-api-azure-libs-package-json.png"\] Alt text: The request and request-promise libraries are included as dependencies in your project, as "request" and "request-promise."
 
 4.  Deploy the project to Azure as described in the [Microsoft documentation](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-node).
 
@@ -59,12 +60,12 @@ Role required: admin
 
     The Azure function URL will be used as the secondary bot endpoint in your ServiceNow instance.
 
-    ![Copy the function URL in the Get Function URL subtab of the selected function. The example reads, "https://appname.azurewebsites.net."](../images/va-api-azure-app-url.png)
+    \[Omitted image "va-api-azure-app-url.png"\] Alt text: Copy the function URL in the Get Function URL subtab of the selected function. The example reads, "https://appname.azurewebsites.net."
 
 
-**Parent Topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-va-api-ms-powerva.md)
+**Parent Topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ms-powerva.md)
 
-**Previous topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-va-api-ms-powerva.md)
+**Previous topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ms-powerva.md)
 
-**Next topic:**[Locate and copy the Direct Line secret key in Microsoft Power Virtual Agents](get-dl-secret-key-mspva.md)
+**Next topic:**[Locate and copy the Direct Line secret key in Microsoft Power Virtual Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/get-dl-secret-key-mspva.md)
 

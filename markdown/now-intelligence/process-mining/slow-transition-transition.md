@@ -2,6 +2,7 @@
 title: Configure slow duration on transitions
 description: Configure a slow duration definition on a transition to view a pattern where a group of records take longer to transition between steps than the average duration of another group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/slow-transition-transition.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -21,13 +22,13 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 Slow duration on transitions display a group of records that have an unusual duration that's higher than the average duration of another group of records. This helps uncover slower progression for a significant group of records.
 
-![Slow duration (Transition)](../image/slow-duration-transition.png)
+\[Omitted image "slow-duration-transition.png"\] Alt text: Slow duration \(Transition\)
 
 ## Procedure
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about the Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Slow duration \(Transition\) card.
 
@@ -120,7 +121,7 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 
     Default values are provided. You can edit them if needed.
 
-    ![Slow duration (Transition) Config tab](../image/slow-duration-transition-config.png)
+    \[Omitted image "slow-duration-transition-config.png"\] Alt text: Slow duration \(Transition\) Config tab
 
     According to the example, records that meet the following conditions are available as improvement opportunities in the Summary and insights page:
 
@@ -132,5 +133,5 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting Automated improvement opportunities](../concept/automated-findings.md)
+**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
 

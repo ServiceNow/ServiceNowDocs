@@ -2,11 +2,12 @@
 title: AI cases tab in AI Control Tower
 description: Track, monitor, and analyze your AI case workflows, identify your workflow bottlenecks, and check your accountability of your AI-related risks by using the AI risk and compliance dashboard. As an AI steward, you can also use the dashboard to track the status and trends of your AI-related inquiries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-cases-tab-aict.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-28"
 reading_time_minutes: 5
 breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
@@ -61,11 +62,13 @@ You can drill down into the data on each of the following widgets to learn more 
 
 You can create AI cases and issues from the AI cases tab in both the AI Control Tower Workspace and the AI Risk and Compliance Workspace. The Create AI case button lets you initiate a new AI case record directly from the monitoring dashboard. Use this option to document, investigate, or track issues, risks, or compliance concerns related to AI models or datasets. Select the dropdown arrow next to Create AI case, and then select Create issue to create an issue related to an existing AI case.
 
-For more information, see [Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md) and [Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md).
+You can also submit AI cases anonymously through the Employee Center. A Visit Anonymous Reporting card is available in the Support resources section of the AI assets page in the Employee Center, enabling users to report AI-related concerns without disclosing their identity. For more information, see  and .
+
+For more information, see  and .
 
 The following example shows the **AI cases** tab on the AI risk and compliance dashboard.
 
-![AI cases tab on the AI risk and compliance dashboard. See the text in the previous section for descriptions of the different widgets on the dashboard.](../image/ai-case-landing-page-aict.png "AI cases tab on the AI risk and compliance dashboard")
+\[Omitted image "ai-case-landing-page-aict.png"\] Alt text: AI cases tab on the AI risk and compliance dashboard. See the text in the previous section for descriptions of the different widgets on the dashboard.
 
 ## Inquiries
 
@@ -103,11 +106,11 @@ You can drill down into the data on each of the following widgets to learn more 
     -   Inquiries by business unit: You can see the distribution of inquiries across the various departments or functional areas of your organization. This distribution helps you to identify where most AI-related concerns originate so that you can plan on more targeted risk mitigation or awareness training.
     -   Open and closed inquiries: You can track the volume of inquiries that are initiated and resolved within a selected time range. This tracking enables you to track how your workflow is performing and to plan for future capacity.
 
-Use the [**Create inquiry**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/raise-ai-inquiry.md) button to initiate a new inquiry. You can make timely reports of AI-related concerns or clarification requests.
+Use the **Create inquiry** button to initiate a new inquiry. You can make timely reports of AI-related concerns or clarification requests.
 
 The following example shows the **Inquiries** tab on the AI risk and compliance dashboard.
 
-![Inquiries tab on the AI risk and compliance dashboard. See the text in the previous section for descriptions of the different widgets on the dashboard.](../../../product/grc-ai-risk-compliance/image/ai-cases-inquiries-tab.png "Inquiries tab on the AI risk and compliance dashboard")
+\[Omitted image "ai-cases-inquiries-tab.png"\] Alt text: Inquiries tab on the AI risk and compliance dashboard. See the text in the previous section for descriptions of the different widgets on the dashboard.
 
-For more information, see [AI Risk and Compliance documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.md).
+For more information, see AI Risk and Compliance documentation.
 

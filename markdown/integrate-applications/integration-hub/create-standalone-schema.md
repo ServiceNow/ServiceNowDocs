@@ -2,6 +2,7 @@
 title: Create a standalone schema in Stream Connect
 description: Create a schema to enable your Stream Connect producers and consumers to send and receive Kafka messages in an Apache Avro format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-standalone-schema.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,14 +19,14 @@ Create a schema to enable your Stream Connect producers and consumers to send an
 ## Before you begin
 
 -   Role required: kafka\_admin
--   This feature is part of schema management in Stream Connect. For more information, see [Schema management in Stream Connect](../concept/schema-management.md).
+-   This feature is part of schema management in Stream Connect. For more information, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/schema-management.md).
 -   The ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin is required.
 
 ## About this task
 
 Stream Connect uses schemas to convert messages from plain text to an Avro format and back. Using an Avro format can reduce the size of the payload and simplify your integration to your local Kafka instance.
 
-This document shows you how to create your own standalone schema by uploading a JSON file or by entering a schema directly as a JSON-formatted string. You can also [Import a schema from the Confluent Registry](import-schema-confluent-registry.md).
+This document shows you how to create your own standalone schema by uploading a JSON file or by entering a schema directly as a JSON-formatted string. You can also [Import a schema from the Confluent Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/import-schema-confluent-registry.md).
 
 ## Procedure
 
@@ -55,5 +56,5 @@ Your schema is visible on the Standalone Stream Connect Schema \[standalone\_str
 
 Use Stream Connect producers and consumers to send and receive messages in an Avro format.
 
-**Parent Topic:**[Schema management in Stream Connect](../concept/schema-management.md)
+**Parent Topic:**[Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/schema-management.md)
 

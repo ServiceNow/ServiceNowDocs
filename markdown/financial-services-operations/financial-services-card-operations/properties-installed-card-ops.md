@@ -2,6 +2,7 @@
 title: Properties installed with Financial Services Card Operations
 description: Customize the properties that are available with the Financial Services Card Operations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/properties-installed-card-ops.html
 release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -36,7 +37,7 @@ Enable Mastercard integration
 Enables or disables the integration of Mastercard's Mastercom APIs into the Dispute Management workflow.-   **Type**: true \| false
 -   **Default value**: True
 -   **Location**: **All** &gt; **Card Operations** &gt; **Administration** &gt; **Properties**
--   Learn more: [Managing disputes integrated with Mastercard](../concept/work-on-disputes-integrated-with-mc.md)
+-   Learn more: [Managing disputes integrated with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/work-on-disputes-integrated-with-mc.md)
 
 </td></tr><tr><td>
 
@@ -47,7 +48,7 @@ Number of hours \(before end date\) to unblock credit card for a temporary block
 For an unblock credit card \(for limited time\) request, the system automatically creates a new case to unblock the blocked credit card at the specified number of hours before the end date in the request.-   **Type**: integer
 -   **Default value**: 8
 -   **Location**: **All** &gt; **Card Operations** &gt; **Administration** &gt; **Properties**
--   Learn more: [Blocking a credit card](../concept/work-block-credit-card-case.md)
+-   Learn more: [Blocking a credit card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/work-block-credit-card-case.md)
 
 </td></tr><tr><td>
 
@@ -58,8 +59,8 @@ Number of hours \(before the end date\) to revert the credit limit for a tempora
 For a temporary increase credit limit request, the system automatically creates a new case to revert the credit limit of the card at the specified number of hours before the end date in the request.-   **Type**: integer
 -   **Default value**: 8
 -   **Location**: **All** &gt; **Card Operations** &gt; **Administration** &gt; **Properties**
--   Learn more: [Reset the credit limit for a customer](../task/reset-credit-limit.md)
+-   Learn more: [Reset the credit limit for a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/reset-credit-limit.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Financial Services Card Operations reference](../concept/card-operations-reference.md)
+</table>**Parent Topic:**[Financial Services Card Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/card-operations-reference.md)
 

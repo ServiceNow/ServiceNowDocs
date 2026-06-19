@@ -2,6 +2,7 @@
 title: Associate featured content to a topic
 description: You can mark connected content as featured content for a topic. The featured content appears at the top of the topic page, enabling you to easily view content that requires your attention.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/associate-featured-content-to-topic.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,11 +28,11 @@ Role required: admin
 
 3.  On the **Featured Content** tab, click **New**.
 
-    ![Associating topic to the related tabs](../images/associate-topics-tabs.png "Featured content tab")
+    \[Omitted image "associate-topics-tabs.png"\] Alt text: Associating topic to the related tabs
 
 4.  On the form, fill in the fields.
 
-    For more information on the fields and description, see [Featured Content form](../reference/featured-content-form.md).
+    For more information on the fields and description, see [Featured Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/featured-content-form.md).
 
     **Note:** You can't add a quick link as a featured item.
 

@@ -2,6 +2,7 @@
 title: PADomainUtils - Global
 description: The PADomainUtils API enables you to copy Performance Analytics records between different domains on the same instance.Instantiates a new PADomainUtils object to move or copy Performance Analytics records from the global domain.Instantiates a new PADomainUtils object to move or copy Performance Analytics records from the specified domain.Copies Performance Analytics records to a different domain.Copy a dashboard to another domain.Copies a Performance Analytics scheduled data collection job record to another domain.Evaluate if you can write to a specific record identified by table and sys\_id.Moves Performance Analytics records to a different domain.Use this method to move or copy only foundational records in a hybrid domain configuration.Use this method before copying records to set the sys\_override value of the new record to the original parent record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_PADomainUtils.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -29,7 +30,7 @@ To use PADomainUtils, you must satisfy these requirements:
 -   The script must be run from the global domain.
 -   When moving or copying records, the source and target domains must be different.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## PADomainUtils - PADomainUtils\(\)
 
@@ -65,7 +66,7 @@ var acmeUtils = new SNC.PADomainUtils('c90d4b084a362312013398f051272c0d');
 
 Copies Performance Analytics records to a different domain.
 
-To copy dashboards or scheduled jobs, see [copyDashboard](c_PADomainUtils.md#) and [copyJob](c_PADomainUtils.md#).
+To copy dashboards or scheduled jobs, see [copyDashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_PADomainUtils.md) and [copyJob](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_PADomainUtils.md).
 
 |Name|Type|Description|
 |----|----|-----------|

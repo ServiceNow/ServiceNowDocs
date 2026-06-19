@@ -2,7 +2,10 @@
 title: Configuring Omnichannel Callback for Customer Service Management
 description: Configure various aspects of Omnichannel Callback for Customer Service Management to enable callback feature based on the specific requirements of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-omni-callback.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,8 +22,8 @@ The configuration process consists of the configuration tasks listed in the foll
 
 |Task|Description|
 |----|-----------|
-|[Install Omnichannel Callback for Customer Service Management](../task/install-csm-omni-callback-app.md)|Install the Omnichannel Callback application \(sn\_callback\).|
-|[Configure the callback behavior for Omnichannel Callback for Customer Service Management](../task/configure-omni-callback-behaviour.md)|Configure the various aspects of callback such as max retry attempts and expire time.|
-|[Publish the Virtual Agent topics for callback](../task/publish-callback-va-topics.md)|Publish the callback virtual agent topics to display the callback option to customers on Virtual Agent clients.|
-|[Callback feature configuration form](../reference/em-callback.md)|Configure the callback feature in Engagement Messenger.|
+|[Install Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-csm-omni-callback-app.md)|Install the Omnichannel Callback application \(sn\_callback\).|
+|[Configure the callback behavior for Omnichannel Callback for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-omni-callback-behaviour.md)|Configure the various aspects of callback such as max retry attempts and expire time.|
+|[Publish the Virtual Agent topics for callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/publish-callback-va-topics.md)|Publish the callback virtual agent topics to display the callback option to customers on Virtual Agent clients.|
+|[Callback feature configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/em-callback.md)|Configure the callback feature in Engagement Messenger.|
 

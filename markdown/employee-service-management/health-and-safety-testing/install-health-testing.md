@@ -2,6 +2,7 @@
 title: Install Health and Safety Testing
 description: You can install Health and Safety Testing if you have the admin role.Several types of components are installed with Health and Safety Testing, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-testing/install-health-testing.html
 release: australia
 product: Health and Safety Testing
 classification: health-and-safety-testing
@@ -97,13 +98,13 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 4.  Click **Activate**.
 
 
-**Parent Topic:**[Health and Safety Testing](../concept/health-safety-testing.md)
+**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/health-safety-testing.md)
 
 ## Components installed with Health and Safety Testing
 
 Several types of components are installed with Health and Safety Testing, including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ### Roles installed
 
@@ -178,7 +179,7 @@ Test Result\[sn\_imt\_health\_test\_result\]
 
 Test results submitted by users.Users can review their test results in **My test results**. Managers can review the test results of their direct reports in **My Employee's Test Results** if enabled by their organization.
 
- For more information, see [Configure Health and Safety Testing](configure-health-safety-testing.md#).
+ For more information, see [Configure Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/configure-health-safety-testing.md).
 
 </td></tr><tr><td>
 

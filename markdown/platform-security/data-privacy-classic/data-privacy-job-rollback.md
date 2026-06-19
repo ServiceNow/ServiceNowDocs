@@ -2,6 +2,7 @@
 title: Data privacy job rollback
 description: Database changes are captured for actions like jobs and scripts so that the changes can be rolled back. Roll back a data privacy job for when human error inadvertently anonymizes incorrect user information. The rollback de-anonymizes the data from the data privacy job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/data-privacy-job-rollback.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -19,9 +20,9 @@ Database changes are captured for actions like jobs and scripts so that the chan
 
 -   Rollback is limited to a few days, per the configured expiry duration of the RollbackContext of the new RollbackType **REDACT**. After expiration of the RollbackContext associated with a data privacy job, the rollback function is no longer available for that job.
     -   A rollback context from de-anonymization is saved for three days by default.
-    -   The default expiry time can be set to a value greater than one by the data privacy administrator in the **RollbackContext** of the new **RollbackType** **REDACT.** Set the value in the Glide system property **glide.rollback.expiration\_days\_redact**. See [Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md).
+    -   The default expiry time can be set to a value greater than one by the data privacy administrator in the **RollbackContext** of the new **RollbackType** **REDACT.** Set the value in the Glide system property **glide.rollback.expiration\_days\_redact**. See .
 
-        To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+        To learn more about adding or creating a system property, see .
 
         for additional information.
 

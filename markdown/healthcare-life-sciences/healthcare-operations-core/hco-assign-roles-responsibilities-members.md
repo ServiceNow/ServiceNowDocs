@@ -2,6 +2,7 @@
 title: Associate assignment groups with a healthcare organization in Healthcare Operations Core
 description: Create assignment groups for your healthcare organizations to determine which user groups are associated with specific healthcare organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hco-assign-roles-responsibilities-members.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

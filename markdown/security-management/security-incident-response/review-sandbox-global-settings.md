@@ -2,6 +2,7 @@
 title: Review the sandbox global settings
 description: Review and modify the global sandbox settings if you are experiencing issues with file or URL submission results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/review-sandbox-global-settings.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

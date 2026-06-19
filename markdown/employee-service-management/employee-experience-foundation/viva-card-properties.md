@@ -2,6 +2,7 @@
 title: Microsoft Viva integrations card properties
 description: Add properties of the Microsoft Viva integrations card to view tasks from Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/viva-card-properties.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -28,5 +29,5 @@ Add properties of the Microsoft Viva integrations card to view tasks from Micros
 |Employee Service Center Error Label|Option to customize the Employee Service Center error label.|
 |Tasks List Label|Option to customize the tasks list label.|
 
-**Parent Topic:**[Employee Center for Microsoft Viva Connections reference](../concept/reference-viva.md)
+**Parent Topic:**[Employee Center for Microsoft Viva Connections reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/reference-viva.md)
 

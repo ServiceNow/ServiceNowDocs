@@ -2,6 +2,7 @@
 title: Fulfill enterprise asset requests by using the help manage enterprise asset requests agentic workflow
 description: You can use the help manage enterprise asset requests agentic workflow to fulfill enterprise asset requests autonomously. The workflow uses a collection of AI agents to automatically source assets for these requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -16,7 +17,7 @@ breadcrumb: [Fulfilling enterprise asset requests, Using Service Catalog for Ent
 
 You can use the help manage enterprise asset requests agentic workflow to fulfill enterprise asset requests autonomously. The workflow uses a collection of AI agents to automatically source assets for these requests.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Help manage enterprise asset requests agentic workflow overview
 
@@ -46,7 +47,7 @@ The AI agent automatically uses assets that are available in a local stockroom.
 
  This sourcing option is available only when at least one stockroom within the location of the requester has the **Auto-consume** option enabled. If multiple stockrooms have this option enabled, the AI agent uses assets from the stockroom with the highest available quantity first. If any additional assets are required, the AI agent then uses assets from the stockroom with the next highest quantity.
 
- **Note:** For instructions on how to enable the **Auto-consume** option, see [Create stockroom for enterprise assets](../../enterprise-asset-management/task/create-eamstockroom.md).
+ **Note:** For instructions on how to enable the **Auto-consume** option, see [Create stockroom for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamstockroom.md).
 
 </td></tr><tr><td>
 
@@ -62,10 +63,10 @@ The AI agent automatically generates a transfer order to move assets between sto
 -   At least one source stockroom has the **Auto-transfer** option enabled.
 -   Destination stockrooms are linked to source stockrooms through distribution channels. The order of stockrooms that you can source and transfer assets from is based on the rank of each stockroom.
 
-For more information on distribution channels, see [Add a distribution channel to a stockroom in the Enterprise Asset Workspace](../../enterprise-asset-management/task/add-distribution-channel-eam-stockroom.md).
+For more information on distribution channels, see [Add a distribution channel to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-distribution-channel-eam-stockroom.md).
 
 
- **Note:** For instructions on how to enable the **Auto-transfer** option, see [Create stockroom for enterprise assets](../../enterprise-asset-management/task/create-eamstockroom.md).
+ **Note:** For instructions on how to enable the **Auto-transfer** option, see [Create stockroom for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamstockroom.md).
 
 </td></tr><tr><td>
 
@@ -80,16 +81,16 @@ The AI agent automatically generates a purchase order to obtain additional asset
 -   At least one stockroom within the location of the requester has the **Auto-purchase** option enabled.
 -   At least one vendor is available to purchase the requested asset from.
 
- **Note:** For instructions on how to enable the **Auto-purchase** option, see [Create stockroom for enterprise assets](../../enterprise-asset-management/task/create-eamstockroom.md).
+ **Note:** For instructions on how to enable the **Auto-purchase** option, see [Create stockroom for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eamstockroom.md).
 
 </td></tr></tbody>
-</table>**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md).
+</table>**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see .
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## Validating enterprise asset requests
 
@@ -130,7 +131,7 @@ Enterprise asset request initiation
 
     -   If the total cost of the requested assets is less than the amount specified in the corresponding automatic approval rule, the request is approved automatically. By default, this amount is set to one thousand dollars.
     -   If the total cost of the requested assets is more than the amount specified in the corresponding automatic approval rule, the request must be reviewed and approved by an asset manager.
-For more information on automatic approval rules, see [Set automatic approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/approvals/r_SetAutomaticApprovalRules.md).
+For more information on automatic approval rules, see .
 
 
 </td></tr><tr><td>
@@ -144,7 +145,7 @@ Asset sourcing assignment
 
 **Note:** If the trigger to invoke the workflow is deactivated, the workflow must be invoked manually.
 
-**Note:** The progress of the workflow is always updated and displayed in the Now Assist panel. Users can access the Now Assist panel by selecting the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png) on the page header of their ServiceNow instance.
+**Note:** The progress of the workflow is always updated and displayed in the Now Assist panel. Users can access the Now Assist panel by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: on the page header of their ServiceNow instance.
 
 
 </td></tr><tr><td>
@@ -153,7 +154,7 @@ Enterprise asset request validation
 
 </td><td>
 
-The workflow validates the request.**Note:** For the complete list of validation criteria, refer to [Validating enterprise asset requests](now-assist-eam-help-manage-enterprise-asset-requests-workflow.md#section_k3b_sbm_4hc).
+The workflow validates the request.**Note:** For the complete list of validation criteria, refer to [Validating enterprise asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md).
 
 -   If the validation is successful, the workflow can proceed with sourcing the requested assets.
 -   If the validation is unsuccessful, the request must be updated and then re-validated.
@@ -167,19 +168,19 @@ Asset sourcing and allocation
 After the request is successfully validated, the workflow sources the requested assets.1.  The asset sourcing AI agent checks if the requested assets are available in any local stockrooms.
     -   If the requested assets are available, the AI agent checks if the **Auto-consume** option is enabled for any stockrooms that those assets are located in.
         -   If the **Auto-consume** option is enabled, the AI agent uses assets from those stockrooms.
-        -   If the **Auto-consume** option is disabled, the workflow proceeds to [step 4](now-assist-eam-help-manage-enterprise-asset-requests-workflow.md#user-intervention).
-    -   If the requested assets are not available, or if additional assets must still be sourced, the workflow proceeds to [step 2](now-assist-eam-help-manage-enterprise-asset-requests-workflow.md#transfer-order).
+        -   If the **Auto-consume** option is disabled, the workflow proceeds to [step 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md).
+    -   If the requested assets are not available, or if additional assets must still be sourced, the workflow proceeds to [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md).
 2.  The asset sourcing AI agent checks if the requested assets are available in any non-local stockrooms.
     -   If the requested assets are available, the AI agent checks if the **Auto-transfer** option is enabled for any stockrooms that those assets are located in.
         -   If the **Auto-transfer** option is enabled, the AI agent triggers the transfer order creation AI agent. This AI agent creates a transfer order to move the requested assets from a source stockroom to a destination stockroom. If multiple source or destination stockrooms are available, the AI agent requests user input when creating the transfer order.
 
 **Note:** In this scenario, non-local stockrooms act as source stockrooms, while local stockrooms act as destination stockrooms.
 
-        -   If the **Auto-transfer** option is disabled, the workflow proceeds to [step 4](now-assist-eam-help-manage-enterprise-asset-requests-workflow.md#user-intervention).
-    -   If the requested assets are not available, or if additional assets must still be sourced, the workflow proceeds to [step 3](now-assist-eam-help-manage-enterprise-asset-requests-workflow.md#purchase-order).
+        -   If the **Auto-transfer** option is disabled, the workflow proceeds to [step 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md).
+    -   If the requested assets are not available, or if additional assets must still be sourced, the workflow proceeds to [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md).
 3.  The asset sourcing AI agent checks if the **Auto-purchase** option is enabled for any local stockrooms.
     -   If the **Auto-purchase** option is enabled, the AI agent triggers the purchase order creation AI agent. This AI agent creates a purchase order to obtain assets from a specified vendor. If multiple vendors are available, the AI agent requests user input when creating the purchase order.
-    -   If the **Auto-purchase** option is disabled, the workflow proceeds to [step 4](now-assist-eam-help-manage-enterprise-asset-requests-workflow.md#user-intervention).
+    -   If the **Auto-purchase** option is disabled, the workflow proceeds to [step 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md).
 4.  If the requested assets cannot be sourced automatically, user intervention is required.
     1.  The asset sourcing AI agent creates sourcing plans to confirm how it should proceed with sourcing each requested asset.
     2.  The AI agent launches the Now Assist panel to initiate a conversation with each user who is assigned to a requested asset.
@@ -230,5 +231,5 @@ Purchase order creation AI agent
 Sources the requested asset by creating a purchase order. If you have multiple destination stockrooms or vendors, the AI agent requests user input when creating the purchase order.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Fulfilling enterprise asset requests](../../enterprise-asset-management/concept/fulfilling-enterprise-asset-requests.md)
+</table>**Parent Topic:**[Fulfilling enterprise asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/fulfilling-enterprise-asset-requests.md)
 

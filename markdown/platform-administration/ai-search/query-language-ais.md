@@ -2,6 +2,7 @@
 title: AI Search query language
 description: Learn how to construct search queries using terms, phrases, and AI Search query operators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/query-language-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -134,5 +135,5 @@ Universal wildcard operator. Specify `***` as a search query to find all indexed
 </td></tr></tbody>
 </table>**Note:** When expanding search terms that contain `%` or `*` wildcard operators, AI Search ignores terms defined as stop words. For example, suppose you define `the` and `their` as stop words. A search for `the*` won't expand to match `the` or `their`, but will still match non-stop word terms such as `there` and `these`.
 
-**Parent Topic:**[Searching in AI Search](use-ais.md)
+**Parent Topic:**[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md)
 

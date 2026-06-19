@@ -2,6 +2,7 @@
 title: Impacted Service not appearing in alerts
 description: When a test fails for a monitor and you have configured an alert to trigger, the alert record should show the impacted service. There are a few reasons why this field might not be populated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/troubleshoot-related-services.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
@@ -49,5 +50,5 @@ The relationship might take up to a minute to appear, which means the field migh
 
 Check back after a few minutes.
 
-**Parent Topic:**[Troubleshoot synthetic monitors](troubleshoot-synthetic-monitors.md)
+**Parent Topic:**[Troubleshoot synthetic monitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/troubleshoot-synthetic-monitors.md)
 

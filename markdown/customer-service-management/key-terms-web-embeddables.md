@@ -2,7 +2,10 @@
 title: Key terms referred in Web Embeddables
 description: The following are the key terms referred in Web Embeddables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/key-terms-web-embeddables.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

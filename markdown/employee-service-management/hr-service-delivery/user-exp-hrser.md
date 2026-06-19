@@ -2,6 +2,7 @@
 title: User Experience for HR Service Delivery
 description: Usage Insights dashboard provides dashboard views for monitoring the key performance indicators \(KPIs\) of web applications built on the Employee Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/user-exp-hrser.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -83,5 +84,5 @@ See how employees use the progress of knowledge articles. Navigate to **Usage In
 
 See the analytics about usage, technical, geographic, events, retention, and more. Navigate to **Usage Insights &gt; Analytics** for more information. You can see the reports for various timelines such as daily, weekly, monthly.
 
-**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)
+**Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-hr-platform-apps.md)
 

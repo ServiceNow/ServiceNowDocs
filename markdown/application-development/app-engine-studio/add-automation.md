@@ -2,6 +2,7 @@
 title: Add logic and automation
 description: Replace manual work by adding logic and automation to your app in App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-automation.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -47,8 +48,8 @@ Automatically apply cascading discounts to different products based on the incre
 
 </td><td>
 
--   [Add a decision](../task/add-decision.md)
--   [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/format-decision-table-in-decision-designer.md)
+-   [Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-decision.md)
+-   
 
 </td></tr><tr><td>
 
@@ -64,8 +65,8 @@ Automatically send an email when a new support record is created.
 
 </td><td>
 
--   [Add an email notification](../task/add-notification.md)
--   [Modify an email notification](../task/edit-notification.md)
+-   [Add an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-notification.md)
+-   [Modify an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-notification.md)
 
 </td></tr><tr><td>
 
@@ -81,9 +82,9 @@ Automatically generate a Twitter post when an incident is closed or send an emai
 
 </td><td>
 
--   [Add a flow from scratch](../task/create-scratch-flow.md)
--   [Modify a flow](../task/edit-flow.md)
--   [Work with record-based flows in Table Builder](../../../administer/form-builder/concept/flows-tb.md#)
+-   [Add a flow from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-scratch-flow.md)
+-   [Modify a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-flow.md)
+-   [Work with record-based flows in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/flows-tb.md)
 
 **Note:** This feature is only available if your licensing entitles you to "exclusive low code capability" and you have Table Builder for App Engine installed. Contact your Solutions consultant for more information.
 
@@ -102,22 +103,22 @@ Standardize and automate how agents handle chat interactions with VIP users.
 
 </td><td>
 
--   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md)
--   [Edit a process](../task/edit-process.md)
+-   
+-   [Edit a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-process.md)
 
 </td></tr></tbody>
 </table>**Note:** If you’re using source control to collaborate with other developers, only changes that have been checked in are available to other developers. For example, if an admin creates a new flow for an app that’s linked to Git, the new flow won’t be available in the app for other AES users until the admin checks the flow into Git.
 
--   **[Add a pre-built flow using a template](../task/use-flow-template.md)**  
+-   **[Add a pre-built flow using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-flow-template.md)**  
 Use a pre-built flow to quickly automate manual work in the app you're building in App Engine Studio \(AES\).
--   **[Add a flow from scratch](../task/create-scratch-flow.md)**  
+-   **[Add a flow from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-scratch-flow.md)**  
 If an existing automation template doesn't fit your application goal, define custom automation in App Engine Studio \(AES\) by building a new flow.
--   **[Add a decision](../task/add-decision.md)**  
+-   **[Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-decision.md)**  
 Create automation for decisions in App Engine Studio \(AES\). The automation decouples decision logic from code by enabling you to create and manage decision rules.
--   **[Add an email notification](../task/add-notification.md)**  
+-   **[Add an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-notification.md)**  
 Build notifications in App Engine Studio \(AES\) to create automated emails for events using templates or custom messages.
--   **[Edit a process](../task/edit-process.md)**  
+-   **[Edit a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-process.md)**  
 To update or change an existing process for an app built in App Engine Studio \(AES\), edit it in Playbooks.
 
-**Parent Topic:**[Enhance your app](customize-application.md)
+**Parent Topic:**[Enhance your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/customize-application.md)
 

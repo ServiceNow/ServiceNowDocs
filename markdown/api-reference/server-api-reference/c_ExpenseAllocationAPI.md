@@ -2,6 +2,7 @@
 title: ExpenseAllocation - Global
 description: The ExpenseAllocation script include is used by various cost management processes and can also be used for generating custom expense allocation records \(fm\_expense\_allocation\) from scripted expense allocation rules.Called when you create a new ExpenseAllocation object.Creates an expense allocation \(fm\_expense\_allocation\) record referencing the parameters provided during instantiation and this method.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_ExpenseAllocationAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ExpenseAllocation script include is used by various cost management processe
 
 This script include requires the Cost Management \(com.snc.cost\_management\) plugin.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ExpenseAllocation - ExpenseAllocation\(GlideRecord expense, GlideRecord rule\)
 

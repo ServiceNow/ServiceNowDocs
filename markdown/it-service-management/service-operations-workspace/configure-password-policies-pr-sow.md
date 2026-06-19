@@ -2,6 +2,7 @@
 title: Configure the password policies
 description: Create a password policy to ensure that all passwords are strong and secure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-password-policies-pr-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -49,5 +50,5 @@ Role required: admin
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](../concept/setup-password-reset-sow.md)
+**Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/setup-password-reset-sow.md)
 

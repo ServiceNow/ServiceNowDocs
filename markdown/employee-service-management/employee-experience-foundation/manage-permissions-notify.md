@@ -2,6 +2,7 @@
 title: Manage permissions and authenticate the Notify connector app/bot in Microsoft Azure portal
 description: Assign permissions to users to be able to authenticate successfully and participate in conference calls in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/manage-permissions-notify.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,7 +30,7 @@ You can manage the permissions required by the Notify connector app/bot to perfo
 
 2.  Navigate to **Azure Services** &gt; **Azure Active Directory** &gt; **Manage** &gt; **App registrations**.
 
-3.  Search and open the Notify connector bot created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](create-app-ms-teams.md) by name or by Application \(client\) ID.
+3.  Search and open the Notify connector bot created in step 3 in the section [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-app-ms-teams.md) by name or by Application \(client\) ID.
 
 4.  Navigate to **Manage** &gt; **API Permissions** &gt; **Add a permission** &gt; **Microsoft Graph** and select **Application Permissions**.
 
@@ -45,5 +46,5 @@ You can manage the permissions required by the Notify connector app/bot to perfo
     2.  Select **Yes** in the Grant admin consent confirmation pop-up page.
 
 
-**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](../concept/setup-notify-ms-teams-single-tenant.md)
+**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md)
 

@@ -2,6 +2,7 @@
 title: Create a Now Assist approval task
 description: Create an Now Assist approval task to evaluate the assets. The Now Assist approval task is a sub task of an approval request where you will need approvals from other organizations or entities like Legal review, Security review, Data review, Piracy review etc.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

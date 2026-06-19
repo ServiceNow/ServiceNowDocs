@@ -2,6 +2,7 @@
 title: Conversational Analytics dashboard roles
 description: Conversational Analytics dashboard is installed with these roles.Provides read and write access to all dashboard-related tables, for example, sys-conversation.Provides access to view dashboard-related tables, create custom events, create custom formula overrides, reconfigure the dashboard using UI Builder, and set system parameters.Enables you to add, remove, and rearrange dashboard contents. Needs UI Builder, which is a separate ServiceNow product.Provides read access to view the dashboard, Conversations \(sys\_cs\_conversation\), and Conversation Consumers \(sys\_cs\_consumer\) tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/conversational-analytics-dashboard-roles-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,9 +16,9 @@ breadcrumb: [Conversational Analytics dashboard reference, Conversational Analyt
 
 Conversational Analytics dashboard is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
-**Parent Topic:**[Conversational Analytics dashboard reference](conversational-analytics-dashboard-reference-pae.md)
+**Parent Topic:**[Conversational Analytics dashboard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversational-analytics-dashboard-reference-pae.md)
 
 ## Virtual Agent administrator \[virtual\_agent\_admin\]
 

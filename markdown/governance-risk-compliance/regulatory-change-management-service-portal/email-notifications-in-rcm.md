@@ -2,6 +2,7 @@
 title: Email notifications in Regulatory Change Management
 description: A number of email notifications are sent by the Regulatory Change Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/email-notifications-in-rcm.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -53,5 +54,5 @@ The following table describes the recipient list of notifications and the associ
 |Smart assessment cancelled by RCM admin|Assessor|
 |Smart assessment reassigned|Assessor|
 
-**Parent Topic:**[Regulatory Change Management reference](rcm-reference.md)
+**Parent Topic:**[Regulatory Change Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-reference.md)
 

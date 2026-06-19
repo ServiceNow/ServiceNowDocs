@@ -2,6 +2,7 @@
 title: Mobile analytics admin\[mobile\_analytics\_admin\]
 description: View settings within Usage Insights in the application navigator and control the Usage Insights settings for each mobile application. Assigned users have admin role permissions to be able to create funnel and cohort reports within the Usage Insights application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-role-2.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -27,7 +28,7 @@ Mobile analytics admin \[mobile\_analytics\_admin\] is included in the Mobile an
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-For more information, see [Usage Insights for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-analytics.md).
+For more information, see .
 
-**Parent Topic:**[Roles installed with Usage Insights](components-installed-user-exp-analytics.md)
+**Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 

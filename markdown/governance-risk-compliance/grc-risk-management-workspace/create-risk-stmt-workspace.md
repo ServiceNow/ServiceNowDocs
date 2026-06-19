@@ -2,6 +2,7 @@
 title: Create a risk statement in the Risk Workspace
 description: Create risk statements to group risks into manageable categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-stmt-workspace.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -71,7 +72,7 @@ Framework
 
 </td><td>
 
-Framework this risk statement is associated with.**Note:** This field only appears if the **Migrate to Advanced Risk Assessment** property is enabled. For more information, see [Risk score rollup in Advanced Risk Assessment](../../grc-risk/concept/risk-rollup-ara-concept.md)
+Framework this risk statement is associated with.**Note:** This field only appears if the **Migrate to Advanced Risk Assessment** property is enabled. For more information, see [Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md)
 
 </td></tr><tr><td>
 
@@ -123,7 +124,7 @@ Additional information
 Additional information for this risk statement.
 
 </td></tr></tbody>
-</table>4.  To fill in the fields for the risk appetite section, see [Define the risk appetite for a risk statement](define-risk-appetite-on-risk-statement.md).
+</table>4.  To fill in the fields for the risk appetite section, see [Define the risk appetite for a risk statement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/define-risk-appetite-on-risk-statement.md).
 
 5.  If you're using classic risk, in the Default Scores section, fill in the fields.
 
@@ -252,5 +253,5 @@ The risk statement is created.
 
 You can continue to add control objectives, indicator templates, and information objects to the risk statement. You can also now assess the risks that are generated in the Risks tab. You can also view the hierarchy of the risks statement on the risk statement side bar. To view the complete risk profile at a glance, click the **Overview** tab.
 
-**Parent Topic:**[Create a risk framework in the Risk Workspace](create-risk-framework.md)
+**Parent Topic:**[Create a risk framework in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-framework.md)
 

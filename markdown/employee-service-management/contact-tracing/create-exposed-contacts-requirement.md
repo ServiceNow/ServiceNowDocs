@@ -2,6 +2,7 @@
 title: Create a requirement for potentially exposed contacts to return to work
 description: Create a requirement for potentially exposed employees to meet to verify that they are eligible to return to work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/create-exposed-contacts-requirement.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -18,13 +19,13 @@ Create a requirement for potentially exposed employees to meet to verify that th
 ## Before you begin
 
 -   Health and safety requirements are available in the ServiceNow® Employee Readiness Core application, which must be installed.
--   Health and safety requirements are built with ServiceNow® Workflow Studio, so make sure you're familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) basics.
+-   Health and safety requirements are built with ServiceNow® Workflow Studio, so make sure you're familiar with the Flow Designer basics.
 
 Role required: sn\_imt\_core.admin
 
 ## About this task
 
-Define health and safety requirements for employees to return to work. Employees should not be in any potentially exposed contacts investigation of a case. If they are part of an active case investigation, they should meet the requirement of a clear status to be eligible to return to workplace. For more information, see [Follow up with potentially exposed contacts](contact-exposed-contacts.md).
+Define health and safety requirements for employees to return to work. Employees should not be in any potentially exposed contacts investigation of a case. If they are part of an active case investigation, they should meet the requirement of a clear status to be eligible to return to workplace. For more information, see [Follow up with potentially exposed contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-exposed-contacts.md).
 
 **Note:**
 
@@ -244,7 +245,7 @@ Conditions to filter the records from the table that will trigger the flow.
 
 ## What to do next
 
-You must activate the requirement before you can track whether employees have fulfilled it. For instructions, see [Activate a health and safety requirement](../../employee-readiness-core/task/activate-readiness-requirement.md).
+You must activate the requirement before you can track whether employees have fulfilled it. For instructions, see [Activate a health and safety requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/activate-readiness-requirement.md).
 
-**Parent Topic:**[Setting up Contact Tracing](../concept/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 

@@ -2,12 +2,13 @@
 title: Create and manage data mappings
 description: Map your services to the data from a connected external observability vendor instance, and view it in charts for the service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/create-and-manage-observability-data-mappings.html
 release: australia
 product: Service Observability
 classification: service-observability
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
@@ -17,7 +18,7 @@ Map your services to the data from a connected external observability vendor ins
 
 ## Before you begin
 
--   If you are on version 1.5.0, activate the services that have data from an external observability instance. For instructions on how to activate the services, see [Activate teams and services](../concept/activate-teams-and-services.md). For later versions, you don't need to activate services. You can map any of the following service types:
+-   You can map any of the following service types:
     -   Service instance
     -   Mapped application service
     -   Calculated application service
@@ -26,7 +27,7 @@ Map your services to the data from a connected external observability vendor ins
     -   Tag-based service
     -   Offerings
     -   Business service
--   [Connect a Service Observability data source](connect-an-observability-data-source.md)
+-   [Connect a Service Observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/connect-an-observability-data-source.md)
 
 Role required: sn\_sow\_svcobs.admin
 
@@ -43,33 +44,29 @@ For example, say you have metrics from New Relic that are used to monitor servic
 
 If some of your metrics on different entities use a different key name or a different key value, you can create exceptions. For example, if your host metrics use `service` instead of `service_name`, you can create an exception to include those metrics.
 
-Each entity type has its own dashboard and each metric or related CI has its own default chart. You can customize the templates used for the dashboards and charts. See [Customize Service Observability dashboard templates](customize-service-observability-dashboard-templates.md) for more information.
+Each entity type has its own dashboard and each metric or related CI has its own default chart. You can customize the templates used for the dashboards and charts. See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) for more information.
 
-**Note:** To understand how Service Observability creates these mappings, see [Observability vendor entity mappings for Service Observability](../reference/apm-vendor-entity-mappings.md).
+**Note:** To understand how Service Observability creates these mappings, see [Observability vendor entity mappings for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/apm-vendor-entity-mappings.md).
 
-For a description of the field values, see [Service Observability data mapping form](../reference/observability-data-mapping-form.md).
+For a description of the field values, see [Service Observability data mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/observability-data-mapping-form.md).
 
 ## Procedure
 
-1.  Navigate to the Data mappings page, following the procedures for your version of Service Observability.
+1.  Navigate to **All** &gt; **Service Observability** &gt; **Configure Data mappings**.
 
-    -   Version 1.5.0: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability Management** &gt; **Manage Observability** &gt; **Data mappings**
-    -   Version 1.6.x or later: Navigate to **All** &gt; **Service Observability** &gt; **Configure Data mappings**.
 2.  Select **Create your first mapping** or **Create mapping**.
 
 3.  On the Observability data mapping page, enter a name for the mapping.
 
 4.  Choose the services that should use this mapping.
 
-    -   For version 1.5.0: Enter the names of the activated services that you want to map. For information about activating services, see [Activate teams and services](../concept/activate-teams-and-services.md)
-    -   For version 1.6.x and later:
-        1.  Choose **Select services**.
-        2.  Use the navigation to narrow down the list to the type of service you're searching for.
-        3.  Select the services to add to the mapping. You can add services from any combination of service type.
+    1.  Choose **Select services**.
+    2.  Use the navigation to narrow down the list to the type of service you're searching for.
+    3.  Select the services to add to the mapping. You can add services from any combination of service type.
 
-            **Note:** Use the filter to narrow down the service list.
+        **Note:** Use the filter to narrow down the service list.
 
-        4.  Select **Add services** to add them to the mapping.
+    4.  Select **Add services** to add them to the mapping.
     The Mapping preview pane updates to show the selected service, or the first service in a list of services.
 
 5.  Create a rule to determine how Service Observability should map internal services to the observability entities using tag keys and values.
@@ -107,5 +104,5 @@ For a description of the field values, see [Service Observability data mapping f
 
 On the **Observability** tab of the Service details page, dashboards and charts show metrics for the entities found from the mapping.
 
-**Parent Topic:**[Configuring Service Observability](../concept/configuring-service-observability.md)
+**Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/configuring-service-observability.md)
 

@@ -2,6 +2,7 @@
 title: Priority matrix for root cause analysis
 description: With the priority matrix for root cause analysis, you can find the relationships and how the priority is calculated based on impact and urgency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/priority-matrix-root-cause-analyses.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -25,5 +26,5 @@ With the priority matrix for root cause analysis, you can find the relationships
 |4 - Operations|2 - This shift|3 - Today|4 - Within 7 days|5 - Within 30 days|
 |5 - Other|2 - This shift|3 - Today|4 - Within 7 days|5 - Within 30 days|
 
-**Parent Topic:**[Root Cause Analysis](../concept/industrial-root-cause-analysis.md)
+**Parent Topic:**[Root Cause Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-root-cause-analysis.md)
 

@@ -2,6 +2,7 @@
 title: Visual Task Board accessibility
 description: Accessibility improvements in Visual Task Boards include skip links and the ability to view card details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/accessibility-vtb.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -17,14 +18,14 @@ Accessibility improvements in Visual Task Boards include skip links and the abil
 
 ## Skip links
 
-Skip links allow you to tab directly to the main content on a page. When [accessibility mode is enabled](../../../administer/accessibility-508-compliance/concept/c_SetUpSect508ComplianceFeature.md#), task boards include a skip link to view tasks as a list. The **View tasks as a list** skip link switches all the task cards to the table view. For more information on viewing task boards in a list view, see [View a Visual Task Board in a list](../task/view-board-list.md).
+Skip links allow you to tab directly to the main content on a page. When [accessibility mode is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-user-experiences/c_SetUpSect508ComplianceFeature.md), task boards include a skip link to view tasks as a list. The **View tasks as a list** skip link switches all the task cards to the table view. For more information on viewing task boards in a list view, see [View a Visual Task Board in a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/view-board-list.md).
 
 ## View card details
 
-With accessibility mode enabled, visual indicators appear on task cards that users can tab to in order to open card details. For more information, see [View card details in a Visual Task Board](../../../administer/accessibility-508-compliance/task/view-card-details-task-board.md).
+With accessibility mode enabled, visual indicators appear on task cards that users can tab to in order to open card details. For more information, see [View card details in a Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/view-card-details-task-board.md).
 
--   **[View card details in a Visual Task Board](../../../administer/accessibility-508-compliance/task/view-card-details-task-board.md)**  
+-   **[View card details in a Visual Task Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/view-card-details-task-board.md)**  
 With accessibility mode enabled, tab through cards in a task board. Use the card details button to view task card details.
 
-**Parent Topic:**[Exploring Visual Task Boards](exploring-vis-task-boards.md)
+**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
 

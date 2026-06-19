@@ -2,6 +2,7 @@
 title: Specify the LDAP attributes
 description: Specify the attributes included in LDAP server queries by using the LDAP server Attributes field. This can enhance performance as well as security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_SpecifyLDAPAttributes.html
 release: australia
 product: LDAP integration
 classification: ldap-integration
@@ -31,6 +32,6 @@ By default, the system loads all of the attributes for each object that it has p
 
     **Note:** To use the manager lookup scripts described in Select or Create a Transform Map for LDAP Data, specify **manager** and **dn** \(distinguished name\) in the **Attributes** field. Neither attribute is required to be a part of a transform map.
 
-    ![LDAP attributes.](../image/LdapAttributes.png)
+    \[Omitted image "LdapAttributes.png"\] Alt text: LDAP attributes.
 
 

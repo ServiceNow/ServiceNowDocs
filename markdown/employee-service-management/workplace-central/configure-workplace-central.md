@@ -2,6 +2,7 @@
 title: Configure Workplace Central
 description: Install Workplace Central and related plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/configure-workplace-central.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -15,7 +16,7 @@ breadcrumb: [Workplace Central, Workplace Service Delivery, Employee Service Man
 
 Install Workplace Central and related plugins.
 
-Install Workplace Central. For more information on how to install, refer to [Install Workplace Central](../task/install-workplace-central.md).
+Install Workplace Central. For more information on how to install, refer to [Install Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/install-workplace-central.md).
 
 You must also install the following plugins to start using the Workplace Central application:
 
@@ -24,14 +25,14 @@ You must also install the following plugins to start using the Workplace Central
 -   Workplace Space Management
 -   For Floor map view, the floor maps must be created using Workplace Indoor Mapping Map studio.
 
-Install the plugins from the from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html)..
+Install the plugins from the from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html)..
 
 To customize a page in the Workplace Central application, refer to the knowledge base article: [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1639123](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1639123).
 
--   **[Configure approvers of a scenario](../task/configure-approvers-of-a-scenario.md)**  
+-   **[Configure approvers of a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/configure-approvers-of-a-scenario.md)**  
 Configure approvers for scenarios that are sent for approval. Edit the scenario approval definition to add or remove scenarios. By default, the workplace managers are configured to approve a scenario
--   **[Install Workplace Central](../task/install-workplace-central.md)**  
-Install the Workplace Central application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+-   **[Install Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/install-workplace-central.md)**  
+Install the Workplace Central application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-**Parent Topic:**[Workplace Central](workplace-central-feat.md)
+**Parent Topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-feat.md)
 

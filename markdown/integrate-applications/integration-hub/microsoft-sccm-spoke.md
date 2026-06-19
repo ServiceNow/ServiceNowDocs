@@ -2,6 +2,7 @@
 title: Microsoft SCCM Spoke
 description: Automate management of user collections, device collections, and application deployments on a Microsoft System Center Configuration Management \(SCCM\) server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/microsoft-sccm-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -44,7 +45,7 @@ The Microsoft System Center Configuration Management \(SCCM\) spoke spoke provid
 |Is User In Collection|Checks if a specified user exists in a user collection.|
 |Remove From User Collection|Removes a user from a user collection.|
 
-To see inputs and outputs for these activities, see [SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md).
+To see inputs and outputs for these activities, see SCCM activity pack.
 
 ## Connection and credential alias requirements
 
@@ -56,11 +57,11 @@ This spoke uses the SCCM alias record to authorize actions on a Microsoft System
 |----------------|-----------|--------------|
 |SCCM|Connection to the SCCM server.|The URL of the host machine where the SCCM server is installed.|
 
-For information about setting up the spoke, see [Set up the Microsoft SCCM spoke](../../integrationhub-store-spokes/task/set-up-sccm.md#).
+For information about setting up the spoke, see [Set up the Microsoft SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-sccm.md).
 
 ## MID server requirements
 
-To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](integration-steps.md). For information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+To use these actions, your instance must have a MID Server set up and configured to use PowerShell. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md). For information, see MID Server.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../../integrationhub-store-spokes/task/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

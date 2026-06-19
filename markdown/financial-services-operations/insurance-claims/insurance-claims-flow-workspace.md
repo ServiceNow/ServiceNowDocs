@@ -2,13 +2,14 @@
 title: Insurance claims landing pages and workspaces
 description: In the Insurance claims application, you can view summaries of your claims work in the landing page. You can also work on your claim tasks from the claim workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/insurance-claims-flow-workspace.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Insurance claims landing pages and workspaces
@@ -84,7 +85,7 @@ In the Insurance claims application, you can use section tabs to add information
 |Section tab|Description|
 |-----------|-----------|
 |Playbook|Displays the responses to the FNOL intake playbook.|
-|Claim summary|Displays a summary of the claim. See [Reviewing claims in the claim summary](insurance-claims-flow-workspace.md#section_frq_rgt_ddc).|
+|Claim summary|Displays a summary of the claim. See [Reviewing claims in the claim summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-flow-workspace.md).|
 |Details|Contains the details on the claim case record, such as the case number, consumer or account, insurance policy, case status, or case work notes.|
 |Customer information|Contains the workspace cards that show the customer record details, policy overview, claim overview, insurance policy details, case history, or recent phone and chat interactions.|
 |Task SLAs|Displays the associated task service level agreements \(SLAs\).|

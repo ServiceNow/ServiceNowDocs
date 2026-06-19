@@ -2,6 +2,7 @@
 title: Compose an email from an OT incident record
 description: Compose an email directly in an OT incident record so that you can conveniently update your team and others about the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/compose-an-email-from-ot-incident-record.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -29,7 +30,7 @@ Role required: sn\_ot\_incident\_write
 
 4.  Select the incident record that you want to send an email for.
 
-5.  In the incident header, open the menu by selecting the **More actions** ![More actions UI button.](../../mftg-manufacturing-ot-knowledge/image/more-actions.png) button.
+5.  In the incident header, open the menu by selecting the **More actions** \[Omitted image "more-actions.png"\] Alt text: More actions UI button. button.
 
 6.  Select **Compose Email**.
 
@@ -79,5 +80,5 @@ Updates that you want to send to a user or users that are related to the OT inci
 
 The email is sent to the user or users that you specified in the email template.
 
-**Parent Topic:**[Using Operational Technology Incident Management](../concept/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

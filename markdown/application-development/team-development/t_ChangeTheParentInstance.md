@@ -2,6 +2,7 @@
 title: Change the parent instance
 description: If it becomes necessary to modify the instance hierarchy, you can change the parent for a development instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_ChangeTheParentInstance.html
 release: australia
 product: Team Development
 classification: team-development
@@ -33,16 +34,16 @@ To change the parent for a development instance:
 
 3.  Select the remote instance you want to use as the parent and click **Select**.
 
-    Alternatively, click the link to [define a new remote instance](t_DefineARemoteInstance.md). Then, repeat steps 1–3 and select the remote instance you defined.
+    Alternatively, click the link to [define a new remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_DefineARemoteInstance.md). Then, repeat steps 1–3 and select the remote instance you defined.
 
-    ![Parent instance](../image/ParentInstance.png)
+    \[Omitted image "ParentInstance.png"\] Alt text: Parent instance
 
     The system initiates a reconcile, which compares the local instance to the parent, and then generates the list of local changes and calculates the number of changes that are ready to pull from the parent.
 
 4.  On the completion page, click **Team Dashboard**.
 
-5.  [Pull versions](t_PullAVersion.md) from the parent instance and [resolve any collisions](t_ResolveACollision.md).
+5.  [Pull versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PullAVersion.md) from the parent instance and [resolve any collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ResolveACollision.md).
 
-6.  Review the local changes list and [queue or ignore changes](t_QueueALocalChangeForAPush.md), as appropriate.
+6.  Review the local changes list and [queue or ignore changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_QueueALocalChangeForAPush.md), as appropriate.
 
 

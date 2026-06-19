@@ -2,6 +2,7 @@
 title: McAfee ePO integration capability profiles
 description: As a user with the security incident administrator \(sn\_si.admin\) role, you create profiles for the McAfee ePO capabilities in your ServiceNow AI Platform instance. You group queries or actions in profiles and determine which McAfee ePO capabilities you want to run when a new security incident is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-creating-profiles.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -49,7 +50,7 @@ Isolate a host
 
 </td><td>
 
-Verify with your McAfee ePO administrator that you have created the security tags for the isolate host action in your McAfee ePO console. For more information, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](../task/mcafee-epo-setup-mcafee.md).
+Verify with your McAfee ePO administrator that you have created the security tags for the isolate host action in your McAfee ePO console. For more information, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md).
 
 </td><td>
 
@@ -61,7 +62,7 @@ Scan and search for threats on your host
 
 </td><td>
 
-Verify with your McAfee ePO administrator that you have created the security tags for the initiate malware scan action in your McAfee ePO console. For more information, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](../task/mcafee-epo-setup-mcafee.md).
+Verify with your McAfee ePO administrator that you have created the security tags for the initiate malware scan action in your McAfee ePO console. For more information, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md).
 
 </td><td>
 
@@ -73,7 +74,7 @@ Remove isolation for a host
 
 </td><td>
 
-Verify with your McAfee ePO administrator that you have created the security tags for the isolate host action in your McAfee ePO console. For more information, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](../task/mcafee-epo-setup-mcafee.md).
+Verify with your McAfee ePO administrator that you have created the security tags for the isolate host action in your McAfee ePO console. For more information, see [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-setup-mcafee.md).
 
 </td><td>
 
@@ -92,16 +93,16 @@ None
 **List Threat Events**
 
 </td></tr></tbody>
-</table>-   **[Create a capability profile](../task/mcafee-epo-create-profile.md)**  
+</table>-   **[Create a capability profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-create-profile.md)**  
 Create a profile and select the McAfee ePO capabilities that you want the profile to run.
--   **[Defining triggering conditions with a Configuration item \(CI\) field](mcafee-epo-alternate-ci.md)**  
+-   **[Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-alternate-ci.md)**  
 After you create a profile and select the McAfee ePO capabilities that you want the profile to run, you configure the settings of the profile so that it runs only when a set of specific conditions are met.
--   **[Configure settings](mcafee-epo-configuring-profile.md)**  
+-   **[Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-configuring-profile.md)**  
 After you create a profile and select the McAfee ePO capabilities that you want the profile to run, configure the settings so that the profile is invoked only under the specific conditions that you define.
 
-**Parent Topic:**[McAfee ePO integration](mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Create an approval group](../task/create-approval-group-mcafee.md)
+**Previous topic:**[Create an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-approval-group-mcafee.md)
 
-**Next topic:**[Create a capability profile](../task/mcafee-epo-create-profile.md)
+**Next topic:**[Create a capability profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-create-profile.md)
 

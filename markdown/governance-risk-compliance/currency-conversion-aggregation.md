@@ -2,6 +2,7 @@
 title: Currency conversion and third-party aggregation
 description: Beginning with Digital Operational Resilience Management \(sn\_dora\_accel\), version 22.x.x, currency conversion and third-party aggregation capabilities are supported for DORA reporting of third-party expenses. As a DORA application user, you can convert and aggregate contractual expenses from multiple currencies to a regulator-required designated base currency using automated daily exchange rates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/currency-conversion-aggregation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -40,16 +41,16 @@ Administrator prerequisite: Before generating reports, a DORA administrator must
 
 The following examples illustrate business validation rules and system currency conversion rates.
 
-![Business validation rules.](../image/dora-validation-rules-table.png)![System currency conversion rates.](../image/dora-validation-rules-currency-rates.png)
+\[Omitted image "dora-validation-rules-table.png"\] Alt text: Business validation rules.\[Omitted image "dora-validation-rules-currency-rates.png"\] Alt text: System currency conversion rates.
 
 ## Related documentation
 
-For information on creating a Microsoft Excel download and upload request and generating the reports, see [Create Microsoft Excel download and upload request](../task/create-excel-upload-download-request.md).
+For information on creating a Microsoft Excel download and upload request and generating the reports, see [Create Microsoft Excel download and upload request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-excel-upload-download-request.md).
 
-For steps on converting and aggregating contractual expenses to regulator-required currencies, see [Convert and aggregate contractual expenses to regulator-required currencies](../task/create-excel-report-aggregate-expenses.md).
+For steps on converting and aggregating contractual expenses to regulator-required currencies, see [Convert and aggregate contractual expenses to regulator-required currencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-excel-report-aggregate-expenses.md).
 
--   **[Convert and aggregate contractual expenses to regulator-required currencies](../task/create-excel-report-aggregate-expenses.md)**  
+-   **[Convert and aggregate contractual expenses to regulator-required currencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-excel-report-aggregate-expenses.md)**  
 Convert and aggregate contractual expenses to regulator-required currencies and generate consolidated reports for reporting submissions. Beginning with Digital Operational Resilience Management \(sn\_dora\_accel\), version 22.x.x, these currency conversion and third-party aggregation capabilities are supported for DORA reporting.
 
-**Parent Topic:**[Using Digital resilience third-party registers](using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

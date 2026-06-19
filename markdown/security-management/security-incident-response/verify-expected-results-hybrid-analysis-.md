@@ -2,6 +2,7 @@
 title: Verify expected results for Hybrid Analysis
 description: Observables are generated automatically by a security incident and scanned by the application. Locate the lookup results on the security incident to verify the threat lookup has run successfully. Also view raw data and run threat lookups on child observables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-expected-results-hybrid-analysis-.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_si.analyst
 
 1.  Open the security incident record you are working with and verify that the lookup has run successfully.
 
-    ![Lookup status in the work notes.](../image/hybridanalysis-worknotes.png)
+    \[Omitted image "hybridanalysis-worknotes.png"\] Alt text: Lookup status in the work notes.
 
     After the application is configured, the flow launches automatically upon incident creation. The execution and completion status of the lookup is then displayed in the work notes in the security incident.
 
@@ -33,13 +34,13 @@ Role required: sn\_si.analyst
 
     **Note:** The figures in the following steps are shown with the **Tabbed forms** setting active in the System Settings. In the upper-right corner of the banner frame, click the Settings gear icon. In the **System Settings** dialog box that is displayed, click **Forms** and verify that **Tabbed forms** and **With the Form** are selected.
 
-    ![Lookup results.](../image/hybridanalysis-lookup-results.png)
+    \[Omitted image "hybridanalysis-lookup-results.png"\] Alt text: Lookup results.
 
     The **Threat Lookup Results** tab displays the lookup results at the bottom of the security incident record. Note the **Finding** column displays `Unknown` for records not determined to be malicious. For results matching malicious, the **Finding** column displays `Malicious`.
 
 4.  In the **Observable** column, click an observable to open the record.
 
-    ![Open observable record with finding and security tag.](../image/hybridanalysis-tag.png)
+    \[Omitted image "hybridanalysis-tag.png"\] Alt text: Open observable record with finding and security tag.
 
     For lookups matching malicious, the **Finding** field displays `Malicious`, and the observable is tagged with the Threat Intelligence source that found it to be malicious, in this case, the Hybrid Analysis integration.
 
@@ -47,13 +48,13 @@ Role required: sn\_si.analyst
 
     1.  Navigate back to the security incident and on the **Threat Lookup Results** tab, click the blue information icon next to an observable.
 
-        ![Information icon on record.](../image/hybridanalysis-information.png)
+        \[Omitted image "hybridanalysis-information.png"\] Alt text: Information icon on record.
 
     2.  In the window that is displayed, click **Open Record** to view the data.
 
         From any observables viewable in the raw data that is displayed from the lookup, the Hybrid Analysis integration also creates child, or related observables.
 
-        ![Raw data on the observable record.](../image/hybridanalysis-raw-data.png)
+        \[Omitted image "hybridanalysis-raw-data.png"\] Alt text: Raw data on the observable record.
 
         The link created by the API, the raw data, and other information are displayed.
 
@@ -63,7 +64,7 @@ Role required: sn\_si.analyst
 
     4.  Click the field next to an observable in the **Child** column to select it, followed by the **Run threat lookup** related link to perform a lookup.
 
-        ![Child observables tab.](../image/hybridanalysis-childobservable.png)
+        \[Omitted image "hybridanalysis-childobservable.png"\] Alt text: Child observables tab.
 
     5.  In the dialog box that is displayed, verify that the Hybrid Analysis integration is selected and click **Submit**.
 
@@ -72,9 +73,9 @@ Role required: sn\_si.analyst
 
 If you do not see results under the **Threat Lookup Results** tab, verify that the observable is a type that is supported for lookup by the integration.
 
-**Parent Topic:**[Hybrid Analysis integration](../concept/hybrid-analysis-lookups.md)
+**Parent Topic:**[Hybrid Analysis integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/hybrid-analysis-lookups.md)
 
-**Previous topic:**[Install and configure Hybrid Analysis](install-and-configure-hybrid-analysis.md)
+**Previous topic:**[Install and configure Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-hybrid-analysis.md)
 
-**Next topic:**[\(Optional\) Manually attach an observable for Hybrid Analysis](attach-an-observable-manually-hybrid-analysis.md)
+**Next topic:**[\(Optional\) Manually attach an observable for Hybrid Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/attach-an-observable-manually-hybrid-analysis.md)
 

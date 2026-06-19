@@ -2,6 +2,7 @@
 title: Configure list calculations
 description: You can configure list calculations for columns, which calculate column totals, minimums, maximums, and averages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ConfigureListCalculations.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -45,5 +46,5 @@ You can configure list calculations for multiple columns in the same list. List 
     The calculations appear below the last record in the column. If the list is grouped, in addition to the overall calculations at the bottom of the list, group calculations appear below the last record in each group.
 
 
-**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](../concept/c_ListConfiguration.md)
+**Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_ListConfiguration.md)
 

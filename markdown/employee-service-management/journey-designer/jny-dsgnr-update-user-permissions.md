@@ -2,6 +2,7 @@
 title: Update users' permissions for journeys
 description: Users in a journey have permissions that enable different levels of access to a journey. Administrators modify user permissions for different types of journeys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-update-user-permissions.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -29,12 +30,12 @@ Role required: sn\_jny.admin or admin
 
     -   **Journey owner permissions**
     -   **Mentor permissions**
-    For user permission details see, [Journey designer user permissions reference](../reference/jny-dsgnr-user-permission-ref.md).
+    For user permission details see, [Journey designer user permissions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-user-permission-ref.md).
 
 4.  Select a check box to enable the permission, or clear a check box to disable the permission.
 
 5.  Select **Update** to save your changes.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

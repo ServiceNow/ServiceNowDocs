@@ -2,6 +2,7 @@
 title: User privacy, tracking, and user consent management in Usage Insights
 description: Usage Insights relies on tracking user activity to measure the adoption, retention, and usage of KPIs to help you make better product and implementation decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/user-exp-analytics-track-options.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -37,12 +38,12 @@ Some of the options available to you with user consent management are:
 -   Tracking specific users or tracking users with specific roles.
 -   Defining how to detect your users’ location.
 
--   **[How users consent to tracking in Usage Insights](../task/user-exp-analytics-user-set.md)**  
+-   **[How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-user-set.md)**  
 An individual can select to opt in or opt out of Usage Insights advanced tracking at any time.
--   **[Types of tracking consent policies in Usage Insights](../reference/uxa-tracking-types.md)**  
+-   **[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-tracking-types.md)**  
 There are five types of tracking consent policies that you can define for individual countries. This option provides you with the flexibility to define tracking policies according to your own compliance requirements, applicable country requirements, and even according to users or roles.
--   **[Tracked analytics fields and cookies](uxa-tracked-fields-and-cookies.md)**  
+-   **[Tracked analytics fields and cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-tracked-fields-and-cookies.md)**  
 Usage Insights tracks data from several sources, including web and mobile analytics fields and client-side cookies.
 
-**Parent Topic:**[Configuring Usage Insights](../content-framework/create/configuring-user-exp-analytics.md)
+**Parent Topic:**[Configuring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/configuring-user-exp-analytics.md)
 

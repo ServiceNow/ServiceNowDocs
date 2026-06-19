@@ -2,6 +2,7 @@
 title: Create preferred licensing assignments for Microsoft software products deployed on clusters
 description: Create and define preferred licensing assignments for the Microsoft software products that are deployed on your hypervisor clusters. Use these assignments to specify whether you want to license each software product at either the physical host layer or virtual layer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/apply-preferred-licensing-assignments-microsoft-clusters.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -23,9 +24,9 @@ Role required: sam\_admin
 
 **Note:** Preferred licensing assignments support only the per core and per core \(with CAL\) license metrics.
 
-Preferred licensing assignments take precedence over the cost-based licensing optimizations that are recommended by default. By using a preferred licensing assignment, you can bypass these recommended licensing optimizations to better align with your organization's predetermined licensing strategy. For more information on cost-based licensing optimizations, see [Cost-based licensing optimization for Microsoft](../concept/cost-based-microsoft-cluster-licensing.md).
+Preferred licensing assignments take precedence over the cost-based licensing optimizations that are recommended by default. By using a preferred licensing assignment, you can bypass these recommended licensing optimizations to better align with your organization's predetermined licensing strategy. For more information on cost-based licensing optimizations, see [Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md).
 
-**Note:** You can alternatively license a Microsoft software product on a specific physical host, virtual machine \(VM\), user, or device by adding allocations directly to the corresponding software entitlement. ServiceNow recommends that you use either preferred licensing assignments only or allocations only on each hypervisor cluster. For more information on adding allocations to a software entitlement, see [Create entitlements in workspace](create-entitlements-workspace.md).
+**Note:** You can alternatively license a Microsoft software product on a specific physical host, virtual machine \(VM\), user, or device by adding allocations directly to the corresponding software entitlement. ServiceNow recommends that you use either preferred licensing assignments only or allocations only on each hypervisor cluster. For more information on adding allocations to a software entitlement, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 
 ## Procedure
 
@@ -111,5 +112,5 @@ Domain that the licensing assignment is available in.
 
 The preferred licensing assignment is applied to the Microsoft software product.
 
-**Parent Topic:**[Software Asset Management publisher pack for Microsoft](../concept/microsoft-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/microsoft-publisher-pack.md)
 

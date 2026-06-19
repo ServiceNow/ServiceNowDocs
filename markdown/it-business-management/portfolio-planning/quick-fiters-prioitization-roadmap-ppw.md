@@ -2,6 +2,7 @@
 title: Apply quick filters for Prioritization and Roadmap data in Portfolio Planning
 description: Quickly apply filters for data in the Prioritization or Roadmap tabs to help you seamlessly plan using a consistent data set across all views of the tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -41,6 +42,6 @@ Quick filters help you filter the data shown in the List and Hierarchy views of 
     -   The filters are automatically applied and the data shown in the tabs is automatically refreshed.
     -   The filters set in the Prioritization tab are not applied to the Roadmap tab and vice-versa.
     -   The filters set in to one view are also applied to the other views, within the same tab.
-    ![Quick filters in Priorotization.](../../alignment-planner-workspace/images/hierarchy-with-filters.png)
+    \[Omitted image "hierarchy-with-filters.png"\] Alt text: Quick filters in Priorotization.
 
 

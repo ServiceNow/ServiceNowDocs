@@ -2,6 +2,7 @@
 title: Configure Universal Task for your service
 description: Configure the Universal Task application for your service so that you can create and assign tasks to employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/config-ut-for-service.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -27,14 +28,14 @@ Role required: sn\_uni\_task.admin
 
 3.  On the form, fill in the fields.
 
-    For more information on form fields and descriptions, see [Universal Task Configuration form](../reference/unitask-config-form.md).
+    For more information on form fields and descriptions, see [Universal Task Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/unitask-config-form.md).
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Define the agent criteria for Universal Task](ut-config-extn-point-agent.md)
+**Previous topic:**[Define the agent criteria for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-config-extn-point-agent.md)
 
-**Next topic:**[Configure the catalog items for your service](config-catalog-task.md)
+**Next topic:**[Configure the catalog items for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-catalog-task.md)
 

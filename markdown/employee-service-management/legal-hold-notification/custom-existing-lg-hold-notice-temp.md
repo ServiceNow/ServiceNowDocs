@@ -2,6 +2,7 @@
 title: Customize an existing legal hold notice template
 description: Customize the legal hold notice template available in the base system to align with your organizational requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/custom-existing-lg-hold-notice-temp.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -29,7 +30,7 @@ Role required: sn\_lg\_ops.legal\_config
 
     A legal hold notice opens in an editable format.
 
-    ![legal hold notice template](../image/Customize-legal-hold-notice-template.png)
+    \[Omitted image "Customize-legal-hold-notice-template.png"\] Alt text: legal hold notice template
 
 4.  Customize the template by substituting your company's name for the placeholder text and adding any additional text you want to include.
 
@@ -42,5 +43,5 @@ Role required: sn\_lg\_ops.legal\_config
 
 A customized legal hold template is created.
 
-**Parent Topic:**[Configure Legal Hold Notification](../concept/config-lg-hold-notif.md)
+**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
 

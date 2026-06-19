@@ -2,6 +2,7 @@
 title: Provision a cloud account
 description: Provision a cloud account as an admin through Cloud Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/provision-account.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -17,7 +18,7 @@ Provision a cloud account as an admin through Cloud Workspace.
 
 ## Before you begin
 
-Confirm that the cloud context has been configured. For more information, see [Creating configurations](../concept/cam-config.md).
+Confirm that the cloud context has been configured. For more information, see [Creating configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-config.md).
 
 Discovery must have been performed on the cloud admin portal.
 
@@ -42,15 +43,15 @@ Role required: sn\_itom\_cam.cw\_admin
 
 5.  If you are provisioning an Azure account, determine whether to use an existing billing account or create and add a new billing account.
 
-<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d131821e191">
+<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d135203e191">
 
 Option
 
-</th><th align="left" id="d131821e194">
+</th><th align="left" id="d135203e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d131821e200">
+</th></tr></thead><tbody><tr><td id="d135203e200">
 
 **Add an existing billing account**
 
@@ -58,26 +59,26 @@ Action
 
 Select an existing account from the drop-down list.
 
-</td></tr><tr><td id="d131821e209">
+</td></tr><tr><td id="d135203e209">
 
 **Create and add a new single account**
 
 </td><td>
 
-1.  Select the Create new billing account icon \(![Create new billing account icon](../../../reuse/icons/product-icons/plus-outline-24.svg)\).
+1.  Select the Create new billing account icon \(\[Omitted image "plus-outline-24.svg"\] Alt text: Create new billing account icon\).
 2.  Select **Single account**.
 3.  In the **Account name** field, enter the account name.
 4.  In the **Display name** field, enter the display name.
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d131821e254">
+</td></tr><tr><td id="d135203e254">
 
 **Create and add new bulk accounts**
 
 </td><td>
 
-1.  Select the Create new billing account icon \(![Create new billing account icon](../../../reuse/icons/product-icons/plus-outline-24.svg)\).
+1.  Select the Create new billing account icon \(\[Omitted image "plus-outline-24.svg"\] Alt text: Create new billing account icon\).
 2.  Select **Bulk upload**.
 3.  Search for and select the Tenant name.
 4.  Below the **Enter API response** field, select the link [Azure playground](https://learn.microsoft.com/en-us/rest/api/billing/billing-accounts/list?view=rest-billing-2024-04-01&tabs=HTTP#code-try-0).
@@ -92,15 +93,15 @@ Select an existing account from the drop-down list.
 
     An enrollment account is a management unit within a billing account for organizations with an Enterprise Agreement \(EA\) that is used to organize and control Azure subscriptions and resources.
 
-<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d131821e344">
+<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d135203e344">
 
 Option
 
-</th><th align="left" id="d131821e347">
+</th><th align="left" id="d135203e347">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d131821e353">
+</th></tr></thead><tbody><tr><td id="d135203e353">
 
 **Enrollment account**
 
@@ -108,13 +109,13 @@ Action
 
 Select an existing account.
 
-</td></tr><tr><td id="d131821e362">
+</td></tr><tr><td id="d135203e362">
 
 **Create and add a new single account**
 
 </td><td>
 
-1.  Select the Create new enrollment account icon \(![Create new enrollment account icon](../../../reuse/icons/product-icons/plus-outline-24.svg)\).
+1.  Select the Create new enrollment account icon \(\[Omitted image "plus-outline-24.svg"\] Alt text: Create new enrollment account icon\).
 2.  Select **Single account**.
 3.  In the **Account name** field, enter the account name.
 4.  In the **Display name** field, enter the display name.
@@ -122,13 +123,13 @@ Select an existing account.
 6.  Select **Add**.
 
 
-</td></tr><tr><td id="d131821e411">
+</td></tr><tr><td id="d135203e411">
 
 **Create and add new bulk accounts**
 
 </td><td>
 
-1.  Select the Create new enrollment account icon \(![Create new enrollment account icon](../../../reuse/icons/product-icons/plus-outline-24.svg)\).
+1.  Select the Create new enrollment account icon \(\[Omitted image "plus-outline-24.svg"\] Alt text: Create new enrollment account icon\).
 2.  Select **Bulk upload**.
 3.  Search for and select the Tenant name.
 4.  Below the **Enter API response** field, select the link [Azure playground](https://learn.microsoft.com/en-us/rest/api/billing/enrollment-accounts/list-by-billing-account?view=rest-billing-2024-04-01&tabs=HTTP#code-try-0).

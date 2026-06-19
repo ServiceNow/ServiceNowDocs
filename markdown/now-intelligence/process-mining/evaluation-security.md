@@ -2,6 +2,7 @@
 title: Process Mining evaluation project for Security Incident
 description: Process Mining evaluation project for Security Incident enables you to familiarize with improving your process with Process Mining capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/evaluation-security.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -29,7 +30,7 @@ This evaluation project works on the data that you have stored in your productio
 
 If you have the sn\_si.analyst role, you will have access to Process Mining for Security Incident evaluation project.
 
-For more information, see [Run the Process Mining evaluation project](../task/run-evaluation-project.md).
+For more information, see [Run the Process Mining evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/run-evaluation-project.md).
 
-**Parent Topic:**[Evaluation projects](evaluate-pm.md)
+**Parent Topic:**[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/evaluate-pm.md)
 

@@ -2,6 +2,7 @@
 title: Enable an LDAP listener and set system properties
 description: Enabling a listener is optional. If enabled, a listener notifies the system to process LDAP records soon after there is an update on the LDAP server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_EnableAListener.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

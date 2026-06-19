@@ -2,12 +2,13 @@
 title: Request to include a component to a component library
 description: Submit a request for a component in an application that could be reused across multiple applications to be added to a shared component library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-application-comp-lib-request.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
 
@@ -17,7 +18,7 @@ Submit a request for a component in an application that could be reused across m
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_admin or cdm\_editor
 
@@ -31,13 +32,13 @@ While creating data models for their applications, DevOps Config editors and adm
 
 1.  Navigate to **All** &gt; **DevOps Config** &gt; **DevOps Config Workspace**.
 
-2.  Select the apps icon \(![Applications icon.](../image/icon-applications-nav.png)\) in the left navigation to open the **Apps** tab.
+2.  Select the apps icon \(\[Omitted image "icon-applications-nav.png"\] Alt text: Applications icon.\) in the left navigation to open the **Apps** tab.
 
 3.  Open an application and select the **Config data** tab.
 
-4.  Select the shared components icon \(![Shared components icon.](../image/icon-shared-components-panel.png)\).
+4.  Select the shared components icon \(\[Omitted image "icon-shared-components-panel.png"\] Alt text: Shared components icon.\).
 
-    ![Shared components pane.](../image/cdm-app-shared-comp-request.png)
+    \[Omitted image "cdm-app-shared-comp-request.png"\] Alt text: Shared components pane.
 
 5.  In the Shared components pane, select **+ Create request**.
 

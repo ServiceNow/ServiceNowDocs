@@ -2,6 +2,7 @@
 title: Set up Amazon SQS spoke
 description: Set up outbound integration between your ServiceNow instance and Amazon SQS \(Simple Queue Service\). The integration enables automation of actions in Amazon SQS when an event occurs on your ServiceNow instance. For example, you can automate actions such as creating a standard queue or sending a message to a queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-amazon-sqs-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

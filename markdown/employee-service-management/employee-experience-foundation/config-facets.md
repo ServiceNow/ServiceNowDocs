@@ -2,6 +2,7 @@
 title: Configure search by the topic facets
 description: Configure the search by the topic facets, which suits your organizational requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-facets.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

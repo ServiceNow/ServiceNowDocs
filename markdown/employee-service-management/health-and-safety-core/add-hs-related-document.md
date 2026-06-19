@@ -2,6 +2,7 @@
 title: Add a new Health and Safety related document
 description: Add and store documents Health and Safety related documents so that they can be easily and appropriately referenced in related records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/add-hs-related-document.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -21,14 +22,14 @@ Role required: sn\_ohs\_im.document\_writer
 
 ## About this task
 
--   The ServiceNow® Document Management \(com.snc.platform\_document\_management\) plugin is installed with Health and Safety applications and enables you to manage your safety documents. For information on document management, see [Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md).
--   All Health and Safety documents are stored in the Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. The previous **Standards and Documents** list and its associated table \[sn\_ohs\_im\_document\] have been deprecated. To access your existing safety documents, migrate them from the deprecated table into the new Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. For more information, see [Migrate existing safety documents to the Document library](../../hs-core/task/hs-migrate-sync-existing-safety-document-docs-library.md).
+-   The ServiceNow® Document Management \(com.snc.platform\_document\_management\) plugin is installed with Health and Safety applications and enables you to manage your safety documents. For information on document management, see .
+-   All Health and Safety documents are stored in the Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. The previous **Standards and Documents** list and its associated table \[sn\_ohs\_im\_document\] have been deprecated. To access your existing safety documents, migrate them from the deprecated table into the new Health and Safety document \[sn\_ohs\_im\_document\_v2\] table. For more information, see [Migrate existing safety documents to the Document library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-migrate-sync-existing-safety-document-docs-library.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  Select the configuration icon \(![Configuration icon](../../hs-risk-management/image/icon-config.png)\).
+2.  Select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\).
 
 3.  In the **Configuration** tab, select **Health and Safety document library** and then **All**.
 
@@ -38,11 +39,11 @@ Role required: sn\_ohs\_im.document\_writer
 
 5.  On the form, fill in the fields.
 
-    For information on the document field descriptions, see [Create a document record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/create-new-doc.md).
+    For information on the document field descriptions, see .
 
 6.  In the Access Settings section, select the document access settings.
 
-    For information on access settings, see [Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-access-settings.md).
+    For information on access settings, see .
 
 7.  Select **Save**.
 
@@ -54,11 +55,11 @@ Role required: sn\_ohs\_im.document\_writer
 
     If there're multiple approvers added for a document, it is sent to approvers in ascending order based on the sequence number entered. If two approvers have the same sequence number, only one approver's approval is needed to move on to the next approver in the sequence.
 
-    For information on advanced approval rules and process, see [Document approval and publish process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-review-approval.md).
+    For information on advanced approval rules and process, see .
 
 10. In the **Versions** tab, select **New** to upload a version of this document.
 
-    For information on field descriptions, see [Health and Safety document version form](../reference/hs-document-form.md).
+    For information on field descriptions, see [Health and Safety document version form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-document-form.md).
 
 11. If a reviewer and approver have been added for this document, select the version and then select **Submit Version** to it for review and approval.
 
@@ -68,5 +69,5 @@ Role required: sn\_ohs\_im.document\_writer
 -   The document is listed in the **Health and Safety document library** list under **Configuration** and is saved in the Health and Safety document \[sn\_ohs\_im\_document\_v2\] table.
 -   The document is available to be referenced in Health and Safety records such as **Documents** tab on the Contractor company form when uploading documents related to the company or its workers.
 
-**Parent Topic:**[Using Health and Safety Core](../../hs-core/concept/using-hs-core.md)
+**Parent Topic:**[Using Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/using-hs-core.md)
 

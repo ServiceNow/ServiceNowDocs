@@ -2,6 +2,7 @@
 title: Provide requested evidence
 description: Provide evidence when you are requested. When evidence is requested, the person who must provide the evidence receives an email. The process to provide the evidence begins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/provide-evidence.html
 release: australia
 product: Audit Management
 classification: audit-management

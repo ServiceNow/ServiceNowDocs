@@ -2,6 +2,7 @@
 title: Rightsizing analysis for Microsoft Azure
 description: Cloud Cost Management uses an optimized Rightsizing process for each provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/azure-how-rs-works-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

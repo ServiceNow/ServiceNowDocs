@@ -2,11 +2,12 @@
 title: Add predefined content layouts with the Rich Content Editor
 description: Use modules to easily add new content layouts containing headers, paragraph text, and images. Choose from layouts comprised of three vertical cards, three horizontal cards, or a side-by-side configuration with an image positioned to the right of a text block.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/add-modules-rich-content-editor.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -19,7 +20,7 @@ Use modules to easily add new content layouts containing headers, paragraph text
 
 Role required: sn\_cd.content\_manager
 
-Fill in the New content form fields. See [Create rich content](ec-content-library-portal-rich-content.md)
+Fill in the New content form fields. See [Create rich content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-portal-rich-content.md)
 
 ## Procedure
 
@@ -29,7 +30,7 @@ Fill in the New content form fields. See [Create rich content](ec-content-librar
 
 3.  Replace the placeholder headers and paragraph text with your content.
 
-    For more information on styling the text and textboxes, see [Add Text or a Text section with the Rich Content Editor](ec-rich-content-text.md).
+    For more information on styling the text and textboxes, see [Add Text or a Text section with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-text.md).
 
 4.  To add an image, do the following steps:
 
@@ -39,7 +40,7 @@ Fill in the New content form fields. See [Create rich content](ec-content-librar
 
         Or, if you have previously selected images, select the image from the available images on the right side of the **Select Image** pop-up.
 
-    For more information on styling the image, see [Add an Image with the Rich Content Editor](ec-rich-content-image.md).
+    For more information on styling the image, see [Add an Image with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-image.md).
 
     **Note:** Content Managers and Admins have the option to apply background colors to selected canvas elements, including images. Available features include the use of solid and gradient colors, as well as adjustments for color opacity. These settings can be accessed in the right-hand panel under the Settings Styling tab when adding rich content to a canvas element.
 
@@ -52,15 +53,15 @@ Fill in the New content form fields. See [Create rich content](ec-content-librar
 
 -   \(Optional\) Translate your content.
 
-    Request language translation for your content. For more information, see [Multilingual support in the Content Library](../concept/ec-switch-language.md).
+    Request language translation for your content. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 
     **Note:** Only translate content after you are done modifying the content. For best results, we do not recommend that you add or remove components or change the formatting after translation.
 
-    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](../concept/ecpro-audience.md)
+    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md)
 
 -   Preview your content from the **Publish** tab.
 
     **Note:** Content Preview is designed to provide a general idea of how your content looks. Content may look different once published due to variations in device resolution, theme difference, or mobile app style configuration.
 
--   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](ec-content-library-publish2.md).
+-   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 

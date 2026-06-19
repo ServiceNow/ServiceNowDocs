@@ -2,13 +2,14 @@
 title: Use Agent assist to view associated claims
 description: Use the Agent assist contextual search to view associated claims and relevant knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/use-agent-assist-to-view-associated-claims-personal.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Personal Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Use Agent assist to view associated claims
@@ -23,19 +24,19 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative, sn\_ins\_claim\_pers.a
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the case playbook or the Personal auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d71728e85">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d74098e85">
 
 Option
 
-</th><th align="left" id="d71728e88">
+</th><th align="left" id="d74098e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d71728e94">
+</th></tr></thead><tbody><tr><td id="d74098e94">
 
 **From the case playbook**
 
@@ -45,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d71728e118">
+</td></tr><tr><td id="d74098e118">
 
 **From the Personal auto claim adjuster tasks list**
 
@@ -58,6 +59,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon to use the feature.
 
-    For more detailed information about Agent assist, refer to [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
+    For more detailed information about Agent assist, refer to .
 
 

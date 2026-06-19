@@ -2,6 +2,7 @@
 title: Exploring Entity View Action Mapper
 description: The Entity View Action Mapper \(EVAM\) is an application that standardizes how different data sources display in cards and lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/entity-view-action-mapper-evam/exploring-entity-view-action-mapper.html
 release: australia
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -21,7 +22,7 @@ EVAM enables you to show information as a card grid view or as a list of informa
 
 Prior to EVAM, lists were restricted to a single type of data source. If there were more data sources, you would have to write a custom implementation. EVAM enables you ingest multiple lists from different data sources, and then configure specific views without the need for customization.
 
-![Platform card displays](../images/card-dispaly-legacy.png)
+\[Omitted image "card-dispaly-legacy.png"\] Alt text: Platform card displays
 
 ## Features of EVAM
 
@@ -62,7 +63,7 @@ EVAM consists of the following:
 -   Actions – An entity can have an action that performs on the card. For example, you can activate a user into your system.
 -   Map – The mapping process maps the data source data to component properties that display on the card. You can also associate actions that trigger from the card view.
 
-![EVAM workflow overview](../images/evam-mapping-overview.png "EVAM workflow")
+\[Omitted image "evam-mapping-overview.png"\] Alt text: EVAM workflow overview
 
 1.  Entity: examples include a community post or sys\_user
 2.  Mapping: fields found in an entity
@@ -72,16 +73,16 @@ EVAM consists of the following:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Allows users to configure multiple view templates per data source based on conditions to customize how data displays for users. The view template maps fields from the view configuration to component.|[Define an EVAM view template](../task/define-evam-template.md)|Admins or evam\_admins|
-|Use EVAM to take in different data sources, configure views, and show them in a card display view.|[Create a multi-data source list display in Entity View Action Mapper](../task/tutorial-create-evam.md)|Admins or evam\_admins|
-|Define the list of data sources to render. The EVAM definition is the main record for an EVAM configuration.|[Create an EVAM definition](../task/define-composite-dataset.md)|Admins or evam\_admins|
-|Define the list of data sources to render. The EVAM definition is the main record for an EVAM configuration.|[Create an EVAM action definition](../task/define-evam-action.md)|Admins or evam\_admins|
+|Allows users to configure multiple view templates per data source based on conditions to customize how data displays for users. The view template maps fields from the view configuration to component.|[Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md)|Admins or evam\_admins|
+|Use EVAM to take in different data sources, configure views, and show them in a card display view.|[Create a multi-data source list display in Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/tutorial-create-evam.md)|Admins or evam\_admins|
+|Define the list of data sources to render. The EVAM definition is the main record for an EVAM configuration.|[Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md)|Admins or evam\_admins|
+|Define the list of data sources to render. The EVAM definition is the main record for an EVAM configuration.|[Create an EVAM action definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-action.md)|Admins or evam\_admins|
 
 ## What to explore next
 
 To learn more about configuring and using EVAM, see:
 
--   [Configuring entity view action mapper](configuring-entity-view-action-mapper.md)
--   [Managing Entity View Action Mapper](managing-entity-view-action-mapper.md)
--   [Entity View Action Mapper reference](entity-view-action-mapper-reference.md)
+-   [Configuring entity view action mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/configuring-entity-view-action-mapper.md)
+-   [Managing Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/managing-entity-view-action-mapper.md)
+-   [Entity View Action Mapper reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper-reference.md)
 

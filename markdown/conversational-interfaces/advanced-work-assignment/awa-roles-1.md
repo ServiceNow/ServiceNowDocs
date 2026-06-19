@@ -2,6 +2,7 @@
 title: AWA administrator \[awa\_admin\]
 description: The AWA administrator configures and manages AWA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-roles-1.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,6 +2,7 @@
 title: Update indicators in Microsoft Defender for Endpoint
 description: Update the existing indicators in Microsoft Defender for Endpoint from the list context-menu or from the form view of the Microsoft Defender Indicator respectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/update-indicator-in-microsoft-defender-for-endpoint-using-the-microsoft-defender-indicator-form-view.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,22 +24,16 @@ Role required: sn\_si.admin, sn\_si.analyst
 
 1.  Navigate to **Security Incidents** &gt; **Show All Incidents**.
 
-2.  Click **Show All Related Lists** and then click the **Microsoft Defender Indicators** tab.
+2.  Select **Show All Related Lists** and then select the **Microsoft Defender Indicators** tab.
 
     **Note:**
 
-    You must configure the related list for the Microsoft Defender Indicators, which would appear in the Security Incident related lists. For more information, see [Form UI actions](../../../security-incident-response/concept/sir-new-ui-setup-form-uiaction.md).
+    You must configure the related list for the Microsoft Defender Indicators, which would appear in the Security Incident related lists. For more information, see [Form UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui-setup-form-uiaction.md).
 
 3.  Update the Microsoft Defender for Endpoint indicators in one of the following ways:
 
-    -   To update the indicators from the list context-menu, select the row of the indicator that you want to update and click **Update Indicator in the Microsoft Defender** option.
-
-        ![Update Indicators in Microsoft Defender for Endpoint from Microsoft Defender Indicator's list context-menu](../image/indicator_contextmenu.png "Update Indicators using list context-menu")
-
-    -   To update the indicators from the form view, click **Update Indicator in Microsoft Defender** in the form view.
-
-        ![Update Indicator in Microsoft Defender for Endpoint from the Microsoft Defender Indicator's form view](../image/Indicator_formview.png "Update Indicators using form view")
-
+    -   To update the indicators from the list context-menu, select the row of the indicator that you want to update and select **Update Indicator in the Microsoft Defender** option.
+    -   To update the indicators from the form view, select **Update Indicator in Microsoft Defender** in the form view.
 4.  On the form, fill in the fields.
 
 <table id="table_sx2_kbl_jsb"><thead><tr><th>
@@ -130,7 +125,7 @@ RBAC Group Names
 RBAC group names that the indicator is applied to. The names are in a comma-separated list.
 
 </td></tr></tbody>
-</table>5.  Click **Update Indicator**.
+</table>5.  Select **Update Indicator**.
 
 6.  Validate the activity and UI messages.
 

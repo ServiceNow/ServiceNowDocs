@@ -2,6 +2,7 @@
 title: spContextManager - Client
 description: Makes data from a Service Portal widget available to other applications and services in a Service Portal page. For example, pass widget data to Agent Chat when it opens in a Service Portal page.Initializes a key and adds widget data as the value. For example, add data to the 'agent-chat' key to make it available to Agent Chat.Returns each key and associated data object defined by any widget on the page.Returns the widget data associated with a key.Sends data to an existing key. For example, if another widget on the page uses the 'agent-chat' key to pass data to the Agent Chat configuration, you must update the context of the key rather than using the addContext\(\) method.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/spContextManagerAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -19,9 +20,9 @@ The spContextManager API is an AngularJS service that you can use in Service Por
 
 Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data. Available keys include: agent-chat: Sends widget data to Agent Chat.
 
-For more information about passing data to Agent Chat, see [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-va-in-sp.md).
+For more information about passing data to Agent Chat, see Configure Agent Chat in Service Portal.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## spContextManager - addContext\(String key, Object context\)
 

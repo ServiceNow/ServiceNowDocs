@@ -2,6 +2,7 @@
 title: Roles installed with Risk Management
 description: Roles are added with activation of GRC: Risk Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/r\_RolesInstallWRisk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -185,5 +186,5 @@ Users with this role can perform the following tasks:-   Take risk assessment.
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Risk Management](r_InstallWRisk.md)
+</table>**Parent Topic:**[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)
 

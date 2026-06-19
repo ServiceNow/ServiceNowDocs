@@ -2,6 +2,7 @@
 title: Identify all configuration items affected by a security incident
 description: If you know which resource \(server, desktop or other configuration item\) is behind a security incident and want to identify related resources and business services that can be affected, you can use the Business Service Management \(BSM\) map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_ViewBSMMap.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,19 +31,19 @@ There are two methods you can use to view the BSM map for a CI:
 
 ## Procedure
 
-1.  From the Security Incident form, populate the **Configuration item** field, and click the BSM map icon \(![Show CI map](../image/ShowCIMap.png)\).
+1.  From the Security Incident form, populate the **Configuration item** field, and select the BSM map icon \(\[Omitted image "ShowCIMap.png"\] Alt text: Show CI map\).
 
     The BSM map screen displays the map for the last incident you accessed in Incident Management or the last security incident you accessed in Security Incident Management.
 
-    ![BSM map](../image/BSMMap.png)
+    \[Omitted image "BSMMap.png"\] Alt text: BSM map
 
-2.  Click the icons next to a configuration item to view different kinds of details about the resource \(server, desktop, or other CI\).
+2.  Select the icons next to a configuration item to view different kinds of details about the resource \(server, desktop, or other CI\).
 
-    For example, click \(![Alert icon](../image/AlertIcon.png)\) to view alerts associated with the CI.
+    For example, select the alert icon to view alerts associated with the CI.
 
-    **Note:** To view a list of all the available icons, click **Filters** above the BSM map and expand **Filter Task Types**.
+    **Note:** To view a list of all the available icons, select **Filters** above the BSM map and expand **Filter Task Types**.
 
-3.  To arrange the map in different configurations, select any of the formats listed above the map \(**Vertical**, **Horizontal**, **Radial**\), or click **Filters** to filter the map for easier viewing.
+3.  To arrange the map in different configurations, select any of the formats listed above the map \(**Vertical**, **Horizontal**, **Radial**\), or select **Filters** to filter the map for easier viewing.
 
 4.  If you opened the BSM map from the security incident form, you can add a dependent CI to the security incident by right-clicking the CI and selecting **Add Affected CIs**.
 

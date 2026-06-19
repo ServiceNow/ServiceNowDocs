@@ -2,6 +2,7 @@
 title: Review invoice acknowledgment task from your mobile device
 description: Review invoices that require acknowledgment from your mobile application. Invoice acknowledgments are sent to the recipients of the purchases, and each line associated with an invoice can be marked as correct or incorrect. Your action on these to-dos moves the invoices to their respective workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/review-invoice-acknowledgment-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -47,5 +48,5 @@ Role required: sn\_shop.shopper
     |**Mark incorrect**|Tap on the invoice line and select **Mark incorrect** to move it to the Rejected state.|
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

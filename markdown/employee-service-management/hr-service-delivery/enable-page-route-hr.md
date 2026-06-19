@@ -2,6 +2,7 @@
 title: Enable the page route map
 description: If you have upgraded your instance, redirect your HR ticket pages to the Standard Ticket page in Portal. View your HR requests in the Standard Ticket Page view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/enable-page-route-hr.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -27,20 +28,20 @@ Role required: admin
 
     **Note:** **hrm\_ticket\_page** is available only when you have the Employee Center \[com.sn\_hr\_service\_portal\] plugin.
 
-    ![Page route mapping](enable-page-route-hr.png)
+    \[Omitted image "enable-page-route-hr.png"\] Alt text: Page route mapping
 
 3.  Create the page route map from **hrsp\_ticket** to **standard\_ticket**.
 
     **Note:** **hrsp\_ticket** is available only when you have Human Resources Scoped App: Core \[com.sn\_hr\_core\] plugin, without the Employee Service Center \[com.sn\_hr\_service\_portal\] plugin.
 
-    ![Page route mapping](enable-page-route-hr2.png)
+    \[Omitted image "enable-page-route-hr2.png"\] Alt text: Page route mapping
 
 4.  Create the page route map from **ticket** to **standard\_ticket**.
 
     **Note:** **ticket** is available only Non-HR catalog items.
 
-    ![Page route mapping](enable-page-route-hr3.png)
+    \[Omitted image "enable-page-route-hr3.png"\] Alt text: Page route mapping
 
 
-**Parent Topic:**[Standard Ticket Page view for HR Service Delivery](../concept/ur-hr-standard-ticket-page.md)
+**Parent Topic:**[Standard Ticket Page view for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ur-hr-standard-ticket-page.md)
 

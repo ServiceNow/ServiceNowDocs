@@ -2,6 +2,7 @@
 title: Add adhoc approvers to an HR case
 description: Provide your agents with the flexibility to add adhoc approvers to a case that is part of an HR service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-adhoc-approver.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

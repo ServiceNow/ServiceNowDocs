@@ -1,7 +1,8 @@
 ---
-title: Set operation-level security on a model
+title: Operation-level security for models
 description: Control access to model operations with user roles and groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-set-operation-level-security-on-a-model.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -12,9 +13,11 @@ keywords: [erp, canvas, erp canvas, model, security, operation, model security, 
 breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Set operation-level security on a model
+# Operation-level security for models
 
 Control access to model operations with user roles and groups.
+
+## Secure model operations
 
 You must have the sn\_erp\_integration.erp\_admin role to create and edit models.
 
@@ -22,17 +25,21 @@ In Zero Copy Connector for ERP \(Enterprise Resource Planning\), new permission 
 
 On a single model, different operations can have different permissions. For example, a financial data model can have some users with only read access to review data, but they can't update or create a financial record. For that same model, other users or groups can be given access to update and create financial records.
 
-![Manage model page with create, read, and update operations that have user or group roles assigned for security.](../image/erp-operation-security1.png)
+\[Omitted image "erp-operation-security1.png"\] Alt text: Manage model page with create, read, and update operations that have user or group roles assigned for security.
+
+## Edit security of existing operations
 
 To help prevent disruptions, all existing model operations have been assigned the admin role and the erp\_user role by default.
 
-You can edit these permissions on the existing operations at any time to suit your needs. To change the permissions, select the edit \(pencil\) icon ![](../../../reuse/icons/product-icons/pencil-outline-24.svg) on the model operation card.
+You can edit these permissions on the existing operations at any time to suit your needs. To change the permissions, select the edit \(pencil\) icon \[Omitted image "pencil-outline-24.svg"\] Alt text: on the model operation card.
 
-![Manage model page with create, read, and update operations that have the admin and erp_user role assigned.](../image/erp-operation-security2.png)
+\[Omitted image "erp-operation-security2.png"\] Alt text: Manage model page with create, read, and update operations that have the admin and erp\_user role assigned.
 
-To learn more about adding an operation, see [Add an operation to a model in Zero Copy Connector for ERP](../task/erpc-manage-models-read-op.md).
+## Additional resources
 
-To clone a model, you must have permissions to access the model operations. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](../task/erp-canvas-clone-data-model.md).
+To learn more about adding an operation, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
-**Parent Topic:**[Building and managing models to work with ERP data](work-with-erp-data-models.md)
+To clone a model, you must have permissions to access the model operations. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
+
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

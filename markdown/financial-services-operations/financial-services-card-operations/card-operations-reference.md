@@ -2,6 +2,7 @@
 title: Financial Services Card Operations reference
 description: Learn about the components and properties that are installed with the Financial Services Card Operations application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/card-operations-reference.html
 release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -15,10 +16,10 @@ breadcrumb: [Card Operations, Banking applications, Financial Services Operation
 
 Learn about the components and properties that are installed with the Financial Services Card Operations application.
 
--   **[Components installed with Financial Services Card Operations](../reference/installed-with-card-operations.md)**  
+-   **[Components installed with Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/installed-with-card-operations.md)**  
 Several types of components are installed with the installation of the Financial Services Card Operations application, including tables and user roles. The application also installs related plugins and store applications if they are not already installed.
--   **[Properties installed with Financial Services Card Operations](../reference/properties-installed-card-ops.md)**  
+-   **[Properties installed with Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/properties-installed-card-ops.md)**  
 Customize the properties that are available with the Financial Services Card Operations application.
 
-**Parent Topic:**[Financial Services Card Operations](card-ops-landing-page.md)
+**Parent Topic:**[Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/card-ops-landing-page.md)
 

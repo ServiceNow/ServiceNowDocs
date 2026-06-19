@@ -2,6 +2,7 @@
 title: Components installed with Goal Framework and Goal Framework for SPM
 description: Several types of components are installed with the installation of the Goal Framework and Goal Framework for Strategic Portfolio Management \(SPM\) applications, including user roles, scheduled jobs, tables, and scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/components-installed-with-goal-framework.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -127,8 +128,8 @@ Can create, view, edit, and delete any goal.
 
 |Scheduled job|Description|
 |-------------|-----------|
-|Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables|Migrates the existing goals data to the Goal Framework tables. For information on what data is migrated and how the data can be migrated, see [goal data migration.](../task/migrate-existing-goals-data.md)|
-|Migrate goal relationships for assigned entities|\(For Strategic Planning users\) Populates the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](../../spw-goals/reference/goal-form-egm.md) based on the data in the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table if you have created m2m relationship with lens entities other than **Company**, **Business Unit**, **Department**, and **Portfolio**.|
+|Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables|Migrates the existing goals data to the Goal Framework tables. For information on what data is migrated and how the data can be migrated, see [goal data migration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/migrate-existing-goals-data.md)|
+|Migrate goal relationships for assigned entities|\(For Strategic Planning users\) Populates the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-form-egm.md) based on the data in the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table if you have created m2m relationship with lens entities other than **Company**, **Business Unit**, **Department**, and **Portfolio**.|
 
 |Scheduled job|Description|
 |-------------|-----------|
@@ -266,7 +267,7 @@ Benefit PlansA target source with predefined script.
 
 </td><td>
 
-Predefined script that updates the **Actual value** field on the target form by fetching the required value from the **Actual benefit** field or **Non-monetary actual benefit** field from the monetary or non-monetary benefit plan records. For the script template, see [Target automation script for benefit plans](target-automation-script-benefit-plans.md).**Note:** You can use the Benefit Plans custom script only when PPM Standard \(Project Portfolio Management\) is installed.
+Predefined script that updates the **Actual value** field on the target form by fetching the required value from the **Actual benefit** field or **Non-monetary actual benefit** field from the monetary or non-monetary benefit plan records. For the script template, see [Target automation script for benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/target-automation-script-benefit-plans.md).**Note:** You can use the Benefit Plans custom script only when PPM Standard \(Project Portfolio Management\) is installed.
 
 </td></tr></tbody>
 </table>## System properties installed
@@ -285,5 +286,5 @@ Predefined script that updates the **Actual value** field on the target form by 
 |sn\_gfa.target\_breakdown\_decimals|Option to define the number of decimals to show for target values while generating the target breakdowns. The default value is 2.|
 |sn\_gfa.weeklyCheckInDayToMapMonth|Option to define end day of the week for weekly target breakdowns mapping to month. The default value is Friday.|
 
-**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](goal-framework-reference.md)
+**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework-reference.md)
 

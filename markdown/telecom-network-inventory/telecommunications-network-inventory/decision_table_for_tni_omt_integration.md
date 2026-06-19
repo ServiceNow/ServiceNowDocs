@@ -2,6 +2,7 @@
 title: Order Management for Telecommunications integration
 description: Use a Telecommunications Network Inventory decision table to integrate the Telecommunications Network Inventory and Order Management for Telecommunications applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/decision\_table\_for\_tni\_omt\_integration.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -51,5 +52,5 @@ Let's say that you add a service order with the category broadband service. Afte
 
 To transfer the order characteristics in the TNI Record Producer Variable Policy decision table, the order characteristics map with the record producer.
 
-**Parent Topic:**[Configuring decision tables for Telecommunications Network Inventory](../concept/decision_tables.md)
+**Parent Topic:**[Configuring decision tables for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/decision_tables.md)
 

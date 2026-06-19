@@ -2,6 +2,7 @@
 title: Exploring Workplace Move Management
 description: Manage and fulfill employee requests with Workplace Move Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/explore-move-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ As an admin, the Workplace Move Management application enables you to perform th
 
 ## Workplace Central - Move management
 
-Group multiple move requests under a move project and track their progress at a time using the Workplace Central Move Management workspace. For more information, refer to [Move Management](../../workplace-central/concept/move-mgmt.md).
+Group multiple move requests under a move project and track their progress at a time using the Workplace Central Move Management workspace. For more information, refer to [Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/move-mgmt.md).
 
-**Parent Topic:**[Workplace Move Management](workplace-move-mgmt-overview.md)
+**Parent Topic:**[Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-move-mgmt-overview.md)
 

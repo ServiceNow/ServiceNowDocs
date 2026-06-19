@@ -2,6 +2,7 @@
 title: Export a CWM Board to CSV or Microsoft Excel
 description: Export the list view of Collaborative Work Management \(CWM\) Boards to CSV or Microsoft Excel so that you can use the data to obtain insights, share with stakeholders, and prepare for analysis or presentations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/export-a-board-in-cwm-to-csv-or-excel.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +18,7 @@ Export the list view of Collaborative Work Management \(CWM\) Boards to CSV or M
 
 ## Before you begin
 
-[Create a Board in CWM](create-boards-in-cwm.md)
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md)
 
 Role required: sn\_cwm.cwm\_user
 
@@ -27,21 +28,21 @@ Role required: sn\_cwm.cwm\_user
 
 2.  From a Space, select the Board that you want to export.
 
-3.  From the Board header, select the More options icon \(![More options icon.](../images/cwm-icon-more-options.png)\), and then select **Export**.
+3.  From the Board header, select the More options icon \(\[Omitted image "cwm-icon-more-options.png"\] Alt text: More options icon.\), and then select **Export**.
 
-    ![Exporting a Board in CWM.](../images/cwm-board-export-option.png)
+    \[Omitted image "cwm-board-export-option.png"\] Alt text: Exporting a Board in CWM.
 
 4.  In the Export dialog, select the Board view that you want to export and the file type.
 
-<table id="choicetable_jqy_k2k_bdc"><thead><tr><th align="left" id="d231425e128">
+<table id="choicetable_jqy_k2k_bdc"><thead><tr><th align="left" id="d54093e128">
 
 Option
 
-</th><th align="left" id="d231425e131">
+</th><th align="left" id="d54093e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d231425e137">
+</th></tr></thead><tbody><tr><td id="d54093e137">
 
 **Current board view**
 
@@ -51,7 +52,7 @@ Description
 -   From the File type drop-down list, select **CSV** or **Excel**.
 
 
-</td></tr><tr><td id="d231425e163">
+</td></tr><tr><td id="d54093e163">
 
 **Complete board view**
 
@@ -64,7 +65,7 @@ Description
 </td></tr></tbody>
 </table>5.  Select **Export**.
 
-    ![Export dialog.](../images/cwm-board-export.png)
+    \[Omitted image "cwm-board-export.png"\] Alt text: Export dialog.
 
     **Note:** The exported file doesn't retain the hierarchy of the tasks from the Board and all links, including URLs, references to records and assigned users, are converted to plain text.
 
@@ -73,5 +74,5 @@ Description
 
 The file is downloaded and saved in your local system.
 
-**Parent Topic:**[Managing work using Boards in CWM](../concept/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 

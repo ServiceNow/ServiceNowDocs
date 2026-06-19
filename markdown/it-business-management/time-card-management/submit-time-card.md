@@ -2,6 +2,7 @@
 title: Submit a time card
 description: As a time card user, once a time card for the week is updated with the time worked, you can submit the time card individually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/submit-time-card.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -22,7 +23,7 @@ As a time card user, once a time card for the week is updated with the time work
 
 ## About this task
 
-When a user submits a time card, the [time sheet policy](../concept/time-sheet-policies.md) assigned to the user is used for validation. If there’s no time sheet policy assigned to the user, the default time sheet policy is used. Business rules help prevent a user from submitting a time card in case any violation is found.
+When a user submits a time card, the [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-sheet-policies.md) assigned to the user is used for validation. If there’s no time sheet policy assigned to the user, the default time sheet policy is used. Business rules help prevent a user from submitting a time card in case any violation is found.
 
 ## Procedure
 
@@ -45,5 +46,5 @@ When a user submits a time card, the [time sheet policy](../concept/time-sheet-p
     **Note:** If the project or user manager is changed after submitting the time card, the time card is automatically redirected to the new project or user manager for approval.
 
 
-**Parent Topic:**[Time cards](../concept/c_TimeCards.md)
+**Parent Topic:**[Time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/c_TimeCards.md)
 

@@ -2,7 +2,10 @@
 title: Raise an invoice request
 description: Raise an invoice request for any payment-related issues as a supplier on CBS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/request-apo.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -86,5 +89,5 @@ Option to add an attachment related to the request.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Core Business Suite](../concept/cbs-using-parent.md)
+**Parent Topic:**[Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/cbs-using-parent.md)
 

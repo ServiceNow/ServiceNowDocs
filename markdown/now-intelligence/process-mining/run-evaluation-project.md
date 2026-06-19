@@ -2,6 +2,7 @@
 title: Run the Process Mining evaluation project
 description: Run the Process Mining evaluation project to familiarize with improving your process with Process Mining capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/run-evaluation-project.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -61,8 +62,8 @@ You can run an evaluation project from Process Mining Workspace and Platform Ana
 
         You will be able to view the records of the last 7 days and a maximum of 3600 records.
 
-        **Note:** To know more about the evaluation projects available in Process Mining, see [Process Mining evaluation project for Incident Management](../concept/evaluation-pm-inci-manag.md), [Process Mining evaluation project for Customer Service Management](../concept/evaluation-pm-csm.md), and [Process Mining evaluation project for Human Resources](../concept/evaluation-pm-hr.md).
+        **Note:** To know more about the evaluation projects available in Process Mining, see [Process Mining evaluation project for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/evaluation-pm-inci-manag.md), [Process Mining evaluation project for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/evaluation-pm-csm.md), and [Process Mining evaluation project for Human Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/evaluation-pm-hr.md).
 
 
-**Parent Topic:**[Evaluation projects](../concept/evaluate-pm.md)
+**Parent Topic:**[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/evaluate-pm.md)
 

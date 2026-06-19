@@ -2,6 +2,7 @@
 title: Create an SLA definition
 description: You can create one or more Service Level Agreement \(SLA\) definitions and use them to create an SLA record. This SLA record enables you to use an SLA system for your organization's task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/t\_CreateAnSLADefinition.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -75,7 +76,7 @@ Table
 
 </td><td>
 
-Table that determines the records tracked by the SLA. SLAs can be defined for any table that extends the task table, including incident, change request, and service catalog tasks. **Note:** Starting with the Helsinki release, you can and [create an SLA definition for configuration items and business services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMSLAsForBSAndCIs.md) for Event Management.
+Table that determines the records tracked by the SLA. SLAs can be defined for any table that extends the task table, including incident, change request, and service catalog tasks. **Note:** Starting with the Helsinki release, you can and create an SLA definition for configuration items and business services for Event Management.
 
 </td></tr><tr><td>
 
@@ -123,7 +124,7 @@ Duration type
 
 </td><td>
 
-The method for calculating the duration of the SLA. The duration can be a **User specified duration** where the working hour and time zone specifies the duration before the SLA is marked as breached.The second type of duration is **Relative Duration**, where a date and time in the future is configured. For example, **Breach on Due Date** or **End of next business day** can be selected. If the date and time in the **Due Date** field is outside the schedule for the task SLA, the breach time is set to the next available scheduled time. For more information, see [SLA duration types](../concept/c_SLADuration.md).
+The method for calculating the duration of the SLA. The duration can be a **User specified duration** where the working hour and time zone specifies the duration before the SLA is marked as breached.The second type of duration is **Relative Duration**, where a date and time in the future is configured. For example, **Breach on Due Date** or **End of next business day** can be selected. If the date and time in the **Due Date** field is outside the schedule for the task SLA, the breach time is set to the next available scheduled time. For more information, see [SLA duration types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLADuration.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +142,7 @@ Relative duration works on
 
 The record that the relative duration should be calculated for. The working hours, date and time zone recorded for relative duration are dependent on either the schedule of related **Task record** or the defined **SLA record**.
 
-This field appears only when the relative duration is selected in Duration type field. For more information, see [SLA duration types](../concept/c_SLADuration.md).
+This field appears only when the relative duration is selected in Duration type field. For more information, see [SLA duration types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLADuration.md).
 
 </td></tr><tr><td>
 
@@ -172,7 +173,7 @@ The time zone source to be used when creating task SLAs. One of the following ti
 -   **The CI location's timezone**.
 -   **The task's location's timezone**.
 -   **The caller's location's timezone**.
-For more information, see [Time zones in SLAs](../concept/c_TimeZonesInSLAs.md).
+For more information, see [Time zones in SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_TimeZonesInSLAs.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -238,5 +239,5 @@ Select the condition type to determine when an SLA attaches, pauses, completes, 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Service Level Agreement \(SLA\) definition](../concept/c_SLADefinitions.md)
+**Parent Topic:**[Service Level Agreement \(SLA\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_SLADefinitions.md)
 

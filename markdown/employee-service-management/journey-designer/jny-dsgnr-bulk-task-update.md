@@ -2,6 +2,7 @@
 title: Manage Journey designer task updates in bulk
 description: Many journeys have similar task types for multiple users. You can update similar task types in bulk for journeys of the same type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-bulk-task-update.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -26,8 +27,8 @@ There are a limited number of task types available for bulk update.
 
 The bulk update feature is enabled for up to 50 journeys.
 
--   **[Update similar tasks in bulk](../task/jny-dsgnr-update-tasks.md)**  
+-   **[Update similar tasks in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-update-tasks.md)**  
 Managers, mentors, and other journey participants with access to certain Journey designer task types are able to update similar tasks identified by Journey designer in a single action.
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

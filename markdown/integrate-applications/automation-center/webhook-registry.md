@@ -2,6 +2,7 @@
 title: Create UiPath webhook registry
 description: Create UiPath webhook registries to establish a connection between UiPath and Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/webhook-registry.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -46,5 +47,5 @@ Role required: none
 
 The connection is set between UiPath and Automation Center. Whenever you send UiPath data to the instance, it happens via the URL provided. UiPath spoke validates the secret and accepts the data.
 
-**Parent Topic:**[Configuring UiPath with Automation Center](../concept/uipath-config.md)
+**Parent Topic:**[Configuring UiPath with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/uipath-config.md)
 

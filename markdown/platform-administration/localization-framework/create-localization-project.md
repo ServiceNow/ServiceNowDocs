@@ -2,6 +2,7 @@
 title: Create a localization project
 description: Create localization projects to bundle multiple requested items under one localization task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/create-localization-project.html
 release: australia
 product: Localization Framework
 classification: localization-framework

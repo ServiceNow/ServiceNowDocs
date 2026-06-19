@@ -2,6 +2,7 @@
 title: Set up pillars and entity types from Core UI
 description: Set up the pillars and entity types using Admin setup from the Core UI in the Operational Resilience application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-from-core-ui.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: sn\_oper\_res.admin
 
     The list of pillars available with the application are shown in the example. All pillars are in the inactive state.
 
-    ![Pillars in the Core UI view.](../image/pillars-core-ui-view.png)
+    \[Omitted image "pillars-core-ui-view.png"\] Alt text: Pillars in the Core UI view.
 
 2.  Activate the pillars first.
 
@@ -35,13 +36,13 @@ Role required: sn\_oper\_res.admin
 
         The example shows that the Active check box is selected.
 
-        ![Active check box is selected.](../image/pillar-record-active-option.png)
+        \[Omitted image "pillar-record-active-option.png"\] Alt text: Active check box is selected.
 
     4.  To save the settings, select **Update**.
 
         The example shows that the Business Services entity type is set to active.
 
-        ![The entity type is set to active.](../image/pillar-record-marked-active.png)
+        \[Omitted image "pillar-record-marked-active.png"\] Alt text: The entity type is set to active.
 
     5.  Repeat these steps for all required pillars.
 
@@ -53,7 +54,7 @@ Role required: sn\_oper\_res.admin
 
         The example shows the entity types that are set up in the instance.
 
-        ![Entity types that are set up in the instance.](../image/ent-types-list-from-core-ui.png)
+        \[Omitted image "ent-types-list-from-core-ui.png"\] Alt text: Entity types that are set up in the instance.
 
     2.  Select the Active check box, select **Pillar** \(must be active pillar\), and add **Description** \(optional\).
 
@@ -61,13 +62,13 @@ Role required: sn\_oper\_res.admin
 
         The example shows that the Active check box is selected.
 
-        ![The Active check box is selected.](../image/ent-types-active-option.png)
+        \[Omitted image "ent-types-active-option.png"\] Alt text: The Active check box is selected.
 
     3.  To save the entity type, select **Update**.
 
         The entity type is displayed in the Setup - Entity types list in the UI.
 
-        ![Entity type is displayed in the Setup - Entity types list.](../image/ent-types-marked-active.png)
+        \[Omitted image "ent-types-marked-active.png"\] Alt text: Entity type is displayed in the Setup - Entity types list.
 
     4.  Repeat these steps for all required entity types.
 
@@ -76,5 +77,5 @@ Role required: sn\_oper\_res.admin
 
 ## What to do next
 
-Once pillars and entity types are set up, configure the entity filters. For more information, see [Configure the entity filters](conf-ent-filter.md).
+Once pillars and entity types are set up, configure the entity filters. For more information, see [Configure the entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-ent-filter.md).
 

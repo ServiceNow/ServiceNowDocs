@@ -2,13 +2,14 @@
 title: Applying the CSDM guidelines to Hardware Asset Management
 description: Hardware Asset Management manages \(contributes data to\) CSDM tables. Hardware Asset Management also uses data from CSDM tables that other applications generate. Several ServiceNow products, therefore, benefit from and add value to Hardware Asset Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/ham-csdm-guidelines.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configuring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure, Hardware Asset Management, IT Asset Management]
 ---
 
 # Applying the CSDM guidelines to Hardware Asset Management
@@ -21,7 +22,7 @@ The CSDM is the data framework that you follow when you set up ServiceNow produc
 
 Using a CSDM standard and consistent set of terms and definitions helps to track the assets effectively through their life cycle transitions.
 
-**Note:** To set up CSDM for Hardware Asset Management, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md).
+**Note:** To set up CSDM for Hardware Asset Management, see .
 
 ## Tables adhering to the CSDM guidelines managed by Hardware Asset Management
 
@@ -107,5 +108,5 @@ If you have opted-in to CSDM in the releases before Xanadu, synchronization of t
 
 From the Xanadu release onward, when you opt in to CSDM, the life-cycle fields are directly synchronized between the asset and CI.
 
-For more details on synchronization of life-cycle fields, see [How life-cycle values for Asset, CI, and IBI are synchronized](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md).
+For more details on synchronization of life-cycle fields, see .
 

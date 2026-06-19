@@ -2,6 +2,7 @@
 title: Move an automation request to the Planned state
 description: After creating an automation request, move it to the Planned state before you work on it or create associated automation tasks or resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/move-automation-request-to-planned.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -17,7 +18,7 @@ After creating an automation request, move it to the **Planned** state before yo
 
 ## Before you begin
 
-Create an automation request. For more information, see [Creating an automation request](create-automation-request.md).
+Create an automation request. For more information, see [Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md).
 
 Verify that the state of the automation request is **New**.
 
@@ -27,7 +28,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation Center Home**.
 
-2.  Select the list icon \(![List icon.](../images/autocenter-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
@@ -40,5 +41,5 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 After you move an automation request to the Planned state, it's ready for you to work on.
 
-**Parent Topic:**[Working with automations](../concept/automations.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
 

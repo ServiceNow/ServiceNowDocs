@@ -2,6 +2,7 @@
 title: Associate learning content to a topic
 description: Add learning content to a topic page to provide employees with quick access to training and career development.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/add-learning.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,8 +24,8 @@ User Criteria required: Taxonomy Manager, Taxonomy Contributor, Topic Manager, T
 
 Do the following steps:
 
-1.  Install the Learning \[sn\_lep\] application: [Install and configure Learning](../../human-resources/concept/configuring-learning.md)
-2.  Provide employees with the Talent Development license to enable access to the learning content: [License Talent Development Core users](../../employee-service-management/task/egd-employee-profile-licensing.md)
+1.  Install the Learning \[sn\_lep\] application: [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/configuring-learning.md)
+2.  Provide employees with the Talent Development license to enable access to the learning content: [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-employee-profile-licensing.md)
 3.  Navigate to the **Scheduled jobs** &gt; **Refresh access to all apps** and click **Execute Now**.
 
     This adds a new record to the Employee Application Access \[sn\_employee\_app\_access.list\] table.
@@ -42,13 +43,13 @@ The Topic Content widget displays the connected content associated with that top
 
 3.  Select the **Learning** content type.
 
-    ![The content type shows Learning as a listed option on the field.](../images/cnnctd-cntnt-lrng.jpg)
+    \[Omitted image "cnnctd-cntnt-lrng.jpg"\] Alt text: The content type shows Learning as a listed option on the field.
 
     The **Learning course** field appears.
 
 4.  Select the course.
 
-    ![The Learning course field opens a new window with all the learning course items listed.](../images/learning-content-course.png)
+    \[Omitted image "learning-content-course.png"\] Alt text: The Learning course field opens a new window with all the learning course items listed.
 
 5.  Click **Submit**.
 
@@ -57,5 +58,5 @@ The Topic Content widget displays the connected content associated with that top
 
 Employees with Talent Development license can now access the learning content on the topic page.
 
-![The course appears in the topic content widget.](../images/learning-content.png)
+\[Omitted image "learning-content.png"\] Alt text: The course appears in the topic content widget.
 

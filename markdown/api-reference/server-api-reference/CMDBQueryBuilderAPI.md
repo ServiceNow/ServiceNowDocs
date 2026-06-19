@@ -2,6 +2,7 @@
 title: CMDBQueryBuilderAPI - Global
 description: Provides methods to execute Configuration Management Database \(CMDB\) Query Builder operations in server-side scripts.Creates a report that shows the results of a Configuration Management Database \(CMDB\) Query Builder query and returns the URL of the report.Deletes a Configuration Management Database \(CMDB\) Query Builder query.Returns the execution details for a Configuration Management Database \(CMDB\) Query Builder query.Saves a Configuration Management Database \(CMDB\) Query Builder query and returns the sys\_id of the saved query.Updates the JSON for a Configuration Management Database \(CMDB\) Query Builder query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CMDBQueryBuilderAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,17 +20,17 @@ This API requires the Configuration Management Database \(CMDB\) application \(c
 
 **Note:**
 
-This API is only available in Global scope. To use these methods in a scoped application, see [CMDBQBScopedScriptableAPI - Scoped](../../CMDBQBScoped/concept/CMDBQBScopedAPI.md#).
+This API is only available in Global scope. To use these methods in a scoped application, see [CMDBQBScopedScriptableAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQBScopedAPI.md).
 
-For more information about CMDB Query Builder, see [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-landing-page.md).
+For more information about CMDB Query Builder, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CMDBQueryBuilderAPI - createReport\(String savedQueryId, String savedQueryName\)
 
 Creates a report that shows the results of a Configuration Management Database \(CMDB\) Query Builder query and returns the URL of the report.
 
-For scoped applications, use [CMDBQBScopedScriptableAPI - createReport\(String savedQueryId, String savedQueryName\)](../../CMDBQBScoped/concept/CMDBQBScopedAPI.md#).
+For scoped applications, use [CMDBQBScopedScriptableAPI - createReport\(String savedQueryId, String savedQueryName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQBScopedAPI.md).
 
 <table id="id_dv4_sps_pbc" class="parameters"><thead><tr><th>
 
@@ -123,7 +124,7 @@ Message containing details about the success or failure of the report creation.P
 -   `Invalid queryId. Please provide a valid saved query ID`
 -   `Query must have a schedule with at least one run to create a report.`
 
-See also [Schedule a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.md).
+See also .
 
 Data type: String
 
@@ -176,7 +177,7 @@ Output:
 
 Deletes a Configuration Management Database \(CMDB\) Query Builder query.
 
-For scoped applications, use [CMDBQBScopedScriptableAPI - deleteQuery\(String savedQueryId, String savedQueryName\)](../../CMDBQBScoped/concept/CMDBQBScopedAPI.md#).
+For scoped applications, use [CMDBQBScopedScriptableAPI - deleteQuery\(String savedQueryId, String savedQueryName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQBScopedAPI.md).
 
 <table id="id_smz_nqs_pbc" class="parameters"><thead><tr><th>
 
@@ -304,9 +305,9 @@ Returns the execution details for a Configuration Management Database \(CMDB\) Q
 
 Optionally, you can execute the query in order to return current execution details.
 
-If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see [Batch size for Query Builder saved queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md).
+If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see Batch size for Query Builder saved queries.
 
-For scoped applications, use [CMDBQBScopedScriptableAPI - getSavedQueryExecutionDetails\(String savedQueryName, Boolean executeQuery, Number timeout\)](../../CMDBQBScoped/concept/CMDBQBScopedAPI.md#).
+For scoped applications, use [CMDBQBScopedScriptableAPI - getSavedQueryExecutionDetails\(String savedQueryName, Boolean executeQuery, Number timeout\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQBScopedAPI.md).
 
 <table id="id_ezv_4vz_pbc" class="parameters"><thead><tr><th>
 
@@ -410,7 +411,7 @@ Data type: String
 
 </td><td>
 
-Batch size of 100 allocated for the query run. This value only returns if the **executeQuery** parameter is true. See also [Batch size for CMDB Query Builder queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md).Data type: Number
+Batch size of 100 allocated for the query run. This value only returns if the **executeQuery** parameter is true. See also .Data type: Number
 
 </td></tr><tr><td>
 
@@ -519,7 +520,7 @@ PS LoadBal01
 
 Saves a Configuration Management Database \(CMDB\) Query Builder query and returns the sys\_id of the saved query.
 
-For scoped applications, use [CMDBQBScopedScriptableAPI - saveQuery\(String savedQueryName, String queryJson\)](../../CMDBQBScoped/concept/CMDBQBScopedAPI.md#).
+For scoped applications, use [CMDBQBScopedScriptableAPI - saveQuery\(String savedQueryName, String queryJson\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQBScopedAPI.md).
 
 <table id="id_dzn_1v5_pbc" class="parameters"><thead><tr><th>
 
@@ -647,7 +648,7 @@ Output:
 
 Updates the JSON for a Configuration Management Database \(CMDB\) Query Builder query.
 
-For scoped applications, use [CMDBQBScopedScriptableAPI - updateQuery\(String savedQueryId, String savedQueryName, String queryJson\)](../../CMDBQBScoped/concept/CMDBQBScopedAPI.md#).
+For scoped applications, use [CMDBQBScopedScriptableAPI - updateQuery\(String savedQueryId, String savedQueryName, String queryJson\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQBScopedAPI.md).
 
 <table id="id_s3p_mv5_pbc" class="parameters"><thead><tr><th>
 

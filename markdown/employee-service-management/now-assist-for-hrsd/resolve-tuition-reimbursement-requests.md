@@ -2,6 +2,7 @@
 title: Help resolve tuition reimbursement requests agentic workflow
 description: The Help resolve tuition reimbursement requests agentic workflow streamlines the reimbursement process by evaluating employee course reimbursement submissions against company policies and returning a decision of approval, denial, or request for additional information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -19,17 +20,17 @@ The Help resolve tuition reimbursement requests agentic workflow streamlines the
 
 The Help Resolve Tuition Reimbursement Requests agentic workflow automates the evaluation of employee tuition reimbursement submissions using the Policy-based HR evaluator skill to compare course information provided through the Employee Center against company policies documented in knowledge articles. For each request, the workflow collects the submitted course details, analyzes them against policy requirements, and returns a case analysis with one of three decisions: approval if the request meets all policy requirements, denial with explanation if requirements are not met, or a request for additional information if the submission is incomplete.
 
-**Note:** This agentic workflow is designed for reimbursement requests for courses that were pre-approved and completed. The [Help resolve tuition requests](now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md) agentic workflow helps employees evaluate whether a course meets company requirements before the employee enrolls.
+**Note:** This agentic workflow is designed for reimbursement requests for courses that were pre-approved and completed. The [Help resolve tuition requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md) agentic workflow helps employees evaluate whether a course meets company requirements before the employee enrolls.
 
 To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 2.  Select **Agentic workflows** &gt; **Help resolve tuition reimbursement requests**.
 
-    The Define key requirements workflow is displayed. For more information, see [Help resolve tuition reimbursement requests AI agents](resolve-tuition-reimbursement-requests.md#section_kgq_whk_h2c).
+    The Define key requirements workflow is displayed. For more information, see [Help resolve tuition reimbursement requests AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md).
 
-3.  The **Select a UI display** option enables the Now Assist panel. For more information, see [Select display](resolve-tuition-reimbursement-requests.md#section_bc5_ykn_x2c).
-4.  Enable the business rule that triggers the agentic workflow. For more information, see [Triggers for the Help resolve tuition reimbursement requests agentic workflow](resolve-tuition-reimbursement-requests.md#section_chn_zlf_j2c)
+3.  The **Select a UI display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md).
+4.  Enable the business rule that triggers the agentic workflow. For more information, see [Triggers for the Help resolve tuition reimbursement requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md)
 
 ## Help resolve tuition reimbursement requests AI agents
 

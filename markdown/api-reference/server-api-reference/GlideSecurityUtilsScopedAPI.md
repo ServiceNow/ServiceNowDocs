@@ -2,6 +2,7 @@
 title: GlideSecurityUtils - Scoped, Global
 description: The GlideSecurityUtils API provides methods to work with URLs.Removes suspicious encoding to prevent reflected or DOM based cross site scripting.Removes the domain address from the URL, which leaves the page name and parameters.Add escape characters to a script.Check the specified URL against the system defined allow list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideSecurityUtilsScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideSecurityUtils API provides methods to work with URLs.
 
 Access these methods using the static object GlideSecurityUtils. This class is available in scoped and global scripts.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideSecurityUtils - cleanURL\(String url\)
 

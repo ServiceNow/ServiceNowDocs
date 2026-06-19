@@ -2,6 +2,7 @@
 title: Array.Boolean data type
 description: Store a sequence of true or false values in an array.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/array-boolean-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -38,5 +39,5 @@ Store a sequence of true or false values in an array.
 |Hint|Provides guidance to flow or action designers on how to configure the data.|
 |Default value|Specifies the value used when a flow or action designer does not provide a value.|
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
 

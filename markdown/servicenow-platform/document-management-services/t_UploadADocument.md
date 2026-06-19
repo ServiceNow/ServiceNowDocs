@@ -2,6 +2,7 @@
 title: Upload a document
 description: Upload a document into a saved record. You can upload text files, spreadsheets, presentations, PDF files, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_UploadADocument.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -40,5 +41,5 @@ Role required: document\_management\_user
     After the initial document is uploaded, subsequent revisions can be created by checking out the document.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_CreateADocument.md)
 

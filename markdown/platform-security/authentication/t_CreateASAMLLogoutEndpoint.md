@@ -2,6 +2,7 @@
 title: Create a SAML logout endpoint
 description: Create a SAML logout endpoint to allow single logout.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_CreateASAMLLogoutEndpoint.html
 release: australia
 product: Authentication
 classification: authentication

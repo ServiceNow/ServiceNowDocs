@@ -2,6 +2,7 @@
 title: Copy a custom activity
 description: You can copy activities for reuse from the Custom tab in the global scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_CopyACustomActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -31,14 +32,14 @@ Role required: admin, activity\_admin, activity\_creator
 
     -   Copy into global scope as new activity: Copies the activity with the new name you provide, uses the same version number as the original activity, and moves it to the global scope in the **Custom** tab.
 
-        ![Naming an activity copy](../image/CopyCustomActivity.png "Naming an activity copy")
+        \[Omitted image "CopyCustomActivity.png"\] Alt text: Naming an activity copy
 
     -   Copy into global scope as new version: Copies the activity using the same name, increments the version number, and moves it to the global scope in the **Custom** tab. The system automatically adds the parent category to the **Custom** tab if it does not already exist. This action will overwrite another activity with the same name and version number.
 
-        ![Creating a new activity version](../image/NewVersionCustomActivity.png "Creating a new activity version")
+        \[Omitted image "NewVersionCustomActivity.png"\] Alt text: Creating a new activity version
 
     **Note:** If the activity is in any other scope but global, the system displays this message: `Cannot copy privately scoped activity`.
 
 
-**Parent Topic:**[Orchestration activity designer](../concept/c_WorkflowActivityDesigner.md)
+**Parent Topic:**[Orchestration activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_WorkflowActivityDesigner.md)
 

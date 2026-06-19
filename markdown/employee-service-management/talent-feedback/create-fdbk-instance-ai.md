@@ -2,6 +2,7 @@
 title: View survey instance
 description: A survey instance represents one questionnaire assigned to one user. You view an instance to verify that survey instances were created, to check the state of a survey instance, or to reassign a survey instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/create-fdbk-instance-ai.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback
@@ -32,7 +33,7 @@ Role required: admin
     -   **All**: Displays survey instances in all states. By default, these instances are sorted in ascending order by the **Number** field.
 2.  Open a survey instance from the required sub-module.
 
-    By default, you can view the following fields in the [Survey Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/survey-instance-form.md) for all sub-modules other than **Completed**.
+    By default, you can view the following fields in the  for all sub-modules other than **Completed**.
 
     -   **Number**
     -   **Metric type**

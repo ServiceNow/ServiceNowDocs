@@ -2,6 +2,7 @@
 title: Manage your documents and work papers with Audit Management as cloud files
 description: You can manage your documents and work papers with Audit Management as cloud files using cloud providers like Microsoft instead of attaching them to the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/manage-cloud-docs-using-onedrive-int.html
 release: australia
 product: Audit Management
 classification: audit-management

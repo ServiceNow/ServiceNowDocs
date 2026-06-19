@@ -2,6 +2,7 @@
 title: Goal/Target Relationship form
 description: Use the Goal/Target Relationship form to create a relationship between a goal and planning item, strategic item, or any other item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/goal-relationship-form.html
 release: australia
 product: Goal Framework
 classification: goal-framework
@@ -48,5 +49,5 @@ Document ID
 Document ID of the column from the selected reference table.The suggested values in this field depend on the reference table selected in the **Table** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](goal-framework-reference.md)
+</table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-framework-reference.md)
 

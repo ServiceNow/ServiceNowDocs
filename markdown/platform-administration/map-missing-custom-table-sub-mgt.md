@@ -2,6 +2,7 @@
 title: Map a missing custom table to a product subscription in Subscription Management
 description: Map a custom table in the global scope to a product subscription when that table isn't shown in the Unmapped global custom tables tab of Subscription Management. To stay in compliance, all custom tables must be mapped to a product subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/map-missing-custom-table-sub-mgt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,5 +49,5 @@ Subscription Management can't display product subscription recommendations for s
 
 One or more custom tables are mapped to a product subscription and your custom table entitlement count is updated. Updates made through the Custom Table Inventory form show in Subscription Management the next day.
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](../concept/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

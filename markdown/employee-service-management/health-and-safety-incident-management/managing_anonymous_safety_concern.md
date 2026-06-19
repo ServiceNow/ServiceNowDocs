@@ -2,6 +2,7 @@
 title: Managing an anonymous safety concern
 description: You can submit, track, and manage an anonymous report and get it addressed without revealing the identity of the individual reporting the safety concern.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/managing\_anonymous\_safety\_concern.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -19,14 +20,14 @@ The Anonymous Report Center promotes anonymous reporting of safety incidents, ob
 
 Use the Employee Center to report an anonymous concern and use the Health and Safety Workspace to manage the anonymous safety concern.
 
-The **Anonymous report center** \[com.sn\_anonymous\_report\_center\] plugin must be installed to enable reporting a safety concern anonymously. For more information, see [Activate the Anonymous Report Center](../../human-resources/task/arc-activate.md).
+The **Anonymous report center** \[com.sn\_anonymous\_report\_center\] plugin must be installed to enable reporting a safety concern anonymously. For more information, see [Activate the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-activate.md).
 
--   **[Submit an anonymous safety concern](../task/submit_anonymous_safety_concern.md)**  
+-   **[Submit an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/submit_anonymous_safety_concern.md)**  
 Report a safety concern or observation without revealing your identity.
--   **[Follow up on an anonymous report](../task/follow-up-on-anonymous-report.md)**  
+-   **[Follow up on an anonymous report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/follow-up-on-anonymous-report.md)**  
 You can retrieve your anonymous report to submit or view comments and updates from the agents working on your anonymous report. You must have the report key and report number to access your anonymous report.
--   **[Work on an anonymous safety concern](../task/work-anonymous-safety-concern.md)**  
+-   **[Work on an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/work-anonymous-safety-concern.md)**  
 Only an agent with the sensitive content role \[sn\_ohs\_im.sensitive\_observation\_content\_user\] can view and work on the anonymous report in the Health and Safety Workspace.
 
-**Parent Topic:**[Manage incidents, observations, and anonymous safety concerns](hs-manage-incidents-observations-annonymous-concerns.md)
+**Parent Topic:**[Manage incidents, observations, and anonymous safety concerns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-manage-incidents-observations-annonymous-concerns.md)
 

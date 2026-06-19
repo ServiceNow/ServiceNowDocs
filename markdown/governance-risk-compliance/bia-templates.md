@@ -2,6 +2,7 @@
 title: Business impact analysis \(BIA\) templates
 description: The Business Continuity Management application provides pre-configured business impact analysis \(BIA\) templates for creating a business impact analysis. If you are the BCM or BIA administrator, you can use the BIA Templates module in the Business Continuity Management application. You can then select the type of the template, elements, impact categories, and so on, for the business impact analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bia-templates.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ The BIA templates store information such as the impact categories and dependency
 
 If you have the sn\_bcm.admin role, you can view the BIA templates that are installed with demo data when you install the application or configure a BIA template in the **BIA Templates** module. The example shows the BIA templates that are installed with demo data in the Business Continuity Management application.
 
-![BIA templates that are installed with demo data.](../image/bia-templates.png)
+\[Omitted image "bia-templates.png"\] Alt text: BIA templates that are installed with demo data.
 
 ## BIA template configuration
 
@@ -56,17 +57,17 @@ With the sn\_bcm.admin role, you can configure these details in the BIA template
 
 The example shows the sample configuration of a BIA template in an instance.
 
-![Configuration of a BIA template.](../image/bia-template.png)
+\[Omitted image "bia-template.png"\] Alt text: Configuration of a BIA template.
 
 ## Configuring a BIA template
 
-For more information on how to configure a BIA template with the sn\_bcm.admin role, see [Configure BIA templates with legacy assessment](../task/configure-bia-template-uib-ws.md).
+For more information on how to configure a BIA template with the sn\_bcm.admin role, see [Configure BIA templates with legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-bia-template-uib-ws.md).
 
 ## Impact dependency groups
 
 The BIA template used for creating a business impact analysis has dependency groups associated with it. When conducting an assessment, the dependency groups are automatically populated in the BIA. You can view them as Applications, Hardware, Software, Vendors, Workplaces, and others, each in its own container depending on how many of these groups are associated to the template.
 
-![Dependency groups.](../image/impact-dep-groups.png)
+\[Omitted image "impact-dep-groups.png"\] Alt text: Dependency groups.
 
 Each of them is a dependency group and you can add or remove items that belong to each group within its container.
 

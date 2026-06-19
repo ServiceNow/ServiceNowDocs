@@ -2,6 +2,7 @@
 title: Enroll as a mentor or mentee
 description: Enroll as a mentor or mentee to learn from your peers in new ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/enroll-mentoring.html
 release: australia
 product: Mentoring
 classification: mentoring

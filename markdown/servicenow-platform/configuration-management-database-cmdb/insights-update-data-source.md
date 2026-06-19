@@ -2,6 +2,7 @@
 title: Edit a data source from CMDB performance insights
 description: Edit a data source for your Service Graph Connectors to specify the data that an import set should ingest. Consider configuring a batch process to make ingestion more efficient and improve performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/insights-update-data-source.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -37,10 +38,10 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and import\_admin.
 
     For more information about data sources, see:
 
-    -   [Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreateNewDataSource.md)
-    -   [Data source fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/r_DataSourceFileTypeFields.md)
+    -   
+    -   
 8.  Select **Update**.
 
 
-**Parent Topic:**[CMDB Workspace store app](../concept/cmdb-workspace.md)
+**Parent Topic:**[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 

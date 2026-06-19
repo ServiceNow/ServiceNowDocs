@@ -2,6 +2,7 @@
 title: Create a risk using the GRC: Workbench
 description: Risk managers can create risks directly from the GRC: Workbench.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-using-grc-workbench.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -235,5 +236,5 @@ Enter a reasonable justification for the selected response
     The risk is created and centered in the middle of the page. Also, the risk is selected on the right.
 
 
-**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](../concept/grc-workbench.md)
+**Parent Topic:**[Use entity and risk dependencies using the GRC: Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-workbench.md)
 

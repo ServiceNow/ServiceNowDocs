@@ -2,6 +2,7 @@
 title: Configure SLA repair
 description: Administrators can set SLA repair properties and view repair logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/r\_ManageSLARepair.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -32,5 +33,5 @@ Navigate to **Service Level Management** &gt; **Repair Logs** to view repair log
 -   **All Repairs**: view all repairs.
 -   **Repair Entries**: view SLA Repair Log entries for all repairs that have run.
 
-**Parent Topic:**[Repair Service Level Agreement \(SLA\)](../concept/c_RepairSLAs.md)
+**Parent Topic:**[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
 

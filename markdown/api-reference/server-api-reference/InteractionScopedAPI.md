@@ -2,6 +2,7 @@
 title: Interaction - Scoped
 description: The Interaction API provides methods that enable you to define the behavior for interaction records.Accepts a new interaction.Creates an interaction.Returns an interaction record.Transfers an interaction record to an agent using the sys\_id for the agent.Transfers an interaction record to an interaction queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/InteractionScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The Interaction API provides methods that enable you to define the behavior for 
 
 This class requires the Interaction Logging, Routing, and Queueing plugin \(com.glide.interaction\) and runs in the `sn_interaction` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Interaction - accept\(\)
 

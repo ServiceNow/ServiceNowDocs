@@ -2,6 +2,7 @@
 title: Security Auditable Fields
 description: Displays table and field level details that will be audited in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/security-auditable-fields.html
 release: australia
 product: Identity
 classification: identity
@@ -29,7 +30,7 @@ To access the Security Auditable Fields page, navigate to **All** &gt; **System 
 |Delete|Whether changes related to the Delete operation will be audited.|
 |Active|Audits only if the configuration for the table is active.|
 
-![Security Auditable Fields](../images/security-auditable-fields.png)
+\[Omitted image "security-auditable-fields.png"\] Alt text: Security Auditable Fields
 
 The following tables can be audited using the Identity and Access Audit​:
 

@@ -2,6 +2,7 @@
 title: Domain separation in GRC: Policy and Compliance Management
 description: Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/domain-separation-pol-comp.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -25,7 +26,7 @@ Domain separation enables you to separate data, processes, and administrative ta
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Benefits of having domain-separated tables in Policy and Compliance Management
 
@@ -117,10 +118,10 @@ The following changes are made to the domain assignment process to manage data s
 |Article Template|User Domain|
 |Compliance data source registry|User Domain|
 
-**Parent Topic:**[Policy and Compliance Management reference](reference-data-policy-compliance.md)
+**Parent Topic:**[Policy and Compliance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/reference-data-policy-compliance.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

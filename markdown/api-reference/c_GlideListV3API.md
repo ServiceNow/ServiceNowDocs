@@ -2,6 +2,7 @@
 title: GlideListV3 \(g\_list\) - Client \(deprecated\)
 description: The GlideListV3 API provides methods to manipulate lists.Adds a single term to the list query filter.Returns the GlideList object for specified list.Returns the GlideList object for the specified DOM element.Returns a comma-separated list of sys\_ids for checked items in the list. Does not return items that are not allowed to be executed.Returns the sysparm\_fixed query.Returns the form's target attribute.Returns the field or comma-separated list of fields that are used to group the list.Returns the name of the list, which is usually the table name.Returns the first field used to order the list.Returns the name of the parent table \(the table associated with the form\).Returns the encoded query string for the list.Returns the referring URL.Returns the related list field that associates the related list to the parent form.Returns the related list type.Returns the relationship record id, if this is type REL related list.Returns the number of rows returned by the query.Returns the number of rows to be displayed on a page.Returns the table name of the list.Returns the list title.Returns the view used to display the list.Returns true if the list has been personalized by the user.Refreshes the list. The orderBy part of the list filter is ignored so that the list's natural ordering is used.Refreshes the list using the orderBy fields.Sets the encoded query string for the list ignoring the orderBy and groupBy parts of the query string.Sets the encoded query string for the list, and then refreshes the list using the new filter.Sets the first row to be displayed when the list is refreshed.Specifies where to display the response from the form.Sets the groupBy criteria for the list, for a single field or multiple fields.Sets the orderBy criteria for the list.Sets the parent form referring url.Set the number of rows to display on a page.Displays or hides all of the groups within the list and saves the current collapsed/expanded state of the groups as a user preference.Displays or hides the list and saves the current collapsed/expanded state of the list as a user preference.Sort the list in ascending order.Sorts the list in descending order.Toggles the list display between collapsed and expanded, and saves the state as a user preference.Toggles the list display between collapsed and expanded, but does not save the state as a user preference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideListV3API.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -19,9 +20,9 @@ You access the GlideListV3 methods by using the `g_list` global object. These me
 
 **Note:**
 
-This API is no longer supported. Consider using the [GlideList2\(\)](../../GlideList2/concept/c_GlideList2API.md#) API instead.
+This API is no longer supported. Consider using the [GlideList2\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideList2API.md) API instead.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## GlideListV3 - addFilter\(String filter\)
 

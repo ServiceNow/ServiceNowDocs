@@ -2,6 +2,7 @@
 title: Microsoft Azure Alert driven discovery
 description: The Microsoft Azure Alert service can raise alerts for any changes in the life-cycle state or the configuration of a cloud resource. You can configure the service to auto-update the latest resource information in the Configuration Management Database \(CMDB\) without waiting for the next scheduled Cloud Discovery to run. Configure the Microsoft Azure Alert service to auto-update the Configuration Management Database \(CMDB\) without waiting for the next scheduled Cloud Discovery to run.Enable alert-driven discovery for a new Microsoft Azure alert type by adding it to the Azure Alert Rules \[azure\_alert\_rule\] table.The base system Cloud Discovery supports alert driven discovery for several Microsoft Azure alert types. The Azure Alert Rules \[azure\_alert\_rule\] table contains the supported alert types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -15,7 +16,7 @@ breadcrumb: [Discovery for Microsoft Azure, Discovery for cloud environment, Dis
 
 The Microsoft Azure Alert service can raise alerts for any changes in the life-cycle state or the configuration of a cloud resource. You can configure the service to auto-update the latest resource information in the Configuration Management Database \(CMDB\) without waiting for the next scheduled Cloud Discovery to run.
 
-**Important:** The Azure change processing offers an optimal performance when compared to the Microsoft Azure alert-driven discovery that uses a legacy form of authentication and should no longer be used. Starting with the Discovery and Service Mapping Patterns app version 1.1.0, the Azure change processing has replaced the Microsoft Azure alert-driven discovery. Use the new secure webhook or migrate to [Azure change processing](azure-change-processing.md) for additional performance gains. For more information, see on the secure webhook, see the knowledge base article [Azure Alert service to auto-update the CMDB has webhook url without credentials in the azure portal](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=1bf707c5938fe550d9743f986cba10b9).
+**Important:** The Azure change processing offers an optimal performance when compared to the Microsoft Azure alert-driven discovery that uses a legacy form of authentication and should no longer be used. Starting with the Discovery and Service Mapping Patterns app version 1.1.0, the Azure change processing has replaced the Microsoft Azure alert-driven discovery. Use the new secure webhook or migrate to [Azure change processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-change-processing.md) for additional performance gains. For more information, see on the secure webhook, see the knowledge base article [Azure Alert service to auto-update the CMDB has webhook url without credentials in the azure portal](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=1bf707c5938fe550d9743f986cba10b9).
 
 During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To prevent the failed events visibility to all domains, you can set the **sn\_cmp.error\_events.default\_domain** property to sys\_id of the service-provider domain so that the failed events appears only to the service-provider domain administrator.
 
@@ -129,7 +130,7 @@ Resource Group
 
 </td><td>
 
-Resource group that contains the alert rules. Select the Microsoft Azure service account. For more information on adding a Microsoft Azure service account, see [Add an Azure service account](../../cloud-management-v2-setup/task/azure-service-account-cloud-mgt.md).
+Resource group that contains the alert rules. Select the Microsoft Azure service account. For more information on adding a Microsoft Azure service account, see [Add an Azure service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-service-account-cloud-mgt.md).
 
  The instance creates the alert rules for all the resources that are available in the service account.
 
@@ -173,7 +174,7 @@ Role required: admin
 
 ### About this task
 
-The Azure Alert Rules \[azure\_alert\_rule\] table contains all the supported alert types. For more information, see [Supported Microsoft Azure alert types](microsoft-azure-alert-driven-discovery.md#). The Microsoft Azure Alert service uses the information stored in the Azure Alert Rules \[azure\_alert\_rule\] table to raise the alerts. Cloud Discovery also supports all the alerts generated for the members of the resource group specified in the Microsoft Azure alert configuration.
+The Azure Alert Rules \[azure\_alert\_rule\] table contains all the supported alert types. For more information, see [Supported Microsoft Azure alert types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/microsoft-azure-alert-driven-discovery.md). The Microsoft Azure Alert service uses the information stored in the Azure Alert Rules \[azure\_alert\_rule\] table to raise the alerts. Cloud Discovery also supports all the alerts generated for the members of the resource group specified in the Microsoft Azure alert configuration.
 
 ### Procedure
 

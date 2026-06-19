@@ -2,6 +2,7 @@
 title: Integrate ThousandEyes with REST API key token
 description: Integrate using an API key to establish secure communication and automate data exchange via REST API. This simplifies integration, enabling seamless access to services and enhancing operational efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/integrate-thousandeyes-api-key.html
 release: australia
 product: Event Management
 classification: event-management
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_integration
 
 1.  Navigate to **All** &gt; **System Web Services** &gt; **API Access Policies** &gt; **REST API Key**.
 
-    ![Rest API navigation](../image/em-rest-api-navigation.png)
+    \[Omitted image "em-rest-api-navigation.png"\] Alt text: Rest API navigation
 
 2.  Select **New**.
 
@@ -47,7 +48,7 @@ Role required: evt\_mgmt\_integration
 
     The system generates a token and saves it in the **Token** field. To see the token, use the lock icon and copy the contents display below the field. This is your query parameter \(or header\) value when your other system sends a REST API request to ServiceNow.
 
-    ![Rest API token generated in the Token field.](../image/em-rest-api-token.png)
+    \[Omitted image "em-rest-api-token.png"\] Alt text: Rest API token generated in the Token field.
 
 
 ## Result

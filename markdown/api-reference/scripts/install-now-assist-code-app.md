@@ -2,6 +2,7 @@
 title: Install Now Assist for Code
 description: Install the ServiceNow Now Assist for Creator application from the ServiceNow Store to get Now Assist for code generation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/install-now-assist-code-app.html
 release: australia
 product: Scripts
 classification: scripts
@@ -40,5 +41,5 @@ Role required: admin
     3.  Verify that the Now Assist for Code skills are active.
 
 
-**Parent Topic:**[Configuring Now Assist for Code](../concept/configuring-now-assist-code.md)
+**Parent Topic:**[Configuring Now Assist for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/configuring-now-assist-code.md)
 

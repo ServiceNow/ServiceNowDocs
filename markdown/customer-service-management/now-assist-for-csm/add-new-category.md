@@ -2,6 +2,7 @@
 title: Add new category
 description: Create a category by entering the required details and saving the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/add-new-category.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

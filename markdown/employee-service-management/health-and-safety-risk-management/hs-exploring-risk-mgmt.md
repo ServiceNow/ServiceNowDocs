@@ -2,6 +2,7 @@
 title: Exploring Health and Safety Risk Management
 description: Learn more about Health and Safety Risk Management and review the benefits it can provide for different users in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-exploring-risk-mgmt.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -92,7 +93,7 @@ Access Employee Center and Now Mobile app based app that enables any worker to s
 
 </td><td>
 
-[Job Safety Analysis \(JSA\)](../task/hs-submit-jsa-emp-center.md)
+[Job Safety Analysis \(JSA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-emp-center.md)
 
 </td><td>
 
@@ -105,7 +106,7 @@ Enable employees to use the predefined jobs and get started quickly for their JS
 
 </td><td>
 
-[Job register](../task/hs-define-job-register.md)
+[Job register](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-job-register.md)
 
 </td><td>
 
@@ -117,7 +118,7 @@ Access the safety risk assessment in the workspace to assess risks and implement
 
 </td><td>
 
-[Safety risk assessment](hs-risk-assessment.md)
+[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)
 
 </td><td>
 
@@ -130,7 +131,7 @@ Create and manage your visual risk matrixes that adhere to local regulations or 
 
 </td><td>
 
-[Risk Matrices](../task/hs-configure-risk-matrix.md)
+[Risk Matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-risk-matrix.md)
 
 </td><td>
 
@@ -145,7 +146,7 @@ Manage your hazards and controls lists and build and manage job register.Control
 
 </td><td>
 
-[Risk Configuration](hs-setting-up-risk-mgmt.md)​
+[Risk Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)​
 
 </td><td>
 
@@ -158,7 +159,7 @@ Log where hazardous materials are used, along with Safety Data Sheets \(SDSs\).�
 
 </td><td>
 
-[Safety registers](hs-safety-registers.md)
+[Safety registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-registers.md)
 
 </td><td>
 
@@ -171,7 +172,7 @@ Support chemical safety awareness through the Employee Center with searchable Sa
 
 </td><td>
 
-[Access Safety Data Sheets \(SDSs\)](../task/hs-view-safety-register-docs-ec.md)
+[Access Safety Data Sheets \(SDSs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-view-safety-register-docs-ec.md)
 
 </td><td>
 
@@ -184,7 +185,7 @@ Empower a proactive and conformant safety practice through scheduled and ad-hoc 
 
 </td><td>
 
-[Safety inspections and audits](hs-safety-inspections.md)
+[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 
 </td><td>
 
@@ -198,7 +199,7 @@ Enable agents to complete inspection or audit assessments offline that are synch
 
 </td><td>
 
-[Offline inspections and audits on mobile](../../hs-health-safety-mobile/task/complete-safety-inspection-survey-offline-mode.md)
+[Offline inspections and audits on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/complete-safety-inspection-survey-offline-mode.md)
 
 </td><td>
 
@@ -211,7 +212,7 @@ Identify exposure sources and track worker exposure levels across your organizat
 
 </td><td>
 
-[Safety exposure management](hs-safety-exposures.md)
+[Safety exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-exposures.md)
 
 </td><td>
 
@@ -224,7 +225,7 @@ Identify hazards, implement precautions, and maintain accountability to promote 
 
 </td><td>
 
-[Permit-to-work system](hs-permit-to-work.md)
+[Permit-to-work system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
 
 </td><td>
 
@@ -233,5 +234,5 @@ Identify hazards, implement precautions, and maintain accountability to promote 
 -   Permit coordinator
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management](hs-risk-management-landing-page.md)
+</table>**Parent Topic:**[Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-management-landing-page.md)
 

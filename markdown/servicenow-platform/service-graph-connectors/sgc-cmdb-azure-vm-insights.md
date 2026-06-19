@@ -2,6 +2,7 @@
 title: Enabling VM insights for collecting Azure data
 description: You must enable the VM insights feature in the Azure portal for collecting TCP and processes data using the Service Graph Connector for Microsoft Azure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-vm-insights.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

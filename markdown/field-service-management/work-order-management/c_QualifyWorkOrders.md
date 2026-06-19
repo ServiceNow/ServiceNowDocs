@@ -2,6 +2,7 @@
 title: Qualify a work order
 description: Work orders must be qualified to ensure that work order tasks are created and assigned. The qualifying process can be automatic or manual.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_QualifyWorkOrders.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Managem
 
 Work orders must be qualified to ensure that work order tasks are created and assigned. The qualifying process can be automatic or manual.
 
-Depending on how the [Qualification is required for new requests](../task/t_ConfigureFieldService.md#LifecycleOptions) option is set in the Field Service Management configuration, the qualifying process is manual or automatic.
+Depending on how the [Qualification is required for new requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md) option is set in the Field Service Management configuration, the qualifying process is manual or automatic.
 
 -   **Manual qualification**
 

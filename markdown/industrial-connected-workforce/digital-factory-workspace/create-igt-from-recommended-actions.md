@@ -2,6 +2,7 @@
 title: Create an Industrial Guided Task from Recommended Actions
 description: Create an Industrial Guided Task \(IGT\) based on the Recommended Actions for a deviation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-igt-from-recommended-actions.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -49,5 +50,5 @@ Role required: both sn\_icw.deviation\_user and sn\_icw\_igt.user
 
 A new standard task is created and displayed in the list of tasks. It contains all the information from both the standard and the deviation.
 
-**Parent Topic:**[Using Industrial Guided Tasks](../concept/using-industrial-guided-tasks.md)
+**Parent Topic:**[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)
 

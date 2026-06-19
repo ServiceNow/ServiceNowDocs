@@ -2,6 +2,7 @@
 title: Asset status values aligned to CSDM life cycle values
 description: Legacy status values for Asset and Hardware Asset CIs are aligned with CSDM life cycle stage and life cycle stage status values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-map-csdm-to-asset.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -24,5 +25,5 @@ Legacy status values for Asset and Hardware Asset CIs are aligned with CSDM life
 |In Use / In Maintenance|Consume / Operate|The asset is actively supporting services or under maintenance.|
 |Pending Disposal / Disposed|Retire|Asset life cycle ends. CSDM also transitions to retirement.|
 
-**Parent Topic:**[CSDM reference](../../csdm-implementation/concept/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

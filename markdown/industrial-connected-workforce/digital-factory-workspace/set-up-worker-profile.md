@@ -2,6 +2,7 @@
 title: Set up a worker profile
 description: Establish a connection between a functional location and a user by setting up a worker profile in Industrial Connected Workforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/set-up-worker-profile.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -39,8 +40,8 @@ The sn\_icw\_worker\_profile table contains the link between a user and a functi
 
 5.  Select **Submit**.
 
-    ![New record page for worker profile](../../icw-industrial-connected-workforce/image/worker-profile.png)
+    \[Omitted image "worker-profile.png"\] Alt text: New record page for worker profile
 
 
-**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](../concept/setting-up-prerequisites-digital-factory-workspace.md)
+**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 

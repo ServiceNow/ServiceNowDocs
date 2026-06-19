@@ -2,6 +2,7 @@
 title: Use the ODBC driver in Excel
 description: After installing the ODBC driver and its associated DSN, use it in Excel as a data source provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_UsingTheODBCDriverInExcel2010.html
 release: australia
 product: Web Services
 classification: web-services
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Under **From Other Sources**, open **From Microsoft Query**.
 
-    ![From Microsoft Query.](../image/ExcelOtherQuery.png)
+    \[Omitted image "ExcelOtherQuery.png"\] Alt text: From Microsoft Query.
 
 3.  Select **ServiceNow** as your database \(the default DSN name\).
 
@@ -33,15 +34,15 @@ Role required: admin
 
     **Note:** The Excel Query Wizard does not support the listing of columns from a table name that contain an underscore \( \_ \). Clearing this check box uses the Query Builder instead, which supports the use of this character.
 
-    ![ServiceNow Data Source.](../image/ExcelServiceNowDataSource.png)
+    \[Omitted image "ExcelServiceNowDataSource.png"\] Alt text: ServiceNow Data Source.
 
 5.  Supply the ServiceNow user name and password.
 
-    ![Data Source Login.](../image/ExcelDataSourceLogin.png)
+    \[Omitted image "ExcelDataSourceLogin.png"\] Alt text: Data Source Login.
 
 6.  Select a table from the ServiceNow instance and click **Add**.
 
-    ![Add Table.](../image/ExcelODBCAddTable.png)
+    \[Omitted image "ExcelODBCAddTable.png"\] Alt text: Add Table.
 
 7.  Close the dialog box.
 
@@ -51,12 +52,12 @@ Role required: admin
 
 9.  Retrieve the data and create the Excel record by clicking the **Return Data** icon or selecting **File &gt; Return Data to Microsoft Office Excel**.
 
-    ![Query Builder Retrieve Data.](../image/QueryBuilderRetrieveData.png)
+    \[Omitted image "QueryBuilderRetrieveData.png"\] Alt text: Query Builder Retrieve Data.
 
     The requested data is brought into Excel.
 
-    ![Excel ODBC Results.](../image/ExcelODBCResults.png)
+    \[Omitted image "ExcelODBCResults.png"\] Alt text: Excel ODBC Results.
 
 
-**Parent Topic:**[ODBC and client applications](../reference/r_ODBCAndClientApplications.md)
+**Parent Topic:**[ODBC and client applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_ODBCAndClientApplications.md)
 

@@ -1,19 +1,21 @@
 ---
 title: Invoice processing case form tabs
-description: The Invoice form includes tabs that store invoice information that an Accounts Payable Specialist can use to perform related tasks.
+description: Tab descriptions for the Invoice processing case form, including invoice details, exceptions, approvals, and related processing information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-tabs.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, invoice processing]
 breadcrumb: [Invoice processing case form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice processing case form tabs
 
-The Invoice form includes tabs that store invoice information that an Accounts Payable Specialist can use to perform related tasks.
+Tab descriptions for the Invoice processing case form, including invoice details, exceptions, approvals, and related processing information.
 
 <table id="table_bv2_qsd_2xb"><thead><tr><th>
 
@@ -104,5 +106,5 @@ Task SLAs
 The service level agreements that are associated with this case.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Invoice processing case form](invoice-processing-case-form.md)
+</table>**Parent Topic:**[Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-processing-case-form.md)
 

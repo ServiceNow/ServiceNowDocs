@@ -2,6 +2,7 @@
 title: Common Service Data Model for Operational Resilience
 description: Starting with Release 20.1.x, the Operational Resilience application supports the latest Common Service Data Model \(CSDM\). CSDM is the data framework that administrators use when configuring ServiceNow products and applications. It ensures that configuration items \(CIs\) and their relationships are properly defined and stored in the relevant Configuration Management Database \(CMDB\) tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/exploring-csdm-v5-in-opres.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -57,5 +58,5 @@ The Service Process pillar is the parent table for all staging tables in Operati
 
 References for business services \(BS\), service offerings \(SO\), business processes \(BP\), and application services \(AS\) are added to the \[sn\_oper\_res\_profile\] table.
 
-For more information on the tables that are relevant to the CSDM data model, see [Tables relevant to CSDM](../reference/csdm-v5-ref.md). For information on the pillars, see [Pillars overview tab](../../grc-operational-res-ws/concept/pillars-ov.md).
+For more information on the tables that are relevant to the CSDM data model, see [Tables relevant to CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/csdm-v5-ref.md). For information on the pillars, see [Pillars overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/pillars-ov.md).
 

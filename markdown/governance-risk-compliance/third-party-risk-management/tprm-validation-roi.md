@@ -2,12 +2,13 @@
 title: Validation framework for Register of Information
 description: The validation framework helps ensure that RoI packages meet regulatory requirements defined by the DORA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-validation-roi.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-05-15"
+reading_time_minutes: 5
 keywords: [DORA validation, RoI package, third-party risk, compliance]
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -23,6 +24,7 @@ The validation framework for the Digital Resilience Third-party Information Regi
 -   Level 1 \(Technical checks\): 29 rules validating file encoding, structure, and naming.
 -   Level 2 \(Data package mode technical checks\): 12 rules ensuring template and schema alignment.
 -   Level 3 \(Data package model business rules\): 70 rules verifying regulatory logic and field dependencies.
+-   Level 4 \(LEI validation\): Batch validation of all Legal Entity Identifier codes in the package against the GLEIF database, verifying existence, entity status, registration status, and name and country consistency. Results are included in a downloadable `Level4_LEI_Validation_Report.csv` file in the `Consolidated_Reports.zip` attachment. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md) and [Level 4 LEI Validation Report columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-lei-validation-report.md).
 
 **Note:** The Data Package Model is used to structure and validate RoI packages.
 

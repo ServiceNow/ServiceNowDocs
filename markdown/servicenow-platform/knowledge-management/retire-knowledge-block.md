@@ -2,6 +2,7 @@
 title: Retire a knowledge block
 description: You can retire a published knowledge block so that it's no longer available for users to view or search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/retire-knowledge-block.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -30,12 +31,12 @@ Role required: user must have contributor access to the knowledge base.
     **Note:**
 
     -   Starting from the Australia release, you can retire the knowledge block attached to an article by setting the \(**glide.knowman.allow\_retire\_block**\) system property to true.
-    -   Any additional steps required to retire the knowledge block, such as approvals, depend on the workflow for the knowledge base. See [Knowledge workflows](../reference/r_KnowledgeWorkflows.md#) for more information.
+    -   Any additional steps required to retire the knowledge block, such as approvals, depend on the workflow for the knowledge base. See [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md) for more information.
     -   A knowledge block can only be deleted if it's not being used in any knowledge article, including any retired article or previous version of an article.
 
 ## Result
 
 The retired knowledge block is no longer visible in the article.
 
-**Parent Topic:**[Create a knowledge block](create-modify-knowledge-block.md)
+**Parent Topic:**[Create a knowledge block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/create-modify-knowledge-block.md)
 

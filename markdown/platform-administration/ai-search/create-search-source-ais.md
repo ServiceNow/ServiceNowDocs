@@ -2,6 +2,7 @@
 title: Create a search source for AI Search
 description: Make searchable content from an indexed source available in user search experiences by defining a search source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/create-search-source-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Make searchable content from an indexed source available in user search experien
 
 ## Before you begin
 
-You must have an indexed source defined. For more details on setting up indexed sources, see [Create an indexed source](create-indexed-source-ais.md).
+You must have an indexed source defined. For more details on setting up indexed sources, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-indexed-source-ais.md).
 
 Role required: ais\_admin
 
@@ -33,12 +34,12 @@ Define at least one search source for each of your indexed sources. You can defi
 
 3.  On the Search Source form, fill in the fields.
 
-    For a description of the field values, see [Search Source form](../reference/search-source-form-ais.md).
+    For a description of the field values, see [Search Source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-source-form-ais.md).
 
 4.  Select **Submit**.
 
     The new search source appears in the Search Sources related list.
 
 
-**Parent Topic:**[Search sources in AI Search](../concept/search-sources-ais.md)
+**Parent Topic:**[Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md)
 

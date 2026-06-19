@@ -2,6 +2,7 @@
 title: CIRelatedList - Global
 description: The CIRelatedList script include is a utility class that provides methods for working with configuration item \(CI\) related lists.Adds the specified record to the related list.Sets the given records to the related list.Appends an XML child to a field.Appends an XML child to a record.Checks to see if this is a SysCollection table. If it is, sets the target table name and reference field name.Checks to see if this is a Sys many-to-many table. If it is, sets the target table name and reference field name.Creates an instance of the CIRelatedList class. With no arguments, simply constructs an empty instance.Initializes this instance from the specified XML element.Populates the this.records field of this instance.Makes a string representation of this instance, pushing each line onto the end of the given result array.Serializes this instance to XML in the given document and &lt;rl&gt; element.Removes all the related list items.Converts a related list from XML to record format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_CIRelatedListAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ Each instance of this script include contains the details of a single list that 
 
 Use with any server-side discovery script.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CIRelatedList - addRec\(Object record\)
 

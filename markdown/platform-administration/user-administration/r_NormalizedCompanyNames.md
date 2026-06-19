@@ -2,6 +2,7 @@
 title: Normalized company names table
 description: The Normalization Data Services plugin stores the normalized company names in the Normalized Company Names table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/r\_NormalizedCompanyNames.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -30,5 +31,5 @@ The Normalization Data Services plugin stores the normalized company names in th
 
 See [KB0819618](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0819618) for more information.
 
-**Parent Topic:**[Normalization data services](../concept/c_NormalizationOverview.md)
+**Parent Topic:**[Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NormalizationOverview.md)
 

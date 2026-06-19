@@ -2,13 +2,14 @@
 title: Configure AI Search Assist Actions for authenticated external users in Business and Consumer Portal
 description: Enable the AI Search Assist Actions to search knowledge articles in the Business and Consumer portal. It applies for authenticated external users with the snc\_external role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-assist-actions-businessportal-auth-ext.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI Search Assist for authenticated external users, Business and Consumer Portal, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [AI Search Assist for authenticated external users, Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure AI Search Assist Actions for authenticated external users in Business and Consumer Portal
@@ -17,9 +18,9 @@ Enable the AI Search Assist Actions to search knowledge articles in the Business
 
 ## Before you begin
 
-You must configure AI Search for the Business and Consumer portal. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-ais-sp.md).
+You must configure AI Search for the Business and Consumer portal. For more information, see Enable and configure AI Search in Service Portal.
 
-You must enable the Typeahead Search and AI Search Assist for the authenticated external users to use the AI search feature. For more information on the widgets, see [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/typeahead-search-widget.md) and [AI Search Assist widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ais-assist-widget.md).
+You must enable the Typeahead Search and AI Search Assist for the authenticated external users to use the AI search feature. For more information on the widgets, see Typeahead Search widget and AI Search Assist widget.
 
 Role required: web\_service\_admin
 
@@ -56,5 +57,5 @@ Configure AI Search Assist Actions for authenticated external users in Business 
 7.  Select **Update**.
 
 
-**Parent Topic:**[AI Search Assist for authenticated external users](../concept/enable-ai-search-for-business-portal-auth-external.md)
+**Parent Topic:**[AI Search Assist for authenticated external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-for-business-portal-auth-external.md)
 

@@ -2,11 +2,12 @@
 title: Start an event
 description: To initiate an event, first pull the relevant plans into the event, and then review the event tasks listed in the Event tasks tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/start-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Start an event
@@ -29,7 +30,7 @@ Role required: admin
 
     When you start an event task in an activated plan and update its state to **Work in Progress**, the status of the activated plan is also updated to **Work in Progress**. The condition for the activated plan to move into **Work in Progress** is that work starts on at least one of the event tasks. Until then, all the activated plans are still in the **Open** state.
 
-    Whenever the state of an activated plan changes from Open to **Work in Progress**, the actual start date is recorded in the **Actual start** field. When all event tasks are completed, the actual end is calculated and recorded in the **Actual end** field. Based on the actual start and actual end, the actual time taken is recorded in the **Actual time taken** field. The time required to complete each task is submitted and stamped in the **Total effort** field in the activated plan.![Total effort for the plan.](../image/total-effort.png)
+    Whenever the state of an activated plan changes from Open to **Work in Progress**, the actual start date is recorded in the **Actual start** field. When all event tasks are completed, the actual end is calculated and recorded in the **Actual end** field. Based on the actual start and actual end, the actual time taken is recorded in the **Actual time taken** field. The time required to complete each task is submitted and stamped in the **Total effort** field in the activated plan.\[Omitted image "total-effort.png"\] Alt text: Total effort for the plan.
 
     You can edit multiple recovery tasks at once.
 
@@ -60,7 +61,7 @@ Role required: admin
         -   **Closed skipped**
         If the event task is in the **Closed failed** state, then the event task is not considered as complete.
 
-        ![Closed states.](../image/event-task-closed-states.png)
+        \[Omitted image "event-task-closed-states.png"\] Alt text: Closed states.
 
         Once you mark the task as complete, the subsequent event task is automatically triggered. If the next task is a manual task, its assigned user can proceed to complete the workflow for the event task.
 
@@ -70,11 +71,11 @@ Role required: admin
 
     The example shows that the Facebook asset is partially recovered as the partially recovered tasks of Facebook asset are completed, but the Photoshop asset is still not recovered because both its partial and full recovery tasks remain incomplete.
 
-    ![Assets.](../image/event-asset-par-recovered.png)![Plan.](../image/event-asset-another-activated-plan.png)
+    \[Omitted image "event-asset-par-recovered.png"\] Alt text: Assets.\[Omitted image "event-asset-another-activated-plan.png"\] Alt text: Plan.
 
     For an asset to move to partially recovered as shown in the example or recovered, you must close all the related tasks. When all partially recovered tasks are completed, the asset moves to the partially recovered state.
 
-    ![Assets are in the recovered state.](../image/event-assets-par-recovered.png)
+    \[Omitted image "event-assets-par-recovered.png"\] Alt text: Assets are in the recovered state.
 
     **Note:** To mark an event asset as recovered, you don't need to complete the tasks marked as "partially recovered." Completing all tasks with the "recovered" status moves the asset to the "recovered" status. This simplifies the process by focusing only on tasks designated as requiring full recovery.
 
@@ -82,15 +83,15 @@ Role required: admin
 
     The example shows the assets that are not recovered.
 
-    ![Asset not recovered.](../image/event-task-not-recovered.png)
+    \[Omitted image "event-task-not-recovered.png"\] Alt text: Asset not recovered.
 
     The example shows that step 4 is associated with the "Photoshop" asset and it is open.
 
-    ![Event task with open state.](../image/event-task-state-open.png)
+    \[Omitted image "event-task-state-open.png"\] Alt text: Event task with open state.
 
     Once you complete that open task \(Step 4 in the example\) and refresh the assets, both assets including the "Photoshop" asset are in the Recovered state.
 
-    ![Recovered assets.](../image/event-asset-recovered.png)
+    \[Omitted image "event-asset-recovered.png"\] Alt text: Recovered assets.
 
     If a task is retriggered manually during this process, the asset recovery level reverts to its previous level. Any progress made in the recovery process is undone, and the asset is moved back to its prior recovery status.
 
@@ -102,7 +103,7 @@ Role required: admin
 
     If an asset is recovered with the completion of an earlier event task, such as step 4 in the example, the actual start time and actual end time are calculated until the end of the last event task in the plan \(step 6 in this example\).
 
-    ![Event tasks.](../image/event-task-time-taken.png)
+    \[Omitted image "event-task-time-taken.png"\] Alt text: Event tasks.
 
     To provide more control over time calculations, the "Don’t include this task in time calculation" column is introduced in recovery and event tasks. It enables you to exclude specific steps. In this example, if Steps 5 and 6 are marked to be excluded from the time calculation, the system calculates the time up to Step 4 only. This flexibility enables you to customize the time calculation according to your requirements.
 
@@ -122,12 +123,12 @@ Role required: admin
 
     **Note:** By default, the PDF is generated and attached after the event is closed.
 
-13. Select the refresh icon \(![Refresh icon.](../image/RefreshAlertsIcon.png)\) to display the updated state of the asset or plan, and the actual time taken to recover the asset.
+13. Select the refresh icon \(\[Omitted image "RefreshAlertsIcon.png"\] Alt text: Refresh icon.\) to display the updated state of the asset or plan, and the actual time taken to recover the asset.
 
 
 ## What to do next
 
-To request an approval, see [Request an approval and approve the event](submit-an-event-task-uib-ws.md).
+To request an approval, see [Request an approval and approve the event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/submit-an-event-task-uib-ws.md).
 
-**Parent Topic:**[Structured workflows for exercises](../concept/performing-tasks-to-manage-exercise-events.md)
+**Parent Topic:**[Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md)
 

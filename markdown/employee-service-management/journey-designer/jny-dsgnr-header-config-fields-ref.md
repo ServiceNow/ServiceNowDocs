@@ -2,6 +2,7 @@
 title: Journey designer header configuration fields reference
 description: Journey designer headers can be configured for different journeys so that the different users can have a unique view for their role in the journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-header-config-fields-ref.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -101,5 +102,5 @@ The name of the table that contains the field names and custom labels used in th
  A journey header configuration can have labels identifies in multiple tables.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer reference](jny-dsnr-reference.md)
+</table>**Parent Topic:**[Journey designer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsnr-reference.md)
 

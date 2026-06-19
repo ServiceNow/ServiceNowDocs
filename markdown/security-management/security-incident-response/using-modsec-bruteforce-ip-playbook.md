@@ -2,6 +2,7 @@
 title: Use the ModSec Brute force by IP Burst playbook
 description: Use this playbook to investigate incidents of brute force attempts on the login pages from multiple IPs detected by ModSec. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the ModSec Brute force by IP Burst playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-modsec-bruteforce-ip-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,7 +29,7 @@ Role required:
 
 2.  In Action 2, if the Source IP belongs to a customer or to the organization's internal IP address, perform the following steps:
 
-    ![Response tasks if the Source IP belongs to a customer or the organization's internal IP address.](../image/playbook-modsec-bruteforce-overview.png "ModSec Brute force by IP Burst playbook")
+    \[Omitted image "playbook-modsec-bruteforce-overview.png"\] Alt text: Response tasks if the Source IP belongs to a customer or the organization's internal IP address.
 
     1.  In Action 3, check whether there were any suspicious activities.
 
@@ -53,7 +54,7 @@ Role required:
 
 3.  If the Source IP doesn't belong to a customer or the organization's internal IP address, then in Action 11, raise an IT Support ticket to block the source IPs.
 
-    ![Response tasks if the Source IP doesn't belong to a customer or the organization's internal IP address.](../image/playbook-modsec-bruteforce-investigate.png "Using the ModSec Brute force by IP Burst playbook")
+    \[Omitted image "playbook-modsec-bruteforce-investigate.png"\] Alt text: Response tasks if the Source IP doesn't belong to a customer or the organization's internal IP address.
 
 4.  In Action 12, reset the potentially compromised credentials.
 
@@ -66,5 +67,5 @@ Role required:
 8.  In Action 16, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for ModSec Brute force by IP Burst](../concept/playbook-modsec-bruteforce-ip.md)
+**Parent Topic:**[Playbook for ModSec Brute force by IP Burst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-modsec-bruteforce-ip.md)
 

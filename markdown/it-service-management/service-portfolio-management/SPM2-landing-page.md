@@ -2,6 +2,7 @@
 title: Service Portfolio Management
 description: ServiceNow Service Portfolio Management enables you to improve your IT business operations and meet customer demands by documenting and managing your IT services using a standardized, structured format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-landing-page.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -21,19 +22,19 @@ Service Portfolio Management enables portfolio owners and service owners to crea
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Service Portfolio Management concepts and features.](../concept/c_ServicePortfolioManagementv2.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Service Portfolio Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure service offerings, commitments, subscriptions, and the service catalog.](../concept/SPM2-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure service offerings, commitments, subscriptions, and the service catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Use Service Portfolio Management to create and manage services, service offerings, portfolios, and service level agreements \(SLAs\).](../concept/SPM2-using.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Service Portfolio Management to create and manage services, service offerings, portfolios, and service level agreements \(SLAs\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-using.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get information about Service Portfolio Management administration.](SPM2-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get information about Service Portfolio Management administration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

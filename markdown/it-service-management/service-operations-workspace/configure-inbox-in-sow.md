@@ -2,6 +2,7 @@
 title: Configure the inbox in Service Operations Workspace
 description: Enable an agent to receive and respond to chat conversations initiated from Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-inbox-in-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -27,11 +28,11 @@ Role required: admin
 
 3.  Configure the Agent Chat Queue.
 
-    For example, to add agent groups who can handle the incoming chat conversations. For information about configuring queues, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-queues.md) and [Set up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+    For example, to add agent groups who can handle the incoming chat conversations. For information about configuring queues, see  and Set up Agent Chat.
 
 
--   **[Enable automatic assignment of interactions to an agent](enable-automatic-assignment-interaction.md)**  
+-   **[Enable automatic assignment of interactions to an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/enable-automatic-assignment-interaction.md)**  
 Automatically accept chat conversations for an agent without having to accept or reject them in the inbox.
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](../concept/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

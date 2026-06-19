@@ -2,6 +2,7 @@
 title: Allow cross-domain requests to REST APIs
 description: Allow cross-domain requests to REST APIs from a browser-based application in a different domain by creating a record in CORS rules through the Microsoft Viva Connections Integration application scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/update-cors-rules-viva.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -106,5 +107,5 @@ List of headers that the browser is allowed to access from the request.
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Employee Center for Microsoft Viva Connections](../concept/configure-viva.md)
+**Parent Topic:**[Configuring Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-viva.md)
 

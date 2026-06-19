@@ -2,6 +2,7 @@
 title: Activate Sitemap Generator
 description: You can activate the Sitemap Generator plugin \(sn\_ux\_seo\_sitemap\) for Service Portal if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/sitemap-generator/activate-sitemap-generator.html
 release: australia
 product: Sitemap Generator
 classification: sitemap-generator
@@ -23,7 +24,7 @@ Role required: admin
 
 Scheduled jobs and tables are installed with Sitemap Generator.
 
-For more information, see [Components installed with Sitemap Generator](../reference/installed-with-sitemap-generator.md).
+For more information, see [Components installed with Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/installed-with-sitemap-generator.md).
 
 ## Procedure
 
@@ -37,11 +38,11 @@ For more information, see [Components installed with Sitemap Generator](../refer
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[Components installed with Sitemap Generator](../reference/installed-with-sitemap-generator.md)**  
+-   **[Components installed with Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/installed-with-sitemap-generator.md)**  
 Several types of components are installed with activation of the Sitemap Generator plugin, including tables and scheduled jobs.
 
-**Parent Topic:**[Sitemap Generator](../concept/sitemap-generator.md)
+**Parent Topic:**[Sitemap Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/sitemap-generator/sitemap-generator.md)
 

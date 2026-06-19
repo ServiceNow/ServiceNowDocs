@@ -2,6 +2,7 @@
 title: Jumpstart Your Upgrade
 description: Guidance on upgrade planning and preparation
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,11 @@ Guidance on upgrade planning and preparation
 
 Jumpstart Your Upgrade provides Impact Customers with guidance, tips, and tools to execute a ServiceNow upgrade. It enables Customers to upgrade by helping them understand leading practices as well as giving them an opportunity to see what their instance looks like upgraded in a temporary instance.
 
-Offered pursuant to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 

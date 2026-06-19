@@ -2,11 +2,12 @@
 title: Get help with Performance Analyzer
 description: To get help with Performance Analyzer, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/performance-analyzer/get-help-performance-analyzer.html
 release: australia
 product: Performance Analyzer
 classification: performance-analyzer
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Reference, Performance Analyzer, Testing and debugging applications, Building applications]
 ---

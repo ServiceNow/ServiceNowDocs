@@ -2,6 +2,7 @@
 title: Search for finance cases
 description: As a finance specialist, search for finance cases from the Finance Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/search-for-fin-cases.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -25,7 +26,7 @@ Role required: sn\_fin\_ops.specialist
 
     -   **All** &gt; **Finance Operations** &gt; **Finance Operations Workspace**.
     -   **Workspaces** &gt; **Finance Operations Workspace**.
-2.  In the global search, enter the finance case number.![Search for finance cases](../image/fin-ops-search.png)
+2.  In the global search, enter the finance case number.\[Omitted image "fin-ops-search.png"\] Alt text: Search for finance cases
 
     **Note:** If you have access to the Soure-to-Pay workspace, you can also search for relevant cases in that workspace.
 
@@ -34,5 +35,5 @@ Role required: sn\_fin\_ops.specialist
 
 The search results show the finance case, if it exists.
 
-**Parent Topic:**[Using the Finance Operations Workspace](../concept/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

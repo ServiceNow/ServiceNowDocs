@@ -2,6 +2,7 @@
 title: Use Engagement Messenger embed Code to integrate proactive recommendations on a web page
 description: Modify the embed code of Engagement Messenger to enable recommendations and pass the search query for recommendations based on AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/em-contextual-help.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,8 +18,8 @@ Modify the embed code of Engagement Messenger to enable recommendations and pass
 
 ## Before you begin
 
--   [Embed Engagement Messenger in your web application](embed-engagement-messenger-code-in-your-web-application.md).
--   [Activate an Engagement Messenger module](activate-engagement-messenger-module.md).
+-   [Embed Engagement Messenger in your web application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-engagement-messenger-code-in-your-web-application.md).
+-   [Activate an Engagement Messenger module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-engagement-messenger-module.md).
 -   Role required: sn\_csm\_ec.ec\_admin
 
 ## Procedure

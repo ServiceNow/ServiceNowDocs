@@ -2,6 +2,7 @@
 title: Set up a template for Total Rewards
 description: Set up a template by adding sections to it. Templates enable you to display a customized Total Rewards view to employees in the configured Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/total-rewards-tem-setup.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

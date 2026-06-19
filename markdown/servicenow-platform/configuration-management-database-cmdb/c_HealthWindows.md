@@ -2,6 +2,7 @@
 title: Health windows
 description: A health window is a trailing time frame in which the ServiceNow system evaluates audit results from CIs that have desired state fields defined.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_HealthWindows.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

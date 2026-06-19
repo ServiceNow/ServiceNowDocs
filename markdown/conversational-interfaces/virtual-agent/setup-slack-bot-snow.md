@@ -2,6 +2,7 @@
 title: Retrieve self-configured bot details
 description: Retrieve the details of the bot that you created in the Slack workspace to integrate with the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/setup-slack-bot-snow.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -29,13 +30,13 @@ Role required: admin
 
     **Note:** You can find the Access token in **OAuth &amp; Permissions** in your Slack app.
 
-    ![The Slack Team ID is shown in the code window as "id":"T01GDN5CCUE."](../images/slack-team-id.png)
+    \[Omitted image "slack-team-id.png"\] Alt text: The Slack Team ID is shown in the code window as "id":"T01GDN5CCUE."
 
-4.  Navigate to Basic Information in your Slack workspace \(in api.slack.com\) and copy the **Signing Secret** under **App Credentials**.![The Signing Secret field is highlighted in the App Credentials page in your workspace. If it is hidden, select Show.](../images/slack-signing-secret.png)
+4.  Navigate to Basic Information in your Slack workspace \(in api.slack.com\) and copy the **Signing Secret** under **App Credentials**.\[Omitted image "slack-signing-secret.png"\] Alt text: The Signing Secret field is highlighted in the App Credentials page in your workspace. If it is hidden, select Show.
 
 5.  Navigate to OAuth &amp; Permissions in your Slack workspace and copy the **Bot User OAuth Access Token**.
 
-    ![The Bot User OAuth Access Token field is highlighted in the Slack instance. Select "Copy" to copy it to the clipboard.](../images/slack-access-token.png)
+    \[Omitted image "slack-access-token.png"\] Alt text: The Bot User OAuth Access Token field is highlighted in the Slack instance. Select "Copy" to copy it to the clipboard.
 
 
 ## Result
@@ -44,5 +45,5 @@ You should now be able to interact with your Self-configured bot.
 
 If you do not see your bot under the Apps section, then click **Add Apps** and search for your bot and select it. You can type **hi** to receive a response.
 
-**Parent Topic:**[Integrating a self-configured bot with Slack workspace](../concept/va-integ-single-slack.md)
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
 

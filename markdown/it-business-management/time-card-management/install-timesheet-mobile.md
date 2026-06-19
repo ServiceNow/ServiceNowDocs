@@ -2,6 +2,7 @@
 title: Install Mobile Time Sheets
 description: Install the Mobile Time Sheets application from the ServiceNow Store website.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/install-timesheet-mobile.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -42,10 +43,10 @@ Role required: admin
 6.  Click **Install**.
 
 
--   **[Enabling the mobile experience for Mobile Time Sheets](enable-timesheet-mobile.md)**  
+-   **[Enabling the mobile experience for Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/enable-timesheet-mobile.md)**  
 Enable the mobile experience for Mobile Time Sheets so users can fill out time sheets and user managers can approve or reject them from their mobile device.
--   **[Use Mobile Time Sheets in Now Mobile](migrate-to-nowagent.md)**  
+-   **[Use Mobile Time Sheets in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/migrate-to-nowagent.md)**  
 You can configure your platform system to use Mobile Time Sheets in the Now Mobile application. By default, Mobile Time Sheets can be viewed in the Now Mobile application.
 
-**Parent Topic:**[Mobile Time Sheets](../concept/timesheet-mobile.md)
+**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/timesheet-mobile.md)
 

@@ -2,6 +2,7 @@
 title: GlideScopedEvaluator - Global
 description: The GlideScopedEvaluator API allows you to evaluate scripts in a GlideRecord field from both scoped and global server scripts.Instantiates a GlideScopedEvaluator object.Evaluates a script from a GlideRecord field.Returns a variable from a GlideScopedEvaluator object.Puts a variable into the GlideScopedEvaluator object. These variables are available to the script that this GlideScopedEvaluator object runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideEvaluatorAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideScopedEvaluator API allows you to evaluate scripts in a GlideRecord fie
 
 This API evaluates scripts within the script field type. The scope of the record defines the scope of the script.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideScopedEvaluator - GlideScopedEvaluator\(\)
 
@@ -29,7 +30,7 @@ Instantiates a GlideScopedEvaluator object.
 
 ### Scoped equivalent
 
-To use the GlideScopedEvaluator\(\) method in a scoped application, use the corresponding scoped method: [GlideScopedEvaluator\(\)](../../glideEvaluatorScoped/concept/c_GlideEvaluatorScopedAPI.md#).
+To use the GlideScopedEvaluator\(\) method in a scoped application, use the corresponding scoped method: [GlideScopedEvaluator\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideEvaluatorScopedAPI.md).
 
 ## GlideScopedEvaluator - evaluateScript\(GlideRecord grObj, String scriptField, Object variables\)
 
@@ -73,7 +74,7 @@ admin says hello
 
 ### Scoped equivalent
 
-To use the evaluateScript\(\) method in a scoped application, use the corresponding scoped method: [evaluateScript\(\)](../../glideEvaluatorScoped/concept/c_GlideEvaluatorScopedAPI.md#).
+To use the evaluateScript\(\) method in a scoped application, use the corresponding scoped method: [evaluateScript\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideEvaluatorScopedAPI.md).
 
 ## GlideScopedEvaluator - getVariable\(String name\)
 
@@ -111,7 +112,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getVariable\(\) method in a scoped application, use the corresponding scoped method: [getVariable\(\)](../../glideEvaluatorScoped/concept/c_GlideEvaluatorScopedAPI.md#).
+To use the getVariable\(\) method in a scoped application, use the corresponding scoped method: [getVariable\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideEvaluatorScopedAPI.md).
 
 ## GlideScopedEvaluator - putVariable\(String name, Object value\)
 
@@ -150,5 +151,5 @@ Output:
 
 ### Scoped equivalent
 
-To use the putVariable\(\) method in a scoped application, use the corresponding scoped method: [putVariable\(\)](../../glideEvaluatorScoped/concept/c_GlideEvaluatorScopedAPI.md#).
+To use the putVariable\(\) method in a scoped application, use the corresponding scoped method: [putVariable\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideEvaluatorScopedAPI.md).
 

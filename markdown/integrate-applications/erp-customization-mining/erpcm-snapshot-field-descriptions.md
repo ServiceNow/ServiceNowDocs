@@ -2,6 +2,7 @@
 title: ERP Semantic Mining snapshot field descriptions
 description: In ERP Semantic Mining, the Configuration page Snapshots tab displays information about import and export snapshots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-snapshot-field-descriptions.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -17,7 +18,7 @@ In ERP Semantic Mining, the **Configuration** page **Snapshots** tab displays in
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](../task/create-a-snapshot-to-share-and-save-data.md).
+For process details, see [Create a snapshot to share and save data in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/create-a-snapshot-to-share-and-save-data.md).
 
 |Column|Definition|
 |------|----------|
@@ -28,5 +29,5 @@ For process details, see [Create a snapshot to share and save data in ERP Semant
 |Created by|User that created the snapshot.|
 |Updated|Date and time the snapshot was most recently updated.|
 
-**Parent Topic:**[ERP Semantic Mining field descriptions](../concept/erpcm-field-description-reference-landing.md)
+**Parent Topic:**[ERP Semantic Mining field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-field-description-reference-landing.md)
 

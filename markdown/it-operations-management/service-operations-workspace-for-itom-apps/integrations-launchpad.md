@@ -2,6 +2,7 @@
 title: Integrations Launchpad in Service Operations Workspace for ITOM
 description: The Integrations Launchpad showcases all Event Management connector integrations, allowing users to pull or push events from external or internal devices. This centralized hub simplifies Event Management by consolidating integration options in one place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/integrations-launchpad.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -24,11 +25,11 @@ Displays all pull, push, and custom connector integrations, including connectors
 -   Search Box: Helps you quickly find a specific data source by entering keywords, improving efficiency and saving time.
 -   All Integrations list: Organizes integrations into categories such as All Integrations, Events \(Push, Pull, Custom\), Metrics \(ACC-M\), and Logs \(HLA\). This categorization makes it easier for users to browse the list and select the relevant type of integration they need.
 
-![Browse integrations tab displaying all integration tiles.](../image/integrations-launchpad-browse.png "Browse integrations tab")
+\[Omitted image "integrations-launchpad-browse.png"\] Alt text: Browse integrations tab displaying all integration tiles.
 
 ## Installed Integrations tab
 
-![Active and inactive installed integrations.](../image/integrations-launchpad-installed.png "Active and inactive installed integrations")
+\[Omitted image "integrations-launchpad-installed.png"\] Alt text: Active and inactive installed integrations.
 
 Lists all user-configured integrations, both active and inactive. This tab features:
 

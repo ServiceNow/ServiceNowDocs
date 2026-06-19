@@ -2,6 +2,7 @@
 title: openFrameAPI - Client
 description: The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an omni-present frame that communication partners can use to integrate their systems into the ServiceNow platform.Returns the logged in agent’s current presence state.Hides the OpenFrame in the TopFrame.Initializes OpenFrame. This must be the first method that you call.Checks to see if the OpenFrame is visible in the TopFrame.Opens a custom URL in the UI16 interface.Opens a form URL.Opens a ServiceNow form with a child tab if invoked in a workspace or opens an entity if invoked in the UI16 interface.Opens a list URL in the UI16 interface.Sets the OpenFrame mode.Sets the OpenFrame height.Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.Defines icons in the OpenFrame header that are placed next to the close icon.Sets the presence indicator to display agent availability in a workspace.Sets the OpenFrame size.Sets the OpenFrame subtitle.Sets the OpenFrame title.Sets the OpenFrame's title icon.Displays an alert message.Sets the OpenFrame width.Makes the OpenFrame visible in the TopFrame.Subscribes to a specified event.Returns the OpenFrame API version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_openFrameAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,11 +18,11 @@ The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an 
 
 One of the core requirements is the ability to connect and serve code from different domains that can connect seamlessly with partner subsystems. This cross domain connection is required to keep connections and callbacks registered into communication systems without any cross domain issues.
 
-OpenFrame has two significant parts. One lives in the ServiceNow application \(referred to as TopFrame\) and this API that is sourced from the partner application. This API has the necessary methods to communicate with TopFrame and control the visual features of the [OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OpenFrameOverview.md).
+OpenFrame has two significant parts. One lives in the ServiceNow application \(referred to as TopFrame\) and this API that is sourced from the partner application. This API has the necessary methods to communicate with TopFrame and control the visual features of the OpenFrame.
 
 **Note:** To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## openFrameAPI - getAWAAgentPresence\(String success, String failure\)
 
@@ -262,7 +263,7 @@ function
 
 </td><td>
 
-Name of the callback function to use if the init method succeeds. The [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAnOpenFrameConfiguration.md) stored in the system is passed as a parameter to the callback function.
+Name of the callback function to use if the init method succeeds. The OpenFrame configuration stored in the system is passed as a parameter to the callback function.
 
 </td></tr><tr><td>
 
@@ -580,7 +581,7 @@ Object
 Key value pairs that describe the content to use when opening the list URL.Valid values:
 
 -   entity: Table name
--   query: [Encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md)
+-   query: Encoded query string
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -657,9 +658,9 @@ openFrameAPI.setHeight(100);
 
 Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.
 
-For additional information on interactive controls, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md).
+For additional information on interactive controls, see .
 
-For additional information on interaction records, see [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md).
+For additional information on interaction records, see .
 
 <table id="table_xlq_rhg_zdc" class="parameters"><thead><tr><th>
 
@@ -870,7 +871,7 @@ Object
 
 </td><td>
 
-Details about the capabilities that the current \(agent\) participant can perform during a call. The associated icons appear in the Active call component for the capabilities that are enabled.![Screen shot of Active call component with capabilities icons](../image/OF-active_call-capabilities.png)
+Details about the capabilities that the current \(agent\) participant can perform during a call. The associated icons appear in the Active call component for the capabilities that are enabled.\[Omitted image "OF-active\_call-capabilities.png"\] Alt text: Screen shot of Active call component with capabilities icons
 
 ```
 "capabilities": {
@@ -1660,7 +1661,7 @@ Boolean
 
 For agent use case only - only valid when the **activeCall.currentParticipant.actor** is "agent".Flag that indicates whether to display the **Wrap up** component once the call is complete.
 
-![Screen shot of Wrap up component](../image/OF-active_call-wrapup.png)
+\[Omitted image "OF-active\_call-wrapup.png"\] Alt text: Screen shot of Wrap up component
 
 Valid values:
 
@@ -1679,7 +1680,7 @@ String
 
 </td><td>
 
-State of the participant's call leg. Appears beneath the phone number in the **Active call** component.![Active call window showing state](../image/OF-active_call-state.png)
+State of the participant's call leg. Appears beneath the phone number in the **Active call** component.\[Omitted image "OF-active\_call-state.png"\] Alt text: Active call window showing state
 
 This can be any meaningful text, such as:
 
@@ -1739,7 +1740,9 @@ Description of the current user's idle state capabilities.```
 "capability": {
   "globalContactSearch": Boolean,
   "logOut": Boolean,
-  "outBoundCall": Boolean
+  "outBoundCall": Boolean,
+  "phoneDirectory": Boolean,
+  "outboundQueueSelection": Boolean,
 }
 ```
 
@@ -1796,6 +1799,40 @@ Default: false
 
 </td></tr><tr><td>
 
+idleState.capability.outboundQueueSelection
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the outbound queue selection field should be enabled.Valid values:
+
+-   true: Display the outbound queue selection field while in the idle state.
+-   false: Don't display the outbound queue selection field while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
+idleState.capability.phoneDirectory
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the phone directory button should be enabled.Valid values:
+
+-   true: Display the phone directory button while in the idle state.
+-   false: Don't display the phone directory button while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
 idleState.​currentInboundId
 
 </td><td>
@@ -1827,7 +1864,7 @@ Details about the information message to display on the user's dial pad, such as
 
 In the following example, the **label** is **Selected queue:** and the **value** is **Customer Inquiries**. You can also just use either the **label** or the **value** parameter with **Selected queue: Customer Inquiries**.
 
-![Screen shot of dial pad with information message](../image/OF-dialpadInfoMessage.png)
+\[Omitted image "OF-dialpadInfoMessage.png"\] Alt text: Screen shot of dial pad with information message
 
 </td></tr><tr><td>
 
@@ -1865,8 +1902,9 @@ Object
 
 Details about the enable state of the buttons on the dial pad.```
 "enableState": {
-   "logOut": Boolean,
-   "outBoundCall": Boolean
+  "logOut": Boolean,
+  "outBoundCall": Boolean,
+  "outboundQueueSelection": Boolean
  }
 ```
 
@@ -1901,6 +1939,23 @@ Flag that indicates whether to enable the outbound call button in the UI while i
 
 -   true: Display the outbound call button while in the idle state.
 -   false: Don't display the outbound call button while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
+idleState.enableState.outboundQueueSelection
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the outbound queue selection field should be enabled.Valid values:
+
+-   true: Display the outbound queue selection field while in the idle state.
+-   false: Don't display the outbound queue selection field while in the idle state.
 
 Default: false
 
@@ -2386,7 +2441,7 @@ Object
 
 Details about the information to display in the transfer call control.The following is an example of a **Transfer call** control that contains a list of agents that the call can be transferred to. The screen shot shows what elements of the UI that each parameter in the **list.payload** controls.
 
-![Screen shot of Transfer call window showing parameter association](../image/OF-search_payload_parms.png)
+\[Omitted image "OF-search\_payload\_parms.png"\] Alt text: Screen shot of Transfer call window showing parameter association
 
 ```
 "payload": {
@@ -2585,7 +2640,7 @@ Array of Objects
 
 Details about the type of transfer supported for the specified **searchTargetList.targets.type**. This information appears when the user clicks the ellipse next to the target's name in the UI.
 
-![Transfer call component showing transfer types](../image/OF-transferSuptypes.png)
+\[Omitted image "OF-transferSuptypes.png"\] Alt text: Transfer call component showing transfer types
 
 For example, if only a consult type is supported for the current target type, say queue, this array will contain one object to denote the consult type of transfer.
 
@@ -2682,7 +2737,7 @@ String
 
 Type of context data to set. Valid values:
 
--   activeCall: Sets the context for the ongoing Active call component. When you pass this context type, you must also pass the `activeCall[]`**Context** parameter.
+-   activeCall: Sets the context for the ongoing Active call component. When you pass this context type, you must also pass the `activeCall[]` **Context** parameter.
 -   idleState: Sets the idle state capabilities for the current user. When this type is set, the idle state UI \(dial pad\) appears in OpenFrame. When you pass this context type, you must also pass the `<idleState>{}` JSON as the **Context** parameter.
 -   offerContext: Sets the current participant's offer context for resiliency. When you pass this context type, you must also pass the `offerContext{}` JSON as the **Context** parameter.
 -   searchTargetList: Sets the telephone directory context. When this type is set, it enables **Transfer call** on the Active call component. When you pass this context type, you must also pass the `searchTargetList[]` JSON as the **Context** parameter.
@@ -2710,7 +2765,7 @@ Error \(offerContext\)
 
 </td><td>
 
-Error messages associated with the **offerContext** object used for resiliency. To view these messages, use the [subscribe\(\)](c_openFrameAPI.md#) method to subscribe to **openframe\_awa\_client\_offer** event.Context values are represented as follows:
+Error messages associated with the **offerContext** object used for resiliency. To view these messages, use the [subscribe\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md) method to subscribe to **openframe\_awa\_client\_offer** event.Context values are represented as follows:
 
 1.  success
 2.  error
@@ -2918,15 +2973,18 @@ The following example shows how to set the idle state context.
 openFrameAPI.setICContext("idleState", {
   "capability": {
     "outBoundCall": true,
-    "logOut": true 
+    "logOut": true,
+    "phoneDirectory": true,
+    "outboundQueueSelection": true
   },
   "enableState": {
     "outBoundCall": true,
-    "logOut": true
+    "logOut": true,
+    "phoneDirectory": true
   },
   "dialpadInfoMessage": {
-    "label": "Info Message Label",
-    "value": "Info Message Value"
+    "label": "DialPadInfo_Label",
+    "value": "DialpadInfo_Value"
   },
   "currentInboundId": "1234"
 });
@@ -2962,7 +3020,7 @@ openFrameAPI.setICContext("searchTargetList",
                 {
                   "name": "John Jason",
                   "id": "agent1Id",
-                  "hasStats": true,
+                  "hasStats": "true",
                   "presence": "away",
                   "moreInfo": [
                     {
@@ -3040,10 +3098,10 @@ var callbackContext = {
       "currentParticipant": {
         "id": "agent1",
         "capabilities": {
-          "initiateCall": true,
-          "closeCallback": true,
-          "transfer": true,
-          "cancelCallbackTransferEligible": false,
+          "initiateCall": "true",
+          "closeCallback": "true",
+          "transfer": "true",
+          "cancelCallbackTransferEligible": "false",
           "callbackTransferStatus": ""
         }
       },
@@ -3137,7 +3195,7 @@ imageTitle:'hold', id:102}]);
 
 Sets the presence indicator to display agent availability in a workspace.
 
-For more information on configuring OpenFrame, refer to [Create an OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAnOpenFrameConfiguration.md)
+For more information on configuring OpenFrame, refer to Create an OpenFrame configuration
 
 <table id="table_o4l_p1c_jhb" class="parameters"><thead><tr><th>
 
@@ -3433,7 +3491,7 @@ The event to subscribe to:-   interaction\_control\_action: Receives the interac
 -   openframe\_icon\_clicked: Occurs when any icon other than the close icon is selected on the OpenFrame footer. The callback receives the icon object as a parameter.
 -   openframe\_shown: Occurs when the OpenFrame is shown.
 -   openframe\_title\_icon\_clicked: Occurs when the title icon is selected on the OpenFrame. The callback receives the titleIcon object as a parameter.
--   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the [wrap-up modeless dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md). The event is triggered only when the wrap up is external.
+-   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the wrap-up modeless dialog. The event is triggered only when the wrap up is external.
 
 </td></tr><tr><td>
 

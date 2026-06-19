@@ -2,6 +2,7 @@
 title: Aggregate a report on sum
 description: When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The sum aggregation shows the sum of the field you aggregate on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/aggregate-report-sum.html
 release: australia
 product: Reporting
 classification: reporting
@@ -23,7 +24,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 Select **Sum** to show the sum of the field you aggregate on. For example, select a duration field. The aggregated data is expressed in terms of days, hours, minutes, and seconds. \(You can configure durations to show the level of detail you want.\) Select an integer field, such as **Priority**, and the data is expressed as a whole number.
 
-![Bar chart aggregated by Sum duration with five bars representing incident categories, one showing the sum duration for software incidents of approximately 100 days, 17 hours.](../image/aggregation-sum-dur.png)
+\[Omitted image "aggregation-sum-dur.png"\] Alt text: Bar chart aggregated by Sum duration with five bars representing incident categories, one showing the sum duration for software incidents of approximately 100 days, 17 hours.
 
 ## Procedure
 

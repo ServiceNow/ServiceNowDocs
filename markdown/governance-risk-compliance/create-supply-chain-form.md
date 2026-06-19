@@ -2,6 +2,7 @@
 title: Create New ICT service supply chain form
 description: On the Create New ICT service supply chain form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-supply-chain-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -67,6 +68,8 @@ Identification code of the recipient of sub-contracted ICT services
 
 Identification code of the recipient of sub-contracted ICT services of the supply chain. This field is auto-filled.
 
+ Identification code of the recipient of sub-contracted ICT services of the supply chain. This field is auto-filled from the identification code of the linked ICT third-party service provider \(or legal entity\) and is kept in sync automatically. If the linked provider's identification code is updated, this field is updated in all associated supply chain record \(across all ranks\) to reflect the current code value.
+
 </td></tr><tr><td>
 
 Identification code of the ICT third-party service provider
@@ -128,5 +131,5 @@ Rank of the supply chain.
  The 'rank' of an ICT third-party service provider is determined by its position in the ICT service supply chain. A direct ICT third-party service provider signing a contract with the financial entity is considered 'rank' 1. Subcontractors signing with a direct provider or another subcontractor are assigned subsequent ranks \(2, 3, etc.\). If multiple providers are at the same level, they are assigned the same 'rank'.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a supply chain and enhance digital resilience data](../task/create-drtp-reg-supply-chain.md)
+</table>**Parent Topic:**[Create a supply chain and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-supply-chain.md)
 

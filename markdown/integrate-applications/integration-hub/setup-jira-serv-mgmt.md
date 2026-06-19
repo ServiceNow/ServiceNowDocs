@@ -2,6 +2,7 @@
 title: Set up the Jira Service Management spoke
 description: Integrate the ServiceNow instance and Jira Service Management by using OAuth 2.0 to authenticate ServiceNow requests.Obtain the value of Cloud ID of the Jira Cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Add and configure a Jira Service Management connection to authenticate ServiceNow requests in a Jira Service Management spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-jira-serv-mgmt.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -67,7 +68,7 @@ Role required: admin
 4.  Locate the **Jira\_SM** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Jira Service Management spoke, click **View Details**.
-    -   To manage more than one Jira Service Management spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Jira Service Management spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 5.  On the **Connection** form, fill in the fields.
@@ -105,7 +106,7 @@ Scopes
 By default, these scopes are provided `read:jira-user, read:servicedesk-request, write:servicedesk-request, manage:servicedesk-customer, read:jira-work, read:me, read:account, offline_access`. You can modify the scopes as per your requirement.**Note:** After the scopes are modified and saved, whenever you edit the connection record, the scopes are reset to the default scopes.
 
 </td></tr></tbody>
-</table>    ![](../image/jira-sm-conn-temp.jpg)
+</table>    \[Omitted image "jira-sm-conn-temp.jpg"\] Alt text:
 
 6.  Click **Save and Get OAuth Token**.
 

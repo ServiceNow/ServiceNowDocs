@@ -2,6 +2,7 @@
 title: Use Windows Remote Management for classification
 description: You can configure the discovery of Windows hosts using the Windows Remote Management \(WinRM\) protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_EnableDeviceClassWinRemoteMgmt.html
 release: australia
 product: Discovery
 classification: discovery
@@ -44,7 +45,7 @@ By default, the system uses the WMI protocol for device classification of Window
 
 6.  Enter a value of **WinRM**.
 
-    ![MID Server configuration parameter](../image/MIDServerConfigParameter.png "MID Server configuration parameter")
+    \[Omitted image "MIDServerConfigParameter.png"\] Alt text: MID Server configuration parameter
 
 7.  Click **Submit**.
 
@@ -62,5 +63,5 @@ By default, the system uses the WMI protocol for device classification of Window
 
 ## What to do next
 
-Run a discovery from the [Discovery schedule](../../discovery/task/t_CreateADiscoverySchedule.md#) to find Windows machines on your network.
+Run a discovery from the [Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to find Windows machines on your network.
 

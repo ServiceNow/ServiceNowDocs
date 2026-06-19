@@ -2,7 +2,10 @@
 title: Create a recommendation with the field recommendation as an action type
 description: Create a recommendation to select the field recommendation as an action type for recommending a value for the Assignment group field on a case record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ex-create-recommendation-field.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

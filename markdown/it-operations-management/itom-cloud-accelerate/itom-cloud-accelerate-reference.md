@@ -2,6 +2,7 @@
 title: ITOM Cloud Accelerate reference
 description: Reference topics provide additional information for configuring and using ITOM Cloud Accelerate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/itom-cloud-accelerate-reference.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate

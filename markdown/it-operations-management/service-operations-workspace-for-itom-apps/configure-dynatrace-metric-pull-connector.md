@@ -2,13 +2,14 @@
 title: Configure Dynatrace metric pull connector
 description: Configure metric pull connectors that require a script, connector definition, and connector instance to pull metrics from external sources. These connectors automate the data retrieval process, ensuring the seamless integration of external metrics into your system for efficient monitoring and performance analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/configure-dynatrace-metric-pull-connector.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
+breadcrumb: [Integrations Launchpad in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Dynatrace metric pull connector
@@ -19,7 +20,7 @@ Configure metric pull connectors that require a script, connector definition, an
 
 Role required: evt\_mgmt\_admin
 
-Configure the Dynatrace API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Dynatrace API Key credential, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/API-key-credential-form.md).
+Configure the Dynatrace API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Dynatrace API Key credential, see .
 
 ## About this task
 
@@ -27,7 +28,7 @@ Configure the Dynatrace API Key credential from **All** &gt; **Connections and C
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -35,7 +36,7 @@ Configure the Dynatrace API Key credential from **All** &gt; **Connections and C
 
 4.  In the **Browse Integrations** tab, select the **All integrations** drop-down list and select **Metrics** &gt; **Pull**.
 
-    ![Metric pull integrations.](../image/sow-metricintegration-pull.png)
+    \[Omitted image "sow-metricintegration-pull.png"\] Alt text: Metric pull integrations.
 
     Only metric pull connector tiles are displayed.
 
@@ -68,7 +69,7 @@ Configure the Dynatrace API Key credential from **All** &gt; **Connections and C
 
 8.  If you want to customize configurations to meet specific requirements, select **Advanced settings** and fill in the form.
 
-    For more information on fields, see [Dynatrace advanced settings fields](../reference/dynatrace-advanced-settings-fields.md).
+    For more information on fields, see [Dynatrace advanced settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/dynatrace-advanced-settings-fields.md).
 
 9.  Test the connector before activating it by selecting **Test and Save**.
 

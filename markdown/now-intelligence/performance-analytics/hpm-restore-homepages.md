@@ -2,6 +2,7 @@
 title: Restore a homepage
 description: Restore retired homepages as dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/hpm-restore-homepages.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -29,7 +30,7 @@ Role required: admin or dashboard\_admin.
 
 3.  Select **Restore Homepage**.
 
-4.  Enter the name of the retired homepage or use the search icon \(![lookup icon](../image/icon-search.png)\) to find the retired homepage.
+4.  Enter the name of the retired homepage or use the search icon \(\[Omitted image "icon-search.png"\] Alt text: lookup icon\) to find the retired homepage.
 
 5.  Select **Submit**.
 

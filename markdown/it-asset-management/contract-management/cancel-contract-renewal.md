@@ -2,6 +2,7 @@
 title: Results of canceling a contract renewal process
 description: Cancelling a contract renewal process results in a change in the state of Contract, Contract Renewal Request, Contract Renewal Request Lines, and Contract Renewal tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/contract-management/cancel-contract-renewal.html
 release: australia
 product: Contract Management
 classification: contract-management

@@ -2,6 +2,7 @@
 title: Review event details and start an exercise event
 description: Review the details of an event in the Details tab, start an event to test your business continuity or recovery plan, and monitor completion of the event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-bcm-crisis-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the lists icon \(![Lists icon.](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon.\).
 
 3.  Click the **Pending** state in the Exercises list.
 

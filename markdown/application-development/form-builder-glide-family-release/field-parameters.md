@@ -2,6 +2,7 @@
 title: Field configuration in Table Builder
 description: You can configure the basic field properties for any field within Table Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/field-parameters.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -19,9 +20,9 @@ You can configure the basic field properties for any field within Table Builder.
 
 The Field details section lets you configure the basic field elements for the selected field in the form editor.
 
-To see field type descriptions and learn more about what field types you can use, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+To see field type descriptions and learn more about what field types you can use, see Field types.
 
-To understand the basic field properties and learn more about adding and customizing a field in a table, see [Add and customize a field in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreatingNewFields.md).
+To understand the basic field properties and learn more about adding and customizing a field in a table, see Add and customize a field in a table.
 
 The following table shows field descriptions for the Field details section.
 
@@ -51,7 +52,7 @@ Option that you can select to make a field active so that form users can view it
 
  Deselecting **Active** inactivates a field. When **Active** is not selected, the field will not display in the form editor.
 
- To reactivate a field, hover to the left of the field column in the **Data** tab and select the Open side panel icon \[![Open side panel icon.](../image/field-config-icon.png)\]. Select **Active** and save changes.
+ To reactivate a field, hover to the left of the field column in the **Data** tab and select the Open side panel icon \[\[Omitted image "field-config-icon.png"\] Alt text: Open side panel icon.\]. Select **Active** and save changes.
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ Option that you can select so that the data that your users enter in the field i
 
 </td></tr><tr><td>
 
-Configure Label details menu \( ![Configure label details.](../image/fb-configure-label.png)\)
+Configure Label details menu \( \[Omitted image "fb-configure-label.png"\] Alt text: Configure label details.\)
 
 </td><td>
 
@@ -92,7 +93,7 @@ Properties for a field label:-   **Tooltip** property that is displayed when a u
 
 The default value automatically fills in the field on the empty form for a new record, or fills in the field later \(if the field is empty\) when your user submits the new record. You can specify the default values as either a constant or use a script to generate them.
 
-To learn how to define a default value for the fields, see [Specify a default field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SpecifyingADefaultValue.md).
+To learn how to define a default value for the fields, see Specify a default field value.
 
 The following table shows field descriptions for the Default value section.
 
@@ -108,7 +109,7 @@ A function field generates a value that is based on the simple computations of o
 
 This section is displayed in the editor when you are creating a field and you select **Function field** in the Advanced properties section.
 
-For information on defining function fields, see [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
+For information on defining function fields, see Function field.
 
 The following table shows field descriptions for the Function definition section.
 
@@ -120,7 +121,7 @@ The following table shows field descriptions for the Function definition section
 
 A reference qualifier restricts the records that are available for reference fields.
 
-For information on defining reference fields, see [Reference field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceField.md).
+For information on defining reference fields, see Reference field type.
 
 The following table shows field descriptions for the Reference section.
 
@@ -173,7 +174,7 @@ A choice or reference field can be declared dependent on another field on the sa
 
 Using dependent fields turns on choices. The available choices for your field rely on the value that a user chooses for the dependent field.
 
-For information on defining field dependencies, see [Make a field dependent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingAFieldDependent.md).
+For information on defining field dependencies, see Make a field dependent.
 
 The following table shows field descriptions for the Dependent fields section.
 
@@ -184,7 +185,7 @@ The following table shows field descriptions for the Dependent fields section.
 
 ## Choices
 
-A choice list is a type of field that lets the user select from a pre-defined set of choices. You can define the available choices and customize the behavior and appearance of your choice lists. For information about the choice list configuration, see [Choice list field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ChoiceLists.md).
+A choice list is a type of field that lets the user select from a pre-defined set of choices. You can define the available choices and customize the behavior and appearance of your choice lists. For information about the choice list configuration, see Choice list field type.
 
 In the Choices section of the Config panel, select **Use choices**, and then select **Edit** or the **+Add** icon to customize the available choices for the selected field.
 
@@ -272,7 +273,7 @@ Option to filter the choice list. Select **Show inactive choices** to view all c
 </td></tr></tbody>
 </table>## Attributes
 
-A dictionary attribute alters the behavior of the table or element that the dictionary record describes. You can add or modify the dictionary attributes. For information about dictionary attributes, see [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
+A dictionary attribute alters the behavior of the table or element that the dictionary record describes. You can add or modify the dictionary attributes. For information about dictionary attributes, see Dictionary attributes.
 
 In the Attributes section of the Config panel, select **Edit** or **+Add** to customize the available attributes for the selected field.
 
@@ -294,7 +295,7 @@ Attribute
 
 Option list of available attributes. Select an option from the list of available attributes.
 
- To review the list of available attributes, see [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md).
+ To review the list of available attributes, see Dictionary attributes.
 
 </td></tr><tr><td>
 
@@ -307,7 +308,7 @@ Attribute value that you can set to alter the field behavior that is described b
 </td></tr></tbody>
 </table>## Formula
 
-A formula allows you to calculate the value of a column without writing a script. You can use one of the predefined formulas or combine two are more formulas to calculate the column value. For information on the predefined formulas and examples, see [Formulas](formulas-columns-table-builder.md#).
+A formula allows you to calculate the value of a column without writing a script. You can use one of the predefined formulas or combine two are more formulas to calculate the column value. For information on the predefined formulas and examples, see [Formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md).
 
 In the Formula section, select **Edit** or **+ Add** to edit or add a formula.
 
@@ -315,10 +316,10 @@ In the Formula section, select **Edit** or **+ Add** to edit or add a formula.
 |-----|-----------|
 |Formula editor|A text-editor like interface that allows you to enter and edit formulas.|
 
--   **[Formulas for column values in Table Builder](formulas-columns-table-builder.md#)**  
+-   **[Formulas for column values in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/formulas-columns-table-builder.md)**  
 You can use a predefined function and create a formula to calculate the value of a column without writing a script. Use a predefined function or create a nested formula by using the existing predefined functions to calculate the column value type.
--   **[Add a formula to a column in Table Builder](../task/add-formula-column-table-builder.md)**  
+-   **[Add a formula to a column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-formula-column-table-builder.md)**  
 Use a predefined function or create a formula to calculate a value for a column without writing a script in Table Builder. You can use two or more functions to create a formula according to your requirements.
 
-**Parent Topic:**[Table Builder reference](../concept/fb-reference.md)
+**Parent Topic:**[Table Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-reference.md)
 

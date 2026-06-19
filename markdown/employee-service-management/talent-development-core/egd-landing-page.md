@@ -2,6 +2,7 @@
 title: Talent Development Core
 description: ServiceNow Talent Development Core supports an end-to-end process for individuals and managers to take control of their career growth and development plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-landing-page.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -19,36 +20,36 @@ Helps employees identify growth and development areas, create a plan, and track 
 
 <table id="jny-dsgn-info-model-table" class="nav-card"><tbody><tr><td>
 
-[Exploring ![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn how the Talent app supports managers and employees identify, create, and complete career growth plans.](egd-explore.md)
+[Exploring \[Omitted image "bus-explore.svg"\] Alt text:Learn how the Talent app supports managers and employees identify, create, and complete career growth plans.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-explore.md)
 
 </td><td>
 
-[Installing and configuring![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Administrators install and configure the Talent app and related features.](egd-install-config.md)
+[Installing and configuring\[Omitted image "bus-sdlc.svg"\] Alt text: Administrators install and configure the Talent app and related features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-install-config.md)
 
 </td><td>
 
-[Administer![](../../../reuse/icons/brand-icons/bus-management-console.svg)Administrators maintain the Talent app and related features over time as the organization grows and evolves.](egd-administration.md)
+[Administer\[Omitted image "bus-management-console.svg"\] Alt text:Administrators maintain the Talent app and related features over time as the organization grows and evolves.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-administration.md)
 
 </td></tr><tr><td>
 
-[Using ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)From the ServiceNow® Employee Center, managers and employees work with the Talent app and related features on career growth and development.](egd-use.md)
+[Using \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:From the ServiceNow® Employee Center, managers and employees work with the Talent app and related features on career growth and development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-use.md)
 
 </td><td>
 
-[Integration ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Integrate with different applications to expand the capabilities and effectiveness of the Talent app.](egd-integrations.md)
+[Integration \[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with different applications to expand the capabilities and effectiveness of the Talent app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-integrations.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Reference information provides important details related to how the Talent Development Core app works.](egd-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference information provides important details related to how the Talent Development Core app works.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

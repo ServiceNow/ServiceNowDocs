@@ -2,6 +2,7 @@
 title: Close a legal matter through Mobile Agent
 description: Close a legal matter assigned to you when you complete all activities for resolving it, or if you find that it doesn’t need any further action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/close-legal-matter-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile

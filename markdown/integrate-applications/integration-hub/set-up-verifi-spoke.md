@@ -2,6 +2,7 @@
 title: Set up Verifi Spoke
 description: Integrate the ServiceNow instance and Verifi account by using the JWT authentication to authenticate ServiceNow requests.Create a connection and credential record for the Verifi Spoke application. The Verifi Spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-verifi-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -29,11 +30,11 @@ JSON Web Tokens \(JWTs\) enable the capability to configure server-to-server API
 
 1.  Generate a JSON Web Token \(JWT\).
 
-    Create a JWT for your instance by using this link to enable JWT authentication. For Verifi Spoke, generate the authorization by using the *VerifiAuthorizationTokenGenerator* script. For more information, see [Generate a JSON Web Token \(JWT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/Scoped-API-generate-JWT.md).
+    Create a JWT for your instance by using this link to enable JWT authentication. For Verifi Spoke, generate the authorization by using the *VerifiAuthorizationTokenGenerator* script. For more information, see .
 
 2.  Create credential records for the Verifi Spoke.
 
-    Create a connection and credential record for the Verifi Spoke application. The Verifi Spoke connection and credential alias uses these credentials to authorize actions. For more information, see [Create a connection and a credential record for the Verifi Spoke](set-up-verifi-spoke.md#).
+    Create a connection and credential record for the Verifi Spoke application. The Verifi Spoke connection and credential alias uses these credentials to authorize actions. For more information, see [Create a connection and a credential record for the Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-verifi-spoke.md).
 
 
 ## Create a connection and a credential record for the Verifi Spoke
@@ -65,7 +66,7 @@ Create a connection and credential record for the Verifi Spoke application. The 
     |Type|Alias type. Select **Connection and Credential**.|
     |Connection type|Name of the connection type, either Basic, HTTP, JDBC, JMS, or Kafka. The default is HTTP.|
     |Support Multiple Active Connections|Designator that indicates whether the alias supports multiple active connections. Add connections by using the Connections table and associate them to the alias by using the Connections related list.|
-    |Default Retry Policy|Retry policy for the alias. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/retry-policy.md).|
+    |Default Retry Policy|Retry policy for the alias. For more information, see Retry policy.|
     |Configuration Template|Configuration template to use to create a connection and credential record.|
 
 4.  Select **Save**.

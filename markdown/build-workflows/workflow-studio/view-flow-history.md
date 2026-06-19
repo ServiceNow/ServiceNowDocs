@@ -2,6 +2,7 @@
 title: View flow history
 description: View the change history of a flow by date and user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/view-flow-history.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -40,5 +41,5 @@ The sidebar view displays a list of flow history entries.
 
 You can annotate, copy, remove, or restore flow history entries.
 
-**Parent Topic:**[Flow history](../concept/flow-history.md)
+**Parent Topic:**[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-history.md)
 

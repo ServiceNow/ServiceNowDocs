@@ -2,6 +2,7 @@
 title: RSS title override
 description: You may optionally override the automatically generated title of the RSS feed by added the sysparm\_title parameter to the request URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_OverridingTheRSSTitle.html
 release: australia
 product: Web Services
 classification: web-services
@@ -50,5 +51,5 @@ This will produce results as follows:
 </rss>
 ```
 
-**Parent Topic:**[RSS feed generator](c_RSSFeedGenerator.md)
+**Parent Topic:**[RSS feed generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_RSSFeedGenerator.md)
 

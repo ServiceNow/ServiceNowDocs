@@ -2,7 +2,10 @@
 title: SharePoint Online Search Connector reference
 description: The reference topics for the application provide additional information about the SharePoint Online Search Connector settings, content types, and features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/sharepoint-reference.html
 release: australia
+product: Employee Service Management
+classification: employee-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,16 +18,16 @@ The reference topics for the application provide additional information about th
 
 ## Crawl constraints
 
-For more information on crawl types, see [Microsoft SharePoint crawl types](../concept/sp-crawl-types.md).
+For more information on crawl types, see [Microsoft SharePoint crawl types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sp-crawl-types.md).
 
 -   The time of crawling may vary, based on the content size.
--   The documents are available for search after a successful crawl. For more information on crawl types, see [Microsoft SharePoint crawl types](../concept/sp-crawl-types.md).
+-   The documents are available for search after a successful crawl. For more information on crawl types, see [Microsoft SharePoint crawl types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sp-crawl-types.md).
 
-**Note:** For the latest information on the content types and constraints, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md) documentation.
+**Note:** For the latest information on the content types and constraints, see  documentation.
 
 ## Scheduled job frequency
 
-The default-scheduled job frequency is set to maximize the performance. For more information, see [SharePoint Online Search Connector scheduled jobs](../concept/sharepoint-scheduled-jobs-full-crawl.md).
+The default-scheduled job frequency is set to maximize the performance. For more information, see [SharePoint Online Search Connector scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-scheduled-jobs-full-crawl.md).
 
 ## Look up file permissions
 
@@ -42,5 +45,5 @@ The **sn\_sp\_con.sharepoint\_batch\_size** property controls the size of the ba
 
 ## Delegated permissions and Application permissions
 
-When you want the search results to display only the published versions of a document, ensure you select **Application permissions** instead of the **Delegated permissions** while configuring the permissions explained in [Configure the Microsoft SharePoint tenant](../concept/setup-sp-ovrvw.md#). Admins can limit indexing only the published versions only, ensuring that drafts or unfinished work are not displayed in the search results.​
+When you want the search results to display only the published versions of a document, ensure you select **Application permissions** instead of the **Delegated permissions** while configuring the permissions explained in [Configure the Microsoft SharePoint tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/setup-sp-ovrvw.md). Admins can limit indexing only the published versions only, ensuring that drafts or unfinished work are not displayed in the search results.​
 

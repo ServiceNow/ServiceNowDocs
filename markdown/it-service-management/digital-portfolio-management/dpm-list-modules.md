@@ -2,6 +2,7 @@
 title: Work with lists in Digital Portfolio Management
 description: Work with lists in the Digital Portfolio Management Workspace. Lists enable you to view service and application information that is not in a personal portfolio or an enterprise portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-list-modules.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -27,7 +28,7 @@ Use the **List** tab in Digital Portfolio Management \(DPM\), to view lists of s
 
 1.  Navigate to **All** &gt; **Digital Portfolio Management** &gt; **Digital Portfolio Management Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/list-gray.png)\).
+2.  Select the list icon \(\[Omitted image "list-gray.png"\] Alt text: List icon.\).
 
 3.  View a list.
 
@@ -46,9 +47,9 @@ Use the **List** tab in Digital Portfolio Management \(DPM\), to view lists of s
         -   If you select **Create your own**, then complete the **List Name** field. In the **Select Source** field, select the source for your list. Depending on the type that you select, you can opt to keep or remove the list columns and adjust the filters. When finished, select **Create**.
 5.  Update a list.
 
-    -   Select **Refresh List** \(![Refresh list icon.](../image/refresh-list-icon.png)\) to refresh the list results.
-    -   Select **List Actions** \(![List actions icon.](../image/list-actions-button.png)\) to edit the list columns and to save the list.
-    -   Select **Show filter panel** \(![Show filter panel icon.](../image/filter-icon-new.png)\) to add or remove filters for the list.
+    -   Select **Refresh List** \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.\) to refresh the list results.
+    -   Select **List Actions** \(\[Omitted image "list-actions-button.png"\] Alt text: List actions icon.\) to edit the list columns and to save the list.
+    -   Select **Show filter panel** \(\[Omitted image "filter-icon-new.png"\] Alt text: Show filter panel icon.\) to add or remove filters for the list.
     -   Select **Export** to export the displayed list.
     -   Select **New** to create a list.
 6.  Share a list.
@@ -60,5 +61,5 @@ Use the **List** tab in Digital Portfolio Management \(DPM\), to view lists of s
         The copied link contains a unique list ID so when selected, it goes directly to the list that you want to share.
 
 
-**Parent Topic:**[Work with solution data in Digital Portfolio Management](../reference/dpm-working-with.md)
+**Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
 

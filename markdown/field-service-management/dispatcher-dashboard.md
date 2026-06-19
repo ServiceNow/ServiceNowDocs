@@ -2,7 +2,10 @@
 title: Dispatcher dashboard
 description: Get real-time visibility into work orders, schedules, agent locations and statuses through the Dispatcher dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/dispatcher-dashboard.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,5 +18,5 @@ Get real-time visibility into work orders, schedules, agent locations and status
 
 The Dispatcher dashboard displays the real-time data of the operations and performance of field service agents across their assignments. Dispatchers have instant visibility into pending dispatch items and the current status of agents. With the map expanded, dispatchers can take actions to auto-zoom the map to a particular technician or work order task.
 
-![Dispatcher dashboard with number of items that need attention, number of agents and tasks assigned to each status, and a map with the location of each agent and task.](../image/dispatcher-dashboard.png)
+\[Omitted image "dispatcher-dashboard.png"\] Alt text: Dispatcher dashboard with number of items that need attention, number of agents and tasks assigned to each status, and a map with the location of each agent and task.
 

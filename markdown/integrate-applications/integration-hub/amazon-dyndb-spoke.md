@@ -2,6 +2,7 @@
 title: Amazon DynamoDB Spoke
 description: Manage streams, tables, and tags in your Amazon DynamoDB database from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/amazon-dyndb-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage streams, tables, and tags in your Amazon DynamoDB database from your Serv
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -85,5 +86,5 @@ Integration Hub uses aliases to manage connection and credential information, an
 
 **Note:** Two Credential aliases are available for the Amazon DynamoDB spoke.
 
-For information about setting up the spoke, see [Set up the Amazon DynamoDB spoke](../../integrationhub/tasks/setup-dyndb.md#).
+For information about setting up the spoke, see [Set up the Amazon DynamoDB spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-dyndb.md).
 

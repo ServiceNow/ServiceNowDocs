@@ -2,6 +2,7 @@
 title: Create a notification contact group
 description: Create a notification contact group using the ServiceNow AI Platform groups. Use the group members as contacts for emergency notification. Synchronize the group members as contacts with Everbridge and track the non-synchronized members as exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-notification-contact-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

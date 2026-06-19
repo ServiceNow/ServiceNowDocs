@@ -2,6 +2,7 @@
 title: Configure the email notification state
 description: Determine at which state the applicant receives an email to access the Applicant Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/configure-email-stage.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -19,5 +20,5 @@ Choose when the applicant can access the Applicant Center.
 
 **Note:** You must have the administrator role to perform this task.
 
-**Parent Topic:**[Configuring Applicant Center](../concept/config-applicant-center.md)
+**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/config-applicant-center.md)
 

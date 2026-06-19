@@ -2,6 +2,7 @@
 title: Create application models
 description: You can create application models that can be managed and tracked within a Scrum development process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/product-catalog/t\_CreatingApplicationModels.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -27,15 +28,15 @@ Role required: model\_manager
 
 3.  Complete the form.
 
-    For general field descriptions, see [Model form fields](../reference/r_ModelFormFields.md). There are no fields specific to application models.
+    For general field descriptions, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/r_ModelFormFields.md). There are no fields specific to application models.
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Models](../concept/c_Models.md)
+**Parent Topic:**[Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_Models.md)
 
 **Related topics**  
 
 
-[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-development.md)
+[bundle-itbm.agile-development]
 

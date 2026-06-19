@@ -2,6 +2,7 @@
 title: Report operational vulnerability from the Employee Center
 description: Report an operational vulnerability from the Employee Center. Any employee or user can report the operational vulnerabilities and complaints directly to the supporting teams for a quick response. The user in the assignment group can assign an analyst for the operational vulnerability. Reporting the issues helps to reduce and avert losses in a timely manner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/reporting-op-vul.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ When an operational vulnerability is reported, it is opened in the **New** state
 
 5.  On the form, fill in the fields.
 
-    See the [Report operational vulnerability form](../reference/report-op-vul-form.md) for an explanation of each field.
+    See the [Report operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/report-op-vul-form.md) for an explanation of each field.
 
 6.  To provide supporting material or evidence, select **Add attachments**.
 
@@ -43,6 +44,6 @@ When an operational vulnerability is reported, it is opened in the **New** state
 
     The vulnerability is shown in the following example.
 
-    ![Vulnerability.](../image/op-vul-from-emp-center.png)
+    \[Omitted image "op-vul-from-emp-center.png"\] Alt text: Vulnerability.
 
 

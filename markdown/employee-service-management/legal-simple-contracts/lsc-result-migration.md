@@ -2,6 +2,7 @@
 title: Result of migration from Legal Simple Contracts to Contract Management Pro for Legal Service Delivery
 description: On the running the script to migrate data from Legal Simple Contracts to Contract Management Pro for Legal Service Delivery, the data is copied along with other changes made to Legal Simple Contracts modules, Legal Counsel Center, and the Legal Executive dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/lsc-result-migration.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -26,5 +27,5 @@ On the running the script to migrate data from Legal Simple Contracts to Contrac
     -   Contracts tab: Navigate to the Legacy contract requests section to view the contract requests.
 -   Any new contract repository records created due to completion of a legal request are automatically migrated to Contract Management Pro for Legal Service Delivery.
 
-**Parent Topic:**[Migrating to Contract Management Pro for Legal Service Delivery](migration-landing-page.md)
+**Parent Topic:**[Migrating to Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/migration-landing-page.md)
 

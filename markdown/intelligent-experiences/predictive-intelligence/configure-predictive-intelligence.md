@@ -2,6 +2,7 @@
 title: Configure Predictive Intelligence
 description: Configure solution definitions for Predictive Intelligence to train, test, and monitor solution definitions
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -19,22 +20,22 @@ Configure solution definitions for Predictive Intelligence to train, test, and m
 
 Use the following links to guide you as you set up your solution definition.
 
--   **[Database View support for Predictive Intelligence](../concept/database-view-support-predictive-intelligence.md)**  
+-   **[Database View support for Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/database-view-support-predictive-intelligence.md)**  
 Use database views to join two or more tables as input for your Machine Learning \(ML\) solution.
--   **[Configuration tips for Predictive Intelligence](../reference/troubleshooting-predictive-intelligence.md)**  
+-   **[Configuration tips for Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/troubleshooting-predictive-intelligence.md)**  
 If you encounter issues during your solution training and solution prediction, follow these suggested resolutions.
--   **[Create a custom stopwords list](create-custom-stopwords-list.md)**  
+-   **[Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md)**  
 Exclude common words you want the system to ignore during training and prediction.
--   **[Create a word corpus](create-word-corpus.md)**  
+-   **[Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-word-corpus.md)**  
 Build a collection of words and phrases that functions as the vocabulary the system uses to compare your instance records based on their textual similarity. You can think of the word corpus as a dictionary that you want your machine-learning system to understand.
--   **[Quick start tests for Predictive Intelligence](../../atf-quick-start-tests/reference/quick-start-tests-ai.md)**  
+-   **[Quick start tests for Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/quick-start-tests-ai.md)**  
 Validate that Predictive Intelligence still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
--   **[Activate a solution version](activate-solution-version.md)**  
+-   **[Activate a solution version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/activate-solution-version.md)**  
 Predictive Intelligence activates the most recent version of the solution when it completes training a solution. However, you can activate any previously trained solution version. Only one solution version can be active at a time, and only the active version is used when making predictions.
--   **[Export trained solutions to production](implement-iterative-solution-updates.md)**  
+-   **[Export trained solutions to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/implement-iterative-solution-updates.md)**  
 Refine and test your ML solutions iteratively on a non-production instance, and then use update sets to export the changes to your production instance. This practice mitigates the risk of retraining solutions on your live production instance.
--   **[Configuring advanced settings for your ML solutions](../concept/configuring-advanced-settings-ml-solutions.md)**  
+-   **[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)**  
 Learn about advanced settings for your Predictive Intelligence machine learning \(ML\) solutions. Apply optional technology and algorithms for classification, clustering, similarity, and regression capabilities.
 
-**Parent Topic:**[Predictive Intelligence](../concept/predictive-intelligence-landing.md)
+**Parent Topic:**[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md)
 

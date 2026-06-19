@@ -2,6 +2,7 @@
 title: Enable logging for Advanced Work Assignment
 description: Enable logging to monitor AWA routing and assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-activate-logging.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,6 +2,7 @@
 title: Resource form
 description: Use the resource form to create an operational resource plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rsrc-form.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -61,7 +62,7 @@ Role
 
 </td><td>
 
-Specific [resource role](../task/create-resource-role.md) that you want to associate with the plan. This option appears if you select **Group** or **Role** in the **Resource type** field.If you select **Group** in the **Resource type** field, then the choice list displays the roles for the selected group.
+Specific [resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-role.md) that you want to associate with the plan. This option appears if you select **Group** or **Role** in the **Resource type** field.If you select **Group** in the **Resource type** field, then the choice list displays the roles for the selected group.
 
 </td></tr><tr><td>
 
@@ -78,7 +79,7 @@ Skills
 
 </td><td>
 
-Specific skill\(s\) that you want to associate with the plan. This field appears only when the **All members** option is selected in the **Members preference** field.For more information on skills management, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/skills-management.md).
+Specific skill\(s\) that you want to associate with the plan. This field appears only when the **All members** option is selected in the **Members preference** field.For more information on skills management, see Skills Management.
 
 </td></tr><tr><td>
 
@@ -134,7 +135,7 @@ Rate model
 
 </td><td>
 
-Rate model assigned to the operational resource plan. The [rate model](../../project-portfolio-suite-with-financials/concept/rate-model.md) is used to derive hourly rates for the resource plan.If you change or remove the rate model assigned to an operational resource plan, the cost fields on the plan are re-calculated.
+Rate model assigned to the operational resource plan. The [rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md) is used to derive hourly rates for the resource plan.If you change or remove the rate model assigned to an operational resource plan, the cost fields on the plan are re-calculated.
 
 </td></tr><tr><td>
 
@@ -198,7 +199,7 @@ Planned cost
 
 Amount, in **Planned Hours**, multiplied by the hourly rate of the specified user or group resource. Planned cost is a first draft estimate of the resource plan cost.Planned cost is rolled up from Requested Allocations for plans in the Planning or Requested states and from resource allocations for plans in the Allocated state.
 
-The hourly rate is derived from one of the following sources:-   [Rate model](../../project-portfolio-suite-with-financials/concept/rate-model.md), if it is populated on the operational resource plan.
+The hourly rate is derived from one of the following sources:-   [Rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md), if it is populated on the operational resource plan.
 -   Labor rate card, if rate model is not available.
 -   System property **com.snc.time\_card.default\_rate** if all the other conditions fail.
 
@@ -212,7 +213,7 @@ Confirmed/Allocated cost
 
 Amount of confirmed or allocated hours multiplied by the hourly rate of the confirmed or allocated resources. Provides a more accurate estimation of the cost of the plan that is confirmed or allocated. The hourly rate is derived from one of the following sources:
 
- -   [Rate model](../../project-portfolio-suite-with-financials/concept/rate-model.md), if it is populated on the operational resource plan.
+ -   [Rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md), if it is populated on the operational resource plan.
 -   Labor rate card, if rate model is not available.
 -   System property **com.snc.time\_card.default\_rate** if all the other conditions fail.
 
@@ -251,7 +252,7 @@ Requested Allocations
 
 </td><td>
 
-List of [requested allocations](../task/request-allocation.md) for the resource plan.The number of requested allocation records created depends on the value in the **Allocations type** field. For example, if a resource is requested from Jan first to Mar. 31st, the following requested allocation records are created for each type:
+List of [requested allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/request-allocation.md) for the resource plan.The number of requested allocation records created depends on the value in the **Allocations type** field. For example, if a resource is requested from Jan first to Mar. 31st, the following requested allocation records are created for each type:
 
 -   Monthly: 3 allocation records, one for each month.
 -   Weekly: 14 allocation records, one for each week with Monday being the first day of the week.
@@ -263,8 +264,8 @@ Resource Allocations
 
 </td><td>
 
-List of [resources allocated](r_AllocatingResources.md) to the plan.
+List of [resources allocated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md) to the plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

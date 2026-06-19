@@ -2,13 +2,14 @@
 title: Exploring Flow generation with images
 description: Create a flow or a subflow from an image by using Now Assist. Capture the detailed process in an image and attach the image to Workflow Studio. Now Assist generates a preview of the flow that you can modify and regenerate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/exploring-flow-generation-with-images.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Flow generation with images, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Flow generation with images, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Exploring Flow generation with images
@@ -28,7 +29,7 @@ Enable flow generation with images to gain these benefits.
 
 ## Supported LLMs
 
-You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Supported trigger types
 
@@ -84,5 +85,5 @@ Follow these general guidelines when writing Now Assist directions.
     Enclose exact data values in quotations marks to help the LLM distinguish between operation names and data values. For example, the directions, "`Log the value, 'incident reopened'`" make it clear that the text "incident reopened" is a data value.
 
 
-**Parent Topic:**[Flow generation with images](../reference/flow-generation-with-images-landing.md)
+**Parent Topic:**[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-generation-with-images-landing.md)
 

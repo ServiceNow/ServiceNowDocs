@@ -2,6 +2,7 @@
 title: Matrix report configuration form
 description: Use the Matrix report configuration form to configure the Matrix report in the Risk Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/matrix-report-configuration-form-risk-workspace.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -109,5 +110,5 @@ Base table relation
 Relationship between the configured table and the base table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create Matrix report configuration for Risk Workspace](../task/create-matrix-report-configuration-for-risk-workspace.md)
+</table>**Parent Topic:**[Create Matrix report configuration for Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-matrix-report-configuration-for-risk-workspace.md)
 

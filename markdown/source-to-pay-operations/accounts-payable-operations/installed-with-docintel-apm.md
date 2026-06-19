@@ -1,25 +1,27 @@
 ---
 title: Components installed with Accounts Payable Operations integration with Document Intelligence
-description: Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) application plugin, including user roles, flows, and tables.
+description: Reference information for the roles, flows, and tables installed with the Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) application plugin during activation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/installed-with-docintel-apm.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, DocIntel, Document Intelligence, integration]
 breadcrumb: [Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Components installed with Accounts Payable Operations integration with Document Intelligence
 
-Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) application plugin, including user roles, flows, and tables.
+Reference information for the roles, flows, and tables installed with the Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) application plugin during activation.
 
 ## Roles required
 
 You must have the Accounts Payable Specialist \(sn\_ap\_apm.accounts\_payable\_specialist\) role to review an invoice in Document Intelligence and enter values in the invoice fields.
 
-For more information about the roles that are installed with Document Intelligence, see [Components installed with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/installed-with-document-intelligence.md).
+For more information about the roles that are installed with Document Intelligence, see .
 
 ## Flows installed
 
@@ -111,5 +113,5 @@ Invoice Line Stage
 Stores the invoice line data extracted from the invoice.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](../concept/apm-integration-docintel.md)
+</table>**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)
 

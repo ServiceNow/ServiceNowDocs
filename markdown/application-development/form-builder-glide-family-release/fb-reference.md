@@ -2,6 +2,7 @@
 title: Table Builder reference
 description: Reference topics provide additional information about the form and table elements you can configure using Table Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/fb-reference.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -15,12 +16,12 @@ breadcrumb: [Table Builder, Builder library, Developing your application, Buildi
 
 Reference topics provide additional information about the form and table elements you can configure using Table Builder.
 
--   **[Table properties in Table Builder](../reference/table-parameters.md)**  
+-   **[Table properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/table-parameters.md)**  
 Various table and table column properties can be modified by using Table Builder.
--   **[Field configuration in Table Builder](../reference/field-parameters.md)**  
+-   **[Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/field-parameters.md)**  
 You can configure the basic field properties for any field within Table Builder.
--   **[Policies and rules properties in Table Builder](../reference/ui-policy-fields.md)**  
+-   **[Policies and rules properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/ui-policy-fields.md)**  
 You can configure the basic field policies and rules for any field that you work with in Table Builder.
 
-**Parent Topic:**[Table Builder](tb-landing-page.md)
+**Parent Topic:**[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)
 

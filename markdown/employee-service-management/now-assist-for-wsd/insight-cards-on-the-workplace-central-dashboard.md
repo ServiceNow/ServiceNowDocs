@@ -2,6 +2,7 @@
 title: Insight cards on the Workplace Central dashboard
 description: Display key metrics and AI-generated insights from workplace data sources using Insight cards on the Workplace Central dashboard. These Insight cards are auto-generated using generative AI, enabling Space Planners, and Facilities Managers to make data-driven decisions to optimize workplace resources. Insight cards provide proactive insights into various workplace metrics such as space utilization, occupancy rates, attendance patterns, and reservation trends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -81,16 +82,16 @@ Several types of scheduled jobs are added to generate Insight cards for workplac
 |Workplace Connectors Daily Collection Job|Daily|This scheduled job runs daily to collect scores and text index.|
 |Workplace Connectors Historic Collection Job|On Demand|Run this adhoc scheduled job to to collect scores and text index for the specified date.|
 
--   **[Configure workplace data sources](../task/configure-workplace-data-sources.md)**  
+-   **[Configure workplace data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/configure-workplace-data-sources.md)**  
 Configure multiple data sources to generate insights.
--   **[Define AI prompt configurations](../task/ai-prompt-configurations.md)**  
+-   **[Define AI prompt configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/ai-prompt-configurations.md)**  
 Define prompt configurations to control how data from each source is queried and presented to the large language model \(LLM\)
--   **[Run the scheduled job to generate workplace insights](../task/run-the-schedule-job-to-generate-workplace-insights.md)**  
+-   **[Run the scheduled job to generate workplace insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/run-the-schedule-job-to-generate-workplace-insights.md)**  
 Run the **Generate Workplace Insights - Weekly** scheduled job to generate workplace insights based on the configured data source and prompt configuration.
--   **[View workplace insights on the dashboards](../task/view-workplace-insights-on-the-dashboards.md)**  
+-   **[View workplace insights on the dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/view-workplace-insights-on-the-dashboards.md)**  
 Access workplace insights directly from the Workplace Central Dashboard using Insight Cards. These cards deliver real-time data from various workplace sources, enabling managers and users to track important metrics like space utilization, occupancy rates, reservation trends, and environment summaries.
--   **[Receive email notifications for Workplace Insights](../task/email-notifications-for-workplace-insights.md)**  
+-   **[Receive email notifications for Workplace Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/email-notifications-for-workplace-insights.md)**  
 Notify Space Planners, Reservation Managers, and Workplace Managers by email when new Workplace Insights are generated. The email notifications are sent to the users defined in the user criteria when the sn\_wsd\_ai\_agents.weekly\_insights event is triggered.
 
-**Parent Topic:**[Workplace Advisor Overview](workplace-advisor-overview.md)
+**Parent Topic:**[Workplace Advisor Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-advisor-overview.md)
 

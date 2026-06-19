@@ -2,11 +2,12 @@
 title: Oracle GoldenGate discovery
 description: The ServiceNow Discovery and Service Mapping applications find Oracle GoldenGate version 12c components using the Oracle Golden Gate pattern. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/oracle-golden-gate-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-08"
 reading_time_minutes: 7
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -23,7 +24,7 @@ You can use this pattern on the ServiceNow AI Platform using Kingston, London, o
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Oracle Golden Gate data model
 
@@ -77,7 +78,9 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-`$sudo + " ls -d " + $rpt_base_dir + "*.rpt | sort "`
+-   Starting with Discovery and Service Mapping Patterns version 1.31.0: `$sudo + " ls " + $rpt_base_dir + " | grep '\.rpt$' | sort "`
+-   Before Discovery and Service Mapping Patterns version 1.31.0: `$sudo + " ls -d " + $rpt_base_dir + "*.rpt | sort "`†
+
 
 </td><td>
 
@@ -89,7 +92,9 @@ List all report files under the Oracle Golden Gate report base directory.
 
 </td></tr><tr><td>
 
-`$sudo + " ls -d " + $prm_base_dir + "*.prm| sort "`
+-   Starting with Discovery and Service Mapping Patterns version 1.31.0: `$sudo + " ls " + $prm_base_dir + " | grep '\.prm$' | sort "`
+-   Before Discovery and Service Mapping Patterns version 1.31.0: `$sudo + " ls -d " + $prm_base_dir + "*.prm| sort "`†
+
 
 </td><td>
 
@@ -100,7 +105,9 @@ Mandatory
 List all parameter files under the Oracle Golden Gate parameter base directory.
 
 </td></tr></tbody>
-</table>-   **Retrieve data**
+</table>    † If this command doesn't return data, see the update set in [KB3069148](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3069148).
+
+-   **Retrieve data**
 
     Retrieve data by parsing:
 
@@ -262,7 +269,7 @@ Discovery uses the Oracle Golden Gate pattern to collect the data described in t
 
 The Dependency Views map shows discovered load balancer CIs and the relationships between them.
 
-![CIs and connections on a Dependency Views map](../image/GoldenGateRelations.png)
+\[Omitted image "GoldenGateRelations.png"\] Alt text: CIs and connections on a Dependency Views map
 
 ## CI relationships
 
@@ -291,5 +298,5 @@ To discover the Oracle Golden Gate process, use the TCP entry point with the pro
 |Counter for extract processes \[count\_extract\]|Counter of extract processes that are managed by the Oracle Golden Gate manager instance.|
 |Counter for replicat processes \[count\_replicat\]|Counter of replicat processes that are managed by the Oracle Golden Gate manager instance.|
 
-**Parent Topic:**[Available on-premise discovery patterns](available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

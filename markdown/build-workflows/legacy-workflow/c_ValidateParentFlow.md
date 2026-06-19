@@ -2,6 +2,7 @@
 title: ValidateParentFlow
 description: The ValidateParentFlow validator reports any workflows that use the workflow as a subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_ValidateParentFlow.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -26,7 +27,7 @@ The **ValidateParentFlow** validator reports any workflows that use the workflow
 -   **Suggested Action:** Exercise caution when modifying things like input parameters and return values to assure that parent workflows are not adversely affected.
 -   **Publishable:** Yes
 -   **Runnable:**Yes
--   **Related Information:** [Workflows used as subflows](../../workflow-activities/reference/workflows-as-subflows.md)
+-   **Related Information:** [Workflows used as subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflows-as-subflows.md)
 
 ## Troubleshooting
 
@@ -34,12 +35,12 @@ The system warns the workflow designer at publishing time and during validation 
 
 When a workflow is a subflow, changes that can cause it to become invalid include:
 
--   Changing the data types of [input variables](../../using-workflows/concept/c_UsingVariablesInAWorkflow.md#). Verify that all parent workflows cited in this validation report can pass the correct value type.
+-   Changing the data types of [input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_UsingVariablesInAWorkflow.md). Verify that all parent workflows cited in this validation report can pass the correct value type.
 -   Adding input variables. Verify that all parent workflows cited in this validation report are able to pass all variable values into the subflow.
 -   Changing or removing the return value of a workflow. Verify that any changes to the return value of a workflow are compatible with the requirements of all the parent flows.
 -   Changing the table on which the workflow runs. Verify that the table selection is compatible with all parent flows.
 
 **Note:** To delete a workflow that is a subflow, first remove the dependency by removing the subflow from all parent flows cited in this validation report. After the dependencies are cleared, a user with the proper role can delete the subflow.
 
-**Parent Topic:**[Workflow validator](../reference/r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowValidator.md)
 

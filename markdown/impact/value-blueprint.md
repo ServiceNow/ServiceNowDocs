@@ -2,7 +2,10 @@
 title: Configure Objectives and outcomes
 description: The value management lifecycle starts with the identification of your objectives and outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/value-blueprint.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Your objectives and outcomes are the basis for creating a personalized Customer 
 
 The intent is to set a yearly improvement target against these outcomes to be able to capture the incremental improvements and value realized during the upcoming year. Your squad will help you understand where you are and what you can do to meet your objectives.
 
-![Shows the Objectives and outcomes page with objectives tiled displayed.](../image/objectives-outcomes.png)
+\[Omitted image "objectives-outcomes.png"\] Alt text: Shows the Objectives and outcomes page with objectives tiled displayed.
 
 You can measure a selected objective under the same product across multiple ServiceNow instances. Use the Instance option on the Objectives and Outcomes, and Outcomes Insights to filter business objectives and outcomes by the ServiceNow instance.
 
@@ -25,7 +28,7 @@ You can measure a selected objective under the same product across multiple Serv
 
 Select **Manage Objectives and Outcomes** to setup and manage this feature.
 
-![Manage objectives and outcomes](../image/value-blueprint-manage.png)
+\[Omitted image "value-blueprint-manage.png"\] Alt text: Manage objectives and outcomes
 
-For additional information about the Objectives and outcomes for the Impact Store Application, see [Value management](impact-in-platform-business-outcomes.md).
+For additional information about the Objectives and outcomes for the Impact Store Application, see [Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/value-library/impact-in-platform-business-outcomes.md).
 

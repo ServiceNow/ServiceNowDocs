@@ -2,6 +2,7 @@
 title: ClassifierProbes - Global
 description: The ClassifierProbes script include provides a classifier probe launch facility. Encapsulates an array of probe information records, initialized either from a JavaScript array or the XML serialized version.Launches the next highest priority classifier from those in the list.Launches a supplementary probe.Returns the probe length.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_ClassifierProbesAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ClassifierProbes script include provides a classifier probe launch facility.
 
 Use in any server-side script where you need to define a classifier probe launch facility.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ClassifierProbes - launch\(\)
 

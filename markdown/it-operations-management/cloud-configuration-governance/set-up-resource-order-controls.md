@@ -2,6 +2,7 @@
 title: Set up resource order controls
 description: Create quota definitions and policies mapped to cloud-template based catalog items. Use policy rules and actions to trigger an approval subflow or notification when the quota limit defined for the group or user exceeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/set-up-resource-order-controls.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -57,11 +58,11 @@ Consider the following points before you begin setting up resource order control
 
     -   Create a quota definition.
 
-        For more information see, [Create a cloud quota definition](create-cloud-quota.md).
+        For more information see, [Create a cloud quota definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-quota.md).
 
 2.  Map the quota to a template-based cloud catalog item.
 
-    **Important:** If quota is not mapped to template-based catalogs when you configure quota definitions, quota calculations for those catalogs are not performed, even if user-define quotas exceed. For more information, see [Create a cloud quota definition](create-cloud-quota.md)
+    **Important:** If quota is not mapped to template-based catalogs when you configure quota definitions, quota calculations for those catalogs are not performed, even if user-define quotas exceed. For more information, see [Create a cloud quota definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-quota.md)
 
     1.  In the Cloud Template Resources related list, click **New**.
 
@@ -85,14 +86,14 @@ Consider the following points before you begin setting up resource order control
 
     -   Click **New** and configure a new policy rule.
 
-        For more information, see [Configure a cloud policy rule](configure-cloud-policy-rule.md).
+        For more information, see [Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.md).
 
 4.  Configure a policy rule action.
 
     -   Select the base system approve policy rule action in the Policy Rule Actions related list to include a notification or a custom approval subflow.
     -   Create a cloud policy rule action in the Policy Rule Actions related list, to trigger custom approval subflows or notifications, if you created a policy rule in the previous step.
 
-        For more information, see [Create an action for 'on Resource Limit exceeded' policy](create-action-on-resource-limits-exceeded.md).
+        For more information, see [Create an action for 'on Resource Limit exceeded' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-action-on-resource-limits-exceeded.md).
 
     **Note:** In the **Policy Group** field, ensure that the policy group you want this policy to apply to is selected.
 
@@ -105,5 +106,5 @@ Based on the Policy Rule action you configured for the Resource order control po
 
 If you have configured an approval policy, the requester receives a notification stating that the approval request has been sent to a designated approver on exceeding the specified quota. Typically, the assigned approver designed the template used to create the cloud resource and has the **sn\_cmp.cloud\_service\_designer** role.
 
-**Parent Topic:**[Resource order controls for template-based cloud catalog items](../concept/resource-order-control-template-based-catalog.md)
+**Parent Topic:**[Resource order controls for template-based cloud catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
 

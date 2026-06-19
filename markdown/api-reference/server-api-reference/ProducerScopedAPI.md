@@ -2,6 +2,7 @@
 title: Producer - Scoped \(deprecated\)
 description: The Producer API provides methods that enable you to push data from a ServiceNow instance to a Kafka topic.Sends the specified message to the specified Kafka topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ProducerScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The Producer API provides methods that enable you to push data from a ServiceNow instance to a Kafka topic.
 
-**Note:** This API is deprecated and replaced by the [ProducerV2 - Scoped](../../ProducerV2/concept/ProducerV2ScopedAPI.md#) API.
+**Note:** This API is deprecated and replaced by the [ProducerV2 - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md) API.
 
 This API requires the ServiceNow Integration Hub Action Step - Kafka Producer plugin \(com.glide.hub.action\_step.kafka\) and is provided within the `sn_ih_kafka` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Producer - send\(String topic, String key, String message, Boolean isSync\)
 

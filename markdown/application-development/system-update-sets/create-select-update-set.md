@@ -2,6 +2,7 @@
 title: Create and select an update set as the current set
 description: Create an update set to store customization changes and select it as the current set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/create-select-update-set.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -80,5 +81,5 @@ Enter a description of the update set.
 </table>3.  Select **Submit** to create the update set or select **Submit and Make Current**.
 
 
-**Parent Topic:**[Working with update sets](../concept/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
 

@@ -2,6 +2,7 @@
 title: Create a requisition on Coupa through Procurement application
 description: Create software requisitions directly on Coupa through the ServiceNow Procurement application to purchase software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/procurement/create-req-coupa.html
 release: australia
 product: Procurement
 classification: procurement
@@ -19,9 +20,9 @@ Create software requisitions directly on Coupa through the ServiceNow Procuremen
 
 To create a requisition on Coupa through ServiceNow Procurement application, you must perform the following tasks.
 
--   Create and publish a Coupa integration profile. For more information see, [Create a Coupa integration profile](create-coupa-int-profile.md).
+-   Create and publish a Coupa integration profile. For more information see, [Create a Coupa integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/create-coupa-int-profile.md).
 -   Ensure that the Purchase Order you create has at least one Purchase Order Line, and all Purchase Order Lines must be for software products.
--   Synchronize reference data types on both ServiceNow Procurement and Coupa applications. For more information, see [Reference data synchronization](../reference/ref-data-coupa.md).
+-   Synchronize reference data types on both ServiceNow Procurement and Coupa applications. For more information, see [Reference data synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/ref-data-coupa.md).
 
 If all these conditions are met, you can create a requisition in Coupa.
 
@@ -35,16 +36,16 @@ Role required: sam\_admin and procurement\_integrator
 
 You can create a requisition on Coupa through the following ways:
 
--   When a user requests software through Service Catalog. For more information, see [Request a catalog item from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-cat-item-portal.md).
--   If a procurement\_user or sam\_admin directly creates a Purchase Order on the Procurement application. For more information, see [Create a Purchase Order](t_CreateAPurchaseOrder.md).
--   When a sam\_user creates a Purchase Order directly from the Remediation Options form. For more information, see [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md).
+-   When a user requests software through Service Catalog. For more information, see Request a catalog item from Service Portal.
+-   If a procurement\_user or sam\_admin directly creates a Purchase Order on the Procurement application. For more information, see [Create a Purchase Order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_CreateAPurchaseOrder.md).
+-   When a sam\_user creates a Purchase Order directly from the Remediation Options form. For more information, see .
 
 Requisitions are of the following types:
 
 -   **Catalog request**: A requisition created for an item that is already present in the external purchasing application.
 -   **Non catalog request**: A requisition created for an item that isn't present in the product catalog of the organization.
 
-For more information about creating a Purchase Order, see [Create a purchase order](t_CreateAPurchaseOrder.md).
+For more information about creating a Purchase Order, see [Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_CreateAPurchaseOrder.md).
 
 ## Procedure
 
@@ -222,7 +223,7 @@ Expected delivery
 
 </td><td>
 
-The date the items associated with the purchase order are expected to arrive in the stockroom identified in the **Ship to** field. This field can’t be edited when the purchase order has a **Status** of **Received** or **Canceled**. \(For more information about this field, see[Purchase order expected delivery date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/r_SetExpectDelDateOnPurchOrder.md).\)
+The date the items associated with the purchase order are expected to arrive in the stockroom identified in the **Ship to** field. This field can’t be edited when the purchase order has a **Status** of **Received** or **Canceled**. \(For more information about this field, see.\)
 
 </td></tr><tr><td>
 
@@ -267,7 +268,7 @@ The vendor account related with the purchase order.
 </td></tr></tbody>
 </table>4.  Right-click on the form and select **Save**.
 
-    You can add purchase order line items to specify what you are ordering from this vendor. For more information about creating a purchase order line item, see [Create a purchase order line item](t_CreateAPurchaseOrderLineItem.md). A requisition line is created with a unique ID in Coupa.
+    You can add purchase order line items to specify what you are ordering from this vendor. For more information about creating a purchase order line item, see [Create a purchase order line item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/procurement/t_CreateAPurchaseOrderLineItem.md). A requisition line is created with a unique ID in Coupa.
 
 5.  After you’ve added at least one purchase order line item, select **Order**.
 

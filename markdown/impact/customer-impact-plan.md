@@ -2,9 +2,12 @@
 title: Customer Impact Plan
 description: Focuses on accelerating value realization, enhancing platform adoption, and promoting optimal performance through tailored guidance and support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/customer-impact-plan.html
 release: australia
+product: Impact
+classification: impact
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Impact Foundations, Impact operating model, Exploring Impact, Impact]
 ---

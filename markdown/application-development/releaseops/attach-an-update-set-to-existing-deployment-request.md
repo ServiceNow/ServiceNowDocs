@@ -2,6 +2,7 @@
 title: Attach an update set to an existing deployment request
 description: If you want to attach multiple update sets to a deployment request, you can attach an update set to an existing deployment request on the Deploy an update set form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/attach-an-update-set-to-existing-deployment-request.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -26,7 +27,7 @@ Role required: developer or release\_admin
 
     **Note:** You can only select deployment requests that are in the draft state.
 
-    ![On the deployment request form, you can select the deployment request that you want to attach your update set changes to.](../image/releaseops-deployment-request-form.png)
+    \[Omitted image "releaseops-deployment-request-form.png"\] Alt text: On the deployment request form, you can select the deployment request that you want to attach your update set changes to.
 
 2.  Select **Submit** to create your deployment request.
 
@@ -39,5 +40,5 @@ Role required: developer or release\_admin
     When you have selected **Ready to assess**, ReleaseOps automatically begins assessing your deployment request. You can see how the assessment is running and any issues that the assessment encountered in the **Activity** section of the deployment request form. Once your deployment request has passed the assessment checks, your deployment request will be moved into the pipeline that your organization has configured.
 
 
-**Parent Topic:**[Using ReleaseOps to manage deployments](../concept/using-releaseops-to-manage-deployments.md)
+**Parent Topic:**[Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md)
 

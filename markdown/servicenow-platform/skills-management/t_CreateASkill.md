@@ -2,6 +2,7 @@
 title: Add a skill
 description: Create skills to specify the competencies of your users and associate them with users, and configuration items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/skills-management/t\_CreateASkill.html
 release: australia
 product: Skills Management
 classification: skills-management

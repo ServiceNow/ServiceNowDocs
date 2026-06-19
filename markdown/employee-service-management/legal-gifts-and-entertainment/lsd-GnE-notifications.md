@@ -2,6 +2,7 @@
 title: Gifts and Entertainment Compliance notifications
 description: Notifications alert you of changes in gift and entertainment disclosure request and actions to be taken. Use the notifications received to work on the requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-GnE-notifications.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -19,5 +20,5 @@ Notifications alert you of changes in gift and entertainment disclosure request 
 |----|---------|----|
 |G&amp;E Request Approval - Approved/rejected|Requested for, Assigned to|Your request was $\{state\}.|
 
-**Parent Topic:**[Gifts and Entertainment Compliance reference](lsd-ge-reference.md)
+**Parent Topic:**[Gifts and Entertainment Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-reference.md)
 

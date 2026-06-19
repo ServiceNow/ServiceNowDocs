@@ -2,6 +2,7 @@
 title: Enable GRC Approval Configurator
 description: Enable the GRC Approval Configurator from the Policy and Compliance Properties page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/enable-grc-approval-configurator.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -28,5 +29,5 @@ Role required: sn\_compliance.manager
 3.  Select **Save**.
 
 
-**Parent Topic:**[GRC Approval Configurator for approving policy exceptions and extensions](../concept/grc-approval-configurator-for-policy-extension-and-exception.md)
+**Parent Topic:**[GRC Approval Configurator for approving policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-approval-configurator-for-policy-extension-and-exception.md)
 

@@ -2,6 +2,7 @@
 title: View data insights
 description: You can view data insights to see the completeness and distribution of your generated data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/view-data-insights.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
@@ -36,6 +37,6 @@ Role required: sn\_data\_kit.admin
     |Completeness|This metric helps you find empty fields and duplicated values in all records and calculates the percentage for each column.|
     |Distribution|This metric helps you understand the categorical or statistical distribution of your data. You can manage the columns you want to view for Categorical Distribution.|
 
-    ![Now Assist Data Kit data insights page](../image/nadk-data-insights.png)
+    \[Omitted image "nadk-data-insights.png"\] Alt text: Now Assist Data Kit data insights page
 
 

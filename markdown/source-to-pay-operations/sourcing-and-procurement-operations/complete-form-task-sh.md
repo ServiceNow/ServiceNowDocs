@@ -2,6 +2,7 @@
 title: Complete a form from Shopping Hub Home
 description: Fill in a form that your procurement specialist has sent to you, and submit it directly from Shopping Hub Home. This action is listed as a task under My to-dos.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/complete-form-task-sh.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -38,5 +39,5 @@ Role required: sn\_shop.shopper
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

@@ -2,6 +2,7 @@
 title: Add translations for Playbooks
 description: Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/add-translations-playbooks.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -20,11 +21,11 @@ Make Playbooks available in multiple languages during runtime, to support worldw
 -   Role required: admin or playbook.admin
 -   To enable custom translations for playbooks, install the 27.1 app version or later.
 -   Activate any playbooks that you want to translate.
--   To learn more about translating custom content in general, see [Translating custom content](../../localization/concept/translating-applications.md).
+-   To learn more about translating custom content in general, see [Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/translating-applications.md).
 
 ## About this task
 
-UI Message records are used to translate the text in your playbooks to different languages at runtime, similar to the way system messages are translated on the platform. To learn more about the Message table \[sys\_ui\_message\] in general, see [Message table](../../localization/reference/r_MessageTable.md).
+UI Message records are used to translate the text in your playbooks to different languages at runtime, similar to the way system messages are translated on the platform. To learn more about the Message table \[sys\_ui\_message\] in general, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
 
 The playbook text that you can create translations for are:
 
@@ -67,5 +68,5 @@ The playbook text that you can create translations for are:
 
 When the playbook runs, the translated content appears for agents in their user session language.
 
-![The message translated into Spanish.](../images/playbook-translation-runtime.png)
+\[Omitted image "playbook-translation-runtime.png"\] Alt text: The message translated into Spanish.
 

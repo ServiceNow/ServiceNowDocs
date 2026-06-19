@@ -2,6 +2,7 @@
 title: Software license usage
 description: Review reconciliation results in a simplified workbench view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-license-workbench.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -28,9 +29,9 @@ Workbench features include:
 -   Keyboard control
 -   Group and subgroup reconciliation information, if applicable
 
-![License Workbench showing all publishers, publishers out of compliance, and pinned publishers in different tabs.](../image/license-workbench.png "License workbench")
+\[Omitted image "license-workbench.png"\] Alt text: License Workbench showing all publishers, publishers out of compliance, and pinned publishers in different tabs.
 
-Pinned publishers are listed in the **Pinned Publishers** tab. The list of pinned publishers is saved on a per-user basis.![Pin Publisher icon pins a publisher that appears in the Pinned Publishers tab.](../image/sam-pin-publisher.png)
+Pinned publishers are listed in the **Pinned Publishers** tab. The list of pinned publishers is saved on a per-user basis.\[Omitted image "sam-pin-publisher.png"\] Alt text: Pin Publisher icon pins a publisher that appears in the Pinned Publishers tab.
 
 |Tab|Description|
 |---|-----------|
@@ -49,13 +50,13 @@ The navigation tree features are:
 -   Expand and collapse tree links
 -   Software model compliance icons
 
-![Publisher Workbench navigation tree showing publishers and their product results](../image/software-model-results.png)
+\[Omitted image "software-model-results.png"\] Alt text: Publisher Workbench navigation tree showing publishers and their product results
 
 By default, the navigation tree on the publisher license overview page is collapsed. When expanded, it's grouped by publisher.
 
 Publisher: Product Results related lists:
 
--   [Software Model Results](../task/t_ViewSWModelResults.md)
+-   [Software Model Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md)
 -   Licensed Installs
 -   Unlicensed Installs \(SAP: Unlicensed Users or Unlicensed Engines\)
 -   Unlicensed Subscriptions \(Subscription-based software\)
@@ -66,7 +67,7 @@ Software Model Results related lists:
 -   License Metric Results
 -   Remediation Options: The **Rights Needed By** tab is not visible for the Resource Value Unit \(RVU\) IBM license metric. Rights are not used by individual devices, as the Resource Value Unit \(RVU\) license metric is licensed at the product level.
 
-    **Note:** For more details on the remediation options, see [View software model results](../task/t_ViewSWModelResults.md).
+    **Note:** For more details on the remediation options, see [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md).
 
 -   Licensed Installs
 -   Unlicensed Installs \(SAP: Unlicensed Users\)
@@ -208,7 +209,7 @@ Right allocations
 
 </td></tr><tr><td>
 
-Rights needed**Note:** This field is hidden by default. Select the personalize list icon \(![Personalize list icon.](../image/gear-icon.png)\) to modify the fields that appear in the License Metric Results.
+Rights needed**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -216,7 +217,7 @@ Number of rights that are required to cover unlicensed installations.
 
 </td></tr><tr><td>
 
-Unlicensed installs**Note:** This field is hidden by default. Select the personalize list icon \(![Personalize list icon.](../image/gear-icon.png)\) to modify the fields that appear in the License Metric Results.
+Unlicensed installs**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -224,7 +225,7 @@ Number of unlicensed software installations that are not covered by any entitlem
 
 </td></tr><tr><td>
 
-Unlicensed SAP users \(SAP only\)**Note:** This field is hidden by default. Select the personalize list icon \(![Personalize list icon.](../image/gear-icon.png)\) to modify the fields that appear in the License Metric Results.
+Unlicensed SAP users \(SAP only\)**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -232,7 +233,7 @@ Number of unlicensed SAP users that are not covered by any entitlements.
 
 </td></tr><tr><td>
 
-Unlicensed options \(Oracle only\)**Note:** This field is hidden by default. Select the personalize list icon \(![Personalize list icon.](../image/gear-icon.png)\) to modify the fields that appear in the License Metric Results.
+Unlicensed options \(Oracle only\)**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -240,7 +241,7 @@ Number of unlicensed Oracle database options that are not covered by any entitle
 
 </td></tr><tr><td>
 
-Unlicensed subscriptions**Note:** This field is hidden by default. Select the personalize list icon \(![Personalize list icon.](../image/gear-icon.png)\) to modify the fields that appear in the License Metric Results.
+Unlicensed subscriptions**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -248,7 +249,7 @@ Number of unlicensed software subscriptions that are not covered by any entitlem
 
 </td></tr><tr><td>
 
-True-up cost**Note:** This field is hidden by default. Select the personalize list icon \(![Personalize list icon.](../image/gear-icon.png)\) to modify the fields that appear in the License Metric Results.
+True-up cost**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -256,7 +257,7 @@ Estimated cost of remediating unlicensed installations that are based on the low
 
 </td></tr><tr><td>
 
-Potential savings**Note:** This field is hidden by default. Select the personalize list icon \(![Personalize list.](../image/gear-icon.png)\) to modify the fields that appear in the License Metric Results.
+Potential savings**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list.\) to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -264,7 +265,7 @@ Estimated cost saved by reclaiming removal candidates.
 
 </td></tr><tr><td>
 
-Downgrade rights**Note:** This field is hidden by default. Select the personalize list icon \(![Personalize list](../image/gear-icon.png)\) to modify the fields that appear in the License Metric Results.
+Downgrade rights**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list\) to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -329,7 +330,7 @@ Edition Flexibility Applied
 
 Indicates if the edition flexibility benefits provided by Microsoft Azure for Windows Server and SQL Server is applied or not.
 
-**Note:** For details on the edition flexibility benefits, refer to [Licensing rules for BYOL and BYOS](../reference/byol-license-rules.md).
+**Note:** For details on the edition flexibility benefits, refer to [Licensing rules for BYOL and BYOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/byol-license-rules.md).
 
  This field appears only if you have cloud installations on AWS or Azure.
 
@@ -372,14 +373,14 @@ Allocations needed
 Number of allocations needed for compliance. Only used for Per Named User and Per Named Device license metrics.
 
 </td></tr></tbody>
-</table>-   **[Run software reconciliation in Software Asset Management classic](../task/t_RunReconciliation.md)**  
+</table>-   **[Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RunReconciliation.md)**  
 Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in your environment on demand.
--   **[View software model results](../task/t_ViewSWModelResults.md)**  
+-   **[View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md)**  
 View compliance information for software model results from the Product Results list after reconciliation is run.
--   **[Add a software removal candidate in Software Asset Management classic](../task/t_AddAReclCandidate.md)**  
+-   **[Add a software removal candidate in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAReclCandidate.md)**  
 Removal candidates reclaim software resources in your environment. They are created from reclamation rules, or can be created manually.
--   **[Reconciliation and product results](../reference/Recon-swmodelresults-classic.md)**  
+-   **[Reconciliation and product results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Recon-swmodelresults-classic.md)**  
 Field descriptions for the reconciliation results, product results, and software product results.
 
-**Parent Topic:**[Using Software Asset Management classic](using-sam-classic.md)
+**Parent Topic:**[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-classic.md)
 

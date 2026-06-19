@@ -2,6 +2,7 @@
 title: Create a function field
 description: Create a function field to be able to group and stack a report by the results of the field's calculation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/create-function-field.html
 release: australia
 product: Reporting
 classification: reporting
@@ -55,24 +56,24 @@ Each function field requires a label, a return type, and a definition. The defin
 
     The **Syntax** text box shows the name of the function preceded by `glidefunction:`.
 
-    ![Create function field window with callouts for Label, Return type, and Add Operation. The subtract operation is highlighted.](../image/create-ff-01.png)
+    \[Omitted image "create-ff-01.png"\] Alt text: Create function field window with callouts for Label, Return type, and Add Operation. The subtract operation is highlighted.
 
 9.  Select the fields that the function operates on.
 
-    Some functions require only one field; some require two or three fields. See [Report on function fields](../concept/function-fields-reporting.md). Make sure that you separate the fields with commas.
+    Some functions require only one field; some require two or three fields. See [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md). Make sure that you separate the fields with commas.
 
 10. When the syntax is correct, you can save the function field.
 
     When the syntax is incorrect, you see the message: `Syntax error: Invalid expression`. You may also see other messages.
 
-    ![Create function field window with callouts for Add field and the Syntax is correct message. The Child incidents field is highlighted.](../image/create-ff-02.png)
+    \[Omitted image "create-ff-02.png"\] Alt text: Create function field window with callouts for Add field and the Syntax is correct message. The Child incidents field is highlighted.
 
 
 ## Result
 
 Configured function fields appear in the **Group by** and **Additional group by** lists after you save the report.
 
-Use the created function field it in your report or data visualization configuration. For information on using function fields elsewhere on the ServiceNow AI Platform, see [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
+Use the created function field it in your report or data visualization configuration. For information on using function fields elsewhere on the ServiceNow AI Platform, see Function field.
 
-**Parent Topic:**[Report on function fields](../concept/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md)
 

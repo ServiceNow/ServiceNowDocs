@@ -2,6 +2,7 @@
 title: Move Attachment action
 description: Associates a record from the Attachment \[sys\_attachment\] table with a target record. Removes the attachment from any other associated records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/move-attachment.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -29,5 +30,5 @@ Available as a Workflow Studio ServiceNow core action. Users with the flow\_desi
 |Target Record|Drag a Record data pill from the data panel to attach the **Source Attachment Record** to.|
 |Table|Automatically populates with the **Source Record** table.|
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

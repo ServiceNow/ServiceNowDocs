@@ -2,12 +2,13 @@
 title: Create and associate a policy text document in Google Drive
 description: Create a policy text document in Google Drive and enable document editing with the approvers, reviewers, and contributors. You can share the document with your stakeholders and collaborate on the document editing in real-time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-policy-redlining-docu-google-drive.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
@@ -15,9 +16,13 @@ breadcrumb: [Creating and associating policy texts from Cloud documents, Policy 
 
 Create a policy text document in Google Drive and enable document editing with the approvers, reviewers, and contributors. You can share the document with your stakeholders and collaborate on the document editing in real-time.
 
+## About this task
+
+When personal authentication is enabled, the create, connect, and upload operations run under your personal Google account credentials. This allows documents to be registered in Google Drive under your individual identity, enabling audit traceability. Document access permissions and content sync operations continue to run under the system account credentials. Ensure that the system account user has sharing access to the Google Drive folder where documents are hosted.
+
 ## Before you begin
 
-Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
+Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, mp\_document\_user
 
 **Important:** Google document creation support is enabled from 19.1.1 version of Policy and Compliance Management application
 
@@ -25,11 +30,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-cam-workspace/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-    You can [create a new policy](../../grc-workspace-compliance/task/create-policy-ws.md) or open a record to enable the redlining feature.
+    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a record to enable the redlining feature.
 
 4.  Select a policy to open.
 
@@ -43,7 +48,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     3.  Copy the shareable folder link from Google Drive and paste it in the **Folder link** field in the Create a document pop-up.
 
-        To get the folder link, right-click the folder in Google Drive, select the ![More actions icon](../../../reuse/icons/product-icons/ellipsis-vertical-outline-24.svg) icon. Select **Share** and **Copy link**.
+        To get the folder link, right-click the folder in Google Drive, select the \[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: More actions icon icon. Select **Share** and **Copy link**.
 
     4.  Enter the name of the document in the **Document name** field.
 
@@ -65,6 +70,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     -   To create another document, select **Create new document** that opens the Create a document pop-up.
     -   To connect to a different document, select **Connect existing document** that opens a Connect existing document pop-up.
+    -   When you connect to a different document, the access on the previous document is removed and access on the new document is granted. Because document access updates run asynchronously, there may be a short delay before the updated access is reflected.
 8.  To update the content of the document in the **Policy text** field, select the Update link below the document link.
 
 9.  If the policy has been drafted and is complete, the policy owner can request a review by selecting the **Request review** button.
@@ -87,10 +93,10 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 14. Select the **Complete publishing checklist** button.
 
-    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](complete-publishing-checklist-redlining.md).
+    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md).
 
 15. To view the history of the policy, select the Policy history related list.
 
-    For more information, see [View the history of a redlining-enabled policy](view-history-policy-redlining.md).
+    For more information, see [View the history of a redlining-enabled policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/view-history-policy-redlining.md).
 
 

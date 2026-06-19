@@ -2,6 +2,7 @@
 title: Create a cohort
 description: Define the predetermined sequence of actions a group of users complete so you can track conversion rates at each step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/create-action-cohort.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -29,7 +30,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 3.  Select **Analysis** &gt; **Cohort Analysis**.
 
-4.  Select the Create new cohort button \(![Create new cohort button](../../../use/par-for-workspace/image/uxa-create-cohort-button.png)\).
+4.  Select the Create new cohort button \(\[Omitted image "uxa-create-cohort-button.png"\] Alt text: Create new cohort button\).
 
 5.  Enter a name and a description for the process you want to measure.
 
@@ -44,7 +45,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
     -   Started their 1st Session
     The actions are dependent on the step type.
 
-    ![Create cohort wizard](../../../use/par-for-workspace/image/uxa-create-cohort-wizard.png)
+    \[Omitted image "uxa-create-cohort-wizard.png"\] Alt text: Create cohort wizard
 
 7.  Select **Save**.
 
@@ -53,9 +54,9 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 View the cohort to see how many of the users who performed the first defined action returned to perform the second action. When you view the cohort, you can filter on Aggregation, Date range, User type, Country, and add filters as necessary.
 
-![UXA cohort example, aggregated daily with a range of 7 days](../../../use/par-for-workspace/image/uxa-cohort-ex.png)
+\[Omitted image "uxa-cohort-ex.png"\] Alt text: UXA cohort example, aggregated daily with a range of 7 days
 
 **Note:** If data shown in the cohort analysis is not final, a note indicates that retroactive data is still being processed. Refresh the screen to see the report with final data.
 
-**Parent Topic:**[Cohort analysis in Usage Insights](../concept/uxa-cohorts.md)
+**Parent Topic:**[Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-cohorts.md)
 

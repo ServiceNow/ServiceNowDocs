@@ -2,6 +2,7 @@
 title: Alert execution information
 description: Alert execution information provides a reference to the actions that have been performed concerning the alert. Among the information presented is which alert management rules ran on the alert, incidents that were opened, and which remediation workflows ran.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-execution.html
 release: australia
 product: Event Management
 classification: event-management
@@ -19,7 +20,7 @@ Alert execution information provides a reference to the actions that have been p
 
 In an alert form, the Alert Execution tab shows key related records for the alert. For example, it shows which actions were performed and which alert management rules were run. If an incident was opened, the related tasks are shown.
 
-![Alert execution details](../image/alert-execution.png "Alert Executions")
+\[Omitted image "alert-execution.png"\] Alt text: Alert execution details
 
 |Field|Description|
 |-----|-----------|
@@ -38,5 +39,5 @@ This indicates what occurred, for example, if an incident was created.
 
 The log reveals which alert management rule initiated the action. It shows, for example, automatic execution 1 out 3, or manual execution, 2 out of 4.
 
-**Parent Topic:**[View alert information](../task/t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
 

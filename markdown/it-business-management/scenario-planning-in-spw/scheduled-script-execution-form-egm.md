@@ -2,6 +2,7 @@
 title: Scheduled Script Execution form
 description: Scheduled Jobs are automated pieces of work that can be performed at a specific time or on a recurring schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/scheduled-script-execution-form-egm.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -69,7 +70,7 @@ migrateStrategyWorkItemRelData
 </td></tr></tbody>
 </table>## Migrate goal relationships for assigned entities
 
-Use the **Migrate goal relationships for assigned entities** job to populate the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](../../goal-framework/reference/goal-form.md) based on the existing values in the legacy fields, **Business Unit**, **Department**, **Company**, **Portfolio**, and any customized entity field.
+Use the **Migrate goal relationships for assigned entities** job to populate the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/goal-framework/goal-form.md) based on the existing values in the legacy fields, **Business Unit**, **Department**, **Company**, **Portfolio**, and any customized entity field.
 
 <table id="table_smd_b5p_fwb"><thead><tr><th>
 
@@ -85,12 +86,12 @@ Migrate goal relationships for assigned entities
 
 </td><td>
 
-\(For Strategic Planning users\) Populates the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](../../spw-goals/reference/goal-form-egm.md) based on the data in the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table if you've created an m2m relationship with lens entities other than **Company**, **Business Unit**, **Department**, and **Portfolio**.If users had already created m2m relationship, they may use this script to move those relationships from the m2m table to the goals table to access and manage those goals in the respective portfolio plans.
+\(For Strategic Planning users\) Populates the fields, **Assigned entity type** and **Assigned entity** on the [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/goal-form-egm.md) based on the data in the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table if you've created an m2m relationship with lens entities other than **Company**, **Business Unit**, **Department**, and **Portfolio**.If users had already created m2m relationship, they may use this script to move those relationships from the m2m table to the goals table to access and manage those goals in the respective portfolio plans.
 
  If the goal has only one relationship with an assign entity table type, the **Assign entity type** and **Assign entity** fields are populated on the Goal \[sn\_gf\_goal\] table based on the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table.
 
  If the goal has multiple relationships with an assign entity table type, number of relationships \(n\) cloned sub-goals will be created and the **Assign entity type** and **Assign entity** fields are populated on the Goal \[sn\_gf\_goal\] table based on the data in the Goal Relationship \[sn\_gf\_goal\_m2m\_relationship\] table for each cloned sub-goal.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

@@ -2,6 +2,7 @@
 title: Clone a Certification template
 description: New templates can be cloned from an existing template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CertificationTemplateClones.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

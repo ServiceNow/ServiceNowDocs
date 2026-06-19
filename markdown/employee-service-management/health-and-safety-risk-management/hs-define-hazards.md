@@ -2,6 +2,7 @@
 title: Define Health and Safety hazards
 description: Identify and define potential workplace hazards related to a job or task type. Maintain a list of all hazards for all job types in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-define-hazards.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -27,7 +28,7 @@ Review and update your hazard list regularly to verify its continued effectivene
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the configuration icon \(![Configuration icon](../image/icon-config.png)\).
+2.  Select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\).
 
 3.  In the **Configuration** tab, select **Hazards** and then **All**.
 
@@ -56,5 +57,5 @@ Review and update your hazard list regularly to verify its continued effectivene
     -   **Add hazards** window on a JSA form.
     -   **Hazard being assessed** field on the Hazard assessment form when conducting a risk assessment.
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](../concept/hs-setting-up-risk-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 

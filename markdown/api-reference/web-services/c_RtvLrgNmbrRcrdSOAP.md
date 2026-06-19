@@ -2,6 +2,7 @@
 title: Retrieve a large number of records using SOAP
 description: By default, a single SOAP request can retrieve a maximum of 250 records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_RtvLrgNmbrRcrdSOAP.html
 release: australia
 product: Web Services
 classification: web-services
@@ -19,8 +20,8 @@ SOAP relies on Extensible Markup Language \(XML\) as its message format, and usu
 
 Because of the verbose XML format, SOAP can be considerably slower than other transport methods. Therefore, sending a large amount of data via SOAP is inefficient and is discouraged. Because of this, ServiceNow has imposed a hard-limit of 250 records that can be retrieved at any time in a single query. You may find that this limit poses some technological challenges for your integration design.
 
--   **[SOAP strategies](c_SOAPStrategies.md)**  
+-   **[SOAP strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPStrategies.md)**  
 Retrieve the information that you need and make your integration more efficient.
 
-**Parent Topic:**[SOAP web service](../../inbound-soap/concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
 

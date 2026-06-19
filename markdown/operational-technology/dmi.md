@@ -1,23 +1,26 @@
 ---
 title: Device Management Interface
-description: The Device Management Interface \(DMI\) is a web-based interface that lets you configure and register a Sensor to the Discovery Console for OT.
+description: The Device Management Interface \(DMI\) is a web-based interface where you configure and register a Discovery Sensor for OT to the Discovery Console for OT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/dmi.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Device Management Interface
 
-The Device Management Interface \(DMI\) is a web-based interface that lets you configure and register a Sensor to the Discovery Console for OT.
+The Device Management Interface \(DMI\) is a web-based interface where you configure and register a Discovery Sensor for OT to the Discovery Console for OT.
 
 ## DMI overview
 
-With the DMI, you can register a Sensor to allow the Sensor to communicate with the Discovery Console for OT. By registering the Sensor, you are ready to start using the Console.
+With the DMI, registering a Sensor enables the Sensor to communicate with the Discovery Console for OT. By registering the Sensor, you're ready to start using the Console.
 
-**Note:** The Console and the DMI are separate web-based interfaces that you access with an HTTPS web address. You need to open both interfaces when registering the Sensor. During the first log into the DMI, the username admin and the password `devpassword` are provided.
+**Note:** The Console and the DMI are separate web-based interfaces that you access with an HTTPS web address. Open both interfaces when registering the Sensor. During the first log in to the DMI, the username admin and the password `devpassword` are provided.
 
 Once the Console is deployed and you have registered the Sensor, you can create these necessary components on the Console to discover assets in your environment.
 
@@ -26,7 +29,7 @@ Once the Console is deployed and you have registered the Sensor, you can create 
 -   Auto Query
 -   Quick Scan
 
-For more information about these Console features, see [Discovery Console for OT](ot-discovery-console-landing.md).
+For more information about these Console features, see [Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-discovery-console-landing.md).
 
 ## DMI pages
 
@@ -73,5 +76,5 @@ The following sections describe the pages available on the DMI.
 
 
 
-![DMI page](../images/dmi-sans-rabbitmq.png)
+\[Omitted image "dmi-sans-rabbitmq.png"\] Alt text: DMI page
 

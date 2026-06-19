@@ -1,15 +1,16 @@
 ---
-title: Create a scenario analysis
+title: Create a legacy scenario analysis
 description: Create a scenario analysis for the business service in Operational Resilience Workspace. You can analyze the impact of the scenarios and associated events. You can then calculate the disruptions and determine if any of your services are breached.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-scenario-analysis-in-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create a scenario analysis
+# Create a legacy scenario analysis
 
 Create a scenario analysis for the business service in Operational Resilience Workspace. You can analyze the impact of the scenarios and associated events. You can then calculate the disruptions and determine if any of your services are breached.
 
@@ -23,7 +24,7 @@ If you have the sn\_oper\_res.manager role, you can create a scenario analysis. 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace**, select the list icon ![List icon.](../../grc-cam-workspace/image/ws-list-icon.png)\) and then navigate to **All scenario analysis**.
+1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: List icon.\) and then navigate to **All scenario analysis**.
 
 2.  To create a scenario analysis, select **New**.
 
@@ -43,11 +44,11 @@ If you have the sn\_oper\_res.manager role, you can create a scenario analysis. 
 
     The logged-in user is automatically assigned as the owner of the analysis.
 
-    For the descriptions of the field values on the User New record form, see [Create New Scenario analysis form](../reference/scenario-analyses-reference-in-ws.md).
+    For the descriptions of the field values on the User New record form, see [Create Scenario analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scenario-analyses-reference-in-ws.md).
 
     A sample scenario analysis form is shown in the following example.
 
-    ![Sample scenario analysis form.](../image/sce-analysis-form-in-ws.png "Sample scenario analysis form")
+    \[Omitted image "sce-analysis-form-in-ws.png"\] Alt text: Sample scenario analysis form.
 
 7.  To start a Sidebar discussion on the scenario analysis, select **More actions** and select **Discuss**.
 
@@ -68,9 +69,9 @@ The scenario analysis is saved and its state is updated to **Draft**.
 
 The following example shows that on the **Details** tab, you can see the details about the scenario analysis, its important dates, and assignees.
 
-![Details tab on the scenario analysis form.](../image/updated-scenario-analysis-form.png "Details tab on the scenario analysis form")
+\[Omitted image "updated-scenario-analysis-form.png"\] Alt text: Details tab on the scenario analysis form.
 
 ## What to do next
 
-Add the scenario events, scope, assets, and participants to the analysis. You must associate at least one scope to begin the analysis. For more information on adding a scope and dependencies, see [Associate a scope and define the dependencies](add-service-event-participant-to-analysis-in-ws.md).
+Add the scenario events, scope, assets, and participants to the analysis. You must associate at least one scope to begin the analysis. For more information on adding a scope and dependencies, see [Associate a scope and define the dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/add-service-event-participant-to-analysis-in-ws.md).
 

@@ -2,6 +2,7 @@
 title: Add a condition builder to promoted assets
 description: You can define a condition for a given promoted Virtual Agent asset to bring it higher up on the list of promoted assets in a panel conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-condition-builder-promoted-topics.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ You can define a condition for a given promoted Virtual Agent asset to bring it 
 
 Role required: virtual\_agent\_admin or admin.
 
-To define a condition for an asset, you must promote it first. For more information, see [Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](promote-demote-va-topics.md).
+To define a condition for an asset, you must promote it first. For more information, see [Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/promote-demote-va-topics.md).
 
 ## About this task
 
@@ -47,13 +48,13 @@ Add a condition to a chosen Virtual Agent topic to have it displayed higher on t
 
 The promoted asset’s **Condition** on the Promoted Skills table shows the defined condition.
 
-![Promoted skills table showing asset with defined condition.](../images/va-defined-promoted-topic-01.png)
+\[Omitted image "va-defined-promoted-topic-01.png"\] Alt text: Promoted skills table showing asset with defined condition.
 
 The promoted asset now shows **Condition defined** next to the **Promoted** checkmark.
 
 The promoted asset also displays at the top of the list of promoted assets in a Virtual Agent Now Assist panel chat window.
 
-![Virtual Agent Now Assist panel chat window showing condition defined asset over other promoted assets.](../images/va-defined-promoted-topic-02.png)
+\[Omitted image "va-defined-promoted-topic-02.png"\] Alt text: Virtual Agent Now Assist panel chat window showing condition defined asset over other promoted assets.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

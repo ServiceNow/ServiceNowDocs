@@ -2,6 +2,7 @@
 title: Enable lean budgeting for demands
 description: Enable the Investment Budget option to allocate budgeting for demands at a fiscal period level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/enable-lean-budgeting-for-demands-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -27,9 +28,9 @@ Role required: admin
 
 3.  Select the Additional actions and navigate to **View** &gt; **APW Default**.
 
-    ![Navigation to APW Default in Additional actions.](../../spw-demand/images/apw-default-view-dmn.png)
+    \[Omitted image "apw-default-view-dmn.png"\] Alt text: Navigation to APW Default in Additional actions.
 
-4.  Select the Additional actions and navigate to **Configure** &gt; **Related Lists**.![List of options available in Additional actions.](../../planning-and-policy/image/config-invest-budget.png)
+4.  Select the Additional actions and navigate to **Configure** &gt; **Related Lists**.\[Omitted image "config-invest-budget.png"\] Alt text: List of options available in Additional actions.
 
 5.  Select **Investment Budget** from the Available column and add it to Selected column.
 

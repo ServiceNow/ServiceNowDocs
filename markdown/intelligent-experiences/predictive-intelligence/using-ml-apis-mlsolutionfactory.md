@@ -2,6 +2,7 @@
 title: Using MLSolutionFactory scriptable objects
 description: MLSolutionFactory scriptable objects enable defining ML functionality. You can use the APIs to compose data-driven functionality, such as subclustering large clusters or clusters with multiple PRBs attached.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/using-ml-apis-mlsolutionfactory.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -23,13 +24,13 @@ Here's the high-level process for creating a custom usage scenario.
 
 1.  Developers customize a MLSolutionUtil scripted extension point implementation using the MLSolutionFactory scriptable object.
     -   Listed as global.MLSolutionUtil in the Extension Point \[sys\_extension\_point\] table
-    -   See [Register a custom script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/impl-client-ext-pts-base-code.md)
+    -   See Register a custom script include
 2.  The MLSolutionUtil scripted extension point implementation uses MLSolutionFactory to get the scriptable object, and invokes prediction methods on that object.
 3.  The Predictive Intelligence REST API - Prediction for multiple solutions \(GET\) method invokes the MLSolutionUtil extension point implementation, depending on the scope of the request.
 4.  Applications call the Predictive Intelligence REST API - Prediction for multiple solutions \(GET\) end point from a script include form.
 
 For more information, see
 
--   [Predictive Intelligence REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-intelligence-api.md)
--   [MLSolutionFactory - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MLSolutionFactoryAPI.md)
+-   Predictive Intelligence REST API
+-   MLSolutionFactory - Global
 

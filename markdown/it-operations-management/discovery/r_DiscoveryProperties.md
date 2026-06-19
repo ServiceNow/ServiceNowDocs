@@ -2,12 +2,13 @@
 title: Discovery properties
 description: Discovery properties allow you to control several aspects of the horizontal discovery process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DiscoveryProperties.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 29
+reading_time_minutes: 30
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -15,7 +16,7 @@ breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Ma
 
 Discovery properties allow you to control several aspects of the horizontal discovery process.
 
-For information about the Discovery properties that Agent Client Collector uses, see [Using push-based Discovery and horizontal IP-based Discovery together](../../agent-client-collector/concept/using-enhanced-discovery-and-agent-less-discovery-together.md).
+For information about the Discovery properties that Agent Client Collector uses, see [Using push-based Discovery and horizontal IP-based Discovery together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.md).
 
 Edit the following Discovery properties by navigating to **Discovery Definition** &gt; **Properties**.
 
@@ -83,7 +84,7 @@ Network discovery debugging: Enables extensive logging of all Network Discovery 
 
  -   Type: true \| false
 -   Default value: true
--   Learn More: [Discovery monitoring and issue resolution](../concept/c_DiscoveryTroubleshooting.md)
+-   Learn More: [Discovery monitoring and issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryTroubleshooting.md)
 
 </td></tr><tr><td>
 
@@ -159,7 +160,7 @@ com.glide.codesigning.tracking.unsupported\_script\_tracking.enabled
 
 Controls script tracking for code signing on Cloud Discovery. When set to true and code signing is enabled, ECC queue records inserted through unsupported scripts are not notarized, which can cause Cloud Discovery operations to fail. Set this property to **false** to enable Cloud Discovery on code-signed instances.-   Type: true \| false
 -   Default value: true
--   Learn more: [Configure Cloud Discovery for code-signed instances](../task/config-cloud-disco-code-sign.md)
+-   Learn more: [Configure Cloud Discovery for code-signed instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/config-cloud-disco-code-sign.md)
 
 </td></tr><tr><td id="increase-scale-factor-max">
 
@@ -327,7 +328,7 @@ Application mapping: Enables the application mapping portion of Discovery
 
  -   Type: true \| false
 -   Default value: true
--   Learn More: [Application Dependency Mapping \(ADM\) for Discovery](r_ApplicationDependencyMapping.md#)
+-   Learn More: [Application Dependency Mapping \(ADM\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ApplicationDependencyMapping.md)
 
 </td></tr><tr><td>
 
@@ -433,7 +434,7 @@ glide.discovery.discover\_software
 
 Discover software packages: Enable the discovery of software packages.-   Type: true \| false
 -   Default value: true
--   Learn More: [General software package discovery](r_DataCollDiscoGenSWPkg.md)
+-   Learn More: [General software package discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/r_DataCollDiscoGenSWPkg.md)
 
 </td></tr><tr id="acc-discovery-property1"><td>
 
@@ -662,7 +663,7 @@ IP service affinity: If set to **true**, IP service affinity is enabled. IP serv
 
  -   Type: true \| false
 -   Default value: false \(For new Discovery customers starting in Australia, default value is true.\)
--   Learn More: [Check IP service affinity for Discovery and Orchestration](../../credentials/task/t_CheckIPServiceAffinity.md)
+-   Learn More: [Check IP service affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CheckIPServiceAffinity.md)
 
 </td></tr><tr><td>
 
@@ -672,7 +673,7 @@ glide.discovery.L3\_mapping
 
 Map servers and network devices to routers and layer-3 switches If the "L3 mapping" property is enabled, it maps servers and network gears to its associated routers and layer-3 switches.-   Type: true \| false
 -   Default value: true
--   Learn More: [Network discovery](../concept/c_NetworkDiscovery.md#)
+-   Learn More: [Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_NetworkDiscovery.md)
 
 </td></tr><tr><td>
 
@@ -693,7 +694,7 @@ Limits the maximum message length that is displayed in Discovery Log table. A va
 
  -   Type: integer
 -   Default value: 200
--   Learn More: [Logs for horizontal discovery](r_DiscoveryLog.md#)
+-   Learn More: [Logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoveryLog.md)
 
 </td></tr><tr><td>
 
@@ -822,7 +823,7 @@ glide.discovery.schedule.autogenerate.debug
 
 Enables detailed logging for troubleshooting. If set to **true**, the job’s detailed logging output will appear in the System Log \[sys\_log\] table with the source DiscoveryIPAMIntegration.-   Type: true \| false
 -   Default value: false
--   Learn more: [IPAM Discovery integration](../concept/ipv6-ipam-disco-integration.md)
+-   Learn more: [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md)
 
 </td></tr><tr><td>
 
@@ -832,7 +833,7 @@ glide.discovery.schedule.autogenerate.group
 
 Groups auto-generated IPAM Discovery schedules by a specific tag or attribute. For example, entering "location" as the value would group the schedules by their associated locations.-   Type: string
 -   Default value: empty
--   Learn more: [IPAM Discovery integration](../concept/ipv6-ipam-disco-integration.md)
+-   Learn more: [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md)
 
 </td></tr><tr><td>
 
@@ -842,7 +843,7 @@ glide.discovery.schedule\_ipv4\_limit
 
 Defines the maximum number of IPv4 addresses that can be included in a single auto-generated IPv4 Discovery schedule.-   Type: integer
 -   Default value: 65,536
--   Learn more: [IPAM Discovery integration](../concept/ipv6-ipam-disco-integration.md)
+-   Learn more: [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md)
 
 </td></tr><tr><td>
 
@@ -852,7 +853,7 @@ glide.discovery.schedule\_ipv6\_limit
 
 Defines the maximum number of IP6 addresses that can be included in a single auto-generated IPv6 Discovery schedule.-   Type: integer
 -   Default value: 20000
--   Learn more: [IPAM Discovery integration](../concept/ipv6-ipam-disco-integration.md)
+-   Learn more: [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ipv6-ipam-disco-integration.md)
 
 **Note:** On instances below ZP3 and YP9, the maximum number of IPv6 addresses per schedule must not exceed 5,000, which is also the default value in Yokohama and earlier releases.
 
@@ -956,7 +957,7 @@ Windows software is SCCM managed: If set to **true**, Discovery won’t populate
 
  -   Type: true \| false
 -   Default value: false
--   Learn More: [Discovery and SCCM together](../concept/c_DiscoveryAndSCCMTogether.md#)
+-   Learn More: [Discovery and SCCM together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryAndSCCMTogether.md)
 
 </td></tr><tr><td>
 
@@ -977,7 +978,7 @@ glide.discovery.use\_probe\_results\_cache
 
 Use probe results cache: If set to **true**, the cache is checked to see if the results of the probe must be processed by a sensor. It only needs to be processed if the results have changed from the last discovery run.-   Type: true \| false
 -   Default value: false
--   Learn More: [Create or modify a probe](../task/modify-a-probe.md)
+-   Learn More: [Create or modify a probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/modify-a-probe.md)
 
 **Note:** In previous releases, this property was **true** by default. The value in this property isn’t changed during an upgrade to Kingston.
 
@@ -1173,6 +1174,16 @@ Discovery Admin Workspace: Enables automatic creation and management of Discover
 
 </td></tr><tr><td>
 
+sn\_disco\_workspace.enable\_error\_framework
+
+</td><td>
+
+Discovery Admin Workspace: Controls whether the Error Framework is active for Discovery. When set to **true**, Discovery uses the Error Framework to capture and display errors in Discovery Admin Workspace. When set to **false**, Discovery uses the legacy Diagnostics experience.-   Type: true \| false
+-   Default value: true
+-   Learn more: [Error Framework in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/error-framework-daw.md)
+
+</td></tr><tr><td>
+
 sn\_disco\_workspace.visibility\_diagnostic\_utility.enabled
 
 </td><td>
@@ -1181,5 +1192,5 @@ Discovery Admin Workspace: Enables a Virtual Agent to retrieve diagnostic inform
 -   Default value: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Discovery](../concept/c_DiscoveryConfiguration.md)
+</table>**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryConfiguration.md)
 

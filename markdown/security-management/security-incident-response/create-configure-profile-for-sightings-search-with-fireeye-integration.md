@@ -2,6 +2,7 @@
 title: Configure a profile for sightings search with the FireEye Integration
 description: Configure the sightings search profile using the following procedure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-configure-profile-for-sightings-search-with-fireeye-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

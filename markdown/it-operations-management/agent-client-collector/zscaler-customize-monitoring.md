@@ -2,6 +2,7 @@
 title: Customize the Zscaler monitoring check
 description: Customize the frequency by which the Zscaler monitoring check runs. By default, the Zscaler monitoring check runs every 30 minutes. If your Zscaler app is not working efficiently, you can set the check to run more frequently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/zscaler-customize-monitoring.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -21,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-For details on customizing the Zscaler monitoring check, see [Perform Zscaler remediation](../concept/zscaler-remediation-concept.md).
+For details on customizing the Zscaler monitoring check, see [Perform Zscaler remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/zscaler-remediation-concept.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Blocking and reissuing a new card
 description: The Block and reissue new card task automatically triggers if a case's dispute category is Fraud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/block-and-reissue-new-card.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -19,9 +20,9 @@ After the task for the Dispute information activity is completed from the Initia
 
 You can view the generated task from the Tasks tab of the case.
 
-**Parent Topic:**[Investigate stage](../concept/investigate-stage.md)
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-stage.md)
 
-**Parent Topic:**[Processing a Mastercard dispute](../concept/processing-mastercard-dispute-case.md)
+**Parent Topic:**[Processing a Mastercard dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-mastercard-dispute-case.md)
 
-**Parent Topic:**[Investigating a dispute](investigate-a-dispute.md)
+**Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

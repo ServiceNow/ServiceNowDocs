@@ -2,6 +2,7 @@
 title: Move enterprise assets to maintenance state
 description: Move assets of a break fix or planned maintenance work order task to the In maintenance state to indicate that the assets are under maintenance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/move-assets-in-maintenance-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

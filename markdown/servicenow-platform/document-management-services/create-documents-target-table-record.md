@@ -2,6 +2,7 @@
 title: Create documents using document lists for a target table record
 description: You can create and reference documents on a target table record through the DocumentListService API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/create-documents-target-table-record.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -17,11 +18,11 @@ You can create and reference documents on a target table record through the Docu
 
 ## Before you begin
 
-See the [DocumentListService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentListServiceBothAPI.md) topic
+See the DocumentListService API topic
 
 Role required: admin
 
 **Note:** You cannot create documents through Document Lists with the user interface \(UI\). It must be done with APIs.
 
-**Parent Topic:**[Document Management lists](../concept/doc-mgt-lists.md)
+**Parent Topic:**[Document Management lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-lists.md)
 

@@ -2,6 +2,7 @@
 title: Enable the display of the Microsoft Viva card in Microsoft SharePoint
 description: Enable the display of the Microsoft Viva card details to be displayed to users in Microsoft SharePoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/grant-app-access-sharepoint.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -47,16 +48,16 @@ First grant app access in Microsoft SharePoint and then publish the card.
 
     3.  Select the **ServiceNow Viva Integrations** card.
 
-    4.  Hover over the card and select the Edit icon \(![Edit icon](../../human-resources/image/edit-new.png)\).
+    4.  Hover over the card and select the Edit icon \(\[Omitted image "edit-new.png"\] Alt text: Edit icon\).
 
     5.  On the form, fill in the fields.
 
-        For more information, see [Microsoft Viva integrations card properties](../reference/viva-card-properties.md).
+        For more information, see [Microsoft Viva integrations card properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/viva-card-properties.md).
 
     6.  Select **Republish**.
 
         The card is now available for use.
 
 
-**Parent Topic:**[Managing Employee Center for Microsoft Viva Connections](../concept/manage-viva.md)
+**Parent Topic:**[Managing Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-viva.md)
 

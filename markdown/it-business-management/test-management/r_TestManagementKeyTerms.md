@@ -2,6 +2,7 @@
 title: Test Management key terms
 description: Key terms describe the terminology used in Test Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/r\_TestManagementKeyTerms.html
 release: australia
 product: Test Management
 classification: test-management

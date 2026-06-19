@@ -2,6 +2,7 @@
 title: Upgrade Console roles
 description: Upgrade Console is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-roles.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Upgrade Console, Upgrade, Administer the ServiceNow AI P
 
 Upgrade Console is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## System administrator \[admin\]
 
@@ -38,7 +39,7 @@ Access all tables, tools and information within Upgrade Console on your instance
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see .
 
     No.
 
@@ -47,5 +48,5 @@ Access all tables, tools and information within Upgrade Console on your instance
     None.
 
 
-**Parent Topic:**[Upgrade Console references](um-references.md)
+**Parent Topic:**[Upgrade Console references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-references.md)
 

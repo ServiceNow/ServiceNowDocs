@@ -2,6 +2,7 @@
 title: Configure API credentials for Google AI Studio
 description: Configure your API credentials to use Google AI Studio in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-google-makersuite.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -33,7 +34,7 @@ In order to use Google AI Studio as your LLM provider for Generative AI Controll
 
 3.  Select the **Create New Connection &amp; Credential** related link.
 
-    ![Create New Connection & Credential related link highlighted on the screen.](../image/gai-create-new-connection-makersuite.png)
+    \[Omitted image "gai-create-new-connection-makersuite.png"\] Alt text: Create New Connection &amp; Credential related link highlighted on the screen.
 
 4.  Enter your API key.
 
@@ -46,7 +47,7 @@ In order to use Google AI Studio as your LLM provider for Generative AI Controll
 
 You can now use AI Studio \(Google Cloud Chat Completion\) and AI Studio \(Google Cloud Chat Completion\) in Flow Designer, Virtual Agent Designer, and scripts to create custom experiences with generative AI.
 
-![Complete connection for Google AI Studio.](../image/gai-created-connection-makersuite.png)
+\[Omitted image "gai-created-connection-makersuite.png"\] Alt text: Complete connection for Google AI Studio.
 
 ## What to do next
 

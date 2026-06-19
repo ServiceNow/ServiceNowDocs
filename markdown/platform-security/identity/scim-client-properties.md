@@ -2,6 +2,7 @@
 title: SCIM Client properties, tables, scriptable APIs, and logs
 description: The SCIM v2 - ServiceNow Cross-domain Identity Management Client \(com.snc.integration.scim2.client\) plugin includes the following system properties, tables, scriptable APIs, and logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/scim-client-properties.html
 release: australia
 product: Identity
 classification: identity
@@ -72,7 +73,7 @@ The following are some of the use cases for using the scriptable APIs:
     -   The user has access to the token, meaning that the user has the role to generate the token from the REST template.
     -   The user has access to retrieve the SCIM attribute values from the mapped tables.
 
-To know more about the scriptable API, see [SCIM2Client API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SCIM2ClientAPI.md).
+To know more about the scriptable API, see SCIM2Client API.
 
 ## SCIM Client Logs
 

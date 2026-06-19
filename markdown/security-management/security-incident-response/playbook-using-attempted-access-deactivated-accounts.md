@@ -2,6 +2,7 @@
 title: Use the Attempted Access to Deactivated Accounts playbook
 description: Use this playbook when an employee whose account is terminated, inactive, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-attempted-access-deactivated-accounts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -28,7 +29,7 @@ Role required:
 
 2.  In Action 2, check whether the attempted access to the deactivated accounts were made by an active employee.
 
-    ![Response task to check whether the attempted access to the deactivated accounts were made by an active employee.](../image/playbook-attempted-access-deactivated-overview.png "Attempted Access to Deactivated Accounts playbook")
+    \[Omitted image "playbook-attempted-access-deactivated-overview.png"\] Alt text: Response task to check whether the attempted access to the deactivated accounts were made by an active employee.
 
 3.  If the attempted access to the deactivated accounts were made by an active employee, perform the following steps:
 
@@ -62,7 +63,7 @@ Role required:
         3.  In Action 17, initiate a post incident review.
         In Action 18, after the post incident review, the flow ends.
 
-        ![Response tasks if the attempted access to the deactivated accounts were not made by an active employee](../image/playbook-attempted-access-deactivated-investigate.png "Using the Attempted Access to Deactivated Accounts playbook")
+        \[Omitted image "playbook-attempted-access-deactivated-investigate.png"\] Alt text: Response tasks if the attempted access to the deactivated accounts were not made by an active employee
 
 5.  In Action 19, if the user exfiltrated any data, perform the following steps:
 
@@ -79,5 +80,5 @@ Role required:
     5.  In Action 24, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Attempted Access to Deactivated Accounts](../concept/playbook-attempted-access-deactivated-accounts.md)
+**Parent Topic:**[Playbook for Attempted Access to Deactivated Accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-attempted-access-deactivated-accounts.md)
 

@@ -2,6 +2,7 @@
 title: Create an organization and load sites
 description: Create an organization for which you are collecting the Wi-Fi access logs using Mist Systems. After you have created an organization, load sites using a scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/set-up-organization.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -48,5 +49,5 @@ Each floor in the organization can be considered as a site. Each site can be fur
     The **BLE enabled** option helps you to identify potentially infected employees from the Wi-Fi access logs by correlating everyone who connected to the Wi-Fi network using Bluetooth LE devices. If a site is BLE enabled, the **BLE enabled** check box on the Sites form is selected.
 
 
-**Parent Topic:**[Retrieving Wi-Fi access log data](../concept/wifi-access-management.md)
+**Parent Topic:**[Retrieving Wi-Fi access log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/wifi-access-management.md)
 

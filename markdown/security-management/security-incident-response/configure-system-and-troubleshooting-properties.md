@@ -2,6 +2,7 @@
 title: Additional configurations for the LogRhythm integration
 description: Use the LogRhythm Integration Settings to modify the preset system and troubleshooting properties as per you requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-system-and-troubleshooting-properties.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -124,18 +125,18 @@ Option to enable debug level logging in System Logs table for all REST calls goi
 </table>6.  Click **Save**.
 
 
--   **[Use the script editor to format LogRhythm values](add-scripted-values-logrhythm.md)**  
+-   **[Use the script editor to format LogRhythm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-scripted-values-logrhythm.md)**  
 In addition to the directly mapped fields from the pulled alarm values, and the alarm values you enter manually, you can use the script editor to format field values on the security incident during the mapping step which is optional.
--   **[Copy an alarm profile for LogRhythm](copy-alarm-profile-logrhythm.md)**  
+-   **[Copy an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/copy-alarm-profile-logrhythm.md)**  
 Copy an existing profile and its associated settings instead of creating a new alarm profile. If you are creating multiple alarm profiles for different types of alarms and you want to reuse the settings of an existing profile, you can copy alarm profiles to save time. This process is optional.
--   **[Disable automated alarm closure for LogRhythm](disable-auto-alarm-logrhythm.md)**  
+-   **[Disable automated alarm closure for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/disable-auto-alarm-logrhythm.md)**  
 Disable the automated alarm closure capability if you no longer want to view the security incident closure information on the LogRhythm Web Console. Once deactivated, the ServiceNow AI Platform no longer closes alarms within the LogRhythm Web Console. This process is optional.
--   **[View LogRhythm drill down events](drilldown-events.md)**  
+-   **[View LogRhythm drill down events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/drilldown-events.md)**  
 View the related raw or base events for a LogRhythm alarm in the security incident.
 
-**Parent Topic:**[LogRhythm Overview](../concept/ovrview-logrhythm.md)
+**Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ovrview-logrhythm.md)
 
-**Previous topic:**[Additional options for LogRhythm alarms](verify-alarm-closure-logrhythm.md)
+**Previous topic:**[Additional options for LogRhythm alarms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-alarm-closure-logrhythm.md)
 
-**Next topic:**[Use the script editor to format LogRhythm values](add-scripted-values-logrhythm.md)
+**Next topic:**[Use the script editor to format LogRhythm values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/add-scripted-values-logrhythm.md)
 

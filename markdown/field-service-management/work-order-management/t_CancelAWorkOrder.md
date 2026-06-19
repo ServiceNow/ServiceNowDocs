@@ -2,6 +2,7 @@
 title: Cancel a work order
 description: Cancel a work order if the work is no longer necessary or if it is a duplicate of another work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CancelAWorkOrder.html
 release: australia
 product: Work Order Management
 classification: work-order-management

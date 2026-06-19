@@ -2,6 +2,7 @@
 title: Configure MID-less Agent Client Collector using a single-line command
 description: Use a single-line command to set up a MID-less Agent Client Collector. You can also use the single-line command to migrate agents configured with a MID Server to have a MID-less configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-acc-midless.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -110,5 +111,5 @@ Explains what the specified command does.
 </table>2.  Restart the agent for the configuration settings to be entered into the `acc.yml` file.
 
 
-**Parent Topic:**[Configuring MID-less Agent Client Collector](../concept/acc-configuring-without-mid.md)
+**Parent Topic:**[Configuring MID-less Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configuring-without-mid.md)
 

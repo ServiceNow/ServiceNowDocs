@@ -2,6 +2,7 @@
 title: Tracking a managed activity
 description: View managed activities in the usage analytics activities table for tracking and verification purposes in the Third-party Risk Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-managed-activity.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -25,12 +26,12 @@ Activities that are associated with a new third party going through the due dili
 
 If any of the following activities aren’t related to a new third party going through the due diligence onboarding workflow, they’re counted as managed activities:
 
--   An Inherent risk questionnaire \(IRQ\) that is sent by the system has a status of **Awaiting response**. For more information, see [Assessing your third-party risk](tprm-assessing-tpr.md).
+-   An Inherent risk questionnaire \(IRQ\) that is sent by the system has a status of **Awaiting response**. For more information, see [Assessing your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-assessing-tpr.md).
 -   A tiering assessment with a questionnaire that is sent by the system has a status of **Awaiting response**.
--   A third-party risk assessment with a questionnaire that is sent by the system has a status of **Submitted to third party**. For more information, see [Life cycle states of a external assessment](tprm-external-assessment-lifecycle.md).
--   The creation of a task or issue for a third-party risk assessment. For more information, see [Create a task for a third party or engagement](../task/tprm-ws-task-create.md) and [Create an issue for a third party or engagement](../task/tprm-ws-issue-create.md).
+-   A third-party risk assessment with a questionnaire that is sent by the system has a status of **Submitted to third party**. For more information, see [Life cycle states of a external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md).
+-   The creation of a task or issue for a third-party risk assessment. For more information, see [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md) and [Create an issue for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-issue-create.md).
 
-If a third-party risk assessment or due diligence request is automatically created by an event-driven management rule and later recalled, it isn’t counted as a managed activity. An assessment that is related to an event-driven management rule can be recalled up until the time that it’s submitted to the third party. For more information, see [Event-driven management — automate assessment processes](../../grc-workspace-vrm/task/tprm-event-drvn-mgt-rule-create.md).
+If a third-party risk assessment or due diligence request is automatically created by an event-driven management rule and later recalled, it isn’t counted as a managed activity. An assessment that is related to an event-driven management rule can be recalled up until the time that it’s submitted to the third party. For more information, see [Event-driven management — automate assessment processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-event-drvn-mgt-rule-create.md).
 
 **Note:** If an assessment isn’t related to an event-driven management rule, you can't recall it and it’s counted as a managed activity. If an assessment is canceled, it’s still considered as a managed activity.
 
@@ -42,7 +43,7 @@ You can access the Usage analytics activities table by navigating to **All** &gt
 
 The following example and table show the Usage analytics activities \[sn\_vdr\_risk\_asmt\_ua\_activity\] table.
 
-![Usage analytics activities table with sample data.](../image/usage-analytics-activities.png "Usage analytics activities table")
+\[Omitted image "usage-analytics-activities.png"\] Alt text: Usage analytics activities table with sample data.
 
 <table id="table_tpddr"><thead><tr><th>
 
@@ -111,5 +112,5 @@ State of the activity:-   **Tracked**: The activity is logged.
 -   **Recalled**: The activity was recalled by a user after it occurred.
 
 </td></tr></tbody>
-</table>**Note:** The calculated risk scores that are updated by assessments are managed activities. However, they aren’t logged in the Usage analytics activities \[sn\_vdr\_risk\_asmt\_ua\_activity\] table. The score updates from the risk intelligence score providers aren’t managed activities. For more information on the risk intelligence scores, see [Viewing risk intelligence scores](../../grc-workspace-vrm/reference/tprm-ws-tab-risk-intel-scores.md).
+</table>**Note:** The calculated risk scores that are updated by assessments are managed activities. However, they aren’t logged in the Usage analytics activities \[sn\_vdr\_risk\_asmt\_ua\_activity\] table. The score updates from the risk intelligence score providers aren’t managed activities. For more information on the risk intelligence scores, see [Viewing risk intelligence scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-tab-risk-intel-scores.md).
 

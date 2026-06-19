@@ -2,6 +2,7 @@
 title: Interactive Analysis for Performance Analytics
 description: Interactive Analysis enables you to quickly explore Performance Analytics data using visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/interactive-analysis-pa.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,12 +18,12 @@ Interactive Analysis enables you to quickly explore Performance Analytics data u
 
 **Note:** Platform Analytics does not support interactive analytics.
 
-From any Core UI list of records, you can access an interactive set of reports on the list data. You can also manipulate the data by grouping, stacking, aggregating, and applying interactive filters. Click the visualization to drill down into the data. Click the information icon \(![Information icon](../../common-ui-elements/image/PreviewIcon.png)\) to edit the source filter, view the list of applied filters, and copy the URL of the analysis.
+From any Core UI list of records, you can access an interactive set of reports on the list data. You can also manipulate the data by grouping, stacking, aggregating, and applying interactive filters. Click the visualization to drill down into the data. Click the information icon \(\[Omitted image "PreviewIcon.png"\] Alt text: Information icon\) to edit the source filter, view the list of applied filters, and copy the URL of the analysis.
 
-![Interactive analysis with information panel option](../../dashboards/image/interactive-analysis-p.png "Interactive Analysis on Incident data")
+\[Omitted image "interactive-analysis-p.png"\] Alt text: Interactive analysis with information panel option
 
--   **[Launch Interactive Analysis](../../dashboards/task/launch-interactive-analysis.md)**  
+-   **[Launch Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/launch-interactive-analysis.md)**  
 Launch Interactive Analysis from any list.
 
-**Parent Topic:**[Configure Performance Analytics fundamentals](c_PAWidgetsAndDashboards.md)
+**Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 

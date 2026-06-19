@@ -2,6 +2,7 @@
 title: Add learning course sections
 description: Add learning course sections to collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/add-learning-course-sections.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ Add learning course sections to collections.
 
 Role required: sn\_lc.learning\_admin
 
-Create a collection. For more information, see [Create a content collection](create-course-collection.md).
+Create a collection. For more information, see [Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-course-collection.md).
 
 ## Procedure
 
@@ -27,7 +28,7 @@ Create a collection. For more information, see [Create a content collection](cre
 
 2.  Open the collection that you want to add learning course sections to.
 
-3.  On the Learning Course Sections tab, click **New**.
+3.  On the Learning Course Sections tab, select **New**.
 
 4.  On the form, fill in the fields:
 
@@ -38,8 +39,8 @@ Create a collection. For more information, see [Create a content collection](cre
     |Order|Order of the learning course item within the collection.|
     |Short description|Description of the learning course item.|
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
-**Parent Topic:**[Create a content collection](create-course-collection.md)
+**Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-course-collection.md)
 

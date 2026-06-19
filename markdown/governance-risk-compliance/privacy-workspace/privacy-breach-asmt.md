@@ -2,6 +2,7 @@
 title: Privacy breach assessments
 description: Privacy breach assessments play an important role whenever there is an incident that threatens the privacy of individuals. These assessments help to determine if there is a breach and then serve as a measure to gauge the extent and impact of a breach.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-breach-asmt.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -25,5 +26,5 @@ While a breach assessment can be initiated from the Employee Center, it can also
 
 **Note:** This image uses security incident purely as an example for a better understanding of the workflow.
 
-![Steps for the creation of privacy case for a business app security breach using breach assessment.](../image/breach-asmt-workflow.png "Privacy breach assessment workflow")
+\[Omitted image "breach-asmt-workflow.png"\] Alt text: Steps for the creation of privacy case for a business app security breach using breach assessment.
 

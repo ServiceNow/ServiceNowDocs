@@ -1,19 +1,20 @@
 ---
-title: Create classification codes
-description: Create classification codes and assign them to enterprise models and model categories to increase the efficiency of enterprise models.
+title: Create a classification code
+description: Create a classification code and assign it to enterprise models and model categories to increase the efficiency of enterprise models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-classification-codes.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
-# Create classification codes
+# Create a classification code
 
-Create classification codes and assign them to enterprise models and model categories to increase the efficiency of enterprise models.
+Create a classification code and assign it to enterprise models and model categories to increase the efficiency of enterprise models.
 
 ## Before you begin
 
@@ -94,6 +95,4 @@ Mode categories assigned to the code.
 
     The display name of the classification code is generated and displayed in the **Classification** field. The display name represents the code, the description, and the source. You can view the new classification code record in the Classifications list view page.
 
-
-**Parent Topic:**[Create and manage enterprise models](../concept/create-manage-enterprise-models.md)
 

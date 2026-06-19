@@ -2,6 +2,7 @@
 title: Enterprise asset estate overview for Enterprise Asset Workspace
 description: Use the Enterprise asset estate view in the Enterprise Asset Workspace to create and manage your assets. You can also view details such as asset life cycle by state, disposed assets this year, and asset requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ You can access the Enterprise asset estate view by navigating to **Enterprise As
 
 To access detailed information and take relevant action, select any widget. You can also narrow down your results by using the **Location**, **Stockroom**, **Model category**, and **Classification** filters.
 
-![Asset estate view](../image/eam-assetoverview.png "Enterprise asset estate view")
+\[Omitted image "eam-assetoverview.png"\] Alt text: Asset estate view
 
 |Widget or chart|Description|
 |---------------|-----------|

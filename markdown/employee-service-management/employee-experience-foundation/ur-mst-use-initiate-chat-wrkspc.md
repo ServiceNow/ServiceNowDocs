@@ -2,6 +2,7 @@
 title: Initiate chat with an employee from Agent Workspace
 description: Chat with an employee from Agent Workspace through Microsoft Teams so that you can collaborate and resolve universal requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ur-mst-use-initiate-chat-wrkspc.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -45,5 +46,5 @@ Role required: agent
 
 The Microsoft Teams application opens the tab where you can chat with the selected employee.
 
-**Parent Topic:**[Manage chat messages from the Agent Workspace](../concept/ur-mst-use-start-import-chat-aws.md)
+**Parent Topic:**[Manage chat messages from the Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ur-mst-use-start-import-chat-aws.md)
 

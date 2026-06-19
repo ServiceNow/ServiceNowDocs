@@ -2,6 +2,7 @@
 title: AI capabilities in Service Mapping
 description: Service Mapping AI capabilities helps Service Mapping Administrators speed-up mapping processes and manage team flows more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/ai-workflows-service-mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -16,10 +17,12 @@ breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operati
 
 Service Mapping AI capabilities helps Service Mapping Administrators speed-up mapping processes and manage team flows more efficiently.
 
-## Available AI agents
+## Available AI agents and MCP tools
 
--   **[AI Agents for Service Mapping](service-mapping-ai-specialists.md)**  
+-   **[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md)**  
 AI Agents for Service Mapping are autonomous AI agents that automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
+-   **[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-mcp-server.md)**  
+The Service Mapping tools, delivered as part of the Now Assist CMDB MCP Server, expose live application service data and enable AI clients such as Claude to query service topology and mapping gaps in natural language.
 
-**Parent Topic:**[Using Service Mapping](using-service-mapping.md)
+**Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
 

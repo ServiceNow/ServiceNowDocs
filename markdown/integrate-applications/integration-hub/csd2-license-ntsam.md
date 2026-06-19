@@ -2,6 +2,7 @@
 title: Create licenses for distributed software using CSD 2.0
 description: Licenses are associated with the software model and must be created if you want to track the license for software deployed by CSD 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-license-ntsam.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -83,5 +84,5 @@ Type of license entitlement.**Note:**
     The license is created with the required rights.
 
 
-**Parent Topic:**[Client Software Distribution 2.0 application](../concept/csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)
 

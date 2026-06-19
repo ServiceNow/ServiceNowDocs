@@ -2,6 +2,7 @@
 title: Configure field encryption settings to select key type
 description: Configure your field encryption settings to use ServiceNow supplied keys or your own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/configure-field-encryption-settings.html
 release: australia
 product: Platform Encryption
 classification: platform-encryption
@@ -27,7 +28,7 @@ Role required: sn\_kmf.cryptographic\_manager and security\_admin
 
 2.  From the Field Encryption Settings, select either **ServiceNow Generated Keys** or **Customer Supplied Keys** from the **Key Source** list.
 
-    ![Key source selection](../image/field-encryption-settings-choices.png "Key source selection")
+    \[Omitted image "field-encryption-settings-choices.png"\] Alt text: Key source selection
 
     This option changes the `com.glide.encryption.cle_kmf.key_source` property to either **ServiceNow Generated Keys** or **Customer Supplied Keys**.
 
@@ -36,8 +37,8 @@ Role required: sn\_kmf.cryptographic\_manager and security\_admin
 
 ## What to do next
 
--   If you’re using your own customer-supplied keys, see [Using customer-supplied keys with Field Encryption Enterprise](../../encryption/concept/csk-landing.md).
--   If you’re using ServiceNow supplied keys, start creating your cryptographic module. See [Create a cryptographic module](create-cryptographic-module.md).
+-   If you’re using your own customer-supplied keys, see [Using customer-supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/csk-landing.md).
+-   If you’re using ServiceNow supplied keys, start creating your cryptographic module. See [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md).
 
-**Parent Topic:**[Configuring the Key Management Framework](../../encryption/concept/configure-kmf.md)
+**Parent Topic:**[Configuring the Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/configure-kmf.md)
 

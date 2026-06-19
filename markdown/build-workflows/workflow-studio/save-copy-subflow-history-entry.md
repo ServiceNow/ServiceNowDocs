@@ -2,6 +2,7 @@
 title: Save a copy of a subflow's flow history entry
 description: Create a copy of a flow history entry and save it as a new subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/save-copy-subflow-history-entry.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -41,7 +42,7 @@ You can save a copy of a flow history entry to preserve a previous subflow confi
 
 7.  From the Flow History view, select **Save as copy**.
 
-    ![Flow configuration for 5th June, 5:17AM with an option to Save as copy](../images/subflow-history-save-copy-01.png)
+    \[Omitted image "subflow-history-save-copy-01.png"\] Alt text: Flow configuration for 5th June, 5:17AM with an option to Save as copy
 
 8.  In **New subflow name**, enter the name of the copied subflow.
 
@@ -49,14 +50,14 @@ You can save a copy of a flow history entry to preserve a previous subflow confi
 
 10. From the Create a copy of this flow confirmation dialog box, select **Copy**.
 
-    ![Create a copy of this subflow dialog box. The new name is Wait 3 day for email reply.](../images/subflow-history-save-copy-02.png)
+    \[Omitted image "subflow-history-save-copy-02.png"\] Alt text: Create a copy of this subflow dialog box. The new name is Wait 3 day for email reply.
 
 
 ## Result
 
-![Workflow Studio tab displays new fsublow Wait 3 Days for Email Reply.](../images/subflow-history-save-copy-03.png)
+\[Omitted image "subflow-history-save-copy-03.png"\] Alt text: Workflow Studio tab displays new fsublow Wait 3 Days for Email Reply.
 
 Workflow Studio displays the copied subflow configuration in a new tab.
 
-**Parent Topic:**[Subflow history](../concept/subflow-history.md)
+**Parent Topic:**[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflow-history.md)
 

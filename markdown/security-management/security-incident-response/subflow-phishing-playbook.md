@@ -2,6 +2,7 @@
 title: View the automated phishing response playbook subflow designer
 description: You can drill down to the Subflow Designer to view detailed information about the subflow being executed as part of the automated phishing response playbook flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/subflow-phishing-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -15,11 +16,11 @@ breadcrumb: [Run the automated phishing response playbook flow, Playbook for Aut
 
 You can drill down to the Subflow Designer to view detailed information about the subflow being executed as part of the automated phishing response playbook flow.
 
-You can launch the Subflow Designer to view additional details of a subflow. The Subflow Designer page for the Run Threat Lookups for Observables subflow is shown here. Select the ![Subflow designer](../image/cj-sir-flow-actiondesign-icon.png) icon to view the Subflow Designer.
+You can launch the Subflow Designer to view additional details of a subflow. The Subflow Designer page for the Run Threat Lookups for Observables subflow is shown here. Select the \[Omitted image "cj-sir-flow-actiondesign-icon.png"\] Alt text: Subflow designer icon to view the Subflow Designer.
 
 In the Subflow Designer page, you can see the inputs and outputs for this subflow, and the underlying workflow actions that are being executed.
 
 **Note:** This subflow is read only and cannot be edited. You can add or delete subflows to the step but you cannot modify the subflow.
 
-**Parent Topic:**[Run the automated phishing response playbook flow](../task/run-phishing-playbook.md)
+**Parent Topic:**[Run the automated phishing response playbook flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/run-phishing-playbook.md)
 

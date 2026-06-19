@@ -2,6 +2,7 @@
 title: Download Desktop Assistant installer on Windows devices
 description: Download the Desktop Assistant installer on your Windows device to install the Desktop Assistant application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/download-desktop-exp-win.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -23,7 +24,7 @@ Role required: sn\_dex\_desktop.admin
 
 1.  Navigate to **All** &gt; **Desktop Assistant** &gt; **Deployment** &gt; **Installer and Uninstaller**.
 
-2.  In the Windows Download section of the Desktop Assistant Downloads page, select the download icon \(![Download icon](../image/icon-download-blue.png)\) for the **MSI \[x64 arch\]** installer.
+2.  In the Windows Download section of the Desktop Assistant Downloads page, select the download icon \(\[Omitted image "icon-download-blue.png"\] Alt text: Download icon\) for the **MSI \[x64 arch\]** installer.
 
     The `Desktop_Assistant_<Version>.msi` file is downloaded to your computer.
 
@@ -32,9 +33,9 @@ Role required: sn\_dex\_desktop.admin
 
 ## Result
 
-Desktop Assistant is installed. You see the Desktop Assistant application on the Start Menu and the Desktop Assistant icon \(![Desktop Assistant icon](../image/icon-desktop-exp.png)\) on the system tray.
+Desktop Assistant is installed. You see the Desktop Assistant application on the Start Menu and the Desktop Assistant icon \(\[Omitted image "icon-desktop-exp.png"\] Alt text: Desktop Assistant icon\) on the system tray.
 
-When you install Desktop Assistant by using the installer, the instance URL field on the login page is not populated automatically. As a system administrator, you can update the instance URL in the Desktop Assistant configuration file. For more information, see [Update instance URL in the Desktop Assistant configuration file](update-da-instance-url.md).
+When you install Desktop Assistant by using the installer, the instance URL field on the login page is not populated automatically. As a system administrator, you can update the instance URL in the Desktop Assistant configuration file. For more information, see [Update instance URL in the Desktop Assistant configuration file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/update-da-instance-url.md).
 
 **Note:** Only the system administrator must update the configuration file or make changes to it while deploying Desktop Assistant on devices.
 

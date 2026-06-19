@@ -2,6 +2,7 @@
 title: Delegate legal duties to another user
 description: Delegate legal duties relating to your assigned legal requests, legal matters, legal matter tasks, and approvals to another user when you might not have time or are unavailable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/delegate-legal-duties-approval.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -23,7 +24,7 @@ Role required: legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(![List icon](../image/lsd-lcc-list-icon.png)\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Set Delegate**, click **My Delegates**.
 
@@ -106,5 +107,5 @@ Setting the delegation has the following effects during the specified period:
 -   The delegate can access and perform all the functions that you can do for your assigned legal requests, legal matters, matter tasks, and approvals from the **Delegated to me** list.
 -   Both you and the delegate receive notifications related to activities done on legal requests, legal matters, matter tasks, and approvals.
 
-**Parent Topic:**[Delegation of legal duties and approvals](../concept/legal-services-delegation.md)
+**Parent Topic:**[Delegation of legal duties and approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-services-delegation.md)
 

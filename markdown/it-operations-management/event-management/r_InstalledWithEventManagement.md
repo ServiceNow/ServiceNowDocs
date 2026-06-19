@@ -2,6 +2,7 @@
 title: Components installed with Event Management
 description: Activating the Event Management \(com.glideapp.itom.snac\) plugin adds several roles, scheduled jobs, and tables.Roles used by the Event Management application.List of scheduled jobs that are provided with Event Management.Properties provide the metadata to identify the domain.Tables that are provided when Event Management is activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/r\_InstalledWithEventManagement.html
 release: australia
 product: Event Management
 classification: event-management
@@ -15,9 +16,9 @@ breadcrumb: [Event Management reference, Event Management, ITOM AIOps, IT Operat
 
 Activating the Event Management \(com.glideapp.itom.snac\) plugin adds several roles, scheduled jobs, and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
-**Parent Topic:**[Event Management reference](event-management-reference.md)
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
 
 ## Roles installed with Event Management
 
@@ -93,6 +94,30 @@ Has create access to the Event \[em\_event\] and Registered Nodes \[em\_register
 
  
 
+</td></tr><tr><td>
+
+Event Management AIOps Manager\[evt\_aiops\_manager\]
+
+</td><td>
+
+Responsible for overseeing NOC teams performance and can onboard AI Specialists as part of the agentic workforce features in AIOps.
+
+</td><td>
+
+evt\_team\_operator
+
+</td></tr><tr><td>
+
+Event Management Team Operator\[evt\_team\_operator\]
+
+</td><td>
+
+Can create and manage their own integrations, set up their own alert automations, and enhance control over alert management for their teams.
+
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>## Scheduled jobs installed with Event Management
 
@@ -154,7 +179,7 @@ Event Management — Alert Priority Queue
 
 </td><td>
 
-Calculate [alert priority](../concept/alert-priority.md). Two Alert Priority Queue jobs are active and available and can be run multi-thread. Runs every minute.
+Calculate [alert priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-priority.md). Two Alert Priority Queue jobs are active and available and can be run multi-thread. Runs every minute.
 
 </td></tr><tr><td>
 
@@ -238,7 +263,7 @@ Event Management — Node Count
 
 </td><td>
 
-Calculate [license usage](../task/license-usage.md). Runs once every hour.
+Calculate [license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/license-usage.md). Runs once every hour.
 
 </td></tr><tr><td>
 

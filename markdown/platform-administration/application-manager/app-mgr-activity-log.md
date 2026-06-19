@@ -2,6 +2,7 @@
 title: Application Manager activity log
 description: The Activity log displays recent and upcoming Application Manager activity for quick reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/app-mgr-activity-log.html
 release: australia
 product: Application Manager
 classification: application-manager

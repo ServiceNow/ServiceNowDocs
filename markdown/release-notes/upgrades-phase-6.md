@@ -2,7 +2,10 @@
 title: Phase 6 - Prepare to upgrade the production instance
 description: After you have configured and refined your test environment to be a good representation of your production environment, prepare to upgrade your production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/upgrades-phase-6.html
 release: australia
+product: Release Notes
+classification: release-notes
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -17,20 +20,20 @@ After you have configured and refined your test environment to be a good represe
 
 Role required: admin.
 
-To ensure that all stakeholders in your company are prepared for the final production upgrade, complete the administrative planning tasks in Phase 6 of the [Upgrade planning checklist](../upgrades-planning-checklist.md). When upgrading a production instance:
+To ensure that all stakeholders in your company are prepared for the final production upgrade, complete the administrative planning tasks in Phase 6 of the [Upgrade planning checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-planning-checklist.md). When upgrading a production instance:
 
 -   Obtain confirmation from IT and management that all non-production instance defects have been fixed, validated, and included in an update set.
 -   Use the change management process established by your organization to track the upgrade.
 -   Communicate effectively with your user community regarding changes, new features, and process updates resulting from the upgrade.
 -   Negotiate a suitable upgrade time for all users of the ServiceNow system.
 
-    For example, schedule the upgrade after hours, to minimize impact to your users. Remember to schedule the upgrade to occur 15–20 minutes before the [**Upgrade** scheduled job](upgrades-phase-3.md#Phase3Step1CheckUpgradeJob) interval.
+    For example, schedule the upgrade after hours, to minimize impact to your users. Remember to schedule the upgrade to occur 15–20 minutes before the [**Upgrade** scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/upgrades-phase-3.md) interval.
 
 -   Allow time in your change window to run all test cases and validate that all integrations, key business functionality, and system performance are acceptable. Add a time buffer for responding to errors without breaching the change window.
 
 ## About this task
 
-![Upgrade progress bar](../image/progress-bar-phase-6.png)
+\[Omitted image "progress-bar-phase-6.png"\] Alt text: Upgrade progress bar
 
 ## Procedure
 
@@ -53,7 +56,7 @@ To ensure that all stakeholders in your company are prepared for the final produ
 
     2.  From the list in the top left of the instance homepage, select **ServiceNow Performance**.
 
-        ![](../image/upgrades-perf-dashboard.png)
+        \[Omitted image "upgrades-perf-dashboard.png"\] Alt text:
 
 3.  On your clone, perform functional testing and monitor the performance of your instance.
 

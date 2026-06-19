@@ -2,6 +2,7 @@
 title: Incidents from alerts
 description: An agent or IT operator creates an incident from the DEX alerts which is addressed by the L1 agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/incident-from-alert.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -17,5 +18,5 @@ An agent or IT operator creates an incident from the DEX alerts which is address
 
 As a response to the alerts, the IT operator can create an incident. The DEX alert-related information is available on the origin card of the incident. You can view the number of Impacted devices and impacted users. To access the DEX alert information, you need the Incident management for Service Operations Workspace plugin \(`com.snc.uib.sow_incident`\) version 7.1.0 and above.
 
-![Incident from alerts](../image/alert-incident.png)
+\[Omitted image "alert-incident.png"\] Alt text: Incident from alerts
 

@@ -2,6 +2,7 @@
 title: Setting up the RSS feeds infrastructure
 description: To ensure you can obtain all the necessary Really simple syndication \(RSS\) feeds in your ServiceNow instance, you must set up the infrastructure required to seamlessly obtain the feeds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/setting-up-rss-feeds-infrastructure.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -15,5 +16,5 @@ breadcrumb: [Configure, Regulatory Change Management, Governance, Risk, and Comp
 
 To ensure you can obtain all the necessary Really simple syndication \(RSS\) feeds in your ServiceNow instance, you must set up the infrastructure required to seamlessly obtain the feeds.
 
-Properly configured infrastructure allows seamless integration of RSS feeds, enabling you to stay updated without disruptions. As an RCM administrator or IT administrator, ensure all prerequisites are in place for optimal performance. If you encounter issues while trying to obtain your RSS feeds, refer to [General guidelines for RSS feeds](general-guidelines-rss-feeds.md).
+Properly configured infrastructure allows seamless integration of RSS feeds, enabling you to stay updated without disruptions. As an RCM administrator or IT administrator, ensure all prerequisites are in place for optimal performance. If you encounter issues while trying to obtain your RSS feeds, refer to [General guidelines for RSS feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/general-guidelines-rss-feeds.md).
 

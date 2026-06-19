@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Health and Safety
 description: With the Now Assist for Health and Safety application, safety agents and managers can use generative AI to summarize the safety incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-exploring.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -19,7 +20,7 @@ With the Now Assist for Health and Safety application, safety agents and manager
 
 The Now Assist for Health and Safety application includes the skills and features of generative AI to support safety teams working on resolving safety issues.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 Use the following skill provided by the Now Assist for Health and Safety application.
 
@@ -36,8 +37,8 @@ Use the following skill provided by the Now Assist for Health and Safety applica
     -   Action
     The following example shows an AI-generated incident summary.
 
-    ![AI-generated summary for a Health and Safety incident.](../image/na-hs-incident-summarization.png "Health and Safety incident summarization example")
+    \[Omitted image "na-hs-incident-summarization.png"\] Alt text: AI-generated summary for a Health and Safety incident.
 
 
-For information on activating the Health and Safety incident summarization skill, see [Configuring Now Assist for Health and Safety](now-assist-hs-configuring.md). For information on how to use this skill on Health and Safety Workspace, see [Summarize a safety incident by using Now Assist for Health and Safety](../task/now-assist-hs-summarize-safety-incident.md).
+For information on activating the Health and Safety incident summarization skill, see [Configuring Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md). For information on how to use this skill on Health and Safety Workspace, see [Summarize a safety incident by using Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md).
 

@@ -2,7 +2,10 @@
 title: Configure Workplace Services
 description: Configure the Workplace Services business unit to manage workplace service requests and space arrangements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/config-workplace.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -50,7 +53,7 @@ Role required: admin, sn\_cbs.admin
     |Workplace Services request|Report outages, maintenance issues, or submit general workplace services questions.|
 
     -   To customize an existing intake forms, select the **Edit** icon.
-    -   To create an intake form, select **Create new**. For more information, see [Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder.md).
+    -   To create an intake form, select **Create new**. For more information, see .
 
         **Note:** Create intake forms directly in the new instance. Moving intake forms configurations to a new instance using an update set isn’t supported.
 
@@ -146,9 +149,9 @@ Role required: admin, sn\_cbs.admin
 
 10. Configure notifications sent through Email, Portal, and Workspace to users about submitted or assigned workplace requests.
 
-    -   To create an email notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
-    -   To create Portal or Workspace notification, see [Trigger conditions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/notif-trigger-form.md).
+    -   To create an email notification, see .
+    -   To create Portal or Workspace notification, see .
     -   After configuring notifications, select **Mark as configured**.
 
-**Parent Topic:**[Configure Core Business Suite using guided setup](../concept/config-cbs-using-guided-setup.md)
+**Parent Topic:**[Configure Core Business Suite using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/config-cbs-using-guided-setup.md)
 

@@ -2,6 +2,7 @@
 title: Configure Application Registry on the ServiceNow instance
 description: Register the Request-based chat app in your instance to use Microsoft Teams chat for self-configured app environment.Register the Request-based chat app in your instance to use Microsoft Teams chat for self-configured app environment by editing existing Microsoft Teams Chat self-configured app application registry.Register the Request-based chat app in your instance to use Microsoft Teams chat for self-configured app environment by creating a Microsoft Teams Chat self-configured app application registry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/app-registry-chat-single-tenant.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,10 +18,10 @@ Register the Request-based chat app in your instance to use Microsoft Teams chat
 
 You can register the Request-based chat app in your instance to use Microsoft Teams chat for self-configured app environment using one of the following methods.
 
--   [Edit existing Microsoft Teams Chat self-configured app application registry](app-registry-chat-single-tenant.md#) \(Recommended\)
--   [Create an application registry for Microsoft Teams chat self-configured app](app-registry-chat-single-tenant.md#)
+-   [Edit existing Microsoft Teams Chat self-configured app application registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/app-registry-chat-single-tenant.md) \(Recommended\)
+-   [Create an application registry for Microsoft Teams chat self-configured app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/app-registry-chat-single-tenant.md)
 
-**Parent Topic:**[Register and configure the Request-based chat application on the Microsoft Azure portal](register-app-req-based-chats.md)
+**Parent Topic:**[Register and configure the Request-based chat application on the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/register-app-req-based-chats.md)
 
 ## Edit existing Microsoft Teams Chat self-configured app application registry
 
@@ -99,7 +100,7 @@ Client Secret
 
 </td><td>
 
-The password you generated when creating the app in Microsoft Teams. For more information, see [Register and configure the Request-based chat application on the Microsoft Azure portal](register-app-req-based-chats.md).
+The password you generated when creating the app in Microsoft Teams. For more information, see [Register and configure the Request-based chat application on the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/register-app-req-based-chats.md).
 
 </td></tr><tr><td>
 
@@ -132,7 +133,7 @@ Redirect URL that includes the instance URL with the format https://&lt;instance
  Update the &lt;instanceURL&gt; value with your instance URL.
 
 </td></tr></tbody>
-</table>    ![Microsoft Teams Chat Single Tenant form](../images/chat-single-tenant-oauth-entity.png)
+</table>    \[Omitted image "chat-single-tenant-oauth-entity.png"\] Alt text: Microsoft Teams Chat Single Tenant form
 
 5.  Select **OAuth Entity Scopes** related list.
 

@@ -2,12 +2,13 @@
 title: Value management
 description: The value management constitutes a continuous loop of the end-to-end process of managing the value lifecycle, inclusive of envisioning value, creating value, ongoing management, optimization, and validation of value realized with the Impact store app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/value-library/impact-in-platform-business-outcomes.html
 release: australia
 product: Value Library
 classification: value-library
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Using Impact, Impact]
 ---
 
@@ -35,15 +36,15 @@ Trends can easily be filtered and viewed to track objectives and outcomes.
 
 ## Using Impact Value Management data collection apps
 
-Impact Value Management data collection apps are a detailed overview of the Report configuration options and potential implementation recommendations for collecting the data required for your value blueprint, outcome performance report, and value reports that are part of the Impact program. See [Set up Impact Value Management data collection apps](data-collection-toolkit.md) for additional information on how to use the data collection apps to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\).
+Impact Value Management data collection apps are a detailed overview of the Report configuration options and potential implementation recommendations for collecting the data required for your value blueprint, outcome performance report, and value reports that are part of the Impact program. See [Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md) for additional information on how to use the data collection apps to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\).
 
 The Impact Value Management data collection apps are available on the ServiceNow Impact Store Application. These apps are accessible directly on a your instance as part of the Impact package, eliminating the need for separate downloads from the store or individual content packs. By leveraging predefined data definitions within Performance Analytics \(PA\), customers can automatically collect essential data for Value Metrics. This streamlined approach enhances the accuracy and efficiency of data collection for value measurement, providing a seamless experience and improving both customer satisfaction and product evaluation in the Value management within Impact.
 
-For more information on data collection toolkit, see [Set up Impact Value Management data collection apps](data-collection-toolkit.md).
+For more information on data collection toolkit, see [Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-toolkit.md).
 
 ## Value Reports
 
 The Value report evaluates the impact of improvements in key success metrics over time and translates them into operational and monetary value. These metrics align with the target objectives and outcomes you have been working toward. If you are a guided or advanced customer, your squad will collaborate with you to validate results, confirm key assumptions and inputs, and quantify the realized value in financial terms.
 
-For more information on value reports in Impact, see [Value reports](business-value-reports.md).
+For more information on value reports in Impact, see .
 

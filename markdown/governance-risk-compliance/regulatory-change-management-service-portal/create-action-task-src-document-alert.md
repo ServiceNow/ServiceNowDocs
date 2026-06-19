@@ -2,6 +2,7 @@
 title: Complete the action task associated with the alert
 description: Complete the action tasks that are related to the regulatory event alerts and source document alerts. The compliance and risk users complete the action tasks that are assigned to them. The compliance and risk managers track the progress on the action tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/create-action-task-src-document-alert.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal

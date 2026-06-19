@@ -2,6 +2,7 @@
 title: Components installed with Health and Safety Contractor Management
 description: Several types of components are installed with installation of the Health and Safety Contractor Management application, including tables, user roles, and scheduled jobs. The application also installs related store applications if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/components-installed-with-hs-contractor-mgmt.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -33,7 +34,7 @@ Health and Safety Core
 
 Installs core data model for Health and Safety. This data model includes common components such as Health and Safety user profile and actions that are used in the Health and Safety applications.
 
- For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](../../hs-core/reference/components-installed-hs-core.md).
+ For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/components-installed-hs-core.md).
 
 </td></tr><tr><td>
 
@@ -172,5 +173,5 @@ Document
 Stores all safety related documents collected from contractor companies and workers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Contractor Management reference](../concept/hs-contractor-management-reference.md)
+</table>**Parent Topic:**[Health and Safety Contractor Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-reference.md)
 

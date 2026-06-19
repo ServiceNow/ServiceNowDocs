@@ -2,6 +2,7 @@
 title: Stream Connect Alerting properties
 description: Specify alert properties and how alerts are managed in Stream Connect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sc-alert-properties.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -463,5 +464,5 @@ Determines how many alert notifications are generated. This is always set to **G
  Default: Global
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Stream Connect alerting](../concept/stream-connect-alert.md)
+</table>**Parent Topic:**[Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-alert.md)
 

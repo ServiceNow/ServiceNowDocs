@@ -2,6 +2,7 @@
 title: Configure a new legal hold notice template
 description: Configure a legal hold notice template to align with your organizational requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/config-lg-hold-temp.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -64,7 +65,7 @@ Table associated with the type of template, which in this case is sn\_lg\_matter
 </td></tr></tbody>
 </table>5.  Fill in the remaining fields as needed.
 
-    For more information, see [Configure an HTML document template](../../human-resources/task/configure-HTML-doc-template.md).
+    For more information, see [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
 
 6.  Select **Publish**.
 
@@ -73,5 +74,5 @@ Table associated with the type of template, which in this case is sn\_lg\_matter
 
 A new legal hold notice template is created.
 
-**Parent Topic:**[Configure Legal Hold Notification](../concept/config-lg-hold-notif.md)
+**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
 

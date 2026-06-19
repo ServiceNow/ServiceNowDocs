@@ -2,7 +2,10 @@
 title: Configure install base
 description: Track which products and services have been purchased by a customer, how they've been installed or provisioned, along with the detailed configuration for each installed item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-install-base.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -23,11 +26,11 @@ Install the Customer Service Install Base Management plugin \(com.snc.install\_b
 
 Capture the install base for a customer by creating sold products, install base items, and installed products. This would enable the customer service agents to trace issues back to the relevant product, instances of that product, and other entities impacting their functioning.
 
-Before setting up your install base, create your product data by creating or importing product models. For more information, see [Configure product data](configure-csm-products.md).
+Before setting up your install base, create your product data by creating or importing product models. For more information, see [Configure product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-products.md).
 
 This example shows the summary of the customer's purchase on the Solana microwave.
 
-![Solana corporation sells 800 series microwave in different colors and two capacity choices. Boxeo installed one model in their break room in the office as installed base and manages it.](../image/install-base-example.png "Using install base management")
+\[Omitted image "install-base-example.png"\] Alt text: Solana corporation sells 800 series microwave in different colors and two capacity choices. Boxeo installed one model in their break room in the office as installed base and manages it.
 
 There are three parts to setting up your install base.
 
@@ -74,7 +77,7 @@ Customer service agents can view install base information in Agent Workspace. Cu
     |Import Install Base Items|Import install base items that represent the items installed or provisioned for a customer.|
     |Import Installed Products|Import installed products to create an association between sold products and install base items.|
 
-4.  To perform a task, click **Configure**.
+4.  To perform a task, select **Configure**.
 
     This button opens the page in your instance where the configuration is completed.
 

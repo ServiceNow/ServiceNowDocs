@@ -2,6 +2,7 @@
 title: Cloud Services Catalog Terraform Connector API Key Credentials form reference
 description: The Cloud Services Catalog Terraform Connector uses API key credentials to authenticate the requests sent to the Terraform Enterprise and Terraform Cloud and the version control systems provisioned in them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -107,5 +108,5 @@ Credential alias
 Credential alias that can resolve the credential.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](cpg-terraform-connector-reference.md)
+</table>**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
 

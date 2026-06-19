@@ -2,6 +2,7 @@
 title: Configure document templates for Adobe Sign
 description: Configure document templates to enable signing using the Adobe Sign application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/sign-adobe-doc.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,8 +29,8 @@ Role required: sn\_dt\_adobesign.admin
 3.  Fill in the required fields on the form.
 
     1.  In the **Signing type** field, select **Adobe Sign**.
-    2.  [Define participants](create-participant.md), define tasks for participants, and mark signature blocks.
-    3.  Associate the document template to the [HR template of a service](configure-hr-service.md) and [initiate document tasks from a case](task-mapped-participants.md).
+    2.  [Define participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-participant.md), define tasks for participants, and mark signature blocks.
+    3.  Associate the document template to the [HR template of a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-service.md) and [initiate document tasks from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/task-mapped-participants.md).
 
 ## What to do next
 

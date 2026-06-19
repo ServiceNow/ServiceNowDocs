@@ -2,6 +2,7 @@
 title: Service Mapping AI Agent activity list tables
 description: Use this reference to interpret the tables in the Service Mapping AI Agent activity list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -110,5 +111,5 @@ Created
 The date and time the activity record was created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Agents for Service Mapping](../concept/service-mapping-ai-specialists.md)
+</table>**Parent Topic:**[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
 

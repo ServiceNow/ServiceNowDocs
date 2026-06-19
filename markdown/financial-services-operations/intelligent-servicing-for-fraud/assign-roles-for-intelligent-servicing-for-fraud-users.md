@@ -2,12 +2,14 @@
 title: Assign roles for Intelligent Servicing for Fraud users
 description: Assign roles to control access to features, capabilities, and data in the Intelligent Servicing for Fraud application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/assign-roles-for-intelligent-servicing-for-fraud-users.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [assign roles for fraud users, fraud user roles, sn\_bom\_fraud.admin, sn\_bom\_fraud.agent, sn\_bom\_fraud.manager, sn\_bom\_fraud.viewer, sn\_bom\_fraud.contributor, sn\_bom\_fraud.agent\_connector, fraud access control, fraud role assignment, assign role to user, assign role to group]
 breadcrumb: [Configure, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -144,6 +146,6 @@ Creates, views, and edits fraud cases and works with consumers to resolve cases.
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
-    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 

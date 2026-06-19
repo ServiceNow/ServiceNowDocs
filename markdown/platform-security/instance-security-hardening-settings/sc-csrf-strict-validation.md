@@ -2,6 +2,7 @@
 title: Prevent Users From Accepting Warning To Bypass CSRF Validation \[Updated in Security Center 1.3 and 1.5\]
 description: Use the glide.security.csrf.strict.validation.mode property to enable CSRF token strict validation. If the CSRF token doesn't match, it prevents resubmission of the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-csrf-strict-validation.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -25,7 +26,7 @@ If the anti-CSRF token is instead tied to one of the user's other active session
 |---------|-----------|
 |Property name|**glide.security.csrf.strict.validation.mode**|
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|To enforce strict validation of CSRF token, and prevents its reuse.|
 |Data type|Boolean|
 |Recommended value|true|
@@ -35,7 +36,7 @@ If the anti-CSRF token is instead tied to one of the user's other active session
 |Functional impact|This remediation enables an extra validation step before the instance user submits a write request to the instance. It checks whether the current CSRF token has been used previously. If Yes, it prevents submission of further write requests.|
 |Security risk|\(Medium\) Cross site Request Forgery is a significant security risk that violates the integrity of the instance data. An attacker can launch the CSRF attack on any instance user by abusing the trust of the instance user. With the help of social engineering attacks, a user can submit a malformed request to the instance on behalf of the attacker.|
 
-Return to [Configure and upload your customer supplied key](../../key-management-framework/task/upload-customer-supplied-key.md) to upload your wrapped key.
+Return to [Configure and upload your customer supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/upload-customer-supplied-key.md) to upload your wrapped key.
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

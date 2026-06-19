@@ -2,6 +2,7 @@
 title: Universal Request Process Overview dashboard
 description: Analyze the behavior of universal requests in your organization and track transfers. As a process owner, use this dashboard to measure efficiency and to determine necessary improvements in the overall implementation of Universal Request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/process-overview-report-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -19,13 +20,13 @@ To view the Universal Request Process Overview dashboard, navigate to **Universa
 
 You can view the dashboard in the Next Experience UI Framework. Select any indicator widget to view it's details in a list view.
 
-Use the **Edit** button to modify the dashboard and the widgets with the in-line editor. For more information, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md).
+Use the **Edit** button to modify the dashboard and the widgets with the in-line editor. For more information, see .
 
-![Universal Request Reporting Process overview tab.](../image/ur-process-overview.png "Process Overview tab")
+\[Omitted image "ur-process-overview.png"\] Alt text: Universal Request Reporting Process overview tab.
 
 The **SLA Trends** tab displays dynamic Performance Analytics reports for Universal Request. To view this tab, activate the Performance Analytics and Reporting for Universal Request plugin \(com.snc.universal\_request.pa\). The **SLA trends** tab displays reports based on closed universal requests. By default, the monthly data is displayed. To collect daily data for this tab, run the **\[PA Universal Request\] Daily Data Collection** job. To collect data for the past three months, run the **\[PA Universal Request\] Historical Data Collection** job.
 
-![SLA Trends tab in the Universal Request Process overview.](../image/ur-process-ovrv-sla-trends.png "Process Overview SLA Trends tab")
+\[Omitted image "ur-process-ovrv-sla-trends.png"\] Alt text: SLA Trends tab in the Universal Request Process overview.
 
 ## Required ServiceNow AI Platform roles
 
@@ -252,5 +253,5 @@ The date filter is available for the **Overview** tab.
 |----|----|-----------|
 |Date|Choice|The time period for the data that will be filtered.|
 
-**Parent Topic:**[Reporting solutions for Universal Request](../../../product/universal-request/concept/reporting-soln-for-ur.md)
+**Parent Topic:**[Reporting solutions for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/reporting-soln-for-ur.md)
 

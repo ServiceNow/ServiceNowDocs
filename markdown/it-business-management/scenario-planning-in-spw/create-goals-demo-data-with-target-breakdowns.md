@@ -2,6 +2,7 @@
 title: Create goals demo data with target breakdowns
 description: Run the Create Goals Demo Data with Target Breakdowns schedule job to create goals demo data with target breakdowns, so that you can view the target breakdowns section on the Goals page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-goals-demo-data-with-target-breakdowns.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -38,5 +39,5 @@ Role required: admin
 
 A goals demo data with target breakdowns is created. You can now view the target breakdowns for your goals in the Goals and targets tab on the Goals page.
 
-**Parent Topic:**[Configuring goals in Strategic Planning](../concept/configuring-goal-framework-apw.md)
+**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
 

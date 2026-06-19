@@ -2,6 +2,7 @@
 title: Request Software Asset Management
 description: The ServiceNow Software Asset Management Professional \(com.snc.samp\) plugin requires a separate subscription. This plugin includes demo data. Depending on your environment, you may choose to request one or more related plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_RequSoftwareAssetMgmt.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -29,11 +30,11 @@ Role required: admin
 
 Depending on your environment, you can request related plugins with the Software Asset Management Professional \(com.snc.samp\) plugin. You can request the optional plugins through either the Now Support Service Portal or through the ServiceNow Store.
 
-For the list of Software Asset Management Professional plugins, see [Components installed with Software Asset Management Professional](../reference/sam-installed-components.md).
+For the list of Software Asset Management Professional plugins, see [Components installed with Software Asset Management Professional](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-installed-components.md).
 
 Only ServiceNow personnel can activate the Software Asset Management Professional \(com.snc.samp\) plugin and other related plugins. The plugins are not visible in the plugin list, even after activation.
 
-**Warning:** After installing the Software Asset Management application for the first time, or upgrading from the Software Asset Management Foundation plugin, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process. See [Revert Software Asset Management customizations](revert-sam-customizations.md)
+**Warning:** After installing the Software Asset Management application for the first time, or upgrading from the Software Asset Management Foundation plugin, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process. See [Revert Software Asset Management customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/revert-sam-customizations.md)
 
 ## Procedure
 
@@ -41,11 +42,11 @@ Only ServiceNow personnel can activate the Software Asset Management Professiona
 
 2.  On the All Applications page, select **Request Plugin** to open the **Activate Plugin** form on Now Support.
 
-    ![Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/request-plugin.png)
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of Activate Plugin form to capture details for activating the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 3.  On Now Support, select the link to access the Now Support Service Portal Service Catalog.
 
-    ![Message informing customers about new service portal with a link provided.](../../../reuse/images/hi-redirect.png)
+    \[Omitted image "hi-redirect.png"\] Alt text: Message informing customers about new service portal with a link provided.
 
 4.  Select your instance.
 
@@ -92,12 +93,12 @@ The date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the CSM Workspace plugin on an instance named My Instance.
 
-    ![Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.](../../../reuse/images/activate-plugin-form.png "Activate Plugin form")
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form to capture details of the CSM Workspace plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 7.  Select **Submit**.
 
     For additional details about requesting a plugin, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
 
 
-**Parent Topic:**[Configuring Software Asset Management](../concept/Config-sam-workspace.md)
+**Parent Topic:**[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md)
 

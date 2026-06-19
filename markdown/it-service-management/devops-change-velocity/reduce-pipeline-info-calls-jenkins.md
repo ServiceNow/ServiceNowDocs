@@ -2,6 +2,7 @@
 title: Reduce calls from Jenkins to ServiceNow DevOps to fetch pipeline information
 description: Enable the Force Tracking Check field in the Jenkins configuration form to create a pipeline tracking file in Jenkins. ServiceNow DevOps makes a REST call to Jenkins to update the tracking file when the Track field in a pipeline is modified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/reduce-pipeline-info-calls-jenkins.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity

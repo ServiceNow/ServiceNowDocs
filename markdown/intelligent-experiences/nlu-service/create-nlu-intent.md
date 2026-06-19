@@ -2,6 +2,7 @@
 title: Create an NLU intent
 description: Create an intent for your Natural Language Understanding \(NLU\) model. Intents provide your model with a system action to perform when it receives user input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-nlu-intent.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -24,7 +25,7 @@ Create an intent for your Natural Language Understanding \(NLU\) model. Intents 
 
 ## About this task
 
-This procedure shows you how to create an intent. To reuse intents from other models, see [Reusing intents from prebuilt NLU models](../concept/reusing-predefined-nlu-intents.md).
+This procedure shows you how to create an intent. To reuse intents from other models, see [Reusing intents from prebuilt NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/reusing-predefined-nlu-intents.md).
 
 Here's an example of how intents can interact with the vocabulary in their training utterances.
 
@@ -60,7 +61,7 @@ In the following example procedure, you're creating an intent and adding utteran
 
 7.  In the **Create an intent** window, add a name and description for the intent.
 
-    ![Create an intent window. The intent name is required, but the description is optional.](../images/create-intent01.png "Creating an intent")
+    \[Omitted image "create-intent01.png"\] Alt text: Create an intent window. The intent name is required, but the description is optional.
 
     In this example scenario, you enter `PayDiscrepancy` for the name. You can also add a description.
 
@@ -76,16 +77,16 @@ In the following example procedure, you're creating an intent and adding utteran
 
     In this scenario, you add the following utterances into the field and select **Add**
 
-    ![Training utterance examples for the Pay Discrepancy intent. Add a minimum of 5 utterances to an intent.](../images/create-nlu-intent2.png)
+    \[Omitted image "create-nlu-intent2.png"\] Alt text: Training utterance examples for the Pay Discrepancy intent. Add a minimum of 5 utterances to an intent.
 
-    As you build and retrain your model iteratively, you can check how your updated intent affects the model's predictions. See [Train and try your NLU model](test-train-nlu-model.md).
+    As you build and retrain your model iteratively, you can check how your updated intent affects the model's predictions. See [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md).
 
 
 ## What to do next
 
-Train your model to save your updates. For issues with intents, see [Resolve intent issues](resolve-intent-issues.md).
+Train your model to save your updates. For issues with intents, see [Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/resolve-intent-issues.md).
 
-To improve your utterances, add entities to provide context. See [NLU entities](../concept/entities.md).
+To improve your utterances, add entities to provide context. See [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/entities.md).
 
-The available [Intent Discovery](../concept/intent-discovery.md) feature can help identify intents that would be possible to add, based on your historical data.
+The available [Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/intent-discovery.md) feature can help identify intents that would be possible to add, based on your historical data.
 

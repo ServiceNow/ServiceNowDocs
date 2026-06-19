@@ -2,6 +2,7 @@
 title: Request Software Spend Detection
 description: Request Software Spend Detection to track, analyze, and optimize software spending. To access Software Spend Detection, enable the Software Asset Management - Spend Detection \(com.sn\_sam\_spend\) plugin. This plugin includes demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/request-spend-detection.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ Request Software Spend Detection to track, analyze, and optimize software spendi
 
 Before you can request Software Spend Detection, you must sign the Software Spend Detection legal agreement. For more information about the Software Spend Detection legal agreement, contact your ServiceNow account representative.
 
-To use Software Spend Detection, you must activate the Software Asset Management Professional \(com.snc.samp\) plugin on your ServiceNow instance. For more information about activating Software Asset Management Professional, see [Request Software Asset Management](t_RequSoftwareAssetMgmt.md).
+To use Software Spend Detection, you must activate the Software Asset Management Professional \(com.snc.samp\) plugin on your ServiceNow instance. For more information about activating Software Asset Management Professional, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 **Note:** Software Spend Detection is not supported for on-premises users hosting their own ServiceNow instance.
 
@@ -57,7 +58,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -75,5 +76,5 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Software Spend Detection](../concept/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
 

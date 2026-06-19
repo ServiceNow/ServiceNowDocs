@@ -2,6 +2,7 @@
 title: Associate a number to a number group
 description: Associate a Notify number to a number group to use inbound and outbound workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_AssignANumberGroup.html
 release: australia
 product: Notify
 classification: notify
@@ -23,7 +24,7 @@ Role required: notify\_admin
 
 1.  Navigate to **All** &gt; **Notify** &gt; **Numbers**.
 
-    ![Notify Numbers module, which you can use to associate a Notify number to a number group](../image/Numbers.png)
+    \[Omitted image "Numbers.png"\] Alt text: Notify Numbers module, which you can use to associate a Notify number to a number group
 
 2.  Click the listed phone number and assign it to a **Number Group**, as appropriate.
 
@@ -41,5 +42,5 @@ Role required: notify\_admin
 3.  Click **Update**.
 
 
-**Parent Topic:**[Numbers and number groups](../concept/c_NumberGroups.md)
+**Parent Topic:**[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NumberGroups.md)
 

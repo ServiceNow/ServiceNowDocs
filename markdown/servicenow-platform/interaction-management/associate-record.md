@@ -2,6 +2,7 @@
 title: Associate a record with an interaction
 description: As an agent, you might need to create a record on another table to work on an interaction. You can associate the record with the interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/associate-record.html
 release: australia
 product: Interaction Management
 classification: interaction-management
@@ -29,7 +30,7 @@ Role required: interaction\_agent
 
 3.  Select **Associate Record**.
 
-    ![Interaction with Associate record button highlighted.](../image/associate-record.png)
+    \[Omitted image "associate-record.png"\] Alt text: Interaction with Associate record button highlighted.
 
 4.  In the Interaction Related Record form, fill in the fields:
 
@@ -43,14 +44,14 @@ Role required: interaction\_agent
 
 5.  Save the form.
 
-    ![Interaction related record form.](../image/interaction-related-record.png)
+    \[Omitted image "interaction-related-record.png"\] Alt text: Interaction related record form.
 
 
 ## Result
 
 Task type records associated will appear in the Related Tasks related list for the interaction.
 
-![Associated tasks are available under Related Tasks.](../image/associated-interaction.png)
+\[Omitted image "associated-interaction.png"\] Alt text: Associated tasks are available under Related Tasks.
 
-**Parent Topic:**[Using Interaction Management](../concept/using-interaction-management.md)
+**Parent Topic:**[Using Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/using-interaction-management.md)
 

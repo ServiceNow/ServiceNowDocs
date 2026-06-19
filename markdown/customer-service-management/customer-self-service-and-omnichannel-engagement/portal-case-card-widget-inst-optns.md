@@ -2,6 +2,7 @@
 title: Add and configure the Portal Case Cards widget
 description: Add a Portal Case Cards widget to your portal and modify its data, presentation, and behavior. You can use the Portal Case Cards widget to display status, priority, and other relevant details related to your cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-case-card-widget-inst-optns.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,9 +18,9 @@ Add a Portal Case Cards widget to your portal and modify its data, presentation,
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md)
+The UI Components for Customer Portals plugin must have been activated. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md)
 
-If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](create-page-configurable-portal-widget.md).
+If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
 Role required: sp\_admin
 
@@ -35,7 +36,7 @@ Role required: sp\_admin
 
 5.  In the Layouts section, drag the Container layout onto the portal edit page.
 
-6.  On the container, add a set of columns by selecting the plus button \(![Plus button](../image/portal-plus-icon.png)\).
+6.  On the container, add a set of columns by selecting the plus button \(\[Omitted image "portal-plus-icon.png"\] Alt text: Plus button\).
 
 7.  On the Widgets pane, in the **Filter Widget** field, enter `Portal Case Cards`.
 
@@ -43,11 +44,11 @@ Role required: sp\_admin
 
 9.  In the Edit page, select the Portal Case Cards widget.
 
-10. Select the Pencil icon \(![Pencil icon](../image/icon-pencil-ac.png)\).
+10. Select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
 11. If you want to use configured background and text colors to indicate the state of the cases displayed in the widget, enter JSON code in the following format in the **State Highlight Color** field and modify it with your desired colors.
 
-    The default text color for all case states is \#181A1F \(black\). If you create a state, the default highlight color is \#CBE9FC \(light blue\) and the text color is \#181A1F \(black\). For more information about the default color values, see [Default highlight color for different case states](../reference/portal-case-cards-widget-default-color.md).
+    The default text color for all case states is \#181A1F \(black\). If you create a state, the default highlight color is \#CBE9FC \(light blue\) and the text color is \#181A1F \(black\). For more information about the default color values, see [Default highlight color for different case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-case-cards-widget-default-color.md).
 
     ```
     [
@@ -84,11 +85,11 @@ Role required: sp\_admin
     ]
     ```
 
-    For &lt;value&gt;, enter an integer value of the case state for which you want to change the colors. For more information about finding this value, see [Display the integer values of all case states](integer-value-case-states.md).
+    For &lt;value&gt;, enter an integer value of the case state for which you want to change the colors. For more information about finding this value, see [Display the integer values of all case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/integer-value-case-states.md).
 
 12. On the Instance form, fill in the fields.
 
-    For a description of the field values, see [Portal Case Cards widget instance options form](../reference/r-port-case-cards-instan-options.md).
+    For a description of the field values, see [Portal Case Cards widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r-port-case-cards-instan-options.md).
 
 13. Select **Save**.
 

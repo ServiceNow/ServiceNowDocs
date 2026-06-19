@@ -2,6 +2,7 @@
 title: Getting started with Proofpoint integration for Data Loss Prevention
 description: The Proofpoint DLP integration supports the ingestion of Data Loss Prevention incidents created on the Proofpoint Data Loss Prevention tenant. After ingestion, the incident management functionalities that remediate the DLP incidents will be used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/getting-started-with-proofpoint-integration-dlp.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -63,5 +64,5 @@ Verify that the following DLP applications and security support common applicati
 -   Data Loss Prevention Incident Response
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](../concept/dlp-incident-response-integration-proofpoint.md)
+</table>**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)
 

@@ -2,6 +2,7 @@
 title: Utilize Manager Library
 description: Discover curated and personalised leadership resources for multiple departments and systems. Get tools and resources to efficiently manage your team and self.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/use-team-mh.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -37,6 +38,6 @@ Personalised and seasonally-based content from target communications and campaig
 
 5.  Click the quick links that navigate you through ServiceNow applications that are integrated with Manager Hub.
 
-    For more information, refer to [Integrate Manager Hub](../reference/integrate-mh-jc.md).
+    For more information, refer to [Integrate Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/integrate-mh-jc.md).
 
 

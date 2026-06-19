@@ -2,6 +2,7 @@
 title: Test the ADFS configuration
 description: Test your ADFS configuration to verify that it is properly functioning as an identity provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_TestTheADFSConfiguration.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,11 +2,14 @@
 title: Scan Engine definitions: User Experience
 description: Scan Engine user experience definitions evaluate the quality of user interactions with applications. Considers the ease of use, efficiency, design, responsiveness, accessibility, and its emotional and functional impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-user-experience.html
 release: australia
+product: Impact
+classification: impact
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 8
-breadcrumb: [View and modify Scan Engine definitions, Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # Scan Engine definitions: User Experience
@@ -79,7 +82,7 @@ Use OOB methods such as **g\_form.addInfoMessage**\(\) and **g\_form.showFieldMs
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_GlideModalV3API.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_GlideModalV3API)
 
 </td></tr><tr><td>
 
@@ -111,7 +114,7 @@ Deactivate the module.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=test-steps-app-navigator-category.html)
+[Documentation](https://www.servicenow.com/docs/access?context=test-steps-app-navigator-category)
 
 </td></tr><tr><td>
 
@@ -207,7 +210,7 @@ Update the list view to show something other than a reference field as its first
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ConfigureTheListLayout.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ConfigureTheListLayout)
 
 </td></tr><tr><td>
 
@@ -239,7 +242,7 @@ Add a hint describing any pertinent information about the field to help the end 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ChangeFieldLabelOrHint.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ChangeFieldLabelOrHint)
 
 </td></tr><tr><td>
 
@@ -271,7 +274,7 @@ Review the catalog item to determine the appropriate keywords for the catalog it
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=search-catalog-item.html)
+[Documentation](https://www.servicenow.com/docs/access?context=search-catalog-item)
 
 </td></tr><tr><td>
 
@@ -303,7 +306,7 @@ Enable dirty form support by setting the property **glide.ui.dirty\_form\_suppor
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_AvailableSystemProperties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties)
 
 </td></tr><tr><td>
 
@@ -335,7 +338,7 @@ Update the value on the **glide.ui.max\_ref\_dropdown** system property to be le
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_DisplayTheRefFieldAsAChoiceList.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_DisplayTheRefFieldAsAChoiceList)
 
 </td></tr><tr><td>
 
@@ -367,7 +370,7 @@ The value of "**glide.ui.html.editor**" should be set to "tinymce".
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_UseHTMLFields.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_UseHTMLFields)
 
 </td></tr><tr><td>
 
@@ -399,7 +402,7 @@ Review the attachment size and determine if allowing more than a 5GB attachment 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_AvailableSystemProperties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties)
 
 </td></tr><tr><td>
 
@@ -431,7 +434,7 @@ Replace inactive recipients or set notifications to be sent to groups that are m
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=notifications.html)
+[Documentation](https://www.servicenow.com/docs/access?context=notifications)
 
 </td></tr><tr><td>
 
@@ -463,7 +466,7 @@ Review this group to understand why the roles have not been inherited from the p
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateAGroup.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAGroup)
 
 </td></tr><tr><td>
 
@@ -495,7 +498,7 @@ The following Conflict Detection property should be set to **true**: change.conf
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-conflict-properties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-conflict-properties)
 
 </td></tr><tr><td>
 
@@ -527,7 +530,7 @@ The following Conflict Detection property should be set to **true**: change.conf
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-conflict-properties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-conflict-properties)
 
 </td></tr><tr><td>
 
@@ -559,7 +562,7 @@ The following Conflict Detection system property should be set to **true**: chan
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-conflict-properties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-conflict-properties)
 
 </td></tr><tr><td>
 
@@ -591,7 +594,7 @@ The following Conflict Detection property should be set to **true**: change.conf
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-conflict-properties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-conflict-properties)
 
 </td></tr><tr><td>
 
@@ -623,7 +626,7 @@ Assign a manager to the group.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateAGroup.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAGroup)
 
 </td></tr><tr><td>
 
@@ -655,7 +658,7 @@ Differentiate the order on the UI Policies to ensure UI Policies are always fire
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateAUIPolicy.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAUIPolicy)
 
 </td></tr><tr><td>
 
@@ -691,7 +694,7 @@ Records you need access to could be filtered out unknowingly.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_RestrictBreadcrmbsWFixedQueries.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_RestrictBreadcrmbsWFixedQueries)
 
 </td></tr><tr><td>
 
@@ -723,7 +726,7 @@ Although duplicate numbers are rare, numbering does not enforce uniqueness, by d
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_EnforcingUniqueNumbering.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_EnforcingUniqueNumbering)
 
 </td></tr><tr><td>
 
@@ -755,7 +758,7 @@ Reduce the length of module titles.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=test-steps-app-navigator-category.html)
+[Documentation](https://www.servicenow.com/docs/access?context=test-steps-app-navigator-category)
 
 </td></tr><tr><td>
 
@@ -787,7 +790,7 @@ Add a Name and Short Description when configuring Catalog Items.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_DefineACatalogItem.html%23t_DefineACatalogItem)
+[Documentation](https://www.servicenow.com/docs/access?context=t_DefineACatalogItem)
 
 </td></tr><tr><td>
 
@@ -819,7 +822,7 @@ Add users to the group or set the group to inactive.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_AddAUserToAGroup.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup)
 
 </td></tr><tr><td>
 
@@ -851,7 +854,7 @@ Review the purpose of each field configured on a form and decide whether or not 
 
 </td><td>
 
-[Documentation](https://docs.servicenow.com/csh?topicname=configure-form-layout.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-form-layout)
 
 </td></tr><tr><td>
 
@@ -883,7 +886,7 @@ Use the condition builder to dynamically change what fulfillment instructions ap
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=hr-fulfillment-instructions.html)
+[Documentation](https://www.servicenow.com/docs/access?context=hr-fulfillment-instructions)
 
 </td></tr><tr><td>
 
@@ -915,7 +918,7 @@ Review number of related lists and determine which lists are required.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_RelatedLists.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_RelatedLists)
 
 </td></tr><tr><td>
 
@@ -947,7 +950,7 @@ Review the content contained within knowledge articles older than 12 months and 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_RetiredKnowledgeArticles.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_RetiredKnowledgeArticles)
 
 </td></tr><tr><td>
 
@@ -1011,7 +1014,7 @@ In the Columns window that opens after you select Choose columns, select fields 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateAListReport.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAListReport)
 
 </td></tr><tr><td>
 
@@ -1043,7 +1046,7 @@ Update the KB article to populate relevant fields \(Short Description, Category,
 
 </td><td>
 
-[Documentation](http://docs.servicenow.com/csh?topicname=t_CreateAKnowledgeArticle.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAKnowledgeArticle)
 
 </td></tr><tr><td>
 
@@ -1075,7 +1078,7 @@ Set the breakdown source to active so the breakdown it is defined in can properl
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_DefiningABreakdownSource.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_DefiningABreakdownSource)
 
 </td></tr><tr><td>
 
@@ -1107,7 +1110,7 @@ Set the UI type field to "All".
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_CatalogClientScriptCreation.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_CatalogClientScriptCreation)
 
 </td></tr><tr><td>
 
@@ -1139,7 +1142,7 @@ Use the method **gs.getProperty**\(**__instance\_name__**\); to dynamically retr
 
 </td><td>
 
-[Documentation](https://docs.servicenow.com/csh?topicname=c_GlideSystemScopedAPI.html&version=latest%23title_r_ScopedGlideSystemGetProperty_String_Object)
+[Documentation](https://www.servicenow.com/docs/access?context=c_GlideSystemScopedAPI)
 
 </td></tr><tr><td>
 
@@ -1171,7 +1174,7 @@ Adjust the "**glide.integrations.active.session.life\_span**" property to have a
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=managing-integration-sessions.html)
+[Documentation](https://www.servicenow.com/docs/access?context=managing-integration-sessions)
 
 </td></tr><tr><td>
 
@@ -1203,7 +1206,7 @@ Use the Widget Picker to add widgets to your dashboard.
 
 </td><td>
 
-[Documentation](https://docs.servicenow.com/csh?topicname=c_Widgets.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_Widgets)
 
 </td></tr><tr><td>
 
@@ -1235,7 +1238,7 @@ First, upload an image by navigating to System UI &gt; Images &gt; New. Once upl
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=customize-favicon.html)
+[Documentation](https://www.servicenow.com/docs/access?context=customize-favicon)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Assign roles and responsibilities to recovery teams
 description: Identify individuals and groups and assign them to the recovery team so that they are aware of their roles and the responsibilities of the role to act in a crisis situation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/roles-responsibility-bcp-recovery-team.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Business continuity planning workspace guides you step by step to complete your 
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the lists icon \(![Lists icon](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
 3.  Click **In Draft** state in the Planning list.
 

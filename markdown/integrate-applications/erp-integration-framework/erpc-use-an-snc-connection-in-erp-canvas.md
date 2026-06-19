@@ -2,6 +2,7 @@
 title: Use an SNC \(Secure Network Communication\) connection in Zero Copy Connector for ERP
 description: Use Secure Network Communication \(SNC\) for data communications between ServiceNow MID Server and SAP systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -24,12 +25,12 @@ SNC is used to:
 -   Check data integrity: Integrity checks confirm that the data isn't altered during transmission, protecting against tampering.
 -   Authenticate communication parties: SNC provides strong authentication methods to verify the identities of the entities involved in the communication.
 
-## SNC Architecture
+## SNC architecture
 
 SNC operates within the SAP NetWeaver Application Server \(AS\) environment. It uses the GSS-API \(Generic Security Services Application Program Interface\) to integrate with external security libraries and products. Commonly used security libraries include Kerberos-based solutions and SAP's own Secure Login Library \(SLL\).
 
--   **[Configure an SNC connection in Zero Copy Connector for ERP](../task/erpc-configure-an-snc-connection-in-erp-canvas.md)**  
+-   **[Configure an SNC connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.md)**  
 Learn how to set up an SNC connection, including preparing the environment, configuring the SAP system, and testing the configuration.
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

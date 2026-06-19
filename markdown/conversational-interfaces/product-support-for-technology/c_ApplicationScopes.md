@@ -2,11 +2,12 @@
 title: Application scopes
 description: To upload and distribute custom applications on the ServiceNow Store, you need to create a private scope for your applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/c\_ApplicationScopes.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Installing Proactive Triggers, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---

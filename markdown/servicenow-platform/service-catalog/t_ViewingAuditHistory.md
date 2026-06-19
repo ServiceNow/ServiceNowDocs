@@ -2,6 +2,7 @@
 title: View catalog item audit history
 description: You can view the audit history of changes to items you requested. For example, you can view changes to variable values to find out who made the changes. Fulfillers and administrators can view history for any requested item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/t\_ViewingAuditHistory.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -23,7 +24,7 @@ Role required: admin \(history list or calendar\), itil \(calendar only\)
 
 1.  Complete one of the following actions for the history to view.
 
-<table id="choicetable_hhm_zwm_wcb"><tbody><tr><td id="d601936e62">
+<table id="choicetable_hhm_zwm_wcb"><tbody><tr><td id="d350875e62">
 
 **View history for your requested items**
 
@@ -31,7 +32,7 @@ Role required: admin \(history list or calendar\), itil \(calendar only\)
 
 Navigate to **Self-Service** &gt; **Requested Items** and open the item you requested.
 
-</td></tr><tr><td id="d601936e80">
+</td></tr><tr><td id="d350875e80">
 
 **View history for any requested item**
 
@@ -47,5 +48,5 @@ Navigate to **Service Catalog** &gt; **Open Records** &gt; **Items** and open th
 3.  Click the day number to get a view of the changes for that day, or click the week number to get the week view.
 
 
-**Parent Topic:**[Service Catalog for managers and end users](../concept/c_UsingTheServiceCatalog.md)
+**Parent Topic:**[Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 

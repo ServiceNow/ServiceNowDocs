@@ -2,13 +2,14 @@
 title: Insurance claims
 description: The ServiceNow Insurance claims application provides a flexible framework that enables you to set up a comprehensive end-to-end claims workflow easily. A travel insurance claim flow is included as an example in this application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/insurance-claims-flow.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Insurance claims
@@ -19,19 +20,19 @@ The ServiceNow® Insurance claims application provides a flexible framework that
 
 <table id="table_hnk_51j_4cc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how to use Insurance claims](exploring-insurance-claims-flow.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how to use Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/exploring-insurance-claims-flow.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up Insurance claims](setting-up-insurance-claims-flow.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/setting-up-insurance-claims-flow.md)
 
 </td></tr><tr><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-business-management.svg)Learn how to manage cases in Insurance claims](using-insurance-claims-flow.md)
+[Manage\[Omitted image "bus-business-management.svg"\] Alt text:Learn how to manage cases in Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/using-insurance-claims-flow.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get the details about components such as roles, tables, plugins, and store applications that are installed](insurance-claims-flow-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get the details about components such as roles, tables, plugins, and store applications that are installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/insurance-claims-flow-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

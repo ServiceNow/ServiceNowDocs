@@ -2,6 +2,7 @@
 title: GlideappCalculationHelper - Global
 description: The GlideappCalculationHelper API is a scriptable object that provides methods that add items to an existing request or request the recalculation of the price of a request.Adds a specific catalog item to an existing request. This API should be used only before a request \(REQ\) is approved. After the REQ is approved, the RITM process is not initiated.Recalculates the price of all of the items in a specified request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideappCalcHelperAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideappCalculationHelper API is a scriptable object that provides methods t
 
 The methods for this API are used in global server-side scripts \(script includes, business rules, etc.\). There is currently no support for scoped applications.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideappCalculationHelper - addItemToExistingRequest\(String requestID, String catalogID, String quantity\)
 

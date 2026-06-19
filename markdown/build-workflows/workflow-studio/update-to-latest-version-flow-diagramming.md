@@ -2,6 +2,7 @@
 title: Update to the latest version of Flow Diagramming
 description: Flow diagramming is automatically installed on your instance as a dependency of Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/update-to-latest-version-flow-diagramming.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

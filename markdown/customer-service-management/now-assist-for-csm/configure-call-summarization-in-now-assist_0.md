@@ -2,6 +2,7 @@
 title: Configure call summarization
 description: Configure Call Summarization to automatically generate summaries of agent-customer calls within the Active Chat window to capture key details for better agent follow-up and record keeping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/configure-call-summarization-in-now-assist\_0.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -26,12 +27,12 @@ Call summarization is generated from the information that you enter in the follo
 -   Chat Summary \(automatically populated at the end of call\)
 -   Integration setup:
 
-    **Note:** Verify that your telephony or call center system is integrated with ServiceNow if call data needs to be captured directly. For more information, see [Interaction Controls Component \(ICC\) for voice calls](../concept/contact-center-integration-with-icc.md) and [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](../concept/interaction-controls-component-icc-callback-integration-features.md).Additionally, set your status as **Available** in CSM Configurable Workspace to be able to receive call requests from customers.
+    **Note:** Verify that your telephony or call center system is integrated with ServiceNow if call data needs to be captured directly. For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md) and [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-callback-integration-features.md).Additionally, set your status as **Available** in CSM Configurable Workspace to be able to receive call requests from customers.
 
 
 Any modifications to the names or labels of these fields can result in issues with summarization generation.
 
-**Note:** You cannot modify a skill's input data source in base system. However, you can [clone the skill](../concept/clone-the-now-assist-for-csm-skills.md#) in Now Assist Skill Kit.
+**Note:** You cannot modify a skill's input data source in base system. However, you can [clone the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) in Now Assist Skill Kit.
 
 ## Procedure
 

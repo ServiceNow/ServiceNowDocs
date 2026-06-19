@@ -2,6 +2,7 @@
 title: Inventory asset creation
 description: Inventory assets are not created upfront when fixed assets are created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/inventory-asset-creation.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -38,9 +39,9 @@ To view the asset related list, navigate to **Asset** &gt; **Portfolios** &gt; *
 |Recipient|Recipient of the asset.|
 |Received|Date when the asset was received.|
 
-For more information on asset creation, see [Create assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/t_CreatingAssets.md).
+For more information on asset creation, see Create assets.
 
 A fixed asset related list has also been added. It displays the fixed asset that is associated with this inventory asset if a capitalization policy was satisfied.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

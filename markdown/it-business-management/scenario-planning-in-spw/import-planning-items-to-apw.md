@@ -2,6 +2,7 @@
 title: Import records to Strategic Planning Workspace
 description: Import records from Agile Development 2.0, after the relevant table maps, fields maps, and choice maps are configured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/import-planning-items-to-apw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -29,7 +30,7 @@ Role required: sn\_align\_core.apw\_admin
 
 4.  On the Create Import Request form, fill in the date range for importing the records.
 
-    ![Fill in the dates to import records.](../images/create-import-request.png "Create Import Request")
+    \[Omitted image "create-import-request.png"\] Alt text: Fill in the dates to import records.
 
 5.  Select **OK**.
 

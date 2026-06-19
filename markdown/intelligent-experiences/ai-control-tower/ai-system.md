@@ -2,6 +2,7 @@
 title: AI systems
 description: Explore the AI systems in detail with examples.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-system.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

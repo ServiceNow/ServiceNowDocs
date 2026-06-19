@@ -2,6 +2,7 @@
 title: Configuring Telecommunications Service Operations Management
 description: Configure Telecommunications Service Operations Management \(TSOM\) to enable real-time event ingestion, correlation, and automated remediation by integrating with external network monitoring and discovery systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -26,12 +27,12 @@ Telecommunications Service Operations Management \(TSOM\) requires configuring m
     |Name|ID|Product/Service|
     |----|---|---------------|
     |TSOM Event Management Connectors|sn\_tsom\_em\_connectors|Telecom Assurance|
-    |Service Graph Connector for Fortinet|sn\_tsom\_fortinet\_connector|Telecom Visibility|
-    |Service Graph Connector for Meraki|sn\_tsom\_meraki\_connector|Telecom Visibility|
-    |Service Graph Connector for VeloCloud|sn\_tsom\_vcloud\_connector|Telecom Visibility|
+    |Service Graph Connector for Fortinet Telco SD-WAN|sn\_tsom\_fortinet\_connector|Telecom Visibility|
+    |Service Graph Connector for Meraki Telco SD-WAN|sn\_tsom\_meraki\_connector|Telecom Visibility|
+    |Service Graph Connector for VeloCloud Telco SD-WAN|sn\_tsom\_vcloud\_connector|Telecom Visibility|
 
-2.  Enable alarm ingestion: Activate the Telecommunications API notifications and set up topic subscriptions to receive alarms from external systems. For more information, see [Configuring Telecommunications API notifications](configuring-telecommunications-api-notifications.md).
-3.  Set up visibility or Event Management by following the appropriate setup wizards. See [Configure Telecom Visibility](../task/configuring-tsom-visibility.md) and [Fault Management: Events and alerts](fault-management-events-and-alerts.md).
+2.  Enable alarm ingestion: Activate the Telecommunications API notifications and set up topic subscriptions to receive alarms from external systems. For more information, see [Configuring Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-telecommunications-api-notifications.md).
+3.  Set up visibility or Event Management by following the appropriate setup wizards. See [Configure Telecom Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/configuring-tsom-visibility.md) and [Fault Management: Events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/fault-management-events-and-alerts.md).
 
 Each step is modular and can be configured based on your environment and available integrations.
 

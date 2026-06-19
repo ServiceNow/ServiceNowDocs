@@ -2,6 +2,7 @@
 title: Specify metric rule CI
 description: Choose an application or device and define filter conditions for the metric rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/specify-metric-rule-applications.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the Alert rules card.
 
@@ -71,5 +72,5 @@ Role required: sn\_dex.admin
 
 ## What to do next
 
-[Define alert criteria](define-alert-metric-criteria.md).
+[Define alert criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/define-alert-metric-criteria.md).
 

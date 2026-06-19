@@ -2,6 +2,7 @@
 title: Technical Service Qualification Open API
 description: The Technical Service Qualification Open API provides endpoints to check the availability of resources and services before submitting orders for fulfillment.Retrieves a technical qualification request that is associated with a given customer order ID.Retrieves a list of all technical qualification requests.Creates a technical service qualification request entity containing a list of qualification items.Processes a technical service qualification result sent to the Technical Service Qualification Open API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/ts-qualification-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -15,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Technical Service Qualification Open API provides endpoints to check the availability of resources and services before submitting orders for fulfillment.
 
-This API is a ServiceNow implementation of the TMF645 Service Qualification API REST Specification. For more information about service qualification requests, see [Service qualification requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-tsq-about.md).
+This API is a ServiceNow implementation of the TMF645 Service Qualification API REST Specification. For more information about service qualification requests, see .
 
 The Technical Service Qualification Open API is provided within the `sn_ord_qual_mgmt` namespace and requires the following plugins:
 
@@ -27,7 +28,7 @@ The Technical Service Qualification Open API is provided within the `sn_ord_qual
 
 The sn\_ind\_tmt\_orm.order\_integrator role is required to use this API.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Technical Service Qualification Open API - GET sn\_ord\_qual\_mgmt/qualification/checkServiceQualification/\{id\}
 
@@ -73,7 +74,7 @@ Table: Customer Order \[sn\_ind\_tmt\_orm\_order\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -98,7 +99,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 | | |
 |---|---|
@@ -995,7 +996,7 @@ Filters qualification orders by state. Only orders with a state matching the val
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1020,7 +1021,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_wwn_rhd_ct"><thead><tr><th>
 
@@ -2313,7 +2314,7 @@ Optional. External version of the service specification.Data Type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2346,7 +2347,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_fbw_k3z_gsb"><thead><tr><th>
 
@@ -3856,7 +3857,7 @@ Stored in: The result field of the Domain Order table \[sn\_ind\_tmt\_orm\_servi
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3881,7 +3882,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_wwn_rhd_ct"><thead><tr><th>
 

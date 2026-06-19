@@ -2,6 +2,7 @@
 title: Microsoft Azure Out Of Box permissions
 description: Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/azure-oob-permissions.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -213,5 +214,5 @@ Microsoft.ResourceGraph
 resources/\*
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+</table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

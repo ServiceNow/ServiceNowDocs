@@ -2,6 +2,7 @@
 title: Now Assist for Automation Center properties
 description: You can access system properties for Now Assist for Automation Center by navigating to All System properties All properties . Then, filter the results by Now Assist for Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/system-properties.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -54,5 +55,5 @@ Defines the maximum number of automations that can be selected at once for calcu
 -   Default value: **10**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference](../concept/reference.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/reference.md)
 

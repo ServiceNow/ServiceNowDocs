@@ -2,6 +2,7 @@
 title: GlideCurrencyCode - Scoped, Global
 description: The GlideCurrencyCode API provides methods to convert between ISO 4217 alphabetic and numeric codes for a currency.Returns the corresponding alphabetic currency code for a given numeric currency code.Returns the corresponding numeric currency code for a given alphabetic currency code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideCurrencyCodeBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ Use this API to work with third-party APIs that use numeric currency codes, such
 
 This API requires the FX Currency \(com.glide.currency2\) plugin, which is available by default. This API is provided within the `sn_currency` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencyCode - getCurrencyCode\(String numberCode\)
 

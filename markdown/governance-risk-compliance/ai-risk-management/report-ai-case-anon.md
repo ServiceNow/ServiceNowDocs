@@ -1,19 +1,21 @@
 ---
 title: Report an AI case anonymously
-description: Report an AI case by describing the issue, affected users, and any relevant data.
+description: Report an AI case without revealing your identity using the Anonymous Reporting Center. Your name and contact details are not shared with investigators. Save the report key and report number provided after submission to track updates or provide additional information later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/report-ai-case-anon.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
+keywords: [report AI case anonymously, anonymous AI case, anonymous report center, AI case reporting]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Report an AI case anonymously
 
-Report an AI case by describing the issue, affected users, and any relevant data.
+Report an AI case without revealing your identity using the Anonymous Reporting Center. Your name and contact details are not shared with investigators. Save the report key and report number provided after submission to track updates or provide additional information later.
 
 ## Before you begin
 
@@ -33,15 +35,15 @@ The Report an AI case record producer within the AI Case Management application 
 
 1.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_npy_jjm_23c"><thead><tr><th align="left" id="d140025e92">
+<table id="choicetable_npy_jjm_23c"><thead><tr><th align="left" id="d81609e104">
 
 Option
 
-</th><th align="left" id="d140025e95">
+</th><th align="left" id="d81609e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140025e101">
+</th></tr></thead><tbody><tr><td id="d81609e113">
 
 **Direct portal access**
 
@@ -51,7 +53,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d140025e125">
+</td></tr><tr><td id="d81609e137">
 
 **Employee center access**
 
@@ -72,13 +74,13 @@ Description
 
 2.  Select **Report an AI case** and on the form, fill in the fields.
 
-    For full descriptions of the fields, see [Report an AI case form](../reference/report-anon-ai-case-form.md).
+    For full descriptions of the fields, see [Report an AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-anon-ai-case-form.md).
 
 3.  Enter the CAPTCHA verification code on the screen.
 
 4.  Select **Submit**.
 
-    After you submit an anonymous AI case, the system generates a report number and a private report key. Save this information securely. You need the report key to check status updates or provide additional information later. If you lose the report key, it can’t be recovered and the case can’t be identified or retrieved on your behalf. You need this information to follow up on a case. For more information, see [Follow up on a report from the Anonymous Reporting Center](follow-up-anonymously.md).
+    After you submit an anonymous AI case, the system generates a report number and a private report key. Save this information securely. You need the report key to check status updates or provide additional information later. If you lose the report key, it can’t be recovered and the case can’t be identified or retrieved on your behalf. You need this information to follow up on a case. For more information, see [Follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/follow-up-anonymously.md).
 
 5.  To save a PDF copy of your report, select **Download report copy**.
 
@@ -95,12 +97,12 @@ A user with the AI Risk and Compliance Analyst role \[sn\_grc\_ai\_gov.ai\_risk\
 
 AI cases are managed through AI Case Management within AI Risk and Compliance to help ensure consistent tracking, investigation, and resolution of AI‑related issues.
 
-After an AI case is created and enters the New state, the next step is Triage, where the AI Risk and Compliance team reviews the case to validate scope, assess severity, and determine the appropriate course of action. Depending on the outcome of triage, the team may initiate an assessment. For more information, see [Initiate AI assessment on an AI asset](initiate-assessment-on-an-ai-asset.md).
+After an AI case is created and enters the New state, the next step is Triage, where the AI Risk and Compliance team reviews the case to validate scope, assess severity, and determine the appropriate course of action. Depending on the outcome of triage, the team may initiate an assessment. For more information, see [Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md).
 
--   **[Report an AI case form](../reference/report-anon-ai-case-form.md)**  
+-   **[Report an AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-anon-ai-case-form.md)**  
 Use the Report an AI case form in the Anonymous Report Center to report an AI case with the necessary details. After you submit the AI case report, mandatory fields and input format are validated before submission.
--   **[Follow up on a report from the Anonymous Reporting Center](follow-up-anonymously.md)**  
+-   **[Follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/follow-up-anonymously.md)**  
 After you submit an anonymous report, save the **Report key** and **Report number**. Use these reference numbers to follow up or address comments on your case anonymously.
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

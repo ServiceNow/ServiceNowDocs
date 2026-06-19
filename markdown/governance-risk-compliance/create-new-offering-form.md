@@ -2,6 +2,7 @@
 title: Create New Offering form
 description: Use the Create New Offering form in Operational Resilience Workspace to set up a service offering and configure its related information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-offering-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

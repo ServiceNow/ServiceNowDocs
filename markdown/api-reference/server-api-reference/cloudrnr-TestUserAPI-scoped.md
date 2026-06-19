@@ -2,6 +2,7 @@
 title: Cloud Runner TestUserApi – Scoped, Global
 description: Manages test user jobs to be executed in a cloud runner for Automated Test Framework \(ATF\). This API is part of the CloudRunnerApi script include.Sets the test user job status in the Browser Orchestration Queue \[sn\_atf\_tg\_sn\_boq\] table to complete.Checks whether a provided user is a valid cloud user.Provides the status of each user test for a provided Browser Orchestration Queue \(BOQ\) record.Starts an end-to-end test user job on cloud runner. If the user is able to log in correctly with the admin role, then the cloud user property is set as this user for future test runs and test generations on the cloud runner infrastructure.Starts an end to end test user job on cloud runner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/cloudrnr-TestUserAPI-scoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -23,15 +24,15 @@ You can use this API for the following tasks:
 -   Check the progress of the user test job.
 -   Cancel the test job.
 
-In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-intro.md) \(sn\_atf\_tg\) plugin activated to use this API.
+In global scope, this API is executed within the sn\_atf\_tg namespace. You must have the  \(sn\_atf\_tg\) plugin activated to use this API.
 
 See also:
 
--   [Cloud Runner TestGenerationApi – Scoped, Global](../../CloudRunnerAPI-TestGenerationAPIScoped/concept/cloudrnr-TestGenerationAPI-scoped.md#)
--   [Cloud Runner TestRunnerApi – Scoped, Global](../../CloudRunnerAPI-TestRunnerAPIScoped/concept/cloudrnr-TestRunnerAPI-scoped.md#)
--   [Cloud Runner Test Runner REST API](../../../../../integrate/inbound-rest/concept/cloudrunner-testrunner-api.md#)
+-   [Cloud Runner TestGenerationApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.md)
+-   [Cloud Runner TestRunnerApi – Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/cloudrnr-TestRunnerAPI-scoped.md)
+-   [Cloud Runner Test Runner REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cloudrunner-testrunner-api.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## TestUserApi – cancelJob\(String snboqId\)
 

@@ -2,6 +2,7 @@
 title: Microsoft Azure Resource Management Spoke
 description: Azure Resource Management enables you to create, update, and delete the resources in your Microsoft Azure subscription from within ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azure-res-mngmt-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Azure Resource Management enables you to create, update, and delete the resource
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## IntegrationHub subscription
 
@@ -36,7 +37,7 @@ These spokes depend on the installation of the Microsoft Azure Resource Manageme
 
 ## Spoke version
 
-Microsoft Azure Resource Management spoke v2.0.0 is the latest version.
+Microsoft Azure Resource Management spoke v2.1.0 is the latest version.
 
 ## Spoke dependencies
 
@@ -70,5 +71,5 @@ The Microsoft Azure Resource Management spoke provides actions to automate the r
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Microsoft Azure Resource Management spoke](../task/setup-res-mngmt.md#).
+For information about setting up the spoke, see [Set up the Microsoft Azure Resource Management spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-res-mngmt.md).
 

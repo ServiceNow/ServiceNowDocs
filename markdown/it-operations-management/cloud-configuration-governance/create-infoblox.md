@@ -2,11 +2,12 @@
 title: Register an Infoblox server
 description: To integrate with Infoblox, you must create an Infoblox record and associate it with the appropriate credentials to register your Infoblox server with the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-infoblox.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [IPAM integration, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -18,7 +19,7 @@ To integrate with Infoblox, you must create an Infoblox record and associate it 
 ## Before you begin
 
 -   Role required: sn\_cmp.cloud\_admin
--   Create [Infoblox credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/infoblox-creds.md).
+-   Create Infoblox credentials.
 
 ## Procedure
 

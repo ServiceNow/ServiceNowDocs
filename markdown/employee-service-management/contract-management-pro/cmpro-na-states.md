@@ -2,6 +2,7 @@
 title: Contract analysis states in Now Assist in Contract Management
 description: The Now Assist in Contract Management analysis follows a workflow and moves through a series of states, which are displayed in the contract request. The contract analysis details are available in the activity stream and are also communicated by an email notification to the contract fulfiller, contract collaborator, and assignment group manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-states.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -36,5 +37,5 @@ The following table describes the status of the documents in the Analyze contrac
 |Analysis in progress|Now Assist analysis is in progress.|
 |Error|Error occurred while evaluating the details for the contract analysis.|
 
-**Parent Topic:**[Contract analysis using Now Assist in Contract Management](../concept/cncore-NA-review-land.md)
+**Parent Topic:**[Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 

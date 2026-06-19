@@ -2,9 +2,10 @@
 title: Configure Platform Analytics dashboard settings
 description: You can set refresh interval details and background colors, enable data caching to speed page refreshes, and choose which Insights cards to show.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-ac-db-settings.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-11"
 reading_time_minutes: 3
 keywords: [How to schedule dashboard refresh interval, How to change dashboard background colors, Where to set up dashboard insights]
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -16,7 +17,7 @@ You can set refresh interval details and background colors, enable data caching 
 
 ## Before you begin
 
-Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](../../par-for-workspace/concept/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Additionally, dashboard\_admin is required to schedule automated refreshes even of dashboards that you own.
+Role required: dashboard\_admin for all dashboards, or any role for dashboards that you own or ones that you have been given the right to edit. See [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/pa-dashboard-roles.md) for more information about viewing and editing rights on dashboards. Additionally, dashboard\_admin is required to schedule automated refreshes even of dashboards that you own.
 
 ## Procedure
 
@@ -26,9 +27,9 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
 3.  Select **Edit** to enter editing mode.
 
-4.  Select the settings button \(![Settings icon](../image/icon-cogwheel-ac.png)\) to open the **Settings** panel.
+4.  Select the settings button \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Settings icon\) to open the **Settings** panel.
 
-    ![Dashboard settings panel.](../../par-for-workspace/image/dashboard-settings.png)
+    \[Omitted image "dashboard-settings.png"\] Alt text: Dashboard settings panel.
 
 5.  Change any of the following settings.
 
@@ -36,19 +37,26 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
         Users with the dashboard\_admin role or higher can configure automatic refreshes of the dashboard.
 
-        -   Select **Show refresh information** to display the last time the dashboard was refreshed under the dashboard title. This information updates when the dashboard is automatically refreshed and when a user selects the refresh button \(![Refresh icon](../image/icon-db-refresh.png)\).
-        -   Select **Scheduled repetition** to specify in minutes or hours how often the dashboard is reloaded. Applies only while the dashboard is open. Requires the dashboard\_admin or higher.
+        -   **Show refresh information**
+
+            Displays the last time the dashboard was refreshed under the dashboard title. This information updates when the dashboard is automatically refreshed and when a user selects the refresh button \[Omitted image "icon-db-refresh.png"\].
+
+        -   **Scheduled repetition**
+
+            Specify in minutes or hours how often the dashboard is reloaded. Applies only while the dashboard is open. When you navigate away from the dashboard, including opening a new browser or browser tab, the interval is paused until you return to the dashboard. Requires the dashboard\_admin or higher.
 
             **Note:**
 
             Do not confuse this setting with the **Refresh after being away for X minutes** option on data visualizations. This latter option takes effect when you navigate away from a dashboard containing the data visualization to another page in the same workspace or experience. If you navigate back to the dashboard after the specified number of minutes, the data visualization automatically refreshes.
 
-        -   Select **Enable data cache** to shorten the load time on page refreshes for data visualizations based on table or indicator data. Data caching also applies to indicator scorecards. The dashboard uses the cached data instead of querying the database when the page is refreshed.
+        -   **Enable data cache**
+
+            shorten the load time on page refreshes for data visualizations based on table or indicator data. Data caching also applies to indicator scorecards. The dashboard uses the cached data instead of querying the database when the page is refreshed.
 
             **Note:**
 
-            -   Enabling **Scheduled repetition** disables data caching and vice versa.
-            -   Enabling **Real time update** or **Refresh after being away for X min** on a data visualization overrides caching for that visualization. If this option is subsequently disabled, the currently cached value is shown, if it hasn't expired.
+            -   Enabling **Scheduled repetition** turns off data caching and vice versa.
+            -   Enabling **Real time update** or **Refresh after being away for X min** on a data visualization overrides caching for that visualization. If this option is subsequently turned off, the currently cached value is shown, if it hasn't expired.
             Data caches have an expiration time. When the page is refreshed and the cached data has expired, fresh data is queried and cached. When data caching is enabled, you can set the length of time for cached data to be valid in **Cached expiration time**. Options are 1, 2, 4, 8, 12, or 24 hours.
 
             You can manually refresh the cached data for either the whole dashboard or a data visualization by refreshing either the dashboard or the visualization, respectively.
@@ -63,6 +71,6 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
     -   Choose whether and which analytics to show in the **Insights** section.
 
-        When you select **Show insights panel**, an **Insights** button is added to the dashboard. When a viewer presses this button, insights cards corresponding to the selected analytics options are shown. For more information, see [Proactive analytics insights on dashboards](../../par-for-workspace/concept/proactive-analytics.md).
+        When you select **Show insights panel**, an **Insights** button is added to the dashboard. When a viewer presses this button, insights cards corresponding to the selected analytics options are shown. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/proactive-analytics/proactive-analytics.md).
 
 

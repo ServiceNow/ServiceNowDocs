@@ -2,6 +2,7 @@
 title: Configure the memory limit of the Informer pod
 description: Set the memory limit of the Kubernetes Visibility Agent Informer pod.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-informer-memory.html
 release: australia
 product: Discovery
 classification: discovery
@@ -80,5 +81,5 @@ Minimum memory limit
         ```
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
 

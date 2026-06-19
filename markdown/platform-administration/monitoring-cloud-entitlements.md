@@ -2,6 +2,7 @@
 title: Monitoring cloud capacity in Subscription Management
 description: View an account-level summary of your cloud capacity and track usage across all the instances associated with your account in Subscription Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/monitoring-cloud-entitlements.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -20,7 +21,7 @@ View an account-level summary of your cloud capacity and track usage across all 
 -   View the available cloud capacity across all your instances.
 -   Stay in compliance by monitoring excess cloud capacity consumption.
 
-![Cloud entitlements.](../image/subscription-management-cloud-account.png "Cloud capacity")
+\[Omitted image "subscription-management-cloud-account.png"\] Alt text: Cloud entitlements.
 
 ## Required ServiceNow AI Platform roles
 
@@ -57,7 +58,7 @@ You might have a combination of shared capacity and dedicated cloud capacity. Be
     -   In a shared capacity type, view the total amount of capacity consumed by an instance in the **Used capacity \(TB\)** column. View the amount of capacity initially included in each instance in the **Included capacity column \(TB\)**. View the amount of capacity each instance has consumed beyond its included capacity in the **Used pool capacity \(TB\)** column.
     In some scenarios, data isn't displayed in the **Instances** list.
 
-    -   If data sharing is restricted on an instance, usage data for that instance is hidden. You can disable the restriction by updating the trust configuration on that instance. See [Share subscription data from another instance](../task/share-subscription-data.md).
+    -   If data sharing is restricted on an instance, usage data for that instance is hidden. You can disable the restriction by updating the trust configuration on that instance. See [Share subscription data from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/share-subscription-data.md).
     -   Capacity values are displayed only for instances on Xanadu or higher. If an instance appears in the list but isn't on at least Xanadu, the capacity value appears as Not available.
     The sum of all the values in the **Used pool capacity \(TB\)** column equals the value in the Used pool capacity \(TB\) card. Only instances on at least Xanadu are included in the count.
 

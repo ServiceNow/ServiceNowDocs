@@ -2,6 +2,7 @@
 title: Sample Glide query for ERP data in ERP Semantic Mining
 description: Access data from the ERP \(Enterprise Resource Planning\) system of record through the Glide API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/using-glide-to-query-erp-data.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -27,5 +28,5 @@ sap_customer_gr.getValue('name');
 
 ```
 
-**Parent Topic:**[ERP Semantic Mining reference](erp-customization-mining-ref.md)
+**Parent Topic:**[ERP Semantic Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-ref.md)
 

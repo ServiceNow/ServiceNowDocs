@@ -2,6 +2,7 @@
 title: Set up a bi-directional webhook for the Google Directory spoke
 description: Create a webhook routing policy and subflow according to your requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/customize-a-bi-directional-webhook-for-google-directory.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -33,7 +34,7 @@ The default routing policy in the Google Directory WebHook Routing Policies modu
 
 4.  Select the subflow.
 
-5.  On the Process Google Directory User Webhook Subflow page, select the More Actions Menu icon \(![More Actions Menu icon.](../image/flow-copy-icon.png)\).
+5.  On the Process Google Directory User Webhook Subflow page, select the More Actions Menu icon \(\[Omitted image "flow-copy-icon.png"\] Alt text: More Actions Menu icon.\).
 
 6.  Select **Copy Subflow**.
 

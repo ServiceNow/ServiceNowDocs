@@ -2,6 +2,7 @@
 title: Create a scan account configuration
 description: Configure the Cloud Account Management app before scanning a service account to confirm it’s ready for effective account management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/create-scan-account-config.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -81,5 +82,5 @@ Information that can be recorded in work notes.
 
 ## What to do next
 
-[Review default Cloud Account Management certification policy](policy-setup.md)
+[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/policy-setup.md)
 

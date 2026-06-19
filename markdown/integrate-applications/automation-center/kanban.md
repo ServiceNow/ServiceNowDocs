@@ -2,6 +2,7 @@
 title: Automation Center Kanban board
 description: The Automation Center Kanban board provides an easy access to view and manage automation requests and automation tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/kanban.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -20,10 +21,10 @@ The Automation Center Kanban board provides the following benefits:
 -   Viewing all automation requests and automation tasks of all states in one place.
 -   Ease of updating the state of an automation request or automation task.
 
--   **[Manage automation requests](../task/manage-req-board.md)**  
+-   **[Manage automation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/manage-req-board.md)**  
 Manage all automation requests from one location from the Request Board in the Automation Center Kanban board.
--   **[Manage automation tasks](../task/manage-task-board.md)**  
+-   **[Manage automation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/manage-task-board.md)**  
 Manage all tasks associated with the automation requests from one location from the Task Board in the Automation Center Kanban board.
 
-**Parent Topic:**[Exploring Automation Center](automation-center-explore.md)
+**Parent Topic:**[Exploring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-explore.md)
 

@@ -2,6 +2,7 @@
 title: Drop a custom index
 description: Remove a custom index by dropping it from a table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/drop-custom-index.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -36,5 +37,5 @@ Role required: admin
 
 The custom index is dropped from the table.
 
-**Parent Topic:**[Managing tables and indexes](../concept/using-table-administration.md)
+**Parent Topic:**[Managing tables and indexes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/using-table-administration.md)
 

@@ -2,6 +2,7 @@
 title: Admin Center roles
 description: Admin Center is installed with these roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-roles.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -15,7 +16,7 @@ breadcrumb: [Admin Center reference, Admin Center, Get started, Administer the S
 
 Admin Center is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 ## System Administrator \[admin\]
 
@@ -35,7 +36,7 @@ The admin role allows you to access admin home features, adoption blueprints and
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see .
 
     No.
 
@@ -44,5 +45,5 @@ The admin role allows you to access admin home features, adoption blueprints and
     None.
 
 
-**Parent Topic:**[Admin Center reference](../concept/ac-reference.md)
+**Parent Topic:**[Admin Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-reference.md)
 

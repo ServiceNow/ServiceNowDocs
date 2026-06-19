@@ -2,6 +2,7 @@
 title: Installed with State Model
 description: Several types of components are installed with the State Model.State Model adds the following tables.State Model adds the following role.Add, modify, and delete state models for task tables.State Model adds the following script include.State Model adds the following client script.State Model adds the following business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/state-management/installed-state-model.html
 release: australia
 product: State Management
 classification: state-management
@@ -48,7 +49,7 @@ Defines how each record in the target table transitions to \(the enter condition
 
 State Model adds the following role.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 |State Model Administrator|Description|Contains roles|
 |-------------------------|-----------|--------------|

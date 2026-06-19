@@ -2,6 +2,7 @@
 title: Create new form
 description: Use the Create new form to create an on-call shift in Service Operations Workspace. If you select the Create new option on the Schedules page, provide the following field details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-shift-form.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -104,5 +105,5 @@ Repeats until
 Date and time to end repetition.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](configuring-oncall-scheduling-sow.md)
+</table>**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
 

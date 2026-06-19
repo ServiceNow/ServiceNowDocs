@@ -2,6 +2,7 @@
 title: Configuration Compliance integrations
 description: Third-party integrations import configuration assessment findings, policies, tests, technologies, authoritative sources, test results along with other vulnerability data into the Configuration Compliance application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/vuln-config-compl-integrations.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -25,11 +26,11 @@ Third-party integrations import configuration assessment findings, policies, tes
 
 The Configuration Compliance application supports the following third-party integrations:
 
--   Starting with v14.11, drive remediation for security gaps in your enterprise assets identified by the Security Posture Control application by publishing findings as test results in the Configuration Compliance application. The Security Posture Control application and its supported applications are available with separate subscriptions from the ServiceNow® Store. See [Security Posture Control](../../security-posture-control/reference/spc-landing.md) for more information.
--   [Microsoft Defender for Cloud Integration for Security Operations](../../secops-integration-vr/azure-security-center/concept/cc_asc_overview.md)
--   [Palo Alto Prisma Cloud Vulnerability Integration](../../secops-integration-vr/prisma/concept/pcc-integration.md)
--   [Qualys integration with Configuration Compliance](../../secops-integration-cc/qualys/concept/Qualys-cc-Integration.md)
--   The Tenable.io product of the [Tenable Vulnerability Integration](../../secops-integration-vr/tenable/concept/tenableIntegration.md)
+-   Starting with v14.11, drive remediation for security gaps in your enterprise assets identified by the Security Posture Control application by publishing findings as test results in the Configuration Compliance application. The Security Posture Control application and its supported applications are available with separate subscriptions from the ServiceNow® Store. See [Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-landing.md) for more information.
+-   [Microsoft Defender for Cloud Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/cc_asc_overview.md)
+-   [Palo Alto Prisma Cloud Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/container-vulnerability-response/pcc-integration.md)
+-   [Qualys integration with Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/Qualys-cc-Integration.md)
+-   The Tenable.io product of the [Tenable Vulnerability Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/tenableIntegration.md)
 
 ## Additional notes for integrations
 

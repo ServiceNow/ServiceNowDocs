@@ -2,6 +2,7 @@
 title: Components installed with Talent Feedback
 description: Several types of components are installed with activation of the Talent Feedback plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/components-installed-tf.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

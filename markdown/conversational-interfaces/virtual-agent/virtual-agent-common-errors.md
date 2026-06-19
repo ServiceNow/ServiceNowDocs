@@ -2,6 +2,7 @@
 title: Common errors in Virtual Agent API
 description: This section describes some common errors in Virtual Agent API and how they can be resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/virtual-agent-common-errors.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -100,7 +101,7 @@ Virtual Agent API supports two file upload modes, such as Synchronous and Asynch
 
 To upload a file in synchronous mode, follow the below steps:
 
-1.  Upload the file by using Media API. For more information, see [CCCIF Media Resource API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cccif-api.md).
+1.  Upload the file by using Media API. For more information, see .
 
     Media API returns a url. An example of the response is:
 
@@ -247,5 +248,5 @@ The `emailId` must match a `sys_user` record that meets all of the below conditi
     -   Review auto-link script for modifications.
     -   Test with OOB script if customized.
 
-**Parent Topic:**[Virtual Agent API reference](virtual-agent-api-reference.md)
+**Parent Topic:**[Virtual Agent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-api-reference.md)
 

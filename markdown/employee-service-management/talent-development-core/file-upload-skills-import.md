@@ -2,6 +2,7 @@
 title: Import skills through file upload
 description: Import your industry specific skills data to your Skills Foundation application using a predefined skills import template so you can import your data in the required format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/file-upload-skills-import.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -23,7 +24,7 @@ Role required: sn\_skills\_int.admin
 
 1.  Navigate to **All** &gt; **Skills Workspace**.
 
-2.  Select the Lists icon \(![Lists icon](../../../common/image/icon-list.png)\).
+2.  Select the Lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon\).
 
 3.  Select **Import history** &gt; **Queue**.
 

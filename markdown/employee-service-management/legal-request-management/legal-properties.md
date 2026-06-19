@@ -2,6 +2,7 @@
 title: Legal Service Delivery properties
 description: There are several properties that you can use to configure integrations for Legal Service Delivery apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/legal-properties.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -43,7 +44,7 @@ The number of retries permitted before removing all errored permission entries f
 
  -   Type: integer
 -   Default value: 5
--   Learn more: [Configure an external storage system for legal requests and legal matters](../task/integrate-legal-ext-storage.md)
+-   Learn more: [Configure an external storage system for legal requests and legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/integrate-legal-ext-storage.md)
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ The amount of time the system waits in minutes before retrying to execute permis
 
  -   Type: integer
 -   Default value: 20
--   Learn more: [Configure an external storage system for legal requests and legal matters](../task/integrate-legal-ext-storage.md)
+-   Learn more: [Configure an external storage system for legal requests and legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/integrate-legal-ext-storage.md)
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ The number of permission records that can be included in single job execution.
 
  -   Type: integer
 -   Default value: 30
--   Learn more: [Configure an external storage system for legal requests and legal matters](../task/integrate-legal-ext-storage.md)
+-   Learn more: [Configure an external storage system for legal requests and legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/integrate-legal-ext-storage.md)
 
 </td></tr><tr><td>
 
@@ -85,7 +86,7 @@ The maximum number of failed job execution calls permitted before the flow statu
 
  -   Type: integer
 -   Default value: 5
--   Learn more: [Configure an external storage system for legal requests and legal matters](../task/integrate-legal-ext-storage.md)
+-   Learn more: [Configure an external storage system for legal requests and legal matters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/integrate-legal-ext-storage.md)
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -129,5 +130,5 @@ The property allows the closure of a legal request even if it has open matters a
 -   Default value: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Request Management reference](legal-request-management-reference.md)
+</table>**Parent Topic:**[Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-reference.md)
 

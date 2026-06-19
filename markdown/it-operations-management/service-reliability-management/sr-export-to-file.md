@@ -2,6 +2,7 @@
 title: Export list information to a file
 description: You can export live information to a file in Service Reliability Management \(SRM\).This is the file referenced by all lists that can export. No need for services, alerts, incident or calendar specific files. They are kept in repo until certain about this.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-export-to-file.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -31,7 +32,7 @@ Role required: srm\_admin, srm\_manager, or srm\_responder
 
 2.  Select the list view in any landing page section in SRM with an **Export button**.
 
-3.  Determine which filters you want to use and select them from the Filters ![Filter icon.](../image/icon-sr-filter.png) or More actions menu in the list columns.
+3.  Determine which filters you want to use and select them from the Filters \[Omitted image "icon-sr-filter.png"\] Alt text: Filter icon. or More actions menu in the list columns.
 
     **Note:**
 
@@ -56,5 +57,5 @@ Role required: srm\_admin, srm\_manager, or srm\_responder
     For **Download**: The pop-up begins exporting and the file appears in your Download directory. Depending on the size of the file, it might take some time. You can open it in any application that supports the file format.
 
 
-**Parent Topic:**[SRM interface](../concept/sr-navigate-interface.md)
+**Parent Topic:**[SRM interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-navigate-interface.md)
 

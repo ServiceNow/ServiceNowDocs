@@ -2,11 +2,12 @@
 title: Create taxonomy nodes
 description: Create an unlimited number of nodes, or branches, and add them to your service portfolio taxonomy layers. By configuring taxonomy nodes, you can successfully achieve a highly detailed and organized service portfolio containing multiple elemental layers—from general to specific.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/create-or-mod-SPM2-taxonomy-nodes.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-01"
 reading_time_minutes: 3
 breadcrumb: [Service Portfolio Management taxonomy, Create a portfolio, Use, Service Portfolio Management, IT Service Management]
 ---
@@ -29,7 +30,7 @@ In Service Portfolio Management, taxonomy nodes typically represent service type
 -   Hardware Support
 -   Software Management
 
-If the Service Portfolio Management Taxonomy Content Pack \[com.snc.spm.content\] plugin sample data is activated on your instance, review the provided taxonomy data to gain an understanding of how to best define your taxonomy layers. Refer to [Activate Service Portfolio Management Sample Content Pack](activate-SPM2-content-pack-plugin.md) for more details.
+If the Service Portfolio Management Taxonomy Content Pack \[com.snc.spm.content\] plugin sample data is activated on your instance, review the provided taxonomy data to gain an understanding of how to best define your taxonomy layers. Refer to [Activate Service Portfolio Management Sample Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/activate-SPM2-content-pack-plugin.md) for more details.
 
 ## Procedure
 
@@ -140,29 +141,29 @@ Most recent performance score for this node. The performance score is calculated
 
 5.  Specify weight values for each associated child node.
 
-    Total weight must equal 100 percent. For more information on weights and specifying weight values, refer to .
+    Total weight must equal 100 percent.
 
 6.  Review the related list records.
 
     Depending on the type of node, whether it is a leaf node or a non-leaf node, related lists display the following associated data.
 
-<table id="choicetable_wpd_xth_ygb"><tbody><tr><td id="d278502e315">
+<table id="choicetable_wpd_xth_ygb"><tbody><tr><td id="d82623e312">
 
 **Taxonomy Nodes**
 
 </td><td>
 
-List of all associated child nodes. You can edit an existing child node by selecting a Taxonomy Node name. Create a new child node by clicking **New** and completing the **Taxonomy Node** form.
+List of all associated child nodes. You can edit an existing child node by selecting a Taxonomy Node name. Create a new child node by selecting **New** and completing the **Taxonomy Node** form.
 
-</td></tr><tr><td id="d278502e330">
+</td></tr><tr><td id="d82623e327">
 
 **Services**
 
 </td><td>
 
-List of all associated services shown for leaf nodes. Edit the list by selecting **Edit** and making changes to the form. You can select a service in the Related List to modify and update. Create a new associated service by clicking **New** and completing the **Service** form. Refer to [Create a service in Service Portfolio Management](create-or-modify-SPM2-services.md).
+List of all associated services shown for leaf nodes. Edit the list by selecting **Edit** and making changes to the form. You can select a service in the Related List to modify and update. Create a new associated service by clicking **New** and completing the **Service** form. Refer to [Create a service in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-or-modify-SPM2-services.md).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Service Portfolio Management taxonomy](../concept/SPM2-taxonomy.md)
+**Parent Topic:**[Service Portfolio Management taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-taxonomy.md)
 

@@ -2,6 +2,7 @@
 title: DevOps Change Velocity properties
 description: Use these properties to configure settings in the DevOps Change Velocity application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-administration.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -775,7 +776,7 @@ DevOps change request handler subflow
 
 </td><td>
 
-If you are using a custom subflow instead of the Default Change Handler subflow in Flow Designer \(which is used to populate the change request fields with default values\), then you must update this property value to the new subflow. You can copy the Default Change Handler subflow in Flow Designer and update it according to your organization's needs. For information on the Default Change Handler subflow, see [Customizing DevOps flows](using-dev-ops-model-change-flow.md).For information on copying a subflow, see [Copy a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/copy-subflow.md).
+If you are using a custom subflow instead of the Default Change Handler subflow in Flow Designer \(which is used to populate the change request fields with default values\), then you must update this property value to the new subflow. You can copy the Default Change Handler subflow in Flow Designer and update it according to your organization's needs. For information on the Default Change Handler subflow, see [Customizing DevOps flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-dev-ops-model-change-flow.md).For information on copying a subflow, see .
 
 </td><td>
 
@@ -841,7 +842,7 @@ Assign a universal task and notify to update tool credentials when expired
 
 </td><td>
 
-Admins and tool owners will be notified \(through universal task, email, banner, and field message\) on expiry of tool credentials after the credentials have expired. As an admin or tool owner, you can update your tool credentials and connect the tool to prevent any further loss of data. For information on updating tool credentials, see [Update third-party tool credentials in DevOps Change Velocity](../task/update-third-party-tool-credentials-in-devops-change-velocity.md).
+Admins and tool owners will be notified \(through universal task, email, banner, and field message\) on expiry of tool credentials after the credentials have expired. As an admin or tool owner, you can update your tool credentials and connect the tool to prevent any further loss of data. For information on updating tool credentials, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
 </td><td>
 
@@ -857,7 +858,7 @@ Number of days before tool credential expiry to assign a universal task and noti
 
 </td><td>
 
-Set the number of days before tool credentials expiry to send notifications \(through universal task, email, banner, and field message\) to admins for GitHub tools created with basic authentication. To stop sending proactive notifications, select 0 as the value for this property. For information on updating tool credentials, see [Update third-party tool credentials in DevOps Change Velocity](../task/update-third-party-tool-credentials-in-devops-change-velocity.md).
+Set the number of days before tool credentials expiry to send notifications \(through universal task, email, banner, and field message\) to admins for GitHub tools created with basic authentication. To stop sending proactive notifications, select 0 as the value for this property. For information on updating tool credentials, see [Update third-party tool credentials in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/update-third-party-tool-credentials-in-devops-change-velocity.md).
 
 </td><td>
 
@@ -1146,5 +1147,5 @@ False \(disabled\)
 \[sn\_devops.import\_based\_evidence\_collection\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DevOps Change Velocity reference](../reference/devops-change-velocity-reference.md)
+</table>**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

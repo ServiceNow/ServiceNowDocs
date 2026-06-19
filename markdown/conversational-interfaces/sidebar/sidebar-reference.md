@@ -2,6 +2,7 @@
 title: Sidebar reference
 description: Read information about how Sidebar works with domain separation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-reference.html
 release: australia
 product: Sidebar
 classification: sidebar
@@ -15,5 +16,5 @@ breadcrumb: [Sidebar, Conversational Interfaces]
 
 Read information about how Sidebar works with domain separation.
 
-[Domain separation and Sidebar](../concept/sidebar-domain-separation.md)
+[Domain separation and Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/sidebar-domain-separation.md)
 

@@ -2,6 +2,7 @@
 title: Lenses in Portfolio Planning
 description: Flexibly switch planning perspectives to prioritize, roadmap, and view the alignment of work using personalized portfolio plans. Improve enterprise planning by discovering planning insights that drive shared outcomes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/lens-and-portfolio-plans.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -26,7 +27,7 @@ Portfolio Planning provides two pre-defined lenses to get you started with build
 
 Planning managers can use these lenses based on their role at the company. Each lens includes multiple levels, that the personas can plan at, and together these levels form the structure for that lens.
 
-![Predefined lenses - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, and Business Capability.](../../alignment-planner-workspace/images/predefined-lenses-sp.png "Structure of pre-defined lenses")
+\[Omitted image "predefined-lenses-sp.png"\] Alt text: Predefined lenses - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, and Business Capability.
 
 <table id="table_xfv_x5h_fvb"><thead><tr><th>
 
@@ -98,10 +99,27 @@ Project Program
 
 Plan, prioritize, and roadmap the work in your programs.
 
+</td></tr><tr><td>
+
+Planning item
+
+</td><td>
+
+Planning items
+
+</td><td>
+
+-   Portfolio manager
+-   Program manager
+
+</td><td>
+
+Plan, prioritize, and roadmap the work directly with planning items, without configuring organization structure, programs, portfolios, or products.
+
 </td></tr></tbody>
-</table>You can work with your administrator to modify the structure for these pre-defined lenses. For more information, see [Configuring lens in Portfolio Planning](configuring-lens-in-portfolio-planning.md).
+</table>You can work with your administrator to modify the structure for these pre-defined lenses. For more information, see [Configuring lens in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-lens-in-portfolio-planning.md).
 
-Start creating portfolio plans to improve the alignment of your work with the business strategy. See [Create a portfolio plan](../task/create-portfolio-plan-in-portfolio-planning-workspace.md).
+Start creating portfolio plans to improve the alignment of your work with the business strategy. See [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
 
-**Parent Topic:**[Exploring Portfolio Planning](exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

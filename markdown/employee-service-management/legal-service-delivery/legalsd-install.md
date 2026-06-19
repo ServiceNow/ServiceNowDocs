@@ -2,6 +2,7 @@
 title: Activate the Analytics and Reporting Solution for Legal Service Delivery
 description: Activate the content pack ServiceNow Store application for the Analytics and Reporting Solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legalsd-install.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -17,7 +18,7 @@ Activate the content pack ServiceNow Store application for the Analytics and Rep
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see Activate your Performance Analytics subscription.
 
 Review the [Performance Analytics Content Pack for Legal Service Delivery](https://store.servicenow.com/sn_appstore_store.do#!/store/application/7c8ec9b21837b010fa9b661eb110eaf1) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
@@ -36,5 +37,5 @@ Role required: admin
 4.  Install the application.
 
 
-**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](../../application-content-packs/concept/legalsd-content-pack.md)
+**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 

@@ -2,6 +2,7 @@
 title: Delete a function field
 description: A user with the admin role can delete a function field from its table. Deleting a function field is useful if you want to create a function field with the same name as one that exists on that table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/delete-a-function-field-fg.html
 release: australia
 product: Reporting
 classification: reporting
@@ -40,5 +41,5 @@ Function fields are stored as columns on the table that you create them on. To d
 
 The function field is deleted and can no longer be used in data visualizations.
 
-**Parent Topic:**[Report on function fields](../concept/function-fields-reporting.md)
+**Parent Topic:**[Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md)
 

@@ -2,6 +2,7 @@
 title: Using Health and Safety Risk Management
 description: Learn how employees and risk teams use the Health and Safety Risk Management application to perform job safety analyses, perform risk assessments, maintain safety registers, conduct safety inspections and audits, and manage exposures for their workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-using-hs-risk-mgmt.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -33,18 +34,18 @@ Learn how employees and risk teams use the Health and Safety Risk Management app
     -   Track and manage workers' exposure to workplace hazards
     -   Schedule actions to control the exposures
 
--   **[Job safety analysis](hs-job-safety-analysis.md)**  
+-   **[Job safety analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-job-safety-analysis.md)**  
 Job safety analysis \(JSA\) is a systematic process for identifying potential hazards at a worker’s point-of-work. The objective is to increase risk awareness and implement efficient controls to help prevent workplace accidents and injuries.​
--   **[Safety risk assessment](hs-risk-assessment.md)**  
+-   **[Safety risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-assessment.md)**  
 The Risk Assessment is a process of identifying and evaluating potential hazards and risks associated with a process, system, product, or activity, and implementing measures that help prevent or mitigate those risks. The feature enables the safety of people and proactively reduce safety incident rates.
--   **[Safety inspections and audits](hs-safety-inspections.md)**  
+-   **[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)**  
 With Health and Safety Risk Management, safety teams can schedule, assign, and conduct workplace safety inspections and audits of particular activities, processes, or areas at their establishments.
--   **[Safety registers](hs-safety-registers.md)**  
+-   **[Safety registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-registers.md)**  
 Safety Registers help safety teams and line managers to keep track of hazardous materials like chemicals and asbestos, as well as attach Safety Data Sheets \(SDSs\) that employees can easily access.
--   **[Safety exposure management](hs-safety-exposures.md)**  
+-   **[Safety exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-exposures.md)**  
 With exposure management, safety team and industrial hygienists can manage exposures and exposure assessments so they can control any harmful effects on workers.
--   **[Permit-to-work system](hs-permit-to-work.md)**  
+-   **[Permit-to-work system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)**  
 The permit-to-work system streamlines the management of requests for work permits for potentially hazardous activities and provides an efficient process for issuing these permits.
 
-**Parent Topic:**[Health and Safety Risk Management](hs-risk-management-landing-page.md)
+**Parent Topic:**[Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-management-landing-page.md)
 

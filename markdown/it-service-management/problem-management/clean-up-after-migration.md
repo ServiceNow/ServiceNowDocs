@@ -2,6 +2,7 @@
 title: Activities to clean up after migration
 description: After you complete your main migration, you must do some manual clean-up to make your instance similar to the base version of problem management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/clean-up-after-migration.html
 release: australia
 product: Problem Management
 classification: problem-management

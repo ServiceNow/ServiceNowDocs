@@ -2,6 +2,7 @@
 title: Add an activity to a playbook
 description: Add preselected optional activities to a Playbook Experience if available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-add-optional-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,21 +28,21 @@ Add and complete optional playbook activities in a running playbook. This exampl
 
 1.  Open a playbook in workspace.
 
-2.  Select the action menu icon \(![Playbook action menu icon](../image/playbook-ellipses.png)\).
+2.  Select the action menu icon \(\[Omitted image "playbook-ellipses.png"\] Alt text: Playbook action menu icon\).
 
 3.  Select **Add Activity**.
 
-    ![Add Activity button to add optional activities.](../image/playbook-add-activity-button.png)
+    \[Omitted image "playbook-add-activity-button.png"\] Alt text: Add Activity button to add optional activities.
 
     **Note:** **Add Activity** will not display if no optional activities available in this stage.
 
 4.  Select **+ Add activity here** in the location you want to add the activity to the playbook.
 
-    ![Add an activity to a playbook by selecting + Add activity here.](../image/playbook-add-activity-here.png)
+    \[Omitted image "playbook-add-activity-here.png"\] Alt text: Add an activity to a playbook by selecting + Add activity here.
 
 5.  Select the activity you would like to add to the playbook.
 
-    ![Add activity modal.](../image/playbook-add-activity-select.png)
+    \[Omitted image "playbook-add-activity-select.png"\] Alt text: Add activity modal.
 
 6.  Select **Done**.
 
@@ -52,7 +53,7 @@ Add and complete optional playbook activities in a running playbook. This exampl
 
 The selected optional activity appears in your playbook.
 
-![Optional activities appear in the location selected.](../image/playbook-add-activity-complete.png)
+\[Omitted image "playbook-add-activity-complete.png"\] Alt text: Optional activities appear in the location selected.
 
-**Parent Topic:**[Running Playbooks](../concept/playbook-agents-and-fulfillers.md)
+**Parent Topic:**[Running Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

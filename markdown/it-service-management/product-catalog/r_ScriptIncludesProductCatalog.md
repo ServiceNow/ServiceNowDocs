@@ -2,6 +2,7 @@
 title: Script includes installed with Product Catalog
 description: Product Catalog plugin adds the following script include.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/product-catalog/r\_ScriptIncludesProductCatalog.html
 release: australia
 product: Product Catalog
 classification: product-catalog
@@ -19,5 +20,5 @@ Product Catalog plugin adds the following script include.
 |-----|-----------|
 |ProductCatalogUtils|Utilities for creating and maintaining product catalog items derived from vendor catalog items and models.|
 
-**Parent Topic:**[Components installed with Product Catalog](r_InstalledWithProductCatalog.md)
+**Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/product-catalog/r_InstalledWithProductCatalog.md)
 

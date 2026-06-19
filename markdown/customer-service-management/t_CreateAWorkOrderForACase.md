@@ -2,7 +2,10 @@
 title: Create a work order for a customer service case
 description: Create a work order for a customer service case as part of the case resolution process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_CreateAWorkOrderForACase.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ After a work order is created, it appears in the **Work Orders** related list on
 
 3.  Fill in the fields on the Work Order form.
 
-    For more information, see [Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrder.md).
+    For more information, see Create a work order.
 
 4.  Click **Update**.
 
@@ -37,5 +40,5 @@ After a work order is created, it appears in the **Work Orders** related list on
 **Related topics**  
 
 
-[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_ManageWorkOrders.md)
+[bundle-fsm.c_ManageWorkOrders]
 

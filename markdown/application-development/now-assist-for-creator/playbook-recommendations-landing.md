@@ -2,13 +2,14 @@
 title: Playbook recommendations
 description: Get AI-generated placeholder activities based on an activity's name and description.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/playbook-recommendations-landing.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Playbook recommendations
@@ -19,15 +20,15 @@ Get AI-generated placeholder activities based on an activity's name and descript
 
 <table id="table_il5_f3g_hhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Playbook recommendations](playbook-recommendations.md#)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-recommendations.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Enable the Playbook recommendations skill](../task/turn-on-playbook-recommendations.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Enable the Playbook recommendations skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-playbook-recommendations.md)
 
 </td><td>
 
-[Generate![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate Playbook recommendations](../task/generate-playbook-recommendations.md)
+[Generate\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-playbook-recommendations.md)
 
 </td></tr></tbody>
 </table>## AI limitations
@@ -40,16 +41,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 
--   **[Exploring Playbook recommendations](playbook-recommendations.md#)**  
+-   **[Exploring Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-recommendations.md)**  
 Get AI-generated recommendations for placeholder activities. The system generates recommendations based on an activity’s name and description.
--   **[Turn on Playbook recommendations](../task/turn-on-playbook-recommendations.md)**  
+-   **[Turn on Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-playbook-recommendations.md)**  
 Turn on the playbook recommendations skill to get recommendations for the activity definition to use in your placeholder activities with AI Search.
--   **[Generate playbook recommendations](../task/generate-playbook-recommendations.md)**  
+-   **[Generate playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-playbook-recommendations.md)**  
 Select the activity definition for a placeholder activity from a list of AI-generated recommendations. The system generates recommendations based on an activity’s name and description.
 
-**Parent Topic:**[Using generative AI with Now Assist for Creator](../../../build/now-assist-for-creator/concept/using-gen-ai-now-assist-for-creator.md)
+**Parent Topic:**[Using generative AI with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)
 

@@ -2,6 +2,7 @@
 title: Create COE security
 description: Place security on a COE to prevent a group from accessing another group's cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-coe-security.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -33,7 +34,7 @@ Role required: sn\_hr\_core.admin, sn\_hr\_le.admin
 
 6.  Ensure that the **Application** field displays the scope correctly.
 
-    For more information, see [System settings for the user interface \(UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_UI16BannerFrame.md).
+    For more information, see System settings for the user interface \(UI\).
 
 7.  Check **Active** to enable security on the COE.
 
@@ -60,7 +61,7 @@ Role required: sn\_hr\_core.admin, sn\_hr\_le.admin
 
 11. Select **Edit** to associate groups to the COE security policy.
 
-    For more information on Groups, see [Manage HR Groups](../task/t_ManageHRGroups.md).
+    For more information on Groups, see [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ManageHRGroups.md).
 
 12. Move the groups you want associated with the COE security policy you are defining from the Collection column to the Groups List column.
 
@@ -71,5 +72,5 @@ Role required: sn\_hr\_core.admin, sn\_hr\_le.admin
 14. Select **Update**.
 
 
-**Parent Topic:**[HR service categorization](hr-service-categorization.md)
+**Parent Topic:**[HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-categorization.md)
 

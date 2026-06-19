@@ -2,6 +2,7 @@
 title: Create a data management policy in Core UI
 description: Define a set of rules for managing table data on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/create-data-management-policy.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -87,8 +88,8 @@ A data management policy is established for the designated table. You can now cr
 
 Define archive and cleanup rules for the table by creating rules in the data management policy.
 
--   [Create an archive rule in Core UI](../../database-rotation/task/t_CreateAnArchiveRule.md#)
--   [Create a table cleanup rule in Core UI](activate-table-cleanup.md)
+-   [Create an archive rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAnArchiveRule.md)
+-   [Create a table cleanup rule in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-table-cleanup.md)
 
-**Parent Topic:**[Managing data growth in Core UI](../concept/data-management-policies.md)
+**Parent Topic:**[Managing data growth in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/data-management-policies.md)
 

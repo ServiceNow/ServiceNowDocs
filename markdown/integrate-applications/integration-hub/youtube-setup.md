@@ -2,6 +2,7 @@
 title: Set up the YouTube spoke
 description: Integrate the ServiceNow instance and YouTube account by creating a custom OAuth application in Google Cloud Platform to authenticate ServiceNow requests.Create a custom OAuth application in your Google Cloud Platform account to enable OAuth 2.0 authentication with the YouTube spoke.Use the information generated during the YouTube application configuration to register YouTube as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.Create a credential record for the YouTube application. The YouTube spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/youtube-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -63,7 +64,7 @@ Complete the [Create a Google Cloud project](https://developers.google.com/works
 
 5.  Enter the following **Authorized redirect URI**: `https://<instance>.service-now.com/oauth_redirect.do` and click **Create**.
 
-6.  Copy your client ID and client secret to a text file so that you can use them when you [Register YouTube as an OAuth provider](youtube-setup.md#).
+6.  Copy your client ID and client secret to a text file so that you can use them when you [Register YouTube as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/youtube-setup.md).
 
     **Tip:** You can always access the client ID and secret in the Google APIs &amp; Services interface by clicking **Credentials** and selecting the OAuth 2.0 client ID name.
 
@@ -123,9 +124,9 @@ Role required: admin.
 
 5.  Enter a unique name for the credential, for example, `Youtube_Cred`.
 
-6.  Click the **OAuth Entity Profile** search icon \(![Search icon](../image/SearchIcon.png)\) and select the profile with the name of the OAuth application registry you configured when you registered the YouTube service as an OAuth provider.
+6.  Click the **OAuth Entity Profile** search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search icon\) and select the profile with the name of the OAuth application registry you configured when you registered the YouTube service as an OAuth provider.
 
-    See [Register YouTube as an OAuth provider](youtube-setup.md#) for more information.
+    See [Register YouTube as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/youtube-setup.md) for more information.
 
 7.  Right-click the form header and click **Save**.
 

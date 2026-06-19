@@ -2,6 +2,7 @@
 title: Raise a request using the ServiceNow Add-in for Microsoft 365
 description: Open a relevant catalog item or form to raise a request with pre-filled information from your email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/raise-request-addin-ms365.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -38,5 +39,5 @@ Role required: None
 4.  Fill in the form or the catalog item request, then select **Submit**.
 
 
-**Parent Topic:**[Using ServiceNow Add-in for Microsoft 365](../concept/using-sn-addin-for-ms365.md)
+**Parent Topic:**[Using ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-sn-addin-for-ms365.md)
 

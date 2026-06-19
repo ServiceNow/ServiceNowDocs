@@ -2,6 +2,7 @@
 title: Exploring Audit Management
 description: The Audit Management automates the work streams of internal audit teams, optimizing resources and productivity, and eliminating recurring audit findings. Audit Management uses compliance and risk data to scope, plan, and prioritize audit engagements. The on-going review of policies and procedures, risks, and control breakdowns provide an opportunity for fixing issues before they become audit failures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/audit-management.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -33,9 +34,12 @@ Auditors are responsible for the following:
 
 ## Audit Management and the ServiceNow platform
 
-![Audit Management and the ServiceNow AI Platform](../image/mmasset0021307-audit-servicenow-solution-horizontal.png "Audit Management and the ServiceNow AI Platform")
+\[Omitted image "mmasset0021307-audit-servicenow-solution-horizontal.png"\] Alt text: Audit Management and the ServiceNow AI Platform
 
-**Note:** For more information on the GRC application nomenclature and industry terminology, see [Governance, Risk, and Compliance application nomenclature updates and industry terminology](../../grc-common/reference/grc-terms.md).
+**Note:** For more information on the GRC application nomenclature and industry terminology, see [Governance, Risk, and Compliance application nomenclature updates and industry terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-terms.md).
 
-**Parent Topic:**[Audit Management](c_GRCAudits.md)
+-   **[Audit entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/audit-entry-overview.md)**  
+The audit entry field marks a record as third-line, restricting its visibility to users who hold the third-line manager role. Third-line records are excluded from the views and calculations that second-line users rely on.
+
+**Parent Topic:**[Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_GRCAudits.md)
 

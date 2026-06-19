@@ -2,6 +2,7 @@
 title: Live Feed team security
 description: You can restrict who can create teams by modifying an access control rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/r\_LiveFeedTeamSecurity.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -20,5 +21,5 @@ Modify the following access control rule:
 -   **Table**: Live Group Profile \[live\_group\_profile\]
 -   **Operation**: create
 
-**Parent Topic:**[Live Feed security and table access](r_LiveFeedTableAccessRules.md)
+**Parent Topic:**[Live Feed security and table access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_LiveFeedTableAccessRules.md)
 

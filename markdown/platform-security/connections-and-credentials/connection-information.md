@@ -2,11 +2,12 @@
 title: Get started with connections
 description: Use the connections table to set up a Basic, JMS, JDBC, or HTTP\(s\) connection to a target host.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/connection-information.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Connections and Credentials, Access Management]
 ---
@@ -46,16 +47,16 @@ Credential is unique across active connections, if not empty.
     -   Database port is renamed to port
     -   Data of the JDBC server and database migrates to host and port during the upgrade
 
--   **[Create a basic connection for PowerShell and SSH](../task/configure-ps-connection.md)**  
+-   **[Create a basic connection for PowerShell and SSH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-ps-connection.md)**  
 Configure connection information to use with a custom activity or action that uses the PowerShell or Secure Shell \(SSH\) protocol.
--   **[Create an HTTP\(s\) connection](../task/create-https-connection.md)**  
+-   **[Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md)**  
 The HTTP\(s\) connection provides the information custom HTTP\(s\) actions or activities use to connect.
--   **[Create a JDBC connection](../task/create-JDBC-connection.md)**  
+-   **[Create a JDBC connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-JDBC-connection.md)**  
 The JDBC Connection provides the information custom JDBC actions or activities use to connect to various target databases.
--   **[Create a JMS connection](../task/configure-connection-JMS.md)**  
+-   **[Create a JMS connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-connection-JMS.md)**  
 Configure your system to use Java Messaging Service \(JMS\) with a custom JMS activity or action.
--   **[Create connection attributes for IntegrationHub](../task/create-connection-attributes.md)**  
+-   **[Create connection attributes for IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-connection-attributes.md)**  
 Define connection-specific variables that you can use in Integration Hub integration steps.
 
-**Parent Topic:**[Connections and Credentials](r-credentials.md)
+**Parent Topic:**[Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md)
 

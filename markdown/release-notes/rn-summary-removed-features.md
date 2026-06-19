@@ -2,9 +2,12 @@
 title: Removed features and products in Australia
 description: Cumulative release notes summary on features that were removed from Australia features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-removed-features.html
 release: australia
+product: Release Notes
+classification: release-notes
 topic_type: reference
-last_updated: "2026-05-04"
+last_updated: "2026-06-12"
 reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -29,12 +32,20 @@ AI Control Tower
 
 </td><td>
 
-[Australia Patch 1](../quality/australia-patch-1.md) The Autonomous vs. supervised AI tools chart has been removed from the Security &amp; privacy tab.
+[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-patch-1.md) The Autonomous vs. supervised AI tools chart has been removed from the Security &amp; privacy tab.
 
-[Early availability](../quality/australia-all-other-fixes.md)
+[Early availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/australia-all-other-fixes.md)
 
 -   Adding legacy AI connections via Service Graph Connectors \(SGC\) is deprecated. In AI connections, under Legacy connections, the **New** button has been removed to block users from creating new connections using SGC.
 
+
+</td></tr><tr><td>
+
+Accounts Payable Operations
+
+</td><td>
+
+-   Roll up logic applies only to system tax, not to supplier-declared tax. Supplier tax roll up is removed. This replaces the previous approach, which lacked independent validation of supplier-provided tax amounts.
 
 </td></tr><tr><td>
 
@@ -42,7 +53,7 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-The Multisource Report Builder has been removed. Use CMDB 360 in CMDB Workspace or in Service Graph Workspace to generate reports for multisource data. For more information, see [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md).
+The Multisource Report Builder has been removed. Use CMDB 360 in CMDB Workspace or in Service Graph Workspace to generate reports for multisource data. For more information, see .
 
 </td></tr><tr><td>
 
@@ -54,6 +65,14 @@ The now.assist.creator role is no longer a required role to use generative AI fe
 
 </td></tr><tr><td>
 
+Impact
+
+</td><td>
+
+On-demand value report and Value potential accelerators have been removed.
+
+</td></tr><tr><td>
+
 Now Assist for Creator
 
 </td><td>
@@ -62,11 +81,11 @@ Spoke generation has been removed from Now Assist for Creator. See the [ServiceN
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+Now Assist for Zero Copy Connector
 
 </td><td>
 
- 
+The Ask AI button has been removed from the Model Manager.
 
 </td></tr><tr><td>
 
@@ -102,6 +121,8 @@ Product Support for Technology
 
 </td><td>
 
+Australia Early Availability
+
 -   The **Analytics** tab is removed from the customer account view.
 -   The **Notify Customers** UI action is removed from the case record.
 
@@ -118,20 +139,14 @@ Project Portfolio Management
 
 </td></tr><tr><td>
 
-ServiceNow Studio
-
-</td><td>
-
-The Now Assist icon was removed and replaced with a Build Agent chat panel, which is open by default. If the chat panel is closed, you can re-open Build Agent from the status bar in the browser window.
-
-</td></tr><tr><td>
-
 Third-party Risk Management
 
 </td><td>
 
-Assessments using entities are no longer supported.
+-   Assessments using entities are no longer supported.
+-   The `grc_business_user` and `grc_reader` roles are no longer directly inherited by TPRM roles.
+-   The `scoring_rule` and `scoring_rule_ref` fields are removed from assessment forms and UI sections. Custom scripts or integrations that reference these fields must be updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Australia features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)
 

@@ -2,6 +2,7 @@
 title: See related flows for action
 description: See the list of flows that include a custom action. Determine the impact that changes to an action have on published and draft flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/see-related-flows-for-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -37,7 +38,7 @@ Determine the impact that your action changes have on published and draft flows.
 
     The system shows the Related Flows dialog.
 
-    ![The Related Flows dialog box displays 1 related flow named Add a Pause. The related flow is marked as active.](../images/see-related-flows-example.png)
+    \[Omitted image "see-related-flows-example.png"\] Alt text: The Related Flows dialog box displays 1 related flow named Add a Pause. The related flow is marked as active.
 
     The Related Flows dialog shows information about the flows that use the action.
 
@@ -50,5 +51,5 @@ Determine the impact that your action changes have on published and draft flows.
 
 Determine if your planned action changes require updates to the related flows. Publishing an action also displays a list of related flows that use the action.
 
-**Parent Topic:**[Flow administration](../concept/flow-administration.md)
+**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-administration.md)
 

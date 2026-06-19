@@ -2,6 +2,7 @@
 title: Access the ServiceNow Agent for Field Service Contractor for mobile application
 description: Access the Field Service Contractor for mobile application to manage tasks from your phone or other mobile devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/install-field-service-contractor-portal-mobile.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

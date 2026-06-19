@@ -2,6 +2,7 @@
 title: Redirect WSD RSV MOA OAuth registry
 description: Redirect MOA Outh access \(moa\_login\) for Microsoft Outlook Add-in version 1.12.2 or earlier to WSD RSV MOA OAuth registry \(rsv\_moa\_login\) registry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/route-outlook-add-in.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -19,7 +20,7 @@ Redirect MOA Outh access \(moa\_login\) for Microsoft Outlook Add-in version 1.1
 
 Workplace users using Microsoft Outlook Add-in version 1.12.2 or earlier versions, can migrate to Workplace Reservation Management 3.0.2. After migrating, redirect the MOA OAuth registry \(moa\_login\) to WSD RSV MOA OAuth registry \(rsv\_moa\_login\).
 
-Workplace Reservation Management 3.0.2 Microsoft Outlook Add-in capabilities provide enhanced reservation experience for employees. For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](../concept/manage-outlook-addin-rsv.md).
+Workplace Reservation Management 3.0.2 Microsoft Outlook Add-in capabilities provide enhanced reservation experience for employees. For more information, see [Manage Workplace Reservations for Microsoft Outlook Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.md).
 
 Role required: admin
 
@@ -31,7 +32,7 @@ Role required: admin
 
     The Page Route Map form opens. By default, all field values are preloaded in the Page Route Map form. Select the edit option to edit the form.
 
-    ![Page Route map to redirect from existing Microsoft Outlook Add-in login to Workplace Reservation Management.](../image/outlook-page-route-map-form-details.png)
+    \[Omitted image "outlook-page-route-map-form-details.png"\] Alt text: Page Route map to redirect from existing Microsoft Outlook Add-in login to Workplace Reservation Management.
 
     |Field|Description|
     |-----|-----------|

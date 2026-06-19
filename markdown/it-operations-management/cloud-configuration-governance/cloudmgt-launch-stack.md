@@ -2,11 +2,12 @@
 title: Launch a stack
 description: Launch a stack of cloud resources to submit a request for an item in the service catalog. You can launch a stack from the Cloud User Portal overview page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloudmgt-launch-stack.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_cmp.cloud\_service\_user
 
 When you submit a request for an item in the service catalog, the system typically provisions the stack immediately. Sometimes, your request must be approved first.
 
-If a resource on a stack requires credentials when being accessed via SSH, then you must create an SSH key pair before you can launch the stack. See [Create an SSH key](cloudmgt-create-ssh-key.md) and [Download an SSH key](cloudmgt-download-ssh-key.md).
+If a resource on a stack requires credentials when being accessed via SSH, then you must create an SSH key pair before you can launch the stack. See [Create an SSH key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-create-ssh-key.md) and [Download an SSH key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloudmgt-download-ssh-key.md).
 
 ## Procedure
 
@@ -58,9 +59,9 @@ If a resource on a stack requires credentials when being accessed via SSH, then 
 -   Orange: Processing.
 -   Red: Rejected, Error, or Canceled.
     -   If approval is required, then after the administrator approves your request, the system launches the stack and updates the **Request Status**.
-    -   If the quota limit exceeds for you or your user group, then an error message appears or the system triggers a policy-based approval. For more information about the quota limits, see [Viewing resource quota limits](../concept/resource-quota.md).
+    -   If the quota limit exceeds for you or your user group, then an error message appears or the system triggers a policy-based approval. For more information about the quota limits, see [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-quota.md).
     -   Select another request to view its **Request Status** and **Stack Status**.
     -   To view a summary of all your pending requests, click the **Pending Requests** link in the title bar at any time.
-    ![Activities tab in the Cloud User Portal.](../image/activities.png)
+    \[Omitted image "activities.png"\] Alt text: Activities tab in the Cloud User Portal.
 
 

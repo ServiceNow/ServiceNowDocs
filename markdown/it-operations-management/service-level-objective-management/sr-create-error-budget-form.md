@@ -2,6 +2,7 @@
 title: Add an error budget policy form
 description: Learn about the available fields for setting up error budget policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/sr-create-error-budget-form.html
 release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -17,7 +18,7 @@ Learn about the available fields for setting up error budget policies.
 
 ## Fields in the Add an error budget policy form
 
-The following table describes the available options in the Add an error budget policy form. For step-by-step instructions, see [Create SLOs, SLIs, and error budget policies](../task/sr-create-slo-sli.md).
+The following table describes the available options in the Add an error budget policy form. For step-by-step instructions, see [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
 
 <table id="table_rqy_bnq_ybc"><thead><tr><th>
 
@@ -73,11 +74,11 @@ Policy action
 -   Send an email.
 -   Notify Microsoft Teams.
 
-If you select this option, you must also select a relevant notification destination. To set up a notification destination for your team, see [Create a notification destination in SRM](../task/create-notification-destination.md).
+If you select this option, you must also select a relevant notification destination. To set up a notification destination for your team, see [Create a notification destination in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/create-notification-destination.md).
 
-**Note:** To learn about the notifications that teams receive for breached error budget policies, see [Notifications for breached error budgets](srm-notifications-messages.md).
+**Note:** To learn about the notifications that teams receive for breached error budget policies, see [Notifications for breached error budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/srm-notifications-messages.md).
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SLO Management reference](service-level-objective-management-reference.md)
+</table>**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Components installed with AI Search
 description: Several types of components are installed with activation of the AI Search plugin, including scheduled jobs, tables, and user roles.Manage configuration settings for the AI Search application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/components-installed-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -15,9 +16,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 Several types of components are installed with activation of the AI Search plugin, including scheduled jobs, tables, and user roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](../../plugins/task/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md).
 
 ## Scheduled jobs installed
 
@@ -210,7 +211,7 @@ AI Search Indexed Source Statistics \[ais\_datasource\_stats\]
 
 </td><td>
 
-List of entries showing indexed record counts for indexed sources. For more information on these entries, see [Review record counts for indexed sources](../task/record-counts-indexed-sources-ais.md).
+List of entries showing indexed record counts for indexed sources. For more information on these entries, see [Review record counts for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/record-counts-indexed-sources-ais.md).
 
 </td></tr><tr><td>
 
@@ -385,9 +386,9 @@ List of imported user mapping table entries.**Note:** This table is only install
 
 AI Search includes the following roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
 
 ## AI Search administrator \[ais\_admin\]
 

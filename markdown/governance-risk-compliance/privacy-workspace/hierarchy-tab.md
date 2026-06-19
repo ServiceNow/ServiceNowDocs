@@ -1,7 +1,8 @@
 ---
 title: Hierarchy tab
-description: Use the Hierarchy tab to connect your processing activity to applications, vendors, companies, entities, business processes, and other activities. The Hierarchy tab builds a clear picture of how data moves through your organization.
+description: The Hierarchy tab connects your processing activity to applications, vendors, companies, entities, business processes, and other activities. It builds a clear picture of how data moves through your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/hierarchy-tab.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -13,7 +14,7 @@ breadcrumb: [Processing activities, Explore, Privacy Management, Governance, Ris
 
 # Hierarchy tab
 
-Use the Hierarchy tab to connect your processing activity to applications, vendors, companies, entities, business processes, and other activities. The Hierarchy tab builds a clear picture of how data moves through your organization.
+The Hierarchy tab connects your processing activity to applications, vendors, companies, entities, business processes, and other activities. It builds a clear picture of how data moves through your organization.
 
 ## When the Hierarchy tab is available
 
@@ -58,9 +59,9 @@ Consider the Talent Screening processing activity, which includes SHL, HireVue, 
 
 Enabling this filter scopes the lineage map strictly to the nodes that belong to Talent Screening. To explore the broader data landscape, toggle the filter off to access the global map, where you can see how HireVue and Tableau connect to and support other processing activities beyond Talent Screening.
 
-![image.processing-activity-enabled]
+\[Omitted image "processing-activity-enabled.png"\] Alt text: \[Part of processing activity checkbox selected\]
 
-![image.processing-activity-disabled]
+\[Omitted image "processing-activity-disabled.png"\] Alt text: Part of processing activity checkbox disabled
 
 ## How Part of processing activity works
 
@@ -70,11 +71,11 @@ Part of Processing Activity is always defined relative to the primary record. Yo
 
 By default, the lineage map displays nodes up to five levels downstream and one level upstream from the primary processing activity record. To display nodes beyond five downstream levels, update the `sn_privacy.nodemap.maxLevel` system property. The upstream display is always limited to one level and cannot be changed.
 
-For more information, see [Update the maximum node level for the lineage map](../task/updating-node-level-for-lineage-map.md).
+For more information, see [Update the maximum node level for the lineage map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/updating-node-level-for-lineage-map.md).
 
 ## Methods to create a lineage
 
-You can create a lineage from the Hierarchy tab of a processing activity. For more information, see [Create a lineage for a processing activity](../task/create-a-data-lineage-for-a-processing-activity.md).
+You can create a lineage from the Hierarchy tab of a processing activity. For more information, see [Create a lineage for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md).
 
 ## Information displayed on the Hierarchy tab
 
@@ -86,5 +87,5 @@ After a relationship is created, the Hierarchy tab displays the following column
 -   Part of processing activity: Indicates whether the application, vendor, company, entity, business process or processing activity is marked as part of the current processing activity.
 -   Description: A description of the relationship.
 
-**Parent Topic:**[Processing activities](ropa-record.md)
+**Parent Topic:**[Processing activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/ropa-record.md)
 

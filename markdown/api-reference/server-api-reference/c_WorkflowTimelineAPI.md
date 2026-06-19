@@ -2,6 +2,7 @@
 title: WorkflowTimeline - Global
 description: The WorkflowTimeline script include provides methods to generate a view that shows a workflow context on the timeline.Generates the Ajax response for the timeline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_WorkflowTimelineAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The WorkflowTimeline script include provides methods to generate a view that shows a workflow context on the timeline.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## WorkflowTimeline-getItems\(\)
 

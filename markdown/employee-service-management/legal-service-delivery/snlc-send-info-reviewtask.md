@@ -2,6 +2,7 @@
 title: Share requested information for internal review
 description: As a contract fulfiller, share information requested by the reviewer to proceed with the contract document review.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-send-info-reviewtask.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -27,58 +28,58 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d751109e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d214377e61">
 
 Method
 
-</th><th align="left" id="d751109e64">
+</th><th align="left" id="d214377e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d751109e70">
+</th></tr></thead><tbody><tr><td id="d214377e70">
 
 **My Work listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **My Work** &gt; **Requested Tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d751109e117">
+</td></tr><tr><td id="d214377e117">
 
 **Delegated to me listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Delegated to me** &gt; **Contract Review Tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d751109e164">
+</td></tr><tr><td id="d214377e164">
 
 **Contract Review Tasks listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Under **Contract Review tasks**, select **All** or **My tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d751109e211">
+</td></tr><tr><td id="d214377e211">
 
 **Contract Request Reviews tab**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract Requests** &gt; **Assigned to me**
 4.  Open the contract request from the list
 5.  Select **Reviews** tab.
@@ -101,5 +102,5 @@ Steps
 
 The information is shared with reviewer and the review task State changes to Work in progress.
 
-**Parent Topic:**[Internal review overview](snlc-expert-review.md)
+**Parent Topic:**[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expert-review.md)
 

@@ -2,6 +2,7 @@
 title: Running order guides automatically
 description: Service catalog order guides allow customers to make a single service catalog request that can generate several ordered items. Administrators can configure order guides to run automatically, from a workflow or a script to generate a set of ordered items without manually submitting a service catalog request. Administrators can also review and reprocess the order guide failures.Running order guides with a server-side script is more complex than using workflows, but it allows more flexibility and can be used in non-workflow situations.Running an order guide from a workflow is suitable if you include order guides as part of a broader workflow-based process.Order guide processing can fail, for example if the order guide being run does not exist. When a failure occurs during the order guide processing, the Scriptable Order Guide Failures submodule allows you to review and reprocess the failures. A record is created for each failure and once you fix the errors that caused the initial failure, you can reprocess the failed order guides.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_RunningOrderGuidesAutomatically.html
 release: australia
 product: Scripts
 classification: scripts
@@ -19,7 +20,7 @@ As a use case, an onboarding workflow for a new employee can run an order guide 
 
 **Note:** You can only save catalog items, not the order guide \(that is, initial landing page options\).
 
-**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ServerScripting.md)
 
 ## Running order guides from scripts
 

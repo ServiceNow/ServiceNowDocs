@@ -2,6 +2,7 @@
 title: Content meta tag hierarchy
 description: Page and site level meta tags are included in a content meta tag hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/r\_ContentMetaTagHierarchy.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -60,5 +61,5 @@ lunch        tacos
 dinner       steak
 ```
 
-**Parent Topic:**[Content Management meta tags](../concept/c_ContentManagementMetaTags.md)
+**Parent Topic:**[Content Management meta tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementMetaTags.md)
 

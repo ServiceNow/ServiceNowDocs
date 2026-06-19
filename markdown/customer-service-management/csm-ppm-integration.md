@@ -2,7 +2,10 @@
 title: Integrating with Customer Project Management
 description: Integrate Customer Service Management with the Project Portfolio Management application. This integration enables customers to manage complex projects with multiple tasks and provide end users with visibility into these projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-integration.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,5 +26,5 @@ When subscribed to the Strategic Portfolio Management \(SPM\) Subscription Produ
 
 ## Customer Project Management Guided Setup
 
-Activating the Customer Project Management plugin adds the Customer Project Management section to the Customer Service Management Guided Setup. For more information, see [Integrate with Customer Project Management using Guided Setup](csm-ppm-configuration.md).
+Activating the Customer Project Management plugin adds the Customer Project Management section to the Customer Service Management Guided Setup. For more information, see [Integrate with Customer Project Management using Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ppm-configuration.md).
 

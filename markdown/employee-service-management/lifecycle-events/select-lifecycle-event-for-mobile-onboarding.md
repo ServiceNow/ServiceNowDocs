@@ -2,11 +2,12 @@
 title: Select a Lifecycle Event for Now Mobile
 description: Select the Lifecycle Event that you want to use with Now Mobile. When an onboarding case for that event type is created, the new hire completes the to-dos that are associated with that case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/select-lifecycle-event-for-mobile-onboarding.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_hr\_le.admin
 
 You must also make sure that the **Display activity sets to subject person** option is selected, as well as the **Show case to subject person** option on the corresponding HR service.
 
-A Lifecycle Event administrator must have set up the Lifecycle Event and the corresponding HR service you want to use with Now Mobile. See [Building a lifecycle event](../concept/hr-lifecycle-event-configuration.md) for more information.
+A Lifecycle Event administrator must have set up the Lifecycle Event and the corresponding HR service you want to use with Now Mobile. See [Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md) for more information.
 
 ## Procedure
 
@@ -37,11 +38,11 @@ A Lifecycle Event administrator must have set up the Lifecycle Event and the cor
 
     3.  On the Lifecycle Event form, set the **Event type** field to `Onboarding`.
 
-        ![Set the Event type field to Onboarding.](../image/mobile-onboarding-le-event-type-2.png)
+        \[Omitted image "mobile-onboarding-le-event-type-2.png"\] Alt text: Set the Event type field to Onboarding.
 
     4.  Make sure that the **Display activity sets to subject person** option is selected.
 
-        ![Select the Display activity sets to subject person option.](../image/mobile-onboarding-le-checkbox-2.png)
+        \[Omitted image "mobile-onboarding-le-checkbox-2.png"\] Alt text: Select the Display activity sets to subject person option.
 
 2.  On the corresponding HR service form, make sure that the **Show case to subject person** option is selected.
 
@@ -53,12 +54,12 @@ A Lifecycle Event administrator must have set up the Lifecycle Event and the cor
 
     3.  Make sure that the **Show case to subject person** option is selected.
 
-        ![Select the Show case to subject person option.](../image/mobile-onboarding-hr-service-2.png)
+        \[Omitted image "mobile-onboarding-hr-service-2.png"\] Alt text: Select the Show case to subject person option.
 
 
-**Parent Topic:**[Building a lifecycle event](../concept/hr-lifecycle-event-configuration.md)
+**Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
-**Previous topic:**[Preview and test a lifecycle event](test-lifecycle-event.md)
+**Previous topic:**[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/test-lifecycle-event.md)
 
-**Next topic:**[Lifecycle Events employee requests](../concept/employee-requests.md)
+**Next topic:**[Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/employee-requests.md)
 

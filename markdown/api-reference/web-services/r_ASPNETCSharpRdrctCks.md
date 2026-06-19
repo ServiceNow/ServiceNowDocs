@@ -2,6 +2,7 @@
 title: Sample ASP.NET with C Sharp redirect with cookies
 description: This sample ASP.NET code creates a simple authentication portal and passes an unencrypted HTTP header as a cookie.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_ASPNETCSharpRdrctCks.html
 release: australia
 product: Web Services
 classification: web-services
@@ -91,5 +92,5 @@ public partial class _Default : System.Web.UI.Page
 }
 ```
 
-**Parent Topic:**[Inbound web service examples](../../../integrate/examples/concept/c_InboundWebServiceExamples.md)
+**Parent Topic:**[Inbound web service examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_InboundWebServiceExamples.md)
 

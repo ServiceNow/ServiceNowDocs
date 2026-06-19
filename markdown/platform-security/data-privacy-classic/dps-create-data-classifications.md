@@ -2,6 +2,7 @@
 title: Create data classifications
 description: Create your own user-defined data classifications in the \[data\_classification\] table that you can then assign to specific columns in specific tables. Create new data classes to start the classification process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dps-create-data-classifications.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic

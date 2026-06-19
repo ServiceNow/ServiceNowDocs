@@ -2,6 +2,7 @@
 title: Set up the Secureworks CTP spoke
 description: Integrate the ServiceNow instance and Secureworks CTP by registering a custom application in Secureworks Portal to authenticate ServiceNow requests.Create a credential record for the Secureworks CTP Specify whether record is for a host, instance, server, custom application, or account: account. The Secureworks CTP spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Secureworks account. The Secureworks CTP spoke connection and credential aliases use these connections to perform API actions in Secureworks portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-secureworks-ctp.html
 release: australia
 product: Integration Hub
 classification: integration-hub

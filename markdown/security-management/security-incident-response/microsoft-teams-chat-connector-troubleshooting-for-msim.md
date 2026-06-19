@@ -2,6 +2,7 @@
 title: Microsoft Teams Chat Connector troubleshooting for MSIM
 description: Troubleshooting the scheduled jobs, system properties, and Microsoft Teams flow designer subflows for Microsoft Teams chat connector.Scheduled jobs are automated jobs that are run to process the notifications from Microsoft Teams chat connector and renew the Microsoft Teams subscriptions on a recurring schedule.View this section to understand the Microsoft Teams related flow designer subflows used to administer the Chat Channel\(s\) creation and user access from Major Security Incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/microsoft-teams-chat-connector-troubleshooting-for-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ Verify chat connector process scheduled jobs in case if collaboration chat messa
 -   On the external collaboration activity stream of the MSIM workspace.
 
 
-**Parent Topic:**[Configure Microsoft Teams](chat-channel-provider-config.md)
+**Parent Topic:**[Configure Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/chat-channel-provider-config.md)
 
 ## Scheduled jobs for Microsoft Teams
 

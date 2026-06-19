@@ -2,6 +2,7 @@
 title: Cisco Meraki installed integrations
 description: Predefined system integrations use Meraki REST APIs to pull metric data into your ServiceNow instance to monitor your Cisco Meraki devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -27,5 +28,5 @@ Predefined system integrations use Meraki REST APIs to pull metric data into you
 |Uplink Loss and Latency|Monitors packet loss and latency for WAN uplinks on MX appliances.|
 |VPN Stats|Monitors site-to-site VPN tunnel status for MX appliances.|
 
-**Parent Topic:**[Telecommunications Service Operations Management reference](../reference/components-installed-with-tsom.md)
+**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 

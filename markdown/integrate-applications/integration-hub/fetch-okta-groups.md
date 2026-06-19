@@ -2,6 +2,7 @@
 title: Fetch Okta groups
 description: Fetch Okta groups into your instance so that you can assign them to different users. You can fetch the groups on an as-needed or scheduled basis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/fetch-okta-groups.html
 release: australia
 product: Integration Hub
 classification: integration-hub

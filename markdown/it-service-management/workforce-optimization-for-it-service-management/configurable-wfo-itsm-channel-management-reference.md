@@ -2,6 +2,7 @@
 title: Channel Management components in Workforce Optimization for ITSM
 description: Workforce Optimization for ITSM has roles to administer channels and queues, properties to configure default behavior, and reports to analyze data in Workforce Optimization for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-channel-management-reference.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -59,7 +60,7 @@ Grants administrative rights to create, read, update, and delete \(CRUD\) channe
 </td></tr></tbody>
 </table>## Properties
 
-**Note:** To use channel management properties, they must be added to the System Property \[sys\_properties\] table. For information on how to add a system property, refer to [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+**Note:** To use channel management properties, they must be added to the System Property \[sys\_properties\] table. For information on how to add a system property, refer to .
 
 <table id="table_whl_zfk_twb"><thead><tr><th>
 

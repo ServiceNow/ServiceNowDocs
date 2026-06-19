@@ -2,6 +2,7 @@
 title: Deactivate continuous discovery in Kubernetes Visibility Agent
 description: Switch off continuous discovery by Kubernetes Visibility Agent if all you need is periodic snapshots of your cluster resources. If you have multiple clusters with frequent changes, deactivating continuous discovery reduces the load on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-continuous-discovery-off.html
 release: australia
 product: Discovery
 classification: discovery
@@ -28,5 +29,5 @@ Role required: none
 
     -   When using the k8s\_informer.yaml, enter the value “false” in the line under CONTINUOUS\_DISCOVERY.
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
 

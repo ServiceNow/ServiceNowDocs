@@ -2,6 +2,7 @@
 title: Configure data extraction modes
 description: Configure the extraction modes for use cases to define how Document Intelligence extracts fields from documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/configure-data-extraction-modes.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Set up document extraction use cases, Configure, Document Intellige
 
 Configure the extraction modes for use cases to define how Document Intelligence extracts fields from documents.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Before you begin
 
@@ -76,7 +77,7 @@ DocIntel automatically extracts the data for all fields and processes the docume
 
 2.  Select the use case that you would like to configure.
 
-3.  Select the settings icon \(![Use case settings icon](../image/icon-docintel-settings-gear.png)\).
+3.  Select the settings icon \(\[Omitted image "icon-docintel-settings-gear.png"\] Alt text: Use case settings icon\).
 
 4.  Select the extraction mode for the use case.
 

@@ -2,6 +2,7 @@
 title: Upload the manifest file for a workplace employee
 description: Upload the manifest file \(add-in for Microsoft Outlook\) for a workplace employee \(single user\). Employees can create workplace reservations using the Microsoft Outlook add-in file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/uplooad-manifest-single-user.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -17,7 +18,7 @@ Upload the manifest file \(add-in for Microsoft Outlook\) for a workplace employ
 
 ## Before you begin
 
-Activated the add-in for Microsoft Outlook. For more information, see [Activate the add-in for Microsoft Outlook](add-outlook-addin.md).
+Activated the add-in for Microsoft Outlook. For more information, see [Activate the add-in for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/add-outlook-addin.md).
 
 Role required: admin
 

@@ -2,6 +2,7 @@
 title: Configure company logo on your portal header
 description: Display your company logo on the header of your portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-level-1-header.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

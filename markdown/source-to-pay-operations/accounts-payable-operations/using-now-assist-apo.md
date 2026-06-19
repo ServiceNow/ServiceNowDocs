@@ -2,12 +2,14 @@
 title: Using Now Assist for Accounts Payable Operations \(APO\)
 description: If you've the sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_cm.agent role, you can summarize the details of an invoice case, completed actions, or pending tasks with the Now Assist for Accounts Payable Operations \(APO\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/using-now-assist-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, AP case, generative AI, Now Assist, AI automation]
 breadcrumb: [Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 

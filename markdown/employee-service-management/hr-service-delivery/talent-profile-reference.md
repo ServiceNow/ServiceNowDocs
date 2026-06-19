@@ -2,6 +2,7 @@
 title: Talent Profile reference
 description: Reference topics provide additional information about the forms, properties, and components in Talent profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/talent-profile-reference.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

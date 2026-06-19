@@ -2,6 +2,7 @@
 title: Set the job proficiency level automatically
 description: Set the proficiency level automatically for the skills across jobs based on the skill level type and role group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/proficiency-autofill-config.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -17,7 +18,7 @@ Set the proficiency level automatically for the skills across jobs based on the 
 
 ## Before you begin
 
-The job level progression must have been defined. For more information, see [Creating a job level progression](skills-int-job-level-progress.md).
+The job level progression must have been defined. For more information, see [Creating a job level progression](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-int-job-level-progress.md).
 
 Role required: sn\_skills\_int.admin
 
@@ -35,7 +36,7 @@ Role required: sn\_skills\_int.admin
 
 4.  On the Proficiency autofill form, fill in the fields.
 
-    For a description of the field values, see [Proficiency level autofill configuration form](../reference/proficiency-autofill-form.md).
+    For a description of the field values, see [Proficiency level autofill configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/proficiency-autofill-form.md).
 
 5.  Select **Submit**.
 

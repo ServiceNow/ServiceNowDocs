@@ -2,6 +2,7 @@
 title: Work on an import task
 description: Select a source and resolve issues to complete the import task for a floor plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/work-import-task.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -35,13 +36,13 @@ The required input is based on the **Step** field and more information is added 
 
 2.  From the Floor plan import tasks list, select the task that you want to work on.
 
-    You can also select an import task from the import group. For more information about import groups, see [Create an Import Group](create-import-group.md).
+    You can also select an import task from the import group. For more information about import groups, see [Create an Import Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/create-import-group.md).
 
 3.  If the import task is at the `Source retrieval` step, select a source for the import task.
 
     If the file name is the same as the source, the system automatically selects the source and moves to the next step. Otherwise, the Automate map updates agentic workflow is triggered to retrieve the source. The Map Admin Agent autonomously retrieves sources for the uploaded CAD file. If the correct source is found, the agent sets the source and resumes the task. If the source isn't found, the agent moves the task to the `Waiting user input` state.
 
-    For more information about the Automate map updates AI agentic workflow, see [Automate map updates agentic workflow](../../now-assist-wsd/concept/automate-map-updates-agent-ai.md).
+    For more information about the Automate map updates AI agentic workflow, see [Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md).
 
     **Note:** If **Supervised AI execution** was selected while creating the import group, you must select **Trigger AI Agent** to trigger the Automate map updates agentic workflow.
 
@@ -59,7 +60,7 @@ The required input is based on the **Step** field and more information is added 
 
     2.  Set the GeoReference of the floor plan.
 
-        For more information about setting the GeoReference, see [Georeference your floor plan](georeference-floor-plan.md).
+        For more information about setting the GeoReference, see [Georeference your floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/georeference-floor-plan.md).
 
     3.  Select **Continue**.
 
@@ -73,14 +74,14 @@ The required input is based on the **Step** field and more information is added 
 
         For more information about configuring layers and places, see the following topics:
 
-        -   [Configure layers](wsd-edit-layers.md)
-        -   [Configure places](edit-places.md)
+        -   [Configure layers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/wsd-edit-layers.md)
+        -   [Configure places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/edit-places.md)
     3.  Select **Continue**.
 
 
-**Parent Topic:**[Bulk update floor plans](../concept/bulk-import-cad-files.md)
+**Parent Topic:**[Bulk update floor plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/bulk-import-cad-files.md)
 
-**Previous topic:**[Create an Import Group](create-import-group.md)
+**Previous topic:**[Create an Import Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/create-import-group.md)
 
-**Next topic:**[Compute CAD file properties to extract space or room surface area](compute-cad-properties.md)
+**Next topic:**[Compute CAD file properties to extract space or room surface area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/compute-cad-properties.md)
 

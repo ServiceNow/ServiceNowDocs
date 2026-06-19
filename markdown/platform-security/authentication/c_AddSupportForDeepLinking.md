@@ -2,6 +2,7 @@
 title: Add deep linking support for SAML
 description: Deep linking allows instances to support direct email links to a particular record in the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_AddSupportForDeepLinking.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Send a notification from Major incident management workbench
 description: Send a Microsoft Teams notification to the stakeholders associated with a major incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/send-mim-notification.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,7 +34,7 @@ Role required: admin
 
     The communication task appears.
 
-    ![Compose button for communication task.](../images/compose-notification-mim-workbench.png)
+    \[Omitted image "compose-notification-mim-workbench.png"\] Alt text: Compose button for communication task.
 
 6.  Select **Compose**.
 
@@ -45,14 +46,14 @@ Role required: admin
 
     3.  Select **Send**.
 
-        ![Compose modal](../images/compose-modal-mim.png)
+        \[Omitted image "compose-modal-mim.png"\] Alt text: Compose modal
 
 
 ## Result
 
 The notification is sent to the recipients in Microsoft Teams. Recipients can select **View ticket details** to view the ticket in the ServiceNow instance.
 
-![Notification in Microsoft Teams.](../images/notification-in-teams.png)
+\[Omitted image "notification-in-teams.png"\] Alt text: Notification in Microsoft Teams.
 
-**Parent Topic:**[Add communication plan from MIM workbench](add-communication-plan-mim-workbench.md)
+**Parent Topic:**[Add communication plan from MIM workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-communication-plan-mim-workbench.md)
 

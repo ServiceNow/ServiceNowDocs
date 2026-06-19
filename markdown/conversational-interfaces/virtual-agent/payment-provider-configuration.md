@@ -2,6 +2,7 @@
 title: Complete the Payment Provider Configuration
 description: Fill out the information in the Payment Provider Configuration table to connect your payment provider information to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/payment-provider-configuration.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent

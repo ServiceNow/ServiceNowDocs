@@ -2,6 +2,7 @@
 title: Cribl data input configuration fields
 description: Description of the fields on the Cribl data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-cribl-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -110,5 +111,5 @@ Cribl destination
 The created Cribl destination. The Cribl destination points to the MID Server host and port configured in the data input. This field is read-only.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](../concept/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

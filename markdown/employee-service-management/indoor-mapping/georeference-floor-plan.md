@@ -2,6 +2,7 @@
 title: Georeference your floor plan
 description: Georeference and position your source floor plan on the map to scale it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/georeference-floor-plan.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -23,11 +24,11 @@ Role required: admin
 
 1.  Select the Map Configuration tab to display the Map configuration page.
 
-    **Note:** if the floor plan isn’t positioned on the map, georeference isn’t set \(![Georeference not set warning alert.](../images/wsd-warning-icon.png)\) alert is shown.
+    **Note:** if the floor plan isn’t positioned on the map, georeference isn’t set \(\[Omitted image "wsd-warning-icon.png"\] Alt text: Georeference not set warning alert.\) alert is shown.
 
 2.  Select Georeference, then select **Edit**.
 
-    ![Georeference and position your floor plan configuration page.](../images/wsd-georeference-option.png)
+    \[Omitted image "wsd-georeference-option.png"\] Alt text: Georeference and position your floor plan configuration page.
 
 3.  Move around the pins to position your floor plan on the map.
 
@@ -36,9 +37,9 @@ Role required: admin
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configure CAD objects using the Map Configuration tab](../concept/manage-cad-map-config.md)
+**Parent Topic:**[Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-cad-map-config.md)
 
-**Previous topic:**[Configure CAD objects using the Map Configuration tab](../concept/manage-cad-map-config.md)
+**Previous topic:**[Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-cad-map-config.md)
 
-**Next topic:**[Configure layers](wsd-edit-layers.md)
+**Next topic:**[Configure layers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/wsd-edit-layers.md)
 

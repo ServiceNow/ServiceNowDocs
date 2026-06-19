@@ -2,11 +2,12 @@
 title: PowerShell probe version 2 system property
 description: View detailed PowerShell credential information and view extended logging information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/powershell-probe-v2.html
 release: australia
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [MID Servers for Orchestration, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,7 +26,7 @@ Enables the PowerShell probe version 2 for use with all PowerShell activities. T
 
 You can access the property by selecting the MID Server Properties link in the navigation pane:
 
-![Use PowerShell Probe v2](../image/powershell-probe-v2.png)
+\[Omitted image "powershell-probe-v2.png"\] Alt text: Use PowerShell Probe v2
 
-**Parent Topic:**[MID Servers for Orchestration](../../orchestration/concept/c_OrchestrationMID.md)
+**Parent Topic:**[MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationMID.md)
 

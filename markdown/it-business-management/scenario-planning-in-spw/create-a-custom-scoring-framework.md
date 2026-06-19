@@ -2,6 +2,7 @@
 title: Create a custom scoring framework
 description: Start scoring your planning items based on your preferences by creating a custom scoring framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-a-custom-scoring-framework.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -21,8 +22,6 @@ Role required: sn\_align\_core\_apw\_admin
 
 ## About this task
 
-Creating a custom scoring framework.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Strategic Planning** &gt; **Scoring Frameworks**.
@@ -38,7 +37,7 @@ Creating a custom scoring framework.
 
 ## What to do next
 
-[Create your scoring framework attributes](create-scoring-framework-attributes.md)
+[Create your scoring framework attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-scoring-framework-attributes.md)
 
-**Parent Topic:**[Custom scoring frameworks in Strategic Planning](../concept/custom-scoring-frameworks-in-strategic-planning.md)
+**Parent Topic:**[Custom scoring frameworks in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/custom-scoring-frameworks-in-strategic-planning.md)
 

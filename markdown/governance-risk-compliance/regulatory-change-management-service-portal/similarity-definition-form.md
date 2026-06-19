@@ -2,6 +2,7 @@
 title: Similarity Definition Form
 description: Use the Similarity Definition Form form in Compliance Workspace to create a similarity definition for regulatory compliance mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/similarity-definition-form.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -126,5 +127,5 @@ Update Frequency
 Frequency of how often you want to refresh the data that you use to retrieve your similarity results. For example, new citations typically occur frequently throughout the day. If you have new citations, you may want to select an update frequency of **Every 15 minutes**. This frequency can increase the likelihood that new citations are included in the refresh.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Train and use the similarity solution to recommend citations on regulatory alerts](../task/retrain-ml-reg-compliance-mapping.md)
+</table>**Parent Topic:**[Train and use the similarity solution to recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)
 

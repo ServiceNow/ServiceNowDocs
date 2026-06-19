@@ -2,6 +2,7 @@
 title: Frequently Asked Questions
 description: Frequently asked questions while using Access Analyzer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/frequently-asked-questions.html
 release: australia
 product: Access Control
 classification: access-control
@@ -43,7 +44,7 @@ How are ACLs evaluated?
 
 At a table level, ACLs are evaluated only for roles and security attributes. Conditions and scripts aren’t evaluated.
 
- Roles are evaluated first. If Roles are blocked, conditions and scripts are skipped. For more information, see [Configure an ACL rule](../../../administer/contextual-security/task/t_CreateAnACLRule.md).
+ Roles are evaluated first. If Roles are blocked, conditions and scripts are skipped. For more information, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ What is the Alert icon in the Access results mean?
 
 </td><td>
 
-Alert Icon in any status indicates the presence of a script in the ACL. Review highlighted ACLs to understand the final access. To know more about how these controls are evaluated and review the logic used to determine the access, see [Access Analyzer Debug logs](access-analyzer-logs.md).
+Alert Icon in any status indicates the presence of a script in the ACL. Review highlighted ACLs to understand the final access. To know more about how these controls are evaluated and review the logic used to determine the access, see [Access Analyzer Debug logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-analyzer-logs.md).
 
 </td></tr><tr><td>
 

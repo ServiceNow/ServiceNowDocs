@@ -2,6 +2,7 @@
 title: Components installed with the Proactive Triggers feature
 description: When the Proactive Triggers feature is installed, the feature includes required components, such as specific roles and tables. Admins can review these roles and tables to make sure that the feature has been installed correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/components-installed-with-proactive-triggers.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -15,7 +16,7 @@ breadcrumb: [Proactive Triggers reference, Proactive Triggers, Manage people and
 
 When the Proactive Triggers feature is installed, the feature includes required components, such as specific roles and tables. Admins can review these roles and tables to make sure that the feature has been installed correctly.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application .
 
 ## Roles installed with the Proactive Triggers feature
 
@@ -56,8 +57,8 @@ Allows users to create proactive rules and have access to related tables and rel
 |Proactive Execution History  \[sys\_cs\_ptrigger\_execution\]|Execution history for the last 7 days|
 |Proactive Daily Report \[sys\_cs\_ptrigger\_report\_daily\]|Aggregated execution data by user, rule, or action per day|
 
--   **[Proactive Triggers roles](../reference/PT-roles.md#)**  
+-   **[Proactive Triggers roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/PT-roles.md)**  
 Proactive Triggers adds the Proactive Triggers admin role.
 
-**Parent Topic:**[Proactive Triggers reference](../reference/proactive-triggers-reference.md)
+**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)
 

@@ -2,6 +2,7 @@
 title: Controls in Virtual Agent API
 description: Virtual Agent API provides you various controls to manage the responses in your conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-api-controls.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -773,5 +774,5 @@ Boolean options
 
 Indicates that the conversation has started in Virtual Agent API.
 
-**Parent Topic:**[Using Virtual Agent API](use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

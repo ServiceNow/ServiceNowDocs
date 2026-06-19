@@ -2,6 +2,7 @@
 title: Request clarification on a purchase request from your mobile device
 description: As an approver, request clarification from the shopper on a purchase requisition if you have questions that you need answers to before approving or rejecting the purchase requisition, from your mobile application. Purchase requisition approvals are generated when an approval rule is triggered on meeting certain criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/request-clarification-on-purchase-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -42,5 +43,5 @@ Role required: sn\_shop.shopper
 7.  Tap the Next icon.
 
 
-**Parent Topic:**[Shopper to-dos on your mobile](../reference/shopper-todos-mobile.md)
+**Parent Topic:**[Shopper to-dos on your mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos-mobile.md)
 

@@ -2,7 +2,10 @@
 title: Associate install base items with account consumers
 description: Enable customer service managers to track the instances provisioned by associating install base items with account consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_AssociateInstallBaseItems.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -39,7 +42,7 @@ Add an existing consumer
 
 </td><td>
 
-1.  In the **Consumer** field, select the Lookup using list icon \(![Lookup using list icon.](../../../common/image/List_SearchIcon.png)\).
+1.  In the **Consumer** field, select the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.\).
 2.  Select a consumer from the list.
 
 
@@ -49,7 +52,7 @@ Add a new consumer
 
 </td><td>
 
-1.  In the **Consumer** field, select the Lookup using list icon \(![Lookup using list icon.](../../../common/image/List_SearchIcon.png)\).
+1.  In the **Consumer** field, select the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.\).
 2.  Select **New**.
 3.  On the Consumer form, fill in the fields.
 4.  Select **Submit**.

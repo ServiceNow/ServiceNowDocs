@@ -2,13 +2,14 @@
 title: Configure a certificate attestation review
 description: Send out emails to all certificate owners confirming their ownership or confirming they're no longer certificate owners at set intervals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-certificate-attestation.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
 last_updated: "0256-02-22"
 reading_time_minutes: 1
-breadcrumb: [Certificate Attestation for Certificate Owners, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Certificate attestation for certificate owners, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure a certificate attestation review

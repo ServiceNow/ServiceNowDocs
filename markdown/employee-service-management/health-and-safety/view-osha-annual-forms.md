@@ -2,6 +2,7 @@
 title: View a saved OSHA 300 and 300A form
 description: View a saved OSHA 300 and 300A form for an establishment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/view-osha-annual-forms.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -25,7 +26,7 @@ Role required: sn\_ohs\_im.compliance\_manager
 
     The Health and Safety Workspace opens in a new tab of the browser window.
 
-2.  Select the incident management icon \(![Incident Management icon.](../image/list-icon-hs.png)\).
+2.  Select the incident management icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Incident Management icon.\).
 
 3.  In the **Lists** tab, under the **Establishments** list, select **All**.
 
@@ -34,5 +35,5 @@ Role required: sn\_ohs\_im.compliance\_manager
 5.  In the **Attachments** section, select the required OSHA form PDF file to open it.
 
 
-**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](../concept/generating-osha-forms.md)
+**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/generating-osha-forms.md)
 

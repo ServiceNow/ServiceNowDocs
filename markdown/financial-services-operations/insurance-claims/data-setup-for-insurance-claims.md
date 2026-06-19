@@ -2,13 +2,14 @@
 title: Setting up the customer data for Insurance claims
 description: Before using the Insurance claims application, make sure that you have the customer data for your individual and business customers on your instance so that you can associate the policies with your customers and create incidents for them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/data-setup-for-insurance-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Setting up the customer data for Insurance claims
@@ -19,11 +20,11 @@ The customer data includes the information about the customer and accounts. Cons
 
 Existing customers can be imported by using a guided setup. New customers can be created manually by using the Customer Service Management application. For more information, refer to these topics:
 
--   [Configure consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-consumers.md)
+-   
 
     Learn how to set up the data for your individual consumers, including their personal details and any other necessary consumer-specific information.
 
--   [Configure accounts and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-accounts-contacts.md)
+-   
 
     Learn how to set up the data for your business customers. You can create and set up the corporate accounts and link them with the relevant contacts \(that is, the representatives or stakeholders from those companies\).
 

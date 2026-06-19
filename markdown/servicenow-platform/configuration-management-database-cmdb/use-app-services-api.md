@@ -2,6 +2,7 @@
 title: Use application services APIs
 description: Application services provide APIs that let you perform operations such as creating and updating an service instance, populating it with CIs from the CMDB, and retrieving details from an existing service instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/use-app-services-api.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -21,9 +22,9 @@ A service instance is a set of interconnected applications and hosts that are co
 
 ## Create an application service
 
-Using the [createOrUpdateService - POST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/application-service-api.md) REST API to create an service instance suits your organization if the ServiceNow CMDB already contains the CIs making up the service. Typically, it is the case when you have manually added CIs directly into the CMDB, or used the Discovery application to discover CIs and store information about them in the CMDB. You can also use this API to create an service instance containing CIs discovered using non-ServiceNow applications.
+Using the createOrUpdateService - POST REST API to create an service instance suits your organization if the ServiceNow CMDB already contains the CIs making up the service. Typically, it is the case when you have manually added CIs directly into the CMDB, or used the Discovery application to discover CIs and store information about them in the CMDB. You can also use this API to create an service instance containing CIs discovered using non-ServiceNow applications.
 
-By default, when an service instance is created, all CI connections are of the **Depends on::Used by** relationship type. You can modify this default type by changing the value of the [sa.it\_service.manual\_ci\_rel\_type](../reference/components-installed-app-services.md) property.
+By default, when an service instance is created, all CI connections are of the **Depends on::Used by** relationship type. You can modify this default type by changing the value of the [sa.it\_service.manual\_ci\_rel\_type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.md) property.
 
 Before creating an application service, ensure that:
 
@@ -33,33 +34,33 @@ Before creating an application service, ensure that:
 
 The Mapped Application Service \[cmdb\_ci\_service\_discovered\] table contains every service instance including services you create using APIs.
 
-You can also manually create an service instance using the user interface as described in [Create a Service instance \(application service\)](../../service-mapping/task/create-it-services.md).
+You can also manually create an service instance using the user interface as described in [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
 ## Retrieve content from an application service
 
-Use the [getContent - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/application-service-api.md) REST API to retrieve a list of CIs and the relationships between them, for an application service that was created manually.
+Use the getContent - GET REST API to retrieve a list of CIs and the relationships between them, for an application service that was created manually.
 
 ## Additional APIs
 
 The following JavaScript APIs are also available:
 
--   [addCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md): Add a CI to a manually created an service instance.
+-   addCI\(\): Add a CI to a manually created an service instance.
 
-    For restrictions on the CIs being added and other details about adding a CI to an service instance, see [Manually add CIs to an application service](../../service-mapping/task/manually-add-ci-to-business-service.md).
+    For restrictions on the CIs being added and other details about adding a CI to an service instance, see [Manually add CIs to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manually-add-ci-to-business-service.md).
 
--   [addManualConnection\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md): Add a manually created connection to an application service.
+-   addManualConnection\(\): Add a manually created connection to an application service.
 
--   [migrateManualToApplicationService\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md): Convert a manual service to an application service.
+-   migrateManualToApplicationService\(\): Convert a manual service to an application service.
 
--   [populateApplicationService\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md): Populate an application service with CIs and relationships from the designated entry point.
+-   populateApplicationService\(\): Populate an application service with CIs and relationships from the designated entry point.
 
--   [removeCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md): Remove a manually created CI from an application service.
+-   removeCI\(\): Remove a manually created CI from an application service.
 
--   [removeManualConnection\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md): Remove a manually created connection and the connected CI from an application service.
+-   removeManualConnection\(\): Remove a manually created connection and the connected CI from an application service.
 
 
 **Related topics**  
 
 
-[Application Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/application-service-api.md)
+[bundle-crapiref.application-service-api]
 

@@ -2,6 +2,7 @@
 title: Create a base policy for Security Posture Control \(example\)
 description: An example of how to create a base policy that you can use to create other policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-create-base-policy-example.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

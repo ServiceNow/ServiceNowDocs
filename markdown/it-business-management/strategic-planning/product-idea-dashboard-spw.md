@@ -2,11 +2,12 @@
 title: Product Idea Dashboard in Strategic Planning Workspace
 description: The Product Idea Dashboard helps product managers understand the health, flow, and maturity of submitted ideas, helping innovations progress and helping prevent backlog bottlenecks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/product-idea-dashboard-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Manage
 
 The Product Idea Dashboard helps product managers understand the health, flow, and maturity of submitted ideas, helping innovations progress and helping prevent backlog bottlenecks.
 
-![Product Idea Dashboard in Strategic Planning.](../Images/product-idea-dashboard-spw.gif)
+\[Omitted image "product-idea-dashboard-spw.gif"\] Alt text: Product Idea Dashboard in Strategic Planning.
 
 <table id="table_ky1_v5h_cfc"><thead><tr><th>
 
@@ -109,5 +110,5 @@ Idea Analyzer
 Visualization of ideas with grouped by Impact and stacked by Priority.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](exploring-dashboards-spw.md)
+</table>**Parent Topic:**[Exploring Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/exploring-dashboards-spw.md)
 

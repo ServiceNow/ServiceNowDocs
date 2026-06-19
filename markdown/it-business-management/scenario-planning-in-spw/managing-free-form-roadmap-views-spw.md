@@ -2,11 +2,12 @@
 title: Managing free-form roadmap views
 description: Portfolio managers can create customized views for their free-form roadmap by applying personalization settings such as grouping, milestones selection, dependencies selection, and tracking mode. Portfolio owners or editors can share these personalized views with stakeholders to enable easier collaboration on the free-form roadmaps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/managing-free-form-roadmap-views-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Create a free-form roadmap, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -24,12 +25,12 @@ Portfolio managers can create personalized views as needed by applying settings 
 -   Free-form roadmap views can be shared with stakeholders to enable collaboration on the free-form roadmap.
 -   Switch between shared and private views as needed.
 
--   **[Create a free-form roadmap view](../task/create-free-form-roadmap-view-spw.md)**  
+-   **[Create a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-free-form-roadmap-view-spw.md)**  
 Create a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Edit a free-form roadmap view](../task/edit-free-form-roadmap-view-spw.md)**  
+-   **[Edit a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/edit-free-form-roadmap-view-spw.md)**  
 Edit a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Delete a free-form roadmap view](../task/delete-free-form-roadmap-view-spw.md)**  
+-   **[Delete a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/delete-free-form-roadmap-view-spw.md)**  
 Delete a customized free-form roadmap view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 
-**Parent Topic:**[Create a free-form roadmap](../task/create-a-roadmap-in-roadmap-planning.md)
+**Parent Topic:**[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md)
 

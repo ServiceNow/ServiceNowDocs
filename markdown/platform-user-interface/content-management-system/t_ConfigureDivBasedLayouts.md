@@ -2,6 +2,7 @@
 title: Configure DIV-based layouts
 description: After you create your site, you can change the site layout with DIV tags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_ConfigureDivBasedLayouts.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -44,5 +45,5 @@ A theme named **Administration Theme - Charcoal** is included as an example of C
 3.  Review the code.
 
 
-**Parent Topic:**[Content Management meta tags](../concept/c_ContentManagementMetaTags.md)
+**Parent Topic:**[Content Management meta tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementMetaTags.md)
 

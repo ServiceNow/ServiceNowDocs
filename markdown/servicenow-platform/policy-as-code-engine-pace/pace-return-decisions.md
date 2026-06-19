@@ -2,6 +2,7 @@
 title: Policy invocation API
 description: When a PaCE policy is invoked, the calling service passes the relevant object \(tables and document IDs\) that is being validated by providing the documentRecord object. A calling service is a service or product that uses the PaCE API. PaCE determines which policies must be executed by using the mapping table and the documentRecord.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-return-decisions.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

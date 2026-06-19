@@ -1,7 +1,8 @@
 ---
 title: Create SolarWinds monitor credentials
-description: Create credentials to access SolarWinds monitor.
+description: Create a Basic Auth credential in ServiceNow to store the SolarWinds user name and password that the SolarWinds monitor connector uses to access the SolarWinds API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-credentials-solarwinds.html
 release: australia
 product: Event Management
 classification: event-management
@@ -13,11 +14,12 @@ breadcrumb: [Configure event collection from SolarWinds monitor, Configure a pul
 
 # Create SolarWinds monitor credentials
 
-Create credentials to access SolarWinds monitor.
+Create a Basic Auth credential in ServiceNow to store the SolarWinds user name and password that the SolarWinds monitor connector uses to access the SolarWinds API.
 
 ## Before you begin
 
-Role required: evt\_mgmt\_admin
+-   Role required: evt\_mgmt\_admin
+-   Make sure that you have a SolarWinds account with access to the SolarWinds API.
 
 ## Procedure
 
@@ -32,8 +34,8 @@ Role required: evt\_mgmt\_admin
     |Field|Description|
     |-----|-----------|
     |Name|Enter a unique and descriptive name for this credential. For example, you might call it `SolarWinds authentication`.|
-    |User name|Name to identify the user.|
-    |Password|Password to use this credential.|
+    |User name|Enter the user name of the SolarWinds account that the connector uses to access the SolarWinds API.|
+    |Password|Enter the password for the SolarWinds account.|
     |Active|Option to enable the use of this credential.|
     |Order|The order \(sequence\) in which the platform tries this credential as it attempts to log on to devices. The smaller the number, the higher in the list this credential appears. Establish credential order when using large numbers of credentials or when security locks out users after three failed login attempts. If all the credentials have the same order number \(or none\), the instance tries the credentials in a random order. Default value: `100`|
 
@@ -44,10 +46,10 @@ Role required: evt\_mgmt\_admin
 
 The credential for use with the SolarWinds monitor connector is created.
 
-**Parent Topic:**[Configure event collection from SolarWinds monitor](t_EMConfigureSolarwindsConnectorJS.md)
+**Parent Topic:**[Configure event collection from SolarWinds monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSolarwindsConnectorJS.md)
 
 **Related topics**  
 
 
-[Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md)
+[bundle-psec.r-credentials]
 

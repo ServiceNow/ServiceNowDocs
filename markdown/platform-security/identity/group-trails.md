@@ -2,6 +2,7 @@
 title: Group Trails
 description: Displays audits of groups in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/group-trails.html
 release: australia
 product: Identity
 classification: identity
@@ -32,5 +33,5 @@ To access Group Trails, navigate to **All** &gt; **System Security** &gt; **Iden
 |Created By|The user who made the change.|
 |Created|The time and date the audit was performed.|
 
-![Group Trails](../images/group-trails.png)
+\[Omitted image "group-trails.png"\] Alt text: Group Trails
 

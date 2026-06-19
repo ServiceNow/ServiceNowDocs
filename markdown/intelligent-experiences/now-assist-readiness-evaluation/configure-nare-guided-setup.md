@@ -2,6 +2,7 @@
 title: Configure the Now Assist Readiness Evaluation guided setup
 description: Before you can review the Now Assist assessments in Workspaces Now Assist Readiness Evaluation , you must first complete the configuration for the five Now Assist jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
@@ -18,7 +19,7 @@ Before you can review the Now Assist assessments in **Workspaces** &gt; **Now As
 
 ## Before you begin
 
-Before completing this guided setup, you must first run the generative AI and agentic AI scheduled jobs. For more information, see [Run the GenAI/AgenticAI Assessment scheduled job](run-genai-agenticai-assessment-scheduled-job.md).
+Before completing this guided setup, you must first run the generative AI and agentic AI scheduled jobs. For more information, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
 
 Role required: admin
 
@@ -46,7 +47,7 @@ Role required: admin
 
     You’re redirected to the five scheduled Now Assist generative AI jobs.
 
-    **Note:** You’re unable to run agentic AI scheduled jobs from this guided setup. To run agentic AI scheduled jobs, you must do so through the GenAI/AgenticAI Assessment scheduled job. For more information on running the agentic AI scheduled job, see [Run the GenAI/AgenticAI Assessment scheduled job](run-genai-agenticai-assessment-scheduled-job.md).
+    **Note:** You’re unable to run agentic AI scheduled jobs from this guided setup. To run agentic AI scheduled jobs, you must do so through the GenAI/AgenticAI Assessment scheduled job. For more information on running the agentic AI scheduled job, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
 
 8.  Select the link to the specific scheduled job to have that job open in a new browser tab.
 
@@ -58,13 +59,13 @@ Role required: admin
 
 10. Select **Next** in the guided setup.
 
-11. Repeat steps [8](configure-nare-guided-setup.md#select-job-link-step)-[10](configure-nare-guided-setup.md#step-next-guided-setup) until you have run the scheduled jobs for the five Now Assist assessments.
+11. Repeat steps [8](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md)-[10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md) until you have run the scheduled jobs for the five Now Assist assessments.
 
     You have completed the Now Assist assessment jobs. If you ran the HRSD job, continue to the following optional steps.
 
 12. If you have run the job for HRSD, select the **Change The State to Allowed for the following records** link on the Restricted Caller Access Privileges screen.
 
-    **Note:** The following sub-steps can only be completed when in the Human Resources: Core application scope. For more information on changing application scopes, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+    **Note:** The following sub-steps can only be completed when in the Human Resources: Core application scope. For more information on changing application scopes, see .
 
     1.  Change the Status column from `Requested` to `Allowed` on the Restricted Caller Access Privileges table, and then go back to the guided setup.
 

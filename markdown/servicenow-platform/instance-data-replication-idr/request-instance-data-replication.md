@@ -2,6 +2,7 @@
 title: Request an Instance Data Replication subscription
 description: The Instance Data Replication \(IDR\) plugin requires a separate subscription and must be activated by ServiceNow personnel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/request-instance-data-replication.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -65,7 +66,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -85,12 +86,12 @@ Select the date and time to activate the plugin.
 
 ## What to do next
 
-Plan your replication strategy. See [Preparing for Instance Data Replication](../concept/prepare-instance-data-replication.md).
+Plan your replication strategy. See [Preparing for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/prepare-instance-data-replication.md).
 
-**Parent Topic:**[Configuring Instance Data Replication](../concept/configuring-instance-data-replication.md)
+**Parent Topic:**[Configuring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/configuring-instance-data-replication.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

@@ -2,6 +2,7 @@
 title: Dispose consumable assets in Enterprise Asset Workspace
 description: Dispose of those consumable assets that are no longer required in your stockrooms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/dispose-eamconsumable-assets.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -38,5 +39,5 @@ Know that the Planned for disposal column in the Consumable \[alm\_consumable\] 
     **Note:** Only a consumable marked for disposal is included in a disposal order. After you mark a consumable for disposal, it does not get merged with another consumable record.
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

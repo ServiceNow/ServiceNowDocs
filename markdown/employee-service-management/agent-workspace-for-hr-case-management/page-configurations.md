@@ -2,6 +2,7 @@
 title: Page configurations
 description: Use Page configurations in Agent Workspace for HR Case Management to provide a customized experience for your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/page-configurations.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -23,10 +24,10 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the settings icon \(![Settings icon](../../../common/image/List_PersonalizeListIcon.png)\).
+2.  Select the settings icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Settings icon\).
 
-3.  Personalize your page configurations![Page configurations](../image/page-config-aws.png).
+3.  Personalize your page configurations\[Omitted image "page-config-aws.png"\] Alt text: Page configurations.
 
-    For a description of the fields, see [Page Configurations reference](../reference/configuration-settings.md).
+    For a description of the fields, see [Page Configurations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/configuration-settings.md).
 
 

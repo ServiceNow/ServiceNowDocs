@@ -2,11 +2,12 @@
 title: Exploring Workplace Space Management
 description: Space Management helps workplace users find and book a desk near their team members, reserve meeting rooms for a client or team meeting, and reserve parking spaces. It allows the inventory of available workplace spaces to be optimized for employees so that they can perform their work more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/explore\_wsm.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -37,29 +38,29 @@ Apart from the features provided by Workplace Core, the Workplace Space Manageme
 -   Update or recalculate a workplace location's total and usable size whenever there are changes.
 -   View the reason for anomalies caused in a workplace profile.
 
-For more information about each feature, refer to [Managing workplace locations](Creating-workplace-location-records-using-spce-mgmt.md).
+For more information about each feature, refer to [Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md).
 
 ## Optimize spaces by planning scenarios
 
-Install Workplace Central application to use the Space optimization feature that helps you plan scenario to your allocate spaces, change user assignment and make other space-related changes in an efficient way. Perform scenario planning using stack plans and a floor map view. For more information about Workplace Central - Space optimization, refer to [Space Optimization](../../workplace-central/concept/space-optimization.md).
+Install Workplace Central application to use the Space optimization feature that helps you plan scenario to your allocate spaces, change user assignment and make other space-related changes in an efficient way. Perform scenario planning using stack plans and a floor map view. For more information about Workplace Central - Space optimization, refer to [Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/space-optimization.md).
 
 ## Use Workplace Core features
 
 The application enables you to perform the following actions the same as you would do in the Workplace Core application, but with extra features:
 
--   [Create records for your workplace data](../../workplace-service-delivery/task/create-records-of-workplace-data-wsd.md).
--   [Configuring spreadsheets to import workplace data](../../workplace-service-delivery/concept/importing-workspace-data-wsd.md#).
--   [Add a space type configuration](../../workplace-service-delivery/task/add-space-type-configuration-wsd.md).
--   [Block a workplace location](../../workplace-service-delivery/task/block-workplace-location.md).
+-   [Create records for your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-records-of-workplace-data-wsd.md).
+-   [Configuring spreadsheets to import workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/importing-workspace-data-wsd.md).
+-   [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+-   [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/block-workplace-location.md).
 
--   **[Space Optimization](../../workplace-central/concept/space-optimization.md)**  
+-   **[Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/space-optimization.md)**  
 As a space planner, you can use the Workplace Central to monitor all your scenarios and workplace-related information from a single page called Space Optimization.
--   **[Scenario Planning](../../workplace-central/concept/scenario-planning.md)**  
+-   **[Scenario Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/scenario-planning.md)**  
 Manage space allocations in your workplace in the most efficient way using the Space optimization scenario planning feature. Adjust your existing space allocations, floor arrangements, and employee seating plan by creating a scenario and deploying it.
--   **[Schedule Planning](../../workplace-central/concept/schedule-planning.md)**  
+-   **[Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/schedule-planning.md)**  
 Manage space assignments to help employees head back to the office.
--   **[Allocation - types, setting, and impact](../reference/setting-an-allocation-and-its-impact.md)**  
+-   **[Allocation - types, setting, and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/setting-an-allocation-and-its-impact.md)**  
 You can categorize the locations in your organization based on cost center, department, or workplace entity.
 
-**Parent Topic:**[Workplace Space Management](workplace-space-mgmt-ovw.md)
+**Parent Topic:**[Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-space-management/workplace-space-mgmt-ovw.md)
 

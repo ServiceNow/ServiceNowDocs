@@ -2,6 +2,7 @@
 title: CMDB Health system properties
 description: Configure the following system properties to customize how CMDB Health monitors and evaluates CIs health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/r\_CMDBHealthProperties.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -86,8 +87,8 @@ When set to true, disables health results from sources other than CMDB Health au
 -   Default value: false
 -   Location: System Property \[sys\_properties\] table.
 -   Learn more:
-    -   [CMDB Health KPIs and metrics](r_CMDBHealthMetrics.md)
-    -   [Discovery for VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_DiscoveryForVMwareVCenter.md)
+    -   [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md)
+    -   Discovery for VMware vCenter
 
 </td></tr><tr><td>
 

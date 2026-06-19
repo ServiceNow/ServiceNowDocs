@@ -2,6 +2,7 @@
 title: Configure alert actions
 description: Configure an alert action from the Crisis map interface in the BCM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-alert-action-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_bcm.program\_manager
 
 ## About this task
 
-You can open or dismiss an alert from the Crisis map interface. For more information, see [Manage alerts from the map interface](manage-alerts-in-crisis-map-interface-uib-ws.md).
+You can open or dismiss an alert from the Crisis map interface. For more information, see [Manage alerts from the map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md).
 
 ## Procedure
 
@@ -36,7 +37,7 @@ You can open or dismiss an alert from the Crisis map interface. For more informa
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields, see [Alert Action form](../reference/alert-action-form.md).
+    For more information on the fields, see [Alert Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/alert-action-form.md).
 
 4.  Select **Submit**.
 
@@ -47,8 +48,8 @@ You can open or dismiss an alert from the Crisis map interface. For more informa
 
 The alert action is displayed in the **Alert Actions** record page.
 
--   **[Alert Action form](../reference/alert-action-form.md)**  
+-   **[Alert Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/alert-action-form.md)**  
 Use the Alert Action form in BCM UIB Workspace to add details about the alert actions.
 
-**Parent Topic:**[Setup for Crisis map](../concept/crisis-map-admin-tasks.md)
+**Parent Topic:**[Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-admin-tasks.md)
 

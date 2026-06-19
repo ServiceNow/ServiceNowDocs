@@ -1,15 +1,18 @@
 ---
-title: Initiate the connection to the Impact Delivery Instance with manual registration
+title: Initiate the connection to Impact data with manual registration
 description: Establish a connection between your Impact Store Application and the Impact Delivery Instance to allow the exchange of data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/initiate-the-connection-impact-delivery-instance.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
-breadcrumb: [Use manual registration to IDI, Impact reference, Impact]
+breadcrumb: [Use manual registration to configure the Impact Store Application, Impact reference, Impact]
 ---
 
-# Initiate the connection to the Impact Delivery Instance with manual registration
+# Initiate the connection to Impact data with manual registration
 
 Establish a connection between your Impact Store Application and the Impact Delivery Instance to allow the exchange of data.
 
@@ -24,11 +27,11 @@ Role required: An Impact role
 
 ## Procedure
 
-1.  [Install the Impact Store Application from the ServiceNow Store](../task/install-impact-innovation-lab.md).
+1.  [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/install-impact-innovation-lab.md).
 
 2.  Log in to the Impact Store Application.
 
-3.  Navigate to **Guided Setup** &gt; **Register your instance** &gt; **Initiate connection to the Impact Delivery Instance**.![Initiate connection to the Impact Delivery Instance in Impact Guided Setup manual registration.](../image/manual-registration-gui.png)
+3.  Navigate to **Guided Setup** &gt; **Register your instance** &gt; **Initiate connection to the Impact Delivery Instance**.\[Omitted image "manual-registration-gui.png"\] Alt text: Initiate connection to the Impact Delivery Instance in Impact Guided Setup manual registration.
 
     The login screen for IDI displays to enter IDI credentials.
 
@@ -92,7 +95,7 @@ Contact \(administrator who receives the email to complete setup\)
 
 
 </td></tr></tbody>
-</table>    ![Custom URL example in the Domain name table.](../image/custom-url.png)
+</table>    \[Omitted image "custom-url.png"\] Alt text: Custom URL example in the Domain name table.
 
 8.  Select **Initiate registration**.
 
@@ -101,11 +104,11 @@ Contact \(administrator who receives the email to complete setup\)
 
 ## What to do next
 
-The named contact administrator will [Use manual registration to establish the connection to the provider instance](../task/connect-instance-impact-store-app.md).
+The named contact administrator will [Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/connect-instance-impact-store-app.md).
 
-**Parent Topic:**[Use manual registration to configure the Impact Store Application](use_manual_registration_configure_impact_store_application.md)
+**Parent Topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/use_manual_registration_configure_impact_store_application.md)
 
-**Previous topic:**[Use manual registration to configure the Impact Store Application](use_manual_registration_configure_impact_store_application.md)
+**Previous topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/use_manual_registration_configure_impact_store_application.md)
 
-**Next topic:**[Use manual registration to establish the connection to the provider instance](../task/connect-instance-impact-store-app.md)
+**Next topic:**[Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/connect-instance-impact-store-app.md)
 

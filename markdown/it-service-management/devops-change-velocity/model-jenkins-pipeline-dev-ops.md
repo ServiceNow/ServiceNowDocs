@@ -2,6 +2,7 @@
 title: Model a Jenkins pipeline in DevOps
 description: Model a Jenkins pipeline by mapping the pipeline to an app, and mapping DevOps pipeline steps to Jenkins stages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/model-jenkins-pipeline-dev-ops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -21,13 +22,13 @@ The Jenkins plugin for ServiceNow DevOps is provided to enable change accelerati
 
 Install the plugin from the Jenkins Marketplace. Navigate to **Manage Jenkins &gt; System configuration &gt; Plugins** in your Jenkins instance. Search for **ServiceNow DevOps Plugin** and select it, and then select **Install**.
 
-Ensure that your Jenkins tool is connected and configured. For more information, see [Onboard Jenkins to DevOps Change Velocity — Workspace](onboard-jenkins-to-devops-change-velocity-workspace.md).
+Ensure that your Jenkins tool is connected and configured. For more information, see [Onboard Jenkins to DevOps Change Velocity — Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/onboard-jenkins-to-devops-change-velocity-workspace.md).
 
 Role required: sn\_devops.admin
 
 ## About this task
 
-Both [scripted pipelines](../concept/dev-ops-scripted-pipeline.md) \(Jenkinsfile\) and freestyle jobs are supported.
+Both [scripted pipelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-scripted-pipeline.md) \(Jenkinsfile\) and freestyle jobs are supported.
 
 For Jenkinsfile pipelines, pipeline steps are created, mapped, and associated to orchestration tasks automatically, instead of manually.
 
@@ -99,7 +100,7 @@ Order
 
 Order in which the steps are run.
 
- **Note:** The step order determines the order of the cards in the [Pipeline UI](../concept/dev-ops-pipeline-ui.md).
+ **Note:** The step order determines the order of the cards in the [Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md).
 
 The order of the cards in the Pipeline UI is by task execution.
 
@@ -127,9 +128,9 @@ Configuration service that applies to the step.
 4.  Enable change control automatically or manually based on the type of pipeline.
 
     -   For declarative or scripted pipelines, if you have used the snDevOpsChange script in your pipeline, run your Jenkins pipeline to automatically enable change control. You can also enable change control manually by following the steps provided for freestyle jobs.
-    -   For freestyle jobs, select the **Change control** check box in a step to enable [change acceleration](../concept/dev-ops-change-acceleration.md) and the corresponding configuration fields.
+    -   For freestyle jobs, select the **Change control** check box in a step to enable [change acceleration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) and the corresponding configuration fields.
 
-        **Note:** ServiceNow [Change Management](../../change-management/concept/c_ITILChangeManagement.md) must be installed for change acceleration.
+        **Note:** ServiceNow [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md) must be installed for change acceleration.
 
 <table id="table_xm1_tdf_llb"><tbody><tr><td>
 
@@ -170,7 +171,7 @@ Change model
 
 </td><td>
 
-Change model for the change request. For more information, see [DevOps change models](../concept/devops-change-multimodel.md).
+Change model for the change request. For more information, see [DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md).
 
 </td></tr><tr><td>
 
@@ -206,11 +207,11 @@ Change controlled branches
 </table>
 ## Example
 
-![DevOps pipeline](../image/dev-ops-pipeline.png "DevOps app")
+\[Omitted image "dev-ops-pipeline.png"\] Alt text: DevOps pipeline
 
-![DevOps Pipeline Steps](../image/dev-ops-pipeline-steps.png "DevOps pipeline")
+\[Omitted image "dev-ops-pipeline-steps.png"\] Alt text: DevOps Pipeline Steps
 
-![DevOps pipeline stages](../image/dev-ops-pipeline-stages.png "DevOps pipeline step")
+\[Omitted image "dev-ops-pipeline-stages.png"\] Alt text: DevOps pipeline stages
 
-**Parent Topic:**[Jenkins integration with DevOps Change Velocity](../concept/jenkins-integration-dev-ops.md)
+**Parent Topic:**[Jenkins integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/jenkins-integration-dev-ops.md)
 

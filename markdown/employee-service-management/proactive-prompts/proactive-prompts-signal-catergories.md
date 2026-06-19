@@ -2,6 +2,7 @@
 title: Configure signal categories in Proactive Prompts
 description: Create and configure categories to enable efficient search of prompts grouped under the same categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-signal-catergories.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts

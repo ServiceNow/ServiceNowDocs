@@ -2,7 +2,10 @@
 title: Manage work items from an initiative in the Impact Store Application
 description: Use the SPM work item record link within the Impact entity to view its details, after Impact entity is successfully converted to an SPM work item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/create-spm-work-item-impact-entity.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -36,15 +39,15 @@ Impact entities that can be converted to SPM entities are:
 
 1.  Navigate to **All** &gt; **Impact** &gt; **Accelerator and Initiatives**.
 
-    ![Free form initiative as an SPM work item.](../image/impact-free-form-init.png)
+    \[Omitted image "impact-free-form-init.png"\] Alt text: Free form initiative as an SPM work item.
 
 2.  Select a free form initiative that you want to convert to an SPM work item from **Your list** that is in **Not started** state.
 
     When you select the free form initiative, a message banner on top conveys the message that the initiative can be tracked in SPM and Collaborative Work Management applications.
 
-3.  Select the my work item \(![my work item icon.](../image/impact-my-work-item-icon.png)\) icon from the right sidebar.
+3.  Select the my work item \(\[Omitted image "impact-my-work-item-icon.png"\] Alt text: my work item icon.\) icon from the right sidebar.
 
-    ![Convert a free form initiative to an SPM work item.](../image/impact-convert-work-item.png)
+    \[Omitted image "impact-convert-work-item.png"\] Alt text: Convert a free form initiative to an SPM work item.
 
     Since the free form initiative is not associated with the SPM entity yet, the icon is enabled for the association. If there are existing SPM work items associated with it, then they are listed in the **My work items** pane.
 
@@ -71,7 +74,7 @@ Impact entities that can be converted to SPM entities are:
 
     The work item opens in a Strategic Planning Workspace. The record details are mapped and the free from initiative's **Name** field is mapped with the Project's name field, and hence the field is pre-populated. You can enter details in the mandatory fields, and other details if needed.
 
-    ![Convert Free form initiative to an SPM work item.](../image/impact-select-work-item.png)
+    \[Omitted image "impact-select-work-item.png"\] Alt text: Convert Free form initiative to an SPM work item.
 
 8.  Select **Convert**.
 
@@ -79,8 +82,8 @@ Impact entities that can be converted to SPM entities are:
 
 9.  Select the free form initiative link in the message to view the SPM work item details.
 
-    You can also select the ![my work item icon.](../image/impact-my-work-item-icon.png) icon to view the details.
+    You can also select the \[Omitted image "impact-my-work-item-icon.png"\] Alt text: my work item icon. icon to view the details.
 
-    ![SPM work item is linked in Impact entity.](../image/impact-free-form-link.png)
+    \[Omitted image "impact-free-form-link.png"\] Alt text: SPM work item is linked in Impact entity.
 
 

@@ -2,7 +2,10 @@
 title: Customize Dispatcher Workspace
 description: Use UI Builder to build pages for CSM Configurable Workspace or custom web experiences using Next Experience and custom web components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/dispatch-work-ui-builder.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Use UI Builder to build pages for CSM Configurable Workspace or custom web exper
 
 ## UI Builder
 
-UI Builder is a low-code environment. You should be comfortable interacting with code in a visual interface before you start editing any components. Read and become familiar with the UI builder documentation at [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md) before you attempt to use the tool.
+UI Builder is a low-code environment. You should be comfortable interacting with code in a visual interface before you start editing any components. Read and become familiar with the UI builder documentation at  before you attempt to use the tool.
 
 **Warning:** Only developers with a high level of experience, sometimes referred to as pro-coders, should perform the procedures that use UI Builder.
 
@@ -25,11 +28,11 @@ Next Experience components are the base elements of UI Builder pages like Dispat
 
 **Important:** You must use a Script Include when making any customizations to Dispatcher Workspace. For more information, see [Extend a Script Include](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_scripting_vancouver_scripting_in_servicenow/app_store_learnv2_scripting_vancouver_server_side_scripting/app_store_learnv2_scripting_vancouver_extend_a_script_include).
 
-For information on components and how to work with them in UI Builder, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md). The components that are available to use are listed on the developer site at [Next Experience Components](https://developer.servicenow.com/dev.do#!/reference/next-experience/components).
+For information on components and how to work with them in UI Builder, see . The components that are available to use are listed on the developer site at [Next Experience Components](https://developer.servicenow.com/dev.do#!/reference/next-experience/components).
 
 You can configure nearly any area of Dispatcher Workspace in UI Builder. Three of the most common areas to update are the contextual side panel, the agent card, and the calendar. For more information see the following topics:
 
--   [Customizing the contextual side panel in Dispatcher Workspace with UI Builder](side-panel-ui-builder.md)
--   [Customizing the agent card in Dispatcher Workspace with UI Builder](agent-card-ui-builder.md)
--   [Customizing the calendar grid in Dispatcher Workspace with UI Builder](calendar-color-ui-builder.md)
+-   [Customizing the contextual side panel in Dispatcher Workspace with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/side-panel-ui-builder.md)
+-   [Customizing the agent card in Dispatcher Workspace with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/agent-card-ui-builder.md)
+-   [Customizing the calendar grid in Dispatcher Workspace with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/calendar-color-ui-builder.md)
 

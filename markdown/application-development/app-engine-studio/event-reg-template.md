@@ -2,6 +2,7 @@
 title: Event Registration template
 description: Build an application in App Engine Studio \(AES\) using the Event Registration template to manage scheduling, booking, and registration for company events.The following tables, experiences, automated workflows, and roles are included in the Event Registration template for App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/event-reg-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -21,9 +22,9 @@ An internal event registration app allows your event organizers to publish a lis
 
 Event organizers can manage events and wait-lists, publish new events, and view registered users’ details. Employees and attendees can view a list of events, view event info, and register to attend in a portal. Organizers can set the size of the event, and requesters will automatically be added to a wait-list.
 
-For more information on creating an application using a template, see [Use an application template](../task/use-app-template.md).
+For more information on creating an application using a template, see [Use an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)
 
 ## Event Registration template contents
 

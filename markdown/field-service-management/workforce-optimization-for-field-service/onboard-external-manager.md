@@ -2,6 +2,7 @@
 title: Onboard an external manager
 description: Onboard a manager from a contractor company to manage, review, and assign the outsourcing and assignments of work order tasks to their field agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/onboard-external-manager.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -21,7 +22,7 @@ Role required: wm\_admin and wm\_contractor\_manager\_int
 
 ## About this task
 
-You can also do the initial configuration of onboarding an external manager through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+You can also do the initial configuration of onboarding an external manager through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see Using guided setup.
 
 ## Procedure
 

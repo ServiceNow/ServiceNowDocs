@@ -2,6 +2,7 @@
 title: Example for using Coaching in Workforce Optimization for ITSM
 description: Understand how you can assess your agents performance, identify skill gaps, and train them to enhance their skills sets with Coaching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/example-coaching-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -31,11 +32,7 @@ The manager can manage all of these actions by doing the following:
 
 Get an overview on coaching, creating assessments, taking surveys, assigning training, and adding skills.
 
-Workforce Optimization for ITSM Coaching Overview
-
 Get an overview of how you can add skills manually or the ones recommended using Predictive Intelligence and the Skill Recommendation application.
 
-Workforce Optimization for ITSM Skill Recommendation
-
-For detailed instructions on setting up and using Coaching for Workforce Optimization for ITSM, see [Coaching](setup-coaching-configurable-workforce-optimization-itsm.md).
+For detailed instructions on setting up and using Coaching for Workforce Optimization for ITSM, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-coaching-configurable-workforce-optimization-itsm.md).
 

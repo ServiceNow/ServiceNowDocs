@@ -2,6 +2,7 @@
 title: Health Log Analytics language and character support
 description: Health Log Analytics provides international language support. The default language is US English.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-localization.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -26,5 +27,5 @@ The current available languages for Health Log Analytics are as follows: US Engl
 
 Health Log Analytics currently supports ASCII and Windows-1252 \(commonly referred to as ANSI\) character encodings, regardless of the text source. It doesn't support encodings for non-Latin scripts, such as Japanese.
 
-**Parent Topic:**[Health Log Analytics reference](../concept/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-reference.md)
 

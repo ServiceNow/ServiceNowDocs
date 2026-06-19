@@ -2,6 +2,7 @@
 title: Delete Address List activity
 description: The Delete Address List activity removes an existing address list from an Exchange server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_DeleteAddressListActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -19,7 +20,7 @@ This activity implements the Microsoft Exchange [Remove-AddressList](https://tec
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Exchange** &gt; **Address List**.
 
-**Note:** This activity replaces an Exchange activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [PowerShell activity designer](../../orchestration-activity-designer/concept/c_PowershellActivityDesigner.md), which gives workflow administrators the ability to store input and output variables in the [databus](../../orchestration-activity-designer/concept/c_OrchestrationDatabus.md#).
+**Note:** This activity replaces an Exchange activity by the same name available in releases prior to Geneva. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Geneva. However, all new workflows must use the custom version of this activity. This activity was built with the [PowerShell activity designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_PowershellActivityDesigner.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationDatabus.md).
 
 ## Input variables
 
@@ -46,5 +47,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Success|The activity succeeded in removing the address list from the Exchange server.|
 |Failure|The activity failed to remove the address list from the Exchange server.|
 
-**Parent Topic:**[Exchange activity pack](../concept/c_OrchestrationExchangeActivities.md)
+**Parent Topic:**[Exchange activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md)
 

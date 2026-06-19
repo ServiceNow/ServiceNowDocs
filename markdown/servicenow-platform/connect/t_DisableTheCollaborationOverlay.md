@@ -2,6 +2,7 @@
 title: Disable the Connect overlay
 description: The Connect overlay is enabled by default and is integrated with the standard user interface. You can disable the Connect overlay.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_DisableTheCollaborationOverlay.html
 release: australia
 product: Connect
 classification: connect
@@ -34,5 +35,5 @@ To disable the Connect overlay and remove the toggle Connect sidebar icon from t
 
 ## Result
 
-When the frameset is disabled, any Connect chats open in the Connect workspace. For more information on completely disabling Connect Chat, see [Disable Connect Chat](../concept/c_CollaborationAdministration.md#).
+When the frameset is disabled, any Connect chats open in the Connect workspace. For more information on completely disabling Connect Chat, see [Disable Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_CollaborationAdministration.md).
 

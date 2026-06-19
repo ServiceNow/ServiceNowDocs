@@ -2,11 +2,12 @@
 title: Application Registries form
 description: The Application Registries form presents elaborate data on the form's fields and their corresponding descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/application-registries-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Service Management]
 ---
@@ -130,7 +131,7 @@ Default Grant type
 Refers to the default method used by an OAuth 2.0 authorization server to grant access tokens to client applications.
 
 </td></tr></tbody>
-</table>To return to the OAuth details page, see [Configure Open Authorization details](../task/configure-oauth-details.md).
+</table>To return to the OAuth details page, see [Configure Open Authorization details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configure-oauth-details.md).
 
-**Parent Topic:**[DEX Desktop Assistant reference](dex-desktop-experience-reference.md)
+**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

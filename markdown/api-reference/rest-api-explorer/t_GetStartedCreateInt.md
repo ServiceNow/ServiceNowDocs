@@ -2,6 +2,7 @@
 title: Create an incident record
 description: Use a POST request to create a new record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/t\_GetStartedCreateInt.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -25,7 +26,7 @@ Use the REST API Explorer to send the following request:
 
 `POST https://instance.service-now.com/api/now/v1/table/incident`
 
-For details about the Table API and examples, see [Table API](../concept/c_TableAPI.md#).
+For details about the Table API and examples, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ For details about the Table API and examples, see [Table API](../concept/c_Table
 
 2.  Click **Create a record \(POST\)**.
 
-    For more information about this API endpoint, see [Table - POST /now/table/\{tableName\}](../concept/c_TableAPI.md#).
+    For more information about this API endpoint, see [Table - POST /now/table/\{tableName\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_TableAPI.md).
 
 3.  In the Path Parameters section, select the **Incident \(incident\)** table.
 
@@ -53,8 +54,8 @@ For details about the Table API and examples, see [Table API](../concept/c_Table
 
     The response also indicates the **Status code** and **Execution time** \(in milliseconds\) of the request.
 
-    ![REST API Explorer POST response](../image/rest-api-exp-post-response.png)
+    \[Omitted image "rest-api-exp-post-response.png"\] Alt text: REST API Explorer POST response
 
 
-**Parent Topic:**[Use the REST API Explorer](../concept/use-REST-API-Explorer.md)
+**Parent Topic:**[Use the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md)
 

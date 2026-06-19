@@ -2,6 +2,7 @@
 title: Microsoft Azure DevOps Boards Spoke
 description: Automate the process of managing work items in Azure DevOps Boards from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/azure-devops-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Automate the process of managing work items in Azure DevOps Boards from your Ser
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -124,16 +125,16 @@ ServiceNow supports specific events on the Azure DevOps instance that create tri
 
 ## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 
@@ -142,7 +143,7 @@ Available AI agents include:
 |Microsoft Azure DevOps Boards core process management AI agent|Manages core process management tasks \(that is, look up a projects stream, look up area paths, look up an area path of a team, look up work item types by process, look up team settings, look up an iteration by path, look up work item data by ID, look up creatable fields, look up work item types, look up iteration paths of a team, look up processes, look up editable fields, look up an area by path, delete a team iteration, look up work item relations by ID, look up queries by Wiql, create an iteration, look up work item type fields by process, look up teams, post an iteration to a team, look up iteration paths, update an iteration, delete an iteration\) in Microsoft Azure DevOps Boards.|
 |Microsoft Azure DevOps Boards work item management AI agent|Manages work item management tasks \(that is, add an attachment, delete a work item, create a link between work items, create a service hook, delete a link between work items, update work item project details\) inMicrosoft Azure DevOps Boards.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
@@ -154,6 +155,6 @@ If you want to use different connections in your flow, subflows, and actions, cr
 
 You can also use multiple Azure DevOps accounts. In this case, you should provide the respective **Password** while configuring the credential record and specify the relevant **Connection URL** while configuring the connection record.
 
--   If you want to set up the Microsoft Azure DevOps Boards spoke using OAuth, see [Set up the Microsoft Azure DevOps Boards spoke using OAuth](../task/setup-azdevops-boards-oauth.md#).
--   If you want to set up the Microsoft Azure DevOps Boards spoke using personal access token, see [Set up the Microsoft Azure DevOps Boards spoke using personal access token](../task/setup-azdevops-boards.md#).
+-   If you want to set up the Microsoft Azure DevOps Boards spoke using OAuth, see [Set up the Microsoft Azure DevOps Boards spoke using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azdevops-boards-oauth.md).
+-   If you want to set up the Microsoft Azure DevOps Boards spoke using personal access token, see [Set up the Microsoft Azure DevOps Boards spoke using personal access token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-azdevops-boards.md).
 

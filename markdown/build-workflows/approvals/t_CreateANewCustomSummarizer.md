@@ -2,6 +2,7 @@
 title: Create a new custom approval summarizer
 description: After you add a new table that has approvals to an instance, you can add a custom activity formatter by creating a new UI macro and then add it to the appropriate form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/t\_CreateANewCustomSummarizer.html
 release: australia
 product: Approvals
 classification: approvals
@@ -33,8 +34,8 @@ approval\_summarizer can only be used on approval forms in the global scope.
 
 4.  Complete the rest of the form and click **Submit**.
 
-5.  [Create a formatter and add it to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateAFormatter.md) and add it to the appropriate form.
+5.  Create a formatter and add it to a form and add it to the appropriate form.
 
-    To learn more about activity formatters, see [Activity formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ActivityFormatter.md).
+    To learn more about activity formatters, see Activity formatter.
 
 

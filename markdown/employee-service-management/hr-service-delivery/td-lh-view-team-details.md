@@ -2,6 +2,7 @@
 title: View team details
 description: Gain visibility into the skills and talent composition of each team in your organization. Use this data to determine the strengths and deficiencies of each team so you can drive changes that steer your employees toward success.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-view-team-details.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -43,5 +44,5 @@ Role required: organizational leader \[sn\_egd\_lh.leader\]
     -   Skills that require the most improvement
     -   Employee engagement with the growth tools provided in the Talent Development
 
-**Parent Topic:**[Using Leader Hub](../concept/td-lh-using.md)
+**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/td-lh-using.md)
 

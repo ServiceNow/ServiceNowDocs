@@ -2,6 +2,7 @@
 title: Edit a parameter in the base system
 description: Update the weight of a parameter and enable or disable it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/edit-a-parameter-in-base-system.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

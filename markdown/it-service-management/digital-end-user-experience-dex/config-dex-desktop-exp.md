@@ -2,6 +2,7 @@
 title: Setting up DEX Desktop Assistant
 description: Set up Desktop Assistant to give end users quick access to self-service and diagnostic tools, timely notifications about outages and announcements, and support options like Employee Center, Virtual Agent, or live agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/config-dex-desktop-exp.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -19,13 +20,13 @@ Set up Desktop Assistant to give end users quick access to self-service and diag
 
 You must have the Desktop Assistant administrator role \[sn\_dex\_desktop.admin\] role to configure Desktop Assistant.
 
-1.  [Download and install Desktop Assistant](../task/download-desktop-experience.md).
-2.  [Configure Open Authorization details](../task/configure-oauth-details.md).
-3.  [Customize Desktop Assistant home page](../task/change-home-page-title.md).
-4.  [Enable or disable notifications](../task/enable-notification.md).
-5.  [Enable Virtual Agent or chat](../task/enable-va-chat.md).
-6.  [Map a card to a section](../task/map-card-section.md) or [Delete a card from the Desktop Assistant home page](../task/delete-card.md).
-7.  [Add a section in the Desktop Assistant home page](../task/add-home-page-section.md) or [Delete a section from the Desktop Assistant home page](../task/delete-home-page-section.md).
+1.  [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/download-desktop-experience.md).
+2.  [Configure Open Authorization details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/configure-oauth-details.md).
+3.  [Customize Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/change-home-page-title.md).
+4.  [Enable or disable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-notification.md).
+5.  [Enable Virtual Agent or chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/enable-va-chat.md).
+6.  [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/map-card-section.md) or [Delete a card from the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/delete-card.md).
+7.  [Add a section in the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/add-home-page-section.md) or [Delete a section from the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/delete-home-page-section.md).
 
 **Note:** If you experience issues with Desktop Assistant, troubleshoot them by accessing the logs at these locations:
 

@@ -2,6 +2,7 @@
 title: Client - Scoped, Global
 description: The Client API provides methods to add data to the MetricBase database, to execute transforms on the MetricBase database, and to receive the results of the transforms.Create an instance of the client class to access the MetricBase database.Accumulates metric values at specified timestamp and saves the result to the database rather than overwriting the value.Remove a specified metric from a specified table in the MetricBase databaseRemove the data in the MetricBase database associated with the specified metric in the specified GlideRecord. Use this method for removing test data.Get all series from a specific dimension.Saves metric data to the MetricBase database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ClientScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The Client API provides methods to add data to the MetricBase database, to execu
 
 You can use the Client class in both scoped and global server scripts. This class is part of the MetricBase application and must run within the `sn_clotho` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Client - Client\(\)
 
@@ -59,7 +60,7 @@ GlideRecord
 
 </td><td>
 
-Name of the series GlideRecord from which to obtain the accumulated value.See also: [getSeries\(\)](ClientScopedAPI.md#)
+Name of the series GlideRecord from which to obtain the accumulated value.See also: [getSeries\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClientScopedAPI.md)
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Number
 
 Optional. Default value for accumulation at a given timestamp. Used only during the first call to accumulate if a value is unavailable for a given timestamp. A use case could be accumulating a watts metric for a total\_power. You want to accumulate watts for a router connected to an outlet without a power meter to measure it. If you know the consumption value and it is constant\), you can use the constant value as a default value to accumulate total\_power. For example, you would use 20 if the router is constantly plugged in and consumes 20 Watts.
 
- The timestamp value can be provided using the [DataBuilder](../../DataBuilderScoped/concept/DataBuilderScopedAPI.md#) API.
+ The timestamp value can be provided using the [DataBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DataBuilderScopedAPI.md) API.
 
  Default: 0
 
@@ -162,9 +163,9 @@ Get all series from a specific dimension.
 
 |Name|Type|Description|
 |----|----|-----------|
-|now\_GR|[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)|The record from which to obtain the series.|
+|now\_GR|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)|The record from which to obtain the series.|
 |metric|String|The name of the metric.|
-|lastUpdateBefore|[GlideDateTime](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#)|Optional. Date in the future representing the end of the period to be evaluated.|
+|lastUpdateBefore|[GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md)|Optional. Date in the future representing the end of the period to be evaluated.|
 
 |Type|Description|
 |----|-----------|
@@ -208,7 +209,7 @@ Object
 
 </td><td>
 
-One of the following:-   [DataBuilder](../../DataBuilderScoped/concept/DataBuilderScopedAPI.md#) object containing metric data.
+One of the following:-   [DataBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DataBuilderScopedAPI.md) object containing metric data.
 -   Array of DataBuilder objects containing metric data.
 
 </td></tr></tbody>

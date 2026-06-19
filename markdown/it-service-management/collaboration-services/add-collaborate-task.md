@@ -2,6 +2,7 @@
 title: Add a collaborative communication task
 description: In major incident workbench, you can add a collaborative communication task to collaborate and understand the progress of communication plan and its related tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/add-collaborate-task.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

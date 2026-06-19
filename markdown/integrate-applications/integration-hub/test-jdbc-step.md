@@ -2,6 +2,7 @@
 title: Test JDBC step
 description: Test the JDBC step before testing or publishing an action that contains the JDBC step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/test-jdbc-step.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -27,7 +28,7 @@ It is mandatory that you test the JDBC step before testing the action. Testing e
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
 
-2.  [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md) with a [JDBC step](../reference/jdbc-step.md).
+2.  Create an action with a [JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jdbc-step.md).
 
 3.  Click **Test JDBC Step**.
 
@@ -50,7 +51,7 @@ It is mandatory that you test the JDBC step before testing the action. Testing e
 
 ## Result
 
-When a SELECT query is executed in the JDBC step, **ResultSet** is displayed under **Outputs**. The relevant complex object output is populated. To learn more about complex objects, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
+When a SELECT query is executed in the JDBC step, **ResultSet** is displayed under **Outputs**. The relevant complex object output is populated. To learn more about complex objects, see Complex data.
 
 ## What to do next
 

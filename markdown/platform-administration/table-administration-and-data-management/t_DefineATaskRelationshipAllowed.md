@@ -2,6 +2,7 @@
 title: Define a task relationship allowed from the task relationship type record
 description: Define the Task Relationships Allowed from the Task Relationship Type record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_DefineATaskRelationshipAllowed.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -36,5 +37,5 @@ Role required: admin
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Creating many-to-many task relations](../concept/c_ManyToManyTaskRelations.md)
+**Parent Topic:**[Creating many-to-many task relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_ManyToManyTaskRelations.md)
 

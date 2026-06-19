@@ -2,6 +2,7 @@
 title: cabrillo.modal - Client
 description: Cabrillo JS functions for presenting web content inside of native modals.Use to dismiss a modal that has been presented with the presentModal\(\) function.Presents content in a native modal interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/cabrillo-modal-namespace.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 Cabrillo JS functions for presenting web content inside of native modals.
 
-**Parent Topic:**[Client mobile API reference](../../../../../build/applications/concept/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## cabrillo.modal - dismissModal\(Object data\)
 
@@ -101,7 +102,7 @@ Close button style of the modal interface. Possible values:
 -   cabrillo.modal.CLOSE\_BUTTON\_STYLE\_CLOSE
 -   cabrillo.modal.CLOSE\_BUTTON\_STYLE\_DONE
 
-For more information, see [Cabrillo JS constants - close button styles](../../namespace-topics/concept/cabrillo-constants.md#).
+For more information, see [Cabrillo JS constants - close button styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/cabrillo-constants.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +119,7 @@ Presentation style of the modal interface. Possible values:
 -   cabrillo.modal.MODAL\_PRESENTATION\_STYLE\_FULL\_SCREEN
 -   cabrillo.modal.MODAL\_PRESENTATION\_STYLE\_FORM\_SHEET
 
-For more information, see [Cabrillo JS constants - modal presentation styles](../../namespace-topics/concept/cabrillo-constants.md#).
+For more information, see [Cabrillo JS constants - modal presentation styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/cabrillo-constants.md).
 
 **Note:** This parameter is only supported on Apple iOS.
 

@@ -2,6 +2,7 @@
 title: Install Health and Safety Incident Management
 description: You can install the Health and Safety Incident Management application \(sn\_hs\_im\_incident\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -39,7 +40,7 @@ The following items are installed with Health and Safety Incident Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Health and Safety Incident Management](../reference/components-installed-with-hs-incident-mgmt.md).
+For more information, see [Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md).
 
 This table lists the optional applications that can be installed for additional features:
 
@@ -59,9 +60,9 @@ Anonymous Report Center
 
 </td><td>
 
-Installs anonymous reporting capability for Health and Safety Incident Management.For more information, see [Activate the Anonymous Report Center](../../human-resources/task/arc-activate.md).
+Installs anonymous reporting capability for Health and Safety Incident Management.For more information, see [Activate the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-activate.md).
 
-To configure the **Anonymous report center**, see [Setting up the Anonymous Report Center](../../human-resources/concept/arc-setup.md).
+To configure the **Anonymous report center**, see [Setting up the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-setup.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Geo map component
 
 Provides access to enable the map component in the Health and Safety Workspace from the application properties.
 
- To install, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md)
+ To install, see 
 
 </td></tr><tr><td>
 
@@ -95,7 +96,7 @@ Geolocation plugin
 
 Enables geolocation feature on the Now Mobile app and gives access to manual tracking options.
 
- For more information, see [Enabling and selecting location tracking options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/location-tracking-enable.md)
+ For more information, see 
 
 </td></tr><tr><td>
 
@@ -103,7 +104,7 @@ Health and Safety Case Management \[sn\_hs\_cm\]
 
 </td><td>
 
-Installs case management capability for Health and Safety Incident Management.For more information, see [Install Health and Safety Case Management](../../hs-case-management/task/install-hs-case-management.md).
+Installs case management capability for Health and Safety Incident Management.For more information, see [Install Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/install-hs-case-management.md).
 
 </td></tr><tr><td>
 
@@ -111,9 +112,9 @@ Human Resources Scoped App: Core \[com.sn\_hr\_core\]
 
 </td><td>
 
-Installs Case and Knowledge Management for creating HR cases from injury and illness records.For more information, see [Activate Case and Knowledge Management](../../human-resources/task/activate-case-and-knowledge-management-scoped.md).
+Installs Case and Knowledge Management for creating HR cases from injury and illness records.For more information, see [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md).
 
-**Note:** For creating HR cases from injury and illness records, this plugin needs to be activated together with the Health and Safety Case Management \(sn\_hs\_cm\) application. For more information, see [Create an HR case from an injury or illness](create-hr-case-injury-illness.md).
+**Note:** For creating HR cases from injury and illness records, this plugin needs to be activated together with the Health and Safety Case Management \(sn\_hs\_cm\) application. For more information, see [Create an HR case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/create-hr-case-injury-illness.md).
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Health and Safety Contractor Management \[sn\_hs\_crm\]
 
 </td><td>
 
-Installs contractor management capability for Health and Safety Incident Management.For more information, see [Install Health and Safety Contractor Management](../../hs-contractor-management/task/hs-install-contractor-management.md).
+Installs contractor management capability for Health and Safety Incident Management.For more information, see [Install Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/hs-install-contractor-management.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ Health and Safety Incident Management OSHA Content Pack\[com.snc.sn\_hs\_im\_osh
 
 </td><td>
 
-Installs OSHA reporting capability for Health and Safety Incident Management.For more information, see [Install Health and Safety Incident Management OSHA Content Pack](install-hs-osha-content-pack.md).
+Installs OSHA reporting capability for Health and Safety Incident Management.For more information, see [Install Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/install-hs-osha-content-pack.md).
 
 </td></tr><tr><td>
 
@@ -137,7 +138,7 @@ Learning Core\[sn\_lc\]
 
 </td><td>
 
-Installs Learning Core to enable learning content in Health and Safety actions.For more information, see [Configuring Learning Core](../../human-resources/concept/configuring-learning-core.md).
+Installs Learning Core to enable learning content in Health and Safety actions.For more information, see [Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/configuring-learning-core.md).
 
 </td></tr></tbody>
 </table>## Procedure
@@ -163,5 +164,5 @@ Installs Learning Core to enable learning content in Health and Safety actions.F
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up Health and Safety Incident Management](../concept/setting-up-hs-incident-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
 

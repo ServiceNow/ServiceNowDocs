@@ -2,6 +2,7 @@
 title: System events reference
 description: Reference topics provide information about system events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/system-events-reference.html
 release: australia
 product: System Events
 classification: system-events
@@ -15,18 +16,18 @@ breadcrumb: [System Events, Build workflows]
 
 Reference topics provide information about system events.
 
--   **[Event logs](r_EventLogs.md)**  
+-   **[Event logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 The event log records all system events that occur within the ServiceNow AI Platform.
--   **[Event states](r_EventStates.md)**  
+-   **[Event states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/r_EventStates.md)**  
 The event state describes where in the life cycle the event is.
--   **[The incident events business rule](r_BuildAScript.md)**  
+-   **[The incident events business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/r_BuildAScript.md)**  
 The incident events business rule comes with the system and defines a number of events that can be triggered by different actions in the Incident table.
--   **[Global events](r_GlobalEvents.md)**  
+-   **[Global events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/r_GlobalEvents.md)**  
 Your instance has a global function called global\_events\(\) that triggers from a business rule when certain conditions occur.
--   **[Script actions](r_ScriptActions.md)**  
+-   **[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/r_ScriptActions.md)**  
 You can use script actions to create server-side scripts that perform a variety of tasks, such as modifying a configuration item \(CI\), or managing failed login attempts. Script actions are triggered by events only.
--   **[Sample scripts from the change events business rule](r_ChangeEventsSampleScripts.md)**  
+-   **[Sample scripts from the change events business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/r_ChangeEventsSampleScripts.md)**  
 Several scripts are found in the baseline change events business rule.
 
-**Parent Topic:**[System Events](../concept/system-events-landing.md)
+**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/system-events-landing.md)
 

@@ -2,6 +2,7 @@
 title: Create a decision table in a subflow
 description: Create a decision table structure while you author your flow in Workflow Studio. Use data from the subflow to create inputs, conditions, and results for the decision table, all in a convenient modal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-decision-table-subflow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -35,7 +36,7 @@ This video describes the steps to create a decision table in a subflow.
 
 3.  Select a subflow.
 
-4.  Set **Subflow Inputs &amp; Outputs** for your subflows.![setting inputs and outputs](../images/subflow-inputs-outputs.png)
+4.  Set **Subflow Inputs &amp; Outputs** for your subflows.\[Omitted image "subflow-inputs-outputs.png"\] Alt text: setting inputs and outputs
 
 5.  Under Actions, select **Flow Logic**.
 
@@ -45,7 +46,7 @@ This video describes the steps to create a decision table in a subflow.
 
 8.  In the **Decision Label** field, enter a unique label for the decision.
 
-9.  In the **Decision Table** field, select the Create new record \(![Create new record icon.](../images/add-record-button.png)\) button.
+9.  In the **Decision Table** field, select the Create new record \(\[Omitted image "add-record-button.png"\] Alt text: Create new record icon.\) button.
 
     In the Create decision table modal, on the Set Properties page, two editable fields are populated from your subflow.
 
@@ -58,7 +59,7 @@ This video describes the steps to create a decision table in a subflow.
 
 11. Select **Add input** to add inputs to the decision table.
 
-    Inputs are the variables that define the type of data the decision table looks for making decisions. When creating a decision table in a subflow, you can add inputs directly from the data in the subflow. For more information about the types of inputs you can add, see [Create decision tables in Workflow Studio](../../decision-table/task/create-decision-table-in-decision-designer.md).
+    Inputs are the variables that define the type of data the decision table looks for making decisions. When creating a decision table in a subflow, you can add inputs directly from the data in the subflow. For more information about the types of inputs you can add, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
 
     **Note:** Some inputs must be added or adjusted when you open the decision table to populate its values.
 
@@ -87,5 +88,5 @@ This video describes the steps to create a decision table in a subflow.
 19. Select **Done**.
 
 
-**Parent Topic:**[Building subflows](../concept/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
 

@@ -2,6 +2,7 @@
 title: Create the credential for the ACME Certificate Authority
 description: Create an ACME credential on the ACME Certificate Authority's website or API. The credential is used by your ACME client software to interact with the ACME Certificate Authority \(CA\) to request, renew, or revoke certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-credential-for-acme-ca.html
 release: australia
 product: Discovery
 classification: discovery

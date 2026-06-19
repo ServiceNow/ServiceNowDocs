@@ -2,6 +2,7 @@
 title: Install the Edge Encryption proxy server \(command line installer\)
 description: Install an Edge Encryption proxy on a 64-bit Windows or Linux computer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/install-edge-linux-windows.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -169,9 +170,9 @@ Path to the directory or folder where the new Edge proxy is installed \(the dest
 
 The `ProxyName_port` directory is created in the current directory. The `edgeencryption.properties` file is updated with the host, port, and protocol values from the command line.
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](manual-proxy-install.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/manual-proxy-install.md)
 
-**Previous topic:**[Install the Edge Encryption proxy server using the command line installer](manual-proxy-install.md)
+**Previous topic:**[Install the Edge Encryption proxy server using the command line installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/manual-proxy-install.md)
 
-**Next topic:**[Create and configure the RSA key pair for the digital signature](t_SetUpAKeyPair.md)
+**Next topic:**[Create and configure the RSA key pair for the digital signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/t_SetUpAKeyPair.md)
 

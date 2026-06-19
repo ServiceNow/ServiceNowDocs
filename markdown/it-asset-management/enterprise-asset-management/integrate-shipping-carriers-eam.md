@@ -2,13 +2,14 @@
 title: Integrate with a third-party shipping carrier in the Enterprise Asset Workspace
 description: Integrate the Enterprise Asset Management application with a third-party shipping carrier so that you can track the real-time status of your enterprise asset shipments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/integrate-shipping-carriers-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise asset shipments, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Integrate with a third-party shipping carrier in the Enterprise Asset Workspace
@@ -105,5 +106,5 @@ Additional notes about the shipping carrier.
 </table>5.  Select **Save**.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

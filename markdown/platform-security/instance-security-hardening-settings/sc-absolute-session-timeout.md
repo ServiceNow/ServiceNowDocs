@@ -2,6 +2,7 @@
 title: Minimize absolute session timeout duration
 description: Use the glide.ui.user\_cookie.max\_life\_span\_in\_days property to set a maximum life span for user cookies created when users log in with the Remember Me checkbox selected. When the cookie expires, users who have selected the Remember Me checkbox are forced to reauthenticate into the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -19,7 +20,7 @@ If the **glide.ui.user\_cookie.max\_life\_span\_in\_days** system property is no
 
 Ensure that the property **glide.ui.user\_cookie.max\_life\_span\_in\_days** is set to `30` or less.
 
-**Note:** To enforce a maximum session time for any active user sessions, see [Managing user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_ManageUserSessions.md).
+**Note:** To enforce a maximum session time for any active user sessions, see .
 
 ## More information
 
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -114,5 +115,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

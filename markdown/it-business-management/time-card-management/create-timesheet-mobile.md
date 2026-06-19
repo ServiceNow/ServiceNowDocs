@@ -2,6 +2,7 @@
 title: Create a time sheet from your mobile device
 description: Create a time sheet to group all your time cards for the given week and submit them in a single step from the Now Mobile application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/create-timesheet-mobile.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -34,8 +35,8 @@ Role required: timecard\_ user
 
 Add time cards to the time sheet.
 
--   **[Search for a time sheet from time sheet lists](search-timesheet-mobile.md)**  
+-   **[Search for a time sheet from time sheet lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/search-timesheet-mobile.md)**  
 Search for a specific time sheet from the time sheet lists by applying filters.
 
-**Parent Topic:**[Mobile Time Sheets](../concept/timesheet-mobile.md)
+**Parent Topic:**[Mobile Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/timesheet-mobile.md)
 

@@ -2,6 +2,7 @@
 title: Update the display limit of items for Prioritization and Roadmap in Portfolio Planning
 description: Create a system property to update the display limit of the items shown in Prioritization page, Roadmap page, and the item milestones on the roadmap view in Portfolio Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/update-items-display-limit-backlog-prioritization-roadmap.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -45,15 +46,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d84233e143">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d53463e143">
 
 Field
 
-</th><th align="left" id="d84233e146">
+</th><th align="left" id="d53463e146">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d84233e152">
+</th></tr></thead><tbody><tr><td id="d53463e152">
 
 **Name**
 
@@ -64,7 +65,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d84233e178">
+</td></tr><tr><td id="d53463e178">
 
 **Type**
 
@@ -72,7 +73,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d84233e187">
+</td></tr><tr><td id="d53463e187">
 
 **Value**
 
@@ -81,10 +82,10 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>    For information on the other form fields, see the field description table in Add a system property.
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](../concept/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
+**Parent Topic:**[Configuring Prioritization and Roadmap settings in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-prioritization-and-roadmap-settings-in-portfolio-planning.md)
 

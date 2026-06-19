@@ -2,6 +2,7 @@
 title: Maintenance plan examples
 description: You can define maintenance plans using model-based, meter-based, or duration-based selection criteria.To schedule a reboot for certain computer models after a specified number of keystrokes, define a model-based plan with a meter-based maintenance schedule. In the example, a field called keystrokes is added to the Computer \[cmdb\_ci\_computer\] table.To schedule a printer ink cartridge replacement after printing a specified number of pages, define a general plan with a meter-based maintenance schedule. In the example, a table called Printer is added with string fields for printer, model, pages, and the like.To schedule an antivirus scan on certain computers after a specified number of days, define a model-based plan with a duration-based maintenance schedule. In the example, a field called trigger type is added to the Computer \[cmdb\_ci\_computer\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-management-for-the-enterprise/planned-maintenance-family/r\_MaintPlanExamples.html
 release: australia
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
@@ -19,7 +20,7 @@ You can define maintenance plans using model-based, meter-based, or duration-bas
 -   To schedule a printer ink cartridge replacement after printing a specified number of pages, define a general plan with a meter-based maintenance schedule.
 -   To schedule an antivirus scan on particular computers after a specified number of days, define a model-based plan with a duration-based maintenance schedule.
 
-**Parent Topic:**[Planned Maintenance](../concept/c_SMPlanMaint.md)
+**Parent Topic:**[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/planned-maintenance-family/c_SMPlanMaint.md)
 
 ## Define a maintenance schedule for a computer reboot
 

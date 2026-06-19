@@ -2,6 +2,7 @@
 title: Restrict access to a quick link
 description: Restrict access to quick links by setting the user criteria, which allows access only to specific users, groups, roles, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/restrict-access-to-quick-links.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,37 +32,37 @@ Role required: sp\_admin, taxonomy\_manager or taxonomy\_admin and user\_criteri
 
 3.  Click the **Available For** tab.
 
-<table id="choicetable_ght_h1l_mqb"><thead><tr><th align="left" id="d376580e98">
+<table id="choicetable_ght_h1l_mqb"><thead><tr><th align="left" id="d338625e98">
 
 To
 
-</th><th align="left" id="d376580e101">
+</th><th align="left" id="d338625e101">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d376580e107">
+</th></tr></thead><tbody><tr><td id="d338625e107">
 
 **Add a new user criteria**
 
 </td><td>
 
 1.  Click **New**.
-2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](../reference/ec-user-criteria-form.md)
+2.  On the form, fill in the fields. For more information about the form fields and descriptions, see [User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md)
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d376580e141">
+</td></tr><tr><td id="d338625e141">
 
 **Edit an existing user criteria**
 
 </td><td>
 
 1.  Click **Edit**.
-2.  On the Edit Members form, select the required roles, users, and groups from the Collection column and move them to the Available For List column by clicking the right arrow icon \(![Right arrow icon.](../images/right-arrow-icon.png)\).
+2.  On the Edit Members form, select the required roles, users, and groups from the Collection column and move them to the Available For List column by clicking the right arrow icon \(\[Omitted image "right-arrow-icon.png"\] Alt text: Right arrow icon.\).
 3.  Click **Save**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a quick link](create-quick-links.md)
+**Parent Topic:**[Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-quick-links.md)
 

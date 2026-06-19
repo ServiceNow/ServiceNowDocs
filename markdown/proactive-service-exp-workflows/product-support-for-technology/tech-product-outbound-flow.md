@@ -1,17 +1,18 @@
 ---
-title: Integrating Technology Product Support Case with southbound external systems
+title: Integrating Proactive Service Experience Workflows with southbound external systems
 description: In Proactive Service Experience Workflows, you can submit outbound service test run requests to various external systems by integrating the application with the external southbound systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-outbound-flow.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Product Support for Technology]
+breadcrumb: [Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
-# Integrating Technology Product Support Case with southbound external systems
+# Integrating Proactive Service Experience Workflows with southbound external systems
 
 In Proactive Service Experience Workflows, you can submit outbound service test run requests to various external systems by integrating the application with the external southbound systems.
 
@@ -32,22 +33,22 @@ The integration process for with the external service test management systems is
 
 1.  As the administrator, you activate the Test Specification Open API to capture the test runs from the service problem case.
 
-    To learn more, see [Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/service-test-management-api.md).
+    To learn more, see .
 
 2.  The integration now begins:
     1.  The test manager creates the test run in the test run table.
 
-        For more information on setting up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
+        For more information on setting up test definitions, see .
 
     2.  The generated payload is sent to the endpoint of the external fulfillment system.
 
-        For more information on configuring external system endpoints by creating an integration request, see [Workflow Studio flow integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-integrations.md).
+        For more information on configuring external system endpoints by creating an integration request, see .
 
         **Note:**
 
         -   If the test run is configured as hierarchical in the decision table, the system sends all the child service test runs in the hierarchy to the external system that is configured in the application spoke selector.
         -   If the test run is configured as non-hierarchical in the decision table, the systems send only the individual test run to the external system that is configured in the application spoke selector.
-        To learn more about spokes, see [Building spokes using Spoke Generator](https://servicenow.com/docs/csh?topicname=spoke-builder&version=vancouver&pubname=vancouver-build-workflows).
+        To learn more about spokes, see .
 
 3.  If the fulfillment request is successful, a response is received from the external system and is captured in the Test Run table \(sn\_st\_mgmt\_test\).
 

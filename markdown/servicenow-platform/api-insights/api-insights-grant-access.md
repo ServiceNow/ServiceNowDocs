@@ -2,6 +2,7 @@
 title: Manage requests received for API access in API Insights
 description: Manage incoming received requests for API access in API Insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-grant-access.html
 release: australia
 product: API Insights
 classification: api-insights

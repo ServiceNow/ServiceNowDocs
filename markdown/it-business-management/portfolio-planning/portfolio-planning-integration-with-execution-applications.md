@@ -2,6 +2,7 @@
 title: Portfolio Planning with Project Portfolio Management
 description: Facilitate execution of the work planned in Portfolio Planning in ServiceNow Project Portfolio Management \(PPM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/portfolio-planning-integration-with-execution-applications.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ Facilitate execution of the work planned in Portfolio Planning in ServiceNow Pro
 
 While planning personas like portfolio managers or product owners use Portfolio Planning to align their plans with the business objectives, execution teams can use PPM to deliver work on the planned projects and demands.
 
-![The real-time bi-directional sync of information between Portfolio Planning and PPM.](../../apw-internal-integrations/images/ppw-integration.png "Portfolio Planning integration with ServiceNow Project Portfolio Management")
+\[Omitted image "ppw-integration.png"\] Alt text: The real-time bi-directional sync of information between Portfolio Planning and PPM.
 
 ## Key benefits of Portfolio Planning with PPM
 
@@ -27,7 +28,7 @@ While planning personas like portfolio managers or product owners use Portfolio 
 -   Synchronize updates for linked planning items of Portfolio Planning with PPM.
 -   Track the progress of the linked planning items in Portfolio Planning.
 
-To get started on integrating Portfolio Planning with PPM, see [Configuring Portfolio Planning with PPM](configuring-portfolio-planning-with-ppm.md).
+To get started on integrating Portfolio Planning with PPM, see [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
 
-**Parent Topic:**[Exploring Portfolio Planning](exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

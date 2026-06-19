@@ -2,6 +2,7 @@
 title: Automation Scheduled Trigger Execution form
 description: Use the Automation Scheduled Trigger Execution form to define the type of insight trigger and map an insight rule to a new scheduled script in Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/auto-sched-trigger-exe-form.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -72,7 +73,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
+To learn more about creating and using business calendars and defining business calendar entries, see  and .
 
 
 </td></tr><tr><td>
@@ -148,5 +149,5 @@ Business Calendar
 Business calendar entry that you’re using to determine the business calendar start or end date for the scheduled job. This field appears only if you select **Business Entry: Start Date** or **Business Entry: End Date** in the **Time** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](../concept/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
 

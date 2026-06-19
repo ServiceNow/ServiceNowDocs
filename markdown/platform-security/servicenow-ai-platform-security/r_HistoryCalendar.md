@@ -1,0 +1,34 @@
+---
+title: History Calendar
+description: The history calendar shows you the days where the record was changed, who made the change, and when.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/servicenow-ai-platform-security/r\_HistoryCalendar.html
+release: australia
+product: ServiceNow AI Platform Security
+classification: servicenow-ai-platform-security
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Knowing about History sets, Auditing]
+---
+
+# History Calendar
+
+The history calendar shows you the days where the record was changed, who made the change, and when.
+
+The History Calendar is sorted by update number. Each user is assigned a color so you can tell at a glance how many times a record was changed by a specific user. For example:
+
+\[Omitted image "SysAdminChanges.png"\] Alt text: Changes made by system administrator
+
+\[Omitted image "ITILChanges.png"\] Alt text: Changes made by ITIL user
+
+To highlight changes to a particular field, select the field from the **Highlight changes to field** selection box. Picking a field from this selection box changes the calendar to highlight the times that field was changed. Hover over the text of one of a highlighted change to see the change in value.
+
+\[Omitted image "ViewHighlightedChanges.png"\] Alt text: View highlighted changes
+
+If you hover over the icon within an entry, a popup displays all the value changes. This is the same information that is displayed in the top part of the form.
+
+\[Omitted image "ViewCalendarChanges.png"\] Alt text: View calendar changes
+
+You can click on the day number to get a view of the changes for that day. You can also click on the week number to the left to get a the week view. You can scroll to and from month to month to see changes.
+

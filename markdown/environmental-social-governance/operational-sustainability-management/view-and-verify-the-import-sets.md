@@ -1,0 +1,45 @@
+---
+title: View and verify the import sets
+description: Verify if your data is imported correctly from an external source. This verification enables you to identify if there were any errors during the data import.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/operational-sustainability-management/view-and-verify-the-import-sets.html
+release: australia
+product: Operational Sustainability Management
+classification: operational-sustainability-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+---
+
+# View and verify the import sets
+
+Verify if your data is imported correctly from an external source. This verification enables you to identify if there were any errors during the data import.
+
+## Before you begin
+
+Role required: sn\_esg.program\_manager
+
+## About this task
+
+After the data is loaded to the Operational Sustainability Management application from an external source, such as a spreadsheet, import sets are created where the state of each row is available. If there are errors during import, the state is updated as **Error**. If the data is imported, the state is updated as **Inserted**. You can also view the cause of the error in the error log. If the metric data is overridden, then the state is set to **Ignore**.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Import Sets**.
+
+2.  Open the import set you want to verify.
+
+3.  In the Import Set Rows section, view the state of each row.
+
+    If you want to reload the data to check for errors, you must import your data again. Do not select **Reprocess** under Related Links in the Import set.
+
+4.  To view the error log, select the Import Log section.
+
+
+## What to do next
+
+[Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-a-transform-map.md).
+
+**Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/integrate-esg-with-watershed.md)
+

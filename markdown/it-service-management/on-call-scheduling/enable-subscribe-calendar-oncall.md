@@ -2,6 +2,7 @@
 title: Enable users to subscribe to the On-Call calendar
 description: Configure an On-Call calendar subscription URL and send it to the members of a shift. The URL is an iCal link that enables users to subscribe to their on-call calendar from their preferred calendar client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/enable-subscribe-calendar-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -40,10 +41,10 @@ The Subscription URL supports SSO authentication to view and download on-call ca
 
 4.  Select **Update**.
 
-5.  Select **Send Subscriptions** to send the calendar subscription URL to all members of the shift by email.![A preview of the email.](../image/subscriptiom-email-oncall.png)
+5.  Select **Send Subscriptions** to send the calendar subscription URL to all members of the shift by email.\[Omitted image "subscriptiom-email-oncall.png"\] Alt text: A preview of the email.
 
-    Members of the shift will receive an email with the subscription link. Select the **Subscription link** and log in with SSO credentials to download the calendar or generate and copy the subscription URL.![The screen shows the option to download the schedule or to obtain a publicly accessible URL for subscribing to the schedule.](../image/oncall-calendar-subscription-page.png)
+    Members of the shift will receive an email with the subscription link. Select the **Subscription link** and log in with SSO credentials to download the calendar or generate and copy the subscription URL.\[Omitted image "oncall-calendar-subscription-page.png"\] Alt text: The screen shows the option to download the schedule or to obtain a publicly accessible URL for subscribing to the schedule.
 
 
-**Parent Topic:**[Managing schedules and shifts](../../user-administration/concept/manage-schedules-and-shifts.md)
+**Parent Topic:**[Managing schedules and shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/manage-schedules-and-shifts.md)
 

@@ -2,6 +2,7 @@
 title: Temporary entity model
 description: Use temporary ETL entities to avoid repetitive operations in target entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/temp-entity-model.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -22,7 +23,7 @@ In the temporary \(temp\) entity model, temporary entities serve as an intermedi
 -   In the temp entity, add new entity fields and entity operations to support the values required to map the data to the target entities.
 -   Add target entities and RTE entity mappings to map data from the temp entity to the target entities.
 
-With this model, there's no need to define operations in the target entity. You create operations only in the temp entity, then map the final values to the target entities. ![An overview of the import process using an ETL definition with a temp entity.](../image/temp-entity-model.png)
+With this model, there's no need to define operations in the target entity. You create operations only in the temp entity, then map the final values to the target entities. \[Omitted image "temp-entity-model.png"\] Alt text: An overview of the import process using an ETL definition with a temp entity.
 
 ## Teams ETL definition
 
@@ -33,7 +34,7 @@ In this example, the Teams ETL definition maps data from the input entity to a t
 -   Member: a target entity
 -   Temp: the temporary, intermediate entity
 
-![The Teams definition has four entities: Group, Import Set, Member, and Temp.](../image/temp-entity-example.png)
+\[Omitted image "temp-entity-example.png"\] Alt text: The Teams definition has four entities: Group, Import Set, Member, and Temp.
 
 The Teams definition also has three RTE entity mappings.
 
@@ -41,9 +42,9 @@ The Teams definition also has three RTE entity mappings.
 -   Temp to Member, which maps data from the Temp entity to the Member target entity.
 -   Temp to Group, which maps data from the Temp entity to the Group target entity.
 
-![The Teams definition has three entity mappings: Import Set to Temp, Temp to Member, and Temp to Group.](../image/temp-entity-mapping.png)
+\[Omitted image "temp-entity-mapping.png"\] Alt text: The Teams definition has three entity mappings: Import Set to Temp, Temp to Member, and Temp to Group.
 
 ## Conditional script
 
-In some cases, you might not want to insert or update all the input data to a target table. You can use a conditional script to pick which import set rows to map to a target entity. In the following example, the Temp to Member RTE entity mapping uses a conditional script to specify which rows to map from the Temp entity to the Member entity. Only rows with a type of `member` are mapped to the Member entity. ![Conditional script specifying which rows to map from the Temp entity to the Member entity.](../image/temp-entity-conditional-script.png)
+In some cases, you might not want to insert or update all the input data to a target table. You can use a conditional script to pick which import set rows to map to a target entity. In the following example, the Temp to Member RTE entity mapping uses a conditional script to specify which rows to map from the Temp entity to the Member entity. Only rows with a type of `member` are mapped to the Member entity. \[Omitted image "temp-entity-conditional-script.png"\] Alt text: Conditional script specifying which rows to map from the Temp entity to the Member entity.
 

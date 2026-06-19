@@ -2,11 +2,12 @@
 title: Attachment scan findings
 description: You can review the findings of your attachment quarantine scans, and work with any quarantined or alerted attachments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/attachment-findings.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 ---

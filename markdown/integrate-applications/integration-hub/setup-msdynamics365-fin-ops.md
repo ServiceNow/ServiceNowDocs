@@ -2,6 +2,7 @@
 title: Set up the Microsoft Dynamics 365 for Finance and Operations spoke
 description: Integrate the ServiceNow instance and Microsoft Dynamics 365 for Finance and Operations by creating a custom OAuth application in Microsoft Azure to authenticate ServiceNow requests.Register your ServiceNow instance in Microsoft Azure portal in order to use Microsoft Dynamics 365 Finance and Operations spoke.Configure the outbound Microsoft Dynamics 365 for Finance and Operations connection record in Workflow Studio to authenticate the requests.Retrieve the metadata from Microsoft Dynamics 365 Finance and Operations and store it in your ServiceNow instance. Dynamic actions require the latest metadata from Microsoft Dynamics 365 Finance and Operations.Configure webhook to subscribe to Microsoft Dynamics 365 for Finance and Operations Spoke with a ServiceNow callback URL.Create webhook routing policy and subflow as per your requirement in the Microsoft Dynamics 365 Finance and Operations spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-msdynamics365-fin-ops.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -128,7 +129,7 @@ Role required: admin
 5.  Locate the alias for **MicrosoftDynamics365FinAndOps** and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Microsoft Dynamics 365 for Finance and Operations spoke, click **View Details**.
-    -   To manage more than one Microsoft Dynamics 365 for Finance and Operations spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Microsoft Dynamics 365 for Finance and Operations spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
 6.  On the form, fill in the fields.
@@ -335,7 +336,7 @@ Condition
 
 </td><td>
 
-Conditions to be met when the required events occur in Microsoft Dynamics 365 Finance and Operations. See [Microsoft Dynamics 365 for Finance and Operations Spoke](../concept/msdyn-finops-spoke.md) for information about the supported fields.
+Conditions to be met when the required events occur in Microsoft Dynamics 365 Finance and Operations. See [Microsoft Dynamics 365 for Finance and Operations Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msdyn-finops-spoke.md) for information about the supported fields.
 
 </td></tr><tr><td>
 

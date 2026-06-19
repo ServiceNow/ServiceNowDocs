@@ -2,13 +2,14 @@
 title: Service Graph Connectors for AI Control Tower
 description: You can use Service Graph Connectors \(SGC\)  to import and integrate third-party data into  CMDB  and non-CMDB  tables to create AI connections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/service-graph-connectors-for-ai-control-tower.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
 # Service Graph Connectors for AI Control Tower

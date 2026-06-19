@@ -2,6 +2,7 @@
 title: CMDB — Critical application services
 description: Use this example to build a CMDB query to find all critical application services, and their owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-sample1-app-ser.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

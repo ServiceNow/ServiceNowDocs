@@ -2,6 +2,7 @@
 title: Health and Safety Incident Management OSHA Content Pack reference
 description: Learn about the components, such as the tables and system properties that are installed when you install the Health and Safety Incident Management OSHA Content Pack application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-reporting-reference.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -15,10 +16,10 @@ breadcrumb: [Health and Safety Incident Management OSHA Content Pack, Health and
 
 Learn about the components, such as the tables and system properties that are installed when you install the Health and Safety Incident Management OSHA Content Pack application.
 
--   **[Components installed with Health and Safety Incident Management OSHA Content Pack](../reference/components-installed-with-osha-content-pack.md)**  
+-   **[Components installed with Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/components-installed-with-osha-content-pack.md)**  
 Several types of components are installed with installation of the Health and Safety Incident Management OSHA Content Pack application, including tables and system properties.
--   **[Health and Safety Incident Management OSHA Content Pack properties](../reference/properties-installed-osha-content-pack.md)**  
+-   **[Health and Safety Incident Management OSHA Content Pack properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/properties-installed-osha-content-pack.md)**  
 Properties that you can use to configure PDF templates for OSHA forms.
 
-**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](generating-osha-forms.md)
+**Parent Topic:**[Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/generating-osha-forms.md)
 

@@ -2,6 +2,7 @@
 title: Reviewing top processes by resource usage in incident investigation with DEX
 description: Reviewing the top processes by CPU and memory usage on Digital End-User Experience \(DEX\) monitored devices helps you identify processes causing device issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/process-snapshot.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -34,7 +35,7 @@ Some time ranges display individual snapshot data on the graph, while others dis
 
         **Note:** The graph doesn't show snapshots for incidents created more than seven days ago.
 
-    -   **Last 6 hours**: Snapshots are captured every 30 minutes for the last six hours. In addition to automated snapshots, selecting the Refresh icon ![](../image/icon-dex-refresh.png) captures the latest snapshot on demand.
+    -   **Last 6 hours**: Snapshots are captured every 30 minutes for the last six hours. In addition to automated snapshots, selecting the Refresh icon \[Omitted image "icon-dex-refresh.png"\] Alt text: captures the latest snapshot on demand.
 
         **Note:** The Refresh icon is enabled only for the **Last 6 hours** time range and when the device is online.
 

@@ -2,6 +2,7 @@
 title: Activate an account
 description: Complete the new account application process and send any necessary documentation to the new account holder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/activate-account.html
 release: australia
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations

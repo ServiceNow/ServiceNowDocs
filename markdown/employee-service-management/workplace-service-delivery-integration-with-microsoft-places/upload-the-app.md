@@ -2,13 +2,14 @@
 title: Upload the WSD for Microsoft places application
 description: Upload the WSD for Microsoft places application in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/upload-the-app.html
 release: australia
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure WSD for Microsoft places, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Upload the WSD for Microsoft places application
@@ -21,7 +22,7 @@ Role required: admin
 
 Ensure to modify the manifest file \(.json file\)
 
-For more information about modifying the manifest file, refer to [Modify the manifest file](modify-the-manifest-file.md)
+For more information about modifying the manifest file, refer to [Modify the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/modify-the-manifest-file.md)
 
 ## Procedure
 

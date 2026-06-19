@@ -2,6 +2,7 @@
 title: Multi-response bot response control
 description: Use the Multi-response bot response control in a Virtual Agent topic to sequentially display two or more outputs. Outputs can be text, image, link, or HTML. Users can move from one output to the next through a provided navigation button.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-multi-flow-output.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -90,7 +91,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |LINE|Not supported|Not applicable|
 |WhatsApp|Not supported|Not applicable|
 |Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](../concept/va-settings-for-alexa.md).|
+|Alexa \(Voice\)|Partial support|Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
 
 ## Example Multi-response control
 
@@ -106,12 +107,12 @@ Multi-response output
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include the node name and the response organized by type: Text, HTML, Image, and Link.](../images/va-multi-flow-properties.png "Multi-response bot response control basic properties")
+\[Omitted image "va-multi-flow-properties.png"\] Alt text: Basic properties include the node name and the response organized by type: Text, HTML, Image, and Link.
 
 </td><td>
 
-![A basic response includes text output followed by a hyperlink.](../images/va-multi-flow-web.png "Web UI Multi-response bot response output")
+\[Omitted image "va-multi-flow-web.png"\] Alt text: A basic response includes text output followed by a hyperlink.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

@@ -2,13 +2,14 @@
 title: Reset a demand to draft state
 description: Move a demand back to the Draft state, if necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/reset-a-demand-to-draft-state-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Reset a demand to draft state
@@ -27,11 +28,11 @@ A demand can be reset to Draft from the Completed, Approved, Screening, or Submi
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
-3.  Select **Reset to Draft**.![Use the Reset to Draft button to reset a demand to the Draft state.](../images/demands-reset-to-draft.png)
+3.  Select **Reset to Draft**.\[Omitted image "demands-reset-to-draft.png"\] Alt text: Use the Reset to Draft button to reset a demand to the Draft state.
 
     A confirmation message appears, if there are:
 

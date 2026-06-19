@@ -2,6 +2,7 @@
 title: Alert field mapping on the Respond page
 description: The fields to be configured on the Respond page, when selecting an action to be triggered by an alert automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/alert-field-mapping-respond-page.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -50,7 +51,7 @@ Value that will be set in the alert field:-   If you select **Same as** in the M
 -   If you select **To** in the Map field column, enter the alert field value that you want to appear in the specified incident field.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Create Respond automation](../task/respond-alert-sow-itom.md).
+</table>To return to the procedure, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

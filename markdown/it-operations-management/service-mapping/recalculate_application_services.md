@@ -2,6 +2,7 @@
 title: Recalculate previously created application services
 description: Recalculate application services after you refine the default configuration to control which CIs to include during the tag-based discovery process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/recalculate\_application\_services.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -17,9 +18,9 @@ Recalculate application services after you refine the default configuration to c
 
 ## Before you begin
 
-Complete the steps to refine the default configuration for the tag-based discovery process. For more details, see [Tag-based discovery configuration](../concept/tag_discovery_configuration.md).
+Complete the steps to refine the default configuration for the tag-based discovery process. For more details, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md).
 
-**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](../reference/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](../concept/tag-discovery-service-mapping-workspace.md).
+**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 Role required: service\_mapping\_admin
 
@@ -34,5 +35,5 @@ Role required: service\_mapping\_admin
 4.  Repeat these steps for all relevant tag-based services.
 
 
-**Parent Topic:**[Tag-based discovery configuration](../concept/tag_discovery_configuration.md)
+**Parent Topic:**[Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md)
 

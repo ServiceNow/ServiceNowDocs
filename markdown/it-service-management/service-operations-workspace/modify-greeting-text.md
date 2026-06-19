@@ -2,6 +2,7 @@
 title: Configure the header message on the landing page
 description: Configure the header message that is part of the greeting text on the landing page. For example, You are on-call until Monday, Mar 21.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/modify-greeting-text.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -25,7 +26,7 @@ The Get service desk agent shift data broker server script calls the `SOWService
 
 While the display text can be customized for the default landing page, the visual styling changes to the text can be done only by creating a copy of the landing page.
 
-![Greetings text](../image/greeting-text.png "Header section")
+\[Omitted image "greeting-text.png"\] Alt text: Greetings text
 
 **Note:**
 
@@ -504,5 +505,5 @@ The alert notification on the banner in SOW automatically expands to display the
 6.  Select **Update**.
 
 
-**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](../concept/landing-page-configurations-sow-itsm.md)
+**Parent Topic:**[Landing page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/landing-page-configurations-sow-itsm.md)
 

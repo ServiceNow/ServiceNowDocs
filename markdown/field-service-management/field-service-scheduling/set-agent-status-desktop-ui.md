@@ -2,6 +2,7 @@
 title: Set agent status from the desktop
 description: Field service agents can indicate their status from the desktop and let dispatchers know if they are ahead of schedule, behind schedule, or on time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/set-agent-status-desktop-ui.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

@@ -2,6 +2,7 @@
 title: Universal Request Router agentic workflow
 description: Enables employees to request a department agnostic ticket to avail services that are not readily accessible/understandable via the catalog listings or the services that require collaboration across multiple departments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/agentic-flow-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -25,7 +26,7 @@ Verify that the Universal Request AI agent collection Plugin \(com.sn\_ur\_ai\_a
 
 ## Accessing the Universal Request Router agentic workflow
 
-![](../images/ur-access.png)
+\[Omitted image "ur-access.png"\] Alt text:
 
 To access the agentic workflow:
 
@@ -36,7 +37,7 @@ The first step of the guided setup includes a complete list of included AI agent
 
 ## Universal Request Router agentic workflow AI agents
 
-![](../images/ur-ai-agents.png)
+\[Omitted image "ur-ai-agents.png"\] Alt text:
 
 The following table lists the agents that are used in the Universal Request Router agentic workflow.
 
@@ -73,7 +74,7 @@ Predict fields of an incoming task/record by gathering incoming task sys\_id. It
 
 Activate the triggers according to your organization's requirements.
 
-![](../images/ur-triggers.png)
+\[Omitted image "ur-triggers.png"\] Alt text:
 
 ## Executing a test scenario
 
@@ -81,11 +82,11 @@ You can run this workflow on the Testing page of AI Agent Studio with the follow
 
 The AI agent decision log displays the AI agents that are working to predict the department for the ticket, and create a primary ticket for the identified department. You can also watch their interactions, decisions, and thought processes as they happen in real time.
 
-![](../images/ur-testing.png)![](../images/ur-testing-output.png)
+\[Omitted image "ur-testing.png"\] Alt text:\[Omitted image "ur-testing-output.png"\] Alt text:
 
 ## Predict and create a primary ticket in Universal Request page
 
-This is an example of how the Universal Request Router agentic workflow automatically predicts the department for the ticket, and creates a primary ticket for the identified department.![](../images/ur-predict.png)![](../images/ur-predict-service.png)
+This is an example of how the Universal Request Router agentic workflow automatically predicts the department for the ticket, and creates a primary ticket for the identified department.\[Omitted image "ur-predict.png"\] Alt text:\[Omitted image "ur-predict-service.png"\] Alt text:
 
-**Parent Topic:**[Using agentic flows in Universal Request AI agent collection](ur-ai-agent-collection.md)
+**Parent Topic:**[Using agentic flows in Universal Request AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-ai-agent-collection.md)
 

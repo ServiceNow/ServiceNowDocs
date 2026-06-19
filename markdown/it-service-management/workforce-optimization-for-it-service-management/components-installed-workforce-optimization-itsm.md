@@ -2,6 +2,7 @@
 title: Workforce Optimization for ITSM components
 description: The Workforce Optimization for ITSM application has tables to store user and application data or database views and a schedule job to collect data for indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/components-installed-workforce-optimization-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -210,5 +211,5 @@ Manager Groups database view \[sn\_wfo\_manager\_groups\]**Note:** The filters f
 |----|-----------|
 |WFO data collection|Runs the job on demand and collects data for all Workforce Optimization for ITSM indicators.|
 
-**Parent Topic:**[Workforce Optimization for ITSM reference](workforce-optimization-itsm-reference.md)
+**Parent Topic:**[Workforce Optimization for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-reference.md)
 

@@ -2,6 +2,7 @@
 title: Loan Forgiveness workflow
 description: Learn how bank agents, using the Loan Forgiveness workflow, resolve a loan service request for a waiver or forgiveness of an outstanding loan with the bank. The workflow applies to both business and personal loan service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/loan-forgiveness-workflow.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -19,7 +20,7 @@ A loan forgiveness request could be for the full loan amount or only a partial a
 
 The following diagram shows how the application helps bank agents resolve a Loan Forgiveness service request.
 
-![Workflow that shows how a loan service request for forgiveness is resolved using the Loan Operations application.](../image/loan-forgiveness-workflow.png "Loan Forgiveness workflow")
+\[Omitted image "loan-forgiveness-workflow.png"\] Alt text: Workflow that shows how a loan service request for forgiveness is resolved using the Loan Operations application.
 
 The following workflow routes the case and tasks for a Loan Forgiveness service request to agents in different departments. The agents log in to Workspace to work on the tasks in their queue. For Loan Forgiveness workflow for business loan operations, agents can also use the case playbook that guides them through the steps that are needed to resolve the case.
 

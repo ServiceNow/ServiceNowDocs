@@ -2,6 +2,7 @@
 title: Configure Success Dashboard indicators KPIs
 description: Success Dashboard indicators has a prescriptive methodology for measuring performance. But you can reconfigure the source of the Key Performance Indicators \(KPIs\) by replacing the available indicators in the base system or by adding more indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -44,16 +45,16 @@ There are two major types of indicators:
         -   Self-solved using Knowledge = Any Service group issues self-solved using Knowledge \(the only contributing indicator registered for this primary indicator\)
         -   Automated Resolutions \(automatic primary indicator\) = Incident or HR ticket auto-resolution \(the only contributing indicator registered for this primary indicator\)
 
--   **[Add contributing indicators](add-contributing-indicators.md)**  
+-   **[Add contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/add-contributing-indicators.md)**  
 Add new contributing indicators based on your organizational preferences.
--   **[Add time savings](add-time-savings.md)**  
+-   **[Add time savings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/add-time-savings.md)**  
 Add new time savings as a contributing indicator based on your organizational preferences.
--   **[Update more information cards](update-sidepanel-more.md)**  
+-   **[Update more information cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/update-sidepanel-more.md)**  
 Configure and update the **More Information cards** in the side panel.
--   **[Create a cost savings indicator for ITSM Success Dashboard](customize-cost-savings.md)**  
+-   **[Create a cost savings indicator for ITSM Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/customize-cost-savings.md)**  
 Create a cost savings indicator in ITSM Success Dashboard to determine and display the time saved for the contributing indicators when agents work on an incident.
--   **[Modify the currency code for ITSM Success Dashboard indicators](customize-currency-code.md)**  
+-   **[Modify the currency code for ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/customize-currency-code.md)**  
 Modify the currency code for ITSM Success Dashboard indicators.
 
-**Parent Topic:**[ITSM Success Dashboard Admin console](../concept/admin-console-sd.md)
+**Parent Topic:**[ITSM Success Dashboard Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/admin-console-sd.md)
 

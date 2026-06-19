@@ -2,6 +2,7 @@
 title: Deactivate streaming for all GCC customers in Microsoft Teams
 description: Control streaming in Microsoft Teams for any and all Government Community Cloud \(GCC\) varieties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/deactivate-streaming-gcc.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -32,7 +33,7 @@ You can deactivate streaming as needed with this procedure, by setting values in
 
 1.  Navigate to **All** &gt; **sys\_now\_assist\_channel\_config.list**.
 
-2.  In the entry for **Teams**, set the **Streaming Ready** value to `false`.![Now Assist Channel Configs table with Teams Device Type entry highlighted.](../images/disable-gcc-streaming-01.png)
+2.  In the entry for **Teams**, set the **Streaming Ready** value to `false`.\[Omitted image "disable-gcc-streaming-01.png"\] Alt text: Now Assist Channel Configs table with Teams Device Type entry highlighted.
 
 3.  Navigate to **All** &gt; **sys\_cs\_custom\_adapter\_property.list**.
 
@@ -40,7 +41,7 @@ You can deactivate streaming as needed with this procedure, by setting values in
 
     One or more records for `sys_cs_custom_adapter_property` appear.
 
-5.  Set the **Value** for each record to `false`.![Custom Adapter Properties table showing search result for publish_checkpoint_messages records.](../images/disable-gcc-streaming-02.png)
+5.  Set the **Value** for each record to `false`.\[Omitted image "disable-gcc-streaming-02.png"\] Alt text: Custom Adapter Properties table showing search result for publish\_checkpoint\_messages records.
 
 
 ## Result
@@ -49,5 +50,5 @@ Streaming is disabled for your version of GCC in your instance.
 
 If you want to reactivate streaming, repeat these steps, but set the **Value** for all entries to `true`.
 
-**Parent Topic:**[Specialized Virtual Agent integrations for Microsoft Teams](../concept/specialized-va-integs-msteams.md)
+**Parent Topic:**[Specialized Virtual Agent integrations for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/specialized-va-integs-msteams.md)
 

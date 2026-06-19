@@ -2,6 +2,7 @@
 title: Contact form
 description: Use the Contact form to create the contacts manually and then synchronize the contacts with Everbridge.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/contact-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -83,5 +84,5 @@ Sync error
 Error in syncing the contact with Everbridge.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create contacts for emergency notifications](../task/create-contacts-emergency-noti-uib-ws.md)
+</table>**Parent Topic:**[Create contacts for emergency notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-contacts-emergency-noti-uib-ws.md)
 

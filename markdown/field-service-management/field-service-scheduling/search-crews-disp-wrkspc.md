@@ -2,6 +2,7 @@
 title: Search for crews on Dispatcher Workspace
 description: Search for crews with specific attributes on Dispatcher Workspace so you can make appropriate assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/search-crews-disp-wrkspc.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -25,7 +26,7 @@ Role required: wm\_dispatcher
 
 2.  Select **Dispatcher Workspace**.
 
-3.  Type the search term in the **Search resources** field and select the Search icon \(![Search icon.](../image/search_icon.png)\).
+3.  Type the search term in the **Search resources** field and select the Search icon \(\[Omitted image "search\_icon.png"\] Alt text: Search icon.\).
 
 
 ## Result

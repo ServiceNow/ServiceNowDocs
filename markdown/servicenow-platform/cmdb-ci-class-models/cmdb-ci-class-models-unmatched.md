@@ -2,6 +2,7 @@
 title: Unmatched API extension classes
 description: The CMDB CI Class Models app adds or updates classes for unmatched APIs. API endpoints that are not structured well enough to populate the API \[cmdb\_ci\_api\] and API Component \[cmdb\_ci\_api\_component\] classes instead populate the Unmatched API Endpoint \[cmdb\_ci\_unmatched\_api\_endpoint\] class. Unmatched APIs are typically used by integrations like security scanners or observability tools.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-unmatched.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -17,11 +18,11 @@ The CMDB CI Class Models app adds or updates classes for unmatched APIs. API end
 
 CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Unmatched APIs
 
@@ -31,7 +32,7 @@ API endpoints that are not structured well enough to populate the API \[cmdb\_ci
 
 This section lists the classes that the CMDB CI Class Models app adds or updates.
 
-CMDB CI Class Models: Release 1.49.0 adds the following class for unmatched API endpoints. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+CMDB CI Class Models: Release 1.49.0 adds the following class for unmatched API endpoints. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 <table id="table_h2r_d5z_ryb"><thead><tr><th>
 

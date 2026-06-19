@@ -2,6 +2,7 @@
 title: View sibling tasks related to a work order
 description: View details of sibling work order task that are related to the same work order in Field Service Contractor Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-sibling-task.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,6 +2,7 @@
 title: Configure Scheduled Data Imports records
 description: Configure a Scheduled Data Imports record for the Crisis map application. You can then manage your subscriptions to the threat feeds from an internal or external source in the BCM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/sched-data-imports-crisis-map-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ Configure a Scheduled Data Imports record for the Crisis map application. You ca
 
 Role required: admin
 
-You must set up the Google maps for enabling the crisis map functionality. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
+You must set up the Google maps for enabling the crisis map functionality. For more information, see Set up Google Maps API.
 
 ## About this task
 
@@ -38,11 +39,11 @@ Threat feeds provide a situational awareness of potential or current threats to 
 
     The Scheduled Data Import form is displayed.
 
-    ![Scheduled Data Import form.](../image/sch-data-import-form.png)
+    \[Omitted image "sch-data-import-form.png"\] Alt text: Scheduled Data Import form.
 
 3.  On the form, fill in the fields.
 
-    For more information on the Scheduled Data Imports form, see [Scheduled Data Imports form](../reference/scheduled-data-imports-form.md).
+    For more information on the Scheduled Data Imports form, see [Scheduled Data Imports form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scheduled-data-imports-form.md).
 
 4.  Select **Submit**.
 
@@ -56,7 +57,7 @@ Threat feeds provide a situational awareness of potential or current threats to 
 
     The example shows a scheduled data import record where GDAC Feeds is the data source.
 
-    ![Sample scheduled data import record.](../image/sample-sch-import-record.png)
+    \[Omitted image "sample-sch-import-record.png"\] Alt text: Sample scheduled data import record.
 
 6.  To delete an existing data import record, select **Delete**.
 
@@ -67,8 +68,8 @@ Threat feeds provide a situational awareness of potential or current threats to 
 
 The data import record is displayed in the **Scheduled Data Imports** record page.
 
--   **[Scheduled Data Imports form](../reference/scheduled-data-imports-form.md)**  
+-   **[Scheduled Data Imports form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/scheduled-data-imports-form.md)**  
 Use the Scheduled Data Imports form in the BCM Configurable Workspace to add details about a Scheduled data imports record.
 
-**Parent Topic:**[Setup for Crisis map](../concept/crisis-map-admin-tasks.md)
+**Parent Topic:**[Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-admin-tasks.md)
 

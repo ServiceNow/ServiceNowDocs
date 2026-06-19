@@ -2,6 +2,7 @@
 title: Enable agentic workflows in Virtual Agent
 description: Perform the following if you're trying to trigger an agentic workflow, but don't see the Virtual Agent option in the configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/enable-agentic-workflows-nava.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent

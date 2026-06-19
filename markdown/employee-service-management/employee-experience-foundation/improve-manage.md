@@ -2,6 +2,7 @@
 title: Managing portal performance
 description: Discover ways to reduce portal loading time and enhance portal display.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/improve-manage.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Discover ways to reduce portal loading time and enhance portal display.
 
 ## Review widget performance metrics
 
-The **Performance details** feature provides comprehensive tracking of each widget on a page, enabling better assessment of the user experience. You can view load times, customization status, and display visibility for each widget. For guidance on accessing the widget performance metrics, see [View widget performance metrics](../task/view-widget-performance-metrics.md).
+The **Performance details** feature provides comprehensive tracking of each widget on a page, enabling better assessment of the user experience. You can view load times, customization status, and display visibility for each widget. For guidance on accessing the widget performance metrics, see [View widget performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/view-widget-performance-metrics.md).
 
 ## Enable asynchronous loading for widgets
 
@@ -34,24 +35,24 @@ The following widgets support asynchronous loading:
 
 **Note:** Performance tracking is not supported for widgets with asynchronous data loading enabled.
 
-For step-by-step instructions to enable asynchronous loading, see [Improve portal load time with asynchronous loading](../task/optimize-performance-of-employee-center-home-page.md) and [Configure Mega menu async load system properties](../task/config-mega-menu-async-load.md).
+For step-by-step instructions to enable asynchronous loading, see [Improve portal load time with asynchronous loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/optimize-performance-of-employee-center-home-page.md) and [Configure Mega menu async load system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-mega-menu-async-load.md).
 
 ## Optimize connected content
 
 To improve page load times, limit the number of connected content items in topics. Connect only the required content to topics and remove any unnecessary content like outdated or unpublished versions.
 
-For guidance on managing connected content, see [Create and associate topics](../task/create-topics-for-taxonomy.md) and [Taxonomy and connected content](track-new-content.md).
+For guidance on managing connected content, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md) and [Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/track-new-content.md).
 
--   **[Portal performance optimization](ec-load-experience-optimization.md)**  
+-   **[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-load-experience-optimization.md)**  
 Learn more about the heavy-load and high-traffic scenarios and ways to optimize the user experience and portal performance.
--   **[Improve portal load time with asynchronous loading](../task/optimize-performance-of-employee-center-home-page.md)**  
+-   **[Improve portal load time with asynchronous loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/optimize-performance-of-employee-center-home-page.md)**  
 Reduce the time employees spend waiting for the portal to load by enabling widgets to load data asynchronously. This allows widgets to display information as it becomes available, improving overall portal performance.
--   **[Improve the image load time on Employee Center](../task/optimize-image-loading.md)**  
+-   **[Improve the image load time on Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/optimize-image-loading.md)**  
 Use CDN URLs to reduce the load time of the banner images, background images, and app icons on the Employee Center portal.
--   **[View widget performance metrics](../task/view-widget-performance-metrics.md)**  
+-   **[View widget performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/view-widget-performance-metrics.md)**  
 View the metrics provided by the performance window to identify which widgets take the longest to load data.
--   **[Add hotspots to track custom widget performance](../task/add-hotspots-track-custom-widget-performance.md)**  
+-   **[Add hotspots to track custom widget performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-hotspots-track-custom-widget-performance.md)**  
 Hotspots help capture and log widget load times, which enables better debugging of long portal load times.
 
-**Parent Topic:**[Configuring Employee Center Pro](configuring-employee-center-pro.md)
+**Parent Topic:**[Configuring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configuring-employee-center-pro.md)
 

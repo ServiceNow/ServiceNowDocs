@@ -2,6 +2,7 @@
 title: Set up Navex EthicsPoint spoke spoke
 description: Integrate the ServiceNow instance and Navex EthicsPoint spoke instance using the Basic Auth credentials to authenticate ServiceNow requests.Integrate the ServiceNow instance and the Navex EthicsPoint instance by using the Basic Auth credentials to authenticate ServiceNow requests.Create connection records to your Navex EthicsPoint instance. The Navex EthicsPoint spoke connection and credential alias uses these connections to perform actions in Navex EthicsPoint instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-navex-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -64,7 +65,7 @@ Role required: admin
 
 2.  Open the following records and create connections for each of the record.
 
-    For each connection, you must also [Create basic auth credentials](setup-navex-spoke.md#).
+    For each connection, you must also [Create basic auth credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-navex-spoke.md).
 
     -   NavexConnection for Attachment
     -   NavexConnection for Case Management

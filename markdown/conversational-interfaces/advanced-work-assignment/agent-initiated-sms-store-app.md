@@ -2,6 +2,7 @@
 title: Agent initiated SMS conversation
 description: Customer Service Management supports additional messaging channel such as SMS which tracks interactions between the agent and customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/agent-initiated-sms-store-app.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -17,11 +18,11 @@ Customer Service Management supports additional messaging channel such as SMS wh
 
 ## Requirements
 
-At least one provider configuration for messaging type channel must be available to view the **Compose SMS** option in the agent interaction screen. For more information about provider sys\_cs\_provider\_application.list, see [Create a channel identifier](../../virtual-agent/task/create-adapter-for-virtual-agent.md).
+At least one provider configuration for messaging type channel must be available to view the **Compose SMS** option in the agent interaction screen. For more information about provider sys\_cs\_provider\_application.list, see [Create a channel identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md).
 
 ## Phone number validation
 
-REST endpoint `/api/now/initiate_message/validate_phone_number` is used to validate if the phone number is in the E.164 format. If the number of a known consumer is not in the E.164 format, the system converts it to the E.164 format based on for example, the location of the consumer. If the location is not found, it will by default convert the number to an E.164 format. For more information about E.164 formats and validation, see [Phone number field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UsePhoneNumberFields.md).
+REST endpoint `/api/now/initiate_message/validate_phone_number` is used to validate if the phone number is in the E.164 format. If the number of a known consumer is not in the E.164 format, the system converts it to the E.164 format based on for example, the location of the consumer. If the location is not found, it will by default convert the number to an E.164 format. For more information about E.164 formats and validation, see Phone number field type.
 
 ## Customer profile validation
 
@@ -82,5 +83,5 @@ There is an active interaction involving a different contact/consumer/user​
 </td></tr></tbody>
 </table>## Customize the behaviour of send from and to numbers
 
-The AgentInitiatedConversationUtil extension point is added to implement a customers' logic to change the default behaviour of the **Send from** and **Send to** fields. For more information, see [Associating user profiles on messaging interactions](../../conversational-interfaces/task/associate-user-profiles-messaging-interactions.md). For this store application, AgentInitiatedMessagingUtilExtPointImpl extension point is configured for fetching the from and to numbers.
+The AgentInitiatedConversationUtil extension point is added to implement a customers' logic to change the default behaviour of the **Send from** and **Send to** fields. For more information, see [Associating user profiles on messaging interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/associate-user-profiles-messaging-interactions.md). For this store application, AgentInitiatedMessagingUtilExtPointImpl extension point is configured for fetching the from and to numbers.
 

@@ -2,6 +2,7 @@
 title: Using the visitor portal
 description: Use the visitor portal to manage your visits, complete pre-check tasks, and manage personal data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/using-visitor-portal.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management

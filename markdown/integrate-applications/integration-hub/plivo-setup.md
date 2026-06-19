@@ -2,6 +2,7 @@
 title: Set up the Plivo spoke
 description: Integrate the ServiceNow instance and Plivo account by using the basic authentication to authenticate ServiceNow requests.Add and configure a Plivo connection to authenticate ServiceNow requests in Plivo spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/plivo-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -42,12 +43,12 @@ Add and configure a Plivo connection to authenticate ServiceNow requests in Pliv
 
     -   To configure the default connection and credential alias record that is shipped along with the Plivo spoke, click **View Details**.
 
-        ![Connection for Plivo spoke.](../image/plivo-connection.png)
+        \[Omitted image "plivo-connection.png"\] Alt text: Connection for Plivo spoke.
 
-    -   To manage more than one Plivo spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Plivo spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    ![First-time connection configuration of the Plivo spoke.](../image/plivo-conf-connection.png)
+    \[Omitted image "plivo-conf-connection.png"\] Alt text: First-time connection configuration of the Plivo spoke.
 
 5.  On the **Configure Connection** form, fill in the fields:
 
@@ -60,7 +61,7 @@ Add and configure a Plivo connection to authenticate ServiceNow requests in Pliv
     |User name|Auth ID of your Plivo account.|
     |Password|Auth token of your Plivo account.|
 
-    ![Configure a connection for the Plivo spoke.](../image/plivo-configured-connection.png)
+    \[Omitted image "plivo-configured-connection.png"\] Alt text: Configure a connection for the Plivo spoke.
 
 6.  Click **Configure Connection**.
 

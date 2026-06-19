@@ -2,6 +2,7 @@
 title: Script evaluation of fields by data type
 description: Script fields evaluate data based on the field type of the input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_ScriptingOfFieldTypes.html
 release: australia
 product: Scripts
 classification: scripts
@@ -73,9 +74,9 @@ true or false
 
 </td><td>
 
-![The true icon](../image/CheckOn.png) &gt; true
+\[Omitted image "CheckOn.png"\] Alt text: The true icon &gt; true
 
- ![The false icon](../image/CheckOff.png) &gt; false
+ \[Omitted image "CheckOff.png"\] Alt text: The false icon &gt; false
 
 </td></tr><tr><td>
 
@@ -113,9 +114,9 @@ A date that is equal to January 1st 1970 00:00:00 + the amount of time of the du
 
 </td><td>
 
-![](../image/ZeroDuration.png) &gt; "1970-01-01 00:00:00"
+\[Omitted image "ZeroDuration.png"\] Alt text: &gt; "1970-01-01 00:00:00"
 
- ![](../image/TestDuration.png) &gt; "1970-01-02 02:03:04"
+ \[Omitted image "TestDuration.png"\] Alt text: &gt; "1970-01-02 02:03:04"
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ Returns the contents of the value field for the `sys_choice` record associated w
 
 </td><td>
 
-![](../image/BasicSelect.png) &gt; "2" \(Note that this value is is a string\)
+\[Omitted image "BasicSelect.png"\] Alt text: &gt; "2" \(Note that this value is is a string\)
 
 </td></tr><tr><td>
 
@@ -151,7 +152,7 @@ Returns the `sys_id` of the record that is referenced
 
 </td><td>
 
-![](../image/Reference.png) &gt; "287ee6fea9fe198100ada7950d0b1b73"
+\[Omitted image "Reference.png"\] Alt text: &gt; "287ee6fea9fe198100ada7950d0b1b73"
 
 </td></tr><tr><td>
 
@@ -163,7 +164,7 @@ Returns the path to the image
 
 </td><td>
 
-![](../image/ImageFiletype.png) &gt; images/icons/image\_name.gif
+\[Omitted image "ImageFiletype.png"\] Alt text: &gt; images/icons/image\_name.gif
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ Returns a string
 
 </td><td>
 
-![](../image/URLExample.png) &gt; "http://www.service-now.com"
+\[Omitted image "URLExample.png"\] Alt text: &gt; "http://www.service-now.com"
 
 </td></tr><tr><td>
 
@@ -187,8 +188,8 @@ Returns a string of comma-separated Sys IDs
 
 </td><td>
 
-![](../image/GlideListExample.png) &gt; 5137153cc611227c000bbd1bd8cd2007,46d14f04a9fe19810142e40c6b071512
+\[Omitted image "GlideListExample.png"\] Alt text: &gt; 5137153cc611227c000bbd1bd8cd2007,46d14f04a9fe19810142e40c6b071512
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Scripting](../../topic/c_Script.md)
+</table>**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
 

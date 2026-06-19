@@ -2,6 +2,7 @@
 title: Reorder the navigation pane modules in Service Operations Workspace for ITSM
 description: Quickly access the navigation pane modules in Service Operations Workspace for ITSM. For example, Home, List, Inbox, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/reorder-left-navigation-pane-modules.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -34,5 +35,5 @@ Role required: admin
 5.  Drag the modules in the required order.
 
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](../concept/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

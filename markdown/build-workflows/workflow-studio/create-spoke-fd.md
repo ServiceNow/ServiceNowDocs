@@ -2,6 +2,7 @@
 title: Create spoke and build actions by importing an OpenAPI Specification
 description: Automate an integration and generate reusable actions by importing an OpenAPI Specification.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-spoke-fd.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -37,14 +38,16 @@ Automate an integration and generate reusable actions by importing an OpenAPI Sp
         |-----|-----------|
         |Spoke name|Name to identify the custom spoke.|
         |Description|Description about the custom spoke.|
+        |System|Search and select the external system to integrate.|
+        |Connector type|Select **Spoke** from the list.|
 
-        ![Create spoke in new scope.](../images/spk-gen-new-scope.png)
+        \[Omitted image "spk-gen-new-scope.png"\] Alt text: Create spoke in new scope.
 
         **Note:**
 
-        The value of **App scope name** is the format: `x_<company-code>_<spoke-name>_<spoke>`. By default, the &lt;company-code&gt; is, `snc`. You can configure the company code by configuring **Value** of the system property, **glide.appcreator.company.code**.![Configuring Value of glide.appcreator.company.code.](../images/spoke-gen-sys-property.png)
+        The value of **App scope name** is the format: `x_<company-code>_<spoke-name>_<spoke>`. By default, the &lt;company-code&gt; is, `snc`. You can configure the company code by configuring **Value** of the system property, **glide.appcreator.company.code**.\[Omitted image "spoke-gen-sys-property.png"\] Alt text: Configuring Value of glide.appcreator.company.code.
 
-        This configured value is used when the value **App scope name** is generated.![Configured value of App scope name.](../images/spoke-gen-app-scope.png)
+        This configured value is used when the value **App scope name** is generated.\[Omitted image "spoke-gen-app-scope.png"\] Alt text: Configured value of App scope name.
 
     2.  If you choose to create the spoke in an existing scope, select an image as the logo for your integration and fill in the fields.
 
@@ -64,7 +67,7 @@ Application name
 
 </td><td>
 
-An existing application name or scope.![Select an existing application.](../images/spk-gen-existing-app-name.png)
+An existing application name or scope.\[Omitted image "spk-gen-existing-app-name.png"\] Alt text: Select an existing application.
 
 </td></tr><tr><td>
 
@@ -82,12 +85,26 @@ Description
 
 Description about the custom spoke.
 
+</td></tr><tr><td>
+
+System
+
+</td><td>
+
+Search and select the external system to integrate.
+
+</td></tr><tr><td>
+
+Connector type
+
+</td><td>
+
+Select **Spoke** from the list.
+
 </td></tr></tbody>
-</table>        ![Create spoke in an existin scope.](../images/spk-gen-existing-scope.png)
+</table>4.  Click **Continue**.
 
-4.  Click **Continue**.
-
-    Based on the provided name and description, if there are any matching spokes on Store, the spoke details are displayed.![Matching spokes found on Store.](../images/spoke-gen-store-apps.png)
+    Based on the provided name and description, if there are any matching spokes on Store, the spoke details are displayed.\[Omitted image "spoke-gen-store-apps.png"\] Alt text: Matching spokes found on Store.
 
     1.  Click **View details on Store** to see the details of the matching spokes.
 
@@ -95,7 +112,7 @@ Description about the custom spoke.
 
     2.  Install the spoke from the Store.
 
-        For more details, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+        For more details, see .
 
     3.  After installing the spoke, navigate to the Workflow Studio tab.
 
@@ -121,7 +138,7 @@ Description about the custom spoke.
 
 7.  Select **OpenAPI Specification** and click **Continue** to import an OpenAPI specification.
 
-    ![Select the method by which you want to create your spoke.](../images/spk-gen-open-api.png)
+    \[Omitted image "spk-gen-open-api.png"\] Alt text: Select the method by which you want to create your spoke.
 
 8.  For **OpenAPI source**, click **Import new**.
 
@@ -129,11 +146,11 @@ Description about the custom spoke.
 
     1.  If you want to import using an URL, select **Import from URL** for **Import method** and specify the URL in **OpenAPI URL**.
 
-        ![Import new OpenAPI source.](../images/create-spk-import-openapi-url.png)
+        \[Omitted image "create-spk-import-openapi-url.png"\] Alt text: Import new OpenAPI source.
 
     2.  If you want to import manually using JSON or YAML code, select **Import from JSON or YAML manually** for **Import method** and provide the code in **JSON or YAML**.
 
-        ![Create spoke manually by importing JSON or YAML.](../images/create-spk-import-openapi-json.png)
+        \[Omitted image "create-spk-import-openapi-json.png"\] Alt text: Create spoke manually by importing JSON or YAML.
 
 10. Click **Import**.
 
@@ -168,7 +185,7 @@ Configuration Template for authentication
 Required authentication mechanism for this integration. Ensure that the authentication mechanism is compatible with the OpenAPI source.**Note:** The configuration template is auto-populated based on the OpenAPI specification you had provided. You can continue with the default option or change it as per your requirement.
 
 </td></tr></tbody>
-</table>    ![Create connection alias for the spoke.](../images/create-spk-conn-alias.png)
+</table>    \[Omitted image "create-spk-conn-alias.png"\] Alt text: Create connection alias for the spoke.
 
 13. Click **Create alias and continue**.
 
@@ -182,7 +199,7 @@ Required authentication mechanism for this integration. Ensure that the authenti
     |Credential Information|
     |Based on the configuration template you had selected, the relevant credential fields are displayed. Provide the required values to configure the credential record.|
 
-    ![Configure connection and credential records.](../images/create-spk-conn-alias-2.png)
+    \[Omitted image "create-spk-conn-alias-2.png"\] Alt text: Configure connection and credential records.
 
     If you want configure the alias record later, click **Do it later**.
 
@@ -192,7 +209,7 @@ Required authentication mechanism for this integration. Ensure that the authenti
 
 16. Click **Generate operations**.
 
-    ![Generate operations for the spoke.](../images/create-spk-fin-buildinfo.png)
+    \[Omitted image "create-spk-fin-buildinfo.png"\] Alt text: Generate operations for the spoke.
 
     All the operations that can be performed using the OpenAPI Specification are listed.
 
@@ -200,15 +217,15 @@ Required authentication mechanism for this integration. Ensure that the authenti
 
     You can search for the required actions by entering the required term in the search bar. The actions that match the specified search term are displayed.
 
-    ![Search for the required actions.](../images/spoke-gen-search-act.png)
+    \[Omitted image "spoke-gen-search-act.png"\] Alt text: Search for the required actions.
 
 18. Click **Publish**.
 
-    Alternatively, you can also select **Save actions as Draft** to save the actions as draft, modify them as per your requirement, and publish them later.![Create spoke actions.](../images/create-spk-actions.png)
+    Alternatively, you can also select **Save actions as Draft** to save the actions as draft, modify them as per your requirement, and publish them later.\[Omitted image "create-spk-actions.png"\] Alt text: Create spoke actions.
 
 19. Click **Done: Go to spoke** to go the Spokes page and view the publish status.
 
-    -   Actions with the OpenAPI step are created. For information about the OpenAPI step, see [OpenAPI support in the REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/open-api-integration.md).
+    -   Actions with the OpenAPI step are created. For information about the OpenAPI step, see .
     -   Action inputs and outputs are mapped.
     -   Actions are published and listed in the spoke details page under **Actions** &gt; **Published**.
     You can start using these published actions to create flows and subflows as per your requirement.
@@ -223,7 +240,7 @@ Required authentication mechanism for this integration. Ensure that the authenti
         |**processing**|The operation execution is in progress.|
         |**success**|The operation has been executed successfully.|
 
-    You can create flows and subflows in the spoke details page and use them in your integration. For more information, see [Building flows](../concept/flows.md) and [Building subflows](../concept/subflows.md).
+    You can create flows and subflows in the spoke details page and use them in your integration. For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md) and [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
 
     Along with **Spoke activity log**, you can also view details of the available flows, subflows, and actions in the spoke details page.
 

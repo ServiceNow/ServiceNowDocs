@@ -2,6 +2,7 @@
 title: Digital End-User Experience Remedial Actions
 description: ServiceNow Digital End-User Experience \(DEX\) provides base system remedial actions to resolve issues on DEX monitored devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-diff-ra.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -515,5 +516,5 @@ Policy ID
 ID of the policy defined in Jamf server for the corresponding action.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

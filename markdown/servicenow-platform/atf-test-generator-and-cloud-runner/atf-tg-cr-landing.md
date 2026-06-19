@@ -2,6 +2,7 @@
 title: Exploring ATF Test Generator and Cloud Runner
 description: Use the ATF Test Generator and Cloud Runner application to generate tests depending on the instance behavior and workflows. You can also execute the generated tests using the Cloud Runner option.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-landing.html
 release: australia
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
@@ -19,17 +20,17 @@ Use the ATF Test Generator and Cloud Runner application to generate tests depend
 
 These are the main modules in the application.
 
--   [Select Cloud User](atf-tg-cr-configure.md#): Setting up credentials for cloud runner user.
+-   [Select Cloud User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-configure.md): Setting up credentials for cloud runner user.
 
-    ![Image showing the landing page for Select Cloud User module](../image/atf-app-credentials.png)
+    \[Omitted image "atf-app-credentials.png"\] Alt text: Image showing the landing page for Select Cloud User module
 
--   [Generate tests](../task/atf-tg-cr-generate-tests.md): Auto-generating tests and test suites to be executed on cloud runner.
+-   [Generate tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-generate-tests.md): Auto-generating tests and test suites to be executed on cloud runner.
 
-    ![Image showing the Generate Tests module](../image/atf-app-test-generator.png)
+    \[Omitted image "atf-app-test-generator.png"\] Alt text: Image showing the Generate Tests module
 
--   [Executing tests](../task/atf-tg-cr-execute-tests.md): Executing the generated tests using the Cloud Runner option.
+-   [Executing tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-execute-tests.md): Executing the generated tests using the Cloud Runner option.
 
-    ![Image showing the test execution with Cloud Runner option](../image/atf-tg-cr-execute-tests.png)
+    \[Omitted image "atf-tg-cr-execute-tests.png"\] Alt text: Image showing the test execution with Cloud Runner option
 
     **Note:** This dialog box is visible when you try executing an ATF test or suite.
 
@@ -46,18 +47,18 @@ ATF Test Generator and Cloud Runner has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Set up cloud user to generate and run tests|[Set up cloud user](atf-tg-cr-configure.md#)|System administrator|
-|Generate test automatically using ATF Test Generator and Cloud Runner|[Generating the tests](../task/atf-tg-cr-generate-tests.md)|System administrator|
-|Execute the tests using the Cloud Runner browser option|[Executing the tests using Cloud Runner](../task/atf-tg-cr-execute-tests.md)|System administrator|
-|Schedule tests and test suites execution and nightly runs|[Scheduling test execution](../task/atf-tg-cr-schedule-test-run.md)|System administrator|
-|Review the log entries in the BOQ form to debug errors during the execution of the test suites|[Log entries in the BOQ form](atf-tg-cr-log-boq-form.md)|System administrator|
+|Set up cloud user to generate and run tests|[Set up cloud user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-configure.md)|System administrator|
+|Generate test automatically using ATF Test Generator and Cloud Runner|[Generating the tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-generate-tests.md)|System administrator|
+|Execute the tests using the Cloud Runner browser option|[Executing the tests using Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-execute-tests.md)|System administrator|
+|Schedule tests and test suites execution and nightly runs|[Scheduling test execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-schedule-test-run.md)|System administrator|
+|Review the log entries in the BOQ form to debug errors during the execution of the test suites|[Log entries in the BOQ form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-log-boq-form.md)|System administrator|
 
 ## What to explore next
 
 To learn more about using Log Export Service, see:
 
--   [Configuring ATF Test Generator and Cloud Runner](atf-tg-cr-configure.md#)
--   [Operating ATF Test Generator and Cloud Runner](atf-tg-cr-operate.md)
--   [Using ATF Test Generator and Cloud Runner](atf-tg-cr-use.md)
--   [ATF Test Generator and Cloud Runner reference](atf-tg-cr-ref.md)
+-   [Configuring ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-configure.md)
+-   [Operating ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-operate.md)
+-   [Using ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-use.md)
+-   [ATF Test Generator and Cloud Runner reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/atf-test-generator-and-cloud-runner/atf-tg-cr-ref.md)
 

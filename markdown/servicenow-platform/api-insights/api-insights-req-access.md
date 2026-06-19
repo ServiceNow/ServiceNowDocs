@@ -2,6 +2,7 @@
 title: Request access to an API in API Insights
 description: Request access to an API available within your organization in the API Insights workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-req-access.html
 release: australia
 product: API Insights
 classification: api-insights
@@ -23,7 +24,7 @@ Role required: sn\_api\_insights\_ws.api\_mgmt\_architect
 
 ## About this task
 
-Alternatively, you can request access to an API managed by your team. See [Manage your team's API data in API Insights](api-insights-team-api.md),
+Alternatively, you can request access to an API managed by your team. See [Manage your team's API data in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-team-api.md),
 
 ## Procedure
 

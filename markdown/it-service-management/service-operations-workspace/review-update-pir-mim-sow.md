@@ -2,11 +2,12 @@
 title: Review and update a post incident report
 description: Review a post incident report \(PIR\) using the Post Incident Report tab. A PIR helps you review and understand the cause of the major incident and the actions taken by the teams to resolve the incident. This helps prevent the issue in the future.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/review-update-pir-mim-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
 breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -17,18 +18,20 @@ Review a post incident report \(PIR\) using the **Post Incident Report** tab. A 
 
 ## Before you begin
 
-The major incident must be in the **Resolved** state. For more information, see [Resolve and close a major incident](resolve-close-mim-sow.md).
+The major incident must be in the **Resolved** state. For more information, see [Resolve and close a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/resolve-close-mim-sow.md).
 
 Role required:
 
 -   For PIR review: sn\_incident\_read or sn\_incident\_write
--   For PIR update, generate and download: major\_incident\_manager or admin
+-   For PIR update, generate and download: major\_incident\_manager, incident\_write \(added as co-contributors\) or admin
 
 ## About this task
 
 Reviewing the post incident report \(PIR\) also provides an opportunity to evaluate the incident response process and identify areas for improvement. The PIR can be reviewed and updated during the review process before it's shared with stakeholders.
 
 After you resolve a major incident, you must publish the PIR for the major incident and share it with the stakeholders within a specified time duration as defined in the SLA. You can configure the SLA by specifying the value in hours in the **PIR publish hours** \(**sn\_sow\_inc.pir.publish.hours**\) system property.
+
+**Tip:** For guidelines on customizing the Post Incident Report layout and content, search the  for `customize post incident review report`.
 
 The following events are captured in the timeline of the PIR:
 
@@ -102,11 +105,11 @@ Time to resolve = (incident promoted time) - (incident resolved time)
 </td></tr></tbody>
 </table>4.  On the Contributors section, add users to help with creating and publishing the PIR.
 
-    1.  Select the **Edit Co-contributors** \(![Edit](../../configurable-workforce-optimization-itsm/image/edit-icon.png)\) icon to add users as contributors.
+    1.  Select the **Edit Co-contributors** \(\[Omitted image "edit-icon.png"\] Alt text: Edit\) icon to add users as contributors.
 
     2.  In the **Co-contributors** field, enter users or user groups.
 
-    3.  Select the **Save Co-contributors** \( ![Save](../image/mim-save-icon.png)\) icon to save the changes.
+    3.  Select the **Save Co-contributors** \( \[Omitted image "mim-save-icon.png"\] Alt text: Save\) icon to save the changes.
 
 5.  On the Incident summary section, review the incident summary information and edit as needed.
 
@@ -114,18 +117,18 @@ Time to resolve = (incident promoted time) - (incident resolved time)
 
     By default, this section retrieves the incident summary information from the **Overview** tab. You can modify the values.
 
-    1.  Select the **Edit report** \(![Edit](../image/mim-edit-icon.png)\) icon to edit the incident summary field of this section.
+    1.  Select the **Edit report** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit\) icon to edit the incident summary field of this section.
 
     2.  Edit the following information.
 
         -   Summary
         -   Impact
         -   Resolution
-    3.  Select the **Save report** \(![Save](../image/mim-save-icon.png)\) icon to save the changes.
+    3.  Select the **Save report** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save\) icon to save the changes.
 
 6.  On the Timeline section, review the incident events timeline and edit as needed.
 
-    1.  Select the **Edit Timeline** \(![Edit](../image/mim-edit-icon.png)\) icon to edit the event timeline.
+    1.  Select the **Edit Timeline** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit\) icon to edit the event timeline.
 
     2.  Select the **Add event** option, enter the following information, and then select **Add** to add a new event to the timeline.
 
@@ -150,7 +153,7 @@ Hide
 
 </td><td>
 
-Select the **Hide** \(![Hide](../image/mim-hide-icon.png)\) icon to hide an event from the timeline.
+Select the **Hide** \(\[Omitted image "mim-hide-icon.png"\] Alt text: Hide\) icon to hide an event from the timeline.
 
 </td></tr><tr><td>
 
@@ -158,7 +161,7 @@ Show
 
 </td><td>
 
-Select the **Show** \(![Show](../image/mim-show-icon.png)\) icon to show a hidden event on the timeline.
+Select the **Show** \(\[Omitted image "mim-show-icon.png"\] Alt text: Show\) icon to show a hidden event on the timeline.
 
 </td></tr><tr><td>
 
@@ -166,7 +169,7 @@ Edit
 
 </td><td>
 
-Select the **Edit** \(![Edit](../image/mim-edit-icon.png)\) icon to edit the description or the date and time of an event. This option is available only for the events added using the **Add event** option.
+Select the **Edit** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit\) icon to edit the description or the date and time of an event. This option is available only for the events added using the **Add event** option.
 
 </td></tr><tr><td>
 
@@ -174,7 +177,7 @@ Delete
 
 </td><td>
 
-Select the **Delete** \(![Delete](../image/mim-delete-icon.png)\) icon to delete an event from the event timeline. This option is available only for the events added using the **Add event** option.
+Select the **Delete** \(\[Omitted image "mim-delete-icon.png"\] Alt text: Delete\) icon to delete an event from the event timeline. This option is available only for the events added using the **Add event** option.
 
 </td></tr><tr><td>
 
@@ -214,7 +217,7 @@ Show hidden events in edit view
 
 </td><td>
 
-Option to show the events that are hidden when the **Edit Timeline** \(![Edit](../image/mim-edit-icon.png)\) icon is selected.
+Option to show the events that are hidden when the **Edit Timeline** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit\) icon is selected.
 
 </td></tr><tr><td>
 
@@ -222,7 +225,7 @@ Show manually events in edit view
 
 </td><td>
 
-Option to show the events that are added manually when the **Edit Timeline** \(![Edit](../image/mim-edit-icon.png)\) icon is selected.
+Option to show the events that are added manually when the **Edit Timeline** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit\) icon is selected.
 
 </td></tr><tr><td>
 
@@ -230,7 +233,7 @@ Show time line events in edit view
 
 </td><td>
 
-Option to show the timeline events when the **Edit Timeline** \(![Edit](../image/mim-edit-icon.png)\) icon is selected.
+Option to show the timeline events when the **Edit Timeline** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit\) icon is selected.
 
 </td></tr><tr><td>
 
@@ -238,10 +241,10 @@ Reset settings
 
 </td><td>
 
-Select the **Reset settings** \(![Reset settings](../image/mim-refresh-icon.png)\) icon to reset the settings back to the default settings.
+Select the **Reset settings** \(\[Omitted image "mim-refresh-icon.png"\] Alt text: Reset settings\) icon to reset the settings back to the default settings.
 
 </td></tr></tbody>
-</table>    4.  Select the **Save settings** \(![Save](../image/mim-save-icon.png)\) icon to save the changes.
+</table>    4.  Select the **Save settings** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save\) icon to save the changes.
 
 7.  On the Related records section, review the information of the records associated with the incident and update as needed.
 
@@ -277,5 +280,5 @@ Select the **Reset settings** \(![Reset settings](../image/mim-refresh-icon.png)
 
 The post incident report is downloaded to your system in PDF format. You can send the PDF file to the required stakeholders.
 
-**Parent Topic:**[Managing a major incident record](../concept/managing-major-incident-sow.md)
+**Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

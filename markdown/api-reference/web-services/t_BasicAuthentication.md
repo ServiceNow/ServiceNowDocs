@@ -2,6 +2,7 @@
 title: Enable basic authentication for outbound SOAP
 description: If the endpoint requires a user name and password, you can provide credentials using basic authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_BasicAuthentication.html
 release: australia
 product: Web Services
 classification: web-services
@@ -36,5 +37,5 @@ Role required: web\_service\_admin
 7.  Click **Update**.
 
 
-**Parent Topic:**[Outbound SOAP security](../concept/c_OutboundSOAPSecurity.md)
+**Parent Topic:**[Outbound SOAP security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundSOAPSecurity.md)
 

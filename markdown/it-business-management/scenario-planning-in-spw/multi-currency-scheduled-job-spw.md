@@ -2,6 +2,7 @@
 title: Activate scheduled job to populate to multicurrency fields
 description: Activate and execute the scheduled job to map your costs and work with multicurrency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -37,7 +38,7 @@ Once you run this job, the finanical baselines are updated with the investment c
 
 3.  Select **Active** and on the Scheduled Script Execution form, fill in the details.
 
-    For a description of the field names, see [Scheduled Script Execution form to generate labor costs for planning items](../../alignment-planner-workspace/reference/gen-labor-costs-scheduled-script-execution-form-spw.md).
+    For a description of the field names, see [Scheduled Script Execution form to generate labor costs for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/gen-labor-costs-scheduled-script-execution-form-spw.md).
 
 4.  Select **Update** to save your changes and execute the job as scheduled, or select **Execute Now** to run the scheduled job.
 

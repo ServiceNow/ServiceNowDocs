@@ -2,11 +2,14 @@
 title: Bulk Fix code in real-time with Now Assist
 description: As a ServiceNow developer, you can receive code fix suggestions when an error is detected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/fix-code-with-the-ai-agent.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-15"
 reading_time_minutes: 2
-breadcrumb: [Fix code in real-time with Now Assist, Now Assist for Platform Health, Platform Health, Using Impact, Impact]
+breadcrumb: [Fix code in real-time with Now Assist, Prevent and resolve technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # Bulk Fix code in real-time with Now Assist
@@ -15,31 +18,29 @@ As a ServiceNow developer, you can receive code fix suggestions when an error is
 
 ## Before you begin
 
-Complete the pre-requisites and setup steps in order to activate Fix code in real-time. See [Configure Fix code in real-time for Platform Health](../concept/configure-ai-code-fix-for-platform-health.md) for details.
+Complete the pre-requisites and setup steps in order to activate Fix code in real-time. See [Configure Fix code in real-time for Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-ai-code-fix-for-platform-health.md) for details.
 
 Role required: sn\_impact\_gen\_ai\_fix\_user
 
 ## Procedure
 
-1.  If an error is detected that is eligible for an AI resolution, the **Fix with Now Assist** button will become visible.
+1.  When an error eligible for AI resolution is detected, review the findings summary banner at the top of the form, then select **View finding details** to open the Findings panel.
 
-    A findings message displays with the following information:
+    The Findings panel displays on the right side of the workspace and organizes findings into the following tabs: **All**, **Act**, **Recommend**, **Suggest**, and **Review**. Each finding card includes:
 
-    -   **Finding level state**: Act, Recommend, Suggest, or Review.
-        -   The ServiceNow leading practice issue finding and explanation is included.
-        -   Select the link to view the Scan Engine definition.
-        -   Findings for that definition are listed in the related lists for the definition record.
-    -   **Details**: Exact location in the code of the finding
-    -   **Steps to resolve issue**: Description of resolution
-    -   **Supporting documentation**: A link to KB or documentation explaining the recommended configuration
-    -   **Impact**: A rating on a scale of 1:10 on how the error can impact the overall code basis, with 10 having the most impact. Details are in the Scan Engine definitions details.
-    ![Example Scan Engine code fix finding.](../image/code-fix-ai-finding-message.png)
+    -   **Finding level** and **impact level**: The severity and a link to the Scan Engine definition.
+    -   **Details**: The exact line number in the code where the finding occurred.
+    -   **Steps to resolve issue**: A description of the recommended resolution.
+    -   **Supporting documentation**: A link to a knowledge base article or documentation explaining the recommended configuration.
+    For Recommend level findings, a **Create exception** button is available directly on the finding card.
+
+    \[Omitted image "real-time-code-fix-findings-panel.png"\] Alt text: The Findings panel displaying Act and Recommend level findings alongside the script editor.
 
 2.  Select **Fix with Now Assist** from the menu bar to execute the remediation process.
 
     Review the Now Assist Panel with remediation suggestions.
 
-    ![The suggested fix for the Code Fix AI finding.](../image/code-fix-ai-remediation.png)
+    \[Omitted image "code-fix-ai-remediation.png"\] Alt text: The suggested fix for the finding.
 
     -   The Now Assist panel displays the reasoning, in steps, for the findings it provided resolutions for.
     -   At the same time, a code comparison view displays on the script itself, illustrating the suggested modifications. Updated code is displayed in green and the removed code has a pink background.
@@ -51,6 +52,6 @@ Role required: sn\_impact\_gen\_ai\_fix\_user
 
     -   The available prompts are displayed in the bulleted list for the proposed solution.
     -   If you reject the solution, the code will be editable.
-    **Note:** Users with the executive role can access the Executive Dashboard which contains a module that displays all findings resolved using the Code Fix AI Agent. See [Scan Engine Executive dashboard](../concept/scan-engine-executive-dashboard.md) for additional information.
+    **Note:** Users with the executive role can access the Executive Dashboard which contains a module that displays all findings resolved using the Now Assist Agent. See [Scan Engine Executive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-executive-dashboard.md) for additional information.
 
 

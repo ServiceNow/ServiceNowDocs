@@ -2,6 +2,7 @@
 title: Configure an SNC connection in Zero Copy Connector for ERP
 description: Learn how to set up an SNC connection, including preparing the environment, configuring the SAP system, and testing the configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -33,15 +34,15 @@ Confirm that you have the following:
 
 3.  In **Related Links**, select **Create New Connection &amp; Credential**.
 
-    ![Alias record with name, ID, and related link option highlighted.](../image/erpc-snc-connection1.png)
+    \[Omitted image "erpc-snc-connection1.png"\] Alt text: Alias record with name, ID, and related link option highlighted.
 
 4.  Complete the form.
 
-    For information about the fields, see [Configure the Zero Copy Connector for ERP credentials and connection](set-up-erp-integration-connection.md).
+    For information about the fields, see [Configure the Zero Copy Connector for ERP credentials and connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.md).
 
 5.  Restart the MID Server to apply the changes.
 
-    For more information, see [Manually start, stop, and restart a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallMIDServerAsWinService.md).
+    For more information, see .
 
 6.  Verify that the SNC configuration is working correctly.
 
@@ -51,7 +52,7 @@ Confirm that you have the following:
 
     3.  Hover over the **Name** column and select the filter icon.
 
-        ![Workflow Studio actions tab with name column filter icon highlighted.](../image/erpc-snc-connection2.png)
+        \[Omitted image "erpc-snc-connection2.png"\] Alt text: Workflow Studio actions tab with name column filter icon highlighted.
 
     4.  Filter for **contains** and type `heartbeat`.
 
@@ -63,7 +64,7 @@ Confirm that you have the following:
 
     8.  Specify a **system** and then select **Run Test**.
 
-        ![Test action window with system field and run test button highlighted.](../image/erpc-snc-connection3.png)
+        \[Omitted image "erpc-snc-connection3.png"\] Alt text: Test action window with system field and run test button highlighted.
 
     9.  When the test is complete, select the link **Your test has finished running. View the Action execution details**.
 
@@ -75,7 +76,7 @@ Confirm that you have the following:
 -   Confirm that the security library is correctly installed and accessible. For more information, see [The SAP Security Library \(SAPSECULIB\)](https://help.sap.com/docs/SAP_NETWEAVER_700/12a37b156c5310149ffbe290df0708d6/b8821ff4dadd11d2a60a0000e835363f.html) on the SAP help site.
 -   Verify that the SNC parameters are correctly set. For more information, see [Setting the SNC Parameters](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/2f64847a81a84bda878e32d5a4dae0a2/ce1dfd3d4aefd95ee10000000a114084.html) on the SAP help site.
 -   Check the SNC PSE for validity and correct DN entries. For more information, see [Creating or Replacing a PSE](https://help.sap.com/doc/saphelp_nw73ehp1/7.31.19/en-US/59/6b653a0c52425fe10000000a114084/content.htm?no_cache=true) on the SAP help site.
--   Confirm that the SAP clients are properly configured to use SNC. For more information, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/configure-mid-server.md).
+-   Confirm that the SAP clients are properly configured to use SNC. For more information, see .
 
-**Parent Topic:**[Use an SNC \(Secure Network Communication\) connection in Zero Copy Connector for ERP](../concept/erpc-use-an-snc-connection-in-erp-canvas.md)
+**Parent Topic:**[Use an SNC \(Secure Network Communication\) connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.md)
 

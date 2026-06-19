@@ -2,6 +2,7 @@
 title: Get started with Slack chat connector configuration
 description: Review the following information before you start working with Slack as a connector application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/get-started-slack-chat-configuration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -41,8 +42,8 @@ Slack spoke
 
 </td><td>
 
-Installing this plugin establishes a spoke connection with Slack. For more information, see [Slack Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/slack-spoke.md)
+Installing this plugin establishes a spoke connection with Slack. For more information, see 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Slack chat connector for major security incidents](../concept/configure-slack-chat-connector-msi.md)
+</table>**Parent Topic:**[Configure Slack chat connector for major security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-slack-chat-connector-msi.md)
 

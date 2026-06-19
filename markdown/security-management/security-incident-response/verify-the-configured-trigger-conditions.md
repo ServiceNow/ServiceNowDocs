@@ -2,6 +2,7 @@
 title: Verify the Trigger Condition Filters
 description: Test the profile and verify that the trigger condition filters that you have configured are working as expected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/verify-the-configured-trigger-conditions.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,11 +30,11 @@ Once you activate the profile, based on the configured trigger conditions you ca
 
 3.  Provide the filter conditions as given in the capability profile to trigger the respective profile.
 
-    ![Security Incident Analysis state](../image/fireeye-security-incidents.png)
+    \[Omitted image "fireeye-security-incidents.png"\] Alt text: Security Incident Analysis state
 
 4.  Click **Save**.
 
-    ![Security Incident work notes](../image/fireeye-security-incidents-worknotes.png)
+    \[Omitted image "fireeye-security-incidents-worknotes.png"\] Alt text: Security Incident work notes
 
 5.  Review the work notes and activities section.
 
@@ -45,6 +46,6 @@ Once you activate the profile, based on the configured trigger conditions you ca
 
     For example, Host Details.
 
-    ![Host Details tab selected](../image/fireeye-related-lists.png)
+    \[Omitted image "fireeye-related-lists.png"\] Alt text: Host Details tab selected
 
 

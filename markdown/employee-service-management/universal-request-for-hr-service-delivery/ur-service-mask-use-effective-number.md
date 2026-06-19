@@ -2,6 +2,7 @@
 title: Use effective number in email subject
 description: Modify the email subject to display the relevant ticket number by using the task effective number. For example, if your service ticket is associated with a universal request, then you must mask the service ticket number and show the UR number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-service-mask-use-effective-number.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -33,10 +34,10 @@ The **task\_effective\_number** is a dynamic field value that displays the UR nu
 
     For example, in the Incident Opened and Unassigned notification, in the **Subject** field, enter **Incident $\{task\_effective\_number\} - open and unassigned**.
 
-    ![Use effective number in email subject](../images/ur-effective-number.png)
+    \[Omitted image "ur-effective-number.png"\] Alt text: Use effective number in email subject
 
 4.  Click **Update**.
 
 
-**Parent Topic:**[Email notification preferences for your service](../concept/ur-customize-email-notifcations.md)
+**Parent Topic:**[Email notification preferences for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-customize-email-notifcations.md)
 

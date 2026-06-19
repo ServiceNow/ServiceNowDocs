@@ -2,6 +2,7 @@
 title: Preserve ML solutions during a system clone
 description: Save your trained machine-learning \(ML\) solution data during a system clone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/preserve-mlsolutions-during-clone.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence

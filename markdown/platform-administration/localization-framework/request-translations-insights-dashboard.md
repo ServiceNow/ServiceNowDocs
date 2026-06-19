@@ -2,6 +2,7 @@
 title: Request translations from Insights Dashboard
 description: Request translations for Service Catalog items or Virtual Agent topics from the insights dashboard to localize them into the selected language based on their translation status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/request-translations-insights-dashboard.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -25,7 +26,7 @@ Role required: localization\_admin or localization\_requestor
 
     The dashboard provides **Catalog Items Translations** report and **Virtual Agent Topic Translations** report by default using which you can request translations.
 
-    If you have created a report for your custom artifact to display in the dashboard, you can also request translations for the custom artifacts. For more information, see [Create a report for custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/t_CreateYourOwnReport.md).
+    If you have created a report for your custom artifact to display in the dashboard, you can also request translations for the custom artifacts. For more information, see Create a report for custom artifact.
 
 2.  In the **Catalog Items Translations** report or **Virtual Agent Topic Translations** report, click the vertical bar of the language into which you want to request translations.
 
@@ -42,5 +43,5 @@ Role required: localization\_admin or localization\_requestor
 5.  Click **OK** in the Confirmation dialog box to submit the request.
 
 
-**Parent Topic:**[Monitor the Localization Framework](../concept/monitor-localization-framework.md)
+**Parent Topic:**[Monitor the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/monitor-localization-framework.md)
 

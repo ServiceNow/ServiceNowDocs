@@ -2,6 +2,7 @@
 title: Add conditions for a table mapping
 description: As a contract configurator, use condition builders to define criteria for a table mapping in a contract template so only the essential data from the mapped table is displayed in the contract document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-add-filter-table-map.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -17,8 +18,8 @@ As a contract configurator, use condition builders to define criteria for a tabl
 
 ## Before you begin
 
--   Map tables in Microsoft Word document using the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](cncore-addin-table.md).
--   Upload and parse the document with the content controls. For more information, see [Complete mapping and upload Microsoft Word document that includes content controls](cncore-upload-doc-addin.md).
+-   Map tables in Microsoft Word document using the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-table.md).
+-   Upload and parse the document with the content controls. For more information, see [Complete mapping and upload Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md).
 -   Role required: sn\_cm\_core.contract\_config
 
 ## Procedure
@@ -31,10 +32,10 @@ As a contract configurator, use condition builders to define criteria for a tabl
 
 4.  In the **Condition** field, define a condition for the table mapping.
 
-    For more information, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
+    For more information, see .
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](cncore-addin-table.md)
+**Parent Topic:**[Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-addin-table.md)
 

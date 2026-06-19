@@ -2,6 +2,7 @@
 title: Roles and tables installed with Developer Sandboxes
 description: Several types of components are installed with activation of Developer Sandboxes, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dsb-installed-with.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes

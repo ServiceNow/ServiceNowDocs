@@ -2,6 +2,7 @@
 title: Create a campaign stage with condition trigger
 description: This trigger is for Employee Journeys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-stage-condition-trigger.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,9 +20,9 @@ This trigger is for Employee Journeys.
 
 Role required: sn\_ca.campaign\_manager
 
-Complete the steps to [Create a campaign](ecpro-create-campaign.md)
+Complete the steps to [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-create-campaign.md)
 
-Create a stage with a to-do content item. For more information on this content type, see [To-do content](../concept/ec-to-do-content.md).
+Create a stage with a to-do content item. For more information on this content type, see [To-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-to-do-content.md).
 
 ## About this task
 
@@ -35,13 +36,13 @@ Stages organize and manage the delivery of campaign content. When configuring a 
 
 2.  Select the campaign and click the **Schedule of content** tab or click **Next**.
 
-    ![Schedule of content tab](../images/campaign-content-builder-1.png)
+    \[Omitted image "campaign-content-builder-1.png"\] Alt text: Schedule of content tab
 
 3.  Click **Create stage**.
 
     A stage is a visible area to add content.
 
-    ![Campaign - Create stage](../images/campaign-create-stage.png)
+    \[Omitted image "campaign-create-stage.png"\] Alt text: Campaign - Create stage
 
 4.  On the form, fill in the fields.
 
@@ -135,5 +136,5 @@ Filter conditions based on the table and field you select for when you want the 
 ## What to do next
 
 -   Click **Add stage** to configure additional stages
--   Add content to the stage, specify an audience, and set the location where the content will be delivered. For more information on creating content in the Content Experience Builder, see [Add content to a campaign using Content Experience Builder](ecpro-campaigns-manage-content-builder.md)
+-   Add content to the stage, specify an audience, and set the location where the content will be delivered. For more information on creating content in the Content Experience Builder, see [Add content to a campaign using Content Experience Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaigns-manage-content-builder.md)
 

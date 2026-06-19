@@ -2,6 +2,7 @@
 title: Store the Azure service principal credentials in the instance
 description: To securely access data on your provider account, the Discovery process must present appropriate credentials. To make the credentials available to Discovery, you first create Azure service principal credentials in the Azure Portal. You then securely store the credentials in a service account in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/azure-create-creds-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -24,7 +25,7 @@ Role required:
 
 ## Procedure
 
-1.  [Create a Microsoft Azure service principal](azure-create-serv-princ-cloud-mgt-1.md) and open the text file that you created during the procedure.
+1.  [Create a Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) and open the text file that you created during the procedure.
 
 2.  In the Cloud Admin Portal, navigate to **Manage** &gt; **Credentials**.
 
@@ -61,7 +62,7 @@ Select **Client Secret**.The **Secret key** field appears when you select **Clie
 </td></tr></tbody>
 </table>5.  Copy/paste values from the `Azure-Credentials.txt` text file into the remaining fields.
 
-    ![Azure credentials](../../discovery/image/azure-copy-to-service-principal.png)
+    \[Omitted image "azure-copy-to-service-principal.png"\] Alt text: Azure credentials
 
 6.  Select the appropriate **EA credential** from the list, select the **Active** check box, and then click **Save** to create the record.
 

@@ -2,6 +2,7 @@
 title: getKeys
 description: Query the targeted table by example values and return a comma delimited sys\_id list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_GetKeys.html
 release: australia
 product: Web Services
 classification: web-services
@@ -21,7 +22,7 @@ Any field value in the targeted table.
 
 ## Output fields
 
-A SOAP response element **sys\_id** that contains a comma delimited list of [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md) values.
+A SOAP response element **sys\_id** that contains a comma delimited list of Unique record identifier \(sys\_id\) values.
 
 ## Sample SOAP messages
 
@@ -56,11 +57,11 @@ Sample SOAP response
 
 For language-specific getKeys samples, refer to the following topics:
 
-[Perl SOAP::Lite](../../examples/concept/c_PerlWebServicesClientExamples.md)
+[Perl SOAP::Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_PerlWebServicesClientExamples.md)
 
-[Java Apache Axis2](../../examples/concept/c_JAAWbSrvcsClntExUpdt.md)
+[Java Apache Axis2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_JAAWbSrvcsClntExUpdt.md)
 
-[Python](../../examples/concept/c_PythonWebServicesClientExamples.md#getKeys)
+[Python](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_PythonWebServicesClientExamples.md)
 
-**Parent Topic:**[Data Retrieval API](r_DataRetrievalAPI.md)
+**Parent Topic:**[Data Retrieval API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_DataRetrievalAPI.md)
 

@@ -2,6 +2,7 @@
 title: Create a static WSDL
 description: Create a static WSDL with the required format to override the standard WSDL for your scripted web service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_CreateAStaticWSDL.html
 release: australia
 product: Web Services
 classification: web-services
@@ -30,8 +31,8 @@ Role required: web\_service\_admin or admin
 4.  Click **Submit**.
 
 
--   **[Static WSDL example](../reference/r_StaticWSDLExample.md)**  
+-   **[Static WSDL example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_StaticWSDLExample.md)**  
 This example demonstrates the FakeStockValue WSDL.
 
-**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](../reference/createSOAPwebserviceStaticWSDL.md)
+**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/createSOAPwebserviceStaticWSDL.md)
 

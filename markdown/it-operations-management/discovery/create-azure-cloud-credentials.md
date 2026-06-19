@@ -2,6 +2,7 @@
 title: Create Azure cloud credentials
 description: If your cloud resources are in an Azure cloud, create credentials that can access the Azure account. This procedure requires configuration in your Azure account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-azure-cloud-credentials.html
 release: australia
 product: Discovery
 classification: discovery
@@ -42,7 +43,7 @@ Roles required:
 
     Enter the following information for your application:
 
-    ![Register an application](../image/register-app-azure.png)
+    \[Omitted image "register-app-azure.png"\] Alt text: Register an application
 
     |Field|Description|
     |-----|-----------|
@@ -93,15 +94,15 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
     -   Management group: Use this option to grant Reader access to all subscriptions under the management group
     -   Individual subscription: Use this option to grant Reader access to a specific subscription only
-<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d577977e353">
+<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d115445e353">
 
 Option
 
-</th><th align="left" id="d577977e356">
+</th><th align="left" id="d115445e356">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d577977e362">
+</th></tr></thead><tbody><tr><td id="d115445e362">
 
 **Management group**
 
@@ -119,7 +120,7 @@ Steps
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d577977e434">
+</td></tr><tr><td id="d115445e434">
 
 **Individual subscription**
 
@@ -178,7 +179,7 @@ Select **Client secret**.The **Secret key** field appears when you select **Clie
 </td></tr></tbody>
 </table>12. Copy and paste values from the temporary text file into the remaining fields.
 
-    ![Azure credentials](../image/azure-copy-to-service-principal.png)
+    \[Omitted image "azure-copy-to-service-principal.png"\] Alt text: Azure credentials
 
     |Credentials form field|Azure Service Principal value|
     |----------------------|-----------------------------|

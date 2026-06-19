@@ -2,6 +2,7 @@
 title: Extend resource plan form
 description: Use the Extend resource plan fields to extent a resource plan for a project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/extnd-rsrc-plan.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -47,8 +48,8 @@ FTE or Person Days or Hours
 
 Number of units to request resources.The field appears when you select one of the options in the **Request type** field. Based on the selected request type, specify the unit.
 
-For more information, see [Request type](../concept/c_ResourcePlans.md#ul_lcz_1ms_lt).
+For more information, see [Request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourcePlans.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

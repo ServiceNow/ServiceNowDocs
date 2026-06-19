@@ -2,7 +2,10 @@
 title: Monitoring instance health with Instance Observer
 description: Instance Observer \(IO\) is an observability and performance monitoring tool that empowers you to track your instance health and performance in near real time, while also providing historical insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/io-overview.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 7
@@ -39,14 +42,14 @@ IO helps Instance administrators, Platform Owners, and DevOps teams accelerate v
 
 |Feature|Description|
 |-------|-----------|
-|[Instance Observer user configurable dashboard](user-configurable-dashboard.md)|Provides a snapshot of the overall health of your instance.|
-|[Performance](instance-observer-performance.md)|Overviews Instance Health and Performance Metrics, and enables drill down into specific datasets with recommended troubleshooting.|
-|[Availability](io-availability.md)|View live Instance Availability status tied to ServiceNow  monitoring— Up/Down Status|
-|[Key alerts – activation and notifications](io-alerts.md)|Flexibility to set alerts with thresholds specific to your business needs, and configure who on your team receives notifications and the method.|
-|[Analytics](io-analytics.md)|View comparisons for performance of key metrics over time.|
-|[Triaged instance data](io-triage.md)|Point-in-time instance snapshot providing metadata to troubleshoot live issues|
-|[Instance performance telemetry reports](../reference/instance-observer-reporting.md)|Quickly generate reports to download and share with your team business stakeholders.​|
-|[Help](io-help.md)|Get assistance with Instance Observer tools, terminology review, how-to videos, and relevant documents.|
+|[Instance Observer user configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md)|Provides a snapshot of the overall health of your instance.|
+|[Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)|Overviews Instance Health and Performance Metrics, and enables drill down into specific datasets with recommended troubleshooting.|
+|[Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-availability.md)|View live Instance Availability status tied to ServiceNow  monitoring— Up/Down Status|
+|[Key alerts – activation and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts.md)|Flexibility to set alerts with thresholds specific to your business needs, and configure who on your team receives notifications and the method.|
+|[Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-analytics.md)|View comparisons for performance of key metrics over time.|
+|[Triaged instance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage.md)|Point-in-time instance snapshot providing metadata to troubleshoot live issues|
+|[Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-reporting.md)|Quickly generate reports to download and share with your team business stakeholders.​|
+|[Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-help.md)|Get assistance with Instance Observer tools, terminology review, how-to videos, and relevant documents.|
 
 ## Support matrix according to Impact package
 
@@ -73,7 +76,7 @@ Total
 
 </th></tr></thead><tbody><tr><td>
 
-Instance availability \(Up/Down status\)See [Availability](io-availability.md) for details.
+Instance availability \(Up/Down status\)See [Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-availability.md) for details.
 
 </td><td>
 
@@ -89,7 +92,7 @@ Instance availability \(Up/Down status\)See [Availability](io-availability.md) f
 
 </td></tr><tr><td>
 
-Performance Visualization Charts \(KPIs\)See [Performance](instance-observer-performance.md) for more details.
+Performance Visualization Charts \(KPIs\)See [Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md) for more details.
 
 </td><td>
 
@@ -105,7 +108,7 @@ Performance Visualization Charts \(KPIs\)See [Performance](instance-observer-per
 
 </td></tr><tr><td>
 
-ReportingSee [Instance performance telemetry reports](../reference/instance-observer-reporting.md) for details.
+ReportingSee [Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-reporting.md) for details.
 
 </td><td>
 
@@ -121,11 +124,11 @@ Full
 
 </td></tr><tr><td>
 
-AlertsSee [Alerts in Instance Observer](io-alerts-intro.md) for details.
+AlertsSee [Alerts in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md) for details.
 
 </td><td>
 
-✓**Note:** Six alerts are available. For more information, see [Track instance performance with the top six timely alerts – Guided users](../task/io-alerts-guided-cust.md).
+✓**Note:** Six alerts are available. For more information, see [Track instance performance with the top six timely alerts – Guided users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-guided-cust.md).
 
 </td><td>
 
@@ -137,7 +140,7 @@ AlertsSee [Alerts in Instance Observer](io-alerts-intro.md) for details.
 
 </td></tr><tr><td>
 
-AnalyticsSee [Analytics](io-analytics.md) for details.
+AnalyticsSee [Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-analytics.md) for details.
 
 </td><td>
 
@@ -186,7 +189,7 @@ Data retention
 </td></tr></tbody>
 </table>To access the Instance Observer page, navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**.
 
-**Note:** For more information on subscription support, see [Impact packages](../reference/impact-packages.md).
+**Note:** For more information on subscription support, see .
 
 ## Serviceability limitations
 
@@ -194,26 +197,26 @@ Data retention
 
 Instance Observer is applicable or available for ServiceNow Platform instances only.
 
--   **[Instance Observer user configurable dashboard](user-configurable-dashboard.md)**  
+-   **[Instance Observer user configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-configurable-dashboard.md)**  
 The All Instances Summary Dashboard is the home page that provides a snapshot of the overall health of your instances. You can create your own dashboard according to your preferences for metrics that help you to analyze the health of your system in a snapshot.
--   **[Performance](instance-observer-performance.md)**  
+-   **[Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)**  
 Monitor all your instances 24x7 in one place with near real-time metrics and alerts on performance and availability in Instance Observer. Generate various charts of overview Instance Health and Performance Metrics and drill down into specific data points with recommended troubleshooting.​
--   **[Availability](io-availability.md)**  
+-   **[Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-availability.md)**  
 The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) since the past 7 days.
--   **[Alerts in Instance Observer](io-alerts-intro.md)**  
+-   **[Alerts in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)**  
 ServiceNow Instance Observer provides a comprehensive set of alerts designed to monitor platform health, performance, and user experience. These alerts are categorized for easy consumption and actionability.
--   **[Generative AI powered Root cause analysis](generative-ai-root-cause-anal.md)**  
+-   **[Generative AI powered Root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/generative-ai-root-cause-anal.md)**  
 Root cause analysis in Instance Observer provides automated detection and summarization of issues. It includes built-in root cause correlation and root cause summary using a large language model \(LLM\), which helps reduce troubleshooting time, improve incident transparency, and generative AI driven root cause recommendation by analyzing similar historical incidents.
--   **[Analytics](io-analytics.md)**  
+-   **[Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-analytics.md)**  
 View comparisons for performance of key metrics over time with the Impact Total package.
--   **[Triage a ServiceNow instance](../task/io-triage-sn-instance.md)**  
+-   **[Triage a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage-sn-instance.md)**  
 Perform a triage on a ServiceNow instance to gather point-in-time telemetry data for troubleshooting using Instance Observer. The triage feature gives a summary of ongoing operations at the time of its execution.
--   **[Instance performance telemetry reports](../reference/instance-observer-reporting.md)**  
+-   **[Instance performance telemetry reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-reporting.md)**  
 Quickly generate reports to download and share with your business stakeholders, making  organizations faster, smarter, and better in their  instance performance management.
--   **[Help](io-help.md)**  
+-   **[Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-help.md)**  
 Access release notes, how to videos, and more from the Instance Observer Help Center page.
--   **[Instance Observer reference](../reference/instance-observer-reference.md)**  
+-   **[Instance Observer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-reference.md)**  
 Reference topics provide information about roles installed with the Impact Instance Observer application and the key metrics that are used to monitor infrastructure health, track application performance, measure latency to understand user experience, and use historical data for capacity planning.
 
-**Parent Topic:**[Platform Health](platform-health-idi.md)
+**Parent Topic:**[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/platform-health-idi.md)
 

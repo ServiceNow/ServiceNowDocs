@@ -2,13 +2,14 @@
 title: AI Search in mobile
 description: The AI Search search engine in the Now Mobile platform enables users to find answers to issues and then proceed quickly with their tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.html
 release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring Now Mobile, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Now Mobile, Now Mobile app, Unified Employee Experience, Employee Service Management]
 ---
 
 # AI Search in mobile
@@ -19,10 +20,10 @@ The mobile platform supports two search engines within applet launchers: AI Sear
 
 AI Search uses user data sources \(people\), catalog items \(services\), and knowledge articles. The Zing search engine uses additional data sources not associated with AI Search, for example, user tasks and requests.
 
--   For more information on AI Search configuration, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
--   For more information about Zing configuration, see [Global search for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-search-config.md).
+-   For more information on AI Search configuration, see AI Search.
+-   For more information about Zing configuration, see Global search for mobile.
 
-**Note:** You cannot simultaneously use both AI Search and Zing search engines within the same search field. However, you can configure individual applet launchers to host a different search engine per applet. For more information, see [Add AI Search to a launcher screen](../task/aisearch-add-applet-launcher.md).
+**Note:** You cannot simultaneously use both AI Search and Zing search engines within the same search field. However, you can configure individual applet launchers to host a different search engine per applet. For more information, see [Add AI Search to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/aisearch-add-applet-launcher.md).
 
 AI Search offers the following features:
 
@@ -47,23 +48,23 @@ Knowledge category AI search
 
 </th></tr></thead><tbody><tr><td>
 
-![AI Search results from the services category.](../image/aisearch-catalog-callout-results.png "AI Search results from services category")
+\[Omitted image "aisearch-catalog-callout-results.png"\] Alt text: AI Search results from the services category.
 
 </td><td>
 
-![AI Search results from the people category.](../image/aisearch-people-results.png "AI Search results from people category")
+\[Omitted image "aisearch-people-results.png"\] Alt text: AI Search results from the people category.
 
 </td><td>
 
-![AI Search results from the knowledge category.](../image/aisearch-knowledge-results.png "AI Search results from knowledge category")
+\[Omitted image "aisearch-knowledge-results.png"\] Alt text: AI Search results from the knowledge category.
 
 </td></tr></tbody>
-</table>-   **[Configure AI Search for mobile devices](../task/advanced-text-search-config-now.md)**  
+</table>-   **[Configure AI Search for mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/advanced-text-search-config-now.md)**  
 Configure the Now Mobile search bar to use the AI Search search engine.
--   **[Customize AI Search results](../task/advanced-text-search-customize.md)**  
+-   **[Customize AI Search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/advanced-text-search-customize.md)**  
 Customize AI Search results to provide users with a tailored search experience.
--   **[Add AI Search to a launcher screen](../task/aisearch-add-applet-launcher.md)**  
+-   **[Add AI Search to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/aisearch-add-applet-launcher.md)**  
 Configure your launcher screen to use the AI Search search engine.
 
-**Parent Topic:**[Configuring Now Mobile](setup-mobile-employee.md)
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

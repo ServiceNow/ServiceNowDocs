@@ -2,6 +2,7 @@
 title: Configure Microsoft SharePoint Graph connection
 description: Configure a Microsoft SharePoint Graph connection and a connection record that enable your ServiceNow instance to integrate with the Microsoft SharePoint using the Microsoft Graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-microsoft-sharepoint-graph-connection.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -31,27 +32,27 @@ Configure a Microsoft SharePoint Graph connection and a connection record that e
 
     2.  Select **App registrations**.
 
-        ![App registration button.](../image/MS-sharepoint-spoke-app-reg-button.png)
+        \[Omitted image "MS-sharepoint-spoke-app-reg-button.png"\] Alt text: App registration button.
 
     3.  Select **All applications** or **Owned applications**.
 
-        ![OAuth application selection options.](../image/ms-sharepoint-spoke-graph-select-app.png)
+        \[Omitted image "ms-sharepoint-spoke-graph-select-app.png"\] Alt text: OAuth application selection options.
 
     4.  In the search field, enter the name of the OAuth application you had created.
 
-        To learn how to configure an OAuth application, see [Configure OAuth application in Microsoft Azure](configure-oauth-application-in-microsoft-azure.md).
+        To learn how to configure an OAuth application, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
     5.  In the search results, select the name of the OAuth application you had configured.
 
     6.  On the left panel, under the Manage heading, select API permissions.
 
-        ![API permissions link.](../image/MS-sharepoint-spoke-graph-api-permissions-link.png)
+        \[Omitted image "MS-sharepoint-spoke-graph-api-permissions-link.png"\] Alt text: API permissions link.
 
     7.  Under the Configured permissions heading, select **+ Add a permission**.
 
     8.  In the Request API permissions window, select **Microsoft Graph**.
 
-        ![Microsoft Graph button.](../image/MS-sharepoint-spoke-graph-ms-graph-button.png)
+        \[Omitted image "MS-sharepoint-spoke-graph-ms-graph-button.png"\] Alt text: Microsoft Graph button.
 
     9.  Select **Delegated permissions**.
 
@@ -59,21 +60,21 @@ Configure a Microsoft SharePoint Graph connection and a connection record that e
 
     11. Expand the Sites list.
 
-        ![Sites list.](../image/MS-sharepoint-spoke-graph-click-sites.png)
+        \[Omitted image "MS-sharepoint-spoke-graph-click-sites.png"\] Alt text: Sites list.
 
     12. Select `Sites.FullControl.all`, `Sites.Read.All` and `Sites.ReadWrite.All`.
 
-        ![Microsoft SharePoint Online spoke Graph Site permissions.](../image/ms-sharepoint-online-spoke-graph-site-permissions.png)
+        \[Omitted image "ms-sharepoint-online-spoke-graph-site-permissions.png"\] Alt text: Microsoft SharePoint Online spoke Graph Site permissions.
 
     13. Under the Select permissions heading, enter `User.read` in the search field.
 
-        ![Microsoft SharePoint Online spoke Graph User permissions.](../image/MS-SharePoint-Online-spoke-graph-user-permission.png)
+        \[Omitted image "MS-SharePoint-Online-spoke-graph-user-permission.png"\] Alt text: Microsoft SharePoint Online spoke Graph User permissions.
 
     14. Select **Add permissions**.
 
         The permission is added.
 
-        ![Permissions added.](../image/MS-sharepoint-spoke-graph-permissions-added.png)
+        \[Omitted image "MS-sharepoint-spoke-graph-permissions-added.png"\] Alt text: Permissions added.
 
     15. To grant admin consent, under the Configured permissions heading, select **Grant admin consent**.
 
@@ -99,11 +100,11 @@ Configure a Microsoft SharePoint Graph connection and a connection record that e
 
     6.  In the MicrosoftSharePointGraph tile, click **View Details**.
 
-        ![View Details button on Microsoft SharePoint Graph alias.](../image/ms-sharept-graph-alias-tile.png)
+        \[Omitted image "ms-sharept-graph-alias-tile.png"\] Alt text: View Details button on Microsoft SharePoint Graph alias.
 
     7.  Click **Configure**.
 
-        ![Configure button.](../image/MS-sharepoint-spoke-graph-configure-button.png)
+        \[Omitted image "MS-sharepoint-spoke-graph-configure-button.png"\] Alt text: Configure button.
 
     8.  On the form, fill these details.
 
@@ -137,7 +138,7 @@ OAuth Entity Name
 
 </td><td>
 
-Name of the OAuth application that you created. To learn how to create an OAuth app, see [Configure OAuth application in Microsoft Azure](configure-oauth-application-in-microsoft-azure.md).
+Name of the OAuth application that you created. To learn how to create an OAuth app, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 </td></tr><tr><td>
 
@@ -145,7 +146,7 @@ OAuth Client ID
 
 </td><td>
 
-Client ID that was generated when you created the OAuth app. To learn where to find the client ID, see [Configure OAuth application in Microsoft Azure](configure-oauth-application-in-microsoft-azure.md).
+Client ID that was generated when you created the OAuth app. To learn where to find the client ID, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 </td></tr><tr><td>
 
@@ -153,7 +154,7 @@ OAuth Client Secret
 
 </td><td>
 
-Client secret that was generated when you created the OAuth app. To learn where to find the client ID, see [Configure OAuth application in Microsoft Azure](configure-oauth-application-in-microsoft-azure.md).
+Client secret that was generated when you created the OAuth app. To learn where to find the client ID, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 </td></tr><tr><td>
 
@@ -168,7 +169,7 @@ The URL must be in the format: `https://login.microsoftonline.com/<tenant-id>/oa
 
 The tenant ID is available under the Basic information heading.
 
-![Tenant ID.](../image/MS-sharepoint-spoke-graph-tenant-ID.png)
+\[Omitted image "MS-sharepoint-spoke-graph-tenant-ID.png"\] Alt text: Tenant ID.
 
 </td></tr><tr><td>
 
@@ -183,7 +184,7 @@ The URL must be in the format: `https://login.microsoftonline.com/<tenant-id>/oa
 
 The tenant ID is available under the Basic information heading.
 
-![Tenant ID.](../image/MS-sharepoint-spoke-graph-tenant-ID.png)
+\[Omitted image "MS-sharepoint-spoke-graph-tenant-ID.png"\] Alt text: Tenant ID.
 
 </td></tr><tr><td>
 
@@ -198,7 +199,7 @@ The URL must be in the format: `https://login.microsoftonline.com/<tenant-id>/oa
 
 The tenant ID is available under the Basic information heading.
 
-![Tenant ID.](../image/MS-sharepoint-spoke-graph-tenant-ID.png)
+\[Omitted image "MS-sharepoint-spoke-graph-tenant-ID.png"\] Alt text: Tenant ID.
 
 </td></tr><tr><td>
 
@@ -209,7 +210,7 @@ OAuth Redirect URL
 The URL must be in the format: `https://<instance-name>.service-now.com/oauth_redirect.do`.
 
 </td></tr></tbody>
-</table>        ![Microsoft SharePoint Graph connection form.](../image/ms-sharept-graph-conn-form.png)
+</table>        \[Omitted image "ms-sharept-graph-conn-form.png"\] Alt text: Microsoft SharePoint Graph connection form.
 
     9.  Select **Configure and Get OAuth Token**.
 
@@ -217,7 +218,7 @@ The URL must be in the format: `https://<instance-name>.service-now.com/oauth_re
 
     The connection record is created.
 
-    ![Connection created.](../image/MS-sharepoint-spoke-graph-connection-created.png)
+    \[Omitted image "MS-sharepoint-spoke-graph-connection-created.png"\] Alt text: Connection created.
 
 4.  To use the Microsoft Graph action, create a record in the Tenant table \(sn\_sp\_spoke\_tenant\) on your ServiceNow instance.
 

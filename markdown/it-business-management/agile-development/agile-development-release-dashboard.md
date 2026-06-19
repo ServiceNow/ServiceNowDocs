@@ -2,6 +2,7 @@
 title: Agile 2.0 Release Dashboard
 description: Track the progress of your stories and analyze scope changes in the current release using Agile 2.0 Release Dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-development-release-dashboard.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -17,9 +18,9 @@ Track the progress of your stories and analyze scope changes in the current rele
 
 Navigate to **All** &gt; **Agile Development** &gt; **Dashboards** and select **Agile 2.0 Release Dashboard**.
 
-![Release summary](../image/agile-release-summary.png "Release Summary tab")
+\[Omitted image "agile-release-summary.png"\] Alt text: Release summary
 
-![Release cycle time](../image/agile-release-cycle-time.png "Cycle Time tab")
+\[Omitted image "agile-release-cycle-time.png"\] Alt text: Release cycle time
 
 The dashboard:
 
@@ -117,7 +118,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Release Cumulative Flow Diagram
 -   Story Cycle Time
 
-For more information, see [Upgrading the layout of Agile 2.0 dashboards](../reference/using-solution-library-for-agile-2.0-dashboards.md).
+For more information, see [Upgrading the layout of Agile 2.0 dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-solution-library-for-agile-2.0-dashboards.md).
 
 <table id="table_enf_b2k_k3b"><thead><tr><th>
 
@@ -137,7 +138,7 @@ Release Burnup
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -156,7 +157,7 @@ Release Burndown
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -177,7 +178,7 @@ Release Cumulative Flow Diagram
 
 </td><td>
 
-Area chart![](../../reporting/image/inline-data-vis-96px-area.png)
+Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
 
 </td><td>
 
@@ -214,7 +215,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart![](../../reporting/image/inline-data-vis-96px-bubble.png)
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
@@ -233,10 +234,10 @@ Identify the time taken for each story in the release to move from an in-progres
 
  If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
 
- ![Cycle Time Zoom](../image/cycle-time-zoom.gif)
+ \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
 </td></tr></tbody>
-</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](../concept/customizing-dashboard-reports.md).
+</table>You can customize the Burnup, Burndown, and Cumulative Flow Diagram reports. For more information, see [Customizing Agile 2.0 dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/customizing-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](pa-content-pack-for-agile-2.0.md)
+**Parent Topic:**[Performance Analytics Content Pack for Agile 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/pa-content-pack-for-agile-2.0.md)
 

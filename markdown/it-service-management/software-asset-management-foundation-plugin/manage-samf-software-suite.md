@@ -2,6 +2,7 @@
 title: Manage a SAM Foundation software suite
 description: Create a suite and add the corresponding components to the suite so the rights that your organization owns are counted accurately during reconciliation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/manage-samf-software-suite.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -30,5 +31,5 @@ When a suite parent is detected during reconciliation, the suite components do n
 
 **Note:** Users with the model\_manager role can navigate to **Product Catalog** &gt; **Product Model** &gt; **Software Models**, but cannot administer all aspects of software models.
 
-**Parent Topic:**[Setting up Software Asset Management Foundation plugin](../task/t_SAMSetupSAMF.md)
+**Parent Topic:**[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
 

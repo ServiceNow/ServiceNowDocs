@@ -2,6 +2,7 @@
 title: Using software counters with the legacy Oracle Process Pack
 description: There are two distinct ways to count Oracle software through the legacy Oracle Process Pack. Be sure that your Oracle models are set up accurately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_CreatingAnOracleSoftwareCounter.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -21,5 +22,5 @@ Oracle software that uses the **Oracle Processor** license calculation type coun
 
 Oracle software that uses the **Oracle Named User** or **Oracle Named User Plus** license calculation types count by number of unique users or number of unique users plus devices. This license calculation type must exist in the Software Usage \[cmdb\_sam\_sw\_usage\] table. A software installation record must be inserted with a discovery model that matches the correct Oracle software. For a usage to be counted by an Oracle New User or Oracle New User Plus counter, the **Target host** field on the Software Usage \[cmdb\_sam\_sw\_usage\] table should reference a configuration item with a **Metric type** of **Oracle NU** or **Oracle NUP**.
 
-**Parent Topic:**[Legacy Oracle process pack](c_OracleProcessPack.md)
+**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)
 

@@ -2,11 +2,12 @@
 title: Create Exercise Event form
 description: Use the Create Exercise Event form in BCM UIB Workspace to add details about an Exercise event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-exercise-event-ref-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Create an exercise, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Create an exercise, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create Exercise Event form
@@ -304,5 +305,5 @@ Event tasks associated with the event
 Information on the event tasks such as Number, Short description, State, Impacted assets, Assigned to, Dependencies, Actual start, Actual end, Related activated plan, Similar tasks group, Phase.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an exercise](../task/start-exercise-event-in-uib-ws.md)
+</table>**Parent Topic:**[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-exercise-event-in-uib-ws.md)
 

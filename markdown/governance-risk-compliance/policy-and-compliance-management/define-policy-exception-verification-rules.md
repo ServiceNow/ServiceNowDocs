@@ -2,6 +2,7 @@
 title: Define policy exception and extension rules
 description: Configure granular approval rules for policy exceptions and extensions using the GRC Approval Configurator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -127,5 +128,5 @@ Select **All** to make it mandatory for all selected users to approve the except
 
 The rules are now set for approvals for policy exception and extension.
 
-**Parent Topic:**[GRC Approval Configurator for approving policy exceptions and extensions](../concept/grc-approval-configurator-for-policy-extension-and-exception.md)
+**Parent Topic:**[GRC Approval Configurator for approving policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-approval-configurator-for-policy-extension-and-exception.md)
 

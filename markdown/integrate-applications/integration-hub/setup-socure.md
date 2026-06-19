@@ -2,6 +2,7 @@
 title: Set up the Socure spoke
 description: Integrate the ServiceNow instance and Socure account using an API key to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-socure.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -30,13 +31,11 @@ Integrate the ServiceNow instance and Socure account using an API key to authent
 
     2.  Search for the **My IP Information** service catalog item.
 
-        ![Search for the service catalog item.](../image/socure-ip-instance.png)
-
     3.  Click the service catalog item.
 
     4.  Provide your instance name in **Select the instance**.
 
-        ![Provide the instance name.](../image/socure-ip-instance-num.png)
+        \[Omitted image "socure-ip-instance-num.png"\] Alt text: Provide the instance name.
 
     5.  Click **Submit**.
 
@@ -44,7 +43,7 @@ Integrate the ServiceNow instance and Socure account using an API key to authent
 
     6.  Copy and record the IP addresses for later use.
 
-        ![Copy the IP addresses.](../image/snow-ip-addresses.png)
+        \[Omitted image "snow-ip-addresses.png"\] Alt text: Copy the IP addresses.
 
 2.  Obtain the value of token from your Socure admin account.
 

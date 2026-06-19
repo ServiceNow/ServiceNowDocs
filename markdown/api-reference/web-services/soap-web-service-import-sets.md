@@ -2,6 +2,7 @@
 title: SOAP web service import sets
 description: Web service import sets complement direct web services and scripted SOAP web services by providing a web service interface to import sets tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/soap-web-service-import-sets.html
 release: australia
 product: Web Services
 classification: web-services
@@ -23,12 +24,12 @@ For example:
 
 `http://<instance name>.service-now.com/imp_notification.do?WSDL`.
 
-**Parent Topic:**[SOAP web service](c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
 
 **Related topics**  
 
 
-[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
+[bundle-crint.c_WebServiceImportSets]
 
-[Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportSetsKeyConcepts.md)
+[bundle-crint.c_ImportSetsKeyConcepts]
 

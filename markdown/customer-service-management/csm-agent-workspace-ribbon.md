@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace form ribbon and components
 description: The form ribbon provides includes components that display relevant information about a case and provide agents with a quick overview of the case details. These components can include a contact or consumer summary, a timeline, and SLA details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-agent-workspace-ribbon.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 8
@@ -28,7 +31,7 @@ For Customer Service Management, you can configure the ribbon for the Case form 
 
 The Customer 360 component displays customer information such as the contact or consumer name, email address, and phone numbers.
 
-![Component showing customer contact information, including name, email address, and phone numbers.](../image/csm-workspace-customer360-component.png "Customer 360 ribbon component")
+\[Omitted image "csm-workspace-customer360-component.png"\] Alt text: Component showing customer contact information, including name, email address, and phone numbers.
 
 You can configure the Customer 360 component to display different fields, such as the fields described in the following table.
 
@@ -155,7 +158,7 @@ The timeline component displays a chronological summary of case activities, incl
 
 **Note:** The workspace administrator can select the agent role when configuring the timeline component attributes.
 
-![Timeline component displaying a summary of case activities and the time spent on each case. For the color code information, refer to the legend row in the Timeline features table.](../../../administer/workspace/image/timeline-ribbon-component.png "Timeline ribbon component")
+\[Omitted image "timeline-ribbon-component.png"\] Alt text: Timeline component displaying a summary of case activities and the time spent on each case. For the color code information, refer to the legend row in the Timeline features table.
 
 The timeline uses icons to display events and colors to show ranges of time, such as when the case is with the agent or the customer. Agents can point to event icons in the timeline to display tooltips with additional information.
 
@@ -202,7 +205,7 @@ Legend
 
 </td><td>
 
-Click **Show Details** to display event and range summary information. ![Legend summary displaying events and the range of time spent on activities.](../../../administer/workspace/image/timeline-ribbon-component-details.png "Legend summary information")
+Click **Show Details** to display event and range summary information. \[Omitted image "timeline-ribbon-component-details.png"\] Alt text: Legend summary displaying events and the range of time spent on activities.
 
 </td></tr><tr><td>
 
@@ -294,7 +297,7 @@ The timeline displays messages for the following events:-   There is no data to 
 
 The Active SLA component displays active SLAs for the case, including time remaining, the SLA state, and any breaches. If a case has multiple SLAs, the SLA with the most imminent deadline is shown first. Pointing to the SLA component displays left and right navigation arrows that agents can use to view the other SLAs.
 
-![SLA ribbon displaying the time remaining for the SLA. For the color code description, refer to the text that follows.](../../../administer/workspace/image/SLARibbonComponent.jpg "SLA ribbon component")
+\[Omitted image "SLARibbonComponent.jpg"\] Alt text: SLA ribbon displaying the time remaining for the SLA. For the color code description, refer to the text that follows.
 
 Color coding within the component indicates the time remaining for the SLA:
 
@@ -307,9 +310,9 @@ Color coding within the component indicates the time remaining for the SLA:
 
 The time to resolve component displays the estimated time required for an agent to resolve the case.
 
-**Note:** The time to resolve component requires the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Estimated time to resolve a case](../concept/ettr.md).
+**Note:** The time to resolve component requires the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Estimated time to resolve a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ettr.md).
 
-![Ribbon component displaying the estimated time required by an agent to resolve a case.](../../../administer/workspace/image/time-to-resolve.jpg "Time to resolve component")
+\[Omitted image "time-to-resolve.jpg"\] Alt text: Ribbon component displaying the estimated time required by an agent to resolve a case.
 
 In this image, the estimated time that the agent will need to resolve the opened case is 0 to 2 days. Hence, the upper bound value is displayed. The estimated time is calculated from the time the case was created. If the range for example, is between 2 to 4 days, both the lower and upper bound values are displayed.
 
@@ -328,11 +331,11 @@ Following are a list of SLA messages displayed and the action required when they
 
 ## Configuring ribbon components
 
-For CSM Configurable Workspace, you can create a ribbon setting and add that setting to a ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](../task/config-csm-config-ws-ribbon.md).
+For CSM Configurable Workspace, you can create a ribbon setting and add that setting to a ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-ribbon.md).
 
 **Note:** One ribbon configuration, **CSM/FSM Configurable Workspace Ribbon Config**, is included with CSM Configurable Workspace.
 
-You can also display the form ribbon in the form ribbon in the Contextual side panel. For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](../task/config-csm-display-header-in-sidebar.md).
+You can also display the form ribbon in the form ribbon in the Contextual side panel. For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-display-header-in-sidebar.md).
 
 ## Domain separation
 

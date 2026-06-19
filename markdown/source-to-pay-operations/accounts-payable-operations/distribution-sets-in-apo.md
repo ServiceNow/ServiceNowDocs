@@ -1,19 +1,21 @@
 ---
 title: Distribution set in Accounts Payable Operations
-description: Distribution set in Accounts Payable Operations is a collection of predefined rules, including template, designed to automate the allocation of costs for invoice lines across cost centers and GL accounts.
+description: Distribution sets in Accounts Payable Operations use predefined rules and templates to automate cost allocation for invoice lines across cost centers and GL accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/distribution-sets-in-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice management, distribution set, invoice automation]
 breadcrumb: [Invoice cost allocation, Create an invoice manually, Work with invoices, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Distribution set in Accounts Payable Operations
 
-Distribution set in Accounts Payable Operations is a collection of predefined rules, including template, designed to automate the allocation of costs for invoice lines across cost centers and GL accounts.
+Distribution sets in Accounts Payable Operations use predefined rules and templates to automate cost allocation for invoice lines across cost centers and GL accounts.
 
 By applying a distribution set, Accounts Payable teams can efficiently generate cost allocation records automatically, eliminating the need for manual cost splitting for each invoice line.
 
@@ -33,7 +35,7 @@ The key features of the distribution set are:
     The workflow of the distribution set is shown below:
 
 
-![The Distribution set workflow explaining efficiently how to generate cost allocation records automatically](../image/distribution-set.png)
+\[Omitted image "distribution-set.png"\] Alt text: The Distribution set workflow explaining efficiently how to generate cost allocation records automatically
 
 The key features of distribution lines are:
 
@@ -42,5 +44,5 @@ The key features of distribution lines are:
 -   Allocation type is restricted to amount percentage for each distribution line.
 -   When the distribution set is set as a template, the percentage column is read-only, and AP specialists can manually allocate costs later.
 
-**Parent Topic:**[Invoice cost allocation](invoice-line-cost-allocation.md)
+**Parent Topic:**[Invoice cost allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-line-cost-allocation.md)
 

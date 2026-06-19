@@ -2,6 +2,7 @@
 title: Center of Excellence and Innovation Maturity Assessment Accelerator
 description: This accelerator assesses your current ServiceNow  CoEI processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/coei-maturity-assessment-accelerator.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator assesses your current ServiceNow  CoEI processes and function
 ## Accelerator Overview
 
 Center of Excellence and Innovation \(CoEI\) Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured assessment conducted by key stakeholders within the customer’s business. By offering customers a snapshot of their current process maturity and targeted next-step recommendations, this accelerator helps maximize the value of their ServiceNow investment.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 

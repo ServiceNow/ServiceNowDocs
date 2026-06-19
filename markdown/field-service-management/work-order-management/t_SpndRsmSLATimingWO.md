@@ -2,6 +2,7 @@
 title: Suspend and resume SLA timing from a work order
 description: Pause and resume the timing on a work order SLA from the work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_SpndRsmSLATimingWO.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -38,7 +39,7 @@ This is useful if a qualifier or dispatcher is waiting for information from the 
 
 4.  Select **Suspend**.
 
-    ![suspend work order button](../../field-service-management/image/suspend-order.png)
+    \[Omitted image "suspend-order.png"\] Alt text: suspend work order button
 
     The system sets the **Stage** of the SLA to **Paused**.
 

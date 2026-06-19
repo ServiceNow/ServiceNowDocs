@@ -2,6 +2,7 @@
 title: Event identifiers
 description: Event identifiers uniquely distinguish one event from another. Event Management uses these identifiers to determine whether to create a new alert or update an existing one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/c\_EMEventIdentifier.html
 release: australia
 product: Event Management
 classification: event-management

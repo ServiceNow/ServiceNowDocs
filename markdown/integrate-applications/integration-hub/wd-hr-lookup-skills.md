@@ -2,6 +2,7 @@
 title: Create report to extract skills
 description: Create report to extract skill \(maintains skills and skill cloud skills\) details from Workday based on the time duration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/wd-hr-lookup-skills.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -48,45 +49,45 @@ This procedure must be performed in your Workday instance.
 
 6.  Do not select the **Temporary report** check box and click Ok.
 
-    ![Skills custom report.](../image/wdhr-lookup-skills-1.PNG)
+    \[Omitted image "wdhr-lookup-skills-1.PNG"\] Alt text: Skills custom report.
 
 7.  Select the report business object and report fields.
 
-    ![Select the report business object and report fields.](../image/wdhr-lookup-skills-2.PNG)![Select the report business object and report fields.](../image/wdhr-lookup-skills-3.PNG)
+    \[Omitted image "wdhr-lookup-skills-2.PNG"\] Alt text: Select the report business object and report fields.\[Omitted image "wdhr-lookup-skills-3.PNG"\] Alt text: Select the report business object and report fields.
 
 8.  In **Filter** section, select the required values.
 
-    ![Select the required filter values.](../image/wdhr-lookup-skills-4.PNG)
+    \[Omitted image "wdhr-lookup-skills-4.PNG"\] Alt text: Select the required filter values.
 
 9.  In the **Prompts** section, select the **Populate Undefined Prompt Defaults** check box.
 
-    ![Select the Populate Undefined Prompt Defaults check box.](../image/wdhr-lookup-skills-5.PNG)
+    \[Omitted image "wdhr-lookup-skills-5.PNG"\] Alt text: Select the Populate Undefined Prompt Defaults check box.
 
 10. Select the value of prompts under the **Prompt Default** section.
 
     Ensure that the **Label For Prompt XML Alias** values for all prompt fields are as shown here.
 
-    ![Select the value of prompts under the Prompt Default section.](../image/wdhr-lookup-skills-6.PNG)
+    \[Omitted image "wdhr-lookup-skills-6.PNG"\] Alt text: Select the value of prompts under the Prompt Default section.
 
 11. In the **Advanced** section, select the **Enable as webservice** check box and click **Ok**.
 
 12. Click the three dots icon and navigate to **Web Service** &gt; **View URLs**.
 
-    ![Navigate to Web Service > View URLs .](../image/wdhr-lookup-skills-7.PNG)
+    \[Omitted image "wdhr-lookup-skills-7.PNG"\] Alt text: Navigate to Web Service &gt; View URLs .
 
 13. Select the time duration for which you want to extract the data.
 
-    ![Select the time duration.](../image/wdhr-lookup-skills-8.PNG)
+    \[Omitted image "wdhr-lookup-skills-8.PNG"\] Alt text: Select the time duration.
 
 14. In View URLs Web Service page, click the marked icon under **CSV** section.
 
-    ![Click the marked icon under CSV section.](../image/wdhr-lookup-skills-9.png)
+    \[Omitted image "wdhr-lookup-skills-9.png"\] Alt text: Click the marked icon under CSV section.
 
     You will be navigated to a new browser and the RaaS URL of the report is displayed.
 
 15. From the RaaS URL, copy and record these values.
 
-    ![RaaS URL.](../image/wdhr-lookup-skills-10.PNG)
+    \[Omitted image "wdhr-lookup-skills-10.PNG"\] Alt text: RaaS URL.
 
     -   `https://wd2-impl-services1.workday.com` is the base URL of your Workday tenant.
     -   **Tenant\_Name** is your Workday tenant.

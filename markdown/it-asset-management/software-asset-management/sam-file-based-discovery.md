@@ -2,6 +2,7 @@
 title: File Signature Normalization
 description: File-based discovery finds files on UNIX or Windows servers and processes them with an established set of rules that enhance the identification of installed software. Use the results to monitor specific file types on network servers for security purposes or to manage your software licenses with the File Signature Normalization plugin for Software Asset Management - Professional \(SAMP\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-file-based-discovery.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -15,13 +16,13 @@ breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT 
 
 File-based discovery finds files on UNIX or Windows servers and processes them with an established set of rules that enhance the identification of installed software. Use the results to monitor specific file types on network servers for security purposes or to manage your software licenses with the File Signature Normalization plugin for Software Asset Management - Professional \(SAMP\).
 
-For more information on the file-based discovery, see the [File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/file-based-discovery.md).
+For more information on the file-based discovery, see the File-based Discovery.
 
 **Note:** The information provided in this page only covers the features available with the File Signature Normalization \(com.snc.file\_signature\_normalization\) plugin.
 
 ## Required plugins
 
-The File Signature Normalization plugin is required to allow file information to be mapped to installed software. To enable this plugin, [Request Software Asset Management](../task/t_RequSoftwareAssetMgmt.md).
+The File Signature Normalization plugin is required to allow file information to be mapped to installed software. To enable this plugin, [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md).
 
 You can also enable file-based discovery with the File-Based Discovery \(com.snc.discovery.file\_based\_discovery\) plugin to filter file signatures. This plugin is included with a Discovery subscription, but you must request plugin activation. Normalization of products and publishers is available for file-based discovery with or without Software Asset Management.
 
@@ -63,5 +64,5 @@ File Signature Normalization adds the following tables.
 |samp\_custom\_file\_name|File names that entered by the user that can be discovered on end-user devices.|
 |cmdb\_unidentified\_file\_set|Custom rules that are created if a software match is not found for the discovered file in the CDS.|
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

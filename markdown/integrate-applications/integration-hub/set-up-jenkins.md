@@ -2,6 +2,7 @@
 title: Set up the Jenkins spoke
 description: Integrate the ServiceNow instance and Jenkins using basic authentication to authenticate ServiceNow requests.Add and configure a Jenkins v2 connection to authenticate ServiceNow requests in Jenkins v2 spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-jenkins.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -41,12 +42,12 @@ Role required: admin
 
     -   To configure the default connection and credential alias record that is shipped along with the Jenkins v2 spoke, click **View Details**.
 
-        ![Connection template for Jenkins V2](../image/jenkins-v2-conn-template.png)
+        \[Omitted image "jenkins-v2-conn-template.png"\] Alt text: Connection template for Jenkins V2
 
-    -   To manage more than oneJenkins v2 spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than oneJenkins v2 spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    ![Jenkins v2 connection configuration](../image/jenkins-v2-conn-config.png)
+    \[Omitted image "jenkins-v2-conn-config.png"\] Alt text: Jenkins v2 connection configuration
 
 5.  On the Connection form, fill in the fields.
 
@@ -57,7 +58,7 @@ Role required: admin
     |User name|User name of your Jenkins account.|
     |Password|API token of your Jenkins account.|
 
-    ![Configure connection for the Jenkins v2 spoke.](../image/jenkinsv2-conf-template.png)
+    \[Omitted image "jenkinsv2-conf-template.png"\] Alt text: Configure connection for the Jenkins v2 spoke.
 
 6.  Click **Create Connection**.
 

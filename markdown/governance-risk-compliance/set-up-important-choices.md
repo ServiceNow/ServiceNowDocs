@@ -2,6 +2,7 @@
 title: Update the Important choices module
 description: Update the rating of the assessment in the Operational Resilience application so that you can update the criticality and the order of the assessment for your business services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-important-choices.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,16 +28,16 @@ You can update the criticality and the order of the assessment rating by using t
 
     You see the default assessment rating that is shown in the following example.
 
-    ![Default assessment rating.](../image/default-importance-rating-scale.png "Default assessment rating")
+    \[Omitted image "default-importance-rating-scale.png"\] Alt text: Default assessment rating.
 
     A sample assessment rating is shown in the following example.
 
-    ![Sample assessment rating.](../image/or-ws-admin-important-choices-example.png)
+    \[Omitted image "or-ws-admin-important-choices-example.png"\] Alt text: Sample assessment rating.
 
 2.  Click **New**.
 
 3.  On the form, fill in the fields and select **Submit**.
 
-    For a description of the field values on the GRC Choices form, see [GRC Choices form](../reference/important-choices-reference.md).
+    For a description of the field values on the GRC Choices form, see [GRC Choices form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/important-choices-reference.md).
 
 

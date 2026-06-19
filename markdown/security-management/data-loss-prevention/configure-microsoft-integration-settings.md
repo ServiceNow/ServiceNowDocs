@@ -2,6 +2,7 @@
 title: Configure Microsoft DLP IR integration settings
 description: Modify the  Microsoft DLP IR  integration default system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/configure-microsoft-integration-settings.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -75,5 +76,5 @@ By default, the value is **db**.
 
 Your modified integration settings are applied in the next polling interval as defined in the profile.
 
-**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](../concept/dlp-integration-microsoft.md)
+**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-integration-microsoft.md)
 

@@ -2,6 +2,7 @@
 title: Install Emergency Outreach
 description: You can install Emergency Outreach if you have the admin role.You can install Employee Readiness Surveys if you have the admin role. Installing Employee Readiness Surveys adds notification options to the Emergency Outreach app. A default health readiness survey is provided as an example.Several types of components are installed with Emergency Outreach, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/install-emergency-outreach.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -93,7 +94,7 @@ Emergency Outreach is installed on your instance.
 
 Optionally install Employee Readiness Surveys to use with Emergency Outreach. The Employee Readiness Surveys app enables you to evaluate the readiness of your employees to return to the workplace using Emergency Outreach notifications.
 
-**Parent Topic:**[Emergency Outreach](../concept/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
 
 ## Install Employee Readiness Surveys to use with Emergency Outreach
 
@@ -193,7 +194,7 @@ Employee Readiness Surveys is installed on your instance. Use it by navigating t
 
 Several types of components are installed with Emergency Outreach, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 

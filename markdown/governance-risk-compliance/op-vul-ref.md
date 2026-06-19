@@ -2,6 +2,7 @@
 title: Tables relevant to Operational vulnerability
 description: Reference topics provide additional information about the Operational vulnerability, including the associated tables and roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/op-vul-ref.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -31,5 +32,5 @@ Reference topics provide additional information about the Operational vulnerabil
 |Regulation \[sn\_grc\_case\_mgmt\_regulation\]|Stores the regulations mapped at the case level.|GRC: Core Case Management|
 |Related area \[sn\_grc\_case\_mgmt\_related\_area\]|Stores the related areas associated with the case.|GRC: Core Case Management|
 
-**Parent Topic:**[Tables installed with Operational Resilience](tables-installed-with-op-res.md)
+**Parent Topic:**[Tables installed with Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/tables-installed-with-op-res.md)
 

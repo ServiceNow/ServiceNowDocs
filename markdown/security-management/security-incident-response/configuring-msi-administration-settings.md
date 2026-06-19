@@ -2,12 +2,13 @@
 title: Major Security Incident Management administration
 description: Plan and configure your Major Security Incident Management implementation.Enable users to decide to propose or promote incidents as major security incidents. Easily track all incidents related to a major security incident by enabling security incidents to be linked to the parent or child incident.Tag or label the security incidents or vulnerable records to a major security incident when the incident is proposed or promoted. If a security incident is proposed then the incident record is referred as major security incident candidate. When a security is promoted then the incident record is referred as Major Security Incident with state as Accepted.Configure labels in major security incident management to create custom labels and filter the external collaboration activities and tasks in the activity stream. The different types of implemented labels are State labels and timeline labels.Configure different types of labels to better filter and also indicate the incident states. Major security incident labels provide the flexibility to label the collaboration activities and tasks of the incident records.Configure and assign Timeline categories such as Threat, Response, or Custom to your major security incidents using the Timeline section on the Overview tab.Automate the email notification process and notify the users when a security incident is either proposed or promoted to a major security incident candidate.Establish actions that will occur automatically when a major security incident is closed. Increase security by automatically archiving and removing access to folders containing resolution information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configuring-msi-administration-settings.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -17,7 +18,7 @@ Plan and configure your Major Security Incident Management implementation.
 
 You can configure the following aspects of Major Security Incident Management administration:
 
-**Parent Topic:**[Major Security Incident Management](../reference/major-security-incident-management-landing-page.md)
+**Parent Topic:**[Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
 
 ## Enable proposal, promotion, and linking of major security incidents
 

@@ -2,6 +2,7 @@
 title: Is Device in Collection activity
 description: This activity verifies if a device exists in an SCCM device collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/device-exists-sccm-collection.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [SCCM activity pack, Orchestration activity packs, Classic Orchestra
 
 This activity verifies if a device exists in an SCCM device collection.
 
-The Is Device in Collection activity uses the [PowerShell activity template](../../orchestration-activity-designer/task/t_CreateAPowershellActivity.md#) to verify if a specific device exists in an SCCM device collection. The activity is configured to use a MID Server with PowerShell capabilities and to run a MID Server script called IsDeviceInCollection.ps1 to perform the test.
+The Is Device in Collection activity uses the [PowerShell activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAPowershellActivity.md) to verify if a specific device exists in an SCCM device collection. The activity is configured to use a MID Server with PowerShell capabilities and to run a MID Server script called IsDeviceInCollection.ps1 to perform the test.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **System Center Configuration Manager \(SCCM\)**.
 
@@ -42,5 +43,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Not exist|The device does not exist in the collection.|
 |Failure|Activity failed.|
 
-**Parent Topic:**[SCCM activity pack](../concept/c_SCCMActivityPack.md)
+**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md)
 

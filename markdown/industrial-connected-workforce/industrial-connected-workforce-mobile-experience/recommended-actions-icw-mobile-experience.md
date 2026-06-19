@@ -2,6 +2,7 @@
 title: Recommended Actions in the Industrial Connected Workforce Mobile Experience
 description: The Recommended Actions feature in Industrial Connected Workforce Mobile Experience \(ICW Mobile\) displays suggested actions directly in the Recommendations tab of a task. These suggestions are based on the current context of the task and are intended to support you during manufacturing processes by providing relevant guidance at the point of need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/recommended-actions-icw-mobile-experience.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -36,5 +37,5 @@ The following use cases are currently supported and configured:
 
 When you select a recommended record, such as a related deviation or IGT, the record opens in its native mobile screen instead of a web view. This keeps you in the mobile app while you continue working.
 
-**Parent Topic:**[Exploring Industrial Connected Workforce Mobile Experience](exploring-icw-mobile-experience.md)
+**Parent Topic:**[Exploring Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/exploring-icw-mobile-experience.md)
 

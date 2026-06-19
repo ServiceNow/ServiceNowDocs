@@ -2,7 +2,10 @@
 title: Adding participants
 description: This step is the final phase in your simulation where you add agent details and assign call capabilities for each participant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-participants.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: admin
 
 The first participant represents the user initiating the call. Adding subsequent participants simulates a multiparty call. For example, when a second agent or supervisor joins the call, or when one agent consults with another in the same call.
 
-![Add participants in the simulator](../image/int-add-participant.png "Add participants")
+\[Omitted image "int-add-participant.png"\] Alt text: Add participants in the simulator
 
 ## Procedure
 
@@ -27,13 +30,13 @@ The first participant represents the user initiating the call. Adding subsequent
 
     You can add up to five participants. Save each participant details before submitting your configuration.
 
-    ![Add up to five participants and save each participant entry](../image/int-save-participant.png)
+    \[Omitted image "int-save-participant.png"\] Alt text: Add up to five participants and save each participant entry
 
 2.  Select **Submit** to display the Global call window with your updated selections.
 
     The Voice Controls Simulator tool provides a synchronized view across both Global Call and Active Call windows. Selecting any call button, such as hold or mute, instantly updates both call windows.
 
-    ![Test the simulated active call controls](../image/int-test-active-call-simulation-call-controls.png)
+    \[Omitted image "int-test-active-call-simulation-call-controls.png"\] Alt text: Test the simulated active call controls
 
 3.  Select **Start Over** to reset your simulation and return to the set idle state capabilities step.
 

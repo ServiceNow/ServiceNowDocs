@@ -2,6 +2,7 @@
 title: Add custom software products in workspace
 description: Add a custom software product for any publicly available software product that does not exist in the Software Asset Management Content Library. Custom software products enable you to normalize and account for software products that aren’t part of the Software Asset Management Content Library yet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/add-custom-software-products-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -17,7 +18,7 @@ Add a custom software product for any publicly available software product that d
 
 ## Before you begin
 
-If you want to enable the Software Asset Management application to submit content requests for your custom software products, opt in to the Software Asset Management Content Service and then enable the Custom Software Products KPI. See [Enable sharing information with Software Asset Management content service](t_EnableSAMContentService.md) for detailed instructions.
+If you want to enable the Software Asset Management application to submit content requests for your custom software products, opt in to the Software Asset Management Content Service and then enable the Custom Software Products KPI. See [Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_EnableSAMContentService.md) for detailed instructions.
 
 Role required: sam\_admin
 
@@ -120,8 +121,8 @@ The custom software product is immediately available to use in your downstream p
 
         -   If you accept the suggestion, the Software Asset Management application begins using the software product in the Content Library for your downstream processes.
         -   If you reject the suggestion, the Software Asset Management application continues to use the custom software product in your downstream processes.
-        For more information on product suggestions, see [View custom software product suggestions in workspace](view-custom-software-product-suggestions-workspace.md).
+        For more information on product suggestions, see [View custom software product suggestions in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-custom-software-product-suggestions-workspace.md).
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

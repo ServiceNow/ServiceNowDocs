@@ -2,6 +2,7 @@
 title: Monitoring devices and applications with DEX Application and Device Health
 description: Application and Device Health is a powerful solution for monitoring and managing your IT environment from an end-user perspective. It offers a variety of features that provide valuable insights into how users interact with the technology they rely on every day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/use-dex-console.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

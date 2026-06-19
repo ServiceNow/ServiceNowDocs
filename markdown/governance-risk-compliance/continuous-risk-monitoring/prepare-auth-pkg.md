@@ -2,6 +2,7 @@
 title: RMF step 0 - Prepare the authorization package
 description: In the Prepare step, you set up authorization boundaries, control overlays, and information types, as well as create the actual authorization package.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -17,13 +18,13 @@ In the Prepare step, you set up authorization boundaries, control overlays, and 
 
 ## Your actions in the Prepare step
 
--   [Define the authorization boundary](../task/define-auth-boundaries.md)
--   [Create an authorization package](../task/create-auth-package.md)
+-   [Define the authorization boundary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/define-auth-boundaries.md)
+-   [Create an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/create-auth-package.md)
 
--   **[Define the authorization boundary](../task/define-auth-boundaries.md)**  
+-   **[Define the authorization boundary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/define-auth-boundaries.md)**  
 An authorization boundary defines the scope of a particular system that can be continuously managed and monitored using the CAM application.
--   **[Create an authorization package](../task/create-auth-package.md)**  
+-   **[Create an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/create-auth-package.md)**  
 After you have defined the authorization boundaries for the assets or systems to send through the Authorization to Operate process, you must create an authorization package for that purpose. The package is processed through the seven steps mandated by the RMF.
 
-**Parent Topic:**[Governance, Risk, and Compliance](../../grc-common/reference/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
 

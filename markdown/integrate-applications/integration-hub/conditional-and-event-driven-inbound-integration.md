@@ -2,6 +2,7 @@
 title: Conditional and event-driven inbound integration
 description: Integration Hub enables both conditional and event-driven inbound integration with third-party applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/conditional-and-event-driven-inbound-integration.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -21,10 +22,10 @@ For example, you’re setting an inbound integration between your ServiceNow ins
 
 To set the integration, configure a flow by selecting an external trigger from the new trigger picker, set the priority as P1, and then setting the actions from the action picker on the Workflow Studio accordingly. The flow accepts the payload from the issue-tracking application and updates the incident table. Then, you generate an endpoint on a base system external event source on your ServiceNow instance from the Application tile in the Inbound Connections tab and provide the same endpoint in the external webhook of the issue-tracking application. Now, when you update a P1 issue on the issue-tracking application, its external webhook activates and acts as a trigger for the flow you had set on your ServiceNow instance. Before that, the ServiceNow instance authenticates the webhook based on the type of authentication the issue-tracking application supports. After successful authentication, the webhook triggers the flow and the flow executes.
 
--   **[Set up a flow with external trigger definition](../tasks/set-up-flow-ihub.md)**  
+-   **[Set up a flow with external trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-flow-ihub.md)**  
 Set up a flow that responds to an event-driven external trigger from a third-party system and executes.
--   **[Set up external trigger endpoints](../tasks/set-up-external-webhook-endpoints.md)**  
+-   **[Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-external-webhook-endpoints.md)**  
 Generate an endpoint that the external webhook in the third-party application uses to connect to your ServiceNow instance. You can deactivate or remove the configuration of the endpoint from the connection when you want the endpoint to no longer listen to the external webhook.
 
-**Parent Topic:**[Building integrations in Integration Hub](building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
 

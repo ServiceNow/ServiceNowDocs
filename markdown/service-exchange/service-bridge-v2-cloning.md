@@ -2,6 +2,7 @@
 title: List of preservers and exclusions tables for cloning
 description: When installing Service Exchange, certain tables must be preserved or excluded to maintain connectivity after a clone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-cloning.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -15,12 +16,12 @@ breadcrumb: [Reference, Service Exchange]
 
 When installing Service Exchange, certain tables must be preserved or excluded to maintain connectivity after a clone.
 
-If the default system profile is used, some of the Service Exchange table data isn’t preserved. To address this issue, you must create a custom clone profile with specific settings required for Service Exchange. Navigate to **All** &gt; **System Clone** &gt; **Clone Profiles** and select **New** to create a custom profile. For more details on clone profiles, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-clone-profile.md). In this profile, you must:
+If the default system profile is used, some of the Service Exchange table data isn’t preserved. To address this issue, you must create a custom clone profile with specific settings required for Service Exchange. Navigate to **All** &gt; **System Clone** &gt; **Clone Profiles** and select **New** to create a custom profile. For more details on clone profiles, see . In this profile, you must:
 
 -   Remove the **Remote Process Sync Disable Records** script from the Cleanup scripts related list,
 -   Validate if the following Service Exchange tables are included in the custom profile.
 
-**Note:** After a clone, you must reestablish the connection and activate the Capture Definitions. See [Reestablish connection after a clone for a provider](../task/service-bridge-v2-cloning-instances.md) and [Reestablish connection after a clone for a consumer](../task/service-bridge-v2-cloning-instances-con.md).
+**Note:** After a clone, you must reestablish the connection and activate the Capture Definitions. See [Reestablish connection after a clone for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-cloning-instances.md) and [Reestablish connection after a clone for a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-cloning-instances-con.md).
 
 ## Service Exchange tables to preserve and exclude
 
@@ -55,6 +56,10 @@ Global
 
 -   catalog\_ui\_policy
 -   catalog\_ui\_policy\_action
+-   clone\_data\_exclude
+-   clone\_data\_preserver
+-   clone\_profile\_exclusions
+-   clone\_profile\_preservers
 -   ih\_sync\_capture\_definition
 -   ih\_sync\_definition
 -   ih\_sync\_inbound\_definition
@@ -72,6 +77,7 @@ Global
 -   sn\_sb\_con\_entitlement
 -   sn\_sb\_error
 -   sn\_sb\_known\_error\_code
+-   sn\_sb\_con\_persona\_group
 -   sn\_sb\_con\_provider\_connection
 -   sn\_sb\_con\_provider\_task
 -   sn\_sb\_release

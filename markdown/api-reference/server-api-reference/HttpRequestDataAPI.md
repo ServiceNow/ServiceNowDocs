@@ -2,6 +2,7 @@
 title: HttpRequestData - Scoped
 description: The HttpRequestData API provides methods to build and manipulate a REST request before applying a signature and sending it to an endpoint.Instantiates an HttpRequestData object.Adds a header to the HttpRequestData object.Adds a query parameter to the HttpRequestData object.Removes a header from the HttpRequestData object.Returns the sys\_id of the Connection &amp; Credential alias associated with the Integration Hub REST step.Returns the value of a connection attribute associated with the Connection &amp; Credential alias associated with Integration Hub REST step.Returns the content of the request in the HttpRequestData object.Returns the date when the request was signed.Returns whether the signature is applied to the request in the header or as a query parameter.Returns the endpoint set for the request.Returns the time in seconds before the signature expires starting when the request was signed using the generateAuth\(\) method in the RequestAuthAPI class.Returns the value associated with the given HTTP header.Returns an object containing the headers included in the request.Returns the host used in the request.Returns the HTTP method used in the request.Returns the value of the specified query parameter.Returns an object containing the query parameters included in the request.Returns the region for the request that will be used in signing.Returns the service defined in the request.Defines the content to send in the request.Defines the date of the request used for signing.Defines whether to apply the signature to the request in a header or as a query parameter.Defines the endpoint to send the request to.Sets the amount of time before the signature expires starting when the request is signed using the generateAuth\(\) method in the RequestAuthAPI class.Defines the host used in the request.Sets the HTTP method to use in the request.Defines the region to use for the request in signing.Defines the service for the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/HttpRequestDataAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -23,11 +24,11 @@ Generate outbound signing requests using these APIs in the following order:
 4.  HttpRequestAuthedData: Get information about the signed request.
 5.  GlideHTTPRequest: Send the signed request.
 
-Before using these APIs, you must [configure an authentication algorithm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/configure-authentication-algorithm.md) to sign the request and associate it with the credential used to authenticate the request.
+Before using these APIs, you must configure an authentication algorithm to sign the request and associate it with the credential used to authenticate the request.
 
 Use this API in scoped scripts with the `sn_auth` namespace identifier. You can instantiate this class using the constructor, or you can return an HttpRequestData object from the getHttpRequestData\(\) method in the RequestAuthAPI class.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## HttpRequestData - HttpRequestData\(\)
 
@@ -124,7 +125,7 @@ Returns the sys\_id of the Connection &amp; Credential alias associated with the
 
 You can pass the sys\_id to the ConnectionInfoProvider API to retrieve information about the connection.
 
-**Note:** You can only use this method in an Integration Hub REST step. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/rest-request-action-designer.md).
+**Note:** You can only use this method in an Integration Hub REST step. For more information, see REST step.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -146,9 +147,9 @@ var connectionInfo = credential.getConnectionInfo(id);
 
 Returns the value of a connection attribute associated with the Connection &amp; Credential alias associated with Integration Hub REST step.
 
-**Note:** You can only use this method in an Integration Hub REST step. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/rest-request-action-designer.md).
+**Note:** You can only use this method in an Integration Hub REST step. For more information, see REST step.
 
-For more information about connection attributes, see [Create connection attributes for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-connection-attributes.md).
+For more information about connection attributes, see Create connection attributes for Integration Hub.
 
 |Name|Type|Description|
 |----|----|-----------|

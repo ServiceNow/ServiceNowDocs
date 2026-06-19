@@ -2,6 +2,7 @@
 title: Identity Provider attributes for OpenID Connect
 description: Use the Identity Provider attributes that are received from the OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as a filter criteria for authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/idp-attributes-oidc.html
 release: australia
 product: Authentication
 classification: authentication
@@ -19,12 +20,12 @@ You can manually create the IdP attributes based on the claims received as part 
 
 **Note:**
 
--   Identity Provider filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](session-access.md).
--   IdP attribute filter criteria can be used in [Post-authentication context](post-auth-context.md), [Zero Trust Access \(ZTA\)](session-access.md) session relegation, and [Multi-factor Authentication context](mfa-auth-context.md).
+-   Identity Provider filter is available with Zero Trust Access feature. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/session-access.md).
+-   IdP attribute filter criteria can be used in [Post-authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/post-auth-context.md), [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/session-access.md) session relegation, and [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-context.md).
 
 Start the configuration by adding the IdP attributes by selecting **New** from the Identity Provider Attributes section and use those attributes for Adaptive Authentication by setting it to `true`.
 
-![IdP Attributes for OIDC](../images/idp-attribute-oidc.png)
+\[Omitted image "idp-attribute-oidc.png"\] Alt text: IdP Attributes for OIDC
 
 The **RiskFactor** defined in the OIDC configuration in the Identity Provider Attributes is from the ID token claims. This value can be an existing claim or custom claim as configured in the IdP side. Use this claim in various authentication context to customize and control the log in behavior of the user.
 

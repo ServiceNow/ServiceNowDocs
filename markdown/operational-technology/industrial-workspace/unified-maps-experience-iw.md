@@ -2,6 +2,7 @@
 title: Operational Technology Unified Map experience in the Industrial Workspace
 description: The Operational Technology \(OT\) Unified Map available in the Industrial Workspace provides a unified experience to view the relationships between devices and other configuration items \(CIs\), and view related items, like OT incidents and change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/unified-maps-experience-iw.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -19,7 +20,7 @@ The Operational Technology \(OT\) Unified Map available in the Industrial Worksp
 
 The OT Unified Map experience shows a hierarchical map of CIs and their relationships while centered on a selected CI, known as a home node. The experience combines the capabilities of dependency views and service mapping into a single map experience. The following image shows an example of what the OT Unified Map experience looks like in the Industrial Workspace.
 
-![Unified map for an equipment model entity in the Industrial Workspace](../image/ot-um-horizontal.png)
+\[Omitted image "ot-um-horizontal.png"\] Alt text: Unified map for an equipment model entity in the Industrial Workspace
 
 You can access a Unified Map in the following locations in the Industrial Workspace.
 
@@ -39,7 +40,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Attributes ![](../image/attributes-icon-unified-map.png)
+Attributes \[Omitted image "attributes-icon-unified-map.png"\] Alt text:
 
 </td><td>
 
@@ -60,7 +61,7 @@ Details of the selected node on the map, including the following attributes:-   
 
 </td></tr><tr><td>
 
-Application services ![](../image/application-services-unified-map.png)
+Application services \[Omitted image "application-services-unified-map.png"\] Alt text:
 
 </td><td>
 
@@ -68,7 +69,7 @@ Equipment model entities or devices that comprise the application service.
 
 </td></tr><tr><td>
 
-Related items ![](../image/related-items-unified-map.png)
+Related items \[Omitted image "related-items-unified-map.png"\] Alt text:
 
 </td><td>
 
@@ -81,16 +82,16 @@ Other records related to the selected node. The related items include:-   Past O
 
 </td></tr><tr><td>
 
-Changes ![](../image/changes-unified-map.png)
+Changes \[Omitted image "changes-unified-map.png"\] Alt text:
 
 </td><td>
 
 History of changes made to the Unified Map.
 
 </td></tr></tbody>
-</table>For more information about configuring the OT Unified Maps experience, see [Setting up the Operational Technology Unified Map experience](../task/setting-up-unified-maps-experience.md).
+</table>For more information about configuring the OT Unified Maps experience, see [Setting up the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-unified-maps-experience.md).
 
-For more information about viewing an OT Unified Map, see [View an Operational Technology Unified Map](../task/view-ot-unified-map.md).
+For more information about viewing an OT Unified Map, see [View an Operational Technology Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/view-ot-unified-map.md).
 
-**Parent Topic:**[Exploring the Industrial Workspace](../../operational-technology-management/concept/exploring-industrial-workspace.md)
+**Parent Topic:**[Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 

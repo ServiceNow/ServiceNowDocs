@@ -2,10 +2,11 @@
 title: Glossary Customer Service Problem Management
 description: Learn about the terms and concepts that are unique to Customer Service Problem Management.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/glossary-customer-service-problem-management.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -36,7 +37,7 @@ Glossary terms are grouped alphabetically.
 
 ### Measure consequence
 
-An action or response triggered when a threshold rule is violated, such as sending a warning or creating a repair task. To learn more, see [Define measure consequences for the threshold rules](../task/define-threshold-consequences-spm.md).
+An action or response triggered when a threshold rule is violated, such as sending a warning or creating a repair task. To learn more, see [Define measure consequences for the threshold rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-consequences-spm.md).
 
 ## N
 
@@ -44,7 +45,7 @@ Glossary terms are grouped alphabetically.
 
 ### Northbound API
 
-APIs used during the design phase to create and manage test definitions, characteristics, and measures within Customer Service Problem Management. To learn more, see [Customer Service Problem Management data model](spm-data-model.md).
+APIs used during the design phase to create and manage test definitions, characteristics, and measures within Customer Service Problem Management. To learn more, see [Customer Service Problem Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/spm-data-model.md).
 
 ## R
 
@@ -62,27 +63,23 @@ Glossary terms are grouped alphabetically.
 
 A record representing a customer-reported issue or a network fault, tracked through its lifecycle from verification to closure.
 
-### Southbound API
-
-APIs responsible for executing tests on external systems \(e.g., routers or network devices\) as part of the diagnostic process. To learn more, see [Customer Service Problem Management data model](spm-data-model.md).
-
 ## T
 
 Glossary terms are grouped alphabetically.
 
 ### Test group
 
-A collection of related tests \(manual or automated\) used to diagnose service problems for a specific service type, product model, or inventory. To learn more, see [Setting up a test group](../concept/setting-test-group.md).
+A collection of related tests \(manual or automated\) used to diagnose service problems for a specific service type, product model, or inventory. To learn more, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/setting-test-group.md).
 
 ### Test definition
 
-A configuration that specifies the parameters and metrics for a particular test, including what is measured and how.To learn more, see [Setting up test definitions](../concept/settingup-test-specifications.md).
+A configuration that specifies the parameters and metrics for a particular test, including what is measured and how.To learn more, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/settingup-test-specifications.md).
 
 ### Test measure definition
 
-A unique metric or parameter to be measured during a test, such as speed, connectivity, or packet loss. To learn more, see [Define test measure definitions for a service test](../task/define-test-measure-spm.md).
+A unique metric or parameter to be measured during a test, such as speed, connectivity, or packet loss. To learn more, see [Define test measure definitions for a service test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-test-measure-spm.md).
 
 ### Threshold rule
 
-A rule that sets acceptable performance or quality limits for a service. If test results exceed or fall below these thresholds, actions are triggered. To learn more, see [Define threshold rules for a test measure definition](../task/define-threshold-rules.md).
+A rule that sets acceptable performance or quality limits for a service. If test results exceed or fall below these thresholds, actions are triggered. To learn more, see [Define threshold rules for a test measure definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/define-threshold-rules.md).
 

@@ -2,6 +2,7 @@
 title: Explore Upgrade History in Upgrade Console
 description: The Upgrade History module maintains a comprehensive record of all upgrades performed on an instance. This module allows you to access detailed reports for both historical and recent upgrade versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-upgrade-history-explore.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -92,5 +93,5 @@ Copies to review
 Total number of copied records to review whose base records have been upgraded.
 
 </td></tr></tbody>
-</table>See [Upgrade History tool in Upgrade Console](um-upgrade-history-tool.md) for more information.
+</table>See [Upgrade History tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-upgrade-history-tool.md) for more information.
 

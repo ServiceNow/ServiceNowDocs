@@ -2,11 +2,12 @@
 title: Discovery Schedule form reference
 description: The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for when and how the discovery runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-schedule-form.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 11
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Mana
 
 The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for when and how the discovery runs.
 
-For instructions on this procedure, see [Schedule a horizontal discovery](../task/t_CreateADiscoverySchedule.md#).
+For instructions on this procedure, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
 <table id="table_xnx_zrb_5p"><thead><tr><th>
 
@@ -43,13 +44,13 @@ Select one of the following scan types:-   **Configuration items**: Uses Discove
 
 **Note:** An IPv6 via address list scan is enabled on Discovery schedule for Configuration Items.
 
--   **IP addresses**: Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but don’t update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear. The Max range size Shazzam probe property determines the maximum number of IP addresses Shazzam scans. See [Configure Shazzam probe](../task/t_ConfigureTheShazzamProbe.md#) for details.
+-   **IP addresses**: Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but don’t update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear. The Max range size Shazzam probe property determines the maximum number of IP addresses Shazzam scans. See [Configure Shazzam probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ConfigureTheShazzamProbe.md) for details.
 -   **Networks**: Discovers IP networks \(routers and switches\). Results from this search are used to populate the IP Network \[cmdb\_ci\_ip\_network\] table in **Discovery** &gt; **IP Networks** with a list of IP addresses and network masks. Network scans update routers and layer 3 switches in the CMDB.
--   **Service**: Discovers services for the Service Mapping application. See [Schedule a top-down discovery by Service Mapping](../../service-mapping/task/t_CreateDiscoSchedForCITypes.md) for instructions.
--   **Serverless**: Finds CIs without needing to run discovery on a host, or CIs on a proxy host that is already in the CMDB. See [Serverless Discovery](../concept/serverless-discovery.md) for more information.
--   **Cloud application**: Discovers only the cloud resources for the patterns that you specify. See [Discovery for cloud environment](../concept/cloud-discovery-wizard.md) for instructions.
--   **Cloud resources**: Discovers resources for one of the supported [cloud providers](../concept/cloud-discovery-wizard.md). This option only appears when you [run Discovery](../concept/discovery-manager.md#) on a cloud service account. You can’t select it from a new Discovery schedule.
--   **Certificates**. Discovers certificates based on URLs. Selecting this option adds the Certificate Discovery Type field: URL Certificate Discovery. See [Run Certificate Discovery via individual URL scans](../task/run-cert-inventory-mgmt-urls.md) for more information.
+-   **Service**: Discovers services for the Service Mapping application. See [Schedule a top-down discovery by Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_CreateDiscoSchedForCITypes.md) for instructions.
+-   **Serverless**: Finds CIs without needing to run discovery on a host, or CIs on a proxy host that is already in the CMDB. See [Serverless Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/serverless-discovery.md) for more information.
+-   **Cloud application**: Discovers only the cloud resources for the patterns that you specify. See [Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-wizard.md) for instructions.
+-   **Cloud resources**: Discovers resources for one of the supported [cloud providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-discovery-wizard.md). This option only appears when you [run Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-manager.md) on a cloud service account. You can’t select it from a new Discovery schedule.
+-   **Certificates**. Discovers certificates based on URLs. Selecting this option adds the Certificate Discovery Type field: URL Certificate Discovery. See [Run Certificate Discovery via individual URL scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-inventory-mgmt-urls.md) for more information.
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Select the method that Discovery uses to select a MID Server:-   **Auto-Select M
 
 -   **Specific MID Cluster**: Use a preconfigured cluster of MID Servers. Select the cluster. You aren’t required to specify one member of the cluster. The MID Server can’t be part of multiple clusters, such as one that supports load balancing and one that supports failover. You can add any cluster regardless of the application that the MID Servers are assigned to. When you select the cluster, the **Discovery** application is automatically added when it doesn’t exist for the MID Servers in the cluster.
 -   **Specific MID Server**: Use only one MID Server. If that MID Server is part of a cluster, only that MID Server is used. The cluster isn’t used. You can add any MID Server regardless of the application it’s assigned to. The **Discovery** application is automatically added when it isn’t already assigned for the MID Server you select. You can assign a specific MID Server for all types of Discover scans except **Service**.
--   **Use Behavior**: [Use a behavior](../task/create-disco-behavior.md) when a single schedule requires the use of multiple MID Servers to perform any of the following activities:
+-   **Use Behavior**: [Use a behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-disco-behavior.md) when a single schedule requires the use of multiple MID Servers to perform any of the following activities:
     -   Scans requiring multiple Windows credentials.
     -   A schedule that must execute two or more particular protocols \(SNMP, SSH, or WMI\) using more than one MID Server.
     -   Load balancing for large discoveries where a single MID Server would be inadequate.
@@ -73,7 +74,7 @@ Select the method that Discovery uses to select a MID Server:-   **Auto-Select M
 
  **Note:** The discovery schedule enforces domain separation. The MID Servers that are available for selection are limited to the same domain of the user who is configuring the schedule.
 
- See [MID Server selection sequence for Discovery schedules](../task/t_CreateADiscoverySchedule.md#) for additional information.
+ See [MID Server selection sequence for Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for additional information.
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ MID Server
 
 </td><td>
 
-Select the MID Server to use for this schedule. This field is available if MID Server selection method is set to Specific MID Server, or if you discover IP addresses, networks, or web services.To verify that the MID Server you selected is up and validated, look at the [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerDashboard.md).
+Select the MID Server to use for this schedule. This field is available if MID Server selection method is set to Specific MID Server, or if you discover IP addresses, networks, or web services.To verify that the MID Server you selected is up and validated, look at the MID Server dashboard.
 
 </td></tr><tr><td>
 
@@ -129,7 +130,7 @@ Max Idle time
 
 </td><td>
 
-Set a time limit for inactivity during discovery to automatically cancel stalled processes and log the event. A discovery is considered idle only when no input records are being processed and nothing is left in the processing state. Idle time is measured from the most recent change to an ECC Queue record. The configured idle time is fixed at the start of the discovery and won’t reflect any edits until the next run. If no value is entered in this field, this schedule runs until complete or canceled.**Note:** By default, the **Max Idle time** field doesn’t display in the Discovery Schedule form. To include this parameter, open the Discovery Schedules \[discovery\_schedule\] table, add the column, and configure the Max Idle time directly in the table. For information about customizing columns in tables, see [Personalize a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
+Set a time limit for inactivity during discovery to automatically cancel stalled processes and log the event. A discovery is considered idle only when no input records are being processed and nothing is left in the processing state. Idle time is measured from the most recent change to an ECC Queue record. The configured idle time is fixed at the start of the discovery and won’t reflect any edits until the next run. If no value is entered in this field, this schedule runs until complete or canceled.**Note:** By default, the **Max Idle time** field doesn’t display in the Discovery Schedule form. To include this parameter, open the Discovery Schedules \[discovery\_schedule\] table, add the column, and configure the Max Idle time directly in the table. For information about customizing columns in tables, see .
 
 </td></tr><tr id="row_Run893873"><td>
 
@@ -196,7 +197,7 @@ Quick ranges
 
 </td><td>
 
-Define IP addresses and address ranges to scan by entering IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. For more information, see [Create a Quick IP range for a Discovery schedule](discovery-ip-address-configuration.md#).
+Define IP addresses and address ranges to scan by entering IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. For more information, see [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md).
 
 </td></tr><tr><td>
 
@@ -240,7 +241,7 @@ Global IP Exclusion
 
 </td><td>
 
-This related list displays the global IP exclusion records that apply to this schedule. Active global IP exclusions prevent Discovery from scanning the specified IP addresses across all schedules that discover configuration items, IP addresses, or networks. Global IP exclusion records are managed from **Global IP Exclusion** &gt; **IP Exclusion**. For more information, see [Use Global Excludes List for IP addresses and ranges](discovery-ip-address-configuration.md#).
+This related list displays the global IP exclusion records that apply to this schedule. Active global IP exclusions prevent Discovery from scanning the specified IP addresses across all schedules that discover configuration items, IP addresses, or networks. Global IP exclusion records are managed from **Global IP Exclusion** &gt; **IP Exclusion**. For more information, see [Use Global Excludes List for IP addresses and ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-ip-address-configuration.md).
 
 </td></tr><tr><td>
 
@@ -248,7 +249,7 @@ Discovery Attributes
 
 </td><td>
 
-This related list defines the attributes to apply to CIs discovered within this schedule. Use attributes to set CI field values such as location or asset tag at the schedule, range set, or IP address range level. For more information, see [Discovery generic attributes](../concept/disco-generic-attributes.md).
+This related list defines the attributes to apply to CIs discovered within this schedule. Use attributes to set CI field values such as location or asset tag at the schedule, range set, or IP address range level. For more information, see [Discovery generic attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/disco-generic-attributes.md).
 
 </td></tr><tr><td>
 
@@ -259,5 +260,5 @@ Certificate URLs
 This related list displays the URLs that are discovered using this schedule. You can add or delete URLs from this list.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery reference](discovery-references.md)
+</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-references.md)
 

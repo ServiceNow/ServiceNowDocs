@@ -2,6 +2,7 @@
 title: Performance overview
 description: Performance overview details all the KPIs and metrics that help you analyse the benefits of your ITSM implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/performance-overview-ref.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -25,27 +26,27 @@ Performance overview details all the KPIs and metrics that help you analyse the 
 
         Considers both Virtual Agent powered by NLU and LLM \(Now Assist VA\)
 
-        **Note:** To use a different method to determine this KPI, see [Configure Success Dashboard indicators KPIs](../task/config-kpis-sdb.md).
+        **Note:** To use a different method to determine this KPI, see [Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md).
 
-        To update the live agent script include see, [Update the live agent script include](../task/update-live-agent-script-include.md).
+        To update the live agent script include see, [Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md).
 
     -   **ITSM issues solved using NOW Assist VA \(LLM\):** This is a contributing indicator for the **Self-solved using Virtual Agent**. The **Self-solved using QnA** KPI in the ITSM Success Dashboard uses Now Assist and AI search QnA as contributing indicators. The number of times users were able to solve their issues by analysing a summarized response from AI Search. This is determined when users are presented with a AI Search QnA result and do not create a ticket or engage with a human agent in the next 24-hour window.
 
-        To update the live agent script include see, [Update the live agent script include](../task/update-live-agent-script-include.md).
+        To update the live agent script include see, [Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md).
 
     -   **Self-solved using Knowledge:** Number of times users were able to solve their problems by reading knowledge articles. This is determined when users read knowledge article\(s\) and do not create ticket or engages with a human agent in a 24-hour window.
 
-        **Note:** To use a different method to determine this KPI, see [Configure Success Dashboard indicators KPIs](../task/config-kpis-sdb.md).
+        **Note:** To use a different method to determine this KPI, see [Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md).
 
-        To update the live agent script include see, [Update the live agent script include](../task/update-live-agent-script-include.md).
+        To update the live agent script include see, [Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md).
 
     -   **Self-solved using QnA:** Self-solved using the AI Search when a user interacts with a Virtual Agent or on Portal and gets a summarized answer from AI Search. This is determined when users are presented with a AI Search QnA result and do not go on to create ticket or engage with a human agent in a 24-hour window.
 
-        To update the live agent script include see, [Update the live agent script include](../task/update-live-agent-script-include.md).
+        To update the live agent script include see, [Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md).
 
     -   **Self-solved using Proactive Engagement for DEX** The number of digital experience issues **Self-solved using Proactive Engagement for DEX**. This is determined when DEX proactively detects issues and Proactive Engagement helps users self-solve them.
 
-        To know more about the Proactive Engagement see, [Proactive Engagement](../../proactive-engagement/proactive-engagement-landing-page.md).
+        To know more about the Proactive Engagement see, [Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-landing-page.md).
 
     -   **Automated Resolutions:** Number of times the ticket was resolved automatically. In the base system, the indicators contributing to this metric are Incident Auto Resolution and Request Fulfilled Automatically.
 
@@ -53,7 +54,7 @@ Performance overview details all the KPIs and metrics that help you analyse the 
         -   The Request Fulfilled Automatically value is the number of requested items that are fulfilled using automated workflows. When the catalog item uses an automated workflow, the **Fulfillment automation level** field of the catalog item must be set to **Fully-automated** for it to be included in this metric.
         -   **Accounts unlocked using Password Reset apps**: Number of times users were able to unlock their accounts successfully using Password Reset apps.
         -   **Passwords updated using Password Reset apps**: Number of times users were able to update their account passwords using the Password Reset apps.
-        **Note:** To use a different method to determine this KPI or add more sources \(for example, automated catalog workflows\), see [Configure Success Dashboard indicators KPIs](../task/config-kpis-sdb.md).
+        **Note:** To use a different method to determine this KPI or add more sources \(for example, automated catalog workflows\), see [Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md).
 
     -   **Total ticket resolutions:** Number of incidents resolved + Number of requested items closed + Number of Agent interactions not resulting in tickets \(closed\).
 -   **Call deflection:** Calculated from the number of times per day requesters performed the actions, Ticket submissions using Service Catalog, Ticket submissions using Virtual Agent, Self-solved using Virtual Agent and Self-solved using Knowledge without Tier 1 agent intervention. See the formula:
@@ -65,7 +66,7 @@ Performance overview details all the KPIs and metrics that help you analyse the 
     -   **Catalog ticket submissions:** Incidents and requested items submitted using Service Catalog in Service Portal or Now Mobile app.
     -   **VA ticket submissions:** Number of times the ticket was submitted using Virtual Agent. In the base system, this is determined by the `ITSM - Triage & Created` deflection pattern instrumented in the Virtual Agent topic. The topics shipped with ITSM VA Conversations already have these nodes instrumented but must be instrumented in all other topics that create incidents.
 
-        **Note:** If you use a different method to determine this KPI or add more sources \(for example, automated catalog workflows\), you can use the steps described in [Configure Success Dashboard indicators KPIs](../task/config-kpis-sdb.md).
+        **Note:** If you use a different method to determine this KPI or add more sources \(for example, automated catalog workflows\), you can use the steps described in [Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md).
 
     -   **NOW Assist ticket submissions:** Number of times the ticket was submitted using NOW Assist. In the base system, this is determined by the `ITSM - Triage & Created` deflection pattern instrumented in the NOW Assist topic. The topics shipped with NOW Assist Conversations already have these nodes instrumented but must be instrumented in all other topics that create incidents.
     -   **Total tickets submitted:** Incidents created + RITMs created.
@@ -84,8 +85,8 @@ Performance overview details all the KPIs and metrics that help you analyse the 
 
         **Knowledge Articles created using Now Assist** Number of times Now Assist helped the agents in creating Knowledge Article.
 
-    **Note:** If you use a different method to determine this KPI, you can do so using the steps described in [Configure Success Dashboard indicators KPIs](../task/config-kpis-sdb.md).
+    **Note:** If you use a different method to determine this KPI, you can do so using the steps described in [Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md).
 
 
-**Parent Topic:**[ITSM Success Dashboard indicators KPI definitions and formulas](sd-kpi-formulae.md)
+**Parent Topic:**[ITSM Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md)
 

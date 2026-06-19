@@ -2,6 +2,7 @@
 title: Sample portals you can build
 description: A portal is a site where users inside of your organization can find information, submit requests, and complete business tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/portal-example.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -31,5 +32,5 @@ The portal that you create in App Engine Studio includes several default pages. 
 
 **Note:** Unlike Service Portal, the portal that you can create in App Engine Studio is built on the Next Experience UI Framework. You edit the portal by configuring pages and components in UI Builder.
 
-**Parent Topic:**[Add a portal](../task/add-portal.md)
+**Parent Topic:**[Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-portal.md)
 

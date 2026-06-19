@@ -2,6 +2,7 @@
 title: Approve or deny a quorum control request
 description: Approve or deny a quorum control request from Key Management Transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/cloud-encryption/quorum-transactions-approval.html
 release: australia
 product: Cloud Encryption
 classification: cloud-encryption
@@ -34,5 +35,5 @@ Roles required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 3.  Approve or deny the request.
 
 
-**Parent Topic:**[Manage Quorum Control](quorum-ctrl-mgmt.md)
+**Parent Topic:**[Manage Quorum Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/quorum-ctrl-mgmt.md)
 

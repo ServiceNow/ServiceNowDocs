@@ -2,6 +2,7 @@
 title: Create and source a part requirement request on the Field Service Contractor Portal
 description: Create a part requirement request for a work order task that is assigned to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-part.html
 release: australia
 product: Work Order Management
 classification: work-order-management

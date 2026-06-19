@@ -2,6 +2,7 @@
 title: Create a UI action to enable creating knowledge articles from incidents
 description: Create a UI action to add the Knowledge check box to the Incident form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/ui-action-article-incident.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -73,5 +74,5 @@ Role required: admin
     ```
 
 
-**Parent Topic:**[Knowledge article creation from an incident](../concept/article-from-incident.md)
+**Parent Topic:**[Knowledge article creation from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/article-from-incident.md)
 

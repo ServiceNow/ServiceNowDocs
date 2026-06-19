@@ -2,9 +2,12 @@
 title: Activity timer log components
 description: The activity timer log feature is available with the Activity Timer Reporting plugin \(sn\_activity\_timer\_reporting\). This plugin adds user tables, user roles, UIB page properties, a script include, and a scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activity-timer-log-components.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2026-04-22"
+last_updated: "2026-05-05"
 reading_time_minutes: 2
 breadcrumb: [Activity timer log, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -17,52 +20,32 @@ The activity timer log feature is available with the Activity Timer Reporting pl
 
 The activity timer log feature adds the following tables.
 
-<table id="table_ynb_rsw_z3c"><thead><tr><th>
-
-Table
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Time Entry\[sn\_at\_time\_entry\]
-
-</td><td>
-
-Records the time that an agent spends working on case and interaction records. Each start and stop transaction has a time associated with it.
-
-</td></tr><tr><td>
-
-Time Entry Aggregated\[sn\_at\_time\_entry\_aggregated\]
-
-</td><td>
-
-Aggregates the data stored in the Time Entry table. This aggregation records the time spent per case, agent, and record type.
-
-</td></tr></tbody>
-</table>|Field|Description|
+|Table|Description|
 |-----|-----------|
-|Attributes|Shows the attributes for the entry, such as the record state and short description.|
-|Record|Displays the record type and number.|
-|Session|Displays the session ID.|
-|Source| |
-|Table|The table that stores the record in the **Record** field.|
-|Timer running|Records the start and stop times.|
-|Timestamp|The timestamp for the start and stop times.|
-|Transaction|The transaction ID for a start/stop pair.|
-|User|The name or the role of the user who worked on a record.|
+|Time Entry \[sn\_at\_time\_entry\]|Records the time that an agent spends working on case and interaction records. Each start and stop transaction has a time associated with it.|
+|Time Entry Aggregated \[sn\_at\_time\_entry\_aggregated\]|Aggregates the data stored in the Time Entry table. This aggregation records the time spent per case, agent, and record type.|
 
 |Field|Description|
 |-----|-----------|
-|End Time|The time that the agent stopped working on the record.|
-|Record|Displays the record number.|
-|Record Type|Displays the record type, such as case or interaction.|
-|Short Description|The short description of the record.|
-|Start Time|The time that the agent started working on the record.|
-|Total Time Logged|The total time that the user spent working on the record.|
-|User|The name or the role of the user who worked on a record.|
+|Attributes|Attributes for the entry, such as the record state and short description.|
+|Record|Record type and number.|
+|Session|Session ID.|
+|Source| |
+|Table|The table that stores the record in the **Record** field.|
+|Timer running|Start and stop times.|
+|Timestamp|The timestamp for the start and stop times.|
+|Transaction|The transaction ID for a start/stop pair.|
+|User|The name or role of the user who worked on a record.|
+
+|Field|Description|
+|-----|-----------|
+|User|The name or role of the user who worked on a record. This is a reference to the sys\_user table.|
+|Record|Record number.|
+|Record Type|Record type, such as case or interaction.|
+|Short Description|Short description of the record.|
+|Start Time|Time that the agent started working on the record.|
+|End Time|Time that the agent stopped working on the record.|
+|Total Time Logged|Total time that the user spent working on the record.|
 
 ## User roles
 
@@ -73,10 +56,10 @@ The activity timer log feature adds the following user roles:
 
 ## Script include
 
-The **ActivityTimerAggregator** script include:
+The `ActivityTimerAggregator` script include:
 
 -   Runs every 24 hours and records all the transactions from the Timer Entries table.
--   Is invoked by the **Activity Timer Reporting Aggregator** scheduled job.
+-   Is invoked by the `Activity Timer Reporting Aggregator` scheduled job.
 -   For each record, calculates the time between each start and stop on the record.
 
 ## Scheduled job
@@ -97,7 +80,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-activity\_timer
+**activity\_timer**
 
 </td><td>
 
@@ -106,7 +89,7 @@ Enables the activity timer component in the workspace.-   True: Activity timer i
 
 </td></tr><tr><td>
 
-activity\_timer\_custom\_tables
+**activity\_timer\_custom\_tables**
 
 </td><td>
 
@@ -114,7 +97,7 @@ Specifies custom tables for the activity timer log feature.
 
 </td></tr><tr><td>
 
-activity\_timer\_case\_type\_exclusion
+**activity\_timer\_case\_type\_exclusion**
 
 </td><td>
 

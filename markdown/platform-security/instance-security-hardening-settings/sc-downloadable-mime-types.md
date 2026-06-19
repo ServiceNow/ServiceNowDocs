@@ -2,6 +2,7 @@
 title: Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]
 description: Use the glide.ui.attachment.force\_download\_all\_mime\_types property to download MIME types and not to render inline in the browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -87,7 +88,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -108,5 +109,5 @@ Dependencies and prerequisites
 This check is only relevant when **glide.ui.attachment.download\_mime\_types** is set to **false** or doesn’t exist in the System Properties \[sys\_properties\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

@@ -1,19 +1,20 @@
 ---
-title: APIs used for LangGraph connector
-description: Explore the AWS APIs used in AI service Graph Connector for LangGraph.
+title: APIs used for LangGraph
+description: Explore the APIs used in AI Service Graph Connector for LangGraph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/apis-used-for-langgraph-connector.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# APIs used for LangGraph connector
+# APIs used for LangGraph
 
-Explore the AWS APIs used in AI service Graph Connector for LangGraph.
+Explore the APIs used in AI Service Graph Connector for LangGraph.
 
 The following table lists all the LangSmith API endpoints used by the connector.
 

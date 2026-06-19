@@ -2,6 +2,7 @@
 title: Supported browsers for Dependency Views
 description: The latest version or service pack of internet browsers are required to view and manipulate Dependency Views maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/r\_SupportedBrowsersForNGBSM.html
 release: australia
 product: Dependency Views
 classification: dependency-views

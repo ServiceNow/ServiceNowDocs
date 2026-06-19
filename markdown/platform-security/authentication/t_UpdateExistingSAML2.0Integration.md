@@ -2,6 +2,7 @@
 title: Update your existing SAML 2.0 integration
 description: Update your existing SAML 2.0 integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_UpdateExistingSAML2.0Integration.html
 release: australia
 product: Authentication
 classification: authentication
@@ -46,7 +47,7 @@ Test the Update.
 
 ## Procedure
 
-1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) called glide.authenticate.sso.saml2.debug with a value of true.
+1.  Add a system property called glide.authenticate.sso.saml2.debug with a value of true.
 
 2.  Attempt SAML 2.0 login.
 
@@ -56,6 +57,6 @@ Test the Update.
 
 4.  Identify and fix typical login errors.
 
-    For more information, see [Multi-SSO \(SAML 2.0\) errors and fixes](../reference/saml-errors.md).
+    For more information, see [Multi-SSO \(SAML 2.0\) errors and fixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/saml-errors.md).
 
 

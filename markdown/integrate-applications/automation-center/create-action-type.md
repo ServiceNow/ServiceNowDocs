@@ -2,6 +2,7 @@
 title: Create an action type
 description: Create an action type to associate with an action category. Action types are a sub-set of action category. They are used for easier identification based on need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-action-type.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -41,7 +42,7 @@ Role required: sn\_ac.automation\_technical\_user and sn\_ac.automation\_admin
 
 ## What to do next
 
-[Create an action](create-action.md)
+[Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-action.md)
 
-**Parent Topic:**[Creating an action](../concept/creating-action.md)
+**Parent Topic:**[Creating an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-action.md)
 

@@ -2,11 +2,12 @@
 title: Install AI Risk and Compliance
 description: You can install the AI Risk and Compliance application \(sn\_grc\_ai\_gov\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/install-ai-risk-and-compliance.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-08"
 reading_time_minutes: 3
 breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -31,10 +32,10 @@ Some AI capabilities are available only when the required plugins are installed.
 -   AI Control Tower supports governance of both enterprise AI assets and ServiceNow AI assets, while AI Control Tower with Now Assist supports governance of ServiceNow AI assets only.
 -   When AI Control Tower Core \(sn\_ai\_governance\) is used with AI Risk and Compliance in a new IRM deployment, the IRM Standard \(sn\_irm\_std\) plugin is required to make AI intake request forms available. These intake forms are used to submit requests through the Employee Portal for registering AI systems, AI models, and datasets for governance and risk evaluation.
 
-    This requirement applies only to AI intake request forms and does not apply to AI cases, inquiries, or the Anonymous Reporting Center. For more information on applicable requests, see [Request an AI use case](request-ai-system.md), [Request an AI model](request-ai-model.md), and [Request a dataset](request-dataset.md).
+    This requirement applies only to AI intake request forms and does not apply to AI cases, inquiries, or the Anonymous Reporting Center. For more information on applicable requests, see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md), [Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md), and [Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/request-dataset.md).
 
 
-For information about AI Control Tower setup and plugin dependencies, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.md).
+For information about AI Control Tower setup and plugin dependencies, see .
 
 Role required: admin
 
@@ -47,7 +48,7 @@ The following items are installed with AI Risk and Compliance:
 -   Roles
 -   Tables
 
-For more information, see [AI Risk and Compliance reference](../reference/ai-risk-and-compliance-reference.md).
+For more information, see [AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md).
 
 ## Procedure
 

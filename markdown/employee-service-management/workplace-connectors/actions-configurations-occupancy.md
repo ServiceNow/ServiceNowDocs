@@ -2,13 +2,14 @@
 title: Retrieving Action Configurations data
 description: Retrieve Actions from occupancy data provider using Flow Designer Integration Hub. Specify the transform definitions and invoke the Sub flow to retrieve Occupancy data. For example, Metrikus Spoke integration. The occupancy sensor data from the Occupancy data provider is transformed to derive space occupancy data in Workplace Connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/actions-configurations-occupancy.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setup Workplace Connectors for occupancy data, Configure Workplace Connectors, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Retrieving Action Configurations data
@@ -25,7 +26,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Workplace Connectors** &gt; **Administration** &gt; **Action Configurations**.
 
-    ![Actions configuration table showing the Metrikus occupancy action, transform definition, and sub flow.](../images/wsd-action-configurations.png)
+    \[Omitted image "wsd-action-configurations.png"\] Alt text: Actions configuration table showing the Metrikus occupancy action, transform definition, and sub flow.
 
 2.  Select **New**.
 
@@ -45,7 +46,7 @@ Provider
 
 </td><td>
 
-Name of the provider. Select **Metrikus**. For more information, see [Configure sensor data providers](providers-occupancy.md).
+Name of the provider. Select **Metrikus**. For more information, see [Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/providers-occupancy.md).
 
 </td></tr><tr><td>
 
@@ -53,7 +54,7 @@ Action Name
 
 </td><td>
 
-Actions are reusable operations to automate processes. Actions are defined in the Flow designer Metrikus spoke integration. For more information, see[Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/metrikus-spoke.md)Select **Query Space Occupancy**: The script for action configurations checks the workplace space for occupancy status. For example, **Occupied**, **Unoccupied**, **Invalid**, and so on.
+Actions are reusable operations to automate processes. Actions are defined in the Flow designer Metrikus spoke integration. For more information, seeSelect **Query Space Occupancy**: The script for action configurations checks the workplace space for occupancy status. For example, **Occupied**, **Unoccupied**, **Invalid**, and so on.
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Connector Configuration
 
 Option to select a sensor data from the connector configuration table. For example, Occupancy or Badging.Select **Occupancy**.
 
-For more information, see [Connector Configurations](connector-configuration-occupancy.md).
+For more information, see [Connector Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/connector-configuration-occupancy.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ Invoke
 
 </td><td>
 
-Invokes sub flows from the Flow designer for Metrikus spoke integration. For more information, see [Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/metrikus-spoke.md)Select **Subflow**.
+Invokes sub flows from the Flow designer for Metrikus spoke integration. For more information, see Select **Subflow**.
 
 </td></tr><tr><td>
 
@@ -92,12 +93,12 @@ Sub flows consist of properties, inputs or outputs, sequence of actions, and dat
 </td></tr></tbody>
 </table>3.  Select **Submit**.
 
-    The occupancy data from the Actions Configurations table is loaded into the final or target table [Retrieving Space Occupancy Data](space-occupancy-data.md) table.
+    The occupancy data from the Actions Configurations table is loaded into the final or target table [Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/space-occupancy-data.md) table.
 
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](../concept/setup-occupancy-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Previous topic:**[Configure Provider Space Mapping for occupancy data](provider-space-mappings-occupancy.md)
+**Previous topic:**[Configure Provider Space Mapping for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/provider-space-mappings-occupancy.md)
 
-**Next topic:**[Retrieving Space Occupancy Data](space-occupancy-data.md)
+**Next topic:**[Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/space-occupancy-data.md)
 

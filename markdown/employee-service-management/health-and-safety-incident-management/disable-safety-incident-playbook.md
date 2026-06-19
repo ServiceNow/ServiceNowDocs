@@ -2,6 +2,7 @@
 title: Disable the safety incident playbook
 description: If you need to enable a tab-based experience for safety incidents in your instance, configure the property that disables the Report an incident playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/disable-safety-incident-playbook.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -17,7 +18,7 @@ If you need to enable a tab-based experience for safety incidents in your instan
 
 ## Before you begin
 
-Ensure that the application scope is selected as Health and Safety Incident Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Ensure that the application scope is selected as Health and Safety Incident Management. For more information, see Application picker.
 
 Role required: sn\_ohs\_im.admin
 
@@ -40,5 +41,5 @@ The following changes occur when the safety incident playbook is turned off:
     -   Health and Safety actions
 -   Enables the association of multiple injuries and illnesses to a single incident.
 
-**Parent Topic:**[Setting up Health and Safety Incident Management](../concept/setting-up-hs-incident-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
 

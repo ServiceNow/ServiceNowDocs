@@ -2,13 +2,14 @@
 title: Components installed with Workplace Connectors
 description: Several types of components are installed with the installation of the Workplace Connectors application, including user roles and tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/component-workplace-connectors.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Workplace Connectors references, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Workplace Connectors
@@ -83,7 +84,7 @@ Connector Events\[sn\_wsd\_wc\_connector\_events\]
 
 </td><td>
 
-The Connector Events table \(sn\_wsd\_wc\_connector\_events\) loads the badging data shared by badging vendors.The Scheduled Job **Process webhook provider data records** runs every minute to load the badging data from the Connector Events table \(data with State **New**\) to the Employee Attendance Data table. For more information, see [Configure a webhook event](../task/configure-webhook-restapi.md).
+The Connector Events table \(sn\_wsd\_wc\_connector\_events\) loads the badging data shared by badging vendors.The Scheduled Job **Process webhook provider data records** runs every minute to load the badging data from the Connector Events table \(data with State **New**\) to the Employee Attendance Data table. For more information, see [Configure a webhook event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/configure-webhook-restapi.md).
 
 </td></tr><tr><td>
 
@@ -131,7 +132,7 @@ Environmental Data \[sn\_wsd\_wc\_space\_environment\]
 
 </td><td>
 
-Stores data for environmental sensor data \(air and temperature levels for a workplace location\). For more information, see [Configure environmental sensor data for a workplace location](../task/config-connectors-env-sensor.md).
+Stores data for environmental sensor data \(air and temperature levels for a workplace location\). For more information, see [Configure environmental sensor data for a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/config-connectors-env-sensor.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +140,7 @@ Unit of Measure \[sn\_wsd\_wc\_unit\_of\_measure\]
 
 </td><td>
 
-Unit of measure for air, temperature, VOC, and so on. For more information, see [Set up the Units of measure data table for environmental sensors](../task/wsd-enviromental-unit-measure.md).
+Unit of measure for air, temperature, VOC, and so on. For more information, see [Set up the Units of measure data table for environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/wsd-enviromental-unit-measure.md).
 
 </td></tr><tr><td>
 
@@ -147,7 +148,7 @@ Archive Environmental Data \[ar\_sn\_wsd\_wc\_space\_environment\]
 
 </td><td>
 
-Archives environmental data. For more information see [Archive and purge Environmental data](../task/archive-purge-environmental-data.md).
+Archives environmental data. For more information see [Archive and purge Environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/archive-purge-environmental-data.md).
 
 </td></tr><tr><td>
 
@@ -155,20 +156,20 @@ Archive Space Occupancy \[ar\_sn\_wsd\_wc\_space\_occupancy\]
 
 </td><td>
 
-Archives space occpancy data. For more information, see [Archive and Purge space occupancy data](../task/archive-purge-occupancy-data.md).
+Archives space occpancy data. For more information, see [Archive and Purge space occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/archive-purge-occupancy-data.md).
 
 </td></tr></tbody>
 </table>## Scheduled job
 
 Navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**. Search for Workplace Connectors in the Application column.
 
--   **Process webhook provider data records**: Runs every minute to process webhook event provider data records. For more information, see [Configure a webhook event](../task/configure-webhook-restapi.md).
+-   **Process webhook provider data records**: Runs every minute to process webhook event provider data records. For more information, see [Configure a webhook event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/configure-webhook-restapi.md).
 -   **Process provider data records**; Runs every 5 minutes to process provider data records in Workplace Connectors.
--   **Refresh Provider Space Mapping records**: Runs daily runs daily and executes the space filter condition on the Provider Connector configuration table for the active records where the Auto-refresh field is set to True. For more information, see [Provider Connector Configuration](../task/provider-connector-config-occupancy.md).
+-   **Refresh Provider Space Mapping records**: Runs daily runs daily and executes the space filter condition on the Provider Connector configuration table for the active records where the Auto-refresh field is set to True. For more information, see [Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md).
 
-**Parent Topic:**[Workplace Connectors references](../concept/workplace-connectors-references.md)
+**Parent Topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
-**Previous topic:**[Workplace Connectors references](../concept/workplace-connectors-references.md)
+**Previous topic:**[Workplace Connectors references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/workplace-connectors-references.md)
 
-**Next topic:**[Environmental data form for Workplace Connectors](wsd-environmental-data-form-fields.md)
+**Next topic:**[Environmental data form for Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/wsd-environmental-data-form-fields.md)
 

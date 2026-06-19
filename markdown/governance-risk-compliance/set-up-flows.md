@@ -2,6 +2,7 @@
 title: Set up the flows in Workflow Studio
 description: Set up the flows and conditions for Digital resilience incident reporting in Workflow Studio. As administrators of the Operational Resilience application, you can update \(customize\) the flow configurations to meet your organizational requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-flows.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -46,7 +47,7 @@ The Workflow Studio lists the preconfigured flows and conditions for Digital res
     3.  Action task automation on DRI case updates
     4.  Action task automation on regulation updates
     5.  DRI Business Service Trigger For Multiple Regulators
-    ![Digital resilience incident reporting flows. For the text description, refer to the text that precedes this image.](../image/trigger-flows-wf-studio.png)
+    \[Omitted image "trigger-flows-wf-studio.png"\] Alt text: Digital resilience incident reporting flows. For the text description, refer to the text that precedes this image.
 
     **Note:** If the Security Incident Response application is installed in your instance, flows related to security incidents \(SIR\) are listed in the Flows list view.
 
@@ -54,7 +55,7 @@ The Workflow Studio lists the preconfigured flows and conditions for Digital res
 
     A sample condition for the "DRI Business Service Trigger For Multiple Regulators" flow is shown in the example.
 
-    ![Example for modifying the flow conditions. For the text description, refer to the text that precedes this image.](../image/flow-conditions.png)
+    \[Omitted image "flow-conditions.png"\] Alt text: Example for modifying the flow conditions. For the text description, refer to the text that precedes this image.
 
 3.  To publish the flow, choose the flow from the list and select **Publish**.
 

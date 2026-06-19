@@ -2,6 +2,7 @@
 title: Using the Failed Login Manual playbook
 description: Use these steps to learn how you can use the Failed Login Manual playbook in the SIR Analyst Workspace and its capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-failed-login-manual-playbook.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -46,5 +47,5 @@ Role required: sn\_si.admin or sn\_si.manager or sn\_si.analyst
 7.  If there’s any remaining activity or user action required in any of the phases, click the respective phase and perform the action to complete the activity.
 
 
-**Parent Topic:**[Playbook for Failed Login Manual](../concept/playbook-failed-login.md)
+**Parent Topic:**[Playbook for Failed Login Manual](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-failed-login.md)
 

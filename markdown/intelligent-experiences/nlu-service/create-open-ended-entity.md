@@ -2,6 +2,7 @@
 title: Create an open-ended entity
 description: Use an open-ended entity when you want to improve intent prediction accuracy. Open-ended entities help your model focus on the context of the utterances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/create-open-ended-entity.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -58,7 +59,7 @@ In the following example procedure, you create an entity from one of your uttera
 
     For this example, you select a hoodie.
 
-    ![Entity window in the Utterances tab of the Intent details page.](../images/create-open1.png "Entity window")
+    \[Omitted image "create-open1.png"\] Alt text: Entity window in the Utterances tab of the Intent details page.
 
 6.  Select **Create New Entity**
 
@@ -68,13 +69,13 @@ In the following example procedure, you create an entity from one of your uttera
 
     -   **Entity Name**: `merch`
     -   **Type**: Select **Open-Ended**
-    ![Create a new entity window for an open-ended entity.](../images/create-open2.png "Create entity")
+    \[Omitted image "create-open2.png"\] Alt text: Create a new entity window for an open-ended entity.
 
 8.  Select **Save**.
 
     The merch open-ended entity is annotated in the Utterances section of your model's Intent screen. When you point to its name, you can see that it persists as a new entity in the annotation details. This entity is reusable in all other NLU models in your instance.
 
-    ![Entity window with your newly created open-ended entity.](../images/create-open3.png)
+    \[Omitted image "create-open3.png"\] Alt text: Entity window with your newly created open-ended entity.
 
 
 ## What to do next
@@ -87,7 +88,7 @@ For this example, you can test your model with a different merchandise item.
 2.  Enter `I want to order a polo`.
 3.  Select **Go**.
 
-![Utterances tab of the Intent details page with the Try model panel open. Try your model after training it to see if your new entity works.](../images/create-open4.png)
+\[Omitted image "create-open4.png"\] Alt text: Utterances tab of the Intent details page with the Try model panel open. Try your model after training it to see if your new entity works.
 
 The model predicts the intent and shows that it used the merch entity for the a polo value.
 

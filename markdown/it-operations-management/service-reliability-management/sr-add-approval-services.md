@@ -2,6 +2,7 @@
 title: Customize service approval settings in SRM
 description: Add an approval process to your services for governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-add-approval-services.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -50,9 +51,9 @@ Require approval when Service Reliability Management \(SRM\) admins, managers, o
     **Note:** Approvals take two steps. First, the request is approved, which appears in the **Stage** field of the request record. Next, the request remains **Pending** until the request item is approved in the **Request** record.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Activate teams and services in SRM](sr-activate-teams-and-services-in-srm.md)
+**Previous topic:**[Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)
 
-**Next topic:**[Customize team approval settings in SRM](sr-add-approval-teams.md)
+**Next topic:**[Customize team approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-teams.md)
 

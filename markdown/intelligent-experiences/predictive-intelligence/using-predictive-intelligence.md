@@ -2,6 +2,7 @@
 title: Using Predictive Intelligence
 description: Train and use Predictive Intelligence solutions to accomplish various tasks and that integrate with other ServiceNow products, such as Document Intelligence and Task Intelligence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/using-predictive-intelligence.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -26,18 +27,18 @@ Predictive Intelligence is the interface by which you can train models on the Se
 -   Prevent duplicate articles and ideas.
 -   Detect phishing attempts.
 
-For more information about the different types of solutions available, see [Explore Predictive Intelligence](predictive-intelligence.md).
+For more information about the different types of solutions available, see [Explore Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md).
 
 ## Training your ML solutions
 
-Predictive Intelligence enables you to train predictive models and machine-learning solutions that you can apply using data on your instances. The solutions you create use the frameworks to predict, recommend, and organize data. To get started, see [Creating and training solutions](training-ml-solutions.md).
+Predictive Intelligence enables you to train predictive models and machine-learning solutions that you can apply using data on your instances. The solutions you create use the frameworks to predict, recommend, and organize data. To get started, see [Creating and training solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/training-ml-solutions.md).
 
 You can also extend Predictive Intelligence to other processes and applications, such as:
 
--   Incident categorization: Predicts the incident category based on the short description. See [Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/predictive-intelligence-for-incident.md).
--   CSM case assignment: Predicts the case record assignment group based on the short description. See [Predictive Intelligence for case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-intelligence-case-mgmt.md).
+-   Incident categorization: Predicts the incident category based on the short description. See Predictive Intelligence for Incident Management.
+-   CSM case assignment: Predicts the case record assignment group based on the short description. See Predictive Intelligence for case management.
 
-For more information, see [ServiceNow apps and features that use Predictive Intelligence](servicenow-apps-features-use-predictive-intelligence.md).
+For more information, see [ServiceNow apps and features that use Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/servicenow-apps-features-use-predictive-intelligence.md).
 
 ## Testing and monitoring predictions
 
@@ -52,7 +53,7 @@ You can track the coverage and precision of deployed predictive models using the
 |Average Prediction Precision \(last 30 days\)|The percentage of predictions in which the predicted value was the same as the final value of the field when the record closed. Click the precision score to see a breakdown by class.|
 |Daily Prediction Precision|The percentage of records closed on a given day in which the predicted field value was the same as the final value.|
 
-For more information, see [Testing and monitoring predictions](testing-reviewing-ml-solutions.md).
+For more information, see [Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md).
 
 ## Preparing your instance
 
@@ -75,5 +76,5 @@ Predictive Intelligence takes approximately 14 days to implement on a production
 
 In general, non-production environments are where workflows can be tested and formatted before being moved over to the production instance to further train models and test predictions.
 
-For more information about getting started with Predictive Intelligence, see [our guide on how to get started with Predictive Intelligence](../task/install-predictive-intelligence.md#).
+For more information about getting started with Predictive Intelligence, see [our guide on how to get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md).
 

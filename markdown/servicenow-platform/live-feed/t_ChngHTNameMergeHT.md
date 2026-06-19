@@ -2,11 +2,12 @@
 title: Change a hashtag name and merge a hashtag
 description: Over time, users may create many hashtags with similar names, such as competitive, competitor, and competition. To combine hashtags for better searching and filtering, change the names of similar hashtags to a standard name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_ChngHTNameMergeHT.html
 release: australia
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use hashtags in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -46,5 +47,5 @@ Administrators can restrict who can rename hashtags.
     **Note:** If a hashtag is removed from the message, renaming that hashtag does not change the message text.
 
 
-**Parent Topic:**[Use hashtags in Live Feed](../concept/c_UseHashtagsInLiveFeed.md)
+**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 

@@ -2,6 +2,7 @@
 title: Add Text or a Text section with the Rich Content Editor
 description: Use the Rich Content Editor canvas to add Text or a Text section in your content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-rich-content-text.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,8 +22,8 @@ Role required: sn\_cd.content\_manager
 
 Create the page layout using modules or columns.
 
--   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](add-modules-rich-content-editor.md)
--   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](ec-rich-content-canvas.md)
+-   Modules are predefined content layouts comprised of header, paragraph text, and images. See [Add predefined content layouts with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/add-modules-rich-content-editor.md)
+-   Columns are containers that enable you to define a custom layout. See [Add columns with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-rich-content-canvas.md)
 
 ## About this task
 
@@ -203,15 +204,15 @@ Text that appears when a user hovers over the component.
 
 -   \(Optional\) Translate your content.
 
-    Request language translation for your content. For more information, see [Multilingual support in the Content Library](../concept/ec-switch-language.md).
+    Request language translation for your content. For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 
     **Note:** Only translate content after you are done modifying the content. For best results, we do not recommend that you add or remove components or change the formatting after translation.
 
-    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](../concept/ecpro-audience.md)
+    To create rich content that is formatted differently in different languages, duplicate the content and modify the formatting as needed. Then, use Audiences to target the content to users by language. See [Audiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-audience.md)
 
 -   Preview your content from the **Publish** tab.
 
     **Note:** Content Preview is designed to provide a general idea of how your content looks. Content may look different once published due to variations in device resolution, theme difference, or mobile app style configuration.
 
--   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](ec-content-library-publish2.md).
+-   Configure a publish plan to control where the content is delivered, the audience, and the period of time it is available: [Create a publish plan for your content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-content-library-publish2.md).
 

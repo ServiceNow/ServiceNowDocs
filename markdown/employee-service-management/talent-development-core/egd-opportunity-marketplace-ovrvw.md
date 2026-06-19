@@ -2,6 +2,7 @@
 title: Opportunity Marketplace overview
 description: The Opportunity Marketplace is a single, unified space where individuals and organizations can share opportunities that are discoverable by employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-opportunity-marketplace-ovrvw.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -169,7 +170,7 @@ Shows recommendations based on your top skills. Internal job listings show the j
 
 ## Hiring Core
 
-Hiring Core provides a repository to store information for your hiring requirements. Activate the Hiring Core plugin \(app-hiring-core\) to start using it. For more information on the hiring core tables, see [Components installed with Talent Development Core](../reference/egd-components-roles-tables.md).
+Hiring Core provides a repository to store information for your hiring requirements. Activate the Hiring Core plugin \(app-hiring-core\) to start using it. For more information on the hiring core tables, see [Components installed with Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-components-roles-tables.md).
 
 ## AI search
 
@@ -186,15 +187,15 @@ Employees and opportunity owners experience the benefit of generating more sophi
 
     The search bar that appears on the global header in the Employee Center portal. The global header is the first row in the Employee Center portal. This search bar is accessible from any page in the portal excluding the home page.
 
-    ![Global header in the Employee Center](../../employee-center/images/global-header-menus.png "Global header in the Employee Center")
+    \[Omitted image "global-header-menus.png"\] Alt text: Global header in the Employee Center
 
 
 For more information on AI search and Zing search features, refer to the following topics to help your organization determine which search engine to implement and use:
 
--   [Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-ais.md)
--   [Features of Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/features-zing.md)
+-   
+-   
 
-For more information on AI search and how to enable it, refer to [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
+For more information on AI search and how to enable it, refer to .
 
-**Parent Topic:**[Exploring Talent Development Core](egd-explore.md)
+**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-explore.md)
 

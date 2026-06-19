@@ -1,20 +1,21 @@
 ---
 title: Configure data extraction modes
-description: Configure the extraction modes for use cases to define how Document Intelligence extracts fields from documents.
+description: Configure Document Intelligence extraction modes for invoice processing use cases to define how fields are extracted from invoice documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/set-up-extraction-modes-di.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Data extraction]
+keywords: [Data extraction, APO, Accounts Payable Operations, AI automation, AP case]
 breadcrumb: [Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\), Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure data extraction modes
 
-Configure the extraction modes for use cases to define how Document Intelligence extracts fields from documents.
+Configure Document Intelligence extraction modes for invoice processing use cases to define how fields are extracted from invoice documents.
 
 ## Before you begin
 
@@ -26,9 +27,9 @@ Role required: sn\_docintel.manager
 
 2.  In the workflow group, select &gt; **Finance and Supply Chain** &gt; **Invoice data extraction** to view the skills for the APO features.
 
-3.  Select the settings ![docintel settings](../image/icon-docintel-settings-gear.png) icon.
+3.  Select the settings \[Omitted image "icon-docintel-settings-gear.png"\] Alt text: docintel settings icon.
 
-4.  Select the extraction mode for the use case**Accounts Payable Operations**.![Extraction mode](../image/settings-na.png)
+4.  Select the extraction mode for the use case**Accounts Payable Operations**.\[Omitted image "settings-na.png"\] Alt text: Extraction mode
 
 5.  Adjust the DocIntel full automation mode.
 

@@ -2,6 +2,7 @@
 title: Use multiple repositories structure with Terraform Connector app
 description: You can now discover multiple Terraform configurations from one repository, at any folder level with Terraform Enterprise Config Provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/use-multiple-repositories-structure-with-terraform-connector.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +20,7 @@ You can now discover multiple Terraform configurations from one repository, at a
 
 Role required: admin
 
-Perform the [Run the IaC Discovery](discover-terraform-config-installables-vcs-workspaces.md) steps and specify what repository, branches and folder paths have to be considered for discovering Terraform configurations with these steps.
+Perform the [Run the IaC Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/discover-terraform-config-installables-vcs-workspaces.md) steps and specify what repository, branches and folder paths have to be considered for discovering Terraform configurations with these steps.
 
 ## Procedure
 

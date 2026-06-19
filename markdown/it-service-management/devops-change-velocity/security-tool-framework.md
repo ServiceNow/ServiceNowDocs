@@ -2,6 +2,7 @@
 title: Security scan results
 description: Security scan results display scan details from security scans configured on your GitHub Actions, Jenkins, Azure DevOps, GitLab, or Harness pipelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/security-tool-framework.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -17,7 +18,7 @@ Security scan results display scan details from security scans configured on you
 
 You can configure security scans in your GitHub Actions, Jenkins, Azure DevOps, GitLab, and Harness pipelines to retrieve the scan results in DevOps Change Velocity. Security inbound events will be created in ServiceNow from the corresponding pipeline run that are then processed to store the scan results. You can view the scan results for each scan that was part of your build or release pipeline executions.
 
-**Note:** If you want to configure Veracode for the GitLab tool, you can either use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](../task/configure-security-tool-for-gitlab.md) topic.
+**Note:** If you want to configure Veracode for the GitLab tool, you can either use the generic Docker container image to add the Veracode security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
 
 The retrieved scan summaries are stored in the following tables:
 
@@ -40,5 +41,5 @@ The retrieved scan summaries are stored in the following tables:
 |Severity|Severity of the flaws in the scan report.|
 |Count|Number of flaws in the category for a severity.|
 
-**Parent Topic:**[Veracode integration with DevOps Change Velocity](../concept/veracode-integration-with-devops-change-velocity.md)
+**Parent Topic:**[Veracode integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/veracode-integration-with-devops-change-velocity.md)
 

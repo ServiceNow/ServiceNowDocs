@@ -2,7 +2,10 @@
 title: Associate service offerings with sold products
 description: Associate a service offering with a sold product giving customer service agents visibility into sold products and their service offerings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/asssociate-service-offering-sold-prod.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -35,5 +38,5 @@ Ensure that the Customer Service with Service Portfolio Management \(SPM\) plugi
 **Related topics**  
 
 
-[Create a service offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/create-or-mod-SPM2-service-offerings.md)
+[bundle-itsm.create-or-mod-SPM2-service-offerings]
 

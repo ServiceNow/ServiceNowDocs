@@ -1,7 +1,8 @@
 ---
 title: Adding comments to assessments
-description: Comments can be added to an assessment at any time by the owner or contributors, regardless of its current state. This feature enables for clarification on questions or other aspects of the assessment.
+description: Add comments and work notes to an assessment to clarify questions or other aspects of the assessment. Owners, contributors, readers, and administrators can add comments while the assessment is active. After the assessment is cancelled, existing comments and work notes remain visible but read-only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -13,11 +14,16 @@ breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance
 
 # Adding comments to assessments
 
-Comments can be added to an assessment at any time by the owner or contributors, regardless of its current state. This feature enables for clarification on questions or other aspects of the assessment.
+Add comments and work notes to an assessment to clarify questions or other aspects of the assessment. Owners, contributors, readers, and administrators can add comments while the assessment is active. After the assessment is cancelled, existing comments and work notes remain visible but read-only.
 
 ## Before you begin
 
-Role required: sn\_smart\_asmt.actor
+-   To post a work note, your user account must also have one of the roles configured in the **Worknotes roles** field on the template category.
+-   Role required: sn\_smart\_asmt.actor, sn\_smart\_asmt.assessment\_admin, or sn\_smart\_asmt.assessment\_reader.
+
+## About this task
+
+**Note:** This task describes how to add comments at the assessment level. To comment on a specific question instead, see [Add a comment or work note to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.md).
 
 ## Procedure
 
@@ -26,12 +32,12 @@ Role required: sn\_smart\_asmt.actor
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon ![](../image/list-icon.png).
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
     3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
     4.  The smart assessments list is displayed.
 2.  Select the assessments in which you want to add a comment.
 
-3.  From the contextual sidebar, select the **Comment** icon ![](../image/adding-comments.png).
+3.  From the contextual sidebar, select the **Comment** icon \[Omitted image "adding-comments.png"\] Alt text:.
 
 4.  Provide your comment in the **Comment** field.
 

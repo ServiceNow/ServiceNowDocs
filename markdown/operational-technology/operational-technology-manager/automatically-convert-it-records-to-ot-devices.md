@@ -2,6 +2,7 @@
 title: Automatically convert your IT records to OT devices
 description: Create a scheduled job that automatically converts your IT hardware to Operational Technology \(OT\) devices by using the Bulk Update Ruleset for Reassigning IT to OT feature. This scheduled job adds OT entity details to all the IT hardware that you want to convert at once.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/automatically-convert-it-records-to-ot-devices.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -32,7 +33,7 @@ You may have configuration items \(CIs\) classed as IT hardware that you want to
 -   Use the **Preview** button to verify the records selected for further review in step 4.
 -   Verify the data in the **OT Entity Default Configuration** tab in step 5. The OT entity records are created using these default values.
 
-You can also manually convert the IT hardware to the OT devices. For more information, see [Convert IT hardware to OT devices in a bulk edit](bulk-edit-to-convert-it-records-into-ot-records.md).
+You can also manually convert the IT hardware to the OT devices. For more information, see [Convert IT hardware to OT devices in a bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/bulk-edit-to-convert-it-records-into-ot-records.md).
 
 ## Procedure
 
@@ -44,7 +45,7 @@ You can also manually convert the IT hardware to the OT devices. For more inform
 
     For example, if you want to add the OT entity details for all computers that are imported into the system that have a prefix of COMP, select the source table as **cmdb\_ci\_computer** and then add the filter criteria as **\[Name\] \[starts with\] \[COMP\]**, **\[Class\] \[is\] \[Computer\]**, and **\[OT device details\] \[is empty\]**.
 
-    You can also use CMDB groups to group IT CIs based on additional information, such as Software Installed, so that you can convert them to OT devices. For more information, see [Use CMDB groups to add OT context to IT CIs](use-cmdb-groups-it-ot-conversion.md).
+    You can also use CMDB groups to group IT CIs based on additional information, such as Software Installed, so that you can convert them to OT devices. For more information, see [Use CMDB groups to add OT context to IT CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/use-cmdb-groups-it-ot-conversion.md).
 
     **Note:** If you're using a CMDB group, the **Filter Criteria - OT Devices** tab shown in this step isn't visible.
 
@@ -126,5 +127,5 @@ Top-level parent entity, or industrial site, where the device is located or assi
 10. Select **Proceed**.
 
 
-**Parent Topic:**[Using the Operational Technology Manager](../concept/using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

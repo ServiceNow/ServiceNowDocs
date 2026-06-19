@@ -2,6 +2,7 @@
 title: CSDM data workflow and business model views
 description: The CSDM model offers a framework for evaluating and enhancing an organization's reporting and resilience environment, applicable to various business model views. ServiceNow products are CSDM aware, and their Configuration Management Database \(CMDB\) data is organized according to CSDM guidelines, leveraging this structure for improved functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/business-model-views-and-workflow.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -94,7 +95,7 @@ By applying the CSDM model to different business model views, organizations can 
 
 This flexible approach, along with the use of Main node configurations, enables organizations to customize their CSDM implementation to meet their specific business needs, ensuring a robust and effective control environment.
 
-For information on setting up the Main node configurations, see [Main node configurations: A component of the Data Relationships Framework](main-node-relationship-fw.md).
+For information on setting up the Main node configurations, see [Main node configurations: A component of the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-relationship-fw.md).
 
-For information on gathering Operational Resilience data aligned with the CSDM model, see [Gathering data aligned with the CSDM setup](using-csdm-v5.md) and [Landing page and dashboard views](../../grc-operational-res-ws/concept/setup-homepage.md).
+For information on gathering Operational Resilience data aligned with the CSDM model, see [Gathering data aligned with the CSDM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-csdm-v5.md) and [Landing page and dashboard views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-homepage.md).
 

@@ -2,6 +2,7 @@
 title: Remove remember me
 description: Use the glide.ui.forgetme property to remove the Remember Me check box from the login page to prevent login information from being cached.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-remove-remember-me.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Data protection](sc-data-protection.md)
+[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 
 </td></tr><tr><td>
 
@@ -112,7 +113,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+</table>To learn more about adding or creating a system property, see 
 
-**Parent Topic:**[Data protection](sc-data-protection.md)
+**Parent Topic:**[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 

@@ -2,6 +2,7 @@
 title: Use the Typo Squatted Domain playbook
 description: Use this playbook to investigate misspelled domains and collaborating with the organization’s legal department for take-downs. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Typo Squatted Domain playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-typo-squatted-domain.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -49,5 +50,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 8.  In Action 9, a response task is created for you to complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for Typo Squatted Domain](../concept/playbook-typo-squatted-domain.md)
+**Parent Topic:**[Playbook for Typo Squatted Domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-typo-squatted-domain.md)
 

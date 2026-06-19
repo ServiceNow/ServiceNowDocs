@@ -2,6 +2,7 @@
 title: Configuring access to CI data on your AWS account
 description: To ensure secure and reliable communications, the Discovery process communicates with your cloud provider accounts and cloud resources through one or more MID Servers. You can set up the MID Servers on your network or in one of your cloud networks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-midserver-config-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -23,7 +24,7 @@ AWS: There must be an internal network connection between the MID Servers and th
 
 ## Detailed instructions
 
-See [Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-aws-service-accounts.md).
+See .
 
 ## MID Server settings for Cloud Cost Management
 
@@ -69,14 +70,14 @@ The **ALL** setting includes all required applications and capabilities. Alterna
 </td></tr></tbody>
 </table>## Using a proxy server
 
-You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for your Cloud Cost Management MID Server](aws-mid-proxy-cloudin.md).
+You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for your Cloud Cost Management MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/aws-mid-proxy-cloudin.md).
 
 **Related topics**  
 
 
-[MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
+[bundle-platcap.c_MIDServerConfiguration]
 
-[Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md)
+[bundle-platcap.mid-server-install-prereqs]
 
-[Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md)
+[bundle-platcap.t_InstallAMIDServerOnLinux]
 

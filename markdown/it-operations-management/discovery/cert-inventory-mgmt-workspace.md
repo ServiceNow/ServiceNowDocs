@@ -2,11 +2,12 @@
 title: Certificate Management Workspace
 description: The Certificate Management workspace provides a unified solution for managing organizational . It strengthens security, ensures compliance, and streamlines the digital certificate life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-inventory-mgmt-workspace.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Exploring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -25,7 +26,7 @@ The Certificate Management workspace provides a unified solution for managing or
 
 To open the workspace, navigate to **Workspaces** &gt; **Certificate Management Workspace**.
 
-![](../image/cert-mgmt-workspace.png "Certificate Management workspace")
+\[Omitted image "cert-mgmt-workspace.png"\] Alt text: Certificate Management workspace Inventory page
 
 The Certificate Management Workspace has four main sections:
 

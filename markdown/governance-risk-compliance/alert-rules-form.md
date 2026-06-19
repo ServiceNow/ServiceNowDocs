@@ -2,6 +2,7 @@
 title: Alert Rules form
 description: Use the Alert Rules form in BCM UIB Workspace to add details about the alert rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/alert-rules-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -91,7 +92,7 @@ Advanced
 
 Option for enabling advanced filter rules with a condition script for the alert rule. Use the advanced condition script as shown in the example.
 
-![Condition script.](../image/alert-rule-create-condition.png)Enabling ECMAScript 2021 \(ES12\) mode allows you to use the latest JavaScript features supported in the script. Disabling it restricts you to the features supported by the application's default JavaScript mode.
+\[Omitted image "alert-rule-create-condition.png"\] Alt text: Condition script.Enabling ECMAScript 2021 \(ES12\) mode allows you to use the latest JavaScript features supported in the script. Disabling it restricts you to the features supported by the application's default JavaScript mode.
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ Feed Condition
 
 Conditions to filter alerts based on the set rule. Use these filter conditions to set your rules for a feed alert. Setting filter conditions help you to filter those alerts that are critical to your business locations from the thousands of feeds that come from the feed resources you have subscribed. Business locations can be corporate offices, employee locations, datacenters, suppliers, and others.
 
-![Setting up filter for feed condition](../image/AlertTriggerCondition.png "Feed conditions")
+\[Omitted image "AlertTriggerCondition.png"\] Alt text: Setting up filter for feed condition
 
 </td></tr><tr><td>
 
@@ -172,5 +173,5 @@ Advanced Condition Script
 Configuration for Advanced Condition Script. This field appears if the **Advanced** option is selected. Enter a script to filter feeds based on a criteria, for example, active alerts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure alert rules](../task/conf-alert-rule-uib-ws.md)
+</table>**Parent Topic:**[Configure alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-alert-rule-uib-ws.md)
 

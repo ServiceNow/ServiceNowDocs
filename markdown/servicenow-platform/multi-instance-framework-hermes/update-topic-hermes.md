@@ -2,6 +2,7 @@
 title: Update a topic in Hermes
 description: Update a Kafka topic in Hermes by modifying the topic record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/update-topic-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -44,5 +45,5 @@ The topic record and the Kafka topic in the Hermes Kafka cluster are updated.
 
 If an error occurs when updating the partition count, you can synchronize the topic's partition count across Hermes Kafka clusters by selecting **Synchronize Partition Count**.
 
-**Parent Topic:**[Managing topics in Hermes](../concept/managing-topics-hermes.md)
+**Parent Topic:**[Managing topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-topics-hermes.md)
 

@@ -2,6 +2,7 @@
 title: Optimize distribution of agents to MID Servers
 description: Optimize the distribution of agents by allowing redistribution from one MID Server to another. Agents will always be connected to the MID Server with the fastest response time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-redistribute-agents-mid.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -45,5 +46,5 @@ Only validated MID Servers can accept connections from agents.
     The values in the **Number of agents** column for any affected MID Server will show a change if any agents were redistributed.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](../concept/acc-server-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

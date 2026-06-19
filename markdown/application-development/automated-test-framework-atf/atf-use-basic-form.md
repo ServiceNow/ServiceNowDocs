@@ -2,6 +2,7 @@
 title: Automated Test Framework use case: test basic form operations
 description: This use case illustrates testing basic form operations with the Automated Test Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-use-basic-form.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -21,28 +22,28 @@ Role required: atf\_test\_admin
 
 ## About this task
 
-![Test steps](../image/atf-use-cat-task-steps.png "Steps in test")
+\[Omitted image "atf-use-cat-task-steps.png"\] Alt text: Test steps
 
 ## Procedure
 
 1.  Impersonate a user with the permissions needed to perform these steps, in this example ATF.User.
 
-    ![Impersonate user test step](../image/atf-use-bf-impersonate.png "Test step 1 - Impersonate")
+    \[Omitted image "atf-use-bf-impersonate.png"\] Alt text: Impersonate user test step
 
 2.  Open a form, in this example a Catalog Task form.
 
-    ![Form for Open a New Form using the Catalog Task form](../image/atf-use-bf-open-form.png "Test step 2 - Open a new Form")
+    \[Omitted image "atf-use-bf-open-form.png"\] Alt text: Form for Open a New Form using the Catalog Task form
 
 3.  On the open form, set field values, including for any mandatory fields.
 
     This example sets field values for **Assigned to**, **Short description**, and **Description**.
 
-    ![Form for Set Field Values](../image/atf-use-cat-task-field-values.png "Test step 3 - Set Field Values")
+    \[Omitted image "atf-use-cat-task-field-values.png"\] Alt text: Form for Set Field Values
 
 4.  Submit the open form.
 
-    ![Form for Submitting a Form](../image/atf-use-cat-task-submit.png "Test Step 4 - Submit a Form")
+    \[Omitted image "atf-use-cat-task-submit.png"\] Alt text: Form for Submitting a Form
 
 
-**Parent Topic:**[Automated Test Framework use case examples](../concept/atf-use-cases.md)
+**Parent Topic:**[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-use-cases.md)
 

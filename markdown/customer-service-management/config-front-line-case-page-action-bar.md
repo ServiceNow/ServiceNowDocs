@@ -2,7 +2,10 @@
 title: Configure the Front-line case page action bar
 description: Configure the action bar on the Front-line case page to include actions from other plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-front-line-case-page-action-bar.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2

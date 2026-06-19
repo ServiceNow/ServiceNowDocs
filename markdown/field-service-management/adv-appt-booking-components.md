@@ -2,7 +2,10 @@
 title: Advanced appointment booking components
 description: The roles, properties, and tables for the advanced appointment booking feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/adv-appt-booking-components.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -79,5 +82,5 @@ Appointment Schedule Override​\[sn\_apptmnt\_booking\_schedule\_override\]
 Stores override schedule changes. ​
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Appointment booking components](appointment-booking-components.md)
+</table>**Parent Topic:**[Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking-components.md)
 

@@ -2,6 +2,7 @@
 title: Data privacy \(Classic\)
 description: Data privacy \(Classic\) is available as a family release. The last family updates were released in the Tokyo launch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/data-privacy-classic.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic

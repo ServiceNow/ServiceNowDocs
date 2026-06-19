@@ -2,6 +2,7 @@
 title: Set safe content security policy for SVG files
 description: The com.glide.csp.self\_script\_src\_svg property adds the script-src none directive to the HTTP Content-Security-Policy header when Scalable Vector Graphics \(SVGs\) are accessed through the Translation Memory Index \(IIX\) file extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-set-safe-content-security-policy-for-svg-files.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Functional impact
 This property prevents scalable vector graphics \(SVG\) files from accessing external scripts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

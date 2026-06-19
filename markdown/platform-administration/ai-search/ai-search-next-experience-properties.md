@@ -2,6 +2,7 @@
 title: AI Search for Next Experience properties
 description: A system property allows you to control whether facets are shown when no source is selected in global search and workspace search results pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/ai-search-next-experience-properties.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -41,5 +42,5 @@ glide.ui.ais.show\_all\_facets
 -   Location: System Property \[sys\_properties\] table \(record not present by default\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search for Next Experience reference](reference-ais-next-experience-app.md)
+</table>**Parent Topic:**[AI Search for Next Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais-next-experience-app.md)
 

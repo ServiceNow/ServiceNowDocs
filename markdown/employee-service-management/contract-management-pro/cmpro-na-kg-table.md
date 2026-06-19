@@ -2,6 +2,7 @@
 title: Configure conversational search tables
 description: Use Knowledge graph tags to identify which tables should be used for answering natural language questions in conversational search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-kg-table.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,11 +26,11 @@ Role required: admin
 
 2.  Select **Conversational contracts search** knowledge tag.
 
-3.  Select the Unlock tables \(![Unlock tables icon](../../workplace-connectors/images/wsd-unlock-connectors-list-icon.png)\) icon.
+3.  Select the Unlock tables \(\[Omitted image "wsd-unlock-connectors-list-icon.png"\] Alt text: Unlock tables icon\) icon.
 
-4.  Select the Lookup using list \(![Lookup using list icon](../../legal-request-management/image/lookup-using-list.png)\) icon and add tables that should be used in conversational search.
+4.  Select the Lookup using list \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\) icon and add tables that should be used in conversational search.
 
-    ![Configure tables to be considered for conversational search](../image/cmpro-na-converse-add-tables.png)
+    \[Omitted image "cmpro-na-converse-add-tables.png"\] Alt text: Configure tables to be considered for conversational search
 
 5.  Select **Update**.
 

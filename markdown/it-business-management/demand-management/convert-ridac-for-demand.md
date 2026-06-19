@@ -2,6 +2,7 @@
 title: Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Change\) record to another for a demand
 description: Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order to retain the record information instead of having to create a record manually and to track the issue more easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/convert-ridac-for-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -43,7 +44,7 @@ You can also view the consolidated list of all the converted RIDAC records using
 
 6.  Modify the text in the **Short description** field, which is copied from the parent record.
 
-7.  Change the default assignment copied from the parent record in the **Assigned to** field by selecting the lookup icon ![](../image/assigned-to-lookup-icon.png) and selecting a different user.
+7.  Change the default assignment copied from the parent record in the **Assigned to** field by selecting the lookup icon \[Omitted image "assigned-to-lookup-icon.png"\] Alt text: and selecting a different user.
 
 8.  If you want to close the parent RIDAC record on creation of the new record, select the close parent record option.
 
@@ -52,5 +53,5 @@ You can also view the consolidated list of all the converted RIDAC records using
 9.  Select **OK**.
 
 
-**Parent Topic:**[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](../concept/ridac-entries-for-demand.md)
+**Parent Topic:**[RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/ridac-entries-for-demand.md)
 

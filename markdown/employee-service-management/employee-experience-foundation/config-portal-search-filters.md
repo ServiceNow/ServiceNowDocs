@@ -2,6 +2,7 @@
 title: Configure topic search filter
 description: Customize search experiences for different portals by configuring the search application and filters.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-portal-search-filters.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

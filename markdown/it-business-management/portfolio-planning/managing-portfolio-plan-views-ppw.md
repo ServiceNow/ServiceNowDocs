@@ -2,11 +2,12 @@
 title: Managing portfolio plan views in Portfolio Planning
 description: Portfolio managers can create customized views for their portfolio plans by applying personalization settings such as column selection, grouping, and filtering. Portfolio owners or editors can share these personalized views with stakeholders to enable easier collaboration on the portfolio plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/managing-portfolio-plan-views-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -25,12 +26,12 @@ Portfolio managers can create personalized views as needed by applying settings 
 -   Switch between shared and private views as needed.
 -   Each view saves your display preferences across the Prioritization, Roadmap, Capacity, and Financials tabs.
 
--   **[Create a portfolio plan view](../task/create-portfolio-plan-view-ppw.md)**  
+-   **[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/create-portfolio-plan-view-ppw.md)**  
 Create a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Edit a portfolio plan view](../task/edit-portfolio-plan-view-ppw.md)**  
+-   **[Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/edit-portfolio-plan-view-ppw.md)**  
 Edit a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
--   **[Delete a portfolio plan view](../task/delete-portfolio-plan-view-ppw.md)**  
+-   **[Delete a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/delete-portfolio-plan-view-ppw.md)**  
 Delete a customized portfolio plan view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 
-**Parent Topic:**[Portfolio Planning](portfolio-planning-app-landing-page.md)
+**Parent Topic:**[Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/portfolio-planning-app-landing-page.md)
 

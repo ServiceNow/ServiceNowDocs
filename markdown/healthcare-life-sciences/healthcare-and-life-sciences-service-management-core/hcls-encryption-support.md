@@ -2,6 +2,7 @@
 title: Encryption options in Healthcare and Life Sciences Service Management Core
 description: Healthcare and Life Sciences Service Management Core provides encryption support to secure sensitive information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-encryption-support.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -25,7 +26,7 @@ Field Encryption Enterprise provides an enhanced encryption capability compared 
 
 When as an administrator, you install the Healthcare and Life Sciences Service Management Core application, the crypto modules and encryption configurations to encrypt sensitive fields along with the KMF are also installed automatically. For managing and auditing cryptographic operations on your ServiceNow instance, as an administrator, you can choose to optionally activate the Field Encryption Enterprise plugin \(com.glide.now.platform.encryption\).
 
-For more information about obtaining Field Encryption Enterprise, see [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md). For more information about selecting the parent crypto module, see [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/create-cryptographic-module.md).
+For more information about obtaining Field Encryption Enterprise, see . For more information about selecting the parent crypto module, see Create a cryptographic module.
 
 For more information on Field Encryption Starter and Field Encryption Enterprise, see .
 
@@ -718,5 +719,5 @@ sn\_hcls\_procedure
 performed\_date\_time
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](../reference/hcls-serv-mgmt-core-reference.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core-reference.md)
 

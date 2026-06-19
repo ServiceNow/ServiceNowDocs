@@ -2,6 +2,7 @@
 title: Wrap up codes
 description: Define the wrap up codes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/wrap-up-codes.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

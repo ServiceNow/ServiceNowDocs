@@ -2,6 +2,7 @@
 title: Data Discovery job results
 description: The Data Discovery Findings page shows details on the data found by a job. You can use the Findings page to review the results of a job and begin classifying data.Classify data in Data Discovery directly from a job's results page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/data-discovery-findings.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -28,17 +29,17 @@ The Data Discovery Findings page displays the following details after a complete
 |Data Discovery Job|Job used on the target table|
 |Status|Status of the entry|
 
-After you run a Data Discovery job, the results have a status of New. If no action is necessary, you can leave the data alone, which automatically sets the status to Ignored. Otherwise, you can classify the data, such as by creating user-defined data classifications, to prepare for data anonymization using the [Data Classification](data-classification.md) tool.
+After you run a Data Discovery job, the results have a status of New. If no action is necessary, you can leave the data alone, which automatically sets the status to Ignored. Otherwise, you can classify the data, such as by creating user-defined data classifications, to prepare for data anonymization using the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md) tool.
 
 ## Granular Findings
 
-Users may select the **Track Granular Findings** action to use the [Granular Findings](granular-findings.md) page to take action on specific discovered records. See [Granular Findings](granular-findings.md) for more information.
+Users may select the **Track Granular Findings** action to use the [Granular Findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/granular-findings.md) page to take action on specific discovered records. See [Granular Findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/granular-findings.md) for more information.
 
 ## Available Protections
 
-Select the **Available Protections** button to review an entries control service, status, notes, and last check in. As of Xanadu this feature supports only [Field Encryption](../../encryption/concept/field-encryption.md).
+Select the **Available Protections** button to review an entries control service, status, notes, and last check in. As of Xanadu this feature supports only [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/field-encryption.md).
 
-Protecton services can also be accessed from the Dashboard. For more information on the dashboard see, [Data Discovery](data-discovery-landing.md).
+Protecton services can also be accessed from the Dashboard. For more information on the dashboard see, [Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-landing.md).
 
 ## Consolidate findings
 

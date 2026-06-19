@@ -2,6 +2,7 @@
 title: User roles and personas in ITSM Mobile Agent
 description: Learn about the various user roles and persona used to log in to ITSM Mobile Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/user-roles-and-persona.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

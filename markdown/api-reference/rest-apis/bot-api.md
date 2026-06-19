@@ -2,6 +2,7 @@
 title: Virtual Agent Bot Integration API
 description: The Virtual Agent Bot Integration API provides endpoints that allow users to integrate any chat interface or a bot ecosystem with the ServiceNow Virtual Agent and/or Live Agent.Sends a specified message, attachment, or URL to a specified secondary ServiceNow Virtual Agent \(VA\) bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/bot-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,9 +18,9 @@ The Virtual Agent Bot Integration API provides endpoints that allow users to int
 
 This API is built on the conversational custom chat integration framework provided with Virtual Agent and operates in the `sn_va_as_service` namespace.
 
-For additional information on installing and configuring the Virtual Agent Bot Integration API, see [Using Virtual Agent with a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-agent-chat.md).
+For additional information on installing and configuring the Virtual Agent Bot Integration API, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## VA Bot Integration - POST /sn\_va\_as\_service/bot/integration
 
@@ -61,20 +62,20 @@ action
 
 Action that the VA should take.Valid values:
 
--   [AGENT](bot-api.md#vabot-ex-agent): Switches the conversation from VA to Live Agent.
--   [CREATE\_CONVERSATION](bot-api.md#vabot-ex-createconvo): Creates a chat interaction.
--   [END\_CONVERSATION](bot-api.md#vabot-ex-faultconvo): Ends the chat conversation. The **message.text** parameter should be empty when using this action.
--   [FAULT\_CONVERSATION](bot-api.md#vabot-ex-faultconvo): Faults a conversation. When setting a FAULT\_CONVERSATION action, provide a description for the **cause** parameter.
--   [SEND\_HISTORY](bot-api.md#vabot-ex-sendhist): Updates only the chat history. The chat history can also be sent using standard message processing with the **history** parameter.
+-   [AGENT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Switches the conversation from VA to Live Agent.
+-   [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Creates a chat interaction.
+-   [END\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Ends the chat conversation. The **message.text** parameter should be empty when using this action.
+-   [FAULT\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Faults a conversation. When setting a FAULT\_CONVERSATION action, provide a description for the **cause** parameter.
+-   [SEND\_HISTORY](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Updates only the chat history. The chat history can also be sent using standard message processing with the **history** parameter.
 -   SET\_USER\_TIMEZONE: Sets the user’s time zone to the time zone specified in the **timezone** parameter. This time zone remains in effect until you reset it using this same parameter.
--   [START\_CONVERSATION](bot-api.md#vabot-ex-startconvo): Starts a chat conversation.
--   [START\_CREATED\_CONVERSATION](bot-api.md#vabot-ex-startcreatedconvo): Starts a chat conversation initiated using `CREATE_CONVERSATION`.
--   [SWITCH](bot-api.md#vabot-ex-switch): Switch the conversation to a topic that matches what is specified in the **intent.id** or **topic.name** parameters.
+-   [START\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Starts a chat conversation.
+-   [START\_CREATED\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Starts a chat conversation initiated using `CREATE_CONVERSATION`.
+-   [SWITCH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): Switch the conversation to a topic that matches what is specified in the **intent.id** or **topic.name** parameters.
 
 **Note:** Only use the `SWITCH` action for topic switching when the intent discovery happens in the primary bot. If the intent discovery happens in the ServiceNow® VA, use the **message.text** parameter.
 
 -   TYPING/VIEWING: Displays the typing indicator in Live Agent. First send `TYPING` and then after the user finishes typing, send `VIEWING`.
--   [UPDATE\_MESSAGES](bot-api.md#vabot-ex-updatemsg): This action is used during live agent conversations and provides two message update functions for third-party chat integrations for the messages received from the live agent that are reflected on the agent chat panel:
+-   [UPDATE\_MESSAGES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md): This action is used during live agent conversations and provides two message update functions for third-party chat integrations for the messages received from the live agent that are reflected on the agent chat panel:
 
     -   The latest message delivery status after sending a message from third-party.
     -   Updated text on the agent chat panel.
@@ -147,7 +148,7 @@ contextVariables
 
 </td><td>
 
-JSON-formatted name-value pairs that provide addition information about the user. Provide this information to customize the conversation experience. For additional information on context variables, see [Define and publish chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-context-variables.md).For example:
+JSON-formatted name-value pairs that provide addition information about the user. Provide this information to customize the conversation experience. For additional information on context variables, see Define and publish chat context variables.For example:
 
 ```
 "contextVariables": {
@@ -169,7 +170,7 @@ emailId
 
 </td><td>
 
-Required when enabling account linking, otherwise all users are considered guest users. Email address of the chat client end user, the person the bot is interacting with. For additional information on account linking, see [Link your ServiceNow user account to a messaging application for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/link-accounts-with-virtual-agent.md).Data type: String
+Required when enabling account linking, otherwise all users are considered guest users. Email address of the chat client end user, the person the bot is interacting with. For additional information on account linking, see Link your ServiceNow user account to a messaging application for Virtual Agent conversations.Data type: String
 
 </td></tr><tr><td>
 
@@ -543,7 +544,7 @@ Required. Unique user identifier. This is the identifier of the end user who is 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -584,7 +585,7 @@ Required if using token-based authentication; optional for Basic or OAuth authen
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -881,7 +882,7 @@ body.group
 
 </td><td>
 
-Rich control group to which the body element belongs. You can further transform these default controls by writing outbound transformation scripts. For additional information on these scripts, see [Virtual Agent action scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-action-scripts.md).Possible values:
+Rich control group to which the body element belongs. You can further transform these default controls by writing outbound transformation scripts. For additional information on these scripts, see Virtual Agent action scripts.Possible values:
 
 -   DefaultOutputCard
 -   DefaultDate
@@ -1162,7 +1163,7 @@ body.uiType
 
 </td><td>
 
-Type of body element. The possible values depend on the value in the **body.group** parameter. These values map back to the controls defined in the Virtual Agent Designer. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).Possible values:
+Type of body element. The possible values depend on the value in the **body.group** parameter. These values map back to the controls defined in the Virtual Agent Designer. For more information, see Getting started with Virtual Agent Designer.Possible values:
 
 -   ActionMsg
 -   DefaultOutputCard
@@ -1454,7 +1455,7 @@ Identifier of the end user who is interacting with the bot.Data type: String
 </td></tr></tbody>
 </table>### Start a conversation using the START\_CONVERSATION action to start a conversation
 
-The following example shows how to use the [START\_CONVERSATION](bot-api.md#vabot-req-parms) action to start a conversation with Virtual Agent. This call directs the user to the greeting topic.
+The following example shows how to use the [START\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action to start a conversation with Virtual Agent. This call directs the user to the greeting topic.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1528,7 +1529,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Create a chat interaction
 
-The following example shows how to use the [CREATE\_CONVERSATION](bot-api.md#vabot-req-parms) action to create a chat interaction.
+The following example shows how to use the [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action to create a chat interaction.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1577,7 +1578,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Start a conversation initiated using the START\_CREATED\_CONVERSATION action
 
-The following example shows how to start a chat conversation that has been initiated using the [CREATE\_CONVERSATION](bot-api.md#vabot-req-parms) action.
+The following example shows how to start a chat conversation that has been initiated using the [CREATE\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1674,7 +1675,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Fault a conversation using
 
-The following example shows how to using the [FAULT\_CONVERSATION](bot-api.md#vabot-req-parms) action and setting the value of the **cause** parameter.
+The following example shows how to using the [FAULT\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action and setting the value of the **cause** parameter.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1708,7 +1709,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Update the message on the agent chat panel
 
-The [UPDATE\_MESSAGES](bot-api.md#vabot-req-parms) action is used during live agent conversations and is used to reflect message updates on agent chat panel from third party chat integrations. This action can accept a list of messages and updates for all the messages can be done in a single run.
+The [UPDATE\_MESSAGES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action is used during live agent conversations and is used to reflect message updates on agent chat panel from third party chat integrations. This action can accept a list of messages and updates for all the messages can be done in a single run.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1739,7 +1740,7 @@ Message Processed Successfully
 
 ### Update only chat history
 
-The following example shows how to use the [SEND\_HISTORY](bot-api.md#vabot-req-parms) action to update only chat history.
+The following example shows how to use the [SEND\_HISTORY](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action to update only chat history.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1794,7 +1795,7 @@ The following is the success response sent from the VA to the configured respons
 
 ### Transfer a conversation to Live Agent using utterance
 
-The following example illustrates how to transfer a conversation to Live Agent, bypassing the greeting topic, by passing `agent` as an utterance in the **message.text** parameter. Possible utterance values are defined in the sys\_cs\_contextual\_action table. For additional information on contextual actions, see [Contextual actions for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/contextual-actions.md).
+The following example illustrates how to transfer a conversation to Live Agent, bypassing the greeting topic, by passing `agent` as an utterance in the **message.text** parameter. Possible utterance values are defined in the sys\_cs\_contextual\_action table. For additional information on contextual actions, see Contextual actions for custom chat integrations.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1917,7 +1918,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### End a Virtual Agent conversation by setting the action parameter
 
-The following example shows how to end a Virtual Agent conversation by setting the **action** parameter to [END\_CONVERSATION](bot-api.md#vabot-req-parms).
+The following example shows how to end a Virtual Agent conversation by setting the **action** parameter to [END\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md).
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -1972,7 +1973,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### End a Live Agent conversation by setting the action parameter
 
-The following example shows how to end a Live Agent conversation by setting the **action** parameter to [END\_CONVERSATION](bot-api.md#vabot-req-parms).
+The following example shows how to end a Live Agent conversation by setting the **action** parameter to [END\_CONVERSATION](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md).
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2199,7 +2200,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Change an ongoing conversation using the SWITCH action parameter
 
-The following example shows how to use the [SWITCH](bot-api.md#vabot-req-parms) **action** parameter to change an ongoing conversation to the topic that matches what is specified in the **intent.id** parameter.
+The following example shows how to use the [SWITCH](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) **action** parameter to change an ongoing conversation to the topic that matches what is specified in the **intent.id** parameter.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \
@@ -2311,7 +2312,7 @@ The following is the response body sent from the VA to the configured response e
 
 ### Transfer a conversation to Live Agent in a specific queue
 
-The following example shows how to transfer a conversation to Live Agent in a specific queue. You must first set up your queues with specific conditions. You then pass those conditions as **contextVariables** in the request body. This example uses the [AGENT](bot-api.md#vabot-req-parms) action parameter. For additional information on creating a work item queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
+The following example shows how to transfer a conversation to Live Agent in a specific queue. You must first set up your queues with specific conditions. You then pass those conditions as **contextVariables** in the request body. This example uses the [AGENT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) action parameter. For additional information on creating a work item queue, see Create a work item queue.
 
 ```
 curl "https://instance.servicenow.com/api/sn_va_as_service/bot/integration" \

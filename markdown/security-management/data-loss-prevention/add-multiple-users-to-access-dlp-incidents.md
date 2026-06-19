@@ -2,6 +2,7 @@
 title: Add multiple users to access DLP incidents
 description: Use the escalation chain feature to allow all the respective users who are involved in the incident to access the DLP incidents from the list view, though the incident is assigned to a different user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/add-multiple-users-to-access-dlp-incidents.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -34,7 +35,7 @@ Role required:
 
 4.  Select the user or user group from the drop down list.
 
-    You can add multiple users to the escalation chain, all the users who has access are listed on the Details section of the form view and also under the **All** incidents tab. The escalation chain is displayed based on the configuration settings. For more information, see [Configure advanced settings](configure-advanced-settings-dlp.md)
+    You can add multiple users to the escalation chain, all the users who has access are listed on the Details section of the form view and also under the **All** incidents tab. The escalation chain is displayed based on the configuration settings. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/configure-advanced-settings-dlp.md)
 
 5.  Click **Submit**.
 
@@ -57,5 +58,5 @@ Role required:
 11. Click **Submit**.
 
 
-**Parent Topic:**[Create response due date rules](setup-response-due-date-rules.md)
+**Parent Topic:**[Create response due date rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/setup-response-due-date-rules.md)
 

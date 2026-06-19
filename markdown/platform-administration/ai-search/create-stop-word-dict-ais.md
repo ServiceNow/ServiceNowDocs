@@ -2,6 +2,7 @@
 title: Create a stop word dictionary linked to a search profile
 description: Define a new stop word dictionary and link it to a search profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/create-stop-word-dict-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -21,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-To make a stop word dictionary affect search behavior, you must link it to a search profile, either at creation time or afterward. You can only link one stop word dictionary per language to a given search profile. To learn about linking a saved stop word dictionary to a search profile, see [Link a stop word dictionary to a search profile](link-stop-word-dict-profile-ais.md).
+To make a stop word dictionary affect search behavior, you must link it to a search profile, either at creation time or afterward. You can only link one stop word dictionary per language to a given search profile. To learn about linking a saved stop word dictionary to a search profile, see [Link a stop word dictionary to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/link-stop-word-dict-profile-ais.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ To make a stop word dictionary affect search behavior, you must link it to a sea
 
 4.  On the Dictionary form, fill in the fields.
 
-    For a description of the field values, see [Dictionary and AI Search Dictionary forms](../reference/dictionary-form-ais.md).
+    For a description of the field values, see [Dictionary form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/dictionary-form-ais.md).
 
 5.  To save the new stop word dictionary and link it to the specified search profile, select **Submit.**
 
@@ -44,7 +45,7 @@ The new stop word dictionary appears in the Stop Words related list.
 
 ## What to do next
 
-To make new or updated stop word dictionary settings take effect, publish the search profile that you edited. For details on publishing a search profile, see [Publish an AI Search search profile](publish-search-profile-ais.md).
+To make new or updated stop word dictionary settings take effect, publish the search profile that you edited. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Stop words](../concept/stop-words-ais.md)
+**Parent Topic:**[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
 

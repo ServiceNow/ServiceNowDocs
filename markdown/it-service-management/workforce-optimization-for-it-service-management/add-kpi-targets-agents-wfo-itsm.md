@@ -2,6 +2,7 @@
 title: Add KPI targets for agents
 description: Set key performance indicator goals that you want your agents to achieve so that they can improve the quality of how they resolve incidents. You can also set goals to monitor and improve an existing baseline measurement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/add-kpi-targets-agents-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -45,15 +46,15 @@ When you set a personal target, it is only visible to you.
     -   To set a personal target, click **Personal**.
 7.  Set the KPI target.
 
-<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d243693e145">
+<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d132822e145">
 
 To
 
-</th><th align="left" id="d243693e148">
+</th><th align="left" id="d132822e148">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d243693e154">
+</th></tr></thead><tbody><tr><td id="d132822e154">
 
 **Update an existing target**
 
@@ -61,7 +62,7 @@ Do this
 
 In the **Target** field, update the value that you'd like the agent to achieve for the selected KPI.
 
-</td></tr><tr><td id="d243693e166">
+</td></tr><tr><td id="d132822e166">
 
 **Set a target for a key performance indicator**
 
@@ -71,7 +72,7 @@ In the **Target** field, update the value that you'd like the agent to achieve f
 2.  In the **Target** field, enter a value that you'd like the agent to achieve for the selected KPI.
 
 
-</td></tr><tr><td id="d243693e187">
+</td></tr><tr><td id="d132822e187">
 
 **Set a target to improve an existing baseline value**
 
@@ -96,10 +97,10 @@ In the **Target** field, update the value that you'd like the agent to achieve f
     You can analyze the target trend in the indicator time-series metric.
 
 
-**Parent Topic:**[Analyzing team performance using Teams in Workforce Optimization for ITSM](../concept/teams-workforce-optimization-configurable-wfo-itsm.md)
+**Parent Topic:**[Analyzing team performance using Teams in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/teams-workforce-optimization-configurable-wfo-itsm.md)
 
 **Related topics**  
 
 
-[Performance Analytics targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md)
+[bundle-par.pa-targets]
 

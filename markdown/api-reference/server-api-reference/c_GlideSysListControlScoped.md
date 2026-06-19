@@ -2,6 +2,7 @@
 title: GlideSysListControl - Scoped
 description: The GlideSysListControl API provides methods that enable you to determine if the New or Edit buttons are displayed.Instantiates a GlideSysListControl object.Returns the sys\_id for the control.Returns true if the edit button is not displayed.Returns true when the New button is not displayed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideSysListControlScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideSysListControl API provides methods that enable you to determine if the **New** or **Edit** buttons are displayed.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideSysListControl - GlideSysListControl\(String tableName\)
 

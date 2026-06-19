@@ -2,6 +2,7 @@
 title: Create an Operational Technology incident from an Operational Technology change request
 description: Create an Operational Technology \(OT\) incident related to an OT change request directly from the OT change record in the Industrial Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/create-ot-incident-from-ot-change.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -74,5 +75,5 @@ The following related lists are available in an OT change record in the Industri
 
 After you create the incident from the change request, you can view the incident record in the related list or by navigating back to the Industrial Workspace list view. Then select one of the available lists under the **OT Incidents** list module.
 
-**Parent Topic:**[Using Operational Technology Incident Management](../concept/using-operational-technology-incident-mgt.md)
+**Parent Topic:**[Using Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/using-operational-technology-incident-mgt.md)
 

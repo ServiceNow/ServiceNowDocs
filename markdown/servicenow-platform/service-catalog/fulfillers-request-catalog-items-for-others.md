@@ -2,6 +2,7 @@
 title: Fulfillers can request catalog items for others
 description: The experience for fulfillers streamlines the process of making catalog requests on behalf of others. This tailored workflow leverages parent context, such as incidents or cases, to improve efficiency, accuracy, and traceability of requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/fulfillers-request-catalog-items-for-others.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -32,5 +33,5 @@ Now Assist reformulates questions with precision tailored to fulfillers. Because
 
 Once a request is submitted, all details and associated information are automatically linked to the parent record, completing the fulfiller’s workflow and ensuring thorough documentation.
 
-**Parent Topic:**[Now Assist in Conversational Catalog Request](now-assist-in-conversational-catalog-request.md)
+**Parent Topic:**[Now Assist in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
 

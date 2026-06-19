@@ -2,6 +2,7 @@
 title: Configure Critical Event Management groups
 description: Create groups and assign roles to individuals in the group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/configure-critical-event-management-groups.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -64,14 +65,14 @@ After you configure group-to-location mapping, the responder groups are automati
     -   sn\_ohs\_im.incident\_writer
     -   sn\_ohs\_im.incident\_create
 
--   **[Add members to the group](add-members-group.md)**  
+-   **[Add members to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/add-members-group.md)**  
 Add members to the group mapped to a location.
--   **[Add roles to a member](add-member-roles.md)**  
+-   **[Add roles to a member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/add-member-roles.md)**  
 Add roles to a member of the group mapped to a location.
--   **[Add roles to the group](add-group-roles.md)**  
+-   **[Add roles to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/add-group-roles.md)**  
 Add roles to groups that are mapped to a location.
--   **[Map on-site responder group with location](map-on-site-responder-group.md)**  
+-   **[Map on-site responder group with location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/map-on-site-responder-group.md)**  
 Map the on-site responder groups with the location, enabling these groups to be automatically populated when the location is selected in a new critical event.
 
-**Parent Topic:**[Configuring Critical Event Management](../concept/configure-critical-event-management.md)
+**Parent Topic:**[Configuring Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-critical-event-management.md)
 

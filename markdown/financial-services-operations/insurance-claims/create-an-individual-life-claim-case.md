@@ -2,13 +2,14 @@
 title: Create an Individual Life Claims case
 description: Begin the claim process by initiating an individual life claim case on behalf of the claimant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-an-individual-life-claim-case.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Individual Life Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create an Individual Life Claims case
@@ -23,19 +24,19 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a case from the individual life claim cases list.
 
-<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d101574e92">
+<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d104726e92">
 
 Option
 
-</th><th align="left" id="d101574e95">
+</th><th align="left" id="d104726e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101574e101">
+</th></tr></thead><tbody><tr><td id="d104726e101">
 
 **Individual life claim**
 
@@ -60,15 +61,15 @@ Steps
 
 9.  In the Reporter details activity, enter the details of the entity reporting the incident.
 
-<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d101574e180">
+<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d104726e180">
 
 Reporter status
 
-</th><th align="left" id="d101574e183">
+</th><th align="left" id="d104726e183">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d101574e189">
+</th></tr></thead><tbody><tr><td id="d104726e189">
 
 **Is a policy participant**
 
@@ -79,7 +80,7 @@ Steps
 3.  In the **Consumer** \(person\) or **Account** \(company\) field, use the search function to search for policy participants. The contact details populate after selecting the participant.
 
 
-</td></tr><tr><td id="d101574e222">
+</td></tr><tr><td id="d104726e222">
 
 **Is not a policy participant**
 
@@ -107,5 +108,5 @@ A claim case is created in the New state and the workflow is triggered. If appli
 
 ## What to do next
 
-Assign cases to yourself and start working on them. For more information, see [Adjuster activities](../concept/adjuster-tasks-workspace-persona.md).
+Assign cases to yourself and start working on them. For more information, see [Adjuster activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/adjuster-tasks-workspace-persona.md).
 

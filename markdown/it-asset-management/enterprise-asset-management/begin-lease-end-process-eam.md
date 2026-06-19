@@ -2,6 +2,7 @@
 title: Begin the lease-end process for an expiring enterprise asset lease contract
 description: Initiate the lease-end process for an expiring enterprise asset lease contract so that you can return the associated enterprise asset, buy out the associated enterprise asset, or extend the lease contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/begin-lease-end-process-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -40,7 +41,7 @@ The lease-end process for the specified lease contract begins. The Enterprise As
 
 ## What to do next
 
-Complete the Planning task for the lease contract so that you can specify what action you want to take on either the associated enterprise asset or the lease contract itself. See [Complete the Planning task for an expiring enterprise asset lease contract](complete-leased-asset-planning.md) for detailed instructions.
+Complete the Planning task for the lease contract so that you can specify what action you want to take on either the associated enterprise asset or the lease contract itself. See [Complete the Planning task for an expiring enterprise asset lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.md) for detailed instructions.
 
-**Parent Topic:**[Managing expiring contracts for leased enterprise assets](../concept/managing-expiring-contracts-leased-assets.md)
+**Parent Topic:**[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)
 

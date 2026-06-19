@@ -2,7 +2,10 @@
 title: Create an event configuration
 description: Create event configurations to define and manage event types for the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-agent-calendar-event-config.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -34,15 +37,15 @@ Role required: agent\_schedule\_admin
 
 1.  Navigate to **Agent Schedule** &gt; **Event Configuration** and perform one of the following actions.
 
-<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d312258e123">
+<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d48757e123">
 
 Option
 
-</th><th align="left" id="d312258e126">
+</th><th align="left" id="d48757e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d312258e132">
+</th></tr></thead><tbody><tr><td id="d48757e132">
 
 **Create a configuration from an existing event configuration**
 
@@ -53,7 +56,7 @@ Description
 
 A copy of the selected event type configuration is created.
 
-</td></tr><tr><td id="d312258e155">
+</td></tr><tr><td id="d48757e155">
 
 **Create a new event configuration**
 

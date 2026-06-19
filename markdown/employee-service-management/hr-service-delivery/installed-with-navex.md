@@ -2,6 +2,7 @@
 title: Components installed with Employee Relations integration with Navex Ethicspoint
 description: Several types of components are installed with activation of the Employee Relations integration with Navex Ethicspoint plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-navex.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,8 +36,8 @@ Admin\[sn\_hr\_navex\_ep.admin\]
 
 </td><td>
 
--   Can [Configure properties](../task/prop-navex.md).
--   Can [Map fields](../task/map-fields-navex.md).
+-   Can [Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/prop-navex.md).
+-   Can [Map fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/map-fields-navex.md).
 
 </td><td>
 

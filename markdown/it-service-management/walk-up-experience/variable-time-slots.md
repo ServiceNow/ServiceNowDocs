@@ -2,6 +2,7 @@
 title: Configure Variable time slots for appointment booking
 description: Variable time slots, such as work duration and dates, for appointments can be configured and booked based on the reason for a location. The reason can be an issue or request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/variable-time-slots.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -28,8 +29,8 @@ To enable this feature, select the **Enable advanced configurations** check box 
 
 You can create multiple advance configurations for a service configuration rule.
 
--   **[Configure variable time slots for appointment booking](../task/config-variable-time-slots.md)**  
+-   **[Configure variable time slots for appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/config-variable-time-slots.md)**  
 Configure variable time slots for appointment booking in a walk-up location by defining rules and configurations.
 
-**Parent Topic:**[Walk-up Experience appointment booking administration](walkup-appointment-administration.md)
+**Parent Topic:**[Walk-up Experience appointment booking administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-appointment-administration.md)
 

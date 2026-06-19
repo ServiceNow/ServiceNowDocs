@@ -2,12 +2,13 @@
 title: ACH dispute AI agents overview
 description: Agentic AI streamlines ACH dispute resolution by automating merchant analysis, Nacha eligibility checks, ACH dispute return recommendations, and communications with customers or ODFI \(Originating Depository Financial Institution\). This solution enhances efficiency, accuracy, and conformance, enabling financial institutions to resolve ACH disputes faster, reduce errors, and improve customer satisfaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/ach-agentic-ai-workflow.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [AI agents in FSO, Use agentic AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
 ---
 
@@ -31,28 +32,12 @@ The key agents for ACH dispute resolution are.
 
 ## ACH disputes workflow with AI agents
 
-The following diagram illustrates the workflow in ACH disputes with the AI agents.![ACH disputes workflow](../image/now-assist-ach-disputeworkflw.png)
+The following diagram illustrates the workflow in ACH disputes with the AI agents.\[Omitted image "now-assist-ach-disputeworkflw.png"\] Alt text: ACH disputes workflow
 
-For information about the workflow in ACH disputes, see [Processing an ACH dispute](../../fso-card-operations/concept/process-dispute-ach.md).
+For information about the workflow in ACH disputes, see [Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md).
 
-## Access the AI agents
-
-To access the agents:
-
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
-2.  Select **AI Agents** and then select appropriate agent.
-
-    The **Define the specialty** screen is displayed.
-
-3.  Select **Add tools and information** to review the AI agent's capabilities by adding tools and information sources, configuring flow actions, and setting up record operations.
-4.  The **Define trigger** option enables you to define triggers for the AI agent. By default, the trigger is deactivated and must be enabled.
-
-    **Note:** When a dispute agent is assigned to a case, all related tasks are automatically assigned to that agent, and the AI agents are invoked to assist. If this configuration isn’t enabled, the dispute agent must manually assign each task to themselves by selecting **Assigned to Me** on a specific task, to invoke the AI agent.
-
-5.  In the **Define availability** screen for the AI agent, make sure that the **Status** field is enabled to activate the AI agent.
-
--   **[Resolve ACH disputes with AI agents](../task/resolve-ach-disputes-with-ai-agents.md)**  
+-   **[Resolve ACH disputes with AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/resolve-ach-disputes-with-ai-agents.md)**  
 Use AI agents to streamline ACH dispute resolution in Now Assist for FSO.
 
-**Parent Topic:**[Standalone AI agents in Financial Services Operations](ai-agents-fso.md)
+**Parent Topic:**[Standalone AI agents in Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/ai-agents-fso.md)
 

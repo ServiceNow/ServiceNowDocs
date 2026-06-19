@@ -2,6 +2,7 @@
 title: Amazon Web Services \(AWS\) Security Hub integration
 description: AWS Security Hub is a cloud security posture management \(CSPM\) service that provides automated and continuous security checks and best practice checks against your AWS resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/aws-security-hub-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,11 +24,11 @@ AWS Security Hub integration in SIR follows a bidirectional architecture. SIR in
 
 See the following diagram to learn how AWS Security Hub integrates with the ServiceNow AI Platform Security Operations applications.
 
-![How AWS Security Hub integrates with the ServiceNow AI Platform.](../image/aws-security-hub-overview.png)
+\[Omitted image "aws-security-hub-overview.png"\] Alt text: How AWS Security Hub integrates with the ServiceNow AI Platform.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Key features
 
@@ -49,5 +50,5 @@ Use the key features of this integration to do the following actions:
 |Document identifier|Document title|
 |-------------------|--------------|
 |AWS Security Hub product documentation website|[AWS Security Hub Documentation website](https://docs.aws.amazon.com/securityhub/latest/userguide/what-is-securityhub.html)|
-|ServiceNow product documentation website|[ServiceNow Product Documentation website](https://servicenow.com/docs)|
+|ServiceNow product documentation website|[ServiceNow Product Documentation website](https://www.servicenow.com/docs)|
 

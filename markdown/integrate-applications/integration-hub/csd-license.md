@@ -2,6 +2,7 @@
 title: Create licenses and counters for distributed software
 description: Licenses and software counters are associated with the software model and must be created if you want to track the license for software deployed by client software distribution \(CSD\).Software deployed by Client Software Distribution \(CSD\) can be ordered from the service catalog by individual users or by approved users on behalf of others.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-license.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -34,7 +35,7 @@ You can create software licenses and counters in Software Asset Management for s
 5.  Run the counter to retrieve the software license information.
 
 
-**Parent Topic:**[Client Software Distribution using Integration Hub](../concept/csd-integrationhub.md)
+**Parent Topic:**[Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-integrationhub.md)
 
 ## Client software distribution ordering process
 
@@ -48,15 +49,15 @@ All software deployed by CSD requires users to specify the beginning date for th
 
 If the catalog item is configured for revocation \(uninstall\), the form displays the **Lease end** field, which allows the requester to define an end date and time for the lease. The system validates user input in these fields to ensure that the dates selected define a future window. The **Lease end** field is not mandatory and can be left blank to order software with no end date.
 
-**Note:** For systems deploying software from Microsoft System Center Configuration Management \(SCCM\), the **Lease end** field is only available if the [Define an SCCM configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_ConfigureSCCMCollections.md) specifies an uninstall collection.
+**Note:** For systems deploying software from Microsoft System Center Configuration Management \(SCCM\), the **Lease end** field is only available if the Define an SCCM configuration specifies an uninstall collection.
 
 ### Software offered only to the logged in user
 
-If the [software catalog item](create-cat-item-ihub.md) is configured with the **Order on behalf of** check box cleared, the **User** field does not appear on the order form. The logged in user selects the device on which to deploy the software from the **Device to install this software on** field. Only those devices assigned to the logged in user appear in the list.
+If the [software catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-cat-item-ihub.md) is configured with the **Order on behalf of** check box cleared, the **User** field does not appear on the order form. The logged in user selects the device on which to deploy the software from the **Device to install this software on** field. Only those devices assigned to the logged in user appear in the list.
 
 In this example, a user has logged into the service catalog to order Firefox for the assigned computer. User selects the machine from a list of devices and selects the date and time the lease should begin. This software is deployed through Microsoft System Center Configuration Management \(SCCM\), but does not have an uninstall collection configured and cannot be revoked automatically by the system. As a result, the **Lease end** field is not available.
 
-![Ordering software as the logged in user](../images/CSDCatOrderLease2.png)
+\[Omitted image "CSDCatOrderLease2.png"\] Alt text: Ordering software as the logged in user
 
 ### Software ordered on behalf of another user
 
@@ -64,5 +65,5 @@ If the software catalog item is configured with the **Order on behalf of** check
 
 In this example, a manager is ordering Google Chrome for a contractor. The manager selects the contractor from the **User** field and then chooses a computer from the list of devices assigned to the contractor. This software has an SCCM uninstall collection configured, which allows the manager to select an end date for the lease that coincides with the end of the user's contract. When the lease expires, SCCM automatically uninstalls the software from the device.
 
-![Defining software lease window](../images/CSDCatOrderLease.png)
+\[Omitted image "CSDCatOrderLease.png"\] Alt text: Defining software lease window
 

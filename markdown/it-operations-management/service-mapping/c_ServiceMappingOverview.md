@@ -2,6 +2,7 @@
 title: Service Mapping
 description: The ServiceNow Service Mapping application discovers all application services in your organization and builds a comprehensive map of all devices, applications, and configuration profiles used in these application services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/c\_ServiceMappingOverview.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -14,6 +15,8 @@ breadcrumb: [ITOM Visibility, IT Operations Management]
 # Service Mapping
 
 The ServiceNow® Service Mapping application discovers all application services in your organization and builds a comprehensive map of all devices, applications, and configuration profiles used in these application services.
+
+\[Omitted image "sm-landing-page.png"\] Alt text: CIs mapped to service instances or a unified map, therefore adding service context.
 
 Service Mapping is available as a separate subscription and requires activation by Service Mapping personnel.
 
@@ -31,11 +34,11 @@ Map services across dynamic cloud-based providers with a high degree of accuracy
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about the various methods of mapping application services.](../concept/service-mapping-get-started.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the various methods of mapping application services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-get-started.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your implementation.](../concept/service-mapping-setup.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
 
 </td><td>
 
@@ -43,11 +46,11 @@ Map services across dynamic cloud-based providers with a high degree of accuracy
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-service-map.svg)Review mapping application services for analysis and maintenance.](../concept/using-service-mapping.md)
+[Use\[Omitted image "bus-service-map.svg"\] Alt text:Review mapping application services for analysis and maintenance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/using-service-mapping.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like roles, tables, and properties.](service-mapping-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like roles, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 
 </td><td>
 

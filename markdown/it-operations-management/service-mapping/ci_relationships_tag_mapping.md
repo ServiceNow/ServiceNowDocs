@@ -2,6 +2,7 @@
 title: Preconfigured CI relationships in tag-based discovery
 description: Several preconfigured CI relationships participate in tag-based discovery, by default. The Traversal Rules for Application Services \[svc\_traversal\_rules\] table stores these relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/ci\_relationships\_tag\_mapping.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -36,5 +37,5 @@ Several preconfigured CI relationships participate in tag-based discovery, by de
 |Kubernetes Namespace \[cmdb\_ci\_kubernetes\_namespace\]​|Contains::Contained By|OpenShift Route \[cmdb\_ci\_openshift\_route\]|
 |Kubernetes Namespace \[cmdb\_ci\_kubernetes\_namespace\]​|Contains::Contained By|OpenShift Image Stream \[cmdb\_ci\_openshift\_images\_stream\]|
 
-**Parent Topic:**[Service Mapping reference](service-mapping-reference.md)
+**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-reference.md)
 

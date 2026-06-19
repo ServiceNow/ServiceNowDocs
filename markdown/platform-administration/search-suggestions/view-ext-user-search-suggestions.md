@@ -2,6 +2,7 @@
 title: Use the GraphQL REST API to view suggestions created from external user searches
 description: Submit a request to the GraphQL REST API endpoint to retrieve search suggestions created from searches by self-registered external users. This endpoint allows access by non-authenticated guest users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/view-ext-user-search-suggestions.html
 release: australia
 product: Search Suggestions
 classification: search-suggestions
@@ -19,10 +20,10 @@ Submit a request to the GraphQL REST API endpoint to retrieve search suggestions
 
 Ensure that the following conditions are met in your instance:
 
--   The Domain Separation plugin isn't activated. For details on this plugin, see [Domain separation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-plugin.md).
--   The Explicit Roles plugin \(com.glide.explicit\_roles\) is activated. To learn more about this plugin, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/explicit-roles.md).
+-   The Domain Separation plugin isn't activated. For details on this plugin, see Domain separation plugin.
+-   The Explicit Roles plugin \(com.glide.explicit\_roles\) is activated. To learn more about this plugin, see Explicit Roles.
 -   External users with the snc\_external role have submitted searches in search applications that generate search suggestions, such as ServiceNow® Service Portal, Now Mobile, or ServiceNow® Virtual Agent.
--   The **glide.search.suggestions.allow\_guest\_user** system property is set to **true**. For details on setting a system property value, see [Add a system property](../../reference-pages/reference/r_AvailableSystemProperties.md#).
+-   The **glide.search.suggestions.allow\_guest\_user** system property is set to **true**. For details on setting a system property value, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 Obtain the sys\_id of the search application that you want to retrieve external user search suggestions for.
 

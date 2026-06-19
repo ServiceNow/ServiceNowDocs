@@ -2,6 +2,7 @@
 title: Desired State Overview module
 description: The Desired State Overview module displays various desired state reports. The Overview module is a type of homepage.The Desired State Overview module displays various desired state reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_DesiredStateOverviewModule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

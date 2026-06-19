@@ -2,6 +2,7 @@
 title: HTTP response code check
 description: Agent Client Collector provides the following additional check for HTTP response code. This check is not associated with any policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/http-response-code-check.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -63,5 +64,5 @@ Raises a critical event if the URL response code doesn’t match the regex.Pass 
 `CheckResponseCode OK : URL is in OK state. HTTP Response code is 200, matches regex`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

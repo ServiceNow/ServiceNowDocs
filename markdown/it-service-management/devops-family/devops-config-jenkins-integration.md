@@ -2,6 +2,7 @@
 title: Jenkins pipeline actions
 description: Use these actions in your Jenkins pipeline to interact with the DevOps Config data model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-jenkins-integration.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,7 +16,7 @@ breadcrumb: [Integrating your pipeline in DevOps Config, DevOps Config, IT Servi
 
 Use these actions in your Jenkins pipeline to interact with the DevOps Config data model.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Jenkins scripted and declarative piplines are supported.
 
@@ -205,7 +206,7 @@ continueWithLatest
         echo"*************************\n ${snapshotObj}"
         ```
 
-    -   Output![Jenkins snDevOpsConfig response output](../image/devops-config-jenkins-response.png)
+    -   Output\[Omitted image "devops-config-jenkins-response.png"\] Alt text: Jenkins snDevOpsConfig response output
 -   **Example - collection**
 
     **Note:** When uploading to a collection, the `collectionName` argument is required.
@@ -299,7 +300,7 @@ continueWithLatest
 
     -   Let's say we have these config files.
 
-        ![DevOps Config Jenkins upload files](../image/devops-config-jenkins-files.png)
+        \[Omitted image "devops-config-jenkins-files.png"\] Alt text: DevOps Config Jenkins upload files
 
     -   This is how to upload the config files using `snDevOpsConfig`.
 
@@ -463,7 +464,7 @@ changesetNumber
 
         In addition to the data being uploaded to our data model in DevOps Config, the output would look something like this \(using the Blue Ocean plugin to visualize the console output\).
 
-        ![DevOps Config Configuration Upload output](../image/devops-config-jenkins-up-output.png)
+        \[Omitted image "devops-config-jenkins-up-output.png"\] Alt text: DevOps Config Configuration Upload output
 
 -   **Example - Multiple uploads \(component\)**
 
@@ -844,7 +845,7 @@ Specifies the file to export data to \(assumed to be in the workspace\).
 
 This action ties a changeset and/or snapshot to the pipeline so that it can be tracked during the pipeline execution. In DevOps Change Velocity, this is shown in the Pipeline UI.
 
-See [Accelerating your DevOps change process](../../enterprise-dev-ops/concept/dev-ops-change-acceleration.md) for more information regarding the DevOps Change Acceleration feature.
+See [Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) for more information regarding the DevOps Change Acceleration feature.
 
 -   **Input arguments**
 
@@ -899,7 +900,7 @@ snapshotName
 
         In addition to the data being uploaded to our data model in DevOps Config, the output would look something like this \(using the Blue Ocean plugin to visualize the console output\).
 
-        ![DevOps Configuration Register Pipeline output](../image/devops-config-jenkins-reg-output.png)
+        \[Omitted image "devops-config-jenkins-reg-output.png"\] Alt text: DevOps Configuration Register Pipeline output
 
 
 ## snDevOpsConfigValidate
@@ -979,7 +980,7 @@ showResults
 
 Create a change request and attach a snapshot for reference.
 
-See [Accelerating your DevOps change process](../../enterprise-dev-ops/concept/dev-ops-change-acceleration.md) for more information regarding the DevOps Change Acceleration feature.
+See [Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) for more information regarding the DevOps Change Acceleration feature.
 
 -   **Input arguments**
 

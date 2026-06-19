@@ -2,6 +2,7 @@
 title: Create an assignment rule that auto assigns agents' work
 description: Create an assignment rule that routes cases according to skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/skills-example-assignment-rule.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

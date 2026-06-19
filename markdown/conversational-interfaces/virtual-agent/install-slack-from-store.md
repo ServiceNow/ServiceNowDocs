@@ -2,6 +2,7 @@
 title: Install the Conversational Integration with Slack
 description: You can install the Conversational Integration with Slack \(sn\_va\_slack\) application if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/install-slack-from-store.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,7 +25,7 @@ You can install the Conversational Integration with Slack \(sn\_va\_slack\) appl
 
     **Important:** Installing the Conversational Integration with Slack app from the ServiceNow Store activates the app for integration on your ServiceNow instance. If you have not installed the integration app, the Slack app is listed in the Available Channels section.
 
-    ![The Channels and integrations page before Slack is installed.](../images/slack-pre-install.png "Channels and integrations page before Conversational Integration with Slack apps is installed")
+    \[Omitted image "slack-pre-install.png"\] Alt text: The Channels and integrations page before Slack is installed.
 
     After you install the Conversational Integration with Slack plugin \(sn\_va\_slack\), Slack is seen in the Integrations section, and you can proceed with the configuration.
 
@@ -39,7 +40,7 @@ Review these guidelines for using Virtual Agent with Slack or with Slack Enterpr
     -   Use a separate Slack workspace for each instance that you plan to install the integration in.
     -   If you use a non-production instance for testing, use a Self-configured bot.
 
-        For more information, see [Integrate your ServiceNow instance with a self-configured bot](integ-slack-self-config-bot.md).
+        For more information, see [Integrate your ServiceNow instance with a self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/integ-slack-self-config-bot.md).
 
 -   Slack Enterprise Grid – If you have Slack Enterprise Grid workspaces, your end users can move between workspaces and use the Virtual Agent bot from any workspace.
     -   If you use a non-production instance for testing, use a workspace in a different grid or use a non-grid workspace.
@@ -53,7 +54,7 @@ Review these guidelines for using Virtual Agent with Slack or with Slack Enterpr
 
 2.  On the **General** settings page, under the **Channels and routing** section, select **View all** next to **Channels**.
 
-3.  On the Channels and integrations page, in the Slack tile, click **Get Slack plugin**.![Slack tile in Channels and integrations, showing Get Slack plugin control.](../images/get-slack-plugin.png)
+3.  On the Channels and integrations page, in the Slack tile, click **Get Slack plugin**.\[Omitted image "get-slack-plugin.png"\] Alt text: Slack tile in Channels and integrations, showing Get Slack plugin control.
 
     You are redirected to the Conversational Integration with Slack ServiceNow Store page.
 
@@ -74,7 +75,7 @@ Review these guidelines for using Virtual Agent with Slack or with Slack Enterpr
 
 ## What to do next
 
-[Integrate ServiceNow Virtual Agent with Slack](add-slack-snow-bot.md).
+[Integrate ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-slack-snow-bot.md).
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](../concept/va-integ-slack.md)
+**Parent Topic:**[Integrating ServiceNow Virtual Agent with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-slack.md)
 

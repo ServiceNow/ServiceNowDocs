@@ -2,6 +2,7 @@
 title: Create healthcare departments
 description: Create a healthcare department and associate it with a parent healthcare organization and a common location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-create-healthcare-departments.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

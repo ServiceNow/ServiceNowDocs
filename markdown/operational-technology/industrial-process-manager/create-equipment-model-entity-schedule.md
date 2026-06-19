@@ -2,6 +2,7 @@
 title: Create an equipment model entity schedule
 description: Create an equipment model entity schedule with the Industrial Process Manager application. With these schedules, you can easily maintain multiple equipment model entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/create-equipment-model-entity-schedule.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -73,7 +74,7 @@ Description of the schedule.
 
 ## What to do next
 
-Now, you can create the entries for an equipment model entity schedule. For more information, see [Create a schedule entry](create-new-schedule-entry.md).
+Now, you can create the entries for an equipment model entity schedule. For more information, see [Create a schedule entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/create-new-schedule-entry.md).
 
-**Parent Topic:**[Managing an equipment model entity schedule](../concept/managing-equipment-entity-schedules.md)
+**Parent Topic:**[Managing an equipment model entity schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/managing-equipment-entity-schedules.md)
 

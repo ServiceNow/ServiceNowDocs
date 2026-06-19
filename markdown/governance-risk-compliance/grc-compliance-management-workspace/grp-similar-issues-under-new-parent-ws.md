@@ -2,6 +2,7 @@
 title: Group similar issues under a new parent issue using the Compliance Workspace
 description: When you are creating an issue using the Compliance Workspace, you have the option of grouping the issue with other similar issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/grp-similar-issues-under-new-parent-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -36,11 +37,11 @@ Grouping issues under a parent can save you valuable time. For example, assume y
     -   **Audit** &gt; **Issues** &gt; **Create New**.
 2.  On the form, locate the **Parent issue** field.
 
-    ![Parent field](../../grc-policy-and-compliance/image/parent-no-num.png)
+    \[Omitted image "parent-no-num.png"\] Alt text: Parent field
 
-3.  Click the bulb icon \(![bulb icon](../../grc-policy-and-compliance/image/bulb.png)\) to view similar issues that you may want to assign to this parent issue.
+3.  Click the bulb icon \(\[Omitted image "bulb.png"\] Alt text: bulb icon\) to view similar issues that you may want to assign to this parent issue.
 
-    ![Similar issue suggestions](../../grc-policy-and-compliance/image/similar-issue-suggestion.png)
+    \[Omitted image "similar-issue-suggestion.png"\] Alt text: Similar issue suggestions
 
     **Note:** Standalone issues are similar to the current issue, but that are not assigned to a parent issue group. The Confidence score is calculated using a similarity definition included in the GRC: Predictive Intelligence application base system.
 
@@ -48,7 +49,7 @@ Grouping issues under a parent can save you valuable time. For example, assume y
 
 5.  Select the similar issues you want to group with the current issue, and click **Group**.
 
-    ![Group issues](../../grc-policy-and-compliance/image/group-ssues.png)
+    \[Omitted image "group-ssues.png"\] Alt text: Group issues
 
 6.  On the form, fill in the fields.
 

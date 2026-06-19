@@ -2,7 +2,10 @@
 title: Set up CSM Configurable Workspace
 description: Set up CSM Configurable Workspace for your agents so they can engage with customers, answer questions, create cases, and resolve issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-set-up.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
@@ -24,8 +27,8 @@ Complete the following tasks to set up CSM Configurable Workspace:
 
 Activating the Customer Service plugin \(com.sn\_customerservice\) provides the CSM Configurable Workspace functionality. For more information, see the following topics:
 
--   [Activate Customer Service Management](../task/t_ActivateCustomerService.md)
--   [Plugins activated with Customer Service Management](../reference/plugins-activated-with-csm.md)
+-   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_ActivateCustomerService.md)
+-   [Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/plugins-activated-with-csm.md)
 
 ## Set up CSM Configurable Workspace using guided setup
 
@@ -57,8 +60,8 @@ Branding and theming
 
 </td><td>
 
-A theme sets the visual style of a configurable workspace experience and provides a consistent look and feel across all pages.-   [View the brand and theme setting in your workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/workspace-view-theme-setting.md)
--   [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md)
+A theme sets the visual style of a configurable workspace experience and provides a consistent look and feel across all pages.-   View the brand and theme setting in your workspace experience
+-   Working with themes in Next Experience
 
 </td></tr><tr><td>
 
@@ -84,7 +87,7 @@ Forms
 
 </td><td>
 
-Configure the way forms appear for your agents or workers in a configurable workspace. You can also configure the fields that appear on the form to be different depending on the record type and user roles. For more information, see [Administering forms for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-forms-configurable-workspace.md).
+Configure the way forms appear for your agents or workers in a configurable workspace. You can also configure the fields that appear on the form to be different depending on the record type and user roles. For more information, see Administering forms for Configurable Workspace.
 
 </td></tr><tr><td>
 
@@ -92,7 +95,7 @@ Additional Forms Configuration
 
 </td><td>
 
-Configure templates that agents can use to pre-populate fields and UI actions to make a configurable workspace more interactive. For more information, see [Administering forms for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-forms-configurable-workspace.md).
+Configure templates that agents can use to pre-populate fields and UI actions to make a configurable workspace more interactive. For more information, see Administering forms for Configurable Workspace.
 
 </td></tr><tr><td>
 
@@ -100,8 +103,8 @@ Search
 
 </td><td>
 
-Define search sources that your agents can query in a configurable workspace. Agents can use these keywords to search for specific records or knowledge articles.-   [Configuring search in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-search-next-experience.md)
--   [AI search in Recommended Actions](ra-csm-ai-search.md)
+Define search sources that your agents can query in a configurable workspace. Agents can use these keywords to search for specific records or knowledge articles.-   Configuring search in Next Experience
+-   [AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md)
 
 </td></tr><tr><td>
 
@@ -117,7 +120,7 @@ Advanced Work Assignment \(AWA\)
 
 </td><td>
 
-Set up [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-application-landing-page.md) to automatically route tasks and interactions to the right agents.
+Set up  to automatically route tasks and interactions to the right agents.
 
 </td></tr><tr><td>
 
@@ -125,7 +128,7 @@ Configurable Workspace Agent Chat
 
 </td><td>
 
-Configure Agent Chat to enable live agents to chat with customers and manage various conversation features for agents and end users. For more information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+Configure Agent Chat to enable live agents to chat with customers and manage various conversation features for agents and end users. For more information, see Setting up Agent Chat.
 
 </td></tr><tr><td>
 
@@ -133,22 +136,22 @@ Playbook
 
 </td><td>
 
-Playbooks display business process workflows in a simple task-oriented view. These step-by-step procedures guide users through workflows that address commonly encountered situations. For more information, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md).
+Playbooks display business process workflows in a simple task-oriented view. These step-by-step procedures guide users through workflows that address commonly encountered situations. For more information, see Building Playbooks.
 
 </td></tr></tbody>
 </table>## Configuring workspace pages in UI Builder
 
 You can use UI Builder to configure the pages and components that display information in CSM Configurable Workspace including the following:
 
--   [Landing pages](../task/config-csm-config-ws-landing-page.md)
--   [Record pages](csm-config-workspace-record-pages.md)
--   [Customer Central – Customer Information tab](../task/cust-central-configure-info-tab.md)
+-   [Landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-landing-page.md)
+-   [Record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md)
+-   [Customer Central – Customer Information tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cust-central-configure-info-tab.md)
 
-For more information, see the [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md) topic in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-custom-experience.md) documentation.
+For more information, see the Manage UI Builder pages and page variants topic in the UI Builder documentation.
 
 ## Set up communication channels and routing
 
-Enable agents to chat with customers or to receive and place customer calls. You can also set up routing that automatically directs chats to the appropriate agents. For more information, see [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-agent-chat.md).
+Enable agents to chat with customers or to receive and place customer calls. You can also set up routing that automatically directs chats to the appropriate agents. For more information, see Setting up Agent Chat.
 
 ## Set up additional CSM Configurable Workspace components
 
@@ -156,14 +159,14 @@ Complete these tasks to set up the components that are specific to CSM Configura
 
 |Task|Description|
 |----|-----------|
-|[Create or modify a landing page](../task/config-csm-config-ws-landing-page.md)|The landing page is an agent's initial view of the workspace. The **CSM Landing Page** is included with the Customer Service plugin. You can modify this landing page or you can create and modify a page variant in UI Builder.|
-|[Set up a ribbon configuration in CSM Configurable Workspace](../task/config-csm-config-ws-ribbon.md)|The form ribbon includes components that display information about a record. You can add the Customer 360, Timeline, and SLA components to the Case form ribbon. You can also configure attributes for the Customer 360 and Timeline components.|
-|[Set up a form header in CSM Configurable Workspace](../task/config-csm-config-ws-form-header.md)|Configure form headers that provide a quick summary of case, account, or contact information.|
-|[Set up a highlighted value in a form header in CSM Configurable Workspace](../task/config-csm-config-ws-highlight-value.md)|Configure fields that appear as highlighted values in form headers in CSM Configurable Workspace.|
-|[Set up a form action in CSM Configurable Workspace](../task/config-csm-config-ws-form-action.md)|Create form actions that link to UI actions so that you can use the UI actions in CSM Configurable Workspace.|
-|[Display the form ribbon and form header secondary values in the Contextual side panel](../task/config-csm-display-header-in-sidebar.md)|Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CSM Configurable Workspace.|
-|[Display field values as interaction record tab titles](../task/config-csm-display-values-as-tab-titles.md)|Display field values, such as contact or consumer names, as titles on interaction record tabs in CSM Configurable Workspace.|
-|[Enable the Create Case UI action for case type selection](../task/config-csm-config-ws-ui-action.md)|Enable the **Create Case** UI action for case type selection for one or more selected tables.|
-|[Configure tabs in the contextual side panel](../task/config-csm-ws-side-panel-tabs.md)|Use the **inlineTabExclusion** UX page property to prevent tabs from appearing in the configurable side panel in CSM Configurable Workspace.|
+|[Create or modify a landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-landing-page.md)|The landing page is an agent's initial view of the workspace. The **CSM Landing Page** is included with the Customer Service plugin. You can modify this landing page or you can create and modify a page variant in UI Builder.|
+|[Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-ribbon.md)|The form ribbon includes components that display information about a record. You can add the Customer 360, Timeline, and SLA components to the Case form ribbon. You can also configure attributes for the Customer 360 and Timeline components.|
+|[Set up a form header in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-header.md)|Configure form headers that provide a quick summary of case, account, or contact information.|
+|[Set up a highlighted value in a form header in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-highlight-value.md)|Configure fields that appear as highlighted values in form headers in CSM Configurable Workspace.|
+|[Set up a form action in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-action.md)|Create form actions that link to UI actions so that you can use the UI actions in CSM Configurable Workspace.|
+|[Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-display-header-in-sidebar.md)|Configure the form ribbon and the secondary values that appear in a form header to display in the Contextual side panel in CSM Configurable Workspace.|
+|[Display field values as interaction record tab titles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-display-values-as-tab-titles.md)|Display field values, such as contact or consumer names, as titles on interaction record tabs in CSM Configurable Workspace.|
+|Make sure that the sn\_csm\_case\_types.enable\_service\_selector property which enables the case type selector is set to true.|The sn\_csm\_case\_types.enable\_service\_selector property which enables the case type selector is set to true for zBoot customers, and can be enabled for upgrade customers.|
+|[Configure tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-side-panel-tabs.md)|Use the **inlineTabExclusion** UX page property to prevent tabs from appearing in the configurable side panel in CSM Configurable Workspace.|
 |Configure service catalogs for CSM workspaces|Customer service agents use service catalogs to fulfill catalog item requests. You can configure the Service Workspace Portal to use the catalogs that contain the desired items.|
 

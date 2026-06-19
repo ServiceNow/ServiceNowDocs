@@ -2,11 +2,12 @@
 title: Explore credentials, connections, and aliases
 description: All application integrations in the ServiceNow AI Platform use connections, credentials, and aliases to enable applications to access resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/credentials-connections-alias.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Connections and Credentials, Access Management]
 ---
@@ -63,15 +64,15 @@ The following features use connections, credentials, and aliases:
 
 You can set up aliases on the ServiceNow AI Platform in one of two ways:
 
--   Using the Connections and Credentials module. See [Create a Connection &amp; Credential alias](../task/connection-alias.md).
--   In the Connections dashboard of Integration Hub. See [Add a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/dashboard-add-connection.md).
+-   Using the Connections and Credentials module. See [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+-   In the Connections dashboard of Integration Hub. See Add a connection.
 
-    **Note:** Integration Hub requires a separate subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+    **Note:** Integration Hub requires a separate subscription. For more information, see Request Integration Hub.
 
 
 ## Credential synchronization on MID Servers
 
-Each MID Serverin your network synchronized with the instance keeps a copy of every credential that you create. The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services. This synchronization speeds up the reading of credentials when applications like Discovery or Service Mapping need to access multiple devices on the network. The MID Servers synchronize when they find a **credentials\_reload** job in the ECC Queue. The reload job instructs the MID Server to make a SOAP call to the instance to get the entire list of credentials in the Credentials \[discovery\_credentials\] table, including all the field values. To learn more, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+Each MID Serverin your network synchronized with the instance keeps a copy of every credential that you create. The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services. This synchronization speeds up the reading of credentials when applications like Discovery or Service Mapping need to access multiple devices on the network. The MID Servers synchronize when they find a **credentials\_reload** job in the ECC Queue. The reload job instructs the MID Server to make a SOAP call to the instance to get the entire list of credentials in the Credentials \[discovery\_credentials\] table, including all the field values. To learn more, see MID Server.
 
 The SOAP response that your instance sends to each MID Server also includes custom fields that you added to any credential form that you customized. If you added reference fields, the data in the referenced table is also sent as part of the SOAP response. This can lead to performance issues when credential synchronization occurs with multiple MID Servers. To control this, manually add these properties to the System Properties \[sys\_properties\] table:
 
@@ -104,12 +105,12 @@ Defines the number of tables to traverse when the credential-sync mechanism coll
 -   **Default value**: 3
 
 </td></tr></tbody>
-</table>-   **[Scope protections for Credentials and Connections](scope-protections-connections-credentials.md)**  
+</table>-   **[Scope protections for Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/scope-protections-connections-credentials.md)**  
 You can classify certain types of Connection &amp; Credential records as belonging to a scope, and extend scope protections to them. These scope policies protect records you create in a table, and prevent interactions with records that are private to another scope.
--   **[Domain separation and Credentials and Connections](domain-separation-credentials_conn.md)**  
+-   **[Domain separation and Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)**  
 Domain separation is supported in Credentials and Connections. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Connection &amp; Credential configuration templates](spoke-configuration-template.md)**  
+-   **[Connection &amp; Credential configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/spoke-configuration-template.md)**  
 Enable users with the admin and flow\_designer roles to set up spoke integrations with third-party systems using a single, customizable form.
 
-**Parent Topic:**[Connections and Credentials](../reference/r-credentials.md)
+**Parent Topic:**[Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md)
 

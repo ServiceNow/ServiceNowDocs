@@ -2,6 +2,7 @@
 title: Set up Twilio spoke
 description: Integrate the ServiceNow instance and Twilio using basic authentication to authenticate ServiceNow requests.Add and configure Twilio Base, Twilio Messaging, and Twilio Notify connections to authenticate ServiceNow requests in Twilio spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-twilio.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -43,12 +44,12 @@ Role required: admin
 
         -   To configure the default connection and credential alias record that is shipped along with the Twilio spoke, click **View Details**.
 
-            ![Connection template for Twilio Base](../image/twilio-base-conn.png)
+            \[Omitted image "twilio-base-conn.png"\] Alt text: Connection template for Twilio Base
 
-        -   To manage more than one Twilio Base spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+        -   To manage more than one Twilio Base spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
         If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-        ![Twilio Base connection configuration](../image/twilio-base-conn-config.png)
+        \[Omitted image "twilio-base-conn-config.png"\] Alt text: Twilio Base connection configuration
 
     5.  On the form, fill in the fields.
 
@@ -62,7 +63,7 @@ Role required: admin
         |User name|Account String Identifier \(SID\) of Twilio Base.|
         |Password|Auth Token of the Twilio account.|
 
-        ![](../image/twilio-base-conf-temp.png)
+        \[Omitted image "twilio-base-conf-temp.png"\] Alt text:
 
     6.  Click **Configure Connection**.
 
@@ -78,12 +79,12 @@ Role required: admin
 
         -   To configure the default connection and credential alias record that is shipped along with the Twilio spoke, click **View Details**.
 
-            ![Connection template for Twilio Messaging](../image/twilio-messg-conn.png)
+            \[Omitted image "twilio-messg-conn.png"\] Alt text: Connection template for Twilio Messaging
 
-        -   To manage more than one Twilio Messaging spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+        -   To manage more than one Twilio Messaging spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
         If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-        ![Twilio Messaging Connection configuration](../image/twilio-messg-conn-config.png)
+        \[Omitted image "twilio-messg-conn-config.png"\] Alt text: Twilio Messaging Connection configuration
 
     5.  On the form, fill in the fields.
 
@@ -97,7 +98,7 @@ Role required: admin
         |User name|Account String Identifier \(SID\) of the Twilio Messaging account.|
         |Password|Auth token of the Twilio account.|
 
-        ![](../image/twilio-messaging-conf-temp.png)
+        \[Omitted image "twilio-messaging-conf-temp.png"\] Alt text:
 
     6.  Click **Configure Connection**.
 
@@ -113,12 +114,12 @@ Role required: admin
 
         -   To configure the default connection and credential alias record that is shipped along with the Twilio spoke, click **View Details**.
 
-            ![Connection template for Twilio Notify](../image/twilio-notify-conn.png)
+            \[Omitted image "twilio-notify-conn.png"\] Alt text: Connection template for Twilio Notify
 
-        -   To manage more than one Twilio Notify spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+        -   To manage more than one Twilio Notify spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
         If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-        ![Twilio Notify connection configuration](../image/twilio-notify-conn-config.png)
+        \[Omitted image "twilio-notify-conn-config.png"\] Alt text: Twilio Notify connection configuration
 
     5.  On the **Connection** form, fill in the fields.
 
@@ -132,7 +133,7 @@ Role required: admin
         |User name|Account String Identifier \(SID\) of the Twilio Notify account.|
         |Password|Auth token of the Twilio account.|
 
-        ![](../image/twilio-notify-conf-temp.png)
+        \[Omitted image "twilio-notify-conf-temp.png"\] Alt text:
 
     6.  Click **Configure Connection**.
 

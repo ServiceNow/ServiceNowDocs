@@ -2,6 +2,7 @@
 title: Exploring Employee Goals
 description: The Employee Goals application provides employees and managers with visibility into business goals set by your organization and personal goals that are specific to an employee. This application helps employees cultivate their goals into growth plans to bolster the talent in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-goals/egd-goals-explore.html
 release: australia
 product: Employee Goals
 classification: employee-goals

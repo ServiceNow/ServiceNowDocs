@@ -2,6 +2,7 @@
 title: NGINX load balancer discovery
 description: Discovery of NGINX load balancers is performed by SSH.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_LoadBalancerNGINX.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -24,7 +25,7 @@ Consider the following requirements for discovering NGINIX servers:
 -   Enable secure shell \(SSH\) commands.
 -   The NGINX probes require credentials and execute privileges to run commands.
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 The Nginx Process Classifier detects a running process that matches the following criteria during the exploration of a UNIX server:
 
@@ -51,5 +52,5 @@ In addition to populating the data, the following relationships records are crea
 -   The records in the cmdb\_ci\_pool table are members of the cmdb\_ci\_pool\_member table records.
 -   The records in the cmdb\_ci\_pool\_member table are members of the cmdb\_ci\_pool table records.
 
-**Parent Topic:**[Load balancer discovery](c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

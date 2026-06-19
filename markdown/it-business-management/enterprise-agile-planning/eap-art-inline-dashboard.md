@@ -2,6 +2,7 @@
 title: EAP ART dashboard
 description: The ART dashboard provides a snapshot of the overall progress of your Planning Interval \(PI\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/eap-art-inline-dashboard.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -15,9 +16,9 @@ breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planni
 
 The ART dashboard provides a snapshot of the overall progress of your Planning Interval \(PI\).
 
-![ART Inline dashboard](../images/eap-art-inline-dashboard.png)
+\[Omitted image "eap-art-inline-dashboard.png"\] Alt text: ART Inline dashboard
 
-You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](configuring-eap-dashboard.md).
+You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
 
 ## Required EAP roles
 
@@ -77,7 +78,7 @@ PI progress
 
 Gauge
 
-![PI progress.](../../../use/reporting/image/inline-data-vis-96px-speedometer.png)
+\[Omitted image "inline-data-vis-96px-speedometer.png"\] Alt text: PI progress.
 
 </td><td>
 
@@ -95,7 +96,7 @@ Total features
 
 Single Score
 
-![Total features.](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+\[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text: Total features.
 
 </td><td>
 
@@ -113,7 +114,7 @@ Blocked features
 
 Single Score
 
-![Blocked features.](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+\[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text: Blocked features.
 
 </td><td>
 
@@ -131,7 +132,7 @@ Total story points
 
 Single Score
 
-![Total story points.](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+\[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text: Total story points.
 
 </td><td>
 
@@ -149,7 +150,7 @@ Features missing estimates
 
 Single Score
 
-![Features missing estimates.](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+\[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text: Features missing estimates.
 
 </td><td>
 
@@ -167,7 +168,7 @@ Features by state
 
 Bar graph
 
-![Features by state.](../../../use/reporting/image/inline-data-vis-bar-column.png)
+\[Omitted image "inline-data-vis-bar-column.png"\] Alt text: Features by state.
 
 </td><td>
 
@@ -185,7 +186,7 @@ Work item distribution
 
 Donut
 
-![Distribution of work items.](../../../use/reporting/image/inline-data-vis-96px-donut.png)
+\[Omitted image "inline-data-vis-96px-donut.png"\] Alt text: Distribution of work items.
 
 </td><td>
 
@@ -209,7 +210,7 @@ What does the team plan to achieve in this iteration?
 
 List
 
-![Goals list.](../../../use/reporting/image/inline-data-vis-list.png)
+\[Omitted image "inline-data-vis-list.png"\] Alt text: Goals list.
 
 </td><td>
 
@@ -227,7 +228,7 @@ Team performance
 
 List
 
-![Team list.](../../../use/reporting/image/inline-data-vis-list.png)
+\[Omitted image "inline-data-vis-list.png"\] Alt text: Team list.
 
 </td><td>
 
@@ -237,7 +238,7 @@ sn\_apw\_advanced\_eap\_iteration
 
 Evaluate child teams progress and help them enhance their performance.
 
- You can choose and rearrange the columns of the report by selecting the ![Settings icon.](../../../reuse/icons/product-icons/gear-outline-24.svg) icon.
+ You can choose and rearrange the columns of the report by selecting the \[Omitted image "gear-outline-24.svg"\] Alt text: Settings icon. icon.
 
 </td></tr></tbody>
 </table>

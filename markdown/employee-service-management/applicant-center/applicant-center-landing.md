@@ -2,6 +2,7 @@
 title: Applicant Center
 description: Applicant Center offers a streamlined and tailored experience for applicants through a dedicated portal, enhancing their overall recruitment experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/applicant-center-landing.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -19,19 +20,19 @@ Applicant Center offers a streamlined and tailored experience for applicants thr
 
 <table id="table_wcx_w3c_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Applicant Center](exploring-applicant-center.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/exploring-applicant-center.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure the Applicant Center application](config-applicant-center.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Applicant Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/config-applicant-center.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-c-suite-leader.svg)Learn how to use Applicant Center](use-applicant-center.md)
+[Use\[Omitted image "bus-c-suite-leader.svg"\] Alt text:Learn how to use Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/use-applicant-center.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Important reference information about Applicant Center](applicant-center-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Important reference information about Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/applicant-center-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

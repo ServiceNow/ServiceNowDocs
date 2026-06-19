@@ -2,6 +2,7 @@
 title: Entity Based Access
 description: The Entity Based Access \(EBA\) application enables you to segregate data on the records that are based on entities. Entity-based access administrators can use this tool to set up secure, controlled access to various objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/entity-based-access.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -37,7 +38,7 @@ Key features of the Entity Based Access configuration include:
 
 Entity Based Access restricts access to records to users based on the configuration as shown in the following diagram:
 
-![Entity-based access security flow that is described in the text that follows.](../image/eba-security-flow.png "Entity-based access security flow")
+\[Omitted image "eba-security-flow.png"\] Alt text: Entity-based access security flow that is described in the text that follows.
 
 The details about the entity-based access security flow are:
 
@@ -50,22 +51,22 @@ The details about the entity-based access security flow are:
 -   For information on how to use Entity Based Access on custom tables, see the steps in [KB1646304](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1646304).
 -   For information about the limitations of Entity Based Access, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB2054513](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2054513).
 
--   **[Sample use case scenarios](sample-usecases.md)**  
+-   **[Sample use case scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/sample-usecases.md)**  
 Use case scenarios offer a clear and comprehensive explanation of why you would use the Entity Based Access application.
--   **[User roles for Entity Based Access](../reference/user-roles-for-entity-based-access.md)**  
+-   **[User roles for Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/user-roles-for-entity-based-access.md)**  
 Users with specific user roles have access to read or update the Entity Based Access configuration or the bulk access update configuration.
--   **[Entity based record access update utility](entity-based-access-playbook.md)**  
+-   **[Entity based record access update utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access-playbook.md)**  
 The entity based record access update utility is a guided assistance, designed to simplify the application of enabling or disabling access restrictions across large volumes of records.
--   **[Entity-based record access rules](continuous-monitoring-of-entity-based-access.md)**  
+-   **[Entity-based record access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/continuous-monitoring-of-entity-based-access.md)**  
 The entity-based record access rules let admins apply restrictions automatically to new and changed records. This configuration ensures that access settings stay enforced. No manual updates are needed when records are created, modified, or when users are added to user fields or user group fields.
--   **[Deactivating entity-based access configuration](deactivating-entity-based-access.md)**  
+-   **[Deactivating entity-based access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/deactivating-entity-based-access.md)**  
 Deactivating entity-based access \(EBA\) not only disables the configuration but also streamlines admin workflows by automating record-level access evaluation.
--   **[Configuring Entity Based Access](setting-up-entity-based-access.md)**  
+-   **[Configuring Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/setting-up-entity-based-access.md)**  
 Configure the Entity Based Access application by installing it from the ServiceNow Store and by setting up Entity Based Access properties in the instance.
--   **[Managing Entity Based Access](using-entity-based-access.md)**  
+-   **[Managing Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-entity-based-access.md)**  
 You can manage access to the objects or record types in a system by using the Entity Based Access application. You can restrict access by using an entity, entity class, or entity type configuration.
--   **[Entity Based Access reference](../reference/entity-based-access-reference.md)**  
+-   **[Entity Based Access reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access-reference.md)**  
 Entity-based access restriction can be applied on some GRC tables.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

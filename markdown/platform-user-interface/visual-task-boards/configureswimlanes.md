@@ -2,6 +2,7 @@
 title: Configure a Visual Task Board with swimlanes
 description: Swimlanes enable you to create an environment with horizontal lanes in addition to vertical lanes. Swimlanes use only compact cards in Visual Task Board.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/configureswimlanes.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -21,14 +22,14 @@ Role required: none
 
 ## About this task
 
-You can add swimlanes in all types of Visual Task Boards. For more information see [Add or modify Visual Task Board lanes](t_AddOrModifyALane.md).
+You can add swimlanes in all types of Visual Task Boards. For more information see [Add or modify Visual Task Board lanes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/t_AddOrModifyALane.md).
 
 When you select swimlanes in Visual Task Boards, you can do the following:
 
 -   Name and rename the swimlanes.
 -   Move the tasks horizontally and vertically from one user to another.
 -   Drag the cards across swimlanes.
--   Reorder swimlanes by dragging them or from **Lane Configuration**.![Lane configuration](../image/laneconfiguration.png)
+-   Reorder swimlanes by dragging them or from **Lane Configuration**.\[Omitted image "laneconfiguration.png"\] Alt text: Lane configuration
 -   Collapse and expand swimlanes.
 
 ## Procedure
@@ -43,11 +44,11 @@ When you select swimlanes in Visual Task Boards, you can do the following:
 
     -   In a freeform board, activate the swimlanes by sliding the **Swimlanes** toggle switch in the **Info** tab.
 
-        ![Activate swimlanes for a freeform board](../image/Swimlanesactivate.png)
+        \[Omitted image "Swimlanesactivate.png"\] Alt text: Activate swimlanes for a freeform board
 
         The following figure shows a sample freeform board created with swimlanes.
 
-        ![Freeform board with swimlanes](../image/Freeformboardswimlanes.png)
+        \[Omitted image "Freeformboardswimlanes.png"\] Alt text: Freeform board with swimlanes
 
     -   In a data driven flexible board, do the following:
 
@@ -55,16 +56,16 @@ When you select swimlanes in Visual Task Boards, you can do the following:
         2.  Click **Next** and slide the toggle under the **Info** tab to the right.
 <table id="table_pww_dwv_hhb"><tbody><tr><td>
 
-![Activate swimlanes for a data driven flexible board](../image/flexibleboard.png)
+\[Omitted image "flexibleboard.png"\] Alt text: Activate swimlanes for a data driven flexible board
 
 </td><td>
 
-![Activate swimlanes by toggle button](../image/Swimlanesactivate.png)
+\[Omitted image "Swimlanesactivate.png"\] Alt text: Activate swimlanes by toggle button
 
 </td></tr></tbody>
 </table>        The following figure shows a data driven guided board created with swimlanes.
 
-        ![Data driven guided board with swimlanes](../image/datadrivenswimlanes.png)
+        \[Omitted image "datadrivenswimlanes.png"\] Alt text: Data driven guided board with swimlanes
 
     -   In a data driven guided board, select **Vertical Lane Field** and **Swimlane Field** while creating the board. You must have created a freeform board in order to create a guided board.
 
@@ -72,13 +73,13 @@ When you select swimlanes in Visual Task Boards, you can do the following:
 
 <table id="table_qsc_2yv_hhb"><tbody><tr><td>
 
-![Activate swimlanes for a data driven flexible board](../image/swimlanedata.png)
+\[Omitted image "swimlanedata.png"\] Alt text: Activate swimlanes for a data driven flexible board
 
 </td><td>
 
-![Activate swimlanes in existing board](../image/guidedswimlanes2.png)
+\[Omitted image "guidedswimlanes2.png"\] Alt text: Activate swimlanes in existing board
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Customizing and configuring Visual Task Boards](../concept/configuring-vis-task-boards.md)
+**Parent Topic:**[Customizing and configuring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/configuring-vis-task-boards.md)
 

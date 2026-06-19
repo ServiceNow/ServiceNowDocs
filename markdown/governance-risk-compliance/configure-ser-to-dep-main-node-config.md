@@ -2,6 +2,7 @@
 title: Sample Services to dependencies configuration
 description: Create a Services to dependencies sample Main node configuration record for linking services to dependencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-ser-to-dep-main-node-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,23 +20,23 @@ Role required: sn\_oper\_res.admin
 
 ## About this task
 
-For the configuration sequence and instructions in Operational Resilience, see [Configuring Operational Resilience](../concept/configure-operational-resilience.md).
+For the configuration sequence and instructions in Operational Resilience, see [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md).
 
-For instructions on creating the Main node configuration records, see [Configure the Main node configurations](set-up-main-node.md).
+For instructions on creating the Main node configuration records, see [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-main-node.md).
 
 ## Procedure
 
 1.  Download the Operational Resilience application in your instance.
 
-    For instructions on downloading the Operational Resilience application, see [Install Operational Resilience application](download-opres.md).
+    For instructions on downloading the Operational Resilience application, see [Install Operational Resilience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-opres.md).
 
 2.  Ensure that you have set up the pillars, entity types, entity filters and entities are generated.
 
-    Refer to the configuration instructions on the [Configuring Operational Resilience](../concept/configure-operational-resilience.md) page.
+    Refer to the configuration instructions on the [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md) page.
 
 3.  Ensure that you have the Data Relationships Framework application, which is available by default, is available in your instance.
 
-    Ensure that you have completed other pre-requisites listed in the [Configure the Main node configurations](set-up-main-node.md).
+    Ensure that you have completed other pre-requisites listed in the [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-main-node.md).
 
 4.  Navigate to **All** &gt; **Data Relationships Framework** &gt; **Main node configurations**.
 
@@ -43,7 +44,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
 5.  To create a new Main configuration record, select **New**.
 
-    For descriptions of all the fields in the form, see [Main node configuration form](../reference/main-node-config-form.md).
+    For descriptions of all the fields in the form, see [Main node configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-config-form.md).
 
 6.  Add the name for the configuration as **Service to Dependencies**.
 
@@ -55,25 +56,25 @@ For instructions on creating the Main node configuration records, see [Configure
 
     The following example shows the filter condition for the **Service to Dependencies** configuration.
 
-    ![Service to dependency"configuration.](../image/ser-to-dep-main-node.png)
+    \[Omitted image "ser-to-dep-main-node.png"\] Alt text: Service to dependency"configuration.
 
 10. Select **Submit**.
 
     The **Service to Dependencies** Main node configuration is created and displayed in the Main node configurations list.
 
-    ![List.](../image/service-to-dep-from-list.png)
+    \[Omitted image "service-to-dep-from-list.png"\] Alt text: List.
 
 11. To define the node relationships, open the **Service to Dependencies** Main node configuration record and select **New** in the Node relationship configurations.
 
     The Node relationship configuration new record is displayed.
 
-    ![Record.](../image/node-rel-config-new-record.png)
+    \[Omitted image "node-rel-config-new-record.png"\] Alt text: Record.
 
-    For description of the fields, see [Relationship registry record form](../reference/rel-registry-record-form.md).
+    For description of the fields, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rel-registry-record-form.md).
 
 12. Select the table of your choice in the **Source table** field in the **Source** tab.
 
-    ![Source table.](../image/node-rel-src-table.png)
+    \[Omitted image "node-rel-src-table.png"\] Alt text: Source table.
 
     By default, the system auto-selects the table listed in the Main configuration record, the Service \[cmdb\_ci\_service\] table in this example. You can choose the auto-suggested table or a different table as per your requirements.
 
@@ -83,7 +84,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
     1.  Select the **Search** icon and select the Relationship registry record from the available list.
 
-        ![Relationship tab.](../image/node-rel-conf-rel-tab.png)
+        \[Omitted image "node-rel-conf-rel-tab.png"\] Alt text: Relationship tab.
 
         Selecting the search icon shows the out-of-the-box Relationship registries that have Service as the source table. You can select a Relationship registry from the list.
 
@@ -113,7 +114,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
         For One-to-one relationship type, the **Relationship** field shows the list of tables that are used as reference fields in the Source table.
 
-        ![Table.](../image/rel-reg-table.png)
+        \[Omitted image "rel-reg-table.png"\] Alt text: Table.
 
         After you select the relationship table, the table name is populated in the **Relationship** field.
 
@@ -121,22 +122,22 @@ For instructions on creating the Main node configuration records, see [Configure
 
         You have configured the Source table and Relationship registry.
 
-        ![Registry.](../image/rel-tab-rel-registry.png)
+        \[Omitted image "rel-tab-rel-registry.png"\] Alt text: Registry.
 
         You can configure the Target section in the Node relationship configuration record in the next step.
 
-        ![Target fields.](../image/node-rel-target-fields.png)
+        \[Omitted image "node-rel-target-fields.png"\] Alt text: Target fields.
 
 14. For non-m2m tables, in the **Target** tab, select **Sys ID** as the **Target reference field** and choose the Relationship table as the **Target table**.
 
     The Target table and Target reference field are shown in the example.
 
-    ![Target.](../image/node-rel-target.png)
+    \[Omitted image "node-rel-target.png"\] Alt text: Target.
 
 15. Select **Submit**.
 
     The Node relationship configuration for the **Service to Dependencies** Main configuration record is now updated.
 
-    ![Services to Dependencies.](../image/ser-to-dep-main-node-config.png)
+    \[Omitted image "ser-to-dep-main-node-config.png"\] Alt text: Services to Dependencies.
 
 

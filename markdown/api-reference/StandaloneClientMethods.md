@@ -2,6 +2,7 @@
 title: StandaloneClientMethods
 description: Standalone client methods are methods that you can use within your client JavaScripts, such as reflistOpen, but aren't a part of any class or API.Shows the reference field data in a standard pop-up window. This method is commonly used when selecting a magnifying glass icon, beside any reference field, in UI 16 forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/StandaloneClientMethods.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ Standalone client methods are methods that you can use within your client JavaSc
 
 You can directly access these methods within a client script without any constructor or other type of instantiation before use.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## Standalone - reflistOpen \(String target, String elementName, String refTableName, String dependent, String useQBE, String refQualElements, String additionalQual, String parentID, String forceReference, String ignoreTargetValue\)
 
@@ -25,11 +26,11 @@ Shows the reference field data in a standard pop-up window. This method is commo
 
 For example, using this method you can display reference field data for a specific set of query criteria:
 
-![Ref data in pop-up window](../image/reflistOpen_popup_image1.png)
+\[Omitted image "reflistOpen\_popup\_image1.png"\] Alt text: Ref data in pop-up window
 
 Similarly, you can use this method to display a search form that enables the user to enter their own set of query criteria for selecting the reference field data to display.
 
-![Search in pop-up window](../image/reflistOpen_popup_image2.png)
+\[Omitted image "reflistOpen\_popup\_image2.png"\] Alt text: Search in pop-up window
 
 When opening the URL in the standard pop-up, if the URL length is greater than TinyURL length, 1024 by default, the URL is converted to TinyURL, such as:
 
@@ -97,7 +98,7 @@ String
 
 </td><td>
 
-Configured dependent field for the specified **target** element. For additional information, see [Make a field dependent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_MakingAFieldDependent.md).
+Configured dependent field for the specified **target** element. For additional information, see .
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ String
 
 </td><td>
 
-Configured reference qualifier for the specified **target** element. The function appends the specified reference qualifiers to the URL and only displays the filtered results in the pop-up window. If you don't want to include a reference qualifier, pass an empty string.For additional information on reference qualifiers, see [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ReferenceQualifiers.md).
+Configured reference qualifier for the specified **target** element. The function appends the specified reference qualifiers to the URL and only displays the filtered results in the pop-up window. If you don't want to include a reference qualifier, pass an empty string.For additional information on reference qualifiers, see .
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Use enhanced reference record
 description: View and manage records when referring to other records in the current Decision Tables, without switching to another screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/using-enhanced-reference-record.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -25,7 +26,7 @@ Role required: admin
 
 You can view the detailed reference records in your current decision table instance. You can also open these records and make changes.
 
-![Enhanced reference record](../image/reference-record-result.png)
+\[Omitted image "reference-record-result.png"\] Alt text: Enhanced reference record
 
 ## Procedure
 
@@ -41,12 +42,12 @@ You can view the detailed reference records in your current decision table insta
 
     For example, in the screenshot, the column labeled **Incident** has the condition set to `is` and the value is set as `INC0009005`.
 
-    After setting this value, you’ll see an info icon ![reference record info icon](../image/reference-record-icon.png) in the value field similar to the screenshot.
+    After setting this value, you’ll see an info icon \[Omitted image "reference-record-icon.png"\] Alt text: reference record info icon in the value field similar to the screenshot.
 
-    ![reference record column](../image/reference-record-column.png)
+    \[Omitted image "reference-record-column.png"\] Alt text: reference record column
 
-6.  Select the ![reference record info icon](../image/reference-record-icon.png) icon to view the record details.
+6.  Select the \[Omitted image "reference-record-icon.png"\] Alt text: reference record info icon icon to view the record details.
 
 
-**Parent Topic:**[Using decision tables](../concept/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

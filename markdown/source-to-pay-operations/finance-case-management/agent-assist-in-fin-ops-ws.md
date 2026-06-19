@@ -2,6 +2,7 @@
 title: Agent assist in Finance Operations Workspace
 description: Agent assist displays relevant search results based on the search text. The text is defaulted with the short description of the finance case you’re working on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/agent-assist-in-fin-ops-ws.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -32,11 +33,11 @@ Select the card to view the following additional details of the case:
 -   Person to whom the finance case is assigned
 -   Reason for closing the finance case
 
-You can also search for knowledge articles. Select the search resource icon ![](../image/fin-ops-search-resource.png) and select **Knowledge Articles** to view the articles.
+You can also search for knowledge articles. Select the search resource icon \[Omitted image "fin-ops-search-resource.png"\] Alt text: and select **Knowledge Articles** to view the articles.
 
-![Select a resource in Agent assist.](../image/fin-ops-agent-assist.png)
+\[Omitted image "fin-ops-agent-assist.png"\] Alt text: Select a resource in Agent assist.
 
 The Agent assist component is configured and customized by admins in UI Builder. For more information about Agent assist component configurations, see [Agent assist UIB setup](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/sn-agent-assist-uib/uib-setup).
 
-**Parent Topic:**[Finance Operations Workspace Case Details page](case-details-fin-ops-ws.md)
+**Parent Topic:**[Finance Operations Workspace Case Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/case-details-fin-ops-ws.md)
 

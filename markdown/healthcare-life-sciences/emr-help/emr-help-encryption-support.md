@@ -2,6 +2,7 @@
 title: Encryption options in EMR Help
 description: EMR Help provides encryption support to secure sensitive information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-help-encryption-support.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -19,8 +20,8 @@ Encryption prevents unauthorized users from viewing sensitive EMR system data.
 
 The following encryption options on the ServiceNow AI Platform are supported in the EMR Help application:
 
--   [Column Level Encryption](emr-help-encryption-support.md#section_v2g_g2x_cpb)
--   [Column Level Encryption Enterprise](emr-help-encryption-support.md#section_htr_f2x_cpb)
+-   [Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-encryption-support.md)
+-   [Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-help-encryption-support.md)
 
 ## Column Level Encryption
 
@@ -32,11 +33,11 @@ By default, the **rmt\_help\_data\_view** encryption module associated with the 
 
 ## Column Level Encryption Enterprise
 
-Column Level Encryption Enterprise provides an enhanced encryption capability and utilizes the Key Management Framework \(KMF\). For using the Column Level Encryption Enterprise option with the EMR Help application, your administrator must activate the plugin \(com.glide.now.platform.encryption\). As an administrator, you can choose to opt in to use CLE with KMF. For more information, see [Activate Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-platform-encryption.md).
+Column Level Encryption Enterprise provides an enhanced encryption capability and utilizes the Key Management Framework \(KMF\). For using the Column Level Encryption Enterprise option with the EMR Help application, your administrator must activate the plugin \(com.glide.now.platform.encryption\). As an administrator, you can choose to opt in to use CLE with KMF. For more information, see Activate Column Level Encryption Enterprise.
 
-Beginning with the Quebec release, the migration of keys and encrypted data from Encryption Support to Column Level Encryption is automated using scheduled jobs. For more information, see [Migrating to Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/migration-to-platform-encryption.md).
+Beginning with the Quebec release, the migration of keys and encrypted data from Encryption Support to Column Level Encryption is automated using scheduled jobs. For more information, see Migrating to Column Level Encryption Enterprise.
 
 **Note:** Existing customers on the Paris release must contact ServiceNow Customer Support to migrate keys and encrypted data from Encryption Support to Column Level Encryption Enterprise.
 
-**Parent Topic:**[EMR Help reference](../reference/emr-reference.md)
+**Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-reference.md)
 

@@ -2,6 +2,7 @@
 title: Assign unassigned work using Resource finder
 description: Assign resource using the AI suggestions which match the skill-set and primary attributes requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/assign-resources-using-resource-finder.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -29,19 +30,19 @@ AI resource finder helps resource and project managers identify the best-fit res
 -   Rationale: AI-generated explanation for the fit score.
 -   Availability: The availability of the resource for a task.
 
-For more information regarding how the Resource finder works and the resources are mapped, see [Resource finder](../concept/explore-rmw.md#section_kz2_fml_bjc).
+For more information regarding how the Resource finder works and the resources are mapped, see [Resource finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/explore-rmw.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Resource Management Workspace**.
 
-2.  Select the Resource cards icon \(![Resource cards icon.](../images/rmw-resource-cards-L1-icon.png)\) from the menu and open a resource card.
+2.  Select the Resource cards icon \(\[Omitted image "rmw-resource-cards-L1-icon.png"\] Alt text: Resource cards icon.\) from the menu and open a resource card.
 
     Alternatively, you can view unassigned tasks using the Unassigned assignment requests widget from the overview dashboard.
 
-3.  From unassigned tasks pane, select the context menu row \(![3 vertical dots denoting the row context menu.](../../spw-financials/images/row-context-menu-icon.png)\) for any task and select **Resource finder**.
+3.  From unassigned tasks pane, select the context menu row \(\[Omitted image "row-context-menu-icon.png"\] Alt text: 3 vertical dots denoting the row context menu.\) for any task and select **Resource finder**.
 
-    ![Resource-finder-modal.](../../now-assist-spm/images/resource-finder-modal.png)
+    \[Omitted image "resource-finder-modal.png"\] Alt text: Resource-finder-modal.
 
 4.  From Resource finder modal, select **Show monthly availability** toggle or weekly.
 
@@ -49,10 +50,10 @@ For more information regarding how the Resource finder works and the resources a
 
 6.  From Assign resources modal, review the allocations and distributions and select **Assign**.
 
-    ![assign-resources](../../now-assist-spm/images/assign-resources-ai.png)
+    \[Omitted image "assign-resources-ai.png"\] Alt text: assign-resources
 
     The resource is assigned to the task.
 
 
-**Parent Topic:**[Using Resource Management Workspace](../concept/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
 

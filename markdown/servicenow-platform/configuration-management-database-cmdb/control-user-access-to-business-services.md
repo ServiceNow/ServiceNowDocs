@@ -2,6 +2,7 @@
 title: Control user access to application services
 description: Assign user roles to service groups to grant users access to application services in your organization. Your organization may restrict access to some services for security or secrecy reasons.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/control-user-access-to-business-services.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -19,11 +20,11 @@ Assign user roles to service groups to grant users access to application service
 
 Make sure that you have performed the user provisioning tasks for the users you want to grant access:
 
-1.  [Add users to user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
-2.  [Create new roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateARole.md).
-3.  [Assign roles to users or user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+1.  Add users to user groups.
+2.  Create new roles.
+3.  Assign roles to users or user groups.
 
-Also, make sure that you have created service groups as described in [Group application services](organizing_services-into-groups.md).
+Also, make sure that you have created service groups as described in [Group application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/organizing_services-into-groups.md).
 
 Role required: app\_service\_admin or service\_mapping\_admin
 
@@ -80,7 +81,7 @@ Typically, enterprises have hundreds of services which makes it impractical to m
 
 Users inherit permissions from roles that are assigned to them. You can assign some roles directly to service groups to allow all users with this role to access all application services belonging to this group. However, most enterprises choose to organize their roles as a hierarchy. It helps to manage roles across multiple ServiceNow applications. For example, the Service Mapping administrator \[service\_mapping\_admin\] can be part of a broader administrator role like administrator \[admin\]. You can add users to user groups and then assign roles to the user groups to give permissions of this role simultaneously to all the group users.
 
-![Assigning a role to an service instance group for user access](../image/AccessToBusinessServiceGroups.png "Assigning a role to an application service group")
+\[Omitted image "AccessToBusinessServiceGroups.png"\] Alt text: Assigning a role to an service instance group for user access
 
 By default, all new services are assigned to the **All** service group that lets all users view and manage service instances. When you assign a role to a service group, the users with this role can access service instances in this service group and in the **All** service group. To enable users with this role to access other services, assign this role to the respective service group. Do not assign user roles directly to the **All** service group.
 

@@ -2,6 +2,7 @@
 title: Relate a control objective to a citation
 description: A single control objective can be mapped to many citations from different authority documents. This function allows you to test a control objective once while complying with many different citations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/t\_RelatePSToACitation.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -177,5 +178,5 @@ Description of the control objective and how it supports the goals of the organi
     The control objective that you created is related to the citation.
 
 
-**Parent Topic:**[Manage control objectives and policies](../reference/r_PoliciesAndProcedures.md)
+**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

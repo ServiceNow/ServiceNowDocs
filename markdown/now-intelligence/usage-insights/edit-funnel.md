@@ -2,6 +2,7 @@
 title: Edit a conversion funnel
 description: Edit conversion funnel data to collect or steps to include in your analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/edit-funnel.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -27,14 +28,14 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 3.  Select **Analysis** &gt; **Conversion funnel**.
 
-4.  Select the Actions menu ![Actions menu icon](../../integrationhub/images/more-actions-menu-icon.png) of the funnel you want to edit and choose **Edit**.
+4.  Select the Actions menu \[Omitted image "more-actions-menu-icon.png"\] Alt text: Actions menu icon of the funnel you want to edit and choose **Edit**.
 
-    ![Conversion funnel module with Actions menu and Edit option highlighted](../../../use/par-for-workspace/image/uxa-funnel-edit.png)
+    \[Omitted image "uxa-funnel-edit.png"\] Alt text: Conversion funnel module with Actions menu and Edit option highlighted
 
 5.  Change the funnel name or description, and edit or add steps as applicable.
 
 6.  Select **Save** to update the funnel configuration.
 
 
-**Parent Topic:**[Funnel reports in Usage Insights](../concept/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

@@ -2,6 +2,7 @@
 title: Triaging universal requests for legal investigation complaints
 description: When employees observe and report an ethics violation or similar incident, the resulting universal requests are triaged for prioritization and resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/manage-legal-investigations-uni-request.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -30,8 +31,8 @@ Due to the sensitivity of such cases, you can view and work on these universal r
     With the sn\_hr\_er.case\_writer role, you can create a Report Misconduct HR case from the universal request.
 
 
--   **[Create an ethics legal matter from a universal request](../task/create-legal-ticket-universal-request.md)**  
+-   **[Create an ethics legal matter from a universal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/create-legal-ticket-universal-request.md)**  
 Create an ethics legal matter from a universal request to get the Legal department's assistance in resolving the complaints.
 
-**Parent Topic:**[Managing complaint requests](managing-legal-investigations-request.md)
+**Parent Topic:**[Managing complaint requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/managing-legal-investigations-request.md)
 

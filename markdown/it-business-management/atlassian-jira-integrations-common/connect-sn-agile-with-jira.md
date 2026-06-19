@@ -2,6 +2,7 @@
 title: Connecting Agile Development 2.0 to Jira
 description: Establish a connection between Agile Development 2.0 and Jira using a Jira connection alias and a Jira instance.Create a Basic Auth credential and an HTTP\(s\) connection with a Jira connection alias to establish a connection with Jira.Create a Jira instance record using the connection alias that you created to enable the setup of Jira integration with Agile Development 2.0.Connect Jira to Agile Development 2.0 to enable the integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/connect-sn-agile-with-jira.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -20,7 +21,7 @@ When you connect Agile Development 2.0 to Jira, a webhook is registered in Jira 
 -   Creating or updating projects.
 -   Creating, updating, or deleting information of epic, story, sprint, and any custom table maps and their fields.
 
-**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](../task/setting-up-the-integration-between-jira-and-agile-development.md)
+**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)
 
 ## Create a Jira connection alias for integration with Agile Development 2.0
 
@@ -35,16 +36,16 @@ Roles required:
 
 ### Procedure
 
-1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md)
+1.  Create a Connection &amp; Credential alias
 
     -   You can use the connection alias \(sn\_jira\_int.Jira\) that is available by default.
     -   You must create a connection alias for every Jira instance that you use.
     -   For Jira server \(on-prem\) users, ensure that the **server\_type** and **server\_version** connection attributes are present.
-2.  Create [Basic authorization credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md).
+2.  Create Basic authorization credentials.
 
     Ensure that the user for whom the basic authorization credentials are created has access to all Jira projects.
 
-3.  [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
+3.  Create an HTTP\(s\) connection.
 
 
 ## Create a Jira Instance for integration with Agile Development 2.0
@@ -66,8 +67,8 @@ Role required: sn\_jira\_int.admin or sn\_jira\_int.user
     |Field|Description|
     |-----|-----------|
     |Name|Name of the Jira instance. Enter a name of your choice.|
-    |Connection Alias|Jira connection alias that you already created. Use the lookup \(![Lookup icon](../../project-workspace/image/lookup_icon.png)\) option to select your connection alias.|
-    |Version|Jira version. Use the lookup \(![Lookup icon](../../project-workspace/image/lookup_icon.png)\) option to select your Jira API version.|
+    |Connection Alias|Jira connection alias that you already created. Use the lookup \(\[Omitted image "lookup\_icon.png"\] Alt text: Lookup icon\) option to select your connection alias.|
+    |Version|Jira version. Use the lookup \(\[Omitted image "lookup\_icon.png"\] Alt text: Lookup icon\) option to select your Jira API version.|
 
 4.  Click **Submit**.
 
@@ -96,7 +97,7 @@ Role required: sn\_jira\_int.user
 
 ### What to do next
 
-[Discover and import Jira projects and boards](../task/discover-projects.md)
+[Discover and import Jira projects and boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/discover-projects.md)
 
 .
 

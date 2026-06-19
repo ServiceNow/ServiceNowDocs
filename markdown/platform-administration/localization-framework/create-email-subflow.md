@@ -2,6 +2,7 @@
 title: Create a custom email subflow
 description: Create an email subflow according to your requirements. You can then select this subflow to define translation preferences for a language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/create-email-subflow.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -23,7 +24,7 @@ Roles required: localization\_admin and flow\_designer
 
 The Localization Framework provides a default email subflow that you can customize.
 
-Copy the existing email subflow configured for the Localization Framework and then customize it. Publish the customized subflow so that it is available for selection when setting up the translation preference for a language. For more information, see [Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-subflow.md).
+Copy the existing email subflow configured for the Localization Framework and then customize it. Publish the customized subflow so that it is available for selection when setting up the translation preference for a language. For more information, see Create a subflow.
 
 ## Procedure
 
@@ -43,7 +44,7 @@ Copy the existing email subflow configured for the Localization Framework and th
     |source\_language|Language from which the localization task was created.|String|
     |target\_language|Language into which the content of the localization task gets translated into.|String|
 
-4.  In the subflow header, click the more actions icon ![More actions](../image/more-actions-icon.png) and select **Copy subflow.**
+4.  In the subflow header, click the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions and select **Copy subflow.**
 
 5.  In the **New subflow name** field, enter the name of the new subflow.
 
@@ -196,5 +197,5 @@ Represents the email table.
 
 Use the published subflow to define the translation preference for a language.
 
-**Parent Topic:**[Localization Framework settings](../concept/localization-settings.md)
+**Parent Topic:**[Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-settings.md)
 

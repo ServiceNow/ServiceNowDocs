@@ -2,6 +2,7 @@
 title: Roles installed with the GRC Risk Workspace
 description: The GRC: Risk Workspace application installs the roles for Operational risk manager and IT risk manager for the users to perform their respective tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/roles-installed-with-risk-ws.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -89,5 +90,5 @@ Business operational risk managers are the first lines of defense for each indiv
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Risk Management](../../grc-risk/reference/r_InstallWRisk.md)
+</table>**Parent Topic:**[Components installed with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/r_InstallWRisk.md)
 

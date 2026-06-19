@@ -2,6 +2,7 @@
 title: Review your service acknowledgment task from Employee Center
 description: Review and acknowledge the receipt status of your ordered service from your supplier from Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/review-serv-ack-task-ec.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -39,15 +40,15 @@ The due date of your service acknowledgment task is set based on the due date de
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d82344e121">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d40789e121">
 
 Action
 
-</th><th align="left" id="d82344e124">
+</th><th align="left" id="d40789e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d82344e130">
+</th></tr></thead><tbody><tr><td id="d40789e130">
 
 **I didn't receive any services**
 
@@ -55,7 +56,7 @@ Description
 
 Displays the **Confirm you didn't receive any services** dialog box to record your confirmation for that particular month. On confirmation, the task is marked as Closed Complete and moved to the **Completed** tab. The scheduled job will run to create a new task for you the following month.
 
-</td></tr><tr><td id="d82344e145">
+</td></tr><tr><td id="d40789e145">
 
 **Mark as received**
 
@@ -63,7 +64,7 @@ Displays the **Confirm you didn't receive any services** dialog box to record yo
 
 Displays the **Specify the quantity you received** dialog box, where you can enter the received quantity for the selected purchase line for that particular month \(if the unit of the supplier product is individual unit\), or the received percentage \(if the unit of the supplier product is fixed fee\). This information is now displayed in the **Confirmed** tab.**Note:** If you select multiple purchase lines, you can't specify individual amounts or percentages for them, and the entire lines must be marked as received. Also, if the purchase order line has fixed fee as the unit, then it’s automatically set up for percentage.
 
-</td></tr><tr><td id="d82344e162">
+</td></tr><tr><td id="d40789e162">
 
 **Mark this task as complete**
 
@@ -79,5 +80,5 @@ Displays the **Confirm you didn't receive all services** dialog box to record yo
 
 You can view the completed task in the **Completed** tab.
 
-**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](../concept/employee-center-integration-psm.md)
+**Parent Topic:**[Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md)
 

@@ -2,6 +2,7 @@
 title: Request time slots
 description: As an applicant, request the recruiter to share additional interview time slots if you're unavailable or the proposed slots have been booked.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/request-time-slots-ac.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -23,7 +24,7 @@ Role required: sn\_ta\_hiring\_core.external\_applicant or sn\_ta\_hiring\_core.
 
 1.  Navigate to Applicant Center.
 
-    For more information, see [Access the Applicant Center](view-applicant-center.md).
+    For more information, see [Access the Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/view-applicant-center.md).
 
 2.  On the Applicant Center home page, under the Keep track of what’s going on section, locate the proposed interview.
 
@@ -39,8 +40,8 @@ Role required: sn\_ta\_hiring\_core.external\_applicant or sn\_ta\_hiring\_core.
 
 7.  On the Availabilities for Recruiter's call page, select **Share scheduling preferences** to share your preferences for new slots.
 
-    For more information, see [Share scheduling preferences](share-availability-applicant-ac.md).
+    For more information, see [Share scheduling preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/share-availability-applicant-ac.md).
 
 
-**Parent Topic:**[Using Applicant Center](../concept/use-applicant-center.md)
+**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/use-applicant-center.md)
 

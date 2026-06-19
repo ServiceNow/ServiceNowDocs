@@ -2,6 +2,7 @@
 title: Create a Smart Assessment template
 description: Create a Smart Assessment template and impact automation that can be used in the vulnerability types of an operational vulnerability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-sm-asmt-temp-as-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,9 +30,9 @@ Operational Resilience administrators contain the flow\_designer role, enabling 
 
     You can create assessment templates to manage your assessments in the Assessment Workspace. The following example shows demo data in an instance.
 
-    ![Assessment Workspace.](../image/asmt-workspace.png)
+    \[Omitted image "asmt-workspace.png"\] Alt text: Assessment Workspace.
 
-    When you select **New template**, the **General** and **Questions** tabs are displayed.
+    When you select **New template**, the form is displayed.
 
 3.  In the Create assessment template form, fill in the fields.
 
@@ -52,22 +53,26 @@ Operational Resilience administrators contain the flow\_designer role, enabling 
 
     3.  Select **Save**.
 
-    For information on creating an assessment template, see [Create an assessment template](../../assessment-engine/task/sae-asmnt-template-create.md).
+    For information on creating an assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 5.  Navigate to the **Questions** tab and set up the assessment questions.
 
-    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](../../assessment-engine/task/sae-asmnt-template-populate.md).
+    For information on adding instructions and questions to the assessment template, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
 
-    ![Questions.](../image/asmt-temp-questions-tab.png)
+    \[Omitted image "asmt-temp-questions-tab.png"\] Alt text: Questions.
 
-6.  In the **Automations** tab, view the user responses and select **Open** to view the actions that are automatically triggered based on user responses.
+6.  Select **Publish**.
 
-7.  Select **Save** and **Publish**.
+7.  In the **Automations** tab, view the user responses and select **Open** to view the actions that are automatically triggered based on user responses.
+
+8.  Select **Save** and **Publish**.
+
+    **Note:** Starting with GRC: Operational Resilience, version 22.3.1, Smart Assessment templates support version control, and version details are displayed on each template.
 
     A message is displayed that the assessment template is published and it can be used to send assessments. You can select **OK** or select **Return to template list**. The **Automations** and **Scoring** tabs are displayed in the assessment template. The Smart Assessment template is created and saved in the instance.
 
 
 ## What to do next
 
-Configure the vulnerability type after adding the Smart Assessment template. For more information, see [Set up the Operational vulnerability type](set-up-op-vul-type.md).
+Configure the vulnerability type after adding the Smart Assessment template. For more information, see [Set up the Operational vulnerability type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-op-vul-type.md).
 

@@ -2,6 +2,7 @@
 title: Employee Relations integration with Navex Ethicspoint
 description: The ServiceNow Employee Relations integration with Navex Ethicspoint application pulls employee relation cases from NAVEX EthicsPoint into ServiceNow Platform, enabling an HR Agent to work on employee relation cases from an ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/emp-nav-int.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,9 +20,9 @@ The ServiceNow® Employee Relations integration with Navex Ethicspoint applicati
 
 First, activate the Employee Relations integration with NAVEX EthicsPoint \(sn\_hr\_navex\_ep\) application from ServiceNow Store. Activating the Employee Relations integration with NAVEX Ethics application automatically activates, Enterprise Service Management Integrations Framework, Employee Relations, and Navex EthicsPoint spoke.
 
-Next, set up [Set up Employee Relations integration with Navex Ethicspoint](../task/set-up-navex.md).
+Next, set up [Set up Employee Relations integration with Navex Ethicspoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/set-up-navex.md).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

@@ -2,6 +2,7 @@
 title: Allocate budget to a demand
 description: Set the budget of a demand according to the fiscal years.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/allocate-budget-to-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -29,7 +30,7 @@ Role required: it\_portfolio\_manager
 
 3.  Select the fiscal year for which you want to set the budget for the demand.
 
-    **Tip:** You can work on allocating lean budgets at the fiscal period level using the Investment Budget. For more information, see [Enable lean budgeting for demands](config-investment-budget-demand.md).
+    **Tip:** You can work on allocating lean budgets at the fiscal period level using the Investment Budget. For more information, see [Enable lean budgeting for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/config-investment-budget-demand.md).
 
 4.  Enter the amounts for **Capex Budget** and **Opex Budget**.
 
@@ -53,5 +54,5 @@ Role required: it\_portfolio\_manager
 
 The demand budget for the selected year appears in the **Demand Budget** related list. You can select the amounts in the list to revise them.
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
 

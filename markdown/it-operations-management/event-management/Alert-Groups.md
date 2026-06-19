@@ -2,6 +2,7 @@
 title: Alert grouping types and creation methods
 description: Explore different alert grouping types, understand their descriptions, and learn about their creation methods to enhance problem identification and streamline alert management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/Alert-Groups.html
 release: australia
 product: Event Management
 classification: event-management
@@ -61,7 +62,7 @@ Created as part of log analytics event processing.
 
 </td><td>
 
-[Kinds of Health Log Analytics alerts](../../health-log-analytics-operator/reference/hla-op-log-analytics-alert-types.md)
+[Kinds of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md)
 
 </td></tr><tr><td>
 
@@ -81,8 +82,8 @@ Created via business rule \(Calculate correlation rule\) on em\_alert table when
 
 </td><td>
 
--   [Rule-based alert grouping](c_EMEventCorrelationRules.md)
--   [Create an alert correlation rule](../task/t_EMConfigureAnEventCorrelationRule.md)
+-   [Rule-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMEventCorrelationRules.md)
+-   [Create an alert correlation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureAnEventCorrelationRule.md)
 
 </td></tr><tr><td>
 
@@ -102,7 +103,7 @@ Created via scheduled job.
 
 </td><td>
 
-[Automated alert grouping](c_SACorrelatedAlertGroups.md)
+[Automated alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_SACorrelatedAlertGroups.md)
 
 </td></tr><tr><td>
 
@@ -122,7 +123,7 @@ Created via scheduled job.
 
 </td><td>
 
-[CMDB based alert grouping](cmdb-alert-groups.md)
+[CMDB based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/cmdb-alert-groups.md)
 
 </td></tr><tr><td>
 
@@ -142,7 +143,7 @@ Created via scheduled job.
 
 </td><td>
 
-[Network traffic based alert grouping](network-traffic-correlation-grouping.md)
+[Network traffic based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/network-traffic-correlation-grouping.md)
 
 </td></tr><tr><td>
 
@@ -164,7 +165,7 @@ Created via scheduled job.
 
 </td><td>
 
-[Text-based alert grouping](text-based-alert-groups.md)
+[Text-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/text-based-alert-groups.md)
 
 </td></tr><tr><td>
 
@@ -184,7 +185,27 @@ Created via scheduled job.
 
 </td><td>
 
-[Tag cluster alert grouping](alert-clustering-tag-definitions-concept.md)
+[Tag cluster alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-tag-definitions-concept.md)
+
+</td></tr><tr><td>
+
+Shared Impacted Services
+
+</td><td>
+
+Impacted Services
+
+</td><td>
+
+Shared Impacted Services groups consist of related alerts that are automatically clustered based on a shared Top Service — the highest-priority Business Service linked to each alert's configuration item.
+
+</td><td>
+
+Created automatically by the alert grouping job when alerts resolve to the same Top Service.
+
+</td><td>
+
+[Shared impacted services alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/shared-impacted-services-grouping.md)
 
 </td></tr><tr><td>
 
@@ -204,8 +225,8 @@ Created manually by the user.
 
 </td><td>
 
-[Manual alert grouping](../task/t_SAAddAlertCorrelatedAlertGrp.md)
+[Manual alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_SAAddAlertCorrelatedAlertGrp.md)
 
 </td></tr></tbody>
-</table>For information on scheduled jobs and parameters, refer to [Scheduled jobs and parameters for alert grouping](alert-grp-jobs-parameters.md). For detailed information on configuring alert correlation logic order, see [Configure alert correlation logic order](../task/configure-alert-correlation-logic-order.md).
+</table>For information on scheduled jobs and parameters, refer to [Scheduled jobs and parameters for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-grp-jobs-parameters.md). For detailed information on configuring alert correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-alert-correlation-logic-order.md).
 

@@ -2,6 +2,7 @@
 title: Releases in ReleaseOps
 description: Scheduled and on-demand releases are how changes are deployed to target instances with ReleaseOps. Releases can contain one or more deployment requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/releases-in-release-ops.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -29,7 +30,7 @@ For example, an organization might have two release tracks that they define:
 
 The weekly and daily release tracks can coexist without issue.
 
-For more information about creating a release, see [Create a release](../task/create-a-release.md).
+For more information about creating a release, see [Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/create-a-release.md).
 
 ## Release types
 
@@ -39,5 +40,5 @@ On-demand releases are created dynamically when the need arises, such as deployi
 
 **Important:** Changes in an on-demand release are intended to be deployed to their target as soon as possible. However, on-demand releases must still pass the checks in the organization's pipeline. Doing so helps to verify that the changes meet the requirements for the organization's compliance and governance policies, as well as quality assurance checks. Once the on-demand request has passed these checks, the deployment proceeds immediately.
 
-ReleaseOps includes deployment analyzer, a tool provided to introspect a deployment. The deployment analyzer enables release administrators to verify that on-demand releases meet certain criteria, such as only making specific types of code changes. For more information, see [Deployment analyzer in ReleaseOps](deployment-analyzer.md).
+ReleaseOps includes deployment analyzer, a tool provided to introspect a deployment. The deployment analyzer enables release administrators to verify that on-demand releases meet certain criteria, such as only making specific types of code changes. For more information, see [Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-analyzer.md).
 

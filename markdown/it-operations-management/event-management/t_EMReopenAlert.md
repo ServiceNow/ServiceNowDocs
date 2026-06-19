@@ -2,6 +2,7 @@
 title: Reopen an alert
 description: Additional events can cause reopening of alerts, or you can reopen an alert by changing its state. When an alert reopens, any associated incidents can also be updated or reopened according to the incident state and the evt\_mgmt.alert\_reopens\_incident property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMReopenAlert.html
 release: australia
 product: Event Management
 classification: event-management
@@ -39,5 +40,5 @@ When an alert is reopened, the related incident is processed as follows:
 4.  Click **Update**.
 
 
-**Parent Topic:**[Manage and monitor alerts](../concept/c_EMAlert.md)
+**Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMAlert.md)
 

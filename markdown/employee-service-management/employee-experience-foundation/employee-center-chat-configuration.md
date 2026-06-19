@@ -2,11 +2,12 @@
 title: Employee live chat overview
 description: As an employee, you can chat directly and in real time with support agents through the Employee Center. When you initiate a chat and select a conversation topic, you are routed to the appropriate chat queue and connected to a support agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-center-chat-configuration.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -15,11 +16,11 @@ breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center,
 
 As an employee, you can chat directly and in real time with support agents through the Employee Center. When you initiate a chat and select a conversation topic, you are routed to the appropriate chat queue and connected to a support agent.
 
-Connect Support is a messaging tool that enables support agents to provide real-time assistance for end users, and is automatically enabled with Employee Center. Your administrator can create multiple chat queues for different departments, such as queues for HR, IT, Payroll, or Facilities. To set up the chat queues and learn more about Connect Support, see [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectSupport.md).
+Connect Support is a messaging tool that enables support agents to provide real-time assistance for end users, and is automatically enabled with Employee Center. Your administrator can create multiple chat queues for different departments, such as queues for HR, IT, Payroll, or Facilities. To set up the chat queues and learn more about Connect Support, see Connect Support.
 
 **Note:**
 
-Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
+Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 If no chat queues are defined, then the chat queue defaults to:
 

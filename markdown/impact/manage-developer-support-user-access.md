@@ -2,11 +2,14 @@
 title: Manage Developer Support user access
 description: Add designated users to enter a support case for Developer Support. The named contacts are responsible for entering details about a specific issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/manage-developer-support-user-access.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Developer Support, Platform Health, Using Impact, Impact]
+breadcrumb: [Debug instance customizations with Developer Support, Platform Health, Using Impact, Impact]
 ---
 
 # Manage Developer Support user access
@@ -23,7 +26,7 @@ Role required: Impact admin
 
 2.  From the **Actions** menu, select **Update role/access**.
 
-    If the user is not listed in the table, create a new user. See [Manage Impact Delivery Instance users](ide-user-management.md) for details.
+    If the user is not listed in the table, create a new user. See [Manage Impact Delivery Instance users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/ide-user-management.md) for details.
 
 3.  Select the **Action** icon on the right of the user.
 

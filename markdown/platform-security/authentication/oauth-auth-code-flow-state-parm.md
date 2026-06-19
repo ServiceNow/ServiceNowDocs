@@ -2,6 +2,7 @@
 title: Authorization code flow state parameter requirement
 description: The glide.oauth.state.paramater.required system property enables the State parameter to be required in an OAuth request for authorization code flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/oauth-auth-code-flow-state-parm.html
 release: australia
 product: Authentication
 classification: authentication

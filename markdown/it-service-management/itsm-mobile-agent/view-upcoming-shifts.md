@@ -2,6 +2,7 @@
 title: View upcoming shifts with On-Call Scheduling
 description: Use the My work feature in the ITSM Mobile Agent app to view your upcoming shifts and request time off.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/view-upcoming-shifts.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -31,7 +32,7 @@ Use the On-Call Scheduling applet to view your upcoming shifts and request time 
 
     All upcoming shifts for the current month are displayed. The shifts are grouped based on the type of events. One-day events are displayed at the top, followed by multi-day events and short-duration events that are sorted based on the time that the event was created.
 
-    ![Upcoming shifts.](../../../product/itsm-mobile-agent/image/Upcoming-shifts-itsm-mobile.png)
+    \[Omitted image "Upcoming-shifts-itsm-mobile.png"\] Alt text: Upcoming shifts.
 
 3.  Tap a shift card to view the following shift details:
 

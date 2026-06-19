@@ -2,6 +2,7 @@
 title: Problem Task form
 description: Description of the field values for the problem task form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-task-form.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -210,5 +211,5 @@ Close notes \(General task only\)
 Inscription on the work you have completed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference section for Problem Management](../concept/reference-section-for-problem-management.md)
+</table>**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
 

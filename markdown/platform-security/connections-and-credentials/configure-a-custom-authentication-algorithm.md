@@ -2,6 +2,7 @@
 title: Configure a custom authentication algorithm
 description: Generate the custom data needed to authenticate to a web service by running script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/configure-a-custom-authentication-algorithm.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -104,7 +105,7 @@ Script that you select from the MID Server Script Includes \[Discovery view\] ta
 
 
 </td></tr></tbody>
-</table>    ![Twitter authentication algorithm](../image/custom-authentication-algorithm.png)
+</table>    \[Omitted image "custom-authentication-algorithm.png"\] Alt text: Twitter authentication algorithm
 
     Based on the selected scripts and authentication algorithm, the configured credentials is sent as outbound request from ServiceNow to the provider.
 
@@ -128,7 +129,7 @@ Script that you select from the MID Server Script Includes \[Discovery view\] ta
     -   Consumer secret
     -   Credential alias
     -   Authentication Algorithm
-    ![Twitter Credentials](../image/twitter-algorithm.png)
+    \[Omitted image "twitter-algorithm.png"\] Alt text: Twitter Credentials
 
 8.  Click **Update**.
 
@@ -152,7 +153,7 @@ Input REST step with Twitter as follows:
 -   **HTTPS Method**: In this case it is POST method. Posting a tweet.
 -   **Query Parameters**: **Action** as **tweet**.
 
-![Post Tweet](../image/twitter-post.png)
+\[Omitted image "twitter-post.png"\] Alt text: Post Tweet
 
 You can test the action. The tweet is posted on the Twitter page.
 

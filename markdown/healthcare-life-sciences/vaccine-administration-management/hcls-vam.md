@@ -2,6 +2,7 @@
 title: Vaccine Administration Management
 description: The ServiceNow Vaccine Administration Management application provides a workflow for users, healthcare providers, and clinicians to manage vaccinations for infectious diseases, such as COVID-19, from start to finish.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vam.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -21,23 +22,23 @@ The Vaccine Administration Management application accelerates the immunization p
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how clinicians and healthcare providers use Vaccine Administration Management.](exploring-vaccine-administration-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about how clinicians and healthcare providers use Vaccine Administration Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/exploring-vaccine-administration-management.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation.](vaccine-mgmt-config.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 
 </td><td>
 
-[Register![](../../../reuse/icons/brand-icons/bus-manage.svg)Use the Patient Portal to register for a vaccination.](hcls-vam-user-experience.md)
+[Register\[Omitted image "bus-manage.svg"\] Alt text:Use the Patient Portal to register for a vaccination.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md)
 
 </td></tr><tr><td>
 
-[Manage![](../../../reuse/icons/brand-icons/bus-manager.svg)Use the Clinician Portal to find and manage vaccination appointments for users.](hcls-vam-clinician-experience.md)
+[Manage\[Omitted image "bus-manager.svg"\] Alt text:Use the Clinician Portal to find and manage vaccination appointments for users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components like fields, tables, and properties.](vaccine-management-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-management-reference.md)
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: View control tests in grid view
 description: View and edit control tests and assessment procedures in a hierarchical data grid.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/view-control-tests-in-grid-view.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring

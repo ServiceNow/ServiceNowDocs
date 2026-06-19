@@ -2,6 +2,7 @@
 title: Create a User acceptance Workplace case template
 description: Create a Workplace case template with user acceptance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-usr-accptnce-workplace-case-template.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -31,7 +32,7 @@ Create this case template for use when a user's approval or rejection is require
 
     -   If you are creating a new template, click **New**.
     -   If you are modifying an existing template, open the desired template.
-    For information about the template form fields, see [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md).
+    For information about the template form fields, see Create a template.
 
 3.  In the **Table** field, select the **Workplace case \[sn\_wsd\_case\_workplace\_case\]** table.
 
@@ -50,5 +51,5 @@ The Case template is created with user acceptance options enabled.
 
 ## What to do next
 
-Use the template in Workplace services where user acceptance is required. For more information about creating Workplace services, see [Create a Workplace service](create-workplace-service.md).
+Use the template in Workplace services where user acceptance is required. For more information about creating Workplace services, see [Create a Workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/create-workplace-service.md).
 

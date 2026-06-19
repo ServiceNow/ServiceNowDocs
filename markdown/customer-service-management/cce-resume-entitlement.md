@@ -2,7 +2,10 @@
 title: Resume an entitlement
 description: Resume an entitlement by creating an order on the CSM Configurable Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-resume-entitlement.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Manage actions in UI Builder pages
 description: Learn how to work with events so that you can add actions to components, pages, data resources, and declarative actions in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/work-events.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -17,7 +18,7 @@ Learn how to work with events so that you can add actions to components, pages, 
 
 ## Actions in UI Builder
 
-UI actions tell UI Builder what to do when an [event](ui-builder-glossary.md#) is triggered. An event is an action a user takes or occurrence that happens on a [page](ui-builder-glossary.md#). Use UI actions to create interactive, user-friendly interfaces that help your users complete tasks. Each [component](ui-builder-glossary.md#) has its own events associated with it. Events include:
+UI actions tell UI Builder what to do when an [event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) is triggered. An event is an action a user takes or occurrence that happens on a [page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md). Use UI actions to create interactive, user-friendly interfaces that help your users complete tasks. Each [component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) has its own events associated with it. Events include:
 
 -   User clicks a data visualization
 -   Page successfully fetches data
@@ -41,7 +42,7 @@ Use an event to add actions to your components, pages, and data resources.
 
 Map actions to events such as clicking a button or filling in a field. An event mapping is the process that enables you to map an event's payload or contextual values to the object or handler that acts on that event.
 
-For more information about event mapping, see [Define map events](event-mapping.md).
+For more information about event mapping, see [Define map events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/event-mapping.md).
 
 ## Event handlers in UI Builder
 
@@ -179,7 +180,7 @@ UXF macroponent viewport load requested
 
 </td><td>
 
-Add to a component, such as a button component, to open a viewport. For more information, see [Add a viewport component to your page](work-with-viewport-components.md).
+Add to a component, such as a button component, to open a viewport. For more information, see [Add a viewport component to your page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-with-viewport-components.md).
 
 </td></tr></tbody>
 </table>-   Data resource handlers. This type of event handler triggers the fetching or writing of data to the server.
@@ -193,11 +194,11 @@ Add to a component, such as a button component, to open a viewport. For more inf
     -   Add a **Look Up Record** event handler for the button.
     -   Save your page.
     -   If the description of the incident record changes, click **Refresh** to update the description on your page.
--   Client scripts. Scripts that execute when an event is triggered on a component. You create these scripts in the Client scripts section in UI Builder. For more information, see [Define and bind client scripts to components](../task/define-client-scripts.md).
+-   Client scripts. Scripts that execute when an event is triggered on a component. You create these scripts in the Client scripts section in UI Builder. For more information, see [Define and bind client scripts to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/define-client-scripts.md).
 
 ## Binding events to components in UI Builder
 
-Bind event handlers to the events on a component. When you add components to your UI Builder page, these components are not configured to perform any action on your page. For example, a button component is static and does not do anything until you bind an event action to it, such as deleting a record. Some components have several events where event handlers can be assigned. For example, on the list component, you can assign a navigation handler to the **Row clicked** event. You can also assign an open modal to the **Data fetch failed** event. For more information, see [Bind an event to a component](../task/bind-event-component.md).
+Bind event handlers to the events on a component. When you add components to your UI Builder page, these components are not configured to perform any action on your page. For example, a button component is static and does not do anything until you bind an event action to it, such as deleting a record. Some components have several events where event handlers can be assigned. For example, on the list component, you can assign a navigation handler to the **Row clicked** event. You can also assign an open modal to the **Data fetch failed** event. For more information, see [Bind an event to a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-component.md).
 
 ## Binding events to UI Builder pages
 
@@ -210,11 +211,11 @@ You can bind event mappings using the following methods:
 -   Dispatched events. Create dispatched events for your page to create relayed event mappings that model events after a parent event handler. Select a target parent event handler to model the payload fields after it.
 -   Handled events. Add a handled event for an event that is exposed and available for use by other users.
 
-For more information, see [Bind an event to a page](../task/bind-event-page.md).
+For more information, see [Bind an event to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-page.md).
 
 ## Binding events to data resources in UI Builder
 
-Bind event handlers to individual data resources on your UI Builder page. For example, when a data resource successfully fetches new data, it executes an event handler, like navigation, to take a user to the next step in a flow. When a data resource successfully adds a record to a table, it shows a success modal that uses the show modal event handler. For more information, see [Bind an event to a data resource](../task/bind-event-data-resource.md).
+Bind event handlers to individual data resources on your UI Builder page. For example, when a data resource successfully fetches new data, it executes an event handler, like navigation, to take a user to the next step in a flow. When a data resource successfully adds a record to a table, it shows a success modal that uses the show modal event handler. For more information, see [Bind an event to a data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-data-resource.md).
 
 ## Binding events to declarative actions in UI Builder
 
@@ -222,28 +223,28 @@ Bind data elements to add event actions to a declarative action definition in **
 
 If you add a component to your UI Builder page that has a declarative action, you must bind it to a handled event. The handled event creates an action that is performed when a user selects the component. By selecting **Configure declarative action event mapping**, you add a new event handler to define what the declarative action does on the page.
 
-![Configure the declarative action event mappings option in the Configure panel.](../image/declarative-action-config.png)
+\[Omitted image "declarative-action-config.png"\] Alt text: Configure the declarative action event mappings option in the Configure panel.
 
-For more information, see [Bind an event to a declarative action](../task/bind-event-declarative-action.md).
+For more information, see [Bind an event to a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-event-declarative-action.md).
 
--   **[Define map events](event-mapping.md)**  
+-   **[Define map events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/event-mapping.md)**  
 An event mapping in UI Builder is the process that enables you to map an event's payload or contextual values to the object or handler that acts on that event. The four event types are: component, page, data resource, and declarative action.
--   **[Event payloads in UI Builder](event-payloads.md#)**  
+-   **[Event payloads in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/event-payloads.md)**  
 Use event payloads to link data to an action.
--   **[Configure an event handler manually](../task/event-handler.md)**  
+-   **[Configure an event handler manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/event-handler.md)**  
 Add an event handler to a page, component, data resource, or declarative action within UI Builder so that your user can trigger an action.
--   **[Bind events to add actions](bind-events.md)**  
+-   **[Bind events to add actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/bind-events.md)**  
 After you have created events, you can bind them to actions on your components, pages, data resources, and declarative actions.
--   **[Disable component preset event mappings](../task/disable-preset-event-mappings.md)**  
+-   **[Disable component preset event mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/disable-preset-event-mappings.md)**  
 You can disable event mappings that are automatically created by a component preset.
--   **[Delete an event handler](../task/delete-event-handler.md)**  
+-   **[Delete an event handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/delete-event-handler.md)**  
 Delete an event handler that you no longer need in UI Builder.
--   **[Delete an event mapping](../task/delete-event-mapping.md)**  
+-   **[Delete an event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/delete-event-mapping.md)**  
 Delete an event mapping that you no longer need in UI Builder.
--   **[Add events to track components with unsaved changes](../task/dirty-state-event.md)**  
+-   **[Add events to track components with unsaved changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/dirty-state-event.md)**  
 Locate dirty state components through event configuration.
--   **[UI interactions](uib-ui-interactions.md)**  
+-   **[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)**  
 Trigger UI interactions directly from events in UI Builder, allowing you to link event-driven behavior to reusable interaction logic.
 
-**Parent Topic:**[Working in UI Builder](using-ui-builder.md)
+**Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/using-ui-builder.md)
 

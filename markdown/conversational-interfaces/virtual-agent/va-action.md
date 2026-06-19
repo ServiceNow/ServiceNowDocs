@@ -2,6 +2,7 @@
 title: Action utility
 description: Use the Action utility in a Virtual Agent topic to select the flow action properties that the node should create. The Action utility integrates Virtual Agent with the ServiceNow Workflow Studio product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-action.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -54,7 +55,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md).
+ For a list of default spokes, see Spokes.
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Action/Subflow
 
 The Workflow Studio action or subflow to be performed in the instance. The **Input mapping** and **Output mapping** areas change depending on your selection.
 
- For details about the action, click the link beneath your selection to view it in Workflow Studio.
+ For details about the action, select the link beneath your selection to view it in Workflow Studio.
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Output mapping
 
 </td><td>
 
-The variables to be output by the selected action. The contents of this area change according to the action you selected.
+The variables to be output by the selected action. The contents of this area change according to the **Action/subflow** you selected.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -128,7 +129,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Action utility
 
-![Action utility properties.](../images/flow-designer-action-properties.png)
+\[Omitted image "flow-designer-action-properties.png"\] Alt text: Action utility properties. Different Input and Output properties appear depending on which Action or Subflow you select.
 
-**Parent Topic:**[Assistant Designer utilities](va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
 

@@ -2,7 +2,10 @@
 title: Create a child template item
 description: Create one or more child template items, such as a task or record, for an existing template item to create a task hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-task-plan-template-child-item.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -56,5 +59,5 @@ Template items can have child template items. By creating child template items, 
 
 ## What to do next
 
-After creating a child template item, you can [create one or more conditions for the template item](create-task-plan-template-item-condition.md).
+After creating a child template item, you can [create one or more conditions for the template item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-item-condition.md).
 

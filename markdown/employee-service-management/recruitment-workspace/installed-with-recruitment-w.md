@@ -2,6 +2,7 @@
 title: Components installed with Recruitment workspace
 description: The following are the components installed with activation of the Recruitment workspace plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/installed-with-recruitment-w.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -58,5 +59,5 @@ Interview feedback creation
 Creates a feedback record to receive feedback from the interviewee.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recruitment Workspace reference](../concept/recruitment-workspace-reference.md)
+</table>**Parent Topic:**[Recruitment Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-reference.md)
 

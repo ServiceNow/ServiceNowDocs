@@ -2,6 +2,7 @@
 title: Enable indexing of tags for an AI Search indexed source
 description: Configure an indexed source attribute to enable indexing of content from tags found on records from an indexed source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/enable-tag-indexing-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -23,7 +24,7 @@ Role required: ais\_admin
 
 By default, AI Search indexing ignores tags from source records. You can enable indexing of tags for all records from an indexed source. Choose whether you want to index all shared and globally visible tags or only globally visible tags. Private tags are never indexed.
 
-For more general instructions on defining indexed source attributes, see [Create an indexed source attribute in AI Search](create-indexed-source-attr-ais.md).
+For more general instructions on defining indexed source attributes, see [Create an indexed source attribute in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-indexed-source-attr-ais.md).
 
 ## Procedure
 
@@ -44,7 +45,7 @@ For more general instructions on defining indexed source attributes, see [Create
     |everyone\_only|Only tags shared with everyone are indexed.|
     |all\_shared|All shared tags \(**Everyone**, **Groups and Users**\) are indexed.|
 
-    For a description of the field values, see [Indexed Source Attribute form](../reference/indexed-source-attribute-form-ais.md).
+    For a description of the field values, see [Indexed Source Attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-attribute-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -55,7 +56,7 @@ The new **index\_tags** indexed source attribute appears in the Advanced Configu
 
 ## What to do next
 
-To make the new **index\_tags** attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](index-single-source-ais.md).
+To make the new **index\_tags** attribute take effect, perform a full table reindex for the indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/index-single-source-ais.md).
 
-**Parent Topic:**[Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md)
+**Parent Topic:**[Indexed source attributes for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-attributes-ais.md)
 

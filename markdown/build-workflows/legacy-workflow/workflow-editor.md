@@ -2,6 +2,7 @@
 title: Workflow editor
 description: The Workflow Editor is an interface for creating and modifying workflows by arranging and connecting activities to drive processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/workflow-editor.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -19,15 +20,15 @@ The Workflow Editor is an interface for creating and modifying workflows by arra
 
 You can manage multiple workflows in the same screen, create custom workflow activities, and use existing activities as data sources. Users with the workflow\_creator role can create workflows. Users with the workflow\_admin role can create, modify, delete, and publish workflows.
 
-To open the Workflow Editor, navigate to **Workflow** &gt; **Workflow Editor**. For information about using the editor, see [Create a workflow](../../workflow-administration/task/t_CreateAWorkflow.md).
+To open the Workflow Editor, navigate to **Workflow** &gt; **Workflow Editor**. For information about using the editor, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_CreateAWorkflow.md).
 
 ## Welcome screen
 
 The editor opens with the **Welcome** page, which displays a list of active, published workflows. From this tab, you can open existing workflows, create new workflows, and open help resources related to workflow.
 
-![Workflow welcome screen](../image/WorkflowWelcomeTab.png)
+\[Omitted image "WorkflowWelcomeTab.png"\] Alt text: Workflow welcome screen
 
--   **![Number 1 icon](../image/no-1-icon.png)List display filters**
+-   **\[Omitted image "no-1-icon.png"\] Alt text: Number 1 iconList display filters**
 
     **Published**: Click to view list of published workflows
 
@@ -35,11 +36,11 @@ The editor opens with the **Welcome** page, which displays a list of active, pub
 
     **Help**: Click to view links to help resources for workflow
 
--   **![Number 2 icon](../image/no-2-icon.png)New Workflow button**
+-   **\[Omitted image "no-2-icon.png"\] Alt text: Number 2 iconNew Workflow button**
 
     Click to create a new workflow
 
--   **![Number 3 icon](../image/no-3-icon.png)Palette tabs**
+-   **\[Omitted image "no-3-icon.png"\] Alt text: Number 3 iconPalette tabs**
 
     **Workflows**: Workflow activities and workflows you can use as subflows.
 
@@ -52,7 +53,7 @@ The editor opens with the **Welcome** page, which displays a list of active, pub
     **Data**: Activities in the current workflow that output data. You can use these activities as data sources for other activities. Only visible if the orchestration plugin is installed.
 
 
-**Note:** If your workflow welcome page does not look like this example, you may have customized the workflow welcome page before upgrading to Australia. You can update the workflow welcome page to the latest version by editing the [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md) .
+**Note:** If your workflow welcome page does not look like this example, you may have customized the workflow welcome page before upgrading to Australia. You can update the workflow welcome page to the latest version by editing the UI pages .
 
 Navigate to **System UI** &gt; **UI Pages** &gt; **Workflow Editor welcome**. In the UI page record for workflow\_editor\_welcome, scroll to the **Versions** related list. Select the row for the version corresponding to the upgrade to Australia, right-click and select **Revert to this version**.
 
@@ -60,7 +61,7 @@ Navigate to **System UI** &gt; **UI Pages** &gt; **Workflow Editor welcome**. In
 
 After you open or create a new workflow, the system displays the workflow canvas. On the canvas you interact with the Workflow Editor through several different elements: the canvas itself, the canvas tabs, the title bar, the palette, and the palette tabs.
 
-The drawing canvas is where you add activities and configure transitions for checked out workflows. Add an activity by dragging it from the palette to the workflow in the canvas. For more information, see [Create a workflow](../../workflow-administration/task/t_CreateAWorkflow.md).
+The drawing canvas is where you add activities and configure transitions for checked out workflows. Add an activity by dragging it from the palette to the workflow in the canvas. For more information, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/t_CreateAWorkflow.md).
 
 -   **Canvas tabs**: Contains tabs for accessing workflows being edited or created.
 -   **Title bar:** Displays the workflow name and status. Provides a menu and controls for configuring, testing, and validating workflows.
@@ -68,14 +69,14 @@ The drawing canvas is where you add activities and configure transitions for che
 -   **Palette tabs**: Contains tabs for accessing activities being edited or created.
 -   **Palette**: Contains all available workflow activities and existing workflows you can use as subflows. Drag activities and subflows to the canvas to create new workflows or edit existing ones.
 
-![](../image/WorkflowEditor.png "Workflow user interface")
+\[Omitted image "WorkflowEditor.png"\] Alt text:
 
--   **[Workflow palette](r_WorkflowPalette.md)**  
+-   **[Workflow palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowPalette.md)**  
 The default workflow palette contains workflow activities and existing workflows you can use as subflows.
--   **[Workflow editor title bar](r_WorkflowEditorTitleBar.md)**  
+-   **[Workflow editor title bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowEditorTitleBar.md)**  
 When a workflow is opened in the canvas, the title bar displays the workflow title and the workflow status in italics. Possible states are **Checked out by &lt;name&gt;** and **Published**.
--   **[Workflow editor keyboard navigation](workflow-keyboard-access.md)**  
+-   **[Workflow editor keyboard navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/workflow-keyboard-access.md)**  
 The platform includes accessibility features that makes the interface accessible to users with disabilities.
 
-**Parent Topic:**[Classic Workflow](../concept/c_WorkflowOverview.md)
+**Parent Topic:**[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowOverview.md)
 

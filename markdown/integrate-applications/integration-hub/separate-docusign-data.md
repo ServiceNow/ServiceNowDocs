@@ -2,6 +2,7 @@
 title: How to separate Docusign account data
 description: Restrict access to Docusign data based on a user's role. For example, your company may have one Docusign account used by the HR team and another used by the Legal team. To keep the data separate between these two accounts, you can create a role for each account and add it to the accounts record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/separate-docusign-data.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -19,8 +20,8 @@ Restrict access to Docusign data based on a user's role. For example, your compa
 
 -   Request Integration Hub subscription
 -   Activate Docusign eSignature spoke
--   [Create child aliases for additional Docusign accounts](create-aliases-docusign.md)
--   [Set up Docusign eSignature spoke using JWT grant](setup-docusign-jwt.md#) or [Set up Docusign eSignature spoke using authorization code grant](setup-docusign-authorization-code.md#)
+-   [Create child aliases for additional Docusign accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-aliases-docusign.md)
+-   [Set up Docusign eSignature spoke using JWT grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-jwt.md) or [Set up Docusign eSignature spoke using authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-authorization-code.md)
 -   Role required: admin.
 
 ## Procedure

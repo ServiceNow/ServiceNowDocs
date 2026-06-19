@@ -2,6 +2,7 @@
 title: Now Assist for Integration Hub
 description: Use the ServiceNow Now Assist AI agents to mimic human-like intelligence by using Large Language Models \(LLMs\) to perform tasks that range from simple automated responses to complex problem-solving. Utilize the conversational ability of Integration Hub spoke actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/now-assist-spokes.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -48,20 +49,20 @@ The Now Assist for Integration Hub application requires these subscriptions:
 
 After installing the Now Assist for Integration Hub application, you can use the available AI agents and configure the available conversational spoke actions.
 
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) to learn about AI agents.
--   See [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-subflows.md) to learn more about configuring the conversational settings.
--   See [Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/conversational-actions.md) to learn more about creating and configuring the conversational skill from Workflow Studio.
--   See  in [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md) to learn more about conversation experience and skills.
+-   See  to learn about AI agents.
+-   See  to learn more about configuring the conversational settings.
+-   See  to learn more about creating and configuring the conversational skill from Workflow Studio.
+-   See  in  to learn more about conversation experience and skills.
 
 ## Available AI agents
 
 This application provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
-Available AI agent includes, [Meeting scheduler AI agent](../reference/meeting-scheduler-ai-agent.md) that can be used to organize Zoom or Teams meetings and create regular calendar events. This AI agent retrieves details of available rooms, details of the relevant users you want to invite such as, email address and timezone, finds an available time slot, creates a calendar event, and generates a Zoom URL for the meeting.
+Available AI agent includes, [Meeting scheduler AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/meeting-scheduler-ai-agent.md) that can be used to organize Zoom or Teams meetings and create regular calendar events. This AI agent retrieves details of available rooms, details of the relevant users you want to invite such as, email address and timezone, finds an available time slot, creates a calendar event, and generates a Zoom URL for the meeting.
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
-**Parent Topic:**[Building integrations in Integration Hub](building-integrations-ih.md)
+**Parent Topic:**[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/building-integrations-ih.md)
 

@@ -1,24 +1,30 @@
 ---
 title: Firewall rule requests using agentic workflows
-description: Use the Firewall Management Task Creation agentic workflow to request new firewall policies and rules from the Now Assist panel.Use the Firewall Management Task Creation agentic workflow to request new firewall rules through natural language prompts.Review AI-generated firewall rule requests, evaluate risk analysis, and approve or reject requests with device group assignment.Automatically implement approved firewall rules on Palo Alto Panorama servers through the change management process.
+description: The Firewall Management Task Creation agentic workflow provides a path to request new firewall rules through natural language prompts in the Now Assist panel.Use the Firewall Management Task Creation agentic workflow to request new firewall rules through natural language prompts.Review AI-generated firewall rule requests, evaluate risk analysis, and approve or reject requests with device group assignment.Automatically implement approved firewall rules on Panorama servers through the change management process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/firewall-rule-requests-ai-workflow.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-04-30"
-reading_time_minutes: 4
+last_updated: "2026-05-04"
+reading_time_minutes: 6
 keywords: [firewall, agentic workflow, Now Assist, Panorama, firewall, agentic workflow, Now Assist, rule request, firewall, approval, rule request, device group, firewall, implementation, Panorama, change management]
 breadcrumb: [Using Firewall Audits and Reporting, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Firewall rule requests using agentic workflows
 
-Use the Firewall Management Task Creation agentic workflow to request new firewall policies and rules from the Now Assist panel.
+The Firewall Management Task Creation agentic workflow provides a path to request new firewall rules through natural language prompts in the Now Assist panel.
 
-![Firewall rule request workflow](../image/firewall-rule-request-ai-workflow.png "Firewall rule request workflow")
+The workflow reads your natural-language request, extracts the required parameters—source IP, destination IP, protocol, traffic direction, action, and conformance type—and prompts you for any values you did not provide. Before creating a rule task, the workflow runs a risk analysis based on the request data and the specified conformance framework. The risk analysis returns one of three levels:
 
-**Parent Topic:**[Using Firewall Audits and Reporting](firewall-audit-report-use.md)
+-   **Low:** The workflow creates the rule task and attaches the risk analysis.
+-   **Medium or High:** The workflow reports the risk level in the Now Assist panel and asks whether you want to continue. If you confirm, the workflow creates the rule task and attaches the risk analysis. If you decline, the workflow skips task creation. The created task includes the AI assessment so the approver can evaluate the risk.
+
+\[Omitted image "firewall-rule-request-ai-workflow.png"\] Alt text: Firewall rule request workflow
+
+**Parent Topic:**[Using Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-audit-report-use.md)
 
 ## Request firewall rules using agentic workflow
 
@@ -34,31 +40,30 @@ Role required: firewall\_admin
 
 ### About this task
 
-The agentic workflow reads your natural-language request, extracts the required parameters such as source IP, destination IP, protocol, traffic direction, action, and conformance type, and prompts you for values that you did not provide. The workflow runs a risk analysis based on the request data and specified conformance framework before creating the rule task. The risk analysis returns one of three levels:
+For information about how the workflow evaluates risk and determines whether to create a rule task, see [Firewall rule requests using agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/firewall-rule-requests-ai-workflow.md).
 
--   **Low:** The workflow creates the rule task and attaches the analysis.
--   **Medium or High:** The workflow does not create the task. The workflow reports the violation in the chat and asks whether to proceed. If you confirm, the workflow creates the task and attaches the risk analysis.
-
-![Now Assist agentic workflow](../image/firewall-rule-request-now-assist.png "Now Assist agentic workflow")
+\[Omitted image "firewall-rule-request-now-assist.png"\] Alt text: Now Assist agentic workflow
 
 ### Procedure
 
 1.  Open the Now Assist panel.
 
-2.  Trigger the Firewall Management Task Creation agentic workflow.
+    The Now Assist panel is available from the header bar of your instance. Select the Now Assist icon to open the chat window.
 
-3.  In the chat, enter your firewall rule request in natural language and include the source IP, destination IP, protocol, traffic direction and action.
+2.  In the Now Assist chat, type `Create a firewall rule` or a similar phrase to trigger the Firewall Management Task Creation agentic workflow.
 
-4.  Respond to the workflow's prompts for missing information.
+3.  Enter your firewall rule request in natural language, including the source IP, destination IP, protocol, traffic direction, and action.
 
-5.  Review the workflow's response.
+4.  Respond to the workflow prompts for any missing information.
 
-    The response includes the rule task number, the extracted request data, and the risk-analysis summary.
+5.  Review the workflow response in the Now Assist chat.
 
+    The response includes the rule task number, the extracted request data, and the risk-analysis summary. If the risk level is medium or high, the workflow asks whether you want to continue. Select **Yes** to create the rule task or **No** to cancel.
 
-### Result
+6.  Verify the rule task by navigating to **Rule Requests** &gt; **Rule Requests Task**.
 
-To verify the rule task, navigate to **Rule Requests** &gt; **Rule Requests Task**. Your request appears in the list with the **AI Resolution Plan** field set to true and the AI risk analysis attached as work notes.
+    Your request appears in the list with the **AI Resolution Plan** field set to true and the AI risk analysis attached as work notes.
+
 
 ## Approve firewall rule requests
 
@@ -66,7 +71,7 @@ Review AI-generated firewall rule requests, evaluate risk analysis, and approve 
 
 ### Before you begin
 
-Role required: Members of the approval group specified on the rule task. The admin user can edit the approver list on the rule task.
+Role required: none. Approval access is granted to members of the approval group specified on the rule task. The admin user can edit the approver list on the rule task.
 
 ### About this task
 
@@ -78,30 +83,37 @@ Requests created from the agentic workflow include an AI assessment that summari
 
 2.  Open the rule task and review the AI assessment in the work notes.
 
-    The status good to approve indicates that the AI risk analysis returned low risk.
+    The status **Good to Approve** indicates that the AI risk analysis returned low risk.
 
 3.  In the chat prompt, specify the device group on which to create the rule.
 
     For example, `test1`.
 
-4.  Select the green checkmark to approve the request.
+4.  Approve or reject the request.
 
+    -   Select the green checkmark to approve the request. The workflow calls the Panorama REST API to check whether the rule already exists. If the rule exists, the workflow reports the result in the work notes and no further action is required. If the rule does not exist, the workflow proceeds to implementation.
+
+        **Note:** A background sub-flow creates a change request after the rule task reaches the **Close Complete** state with **AI Resolution Plan** set to true. The change request is created only if the change management plugin is activated.
+
+    -   Select the red X to reject the request. The request is returned to the requester for revision.
 
 ### Result
 
-The Firewall Audits and Reporting application calls the Panorama REST API to verify whether the requested rule already exists. If the rule exists, the workflow reports the result in the chat and no further action is required. If the rule does not exist, the workflow proceeds to the next step. The assignment group works on the request and marks it **Close Complete**. A background sub-flow creates a change request after the rule task is marked **Close Complete** with **AI Resolution Plan** set to true. The implementation plan contains the source IP, destination IP, traffic flow, action, port, protocol, and device group.
+If the request is approved:
 
-**Note:** The change request is created only if the rule task is **Approved** and in the **Close Complete** state, and the change request plugin is activated.
+-   The Firewall Audits and Reporting application verifies whether the requested rule already exists on Panorama.
+-   If the rule does not exist, the assignment group works on the request and marks it **Close Complete**.
+-   A change request is created with an implementation plan that contains the source IP, destination IP, traffic flow, action, port, protocol, and device group.
 
-## Implement firewall rules on Palo Alto Panorama
+## Implement firewall rules on Panorama
 
-Automatically implement approved firewall rules on Palo Alto Panorama servers through the change management process.
+Automatically implement approved firewall rules on Panorama servers through the change management process.
 
 ### Before you begin
 
 -   Verify that the **AI Resolution Plan** field on the rule task is set to true. This field is set automatically when the request is created from the Now Assist panel.
 
-Role required: Members of the assignment group on the change request.
+Role required: none. Implementation access is granted to members of the assignment group on the change request.
 
 ### About this task
 
@@ -109,24 +121,24 @@ The instance calls a REST API to create and commit the rule, so the assignment g
 
 ### Procedure
 
-1.  Navigate to the change request that was created from the rule task.
+1.  Navigate to the change request created from the rule task.
 
-2.  Move the change request through the standard change-management states: **Assess**, **Authorize**, **Scheduled**, and **Implement**.
+2.  Progress the change request through the standard change management states to **Implement**.
 
-3.  Select **Implement**.
+    Update the **State** field on the change request form in sequence: **Assess**, **Authorize**, **Scheduled**, then **Implement**. Each state may require review and approval by the relevant stakeholders before you can advance to the next.
 
-    The workflow calls a REST API to create and commit the rule on the device group specified during approval.
+    When the state reaches **Implement**, the workflow calls the Panorama REST API to create and commit the rule on the device group specified during approval.
 
-4.  Review the rule on the change request.
+3.  Review the rule on the change request.
 
     The work notes show whether the rule was created and committed successfully, along with the rule name.
 
-5.  If the rule was created as expected, close the change request.
+4.  If the rule was created as expected, close the change request.
 
 
 ### Result
 
-The rule is created and committed on the Panorama server for the specified device group.
+The rule is created and committed on the Panorama server for the specified device group. The work notes on the change request confirm the result and include the rule name.
 
-**Note:** Commit applies the rule to all relevant devices on the Panorama server. Create saves the rule without applying it. The automation performs both create and commit in a single API call.
+**Note:** Create saves the rule on the Panorama server without applying it to devices. Commit applies the rule to all relevant devices. The automation performs both actions in a single API call.
 

@@ -2,6 +2,7 @@
 title: Unlock the user account
 description: You can unlock a blocked user to enable them to log in to their system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/unlock-user-account-pr-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -117,5 +118,5 @@ The email address of the user is displayed. You must ask the email address of th
 
 The user account is unlocked and they can access the system.
 
-**Parent Topic:**[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](../concept/resetting-password-pr-sow.md)
+**Parent Topic:**[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/resetting-password-pr-sow.md)
 

@@ -2,6 +2,7 @@
 title: Relate entities to each other
 description: Create relationships between entities to understand how controls and risks affect each other and how they affect the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/relate-profiles-to-each-other.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -34,7 +35,7 @@ Role required:
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_cyx_ljg_lw"><tbody><tr><td id="d298551e128">
+<table id="choicetable_cyx_ljg_lw"><tbody><tr><td id="d309178e128">
 
 **To specify that the current entity is downstream of another entity**
 
@@ -42,7 +43,7 @@ Role required:
 
 Click the **Add** button in the **Upstream entities** related list.
 
-</td></tr><tr><td id="d298551e143">
+</td></tr><tr><td id="d309178e143">
 
 **To specify that the current entity is upstream of another entity**
 
@@ -60,5 +61,5 @@ The entities displayed after clicking **Add** on the **Upstream entities** or **
 
 **Note:** If there are no eligible entities which can be related to the current entity, then the **Add** button is not displayed on the **Upstream entities** or **Downstream entities** related lists.
 
-**Parent Topic:**[Entity scoping in GRC](../concept/c_Scoping.md)
+**Parent Topic:**[Entity scoping in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/c_Scoping.md)
 

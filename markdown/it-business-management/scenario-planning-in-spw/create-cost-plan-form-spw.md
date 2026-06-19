@@ -2,6 +2,7 @@
 title: Create cost plan form
 description: Use this form to create cost plans for your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-cost-plan-form-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -128,5 +129,5 @@ Available if the Cost type is Software, Hardware, or Other Capex or Opex.Select 
 Model name of a hardware expenditure to expense the cost plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Strategic Planning](form-field-information-for-strategic-planning.md)
+</table>**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

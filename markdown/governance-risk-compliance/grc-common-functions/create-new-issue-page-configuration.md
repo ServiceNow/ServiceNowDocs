@@ -2,6 +2,7 @@
 title: Create a new Issue Page Configuration record
 description: Create a new issue page configuration record in the Issue Page Configuration module in the classic user interface. The Issue Page Configuration module displays the configurations related to the Issues section in the landing pages of the workspaces. The newly created issue is displayed in the Issue overview landing page in the selected workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/create-new-issue-page-configuration.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -149,5 +150,5 @@ Filter condition that you can configure and display the matching records.
 
 A new Issue Page Configuration record is created.
 
-**Parent Topic:**[Issue Page Configuration module](../../grc-common-workspace/concept/issue-page-config-record.md)
+**Parent Topic:**[Issue Page Configuration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-page-config-record.md)
 

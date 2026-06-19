@@ -2,11 +2,12 @@
 title: Create Crisis Event form
 description: Use the Create Crisis Event form in BCM UIB Workspace to add details about a crisis event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-crisis-event-ref-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Start a crisis event, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Start a crisis event, Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create Crisis Event form
@@ -26,5 +27,5 @@ For description of the field values, see the table.
 |Assigned to|User or users from the Assignment group. If the **Assignment group** field is empty, then select any user.|
 |Description|Description of the event.|
 
-**Parent Topic:**[Start a crisis event](../task/start-crisis-event-in-uib-ws.md)
+**Parent Topic:**[Start a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/start-crisis-event-in-uib-ws.md)
 

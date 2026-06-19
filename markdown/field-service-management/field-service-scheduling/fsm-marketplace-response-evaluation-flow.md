@@ -2,6 +2,7 @@
 title: Use the Response Evaluation Flow
 description: Use the response evaluation flow to set the criteria for automatically assessing contractor responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/fsm-marketplace-response-evaluation-flow.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

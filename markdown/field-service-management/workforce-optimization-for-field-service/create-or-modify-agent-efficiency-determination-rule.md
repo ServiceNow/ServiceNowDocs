@@ -2,6 +2,7 @@
 title: Create or modify an Agent Efficiency determination rule
 description: Create or modify an Agent Efficiency determination rule for work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/create-or-modify-agent-efficiency-determination-rule.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -125,5 +126,5 @@ The determination rule is created.
 
 ## What to do next
 
-[Assign an Agent Efficiency value to agents](assign-efficiency-value-to-agents.md)
+[Assign an Agent Efficiency value to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/assign-efficiency-value-to-agents.md)
 

@@ -2,6 +2,7 @@
 title: Reporting on system tables
 description: System tables are excluded from reporting by default. However, you can exempt system tables from the prohibition. Some system tables are exempt from the restriction by default. Be very careful when creating reports on these system tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_ReportOnSystemTables.html
 release: australia
 product: Reporting
 classification: reporting
@@ -33,5 +34,5 @@ With reports and data visualizations, however, you cannot predict what your quer
 -   It is slow, so your report or data visualization will take an unacceptably long time to run.
 -   While the database is scanning your table, your instance will slow down or even become unavailable because other queries cannot get the resources they need.
 
-**Parent Topic:**[Administering reports](c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 

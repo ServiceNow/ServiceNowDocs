@@ -2,6 +2,7 @@
 title: Log session audit events
 description: Use a system property to enable creations of session audit events
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-log-session-audit-events.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -19,7 +20,7 @@ When the **glide.authenticate.session\_access.log\_audit\_event** system propert
 
 Ensure the that the property **glide.authenticate.session\_access.log\_audit\_event** is set to **true**.
 
-**Important:** The **glide.authenticate.session\_access.log\_audit\_event** system property is specific to Zero trust access. For more information, see [Zero Trust Access \(ZTA\)](../../../integrate/authentication/concept/session-access.md).
+**Important:** The **glide.authenticate.session\_access.log\_audit\_event** system property is specific to Zero trust access. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/session-access.md).
 
 ## More information
 
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[Error handling and logging](sc-error-handling-logging.md)
+[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 
 </td></tr><tr><td>
 
@@ -106,5 +107,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Error handling and logging](sc-error-handling-logging.md)
+</table>**Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)
 

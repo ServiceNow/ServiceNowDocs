@@ -2,6 +2,7 @@
 title: Work on workflows
 description: To complete a workflow, you add workflow activities, validate the workflow, and publish it.Activities determine the functionality of the workflow.You can manually validate a workflow from the Workflow Editor. You can generate a workflow validation report from the Workflow Version form.When a workflow is complete, publish the workflow so that it is available to all users.A workflow can run only if a checked out version is available to the user who has it checked out, and a valid, published version is available for all users with permission to run it.You can edit a published workflow after you check it out.Application scoping protects applications by identifying and restricting access to application files and data. You can copy a workflow created in one application scope \(for example, Test\) to another \(Production\) as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/work-on-workflows.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -19,7 +20,7 @@ To complete a workflow, you add workflow activities, validate the workflow, and 
 
 Role required: snc\_required\_script\_writer and either workflow\_creator or workflow\_admin.
 
-**Parent Topic:**[Workflow management](../concept/managing-workflows.md)
+**Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/managing-workflows.md)
 
 ## Add a workflow activity
 
@@ -33,7 +34,7 @@ Role required: snc\_required\_script\_writer and workflow\_admin, workflow\_crea
 
 When they are created, all workflows contain **Start** and **End** activities.
 
-For more information, see [Workflow activities](../../using-workflows/concept/c_WorkflowActivities.md).
+For more information, see [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md).
 
 ### Procedure
 
@@ -41,7 +42,7 @@ For more information, see [Workflow activities](../../using-workflows/concept/c_
 
 2.  Check out the workflow.
 
-3.  [Drag a workflow activity](../../using-workflows/task/t_AddAnActivityToAWorkflow.md#) from the Activities menu into the workflow body.
+3.  [Drag a workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/t_AddAnActivityToAWorkflow.md) from the Activities menu into the workflow body.
 
 4.  Populate the Workflow Activity form that appears.
 
@@ -64,11 +65,11 @@ Running a workflow on a new node automatically attempts to validate the workflow
 
     When the workflow is loaded, the workflow validator icon appears in the toolbar.
 
-    ![Workflow validator](../../workflow-validation/image/ItsaHelp.png)
+    \[Omitted image "ItsaHelp.png"\] Alt text: Workflow validator
 
 2.  Click the validator icon to run a series of validation tests on the current workflow version and generate a report.
 
-    ![Workflow validation report](../../workflow-validation/image/WorkflowValidationReport.png)
+    \[Omitted image "WorkflowValidationReport.png"\] Alt text: Workflow validation report
 
 3.  Complete the following steps to generate a workflow validation report from the Workflow Version form
 
@@ -83,7 +84,7 @@ When a workflow is complete, publish the workflow so that it is available to all
 
 ### Before you begin
 
-Before you publish a workflow, validate it to test it for issues that might cause it to fail, such as missing subflows or disconnected transitions. For more information, see [Workflow validation](../../workflow-validation/concept/c_WorkflowValidation.md).
+Before you publish a workflow, validate it to test it for issues that might cause it to fail, such as missing subflows or disconnected transitions. For more information, see [Workflow validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowValidation.md).
 
 Role required: snc\_required\_script\_writer and workflow\_admin, workflow\_creator, workflow\_publisher, or admin
 
@@ -102,7 +103,7 @@ To publish a workflow:
 
 ### Result
 
-If you published a new version of workflow, the changes are not applied to running [workflow contexts](../reference/r_AdministeringWorkflowContexts.md). Any currently running workflow context continues using the workflow version that was available when the workflow started. The next time the workflow runs, it uses the new version.
+If you published a new version of workflow, the changes are not applied to running [workflow contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_AdministeringWorkflowContexts.md). Any currently running workflow context continues using the workflow version that was available when the workflow started. The next time the workflow runs, it uses the new version.
 
 ## Determine whether a workflow can run
 
@@ -155,9 +156,9 @@ To check out a workflow:
 
 3.  In the title bar, click the menu icon and select **Checkout**.
 
-    A new [version of the workflow](../../using-workflows/concept/c_WorkflowVersions.md) is created and assigned to you.
+    A new [version of the workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowVersions.md) is created and assigned to you.
 
-    If you are in a different domain than the published workflow, the new workflow version is [created in your domain](../../using-workflows/concept/c_WorkflowsAndDomainSeparation.md#).
+    If you are in a different domain than the published workflow, the new workflow version is [created in your domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowsAndDomainSeparation.md).
 
 
 ### What to do next
@@ -174,7 +175,7 @@ Role required: snc\_required\_script\_writer and admin
 
 ### Procedure
 
-1.  On the Home page, click ![System Settings icon](../../workflow/image/System_Setup.png), located next to the logged in user name.
+1.  On the Home page, click \[Omitted image "System\_Setup.png"\] Alt text: System Settings icon, located next to the logged in user name.
 
 2.  In the **Developer** tab, in the **Application** field, select the application scope \(for example, Test\) in which you want to operate the ServiceNow platform.
 
@@ -184,9 +185,9 @@ Role required: snc\_required\_script\_writer and admin
 
 5.  Create a workflow in the Workflow Editor.
 
-    For more details, see [Create a workflow](t_CreateAWorkflow.md).
+    For more details, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/t_CreateAWorkflow.md).
 
-6.  In the Workflow Editor, click ![Information icon](../../workflow/image/WorkflowPropertiesIcon.png).
+6.  In the Workflow Editor, click \[Omitted image "WorkflowPropertiesIcon.png"\] Alt text: Information icon.
 
 7.  In the **Application** tab, **Application** is set to the current application scope selected in System Settings.
 
@@ -194,7 +195,7 @@ Role required: snc\_required\_script\_writer and admin
 
     Only those workflows that are accessible from all application scopes can be copied to another application scope.
 
-9.  Go back to the Homepage, click ![System Settings icon](../../workflow/image/System_Setup.png).
+9.  Go back to the Homepage, click \[Omitted image "System\_Setup.png"\] Alt text: System Settings icon.
 
 10. In the **Developer** tab, in the **Application** field, select the application scope \(for example, Production\) to which you want to copy the workflow.
 
@@ -204,13 +205,13 @@ Role required: snc\_required\_script\_writer and admin
 
     An **Out of scope workflow, workflow belongs to &lt;scope name&gt; scope** message appears, where &lt;scope name&gt; is the application scope in which the workflow was originally created.
 
-13. In the Workflow Editor, click ![Context menu](../../workflow/image/WorkflowActionsicon.png).
+13. In the Workflow Editor, click \[Omitted image "WorkflowActionsicon.png"\] Alt text: Context menu.
 
 14. Select **Copy**.
 
     The **Workflow Name** dialog appears:
 
-    ![Add a name for the workflow copy in the Workflow Name dialog.](../../workflow/image/Workflowname.png)
+    \[Omitted image "Workflowname.png"\] Alt text: Add a name for the workflow copy in the Workflow Name dialog.
 
     1.  In **Workflow Name**, type the new name for the copied workflow.
 
@@ -218,7 +219,7 @@ Role required: snc\_required\_script\_writer and admin
 
         The system creates a workflow in the current application scope.
 
-15. In the Workflow Editor, click ![Information icon](../../workflow/image/WorkflowPropertiesIcon.png).
+15. In the Workflow Editor, click \[Omitted image "WorkflowPropertiesIcon.png"\] Alt text: Information icon.
 
 16. In the **Application** tab, **Application** is set to the current application scope.
 

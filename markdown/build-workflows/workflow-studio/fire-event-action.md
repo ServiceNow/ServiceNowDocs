@@ -2,6 +2,7 @@
 title: Fire Event action
 description: Create a system event record in the Event \[sysevent\] table to be processed by a scheduled event handler. Pass event parameters using flow data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/fire-event-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -60,9 +61,9 @@ This action has no outputs.
 
 ## Fire an incident escalated event
 
-![Field values used to fire the incident.escalated event.](../images/example-fire-event-action.png)
+\[Omitted image "example-fire-event-action.png"\] Alt text: Field values used to fire the incident.escalated event.
 
 This example creates an incident.escalated event when an incident record is updated to change the value of the Escalation field. The incident.escalated event expects the value of parameter 1 to be the current value of the Escalation field and parameter 2 to be the previous value of the Escalation field.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

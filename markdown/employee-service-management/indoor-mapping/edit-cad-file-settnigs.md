@@ -2,6 +2,7 @@
 title: Edit file settings
 description: Modify the unit file settings of your CAD source file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/edit-cad-file-settnigs.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -21,11 +22,11 @@ Role required: admin
 
 ## Procedure
 
-1.  From the CAD Configuration home page, select the More actions menu \( ![More options icon.](../../wsd-for-mobile/images/more-options-icon.png)\).
+1.  From the CAD Configuration home page, select the More actions menu \( \[Omitted image "more-options-icon.png"\] Alt text: More options icon.\).
 
 2.  Select **Manage source**.
 
-    ![Manage unit file settings for CAD file.](../images/wsd-manage-source-autocad.png)
+    \[Omitted image "wsd-manage-source-autocad.png"\] Alt text: Manage unit file settings for CAD file.
 
 3.  Complete the following information:
 
@@ -36,9 +37,9 @@ Role required: admin
 
     -   File encoding: Option to change or update your file encoding standard. Update the file encoding format only if there's an issue with the file encoding standard.
 
-**Parent Topic:**[Autocad import tool](../concept/autocad-ovw-v2.md)
+**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
-**Previous topic:**[Import CAD configuration](import-cad-config.md)
+**Previous topic:**[Import CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/import-cad-config.md)
 
-**Next topic:**[Bulk hierarchy upload](../concept/bulk-upload-hierarchy.md)
+**Next topic:**[Bulk hierarchy upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/bulk-upload-hierarchy.md)
 

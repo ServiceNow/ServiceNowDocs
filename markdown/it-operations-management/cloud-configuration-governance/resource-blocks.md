@@ -2,6 +2,7 @@
 title: Resource blocks in Cloud Provisioning and Governance
 description: Resource blocks act as a type of middleware component between catalog items, the Cloud API \(CAPI\), and the CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/resource-blocks.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ Resource blocks act as a type of middleware component between catalog items, the
 
 The following graphic illustrates how resource blocks fit between other components in the system:
 
-![Resource blocks in the cloud provisioning and governance environment](../image/rb-system-basic.png)
+\[Omitted image "rb-system-basic.png"\] Alt text: Resource blocks in the cloud provisioning and governance environment
 
 -   **Blueprints**
 
@@ -36,11 +37,11 @@ The following graphic illustrates how resource blocks fit between other componen
 
 Resource blocks are connected to each other in blueprints. For example, in this blueprint, a virtual server resource block is connected to storage. The virtual server and the storage are both connected to an AWS datacenter resource block.
 
-![Blueprint server with storage](../image/bp-server-with-storage.png "Blueprint server with storage")
+\[Omitted image "bp-server-with-storage.png"\] Alt text: Blueprint server with storage
 
 For these connections to be successful, each resource block needs to specify a type of interface. This graphic illustrates these interfaces:
 
-![Resource block interfaces](../image/rb-interfaces.png "Types of interfaces for resource blocks")
+\[Omitted image "rb-interfaces.png"\] Alt text: Resource block interfaces
 
 -   The guest interface connects to the resource that is above it. The guest interface contains the operations \(also called operation signatures\), which allows users to take action on their resource.
 -   The host interface connects to the resource below the resource block in the blueprint. The host interface also contains operation signatures.
@@ -59,7 +60,7 @@ Resource blocks can have as many guest interfaces, host interfaces, and bindings
 
 The same example blueprint with a virtual server with attached storage on an AWS datacenter, the resource blocks are configured as this graphic illustrates:
 
-![Interfaces for resource blocks](../image/rb-example-connections.png "Interfaces for resource blocks")
+\[Omitted image "rb-example-connections.png"\] Alt text: Interfaces for resource blocks
 
 <table id="table_ils_l45_w2b"><thead><tr><th>
 
@@ -143,7 +144,7 @@ Each resource block contains these components:
     **Note:** These processors are scripts that are system includes. They are not MID Server script includes like the CAPI scripts that you can create to integrate with the cloud provider.
 
 
-![How resource block components work together](../image/rb-system-complex.png "How components work together")
+\[Omitted image "rb-system-complex.png"\] Alt text: How resource block components work together
 
 Users can see catalog items, also called stacks, in the Cloud Catalog. A catalog item is based on a blueprint, which in turn is composed of resource blocks that are connected together.
 
@@ -152,7 +153,7 @@ Users can see catalog items, also called stacks, in the Cloud Catalog. A catalog
 3.  Each step calls CAPI to determine which method to run, while also passing in values for necessary parameters.
 4.  CAPI interfaces with the API of the cloud provider to provision the actual resource.
 
-![Response process from the cloud provider](../image/rb-system-complex-response.png "Process flow when a resource is created in the cloud provider")
+\[Omitted image "rb-system-complex-response.png"\] Alt text: Response process from the cloud provider
 
 1.  The cloud provider provisions the resource and responds with JSON.
 2.  The system parses the response inside the resource script in the resource block.
@@ -163,24 +164,24 @@ Users can see catalog items, also called stacks, in the Cloud Catalog. A catalog
 
 Manage resource blocks in the Resource Blocks page. Open the Cloud Admin portal, and then navigate to **Design** &gt; **Resource Blocks**.
 
-![Resource block page and descriptions of the items in the page](../image/resource-block-list.png "Resource Blocks page components")
+\[Omitted image "resource-block-list.png"\] Alt text: Resource block page and descriptions of the items in the page
 
--   **[Create a custom resource block](../task/create-resource-block.md)**  
+-   **[Create a custom resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-resource-block.md)**  
 If the blocks in the base system do not provide the cloud resources that you need to provision, you can create a custom resource block.
--   **[Configure resource block input parameters](../task/manage-resource-block-operations.md)**  
+-   **[Configure resource block input parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/manage-resource-block-operations.md)**  
 You can configure operations for each interface of a resource block by specifying input parameters, steps, and output attributes. Input parameters hold values that the system requires to identify and manage a virtual resource, such as the datacenter and resource group that the resource is in.
--   **[Add operation steps to a resource block](../task/add-operation-steps.md)**  
+-   **[Add operation steps to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-operation-steps.md)**  
 After you configure operations and input parameters for your resource block, add steps for each operation to tell the system which Cloud API \(CAPI\) to call. Each step is a separate call to CAPI.
--   **[Extend Cloud Provisioning and Governance resource blocks with an override operation](../task/extend-cloud-management-entities.md)**  
+-   **[Extend Cloud Provisioning and Governance resource blocks with an override operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/extend-cloud-management-entities.md)**  
 You can extend your existing guest interface to create a new operation. You can also create a new guest interface with its own operations, parameters, and inputs.
--   **[Add a resource script to a resource block](../task/add-resource-script-resource-block.md)**  
+-   **[Add a resource script to a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-resource-script-resource-block.md)**  
 A resource script operates on a resource during deployment or returns data to the CMDB after a resource is deployed.
--   **[Configure a response processor](../task/configure-response-processor.md)**  
+-   **[Configure a response processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-response-processor.md)**  
 Configure a response processor to handle responses from datacenters.
--   **[Add Terraform Orchestration interface on a resource block](../task/add-terraform-orchestration-interface.md)**  
+-   **[Add Terraform Orchestration interface on a resource block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/add-terraform-orchestration-interface.md)**  
 After you have activated the Terraform store app for Cloud Provisioning and Governance, to support cloud-based operations for cloud providers using Terraform Open Source Edition. Add the Terraform Orchestration interface on resource block, to execute cloud-based operations via terraform templates.
--   **[Create a resource block for Microsoft Azure Cloud](../task/create-resource-block-azure-terraform.md)**  
+-   **[Create a resource block for Microsoft Azure Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-resource-block-azure-terraform.md)**  
 Resource blocks are the building blocks of cloud catalog items. Create a resource block for the Microsoft Azure Cloud Platform provider, based on a CI type from the CMDB.
 
-**Parent Topic:**[Cloud Admin Portal](cloud-admin-portal.md)
+**Parent Topic:**[Cloud Admin Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-admin-portal.md)
 

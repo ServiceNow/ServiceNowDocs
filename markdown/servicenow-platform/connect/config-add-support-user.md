@@ -2,6 +2,7 @@
 title: Configure the add support users property
 description: To enable support agents to add users to a Connect Support conversation, add the glide.connect.support.add\_members property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/config-add-support-user.html
 release: australia
 product: Connect
 classification: connect

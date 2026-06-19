@@ -2,6 +2,7 @@
 title: Manage files in the config data model using file nodes
 description: Add and manage files using file nodes in the config data model of a CDM app or in a component library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-manage-file-config-data-file-node.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -18,7 +19,7 @@ Add and manage files using file nodes in the config data model of a CDM app or i
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_editor or cdm\_admin
 
@@ -29,7 +30,7 @@ When you attach a file to an applicable node, a file node is created under that 
 -   In an app, you can add the file node to a node under the component, collection, or deployable folder. The file nodes in a component are also included when you include a component to a collection and the collection to the deployable in an app. You can override the file nodes included at the collection or deployable level, like any other config data item.
 -   In a component library, you can add a file node to a node under a shared component. When the shared component is used in an app, the file nodes are copied along with the file attached to them.
 
-App developers and members of the authoring group of the app can access the file nodes and also download their attached files. They can manually validate the content of the file and then publish the snapshot. DevOps users can [export the validated config data](cdm-cfg-data-export-from-ui.md), including file nodes with URLs to the attached files hosted on the ServiceNow instance where the export was executed.
+App developers and members of the authoring group of the app can access the file nodes and also download their attached files. They can manually validate the content of the file and then publish the snapshot. DevOps users can [export the validated config data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-cfg-data-export-from-ui.md), including file nodes with URLs to the attached files hosted on the ServiceNow instance where the export was executed.
 
 ## Procedure
 
@@ -37,40 +38,40 @@ App developers and members of the authoring group of the app can access the file
 
 2.  Open a DevOps Config app or a component library to add a file node to its config data model.
 
-<table id="choicetable_mr1_r1p_1yb"><thead><tr><th align="left" id="d97486e114">
+<table id="choicetable_mr1_r1p_1yb"><thead><tr><th align="left" id="d44164e115">
 
 Option
 
-</th><th align="left" id="d97486e117">
+</th><th align="left" id="d44164e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d97486e123">
+</th></tr></thead><tbody><tr><td id="d44164e124">
 
 **Adding a file node in an app**
 
 </td><td>
 
-1.  Select the apps icon \(![DevOps Config apps icon](../../devops-config/image/devops-config-apps-icon.png)\) in the left navigation pane.
+1.  Select the apps icon \(\[Omitted image "devops-config-apps-icon.png"\] Alt text: DevOps Config apps icon\) in the left navigation pane.
 2.  Select an app from the Applications list.
-3.  Select **Edit config data** to [open a changeset.](cdm-changeset-cr-u.md)
+3.  Select **Edit config data** to [open a changeset.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changeset-cr-u.md)
 
 
-</td></tr><tr><td id="d97486e162">
+</td></tr><tr><td id="d44164e163">
 
 **Adding a file node in a component library**
 
 </td><td>
 
-1.  Select the component libraries icon \(![Component libraries icon.](../image/icon-component-libraries.png)\) in the left navigation pane.
-2.  Select a component library to open or [create one](cdm-comp-library-create.md).
+1.  Select the component libraries icon \(\[Omitted image "icon-component-libraries.png"\] Alt text: Component libraries icon.\) in the left navigation pane.
+2.  Select a component library to open or [create one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-comp-library-create.md).
 3.  Select **Edit** to open a changeset.
 
 
 </td></tr></tbody>
 </table>    A changeset is opened with the **Config data** tab selected.
 
-3.  In the config data tree, select the more actions icon \(![More actions icon.](../../site-reliability-ops/image/icon-actions-menu.png)\) next to a node to which you want to add a file node, and then select the **Add file** from the menu.
+3.  In the config data tree, select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) next to a node to which you want to add a file node, and then select the **Add file** from the menu.
 
     **Note:** In an app, you can add a file node to a node under the component, collection, or deployable, but not directly to the component, collection, or deployment folder in an app. In a shared library, you can add a file node to a node under a shared component.
 
@@ -90,21 +91,21 @@ Steps
 
     **Note:** The content preview is available for the files with the following MIME types: `text/yaml,text/css,text/csv,text/html,text/javascript,text/plain,text/richtext,text/x-vcard,text/x-vcalendar,application/xml,application/javascript,application/json`. To view content for additional MIME type files, add them as a comma separated list to the system property **sn\_cdm.attachment.display\_mime\_types**. The preview is not available for binary file MIME types, such as audio, image, and video.
 
-    ![A file node added to a component node.](../image/cdm-file-node-preview.png)
+    \[Omitted image "cdm-file-node-preview.png"\] Alt text: A file node added to a component node.
 
 5.  After the file node is added to the config data, you can perform the following actions on the file node or the file attachment within it.
 
     **Note:** All actions on the file node or its file attachment can only be done via the More actions menu on the file node.
 
-<table id="choicetable_o2f_b2n_1yb"><thead><tr><th align="left" id="d97486e306">
+<table id="choicetable_o2f_b2n_1yb"><thead><tr><th align="left" id="d44164e307">
 
 Action
 
-</th><th align="left" id="d97486e309">
+</th><th align="left" id="d44164e310">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d97486e315">
+</th></tr></thead><tbody><tr><td id="d44164e316">
 
 **Rename the file node**
 
@@ -114,7 +115,7 @@ Steps
 2.  In the Rename dialog box, enter a new name of the file node in the **Node name** field.
  If the file node is included in the collection, it’s renamed there as well.
 
-</td></tr><tr><td id="d97486e342">
+</td></tr><tr><td id="d44164e343">
 
 **Extract variables**
 
@@ -126,7 +127,7 @@ Steps
 
  You can then resolve all the extracted variables. Define the extracted variables and then select **Apply variables** from the form context menu. This action replaces all extracted variables in the file content with the defined variable values.
 
-</td></tr><tr><td id="d97486e372">
+</td></tr><tr><td id="d44164e373">
 
 **Delete the file node**
 
@@ -141,7 +142,7 @@ Steps
 -   If the file node was created in a previously committed changeset and is deleted in the currently opened changeset, then the file node is deleted from the config data but the file attachment remains in the system.
 
 
-</td></tr><tr><td id="d97486e410">
+</td></tr><tr><td id="d44164e411">
 
 **Download the file attachment**
 
@@ -149,7 +150,7 @@ Steps
 
 Select the more actions icon next to the file node, and then select **Download file** from the menu.Alternatively, you can download the file by selecting the file node and then selecting **Download** on the File information pane.
 
-</td></tr><tr><td id="d97486e428">
+</td></tr><tr><td id="d44164e429">
 
 **Replace the file attachment**
 
@@ -159,7 +160,7 @@ Select the more actions icon next to the file node, and then select **Download f
 2.  In the Replace file dialog box, attach a file from your system, and select **Replace file**.
 
 
-</td></tr><tr><td id="d97486e452">
+</td></tr><tr><td id="d44164e453">
 
 **Override an included file node**
 

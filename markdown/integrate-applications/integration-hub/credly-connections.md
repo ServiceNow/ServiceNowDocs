@@ -2,6 +2,7 @@
 title: Create a connection record for Credly spoke
 description: Create a connection record for your Credly spoke. The Credly connection and credential aliases use these connections to perform actions in Credly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/credly-connections.html
 release: australia
 product: Integration Hub
 classification: integration-hub

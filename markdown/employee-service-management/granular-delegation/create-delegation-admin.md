@@ -2,6 +2,7 @@
 title: Create a delegate
 description: Delegation admins \(delegation\_admin\) can delegate tasks from one employee to another using Granular Delegate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/granular-delegation/create-delegation-admin.html
 release: australia
 product: Granular Delegation
 classification: granular-delegation

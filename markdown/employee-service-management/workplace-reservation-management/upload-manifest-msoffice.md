@@ -2,6 +2,7 @@
 title: Upload the add-in file Microsoft Office 365
 description: Upload the manifest file to Microsoft Office 365. Employees can view and use the add-in from Microsoft Office 365 Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/upload-manifest-msoffice.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -50,6 +51,6 @@ Role required: admin
 
     A green tick appears when the add-in deployment is successful. Follow the instructions provided on the page to test if the add-in deployment is successful.
 
-    The add-in is uploaded to Microsoft Office 365. Employees can view the add-in option and make a workplace reservation while scheduling a meeting. For more information, see [Create a reservation in Microsoft Outlook add-in](outlook-create-rsv.md).
+    The add-in is uploaded to Microsoft Office 365. Employees can view the add-in option and make a workplace reservation while scheduling a meeting. For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
 
 

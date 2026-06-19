@@ -2,6 +2,7 @@
 title: Update set transfers
 description: When an update set is completed, you can transfer it between instances to move customizations from development, through testing, and into production.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/update-set-transfers.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -17,7 +18,7 @@ When an update set is completed, you can transfer it between instances to move c
 
 ## Transferring via ReleaseOps
 
-ReleaseOps automates deployment of changes across your pipeline, increases predictability and reliability of deployments, and reduces the risk of releasing changes to production. See [ReleaseOps](../../release-ops/concept/releaseops-landing.md).
+ReleaseOps automates deployment of changes across your pipeline, increases predictability and reliability of deployments, and reduces the risk of releasing changes to production. See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-landing.md).
 
 ## Transferring via IP access control
 
@@ -28,11 +29,11 @@ If IP address access control is active on the source instance or a different dat
 
 ## Transferring via an update source
 
-If IP address access control is enabled on the source instance, set up the target instance as an exception. See [Set up the source instance for an update set](../task/setting-source-for-update-set.md).
+If IP address access control is enabled on the source instance, set up the target instance as an exception. See [Set up the source instance for an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/setting-source-for-update-set.md).
 
 ## Transferring via an XML file
 
-You can unload an update set as an XML file and then transfer it to another instance, see [Save an update set as a local XML file](../task/t_SaveAnUpdateSetAsAnXMLFile.md#).
+You can unload an update set as an XML file and then transfer it to another instance, see [Save an update set as a local XML file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_SaveAnUpdateSetAsAnXMLFile.md).
 
-**Parent Topic:**[Configuring System Update Sets](../concept/configure-system-update-sets.md)
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/configure-system-update-sets.md)
 

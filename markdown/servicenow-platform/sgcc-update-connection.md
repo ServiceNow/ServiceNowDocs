@@ -2,6 +2,7 @@
 title: Update a connection for a Service Graph Connector in SGC Central
 description: Update a connection configured for a Service Graph Connector within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-update-connection.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: SGC-admin or admin
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  Select **All connections**.
 
@@ -42,5 +43,5 @@ Role required: SGC-admin or admin
 
 ## What to do next
 
-If there are any errors and the Service Graph Connector diagnosis skill is enabled, you can diagnose the error using Now Assist. To learn more, see [Diagnose a processing error in SGC Central](sgcc-diagnose-proc-errors.md);
+If there are any errors and the Service Graph Connector diagnosis skill is enabled, you can diagnose the error using Now Assist. To learn more, see [Diagnose a processing error in SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-diagnose-proc-errors.md);
 

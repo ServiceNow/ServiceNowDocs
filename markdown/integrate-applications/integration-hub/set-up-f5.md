@@ -2,6 +2,7 @@
 title: Configure a connection for the F5 BIG-IP spoke
 description: Integrate the ServiceNow instance and F5 using basic authentication to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-f5.html
 release: australia
 product: Integration Hub
 classification: integration-hub

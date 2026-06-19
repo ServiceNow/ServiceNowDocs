@@ -2,6 +2,7 @@
 title: Request Manager Approval activity
 description: Enable agents and fulfillers to submit an approval request to a manager during a playbook run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/request-mgr-approval-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ These activities are available as an application in the ServiceNow Store. Users 
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ibc_1bk_35b"><thead><tr><th>
 
@@ -97,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 

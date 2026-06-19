@@ -2,6 +2,7 @@
 title: Select correlation events for ArcSight ESM event ingestion integration
 description: Based on the ArcSight ESM source and the Query Viewer configured, select a correlation event rule for the profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/arcsight-esm-create-profile-eventsearch.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

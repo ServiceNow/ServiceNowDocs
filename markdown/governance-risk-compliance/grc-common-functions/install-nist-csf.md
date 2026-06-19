@@ -2,6 +2,7 @@
 title: Install the NIST CSF Use Case Accelerator
 description: The NIST Cybersecurity Framework \(CSF\) Use Case Accelerator is used with the GRC core applications: Policy and Compliance Management, Risk Management, and Audit Management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/install-nist-csf.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -78,5 +79,5 @@ The System Admin \(admin\) assigns the following roles:
 5.  Click **Install**.
 
 
-**Parent Topic:**[NIST CSF Use Case Accelerator](../concept/grc-csf-usecase-accelerator.md)
+**Parent Topic:**[NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-csf-usecase-accelerator.md)
 

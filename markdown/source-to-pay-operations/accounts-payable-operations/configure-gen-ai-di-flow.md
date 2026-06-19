@@ -1,19 +1,21 @@
 ---
 title: Copy and activate the generative AI DocIntel flow
-description: Copy and activate the DocIntel Extract Values Flow - Invoice Processing - Gen AI - Invoice Processing - Gen AI Integration flow.
+description: Copy and activate the generative AI DocIntel flow to enable AI-powered invoice processing in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-gen-ai-di-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice capture, invoice processing, DocIntel, Document Intelligence, generative AI, AP case]
 breadcrumb: [Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\), Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Copy and activate the generative AI DocIntel flow
 
-Copy and activate the **DocIntel Extract Values Flow - Invoice Processing - Gen AI - Invoice Processing - Gen AI Integration** flow.
+Copy and activate the generative AI DocIntel flow to enable AI-powered invoice processing in your ServiceNow® instance.
 
 ## Before you begin
 
@@ -36,9 +38,9 @@ Plugins required:
 
 2.  Search for and open the **DocIntel Extract Values Flow - Invoice Processing - Gen AI - Invoice Processing - Gen AI Integration** flow.
 
-3.  Select the ![more actions](../image/more-actions.png) icon &gt; **Copy flow**.
+3.  Select the \[Omitted image "more-actions.png"\] Alt text: more actions icon &gt; **Copy flow**.
 
-    A copy of the **DocIntel Extract Values Flow - Invoice Processing - Gen AI - Invoice Processing - Gen AI Integration** is created.![GenAI Integration flow](../image/doc-intel-gen-ai-flow.png)
+    A copy of the **DocIntel Extract Values Flow - Invoice Processing - Gen AI - Invoice Processing - Gen AI Integration** is created.\[Omitted image "doc-intel-gen-ai-flow.png"\] Alt text: GenAI Integration flow
 
 4.  Select **Save** &gt; **Activate**.
 

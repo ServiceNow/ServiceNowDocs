@@ -2,11 +2,14 @@
 title: Scan Engine Developer dashboard
 description: The Developer dashboard includes trend charts and the following overview modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-development-team-dashboard.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-29"
 reading_time_minutes: 1
-breadcrumb: [Analytics Dashboards, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---
 
 # Scan Engine Developer dashboard
@@ -76,7 +79,9 @@ My open findings
 
 </td><td>
 
-The current open findings that the Scan Engine has identified in a developer’s code.
+-   The current open findings that the Scan Engine has identified in a developer’s code.
+-   The **Impact to instance** column displays a color-coded impact level from 1 \(minor impact\) to 10 \(significant impact\).
+-   The **Total impact to instance** column displays the aggregate count multiplied by the impact level.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Oracle Database licensing in multitenant architectures
 description: The Software Asset Management application supports licensing rules for Oracle databases in multitenant architectures.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/oracle-licensing-multitenant-architectures.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -17,11 +18,11 @@ The Software Asset Management application supports licensing rules for Oracle da
 
 The Oracle multitenant architecture simplifies database management by enabling you to consolidate multiple pluggable databases \(PDBs\) into a single container database \(CDB\). With a CDB, you can track, provision, clone, manage resources for, and upgrade multiple PDBs simultaneously. This multitenant architecture is supported on Oracle Database version 12c Release 1 \(12.1\) and later.
 
-To run an Oracle database in a multitenant architecture, you must purchase and manage licenses for both Oracle Database and the Oracle Multitenant option. In most cases, Oracle Multitenant option licenses must be purchased and managed separately from Oracle Database licenses. However, Oracle Database Cloud Service Enterprise Edition - High Performance \(DBCS EE-HP\), Oracle Database Cloud Service Enterprise Edition - Extreme Performance \(DBCS EE-EP\), and Oracle Database Exadata Cloud Service \(ExaCS\) do not require a separate license for the Oracle Multitenant option, as it is already included in the database license. For more information on Oracle Database licensing, see [Software Asset Management publisher pack for Oracle](oracle-publisher-pack.md).
+To run an Oracle database in a multitenant architecture, you must purchase and manage licenses for both Oracle Database and the Oracle Multitenant option. In most cases, Oracle Multitenant option licenses must be purchased and managed separately from Oracle Database licenses. However, Oracle Database Cloud Service Enterprise Edition - High Performance \(DBCS EE-HP\), Oracle Database Cloud Service Enterprise Edition - Extreme Performance \(DBCS EE-EP\), and Oracle Database Exadata Cloud Service \(ExaCS\) do not require a separate license for the Oracle Multitenant option, as it is already included in the database license. For more information on Oracle Database licensing, see [Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md).
 
 ## Oracle Multitenant option licensing
 
-The Oracle Multitenant option supports both the Named User Plus and Per Processor license metrics. The Named User Plus license metric licenses all users and physical devices that access a user-created PDB. The Per Processor license metric licenses the processor cores on all physical hosts that are running a user-created PDB. For more information on these license metrics, see [Oracle license metrics](oracle-publisher-pack.md#section_q2j_3dn_qpb).
+The Oracle Multitenant option supports both the Named User Plus and Per Processor license metrics. The Named User Plus license metric licenses all users and physical devices that access a user-created PDB. The Per Processor license metric licenses the processor cores on all physical hosts that are running a user-created PDB. For more information on these license metrics, see [Oracle license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md).
 
 **Important:** Oracle Multitenant option licensing accounts for user-created PDBs only. It does not account for proxy PDBs or seed PDBs.
 
@@ -163,8 +164,8 @@ Oracle Database Cloud Service Enterprise Edition - Extreme Performance \(DBCS EE
 Oracle Database Exadata Cloud Service \(ExaCS\)
 
 </td></tr></tbody>
-</table>-   **[Oracle Multitenant option use cases](oracle-multitenant-use-cases.md)**  
+</table>-   **[Oracle Multitenant option use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-multitenant-use-cases.md)**  
 You can view the following use cases to better understand licensing requirements for the Oracle Multitenant option.
 
-**Parent Topic:**[Software Asset Management publisher pack for Oracle](oracle-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md)
 

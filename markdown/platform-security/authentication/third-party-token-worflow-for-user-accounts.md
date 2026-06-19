@@ -2,11 +2,12 @@
 title: Third party token workflow for user accounts
 description: This workflow can be used to integrate third-party identity providers \(IdPs\) with ServiceNow for secure API access. It allows client applications to obtain tokens directly from an IdP and use them to access ServiceNow APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/third-party-token-worflow-for-user-accounts.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Third Party Token Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -25,7 +26,7 @@ The third-party client application requests tokens directly from your identity p
 
 **Note:** ServiceNow validates the token using the public key configured during setup and grants access to the requested APIs. Ensure that the token is in JSON Web Token \(JWT\) format.
 
-![User Account Workflow](../images/mic-third-party-user-account.png "User Account Workflow")
+\[Omitted image "mic-third-party-user-account.png"\] Alt text: User Account Workflow
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Types of risk rating methodologies
 description: Risks are scored during an assessment and then a rating is derived. Ratings are of three kinds: qualitative, semi-quantitative, and quantitative.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/qual-vs-quant.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,7 +22,7 @@ Qualitative risk assessments rely on the assessor's perceptions of the probabili
 
 The following figure shows an example of qualitative rating.
 
-![Risk assessment with qualitative values such as high, low, or medium.](../image/qualitative-risk-assessment.png "Qualitative risk assessment")
+\[Omitted image "qualitative-risk-assessment.png"\] Alt text: Risk assessment with qualitative values such as high, low, or medium.
 
 ## Semi-quantitative rating
 
@@ -29,14 +30,14 @@ In a semi-quantitative rating, the qualitative ratings also have a corresponding
 
 The following figure shows an example of semi-quantitative rating.
 
-![Risk rating with numerical scores and risk ratings.](../image/semi-quantitative-risk.png "Semi-quantitative risk rating")
+\[Omitted image "semi-quantitative-risk.png"\] Alt text: Risk rating with numerical scores and risk ratings.
 
 ## Quantitative rating
 
 A quantitative risk assessment focuses on data that is fact-based, measurable, and highly mathematical. In a quantitative risk rating that uses advanced simulation techniques, the risk is quantified in purely numerical terms. In this category, the risk appetite is quantitative in nature.
 
--   **[Transformation criteria](transformation-criteria.md)**  
+-   **[Transformation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/transformation-criteria.md)**  
 After the risk scores are calculated, you can transform the scores into a rating and then easily report the ratings to senior management and to other stakeholders.
 
-**Parent Topic:**[Advanced Risk Assessment](advanced-risk-assessment.md)
+**Parent Topic:**[Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-assessment.md)
 

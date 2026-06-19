@@ -2,11 +2,14 @@
 title: Scan Engine Platform Owner dashboard
 description: The Platform Owner dashboard includes trend charts and the following overview modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-platform-owner-dashboard.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Analytics Dashboards, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---
 
 # Scan Engine Platform Owner dashboard

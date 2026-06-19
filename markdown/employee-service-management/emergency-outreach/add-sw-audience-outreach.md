@@ -2,6 +2,7 @@
 title: Add a Safe Workplace audience for Emergency Outreach
 description: Add a collection of users for Emergency Outreach notifications. Target specific users based on criteria such as location, department, or group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/add-sw-audience-outreach.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -31,15 +32,15 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 3.  Indicate the users who should receive notifications.
 
-<table id="choicetable_dwh_wnh_j4b"><thead><tr><th align="left" id="d78105e104">
+<table id="choicetable_dwh_wnh_j4b"><thead><tr><th align="left" id="d78452e104">
 
 Method
 
-</th><th align="left" id="d78105e107">
+</th><th align="left" id="d78452e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d78105e113">
+</th></tr></thead><tbody><tr><td id="d78452e113">
 
 **Add users manually**
 
@@ -47,7 +48,7 @@ Action
 
 Select the users that you want to add to the audience in the **Users** field.
 
-</td></tr><tr><td id="d78105e128">
+</td></tr><tr><td id="d78452e128">
 
 **Upload a spreadsheet of users**
 
@@ -59,7 +60,7 @@ Select the link to add a file in the **Upload file** field.
 
  **Note:** If you have more than 500 entries, split the spreadsheet into multiple files.
 
-</td></tr><tr><td id="d78105e155">
+</td></tr><tr><td id="d78452e155">
 
 **Use additional criteria based on common User \[sys\_user\] table fields**
 
@@ -71,7 +72,7 @@ Select the link to add a file in the **Upload file** field.
     -   Include only users who fulfill all selected criteria by selecting **All the criteria \(AND\)**. Any users listed in the **Users** field are included in the audience only if they also fulfill all the additional criteria.
 
 
-</td></tr><tr><td id="d78105e208">
+</td></tr><tr><td id="d78452e208">
 
 **Enter conditions in the condition builder**
 

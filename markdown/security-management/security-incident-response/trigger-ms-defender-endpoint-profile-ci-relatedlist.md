@@ -2,6 +2,7 @@
 title: Trigger the Microsoft Defender for Endpoint from Configuration Item related list
 description: Trigger a capability profile manually from the configuration item related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/trigger-ms-defender-endpoint-profile-ci-relatedlist.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

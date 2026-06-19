@@ -2,6 +2,7 @@
 title: Enhance accessibility with focus management
 description: Set focus on specific elements, ensuring users can interact with them effectively using screen readers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/focus-management.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -29,11 +30,11 @@ Focus management can help users navigate experiences built with UI Builder by di
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Create or open a page or page variant.
 
-    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](create-page.md).
+    For more information about how to create a page in UI Builder, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
 
 4.  Select a component from the content tree that you want to trigger the focus.
 
@@ -51,18 +52,18 @@ Focus management can help users navigate experiences built with UI Builder by di
 
     Select **Focus parent page** to direct users to the parent page of a modal, pop-up, or similar overlay.
 
-    ![List of event handlers showing Set focus on.](../image/set-focus-option.png)
+    \[Omitted image "set-focus-option.png"\] Alt text: List of event handlers showing Set focus on.
 
 10. Select **Continue**.
 
 11. Select the component you want to focus on from the **Set focus on** list.
 
-    ![Simple List component selected in the set focus on field.](../image/set-focus-list.png)
+    \[Omitted image "set-focus-list.png"\] Alt text: Simple List component selected in the set focus on field.
 
 12. Select **Add**.
 
 13. Select **Save**.
 
 
-**Parent Topic:**[Customize UI Builder pages using components](../concept/work-components.md)
+**Parent Topic:**[Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
 

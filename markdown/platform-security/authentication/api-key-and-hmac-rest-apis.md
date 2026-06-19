@@ -2,6 +2,7 @@
 title: API Key and HMAC Authentication for inbound REST APIs
 description: Support API tokens for REST API endpoints so that the ServiceNow user name and password isn't visible in the webhook URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/api-key-and-hmac-rest-apis.html
 release: australia
 product: Authentication
 classification: authentication

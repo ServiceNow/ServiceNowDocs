@@ -2,6 +2,7 @@
 title: Enable Push notification categories for ITSM Mobile Agent
 description: Enable push notification categories so your users can enable or disable notifications by category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/enable-notifications-categories.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -31,7 +32,7 @@ Role required: admin
 
 4.  Select **Update**.
 
-    ![Notification selection](../image/notification-category-selection1.png)![Notifications by category](../image/notification-category-selections2.png)
+    \[Omitted image "notification-category-selection1.png"\] Alt text: Notification selection\[Omitted image "notification-category-selections2.png"\] Alt text: Notifications by category
 
     The user can enable or disable notifications by category. The categories shown in the notification preferences screen are defined in the **Notifications** \[sysevent\_email\_action\] table. The screen to the left shows all the reference categories defined on this table. The screen to the right shows the record matching the selected category.
 

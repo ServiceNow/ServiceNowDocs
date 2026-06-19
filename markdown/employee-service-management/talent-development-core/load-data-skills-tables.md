@@ -2,6 +2,7 @@
 title: Load job architecture data into your ServiceNow instance
 description: Load your existing company job architecture data to build a customized career architecture in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/load-data-skills-tables.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

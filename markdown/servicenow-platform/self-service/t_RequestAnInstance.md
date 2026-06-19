@@ -2,6 +2,7 @@
 title: Request an instance
 description: Request the provisioning of a new Amazon EC2 instance through the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/t\_RequestAnInstance.html
 release: australia
 product: Self-service
 classification: self-service
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Select **Amazon EC2 Instance** from the **Request Application Infrastructure** category.
 
-    ![EC2 service catalog 2](../image/EC2ServiceCatalog2.png "EC2 Service Catalog 2")
+    \[Omitted image "EC2ServiceCatalog2.png"\] Alt text: EC2 service catalog 2
 
 3.  Select the operating system, the type of instance \(Large or Small\), and the number of instances requested.
 
@@ -33,16 +34,16 @@ Role required: admin
 
 4.  Type a reason for the request.
 
-    ![EC2 service catalog](../image/EC2ServiceCatalog.png "EC2 Service Catalog")
+    \[Omitted image "EC2ServiceCatalog.png"\] Alt text: EC2 service catalog
 
 5.  Click **Order Now** to order the instance.
 
     The Order Status form appears, summarizing the request. A status bar tracks the progress of the approval and provisioning of the EC2 instance.
 
-    ![EC2 order status](../image/EC2OrderStatus.png "EC2 Order Status")
+    \[Omitted image "EC2OrderStatus.png"\] Alt text: EC2 order status
 
     Upon successful creation of the instance, you receive an email containing the instance ID, IP address, and the public DNS for the instances created.
 
 
-**Parent Topic:**[Amazon EC2 instance request from the Service Catalog](../concept/c_AmazonEC2InstanceRequest.md)
+**Parent Topic:**[Amazon EC2 instance request from the Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/c_AmazonEC2InstanceRequest.md)
 

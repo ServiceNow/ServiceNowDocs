@@ -2,6 +2,7 @@
 title: About Rules Engine in TISC
 description: The Administration section provides access to Rules Engine module that allow the administrators to configure rule-driven processing of data within TISC.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-admin-rules-eng.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

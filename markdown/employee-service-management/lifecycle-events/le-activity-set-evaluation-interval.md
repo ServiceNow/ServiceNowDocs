@@ -2,6 +2,7 @@
 title: Change the evaluation interval default wait time
 description: As an administrator, you can change the default time that an activity set waits before the activity set is evaluated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-activity-set-evaluation-interval.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -58,5 +59,5 @@ Starting in the Utah family, the default evaluation interval can be changed.
 11. Select **Update**.
 
 
-**Parent Topic:**[Lifecycle Events evaluation interval](../concept/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

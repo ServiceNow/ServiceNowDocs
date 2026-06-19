@@ -2,6 +2,7 @@
 title: Create granular job
 description: Scan specific table columns in Data Discovery Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/dds-create-granular-job.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -69,5 +70,5 @@ Sensitive data will only be discovered for the day of and after the scan start p
 
 ## Result
 
-A granular scan is scheduled to run on the target table and column, after it executes you can [review the scan findings](dds-review-granular-findings.md).
+A granular scan is scheduled to run on the target table and column, after it executes you can [review the scan findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/dds-review-granular-findings.md).
 

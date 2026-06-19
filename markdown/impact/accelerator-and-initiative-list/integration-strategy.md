@@ -2,6 +2,7 @@
 title: Integration Strategy
 description: Guidance on the integration processThis Accelerator provides guidance on the integration process.Guidance on the integration process
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/integration-strategy.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -22,6 +23,10 @@ This Accelerator provides guidance on the integration process.
 ### Accelerator Overview
 
 Integration Strategy- Advanced provides Impact Customers with leading practices content and advisory guidance on  the  integration  process, including  design considerations, and platform recommended tools as they relate to the ServiceNow Platform.
+
+### Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance\), and Advanced Packages.
 
 ### What You Get
 

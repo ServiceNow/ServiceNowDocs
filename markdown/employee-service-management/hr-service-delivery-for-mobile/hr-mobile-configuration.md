@@ -2,6 +2,7 @@
 title: Configurations for the Now Mobile app for HR Service Delivery
 description: Configure options for the Now Mobile app for HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-mobile/hr-mobile-configuration.html
 release: australia
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
@@ -23,8 +24,8 @@ For more information on configuring the Now Mobile app for HR Service Delivery f
 -   My Requests
 -   Search
     -   People search
-        -   Note: Customers that do not use the Employee Center \(EC\), the base system people search configuration is used. For more information, see [Mobile search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/sg-mobile-search.md).
-        -   For information on AI Search, see [Configure AI Search for mobile devices](../../../administer/mobile-employee/task/advanced-text-search-config-now.md).
+        -   Note: Customers that do not use the Employee Center \(EC\), the base system people search configuration is used. For more information, see Mobile search.
+        -   For information on AI Search, see [Configure AI Search for mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/advanced-text-search-config-now.md).
     -   Analytics and suggestions
 -   Items and services
     -   Catalog
@@ -32,7 +33,7 @@ For more information on configuring the Now Mobile app for HR Service Delivery f
 -   Knowledge
 -   Siri shortcuts
 
-Please see [Configurations for Now Mobile](../../../administer/mobile-employee/concept/setup-mobile-employee.md).
+Please see [Configurations for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md).
 
-**Parent Topic:**[Activate HR Service Delivery for mobile](../task/activate-mobile-employee-experience-for-hr-service-delivery.md)
+**Parent Topic:**[Activate HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-mobile/activate-mobile-employee-experience-for-hr-service-delivery.md)
 

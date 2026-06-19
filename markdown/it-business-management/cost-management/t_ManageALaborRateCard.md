@@ -2,6 +2,7 @@
 title: Manage a labor rate card
 description: The labor rate card associates a rate code with a labor rate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_ManageALaborRateCard.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -83,8 +84,8 @@ Defines a filter on the user table to determine whether the task time worked use
 
 </td></tr></tbody>
 </table>
--   **[Rate type in labor rate card](../concept/RateType.md)**  
+-   **[Rate type in labor rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/RateType.md)**  
 The rate type functionality is used to categorize different types of work. For example, Standard versus Overtime.
 
-**Parent Topic:**[Task and labor rate cards](../concept/c_TaskAndLaborRateCards.md)
+**Parent Topic:**[Task and labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_TaskAndLaborRateCards.md)
 

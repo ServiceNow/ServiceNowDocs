@@ -2,6 +2,7 @@
 title: Accessing the connection details of API Service Graph Connector for AWS API Gateway
 description: You can access the connection details of the API Service Graph Connector for AWS API Gateway in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.Access the details of an AWS API Gateway connection configured for the API Service Graph Connector for AWS API Gateway.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/api-sgc-aws-gateway-conn.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,7 +16,7 @@ breadcrumb: [AWS API Gateway, API Service Graph Connectors, Integrating third-pa
 
 You can access the connection details of the API Service Graph Connector for AWS API Gateway in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.
 
-With the CCF feature, you can access all connections for a connector. Connection details include the alias, properties, data sources, and associated scheduled data imports. In addition, you can test a connection. Additional details may appear depending on the connector type. For more information, see [Accessing the connection details of Service Graph Connectors](integration-commons-conn-fw.md).
+With the CCF feature, you can access all connections for a connector. Connection details include the alias, properties, data sources, and associated scheduled data imports. In addition, you can test a connection. Additional details may appear depending on the connector type. For more information, see [Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md).
 
 ## Access the details of an AWS API Gateway connection
 

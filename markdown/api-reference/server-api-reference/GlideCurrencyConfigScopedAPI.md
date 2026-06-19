@@ -2,6 +2,7 @@
 title: GlideCurrencyConfig - Scoped
 description: The GlideCurrencyConfig API provides methods to retrieve various configuration information for FX Currency fields.Instantiates a GlideCurrencyConfig object that enables the retrieval of global default FX Currency configuration information.Instantiates a GlideCurrencyConfig object that enables the retrieval of the configuration information for a specific FX Currency field.Returns the aggregation source value for an FX Currency field.Returns the field used as the source of the date and time for the currency conversion.Returns the number of digits to display for an FX Currency field.Returns the currency code used to convert the FX Currency value when it appears in lists and reports.Returns the rate table field used as a rate table filter for an FX Currency field.Returns the target table field used to filter the rate table records for an FX Currency field.Returns the rate table used to convert currency for an FX Currency field.Returns the reference currency for an FX Currency field.Returns the reference currency source for an FX Currency field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideCurrencyConfigScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,13 +16,13 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideCurrencyConfig API provides methods to retrieve various configuration information for FX Currency fields.
 
-You can acquire information for a specific FX Currency field by calling the [GlideCurrencyConfig\(Object ed\)](GlideCurrencyConfigScopedAPI.md#) constructor, which associates a specific FX Currency field to the instantiated object. When calling the various GlideCurrencyConfig\(\) methods, if a record exists in the FX Currency Configuration \[fx\_configuration\] table for the FX Currency field, the requested value is passed back. If a record or field is not available, the default value is passed back. You can also acquire the default FX Currency configuration values by calling the [GlideCurrencyConfig\(\)](GlideCurrencyConfigScopedAPI.md#) constructor.
+You can acquire information for a specific FX Currency field by calling the [GlideCurrencyConfig\(Object ed\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideCurrencyConfigScopedAPI.md) constructor, which associates a specific FX Currency field to the instantiated object. When calling the various GlideCurrencyConfig\(\) methods, if a record exists in the FX Currency Configuration \[fx\_configuration\] table for the FX Currency field, the requested value is passed back. If a record or field is not available, the default value is passed back. You can also acquire the default FX Currency configuration values by calling the [GlideCurrencyConfig\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideCurrencyConfigScopedAPI.md) constructor.
 
-For additional information on FX Currency configuration, see [Setting up and operating FX Currency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency.md).
+For additional information on FX Currency configuration, see Setting up and operating FX Currency fields.
 
 This class runs is in the `sn_currency` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideCurrencyConfig - GlideCurrencyConfig\(\)
 
@@ -29,9 +30,9 @@ Instantiates a GlideCurrencyConfig object that enables the retrieval of global d
 
 When calling the available methods on this type of GlideCurrencyConfig object, the return values are the FX Currency global defaults from system properties. If a global default is not defined in system properties, a hard-coded default is returned \(this can also be an empty value if not configured\).
 
-This object does not provide configuration information for a specific FX Currency field. To retrieve specific FX Currency field information, use the [GlideCurrencyConfig\(Object ed\)](GlideCurrencyConfigScopedAPI.md#) constructor.
+This object does not provide configuration information for a specific FX Currency field. To retrieve specific FX Currency field information, use the [GlideCurrencyConfig\(Object ed\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideCurrencyConfigScopedAPI.md) constructor.
 
-For more information, see [Configuring FX Currency global settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-configure.md).
+For more information, see Configuring FX Currency global settings.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -47,7 +48,7 @@ Instantiates a GlideCurrencyConfig object that enables the retrieval of the conf
 
 When calling the available methods on this type of GlideCurrencyConfig object, the return values are from the FX Currency Configuration \[fx\_configuration\] record associated with the FX Currency field, if a record exists. If a record does not exist, default values are returned.
 
-For more information, see [Configuring FX Currency global settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/fx-currency-configure.md).
+For more information, see Configuring FX Currency global settings.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -66,7 +67,7 @@ Returns the aggregation source value for an FX Currency field.
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Aggregation Source \(aggregation\_source\) field. Otherwise, if a new record, returns a default value.
 
-For more information on aggregation source, see [Specify the table field and its currency display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
+For more information on aggregation source, see Specify the table field and its currency display parameters.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -119,7 +120,7 @@ Returns the field used as the source of the date and time for the currency conve
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Conversion Date Source \(conversion\_date\_source\) field. Otherwise, if a new record, returns "null".
 
-For more information on the Conversion Date Source field, see [Identify the rate table and date source for currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
+For more information on the Conversion Date Source field, see Identify the rate table and date source for currency conversions.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -256,7 +257,7 @@ Returns the rate table field used as a rate table filter for an FX Currency fiel
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Rate Table Field \(rate\_filter\_rate\_table\_field\). Otherwise, if a new record, returns a default value.
 
-For more information on rate table filters, see [Select the rate and target table fields used for filtering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
+For more information on rate table filters, see Select the rate and target table fields used for filtering.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -296,7 +297,7 @@ Returns the target table field used to filter the rate table records for an FX C
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Target Table Field \(rate\_filter\_target\_table\_field\). Otherwise, if a new record, returns a default value.
 
-For more information on rate table filters, see [Select the rate and target table fields used for filtering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
+For more information on rate table filters, see Select the rate and target table fields used for filtering.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -343,7 +344,7 @@ Returns the rate table used to convert currency for an FX Currency field.
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Rate Table Field \(rate\_filter\_rate\_table\_field\). Otherwise, if a new record, returns a default value.
 
-For more information on FX Currency rate tables, see [Identify the rate table and date source for currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
+For more information on FX Currency rate tables, see Identify the rate table and date source for currency conversions.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -390,7 +391,7 @@ Returns the reference currency for an FX Currency field.
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Reference Currency \(reference\_currency\) field. Otherwise, if a new record, returns a default value.
 
-For more information on reference currency, see [Set the reference currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
+For more information on reference currency, see Set the reference currency.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -440,7 +441,7 @@ Returns the reference currency source for an FX Currency field.
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value \(dot-walk path\) of the Reference Currency Source \(reference\_currency\_source\) field. Otherwise, if a new record, returns a default value.
 
-For more information on reference currency source, see [Set the reference currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md).
+For more information on reference currency source, see Set the reference currency.
 
 |Name|Type|Description|
 |----|----|-----------|

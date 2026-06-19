@@ -2,6 +2,7 @@
 title: Using Audit Management
 description: The scope of audit management includes automation of the work streams of internal audit teams, optimizing resources and productivity, and eliminating recurring audit findings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/using-audit-management.html
 release: australia
 product: Audit Management
 classification: audit-management

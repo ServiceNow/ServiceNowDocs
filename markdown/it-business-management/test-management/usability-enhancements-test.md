@@ -2,6 +2,7 @@
 title: Usability enhancements in Test Management 2.0
 description: Test Management 2.0 offers a few usability enhancements over Test Management 1.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/usability-enhancements-test.html
 release: australia
 product: Test Management
 classification: test-management

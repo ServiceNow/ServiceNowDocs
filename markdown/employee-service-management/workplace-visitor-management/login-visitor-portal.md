@@ -2,6 +2,7 @@
 title: Logging in to the visitor portal
 description: Log in to the visitor portal as an internal user or an external user.As an internal visitor, you can login using your instance credentials or using single sign-on.As an external visitor, you can login using your registered email and a one-time pass-code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/login-visitor-portal.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management

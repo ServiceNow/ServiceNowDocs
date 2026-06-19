@@ -2,6 +2,7 @@
 title: Define the Jamf configuration
 description: Associate that software with a group through a Jamf configuration to create catalog items for Jamf software deployment or to configure your instance to revoke software through .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-jamf-coll.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -43,5 +44,5 @@ Perform these steps for the Jamf applications and policies.
 4.  Click **Submit**.
 
 
-**Parent Topic:**[CSD 2.0 for Jamf](../concept/csd2-jamf-tsk.md)
+**Parent Topic:**[CSD 2.0 for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-jamf-tsk.md)
 

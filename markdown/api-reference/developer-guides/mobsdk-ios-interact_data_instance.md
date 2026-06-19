@@ -2,6 +2,7 @@
 title: Interact with table data in a ServiceNow instance
 description: The Mobile SDK enables you to interact with data in tables that reside on your ServiceNow instance. You can interact with this data through the ServiceNow REST Table API using the NowTableService\(\) API that directly calls the REST interface, or through the NowGraphQLService\(\) API that executes a specified GraphQL query against the REST GraphQL API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-interact\_data\_instance.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -15,11 +16,11 @@ breadcrumb: [Mobile SDK Developer Guide - iOS, Developer guides, API implementat
 
 The Mobile SDK enables you to interact with data in tables that reside on your ServiceNow instance. You can interact with this data through the ServiceNow REST Table API using theNowTableService\(\) API that directly calls the REST interface, or through the NowGraphQLService\(\) API that executes a specified GraphQL query against the REST GraphQL API.
 
-If you want to return data from multiple tables within a single call, you will need to use the NowGraphQLService\(\) API. If you need to interact with other ServiceNow REST APIs, see [Interact with the public REST API on a ServiceNow instance](mobsdk-ios-interact-rest_api.md).
+If you want to return data from multiple tables within a single call, you will need to use the NowGraphQLService\(\) API. If you need to interact with other ServiceNow REST APIs, see [Interact with the public REST API on a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/mobsdk-ios-interact-rest_api.md).
 
 ## Using NowGraphQLService to interact with ServiceNow tables
 
-The [NowGraphQLService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowGraphQLService/concept/NowGraphQLServiceiOSAPI.md#) class provides methods that enable you to construct and execute GraphQL queries on a specified table within your ServiceNow instance if the logged in user has the proper authorization. You can define all CRUD operations within your GraphQL query.
+The [NowGraphQLService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowGraphQLServiceiOSAPI.md) class provides methods that enable you to construct and execute GraphQL queries on a specified table within your ServiceNow instance if the logged in user has the proper authorization. You can define all CRUD operations within your GraphQL query.
 
 NowGraphQLService supports fetching results for a query by returning a completion handler:
 
@@ -112,7 +113,7 @@ private let recentlyPublishedQuery =
 
 ## Using NowTableService to interact with ServiceNow tables
 
-The [NowTableService](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#) class provides methods to perform CRUD operations on the records in tables that reside on your ServiceNow instance. Through this interface you can directly access any of the records within any ServiceNow table for which the logged in user is authorized. NowTableService supports dot-walking for reference fields. For example, if a table contains a reference to the User table, the dot-walked value `user.name` returns the name of the user.
+The [NowTableService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md) class provides methods to perform CRUD operations on the records in tables that reside on your ServiceNow instance. Through this interface you can directly access any of the records within any ServiceNow table for which the logged in user is authorized. NowTableService supports dot-walking for reference fields. For example, if a table contains a reference to the User table, the dot-walked value `user.name` returns the name of the user.
 
 When returning the requested data, all applicable Access Control Lists \(ACLs\) are applied to the data, which may result in fewer results than expected, or authorization errors if the authenticated user does not have access rights to the specified table.
 
@@ -120,17 +121,17 @@ Most NowTableService methods provide three implementations for returning results
 
 For example, all createRecord\(\) methods insert a constructed record into a specified table, however, the
 
-`[NowTableService - createRecord\(with fields: \[FieldName: FieldValue\], in tableName: String, writeOptions: FieldWriteOptions, configuration: FieldReadConfiguration, completion: @escaping \(Result&lt;Data, NowDataError&gt;\)](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#)`
+`[NowTableService - createRecord\(with fields: \[FieldName: FieldValue\], in tableName: String, writeOptions: FieldWriteOptions, configuration: FieldReadConfiguration, completion: @escaping \(Result&lt;Data, NowDataError&gt;\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md)`
 
 method calls a completion handler with a **Result** enumeration \(the `.success` case contains the results as its associated value\).
 
 The
 
-`[NowTableService - createRecord\(with fields: \[FieldName: FieldValue\], in tableName: String, writeOptions: FieldWriteOptions? = nil, configuration: FieldReadConfiguration? = nil\) async throws](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#)`
+`[NowTableService - createRecord\(with fields: \[FieldName: FieldValue\], in tableName: String, writeOptions: FieldWriteOptions? = nil, configuration: FieldReadConfiguration? = nil\) async throws](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md)`
 
 method performs an async/await function. While the
 
-`[NowTableService - createRecord\(with fields: \[FieldName: FieldValue\], in tableName: String, writeOptions: FieldWriteOptions? = nil, configuration: FieldReadConfiguration? = nil\)](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#)`
+`[NowTableService - createRecord\(with fields: \[FieldName: FieldValue\], in tableName: String, writeOptions: FieldWriteOptions? = nil, configuration: FieldReadConfiguration? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md)`
 
 method returns a Combine publisher, but is currently deprecated.
 
@@ -159,5 +160,5 @@ makeTableService(instanceUrl: instanceUrl) { [weak self] result in
 }
 ```
 
-For additional code examples using the available NowTableService methods, refer to the `[NowTableService class - iOS](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#)`API documentation.
+For additional code examples using the available NowTableService methods, refer to the `[NowTableService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md)`API documentation.
 

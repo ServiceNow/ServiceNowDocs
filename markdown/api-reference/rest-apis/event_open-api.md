@@ -2,6 +2,7 @@
 title: Event Notification Management Open API
 description: The Event Notification Management Open API provides an endpoint to create, update, and delete events from the Events \[em\_event\] table.Places the payload of the associated request in the NowMQ queue. This queue is then processed in the background to create, update, and delete events within the Events \[em\_event\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/event\_open-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,9 +18,9 @@ The Event Notification Management Open API provides an endpoint to create, updat
 
 The Event Notification Management Open API \(sn\_ind\_tmf688\) is a ServiceNow implementation of the TM Forum Open API specification. This API is based on [TMF688 Event Management API User Guide v4.0.0](https://www.tmforum.org/resources/standard/tmf688-event-management-api-user-guide-v4-0-0/). You can locate additional alarm information in the [TMF642 Alarm Management API User Guide](https://projects.tmforum.org/wiki/download/attachments/134776981/TMF642_Alarm_Management_API_User_Guide_v4.0.0.pdf?api=v2).
 
-This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Event Notification Management Open API Developer Guide](../../guides/telecom/concept/event-mgmt-notif_dev-guide.md#).
+This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Event Notification Management Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/event-mgmt-notif_dev-guide.md).
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Event Notification Management Open API – POST instance\_name/scope\_id/GUID
 
@@ -310,7 +311,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -322,7 +323,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

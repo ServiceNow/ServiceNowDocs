@@ -2,6 +2,7 @@
 title: Summarize a subflow
 description: Generate a summary of a subflow with Now Assist for Creator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/summarize-a-subflow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -34,7 +35,7 @@ Role required:
 
 5.  From the Subflow summary dialog box, select **Summarize**.
 
-    ![An example summary of the Change - Implementation tasks subflow.](../images/subflow-summary-03.png)
+    \[Omitted image "subflow-summary-03.png"\] Alt text: An example summary of the Change - Implementation tasks subflow.
 
 
 ## Result
@@ -43,9 +44,9 @@ Now Assist for Creator generates a summary of the subflow. The subflow summary a
 
 ## What to do next
 
-![Refresh summary option on the Subflow summary dialog box](../images/subflow-summary-04.png)
+\[Omitted image "subflow-summary-04.png"\] Alt text: Refresh summary option on the Subflow summary dialog box
 
 You can regenerate the subflow summary by selecting the **Refresh summary** icon next to the summary creation date.
 
-**Parent Topic:**[Building subflows](../concept/subflows.md)
+**Parent Topic:**[Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md)
 

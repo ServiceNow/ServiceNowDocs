@@ -2,7 +2,10 @@
 title: Components installed with Case lines and workflows
 description: Several types of components are installed with the Case lines and workflows application, including tables and roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-mgmt-case-lines-install-comp.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -25,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Case Line](case-line-form.md)\[sn\_case\_line\]
+[Case Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-line-form.md)\[sn\_case\_line\]
 
 </td><td>
 
@@ -33,7 +36,7 @@ The Case Line table stores case line item records that are created for parent ca
 
 </td></tr><tr><td>
 
-[Case Line Task](case-line-task-form.md)\[sn\_case\_line\_task\]
+[Case Line Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-line-task-form.md)\[sn\_case\_line\_task\]
 
 </td><td>
 
@@ -41,7 +44,7 @@ The Case Line Task table stores the tasks related to case line items. This table
 
 </td></tr><tr><td>
 
-[Case Line Characteristic](case-line-characteristics-form.md)\[sn\_case\_line\_characteristic\]
+[Case Line Characteristic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-line-characteristics-form.md)\[sn\_case\_line\_characteristic\]
 
 </td><td>
 
@@ -49,7 +52,7 @@ The Case Line Characteristic form displays details about the product offering in
 
 </td></tr><tr><td>
 
-[Case Line Entitlement](case-line-entitlements-form.md)\[sn\_case\_line\_entitlement\]
+[Case Line Entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-line-entitlements-form.md)\[sn\_case\_line\_entitlement\]
 
 </td><td>
 
@@ -73,6 +76,23 @@ Description
 Includes roles
 
 </th></tr></thead><tbody><tr><td>
+
+sn\_case\_line.admin
+
+</td><td>
+
+This user can create and update case line characteristic records.
+
+</td><td>
+
+-   sn\_case\_line.characteristic\_creator
+-   sn\_case\_line.characteristic\_writer
+-   sn\_case\_line.characteristic\_delete
+-   sn\_case\_line.characteristic\_viewer
+-   sn\_case\_line.characteristic\_report\_viewer
+-   sn\_case\_line.viewer
+
+</td></tr><tr><td>
 
 sn\_case\_line.characteristic\_creator
 
@@ -115,6 +135,18 @@ sn\_case\_line.characteristic\_viewer
 </td><td>
 
 This user can view case line characteristic records if they have access to the parent case line item record.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_case\_line.viewer
+
+</td><td>
+
+This user can view case lines and workflows entities.
 
 </td><td>
 
@@ -172,7 +204,7 @@ This is an existing role.The customer service agent role has read, write, and up
 
 </td><td>
 
-For more information, see [Roles installed with Customer Service Management](r_RolesInstalledWithCustomerService.md#section_p5t_gcr_3mb).
+For more information, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr><tr><td>
 
@@ -184,7 +216,7 @@ This is an existing role.The customer contact has read and write permissions in 
 
 </td><td>
 
-For more information, see [Roles installed with Customer Service Management](r_RolesInstalledWithCustomerService.md#section_p5t_gcr_3mb).
+For more information, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 </td></tr></tbody>
 </table>## Properties

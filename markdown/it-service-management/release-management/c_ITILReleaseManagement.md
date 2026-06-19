@@ -2,6 +2,7 @@
 title: Release Management
 description: The ServiceNow Release Management v2 application encompasses the planning, design, build, configuration, and testing of hardware and software releases to create a defined set of release components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/c\_ITILReleaseManagement.html
 release: australia
 product: Release Management
 classification: release-management
@@ -19,18 +20,18 @@ The Release Management v2 application handles releases using the task record sys
 
 Release Management can be effectively used to coordinate releases as a vehicle for planning releases, composed of individual work items such as, projects, epics, stories, and problems. After the release scope \(projects, stories, and so on\) is finalized, you can generate Change Items and associate them to the release, allowing the implementation and deployment of a release to be handled within the change management process.
 
--   **[Activate Release Management](../task/t_ActivateReleaseManagement.md)**  
+-   **[Activate Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/t_ActivateReleaseManagement.md)**  
 Activate the Release Management plugin \(com.snc.release\_management\_v2\) with the admin role.
--   **[Business stakeholder role for Release Management](../reference/business-stakeholder-role-for-release-management.md)**  
+-   **[Business stakeholder role for Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/business-stakeholder-role-for-release-management.md)**  
 Use the business stakeholder role to read and retrieve data from any table of the Release Management application to generate reports.
--   **[Domain separation in Release Management](domain-separation-release-management.md)**  
+-   **[Domain separation in Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/domain-separation-release-management.md)**  
 This is an overview of domain separation and Release Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Release Management concepts](c_ReleaseManagementConcepts.md)**  
+-   **[Release Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_ReleaseManagementConcepts.md)**  
 The Release Management application encompasses the planning, design, build, configuration, and testing of hardware and software releases to create a defined set of release components.
--   **[Using Release Management v2](c_Release.md)**  
+-   **[Using Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_Release.md)**  
 The Release Management v2 plugin \(com.snc.release\_management\_v2\) provides release tables which store information about the planned release and tasks that are required to execute the release.
--   **[Software control distribution](c_SoftwareControlDistribution.md)**  
+-   **[Software control distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/c_SoftwareControlDistribution.md)**  
 The application enables the Release Management team to control the distribution of software by creating a Definitive Media Library \(DML\) stored in the CMDB.
 
-**Parent Topic:**[IT Service Management](../../it-service-management/reference/r_ITServiceManagement.md)
+**Parent Topic:**[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md)
 

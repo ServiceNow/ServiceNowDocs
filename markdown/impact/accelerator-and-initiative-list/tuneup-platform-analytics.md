@@ -2,6 +2,7 @@
 title: TuneUp Your Platform Analytics
 description: The TuneUp Your Platform Analytics Accelerator provides guidance on maintaining and governing Platform Analytics health to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-platform-analytics.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,9 @@ The TuneUp Your Platform Analytics Accelerator provides guidance on maintaining 
 
 TuneUp Your Platform Analytics provides Impact customers with an assessment of their current Platform Analytics implementation. This offering includes an applied demonstration of the capabilities of advanced Platform Analytics configuration, including Performance Analytics, Workspaces, and Usage Insights. We aim to assist you in obtaining better insight into your Platform Analytics investment and provide leading practices on how to best increase adoption and utilization.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

@@ -2,6 +2,7 @@
 title: Create a gamification track
 description: Create tracks to provide a logical way to separate points assigned in the communities into different areas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-create-track.html
 release: australia
 product: Communities
 classification: communities
@@ -42,5 +43,5 @@ Role required: sn\_gamification.admin
     **Note:** While tracks can be configured, it is not currently displayed anywhere on the Community portal.
 
 
-**Parent Topic:**[Administer gamification](../concept/communities-gamification-administer.md)
+**Parent Topic:**[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-administer.md)
 

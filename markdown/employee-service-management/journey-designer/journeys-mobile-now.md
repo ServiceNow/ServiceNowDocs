@@ -2,6 +2,7 @@
 title: Journeys on Now Mobile
 description: Journeys are created in the ServiceNow Journey designer application to help employees navigate multi-step transitions, such as onboarding, maternity leave, or an interdepartmental transfer. The Now Mobile application enables users to perform journey-related tasks from the convenience of their mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/journeys-mobile-now.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -39,5 +40,5 @@ Journeys are created in the ServiceNow® Journey designer application to help em
 -   Complete learning courses added by the organization or their manager.
 -   Receive notifications when a journey is created for them.
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

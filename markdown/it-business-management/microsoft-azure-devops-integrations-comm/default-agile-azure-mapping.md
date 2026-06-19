@@ -2,6 +2,7 @@
 title: Default map configuration for Azure DevOps integration with Agile Development 2.0
 description: Understand the default field map configuration, of different process types, between Azure DevOps and Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/default-agile-azure-mapping.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -29,7 +30,7 @@ Here's how you can view the default map configuration for different process type
 2.  Open your Azure DevOps instance record.
 3.  From the Process Mappings related list, open the record for a process map.
 
-You can add or update the configuration for field, table, and choice maps between Azure DevOps and Agile Development 2.0. For details, see [Customizing your map configuration for Azure DevOps integration](customizing-map-config-agile-azure.md).
+You can add or update the configuration for field, table, and choice maps between Azure DevOps and Agile Development 2.0. For details, see [Customizing your map configuration for Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md).
 
 The following are the details of the default map configuration for various process types in Azure DevOps.
 
@@ -62,5 +63,5 @@ The following are the details of the default map configuration for various proce
 |Product Backlog Item|Story \[rm\_story\]|
 |Epic|Epic \[rm\_epic\]|
 
-**Parent Topic:**[Discover and import Azure DevOps projects](../task/discover-import-azure-projects.md)
+**Parent Topic:**[Discover and import Azure DevOps projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/discover-import-azure-projects.md)
 

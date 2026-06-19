@@ -2,6 +2,7 @@
 title: Edit a task
 description: Edit a task if you want to update the checklist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/edit-task.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -29,7 +30,7 @@ After the automation request is moved to the following states, the option to edi
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
 
-2.  Select the list icon \(![List icon.](../images/autocenter-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
@@ -37,7 +38,7 @@ After the automation request is moved to the following states, the option to edi
 
     Ensure that the automation request already has a checklist.
 
-5.  Select the Golive Checklist icon \(![golive checklist icon](../images/icon-golive.png)\) from the side panel.
+5.  Select the Golive Checklist icon \(\[Omitted image "icon-golive.png"\] Alt text: golive checklist icon\) from the side panel.
 
 6.  Select **Edit** or **Delete** from the details button for a task.
 
@@ -46,5 +47,5 @@ After the automation request is moved to the following states, the option to edi
     If you select **Delete**, select **Delete** on the confirmation window.
 
 
-**Parent Topic:**[Working with golive checklists](../concept/working-golive.md)
+**Parent Topic:**[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/working-golive.md)
 

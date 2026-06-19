@@ -2,6 +2,7 @@
 title: Job requisition state management
 description: An overview of the job requisition state management system for a recruiter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/job-req-state-mngmnt.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -628,5 +629,5 @@ Closed
 Read only
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Recruitment Workspace reference](../concept/recruitment-workspace-reference.md)
+</table>**Parent Topic:**[Recruitment Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-reference.md)
 

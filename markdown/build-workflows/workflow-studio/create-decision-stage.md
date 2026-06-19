@@ -2,12 +2,13 @@
 title: Decision stages
 description: Create and define branches with different conditions for different paths between stages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-decision-stage.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -23,7 +24,7 @@ Role required: playbook.admin
 
 Add a decision node between stages to determine which stage to run next, based on runtime conditions. For example, in a recruitment playbook, you can have multiple stages for each interview round and one disqualification stage. After each interview stage, you can add a decision to automatically select whether to run the next interview round or proceed to disqualification based on the completed stage.
 
-![A playbook with decision between stages.](../images/decision-stages.png)
+\[Omitted image "decision-stages.png"\] Alt text: A playbook with decision between stages.
 
 Adding decision between stages help you achieve the following benefits:
 
@@ -44,7 +45,7 @@ Adding decision between stages help you achieve the following benefits:
 
 1.  In Diagram view, select the **+** icon.
 
-2.  From the mini-picker, select the diamond icon ![Diamond decision icon in Diagram view mini-picker.](../images/diagram-decision-icon.png) to add a decision.
+2.  From the mini-picker, select the diamond icon \[Omitted image "diagram-decision-icon.png"\] Alt text: Diamond decision icon in Diagram view mini-picker. to add a decision.
 
     A decision is added with two branches and the side panel opens for configuration.
 
@@ -109,7 +110,7 @@ When multiple stages run at the same time, define the order in which stages appe
 
 </td><td>
 
-Specify a duration of time to wait before running a stage whose start rule and conditions have been met. For more information, see [Start with delay input properties](../reference/start-with-delay-properties.md).
+Specify a duration of time to wait before running a stage whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).
 
 </td></tr><tr><td>
 
@@ -120,7 +121,7 @@ Specify a duration of time to wait before running a stage whose start rule and c
 Choose what this activity does when a playbook is restarted:-   **Skip on restart**: Skip this stage when the run is due to a restart.
 -   **Run always**: Always run this stage, including first runs.
 -   **Skip on first run**: Skip this stage during the first run.
-For more information, see [Configure restart for Playbooks](enable-define-restart.md).
+For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/enable-define-restart.md).
 
 </td></tr></tbody>
 </table>5.  Under the **Branches** tab, select your new branch to begin configuring it.
@@ -129,7 +130,7 @@ For more information, see [Configure restart for Playbooks](enable-define-restar
 
     2.  Select the **Add Condition** button.
 
-        The [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) displays.
+        The condition builder displays.
 
     3.  Select or enter a field, operator, and value.
 
@@ -150,34 +151,7 @@ You've added and configured decision branches between stages.
 
 ## What to do next
 
-Complete and test the playbook. For more information, see [Test a playbook](test-process.md).
+Complete and test the playbook. For more information, see [Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/test-process.md).
 
-**Parent Topic:**[Stages and activities](../concept/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook](add-configure-stage.md)
-
-[Activity definitions](../concept/activity-definitions.md)
-
-[Add and configure an activity in a playbook](add-configure-activity.md)
-
-[Use AI agent as an activity](ai-agent-as-activity.md)
-
-[Automation Assets](../concept/automation-assets.md)
-
-[Start with delay input properties](../reference/start-with-delay-properties.md)
-
-[Optional activities](../concept/optional-activities.md#)
-
-[Decision activities](create-a-decision-activity.md)
-
-[Questionnaire activity](../reference/questionnaire-activity.md)
-
-[Parallel branches](create-parallel-activity.md)
-
-[Add dynamic inputs to an activity](add-dynamic-inputs-to-activity.md)
-
-[Playbook activity state mapping](../../workspace/concept/playbook-activity-state-mapping.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

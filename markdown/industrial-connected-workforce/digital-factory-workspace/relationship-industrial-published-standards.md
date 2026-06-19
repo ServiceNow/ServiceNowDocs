@@ -2,6 +2,7 @@
 title: Relationship between industrial standards and published standards
 description: Industrial standards and published standards are stored in separate back-end tables. See how they relate. Choose the correct version of a standard depending on whether you need a specific version or the latest published one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/relationship-industrial-published-standards.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -34,5 +35,5 @@ Each record in the Industrial Standard table includes a reference to its corresp
 
 For example, to retrieve all versions of a standard that belong to the same published group, query the Industrial Standard table where the published\_standard field matches the ID of the desired published standard. This approach supports cross-version reporting and automation by linking multiple versions to a single published reference.
 
-**Parent Topic:**[Using Industrial Standards](using-industrial-standards.md)
+**Parent Topic:**[Using Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-industrial-standards.md)
 

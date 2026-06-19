@@ -2,6 +2,7 @@
 title: Modify adapter card styles for Virtual Agent
 description: Adapter cards are defined in the Adapter Cards \[sys\_cs\_adapter\_card\] table. Each card has a template for each supported channel to ensure it displays correctly. You can modify the channel templates to accommodate your organization's style requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/modify-adapter-card-styles.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -39,5 +40,5 @@ Role required: virtual\_agent\_admin or admin
 5.  Select **Update**.
 
 
-**Parent Topic:**[Creating conversational custom chat integrations in Virtual Agent](../concept/va-custom-adapter-framework.md)
+**Parent Topic:**[Creating conversational custom chat integrations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md)
 

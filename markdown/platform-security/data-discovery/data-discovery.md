@@ -2,6 +2,7 @@
 title: Exploring Data Discovery \(Classic\)
 description: Use Data Discovery to identify sensitive data within an instance, such as credit card information, emails, or social security numbers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/data-discovery.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -23,11 +24,11 @@ Data Discovery also includes pre-allocated roles with varying levels of access t
 
 Navigate to **All** &gt; **System Security** &gt; **Data Discovery \(Classic\)** &gt; **Dashboard** to view the Data Discovery Dashboard and to review your current job findings.
 
-![The Data Discovery Dashboard.](../image/data-discovery-dashboard.png "Data Discovery Dashboard")
+\[Omitted image "data-discovery-dashboard.png"\] Alt text: The Data Discovery Dashboard.
 
 ## Discovered Data Patterns
 
-**Tip:** Select a record to view more information and take further action with the findings. See [Data Discovery job results](data-discovery-findings.md#) for more.
+**Tip:** Select a record to view more information and take further action with the findings. See [Data Discovery job results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-findings.md) for more.
 
 The Discovered Data Patterns chart displays the number and percentage of currently discovered data patterns. Select a section to take further action.
 

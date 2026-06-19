@@ -2,6 +2,7 @@
 title: Use Live Feed to work on records
 description: A record feed is associated with a record, such as an incident or change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_UsingLiveFeedToWorkOnRecords.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -26,7 +27,7 @@ With record feeds, users can:
 
 Any users with access to the record can also use the record feed. By default, record feeds are available on the incident, change, and problem tables. Administrators can configure record feeds for additional tables.
 
-![Live Feed Document](../image/LiveFeedDocumentFuji.png)
+\[Omitted image "LiveFeedDocumentFuji.png"\] Alt text: Live Feed Document
 
 ## How Document Feeds Work
 

@@ -2,6 +2,7 @@
 title: Data collector Performance Analytics properties
 description: Data collector properties enable you to configure various limits for Performance Analytics data collection. The properties are configured to safeguard the data collection process. The default values are appropriate for most environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/pa-dc-props.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -73,7 +74,7 @@ com.snc.pa.dc.hsql.max\_row\_count\_indicator\_source
 
 </td><td>
 
-The maximum number of records that a job can collect from a single indicator source.**Important:** This property applies only to jobs that use optimized data collection. Otherwise, **com.snc.pa.dc.max\_row\_count\_indicator\_source** applies. For more information, see [Optimizing data collection](../concept/optimized-data-collection.md).
+The maximum number of records that a job can collect from a single indicator source.**Important:** This property applies only to jobs that use optimized data collection. Otherwise, **com.snc.pa.dc.max\_row\_count\_indicator\_source** applies. For more information, see [Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md).
 
  This limit applies separately to each indicator source included in a data collection job. The number of indicators associated with each indicator source does not affect this limit.
 
@@ -95,9 +96,9 @@ com.snc.pa.dc.max\_breakdown\_elements\_limit
 
 </td><td>
 
-Maximum number of [breakdown elements](../concept/performance-analytics-glossary.md#) retrieved by data collection for each [breakdown source](../concept/performance-analytics-glossary.md#). If the number of elements on a breakdown source exceeds this limit, the data collector does not collect scores from that breakdown source.
+Maximum number of [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) retrieved by data collection for each [breakdown source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). If the number of elements on a breakdown source exceeds this limit, the data collector does not collect scores from that breakdown source.
 
- **Important:** This property applies only to jobs that do not use optimized data collection. For optimized data collection, see the property **com.snc.pa.dc.hsql.max\_breakdown\_elements\_limit**. Also see [Optimizing data collection](../concept/optimized-data-collection.md).
+ **Important:** This property applies only to jobs that do not use optimized data collection. For optimized data collection, see the property **com.snc.pa.dc.hsql.max\_breakdown\_elements\_limit**. Also see [Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md).
 
  This limit applies separately to each breakdown source included in a data collection job. The number of breakdowns associated with each breakdown source does not affect this limit.
 
@@ -124,7 +125,7 @@ com.snc.pa.dc.hsql.max\_breakdown\_elements\_limit
 
 Maximum number of breakdown elements retrieved by data collection for each breakdown source. If the number of elements on a breakdown source exceeds this limit, the data collector does not collect scores from that breakdown source.
 
- **Important:** This property applies only to jobs that use optimized data collection. Otherwise, **com.snc.pa.dc.max\_breakdown\_elements\_limit** applies. For more information, see [Optimizing data collection](../concept/optimized-data-collection.md).
+ **Important:** This property applies only to jobs that use optimized data collection. Otherwise, **com.snc.pa.dc.max\_breakdown\_elements\_limit** applies. For more information, see [Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md).
 
  This limit applies separately to each breakdown source included in a data collection job. The number of breakdowns associated with each breakdown source does not affect this limit.
 
@@ -143,7 +144,7 @@ com.snc.pa.dc.max\_breakdown\_elements\_level2\_limit
 
 Maximum number of breakdown elements allowed in a matrix of two breakdowns. If this limit is exceeded, the breakdown elements in the matrix are not collected.
 
- **Important:** This property applies only to jobs that do not use optimized data collection. For optimized data collection, see the property **com.snc.pa.dc.hsql.max\_breakdown\_elements\_level2\_limit**. Also see [Optimizing data collection](../concept/optimized-data-collection.md).
+ **Important:** This property applies only to jobs that do not use optimized data collection. For optimized data collection, see the property **com.snc.pa.dc.hsql.max\_breakdown\_elements\_level2\_limit**. Also see [Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md).
 
  For example, with the default limit of 1 million elements, a first-level breakdown with 10,000 elements, and a second-level breakdown with 500, the resulting matrix of 5 million elements is not collected. If the first-level breakdown had only 1,000 elements, the resulting 500,000 elements would be collected.
 
@@ -160,7 +161,7 @@ com.snc.pa.dc.hsql.max\_breakdown\_elements\_level2\_limit
 
 Maximum number of breakdown elements allowed in a matrix of two breakdowns. If this limit is exceeded, the breakdown elements are not collected.
 
- **Important:** This property applies only to jobs that use optimized data collection. See [Optimizing data collection](../concept/optimized-data-collection.md).
+ **Important:** This property applies only to jobs that use optimized data collection. See [Optimizing data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optimized-data-collection.md).
 
  By default, no limit is set on the number of breakdown elements in a matrix. If you experience performance issues on jobs with breakdown sources with large numbers of elements, consider setting a limit in consultation with Customer Service and Support.
 
@@ -196,5 +197,5 @@ Maximum number of sys IDs that are stored in a single Snapshot \[pa\_snapshots\]
 -   Default value: 5000
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Performance Analytics properties](pa-properties.md)
+</table>**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-properties.md)
 

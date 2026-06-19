@@ -2,6 +2,7 @@
 title: Test record form
 description: In the Test record form, you view and edit values of fields for the test record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-test-record-form.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -32,5 +33,5 @@ In the Test record form, you view and edit values of fields for the test record.
 |Copy test|Click to copy test.|
 |Delete|Click to delete this test.|
 
-**Parent Topic:**[Tests](../concept/tests-module.md)
+**Parent Topic:**[Tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/tests-module.md)
 

@@ -2,6 +2,7 @@
 title: Create an Automation rule
 description: Create an Automation rule to set AI assets as managed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-automation-rules.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -17,7 +18,7 @@ Create an Automation rule to set AI assets as managed.
 
 ## Before you begin
 
-Role required: AI steward
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 

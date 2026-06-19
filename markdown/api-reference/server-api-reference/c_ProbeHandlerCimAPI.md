@@ -2,6 +2,7 @@
 title: ProbeHandlerCim - Global
 description: The ProbeHandlerCim script include provides methods to configures a Common Information Model \(CIM\) probe.Returns a string containing the CIM fields to fetchReturns the CIM name space.Returns a hash map of the parameters added by this probe handler.Runs the probe.Sets the probe parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_ProbeHandlerCimAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ProbeHandlerCim script include provides methods to configures a Common Infor
 
 You can use this script include in any server-side script where you need to configure a CIM probe.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ProbeHandlerCim - getCimQueries\(\)
 

@@ -2,6 +2,7 @@
 title: Configure entity-based record access rules
 description: Configure entity-based record access rules on record types to apply access restrictions to new records automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-continuous-eba-monitoring-on-record-types.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -25,7 +26,7 @@ Role required:sn\_grc\_ent\_access.admin or sn\_grc\_ent\_access.bulk\_access\_a
 
 2.  Select **New**.
 
-    ![](../image/record-attribute-user-access.png)
+    \[Omitted image "record-attribute-user-access.png"\] Alt text:
 
 3.  From the **Record type** drop-down list, select the type for which you want to configure entity-based record access rules.
 
@@ -54,5 +55,5 @@ The entity-based access restrictions are automatically applied to both primary a
 
 When record attribute user access is configured, users and groups referenced in user fields or user group fields continue to have record level access even after entity based access restrictions are applied.
 
-**Parent Topic:**[Managing Entity Based Access](../concept/using-entity-based-access.md)
+**Parent Topic:**[Managing Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-entity-based-access.md)
 

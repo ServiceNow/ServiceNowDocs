@@ -2,6 +2,7 @@
 title: DevOps user-created security tool integration
 description: You can integrate additional security tools that are not supported in the base system in DevOps Change Velocity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-security-tool-integration.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -15,10 +16,10 @@ breadcrumb: [User created, Integrate, DevOps Change Velocity, IT Service Managem
 
 You can integrate additional security tools that are not supported in the base system in DevOps Change Velocity.
 
--   **[Configure user-created security tool](../task/configure-a-user-created-security-tool.md)**  
+-   **[Configure user-created security tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-a-user-created-security-tool.md)**  
 Connect your custom security tool that is integrated with your CI/CD pipelines to DevOps Change Velocity to retrieve security scan results.
--   **[Integrate security tools with GitLab](../task/configure-security-tool-for-gitlab.md)**  
+-   **[Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md)**  
 Configure security tool for GitLab which is not supported in the base system.
 
-**Parent Topic:**[User-created integrations in DevOps Change Velocity](dev-ops-tool-integration.md)
+**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

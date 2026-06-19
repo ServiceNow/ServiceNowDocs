@@ -2,11 +2,12 @@
 title: View your users' health and safety status
 description: View the health and safety status of your team to check their progress on company requirements for returning to the workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/manager-view-health-status.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Employee Health and Safety Status, Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -34,5 +35,5 @@ All users can view the health and safety status of their direct reports. However
 2.  View the specific list of requirements that a user has cleared or not cleared by clicking **View Details**.
 
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

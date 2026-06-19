@@ -2,7 +2,10 @@
 title: Configure IO alert notifications for a ServiceNow instance
 description: Set up a basic integration between Instance Observer \(IO\) and ServiceNow to route IO alert notifications to a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/io-receive-notification-customer-conf-webhook.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -92,10 +95,10 @@ Webhook URL as configured on the ServiceNow instance.**Note:** This URL is for c
 
 Create a webhook and web service while selecting the appropriate authentication access using your ServiceNow instance admin role.
 
-For more information, see [Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
+For more information, see 
 
 </td></tr></tbody>
-</table>    ![Create a webhook integration for a ServiceNow instance.](../image/io-webhook-sn-integ.png)
+</table>    \[Omitted image "io-webhook-sn-integ.png"\] Alt text: Create a webhook integration for a ServiceNow instance.
 
 5.  Select **Test Integration** to validate your configuration and verify if you can successfully send the payload to the configured ServiceNow instance.
 
@@ -118,7 +121,7 @@ For more information, see [Create a scripted REST API](https://raw.githubusercon
 
 8.  Link the integration to a notification rule and enable configuration for the notification rule by navigating to the **Notification Rules** tab and selecting the appropriate notification rule.
 
-    You can also select ![ellipsis icon.](../../../reuse/icons/product-icons/ellipsis-horizontal-outline-24.svg) and select the **Edit** option. Once the integration is in **Enabled** status, it is available for selection in the **Notification Rules** list.
+    You can also select \[Omitted image "ellipsis-horizontal-outline-24.svg"\] Alt text: ellipsis icon. and select the **Edit** option. Once the integration is in **Enabled** status, it is available for selection in the **Notification Rules** list.
 
     1.  Enter a name for the rule in the **Name** field of the Edit Rule pop-up.
 
@@ -163,8 +166,8 @@ For more information, see [Create a scripted REST API](https://raw.githubusercon
         You can view the integration failures as alerts in three places:
 
         1.  As **Alert Type** in **Alert** &gt; **Alert Console**
-        2.  As Notifications from ![bell icon](../image/io-bell-icon.png). Select **View Notification History** and filter with `Integration Failed`.
+        2.  As Notifications from \[Omitted image "io-bell-icon.png"\] Alt text: bell icon. Select **View Notification History** and filter with `Integration Failed`.
         3.  As an email notification with the integration name, error number, and the message.
 
-**Parent Topic:**[Alerts in Instance Observer](../concept/io-alerts-intro.md)
+**Parent Topic:**[Alerts in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
 

@@ -2,7 +2,10 @@
 title: View a list of products from the Consumer Service Portal
 description: Users with the consumer role can view a list of their registered products from the Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-product-list-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

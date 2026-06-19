@@ -2,6 +2,7 @@
 title: Employee Center global header
 description: The global header is the first row in the Employee Center portal header. The global header contains menus that enable you to navigate to the My To-dos page, My Requests page, More menu, user profile, and Tours.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-global-header.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,7 +16,7 @@ breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center,
 
 The global header is the first row in the Employee Center portal header. The global header contains menus that enable you to navigate to the My To-dos page, My Requests page, More menu, user profile, and Tours.
 
-![Globar header in the Employee Center](../images/global-header-menus.png "Global header in the Employee Center")
+\[Omitted image "global-header-menus.png"\] Alt text: Globar header in the Employee Center
 
 The global header consists of the following options.
 

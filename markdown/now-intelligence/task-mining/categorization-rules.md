@@ -2,6 +2,7 @@
 title: Categorization rule form in Task Mining
 description: Organize and add context to your data by grouping similar workstation activities with user-friendly category names. Categorization rules have a fixed order value that determines how information from apps and windows is shown on an analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/categorization-rules.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Task Mining, Platform Analytics]
 
 Organize and add context to your data by grouping similar workstation activities with user-friendly category names. Categorization rules have a fixed order value that determines how information from apps and windows is shown on an analysis.
 
-For information about categorization, see [Categorize workstation activities to simplify analysis](../task/define-default-categorization-rules.md).
+For information about categorization, see [Categorize workstation activities to simplify analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/define-default-categorization-rules.md).
 
 <table id="table_y2k_vdx_tcc"><thead><tr><th>
 
@@ -93,5 +94,5 @@ Window name
 A name to describe the activity. A value can be used to mask PII. For example, you can use \[\] to mask and replace with the term used in brackets. If this field is empty, the window name from the workstation is used.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Task Mining Reference](../concept/reference-task-mining.md)
+</table>**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
 

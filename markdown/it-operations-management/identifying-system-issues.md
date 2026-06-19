@@ -2,6 +2,7 @@
 title: Identifying system issues with synthetic monitoring
 description: Tests run by synthetic monitors enable service owners and operators to view service endpoint performance at scale.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/identifying-system-issues.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -49,5 +50,5 @@ If a monitor was configured to generate an alert when it fails, a link to the al
 
 When you see a failure or high latency, select a test to view details, including the response body, which might help explain any issues.
 
-![A modal displays information about the test including a response body that states that the request was to a bad gateway.](../image/sys-mon-failed_monitor.png "Response body in the details modal")
+\[Omitted image "sys-mon-failed\_monitor.png"\] Alt text: A modal displays information about the test including a response body that states that the request was to a bad gateway.
 

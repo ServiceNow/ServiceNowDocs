@@ -2,6 +2,7 @@
 title: Automated Update Record activity
 description: Update a record without pausing the playbook to ask for user input. When the activity runs, it immediately updates the record and continues to the next activity in the playbook. The record must meet server-side validation rules such as data policies, business rules and dictionary-defined mandatory fields but ignores UI policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/automated-update-record-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ Update a record without pausing the playbook to ask for user input. When the act
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -97,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 

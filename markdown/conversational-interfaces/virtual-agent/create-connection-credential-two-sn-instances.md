@@ -2,6 +2,7 @@
 title: Create a connection and credential in Virtual Agent Bot Interconnect
 description: To use ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect, configure the connection and credential records in the Bot Interconnect \(primary\) instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -70,17 +71,17 @@ Role required: admin
 
     For example, `SNowSecondaryBotToken`.
 
-    ![ServiceNow Secondary Bot HTTPS connection view. Credential and Connection URL fields are highlighted as newly created credential record and VA API installation on the secondary bot instance.](../images/api-secondary-bot-connection-credential.png "Connection and credential record in the ServiceNow Bot Interconnect instance")
+    \[Omitted image "api-secondary-bot-connection-credential.png"\] Alt text: ServiceNow Secondary Bot HTTPS connection view. Credential and Connection URL fields are highlighted as newly created credential record and VA API installation on the secondary bot instance.
 
 15. Click **Update**.
 
 
--   **[Create a connection and credential in Virtual Agent Bot Interconnect](create-connection-credential-two-sn-instances-uploading-attachments.md)**  
+-   **[Create a connection and credential in Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances-uploading-attachments.md)**  
 Create a connection and credential in Virtual Agent Bot Interconnect \(primary instance\) to enable uploading of attachments in the secondary bot.
 
-**Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-sn-secondary-bot-with-sn-primary.md)
+**Parent Topic:**[Using ServiceNow Virtual Agent as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-sn-secondary-bot-with-sn-primary.md)
 
-**Previous topic:**[Enable asynchronous mode on the secondary ServiceNow Virtual Agent instance](enable-async-mode-secondary-sn-bot.md)
+**Previous topic:**[Enable asynchronous mode on the secondary ServiceNow Virtual Agent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-async-mode-secondary-sn-bot.md)
 
-**Next topic:**[Create a connection and credential in Virtual Agent Bot Interconnect](create-connection-credential-two-sn-instances-uploading-attachments.md)
+**Next topic:**[Create a connection and credential in Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-connection-credential-two-sn-instances-uploading-attachments.md)
 

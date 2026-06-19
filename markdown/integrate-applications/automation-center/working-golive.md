@@ -2,6 +2,7 @@
 title: Working with golive checklists
 description: Create a golive checklist to automatically track items that must be reviewed before publishing the automation request. Every golive checklist is associated with an automation request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/working-golive.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -82,18 +83,18 @@ A final checklist is completed jointly by Dev, QA, CoE, and Business SMEs. This 
 -   Communicating go-live to impacted teams. This serves as the “green signal” to activate the automation in the production environment.
 
 </td></tr></tbody>
-</table>-   **[Create a checklist](../task/create-checklist.md)**  
+</table>-   **[Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-checklist.md)**  
 Create a checklist to track the items for an automation request. A checklist is a list of tasks that you must track before publishing an automation request.
--   **[Edit a task](../task/edit-task.md)**  
+-   **[Edit a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/edit-task.md)**  
 Edit a task if you want to update the checklist.
--   **[Clear a checklist](../task/clear-checklist.md)**  
+-   **[Clear a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/clear-checklist.md)**  
 Clear a checklist if you no longer need the checklist for your automation request.
--   **[Create a template](../task/create-template.md)**  
+-   **[Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-template.md)**  
 Create a template when you think a golive checklist is useful for multiple automation requests.
--   **[Update a template](../task/update-template.md)**  
+-   **[Update a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/update-template.md)**  
 Update your template if you have changed the checklist and want those changes to reflect in your template.
--   **[Update task status](../task/update-task-status.md)**  
+-   **[Update task status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/update-task-status.md)**  
 Update the status of a task so that it’s the latest and helps in the publishing of the automation request.
 
-**Parent Topic:**[Working with automations](automations.md)
+**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automations.md)
 

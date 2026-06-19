@@ -2,6 +2,7 @@
 title: Configuring preferred vaccination method
 description: You can configure the preferred vaccination method while scheduling a vaccination appointment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-vam-config-preferred-vaccine-method.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -17,5 +18,5 @@ You can configure the preferred vaccination method while scheduling a vaccinatio
 
 As a user with the sn\_vaccine\_sm.admin role, you can choose your preferred vaccination method while scheduling or rescheduling your appointments by setting the **sn\_vaccine\_sm.allow\_user\_selection\_of\_vaccine\_method** system property value to **true**.
 
-For details on how to configure multi-vaccine appointment bookings, see [Multi-vaccine appointment bookings configuration](multi-vaccine-appointment-bookings-configuration.md)
+For details on how to configure multi-vaccine appointment bookings, see [Multi-vaccine appointment bookings configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/multi-vaccine-appointment-bookings-configuration.md)
 

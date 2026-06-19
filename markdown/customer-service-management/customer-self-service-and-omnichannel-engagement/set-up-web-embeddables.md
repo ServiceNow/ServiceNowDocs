@@ -2,6 +2,7 @@
 title: Set up Web Embeddables
 description: Learn how to set up the Web Embeddables on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-web-embeddables.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

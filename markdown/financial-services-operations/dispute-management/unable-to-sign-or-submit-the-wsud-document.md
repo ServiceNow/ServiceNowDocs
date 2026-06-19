@@ -2,6 +2,7 @@
 title: Unable to sign or submit the WSUD document
 description: This reference topic provides troubleshooting steps to resolve a customer or contact being unable to sign or submit the Written Statement for Unauthorized Debit \(WSUD\) document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/unable-to-sign-or-submit-the-wsud-document.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -32,5 +33,5 @@ The Signature Pad plugin \(com.snc.signaturepad\) isn't installed or is inactive
 2.  Ask the customer or contact to reopen the document after activating the plugin.
 
 
-**Parent Topic:**[Written Statement for Unauthorized Debit \(WSUD\) Troubleshooting](../concept/wsud-troubleshooting-reference.md)
+**Parent Topic:**[Written Statement for Unauthorized Debit \(WSUD\) Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/wsud-troubleshooting-reference.md)
 

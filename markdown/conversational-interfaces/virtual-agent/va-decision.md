@@ -2,6 +2,7 @@
 title: Decision utility
 description: Use the Decision utility in a Virtual Agent topic to add two or more branches that represent different paths in a conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-decision.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,17 +22,17 @@ Each branch below a Decision utility node has a condition property. You can defi
 
 **Note:** If you insert a **Boolean** user input control, you're prompted to add a **Decision** utility directly after the Boolean node on the canvas. Selecting **Yes** on the Boolean node's Decision utility prompt automatically generates two branches named **True** and **False**. The two branches conditions are automatically set through the condition builder.
 
-For more information, see [Branch a Virtual Agent conversation with a Decision utility](../task/add-decision-utility-va-topic.md).
+For more information, see [Branch a Virtual Agent conversation with a Decision utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-decision-utility-va-topic.md).
 
 ## Example Decision utility node with branches
 
 In this example, a static choice control prompts the user to select from three available colors and the selection is stored in a variable. The Decision utility control is configured with a branch for each possible selection. Each branch uses the condition builder, which returns true when the corresponding color is selected. In the example, the condition builder returns true when the choice is Blue.
 
-![Decision utility with three branches and highlighted corresponding condition defined property for the Blue branch.](../images/DecisionExample.png)
+\[Omitted image "DecisionExample.png"\] Alt text: Decision utility with three branches and highlighted corresponding condition defined property for the Blue branch.
 
 You can also use the Script option for branch conditions. In the following example, the script provides the same functionality as the condition builder.
 
-![Decision utility with three branches and highlighted corresponding scripted property for the Blue branch.](../images/decision-example-script.png)
+\[Omitted image "decision-example-script.png"\] Alt text: Decision utility with three branches and highlighted corresponding scripted property for the Blue branch.
 
-**Parent Topic:**[Assistant Designer utilities](va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
 

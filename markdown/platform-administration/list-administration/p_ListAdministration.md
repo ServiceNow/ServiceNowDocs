@@ -2,6 +2,7 @@
 title: ServiceNow AI Platform list administration
 description: Administrators control the data presented to end users in a list, the controls that appear, and the behavior of the controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/p\_ListAdministration.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -17,15 +18,15 @@ Administrators control the data presented to end users in a list, the controls t
 
 ## Get started
 
-**Note:** For information about using lists, see [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md).
+**Note:** For information about using lists, see Lists.
 
 <table id="table_tfh_j4w_g2c" class="nav-card presentation"><tbody><tr><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure lists for all users.](../../list-administration/concept/c_ListConfiguration.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure lists for all users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/c_ListConfiguration.md)
 
 </td><td>
 
-[Administer![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Administer list behavior and allow personalization for individual users.](../../list-administration/concept/administering-lists-now-platform.md)
+[Administer\[Omitted image "bus-optimize-manage.svg"\] Alt text:Administer list behavior and allow personalization for individual users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/administering-lists-now-platform.md)
 
 </td></tr></tbody>
 </table>

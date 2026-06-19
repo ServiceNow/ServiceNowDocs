@@ -2,11 +2,12 @@
 title: Field of use for Now Assist Skill Kit
 description: Now Assist Skill Kit is included in various Now Assist packages that cover a given customers’ ability to build Now Assist skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/nask-field-of-use.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Now Assist Skill Kit reference, Now Assist Skill Kit, Enable AI experiences]
 ---
@@ -23,5 +24,5 @@ The following table is provided to help clarify questions regarding how such cus
 |Non-duplicative|Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/sn-assist-overview.pdf) to see the pre-built skills that are currently available exist for purchase in ServiceNow Now Assist packages. Customers must build from the purchased skills instead of attempting to create duplicative versions of licensable ServiceNow skills without purchase.|
 |Leveraging custom tables|Custom skills can be built using Now Assist Skill Kit to enable generative AI functionality on the custom tables that are provided in a customer’s licenses.|
 
-**Parent Topic:**[Now Assist Skill Kit reference](na-skill-kit-reference.md)
+**Parent Topic:**[Now Assist Skill Kit reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-reference.md)
 

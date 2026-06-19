@@ -2,6 +2,7 @@
 title: Get started with Developer Support
 description: Get Started with Developer Support is an Impact Initiative that facilitates the understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/getting-started-developer-support.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -25,7 +26,7 @@ Get Started with Developer Support helps you expedite identifying technical stak
 -   Delivers insights into customization scope, including business rules, UI \(user interface\) scripts, script includes, and UI macros
 -   Provides a review of up to 200 lines of custom code in a break-fix model
 
-Developer Support is available in the Advanced and Total Impact packages and offers expert assistance in troubleshooting and debugging customization-related issues. For more information on Developer Support, see [Impact Developer Support](../concept/developer-support.md).
+Developer Support is available in the Advanced and Total Impact packages and offers expert assistance in troubleshooting and debugging customization-related issues. For more information on Developer Support, see [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/developer-support.md).
 
 |Developer Support|Troubleshooting and assistance|
 |-----------------|------------------------------|

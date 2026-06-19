@@ -2,6 +2,7 @@
 title: Using the Safe Workplace Dashboard
 description: By using a map, you can review your organization's status regarding personnel and facility readiness to reopen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-dashboard/using-safe-wkplc-dashboard.html
 release: australia
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
@@ -25,7 +26,7 @@ The Safe Workplace Dashboard presents data when the correlated Safe Workplace su
 
 You can use the COVID-19 Global Health Data Set application at no extra charge. COVID-19 Global Health Data Set is installed with the Safe Workplace Dashboard. It appears as an application in the instance navigation menu, and displays global COVID-19 information on request in the Safe Workplace Dashboard.
 
-![Safe Workplace Dashboard with the Covid-19 Cases switch toggled to show global pandemic data.](../image/swd-covid-toggled-on-28.png "Safe Workplace Dashboard with COVID-19 data")
+\[Omitted image "swd-covid-toggled-on-28.png"\] Alt text: Safe Workplace Dashboard with the Covid-19 Cases switch toggled to show global pandemic data.
 
 Navigate to **COVID-19 Global Health Data Set** to view the collected data by date ranges, locations, state/provinces, and countries. Build reports or export the data to use for your own analysis.
 
@@ -44,13 +45,13 @@ Locations with alerts are listed on the left. Click the arrow on the card or the
 
 To add a favorite location, click **Manage Favorites** and search for the location. After you select it, the location name appears in the header \(**R1 S1** in the example image\). Click the location to open it directly. To remove a location from favorites, click **Manage Favorites** again and click the **\(x\)** on the location you want to remove.
 
-**Note:** The Safe Workplace Dashboard shows only PPE inventory and health screening data associated with a Workplace Core campus or building. PPE stockrooms and health screenings must have a Workplace Core campus or building selected in the **Location** field to be displayed on the dashboard. For information about creating Workplace Core campuses and buildings, see [Providing your workplace data](../../workplace-safety-mgmt/concept/providing-your-workplace-data.md).
+**Note:** The Safe Workplace Dashboard shows only PPE inventory and health screening data associated with a Workplace Core campus or building. PPE stockrooms and health screenings must have a Workplace Core campus or building selected in the **Location** field to be displayed on the dashboard. For information about creating Workplace Core campuses and buildings, see [Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/providing-your-workplace-data.md).
 
-![Initial view of the Safe Workplace Dashboard pointing to one location that displays the pop-up details.](../image/swd-alerts-icons-popover-28.png "Safe Workplace Dashboard overview page")
+\[Omitted image "swd-alerts-icons-popover-28.png"\] Alt text: Initial view of the Safe Workplace Dashboard pointing to one location that displays the pop-up details.
 
 Continue drilling down to a facility to see its recent statuses. The New Confirmed COVID-19 Cases widget provides data from the COVID-19 Global Health Data Set.It shows the number of new cases and deaths for the location, and can also show the number of new cases and deaths per 100,000 people if population data for the location is available. For locations in the United States, you can filter the New Confirmed COVID-19 Cases widget to show data at the state or county level. The **Populate OpenStreetMap data** scheduled job retrieves county data for campuses.
 
-![Safe Workplace Dashboard status widgets from all applications.](../image/swd-dashboard-detail-n-28.png "Safe Workplace Dashboard")
+\[Omitted image "swd-dashboard-detail-n-28.png"\] Alt text: Safe Workplace Dashboard status widgets from all applications.
 
 Use the information to organize the reopening of the facility and reduce workplace transmission of infectious diseases, such as COVID-19.
 
@@ -71,7 +72,7 @@ View the Safe Workplace Dashboard Reopening page by clicking **Reopening**to see
     **Note:** A location cannot have more than one campus status at a time.
 
 
-![Safe Workplace Reopening page with reopening, check-in, and campus status metrics.](../image/safe-workplace-reopening-overview-30.png "Safe Workplace Dashboard Reopening page")
+\[Omitted image "safe-workplace-reopening-overview-30.png"\] Alt text: Safe Workplace Reopening page with reopening, check-in, and campus status metrics.
 
 To populate the Safe Workplace Dashboard page, create Phase Definitions to track locations through their various phases. Otherwise, no data will display. Updates are performed daily at 23:00 instance time regardless of the number of campuses in your organization and their geographic location.
 
@@ -94,18 +95,18 @@ This data is made available through the Safe Workplace Dashboard Vaccination Wid
 -   The number of people vaccinated per 100
 -   The number of total vaccination doses per 100
 
-Users with the admin role can add the Safe Workplace Dashboard Vaccination Widget to the Safe Workplace Dashboard Site View. For more information, see [Add a vaccination widget to the Safe Workplace Dashboard](../task/swd-add-vaccination-widget.md).
+Users with the admin role can add the Safe Workplace Dashboard Vaccination Widget to the Safe Workplace Dashboard Site View. For more information, see [Add a vaccination widget to the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/swd-add-vaccination-widget.md).
 
 **Important:** Users must have the sn\_imt\_dashboard.user and sn\_imt\_vaccine.vaccine\_profile\_reader roles to see any vaccination data in the dashboard.
 
-![Safe Workplace Dashboard Vaccination Widget with COVID-19 vaccination data](../image/swd-covid-19-vaccine-widget.png "Safe Workplace Dashboard Vaccination Widget")
+\[Omitted image "swd-covid-19-vaccine-widget.png"\] Alt text: Safe Workplace Dashboard Vaccination Widget with COVID-19 vaccination data
 
 Vaccination data is pulled from the last 30 days and includes campus data based on the vaccine responses per location from the **Vaccination Status** application. The widget is scheduled to update automatically once the COVID-19 Global Health Data Set and **Vaccination Status** are installed. Updates are performed daily at midnight \(00:00\) instance time, regardless of the number of campuses in your organization and their geographic location.
 
 **Note:** If data is unavailable or missing, the widget will not display data for that day \(even if available\) until the next day the scheduled jobs run successfully.
 
--   **[Add a vaccination widget to the Safe Workplace Dashboard](../task/swd-add-vaccination-widget.md)**  
+-   **[Add a vaccination widget to the Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/swd-add-vaccination-widget.md)**  
 As an admin, add the Safe Workplace Dashboard Vaccination widget to the Safe Workplace Dashboard Site View portal page.
 
-**Parent Topic:**[Safe Workplace Dashboard](safe-workplace-dashboard.md)
+**Parent Topic:**[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)
 

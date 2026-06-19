@@ -2,6 +2,7 @@
 title: Password \(2 Way Encrypted\) design considerations
 description: Store encrypted password data that can be decrypted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/password-2-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -39,7 +40,7 @@ Follow these general guidelines when designing flows containing Password \(2 Way
 
     You can only assign a value to a password2 variable by selecting an existing password2 data pill. Selecting values from other field types is not supported. Workflow Studio presents a warning message when invalid data pill types are selected.
 
-    ![The warning message displayed when dragging a non-password2 data pill onto a password2 field.](../images/password2-field-warning.ong.png)
+    \[Omitted image "password2-field-warning.ong.png"\] Alt text: The warning message displayed when dragging a non-password2 data pill onto a password2 field.
 
     **Note:** You cannot manually enter Password \(2 Way Encrypted\) values.
 
@@ -47,7 +48,7 @@ Follow these general guidelines when designing flows containing Password \(2 Way
 
     Workflow Studio prevents selecting Password2 data pills as the value for invalid field types. The system presents a warning message when the field is an incompatible type.
 
-    ![The warning shown when dragging a password2 field to a disallowed field.](../images/password2-field-warning2.png)
+    \[Omitted image "password2-field-warning2.png"\] Alt text: The warning shown when dragging a password2 field to a disallowed field.
 
     Workflow Studio only allows Password2 data pills to be dragged into the following field types.
 
@@ -71,8 +72,8 @@ Follow these general guidelines when designing flows containing Password \(2 Way
 
 -   **Set up encryption modules for decryption**
 
-    Only users with a valid encryption module access can decrypt and view the contents of password2 variables. To specify the encryption algorithm and which roles can access encrypted data, see [Password2 encryption with KMF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platform-encryption/password-2way-encrypted-fields.md) .
+    Only users with a valid encryption module access can decrypt and view the contents of password2 variables. To specify the encryption algorithm and which roles can access encrypted data, see Password2 encryption with KMF .
 
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
 

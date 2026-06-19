@@ -2,6 +2,7 @@
 title: Exploring Journey Accelerator
 description: Learning about how to use Journey Accelerator application to create templates for plans and to-do tasks. How Managers can use the templates to create and publish customized plans for key employee transitions. Managers, employees, and mentors can access the plans from the Employee Center
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/exploring-jny-accelerator.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator

@@ -2,6 +2,7 @@
 title: Install Health and Safety Incident Management OSHA Content Pack
 description: You can install the Health and Safety Incident Management OSHA Content Pack application \(com.snc.sn\_hs\_im\_osha\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/install-hs-osha-content-pack.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -29,7 +30,7 @@ The following items are installed with Health and Safety Incident Management OSH
 -   Tables
 -   System Properties
 
-For more information, see [Components installed with Health and Safety Incident Management OSHA Content Pack](../reference/components-installed-with-osha-content-pack.md) and [Health and Safety Incident Management OSHA Content Pack properties](../reference/properties-installed-osha-content-pack.md).
+For more information, see [Components installed with Health and Safety Incident Management OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/components-installed-with-osha-content-pack.md) and [Health and Safety Incident Management OSHA Content Pack properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/properties-installed-osha-content-pack.md).
 
 ## Procedure
 
@@ -54,5 +55,5 @@ For more information, see [Components installed with Health and Safety Incident 
 6.  Select **Install**.
 
 
-**Parent Topic:**[Setting up the OSHA Content Pack](../concept/configuring-osha-forms.md)
+**Parent Topic:**[Setting up the OSHA Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/configuring-osha-forms.md)
 

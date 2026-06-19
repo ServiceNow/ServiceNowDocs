@@ -2,6 +2,7 @@
 title: Summarizers
 description: Approval summarizers are stored in the Macro \[sys\_ui\_macro\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/c\_Summarizers.html
 release: australia
 product: Approvals
 classification: approvals

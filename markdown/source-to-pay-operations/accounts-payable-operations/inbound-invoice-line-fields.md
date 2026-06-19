@@ -1,19 +1,21 @@
 ---
 title: Inbound invoice line fields
-description: The Inbound invoice line table is the source table from where you import the invoice line required fields to successfully create an invoice through the integration framework.
+description: Field definitions and data types for the Inbound Invoice Line \[u\_inbound\_invoice\_line\] table used to map invoice line data for import through the integration framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/inbound-invoice-line-fields.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, inbound integration]
 breadcrumb: [Inbound Invoice Fields, Create New Invoice form, Create New Invoice Line form, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Inbound invoice line fields
 
-The Inbound invoice line table is the source table from where you import the invoice line required fields to successfully create an invoice through the integration framework.
+Field definitions and data types for the Inbound Invoice Line \[u\_inbound\_invoice\_line\] table used to map invoice line data for import through the integration framework.
 
 <table id="table_c3s_fj1_dwb"><thead><tr><th>
 
@@ -232,5 +234,5 @@ Name of the third party application associated with the invoice.
 String
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Inbound Invoice Fields](inbound-invoice-fields.md)
+</table>**Parent Topic:**[Inbound Invoice Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md)
 

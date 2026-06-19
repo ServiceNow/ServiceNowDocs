@@ -2,13 +2,14 @@
 title: Create credential for Microsoft Teams Communication
 description: Setup credentials for Microsoft Teams Communication spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-credentials-for-microsoft-teams-connection.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Connect Workplace Reservation Management with Microsoft Teams, Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Connect Workplace Reservation Management with Microsoft Teams, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create credential for Microsoft Teams Communication
@@ -47,9 +48,9 @@ Role required: admin
 6.  To generate the OAuth token, click the **Get OAuth Token** related link.
 
 
-**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md)
 
-**Previous topic:**[Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph](setup-connectivity-between-servicenow-and-microsoft-teams-graph.md)
+**Previous topic:**[Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.md)
 
-**Next topic:**[Create connection and credential for Microsoft Teams Graph](create-connection-and-credentials-alias-for-microsoft-teams-graph.md)
+**Next topic:**[Create connection and credential for Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-connection-and-credentials-alias-for-microsoft-teams-graph.md)
 

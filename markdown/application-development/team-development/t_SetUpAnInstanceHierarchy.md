@@ -2,6 +2,7 @@
 title: Set up an instance hierarchy
 description: Set up an instance hierarchy that best supports your development life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_SetUpAnInstanceHierarchy.html
 release: australia
 product: Team Development
 classification: team-development
@@ -45,10 +46,10 @@ When you back out a change on a Team Development instance, it backs out the chan
 
 5.  On each sub-development instance:
 
-    1.  Define [remote instance connections](t_DefineARemoteInstance.md) to other instances in the hierarchy that this instance needs to push and pull with.
-    2.  Select [the parent instance](t_SelectTheParentInstance.md).
+    1.  Define [remote instance connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_DefineARemoteInstance.md) to other instances in the hierarchy that this instance needs to push and pull with.
+    2.  Select [the parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_SelectTheParentInstance.md).
     3.  Pull all changes from the parent instance.
-    4.  [Grant access rights](../reference/r_GrantingAccessRightsToDevelopers.md) to appropriate developers.
-    ![Team development process](../image/TeamDevProcess.png)
+    4.  [Grant access rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/r_GrantingAccessRightsToDevelopers.md) to appropriate developers.
+    \[Omitted image "TeamDevProcess.png"\] Alt text: Team development process
 
 

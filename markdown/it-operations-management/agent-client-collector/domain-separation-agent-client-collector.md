@@ -2,6 +2,7 @@
 title: Domain separation and Agent Client Collector
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Agent Client Collector \(ACC\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/domain-separation-agent-client-collector.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -31,5 +32,5 @@ Domain separation in ACC allows the isolation of data collected by the Agent Cli
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

@@ -2,6 +2,7 @@
 title: Set up actionable notifications for ITSM Virtual Agent
 description: Administrators and users with the virtual\_agent\_admin role can enable system notifications, trigger Workflow Studio flows for actionable notifications topics, and activate notifications in Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/setup-actionable-notifications.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -27,11 +28,11 @@ Role required: admin or virtual\_agent\_admin
 
     2.  Set the **Active** property to **true** for the conversations you want to activate.
 
-        ![Activate system notifications for conversations.](../image/SystemNotifications.png)
+        \[Omitted image "SystemNotifications.png"\] Alt text: Activate system notifications for conversations.
 
 2.  Activate Workflow Studio flows for specific actionable notifications ITSM Virtual Agent conversations.
 
-    These topics are inactive by default. For complete details about activating flows, refer to [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
+    These topics are inactive by default. For complete details about activating flows, refer to Activate a flow.
 
     The following flows for actionable notifications must be activated if you want to use them with Actionable Notifications:
 
@@ -42,8 +43,8 @@ Role required: admin or virtual\_agent\_admin
 
     2.  Select **Activate**.
 
-3.  [Enable notifications in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-va-notifications.md)
+3.  Enable notifications in Virtual Agent.
 
 
-**Parent Topic:**[Setting up ITSM Virtual Agent](../concept/setting-up-itsm-va.md)
+**Parent Topic:**[Setting up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setting-up-itsm-va.md)
 

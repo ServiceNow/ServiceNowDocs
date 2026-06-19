@@ -2,6 +2,7 @@
 title: Topics tab
 description: Use the Topics tab in the Conversational Analytics dashboard to identify the best and underperforming topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/topics-tab-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Use the **Topics** tab in the Conversational Analytics dashboard to identify the
 
 The **Topics** tab provides insights into which Virtual Agent \(VA\) topics are performing well and which aren’t. To use the Topics tab, you must have the Chat Analytics Viewer \(chat\_analytics\_viewer\) role.
 
-![Virtual Agent dashboard topics tab.](../images/Dashboard-Topics-2-pae.png)
+\[Omitted image "Dashboard-Topics-2-pae.png"\] Alt text: Virtual Agent dashboard topics tab.
 
 ## Best performing topics
 
@@ -36,14 +37,14 @@ The Underperforming topics indicators show topics that didn't perform well. The 
 
 ## Spokes
 
-The Spokes indicator provides details of the spoke, actions, subflows, and topics that executed the spoke. Select a spoke on the chart to view the details of the spoke. For more information, see [Spokes](topic-spokes-subtab-pae.md).
+The Spokes indicator provides details of the spoke, actions, subflows, and topics that executed the spoke. Select a spoke on the chart to view the details of the spoke. For more information, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-spokes-subtab-pae.md).
 
--   **[Spokes](topic-spokes-subtab-pae.md)**  
+-   **[Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-spokes-subtab-pae.md)**  
 Use the Spokes indicators to view details such as spoke usage, spoke actions, and subflows for the selected spoke.
--   **[Topic categories](category-page-pae.md)**  
+-   **[Topic categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/category-page-pae.md)**  
 Use the Category page in the Conversational Analytics dashboard to view the performance of Virtual Agent \(VA\) topics by the selected topic category.
--   **[Topics details](topic-details-subtab-pae.md)**  
+-   **[Topics details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-details-subtab-pae.md)**  
 Use the Topic Details page in the Conversational Analytics dashboard to view key performance indicators of Virtual Agent \(VA\) topics.
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

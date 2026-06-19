@@ -2,6 +2,7 @@
 title: Outbound webhook parameters
 description: The parameters to be configured when sending data to other systems using an outbound webhook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/outbound-webhook-parameters.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -58,7 +59,7 @@ Test payload
 Select to verify that the webhook is functioning correctly and that the receiving system can process the data as expected.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Create Respond automation](../task/respond-alert-sow-itom.md).
+</table>To return to the procedure, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/respond-alert-sow-itom.md).
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

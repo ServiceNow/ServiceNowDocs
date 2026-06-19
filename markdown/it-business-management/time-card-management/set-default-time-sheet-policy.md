@@ -2,6 +2,7 @@
 title: Set a time sheet policy as default policy
 description: As a time card administrator, you can set a time sheet policy as the default policy. The default policy is a global time sheet policy which applies to all the users who are not assigned to any other time sheet policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/set-default-time-sheet-policy.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -36,9 +37,9 @@ Only one time sheet policy can be set as a default policy.
 
 ## Result
 
-The **Default Policy** option on the [record form](create-time-sheet-policy.md#time_sheet_policy_form) is selected to indicate that the current time sheet policy is set as the default policy. The **Default Policy** option on the earlier default time sheet policy is cleared.
+The **Default Policy** option on the [record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/create-time-sheet-policy.md) is selected to indicate that the current time sheet policy is set as the default policy. The **Default Policy** option on the earlier default time sheet policy is cleared.
 
 You cannot delete a default time sheet policy. You must first mark another policy as the default policy to delete the current default policy.
 
-**Parent Topic:**[Time sheet policies](../concept/time-sheet-policies.md)
+**Parent Topic:**[Time sheet policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-sheet-policies.md)
 

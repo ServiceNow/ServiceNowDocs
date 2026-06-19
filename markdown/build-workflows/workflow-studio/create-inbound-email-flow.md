@@ -2,6 +2,7 @@
 title: Create a flow with an inbound email trigger
 description: Start a flow when your instance receives an email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-inbound-email-flow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -29,7 +30,7 @@ Role required: flow\_designer or admin
 
     **Important:** Inbound email flows use the email sender as the user who initiates the session. If the system doesn't recognize the sender, the inbound email flow runs as the Guest user. Setting the inbound email flow to run as the user who initiates the session ensures that the flow actions are limited by user access controls. If the initiating user needs elevated privileges for some reason, have the inbound email flow call a subflow that runs with the required roles.
 
-4.  In the Trigger section, select the plus icon \(![Plus icon](../../../build/app-engine-studio/image/plus-icon.png)\) to add a trigger.
+4.  In the Trigger section, select the plus icon \(\[Omitted image "plus-icon.png"\] Alt text: Plus icon\) to add a trigger.
 
 5.  Select **Inbound Email**.
 
@@ -46,20 +47,20 @@ Role required: flow\_designer or admin
 
 9.  Add stages to the flow to report progress to the requester.
 
-    See [Flow and subflow stages](../concept/flow-designer-stages.md).
+    See [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-stages.md).
 
 10. Test the flow.
 
-    To test access controls for an inbound email flow, impersonate a typical inbound email user and manually trigger the flow.. For more information, see [Test a flow](flow-test.md).
+    To test access controls for an inbound email flow, impersonate a typical inbound email user and manually trigger the flow.. For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
 
 11. If the test is successful, activate the flow.
 
-    For more information, see [Activate a flow](flow-activate.md).
+    For more information, see [Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md).
 
 
 ## Result
 
 When an inbound email meets the conditions that you set, the associated flow triggers and runs the actions.
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
 

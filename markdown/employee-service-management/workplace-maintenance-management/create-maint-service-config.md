@@ -2,13 +2,14 @@
 title: Create plan service configuration
 description: Configure a plan service to associate workplace services and set scheduling conditions for a plan record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-maintenance-management/create-maint-service-config.html
 release: australia
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage Workplace Maintenance Management plans, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create plan service configuration
@@ -31,9 +32,9 @@ Role required: admin
 
     1.  Workplace service: Name of the Workplace service.
 
-        Select the lookup list icon \(![Lookup list icon.](../../contact-tracing/image/icon-lookup.png)\) and workplace service for a plan record. For example: Cleaning desk.
+        Select the lookup list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup list icon.\) and workplace service for a plan record. For example: Cleaning desk.
 
-        For more information, see [Create workplace services](create-workplace-services.md).
+        For more information, see [Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-workplace-services.md).
 
     2.  Order: Integer-based value.
 
@@ -43,9 +44,9 @@ Role required: admin
 
         For example, select **Schedule****is****Workplace cleaning**. The selected condition is applied to all plan records in a selected plan.
 
-        ![Create plan service configuration.](../images/wsd-schedule-conditions-plan-service-config.png)
+        \[Omitted image "wsd-schedule-conditions-plan-service-config.png"\] Alt text: Create plan service configuration.
 
-        For more information about Workplace services, see [Create workplace services](create-workplace-services.md).
+        For more information about Workplace services, see [Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-workplace-services.md).
 
         .
 
@@ -55,13 +56,13 @@ Role required: admin
 
     1.  Select and open the **View matching results** to see the schedule job **Name****Next run time** or **Next run value** duration.
 
-        ![View matching results showing the Next run value for a meter-based schedule.](../images/wsd-meter-based-next-run-value.png)
+        \[Omitted image "wsd-meter-based-next-run-value.png"\] Alt text: View matching results showing the Next run value for a meter-based schedule.
 
         The selected schedule is updated in the Workplace Maintenance Service Configuration table and the schedule template is associated to it. If there’s a template associated to a schedule, it creates a workplace maintenance case.
 
-        ![Workplace template configuration form showing workplace service for a plan record.](../images/workplace-template-configuration-new.png)
+        \[Omitted image "workplace-template-configuration-new.png"\] Alt text: Workplace template configuration form showing workplace service for a plan record.
 
-        For more information, see [Workplace planned maintenance scheduled job](../concept/sch-job-planned-nightly.md) and [Workplace maintenance cases](create-maint-cases.md).
+        For more information, see [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md) and [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-cases.md).
 
 4.  Select **Save**.
 
@@ -73,16 +74,16 @@ Role required: admin
 
 8.  The Workplace Services column shows the plan service configuration associated with a plan record.
 
-    ![Published maintenance plan showing mapped workplace services to a maintenance case.](../images/wsd-published-maint-case-wiht-service.png)
+    \[Omitted image "wsd-published-maint-case-wiht-service.png"\] Alt text: Published maintenance plan showing mapped workplace services to a maintenance case.
 
     This record is updated in the Workplace Maintenance Service Configuration table.
 
-    For more information, see [Workplace maintenance cases](create-maint-cases.md).
+    For more information, see [Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-cases.md).
 
 
-**Parent Topic:**[Manage Workplace Maintenance Management plans](../concept/manage-maintenance-plans.md)
+**Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Create workplace services](create-workplace-services.md)
+**Previous topic:**[Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-workplace-services.md)
 
-**Next topic:**[Workplace maintenance cases](create-maint-cases.md)
+**Next topic:**[Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-maint-cases.md)
 

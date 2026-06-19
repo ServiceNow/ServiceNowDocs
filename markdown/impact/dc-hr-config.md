@@ -2,11 +2,14 @@
 title: Configure Data Collection for HR
 description: Configure Data Collection for HR.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-hr-config.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for HR, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for HR, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Configure Data Collection for HR
@@ -42,11 +45,11 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 6.  Repeat these steps for all potential assignment groups.
 
-    ![Example with Type: Tier 1.](../image/dct_config_1.png)
+    \[Omitted image "dct\_config\_1.png"\] Alt text: Example with Type: Tier 1.
 
 7.  To validate, run a query against the HR Case table for assignment groups that are still unclassified to validate you have classified all groups.
 
-    ![Query of Assignment.group.Type > does not contain > Tier 1 AND Assignment.group.Type > does not contain > Tier 2+.](../image/dct_config_2.png)
+    \[Omitted image "dct\_config\_2.png"\] Alt text: Query of Assignment.group.Type &gt; does not contain &gt; Tier 1 AND Assignment.group.Type &gt; does not contain &gt; Tier 2+.
 
     If your assignment groups change, you will have to reclassify them.
 
@@ -72,6 +75,6 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
     2.  Enter the data point in the relevant month cell.
 
-        ![Example with Mar 2024 cell selected with no Indicator score entered.](../image/dct_man_data_points_hr.png)
+        \[Omitted image "dct\_man\_data\_points\_hr.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score entered.
 
 

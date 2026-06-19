@@ -2,6 +2,7 @@
 title: Create a task template within a phase template
 description: Create a task template within a phase template of a legal matter template. When you apply a legal matter template while creating a matter, the associated phases and tasks from the template are added by default to the matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/create-task-template-for-matter-phase-template.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -90,7 +91,7 @@ Default values populated in fields on a task form in the legal matter that is cr
 
 7.  Add to-do items in the **Checklist** section to provide a list of activities for the task fulfiller.
 
-    1.  Click the more actions icon \(![More actions icon.](../../employee-center/images/down-arrow-icon.png)\) next to the **Checklist**.
+    1.  Click the more actions icon \(\[Omitted image "down-arrow-icon.png"\] Alt text: More actions icon.\) next to the **Checklist**.
 
     2.  Click **Create new**.
 
@@ -101,5 +102,5 @@ Default values populated in fields on a task form in the legal matter that is cr
 8.  Click **Update**.
 
 
-**Parent Topic:**[Create a legal matter template](create-legal-matter-template.md)
+**Parent Topic:**[Create a legal matter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/create-legal-matter-template.md)
 

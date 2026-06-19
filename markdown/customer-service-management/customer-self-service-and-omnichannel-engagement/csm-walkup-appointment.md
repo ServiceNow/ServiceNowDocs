@@ -2,6 +2,7 @@
 title: Configure appointment booking
 description: Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services or queue locations within the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appointment.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -105,7 +106,7 @@ Location
 
 </td><td>
 
-The field on the record provider that determines the appointment location. **Note:** Ensure the **Location** field on both this form and the Walk-up Location Queue \(wu\_location\_queue\) form are configured in alignment. Walk-up Experience contains the *location* reference variable, which is a Location \(cmn\_location\) record. Selecting **Location** from the search list ![search list icon](../../../common/image/List_SearchIcon.png) icon ensures you are aligning with the same time zone as the walk-up location you are configuring for. When you select **Location**, the online appointment scheduling calendar displays in the user time zone. If you leave this field empty or if you have not configured the user preference for the instance to have an associated time zone, the appointment scheduling calendar defaults to display in the user time zone.
+The field on the record provider that determines the appointment location. **Note:** Ensure the **Location** field on both this form and the Walk-up Location Queue \(wu\_location\_queue\) form are configured in alignment. Walk-up Experience contains the *location* reference variable, which is a Location \(cmn\_location\) record. Selecting **Location** from the search list \[Omitted image "List\_SearchIcon.png"\] Alt text: search list icon icon ensures you are aligning with the same time zone as the walk-up location you are configuring for. When you select **Location**, the online appointment scheduling calendar displays in the user time zone. If you leave this field empty or if you have not configured the user preference for the instance to have an associated time zone, the appointment scheduling calendar defaults to display in the user time zone.
 
 If a user in Europe has User preferences for **Time zone** configured for **Europe/Brussels** and the Appointment Booking Configuration for the **Location** field is set to a cmn\_location with the time zone **US/Pacific**, then the appointment scheduling calendar displays in the US/Pacific time zone.
 

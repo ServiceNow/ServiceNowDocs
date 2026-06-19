@@ -2,6 +2,7 @@
 title: Workspace page configuration form
 description: Description of field values for the workspace configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/workspace-page-configuration-form.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -106,5 +107,5 @@ Custom process flow information for the stepper seismic component in the default
  **Note:** This field is greyed out when the **State field** is selected.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure workspace page](../task/configure-workspace-page.md)
+</table>**Parent Topic:**[Configure workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-workspace-page.md)
 

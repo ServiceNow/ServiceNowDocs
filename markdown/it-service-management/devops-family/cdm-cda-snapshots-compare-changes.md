@@ -2,6 +2,7 @@
 title: Compare two snapshots of a deployable
 description: Use the Config Data Analyzer tool to find changes between two snapshots of a deployable of an application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-cda-snapshots-compare-changes.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ Use the Config Data Analyzer tool to find changes between two snapshots of a dep
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 There must be more than one snapshot available in a deployable to compare and the target snapshot must not be the first snapshot in the deployable.
 
@@ -25,7 +26,7 @@ Role required: cdm\_viewer, cdm\_editor, or cdm\_admin
 
 ## About this task
 
-To compare snapshots from different deployables or applications, see [Compare snapshots from the same or different applications](cdm-cda-snapshots-compare.md).
+To compare snapshots from different deployables or applications, see [Compare snapshots from the same or different applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-cda-snapshots-compare.md).
 
 ## Procedure
 
@@ -37,7 +38,7 @@ To compare snapshots from different deployables or applications, see [Compare sn
 
     The current snapshot is auto-populated in the **Target snapshot** field.
 
-    ![Compare config data tab for comparing application snapshots.](../image/cdm-snapshot-compare-change.png)
+    \[Omitted image "cdm-snapshot-compare-change.png"\] Alt text: Compare config data tab for comparing application snapshots.
 
 4.  Select another snapshot in the **Reference snapshot** field.
 
@@ -53,7 +54,7 @@ To compare snapshots from different deployables or applications, see [Compare sn
 
     The following image displays the Config data changes section that contains the comparison result that you can use to analyze the data.
 
-    ![The Configuration data changes section, which includes a navigation panel and a changes panel, displays the comparison result.](../image/cdm-snapshot-compare-change-result.png)
+    \[Omitted image "cdm-snapshot-compare-change-result.png"\] Alt text: The Configuration data changes section, which includes a navigation panel and a changes panel, displays the comparison result.
 
     -   **A: Navigation panel**
 
@@ -68,7 +69,7 @@ To compare snapshots from different deployables or applications, see [Compare sn
         The panel displays a list of changes to individual CDIs for the node that is selected in the navigation panel.
 
         -   By default, the root node is selected and the data panel includes all CDIs for both snapshots. Select a node in the navigation panel to display data for only that node and its descendents.
-        -   Node paths are displayed in gray. Use the expansion icon \(![expansion icon](../image/cdm-icon-expand.png)\) to view CDIs in a folder.
+        -   Node paths are displayed in gray. Use the expansion icon \(\[Omitted image "cdm-icon-expand.png"\] Alt text: expansion icon\) to view CDIs in a folder.
         -   When **Changes only** is selected, the number of CDIs that have changes appears after the node path.
         -   When **Script view** is selected, the list view toggles to editor view.
 <table id="table_znm_bcc_yvb"><thead><tr><th>

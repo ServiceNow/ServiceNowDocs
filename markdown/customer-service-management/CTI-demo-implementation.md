@@ -2,7 +2,10 @@
 title: CTI demo implementation
 description: Use the CTI demo implementation to test the phone communication channel between customer service agents and external customers in a non-production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/CTI-demo-implementation.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

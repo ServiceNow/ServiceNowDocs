@@ -2,6 +2,7 @@
 title: Using ServiceNow Event Ingestion Integration add-on
 description: Map alerts from Splunk console to create a Security Incident Response \(SIR\) on the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/use-v2-addon.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -39,14 +40,14 @@ Role required: sn\_sec\_splunk\_v2.api\_account\_access
 
 7.  From the drop down, select the **Workflow action label** configured while setting up the add-on.
 
-    For more information on Workflow action label, see [Set up ServiceNow Event Ingestion Integration add-on](splunk-event-ingest-setup-prereqs.md)
+    For more information on Workflow action label, see [Set up ServiceNow Event Ingestion Integration add-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-setup-prereqs.md)
 
     Alerts will go in **Splunk Import** table followed by **Splunk Event to Tasks** table.
 
 
 ## Result
 
-A Security Incident Response \(SIR\) record is created on the ServiceNow instance as per the mapping specified in the Manual event forwarding profile. For instructions on how to set up a Manual event forwarding profile, see [Create and name an event profile](splunk-event-ingest-create-profile.md)
+A Security Incident Response \(SIR\) record is created on the ServiceNow instance as per the mapping specified in the Manual event forwarding profile. For instructions on how to set up a Manual event forwarding profile, see [Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-create-profile.md)
 
-**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](../concept/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

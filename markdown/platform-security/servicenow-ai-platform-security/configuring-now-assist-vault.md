@@ -1,0 +1,49 @@
+---
+title: Install Now Assist for Vault
+description: Install the ServiceNow Now Assist for Vault application from the ServiceNow Store to get Now Assist for Vault.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/servicenow-ai-platform-security/configuring-now-assist-vault.html
+release: australia
+product: ServiceNow AI Platform Security
+classification: servicenow-ai-platform-security
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configuring ServiceNow Vault, ServiceNow Vault]
+---
+
+# Install Now Assist for Vault
+
+Install the ServiceNow® Now Assist for Vault application from the ServiceNow® Store to get Now Assist for Vault.
+
+## Before you begin
+
+Review the Now Assist for Vault application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility. Now Assist for Vault installs the Now Assist for Vault application \(sn\_vault\_gen\_ai\).
+
+Role required: admin
+
+## Procedure
+
+1.  From the Now Assist for Vault application page on the ServiceNow Store, select **Buy**.
+
+2.  After approval has been granted, on your instance, navigate to **All &gt; System Applications &gt; All Available Applications &gt; All**.
+
+3.  Using the search bar, search for the Now Assist for Vault application \(sn\_vault\_gen\_ai\).
+
+4.  Select **Install**.
+
+5.  Verify that the Now Assist for Vault skills are active:
+
+    1.  Navigate to **All &gt; Now Assist Admin &gt; Now Assist Skills**.
+
+    2.  In the workflow list, select **Vault**.
+
+    3.  Verify that the Now Assist for Vault skills are active.
+
+    \[Omitted image "now-assist-admin-vault-skills.png"\] Alt text: Now Assist Admin console showing three skills from Now Assist for Vault.
+
+6.  Verify that Now Assist for Vault agentic workflows are activated by following the steps in .
+
+    By default, the workflows are active when you install Now Assist for Vault. This step is in case a user deactivated them after installation.
+
+

@@ -2,6 +2,7 @@
 title: Create an Idea from Universal Request
 description: Create an idea from a universal request after initial evaluation for a new product, feature, enhancement, or change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/create-idea-from-ur.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -35,7 +36,7 @@ New idea is created in the **Submitted** state. You can edit your submitted idea
 
 4.  On the form, fill in the fields.
 
-    For more information, see [Create an Idea form](../reference/create-an-idea-form.md).
+    For more information, see [Create an Idea form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-an-idea-form.md).
 
 5.  If you have attachments related to the idea, select **Add attachments** and attach them.
 
@@ -46,7 +47,7 @@ New idea is created in the **Submitted** state. You can edit your submitted idea
 
 ## What to do next
 
-[Evaluate an idea](evaluate-an-idea.md) and [create a task from an idea](create-a-task-for-an-idea.md), if selected for execution. If the idea cannot be implemented, transfer the idea to the relevant department as an INC, HRC, or custom task.
+[Evaluate an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/evaluate-an-idea.md) and [create a task from an idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/create-a-task-for-an-idea.md), if selected for execution. If the idea cannot be implemented, transfer the idea to the relevant department as an INC, HRC, or custom task.
 
-**Parent Topic:**[Integrating Innovation Management with Universal Request](../concept/universal-req-idea-mgmt.md)
+**Parent Topic:**[Integrating Innovation Management with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/universal-req-idea-mgmt.md)
 

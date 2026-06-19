@@ -2,6 +2,7 @@
 title: Combine assessments for control attestations
 description: Provide response to similar assessments by grouping the assessments for a user in the Tasks page of the Compliance Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/smart-assess-combine-attest.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the tasks icon \(![Tasks icon.](../../grc-workspace-audit/image/TasksIcon.jpg)\).
+2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
 
 3.  Select the Control attestations on the left panel.
 
@@ -41,13 +42,13 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
     The individual assessments are listed in the **Control attestations** list, and the grouped assessments in the **Combined Assessments** list in the My pending tasks related list.
 
-    ![Combined assessments.](../image/grc-attestation-combine-group.png)
+    \[Omitted image "grc-attestation-combine-group.png"\] Alt text: Combined assessments.
 
     The selected assessments are grouped under one attestation name. You can respond to the assessments individually or as one in the grouped combined assessments. You can respond to one assessment even if you had grouped them. The Combined Assessments lists only those assessments that have not been taken.
 
 8.  Select the assessment and answer the questions.
 
-    ![Combined assessment questions.](../image/group-assessment-combine.png)
+    \[Omitted image "group-assessment-combine.png"\] Alt text: Combined assessment questions.
 
 9.  Select the check box in the Submit combined assessment pop-up and click the **Submit all** button to submit the assessments.
 

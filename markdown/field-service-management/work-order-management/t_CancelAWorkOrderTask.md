@@ -2,6 +2,7 @@
 title: Cancel a work order task
 description: The Cancel Task option is appropriate if a work order task is no longer necessary or is a duplicate of another work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/t\_CancelAWorkOrderTask.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -54,7 +55,7 @@ Work order tasks can be canceled by users with these roles:
 
     An error message appears if text is not entered into the **Work Notes** field.
 
-    For traceability, auditing, and possible [deletion](t_DeleteAWorkOrder.md), field service administrators need to know the reason why a work order or work order task was canceled.
+    For traceability, auditing, and possible [deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_DeleteAWorkOrder.md), field service administrators need to know the reason why a work order or work order task was canceled.
 
 
 ## Result

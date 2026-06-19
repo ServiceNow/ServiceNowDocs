@@ -2,9 +2,12 @@
 title: Industry-specific data model scenarios
 description: The Service Model Foundation data model is vital for modeling the business organization structure. It can be configured and applied across different industry verticals. Each example demonstrates how internal and external business locations, service organizations, and customer relationships are structured to support real-world operational models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/smf-data-model-example.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 9
 breadcrumb: [Data model, Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -50,7 +53,7 @@ These challenges led to data governance risks, reduced customer trust, and incre
 -   Internal and external users are assigned to their respective locations with appropriate personas \(for example, manager, employee, relationship manager\).
 -   Customers and accounts are registered in the system and linked to a responsible employee.
 
-![Hierarchical diagram of internal and external business locations showing role-based relationships and data access in a financial organization.](../image/smf-fso-usecase.png "Business location and access hierarchy in a financial institution")
+\[Omitted image "smf-fso-usecase.png"\] Alt text: Hierarchical diagram of internal and external business locations showing role-based relationships and data access in a financial organization.
 
 **Resolution workflow/ Solution implementation**:
 
@@ -130,7 +133,7 @@ These challenges led to compliance risks, reduced patient trust, and increased m
 -   Internal and external users are assigned to their respective locations with appropriate personas \(for example, administrator, clinician, researcher, relationship manager\).
 -   Patients and healthcare accounts are registered in the system and linked to a responsible employee.
 
-![Hierarchical diagram of internal and external business locations showing role-based relationships and data access in a healthcare organization.](../image/smf-hcls-usecase.png "Business location and access hierarchy in Healthcare and Life Sciences")
+\[Omitted image "smf-hcls-usecase.png"\] Alt text: Hierarchical diagram of internal and external business locations showing role-based relationships and data access in a healthcare organization.
 
 **Resolution workflow/ Solution implementation**:
 
@@ -201,7 +204,7 @@ These challenges led to data inconsistencies, compliance risks, and service inef
 -   Relationship managers: Primary contacts for assigned households.
 -   Citizens: Household members, including head of household and authorized representatives.
 
-![Hierarchical diagram of internal and external business locations showing role-based relationships and data access in a public sector organization.](../image/smf-psds-usecase.png "Business location and access hierarchy in Healthcare and Life Sciences")
+\[Omitted image "smf-psds-usecase.png"\] Alt text: Hierarchical diagram of internal and external business locations showing role-based relationships and data access in a public sector organization.
 
 **Resolution workflow/ Solution implementation**:
 

@@ -2,6 +2,7 @@
 title: Create assignment rules and groups
 description: Define agent assignment rules and specify groups of agents who are eligible to receive overflow work assignments for a queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/create-assignment-rules-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -17,7 +18,7 @@ Define agent assignment rules and specify groups of agents who are eligible to r
 
 ## Before you begin
 
-You must first create a new assignment rule before you create a service channel. For more information, see [create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md). Use [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md) \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
+You must first create a new assignment rule before you create a service channel. For more information, see create a service channel. Use  \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
 
 Role required: sn\_channel\_mgmt.admin
 
@@ -74,8 +75,8 @@ The set of groups eligible for assignment. -   Click the lock icon to unlock it 
 
     The Queues \[awa\_queues\] table is updated with the eligible assignment group.
 
-    **Note:** For a new service channel, you must first create a new assignment rule and then [create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md).
+    **Note:** For a new service channel, you must first create a new assignment rule and then create a service channel.
 
 
-**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](../concept/setup-channels-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

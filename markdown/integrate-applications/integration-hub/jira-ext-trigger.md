@@ -2,6 +2,7 @@
 title: Set up triggers for the Jira spoke
 description: Set up triggers for the Jira spoke for the required events. The endpoint enables webhooks to connect with your ServiceNow instance.Configure endpoint for webhooks in the Jira that support the token authentication.Add the endpoint URL that is generated in your ServiceNow instance in the Jira Atlassian account to enable webhooks to connect with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jira-ext-trigger.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -39,19 +40,19 @@ Role required: flow\_designer and connection\_admin
 
 4.  Locate the **Jira Spoke** endpoint and click **View Details**.
 
-    ![Locate the Jira Spoke endpoint.](../image/jira-spk-endpoint.png)
+    \[Omitted image "jira-spk-endpoint.png"\] Alt text: Locate the Jira Spoke endpoint.
 
 5.  For the **Jira External Trigger** end point, click **Configure**.
 
-    ![Configure the endpoint.](../image/jira-spk-endpoint-conf.png)
+    \[Omitted image "jira-spk-endpoint-conf.png"\] Alt text: Configure the endpoint.
 
 6.  Select the user who can trigger the endpoint and click **Activate**.
 
-    ![Activate the endpoint.](../image/jira-spk-endpoint-activate.png)
+    \[Omitted image "jira-spk-endpoint-activate.png"\] Alt text: Activate the endpoint.
 
 7.  Copy the generated endpoint URL.
 
-    ![Copy the generated endpoint URL.](../image/jira-spk-endpoint-generated.png)
+    \[Omitted image "jira-spk-endpoint-generated.png"\] Alt text: Copy the generated endpoint URL.
 
 
 ## Add the endpoint URL in Jira
@@ -68,7 +69,7 @@ Role required: admin
 
 2.  Navigate to **JIRA SETTINGS** &gt; **System**.
 
-    ![Jira system settings.](../image/jira-spk-webhook.png)
+    \[Omitted image "jira-spk-webhook.png"\] Alt text: Jira system settings.
 
 3.  Under **Advanced**, click **WebHooks**.
 
@@ -79,15 +80,15 @@ Role required: admin
     |Field|Description|
     |-----|-----------|
     |Name|Name to identify the webhook.|
-    |URL|Paste the generated endpoint URL that was generated after you [configured triggers in the ServiceNow instance](jira-ext-trigger.md#).|
+    |URL|Paste the generated endpoint URL that was generated after you [configured triggers in the ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-ext-trigger.md).|
 
-    ![Add the endpoint URL.](../image/jira-spk-add-endpt-url.png)
+    \[Omitted image "jira-spk-add-endpt-url.png"\] Alt text: Add the endpoint URL.
 
 6.  Select the supported events as per your requirement.
 
-    For the list of the supported events, see the [Spoke triggers](../concept/jira-spoke-v3-0-2.md#section_cpg_rpm_ccc) section.
+    For the list of the supported events, see the [Spoke triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md) section.
 
-    ![Select the required events.](../image/jira-spk-events.png)
+    \[Omitted image "jira-spk-events.png"\] Alt text: Select the required events.
 
 7.  Click **Create**.
 

@@ -2,6 +2,7 @@
 title: Create and associate a policy text document in Microsoft OneDrive
 description: Create a policy text document in Microsoft OneDrive and enable document editing with the approvers, reviewers, and contributors. You can share the document with your stakeholders and collaborate on the document editing in real-time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-policy-redlining-document.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,11 +24,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-cam-workspace/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-    You can [create a new policy](../../grc-workspace-compliance/task/create-policy-ws.md) or open a record to enable the redlining feature.
+    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a record to enable the redlining feature.
 
 4.  Select a policy to open.
 
@@ -77,10 +78,10 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 14. Select the **Complete publishing checklist** button.
 
-    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](complete-publishing-checklist-redlining.md).
+    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md).
 
 15. To view the history of the policy, select the Policy history related list.
 
-    For more information, see [View the history of a redlining-enabled policy](view-history-policy-redlining.md).
+    For more information, see [View the history of a redlining-enabled policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/view-history-policy-redlining.md).
 
 

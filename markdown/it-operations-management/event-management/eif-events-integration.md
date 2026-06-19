@@ -2,6 +2,7 @@
 title: Integrate Event Integration \(EIF\) format event connector
 description: Use the push connector that allows events to be forwarded from products, generally from IBM, that support the Event Integration \(EIF\) format to a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/eif-events-integration.html
 release: australia
 product: Event Management
 classification: event-management
@@ -133,8 +134,8 @@ The name of the MID Server on which the extension is running. This field is auto
 
 If the MID Server fails to start, you can review the MID Server log errors.
 
--   **[EIF events warning severity](../reference/eif-events-severity.md)**  
+-   **[EIF events warning severity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/eif-events-severity.md)**  
 If the EIF event payload has a warning severity, it will be mapped differently in the ServiceNow instance.
 
-**Parent Topic:**[Integrate with push connectors](configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
 

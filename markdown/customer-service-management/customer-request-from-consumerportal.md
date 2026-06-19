@@ -1,8 +1,11 @@
 ---
 title: Request an item or service from the Consumer Portal
-description: Browse the catalog and create a request for an item or a service from the Consumer Portal.
+description: Submit a request for an item or service from the Consumer Portal service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-request-from-consumerportal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -11,11 +14,11 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # Request an item or service from the Consumer Portal
 
-Browse the catalog and create a request for an item or a service from the Consumer Portal.
+Submit a request for an item or service from the Consumer Portal service catalog.
 
 ## Before you begin
 
-**Note:** Creating a request from the Consumer Portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](csm-itsm-integration-view-request.md).
+**Note:** Creating a request from the Consumer Portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-itsm-integration-view-request.md).
 
 Role required: sn\_customerservice.case\_authorized\_consumer or sn\_customerservice.consumer
 

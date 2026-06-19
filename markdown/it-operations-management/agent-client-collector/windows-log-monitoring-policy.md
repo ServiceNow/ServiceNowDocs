@@ -2,6 +2,7 @@
 title: Windows log monitoring default checks and policies
 description: Agent Client Collector provides the following policy for Windows log monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/windows-log-monitoring-policy.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -60,5 +61,5 @@ Usage:-   -c crit N: Critical level if pattern has a group.
 Windows Log CRITICAL: Found 4 criticals, 0 warnings for pattern SEVERE\|Exception\|404\|Errorin file C:\\ProgramData\\ServiceNow\\agent-client-collector\\log\\acc.log
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

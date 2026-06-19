@@ -2,6 +2,7 @@
 title: Using Talent profile
 description: Use the Talent profile application to create and manage talent profiles and pools. Get a unified view of all talent types, including applicants, employees, contingent workers, and alumni, enabling faster and more informed hiring decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-t-pool.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,30 +16,30 @@ breadcrumb: [Talent Profile, Hiring Experiences, HR Service Delivery, Employee S
 
 Use the Talent profile application to create and manage talent profiles and pools. Get a unified view of all talent types, including applicants, employees, contingent workers, and alumni, enabling faster and more informed hiring decisions.
 
--   **[Create Talent pools](../task/create-talent-pool.md)**  
+-   **[Create Talent pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-talent-pool.md)**  
 Create Talent pools to organize similar talent profiles in one place for particular hiring requirements.
--   **[Copy talent to pool](../task/copy-talent-other-pool.md)**  
+-   **[Copy talent to pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/copy-talent-other-pool.md)**  
 Use existing talent pools to associate suitable talent profiles from the pools to your talent pool.
--   **[Remove talent profiles from a pool](../task/remove-talent-from-pool.md)**  
+-   **[Remove talent profiles from a pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/remove-talent-from-pool.md)**  
 Remove the talent profiles that are no longer required within a pool.
--   **[Delete a Talent pool](../task/delete-talent-pool.md)**  
+-   **[Delete a Talent pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/delete-talent-pool.md)**  
 Delete a Talent pool when it has served its purpose or it’s no longer relevant.
--   **[Create talent profiles](../task/create-talent-ta.md)**  
+-   **[Create talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-talent-ta.md)**  
 Create talent profiles to add it to the talent profile repository of your organization. Use it for an optimized hiring process.
--   **[Filter talent profiles](../task/filter-tp.md)**  
+-   **[Filter talent profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/filter-tp.md)**  
 Use filter options to find relevant talent profiles quickly in the Talent pool tab.
--   **[Add talent profiles to a Talent pool](../task/add-talent-to-pool.md)**  
+-   **[Add talent profiles to a Talent pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/add-talent-to-pool.md)**  
 Add similar talent profiles to a Talent pool to streamline communication to all the profiles during a particular hiring drive.
--   **[Job prospects](job-leads.md)**  
+-   **[Job prospects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/job-leads.md)**  
 Job prospects provide a direct view into the most relevant profiles added to a particular job requisition.
--   **[Send an email from a talent profile](../task/send-email-tp.md)**  
+-   **[Send an email from a talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/send-email-tp.md)**  
 As a recruiter, send an email to different talent types providing personalized details.
--   **[Send an email from a talent pool](../task/send-email-tpool.md)**  
+-   **[Send an email from a talent pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/send-email-tpool.md)**  
 As a recruiter, send an email to a talent pool providing personalized details.
--   **[Email notification for Talent pools](notification-tp.md)**  
+-   **[Email notification for Talent pools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/notification-tp.md)**  
 Notification emails are sent to the recruiters who have Talent pools shared or collaborated with by the owner.
--   **[Targeted communications in Hiring Experiences](comms-campaigns-ta.md)**  
+-   **[Targeted communications in Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/comms-campaigns-ta.md)**  
 Email communications and other targeted communications like campaigns provide efficient means of conveying important messages to different stakeholders.
 
-**Parent Topic:**[Talent Profile](talent-profile-landing.md)
+**Parent Topic:**[Talent Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/talent-profile-landing.md)
 

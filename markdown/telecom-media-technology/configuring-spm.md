@@ -2,6 +2,7 @@
 title: Configuring Customer Service Problem Management
 description: With Customer Service Problem Management \(CSPM\) define the tests to diagnose the service problems. Implement targeted solutions based on test results to resolve those problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/configuring-spm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,6 +28,6 @@ The configuration of CSPM requires setting up the following applications to mana
 As an administrator, follow these steps to configure the Customer Service Problem Management:
 
 -   Activate the Customer Service Problem Management application.
--   Define Test groups. For more information, see [Setting up a test group](setting-test-group.md).
--   Define Test definitions. For more information, see [Setting up test definitions](settingup-test-specifications.md).
+-   Define Test groups. For more information, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/setting-test-group.md).
+-   Define Test definitions. For more information, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/settingup-test-specifications.md).
 

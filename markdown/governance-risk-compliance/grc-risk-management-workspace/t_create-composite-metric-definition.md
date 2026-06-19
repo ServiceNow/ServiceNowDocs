@@ -2,6 +2,7 @@
 title: Create a calculated metric definition
 description: Create a calculated metric definition by aggregating the automatic metric definition and the manual metric definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_create-composite-metric-definition.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -31,7 +32,7 @@ Add the automatic metric definition and the manual metric definition as children
 
 3.  On the form, fill in the fields.
 
-    For information about the fields, refer to [Calculated metric definition form](../reference/calculated-metric-definition-reuse-irm.md).
+    For information about the fields, refer to [Calculated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/calculated-metric-definition-reuse-irm.md).
 
 4.  Click **Save**.
 
@@ -42,10 +43,10 @@ The metric definition is saved in the Metric definitions list.
 
 ## What to do next
 
-You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](t_update-automated-metric-definition.md) for more information.
+You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_update-automated-metric-definition.md) for more information.
 
--   **[Calculated metric definition form](../reference/calculated-metric-definition-reuse-irm.md)**  
+-   **[Calculated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/calculated-metric-definition-reuse-irm.md)**  
 The fields of the calculated metric definition form are explained in this topic.
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

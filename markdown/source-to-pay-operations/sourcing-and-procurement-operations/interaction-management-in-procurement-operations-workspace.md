@@ -2,6 +2,7 @@
 title: Interaction Management in Source-to-Pay Workspace
 description: Interactions are a centralized location for all communication channels available in Source-to-Pay Workspace. Interaction Management involves managing procurement related queries from different sources such as an email, chat, message, or SMS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/interaction-management-in-procurement-operations-workspace.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -21,18 +22,18 @@ Any procurement related assistance that a procurement specialist or a live agent
 
 Also, any supplier-related assistance that a supplier manager or a live agent provides to a supplier contact in the form of a call, chat, email, or SMS is recorded in an interaction record.
 
-For more information about Interaction Management, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/create-interactions.md)
+For more information about Interaction Management, see .
 
 Interaction Management activities in Source-to-Pay Workspace include:
 
--   [View interaction details in Source-to-Pay Workspace](../task/viewing-an-interaction.md)
--   [Create a procurement case](../task/create-procurement-case.md)
--   [Associate a record with an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/associate-record.md)
+-   [View interaction details in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/viewing-an-interaction.md)
+-   [Create a procurement case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/create-procurement-case.md)
+-   
 
--   **[View interaction details in Source-to-Pay Workspace](../task/viewing-an-interaction.md)**  
+-   **[View interaction details in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/viewing-an-interaction.md)**  
 View the details of an interaction record to analyze interactions and take immediate actions. Viewing an interaction record provides a comprehensive view of the customer journey. You can link an interaction record to an existing procurement case or can assign a task, which needs a procurement specialist involvement for investigation.
--   **[Associate an interaction record with a related procurement case in Source-to-Pay Workspace](../task/associate-interaction-record.md)**  
+-   **[Associate an interaction record with a related procurement case in Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/associate-interaction-record.md)**  
  Associate an interaction record to a procurement case if your interaction is related to an existing procurement case. You can also associate a task to an interaction record to track your actions related to the interaction.
 
-**Parent Topic:**[Procurement Case Management](psd-overview.md)
+**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 

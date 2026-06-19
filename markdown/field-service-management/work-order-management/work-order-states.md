@@ -2,6 +2,7 @@
 title: Work order states
 description: Work order follow a specific life cycle and move through a series of states, which are displayed in the State field on the work order record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/work-order-states.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -17,9 +18,9 @@ Work order follow a specific life cycle and move through a series of states, whi
 
 The request states displayed depend on the Field Service Management application, as indicated in the table.
 
-Depending on your configuration, you can either qualify work orders after they are drafted, or they are immediately ready for dispatch. For more information on setting up qualification, see the Qualification is required for new requests section in [Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md).
+Depending on your configuration, you can either qualify work orders after they are drafted, or they are immediately ready for dispatch. For more information on setting up qualification, see the Qualification is required for new requests section in [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md).
 
-Create or modify UI actions to add to work order \[wm\_order\] and work order task \[wm\_task\] forms. Use these actions to move work orders and work order tasks from one state to the next or to perform specific actions, such as launching questionnaires. For more information, see [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
+Create or modify UI actions to add to work order \[wm\_order\] and work order task \[wm\_task\] forms. Use these actions to move work orders and work order tasks from one state to the next or to perform specific actions, such as launching questionnaires. For more information, see UI actions
 
 <table id="table_mmv_gqk_h1c"><thead><tr><th>
 

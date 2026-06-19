@@ -2,6 +2,7 @@
 title: Software Quality Results
 description: Software Quality Results display scan details from SonarQube scans configured on your GitHub Actions, Jenkins, Azure DevOps, or Harness pipelines.Software Quality Summaries shows you a summary of the scans that are run on the pipelines with SonarQube scans on the DevOps app on your ServiceNow AI Platform instance.The Software Quality Scan Details related list \(for each Scan ID\) displays software quality subcategories that you can configure for results of the Vulnerabilities and New Vulnerabilities categories from the scan results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-software-quality-results.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -21,9 +22,9 @@ You can configure SonarQube scan results from your GitHub Actions, Jenkins, Azur
 
 After you have configured SonarQube scans on your pipelines and configured the corresponding plugins, run the pipelines to fetch software quality scan results into ServiceNow DevOps. You can view the scan results by Scan ID for each SonarQube scan that was part of your build or release pipeline execution steps.
 
-**Note:** For Harness pipelines, you can configure SonarQube scans only through the generic Docker Container Image. For more information, [Implement custom actions for pipelines using a generic Docker container image](servicenow-custom-actions-for-gitlab.md). For GitHub Actions, Jenkins, and Azure DevOps, you can either use the corresponding plugins from the marketplace or the Docker container image.
+**Note:** For Harness pipelines, you can configure SonarQube scans only through the generic Docker Container Image. For more information, [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md). For GitHub Actions, Jenkins, and Azure DevOps, you can either use the corresponding plugins from the marketplace or the Docker container image.
 
-**Parent Topic:**[DevOps Change Velocity reference](../reference/devops-change-velocity-reference.md)
+**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 
 ## Software Quality Summaries
 
@@ -114,7 +115,7 @@ Use seeded subcategories or create new categories to prioritize and list your sc
     -   Major
     -   Minor
     -   Info
-    ![Software Quality Sub Category](../image/software-quality-sub-categories.png)
+    \[Omitted image "software-quality-sub-categories.png"\] Alt text: Software Quality Sub Category
 
 2.  Click the **New** button to create custom sub categories.
 3.  On the form, fill in the fields.

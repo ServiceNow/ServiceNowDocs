@@ -2,11 +2,14 @@
 title: Set up scheduled import jobs
 description: Configure the scheduled import jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/setup-scheduled-jobs.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Set up scheduled import jobs
@@ -25,7 +28,7 @@ Role required: admin
     2.  Select the Site Scheduled Data Import Job.
     3.  To manually execute the job, select **Execute Now**.
     4.  Return to the Guided Setup and select **Mark as complete** next to the Import sites task.
-    5.  Next in the Configure site mappings task, select **Configure**.
+    5.  Next, in the Configure site mappings task, select **Configure**.
     6.  Review the list of imported sites.
     7.  Select the first site and in the form, fill in the following fields.
         -   All field titles with \* \(asterick\) next to them are mandatory and should be filled in.
@@ -33,13 +36,13 @@ Role required: admin
         -   Set the ISA assignment site. All the data in the site will import to the ISA assignment site you choose.
         -   If applicable, populate the **Location** and **Company** fields.
         -   Check the Active box.
-        -   Fill in the **Assigned Meta Data** section. Whatever you assign as Meta Data will be copied onto all imported devices.
+        -   Fill in the **Assigned Meta Data** section. Whatever you assign as Meta Data is copied onto all imported devices.
 
             **Note:** Any value populated will be cascaded down to all CIs this Site is related to when the asset data is imported into the CMDB.
 
     8.  Select **Update**.
     9.  Return to the Guided Setup and select **Mark as complete**.
-2.  Do the Configure scheduled jobs task next.
+2.  Do the **Configure scheduled jobs** task next.
 
     By default, the ServiceNow OT Discovery scheduled jobs created during installation are inactive. All other jobs are configured to run after their parent job, the Site Scheduled Data Import Job. The only exception is the Asset Image import jobs, which run independently.
 
@@ -55,7 +58,7 @@ Role required: admin
     7.  When you finish the sites, select the asset record from the Scheduled Jobs list.
     8.  To activate the scheduled job, select the check box next to the **Active** field.
 
-        **Note:** You don't need to set the **Run** field for the asset record since the asset scheduled job automatically runs after the site scheduled job runs.
+        **Note:** You don't have to set the **Run** field for the asset record since the asset scheduled job automatically runs after the site scheduled job runs.
 
         The following schedules jobs are available to import data:
 
@@ -74,5 +77,5 @@ Role required: admin
 
 ## Result
 
-You have completed the Service Graph Connector for ServiceNow OT Discovery Guided Setup. You may want to review the [Use advanced configurations](advanced-configuration-sgc-ot-discovery.md) section.
+You have completed the Service Graph Connector for ServiceNow OT Discovery Guided Setup. Review the [Use advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/advanced-configuration-sgc-ot-discovery.md) section.
 

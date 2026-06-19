@@ -2,6 +2,7 @@
 title: Classify information objects as personal information
 description: Categorize information objects as personal information. Only information objects classified as personal information can be associated with the processing activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/tag-io-with-pi.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -29,7 +30,7 @@ Even if you create a new information object from the **\[PI\] Information object
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  In the Privacy Workspace, click the List icon \(![](../../grc-cam-workspace/image/ws-list-icon.png)\).
+2.  In the Privacy Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\]\).
 
 3.  Navigate to **Privacy elements** &gt; **All Information objects**.
 
@@ -44,5 +45,5 @@ Even if you create a new information object from the **\[PI\] Information object
 
 The information object that you classified as personal information appears in the \[PI\] Information Objects list.
 
-**Parent Topic:**[Manage the Privacy Management library](../concept/privacy-library-setup.md)
+**Parent Topic:**[Manage the Privacy Management library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-library-setup.md)
 

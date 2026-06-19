@@ -2,6 +2,7 @@
 title: Exploring Digital Portfolio Management
 description: Learn about the Digital Portfolio Management \(DPM\) Workspace features and benefits to manage all of your solutions in one place. Solutions in the context of DPM are services, service offerings, business applications, and service instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-explore-cfw.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -19,8 +20,8 @@ Learn about the Digital Portfolio Management \(DPM\) Workspace features and bene
 
 The DPM Workspace is one of several configurable workspaces that ServiceNow provides. For information about workspaces, see the following topics.
 
--   [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/list-of-workspaces.md)
--   [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
+-   
+-   
 
 The DPM Workspace enables you to:
 
@@ -39,7 +40,7 @@ The DPM Workspace enables you to:
 
 Both DPM admins and DPM managers benefit from working in the DPM Workspace.
 
-![The DPM Workspace overview briefly describes how DPM admins and DPM managers can use the DPM Workspace. For details, refer to the following description.](../image/dpm-roles-exploring-page-horizontal.png "DPM Workspace overview")
+\[Omitted image "dpm-roles-exploring-page-horizontal.png"\] Alt text: The DPM Workspace overview briefly describes how DPM admins and DPM managers can use the DPM Workspace. For details, refer to the following description.
 
 -   With a DPM admin role, you can:
     -   Configure DPM Workspace solution pages.
@@ -80,7 +81,7 @@ Manage the full life cycle of your services in the plan-build-run framework to v
 
 </td><td>
 
-[Digital Portfolio Management life-cycle management](dpm-lifecylce-management.md)
+[Digital Portfolio Management life-cycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-lifecylce-management.md)
 
 </td><td>
 
@@ -92,7 +93,7 @@ Align with the Common Service Data Model \(CSDM\) to get a holistic view of your
 
 </td><td>
 
-[Apply the CSDM guidelines to Digital Portfolio Management](../reference/dpm-csdm.md)
+[Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-csdm.md)
 
 </td><td>
 
@@ -104,7 +105,7 @@ View all services, service offerings, service instances, and business applicatio
 
 </td><td>
 
-[Work with portfolios in Digital Portfolio Management](dpm-explore-portfolios.md)
+[Work with portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-explore-portfolios.md)
 
 </td><td>
 
@@ -118,7 +119,7 @@ View and set up key performance indicator \(KPI\) groups for services, service o
 
 </td><td>
 
-[KPI groups in Digital Portfolio Management](dpm-configure-kpi.md)
+[KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-kpi.md)
 
 </td><td>
 
@@ -132,7 +133,7 @@ Integrate with the ServiceNow® Strategic Planning application to see the roadma
 
 </td><td>
 
-[View service and service offering details](dpm-service-details.md)
+[View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-service-details.md)
 
 </td><td>
 
@@ -144,7 +145,7 @@ See service impacts such as critical incidents, outages, changes, risks, and aud
 
 </td><td>
 
-[View business application details](dpm-business-apps-details.md)
+[View business application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-business-apps-details.md)
 
 </td><td>
 
@@ -156,7 +157,7 @@ See DevOps Change Workspace data for business application details on accelerate 
 
 </td><td>
 
-[DevOps value stream metrics in Digital Portfolio Management](dpm-devops-metrics.md)
+[DevOps value stream metrics in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-devops-metrics.md)
 
 </td><td>
 
@@ -164,7 +165,7 @@ DPM manager to view DevOps data.
 
  DPM admin to turn on the DevOps system property.
 
- See [Configure the Digital Portfolio Management experience](../task/dpm-configure-experience.md).
+ See [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
 </td></tr><tr><td>
 
@@ -172,7 +173,7 @@ Integrate with Process Mining to see the status of solution KPI metrics, and adj
 
 </td><td>
 
-[Configure Digital Portfolio Management to integrate with Process Mining](dpm-setup-po.md)
+[Configure Digital Portfolio Management to integrate with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-setup-po.md)
 
 </td><td>
 
@@ -180,16 +181,16 @@ DPM manager to view Process Mining data.
 
  Process Mining analyst to enable the system property.
 
- See [Process Mining components for Digital Portfolio Management](../reference/dpm-po-integration.md).
+ See [Process Mining components for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-po-integration.md).
 
 </td></tr></tbody>
 </table>## What to explore next
 
 To learn more about configuring and using DPM, see:
 
--   [Configuring Digital Portfolio Management](dpm-configure-cfw.md)
--   [Getting started with Digital Portfolio Management](dpm-using-cfx.md)
--   [Work with portfolios in Digital Portfolio Management](dpm-explore-portfolios.md)
--   [Work with solution data in Digital Portfolio Management](../reference/dpm-working-with.md)
--   [Digital Portfolio Management reference](../reference/dpm-reference-cfw.md)
+-   [Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
+-   [Getting started with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-using-cfx.md)
+-   [Work with portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-explore-portfolios.md)
+-   [Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-working-with.md)
+-   [Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 

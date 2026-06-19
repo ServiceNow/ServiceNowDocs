@@ -2,6 +2,7 @@
 title: Define and register a badge reader device using the badge reader client
 description: Use the Badge Reader Client to create a badge reader device for registration in your system. Registering your badge reader enables you to make it operational at your Walk-up Experience on-site queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/assisted-config-badge-read-settings.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -24,7 +25,7 @@ Role required: sn\_badge.badge\_admin
 There are two ways to register a badge reader device:
 
 -   Assisted method, through the **Badge Reader Client**. You must create your own custom badge reader client software to integrate with the badge reader.
--   Manually, through the ServiceNow AI Platform®. Refer to [Define and register a badge reader device manually](config-badge-reader-settings.md) for details on this procedure.
+-   Manually, through the ServiceNow AI Platform®. Refer to [Define and register a badge reader device manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/config-badge-reader-settings.md) for details on this procedure.
 
 The **Badge Reader Client** assisted registration method creates an initial Badge Reader record. When a badge is scanned using the badge reader client, this method automatically populates the **Device Identifier** field in the record with the badge reader device serial number.
 
@@ -67,9 +68,9 @@ To register your badge reader device with **Badge Reader Client** assistance, fi
 
     **Note:** The **Status** field is read only and indicates **New** when configuring a new badge reader. The field indicates **Activated** when a badge reader is approved for activation. If a badge reader is deactivated, the field indicates **Deactivated**.
 
-12. Specify a **Badge Event Handler** using the search list ![search list icon](../../../common/image/List_SearchIcon.png) icon.
+12. Specify a **Badge Event Handler** using the search list \[Omitted image "List\_SearchIcon.png"\] Alt text: search list icon icon.
 
-    **Note:** If no badge event handlers are available to select, create a new Badge Event Handler record. For details about this process, refer to [Create or modify Badge Reader Integration event handlers](create-or-modify-badge-event-handlers.md).
+    **Note:** If no badge event handlers are available to select, create a new Badge Event Handler record. For details about this process, refer to [Create or modify Badge Reader Integration event handlers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/create-or-modify-badge-event-handlers.md).
 
 13. Verify that the **Device Identifier** and **Secret Key** fields are populated.
 
@@ -80,5 +81,5 @@ To register your badge reader device with **Badge Reader Client** assistance, fi
 15. Select **Submit** to register the badge reader.
 
 
-**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](../concept/walkup-badge-read-integ-config.md)
+**Parent Topic:**[Walk-up Experience Badge Reader Integration setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-badge-read-integ-config.md)
 

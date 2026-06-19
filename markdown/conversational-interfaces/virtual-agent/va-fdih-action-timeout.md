@@ -2,6 +2,7 @@
 title: Specify the action workflow timeout
 description: Set the length of time before the Workflow Studio Integration Hub action workflow times out.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-fdih-action-timeout.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -39,5 +40,5 @@ Role required: admin
     2.  Select **Submit**.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](../concept/va-flow-designer-integration.md)
+**Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-flow-designer-integration.md)
 

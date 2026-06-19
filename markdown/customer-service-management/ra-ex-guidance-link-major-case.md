@@ -2,7 +2,10 @@
 title: Create a guidance for linking the similar major case to the current case
 description: Create a guidance for linking the similar major case to the current case by configuring guidance inputs, preview experience, and guidance action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-ex-guidance-link-major-case.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

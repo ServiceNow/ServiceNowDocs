@@ -2,7 +2,10 @@
 title: Configure paths for different failure code conditions
 description: Configure a path for each failure code condition to provide appropriate guidance to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-path-for-200-failure-code.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,13 +24,13 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 When the failure code received by the customer is 200, the path that leads to the Reassign case guidance is taken.
 
-![Path for 200 error code conditions](../image/ex-200-failure-code-path.png)
+\[Omitted image "ex-200-failure-code-path.png"\] Alt text: Path for 200 error code conditions
 
-For more information about how to configure a path, see [Determine the next node displayed in a decision tree](configure-path-in-gdb.md).
+For more information about how to configure a path, see [Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-path-in-gdb.md).
 
 ## Procedure
 
-1.  In Decision Tree Builder, select the Add path icon \(![Add path icon](../image/icon-add-path.png)\) on the Ask for failure codes question node.
+1.  In Decision Tree Builder, select the Add path icon \(\[Omitted image "icon-add-path.png"\] Alt text: Add path icon\) on the Ask for failure codes question node.
 
     A new path and a new node are added to the canvas.
 

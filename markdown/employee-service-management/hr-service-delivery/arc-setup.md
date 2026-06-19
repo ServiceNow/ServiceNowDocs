@@ -2,6 +2,7 @@
 title: Setting up the Anonymous Report Center
 description: Activate and set up the Anonymous Report Center \(ARC\) to provide your employees a way to report misconduct complaints anonymously to the agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/arc-setup.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Anonymous Report Center \(ARC\), Employee Relations, Case and Knowl
 
 Activate and set up the Anonymous Report Center \(ARC\) to provide your employees a way to report misconduct complaints anonymously to the agent.
 
-1.  Install and activate the Anonymous Report Center \(com.sn\_anonymous\_report\_center\) plugin: [Activate the Anonymous Report Center](../task/arc-activate.md).
+1.  Install and activate the Anonymous Report Center \(com.sn\_anonymous\_report\_center\) plugin: [Activate the Anonymous Report Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/arc-activate.md).
 2.  Navigate to **Anonymous Report Center** &gt; **Properties** to configure the following system properties:
 
 <table id="table_uq1_xbr_z3c"><thead><tr><th>
@@ -44,7 +45,7 @@ please configure on Google and set these properties: google.captcha.secret, goog
 
 -   google.captcha.secret
 -   google.captcha.site\_key
-You must also set up an enterprise Google captcha account. For more information, see [Configure Google reCAPTCHA for the password reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_ConfigureGoogleRecaptcha.md).
+You must also set up an enterprise Google captcha account. For more information, see Configure Google reCAPTCHA for the password reset process.
 
 </td></tr><tr><td>
 
@@ -55,5 +56,5 @@ Allow anonymous user access to the anonymously created cases using secret key
 Controls whether the system generates a secret key upon report submission, enabling reporters to return to their case to track progress, view updates, and respond to follow-up questions. If disabled, reporters will not be able to access their submitted case after initial submission.
 
 </td></tr></tbody>
-</table>3.  Give employees access to the Anonymous Report Center by adding the catalog items to the Employee Center: [Add ARC catalog items to the Employee Center](../task/add-arc-menu.md)
+</table>3.  Give employees access to the Anonymous Report Center by adding the catalog items to the Employee Center: [Add ARC catalog items to the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/add-arc-menu.md)
 

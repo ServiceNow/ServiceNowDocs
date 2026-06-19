@@ -2,6 +2,7 @@
 title: Create and manage agile projects
 description: An overview of the tasks involved in creating an agile project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/c\_CreateAndManageAgileProjects.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -19,13 +20,13 @@ The following tables, arranged by task group, list the tasks involved in creatin
 
 |Task|How do I do this?|
 |----|-----------------|
-|[Define an Agile group](../../sdlc-scrum/task/t_SDLCPPSCreateATeam.md#)|Navigate to **Agile Development** &gt; **Create Agile Group** and click **New**.|
-|[Add group members](../../sdlc-scrum/task/t_SDLCPPSCreateATeam.md#)|Navigate to the **Group members** related list on the Group form and click **Edit**.|
-|[Decide the capacity of a group](../../sdlc-scrum/task/t_SDLCPPSCreateATeam.md#)|Navigate to **Agile Development** &gt; **Groups**, select the desired group, and enter a number in the **Group capacity \(points\)** field.|
+|[Define an Agile group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Navigate to **Agile Development** &gt; **Create Agile Group** and click **New**.|
+|[Add group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Navigate to the **Group members** related list on the Group form and click **Edit**.|
+|[Decide the capacity of a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Navigate to **Agile Development** &gt; **Groups**, select the desired group, and enter a number in the **Group capacity \(points\)** field.|
 
 |Task|How do I do this?|
 |----|-----------------|
-|[Create a sprint](../../sdlc-scrum/task/t_SDLCPPSCreateATeam.md#)|Use the **Create Sprints** related link on the Group form to create multiple sprints or use the **Sprints** related list to create individual sprints.|
+|[Create a sprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_SDLCPPSCreateATeam.md)|Use the **Create Sprints** related link on the Group form to create multiple sprints or use the **Sprints** related list to create individual sprints.|
 |View the created sprints|Use the **Sprints** related list on the Group form.|
 
 <table id="table_wkg_v43_dr"><thead><tr><th>
@@ -78,7 +79,7 @@ Create an agile phase for a project
 
 </td><td>
 
-Click the Add phase icon \(![screenshot for add phase icon](../../project-management/image/ProjectWorkbenchAddPhaseIcon.png)\) and select **Agile** from the Phase Type choice list.**Note:** This option appears only when both the Project Portfolio Management and Agile Development 2.0 applications are installed.
+Click the Add phase icon \(\[Omitted image "ProjectWorkbenchAddPhaseIcon.png"\] Alt text: screenshot for add phase icon\) and select **Agile** from the Phase Type choice list.**Note:** This option appears only when both the Project Portfolio Management and Agile Development 2.0 applications are installed.
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Create a test phase for a project
 
 </td><td>
 
-Click the Add phase icon \(![screenshot for add phase icon](../../project-management/image/ProjectWorkbenchAddPhaseIcon.png)\) and select **Test** from the Phase Type choice list.**Note:** This option appears only when both the Project Portfolio Management and Test Management 2.0 applications are installed.
+Click the Add phase icon \(\[Omitted image "ProjectWorkbenchAddPhaseIcon.png"\] Alt text: screenshot for add phase icon\) and select **Test** from the Phase Type choice list.**Note:** This option appears only when both the Project Portfolio Management and Test Management 2.0 applications are installed.
 
 </td></tr></tbody>
 </table><table><thead><tr><th>
@@ -135,7 +136,7 @@ Refine stories for one project
 
 </td><td>
 
-Click the **Manage Stories** button to open the Manage Stories dialog box.**Note:** You can also use the **Agile Planning &amp; Tracking** related link on the [Project form](../../project-management/task/t_CreateAProject.md) to view your backlog, assign stories to the projects, or create new stories for the project.
+Click the **Manage Stories** button to open the Manage Stories dialog box.**Note:** You can also use the **Agile Planning &amp; Tracking** related link on the [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProject.md) to view your backlog, assign stories to the projects, or create new stories for the project.
 
 </td></tr><tr><td>
 
@@ -156,7 +157,7 @@ Click the Agile phase edit icon and select the group from the **Group** choice l
 </td></tr></tbody>
 </table>|Task|How do I do this?|
 |----|-----------------|
-|Add milestones to a project|Click the Add phase icon \(![Add phase icon](../../project-management/image/ProjectWorkbenchAddPhaseIcon.png)\) and then click **Milestone** at the top of the Add Phase pop-up window.|
+|Add milestones to a project|Click the Add phase icon \(\[Omitted image "ProjectWorkbenchAddPhaseIcon.png"\] Alt text: Add phase icon\) and then click **Milestone** at the top of the Add Phase pop-up window.|
 
 |Task|How do I do this?|
 |----|-----------------|
@@ -214,5 +215,5 @@ Tester performs tests and submits results
 Navigate to **Test Management 2.0** &gt; **Tests Assigned to me**. Select the required tests and click **Run**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](../../sdlc-scrum/concept/c_SDLCIntegrationWithProjectPortfolioSuite.md)
+</table>**Parent Topic:**[Agile Development 2.0 integration with Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_SDLCIntegrationWithProjectPortfolioSuite.md)
 

@@ -2,6 +2,7 @@
 title: Apply table rotation
 description: Preserve instance performance by applying table rotation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/t\_ApplyTableRotation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -91,7 +92,7 @@ A schedule is created and new data is written to one of the tables in the rotati
 
 ## New table rotation group
 
-![New table rotation group.](../image/NewTableRotationGroup.png)
+\[Omitted image "NewTableRotationGroup.png"\] Alt text: New table rotation group.
 
-**Parent Topic:**[Table rotation](../concept/c_TableRotation.md)
+**Parent Topic:**[Table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md)
 

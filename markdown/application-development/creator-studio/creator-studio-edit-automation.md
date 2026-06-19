@@ -2,6 +2,7 @@
 title: Edit a playbook in Creator Studio
 description: Update a playbook to change its settings, or rearrange or remove tasks, to make it work for your app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-edit-automation.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -37,17 +38,17 @@ If you want to add complex, unsupported items to a playbook \(such as optional a
 
 4.  Select the automation that contains the playbook that you want to edit.
 
-    ![Select the automation in the navigation panel](../image/crs-auto-copy-nav.png "Select automation that has the playbook")
+    \[Omitted image "crs-auto-copy-nav.png"\] Alt text: Select the automation in the navigation panel
 
 5.  Address any errors in the playbook's logic by selecting the error message icon.
 
     In the error tray that appears, you can open the properties to fix each error by selecting the **Location** link.
 
-    ![Select the error location to open it](../image/cs-automation-errors.png)
+    \[Omitted image "cs-automation-errors.png"\] Alt text: Select the error location to open it
 
 6.  Edit the playbook's settings.
 
-    1.  Select the more actions icon ![](../image/cs-more-actions-icon.png) and select **Properties**.
+    1.  Select the more actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text: and select **Properties**.
 
     2.  Update any of the settings.
 
@@ -65,20 +66,20 @@ If you want to add complex, unsupported items to a playbook \(such as optional a
 
 8.  Swap a placeholder activity if you want to replace it with another activity type.
 
-    1.  Hover over the placeholder activity and select the replace activity icon ![Replace activity icon](../image/crs-replace-icon.png) to directly open the activity picker.
+    1.  Hover over the placeholder activity and select the replace activity icon \[Omitted image "crs-replace-icon.png"\] Alt text: Replace activity icon to directly open the activity picker.
 
-        ![Select the replace activity icon](../image/crs-swap-placeholder.png "Swap out a placeholder activity")
+        \[Omitted image "crs-swap-placeholder.png"\] Alt text: Select the replace activity icon
 
     2.  Select the new activity from the activity picker.
 
     3.  Update the **Label** and **Description** as needed, or any of the other properties of the activity.
 
-        For more information, see [Add activities to an app's playbook in Creator Studio](creator-studio-add-activities-automation.md).
+        For more information, see [Add activities to an app's playbook in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-add-activities-automation.md).
 
-9.  Delete any unnecessary activities by hovering over the activity and selecting the delete icon ![](../image/cs-delete-icon.png).
+9.  Delete any unnecessary activities by hovering over the activity and selecting the delete icon \[Omitted image "cs-delete-icon.png"\] Alt text:.
 
-10. Make any advanced edits in Workflow Studio by selecting the more actions icon ![](../image/cs-more-actions-icon.png) and selecting **Open in Workflow Studio**.
+10. Make any advanced edits in Workflow Studio by selecting the more actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text: and selecting **Open in Workflow Studio**.
 
 
-**Parent Topic:**[Working with automation in Creator Studio](../concept/creator-studio-working-with-automations.md)
+**Parent Topic:**[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-working-with-automations.md)
 

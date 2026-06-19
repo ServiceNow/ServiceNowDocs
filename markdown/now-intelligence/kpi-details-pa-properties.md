@@ -2,6 +2,7 @@
 title: KPI Details Performance Analytics properties
 description: KPI Details supports several Performance Analytics properties. These system properties control the behavior of Performance Analytics elements in the context of KPI Details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/kpi-details-pa-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -85,7 +86,7 @@ com.snc.pa.default\_chart\_threshold\_color
 
 </td><td>
 
-Color of the [threshold](../../performance-analytics/concept/performance-analytics-glossary.md#) in a chart.
+Color of the [threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) in a chart.
 
 </td></tr><tr><td>
 
@@ -96,5 +97,5 @@ com.snc.pa.default\_chart\_personal\_threshold\_color
 The line color for personal thresholds displayed on a KPI Details page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[KPI Details reference](../concept/kpi-details-reference.md)
+</table>**Parent Topic:**[KPI Details reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details-reference.md)
 

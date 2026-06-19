@@ -2,6 +2,7 @@
 title: Tag messages
 description: To tag a keyword or topic in a message, enter a \# symbol before the word. A link to the hashtag is added beneath the message and all feed users can search and filter by the hashtag to find the message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_TagMessages.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -22,5 +23,5 @@ Follow these tips for using hashtags effectively:
 -   Write a message first, and then add hashtags only if they add value. Answer the question, "What are you working on?", rather than "What hashtags apply to what you're working on?"
 -   Use camel case to create a hashtag that is more than one word long. For camel case, remove the space and use an uppercase letter to start each word. For example, to create a topic about the service desk, use \#ServiceDesk.
 
-**Parent Topic:**[Use hashtags in Live Feed](c_UseHashtagsInLiveFeed.md)
+**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 

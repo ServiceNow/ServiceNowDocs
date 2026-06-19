@@ -2,6 +2,7 @@
 title: HTML Template form
 description: If you have the sn\_oper\_res.admin role, use the HTML Template form to create an HTML template instead of using the default HTML template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/html-template-reference-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

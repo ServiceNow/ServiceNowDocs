@@ -2,6 +2,7 @@
 title: Exploring Regulatory Change Management
 description: The Regulatory Change Management application provides a framework that your organization can use to integrate with third-party regulatory intelligence providers to keep up with the regulatory changes and external regulations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -21,7 +22,7 @@ The Regulatory Change Management application enables you to manage your upcoming
 
 The following infographic shows the process flow of the Regulatory Change Management application.
 
-![Regulatory Change Management process flow.](../image/rcm-process-flow.png "Process flow of the Regulatory Change Management application")
+\[Omitted image "rcm-process-flow.png"\] Alt text: Regulatory Change Management process flow.
 
 The Regulatory Change Management application works with the following types of components:
 
@@ -49,9 +50,13 @@ The Regulatory Change Management application consists of the following workflow:
 
 The following diagram shows the workflow of the Regulatory Change Management application.
 
-![Regulatory Change Management workflow. For a text description, refer to the text that precedes this diagram.](../image/Regulatory_Change_Management_key_components.png "Workflow of the Regulatory Change Management application")
+\[Omitted image "Regulatory\_Change\_Management\_key\_components.png"\] Alt text: Regulatory Change Management workflow. For a text description, refer to the text that precedes this diagram.
 
 ## Key product innovations
+
+The following infographic shows the process for making innovations for the key products of the Regulatory Change Management application.
+
+\[Omitted image "regulatory-change-management-product-key-innovations.png"\] Alt text: Infographic that shows how to make key product innovations. A text description of the process follows.
 
 The steps to complete the Regulatory Change Management process flow to innovate key products are:
 
@@ -71,18 +76,18 @@ A user with the sn\_grc\_reg\_change.manager role \(RCM manager\) monitors, mana
 
 The following infographic depicts a typical day for a regulatory change management.
 
-![A user with the regulatory change manage role passes through various phases on a daily-basis.](../image/day-in-the-life-of-a-regulatory-change-manager.png "Typical day of a regulatory change manager")
+\[Omitted image "day-in-the-life-of-a-regulatory-change-manager.png"\] Alt text: A user with the regulatory change manage role passes through various phases on a daily-basis.
 
--   **[Regulatory Change Management application in the Compliance Workspace](rcm-workspace-overview.md)**  
+-   **[Regulatory Change Management application in the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-workspace-overview.md)**  
 Starting with GRC: Regulatory Change Management, version 13.0.1, the Regulatory Change Management application is available in Compliance Workspace. Compliance Workspace provides your users with a single-pane view so that they can check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes for the organization.
--   **[Differences between regulatory event alert and source document alert](../../grc-rcm-workspace/task/regulatory-event-alert-vs-source-document-alert.md)**  
+-   **[Differences between regulatory event alert and source document alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-event-alert-vs-source-document-alert.md)**  
 A regulatory event alert informs you of a regulatory change, while a source document alert signals the release or update of the related official document.
--   **[Regulatory process flow and tasks](reg-change-workflow-swimlane.md)**  
+-   **[Regulatory process flow and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-workflow-swimlane.md)**  
 The Regulatory Change Management process flow includes the tasks that different users can perform to help your organization manage and comply with regulatory changes.
--   **[Next Experience Discuss and Chat Collaboration](next-experience-discuss-chat-collaboration.md)**  
+-   **[Next Experience Discuss and Chat Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/next-experience-discuss-chat-collaboration.md)**  
 On a regulatory change management case, select **Discuss** from other options. Collaborate with virtual agents by using **Next Experience Chat Collaboration** and Discuss.
--   **[Exploring Now Assist in Regulatory Change Management \(RCM\)](rcm-exploring-now-assist-for-irm.md)**  
+-   **[Exploring Now Assist in Regulatory Change Management \(RCM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-exploring-now-assist-for-irm.md)**  
 With Now Assist in Regulatory Change Management, part of the Now Assist for Integrated Risk Management \(IRM\) application, you can use agentic workflows and generative AI skills that streamline the analysis, summarization, and impact assessment of regulatory alerts. These capabilities empower compliance teams to act swiftly and accurately on regulatory changes.
 
-**Parent Topic:**[Regulatory Change Management](../reference/reg-change-mgmt-landing-page.md)
+**Parent Topic:**[Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.md)
 

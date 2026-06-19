@@ -2,6 +2,7 @@
 title: Find similar alerts
 description: You can find alerts similar to the alert currently being investigated. Save troubleshooting time by reviewing similar alerts to see how they were resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/find-similar-alerts.html
 release: australia
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ You can find alerts similar to the alert currently being investigated. Save trou
 
 ## Before you begin
 
-Ensure that the Predictive Intelligence plugin is activated. To activate this plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+Ensure that the Predictive Intelligence plugin is activated. To activate this plugin, see Activate a plugin.
 
 Ensure that the `evt_mgmt.similarity_use_ml` property is set to `true`.
 
@@ -37,7 +38,7 @@ Save time in resolving the current alert by reviewing how similar alerts were re
 
     Alerts that are similar to the alert that is being investigated are listed.
 
-    ![Alert similarity](../image/alert-similar-list.png)
+    \[Omitted image "alert-similar-list.png"\] Alt text: Alert similarity
 
     By default, up to 10 similar alerts are listed. You can modify this value by setting the `evt_mgmt.similarity_max_similar_alerts_shown` property.
 
@@ -45,10 +46,10 @@ Save time in resolving the current alert by reviewing how similar alerts were re
 
     The Sys ID and confidence level of each similar alert is displayed. The Confidence level is an indication of how the similar alert matches the parameters that you set. As an example, a high confidence percentage value indicates a higher likelihood of similarity of the alerts to the values that you set.
 
-    ![Alert confidence](../image/alert-confidence.png)
+    \[Omitted image "alert-confidence.png"\] Alt text: Alert confidence
 
     You can modify the value of the threshold by setting the `evt_mgmt.similarity_use_threshold` property.
 
 
-**Parent Topic:**[Alert similarity](../concept/alert-similarity.md)
+**Parent Topic:**[Alert similarity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-similarity.md)
 

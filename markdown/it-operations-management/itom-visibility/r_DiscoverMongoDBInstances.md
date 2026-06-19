@@ -2,6 +2,7 @@
 title: MongoDB discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of MongoDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DiscoverMongoDBInstances.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -17,9 +18,9 @@ Discovery creates or updates a CMDB record when it detects a running instance of
 
 ## Credentials
 
-Configure [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md).
+Configure SSH credentials.
 
-For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](../../service-mapping/reference/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -31,5 +32,5 @@ The following data is collected:
 |Mongo configuration|cmdb\_ci\_db\_mongodb\_instance|mongodb\_conf|mongod.conf|
 |TCP port\(s\)|cmdb\_ci\_db\_mongodb\_instance|tcp\_port|Process Classification or mongod.conf|
 
-**Parent Topic:**[Database discovery](../concept/database-discovery.md)
+**Parent Topic:**[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/database-discovery.md)
 

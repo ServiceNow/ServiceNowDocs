@@ -2,6 +2,7 @@
 title: Tag Governance Insights dashboard
 description: View metrics like tag policy coverage, compliance status, and usage trends directly from the Discovery Admin Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/tag-governance-insights-dashboard.html
 release: australia
 product: Discovery
 classification: discovery
@@ -29,5 +30,5 @@ Verify the following setup:
 
 To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** &gt; **Tag Governance Insights**.
 
-For details about the dashboard, see the "Dashboard details" section in [View Tag Governance metrics](../../it-operations-management/concept/tag-governance-dashboard.md).
+For details about the dashboard, see the "Dashboard details" section in [View Tag Governance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/tag-governance-dashboard.md).
 

@@ -2,6 +2,7 @@
 title: Exploring Now Assist for App Engine
 description: Explore the AI capabilities, users, benefits, and workflow for using Now Assist for App Engine to enhance your custom applications with AI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
-breadcrumb: [Now Assist for App Engine, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Exploring Now Assist for App Engine
@@ -20,13 +21,13 @@ Explore the AI capabilities, users, benefits, and workflow for using Now Assist 
 
 Now Assist for App Engine is a powerful application designed to empower developers with the tools needed to supercharge custom applications with AI capabilities. Whether you're enhancing an existing custom application with AI capabilities, or creating a new application that features AI capabilities from the start, Now Assist for App Engine has everything that you need to make developing AI experiences seamless.
 
-With Now Assist for App Engine, you can leverage the generative and agentic AI capabilities of the ServiceNow AI Platform. For more information about the tools available with Now Assist for App Engine, see [Tools included with Now Assist for App Engine](../../now-assist-app-engine/concept/tools-included-with-now-assist-for-app-engine.md).
+With Now Assist for App Engine, you can leverage the generative and agentic AI capabilities of the ServiceNow AI Platform. For more information about the tools available with Now Assist for App Engine, see [Tools included with Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.md).
 
 Using Now Assist for App Engine, you can enhance your custom applications with several AI capabilities: skills, AI agents, and agentic workflows. Starting with version 28.2.4 of Now Assist for App Engine, you can also use the custom app record summarization skill, which enables you to summarize records within custom apps and tables. Use the following resources to learn more about each of these capabilities and which one might be the best fit for your custom application.
 
--   [AI capabilities for enhancing custom applications](../../now-assist-app-engine/concept/ai-capabilities-with-now-assist-for-app-engine.md)
--   [Custom app record summarization skill](../../now-assist-app-engine/concept/custom-app-record-summarization-na-for-app-engine.md)
--   [Choosing the right AI capability](../../now-assist-app-engine/concept/choosing-the-right-ai-capability.md)
+-   [AI capabilities for enhancing custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.md)
+-   [Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md)
+-   [Choosing the right AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.md)
 
 ## Now Assist for App Engine users
 
@@ -70,7 +71,7 @@ The following list outlines the developer workflow for creating and embedding a 
 
 The process for building and embedding an AI agent or an agentic workflow within a custom application is similar. Developers use AI Agent Studio to create, define, and add tools to the AI agent. They can then deploy the AI agent for use in the Now Assist panel or within an agentic workflow.
 
-For more information about creating skills, AI agents, and agentic workflows with Now Assist for App Engine, see [Using Now Assist for App Engine](use-now-assist-for-app-engine-enterprise.md).
+For more information about creating skills, AI agents, and agentic workflows with Now Assist for App Engine, see [Using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
 
 ## Now Assist for App Engine benefits
 
@@ -84,5 +85,5 @@ For more information about creating skills, AI agents, and agentic workflows wit
 
 ## What to explore next
 
-To learn more about Now Assist for App Engine, see [Installing Now Assist for App Engine](../task/install-now-assist-for-app-engine.md) and [Use Now Assist for App Engine](use-now-assist-for-app-engine-enterprise.md).
+To learn more about Now Assist for App Engine, see [Installing Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md) and [Use Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
 

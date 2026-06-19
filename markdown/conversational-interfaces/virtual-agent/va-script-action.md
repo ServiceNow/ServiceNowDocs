@@ -2,6 +2,7 @@
 title: Script Action utility
 description: Use the Script Action utility in a Virtual Agent topic to run a script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-script-action.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -60,7 +61,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Script Action utility
 
-![Basic properties include the node name and the action expression that contains the script.](../images/ScriptActionExample.png "Script Action utility basic properties")
+\[Omitted image "ScriptActionExample.png"\] Alt text: Basic properties include the node name and the action expression that contains the script.
 
 ## Example script action
 
@@ -85,7 +86,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 This example performs a search on the \[sn\_customerservice\_case\] table for a specific case number based on the input from another control called `case_number`. The script then places the results in an array and stores them in the `case_list` variable, which is accessible by other nodes in the same topic. Because `vaVars` only supports string, number, and Boolean values, the script uses `toString()` to store these values as strings. The code is contained in an `if` statement, so it only executes if the `case_number` variable has a value. This `if` statement prevents the code from running if the user has not entered a number.
 
-For more information about writing scripts for Virtual Agent, see [Virtual Agent scripts](../concept/virtual-agent-scripts.md).
+For more information about writing scripts for Virtual Agent, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-scripts.md).
 
-**Parent Topic:**[Assistant Designer utilities](va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
 

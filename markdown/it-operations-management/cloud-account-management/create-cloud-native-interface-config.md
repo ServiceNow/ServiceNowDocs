@@ -2,6 +2,7 @@
 title: Create a cloud native interface account configuration
 description: Configure cloud accounts using the native interface of supported cloud providers like AWS AWS or Azure to enable seamless provisioning and integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/create-cloud-native-interface-config.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -27,12 +28,12 @@ Role required: sn\_itom\_cam.cw\_admin
 
 3.  Enter the details in the **New Configuration** form.
 
-    To fill the form fields, see [Cloud native interface configuration account fields](../reference/cloud-native-interface-details.md).
+    To fill the form fields, see [Cloud native interface configuration account fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cloud-native-interface-details.md).
 
 4.  Select **Submit**.
 
 
 ## What to do next
 
-[Review default Cloud Account Management certification policy](policy-setup.md)
+[Review default Cloud Account Management certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/policy-setup.md)
 

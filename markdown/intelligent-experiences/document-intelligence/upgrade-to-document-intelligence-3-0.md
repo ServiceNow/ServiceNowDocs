@@ -2,6 +2,7 @@
 title: Upgrade to Document Intelligence 3.0 or later from version 2.4 or earlier
 description: Document Intelligence 3.0 or later includes an updated database schema to support its transition from a scoped application to a ServiceNow AI Platform plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/upgrade-to-document-intelligence-3-0.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -15,13 +16,13 @@ breadcrumb: [Configure, Document Intelligence, Enable AI experiences]
 
 Document Intelligence 3.0 or later includes an updated database schema to support its transition from a scoped application to a ServiceNow AI Platform plugin.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Upgrade tasks
 
 Review the information in this topic before you upgrade to Document Intelligence \(DocIntel\) 3.0 or later from version 2.4 or earlier.
 
-For more information on installation, see [Install Document Intelligence](../task/install-document-intelligence.md).
+For more information on installation, see [Install Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/install-document-intelligence.md).
 
 ## Before the upgrade
 
@@ -55,7 +56,7 @@ After upgrading to Document Intelligence 3.0 or later from version 2.4 or earlie
 
  If you have custom code using DocIntel 2.4 or earlier flow actions, it should be updated to use 3.0 or later flow actions.
 
- For the list of tables, see [Components installed with Document Intelligence](installed-with-document-intelligence.md).
+ For the list of tables, see [Components installed with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/installed-with-document-intelligence.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ For any integrations with Document Intelligence, add cross-scope records for the
 
  See the Cross-scope records section for the list of records to be added.
 
- For more detail on cross-scope records, see [Cross-scope privilege record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_CrossScopePrivilegeRecord.md).
+ For more detail on cross-scope records, see .
 
 </td></tr></tbody>
 </table>## During the upgrade

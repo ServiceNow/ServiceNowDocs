@@ -2,6 +2,7 @@
 title: Building spokes using Spoke Generator
 description: Automate integration tasks by creating a sequence of reusable actions to develop custom integrations called spokes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/spoke-builder.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -17,7 +18,7 @@ Automate integration tasks by creating a sequence of reusable actions to develop
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps, for information about submitting requests to the store, and to download and install Spoke Generator \(sn\_spoke\_builder\). For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps, for information about submitting requests to the store, and to download and install Spoke Generator \(sn\_spoke\_builder\). For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## App dependencies
 
@@ -29,7 +30,7 @@ If you’re having trouble installing the app, ensure that the dependent plugin,
 
 An Integration Hub custom spoke provides both inbound and outbound integration with third-party applications. These integrations, referred to as spokes, are easy to configure and enable you to quickly add powerful actions without the need to write a script. This feature requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
-You can build custom spokes for the required third-party application by importing an [OpenAPI Specification](../task/create-spoke-fd.md) or [Postman collection](../task/create-spoke-postman-collection.md), [documentation snippets from third-party API documentation](now-assist-in-spk-gen.md), or [creating a spoke manually](../task/create-spoke-manual.md).
+You can build custom spokes for the required third-party application by importing an [OpenAPI Specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-spoke-fd.md) or [Postman collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-spoke-postman-collection.md), [documentation snippets from third-party API documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/now-assist-in-spk-gen.md), or [creating a spoke manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-spoke-manual.md).
 
 ## Required user roles
 

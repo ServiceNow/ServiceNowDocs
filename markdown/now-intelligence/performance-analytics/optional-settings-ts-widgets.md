@@ -2,6 +2,7 @@
 title: Additional settings for time series widgets
 description: Time series widgets have the following optional settings for display, for the date range, and for the axis labels. You can also use these setting to select an elements filter in place of a first-level breakdown element.The visible points of the trend line are used to calculate the confidence band. If you increase the date range, the bands are recalculated using the trend for the new date range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/optional-settings-ts-widgets.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,17 +18,17 @@ Time series widgets have the following optional settings for display, for the da
 
 **Important:** This topic is not a guide to creating time series widgets. It is a guide to extra, optional settings that are common across time series widget types. FOR INSTRUCTIONS ON CREATING TIME SERIES WIDGETS, PLEASE SEE THE APPROPRIATE "CREATE" TOPIC:
 
--   [Create a line visualization for a time series widget](../task/create-line-visualization-ts.md)
--   [Create a column visualization for a time series widget](../task/create-column-visualization-ts.md)
--   [Create an area visualization for a time series widget](../task/create-area-visualization-ts.md)
--   [Create a spline visualization for a time series widget](../task/create-spline-visualization-ts.md)
--   [Create a step visualization for a time series widget](../task/create-step-visualization-ts.md)
--   [Create a stacked column visualization for a time series widget](../task/create-stacked-col-visualization-ts.md)
--   [Create a relative compare visualization for a time series widget](../task/create-relative-compare-ts.md)
+-   [Create a line visualization for a time series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-line-visualization-ts.md)
+-   [Create a column visualization for a time series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-column-visualization-ts.md)
+-   [Create an area visualization for a time series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-area-visualization-ts.md)
+-   [Create a spline visualization for a time series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-spline-visualization-ts.md)
+-   [Create a step visualization for a time series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-step-visualization-ts.md)
+-   [Create a stacked column visualization for a time series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-stacked-col-visualization-ts.md)
+-   [Create a relative compare visualization for a time series widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-relative-compare-ts.md)
 
 The available settings depend on the selected visualization. The following example is for a Area Chart visualization.
 
-![Additional settings for time series widgets.](../image/ts-widget-additional-settings.png)
+\[Omitted image "ts-widget-additional-settings.png"\] Alt text: Additional settings for time series widgets.
 
 ## Date settings
 
@@ -141,7 +142,7 @@ Specify the ending point for a 2nd range of values for the vertical axis of the 
 |Show thresholds|Display thresholds such as an all time high or an all time low. Thresholds appear only if they have been defined for this indicator.|
 |Show data labels|Display the score for each data point, such as each slice of a pie chart.|
 |Show trend|Display the trend line. This field appears only if **Previous period chart** is not selected.|
-|Show confidence bands|Display confidence bands in this chart. For information about how the confidence band is calculated, see [Widget confidence bands](optional-settings-ts-widgets.md#).|
+|Show confidence bands|Display confidence bands in this chart. For information about how the confidence band is calculated, see [Widget confidence bands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optional-settings-ts-widgets.md).|
 |Show forecast|Display forecast data in the chart based on current trend data. Forecasting must be configured on the indicator.|
 |Show forecast range|Display the 95% confidence interval of the forecast. Available only when **Select forecast** is enabled.|
 |Show comments|Display comments added to data points in the chart.|
@@ -150,7 +151,7 @@ Specify the ending point for a 2nd range of values for the vertical axis of the 
 
 |Setting|Description|
 |-------|-----------|
-|Elements filter|Specify an element filter in place of the first-level [breakdown element](../concept/performance-analytics-glossary.md#). Use an elements filter to personalize which elements appear according to the characteristics of the viewer. For example, you can filter elements of the Assignment Group breakdown to show only the groups to which the viewer belongs. For more information, see [Personalized visuals](../concept/personalized-visuals.md#).|
+|Elements filter|Specify an element filter in place of the first-level [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). Use an elements filter to personalize which elements appear according to the characteristics of the viewer. For example, you can filter elements of the Assignment Group breakdown to show only the groups to which the viewer belongs. For more information, see [Personalized visuals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/personalized-visuals.md).|
 
 ## Previous Period settings
 

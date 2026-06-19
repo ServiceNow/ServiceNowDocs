@@ -2,7 +2,10 @@
 title: View or update customer contact information
 description: View or update your contact information from the customer portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_UpdateCustProfileInfo.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

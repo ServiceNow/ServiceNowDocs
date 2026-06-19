@@ -2,6 +2,7 @@
 title: Define an external knowledge source
 description: Before you import content, create and configure the connection between the a Web Distributed Authoring and Versioning \(WebDAV\) - compliant external knowledge source and the ServiceNow knowledge base into which you want to import content. Define import parameters for the external knowledge source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/define-an-external-knowledge-source.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ Before you import content, create and configure the connection between the a Web
 
 ## Before you begin
 
-Define [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md) and [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-information.md) to the external source.
+Define Basic authentication credentials and Getting started with connections to the external source.
 
 **Caution:**
 
@@ -71,5 +72,5 @@ Only basic authentication is supported for the external content integration feat
     4.  Click **Submit**.
 
 
-**Parent Topic:**[Integration with external knowledge sources](../concept/knowledge-external-content-integration.md)
+**Parent Topic:**[Integration with external knowledge sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-external-content-integration.md)
 

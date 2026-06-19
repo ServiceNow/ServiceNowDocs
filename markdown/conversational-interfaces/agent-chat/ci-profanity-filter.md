@@ -2,6 +2,7 @@
 title: Profanity Filter for Agent Chat overview
 description: The Profanity Filter for Agent Chat prevents agents from sending messages to requesters that include profane language \(also known as forbidden keywords\). If an agent is upset and tries to send a message with offensive language, the Profanity Filter prevents the requester from seeing the message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ci-profanity-filter.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -17,7 +18,7 @@ The Profanity Filter for Agent Chat prevents agents from sending messages to req
 
 If an agent tries to send a message with profane language, the Profanity Filter blocks the message and flags the forbidden keywords. The Profanity Filter warns the agent that the message contains forbidden keywords and alerts the chat manager to the agent's use of profane language.
 
-![Agent Chat conversation with a highlighted message containing a forbidden keyword.](../image/agent-chat-profanity-filter-agentside.png)
+\[Omitted image "agent-chat-profanity-filter-agentside.png"\] Alt text: Agent Chat conversation with a highlighted message containing a forbidden keyword.
 
 When the Profanity Filter detects forbidden keywords in a message entered by the agent:
 

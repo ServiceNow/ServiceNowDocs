@@ -2,6 +2,7 @@
 title: Set up the Continuous Integration and Continuous Delivery \(CICD\) spoke
 description: Use basic authentication to authenticate CICD REST API calls on a ServiceNow instance.Create Credential records to the ServiceNow instance. The Continuous Integration and Continuous Delivery \(CICD\) spoke connection and credential alias uses these credentials to authorize actions.Create Connection records to your ServiceNow instance. The Continuous Integration and Continuous Delivery \(CICD\) spoke connection and credential alias uses these connections to perform actions on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-cicd.html
 release: australia
 product: Integration Hub
 classification: integration-hub

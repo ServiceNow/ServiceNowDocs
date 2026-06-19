@@ -2,6 +2,7 @@
 title: Acknowledge enterprise assets in the recall order
 description: Review and confirm the enterprise assets included in the recall order to proceed with the recall process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/acknowledge-recalled-assets-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -46,7 +47,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 ## What to do next
 
-Select **Begin recall process** to proceed with the recall process for the specified enterprise assets. For details, see [Completing a recall order for your enterprise assets](../concept/completing-recall-order-enterprise-assets.md).
+Select **Begin recall process** to proceed with the recall process for the specified enterprise assets. For details, see [Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md).
 
-**Parent Topic:**[Managing recalled enterprise assets](../concept/managing-recalled-enterprise-assets.md)
+**Parent Topic:**[Managing recalled enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-recalled-enterprise-assets.md)
 

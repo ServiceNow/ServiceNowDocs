@@ -2,6 +2,7 @@
 title: Delete a namespace in Hermes
 description: Prevent topics from being added to a namespace by deleting the namespace in Hermes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/delete-namespace-hermes.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -36,5 +37,5 @@ You can't delete a namespace if any active topics belong to it. You must delete 
 
 The namespace record is deleted from the Kafka Namespace \[sys\_kafka\_namespace\] table.
 
-**Parent Topic:**[Managing namespaces in Hermes](../concept/managing-namespaces-hermes.md)
+**Parent Topic:**[Managing namespaces in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-hermes.md)
 

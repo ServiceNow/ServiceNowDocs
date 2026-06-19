@@ -2,7 +2,10 @@
 title: Working with the CTI using the OpenFrame window
 description: Use the OpenFrame window to make a call, answer a call, transfer a call, or set status.Use the OpenFrame window to answer an incoming call.Use the OpenFrame window to make an outgoing call.After accepting an incoming call, a customer service agent can transfer a call to another agent.Customer service agents can set their current call status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-the-cti.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -44,7 +47,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 1.  Select one of the following options.
 
-<table id="choicetable_jqk_nzc_bx"><tbody><tr><td id="d161294e169">
+<table id="choicetable_jqk_nzc_bx"><tbody><tr><td id="d159912e169">
 
 **Click the phone icon in the banner frame.**
 
@@ -52,7 +55,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 Enter the phone number in the **Number** field and click **Call**.
 
-</td></tr><tr><td id="d161294e184">
+</td></tr><tr><td id="d159912e184">
 
 **Click the phone icon next to the __Contact__ or __Consumer__ fields on the Case form.**
 
@@ -99,7 +102,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 2.  Select your availability.
 
-<table id="choicetable_dsw_qcw_ht"><tbody><tr><td id="d161294e363">
+<table id="choicetable_dsw_qcw_ht"><tbody><tr><td id="d159912e363">
 
 **Available**
 
@@ -107,7 +110,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 The agent is available to take a call.
 
-</td></tr><tr><td id="d161294e372">
+</td></tr><tr><td id="d159912e372">
 
 **Not Available**
 
@@ -115,7 +118,7 @@ The agent is available to take a call.
 
 The agent is not available to take a call.
 
-</td></tr><tr><td id="d161294e381">
+</td></tr><tr><td id="d159912e381">
 
 **Busy**
 
@@ -123,7 +126,7 @@ The agent is not available to take a call.
 
 The agent is currently on a call with a customer.
 
-</td></tr><tr><td id="d161294e390">
+</td></tr><tr><td id="d159912e390">
 
 **Wrap Up**
 

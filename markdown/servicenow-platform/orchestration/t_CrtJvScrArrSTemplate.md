@@ -2,6 +2,7 @@
 title: Create a JavaScript array in a SOAP template
 description: These are instructions for creating JavaScript arrays using SOAP execution parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/t\_CrtJvScrArrSTemplate.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -46,5 +47,5 @@ To add more name-value pairs to the parameter's array, append the values to the 
     **Note:** If the value for the **additional\_attribute** field is **None**, then the system escapes the value specified by the **value** attribute. In the first example, `parameterValue` is escaped.
 
 
-**Parent Topic:**[Create a SOAP web service activity](t_CreateASOAPWebServiceActivity.md)
+**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
 

@@ -2,6 +2,7 @@
 title: Configure a checklist for Patient Support Services
 description: Configure a checklist for a Patient Support Services program as an informal list of questions or tasks used as a reminder for the completion of an enrollment request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-config-checklist.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +33,7 @@ With the Patient Support Services application, the following checklists are avai
 -   Eligibility Checklist: A sample checklist for determining the eligibility of a patient for a Patient Support Services program.
 -   Nurse educator checklist: A sample checklist for conducting a training task. By default, this checklist is assigned to the Nurse Training Support group.
 
-Alternatively, you can create a checklist using the Checklist formatter. For more information, see [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreateAChecklist.md).
+Alternatively, you can create a checklist using the Checklist formatter. For more information, see Create a checklist.
 
 ## Procedure
 
@@ -94,5 +95,5 @@ JSON representation of the checklist.
 
 ## What to do next
 
-Associate the checklist with a Patient Support Services program. For more information, see [Configuring a program for Patient Support Services](../concept/pss-program-services-setup.md).
+Associate the checklist with a Patient Support Services program. For more information, see [Configuring a program for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-program-services-setup.md).
 

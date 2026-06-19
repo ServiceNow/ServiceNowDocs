@@ -2,6 +2,7 @@
 title: Enable Now Assist genius results
 description: Enable the Now Assist in AI Search setup to use Now Assist genius results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-qa-activate.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

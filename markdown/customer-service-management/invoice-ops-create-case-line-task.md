@@ -2,7 +2,10 @@
 title: Create a task for an invoice case line
 description: Create a case line task for an invoice case line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/invoice-ops-create-case-line-task.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

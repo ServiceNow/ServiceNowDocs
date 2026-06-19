@@ -2,6 +2,7 @@
 title: Configure a custom name for Cloud Account Management
 description: Configure a custom name for Cloud Account Management. You can optionally re-brand the Cloud Account Management with your company or any custom name. The name change is applicable only on the Cloud Account Management home page and navigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configure-custom-name.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -25,7 +26,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 2.  From the list of titles, search for the Cloud Account Management and double-click on the name to make the modification.
 
-3.  Enter a custom name and select the check ![check icon](../../agent-client-collector/image/check-icon.png)mark.
+3.  Enter a custom name and select the check \[Omitted image "check-icon.png"\]mark.
 
 4.  Re-login to see the change.
 

@@ -1,40 +1,41 @@
 ---
 title: Source control integration in ServiceNow Studio
-description: Enable application developers to integrate with a Git source control repository. Save and manage multiple versions of a global or scoped application from a non-production instance.
+description: Link your application to a Git source control repository in ServiceNow Studio to save, manage, and share multiple versions of a global or scoped application from a non-production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/source-control-integration.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-07"
 reading_time_minutes: 3
 breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Source control integration in ServiceNow Studio
 
-Enable application developers to integrate with a Git source control repository. Save and manage multiple versions of a global or scoped application from a non-production instance.
+Link your application to a Git source control repository in ServiceNow Studio to save, manage, and share multiple versions of a global or scoped application from a non-production instance.
 
 Linking an application to source control enables all application developers on a non-production instance to:
 
 -   Import applications from a Git repository.
 -   Pull and apply remote changes from a Git repository.
 -   Commit all local changes on the instance to a Git repository.
--   Create tags to permanently link to a given version of an application.
--   Create branches to maintain multiple versions of an application simultaneously.
+-   Create tags to permanently link to a specific version of an application.
+-   Create branches to maintain multiple versions of an application at the same time.
 
-## Integration requirements
+## What are the integration requirements?
 
 To link an application to source control:
 
 -   The user must have the admin role.
 -   The non-production instance must have network access to the Git repository.
--   Each application must be within its own Git repository.
+-   Each application must be in its own Git repository.
 -   The repository user credentials must grant read and write access.
 
 **Note:** All application developers on the instance share a single set of credentials per repository.
 
-## Options available from ServiceNow Studio
+## What can you do with source control in ServiceNow Studio?
 
 After linking an application to source control, application developers can use ServiceNow Studio to manage the repository. From ServiceNow Studio, developers can:
 
@@ -45,16 +46,16 @@ After linking an application to source control, application developers can use S
 -   Switch branches.
 -   Import an application from a remote repository.
 
-Source control integration does not support managing applications on a production instance. Instead, you can manage applications on a production instance using the application repository, an update set, or ServiceNow Studio. For more information about managing applications on a production instance, see [Application sharing](../../applications/concept/c_SharingApplications.md).
+Source control integration does not support managing applications on a production instance. To manage applications on a production instance, use the application repository, an update set, or ServiceNow Studio. For more information, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_SharingApplications.md).
 
-## Options available from a Git repository
+## What can you do with source control from a Git repository?
 
 The ServiceNow AI Platform offers limited support for modifying linked application files outside of an instance. From Git, developers can:
 
 -   Move application files to a different Git directory structure.
 -   Edit application files outside of ServiceNow Studio.
 
-The system generates a properties text file called `sn_source_control.properties` at the root level of the repository. To move application files to a different Git directory structure, application developers can set the **path** parameter to specify the subfolder path containing their application files. For example, if you moved your application to the `src/app` subfolder, set the **path** to `path=src/app`.
+The system generates a properties text file called `sn_source_control.properties` at the root level of the repository. To move application files to a different Git directory structure, set the **path** parameter to specify the subfolder path containing the application files. For example, to move your application to the `src/app` subfolder, set the **path** to `path=src/app`.
 
 The system generates a `checksum.txt` file in the Git repository to determine if any application files have been changed outside of ServiceNow Studio. When the checksum value from the file matches the current checksum value, the integration skips the validation and sanitization process. When the checksum values do not match, the integration validates and sanitizes the application files as part of the source control operation. The sanitization process:
 
@@ -65,18 +66,18 @@ The system generates a `checksum.txt` file in the Git repository to determine if
 
 The Git integration sanitizes only content within the application path listed in the `sn_source_control.properties` file. Repository content outside the application path is ignored.
 
-## MID Server support
+## How do I connect through a MID Server?
 
 Use an existing MID Server to connect to a source control repository. Connecting an application through a MID Server enables access to repositories behind a firewall.
 
 ## Source control role permissions
 
-For more information on roles and collaborators, see [Application collaboration](../../applications/concept/application-collaboration.md).
+For more information about roles and collaborators, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/application-collaboration.md).
 
--   **[Link an app to source control in ServiceNow Studio](../task/link-app-to-source-control.md)**  
-Linking an application or application-customization to source control allows application developers to manage changes in ServiceNow Studio from a Git repository.
--   **[Edit a Git repository configuration in ServiceNow Studio](../task/sns-sc-edit-git-repo-configuration.md)**  
-You can edit a Git repository's integration with ServiceNow Studio to change the network protocol selection, credentials, or other field entries.
+-   **[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/link-app-to-source-control.md)**  
+Link an application or application customization to a Git repository in ServiceNow Studio so application developers can manage changes directly from the platform.
+-   **[Edit a Git repository configuration in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sns-sc-edit-git-repo-configuration.md)**  
+Edit a Git repository configuration in ServiceNow Studio to update the network protocol, credentials, or other connection details.
 
-**Parent Topic:**[Configuring ServiceNow Studio](configuring-servicenow-studio.md)
+**Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 

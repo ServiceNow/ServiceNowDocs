@@ -2,6 +2,7 @@
 title: Create an assignment pool of agents
 description: Create an eligible assignment pool in Advanced Work Assignment that receives overflow work items, just in case you need more help from other agents to handle change requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/assignment-pool-example.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

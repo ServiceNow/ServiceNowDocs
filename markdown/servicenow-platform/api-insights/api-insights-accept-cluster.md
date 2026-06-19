@@ -2,6 +2,7 @@
 title: Accept clustering recommendation in API Insights
 description: Associate API components with an API record by accepting clustering recommendation in the API Insights workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-accept-cluster.html
 release: australia
 product: API Insights
 classification: api-insights

@@ -2,6 +2,7 @@
 title: Example: WS-Security SOAP envelope header
 description: An example of a valid WS-Security SOAP envelope header.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_SmplWSSecSOAPEnvHeader.html
 release: australia
 product: Web Services
 classification: web-services
@@ -117,5 +118,5 @@ An example of a valid WS-Security SOAP envelope header.
 </SOAP-ENV:Header>
 ```
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
 

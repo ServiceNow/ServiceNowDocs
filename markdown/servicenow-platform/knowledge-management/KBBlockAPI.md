@@ -2,6 +2,7 @@
 title: KBBlock - Global
 description: The KBBlock API is included with knowledge blocks \[com.snc.knowledge\_blocks\] as a script include. It provides methods to use with the knowledge blocks feature, such as integration with a custom knowledge article viewer.Instantiates a KBBlock object in a global application.Gets knowledge articles with relevant knowledge block content that a user has access to read.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/KBBlockAPI.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -15,7 +16,7 @@ breadcrumb: [Integrating a custom search or knowledge article viewer with knowle
 
 The `KBBlock` API is included with knowledge blocks \[com.snc.knowledge\_blocks\] as a script include. It provides methods to use with the knowledge blocks feature, such as integration with a custom knowledge article viewer.
 
-**Parent Topic:**[Integrating a custom search or knowledge article viewer with knowledge blocks](integrating-with-custom-search-or-knowledge-article-viewer.md)
+**Parent Topic:**[Integrating a custom search or knowledge article viewer with knowledge blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/integrating-with-custom-search-or-knowledge-article-viewer.md)
 
 ## KBBlock - KBBlock\(\)
 

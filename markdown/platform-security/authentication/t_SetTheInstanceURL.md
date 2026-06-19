@@ -2,6 +2,7 @@
 title: Set the instance URL for SAML
 description: Set the instance-specific URLs so that the IdP can authenticate users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_SetTheInstanceURL.html
 release: australia
 product: Authentication
 classification: authentication

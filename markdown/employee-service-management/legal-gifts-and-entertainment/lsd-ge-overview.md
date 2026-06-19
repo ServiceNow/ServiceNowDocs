@@ -2,6 +2,7 @@
 title: Explore Gifts and Entertainment Compliance
 description: The Gifts and Entertainment Compliance application enables you to manage disclosures and its approval arising from employees giving or receiving gifts or entertainment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-ge-overview.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -52,8 +53,8 @@ Disclosure requests are auto-approved when the value of disclosure is within the
 
 To learn more about configuring and using Gifts and Entertainment Compliance, see:
 
--   [Configure Gifts and Entertainment Compliance](lsd-ge-administration.md)
--   [Requesting legal clearance for gifts and entertainment](lsd-ge-submitting-request.md)
--   [Managing gifts and entertainment disclosure requests](lsd-manage-ge-request.md)
--   [Gifts and Entertainment Compliance reference](../reference/lsd-ge-reference.md)
+-   [Configure Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.md)
+-   [Requesting legal clearance for gifts and entertainment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-submitting-request.md)
+-   [Managing gifts and entertainment disclosure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-manage-ge-request.md)
+-   [Gifts and Entertainment Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-reference.md)
 

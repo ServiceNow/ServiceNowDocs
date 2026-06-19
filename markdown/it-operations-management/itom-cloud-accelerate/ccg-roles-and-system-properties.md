@@ -2,6 +2,7 @@
 title: Cloud Configuration Governance roles and system properties
 description: Cloud Configuration Governance users require the appropriate roles and system properties to perform various activities. These roles and system properties are installed with the activation of the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-roles-and-system-properties.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -116,10 +117,10 @@ When you enable this property, Cloud Configuration Governance writes the logs to
  Ensure that the application scope is **Global**, when you set or clear this property.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Configuration Governance reference](../reference/ccg-reference.md)
+</table>**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 
 **Related topics**  
 
 
-[Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md)
+[bundle-platadm.t_AssignARoleToAUser]
 

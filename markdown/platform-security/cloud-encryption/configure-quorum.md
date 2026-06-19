@@ -2,6 +2,7 @@
 title: Configure Quorum Control Policy Settings
 description: Follow these steps to configure Quorum Control Policy Settings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/cloud-encryption/configure-quorum.html
 release: australia
 product: Cloud Encryption
 classification: cloud-encryption
@@ -21,7 +22,7 @@ Roles required: sn\_kmf.admin
 
 ## About this task
 
-**Warning:** You must sign a legal addendum to activate the key withdrawal functionality. The Quorum Control Policy Settings option becomes available when the withdrawal feature is enabled, otherwise the module is not visible on the app menu. After key withdrawal, your instance is no longer available until the encryption key is active again.
+**Warning:** You must sign a legal addendum to activate the key withdrawal functionality. The Quorum Control Policy Settings option is available once the withdrawal feature is enabled, otherwise the module is not visible on the app menu. After key withdrawal, your instance is no longer available until the encryption key is active again.
 
 ## Procedure
 
@@ -29,29 +30,33 @@ Roles required: sn\_kmf.admin
 
 2.  Navigate to **Cloud Encryption Key Management** &gt; **Quorum Control Policy Settings**.
 
-3.  Select the **Quorum control enabled** check box.![Displays the Quorum control enabled selection.](../quorum-control-policy-activate.png)
+3.  Select the **Quorum control enabled** check box.\[Omitted image "quorum-control-policy-activate.png"\] Alt text: Displays the Quorum control enabled selection.
 
-    Additional fields appear that are required to configure quorum control.![Quorum Control Policy Settings configuration.](../image/quorum-config-settings.png)
+    \[Omitted image "quorum-control-policy-activate.png"\] Alt text: Displays the Quorum control enabled selection.
+
+    Additional fields appear that are required to configure quorum control.
+
+    \[Omitted image "quorum-config-settings.png"\] Alt text: Quorum Control Policy Settings configuration.
 
 4.  Fill in the fields to complete the form.
 
-<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d105725e104">
+<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d103717e110">
 
 Field
 
-</th><th align="left" id="d105725e107">
+</th><th align="left" id="d103717e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d105725e113">
+</th></tr></thead><tbody><tr><td id="d103717e119">
 
 **Approvers**
 
 </td><td>
 
-Designate the members of the quorum from the list of users. Select the lock icon ![Lock icon.](../../key-management-framework/image/lock-icon.png) to open the user directory. There is no limit to the number of approvers that can be selected.
+Designate the members of the quorum from the list of users. Select the lock icon \[Omitted image "lock-icon.png"\] Alt text: Lock icon. to open the user directory. There is no limit to the number of approvers that can be selected.
 
-</td></tr><tr><td id="d105725e128">
+</td></tr><tr><td id="d103717e134">
 
 **Minimum number of approvers to achieve quorum**
 
@@ -59,7 +64,7 @@ Designate the members of the quorum from the list of users. Select the lock icon
 
 Designate the minimum number of approvers required to achieve quorum. For example, if there are nine approvers selected, a minimum of five may be configured for quorum. When five approvals are received in the system, quorum is reached and the withdraw operation starts.**Note:** The minimum number of required approvers is two.
 
-</td></tr><tr><td id="d105725e140">
+</td></tr><tr><td id="d103717e146">
 
 **Requests expire after the specified duration \(hours\)**
 
@@ -75,7 +80,7 @@ Set a numeric value in hours that is the maximum time allotment for the minimum 
 
 ## What to do next
 
-The withdrawal actions are available in [Key management operations](key-mgmt-operations-ce.md#).
+The withdrawal actions are available in [Key management operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/key-mgmt-operations-ce.md).
 
-**Parent Topic:**[Quorum Control Policy](../concept/quorum-ctrl-policy.md)
+**Parent Topic:**[Quorum Control Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/quorum-ctrl-policy.md)
 

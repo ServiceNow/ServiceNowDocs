@@ -2,6 +2,7 @@
 title: Generate publisher compliance summaries by using Now Assist for Software Asset Management \(SAM\)
 description: Generate a comprehensive summary for a publisher that covers software deployment, license compliance, configuration health, and optimization. The detailed publisher summary helps you to gain insights into the publisher estate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-software-asset-management-sam/summarize-publisher-compliance-now-assist-sam.html
 release: australia
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -39,19 +40,19 @@ Now Assist for SAM generates the publisher summaries by using reconciliation res
 
     After it's generated, the publisher summary is not automatically saved. If you close the **Publisher details** tab where you generated the summary, or if you reload the page, the publisher summary is not available. To regenerate the summary, select **Summarize**.
 
-    ![Microsoft compliance summary.](../image/now-assist-summarization.png)
+    \[Omitted image "now-assist-summarization.png"\] Alt text: Microsoft compliance summary.
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d217401e157">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d211893e157">
 
 Action
 
-</th><th align="left" id="d217401e160">
+</th><th align="left" id="d211893e160">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d217401e166">
+</th></tr></thead><tbody><tr><td id="d211893e166">
 
 **Copy to clipboard icon**
 
@@ -59,7 +60,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d217401e175">
+</td></tr><tr><td id="d211893e175">
 
 **Refresh icon**
 
@@ -67,15 +68,15 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d217401e184">
+</td></tr><tr><td id="d211893e184">
 
 **Feedback**
 
 </td><td>
 
-If you found that the summary was helpful, select the helpful icon ![Helpful icon](../image/icon-helpful.png). If you found that the summary wasn't helpful, select the not helpful icon ![Not helpful icon](../image/icon-not-helpful.png).This feedback improves the generative AI model and can help to improve future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you found that the summary was helpful, select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text: Helpful icon. If you found that the summary wasn't helpful, select the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.This feedback improves the generative AI model and can help to improve future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using generative AI skills in Now Assist for SAM](../concept/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

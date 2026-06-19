@@ -2,6 +2,7 @@
 title: Computer \[cmdb\_ci\_computer\] class
 description: Attributes, identification rule, and other important schema structures for the CMDB Computer \[cmdb\_ci\_computer\] class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/class-computer.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,9 +16,9 @@ breadcrumb: [CMDB schema model, Explore, Configuration Management Database \(CMD
 
 Attributes, identification rule, and other important schema structures for the CMDB Computer \[cmdb\_ci\_computer\] class.
 
-For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+For descriptions of common CMDB tables in a base system, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
-![Relationships and references between the Hardware, Computer, and Server classes.](../image/schema-hw-computer-server.png "Hardware, Computer, Server Schema")
+\[Omitted image "schema-hw-computer-server.png"\] Alt text: Relationships and references between the Hardware, Computer, and Server classes.
 
 **Note:** cmdb\_sw\_instance noted in the diagram, is a reference to the cmdb\_software\_instance class, and Supported\_Group is a reference to Support\_Group.
 
@@ -125,5 +126,5 @@ The base system contains pre-defined identification rules for the Hardware, Comp
     If both **Serial Number** and **Name** are not available, and only **MAC Address**/**IP Address** are available, use **MAC Address** as the name of the CI. Using the **MAC Address** as the name of the CI ensures that you don't create an empty CI.
 
 
-For more information, see [CMDB Identification and Reconciliation \(IRE\)](c_CMDBIdentifyandReconcile.md).
+For more information, see [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
 

@@ -2,6 +2,7 @@
 title: WSDL Schema with related records
 description: When a WSDL for the target Incident table is requested with an additional parameter of hierarchical=true, the WSDL schema for the Insert function will reflect available related records that may participate in the hierarchical data payload.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_WSDLSchemaWithRelatedRecords.html
 release: australia
 product: Web Services
 classification: web-services
@@ -74,5 +75,5 @@ WSDL Schema Continued:
 </xsd:element>
 ```
 
-**Parent Topic:**[Insert related records using SOAP](../task/t_InsertRelatedRecordsUsingSOAP.md)
+**Parent Topic:**[Insert related records using SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_InsertRelatedRecordsUsingSOAP.md)
 

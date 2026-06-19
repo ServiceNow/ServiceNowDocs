@@ -2,6 +2,7 @@
 title: Tables installed with Notify
 description: Notify adds the following tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_NotifyTables.html
 release: australia
 product: Notify
 classification: notify
@@ -152,7 +153,7 @@ Notify SMS Template\[notify\_sms\_template\]
 Contains the templates which are used while sending a Notify SMS.
 
 </td></tr></tbody>
-</table>![](../image/ModelDiagram.png "Notify call sequence")
+</table>\[Omitted image "ModelDiagram.png"\] Alt text:
 
-**Parent Topic:**[Components installed with Notify](installed-with-notify2.md)
+**Parent Topic:**[Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/installed-with-notify2.md)
 

@@ -2,6 +2,7 @@
 title: Add output variables to scripted steps
 description: Execute the following steps to add additional outputs in Run Server Side Script and Custom Scripted StepConfig test steps.Modify the test scripts of Run Server Side Script test step to create additional outputs of your choice.Copy the Custom Scripted StepConfig test step and customize the copied version by adding additional outputs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/scripting\_atf.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -15,7 +16,7 @@ breadcrumb: [Step configurations, Administration, Automated Test Framework \(ATF
 
 Execute the following steps to add additional outputs in Run Server Side Script and Custom Scripted StepConfig test steps.
 
-**Parent Topic:**[Step configurations](step-configurations-module.md)
+**Parent Topic:**[Step configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/step-configurations-module.md)
 
 ## Adding outputs in Run Server Side Script test step
 
@@ -90,7 +91,7 @@ Max length
 Length of the data type.**Note:** This field doesn't show up for all data types.
 
 </td></tr></tbody>
-</table>    ![Gif showing creating new output variables](../image/run_server_side_script.gif)
+</table>    \[Omitted image "run\_server\_side\_script.gif"\] Alt text: Gif showing creating new output variables
 
     The new output variable gets added to the Output Variable related list.
 
@@ -141,12 +142,12 @@ Role required: admin or atf\_test\_admin
 
     2.  Modify **Step execution script** to add more output variables.
 
-    See [Adding outputs in Run Server Side Script test step](scripting_atf.md#) to add more output variables.
+    See [Adding outputs in Run Server Side Script test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/scripting_atf.md) to add more output variables.
 
     **Note:** You can use these steps to customize the test step only in the copied version.
 
 5.  Reuse the copied version of the test step in any test whenever required.
 
-    ![Gif showing reusing of Custom Scripted StepConfig test step](../image/custom_scripted_test_config-p.gif)
+    \[Omitted image "custom\_scripted\_test\_config-p.gif"\] Alt text: Gif showing reusing of Custom Scripted StepConfig test step
 
 

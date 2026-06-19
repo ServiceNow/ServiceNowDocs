@@ -2,6 +2,7 @@
 title: Analyzing data classifications using the Overview dashboard
 description: The Overview dashboard reports the current state of data classifications within your instance and how your users are distributed by location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-classification/analyze-data-classifications.html
 release: australia
 product: Data Classification
 classification: data-classification
@@ -19,11 +20,11 @@ If you have a data classification administrator or auditor role, you can visuali
 
 ## Tables and columns tab
 
-![Overview dashboard - Tables and Columns tab](../image/data-classification-overview-tables-columns.png)
+\[Omitted image "data-classification-overview-tables-columns.png"\] Alt text: Overview dashboard - Tables and Columns tab
 
 ## Users tab
 
-![Overview dashboard - Users tab](../image/data-classification-overview-users.png)
+\[Omitted image "data-classification-overview-users.png"\] Alt text: Overview dashboard - Users tab
 
 ## Required ServiceNow AI Platform roles
 
@@ -32,7 +33,7 @@ If you have a data classification administrator or auditor role, you can visuali
 
 ## Use cases
 
-For additional examples of how different people in your organization would use this dashboard, see Use Cases in [Data Classification](../concept/data-classification.md).
+For additional examples of how different people in your organization would use this dashboard, see Use Cases in [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md).
 
 |User|Dashboard use|
 |----|-------------|

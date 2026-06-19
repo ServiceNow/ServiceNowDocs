@@ -2,6 +2,7 @@
 title: Dynatrace connector instance value parameters
 description: The following table displays the Dynatrace connector instance value parameters that you can fill in, as needed, when creating a Dynatrace connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/dynatrace-connector-instance-value-parameters.html
 release: australia
 product: Event Management
 classification: event-management
@@ -104,5 +105,5 @@ requestPerMinute
 The limit on number of API calls to Dynatrace per minute. Relevant only when **throttleApiCalls** = **true**.Default: 1000
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
 

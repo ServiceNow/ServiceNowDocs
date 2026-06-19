@@ -2,6 +2,7 @@
 title: Manage to-do templates created by managers
 description: Modify and manage to-do task templates that managers create.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/modify-manager-todo-templates.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  Modify or complete the fields in the form.
 
-    For detailed information on the fields in the form, see [Journey Accelerator Model Task fields](../reference/ja-model-task-fields.md).
+    For detailed information on the fields in the form, see [Journey Accelerator Model Task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-model-task-fields.md).
 
 4.  Click **Submit** or **Update** to save the form.
 

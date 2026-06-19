@@ -2,6 +2,7 @@
 title: Insert an image in a knowledge article
 description: Insert an image in a knowledge article using the HTML editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/insert-image-html-editor.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -27,9 +28,9 @@ Role required: user with contribute access
 
 3.  On the knowledge article form, in the **Article body** field, place the cursor where you want to insert an image.
 
-4.  On the HTML editor toolbar, select the Insert/edit image icon \(![Insert or edit image icon](../../../use/using-forms/image/TinyMCEV4Image.png)\).
+4.  On the HTML editor toolbar, select the Insert/edit image icon \(\[Omitted image "TinyMCEV4Image.png"\] Alt text: Insert or edit image icon\).
 
-5.  On the Insert/Edit Image dialog box, select the Upload icon \(![Upload icon](../../../use/reporting/image/upload-icon.png)\).
+5.  On the Insert/Edit Image dialog box, select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\).
 
 6.  Select an image.
 

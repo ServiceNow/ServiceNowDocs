@@ -2,6 +2,7 @@
 title: Request feedback from skill distribution
 description: You can request feedback from skill distribution using skill view or employee view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/request-feedback-skill-distribution.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback
@@ -27,8 +28,8 @@ Role required: manager
 
 3.  Here you can request feedback in two ways, either by selecting the employee or the skill pill.
 
-    -   From Employee view, click ![View menu icon](../../human-resources/image/viewmenu.png)on the employee and select **View skill feedback** and then select **Request skill feedback**.
-    -   From Skill view, click ![View menu icon](../../human-resources/image/viewmenu.png)the skill pill and select **Request skill feedback**.
+    -   From Employee view, click \[Omitted image "viewmenu.png"\] Alt text: View menu iconon the employee and select **View skill feedback** and then select **Request skill feedback**.
+    -   From Skill view, click \[Omitted image "viewmenu.png"\] Alt text: View menu iconthe skill pill and select **Request skill feedback**.
 
         **Note:** You can use the toggle option to switch between **Employee view** and **Skill view**.
 

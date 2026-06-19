@@ -2,11 +2,12 @@
 title: Define a search source
 description: Configure a basic search source to query data from an instance table, or configure an advanced data fetch script to query data across multiple tables and data sources, or to pull data from anywhere on the web.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/add-table-search-source.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -75,7 +76,7 @@ Search page template
 
 The HTML template that displays the search results. If defining a basic search source, you do not need to change the default template.
 
- For an example of a modified template, see [Tutorial: set up an external knowledge base search source](search-sp-advanced-ext-kb.md).
+ For an example of a modified template, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-sp-advanced-ext-kb.md).
 
 </td></tr></tbody>
 </table>4.  Complete the fields on the **Data Source** tab.
@@ -104,7 +105,7 @@ Data fetch script
 
 Script defining the endpoint and API calls to fetch data. This field is only visible when **Is scripted source** is selected.
 
- For an example of a data fetch script, see [Tutorial: set up an external knowledge base search source](search-sp-advanced-ext-kb.md).
+ For an example of a data fetch script, see [Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-sp-advanced-ext-kb.md).
 
  **Note:** If defining a facet generation script, inject the facets object into the data fetch script and update the script to generate data for each facet item. For an example, see the Knowledge Base and Service Catalog search sources. Search facets may not behave as expected if integrated into an advanced search source that queries data from a non- ServiceNow site.
 
@@ -124,7 +125,7 @@ Table
 
 </td><td>
 
-Select a table from the list that you want to draw your results from. You can select any table in the platform. For example, User \[sys\_user\] or Knowledge \[kb\_knowledge\]. **Note:** Only indexed tables return search results. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/configure-single-table-for-indexing.md).
+Select a table from the list that you want to draw your results from. You can select any table in the platform. For example, User \[sys\_user\] or Knowledge \[kb\_knowledge\]. **Note:** Only indexed tables return search results. Learn more: .
 
 </td></tr><tr><td>
 
@@ -158,7 +159,7 @@ Paginate results
 
 Paginates search results. True by default.
 
- If **Is scripted source** is selected, the value updates to false. To enable pagination for a scripted search source, see [Paginate search source results](paginate-scripted-search-source.md).
+ If **Is scripted source** is selected, the value updates to false. To enable pagination for a scripted search source, see [Paginate search source results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/paginate-scripted-search-source.md).
 
  Define the maximum number of results per query for the search source in the Search Page widget or Faceted Search widget instance options.
 
@@ -168,27 +169,27 @@ Paginates search results. True by default.
     |Field|Description|
     |-----|-----------|
     |Enable typeahead|Allows typeahead functionality. If you do not want to integrate typeahead into your search source, clear the check box.|
-    |Advanced typeahead config|Optionally add an advanced typeahead script to configure the way search results display. For more information, see [Create an advanced typeahead template](advanced-typeahead.md).|
+    |Advanced typeahead config|Optionally add an advanced typeahead script to configure the way search results display. For more information, see [Create an advanced typeahead template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/advanced-typeahead.md).|
     |Typeahead glyph|Adds an icon beside each typeahead result.|
     |Page|Defines a service portal page to display the selected result. For example, if **form** is configured, a selected typeahead result opens in a form.|
 
-    ![Example Typeahead tab settings. Page field is set to form.](../image/basic-typeahead.png)
+    \[Omitted image "basic-typeahead.png"\] Alt text: Example Typeahead tab settings. Page field is set to form.
 
 6.  Click **Submit**.
 
 
 ## What to do next
 
-To enable end users to refine search results, [Add facets to a simple search source](create-search-filter.md).
+To enable end users to refine search results, [Add facets to a simple search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/create-search-filter.md).
 
--   **[Paginate search source results](paginate-scripted-search-source.md)**  
+-   **[Paginate search source results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/paginate-scripted-search-source.md)**  
 Limit the number of results that a search source displays at one time to improve performance. End users can load more results as needed.
--   **[Create an advanced typeahead template](advanced-typeahead.md)**  
+-   **[Create an advanced typeahead template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/advanced-typeahead.md)**  
 Configure the way typeahead results display with an advanced template.
--   **[Tutorial: set up an external knowledge base search source](search-sp-advanced-ext-kb.md)**  
+-   **[Tutorial: set up an external knowledge base search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-sp-advanced-ext-kb.md)**  
 Define an advanced search source to return data from any source on the Internet. To understand the power of search sources, follow this tutorial to set up an external knowledge base search source.
--   **[Example: set up a GitHub search source](search-sp-advanced.md)**  
+-   **[Example: set up a GitHub search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/search-sp-advanced.md)**  
 Set up an advanced search source that queries data from an external website.
 
-**Parent Topic:**[Zing search in Service Portal](../concept/zing-search-service-portal.md)
+**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
 

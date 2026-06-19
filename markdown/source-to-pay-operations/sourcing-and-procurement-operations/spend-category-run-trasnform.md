@@ -2,6 +2,7 @@
 title: Run transform to import spend category data into the Spend Category primary table
 description: Run transform to import the data records from the Spend Category Stage \(sn\_spend\_mgmt\_category\_stage\) staging table into the Spend Category \(sn\_spend\_mgmt\_category\) primary table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/spend-category-run-trasnform.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ Run transform to import the data records from the Spend Category Stage \(sn\_spe
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_spend\_mgmt.category\_manager\_admin
 
 ## About this task
 
@@ -34,7 +35,7 @@ Here’s how the transform map works:
 
 2.  Select **Existing table**.
 
-3.  In the **Import set table** field, select **Spend Category Stage \(sn\_spend\_mgmt\_category\_stage\)**.![Displays the Load Data window in which you can import a set table and select the source for the import.](../image/import_spend_category.png)
+3.  In the **Import set table** field, select **Spend Category Stage \(sn\_spend\_mgmt\_category\_stage\)**.\[Omitted image "import\_spend\_category.png"\] Alt text: Displays the Load Data window in which you can import a set table and select the source for the import.
 
 4.  In the **Source of the import** field, select **File**.
 

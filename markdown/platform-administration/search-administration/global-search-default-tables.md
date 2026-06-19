@@ -2,6 +2,7 @@
 title: Default display fields for global search tables
 description: Multiple tables are enabled for global search in the base system. Each global search table has its own set of fields included in the table's default text\_search list view. The system uses fields from this view to format global search results from these tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/global-search-default-tables.html
 release: australia
 product: Search Administration
 classification: search-administration
@@ -30,5 +31,5 @@ Multiple tables are enabled for global search in the base system. Each global se
 |Requested Item \[sc\_req\_item\]|Number, Item, Stage, State, Requested for, Opened by, Opened|
 |User \[sys\_user\]|Name, Email, Company, Department, Title|
 
-**Parent Topic:**[Text search views control format of global search results for tables](../concept/text-search-view-formats-results.md)
+**Parent Topic:**[Text search views control format of global search results for tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/text-search-view-formats-results.md)
 

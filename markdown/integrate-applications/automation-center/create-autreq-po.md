@@ -2,6 +2,7 @@
 title: Create an automation request from Process Mining Workspace
 description: Create an automation request from the Process Mining Workspace, which is outside of the Automation Center. If you have installed Process Mining and Automation Center, then you can create an automation request from the Process Mining Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-autreq-po.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -17,7 +18,7 @@ Create an automation request from the Process Mining Workspace, which is outside
 
 ## Before you begin
 
-\(Optional\) Create an automation goal. For more information, see [Create an automation goal](create-automation-goal.md).
+\(Optional\) Create an automation goal. For more information, see [Create an automation goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-goal.md).
 
 Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_user, or sn\_ac.automation\_admin
 
@@ -25,12 +26,12 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-    For more information, see the [Process Mining documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/integration-with-ac.md).
+    For more information, see the Process Mining documentation.
 
 
 ## What to do next
 
-Move the automation request to the planned state. For more information, see [Move an automation request to the Planned state](move-automation-request-to-planned.md).
+Move the automation request to the planned state. For more information, see [Move an automation request to the Planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-automation-request-to-planned.md).
 
-**Parent Topic:**[Creating an automation request](create-automation-request.md)
+**Parent Topic:**[Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/create-automation-request.md)
 

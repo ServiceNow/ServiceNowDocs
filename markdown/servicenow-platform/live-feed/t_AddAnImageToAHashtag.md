@@ -2,6 +2,7 @@
 title: Add an image to a hashtag
 description: You can add an image at the domain level of already defined hashtags if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_AddAnImageToAHashtag.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -37,5 +38,5 @@ Role required: admin
 
 
 
-**Parent Topic:**[Use hashtags in Live Feed](../concept/c_UseHashtagsInLiveFeed.md)
+**Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 

@@ -2,6 +2,7 @@
 title: Schedule the export of data visualizations or dashboards
 description: Automate the export and mailing of data visualizations. Help colleagues build presentations, share information with external users, or track data over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/schedule-visn-export-vd.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -45,11 +46,11 @@ You can export multiple dashboards and data visualizations together in one sched
 
     Check the list of supported export formats under **About this task**.
 
-3.  From the More actions menu \(![More actions menu icon](../../../administer/integrationhub/images/more-actions-menu-icon.png)\), select **Schedule**.
+3.  From the More actions menu \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions menu icon\), select **Schedule**.
 
     You cannot be in Edit mode.
 
-    ![Schedule option in More actions menu](../image/paw-vd-schedule.png)
+    \[Omitted image "paw-vd-schedule.png"\] Alt text: Schedule option in More actions menu
 
     All the options appear for exporting the dashboard or data visualization. If you do not want to export this object, select **Change**.
 
@@ -65,11 +66,11 @@ You can export multiple dashboards and data visualizations together in one sched
 
     2.  If you select to export only specific tabs, select which tabs to export and whether to include the top layout contents.
 
-        ![Export configuration for one tab and the top level visualizations.](../image/sched-exp-by-tab.png "Configuring the export of dashboard tabs")
+        \[Omitted image "sched-exp-by-tab.png"\] Alt text: Export configuration for one tab and the top level visualizations.
 
         For example, if you do not turn on **Export all tabs**, you have to select the tabs to export. If you select a tab and turn on **Export all visualizations in the top layout**, you export that tab and any visualizations placed above the tabs.
 
-        ![Tab and top level visualizations that are exported.](../image/sched-exp-top-and-tab.png "The visualizations that are exported")
+        \[Omitted image "sched-exp-top-and-tab.png"\] Alt text: Tab and top level visualizations that are exported.
 
 7.  To add more dashboards or data visualizations to the export, do the following steps:
 
@@ -141,7 +142,7 @@ Condition
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow AI Platform®, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow AI Platform®, see Scripts.**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see Script sandbox property.
 
 </td></tr></tbody>
 </table>10. In the Email details section, specify the recipients and the email subject.
@@ -151,5 +152,5 @@ A conditional script that determines if a scheduled job should run. The last exp
 11. Select **Save** to save the schedule.
 
 
-**Parent Topic:**[Common data visualization tasks](../../reporting/concept/common-dv-tasks.md)
+**Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dv-tasks.md)
 

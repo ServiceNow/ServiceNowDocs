@@ -2,6 +2,7 @@
 title: Add map to Security Incident Response overview
 description: You can add the map to the Security Incident Response overview to view security incident data by geographical location. A map allows you to drill down to security incident information by location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_AddGeoHeatmapToSIROverview.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -36,5 +37,5 @@ Role required: sn\_si.admin
 7.  Close the **Add content** box.
 
 
-**Parent Topic:**[Security incident map](../concept/c_SecurityIncidentGeoHeatmap.md)
+**Parent Topic:**[Security incident map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_SecurityIncidentGeoHeatmap.md)
 

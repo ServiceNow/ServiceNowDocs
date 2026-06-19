@@ -2,6 +2,7 @@
 title: Linking inferred services with CIs
 description: Create inferred services relationships in your ServiceNow instance with other Cloud Observability application services as originally configured in the application by linking an inferred service configuration item \(CI\) in CMDB with an inferred service from the Cloud Observability application.Link a Cloud Observability inferred service with a CI to create relationships between the inferred service and other Cloud Observability services in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -60,11 +61,11 @@ Role required: cmdb\_inst\_admin
 
 3.  For an inferred service, double-click the **Inferred service CI** column cell.
 
-4.  Select the lookup using list icon \(![Lookup using list icon.](../image/Lookup-list-icon.png)\) to search for and select an inferred service CI available within the Configuration item \[cmdb\_ci\] table.
+4.  Select the lookup using list icon \(\[Omitted image "Lookup-list-icon.png"\] Alt text: Lookup using list icon.\) to search for and select an inferred service CI available within the Configuration item \[cmdb\_ci\] table.
 
-5.  Select the save icon \(![Green check mark icon](../../../administer/workflow-administration/image/Check.png)\).
+5.  Select the save icon \(\[Omitted image "Check.png"\] Alt text: Green check mark icon\).
 
-6.  Repeat the steps [3](sgc-cmdb-opentelemetry-services.md#select-ci) to [5](sgc-cmdb-opentelemetry-services.md#save-ci) for each inferred service that you want to link with a CI.
+6.  Repeat the steps [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.md) to [5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-opentelemetry-services.md) for each inferred service that you want to link with a CI.
 
 
 ### Result

@@ -2,6 +2,7 @@
 title: Approve an exception request in Configuration Compliance
 description: Approve exception requests for remediation tasks that can't be remediated immediately. You must assess these requests for risk and then approve them for deferral until they can be remediated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-ex-request-approve.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

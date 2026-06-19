@@ -2,6 +2,7 @@
 title: State synchronization between change requests and remediation tasks
 description: There is a synchronized relationship between the State fields of remediation tasks and the State fields of change requests \(CHGs\) in the Configuration Compliance application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-cr-state-synch.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -39,7 +40,7 @@ For more information and examples of state synchronization, see the following se
 
 The following image illustrates how CHG states automatically move remediation task states in a forward life cycle, that is, from **Open** to **Resolved**.
 
-![How CR states drive CTR states.](../image/cc_trg_cr_synch.png)
+\[Omitted image "cc\_trg\_cr\_synch.png"\] Alt text: How CR states drive CTR states.
 
 You can create new change requests for any remediation task in a state other than **Resolved** or **Closed**. State synchronization automatically moves the TRG bi-directionally through the **Open**, **Under Investigation**, **Awaiting Implementation**, and **Resolved** states. This movement is based on certain values of the state field on the change request. State synchronization between the change request and the remediation task is invoked automatically unless the check box \(**Add CIs to CR**\) is displayed on a form and you choose to clear the check box.
 
@@ -76,5 +77,5 @@ Also, when remediation tasks have more than one CHG, the state of the remediatio
 -   When a CHG moves forward to **Review**, if all other CHGs associated with the remediation task are in **Review** or **Closed** states \(with a successful close code\), ​the remediation task automatically transitions to **Resolved**​. Any other related CHGs that are canceled or closed unsuccessfully are ignored.
 -   When a CHG moves to **Canceled** or ​**Closed** \(close code of **Unsuccessful**\), if all other CHGs associated with the remediation task are in the same state, then the remediation task automatically transitions back to **Under Investigation​**.
 
-For more information about remediation task states and what you can do in each state, see [Configuration Compliance states](../concept/vuln-config-compl-states.md).
+For more information about remediation task states and what you can do in each state, see [Configuration Compliance states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/vuln-config-compl-states.md).
 

@@ -2,6 +2,7 @@
 title: Create a REST credential for Infoblox activities
 description: All Infoblox activities require a REST credential to manage IP addresses from the Infoblox DDI server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_CreateRESTCredRecInfoBloxAct.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -43,5 +44,5 @@ You must create a REST credential record on the ServiceNow instance that each In
 5.  Paste the sys\_id into the **restCredentials** input field of each activity you use.
 
 
-**Parent Topic:**[Infoblox DDI activity pack](../concept/c_InfobloxDDIActivityPack.md)
+**Parent Topic:**[Infoblox DDI activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_InfobloxDDIActivityPack.md)
 

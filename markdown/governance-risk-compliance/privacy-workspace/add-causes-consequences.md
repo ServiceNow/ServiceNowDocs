@@ -2,6 +2,7 @@
 title: Add causes and consequences to a privacy case
 description: Define the root cause for the reported privacy case or event and its consequences on the organization using the Privacy Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/add-causes-consequences.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -27,7 +28,7 @@ You can add multiple causes to a privacy case and define a primary cause. Any pr
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png).
+2.  Select the list icon \[Omitted image "ws-list-icon.png"\].
 
 3.  Select **All Cases**.
 
@@ -37,13 +38,13 @@ You can add multiple causes to a privacy case and define a primary cause. Any pr
 
 6.  On the **Cause and consequence** form, fill in the fields.
 
-    For a description of the field values on the **Cause and consequence** form, see [Cause and consequence form](../reference/cause-and-consequence-form.md).
+    For a description of the field values on the **Cause and consequence** form, see [Cause and consequence form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/cause-and-consequence-form.md).
 
 7.  Select **Save**.
 
 
--   **[Cause and consequence form](../reference/cause-and-consequence-form.md)**  
+-   **[Cause and consequence form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/cause-and-consequence-form.md)**  
 Learn about the fields on the cause and consequence form. Use this form to define cause and consequence in the Privacy Case Management application.
 
-**Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

@@ -2,6 +2,7 @@
 title: Now Assist for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework
 description: View the Virtual Agent topic-feature-service mapping for Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/esm-framework-mapping.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -156,5 +157,5 @@ Worker Management
 Get Worker
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Service Management Integrations Framework reference](../task/ent-service-mgmt-int-framework-reference.md)
+</table>**Parent Topic:**[Enterprise Service Management Integrations Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/ent-service-mgmt-int-framework-reference.md)
 

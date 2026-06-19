@@ -2,6 +2,7 @@
 title: AWS Domain Separation
 description: Domain separation is supported for AWS Security Hub application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/aws-domain-separation.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,7 +26,7 @@ Domain separation is supported for AWS Security Hub application. Domain separati
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## How domain separation works in AWS Security Hub
 
@@ -49,5 +50,5 @@ Follow these steps to achieve domain separation:
 
 The following example shows how to replicate the AWS Security Hub comments and Status update job and run the job as a system user.
 
-![AWS Domain Separation](../image/aws-domain-sep.png)
+\[Omitted image "aws-domain-sep.png"\] Alt text: AWS Domain Separation
 

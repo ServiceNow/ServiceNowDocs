@@ -2,6 +2,7 @@
 title: Add impact to version
 description: Add impact levels to a version to categorize authorization packages by risk level. Impacts filter control objectives based on the impact requirements and work with versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/add-impact-to-version.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -25,11 +26,11 @@ Role required: sn\_irm\_cont\_auth.admin
 
 2.  Select a Workflow Configuration.
 
-3.  To view the impact list, select the expand icon \(![impact expand icon](../image/WF-version-and-impact-icon.png)\) in the **Versions** tab.
+3.  In the **Versions** tab, expand the version to view the impact list.
 
 4.  Select **New** to add a new impact.
 
-    ![Adding impact to version.](../image/WF-version-and-impact4.png)
+    \[Omitted image "WF-version-and-impact4.png"\] Alt text: Adding impact to version.
 
     **Impact New record** page displays.
 
@@ -52,5 +53,5 @@ The workflow impact is available for authorization packages. Baseline controls a
 
 ## What to do next
 
-[Add view rules to workflow](add-view-rules-to-workflow.md)
+[Add view rules to workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/add-view-rules-to-workflow.md)
 

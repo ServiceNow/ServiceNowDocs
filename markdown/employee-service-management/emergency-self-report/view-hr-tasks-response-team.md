@@ -2,6 +2,7 @@
 title: View self-reported user HR tasks
 description: Members of the emergency response team can view all user reports and associated HR tasks on the Emergency Self Report overview dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-self-report/view-hr-tasks-response-team.html
 release: australia
 product: Emergency Self Report
 classification: emergency-self-report
@@ -31,7 +32,7 @@ The Emergency Self Report dashboard enables monitoring by and tasks of the emerg
 
 2.  Review the numbers of reports and updates occurring today, and click any card to see the data.
 
-    ![Emergency Self Report overview dashboard](../image/esr-overview-dashboard.png)
+    \[Omitted image "esr-overview-dashboard.png"\] Alt text: Emergency Self Report overview dashboard
 
 3.  To add someone who does not have self-reporting access, select the user's name in the **Person** field and select a status from the **Health status** list.
 
@@ -44,5 +45,5 @@ The Emergency Self Report dashboard enables monitoring by and tasks of the emerg
     Click any element in a chart, such as a pie wedge or marker, to see the corresponding data.
 
 
-**Parent Topic:**[Emergency Self Report](../concept/emergency-self-report.md)
+**Parent Topic:**[Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report.md)
 

@@ -2,6 +2,7 @@
 title: Configure multicurrency for projects
 description: Select investment currency as an additional currency, which can be different from your functional currency, to manage financial records of your projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/config-investment-currency-pws-fin.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -18,7 +19,7 @@ Select investment currency as an additional currency, which can be different fro
 ## Before you begin
 
 -   You can define investment currency for projects which do not have any financials records, such as cost plans, expense lines, benefit plans, and actual benefits. To define a investment currency for existing work, you should delete all the financial records and configure the investment currency.
--   [Enable monetary benefit plans for projects](enable-benefitplans-pws-fin.md)
+-   [Enable monetary benefit plans for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/enable-benefitplans-pws-fin.md)
 -   Role required: admin
 
 ## Procedure
@@ -36,5 +37,5 @@ Select investment currency as an additional currency, which can be different fro
 5.  Select **Confirm** to save the investment currency selection.
 
 
-**Parent Topic:**[Managing financials for your projects](../concept/using-financials-prj-wrkspc.md)
+**Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/using-financials-prj-wrkspc.md)
 

@@ -2,6 +2,7 @@
 title: Document Intelligence workspace with Now Assist
 description: Use the Document Intelligence workspace to review the generative AI predictions made by Now Assist for a document or image file. You can also identify missing information in the file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/document-intelligence-workspace-with-now-assist.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -36,7 +37,7 @@ The following illustration shows the Document Intelligence workspace. The worksp
 -   4 - Extraction reviewpanel
 -   5 - Table panel
 
-![Document Intelligence workspace screenshot.](../image/docintel-na-workspace.png "Document Intelligence workspace")
+\[Omitted image "docintel-na-workspace.png"\] Alt text: Document Intelligence workspace screenshot.
 
 ## Thumbnail panel
 
@@ -48,13 +49,13 @@ The document image panel displays the page selected in the thumbnail panel.
 
 If Now Assist can detect the source of its prediction in the document, it will highlight it in the document image panel when you select a field to review.
 
-![Document panel showing a highlighted recommendation.](../image/docintel-bounding-box.png)
+\[Omitted image "docintel-bounding-box.png"\] Alt text: Document panel showing a highlighted recommendation.
 
 ## Document controls
 
 When you are reviewing a document for extraction, you can use various controls to maximize the viewing area, zoom, or focus on the areas that you need.
 
-You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](use-draw-mode-to-extract-fields.md#).
+You can also extract information directly from the document image using the draw tool. For more details, see [Extract fields using the draw tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/use-draw-mode-to-extract-fields.md).
 
 ## Extraction reviewpanel
 

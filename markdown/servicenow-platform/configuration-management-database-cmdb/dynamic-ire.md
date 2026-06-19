@@ -2,6 +2,7 @@
 title: Dynamic IRE
 description: Dynamic Identification and Reconciliation Engine \(IRE\) processes CI identification for maximum accuracy and efficiency and eliminates the need to manually create or maintain rules. Actually, you can't alter any of the algorithms or operations of Dynamic IRE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -49,36 +50,45 @@ Typically, you should start with the simulation mode on a non-production instanc
 
 There might be reasons for configuring child classes descending from the Hardware class, to be excluded from Dynamic IRE. For example, you might want to exclude a custom class with custom attributes, for which there are IRE rules that are based on those custom attributes. In this situation, it might not be beneficial to apply Dynamic IRE for that class and its descendants. So if Dynamic IRE is enabled, Static IRE is still being used for those excluded classes.
 
-For more information, see [Exclude classes from Dynamic IRE](../task/dynamic-ire-exclude-class.md).
+For more information, see [Exclude classes from Dynamic IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/dynamic-ire-exclude-class.md).
 
 ## Simulate and commit to Dynamic IRE
 
 To start using Dynamic IRE exclusively, a general guideline is to test it first by simulation on a non-production instance:
 
-1.  Ensure that you meet the user role requirement: sn\_cmdb\_user.
+1.  Use a user role that meets the role requirement: sn\_cmdb\_user.
 2.  On a non-production instance, navigate to the CI Class Manager.
 3.  In CI Class Manager, select **Hierarchy** and then select the Hardware class.
 4.  In the Hardware navigation panel, select **Identification Rule**.
 5.  In the Dynamic IRE section, select **Simulate Dynamic IRE**.
-6.  Carefully review the Simulate Dynamic IRE tile:
-    -   If you're ready to start a simulation to test Dynamic IRE on a non-production instance, select **Simulate Dynamic IRE**. The simulation runs IRE processes on the Hardware and any descending classes, and then shows a comparison in terms of effectiveness and performance, between Dynamic and Static IRE. Carefully examine this comparison, which can help you determine whether to commit to using Dynamic IRE.
+
+6.  Carefully review the Simulate Dynamic IRE dialog box:
+    -   If you're ready to start a simulation to test Dynamic IRE on a non-production instance, select **Simulate Dynamic IRE** without selecting 'I have simulated and assessed Dynamic IRE on a sub-production instance, and am now prepared to implement Dynamic IRE on a production instance.'. The simulation runs IRE processes on the Hardware and any descending classes, and then shows a comparison in terms of effectiveness and performance, between Dynamic and Static IRE. Carefully examine this comparison, which can help you determine whether to commit to using Dynamic IRE.
     -   If you have already completed a simulation, reviewed the results, and are ready to fully use Dynamic IRE with the Hardware class, on a production instance select the agreement and then select **Commit to Dynamic IRE**.
 
-Alternatively, you can use the **glide.identification\_engine.dynamic\_ire\_enabled** system property to enable or disable Dynamic IRE, and by so, switching between Dynamic and Static IRE. For more information about this property, see [Properties for Identification and Reconciliation](../reference/properties-id-reconciliation.md).
+Alternatively, you can use the **glide.identification\_engine.dynamic\_ire\_enabled** system property to enable or disable Dynamic IRE, and by so, switching between Dynamic and Static IRE. For more information about this property, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
+
+## Switch back to Static IRE
+
+When the system is using Dynamic IRE, you can switch back to Static IRE:
+
+1.  In CI Class Manager, select **Hierarchy** and then select the Hardware class.
+2.  In the Hardware navigation panel, select **Identification Rule**.
+3.  In the Dynamic IRE section, select **Simulate Dynamic IRE**.
 
 ## Comparison of the results of Dynamic IRE and Static IRE
 
-In simulation mode, you can see a comparison of the activities and outcome between Dynamic IRE and Static IRE, at a high level and at a record level. Examine the details in this comparison carefully, to help you evaluate the effectiveness of Dynamic IRE in your environment before committing to using it.
+In simulation mode, you can see a comparison of the activities and outcome between Dynamic IRE and Static IRE, at a high level and at a record level. Examine the details in this comparison carefully to help you evaluate the effectiveness of Dynamic IRE in your environment before committing to using it.
 
 This comparison calculates a parity score, which is the percentage of identical results between Dynamic IRE and Static IRE.
 
 **Note:** For a mature Static IRE implementation \(with manually-created rules\), the parity score is expected to be high. This indicates that Dynamic IRE is capable of producing similar results to Static IRE without requiring any manually-created rules or validations for accuracy.
 
-![Charts of comparison between Dynamic and Static IRE.](../../now-assist-cmdb/image/na-cmdb-ire-compare-skill.png)
+\[Omitted image "na-cmdb-ire-compare-skill.png"\] Alt text: Charts of comparison between Dynamic and Static IRE.
 
 Bar charts show the difference in CI operations of inserting CIs, updating CIs, and CIs found to be incomplete, between the two methods. Select a bar to show the list of comparison records from the CMDB IRE Output Comparison Items \[cmdb\_ire\_output\_comparison\_item\] table, for the selected bar chart. Those records contain the details about CIs that were processed differently between Dynamic IRE and Static IRE. Select a record to open it and to review the comparison details \(in JSON format\).
 
 On a record form, you can select **Summarize** to show an organized and more user friendly presentation of the comparison results, generated by the Now Assist for CMDB IRE comparison record summarization skill.
 
-**Parent Topic:**[Exploring CMDB Identification and Reconciliation \(IRE\)](exploring-ire.md)
+**Parent Topic:**[Exploring CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/exploring-ire.md)
 

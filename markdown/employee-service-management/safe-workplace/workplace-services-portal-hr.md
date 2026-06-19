@@ -2,6 +2,7 @@
 title: Workplace Service Portal
 description: The Workplace Service Portal is a self-service portal for employees, delivering workplace services from a central location. Employees can make reservations, view knowledge base articles, submit and review requests, and get help using virtual agent chat support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/workplace-services-portal-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace

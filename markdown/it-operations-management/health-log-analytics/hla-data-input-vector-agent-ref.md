@@ -2,6 +2,7 @@
 title: Vector Agent data input configuration fields
 description: Description of the fields on the Vector Agent data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-vector-agent-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -72,5 +73,5 @@ Status
 Status of the data input.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](../concept/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

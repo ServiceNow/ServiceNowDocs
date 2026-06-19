@@ -2,6 +2,7 @@
 title: Using Live Feed
 description: Live Feed provides many methods you can use to share content with others in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_UseLiveFeed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -17,7 +18,7 @@ Live Feed provides many methods you can use to share content with others in your
 
 **Important:**
 
-Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
+Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See Next Experience UI for more information.
 
 While Live Feed has been discontinued, we are always exploring new ways to enhance our services. Stay tuned for future updates and improvements.
 

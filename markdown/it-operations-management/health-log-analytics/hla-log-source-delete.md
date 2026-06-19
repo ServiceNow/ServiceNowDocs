@@ -2,6 +2,7 @@
 title: Delete a log source in Health Log Analytics
 description: Delete a log source with or without its associated log data in Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-log-source-delete.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -22,7 +23,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-When you delete a log source, Health Log Analytics automatically deletes its related log data. You can also delete a source while keeping the log data. The associated data will then be deleted according to the log retention policy. For more information, see [Storage space for log retention in Health Log Analytics](../concept/hla-log-retention-space.md).
+When you delete a log source, Health Log Analytics automatically deletes its related log data. You can also delete a source while keeping the log data. The associated data will then be deleted according to the log retention policy. For more information, see [Storage space for log retention in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-retention-space.md).
 
 ## Procedure
 
@@ -35,5 +36,5 @@ When you delete a log source, Health Log Analytics automatically deletes its rel
     -   Delete the source and its related data by selecting **Delete**.
     -   Delete the source without its related data by selecting the **Delete without logs** related link.
 
-**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](../concept/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 

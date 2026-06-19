@@ -2,6 +2,7 @@
 title: Product Name Change
 description: Starting with the Paris release, the ServiceNow Cloud Management application was called ServiceNow Cloud Provisioning and Governance. The application is transformed into Cloud Services Catalog application providing improved and efficient management of the usage and life cycle of cloud resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/product-name-change.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

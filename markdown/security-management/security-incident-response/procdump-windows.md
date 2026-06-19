@@ -2,6 +2,7 @@
 title: Invoke a process dump for an enriched process in Windows
 description: A security analyst can run a process dump on a specific process, dump it into a file, and post it to a shared site on an internal network. An analyst can then view a deny listed process, highlighted in red in a security incident, and perform additional analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/procdump-windows.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

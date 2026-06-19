@@ -2,6 +2,7 @@
 title: Query records
 description: Retrieves multiple records from a specified table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/query-record.html
 release: australia
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -58,5 +59,5 @@ The CLI returns any records that match the query.
 }
 ```
 
-**Parent Topic:**[Perform record operations using ServiceNow CLI](manage-records.md)
+**Parent Topic:**[Perform record operations using ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/manage-records.md)
 

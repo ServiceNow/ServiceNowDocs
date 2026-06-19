@@ -2,6 +2,7 @@
 title: Resource Allocation form
 description: Use the Resource Allocation form to resource allocations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rsrc-allocation-form.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -86,7 +87,7 @@ Planned cost of the resource.
  `Planned Cost = Planned hours * hourly rate`The hourly rate is derived from one of the following sources:
 
 -   **Resource rate** from the resource plan, if the **Rate override** option is selected.
--   [Rate model](../../project-portfolio-suite-with-financials/concept/rate-model.md), if it is populated on the project or demand to which the resource plan is associated.
+-   [Rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md), if it is populated on the project or demand to which the resource plan is associated.
 -   Labor rate card, if rate model is not available.
 -   System property **com.snc.time\_card.default\_rate** if all the other conditions fail.
 
@@ -132,5 +133,5 @@ Confirmed/Allocated cost in project currency
 Confirmed/Allocated cost of a project task in project currency when the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated and Project Currency view is enabled.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

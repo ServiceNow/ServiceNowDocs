@@ -2,6 +2,7 @@
 title: Now Mobile notification of unread chat and Virtual Agent messages
 description: When Now Mobile app users navigate away from the app after starting an active conversation, they can automatically receive Virtual Agent mobile push notifications informing them of new, unread chat messages and  Virtual Agent notifications that have arrived.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-mobile-unread-messages.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,15 +23,15 @@ Now Mobile users might need to leave an active conversation for various reasons.
 
 To receive Virtual Agent mobile push notifications, your users must enable push notifications for the Now Mobile app on their iOS or Android devices.
 
-In base system instances, the Virtual Agent Message Push notification is automatically enabled for all Now Mobile users. Users can modify their [notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-notifications-preferences.md) by navigating to **All** &gt; **Self-Service** &gt; **My Notification Preferences**.
+In base system instances, the Virtual Agent Message Push notification is automatically enabled for all Now Mobile users. Users can modify their notification preferences by navigating to **All** &gt; **Self-Service** &gt; **My Notification Preferences**.
 
-![In Notifications settings, users can toggle the Push option to turn on or turn off mobile push notifications.](../images/va-mobile-push-notif-pref.png)
+\[Omitted image "va-mobile-push-notif-pref.png"\] Alt text: In Notifications settings, users can toggle the Push option to turn on or turn off mobile push notifications.
 
 ## How Virtual Agent mobile push notifications work
 
 Virtual Agent push notifications display information about incoming, unread chat messages from agents and any Virtual Agent messages. The push notifications are listed in the notification center \(lock screen\) of mobile devices. Users tap a push notification in the list to open the Now Mobile app and continue the corresponding conversation.
 
-![1. Virtual Agent push notification displays in the mobile banner. 2. The user taps the notification on the screen. 3. The chat opens in the mobile app.](../images/mobile-chat-notif.png "Example Virtual Agent push notifications in the Now Mobile app")
+\[Omitted image "mobile-chat-notif.png"\] Alt text: 1. Virtual Agent push notification displays in the mobile banner. 2. The user taps the notification on the screen. 3. The chat opens in the mobile app.
 
 **Note:** Virtual Agent push notifications are not displayed under the **notifications** tab in the Now Mobile app. These push notifications also do not generate associated badge numbers on the Now Mobile app icon. However, badge numbers are displayed on the Virtual Agent quick launch icon within the app.
 
@@ -52,5 +53,5 @@ The content of Virtual Agent push notification messages sent to Now Mobile users
 
 **Note:** System action messages that are displayed to users during live chat or virtual agent conversations are not included in Virtual Agent push notifications or in the count of unread messages. The exception is the system message for the live agent timeout: `The conversation is timing out, are you still there?` This message is sent as a push notification since it is time-sensitive and informs users that the conversation might be closed if they do not respond.
 
-**Parent Topic:**[Configure Virtual Agent for a ServiceNow mobile application](../task/configure-va-mobile-web-client.md)
+**Parent Topic:**[Configure Virtual Agent for a ServiceNow mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-mobile-web-client.md)
 

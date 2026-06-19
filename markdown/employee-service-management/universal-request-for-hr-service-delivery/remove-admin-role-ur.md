@@ -2,6 +2,7 @@
 title: Remove UR administrator role from system administrator
 description: After system configuration, remove the Universal Request \(UR\) administrator \[sn\_uni\_req.ur\_admin\] role from IT System Administrator role \(admin\) to help prevent IT System Administrators from viewing sensitive information via forms, lists and UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/remove-admin-role-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -48,5 +49,5 @@ Also, ensure that the same users have the System Administrator \[admin\] role to
 7.  Log out.
 
 
-**Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)
+**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 

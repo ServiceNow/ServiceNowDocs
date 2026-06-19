@@ -2,7 +2,10 @@
 title: Assign the CBS admin role
 description: Assign the CBS Admin role to grant users full administrative access to configure Core Business Suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/cbs-admin-role.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -34,5 +37,5 @@ Role required: admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure Core Business Suite Foundation](../concept/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
 

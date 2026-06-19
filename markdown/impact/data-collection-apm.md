@@ -2,11 +2,14 @@
 title: Impact Value Management Data Collection for APM
 description: Install and configure the Data Collection Content Pack for APM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/data-collection-apm.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Impact Value Management Data Collection for APM
@@ -15,10 +18,10 @@ Install and configure the Data Collection Content Pack for APM.
 
 Perform the steps in the following order:
 
-1.  [Install the Data Collection Pack for APM](../task/dc-apm-install.md)
-2.  [Configure Data Collection for APM](../task/dc-apm-config.md)
-3.  [Activate Data Collection for APM](../task/dc-apm-activate.md)
-4.  [Review APM artifacts](../reference/dc-apm-installation-artifacts.md)
+1.  [Install the Data Collection Pack for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-install.md)
+2.  [Configure Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-config.md)
+3.  [Activate Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-activate.md)
+4.  [Review APM artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-apm-installation-artifacts.md)
 
-You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](dc-all-modify.md) and [Upgrading the Data Collection Content Pack](dc-all-upgrade.md).
+You can also modify the configuration at any point, and maintain customizations when you are ready to upgrade. For more information, see [Modifying the Data Collection configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-modify.md) and [Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/dc-all-upgrade.md).
 

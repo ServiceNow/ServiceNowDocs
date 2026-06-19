@@ -2,6 +2,7 @@
 title: Sample ATF tests for Service Catalog in Service Portal
 description: Validate the continued functionality of Service Catalog after any configuration change such as an upgrade or after developing an application. All test suites and tests should pass on a default implementation. To validate a custom implementation, copy the automated tests and configure them for your customizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/sample-tests-service-catalog-portal.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -15,7 +16,7 @@ breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabili
 
 Validate the continued functionality of Service Catalog after any configuration change such as an upgrade or after developing an application. All test suites and tests should pass on a default implementation. To validate a custom implementation, copy the automated tests and configure them for your customizations.
 
-Service Catalog sample tests require activating the Service Catalog - ATF Tests plugin \(com.glideapp.servicecatalog.atf.test\) along with the demo data. To run these tests using a suite, follow the procedure described in [Run an automated test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-run-suite.md) by selecting the **Service Catalog - ATF Tests** test suite. These sample tests are dependent on the demo data items.
+Service Catalog sample tests require activating the Service Catalog - ATF Tests plugin \(com.glideapp.servicecatalog.atf.test\) along with the demo data. To run these tests using a suite, follow the procedure described in Run an automated test suite by selecting the **Service Catalog - ATF Tests** test suite. These sample tests are dependent on the demo data items.
 
 |Test|Description|
 |----|-----------|
@@ -37,5 +38,5 @@ Service Catalog sample tests require activating the Service Catalog - ATF Tests 
 |Validate Requested For variable flow for Order Guide|Validate the Requested For variable flows for an order guide|
 |Validate Requested For variable flow with Catalog Item access|Validate the Requested For variable flows based on the catalog item access|
 
-**Parent Topic:**[Service Catalog Reference](../concept/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
 

@@ -2,6 +2,7 @@
 title: Create or edit Configuration Compliance remediation task rules
 description: You can create rules to automatically group test results based on filter conditions. These rules automatically group test results as they are imported. Use the filter to limit the test results grouped by this rule, such as selecting all test results with exploits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/create-cc-group-rules.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -33,7 +34,7 @@ Starting with version 14.7 of Configuration Compliance, the **Assignment group, 
 
 2.  Open the **Assignment group, Test** rule or click **New**.
 
-    ![New Remediation Task rule example](../image/TRGRExample.png)
+    \[Omitted image "TRGRExample.png"\] Alt text: New Remediation Task rule example
 
 3.  If **New**, fill in the fields on the form, as appropriate.
 

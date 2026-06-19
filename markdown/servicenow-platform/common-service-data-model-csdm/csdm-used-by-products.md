@@ -2,6 +2,7 @@
 title: Products that use and benefit from CSDM guidelines
 description: Following the CSDM guidelines generates significant benefits in impact analysis, risk analysis, and business continuity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-used-by-products.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -185,5 +186,5 @@ Alignment — Align business processes to reduce risk and assure conformance
 Understand Service Health \(availability, CSAT, Performance, Vulnerabilities, IPC stats\)Governance, Risk, and Compliance \(GRC\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the CSDM model](csdm-content-frame-exploring.md)
+</table>**Parent Topic:**[Exploring the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-exploring.md)
 

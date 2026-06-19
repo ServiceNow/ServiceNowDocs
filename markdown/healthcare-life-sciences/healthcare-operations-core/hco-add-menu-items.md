@@ -2,6 +2,7 @@
 title: Add menu items into the Care Team Portal with Healthcare Operations Core
 description: Add more menu items into the Care Team Portal for easy user access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hco-add-menu-items.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
@@ -33,7 +34,7 @@ Role required: admin
 
 6.  On the form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
+    For more information about the form fields and descriptions, see .
 
 7.  Select **Submit**.
 

@@ -2,6 +2,7 @@
 title: Delete import set tables
 description: Delete import set tables, related transform maps, or data only \(preserving the table structure\) to clean up your database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/delete-import-set-tables.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -38,5 +39,5 @@ Role required: admin
 5.  Click **Cleanup**.
 
 
-**Parent Topic:**[Importing data using import sets](../concept/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

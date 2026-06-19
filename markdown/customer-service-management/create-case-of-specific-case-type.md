@@ -2,7 +2,10 @@
 title: Create a customer service case of a specific type
 description: Customer service agents can create different types of cases by making selections from the case type selector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-of-specific-case-type.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -19,13 +22,13 @@ Role required: sn\_customerservice\_agent
 
 ## About this task
 
-The types of cases that agents can create depend on the configuration of the [customer service case types](../concept/customer-service-case-types.md) and [service definitions](../concept/csm-service-definitions.md) features. For more information, see the following topics:
+The types of cases that agents can create depend on the configuration of the [customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-types.md) and [service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md) features. For more information, see the following topics:
 
--   [Configure customer service case types](configure-csm-case-types.md)
--   [Manage customer service case types](../concept/manage-csm-case-types.md)
--   [Configuring service definitions](../concept/csm-service-definitions-configure.md)
+-   [Configure customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-csm-case-types.md)
+-   [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/manage-csm-case-types.md)
+-   [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions-configure.md)
 
-In CSM Configurable Workspace, agents use the [Case type selector](../concept/csm-case-type-select-modals.md) to make selections and create cases.
+In CSM Configurable Workspace, agents use the [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals.md) to make selections and create cases.
 
 **Note:** In the Core UI, use the Case interceptor to make selections and create a case.
 
@@ -51,7 +54,12 @@ Select **New**
 
 </td><td>
 
-Select this action from case lists and case type lists such as My Cases or My Complaint Cases.
+Select this action from case lists and case type lists including the following:
+
+ -   Related lists: child case, case task
+-   List view
+-   Case task list view
+
 
 </td></tr><tr><td>
 
@@ -65,9 +73,6 @@ Select this action from the following records:-   Interaction
 -   Consumer
 -   Sold Product
 -   Install Base Item
--   Related lists: child case, case task
--   List view
--   Case task list view
 
 
 </td></tr></tbody>
@@ -118,7 +123,7 @@ Product Service Select
 </td></tr></tbody>
 </table>3.  Fill in the fields on the Case form.
 
-    For more information about these fields, see [Create a customer service case](t_CreateACaseFromCustServApp.md).
+    For more information about these fields, see [Create a customer service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateACaseFromCustServApp.md).
 
 4.  Select **Save**.
 

@@ -2,6 +2,7 @@
 title: Limit concurrent sessions across all nodes
 description: Use the glide.authenticate.limit.concurrent.sessions.across.all.nodes property with the Limit Concurrent Sessions plugin to manage the number of sessions tracked across all nodes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-limit-concurrent-sessions-across-all-nodes.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -109,8 +110,8 @@ References
 
 </td><td>
 
-[Limit concurrent sessions](../../../integrate/authentication/concept/limit-concurrent-sessions.md)
+[Limit concurrent sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/limit-concurrent-sessions.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

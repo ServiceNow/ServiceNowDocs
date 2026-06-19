@@ -2,6 +2,7 @@
 title: Configuring the ADM adapter for Service Graph Connectors
 description: You can configure the Application Dependency Mapping \(ADM\) adapter to populate running processes, TCP connections, and applications into CMDB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/sgc-common-config-adm.html
 release: australia
 product: CMDB Integration Commons
 classification: cmdb-integration-commons

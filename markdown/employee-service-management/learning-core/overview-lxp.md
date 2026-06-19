@@ -2,6 +2,7 @@
 title: My Learning
 description: My Learning is a new and modern user portal that enables you to pursue courses that help you grow in all aspects of your career.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/overview-lxp.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -31,5 +32,5 @@ Use the Activity tab to view your entire content activity and history. You can l
 
 ## Achievements
 
-Use the Achievements tab to review the achievement badges that you've earned. You can view detailed achievement information. All achievement rules and criteria are created and managed in the back-end using Learning. For more information, see [Create an achievement definition](create-achievement.md).
+Use the Achievements tab to review the achievement badges that you've earned. You can view detailed achievement information. All achievement rules and criteria are created and managed in the back-end using Learning. For more information, see [Create an achievement definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-achievement.md).
 

@@ -1,13 +1,14 @@
 ---
 title: Report ranges
-description: Use a report range to define intervals that break up continuous timespan data in table fields. It is necessary to break this data into discreet chunks for presentation.Report ranges work with elements that hold only dates, lists, or integers.To view all currently configured report ranges, navigate to All Platform Analytics Administration Color Settings Report ranges .Create a report range to define data intervals that are used in bar and pie charts.To use report ranges in your bar and pie charts, you must enable the report range module.
+description: Use a report range to define intervals that break up continuous timespan data in table fields. It is necessary to break this data into discreet chunks for presentation.Report ranges work with elements that hold only dates, lists, or integers.To view all currently configured report ranges, navigate to All Platform Analytics Administration Color Settings Report ranges .Create a report range to define data intervals that are used in bar and pie charts.To use report ranges in your Core UI bar and pie visualizations, you must enable the report range module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_ReportRanges.html
 release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -24,9 +25,9 @@ Example use case: There is a significant cost involved to a business each time a
 
 **Note:** It is not possible to set report ranges for dates in the future.
 
-![Vertical bar report with configured report ranges highlighted](../image/IncidentsCreatedDateWRanges06032013.png "Incidents created date with ranges")
+\[Omitted image "IncidentsCreatedDateWRanges06032013.png"\] Alt text: Vertical bar report with configured report ranges highlighted
 
-**Parent Topic:**[Administering reports](c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## How report ranges work
 
@@ -44,7 +45,7 @@ Report ranges can be globally applied to all date type fields \(date, due date, 
 
 To view all currently configured report ranges, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Color Settings** &gt; **Report ranges**.
 
-![Report ranges list](../image/ReportRangesK-L.png "Report ranges list")
+\[Omitted image "ReportRangesK-L.png"\] Alt text: Report ranges list
 
 The following are important columns and their associated data types:
 
@@ -113,7 +114,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 3.  Fill in the form \(see table\):
 
-    ![New report ranges form](../image/NewReportRangesFormFuji.png)
+    \[Omitted image "NewReportRangesFormFuji.png"\] Alt text: New report ranges form
 
     Use the following fields to refine the data displayed in the report and to design the appearance of your report visualization:
 
@@ -219,7 +220,11 @@ The order in which the report ranges are used. If a value is defined within more
 
 ## Enable the report range module
 
-To use report ranges in your bar and pie charts, you must enable the report range module.
+To use report ranges in your Core UI bar and pie visualizations, you must enable the report range module.
+
+### About this task
+
+The report range module only applies to Core UI visualizations.
 
 ### Before you begin
 
@@ -229,14 +234,14 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Application Menus**.
 
-2.  Open the **Reports** application menu.
+2.  Open the **Platform Analytics Administration** application menu.
 
-3.  In the **Modules** related list, enable the Report Ranges module.![Application menu form showing the Modules related list and the Report Ranges module highlighted.](../image/rep-range-mod.png)
+3.  In the **Modules** related list, set the **Active** field to `true` to enable the Report Ranges module. \[Omitted image "rep-range-mod.png"\] Alt text: Application menu form showing the Modules related list and the Report Ranges module highlighted.
 
     The Modules related list may have over 100 entries. Filter it on the word range to shorten your search.
 
 
 ### Result
 
-You can define report ranges for your pie and bar charts.
+You can define report ranges for your Core UI pie and bar charts.
 

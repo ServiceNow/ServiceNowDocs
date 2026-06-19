@@ -2,6 +2,7 @@
 title: Agent Client Collector system requirements
 description: System requirements are the fundamental specifications and configuration needed to install and run Agent Client Collector \(ACC\) effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-sys-requirements.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -18,10 +19,10 @@ System requirements are the fundamental specifications and configuration needed 
 Before installing the Agent Client Collector, you must do the following:
 
 -   When working with a MID Server:
-    -   Ensure that one or more MID Servers are properly registered and validated with your instance, to be available for an agent connection request. For details, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md). In a staging environment, you need only one MID Server. However, in a production environment, configure at least two MID Servers to support zero-touch configuration and ensure that a MID Server is always available if one fails.
+    -   Ensure that one or more MID Servers are properly registered and validated with your instance, to be available for an agent connection request. For details, see Configuring MID Servers. In a staging environment, you need only one MID Server. However, in a production environment, configure at least two MID Servers to support zero-touch configuration and ensure that a MID Server is always available if one fails.
     -   Ensure that there's a validated connection from the designated server where you're installing the agent to the MID Server.
     -   Ensure that the MID Server port on which the Agent Client Collector listener runs is accessible.
--   When working with MID-less deployment, follow the instructions described in [Configuring MID-less Agent Client Collector](acc-configuring-without-mid.md).
+-   When working with MID-less deployment, follow the instructions described in [Configuring MID-less Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-configuring-without-mid.md).
 -   Ensure that the following plugins are installed on your instance:
 
 <table id="table_fq2_nnv_hfc"><thead><tr><th>
@@ -92,7 +93,7 @@ DEX
 </td></tr></tbody>
 </table>    You can verify that these plugins are installed on the **System Definitions** &gt; **Plugins** page.
 
-    All plugins that come with the base system are signed with the ServiceNow certificate. Optionally, you can use custom plugins and sign them using your own certificate, as described in [Enable OpenSSL secure signing for plugins](../task/acc-signing-mechanism.md).
+    All plugins that come with the base system are signed with the ServiceNow certificate. Optionally, you can use custom plugins and sign them using your own certificate, as described in [Enable OpenSSL secure signing for plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-signing-mechanism.md).
 
 -   Ensure that your system has the minimum requirements for agent installation.
 
@@ -144,5 +145,5 @@ Agent Client Collector for Visibility - Content
 
 When using ACC-L: The Agent Client Collector comes with the default **servicenow** user. Ensure that this user has read access to enable Agent Client Collector to view all the configured log paths. For example, the Agent Client Collector **servicenow** user that comes installed with the base system does not have permissions to view the paths to `/var/log/` in Linux and `C:\Windows\System32` in Windows. For information about configuring permissions for the **servicenow** user, see the [ACC-L Permission Denied issues \[KB1117271\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117271) article in the Now Support Knowledge Base.
 
-When determining the number of machines and servers needed to support your agents \(such as the number of machines requiring proxy agents\), consider the agents' performance KPIs. For details on agent performance KPIs, see [Agent Client Collector performance and footprint for URL monitoring](../reference/acc-footprint-url-monitoring.md).
+When determining the number of machines and servers needed to support your agents \(such as the number of machines requiring proxy agents\), consider the agents' performance KPIs. For details on agent performance KPIs, see [Agent Client Collector performance and footprint for URL monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-footprint-url-monitoring.md).
 

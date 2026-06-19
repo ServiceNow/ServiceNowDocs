@@ -2,18 +2,21 @@
 title: Discovery Guided Setup
 description: ITOM Discovery Guided Setup provides a sequence of tasks that help you install and get started with Discovery. If you're setting up Discovery for the first time, this is a good way to get your environment up and running quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-guided-setup.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-09"
-reading_time_minutes: 2
+last_updated: "2026-06-19"
+reading_time_minutes: 3
 breadcrumb: [Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Guided Setup
 
 ITOM Discovery Guided Setup provides a sequence of tasks that help you install and get started with Discovery. If you're setting up Discovery for the first time, this is a good way to get your environment up and running quickly.
+
+**Note:** This guided setup has been replaced by the ITOM Configuration Console \(available in Zurich Patch 8 or later versions of the ServiceNow AI Platform\), which offers a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by Now Assist. In ITOM Guided Setup v27.3.1, the Learn phase includes a new task that provides direct access to the ITOM Configuration Console. For more information, see [ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/itom-conf-console.md).
 
 To access the ITOM Discovery Guided Setup, navigate to **All** &gt; **ITOM Guided Setup** &gt; **ITOM Discovery Guided Setup**. You're then prompted to enter a configuration name, which enables your progress to be saved and resumed later. If you're returning to the setup, select **Cancel** followed by **Exit** in the confirmation dialog to view the list of in-progress setup configurations.
 
@@ -44,7 +47,7 @@ The setup is organized into the four distinct phases: Learn, Crawl, Walk, and Ru
 
 The ITOM Discovery Guided Setup provides step-by-step configuration support along with intuitive navigation to track progress and move smoothly through each phase.
 
-![Navigational features available on the landing page](../image/disco-guided-setup-landing-features.png "Guided Setup landing page features")
+\[Omitted image "disco-guided-setup-landing-features.png"\] Alt text: Navigational features available on the landing page
 
 <table id="table_mgh_yxv_5gc"><thead><tr><th>
 
@@ -105,7 +108,7 @@ Jump to specific activities within a phase.
 View and access tasks within another phase.
 
 </td></tr></tbody>
-</table>![Navigational features available in a phase](../image/disco-guided-setup-phase-features.png "Guided Setup in-phase features")
+</table>\[Omitted image "disco-guided-setup-phase-features.png"\] Alt text: Navigational features available in a phase
 
 |Feature|Description|
 |-------|-----------|

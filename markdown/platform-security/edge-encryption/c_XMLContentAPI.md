@@ -2,6 +2,7 @@
 title: XMLContent
 description: A global object that provides methods to iterate over the XML content.Returns an XMLElementIterator object for the XML content.Returns an XMLElementIterator object for the XML content based on the specified parameter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_XMLContentAPI.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -15,11 +16,11 @@ breadcrumb: [XML APIs, Encryption rule objects and APIs, Define a custom encrypt
 
 A global object that provides methods to iterate over the XML content.
 
-You can access an XMLContent object by calling [getAsXmlContent\(\)](c_requestAPI.md#) on a request object.
+You can access an XMLContent object by calling [getAsXmlContent\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_requestAPI.md) on a request object.
 
-You access XML data in a [POST or URL parameter](param-apis.md#) by calling `request.postParams.<parameter name>.getAsXmlContent()` or `request.urlParams.<parameter name>.getAsXmlContent()`.
+You access XML data in a [POST or URL parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/param-apis.md) by calling `request.postParams.<parameter name>.getAsXmlContent()` or `request.urlParams.<parameter name>.getAsXmlContent()`.
 
-**Parent Topic:**[XML APIs](xml-overview.md)
+**Parent Topic:**[XML APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/xml-overview.md)
 
 ## XMLContent - getIterator\(\)
 

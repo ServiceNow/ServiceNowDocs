@@ -2,6 +2,7 @@
 title: Install Service Mapping Plus
 description: You can install the Service Mapping Plus application \(sn\_sm\_scoped\_app\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/install-service-mapping-plus.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -29,9 +30,9 @@ The following items are installed with Service Mapping Plus:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Service Mapping Plus](../reference/components-installed-with-service-mapping-plus.md).
+For more information, see [Components installed with Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping-plus.md).
 
-To view a list of Service Mapping plugin dependencies, see [Plugins or applications installed with ITOM Visibility](../../it-operations-management/reference/plugin-app-itom-visibility.md).
+To view a list of Service Mapping plugin dependencies, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md).
 
 ## Procedure
 

@@ -2,7 +2,10 @@
 title: Task Plan Templates
 description: Use a task plan template to define the repeatable tasks and records that must be created for a business process. When the template is applied, these tasks and records are automatically created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/task-plan-templates.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
@@ -13,15 +16,15 @@ breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Ser
 
 Use a task plan template to define the repeatable tasks and records that must be created for a business process. When the template is applied, these tasks and records are automatically created.
 
-![The template items list includes a hierarchical list of the tasks, child, cases, records, and other items that are part of the template.](../image/task-plan-template-items-list.png "Template items list for a task plan template")
+\[Omitted image "task-plan-template-items-list.png"\] Alt text: The template items list includes a hierarchical list of the tasks, child, cases, records, and other items that are part of the template.
 
-A [task plan template](../task/create-task-plan-template.md) is a group of tasks and records, called template items, that are automatically created when the template is applied. A task plan template also includes conditions that determine when the template is applicable.
+A [task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template.md) is a group of tasks and records, called template items, that are automatically created when the template is applied. A task plan template also includes conditions that determine when the template is applicable.
 
-A [template item](../task/create-task-plan-template-item.md) can be a task, a record, or a child task. When you create a template item, you identify the type of item to be created by selecting the table where that item is to be created. For example, to create a case task, select the Task \[sn\_customerservice\_task\] table. For each template item, you can create [conditions](../task/create-task-plan-template-item-condition.md) that determine when the template item is created.
+A [template item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-item.md) can be a task, a record, or a child task. When you create a template item, you identify the type of item to be created by selecting the table where that item is to be created. For example, to create a case task, select the Task \[sn\_customerservice\_task\] table. For each template item, you can create [conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-item-condition.md) that determine when the template item is created.
 
-A [task plan template configuration](../task/task_plan_template_configurations.md) defines pre-set fields to streamline the process of creating task plan templates.
+A [task plan template configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task_plan_template_configurations.md) defines pre-set fields to streamline the process of creating task plan templates.
 
-You can also create a hierarchy of the tasks and records to be created when the task plan template is applied by creating [child template items](../task/create-task-plan-template-child-item.md) for a template item. For example, you can create a template item that is a case record and then create child template items that are case tasks for that case record.
+You can also create a hierarchy of the tasks and records to be created when the task plan template is applied by creating [child template items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-child-item.md) for a template item. For example, you can create a template item that is a case record and then create child template items that are case tasks for that case record.
 
 ## Defining a process with a task plan template
 
@@ -49,12 +52,12 @@ Users with the system administrator role can activate the Task Plan Templates \(
 
 The Task Plan Templates application adds the Task Plan Templates module to the application navigator and includes tables and roles. For more information, see the following topics:
 
--   [Task Plan Templates tables](task-plan-templates-tables.md)
--   [Task Plan Templates roles](task-plan-templates-roles.md)
+-   [Task Plan Templates tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates-tables.md)
+-   [Task Plan Templates roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-templates-roles.md)
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Creating task plan templates
 
@@ -70,7 +73,7 @@ Explanation
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a task plan template](../task/create-task-plan-template.md).
+[Create a task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template.md).
 
 </td><td>
 
@@ -79,7 +82,7 @@ Create the template and set the conditions as to when the template applies.-   T
 
 </td></tr><tr><td>
 
-[Create one or more template items](../task/create-task-plan-template-item.md).
+[Create one or more template items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-item.md).
 
 </td><td>
 
@@ -88,21 +91,11 @@ Create the template items to include in the task plan template. These items can 
 
 </td></tr><tr><td>
 
-[Create conditions for template items](../task/create-task-plan-template-item-condition.md).
+[Create conditions for template items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-task-plan-template-item-condition.md).
 
 </td><td>
 
 Set conditions as needed for each of the template items that identifies when a template item should be created.
-
-</td></tr><tr><td>
-
-Publish the task plan template.
-
-</td><td>
-
-While in the Draft state, you can make changes to the template, template items, and template item conditions.Publish the task plan template to apply it to cases and case types.
-
-To publish a task plan template, select **Publish** on the Task Plan Template form.
 
 </td></tr></tbody>
 </table>## Editing task plan templates
@@ -119,7 +112,7 @@ Explanation
 
 </th></tr></thead><tbody><tr><td>
 
-[Clone a task plan template](../task/clone-task-plan-template.md).
+[Clone a task plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/clone-task-plan-template.md).
 
 </td><td>
 
@@ -129,7 +122,7 @@ The system clones the task plan template, gives it a unique record number, and o
 
 </td></tr><tr><td>
 
-[Clone a template item](../task/clone-task-plan-template-item.md).
+[Clone a template item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/clone-task-plan-template-item.md).
 
 </td><td>
 
@@ -172,9 +165,9 @@ The Get Started tab in the contextual side panel in CSM Configurable Workspace d
 
 This tab is available for the following tables:
 
--   [Task Plan Template](../reference/task-plan-template-form.md) \[sn\_task\_plan\_template\]
--   [Template Item](../reference/task-plan-template-item-form.md) \[sn\_task\_plan\_template\_item\]
--   [Template Item Condition](../reference/task-plan-template-item-condition-form.md) \[sn\_task\_plan\_template\_item\_condition\]
+-   [Task Plan Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-template-form.md) \[sn\_task\_plan\_template\]
+-   [Template Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-template-item-form.md) \[sn\_task\_plan\_template\_item\]
+-   [Template Item Condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/task-plan-template-item-condition-form.md) \[sn\_task\_plan\_template\_item\_condition\]
 
 <table id="table_dly_ysr_qfc"><thead><tr><th>
 

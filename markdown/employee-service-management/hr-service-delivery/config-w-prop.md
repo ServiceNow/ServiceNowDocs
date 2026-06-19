@@ -2,6 +2,7 @@
 title: Configure properties for Worker profile synchronization
 description: Set the properties that control Worker profile synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-w-prop.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

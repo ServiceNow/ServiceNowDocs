@@ -2,6 +2,7 @@
 title: Roles for performing advanced risk assessment
 description: When you integrate advanced risk assessment with other applications, you must ensure the users have the necessary roles to perform and approve the assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/roles-for-ara.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -155,5 +156,5 @@ Users can view the quantitative risk appetite fields.
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Advanced Risk](components-risk-advanced.md)
+</table>**Parent Topic:**[Components installed with Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/components-risk-advanced.md)
 

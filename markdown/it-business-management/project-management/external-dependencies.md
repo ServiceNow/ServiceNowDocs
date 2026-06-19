@@ -2,6 +2,7 @@
 title: Adding external dependencies for projects
 description: As a project manager, you can use an external dependency to set up a dependency from a task in one project to a task in another project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/external-dependencies.html
 release: australia
 product: Project Management
 classification: project-management
@@ -19,7 +20,7 @@ External dependencies help you to see the impact of changes in project schedules
 
 ## How external dependencies work
 
-To define the external dependency, select a project task from the predecessor project to be linked to the task in the successor project. When an external dependency is [added](../task/create-external-dependency-planning-console.md), the system adds shadow tasks in both the successor and predecessor projects.
+To define the external dependency, select a project task from the predecessor project to be linked to the task in the successor project. When an external dependency is [added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-external-dependency-planning-console.md), the system adds shadow tasks in both the successor and predecessor projects.
 
 A shadow task is a read-only task in the respective project. It has the database attribute **shadow** set to true and **orig\_sys\_id** pointing to the **sys\_id** of its original task. The shadow task is kept in sync with its original task whenever the relations are processed.
 
@@ -49,5 +50,5 @@ Where:
 -   `Project` is the project where the relation is seen.
 -   `External` is the external dependency.
 
-**Parent Topic:**[Using Project Management](using-project-management.md)
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/using-project-management.md)
 

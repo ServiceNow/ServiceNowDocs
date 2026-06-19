@@ -2,6 +2,7 @@
 title: Create Folder Templates
 description: Use Folder Templates to automatically create unique folders for different Major Security Incident types. The folder templates within the File Explorer Component are used to create a base folder structure for the security incident in the Microsoft SharePoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/file-explorer-folder-templates.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -44,15 +45,13 @@ Role required: sn\_msi.workspace\_admin
 
 4.  Define the security incident **Condition** values.
 
-    ![Folder templates](../image/folder-templates-file-explorer.png)
-
 5.  **Update** the record.
 
     The sub folders are created with the defined values.
 
 6.  Click the desired **Sub folder**.
 
-    If you don't create a sub folder with an appropriate name then the sub folders names are created as **Default** in the **Subfolder Configurations** section. ![Subfolders](../image/folder-templates-subfolders.png). The same folder structure will be created automatically in the Microsoft SharePoint using the same access privileges that are configured on the **Folder Templates** page.
+    If you don't create a sub folder with an appropriate name then the sub folders names are created as **Default** in the **Subfolder Configurations** section. . The same folder structure will be created automatically in the Microsoft SharePoint using the same access privileges that are configured on the **Folder Templates** page.
 
     **Note:**
 
@@ -61,8 +60,8 @@ Role required: sn\_msi.workspace\_admin
     -   If the **Root Folder** and **Sub folder** name exceeds the defined limit \(256 characters\) then the folder name is truncated.
     Following is the run time execution of Create Folder Structure subflow:
 
-    ![Flow designer subflows](../image/fe-related-flow-designer-execution.png)
+    \[Omitted image "fe-related-flow-designer-execution.png"\] Alt text: Flow designer subflows
 
 
-**Parent Topic:**[Configure File Explorer Component](../concept/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
 

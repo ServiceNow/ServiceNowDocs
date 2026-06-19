@@ -2,6 +2,7 @@
 title: Access controls for a case
 description: Allow access controls specific to a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-access-controls.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -22,5 +23,5 @@ Allow access controls specific to a case.
 |sn\_sec\_tisc.special\_access\_read\_manager|Read access|External Users added here will get access to view the case form but will not be able to edit any field in the case or perform any action.|
 |sn\_sec\_tisc.special\_access\_write\_manager|Privileged access|External Users added here will get access to edit any field in the case form but will not be allowed to run orchestrations.|
 
-**Parent Topic:**[Enforced Restrictions for case\(s\)](tisc-enforced-restrictions.md)
+**Parent Topic:**[Enforced Restrictions for case\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enforced-restrictions.md)
 

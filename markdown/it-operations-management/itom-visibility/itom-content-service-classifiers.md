@@ -2,6 +2,7 @@
 title: ITOM Content Service reference
 description: Using ITOM Content Service enables you to have the CMDB populated with new data every week. Use the knowledge base articles to learn about the Configuration Item candidates that were released.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/itom-content-service-classifiers.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility

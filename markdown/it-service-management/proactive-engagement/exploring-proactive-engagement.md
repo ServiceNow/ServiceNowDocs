@@ -2,6 +2,7 @@
 title: Exploring Proactive Engagement
 description: It is a solution where the self-resolution remediation process is proactive, seamless, and consistent without the organization having to publish all solution sets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/exploring-proactive-engagement.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -19,7 +20,7 @@ It is a solution where the self-resolution remediation process is proactive, sea
 
 ServiceNow® Proactive Engagement helps an organization in improving employee digital experience, productivity, and satisfaction by proactively enabling employees to self-solve digital issues they experience on a day-to-day basis. The self-remediation process is seamless and consistent without the organization having to publish all solution sets.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Proactive Engagement overview 
 
@@ -35,7 +36,7 @@ ServiceNow Digital End-User Experience empowers IT to take proactive measures an
 
 ServiceNow Proactive Engagement is part of the ServiceNow Digital End-User Experience now. The Proactive Engagement application is installed as part of the Digital End-User Experience bundle. It assists in defining issue detection rules, resolution content, and engagement settings that help employees to self-solve digital experience issues by leveraging proactive identification of issues.
 
-For information on the ServiceNow Digital End-User Experience, see [Digital End-User Experience](../digital-end-user-experience/concept/dex-landing.md).
+For information on the ServiceNow Digital End-User Experience, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-landing.md).
 
 ## DEX Admin/Engagement admin experience
 
@@ -71,8 +72,8 @@ For information on the ServiceNow Digital End-User Experience, see [Digital End-
 
         **Note:** Fallback options are configured by the DEX or Engagement admin.
 
-    The ServiceNow Proactive Engagement provides base resolution content. You can create your own resolution content as well. For more information, on the base resolutions, see [Proactive Engagement solution](concept/proactive-engagement-solution.md).
+    The ServiceNow Proactive Engagement provides base resolution content. You can create your own resolution content as well. For more information, on the base resolutions, see [Proactive Engagement solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-solution.md).
 
 
-**Parent Topic:**[Proactive Engagement](proactive-engagement-landing-page.md)
+**Parent Topic:**[Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-landing-page.md)
 

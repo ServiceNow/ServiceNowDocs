@@ -2,11 +2,12 @@
 title: Configure due dates
 description: Set up a pre-defined rule to automate due date calculations. Rules are designed to run and becomes effective when a new record is reported into the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/auto-calculate-future-dates.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -50,5 +51,5 @@ Apply rule-based conditions on a combination of agency, regulation or jurisdicti
     The pre-defined rule to automate due date calculations is saved. This pre-defined rule gets applied to all the compliance cases created from now on.
 
 
-**Parent Topic:**[Using Compliance Case Management](use-compliance-case-management.md)
+**Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)
 

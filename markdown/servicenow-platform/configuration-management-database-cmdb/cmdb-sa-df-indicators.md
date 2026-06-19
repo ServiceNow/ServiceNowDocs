@@ -2,6 +2,7 @@
 title: Indicators used in the CMDB success advisor for Data Foundations dashboard
 description: Indicators enable viewing of high-level metrics that highlight data quality, completeness, and integration coverage issues across principal classes and configuration items \(CIs\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-indicators.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

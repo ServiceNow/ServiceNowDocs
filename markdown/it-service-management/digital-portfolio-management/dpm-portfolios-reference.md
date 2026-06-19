@@ -2,6 +2,7 @@
 title: Personal and enterprise portfolio reference
 description: Use suggestions and tips for creating and organizing portfolios in DPM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-portfolios-reference.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
 
 Use suggestions and tips for creating and organizing portfolios in DPM.
 
-This DPM Academy series video provides tips for creating and organizing personal and enterprise portfolios.Tips and suggestions for personal and enterprise portfolios in DPM. Approximately 16 minutes long.
+This DPM Academy series video provides tips for creating and organizing personal and enterprise portfolios.
 
-**Parent Topic:**[Digital Portfolio Management reference](dpm-reference-cfw.md)
+**Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 

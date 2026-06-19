@@ -2,6 +2,7 @@
 title: Configure travel time estimates with latitude and longitude
 description: Use the straight-line travel estimate provider in Schedule Optimization that provides built-in time and distance travel estimates based on latitude and longitude.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-travel-time-estimates-with-straight-line.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

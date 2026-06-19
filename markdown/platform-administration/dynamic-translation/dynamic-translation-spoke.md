@@ -2,6 +2,7 @@
 title: Dynamic Translation spoke
 description: The Dynamic Translation spoke provides actions to enable the ability to translate multiple texts from one language into one or more languages and detect the language of multiple texts seamlessly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/dynamic-translation-spoke.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -37,5 +38,5 @@ The following actions are built in the Australia release in Dynamic Translation 
 |Translate Texts|getTranslations\(\)|
 |Is Dynamic Translation Enabled|isDynamicTranslationEnabled\(\)|
 
-For more information about accessing the actions from the Workflow Studio, see [Access Dynamic Translation spoke actions from Workflow Studio](../task/access-dt-spoke-actions.md).
+For more information about accessing the actions from the Workflow Studio, see [Access Dynamic Translation spoke actions from Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/access-dt-spoke-actions.md).
 

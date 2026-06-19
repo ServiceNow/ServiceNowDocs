@@ -2,6 +2,7 @@
 title: Integrate Dynatrace platform events
 description: Integrate Dynatrace with Event Management by adding Dynatrace as an authenticated data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/dynatrace-events-integration.html
 release: australia
 product: Event Management
 classification: event-management
@@ -19,8 +20,8 @@ Integrate Dynatrace with Event Management by adding Dynatrace as an authenticate
 
 There are two methods of authentication:
 
--   OAuth authentication: Provides enterprise-grade authentication to keep your enterprise environment safe. Authentication is performed using Dynatrace access tokens. For more information, see [Integrate Dynatrace with OAuth authentication](../task/dynatrace-oauth-authentication.md).
--   Basic webhook authentication: Provides a basic standard of authentication, without the need for Dynatrace Active Directory. This authentication can be especially useful for distributed small teams, such as SRE or DevOps teams. For more information, see [Integrate Dynatrace with basic authentication](../task/dynatrace-events-webhook.md).
+-   OAuth authentication: Provides enterprise-grade authentication to keep your enterprise environment safe. Authentication is performed using Dynatrace access tokens. For more information, see [Integrate Dynatrace with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/dynatrace-oauth-authentication.md).
+-   Basic webhook authentication: Provides a basic standard of authentication, without the need for Dynatrace Active Directory. This authentication can be especially useful for distributed small teams, such as SRE or DevOps teams. For more information, see [Integrate Dynatrace with basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/dynatrace-events-webhook.md).
 
 **Note:** When a problem is reopened in Dynatrace, the original start time is retained and not updated to the time of reopening. This behavior is intentional and reflects how Dynatrace manages the problem lifecycle. Problems reopened within the defined reopening period \(typically 30 minutes\) are treated as a continuation of the original issue. The start time continues to reflect the timestamp of the earliest triggering event, even after reopening.
 

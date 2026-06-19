@@ -2,6 +2,7 @@
 title: Use the Operational Technology Progress Scorecard filters
 description: Use the business unit \(BU\) and site filters on the Operational Technology \(OT\) Progress Scorecard to filter the data by business unit, site, or date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/use-filters-ot-progress-scorecard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -38,8 +39,8 @@ Role required: admin
 
 5.  View the scorecard metrics for a calendar date.
 
-    1.  In the header, select the calendar \(![Calendar icon](../image/calendar-icon.png)\) icon.
+    1.  In the header, select the calendar \(\[Omitted image "calendar-icon.png"\] Alt text: Calendar icon\) icon.
     2.  Select the month and year that you want to the data for.
 
-**Parent Topic:**[Operational Technology Progress Scorecard filters](../concept/ot-progress-scorecard-filters.md)
+**Parent Topic:**[Operational Technology Progress Scorecard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/ot-progress-scorecard-filters.md)
 

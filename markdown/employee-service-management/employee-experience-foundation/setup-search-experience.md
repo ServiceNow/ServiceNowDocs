@@ -2,6 +2,7 @@
 title: Setup Employee Center search experience features
 description: Enhance the search experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-search-experience.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -25,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[AI Search for Curated Experiences](../task/align-search-for-curated-exp.md)
+[AI Search for Curated Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/align-search-for-curated-exp.md)
 
 </td><td>
 
@@ -33,7 +34,7 @@ Align the AI search to limit the search to the content associated with the taxon
 
 </td></tr><tr><td>
 
-[Personalized Answers on Employee Center](personalized-answers-on-employee-center.md#)
+[Personalized Answers on Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/personalized-answers-on-employee-center.md)
 
 </td><td>
 
@@ -41,7 +42,7 @@ Enable employees to quickly find their leave balance.
 
 </td></tr><tr><td>
 
-[SharePoint Online Search Connector](../../sharepoint-online-search/concept/sharepoint-search-overview.md)
+[SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-search-overview.md)
 
 </td><td>
 

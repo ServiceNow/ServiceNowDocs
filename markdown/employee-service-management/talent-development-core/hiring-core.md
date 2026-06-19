@@ -2,6 +2,7 @@
 title: Hiring Core
 description: Hiring Core provides a repository where you can store information that you’ve created or received from any third party talent acquisition platform for your hiring requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/hiring-core.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -35,5 +36,5 @@ Hiring Core provides a repository where you can store information that you’ve 
 
 **Note:** You can use the record tables according to your requirement.
 
-**Parent Topic:**[Skills Foundation Reference](../concept/skills-intelligence-reference.md)
+**Parent Topic:**[Skills Foundation Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence-reference.md)
 

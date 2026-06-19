@@ -2,6 +2,7 @@
 title: Configure keywords for conversational AI
 description: Configure keywords on the incident and observation record producers to enable conversational Health and Safety reporting in the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-configure-keywords-conversational-ai.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -17,7 +18,7 @@ Configure keywords on the incident and observation record producers to enable co
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Core. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Verify that the application scope is selected as Health and Safety Core. For more information, see Application picker.
 
 Role required: sn\_ohs\_im.admin
 
@@ -33,7 +34,7 @@ The keywords for the incident or observation record for conversation AI are the 
 
     -   **Report Health and Safety Incident-Basic** for incident records.
     -   **Report Health and Safety Observations** for observation records.
-    For more information on how to use record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_RecordProducer.md).
+    For more information on how to use record producers, see .
 
 3.  In the **Meta** field, add keywords.
 
@@ -46,5 +47,5 @@ The keywords for the incident or observation record for conversation AI are the 
 
 The keywords are saved to the record producer. Employees can use these keywords in the Now Assist panel to trigger conversational reporting for Health and Safety incidents or observations.
 
-**Parent Topic:**[Configure conversational AI](../concept/hs-configure-conversational-ai.md)
+**Parent Topic:**[Configure conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-configure-conversational-ai.md)
 

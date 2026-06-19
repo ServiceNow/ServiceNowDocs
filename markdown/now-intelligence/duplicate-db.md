@@ -2,6 +2,7 @@
 title: Duplicate a Platform Analytics dashboard
 description: Duplicate a dashboard created in the in-line editor so that you can share a modified version with different users.Duplicate a dashboard tab created in the in-line editor so that you can add related important content. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/duplicate-db.html
 release: australia
 topic_type: task
 last_updated: "2025-10-27"
@@ -18,7 +19,7 @@ Duplicate a dashboard created in the in-line editor so that you can share a modi
 
 Role required: At least one role, as well as access to the dashboard.
 
-**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see .
 
 ## About this task
 
@@ -32,11 +33,11 @@ When you duplicate a dashboard, you copy all settings and details of the origina
 
 3.  If you are in a different application scope than the dashboard, use the application picker to select the correct scope.
 
-    ![Application scope picker](../../par-for-workspace/image/app-scope-picker.png)
+    \[Omitted image "app-scope-picker.png"\] Alt text: Application scope picker
 
-4.  Open the More actions menu \(![More actions menu icon](../../dashboards/image/icon-vert-3dot-p.png)\) and select **Duplicate**.
+4.  Open the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\) and select **Duplicate**.
 
-    ![Duplicate context action](../../par-for-workspace/image/db-duplicate.png)
+    \[Omitted image "db-duplicate.png"\] Alt text: Duplicate context action
 
 5.  Give the duplicate a unique name and select **Duplicate**.
 
@@ -55,7 +56,7 @@ Duplicate a dashboard tab created in the in-line editor so that you can add rela
 
 Role required: At least one role, as well as edit rights to the dashboard.
 
-**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see .
 
 ### Procedure
 
@@ -65,9 +66,9 @@ Role required: At least one role, as well as edit rights to the dashboard.
 
 3.  If you are in a different application scope than the dashboard, use the application picker to select the correct scope.
 
-    ![Application scope picker](../../par-for-workspace/image/app-scope-picker.png)
+    \[Omitted image "app-scope-picker.png"\] Alt text: Application scope picker
 
-4.  Select the **Edit** button \(![Edit button](../../dashboards/image/edit-button.png)\) to put the dashboard into edit mode.
+4.  Select the **Edit** button \(\[Omitted image "edit-button.png"\] Alt text: Edit button\) to put the dashboard into edit mode.
 
     If you don’t see the **Edit** button, either you don’t have permission to edit the dashboard, or it is in edit lock.
 
@@ -75,9 +76,9 @@ Role required: At least one role, as well as edit rights to the dashboard.
 
     This link is next to the dashboard's title.
 
-6.  Open the More actions menu \(![More actions menu icon](../../dashboards/image/icon-vert-3dot-p.png)\) on the original tab and select **Duplicate**.
+6.  Open the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\) on the original tab and select **Duplicate**.
 
-    The copy of the tab has the default name **New Tab**. Select the pencil icon \(![Edit icon](../../dashboards/image/icon-pencil-ac.png)\) to rename the tab.
+    The copy of the tab has the default name **New Tab**. Select the pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\) to rename the tab.
 
 7.  Give the duplicate a unique name.
 

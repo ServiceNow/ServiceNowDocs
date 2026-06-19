@@ -2,11 +2,12 @@
 title: Validate Register of Information packages
 description: Run real-time validation on Register of Information \(RoI\) packages to help ensure compliance with DORA requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-valid-dora.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-15"
 reading_time_minutes: 1
 keywords: [DORA validation, RoI package, third-party risk, compliance]
 breadcrumb: [Validation framework for RoI, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -20,11 +21,13 @@ Run real-time validation on Register of Information \(RoI\) packages to help ens
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager
 
-Generate a Plain-CSV Reporting Package and an Excel Master Template. For more information, see [Generate a register of information package](tprm-drtp-roi-packages.md).
+Generate a Plain-CSV Reporting Package and an Excel Master Template. For more information, see [Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md).
 
 ## About this task
 
 Validation is performed automatically when a Register of Information \(RoI\) Plain-CSV reporting package is uploaded via an Excel download/upload request. The system initiates real-time validation without requiring a separate request type.
+
+For information on validating LEI codes against the GLEIF database, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 Once validation is complete, the system sends an email notification to whoever initiated the request. If validation warnings are detected, both the validation report and the CSV package are attached to the request record. If no issues are found, only the CSV package is included.
 
@@ -36,7 +39,7 @@ Validation reports are only generated when errors or warnings are present. If no
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then go to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then go to **Digital resilience third-party registers**.
 
 2.  Select **Excel download/upload requests** and open the request record you want.
 

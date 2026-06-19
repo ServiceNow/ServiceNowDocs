@@ -2,6 +2,7 @@
 title: Granular roles for Security Center
 description: Use the new Security Center admin role to grant users security center administrative capability without using the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/granular-sc-roles.html
 release: australia
 product: Security Center
 classification: security-center
@@ -44,5 +45,5 @@ This role contains the following roles:-   mi\_admin
 -   sn\_cicd.sys\_ci\_automation
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Security Center](../../security-center/concept/sec-center-v2.md)
+</table>**Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sec-center-v2.md)
 

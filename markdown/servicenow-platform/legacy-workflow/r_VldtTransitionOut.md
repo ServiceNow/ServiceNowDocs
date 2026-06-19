@@ -2,6 +2,7 @@
 title: ValidateTransitionOut
 description: The ValidateTransitionOut validator finds activity conditions with no exit transitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_VldtTransitionOut.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -32,13 +33,13 @@ The **ValidateTransitionOut** validator finds activity conditions with no exit t
 
 Design choices made when creating a workflow on the canvas might legitimately use an activity without an exit condition. In the first example, the **Notification** and **Timer** activities both execute at the start of the workflow. The **Timer** is the entity that decides when the workflow ends. In this situation, executing the **Notification**, but not transitioning away, keeps the design simple and adds no risk. The validator finds and reports the missing transition from the **Notification** activity as a **Warning** that the designer can ignore.
 
-![](../image/ConditionOutValid.png "Condition with no valid transition")
+\[Omitted image "ConditionOutValid.png"\] Alt text:
 
 In the second example, the **Notification** activity has no exit transition. The designer missed this because of the layout. The transition from the **Timer** activity passes behind the **Notification** activity and appears to connect the exit from the **Notification** activity to the **End**. In workflows with more than 10 or 15 activities, it might be difficult to see all the transitions clearly. This workflow's designer intended for the **Notification** activity to transition to the **End**.
 
-![](../image/ConditionOutInvalid.png "No condition out")
+\[Omitted image "ConditionOutInvalid.png"\] Alt text:
 
 This validator directs the designer to the specific activity and condition that does not have an exit transition. The designer then makes the decision whether or not to respond to the warning.
 
-**Parent Topic:**[Workflow validator](r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
 

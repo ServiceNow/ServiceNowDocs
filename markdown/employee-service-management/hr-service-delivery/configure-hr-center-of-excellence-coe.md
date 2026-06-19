@@ -2,6 +2,7 @@
 title: Enable or disable an HR Center of Excellence \(COE\)
 description: Enable or disable an HR Center of Excellence \(COE\) for use. COEs are tables that extend the HR Case \[sn\_hr\_core\_case\] table and part of a functional discipline, such as total rewards or talent management. COEs are also part of HR services that contain topic category and detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-center-of-excellence-coe.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,7 +26,7 @@ Deactivate COEs manually on all your environments, if your company:
 -   Wants to deactivate COEs.
 -   Has multiple environments and you're using system update sets to update changes.
 
-    **Note:** System update sets capture deactivation in one environment, but after a patch or upgrade, COEs are active in your other environments. See [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+    **Note:** System update sets capture deactivation in one environment, but after a patch or upgrade, COEs are active in your other environments. See System update sets.
 
 
 ## Procedure
@@ -37,10 +38,10 @@ Deactivate COEs manually on all your environments, if your company:
     **Note:** The COEs available to you may differ depending on the HR package you have.
 
     -   The categorization of HR catalog items are employee-facing only, and have no relation to the categorization of HR services under the HR Centers of Excellence \(COEs\) data model.
-    -   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](../concept/hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
-    -   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
+    -   If you are creating a new HR service and plan to make it available for employee self-service, see [HR catalog item configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-catalog-item-configuration.md). Creating a new HR catalog item automatically creates a corresponding HR service, and you can avoid creating duplicate services.
+    -   If you have an existing HR service that you want to make available for employee self-service, do not create an HR catalog item. \(Creating a HR catalog item automatically creates a corresponding HR service.\) Instead, see [Configure a record producer for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-record-producer.md) to add the existing service as an HR catalog item in the HR service catalog.
     -   The Agent Workspace for HR Case Management is highly configurable for HR agents. It supports the same functionality in the Classic HR Service Delivery Agent Workspace.
-    ![COE Configuration page displaying a list of HR cases like "Employee Relations," "HR Benefits," and "HR Payroll," each with an adjacent toggle switch for enabling or disabling.](../image/coe-enable-disable.png)
+    \[Omitted image "coe-enable-disable.png"\] Alt text: COE Configuration page displaying a list of HR cases like "Employee Relations," "HR Benefits," and "HR Payroll," each with an adjacent toggle switch for enabling or disabling.
 
     COEs that are not associated with any HR services, topic details, categories, or record producers are automatically disabled.
 
@@ -49,5 +50,5 @@ Deactivate COEs manually on all your environments, if your company:
 3.  Click **Save**.
 
 
-**Parent Topic:**[HR service categorization](../concept/hr-service-categorization.md)
+**Parent Topic:**[HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-categorization.md)
 

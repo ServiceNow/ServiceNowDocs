@@ -2,6 +2,7 @@
 title: Check-out redirect property
 description: A property called One-step checkout redirect \(glide.vm.checkout\_redirect\) controls the view presented to virtual machine requesters in the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/self-service/c\_checkout-redirect-property.html
 release: australia
 product: Self-service
 classification: self-service
@@ -17,5 +18,5 @@ A property called One-step checkout redirect \(**glide.vm.checkout\_redirect**\)
 
 By default, this property is set to **false**, which redirects the view to the Order Status form when the requester clicks **Order Now**. When this property is set to **true**, ServiceNow redirects the requester to their My Virtual Assets portal. This property is located in **Cloud Management** &gt; **Administration** &gt; **Properties**.
 
-**Parent Topic:**[Service catalog requests](../topic/p_ServiceCatalogRequests.md)
+**Parent Topic:**[Service catalog requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/self-service/p_ServiceCatalogRequests.md)
 

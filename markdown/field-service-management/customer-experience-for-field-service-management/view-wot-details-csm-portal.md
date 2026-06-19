@@ -2,13 +2,14 @@
 title: View and add comments to work order tasks from the Customer or Consumer Service Portal
 description: View the details of any work orders and related tasks from the Customer or Consumer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/customer-experience-for-field-service-management/view-wot-details-csm-portal.html
 release: australia
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
+breadcrumb: [Customer self service, Use, Field Service Management]
 ---
 
 # View and add comments to work order tasks from the Customer or Consumer Service Portal

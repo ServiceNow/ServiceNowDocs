@@ -2,6 +2,7 @@
 title: Software Publisher Analytics dashboard for Oracle in Software Asset Management classic
 description: View compliance analysis results related to Oracle on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/dashboard-oracle.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -25,7 +26,7 @@ Results are updated whenever a new reconciliation result is available. You can s
 
 You can manage Oracle Server Software, such as Database Server, using the Oracle publisher pack.
 
-![Software Publisher Analytics dashboard for Oracle.](../image/publisher-dashboard-oracle.png)
+\[Omitted image "publisher-dashboard-oracle.png"\] Alt text: Software Publisher Analytics dashboard for Oracle.
 
 <table id="table_y3q_r3y_tz"><thead><tr><th>
 
@@ -49,7 +50,7 @@ Product Results
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [License Workbench](../concept/sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -136,5 +137,5 @@ Software Lifecycle Report
 Number of products in each software lifecycle phase, including End of Extended Support, End of Life, and End of Support.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management publisher pack for Oracle](../concept/oracle-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management publisher pack for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/oracle-publisher-pack.md)
 

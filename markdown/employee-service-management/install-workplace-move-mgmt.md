@@ -2,16 +2,17 @@
 title: Install Workplace Move Management
 description: Install the Workplace Move Management application from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/install-workplace-move-mgmt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Workplace Move Management, Workplace Move Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Move Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Move Management
 
-Install the Workplace Move Management application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Workplace Move Management application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -55,5 +56,5 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configuring Workplace Move Management](../concept/configure-workplace-move-mgmt.md)
+**Parent Topic:**[Configuring Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/configure-workplace-move-mgmt.md)
 

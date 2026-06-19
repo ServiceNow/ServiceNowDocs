@@ -2,6 +2,7 @@
 title: Components installed with Web Embeddables
 description: Several types of components are installed with the activation of Web Embeddables, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/components-installed-web-embeddables.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,6 +2,7 @@
 title: Customize business rules for actionable notifications
 description: Enables you to customize the business rules for actionable notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/customize-business-rules-sn-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -97,5 +98,5 @@ Advanced
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Customize IT Service Management integration with ServiceNow](../concept/customize-sn-ms-teams.md)
+**Parent Topic:**[Customize IT Service Management integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/customize-sn-ms-teams.md)
 

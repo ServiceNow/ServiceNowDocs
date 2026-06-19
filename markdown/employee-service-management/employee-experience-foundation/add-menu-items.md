@@ -2,6 +2,7 @@
 title: Add menu items to primary navigation
 description: Add non-taxonomy menu items to the primary navigation bar by configuring the Employee Center Menu record. The non-taxonomy menu items are displayed as a simple list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/add-menu-items.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -33,13 +34,13 @@ The topics and child topics you create in the taxonomy are displayed as mega men
 
 3.  Next to the **Title** field, click **Preview this record** and open the record.
 
-    ![Configure menu items](../images/menu-item.png "Menu item")
+    \[Omitted image "menu-item.png"\] Alt text: Configure menu items
 
 4.  In the **Menu Items** related list, click **New** or open an existing record.
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values, see [Menu Item form](../reference/menu-item-form.md).
+    For a description of the field values, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
 
 6.  Click **Submit**.
 

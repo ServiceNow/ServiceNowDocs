@@ -2,7 +2,10 @@
 title: Configuring Recommended Actions
 description: Use the Recommended Actions application to display relevant actions to agents based on a context of a record or enable agents to perform an AI search to find relevant resources. Agents can quickly and easily take action to help customers and resolve their issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/nba.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
@@ -13,7 +16,7 @@ breadcrumb: [Implement Intelligence, Configure, Customer Service Management]
 
 Use the Recommended Actions application to display relevant actions to agents based on a context of a recordor enable agents to perform an AI search to find relevant resources. Agents can quickly and easily take action to help customers and resolve their issues.
 
-![Recommended actions and Search tabs in the contextual side panel in CSM Configurable Workspace](../image/ra-actions-overview-2.png "Recommended Actions in CSM Configurable Workspace")
+\[Omitted image "ra-actions-overview-2.png"\] Alt text: Recommended actions and Search tabs in the contextual side panel in CSM Configurable Workspace
 
 With Recommended Actions:
 
@@ -34,11 +37,11 @@ Use Recommended Actions to provide the following recommendations:
 -   View and attach article: Recommend a Knowledge article relevant to the customer issue so that agents can view and attach the article to the current case.
 -   Review a refund request. Recommend a decision tree for agents to work through to determine if the customer is eligible for a refund.
 
-For end-to-end configurations of recommended actions for specific scenarios, see [Example configurations of recommended actions](recommended-actions-use-case.md).
+For end-to-end configurations of recommended actions for specific scenarios, see [Example configurations of recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/recommended-actions-use-case.md).
 
 ## Action types for Recommended Actions
 
-With the Recommended Actions application, you can create the following types of actions for agents to take. For more information, see [Recommended Actions](configure-nba.md).
+With the Recommended Actions application, you can create the following types of actions for agents to take. For more information, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-nba.md).
 
 <table id="table_nxk_y1t_c5b"><thead><tr><th>
 
@@ -75,7 +78,7 @@ A recommended value to use for a field. For example, this type of action can rec
 </td></tr></tbody>
 </table>## AI search
 
-Agents can enter their queries in the search bar to access AI-powered search results. The most relevant answers for the search query appear as genius result cards. Agents can take the actions from the search cards directly to resolve an issue. For more information, see [AI search in Recommended Actions](ra-csm-ai-search.md).
+Agents can enter their queries in the search bar to access AI-powered search results. The most relevant answers for the search query appear as genius result cards. Agents can take the actions from the search cards directly to resolve an issue. For more information, see [AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md).
 
 -   **Benefits of AI search integration with Recommended Actions**
     -   Unified search and recommendations: This integration combines AI-driven search capabilities with proactive recommendations, providing a unified toolset for agents.
@@ -85,7 +88,7 @@ Agents can enter their queries in the search bar to access AI-powered search res
 
 ## Using recommended actions
 
-Agents can access recommended actions in a workspace such as CSM Configurable Workspace by selecting the Recommended Actions icon \(![Recommended Actions icon](../image/nba-icon.png)\) in the contextual side panel. For more information, see [Using the Recommended Actions application](ra-csm-using-recommended-actions.md).
+Agents can access recommended actions in a workspace such as CSM Configurable Workspace by selecting the Recommended Actions icon \(\[Omitted image "nba-icon.png"\] Alt text: Recommended Actions icon\) in the contextual side panel. For more information, see [Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-using-recommended-actions.md).
 
 ## Setting up recommended actions
 
@@ -101,7 +104,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Install the Recommended Actions application](../task/install-recommended-actions-cs-app.md)
+[Install the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-recommended-actions-cs-app.md)
 
 </td><td>
 
@@ -109,7 +112,7 @@ Download the Recommended Actions application from the ServiceNow® Store.
 
 </td></tr><tr><td>
 
-[Assign roles to Recommended Actions users](../reference/ra-csm-installed-components.md)
+[Assign roles to Recommended Actions users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-installed-components.md)
 
 </td><td>
 
@@ -117,14 +120,14 @@ Assign roles to your users to control access to Recommended Actions features and
 
 </td></tr><tr><td>
 
-[Configuring the Recommended Actions application](configure-recommended-actions.md)
+[Configuring the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-recommended-actions.md)
 
 </td><td>
 
 Configure recommended actions to create a context, rule, and recommendations with action types such as guidance and field recommendation.**Note:** The Guided Decisions application \(sn\_gd\_core\) is required to create guided decision trees.
 
 </td></tr></tbody>
-</table>**Note:** If Recommended Actions doesn't appear on a variant of a record page \(such as the CSM default record page, CSM Interaction record page, or Front-line case page\), ensure that the variant is marked active. For detailed steps, see [Restore Recommended Actions on record page variants after upgrade](../task/ra-csm-enable-ra-variant-record-page.md).
+</table>**Note:** If Recommended Actions doesn't appear on a variant of a record page \(such as the CSM default record page, CSM Interaction record page, or Front-line case page\), ensure that the variant is marked active. For detailed steps, see [Restore Recommended Actions on record page variants after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-enable-ra-variant-record-page.md).
 
 ## Integrating decision trees in recommended actions
 
@@ -132,11 +135,11 @@ Optionally, set up the Guided Decisions Experience application so that you can c
 
 |Setup task|Description|
 |----------|-----------|
-|[Install the Guided Decisions Experience application](../task/install-guided-decisions-exp-app-new.md)|Install the Guided Decisions Experience application from the ServiceNow® Store. This application enables you to configure decision trees that you can use as recommendations.|
-|[Configuring decision trees](configuring-guided-decisions.md)|Configure decision trees that agents can use to troubleshoot solutions for customer issues.|
-|[Add Guided Decisions to Recommended Actions](../task/add-guided-decisions-to-recommended-actions.md)|Add decision trees to recommended actions, so that agents can take relevant action during troubleshooting based on a record context.|
+|[Install the Guided Decisions Experience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/install-guided-decisions-exp-app-new.md)|Install the Guided Decisions Experience application from the ServiceNow® Store. This application enables you to configure decision trees that you can use as recommendations.|
+|[Configuring decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configuring-guided-decisions.md)|Configure decision trees that agents can use to troubleshoot solutions for customer issues.|
+|[Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/add-guided-decisions-to-recommended-actions.md)|Add decision trees to recommended actions, so that agents can take relevant action during troubleshooting based on a record context.|
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 

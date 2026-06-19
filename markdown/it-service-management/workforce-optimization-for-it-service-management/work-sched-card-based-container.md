@@ -2,6 +2,7 @@
 title: Configure container components for Work scheduler
 description: Present information in an intuitive format using the Card Base Container component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-container.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -28,7 +29,7 @@ Role required: workspace\_admin or ui\_builder\_admin​
 3.  In the **Config** tab, set the interaction and aria properties.
 
     -   From the **Interaction** menu, select **Click**.
-    -   In the Accessibility section, select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png)
+    -   In the Accessibility section, select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon
     -   From the **ARIA Properties** list, select **@state.cardProps.aria**.
 4.  Select the **Events** tab.
 
@@ -42,16 +43,16 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
 8.  Select **Save**.
 
-    Here's a demo on how to configure container components in Work scheduler.Configure container components for Work Scheduler
+    Here's a demo on how to configure container components in Work scheduler.
 
 
 ## What to do next
 
-[Configure a Work scheduler card heading component](work-sched-card-based-header.md)
+[Configure a Work scheduler card heading component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-header.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-itsm.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md)
 
-**Previous topic:**[Define event mappings for Work scheduler](work-sched-event-mapping.md)
+**Previous topic:**[Define event mappings for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-event-mapping.md)
 
-**Next topic:**[Configure a Work scheduler card heading component](work-sched-card-based-header.md)
+**Next topic:**[Configure a Work scheduler card heading component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-header.md)
 

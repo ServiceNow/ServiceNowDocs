@@ -1,0 +1,100 @@
+---
+title: Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application
+description: This checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform instance. When you have completed these tasks, the base system is ready for operation.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/operational-sustainability-management/setup-checklist-esg.html
+release: australia
+product: Operational Sustainability Management
+classification: operational-sustainability-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Operational Sustainability Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+---
+
+# Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application
+
+This checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation.
+
+## Before you begin
+
+Role required: none
+
+Consider creating and printing a PDF of this checklist topic. You can then check off tasks as you complete them. To generate a PDF, click the **Save As PDF** \[Omitted image "save-as-pdf.png"\] Alt text: Save as PDF iconicon and at the top of the topic and click **Selected topic**.
+
+<table id="table_rzz_z21_xmb"><thead><tr><th>
+
+Item
+
+</th><th>
+
+Checklist
+
+</th></tr></thead><tbody><tr><td>
+
+\[Omitted image "checkbox.png"\] Alt text: checkbox
+
+</td><td>
+
+A user with the sn\_esg.program\_manager role, can download and install the Operational Sustainability Management application. For details, see [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/install-esg.md).
+
+</td></tr><tr><td>
+
+\[Omitted image "checkbox.png"\] Alt text: checkbox
+
+</td><td>
+
+A user with the sn\_esg.program\_manager role performs the following tasks:-   [Creates material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-material-topics.md)
+-   [Creates goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-esg-goal.md)
+-   [Creates targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-esg-target.md)
+-   [Creates an emission activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-an-emission-activity.md)
+-   [Creates an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-an-emission-factor.md)
+
+</td></tr><tr><td>
+
+\[Omitted image "checkbox.png"\] Alt text: checkbox
+
+</td><td>
+
+A user with the sn\_esg.program\_manager role also manages entities and performs the following tasks:-   [Creates an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-entity.md)
+-   [Creates an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-entity-type.md)
+-   [Creates an entity class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-entity-class.md)
+
+</td></tr><tr><td>
+
+\[Omitted image "checkbox.png"\] Alt text: checkbox
+
+</td><td>
+
+A user with the sn\_esg.metrics\_manager role defines the various types of metric definitions and metrics. This user performs the following tasks:-   [Creates an automated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/update-automated-metric-definition.md)
+-   [Creates a manual metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-manual-metric-definition.md)
+-   [Creates a composite metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-composite-metric-definition.md)
+-   [Create a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/create-a-metric.md)
+
+</td></tr><tr><td>
+
+\[Omitted image "checkbox.png"\] Alt text: checkbox
+
+</td><td>
+
+A user with the sn\_esg.data\_owner role can provide data for the manual metrics data tasks and a user with the sn\_esg.program\_manager can override the data that is provided. For more information, see [Provide data for a metric data task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/provide-data-for-metric-data-task.md)
+
+</td></tr><tr><td>
+
+\[Omitted image "checkbox.png"\] Alt text: checkbox
+
+</td><td>
+
+A user with the sn\_esg.reporting\_disclosure\_manager, sn\_esg.program\_manager roles can create disclosure. Disclosures enable the investors to make informed decisions about the companies, their risk posture, sustainability standards, and Operational Sustainability Management compliance.
+
+</td></tr><tr><td>
+
+\[Omitted image "checkbox.png"\] Alt text: checkbox
+
+</td><td>
+
+Optionally, users of the [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/install-esg.md) application can integrate with other applications such as Project Portfolio Management and Integrated Risk Management. These integrations provide more features and capabilities. For more information, see [Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/integrate-esg.md)
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Operational Sustainability Management \(formerly ESG Management\) implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/environmental-social-governance/operational-sustainability-management/esg-implementation.md)
+

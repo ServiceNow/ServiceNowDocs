@@ -2,6 +2,7 @@
 title: Extract entitlements from software contracts using Now Assist for SAM
 description: Reduce manual effort by leveraging generative AI to automatically create entitlements by extracting information from software contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-software-asset-management-sam/extract-entitlements-from-contracts-now-assist-sam.html
 release: australia
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -21,7 +22,7 @@ Role required: sam\_user
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see .
 
 With the Contract entitlement data extraction skill being activated by default, you can upload software contracts in the Software Asset Workspace to automatically generate entitlements.
 
@@ -53,7 +54,7 @@ You can extract data related to entitlements from an existing or a new contract 
 
     The extract entitlements page opens.
 
-    ![Extract entitlements page](../image/extractentitlements.png)
+    \[Omitted image "extractentitlements.png"\] Alt text: Extract entitlements page
 
 9.  Select the Open tables down arrow next to **Tables**.
 
@@ -71,7 +72,7 @@ You can extract data related to entitlements from an existing or a new contract 
 
 13. Select **Next** to lock in the data and go to the Review entitlements page.
 
-    ![Review entitlements page](../image/reviewentitlements.png)
+    \[Omitted image "reviewentitlements.png"\] Alt text: Review entitlements page
 
     The Review entitlements page opens with the entitlement import error records. For each entitlement extracted from the contract document, an entitlement import record is created. The page also shows the PDF or images you uploaded.
 
@@ -91,5 +92,5 @@ You can extract data related to entitlements from an existing or a new contract 
     The entitlements are successfully created.
 
 
-**Parent Topic:**[Using generative AI skills in Now Assist for SAM](../concept/using-now-assist-sam.md)
+**Parent Topic:**[Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 

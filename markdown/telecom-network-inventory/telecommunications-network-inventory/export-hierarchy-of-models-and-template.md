@@ -2,6 +2,7 @@
 title: Export hierarchy of models and templates
 description: Export a hierarchy of models, inventory templates, and all related records efficiently using the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/export-hierarchy-of-models-and-template.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -19,15 +20,11 @@ Export a hierarchy of models, inventory templates, and all related records effic
 
 Role required: sn\_ni\_core.inventory\_admin
 
-## About this task
-
-Export selected related records of a model or inventory template in your chosen format \(Excel, CSV, JSON, PDF, or Export Set\).
-
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to any model or inventory template.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to any model or inventory template.
 
 3.  Select a desired record.
 
@@ -39,7 +36,7 @@ Export selected related records of a model or inventory template in your chosen 
 
 5.  Select a related record link.
 
-6.  Select **![Options icon](../../../common/image/icon-menu.png)** &gt; **Export**.
+6.  Select **\[Omitted image "icon-menu.png"\] Alt text: Options icon** &gt; **Export**.
 
 7.  On the Export window, select the desired file type to export the data.
 
@@ -64,5 +61,5 @@ Export selected related records of a model or inventory template in your chosen 
 
 The selected model or inventory template with all related records is downloaded in the selected format.
 
-**Parent Topic:**[Import models and templates](../concept/import-models-and-templates.md)
+**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 

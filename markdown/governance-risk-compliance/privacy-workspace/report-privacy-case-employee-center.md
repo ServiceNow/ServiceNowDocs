@@ -2,6 +2,7 @@
 title: Report a privacy case from the Employee Center
 description: Use the Employee Center to report any privacy breaches and complaints directly to the privacy teams. Reporting these cases helps to reduce and avert losses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/report-privacy-case-employee-center.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -29,15 +30,15 @@ Role required: sn\_privacy.business\_user
 
 4.  On the form, fill in the fields.
 
-    See the [Employee Center privacy case creation form](../reference/privacy-case-form-employee-center.md) for an explanation of each field.
+    See the [Employee Center privacy case creation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-case-form-employee-center.md) for an explanation of each field.
 
 5.  To provide supporting material or evidence, select **Add attachments**.
 
 6.  Select **Submit**.
 
 
--   **[Employee Center privacy case creation form](../reference/privacy-case-form-employee-center.md)**  
+-   **[Employee Center privacy case creation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-case-form-employee-center.md)**  
 On the new privacy case form in the Employee Center, fill in the fields as appropriate.
 
-**Parent Topic:**[Reporting a privacy case](../concept/reporting-a-privacy-case.md)
+**Parent Topic:**[Reporting a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/reporting-a-privacy-case.md)
 

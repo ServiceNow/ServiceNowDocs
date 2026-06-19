@@ -2,6 +2,7 @@
 title: Create remote tasks to sync data
 description: Remote tasks provide linked tasks across multiple instances and enable business workflows without any custom integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-remote-task-create.html
 release: australia
 product: Service Exchange
 classification: service-exchange

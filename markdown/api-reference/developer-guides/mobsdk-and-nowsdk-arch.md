@@ -2,6 +2,7 @@
 title: NowSDK architecture
 description: The NowSDK is the top-level entity of the Mobile SDK class framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-nowsdk-arch.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -33,29 +34,29 @@ NowSDK provides the following feature services and associated APIs:
     Enables third party applications to access the public REST APIs exposed by your ServiceNow instance. Development is streamlined because the NowDataSDK utilizes the authentication and session handling features provided by the NowSDK.
 
     -   Primary APIs:
-        -   [NowAPIService](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowAPIService/concept/NowAPIServiceAndroidInterface.md#): This API provides functionality that enables you to interact with the publicly exposed [REST APIs](../../../../inbound-rest/concept/c_RESTAPI.md) on your ServiceNow instance.
-        -   [NowAttachmentService](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowAttachmentService/concept/NowAttachServiceAndroidInterface.md#): This API provides functionality to upload and query file attachments on your ServiceNow instance within your Android application.
-        -   [NowGraphQLService](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowGraphQLService/concept/NowGQLServiceAndroidInterface.md#): This API provides functionality that enables you to use GraphQL queries to obtain data from tables within your ServiceNow instance using the ServiceNow REST GraphQL API.
-        -   [NowTableService](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowTableService/concept/NowTableServiceAndroidInterface.md#): This API provides functionality that enables you to perform create, read, update, and delete \(CRUD\) operations on existing tables in your ServiceNow instance that get serviced through the ServiceNow REST Table API.
+        -   [NowAPIService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAPIServiceAndroidInterface.md): This API provides functionality that enables you to interact with the publicly exposed [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md) on your ServiceNow instance.
+        -   [NowAttachmentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAttachServiceAndroidInterface.md): This API provides functionality to upload and query file attachments on your ServiceNow instance within your Android application.
+        -   [NowGraphQLService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowGQLServiceAndroidInterface.md): This API provides functionality that enables you to use GraphQL queries to obtain data from tables within your ServiceNow instance using the ServiceNow REST GraphQL API.
+        -   [NowTableService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceAndroidInterface.md): This API provides functionality that enables you to perform create, read, update, and delete \(CRUD\) operations on existing tables in your ServiceNow instance that get serviced through the ServiceNow REST Table API.
 -   NowAnalytics
 
     Enables you to gather and track usage analytics within your mobile applications.
 
     -   Primary APIs:
-        -   [NowAnalytics](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowAnalytics/concept/NowAnalyticsAndroidInterface.md#): This API provides functionality to gather user analytics data and store it within the ServiceNow platform for later analysis and tracking.
+        -   [NowAnalytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowAnalyticsAndroidInterface.md): This API provides functionality to gather user analytics data and store it within the ServiceNow platform for later analysis and tracking.
 -   NowChat
 
     Enables you to embed a native Virtual Agent chat window in your applications. This service includes UI/UX features.
 
     -   Primary APIs:
-        -   [NowChatService](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowChatService/concept/NowChatServiceAndroidAPI.md#): This API provides Virtual Agent and Live Agent chat capabilities to your Android applications. Leverage the full service chat capabilities provided by the ServiceNow platform by simply implementing NowChatService within your application.
+        -   [NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceAndroidAPI.md): This API provides Virtual Agent and Live Agent chat capabilities to your Android applications. Leverage the full service chat capabilities provided by the ServiceNow platform by simply implementing NowChatService within your application.
 -   NowPush
 
     Enables you to send unsolicited messages to your applications that leverage the NowChat/Virtual Agent functionality.
 
     -   Primary APIs:
-        -   [NowPushSDK](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowPushSDK/concept/NowPushSDKAndroidAPI.md#): This API provides the function necessary to create a `NowPushService` that enables the sending of unsolicited \(push\) notifications to Android devices.
-        -   [NowPushService](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowPushService/concept/NowPushServiceAndroidAPI.md#): This API provides functions that enable interaction with the Push Service.
+        -   [NowPushSDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowPushSDKAndroidAPI.md): This API provides the function necessary to create a `NowPushService` that enables the sending of unsolicited \(push\) notifications to Android devices.
+        -   [NowPushService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowPushServiceAndroidAPI.md): This API provides functions that enable interaction with the Push Service.
 -   NowWeb
 
     Enables you to load web pages hosted on your ServiceNow instance in a native web view or Cabrillo. It automatically handles user authentication and session management instead of forcing users to log into the instance via a login web page.
@@ -64,6 +65,6 @@ NowSDK provides the following feature services and associated APIs:
 
     -   Primary APIs:
 
-        [NowWebSDK](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowWebSDK/concept/NowWebSDKAndroidAPI.md#): This API provides functionality to create a NowWeb service object that enables web pages from your ServiceNow instance to be displayed in your Android application.
+        [NowWebSDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebSDKAndroidAPI.md): This API provides functionality to create a NowWeb service object that enables web pages from your ServiceNow instance to be displayed in your Android application.
 
 

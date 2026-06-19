@@ -2,6 +2,7 @@
 title: Dashboard component events
 description: Select event handlers to configure the actions \(events\) provided with the dashboard component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboard-component-events-setup.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -111,10 +112,10 @@ Dispatched whenever the dashboard component would normally update URL parameters
 }
 ```
 
- For more information, see [Dashboard URL parameter delegation](../concept/dashboard-url-parameter-delegation.md#).
+ For more information, see [Dashboard URL parameter delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboard-url-parameter-delegation.md).
 
 **Note:** This functionality requires the latest Platform Analytics experience application from the ServiceNow® Store.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add a dashboard to a Dashboards page](../../../use/performance-analytics/task/add-dashboard-to-workspace.md)
+</table>**Parent Topic:**[Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dashboard-to-workspace.md)
 

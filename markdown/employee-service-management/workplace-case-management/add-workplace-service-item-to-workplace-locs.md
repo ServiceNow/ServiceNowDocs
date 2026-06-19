@@ -2,6 +2,7 @@
 title: Make a workplace service item available to a workplace location
 description: Make a workplace service item available to specific workplace locations. Select any workplace location such as a region, site, campus, building, floor, area, or a space.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/add-workplace-service-item-to-workplace-locs.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management

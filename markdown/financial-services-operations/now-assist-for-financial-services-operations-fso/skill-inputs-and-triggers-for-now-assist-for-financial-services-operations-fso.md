@@ -2,6 +2,7 @@
 title: Skill inputs for Now Assist for Financial Services Operations \(FSO\)
 description: Review the inputs for each skill to see how a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/skill-inputs-and-triggers-for-now-assist-for-financial-services-operations-fso.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -146,4 +147,5 @@ Card Disputes Service Case
 -   Merchant response
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Configuring Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/configuring-now-assist-skills-for-fso.md)
+

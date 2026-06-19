@@ -2,6 +2,7 @@
 title: Set up Demand Management
 description: Perform these tasks to set up Demand Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/c\_SettingUpDemandManagement.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -17,7 +18,7 @@ Perform these tasks to set up Demand Management.
 
 **Important:**
 
-Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](../../ppw-demand/concept/demand-workspace-ppw.md).
+Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/demand-workspace-ppw.md).
 
 The workspace provides additional value beyond the legacy experience, including Playbook, Docs, and the ability to define different governance processes using playbooks.
 
@@ -28,16 +29,16 @@ If you have Portfolio Planning Workspace or Strategic Planning Workspace, you ca
 
 Before using Demand Management, PPS admin performs several setup tasks.
 
-1.  [Planning for Demand Management](../reference/r_PlanningForDemandManagement.md)  
+1.  [Planning for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/r_PlanningForDemandManagement.md)  
 Plan the listed items before setting up Demand Management.
-2.  [Populate the stakeholder registry](../task/t_PopulatingTheStakeholderRegistry.md)  
+2.  [Populate the stakeholder registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_PopulatingTheStakeholderRegistry.md)  
 Add users to the stakeholder registry so that demand and project management can automatically populate the stakeholder list when a user creates a demand or project.
-3.  [View an assessment metric category](../../../administer/assessments/task/t_CreateAnAssessmentCategory.md)  
+3.  [View an assessment metric category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreateAnAssessmentCategory.md)  
 View assessment metric categories that are used with assessment metric types and assessment metrics in generating the bubble charts on the Demand Workbench. The bubble charts help the demand managers to assess the demands visually.
-4.  [Configure a widget for the financial metrics of a demand](../task/configure-widget-demand-financials.md)  
+4.  [Configure a widget for the financial metrics of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configure-widget-demand-financials.md)  
 Configure a widget to view and track the financial metrics of a demand on the Demand Financials page.
-5.  [Configure demand workbench](../task/t_CreatingBubbleCharts.md)  
+5.  [Configure demand workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingBubbleCharts.md)  
 Update the demand workbench to configure parameters such as bubble chart.
 
-**Parent Topic:**[Configuring Demand Management](configuring-demand-management.md)
+**Parent Topic:**[Configuring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/configuring-demand-management.md)
 

@@ -2,6 +2,7 @@
 title: DocumentVersionService - Scoped, Global
 description: The DocumentVersionService API provides a service for creating and deleting document versions. Each version is an element containing the document content and is provided using a single URL or attachment. An attachment can only be added in the Document Versions \[ds\_document\_version\] table UI and not with the API.Instantiates a DocumentVersionService object.Creates a document version record in the Versions \[ds\_document\_version\] table.Deletes a document version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DocumentVersionServiceBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,14 +16,14 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DocumentVersionService API provides a service for creating and deleting document versions. Each version is an element containing the document content and is provided using a single URL or attachment. An attachment can only be added in the Document Versions \[ds\_document\_version\] table UI and not with the API.
 
-This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-services-landing-page.md).
+This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see Document Services.
 
 Before creating a document version, you must first define and add a document record.
 
--   [SystemDocument](../../SystemDocument/concept/SystemDocumentBothAPI.md#) – Define a document object.
--   [DocumentService](../../DocumentService/concept/DocumentServiceBothAPI.md#) – Add, update, or delete a document.
+-   [SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentBothAPI.md) – Define a document object.
+-   [DocumentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentServiceBothAPI.md) – Add, update, or delete a document.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## DocumentVersionService - DocumentVersionService\(\)
 
@@ -44,7 +45,7 @@ Creates a document version record in the Versions \[ds\_document\_version\] tabl
 
 |Name|Type|Description|
 |----|----|-----------|
-|docVersion|[SystemDocumentVersion](../../SystemDocumentVersion/concept/SystemDocumentVersionBothAPI.md#)|One or more properties representing fields of a document version.|
+|docVersion|[SystemDocumentVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentVersionBothAPI.md)|One or more properties representing fields of a document version.|
 
 <table id="table_tj4_p5j_34b" class="returns"><thead><tr><th>
 
@@ -98,7 +99,7 @@ Status indicating whether the operation is successful.Possible values:
  Data type: String
 
 </td></tr></tbody>
-</table>The following example shows how to populate SystemDocumentVersion object properties and create a new document version. See also [SystemDocumentVersion](../../SystemDocumentVersion/concept/SystemDocumentVersionBothAPI.md#).
+</table>The following example shows how to populate SystemDocumentVersion object properties and create a new document version. See also [SystemDocumentVersion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentVersionBothAPI.md).
 
 ```
 var versionDefinition = new sn_doc_services.SystemDocumentVersion('491efbee24187410f877a6fed1c2b0a9');

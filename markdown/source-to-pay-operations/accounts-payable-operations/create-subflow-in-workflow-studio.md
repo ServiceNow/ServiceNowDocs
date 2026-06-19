@@ -2,12 +2,14 @@
 title: Create subflow in workflow studio
 description: Use subflows to configure conditions that are applied on the invoice and raise an exception.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/create-subflow-in-workflow-studio.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice exception, invoice automation]
 breadcrumb: [Create an invoice exception definition, Invoice exceptions, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -81,7 +83,7 @@ This video shows you how to create subflow in workflow studio.The video shows yo
 
     10. Select **If** &gt; **Condition2** &gt; **For Each** &gt; **Invoice Record** &gt; **Legal entity** &gt; **is empty**.
 
-    11. Select **then** &gt; ![](../image/plus-icon.png) icon.
+    11. Select **then** &gt; \[Omitted image "plus-icon.png"\] icon.
 
     12. Click **Done**.
 
@@ -124,5 +126,5 @@ This video shows you how to create subflow in workflow studio.The video shows yo
     The subflow is successfully created.
 
 
-**Parent Topic:**[Create an invoice exception definition](define-new-invoice-exception.md)
+**Parent Topic:**[Create an invoice exception definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/define-new-invoice-exception.md)
 

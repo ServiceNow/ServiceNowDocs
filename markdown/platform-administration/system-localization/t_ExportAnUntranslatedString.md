@@ -2,6 +2,7 @@
 title: List untranslated items
 description: Get a list of all custom UI strings that have not been translated into any language \(English only\) to provide your own translations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/t\_ExportAnUntranslatedString.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -42,22 +43,22 @@ This method of listing untranslated items does not identify strings that have be
 
     When the list is sorted by **Order**, the modules appear in order from 500 to 900.
 
-    ![Non-translated localization modules.](../image/LocalizationModulesTrue.png)
+    \[Omitted image "LocalizationModulesTrue.png"\] Alt text: Non-translated localization modules.
 
     **Note:** Instead of **Customizations**, your list might show a record titled **Non-translated Items**. When you activate the **Customizations** module, the title changes to **Non-translated Items**.
 
     After the application navigator refreshes, the modules appear in the filter navigator beneath **Non-translated Items**.
 
-    ![Filter navigator showing non-translated items per translation table.](../image/non-translated-items-nav.png)
+    \[Omitted image "non-translated-items-nav.png"\] Alt text: Filter navigator showing non-translated items per translation table.
 
 4.  From the application menu, open each module and export their lists to any supported format, such as Microsoft Excel.
 
     For example, select **Non-translated Items** &gt; **Translated Name/Fields**, right click any column, and export the list.
 
-    ![List of non-translated Translated Name/Fields.](../image/non-translated-name-fields.png)
+    \[Omitted image "non-translated-name-fields.png"\] Alt text: List of non-translated Translated Name/Fields.
 
 
 ## What to do next
 
-You can translate the fields in an external application and reload the translations as an update set. For more information see, [Export and edit translation records](t_TranslateTheInterface.md#). If you have a small number of strings to translate, you can translate them individually. For more information, see [Translating individual UI strings](../concept/c_TranslateIndFieldLabelsAndValues.md).
+You can translate the fields in an external application and reload the translations as an update set. For more information see, [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateTheInterface.md). If you have a small number of strings to translate, you can translate them individually. For more information, see [Translating individual UI strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_TranslateIndFieldLabelsAndValues.md).
 

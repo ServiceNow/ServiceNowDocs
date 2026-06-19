@@ -2,7 +2,10 @@
 title: Case task form
 description: The case task form displays information about case tasks, which are created and assigned to users to complete the work necessary to resolve customer service cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-task-form.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -93,7 +96,7 @@ Service
 
 </td><td>
 
-If a service has been selected for a case task, the service is displayed in this field. The **Service** field is a reference to the [Service Definitions](../concept/csm-service-definitions.md) table \(sn\_case\_type\_selection\).
+If a service has been selected for a case task, the service is displayed in this field. The **Service** field is a reference to the [Service Definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions.md) table \(sn\_case\_type\_selection\).
 
  **Note:** The Customer Service plugin \(com.sn\_customerservice\) and the Customer Service Case Types plugin \(com.snc.csm\_case\_types\) are required for the **Service** field to appear on case task lists and forms.
 

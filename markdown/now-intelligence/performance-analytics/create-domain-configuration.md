@@ -2,6 +2,7 @@
 title: Create a domain configuration
 description: Create a domain configuration to define which domains to collect scores from and how to store scores within the domain hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-domain-configuration.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ The Performance Analytics - Domain Support plugin \(com.snc.pa.domain\_support\)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Domain Configuration** and create a new record.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Collector** &gt; **Domain Configurations** and create a record.
 
 <table id="table_mff_5qm_tw"><thead><tr><th>
 
@@ -49,7 +50,7 @@ Visibility group
 
 </td><td>
 
-When **Configuration type** is **Visibility group**, select or create a Group \[sys\_user\_group\] that has at least one visibility domain. All visibility domains available to this group are included in this domain configuration. For more information about visibility domains, see [Visibility domains and Contains domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainVisibility.md).
+When **Configuration type** is **Visibility group**, select or create a Group \[sys\_user\_group\] that has at least one visibility domain. All visibility domains available to this group are included in this domain configuration. For more information about visibility domains, see Visibility domains and Contains domains.
 
 </td></tr><tr><td>
 
@@ -95,10 +96,10 @@ Select **All child domains** to roll up scores from the specified domains and al
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](../concept/pa-domain-separation-msp.md)
+**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
 
 **Related topics**  
 
 
-[Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparationSetup.md)
+[bundle-psec.c_DomainSeparationSetup]
 

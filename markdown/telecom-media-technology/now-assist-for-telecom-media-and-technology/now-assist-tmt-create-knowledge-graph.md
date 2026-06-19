@@ -2,6 +2,7 @@
 title: Create a knowledge graph schema
 description: Use the Knowledge Graph \(KG\) to create Knowledge Graph schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-create-knowledge-graph.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
@@ -31,7 +32,7 @@ Role required: sn\_sprb\_mgmt\_admin
 
 3.  On the form, fill in the fields.
 
-    ![knowledge graph schema.](../image/create-knowledge-graph-schema.png)
+    \[Omitted image "create-knowledge-graph-schema.png"\] Alt text: knowledge graph schema.
 
     |Field|Description|
     |-----|-----------|
@@ -54,15 +55,15 @@ Role required: sn\_sprb\_mgmt\_admin
     -   Node details
     -   Columns that can be queried
     -   Related nodes
-    ![service summary graph.](../image/now-assist-tmt-service-summary-graph.png)
+    \[Omitted image "now-assist-tmt-service-summary-graph.png"\] Alt text: service summary graph.
 
 7.  In the Node details section, you can edit the following fields.
 
     -   Node type
     -   Node Description
-    ![service summary graph.](../image/summary-graph-node-details.png)
+    \[Omitted image "summary-graph-node-details.png"\] Alt text: service summary graph.
 
-    To manage the nodes in the Knowledge Graph schema, see [Manage nodes in a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/add-or-delete-nodes-from-a-knowledge-graph-schema.md).
+    To manage the nodes in the Knowledge Graph schema, see .
 
 8.  In the Columns that can be queried section, search for and select the desired columns and select **Save**.
 
@@ -70,8 +71,8 @@ Role required: sn\_sprb\_mgmt\_admin
 
     To edit the Knowledge Graph, you must copy the Knowledge Graph and adjust the settings according to your requirements.
 
-    To edit the Knowledge Graph schema, see [Edit a Knowledge Graph schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/editing-a-knowledge-graph-schema.md).
+    To edit the Knowledge Graph schema, see .
 
 
-**Parent Topic:**[Generate service summary for a product inventory using Now Assist for Telecommunications, Media and Technology \(TMT\)](now-assist-tmt-summarize-knowledge-graph.md)
+**Parent Topic:**[Generate service summary for a product inventory using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-knowledge-graph.md)
 

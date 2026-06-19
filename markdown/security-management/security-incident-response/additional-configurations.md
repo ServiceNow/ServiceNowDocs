@@ -2,6 +2,7 @@
 title: FireEye Default Settings
 description: Following are the additional configuration settings after you complete the installation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/additional-configurations.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -27,7 +28,7 @@ Following are the additional configuration settings:
 2.  **Alternate CI**: Enabling this check box will provide list of fields available to pass an alternate CI to the capability. By default, the integration uses the Configuration Item \(CI\) field on the Security incident. This configuration is applicable only for the “Run Additional Actions on Endpoint” capability. So, use this configuration to define an alternate CI input field for the “Run Additional Actions on Endpoint” capability only. For the other capabilities use the configuration in the profile section. If the profiles do not define an alternate CI, then the capabilities would pick the CI field from the Security Incident form.
 3.  **Input for Agent ID resolution**: By default, IP and Host Name will be used to get the Agent ID. If only one of them is to be used set the input field to either IP or Host Name.
 
-    ![FireEye Default Settings](../image/fireeye-additional-settings.png)
+    \[Omitted image "fireeye-additional-settings.png"\] Alt text: FireEye Default Settings
 
 4.  **Timeout**:
 
@@ -35,6 +36,6 @@ Following are the additional configuration settings:
     -   **Additional Action Timeout\(minutes\):** The Run Additional Actions on End point capability will fail if no response is rendered in the set time.
     -   **File Acquisition Timeout\(minutes\):** The Get File capability will fail if no response is rendered in the set time.
     -   **Sighting Search Timeout\(minutes\):** The Search will be stopped after the set time.
-    ![FireEye Default Settings extended page](../image/fireeye-additional-settings01.png)
+    \[Omitted image "fireeye-additional-settings01.png"\] Alt text: FireEye Default Settings extended page
 
 

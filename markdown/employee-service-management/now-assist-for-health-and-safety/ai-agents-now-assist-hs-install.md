@@ -2,6 +2,7 @@
 title: Install Now Assist AI agents for Health and Safety
 description: Install Now Assist AI agents on your ServiceNow instance to enable the agentic AI experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-install.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -17,17 +18,13 @@ Install Now Assist AI agents on your ServiceNow instance to enable the agentic A
 
 ## Before you begin
 
-To get started with AI agents, you must have:
-
--   A ServiceNow Pro Plus or Enterprise Plus license.
--   An instance on Xanadu Patch 7+ or Yokohama.
--   AI Search enabled on your instance.
+To get started with AI agents, you must enable AI Search on your instance.
 
 Role required: sn\_aia\_admin
 
 ## About this task
 
-AI agents are not standalone applications that you can install directly. To enable AI agents on your instance, you must install and activate Now Assist for Health and Safety.
+AI agents are not standalone applications that you can install directly. To enable AI agents on your instance, you must install and activate Now Assist for Health and Safety. For more information, see [Install Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-install.md).
 
 ## Procedure
 
@@ -44,7 +41,7 @@ The AI Agent for Health and safety \[sn\_hs\_ai\_agents\] plugin associated with
 
 ## What to do next
 
-To access AI agents in the Now Assist panel, you must enable the panel. See [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+To access AI agents in the Now Assist panel, you must enable the panel. See .
 
-**Parent Topic:**[Configure Now Assist AI agents for Health and Safety](../concept/ai-agents-now-assist-hs-configuring.md)
+**Parent Topic:**[Configure Now Assist AI agents for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-configuring.md)
 

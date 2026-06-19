@@ -2,6 +2,7 @@
 title: ValidateDanglingTransition
 description: The ValidateDanglingTransition validator finds and reports any transitions that do not terminate on an activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_VldtDanglingTransition.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -49,5 +50,5 @@ To find and remove the faulted transition:
 
 The **Critical** warning should disappear. The workflow should execute as expected on the next appropriate transaction.
 
-**Parent Topic:**[Workflow validator](r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowValidator.md)
 

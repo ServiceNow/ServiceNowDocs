@@ -2,6 +2,7 @@
 title: Microsoft Exchange Client Access Server discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of Microsoft Exchange Client Access Server \(Microsoft Exchange CAS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-ExchangeClientAccessServer.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -33,5 +34,5 @@ The following data is collected on the Exchange Client Access Server `[cmdb_ci_e
 |Installation directory|install\_directory|
 |Type|type|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
 

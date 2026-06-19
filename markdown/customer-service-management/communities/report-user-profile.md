@@ -2,6 +2,7 @@
 title: Report a community profile
 description: Report a community profile to alert community moderators that there is offensive or inaccurate information in the profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/report-user-profile.html
 release: australia
 product: Communities
 classification: communities
@@ -32,5 +33,5 @@ Role required: sn\_communities.community\_user
     -   A confirmation message indicating that the abuse report has been received and will be reviewed is displayed.
     -   A moderation task is created and assigned to a moderator for resolution.
 
-**Parent Topic:**[Use a community profile](community-profile.md)
+**Parent Topic:**[Use a community profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/community-profile.md)
 

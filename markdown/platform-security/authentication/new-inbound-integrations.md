@@ -2,6 +2,7 @@
 title: New Inbound integrations experience
 description: The new inbound integration workflow in the ServiceNow Machine Identity Console provides enhanced experience for managing inbound integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/new-inbound-integrations.html
 release: australia
 product: Authentication
 classification: authentication
@@ -18,17 +19,17 @@ The new inbound integration workflow in the ServiceNow Machine Identity Console 
 
 ## Inbound integrations methods
 
-Inbound Integrations allow you to configure and manage external applications to access ServiceNow APIs. To view detailed usage statistics for each OAuth client, see [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
+Inbound Integrations allow you to configure and manage external applications to access ServiceNow APIs. To view detailed usage statistics for each OAuth client, see .
 
 On the instance, navigate to **All** &gt; **Machine Identity Console** &gt; **Inbound integrations** &gt; **New integration**. Choose the application connection type \(grant type\).
 
-![Displays the application connection type page](../../machine-identity/images/mic-new-experience-landing-page.png)
+\[Omitted image "mic-new-experience-landing-page.png"\] Alt text: Displays the application connection type page
 
 To learn more about the different grant types and how to configure them, refer to the following topics:
 
--   [Authorization code grant](authorization-code-grant.md)
--   [Client credentials grant](client-credential-grant.md)
--   [Third party token grant](../../machine-identity/task/third-party-id-token.md)
--   [JSON Web token bearer grant](../../machine-identity/task/jwt-bearer-grant.md)
--   [Resource owner password credential grant](../../machine-identity/task/resource-owner-password-grant.md)
+-   [Authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/authorization-code-grant.md)
+-   [Client credentials grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/client-credential-grant.md)
+-   [Third party token grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/third-party-id-token.md)
+-   [JSON Web token bearer grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/jwt-bearer-grant.md)
+-   [Resource owner password credential grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/resource-owner-password-grant.md)
 

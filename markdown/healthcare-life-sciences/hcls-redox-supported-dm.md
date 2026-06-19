@@ -2,6 +2,7 @@
 title: Supported data models and event types for Redox Inbound Integration
 description: In the Redox engine, a request is determined by the event type and workflow set up for your integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-redox-supported-dm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -176,5 +177,5 @@ NoShow
 </td></tr></tbody>
 </table>For information on the Redox data models, see [Event types for data models](https://docs.redoxengine.com/basics/redox-data-model-api/event-types-for-data-models) in [Redox documentation](https://docs.redoxengine.com/).
 
-**Parent Topic:**[Redox Inbound Integration reference](hcls-redox-app-reference.md)
+**Parent Topic:**[Redox Inbound Integration reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hcls-redox-app-reference.md)
 

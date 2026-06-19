@@ -2,13 +2,14 @@
 title: Enable the asset put away task for your stockroom
 description: Enable the Asset put away feature for your stockroom so that the Asset put away task is automatically created to track asset movement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/enable-putaway-task-for-stockroom-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage asset put away using the Hardware Asset Workspace, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage asset put away for stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Enable the asset put away task for your stockroom
@@ -36,5 +37,5 @@ Role required: inventory\_user
 
 You can perform asset put away for in stock assets in the stockroom.
 
-**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+**Parent Topic:**[Manage asset put away using the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
 

@@ -2,6 +2,7 @@
 title: Customise cost plan form
 description: Manage the fields required on the new cost plan form as per your organization needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/customise-cost-plan-form-fin-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

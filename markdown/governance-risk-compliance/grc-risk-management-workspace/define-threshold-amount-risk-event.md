@@ -2,6 +2,7 @@
 title: Define a threshold amount for the risk event response template
 description: Define a threshold limit for assigning risk event approvers. A threshold limit is defined to determine if a risk event needs an approver.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/define-threshold-amount-risk-event.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -21,7 +22,7 @@ Role required: sn\_risk.manager and sn\_risk.admin
 
 ## About this task
 
-Based on the risk loss amount, you can decide whether approvers are required for the risk events losses. For example, for any risk event that results in a loss of $1000 or less, an approver isn’t needed. But for any amount beyond $1000, the risk event must be evaluated and an approver is automatically assigned. There can be multiple levels of approvals depending on your defined thresholds. For a better understanding, see the following image. ![Risk event thresholds for approval](../image/threshold-risk-event.png)
+Based on the risk loss amount, you can decide whether approvers are required for the risk events losses. For example, for any risk event that results in a loss of $1000 or less, an approver isn’t needed. But for any amount beyond $1000, the risk event must be evaluated and an approver is automatically assigned. There can be multiple levels of approvals depending on your defined thresholds. For a better understanding, see the following image. \[Omitted image "threshold-risk-event.png"\] Alt text: Risk event thresholds for approval
 
 In the previous example, the following rules are applied.
 
@@ -39,7 +40,7 @@ In the previous example, the following rules are applied.
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Financial Impact Approval Thresholds form, see [Financial Impact Approval Thresholds](../reference/financial-impact-approval-thresholds-form.md).
+    For a description of the field values on the Financial Impact Approval Thresholds form, see [Financial Impact Approval Thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/financial-impact-approval-thresholds-form.md).
 
 5.  Select **Submit**.
 
@@ -48,8 +49,8 @@ In the previous example, the following rules are applied.
 
 The response template is updated with the threshold limit and approver details.
 
--   **[Financial Impact Approval Thresholds](../reference/financial-impact-approval-thresholds-form.md)**  
+-   **[Financial Impact Approval Thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/financial-impact-approval-thresholds-form.md)**  
 Use the Financial Impact Approval Thresholds form to define monetary thresholds that trigger approval requirements for risk events and to configure how approvers are determined when those thresholds are met.
 
-**Parent Topic:**[Use Risk Events](../concept/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

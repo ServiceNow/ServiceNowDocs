@@ -2,13 +2,14 @@
 title: Add and build terms and conditions in Workplace Central
 description: After you create a terms and conditions record, add the record to a lease contract that is in the Awaiting Review, Rejected, or Renewal Rejected substate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-lease-add-tc.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add and build terms and conditions in Workplace Central
@@ -29,9 +30,9 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 4.  In the **Terms and Conditions** section, double-click **Insert a new row**.
 
-5.  Click the reference lookup using list icon ![Lookup using list icon](../images/look-up-icon.png).
+5.  Click the reference lookup using list icon \[Omitted image "look-up-icon.png"\] Alt text: Lookup using list icon.
 
-6.  Select the Lookup using list icon ![Lookup using list icon](../images/look-up-icon.png) and see whether the terms and conditions record you want to add to the record exists.
+6.  Select the Lookup using list icon \[Omitted image "look-up-icon.png"\] Alt text: Lookup using list icon and see whether the terms and conditions record you want to add to the record exists.
 
 7.  If the record doesn't exist, create it.
 
@@ -52,5 +53,5 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
     All records from the Terms and Conditions related list are added to the **Terms and Conditions** section of the contract record. The terms and conditions records are built in the sequence specified in the **Order** field.
 
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

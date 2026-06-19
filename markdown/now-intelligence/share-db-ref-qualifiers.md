@@ -2,6 +2,7 @@
 title: Dashboard sharing reference qualifiers
 description: Use reference qualifiers to limit the users, groups, and roles in the recipients field of shared dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/share-db-ref-qualifiers.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,13 +24,13 @@ Role required: admin
 
 2.  Open the **par\_dashboard\_permission** table.
 
-3.  Press Ctrl+Click on the Preview Users button ![info button](../../performance-analytics/image/InfoIcon.png)next to Users on the **Columns** tab to open the Users dictionary entry.
+3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: info buttonnext to Users on the **Columns** tab to open the Users dictionary entry.
 
-    Point to the Users Column label to see this button.![Preview Users and Preview Groups buttons on the Columns list of Par Notification Email Recipients](../image/preview-buttons-sched-export.png)
+    Point to the Users Column label to see this button.\[Omitted image "preview-buttons-sched-export.png"\] Alt text: Preview Users and Preview Groups buttons on the Columns list of Par Notification Email Recipients
 
 4.  If you're in the wrong application, select the link to edit the record.
 
-    ![Mismatched application message with link to edit the record](../image/app-mismatch-msg-sched-export.png)
+    \[Omitted image "app-mismatch-msg-sched-export.png"\] Alt text: Mismatched application message with link to edit the record
 
 5.  On the Reference Specification tab of the dictionary entry, use the condition builder to add filter conditions to the User list.
 
@@ -42,5 +43,5 @@ Role required: admin
 
 Perform the same actions on the Group and Role columns to limit sharing with those categories of recipient.
 
-**Parent Topic:**[Share a Platform Analytics dashboard](../../dashboards/task/share-db-in-ac.md)
+**Parent Topic:**[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md)
 

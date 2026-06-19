@@ -2,7 +2,10 @@
 title: Create IT Asset Management content request
 description: Create request for new content via the Service Catalog application for the IT Asset Management content service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/create-itam-content-request.html
 release: australia
+product: IT Asset Management
+classification: it-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

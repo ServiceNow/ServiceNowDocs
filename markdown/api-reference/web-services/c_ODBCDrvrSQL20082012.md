@@ -2,6 +2,7 @@
 title: ODBC driver in SQL Server
 description: Use the ServiceNow ODBC driver in SQL Server as a Linked Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_ODBCDrvrSQL20082012.html
 release: australia
 product: Web Services
 classification: web-services
@@ -23,10 +24,10 @@ Additional information on the required permissions for SQL Server Linked Servers
 
 **Note:** Review this information if you encounter permission errors with SQL Server.
 
--   **[ODBC SQL Server video tutorials](../reference/r_ODBCSQLServerVideos.md)**  
+-   **[ODBC SQL Server video tutorials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_ODBCSQLServerVideos.md)**  
 Watch video tutorials about configuring and troubleshooting the ODBC driver with a SQL Linked Server.
--   **[Configure SQL Server](../task/t_ConfiguringSQLServer.md)**  
+-   **[Configure SQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringSQLServer.md)**  
 The following example configuration was performed on SQL Server 2008, installed on Windows Server 2008.
 
-**Parent Topic:**[ODBC and client applications](../reference/r_ODBCAndClientApplications.md)
+**Parent Topic:**[ODBC and client applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_ODBCAndClientApplications.md)
 

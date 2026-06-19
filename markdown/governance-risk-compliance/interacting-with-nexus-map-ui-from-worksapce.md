@@ -2,6 +2,7 @@
 title: Interacting with the Nexus map UI from the Workspace
 description: Use the Nexus map \(Resilience map\) to define relationships between different records and configuration to show related data with hierarchy and plot those in a node map. You can examine the map's current configuration and identify areas for change. By modifying the configuration, you can observe how the map is updated accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/interacting-with-nexus-map-ui-from-worksapce.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +33,7 @@ Role required: sn\_oper\_res.manager
     -   Application services
     The following example shows the service record for IRCTC Web Portal.
 
-    ![IRCTC Web Portal Application service record.](../image/appl-service-record-for-resil-map.png)
+    \[Omitted image "appl-service-record-for-resil-map.png"\] Alt text: IRCTC Web Portal Application service record.
 
 3.  To open and update the map view of the configuration record, select the **Resilience map** UI action.
 
@@ -44,53 +45,53 @@ Role required: sn\_oper\_res.manager
 
     In the following example, two buttons are configured for the business service resilience map group, each depicting a specific node map. This functionality enables for a tailored visualization of the business service and its associated nodes. By customizing the group name and node maps, you can create a more informative and user-friendly Nexus map.
 
-    ![Multiple Nexus maps.](../image/multiple-nexus-map-configs.png)
+    \[Omitted image "multiple-nexus-map-configs.png"\] Alt text: Multiple Nexus maps.
 
     When you navigate to the Resilience map, the default configuration loads automatically. Selecting a specific root node as shown in the example, displays the corresponding configuration associated with that node.
 
-    ![Default configuration.](../image/appl-service-record-for-resil-map-root-node.png)
+    \[Omitted image "appl-service-record-for-resil-map-root-node.png"\] Alt text: Default configuration.
 
     The root node's styling is displayed, referencing a specific node within the map. The Main node configuration supports both top-to-bottom and bottom-to-top directions, enabling for flexible hierarchical visualization.
 
     The Direction column in the example shows that both upstream and downstream Main node configurations are enabled, reflecting the same hierarchy in the map.
 
-    ![Direction.](../image/main-node-config-direction.png)
+    \[Omitted image "main-node-config-direction.png"\] Alt text: Direction.
 
 4.  To designate a different node as the primary node, simply select it from the map, select and hold \(or right-click\) on it, and choose the **Make this primary** option.
 
     The **Make this primary** option is shown in the example.
 
-    ![Primary.](../image/appl-service-record-for-resil-map-root-node-primary.png)
+    \[Omitted image "appl-service-record-for-resil-map-root-node-primary.png"\] Alt text: Primary.
 
     When you select this option, the map reloads, and a breadcrumb is added to reflect the newly designated root node. You can navigate back to the root node by selecting on the Home icon, which centers the root node on the page. The map then displays the upstream and downstream connections related to the root node.
 
     When you update a node to be the primary \(root\) node, the available options are limited to **Open record** and **Open 360° view** as shown in the example.
 
-    ![Primary (root) node options.](../image/primary-node-two-options.png)
+    \[Omitted image "primary-node-two-options.png"\] Alt text: Primary \(root\) node options.
 
 5.  To open the record associated with the node, select **Open record**.
 
     If you choose **Open record**, it redirects you to the node's overview page.
 
-    ![Overview page.](../image/open-record.png)
+    \[Omitted image "open-record.png"\] Alt text: Overview page.
 
 6.  To open the 360º view associated with the node, select **Open 360º view**.
 
     Selecting **Open 360° view** loads the 360° view configured for that node, as defined in the node configuration settings.
 
-    ![360° view.](../image/record-360-view.png)
+    \[Omitted image "record-360-view.png"\] Alt text: 360° view.
 
 7.  To navigate to the Service record or the list view, use the breadcrumb menu option in the UI.
 
     The example displays the breadcrumb trail navigation to the Service record.
 
-    ![360° view.](../image/record-360-view.png)
+    \[Omitted image "record-360-view.png"\] Alt text: 360° view.
 
 8.  To search for a specific service on the map, select **Find on map**.
 
     The node map includes a "Find on map" feature that enables you to search for a specific service.
 
-    ![Find on map.](../image/find-on-map.png)
+    \[Omitted image "find-on-map.png"\] Alt text: Find on map.
 
     When you initiate a search, the corresponding node is highlighted in the map, and you can select it for further actions. Clearing the search returns the map to its previous state. You can also designate the searched node as the primary node, which updates the map to display the node as the root, along with its upstream and downstream connections.
 
@@ -98,23 +99,23 @@ Role required: sn\_oper\_res.manager
 
     The node map displays grouped nodes, such as first node, second node, and third group as expandable.
 
-    ![Grouped node.](../image/expand-fun-node.png)
+    \[Omitted image "expand-fun-node.png"\] Alt text: Grouped node.
 
     Right-selecting on the grouped node provides options to either view the open list, which lists the number of nodes grouped at that point, or expand the node.
 
-    ![Open list option.](../image/open-list-option.png)
+    \[Omitted image "open-list-option.png"\] Alt text: Open list option.
 
 10. To view additional nodes associated with the selected node, expand the nodes.
 
     The node expansion feature enables you to view additional nodes associated with the selected node, such as the "passenger information" level shown in the example. The expansion of the nodes is updated dynamically based on the number of levels available, enabling a more detailed and controlled exploration of the node map. By using the expand and open list options, you can efficiently navigate the map and better understand the relationships between nodes.
 
-    ![Grouped node.](../image/expand-fun-node.png)
+    \[Omitted image "expand-fun-node.png"\] Alt text: Grouped node.
 
 11. To aggregate nodes at a specific level, change the main node configuration type from "Default" to "Group" and display the consolidated view.
 
     The node map includes an aggregation feature that enables you to group nodes at a specific level. You can change the main node configuration type from "Default" to "Group" as shown in the example.
 
-    ![Group type.](../image/main-node-config-group-type.png)
+    \[Omitted image "main-node-config-group-type.png"\] Alt text: Group type.
 
     This action aggregates the nodes at the selected level, providing a more consolidated view.
 
@@ -122,19 +123,19 @@ Role required: sn\_oper\_res.manager
 
     This action lists the entities that have been aggregated at that point, giving you a clear understanding of the nodes involved.
 
-    ![Open list option.](../image/open-list-option.png)
+    \[Omitted image "open-list-option.png"\] Alt text: Open list option.
 
 13. To access information about the selected node from the side panel, choose the **Info** icon in the side-panel summary.
 
     The node map includes a side panel that provides an overview of the selected configuration. When a node is selected, the side panel displays its details, which update dynamically as you switch between nodes. The default information is shown initially. The **Info** icon is displayed in the side-panel summary as shown in the example.
 
-    ![Info.](../image/info-icon-node.png)
+    \[Omitted image "info-icon-node.png"\] Alt text: Info.
 
 14. To access information about the related lists for the selected node, choose the **Related lists** icon in the side-panel summary.
 
     For a selected node, the side panel shows its associated services and dependencies. For example, if you select the "delay alerts process" node, the side panel displays its three application services or dependencies. Switching to a different node, such as the root node, updates the services and dependencies displayed in the side panel.
 
-    ![Related lists.](../image/related-lists-icon.png)
+    \[Omitted image "related-lists-icon.png"\] Alt text: Related lists.
 
     For the selected node, you can view its associated services and dependencies. The **Refresh** option reloads the related lists to verify you have the most up-to-date information. Meanwhile, the **View all** option displays all available related lists, providing a comprehensive overview.
 
@@ -142,7 +143,7 @@ Role required: sn\_oper\_res.manager
 
     The side panel also displays red flags, which indicate issues or outages related to the selected node. When a node has a red flag, it’s marked as critical with an exclamation mark. For instance, if there's an outage or issue with a node like "SMS alert" or "live status update," it’s highlighted in red.
 
-    ![Red flags for services.](../image/red-flag.png)
+    \[Omitted image "red-flag.png"\] Alt text: Red flags for services.
 
     For the selected node, the following red flags are displayed:
 
@@ -161,25 +162,25 @@ Role required: sn\_oper\_res.manager
 
     The example shows how to update the Node Configuration setting in the Nexus map.
 
-    ![Node configuration.](../image/node-config-modified.png)
+    \[Omitted image "node-config-modified.png"\] Alt text: Node configuration.
 
     The modified Node configuration is shown in the example.
 
-    ![Modified icons.](../image/node-config-modified-icons.png)
+    \[Omitted image "node-config-modified-icons.png"\] Alt text: Modified icons.
 
 17. To customize the Edge status configuration such as changing the color, modify the settings in the Edge status configuration within the Nexus map configuration.
 
     In the example, the node's edges are highlighted in magenta.
 
-    ![Edges of the node.](../image/edge-status-config-for-node.png)
+    \[Omitted image "edge-status-config-for-node.png"\] Alt text: Edges of the node.
 
     The example illustrates how to modify Edge status settings such as color and type.
 
-    ![Modified Edge status configuration.](../image/edge-status-config-updated.png)
+    \[Omitted image "edge-status-config-updated.png"\] Alt text: Modified Edge status configuration.
 
     When you save and reload the map, it reflects the updated edge configuration, displaying all edges as dashed lines in blue as shown in the example.
 
-    ![Edges.](../image/edge-status-config-modified.png)
+    \[Omitted image "edge-status-config-modified.png"\] Alt text: Edges.
 
     To refresh the map, you can either return to the initial main node configuration or simply reload it.
 
@@ -189,24 +190,24 @@ Role required: sn\_oper\_res.manager
 
     The Zoom in icon is shown in the example.
 
-    ![Zoom in.](../image/zoom-in-icon.png)
+    \[Omitted image "zoom-in-icon.png"\] Alt text: Zoom in.
 
 20. To align the map to the home node, select the **Home** icon in the position menu bar.
 
     The Home icon is shown in the example.
 
-    ![Home.](../image/align-to-home-node-icon.png)
+    \[Omitted image "align-to-home-node-icon.png"\] Alt text: Home.
 
 21. To resize the map or fit the node to the screen, select the **Fit to screen** icon in the position menu bar.
 
     The Fit to screen icon is shown in the example.
 
-    ![Fit to screen.](../image/fit-to-screen-icon.png)
+    \[Omitted image "fit-to-screen-icon.png"\] Alt text: Fit to screen.
 
 22. To export the map, select the **Export map** icon in the position menu bar.
 
     The Export map icon is shown in the example.
 
-    ![Export map.](../image/export-map-icon.png)
+    \[Omitted image "export-map-icon.png"\] Alt text: Export map.
 
 

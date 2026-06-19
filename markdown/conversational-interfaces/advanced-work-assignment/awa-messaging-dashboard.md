@@ -2,6 +2,7 @@
 title: Advanced Work Assignment dashboard for messaging
 description: Enable managers to monitor Conversation \[interaction\] work items so that their agents can better support customer needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-messaging-dashboard.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -15,9 +16,9 @@ breadcrumb: [Platform Analytics Solutions for Advanced Work Assignment, Analytic
 
 Enable managers to monitor Conversation \[interaction\] work items so that their agents can better support customer needs.
 
-This dashboard is available in the Performance Analytics - Content Pack - Advanced Work Assignment plugin. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](../../application-content-packs/concept/awa-content-pack.md).
+This dashboard is available in the Performance Analytics - Content Pack - Advanced Work Assignment plugin. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-content-pack.md).
 
-![The dashboard displays indicators and reports to track agent messaging with customers.](../../../administer/advanced-work-assignment/image/AWAMessaging-update.png "AWA dashboard for Messaging")
+\[Omitted image "AWAMessaging-update.png"\] Alt text: The dashboard displays indicators and reports to track agent messaging with customers.
 
 ## End users and roles
 
@@ -60,7 +61,7 @@ Active Conversations
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -72,7 +73,7 @@ Unassigned Conversations
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -84,7 +85,7 @@ In Progress Conversations
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -96,7 +97,7 @@ Average Wait Time - Last 24 Hours
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -108,7 +109,7 @@ Consumer Average Response Time - Past Month
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -120,7 +121,7 @@ Time To First Response - Last 24 Hours
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -132,7 +133,7 @@ Customer Satisfaction - Past Month
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -144,7 +145,7 @@ Service Level
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -178,7 +179,7 @@ Average Handling Time - Last 24 Hours
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 
@@ -190,7 +191,7 @@ Agent Average Response Time - Last 24 Hours
 
 </td><td>
 
-Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)
+Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report
 
 </td><td>
 

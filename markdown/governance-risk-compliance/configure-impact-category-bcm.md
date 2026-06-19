@@ -2,6 +2,7 @@
 title: Configure an impact category for Business Continuity Management
 description: Configure an impact category to define the timeframe during which the organization would experience a downtime of its business processes. Based on the timeframe, you can determine the recovery time objective \(RTO\) of the assets that the business process depends on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-impact-category-bcm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

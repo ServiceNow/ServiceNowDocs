@@ -2,6 +2,7 @@
 title: Setting up Universal Request in Agent Workspaces
 description: Activate Universal Request in agent workspace and set up roles for performing the tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/setup-UR-workspace.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -27,5 +28,5 @@ Universal Request is activated in Agent Workspaces when you enable the Universal
 |Routing agent \[sn\_uni\_req.routing\_agent, agent\_workspace\_user, workspace\_user, sn\_uni\_req.universal\_request\_write, sn\_uni\_req.universal\_request\_read|Create, edit, view and resolve Universal requests.|
 |Routing agent \[sn\_uni\_req.routing\_agent, agent\_workspace\_user, workspace\_user, sn\_uni\_req.universal\_request\_write,sn\_uni\_req.universal\_request\_read, interaction\_agent\]|Handle interactions and create universal request from interaction.|
 
-**Parent Topic:**[Universal Request in Agent Workspaces](universal-request-workspace.md)
+**Parent Topic:**[Universal Request in Agent Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/universal-request-workspace.md)
 

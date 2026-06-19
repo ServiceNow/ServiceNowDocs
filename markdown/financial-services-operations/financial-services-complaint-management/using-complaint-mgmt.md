@@ -2,6 +2,7 @@
 title: Using Financial Services Complaint Management
 description: Learn how branch workers and agents use the Financial Services Complaint Management application to initiate, research, and resolve the complaints cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/using-complaint-mgmt.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -23,7 +24,7 @@ Branch workers and back-office agents use personalized Workspace to work on all 
 -   Focus on high-priority items
 -   Easily navigate across tasks
 
-For more information, see [Workspaces](../../fso-common/concept/fso-workspace.md).
+For more information, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-workspace.md).
 
 <table id="table_qy1_452_wrb"><thead><tr><th>
 
@@ -63,7 +64,7 @@ Complaint admin
 
 </td><td>
 
-Configures the complaint workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md).
+Configures the complaint workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Automated workflow
@@ -72,7 +73,7 @@ A predefined workflow for complaint cases is available with the application.
 
 When a customer submits a complaint, a complaint service case is created and assigned to a complaint agent. After the agent updates the case details using the case playbook, a workflow is triggered. The flow triggers various tasks from the case and the assignment rules route these tasks to the appropriate back-office agents such as complaint and quality.
 
-For more information, see [Financial Services Complaint Management workflow example](fso-complaints-mgmt-workflow.md).
+For more information, see [Financial Services Complaint Management workflow example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-complaint-management/fso-complaints-mgmt-workflow.md).
 
 ## Case playbook
 
@@ -82,5 +83,5 @@ Using the case playbook, complaint agents review and work on their cases and tas
 
 Performance Analytics give business owners an insight into how the team and business is performing. A dashboard with pre-configured reports and customizable views is available with the application.
 
-For more information, see [Complaint Management dashboard](../../../use/dashboards/application-content-packs/fso-complaint-mgmt-dashboard.md).
+For more information, see [Complaint Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-complaint-mgmt-dashboard.md).
 

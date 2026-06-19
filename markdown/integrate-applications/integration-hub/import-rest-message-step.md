@@ -2,6 +2,7 @@
 title: Import a REST message into a REST step
 description: Transfer data from an existing Platform REST message into a REST step.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/import-rest-message-step.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,8 +18,8 @@ Transfer data from an existing Platform REST message into a REST step.
 
 ## Before you begin
 
--   This import is done from within a REST step in Workflow Studio. To create a REST step, [Create an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-action.md) and add a [REST step](../reference/rest-request-action-designer.md) to it.
--   The REST step uses Connection and Credential aliases for authentication details. If your REST message stores authentication details, create a Connection and Credential alias for them. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+-   This import is done from within a REST step in Workflow Studio. To create a REST step, Create an action and add a [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md) to it.
+-   The REST step uses Connection and Credential aliases for authentication details. If your REST message stores authentication details, create a Connection and Credential alias for them. For more information, see Create a Connection and Credential alias.
 -   Role required: admin
 
 ## Procedure
@@ -52,5 +53,5 @@ If the imported REST message has a MID Server configured in any of its functions
 
 Fill in any other required fields and test the step with the **Test REST step** button.
 
-**Parent Topic:**[REST step](../reference/rest-request-action-designer.md)
+**Parent Topic:**[REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md)
 

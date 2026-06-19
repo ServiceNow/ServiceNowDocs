@@ -2,6 +2,7 @@
 title: Automate General Approval policy process
 description: Automate the general approval or rejection of requests based on predefined conditions. Requests are automatically approved when the criteria are met. Otherwise, the system waits for manual approval. You can modify the default policy to include additional conditions as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/automate-account-creation-approval.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -33,7 +34,7 @@ This procedure demonstrates how to approve or reject an account using the genera
 
 4.  Under the **Policy builder** tab, in the **If** condition block, make a note of the source fields against the highlighted values.
 
-    ![Customizing general approval policy](../image/pace_general_approval.png)
+    \[Omitted image "pace\_general\_approval.png"\] Alt text: Customizing general approval policy
 
     **Note:** In this section, you’re validating two conditions:
 
@@ -53,9 +54,9 @@ This procedure demonstrates how to approve or reject an account using the genera
 
 ## What to do next
 
-To test the policy, see [Test updates to a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-test-policy-version.md).
+To test the policy, see .
 
-To publish the policy, see [Publish a PaCE policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-publish-policy-version.md).
+To publish the policy, see .
 
-To add a new approval step in the flow designer, see [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-workflow-studio.md).
+To add a new approval step in the flow designer, see .
 

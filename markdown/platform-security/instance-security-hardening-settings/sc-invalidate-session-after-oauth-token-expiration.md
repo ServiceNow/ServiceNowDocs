@@ -2,6 +2,7 @@
 title: Invalidate Session After OAuth Token Expiration \[New in Security Center 2.0\]
 description: Use a system property to the secure value to prevent users from continuing to use a session via cookies after the OAuth token used to create the session expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-invalidate-session-after-oauth-token-expiration.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Session management](sc-session-management.md)
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -126,5 +127,5 @@ Impact when set to true:
 -   Properly designed integrations that renew tokens proactively.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](sc-session-management.md)
+</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

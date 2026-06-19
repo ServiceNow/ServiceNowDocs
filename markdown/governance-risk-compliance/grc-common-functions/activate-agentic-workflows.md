@@ -2,6 +2,7 @@
 title: Activate agentic workflows in Now Assist for Integrated Risk Management \(IRM\)
 description: You must activate agentic workflows that contain a set of LLM instructions with one or more AI agents to execute tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-agentic-workflows.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -30,7 +31,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 
 3.  On the agentic workflow page, under the **Add AI agents that can perform these steps** section, select an AI agent.
 
-    ![Select an AI agent.](../image/agentic-wf-connect-ai-agents.png)
+    \[Omitted image "agentic-wf-connect-ai-agents.png"\] Alt text: Select an AI agent.
 
 4.  On the AI agent page, perform the following steps:
 
@@ -42,7 +43,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 
     4.  Under the **Toggle display** section, set the status as active.
 
-        ![Status of the AI agent.](../image/ai-agent-status-active.png)
+        \[Omitted image "ai-agent-status-active.png"\] Alt text: Status of the AI agent.
 
     5.  Select **Save and test**.
 
@@ -66,7 +67,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin or sn\_aia.admin
 
     6.  Select **Start test** to initiate the testing of the agentic workflow.
 
-7.  [Turn on the Now Assist panel](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-admin/task/activate-now-assist-panel.html).
+7.  Turn on the Now Assist panel.
 
 
 ## Result

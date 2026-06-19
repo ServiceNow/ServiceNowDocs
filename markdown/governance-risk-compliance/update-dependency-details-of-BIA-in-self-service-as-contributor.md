@@ -2,6 +2,7 @@
 title: Update dependencies of BIAs in Self-Service
 description: Use the contributor role to update the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity section in the BCM application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-dependency-details-of-BIA-in-self-service-as-contributor.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,5 +33,9 @@ If you are a BCM contributor and are part of the Contributors list or you are a 
 5.  To update the record, select **Update**.
 
 
-**Parent Topic:**[Structured workflows for BIAs](../concept/bia-tasks-performed-by-bia-owner.md)
+## Result
+
+**Note:** You cannot add or update dependency items when the business impact analysis is in the **Pending approval** state. Make your dependency updates before the business impact analysis is submitted for approval, or wait until it returns to an editable state.
+
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

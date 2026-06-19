@@ -2,6 +2,7 @@
 title: Virtual Agent pre-built topic blocks for NLU
 description: Virtual Agent provides pre-built topic blocks that topic authors or admins can use to perform specific platform-related functions or tasks in bot conversations. For example, certain topic blocks enable you to check agent availability or generate AI Search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-platform-topicblocks.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ Virtual Agent provides pre-built topic blocks that topic authors or admins can u
 
 Certain pre-built topic blocks are included automatically with the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin and Virtual Agent Lite. If you're using Virtual Agent Lite, you have read access to the topic blocks but you can't create topic blocks or add them to calling topics.
 
-You can duplicate pre-built topic blocks and modify the duplicates by using Virtual Agent Designer. For information about working with topic blocks and how to add them to calling topics, see [Maximizing code reuse with topic blocks](../concept/topic-blocks-overview.md) and [Add a reusable topic block to a calling topic or topic block](../task/add-topic-blocks-to-topic.md).
+You can duplicate pre-built topic blocks and modify the duplicates by using Virtual Agent Designer. For information about working with topic blocks and how to add them to calling topics, see [Maximizing code reuse with topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/topic-blocks-overview.md) and [Add a reusable topic block to a calling topic or topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-topic-blocks-to-topic.md).
 
 The following sections describe the input and output parameters for calling different types of platform topic blocks. The topic block input parameters are passed from the calling topic, and the output parameters are returned from the topic block to the calling topic.
 
@@ -44,7 +45,7 @@ The following table lists the output parameters for this topic block.
 
 Use the deflection topic block in Virtual Agent conversation topics to track the issues that Virtual Agent helped to resolve or actually resolved for a user.
 
-For example, the pre-built Auto Resolution Virtual Agent topic uses a deflection topic block to track deflections. For more information, see [Using the deflection topic block to track deflections in Virtual Agent](../concept/deflections-virtual-agent.md).
+For example, the pre-built Auto Resolution Virtual Agent topic uses a deflection topic block to track deflections. For more information, see [Using the deflection topic block to track deflections in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/deflections-virtual-agent.md).
 
 The following table lists the input parameters for this topic block.
 
@@ -78,7 +79,7 @@ Activity Table
 
 </td><td>
 
-Table where the deflection activity occurs. This table is associated with the primary activity table. For more information, see [Create deflection configurations and patterns](../task/set-up-deflection-settings-va.md).
+Table where the deflection activity occurs. This table is associated with the primary activity table. For more information, see [Create deflection configurations and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-deflection-settings-va.md).
 
 </td></tr><tr><td>
 
@@ -91,11 +92,11 @@ List of comma-separated activity system IDs. For example, incident ID or task ID
 </td></tr></tbody>
 </table>## FAQ Conversation Builder topic block
 
-Use this topic block to build bot conversations that use your existing FAQ content. With this topic block, you can enable topic authors to build simple conversations by using existing [knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md) that are published in the FAQ template or by using Q&amp;A data that was imported from sources such as [spreadsheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_TranslateTheInterface.md).
+Use this topic block to build bot conversations that use your existing FAQ content. With this topic block, you can enable topic authors to build simple conversations by using existing knowledge articles that are published in the FAQ template or by using Q&amp;A data that was imported from sources such as spreadsheets.
 
-The FAQ Conversation Builder topic block uses [contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/configuring-contextual-search.md) to find an appropriate match in the FAQ content. FAQ content is access-controlled based on requester role, access rights, and context.
+The FAQ Conversation Builder topic block uses contextual search to find an appropriate match in the FAQ content. FAQ content is access-controlled based on requester role, access rights, and context.
 
-Activate the [Knowledge Management Advanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md) plugin to use the FAQ Knowledge template.
+Activate the Knowledge Management Advanced plugin to use the FAQ Knowledge template.
 
 **Note:** The default length of an FAQ snippet that is returned in the conversation is 400 characters. The snippet length includes the HTML tags and links that are used in the snippet. To change the snippet length, change the value in the **com.glide.cs.faq.display\_size** system property. In addition to applying the specified length, the system applies word-wrap logic to prevent words and links in the snippet from being truncated arbitrarily.
 
@@ -114,7 +115,7 @@ The following tables list the input and output parameters for this topic block.
 
 ## Form Content Popup topic block
 
-Use this topic block to open a form in a popup window from the chat widget. Once the user submits the required information, the record appears as a card in the Virtual Agent chat window. If a new record is created, the sys ID for that record is sent to the server so that the Virtual Agent topic has that information. For information about creating a pop-up window from a link, see [Create a smart link preference](../../conversational-interfaces/task/create-smart-link-preference.md).
+Use this topic block to open a form in a popup window from the chat widget. Once the user submits the required information, the record appears as a card in the Virtual Agent chat window. If a new record is created, the sys ID for that record is sent to the server so that the Virtual Agent topic has that information. For information about creating a pop-up window from a link, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-smart-link-preference.md).
 
 |Parameter|Description|
 |---------|-----------|
@@ -126,7 +127,7 @@ Use this topic block to open a form in a popup window from the chat widget. Once
 
 Use this topic block to retrieve information about the location of users, if the users agree to that. Before the topic block is called in a conversation, the users are asked if they want their location to be known. For example, the users see a prompt similar to the following:
 
-![Dialog box with block and allow buttons, and message from anonymized website requesting to know user's location.](../images/allow-or-block-location-info.png "User permission prompt")
+\[Omitted image "allow-or-block-location-info.png"\] Alt text: Dialog box with block and allow buttons, and message from anonymized website requesting to know user's location.
 
 Users can choose to block the request or allow their location to be known. If the users click **Allow**, they are later asked if they would like to share their location.
 
@@ -242,17 +243,17 @@ Number of seconds to wait before continuing the chat. The maximum value allowed 
 
 **Note:** If you're upgrading from Rome or a prior release, you must replace the legacy AI Search topic block with the Run AI Search topic block in order for it to work.
 
-Use this topic block to generate AI Search results in a conversation. This block doesn't require specific input parameters from a calling topic because it is controlled by the AI Search application in Virtual Agent. The default Virtual Agent Search Application and EVAM configuration set in the [chat experience](../concept/va-conversation-settings.md) control how AI Search results are displayed in conversations.
+Use this topic block to generate AI Search results in a conversation. This block doesn't require specific input parameters from a calling topic because it is controlled by the AI Search application in Virtual Agent. The default Virtual Agent Search Application and EVAM configuration set in the [chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md) control how AI Search results are displayed in conversations.
 
-For information about how Virtual Agent uses AI Search, see [Improving the user experience with AI Search](../concept/va-ai-search.md). To learn more about Virtual Agent chat experiences and how to configure them, see [Customizing a Virtual Agent chat experience](../concept/va-conversation-settings.md).
+For information about how Virtual Agent uses AI Search, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md). To learn more about Virtual Agent chat experiences and how to configure them, see [Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md).
 
 You can control certain aspects of the Run AI Search topic block:
 
--   Optionally customize the AI Search experience - You can customize the search experience by creating a custom Search Application Configuration to be used by the topic block, rather than the default Virtual Agent Search Application Configuration. The Search Application Configuration defines the search results returned in the conversation. For details on using a custom Search Application Configuration in the topic block, see [Create a custom AI Search experience for Virtual Agent conversations](../task/create-va-aisearch-application.md).
+-   Optionally customize the AI Search experience - You can customize the search experience by creating a custom Search Application Configuration to be used by the topic block, rather than the default Virtual Agent Search Application Configuration. The Search Application Configuration defines the search results returned in the conversation. For details on using a custom Search Application Configuration in the topic block, see [Create a custom AI Search experience for Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-va-aisearch-application.md).
 
     To use the default Virtual Agent configuration for AI Search, leave the **Search Application Configuration** field empty in the Topic Block Properties sheet when you're adding the Run AI Search topic block to a topic.
 
--   Specify an AI Search flow action timeout value - The AI Search flow action in the topic block automatically times out at 10 seconds. You can change the length of time before this flow action times out by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) **com.glide.cs.fdih.atlassearch.timeout** and setting these fields to change the timeout value:
+-   Specify an AI Search flow action timeout value - The AI Search flow action in the topic block automatically times out at 10 seconds. You can change the length of time before this flow action times out by adding the system property **com.glide.cs.fdih.atlassearch.timeout** and setting these fields to change the timeout value:
 
 <table id="table_xdm_ryb_dxb"><thead><tr><th>
 

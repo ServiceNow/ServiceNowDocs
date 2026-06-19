@@ -2,6 +2,7 @@
 title: Operationalize a configuration item
 description: Operationalize a Configuration Item so that you can finalize the changes and apply them on the original CI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/operationalize-a-configuration-item.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -24,11 +25,11 @@ Operationalize a Configuration Item so that you can finalize the changes and app
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Changes** &gt; **All**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Changes** &gt; **All**.
 
 3.  Select the desired change request.
 
-    To create a change request, see [Create a change request from Network Inventory Workspace](create_a_change_request_in_tni.md).
+    To create a change request, see [Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md).
 
 4.  Select the **Change Tasks** tab.
 
@@ -46,7 +47,7 @@ Operationalize a Configuration Item so that you can finalize the changes and app
 
 8.  Select **Operationalize CI** in the **Request type** field and fill other fields.
 
-    To learn more about other fields, see [Change request and change task forms](../concept/change_request_forms.md).
+    To learn more about other fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 9.  Select **Save**.
 
@@ -59,5 +60,5 @@ Operationalize a Configuration Item so that you can finalize the changes and app
     **Note:** On selecting a change request, all the revised Configuration Items \(CIs\) listed under the **Affected CIs** tab are operationalized and the work notes are updated accordingly.
 
 
-**Parent Topic:**[Instantiating your network inventory by using design and assign](../concept/instantiate-asset-using-template-relationship-model.md)
+**Parent Topic:**[Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 

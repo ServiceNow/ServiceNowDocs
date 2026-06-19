@@ -2,6 +2,7 @@
 title: Create and propose a change template
 description: Create, customize, and then propose for publication a change template aligned to a change model to make change creation faster, and promote data quality and consistency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-change-template.html
 release: australia
 product: Change Management
 classification: change-management
@@ -28,15 +29,15 @@ You must have a role with the following access with regard to the change model t
 
 1.  Access the Create a new change template form.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d411441e65">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d38277e65">
 
 Source
 
-</th><th align="left" id="d411441e68">
+</th><th align="left" id="d38277e68">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d411441e74">
+</th></tr></thead><tbody><tr><td id="d38277e74">
 
 **Change Model**
 
@@ -48,7 +49,7 @@ Description
 
 **Note:** You can propose a new template only if you have access to the change model.
 
-</td></tr><tr><td id="d411441e111">
+</td></tr><tr><td id="d38277e111">
 
 **Create a change request page**
 
@@ -68,7 +69,7 @@ Description
 6.  Select **Create a new template**.
 
 
-</td></tr><tr><td id="d411441e168">
+</td></tr><tr><td id="d38277e168">
 
 **Templates tab**
 
@@ -126,7 +127,7 @@ Description
 
     **Note:** You can also create parent and child category hierarchies and assign templates for each category.
 
-    For more information, see [Configure template categories](configure-template-categories.md).
+    For more information, see [Configure template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-template-categories.md).
 
 9.  Propose the new template and share it for approval by selecting **Publish**.
 
@@ -136,7 +137,7 @@ Description
 
     If no approvers have been configured for the change template, the template moves from Proposed to Published state by default. If the template is active, the published template is available for use immediately.
 
-    For information about template approval flows, see [Change template management flows](../concept/change-template-management-flows.md).
+    For information about template approval flows, see [Change template management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-template-management-flows.md).
 
 10. Select **Save**.
 
@@ -147,16 +148,16 @@ A change template is created and sent for approval to the approvers configured i
 
 To view the review status of all the templates proposed by you, navigate to **All** &gt; **Models** &gt; **My Template Proposals**.
 
--   **[Configure template categories](configure-template-categories.md)**  
+-   **[Configure template categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-template-categories.md)**  
 Create template categories and child categories to classify templates based on a change model, template usage, and organizational areas like software or security.
--   **[Modify a template](modify-or-retire-template.md)**  
+-   **[Modify a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/modify-or-retire-template.md)**  
 Copy and modify change templates.
--   **[Review a change template](review-change-template.md)**  
+-   **[Review a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/review-change-template.md)**  
 Review a change template proposed for common change requests.
--   **[Retire a change template](retire-a-change-template.md)**  
+-   **[Retire a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/retire-a-change-template.md)**  
 Retire change templates that you no longer need.
--   **[Change template management flows](../concept/change-template-management-flows.md)**  
+-   **[Change template management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-template-management-flows.md)**  
 Change template management flows trigger and manage steps for the template proposal, modification, and retirement processes.
 
-**Parent Topic:**[Create a Change model](create-a-change-model.md)
+**Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-a-change-model.md)
 

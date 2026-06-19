@@ -2,6 +2,7 @@
 title: Satisfaction Survey Scorecard
 description: Apply filters to refine the predefined HR satisfaction surveys results to analyse and gain insight into the survey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_SatisfactionSurvey.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -60,11 +61,11 @@ Click the menu icon and select the type of image file. After the file is generat
 
 The **Checkbox** and **Yes/No** data types are combined into the **Boolean** data type in the Survey Designer
 
-![Survey category results](../image/HRReqSatSurvey.png "Survey category results")
+\[Omitted image "HRReqSatSurvey.png"\] Alt text: Survey category results
 
 To view details about a specific response, point to a colored bar, the number of responses, and the percentage it represents displays.
 
-![Survey scorecard category results detail](../image/SurveyScorecardResultDetail.png "Survey scorecard category results detail")
+\[Omitted image "SurveyScorecardResultDetail.png"\] Alt text: Survey scorecard category results detail
 
-**Parent Topic:**[HR Dashboards &amp; Reports](../concept/c_HRDashboardsReports.md)
+**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 

@@ -2,6 +2,7 @@
 title: Create Kafka credentials
 description: Configure credentials for your Apache Kafka connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-kafka-ssl-credentials.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -26,7 +27,7 @@ Configure connection and credential records for connecting to your local Apache 
 -   The connection record contains the information required for making the connection to your local Kafka. Connection records are stored in the Kafka Connections \[kafka\_connection\] table.
 -   The credential record stores the authentication data required for the connection. Credential records are stored in the Kafka credentials \[kafka\_credentials\] table.
 
-After you've created both the connection record and the credential record, you can [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md), which links your connection information and the credential data under a single name.
+After you've created both the connection record and the credential record, you can , which links your connection information and the credential data under a single name.
 
 ## Procedure
 
@@ -38,14 +39,14 @@ After you've created both the connection record and the credential record, you c
 
 4.  On the Kafka credentials form, fill in the fields.
 
-    For a description of the fields, see [Kafka credentials fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-kafka-credentials.md).
+    For a description of the fields, see Kafka credentials fields.
 
 5.  Select **Submit**.
 
 
 ## What to do next
 
-[Configure a Kafka connection](configure-kafka-connection.md).
+[Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-kafka-connection.md).
 
-**Parent Topic:**[Stream Connect Message Replication](../concept/stream-connect-message-replication.md)
+**Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

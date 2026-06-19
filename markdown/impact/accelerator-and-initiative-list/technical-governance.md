@@ -2,6 +2,7 @@
 title: Technical Governance
 description: Guidance on technical governance management of the ServiceNow AI Platform
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/technical-governance.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -15,15 +16,17 @@ breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiative
 
 Guidance on technical governance management of the ServiceNow AI Platform
 
-## Overview
+## Accelerator Overview
 
 Technical Governance provides Impact Customers with a framework that defines how to govern and manage the stability of the ServiceNow platform. This Impact Accelerator aims to assist Customers in establishing technical decision-making processes, and governance policies and processes that can facilitate faster implementations and upgrades, smoother development, and greater value from enhanced feature adoption.
 
-**Note:** This Accelerator is available in Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
 ## What you get
 
--   **Introductory Customer Session \(up to 60 min\)**
+-   **Introductory Customer Session \(up to 1 hr\)**
     -   Set expectations on process and depth of deliverable
     -   Communicate expectation for Customer participation
     -   Request data and any other inputs from Customer
@@ -35,7 +38,7 @@ Technical Governance provides Impact Customers with a framework that defines how
     -   Workshop slides
     -   Action planning notes
     -   Action planning templates
--   **Follow-up Customer Session \(optional upon Customer request – up to 60 min\)**
+-   **Follow-up Customer Session \(optional upon Customer request – up to 1 hr\)**
     -   Opportunity for Q&amp;A related to Technical Governance Deliverables
     -   Provide additional guidance on leading practices
 

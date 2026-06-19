@@ -2,6 +2,7 @@
 title: Run Software Asset Management Foundation plugin software reconciliation in workspace
 description: Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in the Software Asset Workspace environment on-demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/run-samf-software-recon-workspace.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -134,5 +135,5 @@ The date and time when the particular reconciliation process was completed.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[License usage view for Software Asset Management Foundation plugin](../concept/license-usage-view-for-samf.md)
+**Parent Topic:**[License usage view for Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/license-usage-view-for-samf.md)
 

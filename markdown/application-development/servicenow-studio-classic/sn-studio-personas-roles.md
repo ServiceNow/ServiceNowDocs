@@ -1,7 +1,8 @@
 ---
 title: ServiceNow Studio personas and roles
-description: Admins, delegated developers, and users with Guided Application Creator roles have access to work in ServiceNow Studio.
+description: Admins, delegated developers, and users with Guided Application Creator roles can access and develop in ServiceNow Studio. Each role has different capabilities and permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sn-studio-personas-roles.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -13,13 +14,13 @@ breadcrumb: [Managing access to ServiceNow Studio, Configure, ServiceNow Studio,
 
 # ServiceNow Studio personas and roles
 
-Admins, delegated developers, and users with Guided Application Creator roles have access to work in ServiceNow Studio.
+Admins, delegated developers, and users with Guided Application Creator roles can access and develop in ServiceNow Studio. Each role has different capabilities and permissions.
 
-## ServiceNow Studio personas
+## What can each role do in ServiceNow Studio?
 
-Admins and delegated developers have different capabilities in ServiceNow Studio. Admins can delegate people to work on certain apps and app files by providing delegated developer permissions.
+Admins and delegated developers have different capabilities in ServiceNow Studio. Admins can delegate users to work on specific apps and app files by assigning delegated\_developer permissions.
 
-For more information about roles and access to different app development tools, see [Working with roles and access in app development tools](working-with-roles-and-access.md).
+For more information about roles and access to different app development tools, see [Roles and access in app development tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-roles-and-access.md).
 
 <table id="table_clb_2w1_xcc"><thead><tr><th>
 
@@ -39,12 +40,12 @@ Delegated developer \(delegated\_developer\)
 
 </td><td>
 
-Delegated developers have access to just the app or apps they're delegated to. These permissions may vary based on your configuration.
+Delegated developers have access only to the apps they are assigned to. Permissions may vary based on your configuration.
 
 </td><td>
 
 -   Access ServiceNow Studio.
--   Update apps that they are given delegated development permissions for.
+-   Update apps they have delegated development permissions for.
 -   Create an update set to package changes.
 -   Create and update app files and other metadata records.
 -   Submit an app for deployment through update sets, pipelines, or the Application Repository.
@@ -61,7 +62,7 @@ Admins can review and approve tasks related to custom application development.
 
 -   Access ServiceNow Studio.
 -   Create apps in ServiceNow Studio.
--   Edit existing apps and app files or delegate development to someone else.
+-   Edit existing apps and app files, or delegate development to another user.
 -   Create, edit, and manage update sets.
 -   Update existing metadata records.
 -   Create and edit global \(unscoped\) metadata records.
@@ -90,11 +91,11 @@ Provides administrative access to tables within ServiceNow Studio scope and conf
 
 </td><td>
 
-Granular admin role that enables the following actions:-   Managing all ServiceNow Studio system properties, settings, and configurations.
--   Managing roles and permissions specific to ServiceNow Studio.
--   Configuring the experience switcher roles across Creator Studio, ServiceNow Studio, and ServiceNow IDE.
+Granular admin role that enables the following actions:-   Manage all ServiceNow Studio system properties, settings, and configurations.
+-   Manage roles and permissions specific to ServiceNow Studio.
+-   Configure the experience switcher roles across Creator Studio, ServiceNow Studio, and ServiceNow IDE.
 
-For more information about granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For more information about granular admin roles, see .
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ Provides administrative access to configure preferred tables for Table Builder.
 
 </td><td>
 
-Granular admin role that enables you to configure preferred tables in your instance for Table Builder.**Note:** Table Builder itself does not require an additional admin role.
+Granular admin role that enables you to configure preferred tables in your instance for Table Builder.**Note:** Table Builder does not require an additional admin role.
 
 </td></tr><tr><td>
 
@@ -115,15 +116,15 @@ Metadata-specific admin roles-   Business rule admin
 
 </td><td>
 
-Provide access to ServiceNow Studio
+Provide access to ServiceNow Studio.
 
 </td><td>
 
-Metadata-specific admin roles are existing roles on the ServiceNow AI Platform that provide developers with admin access to a specific metadata type. For example, a script include admin allows a developer to CRUD any script include on the ServiceNow AI Platform and perform development on script includes in ServiceNow Studio. Each granular metadata-specific admin role must:
+Metadata-specific admin roles are existing roles on the ServiceNow AI Platform that provide developers with admin access to a specific metadata type. For example, the script include admin role enables a developer to create, read, update, and delete \(CRUD\) any script include on the ServiceNow AI Platform and perform development on script includes in ServiceNow Studio.Each metadata-specific admin role must:
 
--   Enable CRUD access to the metadata types they represent directly within ServiceNow Studio.
+-   Enable CRUD access to the metadata types it represents directly within ServiceNow Studio.
 -   Be configurable within the experience switcher.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing access to ServiceNow Studio](manage-access-to-servicenow-studio.md)
+</table>**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)
 

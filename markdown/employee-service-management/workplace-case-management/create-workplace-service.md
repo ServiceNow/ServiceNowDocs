@@ -2,6 +2,7 @@
 title: Create a Workplace service
 description: Create a workplace service with predefined steps of fulfillment. Select the fulfillment type required based on the workplace service. Create workplace services like catering, office supply request, parking, or any service to support employees needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-workplace-service.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -45,7 +46,7 @@ Create a workplace service and specify how the workplace service must be fulfill
 
 3.  On the Workplace service form, fill in the fields.
 
-    For a description of the field values, see [Workplace Service form](../reference/workplace-service-form.md).
+    For a description of the field values, see [Workplace Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/workplace-service-form.md).
 
 4.  Select **Submit**.
 
@@ -58,5 +59,5 @@ Create a workplace service and specify how the workplace service must be fulfill
 
 ## Result
 
-The workplace service is created and is requested whenever the associated record producer is selected. If you want to create a workplace service activity for the workplace service, refer to [Create a Workplace service activity](create-workplace-service-activity.md).
+The workplace service is created and is requested whenever the associated record producer is selected. If you want to create a workplace service activity for the workplace service, refer to [Create a Workplace service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/create-workplace-service-activity.md).
 

@@ -2,6 +2,7 @@
 title: Service Portfolio Management portfolios
 description: A service portfolio presents an overall top-level view of your currently available services, possible future services, and services that existed in the past. Evaluate the impact that services have on your business and manage them in a single portfolio or multiple portfolios with unique taxonomy structures, owners, and market scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-service-portfolios.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -81,5 +82,5 @@ As a portfolio\_admin user, you can create a single service portfolio or multipl
 -   Update services and service offerings \(the service\_editor role also has access\).
 -   Reparent services \(the service\_editor role also has access\).
 
-**Parent Topic:**[Exploring Service Portfolio Management](c_ServicePortfolioManagementv2.md)
+**Parent Topic:**[Exploring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
 

@@ -2,6 +2,7 @@
 title: Populate Cloud Account Management dependent tables
 description: Provide the required information for cloud account creation and provisioning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/add-account-details.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

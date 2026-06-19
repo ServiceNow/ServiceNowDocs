@@ -2,6 +2,7 @@
 title: DevOps value stream metrics in Digital Portfolio Management
 description: View key metrics related to the performance of your solutions in Digital Portfolio Management \(DPM\). If you manage your solutions in a DevOps model, then you can view DevOps data for your business applications as well as link to the DevOps Change Workspace directly from DPM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-devops-metrics.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -17,7 +18,7 @@ View key metrics related to the performance of your solutions in Digital Portfol
 
 Key metrics help you evaluate the impact on the performance of work being done on your solutions. View DevOps value stream metrics in the context of your business applications in DPM, for example, mean time to restore from changes, change failure rates, and lead time. You can also access the DevOps Change Workspace directly from your business applications in DPM to make data-driven decisions. Accelerate metrics are displayed on both the **Build** tab and the **Run** tab so that you can view the data in the context of your business applications for each phase. You can see flow metrics data on the **Build** tab of your business applications.
 
-**Note:** To view DevOps accelerate metrics and flow metrics in DPM, admins must enable the DevOps system property. See [Configure the Digital Portfolio Management experience](../task/dpm-configure-experience.md) for more information.
+**Note:** To view DevOps accelerate metrics and flow metrics in DPM, admins must enable the DevOps system property. See [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-configure-experience.md) for more information.
 
 On the **Build** tab of your business applications, view the following data in numeric forms and in charts:
 

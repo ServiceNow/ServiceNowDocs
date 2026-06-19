@@ -2,6 +2,7 @@
 title: Actionable notifications for Issue Auto Resolution in ITSM Virtual Agent
 description: Notify employees when Virtual Agent finds a topic that matches the end user's intent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-notifications-iar.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -19,15 +20,15 @@ Issue Auto Resolution sends actionable notifications through Virtual Agent direc
 
 Actionable notifications contain buttons that the end user can select. Each button is mapped to a topic that is enabled for Issue Auto Resolution. Based on the end user's selections, different aspects of Issue Auto Resolution execute, according to the logic of the matched topic.
 
-For more information about Issue Auto Resolution, see [Using Issue Auto Resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md) and [Issue Auto Resolution for ITSM Virtual Agent](../concept/itsm-va-auto-resolution.md).
+For more information about Issue Auto Resolution, see Using Issue Auto Resolution and [Issue Auto Resolution for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-auto-resolution.md).
 
-**Note:** You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](../task/setup-actionable-notifications.md).
+**Note:** You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 ## Issue Auto Resolution
 
 End users receive this notification when an incident is created and the incident short description relates to an existing Issue Auto Resolution topic intent. The end user can choose to accept the Virtual Agent assistance, wait for a human agent, or skip the notification.
 
-![Actionable notification for Issue Auto Resolution printer issues.](../image/IARprinter1.png)
+\[Omitted image "IARprinter1.png"\] Alt text: Actionable notification for Issue Auto Resolution printer issues.
 
 If the end user accepts the Virtual Agent assistance, the matched Issue Auto Resolution topic runs and Virtual Agent provides suggestions to resolve the issue.
 
@@ -37,5 +38,5 @@ After Virtual Agent provides suggestions to resolve the issue, the end user can 
 
 End users receive this notification to remind them that virtual assistance has been found to help them. The end user can choose to accept the Virtual Agent assistance, wait for a human agent, or skip the notification.
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](../concept/itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 

@@ -2,6 +2,7 @@
 title: Discovery with Software Asset Management
 description: The table structure for managing software installations behaves differently when the Software Asset Management \(SAM\) application is activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/c\_DiscoSWAssetMgmtTableSchema.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -34,10 +35,10 @@ The following tables are created when the Software Asset Management plugin is ac
     **Important:** When SAM is installed, the Software Installation \[cmdb\_sam\_sw\_install\] table is the appropriate source for all current software data. This means you need to update any related lists or customized reference fields you added to CI records.
 
 
-Starting with the Kingston release, the Discovery populates the VMWare License Key \[samp\_vmware\_license\_key\] and VMWare License Key Usage \[samp\_vmware\_license\_key\_usage\] tables. See [Data collected for VMware Cloud Discovery](../reference/data-collected-vmware-cloud-disco.md) for more information on where Discovery saves vCenter data.
+Starting with the Kingston release, the Discovery populates the VMWare License Key \[samp\_vmware\_license\_key\] and VMWare License Key Usage \[samp\_vmware\_license\_key\_usage\] tables. See [Data collected for VMware Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.md) for more information on where Discovery saves vCenter data.
 
--   **[Configure a CI to display Software Asset Management data](../task/configure-ci-to-display-sam-data.md)**  
+-   **[Configure a CI to display Software Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/configure-ci-to-display-sam-data.md)**  
 Configure computer configuration item \(CI\) forms to display data from the Software Installations \[cmdb\_sam\_sw\_install\] table.
 
-**Parent Topic:**[Software discovery](c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
 

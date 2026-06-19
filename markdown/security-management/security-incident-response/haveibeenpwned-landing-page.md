@@ -2,12 +2,13 @@
 title: Have I been pwned? integration
 description: The Security Operations Have I been pwned? integration enables you to submit lookups on domain names and email addresses to determine whether user personal data has been compromised by data breaches.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/haveibeenpwned-landing-page.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -19,36 +20,36 @@ The Security Operations Have I been pwned? integration enables you to submit loo
 
 Explore
 
- [Security Incident Response integrations](../../../security-incident-response/concept/sir_integrations.md)
+ [Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir_integrations.md)
 
 </td><td>
 
 Set up
 
- -   [Have I been pwned? integration setup](../concept/haveibeenpwned-setup.md)
--   [Activate](../task/activate-haveibeenpwned.md)
+ -   [Have I been pwned? integration setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/haveibeenpwned-setup.md)
+-   [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/activate-haveibeenpwned.md)
 
 </td></tr><tr><td>
 
 Use
 
- [Perform lookups on observables](../../../threat-intelligence/task/perform-lookups-on-observables.md) [Threat Lookup - Have I been pwned? flow](../concept/threat-lookup-haveibeenpwned-wf.md)
+ [Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/perform-lookups-on-observables.md) [Threat Lookup - Have I been pwned? flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/threat-lookup-haveibeenpwned-wf.md)
 
 </td><td>
 
 Develop
 
- -   [ServiceNow Security Operations integration development guidelines](../../../security-operations-integrations/concept/c_IntegrationWritingGuidelines.md)
--   [Tips for writing integrations](../../../security-operations-integrations/concept/c_BestPractisesIntegrations.md)
+ -   [ServiceNow Security Operations integration development guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/c_IntegrationWritingGuidelines.md)
+-   [Tips for writing integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/c_BestPractisesIntegrations.md)
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md)
+-   Find components installed with an application
 
 </td></tr><tr><td>
 
 Troubleshoot and get help
 
- -   [Integration troubleshooting](../../../security-operations-integrations/concept/c_IntegrationTroubleshooting.md)
+ -   [Integration troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/c_IntegrationTroubleshooting.md)
 -   [Ask or answer questions in the Security Operations community](https://community.servicenow.com/community/security-operations)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)

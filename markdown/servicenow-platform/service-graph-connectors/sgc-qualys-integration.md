@@ -2,6 +2,7 @@
 title: Service Graph Connector for Qualys
 description: The Service Graph Connector for Qualys pulls in asset inventory data \(hardware and software\) from the Qualys database into the Configuration Management Database \(CMDB\) application in your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-qualys-integration.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,7 +18,7 @@ The Service Graph Connector for Qualys pulls in asset inventory data \(hardwar
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Supported versions
 
@@ -44,11 +45,11 @@ The following are examples on how you can use the Service Graph Connector for Qu
 
 ## Guided Setup
 
-The guided setup for the Service Graph Connector for Qualys provides you with an organized sequence of tasks to configure the integration on your instance. For instructions, see [Configure the Service Graph Connector for Qualys](../task/sgc-qualys-configure.md).
+The guided setup for the Service Graph Connector for Qualys provides you with an organized sequence of tasks to configure the integration on your instance. For instructions, see [Configure the Service Graph Connector for Qualys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-qualys-configure.md).
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Qualys integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](../../../configuration-management/concept/integration-commons-for-cmdb.md#section_fxg_lh4_blb).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Qualys integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 ## Hardware CI Rules
 

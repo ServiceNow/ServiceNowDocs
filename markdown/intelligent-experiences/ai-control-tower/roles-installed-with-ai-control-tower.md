@@ -1,7 +1,8 @@
 ---
 title: AI Control Tower roles
-description: Certain roles are installed along with the installation of the AI Control Tower.
+description: Certain roles are installed along with the installation of the AI Control Tower.This section also covers roles which are installed with AI Risk and Compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -14,7 +15,7 @@ breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
 
 # AI Control Tower roles
 
-Certain roles are installed along with the installation of the AI Control Tower.
+Certain roles are installed along with the installation of the AI Control Tower.This section also covers roles which are installed with AI Risk and Compliance.
 
 <table id="table_a4d_hpy_yfc"><thead><tr><th>
 
@@ -30,7 +31,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-AI steward\[sn\_ai\_governance\_ai\_steward\]
+AI steward\[sn\_ai\_governance.ai\_steward\]
 
 </td><td>
 
@@ -93,11 +94,11 @@ None
 
 </td></tr><tr><td>
 
-AI asset owner/Product owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
+AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
 
 </td><td>
 
-The AI asset owner/Product owner is responsible for:
+The AI asset owner is responsible for:
 
  -   Confirm that AI assets are represented accurately and kept up to date
 -   Manage AI assets like AI systems, AI models, datasets, and prompts through their asset lifecycle from intake to retirement
@@ -237,7 +238,7 @@ The ​AI Risk and Compliance User can perform the following tasks:-   Create AI
 -   sn\_smart\_asmt.assessment\_reader
 -   sn\_risk\_advanced.risk\_asmt\_project\_reader
 
-**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](roles-installed-with-ai-control-tower.md).
+**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md).
 
 </td></tr><tr><td>
 

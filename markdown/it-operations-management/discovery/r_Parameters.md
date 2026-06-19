@@ -2,6 +2,7 @@
 title: SSHCommand parameters
 description: Several parameters are available for the SSHCommand probe.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_Parameters.html
 release: australia
 product: Discovery
 classification: discovery
@@ -15,7 +16,7 @@ breadcrumb: [SSHCommand probe, List of Discovery probes, Discovery probes and se
 
 Several parameters are available for the SSHCommand probe.
 
-For instructions on configuring probe parameters, see [Set probe parameters](../task/t_SetProbeParameters.md).
+For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md).
 
 <table id="table_kdv_bcm_vp"><thead><tr><th>
 
@@ -218,8 +219,8 @@ credentials\_debug
 
 </td><td>
 
-Displays a &lt;credentials\_debug&gt; section in the ECC queue, which can help you troubleshoot credentials. If you set this property to true, credential troubleshooting information is output to the ECC queue, even if the credentials succeed. See [Credentials Troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CredentialTroubleshooting.md) for more information.
+Displays a &lt;credentials\_debug&gt; section in the ECC queue, which can help you troubleshoot credentials. If you set this property to true, credential troubleshooting information is output to the ECC queue, even if the credentials succeed. See Credentials Troubleshooting for more information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SSHCommand probe](../concept/c_SSHCommandProbe.md)
+</table>**Parent Topic:**[SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SSHCommandProbe.md)
 

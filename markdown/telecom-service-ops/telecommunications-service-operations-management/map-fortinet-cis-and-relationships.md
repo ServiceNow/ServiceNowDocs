@@ -2,11 +2,12 @@
 title: Map Fortinet CIs and relationships
 description: Use the Service Graph Connector \(SGC\) for Fortinet SD-WAN to map discovered physical and logical network resources to telecom-aligned configuration item \(CI\) classes in the Configuration Management Database \(CMDB\). Service Graph Connectors support consistent service modeling, provide visibility into chassis-level components, and automate the creation of logical and physical relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/map-fortinet-cis-and-relationships.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Configure Fortinet SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
@@ -214,17 +215,15 @@ Represents discovered IP addresses for CIs.
 Owned by the corresponding CI.
 
 </td></tr></tbody>
-</table>## Discovered license expiration dates
+</table>## Discovered logical interfaces
 
-When the Fortinet SGC discovers an IP router, it also retrieves license expiration dates for all services associated with that device. Because individual devices can have multiple active services — such as anti-spam, firmware updates, and hardware updates — each service has its own expiration date. By default, these dates are stored as additional attributes on the CI and are visible in the **Key Value** section of the CI record, using the naming convention `license_expiration_date_*SERVICE\_CODE*`.
+In addition to physical ports, the SGC discovers logical interfaces, such as tunnel and VPN interfaces \(for example, `Hub1-inetVPN`, `inetVPN`, and `mplsVPN`\), from the Fortinet inventory. Each logical interface is created as a network interface CI \(`cmdb_ci_ni_interface`\) and related to its parent device \(IP router\) CI.
 
-A default implementation is provided default. To override the default storage behavior, use the provided scripted extension point. For example, instead of storing a separate attribute per service, you can store a single attribute representing the earliest expiration date across all services.
+Because a CMDB CI exists for each logical interface, metrics that report against a logical interface name are mapped to the corresponding logical interface CI rather than to the parent device CI. This mapping enables interface-level metric correlation and reporting for tunnel and VPN interfaces.
 
-To override the default behavior:
+## Firmware version calculation
 
-1.  Navigate to **All &gt; System Scripted Extension Points &gt; Scripted Extension Points**.
-2.  Open the **\[TBD: extension point name\]** extension point.
-3.  Create a new implementation.
-4.  Set the **Order** field to a value less than `100`. The default implementation has an order of 100; implementations with a lower order number execute first and take precedence.
-5.  Implement your custom logic in the provided method. The input is the contract items returned by the FortiManager API, which contains the license data for all services. Your implementation should return the attributes you want to store on the CI.
+When the SGC discovers an IP router, it sets the firmware version on the `cmdb_ci_ip_router` CI by joining the device `os_ver`, `mr`, and `patch` fields from the Fortinet inventory with periods. For example, a device with `os_ver=7`, `mr=4`, and `patch=11` resolves to `7.4.11`, matching the value shown in the Fortinet GUI. If any of these fields is missing, the firmware version is left empty.
+
+To calculate the firmware version differently, override the default with the `sn_sgc_fortinet.FortinetCustomizedFirmwareVersion` extension point. Create an implementation that defines a `formatFirmwareVersion(device)` handler, where `device` is the Fortinet device object returned by the API. Return your own version string from the handler, or return `null` to use the default calculation.
 

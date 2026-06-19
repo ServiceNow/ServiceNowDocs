@@ -2,6 +2,7 @@
 title: Install Task Intelligence Admin Console
 description: You can install the Task Intelligence application \(sn\_ti\_admin\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/install-task-intelligence.html
 release: australia
 product: Task Intelligence
 classification: task-intelligence
@@ -29,7 +30,7 @@ The following items are installed with Task Intelligence Admin Console:
 -   Roles
 -   Tables
 
-For more information, see [Task Intelligence roles](../reference/task-intelligence-roles.md#).
+For more information, see [Task Intelligence roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/task-intelligence-roles.md).
 
 ## Procedure
 

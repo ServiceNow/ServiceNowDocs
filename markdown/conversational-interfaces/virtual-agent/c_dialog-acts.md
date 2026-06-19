@@ -2,6 +2,7 @@
 title: Dialog Acts for Virtual Agent
 description: As part of the Vancouver release, the Dialog Acts feature expands natural language communication with Virtual Agent, leading to more fluid conversations between user and agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/c\_dialog-acts.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,11 +26,11 @@ User utterances are stored in the Open NLU Predict State Tracking \[open\_nlu\_p
 
 ## Activating Dialog Acts
 
-Activate Dialog Acts by toggling the **Enable Dialog Acts** switch in the [Create a topic form](../reference/vad-topic-creation-form.md) or the [Topic Properties tab](../reference/vad-topic-properties-tab.md). When activated, a second **Confirm modified values** toggle appears. Use this switch to provide a prompt confirming that a variable is to be changed based on your utterances.
+Activate Dialog Acts by toggling the **Enable Dialog Acts** switch in the [Create a topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-creation-form.md) or the [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md). When activated, a second **Confirm modified values** toggle appears. Use this switch to provide a prompt confirming that a variable is to be changed based on your utterances.
 
 ## Considerations for implementing Dialog Acts
 
-The Dialog Acts feature is available as long as NLU is active for the instance and the topic. However, at least one of the preconfigured responses must be Active for the Dialog Acts toggles in the [Topic Properties tab](../reference/vad-topic-properties-tab.md) to be available. Dialog Acts can work without a model intent, but it can't select an entity if the topic is not associated with that model or intent.
+The Dialog Acts feature is available as long as NLU is active for the instance and the topic. However, at least one of the preconfigured responses must be Active for the Dialog Acts toggles in the [Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-topic-properties-tab.md) to be available. Dialog Acts can work without a model intent, but it can't select an entity if the topic is not associated with that model or intent.
 
 Decision nodes can be modified by a condition or script to skip reprompting by Dialog Acts. However, the **Modify Dialog Acts** toggle doesn't work if there are multiple date-time nodes on a topic.
 

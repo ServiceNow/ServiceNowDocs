@@ -2,6 +2,7 @@
 title: Set up primary and secondary filters for Security Analyst Workspace
 description: The Security Analyst Workspace base system includes a set of primary filters for narrowing down the list of security incidents for analysis \(for security incidents assigned to you, all open incidents, and so forth\) and a set of quick \(or secondary\) filters for narrowing down the list even further \(by new incidents, open incidents, only critical incidents, and so forth\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-filters-for-new-ui.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,11 +22,7 @@ You can use the Classic environment to define additional primary and secondary f
 
 As you define filters to be used in the Security Analyst Workspace, you can assign tags to indicate whether they can be used as primary or secondary filters. Primary filters are shown at the top of the security incident list.
 
-![Primary filter](../image/primary-filter.png)
-
-Click **Edit** next to the Quick Filters option to select secondary \(or quick\) filters.
-
-![Secondary or quick filter selection](../image/secondary-filters.png)
+Select **Edit** next to the Quick Filters option to select secondary \(or quick\) filters.
 
 Role required: admin or sn\_sec\_cmn.write
 
@@ -33,7 +30,7 @@ Role required: admin or sn\_sec\_cmn.write
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Filters**.
 
-2.  Click **New** and complete the following steps.
+2.  Select **New** and complete the following steps.
 
     1.  Enter a **Title**.
 
@@ -41,11 +38,9 @@ Role required: admin or sn\_sec\_cmn.write
 
     3.  Add your filter conditions.
 
-        For example, the **Open Incidents with Priority = Critical** filter, uses these conditions.
+        For example, the **Open Incidents with Priority = Critical** filter.
 
-        ![Filter conditions](../image/filter-conditions.png)
-
-    4.  Click **Submit**.
+    4.  Select **Submit**.
 
 3.  If the **Tags** column is not visible on the filter list, click the gear icon and personalize the view to add it.
 
@@ -59,5 +54,5 @@ Role required: admin or sn\_sec\_cmn.write
 **Related topics**  
 
 
-[Create and edit filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_EditingSavedFilters.md)
+[bundle-platux.t_EditingSavedFilters]
 

@@ -2,6 +2,7 @@
 title: IBM user-based licenses
 description: You can use the Software Asset Management publisher pack for IBM to track and manage your IBM user-based licenses, including authorized user licenses and user value unit \(UVU\)-based licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/ibm-user-based-licensing.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -19,7 +20,7 @@ Supported UVU-based licenses include authorized UVU, employee UVU, and external 
 
 IBM user-based licensing enables you to license the users who require access to your IBM software products. You can track and optimize the compliance of your IBM user-based licenses by reconciling the associated IBM software products through client access records. With a client access record, you can specify the total number of users who are granted access to a particular version of an IBM software product. For more granular control, you can also identify the specific users who are granted access to that product. The Software Asset Management application can then compare this information against the software rights and allocations that are defined in the corresponding software entitlements to determine if the associated user-based licenses are compliant.
 
-For more information on client access records in the Software Asset Workspace, see [Create a software client access record in workspace](../task/create-clientaccess-workspace.md). For more information on client access records in the Software Asset Management classic application, see [Add a software client access record in Software Asset Management classic](../task/t_AddAClientAccessRec.md).
+For more information on client access records in the Software Asset Workspace, see [Create a software client access record in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-clientaccess-workspace.md). For more information on client access records in the Software Asset Management classic application, see [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddAClientAccessRec.md).
 
 ## Authorized user licensing
 
@@ -41,7 +42,7 @@ With AUVU licensing, the number of users who require access to an IBM software p
 |21 to 50|2|0.83|
 |51 or more|3|0.80|
 
-You can determine the number of rights that are required for an AUVU license by using a step function based on these AUVU tiers. First, divide the total number of users into tiers based on the [AUVU tiers and factors table](ibm-user-based-licensing.md#table_owy_slv_4pb). Then, multiply the number of users within each tier by the corresponding factor values. Finally, add the resulting numbers together to determine the total number of rights that are required for the AUVU license.
+You can determine the number of rights that are required for an AUVU license by using a step function based on these AUVU tiers. First, divide the total number of users into tiers based on the [AUVU tiers and factors table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-user-based-licensing.md). Then, multiply the number of users within each tier by the corresponding factor values. Finally, add the resulting numbers together to determine the total number of rights that are required for the AUVU license.
 
 **Important:** If you do not have enough rights to license all users, none of the users are licensed and the product is marked as Not Compliant.
 
@@ -147,7 +148,7 @@ With EUVU licensing, the number of users who require access to an IBM software p
 |500,001 to 1,000,000|9|0.360|
 |1,000,001 to 100,000,000|10|0.320|
 
-You can determine the number of rights that are required for an EUVU license by using a step function based on these EUVU tiers. First, divide the total number of users into tiers based on the [EUVU tiers and factors table](ibm-user-based-licensing.md#table_gsg_z53_ftb). Then, multiply the number of users within each tier by the corresponding factor values. Finally, add the resulting numbers together to determine the total number of rights that are required for the EUVU license.
+You can determine the number of rights that are required for an EUVU license by using a step function based on these EUVU tiers. First, divide the total number of users into tiers based on the [EUVU tiers and factors table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-user-based-licensing.md). Then, multiply the number of users within each tier by the corresponding factor values. Finally, add the resulting numbers together to determine the total number of rights that are required for the EUVU license.
 
 **Important:** If you do not have enough rights to license all users, none of the users are licensed and the product is marked as Not Compliant.
 
@@ -269,7 +270,7 @@ With XUVU licensing, the number of users who require access to an IBM software p
 |250,000,001 to 500,000,000|9|0.05000|
 |500,000,001 to 100,000,000,000|10|0.05000|
 
-You can determine the number of rights that are required for an XUVU license by using a step function based on these XUVU tiers. First, divide the total number of users into tiers based on the [XUVU tiers and factors table](ibm-user-based-licensing.md#table_ily_vw3_ftb). Then, multiply the number of users within each tier by the corresponding factor values. Finally, add the resulting numbers together to determine the total number of rights that are required for the XUVU license.
+You can determine the number of rights that are required for an XUVU license by using a step function based on these XUVU tiers. First, divide the total number of users into tiers based on the [XUVU tiers and factors table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-user-based-licensing.md). Then, multiply the number of users within each tier by the corresponding factor values. Finally, add the resulting numbers together to determine the total number of rights that are required for the XUVU license.
 
 **Important:** If you do not have enough rights to license all users, none of the users are licensed and the product is marked as Not Compliant.
 
@@ -340,5 +341,5 @@ Number of Rights Required
 10,000 + 4,357 = 14,375 total
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Supported IBM license types](supported-ibm-license-types.md)
+</table>**Parent Topic:**[Supported IBM license types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/supported-ibm-license-types.md)
 

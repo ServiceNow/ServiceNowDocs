@@ -2,6 +2,7 @@
 title: Add an Azure public image to Cloud Provisioning and Governance
 description: You can make any Azure image selectable in an OS profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-public-image-azure.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -27,7 +28,7 @@ Role required: sn\_cmp.cloud\_admin
 
     You can use the following sample command on the CLI - `az vm image list -f Windows --output table` to fetch the values.
 
-    ![Command-line interface](../image/public-image-azure.png)
+    \[Omitted image "public-image-azure.png"\] Alt text: Command-line interface
 
 2.  On the instance, enter `cmdb_ci_os_template.list` in the **Filter navigator** text box to open the Images \[cmdb\_ci\_os\_template\] table and then click **New**.
 
@@ -122,5 +123,5 @@ Vendor
     This step also creates a relationship between the public image and the logical datacenter \(LDC\) in the CMDB.
 
 
-**Parent Topic:**[Resource Profiles](../concept/cloud-resource-profiles.md)
+**Parent Topic:**[Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md)
 

@@ -2,6 +2,7 @@
 title: Maintaining privacy consent in Employee Readiness Core
 description: The Employee Readiness Core application enables your organization to maintain the data privacy of all employees and obtain consent to various privacy policies in Safe Workplace suite applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/employee-readiness-core-privacy-consent.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -25,14 +26,14 @@ Manage your organization's privacy policies with Employee Readiness Core:
 
 Employers remain solely responsible for complying with their legal obligations under applicable law, including data protection laws on collection, use, disclosure, and retention of personal data, and should enable, choose not to enable, or customize any functionality available within the application to meet the Employers’ specific requirements.
 
--   **[Setting up privacy consent settings](set-up-privacy-consent-common.md)**  
+-   **[Setting up privacy consent settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/set-up-privacy-consent-common.md)**  
 As an administrator, you can configure privacy consent templates, location-based privacy configurations, and notifications used to send privacy consent alerts for Safe Workplace suite applications.
--   **[Send an Emergency Outreach notification for employee privacy consents](../task/send-outreach-notif-privacy-common.md)**  
+-   **[Send an Emergency Outreach notification for employee privacy consents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/send-outreach-notif-privacy-common.md)**  
 Send an Emergency Outreach notification, on demand, to employees to provide a privacy policy and seek consent to use of their data in accordance with the privacy policy.
--   **[Submitting privacy consents](submitting-privacy-consent.md#)**  
+-   **[Submitting privacy consents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/submitting-privacy-consent.md)**  
 When you receive an email or mobile notification for a privacy consent, read the privacy policy statement and submit a response indicating whether you agree to the use of your data.
--   **[Review user privacy consents](../task/review-privacy-consent-common.md)**  
+-   **[Review user privacy consents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/review-privacy-consent-common.md)**  
 Review user privacy consent responses submitted by employees indicating their response to requests for consent to use their data in accordance with a privacy policy.
 
-**Parent Topic:**[Employee Readiness Core](employee-readiness-core.md)
+**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-readiness-core.md)
 

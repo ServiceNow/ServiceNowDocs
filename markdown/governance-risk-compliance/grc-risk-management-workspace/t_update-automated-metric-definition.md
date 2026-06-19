@@ -2,6 +2,7 @@
 title: Update a metric definition
 description: Update an existing metric definition to collect the new metrics. You can associate new goals, targets, and entities with the metric definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_update-automated-metric-definition.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -139,5 +140,5 @@ Details of the calculated metric data, such as interval end date, roll up freque
 7.  To visually explore the 360° relationship view of the metric definition, click **360° view**.
 
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

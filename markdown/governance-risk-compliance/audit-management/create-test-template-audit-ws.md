@@ -2,6 +2,7 @@
 title: Create a test template in Audit Workspace
 description: Create a test template and use it to create test plans applying much of the same testing criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-test-template-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -27,7 +28,7 @@ Role required: sn\_audit.manager, sn\_audit\_ws.supervisor, sn\_audit.user, sn\_
 
     You can also create a test template by navigating to the Audit workspace List page.
 
-    1.  Click the lists icon \(![List icon.](../image/ListsIcon.jpg)\).
+    1.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: List icon.\).
     2.  Click **Test templates** in the Execution list.
     3.  Click **New**.
 3.  On the form, fill in the fields.

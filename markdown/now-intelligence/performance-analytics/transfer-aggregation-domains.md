@@ -2,6 +2,7 @@
 title: Transfer domain configuration with score aggregation
 description: To transfer between instances a Performance Analytics domain configuration that is set to aggregate scores, transfer both the configuration and the aggregation domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/transfer-aggregation-domains.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +18,7 @@ To transfer between instances a Performance Analytics domain configuration that 
 
 ## Before you begin
 
-Transfer the domain configuration with an update set. For more information about using update sets to transfer configurations between instances, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+Transfer the domain configuration with an update set. For more information about using update sets to transfer configurations between instances, see System update sets.
 
 Role required: admin
 
@@ -33,7 +34,7 @@ Role required: admin
 
 5.  Copy the sys\_id, which is the value of the `aggregate_domain` element.
 
-    ![The XML of the transferred domain configuration, with the sys_id highlighted.](../image/aggregate-domain-sysid.png)
+    \[Omitted image "aggregate-domain-sysid.png"\] Alt text: The XML of the transferred domain configuration, with the sys\_id highlighted.
 
 6.  Navigate to **Domain Admin** &gt; **Domains**.
 
@@ -52,5 +53,5 @@ Role required: admin
 
 You can execute data collection jobs for the transferred domain.
 
-**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](../concept/pa-domain-separation-msp.md)
+**Parent Topic:**[Grouping domains in Performance Analytics domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-separation-msp.md)
 

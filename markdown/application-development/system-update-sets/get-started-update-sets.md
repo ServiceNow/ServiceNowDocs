@@ -2,6 +2,7 @@
 title: General guidelines for planning the update process
 description: A reference topic that contains general guidelines to create a standard process for moving customizations from instance to instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/get-started-update-sets.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -27,5 +28,5 @@ A reference topic that contains general guidelines to create a standard process 
     -   If update sets are being generated as fixes for problems, consider including the problem ticket in the name. For example **PR10005 - Duplicate Email Issues Fix**.
     -   If you need more than one update set to address a problem, include a sequence number in the naming convention. Sequenced naming conventions confirm that update sets are applied in the order that they were created. For example, **PR10005 - Duplicate Email Issues Fix** and **PR10005.2 - Duplicate Email Issues Fix**.
 
-**Parent Topic:**[Update sets reference](update-sets-reference.md)
+**Parent Topic:**[Update sets reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-sets-reference.md)
 

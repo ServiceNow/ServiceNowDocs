@@ -2,6 +2,7 @@
 title: Allow Event planners to handle reservations with more flexibility
 description: Reservation planners can bypass or overrule certain settings in the Reservable module while moving a reservation to another location in the Event planner Scheduled View.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -36,5 +37,5 @@ Space planners can do the following while moving a reservation in the Event plan
     **Note:** Space planners can’t move a shift-based reservation to a different shift-based module. When a space is part of two different shift-based Reservable modules, only one of the shift-based Reservable module is available for selection while moving a reservation. Space planners can move a shift-based Reservable module to a non-shift based Reservable module. For example, **Desks within a Shift Reservable** module to **Desks** Reservable module.
 
 
-**Parent Topic:**[Working with schedule view](../task/working-with-schedule-view.md)
+**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)
 

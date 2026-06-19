@@ -2,6 +2,7 @@
 title: Zendesk Spoke
 description: The Zendesk spoke provides actions to view and analyze meaningful usage data for Zendesk software subscriptions. Analyze usage for your Zendesk account to determine which licenses are stale so that you can reclaim these licenses and realize your potential savings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/zendesk-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The Zendesk spoke provides actions to view and analyze meaningful usage data for
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Zendesk spoke v1.8.0 is the latest version.
+Zendesk spoke v1.9.0 is the latest version.
 
 ## Supported versions
 
@@ -501,7 +502,7 @@ Delete User
 
 </td><td>
 
-Deletes the specified user and associated records from an account. Deleted users cannot be recovered. To comply with General Data Protection Regulation \(GDPR\), you must use the additional [Permanently Delete User](zendesk-spoke.md#permanently-delete-user) action to permanently delete the user after deleting the user.
+Deletes the specified user and associated records from an account. Deleted users cannot be recovered. To comply with General Data Protection Regulation \(GDPR\), you must use the additional [Permanently Delete User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zendesk-spoke.md) action to permanently delete the user after deleting the user.
 
 </td></tr><tr><td>
 
@@ -541,7 +542,7 @@ Permanently Delete User
 
 </td><td>
 
-Permanently deletes the specified user from an account.Before you can permanently delete the user, you must first delete the user using the [Delete User](zendesk-spoke.md#delete-user) action.
+Permanently deletes the specified user from an account.Before you can permanently delete the user, you must first delete the user using the [Delete User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zendesk-spoke.md) action.
 
 </td></tr><tr><td>
 
@@ -616,7 +617,7 @@ Updates details of the specified webhook.
 
 ## Integration Hub imports
 
-The Zendesk spoke adds the Import Zendesk Users Integration Hub imports to your ServiceNow instance. The Integration Hub imports help you import the users' data from Zendesk account to your ServiceNow instance in an automated way. For more information about Integration Hub imports, see[Integration Hub - Import](../../integrationhub/concept/integrationhub-imports.md).
+The Zendesk spoke adds the Import Zendesk Users Integration Hub imports to your ServiceNow instance. The Integration Hub imports help you import the users' data from Zendesk account to your ServiceNow instance in an automated way. For more information about Integration Hub imports, see[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md).
 
 ## Spoke modules
 
@@ -634,7 +635,7 @@ The Zendesk spoke adds the Zendesk Spoke application to your ServiceNow instance
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
-For information about setting up the spoke, see [Set up the Zendesk spoke](../task/setup-zendesk.md#).
+For information about setting up the spoke, see [Set up the Zendesk spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zendesk.md).
 

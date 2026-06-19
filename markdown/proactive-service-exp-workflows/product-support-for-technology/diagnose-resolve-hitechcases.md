@@ -2,13 +2,14 @@
 title: Diagnose and resolve a technology product support case
 description: As a customer service agent, review, diagnose, resolve, and close a case for the service-related issue experienced by the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-hitechcases.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Technology Product Support Case, Use, Product Support for Technology]
+breadcrumb: [Use, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Diagnose and resolve a technology product support case
@@ -33,7 +34,7 @@ The technology product support case progresses through several stages from start
 
 4.  Open the technology product support case that is in the New or Open state.
 
-    ![technology product support case diagnose.](../image/tech-product-case-diagnose.png)
+    \[Omitted image "tech-product-case-diagnose.png"\] Alt text: technology product support case diagnose.
 
 5.  Review and verify the technology product support case.
 
@@ -65,9 +66,9 @@ The technology product support case progresses through several stages from start
 
     3.  Expand the cards in the **Available Test Suite**.
 
-        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/settingup-test-specifications.md).
+        To set up test definitions, see .
 
-        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/setting-test-group.md).
+        To set up test group, see .
 
     4.  In the manual test, select single/multiple tests.
 
@@ -87,9 +88,9 @@ The technology product support case progresses through several stages from start
 
         The maximum number of rows to the group is limited to 20 rows. To configure the maximum number of rows more than 20 rows to the group, see [Presentational List Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-list/usage).
 
-    10. Select the **View Details** ![](../../../reuse/icons/product-icons/open-link-right-fill-24.svg) icon for a specific test result to review its details.
+    10. Select the **View Details** \[Omitted image "open-link-right-fill-24.svg"\] Alt text: icon for a specific test result to review its details.
 
-    11. Select the **Rerun test** ![](../../../reuse/icons/product-icons/arrow-clockwise-outline-24.svg) icon for a specific test result to run it again.
+    11. Select the **Rerun test** \[Omitted image "arrow-clockwise-outline-24.svg"\] Alt text: icon for a specific test result to run it again.
 
     12. Select **Continue**.
 
@@ -136,4 +137,6 @@ The technology product support case progresses through several stages from start
 ## Result
 
 The technology product support case is resolved and closed successfully.
+
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
 

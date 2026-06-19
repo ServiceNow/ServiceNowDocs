@@ -2,6 +2,7 @@
 title: Verify the configuration of entity filters
 description: Verify that entity filters are configured correctly and produce accurate results. Confirm that filters are active, assigned to the correct entity types, and use valid field conditions. If possible, test your filter logic directly in the source CMDB table to see which records match your criteria. This proactive verification helps you capture the right data without including unwanted records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/verify-ent-fil.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

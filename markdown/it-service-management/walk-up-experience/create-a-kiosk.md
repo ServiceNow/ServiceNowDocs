@@ -2,6 +2,7 @@
 title: Create a kiosk at a location
 description: Walk-up Experience kiosks offer immediate assistance to the requesters by supporting them with technical issues, questions, or requests. The requesters can receive on-the-spot guidance or resolution for their IT-related problems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/create-a-kiosk.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -79,5 +80,5 @@ Location where you want to create a kiosk. The field is automatically populated 
 </table>5.  Select **Submit**.
 
 
-**Parent Topic:**[Walk-up Experience kiosk](../concept/walk-up-experience-kiosk-administration.md)
+**Parent Topic:**[Walk-up Experience kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walk-up-experience-kiosk-administration.md)
 

@@ -1,7 +1,8 @@
 ---
 title: Delete a conversion funnel
-description: Easily delete a funnel.
+description: Delete a funnel that you no longer need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/delete-funnel-step.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -13,7 +14,7 @@ breadcrumb: [Conversion funnels, Using Usage Insights, Usage Insights, Platform 
 
 # Delete a conversion funnel
 
-Easily delete a funnel.
+Delete a funnel that you no longer need.
 
 ## Before you begin
 
@@ -27,10 +28,10 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 3.  Select **Analysis** &gt; **Conversion funnel**.
 
-4.  Select the Actions menu ![Actions menu icon](../../integrationhub/images/more-actions-menu-icon.png) of the funnel you want to delete and choose **Delete**.![Conversion funnel module with Actions menu and Delete option highlighted](../../../use/par-for-workspace/image/uxa-funnel-delete.png)
+4.  Select the Actions menu \[Omitted image "more-actions-menu-icon.png"\] Alt text: Actions menu icon of the funnel you want to delete and choose **Delete**.\[Omitted image "uxa-funnel-delete.png"\] Alt text: Conversion funnel module with Actions menu and Delete option highlighted
 
 5.  Confirm your choice by selecting **Delete**.
 
 
-**Parent Topic:**[Funnel reports in Usage Insights](../concept/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

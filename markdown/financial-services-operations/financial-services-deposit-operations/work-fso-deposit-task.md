@@ -2,6 +2,7 @@
 title: Work on a deposit task for fulfillment
 description: Work on a deposit task to perform a fulfillment activity for the parent deposit service case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/work-fso-deposit-task.html
 release: australia
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -22,7 +23,7 @@ Role required:
 -   For a business deposit service task: sn\_bom\_deposit\_b2b.agent or sn\_bom\_deposit\_b2b.agent\_connector
 -   For a personal deposit service task: sn\_bom\_deposit\_b2c.agent or sn\_bom\_deposit\_b2c.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -45,19 +46,19 @@ If assignment rules are configured, the task is automatically assigned to a depo
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the case playbook or the deposit task list.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d81163e149">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d48313e149">
 
 Option
 
-</th><th align="left" id="d81163e152">
+</th><th align="left" id="d48313e152">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d81163e158">
+</th></tr></thead><tbody><tr><td id="d48313e158">
 
 **From the case playbook**
 
@@ -69,7 +70,7 @@ Steps
 4.  Under the playbook stages, select the task activity to work on.
 
 
-</td></tr><tr><td id="d81163e191">
+</td></tr><tr><td id="d48313e191">
 
 **From the Deposit task list**
 
@@ -90,15 +91,15 @@ Steps
 
 7.  Close the deposit task.
 
-<table id="choicetable_jcl_dyr_hsb"><thead><tr><th align="left" id="d81163e263">
+<table id="choicetable_jcl_dyr_hsb"><thead><tr><th align="left" id="d48313e263">
 
 Deposit task
 
-</th><th align="left" id="d81163e266">
+</th><th align="left" id="d48313e266">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d81163e272">
+</th></tr></thead><tbody><tr><td id="d48313e272">
 
 **To verify operating instructions for a standing order**
 
@@ -106,7 +107,7 @@ Action
 
 Click **Approve** to approve or **Reject** to reject the request.
 
-</td></tr><tr><td id="d81163e287">
+</td></tr><tr><td id="d48313e287">
 
 **To authorize a deposit request**
 
@@ -114,7 +115,7 @@ Click **Approve** to approve or **Reject** to reject the request.
 
 Click **Approve** to approve or **Reject** to reject the request.**Note:** You can't authorize a deposit task if its parent deposit case is assigned to you.
 
-</td></tr><tr><td id="d81163e305">
+</td></tr><tr><td id="d48313e305">
 
 **-   To update a deposit account to fulfill and close the request
 -   To create and activate account for account origination
@@ -134,5 +135,5 @@ Click **Approve** to approve or **Reject** to reject the request.**Note:** You c
 
 The deposit task moves to the Closed Complete state.
 
-**Parent Topic:**[Using Financial Services Deposit Operations](../concept/using-deposit-ops.md)
+**Parent Topic:**[Using Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/using-deposit-ops.md)
 

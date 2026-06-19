@@ -2,6 +2,7 @@
 title: Configuring flows for API actions in API Insights
 description: Configure flows in Workflow Studio for automating API actions within API Insights, streamlining processes like API access requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-workflow.html
 release: australia
 product: API Insights
 classification: api-insights
@@ -15,7 +16,7 @@ breadcrumb: [Enterprise architect administrator tasks, Configure, API Insights, 
 
 Configure flows in Workflow Studio for automating API actions within API Insights, streamlining processes like API access requests.
 
-Configure flows to automate various API actions, such as granting access to APIs or processing API requests. Enterprise architect administrators with the sn\_api\_insights\_ws.api\_mgmt\_architect\_admin role can then select workflows that align with specific API automation tasks when they configure settings for managing APIs. See [Configure settings to manage APIs in API Insights](../task/api-insights-config-settings.md).
+Configure flows to automate various API actions, such as granting access to APIs or processing API requests. Enterprise architect administrators with the sn\_api\_insights\_ws.api\_mgmt\_architect\_admin role can then select workflows that align with specific API automation tasks when they configure settings for managing APIs. See [Configure settings to manage APIs in API Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-config-settings.md).
 
 ## Predefined flow to send reminders for API access
 
@@ -29,7 +30,7 @@ The **API Grant/Reject Access Template** subflow is available with the API Insig
 
 To manage API access requests through custom flows, it's essential to configure the flow with specific input parameters. These parameters guide the flow's behavior.
 
-To learn about creating flows, see [Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-flow.md).
+To learn about creating flows, see .
 
 When creating a flow for API access request automation, you must use specific parameters that control how the flow works.
 

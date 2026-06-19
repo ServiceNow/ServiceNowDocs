@@ -2,6 +2,7 @@
 title: Install a Service Graph Connector with an available entitlement in SGC Central
 description: Install a Service Graph Connector that matches an entitlement available in Application Manager from within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-install-sgc-entitlements.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: admin
 
 1.  Use one of the following methods to open SGC Central:
 
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon ![](../image/icon-sgc-central.png) to open the SGC Central view.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, and from the left navigation panel, select the Ingestion icon \[Omitted image "icon-sgc-central.png"\] to open the SGC Central view.
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **SGC Central**.
 2.  Select **Explore connectors**.
 
@@ -29,6 +30,6 @@ Role required: admin
 
 4.  In Application Manager, review the entitlements and install a connector.
 
-    For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
+    For more information, see .
 
 

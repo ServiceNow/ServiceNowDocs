@@ -2,6 +2,7 @@
 title: Update configuration items with the network partition identifier for the Qualys Integration
 description: Create unique configuration items \(CIs\) for assets in your environment that share IP addresses. Identify the distinct assets across your environment and automatically update the CIs on your existing discovered item, vulnerable item, and detection records to give you more details about your vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/qualys-updateci-npi-cc.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -58,7 +59,7 @@ Starting with v14.0 of Vulnerability Response and v12.1 of the Qualys Vulnerabil
 
 4.  Choose **Host Detection Configuration**.
 
-5.  Choose **Enable Lookup By Network Partition** check box from the **Lookup By Network Partition** section.![Qulays Lookup By Network Partition check box](../../../secops-integration-vr/qualys/image/qualys-update-by-network-partition.png)
+5.  Choose **Enable Lookup By Network Partition** check box from the **Lookup By Network Partition** section.\[Omitted image "qualys-update-by-network-partition.png"\] Alt text: Qulays Lookup By Network Partition check box
 
 6.  Click **Finish**.
 

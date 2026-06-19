@@ -2,6 +2,7 @@
 title: Enable Now Assist panel
 description: Enable Now Assist panel to activate conversational capabilities, map user intents to workflows, and link agents to relevant knowledge graphs for reservations, connectors, and utilization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/enable-now-assist-panel.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd

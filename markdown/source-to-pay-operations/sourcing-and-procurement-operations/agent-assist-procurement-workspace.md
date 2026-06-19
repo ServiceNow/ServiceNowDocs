@@ -2,6 +2,7 @@
 title: Agent assist in Source-to-Pay Workspace
 description: Agent assist in Source-to-Pay Workspace automatically displays relevant search results based on the search text, which is defaulted with the short description of the procurement case you’re working on. You can edit the search text as required. These search results help you to work on the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/agent-assist-procurement-workspace.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -24,7 +25,7 @@ For Sourcing and Procurement Operations, Agent assist is configured for the foll
 -   Negotiation
 -   Sourcing event
 
-For information on how Agent assist is set up and configured on the ServiceNow AI Platform, see [Configure a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-record-page-workspace.md).
+For information on how Agent assist is set up and configured on the ServiceNow AI Platform, see Configure a record page for a workspace in Workspace Builder.
 
-**Parent Topic:**[Procurement Case Management](psd-overview.md)
+**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 

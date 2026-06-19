@@ -2,6 +2,7 @@
 title: Exploring GRC: Metrics
 description: A metric is used to measure and evaluate the effectiveness of your organizational processes. A metric or a combination of metrics can provide an insight into a system, component, or process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/exploring-grc-metrics-in-irm.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -42,7 +43,7 @@ Rising system downtime indicates infrastructure instability or maintenance gaps,
 
 The metrics workflow defines how organizations design, operationalize, and monitor Key Risk Indicators \(KRIs\) and Key Control Indicators \(KCIs\) to gain visibility into enterprise risk exposure.
 
-![Workflow of metrics in IRM.](../images/metrics-workflow-irm.png "Workflow of metrics")
+\[Omitted image "metrics-workflow-irm.png"\] Alt text: Workflow of metrics in IRM.
 
 1.  An operational risk manager defines the overall metrics framework. This establishes the foundation for measuring risk performance and verifies that KRIs and KCIs are consistently applied across the organization.
 2.  The operational risk manager trains business stakeholders on how the metrics framework works, including how KRIs and KCIs are identified, measured, and used to monitor risk.
@@ -60,7 +61,7 @@ The metrics workflow defines how organizations design, operationalize, and monit
 
 To learn more about configuring and using GRC: Metrics, see:
 
--   [Configuring metrics](configuring-irm-metrics.md)
--   [Using GRC: Metrics to provide data](using-metrics-irm.md)
--   [GRC: Metrics reference](grc-metrics-reference-irm.md)
+-   [Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
+-   [Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-metrics-irm.md)
+-   [GRC: Metrics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/grc-metrics-reference-irm.md)
 

@@ -2,6 +2,7 @@
 title: Manage lookups and scans
 description: You can perform lookups and vulnerability scans from security incidents and from the security incident catalog to identify potential threats and vulnerabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/c\_Scans.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,7 +2,10 @@
 title: Configure form views for Proactive Customer Service Operations
 description: Configure the form layout and related lists for the different views of the Case, Install Base Item, and Account forms to display the fields you require.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-form-views.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

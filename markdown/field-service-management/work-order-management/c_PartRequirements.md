@@ -2,6 +2,7 @@
 title: Part requirements
 description: After all work order tasks are qualified and the parent work order state automatically changes to Qualified, you can request more information from the qualifier, if necessary, and source any part required for the tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_PartRequirements.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Manage inventory in FSM, Manage work order tasks, Prepare work orde
 
 After all work order tasks are qualified and the parent work order state automatically changes to **Qualified**, you can request more information from the qualifier, if necessary, and source any part required for the tasks.
 
-If a work order was created from a [work order template](../../it-services/concept/c_WorkOrderTemplates.md), the part requirements are automatically added to the work order task. Part requirements can be used with any [Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagement.md).
+If a work order was created from a [work order template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/c_WorkOrderTemplates.md), the part requirements are automatically added to the work order task. Part requirements can be used with any Service Management application.
 
 To create part requirements and source parts, enable the **Part requirements are needed by agents** configuration option on the Field Service Configuration screen.
 

@@ -2,7 +2,10 @@
 title: Configuring business locations serviced by a business location
 description: You can track the relationship between requesting and fulfilling service organizations. You can set hierarchy or relationship-based support criteria for your business locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configuring-business-locations-serviced-by-a-business-location.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Define the configuration type for customers or business locations](../task/associate-customer-criteria-to-service-organization.md)
+[Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-customer-criteria-to-service-organization.md)
 
 </td><td>
 
@@ -31,7 +34,7 @@ Define the configuration type for the business location served to provide access
 
 </td></tr><tr><td>
 
-[Associate customers or business locations to a service organization](../task/associate-customers-or-bus-loc-to-so.md)
+[Associate customers or business locations to a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md)
 
 </td><td>
 

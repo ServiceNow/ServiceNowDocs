@@ -2,6 +2,7 @@
 title: Enable or configure the Microsoft Teams integration
 description: Enable or configure the Microsoft Teams integration as part of integrating Sidebar with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/enable-teams-integration.html
 release: australia
 product: Sidebar
 classification: sidebar

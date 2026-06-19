@@ -2,6 +2,7 @@
 title: Source-to-Pay Workspace Analytics Center
 description: With Source-to-Pay Workspace Analytics Center, you can ask a question about your data, and see how things are performing now and trends over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/procurement-workspace-analytics-center.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -17,7 +18,7 @@ With Source-to-Pay Workspace Analytics Center, you can ask a question about your
 
 This Analytics Center is modeled using Natural Language Query \(NLQ\) which is helpful in converting natural language into database queries, thus fetching relevant data from the respective database tables. In this case, NLQ is developed with the help of configurable synonyms and semantic shortcuts. In synonyms, for example, to fetch data from the Supplier column in the Purchase Line table, a synonym "vendor" is added. Similarly, multiple synonyms can be configured to further improve search results. In semantics, conditions can be configured for the synonym such that search results can be further optimized. For example, to render appropriate search results for closed contracts, a condition "active=false" is configured against the synonym "closed" for the Contract Task table.
 
-![Source-to-Pay Workspace Analytics Center](../image/workspace-analytics-center.png "Source-to-Pay Workspace Analytics Center")
+\[Omitted image "workspace-analytics-center.png"\] Alt text: Source-to-Pay Workspace Analytics Center
 
 Based on these synonyms and semantic conditions, some of the predefined supported questions are listed here.
 
@@ -73,5 +74,5 @@ Based on these synonyms and semantic conditions, some of the predefined supporte
 
 If you do not get the desired search results, select **How can I improve my results?** to view tips and suggestions on improving your search.
 
-**Parent Topic:**[Source-to-Pay Workspace Reference](../../accounts-payable-operations/reference/source-to-pay-ws-reference.md)
+**Parent Topic:**[Source-to-Pay Workspace Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-reference.md)
 

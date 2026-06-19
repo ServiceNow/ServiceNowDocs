@@ -2,6 +2,7 @@
 title: Create a qualified demand
 description: The demand manager can create a qualified demand from the demand workbench list view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/t\_CreateANewQualifiedDemand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -31,8 +32,8 @@ Saving the demand adds it to the Demands list and adds a bubble representing the
 
 3.  Fill in the fields on the Demand form.
 
-    For information about the fields, see [Creating Demands](t_CreatingDemands.md).
+    For information about the fields, see [Creating Demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md).
 
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
 

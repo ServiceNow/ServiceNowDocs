@@ -2,6 +2,7 @@
 title: Deployment process
 description: Order an application from a CSD 2.0 catalog item in the service catalog triggers the Order Client Software flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-jamf-deploy.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -21,8 +22,8 @@ This process deploys an application to a user or device through a service catalo
 2.  If the **Check license compliance** check box is selected in the software catalog item, the flow performs a software license check from SAM or CSD 2.0 depending on your configuration. If there is no license available, the flow creates a catalog task to procure more licenses and assigns the task to the CSD Administrators group.
 3.  The Order Client Software flow triggers the Deploy Client Software flow that in turn triggers the provider-specific **Deployment Flow** that is specified in the provider record.
 
-    ![Deployment flow specific to the Jamf provider.](../image/csd2-jamf-flows2.png)
+    \[Omitted image "csd2-jamf-flows2.png"\] Alt text: Deployment flow specific to the Jamf provider.
 
 
-**Parent Topic:**[CSD 2.0 for Jamf](../concept/csd2-jamf-tsk.md)
+**Parent Topic:**[CSD 2.0 for Jamf](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2-jamf-tsk.md)
 

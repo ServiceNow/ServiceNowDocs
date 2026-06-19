@@ -2,6 +2,7 @@
 title: Skills Foundation guided setup
 description: Install and set up Skills Foundation and Company Job Architecture confidently with step-by-step instructions using guided setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-int-guided-setup.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -87,7 +88,7 @@ Skills Management
 
 </td><td>
 
-Upload your skills data into your ServiceNow instance. These skills are the basis for all the activities in your Skills Foundation application.Related task - Onboard Custom Skills. For more information, see [Load your custom skills into Skills Foundation](skills-int-load-custom-skills.md).
+Upload your skills data into your ServiceNow instance. These skills are the basis for all the activities in your Skills Foundation application.Related task - Onboard Custom Skills. For more information, see [Load your custom skills into Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-int-load-custom-skills.md).
 
 </td></tr><tr><td>
 
@@ -97,9 +98,9 @@ Company Job Architecture
 
 Upload your existing company job architecture data, set the growth path using job level progressions, and automatically assign the proficiency for each skill across role levels, providing a structure to the imported data. Related tasks:
 
--   Upload Company Job Architecture. For more information, see [Load job architecture data into your ServiceNow instance](load-data-skills-tables.md).
--   Create Job Level Progressions. For more information, see [Creating a job level progression](skills-int-job-level-progress.md).
--   Create Proficiency Autofill Configurations. For more information, see [Set the job proficiency level automatically](proficiency-autofill-config.md).
+-   Upload Company Job Architecture. For more information, see [Load job architecture data into your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/load-data-skills-tables.md).
+-   Create Job Level Progressions. For more information, see [Creating a job level progression](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-int-job-level-progress.md).
+-   Create Proficiency Autofill Configurations. For more information, see [Set the job proficiency level automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/proficiency-autofill-config.md).
 
 
 </td></tr><tr><td>
@@ -108,7 +109,7 @@ Employee Profile Upload and Setup
 
 </td><td>
 
-Upload the employee data and set up the roles and profiles required in your organization to associate jobs to the employees based on roles and skills. This category is crucial in making the employee and job data connection.Related tasks - Upload Employee Data - Uploading an excel sheet with employee data or manually map job profile with the employee. For more information, see [Adding a job profile to the employee](map-employee-job-profile.md).
+Upload the employee data and set up the roles and profiles required in your organization to associate jobs to the employees based on roles and skills. This category is crucial in making the employee and job data connection.Related tasks - Upload Employee Data - Uploading an excel sheet with employee data or manually map job profile with the employee. For more information, see [Adding a job profile to the employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/map-employee-job-profile.md).
 
 **Note:**
 

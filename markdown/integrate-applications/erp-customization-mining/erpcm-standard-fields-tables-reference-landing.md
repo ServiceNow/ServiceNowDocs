@@ -2,6 +2,7 @@
 title: ERP Semantic Mining standard tables and fields
 description: Find details on standard ERP \(Enterprise Resource Planning\) remote tables, extraction tables, and fields in ERP Semantic Mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-standard-fields-tables-reference-landing.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -17,10 +18,10 @@ Find details on standard ERP \(Enterprise Resource Planning\) remote tables, ext
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
--   **[Standard remote tables for ERP Semantic Mining](erp-ecm-standard-remote-tables.md)**  
+-   **[Standard remote tables for ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-ecm-standard-remote-tables.md)**  
 ERP Semantic Mining accesses several standard remote tables for ERP \(Enterprise Resource Planning\) data.
--   **[Standard ERP Semantic Mining fields within remote tables](standard-ecm-tables-within-tables.md)**  
+-   **[Standard ERP Semantic Mining fields within remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/standard-ecm-tables-within-tables.md)**  
 The standard ERP \(Enterprise Resource Planning\) remote tables available for use in ERP Semantic Mining contain fields from additional SAP tables.
 
-**Parent Topic:**[ERP Semantic Mining reference](erp-customization-mining-ref.md)
+**Parent Topic:**[ERP Semantic Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-ref.md)
 

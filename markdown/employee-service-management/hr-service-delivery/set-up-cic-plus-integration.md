@@ -2,6 +2,7 @@
 title: Set up the CIC Plus integration
 description: Integrate with the CIC Plus service by configuring a SAML connection between your third-party identity provider \(IDP\) and CIC Plus accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/set-up-cic-plus-integration.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -47,7 +48,7 @@ Role required: sn\_hr\_integrations.admin
 
     1.  Configure your account to get employee profiles for US-based employees through the get\_usa\_employee\_profile REST endpoint.
 
-        For information and examples on the get\_usa\_employee\_profile REST endpoint, see [get\_usa\_employee\_profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/hr-core-api.md).
+        For information and examples on the get\_usa\_employee\_profile REST endpoint, see get\_usa\_employee\_profile.
 
     2.  Verify that the callback is properly configured within your CIC Plus account.
 
@@ -61,6 +62,6 @@ Role required: sn\_hr\_integrations.admin
 
     4.  In the **Value** field, provide the login URL of the identity provider service you are using with the CIC Plus integration.
 
-        ![Provide the login URL of the identity provider service you are using with the CIC Plus integration.](../image/cic-plus-source-credentials-idp-url.png)
+        \[Omitted image "cic-plus-source-credentials-idp-url.png"\] Alt text: Provide the login URL of the identity provider service you are using with the CIC Plus integration.
 
 

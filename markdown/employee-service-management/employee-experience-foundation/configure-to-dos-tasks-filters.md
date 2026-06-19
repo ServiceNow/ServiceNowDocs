@@ -2,6 +2,7 @@
 title: Create filters or filter groups
 description: With these filters and filter groups, you enable employees to easily filter, organize, discover, and fulfill the tasks in a few clicks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-to-dos-tasks-filters.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

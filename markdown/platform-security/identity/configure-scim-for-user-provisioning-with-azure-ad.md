@@ -2,6 +2,7 @@
 title: Tutorial: Configure SCIM for user provisioning with a Provider
 description: Configuring SCIM automatically provisions and de-provisions users and groups to ServiceNow by using the providers provisioning service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/configure-scim-for-user-provisioning-with-azure-ad.html
 release: australia
 product: Identity
 classification: identity
@@ -27,6 +28,6 @@ Role required: scim\_admin
 
 You can provision users using SCIM by the following authentication methods:
 
--   [Provisioning user using Basic Authentication](provisioning-user-basic-auth.md)
--   [Provisioning user using OAuth](provisioning-user-oauth.md)
+-   [Provisioning user using Basic Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/provisioning-user-basic-auth.md)
+-   [Provisioning user using OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/provisioning-user-oauth.md)
 

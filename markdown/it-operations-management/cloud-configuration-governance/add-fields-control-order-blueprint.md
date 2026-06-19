@@ -2,6 +2,7 @@
 title: Add fields to a cloud catalog item order form
 description: You can add fields to a cloud catalog form if you want the user to enter additional information beyond what a default blueprint provides.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-fields-control-order-blueprint.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,8 +18,8 @@ You can add fields to a cloud catalog form if you want the user to enter additio
 
 ## Before you begin
 
--   You need a blueprint that you published to the catalog. The blueprint should be in the draft state. See [Build a Cloud Provisioning blueprint](create-blueprint-cmp.md) if you did not complete this prerequisite.
--   By default, cloud items appear in the Cloud Catalog, rather than the standard service catalog that comes with your instance. However, Blueprints utilize several features from the standard service catalog. It is suggested that you familiarize yourself with how the service catalog works. See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md) to get started.
+-   You need a blueprint that you published to the catalog. The blueprint should be in the draft state. See [Build a Cloud Provisioning blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-blueprint-cmp.md) if you did not complete this prerequisite.
+-   By default, cloud items appear in the Cloud Catalog, rather than the standard service catalog that comes with your instance. However, Blueprints utilize several features from the standard service catalog. It is suggested that you familiarize yourself with how the service catalog works. See  to get started.
 -   Role required: sn\_cmp.cloud\_service\_designer
 
 ## About this task
@@ -31,7 +32,7 @@ Fields are represented as variables in blueprints. To add a field, you add a var
 
 2.  Click the **Catalog** tab, and then click the operation, such as Provision, that you want to add the variable to.
 
-    ![Provision operation](../image/provision-operation-blueprint.png)
+    \[Omitted image "provision-operation-blueprint.png"\] Alt text: Provision operation
 
     The Cloud Catalog Item form opens.
 
@@ -53,7 +54,7 @@ Fields are represented as variables in blueprints. To add a field, you add a var
 
     **Note:** This variable will not be available for orchestration. If you intend to use this variable for orchestration, please add it through Cloud Template or Blueprint instead.
 
-    ![Example email variable](../image/example-email-variable.png "An example variable for an email address")
+    \[Omitted image "example-email-variable.png"\] Alt text: Example email variable
 
 6.  Click **Submit**.
 
@@ -63,7 +64,7 @@ Fields are represented as variables in blueprints. To add a field, you add a var
 
     **Note:** A lower order value moves the field higher up on the form, and vice versa.
 
-    ![Example email variable order number](../image/example-email-variable-order.png)
+    \[Omitted image "example-email-variable-order.png"\] Alt text: Example email variable order number
 
     In this example, the order is set to **1**, which means the Email address field appears after the Logical Datacenter field and before the Cloud Account field.
 
@@ -71,14 +72,14 @@ Fields are represented as variables in blueprints. To add a field, you add a var
 
     The form appears with the new field that you created.
 
-    ![Email address field](../image/example-email-address-field.png)
+    \[Omitted image "example-email-address-field.png"\] Alt text: Email address field
 
 9.  Click the back arrow on the upper-left of the form.
 
 10. Toggle the catalog item to **Publish**.
 
-    ![Publish the blueprint](../image/draft-published-slider.png)
+    \[Omitted image "draft-published-slider.png"\] Alt text: Publish the blueprint
 
 
-**Parent Topic:**[Form configuration with blueprints](../concept/blueprint-form-configuration.md)
+**Parent Topic:**[Form configuration with blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/blueprint-form-configuration.md)
 

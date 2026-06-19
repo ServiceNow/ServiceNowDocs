@@ -2,6 +2,7 @@
 title: Build a decision table
 description: Build a decision table for the employee travel request application that determines which regional head to route travel requests to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-create-decision-table.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -29,11 +30,11 @@ Phase 1
 
 </td><td align="justify">
 
-![In progress icon](../image/app-tutorial-progress-wip.png)
+\[Omitted image "app-tutorial-progress-wip.png"\] Alt text: In progress icon
 
 </td><td>
 
-[Build a decision table](app-tutorial-create-decision-table.md)
+[Build a decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-decision-table.md)
 
 </td></tr><tr><td>
 
@@ -41,14 +42,14 @@ Phase 2
 
 </td><td align="justify">
 
-![Not started icon](../image/app-tutorial-progress-not-started.png)
+\[Omitted image "app-tutorial-progress-not-started.png"\] Alt text: Not started icon
 
 </td><td>
 
-[Create a flow](app-tutorial-create-a-flow.md#)
+[Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md)
 
 </td></tr></tbody>
-</table>For more information about using decision tables, see [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-in-decision-designer.md).
+</table>For more information about using decision tables, see .
 
 Follow along with the tutorial to build a decision table for the employee travel request application.
 
@@ -140,7 +141,7 @@ Video 6
 
     1.  Select in the empty box in the condition column.
 
-        ![You can select in the empty box in the condition column to create conditions.](../image/app-tutorial-condition-column-value.png)
+        \[Omitted image "app-tutorial-condition-column-value.png"\] Alt text: You can select in the empty box in the condition column to create conditions.
 
     2.  Select **is**, then select **is one of** from the list.
 
@@ -216,7 +217,7 @@ Value
 
     1.  Select in the empty box in the result column.
 
-        ![Select in the empty box in the result column to define results.](../image/app-tutorial-result-column-value.png)
+        \[Omitted image "app-tutorial-result-column-value.png"\] Alt text: Select in the empty box in the result column to define results.
 
     2.  In the empty field, enter the name of the regional head.
 
@@ -248,5 +249,5 @@ You have built a decision table for your application.
 
 ## What to do next
 
-Proceed to the next phase in adding logic and automation to the employee travel request application: [Create a flow](app-tutorial-create-a-flow.md#).
+Proceed to the next phase in adding logic and automation to the employee travel request application: [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 

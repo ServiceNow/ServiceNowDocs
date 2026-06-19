@@ -1,7 +1,8 @@
 ---
-title: Create New Function form
+title: Create Function form
 description: On the Create New Function form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-function-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,7 +10,7 @@ reading_time_minutes: 3
 breadcrumb: [Create a function and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Function form
+# Create Function form
 
 On the Create New Function form, fill in the fields.
 
@@ -89,7 +90,7 @@ Licensed activity
 
 Licensed activity that is referred to in Annex II for different type of financial entities. List of activities that the function is related to. Licensed activity is a particular drop-down list that's been provided by the user and the set of values that are required by the regulator.
 
-![Activity.](../image/fun-licensed-activity.png)
+\[Omitted image "fun-licensed-activity.png"\] Alt text: Activity.
 
 </td></tr><tr><td>
 
@@ -155,7 +156,7 @@ Date of the last assessment of criticality or importance
 
 Date of the last assessment of criticality or importance in case the function is supported by ICT services provided by ICT third-party service providers.
 
- If you have Operational Resilience, this information is auto -populated. If you do not have Operational Resilience and you are using the application with TPRM, you must fill in this information manually.
+ If you have Operational Resilience, this information is auto-populated. If you do not have Operational Resilience and you are using the application with TPRM, you must fill in this information manually.
 
  If the function is service-related and you have Operational Resilience, and you've completed an importance and impact assessment, the default values are copied from that assessment.
 
@@ -191,5 +192,5 @@ Impact of discontinuing the function according to the financial entity’s asses
 -   **Assessment not performed**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a function and enhance digital resilience data](../task/create-drtp-reg-function.md)
+</table>**Parent Topic:**[Create a function and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-function.md)
 

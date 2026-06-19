@@ -2,6 +2,7 @@
 title: Location hierarchy and child locations
 description: The list of impacted people is populated based on the selected location and includes individuals from any child locations in the Location \[cmn\_location\] table hierarchy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/location-hierarchy.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -19,5 +20,5 @@ The Location table supports a hierarchical parent-child structure, so child loca
 
 When a critical event is assigned to a parent location, the system automatically includes all individuals associated with that location and any child locations. For example, selecting USA as the parent location \(Location1\) would include child locations such as California \(Location2\).
 
-To configure, see [Define a location hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
+To configure, see 
 

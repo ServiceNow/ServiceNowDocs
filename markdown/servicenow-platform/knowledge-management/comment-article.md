@@ -2,6 +2,7 @@
 title: Comment on a knowledge article
 description: Comment on a knowledge article or reply to a comment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/comment-article.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -23,7 +24,7 @@ Role required: User with Can Read access. Unauthenticated users and users with o
 
 **Note:**
 
-Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](../concept/knowledge-service-portal-pages.md).
+Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-service-portal-pages.md).
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 
     If you want to reply to an existing comment, select **Reply**
 
-    ![post a comment](../image/post-comment.png "Post a comment")
+    \[Omitted image "post-comment.png"\] Alt text: post a comment
 
 4.  Enter your comment or reply and add links, images, and attachments as required.
 
@@ -60,5 +61,5 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
     |Knowledge Management v3|No|No|No|
 
 
-**Parent Topic:**[Creating and maintaining articles](../concept/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

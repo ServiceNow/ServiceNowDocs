@@ -2,6 +2,7 @@
 title: Manage Cloud Cost Management subscriptions
 description: Reduce your licensing costs by choosing only the Cloud Cost Management Resource Categories that you use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/managing-ccm-subscriptions.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -21,10 +22,10 @@ The Cloud Cost Management application uses Subscription Units to calculate the c
 
 For further information on managed IT resources and Subscription Unit ratios, see [Subscription Unit Overview for Cloud Cost Management](https://www.servicenow.com/products/entitlements-packages.html).
 
--   **[Managed IT Resource types](managed-it-resource-ccm.md)**  
+-   **[Managed IT Resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/managed-it-resource-ccm.md)**  
 There are three IT Resource categories in ServiceNow Cloud Cost Management - Server, PaaS Resources, and IaaS Storage.
--   **[View the license report for the Cloud Cost Management application](../task/view-license-report-ccm.md)**  
+-   **[View the license report for the Cloud Cost Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/view-license-report-ccm.md)**  
 View details of the subscriptions purchased and consumed by your organization for the managed IT resource types such as Server, End User Computing Device, and Database using the ITAM License Report.
 
-**Parent Topic:**[Using Cloud Cost Management](using-cloud-insights.md)
+**Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

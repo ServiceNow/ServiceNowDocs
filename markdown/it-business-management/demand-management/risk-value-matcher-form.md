@@ -2,6 +2,7 @@
 title: Risk value matcher form
 description: Use the risk value matcher form to rate the impact and probability of a risk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/risk-value-matcher-form.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -85,5 +86,5 @@ Numerical value to indicate the probability. This value is multiplied by the val
  The calculated risk rank and the risk rank color are displayed in the **Risk rank** field of the Risk form.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
 

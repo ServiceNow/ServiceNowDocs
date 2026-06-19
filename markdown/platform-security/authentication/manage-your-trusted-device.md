@@ -2,6 +2,7 @@
 title: Manage your trusted device
 description: Manage your trusted device from the Trusted Device registration page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/manage-your-trusted-device.html
 release: australia
 product: Authentication
 classification: authentication
@@ -32,7 +33,7 @@ Role required: none
 
     The Register Trusted Devices page is displayed.
 
-3.  On the Register Trusted Devices page, remove the device by clicking the ![Delete icon](../images/delete-icon.png) icon.
+3.  On the Register Trusted Devices page, remove the device by clicking the \[Omitted image "delete-icon.png"\] Alt text: Delete icon icon.
 
     **Note:** The deleted mobile device must be registered again to access the instance.
 

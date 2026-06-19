@@ -2,6 +2,7 @@
 title: Create a personal event in the ServiceNow Agent
 description: Create personal events in the ServiceNow Agent mobile app to block off time for a break or phone call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-event-mobile-agent-application.html
 release: australia
 product: Work Order Management
 classification: work-order-management

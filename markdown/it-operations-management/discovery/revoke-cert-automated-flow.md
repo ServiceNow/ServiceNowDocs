@@ -2,6 +2,7 @@
 title: Revoke a certificate using automated certificate management
 description: Revoke certificate for an application. Revocation doesn't require approval if order Id and certificate Id are present in the Certificate Extension table. If order Id and certificate Id aren't present in the Certificate Extension table, then you need approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/revoke-cert-automated-flow.html
 release: australia
 product: Discovery
 classification: discovery
@@ -17,9 +18,9 @@ Revoke certificate for an application. Revocation doesn't require approval if **
 
 ## Before you begin
 
-[Set up the routing policy for automated certificate management](setup-routing-policy.md) to ensure the Certificate Management catalog is enabled.
+[Set up routing policy for automated certificate management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/setup-routing-policy.md) to ensure the Certificate Management catalog is enabled.
 
-To revoke an existing certificate, make sure the certificate has its extension details populated in the \[sn\_disco\_certmgmt\_certificate\_extension\] table. You don't need to include an endpoint URL. The system will automatically hardcode the revoke URLs for the discovery. Currently, these details populate automatically by the Discovery DigiCert CA Pattern or for any certificates created through the automated flow. However, for Entrust certificates, this only works if you [Request new certificate using automated certificate management](request-new-cert-automated-flow.md).
+To revoke an existing certificate, make sure the certificate has its extension details populated in the \[sn\_disco\_certmgmt\_certificate\_extension\] table. You don't need to include an endpoint URL. The system will automatically hardcode the revoke URLs for the discovery. Currently, these details populate automatically by the Discovery DigiCert CA Pattern or for any certificates created through the automated flow. However, for Entrust certificates, this only works if you [Request new certificate using automated certificate management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/request-new-cert-automated-flow.md).
 
 Role required: pki\_admin or admin
 
@@ -61,7 +62,7 @@ Role required: pki\_admin or admin
 
 **Note:**
 
-Certificates can't be revoked if Certificate Authority or Certificate Id details are missing in the Certificate Extension \[sn\_disco\_certmgmt\_certificate\_extension\] table. For Entrust CA Gateway, certificates can't be revoked if the Serial number is missing. Discover the certificate via [Certificate Authority query](../concept/run-cert-discovery.md) to populate the required details in the Certificate Extension table. After that, Discovery selects the routing policy and approves the task.
+Certificates can't be revoked if Certificate Authority or Certificate Id details are missing in the Certificate Extension \[sn\_disco\_certmgmt\_certificate\_extension\] table. For Entrust CA Gateway, certificates can't be revoked if the Serial number is missing. Discover the certificate via [Certificate Authority query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/run-cert-discovery.md) to populate the required details in the Certificate Extension table. After that, Discovery selects the routing policy and approves the task.
 
 Revoke certificate API request. If "skip\_approval" is true, the revoke process is completed faster. If "skip\_approval" is false, the revoke process is completed when the DigiCert or Entrust CA Gateway admin has approved or rejected the revoke request. To skip the approval step, the API key must have admin privileges.
 

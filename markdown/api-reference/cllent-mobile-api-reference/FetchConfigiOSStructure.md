@@ -2,6 +2,7 @@
 title: FetchConfiguration structure - iOS
 description: The FetchConfiguration structure provides the ability to define the configuration for fetching records from your ServiceNow instance.Defines the criteria for what records, and associated fields within those records, to return when fetching data from a ServiceNow instance through a REST endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/FetchConfigiOSStructure.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -33,7 +34,7 @@ filter
 
 </td><td>
 
-[Filter](../../Filter/concept/FilteriOSStructure.md#)
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md)
 
 </td><td>
 
@@ -57,14 +58,14 @@ readConfiguration
 
 </td><td>
 
-[FieldReadConfiguration](../../FieldReadConfiguration/concept/FieldReadConfigurationiOSStruct.md#)
+[FieldReadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FieldReadConfigurationiOSStruct.md)
 
 </td><td>
 
 Optional. Configuration of the fields returned in the response.Default: nil - All fields are returned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## FetchConfiguration - init\(filter: Filter? = nil, limit: Int? = nil, readConfiguration: FieldReadConfiguration? = nil\)
 
@@ -88,7 +89,7 @@ filter
 
 </td><td>
 
-[Filter](../../Filter/concept/FilteriOSStructure.md#)
+[Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FilteriOSStructure.md)
 
 </td><td>
 
@@ -112,7 +113,7 @@ readConfiguration
 
 </td><td>
 
-[FieldReadConfiguration](../../FieldReadConfiguration/concept/FieldReadConfigurationiOSStruct.md#)
+[FieldReadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/FieldReadConfigurationiOSStruct.md)
 
 </td><td>
 

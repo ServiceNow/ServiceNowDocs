@@ -2,6 +2,7 @@
 title: Link bot response control
 description: Use the Link bot response control in a Virtual Agent topic to present a bot response. The response contains a header prompt with either a single URL link to an item or multiple URL links for up to three items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-link-output.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Assistant Designer bot responses, Assistant Designer interface refe
 
 Use the Link bot response control in a Virtual Agent topic to present a bot response. The response contains a header prompt with either a single URL link to an item or multiple URL links for up to three items.
 
-**Note:** If you are using the link bot response control for Virtual Agent conversations on Now mobile apps, web links open in the mobile browser. If you want links to open in a native mobile screen within the mobile app, create deep links for items in your conversation topics. For details about deep linking in mobile apps, see the [MobileDeepLinkGenerator - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MobileDeepLinkGeneratorAPI.md) API.
+**Note:** If you are using the link bot response control for Virtual Agent conversations on Now mobile apps, web links open in the mobile browser. If you want links to open in a native mobile screen within the mobile app, create deep links for items in your conversation topics. For details about deep linking in mobile apps, see the MobileDeepLinkGenerator - Global API.
 
 ## Link bot response control properties
 
@@ -124,7 +125,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |LINE|Supported|None|
 |WhatsApp|Supported|None|
 |Apple Messages for Business|Supported|Any URLs must be added to the allowed domain list \[sys\_cs\_hostname\_allow\_list\] table.|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](../concept/va-settings-for-alexa.md).|
+|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
 
 ## Example single-link bot response control
 
@@ -140,11 +141,11 @@ Link bot response output
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties include node name, link list - single or multiple, header, label, and URL link.](../images/va-link-output-properties.png "Single Link bot response control basic properties")
+\[Omitted image "va-link-output-properties.png"\] Alt text: Basic properties include node name, link list - single or multiple, header, label, and URL link.
 
 </td><td>
 
-![In this simple example, the header reads, "Here is a link," followed by a hyperlink that reads, "Click Here."](../images/va-link-output-web.png "Web UI Link bot response output")
+\[Omitted image "va-link-output-web.png"\] Alt text: In this simple example, the header reads, "Here is a link," followed by a hyperlink that reads, "Click Here."
 
 </td></tr></tbody>
 </table>## Example multiple-link bot response control properties
@@ -159,14 +160,14 @@ Link bot response output
 
 </th></tr></thead><tbody><tr><td>
 
-![Basic properties with the Multiple links option selected. The link list is defined by a script.](../images/va-multi-link-output-properties.png "Multi-link bot response control basic properties")
+\[Omitted image "va-multi-link-output-properties.png"\] Alt text: Basic properties with the Multiple links option selected. The link list is defined by a script.
 
 </td><td>
 
-![Example output that reads, "I found some information that might help you," followed by 3 links with titles and short descriptions.](../images/va-multilink-web-output.png "Web UI Link bot response output - multiple URL links")
+\[Omitted image "va-multilink-web-output.png"\] Alt text: Example output that reads, "I found some information that might help you," followed by 3 links with titles and short descriptions.
 
  **Note:** Multi-link bot output is also supported in Microsoft Teams, Slack, Workplace, and Facebook Messenger.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

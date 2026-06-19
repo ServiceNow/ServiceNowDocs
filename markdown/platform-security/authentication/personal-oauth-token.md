@@ -2,11 +2,12 @@
 title: Get Personal OAuth Token \(using GlideOAuthClient\)
 description: Check whether the user has a personal OAuth token. Use it to confirm valid access before running REST steps or integrations that require personal OAuth credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/personal-oauth-token.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Personal authentication, Authentication, Access Management]
 ---
@@ -21,7 +22,7 @@ Role required: oauth\_admin
 
 ## About this task
 
-Use the `GlideOAuthClient` API to check if a personal OAuth token exists for the currently logged-in user. You can also use `ScopedPersonalAuthAPI` to get the personal OAuth token. For more information, see [PersonalAuthAPI - Scoped](https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/app-store/dev_portal/API_reference/PersonalAuthAPI/concept/PersonalAuthAPIScoped.html).
+Use the `GlideOAuthClient` API to check if a personal OAuth token exists for the currently logged-in user. You can also use `ScopedPersonalAuthAPI` to get the personal OAuth token. For more information, see PersonalAuthAPI - Scoped.
 
 ## Procedure
 
@@ -47,6 +48,6 @@ Use the `GlideOAuthClient` API to check if a personal OAuth token exists for the
 
     The `setPersonal(true)` method confirms that the token returned belongs to the currently logged-in user.
 
-    **Note:** For more information on the methods for requesting and revoking OAuth refresh and access tokens, see: [Glide OAuth Client API Documentation](https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/app-store/dev_portal/API_reference/GlideOAuthClient/concept/c_GlideOAuthClient.html).
+    **Note:** For more information on the methods for requesting and revoking OAuth refresh and access tokens, see: Glide OAuth Client API Documentation.
 
 

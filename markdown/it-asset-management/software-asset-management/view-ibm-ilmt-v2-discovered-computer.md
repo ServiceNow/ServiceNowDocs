@@ -2,6 +2,7 @@
 title: View the devices that are running your IBM software products
 description: If you are integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 2 of the ILMT and BigFix Inventory integration APIs, view the complete list of physical hosts and virtual machines \(VMs\) that are running your IBM software products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-ibm-ilmt-v2-discovered-computer.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -32,5 +33,5 @@ Role required: sam\_admin or sam\_user
     You can also view detailed information about each host or VM, including the hardware model, the hardware serial number, and the corresponding configuration item \(CI\) in the Configuration Management Database \(CMDB\).
 
 
-**Parent Topic:**[Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs](../concept/integrating-ilmt-bigfix-v2-apis.md)
+**Parent Topic:**[Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/integrating-ilmt-bigfix-v2-apis.md)
 

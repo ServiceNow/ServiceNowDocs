@@ -2,6 +2,7 @@
 title: Install the Talent Development Core application
 description: Install the Talent Development app to enable employees and managers to identify, create, and manage career growth and development plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-core-install.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -19,12 +20,12 @@ Install the Talent Development app to enable employees and managers to identify,
 
 Dependent plugins and apps for Talent Development:
 
--   [Manager Hub](../../human-resources/concept/manager-hub-overview.md)
--   [Skills Foundation](../../skills-intelligence/concept/skills-intelligence.md)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md)
+-   [Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/skills-intelligence.md)
 
-    When the Skills Foundation property **sn\_skills\_int.enable\_skills** is set to true, the use of Skills Foundation is enabled for all Talent applications that support the use of Skills Foundation. See [Configuring Skills Foundation](../../skills-intelligence/concept/configuring-skills-intelligence.md) for more information about Skills Foundation properties.
+    When the Skills Foundation property **sn\_skills\_int.enable\_skills** is set to true, the use of Skills Foundation is enabled for all Talent applications that support the use of Skills Foundation. See [Configuring Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/configuring-skills-intelligence.md) for more information about Skills Foundation properties.
 
--   [Install Employee Center Pro](../../employee-center/task/install-ec-pro.md)
+-   [Install Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/install-ec-pro.md)
 
 Role required: admin
 
@@ -51,5 +52,5 @@ When an administrator installs the Talent Development Core app from the ServiceN
 5.  Select **Install**.
 
 
-**Parent Topic:**[Installing and configuring the Talent Development Core app](../concept/egd-install-config.md)
+**Parent Topic:**[Installing and configuring the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-install-config.md)
 

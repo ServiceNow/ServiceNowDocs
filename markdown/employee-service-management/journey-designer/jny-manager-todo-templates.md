@@ -2,6 +2,7 @@
 title: Manage to-do templates created by managers in Journey designer
 description: Modify and manage to-do task templates that managers create.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-manager-todo-templates.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -29,10 +30,10 @@ Role required: admin \[sn\_jny.admin\]
 
 3.  Modify or complete the fields in the form.
 
-    For detailed information on the fields in the form, see [Journey designer Model task fields](../reference/jny-model-task-fields.md).
+    For detailed information on the fields in the form, see [Journey designer Model task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-model-task-fields.md).
 
 4.  Click **Submit** or **Update** to save the form.
 
 
-**Parent Topic:**[Creating and managing audience-specific templates](../concept/jny-creating-audience-specific-plans.md)
+**Parent Topic:**[Creating and managing audience-specific templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-creating-audience-specific-plans.md)
 

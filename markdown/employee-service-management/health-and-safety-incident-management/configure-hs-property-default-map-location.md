@@ -2,6 +2,7 @@
 title: Configure property to set default map location for Health and Safety incidents and observations
 description: Configure the property that enables users to add default coordinates when the map location isn’t enabled on their device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/configure-hs-property-default-map-location.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -23,7 +24,7 @@ Role required: sn\_ohs\_im.admin
 
 This property is required to set a default coordinate for the map when using the map location feature to report an incident or an observation.
 
-The Geo map component \[sn\_geo\_map\] must be installed to use this feature. For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+The Geo map component \[sn\_geo\_map\] must be installed to use this feature. For more information, see .
 
 ## Procedure
 
@@ -38,5 +39,5 @@ The Geo map component \[sn\_geo\_map\] must be installed to use this feature. Fo
 
 The latitude and longitude are saved as the default coordinates that loads while completing the Health and Safety incidents or observation form.
 
-**Parent Topic:**[Setting up Health and Safety Incident Management](../concept/setting-up-hs-incident-mgmt.md)
+**Parent Topic:**[Setting up Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
 

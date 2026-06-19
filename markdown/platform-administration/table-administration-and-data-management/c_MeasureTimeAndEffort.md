@@ -2,6 +2,7 @@
 title: Measure time and effort
 description: The Planned Task \[planned\_task\] table provides standard fields for tracking duration and effort.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_MeasureTimeAndEffort.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -39,5 +40,5 @@ Date Calculation: All planned dates and actual dates of the child tasks are roll
 
 Dependencies: All type of task dependencies, excluding external dependencies, are supported by the planned tasks. For more information about various dependency types, see Project task relationships and dependencies.
 
-**Parent Topic:**[Extending the Task table with Planned tasks](c_PlannedTask.md)
+**Parent Topic:**[Extending the Task table with Planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_PlannedTask.md)
 

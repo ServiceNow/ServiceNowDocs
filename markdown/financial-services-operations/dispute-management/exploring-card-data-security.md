@@ -2,12 +2,14 @@
 title: Exploring Card Data Security
 description: Learn more about Card Data Security and how it can be used to tokenize sensitive card data, display and mask Primary Account Numbers \(PANs\), and manage sensitive attachments for Dispute Cases and Dispute Transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/exploring-card-data-security.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
+keywords: [card data security overview, pci dss compliance, payment card industry data security standard, tokenization, detokenization, dispute workflow security, passthrough integration, cardholder data protection, pci compliant vault, card data security features, secure payment card data]
 breadcrumb: [Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -36,7 +38,7 @@ A card disputes solution needs to be PCI compliant for the following reasons:
 3.  Card dispute flows integrate with card networks that transmit card data in their responses.
 4.  Merchants may submit evidence that contains sensitive data, such as screenshots, receipts, or statements.
 
-![Diagram highlighting areas in the card dispute workflow that may handle PCI information.](../image/card-data-security-value.png)
+\[Omitted image "card-data-security-value.png"\] Alt text: Diagram highlighting areas in the card dispute workflow that may handle PCI information.
 
 Card Data Security provides a secure, PCI-compliant vault for sensitive payment information, while allowing FSO users to maintain operational efficiency in dispute management processes. Whether your organization falls under PCI Level 1 reporting requirements or operates at lower transaction volumes, Card Data Security can help maintain PCI compliance while streamlining financial services operations.
 
@@ -137,14 +139,14 @@ Redact predefined entities in images and PDFs.**Note:** This feature is not pre-
 
 See how PCI data is tokenized and detokenized with Card Data Security when communicating with card networks.
 
-![Workflow diagram showing tokenization flow with PCI data in response.](../image/card-data-security-response-workflow.png "Tokenization flow with PCI data in response")
+\[Omitted image "card-data-security-response-workflow.png"\] Alt text: Workflow diagram showing tokenization flow with PCI data in response.
 
 1.  In a dispute intake workflow with a financial account number, a card network API request is sent.
 2.  The Card Data Security tokenizer service passes through the request to the card network.
 3.  The card network sends a response containing PCI data \(such as a PAN\).
 4.  The Card Data Security tokenizer service replaces the PAN with a token value and sends the token to the dispute workflow.
 
-![Workflow diagram showing tokenization flow with PCI data in request.](../image/card-data-security-request-workflow.png "Tokenization flow with PCI data in request")
+\[Omitted image "card-data-security-request-workflow.png"\] Alt text: Workflow diagram showing tokenization flow with PCI data in request.
 
 1.  In a dispute intake workflow, a card network API request is sent containing the tokenized data.
 2.  The Card Data Security tokenizer service receives the request and substitutes the tokenized data with the PCI data \(such as a PAN\). The request containing the PAN is sent to the card network.
@@ -184,7 +186,7 @@ Agents use Card Data Security to view and reveal PANs in a transaction for a car
 
 To learn more about configuring Card Data Security, see:
 
--   [Configuring Card Data Security](configuring-card-data-security.md)
--   [Managing Card data security](managing-card-data-security.md)
--   [Card Data Security Reference](card-data-security-reference.md)
+-   [Configuring Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/configuring-card-data-security.md)
+-   [Managing Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-card-data-security.md)
+-   [Card Data Security Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/card-data-security-reference.md)
 

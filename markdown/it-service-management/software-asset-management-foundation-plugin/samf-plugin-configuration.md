@@ -2,6 +2,7 @@
 title: Configuring the classic Software Asset Management Foundation plugin
 description: Configure Software Asset Management Foundation plugin if you prefer to continue using the classic version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
@@ -15,14 +16,14 @@ breadcrumb: [Software Asset Management Foundation plugin, ITSM Software Asset Ma
 
 Configure Software Asset Management Foundation plugin if you prefer to continue using the classic version.
 
--   **[Create a SAM Foundation entitlement](../task/t_AddASoftwareEntitlementSAMF.md)**  
+-   **[Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md)**  
 Software entitlements enable you to define license details that are matched to software models.
--   **[Create a SAM Foundation software model](../task/t_AddASoftwareModelSAMF.md)**  
+-   **[Create a SAM Foundation software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareModelSAMF.md)**  
 Software models are used to connect purchased software rights with discovered software installations. Additionally, software models can be used to manage suites of software as well as to publish requestable software to the Service Catalog.
--   **[Manually normalize a SAM Foundation software discovery model](../task/t_EditASoftwareDiscModelSAMF.md)**  
+-   **[Manually normalize a SAM Foundation software discovery model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_EditASoftwareDiscModelSAMF.md)**  
 You can edit a software discovery model to manually normalize discovered software on the Software Discovery Models form so that it can be reconciled.
--   **[Manually override SAM Foundation edition value](../task/t_ManOverrideEditionSAMF.md)**  
+-   **[Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md)**  
 When the edition of a software install is not automatically discovered, you can specify the edition on the Software Installation form with the correct value \(if known\) so the software can be successfully reconciled.
 
-**Parent Topic:**[Software Asset Management Foundation plugin](c_SoftwareAssetMgmtSAMF.md)
+**Parent Topic:**[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
 

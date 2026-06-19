@@ -2,6 +2,7 @@
 title: Create and manage an enterprise license using the legacy Software Asset Management plugin
 description: Enterprise licenses are typically for large customers and provide some flexibility, an agreed upon discount price, and a mechanism for easy administration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_CreateAndManageAnEnterpriseLicense.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -58,5 +59,5 @@ Use the Contract Management application to set a software license as enterprise 
     **Note:** In the Software Licenses list, enterprise licenses display **0** in the **Rights** column. The concept of rights is not used with enterprise licenses.
 
 
-**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](../concept/c_SoftwareLicenses.md)
+**Parent Topic:**[Software licenses in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_SoftwareLicenses.md)
 

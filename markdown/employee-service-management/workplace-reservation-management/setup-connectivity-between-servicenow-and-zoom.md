@@ -2,13 +2,14 @@
 title: Setup OAuth connectivity between ServiceNow and Zoom
 description: Register Zoom with ServiceNow instance for OAuth authorization to get create virtual meetings and get recordings after a virtual meeting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-zoom.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Connect Workplace Reservation Management with Zoom, Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Connect Workplace Reservation Management with Zoom, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Setup OAuth connectivity between ServiceNow and Zoom
@@ -21,7 +22,7 @@ Ensure the following:
 
 -   Setup Zoom to enable virtual meeting.
 
-    Refer to the Create a connected app in Zoom topic in [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zoom.md).
+    Refer to the Create a connected app in Zoom topic in .
 
     **Note:** While setting up zoom, ensure the following:
 
@@ -61,9 +62,9 @@ Role required: admin
 
 The OAuth registration is added for Zoom.
 
-**Parent Topic:**[Connect Workplace Reservation Management with Zoom](connect-rsv-mtm-with-zoom.md)
+**Parent Topic:**[Connect Workplace Reservation Management with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.md)
 
-**Previous topic:**[Connect Workplace Reservation Management with Zoom](connect-rsv-mtm-with-zoom.md)
+**Previous topic:**[Connect Workplace Reservation Management with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.md)
 
-**Next topic:**[Create connection and credential for Zoom](create-connection-and-credentials-for-zoom.md)
+**Next topic:**[Create connection and credential for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-connection-and-credentials-for-zoom.md)
 

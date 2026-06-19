@@ -2,6 +2,7 @@
 title: ServiceNow AI Lens skill
 description: This skill provides generative AI capabilities to read, understand, respond, and act on visual data such as hand-written texts, images, and websites and take powerful actions to boost productivity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/servicenow-lens/servicenow-lens-skill.html
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
@@ -40,7 +41,7 @@ Platform
 
 </td><td>
 
-[ServiceNow AI Lens](servicenow-lens-landing-page.md)
+[ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-landing-page.md)
 
 </td></tr></tbody>
 </table>## Licensing requirements

@@ -2,6 +2,7 @@
 title: Bar visualization examples
 description: Bar visualizations enable you to show the comparative size or frequency of different categories or groups, for example, sales in different regions or over different periods of time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-bar.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -21,10 +22,10 @@ Use the horizontal bar to show data by named values, such as departments, agenci
 
 Use vertical bar to show numbered values, such as age or monetary ranges, or time periods.
 
--   **[Horizontal bar visualization example](dv-example-h-bar.md)**  
+-   **[Horizontal bar visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-example-h-bar.md)**  
 Horizontal bar visualizations enable you to show the comparative size or frequency of different categories or groups, such as incident priority or sales group. You can also add a group by or stack by to a bar visualization, such as the assignment group.
--   **[Vertical bar visualization example](dv-example-v-bar.md)**  
+-   **[Vertical bar visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-example-v-bar.md)**  
 Vertical bar visualizations enable you to show the comparative size or frequency of different categories or groups, for example, sales in different regions or over different periods of time. The X axis of a vertical usually shows a numerical value such years or date ranges, age ranges, or salary ranges.
 
-**Parent Topic:**[Create a horizontal or vertical bar data visualization](../../reporting/task/create-dv-bar-ac.md)
+**Parent Topic:**[Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-bar-ac.md)
 

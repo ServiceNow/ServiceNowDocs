@@ -2,6 +2,7 @@
 title: Set up the Tableau spoke
 description: Integrate your ServiceNow instance and Tableau Cloud to automate flows and perform actions on the Tableau Cloud application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-tableau-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -59,7 +60,7 @@ Integrate your ServiceNow instance and Tableau Cloud to automate flows and perfo
 
             The Connected App that you created gets displayed on the Connected Apps page. By default, the Connected App is inactive.
 
-        8.  To enable the Connected App, select the ellipsis icon \(![Ellipsis icon.](../../../reuse/icons/product-icons/ellipsis-horizontal-outline-24.svg)\) in the Actions column and select **Enable**.
+        8.  To enable the Connected App, select the ellipsis icon \(\[Omitted image "ellipsis-horizontal-outline-24.svg"\] Alt text: Ellipsis icon.\) in the Actions column and select **Enable**.
 
             The status of the Connected App shows as enabled.
 
@@ -74,5 +75,5 @@ Integrate your ServiceNow instance and Tableau Cloud to automate flows and perfo
 
 ## What to do next
 
-[Create a connection and credential for the Tableau spoke](create-cred-tableau.md)
+[Create a connection and credential for the Tableau spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-cred-tableau.md)
 

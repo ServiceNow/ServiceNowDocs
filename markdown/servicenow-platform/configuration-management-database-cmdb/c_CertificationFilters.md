@@ -2,6 +2,7 @@
 title: Certification filters
 description: A certification filter creates a subset of ServiceNow records to audit, typically from configuration items \(CI\) of a certain type, such as all UNIX servers in a specific datacenter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_CertificationFilters.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

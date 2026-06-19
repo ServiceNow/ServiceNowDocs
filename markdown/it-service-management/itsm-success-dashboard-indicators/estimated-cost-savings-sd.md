@@ -2,6 +2,7 @@
 title: Estimated Cost Savings for Success Dashboard indicators
 description: Estimated Cost Savings provides the data to measure the success of the product by calculating the total amount saved by the agents for Virtual Agent, Knowledge, and Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/estimated-cost-savings-sd.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -36,5 +37,5 @@ This dashboard provides the following features:
 
 To view the dashboard, you must have the sn\_sd.success\_dashboard\_admin, sn\_sd.success\_dashboard\_read, or sn\_sd.success\_dashboard\_details\_read role. Navigate to **All** &gt; **Success Dashboard** &gt; **Success Dashboard**.
 
-**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](measuring-performance-success-dashboard.md)
+**Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/measuring-performance-success-dashboard.md)
 

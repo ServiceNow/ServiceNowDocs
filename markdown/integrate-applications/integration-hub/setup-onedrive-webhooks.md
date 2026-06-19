@@ -2,6 +2,7 @@
 title: Set up a bi-directional webhook for the Microsoft OneDrive spoke
 description: Configure a webhook to subscribe to OneDrive with a ServiceNow callback URL.Register a OneDrive webhook in ServiceNow to notify the ServiceNow app when certain events occur in OneDrive.Create a webhook routing policy and subflow according to your requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-onedrive-webhooks.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -109,7 +110,7 @@ Routing policies in the OneDrive Webhook Routing Policy module triggers the subf
 
 4.  Customize the subflow according to your requirement and publish it.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows, and [OneDrive spoke v1.6](../concept/onedrive-spoke.md) for information about the supported subflows.
+    See Building subflows for more information about creating and using subflows, and [OneDrive spoke v1.6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/onedrive-spoke.md) for information about the supported subflows.
 
 5.  Navigate to **Microsoft OneDrive Spoke** &gt; **OneDrive Webhook Routing Policy**.
 
@@ -139,7 +140,7 @@ Default answer
 
 </td><td>
 
-Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(![Lookup icon](../image/lookup-icon.png)\).
+Option to specify if this is the default answer. The default answer is applicable when the conditions are not met.1.  Click the lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon\).
 2.  Select the required subflow from the Document list.
 
 **Note:** Ensure that the Table name is `Flow [sys_hub_flow]`.

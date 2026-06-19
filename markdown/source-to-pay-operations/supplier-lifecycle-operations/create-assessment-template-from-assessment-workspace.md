@@ -2,6 +2,7 @@
 title: Create assessment template from Assessment Workspace
 description: You can create smart assessment templates and add instructions, questions, and reference information by using the template designer in the Smart Assessment Engine application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-assessment-template-from-assessment-workspace.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ You can create smart assessment templates and add instructions, questions, and r
 
 ## Before you begin
 
-Smart assessments are built using the ServiceNow® Smart Assessment Engine \(SAE\) application. Familiarize yourself with the [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
+Smart assessments are built using the ServiceNow® Smart Assessment Engine \(SAE\) application. Familiarize yourself with the .
 
 Role required: sn\_slm.manager or sn\_slm.admin
 
@@ -25,7 +26,7 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 1.  Select the **Workspaces** tab and then select the **Assessment workspace**.
 
-    For more information on creating the smart assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
+    For more information on creating the smart assessment template, see .
 
 2.  In the **Purpose** field on the **Smart assessment template** form, select **Supplier management surveys**.
 
@@ -37,12 +38,12 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 5.  In the template designer, add instructions and questions.
 
-    For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    For more information, see .
 
 
 ## What to do next
 
 Configure the user criteria to restrict the reassignment of assessments from one contact to another within the organization.
 
-**Parent Topic:**[Configure smart assessments](configure-smart-assessments.md)
+**Parent Topic:**[Configure smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/configure-smart-assessments.md)
 

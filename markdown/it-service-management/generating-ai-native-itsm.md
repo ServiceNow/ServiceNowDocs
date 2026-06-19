@@ -2,7 +2,10 @@
 title: Generating AI summary and next steps
 description: You can generate AI summary, key actions taken, proposed next steps, and related search results directly on the incident form to help resolve the incident, and also summarize the incident to gain an overall understanding of the incident details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/generating-ai-native-itsm.html
 release: australia
+product: IT Service Management
+classification: it-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -26,7 +29,7 @@ You can scroll within the pane to view the different sections \(default\), or yo
 
 The incident Summary section includes the issue, key actions taken, and resolution for the incident. You can use the copy action icon to copy the contents and add to work notes or comments, for example. You can also use the feedback action icons to submit feedback.
 
-![](../image/summary-ai-native-itsm.png)
+\[Omitted image "summary-ai-native-itsm.png"\] Alt text:
 
 The Proposed Next Steps section contains the resolution steps applicable to the incident. You can copy the contents or give feedback using those icon actions, as well.
 
@@ -35,11 +38,11 @@ These menu options are also available:
 -   View steps and history: Opens the AI history dialog box which contains all the AI workflows that have been run for the incident so far.
 -   Ask a followup question.
 
-![](../image/next-steps-ai-native-itsm.png)
+\[Omitted image "next-steps-ai-native-itsm.png"\] Alt text:
 
 You can access the Now Assist panel by selecting the **Ask Now Assist to...** button in this section, which opens the Now Assist panel in the context of the incident. Once opened, you have the option summarize a record, summarize a conversation, or get help, and you can continue the chat for the incident.
 
-![](../image/now-assist-panel-ai-native-itsm.png)
+\[Omitted image "now-assist-panel-ai-native-itsm.png"\] Alt text:
 
 Additionally, you can use the chat menu icon in the Now Assist panel to view the chats for your specific incident, **All**, any **Updates**, or **Closed**.
 
@@ -63,11 +66,11 @@ You can also choose specific menu actions based on the category of the search re
 -   For an incident, can **Copy** or **Link to incident** for specific incident category search results.
 -   For a catalog, you can **Order item**.
 
-![AI native recommendations section.](../image/recomm-ai-native-itsm.png)
+\[Omitted image "recomm-ai-native-itsm.png"\] Alt text: AI native recommendations section.
 
 ## Incident with Now Assist panel
 
-![](../image/incident-now-assist-panel-ai-native.png)
+\[Omitted image "incident-now-assist-panel-ai-native.png"\] Alt text:
 
-**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](fulfiller-experience-ai-native-itsm.md)
+**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/fulfiller-experience-ai-native-itsm.md)
 

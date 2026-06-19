@@ -2,6 +2,7 @@
 title: Activate AI Agents for Service Mapping
 description: Activate the Service Mapping AI Agent and the Business App Mapping AI Agent from the Service Mapping home page to start automated service map creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/activate-sm-ai-specialists.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -53,5 +54,5 @@ The AI Agents are inactive by default. You can activate one or both AI Agents. A
 
 To deactivate an AI Agent, select **Deactivate** on the respective card. The button returns to **Activate**.
 
-**Parent Topic:**[AI Agents for Service Mapping](../concept/service-mapping-ai-specialists.md)
+**Parent Topic:**[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
 

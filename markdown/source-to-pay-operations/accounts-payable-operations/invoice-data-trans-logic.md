@@ -1,19 +1,21 @@
 ---
 title: Invoice data transformation logic
-description: Accounts Payable Operations integration with Document Intelligence converts the invoice and invoice line field values from the invoice document to a format supported by the system that processes the invoice.
+description: Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values, including dates, currencies, unit prices, and decimals, into formats supported by downstream processing systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
+keywords: [APO, Accounts Payable Operations, invoice processing, invoice management, DocIntel, Document Intelligence, integration]
 breadcrumb: [How Accounts Payable Operations integration with Document Intelligence works, Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Invoice data transformation logic
 
-Accounts Payable Operations integration with Document Intelligence converts the invoice and invoice line field values from the invoice document to a format supported by the system that processes the invoice.
+Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values, including dates, currencies, unit prices, and decimals, into formats supported by downstream processing systems.
 
 ## Type deriving logic
 
@@ -89,7 +91,7 @@ Currency groupings on invoice and invoice lines are determined based on the user
 
 **Note:** During conversion, for numbers such as 100,251 and 100.251, the system checks for other decimal separators mentioned in the invoice, and converts it to the appropriate decimal format. If the invoice contains fields with a single decimal separator, then conversion doesn’t apply for the invoice, and the value is set to empty as shown in the following table.
 
-For more information on currency conversion, see [Currency administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency.md).
+For more information on currency conversion, see .
 
 |Decimal format mentioned in the incoming invoice|Converted decimal format|
 |------------------------------------------------|------------------------|
@@ -173,5 +175,5 @@ In such cases, the invoice is considered as of type Credit memo.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](apm-docintel-how-it-works.md)
+</table>**Parent Topic:**[How Accounts Payable Operations integration with Document Intelligence works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md)
 

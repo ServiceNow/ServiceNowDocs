@@ -2,6 +2,7 @@
 title: Metrics
 description: Metrics of the machine identities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/machine-identity-metrics.html
 release: australia
 product: Identity
 classification: identity
@@ -25,11 +26,11 @@ The following results are unique API calls in the last 7 days. Records collected
 
 The following results are the machine integration accounts used for integrations. Records collected in this table are in real time.
 
-![Machine identity accounts](../images/metrics-mic-accounts.png)
+\[Omitted image "metrics-mic-accounts.png"\] Alt text: Machine identity accounts
 
 ## High Privilege machine accounts
 
 The following results are the high privilege machine integration accounts used for integrations. Records collected in this table are in real time.
 
-![High Privilege machine accounts](../images/metrics-high-privilege.png)
+\[Omitted image "metrics-high-privilege.png"\] Alt text: High Privilege machine accounts
 

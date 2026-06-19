@@ -2,6 +2,7 @@
 title: View CSV Feeds
 description: View configured CSV feeds to monitor data import sources and their current status. Use this to verify feed configurations and troubleshoot import issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/view-oob-csv-feeds.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -41,5 +42,5 @@ Role required: sn\_sec\_tisc.admin
 5.  Select **Save** to apply the changes.
 
 
-**Parent Topic:**[View Threat Intel Feeds](../concept/base-system-threat-intel-feeds.md)
+**Parent Topic:**[View Threat Intel Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/base-system-threat-intel-feeds.md)
 

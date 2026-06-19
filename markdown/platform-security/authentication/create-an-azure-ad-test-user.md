@@ -2,6 +2,7 @@
 title: Create an Azure AD test user
 description: Create a test user on Azure AD.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-an-azure-ad-test-user.html
 release: australia
 product: Authentication
 classification: authentication

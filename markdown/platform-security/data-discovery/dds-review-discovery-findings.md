@@ -2,6 +2,7 @@
 title: Review discovery findings
 description: Classify data in Data Discovery Store
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/dds-review-discovery-findings.html
 release: australia
 product: Data Discovery
 classification: data-discovery

@@ -2,6 +2,7 @@
 title: Case create component on mobile device
 description: Create cases from mobile devices with a form interface that adapts to your mobile devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-mobile-adaptive-case-create.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -21,9 +22,9 @@ Use the Case Create component on mobile devices to create cases with a form layo
 
 The component automatically detects mobile devices and adjusts the form layout to fit smaller screens. Form fields reorganize to maintain readability, drop-down menus open as bottom sheets for easier touch interaction, and buttons are sized appropriately for mobile use.
 
-After submitting a case, the system generates a case number. When you select the copy \(![Copy icon](../image/we-copy-icon.jpg)\) icon, the reference number is copied to the clipboard, and the icon changes to a tick \(![Tick icon](../image/we-tick-icon.png)\) icon. Selecting the tick \(![Tick icon](../image/we-tick-icon.png)\) icon displays a `Copied to clipboard` message, which disappears after 3 seconds and the tick \(![Tick icon](../image/we-tick-icon.png)\) icon reverts to the copy \(![Copy icon](../image/we-copy-icon.jpg)\) icon.
+After submitting a case, the system generates a case number. When you select the copy \(\[Omitted image "we-copy-icon.jpg"\] Alt text: Copy icon\) icon, the reference number is copied to the clipboard, and the icon changes to a tick \(\[Omitted image "we-tick-icon.png"\] Alt text: Tick icon\) icon. Selecting the tick \(\[Omitted image "we-tick-icon.png"\] Alt text: Tick icon\) icon displays a `Copied to clipboard` message, which disappears after 3 seconds and the tick \(\[Omitted image "we-tick-icon.png"\] Alt text: Tick icon\) icon reverts to the copy \(\[Omitted image "we-copy-icon.jpg"\] Alt text: Copy icon\) icon.
 
-![Case create component mobile view displaying a form to create and submit a case.](../image/we-mobile-adaptive-case-create-view.png "Case create component mobile view")
+\[Omitted image "we-mobile-adaptive-case-create-view.png"\] Alt text: Case create component mobile view displaying a form to create and submit a case.
 
 ## Key capabilities
 

@@ -2,6 +2,7 @@
 title: Integrations for Employee Goals
 description: Extend the Employee Goals application's capabilities by integrating with your organization's human capital management \(HCM\) system to make employee goals accessible while using the Talent Development suite of applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-goals/egd-goals-integrate.html
 release: australia
 product: Employee Goals
 classification: employee-goals
@@ -21,14 +22,14 @@ The Employee Goals app provides an integration with the following HCM systems:
 
 -   **Oracle Cloud HCM**
 
-    Integrate Oracle Cloud HCM with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Oracle Cloud HCM, refer to [Oracle HCM Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/oracle-hcm.md).
+    Integrate Oracle Cloud HCM with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Oracle Cloud HCM, refer to .
 
 -   **SAP SuccessFactors**
 
-    Integrate SAP SuccessFactors with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with SAP SuccessFactors, refer to [SuccessFactors Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/successfactors-spoke.md).
+    Integrate SAP SuccessFactors with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with SAP SuccessFactors, refer to .
 
 -   **Workday**
 
-    Integrate Workday with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Workday, refer to [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md).
+    Integrate Workday with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Workday, refer to .
 
 

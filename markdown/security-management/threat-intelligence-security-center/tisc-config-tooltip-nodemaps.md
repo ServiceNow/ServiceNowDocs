@@ -2,6 +2,7 @@
 title: Configure tooltips for nodemaps
 description: Use this section to configure tooltips for node map relationships on the investigation canvas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-config-tooltip-nodemaps.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center

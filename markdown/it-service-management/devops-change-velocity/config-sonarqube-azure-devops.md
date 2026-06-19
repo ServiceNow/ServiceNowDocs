@@ -2,6 +2,7 @@
 title: Configure SonarQube scans on Azure DevOps pipelines
 description: Configure SonarQube or SonarCloud scans on MS Azure DevOps pipelines. Check Azure DevOps pipeline executions for SonarQube scans on every stage of the pipeline's execution and fetch lists and details of scans from any stage to DevOps Change Velocity. Drill down on the Scan Details based on categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/config-sonarqube-azure-devops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -19,12 +20,12 @@ Configure SonarQube or SonarCloud scans on MS Azure DevOps pipelines. Check Azur
 
 Ensure that you meet the following prerequisites before you configure SonarQube scans on your Azure DevOps pipeline:
 
--   You are using a compatible SonarQube version. See [DevOps Change Velocity integrations](../concept/dev-ops-overview.md) for supported tool versions.
+-   You are using a compatible SonarQube version. See [DevOps Change Velocity integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-overview.md) for supported tool versions.
 -   Connect, configure the Azure DevOps tool and discover existing repositories, orchestration tasks, and pipelines.
--   Create a SonarQube tool record. For more information, see [SonarQube integration with DevOps Change Velocity](../concept/sonarqube-devops-integration-devops.md).
+-   Create a SonarQube tool record. For more information, see [SonarQube integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/sonarqube-devops-integration-devops.md).
 -   Install the SonarQube extension from the Visual Studio Marketplace and configure branch analysis to use the Azure Devops tasks in your build definitions to analyze your projects. For more information, see [SonarQube documentation](https://docs.sonarqube.org/latest/analysis/azuredevops-integration/).
 -   Install the following custom extension tasks on your Azure DevOps instance.
-    -   ServiceNow extension to integrate Azure Pipelines with DevOps Change Velocity. For more information, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](config-dev-ops-extensions-azure.md#).
+    -   ServiceNow extension to integrate Azure Pipelines with DevOps Change Velocity. For more information, see [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
     -   ServiceNow DevOps Build Sonar Registration \(for Build pipelines\)
     -   ServiceNow DevOps Release Sonar Registration task \(for Release pipelines\)
 
@@ -57,7 +58,7 @@ Add and configure custom ServiceNow extension tasks in order to them default tas
 
     1.  In the Azure DevOps console, navigate to **Organization** &gt; **SonarIntegrations** &gt; **Pipelines** &gt; **Jobs**.
 
-    2.  Click the **Add Tasks** icon \(![Add additional tasks](../image/add-task-ado-sonar.png)\), and search for the ServiceNow extensions in the **Add tasks** search bar.
+    2.  Click the **Add Tasks** icon \(\[Omitted image "add-task-ado-sonar.png"\] Alt text: Add additional tasks\), and search for the ServiceNow extensions in the **Add tasks** search bar.
 
     3.  Add the following tasks.
 
@@ -144,5 +145,5 @@ Based on the scan results on various stages of pipeline's execution, the results
     The Software Quality Scan Summary and Scan Details are displayed.
 
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

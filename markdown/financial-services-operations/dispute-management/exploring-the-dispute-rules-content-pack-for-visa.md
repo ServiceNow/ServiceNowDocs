@@ -2,6 +2,7 @@
 title: Exploring Dispute Rules Content Pack for Visa
 description: Learn how the Dispute Rules Content Pack for Visa application leverages questionnaire and mapping to ensure proper categorization and processing of disputes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/exploring-the-dispute-rules-content-pack-for-visa.html
 release: australia
 product: Dispute Management
 classification: dispute-management

@@ -2,6 +2,7 @@
 title: Automation Center Executions dashboard
 description: The Automation Center Executions dashboard helps you manage the health of automations in one central place. You can also​ import automation metrics and data from third-party providers regardless of the technology used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/executions-dash.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -51,7 +52,7 @@ Execution summary by state
 
 </td><td>
 
-This chart displays the execution status of automations in different states. This information helps in understanding the status of the automations.![Execution summary by state](../images/exe-summ-1.png)
+This chart displays the execution status of automations in different states. This information helps in understanding the status of the automations.\[Omitted image "exe-summ-1.png"\] Alt text: Execution summary by state
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Automation incidents
 
 </td><td>
 
-This chart provides information about any incidents that have a direct impact on the automations. For example, if five automations are on hold, this chart lets you know about those five automations. This information enables you to manage the automations better.![Automation incidents](../images/exe-summ-2.png)
+This chart provides information about any incidents that have a direct impact on the automations. For example, if five automations are on hold, this chart lets you know about those five automations. This information enables you to manage the automations better.\[Omitted image "exe-summ-2.png"\] Alt text: Automation incidents
 
 </td></tr><tr><td>
 
@@ -67,7 +68,7 @@ Automation changes
 
 </td><td>
 
-This chart focuses on any change that has a direct impact on the automations.![Automation changes](../images/exe-summ-3.png)
+This chart focuses on any change that has a direct impact on the automations.\[Omitted image "exe-summ-3.png"\] Alt text: Automation changes
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Business application changes
 
 </td><td>
 
-This chart provides information about any change to the business applications that are associated with the automations.![Business application changes](../images/exe-summ-4.png)
+This chart provides information about any change to the business applications that are associated with the automations.\[Omitted image "exe-summ-4.png"\] Alt text: Business application changes
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Execution state over time
 
 </td><td>
 
-This chart provides information about the state of the executions for a time period. There’s a date range filter for this chart. If you select a date range, the data is limited to the selected date range, or else the default date range is selected, which is last one week.![Execution state over time](../images/exe-summ-5.png)
+This chart provides information about the state of the executions for a time period. There’s a date range filter for this chart. If you select a date range, the data is limited to the selected date range, or else the default date range is selected, which is last one week.\[Omitted image "exe-summ-5.png"\] Alt text: Execution state over time
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ Execution summary
 
 </td><td>
 
-This chart displays the number of executions and their respective states sorted by automation name.![Execution summary](../images/exe-summ-6.png)
+This chart displays the number of executions and their respective states sorted by automation name.\[Omitted image "exe-summ-6.png"\] Alt text: Execution summary
 
 </td></tr></tbody>
 </table>## Transaction summary
@@ -100,11 +101,11 @@ The Transaction summary section displays execution details of the spokes for the
 
 |Section|Description|
 |-------|-----------|
-|Active applications|Displays the number of active applications running in your instance for the last 24 hours.![Active applications](../images/exe-summ-tran-1.png)|
-|Actions in use|Displays the number of actions that are used in your instance in the last 24 hours.![Actions in use](../images/exe-summ-tran-2.png)|
-|Total transactions|Displays the total number of transactions in your instance in the last 24 hours.![Total transactions](../images/exe-summ-tran-3.png)|
-|In progress and failed transactions by flow|Displays all the in progress and failed transactions by flow in your instance in the last 24 hours.![In progress and failed transactions by flow](../images/exe-summ-tran-4.png)|
-|Flow execution status trends|Displays the flow execution trend for all states in your instance in the last 24 hours.![Flow execution status trends](../images/exe-summ-tran-5.png)|
+|Active applications|Displays the number of active applications running in your instance for the last 24 hours.\[Omitted image "exe-summ-tran-1.png"\] Alt text: Active applications|
+|Actions in use|Displays the number of actions that are used in your instance in the last 24 hours.\[Omitted image "exe-summ-tran-2.png"\] Alt text: Actions in use|
+|Total transactions|Displays the total number of transactions in your instance in the last 24 hours.\[Omitted image "exe-summ-tran-3.png"\] Alt text: Total transactions|
+|In progress and failed transactions by flow|Displays all the in progress and failed transactions by flow in your instance in the last 24 hours.\[Omitted image "exe-summ-tran-4.png"\] Alt text: In progress and failed transactions by flow|
+|Flow execution status trends|Displays the flow execution trend for all states in your instance in the last 24 hours.\[Omitted image "exe-summ-tran-5.png"\] Alt text: Flow execution status trends|
 
 ## Insights panel
 
@@ -112,7 +113,7 @@ The Insights panel provides information about insights, which draw your attentio
 
 
 
-![Insights example](../images/insights-widget.jpg)
+\[Omitted image "insights-widget.jpg"\] Alt text: Insights example
 
-**Parent Topic:**[Automation Center Workspace](automation-center-workspace-ui.md)
+**Parent Topic:**[Automation Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-workspace-ui.md)
 

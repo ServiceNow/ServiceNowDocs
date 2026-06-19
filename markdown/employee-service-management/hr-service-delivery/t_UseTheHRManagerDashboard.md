@@ -2,6 +2,7 @@
 title: View Manager Dashboard
 description: You can use the Manager Dashboard to monitor HR team effectiveness based on metrics. Metrics includes state of assigned cases by HR agent and service level agreement \(SLA\) elapsed time percentage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_UseTheHRManagerDashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -28,7 +29,7 @@ By default, the following reports appear on the Manager Dashboard:
 -   Active HR Cases by Assignment And State: Review the numbers of HR cases assigned to each HR agent by state, for example, **Ready** or **Work in Progress**, to help you evaluate the effectiveness of each HR agent.
 -   HR Case Transfer Rate: Review the number of cases transferred to a different HR agent by case category to determine whether the right assignments are taking place.
 
-![HR Manager Dashboard](../image/hr-mgr-dashboard.png)
+\[Omitted image "hr-mgr-dashboard.png"\] Alt text: HR Manager Dashboard
 
 You can customize any dashboard that you can access to add or remove reports and other widgets. For example, an HR benefits administrator adds a report to the Manager Dashboard that has the assignment and state of HR cases in the **Benefits** category.
 
@@ -45,5 +46,5 @@ You can customize any dashboard that you can access to add or remove reports and
     |**Save the chart as an image file**|If a menu icon appears when you point your cursor to a chart, you can click the icon to export the chart to an image file.|
 
 
-**Parent Topic:**[HR Dashboards &amp; Reports](../concept/c_HRDashboardsReports.md)
+**Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 

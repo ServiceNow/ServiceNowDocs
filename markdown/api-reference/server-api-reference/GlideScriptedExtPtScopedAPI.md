@@ -2,6 +2,7 @@
 title: GlideScriptedExtensionPoint - Scoped
 description: The GlideScriptedExtensionPoint API provides a method that returns the extension instances associated with a specified extension point.Returns the extension instances associated with a specified extension point.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideScriptedExtPtScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,15 +20,15 @@ From these extension instances, you can extend the functionality of an applicati
 
 This API is available in the base ServiceNow instance.
 
-For more information on extension points, see [Using extension points to extend application functionality](../../../../../build/applications/concept/extension-points.md).
+For more information on extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideScriptedExtensionPoint - getExtensions\(String name\)
 
 Returns the extension instances associated with a specified extension point.
 
-These extension instances are persisted in the Extension Instance \[sys\_extension\_instance\] table. For more information on extension points, see [Using extension points to extend application functionality](../../../../../build/applications/concept/extension-points.md).
+These extension instances are persisted in the Extension Instance \[sys\_extension\_instance\] table. For more information on extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 **Note:** The script include instances returned by the getExtensions\(\) method are uninitialized. If your interface includes an initialize method, call that method before calling other methods on the returned instance. For example:
 

@@ -2,11 +2,12 @@
 title: Using conversational search in Now Assist panel
 description: Get common case-related information from the KBs within the case record by asking questions in the Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/using-conversational-search-in-now-assist-panel.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, Now Assist for CSM, Customer Service Management]
@@ -35,7 +36,7 @@ To use the feature, do the following:
 2.  From the header menu, select the Now Assist icon to open the Now Assist panel.
 3.  In the Now Assist panel, type in a question related to a case.
 
-To get started with configuring the Now Assist Q&amp;A Skill, see the [Configuring Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-na-landing.md) instructions.
+To get started with configuring the Now Assist Q&amp;A Skill, see the  instructions.
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

@@ -2,6 +2,7 @@
 title: Create an app in Microsoft Teams to enable making calls
 description: Create an app to make outbound calls from Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-app-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Create an app to make outbound calls from Microsoft Teams.
 
 ## Before you begin
 
-Ensure you have installed Notify connector and other required plugins on your ServiceNow® instance. For more information, see [Install Notify connector for Microsoft Teams](setup-notify-ms-teams.md).
+Ensure you have installed Notify connector and other required plugins on your ServiceNow® instance. For more information, see [Install Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.md).
 
 Role required: Microsoft Teams admin, Microsoft Azure admin
 
@@ -189,7 +190,7 @@ Link to the terms and conditions for your app.
 
 ## What to do next
 
-Assign permissions to users to access the new bot. For more information, see [Manage permissions and authenticate the Notify connector app/bot in Microsoft Azure portal](manage-permissions-notify.md).
+Assign permissions to users to access the new bot. For more information, see [Manage permissions and authenticate the Notify connector app/bot in Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-permissions-notify.md).
 
-**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](../concept/setup-notify-ms-teams-single-tenant.md)
+**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md)
 

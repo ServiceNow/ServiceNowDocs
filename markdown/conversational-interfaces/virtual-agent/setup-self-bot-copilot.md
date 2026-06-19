@@ -2,6 +2,7 @@
 title: Setting up the Self-configured bot for using Microsoft Copilot
 description: Using your Self-configured bot with Microsoft Copilot for Now Assist conversations requires you to complete a few additional setup actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/setup-self-bot-copilot.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,18 +23,18 @@ You must have version 10.1.1 or higher of the Microsoft Teams plugin to have CEA
 
 You can install the default Now Assist Virtual Agent bot from the Microsoft Teams app store. This bot deploys automatically, but you cannot customize its prompts or manifest description. You must still install the ServiceNow Microsoft Teams plugin from the ServiceNow app store.
 
-For more information on Microsoft Teams and Now Assist in Virtual Agent installation and settings, see [.](ms-copilot-na-va.md)
+For more information on Microsoft Teams and Now Assist in Virtual Agent installation and settings, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)
 
 As of October 2025, streaming is active by default for both Teams and Copilot. Configurations are shared by Teams and Copilot, and both apps are linked to the assistant.
 
 You can use the self-configured bot or the default version to install Microsoft Copilot integration. The default bot automatically deploys in Copilot. If you want to use a self-configured bot for Microsoft Copilot, complete the following additional setup:
 
 -   Provide the Self-configured bot a name while creating it. This name is also provided to the Custom Engine Agent \(CEA\).
--   Activate your assistant in the Conversational Interfaces configuration page. For more information, see [Configuring assistants overview](../../now-assist-in-va/task/configure-now-assist-va.md).
--   Migrate any relevant topics to the Now LLM Service for Now Assist large language model \(LLM\) conversations with Copilot. To migrate your topics to LLM, you must enable LLM. For more information, see [Migrate NLU topics to LLM topics](../task/migrate-nlu-llm.md).
+-   Activate your assistant in the Conversational Interfaces configuration page. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md).
+-   Migrate any relevant topics to the Now LLM Service for Now Assist large language model \(LLM\) conversations with Copilot. To migrate your topics to LLM, you must enable LLM. For more information, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/migrate-nlu-llm.md).
 -   Update the following fields within the manifest file that is downloaded from Admin experience to configure the Self-configured bot. You can update your agent's description and update its prompts if it has any unique capabilities.
 
-    ![Use the Microsoft Teams channel page in Conversational Interfaces Channels and Integrations to create and manage app settings.](../images/ci-settings-msteams.png "Conversational Interfaces Microsoft Teams channel page")
+    \[Omitted image "ci-settings-msteams.png"\] Alt text: Use the Microsoft Teams channel page in Conversational Interfaces Channels and Integrations to create and manage app settings.
 
     Update the generic description that ServiceNow provides with a specific use case that you may have in your topics.
 
@@ -43,5 +44,5 @@ You can use the self-configured bot or the default version to install Microsoft 
 
 -   Activate the Copilot check box on the Conversational Interfaces admin page before uploading your manifest.
 
-**Parent Topic:**[Integrating Now Assist in Virtual Agent with Microsoft Copilot](ms-copilot-na-va.md)
+**Parent Topic:**[Integrating Now Assist in Virtual Agent with Microsoft Copilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/ms-copilot-na-va.md)
 

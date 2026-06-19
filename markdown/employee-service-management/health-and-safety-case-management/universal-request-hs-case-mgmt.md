@@ -2,6 +2,7 @@
 title: Universal Request for Health and Safety cases
 description: With the integration of Health and Safety Case Management and Universal Request applications, you can provide a consistent user experience for employees while creating service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/universal-request-hs-case-mgmt.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management

@@ -2,6 +2,7 @@
 title: Change a time zone in a scheduled report
 description: By default, scheduled reports use the time zone of the user who runs them \(the user in the Run As field\) to evaluate the query parameters. You are able to change this time zone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_ChangeATimeZoneInASchedReport.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -27,11 +28,11 @@ For example, a report on 'incidents open today' resolves 'today' based on the us
 
 3.  Add Run as fields to the layout.
 
-    1.  Configure the form layout to add the **Run as tz** field to the **Scheduled Report** form. See [Configuring the form layout](../../form-administration/concept/configure-form-layout.md#) for instructions.
+    1.  Configure the form layout to add the **Run as tz** field to the **Scheduled Report** form. See [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) for instructions.
 
         The Run as tz field lets you choose either a the time zone of the user who configured the schedule, or a specific time zone.
 
-    2.  Configure the form layout to add the **Run as \[+\]** field to the **Scheduled Report** form. See [Configuring the form layout](../../form-administration/concept/configure-form-layout.md#) for instructions.
+    2.  Configure the form layout to add the **Run as \[+\]** field to the **Scheduled Report** form. See [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/configure-form-layout.md) for instructions.
 
         The Run as \[+\] field lets you choose a specific user to run the report as.
 
@@ -42,5 +43,5 @@ For example, a report on 'incidents open today' resolves 'today' based on the us
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Using time configuration](../using-time-configuration.md)
+**Parent Topic:**[Using time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/using-time-configuration.md)
 

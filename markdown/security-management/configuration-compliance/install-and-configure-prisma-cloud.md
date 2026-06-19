@@ -2,6 +2,7 @@
 title: Install and configure the Vulnerability Response Integration with Palo Alto Prisma Cloud application
 description: Install the Vulnerability Response Integration with Palo Alto Prisma Cloud application to use the imported data from Prisma Cloud. Use this data to prioritize and remediate misconfigurations on your assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/install-and-configure-prisma-cloud.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

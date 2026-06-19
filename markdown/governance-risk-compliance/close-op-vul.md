@@ -2,6 +2,7 @@
 title: Close the operational vulnerability
 description: Verify the details and close the Operational vulnerability record as the Operational vulnerability analyst.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/close-op-vul.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

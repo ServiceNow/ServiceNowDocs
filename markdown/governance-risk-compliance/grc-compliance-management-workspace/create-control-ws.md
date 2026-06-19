@@ -2,6 +2,7 @@
 title: Create a control using the Compliance Workspace
 description: Controls are automatically generated when you associate a policy with an entity type, or an entity type with a control objective, or when an entity is added to a control objective. A control is created for each entity listed in the entity type for the control objective. Controls can also be manually created using the Compliance Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/create-control-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -76,7 +77,7 @@ Inherit from control objective
 
 </td><td>
 
-Option to indicate whether the control is created through an item generation process. For more information, see [Multiple controls for a unique entity–control objective combination](../../grc-policy-and-compliance/concept/support-multiple-controls-same-entity-control-objective.md).
+Option to indicate whether the control is created through an item generation process. For more information, see [Multiple controls for a unique entity–control objective combination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/support-multiple-controls-same-entity-control-objective.md).
 
 </td></tr><tr><td>
 
@@ -346,9 +347,9 @@ Public information about the control.
 
     If you had created a common control, then there are Reliant entities and Reliant entity types related lists along with other related lists of the control. Use the Reliant entities related list to associate entities to the common control. Or, you can use the Reliant entity types related list to add a group of entities of an entity type instead of associating them one by one.
 
-    ![Related lists to associate entities as reliant entities.](../image/RelEntitiesRelList.png "Related lists for common controls")
+    \[Omitted image "RelEntitiesRelList.png"\] Alt text: Related lists to associate entities as reliant entities.
 
-    **Note:** For more information on the reliant entity association for a common control, see [Convert standard control to common control and add reliant entities](convert-standard-control-common.md).
+    **Note:** For more information on the reliant entity association for a common control, see [Convert standard control to common control and add reliant entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
 
 6.  From the **Overview** page, click the **Issues**.
 

@@ -2,6 +2,7 @@
 title: Domain separation and Workflow Studio
 description: Domain separation is supported in Workflow Studio. Workflow Studio supports domain separation of business logic, which lets each tenant domain have its own flows, actions, and subflows. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-designer-domain-separation.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -47,7 +48,7 @@ The system domain separates Workflow Studio content according to these rules.
 
 -   **Workflow Studio only runs content accessible from the current domain context**
 
-    The system can only run content to which the current domain context allows access. See [Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md) to understand data separation and the domain hierarchy. For example, a user in the child domain ACME can trigger flows belonging to the parent domain TOP, but cannot trigger flows belonging to a sibling domain such as INITECH.
+    The system can only run content to which the current domain context allows access. See Understanding domain separation to understand data separation and the domain hierarchy. For example, a user in the child domain ACME can trigger flows belonging to the parent domain TOP, but cannot trigger flows belonging to a sibling domain such as INITECH.
 
     Workflow Studio runs record operations from the current user domain context. A read operation such as the Lookup Records action returns records based on the currently selected domain and its children. For example, if the currently selected domain is the TOP domain, you will see records from the TOP domain and all its children such as the ACME and INITECH domains. If the currently selected domain is the ACME domain, you will see records from the ACME domain and its children, but you will not see records from the parent TOP domain.
 
@@ -86,5 +87,5 @@ Follow these general guidelines when using domain separation with Workflow Studi
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

@@ -2,6 +2,7 @@
 title: View Case Reports
 description: View Case Reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-case-reports.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -42,5 +43,5 @@ Case Reports provide a structured way to document and present intelligence tied 
     **Note:** You can also preview the report before sharing.
 
 
-**Parent Topic:**[Working with Reports in TISC](../concept/tisc-reports-lib-view.md)
+**Parent Topic:**[Working with Reports in TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-reports-lib-view.md)
 

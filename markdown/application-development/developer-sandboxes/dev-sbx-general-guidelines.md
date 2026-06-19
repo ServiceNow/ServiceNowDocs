@@ -2,6 +2,7 @@
 title: General guidelines and use cases for Developer Sandboxes
 description: Follow some general guidelines to ensure you're optimizing your use of sandboxes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dev-sbx-general-guidelines.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
@@ -23,7 +24,7 @@ Entitlements can be stacked, supporting up to 30 sandboxes per instance.
 
 **Note:** The number of sandboxes does not impact the instance performance.
 
-Users can be signed into the base instance and multiple sandboxes at the same time. Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](dev-sbx-installing.md).
+Users can be signed into the base instance and multiple sandboxes at the same time. Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-installing.md).
 
 **Note:** Instances with vanity URLs support SSO.
 
@@ -59,7 +60,7 @@ The following table compares how non-production instances and Developer Sandboxe
 |Concurrent workstreams are isolated or minimally aligned|Development activities follow a consistent cadence.|
 |Durable environment for long-term changes|Work can be completed in a temporary environment and committed to version control.|
 
-For more information on setting up sandboxes on instances, see [Installing Developer Sandboxes](dev-sbx-installing.md).
+For more information on setting up sandboxes on instances, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/developer-sandboxes/dev-sbx-installing.md).
 
 ## Developer Sandboxes and ServiceNow Fluent
 
@@ -67,9 +68,9 @@ Developer Sandboxes work best with ServiceNow Fluent and ServiceNow IDE.
 
 Low-code changes represented in XML markup sometimes cause merging issues, because the generated file structure can make it challenging to align changes. When using low-code builders on the ServiceNow AI Platform, the best long-term strategy is to save changes in ServiceNow Fluent instead of XML.
 
-ServiceNow Fluent is a domain-specific programming language that you can use to define application metadata in source code. Developers and admins can easily look up changes in version control, such as Git. For details, see [ServiceNow Fluent](../../servicenow-sdk/concept/servicenow-fluent.md).
+ServiceNow Fluent is a domain-specific programming language that you can use to define application metadata in source code. Developers and admins can easily look up changes in version control, such as Git. For details, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/servicenow-fluent.md).
 
-You can use Developer Sandboxes with System Update Sets, but a more forward-looking solution is to use ServiceNow IDE. Pairing your sandboxes and ServiceNow IDE with version control and deployment apps \(such as App Engine Management Center\) enables a cleaner, more streamlined deployment ecosystem. For more information, see [ServiceNow IDE](../../servicenow-ide/concept/servicenow-ide-landing.md).
+You can use Developer Sandboxes with System Update Sets, but a more forward-looking solution is to use ServiceNow IDE. Pairing your sandboxes and ServiceNow IDE with version control and deployment apps \(such as App Engine Management Center\) enables a cleaner, more streamlined deployment ecosystem. For more information, see [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/servicenow-ide-landing.md).
 
 ## Developer Sandboxes FAQs
 

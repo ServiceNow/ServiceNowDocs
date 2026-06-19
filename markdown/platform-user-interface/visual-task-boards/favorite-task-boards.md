@@ -2,6 +2,7 @@
 title: Add a Visual Task Board as a favorite
 description: Add Visual Task Boards you access frequently to the application navigator using the favorite option.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/favorite-task-boards.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -31,8 +32,8 @@ Adding a board as a favorite is only available in Core UI.
 
 3.  Select the star icon.
 
-    ![Navigation panel open to information tab with the favorite star icon highlighted](../image/FavoriteABoard.png)
+    \[Omitted image "FavoriteABoard.png"\] Alt text: Navigation panel open to information tab with the favorite star icon highlighted
 
 
-**Parent Topic:**[Viewing and sharing Visual Task Boards](../concept/viewing-sharing-vis-task-brds.md)
+**Parent Topic:**[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
 

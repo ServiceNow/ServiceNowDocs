@@ -2,6 +2,7 @@
 title: Configure Financial Services Loan Operations
 description: Review the components that are installed with the Financial Services Loan Operations application and modify as needed for your organization's business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-loan-operations/configure-loan-operations.html
 release: australia
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
@@ -17,7 +18,7 @@ Review the components that are installed with the Financial Services Loan Operat
 
 ## Before you begin
 
-Make sure that the Financial Services Loan Operations application is installed. For more information, see [Install Financial Services Business Loan Operations](install-fso-business-loan-ops.md) and [Install Financial Services Personal Loan Operations](install-fso-personal-loan-ops.md).
+Make sure that the Financial Services Loan Operations application is installed. For more information, see [Install Financial Services Business Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-loan-operations/install-fso-business-loan-ops.md) and [Install Financial Services Personal Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-loan-operations/install-fso-personal-loan-ops.md).
 
 Role required: sn\_bom\_loan\_b2b.admin, sn\_bom\_loan.b2c\_admin, and admin
 
@@ -25,21 +26,21 @@ Role required: sn\_bom\_loan\_b2b.admin, sn\_bom\_loan.b2c\_admin, and admin
 
 1.  Import your financial accounts, financial products, financial institutions, and transactions data into ServiceNow tables.
 
-    For more information, see [Import your financial data using import sets](../../fso-common/task/import-financial-accounts-products-institutions.md).
+    For more information, see [Import your financial data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/import-financial-accounts-products-institutions.md).
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
     |Task|Description|
     |----|-----------|
-    |**Configure service definitions**|[Configure service definitions](../../fso-common/task/configure-service-definitions.md) to enable unique flows and views for loan service cases and tasks.|
-    |**Configure record producers**|[Create or modify record producers](../../fso-common/task/create-modify-record-producers-fso-apps.md) to define request forms.|
-    |**Edit or create new flows**|[Edit or create new flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.|
-    |**Modify interceptors and workspace record type selectors**|[Modify interceptors and workspace record type selectors](../../fso-common/concept/configure-request-types-fso.md) to configure loan request types.|
-    |**Configure playbook**|[Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md) using Playbooks.|
-    |**Configure workspace**|[Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.|
-    |**Configure Service Level Agreements \(SLAs\)**|[Configure the installed SLAs](../../fso-common/task/configure-sla-definitions-fso-cases.md) to configure SLA timings for loan service cases and tasks.|
-    |**Configure user groups**|[Configure user groups](../../fso-common/task/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.|
-    |**Configure assignment rules**|[Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.|
-    |**Configure Document Processor**|[Configure Document Processor](../../fso-common/concept/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.|
+    |**Configure service definitions**|[Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-service-definitions.md) to enable unique flows and views for loan service cases and tasks.|
+    |**Configure record producers**|[Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/create-modify-record-producers-fso-apps.md) to define request forms.|
+    |**Edit or create new flows**|[Edit or create new flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.|
+    |**Modify interceptors and workspace record type selectors**|[Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-request-types-fso.md) to configure loan request types.|
+    |**Configure playbook**|[Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-playbooks-fso-apps.md) using Playbooks.|
+    |**Configure workspace**|[Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.|
+    |**Configure Service Level Agreements \(SLAs\)**|[Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-sla-definitions-fso-cases.md) to configure SLA timings for loan service cases and tasks.|
+    |**Configure user groups**|[Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.|
+    |**Configure assignment rules**|[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.|
+    |**Configure Document Processor**|[Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.|
 
 

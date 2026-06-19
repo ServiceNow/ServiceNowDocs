@@ -2,6 +2,7 @@
 title: Generate the X.509 key pair and fingerprints on your Mac machine
 description: Generate the X.509 key pair and its fingerprint on your Mac machine that you upload to the Oracle HCM tenant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-jks-certificate-for-mac.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -27,13 +28,13 @@ Ensure that OpenSSL is installed. To verify that OpenSSL is installed, execute t
 
 2.  To generate the private key, run the command `openssl genrsa -out private.key 2048`.
 
-    The private key is generated.![Private key generation message.](../image/oracle-hcm-spoke-generate-x509-private-key.png)
+    The private key is generated.\[Omitted image "oracle-hcm-spoke-generate-x509-private-key.png"\] Alt text: Private key generation message.
 
 3.  To generate the public key, run the command `openssl req -new -x509 -key private.key -out publickey.cer -days 365`.
 
 4.  Enter the information.
 
-    ![Public key information.](../image/oracle-hcm-spoke-x509-generate-public-key.png)
+    \[Omitted image "oracle-hcm-spoke-x509-generate-public-key.png"\] Alt text: Public key information.
 
     The public key is generated.
 

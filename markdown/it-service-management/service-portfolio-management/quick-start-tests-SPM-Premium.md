@@ -2,6 +2,7 @@
 title: Quick start tests for Service Portfolio Management Premium
 description: Validate that Service Portfolio Management Premium still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/quick-start-tests-SPM-Premium.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -310,10 +311,10 @@ Verify a service cannot move forward to Catalog phase without a service portfoli
 Paris
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Service Portfolio Management](../../../product/service-portfolio-management2/concept/SPM2-configuring.md)
+</table>**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

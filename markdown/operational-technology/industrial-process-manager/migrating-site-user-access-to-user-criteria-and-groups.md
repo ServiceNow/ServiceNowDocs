@@ -2,6 +2,7 @@
 title: Migrating site user access to user criteria and groups
 description: When you upgrade to version 1.0.12 of the ISA Equipment Model, the migration from site user access to user criteria and groups begins automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/migrating-site-user-access-to-user-criteria-and-groups.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -32,5 +33,5 @@ The following changes occur when you upgrade to version 1.0.12 of the ISA Equipm
 -   The **Site User – Can Read** and **Site User – Can Edit** application menu items are added to the ServiceNow AI Platform.
 -   The **Can Read Equipment Models** and **Can Edit Equipment Models** related lists are added to the Equipment Model Entity record for a site.
 
-**Parent Topic:**[Industrial Process Manager reference](../reference/manufacturing-process-mgr-reference.md)
+**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 

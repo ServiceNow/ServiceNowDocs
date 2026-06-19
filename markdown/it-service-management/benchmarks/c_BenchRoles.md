@@ -2,6 +2,7 @@
 title: Benchmarks roles
 description: These roles are introduced with Benchmarks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c\_BenchRoles.html
 release: australia
 product: Benchmarks
 classification: benchmarks
@@ -14,8 +15,6 @@ breadcrumb: [Benchmarks, IT Service Management]
 # Benchmarks roles
 
 These roles are introduced with Benchmarks.
-
-An overview of the Benchmarks feature in ServiceNow, including opting in, setting up Benchmarks, reading the KPI dashboard, reading KPI cards, recommendations and implementing them.
 
 <table id="table_ukk_4pn_b1b"><thead><tr><th>
 
@@ -73,5 +72,5 @@ View benchmark KPI recommendation candidates.
 sn\_process\_optimization\_viewer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Benchmarks](../reference/r_Benchmarks.md)
+</table>**Parent Topic:**[Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/r_Benchmarks.md)
 

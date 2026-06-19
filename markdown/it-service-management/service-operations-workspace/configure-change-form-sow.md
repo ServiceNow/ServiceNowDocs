@@ -2,6 +2,7 @@
 title: Configure the change record page in SOW for ITSM
 description: Configure the data displayed in various Change record tabs such as Overview and Details tabs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-change-form-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -31,8 +32,8 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
         -   Containers: Defines how the dynamic overview page renders throughout the change lifecycle. This includes the visibility and the order of the sections in the overview page and whether to include the activity stream bar.
         -   Section fields: Define the fields that are shown for each section in the change overview.
     -   Details: Defines the form view that lets users see all details related to the change.
-    For information about configuring the field layout, UI elements and the visible data content using form builder, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learn-by-example-edit-form-component.md).
+    For information about configuring the field layout, UI elements and the visible data content using form builder, see .
 
 
-**Parent Topic:**[Record page configurations in Service Operations Workspace for ITSM](../concept/record-page-configurations-sow-itsm.md)
+**Parent Topic:**[Record page configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/record-page-configurations-sow-itsm.md)
 

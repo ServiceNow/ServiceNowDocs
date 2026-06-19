@@ -2,6 +2,7 @@
 title: Enable monetary benefit plans for projects
 description: Enable the benefit plans property to create and manage benefit plans for planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/enable-benefitplans-pws-fin.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -30,5 +31,5 @@ Role required: admin
 4.  Select the **Update** button.
 
 
-**Parent Topic:**[Configure financials for Project Workspace](../concept/config-fin-pws.md)
+**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-fin-pws.md)
 

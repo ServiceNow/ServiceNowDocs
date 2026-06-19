@@ -2,6 +2,7 @@
 title: BIA template record form for the Smart assessment
 description: Use the BIA template record form to configure the business impact analysis with the Smart assessment. You can add details such as name, description, primary element assessed and select the impact assessment template in the form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bia-smart-temp-ref-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -66,7 +67,7 @@ Impact assessment template
 
 </td><td>
 
-Type of the impact assessment template. You can select the Recovery point objective assessment template or Recovery time objective assessment template. For more information, see [Create Smart Assessment templates for BIA](../task/conf-impact-asmt-template.md).
+Type of the impact assessment template. You can select the Recovery point objective assessment template or Recovery time objective assessment template. For more information, see [Create Smart Assessment templates for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-impact-asmt-template.md).
 
 </td></tr><tr><td>
 
@@ -87,5 +88,5 @@ Option to include Confidentiality, Integrity, and Availability to BIA. If the pr
  The field appears only if the elements selected in the **Primary Element Assessed** field of the same form require data backup.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure BIA templates with Smart Assessment](../task/conf-bia-temp-smart-asmt-type.md)
+</table>**Parent Topic:**[Configure BIA templates with Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-bia-temp-smart-asmt-type.md)
 

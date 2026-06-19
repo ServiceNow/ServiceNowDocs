@@ -2,13 +2,14 @@
 title: Configure a stockroom for automated sourcing by AI agents
 description: Configure a stockroom to enable AI agents in the Manage hardware asset requests agentic workflow to source hardware assets automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/configure-stockroom-auto-sourcing.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Configure a stockroom for automated sourcing by AI agents
@@ -21,7 +22,7 @@ Role required: ham\_admin
 
 ## About this task
 
-**Important:** Configuring the stockroom is necessary for AI agents to source the hardware asset requests from it. However, to automate your hardware asset requests using the Manage hardware asset requests agentic workflow, you must install the Now Assist for Hardware Asset Management \(HAM\) application. For more details, see [Now Assist for Hardware Asset Management \(HAM\)](../../now-assist-ham/concept/now-assist-ham.md).
+**Important:** Configuring the stockroom is necessary for AI agents to source the hardware asset requests from it. However, to automate your hardware asset requests using the Manage hardware asset requests agentic workflow, you must install the Now Assist for Hardware Asset Management \(HAM\) application. For more details, see [Now Assist for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-hardware-asset-management/now-assist-ham.md).
 
 ## Procedure
 
@@ -43,5 +44,5 @@ Role required: ham\_admin
 
 The stockroom is configured for the automatic sourcing options that you selected.
 
-**Parent Topic:**[Manage stockrooms](../concept/manage-your-stockrooms.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

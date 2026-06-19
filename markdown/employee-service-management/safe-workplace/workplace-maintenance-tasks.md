@@ -2,6 +2,7 @@
 title: Managing workplace tasks
 description: Using workplace tasks in Workplace Core, workplace managers can monitor workplace activities that are created and scheduled in the workplace for each shift. They can also schedule planned or on-demand maintenance tasks and generate reports to track the progress of these activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/workplace-maintenance-tasks.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -46,20 +47,20 @@ Assignments for tasks depend on the task type:
 
 For audit and compliance of workplace activities, workplace managers can electronically sign the completed workplace tasks. This action generates a PDF of the signed form and attaches it to the task.
 
--   **[Configure a workplace task template](configure-workplace-task-template.md)**  
+-   **[Configure a workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/configure-workplace-task-template.md)**  
 Configure templates in Workplace Core that can be used to create workplace tasks. You can either modify predefined workplace task templates or create your own templates and associate them with workplace tasks.
--   **[Create a workplace task checklist](create-workplace-task-checklist.md)**  
+-   **[Create a workplace task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/create-workplace-task-checklist.md)**  
 You can create a unique checklist for each workplace task template in Workplace Core. You can also quickly create a checklist from an existing checklist template.
--   **[Configure an HTML template](configure-workplace-pdf-document-template.md)**  
+-   **[Configure an HTML template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/configure-workplace-pdf-document-template.md)**  
 Configure a signing template that you want to make available for signing the completed Workplace Core workplace tasks. You can configure the default signing template available with the application or create a new template.
--   **[Create planned task definitions](create-planned-task-definitions.md)**  
+-   **[Create planned task definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/create-planned-task-definitions.md)**  
 Create planned task definitions in Workplace Core to help workplace managers easily generate tasks that are often repeated and independent of shifts such as cleaning coffee vending machines or cleaning floors. You can quickly specify the task details and the frequency at which the task is to be performed.
--   **[Generate planned workplace tasks](generate-planned-workplace-tasks.md)**  
+-   **[Generate planned workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/generate-planned-workplace-tasks.md)**  
 Using planned task definitions in Workplace Core to create planned tasks independent of shifts for recurring activities. For example, you can generate tasks for a selected number of days for cleaning all floors and buildings at midnight every day.
--   **[Create an ad hoc workplace task](create-adhoc-workplace-task.md)**  
+-   **[Create an ad hoc workplace task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/create-adhoc-workplace-task.md)**  
 Create an ad hoc task in Workplace Core for unplanned activities. For example, if you notice that something isn't clean in an area or want the area to be cleaned again, you can create an ad hoc workplace task to get the cleaning done immediately.
--   **[Sign a completed workplace task](sign-completed-task.md)**  
+-   **[Sign a completed workplace task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/sign-completed-task.md)**  
 As the workplace manager for a space, sign the workplace tasks Workplace Core for complete and closed activities. Signing a task generates a PDF document for the workplace activity, which is useful for compliance procedures.
 
-**Parent Topic:**[Workplace Core](../concept/workplace-safety-mgmt-hr.md)
+**Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.md)
 

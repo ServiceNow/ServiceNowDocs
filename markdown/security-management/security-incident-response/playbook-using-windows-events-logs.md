@@ -2,6 +2,7 @@
 title: Use the T1070 - Windows Events Logs Cleared playbook
 description: Use this playbook to investigate incidents that track event types where the user removes security logs. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the T1070 - Windows Events Logs Cleared playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-windows-events-logs.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -79,5 +80,5 @@ Role required:
 9.  In Action 26, complete the post-incident review before closing the task.
 
 
-**Parent Topic:**[Playbook for T1070 - Windows Events Logs Cleared](../concept/playbook-windows-events-log.md)
+**Parent Topic:**[Playbook for T1070 - Windows Events Logs Cleared](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-windows-events-log.md)
 

@@ -2,6 +2,7 @@
 title: Manage an announcement for communicating about major incidents
 description: Create and manage an announcement to broadcast messages for Service Portal users to keep them informed about the ongoing major incident. Major incident managers can create and deploy announcements from Service Operations Workspace \(SOW\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-announcements-major-inc.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,7 +24,7 @@ As a major\_incident\_manager, you must inherit any of the required roles to cre
 
 ## About this task
 
-Announcements can be displayed in an announcement banner or an announcement widget instance. For more information, see [Posting announcements to portal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/announcements.md).
+Announcements can be displayed in an announcement banner or an announcement widget instance. For more information, see .
 
 ## Procedure
 
@@ -147,7 +148,7 @@ Display first
 
 </td><td>
 
-Option to display the announcement before all other announcements. **Note:** If two records set to **Display first** exist, the sort order defined in the **glide.service\_portal.announcement.default\_sort\_order** system property is implemented. For more information, see [Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/properties-service-portal.md).
+Option to display the announcement before all other announcements. **Note:** If two records set to **Display first** exist, the sort order defined in the **glide.service\_portal.announcement.default\_sort\_order** system property is implemented. For more information, see .
 
 </td></tr><tr><td>
 
@@ -158,7 +159,7 @@ Roles
 User roles to whom the announcement is visible. If left empty, the announcement is visible to all roles.**Note:**
 
 -   If the **Public** check box is cleared, you can define the user roles to whom the announcement is visible.
--   Alternatively, you can define user criteria for the announcement instead. To do so, set up [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md) and clear the **Public** check box. Announcements are displayed to only the users who pass the access criteria.
+-   Alternatively, you can define user criteria for the announcement instead. To do so, set up  and clear the **Public** check box. Announcements are displayed to only the users who pass the access criteria.
 
 
 </td></tr><tr><td>
@@ -239,12 +240,12 @@ Portals that display the announcement. If this field is empty, the announcement 
 
     -   Can View: Contains a list of user criteria to enable the users to view the announcements based on role, department, group, location, or company.
     -   Cannot View: Contains a list of user criteria to block users from viewing the announcements based on role, department, group, location, or company.
-    You can select an existing user criteria or select **New** to create a user criteria. For more information, see [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md).
+    You can select an existing user criteria or select **New** to create a user criteria. For more information, see .
 
 
 ## What to do next
 
 If the **Type** is **Banner**, test your announcement by navigating to the portal defined in the **Portals** field. If the **Type** is **Widget** or a custom type, test your announcement by navigating to the page with the associated widget instance.
 
-**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](../concept/communicating-with-stakeholders-sow.md)
+**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
 

@@ -2,6 +2,7 @@
 title: Complete the recall process for an enterprise asset through an asset replacement
 description: Work with your asset vendor to perform all tasks that are required for an asset replacement so that you can complete the recall process for an enterprise asset that has been recalled by the vendor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-recall-process-asset-replacement.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Work with your asset vendor to perform all tasks that are required for an asset 
 
 ## Before you begin
 
-Before you can proceed with replacing a recalled enterprise asset, you must complete the Prepare task for that asset. See [Complete the Prepare task for a recalled enterprise asset](complete-prepare-task-recall-order.md) for detailed instructions.
+Before you can proceed with replacing a recalled enterprise asset, you must complete the Prepare task for that asset. See [Complete the Prepare task for a recalled enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-prepare-task-recall-order.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technician
 
@@ -37,13 +38,13 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
 5.  Complete and close the Receive New task for the recalled enterprise asset.
 
-    To successfully complete and close this task, you must receive the new enterprise asset from the asset vendor. In addition, you must create an asset record for the new enterprise asset. See [Create enterprise assets](create-asset-eam.md) for detailed instructions.
+    To successfully complete and close this task, you must receive the new enterprise asset from the asset vendor. In addition, you must create an asset record for the new enterprise asset. See [Create enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-asset-eam.md) for detailed instructions.
 
     **Note:** When you create the asset record for the new enterprise asset, you must set the **State** field to **In stock**. You must also verify that the **Acquisition method** field is set to **Recall Replacement.**
 
     1.  On the **Recall Tasks** tab of the recalled asset record, select the task number for the **Receive New** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.![Current task field.](../image/current-task-recall-orders.png)
+        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
 
         The Receive New task opens.
 
@@ -74,7 +75,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
     1.  On the **Recall Tasks** tab of the recalled asset record, select the task number for the **Replace** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.![Current task field.](../image/current-task-recall-orders.png)
+        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
 
         The Replace task opens.
 
@@ -113,7 +114,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
     1.  On the **Recall Tasks** tab of the recalled asset record, select the task number for the **Ship Old** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.![Current task field.](../image/current-task-recall-orders.png)
+        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
 
         The Ship Old task opens.
 
@@ -155,5 +156,5 @@ The recalled asset record moves to the Completed stage. The Enterprise Asset Man
 
 Complete the recall process for all remaining enterprise assets that are included in the recall order. After all corresponding recalled asset records reach the Completed stage, the state of the recall order changes to Completed.
 
-**Parent Topic:**[Completing a recall order for your enterprise assets](../concept/completing-recall-order-enterprise-assets.md)
+**Parent Topic:**[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)
 

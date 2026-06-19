@@ -2,6 +2,7 @@
 title: ProductInstance - Scoped, Global
 description: The ProductInstance API provides methods to generate a product instance identifier \(PID\), retrieve PID configuration data, and determine if a model category is a product instance.Generates the hashed value of the product instance and returns it.Gets the PID configuration associated with the model category based on the hierarchy and class name.Checks if a given model category is a product instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ProductInstanceBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -23,11 +24,11 @@ Access to install base items requires the Customer Service Install Base Manageme
 
 See also:
 
--   [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md)
--   [Product Instance feature in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/product-instance-for-assets.md)
--   [Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-install-base-item.md)
+-   
+-   
+-   
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ProductInstance – generatePID\(String className, String modelCategorySysId, Object jsonKeyValues\)
 
@@ -42,7 +43,7 @@ A PID is generated based on the following items defined in the Product Instance 
 -   PID configurations \(read only\)
 -   Order assigned to each configuration
 
-See also [Product Instance feature in Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/product-instance-for-assets.md).
+See also .
 
 <table id="table_mxt_n4d_tzb" class="parameters"><thead><tr><th>
 
@@ -78,7 +79,7 @@ String
 
 </td><td>
 
-The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md).
+The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see .
 
 </td></tr><tr><td>
 
@@ -183,7 +184,7 @@ This method scans all the hierarchies for the model category and returns the PID
 |Name|Type|Description|
 |----|----|-----------|
 |className|String|Table name for the PID to be generated.|
-|modelCategorySysId|String|The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md).|
+|modelCategorySysId|String|The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see .|
 
 <table id="table_nxt_n4d_tzb" class="returns"><thead><tr><th>
 
@@ -352,7 +353,7 @@ This method can be used in business rules before invoking the generatePID\(\) me
 
 |Name|Type|Description|
 |----|----|-----------|
-|modelCategorySysId|String|The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/product-catalog/c_ModelCategories.md).|
+|modelCategorySysId|String|The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see .|
 
 <table id="table_nxt_n4d_tzb" class="returns"><thead><tr><th>
 

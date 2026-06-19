@@ -2,6 +2,7 @@
 title: Password Reset Windows Application
 description: The Password Reset Windows Application enables a user, who forgets the password or is locked out of a Windows computer, to reset the password directly from the Windows login screen.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/win-password-reset-overview.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -21,9 +22,9 @@ Administrators download and run an EXE or MSI file to install or distribute the 
 
 If your user is using Windows, 8.1, 10, or 11 operating system on the computer, a pop-up window opens after the user clicks the **Forgot Password** link. On the pop-up window, the user enters the user name. For the multi-identification type, the user enters a user name and email address and enters the displayed CAPTCHA if enabled for the process. If the CAPTCHA is incorrect, the user gets an error message.
 
-![Windows login screen](../image/identify-login-first-screen.png)
+\[Omitted image "identify-login-first-screen.png"\] Alt text: Windows login screen
 
-![Windows login screen](../image/identify-login-screen-with-captcha.png)
+\[Omitted image "identify-login-screen-with-captcha.png"\] Alt text: Windows login screen
 
 This is an identification step, which takes the user to the verification step after clicking **next** on the pop-up window.
 
@@ -38,16 +39,16 @@ In the Verify step, the users can verify themselves using one of the following c
 
 For example, the following images show verification using email.
 
-![Personal data verification](../image/verify-email-verifcation-first-step.png)
+\[Omitted image "verify-email-verifcation-first-step.png"\] Alt text: Personal data verification
 
-![Email verification](../image/verify-email-verification-second-step.png)
+\[Omitted image "verify-email-verification-second-step.png"\] Alt text: Email verification
 
 After the successful verification, the users go to the Reset step. Based on the status of the user account and email provided, the reset step contains various types.
 
 -   If the user account isn’t locked, the user enters a new password, enters the same password again in the **Retype password** field, and clicks **Reset Password**.
 -   If the user account is locked, the user gets a message stating the account is locked, and if enabled, the user can view an option to unlock the account, or the user can continue resetting the password. For example, the following image shows both the **Unlock Account** and **Reset Password** buttons.
 
-    ![Reset password](../image/unlock-button-reset-password.png)
+    \[Omitted image "unlock-button-reset-password.png"\] Alt text: Reset password
 
 -   After the reset password process is complete, based on the configured type, the user either gets the auto-generated password on the pop-up window or an email containing the instructions to reset the password is sent to the user.
 

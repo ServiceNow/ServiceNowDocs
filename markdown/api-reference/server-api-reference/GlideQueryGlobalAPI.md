@@ -2,6 +2,7 @@
 title: GlideQuery - Scoped, Global
 description: The GlideQuery script include is an alternative to the GlideRecord API for performing CRUD operations on record data from server-side scripts.Instantiates a GlideQuery object used to build and execute record queries.Aggregates a field using a specified aggregation function.Returns the aggregate average of a given numeric field.Returns the number of records that match the query.Deletes all records in the table specified by the preceding Where clauses.Disables updating system fields, or fields with a name that starts with the sys prefix, such as sys\_created\_on, sys\_updated\_on, and sys\_mod\_count. Only applies to the specified query.Disables any business rules, flows, workflows, or audit records that would run or be created as the result of the query.Forces a database update even when no record changes are made. For example, you can use this method to force a business rule to execute.Returns a single record from the query.Returns an Optional object containing a single record based on a set of name-value pairs to query by. Assumes the '=' operator for each name-value pair.Groups the query results by a designated field or fields.Filters aggregate groups so that you can display only groups of results that match a specified condition.Inserts a record and returns an Optional object containing the record.Updates an existing record, or inserts a new record if one does not already exist.Limits the number of records returned in a query.Returns the aggregate maximum of a given field.Returns the aggregate minimum of a given field.Orders the returned result in ascending order by a given field.Orders the returned result in descending order by a given field.Adds an OR clause to a query that returns values based on a given condition.Adds an OR clause that returns records that do not contain a null value in a given field.Adds an OR clause to a query that returns records that contain a null value in a given field.Adds an encoded query to a new GlideQuery query.Returns the results of the query as a Stream object containing the specified fields.Returns the result of the query as an Optional object containing specified fields.Returns the aggregate sum of a given numeric field.Returns a GlideRecord object that represents the current query. Returns a GlideAggregrate object if the query uses the GlideQuery.aggregate\(\) method.Updates an existing record that matches the defined conditions.Updates all existing records that match the defined conditions. Returns the number of records updated.Adds a Where clause to the query that returns values based on a given condition.Returns records that do not contain a null value in a given field.Returns records that contain a null value in a given field.Executes the query using the GlideRecordSecure API to securely query the database while honoring ACLs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideQueryGlobalAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -33,7 +34,7 @@ This script include requires the GlideQuery \[com.sn\_glidequery\] plugin.
 
 ## Implementation
 
-This script include works together with the [Stream](../../Stream/concept/StreamGlobalAPI.md#) and [Optional](../../Optional/concept/OptionalGlobalAPI.md#) APIs in a builder pattern where the method calls chain together, each method building on the returned result of the previous method. Use methods to define the attributes of the query. The methods do not execute until you call a terminal method, a method that returns a query result, allowing you to define the requirements of the query before executing it.
+This script include works together with the [Stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StreamGlobalAPI.md) and [Optional](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/OptionalGlobalAPI.md) APIs in a builder pattern where the method calls chain together, each method building on the returned result of the previous method. Use methods to define the attributes of the query. The methods do not execute until you call a terminal method, a method that returns a query result, allowing you to define the requirements of the query before executing it.
 
 If the query returns a single record, the system wraps the result in an Optional object. If the query returns a stream of records, the system wraps the result in a Stream object. These objects let you manage the result using a set of methods in each API.
 
@@ -125,14 +126,14 @@ The GlideQuery script include does not support:
       .get()
     ```
 
-    See the [where\(\)](GlideQueryGlobalAPI.md#) method to understand how to nest a child query instead.
+    See the [where\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideQueryGlobalAPI.md) method to understand how to nest a child query instead.
 
 
 **Note:** Because the GlideQuery script include converts GlideRecord objects into standard JavaScript objects, it may take longer to execute queries. To reduce performance issues, avoid creating loops that iterate over large numbers of records.
 
 ## Intermediate and terminal methods in GlideQuery
 
-The GlideQuery script include uses two categories of methods: intermediate and terminal. Intermediate methods are those methods that return a [Stream](../../Stream/concept/StreamGlobalAPI.md#), an API used for interacting with a stream of items like records, allowing a fluent style of syntax where calls are chained together. Terminal methods are those methods that do not return a stream and therefore stop the chain of Stream method calls.
+The GlideQuery script include uses two categories of methods: intermediate and terminal. Intermediate methods are those methods that return a [Stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StreamGlobalAPI.md), an API used for interacting with a stream of items like records, allowing a fluent style of syntax where calls are chained together. Terminal methods are those methods that do not return a stream and therefore stop the chain of Stream method calls.
 
 In the GlideQuery script include, methods such as where\(\), orderBy\(\), and disableWorkflow\(\) are intermediate methods that return a new GlideQuery object. Similarly, the GlideQuery script include's most popular terminal methods, select\(\) and selectOne\(\), are terminal methods. These methods are called when GlideQuery is done being configured and is ready to start processing records. The differences between these two method types is important to keep in mind when configuring calls to the GlideQuery script include according to your specific use cases. For more information about intermediate and terminal methods, see the article [GlideQuery - Stream Processing Part 1](https://developer.servicenow.com/blog.do?p=/post/glidequery-p6/).
 
@@ -175,7 +176,7 @@ The following methods are classified as terminal:
 
 **Note:** parse\(String table, String encoded\_query\) is neither intermediate or terminal, but static.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideQuery - GlideQuery\(String table\)
 
@@ -1166,7 +1167,7 @@ Adds an OR clause to a query that returns values based on a given condition.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldOrQuery|String or [GlideQuery](GlideQueryGlobalAPI.md#)|Field or another GlideQuery object used in the where clause. If passing a field, you can dot-walk to a desired value. For example, `'company.name'`.|
+|fieldOrQuery|String or [GlideQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideQueryGlobalAPI.md)|Field or another GlideQuery object used in the where clause. If passing a field, you can dot-walk to a desired value. For example, `'company.name'`.|
 |operator|String|Optional. Operator used in the OR clause. If you do not pass an argument, the system uses the = operator. You do not need to include a placeholder value.|
 |value|Any|Value used in the OR clause.|
 
@@ -1478,7 +1479,7 @@ This method does not support all GlideRecord encoded query operators. The follow
 </table>|Name|Type|Description|
 |----|----|-----------|
 |table|String|Table to query, such as task or incident.|
-|encoded\_query|String|[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) to apply to the records in the specified table.|
+|encoded\_query|String|Encoded query to apply to the records in the specified table.|
 
 |Type|Description|
 |----|-----------|
@@ -1496,7 +1497,7 @@ GlideQuery.parse('task', 'active=true^ORDERBYpriority') // Pass the encoded quer
 
 Returns the results of the query as a Stream object containing the specified fields.
 
-**Note:** Use a terminal method in the Stream class to get the result of the query. For more information, see [Stream](../../Stream/concept/StreamGlobalAPI.md#).
+**Note:** Use a terminal method in the Stream class to get the result of the query. For more information, see [Stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StreamGlobalAPI.md).
 
 You can append a flag to a field name to return the field's metadata instead of the field's value. For example, using the field name `company$DISPLAY` returns the display value of a company field. Possible flags include:
 
@@ -1701,7 +1702,7 @@ Output:
 
 Returns a GlideRecord object that represents the current query. Returns a GlideAggregrate object if the query uses the GlideQuery.aggregate\(\) method.
 
-After transforming the query, use the query\(\) method in the [GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#) or [GlideAggregate](../../glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#) classes to query the database.
+After transforming the query, use the query\(\) method in the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) or [GlideAggregate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md) classes to query the database.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1829,7 +1830,7 @@ Adds a Where clause to the query that returns values based on a given condition.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldOrQuery|String or [GlideQuery](GlideQueryGlobalAPI.md#)|Field or another GlideQuery object used in the where clause. If passing a field, you can dot-walk to a desired value. For example, `'company.name'`.|
+|fieldOrQuery|String or [GlideQuery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideQueryGlobalAPI.md)|Field or another GlideQuery object used in the where clause. If passing a field, you can dot-walk to a desired value. For example, `'company.name'`.|
 |operator|String|Optional. Operator used in the where clause. If you do not pass an argument, the system uses the = operator.|
 |value|Any|Value used in the where clause.|
 

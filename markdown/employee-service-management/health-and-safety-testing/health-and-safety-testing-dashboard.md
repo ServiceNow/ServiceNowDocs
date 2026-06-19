@@ -2,6 +2,7 @@
 title: Health and Safety Testing dashboard
 description: Use the Health and Safety Testing dashboard to gain insight on the health of your users with reports detailing testing trends, the types of tests performed, and approvals.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-testing/health-and-safety-testing-dashboard.html
 release: australia
 product: Health and Safety Testing
 classification: health-and-safety-testing
@@ -17,7 +18,7 @@ Use the Health and Safety Testing dashboard to gain insight on the health of you
 
 To access the Health and Safety Testing dashboard, navigate to **Self-Service** &gt; **Dashboards**.
 
-![Testing Status dashboard](../image/health-testing-dashboard.png)
+\[Omitted image "health-testing-dashboard.png"\] Alt text: Testing Status dashboard
 
 ## End user and goals
 
@@ -71,10 +72,10 @@ sn\_imt\_core.admin
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Test Results by Result Type|Pie breakdown ![Pie breakdown icon](../../performance-analytics/image/pie-breakdown-wthoutlabel.png)|A breakdown of the test results in your organization by the result \(positive, negative, and inconclusive\).|
-|Test Approvals with Approved or Rejected Status|Pie breakdown ![Pie breakdown icon](../../performance-analytics/image/pie-breakdown-wthoutlabel.png)|The number of test results in your organization that have been either approved or rejected.|
-|Employee Testing Rate \(Monthly\)|Line![Line icon](../../performance-analytics/image/line-icon.png)|Testing rate of users in your organization for the month.|
-|Test Results \(Monthly\)|Stacked bar chart![Stacked bar chart icon](../image/stacked-bar-chart.png)|The monthly number of test results reported \(positive, negative, and inconclusive\).|
+|Test Results by Result Type|Pie breakdown \[Omitted image "pie-breakdown-wthoutlabel.png"\] Alt text: Pie breakdown icon|A breakdown of the test results in your organization by the result \(positive, negative, and inconclusive\).|
+|Test Approvals with Approved or Rejected Status|Pie breakdown \[Omitted image "pie-breakdown-wthoutlabel.png"\] Alt text: Pie breakdown icon|The number of test results in your organization that have been either approved or rejected.|
+|Employee Testing Rate \(Monthly\)|Line\[Omitted image "line-icon.png"\] Alt text: Line icon|Testing rate of users in your organization for the month.|
+|Test Results \(Monthly\)|Stacked bar chart\[Omitted image "stacked-bar-chart.png"\] Alt text: Stacked bar chart icon|The monthly number of test results reported \(positive, negative, and inconclusive\).|
 
-**Parent Topic:**[Health and Safety Testing](../../../product/health-safety-testing/concept/health-safety-testing.md)
+**Parent Topic:**[Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/health-safety-testing.md)
 

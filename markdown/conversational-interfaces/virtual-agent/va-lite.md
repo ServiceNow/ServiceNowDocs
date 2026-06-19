@@ -2,6 +2,7 @@
 title: Virtual Agent Lite
 description: Virtual Agent Lite is a limited version of Virtual Agent that is available to ITSM standard customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-lite.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -33,7 +34,7 @@ For Australia, the Virtual Agent Designer features available in Virtual Agent Li
 
 -   Localization Framework integration.
 
-    The Localization Framework is used in multi-language topic authoring and translations. The Localization Framework is installed automatically with Virtual Agent. Activate the ServiceNow® plugin for each language you want to support. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+    The Localization Framework is used in multi-language topic authoring and translations. The Localization Framework is installed automatically with Virtual Agent. Activate the ServiceNow® plugin for each language you want to support. For more information, see Activate a language.
 
     In Virtual Agent Lite, information in the **Languages** tab is read-only.
 
@@ -43,7 +44,7 @@ For Australia, the Virtual Agent Designer features available in Virtual Agent Li
 
     -   Enable Virtual Agent to discover topics for use in chats.
     -   Include a topic in the **All Topics** menu. This menu lists all of the topics that are available for use.
-    For more information about using these options, see [Control topic discovery and visibility](../task/manage-topics-task.md).
+    For more information about using these options, see [Control topic discovery and visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/manage-topics-task.md).
 
 
 After using Virtual Agent Lite, you can upgrade to Virtual Agent to access all of the features. Contact your ServiceNow account representative for upgrade information.
@@ -60,7 +61,7 @@ Virtual Agent Lite has the following limitations:
     -   Enable the **Available for Agent Autopilot** toggle switch.
     **Note:** A lock icon displays next to the Virtual Agent Designer fields that are not available in Virtual Agent Lite.
 
--   Keyword-based conversations: Virtual Agent Lite only supports keyword-based conversations. Natural Language Understanding \(NLU\) models and NLU-enabled topics aren't supported. This means that related NLU features, such as topic switching and multi-language NLU models, are also not supported. Language support is available for conversations through ServiceNow AI Platform [language internationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/c_LangInternationalizationSupport.md).
+-   Keyword-based conversations: Virtual Agent Lite only supports keyword-based conversations. Natural Language Understanding \(NLU\) models and NLU-enabled topics aren't supported. This means that related NLU features, such as topic switching and multi-language NLU models, are also not supported. Language support is available for conversations through ServiceNow AI Platform language internationalization.
 -   Virtual Agent tables: Virtual Agent tables are read only for admins and Virtual Agent admins.
 -   Localized content: Translated content is read-only. You can't add new translations or localize content. The **Languages** tab displays a banner asking users to contact their Account Executive for more information about upgrading to the latest release.
 -   Custom channels: You can't run Virtual Agent Lite topics in any custom chat channels \(created through custom chat integrations\), except for the supported Virtual Agent integrations for Slack, Microsoft Teams, Workplace by Facebook, and Facebook Messenger applications.
@@ -69,5 +70,5 @@ Virtual Agent Lite has the following limitations:
 
 ## What to do
 
-Set up and configure Virtual Agent Lite. For details, see [Quick start for Virtual Agent Lite](../task/quick-start-va-lite.md).
+Set up and configure Virtual Agent Lite. For details, see [Quick start for Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/quick-start-va-lite.md).
 

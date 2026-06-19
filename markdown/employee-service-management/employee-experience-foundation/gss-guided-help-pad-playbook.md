@@ -2,6 +2,7 @@
 title: Build a visual flow for Guided Self-Service
 description: Create a visual playbook flow of activities so that employees can find information in a more intuitive and visual way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/gss-guided-help-pad-playbook.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,21 +18,21 @@ Create a visual playbook flow of activities so that employees can find informati
 
 ## Before you begin
 
-Understand the basics of playbooks and workflow studio [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md).
+Understand the basics of playbooks and workflow studio .
 
-Review the information from [Guided Self-Service reference](../reference/gss-guided-self-service-reference-info.md).
+Review the information from [Guided Self-Service reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-reference-info.md).
 
 Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
 ## Procedure
 
-1.  Follow the instructions available in [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
+1.  Follow the instructions available in .
 
 2.  On the Workflow Studio, use the existing questionnaire activity available from **Add activity** &gt; **Common Activities** &gt; **Questionnaire** for authoring question and answer flow.
 
     Here is a sample illustration of the entire flow.
 
-    ![process design flow](../images/gss-playbook-design-flow.png "Visual flow")
+    \[Omitted image "gss-playbook-design-flow.png"\] Alt text: process design flow
 
     Each activity definition contains some basic configuration details, as well as an automation plan and activity experience. Table is Guided Self-Service \(GSS\) Process Execution.
 
@@ -40,7 +41,7 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
     -   **Add activity** &gt; **Guided Self-Service in Employee Center** &gt; **Catalog Item Guidance**.
     -   **Add activity** &gt; **Guided Self-Service in Employee Center** &gt; **Show Knowledge Article Guidance**.
     -   **Add activity** &gt; **Common Activities** &gt; **Instruction Activity**.
-    ![Add activity for GSS](../images/gss-add-activity-ec-interactive.png "Add activity")
+    \[Omitted image "gss-add-activity-ec-interactive.png"\] Alt text: Add activity for GSS
 
     For more information, see the activity information such as Input, Output, and Advanced Properties on the UI.
 
@@ -48,11 +49,11 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
     Here is a sample illustration for time off flow.
 
-    ![Workflow Studio PAD design](../images/gss-pad-trigger-flow-confi.png "Step-by-step playbook flow")
+    \[Omitted image "gss-pad-trigger-flow-confi.png"\] Alt text: Workflow Studio PAD design
 
     **Note:** Ensure you configure the Restart operation for every activity in the flow. When only one activity has the restart operation, it won't work.
 
-    Based on the security access and user permissions, the catalog items and KBs appear. For more information, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
+    Based on the security access and user permissions, the catalog items and KBs appear. For more information, see .
 
     **Note:** The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in **Workflow Studio**.
 
@@ -63,5 +64,5 @@ Role required: sn\_hr\_sp.esc\_admin, playbook.write
 
 ## Result
 
-GSS is configured to guide employees. For more information, see [Use Guided Self-Service](../concept/gss-guided-self-service-homepage.md).
+GSS is configured to guide employees. For more information, see [Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md).
 

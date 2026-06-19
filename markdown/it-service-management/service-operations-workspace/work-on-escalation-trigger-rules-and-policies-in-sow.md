@@ -2,6 +2,7 @@
 title: Escalation triggers and policies
 description: Configure the user, notification and on-call escalation preferences by creating escalation trigger rules and policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -26,7 +27,7 @@ Role required: rota\_manager, rota\_admin
 1.  Navigate to **Workspaces** &gt; **Service Operation Workspace** and use any of the following options.
 
     -   Schedules menu:
-        -   Select the **Schedule** menu, select a shift card and click ![Edit shift](../image/mim-edit-icon.png) icon.
+        -   Select the **Schedule** menu, select a shift card and click \[Omitted image "mim-edit-icon.png"\] Alt text: Edit shift icon.
         -   Select **Escalation policies** tab and click **Open Team Record**.
     -   Teams menu:
         -   Select the **Teams** menu, select **All Shifts** from the drop-down and select a shift card.
@@ -35,7 +36,7 @@ Role required: rota\_manager, rota\_admin
 
 3.  On the form, fill in the fields.
 
-    ![Escalation triggers and policies form.](../image/create_policy_teams_menu_sow.png)
+    \[Omitted image "create\_policy\_teams\_menu\_sow.png"\] Alt text: Escalation triggers and policies form.
 
     |Field|Description|
     |-----|-----------|
@@ -60,7 +61,7 @@ Role required: rota\_manager, rota\_admin
 
 8.  On the form, fill in the fields.
 
-    ![Create trigger form](../image/create_trigger_sow.png)
+    \[Omitted image "create\_trigger\_sow.png"\] Alt text: Create trigger form
 
 <table id="table_escalation_trigger"><thead><tr><th>
 
@@ -164,15 +165,15 @@ Trigger fields
 List of fields for a specific table which when changed causes the trigger rule to re-run. For example, with table as incident, you can select fields such as assignment group, priority and state.**Note:**
 
 -   This field is visible only if the **Run Trigger** field is set to **Every time trigger field changes**.
--   You can use the Trigger Rule Table Configs table to configure which fields to be displayed for a specific table. You can access the table from the SOW Admin Center. For more information, see [Manage configurations in Service Operations Workspace for ITSM](../task/manage-admin-console-sow-itsm.md) and [Configure a table for escalation trigger rules](../../../administer/on-call-scheduling/task/configure-tables-for-escalation-trigger-rule.md).
+-   You can use the Trigger Rule Table Configs table to configure which fields to be displayed for a specific table. You can access the table from the SOW Admin Center. For more information, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md) and [Configure a table for escalation trigger rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md).
 
 
 </td></tr></tbody>
 </table>9.  Select **Save changes**.
 
 
--   **[Create escalation trigger rules and policy from team record](edit-escalation-trigger-rules-and-policy-from-team-record.md)**  
+-   **[Create escalation trigger rules and policy from team record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/edit-escalation-trigger-rules-and-policy-from-team-record.md)**  
 Navigate to team record to create new policy and trigger rules
 
-**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](configuring-oncall-scheduling-sow.md)
+**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
 

@@ -2,6 +2,7 @@
 title: Customize the Zoom chat form
 description: Customize the chat form for additional ServiceNow Collaboration services tables by creating a chat configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-chat-config-customize-zoom-chat-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -143,5 +144,5 @@ Option to enable a text message that displays to the user when the agent initiat
     The defined chat configuration defined is applicable only for the selected table. You can extend the chat configuration to other tables by creating another chat configuration record.
 
 
-**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](../concept/additional-configuration-sn-cs-zoom.md)
+**Parent Topic:**[Chat-specific configuration for Collaboration services for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/additional-configuration-sn-cs-zoom.md)
 

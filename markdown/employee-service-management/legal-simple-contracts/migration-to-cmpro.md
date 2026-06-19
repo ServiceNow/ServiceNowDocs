@@ -2,6 +2,7 @@
 title: Migrate to Contract Management Pro for Legal Service Delivery from Legal Simple Contracts
 description: As a legal contracts administrator, migrate data from Legal Simple Contracts to Contract Management Pro for Legal Service Delivery using the migration script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/migration-to-cmpro.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -17,7 +18,7 @@ As a legal contracts administrator, migrate data from Legal Simple Contracts to 
 
 ## Before you begin
 
-Ensure you have prepared the ServiceNow instance for migration. For detailed information, see [Preparing for migration from Legal Simple Contracts to Contract Management Pro for Legal Service Delivery](prepare-for-migration.md).
+Ensure you have prepared the ServiceNow instance for migration. For detailed information, see [Preparing for migration from Legal Simple Contracts to Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/prepare-for-migration.md).
 
 Role required: sn\_lg\_cnt.contract\_admin
 
@@ -29,7 +30,7 @@ Role required: sn\_lg\_cnt.contract\_admin
 
     -   Contract types
     -   Contract repository records
-    For more information, see [Data copied to Contract Management Pro for Legal Service Delivery during migration from Legal Simple Contracts](lsc-migrate-cmpro-components.md)
+    For more information, see [Data copied to Contract Management Pro for Legal Service Delivery during migration from Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-migrate-cmpro-components.md)
 
     **Note:** Legal requests that are in progress are not migrated. Once a request is closed and the contract finalized, the contract repository records created are automatically copied to Contract Management Pro for Legal Service Delivery if you have run the migration script.
 
@@ -46,7 +47,7 @@ Role required: sn\_lg\_cnt.contract\_admin
 
 4.  Create the contract types noted in step 2.
 
-    While creating contract type ensure you associate it with a contract model. For more information, see [Create a contract type](../../contract-mgmt-pro/task/cncore-create-contract-type.md)
+    While creating contract type ensure you associate it with a contract model. For more information, see [Create a contract type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-create-contract-type.md)
 
 5.  Navigate to **All** &gt; **Legal Practice Apps** &gt; **Legal Contracts** &gt; **All Contracts**.
 
@@ -69,8 +70,8 @@ Role required: sn\_lg\_cnt.contract\_admin
     3.  Fix the errors and re-run the migration script.
 
 
--   **[Data copied to Contract Management Pro for Legal Service Delivery during migration from Legal Simple Contracts](lsc-migrate-cmpro-components.md)**  
+-   **[Data copied to Contract Management Pro for Legal Service Delivery during migration from Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/lsc-migrate-cmpro-components.md)**  
 A migration utility copies data from Legal Simple Contracts tables to Contract Management Pro for Legal Service Delivery tables.
 
-**Parent Topic:**[Migrating to Contract Management Pro for Legal Service Delivery](migration-landing-page.md)
+**Parent Topic:**[Migrating to Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/migration-landing-page.md)
 

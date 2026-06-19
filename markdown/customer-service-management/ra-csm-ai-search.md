@@ -2,7 +2,10 @@
 title: AI search in Recommended Actions
 description: Enable agents to use AI search in Recommended Actions to find relevant resources or resolutions for customer issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-ai-search.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -15,14 +18,14 @@ Enable agents to use AI search in Recommended Actions to find relevant resources
 
 AI search results and genius results are displayed in the Search tab of the Recommended Actions component in the contextual side panel. Agents can initiate actions from the search cards directly to resolve an issue.
 
-![AI search results and genius result in the search tab within the Recommended Actions component.](../image/ra-card-ai-search.png)
+\[Omitted image "ra-card-ai-search.png"\] Alt text: AI search results and genius result in the search tab within the Recommended Actions component.
 
 The search results from the configured search sources are displayed in the form of cards. These cards are previews of search records. You can select the card to view the record details or directly take actions through the cards. The most relevant answers are displayed as top results in the form of genius result cards.
 
 AI search harnesses advanced machine learning algorithms and natural language processing capabilities to comprehend user queries and provides the most relevant search results that can be employed to resolve issues effectively. For more information on:
 
--   AI search and its features, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
--   enabling AI search for Next Experience, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-ais-next-exp-app.md).
+-   AI search and its features, see .
+-   enabling AI search for Next Experience, see .
 
 ## AI search features
 
@@ -38,11 +41,11 @@ AI search harnesses advanced machine learning algorithms and natural language pr
 
 ## Configuring AI search in Recommended Actions
 
-Steps to configure AI search in Recommended Actions include enabling the AI search tab, mapping the AI search results with guidance inputs, and customizing the Recommended Actions component. Advanced customization options include adjusting the number of results to view on a page, identifying genius results to add to the search profile, and configuring search sources. For more information, see [Configuring AI search in Recommended Actions](ra-configuring-ai-search.md).
+Steps to configure AI search in Recommended Actions include enabling the AI search tab, mapping the AI search results with guidance inputs, and customizing the Recommended Actions component. Advanced customization options include adjusting the number of results to view on a page, identifying genius results to add to the search profile, and configuring search sources. For more information, see [Configuring AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-configuring-ai-search.md).
 
 ## Using AI search in Recommended Actions
 
-Enable customer service agents to use AI search for faster access to relevant information and take appropriate actions to resolve customer issues. For more information, see [Use AI search in Recommended Actions to resolve cases](../task/nba-use-ai-search.md).
+Enable customer service agents to use AI search for faster access to relevant information and take appropriate actions to resolve customer issues. For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba-use-ai-search.md).
 
 -   Accessing AI search: Agents can access the AI search tab in the contextual side panel of the workspace.
 -   Finding context-aware results: Agents can enter their search queries in the search bar. AI search uses natural language processing to understand user queries and considers task context to produce relevant results.

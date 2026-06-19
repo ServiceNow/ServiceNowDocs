@@ -2,6 +2,7 @@
 title: Domain Separation in the Symantec DLP integration
 description: Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/domain-seperation-symantec-dlp-integration.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -26,5 +27,5 @@ Follow these steps to achieve domain separation:
 -   Create a user with the required role in the respective domain.
 -   Perform the Symantec DLP integration procedures in the appropriate domain.
 
-**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](symantec-dlp-integration.md)
+**Parent Topic:**[Symantec Integration for Data Loss Prevention Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/symantec-dlp-integration.md)
 

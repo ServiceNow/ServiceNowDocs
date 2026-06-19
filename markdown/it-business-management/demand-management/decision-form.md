@@ -2,6 +2,7 @@
 title: Decision form
 description: Use a decision form to add a decision to a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/decision-form.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -111,7 +112,7 @@ Short description
 
 Brief description of the decision such as what the decision is about, who made it, what it affects, and the decision outcome.As you start entering the title for your decision, related decisions that potentially match your decision are displayed.
 
- Select the Suggestion icon \(![](../image/demand-suggestion-icon.png)\) to select a description from the list of predefined decision descriptions.
+ Select the Suggestion icon \(\[Omitted image "demand-suggestion-icon.png"\] Alt text:\) to select a description from the list of predefined decision descriptions.
 
 </td></tr><tr><td>
 
@@ -130,5 +131,5 @@ Work notes
 Information to record and track the status of decision implementation or approvals.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Demand Management forms](../concept/demand-management-forms.md)
+</table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/demand-management-forms.md)
 

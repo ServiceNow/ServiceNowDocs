@@ -2,7 +2,10 @@
 title: Recommendations tables
 description: Following are the tables that are synced with recommendations and information that will inform future recommendations \(for example, recommendations you’ve used, or recommendations you’ve liked or disliked\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/recommendations-mapping.html
 release: australia
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -86,5 +89,5 @@ Following are the tables that are synced with recommendations and information th
 |sys\_updated\_by|sn\_impact\_common\_content\_recommendation\_feedback|sys\_updated\_by|x\_snc\_impact\_rec\_content\_recommendation\_feedback|
 |dismissal\_time|sn\_impact\_common\_content\_recommendation\_feedback|dismissal\_time|x\_snc\_impact\_rec\_content\_recommendation\_feedback|
 
-**Parent Topic:**[Table and field level mapping](../concept/table-field-level-mapping.md)
+**Parent Topic:**[Table and field level mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/table-field-level-mapping.md)
 

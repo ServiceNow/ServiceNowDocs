@@ -2,6 +2,7 @@
 title: AWA Agent API
 description: The AWA \(Advanced Work Assignment\) Agent API provides endpoints to manage agent presence, channel availability, and workload.Returns the current agent presence state and channel availability.Returns an agent's channel capacities, universal capacity, and the current workload to see if the agent can handle a case.Returns an agent's presence states and indicates whether the agent is available or in another presence state.Sets the state of a specified agent’s presence and, if provided, sets the agent’s channel availability for that state.Enables updating an agent's maximum capacity \(workload\) for channel capacities and universal capacity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/agent-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -15,9 +16,9 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The AWA \(Advanced Work Assignment\) Agent API provides endpoints to manage agent presence, channel availability, and workload.
 
-This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
+This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to Advanced Work Assignment.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## AWA Agent - GET /now/awa/agents/\{user\_id\}
 
@@ -29,7 +30,7 @@ Versioned URL: `/api/now/{api_version}/awa/agents/{user_id}`
 
 Default URL: `/api/now/awa/agents/{user_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -113,7 +114,7 @@ Table: Presence States \[awa\_presence\_state\]
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -146,7 +147,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -189,7 +190,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -306,7 +307,7 @@ List of objects that describe the available channels of communication with the a
 
 presence.channels.available
 
-</td><td id="d3035e337">
+</td><td id="d3121e337">
 
 Flag that indicates whether the channel is available. Possible values:
 
@@ -348,7 +349,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3035e405">
+</td><td id="d3121e405">
 
 Channel sys\_id. Data type: String
 
@@ -384,7 +385,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3035e467">
+</td><td id="d3121e467">
 
 Presence state sys\_id. Data type: String
 
@@ -541,13 +542,13 @@ https://instance.servicenow.com/api/now/awa/agents/46d44a23a9fe19810012d100cca80
 
 Returns an agent's channel capacities, universal capacity, and the current workload to see if the agent can handle a case.
 
-Use the [AWA Agent - PUT /now/awa/agents/\{user\_id\}/capacities](agent-api.md#) method to modify the channel and universal capacities of an agent.
+Use the [AWA Agent - PUT /now/awa/agents/\{user\_id\}/capacities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-api.md) method to modify the channel and universal capacities of an agent.
 
 See also:
 
--   [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channel-capacity.md)
--   [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md)
--   [Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-universal-capacity.md)
+-   Service channel capacity and utilization
+-   Create or configure a service channel
+-   Configure an agent's maximum universal capacity
 
 ### URL format
 
@@ -555,7 +556,7 @@ Versioned URL: `/api/now/{api_version}/awa/agents/{user_id}/capacities`
 
 Default URL: `/api/now/awa/agents/{user_id}/capacities`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -596,7 +597,7 @@ Table: User \[sys\_user\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_ah3_ydq_htb" class="rest_api_request_headers"><thead><tr><th>
 
@@ -621,7 +622,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table id="table_dh3_ydq_htb"><thead><tr><th>
 
@@ -664,7 +665,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -838,7 +839,7 @@ Versioned URL: `/api/now/{api_version}/awa/agents/{user_id}/presence_states`
 
 Default URL: `/api/now/awa/agents/{user_id}/presence_states`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -879,7 +880,7 @@ Table: User \[sys\_user\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -904,7 +905,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -947,7 +948,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -1105,7 +1106,7 @@ Flag that indicates whether to check for inactivity of this presence state.Valid
 
  Default: false
 
- For information on how to modify this setting, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
+ For information on how to modify this setting, see Configure agent presence states.
 
 </td></tr><tr><td>
 
@@ -1222,7 +1223,7 @@ Versioned URL: `/api/now/{api_version}/awa/agents/{user_id}`
 
 Default URL: `/api/now/awa/agents/{user_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1322,7 +1323,7 @@ Table: Presence States \[awa\_presence\_state\]
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1355,7 +1356,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -1398,7 +1399,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/installed-with-awa.md).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -1555,7 +1556,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3035e405">
+</td><td id="d3121e405">
 
 Channel sys\_id. Data type: String
 
@@ -1591,7 +1592,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3035e467">
+</td><td id="d3121e467">
 
 Presence state sys\_id. Data type: String
 
@@ -1753,13 +1754,13 @@ curl -X PUT \
 
 Enables updating an agent's maximum capacity \(workload\) for channel capacities and universal capacity.
 
-Use the [AWA Agent - GET /now/awa/agents/\{user\_id\}/capacities](agent-api.md#) method to retrieve the current channel and universal capacities of an agent.
+Use the [AWA Agent - GET /now/awa/agents/\{user\_id\}/capacities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agent-api.md) method to retrieve the current channel and universal capacities of an agent.
 
 See also:
 
--   [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channel-capacity.md)
--   [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md)
--   [Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-universal-capacity.md)
+-   Service channel capacity and utilization
+-   Create or configure a service channel
+-   Configure an agent's maximum universal capacity
 
 ### URL format
 
@@ -1767,7 +1768,7 @@ Versioned URL: `/api/now/{api_version}/awa/agents/{user_id}/capacities`
 
 Default URL: `/api/now/awa/agents/{user_id}/capacities`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1844,7 +1845,7 @@ Mandatory if universal capacity is being updated. Maximum capacity for the agent
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1869,7 +1870,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

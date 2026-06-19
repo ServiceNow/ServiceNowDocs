@@ -2,6 +2,7 @@
 title: Rank demands and projects
 description: Rank demands and projects to prioritize demands and projects for their approval and execution within a portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/rank-demands-projects.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -27,15 +28,15 @@ By default, the Rank By Score list ranks demands and projects based on system-ge
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d186012e58">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d181530e58">
 
 Location
 
-</th><th align="left" id="d186012e61">
+</th><th align="left" id="d181530e61">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d186012e67">
+</th></tr></thead><tbody><tr><td id="d181530e67">
 
 **From application navigator**
 
@@ -45,7 +46,7 @@ Steps
 2.  From the **Portfolio** list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d186012e100">
+</td></tr><tr><td id="d181530e100">
 
 **From the portfolio list**
 
@@ -59,15 +60,15 @@ Steps
 </td></tr></tbody>
 </table>2.  Adjust the rank automatically or manually.
 
-<table id="choicetable_zyz_csk_nlb"><thead><tr><th align="left" id="d186012e145">
+<table id="choicetable_zyz_csk_nlb"><thead><tr><th align="left" id="d181530e145">
 
 Action
 
-</th><th align="left" id="d186012e148">
+</th><th align="left" id="d181530e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d186012e154">
+</th></tr></thead><tbody><tr><td id="d181530e154">
 
 **Adjust the rank automatically**
 
@@ -82,7 +83,7 @@ For example, if the ranks after moving or canceling some projects are 1, 2, and 
 4.  Click **Rank By Visual Sort** to rank projects and demands based on the attribute you chose.
 
 
-</td></tr><tr><td id="d186012e192">
+</td></tr><tr><td id="d181530e192">
 
 **Adjust the ranks manually**
 
@@ -208,5 +209,5 @@ If initial rank &lt; edited rank and there is a gap in rank sequence, then after
 -   Task\_4: 6
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create planning scenarios](create-scenarios.md)
+</table>**Parent Topic:**[Create planning scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/create-scenarios.md)
 

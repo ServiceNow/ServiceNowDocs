@@ -2,6 +2,7 @@
 title: Manage the regulatory change tasks
 description: Manage the regulatory action tasks in the Regulatory Change Tasks module so that you can use these tasks to identify and comply with the regulatory changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/manage-regulatory-change-tasks.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -185,5 +186,5 @@ Approval records that get created when an approval is requested.
 
 The regulatory change task continues through the workflow based on its current state. Approval can occur before or after the task enters the **Implementation** state, depending on workflow configuration. When the action tasks associated with the regulatory change task are completed, the regulatory change task is closed.
 
-**Parent Topic:**[Regulatory change tasks](../concept/reg-change-task.md)
+**Parent Topic:**[Regulatory change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-task.md)
 

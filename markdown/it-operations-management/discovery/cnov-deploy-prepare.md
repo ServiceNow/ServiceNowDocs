@@ -2,6 +2,7 @@
 title: Prepare for Kubernetes Visibility Agent deployment
 description: Prepare your ServiceNow instance and the Kubernetes cluster for Kubernetes Visibility Agent \(KVA\) deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-deploy-prepare.html
 release: australia
 product: Discovery
 classification: discovery
@@ -33,7 +34,7 @@ Role required: admin for steps performed on the ServiceNow instance.
 
 2.  Choose or create a user with at least the mid\_server role.
 
-    For information about adding a new user to your instance, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAUser.md). For information about granting a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    For information about adding a new user to your instance, see . For information about granting a role to a user, see .
 
 3.  In the Kubernetes cluster, choose or create a namespace in which you want to deploy KVA.
 
@@ -107,7 +108,7 @@ Your ServiceNow instance and the Kubernetes cluster are ready for KVA deployment
 
 ## What to do next
 
-[Install Kubernetes Visibility Agent \(KVA\) Informer](cnov-deploy-install.md).
+[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md).
 
-**Parent Topic:**[Configuring Kubernetes Visibility Agent](../concept/cnov-configuring.md)
+**Parent Topic:**[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-configuring.md)
 

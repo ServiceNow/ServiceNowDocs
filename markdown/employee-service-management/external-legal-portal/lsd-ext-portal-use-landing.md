@@ -2,6 +2,7 @@
 title: Using External Legal Service Center
 description: The ServiceNow External Legal Service Center application enables external users to register themselves, submit, view, and track their requests for legal services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/external-legal-portal/lsd-ext-portal-use-landing.html
 release: australia
 product: External Legal Portal
 classification: external-legal-portal
@@ -23,19 +24,19 @@ You can also add attachments while submitting a request.
 
 To register yourself and submit a request for legal services, perform the following actions.
 
-1.  [Register with External Legal Service Center](../task/lsd-external-portal-register.md)
+1.  [Register with External Legal Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/external-legal-portal/lsd-external-portal-register.md)
 
     Register yourself for External Legal Service Center to enable you to submit requests.
 
-2.  [Create request from External Legal Service Center](../task/lsd-ext-portal-submit-request.md)
+2.  [Create request from External Legal Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/external-legal-portal/lsd-ext-portal-submit-request.md)
 
     Create a request for a legal service from the External Legal Service Center. You can submit a request or save it in draft to submit later.
 
-3.  [Edit requests in External Legal Service Center](../task/lsd-ext-portal-edit-request.md)
+3.  [Edit requests in External Legal Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/external-legal-portal/lsd-ext-portal-edit-request.md)
 
     Edit requests that saved are as draft in External Legal Service Center.
 
-4.  [View and track requests submitted in External Legal Service Center](../task/lsd-ext-portal-view-track-req.md)
+4.  [View and track requests submitted in External Legal Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/external-legal-portal/lsd-ext-portal-view-track-req.md)
 
     View and track requests submitted for a legal service from the External Legal Service Center.
 

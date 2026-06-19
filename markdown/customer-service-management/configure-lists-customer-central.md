@@ -2,7 +2,10 @@
 title: Configure lists for the Customer Information view
 description: Configure lists for the Customer Information view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-lists-customer-central.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: admin
 
 Lists are displayed in the Customer Information view in Agent Workspace.
 
-![Recent cases section displaying a list of recent cases and their details.](../image/customer-lists.jpg)
+\[Omitted image "customer-lists.jpg"\] Alt text: Recent cases section displaying a list of recent cases and their details.
 
 ## Procedure
 
@@ -81,7 +84,7 @@ View
 
 </td><td>
 
-Select the name of the view that has the set of columns to display for this list. For information on how to create a view, see [Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-administration/t_ConfigureTheListLayout.md).
+Select the name of the view that has the set of columns to display for this list. For information on how to create a view, see Configure the list layout.
 
 </td></tr><tr><td>
 

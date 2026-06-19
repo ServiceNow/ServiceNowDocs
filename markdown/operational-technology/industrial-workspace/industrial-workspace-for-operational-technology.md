@@ -2,6 +2,7 @@
 title: Industrial Workspace
 description: The Industrial Workspace is a user interface that provides Operational Technology \(OT\) users with the tools they need to manage their OT data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -17,15 +18,15 @@ The Industrial Workspace is a user interface that provides Operational Technolog
 
 <table id="table_e3m_qbq_3rb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Exploring the Industrial Workspace](exploring-industrial-workspace.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Exploring the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/exploring-industrial-workspace.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your implementation](configuring-industrial-workspace.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-management-console.svg)Using the Industrial Workspace](using-industrial-workspace.md)
+[Use\[Omitted image "bus-management-console.svg"\] Alt text:Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: UX: Optimize Your Portal with Usage Insights
 description: This accelerator provides guidance to customers on how to measure, monitor and analyze user behavior with UX analytics to identify and prioritize portal improvements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-optimize-your-portal-with-usage-insights.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,6 +20,8 @@ This accelerator provides guidance to customers on how to measure, monitor and a
 ## Accelerator Overview
 
 UX: Optimize Your Portal with Usage Insights guides the Impact customers in using Usage Insights to understand how their users interact with Employee Center or another ServiceNow portal. It helps them analyze user behavior to identify friction points, drop-offs, and usability challenges affecting adoption and satisfaction. They will learn how to validate assumptions with usage data, prioritize portal improvements, and implement outcome-focused enhancements aligned with their business and product strategy.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
@@ -46,6 +49,8 @@ UX: Optimize Your Portal with Usage Insights guides the Impact customers in usin
 |UX &amp; OCM Expert|Primary stakeholders and advocates for user experience and organizational change management.| |✓|
 |Process/Service Owner\(s\)|A senior leader within each business unit for each major process or service \(for example, incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose.| |✓|
 |Trusted Service Partner\(s\)|Attends ServiceNow Impact accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
+
+## Requested Information/Access
 
 ## Requested Information/Access
 

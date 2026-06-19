@@ -2,6 +2,7 @@
 title: Embed a custom portal
 description: Embed your custom portal to replace the Employee Center tab in Microsoft Teams by configuring the system property. The custom portal shows up in the Employee Center tab in Microsoft Teams.You can hide the chat option for your custom portal that appears in the Employee Center tab within Microsoft Teams.You can hide the logout option for your custom portal that appears in the Employee Center tab within Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/customize-custom-portal-employee-center-it.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,19 +28,19 @@ If you’re using a custom portal rather than the Employee Center, you can repla
 
 2.  Search for `sn_now_teams.portal.suffix` property under Name.
 
-    ![System properties list](../images/sys-properties-list.png)
+    \[Omitted image "sys-properties-list.png"\] Alt text: System properties list
 
 3.  Select **sn\_now\_teams.portal.suffix**.
 
 4.  Enter the value of your custom portal in the **Value** field.
 
-    ![Custom value](../images/custom-value-sys-properties.png)
+    \[Omitted image "custom-value-sys-properties.png"\] Alt text: Custom value
 
 5.  Select **Update**.
 
 6.  Create a custom header for the embedded portal after you configure your custom portal.
 
-    For more information on adding header configuration, see [Configure HTTP response headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-http-response-header.md).
+    For more information on adding header configuration, see Configure HTTP response headers.
 
     1.  In the Navigator pane, type `sys_response_header.list`.
 
@@ -105,7 +106,7 @@ For example: `Frame-ancestors 'self' https://teams.microsoft.com *.office.com *.
 </table>    5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Employee Center](../concept/employee-center-dashboard-admin-it.md)
+**Parent Topic:**[Configuring Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-dashboard-admin-it.md)
 
 ## Hide the chat button on the custom portal
 
@@ -121,13 +122,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **CSS**.
 
-    ![CSS list](../images/system-css.png)
+    \[Omitted image "system-css.png"\] Alt text: CSS list
 
 2.  Select the custom CSS that you want to edit.
 
 3.  Select the **click here** link to edit the CSS.
 
-    ![Edit CSS](../images/edit-css-2.png)
+    \[Omitted image "edit-css-2.png"\] Alt text: Edit CSS
 
 4.  Paste the following code in the **CSS** field.
 
@@ -159,13 +160,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **CSS**.
 
-    ![CSS list](../images/system-css.png)
+    \[Omitted image "system-css.png"\] Alt text: CSS list
 
 2.  Click on your custom CSS.
 
 3.  Click **here** to edit the CSS.
 
-    ![Edit CSS](../images/edit-css-2.png)
+    \[Omitted image "edit-css-2.png"\] Alt text: Edit CSS
 
 4.  To disable the logout button from Microsoft Teams desktop application.
 

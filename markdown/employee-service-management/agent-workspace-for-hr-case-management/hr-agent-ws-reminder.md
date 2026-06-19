@@ -2,6 +2,7 @@
 title: Create a reminder in Agent Workspace for HR Case Management
 description: You can create reminders from an HR case or task to receive an intimation which will allow you to follow up by a specific date. Reminders enable timely communication and make sure that the actions are taken.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-reminder.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -25,9 +26,9 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Find the case you for which you want to add a reminder.
 
-    For more information on finding an HR case, see [Using Agent Workspace for HR Case Management](../concept/agent-ws-hr-case-mgmt-use.md).
+    For more information on finding an HR case, see [Using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md).
 
-3.  Select the ![More icon](../reference/images/EllipsisIcon.png) more icon.
+3.  Select the \[Omitted image "EllipsisIcon.png"\] Alt text: More icon more icon.
 
 4.  Select **Set reminder**.
 
@@ -47,6 +48,6 @@ Role required: sn\_hr\_core.case\_writer
 
     **Note:**
 
-    -   When alert is activated, a number appears inside the Notifications icon \(![Notifications icon](../image/notification-icon.png)\) and the notifications message scrolls across the screen to remind you.
+    -   When alert is activated, a number appears inside the Notifications icon \(\[Omitted image "notification-icon.png"\] Alt text: Notifications icon\) and the notifications message scrolls across the screen to remind you.
     -   Reminder notifications appear only to the user who has set the reminders.
 

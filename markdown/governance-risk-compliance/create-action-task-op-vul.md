@@ -2,9 +2,10 @@
 title: Manage an assessment-type action task
 description: Create and manage an action task for the Operational vulnerability, where the type of the task is assessment. You can then assign it to an appropriate task owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-action-task-op-vul.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-01"
 reading_time_minutes: 2
 breadcrumb: [Creating an action task for the operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -29,7 +30,7 @@ After completing the steps outlined in this section, the state of the Operationa
 
 3.  On the Create New Action task form, fill in the fields.
 
-    For more information, see [Create New Action task form](../reference/action-task-form.md).
+    For more information, see [Create New Action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/action-task-form.md).
 
 4.  In the **Type** field, select **Assessment**.
 
@@ -55,11 +56,11 @@ After completing the steps outlined in this section, the state of the Operationa
 
     The action task is now assigned to the task owner. The example shows that the task is assigned to the user, Opres manager02.
 
-    ![Action task assigned.](../image/assigned-state-action-task.png)
+    \[Omitted image "assigned-state-action-task.png"\] Alt text: Action task assigned.
 
     An automated email notification as shown in the example is sent to the task owner to notify about the action task and review the task details.
 
-    ![Email notification.](../image/vul-email-action-task.png)
+    \[Omitted image "vul-email-action-task.png"\] Alt text: Email notification.
 
     The task owner logs in, reviews the assigned action task, and completes the next steps.
 
@@ -68,5 +69,5 @@ After completing the steps outlined in this section, the state of the Operationa
 
 The task owner then logs in, reviews the assigned action task, and creates an investigation-type action task if necessary, or directly requests for an approval for the assessment-type action task.
 
-For more information, see [Manage an investigation-type action task](update-state-of-action-task.md) and [Request an approval for the action task](request-approval-for-action-task.md).
+For more information, see [Manage an investigation-type action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-state-of-action-task.md) and [Request an approval for the action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-approval-for-action-task.md).
 

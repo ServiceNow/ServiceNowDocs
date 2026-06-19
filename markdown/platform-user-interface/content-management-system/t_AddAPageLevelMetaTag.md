@@ -2,6 +2,7 @@
 title: Configure a page level meta tag
 description: A page level tag is a meta tag defined on a specific page and included on only that page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_AddAPageLevelMetaTag.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -38,5 +39,5 @@ If an individual page has a specific tag with the same name as the site, the pag
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Content Management meta tags](../concept/c_ContentManagementMetaTags.md)
+**Parent Topic:**[Content Management meta tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementMetaTags.md)
 

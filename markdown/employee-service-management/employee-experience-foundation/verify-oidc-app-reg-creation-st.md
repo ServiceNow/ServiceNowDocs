@@ -2,6 +2,7 @@
 title: Verify OIDC Application Registry creation for a self-configured app setup
 description: Verify whether the OIDC Application Registry was created when Microsoft Teams Application Registry was created and mapped to the configuration during a self-configured app setup process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/verify-oidc-app-reg-creation-st.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,7 +24,7 @@ Role required: oauth\_admin
 
 Mapping a Microsoft Teams Application Registry after creation automatic creates an OIDC Application Registry as a part of the self-configured app setup. If this automatic creation fails, issues occur in processing call backs that might cause meeting information not to be updated in real time.
 
-For more information, see [Create a Microsoft Teams application registry entry to connect the created app to ServiceNow instance](create-app-registry-entry.md) and [Update the records in the Microsoft Teams Configuration page](map-app-reg-cred-alias-ms-teams-config.md).
+For more information, see [Create a Microsoft Teams application registry entry to connect the created app to ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-app-registry-entry.md) and [Update the records in the Microsoft Teams Configuration page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/map-app-reg-cred-alias-ms-teams-config.md).
 
 ## Procedure
 
@@ -31,7 +32,7 @@ For more information, see [Create a Microsoft Teams application registry entry t
 
 2.  Filter the list by the Client ID created during the app creation in Microsoft Teams.
 
-    Ensure that there is also an External OIDC Provider type Application Registry for the same Client ID along with the OAuth Provider type created. For the External OIDC Provider type Application Registry information, see [Update the records in the Microsoft Teams Configuration page](map-app-reg-cred-alias-ms-teams-config.md). For the Client ID information on the Microsoft Azure portal, see [Create an app in Microsoft Teams to enable making calls](create-app-ms-teams.md).
+    Ensure that there is also an External OIDC Provider type Application Registry for the same Client ID along with the OAuth Provider type created. For the External OIDC Provider type Application Registry information, see [Update the records in the Microsoft Teams Configuration page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/map-app-reg-cred-alias-ms-teams-config.md). For the Client ID information on the Microsoft Azure portal, see [Create an app in Microsoft Teams to enable making calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-app-ms-teams.md).
 
 3.  If the Application Registry with External OIDC Provider type for the Client ID is missing, create it manually.
 
@@ -70,7 +71,7 @@ For more information, see [Create a Microsoft Teams application registry entry t
 
 ## What to do next
 
-[Configure Notify connector for Microsoft Teams](../concept/config-notify-ms-teams.md).
+[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md).
 
-**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](../concept/setup-notify-ms-teams-single-tenant.md)
+**Parent Topic:**[Integrating Notify connector self-configured app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-single-tenant.md)
 

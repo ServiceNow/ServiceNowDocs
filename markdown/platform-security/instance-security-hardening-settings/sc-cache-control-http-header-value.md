@@ -2,6 +2,7 @@
 title: Cache-Control HTTP Header Value \[Updated in Security Center 1.3 and removed in 1.5\]
 description: Use the glide.http.cache\_control property to set the default cache-control value in the HTTP response headers that the ServiceNow AI Platform sends when requesting static content data for a page. Examples of static content include images, CSS, and JavaScript rendered from within, for a page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-cache-control-http-header-value.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -24,7 +25,7 @@ The **glide.http.cache\_control** property sets the default Cache-Control value 
 
 The Expires value in the HTTP response headers control when the static content expires, and has a default value of 369 days. To manually override the default value, use the **glide.http.expire.days** property.
 
-![Control-Cache and Expires HTTP response header values](../../security/image/Cache-Control-header.png)
+\[Omitted image "Cache-Control-header.png"\] Alt text: Control-Cache and Expires HTTP response header values
 
 **Note:** You can use the **glide.http.cache** property designate whether to enable or disable setting of the Cache-Control and Expires values in HTTP response headers. Its default is **true**, which allows you to set the:
 
@@ -63,7 +64,7 @@ Category
 
 </td><td>
 
-[Configuration](sc-configuration.md)
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 
 </td></tr><tr><td>
 
@@ -115,7 +116,7 @@ Security risk
 -   If an the instance does not have a CDN/proxy setup, either value should be fine.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Configuration](sc-configuration.md)
+**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

@@ -2,7 +2,10 @@
 title: Service Model Foundation data model
 description: The Service Model Foundation data model defines the underlying structure that supports data consistency and relationships across Service Model Foundation. The data model explains its purpose, including how entities such as services, locations, and accounts are organized and connected through the entity-relationship Diagram \(ERD\) and reference architecture. It provides a unified view of data design, confirming scalability, integrity, and seamless integration across Service Model Foundation components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/data-models-smf.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -27,7 +30,7 @@ Note: These business locations can also be logical entities and not necessarily 
 
 The following entity-relationship diagram \(ERD\) shows the tables and their relationships that comprise the Service Model Foundation data model.
 
-![Entity relationship diagram showing how service organizations connect to internal and external business locations and outsourced service providers, each linked to employees or staff.](../image/smf-data-model.png "Service Model Foundation entity-relationship diagram (ERD)")
+\[Omitted image "smf-data-model.png"\] Alt text: Entity relationship diagram showing how service organizations connect to internal and external business locations and outsourced service providers, each linked to employees or staff.
 
 This ERD illustrates the structural relationships among service organizations, business locations, and staff or employees within the Service Model Foundation. A service organization manages multiple internal \(IBL\), external \(EBL\), and outsourced \(OSP\) locations, each associated with its own workforce, that is employees or external staff, who perform service activities.
 
@@ -37,7 +40,7 @@ The model differentiates internal versus external service delivery contexts whil
 
 The following reference architecture diagram illustrates the technical framework and data flow within the Service Model Foundation \(SMF\) system.
 
-![Reference diagram highlighting how various system components, tables, and services interact to deliver and manage service operations.](../image/smf-reference-architecture.png "Service Model Foundation reference architecture")
+\[Omitted image "smf-reference-architecture.png"\] Alt text: Reference diagram highlighting how various system components, tables, and services interact to deliver and manage service operations.
 
 This reference architecture highlights how various system components, tables, and services interact to deliver and manage service operations. It shows the flow of data between primary data tables, transaction tables, and custom tables, emphasizing the integration points between internal and external business locations, service offerings, and case management processes.
 
@@ -119,7 +122,7 @@ The external customers in the business-to-business model who use goods and servi
 
 </td></tr><tr><td>
 
-[Configuring households](configure-households.md)
+[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-households.md)
 
 </td><td>
 
@@ -146,7 +149,7 @@ The people who work at internal and external service organizations and assist cu
 
 </td></tr><tr><td>
 
-[Roles](../reference/csm-data-model-roles.md)
+[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-roles.md)
 
 </td><td>
 
@@ -162,7 +165,7 @@ Job functions that are performed by various users in the service organization.
 
 </td></tr><tr><td>
 
-[Responsibility definitions](../reference/csm-data-model-responsibilities.md)
+[Responsibility definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-responsibilities.md)
 
 </td><td>
 
@@ -179,7 +182,7 @@ Definitions of the responsibilities that an agent can perform for a customer or 
 
 </td></tr><tr><td>
 
-[Relationships](../reference/csm-data-model-relationships.md)
+[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-relationships.md)
 
 </td><td>
 

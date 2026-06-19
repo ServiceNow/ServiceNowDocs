@@ -2,6 +2,7 @@
 title: SPScriptedFacetService - Scoped
 description: Generates a multi-choice or single-choice facets object for an advanced search source.Creates a single choice facets object.Creates a multi choice facets object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SPScriptedFacetServiceScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ The SPScriptedFacetService API can only be used in a facet generation script in 
 
 There is no constructor for this class. Instead, use the createFacet\(\) or createMultiChoiceFacet\(\) methods to generate a facets object.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SPScriptedFacetService - createFacet\(String label, String id\)
 

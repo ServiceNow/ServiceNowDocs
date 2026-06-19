@@ -2,6 +2,7 @@
 title: Enable Dispatcher Workspace settings
 description: Determine what is displayed in the Dispatcher Workspace so you only see the information most relevant to your work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -29,7 +30,7 @@ Quick settings in Dispatcher Workspace provide access to certain capabilities of
 
 2.  Select the Dispatcher Workspace.
 
-3.  Select the Settings icon \(![Settings icon.](../image/IconPersonalizeList.png)\).
+3.  Select the Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\).
 
     The options on the Settings dialog box are arranged in a multiple-tabbed layout.
 
@@ -51,11 +52,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Enable tasks in the task panel, schedule, and map to filter at the same time when an assignment group is selected
+Collapse task panel on initial load
 
 </td><td>
 
-Option to synchronize the resource filter with the task panel, tasks, and map for selected assignment groups.
+Collapses all the assignment groups or territories on the calendar when Dispatcher Workspace loads.**Note:** The setting collapse\_task\_panel\_in\_init\_load must be enabled by an administrator to see this option.
+
+</td></tr><tr><td>
+
+Enable Auto-refresh
+
+</td><td>
+
+Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created.**Note:** This option appears only when the Enable Auto-refresh system property is enabled. For more information, see [Configure settings for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configure-workspce-settings.md).
 
 </td></tr><tr><td>
 
@@ -64,14 +73,6 @@ Select the type of group you want to show
 </td><td>
 
 Option to choose if you want to see Assignment groups or Dispatch groups when you search in the task panel.
-
-</td></tr><tr><td>
-
-Enable Auto-refresh
-
-</td><td>
-
-Automatically refreshes the agent's calendar when an event such as a meeting, training, time-off request, personal, or an ad hoc work event is created.**Note:** This option appears only when the Enable Auto-refresh system property is enabled. For more information, see [Configure settings for Dispatcher Workspace](configure-workspce-settings.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ Territory
 
 </td><td>
 
-Option to display the assigned territory. **Note:** This field appears when the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](enable-territory-model.md).
+Option to display the assigned territory.**Note:** This field appears when the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 </td></tr><tr><td>
 
@@ -322,7 +323,7 @@ Territory
 
 </td><td>
 
-Option to display the assigned territory. For more information, see [Activate Field Service Territory Planning](Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](enable-territory-model.md).
+Option to display the assigned territory. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md) and [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 </td></tr><tr><td>
 
@@ -422,7 +423,7 @@ Operational Status
 
 </td><td>
 
-Status of the equipment. For example, a bucket truck is Unavailable because there’s maintenance being completed on it. The available values are:
+Status of the equipment. For example, a bucket truck is Unavailable because there's maintenance being completed on it. The available values are:
 
 -   Available
 -   In Use

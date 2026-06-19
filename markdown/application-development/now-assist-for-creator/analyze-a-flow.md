@@ -2,13 +2,14 @@
 title: Analyze a flow
 description: Have Now Assist scan a flow's execution details, identify errors, and suggest fixes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/analyze-a-flow.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Flow execution analysis, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Flow execution analysis, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Analyze a flow
@@ -22,7 +23,7 @@ Role required:
 -   now.assist.creator
 -   flow\_designer or admin
 
-Turn on the flow summarization skill. See [Turn on the Flow execution analysis skill](turn-on-the-flow-execution-analysis-skill.md).
+Turn on the flow summarization skill. See [Turn on the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/turn-on-the-flow-execution-analysis-skill.md).
 
 ## Procedure
 
@@ -41,5 +42,5 @@ Turn on the flow summarization skill. See [Turn on the Flow execution analysis s
 
 Now Assist analyzes the flow, identifies errors, and suggests fixes.
 
-**Parent Topic:**[Flow execution analysis](../reference/flow-execution-analysis-landing.md)
+**Parent Topic:**[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-execution-analysis-landing.md)
 

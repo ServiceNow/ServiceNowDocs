@@ -2,6 +2,7 @@
 title: Operational equipment form
 description: The following table describes the field values for the Operational equipment form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/operational-equipment-form.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -170,5 +171,5 @@ Hardware status of the equipment. Options are:-   Installed
 -   Stolen
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Factory Workspace reference](digital-factory-workspace-reference.md)
+</table>**Parent Topic:**[Digital Factory Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/digital-factory-workspace-reference.md)
 

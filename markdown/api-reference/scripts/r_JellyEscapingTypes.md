@@ -2,6 +2,7 @@
 title: Jelly escaping types
 description: You use different methods when escaping characters in JavaScript and HTML. JavaScript uses the backslash character, and HTML uses the ampersand character.You can handle character escaping in Jelly files. XML escaping behavior can be modified only by users with the security\_admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_JellyEscapingTypes.html
 release: australia
 product: Scripts
 classification: scripts
@@ -127,7 +128,7 @@ HTML
 ${test.getHTMLValue()} 
 ```
 
-**Parent Topic:**[Jelly tags](../../general-scripting/reference/r_JellyTags.md)
+**Parent Topic:**[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_JellyTags.md)
 
 ## Add escaping to a Jelly replacement
 

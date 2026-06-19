@@ -2,6 +2,7 @@
 title: Create an enhancement request in Agile Development 2.0
 description: Capture enhancement ideas for your feature or product as enhancement requests in Agile Development 2.0 so that you can review and prioritize them later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-enhancement-request.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -125,5 +126,5 @@ The enhancement request is created and the form reloads with the Stories related
 
 A scrum product owner can review the request and decide whether to create stories for it.
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](../concept/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
 

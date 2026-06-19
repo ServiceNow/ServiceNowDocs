@@ -2,11 +2,12 @@
 title: Create a similar tasks group
 description: Identify similar or duplicate event tasks associated with an event and add them to a similar tasks group by grouping them in the Similar tasks groups tab. It helps you to streamline event task management and reduce duplication of efforts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-similar-tasks-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Creating similar tasks groups, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Creating similar tasks groups, Structured workflows for Exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create a similar tasks group
@@ -27,15 +28,15 @@ You can create a similar tasks group and add tasks to it only in the **Draft** s
 
 2.  To create a similar event tasks group, use one of these options.
 
-<table id="choicetable_xf2_jyr_shc"><thead><tr><th align="left" id="d234179e93">
+<table id="choicetable_xf2_jyr_shc"><thead><tr><th align="left" id="d96850e93">
 
 Action
 
-</th><th align="left" id="d234179e96">
+</th><th align="left" id="d96850e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234179e102">
+</th></tr></thead><tbody><tr><td id="d96850e102">
 
 **Choose similar event tasks in the __Event tasks__ tab and select the __Create similar tasks group__ UI action.**
 
@@ -43,9 +44,9 @@ Description
 
 1.  In the Create similar tasks group, add a name for the group and select **Create**.
 2.  Verify that the group is created and shows up in the Similar tasks groups list.
-![Event tasks tab.](../image/event-tasks-from-event-task-tab.png)
+\[Omitted image "event-tasks-from-event-task-tab.png"\] Alt text: Event tasks tab.
 
-</td></tr><tr><td id="d234179e132">
+</td></tr><tr><td id="d96850e132">
 
 **Add event tasks from the __Similar tasks groups__ tab.**
 
@@ -53,7 +54,7 @@ Description
 
 Complete these steps: 1.  Select **New** in the **Similar tasks groups** tab and select **Save**.
 
-![Event tasks tab in the group.](../image/event-tasks-from-grp.png)
+\[Omitted image "event-tasks-from-grp.png"\] Alt text: Event tasks tab in the group.
 
 2.  From the **Event tasks** tab in the group, select **Add**, choose applicable tasks from the tasks list, and select **Add**.
 Applicable event tasks are added to the Similar tasks group.**Note:** When you select **Add** in the **Event tasks** tab, the modal displays only applicable event tasks, helping to prevent cyclic dependencies.
@@ -61,7 +62,7 @@ Applicable event tasks are added to the Similar tasks group.**Note:** When you s
 </td></tr></tbody>
 </table>    To add events tasks with dependencies to the Similar tasks group, a cyclic dependency validation check is performed by the system. An event task and its dependent event task cannot be added to the same similar task group. For example, if you add task 4 into an event task group and task 5 is dependent on task 4, then task 5 cannot be added into the same group as task 4 as shown in the example.
 
-    ![Cyclic check.](../image/event-task-cyclic-check.png)
+    \[Omitted image "event-task-cyclic-check.png"\] Alt text: Cyclic check.
 
     When an event starts, the system identifies the first executed event task as the original task. Other similar tasks are marked as duplicate tasks in the group.
 
@@ -78,5 +79,5 @@ Applicable event tasks are added to the Similar tasks group.**Note:** When you s
     The event task is deleted from the event.
 
 
-**Parent Topic:**[Creating similar tasks groups](../concept/identifying-running-dup-tasks-once.md)
+**Parent Topic:**[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/identifying-running-dup-tasks-once.md)
 

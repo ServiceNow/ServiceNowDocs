@@ -2,6 +2,7 @@
 title: Map printing options
 description: The map printing options provide configurations for the page format, font, icons, collision, legend, and timestamps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/map-printing-options.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -39,9 +40,9 @@ The map printing options provide configurations for the page format, font, icons
 |Remove text anti-collision|Option to enable overlapping of location labels. You can enable this option and adjust the font size to avoid collision.|
 |Remove icon anti-collision|Option to enable overlapping of location icons. You can enable this option and adjust the icon size to avoid collision.|
 
-**Parent Topic:**[Indoor Mapping references](../concept/indoor-mapping-references.md)
+**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
 
-**Previous topic:**[Snapshot Impacted tables](snapshot-ind-mapping-tables.md)
+**Previous topic:**[Snapshot Impacted tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/snapshot-ind-mapping-tables.md)
 
-**Next topic:**[Floor map import group form](import-group-form.md)
+**Next topic:**[Floor map import group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/import-group-form.md)
 

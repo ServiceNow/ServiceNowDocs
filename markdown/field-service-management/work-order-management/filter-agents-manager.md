@@ -2,6 +2,7 @@
 title: Filter agents in Field Service Manager Mobile
 description: Managers can quickly filter agents and find the agent they need to assign a work order task to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/filter-agents-manager.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -25,7 +26,7 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 2.  Tap **Teams** and open the Assignment group or territory that the agent you want to filter for belongs to.
 
-3.  Tap the Filter icon \(![filter](../image/filter-manager-app.png)\).
+3.  Tap the Filter icon \(\[Omitted image "filter-manager-app.png"\] Alt text: filter\).
 
 4.  On the form, fill in the fields.
 

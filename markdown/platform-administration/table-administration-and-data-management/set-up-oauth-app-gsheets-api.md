@@ -2,6 +2,7 @@
 title: Set up the OAuth application on the Google Sheets API
 description: Set up the OAuth application on the Google Sheets API so that you can authenticate requests from your ServiceNow instance to access Google Sheets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -38,11 +39,11 @@ Setting up the OAuth application on the Google Sheets API enables you to access 
 
     2.  In the Google Cloud Console, select **Select a project**.
 
-        ![Creating a project on Google Workspace.](../image/google-calendar-spokes-click-create-project.png)
+        \[Omitted image "google-calendar-spokes-click-create-project.png"\] Alt text: Creating a project on Google Workspace.
 
     3.  In the **Search projects and folders** field, select **New project**.
 
-        ![Creating a new project on Google Workspace.](../image/gsheets-select-project.png)
+        \[Omitted image "gsheets-select-project.png"\] Alt text: Creating a new project on Google Workspace.
 
     4.  In the **Project name\*** field, enter a unique name for the project.
 
@@ -54,7 +55,7 @@ Setting up the OAuth application on the Google Sheets API enables you to access 
 
 2.  Enable the Google Sheets API.
 
-    ![Project selection on Google Sheets API.](../image/gsheets-select-project.png)
+    \[Omitted image "gsheets-select-project.png"\] Alt text: Project selection on Google Sheets API.
 
     1.  Open the project that you created in step 1.
 
@@ -64,7 +65,7 @@ Setting up the OAuth application on the Google Sheets API enables you to access 
 
     3.  From the search results list, select **Google Drive API**.
 
-        ![Searching for Google Drive API.](../image/search-gdrive-api.png)
+        \[Omitted image "search-gdrive-api.png"\] Alt text: Searching for Google Drive API.
 
     4.  Select **Enable**.
 
@@ -76,11 +77,11 @@ Setting up the OAuth application on the Google Sheets API enables you to access 
 
         The Create credentials page is displayed.
 
-        ![Create credentials button in the Google workspace.](../image/create-credentials-gsheets.png)
+        \[Omitted image "create-credentials-gsheets.png"\] Alt text: Create credentials button in the Google workspace.
 
     2.  In the Credential Type section, select **User data** and then select **Next**.
 
-        ![Create credentials form displays in the APIs & Services dashboard in Google Workspace.](../image/credential-type-gsheets.png)
+        \[Omitted image "credential-type-gsheets.png"\] Alt text: Create credentials form displays in the APIs &amp; Services dashboard in Google Workspace.
 
     3.  On the form in the OAuth Consent, fill in the fields.
 
@@ -99,11 +100,11 @@ Setting up the OAuth application on the Google Sheets API enables you to access 
 
     1.  Select **Add or remove scopes**.
 
-        ![Adding or removing scopes in the Scopes section of the Create credentials form.](../image/scopes-gsheets.png)
+        \[Omitted image "scopes-gsheets.png"\] Alt text: Adding or removing scopes in the Scopes section of the Create credentials form.
 
     2.  In the Update selected scopes list, search for Google Drive API, and then select the `.../auth/drive.file` scope.
 
-        ![Selecting a file for the Google Drive API scope.](../image/select-gdapi-scope.png)
+        \[Omitted image "select-gdapi-scope.png"\] Alt text: Selecting a file for the Google Drive API scope.
 
     3.  Select **Update** and then select **Save and continue**.
 
@@ -125,7 +126,7 @@ Setting up the OAuth application on the Google Sheets API enables you to access 
 
     **Tip:** Select **DOWNLOAD** to download the JSON file for later reference.
 
-    ![Downloading the OAuth credentials file.](../image/download-gsheets-credentials.png)
+    \[Omitted image "download-gsheets-credentials.png"\] Alt text: Downloading the OAuth credentials file.
 
 9.  Select **Done**.
 
@@ -146,7 +147,7 @@ The OAuth application is enabled to authenticate the access of Google Sheets fro
 
 ## What to do next
 
-To enable OAuth authorization for exporting table records to Google Sheets, register the Google Drive application in your instance. For more information, see [Create an application registry for Google Sheets on a ServiceNow instance](configure-app-registry-gsheets.md).
+To enable OAuth authorization for exporting table records to Google Sheets, register the Google Drive application in your instance. For more information, see [Create an application registry for Google Sheets on a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/configure-app-registry-gsheets.md).
 
-**Parent Topic:**[Exporting your table records to Google Sheets](../concept/setup-gsheet-export.md)
+**Parent Topic:**[Exporting your table records to Google Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/setup-gsheet-export.md)
 

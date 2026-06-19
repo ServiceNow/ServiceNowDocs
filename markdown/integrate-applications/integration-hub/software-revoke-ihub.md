@@ -2,6 +2,7 @@
 title: SCCM software revocation flow
 description: The Revoke SCCM Application flow moves a user or device from an install collection to an uninstall collection to revoke software installed from Microsoft System Center Configuration Manager \(SCCM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/software-revoke-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -15,11 +16,11 @@ breadcrumb: [SCCM software revocation, CSD from SCCM, Client Software Distributi
 
 The Revoke SCCM Application flow moves a user or device from an install collection to an uninstall collection to revoke software installed from Microsoft System Center Configuration Manager \(SCCM\).
 
-For the revocation subflow to run, the software package must have a status of [Client software distribution validation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_ClientSWDistValidProcess.md) and must be pre-configured for an appropriate uninstall collection. See [Revoke software deployed through the service catalog](../tasks/revoke-from-serv-cat.md) for configuration instructions. When an administrator initiates the revocation process, the system launches the Revoke SCCM Application subflow to move the user or device collection associated with installation to the appropriate SCCM uninstall collection. When the SCCM server performs a policy check, it finds the additions to the user or device uninstall collection and revokes the software package associated with that collection.
+For the revocation subflow to run, the software package must have a status of Client software distribution validation process and must be pre-configured for an appropriate uninstall collection. See [Revoke software deployed through the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/revoke-from-serv-cat.md) for configuration instructions. When an administrator initiates the revocation process, the system launches the Revoke SCCM Application subflow to move the user or device collection associated with installation to the appropriate SCCM uninstall collection. When the SCCM server performs a policy check, it finds the additions to the user or device uninstall collection and revokes the software package associated with that collection.
 
-The subflow employs two custom actions in the [Microsoft SCCM Spoke](../concept/microsoft-sccm-spoke.md), Remove from User Collection and Remove from Device Collection, to remove either the user or the device from its original collection. The subflow then adds the user or device to the appropriate uninstall collection on the SCCM server with the Add to User Collection or Add to Device Collection activity.
+The subflow employs two custom actions in the [Microsoft SCCM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-sccm-spoke.md), Remove from User Collection and Remove from Device Collection, to remove either the user or the device from its original collection. The subflow then adds the user or device to the appropriate uninstall collection on the SCCM server with the Add to User Collection or Add to Device Collection activity.
 
 **Note:** This subflow is triggered by the Revoke Client Software subflow.
 
-**Parent Topic:**[SCCM software revocation](../concept/sccm-revocation-ihub.md)
+**Parent Topic:**[SCCM software revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sccm-revocation-ihub.md)
 

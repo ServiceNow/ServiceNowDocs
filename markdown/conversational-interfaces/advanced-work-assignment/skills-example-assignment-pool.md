@@ -2,6 +2,7 @@
 title: Define assignment eligibility
 description: Define who is eligible to receive cases from the German Cases queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/skills-example-assignment-pool.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

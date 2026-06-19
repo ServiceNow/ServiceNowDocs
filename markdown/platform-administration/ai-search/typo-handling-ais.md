@@ -2,6 +2,7 @@
 title: Typo handling
 description: AI Search replaces misspelled search query terms with auto-correction terms derived from indexed content. Configure typo handling dictionary settings to control derivation of auto-correction terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/typo-handling-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -19,7 +20,7 @@ To define auto-correction terms for a search profile, modify settings in the pro
 
 AI Search automatically creates a typo handling dictionary for a search profile when you link search sources to that profile. You can't delete a typo handling dictionary, unlink it from its search profile, or link it to any other search profile.
 
-To disable typo handling auto-correction for a search application, deselect the **Enable Typo Handling** option in the search application configuration. For more details on search application configuration settings, see [Create a search application configuration for AI Search](../task/create-search-app-config-ais.md).
+To disable typo handling auto-correction for a search application, deselect the **Enable Typo Handling** option in the search application configuration. For more details on search application configuration settings, see [Create a search application configuration for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-search-app-config-ais.md).
 
 ## Conditions for auto-correction term eligibility
 
@@ -36,7 +37,7 @@ For example, a search for `emial`, which isn't present on any indexed record, mi
 
 A notification message displays the auto-corrected term. Users can select the link in this message to repeat their search with the original query term.
 
-![Sample auto-correction message showing replacement of search query term emial with email.](../image/auto-correction-message.png)
+\[Omitted image "auto-correction-message.png"\] Alt text: Sample auto-correction message showing replacement of search query term emial with email.
 
 ## Terms excluded from auto-correction
 
@@ -80,7 +81,7 @@ Search query term excluded from typo handling dictionary
 
 </td><td>
 
-Auto-correction ignores search query terms excluded from the typo handling dictionary. For instructions on excluding terms from a typo handling dictionary, see [Exclude a term from a typo handling dictionary](../task/exclude-typo-handling-terms-ais.md).
+Auto-correction ignores search query terms excluded from the typo handling dictionary. For instructions on excluding terms from a typo handling dictionary, see [Exclude a term from a typo handling dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/exclude-typo-handling-terms-ais.md).
 
 </td></tr></tbody>
 </table>## Automatic refresh of auto-correction term lists
@@ -93,7 +94,7 @@ By default, typo handling dictionaries refresh every 24 hours. If you want the t
 
 Typo handling is language-dependent. AI Search derives a separate list of auto-correction terms for each supported language found in the search sources' indexed content.
 
-AI Search supports derivation of auto-correction terms for Brazilian Portuguese, Dutch, English, Finnish, French - Canada, French, German, Italian, Norwegian \(Bokmål\), Polish, Portuguese, Spanish, and Swedish. Typo handling auto-correction term derivation isn't supported for Japanese, Korean, Simplified Chinese, or Traditional Chinese.
+AI Search supports derivation of auto-correction terms for Arabic, Brazilian Portuguese, Czech, Danish, Dutch, English, Finnish, French - Canada, French, German, Hebrew, Hungarian, Italian, Norwegian \(Bokmål\), Polish, Portuguese, Russian, Spanish, Swedish, and Turkish. Typo handling auto-correction term derivation isn't supported for Japanese, Korean, Simplified Chinese, or Traditional Chinese.
 
 ## Interaction with other search features
 
@@ -109,7 +110,7 @@ Interaction with typo handling
 
 </th></tr></thead><tbody><tr><td>
 
-[Genius Results](genius-results-ais.md)
+[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md)
 
 </td><td>
 
@@ -117,7 +118,7 @@ Auto-corrected search query terms can't trigger Genius Result configurations wit
 
 </td></tr><tr><td>
 
-[Lemma and Unicode normalization](lemma-unicode-normalization-ais.md)
+[Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/lemma-unicode-normalization-ais.md)
 
 </td><td>
 
@@ -125,7 +126,7 @@ AI Search performs lemma and Unicode normalization on auto-corrected search quer
 
 </td></tr><tr><td>
 
-[Result improvement rules](result-improvement-rules-ais.md)
+[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
 
 </td><td>
 
@@ -133,7 +134,7 @@ An auto-corrected search query term can trigger a result improvement rule if it 
 
 </td></tr><tr><td>
 
-[Stop words](stop-words-ais.md)
+[Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/stop-words-ais.md)
 
 </td><td>
 
@@ -143,17 +144,17 @@ If a misspelled search query term is defined as a stop word, AI Search auto-corr
 
 </td></tr><tr><td>
 
-[Synonyms](synonyms-ais.md)
+[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)
 
 </td><td>
 
 If a misspelled search query term is defined as a synonym, AI Search expands that synonym without auto-correcting it.
 
 </td></tr></tbody>
-</table>-   **[Modify settings for a typo handling dictionary](../task/config-typo-handling-dict-ais.md)**  
+</table>-   **[Modify settings for a typo handling dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/config-typo-handling-dict-ais.md)**  
 Modify typo handling dictionary settings for a search profile.
--   **[Exclude a term from a typo handling dictionary](../task/exclude-typo-handling-terms-ais.md)**  
+-   **[Exclude a term from a typo handling dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/exclude-typo-handling-terms-ais.md)**  
 Prevent AI Search from auto-correcting a term in user search queries by excluding the term from a typo handling dictionary.
 
-**Parent Topic:**[Search profiles in AI Search](defining-search-profiles-ais.md)
+**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md)
 

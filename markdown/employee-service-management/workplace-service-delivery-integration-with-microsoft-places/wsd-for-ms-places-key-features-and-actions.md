@@ -2,13 +2,14 @@
 title: WSD for Microsoft places- Key features and actions
 description: The WSD for Microsoft places application lets you create workplace service requests and manage all your open workplace service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/wsd-for-ms-places-key-features-and-actions.html
 release: australia
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [WSD for Microsoft places -references, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---
 
 # WSD for Microsoft places- Key features and actions
@@ -17,11 +18,13 @@ The WSD for Microsoft places application lets you create workplace service reque
 
 ## WSD for Microsoft places- Key features
 
+**Note:** Requests submitted from WSD for Microsoft places can't be edited from the WSD for Microsoft places portal.
+
 The WSD for Microsoft places is designed for a workplace user to create and manage workplace services requests. As an agent, you can create, and view service requests, and monitor its progress.
 
 When you log in to the WSD for Microsoft places application as an agent, the application displays all the Workplace services requests under Workplace service topics. You can get details such as the number of open requests. You can also add service requests as favorites to view under **My Favorites**.
 
-![WSD for MS Places home](../images/wsd-ms-places-home.png)![WSD for MS Places home2](../images/wsd-ms-places-home2.png)
+\[Omitted image "wsd-ms-places-home.png"\] Alt text: WSD for MS Places home\[Omitted image "wsd-ms-places-home2.png"\] Alt text: WSD for MS Places home2
 
 The launch screen of the WSD for Microsoft places application displays **Workplace services topics**, **Support resources**,**Open requests**, and **My Favorites**.
 
@@ -37,7 +40,7 @@ The **Workplace service topics** is the default page that is displayed when you 
 
 ## WSD for Microsoft places- Support resources
 
-The **Workplace service topics** is the default page that is displayed when you launch the application. **Workplace service topics** is the main page of the application and it categorizes all types of workplace service requests under **Support resource**![Submit a request page](../images/wsd-ms-places-subrequest.png)
+The **Workplace service topics** is the default page that is displayed when you launch the application. **Workplace service topics** is the main page of the application and it categorizes all types of workplace service requests under **Support resource**\[Omitted image "wsd-ms-places-subrequest.png"\] Alt text: Submit a request page
 
 -   **Catering**: The launch screen displays the **Catering** request by default. You can Submit a catering request for your meetings and events.
 -   **Heating &amp; Cooling**: The launch screen displays the **Heating &amp; Cooling** request by default. You can submit a request to report temperature issues \(too hot or too cold\).
@@ -49,7 +52,7 @@ The **Workplace service topics** is the default page that is displayed when you 
 
 ## WSD for Microsoft places- Open requests and My favorites
 
-**Open requests** is the default widget that is displayed when you launch the application. You can view all the open requests.![My request](../images/wsd-ms-places-myrequest.png)
+**Open requests** is the default widget that is displayed when you launch the application. You can view all the open requests.\[Omitted image "wsd-ms-places-myrequest.png"\] Alt text: My request
 
 **My Favorites** is the default widget that is displayed when you launch the application. You can add any service requests to the favorites and then those requests appear under the **My Favorites** tab.
 

@@ -2,6 +2,7 @@
 title: Portal Browse Taxonomy widget
 description: The Portal Browse Taxonomy widget displays hierarchical taxonomy topics that enable your users to navigate to knowledge articles and catalog items through the widget's navigation pane.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/browse-taxo-widget.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -15,7 +16,7 @@ breadcrumb: [Configurable Portal widgets, Set up self-service, Configure, Custom
 
 The Portal Browse Taxonomy widget displays hierarchical taxonomy topics that enable your users to navigate to knowledge articles and catalog items through the widget's navigation pane.
 
-![Portal Browse Taxonomy widget displaying knowledge articles and catalog items related to network issues.](../image/browse-taxonomy-widget.jpg "Portal Browse Taxonomy widget")
+\[Omitted image "browse-taxonomy-widget.jpg"\] Alt text: Portal Browse Taxonomy widget displaying knowledge articles and catalog items related to network issues.
 
-For more information about how to configure the Portal Browse Taxonomy widget using the instance options, see [Add and configure the Portal Browse Taxonomy widget](../task/config-portal-browse-taxo-widget.md).
+For more information about how to configure the Portal Browse Taxonomy widget using the instance options, see [Add and configure the Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-browse-taxo-widget.md).
 

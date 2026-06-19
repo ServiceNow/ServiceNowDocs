@@ -2,6 +2,7 @@
 title: Configure Virtual Agent topics for HR Service Delivery Advanced Integration with Workday
 description: Complete the configuration steps to enable your employees place requests to the Workday system using the Now Assist for HRSD Virtual Agent topics in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-awd-va.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,15 +24,15 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 1.  Install the HR Service Delivery Advanced Integration with Workday, Now Assist for HRSD, and Enterprise Service Management Integrations Framework \(v3.6\) applications from ServiceNow Store.
 
-2.  Configure the [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/workday-hr-spoke.md) to pull data from Workday system.
+2.  Configure the Workday HR Spoke to pull data from Workday system.
 
 3.  Create subflows aligning with Template Integration Gateway.
 
-    See [Create a subflow using Template Integration Gateway](configure-integration-gateway.md).
+    See [Create a subflow using Template Integration Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-integration-gateway.md).
 
     **Note:** You can use the default subflows that have been created for Workday for the Request Time off and Get Time Off Balance Virtual Agent topics.
 
-4.  [Configure Integration Provider Mapping \(Decision table\)](configure-integration-mapping.md) by adding input choices and configuring conditions on input choices and results.
+4.  [Configure Integration Provider Mapping \(Decision table\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-integration-mapping.md) by adding input choices and configuring conditions on input choices and results.
 
 5.  Create a Virtual Agent topic block:
 

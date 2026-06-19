@@ -2,11 +2,12 @@
 title: Using AI agents in Virtual Agent topics
 description: Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/ai-agent-custom-skill.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Virtual, Agent, designer, AI, agent, connector, utility]
 breadcrumb: [Managing AI agents, Getting started with Virtual Agent Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
@@ -16,13 +17,13 @@ breadcrumb: [Managing AI agents, Getting started with Virtual Agent Designer, Bu
 
 Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
 
-There may be AI agents installed with the Now Assist application that are not used in use cases. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There may be AI agents installed with the Now Assist application that are not used in use cases. To learn how to see all agents that are available to you, see Find AI agents.
 
-An AI agent performs a task that you pass to it inside the AI Connector utility in Virtual Agent Designer. For more information on the AI Connector utility, see [AI Connector utility](../../virtual-agent/reference/vad-ai-connector-utility.md).
+An AI agent performs a task that you pass to it inside the AI Connector utility in Virtual Agent Designer. For more information on the AI Connector utility, see [AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-ai-connector-utility.md).
 
 For example, you can use the AI Agent in the AI Connector utility to get all data on a Knowledge Base article. The AI Agent provides the article if it is available or notifies you if it can't find it. The agent also provides data on the consolidation itself by way of its output mappings.
 
-To see which AI agents are installed on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+To see which AI agents are installed on your instance, see .
 
 To use the AI agent, select it from the **Skill type** drop-down list in the AI Connector utility, then select the AI agent's type from the **Select AI agent** drop-down. For example, to have the AI agent consolidate a knowledge base article, select **KB content consolidation AI agent**.
 
@@ -30,7 +31,7 @@ Define the task for the AI agent by placing a value in the **Task** input mappin
 
 The AI agent's output mapping properties are automatically defined when you select the AI agent type. All output mappings are returned in the chat when the AI agent completes the task.
 
-![Select the AI agent and its task type inside the AI Connector utility.](../../virtual-agent/images/ai-agent-in-connector-utility.png)
+\[Omitted image "ai-agent-in-connector-utility.png"\] Alt text: Select the AI agent and its task type inside the AI Connector utility.
 
 |Variable|Description|
 |--------|-----------|
@@ -44,7 +45,7 @@ The AI agent's output mapping properties are automatically defined when you sele
 
 When the AI agent performs its job, it generates the full plan showing the input and output mappings. Each plan shows the objective, all tasks performed for the objective, and any messages sent or tools used in the plan. All plans are listed in the Execution Plan \[sn\_aia\_execution\_plan\_list\] table.
 
-![Execution plan for consolidating KB00090.](../../virtual-agent/images/ai-agent-execution-plan.png)
+\[Omitted image "ai-agent-execution-plan.png"\] Alt text: Execution plan for consolidating KB00090.
 
-**Parent Topic:**[Managing AI agents in Assistant Designer](../../virtual-agent/concept/managing-use-cases-ai-agents.md)
+**Parent Topic:**[Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md)
 

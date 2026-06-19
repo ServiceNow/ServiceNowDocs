@@ -2,6 +2,7 @@
 title: Managing safety meetings
 description: Safety meeting management provides the safety team and safety meeting manager with a structured way to manage safety meetings, including tasks such as scheduling, tracking actions, and recording notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/managing-hs-safety-meetings.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -22,12 +23,12 @@ Safety meeting management provides the safety team and safety meeting manager wi
 -   Log meeting minutes and actions.
 -   Flag meetings and minutes as sensitive.
 
--   **[Log a safety meeting](../task/log-hs-safety-meeting.md)**  
+-   **[Log a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/log-hs-safety-meeting.md)**  
 Log a safety meeting and keep a track of it in the Health and Safety application.
--   **[Add attendees to a safety meeting](../task/add-attendees-safety-meeting.md)**  
+-   **[Add attendees to a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/add-attendees-safety-meeting.md)**  
 Add users to a safety meeting who need to attend this meeting.
--   **[Create a meeting minute for a safety meeting](../task/create-meeting-minute-hs-safety-meeting.md)**  
+-   **[Create a meeting minute for a safety meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/create-meeting-minute-hs-safety-meeting.md)**  
 Create a meeting minute for a safety meeting to track discussions and accountability.
 
-**Parent Topic:**[Using Health and Safety Core](../../hs-core/concept/using-hs-core.md)
+**Parent Topic:**[Using Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/using-hs-core.md)
 

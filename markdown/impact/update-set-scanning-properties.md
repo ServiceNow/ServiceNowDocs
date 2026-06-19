@@ -2,11 +2,14 @@
 title: Configure update set scanning properties
 description: The Scan Engine provides several options to further configure update set scanning and enhance the governance over update set management. Update set scanning occurs during scheduled instance scans. The settings on this tab define which update sets will be scanned, and the parameters those update sets have to meet in order to be marked complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/update-set-scanning-properties.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine properties, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
 # Configure update set scanning properties
@@ -15,12 +18,18 @@ The Scan Engine provides several options to further configure update set scannin
 
 ## Before you begin
 
-Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
-
 Update sets are scanned in two scenarios:
 
 -   During scheduled instance scans, based on the scanning condition
 -   When a user attempts to mark an update set as Complete \(if enforcement is enabled\)
+
+**Important:** Filter conditions should be set for completing an update set with respect to parent and child update sets where if the update set being committed is a child update set.
+
+Otherwise, an error, `Update set "xxx" does not meet the completion criteria defined by the Scan Engine. Please resolve the identified finding(s) before proceeding.` may be returned as there are additional checks performed between a parent vs a child update set.
+
+.
+
+Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
 
 ## Procedure
 
@@ -30,7 +39,9 @@ Update sets are scanned in two scenarios:
 
     **Note:** Data synchronization is exclusively for explicitly defined instances within the multi-instance communication API integration.
 
-2.  **Table for update set scanning condition** specifies which table the scan condition builder references. By default, this is `sys_update_set`, and is typically not changed.
+2.  **Table for update set scanning condition** specifies which table the scan condition builder references.
+
+    By default, this is `sys_update_set`, and is typically not changed.
 
 3.  Configure the **Update set scanning condition** properties using the condition builder.
 
@@ -54,4 +65,6 @@ Update sets are scanned in two scenarios:
 
     When enabled, all active definitions run during update set scans regardless of instance-specific settings. This is useful for validating update sets before promoting them to production.
 
+
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
 

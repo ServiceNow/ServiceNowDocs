@@ -2,6 +2,7 @@
 title: ServiceNow AI Platform translation and localization
 description: Provide service around the globe with language translation and localization for specified regions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/translation-and-localization.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -17,19 +18,19 @@ Provide service around the globe with language translation and localization for 
 
 <table id="table_e44_4ym_y2c" class="nav-card"><tbody><tr><td>
 
-[Dynamic Translation ![](../../../reuse/icons/brand-icons/bus-microphone.svg) Translate user-generated content live on your instance to streamline communication for your agents and end users.](../../dynamic-translation/concept/dynamic-translation-overview.md)
+[Dynamic Translation \[Omitted image "bus-microphone.svg"\] Alt text: Translate user-generated content live on your instance to streamline communication for your agents and end users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dynamic-translation-overview.md)
 
 </td><td>
 
-[Localization Framework ![](../../../reuse/icons/brand-icons/bus-global.svg) Standardize the process of translating artifacts such as Service Catalog items, Knowledge Base articles, and Document Templates across the platform.](../../localization-framework/concept/localization-framework-landing.md)
+[Localization Framework \[Omitted image "bus-global.svg"\] Alt text: Standardize the process of translating artifacts such as Service Catalog items, Knowledge Base articles, and Document Templates across the platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md)
 
 </td></tr><tr><td>
 
-[Localization Workspace ![](../../../reuse/icons/brand-icons/bus-global.svg) Localization Workspace is a targeted translation management experience for content owners and translation requesters. With Localization Workspace you can manage and deliver multilingual content at scale.](../../localization-workspace/concept/localization-workspace.md)
+[Localization Workspace \[Omitted image "bus-global.svg"\] Alt text: Localization Workspace is a targeted translation management experience for content owners and translation requesters. With Localization Workspace you can manage and deliver multilingual content at scale.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/localization-workspace.md)
 
 </td><td>
 
-[System Localization ![](../../../reuse/icons/brand-icons/bus-isolate.svg) Set up location-based translation and currency support for users on your instance, wherever they are in the world.](../../localization/concept/system-localization-landing.md)
+[System Localization \[Omitted image "bus-isolate.svg"\] Alt text: Set up location-based translation and currency support for users on your instance, wherever they are in the world.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/system-localization-landing.md)
 
 </td></tr></tbody>
 </table>For additional resources about globalization tools on the ServiceNow AI Platform, see the [Localization](https://www.servicenow.com/success/playbook/globalization-localization.html?state=seamless) page in the ServiceNow Customer Success Center.

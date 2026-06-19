@@ -2,6 +2,7 @@
 title: Hide supplier pricing from ShoppingHub
 description: When creating model categories for grouping your product models, you can decide if pricing is to be displayed in ShoppingHub for supplier products associated to a particular category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/hide-supplier-pricing-from-shoppinghub.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -60,5 +61,5 @@ Also, if you’re a shopper with store credits allocated to you, you can view th
 
 **Note:** This hide pricing feature doesn’t impact the checkout flows, sourcing flows, or any other flows that are run in the back-end.
 
-**Parent Topic:**[Using Shopping Hub](use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

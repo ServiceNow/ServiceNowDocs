@@ -2,6 +2,7 @@
 title: Enable WhatsApp channel notifications
 description: Turn on notifications for the WhatsApp channel to send system-generated messages and automated communications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/enable-direct-whatsapp-channel-notifications.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,5 +31,5 @@ Role required: admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](../concept/messg-direct-whatsapp-using.md)
+**Parent Topic:**[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp-using.md)
 

@@ -2,6 +2,7 @@
 title: Configure an approval
 description: Configure a service activity that is an approval. Approvals require one or more users to approve the case before it can proceed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-approval-to-fulfill-hr-service.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -89,7 +90,7 @@ On rejection
 
 Select one of the following actions for when an approval is rejected:-   Allow resubmit of approvals
 
-**Note:** When an approval is rejected, the **Assigned to** user for the case can submit another request for approval with work notes or comments. See [Resubmit an HR case for approval](t_ApproveAnHRCase.md).
+**Note:** When an approval is rejected, the **Assigned to** user for the case can submit another request for approval with work notes or comments. See [Resubmit an HR case for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/t_ApproveAnHRCase.md).
 
 -   Close incomplete
  **Note:** To reject an approval, users should have the HR case writer \[sn\_hr\_core.case\_writer\] role.
@@ -144,5 +145,5 @@ Groups to approve the task.
 4.  Click **Update** on the HR Service form.
 
 
-**Parent Topic:**[Configure a service activity for an HR service](configure-service-activity-for-hr-service.md)
+**Parent Topic:**[Configure a service activity for an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-service-activity-for-hr-service.md)
 

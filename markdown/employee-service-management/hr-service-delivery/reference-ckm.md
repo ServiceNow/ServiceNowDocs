@@ -2,6 +2,7 @@
 title: Case and Knowledge Management reference
 description: Reference topics provide additional information abou the lists and forms that you use to configure and use Case and Knowledge Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/reference-ckm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

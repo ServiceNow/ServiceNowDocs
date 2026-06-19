@@ -2,6 +2,7 @@
 title: Time zones in SLAs
 description: You can specify the geographical time zone that is used for schedule calculation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_TimeZonesInSLAs.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -32,5 +33,5 @@ You can select one of the following options:
 
 **Note:** If you select a time zone source other than the **The SLA definition's timezone** and the time zone derived from the time zone source is empty, the system time zone is used.
 
-**Parent Topic:**[Service Level Management reference](service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
 

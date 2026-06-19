@@ -2,6 +2,7 @@
 title: Configure Automations in Smart Assessment template
 description: Set up automations to trigger predefined actions whenever assessment templates are published. You can define action set types that determine how and when automated actions execute within the assessment workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/configure-automations-in-assessment-template.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -65,7 +66,7 @@ You can configure conditional action sets using if-then logic based on assessmen
     -   Under the then section, select **Set action** and configure the action to execute.
     -   In the Set actions dialog, select Action type and the Workplace case details.
     -   Select **+ Set another action** to add multiple actions that execute sequentially.
-9.  Select **Activate** to enable the automation.![](../../workplace-service-delivery/images/automations.png)
+9.  Select **Activate** to enable the automation.\[Omitted image "automations.png"\] Alt text:
 
 
 ## Result
@@ -74,8 +75,8 @@ The automation is now active and will execute configured actions when the assess
 
 **Note:**
 
--   To edit automation, select the automation, and select ![](../../workplace-service-delivery/images/wsd_edit_threedots.png) and select**Edit details**.
--   To delete automation, select the automation, and select ![](../../workplace-service-delivery/images/wsd_edit_threedots.png) and select **Delete automation**.
+-   To edit automation, select the automation, and select \[Omitted image "wsd\_edit\_threedots.png"\] Alt text: and select**Edit details**.
+-   To delete automation, select the automation, and select \[Omitted image "wsd\_edit\_threedots.png"\] Alt text: and select **Delete automation**.
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

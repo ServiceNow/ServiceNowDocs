@@ -2,6 +2,7 @@
 title: Usage Insights related properties
 description: Use system properties to configure Usage Insights in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/all-analytics-properties.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -59,5 +60,5 @@ Use the following system properties in the Service Portal only.
 
 **Note:** If you make certain key changes to portals, such as changing the sys\_id, data is not carried over and you see a different dashboard.
 
-**Parent Topic:**[Usage Insights reference](../content-framework/landing-page/user-experience-analytics-reference.md)
+**Parent Topic:**[Usage Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-experience-analytics-reference.md)
 

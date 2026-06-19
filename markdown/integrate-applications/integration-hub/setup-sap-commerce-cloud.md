@@ -2,6 +2,7 @@
 title: Set up the SAP Commerce Cloud spoke
 description: Integrate your ServiceNow instance with the SAP Commerce Cloud to automate various actions on the SAP Commerce Cloud. For example, you can set up a flow that looks up a shopping cart at a specified time every day.Generate the credentials that you use to create the connection record for the SAP Commerce Cloud spoke. Your ServiceNow instance uses the connection record connect with the SAP Commerce Cloud.Create a connection record that enables your ServiceNow instance to connect with the SAP Commerce Cloud record. The connection record has the underlying connection information required to integrate with SAP Commerce Cloud.Integrate the ServiceNow instance and SAP Commerce Cloud spoke by creating a custom OAuth application in SAP Commerce Cloud to authenticate ServiceNow requests.Create a connection record for your SAP Commerce Cloud account. The SAP Commerce Cloud connection and credential aliases use these connections to perform actions in SAP Commerce Cloud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sap-commerce-cloud.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -36,13 +37,13 @@ Access to the SAP Backoffice account.
 
 1.  Log in to the SAP Backoffice account.
 
-2.  On the left panel, go to **System** &gt; **OAuth** &gt; **OAuth Clients**.![OAuth Client navigation.](../image/sap-cloud-commerce-spoke-oauth-client-nav.png)
+2.  On the left panel, go to **System** &gt; **OAuth** &gt; **OAuth Clients**.\[Omitted image "sap-cloud-commerce-spoke-oauth-client-nav.png"\] Alt text: OAuth Client navigation.
 
-3.  To create a client ID, select the Add Client ID icon \(![Add Client ID icon.](../image/add-icon.png)\).
+3.  To create a client ID, select the Add Client ID icon \(\[Omitted image "add-icon.png"\] Alt text: Add Client ID icon.\).
 
 4.  In the OAuth client ID, enter a custom client ID.
 
-5.  In the Client Secret field, enter a custom password and then verify the password.![Client ID and secret fields.](../image/sap-commerce-cloud-spoke-create-client-ID.png)
+5.  In the Client Secret field, enter a custom password and then verify the password.\[Omitted image "sap-commerce-cloud-spoke-create-client-ID.png"\] Alt text: Client ID and secret fields.
 
 6.  Under BASIC, add the details.
 
@@ -56,7 +57,7 @@ Access to the SAP Backoffice account.
         -   authorization\_code
     3.  Under Scopes, add basic.
 
-7.  On the Create New OAuth Client Details window, do the steps.![OAuth Client Details window.](../image/sap-commerce-cloud-spoke-oauth-screen.png)
+7.  On the Create New OAuth Client Details window, do the steps.\[Omitted image "sap-commerce-cloud-spoke-oauth-screen.png"\] Alt text: OAuth Client Details window.
 
     1.  Under ESSENTIAL, enter the custom OAuth client ID and client secret.
 
@@ -70,7 +71,7 @@ Access to the SAP Backoffice account.
 
     4.  Under TOKEN VALIDITY, enter the time for which the token to access the SAP Commerce Cloud is valid.
 
-    5.  Select **DONE**.![Create New OAuth Client Details window.](../image/sap-commerce-cloud-spoke-auth-done.png)
+    5.  Select **DONE**.\[Omitted image "sap-commerce-cloud-spoke-auth-done.png"\] Alt text: Create New OAuth Client Details window.
 
     The credentials to create a SAP Commerce Cloud connection record are created.
 

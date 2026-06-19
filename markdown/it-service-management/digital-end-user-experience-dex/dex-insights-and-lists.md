@@ -2,6 +2,7 @@
 title: DEX insights and lists
 description: DEX enables visibility and insight into the state and performance of the user applications and devices. You can view system compliance, manage files, and perform other operations as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-insights-and-lists.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

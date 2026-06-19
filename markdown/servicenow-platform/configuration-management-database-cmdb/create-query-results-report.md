@@ -2,6 +2,7 @@
 title: Create a report in CMDB Query Builder
 description: Use CMDB Query Builder reports to show the results of a CMDB query or a Service Mapping query. Create a basic report or a dynamic report that auto-updates when the results of the associated saved query change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-query-results-report.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

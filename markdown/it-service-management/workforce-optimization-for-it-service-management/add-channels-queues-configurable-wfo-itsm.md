@@ -2,6 +2,7 @@
 title: Add service channels and queues
 description: Add service channels and queues to automatically route incoming work items to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/add-channels-queues-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -28,16 +29,16 @@ A service channel is a means of assigning a specific type of work items to agent
 1.  To create a service channel, do the following:
 
     1.  Navigate to **Workforce Optimization for ITSM** &gt; **Channel Management** &gt; **Service Channels**.
-    2.  Click **New** and refer to the information in the [Create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md) to create the service channel.
+    2.  Click **New** and refer to the information in the Create a service channel to create the service channel.
     3.  Click **Submit**.
     The service channel is created.
 
 2.  To create a queue, do the following:
 
     1.  Navigate to **Workforce Optimization for ITSM** &gt; **Channel Management** &gt; **Queues** or select the service channel and click the **Queues** tab.
-    2.  Click **New** and refer to the information in [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md) to create the queue.
+    2.  Click **New** and refer to the information in Create a work item queue to create the queue.
     The queue is created in the service channel.
 
 
-**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](../concept/setup-channels-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)
 

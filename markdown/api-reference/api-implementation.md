@@ -2,6 +2,7 @@
 title: API implementation
 description: You can use JavaScript APIs to extend application server and client functionality. Use web services to connect ServiceNow applications to other software applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/api-implementation.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,11 +16,11 @@ You can use JavaScript APIs to extend application server and client functionalit
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Scripts![](../../../reuse/icons/brand-icons/bus-start-developing.svg) Extend application server and client functionality.](../../../script/topic/c_Script.md)
+[Scripts\[Omitted image "bus-start-developing.svg"\] Alt text: Extend application server and client functionality.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_Script.md)
 
 </td><td>
 
-[Web services ![](../../../reuse/icons/brand-icons/bus-rocketship.svg) Communicate between ServiceNow and third-party applications.](../../../integrate/web-services/reference/r_AvailableWebServices.md)
+[Web services \[Omitted image "bus-rocketship.svg"\] Alt text: Communicate between ServiceNow and third-party applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_AvailableWebServices.md)
 
 </td></tr></tbody>
 </table>## Scripts

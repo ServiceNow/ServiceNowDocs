@@ -2,6 +2,7 @@
 title: Tests
 description: Use tests to determine if a feature or an application is working correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/c\_Tests.html
 release: australia
 product: Test Management
 classification: test-management
@@ -19,10 +20,10 @@ A test is made up of conditions, variables, or steps that are used to determine 
 
 Related tests are grouped together in a test case. From the Tests related list on a Test Case form, you can view a list of all tests associated with the test case. Navigate to **Test Management** &gt; **Test Repository** &gt; **Test Cases** and select a test case to view the list of its tests.
 
--   **[Create a test](../task/t_CreateATest.md)**  
+-   **[Create a test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATest.md)**  
 Create a test to see if your features are working correctly.
--   **[Create a copy of an existing test](../task/t_CopyATest.md)**  
+-   **[Create a copy of an existing test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CopyATest.md)**  
 Create a test with the details of an existing test.
 
-**Parent Topic:**[Setting up the manual testing process](c_TestManager.md)
+**Parent Topic:**[Setting up the manual testing process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_TestManager.md)
 

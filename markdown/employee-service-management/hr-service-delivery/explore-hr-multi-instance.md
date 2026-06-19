@@ -2,6 +2,7 @@
 title: Explore HR Multi Instance Integration
 description: Learn about the benefits and key offerings of the HR Multi Instance Integration application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/explore-hr-multi-instance.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,8 +33,8 @@ Partners and service providers for HR service fulfillment often are running thei
 
 **Note:** HR Multi Instance Integration is dependent on the following plugins:
 
--   [Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
--   [Human Resources Scoped App: Core](../reference/case-knowledge-management-landing-page.md)
+-   Service Bridge
+-   [Human Resources Scoped App: Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
 
 ## HR Multi Instance Integration users
 
@@ -54,7 +55,7 @@ Provider administrator
 -   Can register customers in a provider instance.
 -   Can create and publish remote catalogs in a provider instance.
 -   Can view records in transport queue in a provider instance.
--   Can [Enable magic links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-magic-links.md) to let consumer users complete assigned tasks from provider instance.
+-   Can  to let consumer users complete assigned tasks from provider instance.
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ Consumer employee
 
 The following graphic explains how an HR service request is partially fulfilled by providers and partially fulfilled by consumers.
 
-![Infographic explaining how an HR service request is partially fulfilled by providers and partially by consumers.](../image/hr-mii-flow.png "Flow")
+\[Omitted image "hr-mii-flow.png"\] Alt text: Infographic explaining how an HR service request is partially fulfilled by providers and partially by consumers.
 
 ## HR Multi Instance Integration benefits
 
@@ -159,7 +160,7 @@ Consumer employee
 
 To learn more about configuring and using HR Multi Instance Integration, see:
 
--   [Configuring HR Multi Instance Integration](config-hr-mii-bs.md)
--   [Using HR Multi Instance Integration](using-hr-mii.md)
--   [Reference for HR Multi Instance Integration](../reference/reference-hr-multi-instance.md#)
+-   [Configuring HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-hr-mii-bs.md)
+-   [Using HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/using-hr-mii.md)
+-   [Reference for HR Multi Instance Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/reference-hr-multi-instance.md)
 

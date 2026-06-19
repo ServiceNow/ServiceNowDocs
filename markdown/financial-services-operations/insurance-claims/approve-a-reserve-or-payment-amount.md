@@ -2,13 +2,14 @@
 title: Approve a reserve or payment amount for an Insurance claims case
 description: Approve an assigned claim reserve or a payment amount that is higher than an adjuster's approval authority for Insurance claims cases. A reserve or payment may be rejected if the requested amount doesn't support the findings from the claim investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/approve-a-reserve-or-payment-amount.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Approve a reserve or payment amount for an Insurance claims case
@@ -31,15 +32,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the task in one of the following ways.
 
-<table id="choicetable_crj_rkc_vcc"><thead><tr><th align="left" id="d84571e103">
+<table id="choicetable_crj_rkc_vcc"><thead><tr><th align="left" id="d66867e103">
 
 Option
 
-</th><th align="left" id="d84571e106">
+</th><th align="left" id="d66867e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d84571e112">
+</th></tr></thead><tbody><tr><td id="d66867e112">
 
 **From the landing page**
 
@@ -47,13 +48,13 @@ Description
 
 Select the task from the My pending tasks list.
 
-</td></tr><tr><td id="d84571e121">
+</td></tr><tr><td id="d66867e121">
 
 **From the Insurance claims approvals list**
 
 </td><td>
 
-1.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  On the **Lists** tab, under **Insurance claim flow approvals** \(or the list category that is specific to your custom workflow\), select one of the following options:
     -   **My approvals - Reserves**
     -   **My approvals - Payments**
@@ -63,15 +64,15 @@ Select the task from the My pending tasks list.
 </td></tr></tbody>
 </table>3.  Close the task from the Claim reserve or Claim payment task form.
 
-<table id="choicetable_tyn_clc_vcc"><thead><tr><th align="left" id="d84571e173">
+<table id="choicetable_tyn_clc_vcc"><thead><tr><th align="left" id="d66867e173">
 
 Approval task
 
-</th><th align="left" id="d84571e176">
+</th><th align="left" id="d66867e176">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d84571e182">
+</th></tr></thead><tbody><tr><td id="d66867e182">
 
 **Submit an approval**
 
@@ -79,7 +80,7 @@ Action
 
 Approve the reserve or payment amount by selecting **Approve**.
 
-</td></tr><tr><td id="d84571e194">
+</td></tr><tr><td id="d66867e194">
 
 **Submit a rejection**
 

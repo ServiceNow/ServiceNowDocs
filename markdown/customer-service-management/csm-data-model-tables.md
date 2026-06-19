@@ -2,7 +2,10 @@
 title: Service Model Foundation tables and plugins
 description: Tables that are included with or modified by the plugins that enable the Service Model Foundation feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-tables.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3

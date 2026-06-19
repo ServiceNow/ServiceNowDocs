@@ -2,6 +2,7 @@
 title: Suppress versions
 description: Administrators can configure a table so that it does not track customizations in the Versions \[sys\_update\_version\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_SuppressVersions.html
 release: australia
 product: Team Development
 classification: team-development
@@ -33,5 +34,5 @@ Role required: none.
     -   Type: string
     -   Value: a comma-separated list of tables. The default value is sys\_user,sys\_import\_set\_row.
 
-**Parent Topic:**[Versions](../concept/c_Versions.md)
+**Parent Topic:**[Versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/c_Versions.md)
 

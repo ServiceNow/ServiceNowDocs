@@ -2,6 +2,7 @@
 title: ValidateUpdateSetParentDependencies
 description: The ValidateUpdateSetParentDependencies validator identifies all the workflows that call the current workflow as a subflow and determines if any of those parent workflows are being edited in a different update set that is in progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_VldtUpdtStPtDpnd.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -30,7 +31,7 @@ This warning informs the user that this workflow and one or more workflows that 
     -   Prior to deploying the main flow update set, merge the dependencies into one update set before setting that update set to complete.
 -   Publishable: Yes
 -   Runnable: Yes
--   Related Information: [Workflow movement with update sets](../../workflow-administration/concept/c_WorkflowMovementWithUpdateSets.md#)
+-   Related Information: [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowMovementWithUpdateSets.md)
 
 ## Troubleshooting
 
@@ -77,7 +78,7 @@ Migrate the parent workflow and all dependent workflows to a new instance togeth
     **Note:** This action forces an entry into the current update set.
 
 3.  Complete the update set with all dependencies.
-4.  Follow standard procedures for migrating update sets to local instances. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md).
+4.  Follow standard procedures for migrating update sets to local instances. For information about update sets, see System update sets.
 
 Solution 2
 
@@ -91,5 +92,5 @@ Move dependent workflows between update sets.
 6.  Click **Update**. The base system moves the dependent subflow to the update set selected.
 7.  Repeat steps 4-6 to add additional dependent subflows to the parent flow update set.
 
-**Parent Topic:**[Workflow validator](r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowValidator.md)
 

@@ -2,6 +2,7 @@
 title: Achievement rule form
 description: Create achievement rules to define the criteria to be met to complete an achievement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/achievement-rule-form.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -80,5 +81,5 @@ Description
 Description of the achievement rule.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Learning reference](learning-experience-reference.md)
+</table>**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-experience-reference.md)
 

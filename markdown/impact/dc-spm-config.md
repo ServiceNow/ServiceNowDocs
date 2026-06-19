@@ -2,11 +2,14 @@
 title: Configure Data Collection for SPM
 description: Configure Data Collection for SPM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-spm-config.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for SPM, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for SPM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Configure Data Collection for SPM
@@ -29,6 +32,6 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 2.  Enter the data point in the relevant month cell.
 
-    ![Example with Jul 2024 cell selected with an Indicator score value of 5,000.](../image/dct_config_spm.png)
+    \[Omitted image "dct\_config\_spm.png"\] Alt text: Example with Jul 2024 cell selected with an Indicator score value of 5,000.
 
 

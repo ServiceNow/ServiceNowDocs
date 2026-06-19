@@ -2,6 +2,7 @@
 title: Security incident map
 description: The security incident map provides data by geographical location. The world map is highlighted in every area in which an incident occurs. When the Security Incident Analytics plugin is activated, you can add the security incident map to the Security Incident Response overview. After it has been added, you can configure the map by modifying the map filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/c\_SecurityIncidentGeoHeatmap.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -15,10 +16,10 @@ breadcrumb: [Security Incident Response Overview dashboard, Visual representatio
 
 The security incident map provides data by geographical location. The world map is highlighted in every area in which an incident occurs. When the Security Incident Analytics plugin is activated, you can add the security incident map to the Security Incident Response overview. After it has been added, you can configure the map by modifying the map filters.
 
--   **[Add map to Security Incident Response overview](../task/t_AddGeoHeatmapToSIROverview.md)**  
+-   **[Add map to Security Incident Response overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_AddGeoHeatmapToSIROverview.md)**  
 You can add the map to the Security Incident Response overview to view security incident data by geographical location. A map allows you to drill down to security incident information by location.
--   **[Modify security incident map](../task/t_ModifySecIncGeoHeatmap.md)**  
+-   **[Modify security incident map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_ModifySecIncGeoHeatmap.md)**  
 Administrators in the global domain, can modify how the security incident map handles security incidents using filters.
 
-**Parent Topic:**[Security Incident Response Overview dashboard](c_SIROverview.md)
+**Parent Topic:**[Security Incident Response Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_SIROverview.md)
 

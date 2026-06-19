@@ -2,6 +2,7 @@
 title: Create coloring rules for multilevel pivot reports
 description: Configure rules for how numerical values are displayed in a multilevel pivot table report. Coloring rules make it easy to highlight the more important values. The color rule is applied to the content of cells in pivot reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_DefineAPivotTableColoringRule.html
 release: australia
 product: Reporting
 classification: reporting
@@ -91,5 +92,5 @@ A numerical value that determines the order in which the rules apply. Rules with
 </table>4.  Select **Submit** to save the rule and create another rule, or select **OK** to save the rule and return to the Report Designer.
 
 
-**Parent Topic:**[Administering reports](../concept/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 

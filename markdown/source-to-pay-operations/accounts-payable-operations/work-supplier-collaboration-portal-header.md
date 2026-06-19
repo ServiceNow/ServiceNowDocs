@@ -1,19 +1,21 @@
 ---
 title: Working with tasks in Supplier Collaboration Portal header
-description: Use the portal header located at the top-right corner of the Supplier Collaboration Portal home page to open exception tasks, invoice inquiry requests assigned to the logged-in supplier.
+description: View and manage exception tasks and invoice inquiry requests assigned to your supplier account using the Tasks menu in the Supplier Collaboration Portal header.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/work-supplier-collaboration-portal-header.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice exception, supplier, supplier portal]
 breadcrumb: [Using Supplier Collaboration Portal in APO, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Working with tasks in Supplier Collaboration Portal header
 
-Use the portal header located at the top-right corner of the Supplier Collaboration Portal home page to open exception tasks, invoice inquiry requests assigned to the logged-in supplier.
+View and manage exception tasks and invoice inquiry requests assigned to your supplier account using the Tasks menu in the Supplier Collaboration Portal header.
 
 ## Before you begin
 
@@ -23,21 +25,21 @@ Role required: Supplier
 
 1.  Navigate to the header on the Supplier Collaboration Portal home page &gt;**Tasks** &gt; **My Tasks**.
 
-    Lists the **Open** and **Completed** exception tasks and invoice case tasks assigned for the logged in supplier. For more information on creating an exception task, see [Work on an invoice exception](work-invoice-exception-case.md).
+    Lists the **Open** and **Completed** exception tasks and invoice case tasks assigned for the logged in supplier. For more information on creating an exception task, see [Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md).
 
     **Note:** You can also view **My Tasks** by navigating to **My active items** widget&gt;**Tasks** tile.
 
 2.  On the **Exception task** form, you can view the following details.
 
-<table id="choicetable_evl_lvy_zxb"><thead><tr><th align="left" id="d136609e95">
+<table id="choicetable_evl_lvy_zxb"><thead><tr><th align="left" id="d70852e120">
 
 Option
 
-</th><th align="left" id="d136609e98">
+</th><th align="left" id="d70852e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d136609e104">
+</th></tr></thead><tbody><tr><td id="d70852e129">
 
 **Number**
 
@@ -45,7 +47,7 @@ Description
 
 An auto-generated number that uniquely identifies the task.
 
-</td></tr><tr><td id="d136609e113">
+</td></tr><tr><td id="d70852e138">
 
 **Due Date**
 
@@ -53,7 +55,7 @@ An auto-generated number that uniquely identifies the task.
 
 The assigned date by which the task must be completed.
 
-</td></tr><tr><td id="d136609e122">
+</td></tr><tr><td id="d70852e147">
 
 **State**
 
@@ -66,7 +68,7 @@ The current state of the task. The states are: -   New
 -   Closed incomplete
 
 
-</td></tr><tr><td id="d136609e148">
+</td></tr><tr><td id="d70852e173">
 
 **Supplier**
 
@@ -74,7 +76,7 @@ The current state of the task. The states are: -   New
 
 Name of the supplier
 
-</td></tr><tr><td id="d136609e158">
+</td></tr><tr><td id="d70852e183">
 
 **Supplier invoice number**
 
@@ -82,7 +84,7 @@ Name of the supplier
 
 The invoice number of the supplier invoice.
 
-</td></tr><tr><td id="d136609e167">
+</td></tr><tr><td id="d70852e192">
 
 **Purchase order**
 
@@ -90,7 +92,7 @@ The invoice number of the supplier invoice.
 
 Purchase order number related to the invoice.
 
-</td></tr><tr><td id="d136609e176">
+</td></tr><tr><td id="d70852e201">
 
 **Amount invoiced \(Transaction currency\)**
 
@@ -98,7 +100,7 @@ Purchase order number related to the invoice.
 
 Charges applied on the invoice.
 
-</td></tr><tr><td id="d136609e185">
+</td></tr><tr><td id="d70852e210">
 
 **Description**
 
@@ -106,7 +108,7 @@ Charges applied on the invoice.
 
 Detailed description about the task.
 
-</td></tr><tr><td id="d136609e194">
+</td></tr><tr><td id="d70852e219">
 
 **Activity**
 
@@ -114,7 +116,7 @@ Detailed description about the task.
 
 Lists the activity postings between Accounts Payable Specialist and supplier.
 
-</td></tr><tr><td id="d136609e203">
+</td></tr><tr><td id="d70852e228">
 
 **Attachments**
 
@@ -125,15 +127,15 @@ Supplier uses attachments in the form of PDF, JPEG, PNG formats.
 </td></tr></tbody>
 </table>3.  On the **Invoice case** task form, you can view the following.
 
-<table id="choicetable_fcx_cxy_zxb"><thead><tr><th align="left" id="d136609e224">
+<table id="choicetable_fcx_cxy_zxb"><thead><tr><th align="left" id="d70852e249">
 
 Option
 
-</th><th align="left" id="d136609e227">
+</th><th align="left" id="d70852e252">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d136609e233">
+</th></tr></thead><tbody><tr><td id="d70852e258">
 
 **Number**
 
@@ -141,7 +143,7 @@ Description
 
 Auto-generated number that uniquely identifies the invoice case.
 
-</td></tr><tr><td id="d136609e242">
+</td></tr><tr><td id="d70852e267">
 
 **Due Date**
 
@@ -149,7 +151,7 @@ Auto-generated number that uniquely identifies the invoice case.
 
 The assigned date by which the task must to be completed.
 
-</td></tr><tr><td id="d136609e251">
+</td></tr><tr><td id="d70852e276">
 
 **State**
 
@@ -162,7 +164,7 @@ The current state of the task. The states are:-   New
 -   Closed incomplete
 
 
-</td></tr><tr><td id="d136609e277">
+</td></tr><tr><td id="d70852e302">
 
 **Supplier invoice number**
 
@@ -170,7 +172,7 @@ The current state of the task. The states are:-   New
 
 The invoice number of the supplier invoice.
 
-</td></tr><tr><td id="d136609e287">
+</td></tr><tr><td id="d70852e312">
 
 **Purchase order**
 
@@ -178,7 +180,7 @@ The invoice number of the supplier invoice.
 
 Purchase order number related to the invoice.
 
-</td></tr><tr><td id="d136609e296">
+</td></tr><tr><td id="d70852e321">
 
 **Parent case**
 
@@ -186,7 +188,7 @@ Purchase order number related to the invoice.
 
 Name of the parent case assigned to.
 
-</td></tr><tr><td id="d136609e305">
+</td></tr><tr><td id="d70852e330">
 
 **Description**
 
@@ -194,7 +196,7 @@ Name of the parent case assigned to.
 
 Detailed description about the task.
 
-</td></tr><tr><td id="d136609e314">
+</td></tr><tr><td id="d70852e339">
 
 **Activity**
 
@@ -202,7 +204,7 @@ Detailed description about the task.
 
 Lists the activity postings between Accounts Payable Specialist and supplier.
 
-</td></tr><tr><td id="d136609e323">
+</td></tr><tr><td id="d70852e348">
 
 **Attachments**
 
@@ -211,8 +213,8 @@ Lists the activity postings between Accounts Payable Specialist and supplier.
 Supplier uses attachments in the form of PDF, JPEG, PNG formats.
 
 </td></tr></tbody>
-</table>    Supplier selects **Mark complete**. The status of the task changes to **Closed complete**. For more information on invoice case, see [Using Invoice Case Management](../concept/use-invoice-case-mgmt.md).
+</table>    Supplier selects **Mark complete**. The status of the task changes to **Closed complete**. For more information on invoice case, see [Using Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/use-invoice-case-mgmt.md).
 
 
-**Parent Topic:**[Using Supplier Collaboration Portal in APO](../concept/using-supplier-collaboration-portal.md)
+**Parent Topic:**[Using Supplier Collaboration Portal in APO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/using-supplier-collaboration-portal.md)
 

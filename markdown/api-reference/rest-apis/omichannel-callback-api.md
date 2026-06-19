@@ -2,6 +2,7 @@
 title: Omichannel Callback API
 description: The Omnichannel Callback API provides methods for creating, updating, and initiating a callback request for live agent conversations.Provides actions for integrating third-party Contact Center as a Service \(CCaaS\) platforms with ServiceNow's Omnichannel Callback system. This API acts as a bridge, routing callback operations \(create, update, cancel, close\) to external CCaaS providers via configurable Workflow Studio subflows.Initiates an interaction for an existing callback, including retry attempts.Initiates a new immediate or scheduled callback request based on details you provide in the request body. For immediate callbacks, this API creates both the callback and interaction. For scheduled callbacks, creates the callback with an appointment ID.Fetches callback information based on query parameters.Updates an existing callback according to details provided in the request.Cancels a given callback request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/omichannel-callback-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -23,15 +24,15 @@ The Omnichannel Callback API allows agents to programmatically call users back r
 
 This API belongs to the sn\_omni\_callback namespace and requires the Administrator with callback API \[sn\_omni\_callback.callback\_api\] role.
 
-For more information about the Omnichannel Callback application as an ServiceNow AI Platform capability, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/omnichannel-callback/omnichannel-callback.md).
+For more information about the Omnichannel Callback application as an ServiceNow AI Platform capability, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Omnichannel Callback - POST api/sn\_omni\_callback/actions
 
 Provides actions for integrating third-party Contact Center as a Service \(CCaaS\) platforms with ServiceNow®'s Omnichannel Callback system. This API acts as a bridge, routing callback operations \(create, update, cancel, close\) to external CCaaS providers via configurable Workflow Studio subflows.
 
-**Note:** This endpoint works similarly to [Omnichannel Callback - POST /api/sn\_omni\_callback/callback/create](omichannel-callback-api.md#) and [Omnichannel Callback - PATCH /api/sn\_omni\_callback/callback/update](omichannel-callback-api.md#), but is used to update or create callbacks in a third-party integration with routing context.
+**Note:** This endpoint works similarly to [Omnichannel Callback - POST /api/sn\_omni\_callback/callback/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/omichannel-callback-api.md) and [Omnichannel Callback - PATCH /api/sn\_omni\_callback/callback/update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/omichannel-callback-api.md), but is used to update or create callbacks in a third-party integration with routing context.
 
 ### Intelligent routing
 
@@ -115,7 +116,7 @@ payload
 
 </td><td>
 
-Required. Object containing specific data required for the given action when **routingContext** object is passed. For close and cancel operations, only **callbackID** is needed in the payload.**Note:** For create and update actions, if **routingContext** isn't passed, use the **payload** object structure documented in the [Omnichannel Callback - POST /api/sn\_omni\_callback/callback/create](omichannel-callback-api.md#) and [Omnichannel Callback - PATCH /api/sn\_omni\_callback/callback/update](omichannel-callback-api.md#) operations, respectively. The 'Examples' section demonstrates both routing and non-routing scenarios.
+Required. Object containing specific data required for the given action when **routingContext** object is passed. For close and cancel operations, only **callbackID** is needed in the payload.**Note:** For create and update actions, if **routingContext** isn't passed, use the **payload** object structure documented in the [Omnichannel Callback - POST /api/sn\_omni\_callback/callback/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/omichannel-callback-api.md) and [Omnichannel Callback - PATCH /api/sn\_omni\_callback/callback/update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/omichannel-callback-api.md) operations, respectively. The 'Examples' section demonstrates both routing and non-routing scenarios.
 
 Data type: Object
 
@@ -167,7 +168,7 @@ Time zone of customer who requested the callback. Time zones can be provided in 
 -   `Country/Time zone`: For example, `US/Pacific`.
 -   `Time zone abbreviation`: For example, `PST`.
 
-For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_TimeZones.md).
+For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see .
 
 Data type: String
 
@@ -424,7 +425,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -449,7 +450,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -559,7 +560,7 @@ curl -X POST 'https://instance.servicenow.com/api/sn_omni_callback/actions \
 
 The following example demonstrates how to create a new callback record without routing context.
 
-**Note:** Create actions without routing context follow the request structure documented in [Omnichannel Callback - POST /api/sn\_omni\_callback/callback/create](omichannel-callback-api.md#).
+**Note:** Create actions without routing context follow the request structure documented in [Omnichannel Callback - POST /api/sn\_omni\_callback/callback/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/omichannel-callback-api.md).
 
 ```
 curl -X POST 'https://instance.servicenow.com/api/sn_omni_callback/actions \ 
@@ -640,7 +641,7 @@ curl -X POST 'https://instance.servicenow.com/api/sn_omni_callback/actions \
 
 The following example demonstrates how to update a callback record without routing context:
 
-**Note:** Update actions without routing context follow the request structure documented in [Omnichannel Callback - PATCH /api/sn\_omni\_callback/callback/update](omichannel-callback-api.md#).
+**Note:** Update actions without routing context follow the request structure documented in [Omnichannel Callback - PATCH /api/sn\_omni\_callback/callback/update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/omichannel-callback-api.md).
 
 ```
 curl -X POST 'https://instance.servicenow.com/api/sn_omni_callback/actions \ 
@@ -807,7 +808,7 @@ interactionDetails
 
 </td><td>
 
-Optional. Details about the interaction. Meant for 'asap' \(immediate\) callback types so that interaction details are routed directly to the agent without waiting.All interaction details are passed in the payload of the [Voice Interaction Resource - POST /cs/voice-interactions](voice-interaction-resource-api.md#).
+Optional. Details about the interaction. Meant for 'asap' \(immediate\) callback types so that interaction details are routed directly to the agent without waiting.All interaction details are passed in the payload of the [Voice Interaction Resource - POST /cs/voice-interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/voice-interaction-resource-api.md).
 
 Data type: Object
 
@@ -856,7 +857,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -887,14 +888,14 @@ Description
 
 Accept
 
-</td><td id="d3003e85">
+</td><td id="d3089e85">
 
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1131,7 +1132,7 @@ Time zone of customer who requested the callback. Time zones can be provided in 
 -   `Country/Time zone`. For example, `US/Pacific`.
 -   `Time zone abbreviation`. For example, `PST`.
 
-For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_TimeZones.md).
+For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see .
 
 Data type: String
 
@@ -1360,7 +1361,7 @@ interactionDetails
 
 </td><td>
 
-Optional. Details about the interaction. Meant for 'asap' \(immediate\) callback types so that interaction details are routed directly to the agent without waiting.All interaction details are passed in the payload of the [Voice Interaction Resource - POST /cs/voice-interactions](voice-interaction-resource-api.md#).
+Optional. Details about the interaction. Meant for 'asap' \(immediate\) callback types so that interaction details are routed directly to the agent without waiting.All interaction details are passed in the payload of the [Voice Interaction Resource - POST /cs/voice-interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/voice-interaction-resource-api.md).
 
 Data type: Object
 
@@ -1435,7 +1436,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -1466,14 +1467,14 @@ Description
 
 Accept
 
-</td><td id="d3003e85">
+</td><td id="d3089e85">
 
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1983,7 +1984,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1995,7 +1996,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2466,7 +2467,7 @@ Time zone of customer who requested the callback. Time zones can be provided in 
 -   `Country/Time zone`. For example, `US/Pacific`.
 -   `Time zone abbreviation`. For example, `PST`.
 
-For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see [Time zones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_TimeZones.md).
+For a complete list of valid timezones, see the Time zone field in the User \[sys\_user\] table. For more information about time zones, see .
 
 Data type: String
 
@@ -2704,7 +2705,7 @@ Format: E.164 standard compliant
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -2735,14 +2736,14 @@ Description
 
 Accept
 
-</td><td id="d3003e85">
+</td><td id="d3089e85">
 
 Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 
 </td></tr></tbody>
 </table>### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -3009,7 +3010,7 @@ Optional. Specifies to cancel the given callback. Value is always `Cancelled`. I
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -3034,7 +3035,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

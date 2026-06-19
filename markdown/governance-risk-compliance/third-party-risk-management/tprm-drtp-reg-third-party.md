@@ -2,12 +2,13 @@
 title: Create a third party and enhance digital resilience data
 description: Create a third-party record in Digital resilience third-party registers using Third-party Risk Management. Add the details of the third-party company such as its name, address, phone number, vendor manager. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-third-party.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-05-15"
+reading_time_minutes: 2
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -27,13 +28,13 @@ After installing the Digital resilience third-party registers, the **Digital res
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Third parties** and then create a third party by selecting **New**.
 
 3.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New Company form](../reference/tprm-create-third-party-company-form.md).
+    For descriptions of all these fields, see [Create New Company form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-third-party-company-form.md).
 
 4.  Select **Save**.
 
@@ -41,13 +42,16 @@ After installing the Digital resilience third-party registers, the **Digital res
 
 6.  On the form, fill in the fields.
 
-    For descriptions of all these fields, see [Create New ICT third-party service provider form](../reference/tprm-create-ICT-thirdparty-serv-prov-form.md).
+    For descriptions of all these fields, see [Create New ICT third-party service provider form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-create-ICT-thirdparty-serv-prov-form.md).
 
     **Note:**
 
-    Provider‑level annual expense totals may be automatically aggregated during report generation when all contracts meet the required criteria. Aggregation applies only to exported reports and does not change third‑party or contract records.
+    -   When you enter or update an LEI identification code \(when Type of code is set to LEI\), the system validates it against the GLEIF database and auto-populates the name and country fields. If you then edit the name or country to a value that no longer matches GLEIF data, an inline warning is displayed on the edited field. You can still save the record. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
+    -   Provider‑level annual expense totals may be automatically aggregated during report generation when all contracts meet the required criteria. Aggregation applies only to exported reports and does not change third‑party or contract records.
 
-    For more information, see [Currency conversion and third-party total expense aggregation](../concept/tprm-dora-currency-aggregation.md).
+        For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md).
+
+    **Note:**
 
 7.  To edit the third-party company record, select it from the list and select **Save** after making your edits.
 

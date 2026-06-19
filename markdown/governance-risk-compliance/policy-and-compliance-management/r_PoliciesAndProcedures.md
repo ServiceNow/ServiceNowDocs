@@ -2,6 +2,7 @@
 title: Manage control objectives and policies
 description: The Policies and Procedures module contains overview and detailed information related to policy approvals, policies, and control objectives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/r\_PoliciesAndProcedures.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -21,10 +22,10 @@ The Policies and Procedures module contains overview and detailed information re
 
 |Name|Visual|Description|
 |----|------|-----------|
-|Control compliance|Donut chart![](../../../use/performance-analytics/image/donut-icon.png)|Displays the overall compliance of all the controls in the system.|
-|Control details|Donut chart![](../../../use/performance-analytics/image/donut-icon.png)|Displays a breakdown of controls grouped by owner, category, or type.|
-|Control Overview|Column Chart![](../../../use/performance-analytics/image/column-icon.png)|Displays the total number of controls related to each policy. The chart is stacked to display the overall control compliance status for each policy.|
-|Control Issues by Policy \(Opened Date\)|Line Chart![Line icon](../../../use/performance-analytics/image/line-icon.png)|Displays the number of control issues opened each week, grouped by policy.|
+|Control compliance|Donut chart\[Omitted image "donut-icon.png"\]|Displays the overall compliance of all the controls in the system.|
+|Control details|Donut chart\[Omitted image "donut-icon.png"\]|Displays a breakdown of controls grouped by owner, category, or type.|
+|Control Overview|Column Chart\[Omitted image "column-icon.png"\]|Displays the total number of controls related to each policy. The chart is stacked to display the overall control compliance status for each policy.|
+|Control Issues by Policy \(Opened Date\)|Line Chart\[Omitted image "line-icon.png"\] Alt text: Line icon|Displays the number of control issues opened each week, grouped by policy.|
 |Policy Exceptions|List|Displays a list of control issues that have been closed with a response value of accept, meaning the issue was not remediated.|
 |Total Control Objectives by Policy|Bar graph|Displays a count of the overall number of control objectives in each policy. The chart is stacked to display control objectives by type.|
 
@@ -32,7 +33,7 @@ The Policies and Procedures module contains overview and detailed information re
 
 Policies are part of a strict approval process that ensures compliance and reduces exposure to risk. When a policy is published, it is automatically incorporated in the approval process. Compliance managers set the length of time that policies are valid, ensuring that the team reviews the policy often to affirm its validity. Policies have a type, such as a policy, procedure, standard, plan, checklist, framework, or template.
 
-![The image depicts the approval process flow that is shown at the top of each policy record.](../image/GRCPolicyApprovalProcess.png)
+\[Omitted image "GRCPolicyApprovalProcess.png"\] Alt text: The image depicts the approval process flow that is shown at the top of each policy record.
 
 <table id="table_amh_4kb_cv"><thead><tr><th>
 
@@ -95,30 +96,30 @@ Compliance managers catalog the control objectives and generate controls from th
 
 **Note:** UCF refers to control objectives as controls. When UCF data is imported, controls are imported into the control objectives table.
 
--   **[Create a policy](../task/t_DefineAPolicy.md)**  
+-   **[Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_DefineAPolicy.md)**  
 A policy defines an internal practice that processes must follow. Policies are defined as policies, procedures, standards, plans, checklists, frameworks, and templates.
--   **[Approve and publish a policy](../task/t_ApprovePolicy.md)**  
+-   **[Approve and publish a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_ApprovePolicy.md)**  
 When a policy is approved, it is automatically published.
--   **[Acknowledge a policy](../concept/ack-policy.md)**  
+-   **[Acknowledge a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/ack-policy.md)**  
 After a policy has been published, you can create an acknowledgement campaign to define a group of your employees who must provide an acknowledgement that a particular policy is in compliance. When the campaign has been defined, you can submit the request to the audience.
--   **[Retire a policy](../task/t_RetireAPolicy.md)**  
+-   **[Retire a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_RetireAPolicy.md)**  
 Retiring a policy is part of the policy management process.
--   **[Create a GRC article template](../task/t_CreateArticleTemplate.md)**  
+-   **[Create a GRC article template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateArticleTemplate.md)**  
 Policy and Compliance managers can create templates for policy article publishing.
--   **[Create a control objective](../task/t_CreateAPolicyStatement.md)**  
+-   **[Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAPolicyStatement.md)**  
 A control objective is an objective, direction, or standard that acts as guidance for company interactions and operations. Control objectives can be categorized, classified, and related to policies.
--   **[Deactivate a control objective](../task/t_DeactivateAPolStatement.md)**  
+-   **[Deactivate a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_DeactivateAPolStatement.md)**  
 Deactivate control objectives that are no longer relevant to their citation or parent control objective.
--   **[Relate a control objective to a policy](../task/t_RelatePolicyStateToPolicy.md)**  
+-   **[Relate a control objective to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_RelatePolicyStateToPolicy.md)**  
 Associate the control objective to a policy individually when the policy is in the review or draft state by clicking the edit button in the Control Objective related list.
--   **[Relate a control objective to a citation](../task/t_RelatePSToACitation.md)**  
+-   **[Relate a control objective to a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_RelatePSToACitation.md)**  
 A single control objective can be mapped to many citations from different authority documents. This function allows you to test a control objective once while complying with many different citations.
--   **[Create or deactivate a citation](../task/t_CreateCitations.md)**  
+-   **[Create or deactivate a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateCitations.md)**  
 Usually, authority documents, citations, and control objectives are downloaded from a third-party provider. However, citations can be created manually from an authority document. The **Active** option in a citation indicates whether the citation is active or inactive.
--   **[Create an authority document](../task/t_CreateAnAuthorityDocument.md)**  
+-   **[Create an authority document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAnAuthorityDocument.md)**  
 Authority documents manage a process and citations are created within them to manage points of the process. For example, the process called Building Security contains a citation for Entry Control.
--   **[Deactivate an authority document](../task/t_DeactivateAnAuthorityDoc.md)**  
+-   **[Deactivate an authority document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_DeactivateAnAuthorityDoc.md)**  
 The **Active** option in an authority document indicates whether the authority documents have been retired.
 
-**Parent Topic:**[Classic UI for Policy and Control Management](../concept/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 

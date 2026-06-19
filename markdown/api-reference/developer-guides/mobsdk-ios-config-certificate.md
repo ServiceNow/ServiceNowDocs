@@ -2,6 +2,7 @@
 title: Configure certificate and create an OAuth Entity
 description: You must configure your ServiceNow instance to accept and exchange a JSON Web Token \(JWT\) for an OAuth access token. To enable this functionality you must install a certificate that matches the JWT provider’s private key on the ServiceNow instance that you will use as the JWT Token consumer and create an OAuth Entity on that instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-config-certificate.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -23,19 +24,19 @@ Role required: admin
 
 1.  If not already configured, configure your ServiceNow instance as an OAuth JWT provider.
 
-    For details, see [Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-jwt-endpoint.md).
+    For details, see .
 
 2.  Navigate to **System Definition** &gt; **Certificates**.
 
 3.  Select **New** and then create a new public certificate as shown in the following image.
 
-    ![Mobile SDK iOS X.509 certificate](../../image/mobile_sdk-image-x509-cert.png)
+    \[Omitted image "mobile\_sdk-image-x509-cert.png"\] Alt text: Mobile SDK iOS X.509 certificate
 
-    For details on creating this certificate, see [Update your X.509 certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/update-cert-whois.md).
+    For details on creating this certificate, see Update your X.509 certificate.
 
 4.  Create an OAuth Entity.
 
-    For details, see [Create an OAuth JWT API endpoint for external clients \(machine to machine integration\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/create-jwt-endpoint.md).
+    For details, see .
 
 5.  Add and select the **Public Client** field to the form.
 
@@ -53,6 +54,6 @@ Role required: admin
 
 8.  Ensure that the form contains information similar to the following once you are finished with your configuration:
 
-    ![OAuth JWT](../../image/mobile_sdk-oauth_entity_form.png)
+    \[Omitted image "mobile\_sdk-oauth\_entity\_form.png"\] Alt text: OAuth JWT
 
 

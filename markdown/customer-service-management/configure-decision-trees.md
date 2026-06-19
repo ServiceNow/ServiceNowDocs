@@ -2,7 +2,10 @@
 title: Edit a decision tree
 description: Edit a decision tree that you created using Core UI to improve or extend a troubleshooting process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-decision-trees.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,7 +22,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 ## About this task
 
-You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](../concept/decision-trees-in-gdb.md).
+You can edit or extend existing decision trees in the Core UI but you can no longer create them. Use Decision Tree Builder to create new decision trees. For more information, see [Configuring decision trees in Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/decision-trees-in-gdb.md).
 
 ## Procedure
 
@@ -93,5 +96,5 @@ Shows or hides the **Dismiss** button that cancels the flow of a decision tree. 
 
 ## What to do next
 
-[Add questions or instructions to a decision input](create-decision-input.md)
+[Add questions or instructions to a decision input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-decision-input.md)
 

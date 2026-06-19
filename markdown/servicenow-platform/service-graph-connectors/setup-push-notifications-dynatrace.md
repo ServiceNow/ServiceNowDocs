@@ -2,6 +2,7 @@
 title: Set up push notifications from Dynatrace
 description: Set up push notifications of events from Dynatrace into a ServiceNow instance that has the Service Graph Connector for Observability - Dynatrace installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/setup-push-notifications-dynatrace.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -117,11 +118,11 @@ Use the following payload: ```
 1.  Navigate to **All** &gt; **IntegrationHub** &gt; **Connection &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 2.  Select to open the connector for which you want to get the &lt;connections\_alias\_sys\_id&gt;.
 
-![Dynatrace connection aliases list.](../image/dynatrace-connection-aliases.png)
+\[Omitted image "dynatrace-connection-aliases.png"\] Alt text: Dynatrace connection aliases list.
 
-3.  Right-click the context menu \(![menu icon](../../../common/image/Form_MenuIcon.png)\) and then select **Copy sys\_id**.
+3.  Right-click the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: menu icon\) and then select **Copy sys\_id**.
 
-![sys_id of the connection.](../image/dynatrace-static-sys-id.png)
+\[Omitted image "dynatrace-static-sys-id.png"\] Alt text: sys\_id of the connection.
 
 </td></tr><tr><td>
 

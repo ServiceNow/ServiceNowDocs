@@ -2,6 +2,7 @@
 title: Run scheduled jobs in SAP
 description: Run adhoc scheduled jobs to look up entity primary data from the target SAP ERP source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/run-scheduled-jobs-sap.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -36,5 +37,5 @@ Executes on-demand scheduled jobs on true entities of an ERP source target and f
     Entity inbound tables are populated with primary data.
 
 
-**Parent Topic:**[Scheduled jobs to look up primary data in SAP](../concept/scheduled-jobs-to-primary-data-sap.md)
+**Parent Topic:**[Scheduled jobs to look up primary data in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/scheduled-jobs-to-primary-data-sap.md)
 

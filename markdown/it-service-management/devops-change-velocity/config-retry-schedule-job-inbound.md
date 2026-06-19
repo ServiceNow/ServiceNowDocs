@@ -2,6 +2,7 @@
 title: Retry errored inbound events
 description: Run base system or modified scheduled jobs to retry processing errored inbound events. Specify the exceptions or errors to retry events that are in an Error state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/config-retry-schedule-job-inbound.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -75,5 +76,5 @@ Based on your error or exception, perform any of the following steps to retry pr
 
 The scheduled job to retry processing inbound events runs based on either the properties you have configured or the base system properties that are specified by default.
 
-**Parent Topic:**[Managing DevOps Change Velocity](../concept/using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

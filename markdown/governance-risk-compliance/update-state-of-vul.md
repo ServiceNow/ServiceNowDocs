@@ -1,15 +1,16 @@
 ---
-title: Update the state of the operational vulnerability
+title: Update the state of the Operational vulnerability
 description: Update the state of the Operational vulnerability record to the Assessment or Treatment state. At this stage, the vulnerability is being evaluated to determine the best course of action and create an action task accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/update-state-of-vul.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-01"
 reading_time_minutes: 2
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Update the state of the operational vulnerability
+# Update the state of the Operational vulnerability
 
 Update the state of the Operational vulnerability record to the **Assessment** or **Treatment** state. At this stage, the vulnerability is being evaluated to determine the best course of action and create an action task accordingly.
 
@@ -25,7 +26,7 @@ Role required: sn\_oper\_res.manager
 
     The Operational vulnerability record is in the **New** state.
 
-    ![New state.](../image/op-vul-new-state.png)
+    \[Omitted image "op-vul-new-state.png"\] Alt text: New state.
 
 3.  Select **Update state** UI action.
 
@@ -37,9 +38,9 @@ Role required: sn\_oper\_res.manager
     -   **Approved**
     -   **Closed**
     -   **Canceled**
-    ![State transition for New state.](../image/new-state-transition.png)
+    \[Omitted image "new-state-transition.png"\] Alt text: State transition for New state.
 
-    For more information on the state transition model, see [Set up the State model and Action task model](establish-state-model-record.md).
+    For more information on the state transition model, see [Set up the State model and Action task model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/establish-state-model-record.md).
 
 4.  Update the state of the vulnerability record.
 
@@ -50,16 +51,16 @@ Role required: sn\_oper\_res.manager
 
     The Update state window is shown in the example.
 
-    ![Assessment.](../image/op-vul-update-state.png)
+    \[Omitted image "op-vul-update-state.png"\] Alt text: Assessment.
 
     When the state is updated to **Assessment**, the state of the Operational vulnerability record is updated to the **Assessment in progress** state as shown in the example.
 
-    ![Assessment in progress.](../image/op-vul-assmt-in-progress.png)
+    \[Omitted image "op-vul-assmt-in-progress.png"\] Alt text: Assessment in progress.
 
 
 ## What to do next
 
-When the vulnerability record is in the **Assessment** state, the task owner creates an assessment-type action task. For more information, see [Manage an assessment-type action task](create-action-task-op-vul.md).
+When the vulnerability record is in the **Assessment** state, the task owner creates an assessment-type action task. For more information, see [Manage an assessment-type action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-action-task-op-vul.md).
 
-When the vulnerability record is in the **Treatment** state, the task owner creates an investigation-type action task. For more information, see [Manage an investigation-type action task](update-state-of-action-task.md).
+When the vulnerability record is in the **Treatment** state, the task owner creates an investigation-type action task. For more information, see [Manage an investigation-type action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-state-of-action-task.md).
 

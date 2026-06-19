@@ -2,6 +2,7 @@
 title: To-do refinement options
 description: You can refine your to-dos through filtering, sorting, and searching options on the My to-dos landing page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/todo-refinement-options.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -51,5 +52,5 @@ The following fields are searchable:
 
 You can select the associated cards, view the details, and perform available actions.
 
-**Parent Topic:**[Shopper to-dos](shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

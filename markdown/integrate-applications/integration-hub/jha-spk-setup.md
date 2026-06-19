@@ -2,6 +2,7 @@
 title: Set up the Jack Henry jXchange spoke
 description: Integrate ServiceNow and Jack Henry jXchange account by using the Jack Henry jXchange connection and credential record to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jha-spk-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub

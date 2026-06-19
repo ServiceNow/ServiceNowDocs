@@ -2,6 +2,7 @@
 title: Set work item sort order
 description: Specify the order in which work items in a queue are sorted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-set-work-sort-order.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

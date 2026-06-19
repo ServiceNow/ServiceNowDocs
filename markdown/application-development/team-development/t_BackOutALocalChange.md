@@ -2,6 +2,7 @@
 title: Back out a local change
 description: Back out all local changes and restore the last version reconciled with the parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_BackOutALocalChange.html
 release: australia
 product: Team Development
 classification: team-development
@@ -21,9 +22,9 @@ Role required: none.
 
 ## Procedure
 
-1.  [Define a parent instance](t_SelectTheParentInstance.md).
+1.  [Define a parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_SelectTheParentInstance.md).
 
-2.  [Pull changes from the parent instance](t_PullAVersion.md).
+2.  [Pull changes from the parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PullAVersion.md).
 
 3.  Navigate to **Team Development** &gt; **Team Dashboard**.
 
@@ -33,6 +34,6 @@ Role required: none.
 
     -   Click **Back Out All**.
     -   Right-click the local change you want to back out, and then click **Back Out**.
-    ![Local changes back out all](../image/LocalChangesBackOutAll.png)
+    \[Omitted image "LocalChangesBackOutAll.png"\] Alt text: Local changes back out all
 
 

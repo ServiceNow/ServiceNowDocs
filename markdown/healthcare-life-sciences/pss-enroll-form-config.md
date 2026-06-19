@@ -2,6 +2,7 @@
 title: Configuring the enrollment request form
 description: You can configure an enrollment request form to enable patients or practitioners to enroll into Patient Support Services programs offered by a healthcare organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-enroll-form-config.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,5 +22,5 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 As a healthcare provider, you can use an enrollment application form to enable patients or practitioners to submit enrollment requests.
 
-As a user with the admin role, you can configure an enrollment application form and associate the form fields with application tables using the **PatientServicePortalUtils** script include. The script include provides a default implementation and is available within the Patient Support Services application. You can create your own implementation and associate it with the **PatientServicePortalUtils** script include. For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptIncludes.md).
+As a user with the admin role, you can configure an enrollment application form and associate the form fields with application tables using the **PatientServicePortalUtils** script include. The script include provides a default implementation and is available within the Patient Support Services application. You can create your own implementation and associate it with the **PatientServicePortalUtils** script include. For more information, see Script includes.
 

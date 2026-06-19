@@ -2,6 +2,7 @@
 title: Enroll for the Password Reset program using emailed codes
 description: To verify your identity while resetting your password, you enter a code that was sent to your email address. You can enroll for this program on a mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/enroll-email-verification.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -51,7 +52,7 @@ During this enrollment process, you add the email address, the system sends you 
 
     For more information about enrolling using different methods, see the following topics:
 
-    -   [Enroll for the Password Reset program using questions and answers](t_EnrollUsingASecurityQuestion.md)
-    -   [Enroll for the Password Reset program using SMS codes](t_EnrollUsingSMS.md)
-    -   [Enroll for the Password Reset program using an authenticator](authenticator-app-verification.md)
+    -   [Enroll for the Password Reset program using questions and answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_EnrollUsingASecurityQuestion.md)
+    -   [Enroll for the Password Reset program using SMS codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_EnrollUsingSMS.md)
+    -   [Enroll for the Password Reset program using an authenticator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/authenticator-app-verification.md)
 

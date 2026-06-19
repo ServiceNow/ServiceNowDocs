@@ -2,6 +2,7 @@
 title: Digital Experience Score​
 description: Digital Experience Score​ provides comprehensive insight into the digital experience of your employees, enabling you to identify areas of improvement to enhance overall employee experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-experience-score/dexscr-digital-experience-score.html
 release: australia
 product: Digital Experience Score
 classification: digital-experience-score
@@ -23,19 +24,19 @@ The video provides an overview of the DEX Score application, highlighting its ke
 
 <table id="table_kjp_14p_qdc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore about Digital Experience Score​.](dexscr-exploring-dex-score.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore about Digital Experience Score​.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-exploring-dex-score.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Digital Experience Score​.](dexscr-configuring-dex-score.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Digital Experience Score​.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-configuring-dex-score.md)
 
 </td></tr><tr><td>
 
-[Track![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg)Track digital experience using Digital Experience Score​ dashboard.](dexscr-using-dex-score.md)
+[Track\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Track digital experience using Digital Experience Score​ dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-using-dex-score.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Reference for Digital Experience Score​.](dexscr-dex-score-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference for Digital Experience Score​.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-experience-score/dexscr-dex-score-reference.md)
 
 </td></tr></tbody>
 </table>

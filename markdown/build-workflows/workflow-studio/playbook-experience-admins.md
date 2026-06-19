@@ -2,6 +2,7 @@
 title: Designing Playbook Experience
 description: After building playbooks in Workflow Studio, Playbook Experience administrators can configure the layouts and further customize playbook functions during runtime.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-experience-admins.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,11 +16,11 @@ breadcrumb: [Playbooks, Workflow Studio, Build workflows]
 
 After building playbooks in Workflow Studio, Playbook Experience administrators can configure the layouts and further customize playbook functions during runtime.
 
-There are many different ways that a Playbook Experience admin can customize the layout of a playbook during runtime. Playbooks can be designed and customized in UI Builder for:
+There are several ways for a Playbook Experience admin to customize the layout of a playbook during runtime. Playbooks can be designed and customized in UI Builder for:
 
 -   configurable workspaces
 -   Service Portal
 -   ServiceNow Mobile Platform
 
-Once customized to your satisfaction, mobile playbooks must be embedded. There are no additional steps needed before end users can run playbooks in configurable workspaces or Service Portal.
+After your playbook is customized, mobile playbooks must be embedded. There are no additional steps needed before end users can run playbooks in configurable workspaces or Service Portal.
 

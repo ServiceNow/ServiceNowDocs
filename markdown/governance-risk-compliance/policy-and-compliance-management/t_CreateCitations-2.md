@@ -2,6 +2,7 @@
 title: Create or deactivate a citation
 description: Usually, authority documents, citations, and control objectives are downloaded from a third-party provider. However, citations can be created manually from an authority document. The Active option in a citation indicates whether the citation is active or inactive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/t\_CreateCitations-2.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -116,7 +117,7 @@ Description of the citation.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Policy and Compliance Management enhancement steps](../../grc-policy-compliance-implementation/concept/policy-compliance-optional-steps.md)
+**Parent Topic:**[Policy and Compliance Management enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md)
 
-**Parent Topic:**[Manage control objectives and policies](../reference/r_PoliciesAndProcedures.md)
+**Parent Topic:**[Manage control objectives and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/r_PoliciesAndProcedures.md)
 

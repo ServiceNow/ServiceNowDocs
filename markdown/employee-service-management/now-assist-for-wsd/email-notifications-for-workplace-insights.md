@@ -2,6 +2,7 @@
 title: Receive email notifications for Workplace Insights
 description: Notify Space Planners, Reservation Managers, and Workplace Managers by email when new Workplace Insights are generated. The email notifications are sent to the users defined in the user criteria when the sn\_wsd\_ai\_agents.weekly\_insights event is triggered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/email-notifications-for-workplace-insights.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -34,5 +35,5 @@ The **Generate Workplace Insights - Weekly** scheduled job runs and creates insi
 3.  Select **Weekly Workplace Insights**.
 
 
-**Parent Topic:**[Insight cards on the Workplace Central dashboard](../concept/insight-cards-on-the-workplace-central-dashboard.md)
+**Parent Topic:**[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)
 

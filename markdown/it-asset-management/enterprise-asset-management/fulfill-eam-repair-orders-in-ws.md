@@ -2,6 +2,7 @@
 title: Manually fulfill repair orders in the Enterprise Asset Workspace
 description: Manually fulfill a repair order by completing all the open repair asset tasks associated with its repair order lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -19,26 +20,26 @@ A repair order can have one or more repair order lines depending on the number o
 
 As a technician, you must complete the following tasks associated with each repair order line to fulfill a repair order:
 
-1.  [Troubleshoot asset](../task/troubleshoot-eam-assets-for-repair.md)
-2.  [Repair asset](../task/repair-eam-assets-ws.md)
-3.  [Evaluate asset](../task/evaluate-repaired-eam-asset-ws.md)
+1.  [Troubleshoot asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/troubleshoot-eam-assets-for-repair.md)
+2.  [Repair asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-eam-assets-ws.md)
+3.  [Evaluate asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/evaluate-repaired-eam-asset-ws.md)
 
-You can also work on the asset repair tasks assigned to you by using the Mobile Agent application. For details, see [Manage enterprise asset repair tasks using the Mobile Agent application](repair-orders-mobile-agent-eam.md).
+You can also work on the asset repair tasks assigned to you by using the Mobile Agent application. For details, see [Manage enterprise asset repair tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-orders-mobile-agent-eam.md).
 
--   **[View open repair orders for your stockroom in the Enterprise Asset Workspace](../task/view-open-repair-orders-stockroom-eam.md)**  
+-   **[View open repair orders for your stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/view-open-repair-orders-stockroom-eam.md)**  
 View the open repair orders for your stockroom to get the details of the repair order lines and repair tasks that need action.
--   **[Troubleshoot assets requested for repair in the Enterprise Asset Workspace](../task/troubleshoot-eam-assets-for-repair.md)**  
+-   **[Troubleshoot assets requested for repair in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/troubleshoot-eam-assets-for-repair.md)**  
 Complete the troubleshooting task to assess the issues with the defective asset. Based on your observations, you can confirm whether the asset can be repaired, redeployed, or should be disposed of.
--   **[Complete the repair asset task in the Enterprise Asset Workspace](../task/repair-eam-assets-ws.md)**  
+-   **[Complete the repair asset task in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/repair-eam-assets-ws.md)**  
 Complete the repair of the asset and confirm if the asset is repaired, unrepairable, or redeployable.
--   **[Evaluate the repaired asset in the Enterprise Asset Workspace](../task/evaluate-repaired-eam-asset-ws.md)**  
+-   **[Evaluate the repaired asset in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/evaluate-repaired-eam-asset-ws.md)**  
 Evaluate the repaired asset and confirm if the asset is redeployable or should be disposed of. The Repair flow completes after the repaired asset is evaluated.
--   **[Bulk close asset repair tasks in the Enterprise Asset Workspace](../task/bulk-close-repair-tasks-eam-ws.md)**  
+-   **[Bulk close asset repair tasks in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/bulk-close-repair-tasks-eam-ws.md)**  
 Complete and close multiple repair tasks at one go to process a repair order with multiple repair order lines.
--   **[Cancel a repair order in the Enterprise Asset Workspace](../task/cancel-repair-orders-eam-ws.md)**  
+-   **[Cancel a repair order in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/cancel-repair-orders-eam-ws.md)**  
 Cancel a repair order that no longer needs to be fulfilled.
--   **[Cancel a repair order line in the Enterprise Asset Workspace](../task/cancel-repair-order-line-eam-ws.md)**  
+-   **[Cancel a repair order line in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/cancel-repair-order-line-eam-ws.md)**  
 Cancel a repair order line that no longer needs to be fulfilled.
 
-**Parent Topic:**[Fulfilling repair orders in the Enterprise Asset Workspace](fulfilling-repair-orders-eam.md)
+**Parent Topic:**[Fulfilling repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/fulfilling-repair-orders-eam.md)
 

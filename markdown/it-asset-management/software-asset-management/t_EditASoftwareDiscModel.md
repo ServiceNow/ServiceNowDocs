@@ -2,6 +2,7 @@
 title: Manually normalize a software discovery model in Software Asset Management classic
 description: You can edit a software discovery model to manually normalize discovered software that has not been fully normalized \(partially normalized, publisher normalized, or match not found\) on the Software Discovery Models form so that it can be reconciled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_EditASoftwareDiscModel.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -29,7 +30,7 @@ If the information automatically added to the software discovery model is incomp
 
 2.  Fill in the **Publisher**, **Product**, and **Version** fields, as appropriate.
 
-    You can create a [custom product](t_AddACustomProduct.md) from the Product lookup list, if desired.
+    You can create a [custom product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_AddACustomProduct.md) from the Product lookup list, if desired.
 
 3.  Select **Save**.
 
@@ -42,5 +43,5 @@ If the information automatically added to the software discovery model is incomp
     Fields are reset to their original values, and any rules associated with the software discovery model are deactivated.
 
 
-**Parent Topic:**[View normalization suggestions in Software Asset Management classic](view-norm-suggestions-sam.md)
+**Parent Topic:**[View normalization suggestions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-norm-suggestions-sam.md)
 

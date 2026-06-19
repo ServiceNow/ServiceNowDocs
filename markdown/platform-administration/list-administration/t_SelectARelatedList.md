@@ -2,6 +2,7 @@
 title: Use list controls in hierarchical lists
 description: By default, no related list tabs are visible in a hierarchical list and only a single related list is displayed at a time. The column headers are hidden by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_SelectARelatedList.html
 release: australia
 product: List Administration
 classification: list-administration
@@ -29,7 +30,7 @@ Role required: none
 
 2.  Select a list from the menu.
 
-    ![Select a different related list](../image/RelatedLists.png)
+    \[Omitted image "RelatedLists.png"\] Alt text: Select a different related list
 
     If the related list is empty, the hierarchical list indicates that there are no records to display.
 
@@ -37,7 +38,7 @@ Role required: none
 
 3.  To display column headers in the related list, click the show/hide headers icon in the upper right corner of the hierarchical list.
 
-    ![Enable a column header](../image/EnableAColumnHeader.png)
+    \[Omitted image "EnableAColumnHeader.png"\] Alt text: Enable a column header
 
     The platform remembers this preference and opens all hierarchical lists with column headers enabled until the headers are hidden.
 

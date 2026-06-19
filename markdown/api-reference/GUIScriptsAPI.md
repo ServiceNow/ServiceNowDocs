@@ -2,6 +2,7 @@
 title: GlideUIScripts - Client
 description: The GlideUIScripts API provides methods to access UI scripts from within client-side code.Calls a UI script from a client script or other client-side code. Returns a promise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/GUIScriptsAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,11 +18,11 @@ The GlideUIScripts API provides methods to access UI scripts from within client-
 
 There is no constructor for this class. Access methods using the `g_ui_scripts` global object in any client-side code, such as client or validation scripts.
 
-This API is only supported in Workspaces and Service Portal. It is not supported in the Core UI \(UI16\).
+This API is only supported in Workspaces and Service Portal. It is not supported in the Core UI \(UI16\). This class does not support UI scripts with the **Global** field set to `true`.
 
 To use this API, the **UI Type** field must be set to **Mobile / Service Portal** or **All** on both the client script and the UI script. It cannot be set to **Desktop**.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## GlideUIScripts - getUIScript\(String scriptName\)
 

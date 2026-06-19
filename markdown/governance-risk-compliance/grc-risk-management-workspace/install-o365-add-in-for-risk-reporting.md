@@ -2,6 +2,7 @@
 title: Install the ServiceNow Reporting add-in for risk reporting
 description: Install the ServiceNow Reporting add-in to your Microsoft Word document. This add-in is required to import reports and data from your ServiceNow instance to Microsoft Word documents to create risk reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/install-o365-add-in-for-risk-reporting.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace

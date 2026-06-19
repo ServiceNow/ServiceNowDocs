@@ -2,6 +2,7 @@
 title: Override metric data
 description: If the metric data provided by the data owner is inaccurate, then you can modify or override the metric data provided by the data owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_override-metric-data.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -44,5 +45,5 @@ After a metric data task is closed, the risk administrator can modify the metric
 
 The metric data task value is overridden and the same value is updated in the metric data.
 
-**Parent Topic:**[Using GRC: Metrics to provide data](../concept/using-metrics-irm.md)
+**Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-metrics-irm.md)
 

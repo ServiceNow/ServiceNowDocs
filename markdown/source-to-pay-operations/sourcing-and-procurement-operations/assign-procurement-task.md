@@ -2,6 +2,7 @@
 title: Create a task from a procurement case
 description: Create a task directly from a procurement case. You can also create associated tasks and assign these tasks to fulfill the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/assign-procurement-task.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -41,7 +42,7 @@ Role required: sn\_spend\_psd.psd\_admin, sn\_spend\_psd.agent
 
 7.  In the **What task would you like to create?** field, select a task type.
 
-    For information on the task types, see [Purchasing tasks and procurement cases](../reference/purchasing-tasks.md).
+    For information on the task types, see [Purchasing tasks and procurement cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchasing-tasks.md).
 
 8.  Select **Create task**.
 
@@ -66,5 +67,5 @@ Role required: sn\_spend\_psd.psd\_admin, sn\_spend\_psd.agent
     You can create multiple tasks to fulfill the procurement case. All tasks in Open state are displayed on the **Open tasks** pane of the task tab. You can access the tasks directly from this pane and perform the necessary actions.
 
 
-**Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
+**Parent Topic:**[Using Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/using-pcm.md)
 

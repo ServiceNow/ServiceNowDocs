@@ -2,6 +2,7 @@
 title: Restarting failed build or release pipeline jobs and stages
 description: Rerun or redeploy Azure DevOps build, release changes, or pipelines that are failed or canceled in that stage or pipeline. The reattempts display on the DevOps pipeline UI as continuous runs instead of creating new executions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/restart-pipeline-stage-devops-ado.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -21,7 +22,7 @@ You can rerun a failed or canceled build or release pipelines or change jobs in 
 
 An **attemptNumber** parameter is added to the payload which helps us track reruns. Associated test summary, software quality scan results, commits, work items corresponding to every rerun attempt is also updated in ServiceNow DevOps.
 
-If you are using the [Configuring change control using the Azure Invoke REST API](dev-ops-azure-change-control-api.md) you must add the attempt number parameter to your payload body in the specified syntax format for build and release pipelines. If you do not specify the attempt number parameter, the default attempt number is set to 1.
+If you are using the [Configuring change control using the Azure Invoke REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-azure-change-control-api.md) you must add the attempt number parameter to your payload body in the specified syntax format for build and release pipelines. If you do not specify the attempt number parameter, the default attempt number is set to 1.
 
 Example attempt number parameter in build pipeline payload:
 
@@ -45,7 +46,7 @@ For example, when a pipeline fails at a specific stage after the change request 
 
 To apply a custom logic for reusability, you can copy the existing subflow, make the changes, publish it, and update the new subflow name under **DevOps Properties** &gt; **DevOps Change Request Reusability Decision Subflow**.
 
-In the regular base system flow when a change is created, ‘ [Customizing DevOps flows](using-dev-ops-model-change-flow.md)’ is used to update the  **State**  field of step execution record after a decision is taken on the change request. However, when you reuse a change, the first trigger condition of a change request being created is not met. A base system subflow ‘DevOps Change Request Reusability Model Subflow’ is triggered instead, whenever a change request is reused when a job is a rerun. The default implementation of this subflow is similar to the DevOps Model Change Request flow. You can create a custom subflow and update the subflow name at **DevOps Properties** &gt; **DevOps Change Request Reusability Model Subflow**.
+In the regular base system flow when a change is created, ‘ [Customizing DevOps flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-dev-ops-model-change-flow.md)’ is used to update the  **State**  field of step execution record after a decision is taken on the change request. However, when you reuse a change, the first trigger condition of a change request being created is not met. A base system subflow ‘DevOps Change Request Reusability Model Subflow’ is triggered instead, whenever a change request is reused when a job is a rerun. The default implementation of this subflow is similar to the DevOps Model Change Request flow. You can create a custom subflow and update the subflow name at **DevOps Properties** &gt; **DevOps Change Request Reusability Model Subflow**.
 
 ## Pipeline UI changes
 
@@ -55,7 +56,7 @@ ServiceNow DevOps synchronizes all the changes that are caused when you restart 
 -   Click the **View all attempts** link to see all the step executions and related information associated to the step or stage that is run more than once.
 -   The View change link displays the change request associated with the latest attempt.
 
-In previous releases, failed jobs were either ignored or a new pipeline execution job was created for reruns and processed accordingly. For more information, see [DevOps Pipeline UI](dev-ops-pipeline-ui.md).
+In previous releases, failed jobs were either ignored or a new pipeline execution job was created for reruns and processed accordingly. For more information, see [DevOps Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md).
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

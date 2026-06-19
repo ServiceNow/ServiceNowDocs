@@ -2,6 +2,7 @@
 title: NLU Workbench roles
 description: NLU Workbench is installed with these roles.Users who have read access to models in NLU Workbench.Users who can edit NLU models assigned to them in NLU Workbench.Users who can use NLU Workbench to manage NLU models.Data labelling \(NLU feedback\) Admin role - to manage data labelling across models also ability to optimize models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/natural-language-understanding-roles.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Natural Language Understanding, Natural Language Understa
 
 NLU Workbench is installed with these roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 ## NLU user \[nlu\_user\]
 
@@ -111,7 +112,7 @@ None.
 
 **Important:** Avoid granting an admin role when more specialized roles are available.
 
-This role is installed with NLU Workbench - Advanced Features. For more information, see [NLU Workbench - Advanced Features](../concept/nlu-workbench-advanced-features.md).
+This role is installed with NLU Workbench - Advanced Features. For more information, see [NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md).
 
-This role is used in Expert Feedback Loop modules. For more information, see [NLU Expert Feedback Loop](../concept/nlu-expert-feedback-loop.md) or [Issue Auto Resolution Tuning in NLU](../concept/issue-auto-resolution-tuning-nlu.md).
+This role is used in Expert Feedback Loop modules. For more information, see [NLU Expert Feedback Loop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md) or [Issue Auto Resolution Tuning in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.md).
 

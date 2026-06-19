@@ -2,13 +2,14 @@
 title: Commercial Lines Claims workflows
 description: The Commercial Lines Claims application installs automated workflows that you can configure for any claims tasks. These workflows create cases and routes any tasks accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/commercial-lines-claims-workflows.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Use, Commercial Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Commercial Lines Claims workflows
@@ -31,7 +32,7 @@ The following example shows a workflow that routes the case and tasks for invest
 -   Fraud evaluation
 -   Claim closure
 
-![Workflow showing the claims process for a commercial auto claim using the Commercial Lines Claims application. For the image description, see the text that follows.](../image/claims-process-flow-commercial-auto-claim.png "Claims process workflow – Commercial Auto Claim​")
+\[Omitted image "claims-process-flow-commercial-auto-claim.png"\] Alt text: Workflow showing the claims process for a commercial auto claim using the Commercial Lines Claims application. For the image description, see the text that follows.
 
 ## First notice of loss \(FNOL\) stage
 

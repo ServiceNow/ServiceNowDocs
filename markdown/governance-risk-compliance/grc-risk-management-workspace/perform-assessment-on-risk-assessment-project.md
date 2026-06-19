@@ -2,6 +2,7 @@
 title: Perform assessment on a risk assessment project in stacked view
 description: Perform assessments on multiple risks and controls simultaneously in a risk assessment project using Risk Workspace. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/perform-assessment-on-risk-assessment-project.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -35,15 +36,15 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
     If you're performing reassessment, Copy risk assessments dialog box appears. Select **Yes** to copy responses from the previous risk assessment.
 
-6.  To reassign the project, select the ![more actions.](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) icon, and select **Reassign**.
+6.  To reassign the project, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Reassign**.
 
 7.  To add risks to the project, you can do the following:
 
-    1.  To create risks from the risk statement, select the ![more actions.](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) icon, and select **Create from risk statements**.
+    1.  To create risks from the risk statement, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Create from risk statements**.
 
-    2.  To add a risk that is not in the library, select the ![more actions.](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) icon, and select **Create ad hoc risk**.
+    2.  To add a risk that is not in the library, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Create ad hoc risk**.
 
-    3.  To add any underlying risks that have been removed, select the ![more actions.](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) icon, and select **Add risk**.
+    3.  To add any underlying risks that have been removed, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Add risk**.
 
     The risks with an in-progress assessment can't be added as part of the risk assessment project.
 
@@ -67,7 +68,7 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
 10. To view the complete summary of the assessment, select **View summary**.
 
-11. To check for any errors in the assessment before you submit the assessment, select the ![more actions.](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) icon, and select **Validate**.
+11. To check for any errors in the assessment before you submit the assessment, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Validate**.
 
     You can see the list of errors, if any, that must be resolved in the side panel for the selected risk.
 
@@ -80,5 +81,5 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
     Assessments are validated again in this stage. Review the assessment summary before you submit. You can’t make any changes after submission.
 
 
-**Parent Topic:**[Risk assessment project](../concept/risk-assessment-project.md)
+**Parent Topic:**[Risk assessment project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-assessment-project.md)
 

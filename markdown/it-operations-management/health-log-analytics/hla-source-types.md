@@ -2,6 +2,7 @@
 title: Configure source type capabilities in Health Log Analytics
 description: Health Log Analytics extracts source types automatically in the mapping process. You can add timestamp formats and specify, delete, or exclude keywords for individual source types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-source-types.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -127,10 +128,10 @@ Boolean value. If selected, Health Log Analytics looks for a case-sensitive matc
 
     1.  Select the row of the global keyword that you want to exclude.
     2.  From the **Actions on selected rows** list at the bottom of the page, select **Exclude keyword**.
-    **Note:** You can delete global keywords from the [Lexical Keywords page](hla-lexical-keywords-admin.md).
+    **Note:** You can delete global keywords from the [Lexical Keywords page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-lexical-keywords-admin.md).
 
 7.  Select **Update**.
 
 
-**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](../concept/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 

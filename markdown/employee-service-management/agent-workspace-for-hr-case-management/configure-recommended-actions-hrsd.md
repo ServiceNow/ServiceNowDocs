@@ -2,6 +2,7 @@
 title: Configuring Recommended Actions for HRSD
 description: Configure recommended actions to create a context, rule, and recommendations with action types such as guidance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/configure-recommended-actions-hrsd.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -18,11 +19,11 @@ Configure recommended actions to create a context, rule, and recommendations wit
 
 ## Configuration overview
 
-1.  [Install Recommended Actions for HRSD](../task/install-recommend-actions-hrsd.md)
+1.  [Install Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/install-recommend-actions-hrsd.md)
 
-    Download the [Install Recommended Actions for HRSD](../task/install-recommend-actions-hrsd.md) application from ServiceNow® Store.
+    Download the [Install Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/install-recommend-actions-hrsd.md) application from ServiceNow® Store.
 
-2.  [Configuring the HR case context](config-rc-hr.md)
+2.  [Configuring the HR case context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/config-rc-hr.md)
 
     Configure recommended actions to create a context, rule, and recommendations with action types such as guidance.
 

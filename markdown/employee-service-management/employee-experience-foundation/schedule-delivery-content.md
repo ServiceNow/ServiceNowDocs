@@ -2,6 +2,7 @@
 title: Schedule delivery of Microsoft Teams notification content
 description: Schedule posting of notifications in the Microsoft Teams channels.Complete the Schedule content form to schedule the posting of notifications in Microsoft Teams channels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/schedule-delivery-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,12 +30,12 @@ Role required: sn\_cd.content\_manager, admin
 
 4.  On the form, fill in the fields.
 
-    For more information, see [Schedule content form for Microsoft Teams notifications](schedule-delivery-content.md#).
+    For more information, see [Schedule content form for Microsoft Teams notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/schedule-delivery-content.md).
 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Create a Microsoft Teams campaign using direct content publishing](../concept/create-campaign-content-publishing.md)
+**Parent Topic:**[Create a Microsoft Teams campaign using direct content publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-campaign-content-publishing.md)
 
 ## Schedule content form for Microsoft Teams notifications
 

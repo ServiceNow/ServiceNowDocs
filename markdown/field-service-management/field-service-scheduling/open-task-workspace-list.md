@@ -2,6 +2,7 @@
 title: Open tasks from the list in CSM/FSM Configurable Workspace
 description: Quickly open tasks from the list in CSM/FSM Configurable Workspace and see them in Dispatcher Workspace to act on them without searching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/open-task-workspace-list.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -29,7 +30,7 @@ When you open multiple tasks, Dispatcher Workspace displays today's date, not th
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the **List** ![List](../image/coral-list-icon.png) icon.
+2.  Select the **List** \[Omitted image "coral-list-icon.png"\] Alt text: List icon.
 
 3.  Select **Work Order Tasks** &gt; **My Work Order Tasks**.
 
@@ -39,7 +40,7 @@ When you open multiple tasks, Dispatcher Workspace displays today's date, not th
 
 5.  Select **Open in Dispatcher Workspace**.
 
-    ![opening multiple tasks from the list](../image/open-from-list.png)
+    \[Omitted image "open-from-list.png"\] Alt text: opening multiple tasks from the list
 
     The tasks open in Dispatcher Workspace in a new tab. You can save the URL to open the same work order tasks in Dispatcher Workspace later.
 

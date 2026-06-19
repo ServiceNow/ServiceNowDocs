@@ -2,11 +2,14 @@
 title: Add a Site
 description: Add a site to your Discovery Console for OT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/add-site.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Sites page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Sites page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Add a Site
@@ -21,7 +24,7 @@ Role required: admin
 
 1.  Navigate to the Sites page.
 
-2.  Select the add icon![](../../../../msi-console/image/add-icon-msi.jpg).
+2.  Select the add icon\[Omitted image "add-icon-msi.jpg"\] Alt text:.
 
     The Site creation wizard opens.
 
@@ -65,11 +68,11 @@ Role required: admin
 
 13. Add individual IP addresses to scan:
 
-    1.  Under Include, select the **IP Address** field, enter a single IP address, and select the add IP address icon ![](../image/add-ip-address.png).
+    1.  Under Include, select the **IP Address** field, enter a single IP address, and select the add IP address icon \[Omitted image "add-ip-address.png"\] Alt text:.
 
-    2.  To add multiple IP Addresses at once, select the add multiple IP Addresses icon ![](../image/add-multiple.png), and enter or paste the IP addresses separated by commas.
+    2.  To add multiple IP Addresses at once, select the add multiple IP Addresses icon \[Omitted image "add-multiple.png"\] Alt text:, and enter or paste the IP addresses separated by commas.
 
-        ![Add multiple IP addresses window](../image/multiple-ip-addresses-window.png)
+        \[Omitted image "multiple-ip-addresses-window.png"\] Alt text: Add multiple IP addresses window
 
 14. Exclude or ignore IP address ranges to scan:
 
@@ -79,9 +82,9 @@ Role required: admin
 
 15. Exclude or ignore individual IP addresses to scan:
 
-    1.  Under Ignore, select the **IP Address** field, enter a single IP address, and select the Add IP Address icon ![](../image/add-ip-address.png).
+    1.  Under Ignore, select the **IP Address** field, enter a single IP address, and select the Add IP Address icon \[Omitted image "add-ip-address.png"\] Alt text:.
 
-    2.  To add multiple IP Addresses to ignore, select the Add Multiple IP Addresses icon ![](../image/add-multiple.png), and enter or paste the IP addresses separated by commas.
+    2.  To add multiple IP Addresses to ignore, select the Add Multiple IP Addresses icon \[Omitted image "add-multiple.png"\] Alt text:, and enter or paste the IP addresses separated by commas.
 
         **Note:** You cannot include and ignore the same IP address. If you attempt to do so, the system displays an error.
 
@@ -107,7 +110,7 @@ Role required: admin
 
     You can select Sensors in the Allow and Deny sections; but do not select the same Sensor in both sections.
 
-    ![Allow deny Sensors](../image/sensors-allow-deny-site.png)
+    \[Omitted image "sensors-allow-deny-site.png"\] Alt text: Allow deny Sensors
 
     **Note:** Sensors are online when the circle next to their name is green. A yellow circle indicates Sensors that are offline.
 

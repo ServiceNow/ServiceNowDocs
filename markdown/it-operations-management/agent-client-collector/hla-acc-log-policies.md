@@ -2,6 +2,7 @@
 title: Create an Agent Client Collector log policy
 description: Create a new ACC log policy when no default policy exists for the CI that you want Agent Client Collector to monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/hla-acc-log-policies.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -17,7 +18,7 @@ Create a new ACC log policy when no default policy exists for the CI that you wa
 
 ## Before you begin
 
--   The Agent Client Collector Log Analytics \(ACC-L\) application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), must be installed. For more information, see [Agent Client Collector installation](../../agent-client-collector/concept/acc-installation.md).
+-   The Agent Client Collector Log Analytics \(ACC-L\) application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), must be installed. For more information, see [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-installation.md).
 -   The Agent Client Collector comes with the default **servicenow** user. Ensure that this user has read access to enable Agent Client Collector to view all the configured log paths. For example, the Agent Client Collector **servicenow** user that comes installed with the base system does not have permissions to view the paths to `/var/log/` in Linux and `C:\Windows\System32` in Windows. For information about configuring permissions for the **servicenow** user, see the [ACC-L Permission Denied issues \[KB1117271\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117271) article in the Now Support Knowledge Base.
 
 Role required: agent\_client\_collector\_admin
@@ -26,11 +27,11 @@ Role required: agent\_client\_collector\_admin
 
 1.  Navigate to **All** &gt; **ACC Log Analytics** &gt; **ACC Log Policies**.
 
-    The **Policies** page displays all Log Analytics policies. For a list of the policies that come with the base system, see [Agent Client Collector Log Analytics default policies and checks](../../agent-client-collector/reference/acc-log-analytics-policies-checks.md).
+    The **Policies** page displays all Log Analytics policies. For a list of the policies that come with the base system, see [Agent Client Collector Log Analytics default policies and checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-log-analytics-policies-checks.md).
 
 2.  Click **New**.
 
-    **Note:** For general information about creating an ACC policy, see [Create a new Agent Client Collector policy](../../agent-client-collector/task/create-edit-policies.md).
+    **Note:** For general information about creating an ACC policy, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-edit-policies.md).
 
 3.  On the form, fill in the fields.
 
@@ -52,7 +53,7 @@ Role required: agent\_client\_collector\_admin
         -   **Monitored CI type by filter**: Select the monitored CI type. You can narrow down the CIs that will be monitored by using filter conditions.
         -   **Monitored CI type by script**: Specify the monitored CIs by using a script.
         -   **Monitored CI type by CMDB Group**: Specify the monitored CIs by using CMDB group queries.
-        For more information about choosing monitored CI types, see [Create a new Agent Client Collector policy](../../agent-client-collector/task/create-edit-policies.md).
+        For more information about choosing monitored CI types, see [Create an Agent Client Collector policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/create-edit-policies.md).
 
     2.  Monitor only CIs that are associated with an Application Service by selecting **Filter Monitored CIs by Application Service**.
 
@@ -68,7 +69,7 @@ Role required: agent\_client\_collector\_admin
 
 9.  Add a log path for the check instance.
 
-    **Note:** A check must have at least one log path configured for it to enable streaming logs. For more information about checks, see [Checks and policies](../../agent-client-collector/concept/checks-policies.md).
+    **Note:** A check must have at least one log path configured for it to enable streaming logs. For more information about checks, see [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/checks-policies.md).
 
     1.  Select **New**.
 
@@ -135,7 +136,7 @@ Fields
 
 </td><td>
 
-Field that enables you to include and exclude information in the output. For example, you can add a field for filtering the log data.Add more Field rows by selecting the plus icon next to the Value field: ![Plus icon.](../../agent-client-collector/image/hla-log-path-add-field.png). Remove a Field row by selecting the minus icon: ![Minus icon.](../../agent-client-collector/image/hla-log-path-remove-field.png).
+Field that enables you to include and exclude information in the output. For example, you can add a field for filtering the log data.Add more Field rows by selecting the plus icon next to the Value field: \[Omitted image "hla-log-path-add-field.png"\] Alt text: Plus icon.. Remove a Field row by selecting the minus icon: \[Omitted image "hla-log-path-remove-field.png"\] Alt text: Minus icon..
 
  For more information, see the Log input [Fields](https://www.elastic.co/guide/en/beats/filebeat/current/filebeat-input-log.html#filebeat-input-log-fields) description in the Elastic documentation.
 
@@ -165,5 +166,5 @@ For more information, see the Log input [Configuration options](https://www.elas
 
 ## What to do next
 
-[Ensure that the data input is streaming data](../../agent-client-collector/task/accl-verify-log-streaming.md).
+[Ensure that the data input is streaming data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/accl-verify-log-streaming.md).
 

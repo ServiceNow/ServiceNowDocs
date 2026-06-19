@@ -2,11 +2,12 @@
 title: Better together with other ServiceNow applications
 description: Integration of Portfolio Planning with other ServiceNow applications helps portfolio and product managers to optimize planning, collaboration, and release management for their products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/better-together-with-other-apps-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -21,7 +22,7 @@ With the integration of ServiceNow® Collaborative Work Management \(CWM\) with 
 
 The lenses supported to configure CMW Board as a planning item are Organization and Project Portfolio.
 
-For more information on integration of CWM with Portfolio Planning, see [Connecting CWM with Strategic Planning or Portfolio Planning](../../collab-work-mgmt/concept/connect-cwm-spw.md#).
+For more information on integration of CWM with Portfolio Planning, see [Connecting CWM with Strategic Planning or Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/connect-cwm-spw.md).
 
-**Parent Topic:**[Exploring Portfolio Planning](exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

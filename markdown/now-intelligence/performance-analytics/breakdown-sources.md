@@ -2,6 +2,7 @@
 title: Breakdown sources
 description: Breakdown sources specify which unique values, called breakdown elements, a breakdown contains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/breakdown-sources.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,10 +18,10 @@ Breakdown sources specify which unique values, called breakdown elements, a brea
 
 A breakdown source is defined as a set of records from a table or database view or as a bucket group. External data is supported via Workflow Data Fabric tables. Multiple breakdowns can use the same breakdown source. For example, instead of seeing ALL assignment groups for the Number of Open Changes indicator, you can limit the element list to just those groups that are part of the change process by configuring the Breakdown Source.
 
--   **[Define a breakdown source](../task/t_DefiningABreakdownSource.md)**  
+-   **[Define a breakdown source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_DefiningABreakdownSource.md)**  
 Specify a facts table to serve as a data source for breakdowns. External data is supported via Workflow Data Fabric tables. Apply conditions to specify the elements for this breakdown source.
--   **[Bucket groups for breakdown sources](c_BucketGroups.md#)**  
+-   **[Bucket groups for breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_BucketGroups.md)**  
 Bucket groups are used to recategorize data so it can be used as a breakdown, for example by grouping a range of values into discrete buckets.
 
-**Parent Topic:**[Indicator breakdowns](c_CreatingBreakdowns.md)
+**Parent Topic:**[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
 

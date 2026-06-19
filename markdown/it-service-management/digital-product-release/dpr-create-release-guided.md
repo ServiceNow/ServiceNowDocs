@@ -2,6 +2,7 @@
 title: Create a release with a wizard
 description: Create a release for one or more products or services with the help of a wizard. The wizard guides you through the entire release creation process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-create-release-guided.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -17,14 +18,14 @@ Create a release for one or more products or services with the help of a wizard.
 
 ## Before you begin
 
--   [Define release scope using product enhancements](dpr-manage-digital-product.md)
--   [Complete the release planning](dpr-plan-feature-version.md) by moving enhancements into different releases
+-   [Define release scope using product enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-digital-product.md)
+-   [Complete the release planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-plan-feature-version.md) by moving enhancements into different releases
 
 Role required: sn\_dpr\_model.product\_manager
 
 ## About this task
 
-Releases can follow a timeline-oriented and stage-oriented release process. For more information, see [Release for a product or service](../concept/dpr-product-release.md).
+Releases can follow a timeline-oriented and stage-oriented release process. For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-product-release.md).
 
 **Note:** When you edit releases that are in the Draft state, they open in the wizard where you can finish creating them.
 
@@ -32,7 +33,7 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\).
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
 
 3.  Select **Create release**.
 
@@ -48,7 +49,7 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
     The existing versions listed for a product or service are based on the **Validates product or service version** field.
 
-    **Note:** If a new version number is entered, it’s automatically created and associated with the release.
+    **Note:** If a new version number is entered, it’s automatically created and associated with the release.When **Validates product or service version** is selected, the new version number must be unique for the product or service.
 
     Any Included products associated with the selected product or service are listed.
 
@@ -61,7 +62,7 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
         4.  If any of the selected products also have their own Included products, you can choose to include or exclude them from being added to the release.
             -   To add the selected products and their Included products, select **Yes, add Included products also**.
             -   To add only the selected products without Included products, select **No, add selected products**.
-    -   To remove an existing Included product from the list, select the remove included product icon \(![Remove included product icon.](../image/dpr-icon-release-remove.png)\) against the product.
+    -   To remove an existing Included product from the list, select the remove included product icon \(\[Omitted image "dpr-icon-release-remove.png"\] Alt text: Remove included product icon.\) against the product.
 
         **Note:** The number of Included products that can be added to a release depends on the system property **sn\_dpr.multi\_product.included\_products\_limit**. A release admin can update the value of this property to increase or decrease the limit.
 
@@ -69,7 +70,9 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
     The templates listed are based on the **Validates product or service version** field. If it’s selected, the templates with the validate version setting on are only available to choose.
 
-    A release structure is generated based on the selected release template. For more information about a release template, see [Create a release template](dpr-create-release-template.md#).
+    **Note:** When product-level release settings are configured, only the templates defined in the release settings are available for selection. For more information, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
+
+    A release structure is generated based on the selected release template. For more information about a release template, see [Create a release template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-release-template.md).
 
 8.  In the **Release target** step, select a release readiness target to determine when the release should be ready.
 
@@ -78,6 +81,8 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
     A release target is needed for timeline-oriented releases, while it's not required for stage-oriented releases.
 
     1.  Select a release calendar.
+
+        **Note:** When product-level release settings are configured, only the calendars defined in the release settings are available for selection.
 
     2.  Select a release target date on the calendar.
 
@@ -103,16 +108,16 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
         -   The start date of the release or its phase falls in the past.
         -   The duration exceeds the max duration defined in the system property.
-        In that case, you have to select another schedule or adjust the holidays. For more information, see [Holiday schedules in a release](../concept/dpr-release-holiday-schedule.md).
+        In that case, you have to select another schedule or adjust the holidays. For more information, see [Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-release-holiday-schedule.md).
 
     -   Any key dates from the template are added to the release. The date of each key date is calculated using the number of days from the start or end of the phase specified in the release template.
 
         **Note:** If the release has a holiday schedule and a key date from the template falls on a holiday, the last workday before or after the holiday is considered as the revised key date.
 
--   Any artifacts associated with the product or release are added to the release. For more information, see [View and manage data from external tools](dpr-manage-product-ext-tool.md).
+-   Any artifacts associated with the product or release are added to the release. For more information, see [View and manage data from external tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-product-ext-tool.md).
 
-    You can add or remove artifacts from a release as needed. For more information, see [Manage artifacts in a release](dpr-work-release-artifact.md).
+    You can add or remove artifacts from a release as needed. For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
 
-**Parent Topic:**[Using Digital Product Release](../concept/dpr-using-digital-product-release.md)
+**Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
 

@@ -2,6 +2,7 @@
 title: Create an IBM Discovery schedule in Discovery Admin Workspace
 description: Use the Discovery Admin Workspace dashboard to create an IBM Discovery schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/create-ibm-schedule-DAW.html
 release: australia
 product: Discovery
 classification: discovery
@@ -20,10 +21,10 @@ Use the Discovery Admin Workspace dashboard to create an IBM Discovery schedule.
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md).
+-   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using Use MID Server guided setup or by manually downloading and running the installer. For details, see the MID Server installation instructions for Linux and Windows.
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
 -   You have configured a Service ID in the IBM Cloud Console and created an associated API key that has the required Identity and Access Management \(IAM\) roles, so that the MID Server can access the cloud resources you plan to discover.
--   You have created suitable IBM Cloud credentials in the ServiceNow AI Platform to connect with the IBM Cloud Service ID you created. For more information, see [Discovery for IBM Cloud Platform](../concept/ibm-cloud-discovery.md).
+-   You have created suitable IBM Cloud credentials in the ServiceNow AI Platform to connect with the IBM Cloud Service ID you created. For more information, see [Discovery for IBM Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ibm-cloud-discovery.md).
 -   You're using Discovery Admin Workspace v1.13.0.
 
 Role required: discovery\_admin
@@ -44,8 +45,8 @@ Role required: discovery\_admin
 
     |Option|Description|
     |------|-----------|
-    |**Use a cluster of MID servers**|Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md) for more information.|
-    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](../../agent-client-collector/concept/acc-auto-mid-selection.md) for more information.|
+    |**Use a cluster of MID servers**|Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See  for more information.|
+    |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.|
     |**Search for a MID server**|Choose a MID Server to run the Discovery schedule. Only MID Servers that are validated, up, and have the Cloud Management capability are displayed.|
 
 7.  Select **Next**.

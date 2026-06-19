@@ -2,6 +2,7 @@
 title: Notify change request rejection or cancellation reason to Jenkins pipeline
 description: Send change request rejection or cancellation reason along with approver name and the change request number to Jenkins pipeline logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/update-jenkins-change-reject-reason.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity

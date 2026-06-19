@@ -2,6 +2,7 @@
 title: Retiring a service instance can affect tangible/physical CIs
 description: Because a service instance might depend on a hardware \(tangible/physical\) device that other service instances depend on, you must take care when retiring a service instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-retire-srvc-inst-affects-hdw.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -32,7 +33,7 @@ Tangible/physical and software CIs are managed using the tangible/physical life-
     When one of the service instances is retired, the database service and host cannot be retired. All other service instances still depend on the database service that is running on the host.
 
 
-See [Use Service instance \(Application Services\) dashboard to monitor health](../../configuration-management/task/app-service-dashboard.md).
+See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
-**Parent Topic:**[Life cycle of tangible/physical CIs](../concept/csdm-lifecycle-hardware.md)
+**Parent Topic:**[Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
 

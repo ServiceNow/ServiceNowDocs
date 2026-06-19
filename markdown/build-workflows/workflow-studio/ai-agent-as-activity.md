@@ -2,12 +2,13 @@
 title: Use AI agent as an activity
 description: Use an existing AI agent as an activity in your playbook to automate tasks. The AI agent gathers the required context, performs the work, and produces outputs that subsequent activities can consume.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/ai-agent-as-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -18,9 +19,9 @@ Use an existing AI agent as an activity in your playbook to automate tasks. The 
 
 ## Before you begin
 
-Role required: playbook.admin or pd\_author.
+Make sure that Now Assist AI agents plugin is installed and you have AI agents available in your instance. For information about installing the Now Assist AI agents plugin, see . For information about creating an AI agent, see .
 
-Make sure that Now Assist AI agents plugin is installed and you have AI agents available in your instance. For information about installing the Now Assist AI agents plugin, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md). For information about creating an AI agent, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+Role required: playbook.admin or pd\_author.
 
 ## About this task
 
@@ -34,7 +35,7 @@ When you add an AI agent to the activity, you select the agent, provide an objec
 
 3.  In a new or an existing stage, select **Add an activity**.
 
-    ![Image showing the option to add an activity.](../images/use-ai-agent.png)
+    \[Omitted image "use-ai-agent.png"\] Alt text: Image showing the option to add an activity.
 
 4.  From the list of activities, under **Common Activities**, select **Use an AI agent**.
 
@@ -129,47 +130,20 @@ Alex performs all interactions with the AI agent within the playbook, without op
 
 1.  When the playbook reaches the research stage, Alex selects **Start Now Assist** to run the AI agent.
 
-    ![User clicks Start Now Assist button to run the AI agent.](../images/use-ai-agent-start.png)
+    \[Omitted image "use-ai-agent-start.png"\] Alt text: User clicks Start Now Assist button to run the AI agent.
 
 2.  Alex can view the tasks that the AI agent is performing.
 
-    ![The AI agent is running and Alex can view the tasks being performed by the agent.](../images/use-ai-agent-status.png)
+    \[Omitted image "use-ai-agent-status.png"\] Alt text: The AI agent is running and Alex can view the tasks being performed by the agent.
 
 3.  After analyzing the case and similar cases, the AI agent recommends adding four tasks and prompts Alex for confirmation. Alex can remove any of the recommended tasks or select **Confirm** for the AI agent to create the tasks.
 
-    ![The AI agent prompts for permission before creating tasks for the next steps.](../images/use-ai-agent-worknote.png)
+    \[Omitted image "use-ai-agent-worknote.png"\] Alt text: The AI agent prompts for permission before creating tasks for the next steps.
 
 4.  After receiving the confirmation, the AI agent creates the tasks and marks the activity as complete.
 
-    ![AI agent completes the activity.](../images/use-ai-agent-complete.png)
+    \[Omitted image "use-ai-agent-complete.png"\] Alt text: AI agent completes the activity.
 
 
-**Parent Topic:**[Stages and activities](../concept/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook](add-configure-stage.md)
-
-[Activity definitions](../concept/activity-definitions.md)
-
-[Add and configure an activity in a playbook](add-configure-activity.md)
-
-[Automation Assets](../concept/automation-assets.md)
-
-[Start with delay input properties](../reference/start-with-delay-properties.md)
-
-[Optional activities](../concept/optional-activities.md#)
-
-[Decision activities](create-a-decision-activity.md)
-
-[Decision stages](create-decision-stage.md)
-
-[Questionnaire activity](../reference/questionnaire-activity.md)
-
-[Parallel branches](create-parallel-activity.md)
-
-[Add dynamic inputs to an activity](add-dynamic-inputs-to-activity.md)
-
-[Playbook activity state mapping](../../workspace/concept/playbook-activity-state-mapping.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

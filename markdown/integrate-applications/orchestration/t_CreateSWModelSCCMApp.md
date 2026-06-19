@@ -2,6 +2,7 @@
 title: Set up a software model for an SCCM application
 description: Using the applications discovered on the SCCM server, set up a software model used by the Software Asset Management application to manage licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/t\_CreateSWModelSCCMApp.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -19,7 +20,7 @@ Using the applications discovered on the SCCM server, set up a software model us
 
 Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
-Before creating software models, you must discover the applications available for deployment on the SCCM server. See [Retrieve SCCM data for client software distribution](t_RetrieveSCCMDataClientSWDist.md#) for details.
+Before creating software models, you must discover the applications available for deployment on the SCCM server. See [Retrieve SCCM data for client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_RetrieveSCCMDataClientSWDist.md) for details.
 
 ## About this task
 
@@ -35,7 +36,7 @@ You can link an SCCM application to an existing software model or create a new m
 
 3.  To link to an existing model, click the magnifying glass icon in the **Model** field and select a model from the list.
 
-    ![SCCM application record](../../../administer/integrationhub/images/SCCMApplicationRecord.png "SCCM application record")
+    \[Omitted image "SCCMApplicationRecord.png"\] Alt text: SCCM application record
 
 4.  To create a model, click **Create Software Model** under **Related Links**.
 
@@ -48,5 +49,5 @@ You can link an SCCM application to an existing software model or create a new m
         The view returns to the SCCM Applications form.
 
 
-**Parent Topic:**[Configuring SCCM](../concept/configuring-sccm.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/configuring-sccm.md)
 

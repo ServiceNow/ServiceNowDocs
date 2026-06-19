@@ -2,12 +2,13 @@
 title: Review certification tasks
 description: Review the values of record fields and CI attributes in certification tasks assigned to you, and then certify, edit, or fail the review according to your findings. For managers, tasks of direct reports are included, and for user group managers, tasks of members in the group are also included.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -35,7 +36,7 @@ If a certification task isn't properly assigned, you can reassign it to another 
 1.  Navigate to the Certification tasks list in either of the following ways:
 
     -   Navigate to **Workspaces** &gt; **CMDB Workspace**, then select **My Work** in the CMDB Workspace menu bar. In the My tasks section, select the Certification tasks tab.
-    -   Navigate to **Workspaces** &gt; **CMDB Workspace**. On the Home view in CMDB Workspace, select the **Data Certification Dashboard** quick link. Then, on the Data Certification Dashboard, drill down to the Certification tasks list from a certification instance card or from the Workload and Aging tasks tiles, as described in [Data Certification Dashboard](../concept/data-cert-dashboard-workspace.md).
+    -   Navigate to **Workspaces** &gt; **CMDB Workspace**. On the Home view in CMDB Workspace, select the **Data Certification Dashboard** quick link. Then, on the Data Certification Dashboard, drill down to the Certification tasks list from a certification instance card or from the Workload and Aging tasks tiles, as described in [Data Certification Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/data-cert-dashboard-workspace.md).
     -   Navigate to **Workspaces** &gt; **Service Graph Workspace** and in the navigation panel select the Tasks icon. In the Tasks navigation panel select **Certification** and on the Data Certification page, select the Certification tasks tab.
 2.  In the Certification tasks list, select multiple tasks to reassign tasks in bulk.
 
@@ -75,7 +76,7 @@ If a certification task isn't properly assigned, you can reassign it to another 
 
 7.  Select **Submit** when all the records have been reviewed.
 
-    The **Submit** button isn't available until all the records in the task are reviewed and the task is complete.
+    The **Submit** button isn't available until all the records in the task are reviewed and the task is complete.Alternatively, you can select the **Submit task** link in the 'Ready to submit' notification.
 
 
 ## What to do next

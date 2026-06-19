@@ -2,6 +2,7 @@
 title: Managing proposed changes
 description: The proposed changes feature allows you to pre-configure changes to configuration items and their associated relationships. These pre-configured changes are prepared to be implemented, but do not actually happen until they are applied at a later time.You can view the proposed changes so that you can see what is planned for the CI.Proposed changes to a CI can be made while viewing a change request or any task-related record.When you apply the proposed changes, all the proposed changes for that change request are applied to the configuration item. You can apply proposed changes without verification, or if verification tests of the proposed changes have failed.Ensure that proposed changes meet business requirements and do not introduce invalid data to the CMDB, create a rule that includes a script to verify the proposed changes.Before applying proposed changes to affected CIs, use proposed change verification rules to verify that the changes meet business requirements and do not add invalid data to the CMDB.Create a custom script that checks if a change to a class was valid according to business requirements, and whether the change was planned or not. A planned change validation script is used whenever a CI change is viewed in the CI timeline or change history.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_ProposedChanges.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -87,7 +88,7 @@ Role required: sn\_cmdb\_editor or itil
 
     2.  In the Relationships section, add or delete a relationship.
 
-        For information about using the relationship editor, see [Create or edit a CI relationship](../task/t_CreateCIRelationship.md).
+        For information about using the relationship editor, see [Create or edit a CI relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/t_CreateCIRelationship.md).
 
     3.  Click **Save Propose Change**.
 
@@ -221,7 +222,7 @@ Before applying proposed changes to affected CIs, use proposed change verificati
 
 ### Before you begin
 
-Create or edit the rules used to verify proposed changes. For details, see [Create or edit a proposed change verification rule](c_ProposedChanges.md#).
+Create or edit the rules used to verify proposed changes. For details, see [Create or edit a proposed change verification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ProposedChanges.md).
 
 Role required: none
 
@@ -327,4 +328,9 @@ To correctly determine the validity of a change, examine the parameters and appl
 
 4.  Click **Submit**.
 
+
+**Related topics**  
+
+
+[bundle-psec.c_HistoryTimeline]
 

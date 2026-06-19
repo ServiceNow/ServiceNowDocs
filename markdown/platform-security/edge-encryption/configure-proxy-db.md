@@ -2,6 +2,7 @@
 title: Configure the Edge Encryption proxy database
 description: If using order-preserving encryption types or encryption patterns, you can optionally configure the Edge Encryption proxy database properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/configure-proxy-db.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -38,9 +39,9 @@ To use order-preserving encryption types or encryption patterns, a MySQL databas
 4.  Click **Next**.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Update SSL certificate](update-ssl-certificate.md)
+**Previous topic:**[Update SSL certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/update-ssl-certificate.md)
 
-**Next topic:**[Launch the Edge Encryption proxy server](launch-proxy.md)
+**Next topic:**[Launch the Edge Encryption proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/launch-proxy.md)
 

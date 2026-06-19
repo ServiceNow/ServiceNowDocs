@@ -2,6 +2,7 @@
 title: Create a group factor
 description: Create group factors to evaluate and assess risks on a risk assessment instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/define-group-factor.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -172,8 +173,8 @@ Formula for calculating the overall qualitative risk score. Choices are the foll
 
 The factor is published and is ready for use in a Risk Assessment Methodology.
 
--   **[Scoring logic for predefined formulas for group factors](../reference/scoring-logic-group-factors.md)**  
+-   **[Scoring logic for predefined formulas for group factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/scoring-logic-group-factors.md)**  
 Group factors have multiple predefined formulae and each of them has a specific contribution to the scoring logic.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

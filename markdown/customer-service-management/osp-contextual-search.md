@@ -2,7 +2,10 @@
 title: Contextual search
 description: An OSP agent can search for related information to fulfill a case. The search results returned are the list of entities that the agent is entitled to according to the data governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-contextual-search.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

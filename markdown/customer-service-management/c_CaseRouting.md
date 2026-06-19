@@ -2,18 +2,19 @@
 title: Routing and assigning customer service cases
 description: The case routing feature uses matching rules and assignment rules to identify customer service cases that meet certain conditions and then route those cases to customer service agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CaseRouting.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Administer, Customer Service Management]
+breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Routing and assigning customer service cases
 
 The case routing feature uses matching rules and assignment rules to identify customer service cases that meet certain conditions and then route those cases to customer service agents.
-
-This video covers various aspects of configuration for routing and assignment including creating assignment rules, the assignment workbench and advanced work assignment.
 
 ## Overview
 
@@ -46,15 +47,8 @@ When you create an assignment rule, you select the following:
 
 Alternately, you can create a script to further customize the assignment rule.
 
--   **[Invoke the MatchingRuleProcessor API](../task/t_InvokeMatchingRuleAPI.md)**  
-After you create one or more matching rules, you can invoke the MatchingRuleProcessor API and run the rules.
--   **[Reverse matching](../task/t_ReverseMatching.md)**  
-Reverse matching uses the same matching rules to match tasks to a resource rather than resources to a task.
-
-**Parent Topic:**[Customer Service Management](c_CustomerServiceManagement.md)
-
 **Related topics**  
 
 
-[Assignment rules module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_AssignmentRulesModule.md)
+[bundle-platadm.c_AssignmentRulesModule]
 

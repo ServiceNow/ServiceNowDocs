@@ -2,6 +2,7 @@
 title: Amazon SNS Spoke
 description: Integrate ServiceNow with Amazon SNS. Manage topics and subscriptions, and delegate roles in Amazon SNS from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/amazon-sns-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Integrate ServiceNow with Amazon SNS. Manage topics and subscriptions, and deleg
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -40,9 +41,9 @@ For information about creating and accessing keys, see the [AWS Security Credent
 
 ## Spoke subflows
 
-The Amazon SNS spoke provides a sample subflow to demonstrate automating Amazon SNS tasks. To customize the sample subflow, copy it to a new application scope. Available sample subflow is, Amazon SNS Subscription. The subflow receives three types of messages; Notification, Subscription Confirmation, and Unsubscribe Confirmation. This subflow is triggered when you configure your ServiceNow instance to receive events from Amazon SNS. For more information about the required configurations, see [Receive events at your ServiceNow instance from Amazon SNS](../task/notification-sns.md#).
+The Amazon SNS spoke provides a sample subflow to demonstrate automating Amazon SNS tasks. To customize the sample subflow, copy it to a new application scope. Available sample subflow is, Amazon SNS Subscription. The subflow receives three types of messages; Notification, Subscription Confirmation, and Unsubscribe Confirmation. This subflow is triggered when you configure your ServiceNow instance to receive events from Amazon SNS. For more information about the required configurations, see [Receive events at your ServiceNow instance from Amazon SNS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/notification-sns.md).
 
-**Note:** Spoke subflow can be used independently to subscribe for notifications from Amazon SNS. For more information about the configurations, see [Receive events at your ServiceNow instance from Amazon SNS](../task/notification-sns.md#).
+**Note:** Spoke subflow can be used independently to subscribe for notifications from Amazon SNS. For more information about the configurations, see [Receive events at your ServiceNow instance from Amazon SNS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/notification-sns.md).
 
 ## Spoke actions
 
@@ -213,11 +214,11 @@ Enables a topic owner to set a display name of the topic to a new value.
 
 ## Spoke module
 
-The Amazon SNS spoke adds an AWS Configurations module to your ServiceNow instance. If you want receive events at your ServiceNow instance from Amazon SNS, you must specify the subflow internal name here. For more information about the required configurations, see [Receive events at your ServiceNow instance from Amazon SNS](../task/notification-sns.md#).
+The Amazon SNS spoke adds an AWS Configurations module to your ServiceNow instance. If you want receive events at your ServiceNow instance from Amazon SNS, you must specify the subflow internal name here. For more information about the required configurations, see [Receive events at your ServiceNow instance from Amazon SNS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/notification-sns.md).
 
 ## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Amazon SNS spoke](../task/setup-amazon-sns.md#).
+For information about setting up the spoke, see [Set up the Amazon SNS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-amazon-sns.md).
 

@@ -2,6 +2,7 @@
 title: Lifecycle Events employee requests
 description: You can create and track requests that are opened by users from within Lifecycle Events so that your users don't have to create a new HR case or request. Requests from your users can be either an HR service or a catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/employee-requests.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
@@ -17,12 +18,12 @@ You can create and track requests that are opened by users from within Lifecycle
 
 If you have the sn\_hr\_le.admin or admin role, you can configure employee requests from the Human Resources \(HR\) app. Your users can open requests in the Employee Center from an activity set that is assigned to them.
 
--   **[Configure Lifecycle Events employee requests](../task/configure-employee-request.md)**  
+-   **[Configure Lifecycle Events employee requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/configure-employee-request.md)**  
 Enable your managers and employees to open employee requests directly from Lifecycle events so that they don't have to create a new HR case or request.
--   **[Verify Lifecycle Events Employee requests configuration](../task/test-verify-employee-request.md)**  
+-   **[Verify Lifecycle Events Employee requests configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/test-verify-employee-request.md)**  
 Use the Preview and Test capabilities to verify that the employee request activity has been configured correctly.
--   **[Create a Lifecycle Events Employee Request from the Employee Center](../task/create-employee-request.md)**  
+-   **[Create a Lifecycle Events Employee Request from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/create-employee-request.md)**  
 Enable your users to create common requests from Lifecycle Events so that they don't have to create a new HR case or request. When your users open a request, any related cases and tasks are automatically associated with the parent event.
 
-**Parent Topic:**[Using Lifecycle Events](using-lifecycle-events.md)
+**Parent Topic:**[Using Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/using-lifecycle-events.md)
 

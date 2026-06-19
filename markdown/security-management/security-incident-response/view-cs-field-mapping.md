@@ -2,6 +2,7 @@
 title: View security incident to customer service case mapping
 description: Security Incident Response ships with a default field mapping that maps a security incident to a Customer Service case. You can view the security incident to CS case default map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/view-cs-field-mapping.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

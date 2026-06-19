@@ -2,6 +2,7 @@
 title: Configure default currency fields in audit records
 description: You can control what currency value is stored in audit records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/audit-currency-fields.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -33,5 +34,5 @@ Role required: admin
     |true|Value as entered by the user in the format USD. For example, 1234.56.|
 
 
-**Parent Topic:**[Setting up defaults required for standard currency use](../concept/setting-up-standard-currency-defaults.md)
+**Parent Topic:**[Setting up defaults required for standard currency use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/setting-up-standard-currency-defaults.md)
 

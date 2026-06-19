@@ -2,6 +2,7 @@
 title: Applicant Center home page
 description: Applicant Center is the dedicated and personalized portal for your applicants.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/applicant-portal-home-page.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -31,5 +32,5 @@ As an applicant, it lets you:
     **Note:** You receive a welcome email too on accepting a job offer.
 
 
-**Parent Topic:**[Using Applicant Center](use-applicant-center.md)
+**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/use-applicant-center.md)
 

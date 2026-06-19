@@ -2,6 +2,7 @@
 title: Adding attachments to assessment
 description: You may have documents or image files that provide additional information for the assessment, you can attach these documents to assessments in the open state. These documents and image files can be added as attachments to the assessment for reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/adding-attachments-to-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -26,12 +27,12 @@ Role required: sn\_smart\_asmt.actor
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon ![](../image/list-icon.png).
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
     3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
     4.  The smart assessments list is displayed.
 2.  Select the assessments in which you want to add the attachments.
 
-3.  From the contextual sidebar, select the **Attachment** icon ![](../image/adding-attachments.png).
+3.  From the contextual sidebar, select the **Attachment** icon \[Omitted image "adding-attachments.png"\] Alt text:.
 
     The **Attachments** sidebar appears.
 

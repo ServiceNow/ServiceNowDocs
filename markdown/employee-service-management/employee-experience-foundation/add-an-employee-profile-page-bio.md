@@ -2,6 +2,7 @@
 title: Add an Employee Profile page bio in the upgraded section
 description: Add a short bio comprising interesting details about yourself in the add a bio section of the Employee Profile page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/add-an-employee-profile-page-bio.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

@@ -2,6 +2,7 @@
 title: Enterprise model management overview for Enterprise Asset Workspace
 description: Use the Enterprise model management view in the Enterprise Asset Workspace to create and manage enterprise models. You can also view details such as model lifecycle overview, model status, and enterprise models up for end of life.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/model-management-overview-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ You can access the Enterprise model management view by navigating to **Enterpris
 
 To access detailed information and take relevant action, select any widget. You can also narrow your results by using the **Model category** filter.
 
-![Enterprise model management view](../image/modeloverview.png "Enterprise model management view")
+\[Omitted image "modeloverview.png"\] Alt text: Enterprise model management view
 
 <table id="table_a3f_2h4_nrb"><thead><tr><th>
 

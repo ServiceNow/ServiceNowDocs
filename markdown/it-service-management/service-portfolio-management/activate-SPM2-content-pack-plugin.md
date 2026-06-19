@@ -2,6 +2,7 @@
 title: Install the Service Portfolio Management Sample Content Pack
 description: Install the Service Portfolio Management Taxonomy Content Pack plugin \(com.snc.spm.content\) to access a sample portfolio structure and service taxonomy. This sample data accelerates your ability to create and manage a service portfolio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/activate-SPM2-content-pack-plugin.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -30,7 +31,7 @@ Installing the Service Portfolio Management Taxonomy Content Pack \(com.snc.spm.
 -   Access sample lists of service data.
 -   Link to periphery example data, such as vendors and contracts.
 
-You can view the sample content in the **Service Portfolios** module of the Service Portfolio Management application as **Sample IT Services Portfolio**. Alternatively, you can view data in the DPM Workspace. For more information, see [Digital Portfolio Management](../../digital-portfolio-management/reference/dpm-landing.md).
+You can view the sample content in the **Service Portfolios** module of the Service Portfolio Management application as **Sample IT Services Portfolio**. Alternatively, you can view data in the DPM Workspace. For more information, see [Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-landing.md).
 
 **Important:** For Step 2 in the procedure, enter `com.snc.spm.content` in the Search field, and check the box to **Load demo data**.
 
@@ -46,11 +47,11 @@ You can view the sample content in the **Service Portfolios** module of the Serv
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[View Service Portfolio Management sample IT services portfolio content](use-SPM2-sample-service-portfolio.md)**  
+-   **[View Service Portfolio Management sample IT services portfolio content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/use-SPM2-sample-service-portfolio.md)**  
 Access, view, and analyze the Service Portfolio Management sample IT services portfolio content to plan and create your service portfolio. Consider the sample structure as a starting point. You can add to it or modify it to suit the specific needs of your organization.
 
-**Parent Topic:**[Configuring Service Portfolio Management](../concept/SPM2-configuring.md)
+**Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-configuring.md)
 

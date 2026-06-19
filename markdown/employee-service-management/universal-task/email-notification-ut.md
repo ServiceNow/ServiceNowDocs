@@ -2,6 +2,7 @@
 title: Email notification layout for Universal Task notifications
 description: Use the email notification layout and template shipped with the Universal Task application \(sn\_uni\_task\) to deliver email notifications. Apply the layout to email notifications to elevate their look and feel and to deliver branded notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/email-notification-ut.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -37,5 +38,5 @@ The following table lists the email notifications shipped with Universal Task. Y
 
 If you are an existing user of Universal Task on a release prior to San Diego, upgrade to Employee Center or Employee Center Pro or install the Employee Experience Foundation plugin from ServiceNow Store to start using these email notifications.
 
-**Parent Topic:**[Setting up and configuring Universal Task](set-up-universal-task.md)
+**Parent Topic:**[Setting up and configuring Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/set-up-universal-task.md)
 

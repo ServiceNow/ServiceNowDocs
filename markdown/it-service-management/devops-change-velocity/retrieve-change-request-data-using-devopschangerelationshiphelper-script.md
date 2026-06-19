@@ -2,6 +2,7 @@
 title: Retrieve change request data using DevOpsChangeRelationshipHelper script
 description: Retrieve data associated with a change request based on the specified relation type using the DevOpsChangeRelationshipHelper script include.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/retrieve-change-request-data-using-devopschangerelationshiphelper-script.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -21,7 +22,7 @@ Role required: sn\_devops.viewer
 
 ## About this task
 
-Use [Script Includes](https://servicenow.com/docs/bundle/paris-application-development/page/script/server-scripting/concept/c_ScriptIncludes.html) to store JavaScript functions and classes for use by server scripts. You can call the Script Include from a Business Rule, UI Action, workflow script, Scripted REST API, and so on.
+Use Script Includes to store JavaScript functions and classes for use by server scripts. You can call the Script Include from a Business Rule, UI Action, workflow script, Scripted REST API, and so on.
 
 This method retrieves data related to a change request based on the specified relation type.
 
@@ -95,5 +96,5 @@ try {
 
 ```
 
-**Parent Topic:**[Accelerating your DevOps change process](../concept/dev-ops-change-acceleration.md)
+**Parent Topic:**[Accelerating your DevOps change process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md)
 

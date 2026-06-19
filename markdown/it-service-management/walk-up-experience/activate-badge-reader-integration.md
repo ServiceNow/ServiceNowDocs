@@ -2,6 +2,7 @@
 title: Activate Badge Reader Integration
 description: You can activate the Badge Reader Integration plugin \(com.snc.badge\_reader\) if you have the Badge sn\_badge.badge\_admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/activate-badge-reader-integration.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -37,11 +38,11 @@ Developers can extend the badge scanning framework to trigger actions in other a
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
--   **[Installed with Badge Reader Integration](../reference/installed-with-badge-read-integ.md)**  
+-   **[Installed with Badge Reader Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/installed-with-badge-read-integ.md)**  
 Several types of components are installed with activation of the Badge Reader Integration plugin, including tables and user roles.
 
-**Parent Topic:**[Badge Reader Integration for Walk-up Experience](../concept/badge-scan-walkup-onsite.md)
+**Parent Topic:**[Badge Reader Integration for Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/badge-scan-walkup-onsite.md)
 

@@ -2,6 +2,7 @@
 title: Modify the greeting text on the landing page
 description: Customize the header message that is a part of the greeting text on the home page. This will create a more personalized user experience, making visitors feel welcomed and valued, and can also help in setting the right tone and context for the information presented.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/modify-greeting-text-itom.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -27,7 +28,7 @@ While the display text can be customized for the default landing page, the visua
 
 Suppose you are on call until Monday, March 21. You can update your greetings to reflect your on-call status.
 
-![Greetings text](../image/greeting-text-itom.png "Header")
+\[Omitted image "greeting-text-itom.png"\] Alt text: Greetings text
 
 ## Procedure
 
@@ -45,11 +46,11 @@ Suppose you are on call until Monday, March 21. You can update your greetings to
 
     2.  From the list of Script Includes, open SOWServiceDeskAgentShiftSNC.
 
-        ![Script Includes list](../image/greeting-text.png "Script Includes list")
+        \[Omitted image "greeting-text.png"\] Alt text: Script Includes list
 
     3.  Copy the **Script** field value.
 
-        ![Script includes details page](../image/greeting-script-includes-edit.png "Script includes details page")
+        \[Omitted image "greeting-script-includes-edit.png"\] Alt text: Script includes details page
 
 5.  Edit the SOWServiceDeskAgentShift script.
 
@@ -506,5 +507,5 @@ Suppose you are on call until Monday, March 21. You can update your greetings to
 6.  Select **Update**.
 
 
-**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](customize-sow-landing-page-itom.md)
+**Parent Topic:**[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/customize-sow-landing-page-itom.md)
 

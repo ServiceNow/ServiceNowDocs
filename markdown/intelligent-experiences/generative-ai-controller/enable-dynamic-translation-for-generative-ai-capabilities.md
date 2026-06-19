@@ -2,6 +2,7 @@
 title: Enable Dynamic Translation for capabilities in Generative AI Controller
 description: Use Dynamic Translation to add multiple language support for generative AI capabilities to support users who speak languages other than English.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/enable-dynamic-translation-for-generative-ai-capabilities.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -17,7 +18,7 @@ Use Dynamic Translation to add multiple language support for generative AI capab
 
 ## Before you begin
 
-You must have the Dynamic Translation and Conversational Dynamic Translation plugins installed and enabled on your instance. For more information on setting up Dynamic Translation, see [configuring Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configuring-dynamic-translation.md).
+You must have the Dynamic Translation and Conversational Dynamic Translation plugins installed and enabled on your instance. For more information on setting up Dynamic Translation, see configuring Dynamic Translation.
 
 You must have a default Translation Configuration set in the Translation Configuration table \(sn\_dt\_translator\_configuration\).
 

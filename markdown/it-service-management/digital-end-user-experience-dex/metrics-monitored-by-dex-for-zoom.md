@@ -2,6 +2,7 @@
 title: Metrics monitored by DEX for Zoom
 description: View the zoom metrics that appear in Summary and call quality metrics tabs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/metrics-monitored-by-dex-for-zoom.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -42,7 +43,7 @@ The pie chart displays the proportion of calls categorized as Good, Fair, Bad, P
 
 When you select a category in the pie chart, the **Details** page opens and displays call quality information filtered by the selected category. For example, if you select Bad meetings, the page shows details for Bad meetings only.
 
-**Note:** For field descriptions on the Details page, see [Zoom call quality metrics on the Details page](../reference/call-quality-metrics-monitored-by-dex-for-zoom.md).
+**Note:** For field descriptions on the Details page, see [Zoom call quality metrics on the Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/call-quality-metrics-monitored-by-dex-for-zoom.md).
 
 </td></tr><tr><td>
 
@@ -52,7 +53,7 @@ When you select a category in the pie chart, the **Details** page opens and disp
 
 The pie chart shows the distribution of detected issues, labeled as Unstable video, Call reconnection problems, Poor screenshare quality, Unstable audio quality, and High CPU usage.When you select an issue in the pie chart, the **Details** page opens which displays calls affected by that issue. For example, if you select **High CPU Usage**, the page lists meetings where high CPU usage was detected.
 
-**Note:** For field descriptions on the **Details** page, see [Zoom call quality metrics on the Details page](../reference/call-quality-metrics-monitored-by-dex-for-zoom.md).
+**Note:** For field descriptions on the **Details** page, see [Zoom call quality metrics on the Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/call-quality-metrics-monitored-by-dex-for-zoom.md).
 
 </td></tr><tr><td>
 
@@ -182,7 +183,7 @@ The bar chart displays the number of calls categorized as Good, Fair, Bad, or Po
 The bar chart displays the number of calls categorized as Good, Fair, Bad, Poor, or Unclassified based on overall call quality, grouped by whether the screen share was on or off.When you select a bar, the **Details** page opens and displays of the chosen quality for that screen share state. For example, if you select Poor under Screenshare on, the page lists details for Poor calls where screen sharing was active.
 
 </td></tr></tbody>
-</table>**Note:** For field descriptions on **Details** page, see [Zoom call quality metrics on the Details page](../reference/call-quality-metrics-monitored-by-dex-for-zoom.md).
+</table>**Note:** For field descriptions on **Details** page, see [Zoom call quality metrics on the Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/call-quality-metrics-monitored-by-dex-for-zoom.md).
 
-**Parent Topic:**[DEX Application and Device Health reference](../reference/dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

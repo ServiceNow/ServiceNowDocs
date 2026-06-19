@@ -2,13 +2,14 @@
 title: Run Instance scan to check Microsoft Exchange Online synchronization configuration
 description: Execute an Instance scan on your ph keyref="var.workplace-calendar-sync"/&gt; configuration with Microsoft Exchange Online. The Instance Scan application diagnoses the configurations with the calendar provider by running a series of checks using suites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/run-instance-scan-on-your-workplace-cal-sync-configs.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage calendar synchronizations, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Run Instance scan to check Microsoft Exchange Online synchronization configuration
@@ -23,7 +24,7 @@ Role required: sn\_wsd\_rsvsync.admin
 
 Run the instance scan using the Instance Scan application to check if there are any incorrect configurations while configuring the Microsoft Exchange Online calendar provider. The scan runs and notifies about any incorrectness.
 
-The ph keyref="var.workplace-calendar-sync"/&gt; application provides you the **Workplace Calendar Synchronization Configurations** suite in the Instance Scan application. For more information about Instance scan, refer to [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-landing-page.md). You can run the suite at any time to diagnose the configurations. The suite runs the following configuration checks:
+The ph keyref="var.workplace-calendar-sync"/&gt; application provides you the **Workplace Calendar Synchronization Configurations** suite in the Instance Scan application. For more information about Instance scan, refer to . You can run the suite at any time to diagnose the configurations. The suite runs the following configuration checks:
 
 -   **Reservable Sync Configurations Check**: Checks if the reservation sync configurations are correct.
 -   **Calendar Sync Active Providers Check**: Checks if there are no active providers as the sync can’t be configured.
@@ -57,7 +58,7 @@ The ph keyref="var.workplace-calendar-sync"/&gt; application provides you the **
 
         The **Source** displays the record that caused the issue.
 
-    -   The **Finding Details** column displays the details of the finding, that is, the issue and its details. Hover on the finding to view the full details. For information about the finding messages, refer to [Instance scan findings](../reference/sacn-finding-messages.md).
+    -   The **Finding Details** column displays the details of the finding, that is, the issue and its details. Hover on the finding to view the full details. For information about the finding messages, refer to [Instance scan findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/sacn-finding-messages.md).
 8.  Fix the scan findings.
 
 9.  After fixing the issues listed in the Scan Findings related list, select **Rescan** on the Scan Result form.

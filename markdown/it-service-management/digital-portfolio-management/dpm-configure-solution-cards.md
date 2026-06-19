@@ -2,6 +2,7 @@
 title: Configure personal portfolio solution cards in the DPM Admin Center
 description: Configure the fields that display on the personal portfolio solution cards in the DPM Admin Center. Your configuration determines the fields that display on each solution card in the DPM Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-configure-solution-cards.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -69,5 +70,5 @@ You can configure the personal portfolio solution card fields to display informa
 7.  Select **Update**.
 
 
-**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](../concept/dpm-admin-center.md)
+**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 

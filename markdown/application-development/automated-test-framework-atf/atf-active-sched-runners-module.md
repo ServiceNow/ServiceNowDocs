@@ -2,6 +2,7 @@
 title: Active scheduled test runners
 description: View the client test runners table filtered to show only those runners available to run tests to be started by a schedule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-active-sched-runners-module.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -15,15 +16,15 @@ breadcrumb: [Run, Automated Test Framework \(ATF\) reference, Automated Test Fra
 
 View the client test runners table filtered to show only those runners available to run tests to be started by a schedule.
 
-When you start a [scheduled client test runner,](../concept/atf-sched-suites.md#) the system registers that runner in the Active Scheduled Test Runners table.
+When you start a [scheduled client test runner,](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-sched-suites.md) the system registers that runner in the Active Scheduled Test Runners table.
 
 The Active Scheduled Test Runner module is useful when you create a scheduled suite run. For scheduled suite runs, you can specify the browser to use. To determine the name and version of a browser you want to use, start a scheduled test runner with that browser, then inspect that runner's record in the Active Scheduled Test Runners module.
 
 The data in this table is transient. While the runner is active, it reports in to the system at a specified interval. If the runner does not report in at the expected time, the system marks the runner as inactive. After a period of time the system deletes the runner.
 
-You can [modify these intervals](../task/atf-modify-retention-test-clients.md) on the [Automated Test Framework properties](atf-admin-properties.md) page.
+You can [modify these intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-modify-retention-test-clients.md) on the [Automated Test Framework properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-admin-properties.md) page.
 
-![Scheduled Client Test Runners](../image/atf-active-sched-runners.png "Example Scheduled Client Runner Test table")
+\[Omitted image "atf-active-sched-runners.png"\] Alt text: Scheduled Client Test Runners
 
 |Field / UI Element|Description|
 |------------------|-----------|
@@ -37,5 +38,5 @@ You can [modify these intervals](../task/atf-modify-retention-test-clients.md) o
 |Last checkin|The time/date this runner most recently reported in to the system.|
 |Status reason|If the Status is Offline, the reason why. In the Active Scheduled Test Runners module, Status reason is always empty.|
 
-**Parent Topic:**[Run](../concept/run-module.md)
+**Parent Topic:**[Run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/run-module.md)
 

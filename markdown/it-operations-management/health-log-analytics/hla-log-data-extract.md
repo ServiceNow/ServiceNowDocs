@@ -2,6 +2,7 @@
 title: Extract specific log data in Health Log Analytics
 description: Set Health Log Analytics to extract specified terms from logs and map them to specific components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-log-data-extract.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -18,7 +19,7 @@ Set Health Log Analytics to extract specified terms from logs and map them to sp
 
 ## Before you begin
 
-For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md).
+For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -43,5 +44,5 @@ Role required: evt\_mgmt\_admin
 8.  Select **Submit**.
 
 
-**Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md)
+**Parent Topic:**[Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
 

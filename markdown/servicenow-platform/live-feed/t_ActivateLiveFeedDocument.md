@@ -2,6 +2,7 @@
 title: Activate the Live Feed Document plugin
 description: The Live Feed Document plugin is active by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_ActivateLiveFeedDocument.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -35,8 +36,8 @@ Administrators can enable record feeds in an instance by activating the Live Fee
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Record feeds](../concept/c_RecordFeeds.md)
+**Parent Topic:**[Record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_RecordFeeds.md)
 

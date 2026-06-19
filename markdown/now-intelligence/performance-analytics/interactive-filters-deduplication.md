@@ -2,6 +2,7 @@
 title: Interactive Analysis filter deduplication
 description: Upon launching Interactive Analysis, duplicate filters are removed automatically from the Filters panel. You do not have to clean up the filter panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/interactive-filters-deduplication.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,5 +24,5 @@ Duplicate filters are removed according to the following criteria:
 -   If the configuration is the same, but some filters have multiple target columns in the same target table, then all the filters are considered as separate filters and retained. An example of multiple target columns in the same target table is the **Date opened** and **Date escalated** columns in the incident table.
 -   If the configuration and the UI control are the same, but the base condition is different for any two filters, then they are considered separate filters and retained.
 
-**Parent Topic:**[Interactive Analysis](interactive-analysis.md)
+**Parent Topic:**[Interactive Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/interactive-analysis.md)
 

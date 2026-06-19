@@ -2,11 +2,12 @@
 title: Create a Response Task
 description: Create response tasks to track separate actions to be performed to respond to the security issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create\_response\_task.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response Tasks, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -25,7 +26,7 @@ Role required: sn\_si.analyst
 
 2.  Select **Create Response Task** from the UI actions.
 
-    ![Creating a response task](../image/new-response-task.png "Create Response Task")
+    \[Omitted image "new-response-task.png"\] Alt text: Creating a response task
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -134,12 +135,12 @@ Affected User
 The person affected by the security issue.
 
 </td></tr></tbody>
-</table>    ![New response task](../image/new-response-task-1.png)
+</table>    \[Omitted image "new-response-task-1.png"\] Alt text: New response task
 
 4.  Select **Save**.
 
     The new Response Task \(SIT\) gets created.
 
 
-**Parent Topic:**[Security Incident Response Tasks](security-incident-response-tasks.md)
+**Parent Topic:**[Security Incident Response Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/security-incident-response-tasks.md)
 

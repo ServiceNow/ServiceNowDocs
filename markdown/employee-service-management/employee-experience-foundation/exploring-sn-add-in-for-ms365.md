@@ -2,6 +2,7 @@
 title: Exploring ServiceNow Add-in for Microsoft 365
 description: ServiceNow Add-in for Microsoft 365 provides quick links to employees and reduces the time taken to submit incidents, cases, or catalog requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/exploring-sn-add-in-for-ms365.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -46,7 +47,7 @@ Configure your add-in with customizable office controls.
 
 </td><td>
 
-[Create a manifest file](../task/create-ms365-addin-manifest.md)
+[Create a manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-ms365-addin-manifest.md)
 
 </td><td>
 
@@ -58,8 +59,8 @@ Map email fields to a catalog or form to reduce the time taken by employees to r
 
 </td><td>
 
--   [Map email fields to a catalog item](../task/map-email-catalog.md)
--   [Map email fields to a form](../task/map-email-form.md)
+-   [Map email fields to a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/map-email-catalog.md)
+-   [Map email fields to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/map-email-form.md)
 
 </td><td>
 
@@ -71,7 +72,7 @@ Raise a request from a Microsoft 365 application.
 
 </td><td>
 
-[Raise a request using the ServiceNow Add-in for Microsoft 365](../task/raise-request-addin-ms365.md)
+[Raise a request using the ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/raise-request-addin-ms365.md)
 
 </td><td>
 
@@ -82,7 +83,7 @@ Employees
 
 To learn more about configuring and using ServiceNow Add-in for Microsoft 365, see:
 
--   [Configuring ServiceNow Add-in for Microsoft 365](configuring-sn-addin-for-ms365.md)
--   [Using ServiceNow Add-in for Microsoft 365](using-sn-addin-for-ms365.md)
--   [ServiceNow Add-in for Microsoft 365 reference](../reference/sn-addin-for-ms365-reference.md)
+-   [Configuring ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configuring-sn-addin-for-ms365.md)
+-   [Using ServiceNow Add-in for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-sn-addin-for-ms365.md)
+-   [ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-addin-for-ms365-reference.md)
 

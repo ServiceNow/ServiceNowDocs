@@ -2,6 +2,7 @@
 title: Go live and monitor
 description: Deploy your agent to production, activate analytics and monitoring, and establish the ongoing review cadence that keeps your agent performing securely over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-tutorial-go-live-monitor.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -27,15 +28,15 @@ Set up the following monitoring capabilities on the day of go-live:
 
 -   **Now Assist Analytics**
 
-    Monitor overall usage, performance, and adoption of your Now Assist skills and AI agents. See [Analyzing Now Assist performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-analytics.md).
+    Monitor overall usage, performance, and adoption of your Now Assist skills and AI agents. See .
 
 -   **AI Agent Analytics dashboard**
 
-    Track AI agent use, efficiency gain, time to resolution, and task closure trends specific to your deployed agents. See [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-dashboard.md).
+    Track AI agent use, efficiency gain, time to resolution, and task closure trends specific to your deployed agents. See .
 
 -   **Now Assist Guardian analytics**
 
-    Monitor guardrail performance to track how often offensive content, prompt injection attempts, and sensitive subject detections occur in production. See [Now Assist Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
+    Monitor guardrail performance to track how often offensive content, prompt injection attempts, and sensitive subject detections occur in production. See .
 
 
 ## Establish your baseline
@@ -66,5 +67,5 @@ Schedule the following recurring activities to keep your agent performing secure
     Review your agent's performance metrics against your baseline and success criteria. Use the AI Agent Analytics dashboard and Now Assist Analytics to identify trends and determine whether prompt refinement or configuration changes are needed.
 
 
-**Parent Topic:**[Create and secure an AI agent in Now Assist](naai-tutorial-overview.md)
+**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-overview.md)
 

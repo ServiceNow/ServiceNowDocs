@@ -2,6 +2,7 @@
 title: ITSM Virtual Agent topics analytics
 description: As a business stakeholder or a service desk manager, you can analyze the pattern of interactions when users ask questions using the ITSM Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-conversational-dashboard-topics.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
@@ -27,7 +28,7 @@ By looking at what topics are most frequently discussed, you can analyze high-im
 
 ## Topics analytics
 
-Analyze topics metrics when users ask questions to solve their issues in ITSM Virtual Agent.![ITSM Virtual Agent Topics metrics](../image/now-assist-itsm-topics-analytics.png)
+Analyze topics metrics when users ask questions to solve their issues in ITSM Virtual Agent.\[Omitted image "now-assist-itsm-topics-analytics.png"\] Alt text: ITSM Virtual Agent Topics metrics
 
 <table id="table_cg1_2gy_g3c"><thead><tr><th>
 

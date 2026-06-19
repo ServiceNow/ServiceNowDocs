@@ -2,6 +2,7 @@
 title: Set up the feedback definition
 description: Configure the feedback definition to curate the finer details of each feedback type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-feedback-dfnition.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,7 +36,7 @@ Feedback definition provides you with the liberty to select how and at what poin
 
 3.  On the feedback definition form, fill in the fields.
 
-    For a description of the field values, see [Feedback definition form](../reference/fdbck-dfnition-record.md).
+    For a description of the field values, see [Feedback definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/fdbck-dfnition-record.md).
 
 4.  Save your modifications.
 
@@ -58,14 +59,14 @@ Feedback definition provides you with the liberty to select how and at what poin
     -   If you have the Browser Extension for Employee Center plugin \(sn\_ex\_brw\_ext\) version 1.0 along with the Employee Center Pro plugin \(sn\_ex\_sp\_pro\) version 36.0, you have **Experience Feedback for Browser Extension** definition by default. The following are some key differentiators from the generic experience feedback definitions.
         -   The **Star - 5 point scale** is active with the feedback definition by default. You can change it to any other form of experience feedback according to your organizational requirement.
         -   The **Page selection** only has **ecbe\_pro\_home** option for the **Included pages** field.
-        -   The **Widget mode** field has **Inline** option for the experience feedback for the browser extension. For more information on the field values, see [Feedback definition form](../reference/fdbck-dfnition-record.md).
+        -   The **Widget mode** field has **Inline** option for the experience feedback for the browser extension. For more information on the field values, see [Feedback definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/fdbck-dfnition-record.md).
 5.  Trigger Conditions \[asmt\_condition\] table is visible only for the feedback type Service - workflow once the definition is saved.
 
 6.  Select **New**.
 
 7.  On the trigger condition form, fill in the fields.
 
-    For the description of the field values, see [Trigger Condition form for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/trigger-condition-form.md).
+    For the description of the field values, see .
 
     **Note:**
 
@@ -77,7 +78,7 @@ Feedback definition provides you with the liberty to select how and at what poin
 
 ## What to do next
 
--   Use the feedback widgets across the Employee Center portal. For more information, see [Use the integrated experience and service feedback](../concept/using-ex-fdback.md).
--   Check the responses received on the experience feedback dashboard. For more information, see [Feedback Analytics dashboard](../concept/ex-fdback-board.md).
--   Customize the appearances of the experience flow and the workflow feedback widgets. For more information, see [Integrated service and experience feedback management](../concept/ex-fdbck-manage.md).
+-   Use the feedback widgets across the Employee Center portal. For more information, see [Use the integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-ex-fdback.md).
+-   Check the responses received on the experience feedback dashboard. For more information, see [Feedback Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ex-fdback-board.md).
+-   Customize the appearances of the experience flow and the workflow feedback widgets. For more information, see [Integrated service and experience feedback management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ex-fdbck-manage.md).
 

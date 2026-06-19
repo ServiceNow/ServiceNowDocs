@@ -2,11 +2,12 @@
 title: Health Assessment Dashboard
 description: View detailed Health Assessment results closer collaboration with the Impact squad to prioritize, review, and address best practice platform health findings.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/health-assessment-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [HealthScan tech KPIs, HealthScan, Platform Health, Using Impact, Impact]
+breadcrumb: [HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Health Assessment Dashboard
@@ -91,13 +92,13 @@ Findings that can make improvements, but are not a critical severity.
 
 Select to view the assessment by summary view or list view. Toggle to the list view to show the individual findings records logged from the selected scan.
 
-![Health Assessment Summary View](../image/health-assmt-summary.png "Summary View")
+\[Omitted image "health-assmt-summary.png"\] Alt text: Health Assessment Summary View
 
 Summary view shows the total of the findings and the breakdown of findings for each category. By default, the Summary View is selected, displaying the assessment information in tiles.
 
-![Shows the Health Assessment dashboard in summary view.](../image/health-assessment-report.png)
+\[Omitted image "health-assessment-report.png"\] Alt text: Shows the Health Assessment dashboard in summary view.
 
-![List view.](../image/health-list-view.png "List View")
+\[Omitted image "health-list-view.png"\] Alt text: List view.
 
 List view displays the list of individual findings that were logged during a particular scan.
 
@@ -158,7 +159,14 @@ Best action
 Link to KB articles or product documentation regarding how to address the finding
 
 </td></tr></tbody>
-</table>![Shows all finding in List view.](../image/health-list-view.png)
+</table>\[Omitted image "health-list-view.png"\] Alt text: Shows all finding in List view.
+
+## Package Availability
 
 **Note:** This feature is available in Impact Guided, Advanced, and Total packages.
+
+-   **[Manage Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/manage-health-assessment-dashboard.md)**  
+Address platform health findings from the Health Assessment Dashboard.
+
+**Parent Topic:**[Diagnose with tech KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-tech-kpis.md)
 

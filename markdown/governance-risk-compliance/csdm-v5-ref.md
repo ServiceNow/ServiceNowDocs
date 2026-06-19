@@ -2,6 +2,7 @@
 title: Tables relevant to CSDM
 description: Reference topics provide additional information about CSDM, including the associated roles, scheduled jobs, and tables. This section lists the tables relevant to CSDM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/csdm-v5-ref.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

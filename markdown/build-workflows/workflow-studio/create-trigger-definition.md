@@ -2,12 +2,13 @@
 title: Create a trigger definition
 description: Define the type of trigger that determines when to start running your playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-trigger-definition.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Triggers, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -17,7 +18,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 ## Before you begin
 
--   Make sure to set your current application to the application that you want your playbook to run in. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+-   Make sure to set your current application to the application that you want your playbook to run in. For more information, see Application picker.
 -   Role required: admin, playbook.admin, or pd\_trigger\_author
 
 ## Procedure
@@ -28,9 +29,9 @@ Define the type of trigger that determines when to start running your playbook.
 
 3.  On the Trigger Definition form, in the **Label** field, enter any label for your trigger definition.
 
-    This label appears as a trigger option when you [Create a playbook](create-process-definition.md).
+    This label appears as a trigger option when you [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
-4.  Next to the **Trigger Type** field, click the lookup using list icon \(![Lookup using list icon](../../flow-designer/images/lookup-using-list-icon.png)\).
+4.  Next to the **Trigger Type** field, click the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\).
 
 5.  In the Trigger Types list, select a trigger type to use for your trigger definition.
 
@@ -52,25 +53,18 @@ Define the type of trigger that determines when to start running your playbook.
 
 7.  In the Table list, select a table whose record operations you want to trigger your playbook.
 
-8.  Under Condition, use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to add field conditions for when you want to trigger your playbook.
+8.  Under Condition, use the condition builder to add field conditions for when you want to trigger your playbook.
 
 9.  To trigger your playbook for tables that extend your selected table, select the **Run On Extended** check box.
 
-    For more information, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md).
+    For more information, see .
 
 10. Click **Update** to finish creating your trigger definition.
 
 
 ## Result
 
-Your trigger definition is added to the Trigger Definition \[sys\_pd\_trigger\_definition\] table. You can now select your preset trigger when you [Create a playbook](create-process-definition.md).
+Your trigger definition is added to the Trigger Definition \[sys\_pd\_trigger\_definition\] table. You can now select your preset trigger when you [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
 
-**Parent Topic:**[Triggers](../concept/process-automation-designer-triggers.md)
-
-**Related topics**  
-
-
-[Add and configure a trigger in a playbook](add-configure-trigger.md)
-
-[Create a scheduled trigger for Playbook](create-scheduled-trigger-definition.md)
+**Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-triggers.md)
 

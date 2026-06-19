@@ -2,13 +2,14 @@
 title: Create event types
 description: Create multiple events and add them to the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/create-event-types-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setting up Scheduling for Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure scheduling, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Create event types
@@ -37,5 +38,5 @@ Role required: sn\_hr\_wfo.admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up Scheduling for Workforce Optimization for HR](setup-scheduling-wfo-hr.md)
+**Parent Topic:**[Configure Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)
 

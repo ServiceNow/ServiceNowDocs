@@ -2,6 +2,7 @@
 title: Installing Dispute Rules Content Pack for Nacha
 description: If you have the admin role, you can install the Dispute Rules Content Pack for Nacha application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-install.html
 release: australia
 product: Dispute Management
 classification: dispute-management

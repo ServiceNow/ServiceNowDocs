@@ -2,6 +2,7 @@
 title: Install the Task Mining agent for macOS
 description: Install the Task Mining desktop agent on macOS workstations and deploy the Task Mining agent to managed macOS devices using JAMF. This procedure creates the package, scripts, policies, and configuration profile required for enterprise deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/install-the-task-mining-agent-for-macos.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -19,7 +20,7 @@ Install the Task Mining desktop agent on macOS workstations and deploy the Task 
 
 Role required: Task Mining Agent Install
 
-**Note:** You must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. If the group doesn't exist, create a group with that name and those roles manually. For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+**Note:** You must be a part of the Task Mining Agent Install group with roles itil, sn\_tm\_core.service\_user, and agent\_client\_collector\_admin to install the Task Mining agent. If the group doesn't exist, create a group with that name and those roles manually. For more information, see Assign a role to a group.
 
 ## About this task
 
@@ -37,11 +38,11 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     2.  Select an existing key or create one.
 
-        ![Screenshot of registration key selection.](../image/tm-agent-3.png)
+        \[Omitted image "tm-agent-3.png"\] Alt text: Screenshot of registration key selection.
 
     3.  Copy the **Instance URL** and **Registration key** on the Agent Installation page.
 
-    ![Screenshot of instance URL and registration key.](../image/tm-agent-4.png)
+    \[Omitted image "tm-agent-4.png"\] Alt text: Screenshot of instance URL and registration key.
 
 2.  Install the macOS agent by running the terminal script.
 
@@ -49,7 +50,7 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     2.  Select **Copy** next to **Download and Install** to collect the one-line macOS command line script.
 
-        ![Screenshot of macOS command line.](../image/tm-agent-2.png)
+        \[Omitted image "tm-agent-2.png"\] Alt text: Screenshot of macOS command line.
 
     3.  Open the macOS **Terminal** application.
 
@@ -59,7 +60,7 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     **Note:** For a manual install, download the Intel &amp; Apple Silicon and JSON files. Place both files in the same folder. Do not rename the JSON file. Double-click \(or use the keyboard shortcut\) the .pkg file to launch the installer, and follow the on-screen instructions.
 
-    ![Screenshot of JSON and Intel & Apple Silicon.](../image/tm-agent-1.png)
+    \[Omitted image "tm-agent-1.png"\] Alt text: Screenshot of JSON and Intel &amp; Apple Silicon.
 
 3.  Add the agent package to JAMF.
 

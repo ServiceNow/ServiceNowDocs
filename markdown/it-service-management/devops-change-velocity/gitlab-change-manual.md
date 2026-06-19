@@ -2,6 +2,7 @@
 title: Change acceleration for manual jobs
 description: Enable change tracking for the pipeline in the tool record page in DevOps Change Velocity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/gitlab-change-manual.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -36,7 +37,7 @@ deploy:
 
 **Note:** For **when:manual** based changes, for a change request to get created at a certain stage, all the previous stages must complete successfully. If any of the previous stages is not invoked or not successful, even though there is no dependency of the current stage on its immediate previous stage, a change request will not get created in ServiceNow.
 
-GitLab pipeline parallel stages is supported with GitLab Docker Image. For more details, see [GitLab pipelines with parallel jobs](gitlab-parallel-stages.md) and [Implement custom actions for pipelines using a generic Docker container image](servicenow-custom-actions-for-gitlab.md).
+GitLab pipeline parallel stages is supported with GitLab Docker Image. For more details, see [GitLab pipelines with parallel jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/gitlab-parallel-stages.md) and [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 
 Refer to the [CI/CD pipeline configuration reference](https://docs.gitlab.com/) for more information on how to configure a GitLab job.
 
@@ -124,5 +125,5 @@ The change request is not created.
 </td></tr></tbody>
 </table>**Note:** Parallel jobs are displayed sequentially, based on the order in which the jobs are queued for execution.
 
-**Parent Topic:**[GitLab integration with DevOps Change Velocity](gitlab-integration-dev-ops.md)
+**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
 

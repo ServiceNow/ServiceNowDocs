@@ -2,6 +2,7 @@
 title: Configure Performance Analytics fundamentals
 description: Create and configure indicators and breakdowns. Collect data. Display calculated indicator scores.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/c\_PAWidgetsAndDashboards.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -19,26 +20,26 @@ For an overview of the essential use of Performance Analytics, take the free tra
 
 **Note:** In all visualizations, high scores are abbreviated following the metric system. Thus scores in the millions are abbreviated with an M and scores in the \(US\) billions with a G.
 
--   **[Design your Performance Analytics solution with KPI Composer](designing-pa-solution.md)**  
+-   **[Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)**  
 KPI Composer ensures that your performance management strategy aligns with business goals and has support from executive sponsors. Use KPI Composer to bridge the gap between defining your performance measurement strategy and the realization of that strategy from within Performance Analytics. Start with your business goals and plan all your components through indicators up to the final dashboard.
--   **[Performance Analytics indicators](c_Indicators.md)**  
+-   **[Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md)**  
 Indicators \(KPIs\) define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
--   **[Indicator breakdowns](c_CreatingBreakdowns.md)**  
+-   **[Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)**  
 Breakdowns enable you to group or filter indicator scores by a qualitative attribute such as Priority, Category, or Assignment Group. You can apply a breakdown on the Analytics Hub, in KPI Details, and on dashboards.
--   **[Data snapshots and multiple breakdowns](multi-level-breakdowns.md)**  
-Data snapshots in Platform Analytics allows for multiple breakdowns while analyzing your indicators \(KPIs\). This architecture uses a change data capture \(CDC\) process, which captures data changes from configurable tables that are optimized for generating scores and time series at run-time.
--   **[Performance Analytics targets and thresholds](pa-targets-thresholds.md)**  
+-   **[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/multi-level-breakdowns.md)**  
+The Data snapshots feature in Platform Analytics allows for multiple breakdowns while analyzing your indicators \(KPIs\). This architecture uses a change data capture \(CDC\) process, which captures data changes from configurable tables that are optimized for generating scores and time series at run-time.
+-   **[Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets-thresholds.md)**  
 Targets and thresholds enable you to define important points in your data and provide notifications when a score reaches a specific point.
--   **[Conditional filters and operators for indicators and breakdowns](condition-operators-ind-bkdowns.md)**  
+-   **[Conditional filters and operators for indicators and breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.md)**  
 Conditional filters for indicator data cascade from indicator and breakdown sources up to data visualizations. Where conditions are applied can affect data collection efficiency. Some condition operators are only available at some levels, or in some conditions.
--   **[Real-time scores](real-time-scores.md)**  
+-   **[Real-time scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/real-time-scores.md)**  
 You can view some Performance Analytics scores in real-time instead of from the most recent data collection job. If real-time scores are enabled, you can view them in KPI Details and in some data visualizations.
--   **[Applying time series aggregations](applying-time-series-aggregations.md#)**  
+-   **[Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md)**  
 You can aggregate changes in indicators into discrete time intervals. These aggregations can make trends more easily visible, or help track progress against a target.
--   **[Interactive Analysis for Performance Analytics](interactive-analysis-pa.md)**  
+-   **[Interactive Analysis for Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/interactive-analysis-pa.md)**  
 Interactive Analysis enables you to quickly explore Performance Analytics data using visualizations.
--   **[In-form analytics](in-form-analytics.md)**  
+-   **[In-form analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/in-form-analytics.md)**  
 In-form analytics integrate performance insights into forms so that users can access important metrics in context and make better decisions.
 
-**Parent Topic:**[Performance Analytics \(Indicator data sources\)](r_PALandingPage.md)
+**Parent Topic:**[Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

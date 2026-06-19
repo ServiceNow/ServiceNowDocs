@@ -2,6 +2,7 @@
 title: View a message in a Hermes topic
 description: View the payload of a message in a Hermes topic using the Hermes Messaging Service topic inspector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/view-messages-hermes-topic.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -135,5 +136,5 @@ Message body contents. Note the following information about the message payload:
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Monitoring topics in the Hermes Kafka cluster](../concept/monitoring-topics-hermes-kafka-cluster.md)
+**Parent Topic:**[Monitoring topics in the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/monitoring-topics-hermes-kafka-cluster.md)
 

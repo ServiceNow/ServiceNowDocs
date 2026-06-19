@@ -2,7 +2,10 @@
 title: Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations
 description: Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-icc-for-ccaas.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -18,16 +21,19 @@ Implement prebuilt, certified integrations with Contact Center as a Service \(CC
 
 The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voiceand callbackintegrations so agents can manage customer calls directly from their configurable workspace.
 
-For more information, see [Interaction Controls Component \(ICC\) for voice calls](../concept/contact-center-integration-with-icc.md) and [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](../concept/interaction-controls-component-icc-callback-integration-features.md).
+For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md) and [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-callback-integration-features.md).
 
 The voice controls and callback controls display under the following conditions:
 
 -   When the interaction is a phone call, voice controls display.When the interaction is a phone call that is associated with a callback task, the callback controls display.
 -   The **Enable interaction controls** field is enabled on the OpenFrame Configuration record that allows the admin to configure the Agent Workspace to display voice interaction components.
 -   The agent is a member of the user group specified on the OpenFrame Configuration record. If no user group is specified, all agents can access the CSM voice interaction record page.
--   Ensure the certified third-party App Store plugin is installed. For Example:
+-   Ensure the certified third-party App Store plugin is installed. The following examples apply to voice interactions:
+
     -   [Unified Experience from Genesys](https://store.servicenow.com/store/app/cdff6b621ba46a50a85b16db234bcba3#linksAndDocuments)
     -   [Unified Experience from Genesys - Core](https://store.servicenow.com/store/app/6ebe67ea1b646a50a85b16db234bcb54)
+    **Note:** Prerequisite for CCaaS callbacks: Verify that agents are configured through their contact center integration to receive callbacks and access the ServiceNow Workspace. Agent profiles are synced automatically when agents log in through the contact center connector in OpenFrame. For example, an agent must be able to log in to both the contact center and ServiceNow workspace. The agent presence state must match between both systems, as callbacks only route to available agents. In some cases, the state "available" might be labeled differently in the contact center, such as "on queue." Presence mismatches can prevent agents from receiving callbacks.
+
 
 ## Before you begin
 
@@ -60,5 +66,5 @@ Role required: admin
 
 ## What to do next
 
-Refer to [Plugin requirements for voice and callback integrations with contact centers](plugin-requirements-for-external-call-routing-integration-for-contact-centers.md) for dependencies and address all prerequisite requirements to access the ICC features.
+Refer to [Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md) for dependencies and address all prerequisite requirements to access the ICC features.
 

@@ -2,6 +2,7 @@
 title: Program table
 description: The Program \[sn\_hcls\_program\] table stores the programs offered by healthcare organizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Program \[sn\_hcls\_program\] table stores the programs offered by healthcar
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 <table id="table_uvk_nh1_drb"><thead><tr><th>
 
@@ -110,7 +111,7 @@ Alpha-numeric identifier of the program.
 
  The value is auto-generated and is incremented every time you add a new program to an instance. The initial value for the **Number** field is PSSPG00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Program \[sn\_hcls\_program\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Program \[sn\_hcls\_program\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 
@@ -149,5 +150,5 @@ String
 Brief description of the program as would be shown on the case name created for the program.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

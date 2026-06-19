@@ -2,6 +2,7 @@
 title: Atlassian Jira Integration for Agile Development
 description: Enable bidirectional synchronization of records between Atlassian Jira and ServiceNow Agile Development by integrating the two applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-overview.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -48,16 +49,16 @@ Before importing Jira projects that are of the Kanban type, consider the followi
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
--   **[Components installed with Atlassian Jira integration for Agile Development](../task/components-installed-with-atlassian-jira-integration-for-agile-development.md)**  
+-   **[Components installed with Atlassian Jira integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/components-installed-with-atlassian-jira-integration-for-agile-development.md)**  
 Several types of components are installed with activation of the Atlassian Jira integration for Agile Development application, including tables, user roles, and scheduled jobs.
--   **[Setting up the integration between Jira and Agile Development 2.0](../task/setting-up-the-integration-between-jira-and-agile-development.md)**  
+-   **[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)**  
 Understand the setup process of Atlassian Jira Integration for Agile Development 2.0.
--   **[Importing and exporting issues between Agile Development 2.0 and Jira](../reference/import-export-issues-sn-jira-workflow.md)**  
+-   **[Importing and exporting issues between Agile Development 2.0 and Jira](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/import-export-issues-sn-jira-workflow.md)**  
 Understand the workflow for the import and export of issues between Agile Development 2.0 and Jira.
--   **[Troubleshooting issues of Jira integration with Agile Development 2.0](../reference/agile-jira-integration-troubleshooting.md)**  
+-   **[Troubleshooting issues of Jira integration with Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/agile-jira-integration-troubleshooting.md)**  
 Resolve common issues that you might face while working with the integration of Jira and Agile Development 2.0.
 
-**Parent Topic:**[Strategic Portfolio Management](../../it-business-management/reference/r_ITBusinessManagement.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-portfolio-management/r_ITBusinessManagement.md)
 

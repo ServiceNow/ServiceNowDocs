@@ -1,17 +1,20 @@
 ---
 title: Register the Discovery Sensor for OT
-description: After you have installed the Discovery Console for OT and the Discovery Sensor for OT, register the Sensor to the Console with the Console's Device Management Interface \(DMI\).
+description: When you have installed the Discovery Console for OT and the Discovery Sensor for OT, register the Sensor to the Console with the Console's Device Management Interface \(DMI\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/registering-ot-sensor.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-24"
 reading_time_minutes: 2
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Register the Discovery Sensor for OT
 
-After you have installed the Discovery Console for OT and the Discovery Sensor for OT, register the Sensor to the Console with the Console's Device Management Interface \(DMI\).
+When you have installed the Discovery Console for OT and the Discovery Sensor for OT, register the Sensor to the Console with the Console's Device Management Interface \(DMI\).
 
 ## Before you begin
 
@@ -19,13 +22,13 @@ Role required: admin
 
 ## About this task
 
-Verify you [Install the Discovery Sensor for OT](install-discovery-sensor-for-ot.md) before registering your Sensor. You must register the Sensor to the Console with the DMI. The DMI is a web-based interface that lets you configure and register the Sensor with the Console. For more information on the DMI, see [Device Management Interface](../concept/dmi.md). Registering the Sensor confirms it can communicate with the Console.
+Confirm you that you have installed the Sensor. You must register the Sensor to the Console with the DMI. The DMI is a web-based interface that lets you configure and register the Sensor with the Console. For more information on the DMI, see [Device Management Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/dmi.md). Registering the Sensor confirms it can communicate with the Console.
 
 ## Procedure
 
-1.  To access the DMI for a Discovery Sensor for OT, open a browser and type in the URL displayed on the screen after the Sensor is installed and boots up.
+1.  Access the DMI for a Discovery Sensor for OT by opening a browser and entering the URL displayed on the screen when the Sensor is installed and boots up.
 
-    **Note:** Currently, there isn't a serial number portion since there's no active hardware. These input steps are still valid. But, the `[serial number]` is likely to be the Sensor name at the time of its creation. This is an example of how to find the URL for the DMI. Your IP address will be different from this example:
+    **Note:** Currently, there isn't a serial number portion since there's no active hardware. These input steps are still valid. But the `[serial number]` is likely to be the Sensor name at the time of its creation. This is an example of how to find the URL for the DMI. Your IP address will be different from this example:
 
     ```
     https://[device type]-[serial number] with either .local:443 or .[domain name]:443 
@@ -33,9 +36,9 @@ Verify you [Install the Discovery Sensor for OT](install-discovery-sensor-for-ot
 
     Be sure to make a note of the DMI URL displayed after the Sensor is installed. You can use this URL for the DMI. This image shows the DMI URL as https://172.16.241.131:443.
 
-    ![DMI URL](../concept/ot-discovery-console-user-guide/image/dmi-url.png)
+    \[Omitted image "dmi-url.png"\] Alt text: DMI URL
 
-2.  Using your credentials, log into the DMI.
+2.  In the DMI, log in using your credentials.
 
     -   DMI \(Web Interface\):
         -   Username: admin
@@ -43,54 +46,48 @@ Verify you [Install the Discovery Sensor for OT](install-discovery-sensor-for-ot
     -   SSH login:
         -   Username: serviceadmin
         -   Password: devpassword
-    **Note:** Once the initial log in has been completed, the DMI prompts you to change the password.
+    **Note:** After the initial log in is completed, the DMI prompts you to change the password.
 
-3.  In a separate tab or browser, if you haven't already, log into the Console.
+3.  In a separate tab or browser, log in to the Discovery Console for OT.
 
-4.  Generate and upload a bundle.
+4.  In the Console, navigate to **Appliances &gt; Certificates**.
 
-    1.  In the Console, navigate to **Sensors &gt; Certificates**.
+5.  Under Sensor Credentials, select the **Generate Bundle**.
 
-    2.  Under **Sensor Credentials**, select **Generate Bundle**.
+    In the prompt window, select **Generate Bundle** again.
 
-    3.  Download and save the generated bundle zip file.
+6.  The bundle generates and downloads to your designated download folder.
 
-    4.  Unzip the file.
+7.  Switch back to the DMI.
 
-        By unzipping the file, you get a `password.txt` file, a `Sensorbundle` file, and a `service_credentials.txt` file.
+8.  In the DMI, navigate to **Console &gt; Credentials**.
 
-    5.  Switch back to the DMI browser window or tab.
+9.  Select **Bundle File Input** and from this window, select the generated Sensor bundle.
 
-    6.  Select the **Certificate** tab.
+10. Select **Upload Credentials Bundle** to upload the Sensor bundle to the DMI.
 
-    7.  In the **Certificate Bundle** field, select **Browse** and upload the `Sensorbundle` file.
+    After the bundle is uploaded, the **Certificate Update Logs** appears and confirms the completed process.
 
-    8.  In the **Password** field, copy and paste the password from the `password.txt` file.
+11. The DMI automatically extracts the certificate from the bundle and registers the Sensor.
 
-    9.  Select **Upload Certificate**.
+12. From the DMI menu, select the **Network** tab.
 
-        Once the certificate is uploaded, the **Certificate Update Logs** appears and confirms the completed process.
+13. Select the **Edit** button.
 
-5.  Edit the Console settings.
+14. Select an IP Address or Hostname for the Console endpoint and enter a valid value.
 
-    1.  In the DMI, select the **Network** tab.
+    Enter a valid Gateway IP Address.
 
-    2.  Select the **Edit** button.
+15. Select **Save &amp; Deploy**.
 
-    3.  Select an IP Address or Hostname as the Console endpoint and enter a valid value.
+16. Navigate back to the **Console** tab and select the **Register** button.
 
-        Enter a valid Gateway IP Address.
-
-    4.  Select **Save &amp; Deploy**.
-
-    5.  Navigate back to the **Console** tab and select the **Register** button.
-
-6.  Navigate back to the Console and verify that the Sensor is online.
+17. In the Console, confirm that the Sensor is online.
 
     The device briefly shows online and then offline. Then it shows a steady online status in the Console.
 
 
 ## Result
 
-The Sensor and the Console can now communicate.
+The Sensor and the Console can now communicate and generate queries.
 

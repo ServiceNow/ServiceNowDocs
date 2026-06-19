@@ -2,6 +2,7 @@
 title: Create a business calendar
 description: Create a definition record for an individual parent or child business calendar. You create this record so that you can easily identify a business calendar when you use it in a ServiceNow AI Platform package or functional area. A business calendar can represent any length of time, such as a week, a month, a year, or a fiscal period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/create-business-calendar.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -23,11 +24,11 @@ Role required: business\_calendar\_admin
 
 When you create a business calendar, you specify a reference name, labeling, parent business calendar, if any, and a time zone for it.
 
-You first create a business calendar record and then create business calendar entries for it in the Business Calendar Entries related list. To learn more about how business calendar entries work, see [Define business calendar entries](define-business-calendar-entries.md#) and [Create business calendar entry names](define-business-calendar-entries.md#). You can also create records from the Business Calendar Entries table itself.
+You first create a business calendar record and then create business calendar entries for it in the Business Calendar Entries related list. To learn more about how business calendar entries work, see [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md) and [Create business calendar entry names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md). You can also create records from the Business Calendar Entries table itself.
 
 Using the Business Calendar Filter Options related list, you can also define the date and time filtering options for the business calendar that you’re creating.
 
-You can also create a business calendar span using a Script includes titled, **BusinessCalendarGeneratorUtil**. For more information, see [Create a business calendar span using a Script includes](create-a-business-calendar-span-using-a-script-includes.md).
+You can also create a business calendar span using a Script includes titled, **BusinessCalendarGeneratorUtil**. For more information, see [Create a business calendar span using a Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/create-a-business-calendar-span-using-a-script-includes.md).
 
 **Note:** Fiscal calendars or schedules you may have created in the **Fiscal Calendar** or **System Scheduler** &gt; **Schedules** menu also appear on the lists on the **Business Calendar** menu. If you select a fiscal calendar or schedule, it appears in the legacy function that you originally used to create it. You can't view or update legacy fiscal calendars or schedules using this form.
 
@@ -77,7 +78,7 @@ Parent
 
 </td><td>
 
-Parent business calendar to the current business calendar that you’re creating. To search for an existing business calendar, select the **Lookup using list** icon \(![](../../ai-search/image/icon-search.png)\).
+Parent business calendar to the current business calendar that you’re creating. To search for an existing business calendar, select the **Lookup using list** icon \(\[Omitted image "icon-search.png"\] Alt text:\).
 
  For example, you created a business calendar for 2020, and an individual child calendar for each month within the year, each with its own business calendar entries. As you create a business calendar for each month, you would select 2020 as the parent calendar for each.
 
@@ -89,7 +90,7 @@ Application
 
 </td><td>
 
-Application that is associated with this business calendar. If you are working on an application or are creating a business calendar from an application record, the field defaults to that application. Otherwise, the field defaults to **Global**. Any records that are created from the table record, such as modules and security rules, are assigned to this application by default. To learn more about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md)
+Application that is associated with this business calendar. If you are working on an application or are creating a business calendar from an application record, the field defaults to that application. Otherwise, the field defaults to **Global**. Any records that are created from the table record, such as modules and security rules, are assigned to this application by default. To learn more about application scoping, see 
 
 </td></tr><tr><td>
 
@@ -122,13 +123,13 @@ Description of the business calendar.
 
     Create, at minimum, one business calendar entry for the selected calendar.
 
-    **Note:** To learn more about creating business calendar entries, see [Define business calendar entries](define-business-calendar-entries.md#) and [Creating business calendars](../concept/business-calendars.md).
+    **Note:** To learn more about creating business calendar entries, see [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md) and [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md).
 
 7.  In the Business Calendar Filter Options related list, select **New** to create filtering options for the business calendar.
 
     You can define the date and time filtering options for the business calendar that you’re creating. These filtering options are in addition to the standard date and time filtering in the ServiceNow AI Platform.
 
-    **Note:** To learn more about creating business calendar filtering options, see [Define business calendar filtering options](define-business-calendar-filtering-options.md).
+    **Note:** To learn more about creating business calendar filtering options, see [Define business calendar filtering options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-filtering-options.md).
 
 8.  Select **Submit**.
 
@@ -141,5 +142,5 @@ If you create business calendar entries in the Business Calendar Entries related
 
 If you created business calendar filter options in the Business Calendar Filter Options related list, a record is saved in the Business Calendar Filter Option \(business\_calendar\_filter\_option\) table. The record is associated with the business calendar.
 
-**Parent Topic:**[Creating business calendars](../concept/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md)
 

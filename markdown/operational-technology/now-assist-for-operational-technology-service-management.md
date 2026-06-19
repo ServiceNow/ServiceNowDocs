@@ -2,7 +2,10 @@
 title: Now Assist for Operational Technology Service Management \(OTSM\)
 description: Use the Now Assist for Operational Technology Service Management \(OTSM\) application to summarize the Operational Technology \(OT\) incident information and generate incident resolution notes. You can enable your users to understand the context so that they can implement quicker resolutions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/now-assist-for-operational-technology-service-management.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -15,19 +18,19 @@ Use the Now Assist for Operational Technology Service Management \(OTSM\) applic
 
 ## Get started
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for OTSM](exploring-now-assist-otsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/exploring-now-assist-otsm.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for OTSM application to get started](configuring-now-assist-otsm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for OTSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-now-assist-otsm.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by Now Assist for OTSM](using-now-assist-otsm.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/using-now-assist-otsm.md)
 
 </td></tr><tr><td>
 
@@ -35,7 +38,7 @@ Use the Now Assist for Operational Technology Service Management \(OTSM\) applic
 
 </td><td>
 
-[Use the OTSM AI agent collection![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic workflows for Now Assist for OTSM](now-assist-otsm-use-cases.md)
+[Use the OTSM AI agent collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows for Now Assist for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/now-assist-otsm-use-cases.md)
 
 </td><td>
 
@@ -65,7 +68,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 

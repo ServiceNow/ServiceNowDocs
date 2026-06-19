@@ -2,9 +2,10 @@
 title: Now Assist Guardian
 description: Now Assist Guardian is built on the ServiceNow Small Language Model \(SLM\) and monitors generative AI interactions to detect offensive content, prompt injection attacks, and sensitive topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/now-assist-guardian.html
 release: australia
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
 keywords: [Now Assist Guardian, Llama, Generative AI, GenAI, SLM, Large language model, Guardrails, Safety categories]
 breadcrumb: [Agentic AI security and governance]
@@ -25,7 +26,7 @@ Now Assist Guardian provides three guardrails. Each guardrail has a different sc
 |Guardrail|What it detects|Scope|
 |---------|---------------|-----|
 |Offensiveness detection|Offensive or harmful content in AI inputs and outputs.|Specific Now Assist skills and workflows.|
-|Prompt injection detection|Attempts to override LLM instructions or expose restricted information.|All generative AI applications and features.|
+|Prompt injection detection|Attempts to override LLM instructions or expose restricted information.|All generative AI applications and features. You can configure prompt injection detection at the instance level or for individual skills.|
 |Sensitive topic filters|Subjects not suited for AI responses, such as workplace safety or employee compensation.|Virtual Agent conversational skills only \(available for HR Service Delivery and Customer Service Management\).|
 
 **Note:** The scope of each guardrail differs. Prompt injection detection applies to all generative AI applications and features. Offensiveness detection applies only to supported Now Assist skills and workflows. Sensitive topic filters apply only to Virtual Agent conversations and require HR Service Delivery.
@@ -34,7 +35,7 @@ Now Assist Guardian provides three guardrails. Each guardrail has a different sc
 
     Due to the probabilistic nature of generative AI, it's possible for an LLM to generate offensive content. If there's offensive content in the input of the request, offensive content can also occur in the response. Examples of offensive content include language that is toxic, defamatory, or fraudulent.
 
-    When offensive content is detected, Now Assist Guardian logs the event. You can also configure it to block the content. This guardrail applies to specific Now Assist skills and workflows.
+    When offensive content is detected, Now Assist Guardian logs the event by default. You can also configure it to block the content. This guardrail applies to specific Now Assist skills and workflows.
 
 -   **Prompt injection**
 
@@ -42,7 +43,7 @@ Now Assist Guardian provides three guardrails. Each guardrail has a different sc
 
     **Note:** Due to the probabilistic nature of the model and evolving attack techniques, Now Assist Guardian may not identify every prompt injection attempt in some cases.
 
-    Prompt injection protection applies to all generative AI applications and features on your instance. It is not limited to specific skills or workflows.
+    Prompt injection protection applies to all generative AI applications and features on your instance. You can configure it at the instance level or for individual skills. When a skill has its own setting, Now Assist Guardian automatically applies the more protective of the two settings, the skill-level setting or the instance-level setting.
 
 -   **Filtered subjects**
 
@@ -53,7 +54,7 @@ Now Assist Guardian provides three guardrails. Each guardrail has a different sc
 
 ## Logging and blocking
 
-Now Assist Guardian logs detected events for offensiveness and prompt injection. You can access logs from **Now Assist Admin** &gt; **Settings** &gt; **Now Assist Guardian**. Log data includes information about the request, the conversation that contains the offensive content, and any user feedback.
+Now Assist Guardian detects and logs events for offensive content and prompt injection attempts by default. You can access logs from **Now Assist Admin** &gt; **Settings** &gt; **Now Assist Guardian**. Log data includes information about the request, the conversation that contains the offensive content, and any user feedback.
 
 In addition to logging, you can configure Now Assist Guardian to block offensive content or prompt injection attempts. When blocking is enabled and content is detected, you see a standard error message instead of the generated response. The standard error message displays that the request couldn’t be completed, and you don't see what the AI generated. Before enabling blocking, review logs for a period of time to understand how frequently these issues occur in your environment.
 
@@ -67,15 +68,15 @@ You can override the redirection by selecting **Proceed, not sensitive**. It ret
 
 ## Now Assist Guardian at runtime
 
-All skills that use Now Assist Guardian remove personally identifiable information \(PII\) before the request reaches the LLM. You can configure what type of data is anonymized. For more information see, [Configuring Now Assist for Data Privacy](../../security/concept/configure-now-assist-data-privacy.md).
+All skills that use Now Assist Guardian remove personally identifiable information \(PII\) before the request reaches the LLM. You can configure what type of data is anonymized. For more information see, [Configuring Now Assist for Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md).
 
 For conversational skills, semantic search processes requests to determine whether a filter has been detected. If so, the user is redirected to a Virtual Agent topic that asks if they want to make an HR case or speak to a live agent.
 
-![image.now-assist-guardian-filter-guardrail]
+\[Omitted image "now-assist-guardian-filter-guardrail.png"\] Alt text: Infographic showing Now Assist Guardian at runtime with sensitivity filter guardrail
 
 For catalog item generation and agent skills, such as summarization and resolution note generation, offensiveness and prompt injection guardrails run on inputs and outputs of requests. If either is detected, Now Assist Guardian logs the request. If you’ve chosen to block this content, then a standard error message appears, and the user doesn’t see the result of the request.
 
-![image.now-assist-guardian-offensiveness-security-guardrails]
+\[Omitted image "now-assist-guardian-offensiveness-security-guardrails.png"\] Alt text: Infographic showing Now Assist Guardian at runtime with offensiveness and security guardrails
 
 ## Safety categories captured in Now Assist Guardian logs
 
@@ -336,13 +337,13 @@ Technology
 
 </td><td>
 
-[Now Assist for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
+
 
 </td><td>
 
--   [Configuration item \(CI\) summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-ci-summarizer.md)
--   [Manage duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-mng-dupe-cis-skill.md)
--   [Service Graph Connector diagnosis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-sgc-diagnose.md)
+-   Configuration item \(CI\) summarization
+-   Manage duplicate CIs
+-   Service Graph Connector diagnosis
 
 </td></tr><tr><td>
 
@@ -350,12 +351,12 @@ Technology
 
 </td><td>
 
-[Now Assist for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom.md)
+
 
 </td><td>
 
--   [Alert analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/alert-summarization-now-assist.md)
--   [Alert investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/nai-analyze-past-incidents.md)
+-   Alert analysis
+-   Alert investigation
 
 </td></tr><tr><td>
 
@@ -363,19 +364,19 @@ Technology
 
 </td><td>
 
-[Now Assist for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md)
+
 
 </td><td>
 
--   [Change request risk explanation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/change-risk-exp-now-assist.md)
--   [Change request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/summarize-change-now-assist.md)
--   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-chat-recommendation.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/generate-chat-summary-interaction-now-assist-itsm.md)
--   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist.md)
--   [Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/summarize-incident-now-assist.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/Now-Assist-generate-article-SOW-itsm.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/resolve-incident-now-assist.md)
--   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-sidebar-discussion.md)
+-   Change request risk explanation
+-   Change request summarization
+-   Chat reply recommendation
+-   Chat summarization
+-   Incident assist
+-   Incident summarization
+-   KB generation
+-   Resolution notes generation
+-   Sidebar discussion summarization
 
 </td></tr><tr><td>
 
@@ -383,14 +384,14 @@ Technology
 
 </td><td>
 
-[Now Assist for Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
+
 
 </td><td>
 
--   [Post-incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-pia-report-now-assist-security-incident.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-closure-notes-si-now-assist-sec-incident.md)
--   [Security incident recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/generate-recommended-actions-now-assist-for-security.md)
--   [Security incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/summarize-security-incident-now-assist-sec-incident.md)
+-   Post-incident analysis
+-   Resolution notes generation
+-   Security incident recommended actions
+-   Security incident summarization
 
 </td></tr><tr><td>
 
@@ -398,16 +399,16 @@ Technology
 
 </td><td>
 
-[Now Assist for Strategic Portfolio Management \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/now-assist-spm.md)
+
 
 </td><td>
 
--   [Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/feedback-summary-sentiment-topics.md)
--   [Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/summarize-documents-genai-skill-spw.md)
--   [Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/summarize-doc-content-genai-skill-pw.md)
--   [Project summary emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/email-project-summary-skill-pw.md)
--   [Story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md)
--   [Write planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md)
+-   Multi feedback summarization
+-   Planning item doc summarization
+-   Project doc summarization
+-   Project summary emails
+-   Story generation
+-   Write planning item
 
 </td></tr><tr><td>
 
@@ -415,17 +416,17 @@ Customer
 
 </td><td>
 
-[Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md)
+
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-case.md)
--   [Chat recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-summarize-chat.md)
--   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/generate-email-reply-recommendations.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.md)
--   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/summarize-sidebar-conversations.md)
+-   Case summarization
+-   Chat recommendation
+-   Chat summarization
+-   Email recommendation
+-   KB generation
+-   Resolution notes generation
+-   Sidebar summarization
 
 </td></tr><tr><td>
 
@@ -433,13 +434,13 @@ Customer
 
 </td><td>
 
-[Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/now-assist-fsm.md)
+
 
 </td><td>
 
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/na-fsm-generate-kb-article.md)
--   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/na-fsm-summarize-sidebar-platform.md)
--   [Work order task summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/generate-wot-summ-fsm.md)
+-   KB generation
+-   Sidebar summarization
+-   Work order task summarization
 
 </td></tr><tr><td>
 
@@ -447,12 +448,12 @@ Customer
 
 </td><td>
 
-[Now Assist for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
+
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/summarize-case-using-now-assist-fso.md)
--   [Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/submit-dispute-case-disputes-intake-via-virtual-agent.md)
+-   Case summarization
+-   Disputes intake via Virtual Agent
 
 </td></tr><tr><td>
 
@@ -460,12 +461,12 @@ Customer
 
 </td><td>
 
-[Now Assist for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-for-psds.md)
+
 
 </td><td>
 
--   [Government case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-summarize-case.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/now-assist-psds-summarize-chat.md)
+-   Government case summarization
+-   Chat summarization
 
 </td></tr><tr><td>
 
@@ -473,11 +474,11 @@ Employee
 
 </td><td>
 
-[Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
+
 
 </td><td>
 
-[Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md)
+Incident summarization
 
 </td></tr><tr><td>
 
@@ -485,14 +486,14 @@ Employee
 
 </td><td>
 
-[Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
+
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-summarize-case.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-chat.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/gen-kb-now-assisthr.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-res-note.md)
+-   Case summarization
+-   Chat summarization
+-   KB generation
+-   Resolution notes generation
 
 </td></tr><tr><td>
 
@@ -500,11 +501,11 @@ Employee
 
 </td><td>
 
-[Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+
 
 </td><td>
 
-[Legal request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-summarize-case.md)
+Legal request summarization
 
 </td></tr><tr><td>
 
@@ -512,12 +513,12 @@ Employee
 
 </td><td>
 
-[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+
 
 </td><td>
 
--   [Contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
--   [Contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+-   Contract analysis
+-   Contract metadata extraction
 
 </td></tr><tr><td>
 
@@ -529,7 +530,7 @@ Creator
 
 </td><td>
 
-[Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
+Catalog item generation
 
 </td></tr><tr><td>
 
@@ -549,11 +550,11 @@ Finance &amp; Supply Chain
 
 </td><td>
 
-[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo.md)
+
 
 </td><td>
 
-[Supplier case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/now-assist-slo-summarize-case.md)
+Supplier case summarization
 
 </td></tr><tr><td>
 
@@ -561,23 +562,23 @@ Finance &amp; Supply Chain
 
 </td><td>
 
-[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo.md)
+
 
 </td><td>
 
-[Record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-summarize-record.md)
+Record summarization
 
 </td></tr></tbody>
-</table>-   **[Activate offensiveness protection for generative AI](../../now-assist-admin/task/activate-offensiveness-protection-for-generative-ai.md)**  
+</table>-   **[Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/activate-offensiveness-protection-for-generative-ai.md)**  
 Activate offensiveness detection to log or block offensive content generated by Now Assist skills and workflows.
--   **[Configure prompt injection attack protection](../../now-assist-admin/task/configure-prompt-injection-attack-protection.md)**  
-Activate or deactivate prompt injection attack detection to protect all generative AI applications and AI-generated text and conversations on your instance from malicious inputs and unintended model behaviors.
--   **[Configure sensitive topic filters](../../now-assist-admin/task/configure-sensitive-topic-filters.md)**  
+-   **[Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-prompt-injection-attack-protection.md)**  
+Activate or deactivate prompt injection attack detection settings to protect all generative AI interactions on your instance from malicious inputs and unintended model behaviors.
+-   **[Configure sensitive topic filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configure-sensitive-topic-filters.md)**  
 Set up filters in Now Assist Guardian to redirect Virtual Agent users to a live agent or HR case when a sensitive subject is detected in a conversation.
--   **[Export Now Assist Guardian logs](../../now-assist-admin/task/export-now-assist-guardian-logs.md)**  
+-   **[Export Now Assist Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/export-now-assist-guardian-logs.md)**  
 Export logs from Now Assist Guardian to get insights into how often different guardrails are being detected and used.
--   **[Configuring a Guardrail Service Provider](../../now-assist-admin/concept/configuring-byog.md)**  
+-   **[Configuring a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-byog.md)**  
 Now Assist Guardian supports default guardrails and third-party or custom guardrail service providers to extend AI content monitoring with your organization's AI governance policies.
 
-**Parent Topic:**[Agentic AI security and governance](../../security/concept/now-assist-security.md)
+**Parent Topic:**[Agentic AI security and governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-security.md)
 

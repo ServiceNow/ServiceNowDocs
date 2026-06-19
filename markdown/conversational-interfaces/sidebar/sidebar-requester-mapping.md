@@ -2,6 +2,7 @@
 title: Sidebar requester mapping
 description: Create a requester mapping to define the requesting user for a record. This requester is used to identify the main contact for a record and Sidebar sends an email notification to the requester when they have unread messages in their discussions in the last 24 hours.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/sidebar/sidebar-requester-mapping.html
 release: australia
 product: Sidebar
 classification: sidebar

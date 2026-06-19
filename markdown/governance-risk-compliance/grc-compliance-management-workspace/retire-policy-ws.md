@@ -2,6 +2,7 @@
 title: Retire a policy using the Compliance Workspace
 description: Retiring a policy is part of the policy management process. It can be retired using the Compliance Workspace anytime after being approved and published to the KB.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/retire-policy-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

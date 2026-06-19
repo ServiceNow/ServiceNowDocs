@@ -2,6 +2,7 @@
 title: Complete a smart assessment for a safety inspection or audit through the Mobile agent app
 description: Use the Mobile Agent app to complete a smart assessment questionnaire for Health and Safety inspection or audit as an agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-create-smart-assessment-inspection-audit-mobile-agent.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -21,11 +22,11 @@ When the agent logs in to the Mobile Agent app, they can view the notification f
 
 Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit\_writer
 
-**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](../../hs-risk-management/task/hs-configure-smart-assessment-template.md).
+**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.md).
 
 ## Procedure
 
-1.  Tap the Home icon \(![home icon](../../../reuse/images/home-page-icon.png)\).
+1.  Tap the Home icon \(\[Omitted image "home-page-icon.png"\] Alt text: home icon\).
 
 2.  Select **See all** for the **Smart assessment** section.
 
@@ -34,10 +35,10 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit
 4.  Complete the questionnaire.
 
     -   Tap **Next** to complete all sections of the questionnaire.
-    -   If the questionnaire is long or if more information is needed, tap the **Partial save** icon \(![partial save icon](../image/hs-partial-save-icon.png)\) to save the partially filled questionnaire and complete it later.
-    -   You can also create actions or findings for each question in the smart assessment questionnaire. For more information, see [Create actions or findings for the smart assessment questionnaire](hs-create-actions-findings-smart-assessments.md).
+    -   If the questionnaire is long or if more information is needed, tap the **Partial save** icon \(\[Omitted image "hs-partial-save-icon.png"\] Alt text: partial save icon\) to save the partially filled questionnaire and complete it later.
+    -   You can also create actions or findings for each question in the smart assessment questionnaire. For more information, see [Create actions or findings for the smart assessment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-actions-findings-smart-assessments.md).
 5.  Tap on the **Submit** button.
 
 
-**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](../concept/hs-manage-smart-assessments-mobile.md)
+**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-smart-assessments-mobile.md)
 

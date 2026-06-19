@@ -2,6 +2,7 @@
 title: Install Talent profile
 description: You can install the Talent profile application \(sn\_ta\_tp\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/install-talent-profile.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,7 +31,7 @@ The following items are installed with Talent profile:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Talent Profile](../reference/installed-with-talent-profile.md).
+For more information, see [Components installed with Talent Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-talent-profile.md).
 
 ## Procedure
 
@@ -55,5 +56,5 @@ For more information, see [Components installed with Talent Profile](../referenc
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Talent profile](../concept/config-tp.md)
+**Parent Topic:**[Configuring Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-tp.md)
 

@@ -2,6 +2,7 @@
 title: Service Catalog terms and roles
 description: The Service Catalog application uses these roles to manage different aspects of the application.Can manage all aspects of the Service Catalog application, including scripting functions such as creating UI macros or business rules.Can manage the Service Catalog application, including catalogs, categories, and items, but not including scripting functions available to administrators.Can edit and update a service catalog, as well as the categories and catalog items within the catalog. The manager can assign editors and also a different manager for the service catalog. You can perform these actions only on catalogs for which you are assigned as the manager.Can edit and update a service catalog, as well as categories and catalog items within the catalog. The editor can assign other editors, but cannot change the catalog manager. You can perform these actions only on catalogs for which you are assigned as the editor.Can create and maintain advanced catalog items in Catalog Builder such that they can create, edit, or delete client scripts in Catalog Builder.Can create and maintain items in the catalog builder using the templates that the user has access to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/r\_ServiceCatalogManagementTermsandRoles.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -34,7 +35,7 @@ The Service Catalog application uses these roles to manage different aspects of 
     Tickets represent work done by Fulfillment Groups as part of an Execution Plan.
 
 
-**Parent Topic:**[Service Catalog Reference](../concept/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
 
 ## Administrator \[admin\]
 

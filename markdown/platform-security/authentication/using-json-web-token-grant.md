@@ -2,11 +2,12 @@
 title: JSON Web token grant workflow
 description: Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based authentication without user interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/using-json-web-token-grant.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [JWT Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -32,7 +33,7 @@ The client application generates a signed JWT with identity-related claims such 
     The token identifies and authenticates the client application. Instead of using a shared secret, the application signs the token with a private key. This offers a more secure alternative to the client credentials grant.
 
 
-![JWT Grant Workflow](../images/mic-jwt-grant-workflow.png "JWT Grant workflow")
+\[Omitted image "mic-jwt-grant-workflow.png"\] Alt text: JWT Grant Workflow
 
 ## Procedure
 

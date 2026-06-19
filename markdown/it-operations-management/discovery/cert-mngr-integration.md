@@ -2,6 +2,7 @@
 title: Certificate generation through Cert-Manager Integration
 description: Request a certificate through Kubernetes cert-manager using the ServiceNow External Issuer \(sn-external-issuer\) and save the certificate and its related information securely within the Kubernetes cluster as a secret. In Kubernetes, a secret is an object that allows you to store and manage sensitive information, such as passwords, API keys, and certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-mngr-integration.html
 release: australia
 product: Discovery
 classification: discovery
@@ -65,7 +66,7 @@ Deploying the ServiceNow External Issuer in Kubernetes involves the following st
 5.  \(Optional\) Customize any additional configurations in the files to suit your specific requirements.
 6.  Ensure that the deployment is successful and the ServiceNow External Issuer is up and running.
 
-## Request new certificate flow
+## Request a certificate flow
 
 After deployment, submit a certificate resource with the following information in a file named `certificate_clusterissuer.yaml`.
 

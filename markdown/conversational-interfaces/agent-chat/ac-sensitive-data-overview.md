@@ -2,6 +2,7 @@
 title: Sensitive Data Handler
 description: During an Agent Chat or Virtual Agent conversation, the agent or requester may accidentally enter sensitive data. The Sensitive Data Handler detects and masks the sensitive data so it is not viewed by the agent or requester. The Sensitive Data Handler can also collect sensitive data as part of a business process, such as user authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ac-sensitive-data-overview.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -18,7 +19,7 @@ During an Agent Chat or Virtual Agent conversation, the agent or requester may a
 
 **Note:** This feature is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Install the Data Privacy application as a replacement. For more information, see [Data Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/data-privacy-landing.md).
+Install the Data Privacy application as a replacement. For more information, see .
 
 Possible situations when the Sensitive Data Handler might detect and mask sensitive data include:
 
@@ -44,7 +45,7 @@ The Sensitive Data Handler plugin \[com.glide.sensitive\_data\_handling\] can be
 
 ## Regular Expressions
 
-The base system of the Sensitive Data Handler comes with pre-defined regular expressions for credit/debit card numbers, social security numbers, and email addresses. When the Sensitive Data Handler detects a regular expression, it uses the defined masking pattern to mask sensitive data. To define your own regular expressions and patterns to mask other sensitive data, see [Configuring Sensitive Data Handler](../task/ac-configure-sensitive-data-handling.md). If a regular expression is not properly configured, the system may get stuck while attempting to match the regular expression with the message. To prevent the system from getting stuck, the system times out after one second.
+The base system of the Sensitive Data Handler comes with pre-defined regular expressions for credit/debit card numbers, social security numbers, and email addresses. When the Sensitive Data Handler detects a regular expression, it uses the defined masking pattern to mask sensitive data. To define your own regular expressions and patterns to mask other sensitive data, see [Configuring Sensitive Data Handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ac-configure-sensitive-data-handling.md). If a regular expression is not properly configured, the system may get stuck while attempting to match the regular expression with the message. To prevent the system from getting stuck, the system times out after one second.
 
 <table id="table_r1n_gdm_gsb"><thead><tr><th>
 

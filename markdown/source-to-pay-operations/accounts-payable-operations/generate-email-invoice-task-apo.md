@@ -2,6 +2,7 @@
 title: Generate email response for invoice task
 description: Generate email response for invoice task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/generate-email-invoice-task-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -27,7 +28,7 @@ The Email response for invoice task skill uses invoice task details such as shor
 
 1.  Navigate to **Workspaces** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
     A list of options within the workspace is displayed.
 
@@ -41,13 +42,13 @@ The Email response for invoice task skill uses invoice task details such as shor
 
 6.  In the **Email** tab, click anywhere within the email body text box.
 
-7.  Generate an email draft by selecting the Now Assist icon ![Now Assist icon](../../../common/image/icon-ai-sparkle.png).
+7.  Generate an email draft by selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now Assist icon.
 
 8.  Select **Insert**.
 
 9.  Select **Refine** to elaborate, shorten, or change the tone of an email body.
 
-10. Apply templates by selecting the template icon![Template](../../finance-case-management/image/apply-template-icon.png).![Email generation for invoice task](../image/email-inv-task-apo.png)
+10. Apply templates by selecting the template icon\[Omitted image "apply-template-icon.png"\] Alt text: Template.\[Omitted image "email-inv-task-apo.png"\] Alt text: Email generation for invoice task
 
     The email response is generated for the invoice task.
 

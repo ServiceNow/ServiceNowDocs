@@ -2,6 +2,7 @@
 title: Threat Opinion
 description: An Opinion is an assessment of the accuracy of the information in a STIX Object produced by a different entity. Threat opinions apply for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-opinion.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -23,8 +24,8 @@ Opinions are subjective, and the specification does not address how best to inte
 
 Human analysts create Opinions and are composed of human-oriented text, they contain an extra property to capture the author that created the Opinion.
 
--   **[Define Threat Opinion](../task/define-threat-opinion.md)**  
+-   **[Define Threat Opinion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-threat-opinion.md)**  
 Define threat opinions as an assessment of the accuracy of the information in a STIX object.
 
-**Parent Topic:**[Threat Entities](tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

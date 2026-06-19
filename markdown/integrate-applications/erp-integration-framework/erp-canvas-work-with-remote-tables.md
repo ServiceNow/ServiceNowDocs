@@ -2,11 +2,12 @@
 title: Using ERP remote tables in Zero Copy Connector for ERP
 description: Remote tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enable you to view and query data from the ERP system of record on the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-work-with-remote-tables.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-08"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, remote, table, remote table]
 breadcrumb: [Retrieving data, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -18,7 +19,7 @@ Remote tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\) en
 
 **Note:** Zero Copy Connector for ERP doesn't replicate data into the ServiceNow AI Platform. It mirrors data that lives in the ERP system of record, and remains protected there.
 
-For general information about remote tables in the ServiceNow AI Platform, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md).
+For general information about remote tables in the ServiceNow AI Platform, see .
 
 ## Remote tables are linked to ERP models
 
@@ -28,16 +29,16 @@ The connected model, which is defined on the remote table **Details** tab, contr
 
 ## Limitations of remote tables
 
-To promote data integrity, you can't create new remote tables in Zero Copy Connector for ERP, but you can clone existing models and extend standard ERP remote tables to customize them. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](../task/erp-canvas-clone-data-model.md).
+To promote data integrity, you can't create new remote tables in Zero Copy Connector for ERP, but you can clone existing models and extend standard ERP remote tables to customize them. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
 
 ERP remote tables have a limit of 1,000 records. If you need a larger amount of data, use an ERP extraction table.
 
--   **[View and edit ERP remote table details with Zero Copy Connector for ERP](../task/erpi-find-tables.md)**  
+-   **[View and edit ERP remote table details with Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpi-find-tables.md)**  
 View and edit details for ERP \(Enterprise Resource Planning\) remote tables in Zero Copy Connector for ERP, such as their attachment settings and short descriptions.
--   **[Customize fields for an ERP remote table in Zero Copy Connector for ERP](../task/erp-canvas-build-remote-table.md)**  
+-   **[Customize fields for an ERP remote table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-build-remote-table.md)**  
 Add or remove columns in remote tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to create your ERP model. For example, remove fields with sensitive information, such as birthdays.
--   **[Query a remote table using Zero Copy Connector for ERP](../task/erp-canvas-query-remote-table.md)**  
+-   **[Query a remote table using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-query-remote-table.md)**  
 Query ERP \(Enterprise Resource Planning\) remote tables from a system of record directly from the **All** menu using Zero Copy Connector for ERP.
 
-**Parent Topic:**[Retrieving data](erp-retrieving-data.md)
+**Parent Topic:**[Retrieving data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-retrieving-data.md)
 

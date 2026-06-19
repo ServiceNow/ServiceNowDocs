@@ -2,6 +2,7 @@
 title: Test a check definition or check instance
 description: When working with a check definition or check instance, you can test the check against its assigned agent to ensure that the check is configured properly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-test-check-definition-instance.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -36,7 +37,7 @@ Role required: agent\_client\_collector\_admin
 
     The **Test Check** dialog box appears.
 
-    ![Test Check dialog box](../image/ACC-test-check-dialog.png)
+    \[Omitted image "ACC-test-check-dialog.png"\] Alt text: Test Check dialog box
 
 4.  Configure the fields in the dialog box.
 

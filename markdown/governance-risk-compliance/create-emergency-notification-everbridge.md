@@ -2,6 +2,7 @@
 title: Create an emergency notification and monitor its workflow
 description: Use the Emergency notification tab in the event workspace to create a notification for a crisis event or an exercise event where the exercise method is Functional.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-emergency-notification-everbridge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ When you send an emergency notification from the workspace, the action creates a
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the lists icon \(![Lists icon](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
 3.  Click **Pending** state in the Crisis Events list.
 
@@ -188,7 +189,7 @@ Message sent through SMS.
 
     The **Summary** section displays the list of contacts and groups to whom the notification was sent and their responses. It also displays the number of contacts who could not be reached, the number of contacts who acknowledged the notification, and the number of pending acknowledgements. This information is retrieved from Everbridge and displayed on your workspace.
 
-    ![Summary of the notification sent to contacts.](../image/SummaryEmergNotif.png "Summary of the notification sent to contacts")
+    \[Omitted image "SummaryEmergNotif.png"\] Alt text: Summary of the notification sent to contacts.
 
     -   **Sent to**
 
@@ -212,13 +213,15 @@ Message sent through SMS.
 
     If there are many contacts to whom the notification could not be delivered, then create another notification for the same crisis event. This time, you can send to a team of managers, as the previous notification did not reach many contacts.
 
+    You can close an event in the workspace when a notification is in progress. If the status of the event moves to **Closed Complete** or **Closed Incomplete** in the workspace, then the incident is **Closed** in Everbridge also. However, you have to manually close the notification that is **In Progress** state.
+
     Before you submit an event for approval, all the notifications that are In Progress must be closed.
 
     1.  To delete a notification that is in **Draft** or **Error** state, click the link to the emergency notification record in the **Number** column.
 
         **Note:** You cannot delete a notification that is in **Attempting to send**, **In Progress** or **Completed** state.
 
-    2.  Click **Delete** in the more actions icon \(![More actions action for delete action.](../image/MoreActionsicon.png)\).
+    2.  Click **Delete** in the more actions icon \(\[Omitted image "MoreActionsicon.png"\] Alt text: More actions action for delete action.\).
 
         **Note:** Now that the event is closed and the corresponding incident in Everbridge is also closed, you cannot create any more notifications for this event.
 

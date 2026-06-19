@@ -2,6 +2,7 @@
 title: Run Certificate discovery via Certificate Authority query
 description: Running Certificate discovery via Certificate Authority query allows for systematic identification and import of TLS certificates from specific Certificate Authorities, ensuring comprehensive tracking, management, and security of the certificate inventory. Discover TLS certificates from Certificate Authorities \(CA\) with Certificate Inventory and Management, using Patterns for diverse certificate authority vendors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-cert-inventory-mgmt-ca-query.html
 release: australia
 product: Discovery
 classification: discovery
@@ -21,13 +22,13 @@ Role required: pki\_admin or discovery\_admin
 
 ## About this task
 
-In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specific API elements. The user added to the instance credentials needs permissions for these queries. For more information on the Certificate Authorities \(CA\) pattern and the associated API elements, see [Certificate authorities pattern API elements and permissions](../reference/ca-api-permission.md).
+In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specific API elements. The user added to the instance credentials needs permissions for these queries. For more information on the Certificate Authorities \(CA\) pattern and the associated API elements, see [Certificate authorities pattern API elements and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/ca-api-permission.md).
 
 ## Procedure
 
 1.  Generate a credential alias if needed.
 
-    For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md). Create a new credential alias for new credentials. In case multiple credentials share the same alias, Discovery prioritizes the Credential and initiates the process.
+    For more information, see Credential aliases for Discovery. Create a new credential alias for new credentials. In case multiple credentials share the same alias, Discovery prioritizes the Credential and initiates the process.
 
 2.  Create a new credential type specific to the Certificate Authority \(CA\).
 
@@ -47,11 +48,11 @@ In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specif
 
     6.  Fill in the fields that are specific to the CA type you selected.
 
-        Each Certificate Authority \(CA\) requires specific form field entries. For more information, see [API Key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/API-key-credential-form.md).
+        Each Certificate Authority \(CA\) requires specific form field entries. For more information, see API Key credentials.
 
 3.  Create a Discovery schedule with the following fields.
 
-    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](t_CreateADiscoverySchedule.md#).
+    For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
     1.  Select **Discovery**: **Certificates**.
 

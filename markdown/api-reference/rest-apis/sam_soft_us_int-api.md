@@ -2,6 +2,7 @@
 title: SAM-Software Usage Data Integration API
 description: The SAM-Software Usage Data Integration API provides endpoints to create and update records in the Software Usage \[samp\_sw\_usage\] table.Creates or updates a specified record in the Software Usage \[samp\_sw\_usage\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/sam\_soft\_us\_int-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,7 +18,7 @@ The SAM-Software Usage Data Integration API provides endpoints to create and upd
 
 This API requires activation of the Software Asset Management Professional \(com.snc.samp\) plugin. It also requires that you have either the sam\_admin or sam\_developer role to access the endpoint.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## SAM-Software Usage Data Integration - POST /sam\_software\_usage\_integration/createOrUpdate
 
@@ -31,7 +32,7 @@ Versioned URL: `/api/now/{api_version}/sam_software_usage_integration/createOrUp
 
 Default URL: `/api/now/sam_software_usage_integration/createOrUpdate`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -91,7 +92,7 @@ List of column names and values for each field to store in the software usage re
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -124,7 +125,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

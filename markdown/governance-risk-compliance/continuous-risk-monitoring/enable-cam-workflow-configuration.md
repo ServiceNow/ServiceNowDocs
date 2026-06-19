@@ -2,6 +2,7 @@
 title: Enable CAM workflow configuration
 description: Enable the CAM workflow configuration to use custom workflows and frameworks in CAM. This feature enables you to configure workflows beyond the default National Institute of Standards and Technology \(NIST\) framework and adapt CAM to your organization's specific requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/enable-cam-workflow-configuration.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -49,5 +50,5 @@ To proceed with data migration, select **Script for migrating data to cam workfl
 
 This link is available at all times, even after the property is enabled, so you can run migration when required.
 
-See [Run migration scheduled job](run-migration-scheduled-job.md) from Step 4 for detailed migration steps.
+See [Run migration scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/run-migration-scheduled-job.md) from Step 4 for detailed migration steps.
 

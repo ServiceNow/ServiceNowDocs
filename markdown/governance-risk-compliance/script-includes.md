@@ -2,6 +2,7 @@
 title: Script includes installed with Operational Resilience
 description: When you download the Operational Resilience application, several Script includes are added to your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/script-includes.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

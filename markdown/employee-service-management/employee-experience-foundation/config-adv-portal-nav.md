@@ -2,6 +2,7 @@
 title: Configure advanced portal navigation order
 description: Advanced Portal Navigation \(APN\) helps you design and configure an intuitive navigation for better information architecture and discovery. You can reorder topics and non-topic menu items based on employee needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-adv-portal-nav.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

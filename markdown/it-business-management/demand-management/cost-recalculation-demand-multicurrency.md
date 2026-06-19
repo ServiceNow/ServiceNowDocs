@@ -2,6 +2,7 @@
 title: Cost plan updates and cost recalculation in demand currency
 description: Updating the unit cost, quantity, or fiscal period of a cost plan updates all the related amount fields in the cost plan and its breakdowns. Also, the amounts in the related fields of the demand, to which the cost plan is rolling up, are recalculated and reflected in the demand currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/cost-recalculation-demand-multicurrency.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -36,5 +37,5 @@ Updating the unit cost, quantity, or fiscal period of a cost plan updates all th
     -   The **Total planned cost** of the cost plan is recalculated in demand currency.
     -   The values in the **Capital expense in demand currency**, **Operating expense in demand currency**, and the **Total planned cost in demand currency** fields of the demand are recalculated.
 
-**Parent Topic:**[Enable demand currency view](../task/enable-multicurrency-demand.md)
+**Parent Topic:**[Enable demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/enable-multicurrency-demand.md)
 

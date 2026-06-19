@@ -2,6 +2,7 @@
 title: Instance hierarchies
 description: Team Development allows you to set up a distributed version control system between multiple ServiceNow instances where each instance acts as a source repository, or branch.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_InstanceHierarchies.html
 release: australia
 product: Team Development
 classification: team-development
@@ -17,5 +18,5 @@ Team Development allows you to set up a distributed version control system betwe
 
 Developers use separate instances to work on different features, applications, or product releases at the same time. With Team Development, developers can share code between these instances and resolve collisions throughout the development process.
 
-Team Development allows you to [establish hierarchical relationships between instances](../task/t_SetUpAnInstanceHierarchy.md) and provides a mechanism for transferring changes between instances that integrates with the Update Set process where necessary. In a Team Development instance hierarchy, each non-production instance has a parent instance. Instances that have the same parent instance are peer instances. The shared parent instance becomes the central hub, or repository, and all peer instances synchronize to it.
+Team Development allows you to [establish hierarchical relationships between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_SetUpAnInstanceHierarchy.md) and provides a mechanism for transferring changes between instances that integrates with the Update Set process where necessary. In a Team Development instance hierarchy, each non-production instance has a parent instance. Instances that have the same parent instance are peer instances. The shared parent instance becomes the central hub, or repository, and all peer instances synchronize to it.
 

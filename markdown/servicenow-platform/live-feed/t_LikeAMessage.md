@@ -2,6 +2,7 @@
 title: Like a message
 description: Like a message to provide feedback to the author.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_LikeAMessage.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -38,5 +39,5 @@ Role required: none
     **Note:** After a message has been liked, it cannot be unliked.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

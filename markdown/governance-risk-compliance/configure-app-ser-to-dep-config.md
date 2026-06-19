@@ -2,6 +2,7 @@
 title: Sample Application service to dependencies configuration
 description: Create an Application service to dependencies sample Main node configuration record for linking an application service to the dependencies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-app-ser-to-dep-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,23 +20,23 @@ Role required: sn\_oper\_res.admin
 
 ## About this task
 
-For the configuration sequence and instructions in Operational Resilience, see [Configuring Operational Resilience](../concept/configure-operational-resilience.md).
+For the configuration sequence and instructions in Operational Resilience, see [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md).
 
-For instructions on creating the Main node configuration records, see [Configure the Main node configurations](set-up-main-node.md).
+For instructions on creating the Main node configuration records, see [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-main-node.md).
 
 ## Procedure
 
 1.  Download the Operational Resilience application in your instance.
 
-    For instructions on downloading the Operational Resilience application, see [Install Operational Resilience application](download-opres.md).
+    For instructions on downloading the Operational Resilience application, see [Install Operational Resilience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/download-opres.md).
 
 2.  Ensure that you have set up the pillars, entity types, entity filters and entities are generated.
 
-    Refer to the configuration instructions on the [Configuring Operational Resilience](../concept/configure-operational-resilience.md) page.
+    Refer to the configuration instructions on the [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-operational-resilience.md) page.
 
 3.  Ensure that you have the Data Relationships Framework application, which is available by default, is available in your instance.
 
-    Ensure that you have completed other pre-requisites listed in the [Configure the Main node configurations](set-up-main-node.md).
+    Ensure that you have completed other pre-requisites listed in the [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-main-node.md).
 
 4.  Navigate to **All** &gt; **Data Relationships Framework** &gt; **Main node configurations**.
 
@@ -43,7 +44,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
 5.  To create a new Main configuration record, select **New**.
 
-    For descriptions of all the fields in the form, see [Main node configuration form](../reference/main-node-config-form.md).
+    For descriptions of all the fields in the form, see [Main node configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-config-form.md).
 
 6.  Add the name for the configuration as **Application service to dependencies**.
 
@@ -57,21 +58,21 @@ For instructions on creating the Main node configuration records, see [Configure
 
     The **Application service to dependencies** Main node configuration is shown in the example.
 
-    ![Application service to dependencies.](../image/app-ser-to-dep-main-node.png)
+    \[Omitted image "app-ser-to-dep-main-node.png"\] Alt text: Application service to dependencies.
 
 10. Select **Submit**.
 
     The **Application service to dependencies** Main node configuration is created and displayed in the Main node configurations list.
 
-    ![List.](../image/app-ser-to-dep-list.png)
+    \[Omitted image "app-ser-to-dep-list.png"\] Alt text: List.
 
 11. To define the node relationships for the **Application service to dependencies** Main node configuration, open the record from the list and select **New** in the Node relationship configurations.
 
     The Node relationship configuration new record is displayed.
 
-    ![New.](../image/app-ser-to-dep-new.png)
+    \[Omitted image "app-ser-to-dep-new.png"\] Alt text: New.
 
-    For the description of the fields, see [Relationship registry record form](../reference/rel-registry-record-form.md).
+    For the description of the fields, see [Relationship registry record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/rel-registry-record-form.md).
 
 12. Select the table of your choice in the **Source table** field in the **Source** tab.
 
@@ -85,7 +86,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
         Selecting the search icon shows the out-of-the-box Relationship registries that have Service as the source table. You can select a Relationship registry from the list.
 
-        ![Record.](../image/app-ser-rel-reg.png)
+        \[Omitted image "app-ser-rel-reg.png"\] Alt text: Record.
 
         You can also create a new registry record if the out-of-the-box options do not meet your needs.
 
@@ -109,7 +110,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
     5.  Select the relationship table in the **Relationship table** field.
 
-        ![Relationship.](../image/app-ser-to-dep-src-target.png)
+        \[Omitted image "app-ser-to-dep-src-target.png"\] Alt text: Relationship.
 
         After you select the relationship table, the table name is populated in the **Relationship** field.
 
@@ -117,12 +118,12 @@ For instructions on creating the Main node configuration records, see [Configure
 
     The Target table and Target reference field are shown in the example.
 
-    ![Contract.](../image/app-ser-contract-table.png)![Target.](../image/app-ser-target.png)
+    \[Omitted image "app-ser-contract-table.png"\] Alt text: Contract.\[Omitted image "app-ser-target.png"\] Alt text: Target.
 
 15. Select **Submit**.
 
     The Node relationship configuration for the **Application service to dependencies** Main configuration record is now updated.
 
-    ![Added.](../image/app-ser-to-dep-added.png)
+    \[Omitted image "app-ser-to-dep-added.png"\] Alt text: Added.
 
 

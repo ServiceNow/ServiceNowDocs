@@ -2,6 +2,7 @@
 title: Initiate a conference call from an incident task
 description: Initiate a conference call from an incident task record to discuss about the resolution of an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/initiate-call-inc-task-itsm-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -25,19 +26,19 @@ Role required: itil, itil\_admin, or admin
 
 2.  In **My work** tab, tap **See All**.
 
-    ![My work.](../image/my-work-itsm-mobile.png)
+    \[Omitted image "my-work-itsm-mobile.png"\] Alt text: My work.
 
 3.  Tap the incident record you want to work on.
 
 4.  Tap **Related** &gt; **Incident tasks**.
 
-    ![Incident task record](../image/inc-task-itsm-mobile-1.png)
+    \[Omitted image "inc-task-itsm-mobile-1.png"\] Alt text: Incident task record
 
 5.  Tap on the incident task record.
 
-    ![Incident task details](../image/inc-task-itsm-mobile.png)
+    \[Omitted image "inc-task-itsm-mobile.png"\] Alt text: Incident task details
 
-6.  Tap ![More options](../image/more-options-itsm-mobile-agent.png).
+6.  Tap \[Omitted image "more-options-itsm-mobile-agent.png"\] Alt text: More options.
 
 7.  Tap **Start call**.
 
@@ -46,7 +47,7 @@ Role required: itil, itil\_admin, or admin
     1.  **Conference bridge**: Tap **Conference bridge** and select Microsoft Teams
     2.  **Users**: Select the users.
     3.  **Groups**: Select the required group.
-    ![Start call](../image/inc-task-start-call-itsm-mobile.png)
+    \[Omitted image "inc-task-start-call-itsm-mobile.png"\] Alt text: Start call
 
 9.  Tap **Submit**.
 

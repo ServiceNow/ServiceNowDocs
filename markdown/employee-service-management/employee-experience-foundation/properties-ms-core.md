@@ -2,6 +2,7 @@
 title: Properties installed with Microsoft Integrations Core
 description: The following properties are installed with the Microsoft Integrations Core plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/properties-ms-core.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -62,5 +63,5 @@ Use this property to set the portal to be embedded in Microsoft Teams when a use
 -   Default value: none
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](reference-sn-teams.md)
+</table>**Parent Topic:**[ServiceNow for Microsoft Teams reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/reference-sn-teams.md)
 

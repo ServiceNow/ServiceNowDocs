@@ -2,6 +2,7 @@
 title: Delete a UI interaction
 description: Delete a UI interaction when it’s no longer needed or when you must replace it with a new version. Although UI interactions can be edited after creation, some foundational properties are intentionally locked to avoid data and runtime errors. In those cases, deletion might be required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/delete-ui-interaction.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -36,7 +37,7 @@ Role required: ui\_builder\_admin
 
 3.  In the search field, enter the name of the interaction you want to delete.
 
-    ![UI interactions list with search field highlighted.](../image/uib-uii-search.png "UI interactions list")
+    \[Omitted image "uib-uii-search.png"\] Alt text: UI interactions list with search field highlighted.
 
 4.  Select the interaction from the search results.
 
@@ -54,12 +55,12 @@ Role required: ui\_builder\_admin
 
 6.  From the Settings tab, select **Delete**.
 
-    ![UI interactions Settings page with Delete highlighted.](../image/uib-uii-settings.png "UI interaction Settings page")
+    \[Omitted image "uib-uii-settings.png"\] Alt text: UI interactions Settings page with Delete highlighted.
 
 
 ## Result
 
 The UI interaction is permanently removed. Any component or page that previously referenced this interaction will no longer trigger its actions. Update or remove related event handlers as needed.
 
-**Parent Topic:**[UI interactions](../concept/uib-ui-interactions.md)
+**Parent Topic:**[UI interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-ui-interactions.md)
 

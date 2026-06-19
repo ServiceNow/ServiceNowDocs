@@ -2,6 +2,7 @@
 title: Components installed with Talent Profile
 description: Several types of components are installed with activation of the Talent Profile plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-talent-profile.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,6 +51,18 @@ Talent Profile user\[sn\_ta\_tp.talent\_profile\_user\]
 </td><td>
 
 This role is required to use the Talent Profile functionalities.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Talent Profile read-only user\[sn\_ta\_tp.talent\_profile\_read\]
+
+</td><td>
+
+This role is required to have read-only access to talent profiles.
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Exploring Event Management
 description: Explore Event Management to understand its overview, process flow, user roles, and benefits for comprehensive IT issue monitoring and resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/exploring-event-management.html
 release: australia
 product: Event Management
 classification: event-management
@@ -24,7 +25,7 @@ Event Management provides comprehensive monitoring, analysis, and remediation of
 
 ## Process flow
 
-Event Management receives external events and generates alerts based on predefined rules. The MID Server polls external event tracking tools and sends data to Event Management for storage and processing. Events are stored in the Event \[em\_event\] table, and alerts are created by matching event rules. Alerts are then transformed and enriched with additional content, accumulated if thresholds are met, and mapped to specific fields. The system searches for matching message keys to update existing alerts or create new ones, associating related events under a single alert. Alerts are bound to specific Configuration Items \(CIs\) for root cause analysis. For more information, see [Event Management process flow](em-process-flow.md).
+Event Management receives external events and generates alerts based on predefined rules. The MID Server polls external event tracking tools and sends data to Event Management for storage and processing. Events are stored in the Event \[em\_event\] table, and alerts are created by matching event rules. Alerts are then transformed and enriched with additional content, accumulated if thresholds are met, and mapped to specific fields. The system searches for matching message keys to update existing alerts or create new ones, associating related events under a single alert. Alerts are bound to specific Configuration Items \(CIs\) for root cause analysis. For more information, see [Event Management process flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/em-process-flow.md).
 
 ## Users
 

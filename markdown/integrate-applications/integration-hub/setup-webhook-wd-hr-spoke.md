@@ -2,6 +2,7 @@
 title: Set up webhooks for your Workday HR spoke
 description: Retrieve details the required employees in the Workday HR application to your ServiceNow instance by setting up the webhooks.Configure API client in Workday to authenticate webhook requests.Use the CreateUser Webhook to get the details of the newly onboarded employee from Workday to your ServiceNow instance.Generate user name and password in your ServiceNow instance to authenticate requests for Create User webhook and retrieve the required data from the Workday application.Retrieve the resource path from your ServiceNow instance for later use to authenticate Create User webhook requests and retrieve the required data from the Workday applicationImport CLAR file available at ServiceNow Store to set up Create User webhook and authenticate requests from ServiceNow instance.Use the Offboarding Webhook to get the details of the offboarded employee from Workday to your ServiceNow instance.Generate user name and password in your ServiceNow instance to authenticate requests for Offboarding webhook and retrieve the required data from the Workday application.Retrieve the resource path from your ServiceNow instance for later use to authenticate Offboard webhook requests and retrieve the required data from the Workday applicationImport CLAR file available at ServiceNow Store to set up Offboarding webhook and authenticate requests from ServiceNow instance.Use the LeaveofAbsence Webhook to get leave of absence details of an employee from Workday to your ServiceNow instance.Generate user name and password in your ServiceNow instance to authenticate requests for LeaveofAbsence webhook and retrieve the required data from the Workday application.Retrieve the resource path from your ServiceNow instance for later use to authenticate Offboard webhook requests and retrieve the required data from the Workday applicationImport CLAR file available at ServiceNow Store to set up LeaveofAbsence webhook and authenticate requests from ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -164,25 +165,25 @@ Import CLAR file available at ServiceNow Store to set up Create User webhook and
 
 4.  In the **Properties** tab of the **StartHere** component, navigate to **Services** and select the RAAS report created for this webhook.
 
-    ![Configure the StartHere component](../image/configure-clar-file.png)
+    \[Omitted image "configure-clar-file.png"\] Alt text: Configure the StartHere component
 
 5.  Choose the environment where your report exists such as, implementation or sandbox and configure the report as per your requirement.
 
 6.  Provide a report name and select the required report.
 
-    ![Report name](../image/report-name-wd-hr.png)
+    \[Omitted image "report-name-wd-hr.png"\] Alt text: Report name
 
 7.  Provide the alias name of the report.
 
-    ![Alias name](../image/alias-wd-hr.png)
+    \[Omitted image "alias-wd-hr.png"\] Alt text: Alias name
 
 8.  After the report alias is added, add the selected path of report in **Extra Path** that is used to run the report based on prompt.
 
-    ![Extra Path](../image/extra-path-wd-hr.png)
+    \[Omitted image "extra-path-wd-hr.png"\] Alt text: Extra Path
 
 9.  In the **Set Headers** component, provide your Workday instance for the **WorkdayInstance** header.
 
-    ![Configure the Set Headers component](../image/conf-set-headers-wd.png)
+    \[Omitted image "conf-set-headers-wd.png"\] Alt text: Configure the Set Headers component
 
 10. In the properties of **HttpOut**, fill in these values.
 
@@ -200,7 +201,7 @@ Endpoint
 
 </td><td>
 
-REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](setup-webhk-wd.md#) for more information.
+REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -211,7 +212,7 @@ Http Method
 POST
 
 </td></tr></tbody>
-</table>    ![Configure the HttpOut properties](../image/httpout-properties-wd.png)
+</table>    \[Omitted image "httpout-properties-wd.png"\] Alt text: Configure the HttpOut properties
 
 11. Save the changes.
 
@@ -219,17 +220,17 @@ POST
 
 13. Log in to your Workday instance and navigate to **Integration** &gt; **Integration System** &gt; **Configure Integration Attributes**.
 
-    ![Configure Integration Attributes](../image/conf-int-attributes-wd.png)
+    \[Omitted image "conf-int-attributes-wd.png"\] Alt text: Configure Integration Attributes
 
-14. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance](setup-webhk-wd.md#).
+14. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md).
 
-    ![Configure integration attributes](../image/username-pwd-wd-hr.png)
+    \[Omitted image "username-pwd-wd-hr.png"\] Alt text: Configure integration attributes
 
 15. Modify a business process and add this integration in your business process.
 
     1.  Edit definition of the business process.
 
-        ![Edit definition](../image/edit-def-wd-hr.png)
+        \[Omitted image "edit-def-wd-hr.png"\] Alt text: Edit definition
 
     2.  Select the effective date and click **Ok**.
 
@@ -239,21 +240,21 @@ POST
 
     5.  Add the business process and select **Type** as **Integration**.
 
-        ![Select Integration type](../image/integration-type.png)
+        \[Omitted image "integration-type.png"\] Alt text: Select Integration type
 
     6.  Provide ISU username in **Run as User** and click **Ok**.
 
     7.  Click **Configure Integration** on the newly added business process step in Hire BP.
 
-        ![Configure integration](../image/conf-int-button.png)
+        \[Omitted image "conf-int-button.png"\] Alt text: Configure integration
 
     8.  In integration criteria, select value type as **Determine value at runtime** and select value as **Employee ID**.
 
-        ![Determine value at runtime](../image/determine-value-runtime.png)
+        \[Omitted image "determine-value-runtime.png"\] Alt text: Determine value at runtime
 
         Selected **Employee ID** field in value is displayed.
 
-        ![Employee ID field](../image/emp-id-field.png)
+        \[Omitted image "emp-id-field.png"\] Alt text: Employee ID field
 
     9.  Click **Ok**.
 
@@ -261,19 +262,19 @@ POST
 
         Report definition:
 
-        ![Report definition](../image/report-def-wd-hr.png)
+        \[Omitted image "report-def-wd-hr.png"\] Alt text: Report definition
 
         Column labels:
 
-        ![Column labels](../image/col-labels-wd-hr.png)
+        \[Omitted image "col-labels-wd-hr.png"\] Alt text: Column labels
 
         Calculated field details:
 
-        ![Calculated field details](../image/calc-fields-wd-hr.png)
+        \[Omitted image "calc-fields-wd-hr.png"\] Alt text: Calculated field details
 
         Filter and prompt details:
 
-        ![Filter and prompt details](../image/filter-prompt-wd-hr.png)
+        \[Omitted image "filter-prompt-wd-hr.png"\] Alt text: Filter and prompt details
 
 
 ## Set up Offboarding Webhook for the Workday HR spoke
@@ -376,27 +377,27 @@ Import CLAR file available at ServiceNow Store to set up Offboarding webhook and
 
 4.  In the **Properties** tab of the **StartHere** component, navigate to **Services** and select the RAAS report created for this webhook.
 
-    ![RAAS report for offboarding spoke](../image/raas-report-offboarding.jpg)
+    \[Omitted image "raas-report-offboarding.jpg"\] Alt text: RAAS report for offboarding spoke
 
 5.  Choose the environment where your report exists such as, implementation or sandbox and configure the report as per your requirement.
 
 6.  Provide a report name and select the required report.
 
-    ![Custom RaaS report for Offboarding webhook](../image/custom-raas-report-offboarding.jpg)
+    \[Omitted image "custom-raas-report-offboarding.jpg"\] Alt text: Custom RaaS report for Offboarding webhook
 
 7.  Provide the alias name of the report.
 
-    ![Alias report for offboarding webhook](../image/alias-report-offboarding-webhook.jpg)
+    \[Omitted image "alias-report-offboarding-webhook.jpg"\] Alt text: Alias report for offboarding webhook
 
 8.  After the report alias is added, add the selected path of report in **Extra Path** that is used to run the report based on prompt.
 
-    ![extra path for offboarding webhook](../image/extra-path-offboarding-webhk.jpg)
+    \[Omitted image "extra-path-offboarding-webhk.jpg"\] Alt text: extra path for offboarding webhook
 
 9.  Select the report alias.
 
 10. In the **Set Headers** component, provide your Workday instance for the **WorkdayInstance** header.
 
-    ![Set headers component offboarding webhook](../image/workday-instance-set-headers-offboarding.jpg)
+    \[Omitted image "workday-instance-set-headers-offboarding.jpg"\] Alt text: Set headers component offboarding webhook
 
 11. In the properties of **HttpOut**, fill in these values.
 
@@ -414,7 +415,7 @@ Endpoint
 
 </td><td>
 
-REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](setup-webhk-wd.md#) for more information.
+REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -425,7 +426,7 @@ Http Method
 POST
 
 </td></tr></tbody>
-</table>    ![httpout properities for offboarding](../image/httpout-properties-offboarding.jpg)
+</table>    \[Omitted image "httpout-properties-offboarding.jpg"\] Alt text: httpout properities for offboarding
 
 12. Save the changes.
 
@@ -433,17 +434,17 @@ POST
 
 14. Log in to your Workday instance and navigate to **Integration** &gt; **Integration System** &gt; **Configure Integration Attributes**.
 
-    ![configure integration attributes offboarding](../image/config-intgrt-attributes-offboarding.jpg)
+    \[Omitted image "config-intgrt-attributes-offboarding.jpg"\] Alt text: configure integration attributes offboarding
 
-15. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance for Offboarding webhook](setup-webhook-wd-hr-spoke.md#).
+15. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance for Offboarding webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md).
 
-    ![integration attributes configuration offboarding webhook](../image/usernm-pwd-attri-offboarding.jpg)
+    \[Omitted image "usernm-pwd-attri-offboarding.jpg"\] Alt text: integration attributes configuration offboarding webhook
 
 16. Modify a business process and add this integration in your business process.
 
     1.  Edit the definition of the business process.
 
-        ![](../image/related-action-integration-offboarding.jpg)
+        \[Omitted image "related-action-integration-offboarding.jpg"\] Alt text:
 
     2.  Select the ISU user in Workday Account box.
 
@@ -455,21 +456,21 @@ POST
 
     6.  Add the business process and select **Type** as **Integration**.
 
-        ![](../image/type-integration-offboarding.jpg)
+        \[Omitted image "type-integration-offboarding.jpg"\] Alt text:
 
     7.  Provide ISU username in **Run as User** and click **Ok**.
 
     8.  Click **Configure Integration** on the newly added business process step in Hire BP.
 
-        ![configure integration offboarding webhook](../image/config-integrt-hire-bp-offboarding.jpg)
+        \[Omitted image "config-integrt-hire-bp-offboarding.jpg"\] Alt text: configure integration offboarding webhook
 
     9.  In integration criteria, select value type as **Determine value at runtime** and select value as **Employee ID**.
 
-        ![integration criteria value at runtime](../image/integrt-criteria-det-value-runtime-offboarding.jpg)
+        \[Omitted image "integrt-criteria-det-value-runtime-offboarding.jpg"\] Alt text: integration criteria value at runtime
 
         The selected **Employee ID** field in value is displayed.
 
-        ![integration criteria employee ID for offboarding webhook](../image/integ-crit-emp-field-offboarding.jpg)
+        \[Omitted image "integ-crit-emp-field-offboarding.jpg"\] Alt text: integration criteria employee ID for offboarding webhook
 
     10. Click **Ok**.
 
@@ -483,17 +484,17 @@ POST
 
     15. Select Data Source as All Workers.
 
-        ![View Custom Report for offboarding](../image/data-source-all-workers-offboarding.jpg)
+        \[Omitted image "data-source-all-workers-offboarding.jpg"\] Alt text: View Custom Report for offboarding
 
     16. Create a report as shown below:
 
-        ![Sample report for offboarding webhook](../image/sample-report-offboarding.jpg)
+        \[Omitted image "sample-report-offboarding.jpg"\] Alt text: Sample report for offboarding webhook
 
-        Group Column Headings in reports![Group column headings in report](../image/group-column-headings-offboarding.jpg)
+        Group Column Headings in reports\[Omitted image "group-column-headings-offboarding.jpg"\] Alt text: Group column headings in report
 
-        Sort section in reports ![](../image/sort-section-offboarding.jpg)
+        Sort section in reports \[Omitted image "sort-section-offboarding.jpg"\] Alt text:
 
-        Filter section in reports![filter section in reports](../image/filter-section-report-offboarding.jpg)
+        Filter section in reports\[Omitted image "filter-section-report-offboarding.jpg"\] Alt text: filter section in reports
 
     17. Select **Populate Undefined Prompt defaults** option from the **Prompts** tab.
 
@@ -598,27 +599,27 @@ Import CLAR file available at ServiceNow Store to set up LeaveofAbsence webhook 
 
 4.  In the **Properties** tab of the **StartHere** component, navigate to **Services** and select the RAAS report created for this webhook.
 
-    ![RaaS report for leave of absence webhook](../image/raas-report-leave-absence.jpg)
+    \[Omitted image "raas-report-leave-absence.jpg"\] Alt text: RaaS report for leave of absence webhook
 
 5.  Choose the environment where your report exists such as, implementation or sandbox and configure the report as per your requirement.
 
 6.  Provide a report name and select the required report.
 
-    ![Custom Raas Report for leave of absence webhook](../image/custom-raas-report-leave-absence.jpg)
+    \[Omitted image "custom-raas-report-leave-absence.jpg"\] Alt text: Custom Raas Report for leave of absence webhook
 
 7.  Provide the alias name of the report.
 
-    ![Alias for report name](../image/alias-report-leave-absence.jpg)
+    \[Omitted image "alias-report-leave-absence.jpg"\] Alt text: Alias for report name
 
 8.  After the report alias is added, add the selected path of report in **Extra Path** that is used to run the report based on prompt.
 
-    ![Extra path for report alias](../image/extra-path-leave-absence.jpg)
+    \[Omitted image "extra-path-leave-absence.jpg"\] Alt text: Extra path for report alias
 
 9.  Select the report alias.
 
 10. In the **Set Headers** component, provide your Workday instance for the **WorkdayInstance** header.
 
-    ![Set headers for Workday instance](../image/set-headers-leave-of-absence.jpg)
+    \[Omitted image "set-headers-leave-of-absence.jpg"\] Alt text: Set headers for Workday instance
 
 11. In the properties of **HttpOut**, fill in these values.
 
@@ -636,7 +637,7 @@ Endpoint
 
 </td><td>
 
-REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](setup-webhk-wd.md#) for more information.
+REST endpoint**Note:** See [Retrieve the resource path from your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhk-wd.md) for more information.
 
 </td></tr><tr><td>
 
@@ -647,7 +648,7 @@ Http Method
 POST
 
 </td></tr></tbody>
-</table>    ![http out properties for leave of absence webhook](../image/httpout-leave-absence.jpg)
+</table>    \[Omitted image "httpout-leave-absence.jpg"\] Alt text: http out properties for leave of absence webhook
 
 12. Save the changes.
 
@@ -655,17 +656,17 @@ POST
 
 14. Log in to your Workday instance and navigate to **Integration** &gt; **Integration System** &gt; **Configure Integration Attributes**.
 
-    ![Configure integration attributes for leave of absence webhook](../image/config-integ-attributes-leave-absence.jpg)
+    \[Omitted image "config-integ-attributes-leave-absence.jpg"\] Alt text: Configure integration attributes for leave of absence webhook
 
-15. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance for LeaveofAbsence webhook](setup-webhook-wd-hr-spoke.md#).
+15. Provide user name and password in **Configure Integration Attributes** that you have generated in [Generate user name and password in your ServiceNow instance for LeaveofAbsence webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-webhook-wd-hr-spoke.md).
 
-    ![user name and password for integration attributes configuration](../image/usrname-pwd-attributes-leave-absence.jpg)
+    \[Omitted image "usrname-pwd-attributes-leave-absence.jpg"\] Alt text: user name and password for integration attributes configuration
 
 16. Modify a business process and add this integration in your business process.
 
     1.  Edit definition of the business process.
 
-        ![Business process definition](../image/business-process-def-leave-absence.jpg)
+        \[Omitted image "business-process-def-leave-absence.jpg"\] Alt text: Business process definition
 
     2.  Select the ISU user in Workday Account box.
 
@@ -677,21 +678,21 @@ POST
 
     6.  Add the business process and select **Type** as **Integration**.
 
-        ![Business process type integration](../image/type-integration-leave-absence.jpg)
+        \[Omitted image "type-integration-leave-absence.jpg"\] Alt text: Business process type integration
 
     7.  Provide ISU username in **Run as User** and click **Ok**.
 
     8.  Click **Configure Integration** on the newly added business process step in Hire BP.
 
-        ![Configure integration for business process](../image/config-integrate-hire-bp-leave-absence.jpg)
+        \[Omitted image "config-integrate-hire-bp-leave-absence.jpg"\] Alt text: Configure integration for business process
 
     9.  In integration criteria, select value type as **Determine value at runtime** and select value as **Employee ID**.
 
-        ![Integration criteria value at runtime](../image/det-value-runtime-leave-absence.jpg)
+        \[Omitted image "det-value-runtime-leave-absence.jpg"\] Alt text: Integration criteria value at runtime
 
         Selected **Employee ID** field in value is displayed.
 
-        ![Employee ID selected for integration criteria](../image/integrt-criteria-emp-id-selected-leave-absence.jpg)
+        \[Omitted image "integrt-criteria-emp-id-selected-leave-absence.jpg"\] Alt text: Employee ID selected for integration criteria
 
     10. Click **Ok**.
 
@@ -707,11 +708,11 @@ POST
 
     16. Create a report as shown below:
 
-        ![Sample report](../image/sample-report-leave-absence.jpg)
+        \[Omitted image "sample-report-leave-absence.jpg"\] Alt text: Sample report
 
-        Group Column Heading section in report![Group Column Headings in report](../image/group-col-heading-leave-absence.jpg)
+        Group Column Heading section in report\[Omitted image "group-col-heading-leave-absence.jpg"\] Alt text: Group Column Headings in report
 
-        Filter section in report![Filter section in report](../image/filter-section-leave-absence.jpg)
+        Filter section in report\[Omitted image "filter-section-leave-absence.jpg"\] Alt text: Filter section in report
 
     17. Select **Populate Undefined Prompt defaults** option from the **Prompts** tab.
 

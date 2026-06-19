@@ -2,6 +2,7 @@
 title: Configure the Contractor Service Center portal theme
 description: A theme is a collection of one or more style sheets \(CSS files\) that define a consistent look for a set of pages. Configure the default portal theme to apply your own theme to suit your branding and improve the visual design of the portal pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contractor-service-center/hs-customize-contractor-service-center-portal-theme.html
 release: australia
 product: Contractor Service Center
 classification: contractor-service-center
@@ -41,18 +42,18 @@ Contractor Service Center application ships a default **CSC theme** that has the
 
     3.  Select **here** on the note to edit the record.
 
-    4.  Select the **Preview this record** icon \(![preview icon](../../safe-workplace-dashboard/image/icon-preview.png)\) for the **Theme** field and select **Open record**.
+    4.  Select the **Preview this record** icon \(\[Omitted image "icon-preview.png"\] Alt text: preview icon\) for the **Theme** field and select **Open record**.
 
     5.  Select **here** on the note to edit the record.
 
     6.  Edit the **CSS variables** field to customize the text and the background colors of your portal.
 
-        -   To create a portal theme and for a description of the field values to create a portal theme, see [Create a portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/c_CustomCSS.md).
-        -   To configure a portal header or footer, see [Configure a portal header menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-header-menu.md)
+        -   To create a portal theme and for a description of the field values to create a portal theme, see Create a portal theme.
+        -   To configure a portal header or footer, see 
 4.  Navigate to **All** &gt; **Service Portal** &gt; **Portals** &gt; **Contractor service center** and then select **Try it** to preview.
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Contractor Service Center](../concept/hs-configure-contractor-service-center.md)
+**Parent Topic:**[Configuring Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contractor-service-center/hs-configure-contractor-service-center.md)
 

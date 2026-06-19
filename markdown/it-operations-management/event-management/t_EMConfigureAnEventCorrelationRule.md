@@ -2,6 +2,7 @@
 title: Create an alert correlation rule
 description: Create an alert correlation rule to designate primary and secondary alerts. The primary alert is identified as the root cause of the alert group and the secondary alerts are grouped under the primary alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureAnEventCorrelationRule.html
 release: australia
 product: Event Management
 classification: event-management
@@ -27,7 +28,7 @@ Role required: evt\_mgmt\_admin
 
 3.  On the form, fill in the fields.
 
-    For information on the fields, see [Alert correlation rule form](../reference/alert-correlation-rule-form.md).
+    For information on the fields, see [Alert correlation rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-correlation-rule-form.md).
 
 4.  Select **Submit**.
 

@@ -2,6 +2,7 @@
 title: Install Employee Health Screening
 description: You can install the Employee Health Screening application if you have the admin role. This application includes demo data and installs the related store applications and plugins if they are not already installed.Roles and tables are installed with the Employee Health Screening application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/install-emp-health-screening.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -43,7 +44,7 @@ Role required: admin
 
 2.  Find the application using the filter criteria and search field.
 
-    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release note information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -62,13 +63,13 @@ Role required: admin
 6.  Click **Install**.
 
 
-**Parent Topic:**[Employee Health Screening](../concept/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
 
 ## Components installed with Employee Health Screening
 
 Roles and tables are installed with the Employee Health Screening application.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 

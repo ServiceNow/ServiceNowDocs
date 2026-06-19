@@ -2,6 +2,7 @@
 title: LDAP type data source
 description: An LDAP data source is automatically created when you configure your instance to integrate with LDAP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_LDAPTypeDataSource.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -15,7 +16,7 @@ breadcrumb: [Data sources, Import sets, Imports, Workflow Data Fabric]
 
 An LDAP data source is automatically created when you configure your instance to integrate with LDAP.
 
-![LDAP data source example](../image/data-source-ldap.png)
+\[Omitted image "data-source-ldap.png"\] Alt text: LDAP data source example
 
 ## Processing a large LDAP request without paging
 
@@ -44,9 +45,9 @@ In this example, the LDAP server **Query field** is **preferredIdentity**. The i
 **Related topics**  
 
 
-[LDAP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_LDAPIntegration.md)
+[bundle-psec.c_LDAPIntegration]
 
-[Specify LDAP attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_SpecifyLDAPAttributes.md)
+[bundle-psec.t_SpecifyLDAPAttributes]
 
-[Define LDAP organizational units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_DefineLDAPOrganizationalUnits.md)
+[bundle-psec.t_DefineLDAPOrganizationalUnits]
 

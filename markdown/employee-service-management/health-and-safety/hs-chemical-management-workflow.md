@@ -2,6 +2,7 @@
 title: Chemical management overview
 description: The chemical management solution is designed to scale for organizations with large chemical inventories and complex conformance needs. It provides tools for managing chemical requests, approvals, and risk assessments, supporting safer workplace practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-chemical-management-workflow.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -23,7 +24,7 @@ The chemical management workflow enables chemical managers effectively track che
 -   The employee can either select an existing chemical or request a new chemical from the Employee Center.
 -   The chemical manager receives the chemical request and can approve or reject it in the Health and Safety Workspace.
 
-![](../image/hs-chemical-mgmt-workflow.png "Chemical request process flow")
+\[Omitted image "hs-chemical-mgmt-workflow.png"\] Alt text:
 
 ## Benefits
 
@@ -57,5 +58,5 @@ The system supports integration with external databases like 3E Protect, enablin
 
 A chemical group is a way to organize chemicals together within the system, allowing you to group similar chemicals for easier management. For example, Acids chemical group contains different types of acids listed under it. The group aggregates information like the number of chemicals, chemical requests, ingredients, hazard identification, related documents, and risk assessments, providing a consolidated view of key details for all chemicals in that group.
 
-**Parent Topic:**[Exploring Health and Safety Environmental Management](hs-exploring-environmental-management.md)
+**Parent Topic:**[Exploring Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-exploring-environmental-management.md)
 

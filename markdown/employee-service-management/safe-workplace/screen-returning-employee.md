@@ -2,11 +2,12 @@
 title: Conduct a health screen for entry
 description: Use a health screen to verify a person's return requirement status to determine whether the person is able to enter the location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/screen-returning-employee.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Employee Health Screening, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -25,21 +26,21 @@ Conduct a health screen before people enter a location, such as employees return
 
 The following procedure includes the steps your organization might use in setting up health screening. Some of the steps might not be applicable to your location.
 
-**Note:** If the ServiceNow® Customer Service Management \(CSM\) application is activated, the health screen can be performed for CSM consumers and contacts. The customer service agent \[sn\_customerservice\_agent\] and consumer service agent \[sn\_customerservice.consumer\_agent\] roles can optionally be given to health screeners so that they can view additional CSM information on the health screening form, but these roles are not required for screening consumers and contacts. For more information about using Customer Service Management with Employee Health Screening, see [Integrate Customer Service Management with Safe Workplace applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-safe-workplace.md).
+**Note:** If the ServiceNow® Customer Service Management \(CSM\) application is activated, the health screen can be performed for CSM consumers and contacts. The customer service agent \[sn\_customerservice\_agent\] and consumer service agent \[sn\_customerservice.consumer\_agent\] roles can optionally be given to health screeners so that they can view additional CSM information on the health screening form, but these roles are not required for screening consumers and contacts. For more information about using Customer Service Management with Employee Health Screening, see Integrate Customer Service Management with Safe Workplace applications.
 
 ## Procedure
 
 1.  Open the QR code scanning or requirement status page based on the type of device that you're using.
 
-<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d88762e92">
+<table id="choicetable_bgv_ws5_r2c"><thead><tr><th align="left" id="d77967e92">
 
 Platform
 
-</th><th align="left" id="d88762e95">
+</th><th align="left" id="d77967e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88762e101">
+</th></tr></thead><tbody><tr><td id="d77967e101">
 
 **Smartphone or tablet**
 
@@ -47,7 +48,7 @@ Action
 
 From the Now Mobile **Health** screen under the **Health Screening** section, tap **Scan for Entry**.Scan the code that the person presents on their mobile device or on paper. If there is no QR code, enter the user ID in the **User ID** field, for example, `john.smith`.
 
-</td></tr><tr><td id="d88762e131">
+</td></tr><tr><td id="d77967e131">
 
 **Computer**
 
@@ -58,7 +59,7 @@ Navigate to **Employee Health and Safety Status** &gt; **View Employee and Visit
 </td></tr></tbody>
 </table>2.  Review the requirement status to verify that the person is cleared to enter.
 
-    **Note:** Requirements are created in the Employee Readiness Core application. For more information, see [Employee Health and Safety Status](../../employee-readiness-core/concept/employee-health-safety-status.md).
+    **Note:** Requirements are created in the Employee Readiness Core application. For more information, see [Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-health-safety-status.md).
 
     If the status is **Not cleared** and your organization's policy is to deny entry at this check point, provide the person with the next steps to take based on your organization's policy. Then, assist the next person in line.
 
@@ -66,15 +67,15 @@ Navigate to **Employee Health and Safety Status** &gt; **View Employee and Visit
 
 3.  Perform the health screen.
 
-<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d88762e201">
+<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d77967e201">
 
 Platform
 
-</th><th align="left" id="d88762e204">
+</th><th align="left" id="d77967e204">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d88762e210">
+</th></tr></thead><tbody><tr><td id="d77967e210">
 
 **Smartphone or tablet**
 
@@ -82,7 +83,7 @@ Action
 
 Tap **Health Screen** on the Scan for entry page.
 
-</td></tr><tr><td id="d88762e222">
+</td></tr><tr><td id="d77967e222">
 
 **Computer**
 
@@ -169,5 +170,5 @@ Whether the person is wearing PPE. Values are **Yes** or **No**.
 
 You receive a message that indicates whether to allow the person to enter. If the person does not pass the health screening, provide them with the next steps based on your organization's policy.
 
-**Parent Topic:**[Employee Health Screening](../concept/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
 

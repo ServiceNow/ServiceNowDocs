@@ -2,6 +2,7 @@
 title: Domain separation and Tag Governance
 description: Domain separation is supported in Tag Governance. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/tag-governance-domain-separation.html
 release: australia
 product: Tag Governance
 classification: tag-governance
@@ -25,7 +26,7 @@ Domain separation is supported in Tag Governance. Domain separation enables you 
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation
 
@@ -35,10 +36,10 @@ All tables in Tag Governance support data separation only; delegated domain sepa
 
 To ensure that domain-sensitive information is not available at a global domain, ensure that you create policies at a domain level and not at a global level. While managing service providers, create policies at the service provider level. If you create policies at a global level instead, when you run the audit, the "run" findings are created in the Global domain instead of respective domains.
 
-**Parent Topic:**[Tag Governance reference](reference-tag-governance.md)
+**Parent Topic:**[Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/reference-tag-governance.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

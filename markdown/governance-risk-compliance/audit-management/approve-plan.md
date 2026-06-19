@@ -2,6 +2,7 @@
 title: Approve a plan
 description: Approve a plan if you're assigned as an approver after plan creation. You can also request that the plan be reviewed or request more information about the plan from the plan creator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/approve-plan.html
 release: australia
 product: Audit Management
 classification: audit-management

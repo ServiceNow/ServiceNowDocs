@@ -2,6 +2,7 @@
 title: Exchanging data using Hermes
 description: Produce and consume Kafka messages in your ServiceNow instance using the Hermes Messaging Service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/exchanging-data-hermes-messaging-service.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -28,25 +29,25 @@ You can also produce messages from an external application and then consume the 
 -   Transform map consumer
 -   Script consumer
 
-![Producing and consuming with Stream Connect for Apache Kafka.](../../integrationhub/images/stream-connect.png "Stream Connect overview")
+\[Omitted image "stream-connect.png"\] Alt text: Producing and consuming with Stream Connect for Apache Kafka.
 
-For details, see [Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md).
+For details, see Stream Connect for Apache Kafka.
 
 ## Using Log Export Service
 
 With the Log Export Service, you can produce logs from your ServiceNow instance, and then consume the logs in your external application.
 
-![Log Export Service architecture.](../../log-export-service/image/les-architecture.png "Log Export Service architecture")
+\[Omitted image "les-architecture.png"\] Alt text: Log Export Service architecture.
 
-For details on producing and consuming logs for Log Export Service, see [Exploring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/les-landing-page.md).
+For details on producing and consuming logs for Log Export Service, see .
 
 ## Using a Kafka client
 
 With the Kafka standard protocol, you can exchange messages with any application that produces messages. For example, you can produce messages from a Java application using the standard Kafka protocol and then consume them in your ServiceNow instance and vice versa.
 
-![Producing and consuming messages with Advanced High Availability (AHA).](../images/hermes-producing-consuming.png "Producing and consuming messages")
+\[Omitted image "hermes-producing-consuming.png"\] Alt text: Producing and consuming messages with Advanced High Availability \(AHA\).
 
-For details on exchanging data using a Kafka client, see [Producing and consuming messages from a Kafka client](producing-consuming-hermes.md).
+For details on exchanging data using a Kafka client, see [Producing and consuming messages from a Kafka client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/producing-consuming-hermes.md).
 
-**Parent Topic:**[Manage service capabilities](../../general/concept/manage-services.md)
+**Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/ai-platform-capabilities/manage-services.md)
 

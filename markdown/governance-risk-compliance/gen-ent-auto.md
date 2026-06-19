@@ -2,6 +2,7 @@
 title: Generate entities automatically using a scheduled job
 description: Generate entities automatically via scheduled job once pillars, entity types, and entity filters are active. Entities are individual records matching your filter criteria. For actual entity creation, you should run the GRC Profile Generation scheduled job in the GRC: Profiles application rather than using entity filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/gen-ent-auto.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Entities can be generated using two methods. This section describes the automati
 
     The **GRC Profile Generation** scheduled job is shown in the example.
 
-    ![GRC Profile Generation scheduled job.](../image/sch-job-grc-profile-gen.png)
+    \[Omitted image "sch-job-grc-profile-gen.png"\] Alt text: GRC Profile Generation scheduled job.
 
 3.  Select **Execute Now**.
 
@@ -39,6 +40,6 @@ Entities can be generated using two methods. This section describes the automati
 
 6.  Open an entity type and check the entities related list.
 
-    **Note:** Generate entities automatically using the scheduled job. Use manual addition from the Operational Resilience Workspace for exceptions or one-off additions that don't fit the filter criteria. For adding entities from the Operational Resilience Workspace using the **Add to OpRes** UI action, see [Add entities manually](gen-ent-manually.md).
+    **Note:** Generate entities automatically using the scheduled job. Use manual addition from the Operational Resilience Workspace for exceptions or one-off additions that don't fit the filter criteria. For adding entities from the Operational Resilience Workspace using the **Add to OpRes** UI action, see [Add entities manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/gen-ent-manually.md).
 
 

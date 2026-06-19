@@ -2,6 +2,7 @@
 title: List report style options
 description: Add a title to your list report configure the title's size, color, and alignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/list-report-style-options.html
 release: australia
 product: Reporting
 classification: reporting
@@ -72,9 +73,9 @@ How the chart title is aligned horizontally. This field is available when the **
 
 List report with default style options:
 
-![List report with default style options - no title, size of 16 px, title color black, alignment center](../image/list-report-style-default.png)
+\[Omitted image "list-report-style-default.png"\] Alt text: List report with default style options - no title, size of 16 px, title color black, alignment center
 
 List report with configured title, title size, title color, and alignment:
 
-![List report with configured style options](../image/list-report-style-configured.png)
+\[Omitted image "list-report-style-configured.png"\] Alt text: List report with configured style options
 

@@ -2,6 +2,7 @@
 title: Clone a synonym dictionary
 description: Create a copy of an existing synonym dictionary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/clone-synonym-dictionary-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -38,5 +39,5 @@ Cloning a synonym dictionary copies the source dictionary's settings and all of 
 
 The new synonym dictionary form opens. All synonym terms defined in the source dictionary appear in the AI Search Dictionary Terms related list.
 
-**Parent Topic:**[Synonyms](../concept/synonyms-ais.md)
+**Parent Topic:**[Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/synonyms-ais.md)
 

@@ -2,6 +2,7 @@
 title: CIM credentials
 description: The CIM credential type manages access to a CIM server \(also referred to as a CIMOM - Common Information Model Object Manager\) for information about VMware ESX servers. This credential type is available for Discovery.NetApp storage devices require additional configuration for Discovery to explore them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/r\_CIMCredentialsForm.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -79,7 +80,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](../concept/c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](../concept/c_CyberArkCredStorageIntegrate.md).
+Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md).
 
 </td></tr><tr><td>
 

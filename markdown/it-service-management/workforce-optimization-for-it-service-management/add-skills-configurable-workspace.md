@@ -2,6 +2,7 @@
 title: Add or update skills using Workforce Optimization for ITSM
 description: Add skills or update skill levels for an agent so that it gets added to their skill set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/add-skills-configurable-workspace.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -29,15 +30,15 @@ Role required: skill\_manager
 
 4.  Add a skill or update a skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d376075e98">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d66226e98">
 
 To
 
-</th><th align="left" id="d376075e101">
+</th><th align="left" id="d66226e101">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d376075e107">
+</th></tr></thead><tbody><tr><td id="d66226e107">
 
 **Add a skill**
 
@@ -49,7 +50,7 @@ Do this
 
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d376075e139">
+</td></tr><tr><td id="d66226e139">
 
 **Update a skill level**
 
@@ -62,5 +63,5 @@ The skill gets automatically added to the agent.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Adding skills to agents' skill set in Workforce Optimization for ITSM](../concept/adding-skills-agents-skillset-wfo-itsm.md)
+**Parent Topic:**[Adding skills to agents' skill set in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/adding-skills-agents-skillset-wfo-itsm.md)
 

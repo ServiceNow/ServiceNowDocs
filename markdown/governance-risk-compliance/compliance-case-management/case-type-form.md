@@ -2,6 +2,7 @@
 title: Case Type form
 description: Use the Case Type form in the Compliance Case Management application to categorize the compliance cases by their type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/case-type-form.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -25,11 +26,11 @@ See the following table for a description of the field values.
 |Active|Option to select the case type as active or inactive.|
 |Description|Description about this case type. This description is for the administrator to understand the case subtype.|
 |State Model|
-|State Model|Workflow states for the case type. For more information, see [Create a compliance state model](../task/create-state-model.md).|
+|State Model|Workflow states for the case type. For more information, see [Create a compliance state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-state-model.md).|
 |Assessment Configuration|
-|Assessment templates|Assessment template for the case type. If the **sn\_grc\_case\_mgmt.enable\_smart\_assessments** system property is set to **true**, then you can specify the Smart assessment templates that you want to use for performing smart assessment on action tasks. For more information, see [Create an assessment template](../task/ccm-create-assessment-template.md). For information on|
+|Assessment templates|Assessment template for the case type. If the **sn\_grc\_case\_mgmt.enable\_smart\_assessments** system property is set to **true**, then you can specify the Smart assessment templates that you want to use for performing smart assessment on action tasks. For more information, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/ccm-create-assessment-template.md). For information on|
 |Template Configuration|
 |Document templates|Template to generate Portable Document Format \(PDF\) reports for compliance cases associated with this case type.|
 
-**Parent Topic:**[Create a case type](../task/create-case-type.md)
+**Parent Topic:**[Create a case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-case-type.md)
 

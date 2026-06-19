@@ -2,6 +2,7 @@
 title: Enhanced Performance with UIB pages
 description: The Crisis map application is now built with a UI Builder \(UIB\) page. Previously, the single-use component limited the ability to customize the user interface \(UI\), add filters, or modify the design in the Crisis map. By adopting the UIB page, you can gain full control over the implementation, enabling you to extend support for your specific use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-migration.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -38,7 +39,7 @@ Adopting the UIB page in the Crisis map application offers these benefits:
 
 Filters on the map, such as states, regions, and severity, enhance alert visibility. Previously, you could only filter between active and dismissed alerts. Now, you have more options to filter the alerts as shown in the example.
 
-![Filters.](../image/alert-filters.png)
+\[Omitted image "alert-filters.png"\] Alt text: Filters.
 
 1.  **Alert states**: Filter alerts by their states such as Active alerts or Dismissed alerts.
 2.  **Alert regions**: Filter alerts by their region, for example, AMS, APJ, and EMEA.
@@ -53,33 +54,33 @@ These new filters and search options provide more flexibility and control over t
 
 The Crisis map application now includes enhanced actions such as listing alerts, sorting by severity, and displaying assets according to their locations, vendors, datacenters, as shown in the illustration.
 
-![Enhanced actions in the map UI.](../image/new-crisis-map.png)
+\[Omitted image "new-crisis-map.png"\] Alt text: Enhanced actions in the map UI.
 
 Actions: Perform these actions on the alerts in the map.
 
--   Select the **Sort by** option to sort the alerts by their **Severity**, **Created**, and **Updated** options. You can also use the sorting icon ![Sort.](../image/ChangeSortOrderIcon.png) to sort the alerts in an ascending or descending order.
--   Select the ![Subscribe.](../image/SubscribeIcon.png) icon to subscribe to an alert. A subscription notification, such as `Alert subscribed: Drought is ongoing in Madagascar` is displayed on the screen.
--   Select the ![More options.](../../grc-workspace-risk/image/more-details.png) icon to open or dismiss an alert. Actions related to an alert are recorded and displayed in the Activity panel of the alert record.
+-   Select the **Sort by** option to sort the alerts by their **Severity**, **Created**, and **Updated** options. You can also use the sorting icon \[Omitted image "ChangeSortOrderIcon.png"\] Alt text: Sort. to sort the alerts in an ascending or descending order.
+-   Select the \[Omitted image "SubscribeIcon.png"\] Alt text: Subscribe. icon to subscribe to an alert. A subscription notification, such as `Alert subscribed: Drought is ongoing in Madagascar` is displayed on the screen.
+-   Select the \[Omitted image "more-details.png"\] Alt text: More options. icon to open or dismiss an alert. Actions related to an alert are recorded and displayed in the Activity panel of the alert record.
 
 ## Resource configuration
 
 Custom icons and fields: The resources on the map such as Locations or vendors are defined in the BCM element definition table, with options to specify icons, tables, and location fields. You can update the element definition record to add a resource as shown in the example, which adds the datacenters resource to the map.
 
-![Creating a resource configuration for an element definition.](../image/resrc-config-ele-def-record.png)
+\[Omitted image "resrc-config-ele-def-record.png"\] Alt text: Creating a resource configuration for an element definition.
 
 Only active resources within the BCM category are displayed. You can also configure which fields are displayed when a resource, such as the name, location, and additional information, is selected.
 
 The **Display Fields** in the resource configuration are used to customize the information shown on the map. You can add fields such as **Assigned to** and **Category** to show the person assigned to the datacenter and the categories. You can also remove fields that are no longer needed. Additionally, you can add filter conditions to show only the records that match your specific criteria. For example, setting a filter for a specific name displays only the datacenters that match that name as shown in the example.
 
-![Sample resource configuration.](../image/resource-display-fields.png)
+\[Omitted image "resource-display-fields.png"\] Alt text: Sample resource configuration.
 
 This condition helps you to view relevant fields and analyze a focused view of the data in the map.
 
-![Alerts page in Crisis map.](../image/resource-display-fields-map-view.png)
+\[Omitted image "resource-display-fields-map-view.png"\] Alt text: Alerts page in Crisis map.
 
 Starting with BCM release 9.0.x, the Crisis map application has been enhanced. You can now display more than 10,000 resources on the map. Similarly, the application handles more than 1,000 alerts without any performance issues.
 
-For information on creating a Resource configuration in Crisis map, see [Configure Resource Configuration records](../task/conf-resource-for-crisis-map-uib-ws.md).
+For information on creating a Resource configuration in Crisis map, see [Configure Resource Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-resource-for-crisis-map-uib-ws.md).
 
 ## Alert details page
 
@@ -92,17 +93,17 @@ In the alert details, additional information on the alert is listed.
 
 Configurable secondary values: You can now customize the secondary values displayed on the alert details page to better suit your needs. These configurable fields—such as urgency, severity, and category—enable you to add more information to the display. The secondary values that you configure apply to all alerts in the list.
 
-![Alert details view.](../image/alert-details-view.png)
+\[Omitted image "alert-details-view.png"\] Alt text: Alert details view.
 
 You can configure these secondary values by navigating to **UX Header Configuration** &gt; **BCM Workspace** &gt; **UX Form Headers \(sn\_fam\_alert\)**. You can select the alert that you want to modify and choose which secondary values you want to display or remove as shown in the sample configuration.
 
-![UX header configuration.](../image/alert-header.png)![New record for a secondary value.](../image/alert-sec-value.png)
+\[Omitted image "alert-header.png"\] Alt text: UX header configuration.\[Omitted image "alert-sec-value.png"\] Alt text: New record for a secondary value.
 
-For information on the form headers, see [Configure a form header for a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/config-ws-form-header.md).
+For information on the form headers, see .
 
 The 'Assets at Risk' section is displayed on the **Details** tab of an alert. The **Response Tasks** tab shows secondary values such as the Response task number, Title, State, Assigned to, Created. The 'Assets at Risk' section, as shown in the example, provides an overview of all assets associated with an alert. You can view the at-risk assets by selecting each element definition, to monitor which assets are at risk for a specific alert.
 
-![Assets at Risk section in the map.](../image/assets-at-risk.png)
+\[Omitted image "assets-at-risk.png"\] Alt text: Assets at Risk section in the map.
 
 The suggested actions for an alert are displayed in the Alert panel. These actions include steps like notifying stakeholders \(with a feature to send emails\), creating response tasks, and clearing crisis events. Custom alert actions can also be implemented using scripts.
 
@@ -116,11 +117,11 @@ You can add custom alert actions by searching for them in the Alert Actions sect
 
 For example, if you select the **Test Script** action, it runs a script without any input. You can check the log to confirm that the script has been executed. The log shows a message indicating that the test script alert action has run.
 
-You can add custom scripts for alert actions, and the system supports both base system and custom actions. This migration promotes better configuration, accessibility, and future support for the Crisis map application for the users. For information on alert actions, see [Configure alert actions](../task/configure-alert-action-uib-ws.md).
+You can add custom scripts for alert actions, and the system supports both base system and custom actions. This migration promotes better configuration, accessibility, and future support for the Crisis map application for the users. For information on alert actions, see [Configure alert actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-alert-action-uib-ws.md).
 
 ## Enhanced accessibility and user experience
 
 The implementation of the Geomap \[sn\_geo\_map\] component has resolved various accessibility issues from previous Crisis map releases. This component replaces the FAM Map \[sn-fam-map\] component and provides an enhanced user experience.
 
-**Parent Topic:**[Structured workflows for Crisis map](crisis-map-collective-tasks.md)
+**Parent Topic:**[Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/crisis-map-collective-tasks.md)
 

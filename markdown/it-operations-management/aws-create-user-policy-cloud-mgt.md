@@ -2,7 +2,10 @@
 title: Control AWS access and permissions using policies
 description: I have reworked this topic to fit the new accessibility configuration structure. Per our discussion, please remove this topic from the CPG map and add a reference to the new access configuration anchor \(./../discovery/concept/access-aws-accounts.dita\) to the AWS Day 1 landing page. Configure policies with the necessary level of permissions to provide access to the AWS resources for Cloud Discovery and Cloud Provisioning and Governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aws-create-user-policy-cloud-mgt.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -20,6 +23,9 @@ Familiarize yourself with creating IAM users and user policies. Refer to the [AW
 Identify the level of permissions required for discovering the resources using Cloud Discovery and managing the resources with Cloud Provisioning and Governance. For example:
 
 -   Additional S3 permissions are needed as AWS uses an S3 bucket to store and run the cloud formation templates to deploy stacks using CloudFormation. These permissions are needed even if you run the same CloudFormation template from the AWS console.
+
+    **Note:** `s3:ListAllMyBuckets` must be scoped account-wide, not to a specific bucket ARN.
+
 -   Read-only access is required to do pattern discovery with the custom policy.
 
 AWS CloudFormation provisions and configures resources by making calls to the AWS services that are described in your template. For more information, see [How does CloudFormation work?](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-howdoesitwork.html)
@@ -98,10 +104,14 @@ The policy you configure defines the AWS permissions that you can assign to a us
                     "redshift:Describe*",
                     "route53:GetHostedZone",
                     "route53:List*",
-                    "s3:GetAccountPublicAccessBlock",
-                    "s3:GetBucket*",
+                    "s3:ListAllMyBuckets",
                     "s3:GetBucketLocation",
-                    "s3:List*",
+                    "s3:GetBucketAcl",
+                    "s3:GetEncryptionConfiguration",
+                    "s3:GetBucketPolicy",
+                    "s3:GetReplicationConfiguration",
+                    "s3:GetBucketNotification",
+                    "tag:GetResources",
                     "sdb:GetAttributes",
                     "sns:GetEndpointAttributes",
                     "sns:GetSubscriptionAttributes",
@@ -162,10 +172,14 @@ The policy you configure defines the AWS permissions that you can assign to a us
                         "redshift:Describe*",
                         "route53:GetHostedZone",
                         "route53:List*",
-                        "s3:GetAccountPublicAccessBlock",
-                        "s3:GetBucket*",
+                        "s3:ListAllMyBuckets",
                         "s3:GetBucketLocation",
-                        "s3:List*",
+                        "s3:GetBucketAcl",
+                        "s3:GetEncryptionConfiguration",
+                        "s3:GetBucketPolicy",
+                        "s3:GetReplicationConfiguration",
+                        "s3:GetBucketNotification",
+                        "tag:GetResources",
                         "sdb:GetAttributes",
                         "sns:GetEndpointAttributes",
                         "sns:GetSubscriptionAttributes",
@@ -193,12 +207,14 @@ The policy you configure defines the AWS permissions that you can assign to a us
                         "cloudformation:UpdateStack",
                         "cloudformation:ValidateTemplate"
                         "ec2:*",
-                        "s3:CreateBucket",
-                        "s3:DeleteBucket",
-                        "s3:DeleteObject",
-                        "s3:GetObject",
-                        "s3:ListBucket",
-                        "s3:PutObject"
+                        "s3:ListAllMyBuckets",
+                        "s3:GetBucketLocation",
+                        "s3:GetBucketAcl",
+                        "s3:GetEncryptionConfiguration",
+                        "s3:GetBucketPolicy",
+                        "s3:GetReplicationConfiguration",
+                        "s3:GetBucketNotification",
+                        "tag:GetResources"
                     ],
                     "Resource": "*"
                 }
@@ -207,7 +223,7 @@ The policy you configure defines the AWS permissions that you can assign to a us
         ```
 
 
-**Parent Topic:**[Setting up AWS service accounts](../concept/setup-aws-service-accounts.md)
+**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-aws-service-accounts.md)
 
 **Related topics**  
 

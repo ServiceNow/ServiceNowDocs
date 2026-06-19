@@ -2,6 +2,7 @@
 title: Create a software user license entitlement for the legacy Software Asset Management plugin
 description: You can entitle a user to use one of your software licenses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_CreateSWUserLicenseEntitlement.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -33,5 +34,5 @@ Role required: asset
 2.  Click **Submit**.
 
 
-**Parent Topic:**[Software license entitlements for the legacy Software Asset Management plugin](t_CreatSWLicenseEntitlemnt.md)
+**Parent Topic:**[Software license entitlements for the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_CreatSWLicenseEntitlemnt.md)
 

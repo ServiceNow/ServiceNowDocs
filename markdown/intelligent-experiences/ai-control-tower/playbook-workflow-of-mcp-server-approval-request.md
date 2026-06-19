@@ -1,7 +1,8 @@
 ---
-title: MCP server approval workflow
+title: Explore the MCP server approval workflow
 description: Explore the Model Context Protocol \(MCP\) server approval workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/playbook-workflow-of-mcp-server-approval-request.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Process flow of MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# MCP server approval workflow
+# Explore the MCP server approval workflow
 
 Explore the Model Context Protocol \(MCP\) server approval workflow.
 
@@ -51,6 +52,6 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
     **Note:**
 
-    The AI Gateway setup tab appears only after an MCP server request is approved. The AI steward can pause transactions whenever needed through this tab. For information on the tabs appearing in the MCP server record, see [MCP server record](../concept/view-the-mcp-server-record.md).
+    The AI Gateway setup tab appears only after an MCP server request is approved. The AI steward can pause transactions whenever needed through this tab. For information on the tabs appearing in the MCP server record, see [MCP server record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.md).
 
 

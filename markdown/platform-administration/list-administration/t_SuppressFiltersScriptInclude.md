@@ -2,6 +2,7 @@
 title: Use script includes to suppress filters and breadcrumbs
 description: You can use a script to restrict filters and breadcrumbs to specific roles, either on a per-table or global basis. Using a script is an advanced option that offers additional flexibility compared to using list control.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_SuppressFiltersScriptInclude.html
 release: australia
 product: List Administration
 classification: list-administration

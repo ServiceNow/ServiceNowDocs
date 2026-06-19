@@ -2,6 +2,7 @@
 title: Components installed with Health and Safety Risk Management
 description: Several types of components are installed with installation of the Health and Safety Risk Management application, including tables, user roles, and scheduled jobs. The application also installs related store applications if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/components-installed-with-hs-risk-mgmt.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -33,7 +34,7 @@ Health and Safety Core
 
 Installs core data model for Health and Safety. This data model includes common components such as Health and Safety user profile and actions that are used in the Health and Safety applications.
 
- For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](../../hs-core/reference/components-installed-hs-core.md).
+ For more information on store applications, roles, and tables installed with Health and Safety Core, see [Components installed with Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/components-installed-hs-core.md).
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Smart Assessment Engine
 
 </td><td>
 
-Enables creating smart assessments for safety inspection or audits. For more information, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
+Enables creating smart assessments for safety inspection or audits. For more information, see .
 
 </td></tr></tbody>
 </table>## Roles installed
@@ -1197,5 +1198,5 @@ Template
 Stores all JSA templates with predefined hazards and controls for each job type in your organization.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

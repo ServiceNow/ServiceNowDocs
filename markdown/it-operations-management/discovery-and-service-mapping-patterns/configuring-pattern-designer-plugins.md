@@ -2,6 +2,7 @@
 title: Configuring Pattern Designer and related applications
 description: Install the latest available versions of the ServiceNow applications to use the latest discovery patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/configuring-pattern-designer-plugins.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -59,7 +60,7 @@ The pde\_viewer role can view the following tables only:
 -   Pattern Shared Library Mapping \[pd\_pattern\_to\_shared\_library\_mapping\]
 -   Temporary Variable Mappings \[pd\_temp\_variable\_value\_mapping\]
 
-For more information, see [Discovery commands for probes and patterns](../../discovery/concept/discovery-command-probe-pattern.md).
+For more information, see [Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md).
 
 </td></tr><tr><td>
 
@@ -83,18 +84,18 @@ Not assigned to a user directly but to the MID Server record or the user under w
 
 You can install the latest available versions of the pattern applications from the ServiceNow Store. Alternatively, you can install these applications as plugins on your ServiceNow instance.
 
--   **[Check which plugin contains a required pattern](../task/check-pattern-availability.md)**  
+-   **[Check which plugin contains a required pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/check-pattern-availability.md)**  
 Since ServiceNow releases discovery patterns using two different plugins, you may need to check which plugin to install or upgrade.
--   **[Install Discovery and Service Mapping Patterns](../task/install-discovery-service-mapping-patterns.md)**  
+-   **[Install Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/install-discovery-service-mapping-patterns.md)**  
 You can install the Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) if you have the admin role.
--   **[Install Visibility Content](../task/install-itom-visibility-global-content.md)**  
+-   **[Install Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/install-itom-visibility-global-content.md)**  
 You can install the Visibility Content application \(sn\_pattern\_design\) if you have the admin role.
--   **[Password2 encryption for patterns](../concept/password2-encryption-patterns.md)**  
+-   **[Password2 encryption for patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/password2-encryption-patterns.md)**  
 The Password \(two-way encrypted\) field type is used to encrypt and decrypt data. The field type works in accordance with NIST 800-57 guidelines and provides FIPS 140-2-L3 protection.
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](../concept/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[OpenStack resource discovery](openstack-discovery.md)
+**Previous topic:**[OpenStack resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md)
 
-**Next topic:**[Check which plugin contains a required pattern](../task/check-pattern-availability.md)
+**Next topic:**[Check which plugin contains a required pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/check-pattern-availability.md)
 

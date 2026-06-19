@@ -2,11 +2,12 @@
 title: Default NER data patterns
 description: Use Named Entity Recognition \(NER\) based discovery to help discover sensitive data that does not follow fixed patterns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/default-ner-data-patterns.html
 release: australia
 product: Data Discovery
 classification: data-discovery
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Configure patterns, Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
@@ -15,22 +16,22 @@ breadcrumb: [Configure patterns, Data Discovery jobs, Exploring Data Discovery \
 
 Use Named Entity Recognition \(NER\) based discovery to help discover sensitive data that does not follow fixed patterns.
 
-Several Data Privacy capabilities support using Named Entity Recognition \(NER\) model data patterns to discover data such as names, organizations, nationalities, and political affiliations. Data patterns with the type Model use this feature \(see [Configure Data Discovery patterns](../task/configure-data-discovery-patterns.md) for more details\).
+Several Data Privacy capabilities support using Named Entity Recognition \(NER\) model data patterns to discover data such as names, organizations, nationalities, and political affiliations. Data patterns with the type Model use this feature \(see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/configure-data-discovery-patterns.md) for more details\).
 
 **Warning:** This feature requires an additional $0 SKU to be signed by the customer in order to be enabled. Also, customers must have the latest version of the GenAI Controller `sn.generative.ai` installed on their instance \(which requires the admin role\).
 
 NER data patterns can be used for:
 
--   Running Data Discovery jobs using [Data Discovery policies](../concept/data-discovery-policies.md).
--   Running Anonymization jobs using [Data Anonymization Policies](../../data-privacy-store/concept/dps-data-anonymization.md).
+-   Running Data Discovery jobs using [Data Discovery policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/data-discovery-policies.md).
+-   Running Anonymization jobs using [Data Anonymization Policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/dps-data-anonymization.md).
 
-    **Note:** To anonymize any NER data pattern within text in a classified column, you need to select the Data Pattern Anonymization technique when creating the anonymization policy. Then, ensure that each NER data pattern is added to [Active Data Patterns](../task/dds-active-data-patterns.md).
+    **Note:** To anonymize any NER data pattern within text in a classified column, you need to select the Data Pattern Anonymization technique when creating the anonymization policy. Then, ensure that each NER data pattern is added to [Active Data Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/dds-active-data-patterns.md).
 
--   [Real time anonymization](../../data-privacy-store/concept/real-time-anonymization.md) of entries containing NER data patterns.
+-   [Real time anonymization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/real-time-anonymization.md) of entries containing NER data patterns.
 
-    **Note:** This capability requires adding the NER data pattern to [Active Data Patterns](../task/dds-active-data-patterns.md).
+    **Note:** This capability requires adding the NER data pattern to [Active Data Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/dds-active-data-patterns.md).
 
--   Masking NER data patterns when configuring [Data Privacy for Now Assist](../concept/now-assist-for-data-privacy-landing.md).
+-   Masking NER data patterns when configuring [Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.md).
 
 <table id="table_wfd_1ll_gxb"><thead><tr><th>
 

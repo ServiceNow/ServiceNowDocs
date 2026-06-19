@@ -2,6 +2,7 @@
 title: Workflow Studio
 description: Integrate workflow authoring, configuring, and monitoring into a single page experience. Consolidate playbooks, flows, actions, decision tables, and integrations into one design environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/workflow-studio.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,27 +20,27 @@ Integrate workflow authoring, configuring, and monitoring into a single page exp
 
 <table id="table_o5z_b1s_fzb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Workflow Studio concepts and features](../concept/exploring-workflow-studio.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Workflow Studio concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-workflow-studio.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure workflow builders](../concept/configuring-workflow-studio.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure workflow builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/configuring-workflow-studio.md)
 
 </td></tr><tr><td>
 
-[Flows, subflows, and actions![](../../../reuse/icons/brand-icons/bus-workflow.svg)Use flows to automate repeatable multi-step processes](workflow-studio-flows-subflows-and-actions-landing.md)
+[Flows, subflows, and actions\[Omitted image "bus-workflow.svg"\] Alt text:Use flows to automate repeatable multi-step processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
 
 </td><td>
 
-[Playbooks![](../../../reuse/icons/brand-icons/bus-learn.svg)Use Playbooks to automate, streamline, and standardize complex processes](workflow-studio-playbooks-landing.md)
+[Playbooks\[Omitted image "bus-learn.svg"\] Alt text:Use Playbooks to automate, streamline, and standardize complex processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 
 </td></tr><tr><td>
 
-[Flow Assist![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate flows from text prompts or images using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/flow-generation-landing.md)
+Flow Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate flows from text prompts or images using Now Assist
 
 </td><td>
 
-[Playbook Assist![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate Playbooks and playbook recommendations using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/playbook-assist-landing.md)
+Playbook Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate Playbooks and playbook recommendations using Now Assist
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

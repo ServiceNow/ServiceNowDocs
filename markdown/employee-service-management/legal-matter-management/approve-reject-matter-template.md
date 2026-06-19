@@ -2,6 +2,7 @@
 title: Approve or reject a matter template
 description: Review and approve or reject a matter template that is assigned to a user group of which you are a member. An approved matter template is published and is available for use when promoting legal requests to legal matters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/approve-reject-matter-template.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -43,5 +44,5 @@ Role required: approver\_user
 -   If you approve, the matter template is published. The state of the matter template record updates to Published.
 -   If you reject, the matter template state updates to Draft. The user who created the matter template can work on the template again to complete the required information and resubmit for approval.
 
-**Parent Topic:**[Legal matter templates](../concept/legal-matter-administration.md)
+**Parent Topic:**[Legal matter templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/legal-matter-administration.md)
 

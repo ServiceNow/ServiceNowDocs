@@ -2,6 +2,7 @@
 title: PaCE API invocation parameters
 description: This table describes the properties that can be configured when the PaCE API is invoked. These properties can be set whenever the API is invoked or when you test a policy in the Test Playground.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-invocation-params.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

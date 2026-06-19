@@ -2,6 +2,7 @@
 title: Control request and response content type
 description: Controls which content types are allowed in scripted REST API requests and responses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/c\_SpecifyContentType.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -74,5 +75,5 @@ Response:
 
 When sending a binary type in a response, you must set the response content type and write the binary stream directly using a `RESTAPIResponseStream` object. You can access this object by calling `getStreamWriter()` on the response object. For more information, see.
 
-**Parent Topic:**[Create a scripted REST API](../task/t_CreateAScriptedRESTService.md)
+**Parent Topic:**[Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md)
 

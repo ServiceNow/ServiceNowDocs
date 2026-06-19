@@ -2,6 +2,7 @@
 title: Invoice integration
 description: Invoices are created either manually in Source-to-Pay \(S2P\) or through an external supplier portal. Generic API synchronizes invoices created from a supplier portal into S2P.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/invoice-integration.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

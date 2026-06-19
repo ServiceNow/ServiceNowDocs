@@ -2,12 +2,13 @@
 title: Automation Assets
 description: Include all automation assets in the activity picker to add a subflow, flow, or action directly to your playbook without having to create an activity definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/automation-assets.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -23,42 +24,15 @@ Use automation assets in your playbook if:
 -   The activity doesn't need to be reusable.
 -   You don't need a UI.
 
-If you need a UI or an activity that is reusable, [create an activity definition](../task/create-activity-definition.md).
+If you need a UI or an activity that is reusable, [create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-activity-definition.md).
 
 ## Asset types
 
-When [adding an activity](process-automation-designer-lanes-activities.md#adding-an-activity), select **Include all automation assets** in the activity picker to add [flows](../../flow-designer/concept/flows.md), [subflows](../../flow-designer/concept/subflows.md) and [actions](../../flow-designer/concept/actions.md).
+When [adding an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md), select **Include all automation assets** in the activity picker to add [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md), [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) and [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md).
 
-![Activity picker with automation assets enabled](../images/automation-assets.png)
+\[Omitted image "automation-assets.png"\] Alt text: Activity picker with automation assets enabled
 
 When adding a flow, subflow, or action, a non-usable activity definition is created behind-the-scenes.
 
-**Parent Topic:**[Stages and activities](process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook](../task/add-configure-stage.md)
-
-[Activity definitions](activity-definitions.md)
-
-[Add and configure an activity in a playbook](../task/add-configure-activity.md)
-
-[Use AI agent as an activity](../task/ai-agent-as-activity.md)
-
-[Start with delay input properties](../reference/start-with-delay-properties.md)
-
-[Optional activities](optional-activities.md#)
-
-[Decision activities](../task/create-a-decision-activity.md)
-
-[Decision stages](../task/create-decision-stage.md)
-
-[Questionnaire activity](../reference/questionnaire-activity.md)
-
-[Parallel branches](../task/create-parallel-activity.md)
-
-[Add dynamic inputs to an activity](../task/add-dynamic-inputs-to-activity.md)
-
-[Playbook activity state mapping](../../workspace/concept/playbook-activity-state-mapping.md)
+**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 

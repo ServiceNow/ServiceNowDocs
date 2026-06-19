@@ -2,6 +2,7 @@
 title: Set up an approval configuration record
 description: Set up an approval configuration record to enable multiple levels of approvals and select approvers for each level based on approval rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/set-up-approval-configurator.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -29,21 +30,21 @@ Role required: sn\_grc\_appr.admin, sn\_compliance\_ws.corporate\_compliance\_an
 
     The Approval Configuration New Record is displayed.
 
-    ![Approval Configuration new record.](../image/approval-config-new-record.png)
+    \[Omitted image "approval-config-new-record.png"\] Alt text: Approval Configuration new record.
 
 3.  On the form, fill in the fields.
 
-    For information on the fields in the form, see [Approval Configuration New Record](../reference/approval-config-new-record.md).
+    For information on the fields in the form, see [Approval Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/approval-config-new-record.md).
 
     **Note:** You cannot have more than one approval configuration applying to the table with the same priority.
 
 4.  Select **Submit**.
 
 
--   **[Approval Configuration New Record](../reference/approval-config-new-record.md)**  
+-   **[Approval Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/approval-config-new-record.md)**  
 Use the Approval Configuration New Record form to create an approval configuration record.
--   **[Assignment Configuration New Record](../reference/assignment-configuration-new-record.md)**  
+-   **[Assignment Configuration New Record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/assignment-configuration-new-record.md)**  
 Use the Assignment Configuration new record form to create auto-assignments for regulatory events of the type regulatory alert.
 
-**Parent Topic:**[Using Approver Configurator for setting up approvals](../concept/approval-configuration.md)
+**Parent Topic:**[Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/approval-configuration.md)
 

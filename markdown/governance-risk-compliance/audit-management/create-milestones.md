@@ -2,6 +2,7 @@
 title: Create an engagement milestone
 description: Create milestones for an engagement to track the progress of an engagement. You can also add audit tasks to a milestone.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-milestones.html
 release: australia
 product: Audit Management
 classification: audit-management

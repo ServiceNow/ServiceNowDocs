@@ -2,6 +2,7 @@
 title: Add an Entity View Action Mapper data resource to a page
 description: Add an Entity View Action Mapper \(EVAM\) data resource to your page in UI Builder so that you can standardize how the data sources in your components are displayed in your cards and lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/evam-working.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -25,25 +26,25 @@ Role required: ui\_builder\_admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Open or create a page.
 
-    For more information, see [Manage UI Builder pages and page variants](../concept/work-pages.md).
+    For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
 
 4.  If you do not have any components on your page, add a **Data set** component to your page.
 
-    For more information, see [Add and configure components](add-components.md#).
+    For more information, see [Add and configure components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/add-components.md).
 
 5.  In the **Data and scripts** panel, select the **+** icon and then select **Data resource**.
 
-    ![Arrow pointing to Data resource option.](../image/data-resource-open.png)
+    \[Omitted image "data-resource-open.png"\] Alt text: Arrow pointing to Data resource option.
 
 6.  Enter `evam` in the search field.
 
 7.  Select the EVAM data resource that you want to add and repeat this step for all the EVAM data resources for your page.
 
-    ![EVAM data resources.](../image/evam-data-sources.png)
+    \[Omitted image "evam-data-sources.png"\] Alt text: EVAM data resources.
 
 8.  Configure each EVAM data resource.
 
@@ -70,9 +71,9 @@ Add an EVAM definition and other information about the data source. -   Type: Co
 -   EVAM Filter Preference: In the **EVAM Filter Preference** field, add the sys\_ids for the EVAM data filter.
  To add an event handler for when that data fetch is initiated, succeeded, or failed, select **Events**.
 
- In the [Now Code Editor](../concept/ui-builder-glossary.md#) section, which is next to the Configuration pane, preview the EVAM definition script.
+ In the [Now Code Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-glossary.md) section, which is next to the Configuration pane, preview the EVAM definition script.
 
- ![EVAM Data Resource Configuration.](../image/EVAM-Data-Resource-Sample.png "EVAM Data Resource configuration")
+ \[Omitted image "EVAM-Data-Resource-Sample.png"\] Alt text: EVAM Data Resource Configuration.
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ To add an EVAM definition and other information about the data source, select **
 
  Preview the EVAM definition script in the **Now Code Editor** to the right of the Configuration pane.
 
-![Fetch EVAM Data source configuration.](../image/evam-fetch-data.png)
+\[Omitted image "evam-fetch-data.png"\] Alt text: Fetch EVAM Data source configuration.
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ To select when to evaluate the EVAM data resource and add an EVAM definition, se
 
  Preview the EVAM definition script in the **Now Code Editor** to the right of the Configuration pane.
 
-![Fetch EVAM Metadata configuration.](../image/evam-fetch-metadata.png)
+\[Omitted image "evam-fetch-metadata.png"\] Alt text: Fetch EVAM Metadata configuration.
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ To add an EVAM definition and other information about the data source, select **
 
  Preview the EVAM definition script in the **Now Code Editor** to the right of the Configuration pane.
 
-![Search EVAM Data resource configuration.](../image/evam-search-data-resource.png)
+\[Omitted image "evam-search-data-resource.png"\] Alt text: Search EVAM Data resource configuration.
 
 </td></tr></tbody>
 </table>9.  Configure your data set component:
@@ -139,8 +140,8 @@ To add an EVAM definition and other information about the data source, select **
 
 11. View and test your page by selecting the **Preview** button.
 
-    ![Finished state of EVAM.](../image/EVAM-SampleFinishedState.png "Finished state of the EVAM")
+    \[Omitted image "EVAM-SampleFinishedState.png"\] Alt text: Finished state of EVAM.
 
 
-**Parent Topic:**[Work with the Entity View Action Mapper for UI Builder](../concept/evam-ui-builder.md)
+**Parent Topic:**[Work with the Entity View Action Mapper for UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/evam-ui-builder.md)
 

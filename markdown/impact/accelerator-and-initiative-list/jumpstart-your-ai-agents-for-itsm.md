@@ -2,6 +2,7 @@
 title: Jumpstart Your AI Agents for ITSM
 description: This accelerator provides a demonstration of the possibilities and capabilities of AI Agents for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-ai-agents-for-itsm.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator overview
 
 Jumpstart Your AI Agents for ITSM provides  Impact customers with an overview and applied demonstration of AI Agents for ITSM. By harnessing the power of GenAI, this accelerator highlights how AI agents revolutionize the ITSM process by using advanced reasoning to complete key tasks. AI agents handle repetitive tasks such as generating detailed resolution notes, summarizing cases and chat conversations, and more, freeing up human agents to focus on higher-value work. This offering provides key resources and leading practices to get started with AI Agents for ITSM.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -62,6 +65,8 @@ Please refer to the applicable Impact Accelerator Description available at [http
 ## Exclusions
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
+
+## Exclusions
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

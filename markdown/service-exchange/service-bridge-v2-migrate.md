@@ -2,6 +2,7 @@
 title: Migrate from Service Exchange \(legacy\)
 description: This section describes the process to migrate from the Service Exchange \(legacy\) version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-migrate.html
 release: australia
 product: Service Exchange
 classification: service-exchange

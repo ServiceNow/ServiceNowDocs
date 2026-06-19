@@ -2,6 +2,7 @@
 title: Add a Universal Task related list
 description: Add a Universal Task related list to a service-specific form in both the ServiceNow AI Platform and Agent Workspace to let agents view a universal task for the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/create-relatedlist-ur.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Open a service-specific form.
 
-3.  Right-click the additional actions context menu ![Context menu](../images/context-menu.png).
+3.  Right-click the additional actions context menu \[Omitted image "context-menu.png"\] Alt text: Context menu.
 
 4.  Navigate to **Configure** &gt; **Related Lists**.
 
@@ -39,14 +40,14 @@ Role required: admin
 
     **Note:** Due to access control list \(ACL\) restrictions, the **New** button might not work while you are creating a task. You can hide the **New** button on the related list and use the UI action to create a universal task.
 
-    ![Disable the New tab.](../images/ut-relatdlst-new-tab.png)
+    \[Omitted image "ut-relatdlst-new-tab.png"\] Alt text: Disable the New tab.
 
-    For more information on adding related lists, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md).
+    For more information on adding related lists, see Related lists.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Create UI actions for your service with Universal Task](config-uiactions-for-ut.md)
+**Previous topic:**[Create UI actions for your service with Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-uiactions-for-ut.md)
 
-**Next topic:**[Add a Task tab on the Standard Ticket page](config-stdtktpage-for-ut.md)
+**Next topic:**[Add a Task tab on the Standard Ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-stdtktpage-for-ut.md)
 

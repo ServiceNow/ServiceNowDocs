@@ -2,6 +2,7 @@
 title: Action Assignment form
 description: Learn about the fields of the Action Assignment form. Use this form to add the New action button to the APW List Menu Configuration page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/action-assignment-form-sp.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -24,5 +25,5 @@ Learn about the fields of the Action Assignment form. Use this form to add the *
 |Specify client Action|Client action. Look up and select **Create New Record**.|
 |View|View of the form on which the action button is displayed.|
 
-**Parent Topic:**[Form field information for Strategic Planning](form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

@@ -2,6 +2,7 @@
 title: Configure the Application Administrator role on the SCCM server
 description: To deploy software using ServiceNow Client Software Distribution \(CSD\), ensure that an SCCM administrative user has the correct permissions to deploy software and that PowerShell is properly configured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-conf-sccm.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,18 +38,18 @@ These instructions are for Microsoft 2012 R2 Server.
 
 6.  If the user does not already have this role, click **Add**, select this role from the list, and click **OK**.
 
-    ![Granting the deployment role on the SCCM server](../../integrationhub-store-spokes/image/SCCMConsole.png "Granting the Application Administrator role on the SCCM server")
+    \[Omitted image "SCCMConsole.png"\] Alt text: Granting the deployment role on the SCCM server
 
 7.  Log into SCCM as the user with the Application Administrator role.
 
 8.  Open the menu from the upper left corner of the console and select **Connect via Windows PowerShell**.
 
-    ![Connect to PowerShell](../../integrationhub-store-spokes/image/ConnectSCCMviaPowerShell.png "Connect to PowerShell")
+    \[Omitted image "ConnectSCCMviaPowerShell.png"\] Alt text: Connect to PowerShell
 
 9.  Ensure that the user can access the CM console.
 
     This action establishes the environment path to PowerShell for the logged in Application Administrator user.
 
 
-**Parent Topic:**[Configuring SCCM](../concept/configure-sccm-ihub.md)
+**Parent Topic:**[Configuring SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-sccm-ihub.md)
 

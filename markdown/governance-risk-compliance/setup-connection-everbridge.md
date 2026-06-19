@@ -2,6 +2,7 @@
 title: Create connection and authenticate credential with Everbridge
 description: As a first step, establish a connection and authenticate your login credentials with an Everbridge instance to send out a notification using a delivery channel. This connection not only helps you to send but also receive communications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setup-connection-everbridge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

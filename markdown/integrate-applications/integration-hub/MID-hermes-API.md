@@ -2,6 +2,7 @@
 title: MID Hermes API extension
 description: MID Hermes API is a MID Server extension that enables communication to Hermes via a MID Server.Configure the MID Hermes API extension to enable the MID Hermes Producer API to produce messages to Hermes via a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/MID-hermes-API.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -15,7 +16,7 @@ breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Inte
 
 MID Hermes API is a MID Server extension that enables communication to Hermes via a MID Server.
 
-Send message payloads to a Hermes topic with MID script includes and the [MID Hermes Producer API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/MIDHermesProducerAPI.md). MID script includes push data to Hermes through a scriptable API interface, so Stream Connect isn't required. Activate the ServiceNow MID Hermes API \(com.glide.mid.hermes\_api\) plugin to use this extension.
+Send message payloads to a Hermes topic with MID script includes and the MID Hermes Producer API. MID script includes push data to Hermes through a scriptable API interface, so Stream Connect isn't required. Activate the ServiceNow MID Hermes API \(com.glide.mid.hermes\_api\) plugin to use this extension.
 
 ## Extension context records
 
@@ -28,7 +29,7 @@ Configuration details for the MID Hermes API extension are stored in context rec
 
 The following image shows an example of a completed MID Hermes API Context record.
 
-![Screenshot of a filled in MID Hermes API Context record.](../images/mid-hermes-api-context.png)
+\[Omitted image "mid-hermes-api-context.png"\] Alt text: Screenshot of a filled in MID Hermes API Context record.
 
 ## Statistics
 
@@ -68,6 +69,9 @@ Configure the MID Hermes API extension to enable the MID Hermes Producer API to 
 
 -   Role required: kafka\_admin
 -   Deploy and start a MID Server.
+
+    **Note:** Proxy settings on the MID Server don't apply to Hermes connectivity. The MID Server proxy configuration applies only to HTTP-based communication. Hermes uses Kafka-native TCP connections, so traffic to the Hermes cluster bypasses proxy settings regardless of how the MID Server is configured.
+
 -   Activate the ServiceNow MID Hermes API \(com.glide.mid.hermes\_api\) plugin.
 
 ### Procedure

@@ -2,6 +2,7 @@
 title: Assess field-level accuracy for multi-output models
 description: Evaluate the performance of your model by field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/task-intelligence/assess-field-level-accuracy-for-multi-output-models.html
 release: australia
 product: Task Intelligence
 classification: task-intelligence
@@ -23,9 +24,9 @@ Role required: admin
 
 After you have created and tested your model, assess its performance to evaluate how well it's predicting what you want it to predict. For multi-output models that predict multiple fields, you may want to assess the performance of each field individually.
 
-If you have not already created a model, see either [Create a model to predict record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md) to make one.
+If you have not already created a model, see either  or Create a model to predict incident fields to make one.
 
-Your model must be in Monitoring mode. You can set Monitoring mode on the Assess Your Model screen. For more details, see the Set your preferences step in [Create a case field prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-task-intel-create-cat-solution.md) or [Create a model to predict incident fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/create-incident-prediction-model.md) model.
+Your model must be in Monitoring mode. You can set Monitoring mode on the Assess Your Model screen. For more details, see the Set your preferences step in Create a case field prediction model or Create a model to predict incident fields model.
 
 ## Procedure
 
@@ -35,7 +36,7 @@ Your model must be in Monitoring mode. You can set Monitoring mode on the Assess
 
 3.  Group the list by **Predicted Correctly** by selecting the list controls icon in the top left corner of the screen.
 
-    ![List control open to group by Predicted Correctly](../images/predictor-results-list.png)
+    \[Omitted image "predictor-results-list.png"\] Alt text: List control open to group by Predicted Correctly
 
 4.  Divide the number of records where **Predicted Correctly** is **true** by the total number of records.
 
@@ -49,7 +50,7 @@ Your model must be in Monitoring mode. You can set Monitoring mode on the Assess
 
         The Monitoring screen allows you to select the model, field, and date range to display in the charts. Accuracy is measured based on whether the top autofilled value or the top 3 recommendations are correct.
 
-        ![Monitoring screen showing options to view model performance charts at the field level.](../images/task-intel-analytics.png)
+        \[Omitted image "task-intel-analytics.png"\] Alt text: Monitoring screen showing options to view model performance charts at the field level.
 
     2.  Select a model.
 
@@ -60,5 +61,5 @@ Your model must be in Monitoring mode. You can set Monitoring mode on the Assess
 
 ## What to do next
 
-If the accuracy of each field is acceptable, transition your model from monitoring mode to real-time predictions and deploy. If the accuracy of a specific field is not acceptable, you can remove that output field from your model, retrain, and deploy. See [Edit a Task Intelligence model](../concept/edit-a-task-intelligence-model.md) for more information on editing your model.
+If the accuracy of each field is acceptable, transition your model from monitoring mode to real-time predictions and deploy. If the accuracy of a specific field is not acceptable, you can remove that output field from your model, retrain, and deploy. See [Edit a Task Intelligence model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/task-intelligence/edit-a-task-intelligence-model.md) for more information on editing your model.
 

@@ -2,6 +2,7 @@
 title: Classify data in Data Discovery Findings page
 description: Classify sensitive data found by all successful jobs through Data Discovery Findings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/classifying-data.html
 release: australia
 product: Data Discovery
 classification: data-discovery

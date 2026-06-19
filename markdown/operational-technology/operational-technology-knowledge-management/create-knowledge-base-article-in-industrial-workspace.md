@@ -2,6 +2,7 @@
 title: Create a knowledge article in Industrial Workspace
 description: Create a knowledge article in Industrial Workspace to help cater an article's contents to the needs and solutions not directly related to an Operational Technology \(OT\) incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/create-knowledge-base-article-in-industrial-workspace.html
 release: australia
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -19,7 +20,7 @@ Create a knowledge article in Industrial Workspace to help cater an article's co
 
 Role required: knowledge
 
-**Note:** You also need the **Can contribute** access to at least one knowledge base. For more information, see [Create an OT knowledge base](configure-ot-knowledge-base.md).
+**Note:** You also need the **Can contribute** access to at least one knowledge base. For more information, see [Create an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configure-ot-knowledge-base.md).
 
 ## Procedure
 
@@ -93,5 +94,5 @@ The knowledge article is now published in your OT knowledge base.
 
 **Note:** If you set the **Publish workflow** field in your OT knowledge base to **Knowledge - Approval Publish**, the article must be approved before being published.
 
-**Parent Topic:**[Using Operational Technology Knowledge Management](../concept/using-operational-technology-knowledge-management.md)
+**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
 

@@ -2,6 +2,7 @@
 title: Specify the refresh duration for user presence in Service Operations Workspace
 description: Define the duration after which the user presence should be refreshed for all collaboration channels in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/specify-refresh-duration-user-presence.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -25,7 +26,7 @@ The **sn\_sow\_collab.user\_presence\_refresh\_duration** property specifies the
 
 For example, consider the following scenario where the user presence refresh duration is defined individually for Microsoft Teams and also for all collaboration channels in Service Operations Workspace.
 
--   The **sn\_tcm\_collab\_hook.teams.presence\_status\_cache\_invalidate\_duration** property value is set to 240 secs. For information about defining the user presence refresh duration for Microsoft Teams, see [Configure cache duration for the user presence status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/configure-cache-duration.md).
+-   The **sn\_tcm\_collab\_hook.teams.presence\_status\_cache\_invalidate\_duration** property value is set to 240 secs. For information about defining the user presence refresh duration for Microsoft Teams, see Configure cache duration for the user presence status.
 -   The **sn\_sow\_collab.user\_presence\_refresh\_duration** property value is set to 180 secs.
 
 In this case, the value specified for the **sn\_tcm\_collab\_hook.teams.presence\_status\_cache\_invalidate\_duration** property is considered to refresh the user presence in Microsoft Teams.
@@ -41,5 +42,5 @@ In this case, the value specified for the **sn\_tcm\_collab\_hook.teams.presence
 4.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](../concept/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

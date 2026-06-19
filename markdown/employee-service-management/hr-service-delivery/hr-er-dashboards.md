@@ -2,6 +2,7 @@
 title: HR Service Delivery Employee Relations dashboards
 description: The HR Service Delivery Employee Relations dashboards provides visual reports that give you statistics on ER cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-er-dashboards.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -37,7 +38,7 @@ Shows the number of ER cases by company department. Click the image and the Invo
 
 Provides a holistic view of all related tables for all the ER cases.
 
-![ER Dashboards](../image/hr-er-db.png)
+\[Omitted image "hr-er-db.png"\] Alt text: ER Dashboards
 
-![ER Dashboards](../image/hr-er-db-view.png)
+\[Omitted image "hr-er-db-view.png"\] Alt text: ER Dashboards
 

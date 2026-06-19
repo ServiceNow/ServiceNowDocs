@@ -2,6 +2,7 @@
 title: Set up the Oracle Cloud IAM spoke
 description: Integrate the ServiceNow instance and Oracle Cloud IAM by using the OCI SHA256WithRSA Signature credentials to authenticate ServiceNow requests.Use the keytool utility to generate, import, and export certificates.You must create a X.509 certificate and attach the Java Keystore file to it. This certificate is used for connecting to Oracle Cloud IAM.Create a credential record for the Oracle Cloud IAM account. The Oracle Cloud IAM spoke connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Create a connection record for your Oracle Cloud IAM account. The Oracle Cloud IAM spoke connection and credential aliases use these connections to perform actions in Oracle Cloud IAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-oracle-iam.html
 release: australia
 product: Integration Hub
 classification: integration-hub

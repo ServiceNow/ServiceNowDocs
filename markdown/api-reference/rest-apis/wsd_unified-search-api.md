@@ -2,6 +2,7 @@
 title: WSD Unified Search API
 description: The WSD Unified Search API provides an endpoint to search across workplace users and locations.Searches for users and workplace locations \(case-insensitive\) matching the provided search term. Returns a combined list of matching results with pagination support.Retrieve the current location of a specific user based on their active reservations, workplace profile, or neighborhood assignment. Returns the most relevant public location first, falling back to private locations if no public location is found.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/wsd\_unified-search-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -26,7 +27,7 @@ The WSD Unified Search API requires:
 -   The Workplace Service Delivery Core \(com.sn\_wsd\_core\) plugin be active.
 -   At least one building and floor be configured in the workplace location hierarchy.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## WSD Unified Search - POST /api/sn\_wsd\_core/wsd\_unified\_search/users\_and\_locations
 
@@ -60,6 +61,8 @@ Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only spe
 </table>|Name|Description|
 |----|-----------|
 |None| |
+
+**Note:** All searches are case-insensitive.
 
 <table class="rest_api_request_body"><thead><tr><th>
 
@@ -100,7 +103,9 @@ show\_loggedin\_user
 
 </td><td>
 
-Flag that indicates whether to display the authenticated user as the first result when no search term is provided. Only applies to desktop clients at offset 0. Possible values:
+Flag that indicates whether to display the authenticated user as the first result when no search term is provided. Only applies to desktop clients at offset 0. When a `search_term` is provided, this flag has no effect. The authenticated user is returned only if they match the search criteria.
+
+Possible values:
 
 -   `true`: Show the authenticated user as the first result.
 -   `false`: Don't show the authenticated user as the first result.
@@ -130,7 +135,9 @@ filterConfig
 
 </td><td>
 
-Table-specific encoded queries. Keys are table names. Values are encoded query strings.Valid fields \(table names\):
+Table-specific encoded queries. Keys are table names. Values are encoded query strings.**Note:** **filterConfig** filters by entity type only. It doesn't support filtering results to a specific record or location hierarchy. To narrow results by location, use **search\_term** in combination with **options.rsvModule**.
+
+Valid fields \(table names\):
 
 -   sys\_user
 -   sn\_wsd\_core\_workplace\_location
@@ -160,7 +167,7 @@ filterConfig.&lt;table\_name&gt;
 
 </td><td>
 
-Flag that indicates whether to include results from the specified table. Set to true to include results from that entity type.Valid values:
+Flag that indicates whether to include results from the specified table. Set to `true` to include results from that entity type.Valid values:
 
 -   `true`: Include results from that entity type.
 -   `false`: Don't include results from that entity type.
@@ -219,7 +226,8 @@ Object containing reservation module configuration for filtering results by rese
 
 ```
 "rsvModule": { 
-  "value": "String"
+  "value": "String",
+  "enable_restricted_neighborhood_rules": Boolean
 }
 ```
 
@@ -271,11 +279,9 @@ Data type: Number
 Default value: 10
 
 </td></tr></tbody>
-</table>**Note:** All searches are case-insensitive.
+</table>### Headers
 
-### Headers
-
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -289,7 +295,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -331,7 +337,7 @@ result.isMobile
 
 </td><td>
 
-Flag that indicates whether the request was detected as originating from a mobile client.Possible values:
+Flag that indicates whether the request was detected as originating from a mobile client. This value can be used to mirror the same client-type logic in your own UI, for example to replicate the `show_loggedin_user` behavior.Possible values:
 
 -   `true`: Request originated from a mobile client.
 -   `false`: Request originated from a desktop client.
@@ -562,7 +568,9 @@ curl "https://<instance>.service-now.com/api/sn_wsd_core/wsd_unified_search/user
   "show_location": true,
   "show_loggedin_user": true,
   "include_user_email": false,
-  "filterConfig": {},
+  "filterConfig": {
+  "sn_wsd_core_building": true
+                  },
   "options": {
        "search_in_parent": false,
        "cache": true
@@ -731,10 +739,12 @@ useNeighborhoods
 
 </td><td>
 
-Flag that indicates whether to include a neighborhood-based location from the user's workplace profile when no reservation or direct profile location is found.Valid values:
+Flag that indicates whether to include a neighborhood-based location from the user's workplace profile record when no reservation or direct profile location is found.Table: Workplace Profile \[sn\_wsd\_core\_workplace\_profile\]
 
--   true: Include neighborhood-based location as a fallback.
--   false: Don't include neighborhood-based location.
+Valid values:
+
+-   `true`: Include neighborhood-based location as a fallback.
+-   `false`: Don't include neighborhood-based location.
 
 Data type: Boolean
 
@@ -747,7 +757,7 @@ Default: false
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -780,7 +790,7 @@ Authentication credentials. Supports Basic authentication or session-based authe
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -808,8 +818,8 @@ isPrivate
 
 Flag that indicates whether the returned location is private. A location is considered private when it's marked as private in the workplace profile or when it's associated with a reservation that has a private or sensitive status.Valid values:
 
--   true: Location is private or the reservation has private/sensitive status.
--   false: Location is public.
+-   `true`: Location is private or the reservation has private/sensitive status.
+-   `false`: Location is public.
 
 Data type: Boolean
 
@@ -828,8 +838,6 @@ value
 </td><td>
 
 Sys\_id of the result location record.Data type: String.
-
-Maximum length: 32
 
 </td></tr><tr><td>
 
@@ -884,7 +892,7 @@ timezone.displayValue
 
 </td><td>
 
-Human-readable timezone name. For example, `US/Eastern`.Data type: String
+Human-readable timezone name. For example, `Eastern Standard Time`.Data type: String
 
 </td></tr><tr><td>
 
@@ -920,23 +928,8 @@ isReservable
 
 Flag that indicates whether the location can be reserved.Possible values:
 
--   true: The location is reservable.
--   false: The location isn't reservable.
-
-Data type: Boolean
-
-</td></tr><tr><td>
-
-isPrivate
-
-</td><td>
-
-Flag that indicates whether the returned location is private. A location is considered private when it is marked as private in the workplace profile or when it is associated with a reservation that has a private or sensitive status.
-
-Possible values:
-
--   true: The location is private.
--   false: The location is public.
+-   `true`: The location is reservable.
+-   `false`: The location isn't reservable.
 
 Data type: Boolean
 
@@ -965,7 +958,7 @@ Reponse body when location is found.
     "selectedTreeBranch": "building789xyz",
     "timezone": {
       "value": "America/New_York",
-      "displayValue": "US/Eastern"
+      "displayValue": "Eastern Standard Time"
     },
     "wsdSource": "manual",
     "externalId": "EXT-WS-201",

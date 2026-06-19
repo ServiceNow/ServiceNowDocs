@@ -2,6 +2,7 @@
 title: Create a tool integration from the DevOps Change Workspace
 description: Create a tool integration from the DevOps Change Workspace for integrating additional orchestration, planning, and coding tools that are not available by default in the DevOps Change Velocity application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/create-a-tool-integration-from-the-devops-change-workspace.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -17,7 +18,7 @@ Create a tool integration from the DevOps Change Workspace for integrating addit
 
 ## Before you begin
 
-Complete the tasks specified in [Getting started with DevOps Change Velocity](../concept/setting-up-devops-change-velocity.md).
+Complete the tasks specified in [Getting started with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/setting-up-devops-change-velocity.md).
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
@@ -39,7 +40,7 @@ Create a tool integration from the DevOps Change Workspace
 
     Alternatively, you can open an existing tool integration record, and then select **Edit** \(for a custom tool integration that is not supported in the base system\).
 
-    **Note:** For planning tools that are not supported in the base system, you can select **Edit** in the tool integration record to navigate to the Transformation step, where you can add any additional field. For planning tools that are supported in the base system, you can select **Edit field mappings** to add any additional field. For information on adding additional fields for supported planning tools, see [Add custom fields for a planning tool integration](add-custom-field-for-a-planning-tool-integration.md).
+    **Note:** For planning tools that are not supported in the base system, you can select **Edit** in the tool integration record to navigate to the Transformation step, where you can add any additional field. For planning tools that are supported in the base system, you can select **Edit field mappings** to add any additional field. For information on adding additional fields for supported planning tools, see [Add custom fields for a planning tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/add-custom-field-for-a-planning-tool-integration.md).
 
     The Details step is displayed.
 
@@ -50,7 +51,7 @@ Create a tool integration from the DevOps Change Workspace
     |Tool label|Name of the tool integration.|
     |Integration version|API version of the tool integration.|
 
-    ![Details step in tool integration creation](../image/custom-tool-details.png)
+    \[Omitted image "custom-tool-details.png"\] Alt text: Details step in tool integration creation
 
 5.  Add an image of the tool’s logo by selecting **+Add file**.
 
@@ -68,7 +69,7 @@ Create a tool integration from the DevOps Change Workspace
 
     A tool integration record is created.
 
-8.  In the Actions step, select the required actions for the tool capabilities selected in the previous step. ![Actions step in tool integration creation](../image/custom-tool-actions.png)
+8.  In the Actions step, select the required actions for the tool capabilities selected in the previous step. \[Omitted image "custom-tool-actions.png"\] Alt text: Actions step in tool integration creation
 
     **Note:** Tool capability actions are defined processes that enables the DevOps Data Model to communicate with and import data from the tool integration. Each tool type capability needs its own set of actions.
 
@@ -76,7 +77,7 @@ Create a tool integration from the DevOps Change Workspace
 
     Integration capability records for the selected actions are created with default values.
 
-10. In the Configurations step, add any additional configurations that are needed for your tool by selecting **Add field**. ![Configurations step in tool integration creation](../image/custom-tool-configurations.png)
+10. In the Configurations step, add any additional configurations that are needed for your tool by selecting **Add field**. \[Omitted image "custom-tool-configurations.png"\] Alt text: Configurations step in tool integration creation
 
     The fields configured here will be displayed as parameters for the playbook whenever you are onboarding a tool.
 
@@ -100,19 +101,19 @@ Create a tool integration from the DevOps Change Workspace
 
     A generic transform script is provided for each tool action. You can extend the generic script which calls the transformer-based mapping or create record transformers and manually map it to the fields. To extend, you can create a new script by extending the DevOpsGenericIntegrationHandlerSNC class to override the required method, and use this newly created script in the transform script.
 
-    -   Enter the resource path API endpoint in the **Resource path** field if you use the generic script. ![Transformation step in tool integration creation](../image/custom-tool-transformation-script.png)
-    -   If not already available, create a record transformer for the Notification, Discover, and Import actions for each of the capabilities by selecting the **Create a record transformer**, and add record transformer rules to map fields in your tool to fields in the DevOps Data Model. For information on creating a record transformer and manually mapping it to the field, see [Add custom fields for a planning tool integration](add-custom-field-for-a-planning-tool-integration.md). ![Transformation step - Record transformer section in tool integration creation](../image/custom-tool-record-transformer.png)
-14. In Next steps, you can validate your tool integration by connecting to an instance of the tool through the playbook experience, and you can also view the tool integration record. ![Next steps in tool integration creation](../image/custom-tool-next-steps.png)
+    -   Enter the resource path API endpoint in the **Resource path** field if you use the generic script. \[Omitted image "custom-tool-transformation-script.png"\] Alt text: Transformation step in tool integration creation
+    -   If not already available, create a record transformer for the Notification, Discover, and Import actions for each of the capabilities by selecting the **Create a record transformer**, and add record transformer rules to map fields in your tool to fields in the DevOps Data Model. For information on creating a record transformer and manually mapping it to the field, see [Add custom fields for a planning tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/add-custom-field-for-a-planning-tool-integration.md). \[Omitted image "custom-tool-record-transformer.png"\] Alt text: Transformation step - Record transformer section in tool integration creation
+14. In Next steps, you can validate your tool integration by connecting to an instance of the tool through the playbook experience, and you can also view the tool integration record. \[Omitted image "custom-tool-next-steps.png"\] Alt text: Next steps in tool integration creation
 
     **Note:** On selecting the **Connect to a tool** button, you will see the newly created tool integration in the list of tools available to connect.
 
 
 ## What to do next
 
-[Creation of webhooks to send inbound events to DevOps Change Velocity using token](create-webhooks-to-send-inbound-events-to-devops-change-velocity-using-token.md)
+[Creation of webhooks to send inbound events to DevOps Change Velocity using token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-webhooks-to-send-inbound-events-to-devops-change-velocity-using-token.md)
 
--   **[Creation of webhooks to send inbound events to DevOps Change Velocity using token](create-webhooks-to-send-inbound-events-to-devops-change-velocity-using-token.md)**  
+-   **[Creation of webhooks to send inbound events to DevOps Change Velocity using token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-webhooks-to-send-inbound-events-to-devops-change-velocity-using-token.md)**  
 You must create webhooks to send inbound events to DevOps Change Velocity using token based authentication.
 
-**Parent Topic:**[User-created integrations in DevOps Change Velocity](../concept/dev-ops-tool-integration.md)
+**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

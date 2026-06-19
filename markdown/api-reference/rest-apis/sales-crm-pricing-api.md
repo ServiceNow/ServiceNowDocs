@@ -2,6 +2,7 @@
 title: Sales CRM Pricing API
 description: The Sales CRM Pricing API provides methods to calculate prices for transaction lines containing products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/sales-crm-pricing-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -50,7 +51,7 @@ With external ID resolution, you can use your own identifiers or codes for selec
 
 Context variable configuration and mapping
 
-As an admin, before submitting a REST API pricing request, create the context variables that define the reference fields for external IDs or codes that are participating in external ID resolution. You also add the external IDs or codes to the reference tables called by pricing requests. For details on defining context variables, see [External ID support in Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-ids-pricingapi.md).
+As an admin, before submitting a REST API pricing request, create the context variables that define the reference fields for external IDs or codes that are participating in external ID resolution. You also add the external IDs or codes to the reference tables called by pricing requests. For details on defining context variables, see .
 
 How external IDs work in pricing requests
 
@@ -64,10 +65,10 @@ The caller sends a Pricing REST API request that can include:
 
 Requests must include \(`"use_external_code": true`\) in the settings object to enable external code resolution.
 
--   **[Sales CRM Pricing - DELETE - /api/sn\_csm\_pricing/v1/pricingengine/pricing\_context/\{pricing\_context\_id\}](../reference/sales_crm_pricing-DELETE-pricing-context-id.md)**  
+-   **[Sales CRM Pricing - DELETE - /api/sn\_csm\_pricing/v1/pricingengine/pricing\_context/\{pricing\_context\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales_crm_pricing-DELETE-pricing-context-id.md)**  
 Terminate a session with a given ID that was established during a configurator session.
--   **[Sales CRM Pricing - POST /api/sn\_csm\_pricing/\{api\_version\}/pricingengine/computePrice](../reference/sales_crm_pricing-POST-compute-price.md)**  
+-   **[Sales CRM Pricing - POST /api/sn\_csm\_pricing/\{api\_version\}/pricingengine/computePrice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/sales_crm_pricing-POST-compute-price.md)**  
 Enables callers to compute the price of products specified in the request payload. The pricing settings included in the payload determine and control the execution flow of the Pricing Engine, such as whether to apply validations, adjustments, or rollups.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 

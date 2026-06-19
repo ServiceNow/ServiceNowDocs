@@ -2,6 +2,7 @@
 title: Populating ADAM Objects
 description: ADAM Objects include User Objects, UserProxy Object, and Group Objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/r\_PopulatingADAMObjects.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

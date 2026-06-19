@@ -2,6 +2,7 @@
 title: Set up Threat Intelligence Security Center
 description: Before you use the Threat Intelligence Security Center, you must download it from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/set-up-threat-intelligence-security-center.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -39,21 +40,21 @@ Assign and verify the required ServiceNow AI Platform and Threat Intelligence Se
 The following roles are required for configuration and verification of the expected results:-   As an admin, you must install the TISC application from the ServiceNow Store and assign the role as sn\_sec\_tisc.admin.
 -   This sn\_sec\_tisc.admin role performs the following tasks:
 
-    -   Configures the Data Sources to ingest the data. For more information, see [Threat Intelligence Feeds](../concept/threat-intelligence-feeds.md).
-    -   Configured the integrations required to enrich observables in TISC. For more information, see [TISC Enrichment integrations](../concept/tisc-enrichment-integrations.md).
-    -   Configures data import approvals to import the intelligence data using Import Intelligence. For more information, see [Working with Data Imports](../concept/working-with-data-imports.md).
-    -   Configures Threat Score Calculator using required criteria for automatic calculation of Threat Score of observables. For more information, see [Define Threat Score Calculator](../task/threat-score-calculator.md).
-    -   Configures required Taxonomies and Taxonomy Values. For more information, see [Creating Taxonomies](../concept/create-taxonomies.md).
-    -   Configure the MITRE-ATT&amp;CK repository relevant to your organization. For more information, see [MITRE-ATT&amp;CK Repository](../concept/tisc-mitre-att-ck-framework-overview.md).
+    -   Configures the Data Sources to ingest the data. For more information, see [Threat Intelligence Feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-feeds.md).
+    -   Configured the integrations required to enrich observables in TISC. For more information, see [TISC Enrichment integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-enrichment-integrations.md).
+    -   Configures data import approvals to import the intelligence data using Import Intelligence. For more information, see [Working with Data Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/working-with-data-imports.md).
+    -   Configures Threat Score Calculator using required criteria for automatic calculation of Threat Score of observables. For more information, see [Define Threat Score Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-score-calculator.md).
+    -   Configures required Taxonomies and Taxonomy Values. For more information, see [Creating Taxonomies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-taxonomies.md).
+    -   Configure the MITRE-ATT&amp;CK repository relevant to your organization. For more information, see [MITRE-ATT&amp;CK Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md).
 **Note:** As a sn\_sec\_tisc.admin, you can also assign the sn\_sec\_tisc.analyst role.
 
 -   The sn\_sec\_tisc.analyst role performs the following tasks:
-    -   Views the overview of intelligence data in the TISC Home page. For more information, see [TISC Workspace](../task/view-threat-intelligence-security-center-homepage.md).
-    -   Import data into TISC using **Import Intelligence** button in **Threat Library** page. For more information, see [Threat Intelligence Security Center Library](../concept/threat-intelligence-security-center-library.md).
+    -   Views the overview of intelligence data in the TISC Home page. For more information, see [TISC Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-threat-intelligence-security-center-homepage.md).
+    -   Import data into TISC using **Import Intelligence** button in **Threat Library** page. For more information, see [Threat Intelligence Security Center Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/threat-intelligence-security-center-library.md).
     -   -   Search across the data present in the application using search provided in **Threat Library** page.
 -   Manages the data ingested from various sources in **Threat Library**.
 -   Performs various enrichment actions on Observables.
--   Creates and manages Cases. For more information, see [Creating cases using Threat Analyst Workbench](../concept/create-cases-using-threat-analyst-workbench.md).
+-   Creates and manages Cases. For more information, see [Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md).
 
 </td></tr></tbody>
 </table>## Plugins
@@ -81,5 +82,5 @@ Verify that the ServiceNow core applications that are required to support the in
 </td></tr></tbody>
 </table>## What to do next
 
-[Set Threat Intelligence Security Center properties](tisc-set-properties.md).
+[Set Threat Intelligence Security Center properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-set-properties.md).
 

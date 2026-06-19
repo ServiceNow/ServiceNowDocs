@@ -2,6 +2,7 @@
 title: Configure scoring for an assessment
 description: Set up scoring for your assessment responses to calculate meaningful scores at the assessment, section, or subsection level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/configure-scoring-for-assessments.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -39,12 +40,12 @@ Configure scoring for assessment
 4.  Under **Scoring settings**, select the **Enable scoring for this template** option.
 
     -   The **Enable scoring for this template** option enables you to apply scoring at the assessment, section, subsection, and question levels.
-    -   Once scoring is enabled, you can enable normalization and configure its default settings. For more information, refer to [Configure normalization in assessment](configure-normalization-in-assessment.md)
+    -   Once scoring is enabled, you can enable normalization and configure its default settings. For more information, refer to [Configure normalization in assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/configure-normalization-in-assessment.md)
 5.  To activate scoring at assessment level, select the **Assessment score** option.
 
     1.  On the **Assessment scoring** form, fill in the fields.
 
-        For a description of the field values, see [Assessment scoring form](../reference/scoring-forms.md#section_xfs_1bk_k3c).
+        For a description of the field values, see [Assessment scoring form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-forms.md).
 
     2.  Select **Save**.
 
@@ -54,7 +55,7 @@ Configure scoring for assessment
 
     2.  On the **Question scoring** form, fill in the fields.
 
-        For a description of the field values, see [Question scoring form](../reference/scoring-forms.md#section_tpx_3bk_k3c).
+        For a description of the field values, see [Question scoring form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-forms.md).
 
         **Note:** Scoring logic varies by question type.
 
@@ -67,7 +68,7 @@ Configure scoring for assessment
 
     1.  On the **Subsection scoring** form, fill in the fields.
 
-        For a description of the field values, see [Assessment scoring form](../reference/scoring-forms.md#section_xfs_1bk_k3c)
+        For a description of the field values, see [Assessment scoring form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-forms.md)
 
         **Note:** The subsection scores are calculated by grouping question scores based on the defined criteria.
 
@@ -75,11 +76,11 @@ Configure scoring for assessment
 
 8.  To configure scoring at the **Section** level, turn on the toggle switch on the section for which you want to configure scoring.
 
-    ![Displays the configuration details for scoring a section](../image/scoring-section.png)
+    \[Omitted image "scoring-section.png"\] Alt text: Displays the configuration details for scoring a section
 
     1.  On the **Section scoring** form, fill in the fields.
 
-        For a description of the field values, see [Section scoring form](../reference/scoring-forms.md#section_xbl_4bk_k3c)
+        For a description of the field values, see [Section scoring form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-forms.md)
 
     2.  Select **Save**.
 
@@ -90,5 +91,5 @@ The scoring is now configured at all required levels.
 
 ## What to do next
 
-After scoring is configured and assessments are completed, you can view the calculated scores. For information about the tables that store question, subsection, section and assessment level scores, see [Scoring results](../concept/scoring-results.md).
+After scoring is configured and assessments are completed, you can view the calculated scores. For information about the tables that store question, subsection, section and assessment level scores, see [Scoring results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/scoring-results.md).
 

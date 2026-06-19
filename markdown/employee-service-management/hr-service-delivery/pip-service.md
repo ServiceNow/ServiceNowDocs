@@ -2,6 +2,7 @@
 title: Performance Improvement Plan \(PIP\) service
 description: Manage employee performance issues within Employee Relations using the Performance Improvement Plan \(PIP\) service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/pip-service.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -26,11 +27,11 @@ With this feature, a manager can:
 
 Use case explaining how a manager, an employee, and an ER agent can work together on Performance Improvement Plan.
 
--   A manager [initiates a PIP request](../task/raise-pip.md) for an employee to have structured conversations with the employee on performance improvement, and have an agreed course of action with the ER department.
--   A PIP case is automatically created and assigned to an ER agent. A [Performance Improvement plan \(PIP\) life cycle event](../task/pip-act-admin.md) is triggered and tasks are automatically created for the manager, employee, and ER agent in the order specified \(sequential or parallel\).
+-   A manager [initiates a PIP request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/raise-pip.md) for an employee to have structured conversations with the employee on performance improvement, and have an agreed course of action with the ER department.
+-   A PIP case is automatically created and assigned to an ER agent. A [Performance Improvement plan \(PIP\) life cycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/pip-act-admin.md) is triggered and tasks are automatically created for the manager, employee, and ER agent in the order specified \(sequential or parallel\).
 -   The employee and the manager receive tasks for signing the PIP acknowledgment forms.
 -   The manager schedules a coaching conversation with the employee and develops a plan for the employee, which is reviewed by the ER agent.
     -   Aligns PIP goals with the employee and tracks the progress of the employee on a regular basis.
     -   Conducts periodic reviews with the ER agent to evaluate employee progress.
-    -   Submits the PIP assessment indicating whether the PIP is successful or unsuccessful. See [Complete PIP assessment](../task/submit-pip-assessment.md).
+    -   Submits the PIP assessment indicating whether the PIP is successful or unsuccessful. See [Complete PIP assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/submit-pip-assessment.md).
 

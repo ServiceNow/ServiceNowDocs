@@ -2,6 +2,7 @@
 title: Attach files to a legal matter through Mobile Agent
 description: Upload supporting documentation, such as documents, copies of email messages, images, or any other files into the artifact while you are working on a legal matter or matter task. You can also use these artifacts as a reference material to solve similar requests in future.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/add-files-to-artifact-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile
@@ -37,8 +38,8 @@ Role required: sn\_lg\_matter.matter\_fulfiller
     -   Attach File
     The file is attached and listed.
 
-6.  You can rename the file by tapping the edit icon \(![Edit icon.](../image/edit-icon.png)\) and entering a new name.
+6.  You can rename the file by tapping the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon.\) and entering a new name.
 
-    **Note:** If a file is no longer required for the legal matter, you can remove the file by tapping the delete icon \(![Delete icon.](../../legal-digital-forensics/image/delete-icon.png)\).
+    **Note:** If a file is no longer required for the legal matter, you can remove the file by tapping the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 

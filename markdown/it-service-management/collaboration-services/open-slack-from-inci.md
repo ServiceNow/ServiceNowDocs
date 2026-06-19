@@ -2,6 +2,7 @@
 title: Open slack from an incident
 description: Open slack from an incident and send message to a user or an assignment group to exchange incident information. You do not need to manually search for a user in slack to send a message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/collaboration-services/open-slack-from-inci.html
 release: australia
 product: Collaboration Services
 classification: collaboration-services

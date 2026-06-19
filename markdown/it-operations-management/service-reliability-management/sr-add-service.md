@@ -2,6 +2,7 @@
 title: Add a service to SRM
 description: Add services to Service Reliability Management \(SRM\) to help your teams manage service health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-add-service.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -40,30 +41,30 @@ When you add a technology management service to SRM, you also add its offerings.
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  Select the Services icon ![Services page icon](../image/icon-sr-services.png) and then select **Add**.
+2.  Select the Services icon \[Omitted image "icon-sr-services.png"\] Alt text: Services page icon and then select **Add**.
 
 3.  In the Add services for your teams modal, you can either create a service or add existing services.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d406754e166">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d96631e166">
 
 Option
 
-</th><th align="left" id="d406754e169">
+</th><th align="left" id="d96631e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d406754e175">
+</th></tr></thead><tbody><tr><td id="d96631e175">
 
 **Create a new service**
 
 </td><td>
 
 1.  Select **Create a new service**.
-2.  Fill in the fields. For field descriptions, see [Add service form](../reference/sr-add-service-form.md).
+2.  Fill in the fields. For field descriptions, see [Add service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-service-form.md).
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d406754e213">
+</td></tr><tr><td id="d96631e213">
 
 **Select existing services**
 
@@ -82,7 +83,7 @@ Steps
     |Option|Steps|
     |------|-----|
     |**Select an existing team**|Enter your team's name in the search box.|
-    |**Create a team**|Select **Create a team**. For more information about creating teams, see [Add an SRM team](sr-create-team.md).|
+    |**Create a team**|Select **Create a team**. For more information about creating teams, see [Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md).|
 
 5.  Select **Add service**.
 
@@ -93,9 +94,9 @@ Steps
 
 ## What to do next
 
-Ifan offering doesn't have a support group, assign it to a support group before setting up SLOs. For how to assign support groups, see [Edit service details in SRM](sr-edit-service.md).
+Ifan offering doesn't have a support group, assign it to a support group before setting up SLOs. For how to assign support groups, see [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-edit-service.md).
 
 You can also add integrations to your service to start monitoring its health.
 
-**Parent Topic:**[Working with SRM services](../concept/sr-work-services.md)
+**Parent Topic:**[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-services.md)
 

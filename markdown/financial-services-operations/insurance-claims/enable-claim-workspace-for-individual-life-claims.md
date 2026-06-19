@@ -2,13 +2,14 @@
 title: Enable the claim workspace for Individual Life Claims
 description: Enable the claim workspace page on the claim case so that a claims manager or adjuster can view the page in Individual Life Claims.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/enable-claim-workspace-for-individual-life-claims.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Individual Life Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Enable the claim workspace for Individual Life Claims
@@ -27,21 +28,21 @@ Role required: admin
 
 3.  In CSM/CSM/FSM Configurable Workspace, enable the CSM default record page.
 
-    For more information, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md).
+    For more information, see .
 
 4.  From the CSM default record page, set the page order.
 
 5.  Set the variant conditions and audience on the following record pages.
 
-<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d42123e132">
+<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d42858e131">
 
 Claims page variant
 
-</th><th align="left" id="d42123e135">
+</th><th align="left" id="d42858e134">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d42123e141">
+</th></tr></thead><tbody><tr><td id="d42858e140">
 
 **Claim workspace page**
 
@@ -53,5 +54,5 @@ Navigation to page records
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up Individual Life Claims](../concept/setting-up-individual-life-claims.md)
+**Parent Topic:**[Setting up Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/setting-up-individual-life-claims.md)
 

@@ -2,6 +2,7 @@
 title: TopicSubscriptionUtilOOB - Scoped
 description: The TopicSubscriptionUtilOOB script include provides methods to query and manipulate records in the Topic subscription \[sn\_api\_notif\_mgmt\_topic\_subscription\] table. This class operates at the service layer and interacts with the Data Access Object \(DAO\) class.Triggers a spoke subflow to register the passed topic subscription on an external system.Returns the subflow to use for the spoke selector subflow trigger to register topic subscriptions.Returns the name of the topic associated with the passed sys\_id of a record in the Topic Subscription \[sn\_api\_notif\_mgmt\_topic\_subscription\] table.Returns the sys\_ids of any unregistered topics. Unregistered topics are those topics that are in the Topic \[sn\_api\_notif\_mgmt\_topic\] table, but not in the Topic Subscription \[sn\_api\_notif\_mgmt\_topic\_subscription\] table.Updates the topic subscription record in the Topic subscription \[sn\_api\_notif\_mgmt\_topic\_subscription\] table with the values from the mock registration response of an outbound topic registration endpoint call.Stores the current topic subscription record in the Topic subscription \[sn\_api\_notif\_mgmt\_topic\_subscription\] table using DAO insert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/TopicSubscriptionUtilAPIScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,9 +20,9 @@ These functions are called when the **Register** button is selected on the Topic
 
 Both script includes run in the `sn_api_notif_mgmt` namespace.
 
-For additional information on topic subscriptions, see [External event management via Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md).
+For additional information on topic subscriptions, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## TopicSubscriptionUtilOOB - executeRegistrationSubflow\(String topicSubID\)
 
@@ -33,7 +34,7 @@ This function is called when a user selects the **Register** button in the Topic
 
 You need to override this function in the `TopicSubscriptionUtil` script include to define your own custom subflow to register topic subscriptions.
 
-Within this registration subflow you must create a REST step, connection alias, or other implementation to call a registration endpoint on the external system to register a topic. This endpoint should pass the topic name and callback URL to register. In return, the external system endpoint should return the subscription ID, whether the registration was successful, and the registration information to store in the Topic subscription table. This information typically includes the registration status, registration message, and subscription ID fields. Your registration subflow should then call the [updateRegistrationResponse\(\)](TopicSubscriptionUtilAPIScoped.md#) method to store the response payload in the Topic subscription table.
+Within this registration subflow you must create a REST step, connection alias, or other implementation to call a registration endpoint on the external system to register a topic. This endpoint should pass the topic name and callback URL to register. In return, the external system endpoint should return the subscription ID, whether the registration was successful, and the registration information to store in the Topic subscription table. This information typically includes the registration status, registration message, and subscription ID fields. Your registration subflow should then call the [updateRegistrationResponse\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TopicSubscriptionUtilAPIScoped.md) method to store the response payload in the Topic subscription table.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -77,7 +78,7 @@ TopicSubscriptionUtil.prototype =
 
 Returns the subflow to use for the spoke selector subflow trigger to register topic subscriptions.
 
-Typically this function is called from the [executeRegistrationSubflow\(\)](TopicSubscriptionUtilAPIScoped.md#) function. This subflow is responsible for contacting an external system and registering a topic subscription. The name of the subflow to use is defined in `Constants.INITIATE_REGISTRATION_PROCESS`.
+Typically this function is called from the [executeRegistrationSubflow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TopicSubscriptionUtilAPIScoped.md) function. This subflow is responsible for contacting an external system and registering a topic subscription. The name of the subflow to use is defined in `Constants.INITIATE_REGISTRATION_PROCESS`.
 
 You can change this functionality to include the name of your own subflow by overriding the name of the subflow to execute in the `sn_api_notif_mgmt.Constants` script include.
 
@@ -212,7 +213,7 @@ TopicSubscriptionUtil.prototype =
 
 Updates the topic subscription record in the Topic subscription \[sn\_api\_notif\_mgmt\_topic\_subscription\] table with the values from the mock registration response of an outbound topic registration endpoint call.
 
-You can override this function in the `TopicSubscriptionUtil` script include to modify the information that is stored in the associated topic subscription record. For more information on executing the subflow that returns the registration details, see [executeRegistrationSubflow\(\)](TopicSubscriptionUtilAPIScoped.md#).
+You can override this function in the `TopicSubscriptionUtil` script include to modify the information that is stored in the associated topic subscription record. For more information on executing the subflow that returns the registration details, see [executeRegistrationSubflow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TopicSubscriptionUtilAPIScoped.md).
 
 <table id="table_ixn_s3l_bzb" class="parameters"><thead><tr><th>
 
@@ -291,7 +292,7 @@ TopicSubscriptionUtil.prototype =
 
 Stores the current topic subscription record in the Topic subscription \[sn\_api\_notif\_mgmt\_topic\_subscription\] table using DAO insert.
 
-Typically you will call this function within the [updateRegistrationResponse\(\)](TopicSubscriptionUtilAPIScoped.md#) function.
+Typically you will call this function within the [updateRegistrationResponse\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TopicSubscriptionUtilAPIScoped.md) function.
 
 <table id="table_yyh_bmk_bzb" class="parameters"><thead><tr><th>
 
@@ -325,7 +326,7 @@ Fields to update in the associated topic subscription record. This is the payloa
 }
 ```
 
-For more information, see [executeRegistrationSubflow\(\)](TopicSubscriptionUtilAPIScoped.md#).
+For more information, see [executeRegistrationSubflow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TopicSubscriptionUtilAPIScoped.md).
 
 </td></tr></tbody>
 </table>|Type|Description|

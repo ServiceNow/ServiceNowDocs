@@ -2,6 +2,7 @@
 title: Send application service maps for review
 description: After you map an application service, send it to the application service owner for review to make sure that the map is accurate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/send-business-service-for-review.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -17,7 +18,7 @@ After you map an application service, send it to the application service owner f
 
 ## Before you begin
 
-Perform initial error fixing as described in [Fix application service errors in bulk](fix-bus-serv-errors-by-category.md) and [Fix errors in individual application service maps](fix-or-ignore-errors-business-service-map.md).
+Perform initial error fixing as described in [Fix application service errors in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-bus-serv-errors-by-category.md) and [Fix errors in individual application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/fix-or-ignore-errors-business-service-map.md).
 
 Role required: service\_mapping\_admin
 
@@ -25,7 +26,7 @@ Role required: service\_mapping\_admin
 
 While you can fix errors in bulk, you always send application services for review individually, one by one.
 
-Sending application service maps for review is part of the [review and approval process](business-service-approval.md). Typically, you send each application service map for review twice: The first time for the initial owner review and the second time after you implemented owner feedback.
+Sending application service maps for review is part of the [review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/business-service-approval.md). Typically, you send each application service map for review twice: The first time for the initial owner review and the second time after you implemented owner feedback.
 
 After the initial mapping of application services, you fix errors and send individual application services for review. The system creates a service process task assigned to the service instance owner and sends an email notification about it.
 
@@ -64,7 +65,7 @@ To see documentation for another review phase, click the relevant box in the dia
 
 ## What to do next
 
-When you receive an email notification that the owner sent comments for this service instance, [review and implement the owner's requests](review-implement-business-service-maps.md).
+When you receive an email notification that the owner sent comments for this service instance, [review and implement the owner's requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/review-implement-business-service-maps.md).
 
-**Parent Topic:**[Review and approval of application service maps](business-service-approval.md)
+**Parent Topic:**[Review and approval of application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/business-service-approval.md)
 

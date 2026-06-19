@@ -2,6 +2,7 @@
 title: Assessment metric type form
 description: Use the Assessment Metric Type form to create an assessment questionnaire template instead of using the default template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/prm-assessment-metric-form.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -29,5 +30,5 @@ For a description of the fields, see the following table:
 |Description|Purpose of the assessment template and the reason for its creation.|
 |Introduction|Guidance text for business users who respond to the assessment.|
 
-**Parent Topic:**[Create a privacy case assessment template](../task/prm-create-assessment-template.md)
+**Parent Topic:**[Create a privacy case assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-create-assessment-template.md)
 

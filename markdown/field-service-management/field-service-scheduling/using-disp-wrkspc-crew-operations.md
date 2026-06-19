@@ -2,6 +2,7 @@
 title: Using Dispatcher Workspace for crew operations
 description: Use the Dispatcher Workspace to create, modify, and enable crews and assign work order tasks to the crews.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

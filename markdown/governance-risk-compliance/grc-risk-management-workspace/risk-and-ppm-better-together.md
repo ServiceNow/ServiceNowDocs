@@ -2,6 +2,7 @@
 title: Project Risk Assessment using Advanced Risk Assessment
 description: Manage your project risks by using the Project Risk Assessment capability. Risk administrators, projects managers, and risk owners can manage the complete project risk life cycle by using the Project Risk Assessment capability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/risk-and-ppm-better-together.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -45,21 +46,21 @@ Enterprise Risk Managers also benefit from the integration. They can do the foll
 
 To understand the use case for this integration, consider the following scenario. An organization can have multiple projects. Some projects are complex and some are less complex. Risk management of complex projects may be aligned to ISO 31000 risk assessment standards. Complex projects require various activities such as risk identification, assessment, response, and monitoring. Less complex or simpler projects might require only simple assessments. The integration between Project Portfolio Management and Advanced Risk Assessment supports the risk assessment of project risks.
 
--   **[Workflow of project risk assessment](workflow-of-ppm-risk.md)**  
+-   **[Workflow of project risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/workflow-of-ppm-risk.md)**  
 To understand the integration of Project Portfolio Management and Governance, Risk, and Compliance risk management capabilities, it is important to understand the workflow of project risk assessment.
--   **[Configure Project Portfolio Management and Advanced Risk integration](../task/specify-approvers-for-proj-risks.md)**  
+-   **[Configure Project Portfolio Management and Advanced Risk integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/specify-approvers-for-proj-risks.md)**  
 Use the Project Integration Configuration form to set up the risk assessment. You have to select the risk assessment methodology, the right assessors and approvers, and the formula to roll up the risk scores and show the scores at a project level.
--   **[Assign project risks to stakeholders for assessment](../task/assess-project-risk-using-ara.md)**  
+-   **[Assign project risks to stakeholders for assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/assess-project-risk-using-ara.md)**  
 Assign the project risks to the relevant stakeholder for assessment. You must manually assign the risks to the stakeholders.
--   **[Assess project risks using Advanced Risk Assessment](../task/assessing-proj-risk-by-projmanager.md)**  
+-   **[Assess project risks using Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/assessing-proj-risk-by-projmanager.md)**  
 Assess the project risks by responding to predefined factors or questions. Arrive at a risk score for the project.
--   **[Elevate a project risk to enterprise risk](../task/Elevating-a-risk.md)**  
+-   **[Elevate a project risk to enterprise risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/Elevating-a-risk.md)**  
 Elevate a project risk to an enterprise risk if the project risk has an impact on the enterprise.
 
-**Parent Topic:**[Governance, Risk, and Compliance](../../grc-common/reference/r_WhatIsGRC.md)
+**Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md)
 
 **Related topics**  
 
 
-[About Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
+[bundle-itbm.c_ProjectPortfolioSuite]
 

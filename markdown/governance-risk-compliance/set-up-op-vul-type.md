@@ -2,6 +2,7 @@
 title: Set up the Operational vulnerability type
 description: Set up the Operational vulnerability type. By defining the type and nature of the Operational vulnerability, Operational Resilience administrators can efficiently assign the operational vulnerabilities to the appropriate teams and address any issues in a timely manner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-op-vul-type.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -29,9 +30,9 @@ Administrators of Operational Resilience can create only one Vulnerability Type 
 
     The Vulnerability Type record form is shown in the example.
 
-    ![Vulnerability Type record.](../image/vul-type.png)![Assessment.](../image/vul-type-asmt-config.png)![Template.](../image/vul-type-temp-config.png)
+    \[Omitted image "vul-type.png"\] Alt text: Vulnerability Type record.\[Omitted image "vul-type-asmt-config.png"\] Alt text: Assessment.\[Omitted image "vul-type-temp-config.png"\] Alt text: Template.
 
-    For more information on the fields, see [Vulnerability Type form](../reference/vul-type-form.md).
+    For more information on the fields, see [Vulnerability Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/vul-type-form.md).
 
 3.  Select the Smart Assessment template for the vulnerability type.
 

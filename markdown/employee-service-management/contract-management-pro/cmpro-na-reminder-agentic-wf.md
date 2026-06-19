@@ -2,11 +2,12 @@
 title: Manage contract repository agentic workflow
 description: Use the manage contract repository agentic workflow to improve productivity by extracting metadata and obligations automatically from signed contracts and setting the contract reminder dates for contract renewal or termination.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-na-reminder-agentic-wf.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Use agentic workflows, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -21,17 +22,17 @@ Use the manage contract repository agentic workflow to improve productivity by e
 
 -   To use the agentic workflow for your workspace, your role must be configured to use the agentic workflow, and the data access permissions must be set for the AI agents and the agentic workflow.
 
-    For more information, see [Configuring user access and data permissions for agentic workflows](cmpro-conf-users-agentic-wf.md) and [Configuring user access and data permissions for AI agents](cmpro-conf-users-ai-agents.md).
+    For more information, see [Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md) and [Configuring user access and data permissions for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-users-ai-agents.md).
 
 -   The data access permissions must be set for the Now Assist skills, contract metadata extraction, and contract obligation extraction.
 
-    For more information, see [Configure data permissions for Now Assist skills](../task/cmpro-conf-roles-skills.md).
+    For more information, see [Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
 
--   To run the AI agents autonomously, ensure that the business rules for the agentic workflow are activated. For more information, see [Activate business rules for the Manage contract repository agentic workflow](../task/conf-repository-agentic-ai.md).
+-   To run the AI agents autonomously, ensure that the business rules for the agentic workflow are activated. For more information, see [Activate business rules for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/conf-repository-agentic-ai.md).
 
-    If you have customized the manage contract repository agentic workflow, make sure to update the script include to run it autonomously. For more information, see [Update the contracts AI agents handler script include](../task/cmpro-script-includ-agenticAI.md).
+    If you have customized the manage contract repository agentic workflow, make sure to update the script include to run it autonomously. For more information, see [Update the contracts AI agents handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.md).
 
--   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see .
 
 The manage contract repository agentic workflow uses an AI agent to do the following sequentially.
 
@@ -47,7 +48,7 @@ The following workflow explains the metadata extraction and contract reminder se
 
 1.  As a Contract Admin with the AI role, activate the contract metadata extraction skill in the Now Assist Admin console.
 
-    For more information, see [Configure Now Assist in Contract Management](../task/confg-na-in-cmpro.md).
+    For more information, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 2.  As a Contract Admin, activate the business rules.
 3.  The metadata extraction process is automatically initiated when a contract record is created.
@@ -58,11 +59,11 @@ The following workflow explains the metadata extraction and contract reminder se
     -   Presence of auto-renewal clause
     -   Notice period for contract renewal or termination
 
-        **Note:** If the renewal notice period and termination notice period aren’t available, it uses the configured default notice period. For more information, see [Set the default notice period for the Manage contract repository agentic workflow](../task/conf-sys-prop-default-np.md).
+        **Note:** If the renewal notice period and termination notice period aren’t available, it uses the configured default notice period. For more information, see [Set the default notice period for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/conf-sys-prop-default-np.md).
 
 7.  The Contract Manager sets the contract reminders in the playbook by reviewing the calculated date and configuring the recipient list for the reminders.
 
-For more information, see [Review AI-extracted metadata and contract reminder date](../task/cmpro-na-review-ai-metadata.md).
+For more information, see [Review AI-extracted metadata and contract reminder date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-review-ai-metadata.md).
 
 ## Obligation extraction
 
@@ -72,7 +73,7 @@ The following workflow explains the obligation extraction process.
 
 1.  As a Contract Admin with the AI role, activate the contract obligation extraction skill in the Now Assist Admin console.
 
-    For more information, see [Configure Now Assist in Contract Management](../task/confg-na-in-cmpro.md).
+    For more information, see [Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
 
 2.  As a Contract Admin, activate the business rules.
 3.  The obligation extraction process is automatically initiated when a contract record is created.
@@ -91,7 +92,7 @@ The following workflow explains the obligation extraction process.
     -   If the obligation task is rejected, the state of the task changes to Open, and the assigned user continues to work on it.
     -   If the obligation task is approved, the state of the task changes to Completed.
 
-For more information, see [Review AI-extracted obligations](../task/cmpro-na-review-obligations.md).
+For more information, see [Review AI-extracted obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-na-review-obligations.md).
 
 ## Conditions for the agentic workflow to trigger
 
@@ -111,7 +112,7 @@ Contract fulfillers and assignment group managers with the now\_assist\_panel\_u
 
 Role required: sn\_aia.admin
 
-If your generative AI service provider isn’t Now LLM Service, ensure that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md).
+If your generative AI service provider isn’t Now LLM Service, ensure that the API connections and credentials are configured. For more information, see .
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Manage contract repository**.

@@ -2,6 +2,7 @@
 title: Copy patterns from one instance to another
 description: To copy patterns from one instance to another, create an update set containing new or modified patterns with their related items in your development instance. Then, import the update set into your production instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/export-patterns.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -93,11 +94,11 @@ The update set is an XML file with the following name convention: sys\_remote\_u
 
         The customization is now available as a retrieved update set with state Loaded.
 
-3.  [Preview the imported update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md).
+3.  Preview the imported update set.
 
     The system scans and validates the update set and displays its contents on the **Customer Updates** tab.
 
-4.  [Commit the update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/t_CommitAnUpdateSet.md).
+4.  Commit the update set.
 
 5.  Click **Close** in the success message.
 
@@ -114,14 +115,14 @@ The update set is an XML file with the following name convention: sys\_remote\_u
 7.  If the discovery fails or the result is not as expected, restart the MID Server to make sure that the MID Server runs the latest set of patterns.
 
 
-**Parent Topic:**[Discovery patterns used by ITOM Visibility](../concept/c_MappingPatternsCustomization.md)
+**Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Finalize a pattern](t_FinalizePatternPatDef.md)
+**Previous topic:**[Finalize a pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_FinalizePatternPatDef.md)
 
-**Next topic:**[Choose the pattern version](t_ChoosePatternVersionPatDef.md)
+**Next topic:**[Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)
 
 **Related topics**  
 
 
-[System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/system-update-sets.md)
+[bundle-cadev.system-update-sets]
 

@@ -2,6 +2,7 @@
 title: Add or modify benefit types
 description: Benefit types are benefits offered by your company and the associated table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateOrModifyBenefitType.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -103,5 +104,5 @@ Check to indicate that this benefit type requires beneficiaries to be entered wh
 9.  Click **Update**.
 
 
-**Parent Topic:**[Managed lists](../concept/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

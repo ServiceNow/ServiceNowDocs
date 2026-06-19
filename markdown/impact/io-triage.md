@@ -2,7 +2,10 @@
 title: Triaged instance data
 description: You can triage your instance to get instant information on transactions, jobs, nodes utilization, semaphores, schedulers and update sets. Minimal use of this feature is recommended as use of this consumes resources on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/io-triage.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -39,5 +42,5 @@ The semaphore sets widget lists the utilization of various semaphores available 
 
 The update sets widget lists all the updates that are applied in the past 24 hours and their completion state. Use this widget to gain insight of any updates that may be responsible to new features or performance changes within your instance.
 
-**Parent Topic:**[Triage a ServiceNow instance](../task/io-triage-sn-instance.md)
+**Parent Topic:**[Triage a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-triage-sn-instance.md)
 

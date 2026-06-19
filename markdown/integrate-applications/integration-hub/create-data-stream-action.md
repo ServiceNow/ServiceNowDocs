@@ -2,6 +2,7 @@
 title: Create a Data Stream action
 description: Create a reusable action to process a stream of response data within a flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-data-stream-action.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -23,7 +24,7 @@ Create a reusable action to process a stream of response data within a flow.
 
 ## About this task
 
-Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to deploy it using the application repository or the ServiceNow Store.
 
 **Note:** Clearing an option in a configuration page removes the step from the Data Stream outline and deletes all data associated with the step.
 
@@ -40,7 +41,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
     |Action name|Enter a unique name for your data stream action.|
     |Description|Description of the data stream action.|
     |Application|Application scope of the data stream action.|
-    |Domain|Domain scope of the data stream action. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).|
+    |Domain|Domain scope of the data stream action. For more information about domain separation, see .|
     |**Additional properties**|
     |Accessible From|Accessible from all application scoped or only within the specified application scope.|
     |Category|Defined category within the application scope for an action. Beginning with the Xanadu release, you can create a custom category to organize your data stream actions.|
@@ -55,17 +56,17 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
         Inputs are represented as data pills in the right-hand pane.
 
-    For more information about action inputs, see [Workflow Studio - Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/actions.md).
+    For more information about action inputs, see Workflow Studio - Building custom actions.
 
 5.  Click **Action Preprocessing** in the Data Stream outline and configure the desired options.
 
     1.  Select **Retrieve connection info** to add the Get Connection Info step as the first step in the action preprocessing.
 
-        The Get Connection Info step enables you to retrieve connection and credential details to use in your action. For more information, see [Get Connection Info step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/get-connection-info-action-designer.md).
+        The Get Connection Info step enables you to retrieve connection and credential details to use in your action. For more information, see .
 
     2.  Select **Enable preprocessing script** to run a preprocessing script before the action sends the initial API request. For example, validate action inputs or set default values. Preprocessing executes once per action, before the first API request.
 
-        Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md).
+        Selecting this option adds a script step to the Data Stream action. For more information, see .
 
         **Important:** Data Stream actions require a constant connection to the response stream. They do not support preprocessing scripts that pause the action to call a MID Server or pause the action to wait for a condition or duration. A preprocessing script that pauses the action for any reason returns an error message.
 
@@ -73,7 +74,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
     1.  In the **How will you get data** field, select **REST Step**, **SOAP Step**, or **JDBC Step** to add the associated step to the Data Stream action.
 
-        For more information, see [REST step](../../flow-designer/reference/rest-request-action-designer.md), [SOAP step](../../flow-designer/reference/soap-step-action-designer.md), and [JDBC step](../../flow-designer/reference/jdbc-step.md) .
+        For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md), [SOAP step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/soap-step-action-designer.md), and [JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jdbc-step.md) .
 
         This section can run on either the MID Server or the instance. The environment is determined by the **Use MID server** field in the associated Connection \[sys\_connection\] record.
 
@@ -89,7 +90,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
         For example, write a script to transform variable data types from the initial response before sending a request for the next page.
 
-        Selecting this option adds a script step to the Data Stream action. For more information, see [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md).
+        Selecting this option adds a script step to the Data Stream action. For more information, see .
 
         **Note:** For a JDBC step, this is not applicable.
 
@@ -113,7 +114,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
         -   **Response Body**: Use a value in the response from the previous request to populate the variable. If the response is JSON format, set **Extract value using** to **JSONPath Expression** and provide the path to the value in the **Expression** field. If the response is XML format, set **Extract value using** to **XPath Expression** and provide the path to the value.
     In this example, the `getNextPage` variable is true until the `nextOffset` variable reaches the total count value returned in the API response header. As long as the `getNextPage` variable is true and the previous page contains data, the action continues to send requests for the next page. This example includes a common limit/offset pagination configuration. The third-party APIs that your Data Stream action interacts with may use a page token or other method.
 
-    ![Pagination setup with a pagination variables script.](../images/pagination-setup.png)
+    \[Omitted image "pagination-setup.png"\] Alt text: Pagination setup with a pagination variables script.
 
     **Important:** Avoid infinite loops in pagination requests by creating a condition that sets the `getNextPage` variable to false. Cancel any long-running flows. Always test Data Stream actions before using them in production.
 
@@ -257,7 +258,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
         The value in the **Name** field is the internal name used in the Script Parser step. For example, to refer to the City output in the Script Parser step, you would use `outputs.targetObject.city`.
 
-        ![Default values for child items in the complex object output.](../images/ds-output-label.png)
+        \[Omitted image "ds-output-label.png"\] Alt text: Default values for child items in the complex object output.
 
         **Warning:** After saving the Data Stream action, you cannot change values in the **Name** field.
 
@@ -268,7 +269,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
 ## What to do next
 
-[Test a Data Stream action](test-data-stream-action.md).
+[Test a Data Stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-data-stream-action.md).
 
-**Parent Topic:**[Data Stream actions and pagination](../concept/data-stream-actions.md)
+**Parent Topic:**[Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md)
 

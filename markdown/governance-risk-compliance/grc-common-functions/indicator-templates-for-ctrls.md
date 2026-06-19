@@ -2,6 +2,7 @@
 title: Indicator templates for controls
 description: The Technology Controls Monitoring Accelerator includes 273 indicator templates \(94 Basic, 174 Manual, and 5 Scripted\) for CIS v7 and includes new 67 indicator templates \(64 Basic and 3 Scripted\) for CIS v8.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/indicator-templates-for-ctrls.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,9 +18,9 @@ The Technology Controls Monitoring Accelerator includes 273 indicator templates 
 
 When the Technology Controls Monitoring Accelerator is used along with the Cybersecurity Controls Accelerator application, you can manage indicator templates within the Cybersecurity Controls Accelerator application.
 
-When Technology Controls Monitoring Accelerator is run as a standalone application; however, it can be run with the Policy and Compliance Management application. You can also [map UCF controls to indicator templates](../../grc-cybersec-controls/concept/cybersecurity-controls-accelerator.md#) from with the Policy and Compliance Management application.
+When Technology Controls Monitoring Accelerator is run as a standalone application; however, it can be run with the Policy and Compliance Management application. You can also [map UCF controls to indicator templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/cybersecurity-controls-accelerator.md) from with the Policy and Compliance Management application.
 
-**Note:** For information on the different types of indicator templates, see [Using indicator templates](../../grc-cybersec-controls/concept/using-indicator-templates.md).
+**Note:** For information on the different types of indicator templates, see [Using indicator templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-indicator-templates.md).
 
 ## Indicator templates for CIS v8 Controls
 
@@ -6324,5 +6325,5 @@ Security Incident \[sn\_si\_incident\]
  10033
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Technology Controls Monitoring Accelerator](tech-controls-monitoring-accel.md)
+</table>**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

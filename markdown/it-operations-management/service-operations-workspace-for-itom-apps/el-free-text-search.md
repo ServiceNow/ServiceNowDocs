@@ -2,6 +2,7 @@
 title: Find alert records in Express List using text search
 description: Perform a text search for alert records in a filtered list of alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/el-free-text-search.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -27,7 +28,7 @@ Event Management searches through the alerts that you're currently seeing in the
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon ![](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon \[Omitted image "express-list1.png"\].
 
 3.  In the Search filtered alerts field, enter the search text.
 
@@ -38,7 +39,7 @@ Event Management searches through the alerts that you're currently seeing in the
 
 4.  Expand the search to all alerts, including secondary alerts that are a part of alert groups, by selecting **Switch search scope** and then selecting **Extended**.
 
-5.  Perform the search by selecting the check icon ![check icon](../../agent-client-collector/image/check-icon.png) or pressing **Enter**.
+5.  Perform the search by selecting the check icon \[Omitted image "check-icon.png"\] or pressing **Enter**.
 
 
 ## Result

@@ -2,13 +2,14 @@
 title: Create a TCO report in Hardware Asset Workspace
 description: Create your own Total Cost of Ownership \(TCO\) report to compare the actual or projected TCO of multiple assets or compare the actual or projected asset TCO with the benchmark cost of the hardware model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/create-ham-tco-report.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure the Total Cost of Ownership of assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure the Total Cost of Ownership of assets, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create a TCO report in Hardware Asset Workspace
@@ -147,8 +148,8 @@ The workspace you’re working on.Default: HAM
 
 The TCO report is generated and displayed in the Comparative reports section of the Total Cost of Ownership dashboard.
 
--   **[Create a TCO report source](create-tco-report-source-ham.md)**  
+-   **[Create a TCO report source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/create-tco-report-source-ham.md)**  
 Create a Total Cost of Ownership \(TCO\) report source for TCO reports.
 
-**Parent Topic:**[Configure the Total Cost of Ownership of assets](../concept/configure-ham-tco.md)
+**Parent Topic:**[Configure the Total Cost of Ownership of assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/configure-ham-tco.md)
 

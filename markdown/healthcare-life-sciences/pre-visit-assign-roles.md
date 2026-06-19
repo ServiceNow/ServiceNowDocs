@@ -2,6 +2,7 @@
 title: Assign roles for Pre-Visit Management users
 description: Assign roles to control access to features, capabilities, and data in the Pre-Visit Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-assign-roles.html
 release: australia
 topic_type: task
 last_updated: "2023-08-03"
@@ -21,7 +22,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 ## Before you begin
 
-Set the application scope to Pre-Visit Management using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Pre-Visit Management using the application picker. For more information, see Application picker.
 
 Role required: sn\_previsit.admin, sn\_hcls.admin, or admin
 
@@ -85,7 +86,7 @@ sn\_previsit.agent\_connector
 
 Views, creates, and updates procedure request cases for all associated objects.
 
- You can combine this role with other roles for a user with the agent connector profile. For more information, see [Determining additional user profiles in Pre-Visit Management](../concept/pre-visit-connector-contributor.md).
+ You can combine this role with other roles for a user with the agent connector profile. For more information, see [Determining additional user profiles in Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-connector-contributor.md).
 
 </td><td>
 
@@ -112,7 +113,7 @@ sn\_previsit.contributor
 
 Creates procedure request cases for patients.
 
- You can combine this role with other roles for a user with the contributor profile. For more information, see [Determining additional user profiles in Pre-Visit Management](../concept/pre-visit-connector-contributor.md).
+ You can combine this role with other roles for a user with the contributor profile. For more information, see [Determining additional user profiles in Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-connector-contributor.md).
 
 </td><td>
 
@@ -142,6 +143,6 @@ sn\_previsit.case\_creator
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
-    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 

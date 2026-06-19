@@ -2,6 +2,7 @@
 title: Add participants to a conference call
 description: Add a participant to a conference call to participate in the discussion to resolve the major incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/add-participants-cisco-webex-notify-call.html
 release: australia
 product: Notify
 classification: notify
@@ -76,5 +77,5 @@ Option to provide an opening message to the user before beginning the interactio
     You can view the participants status in an active conference call.
 
 
-**Parent Topic:**[Using the Notify Cisco Webex Connector with a major incident](../concept/use-cisco-webex-notify-mi.md)
+**Parent Topic:**[Using the Notify Cisco Webex Connector with a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/use-cisco-webex-notify-mi.md)
 

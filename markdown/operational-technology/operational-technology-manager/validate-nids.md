@@ -2,6 +2,7 @@
 title: Validate the NIDS
 description: Validate the NIDS to import the devices from the ETL that were detected by the sensor. The sensors can only pass the validation if they aren't in learning mode as such sensors aren't eligible for device import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/validate-nids.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -17,7 +18,7 @@ Validate the NIDS to import the devices from the ETL that were detected by the s
 
 ## Before you begin
 
-It's recommended that you have the Common Service Data Model plugin installed. The Service Graph Connector aligns with the life cycle data models as per the Configuration Management Database \(CMDB\) standards. For more information, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md).
+It's recommended that you have the Common Service Data Model plugin installed. The Service Graph Connector aligns with the life cycle data models as per the Configuration Management Database \(CMDB\) standards. For more information, see .
 
 Role required: cmdb\_nids\_admin
 
@@ -58,7 +59,7 @@ The **Life Cycle Stage** and **Life Cycle Stage Status** fields are used to capt
 
 ## What to do next
 
-Alternatively, you can validate more than one NIDS sensor through a bulk validation. For more information, see [Validate multiple NIDS sensors at once](bulk-validation-nids.md).
+Alternatively, you can validate more than one NIDS sensor through a bulk validation. For more information, see [Validate multiple NIDS sensors at once](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/bulk-validation-nids.md).
 
-**Parent Topic:**[Managing Network Intrusion Detection System appliances](managing_network_intrusion_detection_system_nids_appliances.md)
+**Parent Topic:**[Managing Network Intrusion Detection System appliances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/managing_network_intrusion_detection_system_nids_appliances.md)
 

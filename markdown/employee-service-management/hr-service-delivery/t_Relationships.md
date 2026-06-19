@@ -2,6 +2,7 @@
 title: Add or modify employee relationships
 description: As part of the Human Resources setup process, you define relationships to describe how contacts and beneficiaries are related to employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_Relationships.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -42,5 +43,5 @@ Create relationship records for your organization.
 6.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[Managed lists](../concept/c_ManagedLists.md)
+**Parent Topic:**[Managed lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_ManagedLists.md)
 

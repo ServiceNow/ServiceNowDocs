@@ -2,6 +2,7 @@
 title: Track progress of scrum tasks for a sprint in Agile Development 2.0
 description: Use the Sprint Tracking tab of the Agile board in Agile Development 2.0 to track the progress of scrum tasks for the stories from your current sprint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/agile-sprint-board.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -43,8 +44,8 @@ You can move the task cards into different lanes or add new task for a story, to
 
     2.  On the form, fill in the fields and click **Submit**.
 
-        For field information, see [Create a scrum task for Agile Development 2.0 stories](../../agile-development/task/create-a-scrum-task.md).
+        For field information, see [Create a scrum task for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/create-a-scrum-task.md).
 
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](../../agile-development/concept/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
 

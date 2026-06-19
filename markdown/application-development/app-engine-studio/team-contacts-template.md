@@ -2,6 +2,7 @@
 title: Team Contacts template
 description: Build an application in App Engine Studio \(AES\) using the Team Contacts template to manage contact information for the people in your organization.The following tables, experiences, automated workflows, and roles are included in the Team Contacts template for App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/team-contacts-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,13 +18,13 @@ Build an application in App Engine Studio \(AES\) using the Team Contacts templa
 
 To use the Team Contacts template, install this application from the ServiceNow Store.
 
-![Team Contacts App template](../image/template-team-contacts.png)
+\[Omitted image "template-team-contacts.png"\] Alt text: Team Contacts App template
 
 A team contacts app uses a mobile experience to view employee contact information, tag favorites, and add privacy notes. The app displays report information by default and lets an employee search for employees, view employee profiles, and create a list of favorite employee contacts.
 
-For more information on creating an application using a template, see [Create your app using an application template](../task/use-app-template.md).
+For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-app-template.md).
 
-**Parent Topic:**[Available templates](template-library.md)
+**Parent Topic:**[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)
 
 ## Team Contacts template contents
 

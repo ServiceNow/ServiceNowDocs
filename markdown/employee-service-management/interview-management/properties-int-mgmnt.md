@@ -2,6 +2,7 @@
 title: Properties installed with Interview Management
 description: The system property installed with the Interview Management plugin is required to configure functionalities in the Interview Management environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/properties-int-mgmnt.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -21,5 +22,5 @@ The system property installed with the Interview Management plugin is required t
 |--------|-----------|
 |sn\_ta\_int\_mgmt.remind\_availability\_in\_days|Specifies the number of days from the day the request to share scheduling preferences was sent, until which a reminder email is sent on alternate days to the user \(if they’re yet to share preferences\).|
 
-**Parent Topic:**[Interview Management reference](../concept/interview-management-reference.md)
+**Parent Topic:**[Interview Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/interview-management-reference.md)
 

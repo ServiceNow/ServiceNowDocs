@@ -2,6 +2,7 @@
 title: Enable translated topic path updates
 description: Improve the accuracy and reliability of topic translations with a new system property that helps keep translated topic paths up to date automatically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/system-properties-translations.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

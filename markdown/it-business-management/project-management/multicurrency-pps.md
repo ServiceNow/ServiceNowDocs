@@ -2,6 +2,7 @@
 title: Multicurrency in Project Management
 description: Use the multicurrency feature to execute a project or part of a project in a different geographic location that has a different local currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/multicurrency-pps.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,15 +38,15 @@ The **Project currency** field of a project becomes read-only field and locked d
 
 ## Specify project currency in Demand
 
-You can specify the project currency that you want to use for managing a project when you convert a demand to a project. You can continue to manage the demand using your functional currency, project currency, or a local currency. For more information, see [Multicurrency in Demand Management](../../planning-and-policy/concept/multicurrency-demand.md).
+You can specify the project currency that you want to use for managing a project when you convert a demand to a project. You can continue to manage the demand using your functional currency, project currency, or a local currency. For more information, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-demand.md).
 
 ## Projects in Project Workspace
 
-Track your projects in project currency in the Project Workspace. Create and monitor the cost plans and benefit plans for a project in project currency. For more information on project workspace, see [Project Workspace](../../project-workspace/concept/project-workspace-landing-page.md).
+Track your projects in project currency in the Project Workspace. Create and monitor the cost plans and benefit plans for a project in project currency. For more information on project workspace, see [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-landing-page.md).
 
-To view the cost component in project currency at the grid level and at the breakdown level, see [Create and manage cost plans and benefit plans for a project](../../project-management/task/view-plan-financials-in-project-workspace.md).
+To view the cost component in project currency at the grid level and at the breakdown level, see [Create and manage cost plans and benefit plans for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md).
 
 ## Project status reports
 
-To view the planned and actual cost status of your projects in project currency, open the overview and cost sections of [project status reports](../../project-management/task/project-status-report.md).
+To view the planned and actual cost status of your projects in project currency, open the overview and cost sections of [project status reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-status-report.md).
 

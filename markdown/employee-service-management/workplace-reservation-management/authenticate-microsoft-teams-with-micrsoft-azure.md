@@ -2,13 +2,14 @@
 title: Authenticate Microsoft Teams with Microsoft Azure
 description: Set up authentication with Microsoft Azure to connect Microsoft Teams with Workplace Reservation Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/authenticate-microsoft-teams-with-micrsoft-azure.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Connect Workplace Reservation Management with Microsoft Teams, Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Connect Workplace Reservation Management with Microsoft Teams, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Authenticate Microsoft Teams with Microsoft Azure
@@ -29,7 +30,7 @@ In order for Workplace Reservation Management to be able to generate Microsoft T
 
 2.  Navigate to **Azure Services** &gt; **Azure Active Directory** &gt; **Manage** &gt; **App registrations**.
 
-3.  If you do not have an app registration, click **New registration**.
+3.  If you do not have an app registration, select **New registration**.
 
     1.  On the form, enter the **Name** of the registration.
 
@@ -54,19 +55,19 @@ In order for Workplace Reservation Management to be able to generate Microsoft T
         |Redirect URL|Enter a URL in the format: https://\[instance\].service-now.com/oauth\_redirect.do|
         |Implicit grant|Check **Access tokens**, and **ID tokens**|
 
-    4.  Click **Configure**.
+    4.  Select **Configure**.
 
 5.  Add a client secret.
 
     1.  Navigate to **Manage** &gt; **Certificates and secrets**.
 
-    2.  Click **New client secret**
+    2.  Select **New client secret**
 
     3.  In the **Description** field, enter a short description about the secret.
 
     4.  Under **Expires**, select an expiry.
 
-    5.  Click **Add**.
+    5.  Select **Add**.
 
     6.  After adding, in the Client secrets section, copy the value by clicking **Copy to clipboard**.
 
@@ -74,7 +75,7 @@ In order for Workplace Reservation Management to be able to generate Microsoft T
 
     1.  Navigate to **Manage** &gt; **API permissions**.
 
-    2.  Click **Add a permission**.
+    2.  Select **Add a permission**.
 
     3.  Select **Microsoft Graph**.
 
@@ -118,18 +119,6 @@ Create virtual meeting link
 
 </td></tr><tr><td>
 
-Directory.Read.All
-
-</td><td>
-
-Read directory data
-
-</td><td>
-
-Create virtual meeting link
-
-</td></tr><tr><td>
-
 Chat.Read.All
 
 </td><td>
@@ -143,15 +132,15 @@ This is optional and is required only to retrieve meeting recordings.
 Retrieve meeting recording
 
 </td></tr></tbody>
-</table>    5.  Select **Chat.Read.All**, **Directory.Read.All**, **OnlineMeetings.ReadWrite.All** and **User.Read.All**.
+</table>    5.  Select **Chat.Read.All**, **OnlineMeetings.ReadWrite.All** and **User.Read.All**.
 
         **Note:** Select **Chat.Read.All** to retrieve the meeting recordings.
 
-    6.  Click **Add permissions**.
+    6.  Select **Add permissions**.
 
-    7.  On the Configured permissions screen, click **Grant admin consent for ServiceNow**.
+    7.  On the Configured permissions screen, select **Grant admin consent for ServiceNow**.
 
-    8.  Click **Yes**.
+    8.  Select **Yes**.
 
         A confirmation message is displayed that admin consent is granted for the requested permissions.
 
@@ -197,9 +186,9 @@ The Microsoft Teams is set up with Microsoft Azure.
 
 **Note:** For more information about allowing applications to access online meetings, see [Microsoft documentation](https://learn.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy#configure-application-access-policy).
 
-**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+**Parent Topic:**[Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md)
 
-**Previous topic:**[Connect Workplace Reservation Management with Microsoft Teams](connect-rsv-mgmt-with-teams.md)
+**Previous topic:**[Connect Workplace Reservation Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mgmt-with-teams.md)
 
-**Next topic:**[Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting](setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.md)
+**Next topic:**[Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.md)
 

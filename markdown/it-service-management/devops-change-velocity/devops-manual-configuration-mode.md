@@ -2,6 +2,7 @@
 title: Manual configuration mode in DevOps
 description: As an alternative to making a connection using the standard setup process, you can use manual configuration mode to set up a webhook manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-manual-configuration-mode.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -25,5 +26,5 @@ All planning, coding, and orchestration tool connections support manual configur
 
 **Note:** Connection state automatically changes to disconnected if there is a change in configuration, such as URL, credentials, alias, type, or MID Server settings.
 
-**Parent Topic:**[Managing DevOps Change Velocity](using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

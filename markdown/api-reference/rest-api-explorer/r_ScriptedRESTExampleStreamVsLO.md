@@ -2,6 +2,7 @@
 title: Scripted REST API example - streaming vs object serialization
 description: These examples demonstrate how to send a JSON response using streaming and using default object serialization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/r\_ScriptedRESTExampleStreamVsLO.html
 release: australia
 product: REST API Explorer
 classification: rest-api-explorer
@@ -142,7 +143,7 @@ A request to this resource returns the following response.
 
 ## Streaming pagination
 
-To paginate large tables so that you only send a limited number of records per query, use the [Scoped GlideRecord - chooseWindow\(Number firstRow, Number lastRow, Boolean forceCount\)](../../../app-store/dev_portal/API_reference/glideRecordScoped/concept/c_GlideRecordScopedAPI.md#) method. The Community article [Paginated Glide Record + Expanded GR Method Support](https://www.servicenow.com/community/developer-articles/paginated-glide-record-expanded-gr-method-support/ta-p/2300446) exemplifies how to use chooseWindow\(\) to achieve pagination, which you can adapt to your own particular use case.
+To paginate large tables so that you only send a limited number of records per query, use the [Scoped GlideRecord - chooseWindow\(Number firstRow, Number lastRow, Boolean forceCount\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method. The Community article [Paginated Glide Record + Expanded GR Method Support](https://www.servicenow.com/community/developer-articles/paginated-glide-record-expanded-gr-method-support/ta-p/2300446) exemplifies how to use chooseWindow\(\) to achieve pagination, which you can adapt to your own particular use case.
 
 ## Building an object
 
@@ -233,5 +234,5 @@ A request to this resource returns the following response.
 
 ```
 
-**Parent Topic:**[Scripted REST API examples](../concept/c_ScriptedRESTAPIExamples.md)
+**Parent Topic:**[Scripted REST API examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_ScriptedRESTAPIExamples.md)
 

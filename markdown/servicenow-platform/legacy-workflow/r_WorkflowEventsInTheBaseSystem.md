@@ -2,6 +2,7 @@
 title: Workflow events in the base system
 description: Several workflow events are available in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/r\_WorkflowEventsInTheBaseSystem.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -31,12 +32,12 @@ Several workflow events are available in the base system.
 |pause|String value sent to a workflow from an SLA to pause the **Timer** activity.|When an SLA is paused, the SLA workflows must be paused if there is a timer running.|Use is exclusive to the SLA timer|SLA|Business rule thread, private mutex|**Timer** activity|
 |resume|String value used by the **Timer** activity to resume a paused timer \(see pause\).|When an SLA is resumed, the SLA workflows must be resumed as well.|Use is exclusive to the SLA timer.|SLA|Business rule thread, private mutex|**Timer** activity|
 
--   **[Glide events relative to workflows](r_GlideEventsRelativeToWorkflows.md)**  
+-   **[Glide events relative to workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_GlideEventsRelativeToWorkflows.md)**  
 Workflow uses several Glide events.
--   **[Workflow event-specific functions](r_WorkflowEventSpecificFunctions.md)**  
+-   **[Workflow event-specific functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_WorkflowEventSpecificFunctions.md)**  
 There are several functions that relate specifically to workflow events.
--   **[Event-specific workflow activities](r_EventSpecificWorkflowActivities.md)**  
+-   **[Event-specific workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/r_EventSpecificWorkflowActivities.md)**  
 The following workflow activities trigger events.
 
-**Parent Topic:**[Workflow events](../concept/c_WorkflowEvents.md)
+**Parent Topic:**[Workflow events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/c_WorkflowEvents.md)
 

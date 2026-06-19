@@ -2,6 +2,7 @@
 title: Send a privacy assessment from an entity
 description: Send a privacy assessment to an entity owner to determine if there's personal data involved in the processing activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/send-privacy-assessmt-entity.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -40,8 +41,8 @@ You can send a privacy screening assessment from an entity if you do not have a 
 5.  Select **Send**.
 
 
--   **[New privacy assessment creation form](../reference/new-privacy-assessment-creation-form.md)**  
+-   **[New privacy assessment creation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/new-privacy-assessment-creation-form.md)**  
 Use the fields on the new privacy assessment creation form to create a new privacy assessment.
 
-**Parent Topic:**[Initiating privacy assessments for an entity or a processing activity](../concept/trigger-privacy-assessmt-on-entities.md)
+**Parent Topic:**[Initiating privacy assessments for an entity or a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/trigger-privacy-assessmt-on-entities.md)
 

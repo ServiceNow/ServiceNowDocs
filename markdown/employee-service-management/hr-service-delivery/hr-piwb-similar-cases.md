@@ -2,6 +2,7 @@
 title: HR PIWB template: Recommend similar cases
 description: Use the classic setup template to configure and train your Similarity solution template with machine learning model to recommend similar closed HR cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-piwb-similar-cases.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -38,7 +39,7 @@ When the Similar Closed HR Cases is configured and the predictive model is train
     2.  Click **Take me there** to get started with the solution definition.
     Machine Learning Solutions landing page appears.
 
-    ![List of ML usecases for HR PIWB](../image/piwb-hr-ml-list.png "HR ML use cases")
+    \[Omitted image "piwb-hr-ml-list.png"\] Alt text: List of ML usecases for HR PIWB
 
 3.  Go to **Similarity** and click **Configure**.
 
@@ -51,18 +52,18 @@ When the Similar Closed HR Cases is configured and the predictive model is train
 
 When the configuration is complete, the solution displays the most relevant HR closed cases to an HR agent to help resolve the current HR case.
 
-Review the corresponding use case information from [Machine learning solutions for HR Service Delivery](../concept/predictive-intelligence-for-hr-service-delivery-1.md).
+Review the corresponding use case information from [Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 ## What to do next
 
 You can verify the integration status from **HR Administration** &gt; **HR AI Configurations** &gt; **Solution definition**. The use case is now mapped to the selected solution definition.
 
-**Parent Topic:**[HR Predictive Intelligence Workbench implementation](../concept/hr-piwb-implementation-guidance.md)
+**Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)
 
 **Related topics**  
 
 
-[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence.md)
+[bundle-platai.predictive-intelligence]
 
-[Get started with Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/install-predictive-intelligence.md)
+[bundle-platai.get-started-predictive-intelligence]
 

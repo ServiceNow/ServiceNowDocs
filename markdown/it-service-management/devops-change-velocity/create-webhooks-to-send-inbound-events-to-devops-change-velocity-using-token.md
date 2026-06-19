@@ -2,6 +2,7 @@
 title: Creation of webhooks to send inbound events to DevOps Change Velocity using token
 description: You must create webhooks to send inbound events to DevOps Change Velocity using token based authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/create-webhooks-to-send-inbound-events-to-devops-change-velocity-using-token.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -23,7 +24,7 @@ To send inbound events to a ServiceNow instance, you must use the following API 
 
 where capability can be plan, code, or orchestration.
 
-You can copy the details like the tool Id, instance URL, and so on by selecting **Configure manually** from the tool record or in the configure step while onboarding the tool. You can then select **Copy** in the appropriate field to copy the value to your clipboard. The field label changes to **Copied**, but you can copy multiple times. The following image displays the page from where the values can be copied for the GitHub tool in DevOps Change Velocity. ![GitHub manually configure webhooks](../image/github-manual-webhooks-2.png)
+You can copy the details like the tool Id, instance URL, and so on by selecting **Configure manually** from the tool record or in the configure step while onboarding the tool. You can then select **Copy** in the appropriate field to copy the value to your clipboard. The field label changes to **Copied**, but you can copy multiple times. The following image displays the page from where the values can be copied for the GitHub tool in DevOps Change Velocity. \[Omitted image "github-manual-webhooks-2.png"\] Alt text: GitHub manually configure webhooks
 
 For token authentication, you must pass the token as part of the authorization header or query parameters as the endpoints are secured. You can use one of the following methods:
 
@@ -34,5 +35,5 @@ For Basic authentication, you can use the following V1 endpoint: `https://user:p
 
 If you have a custom tool or a different authentication method, you can implement your own authentication logic. For example, you can implement an authenticateToken function in your handler class. The function should verify the token and ensure proper authentication. You must have the admin role in ServiceNow to implement your own authentication logic.
 
-**Parent Topic:**[Create a tool integration from the DevOps Change Workspace](create-a-tool-integration-from-the-devops-change-workspace.md)
+**Parent Topic:**[Create a tool integration from the DevOps Change Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-a-tool-integration-from-the-devops-change-workspace.md)
 

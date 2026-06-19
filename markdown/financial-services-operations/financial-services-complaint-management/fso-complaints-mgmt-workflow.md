@@ -2,6 +2,7 @@
 title: Financial Services Complaint Management workflow example
 description: The Financial Services Complaint Management application installs an automated workflow for complaint servicing. This workflow enables intake of complaints and routing of cases and tasks to different departments, including the complaint, quality control, and business unit specific agents. The workflow applies to both business and personal complaint service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/fso-complaints-mgmt-workflow.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
@@ -17,9 +18,9 @@ The Financial Services Complaint Management application installs an automated wo
 
 The following diagram shows how the application helps bank agents resolve a complaint request.
 
-![Workflow that shows how a complaint request is resolved using the Complaint management application. For the text description, refer to the workflow steps that follow.](../image/fso-complaints-workflow-example.png "Complaint management workflow")
+\[Omitted image "fso-complaints-workflow-example.png"\] Alt text: Workflow that shows how a complaint request is resolved using the Complaint management application. For the text description, refer to the workflow steps that follow.
 
-**Note:** This workflow is built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md). The complaint admin can review and customize this predefined flow based on the business needs of your organization.
+**Note:** This workflow is built using Process Automation Designer and . The complaint admin can review and customize this predefined flow based on the business needs of your organization.
 
 The following workflow routes the case and tasks for a complaint request to agents in different departments. The agents log in to CSM Configurable Workspace to work on the case and tasks in their queue. The case playbook guides agents through the steps that are needed to resolve customer complaints.
 

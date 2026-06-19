@@ -2,13 +2,14 @@
 title: Cancel an attestation schedule
 description: Cancel an attestation schedule when you no longer want to create recurring asset attestations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/cancel-attestation-schedule-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Audit your hardware assets by using Asset Attestation, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Cancel an attestation schedule
@@ -42,5 +43,5 @@ You can only cancel an asset attestation schedule that's in the Ready or In prog
 
 The state of the attestation schedule changes to Canceled.
 
-**Parent Topic:**[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+**Parent Topic:**[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
 

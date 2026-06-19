@@ -2,6 +2,7 @@
 title: Set up the Amazon S3 spoke
 description: Use Amazon S3 as file storage in place of attachments in ServiceNow. Adds Amazon S3 storage to your ServiceNow instance and enables users to reference Amazon S3 files in ServiceNow records.Create Credential record for your AWS account. The Create a credential record for the Amazon S3 spoke to enable the spoke to connect to the Amazon S3 host. After connecting, the spoke can perform various actions on Amazon S3.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-amazon-s3.html
 release: australia
 product: Integration Hub
 classification: integration-hub

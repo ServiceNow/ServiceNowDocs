@@ -2,6 +2,7 @@
 title: Automate actions upon risk intelligence updates
 description: A provider-based submission rule is a set of conditions and actions. In a rule, you can specify that an update to a rating from a risk intelligence provider is the condition that triggers the action that is specified in the rule. The action might be to create and send a third-party risk assessment, issue, task, or email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-submissrule.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -82,13 +83,13 @@ Select the basis for the external score change that should trigger the rule and 
 </td></tr></tbody>
 </table>3.  Select the **Apply to third parties** tab.
 
-    1.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to define conditions for identifying the third parties to be affected by the rule.
+    1.  Use the condition builder to define conditions for identifying the third parties to be affected by the rule.
 
     2.  Select **Submit**.
 
 4.  Select the **Rule Actions** tab, fill in the fields, and then select **Submit**.
 
-    ![Options on the Rule Actions tab.](../image/prov-based-submission-rule-actions.png)
+    \[Omitted image "prov-based-submission-rule-actions.png"\] Alt text: Options on the Rule Actions tab.
 
 <table id="table_btn_fkf_4mb"><thead><tr><th>
 
@@ -175,5 +176,5 @@ When the rule is triggered, users with the TPR manager role receive an email not
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Integrating scores from risk intelligence providers](../concept/tprm-riskintelprvdr-overview.md)
+**Parent Topic:**[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
 

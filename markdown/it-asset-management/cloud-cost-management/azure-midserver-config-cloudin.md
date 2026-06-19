@@ -2,6 +2,7 @@
 title: Configuring access to CI data on your Microsoft Azure account
 description: To enable Discovery to communicate with your Microsoft Azure account, you specify your Service Principal credentials while configuring the MID Servers that communicate with your Microsoft Azure account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/azure-midserver-config-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -17,7 +18,7 @@ To enable Discovery to communicate with your Microsoft Azure account, you specif
 
 ## Detailed instructions
 
-See [Azure Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-cloud-discovery.md).
+See Azure Cloud Discovery.
 
 **Important:** This configuration process applies only if you use the Discovery application to discover cloud resources. Skip this process if you use a different method for discovering resources.
 
@@ -66,14 +67,14 @@ The **ALL** setting includes all required applications and capabilities. Alterna
 </td></tr></tbody>
 </table>## Using a proxy server
 
-You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for your Cloud Cost Management MID Server](azure-mid-proxy-cloudin.md).
+You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy server configuration for your Cloud Cost Management MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/azure-mid-proxy-cloudin.md).
 
 **Related topics**  
 
 
-[MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md)
+[bundle-platcap.c_MIDServerConfiguration]
 
-[Install a MID Server on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md)
+[bundle-platcap.mid-server-install-prereqs]
 
-[Install a MID Server on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallAMIDServerOnLinux.md)
+[bundle-platcap.t_InstallAMIDServerOnLinux]
 

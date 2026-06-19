@@ -2,6 +2,7 @@
 title: Configure batch import for data
 description: Configure batch import of data to specify the pagination method for importing large data sets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/config-batch-import.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Configure batch import of data to specify the pagination method for importing la
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
-Proceed from the **Select an action** section. For information on selecting a spoke, see [Select an action](select-action.md).
+Proceed from the **Select an action** section. For information on selecting a spoke, see [Select an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/select-action.md).
 
 ## Procedure
 
@@ -84,7 +85,7 @@ Select this button to generate a flow.After the flow is generated, edit it to se
 
     The Workflow Studio page is displayed.
 
-    **Note:** Edit the flow as per your requirement. For information on editing a flow, see [Edit flow in Workflow Studio](cm-edit-flow-ac.md).
+    **Note:** Edit the flow as per your requirement. For information on editing a flow, see [Edit flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/cm-edit-flow-ac.md).
 
     Do not activate the flow at this point.
 
@@ -97,8 +98,8 @@ Select this button to generate a flow.After the flow is generated, edit it to se
     The **Verify and test** section is displayed.
 
 
--   **[Edit flow in Workflow Studio](cm-edit-flow-ac.md)**  
+-   **[Edit flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/cm-edit-flow-ac.md)**  
 Edit the flow to confirm that the pagination is implemented correctly. This confirms that the data is imported correctly.
 
-**Parent Topic:**[Configuring data import](../concept/configure-data-import.md)
+**Parent Topic:**[Configuring data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/configure-data-import.md)
 

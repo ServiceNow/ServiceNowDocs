@@ -2,6 +2,7 @@
 title: Edit custom category
 description: Update the details of an existing custom category when changes are required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/edit-custom-category.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm

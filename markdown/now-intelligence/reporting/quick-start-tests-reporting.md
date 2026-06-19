@@ -2,6 +2,7 @@
 title: Quick start tests for Reporting
 description: Validate that Reporting still works after you make any configuration change such as applying an upgrade. Copy and customize these quick start tests to pass when using your instance-specific data.You can customize these pre-configured example test steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/quick-start-tests-reporting.html
 release: australia
 product: Reporting
 classification: reporting
@@ -17,18 +18,18 @@ Validate that Reporting still works after you make any configuration change such
 
 The Reporting quick start test Automated Test Framework - Reporting plugin \(com.glide.automated\_testing\_impl.report\) is active by default or instance reboot.
 
-**Note:** Reporting quick start tests do not test report access from dashboards. To test dashboards, see [Quick start tests for Dashboards](quick-start-tests-dashboards.md).
+**Note:** Reporting quick start tests do not test report access from dashboards. To test dashboards, see [Quick start tests for Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/quick-start-tests-dashboards.md).
 
 |Test|Description|Release version|
 |----|-----------|---------------|
 |Report Visibility|Confirm whether reports are still visible to users whom they are shared with.|Madrid|
 
-**Parent Topic:**[Administering reports](../../../use/reporting/concept/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 
 ## Report Visibility test steps
 

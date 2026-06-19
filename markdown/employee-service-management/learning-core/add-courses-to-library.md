@@ -2,6 +2,7 @@
 title: Add course items to learning library
 description: To add course items to the catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/add-courses-to-library.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -19,7 +20,7 @@ To add course items to the catalog.
 
 Role required: admin
 
-Create a learning library. For more information, see [Create a learning library](create-ln-ctg.md)
+Create a learning library. For more information, see [Create a learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-ln-ctg.md)
 
 ## Procedure
 
@@ -27,10 +28,10 @@ Create a learning library. For more information, see [Create a learning library]
 
 2.  Select the learning library that you want to add course items to.
 
-3.  On the Content tab, click **Add**.
+3.  On the Content tab, select **Add**.
 
-4.  On the Select content window, select courses and click **Add selected**.
+4.  On the Select content window, select courses and select **Add selected**.
 
 
-**Parent Topic:**[Create a learning library](create-ln-ctg.md)
+**Parent Topic:**[Create a learning library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-ln-ctg.md)
 

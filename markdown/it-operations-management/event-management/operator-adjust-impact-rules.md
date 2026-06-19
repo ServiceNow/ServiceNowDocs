@@ -2,6 +2,7 @@
 title: Adjust alert impact while triaging an alert
 description: As an Event Management operator, you might need to modify the impact that an alert has on an application service and on the CIs in a service. Do this when you think that the impact does not accurately represent what you see in your network environment so other operators and administrators see the correct impact information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/operator-adjust-impact-rules.html
 release: australia
 product: Event Management
 classification: event-management
@@ -41,7 +42,7 @@ Before you make any modifications to impact calculations, make sure that you und
 
     In this example, a critical alert indicates a serious issue with a Linux server that is part of a Web portal application service.
 
-    ![Impact rules](../image/operator-impact-rules-biz-service.png)
+    \[Omitted image "operator-impact-rules-biz-service.png"\] Alt text: Impact rules
 
     Notice that the impact on the Web portal itself is red, meaning critical, even though only one of the Linux servers that it relies upon actually has a critical alert. The other Linux Server does is not impacted by the alert. Assume for this example that the Linux servers perform different roles for the web service, and that even though **PS LinuxApp02** has a critical alert, the **PS LinuxApp01** server can adequately provide all the necessary services to keep the application service operational.
 
@@ -49,7 +50,7 @@ Before you make any modifications to impact calculations, make sure that you und
 
     By default, the CI impact rule appears, showing you this information:
 
-    ![Impact tab](../image/ci-impact-rule.png)
+    \[Omitted image "ci-impact-rule.png"\] Alt text: Impact tab
 
     -   The **Impact On** and **Influence** columns show you that the CI \(**PS Apache03**\) should inherit 100% of the impact of all child CI impacts, which in this case includes the critical impact on the **PS LinuxApp02** server. This setting is why the **PS Apache03** web server, and the application service as a whole, inherits the impact 100%.
     -   The **Critical** column shows you that a critical alert \(red\) is inherited as critical alert \(red\).
@@ -59,7 +60,7 @@ Before you make any modifications to impact calculations, make sure that you und
 
     Notice that the influence on the Apache web server is 0% and the impact status is green. Also notice that the critical alert status \(red\) remains unchanged, even though the impact changed to green.
 
-    ![Impact](../image/operator-adjust-impact-rules.png)
+    \[Omitted image "operator-adjust-impact-rules.png"\] Alt text: Impact
 
 10. Navigate back to the Service Operations Workspace dashboard.
 
@@ -70,5 +71,5 @@ Before you make any modifications to impact calculations, make sure that you und
 
 Your administrator might configure additional impact rules that display when you click a CI in the application service map. You can make adjustments to the **Influence** fields on any impact rule to get the most accurate impact tree.
 
-**Parent Topic:**[Advanced tasks for the Event Management operator](../concept/operator-advanced-tasks.md)
+**Parent Topic:**[Advanced tasks for the Event Management operator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/operator-advanced-tasks.md)
 

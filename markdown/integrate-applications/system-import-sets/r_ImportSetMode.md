@@ -2,6 +2,7 @@
 title: Web service import set mode
 description: When a SOAP message inserts a record into an import set table, and there is no import set for that table in the Loading state, a new import set will be created with the Mode set to Synchronous.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_ImportSetMode.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -17,7 +18,7 @@ When a SOAP message inserts a record into an import set table, and there is no i
 
 An import set with a Mode of Synchronous will transform the data as soon as it is inserted \(provided that the transform map already exists\). This import set will also have a default State of Loading. By default, all Synchronous import sets will automatically be modified to Processed at midnight. As a result, when a new insert happens to the same table, a new Synchronous import set will be created.
 
-![](../image/WsIsetIset.png "Synchronous import set")
+\[Omitted image "WsIsetIset.png"\] Alt text:
 
 Changing this import set to a mode of Asynchronous and a state of Loading has the effect of not transforming the incoming data as it is inserted, but rather "loading" the import set and deferring the data transformation later, either manually, or with a scheduled script job.
 
@@ -121,5 +122,5 @@ The message related to a status of error. When an error occurs, setting this val
 
 It is possible to include information other than the information specified in the WSDL by overwriting the contents of status\_message using the transform script.
 
-**Parent Topic:**[Web service import sets](../concept/c_WebServiceImportSets.md)
+**Parent Topic:**[Web service import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_WebServiceImportSets.md)
 

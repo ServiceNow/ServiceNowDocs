@@ -2,6 +2,7 @@
 title: Now Assist for Employee Center Pro
 description: Now Assist for Employee Center Pro expands across AI-powered capabilities, enterprise search, and omnichannel delivery to meet modern productivity needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/na-ec-pro-landing.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -24,13 +25,13 @@ Now Assist for Employee Center Pro offers the portal experience with all the emp
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore](na-emp-center-pro-exploring.md)![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Now Assist for Employee Center Pro concepts and features.
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-emp-center-pro-exploring.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for Employee Center Pro concepts and features.
 
 </td><td>
 
-[Configure](na-emp-cente-pro-configuring.md)
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/na-emp-cente-pro-configuring.md)
 
-![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set-up the Now Assist for Employee Center Pro applications and features.
+\[Omitted image "bus-sdlc.svg"\] Alt text:Set-up the Now Assist for Employee Center Pro applications and features.
 
 </td></tr></tbody>
 </table>

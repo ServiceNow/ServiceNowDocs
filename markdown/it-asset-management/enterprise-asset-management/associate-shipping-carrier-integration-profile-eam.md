@@ -2,13 +2,14 @@
 title: Associate a third-party shipping carrier with an integration profile in the Enterprise Asset Workspace
 description: Associate a third-party shipping carrier with an integration profile so that you can successfully connect to that shipping carrier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/associate-shipping-carrier-integration-profile-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise asset shipments, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Associate a third-party shipping carrier with an integration profile in the Enterprise Asset Workspace
@@ -66,5 +67,5 @@ Each shipping carrier can be associated with only one active integration profile
 
 The shipping carrier is associated with the integration profile.
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

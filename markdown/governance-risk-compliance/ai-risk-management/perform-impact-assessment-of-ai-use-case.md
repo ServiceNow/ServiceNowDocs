@@ -2,12 +2,14 @@
 title: Perform impact assessment on an AI use case
 description: Perform an impact assessment of an AI use case to identify risks like copyright issues, bias, privacy breaches, misinformation, or surveillance, enabling improved oversight and risk management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-20"
 reading_time_minutes: 2
+keywords: [impact assessment, FRIA, use and purpose, pre-populated]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -17,19 +19,21 @@ Perform an impact assessment of an AI use case to identify risks like copyright 
 
 ## Before you begin
 
-Role required: AI Asset Owner or sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user
+Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user
+
+## About this task
+
+The impact assessment template includes Use and purpose questions that evaluate the AI system’s intended outcomes, affected populations, level of autonomy, and data usage. When Use and purpose information is captured during AI system intake, those responses are carried forward into the relevant impact assessment questions. Review the populated answers before submitting the assessment and update them if the information has changed.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **AI assets**.
+1.  Navigate to **All** &gt; **AI Control Tower**.
 
-2.  Open the required AI system from the list.
+2.  On the AI Control Tower dashboard, navigate to the Tasks section and select the assigned impact assessment task.
 
-3.  In the Assess stage of the AI Asset Life cycle, select the task for the impact assessment.
+3.  Select **Take assessment**.
 
-4.  Select **Take assessment**.
-
-5.  To reassign the impact assessment to another user, select **Reassign** and do the following:
+4.  To reassign the impact assessment to another user, select **Reassign** and do the following:
 
     1.  In the Reassign task dialog box, fill in the fields as appropriate.
 
@@ -40,7 +44,7 @@ Role required: AI Asset Owner or sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_bus
 
     2.  Select **Reassign**.
 
-6.  To initiate a sidebar discussion, select the more icon ![](../image/more-options.png), and select **Discuss**.
+5.  To initiate a sidebar discussion, select the more icon \[Omitted image "more-options.png"\] Alt text:, and select **Discuss**.
 
     1.  In the Start a Sidebar discussion dialog box, fill in the fields as appropriate.
 
@@ -79,26 +83,26 @@ Brief summary about the feedback to be discussed in the sidebar discussion.
 </td></tr></tbody>
 </table>    2.  Select **Start discussion**.
 
-7.  To initiate the assessment, select **Start**.
+6.  To initiate the assessment, select **Start**.
 
-8.  Review any instructions or reference information.
+7.  Review any instructions or reference information.
 
     You can see additional question guidance text for your review as you complete the questions.
 
-9.  Answer all relevant questions in the questionnaire.
+8.  Answer all relevant questions in the questionnaire.
 
-    Your responses are automatically saved, and based on them, relevant risk statements and control objectives are associated with the assessment. After the AI Risk and Compliance Analyst marks the assessment state as Closed complete, risks and controls are generated from these risk statements and control objectives respectively and are mapped to the AI asset.
+    Your responses are automatically saved, and based on them, relevant risk statements and control objectives are associated with the assessment. After the AI Risk and Compliance analyst marks the assessment state as Closed complete, risks and controls are generated from these risk statements and control objectives respectively and are mapped to the AI asset.
 
     **Note:** The system automatically maps risks and controls only when you use the default assessment questionnaire.
 
-10. Select **Submit**.
+9.  Select **Submit**.
 
 
 ## What to do next
 
 An AI Risk and Compliance Analyst evaluates the completed assessment along with the suggested list of risks and controls derived from the submitted information.
 
-Proceed to [Initiate risk assessment on AI asset](initiate-risk-assessment-on-ai-systems.md).
+Proceed to [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md).
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

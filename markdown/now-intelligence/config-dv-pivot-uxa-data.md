@@ -2,6 +2,7 @@
 title: Usage Insights data options for pivot table data visualizations
 description: When you select a Usage Insights data source for a pivot table visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-dv-pivot-uxa-data.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -33,7 +34,7 @@ Data source
 
 </td><td>
 
-You have selected a Usage Insights data source in [Create a pivot table data visualization in the Visualization Designer](../task/create-dv-pivot-ac.md).
+You have selected a Usage Insights data source in [Create a pivot table data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-pivot-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -53,7 +54,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -202,5 +203,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a pivot table data visualization in the Visualization Designer](../task/create-dv-pivot-ac.md)
+</table>**Parent Topic:**[Create a pivot table data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-pivot-ac.md)
 

@@ -2,6 +2,7 @@
 title: Export platform list to Excel
 description: A list displays a set of records from a table. You can export information from lists in the classic environment to a spreadsheet.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/export-platform-list-excel.html
 release: australia
 product: Reporting
 classification: reporting
@@ -19,7 +20,7 @@ A list displays a set of records from a table. You can export information from l
 
 Role required: none, though you must have rights to view the list.
 
-For more information, see [Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_UseLists.md).
+For more information, see .
 
 ## Procedure
 
@@ -27,6 +28,6 @@ For more information, see [Lists in the classic environment](https://raw.githubu
 
 2.  Right-click any column heading and select **Export** &gt; **Excel**.
 
-    ![How to export platform list to Excel](../image/export-list-rep-excel.png)
+    \[Omitted image "export-list-rep-excel.png"\] Alt text: How to export platform list to Excel
 
 

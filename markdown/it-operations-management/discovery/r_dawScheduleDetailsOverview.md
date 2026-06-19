@@ -2,11 +2,12 @@
 title: Discovery Admin Workspace data visualizations
 description: The Overview tab includes visualizations that provide detailed information about the Discovery schedule. These visualizations offer a comprehensive view of the schedule performance and status, showing key metrics like the number of discoveries completed, success rate, and any errors encountered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_dawScheduleDetailsOverview.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Discovery Admin Workspace reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -85,7 +86,7 @@ Line chart
 
 </td><td>
 
-Trends of discovered CI attributes for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](../concept/discovery-admin-workspace-setup.md).
+Trends of discovered CI attributes for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Line chart
 
 </td><td>
 
-Error trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](../concept/discovery-admin-workspace-setup.md).
+Error trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
 </td></tr><tr><td>
 
@@ -133,8 +134,8 @@ Line chart
 
 </td><td>
 
-Run time trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](../concept/discovery-admin-workspace-setup.md).
+Run time trends for this Discovery schedule across the statuses listed in Run History. The anomaly threshold trend reflects the most severe anomaly for this schedule.**Important:** The anomaly threshold only displays when anomaly detection is enabled. For more information, see [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Discovery Admin Workspace reference](r_discovery-admin-workspace-reference.md)
+</table>**Parent Topic:**[Discovery Admin Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_discovery-admin-workspace-reference.md)
 

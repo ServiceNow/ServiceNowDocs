@@ -2,6 +2,7 @@
 title: Sign on closed work order tasks on a mobile device
 description: Customers can digitally sign and confirm work order tasks that are closed with the Closed Complete or Closed Incomplete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/preview-sign-wot-contractor-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -43,7 +44,7 @@ When a work order is closed, you are notified with a link to the work order. Ope
     -   To sign your name, click **Draw signature**.
 7.  Tap **Preview Work Summary** to review the task details and generate a signed PDF summary.
 
-    The PDF summary captures the details of the task along with the responses submitted in the smart assessment questionnaire and the score. You can view the PDF summary in the activity stream. For more information, see [Enable PDF summaries at work order task level](enable-pdf-summary.md).
+    The PDF summary captures the details of the task along with the responses submitted in the smart assessment questionnaire and the score. You can view the PDF summary in the activity stream. For more information, see [Enable PDF summaries at work order task level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/enable-pdf-summary.md).
 
 8.  Click **Accept and Confirm**.
 

@@ -2,6 +2,7 @@
 title: Configure ServiceNow SQL API JDBC driver on client machine
 description: Configure the JDBC driver settings on your client machine to establish a connection to your ServiceNow instance and access data through the SQL API.
 locale: en-us
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/configure-jdbc-driver.html
 release: australia
 product: Web Services
 classification: web-services
@@ -19,10 +20,10 @@ Configure the JDBC driver settings on your client machine to establish a connect
 
 Verify the following prerequisites are met:
 
--   You have downloaded the ServiceNow SQL API JDBC driver to your client machine. See [Download the SQL API drivers on client machine](download-sql-api-drivers.md) for more information.
+-   You have downloaded the ServiceNow SQL API JDBC driver to your client machine. See [Download the SQL API drivers on client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/download-sql-api-drivers.md) for more information.
 -   JDK 17 is installed on your client machine.
--   You have valid ServiceNow credentials for a Service Account with the required roles assigned. See [Create a Service Account and assign Roles](create-service-account.md) for more information.
--   Your client machine's IP address is included in the SQL API IP filter criteria. See [Create IP filter criteria](create-ip-filter-criteria.md) for more information.
+-   You have valid ServiceNow credentials for a Service Account with the required roles assigned. See [Create a Service Account and assign Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-service-account.md) for more information.
+-   Your client machine's IP address is included in the SQL API IP filter criteria. See [Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/create-ip-filter-criteria.md) for more information.
 -   You have the necessary connection parameters including your ServiceNow instance URL and Service Account credentials.
 
 Role required: local administrator on client machine for installation
@@ -62,5 +63,5 @@ After configuring the JDBC driver, your applications can execute SQL queries aga
 
 After successfully configuring the JDBC driver, your BI tool or application can connect to ServiceNow and execute SQL queries against authorized tables. You can now query ServiceNow data directly without requiring data export or replication.
 
-**Parent Topic:**[Configuring SQL API](../concept/configuring-sql-api.md)
+**Parent Topic:**[Configuring SQL API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/configuring-sql-api.md)
 

@@ -2,6 +2,7 @@
 title: Approve workspace user data collection
 description: Approve requests from Task Mining analysts to enable workstation user data collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/approve-workspace-user-log-requests.html
 release: australia
 product: Task Mining
 classification: task-mining

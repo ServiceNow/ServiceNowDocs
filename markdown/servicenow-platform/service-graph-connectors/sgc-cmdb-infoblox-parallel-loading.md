@@ -2,6 +2,7 @@
 title: Handling parallel data loading in Service Graph Connector for Infoblox
 description: Parallel data loading in the Service Graph Connector for Infoblox optimizes performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-infoblox-parallel-loading.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -22,5 +23,5 @@ Parallel data loading is supported in Service Graph Connector for Infoblox versi
 
 ## Related content
 
-[Service Graph Connector for Infoblox properties](../reference/cmdb-sgc-infoblox-props.md)
+[Service Graph Connector for Infoblox properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-infoblox-props.md)
 

@@ -2,11 +2,12 @@
 title: Enable AWS SSM-based discovery
 description: Configure Discovery to use AWS Systems Manager \(SSM\) Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/enable-aws-ssm-based-discovery.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [AWS SSM discovery, Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -33,12 +34,12 @@ The AWS SSM Agent runs with root \(Linux\) or SYSTEM \(Windows\) privileges, mea
 
 4.  Enter `true`.
 
-5.  Select the check mark \(![check mark icon](../../cloud-management-v2/image/icon-check-mark.png)\) icon.
+5.  Select the check mark \(\[Omitted image "icon-check-mark.png"\] Alt text: check mark icon\) icon.
 
 6.  To enable AWS SSM-based discovery on Windows machines, repeat steps 2-5 for the **glide.discovery.ssm.enable\_windows** property.
 
 
 ## What to do next
 
-Define fallback root behavior using the **mid.discovery.aws\_ssm.linux.fallback\_root\_user** property or create non-root credentials to execute Discovery commands using the AWS SSM Instance Users \[aws\_ssm\_instance\_user\_credentials\] table. For more information, see [Enable root fallback](../task/enable-root-fallback.md) and [Configure custom user credentials](../task/configure-custom-user-credentials.md).
+Define fallback root behavior using the **mid.discovery.aws\_ssm.linux.fallback\_root\_user** property or create non-root credentials to execute Discovery commands using the AWS SSM Instance Users \[aws\_ssm\_instance\_user\_credentials\] table. For more information, see [Enable root fallback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/enable-root-fallback.md) and [Configure custom user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-custom-user-credentials.md).
 

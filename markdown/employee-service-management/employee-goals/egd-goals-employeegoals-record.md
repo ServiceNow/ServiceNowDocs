@@ -2,6 +2,7 @@
 title: Employee Goals table
 description: The records in the Employee Goals table contain goal management data. Each record is created when the Employee Goals application imports the corresponding goal data from your organization's human capital management \(HCM\) system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-goals/egd-goals-employeegoals-record.html
 release: australia
 product: Employee Goals
 classification: employee-goals

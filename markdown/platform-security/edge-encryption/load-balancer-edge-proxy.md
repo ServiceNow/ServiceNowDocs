@@ -2,6 +2,7 @@
 title: Using a load balancer with the Edge proxy server
 description: You can use a load balancer to balance the load across the proxy servers in your Edge Encryption proxy setup. If the load balancer and proxy servers are using different ports, specify the host name and HTTPS port of the load balancer to enable users to view responses on their browser.If the load balancer and proxy servers are using different ports, specify the host name and HTTPS port of the load balancer to enable users to view responses on their browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/load-balancer-edge-proxy.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -60,7 +61,7 @@ The following properties enable the Edge proxy server to reroute response messag
 -   **edgeencryption.proxy.rewrite.location.host** specifies the host name used to access ServiceNow through the load balancer.
 -   **edgeencryption.proxy.rewrite.location.https.port** specifies the HTTPS port used to access ServiceNow through the load balancer.
 
-**Parent Topic:**[Installing Edge Encryption](../concept/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 
 ## Configure the load balancer
 

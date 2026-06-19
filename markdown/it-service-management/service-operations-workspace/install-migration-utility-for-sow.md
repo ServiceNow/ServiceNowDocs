@@ -2,6 +2,7 @@
 title: Install the Migration Utility for Service Operations Workspace
 description: You can install the Migration Utility for Service Operations Workspace application \(sn\_sow\_migration\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/install-migration-utility-for-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -55,5 +56,5 @@ The Agent Workspace Migration Request \(sn\_sow\_migration\_aw\_migration\_reque
 6.  Select **Install**.
 
 
-**Parent Topic:**[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](../concept/migration-from-itsm-aw-sow.md)
+**Parent Topic:**[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md)
 

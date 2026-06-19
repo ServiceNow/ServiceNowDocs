@@ -2,6 +2,7 @@
 title: Triage items and add them to a backlog in Agile Development 2.0
 description: Review the list of items in your triage board and add them to your Agile Development 2.0 backlog. Based on their priority, you can schedule them in the upcoming sprints for your product teams to work on them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/add-triage-board-items-to-backlog-agile-development-2.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -17,7 +18,7 @@ Review the list of items in your triage board and add them to your Agile Develop
 
 ## Before you begin
 
-[Set up a triage board in Agile Development 2.0](setup-triage-board.md)Role required: scrum\_product\_owner
+[Set up a triage board in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/setup-triage-board.md)Role required: scrum\_product\_owner
 
 ## About this task
 
@@ -35,7 +36,7 @@ These stories can be later assigned to product teams and scheduled into sprints.
 
     For example, in the screenshot here, Defects board can be selected.
 
-    ![Defects triage board in the Backlog section on the Agile board](../../agile-development/image/triage-board.png)
+    \[Omitted image "triage-board.png"\] Alt text: Defects triage board in the Backlog section on the Agile board
 
 4.  Review the list and select the ones that you want to add to the backlog.
 
@@ -48,7 +49,7 @@ The selected list of items from the triage board is added to the backlog as stor
 
 An example here shows how an associated story is created for a defect that is added to the backlog. The story has a reference to this defect in the **Original task** field.
 
-![Information of the associated story for a defect added to backlog from triage board.](../../agile-development/image/defect-from-triage-board-to-backlog.png)
+\[Omitted image "defect-from-triage-board-to-backlog.png"\] Alt text: Information of the associated story for a defect added to backlog from triage board.
 
-**Parent Topic:**[Managing your product development using Agile Development 2.0](../../agile-development/concept/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/using-agile-development-2-0.md)
 

@@ -2,6 +2,7 @@
 title: Remove User License Azure AD activity
 description: The Remove User License activity revokes the specified Office 365 software license for the named user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_RemoveUserLicenseAzureADActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -15,9 +16,9 @@ breadcrumb: [Azure AD activity pack, Orchestration activity packs, Classic Orche
 
 The Remove User License activity revokes the specified Office 365 software license for the named user.
 
-To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Azure AD**. This activity was built with the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#).
+To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Azure AD**. This activity was built with the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateARESTWebServiceActivity.md).
 
-**Important:** The REST message used for this activity must be configured to use [OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_OAuthApplications.md).
+**Important:** The REST message used for this activity must be configured to use OAuth 2.0.
 
 ## Input variables
 
@@ -41,5 +42,5 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Success|Activity removed an Office 365 license from the named user.|
 |Failure|Activity failed to remove an Office 365 from a user, or the activity failed to connect to Azure AD.|
 
-**Parent Topic:**[Azure AD activity pack](../concept/c_AzureADActivityPack.md)
+**Parent Topic:**[Azure AD activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_AzureADActivityPack.md)
 

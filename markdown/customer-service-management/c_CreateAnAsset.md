@@ -2,7 +2,10 @@
 title: Create an asset
 description: Create a record for a specific instance of a product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_CreateAnAsset.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -32,7 +35,7 @@ Customer Service Management leverages the Asset Management application to create
     -   Consumable
     -   License
     -   Facility
-4.  Fill in the fields for the selected asset type on the [Asset form](../reference/customer-service-asset-form.md), as appropriate.
+4.  Fill in the fields for the selected asset type on the [Asset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-asset-form.md), as appropriate.
 
 5.  Click **Submit**.
 

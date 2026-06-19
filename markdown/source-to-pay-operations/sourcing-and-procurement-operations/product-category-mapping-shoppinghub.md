@@ -2,6 +2,7 @@
 title: Mapping Product Categories and Units of Measure for seamless checkout in Shopping Hub
 description: You can map the product categories and units of measure for third-party products to the corresponding model categories. This ensures that during checkout, Shopping Hub accurately considers and displays the product category for the purchase order lines \(POL\) and purchase requisition lines \(PRL\) based on your predefined mappings.Create a third-party unit mapping to align the punchout supplier's unit of measure with the predefined units of measure.Create a third-party product category mapping to map the punchout supplier's product category to SPO's model category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/product-category-mapping-shoppinghub.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ You can map the product categories and units of measure for third-party products
 
 **Note:** You can configure the product category and unit of measure mappings for the products either before or after uploading the catalog index CSV file. However, it's recommended to define these mappings in advance whenever possible and reupload the CSV file if new mappings are added.
 
-**Parent Topic:**[Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md)
+**Parent Topic:**[Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md)
 
 ## Create third-party unit mapping
 
@@ -25,7 +26,7 @@ Create a third-party unit mapping to align the punchout supplier's unit of measu
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_shop.procurement\_administrator
 
 ### About this task
 
@@ -101,7 +102,7 @@ Create a third-party product category mapping to map the punchout supplier's pro
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_shop.procurement\_administrator
 
 ### Procedure
 

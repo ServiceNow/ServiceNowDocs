@@ -2,6 +2,7 @@
 title: Deactivate Create supplier case from email inbound action
 description: The Create Supplier case for email inbound action must be inactive for automatic creation of supplier cases from emails using Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/deactivate-create-supplier-case-from-email-inbound-action.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations

@@ -2,6 +2,7 @@
 title: Activate Connect Support
 description: The Connect Support plugin \(com.glide.connect.support\) is no longer available.Properties are added with activation of Connect Support.Additional plugins are available for Connect Support. These plugins integrate Connect Support with other features and provide capabilities to track performance metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_ActivateConnectSupport.html
 release: australia
 product: Connect
 classification: connect
@@ -19,9 +20,9 @@ The Connect Support plugin \(com.glide.connect.support\) is no longer available.
 
 **Important:**
 
-This plugin is no longer available. In Paris and future releases, Connect Support no longer receives enhancements or non-priority bug fixes. Consider migrating to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Migrate from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
+This plugin is no longer available. In Paris and future releases, Connect Support no longer receives enhancements or non-priority bug fixes. Consider migrating to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see Migrate from Connect Support to Advanced Work Assignment and Agent Chat.
 
-If you are currently using the legacy chat feature to provide help desk support, close any open help desk chats before activating Connect Support. Legacy chat and Connect Support should not be used concurrently. When you activate Connect Support, the system automatically sets the state of all Chat Queue Entry \[chat\_queue\_entry\] records to **Closed Complete**. This ends any open help desk chats. For more information, see [Migrate from legacy chat to Connect Support](t_ConnectSupportMigration.md).
+If you are currently using the legacy chat feature to provide help desk support, close any open help desk chats before activating Connect Support. Legacy chat and Connect Support should not be used concurrently. When you activate Connect Support, the system automatically sets the state of all Chat Queue Entry \[chat\_queue\_entry\] records to **Closed Complete**. This ends any open help desk chats. For more information, see [Migrate from legacy chat to Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_ConnectSupportMigration.md).
 
 Role required: admin
 
@@ -37,7 +38,7 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
 ## Properties installed with Connect Support
@@ -127,7 +128,7 @@ Controls whether Connect Support reflects system messages in records created fro
 
 Additional plugins are available for Connect Support. These plugins integrate Connect Support with other features and provide capabilities to track performance metrics.
 
-You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md) .
+You must have the admin role to activate these additional plugins. For details, see Activate a plugin .
 
 <table id="table_gzd_yj1_4v"><thead><tr><th>
 

@@ -2,11 +2,12 @@
 title: Evaluating the prompt
 description: Evaluating the prompt is an ongoing process that occurs during and after prompt development and completion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/evaluating-the-prompt.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [General guidelines for Now Assist Skill Kit, Exploring Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
@@ -23,7 +24,7 @@ To determine the effectiveness of your prompt, you should evaluate batches of te
 
 Ongoing, improvised evaluation should take place alongside the development of the prompt. This ongoing evaluation enables you to adapt the prompt based on observed model outputs. It may be tempting to test a change to a prompt against just one or two examples, however, to avoid reacting to noise, you should look at larger batches, and consider the statistical significance of the performance differences that you observed.
 
-![Chart that shows a comparison of prompt performance.](../image/nask-prompt-perf-comp.png)
+\[Omitted image "nask-prompt-perf-comp.png"\] Alt text: Chart that shows a comparison of prompt performance.
 
 ## Final performance evaluation
 

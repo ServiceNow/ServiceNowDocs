@@ -2,6 +2,7 @@
 title: Review the policy exception and extension request
 description: After reviewing a policy exception request, a compliance manager can accept or reject the request. However, if the compliance manager doesn't have enough information decide, they can request a risk assessment by the risk manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/review-policy-exception-request.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -27,15 +28,15 @@ Role required: compliance manager
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d232458e83">
+<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d165021e83">
 
 Option
 
-</th><th align="left" id="d232458e86">
+</th><th align="left" id="d165021e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d232458e92">
+</th></tr></thead><tbody><tr><td id="d165021e92">
 
 **To view or add impacted controls to the policy exception**
 
@@ -43,13 +44,13 @@ Action
 
 1.  Select the **Impacted Controls** tab.
 
-**Note:** You can add a single control objective if your **Source type** is **Control objective**. However, if your **Source type** is **Controls**, then you can select multiple controls from different control objectives. For more information, see [Request a policy exception](request-policy-exception.md#source-type-policy-excep).
+**Note:** You can add a single control objective if your **Source type** is **Control objective**. However, if your **Source type** is **Controls**, then you can select multiple controls from different control objectives. For more information, see [Request a policy exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/request-policy-exception.md).
 
 2.  Select the **Add** or **Add All** buttonto add the manually created controls.
 3.  Choose the controls to associate to the policy exception.
 
 
-</td></tr><tr><td id="d232458e143">
+</td></tr><tr><td id="d165021e143">
 
 **To view mitigating controls on the policy exception**
 
@@ -57,7 +58,7 @@ Action
 
 Click the Mitigating Controls tab.
 
-</td></tr><tr><td id="d232458e155">
+</td></tr><tr><td id="d165021e155">
 
 **To view or add risks to the policy exception**
 
@@ -67,7 +68,7 @@ Click the Risks tab.
 
  **Note:** This option is available when Risk Management plugin is also activated.
 
-</td></tr><tr><td id="d232458e170">
+</td></tr><tr><td id="d165021e170">
 
 **To view or add approvers to the policy exception**
 
@@ -75,7 +76,7 @@ Click the Risks tab.
 
 Click the Approvers tab.
 
-</td></tr><tr><td id="d232458e186">
+</td></tr><tr><td id="d165021e186">
 
 **To request extension**
 
@@ -91,15 +92,15 @@ Click the Approvers tab.
 </td></tr></tbody>
 </table>4.  Perform one of the following actions.
 
-<table><thead><tr><th align="left" id="d232458e246">
+<table><thead><tr><th align="left" id="d165021e246">
 
 Option
 
-</th><th align="left" id="d232458e249">
+</th><th align="left" id="d165021e249">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d232458e255">
+</th></tr></thead><tbody><tr><td id="d165021e255">
 
 **To approve the policy exception**
 
@@ -109,7 +110,7 @@ Click **Approve**.
 
  An email notification is sent to the requester that the PER was approved and goes into effect.
 
-</td></tr><tr><td id="d232458e273">
+</td></tr><tr><td id="d165021e273">
 
 **To reject the policy exception**
 
@@ -119,7 +120,7 @@ Click **Reject**.
 
  An email notification is sent to the requester that the PER was rejected and the request is closed.
 
-</td></tr><tr><td id="d232458e291">
+</td></tr><tr><td id="d165021e291">
 
 **To approve the policy extension**
 
@@ -129,7 +130,7 @@ Click **Approve Extension**.
 
  An email notification is sent to the requester that the extension request was approved and goes into effect.
 
-</td></tr><tr><td id="d232458e309">
+</td></tr><tr><td id="d165021e309">
 
 **To reject the policy extension**
 
@@ -139,7 +140,7 @@ Click **Reject Extension**.
 
  An email notification is sent to the requester that the extension request was rejected and the request is closed.
 
-</td></tr><tr><td id="d232458e328">
+</td></tr><tr><td id="d165021e328">
 
 **To request a risk assessment on the policy exception**
 
@@ -151,7 +152,7 @@ Click **Request Risk Assessment**.
 
  **Note:** This option is available when Risk Management is also activated.
 
-</td></tr><tr><td id="d232458e352">
+</td></tr><tr><td id="d165021e352">
 
 **To request business owner approval**
 
@@ -165,5 +166,5 @@ Click **Request Business Owner Approval** .
 </table>5.  Click **Update**.
 
 
-**Parent Topic:**[Manage policy exceptions and extensions](../concept/manage-policy-exceptions.md)
+**Parent Topic:**[Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md)
 

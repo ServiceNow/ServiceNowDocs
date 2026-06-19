@@ -2,6 +2,7 @@
 title: Set up the Google Docs
 description: Integrate the ServiceNow instance and Google Docs by creating a custom OAuth application in G Suite credentials to authenticate ServiceNow requests.Create a custom OAuth application from your G Suite account to enable OAuth 2.0 authentication with the Google Docs spoke.Add and configure a Google Docs connection to authenticate ServiceNow requests in Google Docs spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gdocs.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -83,7 +84,7 @@ Add and configure a Google Docs connection to authenticate ServiceNow requests i
 
 ### Before you begin
 
--   [Configure Google Docs application](setup-gdocs.md#)
+-   [Configure Google Docs application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gdocs.md)
 -   Role required: admin
 
 ### Procedure
@@ -98,11 +99,11 @@ Add and configure a Google Docs connection to authenticate ServiceNow requests i
 
 5.  On the Google Docs card, select **View Details**.
 
-    ![View Details button on Google Docs alias card.](../image/google-docs-alias-view-details.png)
+    \[Omitted image "google-docs-alias-view-details.png"\] Alt text: View Details button on Google Docs alias card.
 
 6.  Select **Configure**.
 
-    ![Button to open the Google Docs alias connection.](../image/google-docs-conn-config-button.png)
+    \[Omitted image "google-docs-conn-config-button.png"\] Alt text: Button to open the Google Docs alias connection.
 
 7.  On the **Connection** form, fill in the fields.
 
@@ -117,7 +118,7 @@ Add and configure a Google Docs connection to authenticate ServiceNow requests i
 
 8.  Click **Configure and Get OAuth Token**.
 
-    ![Google Docs connection form.](../image/google-docs-conn-form.png)
+    \[Omitted image "google-docs-conn-form.png"\] Alt text: Google Docs connection form.
 
 9.  Log in to Google to get the OAuth token.
 

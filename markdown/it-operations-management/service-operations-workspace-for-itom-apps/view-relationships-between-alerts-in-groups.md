@@ -1,7 +1,8 @@
 ---
 title: View links between alerts in a group in Express List
-description: When an alert group is generated, understand better how the alerts in the group are linked by viewing a visual representation of their relationships in Link View.
+description: Use Link View in Express List to view a visual representation of the relationships between alerts in a group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/view-relationships-between-alerts-in-groups.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -13,73 +14,78 @@ breadcrumb: [Viewing links between alerts in alert groups in Express List, Expre
 
 # View links between alerts in a group in Express List
 
-When an alert group is generated, understand better how the alerts in the group are linked by viewing a visual representation of their relationships in Link View.
+Use Link View in Express List to view a visual representation of the relationships between alerts in a group.
 
 ## Before you begin
 
-For an overview of Link View in Express List, see [Viewing links between alerts in alert groups in Express List](../concept/el-link-view.md).
+Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
-Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
+## About this task
+
+For an overview of Link View in Express List, see [Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/el-link-view.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation, select the Express List icon \(![Express List icon](../../event-management/image/express-list1.png)\).
+2.  In the primary navigation, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
 
-3.  In the fields in the interactive filter panel, select **Group** and then the check box for the alert groups you want to display.
+3.  In the fields in the interactive filter panel, select **Group** and then the check box for the alert groups to display.
 
-    **Note:** Currently, Link View is supported for tag-based, rules-based, CMDB-based, and network traffic-based alert groups.
+    **Note:** Link View is supported for the following alert group types:
 
-    -   **Tag Cluster**
-    -   **Rules-based**
-    -   **CMDB**
-    -   **Network Traffic**
+    -   Network traffic-based
+    -   Rules-based
+    -   Mixed alert groups, which include:
+        -   CMDB-based alert groups
+        -   Tag cluster-based alert groups
+        -   Related log entities
+        -   Shared impacted services
 4.  In the **Active alerts** list, select the description of an alert group.
 
     The preview panel opens to the **Alerts in group** tab, which lists all the correlated alerts in the selected group.
 
 5.  Navigate to **Link View**.
 
-6.  View the relationships between all the alerts in the selected group.
+    Link View opens, displaying the relationships between the alerts in the selected group.
 
-7.  Perform the following optional tasks.
+6.  Customize the Link View display.
 
-<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d609624e170">
+<table id="choicetable_vyh_rzk_21c"><thead><tr><th align="left" id="d557180e178">
 
 Task
 
-</th><th align="left" id="d609624e173">
+</th><th align="left" id="d557180e181">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d609624e179">
+</th></tr></thead><tbody><tr><td id="d557180e187">
 
 **Focus on an area of interest**
 
 </td><td>
 
-Select one or more nodes and rearrange them in Link View by dragging them to a new location.**Note:** After refreshing the alert group, the nodes appear in their original position again.
+Select one or more nodes and rearrange them in Link View by dragging them to a new location.
 
-</td></tr><tr><td id="d609624e190">
+</td></tr><tr><td id="d557180e196">
 
 **Refresh the alert group**
 
 </td><td>
 
-Select **Refresh**. When you've refreshed the alert group, rearranged nodes appear in their original position again. Newly-added nodes are marked as New.
+Select **Refresh**. After refreshing the alert group, rearranged nodes appear in their original position again. Newly added nodes are marked as New.
 
 **Note:** The **Refresh** button is enabled when new data for the alert group is available. Link View doesn't refresh automatically.
 
-</td></tr><tr><td id="d609624e212">
+</td></tr><tr><td id="d557180e218">
 
 **View the meaning of icons and colors**
 
 </td><td>
 
-Select the Link View legend.The legend also indicates the number of unique nodes displayed per tag. For a description of each tag, see [Attributes in Express List Link View](../reference/link-view-tags-icons-descriptions.md).
+Select the Link View legend.The legend also indicates the number of unique nodes displayed per tag. For a description of each tag, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/link-view-tags-icons-descriptions.md).
 
-</td></tr><tr><td id="d609624e230">
+</td></tr><tr><td id="d557180e236">
 
 **Reduce noise**
 
@@ -87,13 +93,13 @@ Select the Link View legend.The legend also indicates the number of unique nodes
 
 In the Link View legend, toggle between hiding and showing a tag type.
 
-</td></tr><tr><td id="d609624e240">
+</td></tr><tr><td id="d557180e246">
 
 **View information about an alert**
 
 </td><td>
 
-Hover over a node to display a tooltip with information.
+Hover over a node to display text with information about the alert.
 
 </td></tr></tbody>
 </table>

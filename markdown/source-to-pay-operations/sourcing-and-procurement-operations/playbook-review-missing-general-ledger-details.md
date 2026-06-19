@@ -2,6 +2,7 @@
 title: Review and update missing general ledger details in playbook
 description: Review and update missing General Ledger \(GL\) accounting details through the procurement playbook. If a shopper checks out multiple products from a single supplier, multiple Purchase Requisition Lines \(PRLs\) are generated, some of which could potentially contain missing GL accounting details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/playbook-review-missing-general-ledger-details.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -19,13 +20,13 @@ Review and update missing General Ledger \(GL\) accounting details through the p
 
 Role required: Fulfiller, agent
 
-![Review and update missing general ledger details in playbook](../image/pb-gl-review.png)
+\[Omitted image "pb-gl-review.png"\] Alt text: Review and update missing general ledger details in playbook
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Procurement Case Management** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the List icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and select
+2.  Select the List icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and select
 
 3.  **All work** &gt; **Cases**.
 
@@ -128,5 +129,5 @@ Updates the case to Closed Completed.
 
 The procurement case is updated with valid GL account details and the playbook is closed.
 
-**Parent Topic:**[Reviewing and updating general ledger details in playbook](../concept/general-ledger-details-in-playbook.md)
+**Parent Topic:**[Reviewing and updating general ledger details in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/general-ledger-details-in-playbook.md)
 

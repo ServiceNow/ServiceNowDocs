@@ -2,6 +2,7 @@
 title: Request personal information report
 description: As an employee or alumni, request your personal information report so that you can review it or be aware of your personal data held by your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/request-personal-information-report-rtbi.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -42,7 +43,7 @@ Role required: sn\_hr\_core.hrsm\_employee, sn\_asc.alumni, sn\_external, snc\_i
 
 ## Result
 
-An HR case is created and assigned to an agent belonging to the HR Data Privacy user group. For more information, see [Generate Personally Identifiable Information \(PII\) report](generate-pii-report-rtbi.md).
+An HR case is created and assigned to an agent belonging to the HR Data Privacy user group. For more information, see [Generate Personally Identifiable Information \(PII\) report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/generate-pii-report-rtbi.md).
 
-Alumni can log in to the Alumni Center, go to HR systems and request for the report. For more information, see [Using your Alumni Center](../concept/asc-use.md). In case customers don't have Alumni Center, the agent can create a request on behalf of the alumni.
+Alumni can log in to the Alumni Center, go to HR systems and request for the report. For more information, see [Using your Alumni Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/alumni-center/asc-use.md). In case customers don't have Alumni Center, the agent can create a request on behalf of the alumni.
 

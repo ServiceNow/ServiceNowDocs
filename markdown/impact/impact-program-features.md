@@ -2,10 +2,13 @@
 title: Exploring Impact
 description: ServiceNow Impact personalizes your digital transformation journey and accelerates your time-to-value integrated within your ServiceNow AI Platform instance and Impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/impact-program-features.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Impact]
 ---
 
@@ -51,4 +54,10 @@ ServiceNow Impact Store Application overview
 
 
 **Note:** Portions of Impact may not be available to customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted customers, or in other restricted environments, or to managed service providers \(except for their internal use\)
+
+## Impact Digest
+
+Impact Digest is auto-generated periodically and offers a personalized Impact consumption snapshot with curated content from Customer Support Managers \(CSMs\) on ServiceNow products, and Impact content.
+
+With manual curation of content by a CSM Newsletter team, based on Impact Squad’s opted topics and insightful consumption statistics, access your goals and improve platform health, product adoption, and value-realization.
 

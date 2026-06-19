@@ -2,6 +2,7 @@
 title: Configure an Emergency Outreach notification for the daily contact log
 description: As an administrator, create or configure the Emergency Outreach notification to send email and mobile push notifications to employees to ask them to submit a list of co-workers whom they have interacted with on a given day.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/configure-outreach-notif-daily-log.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -17,9 +18,9 @@ As an administrator, create or configure the Emergency Outreach notification to 
 
 ## Before you begin
 
-Ensure that you have the Emergency Outreach application installed. For details, see [Install Emergency Outreach](../../business-continuity/task/install-emergency-outreach.md#).
+Ensure that you have the Emergency Outreach application installed. For details, see [Install Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/install-emergency-outreach.md).
 
-Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md).
+Employees must have the Now® Mobile app installed on their phones to receive mobile push notifications. For more information, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md).
 
 Role required: sn\_imt\_checkin.checkin\_admin or admin
 
@@ -38,8 +39,8 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 5.  On the **Select targeted audience** tab, select the target audience for the notification, and click **Save**.
 
     -   You can choose from user lists, groups, departments, locations, or other search filters such as building, cost center, or country code.
-    -   If you have the ServiceNow® Employee Health Screening application installed, the **Use Employee Health Screen Data** option is available. Select this check box to include all employees cleared in the health screening to enter the premises. For more information, see [Employee Health Screening](../../employee-health-screening/concept/employee-health-screening.md).
-    -   If you have the ServiceNow® Workplace Core application installed, the **User Workplace Reservation Data** option is available. Select this check box to include all employees with confirmed or approved reservations for that day. For more information, see [Workplace Core](../../workplace-safety-mgmt/concept/workplace-safety-mgmt-hr.md).
+    -   If you have the ServiceNow® Employee Health Screening application installed, the **Use Employee Health Screen Data** option is available. Select this check box to include all employees cleared in the health screening to enter the premises. For more information, see [Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md).
+    -   If you have the ServiceNow® Workplace Core application installed, the **User Workplace Reservation Data** option is available. Select this check box to include all employees with confirmed or approved reservations for that day. For more information, see [Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.md).
 6.  On the **Content configuration** tab, select a notification in the **Notification** field, and choose how to send the notification.
 
     -   To send the notification by email, select the **Email notification** check box and enter the email subject and body.
@@ -61,7 +62,7 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 9.  In the Scheduled Script pop-up window, configure a scheduled job to the notification.
 
-    For more information, see [Configure a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleAScriptExecution.md).
+    For more information, see Configure a scheduled job.
 
 10. Click **Submit**.
 
@@ -74,9 +75,9 @@ An outreach notification with a scheduled job is created. The job sends notifica
 
 ## What to do next
 
-A user with the sn\_imt\_checkin.checkin\_admin role can [send the Outreach notification on demand](send-outreach-notif-daily-log.md).
+A user with the sn\_imt\_checkin.checkin\_admin role can [send the Outreach notification on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/send-outreach-notif-daily-log.md).
 
 A user with the admin or sn\_imt\_checkin.checkin\_admin role can stop the scheduled job to send the notifications automatically. To do so, click **Schedule** and in the dialog box, clear the **Active** check box, and then click **Update**.
 
-**Parent Topic:**[Setting up Contact Tracing](../concept/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 

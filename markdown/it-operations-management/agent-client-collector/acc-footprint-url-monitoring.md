@@ -2,6 +2,7 @@
 title: Agent Client Collector performance and footprint for URL monitoring
 description: The following tables display the agent performance KPIs and its footprint on the host during URL monitoring data collection execution on different operation systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-footprint-url-monitoring.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -28,5 +29,5 @@ The following tables display the agent performance KPIs and its footprint on the
 |Process CPU utilization|1% - 1.5%|1.5% - 2.5%|5% - 6%|6% - 7%|12% - 13%|
 |Host CPU utilization|~10%|~19%|~23%|~45%|~53%|
 
-**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

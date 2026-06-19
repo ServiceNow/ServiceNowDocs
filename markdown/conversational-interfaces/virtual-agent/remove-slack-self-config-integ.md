@@ -2,6 +2,7 @@
 title: Remove the self-configured bot integration with Slack
 description: Remove the self-configured bot integration from your ServiceNow instance to disassociate the Slack app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/remove-slack-self-config-integ.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -31,14 +32,14 @@ Roles required:
 
 3.  On the Channels and integration page, in the Slack tile, select **Manage**.
 
-4.  In the Manage Slack Channel page, find the Self-configured bot integration to remove from your ServiceNow instance, select the manage bot icon ![Manage bot icon.](../images/manage-bot-icon.png), and select **Remove integration**.
+4.  In the Manage Slack Channel page, find the Self-configured bot integration to remove from your ServiceNow instance, select the manage bot icon \[Omitted image "manage-bot-icon.png"\] Alt text: Manage bot icon., and select **Remove integration**.
 
-    ![Remove integration option with Self-configured bot.](../images/remove-self-bot-integration.png "Remove integration with Self-configured bot")
+    \[Omitted image "remove-self-bot-integration.png"\] Alt text: Remove integration option with Self-configured bot.
 
-5.  In the Remove integration confirmation message, select **Remove**.![Banner message confirming remove Self-configured bot integration with Slack.](../images/remove-slack-integ-success.png)
+5.  In the Remove integration confirmation message, select **Remove**.\[Omitted image "remove-slack-integ-success.png"\] Alt text: Banner message confirming remove Self-configured bot integration with Slack.
 
     The Self-configured bot integration with Slack has been removed successfully.
 
 
-**Parent Topic:**[Integrating a self-configured bot with Slack workspace](../concept/va-integ-single-slack.md)
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
 

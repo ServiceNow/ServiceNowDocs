@@ -2,6 +2,7 @@
 title: TransformPart - Scoped, Global
 description: The TransformPart API provides methods to specify details of the transform to be done.Add the specified number to the value in each time stamp.Aggregate the selected metric series into one series containing the average value for each time stamp.Create a result set that for each time stamp returns specified number of bottom values. This method results in 'count' number of series. Each value retains the label of its source series.Replace the value in any time stamp that is greater than the specified value with the specified value.Mark this transform for collection.Aggregate the selected metric series into one series containing the number of values for each time stamp.Divide the value in each time stamp by the specified number.Create a series using the specified aggregator for the specified time.Replace the value in any time stamp that is less than the specified value with the specified value.Create series made up of the value that the specified percentage of values is below. Returns a series for each fraction in the specified array.Return the part of the result relevant to this transform.Specify a field by which to group data. To specify multiple fields, run successive calls individually.pull this one too? \(see transformer\); check to see if this one's necessary Example uses models. Reserve for future when model customer doc is ready \(not available at this time\)Create a data value for a NaN data item by interpolating from adjacent data values.Perform an Interquartile range transform.Add a label for the resulting series.Returns at most the specified number of values, starting at the most recent non-NaN value.Run a logarithm on the value in each time stamp where the result is the log of the specified base for the time stamp value.Returns a series with the maximum value for each time stamp.Create a series containing the median of values for each time stamp across a set of series.Specify the metric field to be used in the transform.Returns a series with the minimum value for each time stamp.Multiply the value in each time stamp by the specified number.Partition the series into intervals of the same duration.Specify the number of data points to include in the result.Specify the minimum and maximum number of samples to include in the result.Specify an aggregator to use to create a result set of the specified size. The aggregator can be LAST, AVG, MIN, or MAX.Specify an aggregator to use to create a result set over the specified duration. The aggregator can be LAST, AVG, MIN, or MAX.Round the value in each time stamp to the specified precision.Create a series containing the standard deviation of values for each time stamp across a set of series.Subtract the specified number from the value in each time stamp.Aggregate the selected metric series into one series containing the sum of all values for each time stamp.Create a result set that for each time stamp returns the specified number of top values. This method results in 'count' number of series. Each value retains the label of its source series.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/TransformPartScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -49,7 +50,7 @@ The order the TransformPart methods are called is important.
 
 This class is part of the MetricBase application.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## TransformPart - add\(Number constant\)
 
@@ -171,7 +172,7 @@ Can be:-   AVG
 -   MIN
 -   STDDEV
 
- For definitions of these options, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/metricbase-transforms.md).
+ For definitions of these options, see MetricBase transforms.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Third-party contract review requests
 description: Employees can submit legal requests for review of third-party contracts by the legal team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/legal-request-third-party-contract.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -22,7 +23,7 @@ Third-party review requests include the following features:
 -   Electronic signature integrations with Adobe Acrobat Sign and Docusign.
 -   Support for storing contract documents in your ServiceNow instance or external storage systems such as Microsoft OneDrive and Google Drive.
 -   Legal contracts repository containing the metadata of signed contract documents.
--   Support for a configurable system property \(`sn_lg_contracts.enable_executed_contract_audit_certificate`\) to generate a certification of completion. For more information, see [Activate a system property to generate a certificate of completion](../task/configure-system-property-COC.md).
+-   Support for a configurable system property \(`sn_lg_contracts.enable_executed_contract_audit_certificate`\) to generate a certification of completion. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/configure-system-property-COC.md).
 
 ## Third-party contract review request - Workflow
 
@@ -39,14 +40,14 @@ As a legal fulfiller on the legal team, you can work on the assigned third-party
 
 After all signatories have signed the contract document, it is stored on the ServiceNow instance or an external storage system. The requester and legal department members can access the signed contract document from the Legal Contracts repository.
 
--   **[Submit a legal request for a third-party contract review](../task/submit-legal-request-tpc-review.md)**  
+-   **[Submit a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/submit-legal-request-tpc-review.md)**  
 Submit a legal request for review of third-party contracts by the legal team.
--   **[Modify a legal request](../task/update-legal-contract-request-tpc.md)**  
+-   **[Modify a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/update-legal-contract-request-tpc.md)**  
 As a legal user, modify a legal request to update the request's details or replace the attached contract document with an updated version.
--   **[Work on a TPC review request](../task/work-tpc-review-request.md)**  
+-   **[Work on a TPC review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/work-tpc-review-request.md)**  
 As a member of the legal contracts support team, review and revise a third-party contract document. You can email the revised document to stakeholders to verify the revisions and then send the ready document for e-signature from within the legal request.
--   **[Cancel a legal request](../task/cancel-legal-contract-request-tpc.md)**  
+-   **[Cancel a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/cancel-legal-contract-request-tpc.md)**  
 Cancel a third-party contract request if it is no longer necessary.
 
-**Parent Topic:**[Submitting Legal Simple Contracts requests](sub-lg-sim-conts-reqs.md)
+**Parent Topic:**[Submitting Legal Simple Contracts requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/sub-lg-sim-conts-reqs.md)
 

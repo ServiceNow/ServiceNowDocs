@@ -2,6 +2,7 @@
 title: View the smart assessment result using the Mobile agent app
 description: You can view the smart assessment that was completed as part of the safety inspection or audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-view-smart-assessment-results.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -19,11 +20,11 @@ You can view the smart assessment that was completed as part of the safety inspe
 
 Role required: sn\_hs\_rm.safety\_inspection\_writer
 
-**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](../../hs-risk-management/task/hs-configure-smart-assessment-template.md).
+**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.md).
 
 ## Procedure
 
-1.  Tap the Home icon \(![home icon](../../../reuse/images/home-page-icon.png)\).
+1.  Tap the Home icon \(\[Omitted image "home-page-icon.png"\] Alt text: home icon\).
 
 2.  Select **See all** for the **Inspections** or **Audits** section.
 
@@ -36,5 +37,5 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer
 6.  Select **Close**.
 
 
-**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](../concept/hs-manage-smart-assessments-mobile.md)
+**Parent Topic:**[Manage the smart assessment for safety inspections and audits from mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-manage-smart-assessments-mobile.md)
 

@@ -2,11 +2,14 @@
 title: Use manual registration to establish the connection to the provider instance
 description: The named contact administrator will establish a secure connection to the Impact Delivery Instance \(provider instance\) to transmit data with the Impact Store Application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/connect-instance-impact-store-app.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use manual registration to IDI, Impact reference, Impact]
+breadcrumb: [Use manual registration to configure the Impact Store Application, Impact reference, Impact]
 ---
 
 # Use manual registration to establish the connection to the provider instance
@@ -15,7 +18,7 @@ The named contact administrator will establish a secure connection to the Impact
 
 ## Before you begin
 
--   Confirm [Initiate the connection to the Impact Delivery Instance with manual registration](../concept/initiate-the-connection-impact-delivery-instance.md) is completed.
+-   Confirm [Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-the-connection-impact-delivery-instance.md) is completed.
 -   A registration email with a direct link to the IDI provider connection form is sent to the named contact administrator in order during the initial connection to IDI.
 
 Role required: Any Impact Store App role, IDI admin
@@ -30,7 +33,7 @@ Role required: Any Impact Store App role, IDI admin
 
     Detailed screens are available in the Impact Store Application manual registration steps.
 
-    ![The manual registration step to establish a connection between IDI and the Impact Store App.](../image/manual-registration-establish-connection.png)
+    \[Omitted image "manual-registration-establish-connection.png"\] Alt text: The manual registration step to establish a connection between IDI and the Impact Store App.
 
 3.  Complete the form.
 
@@ -76,7 +79,7 @@ Outbound status \(read-only\)
 
 </td><td>
 
--   Blank: No status available prior to initiating the connection to the provider.
+-   Empty: No status available before initiating the connection to the provider.
 -   Not onboarded: Status prior to connecting to IDI.
 -   Up
 
@@ -87,7 +90,7 @@ Inbound status \(read-only\)
 
 </td><td>
 
--   Blank: No status available prior to initiating the connection to the provider.
+-   Empty: No status available prior to initiating the connection to the provider.
 -   Not onboarded: Status prior to connecting to IDI.
 -   Up
 
@@ -109,8 +112,8 @@ Inbound status \(read-only\)
 
     -   Provider onboarding started: The connection is validated between the Impact Store App and the Impact Delivery Instance.
     -   Syncing settings to complete onboarding: Necessary components and settings are synchronizing and required for alignment.
-    -   Onboarding Complete: All settings have synced and you are ready to sync data from the Impact Delivery Instance.
-    ![Provider and onboarding connection status and confirmation message.](../image/onboarding-complete-png.png)
+    -   Onboarding Complete: All settings have synced and you're ready to sync data from the Impact Delivery Instance.
+    \[Omitted image "onboarding-complete-png.png"\] Alt text: Provider and onboarding connection status and confirmation message.
 
 8.  When the status updates to Onboarding Complete, select **Close**.
 
@@ -118,18 +121,18 @@ Inbound status \(read-only\)
 
 9.  Return to Guided Setup, and select **Mark Complete** to continue to verify the connection.
 
-    ![The required step to mark the new provider connection creation as successful with the Mark as complete button on the Automated Registration page in Guided Setup.](../image/create-provider-connection-automated-mark-complete.png)
+    \[Omitted image "create-provider-connection-automated-mark-complete.png"\] Alt text: The required step to mark the new provider connection creation as successful with the Mark as complete button on the Automated Registration page in Guided Setup.
 
     The **Verify the connection** activity becomes available in Guided Setup.
 
 
 ## What to do next
 
-[Verify Impact data connection](verify-impact-data-connection.md).
+[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/verify-impact-data-connection.md).
 
-**Parent Topic:**[Use manual registration to configure the Impact Store Application](../concept/use_manual_registration_configure_impact_store_application.md)
+**Parent Topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/use_manual_registration_configure_impact_store_application.md)
 
-**Previous topic:**[Initiate the connection to the Impact Delivery Instance with manual registration](../concept/initiate-the-connection-impact-delivery-instance.md)
+**Previous topic:**[Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/initiate-the-connection-impact-delivery-instance.md)
 
-**Next topic:**[Domain Separation in Impact](../concept/impact-domain-separation.md)
+**Next topic:**[Secure data transfer using Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/service-bridge-overview.md)
 

@@ -2,6 +2,7 @@
 title: Opt in to Talent Profile
 description: Opt in to the Talent Profile to access all the talent records, create talent pools, and add prospects to the job requisitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/opt-in-ta-tp.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -33,5 +34,5 @@ Role required: sn\_ta\_tp.talent\_profile\_admin
 
 You have opted in to the Talent Profile.
 
-**Parent Topic:**[Configuring Talent profile](../concept/config-tp.md)
+**Parent Topic:**[Configuring Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-tp.md)
 

@@ -2,6 +2,7 @@
 title: Exploring Pre-Visit Management
 description: Whether you're starting or expanding your implementation of the Pre-Visit Management application, consider learning more about features available to streamline and digitize the scheduling of procedure requests for your patients.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ The Pre-Visit Management application uses the data model provided by the Healthc
 
 ## Pre-Visit Management workflow
 
-![Workflow of the Pre-Visit Management application.](../image/hcls-previsit-workflow.png)
+\[Omitted image "hcls-previsit-workflow.png"\] Alt text: Workflow of the Pre-Visit Management application.
 
 In the Pre-Visit Management workflow:
 
@@ -62,7 +63,7 @@ Improve the patient experience by enabling them to digitally complete all the to
 
 </td><td>
 
-[Completing to-do items from the patient portal](pre-visit-complete-to-do.md)
+[Completing to-do items from the patient portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-complete-to-do.md)
 
 </td><td>
 
@@ -74,7 +75,7 @@ Provide a guided experience for patient service representatives to complete proc
 
 </td><td>
 
-[Managing procedure requests in Workspace](pre-visit-using-workspace.md)
+[Managing procedure requests in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-using-workspace.md)
 
 </td><td>
 
@@ -86,12 +87,12 @@ Manage appointments for scheduling a procedure request within Workspace.
 
 </td><td>
 
-[Managing appointment bookings for procedure requests](pre-visit-booking-appt.md#)
+[Managing appointment bookings for procedure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-booking-appt.md)
 
 </td><td>
 
 HCLS Agent
 
 </td></tr></tbody>
-</table>To get started with the Pre-Visit Management application, see [Configuring Pre-Visit Management](pre-visit-config-app.md).
+</table>To get started with the Pre-Visit Management application, see [Configuring Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pre-visit-config-app.md).
 

@@ -2,6 +2,7 @@
 title: OAuth 2.0 tutorial - create a REST message
 description: Create a REST message and associated HTTP method to contact the Google service using the OAuth 2.0 profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_OAuthDemoCreateRESTMessage.html
 release: australia
 product: Web Services
 classification: web-services
@@ -58,9 +59,9 @@ You must have configured an OAuth provider and profile using the Google API info
     The test result should display an **HTTP Status** of 200, and the result of the contacts API call.
 
 
-**Parent Topic:**[Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](../concept/c_OAuth2ProfileTutorialGoogle.md)
+**Parent Topic:**[Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OAuth2ProfileTutorialGoogle.md)
 
-**Previous topic:**[OAuth 2.0 tutorial - create an OAuth provider and profile](t_OAuthDemoCreateProvider.md)
+**Previous topic:**[OAuth 2.0 tutorial - create an OAuth provider and profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_OAuthDemoCreateProvider.md)
 
-**Next topic:**[Outbound REST mutual authentication](../concept/c_OutboundRESTMutualAuthentication.md)
+**Next topic:**[Outbound REST mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTMutualAuthentication.md)
 

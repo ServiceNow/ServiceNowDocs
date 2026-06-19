@@ -2,6 +2,7 @@
 title: Roles for CSDM service table configurations and service mappings
 description: Roles required for creating or viewing Common Service Data Model \(CSDM\) service table configurations and service mappings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/roles-csdm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -29,7 +30,7 @@ Service Administrator\[service\_admin\]
 
 </td><td>
 
-Can [Create a service table configuration in Service Portfolio Management](../task/config-service-table.md).
+Can [Create a service table configuration in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-service-table.md).
 
 </td></tr><tr><td>
 
@@ -38,7 +39,7 @@ Service Editor or Service Author\[service\_editor\], \[service\_author\]
 </td><td>
 
 -   Can read a configuration in Service Table Configuration.
--   Can [Configure CSDM service mappings](../task/config-csdm-ser-map.md), only if the user is the owner of the service.
+-   Can [Configure CSDM service mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-csdm-ser-map.md), only if the user is the owner of the service.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Run scheduled imports
 description: A scheduled import allows administrators to import data on a regular schedule. Run import operations on a daily, weekly, or monthly basis based on your business requirements. Scheduled import runs a datasource similar to how a scheduler job runs the script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/run-scheduled-imports.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,9 +28,9 @@ Role required: import\_scheduler, import\_admin, or admin
 
 2.  Select **Example File Based Catalog Import**
 
-    ![The Example File Based Catalog Import form.](../image/spo-run-scheduled-import.png)
+    \[Omitted image "spo-run-scheduled-import.png"\] Alt text: The Example File Based Catalog Import form.
 
-3.  Follow the steps for [data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
+3.  Follow the steps for data import.
 
 
 ## What to do next
@@ -37,5 +38,5 @@ Role required: import\_scheduler, import\_admin, or admin
 -   You can verify the data transfer records from **Procurement Integrations** &gt; **Catalog** &gt; **FTP Catalog Imports**. You can see all the data as one single payload content. See Payloads for more information.
 -   The same record is then transformed and available from **Procurement Integrations** &gt; **Catalog** &gt; **Catalog Imports**.
 
-**Parent Topic:**[Import data using FTP server](ftp-data-import.md)
+**Parent Topic:**[Import data using FTP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ftp-data-import.md)
 

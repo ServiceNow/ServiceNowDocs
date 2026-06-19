@@ -2,6 +2,7 @@
 title: Use a local data instance with a data visualization
 description: For finer grained control of the data source than you have with preconfigured data sources, create a local data instance. Then bind the local data instance to the dataPassthrough property of the data visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-local-data-instance.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ For finer grained control of the data source than you have with preconfigured da
 
 **Important:** This is an advanced procedure. Consider carefully whether you need a local data instance or can use a standard data source.
 
-Before proceeding, review [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/data-resources.md).
+Before proceeding, review .
 
 Role required: ui\_builder\_admin, admin
 
@@ -27,13 +28,13 @@ Role required: ui\_builder\_admin, admin
 
 2.  In the Data and scripts drawer, under Data resources, select **+ Add data resource**.
 
-    ![Add data resource link when there are no data resources yet.](../../par-for-workspace/image/add-data-resource.png)
+    \[Omitted image "add-data-resource.png"\] Alt text: Add data resource link when there are no data resources yet.
 
 3.  In the Select a data resource window, search for `Data visualization`.
 
     You get a selection of the data resources you can use.
 
-    ![Selection of data resources for data visualizations.](../../par-for-workspace/image/select-data-resource.png)
+    \[Omitted image "select-data-resource.png"\] Alt text: Selection of data resources for data visualizations.
 
 4.  Select a data resource that matches the type of data you want to show.
 
@@ -49,7 +50,7 @@ Role required: ui\_builder\_admin, admin
 
 8.  Copy the `@data` data bind for this data source.
 
-    ![The @data reference for a data source, with the Copy button.](../../par-for-workspace/image/data-resource-reference.png)
+    \[Omitted image "data-resource-reference.png"\] Alt text: The @data reference for a data source, with the Copy button.
 
 9.  Add the desired data visualization component to the page.
 
@@ -57,7 +58,7 @@ Role required: ui\_builder\_admin, admin
 
 11. For the **Data** field, select **Bind data or use scripts**.
 
-    ![Bind data option for the Data field.](../../par-for-workspace/image/bind-data-use-scripts.png)
+    \[Omitted image "bind-data-use-scripts.png"\] Alt text: Bind data option for the Data field.
 
 12. In the Bind data to Data dialog, under Data types, select **Data resource**.
 
@@ -67,7 +68,7 @@ Role required: ui\_builder\_admin, admin
 
     For example, the completed data bind to the local data instance data\_visualization\_api\_for\_table\_data\_source\_1 is `@data.data_visualization_api_for_table_data_source_1.output.result`.
 
-    ![Bind data to data dialog showing data resource binding to data_visualization_api_for_table_data_source_1.](../../par-for-workspace/image/bind-data-to-data.png)
+    \[Omitted image "bind-data-to-data.png"\] Alt text: Bind data to data dialog showing data resource binding to data\_visualization\_api\_for\_table\_data\_source\_1.
 
 15. Select **Apply**.
 
@@ -76,12 +77,12 @@ Role required: ui\_builder\_admin, admin
 
 You have created a local data instance and bound it to a data visualization. You can now complete the configuration of your data visualization.
 
--   **[Enable filters to apply to a local data instance](enable-filters-local-data-instance.md)**  
+-   **[Enable filters to apply to a local data instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-filters-local-data-instance.md)**  
 To enable a viewer to switch between which field values or breakdown elements they see in a data visualization, add filter components to the UI Builder page. For those filters to apply to a local data instance, configure that instance accordingly.
--   **[Enable data caching for a local data instance](enable-caching-local-data-instance.md)**  
+-   **[Enable data caching for a local data instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/enable-caching-local-data-instance.md)**  
 To help reduce the load time of data visualizations, and if real time or very fresh data is not necessary, enable data caching on the data source.
--   **[Local data instances for multiple data visualizations](../concept/local-data-instance-multi-viz.md#)**  
+-   **[Local data instances for multiple data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/local-data-instance-multi-viz.md)**  
 A special Data Visualization API data resource is available to fetch data for multiple data visualizations simultaneously. This data resource reduces the number of API calls and thus can speed up data fetching.
 
-**Parent Topic:**[Technical dashboards](../../performance-analytics/concept/technical-dashboards.md)
+**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
 

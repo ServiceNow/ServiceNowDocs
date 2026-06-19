@@ -2,6 +2,7 @@
 title: View and work with candidate details in ERP Semantic Mining
 description: View and edit candidate details and recommended actions in ERP Semantic Mining. Analyze ERP \(Enterprise Resource Planning\) system scan results, linked ERP models, usage, and similar candidates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-view-work-with-candidate-details.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -29,7 +30,7 @@ Role required: sn\_erp\_mining.erp\_user
 
 3.  View and edit basic candidate details by selecting the candidate **Name** in the list.
 
-    Alternatively, you can select a candidate directly on the ERP Semantic Mining home page. For more information, see [Browse an overview of candidates in ERP Semantic Mining](erpcm-view-home-page-overview.md).
+    Alternatively, you can select a candidate directly on the ERP Semantic Mining home page. For more information, see [Browse an overview of candidates in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-view-home-page-overview.md).
 
     The **Details** tab of the candidate is where you can review and update any basic details, as well as work with comments, attachments, and the Activity stream.
 
@@ -92,11 +93,11 @@ Additional information about the candidate.
 </td></tr></tbody>
 </table>4.  Work with the next steps by selecting the **Recommendations** tab.
 
-    For more information, see [Check candidate recommendations in ERP Semantic Mining](erpcm-work-with-recommendations.md).
+    For more information, see [Check candidate recommendations in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-work-with-recommendations.md).
 
 5.  View details about tables relevant to the candidate and the ERP system scan details by selecting the **ERP scan results** tab.
 
-    For a description of the field values, see [ERP Semantic Mining candidate scan results field descriptions](../reference/erpcm-candidate-scan-results-descriptions.md).
+    For a description of the field values, see [ERP Semantic Mining candidate scan results field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-candidate-scan-results-descriptions.md).
 
 6.  Check and note which ERP models are ERP Semantic Mining identified as being related to the candidate by selecting the **Models** tab.
 
@@ -116,7 +117,7 @@ Additional information about the candidate.
 
     Similar candidates are helpful when planning how to best replatform a legacy app. When you replatform a custom app from the system of record, you don't have to replicate the old app exactly. Use the replatforming process to design a better app. For example, an app that addresses the needs of multiple similar candidates in a single, new app built using low-code tools on the ServiceNow AI Platform.
 
-    For a description of the field values, see [ERP Semantic Mining similar candidates field descriptions](../reference/erpcm-similar-candidates-field-descriptions.md).
+    For a description of the field values, see [ERP Semantic Mining similar candidates field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-similar-candidates-field-descriptions.md).
 
 9.  Select the **Save** button and save any changes you made to the candidate details.
 
@@ -125,13 +126,13 @@ Additional information about the candidate.
 
 After you work with the candidate details and identify similar candidates, you can:
 
--   [Check candidate recommendations in ERP Semantic Mining](erpcm-work-with-recommendations.md).
--   [Save potential candidates to replatform](erpcm-find-candidates.md).
--   Continue building remote table and extraction tables in the relevant ERP model in Zero Copy Connector for ERP, making the data available on the ServiceNow AI Platform. For more information, see [Using Zero Copy Connector for ERP](../../erp-integration/concept/work-with-erp-systems-connections-and-remote-tables.md).
+-   [Check candidate recommendations in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-work-with-recommendations.md).
+-   [Save potential candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-find-candidates.md).
+-   Continue building remote table and extraction tables in the relevant ERP model in Zero Copy Connector for ERP, making the data available on the ServiceNow AI Platform. For more information, see [Using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md).
 
 **Note:**
 
 If you delete a candidate from ERP Semantic Mining, the candidate automatically reappears the next time the ERP system is scanned. Instead of deleting candidates, use the **Save as potential candidate** feature to organize your candidates.
 
-**Parent Topic:**[Finding and working with candidates to replatform](../concept/work-with-candidates.md)
+**Parent Topic:**[Finding and working with candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/work-with-candidates.md)
 

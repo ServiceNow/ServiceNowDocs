@@ -2,11 +2,12 @@
 title: Explore Contract Management Pro for Legal Service Delivery
 description: Learn more about Contract Management Pro for Legal Service Delivery through a sample workflow and review the benefits it can provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-expl-sn-legal-contracts.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
 breadcrumb: [Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,11 +33,11 @@ With the Legal Contract Management Pro for Legal Service Delivery, you can confi
 
 ## Non-disclosure agreement contract request workflow
 
-![A flowchart illustrating the workflow of non-disclosure-agreement.](../../contract-mgmt-pro/image/mmasset0021153-nda-lsd-horizontal.png "Non-disclosure agreement request workflow")
+\[Omitted image "mmasset0021153-nda-lsd-horizontal.png"\] Alt text: A flowchart illustrating the workflow of non-disclosure-agreement.
 
 A sample workflow for a non-disclosure agreement \(NDA\) contract request might progress as follows:
 
-1.  Legal configurator sets up the foundation data for submitting an NDA request. For more information, see [Configure Contract Management Pro for Legal Service Delivery](snlc-config-sn-legal-contracts.md).
+1.  Legal configurator sets up the foundation data for submitting an NDA request. For more information, see [Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md).
 2.  Legal requester fills out the NDA intake request form.
 3.  A contract request is initiated.
 4.  Contract document is generated from a contract template and content is added dynamically per predefined conditions.
@@ -68,7 +69,7 @@ A sample workflow for a non-disclosure agreement \(NDA\) contract request might 
 
 ## Third-party contract review request workflow
 
-![A flowchart illustrating the workflow of third-party contract review.](../../contract-mgmt-pro/image/mmasset0021154-tpc-lsd-horizontal.png "Third-party contract review workflow")
+\[Omitted image "mmasset0021154-tpc-lsd-horizontal.png"\] Alt text: A flowchart illustrating the workflow of third-party contract review.
 
 As a legal fulfiller on the legal team, you work on assigned third-party review requests by completing the following activities:
 
@@ -122,7 +123,7 @@ Submit, review, finalize, and manage legal contract requests. The legal departme
 
 </td><td>
 
-[Contract Management Pro for Legal Service Delivery](snlc-expl-legal-contracts.md)
+[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.md)
 
 </td><td>
 
@@ -135,7 +136,7 @@ Configure word document templates for contract to streamline and reduce the need
 
 </td><td>
 
-[Word Document Templates](../../contract-mgmt-pro/concept/cncore-expl-wdt.md)
+[Word Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expl-wdt.md)
 
 </td><td>
 
@@ -147,7 +148,7 @@ Effectively manage a library of clause variations. Use clause variations to dyna
 
 </td><td>
 
-[Clause Management](../../contract-mgmt-pro/concept/cncore-expl-clause-mgmt.md)
+[Clause Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expl-clause-mgmt.md)
 
 </td><td>
 
@@ -159,7 +160,7 @@ Use Microsoft Word documents to add content controls that act as placeholders fo
 
 </td><td>
 
-[Microsoft Word add-in for ServiceNow Contracts](../../contract-mgmt-pro/concept/cncore-expl-snc-addin.md)
+[Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-expl-snc-addin.md)
 
 </td><td>
 
@@ -171,7 +172,7 @@ Initiate and manage amendment requests.
 
 </td><td>
 
-[Contract amendments](snlc-amend-req-landing.md)
+[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
 
 </td><td>
 
@@ -184,7 +185,7 @@ Track and manage contract obligations to help ensure compliance and minimize ris
 
 </td><td>
 
-[Obligation Management](../../contract-mgmt-pro/concept/cncore-obligation-management.md)
+[Obligation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-obligation-management.md)
 
 </td><td>
 
@@ -196,7 +197,7 @@ Use Now Assist in Contract Management to analyze contracts for non-standard and 
 
 </td><td>
 
-[Now Assist in Contract Management](../../contract-mgmt-pro/concept/cncore-now-assit-landing.md)
+[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
 
 </td><td>
 
@@ -207,13 +208,13 @@ Now Assist contract fulfiller
 
 To learn more about configuring and using , see:
 
--   [Configure Contract Management Pro for Legal Service Delivery](snlc-config-sn-legal-contracts.md)
--   -   [Non-disclosure agreement requests](snlc-request-nda-1.md)
--   [Third-party contract review requests](snlc-request-third-party-contract-1.md)
--   [Contract Management Pro for Legal Service Delivery reference](snlc-ref-sn-legal-contracts.md)
+-   [Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
+-   -   [Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+-   [Third-party contract review requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+-   [Contract Management Pro for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-ref-sn-legal-contracts.md)
 
--   **[Contract Management Pro for Legal Service Delivery](snlc-expl-legal-contracts.md)**  
+-   **[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.md)**  
 Contract Management Pro for Legal Service Delivery enables you to submit, review, finalize, and manage legal contract requests. The legal department can manage and process these submitted legal requests for contracts from a centralized location.
 
-**Parent Topic:**[Contract Management Pro for Legal Service Delivery](snlc-mgmt-pro-landing-page.md)
+**Parent Topic:**[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-mgmt-pro-landing-page.md)
 

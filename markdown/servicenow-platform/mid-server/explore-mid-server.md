@@ -2,6 +2,7 @@
 title: Exploring MID Server
 description: MID Server acts as the mediator between the network and the instance. MID Servers are used by other applications to connect to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/explore-mid-server.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -23,37 +24,37 @@ To set up a MID Server, the network must be prepared to access the instance and 
 
 After configuring your MID Server, you can add security by encrypting MID Server parameter values in the `config.xml` file. Encryption protects data that the MID Server returns to the ECC Queue. Other available security options include the authorization of SOAP requests, restricting access to the MID Server configuration file, and establishing secure socket layer \(SSL\) connections.
 
-![MID Server overview diagram.](../image/mid-server-overview-diagram.png)
+\[Omitted image "mid-server-overview-diagram.png"\] Alt text: MID Server overview diagram.
 
 ## Upgrading the MID Server
 
-The MID Server checks with the instance periodically to see if an upgrade is necessary. If the MID Server detects that a new version is available for upgrade, it downloads the installer from `install.service-now.com` and runs the package automatically. You can also elect to upgrade the MID Server manually. See [MID Server upgrades](c_UpgradeAndTestMIDServer.md) for details.
+The MID Server checks with the instance periodically to see if an upgrade is necessary. If the MID Server detects that a new version is available for upgrade, it downloads the installer from `install.service-now.com` and runs the package automatically. You can also elect to upgrade the MID Server manually. See [MID Server upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_UpgradeAndTestMIDServer.md) for details.
 
 ## Resolving MID Server issues
 
-You can search the HI Knowledge Base for troubleshooting articles or monitor the MID Server status and track active issues from within the instance. Many articles on resolved MID Server issues have been collected on [Servicenow MID Server Landing page \[KB0960404\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0960404). For more information about common resolution procedures, see [Resolving MID Server issues](../reference/r_MIDServerTroubleshooting.md).
+You can search the HI Knowledge Base for troubleshooting articles or monitor the MID Server status and track active issues from within the instance. Many articles on resolved MID Server issues have been collected on [Servicenow MID Server Landing page \[KB0960404\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0960404). For more information about common resolution procedures, see [Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md).
 
 ## ServiceNow applications that use the MID Server
 
--   [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discovery-setup.md)
--   [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationMID.md)
--   [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
--   [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMConfiguration.md)
--   [Operational Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/get-started-metrics.md)
--   [Cloud Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-configuration.md)
--   [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md)
--   [Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/cloud-insights-landing-page.md)
--   [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-landing-page.md)
+-   Discovery
+-   Orchestration
+-   Service Mapping
+-   Event Management
+-   Operational Intelligence
+-   Cloud Management
+-   IntegrationHub
+-   Cloud Cost Management
+-   Agent Client Collector
 
 ## External applications that use the MID Server
 
--   [Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
--   [Microsoft SMS/SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_MicrosoftSCCMIntegration.md)
--   [LANDesk Maintenance Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_CSDExtensionFramework.md)
--   [Microsoft System Center Operations Manager \(SCOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
--   [Microsoft MIIS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/c_UsingADAMSyncToPopulateADAM.md)
+-   Import Sets
+-   Microsoft SMS/SCCM
+-   LANDesk Maintenance Suite
+-   Microsoft System Center Operations Manager \(SCOM\)
+-   Microsoft MIIS
 
 ## Begin MID Server installation
 
-Continue to [Configuring MID Server](configure-mid-server.md) to find procedures on preparing the network, installing MID Servers, and configuring them.
+Continue to [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/configure-mid-server.md) to find procedures on preparing the network, installing MID Servers, and configuring them.
 

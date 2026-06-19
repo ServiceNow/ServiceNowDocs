@@ -2,7 +2,10 @@
 title: Enable Now Assist to generate wrap up code and notes summary
 description: Configure Now Assist in your ServiceNow instance to enable the feature to automatically analyze interaction transcripts and recommend wrap up codes and generate notes summaries. This configuration allows agents to use AI-generated suggestions during the wrap up process or manually invoke the skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -17,7 +20,7 @@ Configure Now Assist in your ServiceNow instance to enable the feature to automa
 
 After an Interaction ends or is transferred to a new agent, the interaction may enter a wrap up state. During this state, agents must select a wrap up code and enter notes to document the interaction. Now Assist can analyze the interaction transcript and recommend an appropriate wrap up code based on the conversation and available wrap up code options. The skill also generates a summary of the interaction to populate the notes field. You can configure the system to automatically generate these recommendations when wrap up begins, or you can enable manual generation where agents click a button to invoke the skill when needed. Manual generation gives customers control over token usage by calling the LLM only when requested.
 
-See [Use AI to generate wrap up code and notes summary](../concept/ai-generated-wrap-up-codes-and-notes-summary.md) and [AI interaction wrap-up](../concept/interaction-wrapup-ai-generated.md).
+See [Use AI to generate wrap up code and notes summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ai-generated-wrap-up-codes-and-notes-summary.md) and [AI interaction wrap-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-wrapup-ai-generated.md).
 
 Role required: admin
 
@@ -31,7 +34,7 @@ Review the following dependencies to ensure access to configuration:
 
 1.  Verify the Now Assist for **Wrap Up** skill is activated:
 
-    ![Activate the Wrap Up Completion skill](../image/int-wrap-up-completion-skill.jpg)
+    \[Omitted image "int-wrap-up-completion-skill.jpg"\] Alt text: Activate the Wrap Up Completion skill
 
     1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**
 
@@ -43,7 +46,7 @@ Review the following dependencies to ensure access to configuration:
 
 2.  Create wrap up codes with detailed description:
 
-    ![Create Wrap Up Codes with detailed description](../image/int-configure-wrap-up-code-description.jpg)
+    \[Omitted image "int-configure-wrap-up-code-description.jpg"\] Alt text: Create Wrap Up Codes with detailed description
 
     1.  Navigate to **All** &gt; **Interaction** &gt; **Wrap up Codes**.
 
@@ -53,7 +56,7 @@ Review the following dependencies to ensure access to configuration:
 
 3.  Configure wrap up codes for your interaction type:
 
-    ![Interaction Wrap Up configuration](../image/int-wrap-up-configuration.jpg)
+    \[Omitted image "int-wrap-up-configuration.jpg"\] Alt text: Interaction Wrap Up configuration
 
     1.  Navigate to **All** &gt; **Interaction** &gt; **Wrap Up Configuration** and open the wrap up configuration record for your interaction type.
 

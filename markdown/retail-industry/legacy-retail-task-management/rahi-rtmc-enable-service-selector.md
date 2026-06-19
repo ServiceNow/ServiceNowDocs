@@ -2,6 +2,7 @@
 title: Enable service selector for Retail Task Management Core
 description: Activate the service selector to set up multi-store case capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/retail-industry/legacy-retail-task-management/rahi-rtmc-enable-service-selector.html
 release: australia
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management

@@ -2,6 +2,7 @@
 title: Define Microsoft SharePoint Online tenants
 description: Define a profile for your Microsoft SharePoint Online tenant site. The Microsoft SharePoint Online spoke uses the tenant record and associated Connection and Credential alias to perform actions on Microsoft SharePoint Online.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-tenant.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -65,7 +66,7 @@ Tenant Id
 
 </td><td>
 
-Enter the Tenant ID. This is the Directory ID for the Azure AD Directory that is supporting the Microsoft SharePoint Online tenant you want to connect to. See [Configure OAuth application in Microsoft Azure](configure-oauth-application-in-microsoft-azure.md).
+Enter the Tenant ID. This is the Directory ID for the Azure AD Directory that is supporting the Microsoft SharePoint Online tenant you want to connect to. See [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
 
 </td></tr><tr><td>
 

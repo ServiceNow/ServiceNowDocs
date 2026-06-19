@@ -2,6 +2,7 @@
 title: Local authentication
 description: Use ServiceNow local authentication to secure the users login on a local device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/local-authentication.html
 release: australia
 product: Authentication
 classification: authentication

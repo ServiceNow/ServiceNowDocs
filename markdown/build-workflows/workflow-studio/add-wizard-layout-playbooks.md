@@ -2,6 +2,7 @@
 title: Configure a wizard layout for a playbook
 description: Configure a wizard layout that presents a playbook as a guided, step-by-step experience for end users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/add-wizard-layout-playbooks.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,8 +22,8 @@ Role required: admin, playbook.admin
 
 Before you configure a wizard layout, ensure that you:
 
--   Have an existing playbook with the activities you want end users to complete. For more information, see [Create a playbook](create-process-definition.md).
--   Have access to UI Builder and can edit or create a UI Builder page to host the playbook that you created. For more information, see [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md).
+-   Have an existing playbook with the activities you want end users to complete. For more information, see [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-process-definition.md).
+-   Have access to UI Builder and can edit or create a UI Builder page to host the playbook that you created. For more information, see .
 
 ## Procedure
 
@@ -60,5 +61,5 @@ End users see the playbook displayed as a guided wizard, with clear step-by-step
 -   Refine step labels or layout configuration based on feedback.
 -   Reuse the wizard layout pattern for other multi-step playbooks.
 
-**Parent Topic:**[Wizard layouts for playbooks](../concept/wizard-layouts-playbooks.md)
+**Parent Topic:**[Wizard layouts for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/wizard-layouts-playbooks.md)
 

@@ -2,6 +2,7 @@
 title: Install and configure the ServiceNow application for the Secureworks CTP ticket ingestion integration
 description: Before you run the integration on your ServiceNow AI Platform instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-install-configure.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,27 +22,25 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  If you have not installed the Secureworks CTP ticket application from the ServiceNow Store for the integration, see [Install a Security Operations integration](../../../security-incident-response/task/install-non-core-apps.md) and follow the steps to install it.
+1.  If you have not installed the Secureworks CTP ticket application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/install-non-core-apps.md) and follow the steps to install it.
 
 2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Secureworks CTP Ticket Ingestion Integration tile.
 
-    ![Secureworks CTP: Configure](../image/secureworks-config.gif)
+3.  To configure the application, select **New**.
 
-3.  To configure the application, click **New**.
-
-4.  Alternatively, if a **Configure** button is displayed on a tile, click it to edit an existing configuration.
+4.  Alternatively, if a **Configure** button is displayed on a tile, select it to edit an existing configuration.
 
 5.  In the dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d275693e158">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d259050e144">
 
 Field
 
-</th><th align="left" id="d275693e161">
+</th><th align="left" id="d259050e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d275693e167">
+</th></tr></thead><tbody><tr><td id="d259050e153">
 
 **Name**
 
@@ -49,7 +48,7 @@ Description
 
 Name of the Secureworks CTP instance used for the integration. You can enter only alphanumeric values and hyphens \(-\) in this field.
 
-</td></tr><tr><td id="d275693e182">
+</td></tr><tr><td id="d259050e168">
 
 **Description**
 
@@ -57,7 +56,7 @@ Name of the Secureworks CTP instance used for the integration. You can enter onl
 
 Enter a description for the user account.
 
-</td></tr><tr><td id="d275693e191">
+</td></tr><tr><td id="d259050e177">
 
 **Username**
 
@@ -69,7 +68,7 @@ Enter the username for the Secureworks CTP API account. Note that the username i
 -   Navigate to **Account** &gt; **Account Management** &gt; **API Credentials**. The username is displayed on the API Credential page.
 
 
-</td></tr><tr><td id="d275693e229">
+</td></tr><tr><td id="d259050e215">
 
 **API Password**
 
@@ -82,12 +81,12 @@ Enter the Secureworks CTP API Password. To find the API Password, follow these s
 For more information on how to obtain the username and API password, follow the steps in the Generating a Persistent API Key section of the Secureworks Ticketing API Guide.
 
 </td></tr></tbody>
-</table>6.  Click **Submit**.
+</table>6.  Select **Submit**.
 
     After it is successfully validated and submitted, each configuration is saved on the Security Integrations page as a tile.
 
 
 ## Result
 
-If your saved configuration tiles are not displayed on the Security Integrations page. On the top right corner of the page, from the **Show Configurations** choice list, click **Yes**.
+If your saved configuration tiles are not displayed on the Security Integrations page. On the top right corner of the page, from the **Show Configurations** list, select **Yes**.
 

@@ -2,6 +2,7 @@
 title: Suspend account configuration fields
 description: Suspend the account configuration form and related list field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/suspend-details.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -63,7 +64,7 @@ Suspension SCP policy ID \(applicable only for AWS\)
 
 The AWS suspension policy ID. This policy ID is used to suspend the AWS account. Service control policies limit the resources, services, and API operations.
 
- To configure AWS suspend policy, see [Set up suspension of an AWS account using service control policy](../task/configure-suspension-policy.md).
+ To configure AWS suspend policy, see [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configure-suspension-policy.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Azure suspension policy ID \(applicable only for Azure\)
 
 The Azure suspension policy ID. This policy ID is used to suspend the Azure account. Service control policies limit the resources, services, and API operations.
 
- To configure Azure suspend policy, see [Set up suspension of a subscription using Azure policy](../task/configuring-lock-unlock-policy-for-azure.md).
+ To configure Azure suspend policy, see [Set up suspension of a subscription using Azure policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configuring-lock-unlock-policy-for-azure.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +85,7 @@ Description
 Information that can be recorded in work notes.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Suspend a Cloud account](../concept/suspend-account.md).
+</table>To return to the procedure, see [Suspend a Cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/suspend-account.md).
 
-**Parent Topic:**[Cloud Account Management reference](cam-reference.md)
+**Parent Topic:**[Cloud Account Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/cam-reference.md)
 

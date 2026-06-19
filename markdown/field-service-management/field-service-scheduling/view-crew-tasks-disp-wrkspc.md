@@ -2,6 +2,7 @@
 title: View crew tasks on Dispatcher Workspace
 description: As a dispatcher, you can view the tasks that require crew and are assigned to a crew.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/view-crew-tasks-disp-wrkspc.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

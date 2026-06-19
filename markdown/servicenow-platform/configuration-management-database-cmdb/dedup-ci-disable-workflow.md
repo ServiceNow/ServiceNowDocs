@@ -2,6 +2,7 @@
 title: Turn off workflows of related tables during remediation
 description: Configure de-duplication remediation processes for related tables, to turn off the execution of business rules, workflows, and any other automatic processes that might be turning off the update of referenced duplicate CIs to the main CI. Disabling all these workflows of related tables, allow de-duplication tasks, that would otherwise fail, to complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/dedup-ci-disable-workflow.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,7 +24,7 @@ Each record in the reconcile\_duplicate\_related\_table\_config table represents
 
 Add records to the De-duplication Related Table Configurations table to configure additional related tables for which you'd like to skip business rules and/or ignore database errors during de-duplication remediation.
 
-For more information about the **glide.duplicate\_ci\_remediator.merge\_related\_items\_enhanced** property or the De-duplication Related Table Configurations \[reconcile\_duplicate\_related\_table\_config\] table, see [Properties related to remediation of duplicate CIs](../reference/properties-duplicate-ci.md) and [Components installed for duplicate CI remediation](../reference/components-installed-with-dup-ci.md).
+For more information about the **glide.duplicate\_ci\_remediator.merge\_related\_items\_enhanced** property or the De-duplication Related Table Configurations \[reconcile\_duplicate\_related\_table\_config\] table, see [Properties related to remediation of duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/properties-duplicate-ci.md) and [Components installed for duplicate CI remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/components-installed-with-dup-ci.md).
 
 ## Before you begin
 
@@ -85,5 +86,5 @@ Conditions that restricts the application of settings only to those records in *
 
 When configuring de-duplication remediation, you select which tables to include when merging related items. If any table that you select in that configuration step, has a record in the De-duplication Related Table Configurations table to disable workflow, an alert appears. Review that alert carefully, re-examine business rules and other automated processes to confirm your intention of disabling workflows for the respective table.
 
-**Parent Topic:**[Duplicate CIs remediation](../concept/de-duplication-tasks.md)
+**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

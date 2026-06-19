@@ -2,6 +2,7 @@
 title: Prepare a CSV file for mapping your candidates
 description: Organize information about potential application services \(candidates\) in your organization and save it in a CSV file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/prepare-csv-file.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -89,7 +90,7 @@ E
 
 ## What to do next
 
-[Map multiple application services from a CSV file using classic Service Mapping](import-business-services-csv.md)
+[Map multiple application services from a CSV file using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/import-business-services-csv.md)
 
-**Parent Topic:**[Map multiple application services from a CSV file using classic Service Mapping](import-business-services-csv.md)
+**Parent Topic:**[Map multiple application services from a CSV file using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/import-business-services-csv.md)
 

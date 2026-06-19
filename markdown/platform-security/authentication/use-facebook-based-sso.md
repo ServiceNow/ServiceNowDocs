@@ -2,6 +2,7 @@
 title: Use Facebook-based Single Sign-On \(SSO\)
 description: Log in to your ServiceNow instance by using your Facebook credentials on the Facebook-based SSO.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/use-facebook-based-sso.html
 release: australia
 product: Authentication
 classification: authentication
@@ -19,7 +20,7 @@ Log in to your ServiceNow instance by using your Facebook credentials on the Fac
 
 The Facebook-based SSO is shipped along with your ServiceNow instance.
 
-You can define the Identity Provider \(Idp\) configurations to the **OIDC\_Facebook** IdP as your **Identity Providers**. For more information about Idp configurations, see [Configure a Facebook-based Single Sign-On \(SSO\)](configure-facebook-based-sso.md).
+You can define the Identity Provider \(Idp\) configurations to the **OIDC\_Facebook** IdP as your **Identity Providers**. For more information about Idp configurations, see [Configure a Facebook-based Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-facebook-based-sso.md).
 
 Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
@@ -125,7 +126,7 @@ Logo URL
 Publicly available URL that contains the logo of the OIDC IdP provider. This field appears only when **Show as Login option** is enabled.
 
 </td></tr></tbody>
-</table>    ![OIDC Facebook](../images/oidc-facebook.png)
+</table>    \[Omitted image "oidc-facebook.png"\] Alt text: OIDC Facebook
 
 4.  Open the **User Provisioning** tab, and fill in the fields.
 
@@ -201,7 +202,7 @@ List of roles applied to the newly provisioned users.
 </td></tr></tbody>
 </table>5.  In the **OIDC Entity** tab, view and modify the OIDC client configuration and OIDC connect flow using the entity record.
 
-    For more information related to OIDC-based configuration, see [Configure an OAuth OIDC provider for accepting third-party token](../../../administer/security/task/add-OIDC-entity.md)
+    For more information related to OIDC-based configuration, see [Configure an OAuth OIDC provider for accepting third-party token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/add-OIDC-entity.md)
 
 6.  In the **OIDC Provider Configuration** tab, view and modify the well-know configuration URL of the OIDC IdP.
 

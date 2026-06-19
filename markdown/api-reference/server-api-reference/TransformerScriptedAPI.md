@@ -2,6 +2,7 @@
 title: Transformer - Scoped, Global
 description: The Transformer API provides methods to parse and transform structured JSON or XML source content into structured key-value pair output, using a defined set of rules.Instantiates a Transformer object \(constructor\).Returns the row resulting from the last transformation \(or null if no row exists\).Transforms the next available row/node in the source document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/TransformerScriptedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -89,7 +90,7 @@ Output:
  {ticker: "Now", change_percentage: "0", close_price: "165.77 USD", summary: "Shares of Now closed at 165.77" }
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Transformer - Transformer\(Object transformerDefinition, String document\)
 

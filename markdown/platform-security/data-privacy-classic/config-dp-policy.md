@@ -2,6 +2,7 @@
 title: Create a data privacy policy
 description: Configure a data privacy policy to specify which data privacy techniques are used when anonymizing your data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/config-dp-policy.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -19,7 +20,7 @@ Configure a data privacy policy to specify which data privacy techniques are use
 
 The data privacy configuration defines tables, sys\_user and other, and columns to the de-identified, depending on the use case and specifies parameterized types of the techniques to be used while de-identifying data.
 
-**Note:** To complete a privacy configuration, you must first configure a data privacy technique configuration. See [Create a data privacy technique configuration](config-dp-technique.md) for more information.
+**Note:** To complete a privacy configuration, you must first configure a data privacy technique configuration. See [Create a data privacy technique configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/config-dp-technique.md) for more information.
 
 Role required: data\_privacy\_admin and admin
 
@@ -27,7 +28,7 @@ Role required: data\_privacy\_admin and admin
 
 1.  Elevate to the **data\_privacy\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
 
 2.  Navigate to **System Security** &gt; **Data Privacy \(Classic\)** &gt; **Privacy Policy Configuration**.
 
@@ -37,7 +38,7 @@ Role required: data\_privacy\_admin and admin
 
 5.  In the **Data Class** field, select the data class to use with this policy.
 
-    Data privacy policies can only apply to classified data, for more information on data classification, see [Data classification](../concept/data-classification.md).
+    Data privacy policies can only apply to classified data, for more information on data classification, see [Data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification/data-classification.md).
 
     After selecting a data class, the **Privacy Classified Field Techniques** and **Privacy Primary Reference Links** lists display on the form.
 
@@ -52,7 +53,7 @@ Role required: data\_privacy\_admin and admin
 
 7.  Select **Supports Rollback** to enable the ability to de-anonymize the data from a data privacy job.
 
-    See [Roll back a data privacy job](rollback-data-privacy-job.md) for more information.
+    See [Roll back a data privacy job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/rollback-data-privacy-job.md) for more information.
 
     After selecting **Supports Rollback** when creating a data privacy job, the option to roll back the job becomes available.
 
@@ -71,5 +72,5 @@ Role required: data\_privacy\_admin and admin
 
 ## What to do next
 
-[Configure a data privacy job](config-data-privacy-job.md).
+[Configure a data privacy job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/config-data-privacy-job.md).
 

@@ -1,17 +1,18 @@
 ---
-title: Create sites in the Enterprise Asset Management
+title: Create a site in the Enterprise Asset Management application
 description: Create a site for asset groups in the Enterprise Asset Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-sites-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
-# Create sites in the Enterprise Asset Management
+# Create a site in the Enterprise Asset Management application
 
 Create a site for asset groups in the Enterprise Asset Management application.
 
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin
 
 ## About this task
 
-For detailed information on what sites are and how are they used in asset groups, see [Asset groups in Enterprise Asset Management](../concept/asset-groups-eam.md).
+For detailed information on what sites are and how are they used in asset groups, see [Asset groups in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/asset-groups-eam.md).
 
 ## Procedure
 

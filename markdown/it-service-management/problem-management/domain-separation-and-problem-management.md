@@ -2,6 +2,7 @@
 title: Domain separation and Problem Management
 description: Domain separation is supported in Problem Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/domain-separation-and-problem-management.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -24,7 +25,7 @@ Domain separation is supported in Problem Management. Domain separation enables 
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation in Problem Management - Overview
 
@@ -47,10 +48,10 @@ If installed, the Task-Outage Relationship table is not domain separated. Theref
 
 The Task-Outage Relationship table is installed when administrator activates the optional Task-Outage Relationship plugin.
 
-**Parent Topic:**[Reference section for Problem Management](reference-section-for-problem-management.md)
+**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

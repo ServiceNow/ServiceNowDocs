@@ -2,6 +2,7 @@
 title: Web services C Sharp .NET end to end tutorial
 description: Examples demonstrating how to use .NET to consume a ServiceNow web service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_CSharpNETEndEnd.html
 release: australia
 product: Web Services
 classification: web-services
@@ -17,14 +18,14 @@ Examples demonstrating how to use .NET to consume a ServiceNow web service.
 
 This tutorial will show you how to configure ServiceNow correctly to receive a web service request from your .NET client, as well as how to consume our web services using C\# .NET.
 
--   **[Configure C sharp with .NET](../task/t_ConfigureCSharpWith.NET.md)**  
+-   **[Configure C sharp with .NET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfigureCSharpWith.NET.md)**  
 Configure web services within ServiceNow.
--   **[Call a web service in visual studio .NET](c_CallAWebServiceInVisualStudioNET.md)**  
+-   **[Call a web service in visual studio .NET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_CallAWebServiceInVisualStudioNET.md)**  
 Call a web service using Visual Studio 2008.
--   **[C Sharp integration results](c_Results.md)**  
+-   **[C Sharp integration results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_Results.md)**  
 If you have followed the tutorial correctly, you should receive the result whether you used a Service Reference or a Web Reference.
--   **[Troubleshoot a null response in a C Sharp integration](c_Troubleshoot.md)**  
+-   **[Troubleshoot a null response in a C Sharp integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_Troubleshoot.md)**  
 Receiving a null response from ServiceNow's web service.
 
-**Parent Topic:**[Inbound web service examples](c_InboundWebServiceExamples.md)
+**Parent Topic:**[Inbound web service examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_InboundWebServiceExamples.md)
 

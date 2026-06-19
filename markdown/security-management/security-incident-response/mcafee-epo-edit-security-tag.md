@@ -2,6 +2,7 @@
 title: Edit the start and completion tag names and colors
 description: You may prefer to edit the names and colors of the start and complete tags for the initiate malware scan and isolate host capabilities. The start and complete tags help you quickly identify which capabilities are invoked from ServiceNow AI Platform Security Incident Response \(SIR\) security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/mcafee-epo-edit-security-tag.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,33 +22,29 @@ Role required: sn\_si.admin
 
 ## About this task
 
-As a user with the sn\_si.admin role, you may prefer to edit the colors and names of the security tags that are displayed on SIR security incidents. You may also assign tags to security tag groups to help you organize them in your ServiceNow AI Platform® instance. For example, you can change the colors of tags so the start tag of a capability is one color, and the completion tag is another color. These different colors can help you quickly identify when scans start and are successfully completed. For more information on how to set up security tag groups and tags, see [Set up security tag groups and tags](../../security-operations-common/task/create-class-group-and-tags.md).
+As a user with the sn\_si.admin role, you may prefer to edit the colors and names of the security tags that are displayed on SIR security incidents. You may also assign tags to security tag groups to help you organize them in your ServiceNow AI Platform® instance. For example, you can change the colors of tags so the start tag of a capability is one color, and the completion tag is another color. These different colors can help you quickly identify when scans start and are successfully completed. For more information on how to set up security tag groups and tags, see [Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/create-class-group-and-tags.md).
 
 ## Procedure
 
-1.  To edit the names and colors of the security tags, navigate to **McAfee EPO Capabilities**, and, in the Name column, click an item in the list.
-
-    ![McAfee ePO Capabilities list with Initiate Malware Scan capability profile highlighted.](../image/mcafee-edit-tag-1.png)
+1.  To edit the names and colors of the security tags, navigate to **McAfee EPO Capabilities**, and, in the Name column, select an item in the list.
 
     The record for the capability is displayed.
 
-    ![Initiate Malware Scan capability record.](../image/mcafee-edit-tag-im-2.png)
+2.  To edit a tag, to the right of a tag name, select the information icon, and open the tag record.
 
-2.  To edit a tag, to the right of a tag name, click the information icon, and open the tag record.
-
-    ![Information icon highlighted.](../image/mcafee-edit-tag-im-5.png)
+    \[Omitted image "mcafee-edit-tag-im-5.png"\] Alt text: Information icon highlighted.
 
     In the record that is displayed, edit the fields.
 
-<table id="choicetable_ohy_xpv_bgb"><thead><tr><th align="left" id="d90808e144">
+<table id="choicetable_ohy_xpv_bgb"><thead><tr><th align="left" id="d88550e119">
 
 Field
 
-</th><th align="left" id="d90808e147">
+</th><th align="left" id="d88550e122">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d90808e153">
+</th></tr></thead><tbody><tr><td id="d88550e128">
 
 **Name**
 
@@ -55,7 +52,7 @@ Description
 
 Enter a name for the security tag.
 
-</td></tr><tr><td id="d90808e162">
+</td></tr><tr><td id="d88550e137">
 
 **Color**
 
@@ -63,7 +60,7 @@ Enter a name for the security tag.
 
 Security tag color. Select a color from the choice list.
 
-</td></tr><tr><td id="d90808e171">
+</td></tr><tr><td id="d88550e146">
 
 **Security Tag Group**
 
@@ -71,7 +68,7 @@ Security tag color. Select a color from the choice list.
 
 Enter a name of the security tag group. Click the information icon to view the available groups. Default is Metatag group.
 
-</td></tr><tr><td id="d90808e180">
+</td></tr><tr><td id="d88550e155">
 
 **Enforce restricted access**
 
@@ -79,7 +76,7 @@ Enter a name of the security tag group. Click the information icon to view the a
 
 Select this check box to assign read and write roles needed by users to read or write to records that have this security tag. Default is cleared.
 
-</td></tr><tr><td id="d90808e190">
+</td></tr><tr><td id="d88550e165">
 
 **Order**
 
@@ -87,7 +84,7 @@ Select this check box to assign read and write roles needed by users to read or 
 
 Specify the order the tag appears on forms or within a list. Default is 100.To set the order on the list, enter a value. For example, 100, 200, 300, 400. The tag with the lowest the number is displayed first on the list. The profile with the highest number is displayed last.
 
-</td></tr><tr><td id="d90808e202">
+</td></tr><tr><td id="d88550e177">
 
 **Active**
 
@@ -95,7 +92,7 @@ Specify the order the tag appears on forms or within a list. Default is 100.To s
 
 Turn the tag on or off.
 
-</td></tr><tr><td id="d90808e211">
+</td></tr><tr><td id="d88550e186">
 
 **Description**
 
@@ -112,9 +109,9 @@ A description for the tag.
     |**Delete**|Delete this tag record from the McAfee ePO capability.|
 
 
-**Parent Topic:**[McAfee ePO integration](../concept/mcaffee-epo-overview-arch.md)
+**Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Test security incidents and approve requests for the isolate host](mcafee-epo-test-incident-ih.md)
+**Previous topic:**[Test security incidents and approve requests for the isolate host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-epo-test-incident-ih.md)
 
-**Next topic:**[McAfee ESM - Email Parser integration](../../secops-integration-sir/secops-integration-intel-mcafee-esm-emailparser/concept/mcafee-esm-emailparser-integration.md)
+**Next topic:**[McAfee ESM - Email Parser integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/mcafee-esm-emailparser-integration.md)
 

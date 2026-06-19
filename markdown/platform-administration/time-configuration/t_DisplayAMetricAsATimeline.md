@@ -2,6 +2,7 @@
 title: Display a metric as a timeline
 description: Administrators can enable users to display any metric on a timeline by activating the Timeline Metrics UI action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/t\_DisplayAMetricAsATimeline.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -26,5 +27,5 @@ Administrators can enable users to display any metric on a timeline by activatin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Timeline pages](../concept/c_TimelinePages.md)
+**Parent Topic:**[Timeline pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_TimelinePages.md)
 

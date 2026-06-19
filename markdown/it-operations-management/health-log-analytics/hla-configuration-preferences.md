@@ -2,6 +2,7 @@
 title: Health Log Analytics configuration preferences
 description: Commonly used settings for Health Log Analytics properties and general configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-configuration-preferences.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -41,7 +42,7 @@ The preferred MID Server settings for Health Log Analytics are:
     -   CPUs: 4
     -   RAM: 16 GB
     -   Java heap size for MID Server: 8 GB
-    For general information, see: [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
+    For general information, see: MID Server system requirements.
 
 -   To increase log ingestion throughput, you can either increase the ulimit or the network bandwidth, or decrease the size of the logs being streamed. The ulimit setting can be configured on an individual MID Server. However, the correlation between the ulimit and the throughput can’t be modified.
 
@@ -68,7 +69,7 @@ The preferred MID Server settings for Health Log Analytics are:
 
 By default, log retention per source is set to three days. This setting can't be modified.
 
-When using Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), you can modify the log retention policy per source or for multiple sources together. For more information, see [Modify the log source retention period in Health Log Analytics](../task/hla-log-retention.md).
+When using Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home), you can modify the log retention policy per source or for multiple sources together. For more information, see [Modify the log source retention period in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-log-retention.md).
 
-**Parent Topic:**[Health Log Analytics reference](../concept/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-reference.md)
 

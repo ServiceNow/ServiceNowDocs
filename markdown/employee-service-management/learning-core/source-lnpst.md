@@ -2,6 +2,7 @@
 title: Sources for Learning Core
 description: Once you set up the Learning Core application, the source record for Cornerstone On Demand, Pluralsight, Udemy, Sumtotal, and Saba applications are automatically created in the Source module in Enterprise Service Management Integrations Framework. The source records in the Enterprise Service Management Integrations Framework application contain a predefined set of properties and integration services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/source-lnpst.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -55,6 +56,9 @@ Integration Services
 </td><td>
 
 Services that interact with the Cornerstone OnDemand application to pull or push learning courses.-   **Course assign service**: Assigns a course to an employee in the Cornerstone Ondemand application.
+
+**Note:** Skills information associated with Cornerstone courses is not available.
+
 -   **Sync users**: Maps users in the Cornerstone OnDemand system to users in the ServiceNow system using email Ids.
 
 **Note:** If you want to use user\_id or user\_name field for mapping users, then override**getCornerstoneUser method** in the sn\_lc.UserMappingUtil script.
@@ -223,5 +227,5 @@ Services that interact with the Saba application to pull or push learning course
 -   **Pull Saba User Course Activity**: Pulls details of user activity on learning courses from the Saba application into the ServiceNow application.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integrating Learning Core with third-party learning management systems](../task/setup-learning-third-party-1.md)
+</table>**Parent Topic:**[Integrating Learning Core with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/setup-learning-third-party-1.md)
 

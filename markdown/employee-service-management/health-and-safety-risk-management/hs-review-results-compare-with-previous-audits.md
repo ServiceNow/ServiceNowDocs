@@ -2,6 +2,7 @@
 title: Record safety audit results and compare with previous audits
 description: Record the audit result and outcomes and compare them with previous audits to identify trends and track progress over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-review-results-compare-with-previous-audits.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -29,7 +30,7 @@ The **Results** tab brings together the outcome and all associated records for a
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  In the **Audits** list, select **All** and select the audit.
 
@@ -65,5 +66,5 @@ The **Results** tab brings together the outcome and all associated records for a
 -   The audit result is recorded and all related records are visible in a single view.
 -   If a comparison was applied, you can see how findings, observations, actions, and risk assessments have changed across audit iterations. For example, a finding that was non-compliant in a previous audit may now appear as compliant, confirming that the issue was resolved.
 
-**Parent Topic:**[Create and manage a safety audit](hs-create-manage-safety-audit-workspace.md)
+**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 

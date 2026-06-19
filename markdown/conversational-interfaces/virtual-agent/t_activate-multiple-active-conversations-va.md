@@ -2,6 +2,7 @@
 title: Activate multiple active conversations in Virtual Agent
 description: Use the multiple active conversations system, in combination with defined context values and a default portal, to handle concurrent conversations with Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/t\_activate-multiple-active-conversations-va.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Use the multiple active conversations system, in combination with defined contex
 
 ## Before you begin
 
-A default context is necessary to start out with the multiple active conversations system. See [Set a default NLU context value for multiple active conversations](t_set-default-context-value-multiple-active-conversations.md) for more information.
+A default context is necessary to start out with the multiple active conversations system. See [Set a default NLU context value for multiple active conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_set-default-context-value-multiple-active-conversations.md) for more information.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -41,7 +42,7 @@ The multiple active conversations feature is inactive by default in Virtual Agen
 
 ## What to do next
 
-With multiple active conversations activated, you can also send notifications from Virtual Agent to portals using the feature. See [Route Virtual Agent NLU notifications through multiple portals](t_route-va-notifications-multiple-portals.md) for more information.
+With multiple active conversations activated, you can also send notifications from Virtual Agent to portals using the feature. See [Route Virtual Agent NLU notifications through multiple portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_route-va-notifications-multiple-portals.md) for more information.
 
-**Parent Topic:**[Using multiple active conversations in Virtual Agent](../concept/c_multiple-active-conversations-va.md)
+**Parent Topic:**[Using multiple active conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/c_multiple-active-conversations-va.md)
 

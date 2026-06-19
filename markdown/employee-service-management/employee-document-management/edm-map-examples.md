@@ -2,13 +2,14 @@
 title: Bulk import map examples
 description: Mapping your source employee documents to required elements in Employee Document Management is crucial for a successful bulk import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-document-management/edm-map-examples.html
 release: australia
 product: Employee Document Management
 classification: employee-document-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Employee document management bulk imports, Using Employee Document Management, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
+breadcrumb: [Bulk imports, Use, Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Bulk import map examples
@@ -31,7 +32,7 @@ For example, an employee document can have all the meta data in the file name Ab
 
     To find and extract the file name from the source repository, see this example:
 
-    ![Import Map — File name](../image/import-map-filename.png)
+    \[Omitted image "import-map-filename.png"\] Alt text: Import Map — File name
 
     The import map is looking for a source element called fileName.
 
@@ -43,7 +44,7 @@ For example, an employee document can have all the meta data in the file name Ab
 
     From the file name, the employee name is extracted. Employee name is a requirement for Employee Document Management.
 
-    ![Import Map — Employee Name](../image/import-map-employee.png)
+    \[Omitted image "import-map-employee.png"\] Alt text: Import Map — Employee Name
 
     The import map is looking for a source element called fileName.
 
@@ -57,7 +58,7 @@ For example, an employee document can have all the meta data in the file name Ab
 
     From the file name, the document type is extracted. Document type is a requirement for Employee Document Management.
 
-    ![Import Map — docType](../image/import-map-doctype.png)
+    \[Omitted image "import-map-doctype.png"\] Alt text: Import Map — docType
 
     The import map is looking for a source element called fileName.
 
@@ -109,7 +110,7 @@ Source element
 entriesSource element in the JSON output and represents the items in a folder. For example, Box uses entries as the source element.
 
 </td></tr></tbody>
-</table>![JSON — entries](../image/edm-json-entries.png)
+</table>\[Omitted image "edm-json-entries.png"\] Alt text: JSON — entries
 
 <table id="table_t1j_crm_yfb"><thead><tr><th>
 
@@ -162,7 +163,7 @@ Filter field
 typeFilter output to where the type field is equal to file to exclude subfolders.
 
 </td></tr></tbody>
-</table>![JSON — item](../image/edm-json-id.png)
+</table>\[Omitted image "edm-json-id.png"\] Alt text: JSON — item
 
 <table id="table_ckk_nrm_yfb"><thead><tr><th>
 
@@ -223,7 +224,7 @@ Filter regex
  
 
 </td></tr></tbody>
-</table>![JSON — Owned by and Name](../image/edm-owned-by-name.png)
+</table>\[Omitted image "edm-owned-by-name.png"\] Alt text: JSON — Owned by and Name
 
 <table id="table_wmt_xms_yfb"><thead><tr><th>
 
@@ -315,7 +316,7 @@ Filter regex
  
 
 </td></tr></tbody>
-</table>![JSON — description](../image/edm-json-description.png)
+</table>\[Omitted image "edm-json-description.png"\] Alt text: JSON — description
 
 <table id="table_q23_vym_yfb"><thead><tr><th>
 
@@ -446,7 +447,7 @@ Filter regex
  
 
 </td></tr></tbody>
-</table>![JSON — Name](../image/edm-json-name.png)
+</table>\[Omitted image "edm-json-name.png"\] Alt text: JSON — Name
 
 <table id="table_tj2_pwr_yfb"><thead><tr><th>
 
@@ -483,15 +484,15 @@ Source element
 Looks for id in JSON output. **Note:** some third-party, cloud-based repositories use the file ID. The capture import source builds a URL from this value.
 
 </td></tr></tbody>
-</table>![JSON — id](../image/edm-json-id.png)
+</table>\[Omitted image "edm-json-id.png"\] Alt text: JSON — id
 
 ## Bulk import mapping records
 
 An example of Employee Document Import Map.
 
-![Import map](../image/edm-import-map.png)
+\[Omitted image "edm-import-map.png"\] Alt text: Import map
 
 When a connection to your source repository is confirmed and import maps are set up correctly, you can click **Start staging job** from Related Links.
 
-**Parent Topic:**[Employee document management bulk imports](../concept/edm-bulk-uploads.md)
+**Parent Topic:**[Employee document management bulk imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-document-management/edm-bulk-uploads.md)
 

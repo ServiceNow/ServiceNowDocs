@@ -2,6 +2,7 @@
 title: Copy an incident or create a child incident
 description: Copy an incident or create a child incident without manually entering the value of all the fields in the new incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/copy-incident-or-create-child-incident.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -30,35 +31,35 @@ The Copy Incident functionality copies the details of an existing incident recor
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Open an existing incident that you want to copy or from which you want to create a child incident.
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d134084e138">
+<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d134137e138">
 
 Option
 
-</th><th align="left" id="d134084e141">
+</th><th align="left" id="d134137e141">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d134084e147">
+</th></tr></thead><tbody><tr><td id="d134137e147">
 
 **Copy an incident**
 
 </td><td>
 
-Click the Additional actions icon ![The Additional actions icon](../image/context-menu.png) and then click **Copy Incident**.**Note:** After the incident is copied, the **Work notes** field of the new incident is updated with the following message: `Created from a similar incident: INCXXXXXX`.
+Click the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: The Additional actions icon and then click **Copy Incident**.**Note:** After the incident is copied, the **Work notes** field of the new incident is updated with the following message: `Created from a similar incident: INCXXXXXX`.
 
-</td></tr><tr><td id="d134084e174">
+</td></tr><tr><td id="d134137e174">
 
 **Create a child incident**
 
 </td><td>
 
-Click the Additional actions icon ![The Additional actions icon](../image/context-menu.png) and then click **Create Child Incident**.**Note:** Ensure you have added the **Parent Incident** field and the **Incident -&gt; Parent Incident** related list to the incident form. The incident, from which you have created the child incident, is considered as the parent incident.
+Click the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: The Additional actions icon and then click **Create Child Incident**.**Note:** Ensure you have added the **Parent Incident** field and the **Incident -&gt; Parent Incident** related list to the incident form. The incident, from which you have created the child incident, is considered as the parent incident.
 
 </td></tr></tbody>
 </table>4.  Fill out the other fields, as required.

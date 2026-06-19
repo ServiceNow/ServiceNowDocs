@@ -2,12 +2,13 @@
 title: Create and associate a policy document in Microsoft SharePoint
 description: Enable redlining in a policy document that exists in your Microsoft SharePoint location instead of creating a document in Microsoft SharePoint and associating the document with the policy record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/create-policy-redlining-sharepoint.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
@@ -17,7 +18,7 @@ Enable redlining in a policy document that exists in your Microsoft SharePoint l
 
 ## Before you begin
 
-Role required: Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
+Role required: Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, mp\_document\_user
 
 **Important:** Policy redlining integration with Microsoft SharePoint is available from Washington DC ServiceNow AI Platform version. The feature is not available even if you are on 19.x version of Vancouver.
 
@@ -25,43 +26,51 @@ Role required: Role required: sn\_compliance\_ws.corporate\_compliance\_analyst;
 
 Apart from associating documents that reside in Microsoft OneDrive and Google Drive, you can now associate documents that are in Microsoft SharePoint site to your policy record.
 
+When personal authentication is enabled, create, connect, and upload operations run under your personal Microsoft O365 credentials. This allows documents to be registered in SharePoint under your individual identity, enabling audit traceability. Document access permission grants and content sync operations continue to run under the system account credentials.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-cam-workspace/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-    You can [create a new policy](../../grc-workspace-compliance/task/create-policy-ws.md) or open a policy record to associate a document.
+    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a policy record to associate a document.
 
 4.  Select a policy to associate a policy document from the Microsoft SharePoint site.
 
-    You can create a document in the Microsoft SharePoint site and associate to the policy record when the policy is in Draft state.
+    You can create a document in the Microsoft SharePoint site and associate with the policy record when the policy is in Draft state.
 
-5.  From the Policy text related list of the policy record, select the **Enable document editing** UI action list and click the **Create new document** option.
+5.  From the Policy text related list of the policy record, select the **Enable document editing** UI action list and select the **Create new document** option.
 
 6.  Enter the URL to the site in the **Site URL** field of the Create a Word document pop-up.
 
-    You can get the site URL location information if you hover over the Site URL ![Site URL icon](../../grc-risk/image/icon-information.png) icon.
+    You can get the site URL location information if you hover over the Site URL \[Omitted image "icon-information.png"\] Alt text: Site URL icon icon.
 
     1.  To get the site URL, log in to the Microsoft SharePoint site.
 
-    2.  Select the **Share** list and click the **Copy link to page** option.
+    2.  Select the **Share** list and select the **Copy link to page** option.
 
 7.  Enter the path of the folder that you copied in the **Folder location** field.
 
-    This path is the location where the document will reside.
+    The Document Library is the default root location for hosting documents. Provide only the path relative to it, not the full site URL.
+
+    For example, if your document, PolicyAuthoring.docx, will reside at **Site Documents** &gt; **GRC**, enter GRC in the **Folder location** field.
 
 8.  Enter the name of the document in the **Document name** field.
 
 9.  Select **Create**.
 
+    If personal authentication is enabled and this is the first time you are performing a document operation in this session, a one-time authentication prompt appears. For SharePoint, the prompt uses the logged-in Microsoft O365 session automatically.
+
     On selecting create, the document is created in the folder of the Microsoft SharePoint account that you provided. If you're providing a link to a shared folder, then you must have edit access to create a file within that folder.
+
+    The document is registered in SharePoint under your personal account identity.
 
     After the document is created, the contributors and policy owners who have access to the policy in the Draft state can edit the document in Microsoft SharePoint to add content.
 
-10. To update the content in the **Policy text** field of the policy record, select the Update link below the document link.
+10. To update the content in the **Policy text** field of the policy record, select the Update link following the document link.
 
     Alternatively, you can also select the **Open in Word** button.
 
@@ -79,13 +88,17 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
         If the policy is in Review state, the Reviewers and Owners have edit access. However, the Contributors and Approvers have only read access.
 
+    -   **Awaiting Approval**
+
+        If the policy is in Awaiting Approval state, all users have view-only access.
+
     -   **Approved**
 
         If the policy moves to the Approved state, all the stakeholders of the policy have only read access.
 
-    You can also verify the users' access rights by navigating to the Microsoft SharePoint document, selecting the **Share** list in the Microsoft SharePoint document and clicking **Manage Access**. Sometimes the access rights that users have on the ServiceNow policy document may not be the same as the rights that users have when they collaborate on the document in the Microsoft SharePoint site. This is because of the root permissions that are set in Microsoft SharePoint site, which get inherited to the folders within the site. The users of the folders within the site inherit those permissions. You can override the permissions.
+    You can also verify the users' access rights by navigating to the Microsoft SharePoint document, and selecting the **Share** list in the Microsoft SharePoint document. Then select **Manage Access**. Sometimes the access rights that users have on the ServiceNow policy document may not be the same as the rights that users have when they collaborate on the document in the Microsoft SharePoint site. This is because of the root permissions that are set in Microsoft SharePoint site, which get inherited to the folders within the site. The users of the folders within the site inherit those permissions. You can override the permissions.
 
-    1.  To override the Microsoft SharePoint site permission, select the settings icon \(![Settings icon.](../../../reuse/icons/product-icons/gear-outline-24.svg)\).
+    1.  To override the Microsoft SharePoint site permission, select the settings icon \(\[Omitted image "gear-outline-24.svg"\] Alt text: Settings icon.\).
 
     2.  Select **Site permissions** option in the **Settings** list.
 
@@ -96,6 +109,10 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
         This folder will no longer inherit permissions from the parent or from the Microsoft SharePoint site level. Now, when you provide access to the document from ServiceNow, then the same level of access that you see in the Document access related list will be available to the users collaborating on the Microsoft SharePoint document also.
 
 12. If the policy has been drafted and is complete, the policy owner can request a review by selecting the **Request review** button.
+
+    When personal authentication is enabled, the user whose credentials were used to create the document becomes the document owner in SharePoint. Do not add this user as an Owner, Contributor, Reviewer, or Approver on the policy record.
+
+    When the policy moves to the Published state, ServiceNow downgrades all policy users to read-only access. However, SharePoint doesn't allow document owner permissions to be downgraded to read-only, so this restriction can't be applied to the document owner. Adding the document owner to any policy user field creates a permission conflict that cannot be resolved.
 
     1.  Enter a message for the reviewers in the Request review pop-up.
 
@@ -119,14 +136,14 @@ Apart from associating documents that reside in Microsoft OneDrive and Google Dr
 
 14. Select the **Complete publishing checklist** button.
 
-    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](complete-publishing-checklist-redlining.md).
+    If all reviews are complete, then as a policy owner you can complete the publishing process. This action creates a playbook. The policy owner must go through the publishing checklist before requesting approval. See, [Complete publishing checklist for the policy and request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/complete-publishing-checklist-redlining.md).
 
     After the publishing process is complete, you can either attach the policy as a PDF to the policy record or generate a Knowledge Base article when the policy moves to the Published state.
 
-15. Select the attachments icon \(![Attachment icon.](../../../common/image/Form_Attachment.png)\) in the sidebar of the policy's Overview related list to see the PDF version of the Knowledge Base article.
+15. Select the attachments icon \(\[Omitted image "Form\_Attachment.png"\] Alt text: Attachment icon.\) in the sidebar of the policy's Overview related list to see the PDF version of the Knowledge Base article.
 
 16. To view the history of the policy, select the Policy history related list.
 
-    For more information, see [View the history of a redlining-enabled policy](view-history-policy-redlining.md).
+    For more information, see [View the history of a redlining-enabled policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/view-history-policy-redlining.md).
 
 

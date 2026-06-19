@@ -2,10 +2,13 @@
 title: Accessibility information for all Australia features and products
 description: Cumulative release notes summary on accessibility information for Australia features and products. Some products have specific accessibility information or exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html
 release: australia
+product: Release Notes
+classification: release-notes
 topic_type: reference
-last_updated: "2026-05-04"
-reading_time_minutes: 6
+last_updated: "2026-06-12"
+reading_time_minutes: 8
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -45,11 +48,19 @@ The AI Control Tower application supports all platform accessibility features.
 
 </td></tr><tr><td>
 
+Activity Management
+
+</td><td>
+
+The CRM Outlook Add-in includes screen reader improvements for card views in this release. On the Accounts, Contacts, Leads, and Opportunities tabs, each card announces its primary record details such as the contact name and key fields instead of a generic card-button label, so users on assistive technology can identify records without opening each card.
+
+</td></tr><tr><td>
+
 Adoption Services
 
 </td><td>
 
--   **[Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-tours.md)**
+-   ****
 
 Guided Tours is enhanced with more accessibility features including:
 
@@ -116,12 +127,25 @@ Configurable Workspace
 
 </td><td>
 
--   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/use-screen-summarization.md)**
+-   **Screen Summarization**
 
 Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
 
 Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
 
+
+</td></tr><tr><td>
+
+Creator Studio
+
+</td><td>
+
+The following updates were made to support accessibility:
+
+-   Form elements now have accurate interactive ARIA roles, enabling screen readers to identify and announce them accurately.
+-   Rich text area and form elements are now accurately labeled so screen readers can announce them correctly when focused.
+-   Keyboard focus now remains within the expanded template preview modal for the duration of the modal interaction.
+-   The rich text frame **Long Description** now has the correct label, enabling screen readers to identify and announce it correctly.
 
 </td></tr><tr><td>
 
@@ -148,6 +172,7 @@ Enterprise Architecture
 -   Navigate the interface using the keyboard on the Enterprise Modeling and Visualization pages.
 -   Access the shape context menu using the keyboard on the Enterprise Modeling and Visualization canvas. On navigating to a particular shape context menu button, the selected button gets highlighted.
 -   See pop-over menus when hovering over connector lines on the Enterprise Modeling and Visualization canvas.
+-   Keep connector ports visible on all shapes in the diagram canvas without hovering by enabling the **Show all buttons without the need to hover** option in **Preferences** &gt; **Accessibility**. When enabled, connector ports remain visible at all times on General, ArchiMate®, AWS, CSDM, and Group shapes. For more information, see .
 -   Reflow- The Enterprise Architecture Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
 This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
@@ -178,11 +203,11 @@ Next Experience
 
 </td><td>
 
--   **[Enable auto-focus on page alerts new accessibility preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-auto-focus-on-page-alerts.md)**
+-   **Enable auto-focus on page alerts new accessibility preference**
 
 When enabled, this preference automatically moves your keyboard focus to important alerts so you don't miss critical messages while navigating with a keyboard or screen reader.
 
--   **[Learn about accessibility preferences with a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md)**
+-   **Learn about accessibility preferences with a guided tour**
 
 Explore accessibility preferences with a guided tour that shows how to customize navigation, keyboard behavior, and visual themes in Next Experience.
 
@@ -201,11 +226,11 @@ Now Assist AI Agents
 
 </td><td>
 
--   **[Voice Input for Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+-   **Voice Input for Now Assist AI agents**
 
-Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see Enable voice input for Now Assist panel.
 
-After enabled, the Enable voice input for the Now Assist panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
+After enabled, the Enable voice input for the Now Assist panel option is available in individual user accessibility preferences. See Configure Next Experience accessibility preferences for more information.
 
 Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
 
@@ -220,11 +245,12 @@ The Now Assist Center application supports all the platform accessibility featur
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+Now Assist in Platform Analytics
 
 </td><td>
 
- 
+-   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
+-   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
 
 </td></tr><tr><td>
 
@@ -239,11 +265,19 @@ Accessibility improvements were completed to support WCAG 2.1 Level AA conforman
 
 </td></tr><tr><td>
 
+Self-service and omnichannel engagement for CSM
+
+</td><td>
+
+CSM Engagement Messenger now supports reflow, allowing content to be zoomed up to 400% in a browser without loss of content or functionality. Page layouts automatically transform into a vertical, stacked view at 400% zoom. This update benefits users with low vision and those working across varied devices and environments.
+
+</td></tr><tr><td>
+
 Service Portal
 
 </td><td>
 
--   **[Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/enable-dark-theme.md)**
+-   ****
 
 Use the Dark theme in Service Portal to improve focus and provide better accessibility support. This option is commonly used to alleviate eye strain and improve readability.
 
@@ -259,7 +293,7 @@ ServiceNow AI Platform core feature
 
 </td><td>
 
-Format Painter plugin for TinyMCE enables you to apply consistent font styles, sizes, and table formats within the HTML editor field. This improvement helps users with cognitive disabilities and low vision by reducing confusion and supporting clear, predictable formatting throughout documents. Keyboard navigation is supported, providing added ease of use for keyboard-only users. For more information, see [Configure the HTML toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfigureTheTinyMCEHTMLToolbar.md).
+Format Painter plugin for TinyMCE enables you to apply consistent font styles, sizes, and table formats within the HTML editor field. This improvement helps users with cognitive disabilities and low vision by reducing confusion and supporting clear, predictable formatting throughout documents. Keyboard navigation is supported, providing added ease of use for keyboard-only users. For more information, see .
 
 </td></tr><tr><td>
 
@@ -271,6 +305,14 @@ Improved overall accessibility across Network Inventory application, focusing on
 
 </td></tr><tr><td>
 
+Third-party Risk Management
+
+</td><td>
+
+The Vendor Management Workspace and the third-party portal include accessibility improvements in this release, including improved color contrast, enhanced focus indicators, skip navigation links, full keyboard navigation, and ARIA attribute updates for screen reader compatibility.
+
+</td></tr><tr><td>
+
 UI Builder
 
 </td><td>
@@ -278,5 +320,5 @@ UI Builder
 The expanded drop-down menus for column properties can be ready by screen readers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Australia features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)
 

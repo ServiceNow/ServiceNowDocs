@@ -2,6 +2,7 @@
 title: Configure approval workflow for Gifts and Entertainment Compliance
 description: Review the flows installed with the Gifts and Entertainment Compliance application and configure them to align to your company's policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-gifts-and-entertainment/lsd-ge-approval-workflow.html
 release: australia
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
@@ -25,7 +26,7 @@ Role required: sn\_lg\_gifts.gifts\_config
 
 Gifts and Entertainment Compliance uses the Gifts Approval flow to trigger multi-level approvals when an employee submits a gifts and entertainment disclosure request
 
-The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/flow-designer.md) basics.
+The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with the  basics.
 
 ## Procedure
 
@@ -35,16 +36,16 @@ The flows are built using ServiceNow Workflow Studio, so make sure you’re fami
 
 3.  Modify the trigger to set the conditions for the flow to trigger, and actions to add or update the approval levels.
 
-    For information on how to create or modify flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
+    For information on how to create or modify flows, see Create a flow.
 
 4.  Click **Save**.
 
 5.  Test the flow by clicking **Test**.
 
-    For more information, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+    For more information, see Test a flow.
 
 6.  If not already active, click **Activate** to enable the flow.
 
 
-**Parent Topic:**[Configure Gifts and Entertainment Compliance](../concept/lsd-ge-administration.md)
+**Parent Topic:**[Configure Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.md)
 

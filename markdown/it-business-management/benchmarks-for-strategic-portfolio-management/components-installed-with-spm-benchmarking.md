@@ -2,6 +2,7 @@
 title: Components installed with SPM Benchmarking
 description: Several types of components are installed with activation of the SPM Benchmarks plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/benchmarks-for-strategic-portfolio-management/components-installed-with-spm-benchmarking.html
 release: australia
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -93,5 +94,5 @@ SPM Benchmark Data Collection
 Collects scores for indicators related to APW and PPM, as specified in the **Relative start** and **Relative end** fields. The collection time is for a month based on the GMT timezone.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SPM Benchmarks reference](benchmarks-reference.md)
+</table>**Parent Topic:**[SPM Benchmarks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/benchmarks-reference.md)
 

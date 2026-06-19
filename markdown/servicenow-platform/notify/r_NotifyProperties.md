@@ -2,6 +2,7 @@
 title: Properties installed with Notify
 description: Notify adds the following properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_NotifyProperties.html
 release: australia
 product: Notify
 classification: notify
@@ -104,5 +105,5 @@ sn\_major\_inc\_mgmt.notify\_webrtc\_number
 Specify a valid Notify Number with voice capability. This will enable a specific Major Incident Management integration with Notify which allows Workbench users to directly call people from the browser.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with Notify](installed-with-notify2.md)
+</table>**Parent Topic:**[Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/installed-with-notify2.md)
 

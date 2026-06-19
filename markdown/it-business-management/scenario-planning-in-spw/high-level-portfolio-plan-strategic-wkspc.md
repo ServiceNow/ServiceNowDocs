@@ -2,6 +2,7 @@
 title: Create a high-level portfolio plan
 description: Build a portfolio plan for high-level strategic items in the Strategic Planning Workspace so that you can prioritize, roadmap, and manage work aligned to these strategic items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/high-level-portfolio-plan-strategic-wkspc.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -21,7 +22,7 @@ Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
 ## About this task
 
-By default, you can select the Strategic Investments lens and use Initiatives or Strategic Programs, or select the Project Program lens and use Programs as your high-level planning items. You can also select the Digital Product lens and use the Product Enhancement entity for high-level planning. If you want to plan using a different item, work with your admin to enable those items in your ServiceNow instance. For more information on the configuration, see [High-level planning configuration in Strategic Planning](high-level-portfolio-planning-configuration.md).
+By default, you can select the Strategic Investments lens and use Initiatives or Strategic Programs, or select the Project Program lens and use Programs as your high-level planning items. You can also select the Digital Product lens and use the Product Enhancement entity for high-level planning. If you want to plan using a different item, work with your admin to enable those items in your ServiceNow instance. For more information on the configuration, see [High-level planning configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/high-level-portfolio-planning-configuration.md).
 
 In this task, select a lens, add conditions to filter the planning item data that you need, and enter additional details to build a portfolio plan.
 
@@ -47,7 +48,7 @@ In this task, select a lens, add conditions to filter the planning item data tha
 
         For example, you want to manage work for initiatives in your company. Select Initiatives as your high-level planning item. This enables you to plan for initiatives and review the work aligned to these initiatives.
 
-        ![High-level planning wizard.](../images/HLP-wizard.png)
+        \[Omitted image "HLP-wizard.png"\] Alt text: High-level planning wizard.
 
     2.  Add conditions to further filter the data of your planning items.
 
@@ -61,7 +62,7 @@ In this task, select a lens, add conditions to filter the planning item data tha
 
     4.  Select a scoring framework using the drop-down values or from the Scoring framework window.
 
-        To create a custom scoring framework for your portfolio plan, select **Explore scoring frameworks**.![Select a scoring framework for your portfolio plan.](../images/scoring.png)
+        To create a custom scoring framework for your portfolio plan, select **Explore scoring frameworks**.\[Omitted image "scoring.png"\] Alt text: Select a scoring framework for your portfolio plan.
 
     Use the **Previous** and **Next** buttons to navigate between the steps.
 
@@ -74,9 +75,9 @@ The portfolio plan is created and the page is refreshed to show the Goals, Scori
 
 ## What to do next
 
--   Define goals for your portfolio plan and align work to them. See [Managing portfolio plan goals in Strategic Planning Workspace](../../spw-goals/concept/managing-goals-in-alignment-planner-workspace.md).
--   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Strategic Planning Workspace](../../spw-prioritization/concept/managing-backlog-alignment-planner-workspace.md).
--   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](show-or-hide-the-features-for-your-portfolio-plan-spw.md).
+-   Define goals for your portfolio plan and align work to them. See [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
+-   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
+-   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md).
 
-**Parent Topic:**[Managing portfolio plans in Strategic Planning Workspace](../concept/managing-portfolio-plans-in-alignment-planner-workspace.md)
+**Parent Topic:**[Managing portfolio plans in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.md)
 

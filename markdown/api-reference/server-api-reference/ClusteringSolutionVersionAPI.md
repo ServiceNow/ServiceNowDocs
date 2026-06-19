@@ -2,6 +2,7 @@
 title: ClusteringSolutionVersion - Global
 description: The ClusteringSolutionVersion API is a scriptable object used in Predictive Intelligence stores.Cancels an update job on a trainer.Deletes cluster assignments from rows by position in table sequence or GlideDateTime.Gets assignments for a clustering solution.Gets information for a specified clustering solution in the store. The purity measurement provides insights as a percentage for the clustering fields on which the purity is based.Gets solution object properties and version number.Gets training completion status.Gets the top purity results for a clustering solution. The purity measurement provides insights as a percentage for the clustering fields on which the purity is based.Gets the status of the most recent clustering solution update job.Gets the version number of a solution object.Submits clustering update jobs with options to narrow results to a specific table and filter for matching records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ClusteringSolutionVersionAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,18 +18,18 @@ The ClusteringSolutionVersion API is a scriptable object used in Predictive Inte
 
 This API requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-It is used for working with solution versions based on [ClusteringSolution API](../../ClusteringSolution/concept/ClusteringSolutionAPI.md#) objects in the [ClusteringSolution store](../../ClusteringSolutionStore/concept/ClusteringSolutionStoreAPI.md#).
+It is used for working with solution versions based on [ClusteringSolution API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) objects in the [ClusteringSolution store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionStoreAPI.md).
 
 The system creates a solution version each time you train a solution definition. Most versions are created during scheduled solution training.
 
 Methods in this API are accessible using the following ClusteringSolution methods:
 
--   [getActiveVersion\(\)](../../ClusteringSolution/concept/ClusteringSolutionAPI.md#)
--   [getAllVersions\(\)](../../ClusteringSolution/concept/ClusteringSolutionAPI.md#)
--   [getLatestVersion\(\)](../../ClusteringSolution/concept/ClusteringSolutionAPI.md#)
--   [getVersion\(\)](../../ClusteringSolution/concept/ClusteringSolutionAPI.md#)
+-   [getActiveVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+-   [getAllVersions\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+-   [getLatestVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
+-   [getVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md)
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ClusteringSolutionVersion - cancelUpdateJob\(\)
 
@@ -42,7 +43,7 @@ Cancels an update job on a trainer.
 |----|-----------|
 |None| |
 
-The following example shows how to cancel an active training job that has been submitted using the [submitTrainingJob\(\)](../../ClusteringSolution/concept/ClusteringSolutionAPI.md#) method.
+The following example shows how to cancel an active training job that has been submitted using the [submitTrainingJob\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) method.
 
 ```
 var myCluster = new sn_ml.ClusteringSolutionStore.get("ml_x_snc_global_global_clustering_solution");
@@ -89,7 +90,7 @@ String
 
 </td><td>
 
-Deletes rows for clusters with `updated_since` values occurring before this value. Format must be provided as [GlideDateTime](../../GlideDateTime/concept/c_GlideDateTimeAPI.md#).```
+Deletes rows for clusters with `updated_since` values occurring before this value. Format must be provided as [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).```
 { "updatedUntil" : "String" }
 ```
 
@@ -215,7 +216,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see Create and train a clustering solution.
 
 </td></tr><tr><td>
 
@@ -275,7 +276,7 @@ String
 
 </td><td>
 
-Optional. Date and time. Returns information for clusters with `sys_updated_on` after the value provided in [GlideDateTime](../../GlideDateTime/concept/c_GlideDateTimeAPI.md#).
+Optional. Date and time. Returns information for clusters with `sys_updated_on` after the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
 
 </td></tr><tr><td>
 
@@ -287,7 +288,7 @@ String
 
 </td><td>
 
-Optional. Date and time. Returns information for clusters with `sys_updated_on` before the value provided in [GlideDateTime](../../GlideDateTime/concept/c_GlideDateTimeAPI.md#).
+Optional. Date and time. Returns information for clusters with `sys_updated_on` before the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
 
 </td></tr></tbody>
 </table><table id="table_u1q_hxt_rhb" class="returns"><thead><tr><th>
@@ -439,7 +440,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see Create and train a clustering solution.
 
 </td></tr><tr><td>
 
@@ -499,7 +500,7 @@ String
 
 </td><td>
 
-Optional. Date and time. Returns information for clusters with `sys_updated_on` after the value provided in [GlideDateTime](../../GlideDateTime/concept/c_GlideDateTimeAPI.md#) format.
+Optional. Date and time. Returns information for clusters with `sys_updated_on` after the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md) format.
 
 </td></tr><tr><td>
 
@@ -511,7 +512,7 @@ String
 
 </td><td>
 
-Optional. Date and time. Returns information for clusters with `sys_updated_on` before the value provided in [GlideDateTime](../../GlideDateTime/concept/c_GlideDateTimeAPI.md#).
+Optional. Date and time. Returns information for clusters with `sys_updated_on` before the value provided in [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeAPI.md).
 
 </td></tr></tbody>
 </table><table id="table_xk3_v3b_rlb" class="returns"><thead><tr><th>
@@ -605,7 +606,7 @@ Percentage value representing the purity of cluster quality.
 
 </td><td>
 
-System [GlideDateTime](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#) value representing the date and time at which this cluster was last updated.Data type: String
+System [GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md) value representing the date and time at which this cluster was last updated.Data type: String
 
 </td></tr></tbody>
 </table>The following example shows how to set the options object parameter and print the filtered cluster results.
@@ -686,7 +687,7 @@ Object
 
 </td><td>
 
-Contents of the Dataset and [ClusteringSolution](../../ClusteringSolution/concept/ClusteringSolutionAPI.md#) version details. Results vary by object property setup.```
+Contents of the Dataset and [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) version details. Results vary by object property setup.```
 {
   "algorithmConfig": {Object},
   "datasetProperties": {Object},
@@ -787,7 +788,7 @@ K-means algorithm only. Percentile field to filter out records that are less sim
 
 </td><td>
 
-Lists the properties of the [DatatsetDefinition](../../DatasetDefinition/concept/DatasetDefinitionAPI.md#) object associated with the solution.
+Lists the properties of the [DatatsetDefinition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md) object associated with the solution.
 
  ```
 {
@@ -806,7 +807,7 @@ Lists the properties of the [DatatsetDefinition](../../DatasetDefinition/concept
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md). Data type: String
+Encoded query string in the standard platform format. See Encoded query strings.Data type: String.
 
 </td></tr><tr><td>
 
@@ -863,7 +864,7 @@ Name of the table for the dataset. For example, `"tableName" : "Incident"`. Data
 
 </td><td>
 
-Domain name associated with this dataset. See [Domain separation and Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/domain-separation-predictive-intelligence.md). Data type: String
+Domain name associated with this dataset. See .Type: String
 
 </td></tr><tr><td>
 
@@ -946,7 +947,7 @@ Object scope. Currently the only valid value is `global`.Data type: String
 
 </td><td>
 
-Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see [Create a custom stopwords list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-custom-stopwords-list.md). Data type: Array
+Optional. Preset list of strings that the system automatically generates based on the **language** property setting. For details, see Create a custom stopwords list. Data type: Array
 
 </td></tr><tr><td>
 
@@ -1090,7 +1091,7 @@ Object
 
 </td><td>
 
-JavaScript object containing training status information for a [ClusteringSolution](../../ClusteringSolution/concept/ClusteringSolutionAPI.md#) object.```
+JavaScript object containing training status information for a [ClusteringSolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClusteringSolutionAPI.md) object.```
 {
   "state": "String",
   "percentComplete": "Number as a String",
@@ -1253,7 +1254,7 @@ Array
 
 </td><td>
 
-Optional. List of group\_by field strings from your table to help the system identify the class which is most frequent in the cluster. If provided, returns purity information for cluster solutions using group\_by fields. The Cluster Summary \[ml\_cluster\_summary\] table lists clusters and any associated Group by values.This field only applies to clusters that use group by in the clustering definition. Eligible fields are listed in the **Table** field. For details on the group by feature, refer to [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
+Optional. List of group\_by field strings from your table to help the system identify the class which is most frequent in the cluster. If provided, returns purity information for cluster solutions using group\_by fields. The Cluster Summary \[ml\_cluster\_summary\] table lists clusters and any associated Group by values.This field only applies to clusters that use group by in the clustering definition. Eligible fields are listed in the **Table** field. For details on the group by feature, refer to Create and train a clustering solution.
 
 </td></tr><tr><td>
 
@@ -1512,7 +1513,7 @@ String
 
 </td><td>
 
-Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md). Enables running an update job based on the filter provided.
+Encoded query string in the standard platform format. Enables running an update job based on the filter provided.
 
 </td></tr><tr><td>
 

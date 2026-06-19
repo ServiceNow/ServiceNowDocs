@@ -2,6 +2,7 @@
 title: Services overview tab
 description: The Services overview tab in the Operational Resilience Workspace provides a comprehensive summary of active services, highlighting any red flags or urgent issues, status of resilience activities like assessments, scenario analysis, self-attestations. It also offers suggestions for mitigating top risks or vulnerabilities and strengthening top controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ser-ov.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,7 +18,7 @@ The **Services overview** tab in the Operational Resilience Workspace provides a
 
 Existing customers typically use the Service \(CMDB\) Main node configuration, while new customers use the Opres with CSDM header Main node configuration. Administrators can show the **Services overview** tab and hide the **Business services overview** tab from the Operational Resilience Workspace view based on your organizational needs.
 
-![Services overview.](../../grc-operational-res/image/s-ov-hp.png)
+\[Omitted image "s-ov-hp.png"\] Alt text: Services overview.
 
 ## Tables associated with the Services overview tab
 
@@ -180,7 +181,7 @@ Top vulnerabilities to be fixed for the services. Source table for this report: 
 
 The Services report on the **Services overview** tab provides a quick summary with precise metrics on the types of services and their current status.
 
-![Services overview.](../../grc-operational-res/image/s-ov.png)
+\[Omitted image "s-ov.png"\] Alt text: Services overview.
 
 -   Active services
 -   Services by number of red flags
@@ -193,7 +194,7 @@ The Red flags report on the **Services overview** tab shows the total number of 
 
 A sample Red flags report for the services is shown in the example.
 
-![Red flags.](../../grc-operational-res/image/s-red-flags.png)
+\[Omitted image "s-red-flags.png"\] Alt text: Red flags.
 
 The following data is displayed for the services in the report:
 
@@ -214,7 +215,7 @@ The following data is displayed for the services in the report:
 
 The Activities report on the **Services overview** tab displays tasks and status for the following Operational Resilience activities for the services.
 
-![Activities.](../../grc-operational-res/image/s-activities.png)
+\[Omitted image "s-activities.png"\] Alt text: Activities.
 
 -   Tasks
 -   Importance and impact assessments
@@ -225,7 +226,7 @@ The Activities report on the **Services overview** tab displays tasks and status
 
 The Suggestions report on the **Services overview** tab offers recommendations and workarounds to mitigate issues and risks for various resilience metrics for the services.
 
-![Suggestions.](../../grc-operational-res/image/s-suggestions.png)
+\[Omitted image "s-suggestions.png"\] Alt text: Suggestions.
 
 Depending on the applications integrated with Operational Resilience, suggestions are displayed in the report. For example, if you have installed the Policy and Compliance Management, Risk Management, and Vulnerability Response applications, the following suggestions are displayed in the report.
 

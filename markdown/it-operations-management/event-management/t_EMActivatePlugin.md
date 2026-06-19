@@ -1,7 +1,8 @@
 ---
 title: Request Event Management
-description: Event Management plugin \(com.glideapp.itom.snac\) requires a separate subscription and must be activated by ServiceNow personnel. This plugin includes demo data and activates related plugins if they are not already active.
+description: AIOps Experience plugin \(sn\_sow\_aiops\) requires a separate subscription and must be activated by ServiceNow personnel. This plugin includes the required Event Management components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMActivatePlugin.html
 release: australia
 product: Event Management
 classification: event-management
@@ -13,7 +14,7 @@ breadcrumb: [Configuring Event Management, Event Management, ITOM AIOps, IT Oper
 
 # Request Event Management
 
-Event Management plugin \(com.glideapp.itom.snac\) requires a separate subscription and must be activated by ServiceNow personnel. This plugin includes demo data and activates related plugins if they are not already active.
+AIOps Experience plugin \(`sn_sow_aiops`\) requires a separate subscription and must be activated by ServiceNow personnel. This plugin includes the required Event Management components.
 
 ## Before you begin
 
@@ -57,7 +58,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 

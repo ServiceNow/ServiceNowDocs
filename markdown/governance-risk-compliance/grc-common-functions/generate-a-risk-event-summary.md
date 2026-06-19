@@ -2,6 +2,7 @@
 title: Generate a risk event summary in the classic UI
 description: Generate a risk event summary using the Now Assist for IRM application. The approvers get the key insights to understand the context quickly, and reduce the time involved in creating summaries manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/generate-a-risk-event-summary.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,9 +18,9 @@ Generate a risk event summary using the Now Assist for IRM application. The appr
 
 ## Before you begin
 
-Install the Now Assist for IRM application to generate a risk event summary. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](../../grc-common/concept/now-assist-for-irm.md).
+Install the Now Assist for IRM application to generate a risk event summary. For more information, see [Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/now-assist-for-irm.md).
 
-**Note:** The Risk Event Summarization skill is activated by default, unless you manually deactivate it. For more information, see [Activate Now Assist skills in Now Assist for Integrated Risk Management \(IRM\)](../../grc-common/task/activate-na-skills-in-irm.md).
+**Note:** The Risk Event Summarization skill is activated by default, unless you manually deactivate it. For more information, see [Activate Now Assist skills in Now Assist for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/activate-na-skills-in-irm.md).
 
 Role required: sn\_grc\_risk\_genai.risk\_event\_user
 
@@ -35,7 +36,7 @@ The risk event summarization feature enables risk managers to quickly understand
 
 3.  Generate a risk event summary from the risk event record page by selecting **Summarize**.
 
-    ![Generate risk event summarization button on the risk event record page.](../../grc-risk/image/risk-event-summarization-classic.png)
+    \[Omitted image "risk-event-summarization-classic.png"\] Alt text: Generate risk event summarization button on the risk event record page.
 
     A summary is generated; you can edit it and save it for reference and reporting purposes.
 

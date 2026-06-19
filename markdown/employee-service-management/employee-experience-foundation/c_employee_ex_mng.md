@@ -2,6 +2,7 @@
 title: Manage Microsoft Teams integration for Employee Experience
 description: It offers help for employees to resolve their IT, HR, and UR related issues through Microsoft Teams. Employees can interact with the agents from within Microsoft Teams to resolve their issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/c\_employee\_ex\_mng.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,12 +16,12 @@ breadcrumb: [Manage, ServiceNow for Microsoft Teams and Microsoft 365, Unified E
 
 It offers help for employees to resolve their IT, HR, and UR related issues through Microsoft Teams. Employees can interact with the agents from within Microsoft Teams to resolve their issues.
 
--   **[Customize IT Service Management integration with ServiceNow](customize-sn-ms-teams.md)**  
+-   **[Customize IT Service Management integration with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/customize-sn-ms-teams.md)**  
 Customize the features in your instance to meet your organization needs.
--   **[Customize HR Service Delivery integration with Microsoft Teams](customize-sn-ms-teams-hr.md)**  
+-   **[Customize HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/customize-sn-ms-teams-hr.md)**  
 Customize the features in your instance to meet your organization needs.
--   **[Customize UI actions for Universal Request integration with Microsoft Teams](ur-ms-teams-ui-actions.md)**  
+-   **[Customize UI actions for Universal Request integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ur-ms-teams-ui-actions.md)**  
 Customize the UI actions and extend them to the tables that you require. The `UniversalRequestMSTeamsUtils` script include controls the visibility of the UI actions.
 
-**Parent Topic:**[Managing ServiceNow for Microsoft Teams and Microsoft 365](manage-sn-teams.md)
+**Parent Topic:**[Managing ServiceNow for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/manage-sn-teams.md)
 

@@ -2,6 +2,7 @@
 title: Explore Approvals
 description: Explore the Approvals section on the Configurations page of AI Control Tower.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/explore-approvals.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -27,5 +28,5 @@ The approvals page has two features to set up governance of your approvals for A
     3.  AI models- Activating this all AI models need approval by an AI steward before being deployed.
 -   Automatically trigger playbooks- enabling automatically trigger playbooks control triggers approval requests for AI assets. When inactive, only the AI steward can initiate requests manually. The recommendation is to have this control activated in the production environment.
 
-![](../image/approvals-aict-config.png)
+\[Omitted image "approvals-aict-config.png"\] Alt text:
 

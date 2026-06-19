@@ -2,6 +2,7 @@
 title: Modify the LLM \(LLM\) for WSD
 description: Modify or update a LLM \(LLM\) to generate for Now Assist for WSD.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/update-llm-wsd.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd

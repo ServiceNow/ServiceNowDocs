@@ -2,6 +2,7 @@
 title: Configuring resources with Project Workspace
 description: Configure various aspects of Resource Management based on your requirements in Project Workspace to allocate resources for your project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configure-resource-mgmt-prj-wksp.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -16,9 +17,9 @@ breadcrumb: [Configuring Project Workspace, Project Workspace, Project Portfolio
 Configure various aspects of Resource Management based on your requirements in Project Workspace to allocate resources for your project.
 
 -   Review the [Project Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/47e2b69f533f201016f6ddeeff7b12fa) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   [Install Project Workspace](../../project-workspace/task/install-project-workspace.md).
+-   [Install Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/install-project-workspace.md).
 -   Ensure you’ve activated the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
--   Ensure you have enabled attributes for Resource Management. For more information, see [Using the Planning attributes](../../project-management/concept/planning-attributes.md).
+-   Ensure you have enabled attributes for Resource Management. For more information, see [Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/planning-attributes.md).
 
-**Parent Topic:**[Configuring Project Workspace](configure-pw.md)
+**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/configure-pw.md)
 

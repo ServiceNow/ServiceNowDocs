@@ -2,6 +2,7 @@
 title: Shodan integration
 description: Configure Shodan integration to enable automated discovery and analysis of internet-connected devices in your network infrastructure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-shodan.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -21,10 +22,10 @@ The Shodan integration performs enrichment on the following observables:
 -   URLs
 -   Domains
 
--   **[Configure and enable Shodan integration](shodan-integration.md)**  
+-   **[Configure and enable Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/shodan-integration.md)**  
 Before you use Shodan integration, you must download it from the ServiceNow Store.
 
-**Parent Topic:**[Configure Observable Enrichment](configure-observable-enrichment.md)
+**Parent Topic:**[Configure Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/configure-observable-enrichment.md)
 
-**Parent Topic:**[Observable Enrichment](../concept/tisc-observable-enrichment.md)
+**Parent Topic:**[Observable Enrichment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-observable-enrichment.md)
 

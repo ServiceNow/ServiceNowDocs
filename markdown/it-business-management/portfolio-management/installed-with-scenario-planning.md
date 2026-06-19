@@ -2,6 +2,7 @@
 title: Components installed with Scenario Planning for PPM
 description: Several types of components are installed with the installation of the Scenario Planning for PPM application, including tables and demo data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/installed-with-scenario-planning.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -15,7 +16,7 @@ breadcrumb: [Install Scenario Planning for PPM, Scenario Planning for PPM, Portf
 
 Several types of components are installed with the installation of the Scenario Planning for PPM application, including tables and demo data.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed with Scenario Planning for PPM
 
@@ -60,5 +61,5 @@ Portfolio Planning Window\[sn\_pw\_scenario\_pm\_planning\_window\]
 Stores the planning window information of a portfolio for multi-year and resource capacity-based planning.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Scenario Planning for PPM](../task/install-scenario-planning.md)
+</table>**Parent Topic:**[Install Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/install-scenario-planning.md)
 

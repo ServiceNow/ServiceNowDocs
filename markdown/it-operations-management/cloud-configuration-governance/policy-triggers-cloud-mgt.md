@@ -2,6 +2,7 @@
 title: Triggers for cloud policies
 description: Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule and performs the actions specified in the rule, if the conditions are met.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/policy-triggers-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -24,7 +25,7 @@ Triggers are events that set the policy engine in motion. For example, the on Ca
 
 **Important:** Blueprints are deprecated. The trigger descriptions following the time-line schema below, are applicable for creating cloud template based catalogs as well.
 
-![Provisioning trigger time line](../image/provision-trigger-timeline.png "Provisioning trigger time-line")
+\[Omitted image "provision-trigger-timeline.png"\] Alt text: Provisioning trigger time line
 
 ## Policy triggers
 
@@ -52,7 +53,7 @@ The on Blueprint provision trigger fires after execution of on Catalog item requ
 
  The user does not see the final value on the catalog item form because the change is made at provision time.
 
- [Create an action for an 'on Blueprint provision' policy](../task/create-action-on-bp-provision-1.md)
+ [Create an action for an 'on Blueprint provision' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr><tr><td>
 
@@ -81,7 +82,7 @@ A cloud approval policy specifies the users who must approve a specified cloud a
 
  A policy that is triggered by the on Task Remediation trigger can start approval subflows.
 
- [Create an action for an approval policy](../task/create-action-on-approval-1.md)
+ [Create an action for an approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr><tr><td>
 
@@ -98,7 +99,7 @@ The on Catalog item launch trigger fires when an order form \(stack request form
 
  When both a policy rule and a form rule overwrite a value, the value in the form rule is used.
 
- [Create an action for an 'on Catalog item launch' policy](../task/create-action-on-cat-item-launch-1.md)
+ [Create an action for an 'on Catalog item launch' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr><tr><td>
 
@@ -115,7 +116,7 @@ The on Catalog item request start trigger fires after the user opens a request f
 
  You can use this trigger to run a custom script or workflow to fulfill enterprise processes like custom approval before the catalog item request is processed.​
 
- [Create an action for an 'on Catalog item request start/end' policy](../task/create-action-on-cat-item-request-1.md)
+ [Create an action for an 'on Catalog item request start/end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr><tr><td>
 
@@ -132,7 +133,7 @@ The on Catalog item request end trigger fires after a user submits a request for
 
  Use this trigger to launch a workflow after a catalog item request is processed. Consider this trigger a post-provisioning step. For example, you could launch a workflow to install MySQL on the provisioned resource.
 
- [Create an action for an 'on Catalog item request start/end' policy](../task/create-action-on-cat-item-request-1.md)
+ [Create an action for an 'on Catalog item request start/end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr><tr><td>
 
@@ -145,7 +146,7 @@ on Lease end
 
 </td><td>
 
-A policy that is triggered by the on Lease end trigger can send a notification or perform a Start, Stop, or Deprovision life cycle operation. [Create an action for an 'on Lease end' policy](../task/create-action-on-lease-end-1.md)
+A policy that is triggered by the on Lease end trigger can send a notification or perform a Start, Stop, or Deprovision life cycle operation. [Create an action for an 'on Lease end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr><tr><td>
 
@@ -160,7 +161,7 @@ on Resource operation launch
 
 The on Resource operation launch trigger fires before the catalog for a resource operation is loaded from the Cloud User Portal. A policy that is triggered by the on Resource operation launch trigger can run a script or can override a user-requested value \(text values only\). When both a policy rule and a form rule overwrite a value, the value in the form rule is used.
 
- [Create an action for an 'on Resource operation launch' policy](../task/create-action-on-resrce-op-launch-1.md)
+ [Create an action for an 'on Resource operation launch' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ on Resource operation request start
 
 The on Resource operation request start trigger fires after a user submits a resource operation request \(Start, Stop, Deprovision\). A policy that is triggered by the on Resource operation request start or on Resource operation request end trigger can run a script or override a user-requested attribute value.
 
- [Create an action for an 'on Resource operation request start/end' policy](../task/create-action-on-resrce-op-reqst-1.md)
+ [Create an action for an 'on Resource operation request start/end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr><tr><td>
 
@@ -190,7 +191,7 @@ on Resource operation request end
 
 The on Resource operation request end trigger fires before completion of a life cycle operation on a resource \(Start, Stop, Deprovision\). A policy that is triggered by the on Resource operation request start or on Resource operation request end trigger can run a script or override a user-requested attribute value.
 
- [Create an action for an 'on Resource operation request start/end' policy](../task/create-action-on-resrce-op-reqst-1.md)
+ [Create an action for an 'on Resource operation request start/end' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr><tr><td>
 
@@ -205,7 +206,7 @@ on Resource operation
 
 </td><td>
 
-The on Resource operation trigger fires during the Orchestration process when a user performs a Start, Stop, or Deprovision life cycle operation on a specific resource. A policy that is triggered by the on Resource operation trigger can override a user-requested attribute value, run a script, call a Cloud API, or perform an IP address management operation. [Create an action for an 'on Resource operation' policy](../task/create-action-on-resource-op-1.md)
+The on Resource operation trigger fires during the Orchestration process when a user performs a Start, Stop, or Deprovision life cycle operation on a specific resource. A policy that is triggered by the on Resource operation trigger can override a user-requested attribute value, run a script, call a Cloud API, or perform an IP address management operation. [Create an action for an 'on Resource operation' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 </td></tr></tbody>
 </table>

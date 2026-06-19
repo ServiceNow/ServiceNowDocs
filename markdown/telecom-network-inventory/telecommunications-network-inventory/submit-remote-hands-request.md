@@ -2,11 +2,12 @@
 title: Submit a Remote Hands Request
 description: Submit a Remote Hands Request. Create a case record and see how customers track status and updates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/submit-remote-hands-request.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Remote Hands Request, Use, Telecommunications Network Inventory]
 ---
@@ -41,10 +42,10 @@ The Remote Hand Request form enables your customers to request services for equi
 
 5.  On the Remote Hands Request form, fill in the fields.
 
-    To learn about the fields in the Remote Hands Request form, see [Remote Hands Request form](../reference/remote-hands-request-form.md)
+    To learn about the fields in the Remote Hands Request form, see [Remote Hands Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request-form.md)
 
 6.  Select **Submit**
 
 
-**Parent Topic:**[Remote Hands Request](../concept/remote-hands-request.md)
+**Parent Topic:**[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)
 

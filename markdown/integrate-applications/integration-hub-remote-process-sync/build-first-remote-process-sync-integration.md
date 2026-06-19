@@ -2,6 +2,7 @@
 title: Build your first Remote Process Sync integration
 description: Step through an example of how to build a Remote Process Sync integration in order to link the automated processes of two ServiceNow instances together.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/build-first-remote-process-sync-integration.html
 release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
@@ -17,9 +18,9 @@ Step through an example of how to build a Remote Process Sync integration in ord
 
 ## Before you begin
 
--   Activate Remote Process Sync on each instance in your integration by purchasing the Integration Hub Enterprise package. For more information, see [Request Integration Hub](../../flow-designer/concept/request-ih-overview.md).
+-   Activate Remote Process Sync on each instance in your integration by purchasing the Integration Hub Enterprise package. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
 -   Activate the explicit roles security feature on each instance in your integration. For more information, see Explicit Role plugin.
--   Learn about how to build and manage an Integration Hub Remote Process Sync integration by checking out [Getting started with Remote Process Sync](../reference/getting-started-with-remote-process-sync.md).
+-   Learn about how to build and manage an Integration Hub Remote Process Sync integration by checking out [Getting started with Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
 -   Confirm the instances that you will link together in the following example are not production instances. It is recommended to test this example on sub-production instances only in order to avoid overwriting any important data on either instance. You might also want to use a [Personal Developer Instance](https://developer.servicenow.com/dev.do#!/guides/sandiego/now-platform/pdi-guide/personal-developer-instance-guide-introduction) for testing this example integration.
 -   Confirm that you do not have any existing business rules, workflows, or Workflow Studio flows whose logic will conflict with the flows we will create in the following example.
 -   Role required: admin
@@ -43,9 +44,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 3.  While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
+    For details, see steps four and five in .
 
-4.  [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md) for RPS API User for Instance A.
+4.  Reset the password for RPS API User for Instance A.
 
 5.  Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -55,7 +56,7 @@ In the following example, you will step through how to link two ServiceNow insta
 
     3.  In the search window above Collection, enter `ih_process_sync_api`.
 
-    4.  Select **ih\_process\_sync\_api** and **snc\_external** from the Collection list, and then select the add button \(![Add button](../../flow-designer/images/slushbucket-add.png)\) to add these roles to the Roles List.
+    4.  Select **ih\_process\_sync\_api** and **snc\_external** from the Collection list, and then select the add button \(\[Omitted image "slushbucket-add.png"\] Alt text: Add button\) to add these roles to the Roles List.
 
         **Note:** The snc\_external role restricts the access of external users to only the resources they have been explicitly granted access to.
 
@@ -72,9 +73,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 7.  While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
+    For details, see steps four and five in .
 
-8.  [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md) for RPS Run as User A.
+8.  Reset the password for RPS Run as User A.
 
 9.  Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -84,11 +85,11 @@ In the following example, you will step through how to link two ServiceNow insta
 
     3.  In the search window above Collection, enter `ih_process_sync_run_as`.
 
-    4.  Select **ih\_process\_sync\_run\_as** from the Collection list, and then select the add button \(![Add button](../../flow-designer/images/slushbucket-add.png)\) to add that role to the Roles List.
+    4.  Select **ih\_process\_sync\_run\_as** from the Collection list, and then select the add button \(\[Omitted image "slushbucket-add.png"\] Alt text: Add button\) to add that role to the Roles List.
 
     5.  In the search window above Collection, enter `incident_manager`.
 
-    6.  Select **incident\_manager** from the Collection list, and then select the add button \(![Add button](../../flow-designer/images/slushbucket-add.png)\) to add that role to the Roles List.
+    6.  Select **incident\_manager** from the Collection list, and then select the add button \(\[Omitted image "slushbucket-add.png"\] Alt text: Add button\) to add that role to the Roles List.
 
     7.  Select **Save**.
 
@@ -105,9 +106,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 12. While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
+    For details, see steps four and five in .
 
-13. [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md) for RPS API User for Instance B.
+13. Reset the password for RPS API User for Instance B.
 
 14. Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -117,7 +118,7 @@ In the following example, you will step through how to link two ServiceNow insta
 
     3.  In the search window above Collection, enter `ih_process_sync_api`.
 
-    4.  Select **ih\_process\_sync\_api** and **snc\_external** from the Collection list, and then select the add button \(![Add button](../../flow-designer/images/slushbucket-add.png)\) to add these roles to the Roles List.
+    4.  Select **ih\_process\_sync\_api** and **snc\_external** from the Collection list, and then select the add button \(\[Omitted image "slushbucket-add.png"\] Alt text: Add button\) to add these roles to the Roles List.
 
         **Note:** The snc\_external role restricts the access of external users to only the resources they have been explicitly granted access to.
 
@@ -134,9 +135,9 @@ In the following example, you will step through how to link two ServiceNow insta
 
 16. While still on the User form, select **Set Password** to set a password.
 
-    For details, see steps four and five in [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/reset-your-password.md).
+    For details, see steps four and five in .
 
-17. [Reset the password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_EnrollInPasswordReset.md) for RPS Run as User B from Instance B.
+17. Reset the password for RPS Run as User B from Instance B.
 
 18. Navigate back to **System Security** &gt; **Users and Groups** &gt; **Users** and select the User record that you just created.
 
@@ -146,11 +147,11 @@ In the following example, you will step through how to link two ServiceNow insta
 
     3.  In the search window above Collection, enter `ih_process_sync_run_as`.
 
-    4.  Select **ih\_process\_sync\_run\_as** from the Collection list, and then select the add button \(![Add button](../../flow-designer/images/slushbucket-add.png)\) to add that role to the Roles List.
+    4.  Select **ih\_process\_sync\_run\_as** from the Collection list, and then select the add button \(\[Omitted image "slushbucket-add.png"\] Alt text: Add button\) to add that role to the Roles List.
 
     5.  In the search window above Collection, enter `incident_manager`.
 
-    6.  Select **incident\_manager** from the Collection list, and then select the add button \(![Add button](../../flow-designer/images/slushbucket-add.png)\) to add that role to the Roles List.
+    6.  Select **incident\_manager** from the Collection list, and then select the add button \(\[Omitted image "slushbucket-add.png"\] Alt text: Add button\) to add that role to the Roles List.
 
     7.  Select **Save**.
 
@@ -185,7 +186,7 @@ In the following example, you will step through how to link two ServiceNow insta
         |Field|Description|
         |-----|-----------|
         |Name|Enter `RPS Vendor`.|
-        |Credential|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `RPS Vendor Credentials` record from the list.|
+        |Credential|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `RPS Vendor Credentials` record from the list.|
         |Connection URL|Enter the base URL of Instance B. The URL should begin with `https://` and end with `.service-now.com/`|
 
     5.  Leave all other fields as they are, and then select **Submit**.
@@ -221,7 +222,7 @@ In the following example, you will step through how to link two ServiceNow insta
         |Field|Description|
         |-----|-----------|
         |Name|Enter `RPS Customer`.|
-        |Credential|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `RPS Customer Credentials` record from the list.|
+        |Credential|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `RPS Customer Credentials` record from the list.|
         |Connection URL|Enter the base URL of Instance A. The URL should begin with `https://` and end with `.service-now.com/`|
 
     5.  Leave all other fields as they are, and then select **Submit**.
@@ -249,11 +250,11 @@ In the following example, you will step through how to link two ServiceNow insta
         |-----|-----------|
         |Name|Enter `Vendor Instance - Instance B`|
         |Description|Enter `Vendor instance that fulfills hardware requests`|
-        |Connection Alias|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `RPS_Vendor_Demo` record from the list.|
-        |Inbound API User|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `RPS API User for Instance A` record from the list.|
-        |Run as|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `RPS Run as User` record from the list.|
+        |Connection Alias|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `RPS_Vendor_Demo` record from the list.|
+        |Inbound API User|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `RPS API User for Instance A` record from the list.|
+        |Run as|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `RPS Run as User` record from the list.|
 
-    2.  In the context header, select the additional actions icon \(![Additional actions icon](../images/additional-actions-context-header.png)\) and then select **Copy sys\_id**.
+    2.  In the context header, select the additional actions icon \(\[Omitted image "additional-actions-context-header.png"\] Alt text: Additional actions icon\) and then select **Copy sys\_id**.
 
         You will need this Sys ID as the value for the External ID field of the Remote System record in Instance B.
 
@@ -281,15 +282,15 @@ In the following example, you will step through how to link two ServiceNow insta
         |Name|Enter `Customer Instance - Instance A`|
         |Description|Enter `Customer instance that requests hardware`|
         |External ID|Paste the value of the Sys ID that you copied from the Remote System record in Instance A.|
-        |Connection Alias|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `RPS_Customer_Demo` record from the list.|
-        |Inbound API User|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `RPS API User for Instance B` record from the list.|
-        |Run as|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `RPS Run as User` record from the list.|
+        |Connection Alias|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `RPS_Customer_Demo` record from the list.|
+        |Inbound API User|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `RPS API User for Instance B` record from the list.|
+        |Run as|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `RPS Run as User` record from the list.|
 
     2.  Leave all other fields as they are, and then select **Submit**.
 
     3.  From the Remote Systems related list, select the `Customer Instance - Instance A` record.
 
-    4.  In the context header, select the additional actions icon \(![Additional actions icon](../images/additional-actions-context-header.png)\) and then select **Copy sys\_id**.
+    4.  In the context header, select the additional actions icon \(\[Omitted image "additional-actions-context-header.png"\] Alt text: Additional actions icon\) and then select **Copy sys\_id**.
 
         You will need this Sys ID as the value for the External ID field of the Remote System record in Instance A.
 
@@ -341,7 +342,7 @@ Process Event
 
 </td><td>
 
-select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `Request Hardware` record from the list.
+select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `Request Hardware` record from the list.
 
 </td></tr><tr><td>
 
@@ -365,7 +366,7 @@ Filter
 
 </td><td>
 
-In the condition builder, select **Assignment Group** &gt; **is** and then select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\). Choose the `Hardware` record from the list.
+In the condition builder, select **Assignment Group** &gt; **is** and then select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\). Choose the `Hardware` record from the list.
 
 </td></tr><tr><td>
 
@@ -373,7 +374,7 @@ Include fields
 
 </td><td>
 
-Select the following fields and then select the add item button \(![Add item button](../images/slushbucket-add-item-icon.png)\) to add them to the Selected list:-   Number
+Select the following fields and then select the add item button \(\[Omitted image "slushbucket-add-item-icon.png"\] Alt text: Add item button\) to add them to the Selected list:-   Number
 -   Short description
 -   Assignment group
 -   Severity
@@ -418,7 +419,7 @@ To make a copy, follow these steps.
 3.  Filter the **Name** column to locate the `Remote Process Sync Outbound Flow Template - Basic` record and select it.
 4.  In the subflow, select the More Actions menu, then select **Copy subflow**.
 5.  **Publish** the subflow copy.
-This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](../reference/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(![Configure Subflow icon](../images/configure-subflow-icon.png)\).
+This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
 
 </td></tr><tr><td>
 
@@ -426,7 +427,7 @@ Remote System
 
 </td><td>
 
-Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `Vendor Instance - Instance B` record from the list.
+Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `Vendor Instance - Instance B` record from the list.
 
 </td></tr></tbody>
 </table>    2.  Leave all other fields as they are, and then select **Submit**.
@@ -465,7 +466,7 @@ Process Event
 
 </td><td>
 
-select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `Hardware Request Fulfilled` record from the list.
+select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `Hardware Request Fulfilled` record from the list.
 
 </td></tr><tr><td>
 
@@ -489,7 +490,7 @@ Filter
 
 </td><td>
 
-In the condition builder, select **Assignment Group** &gt; **is** and then select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\). Choose the `Hardware` record from the list. Then, select **AND** to add another condition and select **Incident state** &gt; **is** &gt; **Resolved**.
+In the condition builder, select **Assignment Group** &gt; **is** and then select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\). Choose the `Hardware` record from the list. Then, select **AND** to add another condition and select **Incident state** &gt; **is** &gt; **Resolved**.
 
 </td></tr><tr><td>
 
@@ -497,7 +498,7 @@ Include fields
 
 </td><td>
 
-Select the following fields and then select the add item button \(![Add item button](../images/slushbucket-add-item-icon.png)\) to add them to the Selected list:-   Number
+Select the following fields and then select the add item button \(\[Omitted image "slushbucket-add-item-icon.png"\] Alt text: Add item button\) to add them to the Selected list:-   Number
 -   State
 -   Resolved by
 -   Resolution notes
@@ -542,7 +543,7 @@ To make a copy, follow these steps.
 3.  Filter the **Name** column to locate the `Remote Process Sync Outbound Flow Template - Basic` record and select it.
 4.  In the subflow, select the More Actions menu, then select **Copy subflow**.
 5.  **Publish** the subflow copy.
-This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](../reference/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(![Configure Subflow icon](../images/configure-subflow-icon.png)\).
+This template subflow handles the correlation of local and remote records and sends the captured payload to the remote instance.**Note:** When building your own integration, you can add [Remote Process Sync actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-actions.md) to personalize this template subflow to your needs. To edit this template subflow in Workflow Studio, select the Configure Subflow icon \(\[Omitted image "configure-subflow-icon.png"\] Alt text: Configure Subflow icon\).
 
 </td></tr><tr><td>
 
@@ -550,7 +551,7 @@ Remote System
 
 </td><td>
 
-Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `Customer Instance - Instance A` record from the list.
+Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `Customer Instance - Instance A` record from the list.
 
 </td></tr></tbody>
 </table>    2.  Leave all other fields as they are, and then select **Submit**.
@@ -595,11 +596,11 @@ Select the lookup using list icon \(![Lookup using list icon](../images/lookup-u
 
         |Field|Value|
         |-----|-----|
-        |Short description|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **short\_description**.|
-        |Description|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **short\_description**.|
-        |Assignment group|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **assignment\_group**.|
-        |Urgency|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **severity**.|
-        |State|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **state**.|
+        |Short description|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **short\_description**.|
+        |Description|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **short\_description**.|
+        |Assignment group|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **assignment\_group**.|
+        |Urgency|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **severity**.|
+        |State|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **state**.|
 
     2.  Select **Done**.
 
@@ -609,11 +610,11 @@ Select the lookup using list icon \(![Lookup using list icon](../images/lookup-u
 
         |Field|Value|
         |-----|-----|
-        |Short description|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **short\_description**.|
-        |Description|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **short\_description**.|
-        |Assignment group|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **assignment\_group**.|
-        |Urgency|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **severity**.|
-        |State|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **state**.|
+        |Short description|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **short\_description**.|
+        |Description|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **short\_description**.|
+        |Assignment group|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **assignment\_group**.|
+        |Urgency|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **severity**.|
+        |State|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **state**.|
 
     2.  Select **Done**.
 
@@ -627,7 +628,7 @@ Select the lookup using list icon \(![Lookup using list icon](../images/lookup-u
         |-----|-----------|
         |Process Event|From the list, select **Request Hardware**.|
         |Inbound Subflow|Select `Copy of Remote Process Sync Inbound Flow Template - Basic`.|
-        |Remote System|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `Customer Instance - Instance A` record from the list.|
+        |Remote System|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `Customer Instance - Instance A` record from the list.|
 
     2.  Leave all other fields as they are, and then select **Submit**.
 
@@ -669,10 +670,10 @@ Select the lookup using list icon \(![Lookup using list icon](../images/lookup-u
 
         |Field|Value|
         |-----|-----|
-        |State|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **state**.|
-        |Resolved by|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **resolved\_by**.|
-        |Resolution notes|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **close\_notes**.|
-        |Resolution code|Select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker.png)\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **close\_code**.|
+        |State|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **state**.|
+        |Resolved by|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **resolved\_by**.|
+        |Resolution notes|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **close\_notes**.|
+        |Resolution code|Select the data pill picker icon \(\[Omitted image "data-pill-picker.png"\] Alt text: Data pill picker icon\). Dot-walk to and then select **1 - Transform Payload from Inbound Sample** &gt; **Changed Fields** &gt; **close\_code**.|
 
     2.  Select **Done**.
 
@@ -688,7 +689,7 @@ Select the lookup using list icon \(![Lookup using list icon](../images/lookup-u
         |-----|-----------|
         |Process Event|From the list, select **Hardware Request Fulfilled**.|
         |Inbound Subflow|Select `Copy of Remote Process Sync Inbound Flow Template - Basic`.|
-        |Remote System|Select the lookup using list icon \(![Lookup using list icon](../images/lookup-using-list-icon.png)\), and then select the `Vendor Instance - Instance B` record from the list.|
+        |Remote System|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\), and then select the `Vendor Instance - Instance B` record from the list.|
 
     2.  Leave all other fields as they are, and then select **Submit**.
 
@@ -709,5 +710,5 @@ Then, when a user resolves the correlated Incident record in Instance B:
 
 ## What to do next
 
-Test out your Remote Process Sync integration by creating an Incident record in Instance A with the Hardware assignment group. Then, resolve the correlated Incident record in Instance B. If your correlated records don't sync as expected, check your Inbound API User's credentials and Process Sync Definition configuration in each Instance. If you continue to experience issues with your example integration, refer to [Monitoring and troubleshooting your integration](../reference/getting-started-with-remote-process-sync.md#monitoring-troubleshooting-rps).
+Test out your Remote Process Sync integration by creating an Incident record in Instance A with the Hardware assignment group. Then, resolve the correlated Incident record in Instance B. If your correlated records don't sync as expected, check your Inbound API User's credentials and Process Sync Definition configuration in each Instance. If you continue to experience issues with your example integration, refer to [Monitoring and troubleshooting your integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md).
 

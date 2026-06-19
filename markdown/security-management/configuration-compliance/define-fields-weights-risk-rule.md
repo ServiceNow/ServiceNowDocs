@@ -2,6 +2,7 @@
 title: Define fields and weights for the risk rule
 description: Customize the parameters and weights for the risk rule so that you can generate risk scores that use the test and asset data that are unique to your organization. By selecting the fields that are included in the risk rule, you can define an effective risk scoring framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/define-fields-weights-risk-rule.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance

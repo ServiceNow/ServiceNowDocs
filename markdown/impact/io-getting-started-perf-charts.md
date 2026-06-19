@@ -2,7 +2,10 @@
 title: Getting started with Performance charts
 description: Follow these steps to generate Performance charts using Instance Observer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/io-getting-started-perf-charts.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ Role required: admin
 
 2.  From the **Performance** menu, select the telemetry option to evaluate.
 
-    ![The Performance menu listing all of the telemetry charts available.](../image/io-perf-menu.png)
+    \[Omitted image "io-perf-menu.png"\] Alt text: The Performance menu listing all of the telemetry charts available.
 
 3.  Select the reporting options:
 
@@ -41,5 +44,5 @@ Role required: admin
     -   Download to PNG, SVG, or CSV files or view transactions on the instance.
     -   Change the report type.
 
-**Parent Topic:**[Performance](../concept/instance-observer-performance.md)
+**Parent Topic:**[Performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/instance-observer-performance.md)
 

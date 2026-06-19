@@ -2,6 +2,7 @@
 title: Remove an AQI checklist from a knowledge base
 description: Before you can edit a checklist that is assigned to a knowledge base, you must remove it from the knowledge base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/remove-an-aqi-checklist-from-a-knowledgebase.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -32,5 +33,5 @@ Role required: knowledge\_admin or admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Use Article Quality Index](../concept/use-article-quality-index.md)
+**Parent Topic:**[Use Article Quality Index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/use-article-quality-index.md)
 

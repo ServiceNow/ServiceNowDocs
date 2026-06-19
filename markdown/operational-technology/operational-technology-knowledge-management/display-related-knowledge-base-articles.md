@@ -2,6 +2,7 @@
 title: Find information in the related knowledge articles for an OT incident
 description: Find information in the related knowledge articles that are attached to an Operational Technology \(OT\) incident record for any previous resolutions that may be applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/display-related-knowledge-base-articles.html
 release: australia
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -29,9 +30,9 @@ Role required: sn\_ot\_incident\_read
 
 3.  Select the incident record that you want to view.
 
-4.  In the incident record, select the Agent assist button ![](../image/agent-assist-button.png) to open the Agent Assist window if it's not already opened.
+4.  In the incident record, select the Agent assist button \[Omitted image "agent-assist-button.png"\] Alt text: to open the Agent Assist window if it's not already opened.
 
-5.  To view the full knowledge article, select the **More actions** button ![](../image/more-actions.png).
+5.  To view the full knowledge article, select the **More actions** button \[Omitted image "more-actions.png"\] Alt text:.
 
 6.  Select **Full View**.
 
@@ -39,8 +40,8 @@ Role required: sn\_ot\_incident\_read
 
 8.  To flag the knowledge article, select **Flag** in the Agent Assist window.
 
-9.  To mark the knowledge article as helpful, select the **More actions** button ![More actions button.](../image/more-actions-vertical.png) and choose **Helpful**.
+9.  To mark the knowledge article as helpful, select the **More actions** button \[Omitted image "more-actions-vertical.png"\] Alt text: More actions button. and choose **Helpful**.
 
 
-**Parent Topic:**[Using Operational Technology Knowledge Management](../concept/using-operational-technology-knowledge-management.md)
+**Parent Topic:**[Using Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/using-operational-technology-knowledge-management.md)
 

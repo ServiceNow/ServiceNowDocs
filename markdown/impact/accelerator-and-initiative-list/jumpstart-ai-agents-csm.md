@@ -2,6 +2,7 @@
 title: Jumpstart Your AI Agents for CSM
 description: This Accelerator provides a demonstration of the possibilities and capabilities of AI Agents for CSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-ai-agents-csm.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator overview
 
 This accelerator provides  Impact customers with an overview and applied demonstration of AI Agents for CSM. By harnessing the power of GenAI, this accelerator highlights how AI agents revolutionize the CSM process by using advanced reasoning to complete key tasks. AI agents handle repetitive tasks such as generating detailed resolution notes, summarizing cases and chat conversations, and more, freeing up human agents to focus on higher-value work. This offering provides key resources and leading practices to get started with AI Agents for CSM.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -64,6 +67,8 @@ Please refer to the applicable Impact Accelerator Description available at [http
 ## Exclusions
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
+
+## Exclusions
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

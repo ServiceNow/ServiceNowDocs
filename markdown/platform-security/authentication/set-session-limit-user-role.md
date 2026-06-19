@@ -2,11 +2,12 @@
 title: Set a concurrent session limit by user or role
 description: You can set a concurrent session limit on a specific user or on a particular role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/set-session-limit-user-role.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Limit concurrent sessions, Authentication, Access Management]
 ---

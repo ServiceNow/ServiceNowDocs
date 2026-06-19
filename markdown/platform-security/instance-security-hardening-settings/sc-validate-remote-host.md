@@ -2,6 +2,7 @@
 title: Validate remote host
 description: Set the property to true to prevent bad actors from using internal port scanning in your network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-validate-remote-host.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[Business Logic](sc-business-logic.md)
+[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 
 </td></tr><tr><td>
 
@@ -114,5 +115,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Business Logic](sc-business-logic.md)
+</table>**Parent Topic:**[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 

@@ -2,6 +2,7 @@
 title: Export financials as Excel or CSV file
 description: Export the costs or baseline comparison data of your planning items to easily share them with your stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/export-financials-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -27,9 +28,9 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 3.  Select the **Financials** tab.
 
-4.  Select the Export option \(![Downward facing arrow indicating download option.](../images/fin-export-option.png)\).
+4.  Select the Export option \(\[Omitted image "fin-export-option.png"\] Alt text: Downward facing arrow indicating download option.\).
 
-5.  In the Export side panel, select **Excel** or **CSV** from the File type list and select the **Export** button \(![Export button.](../images/fin-export-button.png)\).
+5.  In the Export side panel, select **Excel** or **CSV** from the File type list and select the **Export** button \(\[Omitted image "fin-export-button.png"\] Alt text: Export button.\).
 
     The financials data is download as an Excel or CSV file with `name_fin_mmddyy` naming convention. The breakdown of the naming convention:
 

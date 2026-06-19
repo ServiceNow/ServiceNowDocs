@@ -2,6 +2,7 @@
 title: OpenAPI support in the REST step
 description: Populate REST step fields and action inputs with information imported from an OpenAPI Specification. Import specifications by providing a URL to the YAML or JSON, or copying and pasting content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/open-api-integration.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -29,7 +30,7 @@ OpenAPI support in the REST step offers these benefits.
 
 When you import an OpenAPI Specification, the system creates any required inputs and adds them to the REST step form where appropriate. At runtime, the system sends a REST request that contains input values provided to the action. For example, if an API requires a name parameter passed in the request, the system creates a **name** input and adds it to the REST step. When you add the action to the flow, name becomes an input to the action.
 
-The system maps OpenAPI data types to Workflow Studio data types. For example, if the OpenAPI Specification requires a user object, then the system creates a complex data object as input. For more information, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/complex-data.md).
+The system maps OpenAPI data types to Workflow Studio data types. For example, if the OpenAPI Specification requires a user object, then the system creates a complex data object as input. For more information, see Complex data.
 
 ## Specification size limit
 
@@ -37,7 +38,7 @@ By default, the system can import OpenAPI Specifications up to 10 MB. To increas
 
 ## Specification management
 
-Import an OpenAPI Specification by selecting options in the REST step. For more information, see [REST step](../../flow-designer/reference/rest-request-action-designer.md). Importing an OpenAPI Specification creates a record in the OpenAPIs \[sys\_openapi\] table. You can view or delete specification records directly from this table. To update a specification, delete it and import it again.
+Import an OpenAPI Specification by selecting options in the REST step. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md). Importing an OpenAPI Specification creates a record in the OpenAPIs \[sys\_openapi\] table. You can view or delete specification records directly from this table. To update a specification, delete it and import it again.
 
 ## Design considerations
 

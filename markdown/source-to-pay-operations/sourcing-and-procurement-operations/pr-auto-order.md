@@ -2,6 +2,7 @@
 title: Purchase requisition auto-order
 description: Auto-order automates the creation of a purchase order \(PO\) from an approved purchase requisition \(PR\) without requiring manual buyer intervention. Two system properties control whether the feature is active and the maximum PR value that qualifies for automatic processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/pr-auto-order.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -54,5 +55,5 @@ All of the following conditions must be true for auto-order to create a PO:
 -   The PR has at least one line in an approved state.
 -   All approved PR lines have valid cost allocation data, including GL account information.
 
-**Parent Topic:**[Sourcing and Purchasing Automation](../reference/purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

@@ -2,6 +2,7 @@
 title: DevOps user-created orchestration tool integration
 description: Integrate DevOps Change Velocity with any orchestration tool that is not supported in the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-user-created-orchestration-tool-integration.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -18,7 +19,7 @@ Integrate DevOps Change Velocity with any orchestration tool that is not support
 If the orchestration tool your organization uses isn’t provided in the base system, you can create an orchestration tool integration on your own. There are two ways in which you can create the integration.
 
 -   Using transform scripts manually. See the Now Support Knowledge Base \[[KB1794252](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1794252)\] article for more information.
--   Using the DevOps Change Workspace by performing the steps specified in [Create a tool integration from the DevOps Change Workspace](../task/create-a-tool-integration-from-the-devops-change-workspace.md).
+-   Using the DevOps Change Workspace by performing the steps specified in [Create a tool integration from the DevOps Change Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/create-a-tool-integration-from-the-devops-change-workspace.md).
 
-**Parent Topic:**[User-created integrations in DevOps Change Velocity](dev-ops-tool-integration.md)
+**Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

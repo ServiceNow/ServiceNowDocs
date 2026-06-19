@@ -2,6 +2,7 @@
 title: Compare PaCE policy versions
 description: You can compare two versions of a PaCE policy, whatever their state. Any differences between the two selected versions are highlighted for quick analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-compare-versions.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -36,7 +37,7 @@ Role required: sn\_pace.code\_editor
     -   The **Details** container highlights differences between the details of the two versions. For example, differences between the state, version name and numbering, and the number of test or standard runs.
     -   The **Script** container highlights any differences in the policy script of the two versions.
 
-        ![Compare version scripts](../image/pace-compare-script.jpg)
+        \[Omitted image "pace-compare-script.jpg"\] Alt text: Compare version scripts
 
     -   The **Mapping Inputs** container also lists any differences between the two versions.
 5.  To make any changes based on your analysis of the two compared versions, return to the **Versions** tab, select the relevant version, and modify and test as required.

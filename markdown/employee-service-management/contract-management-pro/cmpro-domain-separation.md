@@ -2,6 +2,7 @@
 title: Domain separation and Contract Management Pro
 description: Domain separation is supported for Contract Management Pro. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-domain-separation.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -25,7 +26,7 @@ Domain separation is supported for Contract Management Pro. Domain separation en
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of Contract Management Pro domain separation
 
@@ -37,7 +38,7 @@ With basic domain separation support, all Contract Management Pro data tables ar
 
 When a user who belongs to a specific domain creates a contract request in Contract Management Pro, the record is created in the domain of the user. Contract users and fulfillers can access only the records that exist within their domain or within child domains, based on the basic domain separation rules.
 
-Domain separation in Contract Management Pro is enabled through the Domain Separation plugin. For more information, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
+Domain separation in Contract Management Pro is enabled through the Domain Separation plugin. For more information, see .
 
 All Contract Management Pro data tables support domain separation.
 
@@ -53,5 +54,5 @@ Contract templates, clauses, e-signature provider configurations, external stora
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

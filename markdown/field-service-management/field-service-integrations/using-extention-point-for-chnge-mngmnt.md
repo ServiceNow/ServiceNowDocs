@@ -2,6 +2,7 @@
 title: Using an extension point to synchronize work orders with change requests
 description: Extension points enable you to extend the functionality of an application and integrate customizations without altering the application code. Extension points are stored in the Extension Point \[sys\_extension\_point\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/using-extention-point-for-chnge-mngmnt.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -32,5 +33,5 @@ The default extension points that are provided with an application cannot be mod
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[bundle-crapiref.extension-points]
 

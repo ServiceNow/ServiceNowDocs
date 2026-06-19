@@ -2,6 +2,7 @@
 title: Import Zoom Team Chat messages
 description: Import the chat conversation manually or automatically with a user from  Zoom application, which appends and stores the messages in the  Comments section of the ticket in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/import-zoom-chat.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -96,7 +97,7 @@ Method used to import messages.
 
 4.  Select **Import**.
 
-    If the auto import of the messages is enabled in the chat configuration and you try to import the messages manually for a record, then the system displays a message that the chat is being imported using auto-import. For configuration information about auto import, see [Customize the Zoom chat form](create-chat-config-customize-zoom-chat-form.md).
+    If the auto import of the messages is enabled in the chat configuration and you try to import the messages manually for a record, then the system displays a message that the chat is being imported using auto-import. For configuration information about auto import, see [Customize the Zoom chat form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-chat-config-customize-zoom-chat-form.md).
 
 5.  On the form menu, select **Reload form** to refresh the ticket form.
 
@@ -105,5 +106,5 @@ Method used to import messages.
 
 The imported chats and files are displayed in the **Activities** section of the ticket.
 
-**Parent Topic:**[Starting and importing a Zoom Team Chat](../concept/start-import-chat.md)
+**Parent Topic:**[Starting and importing a Zoom Team Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/start-import-chat.md)
 

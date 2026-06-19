@@ -2,6 +2,7 @@
 title: Manage file observables
 description: Manage file observables provides stringent security measures to store the suspicious files and enables the files type observables for sandbox integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manage-file-observables.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,6 +2,7 @@
 title: Migrating from Legacy Notify
 description: When migrating to Notify from the Legacy Notify functionality, several changes are made to the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_NotifyMigration.html
 release: australia
 product: Notify
 classification: notify
@@ -26,5 +27,5 @@ If the Legacy Notify functionality is already enabled, several automatic changes
 -   The notifynow\_admin role allows access to Legacy Notify modules.
 -   All workflow activities from the Legacy Notify application are moved to the **Legacy Notify** group.
 
-**Parent Topic:**[Activate Notify](../task/t_ActivateNotify.md)
+**Parent Topic:**[Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ActivateNotify.md)
 

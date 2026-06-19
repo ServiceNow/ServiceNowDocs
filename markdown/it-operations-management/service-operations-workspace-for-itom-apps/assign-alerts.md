@@ -2,6 +2,7 @@
 title: Assign alerts in Express List
 description: Assign alerts in Express List to yourself, to someone else, or to an assignment group to balance your organization's work load.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/assign-alerts.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -25,27 +26,27 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon ![](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon \[Omitted image "express-list1.png"\].
 
 3.  Select the check box next to the alert number that you want to assign.
 
-    **Note:** You can perform the action on up to 1,000 alerts simultaneously by selecting the **Select All** check box in the Active alerts list. ![Select All check box.](../image/el-select-all.png)
+    **Note:** You can perform the action on up to 1,000 alerts simultaneously by selecting the **Select All** check box in the Active alerts list. \[Omitted image "el-select-all.png"\] Alt text: Select All check box.
 
 4.  Select the **Close** drop-down list.
 
-    ![Option to acknowledge the alert.](../image/el-close-menu.png)
+    \[Omitted image "el-close-menu.png"\] Alt text: Option to acknowledge the alert.
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d527082e134">
+<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d267816e134">
 
 Assignment
 
-</th><th align="left" id="d527082e137">
+</th><th align="left" id="d267816e137">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d527082e143">
+</th></tr></thead><tbody><tr><td id="d267816e143">
 
 **Yourself**
 
@@ -53,7 +54,7 @@ Actions
 
 Select **Assign to you** and then select **OK**.
 
-</td></tr><tr><td id="d527082e158">
+</td></tr><tr><td id="d267816e158">
 
 **Someone else**
 
@@ -65,7 +66,7 @@ Select **Assign to you** and then select **OK**.
 4.  Select the **Assign &lt;number&gt; alerts** button.
 
 
-</td></tr><tr><td id="d527082e194">
+</td></tr><tr><td id="d267816e194">
 
 **Assignment group**
 

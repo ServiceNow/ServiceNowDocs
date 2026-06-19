@@ -2,13 +2,14 @@
 title: View the number of portal bot-based sessions
 description: Ensure customers are not incorrectly billed by viewing the number of bot-based sessions. CSM portal usage sessions are billable to customers but sometimes customers are unnecessarily charged for sessions generated due to bots, crawlers, and DDOS attacks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/bot-based-session-csp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer and Consumer Service Portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # View the number of portal bot-based sessions

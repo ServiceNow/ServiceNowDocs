@@ -2,6 +2,7 @@
 title: Create custom email field to initiate Microsoft Teams chat
 description: Create a custom email field to use Microsoft Teams app to initiate chat conversation for the agents to resolve the IT and HR related issues of the users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-upn-field.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -37,7 +38,7 @@ Role required: admin
 
 5.  Click **Add**.
 
-    ![Create new field](../images/create-new-field.png)
+    \[Omitted image "create-new-field.png"\] Alt text: Create new field
 
 6.  In the Selected slush bucket column, move the field in the desired location on the form.
 
@@ -45,7 +46,7 @@ Role required: admin
 
     The field now appears on the form in the designated location.
 
-    ![New field added to form](../images/upn-field.png)
+    \[Omitted image "upn-field.png"\] Alt text: New field added to form
 
     The admin must enter the email used for Microsoft Teams in this field.
 
@@ -53,23 +54,23 @@ Role required: admin
 
 8.  Right-click on the field and click **Show &lt;value of the field name&gt;**.
 
-    ![Show field name](../images/show-field-name.png)
+    \[Omitted image "show-field-name.png"\] Alt text: Show field name
 
     The dictionary info of the field name can be viewed.
 
-    ![Field name](../images/field-name2.png)
+    \[Omitted image "field-name2.png"\] Alt text: Field name
 
 9.  Right click the **Field** and copy the value.
 
 10. In the search field, enter `sys_properties.LIST` to view the system properties.
 
-    ![System properties](../images/sys-properties2.png)
+    \[Omitted image "sys-properties2.png"\] Alt text: System properties
 
 11. In the Name column, search for `*user_email` property.
 
 12. Click the entry.
 
-    ![Email field properties](../images/email-field2.png)
+    \[Omitted image "email-field2.png"\] Alt text: Email field properties
 
     If the record is not editable, click **Edit** on the header to edit the record.
 
@@ -77,12 +78,12 @@ Role required: admin
 
     The default value is **email**.
 
-    ![Updtae email field](../images/updtae-email-field.png)
+    \[Omitted image "updtae-email-field.png"\] Alt text: Updtae email field
 
 14. Click **Update**.
 
     **Note:** Ensure that the email address for all the users for the newly created field is updated with the email associated with Microsoft Teams app.
 
 
-**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](../concept/sn-ms-teams-config-hr.md)
+**Parent Topic:**[Configure HR Service Delivery integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-ms-teams-config-hr.md)
 

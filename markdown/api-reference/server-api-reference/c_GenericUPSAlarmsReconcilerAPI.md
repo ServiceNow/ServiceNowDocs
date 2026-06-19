@@ -2,6 +2,7 @@
 title: GenericUPSAlarmsReconciler - Global
 description: The GenericUPSAlarmsReconciler script include provides methods to obtain reconciler information for generic uninterruptible power supply \(UPS\) alarms.Returns the reconciliation field.Returns the reconciliation key.Determines if the generic UPS bypass information has changed.Reads the database fields.Reads the discovered information.Sets the database fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GenericUPSAlarmsReconcilerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GenericUPSAlarmsReconciler script include provides methods to obtain reconci
 
 Use this API for SNMP-related discovery.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GenericUPSAlarmsReconciler - getReconcilationField\(\)
 

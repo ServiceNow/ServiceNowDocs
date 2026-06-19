@@ -2,6 +2,7 @@
 title: Create New Excel download/upload request form
 description: On the Create New Excel download/upload request form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-excel-upload-download-req.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -142,6 +143,8 @@ Competent authority
 
 Competent authority according to Article 46 of Regulation \(EU\) 2022/2554 to which the register of information is reported.
 
+ ISO 8601 \(yyyy-mm-dd\) date on which the register of information is submitted to the regulator. For example, 2026-05-06. This is the submission date and is distinct from the Reference date, which is the as-of date of the data set being reported.
+
 </td></tr><tr><td>
 
 Date of reporting
@@ -152,13 +155,21 @@ ISO 8601 \(yyyy-mm-dd\) code of the date of reporting
 
 </td></tr><tr><td>
 
+Reference date
+
+</td><td>
+
+ISO 8601 \(yyyy-mm-dd\) as-of date of the data set being reported. For example, 2025-12-31 for a year-end snapshot. The Reference date determines the historical exchange rate used when &lt;uicontrol&gt;Enable currency conversion&lt;/uicontrol&gt; is set, and it is the date the regulator expects on each row of the package.
+
+</td></tr><tr><td>
+
 Enable currency conversion
 
 </td><td>
 
 Option to convert each contract’s annual expense into a single base currency using historical exchange rates from the European Central Bank \(ECB\).**Note:** The Reference Date on the report determines the exchange rate used. Converted amounts appear only in the generated package; source records are unchanged.
 
-For more information, see [Currency conversion and third-party aggregation](../concept/currency-conversion-aggregation.md).
+For more information, see [Currency conversion and third-party aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/currency-conversion-aggregation.md).
 
 </td></tr><tr><td>
 
@@ -168,7 +179,7 @@ Enable third‑party total expense aggregation
 
 Option to aggregate annual expenses across all contracts belonging to the same third‑party provider or third‑party engagement.**Note:** Aggregation only happens if all eligibility rules are met: All contracts for the provider must meet provider eligibility criteria \(for example, single‑provider contracts and currency alignment\). If currency conversion is not enabled, all contracts must already be in base currency. If currency conversion is enabled, all conversions must succeed.
 
-For more information, see [Currency conversion and third-party aggregation](../concept/currency-conversion-aggregation.md).
+For more information, see [Currency conversion and third-party aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/currency-conversion-aggregation.md).
 
 </td></tr><tr><td>
 
@@ -189,5 +200,5 @@ Report type
 Specifies whether the report covers a single entity **Individual** or a **Consolidated** group of entities.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create Microsoft Excel download and upload request](../task/create-excel-upload-download-request.md)
+</table>**Parent Topic:**[Create Microsoft Excel download and upload request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-excel-upload-download-request.md)
 

@@ -2,6 +2,7 @@
 title: Jumpstart Your Workflow Automation: Playbooks
 description: This accelerator provides a demonstration of the possibilities and capabilities of Playbooks in Workflow Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-workflow-automation-playbooks.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator Overview
 
 Jumpstart Your Workflow Automation: Playbooks provides Impact customers with an overview and applied demonstration of Workflow Studio and its Playbooks feature. This session reduces friction and makes the tool accessible to users of all skill levels. Customers learn to manage and create their own playbooks, driving greater efficiency in their business processes. In addition, this accelerator includes key resources and leading practice guides to help customers get started.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -57,6 +60,8 @@ Please refer to the applicable Impact Accelerator Description available at [http
 ## Exclusions
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments or to self-hosted customers.
+
+## Exclusions
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

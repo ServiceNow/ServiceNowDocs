@@ -2,10 +2,13 @@
 title: Additional requirements for all Australia features and products
 description: Cumulative release notes summary on additional requirements for Australia features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-addtl-reqs.html
 release: australia
+product: Release Notes
+classification: release-notes
 topic_type: reference
-last_updated: "2026-05-04"
-reading_time_minutes: 5
+last_updated: "2026-06-12"
+reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -35,7 +38,7 @@ The following are required to use AI Desktop Actions:
 -   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
 -   No extended monitors are connected.
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see .
 
 You must enable Next Experience UI Framework before you can use the Now Assist panel.
 
@@ -45,7 +48,23 @@ Agentic Contact Center for Banking
 
 </td><td>
 
-This application is dependent on Now Assist for Financial Services Operations \(FSO\). For more information, see [Now Assist for Financial Services Operations \(FSO\) release notes](../financial-services-operations/now-assist-for-financial-services-operations-rn.md).
+This application is dependent on Now Assist for Financial Services Operations \(FSO\). For more information, see [Now Assist for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
+
+</td></tr><tr><td>
+
+Agentic Contact Center for Insurance
+
+</td><td>
+
+This application requires Now Assist for Financial Services Operations \(FSO\). For activation and configuration details, see [Now Assist for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-financial-services-operations-rn.md).
+
+</td></tr><tr><td>
+
+Creator Studio
+
+</td><td>
+
+Check your entitlements to determine whether you have access to Creator Studio.
 
 </td></tr><tr><td>
 
@@ -73,6 +92,14 @@ The system property sn\_bom\_credit\_card.is\_verifi\_integration\_enabled must 
 
 </td></tr><tr><td>
 
+Interview management
+
+</td><td>
+
+The Hiring Core application provides essential data models and shared components for Hiring Experiences, and must be activated.
+
+</td></tr><tr><td>
+
 Now Assist
 
 </td><td>
@@ -85,7 +112,7 @@ Now Assist AI Agents
 
 </td><td>
 
-You must first install the supported Now Assist version of the ServiceNow AI Platform to be able to use Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+You must first install the supported Now Assist version of the ServiceNow AI Platform to be able to use Now Assist AI agents. For more information, see .
 
 Next Experience UI Framework must be enabled before you can use the Now Assist panel.
 
@@ -104,14 +131,6 @@ Now Assist in Document Intelligence
 </td><td>
 
 Now Assist in Document Intelligence requires the installation of the Document Intelligence application \(sn\_docintel\) and at least one Now Assist product.
-
-</td></tr><tr><td>
-
-Now Assist in Virtual Agent
-
-</td><td>
-
- 
 
 </td></tr><tr><td>
 
@@ -183,6 +202,30 @@ To use the RPA Desktop Design Studio application, the software requirements are:
 
 </td></tr><tr><td>
 
+Recruitment workspace
+
+</td><td>
+
+The Hiring Core application provides essential data models and shared components for Hiring Experiences. The application must be activated.
+
+</td></tr><tr><td>
+
+ReleaseOps
+
+</td><td>
+
+ReleaseOps is not supported in regulated environments or on-premise. Check your entitlements to determine whether you have access to ReleaseOps.
+
+</td></tr><tr><td>
+
+Retail Strategic Portfolio Management Suite
+
+</td><td>
+
+The Project Workspace application must be installed before installing the Retail Strategic Portfolio Management Suite.
+
+</td></tr><tr><td>
+
 SQL API
 
 </td><td>
@@ -195,7 +238,7 @@ ServiceNow IDE
 
 </td><td>
 
-ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see [Install an npm package from a private registry with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-library-private-npm-registry.md).
+ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see .
 
 </td></tr><tr><td>
 
@@ -203,7 +246,7 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/install-servicenow-sdk.md).
+You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see .
 
 </td></tr><tr><td>
 
@@ -222,5 +265,5 @@ Zero Copy Connector for ERP
 SAP ECC and SAP S/4 HANA are currently the only available systems that integrate with Zero Copy Connector for ERP.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Australia features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)
 

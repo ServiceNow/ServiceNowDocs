@@ -2,6 +2,7 @@
 title: Jumpstart Your CSDM: Crawl
 description: This accelerator provides an overview of the Crawl phase of the CSDM maturity journey, brief assessment of current Crawl data, and actionable steps to complete the phase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-CSDM-crawl.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,9 +20,11 @@ This accelerator provides an overview of the Crawl phase of the CSDM maturity jo
 
 Jumpstart Your CSDM: Crawl provides impact customers with an overview and applied demonstration of the Common Service Data Model \(CSDM\) Crawl phase. This accelerator supports the customer’s CSDM maturity journey by breaking down specific action items to enhance the understanding of the Crawl phase. As a result, customers can populate and rationalize their Business applications and Application services. This enables a more service-aware CMDB for use throughout additional workflows of ServiceNow.The offering also includes key resources and leading practice guides to help customers get started with the Crawl phase of the CSDM Maturity journey.
 
-Customers must first complete the [Jumpstart Your CSDM: Foundation](jumpstart-csdm.md) accelerator before taking this one, as this offering builds on the Foundation phase of the CSDM maturity journey.
+Customers must first complete the [Jumpstart Your CSDM: Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/accelerator-and-initiative-list/jumpstart-csdm.md) accelerator before taking this one, as this offering builds on the Foundation phase of the CSDM maturity journey.
 
-**Note:** This Accelerator is only available for Impact Guided and Guided+ packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\) packages.
 
 ## What you get
 
@@ -61,6 +64,8 @@ Please refer to the applicable Impact Accelerator Description available at [http
 ## Exclusions
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments or to self-hosted customers.
+
+## Exclusions
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

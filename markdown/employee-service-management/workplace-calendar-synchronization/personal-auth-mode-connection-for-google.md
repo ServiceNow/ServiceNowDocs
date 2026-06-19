@@ -2,13 +2,14 @@
 title: Create a personal authentication mode connection for Google
 description: As an admin, establish a personal authentication mode connection for Google Calendar to synchronize reservations. A user-level authentication token is generated that enables you to create, update, or cancel reservations to synchronize events on the Google Calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-for-google.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a personal authentication mode connection for Google

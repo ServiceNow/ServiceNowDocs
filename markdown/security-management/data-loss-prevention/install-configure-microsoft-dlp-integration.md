@@ -2,6 +2,7 @@
 title: Install and configure the Microsoft DLP integration
 description: Install and configure the  DLP Incident Response integration with Microsoft DLP from the  ServiceNow Store on your  ServiceNow AI Platform instance. Start investigating DLP incidents using the  Microsoft DLP event data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/install-configure-microsoft-dlp-integration.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -29,7 +30,7 @@ Role required: sn\_dlir.admin
 
     1.  Search for **DLP Incident Response Integration with Microsoft** tile and select  **Configure**.
 
-        ![Click Configure for Microsoft.](../../data-loss-prevention/image/dlp-microsoft.png "DLP Incident Response Integration with Microsoft")
+        \[Omitted image "dlp-microsoft.png"\] Alt text: Click Configure for Microsoft.
 
     2.  On the form, fill in the fields.
 
@@ -50,7 +51,7 @@ Role required: sn\_dlir.admin
 
     2.  In the Azure Storage Configuration tile, select **Update**.
 
-        ![Click Update for Azure Storage Configuration.](../../data-loss-prevention/image/dlp-microsoft-azure-storage.png)
+        \[Omitted image "dlp-microsoft-azure-storage.png"\] Alt text: Click Update for Azure Storage Configuration.
 
     3.  On the form, fill in the fields.
 
@@ -71,7 +72,7 @@ Role required: sn\_dlir.admin
 
     2.  In the AWS Storage Configuration tile, select **Update**.
 
-        ![Click Update for AWS Storage Configuration.](../../data-loss-prevention/image/dlp-microsoft-aws-storage.png)
+        \[Omitted image "dlp-microsoft-aws-storage.png"\] Alt text: Click Update for AWS Storage Configuration.
 
     3.  On the form, fill in the fields.
 
@@ -90,5 +91,5 @@ Role required: sn\_dlir.admin
 
 After you successfully validate and submit the configuration, the AWS S3 Configuration is saved on the Security Integrations page as a tile.
 
-**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](../concept/dlp-integration-microsoft.md)
+**Parent Topic:**[Data Loss Prevention Incident Response with Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-integration-microsoft.md)
 

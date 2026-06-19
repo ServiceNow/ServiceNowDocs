@@ -2,6 +2,7 @@
 title: Health and Safety Risk Management
 description: The ServiceNow Health and Safety Risk Management application provides capabilities to enable workers, line managers, and safety personnel to work safely and reduce the likelihood of injuries that risks or hazards create.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-risk-management-landing-page.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -19,39 +20,39 @@ The ServiceNow® Health and Safety Risk Management application provides capabili
 
 <table id="table_wyb_x2q_11c" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn how workers, line managers, and safety personnel use Health and Safety Risk Management.](hs-exploring-risk-mgmt.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how workers, line managers, and safety personnel use Health and Safety Risk Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-exploring-risk-mgmt.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up Health and Safety Risk Management.](hs-setting-up-risk-mgmt.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Health and Safety Risk Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 
 </td><td>
 
-[Submit Job Safety Analysis \(JSA\)![](../../../reuse/icons/brand-icons/bus-task-list.svg)Submit JSAs for high-risk jobs and tasks at your point of work.](../task/hs-submit-jsa-emp-center.md)
+[Submit Job Safety Analysis \(JSA\)\[Omitted image "bus-task-list.svg"\] Alt text:Submit JSAs for high-risk jobs and tasks at your point of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-emp-center.md)
 
 </td></tr><tr><td>
 
-[Conduct risk assessment![](../../../reuse/icons/brand-icons/bus-risk-management.svg)Conduct safety risk assessments using custom risk matrixes.](../task/hs-conduct-risk-assessment.md)
+[Conduct risk assessment\[Omitted image "bus-risk-management.svg"\] Alt text:Conduct safety risk assessments using custom risk matrixes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-conduct-risk-assessment.md)
 
 </td><td>
 
-[Perform safety inspections and audits![](../../../reuse/icons/brand-icons/bus-compliance.svg)Schedule, assign, and conduct workplace safety inspections and audits.](hs-safety-inspections.md)
+[Perform safety inspections and audits\[Omitted image "bus-compliance.svg"\] Alt text:Schedule, assign, and conduct workplace safety inspections and audits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 
 </td><td>
 
-[Manage safety registers![](../../../reuse/icons/brand-icons/bus-whitepaper.svg)Log hazardous materials along with Safety Data Sheets \(SDSs\).​](hs-safety-registers.md)
+[Manage safety registers\[Omitted image "bus-whitepaper.svg"\] Alt text:Log hazardous materials along with Safety Data Sheets \(SDSs\).​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-registers.md)
 
 </td></tr><tr><td>
 
-[Manage exposure types![](../../../reuse/icons/brand-icons/bus-vulnerability-management-systems.svg)Identify exposure sources and track workers' exposure levels.​](hs-safety-exposures.md)
+[Manage exposure types\[Omitted image "bus-vulnerability-management-systems.svg"\] Alt text:Identify exposure sources and track workers' exposure levels.​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-exposures.md)
 
 </td><td>
 
-[Permit to work![](../../../reuse/icons/brand-icons/bus-workflow.svg)Submit and manage permit requests for high-risk jobs.](hs-permit-to-work.md)
+[Permit to work\[Omitted image "bus-workflow.svg"\] Alt text:Submit and manage permit requests for high-risk jobs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-permit-to-work.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components such as roles, tables, and store applications that are installed.](hs-risk-mgmt-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as roles, tables, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

@@ -2,13 +2,14 @@
 title: Escalate an incident in Proactive Service Experience Workflows
 description: Escalate an incident to continue the investigation and diagnosis of that incident. By escalating an incident, you can ask for help from a more-experienced resource so that the issue is resolved more quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/escalate-incident-aw.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [About escalating incidents, Proactive Service Experience Workflow, Use, Product Support for Technology]
+breadcrumb: [About escalating incidents, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Escalate an incident in Proactive Service Experience Workflows
@@ -19,7 +20,7 @@ Escalate an incident to continue the investigation and diagnosis of that inciden
 
 This task assumes that you have been working on an incident and you must escalate it to the next escalation group.
 
-**Note:** Be sure that the administrator has assigned this role to the escalation groups. For information about how administrators assign roles, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+**Note:** Be sure that the administrator has assigned this role to the escalation groups. For information about how administrators assign roles, see Assign a role to a group.
 
 Role required: sn\_ind\_tsm\_core.noc\_agent
 
@@ -42,5 +43,5 @@ Role required: sn\_ind\_tsm\_core.noc\_agent
 -   The incident Stage is updated with the next escalation level.
 -   The Assignment Group is updated according to the escalation level.
 
-**Parent Topic:**[About escalating incidents](../concept/psew-escalate-incident.md)
+**Parent Topic:**[About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md)
 

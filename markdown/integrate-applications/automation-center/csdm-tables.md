@@ -2,6 +2,7 @@
 title: Automation Center and CSDM tables
 description: Automation Center uses CSDM tables. Several ServiceNow products benefit from and add value to Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/csdm-tables.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -33,5 +34,5 @@ When you use Automation Center with any of the following ServiceNow products, yo
 -   Integration Hub
 -   Document Intelligence
 
-**Parent Topic:**[Applying Common Service Data Model guidelines to Automation Center](applying-csdm.md)
+**Parent Topic:**[Applying Common Service Data Model guidelines to Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/applying-csdm.md)
 

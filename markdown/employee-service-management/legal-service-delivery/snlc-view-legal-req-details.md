@@ -2,11 +2,12 @@
 title: View and track non-disclosure agreement requests as a legal user
 description: View the details of a non-disclosure agreement request after it has been submitted and track the activities in the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-19"
 reading_time_minutes: 1
 breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -21,41 +22,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 ## Procedure
 
-1.  Open a legal request.
+1.  Navigate to **All** &gt; **Employee Center**.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d663431e66">
+    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
 
-Method
-
-</th><th align="left" id="d663431e69">
-
-Actions
-
-</th></tr></thead><tbody><tr><td id="d663431e75">
-
-**__Employee Center__**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Employee Center**
 2.  Select **My Requests** option on the header menu.
+
 3.  Open your submitted non-disclosure agreement request.
 
-
-</td></tr><tr><td id="d663431e108">
-
-**__Legal Service Portal__**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
-2.  Select **My Requests** option on the header menu.
-3.  Select **View all requests**.
-4.  Open your submitted non-disclosure agreement request.
-
-
-</td></tr></tbody>
-</table>2.  View the details of the contract request.
+4.  View the details of the contract request.
 
 <table id="table_dwh_35x_b2c"><thead><tr><th>
 
@@ -108,8 +83,8 @@ Attachment documents in internal storage
 Preview
 
 </td></tr></tbody>
-</table>3.  Track the activities in the request and post messages for the fulfiller working on it by accessing the **Activity** tab.
+</table>5.  Track the activities in the request and post messages for the fulfiller working on it by accessing the **Activity** tab.
 
 
-**Parent Topic:**[Non-disclosure agreement requests](../concept/snlc-request-nda-1.md)
+**Parent Topic:**[Non-disclosure agreement requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

@@ -2,6 +2,7 @@
 title: EventProcessorUtilOOB - Scoped
 description: The EventProcessorUtilOOB script include provides methods to construct and publish events on the configured message broker.Constructs a TMF688 compliant payload based on the passed information and publishes the event to the configured publishing platform.Converts the passed raw event object into a TMF-compliant event object by invoking a payload generator based on the event type.Instantiates the HermesEventPublisher class and publishes the passed event payload to the Hermes Kafka message broker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/EventProcessorUtilOOBScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ If you want to change the default functionality of this script include, you need
 
 This script include runs in the `sn_api_notif_mgmt` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## EventProcessorUtilOOB - constructandPublishEvent\(Object inboundEventPayloadRecord, String eventId\)
 
@@ -77,7 +78,7 @@ You will need to override this method if your implementation does any of the fol
 
 You may also need to override the methods within the `TroubleTicketNotificationUtil` script include to add attributes to the returned TMF-compliant payload or modify the default handling of the payload.
 
-For additional information, see [Configure trouble ticket notifications using the Producer Event Notification Framework](../../../../../integrate/guides/ProducerEventNotifFramework/concept/prd_evt_not-dev_gd-cfg_trbl_tkt_not.md).
+For additional information, see [Configure trouble ticket notifications using the Producer Event Notification Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/prd_evt_not-dev_gd-cfg_trbl_tkt_not.md).
 
 <table id="table_bq5_4nz_5zb" class="parameters"><thead><tr><th>
 

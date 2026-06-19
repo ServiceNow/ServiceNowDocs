@@ -2,6 +2,7 @@
 title: Configure the data collection for the Operational Technology Progress Scorecard
 description: Configure the data collection for Operational Technology \(OT\) Progress Scorecard so that you can collect and display the daily data for all indicators from Performance Analytics. This configuration ensures that your OT data is displayed accurately on the scorecard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-data-collection-for-ot-progress-scorecard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -31,7 +32,7 @@ If you don't run the \[PA OTPSC\] Monthly Data Collection job, then no data is a
 
     If you're in the OT Progress Scorecard, navigate to the Scheduled Data Collection table by selecting **Run job now** in the error message.
 
-2.  Apply a filter by selecting the Show/hide filter \(![Show/hide filter icon in the table header.](../../mftg-manufacturing-oper-tech-mgr/image/show-hide-filter-icon.png)\) icon and add a filter of `[Name] [is] [[PA OTPSC] Monthly Data Collection]`.
+2.  Apply a filter by selecting the Show/hide filter \(\[Omitted image "show-hide-filter-icon.png"\] Alt text: Show/hide filter icon in the table header.\) icon and add a filter of `[Name] [is] [[PA OTPSC] Monthly Data Collection]`.
 
 3.  Start collecting the data by selecting the check box next to the **Active** field in the Job parameters section and then schedule a time in the **Time** field.
 
@@ -46,7 +47,7 @@ If you don't run the \[PA OTPSC\] Monthly Data Collection job, then no data is a
 
 The OT Progress Scorecard is now showing the correct site data for your users.
 
-**Note:** The OT Progress Scorecard uses Performance Analytics. Performance Analytics only saves the scores for 5 months. If want to preserve your scores and compare site data for more than 5 months, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
+**Note:** The OT Progress Scorecard uses Performance Analytics. Performance Analytics only saves the scores for 5 months. If want to preserve your scores and compare site data for more than 5 months, see .
 
-**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](../concept/setting-up-the-ot-progress-scorecard.md)
+**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

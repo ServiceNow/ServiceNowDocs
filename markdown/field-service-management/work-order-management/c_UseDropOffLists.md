@@ -2,6 +2,7 @@
 title: Using drop off lists
 description: Agents use drop off lists to return items that are in their personal stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/c\_UseDropOffLists.html
 release: australia
 product: Work Order Management
 classification: work-order-management

@@ -2,6 +2,7 @@
 title: Edit the protection policy for an OT View Rule
 description: Edit the protection policy for an Operational Technology \(OT\) View Rule to edit the View Rule as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/edit-protection-policy-ot-view-rules.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -36,5 +37,5 @@ Role required: admin
 
 Changing the **Protection policy** column value from **Read-only** to **--None--** allows users assigned the **admin** role to edit the OT View Rule.
 
-**Parent Topic:**[Operational Technology Manager reference](../reference/operational-technology-manager-reference.md)
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

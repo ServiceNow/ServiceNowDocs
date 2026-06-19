@@ -2,6 +2,7 @@
 title: Application view of HR catalog
 description: The Application View provides an aerial view of your HR catalog. The Application View allows you to view your catalog with all categories and items and ensure that it is set up correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_AppView.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -32,5 +33,5 @@ Role required: sn\_hr\_core.admin
 3.  Click New Probe to report on a table or setup aspect in the HR Service Delivery system.
 
 
-**Parent Topic:**[HR Administration](../concept/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

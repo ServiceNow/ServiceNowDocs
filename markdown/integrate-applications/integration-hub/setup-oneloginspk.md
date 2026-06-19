@@ -2,6 +2,7 @@
 title: Set up the OneLogin spoke
 description: Integrate the ServiceNow instance and OneLogin account using the OAuth credentials to authenticate ServiceNow requests.Create an API credential in the OneLogin portal to enable OAuth 2.0 authentication and obtain the values of client ID and client secret.Configure the default connection and credential alias to integrate the ServiceNow instance and OneLogin account to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-oneloginspk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,13 +38,13 @@ Role required: admin or account owner.
 
     **Note:** Ensure that you select either **Manage users** or **Manage all** permission.
 
-    ![OneLogin credential.](../image/onelogin-credential.png)
+    \[Omitted image "onelogin-credential.png"\] Alt text: OneLogin credential.
 
 5.  Click **Save**.
 
     The values of client ID and client secret are displayed.
 
-    ![Values of client ID and client secret.](../image/onelogin-creds.png)
+    \[Omitted image "onelogin-creds.png"\] Alt text: Values of client ID and client secret.
 
 6.  Copy and record the values of client ID and client secret for later use.
 

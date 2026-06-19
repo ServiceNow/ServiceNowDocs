@@ -2,6 +2,7 @@
 title: Set up the Guidewire spoke
 description: Integrate the ServiceNow instance and Guidewire using basic Auth or OAuth 2.0 authentication to authenticate ServiceNow requests.Use the information generated during the Guidewire application configuration to register Guidewire as an OAuth provider. OAuth provider registration enables the ServiceNow instance to request OAuth 2.0 tokens.Create credential records to the Guidewire custom OAuth application you created during Guidewire account configuration. The Guidewire spoke connection and credential aliases use these credentials to authorize actions in Guidewire application. The Guidewire connection and credential alias uses these credentials to authorize actions.Create a Basic Auth credential record for the Guidewire application. The Guidewire connection and credential alias uses these credentials to authorize actions in Guidewire PolicyCenter, Guidewire ContactManager, and Guidewire ClaimCenter.You can choose to switch between implemented basic Auth and OAuth 2.0 authentication based on your event or security needs.Create a connection record for your Guidewire application. The Guidewire connection and credential aliases use these connections to perform actions in Guidewire PolicyCenter, Guidewire ContactManager, and Guidewire ClaimCenter.Generate the Guidewire access token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-guidewire-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -269,8 +270,8 @@ You can choose to switch between implemented basic Auth and OAuth 2.0 authentica
 ### Before you begin
 
 -   Role required: admin
--   [Create Basic Auth credential record for the Guidewire spoke](set-up-guidewire-spoke.md#)
--   [Register Guidewire as an OAuth provider](set-up-guidewire-spoke.md#)
+-   [Create Basic Auth credential record for the Guidewire spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-guidewire-spoke.md)
+-   [Register Guidewire as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-guidewire-spoke.md)
 
 The following example shows the steps for switching from basic auth to OAuth 2.0 for the Guidewire ClaimCenter application.
 
@@ -293,7 +294,7 @@ The following example shows the steps for switching from basic auth to OAuth 2.0
 
 ### What to do next
 
-[Get Guidewire OAuth token](set-up-guidewire-spoke.md#)
+[Get Guidewire OAuth token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-guidewire-spoke.md)
 
 ## Create connection record for the Guidewire spoke
 

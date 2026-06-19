@@ -2,6 +2,7 @@
 title: Set up the Trello spoke
 description: Integrate the ServiceNow instance and Trello by creating an API key in Trello to authenticate ServiceNow requests.Generate a Trello API key and token to get access to the Trello portal.Set up your ServiceNow instance to add the Trello API key and API token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/trello-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub

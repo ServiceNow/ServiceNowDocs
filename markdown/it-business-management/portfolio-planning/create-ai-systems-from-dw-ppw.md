@@ -2,6 +2,7 @@
 title: Create AI systems
 description: Create AI systems from directly within the demand workflow and associate them with your demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-ai-systems-from-dw-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 ## Before you begin
 
--   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.md).
+-   The AI Control Tower plugin must be installed. For more information, see .
 -   The investment type of the demand is set to artificial intelligence.
 -   Role required: sn\_ai\_steward
 
@@ -25,7 +26,7 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select a demand record from the **All Demands** list.
 
@@ -33,13 +34,13 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 4.  Select the **Create AI System** button to create an AI system in the AI Control Tower workspace.
 
-    For more information on creating AI systems, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-ai-system-assets.md).
+    For more information on creating AI systems, see .
 
 
 ## What to do next
 
 Associate your demands with the created AI systems:
 
--   Using the AI checkpoint stage in your demand AI playbook. For more information, see [Use Playbooks](use-playbooks-in-ppw.md).
+-   Using the AI checkpoint stage in your demand AI playbook. For more information, see [Use Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
 -   Using the **AI Associations** section in the **Details** tab.
 

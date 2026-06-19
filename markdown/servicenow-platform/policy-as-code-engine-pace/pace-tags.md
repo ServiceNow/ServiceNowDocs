@@ -2,6 +2,7 @@
 title: Managing tags in PaCE
 description: Use tags to manage your PaCE policies more efficiently. As the policy administrator, you can create and edit any number of tags.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-tags.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

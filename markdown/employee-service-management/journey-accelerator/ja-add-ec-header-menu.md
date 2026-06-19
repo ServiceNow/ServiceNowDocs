@@ -2,6 +2,7 @@
 title: Configure action plan access in the Employee Center
 description: Add or change the header menu labels. Or, update the My active items list link used to access action plans in the Employee Center user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/ja-add-ec-header-menu.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -19,14 +20,14 @@ Add or change the header menu labels. Or, update the My active items list link u
 
 Install the latest Employee Center app from the ServiceNow Store. After you install the EC app, you can modify the labels for header menus or My active items links.
 
-1.  [Install Employee Center](../../employee-center/task/activate-ec.md)
+1.  [Install Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-ec.md)
 
     Install the Employee Center app to get the latest EC user interface.
 
-2.  [Update the Employee Center theme](../task/ja-update-ec-ui-theme.md)
+2.  [Update the Employee Center theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-update-ec-ui-theme.md)
 
     Update the Employee Center service portal settings to use the latest theme and menus.
 
-3.  -   [Add a Journey Accelerator action plan link to My Active Items list](../task/add-ja-action-plan-myitems-list.md)
--   [Add a Journey Accelerator action plan menu to the Employee Center](../task/add-ja-action-plan-menu-ec-header.md)
+3.  -   [Add a Journey Accelerator action plan link to My Active Items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md)
+-   [Add a Journey Accelerator action plan menu to the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/add-ja-action-plan-menu-ec-header.md)
 

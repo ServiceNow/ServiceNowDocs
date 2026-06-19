@@ -2,6 +2,7 @@
 title: Activate La Jolla theme branding
 description: Activate the Service Portal La Jolla Brand to apply ServiceNow branding, which includes WCAG-AA compliance for contrast. This plugin is active by default on new instances, but admins must activate the plugin on instances upgraded from earlier versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/enable-la-jolla-brand-update.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -58,13 +59,13 @@ You can evaluate the feature on a sub-production instance without charge by requ
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Defining portal styles](../concept/portal-css.md)
+**Parent Topic:**[Defining portal styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/portal-css.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

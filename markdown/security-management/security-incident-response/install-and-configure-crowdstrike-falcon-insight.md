@@ -2,6 +2,7 @@
 title: Install and configure CrowdStrike Falcon Insight
 description: Install and configure the CrowdStrike Falcon Insight for Security Operations application from the ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/install-and-configure-crowdstrike-falcon-insight.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -72,7 +73,7 @@ Client Secret
 The client secret key that you obtain from the settings section of your account profile in the CrowdStrike Falcon Insight portal.
 
 </td></tr></tbody>
-</table>    ![CrowdStrike Falcon Insight configuration tile.](../image/falcon-insight-configuration-tile.png)
+</table>    \[Omitted image "falcon-insight-configuration-tile.png"\] Alt text: CrowdStrike Falcon Insight configuration tile.
 
 5.  Select **Submit**.
 

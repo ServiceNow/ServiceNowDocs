@@ -2,6 +2,7 @@
 title: Approve or reject an engagement
 description: Audit users that are assigned as approvers for an engagement can approve or reject engagements in the Awaiting Approval state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/approve-reject-engagement.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -34,5 +35,5 @@ Role required: sn\_audit.user
     -   If the engagement is rejected, it automatically moves back to the **Fieldwork** state
 
 
-**Parent Topic:**[Manage engagements](../concept/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
 

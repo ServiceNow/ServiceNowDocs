@@ -2,6 +2,7 @@
 title: Using Advanced Work Assignment
 description: The following sections detail how awa\_manager or awa\_agent roles can use Advanced Work Assignment \(AWA\) to complete various tasks such as checking an agent's presence and capacity, checking unassigned work items, and creating SMS conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/using-awa.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

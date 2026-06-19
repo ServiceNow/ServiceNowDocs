@@ -2,6 +2,7 @@
 title: Create Smart Assessment questionnaires from new templates
 description: Create a Smart Assessment questionnaire from a new Smart Assessment template and associate them to work order tasks to gather information about the tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/create-smart-assessment-questionnaire.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family

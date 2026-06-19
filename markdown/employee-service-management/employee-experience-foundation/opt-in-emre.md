@@ -2,6 +2,7 @@
 title: Opt in to the enhanced Enhanced Requests Experience
 description: Opt in to the Enhanced Requests Experience, as an existing customer, to get the benefits of the updated features on both desktop and on the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/opt-in-emre.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,7 +44,7 @@ Role required: sn\_hr\_sp.esc\_admin
 
     3.  Save the form.
 
-        You are opted to mobile experience. To view the requests on your mobile, refer to [Enhanced Requests Experience on Now Mobile](../concept/enhanced-req-exp-ec-mobile.md).
+        You are opted to mobile experience. To view the requests on your mobile, refer to [Enhanced Requests Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/enhanced-req-exp-ec-mobile.md).
 
 
 ## Result

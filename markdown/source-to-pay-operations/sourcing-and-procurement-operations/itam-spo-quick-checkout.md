@@ -2,6 +2,7 @@
 title: Create purchase requisition from the ITAM Workspace
 description: As an asset manager, use SPO’s purchasing flow from the ITAM Workspace to complete checkout when the requested item has contractual pricing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/itam-spo-quick-checkout.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -25,13 +26,13 @@ This task describes the options you need to select and the information you need 
 
 ## Procedure
 
-1.  Complete steps 1 through 10 as described in [Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace](spo-itam-submit-requests.md).
+1.  Complete steps 1 through 10 as described in [Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md).
 
 2.  Submit sourcing request for items without price.
 
 3.  On the Delivery location page, select a delivery location from the **Delivery location** list.
 
-    ![Delivery location page.](../image/itam-spo-qco-delivery-loc.png)
+    \[Omitted image "itam-spo-qco-delivery-loc.png"\] Alt text: Delivery location page.
 
 4.  Select **Deliver to additional locations** to add additional delivery locations and specify the purchase quantity.
 
@@ -41,7 +42,7 @@ This task describes the options you need to select and the information you need 
 
     -   **Get as soon as** \(an estimated date auto-populates based on the current date\)
     -   **On a specific date**
-    ![Delivery date page.](../image/itam-spo-qco-delivery-date.png)
+    \[Omitted image "itam-spo-qco-delivery-date.png"\] Alt text: Delivery date page.
 
 7.  Select **Add another delivery date** to add another delivery date.
 
@@ -51,7 +52,7 @@ This task describes the options you need to select and the information you need 
 
     -   **Use another cost center**
     -   **Pay with multiple cost centers**
-    ![Payment method page.](../image/itam-spo-qco-payment.png)
+    \[Omitted image "itam-spo-qco-payment.png"\] Alt text: Payment method page.
 
 10. Select **Continue to purchase reason**.
 
@@ -60,7 +61,7 @@ This task describes the options you need to select and the information you need 
     -   In the **Reason for purchase** field, enter a reason for making this purchase.
     -   Select **+Add file** to add any attachments to this purchase.
     -   In the **Watchlist** field, ad individuals who you want notified if any updates are made to this purchase.
-    ![Reason for purchase page.](../image/itam-spo-qco-purchase-reason.png)
+    \[Omitted image "itam-spo-qco-purchase-reason.png"\] Alt text: Reason for purchase page.
 
 12. Select **Complete checkout**.
 
@@ -77,5 +78,5 @@ If the asset manager has the Shopping Hub shopper role \(sn\_shop.shopper\), the
 
 The end user who submitted the original RITM continues to track and monitor the request status on the RITM record. Statuses between SPO and ITAM objects are synchronized so that updates appear in real time.
 
-**Parent Topic:**[Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace](spo-itam-submit-requests.md)
+**Parent Topic:**[Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/spo-itam-submit-requests.md)
 

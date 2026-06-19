@@ -2,6 +2,7 @@
 title: Policy table
 description: The Policy \[sn\_hcls\_policy\] table stores the details of a policy shared with patients in the Healthcare and Life Sciences applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-policy.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -22,7 +23,7 @@ The Policy \[sn\_hcls\_policy\] table stores the details of a policy shared with
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 <table id="table_rdz_dhp_xrb"><thead><tr><th>
 
@@ -60,11 +61,11 @@ Reference
 
 Document template to generate standard letters or documents associated with the policy.
 
- This field is used only when the [Policy type](#policy_type) field is set to **Document template**.
+ This field is used only when the [Policy type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) field is set to **Document template**.
 
  **Note:** You can associate only one active policy with a document template.
 
- For more information, see [Configure document templates for Healthcare and Life Sciences Service Management Core](../concept/hcls-config-doc-templates.md).
+ For more information, see [Configure document templates for Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-doc-templates.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Alpha-numeric profile identifier of the policy.
 
  The value is auto-generated and is incremented every time you add a new policy to your ServiceNow instance. The initial value for the **Number** field is POL00001000.
 
-**Note:** To customize the number, define the auto-numbering format for the Policy \[sn\_hcls\_policy\] table. For more information, see [Add auto-numbering records in a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AutoNumberingRecordsInATable.md).
+**Note:** To customize the number, define the auto-numbering format for the Policy \[sn\_hcls\_policy\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 

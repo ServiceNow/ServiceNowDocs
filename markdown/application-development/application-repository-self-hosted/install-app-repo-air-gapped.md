@@ -2,6 +2,7 @@
 title: Installing the Application Repository store app on an air-gapped instance
 description: Because self-hosted, air-gapped customers don't allow their instances to communicate with external networks, they don’t install the Application Repository directly from the ServiceNow Store. These customers should use the following procedure instead.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/application-repository-self-hosted/install-app-repo-air-gapped.html
 release: australia
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
@@ -29,6 +30,6 @@ Role required: You will need the maint role to install and configure, and then j
 
 1.  Install the application repository using the instruction in the following Knowledge Base article: [How On-Prem Customers Can Request a Store App](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0745101).
 
-2.  After installing, complete the steps in [Configure the application repository on an air-gapped instance](configure-app-repo-air-gapped.md).
+2.  After installing, complete the steps in [Configure the application repository on an air-gapped instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/configure-app-repo-air-gapped.md).
 
 

@@ -2,6 +2,7 @@
 title: Schedule a Process Mining job
 description: Schedule a Process Mining job to mine one or more projects later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/schedule-mining-job.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -27,7 +28,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 2.  On the Scheduled Process Mining Job form, populate the applicable fields for the job you want to create, then select **Submit**.
 
-    See [descriptions of fields on a scheduled job record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_ScheduleTheGenerationOfAnEntity.md).
+    See descriptions of fields on a scheduled job record.
 
 3.  In the Project Definitions section, select **Edit**.
 
@@ -43,5 +44,5 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 -   View a successfully generated project from Analyst workbench.
 -   Navigate to **All** &gt; **Process Mining** &gt; **Scheduled Jobs** &gt; **All Jobs** to view scheduled process mining jobs.
 
-**Parent Topic:**[Create a project using Classic view](../task/create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-proj.md)
 

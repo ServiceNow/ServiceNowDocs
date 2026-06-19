@@ -2,6 +2,7 @@
 title: Exclude patterns from learned patterns
 description: Exclude CI-based or CI class-based alerts and patterns when you encounter alerts incorrectly added to a learned pattern by the Learned Patterns job. For example, a pattern might include an alert that occurred at the same time as other alerts but is not actually related to them. This maintains accuracy, ensuring better alert groupings and improved management efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/exclude-learned-patterns.html
 release: australia
 product: Event Management
 classification: event-management
@@ -29,22 +30,22 @@ You select the incorrect alert in a pattern to exclude the entire pattern to whi
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Reporting** &gt; **Learned Patterns**.
 
-    ![Exclude pattern navigation](../image/em-exclude-pattern-nav.png)
+    \[Omitted image "em-exclude-pattern-nav.png"\] Alt text: Exclude pattern navigation
 
 2.  On the Learned Patterns page, expand the anomalous pattern.
 
-    ![Expanded patterns](../image/em-expanded-patterns.png)
+    \[Omitted image "em-expanded-patterns.png"\] Alt text: Expanded patterns
 
 3.  Select the pattern name to open it for exclusion.
 
 4.  On the SA Alert Aggregation Learned Pattern page, select **Exclude**.
 
-    ![Option to exclude the selected pattern](../image/em-pattern-exclude.png)
+    \[Omitted image "em-pattern-exclude.png"\] Alt text: Option to exclude the selected pattern
 
 
 ## Result
 
 The entire pattern is removed from the Learned Patterns report and listed on the Excluded Patterns page, located at **Event Management** &gt; **Administration** &gt; **Excluded patterns**.
 
-If the pattern includes other alerts, you can restore it by reclaiming those alerts as a learned pattern. For further details, see [Restore excluded patterns](restore-excluded-patterns.md).
+If the pattern includes other alerts, you can restore it by reclaiming those alerts as a learned pattern. For further details, see [Restore excluded patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/restore-excluded-patterns.md).
 

@@ -2,6 +2,7 @@
 title: Connect your Zoom account to a different ServiceNow instance
 description: Connect your Zoom account to another ServiceNow instance by overriding your existing ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/zoom-override-sn-instance.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -34,5 +35,5 @@ Role required: admin
 
 Your Zoom account is successfully connected to another ServiceNow instance.
 
-**Parent Topic:**[Employee Center for Zoom](zoom-ec-create-app.md)
+**Parent Topic:**[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
 

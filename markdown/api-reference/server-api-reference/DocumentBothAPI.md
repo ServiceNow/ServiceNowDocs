@@ -2,6 +2,7 @@
 title: Document - Scoped, Global
 description: The Document API provides methods to initialize a PDF, add content, and close the PDF. After adding content, the document can be attached to a target record.Instantiates a Document object and generates a PDF document.Adds a page to the document by terminating the current page and creating a new one.Adds a name to the author field in PDF document properties.Adds an image to a document.Adds a new empty line to the document.Adds a new blank page to the document. Use to force a page break to start a new chapter or section in your document.Adds a new page at the specified index of the document. For example, setting the index to 6 inserts a page six or inserts the page at the position of the existing page six in a document. The original page six becomes page seven.Adds a paragraph to a document.Adds a table to a document.Closes a document.Creates a document with the specified page size.Gets the number of pages in the document.Gets the default page size of the document.Indicates whether a document is closed or open.Attaches the document file to the specified target table.Sets the base text flow direction to reorder from based on character recognitionSets the page margin sizes in the document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DocumentBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,14 +20,14 @@ This API is part of the ServiceNow PDF Generation Utilities plugin \(com.snc.app
 
 This API depends on the a suite of classes to build various elements comprising a PDF.
 
--   [Cell](../../CellBoth/concept/CellBothAPI.md#) – Creates a Cell object as a cell in a table. You can use this API to format the cell and include additional blocks, such as paragraphs and images.
--   [Color](../../ColorBoth/concept/ColorBothAPI.md#) – Creates a Color object used to define color attributes that you can apply to elements in a PDF; such as cells, tables, and lines.
--   [Image](../../ImageBoth/concept/ImageBothAPI.md#) – Creates an Image object representing an image and its layout insert in a PDF. Enables defining attributes such as scale, alignment, and border color.
--   [Line](../../LineBoth/concept/LineBothAPI.md#) – Creates a Line object using methods to draw a line in a PDF.
--   [Paragraph](../../ParagraphBoth/concept/ParagraphBothAPI.md#) – Creates a Paragraph object representing a block of text in a PDF.
--   [PdfPage](../../PdfPageBoth/concept/PdfPageBothAPI.md#) – Creates a PdfPage object representing a PDF page and its attributes; such as size, width, and color.
--   [Style](../../StyleBoth/concept/StyleBothAPI.md#) – Creates a style for defining properties such font size, border, and alignment. You can apply the same style to multiple objects simultaneously.
--   [Table](../../TableBoth/concept/TableBothAPI.md#) – Creates a Table object to add to a PDF document. Defines the data to use in each cell and sets styles, margins, and alignment.
+-   [Cell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CellBothAPI.md) – Creates a Cell object as a cell in a table. You can use this API to format the cell and include additional blocks, such as paragraphs and images.
+-   [Color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ColorBothAPI.md) – Creates a Color object used to define color attributes that you can apply to elements in a PDF; such as cells, tables, and lines.
+-   [Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ImageBothAPI.md) – Creates an Image object representing an image and its layout insert in a PDF. Enables defining attributes such as scale, alignment, and border color.
+-   [Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/LineBothAPI.md) – Creates a Line object using methods to draw a line in a PDF.
+-   [Paragraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ParagraphBothAPI.md) – Creates a Paragraph object representing a block of text in a PDF.
+-   [PdfPage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PdfPageBothAPI.md) – Creates a PdfPage object representing a PDF page and its attributes; such as size, width, and color.
+-   [Style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/StyleBothAPI.md) – Creates a style for defining properties such font size, border, and alignment. You can apply the same style to multiple objects simultaneously.
+-   [Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TableBothAPI.md) – Creates a Table object to add to a PDF document. Defines the data to use in each cell and sets styles, margins, and alignment.
 
 The following example shows how to create a basic PDF using the Document API and several components, such as a table, cell, and paragraph. The result is a list of incidents from the Incident \[incident\] table listed in a PDF. You can test this example in your instance by replacing `<sys_id>` with the sys\_id of an incident record to attach the PDF to.
 
@@ -95,9 +96,9 @@ document.saveAsAttachment("incident", "<sys_id>", "SampleGenerationTest.pdf");
 
 The PDF attachment is listed in the Attachments \[sys\_attachment\] table.
 
-![Example PDF with output as 2-column table listing incident numbers and descriptions.](../image/document-api-pdf-output.png)
+\[Omitted image "document-api-pdf-output.png"\] Alt text: Example PDF with output as 2-column table listing incident numbers and descriptions.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Document - Document\(PdfPage pageSize\)
 
@@ -105,7 +106,7 @@ Instantiates a Document object and generates a PDF document.
 
 |Name|Type|Description|
 |----|----|-----------|
-|pageSize|[PdfPage](../../PdfPageBoth/concept/PdfPageBothAPI.md#)|PDF page size.|
+|pageSize|[PdfPage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PdfPageBothAPI.md)|PDF page size.|
 
 |Type|Description|
 |----|-----------|
@@ -124,8 +125,8 @@ Adds a page to the document by terminating the current page and creating a new o
 
 Additional methods for adding a new page in a document:
 
--   [addNewPage\(\)](DocumentBothAPI.md#) – Adds a new blank page to the document. Use to force a page break to start a new chapter or section in your document.
--   [addNewPageAtIndex\(\)](DocumentBothAPI.md#) – Adds a new page at the specified index of the document. For example, setting the index to 6 inserts a page six or inserts the page at the position of the existing page six in a document. The original page six becomes page seven.
+-   [addNewPage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) – Adds a new blank page to the document. Use to force a page break to start a new chapter or section in your document.
+-   [addNewPageAtIndex\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) – Adds a new page at the specified index of the document. For example, setting the index to 6 inserts a page six or inserts the page at the position of the existing page six in a document. The original page six becomes page seven.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -135,7 +136,7 @@ Additional methods for adding a new page in a document:
 |----|-----------|
 |None| |
 
-The following example shows how to add a new page to a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to add a new page to a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("LETTER");
@@ -166,7 +167,7 @@ Adds a name to the author field in PDF document properties.
 |----|-----------|
 |None| |
 
-The following example shows how to add a name to the author field in PDF document properties. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to add a name to the author field in PDF document properties. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var author = "John Do";
@@ -180,13 +181,13 @@ Adds an image to a document.
 
 |Name|Type|Description|
 |----|----|-----------|
-|image|[Image](../../ImageBoth/concept/ImageBothAPI.md#)|Image to add to a document.|
+|image|[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ImageBothAPI.md)|Image to add to a document.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to add an image to a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to add an image to a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("LETTER");
@@ -213,7 +214,7 @@ Adds a new empty line to the document.
 |----|-----------|
 |None| |
 
-The following example shows how to add a new line to a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to add a new line to a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -229,8 +230,8 @@ Adds a new blank page to the document. Use to force a page break to start a new 
 
 Additional methods for adding a new page in a document:
 
--   [addAndStartNewPage\(\)](DocumentBothAPI.md#)– Adds a page to the document by terminating the current page and creating a new one.
--   [addNewPageAtIndex\(\)](DocumentBothAPI.md#) – Adds a new page at the specified index of the document. For example, setting the index to 6 inserts a page six or inserts the page at the position of the existing page six in a document. The original page six becomes page seven.
+-   [addAndStartNewPage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md)– Adds a page to the document by terminating the current page and creating a new one.
+-   [addNewPageAtIndex\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) – Adds a new page at the specified index of the document. For example, setting the index to 6 inserts a page six or inserts the page at the position of the existing page six in a document. The original page six becomes page seven.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -240,7 +241,7 @@ Additional methods for adding a new page in a document:
 |----|-----------|
 |None| |
 
-The following example shows how to add a new blank page to a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to add a new blank page to a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 Usage:
@@ -256,8 +257,8 @@ Adds a new page at the specified index of the document. For example, setting the
 
 Additional methods for adding a new page in a document:
 
--   [addAndStartNewPage\(\)](DocumentBothAPI.md#)– Adds a page to the document by terminating the current page and creating a new one.
--   [addNewPage\(\)](DocumentBothAPI.md#) – Adds a new blank page to the document. Use to force a page break to start a new chapter or section in your document.
+-   [addAndStartNewPage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md)– Adds a page to the document by terminating the current page and creating a new one.
+-   [addNewPage\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) – Adds a new blank page to the document. Use to force a page break to start a new chapter or section in your document.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -267,7 +268,7 @@ Additional methods for adding a new page in a document:
 |----|-----------|
 |None| |
 
-The following example shows how to add a new PDF page to position 6 of a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to add a new PDF page to position 6 of a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -285,13 +286,13 @@ Adds a paragraph to a document.
 
 |Name|Type|Description|
 |----|----|-----------|
-|paragraph|[Paragraph](../../ParagraphBoth/concept/ParagraphBothAPI.md#)|Block of text provided as a paragraph object.|
+|paragraph|[Paragraph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ParagraphBothAPI.md)|Block of text provided as a paragraph object.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to add a paragraph to a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to add a paragraph to a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -308,13 +309,13 @@ Adds a table to a document.
 
 |Name|Type|Description|
 |----|----|-----------|
-|table|[Table](../../TableBoth/concept/TableBothAPI.md#)|Table to be inserted into the document.|
+|table|[Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TableBothAPI.md)|Table to be inserted into the document.|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
-The following example shows how to add a table to a document. See the [Table API](../../TableBoth/concept/TableBothAPI.md#) for more details on how to define a table. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to add a table to a document. See the [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/TableBothAPI.md) for more details on how to define a table. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var table = new sn_pdfgeneratorutils.Table([70,200], false);
@@ -334,7 +335,7 @@ Closes a document.
 |----|-----------|
 |None| |
 
-The following example shows how to close a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to close a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -349,13 +350,13 @@ Creates a document with the specified page size.
 
 |Name|Type|Description|
 |----|----|-----------|
-|pageSize|[PdfPage](../../PdfPageBoth/concept/PdfPageBothAPI.md#)|Document page size.|
+|pageSize|[PdfPage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PdfPageBothAPI.md)|Document page size.|
 
 |Type|Description|
 |----|-----------|
 |Object|PDF document.|
 
-The following example shows how to create a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to create a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -375,7 +376,7 @@ Gets the number of pages in the document.
 |----|-----------|
 |Number|Number of pages in the document.|
 
-The following example shows how to get the page count of a nine-page document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to get the page count of a nine-page document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -414,7 +415,7 @@ String
 
 </td><td>
 
-Value of the default page size set using the [PdfPage](../../PdfPageBoth/concept/PdfPageBothAPI.md#) API.Possible values:
+Value of the default page size set using the [PdfPage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PdfPageBothAPI.md) API.Possible values:
 
 -   A4 – 595 x 842 points
 -   EXECUTIVE – 522 x 756 points
@@ -422,7 +423,7 @@ Value of the default page size set using the [PdfPage](../../PdfPageBoth/concept
 -   LEDGER – 792 x 1224 points
 
 </td></tr></tbody>
-</table>The following example shows how to get the page size of a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+</table>The following example shows how to get the page size of a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -462,7 +463,7 @@ Flag that indicates whether a document is open or closed.Valid values:
  Default: true
 
 </td></tr></tbody>
-</table>The following example shows how to get the page size of a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+</table>The following example shows how to get the page size of a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -486,7 +487,7 @@ Attaches the document file to the specified target table.
 |----|-----------|
 |String|Sys\_id of the attached document in the Attachments \[sys\_attachment\] table.|
 
-The following example shows how to attach a document to an incident record. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to attach a document to an incident record. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var document = new sn_pdfgeneratorutils.Document.createDocument(pageSize);
@@ -534,7 +535,7 @@ Text flow direction.Valid values:
 |----|-----------|
 |None| |
 
-The following example shows how to set text flow left to right. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to set text flow left to right. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");
@@ -559,7 +560,7 @@ Sets the page margin sizes in the document.
 |----|-----------|
 |None| |
 
-The following example shows how to set page margins in a document. For a document usage example, see [Document](DocumentBothAPI.md#) API.
+The following example shows how to set page margins in a document. For a document usage example, see [Document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentBothAPI.md) API.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");

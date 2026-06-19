@@ -2,6 +2,7 @@
 title: Set up the Microsoft Intune spoke
 description: Integrate your ServiceNow instance with the Microsoft Intune account by creating a custom OAuth application in Microsoft Intune.Provide authorization to the ServiceNow instance by registering an application on Microsoft Entra ID.Use the information generated during the application configuration in Microsoft Azure portal to register Microsoft Intune as the OAuth provider so that the ServiceNow instance can request OAuth 2.0 tokens.Authorize the Microsoft Intune spoke actions by creating credential records for the application registered in the Microsoft Azure portal. The Microsoft Intune connection and credential alias uses these credentials to authorize actions.Modify the short description to provide spoke specific information.Perform actions in Microsoft Intune by creating connection records for your Microsoft Intune account. The Microsoft Intune connection and credential alias uses these connections to perform actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ms-intune.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -45,7 +46,7 @@ Complete these steps from the Microsoft Azure portal.
 
 3.  For the **Required Permissions**, ensure that you provide these permissions:
 
-    ![API permissions](../image/api-permission-ms-intune.png)
+    \[Omitted image "api-permission-ms-intune.png"\] Alt text: API permissions
 
     Depending on your requirement, the permissions can be of the type, **Application**, or **Delegated**. For more information, see [Quickstart: Configure a client application to access a web API](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis) in [Microsoft Docs](https://docs.microsoft.com/en-us/).
 

@@ -2,6 +2,7 @@
 title: Create a source for a learning system
 description: Create a source record for the third-party learning system that you want to integrate with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/set-up-int-lc.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -18,13 +19,13 @@ Create a source record for the third-party learning system that you want to inte
 ## Before you begin
 
 -   Role required: learning\_admin
--   Learning Core integrates with Cornerstone OnDemand, Pluralsight, Udemy, Sumtotal , and Saba learning systems by default. Activate only the learning system that you to plan use. For more information, see [Integrating Learning Core with third-party learning management systems](setup-learning-third-party-1.md).
+-   Learning Core integrates with Cornerstone OnDemand, Pluralsight, Udemy, Sumtotal , and Saba learning systems by default. Activate only the learning system that you to plan use. For more information, see [Integrating Learning Core with third-party learning management systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/setup-learning-third-party-1.md).
 
 ## Procedure
 
 1.  Navigate to **Integrations Framework** &gt; **Source**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  In the **Name** field, enter the name of the integration source, for example, Pluralsight.
 
@@ -115,8 +116,8 @@ Retry policy
 Configuration set to push a record when the previous push fails.**Note:** This field appears only when Ondemand Push service is selected in the **Service type** field.
 
 </td></tr></tbody>
-</table>7.  Click **Update**.
+</table>7.  Select **Update**.
 
 
-**Parent Topic:**[Administration tasks in Learning Core](ln-administration.md)
+**Parent Topic:**[Administration tasks in Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/ln-administration.md)
 

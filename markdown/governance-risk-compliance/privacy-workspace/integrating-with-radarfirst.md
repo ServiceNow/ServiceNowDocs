@@ -2,6 +2,7 @@
 title: Privacy Case Management integration for RadarFirst
 description: RadarFirst specializes in privacy and incident response solutions, particularly in the context of data breach incidents. RadarFirst helps organizations manage and respond to data breaches and privacy incidents effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/integrating-with-radarfirst.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -23,5 +24,5 @@ To configure the Privacy Case Management integration for RadarFirst, follow the 
 
 When you integrate with RadarFirst the overview page displays the RadarFirst summary widget. This widget displays the impact of a breach jurisdictions and the number of individuals impacted in the form of a pie chart. To view the detailed reports of the breaches, select **View report**. The following image shows the RadarFirst widget on the breach assessment overview page.
 
-![Breach assessment overview page displaying the impact of a breach jurisdictions and the number of individuals impacted by it.](../image/radarfirst-integration.png)
+\[Omitted image "radarfirst-integration.png"\] Alt text: Breach assessment overview page displaying the impact of a breach jurisdictions and the number of individuals impacted by it.
 

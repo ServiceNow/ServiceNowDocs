@@ -2,6 +2,7 @@
 title: Add a drilldown event to a saved data visualization on a technical dashboard
 description: Technical dashboards do not support preconfigured destinations for drilling down from a data visualization. If you want a viewer to open a more detailed view of the data when they interact with a visualization, configure a custom drilldown event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-custom-drilldown-event-saved-dv.html
 release: australia
 topic_type: task
 last_updated: "2026-03-18"
@@ -60,7 +61,7 @@ You have a vertical data visualization that shows the number of records on the I
     This specifies that the viewer drills down to the Platform Analytics experience.
 
 3.  In the Route field, you enter `simplelist`. This route leads to the simplelist page in the Platform Analytics experience.
-4.  For the Route fields, you first choose to bind data. ![Selecting to bind data.](../../par-for-workspace/image/bind-data.png)
+4.  For the Route fields, you first choose to bind data. \[Omitted image "bind-data.png"\] Alt text: Selecting to bind data.
 5.  Then you add the property `{table: @payload.payload.params.table}` to the field. This property passes the name of the table in your visualization to the simplelist page of the Platform Analytics experience.
 6.  Similarly, you choose to bind data for the Optional parameters field and set the value `{query: @payload.payload.params.query, listTitle: @payload.payload.title}`.
 
@@ -75,7 +76,7 @@ The properties of your Advanced dashboards - Redirect event handler now appear a
 
 In runtime, a user can interact with the visualization to open a list of Incident records.
 
-![Opening a list of Incident records by clicking a Single Score visualization on a technical dashboard.](../../par-for-workspace/image/db-adv-ex-ddown-table.gif)
+\[Omitted image "db-adv-ex-ddown-table.gif"\] Alt text: Opening a list of Incident records by clicking a Single Score visualization on a technical dashboard.
 
 ## Drilldown for an indicator data source
 
@@ -83,7 +84,7 @@ You have a Line data visualization for the indicator Number of open incidents. W
 
 1.  You repeat steps 1-5 from the Table data source example, because in this case too you are drilling down to a page on the Platform Analytics experience.
 2.  For the Route, you enter `ac_kpi_details`.
-3.  For the Route fields, you first choose to bind data ![Selecting to bind data.](../../par-for-workspace/image/bind-data.png). Then you enter `{uuid: @payload.payload.params.indicatorSysid}`. This parameter passes the id of the indicator, in this case Number of open incidents, to the Platform Analytics experience KPI Details page.
+3.  For the Route fields, you first choose to bind data \[Omitted image "bind-data.png"\] Alt text: Selecting to bind data.. Then you enter `{uuid: @payload.payload.params.indicatorSysid}`. This parameter passes the id of the indicator, in this case Number of open incidents, to the Platform Analytics experience KPI Details page.
 
     **Tip:** First use autocomplete to add the data parameter `@payload.payload.params.indicatorSysid`, then surround that parameter with curly brackets and add `uuid:`.
 
@@ -99,9 +100,9 @@ You have a Line data visualization for the indicator Number of open incidents. W
 
 In runtime, a viewer can interact with the visualization to open KPI Details for the Number of open incidents indicator.
 
-![Opening KPI Details by clicking a Line visualization on a technical dashboard.](../../par-for-workspace/image/db-adv-ex-ddown-indicator.gif)
+\[Omitted image "db-adv-ex-ddown-indicator.gif"\] Alt text: Opening KPI Details by clicking a Line visualization on a technical dashboard.
 
-**Parent Topic:**[Technical dashboards](../../performance-analytics/concept/technical-dashboards.md)
+**Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/technical-dashboards.md)
 
 **Related topics**  
 

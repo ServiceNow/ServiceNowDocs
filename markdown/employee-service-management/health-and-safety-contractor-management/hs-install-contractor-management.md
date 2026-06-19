@@ -2,6 +2,7 @@
 title: Install Health and Safety Contractor Management
 description: You can install the Health and Safety Contractor Management application \(sn\_hs\_crm\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-contractor-management/hs-install-contractor-management.html
 release: australia
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
@@ -31,7 +32,7 @@ The following items are installed with Health and Safety Contractor Management:
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Health and Safety Contractor Management](../reference/components-installed-with-hs-contractor-mgmt.md).
+For more information, see [Components installed with Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-contractor-management/components-installed-with-hs-contractor-mgmt.md).
 
 ## Procedure
 

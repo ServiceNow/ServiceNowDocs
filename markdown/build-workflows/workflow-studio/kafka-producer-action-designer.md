@@ -2,6 +2,7 @@
 title: Kafka Producer step
 description: Create an action that publishes events to a topic in your Kafka environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/kafka-producer-action-designer.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -83,7 +84,7 @@ Schema
 
 </td><td>
 
-Reference to a schema table. Select a schema from the list. For information on schemas, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/schema-management.md).**Note:** The message you're sending in the **Message** field must adhere to the structure of the selected schema.
+Reference to a schema table. Select a schema from the list. For information on schemas, see .**Note:** The message you're sending in the **Message** field must adhere to the structure of the selected schema.
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Option to go to error evaluation or continue running the next step. This option 
 
 In this example, the step sends a message recording the creation of an incident. The message includes an incident identifier, a description, and a message header. The message is sent to the incidents topic, and stored in the partition with the name of the incident identifier.
 
-![Example Kafka Producer step.](../images/kafka-producer-action-designer.png)
+\[Omitted image "kafka-producer-action-designer.png"\] Alt text: Example Kafka Producer step.
 
 ## Outputs
 
@@ -109,5 +110,5 @@ In this example, the step sends a message recording the creation of an incident.
 |Step Status &gt; Code|Integer data pill indicating whether the step produced an error. By default, a value of 1 indicates that the step produced an error. A value of 0 indicates that the step ran successfully. You can't customize these codes.|Integer|
 |Step Status &gt; Message|String data pill containing the error message produced by the step or system operation. You can't customize this message.|String|
 
-**Parent Topic:**[Workflow Studio steps](../concept/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
 

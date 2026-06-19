@@ -2,13 +2,14 @@
 title: Modify the manifest file
 description: Modify the manifest file as part of WSD for Microsoft places application in Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/modify-the-manifest-file.html
 release: australia
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure WSD for Microsoft places, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Modify the manifest file
@@ -21,7 +22,7 @@ Role required: admin
 
 Ensure to download the manifest file.
 
-For more information on downloading the manifest files, refer to [Download manifest files](download-manifest-files.md)
+For more information on downloading the manifest files, refer to [Download manifest files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/download-manifest-files.md)
 
 ## Procedure
 

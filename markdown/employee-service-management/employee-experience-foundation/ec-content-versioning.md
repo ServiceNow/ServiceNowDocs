@@ -2,6 +2,7 @@
 title: Content versioning
 description: Content versioning tracks changes made to Portal and Rich content types after they are published, enabling managers to view previous versions of content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-content-versioning.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -29,13 +30,13 @@ Content versioning tracks changes made to the following content types after they
 
 To edit content once it is published, you must checkout the content, which the system saves as a new version in draft state. Once you publish the new version of the content, the system increments the version number by 1.0.
 
-**Note:** Content versioning must be enabled in **Content Publishing** &gt; **Advanced** &gt; **Properties**. For more information, see [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md)
+**Note:** Content versioning must be enabled in **Content Publishing** &gt; **Advanced** &gt; **Properties**. For more information, see [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)
 
 The following screen shot displays an example of change history, which allows the content admin to view the content in previous versions, identify when were the changes made, and by whom.
 
-![Open a content and click View change history to see all the prior versions](../images/ec-change-history.png)
+\[Omitted image "ec-change-history.png"\] Alt text: Open a content and click View change history to see all the prior versions
 
-For instructions on how to checkout content for editing, see [Checkout published content](../task/ec-checkout-published-content.md).
+For instructions on how to checkout content for editing, see [Checkout published content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-checkout-published-content.md).
 
 ## Content versioning and translation
 
@@ -46,5 +47,5 @@ Customers who create content in a non-English language should use of the the fol
 -   Turn off Content versioning, then click the **Switch Language** button to enter the content in a non-English language.
 -   Enter the content in English, then use the **Translate Content** button to initiate the translation workflow.
 
-For more information, see [Multilingual support in the Content Library](ec-switch-language.md).
+For more information, see [Multilingual support in the Content Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-switch-language.md).
 

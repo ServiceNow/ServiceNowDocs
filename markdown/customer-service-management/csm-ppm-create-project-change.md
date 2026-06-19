@@ -2,7 +2,10 @@
 title: Create a project change request for a case
 description: The customer project manager can create project change requests for cases that have been created for customer projects and project tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-ppm-create-project-change.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

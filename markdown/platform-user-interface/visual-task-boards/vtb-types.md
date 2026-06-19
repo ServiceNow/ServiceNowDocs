@@ -2,6 +2,7 @@
 title: Types of Visual Task Boards
 description: You can create guided Visual Task Boards, which are driven by data in your ServiceNow instance. You can also create freeform boards that display a variety of information, or flexible boards, which combine both types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/vtb-types.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -27,32 +28,32 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Freeform boards](c_FreeformBoardTasks.md)
+[Freeform boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_FreeformBoardTasks.md)
 
 </td><td>
 
-Display all types of task records, including personal tasks. Members of freeform boards can add and remove task cards and lanes.Freeform boards are indicated with the Freeform board icon ![Freeform board icon](../image/FreeformIcon.png).
+Display all types of task records, including personal tasks. Members of freeform boards can add and remove task cards and lanes.Freeform boards are indicated with the Freeform board icon \[Omitted image "FreeformIcon.png"\] Alt text: Freeform board icon.
 
 </td></tr><tr><td>
 
-[Flexible boards](data-driven-tasks.md)
+[Flexible boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/data-driven-tasks.md)
 
 </td><td>
 
-Display tasks that match a filter against a particular table. Members of flexible boards can add task cards. Cards are removed automatically when the tasks no longer match the filter conditions. Members can define custom lanes, similar to a freeform board.Flexible boards are indicated with the Flexible board icon ![Flexible board icon](../image/FlexibleIcon.png).
+Display tasks that match a filter against a particular table. Members of flexible boards can add task cards. Cards are removed automatically when the tasks no longer match the filter conditions. Members can define custom lanes, similar to a freeform board.Flexible boards are indicated with the Flexible board icon \[Omitted image "FlexibleIcon.png"\] Alt text: Flexible board icon.
 
 </td></tr><tr><td>
 
-[Guided boards](data-driven-tasks.md)
+[Guided boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/data-driven-tasks.md)
 
 </td><td>
 
-Similar to flexible boards except that guided board lanes correspond to field values and cannot be edited in most cases.Guided boards are indicated with the Guided board icon ![Guided board icon](../image/GuidedIcon.png).
+Similar to flexible boards except that guided board lanes correspond to field values and cannot be edited in most cases.Guided boards are indicated with the Guided board icon \[Omitted image "GuidedIcon.png"\] Alt text: Guided board icon.
 
 </td></tr></tbody>
-</table>![Sample Visual Task Board dashboard](../image/Vtbdashboard.png "Sample Visual Task Board dashboard")
+</table>\[Omitted image "Vtbdashboard.png"\] Alt text: Sample Visual Task Board dashboard
 
 All boards have the displayed elements. The color of a card represents the color you choose in the color palette for that board.
 
-**Parent Topic:**[Exploring Visual Task Boards](exploring-vis-task-boards.md)
+**Parent Topic:**[Exploring Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/exploring-vis-task-boards.md)
 

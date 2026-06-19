@@ -2,6 +2,7 @@
 title: Create input variables
 description: Create the variables to pass into the activity in the Inputs form of the activity designer.After you create the input variables, map them to the fields in the Execution Command form.Use the input variables you created to configure the command that Orchestration executes on the Windows target machine.You can test the input parameters of a custom activity during its development without having to run the activity in a workflow context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/CreateInputVariables.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -29,7 +30,7 @@ Roles required: workflow\_admin or activity\_creator
 
     The designer creates a default variable called **Input1**.
 
-    ![Creating an input variable](../image/InputsNewVariable.png)
+    \[Omitted image "InputsNewVariable.png"\] Alt text: Creating an input variable
 
 2.  Type your new variable name in the field.
 
@@ -45,14 +46,14 @@ Roles required: workflow\_admin or activity\_creator
 
 5.  To reorder the variable list, select a row and then drag the row to its new location.
 
-    When you select a row to move it, the pointer icon changes to an up/down arrow icon \(![up/down arrow icon](../image/MoveVariable.png)\).
+    When you select a row to move it, the pointer icon changes to an up/down arrow icon \(\[Omitted image "MoveVariable.png"\] Alt text: up/down arrow icon\).
 
-6.  To delete a variable, click the delete icon \(![delete icon](../image/DeleteVar.png)\) in the row.
+6.  To delete a variable, click the delete icon \(\[Omitted image "DeleteVar.png"\] Alt text: delete icon\) in the row.
 
 7.  Click **Continue** to advance to the **Execution Command** stage or click **Go to Pre-Processing \(Advanced\)** to create a script that runs before the activity executes.
 
 
-**Parent Topic:**[Create custom activities using custom activity designer templates](create-custom-activities.md)
+**Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/create-custom-activities.md)
 
 ## Map an input variable
 
@@ -72,7 +73,7 @@ These fields contain values required by the target host or endpoint to authentic
 
     The designer automatically expresses the variable in the syntax the system requires.
 
-    ![Mapping input variables](../image/InputsMapping.png)
+    \[Omitted image "InputsMapping.png"\] Alt text: Mapping input variables
 
 
 ## Configure the PowerShell execution command
@@ -85,7 +86,7 @@ Create the input variables you need in the **Inputs** form before you can advanc
 
 Role required: activity\_creator, admin
 
-**Note:** You can test the PowerShell connection between the MID Server and the target computer without having to run the acvitity in a workflow context. For details, see [test template outputs](CreateInputVariables.md#).
+**Note:** You can test the PowerShell connection between the MID Server and the target computer without having to run the acvitity in a workflow context. For details, see [test template outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md).
 
 ### Procedure
 
@@ -93,7 +94,7 @@ Role required: activity\_creator, admin
 
     The system formats the variable in the proper syntax for the command.
 
-    ![PowerShell execution command](../image/PowershellExecutionCommand.png "PowerShell execution command")
+    \[Omitted image "PowershellExecutionCommand.png"\] Alt text: PowerShell execution command
 
 2.  Complete the fields shown in the table.
 
@@ -111,7 +112,7 @@ Input
 
 </td><td>
 
-Input variable builder. [Create variables](CreateInputVariables.md#) to [map](CreateInputVariables.md#) to available fields.
+Input variable builder. [Create variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md) to [map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/CreateInputVariables.md) to available fields.
 
 </td></tr><tr><td>
 
@@ -169,7 +170,7 @@ Credential tag
 
 </td><td>
 
-Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run Powershell commands on the host. If this field is left blank, the MID Server tries all the available credentials until it finds a valid one, ending with the MID Server service account. If a credential alias is defined, the MID Server tries the credentials for that alias only and does not try the MID Server service account. This field is not available when the **Use MID service account** check box is selected.
+Specific Credential aliases for Orchestration activities this activity must use to run Powershell commands on the host. If this field is left blank, the MID Server tries all the available credentials until it finds a valid one, ending with the MID Server service account. If a credential alias is defined, the MID Server tries the credentials for that alias only and does not try the MID Server service account. This field is not available when the **Use MID service account** check box is selected.
 
 </td></tr><tr><td>
 
@@ -207,7 +208,7 @@ An input test executes only the input parameters against an endpoint and not the
 
     The list of input source variables appears. If you added default values for these variables, those values appear in the **Substitute Value** column. Mandatory variables are marked with a red star. In this example, a SOAP endpoint returns a value for a stock quote variable.
 
-    ![Test value for input variable](../image/TestDesignerSOAPInputValues.png)
+    \[Omitted image "TestDesignerSOAPInputValues.png"\] Alt text: Test value for input variable
 
 2.  Filter the variable list with these controls:
 
@@ -222,9 +223,9 @@ An input test executes only the input parameters against an endpoint and not the
 
     The system runs the values for all the inputs configured against the specified target and returns the resulting payload. The buttons in the Response form display different views of the payload. The entire payload appears in the **Raw Output** window.
 
-    ![Response payload from inputs test](../image/TestDesignerSOAPInputsResponse.png "Response payload from inputs test")
+    \[Omitted image "TestDesignerSOAPInputsResponse.png"\] Alt text: Response payload from inputs test
 
-5.  To map appropriate parameter values in the payload to variables in the **Outputs** stage automatically, select an [auto-mapping option](automap-output-variable-inputs.md).
+5.  To map appropriate parameter values in the payload to variables in the **Outputs** stage automatically, select an [auto-mapping option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/automap-output-variable-inputs.md).
 
 6.  Alternately, you can click **Save for parsing rules** to copy the entire payload to the parsing rules.
 

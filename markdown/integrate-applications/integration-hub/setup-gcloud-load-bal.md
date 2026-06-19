@@ -2,6 +2,7 @@
 title: Set up the Google Cloud Load Balancer Spoke
 description: Integrate the ServiceNow instance and Google Cloud Load Balancer by creating a custom OAuth application in Google Cloud Storage to authenticate ServiceNow requests.Create a custom OAuth application in your Google Cloud Platform account to enable OAuth 2.0 authentication with the Google Cloud Load Balancer spoke.Use the information generated during the Google Cloud Storage application configuration to register Google Cloud Load Balancer as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.Create a credential record for the Google Cloud Load Balancer custom application. The Google Cloud Load Balancer Spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gcloud-load-bal.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -51,7 +52,7 @@ Complete these steps from the [Google Cloud Platform](https://cloud.google.com/)
 
     The OAuth client window shows your client ID and client secret.
 
-8.  Copy these two values to a text file so that you can use them when you [Register Google Cloud Load Balancer as an OAuth provider](setup-gcloud-load-bal.md#).
+8.  Copy these two values to a text file so that you can use them when you [Register Google Cloud Load Balancer as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcloud-load-bal.md).
 
     The client ID and secret can always be accessed in the Google APIs &amp; Services interface. Click **Credentials** and select the OAuth 2.0 client ID name.
 
@@ -112,7 +113,7 @@ Role required: admin.
     |OAuth Entity Profile|Select the default OAuth entity profile, **Google Cloud Load Balancer default\_profile**.|
     |Credential alias|Credential alias associated with this record. The default alias record, **sn\_gcp\_lb\_spoke.GoogleCloudLoadBalancer** is selected.|
 
-    ![Credential record for Google Load Balancer spoke.](../image/gcloud-load-bal-cred.png)
+    \[Omitted image "gcloud-load-bal-cred.png"\] Alt text: Credential record for Google Load Balancer spoke.
 
 6.  Right-click the form header and click **Save**.
 

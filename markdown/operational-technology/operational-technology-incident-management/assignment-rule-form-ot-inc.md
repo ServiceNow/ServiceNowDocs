@@ -2,6 +2,7 @@
 title: Assignment rule form
 description: Assignment rules automatically assign an Operational Technology \(OT\) incident to a group or user according to one or more conditions in the assignment rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/assignment-rule-form-ot-inc.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -127,5 +128,5 @@ Execution Order
 Order in which the assignment rule is processed. If the assignment rules conflict, a rule with a lower-order value takes precedence over a rule with a higher value. If the order values are set to the same number, the assignment rule with the first matching condition takes precedence over the others without the first matching condition. Only the first assignment rule with a matching condition runs against a record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Incident Management reference](oper-tech-incident-management-reference.md)
+</table>**Parent Topic:**[Operational Technology Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/oper-tech-incident-management-reference.md)
 

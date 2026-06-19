@@ -2,6 +2,7 @@
 title: Mapping external users and groups to ServiceNow AI Platform users
 description: AI Search external user mappings enable you to configure externally defined user and group aliases for ServiceNow AI Platform users. AI Search uses these aliased security principals to apply content security filters that control user access to search results indexed from external documents.AI Search user mapping aliases can include externally defined group and user security principals.Define a table to store externally defined user and group aliases for ServiceNow AI Platform users.Specify the user mapping table you want AI Search to use for external documents ingested through an indexed source.You can use the AI Search External User Mapping API to import mappings between ServiceNow AI Platform users and externally defined users and groups.Review the results for your user mapping import operations, including data, log messages, and any errors. Use this procedure to verify that your user mappings are imported correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/user-mappings-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -15,22 +16,22 @@ breadcrumb: [External content security, Indexing and searching external content,
 
 AI Search external user mappings enable you to configure externally defined user and group aliases for ServiceNow AI Platform users. AI Search uses these aliased security principals to apply content security filters that control user access to search results indexed from external documents.
 
-You can use mapped external user and group names when defining access permissions for external documents that you ingest for indexing via the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/external-content-ingestion-api.md).
+You can use mapped external user and group names when defining access permissions for external documents that you ingest for indexing via the External Content Ingestion API.
 
 ## External content security user mapping overview
 
 To configure user mappings for external content security, you must perform the following steps:
 
-1.  Create one or more user mapping tables. For instructions on this procedure, see [Create a user mapping table](user-mappings-ais.md#).
-2.  Link a user mapping table to each of your external content indexed sources. For details on this task, see [Link a user mapping table to an external content indexed source](user-mappings-ais.md#).
+1.  Create one or more user mapping tables. For instructions on this procedure, see [Create a user mapping table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/user-mappings-ais.md).
+2.  Link a user mapping table to each of your external content indexed sources. For details on this task, see [Link a user mapping table to an external content indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/user-mappings-ais.md).
 
     **Note:** If no mapping is found for the current ServiceNow AI Platform user, AI Search only allows the user to view search results for external documents that have the **everyone** permission set to **true**. This can occur if no user mapping table is linked to a search result's indexed source, or if no mapping for the current ServiceNow AI Platform user exists in the indexed source's linked user mapping table.
 
-3.  Import user mappings into your user mapping tables with the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md).
+3.  Import user mappings into your user mapping tables with the AI Search External User Mapping API.
 
-Users with the ais\_high\_security\_admin role can review history records for import operations to verify that user mappings imported correctly. For instructions on this procedure, see [View history records for user mapping import operations](user-mappings-ais.md#).
+Users with the ais\_high\_security\_admin role can review history records for import operations to verify that user mappings imported correctly. For instructions on this procedure, see [View history records for user mapping import operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/user-mappings-ais.md).
 
-**Parent Topic:**[External content security for AI Search](external-content-security-ais.md)
+**Parent Topic:**[External content security for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/external-content-security-ais.md)
 
 ## External user mapping security principal types
 
@@ -90,7 +91,7 @@ All user mapping tables extend the AI Search External Search User Mapping Base \
 
 ### What to do next
 
-Import user mappings into your new user mapping table. For an overview of this process, see [Importing user mappings](user-mappings-ais.md#). For details on the relevant API endpoint, see [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md).
+Import user mappings into your new user mapping table. For an overview of this process, see [Importing user mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/user-mappings-ais.md). For details on the relevant API endpoint, see AI Search External User Mapping API.
 
 ## Link a user mapping table to an external content indexed source
 
@@ -139,7 +140,7 @@ To define a user mapping for import, you need the following information:
 -   The list of externally defined groups that you want to alias to the ServiceNow AI Platform user. This list can be empty.
 -   The list of externally defined users that you want to alias to the ServiceNow AI Platform user. This list can be empty.
 
-For more information on importing user mappings, see [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md).
+For more information on importing user mappings, see AI Search External User Mapping API.
 
 ## View history records for user mapping import operations
 
@@ -151,7 +152,7 @@ Role required: ais\_admin, ais\_high\_security\_admin, and import\_transformer.
 
 ### About this task
 
-AI Search creates an import set for each batch of user mappings that you import via the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md). The transform histories for these import sets provide insight into the results of your user mapping import operations.
+AI Search creates an import set for each batch of user mappings that you import via the AI Search External User Mapping API. The transform histories for these import sets provide insight into the results of your user mapping import operations.
 
 ### Procedure
 
@@ -175,7 +176,7 @@ Next Experience UI
 
 In the banner frame, select the icon for your account to open the user menu, then select **Elevate role**.
 
-![User menu with Elevate role action highlighted in Next Experience UI.](../image/elevate-role-polaris-ui.png)
+\[Omitted image "elevate-role-polaris-ui.png"\] Alt text: User menu with Elevate role action highlighted in Next Experience UI.
 
 </td></tr><tr><td>
 
@@ -183,18 +184,18 @@ Core UI
 
 </td><td>
 
-In the banner frame, select your name to open the user menu, then select **Elevate Roles**.![User menu with Elevate Roles action highlighted in Core UI.](../../../use/dashboards/image/adv-ais-tools-user-menu-before.png)
+In the banner frame, select your name to open the user menu, then select **Elevate Roles**.\[Omitted image "adv-ais-tools-user-menu-before.png"\] Alt text: User menu with Elevate Roles action highlighted in Core UI.
 
 </td></tr></tbody>
 </table>        A dialog box appears, displaying a checklist of your available privileged roles.
 
-        ![Dialog box displaying privileged roles in Next Experience UI.](../image/elevate-role-dialog-polaris-ui-ais.png)
+        \[Omitted image "elevate-role-dialog-polaris-ui-ais.png"\] Alt text: Dialog box displaying privileged roles in Next Experience UI.
 
     2.  In the dialog box, select the **ais\_high\_security\_admin** option, then select **Update** \(in Next Experience UI\) or **OK**.
 
-        The page reloads and an elevated role indicator appears next to your user name in the user menu. In Next Experience UI, this indicator displays the names of the active privileged roles. In Core UI, the indicator displays the elevated role icon ![](../../security/image/icon-elevated-role-ui16.png).
+        The page reloads and an elevated role indicator appears next to your user name in the user menu. In Next Experience UI, this indicator displays the names of the active privileged roles. In Core UI, the indicator displays the elevated role icon \[Omitted image "icon-elevated-role-ui16.png"\] Alt text:.
 
-        ![User menu showing elevated role indicator in Next Experience UI.](../image/elevated-polaris-ui.png)
+        \[Omitted image "elevated-polaris-ui.png"\] Alt text: User menu showing elevated role indicator in Next Experience UI.
 
         **Note:** When the page reloads, any unsaved edits are lost.
 

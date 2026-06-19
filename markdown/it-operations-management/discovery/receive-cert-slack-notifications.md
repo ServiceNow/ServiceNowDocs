@@ -2,13 +2,14 @@
 title: Receive certificate notifications on Slack
 description: In Version 1.2.0 of Certificate Inventory and Management, set up Slack notifications to stay informed about expiring and expired certificates. Receive detailed alerts with convenient URL links for additional information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/receive-cert-slack-notifications.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Certificate integrations and notifications, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Certificate alerts and notifications, Configuring Certificate Inventory and Management, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Receive certificate notifications on Slack
@@ -25,13 +26,13 @@ A scheduled job in Certificate Inventory and Management regularly checks the exp
 
 ## Procedure
 
-1.  [Set up Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md).
+1.  Set up Slack spoke.
 
 2.  Create a [Slack bot](https://api.slack.com/bot-users) and add it to a Slack channel.
 
-3.  [Configure default Slack credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md).
+3.  Configure default Slack credentials.
 
-4.  [Configure custom Slack credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-slack.md).
+4.  Configure custom Slack credentials.
 
     If your Slack spoke version is 1.2.0, you can bypass the next step concerning the retrieval of the Channel ID.
 
@@ -58,5 +59,5 @@ A scheduled job in Certificate Inventory and Management regularly checks the exp
 
 Notifications are directed to the Slack channel specified in Discovery properties. If a certificate is assigned to a user, and their configured email matches the Slack email, the user is tagged in the Slack message. The Slack scheduled job runs weekly, and you can adjust its frequency by modifying the Certificate Notification scheduled job settings.
 
-**Parent Topic:**[Certificate integrations and notifications](../concept/cert-inventory-mgmt-workflow.md)
+**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
 

@@ -2,6 +2,7 @@
 title: Portal Polaris Footer widget
 description: The Portal Polaris Footer widget displays contact information, social media links, and other common links at the bottom of the portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -24,7 +25,7 @@ Include the Portal Footer widget on your portal page to display information abou
 -   Social media at the bottom right of the footer
 -   Copyright text on the bottom-right corner of the footer
 
-![Portal Polaris Footer widget displaying sitemap links in different categories.](../image/portal-footer-widget.png "Portal Polaris Footer widget")
+\[Omitted image "portal-footer-widget.png"\] Alt text: Portal Polaris Footer widget displaying sitemap links in different categories.
 
-For more information, see [Configure the Portal Polaris Footer widget](../task/config-portal-footer-widget.md).
+For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md).
 

@@ -2,6 +2,7 @@
 title: Sprint planning in CWM
 description: Plan, track, and manage work for your teams in the Agile methodology using Sprint planning in Collaborative Work Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -15,17 +16,19 @@ breadcrumb: [Agile in CWM, Use, Collaborative Work Management, Strategic Portfol
 
 Plan, track, and manage work for your teams in the Agile methodology using Sprint planning in Collaborative Work Management.
 
+Sprint planning in Collaborative Work Management 
+
 Within the Sprint Planning view of your CWM Board, you can manage your team's backlog, create sprints, plan work into sprints, and execute them seamlessly. All existing work items on your CWM Board are automatically added to the Backlog pane in the Sprint Planning view. This means that whether the work items are old or new, they will all be visible in the Backlog. From this pane, you can easily schedule these items into sprints for execution.
 
 You have the flexibility to create work items of various types, such as Stories, or use any other default and custom work types that are available on your CWM Board. This flexibility ensures that you can tailor your sprint planning to fit the specific needs of your team and projects.
 
 ## Enabling Sprint planning view
 
-From the Views section of the Personalize \(![Personalize List and Gantt views.](../../alignment-planner-workspace/images/icon-personalize.png)\) side panel, select Sprint planning to enable the display of Sprint planning view on your CWM Board.
+From the Views section of the Personalize \(\[Omitted image "icon-personalize.png"\] Alt text: Personalize List and Gantt views.\) side panel, select Sprint planning to enable the display of Sprint planning view on your CWM Board.
 
 **Note:** Save your Board view to ensure that the Sprint planning view is always displayed on your Board.
 
-![Enable Sprint planning view.](../images/cwm-sprint-planning-enable-view.png)
+\[Omitted image "cwm-sprint-planning-enable-view.png"\] Alt text: Enable Sprint planning view.
 
 ## Backlog
 
@@ -45,40 +48,42 @@ Within the Backlog pane, you can do the following:
 
 -   Drag and drop a single or multiple work items from Backlog to one of the sprints.
 
-![Sprint planning Backlog in CWM.](../images/cwm-sprint-backlog.png)
+\[Omitted image "cwm-sprint-backlog.png"\] Alt text: Sprint planning Backlog in CWM.
 
 ## Sprints
 
-The Sprints section in your CWM Board displays the list of active sprints. If you haven’t created any sprints yet, this section will show a form to help you get started. You can create a sprint by selecting the sprint duration, start and end dates, and story points capacity. To create additional sprints with the same settings, use the **Add another Sprint** option. For sprints with different durations or capacities, select **Create Sprint**. For more information, see [Create a sprint in CWM](../task/create-sprints-in-cwm.md).
+The Sprints section in your CWM Board displays the list of active sprints. If you haven’t created any sprints yet, this section will show a form to help you get started. You can create a sprint by selecting the sprint duration, start and end dates, and story points capacity. To create additional sprints with the same settings, use the **Add another Sprint** option. For sprints with different durations or capacities, select **Create Sprint**. For more information, see [Create a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-sprints-in-cwm.md).
 
 Each sprint is a collapsible section where you can add work items directly and customize the view using the personalize side panel. Each sprint section also shows the percentage of utilized capacity and the remaining story points, helping you manage your team's workload effectively.
 
-![Sprints section in CWM Sprint planning.](../images/cwm-sprint-view.png)
+\[Omitted image "cwm-sprint-view.png"\] Alt text: Sprints section in CWM Sprint planning.
 
 ## Personalizing Sprint Planning view
 
-You can customize the columns displayed in the Backlog and Sprint panes using the Personalize \(![Personalize List and Gantt views.](../../alignment-planner-workspace/images/icon-personalize.png)\) side panel, allowing you to see the most relevant information. Any changes you make can be saved to the current Board view or as a new view, depending on your needs.
+You can customize the columns displayed in the Backlog and Sprint panes using the Personalize \(\[Omitted image "icon-personalize.png"\] Alt text: Personalize List and Gantt views.\) side panel, allowing you to see the most relevant information. Any changes you make can be saved to the current Board view or as a new view, depending on your needs.
 
 If you require more working area for the Backlog or Sprints within the Sprint planning view, you can toggle between the **Backlog**, **Sprints**, and **Backlog and Sprints** options.
 
-![Personalize options for CWM Sprint planning.](../images/cwm-sprint-view-personalize.png)
+\[Omitted image "cwm-sprint-view-personalize.png"\] Alt text: Personalize options for CWM Sprint planning.
 
--   **[Add work items to Sprint planning Backlog in CWM](../task/add-work-items-to-sprint-planning-backlog-in-cwm.md)**  
+-   **[Add work items to Sprint planning Backlog in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/add-work-items-to-sprint-planning-backlog-in-cwm.md)**  
 Create and add new work items to the Backlog directly from the Sprint planning view of Collaborative Work Management.
--   **[Create a sprint in CWM](../task/create-sprints-in-cwm.md)**  
+-   **[Create a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-sprints-in-cwm.md)**  
 Create a sprint with custom duration and capacity to enable your team to plan and execute their work in an Agile methodology in Collaborative Work Management.
--   **[Update sprint details in CWM](../task/modify-sprint-details-in-cwm.md)**  
+-   **[Update sprint details in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/modify-sprint-details-in-cwm.md)**  
 Modify the duration, capacity, and dates for a sprint in Collaborative Work Management.
--   **[Delete a sprint in CWM](../task/delete-sprint-in-cwm.md)**  
+-   **[Delete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/delete-sprint-in-cwm.md)**  
 Delete individual sprints from Sprint planning in Collaborative Work Management so that your Board reflects the changes in your planning priorities.
--   **[Create work items for sprints in CWM](../task/create-work-items-for-sprints-in-cwm.md)**  
+-   **[Create work items for sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-work-items-for-sprints-in-cwm.md)**  
 Create and add new work items to a sprint directly from the Sprint planning view of Collaborative Work Management.
--   **[Plan work items into sprints in CWM](../task/plan-work-items-into-sprints-in-cwm.md)**  
+-   **[Generate acceptance criteria for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md)**  
+Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Collaborative Work Management \(CWM\). Review and refine suggested options to ensure they meet your requirements.
+-   **[Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md)**  
 Schedule stories and other CWM tasks from the backlog into sprints or move work across sprints in Collaborative Work Management.
--   **[Start or complete a sprint in CWM](../task/start-a-sprint-in-cwm.md)**  
+-   **[Start or complete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/start-a-sprint-in-cwm.md)**  
 Start a sprint so that your team can start work on the planned items. After your team finishes the assigned work, you can mark this sprint complete, all directly from the Sprint planning view in Collaborative Work Management.
--   **[Create a retrospective board for a sprint in CWM](../task/create-a-retrospective-board-for-sprint-cwm.md)**  
+-   **[Create a retrospective board for a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-a-retrospective-board-for-sprint-cwm.md)**  
 When marking a sprint complete, choose to create a sprint retrospective board for your team to collaborate and reflect on the recent sprint in Collaborative Work Management.
 
-**Parent Topic:**[Agile work management in CWM](agile-in-cwm.md)
+**Parent Topic:**[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-in-cwm.md)
 

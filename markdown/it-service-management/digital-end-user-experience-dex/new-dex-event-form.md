@@ -2,6 +2,7 @@
 title: New DEX event form
 description: The New record form for DEX event monitoring enables you to add events to monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/new-dex-event-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -140,5 +141,5 @@ Identifies the source where the event is recorded, such as Application, System, 
 This filed is required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

@@ -2,6 +2,7 @@
 title: Submit an enterprise asset move order through the Asset operations view
 description: Use the Asset operations view of the Enterprise Asset Workspace to submit a move order so that you can move in-use or consumed enterprise assets between locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/submit-enterprise-asset-move-order-inventory-view.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -44,7 +45,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 ## What to do next
 
-Add enterprise assets to the move order. See [Add enterprise assets to a move order](add-enterprise-assets-move-order.md) for detailed instructions.
+Add enterprise assets to the move order. See [Add enterprise assets to a move order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-enterprise-assets-move-order.md) for detailed instructions.
 
-**Parent Topic:**[Submitting an enterprise asset move order](../concept/submitting-enterprise-asset-move-order.md)
+**Parent Topic:**[Submitting an enterprise asset move order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/submitting-enterprise-asset-move-order.md)
 

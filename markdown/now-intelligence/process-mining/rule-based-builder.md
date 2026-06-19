@@ -2,6 +2,7 @@
 title: Set rule-based improvement opportunity
 description: Rule-based finding definition is a custom rule that displays improvement opportunities for a use case on the Summary and insights page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/rule-based-builder.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -30,19 +31,19 @@ For example, you can set up a rule to display records that took more than 7 days
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the Rule-based card.
 
 3.  Provide details in the **Define** section.
 
-    For details, see [Rule-based finding definition form](../reference/finding-definition-form.md).
+    For details, see [Rule-based finding definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/finding-definition-form.md).
 
 4.  Select **Configure**.
 
     The **Configure** tab is displayed.
 
-    ![Configure rule-based finding in Finding Builder](../image/rule-find-config-builder.png)
+    \[Omitted image "rule-find-config-builder.png"\] Alt text: Configure rule-based finding in Finding Builder
 
     The predicates available are:
 
@@ -90,14 +91,14 @@ For example, you can set up a rule to display records that took more than 7 days
 
     8.  You can copy or paste a single filter by selecting the **Copy** or **Paste** option from the list.
 
-        ![Copy or paste a filter](../image/copy-process-filter.png)
+        \[Omitted image "copy-process-filter.png"\] Alt text: Copy or paste a filter
 
 6.  Select **Create a copy** from the **Actions** list to copy the entire improvement opportunity.
 
-    ![Create a copy of the improvement opportunity](../image/imp-opp-copy.png)
+    \[Omitted image "imp-opp-copy.png"\] Alt text: Create a copy of the improvement opportunity
 
 7.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting improvement opportunities](../concept/working-with-imp-opp.md)
+**Parent Topic:**[Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/working-with-imp-opp.md)
 

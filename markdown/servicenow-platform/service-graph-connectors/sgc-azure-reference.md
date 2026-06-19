@@ -2,6 +2,7 @@
 title: Service Graph Connector for Microsoft Azure reference
 description: Reference topics provide additional information about Service Graph Connector for Microsoft Azure components.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-azure-reference.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -15,16 +16,16 @@ breadcrumb: [Microsoft Azure, Service Graph Connectors, Integrating third-party 
 
 Reference topics provide additional information about Service Graph Connector for Microsoft Azure components.
 
--   **[Supported Microsoft Azure resource types](../reference/cmdb-sgc-azure-resource-types.md)**  
+-   **[Supported Microsoft Azure resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-resource-types.md)**  
 Several Microsoft Azure resource types are imported as CMDB data.
--   **[Microsoft Azure discovery solutions comparison](../../it-operations-management/reference/azure-discovery-methods.md)**  
+-   **[Microsoft Azure discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 ITOM Visibility applications discover a variety of Microsoft Azure resources and populate the relevant configuration item \(CI\) classes in the Configuration Management Database \(CMDB\) with their attributes.
--   **[Life cycle management of records in Service Graph Connector for Microsoft Azure](sgc-azure-lc.md)**  
+-   **[Life cycle management of records in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-azure-lc.md)**  
 Life cycle management in the Service Graph Connector for Microsoft Azure monitors and updates the statuses of Azure resources throughout their entire life cycle, from creation to deletion.
--   **[Record removal process in Service Graph Connector for Microsoft Azure](sgc-cmdb-azure-removal.md)**  
+-   **[Record removal process in Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-azure-removal.md)**  
 The Service Graph Connector for Microsoft Azure uses the Integration Commons record removal process for life cycle management during full data loads. For delta loads, life cycle management of records is based on updates from Microsoft Azure.
--   **[Service Graph Connector for Microsoft Azure properties](../reference/cmdb-sgc-azure-props.md)**  
+-   **[Service Graph Connector for Microsoft Azure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-azure-props.md)**  
 Service Graph Connector for Microsoft Azure properties control the behavior of the connector.
 
-**Parent Topic:**[Service Graph Connector for Microsoft Azure](cmdb-integration-azure.md)
+**Parent Topic:**[Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-azure.md)
 

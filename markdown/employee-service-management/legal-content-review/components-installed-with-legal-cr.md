@@ -2,6 +2,7 @@
 title: Components installed with Legal Content Review
 description: Several types of components are installed with activation of the application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-content-review/components-installed-with-legal-cr.html
 release: australia
 product: Legal Content Review
 classification: legal-content-review
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Legal Content Review, Legal Service Delivery Practice Ap
 
 Several types of components are installed with activation of the application, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 
@@ -56,5 +57,5 @@ Provides fulfiller access for working on assigned content review requests.
 sn\_lg\_ops.legal\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Content Review reference](legal-cr-reference.md)
+</table>**Parent Topic:**[Legal Content Review reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-content-review/legal-cr-reference.md)
 

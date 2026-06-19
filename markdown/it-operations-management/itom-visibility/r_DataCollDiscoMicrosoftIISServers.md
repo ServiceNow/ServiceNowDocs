@@ -2,6 +2,7 @@
 title: Microsoft IIS server discovery
 description: Discovery identifies and classifies information about Microsoft IIS servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r\_DataCollDiscoMicrosoftIISServers.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -23,8 +24,8 @@ Install IIS Management Scripts and Tools on a Microsoft IIS Server.
 
 Configure these credentials:
 
--   [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)
--   [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)
+-   Applicative credentials
+-   Windows credentials
 
 ## Classifier, pattern, and probe
 
@@ -60,7 +61,7 @@ IIS
 </td></tr></tbody>
 </table>\*Probes inactive on new instances.
 
-To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](../concept/c-UsingPatternsForHorizontalDiscovery.md#) for instructions.
+To use patterns, verify that the correct pattern is specified in the horizontal pattern probe on the classifier. See [Add the Horizontal Pattern probe to a classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for instructions.
 
 ## Data collected by Discovery for IIS Web Server
 
@@ -83,5 +84,5 @@ The following data is collected in the Web site \[cmdb\_ci\_web\_site\] table:
 |Name|name|wmi|
 |TCP Port|tcp\_port|wmi|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
 

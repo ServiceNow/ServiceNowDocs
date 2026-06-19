@@ -2,6 +2,7 @@
 title: Activate Docusign eSignature spoke catalog items
 description: Trigger events in Docusign when an item is requested in the Service Catalog. For example, The Send a Document for Digital Signature catalog item triggers a sample flow that sends a Docusign document to a designated recipient.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/activate-docusign-catalog-items.html
 release: australia
 product: Integration Hub
 classification: integration-hub

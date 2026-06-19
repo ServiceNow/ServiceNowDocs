@@ -2,6 +2,7 @@
 title: Create form views for new planning item tables in Strategic Planning
 description: For every new planning item table that you create, you must create the necessary form views. You can also customize the views for existing planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/create-form-views-for-planning-item-tables-in-apw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ For every new planning item table that you create, you must create the necessary
 
 ## Before you begin
 
--   [Define a new planning item type in Strategic Planning](create-planning-organization-and-planning-item-type.md).
+-   [Define a new planning item type in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-planning-organization-and-planning-item-type.md).
 -   Ensure that the application scope in your instance is set to Portfolio Planning.
 
 Role required: admin
@@ -57,7 +58,7 @@ The following are the necessary form views:
 
     -   For Preview and APW Default views, select the **Strategic priority** and the **Primary goal** fields to be visible on the form.
     -   For all three views, select the field for the bottom entity of your lens to be visible on the form.
-    -   For all three views, add the Milestones related list. See [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    -   For all three views, add the Milestones related list. See Add a related list to a form.
 9.  Select **Save**.
 
     A new form view is created for this planning item type.
@@ -67,5 +68,5 @@ The following are the necessary form views:
 
 ## What to do next
 
-[Create list views for new planning item tables in Strategic Planning](create-list-views-for-new-planning-item-tables-in-strategic-planning.md).
+[Create list views for new planning item tables in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-list-views-for-new-planning-item-tables-in-strategic-planning.md).
 

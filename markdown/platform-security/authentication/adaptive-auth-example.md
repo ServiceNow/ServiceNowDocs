@@ -2,6 +2,7 @@
 title: Tutorial: Configure adaptive authentication
 description: Use these example steps to configure adaptive authentication on an instance.Learn how to create a criteria record to use as a policy input for your adaptive authentication policy.Learn how to create a policy to deny access to user groups defined in your group filter criteria.Configure the Post Authentication Policy Context to use your new policy. When configured, your instance denies access to users within the group defined in the filter criteria record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/adaptive-auth-example.html
 release: australia
 product: Authentication
 classification: authentication
@@ -15,7 +16,7 @@ breadcrumb: [Configure properties, Adaptive authentication, Authentication, Acce
 
 Use these example steps to configure adaptive authentication on an instance.
 
-To use this tutorial, you must have an instance with Adaptive Authentication activated. For details on this process, see [Activate adaptive authentication](../task/adaptive-authentication-plugin.md).
+To use this tutorial, you must have an instance with Adaptive Authentication activated. For details on this process, see [Activate adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/adaptive-authentication-plugin.md).
 
 The example guides you through creating a new policy and applying it to an instance. In this tutorial you will:
 
@@ -42,7 +43,7 @@ Role required: adaptive\_auth\_admin
 
 To deny access to your instance based on user groups, you must create a group filter criteria record. This record defines a user group or a set of user groups that your policy can grant or deny access. In this example, you will create a group filter criteria record for a single user group.
 
-For details on user groups and how they are used in your instance, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/exploring-user-administration.md).
+For details on user groups and how they are used in your instance, see .
 
 ### Procedure
 
@@ -60,13 +61,13 @@ For details on user groups and how they are used in your instance, see [Explorin
 
 5.  In the **Groups for criteria** list, double-click **Insert a new row...**.
 
-6.  Enter the name of a user group, or click the reference icon \(![Reference icon](../images/search.png)\) to select a group from a list.
+6.  Enter the name of a user group, or click the reference icon \(\[Omitted image "search.png"\] Alt text: Reference icon\) to select a group from a list.
 
-    If you want to create a new user group for your filter criteria, click the reference icon \(![Reference icon](../images/search.png)\), and then click the **New** button. For more details on creating user groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+    If you want to create a new user group for your filter criteria, click the reference icon \(\[Omitted image "search.png"\] Alt text: Reference icon\), and then click the **New** button. For more details on creating user groups, see Create a user group.
 
 7.  After you have added your user group, click **Submit** to save your criteria record.
 
-    ![Completed group filter criteria record.](../images/adaptive-auth-example-1.png)
+    \[Omitted image "adaptive-auth-example-1.png"\] Alt text: Completed group filter criteria record.
 
 
 ## Create a policy
@@ -99,7 +100,7 @@ Role required: adaptive\_auth\_admin
 
 7.  In the list collector, add the filter criteria created in the previous steps to your policy.
 
-    ![List collector with a selected filter criteria record](../images/policy_filter-add.png)
+    \[Omitted image "policy\_filter-add.png"\] Alt text: List collector with a selected filter criteria record
 
 8.  Click **Save**.
 
@@ -115,7 +116,7 @@ Role required: adaptive\_auth\_admin
 
 12. In the **Condition** field, select the filter criteria you created in previous steps, then select **is**, and **true** to complete the condition.
 
-    ![Completed policy condition record](../images/policy-condition-complete.png)
+    \[Omitted image "policy-condition-complete.png"\] Alt text: Completed policy condition record
 
 13. Click **Save**.
 

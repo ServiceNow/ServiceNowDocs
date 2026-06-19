@@ -2,6 +2,7 @@
 title: DecisionTableAPI - Scoped, Global
 description: The DecisionTableAPI class enables you to access Decision Tables data in scoped and global server-side scripts.Instantiates a DecisionTableAPI object.Creates multiple records in the Choices \[sys\_choice\] table that are linked to answer elements.Creates multiple records in the Result \[sys\_decision\_multi\_result\_element\] table that are related to the specified decision table.Creates multiple records in the Decision Conditions \[sn\_decision\_table\_decision\_condition\] table that are related to the specified decision table.Creates a decision table record in the Decision Tables \[sys\_decision\] table.Creates multiple records in the Choices \[sys\_choice\] table that are linked to decision inputs.Creates multiple records in the Decision Inputs \[sys\_decision\_input\] table that are related to the specified decision table.Creates multiple records in the Decisions \[sys\_decision\_question\] table that are related to the specified decision table.Deletes a record in the Result \[sys\_decision\_multi\_result\_element\] table.Deletes a record in the Choices \[sys\_choice\] table.Deletes a record in the Decision Conditions \[sn\_decision\_table\_decision\_condition\] table.Deletes a record in the Decision Tables \[sys\_decision\] table.Deletes a record in the Decision Inputs \[sys\_decision\_input\] table.Deletes a record in the Decisions \[sys\_decision\_question\] table.Returns all decision tables from the Decision Tables \[sys\_decision\] table.Returns the answers associated with the specified decision table. An answer is a record on any table associated with a Decision \[sys\_decision\_question\] record.Evaluates a decision table based on the provided inputs and returns an answer. If no inputs are provided, returns the first default answer found.Evaluates a decision table based on the provided inputs and returns all correctly evaluated answers. If no inputs are provided, returns all default answers.Returns a single decision table from the Decision Tables \[sys\_decision\] table.Returns the decision inputs from the Decision Inputs \[sys\_decision\_input\] table associated with the passed in decision table.Returns the decisions from the Decision \[sys\_decision\_question\] table associated with the passed in decision table.Updates a record in the Result \[sys\_decision\_multi\_result\_element\] table.Updates a record in the Choices \[sys\_choice\] table.Updates a record in the Decision Conditions \[sn\_decision\_table\_decision\_condition\] table.Updates a record in the Decision Tables \[sys\_decision\] table.Updates a record in the Decision Inputs \[sys\_decision\_input\] table.Updates a record in the Decisions \[sys\_decision\_question\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DecisionTableAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DecisionTableAPI class enables you to access Decision Tables data in scoped and global server-side scripts.
 
-To access DecisionTableAPI methods, use the `sn_dt` namespace. You must have the decision\_table\_crud\_api role to use this API. To learn more about Decision Tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
+To access DecisionTableAPI methods, use the `sn_dt` namespace. You must have the decision\_table\_crud\_api role to use this API. To learn more about Decision Tables, see Decision Tables.
 
 ## Date/Time inputs
 
@@ -34,7 +35,7 @@ As a result:
 -   The system doesn't apply user and system timezones during evaluation.
 -   `between` conditions compare the literal dateTime values exactly as provided.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## DecisionTableAPI - DecisionTableAPI\(\)
 
@@ -443,9 +444,9 @@ Answer element input type.Valid values:
 -   Currency
 -   Decimal
 -   Due\_date
--   [Glide\_date](../../glideDateScoped/concept/c_GlideDateScopedAPI.md#)
--   [Glide\_date\_time](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#)
--   [Glide\_duration](../../glideDurationScoped/concept/c_GlideDurationScopedAPI.md#)
+-   [Glide\_date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
+-   [Glide\_date\_time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
+-   [Glide\_duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDurationScopedAPI.md)
 -   Integer
 -   Longint
 -   Reference
@@ -701,7 +702,7 @@ String
 
 </td><td>
 
-Optional. Default operator for the condition. For a list of valid operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+Optional. Default operator for the condition. For a list of valid operators, see Operators available for filters and queries.
 
 </td></tr><tr><td>
 
@@ -1769,7 +1770,7 @@ String
 
 Conditions required to reach this question.The fields available for the conditions are the decision inputs that are associated with the decision table.
 
-For more information about creating conditions, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+For more information about creating conditions, see Operators available for filters and queries.
 
 </td></tr><tr><td>
 
@@ -4200,7 +4201,7 @@ String
 
 </td><td>
 
-Optional. Default operator for the condition. For a list of valid operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+Optional. Default operator for the condition. For a list of valid operators, see Operators available for filters and queries.
 
 </td></tr><tr><td>
 
@@ -4884,7 +4885,7 @@ String
 
 Optional. Conditions required to reach this question.The fields available for the conditions are the decision inputs that are associated with the decision table.
 
-For more information about creating conditions, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+For more information about creating conditions, see Operators available for filters and queries.
 
 </td></tr><tr><td>
 

@@ -2,7 +2,10 @@
 title: Create a configuration for case type single-select
 description: Create a configuration for the single-select version of the case type selector and define the fields and values that the system uses to auto-populate the Case form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-type-single-selection.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,9 +26,9 @@ In CSM Configurable Workspace, there are three versions of the case type selecto
 
 -   With the multi-select version, the agent selects a case type and optionally selects a category and subtype to narrow the available choices before creating a case. This is the default functionality.
 -   With the single-select version, the agent selects a case type and creates a case. The system populates some of the fields on the Case form with values that have been predefined in the selection configuration.
--   With the Product Service Select version, the agent selects a product and a service to create a case. For more information, see [Product Service select version of the case type selector](../concept/csm-case-type-select-modals-product-service.md).
+-   With the Product Service Select version, the agent selects a product and a service to create a case. For more information, see [Product Service select version of the case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-case-type-select-modals-product-service.md).
 
-To use the single-select version, follow the procedure below to configure one or more selections that are available to agents when creating a case. You must also [enable the case type single select property](enable-case-type-single-select-prop.md).
+To use the single-select version, follow the procedure below to configure one or more selections that are available to agents when creating a case. You must also [enable the case type single select property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-case-type-single-select-prop.md).
 
 ## Procedure
 

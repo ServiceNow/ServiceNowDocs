@@ -2,6 +2,7 @@
 title: Model an Azure pipeline in DevOps
 description: Model an Azure pipeline by mapping the pipeline to an app, and mapping DevOps Change Velocity pipeline steps to Azure pipeline jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/model-azure-pipeline-dev-ops.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -43,9 +44,9 @@ Role required: sn\_devops.admin
 
 3.  Create DevOps steps automatically or manually to map to each Azure pipeline job so an orchestration task can be created.
 
-    **Note:** Manual creation of steps is not required when you [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](config-dev-ops-extensions-azure.md#).
+    **Note:** Manual creation of steps is not required when you [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
 
-    -   Automatically create and map pipeline steps in DevOps by running your Azure pipeline when you [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](config-dev-ops-extensions-azure.md#).
+    -   Automatically create and map pipeline steps in DevOps by running your Azure pipeline when you [Use the ServiceNow DevOps extension for Azure DevOps and Azure DevOps custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
 
         Pipeline steps are automatically created, mapped, and associated when DevOps receives step notifications from your Azure pipeline during the run.
 
@@ -93,7 +94,7 @@ Order
 
 Order in which the steps are run.
 
- **Note:** The step order determines the order of the cards in the [Pipeline UI](../concept/dev-ops-pipeline-ui.md).
+ **Note:** The step order determines the order of the cards in the [Pipeline UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-pipeline-ui.md).
 
 The order of the cards in the Pipeline UI is by task execution.
 
@@ -116,14 +117,14 @@ Business service
 Configuration service that applies to the step.
 
 </td></tr></tbody>
-</table>        Once orchestration tasks are created, [associate](associate-pipeline-steps-dev-ops.md) each orchestration task in the Orchestration Tasks related list with a DevOps pipeline step.
+</table>        Once orchestration tasks are created, [associate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/associate-pipeline-steps-dev-ops.md) each orchestration task in the Orchestration Tasks related list with a DevOps pipeline step.
 
 4.  Enable change control automatically or manually.
 
     -   If you are using the ServiceNow DevOps extension for Azure DevOps, run your Azure DevOps pipeline to automatically enable change control.
-    -   If you are configuring change control manually, select the **Change control** check box in a step to enable [change acceleration](../concept/dev-ops-change-acceleration.md) and the corresponding configuration fields. For Azure release \(CD\) pipelines, enable change control in the first step of the required stage only. Change control for Azure release \(CD\) pipelines is supported only in pre-deployment gates.
+    -   If you are configuring change control manually, select the **Change control** check box in a step to enable [change acceleration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-change-acceleration.md) and the corresponding configuration fields. For Azure release \(CD\) pipelines, enable change control in the first step of the required stage only. Change control for Azure release \(CD\) pipelines is supported only in pre-deployment gates.
 
-        **Note:** ServiceNow [Change Management](../../change-management/concept/c_ITILChangeManagement.md) must be installed for change acceleration.
+        **Note:** ServiceNow [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md) must be installed for change acceleration.
 
 <table id="table_xm1_tdf_llb"><tbody><tr><td>
 
@@ -164,7 +165,7 @@ Change model
 
 </td><td>
 
-Change model for the change request. For more information, see [DevOps change models](../concept/devops-change-multimodel.md).
+Change model for the change request. For more information, see [DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md).
 
 </td></tr><tr><td>
 
@@ -197,12 +198,12 @@ Change controlled branches
 \(Multibranch only\) Comma-separated list of branches under change control. Wildcards are supported.
 
 </td></tr></tbody>
-</table>        You can set up change control in your Azure DevOps YAML or Classic Azure pipeline using the [Azure Invoke REST API](../concept/dev-ops-azure-change-control-api.md) or the [ServiceNow DevOps extension for Azure DevOps](config-dev-ops-extensions-azure.md#).
+</table>        You can set up change control in your Azure DevOps YAML or Classic Azure pipeline using the [Azure Invoke REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-azure-change-control-api.md) or the [ServiceNow DevOps extension for Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-dev-ops-extensions-azure.md).
 
 
 ## What to do next
 
-[Configure the Azure pipeline for DevOps](../concept/config-azure-pipeline-dev-ops.md)
+[Configure the Azure pipeline for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/config-azure-pipeline-dev-ops.md)
 
-**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](../concept/azure-devops-integration-dev-ops.md)
+**Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

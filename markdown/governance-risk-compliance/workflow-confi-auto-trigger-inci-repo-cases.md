@@ -2,10 +2,11 @@
 title: Configure Digital resilience incident reporting
 description: Digital Resilience Incident administrators can configure conditions in Workflow Studio to auto-trigger incident reporting in Digital resilience incident reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -17,11 +18,17 @@ Digital Resilience Incident administrators can configure conditions in Workflow 
 
 Operational Resilience administrators set up Word templates, Template configurations, and the Digital resilience incident \(DRI\) case type required for Digital resilience incident reporting as shown in the example.
 
-![Set up the templates.](../image/drir-config-module.png)
+\[Omitted image "drir-config-module.png"\] Alt text: Set up the templates.
 
-Configure Word Templates and Template Configurations for generating reports in Microsoft Word format. For more information, see [Generating Microsoft Word reports using Document designer](gen-word-reports.md).
+Configure Word Templates and Template Configurations for generating reports in Microsoft Word format. For more information, see [Generating Microsoft Word reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/gen-word-reports.md).
 
 The Digital Resilience Incident Case module lists all Digital Resilience Incident Cases associated with an incident or security incident. A new 'Regulation Mappings' related list is now available in each Digital Resilience Incident Case record. It displays the relationships between entities related to the cases and their corresponding regulations.
+
+## Prerequisite data setup for DRI questionnaires
+
+Several reference questions in the DRI Initial report, Intermediate report, and Final report templates use the legal-entity and third-party tables from the Digital Resilience Third-Party Registers application \(sn\_dora\_accel\_entity and sn\_dora\_accel\_third\_party\). Populate these tables \(manually or via the Excel upload request\) before generating an initial report so that fields such as 'Name of the entity submitting the report', 'LEI code of the financial entity affected', and 'Name of the third party provider' can be filled in by the responder.
+
+For details, see [Maintaining Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/digi-resi-third-party-registers.md), [Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-third-party.md), and [Create a legal entity and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-legal-entity.md).
 
 ## Conditions for setting up the Workflow
 
@@ -51,13 +58,13 @@ New flows have been introduced in Digital resilience incident reporting to manag
 4.  Action task automation on regulation updates
 5.  DRI Business Service Trigger For Multiple Regulators
 
-![Digital resilience incident reporting flows. For the text description, refer to the text that precedes this image.](../image/trigger-flows-wf-studio.png)
+\[Omitted image "trigger-flows-wf-studio.png"\] Alt text: Digital resilience incident reporting flows. For the text description, refer to the text that precedes this image.
 
 **Note:** If the Security Incident Response application is installed in your instance, flows related to the security incidents \(SIR\) are listed in the Flows list view.
 
 The Digital Resilience Incident Flow and Digital Resilience SIR Flow are prebuilt into the Digital resilience incident reporting application. The flow configuration impacts all incident records in the instance. As administrators of the Operational Resilience application, you can update \(customize\) the flow configurations to meet your organizational requirements as shown in the example.
 
-![Conditions. For the text description of the conditions, refer to the text that follows.](../image/flow-conditions.png)
+\[Omitted image "flow-conditions.png"\] Alt text: Conditions. For the text description of the conditions, refer to the text that follows.
 
 -   **Insert condition**
 
@@ -67,6 +74,8 @@ The Digital Resilience Incident Flow and Digital Resilience SIR Flow are prebuil
 
     When an incident is reopened or updated, that classification condition is also defined in the flow. When the configured conditions are met, the incident is reported in the Digital resilience incident reporting application.
 
+
+**Note:** The Digital resilience incident reporting application is licensed under the Integrated Risk Management \(IRM\) application family.
 
 ## Required and optional plugins
 

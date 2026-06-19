@@ -2,6 +2,7 @@
 title: Set up the Shodan spoke
 description: Integrate the Shodan account and your ServiceNow instance using the API keys.Add and configure Shodan connections to authenticate ServiceNow requests to the Shodan server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-shodan-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -49,7 +50,7 @@ You must configure two connections: Shodan and Shodan Exploit.
 
     4.  On the Shodan alias tile, select **View Details**.
 
-        ![View Details button on the Shodan alias tile.](../image/shodan-conn-template.png)
+        \[Omitted image "shodan-conn-template.png"\] Alt text: View Details button on the Shodan alias tile.
 
     5.  Select **Configure**.
 
@@ -61,7 +62,7 @@ You must configure two connections: Shodan and Shodan Exploit.
         |Connection URL|URL to connect to Shodan. The default value is `https://api.shodan.io`|
         |Key|API key from your Shodan account.|
 
-        ![Shodan alias connection form.](../image/shodan-alias-conn-form.png)
+        \[Omitted image "shodan-alias-conn-form.png"\] Alt text: Shodan alias connection form.
 
     7.  Select **Create Connection**.
 
@@ -77,7 +78,7 @@ You must configure two connections: Shodan and Shodan Exploit.
 
     4.  On the Shodan Exploit alias tile, select **View Details**.
 
-        ![Connection template for Shodan Exploit.](../image/shodan-exploit-conn-template.png)
+        \[Omitted image "shodan-exploit-conn-template.png"\] Alt text: Connection template for Shodan Exploit.
 
     5.  Select **Configure**.
 
@@ -89,7 +90,7 @@ You must configure two connections: Shodan and Shodan Exploit.
         |Connection URL|URL to connect to Shodan. The default value is `https://api.shodan.io`|
         |Key|API key from your Shodan account.|
 
-        ![Shodan Exploit alias connection form.](../image/shodan-exploit-alias-conn-form.png)
+        \[Omitted image "shodan-exploit-alias-conn-form.png"\] Alt text: Shodan Exploit alias connection form.
 
     7.  Select **Create Connection**.
 

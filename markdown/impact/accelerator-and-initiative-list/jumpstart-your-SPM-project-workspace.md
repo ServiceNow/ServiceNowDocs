@@ -2,12 +2,13 @@
 title: Jumpstart Your Strategic Portfolio Management - Project Workspace
 description: This accelerator provides a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-SPM-project-workspace.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
@@ -17,16 +18,21 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 
 ## Accelerator Overview
 
-Jumpstart Your SPM – Project Workspace provides Impact customers with a comprehensive overview of the possibilities and capabilities of the Project Workspace in SPM. Our goal is to demonstrate preparing and implementing Project Workspace, to ensure proper setup of foundation data that enables a consolidated view of Projects and associated information. In addition, this accelerator includes key resources and leading practice guides to help customers get started.
+Jumpstart Your SPM – Project Workspace provides Impact customers with an applied overview of Project Workspace within SPM, demonstrating how to centralize project data and manage projects and associated information from a single, unified view. This accelerator also equips customers with key resources and leading practices to help them get started quickly.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
 ## What you get
 
 -   **Session Preparation**
-    -   Provision a temporary instance
-    -   Activate and configure the applicable components of Project Workspaces within SPM
--   **Customer Coaching Session \#1 \(up to 90 min\)**
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Activates and configures the applicable components of Project Workspaces within SPM
+-   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
 
     Includes the following:
 
@@ -35,12 +41,13 @@ Jumpstart Your SPM – Project Workspace provides Impact customers with a compre
         -   Installation &amp; configuration
         -   High-level discussion on Foundation data
     -   Walk-through of key capabilities
-    -   Suggestions for reimplementation next steps
-    -   Temporary instance with 30 days provided access
--   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 60 min\)**
+-   **Customer Coaching Session \#2 \(Optional up on Customer request – up to 1 hr\)**
 
     Opportunity for Q&amp;A related to the Project Workspaces within SPM.
 
+-   **Outputs**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching session deck
 
 ## Requested customer resources
 
@@ -98,7 +105,7 @@ Other Customer Role\(s\)
 
 </td><td>
 
-Primary stakeholders responsible for Project Management. Example: Project Manager/Resource Manager – Individuals who are responsible for making requests for resources and/or collaborate on the allocation and planning of resources.
+Primary stakeholders responsible for Project Management. Example: Project Manager/Resource Manager – Individuals who are responsible for making requests for resources and collaborate on the allocation and planning of resources.
 
 </td><td>
 
@@ -141,13 +148,11 @@ Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leadin
 ✓
 
 </td></tr></tbody>
-</table>## Requested information/access
+</table>## Requested Information/Access
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/upgrade-schedules.html](https://www.servicenow.com/upgrade-schedules.html)
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
-
-This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

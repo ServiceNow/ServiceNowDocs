@@ -2,6 +2,7 @@
 title: Define email configuration for contextual search
 description: Define email configurations to allow the system to include search results with an email notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/define-email-configuration-for-cxs.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -33,7 +34,7 @@ When Knowledge articles are associated with a record, those search results can b
 
     |Field|Description|
     |-----|-----------|
-    |Email notification|Lookup icon ![Lookup icon to select a searcher](../image/look-up-icon.png) to select an email notification to attach the search results. You can select only from the notifications that are on the same table as the table configuration record.|
+    |Email notification|Lookup icon \[Omitted image "look-up-icon.png"\] Alt text: Lookup icon to select a searcher to select an email notification to attach the search results. You can select only from the notifications that are on the same table as the table configuration record.|
     |User field|A reference field that helps to narrow down on the search results. For example, if you select **Opened by**, the search results include only the articles that the **Opened by** user can access based on user criteria.|
     |Application|Application scope of the email configuration. The configuration is available for all applications or for scoped applications.|
     |Limit|Maximum number of search results returned.|
@@ -41,8 +42,8 @@ When Knowledge articles are associated with a record, those search results can b
 4.  Click **Submit**.
 
 
--   **[Provide knowledge in incident email notification](t_ProvideKnowledgeIEN.md)**  
+-   **[Provide knowledge in incident email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/t_ProvideKnowledgeIEN.md)**  
 Contextual search results are included in email notifications that are sent to users who create a new incident.
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

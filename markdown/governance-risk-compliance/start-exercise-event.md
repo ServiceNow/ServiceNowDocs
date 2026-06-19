@@ -2,6 +2,7 @@
 title: Start an exercise event
 description: Create an exercise event to test your business continuity and recovery plans on a planned date and monitor the completion of the event tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/start-exercise-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

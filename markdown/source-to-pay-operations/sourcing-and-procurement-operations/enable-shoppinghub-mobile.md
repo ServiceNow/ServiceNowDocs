@@ -2,6 +2,7 @@
 title: Enable the mobile experience for ShoppingHub Mobile
 description: Enable the mobile experience for Shopping Hub Mobile so that users can complete to-dos assigned to them and view and track their purchases from their mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/enable-shoppinghub-mobile.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ Enable the mobile experience for Shopping Hub Mobile so that users can complete 
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_shop.shopping\_hub\_admin
 
 ## Procedure
 
@@ -25,14 +26,14 @@ Role required: admin
 
 2.  Download the Now mobile application on an iOS platform from the Apple App Store or on an Android platform from the Google Play Store.
 
-    For more information on using this mobile app, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) topic.
+    For more information on using this mobile app, see Now Mobile app topic.
 
 3.  Add the instance that has Shopping Hub Mobile installed to the Now Mobile application and log in to access the application data on your mobile device.
 
 
 ## What to do next
 
-[Log in to an instance with a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/login-end-user.md)
+Log in to an instance with a mobile app
 
-**Parent Topic:**[Install ShoppingHub Mobile](install-shoppinghub-mobile.md)
+**Parent Topic:**[Install ShoppingHub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/install-shoppinghub-mobile.md)
 

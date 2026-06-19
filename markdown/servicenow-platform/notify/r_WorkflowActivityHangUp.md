@@ -2,6 +2,7 @@
 title: Hangup workflow activity
 description: The Hangup activity disconnects an active Notify phone call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_WorkflowActivityHangUp.html
 release: australia
 product: Notify
 classification: notify
@@ -17,5 +18,5 @@ The **Hangup** activity disconnects an active Notify phone call.
 
 You can use the **hangup** activity to disconnect only calls that have been answered. Use the **reject** activity to disconnect calls that have not been answered.
 
-**Parent Topic:**[Notify workflow activities](../concept/c_NotifyActivities.md)
+**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
 

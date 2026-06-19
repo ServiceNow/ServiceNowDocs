@@ -2,6 +2,7 @@
 title: Learn about security and roles
 description: Set up the security and roles for your UI Builder instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/security-roles.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -19,7 +20,7 @@ Security and roles in UI Builder are controlled through your application scope, 
 
 ## Roles
 
-Roles control access to features and capabilities in UI Builder. The admin role provides access to all features and capabilities. After access has been granted to a role, all the groups or users assigned to the role are granted the access. Roles can contain other roles, and any access granted to a role is granted to any role that contains it. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/ua-creating-roles.md).
+Roles control access to features and capabilities in UI Builder. The admin role provides access to all features and capabilities. After access has been granted to a role, all the groups or users assigned to the role are granted the access. Roles can contain other roles, and any access granted to a role is granted to any role that contains it. For more information, see .
 
 ## Application scope
 
@@ -29,9 +30,9 @@ Changing the scope in UI Builder also changes the scope in the ServiceNow AI Pla
 
 When creating a page, it’s important for admins and developers to be aware of the scope they are in for the workspace or portal experience. Choose the correct application scope for your experience. The scope picker is to the right of the URL field. The scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®.
 
-![Application scope picker in UI Builder with the Global scope highlighted.](../image/application-scope-picker.png)
+\[Omitted image "application-scope-picker.png"\] Alt text: Application scope picker in UI Builder with the Global scope highlighted.
 
-If you change to a different scope while in a page, you’re notified that you are in a different application scope from the one the page was created in. For more information, see [Application scope](../../../build/applications/concept/c_ApplicationScope.md).
+If you change to a different scope while in a page, you’re notified that you are in a different application scope from the one the page was created in. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).
 
 ## Delegated developers for UI Builder
 
@@ -39,7 +40,7 @@ If you have the application-specific admin role or the system-level admin role, 
 
 ## Protection policy
 
-A protection policy prevents anyone from modifying and/or copying an application file or its related record. A protection policy is typically used when the author of an application is different than the company that uses the application. UI Builder notifies you if you try to modify a protected record. For more information, see [Application file protection policy](../../../build/applications/concept/c_ProtectingApplicationFiles.md).
+A protection policy prevents anyone from modifying and/or copying an application file or its related record. A protection policy is typically used when the author of an application is different than the company that uses the application. UI Builder notifies you if you try to modify a protected record. For more information, see [Application file protection policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ProtectingApplicationFiles.md).
 
-**Parent Topic:**[Learning UI Builder](../concept/learning-uib.md)
+**Parent Topic:**[Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib.md)
 

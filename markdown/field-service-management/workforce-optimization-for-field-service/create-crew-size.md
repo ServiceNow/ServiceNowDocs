@@ -2,6 +2,7 @@
 title: Update the crew requirement of a work order task
 description: Add or update the number of agents to perform a particular type of work for a work order task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/create-crew-size.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service

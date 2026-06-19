@@ -2,6 +2,7 @@
 title: TuneUp Your Virtual Agent – NLU \(Natural Language Understanding\)
 description: TuneUp Your Virtual Agent – NLU \(Natural Language Understanding\) Accelerator provides guidance on fine-tuning NLU models to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-virtual-agent-nlu.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,11 +20,13 @@ TuneUp Your Virtual Agent – NLU \(Natural Language Understanding\) Accelerator
 
 The TuneUp Your Virtual Agent – NLU Accelerator provides Impact customers with an assessment of Model design and performance with prescriptive guidance to address and improved the Virtual Agent experience. An assessment of the current state of Virtual Agent NLU models, an overview of leading practices, a deep-dive into NLU features, and recommendations on how best to continuously improve performance are included.
 
-See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) for additional information on Virtual Agent.
+See  for additional information on Virtual Agent.
 
-**Note:** This Accelerator is available in Advanced, and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable [ServiceNow Impact Package and Accelerator descriptions](https://www.servicenow.com/legal/servicenow-impact.html).
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 

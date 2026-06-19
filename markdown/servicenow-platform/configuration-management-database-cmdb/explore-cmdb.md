@@ -2,6 +2,7 @@
 title: Exploring CMDB
 description: Use the topics in this section to learn and explore CMDB concepts, its predefined tables and the relationships between them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/explore-cmdb.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Policy Exception Integration with Vulnerability Response
 description: Starting with Version 10.1, you can request policy exceptions using the GRC policy exception management capability inherent in the Policy and Compliance Management application from within version 10.3 of the Vulnerability Response application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/request-pe-from-vr.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -29,30 +30,30 @@ The scenario described here assumes that a vulnerability has been identified in 
 
 The following diagram illustrates the steps performed by the compliance manager and the remediation owner in each of the applications.
 
-![Policy exception integration workflow](../image/pe-integration-workflow.png "Policy Exception integration")
+\[Omitted image "pe-integration-workflow.png"\] Alt text: Policy exception integration workflow
 
 **Note:** The GRC business user \(sn\_grc.business\_user\) or business user – lite \(sn\_grc.business\_user\_lite\) is the minimum required role to raise a policy exception from an upstream application.
 
 1.  When the Vulnerability Response application was installed, two policy exception integration records are automatically created and added to the Integration Registry, one for a vulnerability group and one for a vulnerable item.
 
-    ![Policy exception integration Register.](../image/pe-integ-reg.png "Policy exception integration register")
+    \[Omitted image "pe-integ-reg.png"\] Alt text: Policy exception integration Register.
 
     To configure the vulnerable item record, the compliance manager performs the following steps.
 
-    1.  [Identifies the mapping of tables used to integrate the two applications](../concept/allow-other-app-policy-except.md).
-    2.  [Defines reasons for requesting exceptions](../task/define-reason-choices.md).
-    3.  \(optionally\) [Defines policy categories](../task/define-policy-categories.md) for filtering policies
-    4.  \(optionally\) [Creates one or more questionnaires](../task/create-except-quest.md) to be sent to the requester to gather additional information about the policy exception request.
-2.  The compliance manager also defines optional [verification rules](../task/define-verification-rules.md) and [approval rules](../task/define-approval-rules.md) to automate the process of getting approvals for the policy exception.
-3.  In Vulnerability Response, the remediation owner [Request an exception using GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/integration-with-grc.md) .
+    1.  [Identifies the mapping of tables used to integrate the two applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md).
+    2.  [Defines reasons for requesting exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/define-reason-choices.md).
+    3.  \(optionally\) [Defines policy categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/define-policy-categories.md) for filtering policies
+    4.  \(optionally\) [Creates one or more questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/create-except-quest.md) to be sent to the requester to gather additional information about the policy exception request.
+2.  The compliance manager also defines optional [verification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/define-verification-rules.md) and [approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/define-approval-rules.md) to automate the process of getting approvals for the policy exception.
+3.  In Vulnerability Response, the remediation owner Request an exception using GRC: Policy and Compliance Management .
 4.  If a verification rule was defined for the application, the designated approvers are notified that their approval is required. If any fields in the policy exception request were not filled in by the requester \(for example, the Policy or Control Objective\), those fields become mandatory for the approvers. When the approvers have reviewed, completed, and approved the request, it transitions to the Analyze state and is assigned to the compliance manager for further analysis and approval.
 5.  In Policy and Compliance Management, the compliance manager receives the approved request, and assigns a risk rating to the policy exception request on the **Risk assessment** tab.
 
-    ![Risk assessment](../image/risk-assess.png "Policy exception request on the Risk assessment tab")
+    \[Omitted image "risk-assess.png"\] Alt text: Risk assessment
 
     When the policy exception record is saved, information in the **Source** tab, including the source application and source record, as well as information in the **Vulnerable Items** related list are auto-populated. The compliance manager now has access to all the data needed to review and approve the policy exception.
 
-6.  In Policy and Compliance Management, the compliance manager performs the exception assessment, [if assessments were configured](../task/create-except-quest.md). When the assessment is completed, the compliance manager returns to the **Risk assessment** tab and updates the **Risk rating** based on the findings of the assessment, if needed. The compliance manager also populates the following fields with information gathered during the assessment.
+6.  In Policy and Compliance Management, the compliance manager performs the exception assessment, [if assessments were configured](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/create-except-quest.md). When the assessment is completed, the compliance manager returns to the **Risk assessment** tab and updates the **Risk rating** based on the findings of the assessment, if needed. The compliance manager also populates the following fields with information gathered during the assessment.
 
     |Field|Description|
     |-----|-----------|
@@ -87,7 +88,7 @@ Selecting **Approved** causes the policy exception to be approved.
 
 </td></tr><tr><td>
 
-[If an approval rule was defined](../task/define-approval-rules.md), but the **Auto-trigger** check box was not selected
+[If an approval rule was defined](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/define-approval-rules.md), but the **Auto-trigger** check box was not selected
 
 </td><td>
 
@@ -106,5 +107,5 @@ Clicking the **Approve** button causes the approval rule to be executed and the 
 </td></tr></tbody>
 </table>10. In Vulnerability Response, after the approvals have been received, the policy exception becomes active and the patching activity on the vulnerable item is deferred until the policy exception expires. When the **Valid until** date is reached, the policy exception expires and the state of the vulnerable item changes from Deferred to Open.
 
-**Parent Topic:**[Manage policy exceptions and extensions](../concept/manage-policy-exceptions.md)
+**Parent Topic:**[Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md)
 

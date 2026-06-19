@@ -2,6 +2,7 @@
 title: Edit a current or archived PaCE policy version
 description: To edit a Current \(published\) or Archived PaCE policy version, you must create a copy of that version, which can then be updated as required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-edit-current-archive-version.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

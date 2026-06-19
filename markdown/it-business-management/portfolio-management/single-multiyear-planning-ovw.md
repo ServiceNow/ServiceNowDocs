@@ -2,6 +2,7 @@
 title: Annual and multi-year resource capacity-based planning
 description: Plan your portfolios using scenarios for a single fiscal year or multiple years after analyzing utilization of resources against available capacity. Include demands and projects in all portfolios or a single portfolio to evaluate, prioritize, and select demands and projects that match your business objectives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/single-multiyear-planning-ovw.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -29,7 +30,7 @@ In the annual planning, you create scenarios with different combinations of dema
 
 Integrate Scenario Planning for PPM with Investment Funding to retrieve the target amount for a portfolio or all portfolios from a top-level investment fund for annual financial and resource capacity-based planning. If you are planning for a single portfolio, the target amount of that portfolio is retrieved from the **New Fund** column for that portfolio investment and fiscal period in a top-level investment. If you are planning for all portfolios, you can configure the funding entity for which the organization must be funded, and then the investment planner can add funds for that particular entity in a top-level investment. For example, if your organization is a business unit, you can enable that business unit as the funding entity, and all the funds allocated to that business unit are set as the target for your organization.
 
-**Note:** When you upgrade Scenario Planning for PPM to 2.3.0 or later version, the legacy Investment Funding must be upgraded to ServiceNow Store for the integration to work. For detailed instructions on upgrading from legacy Investment Funding to the ServiceNow Store application, see [Upgrading legacy Investment Funding to Store application](../../investment-funding/concept/upgrading-legacy-investment-funding-to-store.md).
+**Note:** When you upgrade Scenario Planning for PPM to 2.3.0 or later version, the legacy Investment Funding must be upgraded to ServiceNow Store for the integration to work. For detailed instructions on upgrading from legacy Investment Funding to the ServiceNow Store application, see [Upgrading legacy Investment Funding to Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/upgrading-legacy-investment-funding-to-store.md).
 
 ## Multi-year, resource capacity-based planning
 
@@ -37,5 +38,5 @@ Multi-year planning enables you to plan your portfolio using a planning window r
 
 In the multi-year planning, you create scenarios similar to the annual planning, but for a specified planning window for a specific portfolio or all portfolios. Based on your selection of demands and projects, analyze the resource allocation for the selected planning window. After analyzing the resource availability and capacity, modify your selection of demands and projects in different scenarios and confirm a scenario that maximizes your returns and add financial value to the organization.
 
-**Parent Topic:**[Scenario Planning for PPM](portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
 

@@ -2,6 +2,7 @@
 title: Open tasks from the task list
 description: Quickly open tasks from the Work Order Task list and see them in Dispatcher Workspace to act on them without searching.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/open-task-platform-list.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -35,7 +36,7 @@ When you open multiple tasks, Dispatcher Workspace displays today's date, not th
 
 3.  Select **Actions on selected rows** &gt; **Open in Dispatcher Workspace**.
 
-    ![opening work order tasks from the list](../image/open-from-platform.png)
+    \[Omitted image "open-from-platform.png"\] Alt text: opening work order tasks from the list
 
     The tasks open in Dispatcher Workspace. You can save the URL to open the same work order tasks in Dispatcher Workspace later.
 

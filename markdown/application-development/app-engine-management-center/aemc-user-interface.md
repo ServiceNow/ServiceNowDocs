@@ -2,11 +2,12 @@
 title: App Engine Management Center user interface
 description: Learn about the App Engine Management Center user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/aemc-user-interface.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
 ---
@@ -82,7 +83,7 @@ Charts and graphs illustrating total and active developers, as well as developer
 
 The Active deployment requests in the pipeline section of the AEMC Overview page shows the number of apps at each deployment stage within each of your pipelines. You can select **Show all requests**, **Show requests**, or **Show published requests** next to the corresponding sections to see an overview of each group of requests.
 
-![Pipelines in each stage of deployment](../../app-engine-studio/image/pipeline.png)
+\[Omitted image "pipeline.png"\] Alt text: Pipelines in each stage of deployment
 
 For a full picture of all your pipeline deployment requests, access the Pipelines page in AEMC. View all of your pipelines, quickly access each deployment request record, and filter each pipeline section to see only the requests that match your criteria.
 

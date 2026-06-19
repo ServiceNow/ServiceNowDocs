@@ -2,6 +2,7 @@
 title: Quick start for Virtual Agent Lite
 description: Virtual Agent Lite comes pre-installed, so all you have to do to try it is activate the ITSM Virtual Agent Conversation Topics Lite plugin and set it up.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/quick-start-va-lite.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -34,13 +35,13 @@ Role required: virtual\_agent\_admin or admin
 
 2.  Configure Virtual Agent Lite for additional portals.
 
-    Virtual Agent Lite appears in the Service portal by default. For more information about configuring the Service portal, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-analytics-events.md).
+    Virtual Agent Lite appears in the Service portal by default. For more information about configuring the Service portal, see .
 
-3.  [Preview and test ITSM Virtual Agent Lite topics in Virtual Agent Designer.](test-valite-topic.md)
+3.  [Preview and test ITSM Virtual Agent Lite topics in Virtual Agent Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-valite-topic.md)
 
     Two topics are available for use with Virtual Agent Lite.
 
-4.  [Duplicate and publish ITSM Virtual Agent Lite topics.](duplicate-publish-valite-topic.md)
+4.  [Duplicate and publish ITSM Virtual Agent Lite topics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/duplicate-publish-valite-topic.md)
 
     Users can now access Virtual Agent Lite topics.
 

@@ -2,6 +2,7 @@
 title: Project planning item form
 description: Learn about the fields of the project form. Use this form to create or edit the details of a planning item of the type Project in Portfolio Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/project-form-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -296,5 +297,5 @@ Business capabilities of this planning item.
 |Risk score|Score for the risk associated with this planning item.|
 |Size score|Score for the job required to complete the task.|
 
-**Parent Topic:**[Form field information for Portfolio Planning](form-field-information-for-portfolio-planning.md)
+**Parent Topic:**[Form field information for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/form-field-information-for-portfolio-planning.md)
 

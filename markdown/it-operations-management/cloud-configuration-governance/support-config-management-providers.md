@@ -2,11 +2,12 @@
 title: Support for continuous delivery \(configuration management\)
 description: The Cloud Provisioning and Governance application supports integration with continuous delivery solutions \(also known as configuration management\). Ansible is supported as the default config management provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/support-config-management-providers.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -47,7 +48,7 @@ Enable Cloud Provisioning and Governance to access the configuration provider wi
 
 </td><td>
 
-[Configure Ansible Tower user name and password](../../cloud-management-v2/task/configure-ansible-creds.md)
+[Configure Ansible Tower user name and password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md)
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Configure Cloud Provisioning and Governance to work with the configuration manag
 
 </td><td>
 
-[Create a workload provider type](../../cloud-management-v2/task/create-workload-provider-type.md) and [Create an Ansible configuration management provider and run Discovery](../../cloud-management-v2/task/create-chef-or-ansible-cfg-provider.md)
+[Create a workload provider type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-workload-provider-type.md) and [Create an Ansible configuration management provider and run Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-chef-or-ansible-cfg-provider.md)
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Create the profile that defines the application that the configuration managemen
 
 </td><td>
 
-[Create an application profile](../../cloud-management-v2/task/create-app-profile.md)
+[Create an application profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-app-profile.md)
 
 </td></tr><tr><td>
 

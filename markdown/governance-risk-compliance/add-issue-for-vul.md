@@ -1,15 +1,16 @@
 ---
-title: Add or create an issue for the operational vulnerability
+title: Add or create an issue
 description: Add an existing issue from the available issues or create an issue for the Operational vulnerability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-issue-for-vul.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-06-01"
 reading_time_minutes: 1
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Add or create an issue for the operational vulnerability
+# Add or create an issue
 
 Add an existing issue from the available issues or create an issue for the Operational vulnerability.
 
@@ -29,15 +30,15 @@ While addressing the Operational vulnerability, an issue can be in the open stat
 
 3.  Select the Issues related list and add or create an issue.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d272198e108">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d282866e108">
 
 Option
 
-</th><th align="left" id="d272198e111">
+</th><th align="left" id="d282866e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d272198e117">
+</th></tr></thead><tbody><tr><td id="d282866e117">
 
 **To add an existing issue**
 
@@ -48,13 +49,13 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d272198e143">
+</td></tr><tr><td id="d282866e143">
 
 **To create an issue**
 
 </td><td>
 
-Create an issue. Follow the steps in the [Create New Issue form](../../grc-operational-res-ws/reference/create-new-issue-opres-ws.md).
+Create an issue. Follow the steps in the [Create New Issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-issue-opres-ws.md).
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

@@ -2,6 +2,7 @@
 title: Respond to an alert in Express List
 description: Run a response action to remediate an alert issue manually from the Express List pane.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/remediate-alert.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -25,7 +26,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon ![](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon \[Omitted image "express-list1.png"\].
 
 3.  Select the alert number to open it.
 

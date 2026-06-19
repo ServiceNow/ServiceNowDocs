@@ -2,6 +2,7 @@
 title: AI Gateway
 description: Explore the AI Gateway, its value, and learn how to use and configure it for your Model Context Protocol \(MCP\) transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-gateway-overview.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -19,11 +20,11 @@ Explore the AI Gateway, its value, and learn how to use and configure it for you
 
 The MCP is a standardized client-server protocol that enables AI applications to discover and interact seamlessly with external tools, data sources, and systems. MCP facilitates communication between an AI host application \(AI Agent Studio\), an MCP Client embedded in the host, and one or more MCP servers that expose specific capabilities such as tools.
 
-For more information on MCP, see [Model Context Protocol Client](https://www.servicenow.com/docs/bundle/zurich-intelligent-experiences/page/administer/model-context-protocol-client/reference/mcp-client.html).
+For more information on MCP, see [Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/mcp-client.md).
 
 ## AI Gateway overview
 
-AI Gateway enables governance, observability, and security for your MCP transactions. AI Gateway is designed to be platform agnostic, delivering the before-mentioned benefits both within \( AI Agent Studio\) and in an external agentic studios and hosts.
+AI Gateway enables governance, observability, and security for your MCP transactions. AI Gateway is designed to be platform agnostic, delivering the previously mentioned benefits both within \(AI Agent Studio\) and in external agentic studios and hosts.
 
 ## Why AI Gateway
 
@@ -71,8 +72,8 @@ If you're using any generative AI features, you already have access to AI Gatewa
 
 ## What to explore next
 
--   For information on the process flow of MCP servers, see [Process flow of MCP servers Via AI Gateway](process-flow-of-mcp-servers-via-ai-gateway.md).
--   For information on the **AI Gateway setup** tab, see [MCP server record](view-the-mcp-server-record.md)
--   For information on AI Gateway in the configuration page, see [AI Gateway](ai-gateway.md).
--   For information on the roles in AI Control Tower and their role with AI Gateway, see [AI Control Tower roles](../reference/roles-installed-with-ai-control-tower.md).
+-   For information on the process flow of MCP servers, see [Process flow of MCP servers Via AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/process-flow-of-mcp-servers-via-ai-gateway.md).
+-   For information on the **AI Gateway setup** tab, see [MCP server record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.md).
+-   For information on AI Gateway in the configuration page, see [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-gateway.md).
+-   For information on the roles in AI Control Tower and their role with AI Gateway, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md).
 

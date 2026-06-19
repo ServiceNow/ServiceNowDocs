@@ -2,6 +2,7 @@
 title: Delete all records from a table
 description: You may decide to delete all the records on a table without deleting the table itself. For example, the administrator may want to delete all incidents on a test instance without deleting the incident table itself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/t\_DeleteAllRecordsFromATable.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -23,8 +24,8 @@ Role required: admin
 
 When you prepare to delete many records from a table, consider the following guidelines to minimize impact on performance.
 
--   Limit the number of records to be deleted in a single delete action to prevent the table from being locked. Use the setLimit\(\) method described at [setLimit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
--   Minimize triggering an excessive number of business rules as a result of this deletion. Use the setWorkflow\(Boolean e\) method described at [setWorkflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+-   Limit the number of records to be deleted in a single delete action to prevent the table from being locked. Use the setLimit\(\) method described at setLimit.
+-   Minimize triggering an excessive number of business rules as a result of this deletion. Use the setWorkflow\(Boolean e\) method described at setWorkflow.
 
 **Note:** Deleting all records for a table also deletes records from tables that extend the table.
 
@@ -38,9 +39,9 @@ There are several methods for deleting table records. Depending on the number of
 
     2.  Select the table for which to delete records.
 
-        **Note:** If the table you want to delete records from belongs to a scoped application, select that application in the scope picker. Alternatively, configure scope-to-scope access. See [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/restricted-caller-access-privilege.md).
+        **Note:** If the table you want to delete records from belongs to a scoped application, select that application in the scope picker. Alternatively, configure scope-to-scope access. See .
 
-        ![Tables and Columns](../image/tables_and_columns.png)
+        \[Omitted image "tables\_and\_columns.png"\] Alt text: Tables and Columns
 
         **Note:** Some system tables do not allow this method of deleting records, for example, you cannot delete all user records \[sys\_user\]. The list of tables does not include system tables that you cannot delete records from.
 
@@ -67,5 +68,5 @@ There are several methods for deleting table records. Depending on the number of
 
 The selected table is empty of records. The table still exists, and any references to the table on other tables \(such as business rules or reference fields\) are preserved.
 
-**Parent Topic:**[Deleting custom tables](../concept/c_DeleteATable.md)
+**Parent Topic:**[Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DeleteATable.md)
 

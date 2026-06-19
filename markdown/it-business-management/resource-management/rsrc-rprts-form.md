@@ -2,6 +2,7 @@
 title: Resource Reports form
 description: Use the Resource Reports form to generate the resource reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rsrc-rprts-form.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -89,7 +90,7 @@ Role
 
 </td><td>
 
-The [resource role](../task/create-resource-role.md) from the selected group that you want to view the report for. This field is displayed only if you select **Group** in the **Entity Type** field and **Roles** in the **Group by** field.
+The [resource role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-role.md) from the selected group that you want to view the report for. This field is displayed only if you select **Group** in the **Entity Type** field and **Roles** in the **Group by** field.
 
 </td></tr><tr><td>
 
@@ -169,5 +170,5 @@ The unit in which capacity, availability, or allocation of a resource is display
 This field is displayed only when the **Report Type** field value is **Availability**, **Allocations**, or **Allocation Details**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP table join conditions field descriptions
 description: The Table join condition form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit join conditions for tables in an ERP model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-table-join-condition-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -20,7 +21,7 @@ Table joins link different tables through shared fields. Joins enable you to acc
 
 Join fields defines the common attribute or key used to connect records in a child table with their corresponding parent records.
 
-For process details, see [Add joins between ERP tables](../task/erp-canvas-add-join-data-model.md).
+For process details, see [Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md).
 
 <table id="table_alq_dmh_cyb"><thead><tr><th>
 
@@ -87,5 +88,5 @@ Statement operator
 Operator that defines the condition or comparison in your statement. The options are `AND` and `OR`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

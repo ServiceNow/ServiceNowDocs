@@ -2,6 +2,7 @@
 title: Log Viewer table fields
 description: This section describes the information displayed in the Log Viewer table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-op-log-viewer-table-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -87,7 +88,7 @@ Log message
 The raw log message without the header.
 
 </td></tr></tbody>
-</table>**Note:** The Raw message column does not appear in the Log Viewer table by default. You can display this column by selecting it from the **Filters** pane. For more information, see [Customize the Log Viewer table in Health Log Analytics](../task/hla-op-log-viewer-table-sow.md).
+</table>**Note:** The Raw message column does not appear in the Log Viewer table by default. You can display this column by selecting it from the **Filters** pane. For more information, see [Customize the Log Viewer table in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-log-viewer-table-sow.md).
 
-**Parent Topic:**[Health Log Analytics reference](../../health-log-analytics-admin/concept/hla-reference.md)
+**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-reference.md)
 

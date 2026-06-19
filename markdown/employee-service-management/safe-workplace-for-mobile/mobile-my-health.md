@@ -2,6 +2,7 @@
 title: View your health status in Now Mobile
 description: Use the Now Mobile app to view your health status record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-for-mobile/mobile-my-health.html
 release: australia
 product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
@@ -19,7 +20,7 @@ Use the Now Mobile app to view your health status record.
 
 Role required: none
 
-To access this content, you must have the [Now Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](../concept/emergency-self-report.md) application installed.
+To access this content, you must have the [Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report.md) application installed.
 
 ## About this task
 
@@ -41,16 +42,16 @@ The **My Current Health Status** screen displays the following information:-   U
 -   Use the **Health history** tab to see a history of your health status updates.
 -   Use the **Assigned tasks** tab to see the tasks assigned to you.
 -   Use the **Update status** button to change your health status.
--   If you're a manager, use the **Reassign all** action from the top menu icon ![Mobile menu icon.](../image/mobile-menu-icon.png) to reassign all your tasks.
+-   If you're a manager, use the **Reassign all** action from the top menu icon \[Omitted image "mobile-menu-icon.png"\] Alt text: Mobile menu icon. to reassign all your tasks.
 
 
 </td><td>
 
-![My Current Health Status screen.](../image/my-health-screen.jpg)
+\[Omitted image "my-health-screen.jpg"\] Alt text: My Current Health Status screen.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Safe Workplace for mobile](../concept/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 
-**Parent Topic:**[Safe Workplace for mobile](../concept/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 

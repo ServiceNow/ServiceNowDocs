@@ -2,6 +2,7 @@
 title: Managing incidents and tasks using My Work applet
 description: Use the My work applet in the ITSM mobile agent to perform various functions from the mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/my-work-application.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -22,5 +23,5 @@ As an agent, you can:
 -   Add work notes or comments, update incident details, assign incidents to other agents.
 -   Easily access change requests and request approvals.
 
-From the main screen of the agent mobile app, you can directly [create an incident](../task/create-incident-mobile.md) using a single click.
+From the main screen of the agent mobile app, you can directly [create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/create-incident-mobile.md) using a single click.
 

@@ -2,6 +2,7 @@
 title: Content not migrated or migrated in compatibility mode
 description: Most dashboard content is migrated to the new Platform Analytics experience. However, some visualizations, aspects of visualizations, filters, and configurations cannot be migrated. Dashboards with this content are migrated as embedded content \(iframes\), also known as compatibility mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-mig-unmigrated-content.html
 release: australia
 topic_type: reference
 last_updated: "2026-04-15"
@@ -24,14 +25,14 @@ Filters that are not migrated
 -   Debug filter
 -   Filter user preferences from dashboards
 -   Cascading filters that support the Choice &gt; Choice configuration
--   Filtered list content. For more information on List filters, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_CreatingFilters.md).
+-   Filtered list content. For more information on List filters, see .
 
 Visualization configurations that are not migrated:
 
 -   Restriction of dashboard access to specific roles.
 -   Group edit rights.
 
-    Reports that are shared to groups with edit rights only retain view rights when migrated. Open the migrated visualization in the library and share it with the group again. For more information, see [Share a data visualization in the Visualization Designer](../../reporting/task/share-dv-ac.md#).
+    Reports that are shared to groups with edit rights only retain view rights when migrated. Open the migrated visualization in the library and share it with the group again. For more information, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-dv-ac.md).
 
 -   In the context of bulk migration, visualizations that are used in one or more dashboards lose their header and color configurations. \(In Core UI, these are configured at the dashboard level; in Platform Analytics experience, they are configured at the visualization level.\)
 
@@ -63,7 +64,7 @@ Generic visualization configurations migrated in compatibility mode:
 -   Sort by dot-walked fields
 -   Reporting on variables/questions
 -   List default drilldown view configured in Report Designer
--   [Breakdown element](../../performance-analytics/concept/performance-analytics-glossary.md#) = empty for breakdowns based on choice field
+-   [Breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) = empty for breakdowns based on choice field
 -   Sort by Performance Analytics breakdown based on choice field order
 -   Single score with compare X period back
 -   Pivot scorecard support for element filter

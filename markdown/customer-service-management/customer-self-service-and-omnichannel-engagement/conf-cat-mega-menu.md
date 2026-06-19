@@ -2,6 +2,7 @@
 title: Configure the category of a Portal Mega Menu widget
 description: Configure a Portal Mega Menu widget to define a menu category and associate pages to it to be able to navigate easily to different pages from the portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/conf-cat-mega-menu.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ Configure a Portal Mega Menu widget to define a menu category and associate page
 
 ## Before you begin
 
-The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md).
+The UI Components for Customer Portals plugin must be installed. For more information, see [Activate the UI Components for Customer Portals plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-config-portal-widget.md).
 
 Role required: sp\_admin
 
@@ -29,7 +30,7 @@ Role required: sp\_admin
 
 3.  Select **Customer Service**.
 
-4.  On the Customer Service form, in the **Main menu** field, select the Preview this record icon \(![Preview this record icon](../image/preview-record-icon.jpg)\).
+4.  On the Customer Service form, in the **Main menu** field, select the Preview this record icon \(\[Omitted image "preview-record-icon.jpg"\] Alt text: Preview this record icon\).
 
     If a message appears about the application scope, select **here** to be able to edit the record.
 
@@ -43,7 +44,7 @@ Role required: sp\_admin
 
 9.  On the Menu item form, fill in the fields.
 
-    For a description of the field values, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/menu-item-form.md).
+    For a description of the field values, see .
 
 10. Select **Update**.
 

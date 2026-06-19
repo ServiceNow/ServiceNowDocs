@@ -2,6 +2,7 @@
 title: Regulatory list regulation form
 description: Chemical managers can use the regulatory list regulation form to create a regulation for the chemical substance manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-regulatory-list-regulation-form.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Environmental Management, Health and S
 
 Chemical managers can use the regulatory list regulation form to create a regulation for the chemical substance manually.
 
-If you have the integration with 3E regulatory intelligence, the regulatory list is retrieved with these fields automatically populated. For more information, see [Sync regulatory list regulations for a chemical substance](../task/hs-sync-regulatory-list-chemical-substance.md).
+If you have the integration with 3E regulatory intelligence, the regulatory list is retrieved with these fields automatically populated. For more information, see [Sync regulatory list regulations for a chemical substance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-sync-regulatory-list-chemical-substance.md).
 
 |Field|Description|
 |-----|-----------|
@@ -29,5 +30,5 @@ If you have the integration with 3E regulatory intelligence, the regulatory list
 |Numeric value|Numeric threshold or limit defined by the regulation. Use when the regulation condition is expressed as a number.|
 |Date value|Date on which the regulation parameter takes effect or expires. Accepts values in YYYY-MM-DD HH:mm:ss format.|
 
-**Parent Topic:**[Health and Safety Environmental Management reference](../../hs-environmental-management/concept/hs-reference-environmental-management.md)
+**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
 

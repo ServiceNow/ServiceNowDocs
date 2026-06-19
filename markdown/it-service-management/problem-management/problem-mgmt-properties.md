@@ -2,6 +2,7 @@
 title: Problem management properties
 description: Problem Management properties are used to control features such as creating problem task on a closed problem and reanalyzing a closed or a canceled problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-mgmt-properties.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -181,5 +182,5 @@ Allow problem creation from interactionglide.problem.interaction.allow\_create
 -   Default value: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference section for Problem Management](../concept/reference-section-for-problem-management.md)
+</table>**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
 

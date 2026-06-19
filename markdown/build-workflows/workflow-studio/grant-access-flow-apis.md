@@ -2,6 +2,7 @@
 title: Create a client callable flow, subflow, or action
 description: Enable a client script to trigger a flow, subflow, or action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/grant-access-flow-apis.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

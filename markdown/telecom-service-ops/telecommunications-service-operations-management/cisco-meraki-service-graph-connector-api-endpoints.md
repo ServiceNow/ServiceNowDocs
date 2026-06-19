@@ -2,11 +2,12 @@
 title: Cisco Meraki Service Graph Connector API Endpoints
 description: The Service Graph Connector for Meraki integrates Cisco Meraki Dashboard API data into ServiceNow AI PlatformConfiguration Management Database \(CMDB\). This document details the API endpoints used and how data flows through the system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/cisco-meraki-service-graph-connector-api-endpoints.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
@@ -234,5 +235,5 @@ Device inventory endpoint`URL: /organizations/{orgId}/inventory/devices`
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Service Operations Management reference](components-installed-with-tsom.md)
+</table>**Parent Topic:**[Telecommunications Service Operations Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/components-installed-with-tsom.md)
 

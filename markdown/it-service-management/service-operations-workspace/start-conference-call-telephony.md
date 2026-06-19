@@ -2,6 +2,7 @@
 title: Start and end a conference call from Twilio in Service Operations Workspace
 description: Start a conference call using Twilio to collaborate with others to work toward the resolution of an incident. End the call when the discussion is over.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/start-conference-call-telephony.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,13 +24,13 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(![List icon](../image/list-icon-new.png)\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select the incident record.
 
-5.  Select the **Collaborate** icon \(![Collaborate icon](../image/collab-icon-02.png)\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
 
 6.  Select the **Calls** tab, and then select the plus \(+\) icon.
 
@@ -81,5 +82,5 @@ Provide a brief summary about the issue to be discussed in the conference call.
     2.  From the **Leave call** drop-down menu, select **End call**.
 
 
-**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](../concept/telephony-sow.md)
+**Parent Topic:**[Use Twilio to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/telephony-sow.md)
 

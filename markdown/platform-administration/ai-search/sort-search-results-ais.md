@@ -2,6 +2,7 @@
 title: Change the sort order for your search results
 description: Choose the order in which AI Search displays results for your search. By default, the most relevant search results appear first. You can override this behavior and view search results ordered by their field values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/sort-search-results-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -42,5 +43,5 @@ Sorting enables you to view your search results in an order based on their field
     **Note:** The new sort order persists when you select facets or navigation filters. It resets to the default relevancy order when you start a new search by modifying the search query terms.
 
 
-**Parent Topic:**[Searching in AI Search](../concept/use-ais.md)
+**Parent Topic:**[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/use-ais.md)
 

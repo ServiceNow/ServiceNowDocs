@@ -2,6 +2,7 @@
 title: Install and configure the Mobile SDK scoped application
 description: Before writing any application that leverages the Mobile SDK, you must install and configure the Mobile SDK scoped application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-install\_config-sdk\_plugin.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to the Mobile SDK page on the ServiceNow Store web site.
 
-    For details, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
+    For details, see .
 
 2.  Select **Request Install** to download the Mobile SDK scoped application onto your ServiceNow instance.
 
@@ -35,13 +36,13 @@ Role required: admin
 
         A screen similar to the following should appear:
 
-        ![Verify Mobile SDK plugin](../../image/mobile_sdk-verify_plugin.png)
+        \[Omitted image "mobile\_sdk-verify\_plugin.png"\] Alt text: Verify Mobile SDK plugin
 
     3.  Verify that the plugin **Id** is `sn_mobile_sdk` and that the version is the latest.
 
 4.  Open the Mobile SDK Settings \[sn\_mobile\_sdk\] table and create a new application record for the application that will leverage the Mobile SDK.
 
-    ![Mobile SDK Settings form](../../image/mobile_sdk-sn_mobile_sdk-screen.png)
+    \[Omitted image "mobile\_sdk-sn\_mobile\_sdk-screen.png"\] Alt text: Mobile SDK Settings form
 
     1.  In the **Name** field, enter the name of your application that will leverage the Mobile SDK.
 
@@ -87,7 +88,7 @@ Role required: admin
 
         Ensure that the **Advanced** check box is unselected. This allows you to enter JSON in the **SDK Settings** field.
 
-        ![SDK settings](../../image/mobile_sdk-sn_mobile_sdk_settings.png)
+        \[Omitted image "mobile\_sdk-sn\_mobile\_sdk\_settings.png"\] Alt text: SDK settings
 
         Any applicable configuration added in **SDK Settings** is used in conjunction with the ServiceNow instance configuration.
 
@@ -103,7 +104,7 @@ Role required: admin
 
         A screen similar to the following appears:
 
-        ![Register analytics](../../image/mobile_sdk-register-analytics.png)
+        \[Omitted image "mobile\_sdk-register-analytics.png"\] Alt text: Register analytics
 
     3.  Select **Update** to save the registration.
 
@@ -122,7 +123,7 @@ Role required: admin
 
         The response should look similar to the following:
 
-        ![Verigy SDK settings](../../image/mobile_sdk-verify_SDK-Settings.png)
+        \[Omitted image "mobile\_sdk-verify\_SDK-Settings.png"\] Alt text: Verigy SDK settings
 
         The JSON **Response Body** should look similar to the following:
 

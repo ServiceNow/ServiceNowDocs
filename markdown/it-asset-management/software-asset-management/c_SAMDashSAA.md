@@ -2,6 +2,7 @@
 title: Software Asset Analytics dashboard
 description: View true-up costs and license, compliance, and removal summaries trend charts on the Software Asset Analytics dashboard integrated with Performance Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_SAMDashSAA.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -64,7 +65,7 @@ Product Results
 
 </td><td>
 
-Number of publishers that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](sam-license-workbench.md).
+Number of publishers that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +77,7 @@ Product Results
 
 </td><td>
 
-Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](sam-license-workbench.md).
+Number of products that have at least one software model out of compliance.Select the report to view the results in the [Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md).
 
 </td></tr><tr><td>
 
@@ -378,5 +379,5 @@ Removal Candidates Breakdown
 Active removal candidates in various breakdowns \(State, Publisher, Product, Justification, and Last Updated\).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](../../../use/dashboards/application-content-packs/software-asset-mgmt-content-pack.md)
+</table>**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

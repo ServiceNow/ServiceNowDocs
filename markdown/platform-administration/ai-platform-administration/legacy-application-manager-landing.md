@@ -1,0 +1,50 @@
+---
+title: Legacy Application Manager
+description: The information in this section describes using the legacy or classic application manager experience. A new Application Manager experience is now available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all your licensed applications, plugins, installed applications, and available updates. For more information, see Application Manager.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-platform-administration/legacy-application-manager-landing.html
+release: australia
+product: AI Platform Administration
+classification: ai-platform-administration
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Administering applications, Get started, Administer the ServiceNow AI Platform]
+---
+
+# Legacy Application Manager
+
+The information in this section describes using the legacy or classic application manager experience. A new Application Manager experience is now available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all your licensed applications, plugins, installed applications, and available updates. For more information, see Application Manager.
+
+## Get started
+
+**Note:**
+
+Legacy Application Manager is being deprecated. Starting with Australia patch 1, Legacy Application Manager is no longer available and bookmarks will redirect to the new Application Manager experience.
+
+A known issue affects the use of bookmarks to access the Legacy Application Manager before Australia patch 1. For details about possible issues with accessing the Legacy Application Manager, see the [Deprecated Classic App Manager URL usage causes issues on instances running ZP5 / YP10 and above \[KB2804238\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2804238) article in the Now Support knowledge base.
+
+A new Application Manager experience is available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all applications, plugins, installed applications, and available updates. For more information, see [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/application-manager.md).
+
+<table id="table_yyk_d4t_pdc" class="nav-card presentation"><tbody><tr><td>
+
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Explore Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/exploring-legacy-application-manager.md)
+
+</td><td>
+
+[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/using-legacy-application-manager.md)
+
+</td></tr></tbody>
+</table>## Troubleshoot and get help
+
+-   [Ask questions and explore other resources for Legacy Application Manger in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
+-   [Contact Customer Service and Support](https://support.servicenow.com/now)
+
+-   **[Exploring Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/exploring-legacy-application-manager.md)**  
+The information in this section describes using the legacy or classic application manager experience. A new Application Manager experience is now available. The new experience simplifies the process of managing your licensed applications by consolidating them in one convenient location, displaying all your licensed applications, plugins, installed applications, and available updates. For more information, see Application Manager.
+-   **[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/using-legacy-application-manager.md)**  
+Use legacy application manager to request applications or manage entitlements from your ServiceNow instance.
+
+**Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/administering-applications.md)
+

@@ -2,6 +2,7 @@
 title: Credentials troubleshooting
 description: Review the &lt;credentials\_debug&gt; section of the ECC queue payload to troubleshoot issues with credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/r\_CredentialTroubleshooting.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -19,7 +20,7 @@ Certain probes support credential debugging. Credential debugging inserts a `<cr
 
 The `<credentials_debug>` section appears in the payload if:
 
--   Credentials fail for [WMIRunner probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_WMIRunnerProbe.md), [PowerShell probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_PowershellProbe.md), [JMS](r_JMSCredentialsForm.md), or [SSHCommand probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_SSHCommandProbe.md).
+-   Credentials fail for WMIRunner probe, PowerShell probe, [JMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md), or SSHCommand probe.
 -   You set the **credentials\_debug** parameter to **true** for the WMIRunner, PowerShell, or SSHCommand probes. If you set the parameter to true, the `<credentials_debug>` section appears even if the credential lookup is successful.
 
 The `<credentials_debug>` section shows:
@@ -28,13 +29,13 @@ The `<credentials_debug>` section shows:
 -   The IP address targeted.
 -   Information about each credential \(in order\) that the MID Server used, including the type, classification, tag, name, Sys ID, and external credential ID if present.
 
-![Sample payload showing invalid credentials](../image/CredentialDebuggingPayload.png "Sample payload showing invalid credentials")
+\[Omitted image "CredentialDebuggingPayload.png"\] Alt text: Sample payload showing invalid credentials
 
 Details appear for the PowerShell parameter:
 
 -   If the local MID Server credentials were used after all the Windows credentials failed.
 -   If the credentials were skipped because you are trying to discover the same machine that the MID Server is on.
--   If the [mid.powershell.use\_credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md) parameter is set to `true`.
+-   If the mid.powershell.use\_credentials parameter is set to `true`.
 
 Details appear for the SSHCommand:
 

@@ -2,6 +2,7 @@
 title: Cloud Provisioning and Governance dashboards and reports
 description: Dashboards enable cloud admins and cloud users to view reports like cloud billing data and cloud tag usage.The Billing dashboard provides rich summary information on cloud usage, cost trends, and cost aggregates.The Tag dashboard shows all tagged resources. Use the Tag dashboard to see specific tag values for a group of resources such as stacks or virtual machines.Administrators can assign a budget for a group and a user within the group. When the user or group reaches the budget limit threshold, notifications are sent alerting them about it.You can configure budgets for groups and users within that group. You can set up a budget period for the group, allocate a budget limit to a group and to each user within that group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-dashboards.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -15,7 +16,7 @@ breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administratio
 
 Dashboards enable cloud admins and cloud users to view reports like cloud billing data and cloud tag usage.
 
-Demonstrates billing setup options for Cloud Provisioning and Governance.Follow this short video to learn more about Cloud Provisioning and Governance dashboards.
+Follow this short video to learn more about Cloud Provisioning and Governance dashboards.
 
 **Important:** Starting with the Australia release, the Billing dashboard is no longer available if you have downloaded the ServiceNow Store Cloud Cost Management app. The following changes occur:
 
@@ -41,7 +42,7 @@ Role required: sn\_cmp.cloud\_admin
 
     -   **Cost Trend**: A line graph showing daily costs over time for the selected **Usage Date**.
     -   **Cost Aggregate**: Total costs for each tag value for the selected **Group by** tag.
-    ![The Billing Dashboard](../image/billing-dashboard.png "Cloud Cost tab on the Billing dashboard")
+    \[Omitted image "billing-dashboard.png"\] Alt text: The Billing Dashboard
 
 2.  Perform any of the following actions to obtain the tag data you want on the report.
 
@@ -50,7 +51,7 @@ Role required: sn\_cmp.cloud\_admin
     |**Update the billing period**|Select a new option from the Usage Data choice list.|
     |**See data grouped by another tag**|Select a value in the **Group by** choice list under either chart.|
     |**Filter by tag values**|Select a tag value from the list.|
-    |**Save an image of a chart**|Point to either donut chart until the options icon \(![options icon](../image/icon-options.png)\) appears, and then select **Save as PNG** or **Save as JPEG**.|
+    |**Save an image of a chart**|Point to either donut chart until the options icon \(\[Omitted image "icon-options.png"\] Alt text: options icon\) appears, and then select **Save as PNG** or **Save as JPEG**.|
 
 3.  To view the areas with the highest level of spending, click the **Top Spends** tab.
 
@@ -60,7 +61,7 @@ Role required: sn\_cmp.cloud\_admin
 
     The list view of the cost records appear. You can view information such as usage quantity and specific cost per usage date.
 
-    ![Example cost records](../image/cost-records.png "Example cost records")
+    \[Omitted image "cost-records.png"\] Alt text: Example cost records
 
 
 ## View tagged resources on the Tag dashboard
@@ -77,7 +78,7 @@ Role required: sn\_cmp.cloud\_admin
 
     The **Tag Dashboard** tab displays the Tag dashboard where all tagged resources are broken down by tag.
 
-    ![The Tag dashboard](../image/tag-dashboard.png "The Tag dashboard")
+    \[Omitted image "tag-dashboard.png"\] Alt text: The Tag dashboard
 
 2.  Perform any of the following actions to obtain the tag data you want on the report.
 
@@ -85,14 +86,14 @@ Role required: sn\_cmp.cloud\_admin
     |----|------|
     |**See tag values for a specific resource group**|Click a section of the **Tagged Resources** donut chart.|
     |**See data grouped by another tag**|Select a value in the **Group by** choice list under the **Assigned Tag Values** donut chart.|
-    |**See updated data**|Point to the top of either chart until the refresh icon \(![refresh icon](../image/icon-refresh.png)\) appears, and then click the icon.|
-    |**Save an image of a chart**|Point to either chart until the options icon \(![options icon](../image/icon-options.png)\) appears, and then select **Save as PNG** or **Save as JPEG**.|
+    |**See updated data**|Point to the top of either chart until the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: refresh icon\) appears, and then click the icon.|
+    |**Save an image of a chart**|Point to either chart until the options icon \(\[Omitted image "icon-options.png"\] Alt text: options icon\) appears, and then select **Save as PNG** or **Save as JPEG**.|
 
 3.  To view a specific tag history record, click any section in the **Assigned Tag Values** chart.
 
     A list of tag histories appears that matches the CI class for the selected tag value.
 
-    ![A tag history record](../image/tag-history-record.png "A tag history record")
+    \[Omitted image "tag-history-record.png"\] Alt text: A tag history record
 
     |Field|Description|
     |-----|-----------|
@@ -120,7 +121,7 @@ Administrators can assign a budget for a group and a user within the group. When
 -   The budget-based notification and approval feature is no longer available if you are using the Cloud Cost Management app for cloud billing.
 -   You can only continue using the Budget Consumption feature if you are using Cloud Provisioning and Governance on a domain separated instance, or have switched back to the native Cloud Provisioning and Governance billing feature.
 
-Administrators can assign a budget \(in USD\) on a weekly, monthly, quarterly, or yearly basis. The budget set for a user and for a group are independent of each other. For example, a group consisting of five users can have a budget of $100 and each user in that group can be assigned a limit of 25 dollars. An organization decides on the frequency of the budget and all the groups in that organization follow the same frequency. For example, if an organization decides on a monthly budget, then all the groups and users in that organization follow a monthly budget. See [Configure budgets](cloud-dashboards.md#).
+Administrators can assign a budget \(in USD\) on a weekly, monthly, quarterly, or yearly basis. The budget set for a user and for a group are independent of each other. For example, a group consisting of five users can have a budget of $100 and each user in that group can be assigned a limit of 25 dollars. An organization decides on the frequency of the budget and all the groups in that organization follow the same frequency. For example, if an organization decides on a monthly budget, then all the groups and users in that organization follow a monthly budget. See [Configure budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-dashboards.md).
 
 A default budget is given to each new group and new user. A new group gets a default budget of $1000 and a new user gets a default budget of 100 dollars.
 

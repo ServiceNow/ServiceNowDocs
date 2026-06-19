@@ -2,6 +2,7 @@
 title: Related list conditions example
 description: Related list conditions enable you to include a relationship with another table in the filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/filter-dv-condition-builder-rel-list.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Related list conditions enable you to include a relationship with another table 
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -56,7 +57,7 @@ The easiest way to understand the parts of a related list condition is to use an
 
     The following image shows the example of filtering for problem records with more than two related incidents that are critical priority.
 
-    ![Condition builder's related list conditions tab with the operator, related list, and additional conditions filled in.](../../par-for-workspace/image/related-list-conditions-incident-filter-2.png)
+    \[Omitted image "related-list-conditions-incident-filter-2.png"\] Alt text: Condition builder's related list conditions tab with the operator, related list, and additional conditions filled in.
 
     **Note:** You cannot perform a keyword search in a related table condition.
 
@@ -69,5 +70,5 @@ The easiest way to understand the parts of a related list condition is to use an
 
 The Preview record list shows the records that match the conditions you've defined. Select **Add this source** to use the data source with the applied conditions in your visualization.
 
-**Parent Topic:**[Filter data visualizations with the condition builder](filter-dv-condition-builder.md)
+**Parent Topic:**[Filter data visualizations with the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-dv-condition-builder.md)
 

@@ -2,6 +2,7 @@
 title: Embedded Help roles
 description: Embedded help content can be targeted to users with a specified role who access the UI page. All roles that contain the role also see the content, unless another topic targeted to their role exists for the same page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/embedded-help-roles.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -87,8 +88,8 @@ The following list describes how content for different roles can be targeted for
     Explains what the user can review and modify in the Self-Service view of the Incident form.
 
 
--   **[Modify embedded help role priority](../task/modify-embedded-help-role-priority.md)**  
+-   **[Modify embedded help role priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/modify-embedded-help-role-priority.md)**  
 You can modify the default order of priority that is assigned to a role in the Embedded Help Role Priority \[sys\_embedded\_help\_role\] table. The priority order determines what embedded help content a user accesses on a UI page, based on roles assigned to the user.
 
-**Parent Topic:**[Embedded Help planning](embedded-help-planning.md)
+**Parent Topic:**[Embedded Help planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-planning.md)
 

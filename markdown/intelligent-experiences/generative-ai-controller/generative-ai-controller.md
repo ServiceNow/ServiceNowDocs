@@ -2,6 +2,7 @@
 title: Generative AI Controller
 description: Use Generative AI Controller to integrate third-party large language models \(LLMs\) with your workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/generative-ai-controller.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -22,19 +23,19 @@ Get started with Generative AI Controller to integrate directly with external LL
 
 <table id="table_uc5_2v3_wwb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Explore Generative AI concepts and terminology.](exploring-generative-ai-controller.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Generative AI concepts and terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/exploring-generative-ai-controller.md)
 
 </td><td>
 
-[Configure ![](../../predictive-intelligence/images/icon-configure-pi.png) Configure Generative AI Controller provider capabilities.](../task/configure-generative-ai-controller.md)
+[Configure \[Omitted image "icon-configure-pi.png"\] Alt text: Configure Generative AI Controller provider capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-generative-ai-controller.md)
 
 </td></tr><tr><td>
 
-Use ![](../../../reuse/icons/brand-icons/bus-artificial-intelligence.svg) Use Generative AI Controller provider capabilities.
+[Reference \[Omitted image "icon-references-pi.png"\] Alt text: Reference for Generative AI Controller.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md)
 
 </td><td>
 
-[Reference ![](../../predictive-intelligence/images/icon-references-pi.png) Reference for Generative AI Controller.](../reference/reference-for-generative-ai-controller.md)
+ 
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -53,5 +54,5 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](../../now-assist-admin/task/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/opt-out-of-data-sharing-for-now-assist.md).
 

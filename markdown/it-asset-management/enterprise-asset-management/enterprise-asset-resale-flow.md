@@ -2,6 +2,7 @@
 title: Create an asset resale flow
 description: Create an asset resale flow for an asset to be resold in order to reduce waste and save cost.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/enterprise-asset-resale-flow.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

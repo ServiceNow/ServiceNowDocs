@@ -2,6 +2,7 @@
 title: Associate cost centers to a budget
 description: You create cost centers and associate budgets and expense allocations with them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/t\_ManageABudgetsCostCenters.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -30,5 +31,5 @@ Role required: financial\_mgmt\_admin
 4.  Use the New button to create a new cost center record.
 
 
-**Parent Topic:**[Budgets and cost centers](../concept/c_BudgetsAndCostCenters.md)
+**Parent Topic:**[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
 

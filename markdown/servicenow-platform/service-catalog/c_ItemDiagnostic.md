@@ -2,6 +2,7 @@
 title: Item diagnostic report
 description: For a catalog item data and configuration, you can identify possible violations from the ServiceNow recommended practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ItemDiagnostic.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -107,11 +108,11 @@ Checks if the item has the following variable types:-   Macro
 -   Macro with label
 -   UI Page
 
- For information on the variable availability across various channels, see [Variable support in various channels](../reference/variables-availability.md).
+ For information on the variable availability across various channels, see [Variable support in various channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/variables-availability.md).
 
 </td></tr></tbody>
-</table>-   **[Run the Item Diagnostic Results report](../task/run-item-diag-results.md)**  
+</table>-   **[Run the Item Diagnostic Results report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/run-item-diag-results.md)**  
 Identify the catalog items that are not designed per ServiceNow recommended practices to run your catalog efficiently.
 
-**Parent Topic:**[Debugging Service Catalog](debugging-service-catalog.md)
+**Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/debugging-service-catalog.md)
 

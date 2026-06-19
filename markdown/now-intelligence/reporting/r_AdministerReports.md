@@ -2,6 +2,7 @@
 title: Report Administration module
 description: Learn how to administer reports on the ServiceNow platform using the Reports Administration module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/r\_AdministerReports.html
 release: australia
 product: Reporting
 classification: reporting
@@ -15,7 +16,7 @@ breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Perfor
 
 Learn how to administer reports on the ServiceNow platform using the **Reports** &gt; **Administration** module.
 
-This module is not enabled by default, and must be activated. For a list of the reporting roles delivered with the ServiceNow platform, see [Reporting roles](reporting-roles.md#).
+This module is not enabled by default, and must be activated. For a list of the reporting roles delivered with the ServiceNow platform, see [Reporting roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/reporting-roles.md).
 
 **Note:** Restricting a report by role restricts who can view a report. Users without the admin role cannot edit global reports. If a non-admin user edits a global report, saving that report creates a personalized version belonging to that user
 
@@ -25,7 +26,7 @@ You can select the table and field on which to report and the characteristics of
 
 ## Report Security
 
-The Report Security enforce access control checks plugin allows administrators to use access control list \(ACL\) rules to restrict report access. This functionality prevents unauthorized users from editing, updating, or deleting reports either through the UI or through a URL construct. See [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md) for more information.
+The Report Security enforce access control checks plugin allows administrators to use access control list \(ACL\) rules to restrict report access. This functionality prevents unauthorized users from editing, updating, or deleting reports either through the UI or through a URL construct. See Access control list rules for more information.
 
 ## Available Report Fields
 
@@ -69,7 +70,7 @@ Type
 
 </td><td>
 
-The [report type](report-types-creation-details-rd.md) for this report.
+The [report type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md) for this report.
 
 </td></tr><tr><td>
 
@@ -153,7 +154,7 @@ Interval
 
 </td><td>
 
-For [Trend](../concept/c_CreateTrendCharts.md#) or [Trendbox](../concept/c_CreatingTrendboxCharts.md#) charts, the interval of time to measure along.
+For [Trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateTrendCharts.md) or [Trendbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreatingTrendboxCharts.md) charts, the interval of time to measure along.
 
 </td></tr><tr><td>
 
@@ -201,7 +202,7 @@ Sumfield
 
 </td><td>
 
-The field to perform a sum on for [Trend](../concept/c_CreateTrendCharts.md#) or [Trendbox](../concept/c_CreatingTrendboxCharts.md#) Charts.
+The field to perform a sum on for [Trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateTrendCharts.md) or [Trendbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreatingTrendboxCharts.md) Charts.
 
 </td></tr><tr><td>
 
@@ -209,8 +210,8 @@ Trend Field
 
 </td><td>
 
-The field to track over time for [Trend](../concept/c_CreateTrendCharts.md#) or [Trendbox](../concept/c_CreatingTrendboxCharts.md#) Charts.
+The field to track over time for [Trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreateTrendCharts.md) or [Trendbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_CreatingTrendboxCharts.md) Charts.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administering reports](../concept/c_AdminsteringReports.md)
+</table>**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 

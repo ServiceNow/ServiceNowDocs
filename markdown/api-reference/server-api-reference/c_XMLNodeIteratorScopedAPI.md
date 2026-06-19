@@ -2,6 +2,7 @@
 title: XMLNodeIterator - Scoped
 description: The XMLNodeIterator API provides methods to iterate through a node of a XML document.Returns true if the iteration has more elements.Gets the next element in the iteration. The returned element may be a \#text node for the spaces/tabs if XML is "pretty formatted".
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_XMLNodeIteratorScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The XMLNodeIterator API provides methods to iterate through a node of a XML document.
 
-There are no constructors for creating a stand alone instance of a XMLNodeIterator object. To create a XMLNodeIterator object use the getChildNodeIterator\(\) method of the [XMLNode object](../../XMLNodeScopedAPI/concept/c_XMLNodeScopedAPI.md#).
+There are no constructors for creating a stand alone instance of a XMLNodeIterator object. To create a XMLNodeIterator object use the getChildNodeIterator\(\) method of the [XMLNode object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_XMLNodeScopedAPI.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## XMLNodeIterator - hasNext\(\)
 

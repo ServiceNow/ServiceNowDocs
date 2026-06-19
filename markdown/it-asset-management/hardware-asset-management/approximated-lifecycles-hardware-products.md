@@ -2,13 +2,14 @@
 title: Approximated lifecycle and lifecycle code
 description: Leverage the expanded lifecycle coverage for hardware and consumable models available in the ServiceNow Content library portal when explicit dates from the manufacturer aren’t available. Hardware models with approximated lifecycle dates contain a lifecycle code that indicates the dates are approximate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/approximated-lifecycles-hardware-products.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 ---
 
 # Approximated lifecycle and lifecycle code

@@ -2,6 +2,7 @@
 title: OCSeriesEventGenerator - Global
 description: The OCSeriesEventGenerator script include provide methods to generate the repeating VEVENTS for a user's iCalendar.Returns an array of the repeating on-call events.Returns an array of VEVENTs that represent the on-call for the provided rotaScheduleSpanGR and the memberScheduleSpanGR.Returns an array of the repeating on-call VEVENTS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_OCSeriesEventGeneratorAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OCSeriesEventGenerator script include provide methods to generate the repeating VEVENTS for a user's iCalendar.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## OCSeriesEventGenerator - getMemberCalendar \(String groupId, String rotaId, String userId, Object dateRangeObj, Object memberSchedules, String calendarLink\)
 

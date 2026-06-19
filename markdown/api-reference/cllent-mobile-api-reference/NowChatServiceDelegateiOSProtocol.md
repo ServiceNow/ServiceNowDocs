@@ -2,6 +2,7 @@
 title: NowChatServiceDelegate protocol - iOS
 description: The NowChatServiceDelegate protocol provides callbacks for notification of actions within the NowChatService such as a request to open a URL or dismiss the chat view controller.Callback that notifies the host application that the specified chat service received a request to open a URL. This callback is usually triggered by a user tapping on a link in the chat UI. It is the host application's responsibility to handle opening the URL or ignore the request.Callback that notifies the host application that the system chat theme changed.Callback that notifies the host application that the chat view controller was dismissed.Called when the chat screen is closed and the chat session ends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowChatServiceDelegateiOSProtocol.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 The NowChatServiceDelegate protocol provides callbacks for notification of actions within the NowChatService such as a request to open a URL or dismiss the chat view controller.
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowChatServiceDelegate - chatService\(\_chatService: NowChatService, didRequestOpenUrlurl: URL\)
 
@@ -23,7 +24,7 @@ Callback that notifies the host application that the specified chat service rece
 
 |Name|Type|Description|
 |----|----|-----------|
-|chatService|[NowChatService](../../NowChatService/concept/NowChatServiceiOSAPI.md#)|NowChatService object making the request.|
+|chatService|[NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md)|NowChatService object making the request.|
 |didRequestOpenUrl url|URL|URL that the service has requested to open.|
 
 |Type|Description|
@@ -46,7 +47,7 @@ Callback that notifies the host application that the system chat theme changed.
 
 |Name|Type|Description|
 |----|----|-----------|
-|chatService|[NowChatService](../../NowChatService/concept/NowChatServiceiOSAPI.md#)|NowChatService object making the request.|
+|chatService|[NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md)|NowChatService object making the request.|
 |traitCollection|[UITraitCollection](https://developer.apple.com/documentation/uikit/uitraitcollection)|UITraitCollection that contains the new theme.|
 
 |Type|Description|
@@ -70,7 +71,7 @@ Callback that notifies the host application that the chat view controller was di
 
 |Name|Type|Description|
 |----|----|-----------|
-|chatService|[NowChatService](../../NowChatService/concept/NowChatServiceiOSAPI.md#)|NowChatService object whose view controller was dismissed.|
+|chatService|[NowChatService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md)|NowChatService object whose view controller was dismissed.|
 
 |Type|Description|
 |----|-----------|

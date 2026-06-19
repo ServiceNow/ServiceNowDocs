@@ -2,6 +2,7 @@
 title: Service Graph Connector for Microsoft Defender for IoT \(Azure\)
 description: Integrate Microsoft Defender for IoT with the ServiceNow Operational Technology Manager application to automate import of OT devices and sensor appliances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/integration-sgc-microsoft-defender-iot-azure.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -32,11 +33,11 @@ You can use the Service Graph Connector for Microsoft Defender for IoT \(Azure\)
 
 ## Guided setup
 
-The guided setup for the Service Graph Connector for Microsoft Defender for IoT \(Azure\) provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure guided setup](../task/configuring-sgc-microsoft-d4iot-azure.md).
+The guided setup for the Service Graph Connector for Microsoft Defender for IoT \(Azure\) provides an organized sequence of tasks to configure the integration on your instance. To access the guided setup, see [Configure guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-azure.md).
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md#section_fxg_lh4_blb).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see .
 
 ## Data mapping
 
@@ -99,20 +100,20 @@ The imported data from the staging tables is then inserted into the following ta
 -   Uninterruptible Power Supply \(UPS\) \[cmdb\_ci\_ups\]
 -   Wireless Access Point \[cmdb\_ci\_wap\_network\]
 
-For more information on where data is saved when pulling data from a Microsoft Defender for IoT \(Azure\) project, see [CMDB classes targeted](../reference/sgc-microsoft-d4iot-azure-classes.md).
+For more information on where data is saved when pulling data from a Microsoft Defender for IoT \(Azure\) project, see [CMDB classes targeted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-microsoft-d4iot-azure-classes.md).
 
--   **[Configure the Service Graph Connector for Microsoft Defender for IoT \(Azure\)](../task/configuring-sgc-microsoft-d4iot-azure.md)**  
+-   **[Configure the Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-microsoft-d4iot-azure.md)**  
 Use the guided setup for the Service Graph Connector for Microsoft Defender for IoT \(Azure\) to lead you through the integration steps.
--   **[Validate NIDS sensors](../task/validate-nids-appliances-sgc-msft-d4iot-azure.md)**  
+-   **[Validate NIDS sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/validate-nids-appliances-sgc-msft-d4iot-azure.md)**  
 Validate the Network IDS \(NIDS\) sensors once they're imported to prepare for the device import. Sensors only pass the validation if they aren't in learning mode as such sensors are not eligible for device import.
--   **[Accessing the connection details of the Service Graph Connector for Microsoft Defender for IoT \(Azure\)](sgc-cmdb-msft-d4iot-azure.md#)**  
+-   **[Accessing the connection details of the Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-cmdb-msft-d4iot-azure.md)**  
 You can access the connection details of the Service Graph Connector for Microsoft Defender for IoT \(Azure\) in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.
--   **[Import OT devices using the Standard mode of discovery](../task/actively-scan-device-data-msft-azure.md)**  
+-   **[Import OT devices using the Standard mode of discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/actively-scan-device-data-msft-azure.md)**  
 Use the Service Graph Connector for Microsoft Defender for IoT \(Azure\) to import Operational Technology \(OT\) devices discovered through the Standard mode of discovery from Microsoft Defender for IoT.
--   **[CMDB classes targeted in the Service Graph Connector for Microsoft Defender for IoT \(Azure\)](../reference/sgc-microsoft-d4iot-azure-classes.md)**  
+-   **[CMDB classes targeted in the Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-microsoft-d4iot-azure-classes.md)**  
 When you complete the guided setup, you can configure the integration to periodically pull data from a Service Graph Connector for Microsoft Defender for IoT \(Azure\) \(Azure\) project. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
--   **[Attribute mapping and classification for Service Graph Connector for Microsoft Defender for IoT \(Azure\)](../reference/attribute-mapping-sgc-msft-d4iot-azure.md)**  
+-   **[Attribute mapping and classification for Service Graph Connector for Microsoft Defender for IoT \(Azure\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/attribute-mapping-sgc-msft-d4iot-azure.md)**  
 The following tables describe the attribute mapping and classification for sensors and devices.
 
-**Parent Topic:**[Operational Technology Manager Integrations](otm_integrations.md)
+**Parent Topic:**[Operational Technology Manager Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/otm_integrations.md)
 

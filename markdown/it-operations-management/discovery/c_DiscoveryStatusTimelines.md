@@ -2,6 +2,7 @@
 title: Discovery timelines
 description: A Discovery timeline generates a graphical display of a Discovery Status record, including information about each probe and sensor that was used in the discovery.A Discovery Timeline generates a graphical display of a Discovery Status record, including information about each probe, sensor, and pattern running.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/c\_DiscoveryStatusTimelines.html
 release: australia
 product: Discovery
 classification: discovery
@@ -17,7 +18,7 @@ A Discovery timeline generates a graphical display of a Discovery Status record,
 
 Use Discovery timelines to display the following:
 
--   The flow of [probes and sensors](c_DiscoveryProbesAndSensors.md), including those that are used with [patterns](c-UsingPatternsForHorizontalDiscovery.md#) through a discovery.
+-   The flow of [probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md), including those that are used with [patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) through a discovery.
 -   The duration of each probe and sensor that ran during a discovery, and the proportion of time required for queuing and processing.
 -   Tooltips containing additional data about a probe and sensor.
 -   Records from the ECC Queue.
@@ -30,11 +31,11 @@ View timelines for an entire discovery or for individual devices in a discovery.
 
 This example shows the Discovery timeline for the first two phases of Discovery \(Port scan and Classification\):
 
-![Discovery early phases on the timeline](../image/disco-timeline-early-phases.png "Discovery (early phases) on the timeline")
+\[Omitted image "disco-timeline-early-phases.png"\] Alt text: Discovery early phases on the timeline
 
 In this example, the Shazzam probe and sensor run, followed by the Unix classifier probe and sensor. The classifier calls the Horizontal Pattern probe, which runs a specific pattern.
 
-**Parent Topic:**[Discovery status](c_DiscoveryStatus.md)
+**Parent Topic:**[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md)
 
 ## View the Discovery timeline
 
@@ -62,7 +63,7 @@ Role required: discovery\_admin or admin
 
     The Discovery timeline for that device appears.
 
-    ![Discovery Timeline](../image/DiscoveryTimeline.png "Discovery Timeline")
+    \[Omitted image "DiscoveryTimeline.png"\] Alt text: Discovery Timeline
 
 7.  Use the pink slider at the bottom of the timeline to change the perspective.
 
@@ -86,12 +87,12 @@ Role required: discovery\_admin or admin
 
     Sensor spans are red, and the queue time is shown as a green bar. Selected spans of any type display in yellow.
 
-    ![Discovery Timeline Shazzam Sensor](../image/DiscoveryTimelineShazzamSensor.png "Discovery Timeline Shazzam Sensor")
+    \[Omitted image "DiscoveryTimelineShazzamSensor.png"\] Alt text: Discovery Timeline Shazzam Sensor
 
     ECC Queue
 
     Double-click a span to open the ECC Queue record for that probe or sensor.
 
-    ![Discovery Timeline ECC Queue](../image/DiscoveryTimelineECCQueue.png "Discovery Timeline ECC Queue")
+    \[Omitted image "DiscoveryTimelineECCQueue.png"\] Alt text: Discovery Timeline ECC Queue
 
 

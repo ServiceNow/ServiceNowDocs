@@ -2,13 +2,14 @@
 title: Create and manage pages and subpages for demands
 description: Flexibly organize information for your planning items by creating, duplicating, and deleting pages and subpages in Next Experience for Demand Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/create-and-manage-pages-for-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Docs for demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Collaborate with Docs, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create and manage pages and subpages for demands
@@ -26,21 +27,21 @@ Role required:
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Docs** from the L-2 \(level 2\) navigation menu.
 
 3.  Create or manage docs in any of the following ways.
 
-<table id="choicetable_gqz_hvb_j3c"><thead><tr><th align="left" id="d308574e112">
+<table id="choicetable_gqz_hvb_j3c"><thead><tr><th align="left" id="d301881e115">
 
 Action
 
-</th><th align="left" id="d308574e115">
+</th><th align="left" id="d301881e118">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d308574e121">
+</th></tr></thead><tbody><tr><td id="d301881e124">
 
 **Create a blank page**
 
@@ -48,7 +49,7 @@ Procedure
 
 Select **Create page**.The new page is created and added to your Doc with the name **Untitled**, which you can rename.
 
-</td></tr><tr><td id="d308574e138">
+</td></tr><tr><td id="d301881e141">
 
 **Create a page from templates**
 
@@ -56,54 +57,54 @@ Select **Create page**.The new page is created and added to your Doc with the na
 
 1.  Select **Create Page from template**.
 
-![Create Page from template](../../spw-eap/images/eap-doc-create-from-template.png)
+\[Omitted image "eap-doc-create-from-template.png"\] Alt text: Create Page from template
 
 2.  Select a template from the Template Center and select **Use**.
 
-![Doc templates list.](../../alignment-planner-workspace/images/spw-doc-templates-list.png)
+\[Omitted image "spw-doc-templates-list.png"\] Alt text: Doc templates list.
 
-</td></tr><tr><td id="d308574e174">
+</td></tr><tr><td id="d301881e177">
 
 **Create a subpage**
 
 </td><td>
 
-Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/eap-doc-page-actions-icon.png)\) and select **Create subpage**.![Create subpage for a Doc in Portfolio Planning.](../../spw-eap/images/eap-doc-create-subpage.png)
+Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Create subpage**.\[Omitted image "eap-doc-create-subpage.png"\] Alt text: Create subpage for a Doc in Portfolio Planning.
 
-</td></tr><tr><td id="d308574e201">
+</td></tr><tr><td id="d301881e204">
 
 **Delete a page or subpage**
 
 </td><td>
 
-Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/eap-doc-page-actions-icon.png)\) and select **Delete**.
+Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Delete**.
 
-</td></tr><tr><td id="d308574e223">
+</td></tr><tr><td id="d301881e226">
 
 **Duplicate a page**
 
 </td><td>
 
-Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/eap-doc-page-actions-icon.png)\) and select **Duplicate page**.
+Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Duplicate page**.
 
-</td></tr><tr><td id="d308574e244">
+</td></tr><tr><td id="d301881e247">
 
 **Apply template to a page**
 
 </td><td>
 
-1.  Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/eap-doc-page-actions-icon.png)\) and select **Apply template**.
+1.  Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Apply template**.
 2.  Select a template from the Template Center and select **Use**.
 
-![Doc templates list.](../../alignment-planner-workspace/images/spw-doc-templates-list.png)
+\[Omitted image "spw-doc-templates-list.png"\] Alt text: Doc templates list.
 
-</td></tr><tr><td id="d308574e283">
+</td></tr><tr><td id="d301881e286">
 
 **Save a page as a template**
 
 </td><td>
 
-1.  Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/eap-doc-page-actions-icon.png)\) and select **Save as template**.
+1.  Select the **Page Actions** menu \(\[Omitted image "eap-doc-page-actions-icon.png"\] Alt text: Page Actions icon.\) and select **Save as template**.
 2.  Provide a name and description for the template.
 3.  Select whether the template is public or private.
 4.  Select **Save**.

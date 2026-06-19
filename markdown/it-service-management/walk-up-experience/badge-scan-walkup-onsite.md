@@ -2,6 +2,7 @@
 title: Badge Reader Integration for Walk-up Experience
 description: Improve Walk-up Experience user satisfaction by using the Badge Reader Integration application at your on-site walk-up queue locations. Walk-up Experience users can scan an employee badge to check in to a queue, rather than entering credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/badge-scan-walkup-onsite.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -115,12 +116,12 @@ The Badge Reader Integration application is not an authentication mechanism. It 
 
 ## Badge Scanner Integration scan logs
 
-You can view the Badge Scanner Integration scan logs and fix the errors to connect to the badge reader. For more information, see [View Badge Scanner Integration scan logs](../task/view-badge-read-integ-scan-logs.md).
+You can view the Badge Scanner Integration scan logs and fix the errors to connect to the badge reader. For more information, see [View Badge Scanner Integration scan logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/view-badge-read-integ-scan-logs.md).
 
--   **[Activate Badge Reader Integration](../task/activate-badge-reader-integration.md)**  
+-   **[Activate Badge Reader Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/activate-badge-reader-integration.md)**  
 You can activate the Badge Reader Integration plugin \(com.snc.badge\_reader\) if you have the Badge sn\_badge.badge\_admin role.
--   **[Walk-up Experience Badge Reader Integration setup and configuration](walkup-badge-read-integ-config.md)**  
+-   **[Walk-up Experience Badge Reader Integration setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-badge-read-integ-config.md)**  
 Badge Reader Integration set up and configuration enables your on-site Walk-up Experience users to scan a badge to quickly check into the queue.
 
-**Parent Topic:**[Configuring Walk-up Experience](walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

@@ -2,11 +2,14 @@
 title: Edit API settings
 description: Edit the API settings for the Discovery Console for OT to generate active tokens, remove denied tokens, or view the available API endpoints needed to communicate with the Service Graph Connector \(SGC\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-api-settings-console.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Discovery Console for OT API, Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Discovery Console for OT API, Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit API settings
@@ -31,13 +34,13 @@ The SGC has been enhanced to enable these functions of the Discovery Console for
 4.  Generate an API token.
 
     1.  Select the **Active Tokens** tab.
-    2.  Select the add icon ![](../image/add-icon-msi.jpg).
+    2.  Select the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:.
     3.  In the Generate API Token window, select the expiration date.
     4.  Select **Generate Token**.
 5.  Remove denied tokens.
 
     1.  Select the **Denied Tokens** tab.
-    2.  Next to the API token that you want to remove, select the **Remove Token** ![](../image/remove-token-icon-msi.png) icon.
+    2.  Next to the API token that you want to remove, select the **Remove Token** \[Omitted image "remove-token-icon-msi.png"\] Alt text: icon.
 6.  View the available endpoints.
 
     The endpoints are listed in columns by name, method, and their URI. The following endpoints are available for the Discovery Console for OT.
@@ -52,11 +55,11 @@ The SGC has been enhanced to enable these functions of the Discovery Console for
     -   **Sensor Health**
     -   **License Status**: Returns the status of the license and whether it is expired, to the Discovery Console for OT.
     -   **Notifications**
-    ![Endpoints](../../operational-technology-discovery/images/settings-endpoints.png)
+    \[Omitted image "settings-endpoints.png"\] Alt text: Endpoints
 
     1.  Select the **Endpoints** tab.
 
-    2.  Select the copy icon \(![](../../operational-technology-discovery/images/copy-icon.png)\) to copy the endpoint.
+    2.  Select the copy icon \(\[Omitted image "copy-icon.png"\] Alt text:\) to copy the endpoint.
 
     3.  The data is matched to the API.
 

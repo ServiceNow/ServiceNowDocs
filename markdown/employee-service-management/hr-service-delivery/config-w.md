@@ -2,6 +2,7 @@
 title: Configure Workday to-dos
 description: Store one-time configuration parameters to pull tasks from Workday into the ServiceNow application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-w.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

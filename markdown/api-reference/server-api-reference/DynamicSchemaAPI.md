@@ -2,6 +2,7 @@
 title: DynamicSchemaAPI - Global
 description: The DynamicSchemaAPI provides methods to clear the various caches used by the dynamic schema implementation.Clears the entire dynamic category cache \(DynamicCategoryCache\).Clears the entire dynamic choice set cache \(DynamicChoiceSets\).Clears the DynamicAttributeGroups and DynamicAttributes caches.Clears the specified dynamic attribute group from the DynamicAttributeGroup cache.Clears a specified dynamic schema category from the DynamicCategoryCache.Clears a specified dynamic schema choice set from the DynamicChoiceSets cache.Returns the DynamicSchemaAPI singleton.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DynamicSchemaAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,9 +20,9 @@ You must have the dynamic\_schema\_writer role to execute any of the clear\(\) m
 
 **Note:** You shouldn't need to call the clear\(\) methods in a production environment. Use these methods when you are troubleshooting your implementation if you think there is a possible caching problem causing stale data.
 
-See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-schema.md).
+See also .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## DynamicSchemaAPI - clearDynamicCategoryCache\(\)
 

@@ -2,6 +2,7 @@
 title: Contextual search properties
 description: Contextual search properties are used to control the fields that you can search from and the number of results displayed per page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/contextual-search-properties.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -95,8 +96,8 @@ Show meta data on form contextual search results \[com.snc.contextual\_search.wi
 
 </td><td>
 
-When the value is set to true, each search result includes additional metadata below each result record. By default, the property is set to true. -   For Knowledge articles, you configure the metadata fields to display by modifying Knowledge search properties. As an example, you can display the article's author, article number, and knowledge base name. For details on Knowledge search properties, see [Knowledge Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
--   Configure the search result display fields for other resources by editing search result display configurations. For details on search result display configuration settings, see [Edit search resource display field record](../task/edit-addi-resources-field.md).
+When the value is set to true, each search result includes additional metadata below each result record. By default, the property is set to true. -   For Knowledge articles, you configure the metadata fields to display by modifying Knowledge search properties. As an example, you can display the article's author, article number, and knowledge base name. For details on Knowledge search properties, see Knowledge Management properties.
+-   Configure the search result display fields for other resources by editing search result display configurations. For details on search result display configuration settings, see [Edit search resource display field record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/edit-addi-resources-field.md).
 
 </td></tr><tr><td>
 
@@ -113,5 +114,5 @@ To review this property in the System Properties \[sys\_properties\] table, ente
 **Note:** The contextual search window is displayed in the core UI.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring contextual search](../concept/configuring-contextual-search.md)
+</table>**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/configuring-contextual-search.md)
 

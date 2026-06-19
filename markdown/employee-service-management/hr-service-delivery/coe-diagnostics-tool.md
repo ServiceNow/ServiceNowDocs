@@ -2,6 +2,7 @@
 title: Use COE Security Diagnostics
 description: Enable HR administrators to determine how the COE \(HR Centers of Excellence\) security policies are evaluated for HR agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/coe-diagnostics-tool.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -22,7 +23,7 @@ Role required: sn\_hr\_core.admin
 **Note:** COE security diagnostics:
 
 -   should not be used to find the overall access of a case for a given HR agent. It should only be used for analyzing how COE security policies are evaluated.
--   does not cover all access scenarios and may differ from actual access results. For example, Opened for, Opened by, Watch List, and Collaborators get access to an HR case irrespective of its security policies. Use [Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-analyzer.md) for complete access analysis and accurate results.
+-   does not cover all access scenarios and may differ from actual access results. For example, Opened for, Opened by, Watch List, and Collaborators get access to an HR case irrespective of its security policies. Use  for complete access analysis and accurate results.
 -   For Frequently Asked Questions \(FAQs\), see [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2757698).
 
 ## Procedure
@@ -133,5 +134,5 @@ Result
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[HR service categorization](hr-service-categorization.md)
+**Parent Topic:**[HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-categorization.md)
 

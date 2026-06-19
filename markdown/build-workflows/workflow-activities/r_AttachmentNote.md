@@ -2,6 +2,7 @@
 title: Attachment Note workflow activity
 description: The Attachment Note activity adds an attachment to the current record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_AttachmentNote.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -72,5 +73,5 @@ Attachment Data
 The content of the .txt file attachment. It can be in plain text or use variables to extract specific data from a table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Task workflow activities](r_TaskActivities.md)
+</table>**Parent Topic:**[Task workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/r_TaskActivities.md)
 

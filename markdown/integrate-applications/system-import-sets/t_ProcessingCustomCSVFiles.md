@@ -2,6 +2,7 @@
 title: Processing custom CSV files
 description: You can process CSV files that are delimited by a character other than commas.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_ProcessingCustomCSVFiles.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -35,6 +36,6 @@ This is an advanced step to create a CSV import. Normally, you would upload the 
 
 5.  Test load the data source.
 
-    ![Data source](../image/csv-alternate-delimiter.png)
+    \[Omitted image "csv-alternate-delimiter.png"\] Alt text: Data source
 
 

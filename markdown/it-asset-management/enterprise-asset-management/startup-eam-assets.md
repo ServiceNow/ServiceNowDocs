@@ -2,6 +2,7 @@
 title: Start up enterprise assets after maintenance activities
 description: Move assets of a startup work order task to the In use state to indicate that the assets are available for use after maintenance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/startup-eam-assets.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

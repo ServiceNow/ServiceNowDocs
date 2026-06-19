@@ -2,6 +2,7 @@
 title: Import models and templates in JSON format
 description: Create an import request to import your collection of models and templates in JSON format, and streamline the workflow using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/import-models-templates-json.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,7 +28,7 @@ After you create an import template request, a detailed summary is generated tha
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Import** &gt; **Imports**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Import** &gt; **Imports**.
 
 3.  Select **New**.
 
@@ -79,14 +80,14 @@ Select **Attach File** to attach the import model file in JSON format.**Note:**
 7.  Select **Import**.
 
     -   During the data import procedure:
-        -   Integration Commons for CMDB: The plugin is automatically activated and by default. To learn more, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+        -   Integration Commons for CMDB: The plugin is automatically activated and by default. To learn more, see .
         -   Normalization Data Service Client \(Optional\): If installed and configured, the following normalization rules are applied.
             -   Removes special characters from the **Manufacturer** name.
             -   The new value is replaced if it matches with five characters of the existing value.
             -   Downloads standard and variant company names.
-            -   Replaces company names with their standard equivalents. To learn more, see [Normalization data services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NormalizationOverview.md). To customize the normalization rules, see [Normalized company names table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_NormalizedCompanyNames.md).
+            -   Replaces company names with their standard equivalents. To learn more, see . To customize the normalization rules, see .
     -   The generation of a record triggers its automatic addition to the **Import Results**. From this tab, you can see the import status and can select the generated model.
     -   A dedicated inventory template is generated for every rack/cabinet equipment holders, equipment models, and card models. Moreover, the related templates are generated based on the defined model relationship.
 
-**Parent Topic:**[Import models and templates](../concept/import-models-and-templates.md)
+**Parent Topic:**[Import models and templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 

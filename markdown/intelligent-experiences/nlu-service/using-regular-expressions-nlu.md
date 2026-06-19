@@ -2,6 +2,7 @@
 title: Using regular expressions in entities
 description: Learn how to use regular expressions in your NLU entities to establish patterns that help the system locate, match, and manage text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/using-regular-expressions-nlu.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -21,7 +22,7 @@ Pattern entities use regular expressions \(regex\) to match any pattern of text,
 
 ## Regex examples
 
-For a full example of regex code used in a pattern entity, see [Create a pattern entity](../task/create-pattern-entity.md).
+For a full example of regex code used in a pattern entity, see [Create a pattern entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/create-pattern-entity.md).
 
 The following four examples provide the format and regex code for different pattern entities.
 
@@ -29,25 +30,25 @@ The following four examples provide the format and regex code for different patt
 
     ServiceNow Knowledge Base \(KB\) articles use the format KB1234567. The regex code is KB\\d\{7\}, where KB = knowledge base record and d\{7\} = 7 digits.
 
-    ![Create a pattern entity for a KB article.](../images/regex1.png)
+    \[Omitted image "regex1.png"\] Alt text: Create a pattern entity for a KB article.
 
 -   **Case number**
 
     Case tasks use the format CS1234567. The regex code is CS\\d\{7\} where CS = case record and d\{7\} = 7 digits.
 
-    ![Create a pattern entity for a case number.](../images/regex2.png)
+    \[Omitted image "regex2.png"\] Alt text: Create a pattern entity for a case number.
 
 -   **Email address**
 
     Email addresses use the format name@servicenow.com. The regex code is \\b\[a-zA-Z0-9&amp;\*/\_.+-\]+@\[a-zA-Z0-9-\]+\\.\[a-zA-Z0-9-.\]+\\b, which supports these formats: name@servicenow.com and name@servicenow.co.in.
 
-    ![Create a pattern entity for email addresses.](../images/regex3.png)
+    \[Omitted image "regex3.png"\] Alt text: Create a pattern entity for email addresses.
 
 -   **Phone number**
 
     United States phone numbers use the format 555-123-4567. The regex code is \\d\{10\}\|\(?:\\d\{3\}-\)\{2\}\\d\{4\}\|\\\(\\d\{3\}\\\)\\d\{3\}-?\\d\{4\}, which supports these formats: 5108882062,510-888-2062, and \(510\)888-2062.
 
-    ![Create a pattern entity for a United States phone number.](../images/regex4.png)
+    \[Omitted image "regex4.png"\] Alt text: Create a pattern entity for a United States phone number.
 
 
 ## Regex resources

@@ -2,6 +2,7 @@
 title: Add a new prompt header to identify the prompt
 description: Add intuitive headers to the prompts displayed on the Employee Portal to enable users to identify the type of prompt easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-add-header.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -35,7 +36,7 @@ The predefined default header is Suggestion.
 
 5.  Select the **Prompt Template** tab.
 
-6.  Select the Lookup using list icon \(![look up icon](../../contact-tracing/image/icon-lookup.png)\) next to the **Prompt header** field.
+6.  Select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: look up icon\) next to the **Prompt header** field.
 
 7.  On the Prompt Header Configurations page, select **New**.
 

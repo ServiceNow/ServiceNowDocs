@@ -2,6 +2,7 @@
 title: Search for tasks that need a crew on Dispatcher Workspace
 description: Search for work order tasks that require a crew in the Dispatcher Workspace task panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/search-crew-task.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

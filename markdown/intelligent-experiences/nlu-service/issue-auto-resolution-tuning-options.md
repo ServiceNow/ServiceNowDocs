@@ -2,6 +2,7 @@
 title: Issue Auto Resolution tuning options
 description: When you are tuning your Issue Auto Resolution model in NLU Workbench, you can adjust the output for several goals: precision, automation, or a balance of the two. Compare how your choice of tuning options affect match rate and coverage, before committing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-options.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -26,7 +27,7 @@ To access the **Analyze** step of IAR tuning, use the nlu\_admin role and naviga
 3.  Provide feedback, then select the **Analyze** button. Step 2 \(Analyze\) opens.
 4.  In the section **Here are your tuning options and projected results**, using the list **You can tune for precision, automation, or balance**, select options to see projected scenarios. You can also select the link **Learn about tuning goals** to open the following window.
 
-![In the Analyze step of IAR Tuning in NLU Workbench, the window What do you want to tune for? is open.](../images/issue-auto-resolution-tuning-options020V.png)
+\[Omitted image "issue-auto-resolution-tuning-options020V.png"\] Alt text: In the Analyze step of IAR Tuning in NLU Workbench, the window What do you want to tune for? is open.
 
 ## Precision
 

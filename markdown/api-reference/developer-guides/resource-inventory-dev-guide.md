@@ -2,6 +2,7 @@
 title: Resource Inventory Open API Developer Guide
 description: Use the Resource Inventory Open API to create, retrieve, update, and delete resources such as interface cards, logical and physical connections, network sites, and more.The Resource Inventory Open API can be extended using extension points and script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/resource-inventory-dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -15,7 +16,7 @@ breadcrumb: [Developer guides, API implementation and reference]
 
 Use the Resource Inventory Open API to create, retrieve, update, and delete resources such as interface cards, logical and physical connections, network sites, and more.
 
-This developer guide provides information on how to extend the [Resource Inventory Open API](../../../inbound-rest/concept/resource-inventory-api.md#) to make various customizations.
+This developer guide provides information on how to extend the [Resource Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/resource-inventory-api.md) to make various customizations.
 
 ## Extending the Resource Inventory Open API
 

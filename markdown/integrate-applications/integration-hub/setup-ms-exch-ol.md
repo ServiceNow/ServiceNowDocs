@@ -1,7 +1,8 @@
 ---
 title: Set up Microsoft Exchange Online spoke
-description: Integrate the ServiceNow instance and Microsoft Exchange Online account by creating a custom OAuth application in Microsoft Exchange Online to authenticate ServiceNow requests.Provide authorization to the ServiceNow instance by registering an application with Azure AD.Register Microsoft Exchange Online as the OAuth provider so that the ServiceNow instance can request OAuth 2.0 tokens.Authorize the Microsoft Exchange Online spoke actions by creating credential records for the application registered in the Microsoft Azure portal. The Microsoft Exchange Online connection and credential alias uses these credentials to authorize actions.Create a credential record for the Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential alias uses these credentials to authorize Mailbox actions.Perform actions in Microsoft Exchange Online by creating connection records for your Microsoft Exchange Online account. The Microsoft Exchange Online spoke connection and credential alias uses these connections to perform actions.Modify the short description to provide spoke specific information.Create a connection record for your Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential aliases use these connections to perform only Mailbox actions.
+description: Integrate the ServiceNow instance and Microsoft Exchange Online account by creating a custom OAuth application in Microsoft Exchange Online to authenticate ServiceNow requests.Provide authorization to the ServiceNow instance by registering an application with Azure AD.Register Microsoft Exchange Online as the OAuth provider so that the ServiceNow instance can request OAuth 2.0 tokens.Authorize the Microsoft Exchange Online spoke actions by creating credential records for the application registered in the Microsoft Azure portal. The Microsoft Exchange Online connection and credential alias uses these credentials to authorize actions.Create a credential record for the Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential alias uses these credentials to authorize Mailbox actions.Perform actions in Microsoft Exchange Online by configuring connection records for your Microsoft Exchange Online account. The Microsoft Exchange Online spoke connection and credential alias uses these connections to perform actions.Configure a connection record for your Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential aliases use these connections to perform only Mailbox actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ms-exch-ol.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -39,7 +40,7 @@ Complete these steps from the Microsoft Azure portal. For instructions on regist
 
 2.  For the **Required Permissions**, select **Microsoft Graph**.
 
-    ![Permissions required for Microsoft Exchange Online spoke](../image/ms-exchange-online-spoke-permissions.png)
+    \[Omitted image "ms-exchange-online-spoke-permissions.png"\] Alt text: Permissions required for Microsoft Exchange Online spoke
 
 3.  Record the **Client Secret** for use in later configurations.
 
@@ -334,9 +335,9 @@ Create a credential record for the Microsoft Exchange Online spoke Mailbox actio
 
 A Windows Credential record is created for the Microsoft Exchange Online spoke Mailbox actions.
 
-## Create connection records for the Microsoft Exchange Online spoke
+## Configure a connection for the Microsoft Exchange Online spoke
 
-Perform actions in Microsoft Exchange Online by creating connection records for your Microsoft Exchange Online account. The Microsoft Exchange Online spoke connection and credential alias uses these connections to perform actions.
+Perform actions in Microsoft Exchange Online by configuring connection records for your Microsoft Exchange Online account. The Microsoft Exchange Online spoke connection and credential alias uses these connections to perform actions.
 
 ### Before you begin
 
@@ -344,180 +345,45 @@ Role required: admin.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
-
-2.  Open the record, **Microsoft\_Exchange\_Online**.
-
-3.  In the Connections related list, click **New**.
-
-4.  On the form, fill in the fields.
-
-<table id="table_c4p_lzg_2hb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Name to uniquely identify the record. For example, `Exchange_Online_Connection`.
-
-</td></tr><tr><td>
-
-Credential
-
-</td><td>
-
-Credential record created for Microsoft Exchange Online. For example, `Exchange_Online_Credentials`.
-
-</td></tr><tr><td>
-
-Connection alias
-
-</td><td>
-
-Alias record associated with this connection.
-
-</td></tr><tr><td>
-
-URL builder
-
-</td><td>
-
-**Note:** Do not select the check box.
-
-</td></tr><tr><td>
-
-Connection URL
-
-</td><td>
-
-Connection URL. Enter `https://graph.microsoft.com`.
-
-</td></tr><tr><td>
-
-Use MID server
-
-</td><td>
-
-Option to use a MID Server. If the check box is selected, define the fields in the Advanced MID Server Configuration related list.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-Option to actively use the connection.
-
-</td></tr><tr><td>
-
-Domain
-
-</td><td>
-
-Domain that the action or activity runs in.
-
-</td></tr></tbody>
-</table>5.  Click **Update**.
-
-6.  Navigate to **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
-
-7.  Open the record, **Microsoft\_Exchange\_Online\_clientCred**.
-
-8.  In the Connections related list, click **New**.
-
-9.  On the form, fill in the fields.
-
-<table id="table_vjd_1md_qnb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Name to uniquely identify the record. For example, `Exchange_Online_Connection_clientCred`.
-
-</td></tr><tr><td>
-
-Credential
-
-</td><td>
-
-Credential record created for Microsoft Exchange Online. For example, `Exchange_Online_Credentials_clientCred`.
-
-</td></tr><tr><td>
-
-Connection alias
-
-</td><td>
-
-Alias record associated with this connection.
-
-</td></tr><tr><td>
-
-URL builder
-
-</td><td>
-
-**Note:** Do not select the check box.
-
-</td></tr><tr><td>
-
-Connection URL
-
-</td><td>
-
-Connection URL. Enter `https://graph.microsoft.com`.
-
-</td></tr><tr><td>
-
-Use MID server
-
-</td><td>
-
-Option to use a MID Server. If the check box is selected, define the fields in the Advanced MID Server Configuration related list.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-Option to actively use the connection.
-
-</td></tr><tr><td>
-
-Domain
-
-</td><td>
-
-Domain that the action or activity runs in.
-
-</td></tr></tbody>
-</table>10. Click **Update**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+
+2.  Click the **Integrations** tab.
+
+3.  Under **Connections**, the **Outbound** connections are displayed by default.
+
+4.  Locate the **Microsoft\_Exchange\_Online** connection alias and click **View Details**.
+
+    -   To configure the default connection and credential alias record that is shipped along with the Microsoft Exchange Online spoke, click **View Details**.
+    -   To manage more than one Microsoft Exchange Online spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+5.  On the **Connection** form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection Information|
+    |Name|Name to uniquely identify the connection. For example, `Microsoft_Exchange_Online`.|
+    |Connection URL|Enter `https://graph.microsoft.com`.|
+    |API Version|Enter `v1.0`.|
+    |Credential Information|
+    |Name|Name to identify the credential record. For example, `Exchange_Online Creds`.|
+    |Authorization URL|OAuth authorization code endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/authorize`|
+    |Token URL|OAuth server token endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/token`|
+    |Token Revocation URL|OAuth server token revocation endpoint.|
+    |OAuth Client ID|Application ID created during application registration.|
+    |OAuth Client Secret|Client secret created during application registration.|
+    |OAuth Redirect URL|OAuth callback endpoint. Enter `https://<instance-name>.service-now.com/oauth_redirect.do`|
+
+6.  Click **Create and Get OAuth Token**.
 
 
 ### Result
 
 The Microsoft Exchange Online spoke is set up and integrated with the ServiceNow instance.
 
-## Create a connection record for the Microsoft Exchange Online spoke Mailbox actions
+## Configure a connection record for the Microsoft Exchange Online spoke Mailbox actions
 
-Create a connection record for your Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential aliases use these connections to perform only Mailbox actions.
+Configure a connection record for your Microsoft Exchange Online spoke Mailbox actions. The Microsoft Exchange Online spoke connection and credential aliases use these connections to perform only Mailbox actions.
 
 ### Before you begin
 
@@ -527,26 +393,32 @@ Create a connection record for your Microsoft Exchange Online spoke Mailbox acti
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
+1.  Navigate to **All** &gt; **IntegrationHub** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 
-2.  Open the **Microsoft Exchange Online MID** record.
+2.  Locate the **Microsoft Exchange Online MID** connection alias and open it.
 
-3.  From the **Connections** tab, click **New**.
+3.  For **Configuration Template**, ensure that **Microsoft Exchange Online Authorization Code** is selected.
 
-4.  On the form, fill these fields.
+4.  Click the Create New Connection &amp; Credential related link.
+
+5.  On the form, fill the fields.
 
     |Field|Description|
     |-----|-----------|
-    |Name|Name to uniquely identify the record. For example, `MS Exchange Online Mailbox Connection`.|
-    |Credential|Credential record created for Microsoft Exchange Online spoke Mailbox actions. For example, `MS Exchange Online spoke Mailbox Cred`.|
-    |Connection alias|Alias record associated with this connection.|
-    |Connection URL|Base URL to connect to **Microsoft Exchange Online**. Enter: `127.0.0.1`|
-    |Active|Option to actively use the connection record.|
-    |Domain|Domain that the action runs in.|
-    |Override default port|Target port used by the connection. If blank, the system uses the default port.|
-    |Use MID server|Option to use MID Servers for this connection. If the check box is selected, define the fields in the Advanced MID Server Configuration related list.|
+    |Connection Information|
+    |Name|Name to uniquely identify the connection. For example, `Microsoft_Exchange_Online_MID`.|
+    |Connection URL|Enter `https://graph.microsoft.com`.|
+    |API Version|Enter `v1.0`.|
+    |Credential Information|
+    |Name|Name to identify the credential record. For example, `Exchange_Online_MID Creds`.|
+    |Authorization URL|OAuth authorization code endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/authorize`|
+    |Token URL|OAuth server token endpoint. Enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/token`|
+    |Token Revocation URL|OAuth server token revocation endpoint.|
+    |OAuth Client ID|Application ID created during application registration.|
+    |OAuth Client Secret|Client secret created during application registration.|
+    |OAuth Redirect URL|OAuth callback endpoint. Enter `https://<instance-name>.service-now.com/oauth_redirect.do`|
 
-5.  Click **Submit**.
+6.  Click **Create and Get OAuth Token**.
 
 
 ### Result

@@ -2,6 +2,7 @@
 title: Configure a default MID Server for each application
 description: You can configure a default MID Server that an application can use if all other possible MID Servers are unavailable. You can narrow down the list of applications that are included in the definition of ALL.You can narrow down the list of applications that are included in the definition of ALL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_SpecifyMIDServerApplications.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -106,7 +107,7 @@ N/A
 5.  Click **Update**.
 
 
-**Parent Topic:**[MID Server selection](../concept/c_MIDServerSelector.md)
+**Parent Topic:**[MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
 
 ## Select applications to include in the definition of ALL for a MID Server
 
@@ -128,7 +129,7 @@ You can specify the ALL application for a MID Server, which means that the MID S
 
 2.  If you do not see the **Included in application ALL** column, you can personalize the list and add it.
 
-    ![Included in application ALL](../image/includedInAllApplications.png "Included in application ALL")
+    \[Omitted image "includedInAllApplications.png"\] Alt text: Included in application ALL
 
 3.  For each application, double-click the value in the **Included in application ALL** column.
 

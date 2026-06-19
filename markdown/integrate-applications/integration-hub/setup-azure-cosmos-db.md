@@ -2,6 +2,7 @@
 title: Set up the Microsoft Azure Cosmos DB spoke
 description: Integrate the ServiceNow instance and the Microsoft Azure Cosmos DB by installing and configuring the Microsoft Azure Resource Management Spoke connection alias and configuring the Microsoft Azure Cosmos DB SAS connection alias.Create a connection alias record for the Microsoft Azure Cosmos DB SAS to execute the actions under the Core SQL Database Management category of the Microsoft Azure Cosmos DB spoke. Specify whether record is for a host, instance, server, custom application, or account:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-azure-cosmos-db.html
 release: australia
 product: Integration Hub
 classification: integration-hub

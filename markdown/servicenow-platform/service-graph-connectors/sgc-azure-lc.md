@@ -2,6 +2,7 @@
 title: Life cycle management of records in Service Graph Connector for Microsoft Azure
 description: Life cycle management in the Service Graph Connector for Microsoft Azure monitors and updates the statuses of Azure resources throughout their entire life cycle, from creation to deletion.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-azure-lc.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -642,5 +643,5 @@ Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]
 Yes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](sgc-azure-reference.md)
+</table>**Parent Topic:**[Service Graph Connector for Microsoft Azure reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-azure-reference.md)
 

@@ -2,6 +2,7 @@
 title: Set up the Google Cloud Functions spoke
 description: Integrate the ServiceNow instance and Google Cloud Functions account by creating a custom OAuth application in Google Cloud Platform to authenticate ServiceNow requests.Create a custom OAuth application in your Google Cloud Platform account to enable OAuth 2.0 authentication with the Google Cloud Functions spoke.Use the information generated during the Google Cloud Functions application configuration to register Google Cloud Functions as an OAuth provider and allow the ServiceNow instance to request OAuth 2.0 tokens.Create a credential record for the Google Cloud Functions application. The Google Cloud Functions spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/gcloud-func-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -43,7 +44,7 @@ Complete these steps from the [Google Cloud Platform](https://cloud.google.com/)
 
 6.  Enter the following **Authorized redirect URI**: `https://<instance>.service-now.com/oauth_redirect.do` and select **Create**.
 
-7.  Copy your client ID and client secret from the OAuth client window to a text file so that you can use them when you [Register Google Cloud Functions as an OAuth provider](gcloud-func-setup.md#).
+7.  Copy your client ID and client secret from the OAuth client window to a text file so that you can use them when you [Register Google Cloud Functions as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gcloud-func-setup.md).
 
     The client ID and secret can be accessed in the Google APIs &amp; Services interface. Select **Credentials** and select the OAuth 2.0 client ID name.
 
@@ -104,7 +105,7 @@ Role required: admin.
     |OAuth Entity Profile|Select the default OAuth entity profile, **Google Cloud Functions default\_profile**.|
     |Credential alias|Credential alias associated with this record. The default alias record, **sn\_gcp\_cf\_spoke.GoogleCloudFunctions** is selected.|
 
-    ![Credential record for Google Cloud Functional spoke.](../image/gcloud-func-cred.png)
+    \[Omitted image "gcloud-func-cred.png"\] Alt text: Credential record for Google Cloud Functional spoke.
 
 6.  Right-click the form header and click **Save**.
 

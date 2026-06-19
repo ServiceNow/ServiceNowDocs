@@ -2,6 +2,7 @@
 title: Approve or reject a control tailoring request
 description: As an Authorizing Official \(AO\) or AO Delegate, review and approve or reject control tailoring requests to ensure governance and oversight of baseline control modifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/approve-reject-control-tailoring-request.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -42,9 +43,10 @@ The approval process ensures that all baseline modifications are subject to appr
 
     The tab displays:
 
-    -   Previous allocation - The control's current allocation type
-    -   Requested allocation - The proposed allocation type
+    -   Previous allocation: The control's current allocation type
+    -   Requested allocation: The proposed allocation type
     -   Controls grouped by change type \(added, removed, allocation changed\)
+    -   Overlay control modifications
 6.  To approve the request:
 
     1.  Select **Approve**.

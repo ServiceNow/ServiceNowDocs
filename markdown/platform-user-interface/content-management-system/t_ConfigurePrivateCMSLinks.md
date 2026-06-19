@@ -2,6 +2,7 @@
 title: Configure a private UI page for CMS links
 description: With single sign-on \(SSO\) in place, you can generate email links that take users directly to tickets and applications through the CMS interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/t\_ConfigurePrivateCMSLinks.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -57,5 +58,5 @@ You accomplish this procedure by creating a private UI page to redirect CMS link
         **Note:** If you are using SAML 2.0 update 1 for SSO, use the UI page **saml\_redirector** instead of creating a new UI page. For example, an email link to a SAML 2.0 redirector page would use the URL format:`http://<instance name>.service-now.com/` **saml\_redirector.do** `?sysparm_uri=/ess/incident.do%26sys_id=46e3e949a9fe19810069b824ba2c761a.`
 
 
-**Parent Topic:**[Content pages in CMS](../concept/c_ContentPages.md)
+**Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentPages.md)
 

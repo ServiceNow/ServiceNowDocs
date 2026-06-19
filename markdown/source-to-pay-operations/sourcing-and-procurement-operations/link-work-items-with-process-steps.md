@@ -2,6 +2,7 @@
 title: Link work items with process steps
 description: Establish the relationship between the process steps and their work items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/link-work-items-with-process-steps.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -40,5 +41,5 @@ Role required: sn\_shop.procurement\_administrator
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Shopping Hub process visibility configuration](process-visibility-configuration.md)
+**Parent Topic:**[Shopping Hub process visibility configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/process-visibility-configuration.md)
 

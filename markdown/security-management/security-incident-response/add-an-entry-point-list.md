@@ -2,6 +2,7 @@
 title: Adding an entry point list
 description: Configure the new entry point list to add it to the investigation page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/add-an-entry-point-list.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -25,13 +26,13 @@ Role required: admin
 
     The **Entry Point Lists Configs** page is displayed.
 
-    ![Entry points list configs page](../image/entry-points.png)
+    \[Omitted image "entry-points.png"\] Alt text: Entry points list configs page
 
 2.  Click **Edit Investigation View** button to add an entry point list to the investigation screen.
 
     The **Configuring related lists on Security Incident form** is displayed.
 
-    ![Edit investigation related lists](../image/edit-investigation-related-lists-view.png)
+    \[Omitted image "edit-investigation-related-lists-view.png"\] Alt text: Edit investigation related lists
 
 3.  Add or remove the entry point list from the slush bucket view.
 
@@ -42,5 +43,5 @@ Role required: admin
     The order in which the entry point lists is displayed on the investigation canvas is determined by the order in the slush bucket selected view.
 
 
-**Parent Topic:**[Configure SI design time investigation](../concept/configure-investigation-canvas-records.md)
+**Parent Topic:**[Configure SI design time investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-investigation-canvas-records.md)
 

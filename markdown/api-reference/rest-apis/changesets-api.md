@@ -2,6 +2,7 @@
 title: CdmChangesetsApi
 description: The CdmChangesetsApi provides endpoints that enable you to manage changesets.Deletes a specified changeset.Retrieves all changesets associated with a Configuration Data Management \(CDM\) application or a specified changeset record.Retrieves the node changes within a specified changeset.Returns the current status of the specified changeset commit request.Returns the list of deployables that are associated with a specified changeset.Returns a list of shared components that are associated with a specified changeset.Returns the list of deployables that are associated with a specified changeset.Commits the specified changeset. Once committed, the changeset is persisted into the CDM tables within the associated instance.Creates a new changeset in the open state for a specified CDM application or shared library.Updates and commits a specified changeset.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/changesets-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -34,9 +35,9 @@ You must have one of the following roles to access this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on changesets, see [Changesets and version control in CDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-changesets-version-control.md).
+For additional information on changesets, see Changesets and version control in CDM.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## CdmChangesetsApi - DELETE /sn\_cdm/changesets
 
@@ -50,7 +51,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets`
 
 Default URL: `/api/sn_cdm/changesets`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -98,7 +99,7 @@ Table: CDM Changeset \[sn\_cdm\_changeset\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -110,7 +111,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -151,7 +152,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets`
 
 Default URL: `/api/sn_cdm/changesets`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -230,7 +231,7 @@ Default: Return all changesets for all states
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -242,7 +243,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -427,7 +428,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -559,7 +560,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets/activity`
 
 Default URL: `/api/sn_cdm/changesets/activity`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -617,7 +618,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -629,7 +630,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -883,7 +884,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets/commit-status/{commit_id}`
 
 Default URL: `/api/sn_cdm/changesets/commit-status/{commit_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -909,7 +910,7 @@ commit\_id
 
 </td><td>
 
-Sys\_id for the commit request whose status to return. This value is returned by the [CdmChangesetsApi - POST /sn\_cdm/changesets/\{changeset\_id\}/commit](changesets-api.md#) endpoint.
+Sys\_id for the commit request whose status to return. This value is returned by the [CdmChangesetsApi - POST /sn\_cdm/changesets/\{changeset\_id\}/commit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/changesets-api.md) endpoint.
 
 Data type: String
 
@@ -924,7 +925,7 @@ Data type: String
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -936,7 +937,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1066,7 +1067,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -1252,7 +1253,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets/impacted-deployables`
 
 Default URL: `/api/sn_cdm/changesets/impacted-deployables`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1310,7 +1311,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1322,7 +1323,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1642,7 +1643,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets/impacted-shared-components`
 
 Default URL: `/api/sn_cdm/changesets/impacted-shared-components`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -1700,7 +1701,7 @@ Default: All fields as determined by the endpoint
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -1712,7 +1713,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -1960,7 +1961,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets/{changeset_id}/impacted-dep
 
 Default URL: `/api/sn_cdm/changesets/{changeset_id}/impacted-deployables`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2001,7 +2002,7 @@ Table:CDM Changeset \[sn\_cdm\_changeset\]
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2013,7 +2014,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -2387,7 +2388,7 @@ Commits the specified changeset. Once committed, the changeset is persisted into
 
 The system updates the application to persist the changes to the configuration data within the changeset. The changeset state changes to **Committed**. The system then generates a snapshot of each deployable that is affected by the changeset.
 
-This endpoint returns the ID of the commit request. Use this ID to call the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](changesets-api.md#) endpoint to obtain the current status of the changeset commit.
+This endpoint returns the ID of the commit request. Use this ID to call the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/changesets-api.md) endpoint to obtain the current status of the changeset commit.
 
 ### URL format
 
@@ -2395,7 +2396,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets/{changeset_id}/commit`
 
 Default URL: `/api/sn_cdm/changesets/{changeset_id}/commit`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2460,7 +2461,7 @@ Publish option for the associated configuration snapshots. Valid values:
 
 **Note:** This option is only available if the value for the **autoCommit** parameter is true.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -2473,7 +2474,7 @@ Default: publish\_none
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2486,7 +2487,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -2539,7 +2540,7 @@ commit\_id
 
 </td><td>
 
-Sys\_id of the commit request. Use this ID when calling the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](changesets-api.md#) endpoint to check the status of the commit request.
+Sys\_id of the commit request. Use this ID when calling the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/changesets-api.md) endpoint to check the status of the commit request.
 
 Data type: String
 
@@ -2629,7 +2630,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets/create/`
 
 Default URL: `/api/sn_cdm/changesets/create/`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -2691,7 +2692,7 @@ Comma separated list of fields in the CDM Changeset \[sn\_cdm\_changeset\] table
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -2704,7 +2705,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -2883,7 +2884,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -3016,7 +3017,7 @@ Updates and commits a specified changeset.
 
 The system updates the application to persist the changes to the configuration data within the changeset. The changeset state changes to **Committed**. The system then generates a snapshot of each deployable that is affected by the changeset.
 
-This endpoint returns the ID of the commit request. Use this ID to call the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](changesets-api.md#) endpoint to obtain the current status of the changeset commit.
+This endpoint returns the ID of the commit request. Use this ID to call the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/changesets-api.md) endpoint to obtain the current status of the changeset commit.
 
 ### URL format
 
@@ -3024,7 +3025,7 @@ Versioned URL: `/api/sn_cdm/{api_version}/changesets/{changeset_id}/commit`
 
 Default URL: `/api/sn_cdm/changesets/{changeset_id}/commit`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -3093,7 +3094,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-snapshot-publish.md).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -3106,7 +3107,7 @@ Default: publish\_none
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -3119,7 +3120,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table><thead><tr><th>
 
@@ -3172,7 +3173,7 @@ commit\_id
 
 </td><td>
 
-Sys\_id of the commit request. Use this ID when calling the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](changesets-api.md#) endpoint to check the status of the commit request.
+Sys\_id of the commit request. Use this ID when calling the [CdmChangesetsApi - GET /sn\_cdm/changesets/commit-status/\{commit\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/changesets-api.md) endpoint to check the status of the commit request.
 
 Data type: String
 

@@ -2,6 +2,7 @@
 title: CMDB Query Builder engine execution modes
 description: The CMDB Query Builder engine uses two execution modes to run queries. By default, the system is configured to use the enhanced mode V2 which is designed for performance optimization. V2 is supported for most queries and enables running complex queries significantly quicker and process larger result sets without performance degradation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/query-builder-engine-execution-mode.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -32,13 +33,13 @@ The CMDB Query Builder can be set with the following engine execution modes for 
 
 Setting the execution mode for queries that contain 'OR' operators, such as the sample query below, require some special considerations:
 
-![Query with 'OR' structure](../image/QueryOR.png)
+\[Omitted image "QueryOR.png"\] Alt text: Query with 'OR' structure
 
 Running a query with 'OR' structures can be significantly faster in V2 mode than in V1, but the results are presented differently between V1 and V2 execution modes. The difference is because 'OR' operator nodes generate coalesced and cross-product result sets. In V2 mode, related results are merged into a single result item. In V1, the same results are represented by separate result items.
 
-!['OR' results in V1 execution mode](../image/QueryV1ORResults.png "Results for a query with an 'OR' structure, in V1 execution mode")
+\[Omitted image "QueryV1ORResults.png"\] Alt text: 'OR' results in V1 execution mode
 
-!['OR' results in V2 execution mode](../image/QueryV2ORResults.png "Results for a query with an 'OR' structure, in V2 execution mode")
+\[Omitted image "QueryV2ORResults.png"\] Alt text: 'OR' results in V2 execution mode
 
 In some situations, it might be important to run a query with an 'OR' structure, using the V1 engine mode to retain the legacy format of the results in support of existing organizational reports. You can use the **glide.cmdb.query.or\_execution\_mode** system property as described below to control execution mode for queries with 'OR' structures.
 
@@ -48,7 +49,7 @@ The system uses the following settings of execution mode to determine which exec
 
 -   Query-level setting:
 
-    The **Query Execution Mode** attribute in the Saved Queries \[qb\_saved\_query\] table sets the engine mode for the respective query. For more information about this setting, see [Set execution mode for running a query](../task/config-query-builder-engine-mode.md).
+    The **Query Execution Mode** attribute in the Saved Queries \[qb\_saved\_query\] table sets the engine mode for the respective query. For more information about this setting, see [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md).
 
     The query-level setting has precedence over system property settings.
 
@@ -63,7 +64,7 @@ The system uses the following settings of execution mode to determine which exec
     This property has precedence over the **glide.cmdb.query.execution\_mode** system property.
 
 
-For more information about the engine mode system properties, see [Property settings for CMDB Query Builder](../reference/cmdb-querybldr-sysproprties.md).
+For more information about the engine mode system properties, see [Property settings for CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md).
 
 ## Unsupported query structures for V2 mode
 

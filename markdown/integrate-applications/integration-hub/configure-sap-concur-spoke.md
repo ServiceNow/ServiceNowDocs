@@ -2,6 +2,7 @@
 title: Configure the SAP Concur spoke
 description: Configure the SAP Concur spoke to integrate your ServiceNow instance with SAP Concur. After integration, you can create flows and automate actions on SAP Concur. For example, you can create a flow so that when a trigger occurs, it gets itinerary details based on the trip ID.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-sap-concur-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

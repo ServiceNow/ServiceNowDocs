@@ -1,7 +1,8 @@
 ---
-title: Migrate to SuccessFactors spoke v4.10.1
-description: Migrate from an earlier version of the SuccessFactors spoke to SuccessFactors spoke v4.10.1 by selecting the credential records that are associated with the SuccessFactors spoke v4.10.1.
+title: Migrate to SuccessFactors spoke v4.11.0
+description: Migrate from an earlier version of the SuccessFactors spoke to SuccessFactors spoke v4.11.0 by selecting the credential records that are associated with the SuccessFactors spoke v4.11.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/migrate-successfactors.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -11,24 +12,24 @@ reading_time_minutes: 1
 breadcrumb: [SuccessFactors Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
-# Migrate to SuccessFactors spoke v4.10.1
+# Migrate to SuccessFactors spoke v4.11.0
 
-Migrate from an earlier version of the SuccessFactors spoke to SuccessFactors spoke v4.10.1 by selecting the credential records that are associated with the SuccessFactors spoke v4.10.1.
+Migrate from an earlier version of the SuccessFactors spoke to SuccessFactors spoke v4.11.0 by selecting the credential records that are associated with the SuccessFactors spoke v4.11.0.
 
 ## Before you begin
 
--   Perform these procedures to migrate to SuccessFactors spoke v4.10.1.
-    -   [Register OAuth client application in SuccessFactors](setup-successfactors.md#)
-    -   [Upload the JKS certificate in your ServiceNow instance](setup-successfactors.md#)
-    -   [Register SuccessFactors as an OAuth provider](setup-successfactors.md#)
-    -   [Create the SAML2 assertion producer record](setup-successfactors.md#)
-    -   [Create Credential record for the OData API](setup-successfactors.md#)
-    -   [Create Credential record for the SOAP API](setup-successfactors.md#)
+-   Perform these procedures to migrate to SuccessFactors spoke v4.11.0.
+    -   [Register OAuth client application in SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md)
+    -   [Upload the JKS certificate in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md)
+    -   [Register SuccessFactors as an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md)
+    -   [Create the SAML2 assertion producer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md)
+    -   [Create Credential record for the OData API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md)
+    -   [Create Credential record for the SOAP API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md)
 -   Role required: admin.
 
-**Note:** This procedure is applicable if you are currently using an earlier version of the SuccessFactors spoke and intend to upgrade to SuccessFactors spoke v4.10.1.
+**Note:** This procedure is applicable if you are currently using an earlier version of the SuccessFactors spoke and intend to upgrade to SuccessFactors spoke v4.11.0.
 
-If you are setting up the SuccessFactors spoke 4.10.1 for the first time, see [Set up the SuccessFactors spoke v4.x.x](setup-successfactors.md#).
+If you are setting up the SuccessFactors spoke 4.11.0 for the first time, see [Set up the SuccessFactors spoke v4.x.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-successfactors.md).
 
 ## Procedure
 
@@ -38,7 +39,7 @@ If you are setting up the SuccessFactors spoke 4.10.1 for the first time, see [S
 
 3.  In the **Connections** tab, open the existing the connection record.
 
-4.  For **Credential**, select the credential record you had created for SuccessFactors spoke v4.10.1.
+4.  For **Credential**, select the credential record you had created for SuccessFactors spoke v4.11.0.
 
     For example, `SAML_SuccessFactors_OData_Cred`.
 
@@ -48,7 +49,7 @@ If you are setting up the SuccessFactors spoke 4.10.1 for the first time, see [S
 
 7.  In the **Connections** tab, open the existing the connection record.
 
-8.  For **Credential**, select the credential record you had created for SuccessFactors spoke v4.10.1.
+8.  For **Credential**, select the credential record you had created for SuccessFactors spoke v4.11.0.
 
     For example, `SAML_SuccessFactors_SOAP_Cred`.
 

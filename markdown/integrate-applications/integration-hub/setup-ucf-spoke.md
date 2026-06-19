@@ -2,6 +2,7 @@
 title: Set up the UCF spoke
 description: Integrate the ServiceNow instance and UCF by creating a custom OAuth application in UCF to authenticate ServiceNow requests.Create an application in Common Controls Hub \(CCH\) to enable OAuth 2.0 authentication with the UCF spoke.Add and configure a UCF connection to authenticate ServiceNow requests in the UCF spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ucf-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

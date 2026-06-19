@@ -2,6 +2,7 @@
 title: Setting up GitLab OAuth 2.0 credentials for DevOps
 description: Integrate your GitLab account with your ServiceNow instance by creating a custom OAuth application in GitLab and authenticating requests from ServiceNow DevOps.Create a custom GitLab App from your GitLab account to enable OAuth 2.0 authentication with your ServiceNow instance.Use the information generated during GitLab App account configuration to register GitLab as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create a credential record for the GitLab App provider previously created to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/setting-up-gitlab-oauth.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -19,7 +20,7 @@ Configure your GitLab account, register GitLab in the application registry, and 
 
 Role required: oauth\_admin.
 
-**Parent Topic:**[GitLab integration with DevOps Change Velocity](gitlab-integration-dev-ops.md)
+**Parent Topic:**[GitLab integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/gitlab-integration-dev-ops.md)
 
 ## Configure the GitLab App in your GitLab account \(Authorization Code\)
 

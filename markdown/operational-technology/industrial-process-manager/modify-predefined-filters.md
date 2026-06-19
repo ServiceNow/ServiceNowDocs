@@ -2,6 +2,7 @@
 title: Modify predefined filters
 description: Modify the predefined filters for the ISA Equipment Model application as needed for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/modify-predefined-filters.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -29,10 +30,10 @@ Role required: ecmdb\_admin
 
 4.  Modify the Configuration Types, CI Filters, and Relationship Types related lists as needed.
 
-    For more information about how to modify these related lists, see [Create a predefined filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/dependency-views/create-predefined-filter.md).
+    For more information about how to modify these related lists, see .
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Predefined filters for the Industrial Process Manager](../reference/predefined-filters-for-industrial-process-manager.md)
+**Parent Topic:**[Predefined filters for the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/predefined-filters-for-industrial-process-manager.md)
 

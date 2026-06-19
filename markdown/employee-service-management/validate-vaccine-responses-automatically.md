@@ -2,6 +2,7 @@
 title: Validate vaccine responses automatically
 description: Configure Vaccination Status so that validator services can validate vaccine responses automatically with information from supported attachments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/validate-vaccine-responses-automatically.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -18,7 +19,7 @@ Configure Vaccination Status so that validator services can validate vaccine res
 Integrate with the validator service by doing the following:
 
 -   Obtain credentials for a validator service.
--   Create a connection and credentials alias. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+-   Create a connection and credentials alias. For more information, see Create a Connection and Credential alias.
 
 If your organization is using an integration that is already supported, such as the CommonTrust Network, then you need only to add your organization's credentials to the validator service record.
 
@@ -58,7 +59,7 @@ Connection alias
 
 </td><td>
 
-The connection alias for your validator service. For more information on creating a connection alias, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md).
+The connection alias for your validator service. For more information on creating a connection alias, see Create a Connection and Credential alias.
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ Validation subflow
 
 </td><td>
 
-The subflow used to confirm whether a submitted attachment is valid. A template flow is provided by default or you may create a flow and add it to this field. For more information on creating flows, see [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).If you create your own subflow, it must have the same inputs and outputs as the template subflow.
+The subflow used to confirm whether a submitted attachment is valid. A template flow is provided by default or you may create a flow and add it to this field. For more information on creating flows, see Create a flow.If you create your own subflow, it must have the same inputs and outputs as the template subflow.
 
 </td></tr><tr><td>
 
@@ -168,7 +169,7 @@ You have enabled automated vaccine response validation. Work notes in the vaccin
 
 ## What to do next
 
-To automate vaccine response reviews so that they are set to **Approved** if validation was successful or left in the state **Not yet reviewed** \(a manual review is required\), see [Automate reviews of vaccine responses](enable-automated-vaccine-response-reviews.md).
+To automate vaccine response reviews so that they are set to **Approved** if validation was successful or left in the state **Not yet reviewed** \(a manual review is required\), see [Automate reviews of vaccine responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/enable-automated-vaccine-response-reviews.md).
 
-**Parent Topic:**[Automating vaccine response reviews](../concept/vaccination-status-vaccine-validation.md)
+**Parent Topic:**[Automating vaccine response reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status-vaccine-validation.md)
 

@@ -2,6 +2,7 @@
 title: Map a missing custom application to a product subscription in Subscription Management
 description: Map a custom application to a product subscription when that application isn't shown in the Unmapped custom applications tab of Subscription Management. To stay in compliance, you must map custom tables that belong to a custom application to a product subscription.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/map-missing-custom-app-sub-mgt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,9 +32,9 @@ Subscription Management can't display product subscription recommendations for s
 
 3.  Select **Map missing applications from the custom application list**.
 
-4.  Select the personalize list icon \(![Personalize list icon](../../../common/image/List_PersonalizeListIcon.png)\).
+4.  Select the personalize list icon \(\[Omitted image "List\_PersonalizeListIcon.png"\] Alt text: Personalize list icon\).
 
-    ![The personalize list icon can be found next to the New button.](../image/sm-personalized-list-missing-custom-apps.png)
+    \[Omitted image "sm-personalized-list-missing-custom-apps.png"\] Alt text: The personalize list icon can be found next to the New button.
 
 5.  Adjust the columns shown on the Custom Application list by moving **Subscription\(subscription\_entitlement\)** from the **Available** column to the **Selected** column.
 
@@ -60,5 +61,5 @@ Subscription Management can't display product subscription recommendations for s
 
 One or more custom applications are mapped to a product subscription and your custom table entitlement count is updated. Updates made through the Custom Application form show in Subscription Management the next day.
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](../concept/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

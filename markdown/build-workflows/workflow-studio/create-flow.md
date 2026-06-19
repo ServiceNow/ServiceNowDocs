@@ -2,6 +2,7 @@
 title: Create a flow in Workflow Studio
 description: Run a sequence of actions and flow logic when the trigger conditions occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -26,7 +27,7 @@ Create a flow with Workflow Studio
 
 Users with the flow\_designer or admin role should know the application table structure and be aware of any existing business logic associated with the target tables of a flow or subflow. Be sure to disable any conflicting business rules or workflows before creating a flow or subflow.
 
-Creating a custom application to contain your Workflow Studio content enables you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md) the application using the application repository or the ServiceNow Store.
+Creating a custom application to contain your Workflow Studio content enables you to deploy the application using the application repository or the ServiceNow Store.
 
 ## Procedure
 
@@ -36,7 +37,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
 3.  Select whether to build the flow with Now Assist or to build the flow from scratch.
 
-    To build a flow with Now Assist, see [Create a flow with Now Assist](create-flow-now-assist.md).
+    To build a flow with Now Assist, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-now-assist.md).
 
     To build a flow from scratch, continue to the next step.
 
@@ -49,7 +50,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
     |Flow name|Name to uniquely identify your flow. The system converts the flow name into an internal name by replacing space characters with underscore characters.|
     |Description|Description of your flow.|
     |Application|Application scope to create your flow in. Global is the default. The application scope determines what data your flow can access and what data it can share.|
-    |Domain|Domain scope of the flow. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-what-is-domain-separation.md).|
+    |Domain|Domain scope of the flow. For more information about domain separation, see .|
 
 <table id="table_ltx_mlf_b1c"><thead><tr><th>
 
@@ -77,7 +78,7 @@ Option to specify the user that runs the flow. You can select the system user or
 
  **Note:** By default, flows run as the user who initiates the session.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see OAuth 2.0 credentials.
 
  When flows run as the user who initiates the session, the system limits flow actions by user ACL restrictions. Ensure that security restrictions don't prevent users who trigger the flow from performing flow actions. Flows run by the initiating user also respect user-specific settings such as date/time formats.
 
@@ -102,7 +103,7 @@ Priority level at which you want the system to run this flow by default. Options
 -   Low
 -   Medium \(Default\)
 -   High
- To learn about flow priority levels, see [Flow priority](../concept/flow-priority.md).
+ To learn about flow priority levels, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-priority.md).
 
 </td></tr></tbody>
 </table>6.  Select **Submit**.
@@ -113,13 +114,13 @@ Priority level at which you want the system to run this flow by default. Options
 
 7.  Create a trigger for the flow.
 
-    **Tip:** You can either create a trigger for the flow or use a saved trigger. To use a saved trigger, proceed to the next step.To learn more about saved triggers, see [Building triggers](../concept/building-triggers.md)
+    **Tip:** You can either create a trigger for the flow or use a saved trigger. To use a saved trigger, proceed to the next step.To learn more about saved triggers, see [Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-triggers.md)
 
     1.  Under the TRIGGER section, select **Add a trigger**.
 
     2.  From the Trigger list, select a trigger that will start running your flow.
 
-        For more information on trigger types, see [Workflow Studio flow trigger types](../reference/flow-triggers.md).
+        For more information on trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-triggers.md).
 
         The system displays a set of fields depending on the type of trigger that you've selected.
 
@@ -165,7 +166,7 @@ Action
 
 </td><td>
 
-Select the desired action. Workflow Studio includes [Workflow Studio actions](../concept/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md) and [Spokes](../concept/spokes.md) plugins install additional actions.
+Select the desired action. Workflow Studio includes [Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md) that are available to flows and subflows. Alternatively, a user with the action\_designer role can create additional actions to add to flows. The  and [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/spokes.md) plugins install additional actions.
 
  To add draft actions from the More Actions menu, set **Show draft actions** to **true**.
 
@@ -212,47 +213,47 @@ Select a published subflow and define the input values. In addition to adding a 
     **Note:** The system only triggers activated flows.
 
 -   Deploy or transfer your flow to another instance.
-    -   [Deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md) your flow from the application repository when your application is complete and ready for release.
-    -   [Transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/update-set-transfers.md) your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
+    -   Deploy your flow from the application repository when your application is complete and ready for release.
+    -   Transfer your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
 
--   **[Create a flow with Now Assist](create-flow-now-assist.md)**  
+-   **[Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-now-assist.md)**  
 Use generative AI to create a flow from text directionsand images.
--   **[Create a flow with an inbound email trigger](create-inbound-email-flow.md)**  
+-   **[Create a flow with an inbound email trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-inbound-email-flow.md)**  
 Start a flow when your instance receives an email.
--   **[Create a flow with a Kafka Message trigger](create-flow-kafka.md)**  
+-   **[Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-kafka.md)**  
 Build a flow that processes events from a Kafka stream. Start the flow when an event is available in the specified topic.
--   **[Create a flow with a MetricBase trigger](create-mb-flow.md)**  
+-   **[Create a flow with a MetricBase trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-mb-flow.md)**  
 Start a flow when a MetricBase trigger is met. MetricBase triggers track time series data and can monitor when a threshold is reached, when a trend is detected, or when a system stops reporting data.
--   **[Create a flow with a Proactive Analytics trigger](create-flow-proactive-analytics.md)**  
+-   **[Create a flow with a Proactive Analytics trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-proactive-analytics.md)**  
 Use Performance Analytics indicators to start a flow. Define the flow start conditions as a set of Proactive Analytics KPI scores and KPI threshold values.
--   **[Create a flow with a Service Catalog trigger](create-sc-flow.md)**  
+-   **[Create a flow with a Service Catalog trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-sc-flow.md)**  
 Start a flow when a Service Catalog item is requested to automate the fulfillment process.
--   **[Create a flow with an SLA Task trigger](create-sla-task-flow.md)**  
+-   **[Create a flow with an SLA Task trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-sla-task-flow.md)**  
 Configure your Service Level Agreement \(SLA\) definition to run a flow as the action plan.
--   **[Create a flow with an external trigger](../../integrationhub/tasks/create-a-flow-with-an-external-trigger-definition.md)**  
+-   **[Create a flow with an external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-a-flow-with-an-external-trigger-definition.md)**  
 Set up a flow with a base system external trigger definition. The flow responds to an event-driven external trigger from a third-party system. For example, run a flow when an issue is created in a third-party issue-tracking system.
--   **[Create a flow with roles](create-flow-roles.md)**  
+-   **[Create a flow with roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-roles.md)**  
 Create a flow or subflow that runs with assigned roles. Assigning roles enables you to create a user-initiated flow that runs with its own roles rather than the user's roles.
--   **[Create flow Service Catalog variables](create-flow-catalog-variables.md)**  
+-   **[Create flow Service Catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-catalog-variables.md)**  
 Create Service Catalog variables that are only available to a specific Service Catalog flow. Flow-specific variables are available to catalog tasks and actions in the flow.
--   **[Create a decision table in a flow](create-decision-table-flow.md)**  
+-   **[Create a decision table in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-decision-table-flow.md)**  
 Create the structure for a decision table while you author your flow in Workflow Studio. Use data from the flow to create inputs, conditions, and results for the decision table, all in a convenient modal. For example: You can store the logic for incident assignments in a Decision Table, and then use that Decision Table within a flow.
--   **[Copy a flow](copy-flow.md)**  
+-   **[Copy a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/copy-flow.md)**  
 Copy a flow to give it a new name and move it to another application scope.
--   **[Duplicate an action or subflow](duplicate-action-subflow.md)**  
+-   **[Duplicate an action or subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/duplicate-action-subflow.md)**  
 Duplicate an action or subflow within a flow.
--   **[Test a flow](flow-test.md)**  
+-   **[Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md)**  
 Before activating a flow so other users can access it, test to make certain it works the way you expect.
--   **[Activate a flow](flow-activate.md)**  
+-   **[Activate a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-activate.md)**  
 Activate a flow to make it available to run.
--   **[Change a flow or action's default title](manage-natural-language-title.md)**  
+-   **[Change a flow or action's default title](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/manage-natural-language-title.md)**  
 Change the default title for a flow, subflow, or action by adding styled and dynamic text.
--   **[Edit a flow](flow-edit.md)**  
+-   **[Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-edit.md)**  
 Edit an existing flow.
--   **[Delete a flow](flow-delete.md)**  
+-   **[Delete a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-delete.md)**  
 Delete a flow that you no longer need.
--   **[View activated flows for a table](view-activated-flows.md)**  
+-   **[View activated flows for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/view-activated-flows.md)**  
 View flows with record-based triggers that run on a specific table.
 
-**Parent Topic:**[Building flows](../concept/flows.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md)
 

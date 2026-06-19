@@ -2,6 +2,7 @@
 title: Configure the download size of Microsoft Azure billing data
 description: A single set of cloud billing data can be large. The MID Server, therefore, sends the data to the ECC queue in manageable chunks. You can optionally configure a system property to limit the size of each chunk to avoid performance issues caused by large data transfers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/azure-billing-pagesize-cloud-mgt.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

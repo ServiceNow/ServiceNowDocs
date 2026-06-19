@@ -2,6 +2,7 @@
 title: Create an operational toggle
 description: Create an operational toggle to maintain system run levels that throttle the application operation. Operational toggles enhance your users' experience by tailoring resource consumption to system run levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/create-operational-toggle.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  On the Operational Toggles form, fill in the fields.
 
-    For a description of the field values, see [Operational toggles form](../reference/operational-toggles-form.md)
+    For a description of the field values, see [Operational toggles form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/operational-toggles-form.md)
 
 4.  Select **Submit**.
 

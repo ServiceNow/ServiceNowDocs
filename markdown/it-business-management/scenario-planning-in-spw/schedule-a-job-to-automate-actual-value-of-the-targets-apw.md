@@ -2,6 +2,7 @@
 title: Update a schedule job to automate Actual value of the targets
 description: Use the Goal Framework for SPM application to modify the run time for the scheduled job according to your preference to auto-update the actual value of the targets for which a target source has been configured.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/schedule-a-job-to-automate-actual-value-of-the-targets-apw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -35,8 +36,8 @@ By default, the scheduled job runs daily at 00:00:00 AM \(System Time Zone\).
 
 5.  Click **Update**.
 
-    To learn more about scheduled jobs, see [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md).
+    To learn more about scheduled jobs, see Scheduled jobs.
 
 
-**Parent Topic:**[Configuring goals in Strategic Planning](../concept/configuring-goal-framework-apw.md)
+**Parent Topic:**[Configuring goals in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/configuring-goal-framework-apw.md)
 

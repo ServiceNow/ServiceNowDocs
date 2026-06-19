@@ -1,7 +1,8 @@
 ---
 title: Edit a Published Report Template
-description: Use this section to edit a published report template.
+description: Customize published report templates by modifying their content fields and related lists to better meet your reporting requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/edit-report-templates.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -13,7 +14,7 @@ breadcrumb: [About Report Templates in TISC, Administer, Threat Intelligence Sec
 
 # Edit a Published Report Template
 
-Use this section to edit a published report template.
+Customize published report templates by modifying their content fields and related lists to better meet your reporting requirements.
 
 ## Before you begin
 
@@ -25,26 +26,26 @@ Role required: sn\_sec\_tisc.admin
 
 2.  Select **Reports** &gt; **Report Template**.
 
-3.  Select the required report template.
+3.  Select the appropriate report template.
 
-4.  Select **Edit** button which is displayed on the Report Template.
+4.  Select **Edit** that appears on the Report Template.
 
     **Note:**
 
-    A confirmation message is displayed indicating that you're editing a published template and must republish the template to make it available under Case Reports. Do you want to continue editing? This means that you need to republish the edited template after making the necessary changes.
+    A confirmation message appears. It indicates that you're editing a published template and must republish it to make it available under Case Reports. Do you want to continue editing? You must republish the template after making changes.
 
-5.  Select **Edit** in the confirmation dialogue box.
+5.  Select **Edit** in the confirmation dialog box.
 
-6.  Make the necessary changes by adding the required content fields or related list.
+6.  Make the necessary changes by adding the appropriate content fields or related list.
 
 7.  Select **Save Content**.
 
-8.  Select **Publish** button to publish the changes.
+8.  Select **Publish** to publish the changes.
 
-    Once you publish the report template, a confirmation message is displayed indicating that the report template is published successfully.
+    After you publish the report template, a confirmation message appears indicating that the report template published successfully.
 
     **Note:**
 
     -   You can also preview the report template contents before publishing the report template.
-    -   In case if you want to delete the report template, you can select **Delete** to delete the report template.
+    -   If you want to delete the report template, you can select **Delete** to delete the report template.
 

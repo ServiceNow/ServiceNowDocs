@@ -2,6 +2,7 @@
 title: Setting up Proactive Engagement
 description: Setting up Proactive Engagement enhances the issue resolution capabilities of the organisation to help employees resolve their digital experience issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/setting-up-proactive-engagement.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -60,5 +61,5 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Proactive Engagement](configuring-proactive-engagement.md)
+**Parent Topic:**[Configuring Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/configuring-proactive-engagement.md)
 

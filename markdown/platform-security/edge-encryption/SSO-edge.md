@@ -2,6 +2,7 @@
 title: Set up multiple provider SSO with Edge Encryption
 description: Set up multiple provider SSO to enable logging in through the Edge Encryption proxy server URL or the instance URL. If you are implementing multiple provider single sign-on \(SSO\) with Edge Encryption enabled, some users might need to log in to your instance through the Edge Encryption proxy server, while other users might not.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/SSO-edge.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -19,7 +20,7 @@ Set up multiple provider SSO to enable logging in through the Edge Encryption pr
 
 -   Enable the Integration - Multiple Provider Single Sign-On Installer plugin \(com.snc.integration.sso.multi.installer\).
 -   Enable the Edge Encryption plugin \(com.glide.edgeencryption\) and ensure that one or more proxy servers are set up in your network.
--   Determine the URL for the Edge Encryption proxy server that users will log in through using multiple provider SSO. To determine the URL of an Edge Encryption proxy server, see [Installing Edge Encryption](../concept/c_InstallEdgeEncryptionProxy.md).
+-   Determine the URL for the Edge Encryption proxy server that users will log in through using multiple provider SSO. To determine the URL of an Edge Encryption proxy server, see [Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md).
 
 Role required: admin
 
@@ -50,7 +51,7 @@ The user logging in will need to use the appropriate URL to log in, either using
 
 3.  Create two identity provider records for the same identity provider: one using the instance URL and one using the Edge Encryption proxy server URL.
 
-    To create an identity provider record, see [Create an external identity provider](../../../integrate/single-sign-on/task/t_CreateUpdateIdentityProvider.md).
+    To create an identity provider record, see [Create an external identity provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateUpdateIdentityProvider.md).
 
     1.  For the Edge Encryption proxy server URL, complete the form using these values.
 
@@ -186,7 +187,7 @@ Audience URI
 
 5.  If using more than one company, configure users for multi-provider SSO and update sys\_id of the identity provider record depending on the user.
 
-    For more information, see [Configure users for Multi-Provider SSO](../../../integrate/single-sign-on/task/t_ConfigureUsersMultiProviderSSO.md).
+    For more information, see [Configure users for Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ConfigureUsersMultiProviderSSO.md).
 
     -   To configure a user to log in through the Edge Encryption proxy server, use the sys\_id of the identity provider record that uses the Edge Encryption proxy server URL.
     -   To configure a user to log in to the instance, use the sys\_id of the identity provider record that uses the instance URL.
@@ -196,5 +197,5 @@ Audience URI
     |`https://<instance name>.service-now.com/login_with_sso.do?glide_sso_id=<sys_id of IdP record for the instance URL>`|Logs in through the instance.|
 
 
-**Parent Topic:**[Installing Edge Encryption](../concept/c_InstallEdgeEncryptionProxy.md)
+**Parent Topic:**[Installing Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_InstallEdgeEncryptionProxy.md)
 

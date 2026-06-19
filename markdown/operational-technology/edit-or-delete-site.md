@@ -2,11 +2,14 @@
 title: Edit or delete a Site
 description: Edit a site to update its information or delete a site that no longer exists on your Discovery Console for OT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-or-delete-site.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sites page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Sites page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit or delete a Site
@@ -23,7 +26,7 @@ Role required: admin
 
 2.  Edit a site, complete the following.
 
-    1.  Next to the site in the Edit column, select the edit site icon \(![](../../../../msi-console/image/edit-icon-ot-console.png).
+    1.  Next to the site in the Edit column, select the edit site icon \(\[Omitted image "edit-icon-ot-console.png"\] Alt text:.
 
     2.  Update and save your changes.
 
@@ -31,7 +34,7 @@ Role required: admin
 
 3.  Delete a site
 
-    1.  Next to the site in the Delete column, select the delete site icon ![](../../../../msi-console/image/delete-icon-ot-console.png).
+    1.  Next to the site in the Delete column, select the delete site icon \[Omitted image "delete-icon-ot-console.png"\] Alt text:.
 
     2.  Confirm that you want to permanently delete this site, and select **Delete Site**.
 

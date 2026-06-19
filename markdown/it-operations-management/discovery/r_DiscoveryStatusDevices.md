@@ -2,6 +2,7 @@
 title: Discovery device history
 description: The Devices Related list in the Discovery Status form provides a summary list of all the devices scanned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/r\_DiscoveryStatusDevices.html
 release: australia
 product: Discovery
 classification: discovery
@@ -17,11 +18,11 @@ The **Devices** Related list in the Discovery Status form provides a summary lis
 
 During a Discovery, the list tracks current and completed activity and displays an incremental scan counter. When Discovery is finished for a device, the final disposition is displayed in the Completed activity column. Successful discoveries that result in updated or created configuration items \(CIs\) are highlighted in green. When device history or duplicate IP record is created, the classification\_probe is also populated. To view the log entries for errors \(such as connection failure\) on a specific device, select the **Details** link in the Issues column.
 
-![Discovery device list](../image/discovery_device_list.png "Discovery device list")
+\[Omitted image "discovery\_device\_list.png"\] Alt text: Discovery device list
 
 Select the IP address of a device in this list for details about that device. The log results for that device are displayed in the list at the bottom of the form.
 
-![Discovery device](../image/DiscoveryDevice.png "Discovery device")
+\[Omitted image "DiscoveryDevice.png"\] Alt text: Discovery device
 
 The following fields are available in this form:
 
@@ -69,11 +70,11 @@ Any device that includes the following classes or one of its child classes will 
 
 If there were issues, or if Discovery failed to complete, select the **Details** link to view the log records for the issue. The failure of any probe is considered an issue, even if the device was eventually classified properly and updated in the CMDB.
 
-![Discovery details about a device](../image/DiscoveryDetails.png "Discovery details about a device")
+\[Omitted image "DiscoveryDetails.png"\] Alt text: Discovery details about a device
 
 ## Address scan data
 
-When Discovery scans for IP addresses only \(without credentials or [identifiers](../concept/c_DiscoveryIdentifiers.md)\), no updates are made to the CMDB. All IP addresses discovered appear on this list, including multiple IPs on the same device. The results of IP address scans include slightly different information than the results of a CI scan. Since there is no CMDB activity associated with the IP address scan, the Completed activity column displays only the classification status.
+When Discovery scans for IP addresses only \(without credentials or [identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)\), no updates are made to the CMDB. All IP addresses discovered appear on this list, including multiple IPs on the same device. The results of IP address scans include slightly different information than the results of a CI scan. Since there is no CMDB activity associated with the IP address scan, the Completed activity column displays only the classification status.
 
 Possible statuses are:
 
@@ -83,5 +84,5 @@ Possible statuses are:
 
 For Classified devices, Discovery might identify the type of device in the Current activity column. For example, Network Gear might be classified as Cisco Network Gear, and a Computer might be classified as a Windows Computer.
 
-**Parent Topic:**[Discovery status](../concept/c_DiscoveryStatus.md)
+**Parent Topic:**[Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryStatus.md)
 

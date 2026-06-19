@@ -2,6 +2,7 @@
 title: Configure a task record form in Service Operations Workspace
 description: Configure a task record form in Service Operations Workspace by modifying the form layout or related lists from the classic ServiceNow AI Platform user interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-form-layout-task.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -34,10 +35,10 @@ A task record, for example, problem or incident, has the following editable view
 
     |Option|Description|
     |------|-----------|
-    |**Edit the form view that appears while creating a record**|Select the additional actions icon \(![Additional actions icon](../../enterprise-dev-ops/image/additional-actions-icon.png)\) on the header and navigate to **View** &gt; **Service Operations Workspace New Record**.|
-    |**Edit the form view that appears after saving the record**|Select the additional actions icon \(![Additional actions icon](../../enterprise-dev-ops/image/additional-actions-icon.png)\) on the header and navigate to **View** &gt; **Service Operations Workspace**.|
+    |**Edit the form view that appears while creating a record**|Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) on the header and navigate to **View** &gt; **Service Operations Workspace New Record**.|
+    |**Edit the form view that appears after saving the record**|Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) on the header and navigate to **View** &gt; **Service Operations Workspace**.|
 
-3.  On the task record form, for example, in an incident form, select the additional actions icon \(![Additional actions icon](../../enterprise-dev-ops/image/additional-actions-icon.png)\) and perform any of the following actions.
+3.  On the task record form, for example, in an incident form, select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) and perform any of the following actions.
 
     |Option|Description|
     |------|-----------|
@@ -49,5 +50,5 @@ A task record, for example, problem or incident, has the following editable view
 5.  Select **Save**.
 
 
-**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](../concept/configuring-record-pages-sow-itsm.md)
+**Parent Topic:**[Configuring record pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-record-pages-sow-itsm.md)
 

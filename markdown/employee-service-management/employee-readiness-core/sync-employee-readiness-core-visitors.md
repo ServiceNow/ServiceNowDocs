@@ -2,6 +2,7 @@
 title: Synchronize Employee Readiness Core visitors with Workplace Visitor Management
 description: As an administrator, synchronize the visitor tables in the Employee Readiness Core and Workplace Visitor Management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/sync-employee-readiness-core-visitors.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -19,7 +20,7 @@ As an administrator, synchronize the visitor tables in the Employee Readiness Co
 
 To successfully enable visitor synchronization between Employee Readiness Core and the Workplace Visitor Management application in Workplace Service Delivery, note the following requirements:
 
--   The Workplace Visitor Management application must be installed. For more information, see [Install Workplace Visitor Management](../../workplace-visitor-mgmt/task/install-workplace-visitor-mgmt.md).
+-   The Workplace Visitor Management application must be installed. For more information, see [Install Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/install-workplace-visitor-mgmt.md).
 -   Ensure your organization has a data backup before running the `Sync Visitors` fix script. Otherwise, syncing is not reversible.
 
 Role required: admin or sn\_imt\_core.admin
@@ -32,7 +33,7 @@ An initial synchronization using the `Sync Visitors` fix script is required befo
 
 Any data conflicts are resolved by using the most recent changes to a table. After the tables are synchronized, updates to one table automatically are reflected on the other.
 
-**Important:** Do not delete visitors from the Employee Readiness Core sn\_imt\_core\_visitor table because they do not sync back to Workplace Visitor Management. Deletions from the sn\_wsd\_visitor\_visitor table are performed when you anonymize a visitor. Anonymized data does sync to the sn\_imt\_core\_visitor table. For more information on anonymizing visitors or deleting visitor data in Workplace Visitor Management, see [Anonymize a visitor](../../workplace-visitor-mgmt/task/anonymize-visitor.md).
+**Important:** Do not delete visitors from the Employee Readiness Core sn\_imt\_core\_visitor table because they do not sync back to Workplace Visitor Management. Deletions from the sn\_wsd\_visitor\_visitor table are performed when you anonymize a visitor. Anonymized data does sync to the sn\_imt\_core\_visitor table. For more information on anonymizing visitors or deleting visitor data in Workplace Visitor Management, see [Anonymize a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/anonymize-visitor.md).
 
 Synchronization can be disabled; however, the initial sync is irreversible without a backup.
 
@@ -63,5 +64,5 @@ Visitor records synchronize between the Employee Readiness Core visitor table an
 
 If your organization wants to disable synchronization, navigate to **Employee Health and Safety Status** &gt; **Properties**, clear the **sn\_imt\_core.visitor\_syncing** check box, and click **Save**.
 
-**Parent Topic:**[Employee Health and Safety Status](../concept/employee-health-safety-status.md)
+**Parent Topic:**[Employee Health and Safety Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-health-safety-status.md)
 

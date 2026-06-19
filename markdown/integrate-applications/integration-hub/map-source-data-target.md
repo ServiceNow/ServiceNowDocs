@@ -2,6 +2,7 @@
 title: Map source data to a target table
 description: Specify how source data is transformed to your target tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/map-source-data-target.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Specify how source data is transformed to your target tables.
 
 ## Before you begin
 
-[Configure a data source](configure-data-source.md).
+[Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-data-source.md).
 
 Role required: admin or ih\_import.
 
@@ -39,13 +40,13 @@ Role required: admin or ih\_import.
         |-----|-----------|
         |Target table|Name of the table to transform your data to.|
         |Run table's business rules when importing|Option to run the target table's business rules when you import the data.|
-        |Run the import synchronously|Option to run the import synchronously. When data is transformed in parallel, and there are multiple source records with a specific coalesce value, checking this option ensures that only one record with that coalesce value is inserted at a time. For more information, see the Synchronized inserts section on the [Concurrent imports](../../import-sets/concept/concurrent-imports.md) page.|
+        |Run the import synchronously|Option to run the import synchronously. When data is transformed in parallel, and there are multiple source records with a specific coalesce value, checking this option ensures that only one record with that coalesce value is inserted at a time. For more information, see the Synchronized inserts section on the [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/concurrent-imports.md) page.|
 
     3.  Select **Save**.
 
         You can add multiple target tables to your integration. Repeat steps 4a through 4c for each target table you want to add.
 
-        Tables are listed in the order they're added. You can change the order by using the drag icon ![drag icon](../images/drag-icon.png)to the left of each table card to drag the card to a different position. The order of the table cards determines the order in which data is transformed into the target tables at runtime.
+        Tables are listed in the order they're added. You can change the order by using the drag icon \[Omitted image "drag-icon.png"\] Alt text: drag iconto the left of each table card to drag the card to a different position. The order of the table cards determines the order in which data is transformed into the target tables at runtime.
 
         **Note:** You can't select the same table more than once, and you can't select an extended table or parent table of a table already in the integration.
 
@@ -70,9 +71,9 @@ Role required: admin or ih\_import.
 
     3.  Map data by dragging data pills from the source to the **Value** column on the target table.
 
-        You can also map data by using the pill picker \(![Pill picker icon](../images/pill-picker-green.png)\) on the right side of the target table. You can enter more than one value in the Value column, you can also enter text.
+        You can also map data by using the pill picker \(\[Omitted image "pill-picker-green.png"\] Alt text: Pill picker icon\) on the right side of the target table. You can enter more than one value in the Value column, you can also enter text.
 
-        After you map a source field to a target field, a small check mark icon \(![check mark icon](../images/check-mark-icon.png)\) appears next to the source field name. If you move your cursor to the check mark, the tooltip lists the target fields that source field has been mapped to, up to five fields.
+        After you map a source field to a target field, a small check mark icon \(\[Omitted image "check-mark-icon.png"\] Alt text: check mark icon\) appears next to the source field name. If you move your cursor to the check mark, the tooltip lists the target fields that source field has been mapped to, up to five fields.
 
     4.  Use the **Match** toggle switch to specify fields where the system should check for matching data and, if found, update existing records instead of creating new ones.
 
@@ -82,7 +83,7 @@ Role required: admin or ih\_import.
         -   If the **Match** toggle switch for the **Order number** field is off, the system doesn't check for matching data. If the source data has a record with the same order number, the system creates a new record in the target table. In this case, the target table will have two records, both with an order number of 743.
     5.  For choice and reference fields, specify the column to map data to.
 
-        1.  Select the gear icon \(![Gear icon](../../../build/app-engine-studio/image/gear-icon.png)\).
+        1.  Select the gear icon \(\[Omitted image "gear-icon.png"\] Alt text: Gear icon\).
         2.  In **Field**, select the column to map to.
         3.  In **If no matching record exists then do the following**, specify what to do if that column isn't available.
             -   **Create a new choice/record**: Creates the choice or record in the target table.
@@ -91,11 +92,11 @@ Role required: admin or ih\_import.
         4.  Select **Done**.
     6.  Change or modify your data by applying transform functions.
 
-        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see [Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md).
+        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see Transform functions.
 
         **Note:** Not all the transform functions available while creating flows and subflows are available in Integration Hub - Import.
 
-        1.  Select the transform function icon \(![Transform function icon](../images/transform-function-icon.png)\).
+        1.  Select the transform function icon \(\[Omitted image "transform-function-icon.png"\] Alt text: Transform function icon\).
         2.  Select a transform function from the menu, then select **OK**.
         3.  To apply additional transform functions, select **Add a new transform**. Transform functions are applied in the order they're selected.
         4.  After you've added all your transform functions, select **Done**.
@@ -106,7 +107,7 @@ Role required: admin or ih\_import.
 
 ## What to do next
 
-[Run or schedule a data import](run-schedule-data-imports.md).
+[Run or schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/run-schedule-data-imports.md).
 
-**Parent Topic:**[Integration Hub - Import](../concept/integrationhub-imports.md)
+**Parent Topic:**[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
 

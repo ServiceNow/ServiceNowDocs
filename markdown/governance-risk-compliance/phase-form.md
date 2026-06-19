@@ -2,6 +2,7 @@
 title: Phase form
 description: To configure phases as part of recovery activities, use the Phase form to set up phases for recovery and event tasks in the BCM Configurable Workspace. You can then associate these phases with recovery and event tasks, enabling you to track their progression effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/phase-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

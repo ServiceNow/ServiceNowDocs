@@ -2,6 +2,7 @@
 title: spModal - Client
 description: Shows alerts, prompts, and confirmation dialogs in Service Portal widgets. The spModal class is available in Service Portal client scripts.Displays an alert.Displays a confirmation message.Opens a modal window using the specified options.Displays a prompt for user input.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/SPModal-API.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ Shows alerts, prompts, and confirmation dialogs in Service Portal widgets. The s
 
 The spModal class is a lightweight wrapper for Angular UI bootstrap's [$uibModal](https://angular-ui.github.io/bootstrap/#/modal). You can use the spModal.open\(\) method to display a widget in a modal dialog.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## spModal - alert\(String message\).then\(fn\)
 

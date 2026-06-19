@@ -2,6 +2,7 @@
 title: Target tables for storing API Service Graph Connector for Azure API Management data
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from an Azure API Management application. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] classes and other non-CMDB classes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/api-sgc-azure-mgmt-tables.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

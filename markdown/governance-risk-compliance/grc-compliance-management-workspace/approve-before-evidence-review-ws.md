@@ -2,6 +2,7 @@
 title: Approve evidence before evidence review using the Compliance Workspace
 description: Using the Compliance Workspace, approve the evidence being provided before the requester views the evidence. When evidence is provided in response to an evidence request, the evidence may need an approval before the evidence is sent back to the requester. This ability ensures security and confidentiality of the evidence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/approve-before-evidence-review-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

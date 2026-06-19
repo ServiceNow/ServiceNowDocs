@@ -2,6 +2,7 @@
 title: Formula building in a calculated metric definition
 description: In a calculated metric definition, you can create formulas to perform calculations for any data that you may require.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/formula-building-at-metric-definition-and-entity-level-irm.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -19,13 +20,13 @@ A formula consists of operands, operators, and functions. For example, to calcul
 
 When you build a formula in a calculated metric definition, you can choose to build it at either the metric definition level or at the entity level. Before you save the calculated metric definition form and create the score formula, you must specify the calculation level in the calculated metric definition form. The two levels are as follows:
 
--   **Metric definition**: If you select **Metric definition** in the **Calculation level** field, then the data across all child metric definitions or child metrics is used for calculation. When you select **Execute**, the formula is applied and the calculated metric definition data is generated. For more information, see [Configure the formula builder](../task/configure-formula-builder-irm.md). The following image shows how calculation occurs at the metric definition level: ![Calculation at the metric definition level.](../../metrics/image/formula-building-md-level.png)
--   **Entity**: If you select **Entity** in the **Calculation level** field and specify the calculation method using the formula builder, then the child metrics are created for the calculated metric definition. These metrics are created for each distinct entity that is associated with the metric definitions that have been used as operands in the formula. When you Execute the metric definition, the formula is applied and the metric data is generated. When you Aggregate the metric definition, the metric data is aggregated and the calculated metric data is generated. The following image shows how calculation occurs at the entity level:![Calculation at the entity level.](../../metrics/image/aggregation-entity-level.png)
+-   **Metric definition**: If you select **Metric definition** in the **Calculation level** field, then the data across all child metric definitions or child metrics is used for calculation. When you select **Execute**, the formula is applied and the calculated metric definition data is generated. For more information, see [Configure the formula builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-formula-builder-irm.md). The following image shows how calculation occurs at the metric definition level: \[Omitted image "formula-building-md-level.png"\] Alt text: Calculation at the metric definition level.
+-   **Entity**: If you select **Entity** in the **Calculation level** field and specify the calculation method using the formula builder, then the child metrics are created for the calculated metric definition. These metrics are created for each distinct entity that is associated with the metric definitions that have been used as operands in the formula. When you Execute the metric definition, the formula is applied and the metric data is generated. When you Aggregate the metric definition, the metric data is aggregated and the calculated metric data is generated. The following image shows how calculation occurs at the entity level:\[Omitted image "aggregation-entity-level.png"\] Alt text: Calculation at the entity level.
 
--   **[Configure the formula builder](../task/configure-formula-builder-irm.md)**  
+-   **[Configure the formula builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configure-formula-builder-irm.md)**  
 Specify the formula context, the tables, and the identifiers before you can build a formula.
--   **[Create a formula](../task/create-a-formula-irm.md)**  
+-   **[Create a formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-a-formula-irm.md)**  
 Build your own formula using either entities or metric definitions.
 
-**Parent Topic:**[Configuring metrics](configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

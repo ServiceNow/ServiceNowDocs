@@ -2,6 +2,7 @@
 title: Industrial Materials
 description: Use Industrial Materials to manage the materials used for the Industrial Connected Workforce \(ICW\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-materials.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -19,7 +20,7 @@ Use Industrial Materials to manage the materials used for the Industrial Connect
 
 The Industrial Materials feature provides a hierarchical view of all material classes defined in your system. It helps you manage and navigate through material classifications. Classes represent types, and materials are the actual products within each level of the tree.
 
-You can access the Industrial Materials feature by selecting the **Material model** icon \(![Material model icon](../image/material-model-icon.png)\) in the Digital Factory Workspace. The tree displays all material classes defined in your system, enabling you to navigate through the parent and child relationships. Select any material class to view its details, such as material instances with the **Materials** tab.
+You can access the Industrial Materials feature by selecting the **Material model** icon \(\[Omitted image "material-model-icon.png"\] Alt text: Material model icon\) in the Digital Factory Workspace. The tree displays all material classes defined in your system, enabling you to navigate through the parent and child relationships. Select any material class to view its details, such as material instances with the **Materials** tab.
 
 When you select a material class, a form loads displaying detailed information about the selected class. If you have sufficient permissions, you can edit the details. When you create classes and materials using the forms, the new entries appear at the configured level within the tree. The system supports inheritance behavior, which enables materials and classes to be configured at different levels.
 
@@ -36,5 +37,5 @@ The Industrial Materials feature has the following benefits.
 -   Helps explore and manage different material classes with related lists and search functionality.
 -   Enables collaboration among team members through URL sharing.
 
-**Parent Topic:**[Industrial Data Models](industrial-data-models.md)
+**Parent Topic:**[Industrial Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-data-models.md)
 

@@ -2,6 +2,7 @@
 title: Manage hiring team
 description: Add, edit, or remove hiring team members from a job requisition.Add members to a hiring team for a job requisition to create a panel of interviewers.Modify details of the hiring team members such as hiring roles, scheduling preference status, future slot availability, and so on.Remove members from a hiring team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/manage-hiring-team.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -15,7 +16,7 @@ breadcrumb: [Use, Recruitment Workspace, Hiring Experiences, HR Service Delivery
 
 Add, edit, or remove hiring team members from a job requisition.
 
-**Parent Topic:**[Using Recruitment workspace](use-recruit-workspace.md)
+**Parent Topic:**[Using Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/use-recruit-workspace.md)
 
 ## Add members to Hiring team
 
@@ -66,7 +67,7 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
     |Field|Description|
     |-----|-----------|
-    |Hiring role|Hiring role for the hiring team member. For details on roles, see [.](roles-in-ta.md)|
+    |Hiring role|Hiring role for the hiring team member. For details on roles, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/roles-in-ta.md)|
     |Visibility to applicant|Option to make the hiring team member visible to the applicant.|
     |Scheduling preference status|Status of the member's scheduling preference, whether requested, submitted, or not requested.|
     |Future slots available|Indicates if future slot availability has been shared.|

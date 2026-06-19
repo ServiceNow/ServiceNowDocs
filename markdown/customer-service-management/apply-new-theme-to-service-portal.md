@@ -2,7 +2,10 @@
 title: Match the theme of the decision tree component with the Service Portal page
 description: Customize the theme of the decision tree component to match the Service Portal theme.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/apply-new-theme-to-service-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Customize the theme of the decision tree component to match the Service Portal t
 
 ## Before you begin
 
-A variant UX theme to match the theme of the decision tree component with the Service Portal theme must exist. For more information, see [Manage the visual style of UI Builder experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/manage-the-visual-style-of-ui-builder-experiences.md).
+A variant UX theme to match the theme of the decision tree component with the Service Portal theme must exist. For more information, see .
 
 Role required: sp\_admin or admin
 
@@ -35,7 +38,7 @@ Role required: sp\_admin or admin
 
 6.  Provide the UX theme ID of the theme that you want to apply in the **Value** field.
 
-    1.  On the UX theme record, select the Additional actions icon \(![Additional actions icon](../../../use/collaboration/image/IconMenu.png)\).
+    1.  On the UX theme record, select the Additional actions icon \(\[Omitted image "IconMenu.png"\] Alt text: Additional actions icon\).
 
     2.  Select **Copy sys\_id** from the menu.
 

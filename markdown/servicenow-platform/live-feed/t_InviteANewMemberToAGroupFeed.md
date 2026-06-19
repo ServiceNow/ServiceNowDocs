@@ -2,6 +2,7 @@
 title: Invite a new member to a group feed
 description: The feed administrator can invite another user or a group to join a feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_InviteANewMemberToAGroupFeed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -36,5 +37,5 @@ When a team is added to a feed, all members of the team also indirectly become m
     The invited user or team members receive an email notification.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

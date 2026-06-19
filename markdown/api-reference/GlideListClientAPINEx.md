@@ -2,6 +2,7 @@
 title: GlideList \(Next Experience\) - Client
 description: The GlideList API provides methods to customize lists in the Next Experience UI Framework.Adds a single term to the list query filter.Returns a comma-separated list of the sys\_ids for the items that are checked in the associated list.Returns the fixed query.Returns the field or comma-separated list of fields that are used to group the list.Returns the name of the list, which is usually the table name.Returns the first field used to order the list.Returns the name of the parent table for a related list \(the table associated with the form\).Returns the encoded query string for the list.Returns the related list field that associates the related list to the parent form.Returns the table name for the list.Returns the list title.Returns the view used to display the list.Refreshes the list. The orderBy part of the list filter is ignored so that the list uses its natural ordering when it is refreshed.Refreshes the list. The orderBy part of the list filter is included if it is specified for the list.Sets the encoded query string for the list, ignoring the orderBy and groupBy parts of the query string.Sets the list groupBy criteria for a single field.Sets the orderBy criteria for the list.Sets the number of rows per page to display.Sorts the list in ascending order and sets the field as an orderBy column.Sorts a single field in the list in descending order and sets the field as an orderByDescField column.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/GlideListClientAPINEx.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,13 +18,13 @@ The GlideList API provides methods to customize lists in the Next Experience UI 
 
 This API enables adding GlideList functionality to a button in the Workspace Experience UI. Use the `g_list` variable to call each method.
 
-To add a button, create a list action and add GlideList method calls into the **Client Script** field `onClick{}` method. For instructions, see [Use the client GlideList API in the Workspace Experience UI](../../../../../administer/workspace/task/add-api-glide.md).
+To add a button, create a list action and add GlideList method calls into the **Client Script** field `onClick{}` method. For instructions, see [Use the client GlideList API in the Workspace Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/add-api-glide.md).
 
-![GlideList method calls in the Client Script field.](../../../../../administer/workspace/image/add-api-glidelist-workspace.png)
+\[Omitted image "add-api-glidelist-workspace.png"\] Alt text: GlideList method calls in the Client Script field.
 
 **Note:** Each method must be used with the refresh\(\) method, with the exceptions of sort\(\) and sortDescending\(\) methods.
 
-The methods in this API are based on [GlideList2](../../GlideList2/concept/c_GlideList2API.md#). The following GlideList2 methods are not supported in the Next Experience framework and cause an error in the console log:
+The methods in this API are based on [GlideList2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideList2API.md). The following GlideList2 methods are not supported in the Next Experience framework and cause an error in the console log:
 
 -   isUserList\(\)
 -   setFirstRow\(\)
@@ -32,17 +33,17 @@ The methods in this API are based on [GlideList2](../../GlideList2/concept/c_Gli
 -   toggleList\(\)
 -   toggleListNoPref\(\)
 
-**Parent Topic:**[Client Next Experience API reference](../../../../../build/applications/concept/api-client-next.md)
+**Parent Topic:**[Client Next Experience API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client-next.md)
 
 ## GlideList \(Next Experience\) - addFilter\(String filter\)
 
 Adds a single term to the list query filter.
 
-See also [setFilter\(\)](GlideListClientAPINEx.md#).
+See also [setFilter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md).
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
+|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
 
 |Type|Description|
 |----|-----------|
@@ -87,7 +88,7 @@ Returns the fixed query.
 
 A fixed query is the part of the query that cannot be removed from the breadcrumb \(i.e., it is fixed for the user\).
 
-Apply this method under **Related List Actions** in the Workspace Experience UI. For instructions, see [Use the client GlideList API in the Workspace Experience UI](../../../../../administer/workspace/task/add-api-glide.md).
+Apply this method under **Related List Actions** in the Workspace Experience UI. For instructions, see [Use the client GlideList API in the Workspace Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/add-api-glide.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -115,8 +116,8 @@ Returns the field or comma-separated list of fields that are used to group the l
 
 See also:
 
--   [getQuery\(\)](GlideListClientAPINEx.md#)
--   [setGroupBy\(\)](GlideListClientAPINEx.md#)
+-   [getQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [setGroupBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -164,8 +165,8 @@ Returns the first field used to order the list.
 
 See also:
 
--   [getQuery\(\)](GlideListClientAPINEx.md#)
--   [setOrderBy\(\)](GlideListClientAPINEx.md#)
+-   [getQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [setOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -215,11 +216,11 @@ Returns the encoded query string for the list.
 
 See also:
 
--   [getFixedQuery\(\)](GlideListClientAPINEx.md#)
--   [getGroupBy\(\)](GlideListClientAPINEx.md#)
--   [getOrderBy\(\)](GlideListClientAPINEx.md#)
--   [setGroupBy\(\)](GlideListClientAPINEx.md#)
--   [setOrderBy\(\)](GlideListClientAPINEx.md#)
+-   [getFixedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [getGroupBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [getOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [setGroupBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [setOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
 
 <table id="table_us2_nww_15" class="parameters"><thead><tr><th>
 
@@ -477,11 +478,11 @@ g_list.refreshWithOrderBy();
 
 Sets the encoded query string for the list, ignoring the **orderBy** and **groupBy** parts of the query string.
 
-See also [addFilter\(\)](GlideListClientAPINEx.md#).
+See also [addFilter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md).
 
 |Name|Type|Description|
 |----|----|-----------|
-|filter|String|Encoded query string in standard Glide format. See [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
+|filter|String|Encoded query string in standard Glide format. See Encoded query strings.|
 
 |Type|Description|
 |----|-----------|
@@ -500,8 +501,8 @@ Sets the list **groupBy** criteria for a single field.
 
 See also:
 
--   [getGroupBy\(\)](GlideListClientAPINEx.md#)
--   [getQuery\(\)](GlideListClientAPINEx.md#)
+-   [getGroupBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [getQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -526,10 +527,10 @@ For a single order by field, use **orderBy** field or **orderByDesc** field. For
 
 See also:
 
--   [getOrderBy\(\)](GlideListClientAPINEx.md#)
--   [getQuery\(\)](GlideListClientAPINEx.md#)
--   [sort\(\)](GlideListClientAPINEx.md#)
--   [sortDescending\(\)](GlideListClientAPINEx.md#)
+-   [getOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [getQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [sort\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [sortDescending\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -571,10 +572,10 @@ Sorts the list in ascending order and sets the field as an **orderBy** column.
 
 See also:
 
--   [getOrderBy\(\)](GlideListClientAPINEx.md#)
--   [getQuery\(\)](GlideListClientAPINEx.md#)
--   [setOrderBy\(\)](GlideListClientAPINEx.md#)
--   [sortDescending\(\)](GlideListClientAPINEx.md#)
+-   [getOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [getQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [setOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [sortDescending\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
 
 **Note:** This method does not require the refresh\(\) method.
 
@@ -598,10 +599,10 @@ Sorts a single field in the list in descending order and sets the field as an **
 
 See also:
 
--   [getOrderBy\(\)](GlideListClientAPINEx.md#)
--   [getQuery\(\)](GlideListClientAPINEx.md#)
--   [setOrderBy\(\)](GlideListClientAPINEx.md#)
--   [sortDescending\(\)](GlideListClientAPINEx.md#)
+-   [getOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [getQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [setOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
+-   [sortDescending\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md)
 
 **Note:** This method does not require the refresh\(\) method.
 

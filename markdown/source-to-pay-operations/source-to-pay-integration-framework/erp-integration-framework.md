@@ -2,6 +2,7 @@
 title: ERP Integration Framework
 description: The Source-to-Pay \(S2P\) ERP Integration Framework enables seamless data exchange between ServiceNow and third-party Enterprise Resource Planning \(ERP\) systems. This framework supports comprehensive integration of primary data, transactional data \(purchase orders, receipts, invoices\), fixed assets, and tax information across multiple ERP instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-integration-framework.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -44,7 +45,7 @@ The ERP Integration Framework application loads primary data into Source-to-Pay 
 
 Both the ERP Integration Framework and Source-to-Pay Integration Framework applications provide an abstraction layer between the Source-to-Pay application and backend systems. This design shields Source-to-Pay workflows and data models from backend-specific integration components and data structures.
 
-![Source-to-Pay Operations Integration Architecture](../image/s2p-data-architecture.png "Source-to-Pay Operations Integration Architecture")
+\[Omitted image "s2p-data-architecture.png"\] Alt text: Source-to-Pay Operations Integration Architecture
 
 **Required Applications**
 
@@ -52,7 +53,7 @@ The integration requires the Finance – ERP Integration store application to be
 
 ## MID Server Requirement
 
-A MID Server is required for ERP integrations using SOAP services. The MID Server must be installed and configured to connect to the ERP system server. See [Installing the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md) for details.
+A MID Server is required for ERP integrations using SOAP services. The MID Server must be installed and configured to connect to the ERP system server. See Installing the MID Server for details.
 
 **Note:** MID Server integration is only required for SOAP-based integrations, not for REST-based integrations.
 

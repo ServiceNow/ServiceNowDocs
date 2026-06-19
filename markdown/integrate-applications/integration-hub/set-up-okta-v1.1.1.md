@@ -2,6 +2,7 @@
 title: Set up Okta spoke
 description: Integrate the Okta spoke with Okta to automate various actions on Okta. For example, you can automate the activation of a user on Okta. To integrate, connect your ServiceNow instance and Okta using an API key or OAuth authentication.Integrate the ServiceNow instance and your Okta account using an API key to authenticate ServiceNow requests.Generate an API key on your Okta organization or developer account to have the connection record authenticated by the Okta developer's or organizational account.Create Credential records to the Okta application that you created. The Okta spoke connection and credential alias uses these credentials to authorize actions.Create a Connection record to the Okta API. The Okta spoke connection and credential alias uses these connections to perform actions in Okta.Integrate the ServiceNow instance and your Okta account by creating a custom OAuth application in Okta to authenticate the ServiceNow requests.Create a custom OAuth application in your Okta developer's account to enable OAuth 2.0 authentication of the requests from your ServiceNow instance.Create a connection record that contains the information to connect to the Okta server. Your ServiceNow instance uses this form to send authentication requests to the OAuth application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-okta-v1.1.1.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -14,8 +15,6 @@ breadcrumb: [Okta Spoke, Integration Hub spokes, Build integrations, Integration
 # Set up Okta spoke
 
 Integrate the Okta spoke with Okta to automate various actions on Okta. For example, you can automate the activation of a user on Okta. To integrate, connect your ServiceNow instance and Okta using an API key or OAuth authentication.
-
-Set up the Okta spoke.
 
 ## Before you begin
 
@@ -55,7 +54,7 @@ The API key enables the Okta organization or developer account to authenticate a
 
 3.  On the API page, select Tokens.
 
-    ![Token tab.](../image/okta-spoke-token-menu.png)
+    \[Omitted image "okta-spoke-token-menu.png"\] Alt text: Token tab.
 
 4.  Select **Create token**.
 
@@ -65,13 +64,13 @@ The API key enables the Okta organization or developer account to authenticate a
 
     The token is created.
 
-    ![Token created.](../image/okta-spoke-token-created.png)
+    \[Omitted image "okta-spoke-token-created.png"\] Alt text: Token created.
 
 7.  Copy the API token and store at a secured place.
 
     Note the expiry date of the token.
 
-    ![Token expiry date.](../image/okta-spoke-token-expiry-date.png)
+    \[Omitted image "okta-spoke-token-expiry-date.png"\] Alt text: Token expiry date.
 
 
 ### Create an API Key credential record for the Okta spoke
@@ -122,7 +121,7 @@ API Key
 
 </td><td>
 
-API token that you had generated in your Okta account in the format `SSWS <API token>`. Replace `<API token>` with the API token.To learn how to generate an API token, see [Generate an API key to request authentication](set-up-okta-v1.1.1.md#).
+API token that you had generated in your Okta account in the format `SSWS <API token>`. Replace `<API token>` with the API token.To learn how to generate an API token, see [Generate an API key to request authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +205,7 @@ Administrator access to Okta Developer's or Organization account
 
 3.  On the Applications page, select **Create App Integration**.
 
-    ![Create App Integration.](../image/okta-spoke-oauth-createappintegration-button.png)
+    \[Omitted image "okta-spoke-oauth-createappintegration-button.png"\] Alt text: Create App Integration.
 
 4.  On the Create a new app integration window, select OIDC - OpenID Connect.
 
@@ -214,7 +213,7 @@ Administrator access to Okta Developer's or Organization account
 
     -   OIDC - OpenID Connect
     -   Web Application
-6.  Select **Next**.![OAuth app settings.](../image/okta-spoke-oauth-settings.png)
+6.  Select **Next**.\[Omitted image "okta-spoke-oauth-settings.png"\] Alt text: OAuth app settings.
 
 7.  Fill the form.
 
@@ -293,13 +292,13 @@ Option to assign access to Okta integration in your organization. To assign acce
 </td></tr></tbody>
 </table>8.  Select **Save**.
 
-    The OAuth application is created.![Okta OAuth application created.](../image/okta-spoke-oauth-app-created.png)
+    The OAuth application is created.\[Omitted image "okta-spoke-oauth-app-created.png"\] Alt text: Okta OAuth application created.
 
 9.  Grant permissions to access Okta APIs.
 
     1.  Select **Okta API Scopes**.
 
-        ![Okta API Scopes tab.](../image/okta-spoke-okta-scope-tab.png)
+        \[Omitted image "okta-spoke-okta-scope-tab.png"\] Alt text: Okta API Scopes tab.
 
     2.  Under **Actions**, select **Grant for the APIs**.
 
@@ -323,7 +322,7 @@ Create a connection record that contains the information to connect to the Okta 
 
 #### Before you begin
 
-**Important:** If you have configured different OAuth scopes as mentioned in step 9 of [Create an OAuth application in Okta](set-up-okta-v1.1.1.md#), do not perform this procedure. Instead, perform the steps outlined in [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/connect-3rd-party-oauth-provider.md) and add the corresponding OAuth scopes that align with your Okta Web Application that are granted in step 9 of [Create an OAuth application in Okta](set-up-okta-v1.1.1.md#).
+**Important:** If you have configured different OAuth scopes as mentioned in step 9 of [Create an OAuth application in Okta](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md), do not perform this procedure. Instead, perform the steps outlined in  and add the corresponding OAuth scopes that align with your Okta Web Application that are granted in step 9 of [Create an OAuth application in Okta](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-okta-v1.1.1.md).
 
 Role required: admin.
 
@@ -337,11 +336,11 @@ Role required: admin.
 
     **Note:** The Outbound tab is enabled by default. Confirm that it's enabled.
 
-    ![Outbound tab is enabled.](../image/outbound-tab.png)
+    \[Omitted image "outbound-tab.png"\] Alt text: Outbound tab is enabled.
 
 4.  On the Okta spoke tile, select **View Details**.
 
-    ![View Details button on Okta spoke alias.](../image/okta-spoketile.png)
+    \[Omitted image "okta-spoketile.png"\] Alt text: View Details button on Okta spoke alias.
 
 5.  Select **Configure**.
 
@@ -359,7 +358,7 @@ Role required: admin.
     |OAuth Client Secret|The client secret generated in the Okta developer's account.|
     |OAuth Redirect URL|Redirect the URL to your ServiceNow instance. The format is `https://{instance-name}.service-now.com/oauth_redirect.do`.|
 
-    ![Okta spoke connection form.](../image/okta-conn-form.png)
+    \[Omitted image "okta-conn-form.png"\] Alt text: Okta spoke connection form.
 
 7.  Select **Configure and Get OAuth Token**.
 

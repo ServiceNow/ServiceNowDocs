@@ -2,6 +2,7 @@
 title: Enable a shopper to purchase on behalf of another user
 description: Configure the Shopping Hub to enable a shopper to purchase on behalf of another user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/config-shoppinghub-purchase-behalf.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -25,7 +26,7 @@ Role required: sn\_shop.procurement\_administrator
 
 2.  Select **New**.
 
-    ![ShoppingHub Configuration form with "Purchase on behalf of" selected as configuration type.](../image/sh-config-behalf.png)
+    \[Omitted image "sh-config-behalf.png"\] Alt text: ShoppingHub Configuration form with "Purchase on behalf of" selected as configuration type.
 
 3.  On the form, fill in the fields.
 
@@ -42,5 +43,5 @@ Role required: sn\_shop.procurement\_administrator
 4.  Select **Submit**.
 
 
-**Parent Topic:**[ShoppingHub configuration](../concept/shoppinghub-configurations.md)
+**Parent Topic:**[ShoppingHub configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shoppinghub-configurations.md)
 

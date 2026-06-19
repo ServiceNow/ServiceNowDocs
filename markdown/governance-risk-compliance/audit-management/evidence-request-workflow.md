@@ -2,6 +2,7 @@
 title: Evidence request workflow and users
 description: Evidence request helps customers to electronically request the information that they need from the first and second line of defense. The individuals being audited can then immediately upload their documents to the system, significantly reducing manual processing time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/evidence-request-workflow.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -35,7 +36,7 @@ The evidence request workflow is as follows:
     -   delete the request.
 9.  If the requester accepts all the evidence tasks, the request is closed.
 
-The evidence request workflow is shown in the following figure:![Workflow of evidence request](../image/evidence-request-workflow.png)
+The evidence request workflow is shown in the following figure:\[Omitted image "evidence-request-workflow.png"\] Alt text: Workflow of evidence request
 
 The following table describes the roles and their responsibilities during the evidence request workflow:
 

@@ -2,6 +2,7 @@
 title: Outbound request logging exclusion domain requirements
 description: When you exclude outbound request logging for a domain, the value you enter in the Domain field must meet certain requirements.You can exclude domains to allow only basic-level logging on those domains.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/outbound-logging-list-reqs.html
 release: australia
 product: Web Services
 classification: web-services
@@ -47,7 +48,7 @@ For example, if there are rules for the domain patterns `http://*.blog.mysite.co
 |`http://*.service-now.com`|`http://blog.*.service-now.com`|
 |`http://*.com`|`http://*com`|
 
-**Parent Topic:**[Outbound web services: Logging](../concept/outbound-request-logging.md)
+**Parent Topic:**[Outbound web services: Logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/outbound-request-logging.md)
 
 ## Outbound request logging exclusion
 

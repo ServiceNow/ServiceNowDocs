@@ -2,6 +2,7 @@
 title: Playbooks roles
 description: Grant users one or more Playbooks roles to enable them to create triggers, playbooks, and activity definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/process-automation-designer-roles.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -17,9 +18,9 @@ Grant users one or more Playbooks roles to enable them to create triggers, playb
 
 ## Roles
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
-System administrators can grant users access to Playbooks by assigning [delegated development permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md) or directly assigning [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/exploring-user-administration.md). Additionally, playbook authors can create additional filters for runtime user access as they build a playbook in Workflow Studio. The following user roles are available for Playbooks:
+System administrators can grant users access to Playbooks by assigning delegated development permissions or directly assigning Roles. Additionally, playbook authors can create additional filters for runtime user access as they build a playbook in Workflow Studio. The following user roles are available for Playbooks:
 
 <table id="table_h1y_drx_blb"><thead><tr><th>
 
@@ -118,7 +119,7 @@ playbook.write
 Enables users who have content filtering restrictions to:-   Launch Workflow Studio to create, activate, edit, and delete playbooks.
 -   View the Experience activity types \(sys\_pd\_activity\) and Experience activity properties \(sys\_pd\_activity\_type\_prop\) tables that are shared by Playbooks and Playbook Experience.
 
-To learn more about content access filtering, see [Content filtering for Playbook](../concept/content-filtering-playbooks.md)
+To learn more about content access filtering, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md)
 
 </td></tr><tr><td>
 
@@ -126,7 +127,7 @@ playbook.designer\_access
 
 </td><td>
 
-Enables users who have content filtering restrictions to launch Workflow Studio to view playbooks. To learn more about content access filtering, see [Content filtering for Playbook](../concept/content-filtering-playbooks.md).
+Enables users who have content filtering restrictions to launch Workflow Studio to view playbooks. To learn more about content access filtering, see [Content filtering for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
 
 </td></tr><tr><td>
 
@@ -134,8 +135,8 @@ playbook.activity\_def\_read
 
 </td><td>
 
-Enables users to view all activity definitions as long as there aren't [Required Roles](../concept/content-filtering-playbooks.md#activity_def_req_roles).
+Enables users to view all activity definitions as long as there aren't [Required Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/content-filtering-playbooks.md).
 
 </td></tr></tbody>
-</table>**Note:** Granting users Playbooks roles does not automatically allow them to access the Workflow Studio design environment. Granting users access to Workflow Studio may be helpful when creating activity definitions. For more information on Workflow Studio roles, see [user access to Flow Designer](../../flow-designer/concept/user-access-flow-designer.md).
+</table>**Note:** Granting users Playbooks roles does not automatically allow them to access the Workflow Studio design environment. Granting users access to Workflow Studio may be helpful when creating activity definitions. For more information on Workflow Studio roles, see [user access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
 

@@ -1,17 +1,20 @@
 ---
 title: Review and configure integration settings
-description: The Service Graph Connector for ServiceNow OT Discovery offers configurable options. These options let you customize the integration behavior to meet your business needs.
+description: To make the Service Graph Connector for ServiceNow OT Discovery simple to use, set options that let you modify the integration behavior to meet your business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/review-configure-integration-settings.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+reading_time_minutes: 3
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Review and configure integration settings
 
-The Service Graph Connector for ServiceNow OT Discovery offers configurable options. These options let you customize the integration behavior to meet your business needs.
+To make the Service Graph Connector for ServiceNow OT Discovery simple to use, set options that let you modify the integration behavior to meet your business needs.
 
 ## Before you begin
 
@@ -21,23 +24,21 @@ Role required: admin
 
 ## About this task
 
-The application provides recommended default Classification Settings that define how OT Discovery categories map to CMDB classes. You can customize these settings to meet your needs, including the category mappings, CI naming strategy, and OS classification preferences.
+Configure the ServiceNow OT Discovery Classification Settings which define how ServiceNow OT Discovery categories are mapped to target CMDB classes. Configure additional settings based on Classification such as the CI naming strategy and if you permit OS classification. Default recommended classification settings are provided by the application which you can then configure for your needs.
 
 ## Procedure
 
 1.  Select **Configure classification settings**.
 
-2.  Next to the Configure classification settings task, select **Configure**.
+    1.  Next to the Configure classification settings task, select **Configure**.
+    2.  Review the default OT Discovery Classification Settings.
 
-3.  Review the default OT Discovery Classification Settings.
+        **Note:** The OT Discovery Classification Settings define how OT Discovery categories are mapped to the target ServiceNow Instance CMDB classes. It also defines how they are configured to additional settings based on classification, such as the configuration item \(CI\) naming strategy and whether to permit OS classification. The default recommended classification settings are provided by the application, which you can then configure for your needs.
 
-4.  All the devices that are imported follow a default naming strategy.
-
-5.  You have the flexibility at a class level to change the name.
-
-6.  You can map the Target CMDG Class name to an OT Device type and can change the mapping settings.
-
-7.  If any changes are needed, open the OT Discovery Classification Setting record and update the entries in the following fields.
+    3.  All the devices that are imported follow a default naming strategy.
+    4.  You have the flexibility at a class level to change the name.
+    5.  You can map the Target CMDG Class name to an OT Device type and can change the mapping settings.
+    6.  If any changes are needed, open the OT Discovery Classification Setting record and update the entries in the following fields.
 
 <table id="table_vhj_kzr_m2c"><thead><tr><th>
 
@@ -69,7 +70,7 @@ Network type
 
 </td><td>
 
-Defines whether this classification setting is for OT or IT devices only. Leave empty to include both types.If OT devices with a specific category need to be classified into a separate class from IT devices, there are two definitions for the OT Discovery Category. One definition has the Network type set to **OT** with the classification for the OT devices. The other definition is set to **IT** for classifying the IT devices.
+Defines whether this classification setting is for OT or IT devices only. Leave empty to include both types.If OT devices with a specific category must be classified into a separate class from IT devices, there are two definitions for the OT Discovery Category. One definition has the Network type set to **OT** with the classification for the OT devices. The other definition is set to **IT** for classifying the IT devices.
 
 </td></tr><tr><td>
 
@@ -88,15 +89,14 @@ OT device type
 For OT devices, you can select the OT device type to apply the device type to the imported OT Discovery devices in the CMDB, if applicable.
 
 </td></tr></tbody>
-</table>8.  Next, **Configure system properties**.
+</table>2.  Next, **Configure system properties**.
 
-9.  Next to the Configure system properties task, select **Configure**.
+    1.  Next to the Configure system properties task, select **Configure**.
 
-    ![Configure Systems properties](../images/config-sys-properties-sgc.png)
+        \[Omitted image "config-sys-properties-sgc.png"\] Alt text: Configure Systems properties
 
-10. The Configure System properties window opens.
-
-11. Review the System properties and adjust as needed for your instance configuration.
+    2.  The Configure System properties window opens.
+    3.  Review the System properties and adjust as needed for your instance configuration.
 
 <table id="table_fc2_xcs_m2c"><thead><tr><th>
 
@@ -112,7 +112,7 @@ Description
 
 </td><td>
 
-Filters the Asset import to only import assets of particular categories. For example, if you wanted to only import ICS Host and PLC category devices from the OT Discovery Console, you could set this to `PLC,IcsHost`.Default: blank
+Filters the Asset import to only import assets of particular categories. For example, if you wanted to only import ICS Host and PLC category devices from the OT Discovery Console, you could set this to `PLC,IcsHost`.Default: empty
 
 **Note:** These are categories defined on the Console side.
 
@@ -138,7 +138,7 @@ Load Raw API Data into Staging Table
 
 </td><td>
 
-When set to true, the raw API data for each row is included in the staging tables along with the parsed data. This is useful when trying to compare data imported data into ServiceNow versus what is available in the OT Discovery API.
+When set to true, the raw API data for each row is included in the staging tables along with the parsed data. This is useful when trying to compare data imported data into ServiceNow vs. what is available in the OT Discovery API.
 
 </td></tr><tr><td>
 
@@ -149,14 +149,11 @@ Log Levels
 Logging level verbosity to use for the application.Default: Info
 
 </td></tr></tbody>
-</table>12. Select **Save** and close the window.
-
-13. Return to the Configure system properties task and select **Mark as complete**.
-
-14. Return to the Guided Setup page.
-
+</table>    4.  Select **Save** and close the window.
+    5.  Return to the Configure system properties task and select **Mark as complete**.
+    6.  Return to the Guided Setup page.
 
 ## What to do next
 
-The next setup step is to [Set up scheduled import jobs](setup-scheduled-jobs.md).
+The next setup step is to[Set up scheduled import jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/setup-scheduled-jobs.md).
 

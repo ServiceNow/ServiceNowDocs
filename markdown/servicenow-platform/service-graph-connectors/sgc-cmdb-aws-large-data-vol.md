@@ -2,6 +2,7 @@
 title: Handling import failures for large AWS resources
 description: Manage the data source failure when importing resources from AWS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-large-data-vol.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -15,7 +16,7 @@ breadcrumb: [Additional features, AWS, Service Graph Connectors, Integrating thi
 
 Manage the data source failure when importing resources from AWS.
 
-When importing large AWS resources, the data sources in the Service Graph Connector for AWS might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see [REST step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/rest-request-action-designer.md).
+When importing large AWS resources, the data sources in the Service Graph Connector for AWS might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see .
 
 You can save the response as an attachment to handle the REST response size limitation error in the Service Graph Connector for AWS.
 

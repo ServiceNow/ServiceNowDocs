@@ -2,6 +2,7 @@
 title: Prevent empty elements in SOAP messages
 description: By default, an instance does not omit empty elements, elements with NULL or NIL values, from SOAP messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_PreventEmptyElementSOAPMsgs.html
 release: australia
 product: Web Services
 classification: web-services
@@ -21,5 +22,5 @@ Set this property to **false** to allow SOAP messages to search for existing fie
 
 **Note:** Changing the value of this property may cause unintended actions in existing web service integrations. Administrators are strongly encouraged to carefully test the new behavior to ensure that existing integrations process empty elements as expected.
 
-**Parent Topic:**[SOAP web service](c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
 

@@ -2,6 +2,7 @@
 title: Strategic Spend Tracking for PPM dashboard
 description: The Strategic Spend Tracking for PPM dashboard provides comprehensive visualization to the business planners to help them understand how the planned costs, actual costs, and benefits for projects aligned to the organization's goals and strategies trend over time. It helps you to accurately understand the financial performance of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -19,13 +20,13 @@ The Strategic Spend Tracking for PPM dashboard provides comprehensive visualizat
 
 You can analyze the total expenses, and drill down to what is contributing to the cost, and which departments and business units are spending.
 
-![The Strategy Overview tab](../image/strategy_overview_dashboard.gif "Strategy Overview tab")
+\[Omitted image "strategy\_overview\_dashboard.gif"\] Alt text: The Strategy Overview tab
 
-![The Strategy Detail tab](../image/strategy_detail_dashboard.png "Strategy Detail tab")
+\[Omitted image "strategy\_detail\_dashboard.png"\] Alt text: The Strategy Detail tab
 
-![The Goal Overview tab](../image/goals_overview_dashboard.gif "Goal Overview tab")
+\[Omitted image "goals\_overview\_dashboard.gif"\] Alt text: The Goal Overview tab
 
-![The Goal Detail tab](../image/goals_details_dashboard.png "Goal Detail tab")
+\[Omitted image "goals\_details\_dashboard.png"\] Alt text: The Goal Detail tab
 
 ## End user and roles
 
@@ -153,21 +154,21 @@ The dashboard includes the following visualizations for strategies:
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Project Cost|Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)|Comparison of total planned and actual costs for all projects grouped by fiscal period for strategies.|
-|Project Benefit|Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)|Comparison of total planned and actual benefits for all projects grouped by fiscal period for strategies.|
-|Project Distribution|Pie chart![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the distribution of projects by strategy.|
-|Planned Cost Distribution|Pie chart![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the distribution of planned cost of projects by strategy.|
-|Planned Benefit Distribution|Pie chart![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the distribution of planned benefit of projects by strategy.|
+|Project Cost|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart|Comparison of total planned and actual costs for all projects grouped by fiscal period for strategies.|
+|Project Benefit|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart|Comparison of total planned and actual benefits for all projects grouped by fiscal period for strategies.|
+|Project Distribution|Pie chart\[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the distribution of projects by strategy.|
+|Planned Cost Distribution|Pie chart\[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the distribution of planned cost of projects by strategy.|
+|Planned Benefit Distribution|Pie chart\[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the distribution of planned benefit of projects by strategy.|
 
 The dashboard includes the following visualizations for goals:
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Project Cost|Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)|Comparison of total planned and actual costs for all projects grouped by fiscal period for goals.|
-|Project Benefit|Bar chart ![Bar chart](../../performance-analytics/image/column-icon.png)|Comparison of total planned and actual benefits for all projects grouped by fiscal period for goals.|
-|Project Distribution|Pie chart![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the distribution of projects by goals.|
-|Planned Cost Distribution|Pie chart![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the distribution of planned cost of projects by goals.|
-|Planned Benefit Distribution|Pie chart![Pie chart](../../performance-analytics/image/donut-icon.png)|Breakdown of the distribution of planned benefit of projects by goals.|
+|Project Cost|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart|Comparison of total planned and actual costs for all projects grouped by fiscal period for goals.|
+|Project Benefit|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar chart|Comparison of total planned and actual benefits for all projects grouped by fiscal period for goals.|
+|Project Distribution|Pie chart\[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the distribution of projects by goals.|
+|Planned Cost Distribution|Pie chart\[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the distribution of planned cost of projects by goals.|
+|Planned Benefit Distribution|Pie chart\[Omitted image "donut-icon.png"\] Alt text: Pie chart|Breakdown of the distribution of planned benefit of projects by goals.|
 
-**Parent Topic:**[Strategic Spend Tracking for PPM](../../../product/itbm-business-outcomes/concept/ppm-strategic-spend-tracking-overview.md)
+**Parent Topic:**[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-overview.md)
 

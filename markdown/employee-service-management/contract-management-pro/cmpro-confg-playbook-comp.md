@@ -2,6 +2,7 @@
 title: Configure the Playbook tab component for your workspace
 description: Use the Tabs component in UI Builder to configure the Playbook tab on the contract repository record page for your workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-confg-playbook-comp.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,11 +30,11 @@ Role required: admin
 
 4.  Select the page on your workspace where you want to configure the **Playbook** tab.
 
-    ![Pages in the Legal Counsel Center experience on the UI Builder](../image/cmpro-uib-page.png "Page and variants for your workspace")
+    \[Omitted image "cmpro-uib-page.png"\] Alt text: Pages in the Legal Counsel Center experience on the UI Builder
 
 5.  Select the **Main Tab** component.
 
-    ![Main tab component on the record page](../image/cmpro-main-tab-uib.png "Main tab component on the left pane")
+    \[Omitted image "cmpro-main-tab-uib.png"\] Alt text: Main tab component on the record page
 
 6.  Select **Add** under the **Tabs** section.
 
@@ -49,25 +50,25 @@ Role required: admin
 
     2.  On **Hide tab**, hover over the field and select the option to bind the data broker configured for the playbook.
 
-        For more information, see [Connect data to your components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/connect-data.md).
+        For more information, see .
 
-        ![Tab settings to connect the data broker to the tab component.](../image/cmpro-connect-data.png "Connect data broker to the tab component")
+        \[Omitted image "cmpro-connect-data.png"\] Alt text: Tab settings to connect the data broker to the tab component.
 
     3.  Select **Create**.
 
     The new tab appears under the **Main tab** component.
 
-    ![New playbook tab under the Main Tab component](../image/cmpro-new-playbook-tab.png "Playbook tab")
+    \[Omitted image "cmpro-new-playbook-tab.png"\] Alt text: New playbook tab under the Main Tab component
 
 10. Expand **Playbook** and then select **Add content**.
 
 11. In the Add content window, select **Playbook Focused Vertical** and then select **Add**.
 
-    ![Add content for the tab.](../image/cmpro-playbook-content.png "Add playbook content")
+    \[Omitted image "cmpro-playbook-content.png"\] Alt text: Add content for the tab.
 
 12. In the Data resources drawer under the Data and scripts section, select **Playbook Custom Layout**.
 
-    ![Playbook custom layout under the Data resources drawer.](../image/cmpro-playbook-custom-layout.png "Playbook custom layout")
+    \[Omitted image "cmpro-playbook-custom-layout.png"\] Alt text: Playbook custom layout under the Data resources drawer.
 
     The Playbook configuration modal appears.
 
@@ -82,5 +83,5 @@ Role required: admin
 14. Select **Save** on the UI Builder header.
 
 
-**Parent Topic:**[Configuring the Playbook tab on contract repository records](cmpro-config-playbook-tab.md)
+**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
 

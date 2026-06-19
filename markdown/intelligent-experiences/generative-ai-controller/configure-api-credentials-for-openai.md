@@ -2,6 +2,7 @@
 title: Configure API credentials for OpenAI
 description: Configure your API credentials to use OpenAI in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-openai.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -33,7 +34,7 @@ In order to use models with Azure OpenAI as your LLM provider for Generative AI 
 
 3.  Select the **Create New Connection &amp; Credential** related link.
 
-    ![Create New Connection & Credential related link highlighted on the screen.](../image/gai-create-new-connection.png)
+    \[Omitted image "gai-create-new-connection.png"\] Alt text: Create New Connection &amp; Credential related link highlighted on the screen.
 
 4.  In the API key field, enter the API key.
 
@@ -46,7 +47,7 @@ In order to use models with Azure OpenAI as your LLM provider for Generative AI 
 
 You can now use capabilities labeled with OpenAI in Flow Designer, Virtual Agent Designer, and scripts like background scripts and business rules to create custom experiences with generative AI.
 
-![Complete connection for OpenAI.](../image/gai-created-connection.png)
+\[Omitted image "gai-created-connection.png"\] Alt text: Complete connection for OpenAI.
 
 ## What to do next
 

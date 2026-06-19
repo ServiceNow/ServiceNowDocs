@@ -2,6 +2,7 @@
 title: Book Walk-up Experience appointments
 description: With the Walk-up Experience appointment booking feature, walk-up users can view available appointment windows, make a selection, and book an appointment for a walk-up location using online Walk-up Check-in feature. Walk-up agents can also book appointments on behalf of customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/walkup-appointment-booking.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -30,10 +31,10 @@ A service configuration is required for each of the walk-up queue locations with
 
 **Note:** Both the application configuration and the service configuration must be active to book appointments.
 
-For detailed information about the **Appointment Booking** application, refer to [Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/appointment-booking/managing-appointments.md).
+For detailed information about the **Appointment Booking** application, refer to .
 
--   **[Walk-up Experience appointment booking administration](walkup-appointment-administration.md)**  
+-   **[Walk-up Experience appointment booking administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-appointment-administration.md)**  
 Create or modify the Walk-up Experience **Appointment Booking** feature.
 
-**Parent Topic:**[Configuring Walk-up Experience](walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

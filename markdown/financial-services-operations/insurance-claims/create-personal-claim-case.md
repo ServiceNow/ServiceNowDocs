@@ -2,13 +2,14 @@
 title: Create a personal claim case
 description: A first-notice-of-loss representative or processor can begin the claim process by initiating a personal claim case on behalf of your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-personal-claim-case.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Personal Lines Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a personal claim case
@@ -23,19 +24,19 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative or sn\_ins\_claim\_pers
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a case from the personal auto claim cases list.
 
-<table><thead><tr><th align="left" id="d118445e85">
+<table><thead><tr><th align="left" id="d121779e85">
 
 Option
 
-</th><th align="left" id="d118445e88">
+</th><th align="left" id="d121779e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d118445e94">
+</th></tr></thead><tbody><tr><td id="d121779e94">
 
 **Personal auto claim case from the personal auto claim case list**
 
@@ -65,5 +66,5 @@ A personal claim case is created in the New state and the workflow is triggered.
 
 ## What to do next
 
-As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a personal claim](process-personal-claim.md).
+As a claim processor, you can assign the case to yourself and start working on it. For more information, see [Process a personal claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/process-personal-claim.md).
 

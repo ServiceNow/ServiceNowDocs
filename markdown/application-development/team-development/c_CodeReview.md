@@ -2,6 +2,7 @@
 title: Code reviews
 description: Team Development administrators can require that pushes undergo code review before accepting pushes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_CodeReview.html
 release: australia
 product: Team Development
 classification: team-development
@@ -19,7 +20,7 @@ When code review is enabled, pushing a change to the parent instance triggers th
 
 For each change, reviewers can see the following information.
 
--   Which [remote instance](../task/t_DefineARemoteInstance.md) the pushed change comes from.
+-   Which [remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_DefineARemoteInstance.md) the pushed change comes from.
 -   Who pushed the change to the parent.
 -   What the change is called.
 -   When the change was created.

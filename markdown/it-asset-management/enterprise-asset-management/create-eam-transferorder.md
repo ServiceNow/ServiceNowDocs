@@ -2,6 +2,7 @@
 title: Create a transfer order in Enterprise Asset Workspace
 description: Create a transfer order in Enterprise Asset Management to transfer assets from one location to the other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-transferorder.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -46,10 +47,10 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
     The transfer order is created and displays the **Transfer Order Lines** tab. You can now create transfer order lines to specify the items that the transfer order comprises of.
 
 
--   **[Create transfer order lines in Enterprise Asset Workspace](create-eam-transferorderline.md)**  
+-   **[Create transfer order lines in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-transferorderline.md)**  
 Create transfer order lines in Enterprise Asset Management to specify the items that comprise a transfer order.
--   **[Close transfer order line tasks in Enterprise Asset Workspace](close-eamtransferorder-task.md)**  
+-   **[Close transfer order line tasks in Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/close-eamtransferorder-task.md)**  
 Close transfer order line tasks to move transfer order lines from one stage to the other.
 
-**Parent Topic:**[Create and manage enterprise asset inventory](../concept/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

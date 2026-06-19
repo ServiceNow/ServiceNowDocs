@@ -2,6 +2,7 @@
 title: Import CAD configuration
 description: After your CAD configuration is complete, import the CAD configuration changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/import-cad-config.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -25,9 +26,9 @@ Role required: admin
 
 1.  On the Autocad configuration page, select **Start Import** to make sure your map is created.
 
-    ![Autocad Configuration page showing message to export the CAD configuration changes and then import the changes in the Map Studio.](../images/wsd-start-import-showing-export-msg.png)
+    \[Omitted image "wsd-start-import-showing-export-msg.png"\] Alt text: Autocad Configuration page showing message to export the CAD configuration changes and then import the changes in the Map Studio.
 
-    The **Start Import** button is enabled only when layers and places that you want to display on your CAD file don’t have any issues like missing polygon, template, polylines. Resolve these issues before importing the layers and places in your CAD source file. For more information, see [Configure CAD objects using the Map Configuration tab](../concept/manage-cad-map-config.md).
+    The **Start Import** button is enabled only when layers and places that you want to display on your CAD file don’t have any issues like missing polygon, template, polylines. Resolve these issues before importing the layers and places in your CAD source file. For more information, see [Configure CAD objects using the Map Configuration tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/manage-cad-map-config.md).
 
 2.  Select **Start Import**.
 
@@ -38,9 +39,9 @@ Role required: admin
 4.  Select **Continue** to view your updated changes in real time on a World map \(OpenStreetMap\).
 
 
-**Parent Topic:**[Autocad import tool](../concept/autocad-ovw-v2.md)
+**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
-**Previous topic:**[Export CAD configuration](export-cad-config.md)
+**Previous topic:**[Export CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/export-cad-config.md)
 
-**Next topic:**[Edit file settings](edit-cad-file-settnigs.md)
+**Next topic:**[Edit file settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/edit-cad-file-settnigs.md)
 

@@ -2,6 +2,7 @@
 title: Set up Microsoft Azure DevOps Pipelines spoke
 description: Integrate your ServiceNow instance and Azure DevOps Pipelines application by setting up a connection record.Configure the default connection record for your Azure DevOps Pipelines application that enables integration of your ServiceNow instance with the Azure DevOps Pipelines application. Specify whether the record is for a host, instance, custom application, or account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-microsoft-azure-devops-pipelines-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,7 +38,7 @@ Role required: admin
 
     1.  Log in to Azure DevOps portal.
 
-    2.  On the landing page, select the User Settings icon \(![User Settings icon.](../image/ms-aure-devops-pipeline-usr-settings-icon.png)\).
+    2.  On the landing page, select the User Settings icon \(\[Omitted image "ms-aure-devops-pipeline-usr-settings-icon.png"\] Alt text: User Settings icon.\).
 
     3.  In the menu, select **Personal access tokens**.
 
@@ -90,7 +91,7 @@ Resources or settings in Azure DevOps Pipelines application that you can access 
 
     7.  To copy the personal access token, click the Copy to clipboard button.
 
-        ![Copy to clipboard button.](../image/ms-azure-devops-pipeline-copy-access-token.png)
+        \[Omitted image "ms-azure-devops-pipeline-copy-access-token.png"\] Alt text: Copy to clipboard button.
 
     8.  Select **Close**.
 
@@ -110,7 +111,7 @@ Resources or settings in Azure DevOps Pipelines application that you can access 
 
     7.  Click **Configure**.
 
-        ![Configure button.](../image/ms-azure-devops-pipelines-configure-button.png)
+        \[Omitted image "ms-azure-devops-pipelines-configure-button.png"\] Alt text: Configure button.
 
     8.  Fill the form.
 
@@ -153,6 +154,6 @@ Enter the personal access token you had created.
 
         The connection record is created.
 
-        ![Connection record created.](../image/ms-azure-devops-pipelines-conn-created.png)
+        \[Omitted image "ms-azure-devops-pipelines-conn-created.png"\] Alt text: Connection record created.
 
 

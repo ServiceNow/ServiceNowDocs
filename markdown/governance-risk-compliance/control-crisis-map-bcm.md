@@ -2,6 +2,7 @@
 title: Set controls to customize alerts on the map dynamically
 description: Use a set of controls on the crisis map to display the alerts that are critical to your asset locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/control-crisis-map-bcm.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: BCM admin or BCM Program Manager
 
 You can customize the crisis map to display the layers that you would like to see on the map. Use the controls to view locations, employee locations, or core companies.
 
-![Control panel for the crisis map.](../image/BCMMapControl.png "Panel to control alert display")
+\[Omitted image "BCMMapControl.png"\] Alt text: Control panel for the crisis map.
 
 The search bar helps you to search the assets and locations. A set of zoom controls helps you to zoom in and zoom out to focus on the area that has the information shown in that layer. The layers help you to get additional details on the map. Use the reset button to clear your control settings.
 
@@ -29,7 +30,7 @@ The search bar helps you to search the assets and locations. A set of zoom contr
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the map icon \(![Crisis map icon](../image/CrisisMapIcon.png)\).
+2.  Click the map icon \(\[Omitted image "CrisisMapIcon.png"\] Alt text: Crisis map icon\).
 
     The alerts section is on the left of the workspace and the map view is on the right.
 
@@ -39,10 +40,10 @@ The search bar helps you to search the assets and locations. A set of zoom contr
 
     If you are not sure of both the employee locations or datacenters, then use the Layers control.
 
-4.  To change the zoom level of the map and view specific areas, use the zoom control buttons, zoom-in \(![Zoom-out icon.](../image/BCMZoomOutIcon.png)\) and zoom-out \(![Zoom-in icon.](../image/BCMZoomInIcon.png)\).
+4.  To change the zoom level of the map and view specific areas, use the zoom control buttons, zoom-in \(\[Omitted image "BCMZoomOutIcon.png"\] Alt text: Zoom-out icon.\) and zoom-out \(\[Omitted image "BCMZoomInIcon.png"\] Alt text: Zoom-in icon.\).
 
-5.  To select and display the assets such as asset locations, datacenters, or core companies on the map, click the layers icon \(![Layers control icon.](../image/BCMLayersIcon.png)\).
+5.  To select and display the assets such as asset locations, datacenters, or core companies on the map, click the layers icon \(\[Omitted image "BCMLayersIcon.png"\] Alt text: Layers control icon.\).
 
-6.  To clear the map of all the search results, click the reset icon \(![Map reset icon.](../image/BCMResetIcon.png)\).
+6.  To clear the map of all the search results, click the reset icon \(\[Omitted image "BCMResetIcon.png"\] Alt text: Map reset icon.\).
 
 

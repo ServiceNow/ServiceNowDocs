@@ -2,6 +2,7 @@
 title: Set up pillars and entity types from Workspace UI
 description: Set up the pillars and entity types from the Operational Resilience Workspace UI. You must activate the pillars first and then activate the entity types. If you prefer the classic experience, you can navigate to the module using the Admin setup in the Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-from-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
 
     The list of pillars available with the base system are shown in the example. All pillars are shipped in the inactive state.
 
-    ![Pillars view.](../image/setup-pillars-view.png)
+    \[Omitted image "setup-pillars-view.png"\] Alt text: Pillars view.
 
     For information on the default and supporting pillars, refer to the following table.
 
@@ -80,19 +81,19 @@ The supporting pillars are listed: -   Application Services
 
     1.  Select the pillar that you want to activate.
 
-        For more information on the fields in the form, see [GRC Choices form](../reference/pillars-reference.md).
+        For more information on the fields in the form, see [GRC Choices form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/pillars-reference.md).
 
     2.  Select the Active check box.
 
         The example shows how you can activate the Business Services pillar.
 
-        ![Activate the Business Services pillar.](../image/activate-bs-pillar.png)
+        \[Omitted image "activate-bs-pillar.png"\] Alt text: Activate the Business Services pillar.
 
     3.  To save the settings, select **save**.
 
         The active setting for the Business Services pillar is marked as "true."
 
-        ![Business Services pillar is marked as "true".](../image/bs-pillar-activated.png)
+        \[Omitted image "bs-pillar-activated.png"\] Alt text: Business Services pillar is marked as "true".
 
     4.  To activate other pillars according to your requirements, repeat these steps.
 
@@ -106,17 +107,17 @@ The supporting pillars are listed: -   Application Services
 
     3.  Activate an entity type by selecting and opening its record.
 
-        For more information on the fields in the form, see [Entity type New record form](../reference/entity-type-reference.md).
+        For more information on the fields in the form, see [Entity type New record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/entity-type-reference.md).
 
         The example shows the entity types that are set up in the instance.
 
-        ![Entity types view.](../image/setup-entity-types-view-ws.png)
+        \[Omitted image "setup-entity-types-view-ws.png"\] Alt text: Entity types view.
 
     4.  Select the Active check box.
 
         The example shows that the Active check box is selected.
 
-        ![Active check box is selected.](../image/bs-ent-type-marked-active.png)
+        \[Omitted image "bs-ent-type-marked-active.png"\] Alt text: Active check box is selected.
 
     5.  Add optional **Description**.
 
@@ -124,7 +125,7 @@ The supporting pillars are listed: -   Application Services
 
         The example shows that the entity type is set to active.
 
-        ![Entity type is set to active.](../image/bs-ent-type-set-to-true.png)
+        \[Omitted image "bs-ent-type-set-to-true.png"\] Alt text: Entity type is set to active.
 
     7.  Repeat these steps for all required entity types.
 
@@ -134,7 +135,7 @@ The supporting pillars are listed: -   Application Services
 
         The example shows how to create an entity type.
 
-        ![How to create an entity type.](../image/ent-type-create-new.png)
+        \[Omitted image "ent-type-create-new.png"\] Alt text: How to create an entity type.
 
     2.  Enter **Name**.
 
@@ -153,5 +154,5 @@ The supporting pillars are listed: -   Application Services
 
 ## What to do next
 
-Once pillars and entity types are set up from the Workspace UI, configure the entity filters. For more information, see [Configure the entity filters](conf-ent-filter.md).
+Once pillars and entity types are set up from the Workspace UI, configure the entity filters. For more information, see [Configure the entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-ent-filter.md).
 

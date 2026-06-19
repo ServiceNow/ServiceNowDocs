@@ -2,6 +2,7 @@
 title: Improve inter-departmental communication
 description: Enable agents to effectively collaborate on associated tickets using the Sidebar discussion and Discuss options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/discuss-routing-agents.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -85,9 +86,9 @@ Option to create a private discussion accessible only to chosen participants. Us
 
 ## What to do next
 
-1.  Select Sidebar discussions ![](../../human-resources/image/sidebar-discussions.png).
+1.  Select Sidebar discussions \[Omitted image "sidebar-discussions.png"\] Alt text:.
 2.  Review all the discussions that you are part of.
 3.  To begin another conversation with routing agents, select **New Discussion**.
 
-**Parent Topic:**[Using Universal Request](../concept/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

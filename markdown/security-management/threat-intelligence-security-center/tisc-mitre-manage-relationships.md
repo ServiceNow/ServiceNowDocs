@@ -2,6 +2,7 @@
 title: Manage MITRE Relationships
 description: Manage the MITRE relationships information that you imported from the MITRE TAXII collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-mitre-manage-relationships.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -105,5 +106,5 @@ Define the relationship ID.
 6.  To view how these objects are related, click **Relationships**.
 
 
-**Parent Topic:**[MITRE-ATT&amp;CK Repository](../concept/tisc-mitre-att-ck-framework-overview.md)
+**Parent Topic:**[MITRE-ATT&amp;CK Repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-mitre-att-ck-framework-overview.md)
 

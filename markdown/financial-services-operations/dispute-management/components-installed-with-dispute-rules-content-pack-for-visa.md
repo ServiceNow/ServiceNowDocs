@@ -2,6 +2,7 @@
 title: Components installed with Dispute Rules Content Pack for Visa
 description: Several types of components are installed with the installation of the Dispute Rules Content Pack for Visa plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-visa.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -51,7 +52,7 @@ Visa Dispute Cardholder Intake
 
 </td><td>
 
-Stores Visa Dispute Questionnaire questions and responses submitted by consumers, such as a dispute playbook on a service portal. See [Create a dispute case with Dispute Intake in Portal](../../fso-card-operations/concept/creating-an-onboarding-case-with-dispute-playbook-for-portal.md) for more information. Extends the Visa Dispute Intake \[sn\_bom\_visa\_cp\_visa\_dispute\_questionnaire\] table.
+Stores Visa Dispute Questionnaire questions and responses submitted by consumers, such as a dispute playbook on a service portal. See [Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md) for more information. Extends the Visa Dispute Intake \[sn\_bom\_visa\_cp\_visa\_dispute\_questionnaire\] table.
 
 </td></tr><tr><td>
 
@@ -64,5 +65,5 @@ CRB Region Type
 Stores all Visa Card Recovery Bulletin \(CRB\) regions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Dispute Rules Content Pack for Visa reference](../concept/dispute-content-pack-for-visa-reference.md)
+</table>**Parent Topic:**[Dispute Rules Content Pack for Visa reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/dispute-content-pack-for-visa-reference.md)
 

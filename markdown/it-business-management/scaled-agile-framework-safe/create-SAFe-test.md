@@ -2,6 +2,7 @@
 title: Create a test for a SAFe story
 description: Create a test, add steps to the test, and create and maintain different versions of the test. A test is a collection of conditions or steps used to determine whether a SAFe story is working correctly. A test can also include an expected result that determines whether the test passes or fails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/create-SAFe-test.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -153,7 +154,7 @@ Check box used to mark a test step for verification.
 
 </td></tr><tr><td>
 
-Delete a test step \(![Delete a test step icon](../../test-management2/images/deleteteststep.png)\)
+Delete a test step \(\[Omitted image "deleteteststep.png"\] Alt text: Delete a test step icon\)
 
 </td><td>
 

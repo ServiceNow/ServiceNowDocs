@@ -2,6 +2,7 @@
 title: Managing plans with BCM mobile application
 description: Business continuity plan \(BCP\) managers and viewers can manage and view plans using the Business Continuity Management \(BCM\) application on Android or iOS mobile devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/mobile-bcm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ BCM managers can generate PDFs of the approved plans, which BCM planners can the
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Log in to your ServiceNow AI Platform instance from your mobile device and the landing screen is displayed after you log in.
 

@@ -2,6 +2,7 @@
 title: Create an Emergency Outreach notification channel
 description: Create a notification channel to send health status requests using your company's preferred communication method, such as the Slack or Microsoft Teams collaboration platforms. Create the notification channel using a script or a subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/create-emer-outreach-notif-channel.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -33,7 +34,7 @@ If the **Email notification** and **Now Mobile Push notification** check boxes a
 
 2.  Click **New**.
 
-    ![New channel record with the script option selected and default script.](../image/emer-outreach-notif-channel.png)
+    \[Omitted image "emer-outreach-notif-channel.png"\] Alt text: New channel record with the script option selected and default script.
 
 3.  Enter the name of your notification channel.
 
@@ -56,7 +57,7 @@ If the **Email notification** and **Now Mobile Push notification** check boxes a
                 }
         ```
 
-        For information about JavaScript APIs for GlideRecord, see [GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+        For information about JavaScript APIs for GlideRecord, see GlideRecord - Scoped.
 
     3.  Click **Submit**.
 
@@ -85,7 +86,7 @@ If the **Email notification** and **Now Mobile Push notification** check boxes a
 
     1.  Create a subflow to use in the outreach notification.
 
-        For information about creating, publishing, and testing subflows, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md).
+        For information about creating, publishing, and testing subflows, see Subflows.
 
         Use the following inputs in the subflow that you create:
 
@@ -116,7 +117,7 @@ If the **Email notification** and **Now Mobile Push notification** check boxes a
 
 When an outreach is sent using a custom notification channel, a Delivery Logs related list appears in the Outreach message.
 
-![Delivery logs related list showing a failed log status.](../image/outreach-delivery-log-list.png "Delivery logs related list")
+\[Omitted image "outreach-delivery-log-list.png"\] Alt text: Delivery logs related list showing a failed log status.
 
 1.  Test the notification channel for an outreach message, and open the failed record to review the error message.
 2.  Fix errors that caused the notification to fail.

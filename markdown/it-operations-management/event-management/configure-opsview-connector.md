@@ -2,6 +2,7 @@
 title: Configure Opsview\_v2 connector
 description: Configure the Opsview\_V2 connector instance to receive alerts from an Opsview Monitor source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-opsview-connector.html
 release: australia
 product: Event Management
 classification: event-management
@@ -169,5 +170,5 @@ Optional. Name of a MID Server. If no MID Server is specified, an available MID 
 8.  After a successful test, select the **Active** check box and then select **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

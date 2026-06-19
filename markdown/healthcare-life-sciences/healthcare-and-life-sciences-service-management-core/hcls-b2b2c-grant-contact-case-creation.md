@@ -2,6 +2,7 @@
 title: Assign the case viewer role for contacts in B2B2C in Healthcare and Life Sciences Service Management Core
 description: Contacts must have the sn\_hcls.case\_viewer role for read access to healthcare case fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-grant-contact-case-creation.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,7 +18,7 @@ Contacts must have the sn\_hcls.case\_viewer role for read access to healthcare 
 
 ## Before you begin
 
-Configure the account consumer related list to add account consumers. For more information, see [Configure the account consumer related list to add account consumers for B2B2C in Healthcare and Life Sciences Service Management Core](hcls-configure-related-list-b2b2c.md).
+Configure the account consumer related list to add account consumers. For more information, see [Configure the account consumer related list to add account consumers for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-configure-related-list-b2b2c.md).
 
 Role required: admin
 
@@ -40,5 +41,5 @@ Contacts now have read access to healthcare case fields for use with B2B2C.
 
 ## What to do next
 
-Create a table for use with B2B2C. For more information, see [Create a table for B2B2C in Healthcare and Life Sciences Service Management Core](hcls-b2b2c-create-hcls-case-table.md).
+Create a table for use with B2B2C. For more information, see [Create a table for B2B2C in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-b2b2c-create-hcls-case-table.md).
 

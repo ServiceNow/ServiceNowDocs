@@ -2,6 +2,7 @@
 title: Data privacy clone
 description: As customer data are cloned from a source to a target instance, typically from production to non-production, sensitive data are de-identified on the target instance.​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dp-clone.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic

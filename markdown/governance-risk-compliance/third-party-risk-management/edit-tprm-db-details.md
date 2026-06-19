@@ -2,6 +2,7 @@
 title: Edit TPRM dashboard details
 description: You can change a dashboard name, add a description, certify it, configure visibility, and specify the requester, the owner, the owner group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/edit-tprm-db-details.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -25,9 +26,9 @@ Any role for dashboards that you own or ones that you have been given permission
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**
 
-2.  Select the dashboard page icon ![](../../grc-workspace-vrm/image/icon-tprm-ws-dashboard.png) and then select the dashboard you want to edit.
+2.  Select the dashboard page icon \[Omitted image "icon-tprm-ws-dashboard.png"\] Alt text: and then select the dashboard you want to edit.
 
-3.  Select the dashboard details icon ![](../../grc-business-continuity-management/image/InformationIcon.png) to open the **Details** panel.
+3.  Select the dashboard details icon \[Omitted image "InformationIcon.png"\] Alt text: to open the **Details** panel.
 
     On the **Details** panel, you can edit several aspects of the dashboard.
 
@@ -37,15 +38,15 @@ Any role for dashboards that you own or ones that you have been given permission
 
     3.  Mark the dashboard as **Certified** to inform the user that the dashboard is for use across your organization.
 
-        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/certify-db-ac.md).
+        **Note:** You must have an admin role to mark a dashboard as **Certified**. For more information, see .
 
     4.  In **Dashboard Visibility**, view, add, or remove workspaces in which the dashboard can be viewed.
 
-        If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit TPRM dashboards](edit-tprm-db.md).
+        If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit TPRM dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/edit-tprm-db.md).
 
     5.  Specify one or more dashboard categories.
 
-        For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/db-categories.md).
+        For more information, see .
 
     6.  Specify who requested the dashboard.
 

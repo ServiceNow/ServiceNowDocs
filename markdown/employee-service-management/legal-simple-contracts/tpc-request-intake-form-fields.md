@@ -2,6 +2,7 @@
 title: Third Party Contract Review form
 description: The Third Party Contract Review form is used to submit a legal request to the legal department to get the third-party contracts reviewed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/tpc-request-intake-form-fields.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Legal Simple Contracts, Legal Service Delivery Practice 
 
 The Third Party Contract Review form is used to submit a legal request to the legal department to get the third-party contracts reviewed.
 
-[Submit a legal request for a third-party contract review](../task/submit-legal-request-tpc-review.md).
+[Submit a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/submit-legal-request-tpc-review.md).
 
 <table id="table_wtn_xd3_ldb"><thead><tr><th>
 
@@ -47,7 +48,7 @@ Contract type
 
 </td><td>
 
-Type of contract.Only active contract types are listed in the field. For more information, see [Create a contract type](../task/create-contract-type.md).
+Type of contract.Only active contract types are listed in the field. For more information, see [Create a contract type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/create-contract-type.md).
 
 </td></tr><tr><td>
 
@@ -90,5 +91,5 @@ Other party legal point of contact email
 Email address of the point of contact.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Simple Contracts reference](legal-simple-contracts-reference.md)
+</table>**Parent Topic:**[Legal Simple Contracts reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/legal-simple-contracts-reference.md)
 

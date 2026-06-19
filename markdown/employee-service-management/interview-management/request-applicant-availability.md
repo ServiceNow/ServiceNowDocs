@@ -2,6 +2,7 @@
 title: Request applicant to share scheduling preferences
 description: Request applicants on a job requisition to share their scheduling preferences to plan a seamless interview process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/request-applicant-availability.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -31,7 +32,7 @@ Role required: sn\_ta\_hiring\_core.recruiter or sn\_ta\_hiring\_core.recruitmen
 
 5.  On the Request scheduling preferences form, fill in the fields.
 
-    For a description of the field values, see [Request scheduling preferences form](../reference/request-availability-form.md).
+    For a description of the field values, see [Request scheduling preferences form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/request-availability-form.md).
 
 6.  Select **Send**.
 
@@ -41,5 +42,5 @@ Role required: sn\_ta\_hiring\_core.recruiter or sn\_ta\_hiring\_core.recruitmen
 -   Once you have sent a request, you can select **Send reminder** from the application page to remind the applicant via an email notification to share their scheduling preferences.
 -   By default, a scheduled job sends a reminder email to the applicant on alternate days for 14 days from the day it was requested, if they haven't shared their preferences. This default value can be configured by an admin by updating the **sn\_ta\_int\_mgmt.remind\_availability\_in\_days** value.
 
-**Parent Topic:**[Using Interview Management](../concept/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/using-interview-mgmnt.md)
 

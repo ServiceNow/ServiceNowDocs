@@ -2,6 +2,7 @@
 title: Create a bulk case request
 description: Use bulk case request to create the same type of HR case, for multiple employees, without having to create the same case multiple times.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_CreateBulkCases.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -16,6 +17,8 @@ breadcrumb: [Creating bulk cases, Use HR Case Management, Case and Knowledge Man
 Use bulk case request to create the same type of HR case, for multiple employees, without having to create the same case multiple times.
 
 ## Before you begin
+
+Create a bulk case request 
 
 Role required: sn\_hr\_core.admin
 
@@ -51,7 +54,7 @@ HR service
 
 </td><td>
 
-The HR service associated with the bulk case request.**Note:** When you create a user segment group, the fields from the HR service you select can appear similar to creating a new HR case. For more information, see [Create a user segment group](bulk-case-segment.md).
+The HR service associated with the bulk case request.**Note:** When you create a user segment group, the fields from the HR service you select can appear similar to creating a new HR case. For more information, see [Create a user segment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/bulk-case-segment.md).
 
 </td></tr><tr><td>
 
@@ -104,8 +107,8 @@ Shows the date and time your bulk case request was submitted to create cases.**N
 
 4.  Select **New** in the **User segment groups** tab.
 
-    For more information, see [Create a user segment group](bulk-case-segment.md).
+    For more information, see [Create a user segment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/bulk-case-segment.md).
 
 
-**Parent Topic:**[Creating bulk cases](../concept/bulk-case.md)
+**Parent Topic:**[Creating bulk cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/bulk-case.md)
 

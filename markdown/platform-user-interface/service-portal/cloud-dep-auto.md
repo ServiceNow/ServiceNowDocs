@@ -2,6 +2,7 @@
 title: Cloud Deployment Automation
 description: Automates the deployment and provisioning of the AWS CloudFormation services using Service Catalog or Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/cloud-dep-auto.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -17,11 +18,11 @@ Automates the deployment and provisioning of the AWS CloudFormation services usi
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Spoke dependencies
 
-You must activate and set up the [AWS CloudFormation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/aws-cloudformation.md) to use this application.
+You must activate and set up the AWS CloudFormation spoke to use this application.
 
 ## Catalog items and flows
 

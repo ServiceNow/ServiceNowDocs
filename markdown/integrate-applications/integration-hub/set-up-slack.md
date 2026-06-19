@@ -2,6 +2,7 @@
 title: Set up Slack spoke
 description: Integrate the ServiceNow instance and your Slack account by creating a custom OAuth application in Slack to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-slack.html
 release: australia
 product: Integration Hub
 classification: integration-hub

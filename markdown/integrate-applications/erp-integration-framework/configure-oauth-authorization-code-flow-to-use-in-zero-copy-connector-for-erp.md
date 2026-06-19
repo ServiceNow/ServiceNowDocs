@@ -2,6 +2,7 @@
 title: Configure OAuth authorization code flow to use in Zero Copy Connector for ERP
 description: Configure OAuth authorization code flow for SAP and use OAuth to authenticate and authorize users for OData endpoints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/configure-oauth-authorization-code-flow-to-use-in-zero-copy-connector-for-erp.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -22,12 +23,12 @@ Role required: admin
 
 **Note:** The OAuth authorization code flow can be used to call OData endpoints \(create, read, and update\). At this time, OAuth cannot be used for tables, BAPI, or RFC.
 
-To understand OAuth, see [Set up OAuth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_SettingUpOAuth.md) and [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/oauth-inbound.md) .
+To understand OAuth, see  and  .
 
 Consult with your SAP administrator:
 
 -   Obtain the client ID and client secret. You need this information for the application registry form.
--   Ask if the refresh token is a one-time usable token. A scheduled job that retrieves information from SAP runs once per day. If you need to run the scheduled job more often or on demand, discuss the access token and refresh token options. For more information, see [Manage OAuth tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_ManageTokens.md).
+-   Ask if the refresh token is a one-time usable token. A scheduled job that retrieves information from SAP runs once per day. If you need to run the scheduled job more often or on demand, discuss the access token and refresh token options. For more information, see .
 -   Ask them to enable the gateway services to expose the OData endpoints you want to use.
 -   Ask them to create a scope in SAP for the exposed OData endpoints and give you the name and OAuth scope. You need this to configure the scope on the application registry form.
 
@@ -41,7 +42,7 @@ Consult with your SAP administrator:
 
     2.  Select **Connect to a third party OAuth Provider**
 
-        Use this form to set SAP as the OAuth provider and ServiceNow as the OAuth client. For detailed information about the fields on this form, see [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/connect-3rd-party-oauth-provider.md).
+        Use this form to set SAP as the OAuth provider and ServiceNow as the OAuth client. For detailed information about the fields on this form, see .
 
     3.  Enter a **Name**.
 
@@ -51,7 +52,7 @@ Consult with your SAP administrator:
 
     6.  Unlock the **Authorization URL** and **Token URL** fields to enter the URLs.
 
-        ![Application registry form with fields containing information.](../image/erp-oauth-usage-flow1.png)
+        \[Omitted image "erp-oauth-usage-flow1.png"\] Alt text: Application registry form with fields containing information.
 
     7.  Select the **OAuth Entity Scopes** tab.
 
@@ -59,7 +60,7 @@ Consult with your SAP administrator:
 
         You can add multiple scopes.
 
-        ![OAuth entity scopes tab on the application registry form.](../image/erp-oauth-usage-flow2.png)
+        \[Omitted image "erp-oauth-usage-flow2.png"\] Alt text: OAuth entity scopes tab on the application registry form.
 
     9.  Select **Submit**.
 
@@ -69,7 +70,7 @@ Consult with your SAP administrator:
 
     2.  Select **OAuth 2.0 credentials**.
 
-        For detailed information about the fields on this form, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md).
+        For detailed information about the fields on this form, see .
 
     3.  Enter a **Name**.
 
@@ -77,9 +78,9 @@ Consult with your SAP administrator:
 
     5.  In **Integration type**, select **Personal**.
 
-        In most cases, it is acceptable to use system-based credentials. However, if you are trying to obtain information from SAP, such as who changed information or details about approval activities, use the personal integration type. For more information, see [Using the Personal Authentication dashboard](../../../administer/integrationhub/concept/personal-auth-dashboard.md).
+        In most cases, it is acceptable to use system-based credentials. However, if you are trying to obtain information from SAP, such as who changed information or details about approval activities, use the personal integration type. For more information, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/personal-auth-dashboard.md).
 
-        ![Oauth 2.0 credentials form with fields containing information.](../image/erp-oauth-usage-flow3.png)
+        \[Omitted image "erp-oauth-usage-flow3.png"\] Alt text: Oauth 2.0 credentials form with fields containing information.
 
     6.  Select **Submit**.
 
@@ -89,7 +90,7 @@ Consult with your SAP administrator:
 
     2.  On the **Connections** tab, select **New**.
 
-        For detailed information about the fields on this form, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md).
+        For detailed information about the fields on this form, see .
 
     3.  Enter a **Name**.
 
@@ -100,5 +101,5 @@ Consult with your SAP administrator:
     6.  Select **Submit**.
 
 
-**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](../concept/erp-canvas-use-odata-and-http-connection.md)
+**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

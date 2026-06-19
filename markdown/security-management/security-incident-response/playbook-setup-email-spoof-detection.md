@@ -2,6 +2,7 @@
 title: Set up the Email Spoof Detection playbook
 description: Use the following steps to set up the Email Spoof Detection playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-email-spoof-detection.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,9 +33,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  You can create a copy of the Email Domain Spoofing Detection playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, click the ![More actions menu](../image/more-action-menu.png) icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
-
-    ![Overview of the Email Domain Spoofing Detection playbook](../image/playbook-email-spoof-detect.png "Email Domain Spoofing Detection playbook")
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
 4.  Activate the playbooks.
 
@@ -46,8 +45,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     -   **From** is not **empty**.
     -   **Security incident** is not **empty**.
-    ![Trigger condition for Email Domain Spoofing Detection playbook.](../image/playbook-email-spoof-detect-trigger.png)
 
-
-**Parent Topic:**[Playbook for Email Domain Spoofing Detection](../concept/playbook-email-spoof-detection.md)
+**Parent Topic:**[Playbook for Email Domain Spoofing Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-email-spoof-detection.md)
 

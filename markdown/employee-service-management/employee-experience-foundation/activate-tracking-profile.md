@@ -2,6 +2,7 @@
 title: Activate a tracking profile
 description: Activate one of the out-of-the-box tracking profiles to start collecting portal and campaign metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/activate-tracking-profile.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

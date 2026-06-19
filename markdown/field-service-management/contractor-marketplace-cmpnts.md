@@ -2,7 +2,10 @@
 title: Field Service Marketplace components
 description: Several types of components are installed with the activation of the Field Service Marketplace feature including tables, roles, system properties, business rules, and script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/contractor-marketplace-cmpnts.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 7
@@ -140,7 +143,7 @@ Function
 
 </th></tr></thead><tbody><tr><td>
 
-Marketplace tasksEnsure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](../task/activate-contractor-marketplace.md).
+Marketplace tasksEnsure that the Field Service Marketplace plugin is active. For more information, see [Activate Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/activate-contractor-marketplace.md).
 
 Demo data is provided with this plugin.
 
@@ -539,5 +542,5 @@ Field Service Marketplace adds the following script includes:
 |MarketplaceCoreConstants|Script Include to hold the constants for marketplace core plugin|
 |MarketplaceEntityValidatorPicker|Script include to choose the implementation of the MarketplaceEntityValidatorExtPoint|
 
-**Parent Topic:**[Components installed with additional plugins for Field Service Management](components-inst-additional-plugin.md)
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/components-inst-additional-plugin.md)
 

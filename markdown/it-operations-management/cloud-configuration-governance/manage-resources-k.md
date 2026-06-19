@@ -2,11 +2,12 @@
 title: Manage personal and group resources
 description: You can view and manage your resources as well as the resources assigned to the group you belong to. If you belong to more than one group, you can view and manage all resources assigned to those groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/manage-resources-k.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

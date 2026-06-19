@@ -2,6 +2,7 @@
 title: Transfer LINE chat conversations to live agents
 description: Configure the Advanced Work Assignment application to transfer a LINE chat conversation initiated by a requester \(customer contact or consumer\) to a live agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-line-live-agent-conv.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,10 +21,10 @@ Configure the Advanced Work Assignment application to transfer a LINE chat conve
 
 Your administrator must have completed the following tasks:
 
--   [Activate Advanced Work Assignment](../../advanced-work-assignment/task/awa-activate.md).
--   [Install Conversational Integration with LINE](messg-line-install.md).
--   Set the application scope to Conversational Integration with LINE using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
--   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](activate-messaging-actions.md).
+-   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-activate.md).
+-   [Install Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-install.md).
+-   Set the application scope to Conversational Integration with LINE using the application picker. For more information, see Application picker.
+-   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md).
 
 Role required: admin
 
@@ -43,7 +44,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    For more information, see [Service channels](../../advanced-work-assignment/concept/awa-service-channels.md).
+    For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
 2.  Automatically route work items for LINE chat conversations to agents by configuring the queue for the Line service channel.
 
@@ -57,7 +58,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    **Note:** By default, the **Line - Most Capacity** assignment rule is associated with the Agent Line Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](../../advanced-work-assignment/task/awa-create-assignment-rule.md) and [Work item queues](../../advanced-work-assignment/reference/awa-queues.md).
+    **Note:** By default, the **Line - Most Capacity** assignment rule is associated with the Agent Line Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md) and [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-queues.md).
 
 3.  Configure agent presence states for the Line service channel.
 
@@ -73,8 +74,8 @@ Role required: admin
 
     5.  Select **Update**.
 
-    For more information, see [Configure agent presence states](../../advanced-work-assignment/task/awa-configure-agent-presence.md).
+    For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
 
 
-**Parent Topic:**[Using Conversational Integration with LINE](../concept/messg-line-using.md)
+**Parent Topic:**[Using Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-using.md)
 

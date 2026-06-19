@@ -2,6 +2,7 @@
 title: Configure content filtering rules
 description: Use content filtering rules to specify the role a user must have to access content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-content-filtering-rules.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

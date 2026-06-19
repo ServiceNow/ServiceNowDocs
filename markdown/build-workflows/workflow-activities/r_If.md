@@ -2,6 +2,7 @@
 title: If workflow activity
 description: The If activity checks a condition or script to determine if a Yes or No transition should be taken.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_If.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

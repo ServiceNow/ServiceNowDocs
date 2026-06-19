@@ -2,6 +2,7 @@
 title: Start or complete iterations in EAP
 description: Start an iteration of a Sprint or PI so that your team can start working and tracking progress of work, and after your team finishes the assigned work, mark this iteration as complete, directly from the Backlog in Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -33,13 +34,13 @@ Role required: sn\_cwm.cwm\_user
         -   For a PI, the option is displayed as **Complete Planning Interval**.
         **Note:** Before marking a Planning Interval as Complete, all its associated child Sprints must be complete.
 
-        ![Complete Sprint in EAP.](../images/eap-complete-sprint.png)
+        \[Omitted image "eap-complete-sprint.png"\] Alt text: Complete Sprint in EAP.
 
     2.  Depending on the amount of work that's left incomplete for the current iteration, confirm its completion.
 
         -   If there are incomplete work items in the current iteration, you're asked to move the incomplete items to the Backlog or any future iteration.
 
-            ![Move incomplete items and confirm Sprint's completion.](../images/eap-complete-sprint-1.png)
+            \[Omitted image "eap-complete-sprint-1.png"\] Alt text: Move incomplete items and confirm Sprint's completion.
 
         -   If all assigned work is complete, then the iteration is automatically marked complete without any confirmation from you.
         **Note:** When you complete any iteration, it is no longer displayed in the Backlog page, and all the work items which are completed in that iteration are no longer available to view from the Backlog page either.
@@ -50,8 +51,8 @@ Role required: sn\_cwm.cwm\_user
 
         -   For a Sprint, the option is displayed as **Start Sprint**.
         -   For a PI, the option is displayed as **Start Planning Interval**.
-        ![Start next sprint in EAP.](../images/eap-start-sprint.png)
+        \[Omitted image "eap-start-sprint.png"\] Alt text: Start next sprint in EAP.
 
 
-**Parent Topic:**[Manage team backlog in EAP](../concept/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 

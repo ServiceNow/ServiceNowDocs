@@ -2,6 +2,7 @@
 title: Normalize the scores for metrics
 description: You can use the Maximum normalization input setting to use normalized values to calculate assessment scores for questions \(metrics\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/set-max-norm-input.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -30,7 +31,7 @@ In the following examples, the **Scale definition** is **High** \(larger numeric
 
 -   **When Maximum normalization input is not selected**
 
-    ![Option to select maximum normalization input.](../../grc-vendor-risk/image/tprm-q-choice-no-max-norm-input.png)
+    \[Omitted image "tprm-q-choice-no-max-norm-input.png"\] Alt text: Option to select maximum normalization input.
 
     Formula: \(\[Value of the response\] – \[Lowest value\] \) / \( \[Highest value\] – \[Lowest value\]\) \* 100.
 
@@ -44,7 +45,7 @@ In the following examples, the **Scale definition** is **High** \(larger numeric
 
 -   **When Maximum normalization input is selected**
 
-    ![Option to select maximum normalization input.](../../grc-vendor-risk/image/tprm-q-choice-max-norm-input.png)
+    \[Omitted image "tprm-q-choice-max-norm-input.png"\] Alt text: Option to select maximum normalization input.
 
     Formula: `([Value of the response]/ [Highest value]) * 100`.
 
@@ -61,7 +62,7 @@ In the following examples, the **Scale definition** is **High** \(larger numeric
 
 -   **When Maximum normalization input is not selected**
 
-    ![Option to select maximum normalization input.](../../grc-vendor-risk/image/tprm-q-multi-sel-no-max-norm-input.png)
+    \[Omitted image "tprm-q-multi-sel-no-max-norm-input.png"\] Alt text: Option to select maximum normalization input.
 
     Formula: `([Sum of the normalization input values for the selected responses] / [Sum of all the normalization input values]) * 100`.
 
@@ -76,7 +77,7 @@ In the following examples, the **Scale definition** is **High** \(larger numeric
 
 -   **When Maximum normalization input is selected**
 
-    ![Option to select maximum normalization input.](../../grc-vendor-risk/image/tprm-q-multi-sel-max-norm-input.png)
+    \[Omitted image "tprm-q-multi-sel-max-norm-input.png"\] Alt text: Option to select maximum normalization input.
 
     -   The system uses the value `0` for the response that has the lowest value. In this example, the **Dog** response is assigned the value `0`.
     -   Formula for each selection: `([Highest normalization input value for the selected responses] / [Maximum of the normalization input values]) * 100`.

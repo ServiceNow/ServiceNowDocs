@@ -2,6 +2,7 @@
 title: Migration from Test Management 1.0 to Test Management 2.0
 description: Migrate your test data from Test Management 1.0 to Test Management 2.0, and start using Test Management 2.0 for its enhanced testing capabilities and features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/migrate-test.html
 release: australia
 product: Test Management
 classification: test-management
@@ -21,8 +22,8 @@ Apply the following migration steps on a non-production instance, verify if the 
 
 To migrate your test data from Test Management 1.0 to Test Management 2.0, complete the following steps in order:
 
-1.  Activate the required plugins. For more information, see [Migration from Test Management 1.0 to Test Management 2.0](migrate-test.md).
-2.  Convert your test suites. For more information, see [Convert test suites](migrate-test-suites.md).
+1.  Activate the required plugins. For more information, see [Migration from Test Management 1.0 to Test Management 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/migrate-test.md).
+2.  Convert your test suites. For more information, see [Convert test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/migrate-test-suites.md).
 3.  Verify the migrated data on a non-production instance before repeating on production.
 
 ## Activate plugins
@@ -72,5 +73,5 @@ You have added custom fields to the tables of Test Management 1.0, and want to m
 
 ## Convert test suites
 
-[Convert test suites](migrate-test-suites.md) with underlying test cases to test sets and tests.
+[Convert test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/migrate-test-suites.md) with underlying test cases to test sets and tests.
 

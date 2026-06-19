@@ -2,6 +2,7 @@
 title: Add enterprise assets to a move order
 description: Add the enterprise assets that you want to include in a move order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-enterprise-assets-move-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -46,5 +47,5 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 The selected enterprise assets are added to the move order.
 
-**Parent Topic:**[Managing enterprise asset move orders](../concept/managing-enterprise-asset-move-orders.md)
+**Parent Topic:**[Managing enterprise asset move orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-enterprise-asset-move-orders.md)
 

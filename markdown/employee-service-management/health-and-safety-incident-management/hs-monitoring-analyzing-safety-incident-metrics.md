@@ -2,6 +2,7 @@
 title: Monitoring and analyzing safety incident metrics
 description: The Incident Management tab of the Health and Safety dashboard provides a comprehensive view for monitoring and analyzing safety incident metrics, including incident counts, injury data, observation trends, and action tracking across various organizational levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/hs-monitoring-analyzing-safety-incident-metrics.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -17,15 +18,15 @@ The **Incident Management** tab of the Health and Safety dashboard provides a co
 
 For any selected period and location, you can drill down into detailed data, empowering your teams to respond faster, improve conditions, and build a safer workplace.
 
-When you have the Generative AI plugin installed, you can view the incident pattern analysis tab on the dashboard. For more information, see [Incident pattern analysis](../../now-assist-health-safety/concept/hs-incident-pattern-analysis.md).
+When you have the Generative AI plugin installed, you can view the incident pattern analysis tab on the dashboard. For more information, see [Incident pattern analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis.md).
 
-![Incident Management tab showing safety incidents metrics in the Health and Safety dashboard.](../image/hs-incident-mgmt-dashboard.gif)
+\[Omitted image "hs-incident-mgmt-dashboard.gif"\] Alt text: Incident Management tab showing safety incidents metrics in the Health and Safety dashboard.
 
 ## Prerequisites
 
--   Ensure that the Health and Safety Incident Management application is installed. For more information, see [Install Health and Safety Incident Management](../task/install-hs-incident-mgmt.md).
--   Configure total annual hours for an establishment. For more information, see [Add total hours worked for an establishment](../task/add-hs-total-hours-worked-establishment.md).
--   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](../task/configure-job-generate-frequency-rates.md).
+-   Ensure that the Health and Safety Incident Management application is installed. For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
+-   Configure total annual hours for an establishment. For more information, see [Add total hours worked for an establishment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/add-hs-total-hours-worked-establishment.md).
+-   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/configure-job-generate-frequency-rates.md).
 
     **Note:** The **\[OHS\] Safety Metrics** job is set to run daily by default.
 
@@ -432,5 +433,5 @@ None
 </td></tr></tbody>
 </table>## Customizing widgets
 
-You can customize the widgets in the dashboard to display relevant metrics by using the UI Builder. For more information, see [UI Builder tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/uib-tutorial.md).
+You can customize the widgets in the dashboard to display relevant metrics by using the UI Builder. For more information, see .
 

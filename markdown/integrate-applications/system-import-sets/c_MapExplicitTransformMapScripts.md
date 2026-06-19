@@ -2,6 +2,7 @@
 title: Map with explicit transform map scripts
 description: Explicitly define mapping relationships in the Transform Map record itself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_MapExplicitTransformMapScripts.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

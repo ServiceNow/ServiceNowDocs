@@ -2,6 +2,7 @@
 title: Scan for users who have scripted
 description: Scan your instance to find users who have scripted within a specific time frame. The scan queries the audit logs and identifies any user who has performed write or update to a table having script field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/scan-for-users-who-have-scripted.html
 release: australia
 product: Access Control
 classification: access-control
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-09"
 reading_time_minutes: 2
 keywords: [scripting governance tool, scan for scripting users, conditional script writer group, scripting access audit]
-breadcrumb: [Use SGT, Scripting Governance Tool, Access Management]
+breadcrumb: [Use Scripting Governance Tool, Scripting Governance Tool, Access Management]
 ---
 
 # Scan for users who have scripted
@@ -20,7 +21,7 @@ Scan your instance to find users who have scripted within a specific time frame.
 
 Role required: security\_admin
 
-**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](t_ElevateToAPrivilegedRole.md).
+**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_ElevateToAPrivilegedRole.md).
 
 ## Procedure
 
@@ -36,7 +37,7 @@ Role required: security\_admin
     -   90 days
     -   120 days
     -   180 days
-    ![Scan for scripting users](../image/sgt-scan-scripting.png)
+    \[Omitted image "sgt-scan-scripting.png"\] Alt text: Scan for scripting users
 
     The default value is **180 days**.
 
@@ -59,7 +60,7 @@ Role required: security\_admin
     |Created by|User who initiated the scan|
     |Action|Actions the scan took|
 
-    ![View scan](../image/sgt-view-scans.png)
+    \[Omitted image "sgt-view-scans.png"\] Alt text: View scan
 
 7.  Select the scan record to open the scan results page.
 
@@ -72,13 +73,13 @@ Role required: security\_admin
     -   Users that have scripted table — a detailed list of active scripters, showing each user's Name, Last scripted date, Title, and Department.
     **Note:** If the **Users that have scripted count** is zero and the table shows `No data to display`, no users in the ServiceNow AI Platform have scripted within the selected time period.
 
-    ![Scan results page](../image/sgt-view-scans-result.png)
+    \[Omitted image "sgt-view-scans-result.png"\] Alt text: Scan results page
 
 8.  Review the results and identify users who require action.
 
 9.  To act on the results, select **Manage conditional script writers** on the scan results page.
 
-    The **Manage users in the conditional script writer group** opens, where you can review group membership and remove users who no longer require scripting access using the **Schedule removal** option. To learn more about how to schedule removal, see [Remove users from the Conditional Script Writer group](remove-conditional-script-writer-users.md).
+    The **Manage users in the conditional script writer group** opens, where you can review group membership and remove users who no longer require scripting access using the **Schedule removal** option. To learn more about how to schedule removal, see [Remove users from the Conditional Script Writer group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/remove-conditional-script-writer-users.md).
 
 
 ## Result

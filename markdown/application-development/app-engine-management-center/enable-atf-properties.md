@@ -2,6 +2,7 @@
 title: Enable Automated Test Framework \(ATF\) properties
 description: Pipelines and Deployments includes an Application Test Framework \(ATF\) suite called the Application Deployment Test Suite. Two system properties control whether the test runs automatically whenever an app is deployed to a Test environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/enable-atf-properties.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -21,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-The tests in the Application Deployment Test Suite can be run on production instances; however, the flows included in the base system run only on non-production \(Test\) instances. Additionally, the tests should run only on an instance defined with an **Instance Type** of **Testing**. For more information, see [Configure your pipeline environments](config-pipeline-environments.md).
+The tests in the Application Deployment Test Suite can be run on production instances; however, the flows included in the base system run only on non-production \(Test\) instances. Additionally, the tests should run only on an instance defined with an **Instance Type** of **Testing**. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-pipeline-environments.md).
 
-**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md).
+**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see .
 
 ## Procedure
 

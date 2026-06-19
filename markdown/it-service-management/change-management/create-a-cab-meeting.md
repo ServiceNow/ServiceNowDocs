@@ -2,6 +2,7 @@
 title: Create a single CAB meeting occurrence
 description: Depending on your requirements, you can create an individual Change Advisory Board \(CAB\) meeting occurrence.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-a-cab-meeting.html
 release: australia
 product: Change Management
 classification: change-management
@@ -23,7 +24,7 @@ Role required: sn\_change\_cab.cab\_manager
 
 1.  Navigate to **All** &gt; **Change** &gt; **Change Advisory Board** &gt; **My CAB Meetings**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Click **New**.
 
@@ -205,12 +206,12 @@ Check box to capture agenda decisions automatically on the meeting widget. The a
 
 You can now add agenda items and attendees to the cab meeting.
 
--   **[View CAB meeting details](view-cab-meeting-details.md)**  
+-   **[View CAB meeting details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/view-cab-meeting-details.md)**  
 You can view the details of any past, scheduled, or in-progress CAB meeting.
--   **[Modify CAB meeting details](refresh-cab-meeting-agenda-items.md)**  
+-   **[Modify CAB meeting details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/refresh-cab-meeting-agenda-items.md)**  
 You can modify the agenda items for a specific CAB meeting.
--   **[Send CAB meeting request to attendees](send-cab-meeting-request-attendees.md)**  
+-   **[Send CAB meeting request to attendees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/send-cab-meeting-request-attendees.md)**  
 You can send CAB meeting invitations to attendees for each CAB meeting.
 
-**Parent Topic:**[Working with the CAB Workbench](../concept/using-cab-workbench-cf.md)
+**Parent Topic:**[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/using-cab-workbench-cf.md)
 

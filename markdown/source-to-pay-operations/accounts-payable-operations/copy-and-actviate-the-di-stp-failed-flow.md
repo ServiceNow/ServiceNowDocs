@@ -2,6 +2,7 @@
 title: Copy and activate the DI STP Failed flow
 description: Copy and activate the DI STP Failed flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-and-actviate-the-di-stp-failed-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -34,9 +35,9 @@ Plugins required:
 
 2.  Search for and open the **DI STP Failed** flow.
 
-3.  Select the more actions icon \(![more actions icon](../../supplier-lifecycle-operations/image/more-actions-icon.png)\) in the top right and select **Copy flow**.
+3.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) in the top right and select **Copy flow**.
 
-    A copy of the **DI STP Failed** is created.![DI STP failed](../image/di-stp-fail-flow.png)
+    A copy of the **DI STP Failed** is created.\[Omitted image "di-stp-fail-flow.png"\] Alt text: DI STP failed
 
 4.  Select **Save**.
 

@@ -2,6 +2,7 @@
 title: Manage My Stacks
 description: Use the My Stacks tab to access all the stack properties such as the creation, update, and deletion details.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/my-stacks.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -127,5 +128,5 @@ Updated
 Date and time that the stack details were last updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring the My Stacks tab](../concept/manage-stacks.md)
+</table>**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)
 

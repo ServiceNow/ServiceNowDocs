@@ -2,6 +2,7 @@
 title: Modify the News feed widget
 description: The News feed widget displays articles on company news and announcements. All news, Other news, and Related news are instances of the News feed widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/modify-news-feed-widget-display.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ The News feed widget displays articles on company news and announcements. All ne
 
 Role required: sp\_admin or admin
 
-Learn more about the news widgets: [News articles](../concept/ec-news-articles.md)
+Learn more about the news widgets: [News articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-news-articles.md)
 
 ## Procedure
 
@@ -109,8 +110,8 @@ Default view
 
 </td><td>
 
-Sets the default view for news articles:-   **List**: Arranges articles in a vertical list.![News feed widget list view](../images/ec-news-widget-list.png)
--   **Grid**: Arranges articles in a grid with a maximum three articles per row.![News feed widget grid view](../images/ec-news-feed-widget-grid.png)
+Sets the default view for news articles:-   **List**: Arranges articles in a vertical list.\[Omitted image "ec-news-widget-list.png"\] Alt text: News feed widget list view
+-   **Grid**: Arranges articles in a grid with a maximum three articles per row.\[Omitted image "ec-news-feed-widget-grid.png"\] Alt text: News feed widget grid view
 
 
 </td></tr><tr><td>
@@ -193,5 +194,5 @@ Enables viewing of nested call insights for total load time in parent and child 
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Configure employee communications widgets](../concept/employee-comms-widgets.md)
+**Parent Topic:**[Configure employee communications widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-comms-widgets.md)
 

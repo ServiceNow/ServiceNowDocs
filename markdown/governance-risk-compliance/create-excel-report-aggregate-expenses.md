@@ -2,6 +2,7 @@
 title: Convert and aggregate contractual expenses to regulator-required currencies
 description: Convert and aggregate contractual expenses to regulator-required currencies and generate consolidated reports for reporting submissions. Beginning with Digital Operational Resilience Management \(sn\_dora\_accel\), version 22.x.x, these currency conversion and third-party aggregation capabilities are supported for DORA reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-excel-report-aggregate-expenses.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,9 +22,9 @@ Role required: sn\_oper\_res.admin, sn\_oper\_res.manager
 
 Two download types are supported: \(1\) Excel master template — for internal review and analysis; does NOT require Competent Authority, Reference Date, or Date of Reporting fields. \(2\) Plain-CSV reporting package — for regulatory submission; requires Competent Authority, Reference Date, and Date of Reporting; includes Level 3 DPM validation on generation. Currency conversion and aggregation settings are available for both types.
 
-Once the instance is activated, currency rates populate automatically via a daily scheduled job. To align with regulator requirements, administrators or DORA administrators can update currency rates and validation rules at **All &gt; Digital Operational Resilience Management &gt; Digital Resilience Choices or DPM Business Validation Rules**. For more information, see [Currency conversion and third-party aggregation](../concept/currency-conversion-aggregation.md).
+Once the instance is activated, currency rates populate automatically via a daily scheduled job. To align with regulator requirements, administrators or DORA administrators can update currency rates and validation rules at **All &gt; Digital Operational Resilience Management &gt; Digital Resilience Choices or DPM Business Validation Rules**. For more information, see [Currency conversion and third-party aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/currency-conversion-aggregation.md).
 
-![DPM business validation rules.](../image/dora-excel-validation-rules.png)
+\[Omitted image "dora-excel-validation-rules.png"\] Alt text: DPM business validation rules.
 
 ## Procedure
 
@@ -31,7 +32,7 @@ Once the instance is activated, currency rates populate automatically via a dail
 
     The example shows the Excel template form.
 
-    ![Excel template.](../image/dora-excel-dload-req-excel-master-temp.png)
+    \[Omitted image "dora-excel-dload-req-excel-master-temp.png"\] Alt text: Excel template.
 
 2.  Fill in the entity details including the LEI \(Legal Entity Identifier\), entity name, country, and type of entity and set the report type to **Consolidated**.
 
@@ -49,7 +50,7 @@ Once the instance is activated, currency rates populate automatically via a dail
 
     The reference date and reporting date are shown in the example.
 
-    ![Request details are filled in.](../image/dora-excel-dload-req-excel-req-form.png)
+    \[Omitted image "dora-excel-dload-req-excel-req-form.png"\] Alt text: Request details are filled in.
 
 6.  Verify configuration settings on the **Details** tab.
 
@@ -57,7 +58,7 @@ Once the instance is activated, currency rates populate automatically via a dail
 
     Review the contracts that will be included in the export as shown in the example.
 
-    ![Contractual arrangements.](../image/dora-excel-dload-req-excel-req-contractual-arrange.png)
+    \[Omitted image "dora-excel-dload-req-excel-req-contractual-arrange.png"\] Alt text: Contractual arrangements.
 
 8.  To download third-party information register, select the **Export info register** action, enter a file name in the export dialog, and select **Save**.
 
@@ -65,7 +66,7 @@ Once the instance is activated, currency rates populate automatically via a dail
 
 9.  Download the generated Microsoft Excel file containing the entity information in Digital Operational Resilience Act \(DORA\) template format.
 
-    ![DORA template with contractual information.](../image/dora-excel-dload-req-excel-output3-201.png)![DORA template with contractual information for 501 format.](../image/dora-excel-dload-req-excel-output4-501.png)
+    \[Omitted image "dora-excel-dload-req-excel-output3-201.png"\] Alt text: DORA template with contractual information.\[Omitted image "dora-excel-dload-req-excel-output4-501.png"\] Alt text: DORA template with contractual information for 501 format.
 
 10. Download the "Consolidated\_Reports.zip" file from the Attachments section after the system processes and generates the consolidated reports package.
 
@@ -73,17 +74,17 @@ Once the instance is activated, currency rates populate automatically via a dail
 
 11. Extract the ZIP file to access the "Currency\_Conversion\_Summary.csv" and Third\_Party\_Aggregation\_Summary.csv reports and review the "Currency Conversion Summary report" to verify conversion details and amounts.
 
-    ![Output formats.](../image/dora-excel-dload-req-excel-consolidated-report-2-outputs.png)
+    \[Omitted image "dora-excel-dload-req-excel-consolidated-report-2-outputs.png"\] Alt text: Output formats.
 
 12. To generate a Comma-Separated Values \(CSV\) reporting package for regulatory submission, create an Excel Upload/Download request and select the **Plain-CSV reporting package** type.
 
     The Plain-CSV reporting package type is shown in the example.
 
-    ![Plain-csv reporting package type.](../image/dora-excel-dload-req-csv-option.png)
+    \[Omitted image "dora-excel-dload-req-csv-option.png"\] Alt text: Plain-csv reporting package type.
 
 13. Fill in the entity configuration with the currency conversion and aggregation settings, then save the CSV package request to initiate asynchronous processing.
 
-    ![CSV reports.](../image/dora-excel-dload-req-csv-option-csv-reports.png)
+    \[Omitted image "dora-excel-dload-req-csv-option-csv-reports.png"\] Alt text: CSV reports.
 
     On Save, an info banner displays: "Plain-csv reporting package generation initiated. Processing time varies based on data volume." No page refresh is needed.
 
@@ -99,12 +100,12 @@ Once the instance is activated, currency rates populate automatically via a dail
 
     The example shows the CSV file with structured currency data.
 
-    ![CSV file with currency data.](../image/dora-excel-dload-req-csv-option-csv-3.png)
+    \[Omitted image "dora-excel-dload-req-csv-option-csv-3.png"\] Alt text: CSV file with currency data.
 
     When selecting Plain-CSV reporting package type, these additional fields are required: Competent authority \(for example, "CA"\), Reference date \(defaults to last day of prior year, for example, 2025-12-31\), and Date of reporting \(defaults to today, for example, 2026-01-28\). These fields do not appear on the Excel master template request form.
 
     **Note:** If any providers were ineligible for aggregation, the aggregation summary and detail reports identify those providers and explain the reason they were skipped.
 
 
-**Parent Topic:**[Currency conversion and third-party aggregation](../concept/currency-conversion-aggregation.md)
+**Parent Topic:**[Currency conversion and third-party aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/currency-conversion-aggregation.md)
 

@@ -2,6 +2,7 @@
 title: ShazzamLaunch - Global
 description: The ShazzamLaunch script include provides methods to handle the details of launching a Shazzam probe for a given discovery.Creates an instance of the Shazzamlaunch class.Adds a single port probe to our MID services collection.Adds the specified range and this discovery's port probes to scan \(as defined by behavior\) to the collection of MID servers and port probes that need to be probed.Fires a Shazzam probe for the MID server and services in the given hash map.Launches Shazzam probes as necessary, depending on the current phase of each behavior used.Makes an XML port probe spec for the given port probe hashmap.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_ShazzamLaunchAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ShazzamLaunch script include provides methods to handle the details of launc
 
 Use this script include to launch a Shazzam probe during the discovery scanning phase.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ShazzamLaunch - ShazzamLaunch\(DiscoveryStatus status, DiscoverySchedule schedule\)
 

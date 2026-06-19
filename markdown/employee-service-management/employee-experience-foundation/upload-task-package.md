@@ -2,6 +2,7 @@
 title: Download and modify the manifest file for Employee Center for GCC-H or DoD
 description: Download and modify the package file to provide the information that is required to make Employee Center available in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/upload-task-package.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -53,5 +54,5 @@ To download, edit, and upload the manifest file, refer to this [Knowledge Base](
     Select all three files and click **Compress** instead of compressing the folder itself.
 
 
-**Parent Topic:**[Integrating Employee Center with Microsoft Teams for GCC-H or DoD](../concept/ec-teams-integration-gcch.md)
+**Parent Topic:**[Integrating Employee Center with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-teams-integration-gcch.md)
 

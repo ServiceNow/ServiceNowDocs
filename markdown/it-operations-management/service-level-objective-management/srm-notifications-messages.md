@@ -2,6 +2,7 @@
 title: Notifications for breached error budgets
 description: Details about the notifications that teams receive for breached error budget policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-level-objective-management/srm-notifications-messages.html
 release: australia
 product: Service Level Objective Management
 classification: service-level-objective-management
@@ -33,11 +34,11 @@ The message contains details about the breach to help team members learn about t
 
 The following image is a sample notification in Microsoft Teams. It shows an error budget policy violation for the Cart service and details about the SLO and error budget remaining.
 
-![Cart service has an error budget violation on its Cart service availability SLO.](../images/srm-msteams-notification2.png)
+\[Omitted image "srm-msteams-notification2.png"\] Alt text: Cart service has an error budget violation on its Cart service availability SLO.
 
 ## Related documentation
 
-See [Create a notification destination in SRM](../task/create-notification-destination.md) and [Create SLOs, SLIs, and error budget policies](../task/sr-create-slo-sli.md).
+See [Create a notification destination in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/create-notification-destination.md) and [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).
 
-**Parent Topic:**[SLO Management reference](service-level-objective-management-reference.md)
+**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
 

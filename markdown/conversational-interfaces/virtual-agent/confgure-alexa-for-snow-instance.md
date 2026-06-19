@@ -2,6 +2,7 @@
 title: Configure an Alexa skill
 description: Configure your Alexa skill to talk to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/confgure-alexa-for-snow-instance.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -65,5 +66,5 @@ Role required: admin
 6.  Click **Deploy**.
 
 
-**Parent Topic:**[Set up Conversational Integration with Alexa](setup-alexa.md)
+**Parent Topic:**[Set up Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-alexa.md)
 

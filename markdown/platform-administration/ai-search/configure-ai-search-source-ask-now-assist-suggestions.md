@@ -2,6 +2,7 @@
 title: Configure AI Search as the source for Ask Now Assist suggestions
 description: Enable term highlighting in enhanced chat's Ask Now Assist suggestions by configuring AI Search as the source for those suggestions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/configure-ai-search-source-ask-now-assist-suggestions.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -28,7 +29,7 @@ By default, Ask Now Assist suggestions are generated using a prefix-based GlideA
 
 Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask Now Assist and provides improvements such as wildcard searching and lemmatization for suggestions.
 
-For more information on Ask Now Assist suggestions in enhanced chat, see [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md).
+For more information on Ask Now Assist suggestions in enhanced chat, see .
 
 ## Procedure
 
@@ -61,5 +62,5 @@ For more information on Ask Now Assist suggestions in enhanced chat, see [Enhanc
 5.  On the System Property form, set the system property's value to **true**, then select **Update**.
 
 
-**Parent Topic:**[Configuring Now Assist in AI Search](../concept/configuring-now-assist-ais.md)
+**Parent Topic:**[Configuring Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
 

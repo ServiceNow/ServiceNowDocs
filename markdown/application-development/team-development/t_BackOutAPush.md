@@ -2,6 +2,7 @@
 title: Back out a push
 description: Application developers can back out a push to remove unwanted changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_BackOutAPush.html
 release: australia
 product: Team Development
 classification: team-development

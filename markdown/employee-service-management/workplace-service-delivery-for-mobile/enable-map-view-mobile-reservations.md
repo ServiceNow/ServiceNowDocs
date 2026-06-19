@@ -2,13 +2,14 @@
 title: Enable map view to create reservations
 description: Enable map view for mobile employee users so that they can reserve spaces using floor maps Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/enable-map-view-mobile-reservations.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure Workplace Service Delivery for Mobile, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Enable map view to create reservations
@@ -121,11 +122,11 @@ Select **ServiceNow** from the drop-down list.
 
 ## Result
 
-Option to view a floor map using the Map view instead of a list view is available for Workplace Service Delivery for Mobile users. You can use the **Toggle map view** option while making a reservation to view floor maps and select spaces. For more information, see [Configure the Toggle map view property](configure-toggle-map-view.md).
+Option to view a floor map using the Map view instead of a list view is available for Workplace Service Delivery for Mobile users. You can use the **Toggle map view** option while making a reservation to view floor maps and select spaces. For more information, see [Configure the Toggle map view property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-toggle-map-view.md).
 
-**Parent Topic:**[Configure Workplace Service Delivery for Mobile](../concept/configure-wsd-mobile.md)
+**Parent Topic:**[Configure Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
 
-**Previous topic:**[Configure a custom Map provider](configure-custom-map-provider.md)
+**Previous topic:**[Configure a custom Map provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-custom-map-provider.md)
 
-**Next topic:**[Configure the Toggle map view property](configure-toggle-map-view.md)
+**Next topic:**[Configure the Toggle map view property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-toggle-map-view.md)
 

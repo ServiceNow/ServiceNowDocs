@@ -2,6 +2,7 @@
 title: Inherit from multiple providers
 description: Inherit individual control requirements from different provider packages to create a fully inherited control within an authorization package.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/inherit-from-multiple-providers.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring

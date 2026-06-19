@@ -2,6 +2,7 @@
 title: Jumpstart Your Now Assist for Creator
 description: The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration of the possibilities and capabilities of Now Assist for Creator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-now-assist-creator.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,9 +20,11 @@ The Jumpstart Your Now Assist for Creator Accelerator provides a demonstration o
 
 Jumpstart Your Now Assist for Creator provides Impact customers with an overview of Now Assist for Creator and an applied demonstration on how  to use Generative AI capabilities to reduce app development time, increase productivity, and improve overall coding experiences. This accelerator will demonstrate the features of Now Assist for Creator and provide key resources and leading practices for getting started.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 

@@ -2,7 +2,10 @@
 title: Configure wrap-up codes for email interactions
 description: Configure internal wrap-up codes that agents use to categorize email interactions when closing them. Wrap-up codes work with both AWA-routed and CCaaS-routed email interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-wrap-up-codes-email-interactions-eaai.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Configure internal wrap-up codes that agents use to categorize email interaction
 
 ## Before you begin
 
-Default wrap-up codes are read-only. The system uses ACLs to restrict list-edit operations and data policies to restrict edits in form view. You can’t configure multiple default wrap-up codes for different use cases. For more information on wrap-up codes, see [Wrap-up codes for email interactions](../reference/wrap-up-codes-email-interactions-r.md).
+Default wrap-up codes are read-only. The system uses ACLs to restrict list-edit operations and data policies to restrict edits in form view. You can’t configure multiple default wrap-up codes for different use cases. For more information on wrap-up codes, see [Wrap-up codes for email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/wrap-up-codes-email-interactions-r.md).
 
 Role required: admin
 
@@ -34,5 +37,5 @@ Role required: admin
 
 ## Result
 
-The wrap-up code is created. To make it available to agents, associate it with the email interaction wrap-up configuration. See [Associate wrap-up codes with email interactions](associate-wrap-up-codes-email-interactions.md).
+The wrap-up code is created. To make it available to agents, associate it with the email interaction wrap-up configuration. See [Associate wrap-up codes with email interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-wrap-up-codes-email-interactions.md).
 

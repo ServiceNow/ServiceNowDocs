@@ -2,6 +2,7 @@
 title: Operations dashboard
 description: Enable managers to monitor work items across all service channels so that their agents can better support customer needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/operations-dashboard.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -15,9 +16,9 @@ breadcrumb: [Analytics &amp; Reporting Solutions, Reference, Advanced Work Assig
 
 Enable managers to monitor work items across all service channels so that their agents can better support customer needs.
 
-This dashboard is available in the Advanced Work Assignment content pack. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](../../../use/application-content-packs/concept/awa-content-pack.md).
+This dashboard is available in the Advanced Work Assignment content pack. For information on activating the content pack, see [Platform Analytics Solutions for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-content-pack.md).
 
-![The dashboard displays indicators and reports to track agent interactions with customers.](../image/awa-operations-dashboard-update.png "Advanced Work Assignment dashboard for Operations")
+\[Omitted image "awa-operations-dashboard-update.png"\] Alt text: The dashboard displays indicators and reports to track agent interactions with customers.
 
 ## End users and roles
 
@@ -103,13 +104,13 @@ To analyze data according to different categories, select a breakdown from the d
 -   Queue
 -   Assignment Group
 
-For more information on analyzing data with breakdowns, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+For more information on analyzing data with breakdowns, see Using breakdowns on dashboards.
 
 ## Reports
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Accepted Work Items - Last Hour|Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)|Number of interaction work items that agents have accepted in the past hour.|
-|Abandoned Work Items - Last Hour|Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)|Number of interaction work items that agents have abandoned in the past hour.|
-|Average Wait Time - Last Hour|Single Score![Single score report](../../../reuse/reporting/image/single-score.svg)|Average amount of time that customers have spent waiting for an agent response in the past hour.|
+|Accepted Work Items - Last Hour|Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report|Number of interaction work items that agents have accepted in the past hour.|
+|Abandoned Work Items - Last Hour|Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report|Number of interaction work items that agents have abandoned in the past hour.|
+|Average Wait Time - Last Hour|Single Score\[Omitted image "single-score.svg"\] Alt text: Single score report|Average amount of time that customers have spent waiting for an agent response in the past hour.|
 

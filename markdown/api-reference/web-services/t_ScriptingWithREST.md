@@ -2,6 +2,7 @@
 title: Generate a REST message script preview
 description: You can generate an example script to send a REST message based on content and parameters you provide in the method record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/t\_ScriptingWithREST.html
 release: australia
 product: Web Services
 classification: web-services
@@ -41,7 +42,7 @@ Generate an example script and use it as a starting point when scripting outboun
 
     The instance displays the script that the REST message generated for this method.
 
-    ![REST Message Script Preview](../image/RESTMessageScriptPreview.png)
+    \[Omitted image "RESTMessageScriptPreview.png"\] Alt text: REST Message Script Preview
 
 8.  Copy this script and modify it as needed to use elsewhere in the instance.
 
@@ -50,5 +51,5 @@ Generate an example script and use it as a starting point when scripting outboun
 
 Refer to the RESTMessageV2 and RESTResponseV2 APIs for more information on available scripting methods. Outbound REST scripting examples are also available.
 
-**Parent Topic:**[Scripting outbound REST](../concept/c_ScriptingOutboundREST.md)
+**Parent Topic:**[Scripting outbound REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_ScriptingOutboundREST.md)
 

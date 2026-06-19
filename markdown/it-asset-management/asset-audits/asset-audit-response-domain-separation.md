@@ -2,6 +2,7 @@
 title: Domain separation and Asset Audit Response
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Asset Audit Response. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-audits/asset-audit-response-domain-separation.html
 release: australia
 product: Asset Audits
 classification: asset-audits
@@ -25,7 +26,7 @@ Domain separation is supported for Asset Audit Response. Domain separation enabl
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview
 
@@ -39,10 +40,10 @@ When managing and completing an audit engagement and corresponding evidence requ
 
 **Note:** If you create an evidence request under a specific domain in the Audit Workspace, the corresponding asset evidence task automatically falls under the same domain in the Asset Governance Workspace.
 
-**Parent Topic:**[Asset Audit Response reference](asset-audit-response-references.md)
+**Parent Topic:**[Asset Audit Response reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-audits/asset-audit-response-references.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

@@ -2,6 +2,7 @@
 title: Create and run a manual risk indicator in the Risk Workspace
 description: Create and run a manual risk indicator to identify the possibility of a future adverse impact on your organization. Indicators are an early warning system and they enable you to take preventative actions on risks. In a manual indicator, the results are manually gathered using task assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-a-manual-indicator-risk-ws.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -282,5 +283,5 @@ Previous status of the indicator to show whether the indicator passed or failed.
         Live records always open in the classic user interface and not in the Risk Workspace user interface.
 
 
-**Parent Topic:**[Using the Risk Workspace](../concept/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

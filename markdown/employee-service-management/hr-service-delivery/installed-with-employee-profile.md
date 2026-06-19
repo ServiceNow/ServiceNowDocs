@@ -2,6 +2,7 @@
 title: Components installed with Employee Profile
 description: Several types of components are installed with activation of the Employee Profile \[sn\_employee\_profile\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-employee-profile.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,7 +16,7 @@ breadcrumb: [Activate Employee Profile, Employee Profile table, HR Administratio
 
 Several types of components are installed with activation of the Employee Profile \[sn\_employee\_profile\] plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -82,5 +83,5 @@ Employee Profile\[sn\_employee\_profile\]
 Employee Profile table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Employee Profile](../task/activate-employee-profile.md)
+</table>**Parent Topic:**[Activate Employee Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-employee-profile.md)
 

@@ -2,6 +2,7 @@
 title: Using a Response template in chat
 description: Use response templates as reusable messages that you can copy and paste into a chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-chat-response-template.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -19,7 +20,7 @@ Use response templates as reusable messages that you can copy and paste into a c
 
 Role required: sn\_hr\_core.case\_writer
 
-The Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin must be activated to use response templates in chat. For more information, see [Response templates for HR Service Delivery](../concept/hr-templated-snippets.md#).
+The Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin must be activated to use response templates in chat. For more information, see [Response templates for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
 **Note:** Currently, chat is only available for Interactions in Agent Workspace for HR Case Management.
 

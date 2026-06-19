@@ -2,6 +2,7 @@
 title: Configure Conversational Integration with LINE
 description: Install and set up the Conversational Integration with LINE application to enable your users to interact with virtual and live agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-line-configure.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,14 +26,14 @@ This task provides the general steps to integrate the LINE messaging app with a 
 
 ## Procedure
 
-1.  [Install Conversational Integration with LINE](messg-line-install.md).
+1.  [Install Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-install.md).
 
-2.  [Set up Conversational Integration with LINE](messg-line-setup.md).
+2.  [Set up Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-setup.md).
 
-3.  [Design Virtual Agent topics to capture information from a LINE chat conversation](../concept/messg-line-capture-info.md).
+3.  [Design Virtual Agent topics to capture information from a LINE chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-capture-info.md).
 
-4.  [Close idle LINE chat conversations](../concept/messg-line-open-conv.md).
+4.  [Close idle LINE chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-open-conv.md).
 
-5.  [Transfer LINE chat conversations to live agents](messg-line-live-agent-conv.md).
+5.  [Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/messg-line-live-agent-conv.md).
 
 

@@ -2,6 +2,7 @@
 title: Supplier Email Domain table
 description: The Supplier Email Domain \[sn\_slm\_email\_domain\] table stores important information about the email domain of a supplier.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/slo-supp-email-table.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -58,7 +59,7 @@ Vendor that provides goods and services.
 </td></tr></tbody>
 </table>**Note:** Multiple supplier records can have the same email domain after removing the unique constraint from the Email Domain column of the Supplier Email Domain \[sn\_slm\_email\_domain\] table.
 
-For more information, see [Supplier Lifecycle Operations data model](slo-data-model.md).
+For more information, see [Supplier Lifecycle Operations data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/slo-data-model.md).
 
-**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](slo-primary-data-tables.md)
+**Parent Topic:**[Primary data tables for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

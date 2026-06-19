@@ -2,6 +2,7 @@
 title: Create an ad hoc filter from an existing filter
 description: Create ad hoc filters from existing filters from Dispatcher Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-ad-hoc-filter-from-existing.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

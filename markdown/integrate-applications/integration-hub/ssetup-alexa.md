@@ -2,6 +2,7 @@
 title: Set up the Amazon Alexa spoke
 description: Integrate the ServiceNow instance and Amazon Alexa account by creating a custom OAuth application in Amazon Alexa to authenticate ServiceNow requests.Create and register a security profile through the Developer Console to use Login with Amazon on your ServiceNow instance.Add and configure a Amazon Alexa connection to authenticate ServiceNow requests in the Amazon Alexa spoke.Authenticate the inbound requests from Amazon Alexa account to your ServiceNow instance by creating a webhook registry.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/ssetup-alexa.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -133,12 +134,12 @@ Role required: admin.
 
 11. In the AWS Lambda function, specify the Webhook Callback URL and save the changes.
 
-    ![Webhook Callback URL](../image/alexa-url.png)
+    \[Omitted image "alexa-url.png"\] Alt text: Webhook Callback URL
 
 12. Log in to [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask).
 
 13. Navigate to **Build** &gt; **CUSTOM** &gt; **Endpoint** and specify ARN of the AWS Lambda function you had configured.
 
-    ![AWS Lambda ARN](../image/alexa-lambda-arn.png)
+    \[Omitted image "alexa-lambda-arn.png"\] Alt text: AWS Lambda ARN
 
 

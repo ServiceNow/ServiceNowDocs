@@ -2,6 +2,7 @@
 title: Using Now Assist for Integrated Risk Management \(IRM\) skills
 description: Use the generative AI skills that are supported by the Now Assist for Integrated Risk Management \(IRM\) application for quick actions with issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -16,7 +17,7 @@ breadcrumb: [Now Assist, Common GRC features, Governance, Risk, and Compliance]
 
 Use the generative AI skills that are supported by the Now Assist for Integrated Risk Management \(IRM\) application for quick actions with issues.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Modify the instructions for Now Assist for IRM skills
 

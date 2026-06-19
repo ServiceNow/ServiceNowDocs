@@ -2,11 +2,14 @@
 title: Modifying the Data Collection configuration
 description: You can make changes to the Data Collection configuration to align with your organization's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-all-modify.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Modifying the Data Collection configuration

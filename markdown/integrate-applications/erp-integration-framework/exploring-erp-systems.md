@@ -2,6 +2,7 @@
 title: Exploring Zero Copy Connector for ERP systems
 description: Create an ERP \(Enterprise Resource Planning\) system in Zero Copy Connector for ERP to connect to an external ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/exploring-erp-systems.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -22,9 +23,9 @@ Each ERP system record organizes the connection to the system of record and poin
 
 You can have multiple ERP system records on one instance \(license-dependent\). Once created, each system is regularly pinged to confirm that the connection is healthy.
 
-![Infographic showing steps for configuring connection, creating ERP system, and verifying heartbeat.](../image/erp-explore-systems-infographic.png)
+\[Omitted image "erp-explore-systems-infographic.png"\] Alt text: Infographic showing steps for configuring connection, creating ERP system, and verifying heartbeat.
 
-For more information, see [Working with ERP systems in Zero Copy Connector for ERP](erp-canvas-work-with-systems.md).
+For more information, see [Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md).
 
-**Parent Topic:**[Exploring Zero Copy Connector for ERP](exploring-erp-integration.md)
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
 

@@ -1,7 +1,8 @@
 ---
 title: Microsoft Teams call quality monitoring overview
-description: Analyze user‑level call performance for Microsoft Teams. View call quality, network metrics like jitter and packet loss, and session details to identify and fix communication issues.
+description: Analyze user‑level call performance for Microsoft Teams. View call quality, network metrics such as jitter and packet loss, and session details to identify and fix communication issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/microsoft-teams-call-quality-monitoring-overview.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -13,7 +14,11 @@ breadcrumb: [Monitor, Digital End-User Experience, IT Service Management]
 
 # Microsoft Teams call quality monitoring overview
 
-Analyze user‑level call performance for Microsoft Teams. View call quality, network metrics like jitter and packet loss, and session details to identify and fix communication issues.
+Analyze user‑level call performance for Microsoft Teams. View call quality, network metrics such as jitter and packet loss, and session details to identify and fix communication issues.
+
+## Microsoft Teams call quality monitoring overview video
+
+Microsoft Teams call quality overview video 
 
 ## Benefits of monitoring Microsoft Teams call quality
 
@@ -27,5 +32,5 @@ DEX advanced monitoring for Microsoft Teams call quality provides the following 
 -   Gain actionable insights through dashboards and reports, enabling IT teams to validate improvements and track organizational communication health.
 -   Reduce help desk tickets related to meeting and calling issues by proactively resolving root causes.
 
-To monitor Microsoft Teams call quality, see [Monitor Microsoft Teams call quality](../../dex-for-microsoft-365/task/monitor-teams-call-quality.md).
+To monitor Microsoft Teams call quality, see [Monitor Microsoft Teams call quality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/monitor-teams-call-quality.md).
 

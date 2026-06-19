@@ -2,6 +2,7 @@
 title: Financial Services Card Operations
 description: With Financial Services Card Operations, streamline, digitize, and automate the card operations from the front to back office in your financial institution, so that credit card applications and card transaction disputes can be quickly processed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/card-ops-landing-page.html
 release: australia
 product: Financial Services Card Operations
 classification: financial-services-card-operations
@@ -17,23 +18,23 @@ With Financial Services Card Operations, streamline, digitize, and automate the 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how customers, branch workers, and agents use Card Operations.](fso-card-operations.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how customers, branch workers, and agents use Card Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/fso-card-operations.md)
 
 </td><td>
 
-[Set up ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Set up Card Operations.](../task/set-up-card-operations.md)
+[Set up \[Omitted image "bus-sdlc.svg"\] Alt text: Set up Card Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/set-up-card-operations.md)
 
 </td></tr><tr><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg) Submit and manage credit card related requests.](managing-credit-card-service-case-tasks.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Submit and manage credit card related requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/managing-credit-card-service-case-tasks.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components such as roles, tables, properties, and plugins and store applications that are installed.](card-operations-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, properties, and plugins and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-card-operations/card-operations-reference.md)
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Configuring confidential inheritance in your tables
 description: You can set up confidentiality inheritance in the tables that are already configured in the confidentiality configuration module. In the GRC application, whenever a parent record is marked or unmarked as confidential, its related table records are also marked or unmarked as confidential.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/confidential-inheritance.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,7 +20,7 @@ When you mark an issue as confidential, a related remediation task is automatica
 
 When an issue's confidentiality is unmarked, the corresponding confidentiality of a remediation task is also unmarked. Let's look at issue A again. Remember that issue A has the remediation tasks P, Q, and R. If the confidentiality is unmarked for issue A, then a dialog box appears with a question about whether it's okay to unmark the confidentiality for all the related tasks P, Q, and R or only for issue A. Based on what the selection is in the following example, the related records are unmarked as confidential.
 
-![Unmark confidentiality.](../image/unmark-confidentiality.png "Unmark confidentiality")
+\[Omitted image "unmark-confidentiality.png"\] Alt text: Unmark confidentiality.
 
 As shown in the example dialog box, if **Include downstream records** was selected, then the confidentiality is unmarked for all the downstream records. If **Only this record** was selected, the confidentiality is unmarked for that single record only.
 
@@ -36,5 +37,5 @@ Inheritance works only at the point of marking a parent record as confidential. 
 
 For more information about the confidentiality inheritance configuration, see [KB1213404](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1213404) You must log in to the Now Support to view the Knowledge Base articles.
 
-**Parent Topic:**[Confidential records](confidential-records.md)
+**Parent Topic:**[Confidential records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/confidential-records.md)
 

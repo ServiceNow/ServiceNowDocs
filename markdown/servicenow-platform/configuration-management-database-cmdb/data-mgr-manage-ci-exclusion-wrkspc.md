@@ -2,6 +2,7 @@
 title: Manage exclusion lists for CMDB Data Manager
 description: Create and manage exclusion lists for the various policy types used in CMDB Data Manager, in CMDB Workspace or in Service Graph Workspace. Policies of the specified type won't target CIs and other records in the exclusion list for that policy type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/data-mgr-manage-ci-exclusion-wrkspc.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

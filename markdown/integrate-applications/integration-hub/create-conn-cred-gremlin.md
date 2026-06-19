@@ -2,6 +2,7 @@
 title: Create Connection and Credential record for the Gremlin spoke
 description: Authorize the Gremlin spoke actions by creating connection and credential record for the application registered in Gremlin. The Gremlin spoke connection and credential alias uses these connections and credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-conn-cred-gremlin.html
 release: australia
 product: Integration Hub
 classification: integration-hub

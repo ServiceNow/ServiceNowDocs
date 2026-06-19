@@ -2,6 +2,7 @@
 title: Supplier outbound staging table
 description: The Supplier outbound \[sn\_spend\_intg\_outbound\_supplier​\] staging table stores important data about the supplier so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/slo-supplier-outbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

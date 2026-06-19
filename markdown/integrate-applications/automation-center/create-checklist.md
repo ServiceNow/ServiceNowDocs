@@ -2,6 +2,7 @@
 title: Create a checklist
 description: Create a checklist to track the items for an automation request. A checklist is a list of tasks that you must track before publishing an automation request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-checklist.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Create a checklist to track the items for an automation request. A checklist is 
 
 Role required: sn\_ac.automation\_admin
 
-**Note:** The option to create a checklist is available only when the automation request is in the In progress state. For information about moving an automation request to the In progress state, see [Move an automation request to the In progress state](move-automationrequest-to-inprogress.md).
+**Note:** The option to create a checklist is available only when the automation request is in the In progress state. For information about moving an automation request to the In progress state, see [Move an automation request to the In progress state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/move-automationrequest-to-inprogress.md).
 
 After the automation request is moved to the following states, the option to create a checklist isn’t available:
 
@@ -31,7 +32,7 @@ After the automation request is moved to the following states, the option to cre
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
 
-2.  Select the list icon \(![List icon.](../images/autocenter-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
@@ -39,7 +40,7 @@ After the automation request is moved to the following states, the option to cre
 
     Ensure that the automation request is in the In progress state.
 
-5.  Select the Golive Checklist icon \(![golive checklist icon](../images/icon-golive.png)\) from the side panel.
+5.  Select the Golive Checklist icon \(\[Omitted image "icon-golive.png"\] Alt text: golive checklist icon\) from the side panel.
 
 6.  Select **Create new** from the **Add checklist** list if you want to create a checklist.
 
@@ -49,15 +50,15 @@ After the automation request is moved to the following states, the option to cre
 
 7.  Fill details in the Details form.
 
-<table id="choicetable_qpb_b1t_zfc"><thead><tr><th align="left" id="d193022e165">
+<table id="choicetable_qpb_b1t_zfc"><thead><tr><th align="left" id="d195592e165">
 
 Field
 
-</th><th align="left" id="d193022e168">
+</th><th align="left" id="d195592e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d193022e174">
+</th></tr></thead><tbody><tr><td id="d195592e174">
 
 **Name**
 
@@ -65,7 +66,7 @@ Description
 
 Provide a name for the checklist.This is a mandatory field.
 
-</td></tr><tr><td id="d193022e185">
+</td></tr><tr><td id="d195592e185">
 
 **Description**
 
@@ -73,7 +74,7 @@ Provide a name for the checklist.This is a mandatory field.
 
 Provide a description.
 
-</td></tr><tr><td id="d193022e194">
+</td></tr><tr><td id="d195592e194">
 
 **State**
 
@@ -81,7 +82,7 @@ Provide a description.
 
 Provide a state.When a checklist is first created, the state is New. If you’re updating an existing checklist, you can change the state manually.
 
-</td></tr><tr><td id="d193022e205">
+</td></tr><tr><td id="d195592e205">
 
 **Assignment group**
 
@@ -89,7 +90,7 @@ Provide a state.When a checklist is first created, the state is New. If you’re
 
 Select an appropriate assignment group from the list.
 
-</td></tr><tr><td id="d193022e215">
+</td></tr><tr><td id="d195592e215">
 
 **Assigned to**
 
@@ -97,7 +98,7 @@ Select an appropriate assignment group from the list.
 
 Select a user who you want to view and review the checklist.**Note:** The user must have the sn\_ac.automation\_technical\_user role. Based on your choice in the **Assignment group** field, this filed is populated.
 
-</td></tr><tr><td id="d193022e229">
+</td></tr><tr><td id="d195592e229">
 
 **Due date**
 
@@ -110,16 +111,16 @@ Specify a due date in the provided format.
 
     On top of the task that you created, there’s an arrow. Select the arrow to go to the main checklist window.
 
-    ![Moving from task window to checklist window](../images/golive-check.png)
+    \[Omitted image "golive-check.png"\] Alt text: Moving from task window to checklist window
 
-    You can also select the available checklist that is provided with the product. For information, see [Working with golive checklists](../concept/working-golive.md).
+    You can also select the available checklist that is provided with the product. For information, see [Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/working-golive.md).
 
 9.  Select the + icon if you want to add more tasks to the checklist.
 
-    ![Add task button](../images/golive-addtask.png)
+    \[Omitted image "golive-addtask.png"\] Alt text: Add task button
 
     The Details form is displayed. Fill in the details.
 
 
-**Parent Topic:**[Working with golive checklists](../concept/working-golive.md)
+**Parent Topic:**[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/working-golive.md)
 

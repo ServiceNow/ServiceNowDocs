@@ -2,6 +2,7 @@
 title: Security hardening
 description: View your hardening compliance score, compare it with previous scores, and change settings to improve your compliance score and security posture in the security hardening page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-hardening.html
 release: australia
 product: Security Center
 classification: security-center
@@ -15,9 +16,9 @@ breadcrumb: [Security configuration console, Security Center, Platform Security]
 
 View your hardening compliance score, compare it with previous scores, and change settings to improve your compliance score and security posture in the security hardening page.
 
-![Hardening score comparison page](../images/sec-center-hardening.png)
+\[Omitted image "sec-center-hardening.png"\] Alt text: Hardening score comparison page
 
-[Hardening settings](../reference/security-hardening-settings.md) specify recommended values for the security-related properties and plugins in the ServiceNow AI Platform. The hardening tool calculates the hardening setting compliance score as a percentage. This number indicates how compliant your instance is with the Security Center hardening settings.
+[Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md) specify recommended values for the security-related properties and plugins in the ServiceNow AI Platform. The hardening tool calculates the hardening setting compliance score as a percentage. This number indicates how compliant your instance is with the Security Center hardening settings.
 
 The formula for calculating the hardening compliance score:
 
@@ -32,16 +33,16 @@ This calculation is automatically performed on the first of the month, or after 
 
 The security hardening section contains three subsections that you can select on the left edge of the screen.
 
--   [All settings](all-settings.md)
--   [Hardening compliance score trend](score-trend.md)
--   [Hardening score comparison](hardening-score-comparison.md)
+-   [All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/all-settings.md)
+-   [Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/score-trend.md)
+-   [Hardening score comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/hardening-score-comparison.md)
 
--   **[All settings](all-settings.md)**  
+-   **[All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/all-settings.md)**  
 Review all of your instance hardening settings available from a single page.
--   **[Hardening compliance score trend](score-trend.md)**  
+-   **[Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/score-trend.md)**  
 View the trends of your hardening compliance score over time in a chart or table.
--   **[Hardening score comparison](hardening-score-comparison.md)**  
+-   **[Hardening score comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/hardening-score-comparison.md)**  
 Gain visibility to the health of your hardening settings and use this data to improve the security posture of your instance.
 
-**Parent Topic:**[Security configuration console](homepage.md)
+**Parent Topic:**[Security configuration console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/homepage.md)
 

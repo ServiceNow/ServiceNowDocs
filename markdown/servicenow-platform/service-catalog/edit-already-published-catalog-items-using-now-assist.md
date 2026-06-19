@@ -2,6 +2,7 @@
 title: Edit already published catalog items using Now Assist
 description: You can edit published catalog items conversationally using Now Assist. If you’ve already started editing a published catalog item, you can still use Now Assist to edit the draft of that published catalog item. You can edit variables and UI policies in this mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/edit-already-published-catalog-items-using-now-assist.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -40,5 +41,5 @@ Role required: catalog\_builder\_editor
 7.  After you’ve completed your edits, publish the catalog item.
 
 
-**Parent Topic:**[Using Now Assist conversation to create and edit catalog items](use-now-assist-conversation-to-create-and-edit-catalog-items.md)
+**Parent Topic:**[Using Now Assist conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)
 

@@ -2,6 +2,7 @@
 title: Configure work prioritization for procurement cases
 description: Configure the Priority defaulting for procurement cases decision table to automatically assign priority levels to procurement cases based on conditions you define.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-work-prioritization-procurement-cases.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -25,7 +26,7 @@ Before configuring work prioritization for procurement cases, confirm the follow
 -   The following priority levels exist and are active in the instance's priority choice list: Critical, High, Moderate, Low, and Planning.
 -   Your organization has agreed on the business criteria for prioritizing procurement cases before you open the decision table. The table ships with no rules — all conditions must be defined from scratch.
 
-Role required: sn\_spend\_psd.psd\_admin or admin
+Role required: sn\_spend\_psd.psd\_admin
 
 ## About this task
 
@@ -49,7 +50,7 @@ This table belongs to the Procurement Case Management application, which is a se
 
     -   To set a condition, select the operator cell and choose an operator, then select the condition value cell and enter a value.
     -   To set the result, select the result value cell and choose the priority level to assign when the rule matches.
-    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see [Modify decision table rules in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/modify-decision-table-rules.md).
+    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see .
 
 5.  In the **Rank** column, set the evaluation sequence for each rule.
 
@@ -76,5 +77,5 @@ This table belongs to the Procurement Case Management application, which is a se
 
 Procurement cases are automatically assigned a priority level when they are created or updated. Procurement specialists can sort and filter their work queue by priority to work the most urgent cases first.
 
-**Parent Topic:**[Configuring work prioritization](../concept/configuring-work-prioritization.md)
+**Parent Topic:**[Configuring work prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configuring-work-prioritization.md)
 

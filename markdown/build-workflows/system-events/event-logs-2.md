@@ -2,6 +2,7 @@
 title: Event logs
 description: The event log records all system events that occur within the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/event-logs-2.html
 release: australia
 product: System Events
 classification: system-events
@@ -29,5 +30,5 @@ This log provides the following information for all events that occur:
 |Processing time|Time taken to process this event, in milliseconds.|
 |Queue|Processor queue name.|
 
-**Parent Topic:**[System events reference](system-events-reference.md)
+**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/system-events-reference.md)
 

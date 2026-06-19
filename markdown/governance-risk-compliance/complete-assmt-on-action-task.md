@@ -2,6 +2,7 @@
 title: Perform an assessment on the action task
 description: Perform an assessment on the action task by reviewing its assessment details. As the action task owner, you can view the details of the action task and assessment history in the action task record and then complete the assessment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/complete-assmt-on-action-task.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_oper\_res.manager, action task owner
 
 The details of the action task and assessment history are displayed in the record as shown in the example.
 
-![Assessment history.](../image/op-vul-action-task-assmt-history.png)
+\[Omitted image "op-vul-action-task-assmt-history.png"\] Alt text: Assessment history.
 
 ## Procedure
 
@@ -29,7 +30,7 @@ The details of the action task and assessment history are displayed in the recor
 
 2.  To complete the assessment for the action task, select **Take assessment**.
 
-    ![Assessment form.](../image/assessment.png)
+    \[Omitted image "assessment.png"\] Alt text: Assessment form.
 
 3.  Answer the questions and select **Submit**.
 
@@ -37,7 +38,7 @@ The details of the action task and assessment history are displayed in the recor
 
 4.  Navigate to the Assessment history, select the assessment, and review the responses to the questions.
 
-    ![Assessment history.](../image/asmt-history.png)![Instance.](../image/op-vul-act-task-assmt-instance-response.png)
+    \[Omitted image "asmt-history.png"\] Alt text: Assessment history.\[Omitted image "op-vul-act-task-assmt-instance-response.png"\] Alt text: Instance.
 
 5.  To add a new assessment instance question, select **New**.
 
@@ -50,5 +51,5 @@ The details of the action task and assessment history are displayed in the recor
 
 ## What to do next
 
-Request an approval on the action task and complete its workflow. For more information, see [Request an approval for the action task](request-approval-for-action-task.md).
+Request an approval on the action task and complete its workflow. For more information, see [Request an approval for the action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-approval-for-action-task.md).
 

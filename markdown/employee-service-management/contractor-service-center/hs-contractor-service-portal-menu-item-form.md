@@ -2,6 +2,7 @@
 title: Contractor service portal menu item form
 description: Form field description for contractor service portal menu item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contractor-service-center/hs-contractor-service-portal-menu-item-form.html
 release: australia
 product: Contractor Service Center
 classification: contractor-service-center
@@ -131,5 +132,5 @@ Active
 Active is checked by default for new instances and applies to the portals in the system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Contractor Service Center reference](hs-contractor-service-center-reference.md)
+</table>**Parent Topic:**[Contractor Service Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contractor-service-center/hs-contractor-service-center-reference.md)
 

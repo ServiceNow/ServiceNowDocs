@@ -2,11 +2,12 @@
 title: Validate a parameter value with the AllowedPattern property
 description: The AllowedPattern property in an Azure Resource Manager \(ARM\) and CloudFormation \(CF\) template performs input validation before sending a provisioning request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/validate-param-allowedpattern.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---

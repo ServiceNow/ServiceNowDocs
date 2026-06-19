@@ -2,6 +2,7 @@
 title: Add a taxonomy to your portal
 description: Create a taxonomy to organise knowledge articles and catalog items under topics which are relevant to your user. Associate a taxonomy to your portal to display the relevant topics on the widgets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/add-taxo-to-portal.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

@@ -2,6 +2,7 @@
 title: Create an engagement with advanced planning
 description: Use the advanced planning capabilities to create an engagement that automatically creates an engagement project. After an engagement project is created, you can add resource plans and cost plans to the engagement. The values of these plans roll up to the engagement and to the audit plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/creating-an-engagement-with-advance-planning.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -30,7 +31,7 @@ To use the advanced planning feature, you must activate the following store appl
 
 You can choose to create audit plans for the engagement.
 
-**Note:** To know more about the applications in GRC module, see [Governance, Risk, and Compliance](../../grc-common/reference/r_WhatIsGRC.md).
+**Note:** To know more about the applications in GRC module, see [Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/governance-risk-and-compliance/r_WhatIsGRC.md).
 
 Role required: sn\_audit.manager
 
@@ -86,7 +87,7 @@ Type of engagement. The choices are as follows:-   None
 -   Store Audit
 -   Quality Audit
 -   Project Audit
- **Note:** For more information on the types of audits, see [Audit types](../reference/types-of-audit.md).
+ **Note:** For more information on the types of audits, see [Audit types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/types-of-audit.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ State of the engagement. The choices are as follows:-   Scope
 -   Follow Up
 -   Closed Complete
 -   Closed Incomplete
- **Note:** For more information on each of these states, see [Manage engagements](../concept/c_Engagements.md).
+ **Note:** For more information on each of these states, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md).
 
 </td></tr><tr><td>
 
@@ -198,7 +199,7 @@ Engagement ends
 
 Choice to automatically determine the end date of the engagement. The choices are as follows:-   Follow Up
 -   Closed
- **Note:** For more information on the Follow Up and Closed states, see [Manage engagements](../concept/c_Engagements.md).
+ **Note:** For more information on the Follow Up and Closed states, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md).
 
 </td></tr><tr><td>
 
@@ -349,7 +350,7 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](../concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -452,5 +453,5 @@ An engagement project is created in the background for the engagement. The Resou
 
 ## What to do next
 
-[Create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) and [Create a cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md).
+Create a resource plan and Create a cost plan.
 

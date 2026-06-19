@@ -2,6 +2,7 @@
 title: Add a Task tab on the Standard Ticket page
 description: Add a Task tab on the Standard Ticket page to let employees view the tasks that are assigned to them by the agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/config-stdtktpage-for-ut.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -35,7 +36,7 @@ Role required: admin
 
 6.  Add the appropriate filter conditions to control the visibility of the tab.
 
-    For example, set **Sys ID** to `javascript:new sn_uni_task.UniversalTaskUtils().hasTasksToShow(current)` to make the task tab visible only if there tasks are assigned to the employee. ![Filter conditions for tab configurations.](../images/ut-tab-configuration.png)
+    For example, set **Sys ID** to `javascript:new sn_uni_task.UniversalTaskUtils().hasTasksToShow(current)` to make the task tab visible only if there tasks are assigned to the employee. \[Omitted image "ut-tab-configuration.png"\] Alt text: Filter conditions for tab configurations.
 
 7.  In the **Widget** field, add a widget.
 
@@ -44,9 +45,9 @@ Role required: admin
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Add a Universal Task related list](create-relatedlist-ur.md)
+**Previous topic:**[Add a Universal Task related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/create-relatedlist-ur.md)
 
-**Next topic:**[Define the agent criteria for Universal Task](ut-config-extn-point-agent.md)
+**Next topic:**[Define the agent criteria for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-config-extn-point-agent.md)
 

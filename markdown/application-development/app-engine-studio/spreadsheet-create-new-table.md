@@ -2,6 +2,7 @@
 title: Create new table from spreadsheet import
 description: Create new tables directly from a Microsoft Excel spreadsheet import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/spreadsheet-create-new-table.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,15 +18,15 @@ Create new tables directly from a Microsoft Excel spreadsheet import.
 
 ## Before you begin
 
--   Import a spreadsheet into App Engine Studio. See [Import a spreadsheet](spreadsheet-importing-spreadsheet.md).
+-   Import a spreadsheet into App Engine Studio. See [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md).
 
-Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissions. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
-1.  After you have uploaded your spreadsheet as described in [Import a spreadsheet](spreadsheet-importing-spreadsheet.md), choose what you want to do with the imported data in the displayed wizard.
+1.  After you have uploaded your spreadsheet as described in [Import a spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-importing-spreadsheet.md), choose what you want to do with the imported data in the displayed wizard.
 
-    ![Create new table from spreadsheet.](../image/aes-spreadsheet-import-data.png "Create new table from spreadsheet")
+    \[Omitted image "aes-spreadsheet-import-data.png"\] Alt text: Create new table from spreadsheet.
 
     1.  Select **A new table**.
 
@@ -69,7 +70,7 @@ Type of information that the column contains. For example, to contain plain text
 
  Depending on the type that you select, fill in the additional fields to further define the table column. For example, if you select **String**, define the character limit of the string input. Or, if you select **Choice**, define the choices that users can choose from.
 
- See [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md).
+ See .
 
 </td></tr><tr><td>
 
@@ -100,7 +101,7 @@ Option to require that the column must contain a value before a new record can b
 </td></tr></tbody>
 </table>    To add another column to your table, select **Add new field**.
 
-    To delete a column, select the trash icon \(![Trash icon](../image/blue-trash-icon.png)\).
+    To delete a column, select the trash icon \(\[Omitted image "blue-trash-icon.png"\] Alt text: Trash icon\).
 
 4.  Select **Continue** to define table properties.
 
@@ -136,7 +137,7 @@ Make extensible
 
 </td><td>
 
-Option to allow other tables to share data from this table. For more information on table extension, see [Table extension](../concept/add-data.md#section_ebj_sdb_d5b).
+Option to allow other tables to share data from this table. For more information on table extension, see [Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md).
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ Maximum number of digits to allow in the record number. This value determines th
 
 7.  Control who has access to create, read, write, and delete content from this table by adding new roles and/or defining the desired Create, Read, Write, Delete permissions for existing roles.
 
-    Roles that you create in the table persist throughout the application and can be further defined in other tables you add. See [Add application security](../concept/add-security.md) for more information on how security permissions work.
+    Roles that you create in the table persist throughout the application and can be further defined in other tables you add. See [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md) for more information on how security permissions work.
 
     **Note:** At least one role must have read access for you to be able to preview the table.
 
@@ -183,7 +184,7 @@ Maximum number of digits to allow in the record number. This value determines th
 
 9.  Convert any remaining worksheets if your file contained multiple worksheet tabs.
 
-    -   **Note:** For each sheet that you want to convert, you will need to select **Convert to table**, and then repeat steps in this procedure or choose a different pathway for the additional worksheet \(see [Create new table from extensible table and spreadsheet import](spreadsheet-create-new-ext-table.md) or [Modify existing table using spreadsheet import](spreadsheet-import-existing-table.md) for steps\).
+    -   **Note:** For each sheet that you want to convert, you will need to select **Convert to table**, and then repeat steps in this procedure or choose a different pathway for the additional worksheet \(see [Create new table from extensible table and spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-create-new-ext-table.md) or [Modify existing table using spreadsheet import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/spreadsheet-import-existing-table.md) for steps\).
 
     -   If you do not have multiple worksheets, proceed to the next step.
 10. Select **Done** on the summary screen.
@@ -193,7 +194,7 @@ Maximum number of digits to allow in the record number. This value determines th
 
 ## What to do next
 
-For more information on editing your data tables in Table Builder, see [Table Builder](../../../administer/form-builder/concept/tb-landing-page.md).
+For more information on editing your data tables in Table Builder, see [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md).
 
-**Parent Topic:**[Use a spreadsheet to add data](upload-multi-sheets.md)
+**Parent Topic:**[Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/upload-multi-sheets.md)
 

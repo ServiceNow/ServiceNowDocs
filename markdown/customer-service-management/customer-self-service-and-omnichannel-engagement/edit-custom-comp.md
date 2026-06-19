@@ -2,6 +2,7 @@
 title: Edit a custom component
 description: Edit a custom component to further customize its design and properties as per the requirement. You can only edit a custom component that is in a deactivated state. Prebuilt components cannot be modified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/edit-custom-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

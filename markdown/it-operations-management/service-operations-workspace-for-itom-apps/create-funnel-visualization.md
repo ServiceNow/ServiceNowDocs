@@ -2,11 +2,12 @@
 title: Create a funnel visualization
 description: A funnel visualization shows how data progresses through sequential stages, helping you identify drop-offs or bottlenecks at each step. Use it to track conversions, workflows, or process completion rates. You can add a funnel visualization to an existing dashboard or to a new dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/create-funnel-visualization.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Data visualization in ITOM, AIOps Dashboards in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -23,31 +24,31 @@ Ensure you have an admin role or permission from the dashboard owner to edit the
 
 ## About this task
 
-If you have the appropriate role, you can add and edit funnel reports on a dashboard. The **Edit** button is not available on the ITOM dashboards unless the user has rights to edit it. For more details on creating dashboards, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/common-dashboard-tasks.md).
+If you have the appropriate role, you can add and edit funnel reports on a dashboard. The **Edit** button is not available on the ITOM dashboards unless the user has rights to edit it. For more details on creating dashboards, see .
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the AIOps Dashboards icon \(![AIOps Dashboards icon.](../../health-log-analytics-admin/image/aiops-operational-icon.png)\).
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the AIOps Dashboards icon \(\[Omitted image "aiops-operational-icon.png"\] Alt text: AIOps Dashboards icon.\).
 
 2.  From the Dashboard picker, select **AIOps 360 overview**.
 
-    ![AIOps 360 overview dashboard](../image/sow-aiops-dasboard.png)
+    \[Omitted image "sow-aiops-dasboard.png"\] Alt text: AIOps 360 overview dashboard
 
 3.  Select **Edit** to put dashboard in the edit mode.
 
-    ![Option to add or edit funnel](../image/sow-aiops-dasboard-create-new.png)
+    \[Omitted image "sow-aiops-dasboard-create-new.png"\] Alt text: Option to add or edit funnel
 
 4.  From the **Add new element** drop-down menu, select **Data visualization**.
 
-    ![Data visualization option](../image/sow-aiops-data-visualization.png)
+    \[Omitted image "sow-aiops-data-visualization.png"\] Alt text: Data visualization option
 
 5.  In the Add Visualization window, select **New visualization**.
 
-    ![New visualization creation option](../image/sow-aiops-new-visualization.png)
+    \[Omitted image "sow-aiops-new-visualization.png"\] Alt text: New visualization creation option
 
 6.  From the **Visualization type** field, select **Funnel**.
 
-    ![Funnel data visualization option](../image/sow-aiops-data-vis-funnel.png)
+    \[Omitted image "sow-aiops-data-vis-funnel.png"\] Alt text: Funnel data visualization option
 
     **Note:** The **Funnel** visualization type is currently available only to customers who have the ITOM plugin installed.
 
@@ -67,21 +68,21 @@ If you have the appropriate role, you can add and edit funnel reports on a dashb
 
         Select multiple indicators without setting a breakdown. In this case, each indicator's value represents a stage in the funnel.
 
-        ![Data sources for funnel data visualization](../image/sow-aiops-data-vis-funnel-data-source.png)
+        \[Omitted image "sow-aiops-data-vis-funnel-data-source.png"\] Alt text: Data sources for funnel data visualization
 
 8.  Select the required data source and select **Add this source**.
 
     When you select a table or indicator data source for a funnel visualization, refer to the following topics for the available data configuration options:
 
-    -   [Table data options for funnel visualizations](../reference/funnel-table-data.md)
-    -   [Indicator data options for funnel visualizations](../reference/funnel-indicator-data.md)
+    -   [Table data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/funnel-table-data.md)
+    -   [Indicator data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/funnel-indicator-data.md)
 9.  Select **Save**.
 
 
--   **[Table data options for funnel visualizations](../reference/funnel-table-data.md)**  
+-   **[Table data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/funnel-table-data.md)**  
 When you select a table data source for the funnel visualization, the following data configuration options are available.
--   **[Indicator data options for funnel visualizations](../reference/funnel-indicator-data.md)**  
+-   **[Indicator data options for funnel visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/funnel-indicator-data.md)**  
 When you select an indicator data source for the funnel visualization, the following data configuration options are available.
 
-**Parent Topic:**[Data visualization in ITOM](../concept/itom-data-visualization.md)
+**Parent Topic:**[Data visualization in ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/itom-data-visualization.md)
 

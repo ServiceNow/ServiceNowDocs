@@ -2,6 +2,7 @@
 title: Create an asset search in Security Posture Control
 description: Set your conditions and search for assets by specific service graph connector products or for assets that have specific data reported by a connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-asset-search.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

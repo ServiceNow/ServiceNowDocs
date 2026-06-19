@@ -2,6 +2,7 @@
 title: Configure context variables for storing chat-related information
 description: Specify chat context variables, also called Live Agent chat variables, for storing chat-related information, such as pre-chat survey responses. These variables contain contextual information that can be used to determine topic intent or control how chats are routed to live agents. You can also define variables to capture contextual information passed in Virtual Agent topic scripts to share with live agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ac-configure-context-variables.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -17,7 +18,7 @@ Specify chat context variables, also called Live Agent chat variables, for stori
 
 ## Before you begin
 
-Virtual Agent provides pre-built context variables. Before you add a variable, review the list of [available Live Agent context variables](../../virtual-agent/reference/live-agent-chat-context-vars.md).
+Virtual Agent provides pre-built context variables. Before you add a variable, review the list of [available Live Agent context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -25,7 +26,7 @@ Role required: virtual\_agent\_admin or admin
 
 You can use context variables in scripts or with the condition builder. For example, you can reference context variables in the **Live agent** area in the topic **Properties** tab when creating a topic. When a condition is applied to a topic, it must return as true to display to the user.
 
-For details about using context variables in topic scripts, see [Virtual Agent scripts](../../virtual-agent/concept/virtual-agent-scripts.md). For information about learning to use context variables, see [Tutorial: Route interactions by context](../../advanced-work-assignment/task/context-routing-tutorial.md). For descriptions of Live Agent context variables, see [Live agent chat context variables](../../virtual-agent/reference/live-agent-chat-context-vars.md).
+For details about using context variables in topic scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-scripts.md). For information about learning to use context variables, see [Tutorial: Route interactions by context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/context-routing-tutorial.md). For descriptions of Live Agent context variables, see [Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md).
 
 ## Procedure
 
@@ -91,8 +92,8 @@ Script that determines the information stored in the context variable.
     The context variable is now available for use.
 
 
--   **[Live agent chat context variables](../../virtual-agent/reference/live-agent-chat-context-vars.md)**  
+-   **[Live agent chat context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/live-agent-chat-context-vars.md)**  
 Use chat context variables to pass certain information from the topic to share with a live agent or to control how bot conversations are routed to live agents. Virtual Agent includes some default variables, and you can define new ones.
 
-**Parent Topic:**[General chat settings](../concept/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
 

@@ -2,11 +2,12 @@
 title: Link Subflow and Payload to External Queues
 description: Link the subflow and the payload to your external queue to complete external routing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/link-subflow-payload-extrnl.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  In the External third-party provider section, select the provider you chose while creating the payload.
 
-    For more information, see [Create a payload for external third-party providers](create-payload-extrnl-provider.md)
+    For more information, see [Create a payload for external third-party providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/create-payload-extrnl-provider.md)
 
     If you need any additional information, add it in the `additionalParams` of the payload script, and select the added params from the **Document Fields to include** slush bucket.
 
@@ -44,5 +45,5 @@ Role required: admin
 
 ## What to do next
 
-You can perform a quick setup test using the demo data by connecting to your external provider. For more information, see [Define external routing test implementation](../concept/define-extrnl-routng-plugin.md).
+You can perform a quick setup test using the demo data by connecting to your external provider. For more information, see [Define external routing test implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/define-extrnl-routng-plugin.md).
 

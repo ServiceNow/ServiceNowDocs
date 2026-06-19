@@ -2,6 +2,7 @@
 title: Set up a safety inspection schedule
 description: Set up an inspection schedule to create a safety inspection at a future date, or to schedule recurring safety inspections, such as daily or weekly, or monthly at once.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-schedule-recurring-safety-inspection.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -23,7 +24,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager and sn\_hs\_rm.inspection\
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  Select the **Inspection schedules** list and then **All**.
 
@@ -31,7 +32,7 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager and sn\_hs\_rm.inspection\
 
 5.  On the form, fill in the fields.
 
-    Enter inspection details and the duration. For more information on inspection field descriptions, see [Inspection schedule form](../reference/hs-inspection-schedule-form.md).
+    Enter inspection details and the duration. For more information on inspection field descriptions, see [Inspection schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-inspection-schedule-form.md).
 
 6.  Select **Save**.
 
@@ -49,12 +50,12 @@ Role required: sn\_hs\_rm.safety\_inspection\_manager and sn\_hs\_rm.inspection\
 -   All inspection records for an inspection schedule are generated in its **Scheduled inspections** tab. These inspection records are also available under **Inspections** &gt; **All** list.
 -   All required fields are copied from the inspection schedule to its inspection records.
 -   The assigned user receives a notification to complete the smart assessment or survey for the generated inspections. If the inspection format is digital, the notification includes a direct link to access the assessment or survey.
-    -   A smart assessment can be completed in the mobile app. For more information, see [Complete a smart assessment from mobile](../../hs-health-safety-mobile/task/hs-create-smart-assessment-inspection-audit-mobile-agent.md).
-    -   A survey can be completed either in the Employee Center or the mobile app. For more information, see [Complete an inspection survey from the Employee Center](hs-complete-safety-insp-survey.md).
+    -   A smart assessment can be completed in the mobile app. For more information, see [Complete a smart assessment from mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-smart-assessment-inspection-audit-mobile-agent.md).
+    -   A survey can be completed either in the Employee Center or the mobile app. For more information, see [Complete an inspection survey from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-complete-safety-insp-survey.md).
 
 ## What to do next
 
 In the **Scheduled inspections** tab, open the completed inspections, review the results, and add findings, RCA, and actions as needed.
 
-**Parent Topic:**[Safety inspections and audits](../concept/hs-safety-inspections.md)
+**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 

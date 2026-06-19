@@ -2,6 +2,7 @@
 title: Add images to Platform Analytics dashboard cards
 description: Distinguish the cards in the dashboard overview with uploaded images.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-images-db-cards-ac.html
 release: australia
 topic_type: task
 last_updated: "2023-11-09"
@@ -37,13 +38,13 @@ Add an image to the cards in the Platform Analytics dashboard overview.
 
     6.  In the component configuration, select **Display image preview**.
 
-        ![Short video showing how to enable image preview in UI Builder](../image/par-db-enable-image-preview.gif)
+        \[Omitted image "par-db-enable-image-preview.gif"\] Alt text: Short video showing how to enable image preview in UI Builder
 
 2.  Navigate to `par_dashboard_user_metadata.list`.
 
-3.  Select the **Preview record** icon \(![info button](../../performance-analytics/image/InfoIcon.png)\) next to the dashboard that you want to add an image to.
+3.  Select the **Preview record** icon \(\[Omitted image "InfoIcon.png"\] Alt text: info button\) next to the dashboard that you want to add an image to.
 
-    ![PAR Dashboard metadata list with preview record icon highlighted](../image/par-db-metadata-info.png)
+    \[Omitted image "par-db-metadata-info.png"\] Alt text: PAR Dashboard metadata list with preview record icon highlighted
 
 4.  Select **Open Record**.
 
@@ -55,7 +56,7 @@ Add an image to the cards in the Platform Analytics dashboard overview.
 
     The image appears on the form for the dashboard.
 
-    ![Short video showing how to select an image to upload for a dashboard card](../image/par-db-metadata-upload.gif)
+    \[Omitted image "par-db-metadata-upload.gif"\] Alt text: Short video showing how to select an image to upload for a dashboard card
 
 7.  Select **Update**.
 
@@ -64,7 +65,7 @@ Add an image to the cards in the Platform Analytics dashboard overview.
 
 The image appears on the dashboard's card in the dashboard overview.
 
-![Dashboard overview with one card featuring the uploaded image](../image/par-db-card-w-image.png)
+\[Omitted image "par-db-card-w-image.png"\] Alt text: Dashboard overview with one card featuring the uploaded image
 
-**Parent Topic:**[Edit Platform Analytics dashboards](edit-db-in-ac.md)
+**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/edit-db-in-ac.md)
 

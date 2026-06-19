@@ -2,6 +2,7 @@
 title: GlideNavigation \(Next Experience\) - Client
 description: The GlideNavigation API enables refreshing the navigator and main frame in the Next Experience UI Framework.Refreshes the navigator contents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/GlideNavigationClientAPINX.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The GlideNavigation API enables refreshing the navigator and main frame in the N
 
 Methods for this API are called within the nowapi namespace using the g\_navigation system variable.
 
-**Parent Topic:**[Client Next Experience API reference](../../../../../build/applications/concept/api-client-next.md)
+**Parent Topic:**[Client Next Experience API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client-next.md)
 
 ## GlideNavigation \[Next Experience\] - refreshNavigator\(\)
 

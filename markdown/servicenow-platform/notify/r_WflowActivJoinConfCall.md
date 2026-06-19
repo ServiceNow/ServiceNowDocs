@@ -2,6 +2,7 @@
 title: Join conference call workflow activity
 description: The Join Conference Call activity connects an incoming or outgoing call to a Notify conference call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_WflowActivJoinConfCall.html
 release: australia
 product: Notify
 classification: notify

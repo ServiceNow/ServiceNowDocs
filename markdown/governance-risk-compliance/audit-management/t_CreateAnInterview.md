@@ -2,6 +2,7 @@
 title: Create an interview
 description: After defining a control, audit managers create interviews with control owners to discuss and provide documented evidence of whether the associated control is operating correctly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateAnInterview.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -208,11 +209,11 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](../concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Manage engagements](../concept/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
 

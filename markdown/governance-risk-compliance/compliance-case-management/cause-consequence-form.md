@@ -2,6 +2,7 @@
 title: Cause and Consequence form
 description: Use the Cause and Consequence form to define the cause and consequence that a case has on your organization in the GRC: Compliance Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/cause-consequence-form.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -91,5 +92,5 @@ Observations
 Record overall observations, if any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add a cause and consequence to a compliance case](../task/add-causes-consequences-to-compliance-case.md)
+</table>**Parent Topic:**[Add a cause and consequence to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/add-causes-consequences-to-compliance-case.md)
 

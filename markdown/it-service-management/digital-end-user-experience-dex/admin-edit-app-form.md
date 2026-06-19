@@ -2,6 +2,7 @@
 title: Edit web or installed application form
 description: Using a custom form, you can edit an application to be monitored for compliance or performance metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/admin-edit-app-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -64,7 +65,7 @@ Enable page-level monitoring
 
 </td><td>
 
-Specific pages to monitor within the domain.You can add a specific page to monitor by selecting **Configure**. See [Set up page-level monitoring](../concept/set-up-page-level-monitoring.md) for more details.
+Specific pages to monitor within the domain.You can add a specific page to monitor by selecting **Configure**. See [Set up page-level monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/set-up-page-level-monitoring.md) for more details.
 
 This field appears only if you select a web application to edit.
 
@@ -87,7 +88,7 @@ Toggle switch to enable or disable monitoring for the application performance an
 -   **Compliance**: Enables reporting on whether this application is running on your organization's devices.
 -   **Metrics**: Enables performance reporting for this application.
 
-Move the monitoring toggle switch \(![Use the toggle switch to activate monitoring for the application.](../image/icon-toggle-button-enabled.png)\) to turn the reporting on or off.
+Move the monitoring toggle switch \(\[Omitted image "icon-toggle-button-enabled.png"\] Alt text: Use the toggle switch to activate monitoring for the application.\) to turn the reporting on or off.
 
 **Note:** You can also enable monitoring for multiple applications simultaneously. From the Application management page, use the bulk check box to select multiple applications, and adjust your selection as needed with the individual check boxes for each app.
 
@@ -105,8 +106,8 @@ Option to add a Software Asset Management \(SAM\) product to enable tracking of 
 
 This field appears only when you're editing a web application.
 
-For more information, see [Using DEX or SAM for application monitoring](../concept/using-dex-or-sam-for-app-monitoring.md).
+For more information, see [Using DEX or SAM for application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/using-dex-or-sam-for-app-monitoring.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Administration cards](administration-cards.md)
+</table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/administration-cards.md)
 

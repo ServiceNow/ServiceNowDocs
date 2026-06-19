@@ -2,6 +2,7 @@
 title: Set up a bi-directional webhook for Zoom spoke
 description: Configure a webhook to subscribe to Zoom with a ServiceNow callback URL.Specify an endpoint URL in your Zoom account to create a webhook for Zoom spoke.Register a Zoom webhook in ServiceNow to notify the ServiceNow app when certain events occur in Zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhook-zoom-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -57,7 +58,7 @@ Role required: admin
 
 7.  Validate the event notification endpoint URL.
 
-    For more information, see [Validate your webhook endpoint](https://developers.zoom.us/docs/api/rest/webhook-reference/#validate-your-webhook-endpoint).![Validate event notification endpoint URL in your Zoom account](../image/zoom-spoke-webhook-validate.png)
+    For more information, see [Validate your webhook endpoint](https://developers.zoom.us/docs/api/rest/webhook-reference/#validate-your-webhook-endpoint).\[Omitted image "zoom-spoke-webhook-validate.png"\] Alt text: Validate event notification endpoint URL in your Zoom account
 
 8.  Specify the Event Types according to your requirement.
 

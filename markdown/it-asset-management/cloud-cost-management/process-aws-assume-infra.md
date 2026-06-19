@@ -2,6 +2,7 @@
 title: Processing AWS billing jobs with Assume role authentication
 description: Use the Cloud Cost Management Infra Stack application to process and download the AWS billing files with Assume role authentication at a better speed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/process-aws-assume-infra.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -15,7 +16,7 @@ breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost M
 
 Use the Cloud Cost Management Infra Stack application to process and download the AWS billing files with Assume role authentication at a better speed.
 
-When you have installed the Cloud Cost Management Infra Stack application, the processing of all billing download jobs happens completely on the Kubernetes cluster. However, for AWS billing jobs with Assume role authentication the processing of billing data is partially done via Cloud Cost Management MID Server.
+When you have installed the Cloud Cost Management Infra Stack application, the processing of all billing download jobs happens completely on the Kubernetes cluster. However, for AWS billing jobs with Assume role authentication the processing of billing data is partially done via the Cloud Cost Management MID Server.
 
 ## AWS billing download job \(with Assume role\) workflow
 
@@ -32,5 +33,5 @@ When you have installed the Cloud Cost Management Infra Stack application, the p
 5.  Kubernetes job fetches the attachment files from the Glide database via an API and processes the files on the Kubernetes cluster.
 6.  The processed billing data is sent to Glide and finally stored in the Glide database.
 
-For AWS Assume Role Billing Download, the Flow Launcher Job Configuration settings determine the parallel processing of multiple download threads. These settings are stored in the AWS Assume Role Billing Download record in the Flow Launcher Job Configuration \[sn\_cld\_intg\_core\_flow\_launcher\_job\_config\] table. The value in the Concurrency field of the AWS Assume Role Billing Download record is the number of billing files downloaded in parallel. Performance is optimal when the Concurrency field is set to the default value 2. However, if you experience any slowness, you can set the **Concurrency** field to **1** with the admin role.
+For AWS Assume Role Billing Download, the Flow Launcher Job Configuration settings determine the parallel processing of multiple download threads. These settings are stored in the AWS Assume Role Billing Download record in the Flow Launcher Job Configuration \[sn\_cld\_intg\_core\_flow\_launcher\_job\_config\] table. The value in the Concurrency field of the AWS Assume Role Billing Download record is the number of billing files downloaded in parallel. Performance is optimal when the **Concurrency** field is set to the default value 2. However, if you experience any slowness, you can set the **Concurrency** field to **1** with the admin role.
 

@@ -2,6 +2,7 @@
 title: Management
 description: Configure Advanced Work Assignment properties using the Management menu options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/management.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,6 +2,7 @@
 title: Delete or edit a non-work order event on Field Service Manager Mobile
 description: Managers can edit or delete events in the Mobile Manager application after they’ve been created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/delete-edit-event-manager.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -25,7 +26,7 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 2.  Tap the territory or assignment group that the agent you want to create a personal event for is a member of.
 
-3.  Tap the more actions icon \(![more actions](../image/more-action-manager.png)\) next to the agent who has an event you want to update.
+3.  Tap the more actions icon \(\[Omitted image "more-action-manager.png"\] Alt text: more actions\) next to the agent who has an event you want to update.
 
 4.  Tap **View schedule**.
 
@@ -33,25 +34,25 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 6.  Edit or delete the event.
 
-<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d49289e102">
+<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d48914e102">
 
 Selection
 
-</th><th align="left" id="d49289e105">
+</th><th align="left" id="d48914e105">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d49289e111">
+</th></tr></thead><tbody><tr><td id="d48914e111">
 
 **Delete**
 
 </td><td>
 
-1.  Tap the more actions icon ![more actions](../image/more-action-mobile-dark.png)
+1.  Tap the more actions icon \[Omitted image "more-action-mobile-dark.png"\] Alt text: more actions
 2.  Tap **Yes** to delete an event.
 
 
-</td></tr><tr><td id="d49289e137">
+</td></tr><tr><td id="d48914e137">
 
 **Edit**
 

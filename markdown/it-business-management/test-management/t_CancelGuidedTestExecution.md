@@ -2,6 +2,7 @@
 title: Cancel guided test execution
 description: Cancel the guided testing process after it has started so that you can restart it when appropriate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_CancelGuidedTestExecution.html
 release: australia
 product: Test Management
 classification: test-management
@@ -17,10 +18,10 @@ Cancel the guided testing process after it has started so that you can restart i
 
 ## Before you begin
 
--   [Create a test plan](t_CreateATestPlan.md#).
+-   [Create a test plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_CreateATestPlan.md).
 -   Add test cases to the test plan.
--   [Assign testers from the Test Plan form](t_AssignTestersFromTheTestPlanForm.md).
--   [Initiate guided test execution](t_InitiateGuidedTestExecution.md)
+-   [Assign testers from the Test Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_AssignTestersFromTheTestPlanForm.md).
+-   [Initiate guided test execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_InitiateGuidedTestExecution.md)
 -   Role required: tm\_test\_manager or tm\_tester
 
 ## About this task
@@ -44,5 +45,5 @@ A message indicates that the test plan execution has been canceled and the metri
 
 The **Cancel test execution** related link on the Test Plan page changes to **Notify Tester**.
 
-**Parent Topic:**[Guided test execution](../concept/c_GuidedTestExecution.md)
+**Parent Topic:**[Guided test execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_GuidedTestExecution.md)
 

@@ -2,6 +2,7 @@
 title: View your subscription consumption for the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application
 description: Use the ITAM Licensing Resource Counts \[itam\_licensing\_resource\_counts\] table to gain insight into your subscription consumption for the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/view-subscription-consumption-eam-dcnam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -21,7 +22,7 @@ Role required: sn\_eam.enterprise\_admin
 
 ## About this task
 
-The EAM Populate Licensing Data scheduled job runs every Sunday to generate subscription consumption information for the application. Any changes to your subscription consumption are reflected only after the weekly scheduled job runs.
+The EAM Populate Licensing Data scheduled job runs daily to generate subscription consumption information for the application. Any changes to your subscription consumption are reflected only after the next scheduled job runs.
 
 ## Procedure
 
@@ -33,13 +34,13 @@ The EAM Populate Licensing Data scheduled job runs every Sunday to generate subs
 
 3.  In the table, locate all entries for the Enterprise Asset Management for DCNAM application.
 
-    ![ITAM Licensing Resource Counts table.](../image/itam-licensing-resource-counts-table.png)
+    \[Omitted image "itam-licensing-resource-counts-table.png"\] Alt text: ITAM Licensing Resource Counts table.
 
     If the table includes multiple applications, you can locate all entries for the Enterprise Asset Management for DCNAM application by using any of the following options:
 
     -   If you want to sort the table by application, use the following steps:
 
-        1.  Select the Column options icon ![](../image/configure-options-icon.png)next to the Application column name.
+        1.  Select the Column options icon \[Omitted image "configure-options-icon.png"\] Alt text:next to the Application column name.
 
             Alternatively, right-click the Application column name.
 
@@ -50,7 +51,7 @@ The EAM Populate Licensing Data scheduled job runs every Sunday to generate subs
 
     -   If you want to group the table by application, use the following steps:
 
-        1.  Select the Column options icon ![](../image/configure-options-icon.png)next to the Application column name.
+        1.  Select the Column options icon \[Omitted image "configure-options-icon.png"\] Alt text:next to the Application column name.
 
             Alternatively, right-click the Application column name.
 
@@ -66,7 +67,7 @@ The EAM Populate Licensing Data scheduled job runs every Sunday to generate subs
 
 4.  View the following subscription consumption information for the application.
 
-    **Note:** Subscription consumption information is generated and grouped by resource category. For more information on resource categories, see [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) licensing](../concept/eam-dcnam-licensing.md).
+    **Note:** Subscription consumption information is generated and grouped by resource category. For more information on resource categories, see [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-dcnam-licensing.md).
 
     |Field|Description|
     |-----|-----------|
@@ -78,5 +79,5 @@ The EAM Populate Licensing Data scheduled job runs every Sunday to generate subs
     |Total Subscription Units Consumed|Total number of subscriptions that you have consumed for the given resource category and subcategory. The ITAM licensing module calculates this value by applying the Subscription Unit Ratio to the Resource Total Count.|
 
 
-**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](../concept/eam-dcnam.md)
+**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
 

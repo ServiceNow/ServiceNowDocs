@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace form features
 description: Use features available on CSM Configurable Workspace forms to view fields with unsaved changes, edit the text in the record header field, and view special handling notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-agent-actions.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 7
@@ -13,10 +16,10 @@ breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Or
 
 Use features available on CSM Configurable Workspace forms to view fields with unsaved changes, edit the text in the record header field, and view special handling notes.
 
-For more information about working with forms, see the following topics in the [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/workspace-landing-page.md) documentation:
+For more information about working with forms, see the following topics in the Configurable Workspace UI documentation:
 
--   [Administering forms for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/administer-forms-configurable-workspace.md)
--   [Using forms in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/using-forms-configurable-workspace.md)
+-   Administering forms for Configurable Workspace
+-   Using forms in Configurable Workspace
 
 ## Visual field indicators for unsaved changes
 
@@ -28,7 +31,7 @@ Use visual indicators in CSM Configurable Workspace such as icons and background
 
 Field updates include manual changes made by the agent, by the application of a template, or automatic updates made by AI. These visual indicators are removed when the agent saves the form.
 
-This feature is available for the following CSM Configurable Workspace [record pages](../concept/csm-config-workspace-record-pages.md):
+This feature is available for the following CSM Configurable Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md):
 
 -   Front-line case page
 -   CSM default record page
@@ -53,12 +56,12 @@ Customer service agents can edit the short description \(primary field\) of a re
 
 This feature is available on the following CSM Configurable Workspace record pages:
 
--   [Front-line case page](../concept/csm-front-line-case-page.md)
--   [CSM Interaction record page](../concept/csm-interaction-record-page.md)
--   [CSM default record page](../concept/csm-default-record-page.md)
--   [CSM voice interaction record page](../concept/csm-native-voice-record-page.md)
--   [CSM centered chat interaction record page](../concept/csm-centered-chat-interaction-page.md)
--   [Email Interaction record page](../concept/csm-email-interaction-record-page.md)
+-   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md)
+-   [CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-interaction-record-page.md)
+-   [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-default-record-page.md)
+-   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-native-voice-record-page.md)
+-   [CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-centered-chat-interaction-page.md)
+-   [Email Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-email-interaction-record-page.md)
 
 The editable record header feature includes the following benefits:
 
@@ -86,7 +89,7 @@ The labels for form fields can appear either above the field or next to the fiel
 -   Stacked: Labels appear on top of the fields.
 -   Tabbed: Labels appear next to the fields.
 
-This property is available for the following CSM Configurable Workspace [record pages](../concept/csm-config-workspace-record-pages.md):
+This property is available for the following CSM Configurable Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-workspace-record-pages.md):
 
 -   Front-line case page
 -   CSM default record page
@@ -106,7 +109,7 @@ Agents can see the priority, short description, and message for each note. A not
 -   Priority 3 — purple
 -   Priority 4 — gray
 
-![Window displaying special handling information for records requiring attention, based on priority. For the text description, refer to the preceding text in the Special handling notes section.](../image/csm-config-workspace-special-handling-note.png "Special handling notes pop-up window")
+\[Omitted image "csm-config-workspace-special-handling-note.png"\] Alt text: Window displaying special handling information for records requiring attention, based on priority. For the text description, refer to the preceding text in the Special handling notes section.
 
 Agents can:
 
@@ -118,13 +121,13 @@ In the Special Handling Notes module on the platform interface:
 -   Users with the sn\_shn.admin role can configure special handling notes and specify properties.
 -   Users with the sn\_shn.admin or sn\_customerservice\_manager roles can create special handling notes.
 
-For more information about configuring the special handling notes feature, see [Special handling notes overview](../concept/c_OnScreenAlerts.md).
+For more information about configuring the special handling notes feature, see [Special handling notes overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_OnScreenAlerts.md).
 
 ## Agent actions
 
 Actions available to customer service agents appear in the form header as buttons or menu items.
 
-For CSM Configurable Workspace, you can link UI actions to form actions. For more information, see [Set up a form action in CSM Configurable Workspace](../task/config-csm-config-ws-form-action.md).
+For CSM Configurable Workspace, you can link UI actions to form actions. For more information, see [Set up a form action in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-config-ws-form-action.md).
 
 The **Create Knowledge** action requires the following setup:
 
@@ -136,13 +139,13 @@ The **Create Knowledge** action requires the following setup:
 
 Agent assist is available on the Interaction form in CSM Configurable Workspace. Users with the customer service agent role \(sn\_customerservice\_agent\) can use Agent assist to search for information from an interaction. By default, the available search sources include Knowledge articles, Service Catalog, and ServiceNow Community blogs and posts.
 
-For more information on how to enable Recommended Actions - AI search and disable Agent Assist, see [Enable AI search in Recommended Actions](../task/migrate-ra-agent-assist.md).
+For more information on how to enable Recommended Actions - AI search and disable Agent Assist, see [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migrate-ra-agent-assist.md).
 
 ## Account hierarchy
 
-From the Account form, customer service agents can click the open hierarchy icon \(![Open hierarchy icon](../image/workspace-account-hierarchy-icon.jpg)\) in the **Name** field to see the parent-child account relationships in the Account Hierarchy pop-up window. The account hierarchy is available for accounts that have a parent or child account.
+From the Account form, customer service agents can click the open hierarchy icon \(\[Omitted image "workspace-account-hierarchy-icon.jpg"\] Alt text: Open hierarchy icon\) in the **Name** field to see the parent-child account relationships in the Account Hierarchy pop-up window. The account hierarchy is available for accounts that have a parent or child account.
 
-![Window displaying the parent-child relationship for an account. For the text description, refer to the text that follows in the Account Hierarchy section.](../image/csm-config-workspace-account-hierarchy.png "CSM Workspace Account Hierarchy pop-up window")
+\[Omitted image "csm-config-workspace-account-hierarchy.png"\] Alt text: Window displaying the parent-child relationship for an account. For the text description, refer to the text that follows in the Account Hierarchy section.
 
 The account hierarchy uses a tree structure to show the parent, child, and sibling accounts. The parent view displays the current account, the parent account \(if applicable\), and any child or sibling accounts. The full view displays the entire structure of the organization from the root account. The current account is highlighted in the account structure.
 
@@ -152,5 +155,5 @@ Customer service agents can:
 -   Switch between the parent view and the full view of the account hierarchy.
 -   Click an account to open the Account form in a sub tab.
 
-For information about creating an account hierarchy, see [Account hierarchy](../concept/c_AccountHierarchy.md).
+For information about creating an account hierarchy, see [Account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_AccountHierarchy.md).
 

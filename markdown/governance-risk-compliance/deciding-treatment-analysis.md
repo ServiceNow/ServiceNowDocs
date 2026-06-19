@@ -2,6 +2,7 @@
 title: Decide the treatment and perform a root cause analysis
 description: Decide the treatment and perform a root cause analysis for the Operational vulnerability. After completing the action tasks, the vulnerability analyst devises the next course of treatment and updates their observations and analysis in the Details tab of the Operational vulnerability record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/deciding-treatment-analysis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

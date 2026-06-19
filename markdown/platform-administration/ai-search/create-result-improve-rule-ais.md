@@ -2,6 +2,7 @@
 title: Create a result improvement rule
 description: Create a rule to boost, block, or promote search results or to block Genius Results. Specify the conditions that activate your rule and choose the action it performs when activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/create-result-improve-rule-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -35,7 +36,7 @@ You can configure activation conditions and triggers for a result improvement ru
 
 4.  On the AI Search Results Improvement Rule form, fill in the fields.
 
-    For a description of the field values, see [AI Search Results Improvement Rule form](../reference/result-improvement-rule-form-ais.md).
+    For a description of the field values, see [AI Search Results Improvement Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rule-form-ais.md).
 
 5.  Select **Submit**.
 
@@ -43,13 +44,13 @@ You can configure activation conditions and triggers for a result improvement ru
 
 6.  Choose the action that you want the result improvement rule to perform when activated, and see the appropriate topic for configuration steps:
 
-    -   To increase the relevancy scores of search result records that include specific field values, see [Boost search results using a result improvement rule](boost-results-ais.md#).
-    -   To prevent specific records from appearing in the search results, see [Block search results and Genius Results using a result improvement rule](block-results-ais.md).
-    -   To make specific records appear first in the search results, see [Promote search results using a result improvement rule](promote-results-ais.md).
+    -   To increase the relevancy scores of search result records that include specific field values, see [Boost search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/boost-results-ais.md).
+    -   To prevent specific records from appearing in the search results, see [Block search results and Genius Results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/block-results-ais.md).
+    -   To make specific records appear first in the search results, see [Promote search results using a result improvement rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/promote-results-ais.md).
 
 ## What to do next
 
-To make new or updated result improvement rule settings take effect, publish the search profile that you edited. For details on publishing a search profile, see [Publish an AI Search search profile](publish-search-profile-ais.md).
+To make new or updated result improvement rule settings take effect, publish the search profile that you edited. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Result improvement rules](../concept/result-improvement-rules-ais.md)
+**Parent Topic:**[Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
 

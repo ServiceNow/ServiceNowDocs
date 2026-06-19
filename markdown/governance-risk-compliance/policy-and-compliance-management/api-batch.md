@@ -2,11 +2,12 @@
 title: Content integration batch table
 description: You can access the batch records in the content integration batch table that is displayed in the GRC: Policy and Compliance integrator application UI. By accessing these records, you can import the data into the Policy and Compliance Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/api-batch.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [GRC: Policy and Compliance integrator, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -31,7 +32,7 @@ The content integration batch table displays the details that are shown in the f
 
 
 
-To learn how you can use the user roles to access the APIs and batch records, see [User roles for the integration process](../../grc-integrations-with-third-party-content/reference/int-integrator-user-roles.md).
+To learn how you can use the user roles to access the APIs and batch records, see [User roles for the integration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/int-integrator-user-roles.md).
 
 Select a record in the table to display the content integration batch record form and its related lists. See the following example.
 
@@ -61,7 +62,7 @@ You can use the REST APIs to insert the records in the GRC: integrations with th
 
 When you execute the APIs in the Postman API platform as shown in the following example, the staging records are imported in the Policy and Compliance Management tables.
 
-![Create a batch using the Postman API platform.](../image/create-batch-postman.png "Create a batch using the Postman API platform")
+\[Omitted image "create-batch-postman.png"\] Alt text: Create a batch using the Postman API platform.
 
 ## Processing the batch records
 
@@ -80,8 +81,8 @@ The Update batch status to ready API and the Compliance staging processor flow p
 5.  When the library import task is created and the provider that is mentioned in the content integration batch is not found, the state of the task is updated to Provider onboarding. A provider import task is created in the content onboarding task related list of the library import task.
 6.  As the library import task is created, the staging recommendations for each record are generated for the content integration batch as shown in the following example.
 
-    ![Staging recommendations.](../image/staging-recommendations.png "Staging recommendations")
+    \[Omitted image "staging-recommendations.png"\] Alt text: Staging recommendations.
 
 
-The library import task is used to import the staging records in the Policy and Compliance Management tables. The library import task and staging recommendations for each record are displayed for the content integration batch table in the GRC: Policy and Compliance integrator module. A user with the sn\_compliance.admin role can assign the library import task to the compliance managers assignment group. To learn how to assign a library import task, see [Assign a library import task for compliance approval](../task/assign-lib-import-task.md).
+The library import task is used to import the staging records in the Policy and Compliance Management tables. The library import task and staging recommendations for each record are displayed for the content integration batch table in the GRC: Policy and Compliance integrator module. A user with the sn\_compliance.admin role can assign the library import task to the compliance managers assignment group. To learn how to assign a library import task, see [Assign a library import task for compliance approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/assign-lib-import-task.md).
 

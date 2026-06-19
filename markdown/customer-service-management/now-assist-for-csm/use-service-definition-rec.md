@@ -2,6 +2,7 @@
 title: Create a case based on service definition recommendations
 description: Use Now Assist to view AI-predicted service recommendations based on the context of an interaction record, such as the short description or description, and create cases based on these recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/use-service-definition-rec.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -34,5 +35,5 @@ Role required: sn\_esm\_agent
     A case is created for the selected service.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

@@ -2,6 +2,7 @@
 title: ZIP step
 description: Manage the attachments in a record by performing archive operations such as zip and unzip. You can also view the details of a zipped file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/zip-step.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -33,16 +34,16 @@ Use zip operations to achieve the following benefits:
 
 Perform the following operations by using the zip step:
 
--   For information about the zip operation, see [Zip](zip-operation.md).
--   For information about the Unzip operation, see [Unzip](unzip-operation.md).
--   For more information about viewing the contents of a compressed zip archive, see [Get Zip File Details](view-zip-details.md).
+-   For information about the zip operation, see [Zip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/zip-operation.md).
+-   For information about the Unzip operation, see [Unzip](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/unzip-operation.md).
+-   For more information about viewing the contents of a compressed zip archive, see [Get Zip File Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/view-zip-details.md).
 
--   **[Zip operation](zip-operation.md)**  
+-   **[Zip operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/zip-operation.md)**  
 Compress one or more record attachments into a single zip archive. You can also manage the contents of a zip archive by removing specific attachments from the zipped file.
--   **[Unzip operation](unzip-operation.md)**  
+-   **[Unzip operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/unzip-operation.md)**  
 Extract one or more compressed attachments from a zip archive. You can extract all the compressed attachments in an archive or choose specific attachments to unzip.
--   **[Get Zip file details](view-zip-details.md)**  
+-   **[Get Zip file details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/view-zip-details.md)**  
 View the contents of a compressed zip archive.
 
-**Parent Topic:**[Workflow Studio steps](../concept/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/steps.md)
 

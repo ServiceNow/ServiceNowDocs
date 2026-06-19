@@ -2,6 +2,7 @@
 title: Using Now Assist for Health and Safety
 description: If you have a safety agent or manager role, you can summarize the safety incidents with the Now Assist for Health and Safety application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-using.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety

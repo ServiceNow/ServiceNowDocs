@@ -2,11 +2,12 @@
 title: Dashboards in Portfolio Planning Workspace
 description: As a product and portfolio manager, use dashboards in Portfolio Planning Workspace to monitor performance, track progress, and make informed decisions related to planning and execution. These dashboards leverage Platform Analytics to provide a trend of historical data and regular reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/dashboards-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -29,7 +30,7 @@ You can use the default dashboard or create your own dashboards to monitor perfo
 -   View relevant data by applying filters directly within a dashboard.
 -   Any filters applied are saved as part of user personalization and are available the next time you log in.
 
-For guidance on using and managing dashboards in the Portfolio Planning Workspace, see [Using dashboards in Portfolio Planning](using-dashboards-in-ppw.md).
+For guidance on using and managing dashboards in the Portfolio Planning Workspace, see [Using dashboards in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/using-dashboards-in-ppw.md).
 
-**Parent Topic:**[Exploring Portfolio Planning](../../portfolio-planning/concept/exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

@@ -2,6 +2,7 @@
 title: Create an Enterprise Agile Planning \(EAP\) entity from a demand
 description: Create an Enterprise Agile Planning \(EAP\) entity, such as an epic, feature, or capability, from a demand so that you can start to work on these entities in Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/create-an-eap-entity-from-a-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -17,7 +18,7 @@ Create an Enterprise Agile Planning \(EAP\) entity, such as an epic, feature, or
 
 ## Before you begin
 
-The [Strategic Planning](../../alignment-planner-workspace/concept/alignment-planner-workspace-landing-page.md) application must be installed.
+The [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.md) application must be installed.
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -55,7 +56,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
 The EAP entity is created successfully and the demand is moved to the Completed state. A message with a link to the created entity in Strategic Planning Workspace that enables you to immediately view or work on the entity is displayed.
 
-For information about the data migrated from the demand to the EAP entity, see [Data migrated from demands to Enterprise Agile Planning \(EAP\) entities](../reference/data-copied-from-demands-to-eap-entities.md).
+For information about the data migrated from the demand to the EAP entity, see [Data migrated from demands to Enterprise Agile Planning \(EAP\) entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/data-copied-from-demands-to-eap-entities.md).
 
 ## What to do next
 
@@ -63,7 +64,7 @@ View and work on the new entity in Strategic Planning Workspace right away by se
 
 **Note:** To access the entity at a later time, in the demand form, select the entity name in the **Converted to** field in the EAP Details section.
 
-For more information, see [Strategic Planning](../../alignment-planner-workspace/concept/alignment-planner-workspace-landing-page.md) and [Enterprise Agile Planning in Strategic Planning](../../spw-eap/concept/eap-landing.md).
+For more information, see [Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/alignment-planner-workspace-landing-page.md) and [Enterprise Agile Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/eap-landing.md).
 
-**Parent Topic:**[Create an artifact from a demand](t_CrtArtftDmdMnu.md)
+**Parent Topic:**[Create an artifact from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CrtArtftDmdMnu.md)
 

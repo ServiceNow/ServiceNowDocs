@@ -2,6 +2,7 @@
 title: Generic policies in DevOps Config
 description: By default, the DevOps Config Policy content pack contains a set of generic policies to validate your configuration data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-gen-policies.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -16,15 +17,15 @@ breadcrumb: [Default DevOps Config policies, DevOps Config reference, DevOps Con
 
 By default, the DevOps Config Policy content pack contains a set of generic policies to validate your configuration data.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-You can use or customize these default DevOps Config policies to validate that your configuration data content is conformable, or [administrate the full life cycle of PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md).
+You can use or customize these default DevOps Config policies to validate that your configuration data content is conformable, or administrate the full life cycle of PaCE policies.
 
 **Note:** You can’t modify the default policies. However, you can make a copy of the policy and customize your copy.
 
 <table id="table_gsp_4vm_nzb"><tbody><tr><td>
 
-[A](devops-config-gen-policies.md#a) \| [C](devops-config-gen-policies.md#c) \| [D](devops-config-gen-policies.md#d) \| [F](devops-config-gen-policies.md#f) \| [G](devops-config-gen-policies.md#g) \| [K](devops-config-gen-policies.md#k) \| [L](devops-config-gen-policies.md#l) \| [M](devops-config-gen-policies.md#m) \| [N](devops-config-gen-policies.md#n) \| [S](devops-config-gen-policies.md#s) \| [U](devops-config-gen-policies.md#u)
+[A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [D](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [F](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [G](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [K](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [L](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [M](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [N](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) \| [U](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md)
 
 </td></tr></tbody>
 </table>## All Key-Value Comparator \(allKeysValuesComparator\)
@@ -248,7 +249,7 @@ Checks whether the key value is different across all components when a key exist
 
 Results into a non-compliant status when a key has the same value in multiple components.
 
-**Note:** If a key has multiple occurrences inside the same component, use the [Unique Key Value \(uniqueKeyValue\)](devops-config-gen-policies.md#u) policy.
+**Note:** If a key has multiple occurrences inside the same component, use the [Unique Key Value \(uniqueKeyValue\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-gen-policies.md) policy.
 
 -   **Input argument**
 

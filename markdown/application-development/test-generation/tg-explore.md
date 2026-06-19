@@ -2,13 +2,14 @@
 title: Exploring Test generation
 description: If you are new to Test generation application, read this overview to learn what the app can do.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/test-generation/tg-explore.html
 release: australia
 product: Test Generation
 classification: test-generation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Test generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Exploring Test generation
@@ -19,7 +20,7 @@ Starting with the Australia release, Test generation is being prepared for futur
 
 Follow the gif to create tests from natural language leveraging AI power.
 
-![Gif showing the working of Test generation](../image/tg-gif.gif)
+\[Omitted image "tg-gif.gif"\] Alt text: Gif showing the working of Test generation
 
 ## Test generation overview
 
@@ -30,7 +31,7 @@ Revolutionize your test automation with Test generation application. Simply outl
 -   Test generation application generates comprehensive test cases, ensuring thorough testing coverage.
 -   You can keep modifying the prompt without saving the generated tests until the final objective has been attained.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Test generation users
 
@@ -47,15 +48,15 @@ Test generation has the following users.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automate test generation|[Generate a test using Test generation](../task/tg-implement.md)|System Administrator and Creator Pro|
-|Edit a generated test after the preview|[Edit a generated test using Test generation](tg-edit-test.md)|System Administrator and Creator Pro|
+|Automate test generation|[Generate a test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-implement.md)|System Administrator and Creator Pro|
+|Edit a generated test after the preview|[Edit a generated test using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-edit-test.md)|System Administrator and Creator Pro|
 
 ## What to explore next
 
 To learn more about using Test generation, see:
 
--   [Using Test generation](tg-use.md)
--   [Test generation references](tg-reference.md)
+-   [Using Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-use.md)
+-   [Test generation references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/tg-reference.md)
 
-**Parent Topic:**[Test generation](test-generation-intro.md)
+**Parent Topic:**[Test generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/test-generation/test-generation-intro.md)
 

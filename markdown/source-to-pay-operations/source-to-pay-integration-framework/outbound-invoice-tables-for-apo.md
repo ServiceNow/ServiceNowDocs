@@ -1,19 +1,21 @@
 ---
 title: Outbound invoice staging table
-description: The outbound invoice \[sn\_spend\_intg\_outbound\_invoice\] staging table stores important data about invoices so that an ERP integrator can export this data to a third-party ERP system.
+description: Field descriptions and data types for the outbound invoice \[sn\_spend\_intg\_outbound\_invoice\] staging table used to configure ERP integrations that export invoice data to third-party ERP systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/outbound-invoice-tables-for-apo.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, invoice management, ERP integration, staging table, outbound integration]
 breadcrumb: [Outbound staging tables for Accounts Payable Operations, Outbound staging tables, Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Outbound invoice staging table
 
-The outbound invoice \[sn\_spend\_intg\_outbound\_invoice\] staging table stores important data about invoices so that an ERP integrator can export this data to a third-party ERP system.
+Field descriptions and data types for the outbound invoice \[sn\_spend\_intg\_outbound\_invoice\] staging table used to configure ERP integrations that export invoice data to third-party ERP systems.
 
 ## Outbound invoice staging table
 

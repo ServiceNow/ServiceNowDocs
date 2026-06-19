@@ -2,6 +2,7 @@
 title: Manage your change schedules and resolve conflicts
 description: Prevent schedule conflicts by using the conflict calendar to manage your change schedule details, customize views, and resolve conflicts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/use-conflict-calendar.html
 release: australia
 product: Change Management
 classification: change-management
@@ -39,7 +40,7 @@ Alternatively, you can resolve conflicts by moving the change request to be with
 
 4.  Select **Scheduling Assistant**.
 
-    The scheduling assistant dialog box displays the next available times to choose to resolve the conflict. The number of days factored after the planned start and end dates and the number of suggestions calculated for the next available time are configured under **Conflict properties**. For more information, see [Configure conflict analysis properties](configure-conflict-properties.md#) form.
+    The scheduling assistant dialog box displays the next available times to choose to resolve the conflict. The number of days factored after the planned start and end dates and the number of suggestions calculated for the next available time are configured under **Conflict properties**. For more information, see [Configure conflict analysis properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-conflict-properties.md) form.
 
 5.  Select the time from the available time slots.
 
@@ -47,12 +48,12 @@ Alternatively, you can resolve conflicts by moving the change request to be with
 
     The planned start date and end date are updated with the new time, and the conflict is resolved.
 
-7.  To select another day from the calendar, select the calendar icon \(![Calendar icon](../image/view-calendar-icon.png)\) and select the date.
+7.  To select another day from the calendar, select the calendar icon \(\[Omitted image "view-calendar-icon.png"\] Alt text: Calendar icon\) and select the date.
 
 
 ## Result
 
 The conflicts are reviewed and resolved.
 
-**Parent Topic:**[Conflict calendar](../concept/change-conflict-calendar.md)
+**Parent Topic:**[Conflict calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-conflict-calendar.md)
 

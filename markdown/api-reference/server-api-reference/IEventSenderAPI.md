@@ -2,6 +2,7 @@
 title: IEventSender - Global
 description: The IEventSender API provides methods to send events from a MID Server to a ServiceNow instance and to query the status of the event queue.Returns the size of the event queue.Checks if the event queue has exceeded its maximum size.Places the specified event in the event queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/IEventSenderAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -21,9 +22,9 @@ Use the Event API to add/update fields within an event. Use the SNEventSenderPro
 
 You must activate the Event Management \(com.glideapp.itom.snac\) plugin before attempting to access this API. The Event Management plugin requires a separate subscription and must be activated. This plugin includes demo data and activates related plugins if they are not already active.
 
-For additional information on event management, see [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EM.md).
+For additional information on event management, see Event Management.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## IEventSender - getQueueSize\(\)
 

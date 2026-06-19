@@ -2,6 +2,7 @@
 title: Configure Twilio to send notifications in SRM
 description: Connect your Service Reliability Management \(SRM\) instance and Twilio account to send notifications to teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-add-twilio-key.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -44,9 +45,9 @@ You can adjust what gets sent from Twilio by editing the on-call workflow in the
 7.  Select **Connect** to activate the key or **Save** to save your changes without activating.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Configure fields for escalation triggers](srm-configure-trigger-fields.md)
+**Previous topic:**[Configure fields for escalation triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/srm-configure-trigger-fields.md)
 
-**Next topic:**[Install the Alert Automation application](sr-install-aa-store-app.md)
+**Next topic:**[Install the Alert Automation application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-install-aa-store-app.md)
 

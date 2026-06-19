@@ -1,17 +1,20 @@
 ---
-title: Create Scan Engine definition suites
-description: Follow these steps to create Scan Engine definition suites.You can modify a definition suite to further customize and refine its scanning criteria.
+title: Customize Scan Engine definition suites
+description: Follow these steps to create or modify Scan Engine definition suites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/create-scan-engine-definition-suites.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
 
-# Create Scan Engine definition suites
+# Customize Scan Engine definition suites
 
-Follow these steps to create Scan Engine definition suites.
+Follow these steps to create or modify Scan Engine definition suites.
 
 ## Before you begin
 
@@ -19,13 +22,14 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 ## Procedure
 
-1.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites.**.
+1.  Create Definition Suites
+2.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites.**.
 
-2.  Select **New**.
+3.  Select **New**.
 
-3.  Fill in the fields as needed.
+4.  Fill in the fields as needed.
 
-<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d28288e103">
+<table id="choicetable_o2k_3nx_2hc"><tbody><tr><td id="d29049e106">
 
 **Number**
 
@@ -33,7 +37,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin_role` role\)
 
 The unique identifier of the definition suite. This number is generated automatically.
 
-</td></tr><tr><td id="d28288e112">
+</td></tr><tr><td id="d29049e115">
 
 **Active**
 
@@ -41,7 +45,7 @@ The unique identifier of the definition suite. This number is generated automati
 
 Makes the definition suite active and useable.
 
-</td></tr><tr><td id="d28288e121">
+</td></tr><tr><td id="d29049e124">
 
 **Short Description**
 
@@ -49,7 +53,7 @@ Makes the definition suite active and useable.
 
 Brief description of the definition suite.
 
-</td></tr><tr><td id="d28288e130">
+</td></tr><tr><td id="d29049e133">
 
 **Description**
 
@@ -58,24 +62,17 @@ Brief description of the definition suite.
 Detailed description of why the suite was created
 
 </td></tr></tbody>
-</table>
-## View and modify Scan Engine definition suites
+</table>5.  Modify Scan Engine Definition Suites
 
-You can modify a definition suite to further customize and refine its scanning criteria.
+    **Note:** Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
 
-### Before you begin
+    While only Scan Engine admins can modify definitions, any user with the Scan Engine user role can view them.
 
-Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
+6.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites**.
 
-While only Scan Engine admins can modify definitions, any user with the Scan Engine user role can view them.
+7.  Select a suite number to open its details and modify its properties.
 
-### Procedure
-
-1.  Navigate to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Definition Suites**.
-
-2.  Select a suite number to open its details and modify its properties.
-
-    You can edit the same fields you configured in [Create Scan Engine definition suites](create-scan-engine-definition-suites.md#).
+    You can edit the same fields you configured in [Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md).
 
     Related lists appear at the bottom of the screen.
 

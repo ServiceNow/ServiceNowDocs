@@ -2,6 +2,7 @@
 title: Activate an Engagement Messenger module
 description: Activate the Engagement Messenger module that you configured so that you can embed it in your website.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-engagement-messenger-module.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -21,10 +22,10 @@ Role required: sn\_csm\_ec.ec\_admin
 
 Perform the following tasks:
 
--   [Configure Engagement Messenger](create-engagement-messenger-module.md).
--   [Create an identity provider \(IdP\) for Engagement Messenger](../concept/create-identity-providers-for-engagement-messenger.md).
--   [Configure a CORS rule for Engagement Messenger](create-cors-for-rest-api-ec.md).
--   [Create HTTP response headers for Engagement Messenger](create-http-response-headers-for-ec.md).
+-   [Configure Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-engagement-messenger-module.md).
+-   [Create an identity provider \(IdP\) for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-identity-providers-for-engagement-messenger.md).
+-   [Configure a CORS rule for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-cors-for-rest-api-ec.md).
+-   [Create HTTP response headers for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-http-response-headers-for-ec.md).
 
 ## About this task
 
@@ -42,10 +43,10 @@ Unless you activate a messenger module, it would not be available for your custo
 
 4.  Select **Activate**.
 
-    ![Configure Engagement Messenger Module page highlighting Implement steps and Activate button.](../image/em-activate-module-v2.png "Activate Engagement Messenger module")
+    \[Omitted image "em-activate-module-v2.png"\] Alt text: Configure Engagement Messenger Module page highlighting Implement steps and Activate button.
 
 
 ## What to do next
 
-[Embed Engagement Messenger in your web application](embed-engagement-messenger-code-in-your-web-application.md).
+[Embed Engagement Messenger in your web application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-engagement-messenger-code-in-your-web-application.md).
 

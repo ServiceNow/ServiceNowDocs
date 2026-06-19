@@ -2,7 +2,10 @@
 title: Provide external users access to a table
 description: To enable users with only the snc\_external role to access the list view of a table, you must create a series of ACLs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/t\_ProvideExternalUsersAccessToTables.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -19,9 +22,9 @@ Role required: security\_admin
 
 ## Procedure
 
-1.  [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+1.  Elevate to a privileged role.
 
-2.  [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md) with the following settings:
+2.  Create an ACL rule with the following settings:
 
     -   **Type**: ui\_page
     -   **Operation**: read
@@ -46,5 +49,5 @@ Role required: security\_admin
     Repeat this step for every field that you want to give the user write access to. Use an asterisk **\*** instead of the column name to provide access to all fields at once.
 
 
-**Parent Topic:**[Roles installed with Customer Service Management](../../../product/customer-service-management/reference/r_RolesInstalledWithCustomerService.md)
+**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 

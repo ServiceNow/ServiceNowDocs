@@ -2,6 +2,7 @@
 title: Create an employee form
 description: Create or modify an employee form to collect employee input. Employee forms are questionnaires that are built using the survey designer to collect or update information from employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/ut-create-employee-form.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -31,7 +32,7 @@ Role required: sn\_uni\_task.emp\_form\_admin or sn\_uni\_task.emp\_form\_creato
 
 3.  On the form, fill in the fields.
 
-    For more information on form fields and descriptions, see [Employee form](../reference/ut-emp-form.md).
+    For more information on form fields and descriptions, see [Employee form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-emp-form.md).
 
 4.  Right-click the form header and click **Save**.
 
@@ -41,7 +42,7 @@ Role required: sn\_uni\_task.emp\_form\_admin or sn\_uni\_task.emp\_form\_creato
 
 6.  To build the questions for your employee form, use the survey designer.
 
-    For more information on the question types, see [Survey designer elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_SurveyDesignerElements.md).
+    For more information on the question types, see Survey designer elements.
 
 7.  Click **Save and Publish**.
 
@@ -50,7 +51,7 @@ Role required: sn\_uni\_task.emp\_form\_admin or sn\_uni\_task.emp\_form\_creato
 
 You can now assign the form to an employee by using the Collect Employee input task. To view the employee responses, click **View Responses** after the task is marked complete.
 
-**Note:** You must have specific roles to view the employee responses. For more information, see [Configure the roles to view employee forms](ut-config-empform-view-roles.md)
+**Note:** You must have specific roles to view the employee responses. For more information, see [Configure the roles to view employee forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-config-empform-view-roles.md)
 
-**Parent Topic:**[Using Universal Task](../concept/use-universal-task.md)
+**Parent Topic:**[Using Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/use-universal-task.md)
 

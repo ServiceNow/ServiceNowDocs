@@ -2,6 +2,7 @@
 title: Install Legal Content Review
 description: You can install the Legal Content Review application \(sn\_lg\_cont\_review\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-content-review/install-legal-content-review.html
 release: australia
 product: Legal Content Review
 classification: legal-content-review
@@ -61,7 +62,7 @@ The following items are installed with Legal Content Review:
 
 Use the Legal Service Delivery Guided Setup to configure the application on your instance.
 
-To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
-**Parent Topic:**[Configure Legal Content Review](../concept/setting-up-legal-content-review.md)
+**Parent Topic:**[Configure Legal Content Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-content-review/setting-up-legal-content-review.md)
 

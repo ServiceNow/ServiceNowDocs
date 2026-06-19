@@ -2,11 +2,12 @@
 title: Access your anonymous report from the Anonymous Report Center portal
 description: You can follow up on your anonymous report to view comments and updates from the legal fulfiller working on it or add comments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/access-anonymous-complaint-arc.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Submit a complaint via the ARC Portal, Requests, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -25,26 +26,26 @@ Role required: None
 
 1.  Open the Anonymous Report Center portal either via Employee Center portal or using a direct URL.
 
-<table id="choicetable_rlf_djt_h5b"><thead><tr><th align="left" id="d477915e72">
+<table id="choicetable_rlf_djt_h5b"><thead><tr><th align="left" id="d350116e72">
 
 Option
 
-</th><th align="left" id="d477915e75">
+</th><th align="left" id="d350116e75">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d477915e81">
+</th></tr></thead><tbody><tr><td id="d350116e81">
 
 **From Employee Center**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
-2.  In the Employee Center portal, click the **Legal** menu and select the **Ethics and Compliance** option.
-3.  In the Ethics and Compliance request category page, click **Anonymous Ethics Complaint**.
+2.  Navigate to **Help center** &gt; **Legal services**.
+3.  From **Ethics and Compliance** category, select **Anonymous Ethics Complaint**.
 
 
-</td></tr><tr><td id="d477915e126">
+</td></tr><tr><td id="d350116e132">
 
 **Using direct URL that does not require a log in**
 
@@ -52,7 +53,7 @@ Steps
 
 Navigate to the Anonymous Report Center by accessing your instance URL and adding a /arc suffix. For example, https://example.com/arc
 
-</td></tr><tr><td id="d477915e135">
+</td></tr><tr><td id="d350116e141">
 
 **From Legal Service Portal**
 
@@ -87,5 +88,5 @@ Navigate to the Anonymous Report Center by accessing your instance URL and addin
     The report is displayed in the Standard Ticket Page.
 
 
-**Parent Topic:**[Submit a complaint through the Anonymous Report Center portal](submit-complaint-arc.md)
+**Parent Topic:**[Submit a complaint through the Anonymous Report Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/submit-complaint-arc.md)
 

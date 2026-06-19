@@ -2,6 +2,7 @@
 title: Content Management navigation
 description: After you design the hierarchical structure of the site, begin planning site navigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_ContentManagementNavigation.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -34,5 +35,5 @@ In the CMS, navigation menus define your site navigation. Build menus as navigat
 -   Vertical blocks
 -   Super menu \(a menu of menus\)
 
-**Parent Topic:**[Content Management design](c_ContentManagementPlanning.md)
+**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
 

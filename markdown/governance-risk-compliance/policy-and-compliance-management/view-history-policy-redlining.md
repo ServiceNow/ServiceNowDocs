@@ -2,6 +2,7 @@
 title: View the history of a redlining-enabled policy
 description: Use the policy history related list to track the modifications made to the policy document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/view-history-policy-redlining.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -23,11 +24,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![](../../grc-cam-workspace/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\]\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-    You can [create a new policy](../../grc-workspace-compliance/task/create-policy-ws.md) or open a record to enable the redlining feature.
+    You can [create a new policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-policy-ws.md) or open a record to enable the redlining feature.
 
 4.  Select a policy to open.
 
@@ -47,7 +48,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     The records are added and are maintained in the policy history list whenever there’s a change made to the policy and reviewed, approved, and republished.
 
-    ![Policy history related list.](../image/PolicyHistory.png "Policy history related list")
+    \[Omitted image "PolicyHistory.png"\] Alt text: Policy history related list.
 
     You can view the entire history of the corrections and modifications made to the policy document from the time it was created. Update the policy document periodically to keep the policies current and up to date with the changing business processes. Maintaining a history of the policy document helps organizations track the next review cycle according to the changing business needs.
 

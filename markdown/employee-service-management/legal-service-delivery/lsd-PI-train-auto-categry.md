@@ -2,6 +2,7 @@
 title: Train the classification solution to predict the subcategory for General Legal Request
 description: Train the classification solution definitions to identify and predict an subcategory using short description and description for General Legal Request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-PI-train-auto-categry.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -31,8 +32,8 @@ Ensure that you have installed Predictive Intelligence \(com.glide.platform\_ml\
 
 3.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Classification Definition form fields, see [Create and train classification solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-solution-definition.md).
+    For more information about the Classification Definition form fields, see Create and train classification solution.
 
 
-**Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](lsd-PI-configure-landing.md)
+**Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
 

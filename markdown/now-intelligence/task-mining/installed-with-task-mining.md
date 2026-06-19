@@ -2,6 +2,7 @@
 title: Components installed with Task Mining
 description: Several types of components are installed with the Task Mining application, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/installed-with-task-mining.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -274,5 +275,5 @@ Activity Categorization Rule
 All activity categorization rules. The table is prepopulated with default fixed rules and user-created rules are then added.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Task Mining Reference](../concept/reference-task-mining.md)
+</table>**Parent Topic:**[Task Mining Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
 

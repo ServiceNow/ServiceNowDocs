@@ -2,7 +2,10 @@
 title: Manage automatically assigned Walk-up Experience interactions
 description: Technicians supporting CSM Walk-up Experience locations can view and manage interactions automatically pushed to the CSM Configurable Workspace inbox.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-walkup-view-auto-assigned-requests.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -21,7 +24,7 @@ Role required: sn\_csm\_walkup.walkup\_technician
 
 Walk-up Experience interactions can be automatically pushed to a personal inbox in CSM Configurable Workspace based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature. Technicians fulfill interactions on a first-come-first-served basis as they appear in the inbox.
 
-To manually assign and manage interactions using the CSM Walk-up Experience Technician modules found in the application navigator, refer to [Manage Walk-up Experience interactions manually](csm-walkup-view-assigned-requests.md).
+To manually assign and manage interactions using the CSM Walk-up Experience Technician modules found in the application navigator, refer to [Manage Walk-up Experience interactions manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-walkup-view-assigned-requests.md).
 
 Technicians set a status in the CSM Configurable Workspace inbox to indicate readiness to accept interactions. Status choices are **Available**, **Away**, and **Offline**.
 
@@ -82,7 +85,7 @@ All Closed Complete and Closed Abandoned interactions assigned to a specific wal
 
     1.  To put an interaction on hold, select **Put on Hold**.
 
-    2.  You can associate the interaction with another record by selecting **Associate Record** from the more UI actions icon \( ![more UI actions icon](../../../common/image/Form_MoreOptions.png)\) in the interaction header.
+    2.  You can associate the interaction with another record by selecting **Associate Record** from the more UI actions icon \( \[Omitted image "Form\_MoreOptions.png"\] Alt text: more UI actions icon\) in the interaction header.
 
     3.  If you cannot resolve an issue, select **Create Case** in the interaction header.
 

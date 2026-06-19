@@ -2,6 +2,7 @@
 title: Configure the Service Graph Connector Integration for Claroty CTD
 description: Use the guided setup for Service Graph Connector Integration for Claroty CTD to lead you through the integration steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/configuring-sgc-claroty-ctd-guided-setup.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -19,17 +20,17 @@ Use the guided setup for Service Graph Connector Integration for Claroty CTD to 
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md), which is automatically installed.
+-   The  store app, which is automatically installed.
+-   The , which is automatically installed.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   Review that **View** access is enabled in Claroty CTD for the following user permissions to collect data from Claroty CTD to ServiceNow:
     -   Visibility
     -   Investigation
 -   The Industrial Core plugin. You must activate this plugin.
 
-    The Industrial Core plugin is required to access the class mappings table for the Service Graph Connector Integration for Claroty CTD. For more information about the Industrial Core plugin, see [Industrial Core plugin](../reference/industrial-core-plugin.md).
+    The Industrial Core plugin is required to access the class mappings table for the Service Graph Connector Integration for Claroty CTD. For more information about the Industrial Core plugin, see [Industrial Core plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/industrial-core-plugin.md).
 
 
 Role required: admin
@@ -40,7 +41,7 @@ Role required: admin
 
 1.  Ensure that the application is set to Service Graph Connector Integration for Claroty CTD by using the application picker.
 
-    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+    For more information, see .
 
 2.  Navigate to **All** &gt; **Service Graph Connector Claroty CTD** &gt; **Guided Setup**.
 
@@ -122,7 +123,7 @@ com.glide.communications.httpclient.verify\_revoked\_certificate
 
 </td><td>
 
-Set to **false**.If you need to add this system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+Set to **false**.If you need to add this system property, see Add a system property.
 
 </td></tr><tr><td>
 
@@ -143,7 +144,7 @@ Set to **true**.
         |Hostname check|**false**|
         |Revocation check|**false**|
 
-        For more information, see [MID Server certificate check policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-security-checks.md).
+        For more information, see MID Server certificate check policies.
 
 8.  To set the system properties that configure the API resource paths, pagination sizes, and API key expiration times,complete the following:
 
@@ -290,7 +291,7 @@ sn\_clarotyctdsgc.filter.asset\_type\_code
 
 </td><td>
 
-Property to provide a list of codes for device types separated by the delimiter \($\).For more information about Claroty types and codes, see [CMDB classes targeted](../reference/sgc-claroty-ctd-classes.md). For example, to only import PLC and HMI device types, enter the Claroty type code as `0$1`.
+Property to provide a list of codes for device types separated by the delimiter \($\).For more information about Claroty types and codes, see [CMDB classes targeted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-claroty-ctd-classes.md). For example, to only import PLC and HMI device types, enter the Claroty type code as `0$1`.
 
 </td></tr><tr><td>
 
@@ -371,7 +372,7 @@ Run an import
 
 </td><td>
 
-Run an import by selecting Execute Now. You can import either all records or only new records since the start time of the last successful import, based on the system properties configured. For more information, see [Configure guided setup](configuring-sgc-claroty-ctd-guided-setup.md).
+Run an import by selecting Execute Now. You can import either all records or only new records since the start time of the last successful import, based on the system properties configured. For more information, see [Configure guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-claroty-ctd-guided-setup.md).
 
 </td></tr><tr><td>
 
@@ -440,7 +441,7 @@ Run an import
 
 </td><td>
 
-Run an import by selecting Execute Now. You can import either all records or only new records since the start time of the last successful import, based on the system properties configured. For more information, see [Configure guided setup](configuring-sgc-claroty-ctd-guided-setup.md).
+Run an import by selecting Execute Now. You can import either all records or only new records since the start time of the last successful import, based on the system properties configured. For more information, see [Configure guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-claroty-ctd-guided-setup.md).
 
 </td></tr><tr><td>
 
@@ -509,7 +510,7 @@ Run an import
 
 </td><td>
 
-Run an import by selecting Execute Now. You can import either all records or only new records since the start time of the last successful import, based on the system properties configured. For more information, see [Configure guided setup](configuring-sgc-claroty-ctd-guided-setup.md).
+Run an import by selecting Execute Now. You can import either all records or only new records since the start time of the last successful import, based on the system properties configured. For more information, see [Configure guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-sgc-claroty-ctd-guided-setup.md).
 
 </td></tr><tr><td>
 
@@ -599,7 +600,7 @@ Save any schedule changes by selecting **Update**.
 </td></tr></tbody>
 </table>12. When configuration items \(CIs\) are created in the CMDB, asset records are created.
 
-    The asset record contains the model category of the CI. For more information about the model categories for Operational Technology \(OT\), see [Model categories for Operational Technology](../reference/model-categories-for-ot.md). To view the model category for an OT device, complete the following:
+    The asset record contains the model category of the CI. For more information about the model categories for Operational Technology \(OT\), see [Model categories for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/model-categories-for-ot.md). To view the model category for an OT device, complete the following:
 
     1.  Navigate to **All** &gt; **Operational Technology \(OT\)** &gt; **All OT Devices**.
     2.  Select an OT device to view its asset record in a new tab.
@@ -626,5 +627,5 @@ Save any schedule changes by selecting **Update**.
         For additional information about troubleshooting issues while using the Service Graph Connector Integration for Claroty CTD, see [Troubleshooting scenarios for the Service Graph Connector Integration for Claroty CTD \(KB1502041\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1502041).
 
 
-**Parent Topic:**[Service Graph Connector Integration for Claroty CTD](../concept/sgc-cmdb-integration-claroty-ctd.md)
+**Parent Topic:**[Service Graph Connector Integration for Claroty CTD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/sgc-cmdb-integration-claroty-ctd.md)
 

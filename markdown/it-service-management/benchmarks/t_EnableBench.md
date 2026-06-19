@@ -2,6 +2,7 @@
 title: Enable Benchmarks
 description: Configure the Benchmarks application for your company to enable your company to compare performance with industry peers. You can opt out of Benchmarks at any time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_EnableBench.html
 release: australia
 product: Benchmarks
 classification: benchmarks
@@ -33,15 +34,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt in to Benchmarks by using the guided setup or the Success Dashboard.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d80772e98">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d47332e98">
 
 Using
 
-</th><th align="left" id="d80772e101">
+</th><th align="left" id="d47332e101">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d80772e107">
+</th></tr></thead><tbody><tr><td id="d47332e107">
 
 **Guided setup**
 
@@ -51,7 +52,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and select **Configure**.
 
 
-</td></tr><tr><td id="d80772e143">
+</td></tr><tr><td id="d47332e143">
 
 **ITSM Success Dashboard**
 
@@ -75,18 +76,18 @@ Do this
 
 ## What to do next
 
-1.  [Assign roles for Benchmarks users](assign-user-roles.md)
-2.  [Configure KPI participation](t_EnableABenchKPI.md)
+1.  [Assign roles for Benchmarks users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/assign-user-roles.md)
+2.  [Configure KPI participation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/t_EnableABenchKPI.md)
 
-    For information about the Benchmarks KPIs available for each category, see [Benchmark KPIs](../concept/c_BenchKPIConfig.md).
+    For information about the Benchmarks KPIs available for each category, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
 
 
--   **[Getting started with the ITSM Success Dashboard admin console](../concept/c_gettingstartedadminconsole.md)**  
+-   **[Getting started with the ITSM Success Dashboard admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_gettingstartedadminconsole.md)**  
 With the new ITSM Success Dashboard admin console, you can access the Benchmarks application.
--   **[Assign roles for Benchmarks users](assign-user-roles.md)**  
+-   **[Assign roles for Benchmarks users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/assign-user-roles.md)**  
 Assign roles for Benchmarks users based on their access requirements.
--   **[Opt out of Benchmarks](t_OptOutBench.md)**  
+-   **[Opt out of Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/t_OptOutBench.md)**  
 You can opt out of Benchmarks at any time. If you opt out, your company usage data is no longer included in the Benchmarks data set, and you no longer see aggregate metrics.
 
-**Parent Topic:**[Benchmarks](../reference/r_Benchmarks.md)
+**Parent Topic:**[Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/r_Benchmarks.md)
 

@@ -2,6 +2,7 @@
 title: Verify text-based clustering solution
 description: Event Management uses Natural Language Processing \(NLP\) algorithms to identify common text patterns in alerts and create alert groups through clustering. This approach not only organizes similar alerts efficiently but also reduces noise and helps focus on significant issues, enhancing overall alert management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/NLP-alerts.html
 release: australia
 product: Event Management
 classification: event-management
@@ -39,6 +40,6 @@ Role required: evt\_mgmt\_admin
 
 4.  Select **Update &amp; Retrain**.
 
-    For more information on ML solutions, see [Reviewing your ML solution training jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/reviewing-ml-solution-training-jobs.md).
+    For more information on ML solutions, see Reviewing your ML solution training jobs.
 
 

@@ -2,7 +2,10 @@
 title: Knowledge product entitlements
 description: The Knowledge Product Entitlements application enables administrators to designate the knowledge bases and knowledge articles that customers can view from the Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_KnowledgeProductEntitlements.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

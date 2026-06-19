@@ -2,6 +2,7 @@
 title: Create implementation of a Scripted Extension Point in EAP
 description: Update the default Scripted Extension Point or create a scripted extension point using the default one as a template to filter the data displayed on the EAP dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-or-update-scripted-extension-point-in-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Update the default Scripted Extension Point or create a scripted extension point
 
 ## Before you begin
 
-[Associate the EAP read-only role to the dashboard](add-the-eap-read-only-role-to-the-dashboard.md).
+[Associate the EAP read-only role to the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/add-the-eap-read-only-role-to-the-dashboard.md).
 
 Role required: sn\_apw\_advanced.eap\_admin
 

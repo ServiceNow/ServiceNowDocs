@@ -2,7 +2,10 @@
 title: Add consumers to a household
 description: Add consumers as members of a household.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-consumer-to-household.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -64,6 +67,6 @@ The Household form includes the following related lists for household members:
 
     -   Current Households
     -   All Households
-    **Note:** You must configure the Consumer form to display these related lists. For more information, see [Configure Service Model Foundation](configure-industry-data-model.md).
+    **Note:** You must configure the Consumer form to display these related lists. For more information, see [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-industry-data-model.md).
 
 

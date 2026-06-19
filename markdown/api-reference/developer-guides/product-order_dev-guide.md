@@ -2,6 +2,7 @@
 title: Product Order Open API Developer Guide
 description: Use the Product Order Open API to create, update, and retrieve product order information.The Product Order Open API can be extended by editing script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/product-order\_dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -15,7 +16,7 @@ breadcrumb: [Developer guides, API implementation and reference]
 
 Use the Product Order Open API to create, update, and retrieve product order information.
 
-This developer guide provides information on how to extend the [Product Order Open API](../../../inbound-rest/concept/tmf622_product_ordering-api.md#) to make various customizations.
+This developer guide provides information on how to extend the [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/tmf622_product_ordering-api.md) to make various customizations.
 
 ## Extending the Product Order Open API
 
@@ -92,7 +93,7 @@ ProductOrderProcessor.prototype = Object.extendsObject(ProductOrderExtensionOOB,
 
 ### Additional REST operations
 
-To create additional operations beyond the existing GET and POST operations, [create additional scripted REST resources](../../../custom-web-services/task/t_CreateAScriptedRESTAPIResource.md) for the Product Order Open API. The logic of the new scripted REST resources should be consistent with the existing operations. Define functions for the new operations in a new script include.
+To create additional operations beyond the existing GET and POST operations, [create additional scripted REST resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTAPIResource.md) for the Product Order Open API. The logic of the new scripted REST resources should be consistent with the existing operations. Define functions for the new operations in a new script include.
 
 ### Field mapping
 

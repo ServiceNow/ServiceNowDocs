@@ -2,6 +2,7 @@
 title: Select the sample data
 description: Add the available sample data to enhance the accuracy and relevancy of the generated data in the Now Assist Data Kit application. The sample data can be curated, added into the data collection, or published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-data-kit/select-sample-data.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit

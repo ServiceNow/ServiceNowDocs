@@ -2,6 +2,7 @@
 title: Activate investment entities for planning items
 description: Activate the investment entitied for Demands, Projects, and Epics to view portfolio financials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/fin-activate-investment-entities-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,6 +30,6 @@ Role required: admin
 
 4.  Set the Active field to **true** for Demand and Project fields.
 
-    ![Enable investment entities for planning items.](../../spw-financials/images/fin-enable-investment-entities-ppw.png)
+    \[Omitted image "fin-enable-investment-entities-ppw.png"\] Alt text: Enable investment entities for planning items.
 
 

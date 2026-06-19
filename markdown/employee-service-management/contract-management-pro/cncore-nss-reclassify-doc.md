@@ -2,6 +2,7 @@
 title: Reclassify contract documents in third-party contract request
 description: As a contract fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -29,7 +30,7 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 3.  In the **Existing contract type** drop-down list, select the contract type that you want to reclassify.
 
-4.  In the **Reclassify to** drop-down list, select the contract type into which you want to reclassify.![Reclassify contract documents](../image/cmpro-tpc-reclassify.png)
+4.  In the **Reclassify to** drop-down list, select the contract type into which you want to reclassify.\[Omitted image "cmpro-tpc-reclassify.png"\] Alt text: Reclassify contract documents
 
     Only active contract types are displayed in the list.
 
@@ -40,5 +41,5 @@ Role required: sn\_cm\_core.contract\_fulfiller
 7.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Use non-self-served contract request](../concept/cncore-req-nss-contract-1.md)
+**Parent Topic:**[Use non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

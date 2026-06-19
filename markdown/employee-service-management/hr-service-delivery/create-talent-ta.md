@@ -2,6 +2,7 @@
 title: Create talent profiles
 description: Create talent profiles to add it to the talent profile repository of your organization. Use it for an optimized hiring process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-talent-ta.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -34,7 +35,7 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 4.  On the Create New Candidate form, fill in the fields.
 
-    For a description of the field values, see [Create talent form](../reference/new-talent-form.md).
+    For a description of the field values, see [Create talent form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/new-talent-form.md).
 
 5.  Select **Save**.
 
@@ -43,5 +44,5 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 You have created a talent profile.
 
-**Parent Topic:**[Using Talent profile](../concept/config-t-pool.md)
+**Parent Topic:**[Using Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-t-pool.md)
 

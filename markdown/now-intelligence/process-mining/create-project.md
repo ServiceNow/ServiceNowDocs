@@ -2,6 +2,7 @@
 title: Create a project
 description: Create a project with the imported external data. You must mine the project to analyze your data and improve your processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/create-project.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -23,7 +24,7 @@ Role required: sn\_process\_mining\_admin
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  On the left of the page, select the External data integration icon \( ![External data integration icon](../image/ext-dataset-modules.png)\).
+2.  On the left of the page, select the External data integration icon \( \[Omitted image "ext-dataset-modules.png"\] Alt text: External data integration icon\).
 
 3.  Select a dataset based on which you want to create a project.
 
@@ -31,7 +32,7 @@ Role required: sn\_process\_mining\_admin
 
 4.  Select **Create project**.
 
-    ![Create Project](../image/ext-data-edit.png)
+    \[Omitted image "ext-data-edit.png"\] Alt text: Create Project
 
     You are automatically taken to the **Scope your analysis** page on Project Builder.
 
@@ -39,7 +40,7 @@ Role required: sn\_process\_mining\_admin
 
     You can add breakdown filters if required.
 
-    For information, see [Scoping your analysis](../concept/scope-analysis.md)
+    For information, see [Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/scope-analysis.md)
 
 6.  Select **Add child entity**.
 
@@ -104,7 +105,7 @@ Target field
 
 </td><td>
 
-Select the target reference field.**Note:** To provide a value for this field, you must create a custom field of the type **Reference** while creating the audit table. This will enable you to configure the source and target fields accordingly. For more information, see [Add custom fields to the audit table](add-custom-field.md).
+Select the target reference field.**Note:** To provide a value for this field, you must create a custom field of the type **Reference** while creating the audit table. This will enable you to configure the source and target fields accordingly. For more information, see [Add custom fields to the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/add-custom-field.md).
 
 </td></tr></tbody>
 </table>    **Note:** You can add any activity definitions or breakdown filters that is required.
@@ -113,12 +114,12 @@ Select the target reference field.**Note:** To provide a value for this field, y
 
 9.  Create improvement opportunities if required.
 
-    For information, see [Set improvement opportunities](improve-opportunities.md).
+    For information, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
 
 10. Review and mine the project.
 
-    For information, see [Review and mine your project](review-mine.md).
+    For information, see [Review and mine your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/review-mine.md).
 
 
-**Parent Topic:**[Working with external datasets](../concept/external-dataset.md)
+**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/external-dataset.md)
 

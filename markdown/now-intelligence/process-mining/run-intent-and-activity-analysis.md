@@ -2,6 +2,7 @@
 title: Run intent and activity analysis
 description: Generate a intent and activity analysis on a node.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/run-intent-and-activity-analysis.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -35,13 +36,13 @@ You can run an intent and activity analysis from Analyst workbench or Opportunit
 
     A window is displayed with all the details.
 
-    ![Iintent and activity analysis](../image/intent-activity.png)
+    \[Omitted image "intent-activity.png"\] Alt text: Iintent and activity analysis
 
 4.  From the **Investigate** section, select **Intent and activity analysis**.
 
     Alternately, select an improvement opportunity and then select **Intent and activity analysis** from the **Investigate** section.
 
-    ![Intent and activity analysis from Opportunity details tab](../image/intent-ana-imp-opp.png)
+    \[Omitted image "intent-ana-imp-opp.png"\] Alt text: Intent and activity analysis from Opportunity details tab
 
     A scheduled task starts.
 
@@ -49,10 +50,10 @@ You can run an intent and activity analysis from Analyst workbench or Opportunit
 
     The result is displayed.
 
-    ![Intent and activity analysis result](../image/intent-activity-ana-result.png)
+    \[Omitted image "intent-activity-ana-result.png"\] Alt text: Intent and activity analysis result
 
     Use the thumbs up and thumbs down icons to provide feedback for the result that you have received.
 
 
-**Parent Topic:**[Using Now Assist for Process Mining](../concept/use-na-process-mining.md)
+**Parent Topic:**[Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
 

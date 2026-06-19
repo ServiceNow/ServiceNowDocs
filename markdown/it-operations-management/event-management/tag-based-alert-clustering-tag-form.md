@@ -2,6 +2,7 @@
 title: Event Management tag based alert clustering tag form
 description: The form for creating or modifying a tag based alert clustering tag displays detailed information about the tag.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/tag-based-alert-clustering-tag-form.html
 release: australia
 product: Event Management
 classification: event-management
@@ -114,7 +115,7 @@ Select the type of match required for the alerts to be included in a group.-   *
 For example, you can configure an alert clustering tag indicating that the alert's **Metric name** field must be an exact match to form a group. When invoking that tag, all alerts with identical values in the **Metric name** field are included in the same group.
 
 -   **Fuzzy**: Indicates that the field value needs to be an approximate match \(depending on the value configured in the **Similarity** field\) for the alert to be included in a group.
--   **Pattern**: Indicates that the field value needs to follow the pattern in the **Pattern** field. For correct syntax and usage examples, see [Pattern matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PatternMatching.md).
+-   **Pattern**: Indicates that the field value needs to follow the pattern in the **Pattern** field. For correct syntax and usage examples, see Pattern matching.
 
 </td></tr><tr><td>
 
@@ -127,5 +128,5 @@ Specify the similarity percentage that must be met by the alerts to be included 
  Default value = 90
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
 

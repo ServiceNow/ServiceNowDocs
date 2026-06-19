@@ -2,6 +2,7 @@
 title: View rule form
 description: Learn about the fields on the view rule form. Use this form to define workspace and default view rules in the Privacy Case Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/prm-view-rule-form.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -83,5 +84,5 @@ Active
 Option to activate the view rule.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a view rule](../task/prm-create-a-view-rule.md)
+</table>**Parent Topic:**[Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/prm-create-a-view-rule.md)
 

@@ -2,6 +2,7 @@
 title: Configure a breakdown definition
 description: Add a breakdown to filter records and analyze a process map by categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/configure-breakdown.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -19,8 +20,8 @@ Add a breakdown to filter records and analyze a process map by categories.
 
 Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
--   [Create a project or template using Project Builder](define-workflow-model.md)
--   [Configure multi-dimensional mining](configure-multidimensional-mining.md)
+-   [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md)
+-   [Configure multi-dimensional mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/configure-multidimensional-mining.md)
 
 ## About this task
 
@@ -50,7 +51,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 ## What to do next
 
-[Mine a project](generate-process-map.md#).
+[Mine a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/generate-process-map.md).
 
-**Parent Topic:**[Create a project using Classic view](create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-proj.md)
 

@@ -2,6 +2,7 @@
 title: Optimize cleaning activities agentic workflow
 description: This team of workplace agents can find open maintenance cases and optimize it for workplace maintenance activities. These agents can optimize a maintenance case based on the utilization rate of a location for which a maintenance case is created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/optimize-cleaning-activities-agent.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -17,7 +18,7 @@ This team of workplace agents can find open maintenance cases and optimize it fo
 
 ## Optimize cleaning activities agentic workflow overview
 
-This AI agentic workflow enables Workplace teams to schedule and manage cleaning and other maintenance schedules based on space utilization and optimization. This agentic AI retrieves employee reservation data and visitor registration planned for a specific office location and date. It checks the minimum and maximum space utilization threshold to see if cleaning requests are required. It deactivates the cases when a location shows a minimum utilization threshold value \(below 40\). The agents optimize the cleaning schedule based on how workplace employees plan to use a space or location. It checks space wastage to provide the optimum workplace experience to employees. For more information, see [Optimize cleaning activities agent overview](optimise-cleaning-agent-overview.md).
+This AI agentic workflow enables Workplace teams to schedule and manage cleaning and other maintenance schedules based on space utilization and optimization. This agentic AI retrieves employee reservation data and visitor registration planned for a specific office location and date. It checks the minimum and maximum space utilization threshold to see if cleaning requests are required. It deactivates the cases when a location shows a minimum utilization threshold value \(below 40\). The agents optimize the cleaning schedule based on how workplace employees plan to use a space or location. It checks space wastage to provide the optimum workplace experience to employees. For more information, see [Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md).
 
 ## AI agents used in optimize cleaning activities workflow
 
@@ -39,7 +40,7 @@ Case aggregator AI agent
 
 </td><td>
 
-This agent fetches all the open maintenance cases based on the maintenance plan ID. Each workplace maintenance case represents a cleaning or a maintenance case for a location for a scheduled interval. The optimization is done on a floor of a selected building. It fetches all the maintenance plan records that satisfy certain criteria. For example, it fetches a set of maintenance plans, and looks for cases that are open for the next 48 hours. The state of the cases should be in **Draft**, **Ready**, or **Awaiting for approval**. For more information, see [Create and publish maintenance plans](../../workplace-maintenance-management/task/create-publish-maintenance-plans.md).
+This agent fetches all the open maintenance cases based on the maintenance plan ID. Each workplace maintenance case represents a cleaning or a maintenance case for a location for a scheduled interval. The optimization is done on a floor of a selected building. It fetches all the maintenance plan records that satisfy certain criteria. For example, it fetches a set of maintenance plans, and looks for cases that are open for the next 48 hours. The state of the cases should be in **Draft**, **Ready**, or **Awaiting for approval**. For more information, see [Create and publish maintenance plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-maintenance-management/create-publish-maintenance-plans.md).
 
 This agent also considers workplace reservations on a floor. If a case is opened for washroom maintenance, the agent identifies the floor on which the washroom is located. It also considers the number of workplace reservations, visitor registrations, and permanent seat assignments before retrieving the space optimization threshold value.
 
@@ -72,9 +73,9 @@ This agent gets all open maintenance cases based on the maintenance plan Id. Eac
 
 This agent can take a list of maintenance cases available and calculate the utilization rate of each case. This utilization rate is used to optimize the cases. This agent takes a list of maintenance cases as input and calculates the utilization rate for locations for a given schedule.
 
-**Parent Topic:**[Optimize cleaning activities agent overview](optimise-cleaning-agent-overview.md)
+**Parent Topic:**[Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md)
 
-**Previous topic:**[Optimize cleaning activities agent overview](optimise-cleaning-agent-overview.md)
+**Previous topic:**[Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md)
 
-**Next topic:**[Automate map updates agentic workflow](automate-map-updates-agent-ai.md)
+**Next topic:**[Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md)
 

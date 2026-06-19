@@ -2,6 +2,7 @@
 title: ValidateTransitionIn
 description: The ValidateTransitionIn validator finds activities that do not have inbound transitions and cannot execute in the workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_ValidateTransitionIn.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -35,9 +36,9 @@ Although the activities detected in this validator do no harm to the execution o
 
 This example workflow appears to be perfectly valid. Under closer inspection, however, we see that the transition from **Set Values** does not stop at **Approval - User** \(there is no arrow end\). Instead, that transition goes directly to **End**. As a result, **Approval - User** cannot execute. Because there is an activity in the workflow based on the approval's condition routing, it appears that the designer intended for the approval to execute and that a correction is needed.
 
-![](../image/TransitionInInvalid.png "TransitionIn invalid")
+\[Omitted image "TransitionInInvalid.png"\] Alt text:
 
 This validator directs the designer to the specific activity and condition that has no inbound transition. The designer should establish a transition or remove the activity.
 
-**Parent Topic:**[Workflow validator](../reference/r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowValidator.md)
 

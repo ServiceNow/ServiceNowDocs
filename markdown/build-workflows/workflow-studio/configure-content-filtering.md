@@ -2,6 +2,7 @@
 title: Configure content filtering definitions
 description: Specify which content a user can access by creating content definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/configure-content-filtering.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

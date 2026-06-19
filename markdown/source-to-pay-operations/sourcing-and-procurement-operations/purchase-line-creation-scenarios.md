@@ -2,6 +2,7 @@
 title: Purchase line creation scenarios
 description: On completing your checkout, an appropriate number of cart lines are created, which then result in the creation of purchase lines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purchase-line-creation-scenarios.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,5 +23,5 @@ For a supplier product:
 -   Different payment methods result in an appropriate number of cost allocations being created against the purchase line.
 -   Different purchase lines are created for each product listed in a bundled product.
 
-**Parent Topic:**[Complete your checkout](../task/complete-your-checkout.md)
+**Parent Topic:**[Complete your checkout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/complete-your-checkout.md)
 

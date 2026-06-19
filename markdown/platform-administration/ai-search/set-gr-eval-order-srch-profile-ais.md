@@ -2,6 +2,7 @@
 title: Set the evaluation order for Genius Result configurations in a search profile
 description: Change the order in which AI Search evaluates Genius Result configurations linked to a search profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/set-gr-eval-order-srch-profile-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -25,7 +26,7 @@ AI Search evaluates active Genius Result configurations for a search profile in 
 
 **Note:** **Order** field values for linked Genius Result configurations are set separately for each search profile. A Genius Result configuration that's linked to multiple search profiles can have a different **Order** field value in each profile. For instance, you might set an **Order** value of 100 for the Q&amp;A Genius Result configuration in one search profile but set a value of 750 for the same Genius Result configuration in a second search profile that it's linked to.
 
-A search application configuration's **Genius Results Limit** field value specifies the maximum number of Genius Result cards the application can display. For more details on search application configuration settings, see [Search Application Configuration form](../reference/search-app-config-form-ais.md).
+A search application configuration's **Genius Results Limit** field value specifies the maximum number of Genius Result cards the application can display. For more details on search application configuration settings, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-app-config-form-ais.md).
 
 ## Procedure
 
@@ -35,12 +36,12 @@ A search application configuration's **Genius Results Limit** field value specif
 
 3.  In the Genius Results related list, edit the **Order** field values for Genius Result configurations linked to the search profile.
 
-    For details on editing field values in the related list, see [Use the list editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UseTheListEditor.md).
+    For details on editing field values in the related list, see .
 
 
 ## What to do next
 
-To make changes in the **Order** field values take effect, publish the search profile. For more information on publishing a search profile, see [Publish an AI Search search profile](publish-search-profile-ais.md).
+To make changes in the **Order** field values take effect, publish the search profile. For more information on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/publish-search-profile-ais.md).
 
-**Parent Topic:**[Genius Results](../concept/genius-results-ais.md)
+**Parent Topic:**[Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/genius-results-ais.md)
 

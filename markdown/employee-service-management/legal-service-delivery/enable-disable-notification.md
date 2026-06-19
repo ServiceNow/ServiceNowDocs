@@ -2,6 +2,7 @@
 title: Enable or disable notifications
 description: Enable or disable Legal Counsel Center notifications to subscribe to items that interest you and unsubscribe from information that does not interest you and is not mandatory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/enable-disable-notification.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -26,7 +27,7 @@ Role required: admin
 
 ## About this task
 
-For information about the available notifications, see [Legal Counsel Center notifications](../reference/legal-counsel-center-config-notification.md).
+For information about the available notifications, see [Legal Counsel Center notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-counsel-center-config-notification.md).
 
 ## Procedure
 
@@ -41,7 +42,7 @@ For information about the available notifications, see [Legal Counsel Center not
 
 ## Result
 
-The notification is enabled or disabled for the user. For more information on the notifications, see [Legal Counsel Center notifications](../reference/legal-counsel-center-config-notification.md).
+The notification is enabled or disabled for the user. For more information on the notifications, see [Legal Counsel Center notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-counsel-center-config-notification.md).
 
-**Parent Topic:**[Configure Legal Counsel Center Workspace](../concept/configure-legal-counsel-center-workspace.md)
+**Parent Topic:**[Configure Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/configure-legal-counsel-center-workspace.md)
 

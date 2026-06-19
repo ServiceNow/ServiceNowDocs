@@ -2,11 +2,12 @@
 title: Upload manifest file in Microsoft Teams
 description: Upload the manifest file in Microsoft Teams to integrate Microsoft Teams with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams-st.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Integration for Employee Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
 ---
@@ -17,7 +18,7 @@ Upload the manifest file in Microsoft Teams to integrate Microsoft Teams with yo
 
 ## Before you begin
 
-Make sure that you have the manifest file for self-configured apps. For more information, see [Create and download the manifest file for self-configured apps](download-manifest-file-st.md#).
+Make sure that you have the manifest file for self-configured apps. For more information, see [Create and download the manifest file for self-configured apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/download-manifest-file-st.md).
 
 Role required: admin
 
@@ -50,5 +51,5 @@ Role required: admin
     **Note:** If you don't want to create a manifest file, you can edit an existing manifest file as required. After updating the existing manifest file, you can download and upload the manifest file in Microsoft Teams to make the changes effective.
 
 
-**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](../concept/c_employee_ex_s_tnt.md)
+**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
 

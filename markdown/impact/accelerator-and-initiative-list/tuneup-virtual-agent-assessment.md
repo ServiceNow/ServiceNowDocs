@@ -2,6 +2,7 @@
 title: TuneUp Your Virtual Agent - Assessment
 description: The TuneUp Your Virtual Agent - Assessment Accelerator provides guidance on fine-tuning Virtual Agent setup to optimize value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-virtual-agent-assessment.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -15,15 +16,17 @@ breadcrumb: [TuneUp Your Virtual Agent, Technical Accelerators, Accelerator cata
 
 The TuneUp Your Virtual Agent - Assessment Accelerator provides guidance on fine-tuning Virtual Agent setup to optimize value.
 
-## Overview
+## Accelerator Overview
 
 The TuneUp Your Virtual Agent - Assessment Accelerator provides Impact customers with an assessment of Virtual Agent with leading practices and prescriptive guidance to enhance Virtual Agent setup. Reviewing the Virtual Agent assessment readout, recommendations to improve Virtual Agent topics, and exploring additional capabilities designed to optimize value from Virtual Agent are included.
 
-See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) for additional information on Virtual Agent.
+See  for additional information on Virtual Agent.
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable [ServiceNow Impact Package and Accelerator descriptions](https://www.servicenow.com/legal/servicenow-impact.html).
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 
@@ -93,7 +96,7 @@ Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leadin
 </td></tr></tbody>
 </table>## Requested Information
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+Please refer to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## Exceptions
 

@@ -2,6 +2,7 @@
 title: Enable and configure AI Search for Knowledge Management Service Portal
 description: Enable and define the AI Search experience in Knowledge Management Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/enable-and-configure-ai-search-for-km-service-portal.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -46,5 +47,5 @@ All new and existing customers must manually enable AI Search in the Knowledge p
 
 AI Search is enabled throughout the Knowledge portal. Customers can use AI Search from the search bar on the portal.
 
-**Parent Topic:**[Configure the Knowledge Management Service Portal](../concept/knowledge-management-service-portal.md)
+**Parent Topic:**[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
 

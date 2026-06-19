@@ -2,6 +2,7 @@
 title: Kiosk configuration form
 description: Use the Kiosk configuration form to create a kiosk device configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-services-kiosk/kiosk-configuration-form.html
 release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -90,5 +91,5 @@ Device ID
 Auto-generated identifier for the kiosk device.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Services Kiosk reference](workplace-services-kiosk-reference.md)
+</table>**Parent Topic:**[Workplace Services Kiosk reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/workplace-services-kiosk-reference.md)
 

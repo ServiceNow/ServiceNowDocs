@@ -2,7 +2,10 @@
 title: Creating an order case
 description: Agents can create order cases from a customer order, from an interaction record, or from the Order Cases list view in CSM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-case-mgmt-order-ops-create-order-case.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3

@@ -1,32 +1,32 @@
 ---
 title: Activation and installation of AI Control Tower
-description: The following section provides an order of installing the applications and their dependent plug-ins.
+description: The following section provides an order of installing the applications and their dependent plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-06-09"
+reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
 breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
 ---
 
 # Activation and installation of AI Control Tower
 
-The following section provides an order of installing the applications and their dependent plug-ins.
+The following section provides an order of installing the applications and their dependent plugins.
 
 ## Installation overview
 
-Installing **AI Control Tower \(sn\_aict\)**, the dependent plug-ins are installed in the following order:
+When you install **AI Control Tower \(sn\_aict\)**, the following dependent plugins are installed in order:
 
-1.  AI Control Tower Core- This combines AI assets and controls in a central hub, ensuring comprehensive governance and management.
-2.  AI Asset management- The ability to collect information, track changes and manage lifecycle of AI artifacts like AI systems, models, datasets, prompts etc.
-3.  AI Risk and Compliance management- It is a comprehensive framework that facilitates end-to-end lifecycle management of AI risks. It supports activities such as risk classification of AI assets, mapping to regulatory authority documents, continuous monitoring, and policy compliance to ensure responsible and accountable AI usage.
-4.  AI Case management- This module enables tracking, triaging, and resolution of incidents or inquiries related to AI systems. It provides a structured case handling mechanism for AI stewards, compliance officers, and stakeholders to manage AI-related exceptions, investigations, and operational events efficiently.
-5.  AI Risk and Compliance integration with Control Tower- It establishes a seamless connection between AI Risk and Compliance and the AI Control Tower workspace. This integration ensures unified visibility into AI governance activities, allowing users to monitor risk postures, compliance statuses, and case workflows directly within the Control Tower interface for a centralized oversight experience.
-6.  AI Risk and Compliance content \(optional\)- Provides customers to ensure compliance with the applicable laws, regulations, directives and/ or standards and that any content provided in the product is accurate and up to date. Customer acknowledges that the content provided with the product is for ease of use and it is Customer’s responsibility to replace the content with the applicable laws, regulations, directives and/ or standards at its own discretion.
-7.  AI Control Tower- Provides a single, consolidated view of all enterprise AI assets and their relationships, empowering organizations with enhanced integration, governance, and operational efficiency.
+1.  AI Control Tower Core — Combines AI assets and controls in a central hub for governance and management.
+2.  AI Asset Management — Collects information, tracks changes, and manages the lifecycle of AI artifacts such as AI systems, models, datasets, and prompts.
+3.  AI Risk and Compliance Management — Supports end-to-end lifecycle management of AI risks, including risk classification of AI assets, mapping to regulatory authority documents, continuous monitoring, and policy compliance.
+4.  AI Case Management — Enables tracking, triaging, and resolution of incidents or inquiries related to AI systems. Compliance officers, AI stewards, and stakeholders can use it to manage AI-related exceptions, investigations, and operational events.
+5.  AI Risk and Compliance integration with Control Tower — Connects AI Risk and Compliance with the AI Control Tower workspace. Users can monitor risk postures, compliance statuses, and case workflows directly within the Control Tower interface.
+6.  AI Risk and Compliance content \(optional\) — Provides prebuilt content to support compliance with applicable laws, regulations, directives, and standards. Verify that the content reflects the laws, regulations, directives, and standards applicable to your organization.
 
 <table id="table_r1n_cvq_wfc"><thead><tr><th>
 
@@ -42,7 +42,7 @@ AI Control Tower Core
 
 </td><td>
 
-Data Foundation Model \(sn\_cmdb\_foundation:1.1.0\)
+Data Foundation Model \(sn\_cmdb\_foundation:1.9.1\)
 
 </td></tr><tr><td>
 
@@ -50,16 +50,17 @@ AI Risk and Compliance management
 
 </td><td>
 
--   AI Control Tower Core \(sn\_ai\_governance:4.0.2\)
--   GRC Feature roles \(sn\_grc\_ftr\_role:21.0.1\)
--   GRC: Common workspace elements \(sn\_grc\_workspace:21.0.4\)
--   GRC: Policy and Compliance management \(sn\_compliance:21.0.2\)
--   Post assessment actions for Smart assessments \(sn\_smart\_imp\_auto:20.1.0\)
--   GRC: Risk management \(sn\_risk:21.0.2\)
--   Regulatory agency library \(sn\_reg\_body\_mgmt:21.0.0\)
--   Smart assessment core \(sn\_smart\_asmt:21.0.1\)
--   Smart assessment connected \(sn\_smart\_asmt\_conn:21.0.1\)
--   Smart assessment designer \(sn\_smart\_asmt\_desg:21.0.3\)
+-   AI Control Tower Core \(sn\_ai\_governance:6.2.6\)
+-   GRC Feature roles \(sn\_grc\_ftr\_role:22.0.1\)
+-   GRC: Common workspace elements \(sn\_grc\_workspace:22.0.4\)
+-   GRC: Policy and Compliance management \(sn\_compliance:22.0.2\)
+-   Post assessment actions for Smart assessments \(sn\_smart\_imp\_auto:22.0.2\)
+
+ -   GRC: Risk management \(sn\_risk:22.0.2\)
+-   Regulatory agency library \(sn\_reg\_body\_mgmt:21.1.1\)
+-   Smart assessment core \(sn\_smart\_asmt:21.0.4\)
+-   Smart assessment connected \(sn\_smart\_asmt\_conn:22.0.3\)
+-   Smart assessment designer \(sn\_smart\_asmt\_desg:22.0.1\)
 
 </td></tr><tr><td>
 
@@ -67,9 +68,9 @@ AI Risk and Compliance integration with Control Tower
 
 </td><td>
 
--   AI Case Management \(sn\_ai\_case\_mgmt:21.0.1\)
--   AI Risk and Compliance management \(sn\_grc\_ai\_gov:21.0.1\)
--   GRC: Advanced Risk \(sn\_risk\_advanced:21.0.2\)
+-   AI Case Management \(sn\_ai\_case\_mgmt:22.0.1\)
+-   AI Risk and Compliance management \(sn\_grc\_ai\_gov:22.2.2\)
+-   GRC: Advanced Risk \(sn\_risk\_advanced:22.0.3\)
 
 </td></tr><tr><td>
 
@@ -77,23 +78,15 @@ AI Control Tower
 
 </td><td>
 
--   AI Asset Management \(sn\_ai\_asset\_mgmt: 2.0.0\)
--   AI Control Tower Core \(sn\_ai\_governance:4.0.2\)
--   AI Risk and Compliance integration with Control Tower \(sn\_grc\_ai\_irm\_intg:21.0.1\)
+-   AI Asset Management \(sn\_ai\_asset\_mgmt: 5.0.1\)
+-   AI Control Tower Core \(sn\_ai\_governance:6.2.6\)
+-   AI Risk and Compliance integration with Control Tower \(sn\_grc\_ai\_irm\_intg:22.2.0\)
 -   Engagement dashboard for AI Control Tower \(sn\_ai\_engagement:2.1.6\)
--   Value dashboard for AI Control Tower \(sn\_ai\_value:2.1.6\)
--   AI Discovery \(sn\_ai\_disc:1.0.4\)
-
-</td></tr><tr><td>
-
-AI Control Tower for Now Assist 1.01
-
-</td><td>
-
-Gen AI Controller \(sn\_generative.ai 11.0.9\)
+-   Value dashboard for AI Control Tower \(sn\_ai\_value:5.0.3\)
+-   AI Discovery \(sn\_ai\_disc:2.0.6\)
 
 </td></tr></tbody>
-</table>When the dependent plug-ins are active, you can look for AI Control Tower application in the ServiceNow store, and download the application when available.
+</table>After installing AI Control Tower \(sn\_aict\) from the ServiceNow Store, the required dependency plugins will be installed automatically.
 
-For more information about downloading any application from ServiceNow store, see [Download any application from ServiceNow](https://www.servicenow.com/docs/bundle/yokohama-security-management/page/product/security-incident-response/reference/download-app-first-time.html)
+For information about downloading any application from ServiceNow store, see Download any application from ServiceNow
 

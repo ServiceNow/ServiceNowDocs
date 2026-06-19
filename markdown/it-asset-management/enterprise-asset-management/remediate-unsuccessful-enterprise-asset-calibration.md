@@ -2,6 +2,7 @@
 title: Remediate an unsuccessful enterprise asset calibration
 description: Remediate a failed enterprise asset calibration event by initiating a new work order and corresponding work order tasks for that event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/remediate-unsuccessful-enterprise-asset-calibration.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -49,26 +50,26 @@ Role required: sn\_eam.enterprise\_asset\_manager
     -   All other mandatory fields
 9.  Fill out any additional fields in the Create New Work Order form and then select **Save**.
 
-    See [Create a work order for an enterprise asset](create-eam-work-order.md) for a detailed description of each field.
+    See [Create a work order for an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-work-order.md) for a detailed description of each field.
 
 10. Add additional work order tasks to the new work order.
 
-    See [Create a work order task for an Enterprise Asset Management work order](create-eam-work-order-task.md) for detailed instructions.
+    See [Create a work order task for an Enterprise Asset Management work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-eam-work-order-task.md) for detailed instructions.
 
 11. Create a checklist of all items that must be completed for the new work order or the associated work order tasks.
 
-    See [Create a checklist for an Enterprise Asset Management work order or work order task](create-checklist-items-eam-work-order.md) for detailed instructions.
+    See [Create a checklist for an Enterprise Asset Management work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-checklist-items-eam-work-order.md) for detailed instructions.
 
 12. Specify any upstream or downstream dependencies for the associated work order tasks.
 
-    See [Create dependencies for an Enterprise Asset Management work order task](create-dependencies-eam-work-order-task.md) for detailed instructions.
+    See [Create dependencies for an Enterprise Asset Management work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-dependencies-eam-work-order-task.md) for detailed instructions.
 
 13. Select **Ready for Work** to initiate work for the new work order.
 
 
 ## What to do next
 
-Work with the assigned agent to complete and close all subsequent tasks for the new work order. See [Managing work for your enterprise assets](../concept/managing-work-enterprise-assets.md) for detailed instructions.
+Work with the assigned agent to complete and close all subsequent tasks for the new work order. See [Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md) for detailed instructions.
 
-**Parent Topic:**[Managing work for your enterprise assets](../concept/managing-work-enterprise-assets.md)
+**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
 

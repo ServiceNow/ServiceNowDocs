@@ -2,6 +2,7 @@
 title: Workforce Optimization for ITSM manager landing page
 description: Stay on top of the status of incidents your teams are working on at a given time. Monitor training that's overdue and how many assessments are open and require approval. Analyze your teams' work and SLA status for the desired time period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/wfo-itsm-manager-landing-page-configurable.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -15,7 +16,7 @@ breadcrumb: [Landing pages, Advanced configurations, Workforce Optimization for 
 
 Stay on top of the status of incidents your teams are working on at a given time. Monitor training that's overdue and how many assessments are open and require approval. Analyze your teams' work and SLA status for the desired time period.
 
-![Workforce Optimzation Landing Page](../../../product/configurable-workforce-optimization-itsm/image/workforce-optimization-landing-page.jpg "Workforce Optimization for ITSM landing page")
+\[Omitted image "workforce-optimization-landing-page.jpg"\] Alt text: Workforce Optimzation Landing Page
 
 ## End user and roles
 
@@ -78,11 +79,11 @@ Select a visualization to view details.
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Open P1 Incidents|Single score![Single score](../../reporting/image/icon-single-score-report.png)|Number of open incidents with top priority.|
-|Incidents not updated in 24 hours|Single score![Single score](../../reporting/image/icon-single-score-report.png)|Number of incidents that have not been updated in the last 24 hours.|
-|Incident SLAs Breached|Single score![Single score](../../reporting/image/icon-single-score-report.png)|Number of incidents with SLAs that have been breached.|
-|Incident SLAs at Risk|Single score![Single score](../../reporting/image/icon-single-score-report.png)|Number of incidents with SLAs that are at risk.|
-|Escalations|Single score![Single score](../../reporting/image/icon-single-score-report.png)| |
+|Open P1 Incidents|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score|Number of open incidents with top priority.|
+|Incidents not updated in 24 hours|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score|Number of incidents that have not been updated in the last 24 hours.|
+|Incident SLAs Breached|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score|Number of incidents with SLAs that have been breached.|
+|Incident SLAs at Risk|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score|Number of incidents with SLAs that are at risk.|
+|Escalations|Single score\[Omitted image "icon-single-score-report.png"\] Alt text: Single score| |
 
-**Parent Topic:**[Workforce Optimization for ITSM landing pages](../../../product/configurable-workforce-optimization-itsm/concept/configurable-wfo-itsm-landing-pages.md)
+**Parent Topic:**[Workforce Optimization for ITSM landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-landing-pages.md)
 

@@ -2,6 +2,7 @@
 title: Industrial Knowledge Management roles
 description: You can assign the Industrial Knowledge Management roles to your users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-mgmt-roles.html
 release: australia
 product: Industrial Knowledge Management
 classification: industrial-knowledge-management
@@ -54,5 +55,5 @@ Knowledge author
 Can contribute.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Knowledge Management reference](industrial-knowledge-mgmt-reference.md)
+</table>**Parent Topic:**[Industrial Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-knowledge-management/industrial-knowledge-mgmt-reference.md)
 

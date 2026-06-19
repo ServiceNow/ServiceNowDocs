@@ -2,6 +2,7 @@
 title: Create an Application in Proofpoint and Obtain Client Credentials
 description: Create an Application in Proofpoint and configure the required settings to obtain client credentials. These credentials enable secure access to Proofpoint's API for seamless integration and automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/create-application-proofpoint-dlp.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -56,5 +57,5 @@ Role required: admin
 
 Use the generated Client ID and Client Secret to configure the integration in the DLP Proofpoint \(PPT\) application and start using it.
 
-**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](../concept/dlp-incident-response-integration-proofpoint.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)
 

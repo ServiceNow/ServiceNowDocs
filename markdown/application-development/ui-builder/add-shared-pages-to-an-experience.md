@@ -2,6 +2,7 @@
 title: Add shared pages to an experience
 description: Add a page from another experience so that users can access shared content without duplicating pages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/add-shared-pages-to-an-experience.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -29,7 +30,7 @@ Before adding a shared page to your experience, there must be at least one page 
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Select the **+** icon next to **Pages**.
 
@@ -68,5 +69,5 @@ Before adding a shared page to your experience, there must be at least one page 
     The shared page displays in your experience along with a label identifying its source experience.
 
 
-**Parent Topic:**[Use pages across experiences](../concept/use-across-pages.md)
+**Parent Topic:**[Use pages across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/use-across-pages.md)
 

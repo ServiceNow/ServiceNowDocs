@@ -2,12 +2,13 @@
 title: Create a sample playbook
 description: Create a sample playbook to standardize and automate how Service Desk agents handle chat interactions with VIP users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/design-automated-process.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 8
+last_updated: "2026-06-12"
+reading_time_minutes: 6
 breadcrumb: [Building your first playbook, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -17,8 +18,6 @@ Create a sample playbook to standardize and automate how Service Desk agents han
 
 ## Before you begin
 
--   Enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin with a subscription to the ServiceNow AI Platform App Engine. For more information, see [Activate Playbooks](../concept/activate-process-automation-designer.md).
--   Ensure that your current application is set to **Global**. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 -   Role required: admin or playbook.admin
 
 ## About this task
@@ -36,143 +35,128 @@ The manual business process for this example consists of the following stages:
 
 1.  Create a playbook named **Handle Interactions with VIPs**.
 
-    1.  Navigate to **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks**.
+    1.  Navigate to **All** &gt; **Workflow Studio** &gt; **Playbooks**.
 
-    2.  In the main header, click **Create a new process**.
+        The Workflow Studio landing page opens with the Playbooks list displayed by default.
 
-    3.  On the form, fill in the fields.
+    2.  In the upper-right corner, select **New** &gt; **Playbook**.
 
-        |Field|Action|
+    3.  Fill in the following fields.
+
+        |Field|Inputs|
         |-----|------|
-        |Label|Enter `Handle Interactions with VIPs`.|
-        |Description|Enter `This process defines how Service Desk agents can handle interaction records that are created for VIP users.`|
-        |Application|Select **Global**.|
+        |**Playbook name**|`Handle Interactions with VIPs`|
+        |**Application**|`Global`|
+        |**Description**|`This process defines how Service Desk agents can handle interaction records that are created for VIP users.`|
 
-    4.  Click **Select a trigger**.
+    4.  Select **Build playbook**.
 
-    5.  Click the **Define your own trigger conditions for when your process runs** option.
+        The builder displays in **Diagram view** by default, but you can select **Board view** to switch between views anytime as you build your playbook.
 
-    6.  From the list of trigger options, select **Record Create**.
-
-    7.  Click **Set your trigger conditions**.
-
-    8.  In the Table list, select **Interaction \[interaction\]**.
-
-    9.  Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to add the following condition to your trigger:
-
-        **\[Opened for-&gt;VIP\]** **\[is\]** **\[True\]**.
-
-    10. Click **Go to Designer**.
+        \[Omitted image "board-view.png"\] Alt text: Diagram and Board view toggle
 
     The Playbooks design environment appears.
 
-2.  Add a stage for each stage in your process.
+2.  Specify the table.
 
-    1.  Click **+ Add stage** to add the first stage to your process.
+    1.  Select the **Start** node.
 
-    2.  In the stage properties panel's **Label** field, enter `Classify and Diagnose`.
+        The Playbook properties side panel opens.
 
-        **Note:** Because the **Identify and Log** stage triggers this process, don't add it as a stage.
+    2.  In the **Parent table** field, enter and select `Interaction`.
 
-    3.  In the **Description** field, enter `Associate an incident with the interaction`.
+    3.  Select **Save and close**.
 
-    4.  In the **When to start** field, leave **Immediately** selected, and then click **Save**.
+3.  Create the trigger.
 
-    5.  Click **+ Add stage** to add another stage to your process.
+    \[Omitted image "sample-playbook-trigger.png"\] Alt text: Sample playbook trigger defition.
 
-    6.  In the stage side panel's **Label** field, enter `Communicate Work in Progress`.
+    1.  Open the trigger panel \[Omitted image "triggers-icon.png"\].
 
-    7.  In the **Description** field, enter `Notify VIP of work in progress`.
+    2.  Select **Add trigger** &gt; **When record is created**.
 
-    8.  In the **When to start** field, leave **After Previous** selected, and then click **Save**.
+        The trigger definition panel opens.
 
-    9.  Click **+ Add stage** to add the final stage to your process.
+    3.  Under **Conditions**, use the condition builder to add the following condition.
 
-    10. In the stage side panel's **Label** field, enter `Resolve`.
+        **\[Opened for-&gt;VIP\]** **\[is\]** **\[True\]**.
 
-    11. In the **Description** field, enter `Resolve incident and share resolution details`.
+    4.  Select **Save and close**.
 
-    12. In the **When to start** field, leave **After Previous** selected, and then click **Save**.
+4.  Add a stage for each phase of your process.
 
-3.  Add the **Create incident from interaction** activity to the **Classify and Diagnose** stage.
+    \[Omitted image "sample-playbook-add-stage.png"\] Alt text: Adding the first stage in the sample playbook.
 
-    1.  Under the **Classify and Diagnose** stage, click **+ Add an activity**.
+    1.  Select **+** &gt; **Add a stage**.
 
-    2.  In the activity picker, select **Common Activities**, and then select **Automated Create Record** under Non-Interactive.
+        Repeat this step to add three stages.
 
-    3.  In the activity properties panel's **Label** field, enter `Create incident from interaction`.
+    2.  Enter the **Label** and **Description** for each stage.
 
-    4.  In the **When to start** field, leave **Immediately** selected, and then click **Save**.
+        |Stage|Label|Description|
+        |-----|-----|-----------|
+        |1|`Classify and Diagnose`|`Associate an incident with the interaction`|
+        |2|`Communicate Work in Progress`|`Notify VIP of work in progress`|
+        |3|`Resolve`|`Resolve incident and share resolution details`|
 
-    5.  Click the **Create incident from interaction** activity card.
+    3.  Select **Save and close**.
 
-    6.  In the activity properties panel, click **Configure activity**.
+5.  Add the **Create incident from interaction** activity to the **Classify and Diagnose** stage.
 
-    7.  On the Configure your activity screen, locate the Variables section under Inputs.
+    \[Omitted image "sample-playbook-add-activity.png"\] Alt text: Add activity to stage.
 
-    8.  In the Table Name list, select **Incident \[incident\]**.
+    1.  Under the **Classify and Diagnose** stage, select **+** &gt; **Add an activity**.
 
-    9.  From the Fields list, select **Assigned To**.
+    2.  In the activity picker, select **Common Activities** &gt; **Non-Interactive** &gt; **Create New Record**.
 
-    10. Next to the **Assigned To** field, select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\).
+    3.  On the **Automation** tab, in the **Table Name** list, select **Incident \[incident\]**.
 
-    11. Dot-walk to the Interaction record's **Assigned To** field by selecting **Context** &gt; **Input Record - interaction** &gt; **Assigned To**.
+    4.  From the **Fields** list, select **Assigned To**.
 
-    12. In the Fields list, select **Impact** and then select **2 - Moderate**.
+    5.  Next to the **Assigned To** field, select the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\).
 
-    13. Under **Fields**, select **Urgency** and then select **1 - High**.
+    6.  Dot-walk to **Context** &gt; **Parent Record - interaction** &gt; **Assigned To**.
 
-    14. In the Fields list, select **Short Description**.
+    7.  Select **Add Field** and add the following four fields.
 
-    15. Dot-walk to the Interaction record's **Short description** field by selecting **Context** &gt; **Input Record - interaction** &gt; **Short Description**.
+        |Field|Values to enter|
+        |-----|---------------|
+        |**Impact**|`2 - Moderate`|
+        |**Urgency**|`1 - High`|
+        |**Short Description**|Dot-walk to **Context** &gt; **Parent Record - interaction** &gt; **Short Description**|
+        |**Caller**|Dot-walk to **Context** &gt; **Parent Record - interaction** &gt; **Opened for**|
 
-    16. In the Fields list, select **Caller**.
-
-    17. Dot-walk to the Interaction record's **Opened for** field by selecting **Context** &gt; **Input Record - interaction** &gt; **Opened for**.
-
-    18. In the **Wait for user input** field, leave **No** selected.
-
-    19. In the **Fields to show after creation** field, enter `priority`.
-
-    20. Click **Update** to finish updating the inputs for the activity.
+    8.  Select **Save and close**.
 
     The **Create incident from interaction** activity automatically maps the Assigned To and Short Description fields from the interaction record to the incident record when your process runs.
 
-4.  Add the **Wait for assignee to update** activity to the **Communicate Work in Progress** stage.
+6.  Add the **Wait for assignee to update** activity to the **Communicate Work in Progress** stage.
 
-    1.  Under the **Communicate Work in Progress** stage, click **+ Add activity**.
+    1.  Under the **Communicate Work in Progress** stage, select **+** &gt; **Add an activity**.
 
-    2.  In the activity picker, select **Common Activities**, and then select **Wait For Condition** under Interactive.
+    2.  In the activity picker, select **Common Activities** &gt; **Interactive** &gt; **Wait For Condition**.
 
     3.  In the activity properties panel's **Label** field, enter `Wait for assignee to update`.
 
-    4.  In the **When to start** field, leave **Immediately** selected, and then click **Save**.
+    4.  On the **Automation** tab, in the **Table** list, select `Incident`.
 
-    5.  Click the **Wait for assignee to update** activity card.
+    5.  Next to the **Record** field, select the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\).
 
-    6.  In the activity properties panel, click **Configure activity**.
+    6.  Dot-walk to **1.1 Create incident from interaction** &gt; **Incident records**.
 
-    7.  On the Configure your activity screen, locate the Variables section under Inputs.
+    7.  Use the condition builder to add the following condition to your activity:
 
-    8.  Next to the **Record** field, select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\).
+        **\[Updated by\]** **\[is\]** **\[Activities** &gt; **1.1 Create incident from interactions** &gt; **Incident record** &gt; **Assigned to\]**.
 
-    9.  Dot-walk to the **Create incident from interaction** activity's **record** output by selecting **Activities** &gt; **1:1 - automated\_create\_record** &gt; **Outputs** &gt; **record**.
-
-    10. In the Table list, select **Incident \[incident\]**.
-
-    11. Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to add the following condition to your activity:
-
-        **\[Updated by\]** **\[is\]** **\[Activities** &gt; **1:1 - automated\_create\_record** &gt; **Outputs** &gt; **record** &gt; **Assigned to\]**.
-
-    12. Click **Update** to finish updating the inputs for the activity.
+    8.  Select **Save and close**.
 
     The **Wait for assignee to update** activity pauses the process until the Assigned To user for the Incident record updates the record.
 
-5.  Add the **Send update to VIP** activity to the **Communicate Work in Progress** stage.
+7.  Add the **Send update to VIP** activity to the **Communicate Work in Progress** stage.
 
-    1.  Under the **Communicate Work in Progress** stage, select **+ Add activity**.
+    1.  Under the **Communicate Work in Progress** stage, select **+** &gt; **Add an activity**.
 
-    2.  In the activity picker, select **Common Activities**, and then select **Instruction** under Default.
+    2.  In the activity picker, select **Common Activities** &gt; **Interactive** &gt; **Instruction**.
 
     3.  In the activity properties panel's **Label** field, enter `Send update to VIP`.
 
@@ -180,96 +164,59 @@ The manual business process for this example consists of the following stages:
 
     5.  Click the **Send update to VIP** activity card.
 
-    6.  In the activity properties panel, select **Configure activity**.
+    6.  Select the **Automation** tab.
 
-    7.  On the Configure your activity screen, locate the Variables section under Inputs.
+    7.  In the **Message** field, enter `Notify the VIP user that work on their issue is in progress`.
 
-    8.  In the **Message** field, enter `Notify the VIP user that work on their issue is in progress`.
+    8.  Leave the **Wait for user input** field's value as **Yes**.
 
-    9.  Leave the **Wait for user input** field's value as **Yes**.
-
-    10. Click **Update** to finish updating the inputs for the activity.
+    9.  Select **Save and close**.
 
     The **Send update to VIP** activity prompts the agent to send an email to the VIP user when the assignee for the incident record makes an update.
 
-6.  Add the **Wait for incident resolution** activity to the **Resolve** stage.
+8.  Add the **Wait for incident resolution** activity to the **Resolve** stage.
 
-    1.  Under the **Resolve** stage, select **+ Add activity**.
+    1.  Under the **Resolve** stage, select **+** &gt; **Add an activity**.
 
-    2.  In the activity picker, select **Common Activities**, and then select **Wait For Condition** under Interactive.
+    2.  In the activity picker, select **Common Activities** &gt; **Interactive** &gt; **Wait For Condition**.
 
     3.  In the activity properties panel's **Label** field, enter `Wait for incident resolution`.
 
-    4.  In the **When to start** field, leave **Immediately** selected, and then click **Save**.
+    4.  Select the **Automation** tab.
 
-    5.  Click the **Wait for incident resolution** activity card.
+    5.  In the **Table** field, select **Incident**.
 
-    6.  In the activity properties panel, click **Configure activity**.
+    6.  Next to the **Record** field, select the data pill picker icon \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\).
 
-    7.  On the Configure your activity screen, locate the Variables section under Inputs.
+    7.  Dot-walk to **Activities** &gt; **1.1 Create incident from interaction** &gt; **Incident record**.
 
-    8.  Next to the **Record** field, select the data pill picker icon \(![Data pill picker icon](../images/data-pill-picker-icon.png)\).
-
-    9.  Dot-walk to the **Create incident from interaction** activity's **record** output by selecting **Activities** &gt; **1:1 - automated\_create\_record** &gt; **Outputs** &gt; **record**.
-
-    10. In the **Table** field, select **Incident \[incident\]**.
-
-    11. Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md) to add the following condition to your activity:
+    8.  Use the condition builder to add the following condition to your activity:
 
         **\[State\]** **\[is\]** **\[Resolved\]**.
 
-    12. Select **Update** to finish updating the inputs for the activity.
+    9.  Select **Save and close**.
 
     The **Wait for incident resolution** activity pauses the process until the Incident's state becomes **\[Resolved\]**.
 
-7.  Add the **Share resolution details with VIP** activity to the **Resolve** stage.
+9.  Add the **Share resolution details with VIP** activity to the **Resolve** stage.
 
-    1.  Under the **Resolve** stage, select **+ Add an activity**.
+    1.  Under the **Resolve** stage, select **+** &gt; **Add an activity**.
 
-    2.  In the activity picker, select **Common Activities**, and then select **Instruction** under Default.
+    2.  In the activity picker, select **Common Activities** &gt; **Interactive** &gt; **Instruction**.
 
     3.  In the activity properties panel's **Label** field, enter `Share resolution details with VIP`.
 
-    4.  In the **When to start** field, leave **After Previous** selected, and then click **Save**.
+    4.  Select the **Automation** tab.
 
-    5.  Click the **Share resolution details with VIP** activity card.
+    5.  In the **Message** field, enter `Provide the Resolution Notes from the Incident record in an email to the VIP user`.
 
-    6.  In the activity properties panel, click **Configure activity**.
+    6.  Leave the **Wait for user input** field's value as **Yes**.
 
-    7.  On the Configure your activity screen, locate the Variables section under Inputs.
-
-    8.  In the **Message** field, enter `Provide the Resolution Notes from the Incident record in an email to the VIP user`.
-
-    9.  Leave the **Wait for user input** field's value as **Yes**.
-
-    10. Click **Update** to finish updating the inputs for the activity.
+    7.  Select **Save and close**.
 
     The **Share resolution details with VIP** activity prompts the agent to send the issue resolution details to the VIP user.
 
-8.  In the main header, click **Activate** so that your process runs when triggered.
-
-9.  View your activated process as a playbook.
-
-    1.  Close the Playbooks tab and navigate to **Playbook Experience**.
-
-    2.  In the side menu, click the lists icon \(![Lists icon](../images/workspace-lists-icon.png)\).
-
-    3.  In the **Lists** tab under Interactions, click **My Interactions**.
-
-    4.  In the form header, click **New**.
-
-    5.  On the form, fill in the fields:
-
-        |Field|Action|
-        |-----|------|
-        |Type|Select **Chat**.|
-        |Opened for|Select a VIP user.|
-        |Assigned to|Select a user that can make updates to Incident records.|
-        |Short description|Enter `Testing out the Handle Interactions with VIPs playbook`.|
-
-    6.  In the form header, click **Save**.
-
-    7.  In the Contextual side panel, click the playbook icon \(![Playbook icon](../images/workspace-playbook-icon.png)\).
+10. In the main header, select **Activate** so that your process runs when triggered.
 
 
 ## Result
@@ -278,7 +225,7 @@ Your process appears in as a playbook. Here, agents and fulfillers can get a tas
 
 ## What to do next
 
-Customize the Playbook layout for deployment. To learn more, see [Customizing the Playbook Experience](../../workspace/concept/playbook-customize-playbook.md)
+Customize the Playbook layout for deployment. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-customize-playbook.md)
 
-**Parent Topic:**[Building your first playbook](../concept/getting-started-processes.md)
+**Parent Topic:**[Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-processes.md)
 

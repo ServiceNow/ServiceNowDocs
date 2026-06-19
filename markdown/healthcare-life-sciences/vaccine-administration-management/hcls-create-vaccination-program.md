@@ -2,6 +2,7 @@
 title: Create vaccination programs
 description: Create vaccination programs to track and manage vaccinations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/vaccine-administration-management/hcls-create-vaccination-program.html
 release: australia
 product: Vaccine Administration Management
 classification: vaccine-administration-management
@@ -85,8 +86,8 @@ Option to activate the program for use. This field is automatically set to **Act
 
     For each location center, you can specify the appointment schedule configuration, as well as configure the scheduling based on available inventory. For details, see:
 
-    -   [Configure advanced appointment scheduling for a center](configure-location-level-weekly-schedule-config.md)
-    -   [Configure inventory-based scheduling for a center](configure-scheduling-by-inventory.md)
+    -   [Configure advanced appointment scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/configure-location-level-weekly-schedule-config.md)
+    -   [Configure inventory-based scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/configure-scheduling-by-inventory.md)
 5.  In the Phases related list, define the phases for when the vaccine will be administered.
 
     1.  Enter a name for the phase.
@@ -194,8 +195,8 @@ Configure the eligibility criteria that users must meet to be eligible for a spe
 </td></tr></tbody>
 </table>    3.  Click **Submit**.
 
-        **Note:** If you want to create your own record producer or an alternative to "Schedule your vaccination", don’t update the catalog item of the program with the new record producer at this stage. "Schedule your vaccination" is the user-facing record producer which enables users to schedule vaccines in the Patient Portal. The catalog item should always remain "Schedule vaccine appointment" even when you create a non-OOTB program. For more information, see the Schedule and manage your vaccinations section of [Use the Patient Portal to register for a vaccination program](../concept/hcls-vam-user-experience.md).
+        **Note:** If you want to create your own record producer or an alternative to "Schedule your vaccination", don’t update the catalog item of the program with the new record producer at this stage. "Schedule your vaccination" is the user-facing record producer which enables users to schedule vaccines in the Patient Portal. The catalog item should always remain "Schedule vaccine appointment" even when you create a non-OOTB program. For more information, see the Schedule and manage your vaccinations section of [Use the Patient Portal to register for a vaccination program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md).
 
 
-**Parent Topic:**[Configuring Vaccine Administration Management](../concept/vaccine-mgmt-config.md)
+**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

@@ -2,6 +2,7 @@
 title: Troubleshoot import set performance
 description: Review these performance issues to troubleshoot and improve the performance of your import set jobs.Running business rules during transform may cause the transform to take longer than expected, or cause the instance to slow down.Using multiple GlideRecord queries or large loops may slow down transform scripts.Repeatedly importing data that has not changed leads to many skipped rows.Coalescing on non-indexed fields with a large amount of data may cause transforms to slow down.Running imports simultaneously may cause excessive load on the database.Failing to clean import set tables may lead to those tables becoming cluttered and slow.Changing the table schema, such as by importing a new column locks the import set table.Importing a very large data set takes longer than importing multiple smaller data sets.Importing a high volume of data with many references to resolve might take longer than expected or cause the database to slow down.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/c\_TroubleshootImportSetPerformance.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -15,7 +16,7 @@ breadcrumb: [Import sets, Imports, Workflow Data Fabric]
 
 Review these performance issues to troubleshoot and improve the performance of your import set jobs.
 
-**Parent Topic:**[Import sets](../../import-sets/reference/import-sets-landing-page.md)
+**Parent Topic:**[Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
 
 ## Running business rules during transform
 
@@ -27,7 +28,7 @@ Running business rules during transform may cause the transform to take longer t
 
 **How to avoid this**: Do not run items like business rules, workflows, approval engines, and so on during a transform unless you want all insert and update business rules, notifications, and workflows to run. For example, when importing all data from an old system, you may not want notifications to run. To disable these items from running and to cease auditing and field normalization within the transform map for that import, deselect the **Run business rules** check box.
 
-![](../image/TransformMapCheckbox.png "Transform Map Checkbox")
+\[Omitted image "TransformMapCheckbox.png"\] Alt text:
 
 **Note:** Consider using an onComplete transform script to run business logic such as calculations at the end of an import rather than on each record as business rules do.
 
@@ -49,7 +50,7 @@ Becomes an issue: When you are importing data from a table that is very large an
 
 Symptoms: The import set takes longer than expected. Under **System Import Sets** &gt; **Progress**, expect to see an import with a Total count that is very high with a Skipped count that is also very high - this is found under the Message column. Indicating that most of the records imported had not actually changed. These records did not need to be imported.
 
-How to avoid this: If you are running a JDBC import, use the last run datetime option in your import set [Data Source](../../import-sets/concept/c_DataSources.md). For a type of File import, be sure that whatever is generating your files is only adding data that is new, or has been changed.
+How to avoid this: If you are running a JDBC import, use the last run datetime option in your import set [Data Source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_DataSources.md). For a type of File import, be sure that whatever is generating your files is only adding data that is new, or has been changed.
 
 ## Coalescing on non-indexed fields
 
@@ -113,12 +114,12 @@ How to avoid this: Use secondary storage to look up references. Secondary storag
 
 To enable secondary storage:
 
--   Activate the Secondary Database Pools \[com.glide.secondary\_db\_pools\] plugin. For more information, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md).
+-   Activate the Secondary Database Pools \[com.glide.secondary\_db\_pools\] plugin. For more information, see .
 -   Confirm that the import\_reference\_resoultion category in the Secondary Database Categories \[sys\_db\_category\] table has been configured and enabled. When you request the plugin, ServiceNow support configures this category for you.
 
-After the plugin is activated and your secondary storage category has been configured and enabled, there will be a **Use Secondary Storage for References** check box on the form to [Create a transform map](../../../script/server-scripting/task/t_CreateATransformMap.md). Use this check box to enable or disable secondary storage.
+After the plugin is activated and your secondary storage category has been configured and enabled, there will be a **Use Secondary Storage for References** check box on the form to [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md). Use this check box to enable or disable secondary storage.
 
-When using secondary storage, set the **Choice action** field in the field map to **ignore** or **reject**. Setting the **Choice action** to **create** may cause multiple copies of a record to be created because the reference resolution doesn't detect newly created records immediately. For more information about choice actions, see [Create a field map](../../../script/server-scripting/task/t_CreatingAFieldMap.md).
+When using secondary storage, set the **Choice action** field in the field map to **ignore** or **reject**. Setting the **Choice action** to **create** may cause multiple copies of a record to be created because the reference resolution doesn't detect newly created records immediately. For more information about choice actions, see [Create a field map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreatingAFieldMap.md).
 
 A secondary database is always slightly out of date compared to the primary database. If your import requires completely up-to-date data, don't use secondary storage.
 

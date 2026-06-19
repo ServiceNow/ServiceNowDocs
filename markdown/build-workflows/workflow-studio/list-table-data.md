@@ -2,6 +2,7 @@
 title: List.\[Table\] data type
 description: Stores a list of record Sys IDs associated to a specific table. This variable supports ServiceNow AI Platform List field options such as default records and reference qualifiers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/list-table-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -48,5 +49,5 @@ Stores a list of record Sys IDs associated to a specific table. This variable su
     You can use a List variable to specify the records to process within For Each flow logic. The For Each flow logic ignores any non-record sys\_id present in the data. For example, if the List variable contains an email address, the flow logic ignores it.
 
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
 

@@ -2,6 +2,7 @@
 title: Data Visualization properties
 description: Several properties that limit what can be displayed in data visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-visualization-properties.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -37,7 +38,7 @@ Applies only to Platform Analytics experience:
 
  When false, **Go to data** chart interactions for visualizations of tables open the Platform Analytics list of table records. Redirections in general that open lists or charts open Platform Analytics lists and charts.
 
- For more information, see [Chart interactions in a data visualization](../concept/dv-chart-interactions.md).
+ For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md).
 
  -   Type: true \| false \(Boolean\)
 -   Default value: true
@@ -84,5 +85,5 @@ Maximum setting recognized for the maxNumberOfGroups property of data visualizat
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data visualization reference](data-visualization-reference.md)
+</table>**Parent Topic:**[Data visualization reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-visualization-reference.md)
 

@@ -2,6 +2,7 @@
 title: Accept, reject, or cancel evidence request
 description: Accept, reject or cancel an evidence request when you receive the evidence you requested. After requesting an evidence request, when the requester receives the evidence, the requester can accept, reject, or cancel the evidence request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/accept-reject-cancel-evidence.html
 release: australia
 product: Audit Management
 classification: audit-management

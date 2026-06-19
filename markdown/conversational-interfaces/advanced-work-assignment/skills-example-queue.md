@@ -2,6 +2,7 @@
 title: Create a queue
 description: Create a queue where you can route work to agents who have the German skill.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/skills-example-queue.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

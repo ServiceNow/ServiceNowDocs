@@ -2,6 +2,7 @@
 title: Create a custom list in the Lists view in Service Graph Workspace
 description: Create your own lists of classes that you can then navigate in the Lists view in Service Graph Workspace to explore data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-create-custom-list.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Set up a bi-directional webhook for the Infoblox spoke
 description: Configure a webhook to subscribe to Infoblox with a ServiceNow callback URL.Register a Infoblox webhook in a ServiceNow instance to notify the ServiceNow application when certain events occur in Infoblox.Specify a webhook callback URL in Infoblox account to create a webhook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhook-infoblox.html
 release: australia
 product: Integration Hub
 classification: integration-hub

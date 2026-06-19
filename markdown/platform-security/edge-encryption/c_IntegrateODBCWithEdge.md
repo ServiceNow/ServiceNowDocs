@@ -2,6 +2,7 @@
 title: Edge Encryption ODBC driver integration
 description: Configure your ODBC driver to query data encrypted by Edge Encryption. The Edge Encryption proxy server encrypts ODBC driver requests to the ServiceNow instance when Edge Encryption is integrated with the ODBC driver.If a Certificate Authority trusted by the ODBC driver has not signed the Edge Encryption proxy server certificate, you must import a self-signed certificate to the ODBC truststore. You can export the certificate from the Edge Encryption proxy server and import it into the ODBC truststore.Set the ODBC driver properties to route requests through the Edge Encryption proxy server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_IntegrateODBCWithEdge.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -19,7 +20,12 @@ Encrypted responses from the instance are decrypted through the Edge Encryption 
 
 For a successful integration, the ODBC driver must trust the Edge Encryption proxy server certificate. If the Edge Encryption proxy server certificate is signed by a Certificate Authority trusted by the ODBC driver, the Edge Encryption proxy server is automatically trusted. However, if a Certificate Authority trusted by the ODBC driver has not signed the Edge Encryption proxy server certificate, you must import the self-signed certificate to the ODBC truststore.
 
-**Parent Topic:**[Data integration with Edge Encryption](data-integration.md)
+**Parent Topic:**[Data integration with Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/data-integration.md)
+
+**Related topics**  
+
+
+[bundle-crapiref.c_ODBCDriver]
 
 ## Import a self-signed certificate to the ODBC truststore
 
@@ -48,7 +54,7 @@ edgeencryption.proxy.https.keystore.password = password
 edgeencryption.proxy.https.cert.alias = jetty
 ```
 
-For details on editing properties, see [Configure additional properties in the Edge Encryption properties file](../task/set-props.md)
+For details on editing properties, see [Configure additional properties in the Edge Encryption properties file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/set-props.md)
 
 ### Procedure
 
@@ -97,7 +103,7 @@ Role required: admin
 
 4.  Change the **Value** to the URL of your Edge Encryption proxy server, such as `https://<IP address>:<port>`
 
-    ![DataSourceIPProperties](../images/OBDCPropertyforEdge.png "DataSourceIPProperties")
+    \[Omitted image "OBDCPropertyforEdge.png"\] Alt text: DataSourceIPProperties
 
 5.  Click **OK**.
 

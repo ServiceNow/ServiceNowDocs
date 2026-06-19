@@ -2,7 +2,10 @@
 title: Create a contact in Microsoft Outlook
 description: As an account manager, you can create a contact when you receive an email from a customer whose details aren’t in the Microsoft Outlook contacts list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-new-contact.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,10 +28,10 @@ Role required: sn\_customerservice.contact\_manager and sn\_customerservice.prox
 
     The contact details aren’t available and the Outlook add-in panel displays the `No contact was found` message.
 
-3.  Select the more actions icon \(![More actions icon](../image/more_icon.png)\) and select **Create Contact**.
+3.  Select the more actions icon \(\[Omitted image "more\_icon.png"\] Alt text: More actions icon\) and select **Create Contact**.
 
 4.  Fill in the contact details in the case form and select **Submit**.
 
-5.  If you want to perform other contact tasks, access the CSM portal by selecting the Pop-out icon \(![Pop-out icon to go to the CSM portal page.](../image/pop-out-icon.png)\).
+5.  If you want to perform other contact tasks, access the CSM portal by selecting the Pop-out icon \(\[Omitted image "pop-out-icon.png"\] Alt text: Pop-out icon to go to the CSM portal page.\).
 
 

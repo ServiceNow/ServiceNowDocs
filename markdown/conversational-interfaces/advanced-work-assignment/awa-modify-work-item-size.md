@@ -2,6 +2,7 @@
 title: Create or change a work item size override
 description: Create a work item size override if you want Agent Affinity to calculate an agent's workload using a work item size other than the default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-modify-work-item-size.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

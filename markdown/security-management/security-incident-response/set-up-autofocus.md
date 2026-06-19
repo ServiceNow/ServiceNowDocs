@@ -2,6 +2,7 @@
 title: Activate and configure Palo Alto Networks - AutoFocus integration
 description: The Integration Configuration feature allows you to quickly activate and set up third-party security integrations, including Palo Alto Networks - AutoFocus. Before you can use the Palo Alto Networks - AutoFocus, you must download it from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-autofocus.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ Role required: sn\_si\_admin
 
 ## Procedure
 
-1.  [Download an application from the ServiceNow Store for the first time](../../../security-incident-response/reference/download-app-first-time.md).
+1.  [Download an application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/download-app-first-time.md).
 
 2.  When the installation is complete, access Palo Alto Networks support site and obtain the API Key.
 

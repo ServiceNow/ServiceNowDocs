@@ -2,6 +2,7 @@
 title: User Trails
 description: Displays audits of users in the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/user-trails.html
 release: australia
 product: Identity
 classification: identity
@@ -32,5 +33,5 @@ To access User Trails, navigate to **All** &gt; **System Security** &gt; **Ident
 |Created By|The user who made the change.|
 |Created|The time and date the audit was performed.|
 
-![User Trails](../images/user-trails.png)
+\[Omitted image "user-trails.png"\] Alt text: User Trails
 

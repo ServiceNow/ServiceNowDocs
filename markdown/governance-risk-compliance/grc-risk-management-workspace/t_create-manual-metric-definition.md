@@ -2,6 +2,7 @@
 title: Create a manual metric definition
 description: Create a manual metric definition to collect the data manually for a metric.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/t\_create-manual-metric-definition.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -33,7 +34,7 @@ In the manual metric definition, the mode of data collection is manual. An optio
 
 3.  On the form, fill in the fields.
 
-    For information about the fields, refer to [Create New Metric Definition form](../reference/manual-md-reuse-irm.md).
+    For information about the fields, refer to [Create New Metric Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manual-md-reuse-irm.md).
 
 4.  Click **Save**.
 
@@ -44,10 +45,10 @@ The metric definition is saved in the Metric definitions list.
 
 ## What to do next
 
-You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](t_update-automated-metric-definition.md) for more information.
+You can associate an entity type, create metrics, and add citations to the metric definition. See [Update a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_update-automated-metric-definition.md) for more information.
 
--   **[Create New Metric Definition form](../reference/manual-md-reuse-irm.md)**  
+-   **[Create New Metric Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/manual-md-reuse-irm.md)**  
 Detailed explanation of the fields on the manual metric definition form.
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

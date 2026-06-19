@@ -2,6 +2,7 @@
 title: Create a policy through script
 description: Use the ServiceNow platform native scripting mechanism to define the policy condition. You can externalize the decision making to script includes and reuse the code across different policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-create-policy-through-script.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -27,7 +28,7 @@ Role required: sn\_itom\_ccg.governor
 
 3.  On the Policy form, fill in the fields.
 
-    For the description of the form fields, see [Cloud Configuration Governance Policy form](../reference/ccg-policy-form.md).
+    For the description of the form fields, see [Cloud Configuration Governance Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-policy-form.md).
 
     Refer to one of the base system script-based policies as an example for creating the custom policy.
 
@@ -36,5 +37,5 @@ Role required: sn\_itom\_ccg.governor
 
 ## What to do next
 
-Test the policy to make sure that it is working properly. For more information, see [Test the policy](test-ccg-policy.md).
+Test the policy to make sure that it is working properly. For more information, see [Test the policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/test-ccg-policy.md).
 

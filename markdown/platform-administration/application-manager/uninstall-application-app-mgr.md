@@ -2,6 +2,7 @@
 title: Uninstall an application
 description: Uninstall an unused application to remove unnecessary or conflicting scripts, background jobs, and roles from your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/application-manager/uninstall-application-app-mgr.html
 release: australia
 product: Application Manager
 classification: application-manager
@@ -42,5 +43,5 @@ Role required: admin, sn\_appclient.app\_client\_user, or sn\_appclient.app\_cli
 5.  Select **OK**.
 
 
-**Parent Topic:**[Uninstalling applications](../concept/uninstalling-apps-app-manager.md)
+**Parent Topic:**[Uninstalling applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/application-manager/uninstalling-apps-app-manager.md)
 

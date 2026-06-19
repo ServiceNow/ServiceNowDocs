@@ -2,6 +2,7 @@
 title: Transfer configuration form
 description: Use the Transfer configuration form to configure your transfer details in the Universal Request application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-route-config-form.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -103,5 +104,5 @@ Closed template
 Select the fields that you want to populate other than the state.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Request reference](ur-reference-topic.md)
+</table>**Parent Topic:**[Universal Request reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.md)
 

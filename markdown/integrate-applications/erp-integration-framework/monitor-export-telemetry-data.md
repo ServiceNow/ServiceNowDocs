@@ -2,6 +2,7 @@
 title: Export Zero Copy Connector for ERP transaction data
 description: Export Zero Copy Connector for ERP \(Enterprise Resource Planning\) transaction information such as failures and usage. Filter the data as needed and then export to Excel, CSV, JSON, or PDF format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/monitor-export-telemetry-data.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -24,15 +25,15 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP monitor page by selecting the monitor icon ![](../image/erp-monitor-icon-sidebar.png) in the side panel.
+2.  Open the ERP monitor page by selecting the monitor icon \[Omitted image "erp-monitor-icon-sidebar.png"\] in the side panel.
 
 3.  Select the **Asynchronous transactions** or **Synchronous transactions** tab.
 
-4.  Point to a column heading, select the filter icon ![](../../../reuse/icons/product-icons/ellipsis-vertical-fill-24.svg), specify filter options, and select **Apply**.
+4.  Point to a column heading, select the filter icon \[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text:, specify filter options, and select **Apply**.
 
     For example, filter the **Status** column to only show errors. You can apply filters to multiple columns.
 
-    ![Status column filter with error selected.](../image/erp-export-transaction-data1.png)
+    \[Omitted image "erp-export-transaction-data1.png"\] Alt text: Status column filter with error selected.
 
 5.  Select **Export**.
 
@@ -43,5 +44,5 @@ Role required: sn\_erp\_integration.erp\_admin
 8.  Select **Export**.
 
 
-**Parent Topic:**[Monitor Zero Copy Connector for ERP transactions and logged errors](monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md)
+**Parent Topic:**[Monitor Zero Copy Connector for ERP transactions and logged errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md)
 

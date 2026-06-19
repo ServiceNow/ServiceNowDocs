@@ -2,6 +2,7 @@
 title: Deployment analyzer in ReleaseOps
 description: The deployment analyzer reviews the update set in your release against rules to verify compliance with customizable rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/deployment-analyzer.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -22,13 +23,13 @@ The deployment analyzer scans a given deployment request \(and the update sets i
 
 By default, the deployment analyzer has five rules. You can create rule types, definitions, and rules as needed. New rules appear in the playbook conditional setup automatically.
 
-For more information, see [Deployment analyzer rules](../reference/deployment-analyzer-rules.md).
+For more information, see [Deployment analyzer rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-analyzer-rules.md).
 
 ## Automated Test Framework \(ATF\) code coverage
 
 The deployment analyzer also leverages Automated Test Framework \(ATF\) code coverage to evaluate code changes prior to deploying the changes to the production \(or target\) instance. ATF code coverage is a tool that enables you to determine what percentage of code in a deployment request is covered by ATF test suites.
 
-By default, if ATF test suites cover less than 70 percent of the code in a deployment request, ReleaseOps transitions the deployment request to the **Reconciling** state and a test failure task is automatically created. You can adjust the ATF code coverage threshold in the deployment request assessment playbook. For more information, see [Set Automated Test Framework \(ATF\) code coverage](../task/set-atf-code-coverage-threshold.md).
+By default, if ATF test suites cover less than 70 percent of the code in a deployment request, ReleaseOps transitions the deployment request to the **Reconciling** state and a test failure task is automatically created. You can adjust the ATF code coverage threshold in the deployment request assessment playbook. For more information, see [Set Automated Test Framework \(ATF\) code coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/set-atf-code-coverage-threshold.md).
 
-For more information about ATF code coverage, see [ATF Code Coverage API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/atf-code-coverage-api.md).
+For more information about ATF code coverage, see .
 

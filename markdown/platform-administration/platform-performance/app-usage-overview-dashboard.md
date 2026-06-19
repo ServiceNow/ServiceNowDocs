@@ -2,6 +2,7 @@
 title: Application usage overview dashboard
 description: The Application Usage Overview dashboard displays reports on the use of ServiceNow applications on your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/app-usage-overview-dashboard.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -95,5 +96,5 @@ Shows any of the following items, depending on your licensing agreement:
 -   Physical node count
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Monitoring instance usage](../../subscription-management/concept/usage-analytics-module-subscription.md)
+</table>**Parent Topic:**[Monitoring instance usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/usage-analytics-module-subscription.md)
 

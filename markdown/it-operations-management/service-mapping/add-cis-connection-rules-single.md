@@ -2,6 +2,7 @@
 title: Add CIs for single application services using connection rules
 description: Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Add CIs to specific application services using connection rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/add-cis-connection-rules-single.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -19,7 +20,7 @@ Create rules for automatically adding traffic-based connections and the CIs they
 
 -   Analyze the infrastructure you are mapping to identify the most common connections. These common connections are good candidates for connection rules.
 -   Confirm that discovery based on Predictive Intelligence is enabled. Navigate to the System Property \[sys\_properties\] table and verify that the **sa\_ml.connection\_suggestions.active** property is set to **True**.
--   [Discover applications based on fingerprints](../../discovery/task/discover-application-based-process.md).
+-   [Discover applications based on fingerprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/discover-application-based-process.md).
 
 Role required: service\_mapping\_admin
 
@@ -29,9 +30,9 @@ Connection rules enhance the connection suggestions generated using Predictive I
 
 You can create connection rules that apply to specific application services or to all application services. If the rule is for a specific service, but the rule condition points at a CI that is part of multiple services, Service Mapping adds this CI to all relevant services.
 
-For information about Service Mapping evaluating and applying connection rules, see [Traffic-based discovery in Service Mapping](../concept/traffic-based-discovery.md).
+For information about Service Mapping evaluating and applying connection rules, see [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
 
-In addition to connection rules that add CIs to specific services, you can [create rules for adding CIs to multiple application services](add-cis-connection-rules-multiple.md).
+In addition to connection rules that add CIs to specific services, you can [create rules for adding CIs to multiple application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/add-cis-connection-rules-multiple.md).
 
 ## Procedure
 
@@ -57,7 +58,7 @@ In addition to connection rules that add CIs to specific services, you can [crea
 
         For example, to add outgoing connections for any Tomcat server, configure the following filtering condition.
 
-        ![Filtering condition for Tomcat](../image/connection-rule-condition-example.png)
+        \[Omitted image "connection-rule-condition-example.png"\] Alt text: Filtering condition for Tomcat
 
     2.  To create an additional filtering condition, click **Add Filter Condition**.
 
@@ -78,5 +79,5 @@ Verify that Service Mapping added CIs as expected by performing the following st
 2.  Click **Discover** at the top of the map window.
 3.  After the application service is rediscovered, check that CIs are added correctly based on the connection rule.
 
-**Parent Topic:**[Map a single application service using classic Service Mapping](t_DefineNewBusinessService.md)
+**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 

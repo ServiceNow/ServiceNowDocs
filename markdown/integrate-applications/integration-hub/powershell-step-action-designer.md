@@ -2,6 +2,7 @@
 title: PowerShell step
 description: Run PowerShell scripts on remote machines from your ServiceNow instance through a MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/powershell-step-action-designer.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -21,7 +22,7 @@ PowerShell is built on the Windows .NET Framework and is designed to control and
 
 ## PowerShell version
 
-By default, Integration Hub supports PowerShell versions 3.0 to 5.1. To use a newer version, [add the MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) **mid.property.ihub.prefer\_powershell6Plus** and set it to `true`.
+By default, Integration Hub supports PowerShell versions 3.0 to 5.1. To use a newer version, add the MID Server property **mid.property.ihub.prefer\_powershell6Plus** and set it to `true`.
 
 **Note:** PowerShell version 6.0 or later is not pre-installed on MID Servers. You must install the newer PowerShell version manually. Both the earlier versions \(PowerShell 3.0 to 5.1\) and the newer versions \(PowerShell 6.0 to 7.4\) can co-exist on the same MID Server. Test your Integration Hub and custom PowerShell scripts to ensure everything works before upgrading to a newer version of PowerShell.
 
@@ -48,7 +49,7 @@ Connection
 Type of connection to use. -   **Define Connection Inline**: Define connection information within the action step.
 -   **Use Connection Alias**: Define connection information using the Connection Alias table. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action.
 
- To learn more about connections and credentials, see [Introduction to credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
+ To learn more about connections and credentials, see Introduction to credentials, connections, and aliases.
 
 </td></tr><tr><td>
 
@@ -56,7 +57,7 @@ Connection Alias
 
 </td><td>
 
-Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. **Note:** This field is available when **Use Connection Alias** is selected from the Connection list.
+Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. **Note:** This field is available when **Use Connection Alias** is selected from the Connection list.
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Credential Alias
 
 </td><td>
 
-Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. **Note:** This field is available when **Define Connection Inline** is selected from the Connection list.
+Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. **Note:** This field is available when **Define Connection Inline** is selected from the Connection list.
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see .
 
 
  This field is available when **Define Connection Inline** is selected from the Connection list.
@@ -163,7 +164,7 @@ Test PowerShell Step
 
 </td><td>
 
-Button to test the configured credential for the PowerShell step. For more information, see [Test a credential for the PowerShell step](../../integrationhub/tasks/test-credential-powershell.md).
+Button to test the configured credential for the PowerShell step. For more information, see [Test a credential for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-credential-powershell.md).
 
 </td></tr><tr><td>
 
@@ -215,7 +216,7 @@ The inline PowerShell script to run on the target host.**Note:** This field is o
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
 
 
 ## PowerShell scripting variables
@@ -226,7 +227,7 @@ To access input variables from the **Command** field, you must call them using s
 
     By default, prefix variable names with a $ character. For example, if an input variable is named **message**, use $message to access the variable in script.
 
-    If the **mid.powershell.command.script.parameter\_passing** parameter is set to false, prefix the variable name with $env:SNC\_. For example, if an input variable is named **message**, use $env:SNC\_message to access the variable in script. To learn more about the **mid.powershell.command.script.parameter\_passing** parameter, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
+    If the **mid.powershell.command.script.parameter\_passing** parameter is set to false, prefix the variable name with $env:SNC\_. For example, if an input variable is named **message**, use $env:SNC\_message to access the variable in script. To learn more about the **mid.powershell.command.script.parameter\_passing** parameter, see MID Server parameters.
 
 -   **Reserved variables**
 
@@ -251,10 +252,10 @@ To access input variables from the **Command** field, you must call them using s
     -   midScriptDirectory
     -   hresult
 
--   **[Configure logging for the PowerShell step](../../integrationhub/tasks/configure-logging-powershell-step.md)**  
+-   **[Configure logging for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-logging-powershell-step.md)**  
 Add log messages to the scripts in your PowerShell step. Use log levels for improved logging and debugging.
--   **[Test a credential for the PowerShell step](../../integrationhub/tasks/test-credential-powershell.md)**  
+-   **[Test a credential for the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-credential-powershell.md)**  
 Test a configured credential in the PowerShell step. Confirm the credential is working before building the rest of your step.
 
-**Parent Topic:**[Integration steps](../../integrationhub/concept/integration-steps.md)
+**Parent Topic:**[Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md)
 

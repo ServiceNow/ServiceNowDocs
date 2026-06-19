@@ -2,6 +2,7 @@
 title: Create a credential record for the SuccessFactors Learning spoke
 description: Create a credential record for the spoke. The SuccessFactors Learning connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/successfactors-learning-credential.html
 release: australia
 product: Integration Hub
 classification: integration-hub

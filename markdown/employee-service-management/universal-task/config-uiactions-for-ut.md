@@ -2,6 +2,7 @@
 title: Create UI actions for your service with Universal Task
 description: Create UI actions for your service so that agents can create universal tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/config-uiactions-for-ut.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -59,14 +60,14 @@ Administrators and users with the ui\_action\_admin role can define UI actions. 
 
 9.  On the form, fill in the fields.
 
-    For more information on fields and descriptions, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_EditingAUIAction.md).
+    For more information on fields and descriptions, see Create a UI action.
 
 10. Click **Submit**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Assign Universal Task admin role](assign-ut-admin-role.md)
+**Previous topic:**[Assign Universal Task admin role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/assign-ut-admin-role.md)
 
-**Next topic:**[Add a Universal Task related list](create-relatedlist-ur.md)
+**Next topic:**[Add a Universal Task related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/create-relatedlist-ur.md)
 

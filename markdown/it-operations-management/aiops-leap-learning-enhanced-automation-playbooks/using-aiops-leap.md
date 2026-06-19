@@ -1,7 +1,8 @@
 ---
 title: Using LEAP
-description: LEAP gathers incidents or issues and groups them into items called automation opportunities \(AOs\).
+description: Use LEAP to analyze automation opportunities \(AOs\), generate resolution steps and playbooks, create problem records, build knowledge base articles, and execute Ansible automations during incident remediation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -13,7 +14,7 @@ breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM
 
 # Using LEAP
 
-LEAP gathers incidents or issues and groups them into items called automation opportunities \(AOs\).
+Use LEAP to analyze automation opportunities \(AOs\), generate resolution steps and playbooks, create problem records, build knowledge base articles, and execute Ansible automations during incident remediation.
 
 ## LEAP tasks
 
@@ -24,38 +25,50 @@ AOs are categorized depending on how critical the services are, number of hand o
 -   Moderate
 -   Low
 
-Prioritizing AOs helps IT Operations Management personas address the most critical issues or the issues that are hindering performance. LEAP provides tasks that support incident research, root cause analysis, and resolution development. AOs also enable you to create knowledge base articles or playbooks.
+LEAP groups incidents into AOs categorized by priority. Use AOs to research incidents, identify root causes, and develop resolutions. You can also map AOs to Ansible job templates and execute automated remediations directly from the SOW.
 
-AOs enable you to create essential artifacts including problem records for deeper analysis, knowledge base articles, and playbooks that give IT operators access to resolution steps.
+AOs enable you to create problem records for deeper analysis, knowledge base articles for future reference, and playbooks that give IT operators access to resolution steps.
 
-The Now Assist Explore feature streamlines artifact creation through an intuitive workflow. By clicking the **Explore** button, you open the Now Assist panel where a workflow menu guides you through creating the artifacts you need. While you can also generate artifacts using the **Actions** button, the Explore feature provides a centralized, workflow-driven approach to leverage AO insights and build resolution resources efficiently.
+The Now Assist Explore feature streamlines artifact creation. Select **Explore** to open the Now Assist panel, where a workflow menu guides you through creating the artifacts you need. You can also generate artifacts using the **Actions** button.
 
-1.  [Generate and modify resolution steps in LEAP](generating-and-modifying-resolution-steps.md)
+1.  [Generate and modify resolution steps in LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generating-and-modifying-resolution-steps.md)
 
     Generate resolution steps for automation opportunity and when required get focused solutions by modifying the resolution steps.
 
-2.  [Create sub-groups for automation opportunities](creating-subgroups-for-automation-opportunities.md)
+2.  [Create sub-groups for automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/creating-subgroups-for-automation-opportunities.md)
 
     Create granular automation opportunities to get targeted resolutions for similar looking issues.
 
-3.  [Monitor automation opportunities using the LEAP value dashboard](understand-the-aiops-leap-value-dashboard.md)
+3.  [Monitor automation opportunities using the LEAP value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understand-the-aiops-leap-value-dashboard.md)
 
     View and understand how automation helps LEAP to achieve cost and time savings.
 
-4.  [Create LEAP problem records](create-problem-records.md)
+4.  [Create LEAP problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.md)
 
     Create a problem record using the resolution steps of an AO. The problem record helps you perform an in-depth analysis to find the root cause of the incident.
 
-5.  [Generate LEAP knowledge base](generate-aiops-leap-knowledge-base.md)
+5.  [Generate LEAP knowledge base articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-aiops-leap-knowledge-base.md)
 
-    Generate knowledge base articles using the resolution steps to help resolve similar issues by L1 operators.
+    Generate AI-enhanced, publication-ready knowledge base articles from resolution steps. Generated articles include structured sections, auto-populated metadata, and a link to the originating incident. Articles are routed through the standard knowledge base approval workflow and published to the Knowledge Center.
 
-6.  [Generate LEAP playbooks](generate-playbooks.md)
+6.  [View LEAP resolution step recommendations in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/view-resolution-steps-in-sow.md)
 
-    Generate automated playbooks that use the resolution steps to efficiently solve similar incidents in the future.
+    View resolution step recommendations in SOW.
 
-7.  [Use LEAP playbooks in Service Operations Workspace \(SOW\)](view-and-use-aiops-leap-playbooks-in-sow.md)
+7.  [Generate LEAP playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/generate-playbooks.md)
+
+    Generate automated playbooks that use the resolution steps to resolve similar incidents.
+
+8.  [Use LEAP playbooks in Service Operations Workspace SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/view-and-use-aiops-leap-playbooks-in-sow.md)
 
     Use LEAP generated playbook to resolve incidents in SOW.
+
+9.  [Map Ansible jobs to resolution steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/map-ansible-jobs-to-resolution-steps.md)
+
+    Create mappings between automation opportunity resolution steps and Ansible job templates to enable automated incident remediation.
+
+10. [Execute Ansible automations for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.md)
+
+    Use the Ansible Execution Agent to launch mapped Ansible job templates during incident remediation.
 
 

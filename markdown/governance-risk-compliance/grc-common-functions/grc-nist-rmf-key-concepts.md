@@ -2,6 +2,7 @@
 title: NIST RMF supporting concepts
 description: Familiarize yourself with these concepts, developed from the NIST RMF guidance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-nist-rmf-key-concepts.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -15,7 +16,7 @@ breadcrumb: [NIST RMF Use Case Accelerator, GRC use case accelerators, Common GR
 
 Familiarize yourself with these concepts, developed from the NIST RMF guidance.
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 <table id="table_ybb_jkv_3hb"><thead><tr><th>
 
@@ -118,5 +119,5 @@ Tailoring
 Tailoring is a process by which a security control baseline is modified based on: \(i\) Targets scoping guidance; \(ii\) specification of the security controls, for example, compensating, if needed; and \(iii\) the specification of organization — defined parameters in the security controls via explicit assignment and selection statements
 
 </td></tr></tbody>
-</table>**Parent Topic:**[NIST RMF Use Case Accelerator](../concept/grc-and-nistrmf-usecase-accelerator.md)
+</table>**Parent Topic:**[NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
 

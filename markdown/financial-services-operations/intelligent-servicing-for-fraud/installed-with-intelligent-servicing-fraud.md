@@ -2,12 +2,14 @@
 title: Components installed with Intelligent Servicing for Fraud
 description: Several types of components are installed with the activation of the Intelligent Servicing for Fraud \(sn\_bom\_fraud\) plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/installed-with-intelligent-servicing-fraud.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [components installed with intelligent servicing for fraud, sn\_bom\_fraud plugin, fraud tables, fraud roles, sn\_bom\_fraud\_case, sn\_bom\_fraud\_task, sn\_bom\_fraud\_transaction, sn\_bom\_fraud.admin, sn\_bom\_fraud.agent, sn\_bom\_fraud.manager, sn\_bom\_fraud.viewer, sn\_bom\_fraud.contributor, card fraud policy rules, fraud investigation routing rules, decision tables for fraud]
 breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -38,8 +40,8 @@ Enables the extension of tables from the Customer Service Management application
 
 |Store application|Description|
 |-----------------|-----------|
-|Financial Services Operations Core|Stores the customer data that is needed to make complaint service requests. For more information, see [Financial Services Operations Core](../../fso-common/reference/financial-services-operations-core-data-model.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-case-playbooks.md).|
+|Financial Services Operations Core|Stores the customer data that is needed to make complaint service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/financial-services-operations-core-data-model.md).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
 
 ## Roles installed
 

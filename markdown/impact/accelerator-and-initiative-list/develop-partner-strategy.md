@@ -2,6 +2,7 @@
 title: Develop Partner Strategy
 description: The Develop Partner Strategy Accelerators provide guidance on finding and evaluating effective partners.Guidance on finding and evaluating effective partnersGuidance on finding and evaluating effective partners
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/develop-partner-strategy.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list

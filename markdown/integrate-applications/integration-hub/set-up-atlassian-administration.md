@@ -2,6 +2,7 @@
 title: Set up the Atlassian Administration spoke
 description: Integrate the ServiceNow instance and Atlassian Administration by using an API key to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-atlassian-administration.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -66,7 +67,7 @@ Organization ID
 
 </td><td>
 
-Atlassian Administration Organization ID that you find while [creating an Atlassian Administration API Key](create-atlassian-api-key.md).
+Atlassian Administration Organization ID that you find while [creating an Atlassian Administration API Key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-atlassian-api-key.md).
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -78,7 +79,7 @@ API Key
 
 </td><td>
 
-The API Key that you find while [creating an Atlassian Administration API Key](create-atlassian-api-key.md).
+The API Key that you find while [creating an Atlassian Administration API Key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-atlassian-api-key.md).
 
 </td></tr></tbody>
 </table>5.  Select **Create**.

@@ -2,6 +2,7 @@
 title: Create an interaction
 description: An interaction is a record of a conversation between a requester and a fulfiller \(real or virtual\). Though most interaction creation takes place in other applications, if needed, you can create an interaction directly from Interaction Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/create-interactions.html
 release: australia
 product: Interaction Management
 classification: interaction-management
@@ -38,14 +39,14 @@ Role required: interaction\_agent
 
 4.  Select **Submit**.
 
-    ![Sample Interaction form.](../image/new-interaction.png)
+    \[Omitted image "new-interaction.png"\] Alt text: Sample Interaction form.
 
 
 ## Result
 
 The interaction is created and assigned to the selected user.
 
-![Assigned interactions for a user.](../image/assigned-interactions.png)
+\[Omitted image "assigned-interactions.png"\] Alt text: Assigned interactions for a user.
 
-**Parent Topic:**[Using Interaction Management](../concept/using-interaction-management.md)
+**Parent Topic:**[Using Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/using-interaction-management.md)
 

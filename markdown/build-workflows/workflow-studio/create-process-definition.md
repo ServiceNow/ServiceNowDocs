@@ -1,151 +1,139 @@
 ---
 title: Create a playbook
-description: Enable playbook owners to configure and organize multiple instances of Workflow Studio content into an automated business process on the ServiceNow AI Platform.
+description: Create a playbook to set up an automated business process. Use Playbook builder in Workflow Studio to add stages, activities, triggers, and runtime permissions, then activate the playbook to make it available to agents and fulfillers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-process-definition.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-06-09"
+reading_time_minutes: 4
 breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a playbook
 
-Enable playbook owners to configure and organize multiple instances of Workflow Studio content into an automated business process on the ServiceNow AI Platform®.
+Create a playbook to set up an automated business process. Use Playbook builder in Workflow Studio to add stages, activities, triggers, and runtime permissions, then activate the playbook to make it available to agents and fulfillers.
 
 ## Before you begin
 
--   [Activate Playbooks](../concept/activate-process-automation-designer.md) for your appropriate application.
+-   Activate the Playbook application for your instance. See [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md).
 -   Familiarize yourself with the tables and relationships that your application uses for the playbook that you want to create.
--   Make sure to familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](../../workflow-studio/concept/exploring-flows.md), [subflows](../../workflow-studio/reference/exploring-subflows.md), and [actions](../../workflow-studio/concept/exploring-actions.md).
--   Learn how to [get started with ServiceNow® Process Automation](../concept/getting-started-process-automation.md).
--   Role required: admin, playbook.admin, or playbook.write. To learn more about playbook authoring access in Workflow Studio, see [User access to Playbooks in Workflow Studio](../concept/user-access-playbooks.md).
+-   Familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md), [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-subflows.md), and [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-actions.md).
+-   Role required: admin, playbook.admin, or playbook.write.
 
 ## About this task
+
+Use this procedure to build a new playbook from scratch. You can create a playbook with no trigger, a single trigger, or multiple triggers. If you change a playbook after activating it, the system saves your changes but deactivates the playbook. You must activate the playbook again to publish any new changes.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workflow Studio** &gt; **Playbooks**.
 
-    The Workflow Studio landing page appears. Playbooks are shown by default, but you can toggle to flows, subflows, actions, and decisions.
+    The Workflow Studio landing page opens with the Playbooks list displayed by default.
 
-2.  In the upper right corner, click **New** and select **Playbook** from the drop-down menu.
-
-    The Playbooks builder details screen for a new playbook opens in a new tab.
+2.  In the upper-right corner, under **New**, select **Playbook**.
 
 3.  Fill in the following fields.
 
-    |Field|Action|
-    |-----|------|
-    |**Playbook name**|Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.|
-    |**Description**|Optionally, enter some descriptive details about your playbook.|
-    |**Application**|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).|
+    |Field|Description|
+    |-----|-----------|
+    |**Playbook name**|Unique, user-facing name for the playbook. Appears to agents and fulfillers at runtime.|
+    |**Application**|Application scope for the playbook. Select **Global** to run the playbook in any application scope.|
+    |**Description**|Descriptive details about the playbook.|
 
-    The builder displays in **Diagram view** by default, but you can select **Board view** to switch views. Switch between views anytime as you build your playbook.
+4.  Select **Build playbook**.
 
-    ![Diagram and Board view toggle](../images/board-view.png)
+    The builder displays in **Diagram view** by default, but you can select **Board view** to switch between views anytime as you build your playbook.
 
-4.  Select the **Start** node.
+    \[Omitted image "board-view.png"\] Alt text: Diagram and Board view toggle
 
-    The **Playbook properties** side panel opens.
+5.  Select the **Start** node.
 
-5.  Under the **Details** tab, update or fill in the following fields.
+    The Playbook properties side panel opens.
 
-<table id="choicetable_vdx_qhw_bgc"><thead><tr><th align="left" id="d107149e332">
+6.  Under the **Details** tab, fill in the fields.
+
+    You can also update the Playbook name and Description.
+
+<table id="table_lhw_frm_njc"><thead><tr><th>
 
 Field
 
-</th><th align="left" id="d107149e335">
+</th><th>
 
-Action
+Description
 
-</th></tr></thead><tbody><tr><td id="d107149e341">
-
-**Playbook name**
-
-</td><td>
-
-Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.
-
-</td></tr><tr><td id="d107149e356">
-
-**Parent table**
-
-</td><td>
-
-Select the table that you want your trigger records and other playbook inputs to come from.**Note:** This field is required for Knowledge and Email activities.
-
-</td></tr><tr><td id="d107149e367">
-
-**Description**
-
-</td><td>
-
-Optionally, enter some descriptive details about your playbook.
-
-</td></tr><tr><td id="d107149e379">
+</th></tr></thead><tbody><tr><td>
 
 **Limit playbook executions for each parent record to**
 
 </td><td>
 
-Limit the number of times a playbook can run for a single parent record.
+Maximum number of times the playbook can run for a single parent record.
 
-</td></tr><tr><td id="d107149e389">
+</td></tr><tr><td>
+
+**Execution type**
+
+</td><td>
+
+Type of playbook to create.-   **Record driven:** Playbook tied to a record. Triggered on demand or automatically based on record operations. Data from the playbook is stored on that record.
+-   **Standalone:** Single-session playbook that does not store data to a record. Must be manually triggered or called from another playbook.
+
+
+</td></tr><tr><td>
+
+**Parent table**
+
+</td><td>
+
+Table that provides trigger records and other playbook inputs. Required for Knowledge and Email activities.
+
+</td></tr><tr><td>
 
 **Allow this playbook to be restarted during runtime**
 
 </td><td>
 
-Allow runtime users to restart the entire playbook during a run.
+When selected, runtime users can restart the entire playbook during a run.
 
 </td></tr></tbody>
-</table>6.  Under the **Inputs** tab, add inputs for a playbook to launch with.
+</table>7.  Under the **Inputs** tab, add inputs for a playbook to launch with.
 
-    Inputs defined here are accessible throughout the playbook via dot-walking and dot notation \(e.g. inputs.inputName\) and can be used in activity fields, conditions, and UI elements.
+    Inputs defined here are accessible throughout the playbook via dot-walking and dot notation, for example `inputs.inputName`, and can be used in activity fields, conditions, and UI elements.
 
-    **Tip:** Use this to trigger a playbook with API inputs instead of trigger records.
+    **Tip:** To trigger a playbook with API inputs instead of trigger records, use the `triggerPlaybook(String scopedName, GlideRecord parentRecord)` API to trigger a playbook. For more information about the API, search `triggerplaybook` on the ServiceNow Developer Site: [Playbook Experience APIs](https://developer.servicenow.com/dev.do#!/reference/api/zurich/server/sn_playbook-namespace/PlaybookExperienceScopedAPI).
 
-7.  Under the **Runtime permissions** tab, add sets of users, user groups, user criteria and roles, and define whether they can add optional activities to the playbook, restart the playbook or its stages and activities, or cancel the playbook during runtime.
+8.  Under the **Runtime permissions** tab, configure permissions for users, user groups, user criteria, and roles.
 
-8.  [Configure your trigger.](add-configure-trigger.md)
+9.  Configure a trigger for the playbook.
 
-    **Note:** You can create a playbook with no trigger, a single trigger, or multiple triggers.
+    You can create a playbook with no trigger, a single trigger, or multiple triggers. For more information, see [Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/add-configure-trigger.md).
 
-9.  [Add a stage.](add-configure-stage.md)
+10. Add activities, stages, decision nodes, and parallel branches as required to automate your process.
 
-10. [Add a decision stage.](create-decision-stage.md)
+    Continue adding stages and activities until your playbook reflects the full business process. For more information, see [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
 
-11. [Add an activity.](add-configure-activity.md)
+11. Add a variant to your playbook.
 
-12. Keep adding stages and activities according to your manual playbook.
+    You can use one playbook in multiple use cases by using variants. For more information, see [Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-variants.md).
 
-    For an example of how to design an entire digitized process with Playbooks, see [Create a sample playbook](design-automated-process.md).
+12. After adding all stages and activities, test the playbook.
 
-13. If you don't see the activity you need to add in the activity picker, [create an activity definition](create-activity-definition.md).
+13. After testing the playbook, select **Activate** in the header.
 
-14. [Add a decision activity.](create-a-decision-activity.md)
-
-15. [Add parallel activities.](create-parallel-activity.md)
-
-16. [Add optional activities.](../concept/optional-activities.md#)
-
-17. After you've added all appropriate stages and activities to your playbook, select **Activate** in the header.
-
-    Activating your playbook publishes it so that it runs when triggered.
-
-    **Note:** If you change your playbook after activating it, the system saves your changes but deactivates your playbook. You must click **Activate** again to publish any new changes to your playbook. For more information, see [Playbook statuses and activation states](../reference/process-status-activation-state.md).
+    The playbook is published and runs when its trigger conditions are met.
 
 
 ## Result
 
-When your playbook's trigger conditions are met, your playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Create a sample playbook](design-automated-process.md).
+When the trigger conditions of the playbook are met, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/design-automated-process.md).
 
 ## What to do next
 
 Set up the Playbook Experience for your agents and fulfillers.
 
-**Parent Topic:**[Creating and managing Playbooks](../concept/creating-managing-playbooks.md)
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

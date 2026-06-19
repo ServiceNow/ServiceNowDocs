@@ -2,6 +2,7 @@
 title: Configure the Zoom channel for callbacks over Zoom
 description: Allow agents to call users back over Zoom by enabling the Zoom callback channel and specifying the host email address.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/callback-over-zoom/Setup-zoom-channel-omni.html
 release: australia
 product: Callback over Zoom
 classification: callback-over-zoom

@@ -2,6 +2,7 @@
 title: Manage documentation in Feedback application
 description: Capture documents, files, or resources associated with a product idea in the Doc tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/product-feedback/manage-documents-with-pf.html
 release: australia
 product: Product Feedback
 classification: product-feedback
@@ -35,7 +36,7 @@ Verify that you have a doc component plug-in​ \(com.sn\_docs​\) installed.
 
 5.  From the Pages section, select **Create page**.
 
-    ![Quick overview of Docs tab in Product idea.](../image/docs-in-product-idea.png)
+    \[Omitted image "docs-in-product-idea.png"\] Alt text: Quick overview of Docs tab in Product idea.
 
     You can perform these tasks under the **Doc** tab:
 

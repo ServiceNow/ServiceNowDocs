@@ -2,6 +2,7 @@
 title: CSC GCP Windows OOB permissions
 description: Google Cloud Platform Windows Out Of Box permissions
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/gcp-windows-oob-permissions.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -204,5 +205,5 @@ Stack Deprovision
  **Note:** Day 2 VM disk permissions are also required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Google Cloud Platform Windows Out Of Box Catalog items](google-cloud-platform-windows-out-of-box-catalog-items.md)
+</table>**Parent Topic:**[Google Cloud Platform Windows Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/google-cloud-platform-windows-out-of-box-catalog-items.md)
 

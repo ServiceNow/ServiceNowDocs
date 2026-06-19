@@ -2,6 +2,7 @@
 title: Settings
 description: View the information related to the settings of your ITSM Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/settings-mobile.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent

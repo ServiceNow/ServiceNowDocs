@@ -2,6 +2,7 @@
 title: Upload versions to an external cloud
 description: Upload document versions Document Management to an external cloud.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/upload-versions-external-cloud.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -17,7 +18,7 @@ Upload document versions Document Management to an external cloud.
 
 ## Before you begin
 
-[Configure permission for roles or groups](configure-permissions-mp.md) by selecting the **mp\_document\_admin** from the document list.
+[Configure permission for roles or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/configure-permissions-mp.md) by selecting the **mp\_document\_admin** from the document list.
 
 Role required: mp\_document\_admin
 
@@ -44,5 +45,5 @@ Role required: mp\_document\_admin
 7.  Select **Open Cloud URL** at the top to open the document in the external cloud.
 
 
-**Parent Topic:**[Document Management integration with external content providers](../concept/integration-external-content-providers.md)
+**Parent Topic:**[Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/integration-external-content-providers.md)
 

@@ -2,6 +2,7 @@
 title: Create a profile
 description: You can set up a profile so that notable events are automatically ingested.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-create-profile-sched-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -94,7 +95,7 @@ Additional text to help you distinguish this profile from other profiles.
 </td></tr></tbody>
 </table>    The following figure is an example of a completed form for a scheduled notable event type.
 
-    ![Splunk ES Event Profile](../image/new-images/notable-event-profile.png)
+    \[Omitted image "notable-event-profile.png"\] Alt text: Splunk ES Event Profile
 
 5.  For a profile with a scheduled notable event, choose one option to continue with the profile configuration.
 

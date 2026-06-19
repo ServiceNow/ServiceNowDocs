@@ -2,6 +2,7 @@
 title: Using Notify with SMS
 description: Send and receive SMS messages using Notify.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/c\_NotifySMS.html
 release: australia
 product: Notify
 classification: notify
@@ -27,12 +28,12 @@ To send SMS messages to one or more recipients, use the Notify API sendBulkSMS m
 
 The Notify-Twilio integration provides programmable SMS outbound message status tracking with Status Callbacks. These callbacks can be helpful to see if a message has been delivered, failed, or ran into some other delivery issues.
 
--   **[SMS Statuses](../reference/r_SMSStatus.md)**  
+-   **[SMS Statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/r_SMSStatus.md)**  
 Every Twilio SMS message request has a status value which describes the current state of the message. Use this information for troubleshooting SMS related incidents/ issues. Here are few descriptions of possible statuses of SMS sent from Notify through Twilio REST API.
--   **[Send an SMS with Zoom meeting invite](../task/send-sms-with-zoom-link.md)**  
+-   **[Send an SMS with Zoom meeting invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/send-sms-with-zoom-link.md)**  
 Send an SMS with Zoom meeting invite to ensure that the meeting participants or any newly added participant is updated with the meeting details when the meeting host starts the conference or adds a participant to the conference.
--   **[Outbound communication requirements](../reference/r_OutboundRequirements.md)**  
+-   **[Outbound communication requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/r_OutboundRequirements.md)**  
 Outbound communications initiated through Notify, such as phone calls and SMS messages, must satisfy recipient number requirements.
 
-**Parent Topic:**[Using Notify](using-notify.md)
+**Parent Topic:**[Using Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/using-notify.md)
 

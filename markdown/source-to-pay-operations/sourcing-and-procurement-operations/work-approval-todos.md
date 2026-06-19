@@ -2,6 +2,7 @@
 title: Approve your purchase requisition from Shopping Hub Home
 description: Provide approvals for your purchase requisitions and invoice requests that are in pending approval state. Purchase requisition approvals are generated when an approval rule is triggered on meeting certain criteria. Invoice approvals are sent to the recipient of the line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/work-approval-todos.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -57,5 +58,5 @@ You can approve or reject your purchase requisitions and invoice requests from t
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

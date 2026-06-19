@@ -2,6 +2,7 @@
 title: Create a smart link preference
 description: Create smart links to specify where a URL should open. For example, the URL could open in a new browser window, in a new browser tab, in the chat window, or in a pop-up window.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/create-smart-link-preference.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -22,7 +23,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-If you \(as an admin\) have enabled [URL navigation](../concept/url-navigation-ci.md) on the page, you can specify patterns for where and how the links open in the chat windows. End users see the URL links based on the patterns you've specified.
+If you \(as an admin\) have enabled [URL navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/url-navigation-ci.md) on the page, you can specify patterns for where and how the links open in the chat windows. End users see the URL links based on the patterns you've specified.
 
 For example, you can set these URL "smart links" to open in a new browser window, in a new browser tab, in the chat window, or in a pop-up window. If you specify a pop-up window, you can set the size of the window your end users see.
 
@@ -87,7 +88,7 @@ URL Pattern
 
 URL pattern that uses regular expression quantifiers.If the regular expression is invalid, an error message is shown.
 
- ![Invalid regular expression message.](../image/invalid-reg-expression.png)
+ \[Omitted image "invalid-reg-expression.png"\] Alt text: Invalid regular expression message.
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Set conditions **Note:** Applies only if you select the Simple condition mode.
 
 If you select the **Simple** condition mode, use the condition builder to add or edit the condition.The condition builder specifies that the smart link is only applicable to links in the Service Portal when they're accessed on the chat widget.
 
- ![Simple condition builder with the conditions Portal is Service Portal and device type is chat widget.](../../virtual-agent/images/smart-link-condition-builder.png)
+ \[Omitted image "smart-link-condition-builder.png"\] Alt text: Simple condition builder with the conditions Portal is Service Portal and device type is chat widget.
 
  -   **devicetype**: Refers to the channel. In the Australia release, only the chat widget \(**mweb**\) is supported. The mobile chat widget isn't supported currently.
 -   **portal**: Represents a specific portal. Specify the portal URL suffix in the condition. Navigate to **All** &gt; **Service Portal** &gt; **Portals** to view portals and their suffixes
@@ -142,7 +143,7 @@ window.addEventListener('message', e => {
 
 ## What to do next
 
-If you would like to enable smart link preference for Microsoft Teams, you must first [Configure link authentication and opening experience in Microsoft Teams](../../virtual-agent/task/link-opening-authentication-msteams.md) and then [Configure smart links in Microsoft Teams](../../virtual-agent/concept/va-teams-sso.md)
+If you would like to enable smart link preference for Microsoft Teams, you must first [Configure link authentication and opening experience in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/link-opening-authentication-msteams.md) and then [Configure smart links in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-teams-sso.md)
 
-**Parent Topic:**[URL navigation in Conversational Interfaces](../concept/url-navigation-ci.md)
+**Parent Topic:**[URL navigation in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/url-navigation-ci.md)
 

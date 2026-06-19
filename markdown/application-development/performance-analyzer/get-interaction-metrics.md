@@ -2,6 +2,7 @@
 title: Get interaction metrics
 description: Filter metrics for an application's page route by interaction in the Performance Analyzer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/performance-analyzer/get-interaction-metrics.html
 release: australia
 product: Performance Analyzer
 classification: performance-analyzer

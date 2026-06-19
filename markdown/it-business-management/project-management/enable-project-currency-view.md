@@ -2,6 +2,7 @@
 title: Enable project currency view in project-related forms
 description: Switch over to the project currency view to track the planned costs of a project in the selected project currency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/enable-project-currency-view.html
 release: australia
 product: Project Management
 classification: project-management
@@ -37,9 +38,9 @@ Demand \[dmn\_demand\] table
 
 </td><td>
 
-To create a project from a demand in project currency. Specify the currency that you want to use to manage your project by navigating to the **Financials** tab of the Demand form and selecting a currency in the **Project Currency** field.**Note:** You can specify the project currency only when you switch to the Demand Currency view. For more information, see [Multicurrency in Demand Management](../../planning-and-policy/concept/multicurrency-demand.md).
+To create a project from a demand in project currency. Specify the currency that you want to use to manage your project by navigating to the **Financials** tab of the Demand form and selecting a currency in the **Project Currency** field.**Note:** You can specify the project currency only when you switch to the Demand Currency view. For more information, see [Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/multicurrency-demand.md).
 
-To create a demand, see [Create a demand](../../planning-and-policy/task/t_CreatingDemands.md).
+To create a demand, see [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md).
 
 </td></tr><tr><td>
 
@@ -47,7 +48,7 @@ Project \[pm\_project\] table
 
 </td><td>
 
-To navigate to the Project form, see [../../project-management/reference/create-a-project-form.md](../../project-management/reference/create-a-project-form.md).
+To navigate to the Project form, see [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-a-project-form.md).
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Cost Plans \[cost\_plan\] table
 
 </td><td>
 
-To navigate to the Cost Plan form, see [Create a project cost plan](../../project-management/task/t_CreateAProjectCostPlan.md).
+To navigate to the Cost Plan form, see [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAProjectCostPlan.md).
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Cost Plan Breakdown \[cost\_plan\_breakdown\] table
 
 </td><td>
 
-To navigate to the Cost Plan Breakdown form, see [Update a cost plan breakdown](../../project-management/task/update-cost-plan-breakdown.md).
+To navigate to the Cost Plan Breakdown form, see [Update a cost plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-cost-plan-breakdown.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Benefit Plan \[benefit\_plan\] table
 
 </td><td>
 
-If you open the project form in Project Currency view, then by default the project currency related fields appear in the Benefit Plans related list. To create a project benefit plan, see [Create a project benefit plan](../../project-management/task/create-project-benefit-plan.md).
+If you open the project form in Project Currency view, then by default the project currency related fields appear in the Benefit Plans related list. To create a project benefit plan, see [Create a project benefit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/create-project-benefit-plan.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +80,7 @@ Benefit Plan Breakdowns \[benefit\_plan\_breakdown\] table
 
 </td><td>
 
-To update a benefit plan breakdown, see [Update a benefit plan breakdown](../../project-management/task/update-benefit-plan-breakdown.md).
+To update a benefit plan breakdown, see [Update a benefit plan breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/update-benefit-plan-breakdown.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +88,7 @@ Expense Line \[fm\_expense\_line\] table
 
 </td><td>
 
-Expense lines are part of project cost plans and stores cost associated with a specific resource. To navigate to the Expense line form, see [Create an expense line](../../project-management/task/t_CreateAExpenseLine.md).
+Expense lines are part of project cost plans and stores cost associated with a specific resource. To navigate to the Expense line form, see [Create an expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/t_CreateAExpenseLine.md).
 
 </td></tr><tr><td>
 

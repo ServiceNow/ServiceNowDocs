@@ -2,6 +2,7 @@
 title: vSphere default checks and policies
 description: Agent Client Collector provides the following default checks and policies for vSphere monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/vsphere-checks-policies.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -202,5 +203,5 @@ vsphere.HostSystem.net.bytesRx.average.total 5924 1655198166
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

@@ -2,6 +2,7 @@
 title: Variable set layout
 description: Variable sets can have one of many layouts. You can define the order of the variables for each item.You can set the order value on a per item basis.The following example demonstrates the layout of variables when variable sets and item variables are associated with an item under different scenarios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_DefineVariableSetLayout.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -19,7 +20,7 @@ Variable sets can have one of many layouts. You can define the order of the vari
 -   **2 columns wide, alternating sides**: Variables are laid out in two columns with variables placed alternately in the left and right columns.
 -   **2 columns wide, one side, then the other**: The first half of the variable set is laid out sequentially in the left column and the second half is laid out sequentially in the right column.
 
-**Note:** Variables with several possible choices defined, such as [multiple choice](../reference/r_VariableTypes.md#sect_MultipleChoice) variables, are considered a single entity in layouts. All choices are displayed as a single, contiguous unit.
+**Note:** Variables with several possible choices defined, such as [multiple choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) variables, are considered a single entity in layouts. All choices are displayed as a single, contiguous unit.
 
 ## Variable set order
 
@@ -43,7 +44,7 @@ The variables are displayed in this order:
 
 ## Additional layout options
 
-For additional layout options, you can also add [container variables](../reference/r_VariableTypes.md#sect_Container) to a variable set.
+For additional layout options, you can also add [container variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) to a variable set.
 
 For example, create the following variables and orders:
 
@@ -147,7 +148,7 @@ Alfa Delta
  Charlie Foxtrot
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service catalog variable sets](c_ServiceCatalogVariableSets.md)
+</table>**Parent Topic:**[Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogVariableSets.md)
 
 ## Set an item-specific order
 
@@ -173,13 +174,13 @@ Use the **Order** field in this catalog variable set record to set this order va
 
 4.  Click the reference icon for the variable set.
 
-    ![catalog variable set](../image/SC_Catalog_Variable_Set_Order.png "Catalog variable set")
+    \[Omitted image "SC\_Catalog\_Variable\_Set\_Order.png"\] Alt text: catalog variable set
 
 5.  Set the order value as required.
 
     The catalog variable set order is specific to the link between the item and the variable set. It overrides the default order defined on the variable set itself.
 
-    ![variable set order](../image/SC_Variable_Set_Order.png "Variable set order")
+    \[Omitted image "SC\_Variable\_Set\_Order.png"\] Alt text: variable set order
 
 
 ## Examples of variable set orders
@@ -188,7 +189,7 @@ The following example demonstrates the layout of variables when variable sets an
 
 The order for display of the variables and variable sets is specified using the Information icon in the Related Lists.
 
-![order of variables and variable sets](../image/SC_Variable_Set_Example.png "Order of variables and variable sets")
+\[Omitted image "SC\_Variable\_Set\_Example.png"\] Alt text: order of variables and variable sets
 
 -   In Layout 1, order values are specified for both Variable Set A and Variable Set B at the Related Lists level and those order values always takes precedence. Hence, the layout is organized based on the order value specified for the variable sets at the Related Lists level.
 -   In Layout 2, an order value is not specified for Variable Set A whereas an order value is specified for Variable Set B at the Related Lists level. In this case, the empty value for Variable Set A is considered as zero. Hence, the layout is organized based on the order value of 0 for Variable Set A and 300 for Variable Set B.

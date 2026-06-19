@@ -2,6 +2,7 @@
 title: Task workflow activities
 description: Task activities create and modify workflow tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_TaskActivities.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -17,14 +18,14 @@ Task activities create and modify workflow tasks.
 
 Task activities are only available when the workflow runs on a table that extends Task.
 
--   **[Add Worknote workflow activity](r_AddWorknote.md)**  
+-   **[Add Worknote workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_AddWorknote.md)**  
 The **Add Worknote** activity adds text to the Worknotes field of the current incident record.
--   **[Attachment Note workflow activity](r_AttachmentNote.md)**  
+-   **[Attachment Note workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_AttachmentNote.md)**  
 The **Attachment Note** activity adds an attachment to the current record.
--   **[Catalog Task workflow activity](r_CatalogTask.md)**  
+-   **[Catalog Task workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_CatalogTask.md)**  
 The **Catalog Task** activity creates a service catalog task record.
--   **[Create Task workflow activity](r_CreateTask.md)**  
+-   **[Create Task workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/r_CreateTask.md)**  
 The **Create Task** activity generates a record on any of the tables that extend Task \[task\].
 
-**Parent Topic:**[Workflow activities](../../using-workflows/concept/c_WorkflowActivities.md)
+**Parent Topic:**[Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/workflow-activities/c_WorkflowActivities.md)
 

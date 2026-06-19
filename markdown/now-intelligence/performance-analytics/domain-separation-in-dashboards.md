@@ -2,6 +2,7 @@
 title: Domain separation and responsive dashboards
 description: Domain separation is supported in dashboard creation and administration. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/domain-separation-in-dashboards.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -24,11 +25,11 @@ Domain separation is supported in dashboard creation and administration. Domain 
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of domain separation
 
- To activate the domain separation plugin, see [Request domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ActivateDomainSeparation.md).
+ To activate the domain separation plugin, see Request domain separation.
 
 **Important:** For users in child domains to view dashboards in parent domains, both domain separation and delegated administration must be enabled.
 
@@ -38,7 +39,7 @@ Users in child domains cannot overwrite dashboards. Child domain users only have
 
 Assumptions:
 
--   Only dashboards that have been shared are visible to other users. See [Share a responsive dashboard](../task/t_ControlAccessToADashboard.md).
+-   Only dashboards that have been shared are visible to other users. See [Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md).
 -   Users granted edit permissions on a dashboard can only edit that dashboard if they are in the same domain as the dashboard. For example, a user who is in the HR domain cannot edit a dashboard created in the parent of the HR domain.
 
 Dashboard data that is domain separated includes dashboard records, dashboard tabs, and widget containers. Widget content is governed by the domain separation that applies to the content itself. For example, an admin adds a report created in the HR domain to a dashboard in the IT domain. This report is not visible to users in the IT domain, although they can see the widget container.
@@ -51,14 +52,14 @@ A dashboard defined at the global level is visible to all users with whom it has
 
 In the following figure, dashboards created in the IT, CS, and HR domains are not visible to users in the other child domains or in the parent domain.
 
-![List of company departments in separate domains including IT, CS, and HR](../../reporting/image/domains-list-example.png "Domains list example")
+\[Omitted image "domains-list-example.png"\] Alt text: List of company departments in separate domains including IT, CS, and HR
 
 **Important:** Administrators should not edit a domain-separated dashboard from the global domain, because additions made to the dashboard are not visible to users within the separated domain. When editing dashboards, make sure that you are logged in to the correct domain.
 
 **Related topics**  
 
 
-[Understanding domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_DomainSeparation.md)
+[bundle-psec.c_DomainSeparation]
 
-[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-domain-sep-recommended.md)
+[bundle-psec.bp-domain-sep-recommended]
 

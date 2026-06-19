@@ -2,7 +2,10 @@
 title: Set an alert to monitor the average response time of applications
 description: Set an alert to monitor the application performance when the average response time of applications that run on an instance exceeds the configured threshold.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/io-app-monitor-alert-card.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -43,12 +46,12 @@ Role required: admin
 
     The list shows the applications with average response time collected from the data. Setting this alert On with selected applications enables you to monitor their performance.
 
-    ![Setting conditions for average response time alert.](../image/io-alert-config-sim-set.png)
+    \[Omitted image "io-alert-config-sim-set.png"\] Alt text: Setting conditions for average response time alert.
 
 10. Select **Set Notification**.
 
-    To set notification, see the [Set notification step](configuring-io-alerts.md) of [Configure Key Alerts](configuring-io-alerts.md).
+    To set notification, see the [Set notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md) of [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
 
 
-**Parent Topic:**[Alerts in Instance Observer](../concept/io-alerts-intro.md)
+**Parent Topic:**[Alerts in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
 

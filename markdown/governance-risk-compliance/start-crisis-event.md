@@ -2,6 +2,7 @@
 title: Start a crisis event
 description: Unlike an exercise event, a crisis event strikes suddenly. Your business must be equipped to face the challenge and must be able to recover the critical business functions quickly to save you from business loss.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/start-crisis-event.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

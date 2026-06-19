@@ -2,6 +2,7 @@
 title: Install Legal Counsel Center Workspace
 description: You can install the Legal Counsel Center application \(sn\_lg\_cf\_workspace\) if you have the admin role. The application installs ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -51,5 +52,5 @@ The following items are installed:
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configure Legal Counsel Center Workspace](configure-legal-counsel-center-workspace.md)
+**Parent Topic:**[Configure Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/configure-legal-counsel-center-workspace.md)
 

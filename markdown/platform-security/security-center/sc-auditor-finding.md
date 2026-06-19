@@ -2,6 +2,7 @@
 title: Auditor suite findings
 description: Review Security Center Auditor suite findings over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-auditor-finding.html
 release: australia
 product: Security Center
 classification: security-center
@@ -15,7 +16,7 @@ breadcrumb: [Security scanner, Security configuration console, Security Center, 
 
 Review Security Center Auditor suite findings over time.
 
-![SC Auditor suite findings](../images/sec-center-sc-auditor.png)
+\[Omitted image "sec-center-sc-auditor.png"\] Alt text: SC Auditor suite findings
 
 ## SC Auditor suite findings chart
 
@@ -27,15 +28,15 @@ The page shows SC Auditor suite findings compared between the two selected dates
 
     -   **Target**
 
-        Goals your organization wants to achieve. See [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-targets.md).
+        Goals your organization wants to achieve. See .
 
     -   **Threshold**
 
-        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-threshold.md).
+        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See .
 
     -   **Forecast**
 
-        Describes the ability to forecast future scores based on past behavior. See [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_ForecastingData.md).
+        Describes the ability to forecast future scores based on past behavior. See .
 
     -   **Trend**
 
@@ -71,12 +72,12 @@ The page shows SC Auditor suite findings compared between the two selected dates
 
 -   **Chart type**
 
-    Select a chart type to control how the information your selected is visualized. See [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/time-series-visualization-types.md).
+    Select a chart type to control how the information your selected is visualized. See .
 
 
 ## Records list
 
 Lists the checks performed as part of the suite.
 
-**Parent Topic:**[Security scanner](sc-scanning.md)
+**Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/sc-scanning.md)
 

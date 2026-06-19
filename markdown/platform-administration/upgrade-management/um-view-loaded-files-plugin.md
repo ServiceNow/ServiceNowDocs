@@ -2,6 +2,7 @@
 title: View loaded files for a plugin
 description: Get a related list view of all the files loaded for a plugin by clicking View all plugin duration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-management/um-view-loaded-files-plugin.html
 release: australia
 product: Upgrade Management
 classification: upgrade-management
@@ -38,10 +39,10 @@ Role required: admin.
 
 4.  Click one of the plugins from the list to open the **System Upgrade Metrics** form view of that plugin.
 
-    The Plugin Files related list of all the loaded files for that plugin is displayed. ![Image showing the System Upgrade Metric form with the duration message and all loaded files](../../upgrade-center/image/uc-plugin-form-view.png)
+    The Plugin Files related list of all the loaded files for that plugin is displayed. \[Omitted image "uc-plugin-form-view.png"\] Alt text: Image showing the System Upgrade Metric form with the duration message and all loaded files
 
     **Note:** The total plugin load duration is not the sum of the load duration of all the loaded files for that plugin.
 
 
-**Parent Topic:**[Upgrade Summary Report](../reference/um-complete-summary.md)
+**Parent Topic:**[Upgrade Summary Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-management/um-complete-summary.md)
 

@@ -2,6 +2,7 @@
 title: Test the policy
 description: Test the Cloud Configuration Governance policy against the configuration data imported for a previous scan run. Test the policy to make sure that it is working properly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/test-ccg-policy.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate

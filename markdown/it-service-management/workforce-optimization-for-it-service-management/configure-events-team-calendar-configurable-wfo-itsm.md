@@ -2,6 +2,7 @@
 title: Create or enable access to event types to add them to the team calendar
 description: Create multiple events from the same category and add them to the calendar in ITSM Manager Workspace. Enable agents or managers to create specific event types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configure-events-team-calendar-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -90,12 +91,12 @@ Type of event, for example, custom, meeting, break, or time off.
 
 2.  Enable agents or managers to create specific event types.
 
-    For information on adding or removing access to user for event types, see [Include or exclude access for event types.](../concept/understanding-user-criteria-event-types-wfo-itsm.md)
+    For information on adding or removing access to user for event types, see [Include or exclude access for event types.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/understanding-user-criteria-event-types-wfo-itsm.md)
 
 
 ## What to do next
 
-[Add events to the team calendar](add-events-team-calendar-wfo-itsm.md)
+[Add events to the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/add-events-team-calendar-wfo-itsm.md)
 
-**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](../concept/setup-scheduling-configurable-workforce-optimization-itsm.md)
+**Parent Topic:**[Setting up Scheduling in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/setup-scheduling-configurable-workforce-optimization-itsm.md)
 

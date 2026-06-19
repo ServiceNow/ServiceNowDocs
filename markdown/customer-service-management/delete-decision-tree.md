@@ -2,7 +2,10 @@
 title: Delete a decision tree
 description: Delete a decision tree and all the related version records. All related records such as decision tree versions, nodes, and paths are deleted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/delete-decision-tree.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

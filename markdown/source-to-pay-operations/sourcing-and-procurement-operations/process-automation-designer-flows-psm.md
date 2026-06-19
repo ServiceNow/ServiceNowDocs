@@ -2,6 +2,7 @@
 title: Process Automation Designer flows for playbook
 description: The Source-to-Pay Workspace helps you automate the entire process, right from tracking the requests, fulfillment, and to order revision flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/process-automation-designer-flows-psm.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -25,14 +26,14 @@ As a process owner or administrator, you can use Playbooks to enable cross-enter
 
 This playbook comes with a Global Playbook Experience record that defines a default playbook configuration. You can use the following record without any additional configurations. By default, this record defines a set of rules for managing how individual activities appear within the playbook.
 
-![Default flows available for purchase modification process](../image/process-auto-designer-playbook-flows.png "Playbooks playbook flows for procurement")
+\[Omitted image "process-auto-designer-playbook-flows.png"\] Alt text: Default flows available for purchase modification process
 
 You can customize this behavior by customizing the Playbook experience with your own configurations and activity overrides.
 
-**Parent Topic:**[Procurement Case Management](psd-overview.md)
+**Parent Topic:**[Procurement Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/psd-overview.md)
 
 **Related topics**  
 
 
-[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)
+[bundle-crworkflow.process-automation-designer]
 

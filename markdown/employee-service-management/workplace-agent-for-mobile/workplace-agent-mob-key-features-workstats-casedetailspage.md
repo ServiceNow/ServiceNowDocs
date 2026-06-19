@@ -2,13 +2,14 @@
 title: Workplace Agent for mobile - Key features, actions, and case details
 description: The Workplace Agent for mobile lets you manage your workplace cases, maintenance cases, move cases and, tasks associated with them on the go using your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-agent-for-mobile/workplace-agent-mob-key-features-workstats-casedetailspage.html
 release: australia
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 13
-breadcrumb: [Workplace Agent for mobile - references, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
+reading_time_minutes: 12
+breadcrumb: [Reference, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Workplace Agent for mobile - Key features, actions, and case details
@@ -21,9 +22,9 @@ The Workplace Agent for mobile is designed for a workplace agent to handle any c
 
 When you log in to the application as an agent, the application displays all the workplace cases that are associated with you. You can get details such as the number of cases that are assigned to you, the details of the cases that are assigned to you, the cases that are assigned to your assignment group, and also the unassigned cases that belong to the agent assignment group.
 
-When you log in as an agent, you can use a quick action to create a case or task without having to connect to a parent case. Use the search icon ![Search icon](../images/wsdagentmob-searchicon.png) from the top-right corner to search for cases, tasks, articles, services and people from the Work view page. The AI search provides results from **Workplace case**, **Workplace task**, **Knowledge** articles within the workplace service or users.
+When you log in as an agent, you can use a quick action to create a case or task without having to connect to a parent case. Use the search icon \[Omitted image "wsdagentmob-searchicon.png"\] Alt text: Search icon from the top-right corner to search for cases, tasks, articles, services and people from the Work view page. The AI search provides results from **Workplace case**, **Workplace task**, **Knowledge** articles within the workplace service or users.
 
-![My work overview](../images/wsdagentmob-home.png)![Group work](../images/wsdagentmob-home2.png)
+\[Omitted image "wsdagentmob-home.png"\] Alt text: My work overview\[Omitted image "wsdagentmob-home2.png"\] Alt text: Group work
 
 **Note:** All the screens captured are from the Workplace Agent for mobile application on an Android device.
 
@@ -57,9 +58,9 @@ The **Work view** is the default page that is displayed when you launch the appl
     -   **Create a task**: Agents can create a task without connecting to any parent cases.
     -   **My schedule**: Displays only those cases and tasks which have expected start and due date available in a calendar view. You can also create a task from the My schedule page associating with a parent case.
 
-        **Save**: The **Save** option \(![Save icon](../images/wsdagentmob-saveicon.png)\) saves the case so you can view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
+        **Save**: The **Save** option \(\[Omitted image "wsdagentmob-saveicon.png"\] Alt text: Save icon\) saves the case so you can view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
 
-        To return to the current date on the calendar view, select the ![Date icon](../images/wsdagentmob-dateicon.png) icon.
+        To return to the current date on the calendar view, select the \[Omitted image "wsdagentmob-dateicon.png"\] Alt text: Date icon icon.
 
     -   **Unassigned work**: Displays all the unassigned cases and tasks of one or more assignment groups to which you belong. The unassigned cases and tasks are assigned to the assignment group but aren't assigned to any workplace agent.
 
@@ -85,7 +86,7 @@ The **Work view** is the default page that is displayed when you launch the appl
 
 The application enables you to view complete details of a workplace case, maintenance case, move case, space configuration case, and tasks associated with the case. The case details view provides you with a similar view as that of what you see when you open the case in a native view on a desktop/laptop.
 
-![Case details](../images/wsdagentmob-casedetails.png)
+\[Omitted image "wsdagentmob-casedetails.png"\] Alt text: Case details
 
 The application's launch screen, as a workplace agent, you can work on any case based on its priority, assignment status, current state and more. The **Work view** displays cases based on various categories to make it easier for you to start working.
 
@@ -103,13 +104,13 @@ The case details screen for all types of cases displays complete details of the 
 
 The default view of the case details provides the following options:
 
--   **Location pin**: Select the Location pin \(![Location icon](../images/wsdagentmob-locationicon.png)\) to view the location pin of the workplace location on the floor map above the related lists.
--   **Save**: The **Save** option \(![Save icon](../images/wsdagentmob-saveicon.png)\) enables you to save the case in case you want to view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
+-   **Location pin**: Select the Location pin \(\[Omitted image "wsdagentmob-locationicon.png"\] Alt text: Location icon\) to view the location pin of the workplace location on the floor map above the related lists.
+-   **Save**: The **Save** option \(\[Omitted image "wsdagentmob-saveicon.png"\] Alt text: Save icon\) enables you to save the case in case you want to view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
 -   **Related lists**: The following related lists are displayed:
 
     -   **Details**
 
-        Displays the details of the case such as the description, the workplace service using which the case is requested, the employee for whom the case is requested, the user who opened the case, the workplace location for which the case is created, the date when the case was requested and other details like expected start time and due date.
+        Displays case details including the description, workplace service, requesting employee, case opener, and workplace location. Also displays the request date, expected start time, and due date.
 
         -   If you’re viewing a move case, you can view the details such as the **From location**, **To location**, **Reason** for move, **Requested move date** and the **Due date** by when the move must be performed.
         -   If you’re viewing a maintenance case, you can view the details such as the **Product model** of an asset and **Enterprise asset**.
@@ -160,7 +161,7 @@ The default view of the case details provides the following options:
     When you open a move case, the following related lists are displayed:
 
 
-The case details page provides you with the following action options:
+The Case details page provides the following options.
 
 -   **Edit case**
 
@@ -175,7 +176,7 @@ The case details page provides you with the following action options:
     The **Assign to me** option enables you to assign the case to yourself if the case is unassigned and if the case belongs to the assignment group to which you belong. The option is displayed only if the case is unassigned.
 
 
-Select the action menu \(![](../images/actions.png)\) on the top-right header of the case details page to view further actions listed below:
+Select the action menu \(\[Omitted image "actions.png"\] Alt text: Action menu icon.\) on the top-right header of the case details page to view further actions listed below:
 
 -   **Add comments**
 
@@ -212,14 +213,14 @@ The application enables you to close tasks at any time. You can open a task from
 
 The workplace task details card displays information such as the task number, the priority of the task, the task name, the current state of the task, the assignment group to which the task is assigned, the workplace location for which the task is created and the location pin of the workplace location to view it on the floor map.
 
-![Task details](../images/wsdagentmob-taskdetails.png)
+\[Omitted image "wsdagentmob-taskdetails.png"\] Alt text: Task details
 
 When you select the workplace task details card, the task details open in a separate screen. The task details display the details of the task and the activities performed on the task.
 
 On the task details page, you can use the following options:
 
--   **Location pin**: Select the Location pin \(![location icon](../images/wsdagentmob-locationicon.png)\) to view the location pin of the workplace location associated with the task on the floor map
--   **Save**: The **Save** option \(![Save icon](../images/wsdagentmob-saveicon.png)\) enables you to save the case in case you want to view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
+-   **Location pin**: Select the Location pin \(\[Omitted image "wsdagentmob-locationicon.png"\] Alt text: location icon\) to view the location pin of the workplace location associated with the task on the floor map
+-   **Save**: The **Save** option \(\[Omitted image "wsdagentmob-saveicon.png"\] Alt text: Save icon\) enables you to save the case in case you want to view it easily in a single window. You can view the saved cases in the **Saved** tab at the bottom of the screen.
 
 The task details default view displays the following information:
 
@@ -243,7 +244,7 @@ You can perform the following actions on a task from the detail page:
     The option enables you to post comments on the task. You can post work notes and also additional comments.
 
 
-For more actions, select the action menu ![Menui con](../images/wsdagentmob-actions.png) on the top-right header of the task details page. The following actions are displayed:
+For more actions, select the action menu \[Omitted image "wsdagentmob-actions.png"\] Alt text: Menui con on the top-right header of the task details page. The following actions are displayed:
 
 -   **Assign task**
 
@@ -266,5 +267,5 @@ For more actions, select the action menu ![Menui con](../images/wsdagentmob-acti
     The option enables you to view all the attachments of the task at a single place.
 
 
-**Parent Topic:**[Workplace Agent for mobile - references](../concept/workplace-agent-mobile-references.md)
+**Parent Topic:**[Workplace Agent for mobile - references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-agent-for-mobile/workplace-agent-mobile-references.md)
 

@@ -2,6 +2,7 @@
 title: Setting up Field Service Mobile Agent
 description: Setting up the Field Service mobile application involves configuring the Mobile Agent application, customizing UI actions, and other functionalities to enable task management from your phone or other mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/setting-up-field-service-mobile-agent.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -32,35 +33,35 @@ If you have the wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager role,
 
 The steps for setting up Field Service Mobile Agent are:
 
-1.  [Configure the Now Mobile Agent application](../task/configure-field-service-mobile.md)
+1.  [Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md)
 
     Configure the Mobile Agent application and customize it for field service agents and dispatchers.
 
-2.  [Field Service Contractor for mobile feature of the Now Mobile Agent application](field-service-contractor-portal-mobile.md)
+2.  [Field Service Contractor for mobile feature of the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/field-service-contractor-portal-mobile.md)
 
     The Field Service Contractor for mobile feature of the ServiceNow Agent application enables contractors to manage work order tasks.
 
-3.  [Configuring Field Service Virtual Agent Conversations](fsm-va-conversation.md)
+3.  [Configuring Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/fsm-va-conversation.md)
 
     ServiceNow® Virtual Agent for Field Service Management enables field service agents to get quick answers to their work-related queries by interacting with a virtual agent through the Now Agent mobile application.
 
-4.  [Configuring Site Mapping for Field Service Management](configuring-sitemap-fsm.md)
+4.  [Configuring Site Mapping for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-sitemap-fsm.md)
 
     Site Mapping for Field Service Management helps agents navigate job sites when their tasks are in large indoor facilities.
 
-5.  [Activate Sidebar for the Field Service Mobile Agent application](../task/activate-sidebar-mobile.md)
+5.  [Activate Sidebar for the Field Service Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sidebar-mobile.md)
 
     You can activate the Sidebar for Field Service Management plugin \(com.sn\_fsm\_sidebar\) for Field Service Management if you have the admin role. Activating this plugin enables the Sidebar feature on the Mobile Agent application.
 
-6.  [Configuring push notifications for task assignment](push-notifications-tasks-slas.md)
+6.  [Configuring push notifications for task assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/push-notifications-tasks-slas.md)
 
     Configure notifications to ensure agents and dispatchers receive timely updates and alerts on their mobile devices. This feature keeps them informed about important tasks and changes in real-time.
 
-7.  [Activate Field Service Manager Mobile](../task/activate-manager-mobile.md)
+7.  [Activate Field Service Manager Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-manager-mobile.md)
 
     Activate Field Service Manager Mobile so users with the wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager can access the app.
 
-8.  [Change Field Service Manager Mobile to use assignment groups or territories](../task/change-manager-territory.md)
+8.  [Change Field Service Manager Mobile to use assignment groups or territories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/change-manager-territory.md)
 
     Change the Field Service Manager Mobile app to use territories instead of the default assignment groups.
 

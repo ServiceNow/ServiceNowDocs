@@ -2,6 +2,7 @@
 title: Configure TPRM properties
 description: Configure property settings for a variety of TPRM operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -64,5 +65,5 @@ You can specify the following property settings:
 2.  For each property, enter the value that meets your need.
 
     -   Each property entry describes the value to enter.
-    -   To view the name of a property, select the help icon ![](../../grc-workspace-vrm/image/help-icon.png).
+    -   To view the name of a property, select the help icon \[Omitted image "help-icon.png"\] Alt text:.
 

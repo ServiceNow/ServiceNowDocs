@@ -2,6 +2,7 @@
 title: AI Control Tower email notifications
 description: Email notifications are sent automatically when specific events occur across AI Control Tower workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-email-notifications.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -17,7 +18,7 @@ Email notifications are sent automatically when specific events occur across AI 
 
 Email notifications are sent automatically when specific events occur across AI Control Tower workflows. These notifications help ensure timely awareness, review, and action activities in AI Control Tower.
 
-These notifications are part of the base system. To customize notification content or recipients, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md)
+These notifications are part of the base system. To customize notification content or recipients, see 
 
 ## AI Asset Approval Request
 
@@ -42,5 +43,5 @@ The following notification is sent when an AI asset is retired or cancelled.
 
 ## Related information
 
-See [AI governance email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/airc_email_notifications.md) for email notifications for AI governance workflows, including AI Risk and Compliance, and inherited Risk Management processes.
+See  for email notifications for AI governance workflows, including AI Risk and Compliance, and inherited Risk Management processes.
 

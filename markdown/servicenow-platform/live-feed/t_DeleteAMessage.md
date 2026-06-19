@@ -2,6 +2,7 @@
 title: Delete a message
 description: Users can delete any of their own posts or replies. A conversation administrator can also delete messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_DeleteAMessage.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -30,5 +31,5 @@ Role required: none
     The message disappears from the feed.
 
 
-**Parent Topic:**[Post content in Live Feed](../concept/c_PostContentInLiveFeed.md)
+**Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)
 

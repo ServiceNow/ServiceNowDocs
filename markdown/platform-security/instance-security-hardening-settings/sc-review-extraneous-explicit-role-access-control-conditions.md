@@ -2,6 +2,7 @@
 title: Review extraneous explicit role access control conditions \[Removed in Security Center 1.5\]
 description: The Explicit Roles plugin is recommended to mandate that all users have either the snc\_internal role to access internal resources, or the snc\_external role to access external resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-review-extraneous-explicit-role-access-control-conditions.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -21,5 +22,5 @@ For example, it would be unnecessary for both the snc\_internal and the admin ro
 
 **Important:** This hardening setting will be removed in the next Security Center v1.5 store patch release and future versions. An Instance Scan suite called "Explicit Roles ACL Config Check Suite" is available in the Washington release. We recommend that you review the findings of this new Instance Scan.
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

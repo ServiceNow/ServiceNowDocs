@@ -2,6 +2,7 @@
 title: Define ERP source configuration for Source-to-Pay
 description: ERP source configuration determines the ERP source to which your ERP system connects. Map the integration payload with the Source-to-Pay \(S2P\) tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/define-erp-source-config-psm.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

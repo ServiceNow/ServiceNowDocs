@@ -2,6 +2,7 @@
 title: Add a CI relationship to CMDB Group CI Relations
 description: Add a CMDB group CI relationship for a CI class to enable accurate alert group generation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/add-suggested-relationship.html
 release: australia
 product: Event Management
 classification: event-management
@@ -21,7 +22,9 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Configure the **sa\_analytics.agg.query\_cmdb\_suggested\_relationship\_enabled** property to further enhance alert grouping by using suggested relationships. For more information on properties, see [CMDB alert grouping — properties and functionality](../reference/cmdb-alert-group-properties.md).
+Configure the **sa\_analytics.agg.query\_cmdb\_suggested\_relationship\_enabled** property to further enhance alert grouping by using suggested relationships. For more information on properties, see [CMDB alert grouping — properties and functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/cmdb-alert-group-properties.md).
+
+To create CMDB-based alert grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
 
 ## Procedure
 
@@ -29,7 +32,7 @@ Configure the **sa\_analytics.agg.query\_cmdb\_suggested\_relationship\_enabled*
 
     1.  Click **New**.
 
-        ![Form to create a new CMDB Group CI Relation.](../image/cmdb-ci-relationship.png)
+        \[Omitted image "cmdb-ci-relationship.png"\] Alt text: Form to create a new CMDB Group CI Relation.
 
     2.  Complete the form.
 

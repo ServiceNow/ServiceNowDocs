@@ -2,6 +2,7 @@
 title: Duplicate a Board in CWM
 description: Save time by duplicating an existing Board to copy all the task and collaborator details without having to copy the information manually in the Collaborative Work Management workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/duplicate-board-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +18,7 @@ Save time by duplicating an existing Board to copy all the task and collaborator
 
 ## Before you begin
 
-[Create a Board in CWM](create-boards-in-cwm.md).
+[Create a Board in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-boards-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -29,7 +30,7 @@ Role required: sn\_cwm.cwm\_user
 
 3.  From the **More actions** menu of the Board, select **Duplicate**.
 
-    ![Duplicate Board in CWM.](../images/cwm-duplicate-board.png)
+    \[Omitted image "cwm-duplicate-board.png"\] Alt text: Duplicate Board in CWM.
 
 4.  Provide a name for the new Board in the **Board name** field.
 
@@ -48,5 +49,5 @@ Role required: sn\_cwm.cwm\_user
 -   The start date for the tasks shift to the current date.
 -   Any custom columns in the original Board are copied to the new Board.
 
-**Parent Topic:**[Managing work using Boards in CWM](../concept/cwm-boards.md)
+**Parent Topic:**[Managing work using Boards in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-boards.md)
 

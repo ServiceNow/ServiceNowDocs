@@ -2,6 +2,7 @@
 title: Configure Legal Hold Notification
 description: Install and configure the Legal Hold Notification application for creating and managing legal hold notification matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/config-lg-hold-notif.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -15,16 +16,16 @@ breadcrumb: [Legal Hold Notification, Legal Service Delivery Practice Applicatio
 
 Install and configure the Legal Hold Notification application for creating and managing legal hold notification matter.
 
--   **[Install Legal Hold Notification](../task/inst-lg-hold-notif.md)**  
+-   **[Install Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/inst-lg-hold-notif.md)**  
 Install the Legal Hold Notification plugin to be able to create a legal hold notification matter, add custodians, issue the legal hold notice, and close the legal hold notification matter.
--   **[Assign the legal user role to a custodian](../task/assign-user-lg-hold-cust.md)**  
+-   **[Assign the legal user role to a custodian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/assign-user-lg-hold-cust.md)**  
 Assign the legal user role to a custodian who is responsible for preserving data related to a legal hold.
--   **[Customize an existing legal hold notice template](../task/custom-existing-lg-hold-notice-temp.md)**  
+-   **[Customize an existing legal hold notice template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/custom-existing-lg-hold-notice-temp.md)**  
 Customize the legal hold notice template available in the base system to align with your organizational requirements.
--   **[Configure a new legal hold notice template](../task/config-lg-hold-temp.md)**  
+-   **[Configure a new legal hold notice template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/config-lg-hold-temp.md)**  
 Configure a legal hold notice template to align with your organizational requirements.
--   **[Configure a restricted caller access privilege](../task/config-rca-privilege.md)**  
+-   **[Configure a restricted caller access privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/config-rca-privilege.md)**  
 Configure a restricted caller access privilege for the document templates application with a global scope to allow the legal matter application to perform read operations.
 
-**Parent Topic:**[Legal Hold Notification](lg-hold-notif-landing-page.md)
+**Parent Topic:**[Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/lg-hold-notif-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Create block content in Document Templates
 description: Each document template block can have multiple block contents. Each content mapping to a condition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-doc-blc-cnt.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

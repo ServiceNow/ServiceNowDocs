@@ -2,6 +2,7 @@
 title: OpenID Connect \(OIDC\) as a Single Sign-On \(SSO\) identity provider \(IdP\)
 description: OpenID Connect \(OIDC\) is an identity layer built on top of the OAuth protocol, which provides a modern and intuitive Single Sign-on \(SSO\) experience to you and your end users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/OIDC-SSO-overview.html
 release: australia
 product: Authentication
 classification: authentication

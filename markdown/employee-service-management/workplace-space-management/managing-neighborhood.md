@@ -2,6 +2,7 @@
 title: Managing neighborhoods
 description: Neighborhood is moved from Workplace Space Management version 1.17.0 to Workplace Core version 2.23.2.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-space-management/managing-neighborhood.html
 release: australia
 product: Workplace Space Management
 classification: workplace-space-management
@@ -17,5 +18,5 @@ Neighborhood is moved from Workplace Space Management version 1.17.0 to Workplac
 
 **Note:** When upgrading from a previous version to the current version, the Migrate Neighborhood to Core fix script transfers data from the old tables to the new tables.
 
-Refer to [Managing Neighborhoods](neighborhoods.md) for more information about neighborhoods.
+Refer to [Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/neighborhoods.md) for more information about neighborhoods.
 

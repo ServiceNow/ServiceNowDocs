@@ -2,6 +2,7 @@
 title: Highlighted Value form
 description: Learn about the fields of the Highlighted Value form. Use this form to customize the fields to be highlighted on the Prioritization page of a portfolio plan in Strategic Planning workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/highlighted-value-form.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -21,5 +22,5 @@ Learn about the fields of the Highlighted Value form. Use this form to customize
 |Application|Scope of yourServiceNow instance. By default, this field is set to **Portfolio Planning**.|
 |Field|Column of the table that is highlighted in the workspace.|
 
-**Parent Topic:**[Form field information for Strategic Planning](form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

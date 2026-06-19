@@ -2,6 +2,7 @@
 title: Pulse survey content
 description: You can create and send Pulse surveys to your employees as a way to receive feedback.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-pulse-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

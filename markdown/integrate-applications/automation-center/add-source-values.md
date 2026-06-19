@@ -2,6 +2,7 @@
 title: Add source values
 description: Manually add the status or state values of your automation from the source system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/add-source-values.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Manually add the status or state values of your automation from the source syste
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
-Proceed from the **Align source and destination fields** section. For information on aligning source and destination fields, see [Align source and destination fields](align-fields.md).
+Proceed from the **Align source and destination fields** section. For information on aligning source and destination fields, see [Align source and destination fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/align-fields.md).
 
 ## Procedure
 
@@ -34,5 +35,5 @@ Proceed from the **Align source and destination fields** section. For informatio
     The **Map values** section is displayed.
 
 
-**Parent Topic:**[Aligning source and destination values](align-values.md)
+**Parent Topic:**[Aligning source and destination values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/align-values.md)
 

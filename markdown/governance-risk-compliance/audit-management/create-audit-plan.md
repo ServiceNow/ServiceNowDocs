@@ -2,6 +2,7 @@
 title: Create an audit plan
 description: Create an audit plan to manage different types of audits in a periodic manner and group engagements in a logical manner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/create-audit-plan.html
 release: australia
 product: Audit Management
 classification: audit-management

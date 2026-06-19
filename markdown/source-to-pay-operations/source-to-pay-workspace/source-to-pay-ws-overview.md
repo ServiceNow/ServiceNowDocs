@@ -2,6 +2,7 @@
 title: Source-to-Pay Workspace
 description: The Source-to-Pay Workspace provides experiences and tools that you can use to work on various activities, such as procuring goods, onboarding high-performing suppliers, and processing invoices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.html
 release: australia
 product: Source-to-Pay Workspace
 classification: source-to-pay-workspace
@@ -19,20 +20,24 @@ The Source-to-Pay Operations \(S2P\) product suite includes the following produc
 
 <table id="table_vcl_vhr_tcc" class="nav-card"><tbody><tr><td>
 
-[Procurement Service Management Workspace![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Learn about the Procurement Service Management Workspace](../../sourcing-procurement-operations/concept/procurement-workspace-landing-page.md)
+[Sourcing and Procurement Operations landing page\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about the Sourcing and Procurement Operations landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/procurement-workspace-landing-page.md)
 
 </td><td>
 
-[Supplier Lifecycle Management Workspace![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)Learn about the Supplier Lifecycle Management Workspace](../../supplier-lifecycle-operations/concept/supp-manager-ws-home.md)
+[Supplier Lifecycle Operations landing page\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn about the Supplier Lifecycle Operations landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/supp-manager-ws-home.md)
+
+</td></tr><tr><td>
+
+[Accounts Payable Operations landing page\[Omitted image "bus-work-order.svg"\] Alt text:Learn about the Accounts Payable Operations landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/acc-pay-workspace-landing-page.md)
 
 </td><td>
 
-[Accounts Payable Operations Workspace![](../../../reuse/icons/brand-icons/bus-work-order.svg)Learn about the Accounts Payable Operations Workspace](../../accounts-payable-operations/concept/acc-pay-workspace-landing-page.md)
+[Purchase Order Management landing page\[Omitted image "ind-supply-chain.svg"\] Alt text:Learn about the Purchase Order Management landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/purch-order-mgmt-tab-s2pws.md)
 
 </td></tr></tbody>
 </table>Regardless of whether you have installed the entire Source-to-Pay \(S2P\) product suite or any of the individual products that are part of the S2P suite, you use the Source-to-Pay Workspace to manage and work on all aspects and activities of Source-to-Pay Operations. Access to the landing pages and list views within the Source-to-Pay Workspace is role-based.
 
-The Source-to-Pay Workspace application provides experiences and tools for a Procurement Specialist, Supplier Manager, and Accounts Payable Specialist to view and work on cases and tasks related to Source-to-Pay Operations.
+The Source-to-Pay Workspace application provides experiences and tools for a Procurement Specialist, Supplier Manager, and Accounts Payable Specialist, and Operational Buyer to work on cases and tasks related to Source-to-Pay Operations.
 
 The Source-to-Pay Workspace application is a dependent application and is automatically installed if any of the following applications are installed:
 
@@ -115,15 +120,23 @@ Supplier Administrator: Create, view, update, and delete all the suppliers, case
 
 sn\_slm.admin
 
-</td></tr></tbody>
-</table>-   **[Explore Source-to-Pay Operations Workspace](../../accounts-payable-operations/concept/exploring-source-to-pay-operations.md)**  
-Learn about the key features and capabilities of Source-to-Pay Operations.
--   **[Configure Source-to-Pay Workspace](../../accounts-payable-operations/concept/configuring-source-to-pay-ws.md)**  
-Plan and configure your implementation for Source-to-Pay Workspace.
--   **[Use Source-to-Pay Workspace](../../accounts-payable-operations/concept/using-source-to-pay-ws.md)**  
-Procurement specialists, sourcing managers, supplier managers, supplier contacts, accounts payable specialists use the Source-to-Pay Workspace to work on various requests, cases, negotiations, accelerate supplier onboarding, minimize supplier risk, validate invoice processing cases, and maximize productivity.
--   **[Source-to-Pay Workspace Reference](../../accounts-payable-operations/reference/source-to-pay-ws-reference.md)**  
-Reference topics provide additional information about articles, lists and forms that you use in Source-to-Pay Workspace.
+</td></tr><tr><td>
 
-**Parent Topic:**[Source-to-Pay Operations](../reference/source-to-pay-operations-overview.md)
+Operational Buyer: View, track, and resolve purchase order exceptions
+
+</td><td>
+
+sn\_poem\_core.operational\_buyer
+
+</td></tr></tbody>
+</table>-   **[Source-to-Pay Operations workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/exploring-source-to-pay-operations.md)**  
+The Source-to-Pay Workspace is the central workspace for managing all Source-to-Pay Operations products and activities, including procurement, supplier lifecycle management, and accounts payable.
+-   **[Configure Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/configuring-source-to-pay-ws.md)**  
+Configure Source-to-Pay Workspace to set up queues, work assignments, integrations, and other settings for accounts payable operations.
+-   **[Use Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/using-source-to-pay-ws.md)**  
+Source-to-Pay Workspace provides a unified environment where procurement specialists, sourcing managers, supplier managers, supplier contacts, and accounts payable specialists manage requests, cases, negotiations, supplier onboarding, supplier risk, and invoice processing.
+-   **[Source-to-Pay Workspace Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-reference.md)**  
+Reference information for articles, lists, and forms used in Source-to-Pay Workspace, including links to related product documentation.
+
+**Parent Topic:**[Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-and-supply-chain/source-to-pay-operations-overview.md)
 

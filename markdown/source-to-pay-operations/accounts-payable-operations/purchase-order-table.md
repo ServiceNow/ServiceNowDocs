@@ -1,19 +1,21 @@
 ---
 title: Purchase order
-description: A purchase order is a binding contract between a buyer and a supplier that authorizes a purchasing transaction. It contains the descriptions, quantities, prices, applicable discounts, payment terms, delivery dates, and other associated terms and conditions with the supplier.
+description: Field descriptions for the purchase order record in the \[sn\_shop\_purchase\_order\] table used for reviewing or completing purchase order details for invoice processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/purchase-order-table.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Master data table for Accounts Payable Operations, Reference, Accounts Payable Operations, Finance and Supply Chain]
+keywords: [APO, Accounts Payable Operations, supplier, purchase order, PO]
+breadcrumb: [Data required for invoice processing, Reference, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Purchase order
 
-A purchase order is a binding contract between a buyer and a supplier that authorizes a purchasing transaction. It contains the descriptions, quantities, prices, applicable discounts, payment terms, delivery dates, and other associated terms and conditions with the supplier.
+Field descriptions for the purchase order record in the \[sn\_shop\_purchase\_order\] table used for reviewing or completing purchase order details for invoice processing.
 
 ## sn\_shop\_purchase\_order table
 
@@ -37,5 +39,5 @@ An Account Payable Specialist fills the key fields in the purchase order for inv
 |Legal entity|Reference|Internal legal entity making this purchase|
 |Payment term|Reference|The agreed time and conditions of payment to the supplier.|
 
-**Parent Topic:**[Master data table for Accounts Payable Operations](master-data-table-apo.md)
+**Parent Topic:**[Data required for invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/master-data-table-apo.md)
 

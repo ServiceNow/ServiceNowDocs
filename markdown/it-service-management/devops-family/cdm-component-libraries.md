@@ -2,6 +2,7 @@
 title: Sharing components among applications — Component libraries
 description: Some applications may share the same basic structure and require nearly identical configuration data. Shared components in CDM enables you to use a component across several applications. For better organization, these shared components are managed in component libraries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-component-libraries.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,15 +16,15 @@ breadcrumb: [Using DevOps Config, DevOps Config, IT Service Management]
 
 Some applications may share the same basic structure and require nearly identical configuration data. Shared components in CDM enables you to use a component across several applications. For better organization, these shared components are managed in component libraries.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 ## Component libraries
 
-Component libraries improve consistency and maintainability by ensuring a single source of truth for a component's config data across applications. You can use the unified view in the DevOps Config workspace or [CdmSharedLibraryApi](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/shared_libraries-api.md) REST API to create and maintain these libraries.
+Component libraries improve consistency and maintainability by ensuring a single source of truth for a component's config data across applications. You can use the unified view in the DevOps Config workspace or  REST API to create and maintain these libraries.
 
 In this example, an organization sells tea on its website. Both the **Shopping-Cart** and **Browsing-Pane** application services make use of config data for product prices and photo appearance. To ensure that the config data is identical in both DevOps applications, each application uses shared components from the **Tea-Service** component library. The components are managed in the library and the applications each use two of the components from the library.
 
-![Two applications use shared components from a component library](../image/cdm-comp-library-overview.png)
+\[Omitted image "cdm-comp-library-overview.png"\] Alt text: Two applications use shared components from a component library
 
 ## Working with shared components
 

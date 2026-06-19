@@ -2,6 +2,7 @@
 title: Generate BCP reports in PDF or Microsoft Word format
 description: Generate a PDF or Microsoft Word copy of a business continuity plan in the BCM Configurable Workspace and save it for a future reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/generate-pdf-for-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_bcm.program\_manager, sn\_bcm.planner
 
 ## About this task
 
-To format the PDF for your business needs, see [Format PDF templates for BIAs, BCPs, and Events](update-pdf-format-for-bia-bcp-event.md).
+To format the PDF for your business needs, see [Format PDF templates for BIAs, BCPs, and Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.md).
 
 Beginning with the Xanadu release, the content in PDFs of Business Impact Analyses, Plans, and Events is improved by implementing a new layout:
 
@@ -38,15 +39,15 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
     The example shows the message that is displayed on the screen: `<Name of the BCP> PDF has been successfully generated for download.`
 
-    ![Generating the BCP PDF.](../image/bcp-pdf-generated.png)
+    \[Omitted image "bcp-pdf-generated.png"\] Alt text: Generating the BCP PDF.
 
-4.  To format the BCP PDF template, follow the instructions in [Format PDF templates for BIAs, BCPs, and Events](update-pdf-format-for-bia-bcp-event.md).
+4.  To format the BCP PDF template, follow the instructions in [Format PDF templates for BIAs, BCPs, and Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.md).
 
 5.  To download the PDF, select the link in the message and open the PDF.
 
     The example shows the PDF of a business continuity plan.
 
-    ![BCP PDF.](../image/bcp-pdf-for-modification.png)
+    \[Omitted image "bcp-pdf-for-modification.png"\] Alt text: BCP PDF.
 
 6.  Save the PDF on your system.
 
@@ -56,10 +57,10 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
     Generate a report of the BCP record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.
 
-    For more information on generating reports in Microsoft Word format using Document designer, see [Generating reports using Document designer](../concept/integrating-document-designer-with-bcm.md).
+    For more information on generating reports in Microsoft Word format using Document designer, see [Generating reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/integrating-document-designer-with-bcm.md).
 
 8.  To print the BCP report, open the saved PDF or Microsoft Word copy and select **Print**.
 
 
-**Parent Topic:**[Structured workflows for BCPs](../concept/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

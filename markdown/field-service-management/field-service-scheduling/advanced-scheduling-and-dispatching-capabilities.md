@@ -2,6 +2,7 @@
 title: Additional scheduling configuration options
 description: Optimize resource allocation and ensure timely service delivery with the advanced scheduling and dispatching capabilities, designed to manage technician workloads and prioritize high-priority tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/advanced-scheduling-and-dispatching-capabilities.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

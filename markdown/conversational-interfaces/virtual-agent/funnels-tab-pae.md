@@ -2,6 +2,7 @@
 title: Funnels tab
 description: Funnels provide cumulative filtering of conversation flows. Using funnels, you can identify whether your conversation flows are performing effectively when users chat with Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/funnels-tab-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,9 +18,9 @@ Funnels provide cumulative filtering of conversation flows. Using funnels, you c
 
 **Note:** Funnels is accessible only to users who have funnels created prior to upgrading to the new dashboard. Users with funnels created in the legacy dashboard can view the analytics related to funnels and edit the funnels in the new dashboard, however, creation of funnels is no longer supported.
 
-![Select the Funnels option on the menu to view the Funnels page.](../images/funnels-page.png "Funnels page")
+\[Omitted image "funnels-page.png"\] Alt text: Select the Funnels option on the menu to view the Funnels page.
 
-![Video link to Funnels demo.](../../conversational-interfaces/image/icon-video-link.png) [Funnels demo](https://www.youtube.com/watch?v=YMAaTSzPhwM&t=714s) Watch this video for an overview of Funnels.
+\[Omitted image "icon-video-link.png"\] Alt text: Video link to Funnels demo. [Funnels demo](https://www.youtube.com/watch?v=YMAaTSzPhwM&t=714s) Watch this video for an overview of Funnels.
 
 ## Overview of funnels
 
@@ -51,7 +52,7 @@ Consider an example scenario where an admin has to get insights about how Virtua
 
 For example, see the following funnel for fetching metrics on a conversational flow that provides software access.
 
-![The filter specifies the Software Access standard topic in which the Drive Flow Executed topic node has run and the user requested a transfer to a live agent.](../images/drive.png "Funnel")
+\[Omitted image "drive.png"\] Alt text: The filter specifies the Software Access standard topic in which the Drive Flow Executed topic node has run and the user requested a transfer to a live agent.
 
 Here, the funnel has three filtering steps:
 
@@ -65,13 +66,13 @@ Using Funnels, you can easily filter conversation flows and get information as m
 
 You can improve the conversation flows based on the performance metrics derived from using funnels. The metrics help identify opportunities for improving conversation flows so that Virtual Agent can handle your user queries better.
 
-![The metrics show the percentage and number of users who made it through the steps and the step that experienced the biggest drop-off point for users.](../images/funnels-metrics.png "Metrics for funnels")
+\[Omitted image "funnels-metrics.png"\] Alt text: The metrics show the percentage and number of users who made it through the steps and the step that experienced the biggest drop-off point for users.
 
 ## Other benefits of using funnels
 
 You can compare the performance of previous and current conversation flows. Funnels show metrics for the specified date range. Additionally, it shows the comparison for the same number of days in the date range prior to the specified start date. You can know the increase or decrease in users who have made through all the steps.
 
-![The change from previous metrics displays at the bottom of the card. For example, the percentage of users may display as a 25% increase from the previous 8 days.](../images/prev-metrics.png "Previous metrics")
+\[Omitted image "prev-metrics.png"\] Alt text: The change from previous metrics displays at the bottom of the card. For example, the percentage of users may display as a 25% increase from the previous 8 days.
 
-**Parent Topic:**[Using the Conversational Analytics Dashboard](use-the-dashboard-overview-pae.md)
+**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

@@ -2,6 +2,7 @@
 title: Example policy action script that tags resources
 description: Your instance tracks tagged resources for billing and reporting. Policy action scripts can add and modify resource tags. This example tags a storage volume resource.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/add-tag-for-policy.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -21,7 +22,7 @@ Role required: sn\_cmp.cloud\_governor or admin
 
 ## About this task
 
-See [Create a custom tag for cloud resources](../concept/cloud-tagging.md#) for information about how to create and use tags in Cloud Provisioning and Governance.
+See [Create a custom tag for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-tagging.md) for information about how to create and use tags in Cloud Provisioning and Governance.
 
 ## Procedure
 
@@ -112,5 +113,5 @@ AddCustomTagsForStorage
 
 On the Cloud Admin Portal, launch the stack that is associated with the storage resource. You can then confirm that the tags are applied.
 
-**Parent Topic:**[Create a cloud policy](create-cloud-policy.md)
+**Parent Topic:**[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)
 

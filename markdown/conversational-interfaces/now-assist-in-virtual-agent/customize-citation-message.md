@@ -2,6 +2,7 @@
 title: Customize citation message
 description: Inline citations are intended to show from which ServiceNow knowledge articles the response is generated. This can include information from attachments and knowledge blocks, or from external content such as Microsoft SharePoint and Confluence. Inline citations also appear when the user is presented with an action to perform, for example, within a Virtual Agent topic or a catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/customize-citation-message.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -17,7 +18,7 @@ Inline citations are intended to show from which ServiceNow knowledge articles t
 
 ## Before you begin
 
-For more information about Now Assist in Virtual Agent citations, see [Using Now Assist in Virtual Agent](../concept/using-now-assist-in-va.md).
+For more information about Now Assist in Virtual Agent citations, see [Using Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/using-now-assist-in-va.md).
 
 Role required: admin
 
@@ -29,7 +30,7 @@ Role required: admin
 
 3.  In the **Custom Greetings and Setup Messages** tab, select **Starting "\{0\}"** to modify the LLM-generated message in the citation.
 
-    ![Customize the LLM-generated message in the citation.](../image/NAinVA-context-profile-list.png "Customize the LLM-generated message in the citation")
+    \[Omitted image "NAinVA-context-profile-list.png"\] Alt text: Customize the LLM-generated message in the citation.
 
 4.  Select **Update**.
 

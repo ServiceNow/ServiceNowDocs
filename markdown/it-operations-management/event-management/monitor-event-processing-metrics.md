@@ -2,6 +2,7 @@
 title: View event processing statistics
 description: Extract statistics from your instance to ensure that performance is not affected and extract metrics related to event processes to monitor event processing status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/monitor-event-processing-metrics.html
 release: australia
 product: Event Management
 classification: event-management
@@ -19,13 +20,13 @@ Extract statistics from your instance to ensure that performance is not affected
 
 Ensure that the **Event Management - Collect xmlstats** job is active. Configure this scheduled job by navigating to **System Definition** &gt; **Scheduled Jobs**.
 
-You can control the processing of event statistics using the **evt\_mgmt.event\_processing\_stats\_period** property. For information about configuring this property, see [Configure statistics processing period](add-property-statistics-processing-period.md).
+You can control the processing of event statistics using the **evt\_mgmt.event\_processing\_stats\_period** property. For information about configuring this property, see [Configure statistics processing period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/add-property-statistics-processing-period.md).
 
 Role required: evt\_mgmt\_operator
 
 ## About this task
 
-You can view key metrics from the instance to ensure that performance is not affected and monitor the status of the processing of events. For more information about viewing self-health monitoring statistics, see [View self-health monitoring statistics for Metric Intelligence](xmlstats-oi-self-health.md).
+You can view key metrics from the instance to ensure that performance is not affected and monitor the status of the processing of events. For more information about viewing self-health monitoring statistics, see [View self-health monitoring statistics for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/xmlstats-oi-self-health.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Rollback context properties
 description: Change the default expiration period for different types of rollback context records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/rollback-context-properties.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -175,5 +176,5 @@ The `glide.rollback.stuck_expiration_days` property is valid for all rollback ty
 -   Default value: 30
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Roll back and delete recovery](../concept/rollback-delete-recovery.md)
+</table>**Parent Topic:**[Roll back and delete recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/rollback-delete-recovery.md)
 

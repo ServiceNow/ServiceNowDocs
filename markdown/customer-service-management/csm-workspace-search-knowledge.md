@@ -2,7 +2,10 @@
 title: Search for knowledge articles in CSM Configurable Workspace
 description: Search for knowledge articles in Agent Assist, including similar knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-workspace-search-knowledge.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -31,12 +34,12 @@ Agent Assist displays contextual search results based on text entered in the **S
 
 3.  Perform one of the following.
 
-    -   In the Agent Assist panel, click the search resource icon \(![Search resource icon.](../../../product/customer-service-management/image/agent-assist-select-search-resource-icon.png)\) and select a search source.
+    -   In the Agent Assist panel, click the search resource icon \(\[Omitted image "agent-assist-select-search-resource-icon.png"\] Alt text: Search resource icon.\) and select a search source.
         -   `Knowledge Articles`
         -   `Similar Knowledge Articles`
     -   In the Recommended Actions - Search tab, search with a keyword and select the **Search source** as `Knowledge` to filter the knowledge articles.
 
-        For more information on how to enable Recommended Actions - AI Search and disable Agent Assist, see [Enable AI search in Recommended Actions](../../../product/customer-service-management/task/migrate-ra-agent-assist.md).
+        For more information on how to enable Recommended Actions - AI Search and disable Agent Assist, see [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migrate-ra-agent-assist.md).
 
 4.  Select a knowledge article.
 

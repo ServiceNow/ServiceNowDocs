@@ -2,6 +2,7 @@
 title: Identity Provider Attributes Filter
 description: Use the Identity Provider attributes that are received from the Security Assertion Markup Language \(SAML\) response and OpenID Connect \(OIDC\) from the Identity Provider \(IdP\) as a filter criteria for authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/identity-provider-attributes.html
 release: australia
 product: Authentication
 classification: authentication
@@ -19,6 +20,6 @@ To fetch all the attributes from an IdP through the SAML and OIDC response, you 
 
 For more information see the following topics:
 
--   [Identity Provider attributes for Security Assertion Markup Language](idp-attributes-saml.md)
--   [Identity Provider attributes for OpenID Connect](idp-attributes-oidc.md)
+-   [Identity Provider attributes for Security Assertion Markup Language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/idp-attributes-saml.md)
+-   [Identity Provider attributes for OpenID Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/idp-attributes-oidc.md)
 

@@ -2,6 +2,7 @@
 title: Update cloud account details
 description: Keep account details up to date so you can identify and resolve policy violations effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/update-account-ownership.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -30,7 +31,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 3.  Update account information if necessary.
 
-    1.  Select the Edit icon \(![edit icon](../image/edit-icon-workspace.png)\).
+    1.  Select the Edit icon \(\[Omitted image "edit-icon-workspace.png"\] Alt text: edit icon\).
 
     2.  Update the information.
 
@@ -43,7 +44,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 4.  Update the account owner details if necessary.
 
-    1.  Select the Edit icon \(![Edit icon](../image/edit-icon-workspace.png)\).
+    1.  Select the Edit icon \(\[Omitted image "edit-icon-workspace.png"\] Alt text: Edit icon\).
 
     2.  Select the account owner from the **Account Owner** from the drop-down list.
 
@@ -65,6 +66,6 @@ Role required: sn\_itom\_cam.cw\_admin
 
     If you have a large number of CIs, the propagation might take some time and changes might not be reflected immediately. You can check the progress by accessing the sn\_itom\_cam\_subscription\_account\_batch\_job\_list table and checking the status of "owner\_name" jobs listed in the **Parameters** column.
 
-6.  Select the Save icon \(![save icon](../image/save-icon-workspace.png)\).
+6.  Select the Save icon \(\[Omitted image "save-icon-workspace.png"\] Alt text: save icon\).
 
 

@@ -2,6 +2,7 @@
 title: Create interactions in Agent Workspace for HR Case Management
 description: Create interaction records from the configurable Agent Workspace for HR Case Management form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/agent-configurable-ws-hr-create-interactions.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

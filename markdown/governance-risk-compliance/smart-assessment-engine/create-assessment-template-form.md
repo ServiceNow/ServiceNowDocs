@@ -2,6 +2,7 @@
 title: Create assessment template form
 description: Learn about the fields of the Create Assessment Template form. Use this form to create an assessment template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/create-assessment-template-form.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -37,7 +38,7 @@ Assessment name
 
 </td><td>
 
-Add separate assessment name ![](../image/separate-assessment-name.png)icon that includes an optional alternative name for generated assessments. The respondent sees this name rather than the template name.
+Add separate assessment name \[Omitted image "separate-assessment-name.png"\] Alt text:icon that includes an optional alternative name for generated assessments. The respondent sees this name rather than the template name.
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Purpose that the new assessment template should be a member of. For example, Ris
 
 Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
-For more information, see [Create an assessment template category](../task/sae-asmnt-template-category-create.md)
+For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)
 
 </td></tr><tr><td>
 
@@ -65,7 +66,7 @@ Assessment target
 
 </td><td>
 
-Table records that are selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target, which makes the scope a combination of records from each table.**Note:** Assessment targets \(context items\) are configured after the template is created, not during initial creation. Adding assessment targets requires the sn\_smart\_asmt.assessment\_admin role and can only be done while the template is in draft state.
+Table records that are selected to be assessed — the assessment's scope items. For an explanation of scope items, including how they are set and where responders see them, see [Scope items in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-scope-items.md).**Note:** Assessment targets \(context items\) are configured after the template is created, not during initial creation. Adding assessment targets requires the sn\_smart\_asmt.assessment\_admin role and can only be done while the template is in draft state.
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Managing projects with Project Workspace
 description: Use the features of Project Workspace to plan and manage your project.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/use-projects-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -15,9 +16,9 @@ breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfoli
 
 Use the features of Project Workspace to plan and manage your project.
 
-![project-workspace-grid-view](../image/project-workspace-homepage.png "Grid view of Homepage")
+\[Omitted image "project-workspace-homepage.png"\] Alt text: project-workspace-grid-view
 
-![project-workspace-list-view](../image/project-workspace-listview.png "List view of Homepage")
+\[Omitted image "project-workspace-listview.png"\] Alt text: project-workspace-list-view
 
 The homepage contains the following UI components to help you navigate through the workspace.
 
@@ -31,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Grid view of projects \(![grid view of projects.](../image/grid-view-homepage-icon.png)\)
+Grid view of projects \(\[Omitted image "grid-view-homepage-icon.png"\] Alt text: grid view of projects.\)
 
 </td><td>
 
@@ -39,7 +40,7 @@ Opens the project in grid view or card view.
 
 </td></tr><tr><td>
 
-List view of projects \(![list view of projects.](../image/list-view-homepage-icon.png)\)
+List view of projects \(\[Omitted image "list-view-homepage-icon.png"\] Alt text: list view of projects.\)
 
 </td><td>
 
@@ -144,37 +145,37 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Edit project details \(![Edit icon.](../image/icon-edit.png)\)
+Edit project details \(\[Omitted image "icon-edit.png"\] Alt text: Edit icon.\)
 
 </td><td>
 
 Opens the project details in the side panel to edit.
 
- See [Create a project from Project Workspace](../task/create-project-from-project-workspace.md).
+ See [Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md).
 
 </td></tr><tr><td>
 
-Activity \(![Activity icon.](../image/icon-activity.png)\)
+Activity \(\[Omitted image "icon-activity.png"\] Alt text: Activity icon.\)
 
 </td><td>
 
 Facilitates conversation between different stakeholders.
 
- See [Collaborate with stakeholders from Project Workspace](../task/collaborate-with-stakeholders-from-project-workspace.md).
+ See [Collaborate with stakeholders from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md).
 
 </td></tr><tr><td>
 
-Attachments \(![Attachments icon.](../image/icon-attachments.png)\)
+Attachments \(\[Omitted image "icon-attachments.png"\] Alt text: Attachments icon.\)
 
 </td><td>
 
 Enables you to add files to the project.
 
- See [Collaborate with stakeholders from Project Workspace](../task/collaborate-with-stakeholders-from-project-workspace.md).
+ See [Collaborate with stakeholders from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md).
 
 </td></tr><tr><td>
 
-Refresh the project \(![Refresh project workspace.](../image/icon-refresh.png)\)
+Refresh the project \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh project workspace.\)
 
 </td><td>
 
@@ -182,17 +183,17 @@ Reloads the planning page.
 
 </td></tr><tr><td>
 
-Save \(![Save.](../image/icon-save.png)\)
+Save \(\[Omitted image "icon-save.png"\] Alt text: Save.\)
 
 </td><td>
 
 Saves your changes. This button is inactive by default to facilitate auto-save of any changes made to the project plans.
 
- Enable or disable the auto-save functionality from the Advanced tab of the Settings \(![Settings icon.](../../alignment-planner-workspace/images/icon-settings.png)\) panel.
+ Enable or disable the auto-save functionality from the Advanced tab of the Settings \(\[Omitted image "icon-settings.png"\] Alt text: Settings icon.\) panel.
 
 </td></tr><tr><td>
 
-Resources not synced \(![resources-not-synced-icon](../image/resources-not-synced-icon.png)\)
+Resources not synced \(\[Omitted image "resources-not-synced-icon.png"\] Alt text: resources-not-synced-icon\)
 
 </td><td>
 
@@ -202,7 +203,7 @@ Enables you to synchronize the project and resource assignment dates. When there
 
 </td></tr><tr><td>
 
-![resource-plan-toggle](../image/resource-plan-toggle.png)
+\[Omitted image "resource-plan-toggle.png"\] Alt text: resource-plan-toggle
 
 </td><td>
 
@@ -210,7 +211,7 @@ Enable this toggle to display the resource assignment pane.
 
 </td></tr><tr><td>
 
-![all-view-button](../image/all-view-button.png)
+\[Omitted image "all-view-button.png"\] Alt text: all-view-button
 
 </td><td>
 
@@ -218,7 +219,7 @@ Displays data in both grid and gantt view on planning page. This button is activ
 
 </td></tr><tr><td>
 
-![gantt-view-button](../image/gantt-view-button.png)
+\[Omitted image "gantt-view-button.png"\] Alt text: gantt-view-button
 
 </td><td>
 
@@ -226,7 +227,7 @@ Displays data in Gantt view on planning page. Use this button to change task dat
 
 </td></tr><tr><td>
 
-![grid-view-button](../image/grid-view-button.png)
+\[Omitted image "grid-view-button.png"\] Alt text: grid-view-button
 
 </td><td>
 
@@ -234,37 +235,37 @@ Displays data in Grid view on planning page. Use this button to add and delete t
 
 </td></tr><tr><td>
 
-Baselines \(![Baselines option.](../image/icon-baselines.png)\)
+Baselines \(\[Omitted image "icon-baselines.png"\] Alt text: Baselines option.\)
 
 </td><td>
 
 Enables you to create and compare schedule and financial baselines.
 
- See [Create and compare project baselines in Project Workspace](../task/create-project-baselines-in-project-workspace.md).
+ See [Create and compare project baselines in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-baselines-in-project-workspace.md).
 
 </td></tr><tr><td>
 
-Critical path \(![Critical path.](../image/icon-critical-path.png)\)
+Critical path \(\[Omitted image "icon-critical-path.png"\] Alt text: Critical path.\)
 
 </td><td>
 
 Toggle the button to switch on/off the display of the critical path of the project.
 
- ![Project critical path.](../image/workspace-critical-path.png)
+ \[Omitted image "workspace-critical-path.png"\] Alt text: Project critical path.
 
 </td></tr><tr><td>
 
-Add Task![Add project task.](../image/workspace-add-task.png)
+Add Task\[Omitted image "workspace-add-task.png"\] Alt text: Add project task.
 
 </td><td>
 
 Adds a project task in the data grid.
 
- See [Create and assign project tasks from Project Workspace](../task/create-a-project-task-from-project-workspace.md).
+ See [Create and assign project tasks from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-project-task-from-project-workspace.md).
 
 </td></tr><tr><td>
 
-Project actions \(![more-actions-icon.](../image/more-actions-homepage-icon.png)\)
+Project actions \(\[Omitted image "more-actions-homepage-icon.png"\] Alt text: more-actions-icon.\)
 
 </td><td>
 
@@ -280,7 +281,7 @@ Provides other actions to perform on the project.
 -   Calculate Completion Estimates
 -   Copy partial project
 
- ![More actions menu.](../image/workspace-more-actions.png)
+ \[Omitted image "workspace-more-actions.png"\] Alt text: More actions menu.
 
  Synchronize the project's date with the start dates of the associated resource plans, cost plans, benefit plans, resource assignments, project tasks, and subprojects using **Move Project**.
 
@@ -299,7 +300,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Refresh the resource assignment \(![Refresh project workspace.](../image/icon-refresh.png)\)
+Refresh the resource assignment \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh project workspace.\)
 
 </td><td>
 
@@ -307,7 +308,7 @@ Reloads the selected assignment and allocation.
 
 </td></tr><tr><td>
 
-![allocation-heatmap-toggle](../../pw-resource-management/image/allocation-heatmap-toggle.png)
+\[Omitted image "allocation-heatmap-toggle.png"\] Alt text: allocation-heatmap-toggle
 
 </td><td>
 
@@ -315,7 +316,7 @@ Displays the resource allocation in the resource assignment pane.
 
 </td></tr><tr><td>
 
-![effort-type-dropdown](../image/effort-type-dropdown.png)
+\[Omitted image "effort-type-dropdown.png"\] Alt text: effort-type-dropdown
 
 </td><td>
 
@@ -323,7 +324,7 @@ Displays the effort type as FTE, Hours, or Person days.
 
 </td></tr><tr><td>
 
-![month-week-dropdown](../../pw-resource-management/image/month-week-dropdown.png)
+\[Omitted image "month-week-dropdown.png"\] Alt text: month-week-dropdown
 
 </td><td>
 
@@ -331,7 +332,7 @@ Displays the effort by week or month. This button is displayed only when the All
 
 </td></tr><tr><td>
 
-![add-resource-button](../../pw-resource-management/image/add-resource-button.png)
+\[Omitted image "add-resource-button.png"\] Alt text: add-resource-button
 
 </td><td>
 
@@ -356,17 +357,17 @@ Column actions
 
 </td><td>
 
-Sort and filter the project tasks using the actions on the header. Point your mouse device to a column header to see the context menu icon \(![Row context menu.](../image/icon-row-context-menu.png)\).
+Sort and filter the project tasks using the actions on the header. Point your mouse device to a column header to see the context menu icon \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\).
 
  Using this menu, you can perform actions such as autofit, hide, or reset.
 
- If you select the context menu \(![Row context menu.](../image/icon-row-context-menu.png)\) for certain columns, such as Short description or State, you can also filter the project task rows.
+ If you select the context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\) for certain columns, such as Short description or State, you can also filter the project task rows.
 
- ![Column context menu.](../image/workspace-column-actions.png)
+ \[Omitted image "workspace-column-actions.png"\] Alt text: Column context menu.
 
 </td></tr><tr><td>
 
-Rearrange rows \(![Rearrange rows.](../../alignment-planner-workspace/images/icon-rearrange.png)\)
+Rearrange rows \(\[Omitted image "icon-rearrange.png"\] Alt text: Rearrange rows.\)
 
 </td><td>
 
@@ -374,17 +375,17 @@ Enables the dragging of the project task rows to a position of your choice on th
 
 </td></tr><tr><td>
 
-Select row \(![Select row.](../../alignment-planner-workspace/images/icon-select.png)\)
+Select row \(\[Omitted image "icon-select.png"\] Alt text: Select row.\)
 
 </td><td>
 
 Choose to select multiple project task rows at once.
 
- Use the row context menu \(![Row context menu.](../image/icon-row-context-menu.png)\) to perform various actions.
+ Use the row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\) to perform various actions.
 
 </td></tr><tr><td>
 
-Row context menu \(![Row context menu.](../image/icon-row-context-menu.png)\)
+Row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\)
 
 </td><td>
 
@@ -392,11 +393,11 @@ Provides various actions for the selected rows, such as edit task, add task abov
 
  You can also select multiple rows and perform an action on them at once, using the row context menu. For example, indenting or deleting multiple tasks.
 
- ![row-context-menu](../image/row-context-menu.png)
+ \[Omitted image "row-context-menu.png"\] Alt text: row-context-menu
 
 </td></tr><tr><td>
 
-Expanded row \(![Expanded row.](../image/icon-expanded-row.png)\)
+Expanded row \(\[Omitted image "icon-expanded-row.png"\] Alt text: Expanded row.\)
 
 </td><td>
 
@@ -404,7 +405,7 @@ Indicates that a project task row is expanded to show its child tasks. Select th
 
 </td></tr><tr><td>
 
-Collapsed row \(![Collapsed row.](../image/icon-collapsed-row.png)\)
+Collapsed row \(\[Omitted image "icon-collapsed-row.png"\] Alt text: Collapsed row.\)
 
 </td><td>
 
@@ -412,7 +413,7 @@ Indicates that the project task contains child tasks. Select this icon to expand
 
 </td></tr><tr><td>
 
-Reorder column \(![reorder-column-icon](../image/reorder-column-icon.png)\)
+Reorder column \(\[Omitted image "reorder-column-icon.png"\] Alt text: reorder-column-icon\)
 
 </td><td>
 
@@ -424,7 +425,7 @@ Edit an individual cell
 
 </td><td>
 
-Edit or copy the info of this cell by selecting the cell context menu \(![Context menu.](../image/icon-row-context-menu.png)\) or select and hold \(or right-click\) a cell.
+Edit or copy the info of this cell by selecting the cell context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Context menu.\) or select and hold \(or right-click\) a cell.
 
  Use this menu to copy and paste cell contents, add dependencies, add project tasks directly above or below this cell position, or delete the whole row.
 
@@ -434,10 +435,10 @@ Edit multiple cells
 
 </td><td>
 
-Bulk-edit cells by selecting multiple cells and select and hold \(or right-click\) one of the cells. You can also use the cell context menu \(![Context menu.](../image/icon-row-context-menu.png)\) for more options.
+Bulk-edit cells by selecting multiple cells and select and hold \(or right-click\) one of the cells. You can also use the cell context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Context menu.\) for more options.
 
 </td></tr></tbody>
-</table>Selecting a project task by selecting its short description opens the task details in a side panel, enabling you to edit them. See [Update a project task from the Project Workspace](../task/update-project-task-from-project-workspace.md).
+</table>Selecting a project task by selecting its short description opens the task details in a side panel, enabling you to edit them. See [Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-project-task-from-project-workspace.md).
 
 You can also increase or reduce the area occupied by the data grid by dragging the line that separates them.
 
@@ -445,78 +446,82 @@ You can also increase or reduce the area occupied by the data grid by dragging t
 
 The timeline view shows the project timeline based on its planned start and end dates, and displays the project task bars and milestones.
 
-By using the planning settings \(![Settings icon.](../../alignment-planner-workspace/images/icon-settings.png)\), you can choose to display the bar labels, dependency lines, and the critical path. See [Personalize the planning page view in Project Workspace](../task/personalize-planning-console-in-project-workspace.md).
+By using the planning settings \(\[Omitted image "icon-settings.png"\] Alt text: Settings icon.\), you can choose to display the bar labels, dependency lines, and the critical path. See [Personalize the planning page view in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.md).
 
 ## Project timeline
 
-The timeline shows the planned period of the project. You can reduce or increase the visibility of the project period by changing the timescale to Year, Quarter, Month, Day, or Week. Select the timescale icon \(![Timescale icon.](../image/icon-timesclae.png)\) and choose an option.
+The timeline shows the planned period of the project. You can reduce or increase the visibility of the project period by changing the timescale to Year, Quarter, Month, Day, or Week. Select the timescale icon \(\[Omitted image "icon-timesclae.png"\] Alt text: Timescale icon.\) and choose an option.
 
 The timescale view that you choose is saved in the preferences.
 
 ## Dependency lines
 
-These lines show the dependencies between the project tasks. You can add new dependencies by drawing them on the timeline view, or select an existing dependency to edit its details in the side panel. See [Add internal project task dependencies from Project Workspace](../task/create-dependencies-for-project-tasks-from-project-workspace.md). The dependencies that you choose are saved in the preferences.
+These lines show the dependencies between the project tasks. You can add new dependencies by drawing them on the timeline view, or select an existing dependency to edit its details in the side panel. See [Add internal project task dependencies from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-dependencies-for-project-tasks-from-project-workspace.md). The dependencies that you choose are saved in the preferences.
 
--   **[Access the new Project Workspace](../task/access-new-project-workspace.md)**  
+-   **[Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md)**  
 Learn how to navigate to the new Project Workspace and open a project in the planning page.
--   **[Create a project from Project Workspace](../task/create-project-from-project-workspace.md)**  
+-   **[Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md)**  
 Use Project Workspace to create a project and start planning for your project tasks.
--   **[Update the project details from Project Workspace](../task/update-project-details-from-project-workspace.md)**  
+-   **[Update the project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/update-project-details-from-project-workspace.md)**  
 Update the details of a project to reflect the updates or changed priorities using the details page from Project Workspace.
--   **[Generate and track project details from AI insights page](../task/generate-ai-project-insights-pw.md)**  
+-   **[Ask project questions using the Project Answers agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/ask-question-answers-chatbot-pw.md)**  
+Use Ask Now Assist to open the Now Assist panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
+-   **[Generate and track project details from AI insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-ai-project-insights-pw.md)**  
 Generate and monitor project insights directly from AI insights page in Project Workspace.
--   **[Generate a project plan using project plan generation skill](../task/generate-project-using-ai-pw.md)**  
+-   **[Generate a project plan using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-project-using-ai-pw.md)**  
 Use Project plan generation skill to generate a project plan from natural language input, uploaded files, or both.
--   **[Generate tasks for a project using project plan generation skill](../task/generate-tasks-using-ai-pw.md)**  
+-   **[Generate tasks for a project using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-tasks-using-ai-pw.md)**  
 Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
--   **[Create an Asset Project Request from Project Workspace](../task/create-asset-project-requests-pw.md)**  
+-   **[Create an Asset Project Request from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-asset-project-requests-pw.md)**  
 Create a new asset project request directly from Project Workspace and associate it to a project for tracking and reporting purpose.
--   **[Use Playbooks in Project Workspace](../task/use-playbooks-pw.md)**  
+-   **[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-playbooks-pw.md)**  
 Plan your project stages and assign specific actions to each stage using Playbooks.
--   **[Analyze project analytics from Project Workspace](../task/analyze-project-analytics-in-project-workspace.md)**  
+-   **[Analyze project analytics from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/analyze-project-analytics-in-project-workspace.md)**  
 View the summary of a project in Analytics tab of Project Workspace.
--   **[Personalize the planning page view in Project Workspace](../task/personalize-planning-console-in-project-workspace.md)**  
+-   **[Personalize the planning page view in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.md)**  
 Customize the display of the planning page. Choose the data you want to see on the data grid and the timeline.
--   **[Create and assign project tasks from Project Workspace](../task/create-a-project-task-from-project-workspace.md)**  
+-   **[Create and assign project tasks from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-project-task-from-project-workspace.md)**  
 Add new tasks for your projects and assign them to your team directly from the new Project Workspace.
--   **[Create checklist items for a project task](../task/create-project-task-checklist.md)**  
+-   **[Create checklist items for a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-task-checklist.md)**  
 Create checklist items for a project task to track items to be completed in the task.
--   **[Add internal project task dependencies from Project Workspace](../task/create-dependencies-for-project-tasks-from-project-workspace.md)**  
+-   **[Add internal project task dependencies from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-dependencies-for-project-tasks-from-project-workspace.md)**  
 Create dependencies between project tasks using the interactive UI of Project Workspace.
--   **[Add external dependencies between projects from Project Workspace](../task/add-external-dependencies-between-projects-from-project-workspace.md)**  
+-   **[Add external dependencies between projects from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-external-dependencies-between-projects-from-project-workspace.md)**  
 Set up a dependency between tasks of different projects using the new Project Workspace.
--   **[Create and compare project baselines in Project Workspace](../task/create-project-baselines-in-project-workspace.md)**  
+-   **[Create and compare project baselines in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-project-baselines-in-project-workspace.md)**  
 Create a schedule baseline and financial baseline of a project. A baseline is a snapshot of the project's progress at the particular moment of time.
--   **[Create a status report template in Project Workspace](../task/create-a-status-report-template-project-workspace.md)**  
+-   **[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)**  
 Create a custom template for status reporting in Project Workspace. Use the template to create status reports according to your specific requirements.
--   **[Generate a project status report with Now Assist](../task/generate-ai-project-status-report.md)**  
+-   **[Generate a project status report with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-ai-project-status-report.md)**  
 Generate an AI‑assisted project status report with predicted health indicators. Now assist pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
--   **[Create a status report in Project Workspace](../task/create-a-status-report-in-project-workspace.md)**  
+-   **[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)**  
 Create a status report in Project Workspace for your projects. Your team can view the report and be updated on project health, metrics, risks, issues, and milestones.
--   **[Collaborate with stakeholders from Project Workspace](../task/collaborate-with-stakeholders-from-project-workspace.md)**  
+-   **[Collaborate with stakeholders from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md)**  
 Add comments and attachments to the project or a project task and share them with other users of your organization. Collaborate and verify that your project is in line with your organizational priorities.
--   **[Collaborate on projects using Docs](../task/collaborative-project-planning-with-docs.md)**  
+-   **[Collaborate on projects using Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/collaborative-project-planning-with-docs.md)**  
 Collaborate with team members, save notes, create project charters, and project briefs using Docs.
--   **[Generate the summary for selected or complete content with Project doc generation and insights skill](../task/summarize-docs-genai-skill-pw.md)**  
+-   **[Generate the summary for selected or complete content with Project doc generation and insights skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)**  
 Quickly learn the details of the documents from the summary that is generated by Now Assist in Strategic Planning.
--   **[Schedule the project insights email](../task/email-project-summary-pw.md)**  
+-   **[Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/email-project-summary-pw.md)**  
 Schedule the project insights email to prioritize and track the most important changes in the project in Project Workspace.
--   **[Project financials and Source-to-Pay Operations integration](../../pw-financials/task/pws-fin-spo-integration.md)**  
+-   **[Project financials and Source-to-Pay Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/pws-fin-spo-integration.md)**  
 Request, track, and manage procurement requests of assets for your projects.
--   **[Add a RIDAC record to a project in Project Workspace](../task/add-risk-project-project-workspace.md)**  
+-   **[Add a RIDAC record to a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/add-risk-project-project-workspace.md)**  
 Add a Risk, Issue, Decision, Action, or Request Change \(RIDAC\) record to your project in the Project Workspace. Adding RIDAC records enable you to keep a track of risks or issues during the project life cycle and help in analyzing the outcome of a project.
--   **[Associate existing RIDAC records for a project in Project Workspace](../task/associate-ridac-project-workspace.md)**  
+-   **[Export RIDAC data from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/export-ridac-pw.md)**  
+Export your RIDAC data as a file from Project Workspace. Use this file to provide RIDAC updates to external stakeholders or a wider audience. Save time by generating an export file with the latest information and avoid copying information into different files.
+-   **[Associate existing RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/associate-ridac-project-workspace.md)**  
 Link existing RIDAC records to one another for your project in Project Workspace. A RIDAC record stands for Risks, Issues, Actions, Decisions, and Request Changes. Keep a record of risks or issues and their outcome for analysis at project closure and planning.
--   **[Convert one RIDAC record to another for a project in Project Workspace](../task/convert-ridac-project-workspace.md)**  
+-   **[Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/convert-ridac-project-workspace.md)**  
 Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Change\) record to another for a project in the Project Workspace. Keep a record of risks or issues and their outcome for analysis at project closure and planning. Track the risks and issues throughout the project life cycle.
--   **[Generate, accept, and reject risks using risk generation skill](../task/generate-risks-using-ai-pw.md)**  
+-   **[Generate, accept, and reject risks using risk generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/generate-risks-using-ai-pw.md)**  
 Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
--   **[Export a project status report to Microsoft PowerPoint from Project Workspace](../task/export-project-status-report-to-powerpoint-from-project-workspace.md)**  
+-   **[Export a project status report to Microsoft PowerPoint from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/export-project-status-report-to-powerpoint-from-project-workspace.md)**  
 Generate a status report of your project and export it as a Microsoft PowerPoint file from Project Workspace. You can use this file to present the project status to stakeholders or to collaborate with them over risks and next steps. Save time by generating a Microsoft PowerPoint file with the latest information and avoid copying information into slides.
--   **[Export a project from Project Workspace](../task/export-project-to-powerpoint-from-project-workspace.md)**  
+-   **[Export a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.md)**  
 Export your project as a file from Project Workspace. Use this file to provide project updates to external stakeholders or a wider audience. Save time by generating an export file with the latest information and avoid copying information into different files.
--   **[Closing a project in Project Workspace](../task/close-a-project-pw.md)**  
+-   **[Closing a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/close-a-project-pw.md)**  
 End the project when all tasks are completed. When you close a project, all project tasks, sub-projects, and resource assignments associated with the project are closed automatically.
 
-**Parent Topic:**[Project Workspace](project-workspace-landing-page.md)
+**Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-landing-page.md)
 

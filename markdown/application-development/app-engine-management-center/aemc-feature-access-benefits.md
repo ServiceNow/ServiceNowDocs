@@ -2,6 +2,7 @@
 title: AEMC features access and benefits
 description: Learn about available features and access requirements for AEMC.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-management-center/aemc-feature-access-benefits.html
 release: australia
 product: App Engine Management Center
 classification: app-engine-management-center
@@ -15,5 +16,5 @@ breadcrumb: [Manage app development, Use, App Engine Management Center, Governin
 
 Learn about available features and access requirements for AEMC.
 
-**Parent Topic:**[Managing app development using the App Engine Management Center](managing-app-development-using-aemc.md)
+**Parent Topic:**[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/managing-app-development-using-aemc.md)
 

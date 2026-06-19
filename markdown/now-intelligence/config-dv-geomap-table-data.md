@@ -2,6 +2,7 @@
 title: Table data options for Geomap visualizations
 description: When you select a table data source for a Geomap visualization, the following Data configuration options are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/config-dv-geomap-table-data.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected a Table data source in [Create a geomap data visualization](../task/create-dv-geomap-ac.md).
+You have selected a Table data source in [Create a geomap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-geomap-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -61,7 +62,7 @@ Field
 
 Field to apply the metric to, for **Average**, **Sum**, or **Count Distinct** aggregations. You may further be able to aggregate on fields from extended tables.The data is shown in a format that matches the field type. For example, if you select an integer field, such as the **Priority** field, the data is expressed as a number. If you select a duration field, such as **Business duration** on the Incident table, the aggregated data is expressed in days, hours, and minutes.
 
-If function fields were created in Report Designer for the table, they are available in the dropdown list. For more information, see [Report on function fields](../concept/function-fields-reporting.md).
+If function fields were created in Report Designer for the table, they are available in the dropdown list. For more information, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/function-fields-reporting.md).
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ Format values
 
 </td><td id="entry_format-values">
 
-Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](value-formatting-reports.md#).
+Select to open the **Formatting values** dialog. For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/value-formatting-reports.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -143,7 +144,7 @@ Field for \[table\]
 
 Select a field that is in a geomap for map sources. By default, the fields you can select point to the Location \[cmn\_location\] table, such as Assigned to.Location. You must select a reference field that points to a table, like Location, that has an associated entry in the Map sources \[viz\_map\_source\] table. If only one field on the main level references a location table, this field is selected by default.
 
- For more information, including how to create map sources for geomaps, see [Map sources for geomap data visualizations](../concept/geomap-map-source.md#).
+ For more information, including how to create map sources for geomaps, see [Map sources for geomap data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/geomap-map-source.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -226,5 +227,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a geomap data visualization](../task/create-dv-geomap-ac.md)
+</table>**Parent Topic:**[Create a geomap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-geomap-ac.md)
 

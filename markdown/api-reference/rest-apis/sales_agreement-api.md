@@ -2,6 +2,7 @@
 title: Sales Agreement API
 description: The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.Retrieve a sales agreement associated with a given sys\_id.Creates a new sales agreement  according to details provided in the request body.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/sales\_agreement-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -15,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.
 
-This API works with data in the [Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/sales-agreement-mgmt.md) application, which managers, agents, and administrators use to generate sales agreements from quotes.
+This API works with data in the  application, which managers, agents, and administrators use to generate sales agreements from quotes.
 
 The Sales Agreement API runs in the sn\_sales\_agmt\_core  namespace and requires three plugins to access it:
 
@@ -44,7 +45,7 @@ Most data is retrieved from or updated in the following tables upon calling this
 -   Sales Agreement Line Adjustments  \[sn\_sales\_agmt\_core\_sales\_agreement\_line\_adjustment\]
 -   Sales Agreement Line Characteristics  \[sn\_sales\_agmt\_core\_sales\_agreement\_line\_characteristic\]
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Sales Agreement - GET /api/sn\_sales\_agmt\_core/salesagreement/\{id\}
 
@@ -139,7 +140,7 @@ Default: false
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -152,7 +153,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -6378,7 +6379,7 @@ Versioned URL: `/api/sn_sales_agmt_core/v1/salesagreement`
 
 Default URL: `/api/sn_sales_agmt_core/salesagreement`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -7318,7 +7319,7 @@ Default: draft
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -7331,7 +7332,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

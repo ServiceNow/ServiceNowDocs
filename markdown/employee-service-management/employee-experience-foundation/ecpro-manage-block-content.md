@@ -2,6 +2,7 @@
 title: Add or modify block content
 description: Create block content as reusable information you can insert into campaigns, notifications, rich-text announcements, or community posts \(when community is installed\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-manage-block-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ Role required: sn\_cd.content\_manager
 
 3.  On the form, fill in the fields.
 
-    For more information on fields and description, see [Block content form](../reference/block-content-form.md).
+    For more information on fields and description, see [Block content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/block-content-form.md).
 
 4.  Select **Save** or **Submit**.
 
@@ -39,6 +40,6 @@ Role required: sn\_cd.content\_manager
 
 6.  Select the language you want your content translated to from the modal that appears.
 
-    For more information on language translations, see [Configure Localization Framework for Content Publishing](../concept/ec-int-localization-framework.md).
+    For more information on language translations, see [Configure Localization Framework for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-int-localization-framework.md).
 
 

@@ -2,6 +2,7 @@
 title: Summarize a record in-product using Now Assist for App Engine
 description: Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.html
 release: australia
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [summarize a record in a custom table, summarize a table in a custom app, generate summary for table]
-breadcrumb: [Use, Now Assist for App Engine, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Now Assist for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Summarize a record in-product using Now Assist for App Engine
@@ -20,15 +21,15 @@ Quickly understand the contents of a record in a custom application within Core 
 
 Role required: admin
 
-Verify that the custom app record summarization skill is activated and configured. For more information, see [Activate the custom app record summarization skill](activate-custom-app-record-summarization-na-for-app-engine.md).
+Verify that the custom app record summarization skill is activated and configured. For more information, see [Activate the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/activate-custom-app-record-summarization-na-for-app-engine.md).
 
 The following procedure describes how to summarize a record from a custom application in-product in both Core UI and in a custom workspace. To learn how to add a record summarization card to your custom workspace, see the following resources:
 
--   [Customize UI Builder pages using components](../../../administer/ui-builder/concept/work-components.md)
+-   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md)
 -   [Components documentation for the AI summary card](https://horizon.servicenow.com/workspace/components/now-ai-summary-card?release=zurich)
 -   [UI Builder setup documentation for the AI summary card](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-ai-summary-card/uib-setup)
 
-You can also summarize the contents of a record through chat in the Now Assist panel. For more information, see [Summarize a record through chat using Now Assist for App Engine](summarize-record-through-chat-na-for-app-engine.md).
+You can also summarize the contents of a record through chat in the Now Assist panel. For more information, see [Summarize a record through chat using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md).
 
 ## Procedure
 
@@ -40,39 +41,39 @@ You can also summarize the contents of a record through chat in the Now Assist p
 
 3.  When you're finished summarizing a record, you can copy the summary, expand or collapse the summary, or provide feedback about the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d42299e157">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d41686e157">
 
 Option
 
-</th><th align="left" id="d42299e160">
+</th><th align="left" id="d41686e160">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d42299e166">
+</th></tr></thead><tbody><tr><td id="d41686e166">
 
 **Expand or collapse the summary**
 
 </td><td>
 
-Select the expand card icon \(![expand card icon.](../../../product/now-assist-itsm/image/icon-expand.png)\) to view the complete summary or the collapse card icon \(![collapse card icon.](../../../product/now-assist-itsm/image/icon-collapse.png)\) to view a collapsed summary.
+Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d42299e187">
+</td></tr><tr><td id="d41686e187">
 
 **Provide feedback about the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../../product/now-assist-itsm/image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../../product/now-assist-itsm/image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
+If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d42299e210">
+</td></tr><tr><td id="d41686e210">
 
 **Copy the record summary**
 
 </td><td>
 
-If you want to reuse the summary, select the copy to clipboard icon \(![Copy to clipboard icon.](../../../product/now-assist-itsm/image/icon-copy.png)\).
+If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Now Assist for App Engine](../../app-engine-studio/concept/use-now-assist-for-app-engine-enterprise.md)
+**Parent Topic:**[Using Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 

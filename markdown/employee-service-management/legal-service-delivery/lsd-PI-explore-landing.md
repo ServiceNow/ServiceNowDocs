@@ -2,6 +2,7 @@
 title: Explore Predictive Intelligence for Legal Service Delivery
 description: With Predictive Intelligence, you can train a model to predict a target value based on one or more input values. The Predictive Intelligence for Legal Service Delivery includes machine learning algorithms that predict the subcategory and assignment group for General Legal Requests and Ethics Complaints. You can create your own machine learning solution to meet your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-PI-explore-landing.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -47,8 +48,8 @@ The Predictive Intelligence for Legal Service Delivery solution helps you reduce
 
 To learn more about configuring and using Predictive Intelligence for Legal Service Delivery, see:
 
--   [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/predictive-intelligence-landing.md)
--   [Configure Predictive Intelligence for Legal Service Delivery](lsd-PI-configure-landing.md)
--   [Use Predictive Intelligence for Legal Service Delivery](../task/lsd-pi-use-legal-request.md)
--   [Predictive Intelligence for Legal Service Delivery reference](lsd-PI-reference-landing.md)
+-   
+-   [Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
+-   [Use Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-pi-use-legal-request.md)
+-   [Predictive Intelligence for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-PI-reference-landing.md)
 

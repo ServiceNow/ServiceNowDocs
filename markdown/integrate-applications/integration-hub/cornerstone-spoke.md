@@ -2,6 +2,7 @@
 title: Cornerstone Spoke
 description: Manage employee records, approvals, and employee learning in your Cornerstone instance from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/cornerstone-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage employee records, approvals, and employee learning in your Cornerstone in
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -84,7 +85,7 @@ The Cornerstone spoke provides actions to automate Cornerstone tasks when events
 |Create Assignment|Creates a standard assignment.|Assignment Tool-Standard/Email Settings-View/Bypass User Payment|learningassignment:create|
 |Look up Assignment Details|Looks up assignment details based on Assignment ID.|Assignment Tool - Standard|learningassignment:read|
 |Reporting on Learning Module Management|Look up Tasks From Reporting Data Stream|Retrieves the main view to get training form user tasks.|Reporting API|Reporting API|
-|Look up Trainings From Reporting Stream|Retrieves the main view to get training data.|Reporting API|Reporting API|
+|Look up Trainings From Data Exporter Stream|Retrieves the main view to get training data.|Reporting API|Reporting API|
 |Look up Transcripts From Data Exporter Data Stream|Retrieves the main view to get all user transcript related data.|transcript\_core|Reporting API|
 |Look up Training Local From Reporting Data Stream|Retrieves the main view to get the training's local data.|Reporting API|Reporting API|
 
@@ -102,5 +103,5 @@ If you want to configure and customise the spoke as per your requirement and pro
 
 Integration hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Cornerstone spoke](../task/setup-cornerstone.md#).
+For information about setting up the spoke, see [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-cornerstone.md).
 

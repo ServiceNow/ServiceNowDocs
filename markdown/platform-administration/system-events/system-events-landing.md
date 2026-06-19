@@ -2,6 +2,7 @@
 title: System Events
 description: System Events in ServiceNow are crucial for automating processes and maintaining platform efficiency. They act as triggers for business rules, notifications, work-flows, and other actions, ensuring timely and consistent execution of tasks. By monitoring and responding to these events, organizations can streamline operations, improve response times, and enhance user experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-events/system-events-landing.html
 release: australia
 product: System Events
 classification: system-events
@@ -19,15 +20,15 @@ System Events in ServiceNow are crucial for automating processes and maintaining
 
 <table id="table_o4s_mqg_ldc" class="nav-card presentation"><tbody><tr><td>
 
-[Exploring system events](exploring-system-events.md)
+[Exploring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/exploring-system-events.md)
 
- ![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how system events function as triggers for actions and enable process automation.
+ \[Omitted image "bus-explore.svg"\] Alt text:Learn about how system events function as triggers for actions and enable process automation.
 
 </td><td>
 
-[Configuring System events](configuring-system-events.md)
+[Configuring System events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/configuring-system-events.md)
 
- ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up and manage system events to trigger actions and automate processes.
+ \[Omitted image "bus-sdlc.svg"\] Alt text:Set up and manage system events to trigger actions and automate processes.
 
 </td><td>
 
@@ -35,15 +36,15 @@ System Events in ServiceNow are crucial for automating processes and maintaining
 
 </td></tr><tr><td>
 
-[Managing system events](managing-system-events.md)
+[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/managing-system-events.md)
 
- ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Connect system events with external systems and applications to enable seamless data exchange and automated work-flows.
+ \[Omitted image "bus-integration-and-apis.svg"\] Alt text:Connect system events with external systems and applications to enable seamless data exchange and automated work-flows.
 
 </td><td>
 
-[System events reference](../reference/system-events-reference.md)
+[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/system-events-reference.md)
 
- ![](../../../reuse/icons/brand-icons/bus-learn.svg)More information about the predefined system events available and their usage.
+ \[Omitted image "bus-learn.svg"\] Alt text:More information about the predefined system events available and their usage.
 
 </td><td>
 
@@ -56,14 +57,14 @@ System Events in ServiceNow are crucial for automating processes and maintaining
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 
--   **[Exploring system events](exploring-system-events.md)**  
+-   **[Exploring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/exploring-system-events.md)**  
 Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response.
--   **[Configuring System events](configuring-system-events.md)**  
+-   **[Configuring System events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/configuring-system-events.md)**  
 Plan, configure, and implement system events without having to complete any extra configurations first. Follow the task listed in the configuration overview to implement automated job scheduling.
--   **[Managing system events](managing-system-events.md)**  
+-   **[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/managing-system-events.md)**  
 Managing system events involves creating, monitoring, and handling events to drive automation and streamline processes. Administrators and developers can define custom events, register them in the system, and set up actions or work-flows that respond to these events. This functionality helps ensure efficient task execution, helps improve system monitoring, and enables more robust error handling for enhanced operational reliability.
--   **[System events reference](../reference/system-events-reference.md)**  
+-   **[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-events/system-events-reference.md)**  
 Reference topics provide information about system events.
 
-**Parent Topic:**[Configure ServiceNow AI Platform core features](../../general/concept/config-now-platform-core-features.md)
+**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/config-now-platform-core-features.md)
 

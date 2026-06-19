@@ -2,6 +2,7 @@
 title: Modify Script Includes for Prioritization page in Strategic Planning
 description: Modify the Script Includes for List and Hierarchy views of the Prioritization page to change the columns to be highlighted in these views in the workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/modify-script-includes-for-prioritization-page-strategic-planning.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -39,7 +40,7 @@ Role required: admin
 
 ## What to do next
 
-[Create new highlighted values for Prioritization columns in Strategic Planning](customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.md)
+[Create new highlighted values for Prioritization columns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customize-highlighted-fields-prioritzation-page-strategic-planning-workspace.md)
 
-**Parent Topic:**[Customizing highlighted fields on Prioritization page of Strategic Planning Workspace](../concept/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
+**Parent Topic:**[Customizing highlighted fields on Prioritization page of Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customizing-highlighted-fields-prioritization-page-strategic-planning.md)
 

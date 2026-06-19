@@ -2,11 +2,12 @@
 title: Configure an exception policy on your proxy server
 description: You can configure an exception policy on your proxy server to allow unauthenticated access to the service-now.com domain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/win-proxy-exception-password-reset.html
 release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configure the Password Reset Windows Application to use a proxy server, Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,5 +43,5 @@ Role required: Windows system administrator
 9.  Export the following registry key to all clients that use the Password Reset Windows Application:`HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings`
 
 
-**Parent Topic:**[Configure the Password Reset Windows Application to use a proxy server](win-config-proxy-server-password-reset.md)
+**Parent Topic:**[Configure the Password Reset Windows Application to use a proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/win-config-proxy-server-password-reset.md)
 

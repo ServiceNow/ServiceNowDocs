@@ -2,6 +2,7 @@
 title: Supported CI class types for Google Cloud services
 description: Supported CI class types for Google Cloud enable assigning cost and usage data correctly using the CI placement process. Some CI class types are placed immediately. The CI placement process places a subset of CIs into corresponding CI tables that are used in the recommendation generation process for Cloud Cost Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/gcp-supported-ci-class-types.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -30,5 +31,5 @@ Supported CI class types for Google Cloud enable assigning cost and usage data c
 |cmdb\_ci\_cloud\_storage\_account| |
 |cmdb\_ci\_storage\_volume| |
 
-**Parent Topic:**[Cloud Cost Management reference](../concept/reference-cloudinsights.md)
+**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/reference-cloudinsights.md)
 

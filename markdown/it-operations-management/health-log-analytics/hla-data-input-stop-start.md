@@ -2,6 +2,7 @@
 title: Stop or restart a data input in Health Log Analytics
 description: You can stop using a data input for streaming log messages to your ServiceNow instance. Restart the data input if you want it to resume streaming data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-stop-start.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -35,5 +36,5 @@ Role required: evt\_mgmt\_admin
 4.  To start using the data input again, select **Start Data Input**.
 
 
-**Parent Topic:**[Set up data inputs in Health Log Analytics manually](hla-data-input-setup-manual.md)
+**Parent Topic:**[Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
 

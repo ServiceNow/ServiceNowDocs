@@ -2,6 +2,7 @@
 title: Share scheduling preferences form
 description: The share scheduling preferences form provides the field descriptions required to share an applicant's or interviewer's scheduling preferences for upcoming interviews.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/share-availability-form.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -160,5 +161,5 @@ Additional notes
 Additional notes for the recruiter, if any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Interview Management reference](../concept/interview-management-reference.md)
+</table>**Parent Topic:**[Interview Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/interview-management-reference.md)
 

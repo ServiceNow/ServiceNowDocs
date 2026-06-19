@@ -2,11 +2,12 @@
 title: Set up the AWS Translate spoke
 description: Integrate the ServiceNow instance and AWS Translate using the AWS credential to authenticate ServiceNow requests.Create an access key for the required user in the AWS Management Console to authenticate requests from the ServiceNow instance.Create Credential record for the AWS Translate spoke. The AWS Translate spoke uses this credential to perform actions on AWS Translate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/aws-translate-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [AWS Translate Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -39,7 +40,7 @@ Create an access key for the required user in the AWS Management Console to auth
 
 5.  Under **Access keys**, click **Create access key**.
 
-    ![Create access key.](../image/aws-access-key.png)
+    \[Omitted image "aws-access-key.png"\] Alt text: Create access key.
 
     The access key is created.
 

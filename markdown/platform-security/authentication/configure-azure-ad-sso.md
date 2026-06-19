@@ -2,6 +2,7 @@
 title: Configure Azure AD SSO
 description: Configure Azure AD SSO in the Azure portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/configure-azure-ad-sso.html
 release: australia
 product: Authentication
 classification: authentication
@@ -29,7 +30,7 @@ Role required: Azure admin
 
 3.  On the Set up single sign-on with SAML page, select the pen icon for Basic SAML Configuration to edit the settings.
 
-    ![SAML Configuration.](../image/configure-azure-ad-sso.png)
+    \[Omitted image "configure-azure-ad-sso.png"\] Alt text: SAML Configuration.
 
 4.  In the Basic SAML Configuration section, perform the following:
 
@@ -57,7 +58,7 @@ Role required: Azure admin
 
 5.  On the Set up single sign-on with SAML page, in the SAML Signing Certificate section, find **Certificate \(Base64\)**.
 
-    ![Signing Certificate.](../image/certificate-sso.png)
+    \[Omitted image "certificate-sso.png"\] Alt text: Signing Certificate.
 
     1.  Select the copy button to copy **App Federation Metadata Url**, and paste it into Notepad.
 
@@ -67,6 +68,6 @@ Role required: Azure admin
 
 6.  In the Set up ServiceNow section, copy the appropriate URLs, based on your requirement.
 
-    ![Setup SAML.](../image/set-up-saml.png)
+    \[Omitted image "set-up-saml.png"\] Alt text: Setup SAML.
 
 

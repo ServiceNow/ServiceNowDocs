@@ -2,6 +2,7 @@
 title: Create a bot in Slack
 description: You must create a self-configured bot in the targeted workspace in Slack to be able to integrate with the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-self-config-bot-slack.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -47,7 +48,7 @@ Role required: none
 
         If you are setting up your self-configured bot on a ServiceNow instance, then the request URL must be `https://<instance-name>.service-now.com/api/now/v1/cs/adapter/slack/events`.
 
-    3.  Wait for the Request URL to get verified.![The Request URL field displays green "Verified" text with a check mark.](../images/slack-event-subscriptions.png)
+    3.  Wait for the Request URL to get verified.\[Omitted image "slack-event-subscriptions.png"\] Alt text: The Request URL field displays green "Verified" text with a check mark.
 
     4.  Under Subscribe to bot events, click **Add Bot User Event** and add `message.im`.
 
@@ -71,8 +72,8 @@ Role required: none
         -   users:read.email
 8.  Navigate to **OAuth &amp; Permissions**, click **Install to Workspace**, and click **Allow**.
 
-    ![Dialog box window for allowing or canceling installation of a Test Bot in a Slack workspace.](../images/allow-bot-install.png)
+    \[Omitted image "allow-bot-install.png"\] Alt text: Dialog box window for allowing or canceling installation of a Test Bot in a Slack workspace.
 
 
-**Parent Topic:**[Integrating a self-configured bot with Slack workspace](../concept/va-integ-single-slack.md)
+**Parent Topic:**[Integrating a self-configured bot with Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-single-slack.md)
 

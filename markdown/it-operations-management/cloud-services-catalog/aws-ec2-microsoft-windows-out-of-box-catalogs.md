@@ -2,6 +2,7 @@
 title: Amazon Web Services EC2 Microsoft Windows Out Of Box Catalog items
 description: Cloud Services Catalog Windows VM, up to 10 additional disks on EC2 or with security groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/aws-ec2-microsoft-windows-out-of-box-catalogs.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -59,8 +60,8 @@ Tag \(key-value\) is assigned to all deployed resources. Example: VM, network, s
 
 The provisioning work-flow will notify the windows admin password to the requester via email. It can take a minimum of four minutes to obtain the windows admin password from Amazon Web Services.
 
--   **[Amazon Web Services EC2 Windows Out Of Box permissions](aws-ec2-windows-oob-permissions.md)**  
+-   **[Amazon Web Services EC2 Windows Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/aws-ec2-windows-oob-permissions.md)**  
 Amazon Web Services EC2 Windows OOB catalog items permissions
 
-**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](../concept/out-of-the-box-catalog-items.md)
+**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

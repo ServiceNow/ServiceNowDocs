@@ -2,6 +2,7 @@
 title: Edit On-call team preference using Teams menu
 description: Use the Teams menu to edit the on-call preferences for a selected team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/oncall-team-preference-tab-in-teams.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -23,13 +24,13 @@ Role required: rota\_manager, rota\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operation Workspace**.
 
-2.  From the primary navigation, select **Teams** \(![Teams.](../../service-reliability/image/icon-sr-teams.png)\).
+2.  From the primary navigation, select **Teams** \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select a team card to open.
 
 4.  Select **On-call team preferences** from the header.
 
-    ![On-call team preferences form](../image/oncall_team_preferences_sow.png)
+    \[Omitted image "oncall\_team\_preferences\_sow.png"\] Alt text: On-call team preferences form
 
 5.  Select an **On-call shift managers** from the list menu.
 
@@ -46,5 +47,5 @@ Role required: rota\_manager, rota\_admin
 10. Select **Save**.
 
 
-**Parent Topic:**[Create notification preference rule](create-notification-preference-rule.md)
+**Parent Topic:**[Create notification preference rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/create-notification-preference-rule.md)
 

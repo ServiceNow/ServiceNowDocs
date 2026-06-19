@@ -2,6 +2,7 @@
 title: Configuring Operational Technology Knowledge Management
 description: Configure Operational Technology Knowledge Management so that you can create the data foundation for the Operational Technology \(OT\) solution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-knowledge-management/configuring-operational-technology-knowledge-management.html
 release: australia
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
@@ -35,20 +36,20 @@ The following table shows the tasks that your users must complete for a successf
 |Assign knowledge workflows to an OT knowledge base.|Assigns different knowledge workflows to each OT knowledge base for the publishing and retiring processes.|
 |Review the Knowledge Management properties that are used for Operational Technology Knowledge Management.|Configures the look and functionalities of OT knowledge bases with the applicable Knowledge Management properties.|
 
--   **[Assign roles to your Operational Technology Knowledge Management users](../task/assign-operational-technology-knowledge-management-roles.md)**  
+-   **[Assign roles to your Operational Technology Knowledge Management users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/assign-operational-technology-knowledge-management-roles.md)**  
 Assign Knowledge Management roles to your users so that you can control their access to the features, capabilities, and data for Operational Technology Knowledge Management.
--   **[Create an OT knowledge base](../task/configure-ot-knowledge-base.md)**  
+-   **[Create an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configure-ot-knowledge-base.md)**  
 Create an Operational Technology \(OT\) knowledge base to provide a self-service platform for OT knowledge users to store, share, and manage content that is related to OT incidents.
--   **[Create the user criteria for an OT knowledge base](../task/create-user-criteria-otkm.md)**  
+-   **[Create the user criteria for an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/create-user-criteria-otkm.md)**  
 Create a user criteria record to determine the users who can read or contribute to an Operational Technology \(OT\) knowledge base.
--   **[Assign the user criteria to an OT knowledge base](../task/assign-ot-user-criteria-otkm.md)**  
+-   **[Assign the user criteria to an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/assign-ot-user-criteria-otkm.md)**  
 Assign the user criteria records to an Operational Technology \(OT\) knowledge base to control which users can create, read, write, and retire knowledge articles within the knowledge base.
--   **[Review access to OT knowledge bases for unauthenticated users](../task/configure-access-to-ot-knowledge-bases.md)**  
+-   **[Review access to OT knowledge bases for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/configure-access-to-ot-knowledge-bases.md)**  
 Review the Operational Technology \(OT\) knowledge bases that are accessible to unauthenticated users by using the user criteria and **glide.knowman.block\_access\_with\_no\_user\_criteria** property settings.
--   **[Assigning knowledge workflows to an OT knowledge base](assigning-knowledge-workflows-to-ot-knowledge-base.md)**  
+-   **[Assigning knowledge workflows to an OT knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/assigning-knowledge-workflows-to-ot-knowledge-base.md)**  
 You can assign different Knowledge Management workflows to each Operational Technology \(OT\) knowledge base for the publishing and retiring processes.
--   **[Reviewing the Knowledge Management property for an Operational Technology knowledge base](reviewing-knowledge-management-properties.md)**  
+-   **[Reviewing the Knowledge Management property for an Operational Technology knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/reviewing-knowledge-management-properties.md)**  
 As an administrator, you can configure the look and functionalities of Operational Technology \(OT\) knowledge bases with the Knowledge Management properties.
 
-**Parent Topic:**[Operational Technology Knowledge Management](operational-technology-knowledge-management-landing-page.md)
+**Parent Topic:**[Operational Technology Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-knowledge-management/operational-technology-knowledge-management-landing-page.md)
 

@@ -2,7 +2,10 @@
 title: Order case intake page
 description: Customer service agents use the Order case intake page to capture the initial information when creating a new order case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-order-ops-order-case-intake-page.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -32,5 +35,5 @@ Depending on where the agent creates the order case from, some of these fields a
 -   **Specific line items, Single order**: If the agent selects **Create case** from the Order Line Items list on a customer order.
 -   **Multiple orders**: If the agent selects **Create case** from a customer order.
 
-After saving the intake record, the agent can see the [Order case record page](csm-order-ops-order-case-record-page.md) with the case line items created either from customer orders or customer order lines.
+After saving the intake record, the agent can see the [Order case record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-order-ops-order-case-record-page.md) with the case line items created either from customer orders or customer order lines.
 

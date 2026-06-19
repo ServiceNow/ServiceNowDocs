@@ -2,6 +2,7 @@
 title: Create inbound and outbound Amazon Connect contact flows
 description: Create the inbound and outbound Amazon Connect contact flows to set up IVR \(Interactive Voice Response\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-inbound-outbound-amzn-connect-flows.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +26,7 @@ Role required: admin
 
     1.  Select the region where the Lambda function/LexBot was created.
 
-        For more information see, [Create an Amazon S3 bucket](create-amazon-s3-bucket.md).
+        For more information see, [Create an Amazon S3 bucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-amazon-s3-bucket.md).
 
         **Note:** Ensure that the region that you selected matches across the Amazon Connect setup.
 
@@ -39,13 +40,13 @@ Role required: admin
 
 2.  Log in to your Amazon Connect Instance as an Administrator.
 
-    1.  Hover over the **Routing** ![Routing icon.](../images/routing-icon.png) icon on the left navigation bar and select **Prompts**.
+    1.  Hover over the **Routing** \[Omitted image "routing-icon.png"\] Alt text: Routing icon. icon on the left navigation bar and select **Prompts**.
 
     2.  Click **Create new prompt**, upload a prompt file of your choice with `.wav` file extension, and click **Create**.
 
         **Note:** Ensure that the `.wav` audio file is no more than 10 seconds for optimal results.
 
-    3.  Hover over the **Routing** ![Routing icon.](../images/routing-icon.png) icon on the left navigation bar and select **Contact flows**.
+    3.  Hover over the **Routing** \[Omitted image "routing-icon.png"\] Alt text: Routing icon. icon on the left navigation bar and select **Contact flows**.
 
     4.  Click the drop-down next to Create contact flow button and select **Create customer queue flow**.
 
@@ -98,7 +99,7 @@ Role required: admin
 
 ## What to do next
 
-Invoke an automated caller interaction with bots to fulfill the caller's request within the ServiceNow instance. For more information, see [Configure a contact flow for an automated caller interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/establish-automated-bot-interactions.md).
+Invoke an automated caller interaction with bots to fulfill the caller's request within the ServiceNow instance. For more information, see Configure a contact flow for an automated caller interaction.
 
-**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](../concept/configure-aws-account.md)
+**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-aws-account.md)
 

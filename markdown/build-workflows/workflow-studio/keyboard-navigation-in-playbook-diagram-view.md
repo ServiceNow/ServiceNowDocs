@@ -2,6 +2,7 @@
 title: Keyboard navigation in playbook diagram view
 description: Use keyboard commands to navigate and configure playbooks in diagram view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/keyboard-navigation-in-playbook-diagram-view.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,7 +16,7 @@ breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 
 Use keyboard commands to navigate and configure playbooks in diagram view.
 
-![Example playbook to help demonstrate how to use keyboard navigation.](../images/a11y-keyboard-navigation.png)
+\[Omitted image "a11y-keyboard-navigation.png"\] Alt text: Example playbook to help demonstrate how to use keyboard navigation.
 
 Open a playbook in diagram view and use your keyboard to edit different components of the playbook. As a general guideline, use the arrow keys to navigate between the elements on the canvas; for example, between the start node, the connector, and the stages. Use the Enter key to edit the highlighted element or to perform the selected action. Pressing the Escape key takes you out of the selected node.
 
@@ -33,7 +34,7 @@ Create a trigger
 
 </td><td>
 
-1.  Press Tab until **Triggers** \(![Option to open Triggers.](../images/triggers_icon_selected.png)\) is highlighted and then press Enter.
+1.  Press Tab until **Triggers** \(\[Omitted image "triggers\_icon\_selected.png"\] Alt text: Option to open Triggers.\) is highlighted and then press Enter.
 2.  Press Tab to highlight **Add trigger**.
 3.  Press the arrow keys to select the trigger type and press Enter.
 4.  Press Tab to navigate between the fields on the form.
@@ -46,7 +47,7 @@ Edit a trigger
 
 </td><td>
 
-1.  Press Tab until **Triggers** \(![Option to open Triggers.](../images/triggers_icon_selected.png)\) is highlighted and then press Enter.
+1.  Press Tab until **Triggers** \(\[Omitted image "triggers\_icon\_selected.png"\] Alt text: Option to open Triggers.\) is highlighted and then press Enter.
 2.  Press Tab until the trigger is selected and then press Enter.
 3.  Press Tab to highlight the field that you want to update.
 4.  Press Spacebar to select or clear a check box.

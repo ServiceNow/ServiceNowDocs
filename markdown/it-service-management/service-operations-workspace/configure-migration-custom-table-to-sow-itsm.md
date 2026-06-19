@@ -2,6 +2,7 @@
 title: Configure the migration of a custom ITSM table from ITSM Agent Workspace to Service Operations Workspace for ITSM
 description: If you have a custom ITSM table that must be migrated, you must enable the migration of the associated list categories and modules, list actions, related list actions, and New record menu items from ITSM Agent Workspace to Service Operations Workspace for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-migration-custom-table-to-sow-itsm.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -32,5 +33,5 @@ Role required: admin
 4.  Select **Update**.
 
 
-**Parent Topic:**[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](../concept/migration-from-itsm-aw-sow.md)
+**Parent Topic:**[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md)
 

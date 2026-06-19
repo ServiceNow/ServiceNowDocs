@@ -2,6 +2,7 @@
 title: Set up the Workfront spoke
 description: Set up an outbound integration between the ServiceNow instance and the Workfront instance.Generate an API key for authenticating Workfront API requests.Create a connection record between the ServiceNow instance and the Workfront instance. The connection record consists of the connection details and the API key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-workfront.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -36,13 +37,13 @@ Role required: Workfront administrator
 
 2.  Log in to the [Adobe Workfront](https://www.workfront.com) instance.
 
-3.  On the page header of your Adobe Workfront instance, select the main Menu icon \(![Main Menu icon.](../image/main-menu-icon.png)\).![Main menu on homepage.](../image/adobe-workfront-main-menu.png)
+3.  On the page header of your Adobe Workfront instance, select the main Menu icon \(\[Omitted image "main-menu-icon.png"\] Alt text: Main Menu icon.\).\[Omitted image "adobe-workfront-main-menu.png"\] Alt text: Main menu on homepage.
 
-4.  Select the Setup icon \(![Setup icon.](../image/adobe-workfront-setup.png)\).
+4.  Select the Setup icon \(\[Omitted image "adobe-workfront-setup.png"\] Alt text: Setup icon.\).
 
 5.  From the left navigation menu of the Setup page, navigate to **System** &gt; **Customer Info**.
 
-6.  In the API Key Settings section, select **Generate API Key**.![Generate API Key link.](../image/adobe-workfront-generate-API.png)
+6.  In the API Key Settings section, select **Generate API Key**.\[Omitted image "adobe-workfront-generate-API.png"\] Alt text: Generate API Key link.
 
     The API key is generated.
 
@@ -71,9 +72,9 @@ Role required: admin
 
 4.  In the Search all connections field, enter `workfront`.
 
-5.  On the Workfront tile, click **View Details**.![View Details button.](../image/workfront-spoke-view-details.png)
+5.  On the Workfront tile, click **View Details**.\[Omitted image "workfront-spoke-view-details.png"\] Alt text: View Details button.
 
-6.  Click **Configure**.![Configure button.](../image/workfront-spoke-configure-button.png)
+6.  Click **Configure**.\[Omitted image "workfront-spoke-configure-button.png"\] Alt text: Configure button.
 
 7.  Fill the form.
 
@@ -107,7 +108,7 @@ API Key
 
 </td><td>
 
-The API key that you generated from the Workfront instance. To learn how to generate an API key, see [Generate a Workfront API key](setup-workfront.md#).
+The API key that you generated from the Workfront instance. To learn how to generate an API key, see [Generate a Workfront API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-workfront.md).
 
 </td></tr></tbody>
 </table>8.  Click **Configure Connection**.

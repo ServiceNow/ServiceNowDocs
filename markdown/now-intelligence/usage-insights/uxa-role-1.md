@@ -2,6 +2,7 @@
 title: Analytics admin \[analytics\_admin\]
 description: View the settings within Usage Insights in the application navigator and control the Usage Insights settings for each mobile, web, and service portal application. Assigned users can create funnel and cohort reports within the Usage Insights application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-role-1.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -37,5 +38,5 @@ Analytics admin \[analytics\_admin\] is included in the Analytics settings manag
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-**Parent Topic:**[Roles installed with Usage Insights](components-installed-user-exp-analytics.md)
+**Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 

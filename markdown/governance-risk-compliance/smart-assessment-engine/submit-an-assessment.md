@@ -2,6 +2,7 @@
 title: Submit an assessment
 description: You must have the assessment actor role to complete and submit the assessment. The submit button becomes enabled once all required questions are answered.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/submit-an-assessment.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
@@ -30,7 +31,7 @@ A lock icon next to the submit button indicates the number of required questions
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon ![](../image/list-icon.png).
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
     3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
     4.  The smart assessments list is displayed.
 2.  Select the assessments that you want to submit.

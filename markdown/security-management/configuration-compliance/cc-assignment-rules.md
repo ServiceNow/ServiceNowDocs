@@ -2,6 +2,7 @@
 title: Configuration Compliance assignment rules overview
 description: Define the criteria by which test results are automatically assigned to an assignment group for remediation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-assignment-rules.html
 release: australia
 product: Configuration Compliance
 classification: configuration-compliance
@@ -39,7 +40,7 @@ There are three different ways to assign test results using **Assign using**:
     -   Configuration Item: Support Group
 -   Script: This option allows you to define the conditions using a script. This option requires coding or advanced ServiceNow® expertise.
 
-See [Create or edit Configuration Compliance assignment rules](../task/create-cc-assign-rules.md) for more information on creating assignment rules.
+See [Create or edit Configuration Compliance assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/configuration-compliance/create-cc-assign-rules.md) for more information on creating assignment rules.
 
 With the sn\_vulc.remediation\_owner role, you can view and update test results and remediation tasks that are assigned to them or to their assignment groups. To view the modules, navigate to **All** &gt; **Configuration Compliance** &gt; **Test Results** &gt; **My Open Test Results**, or **Configuration Compliance** &gt; **Remediation Tasks** &gt; **My Open Tasks**.
 
@@ -63,7 +64,7 @@ When you change an assignment rule, use the **Apply Changes** button on the Assi
 
 The scheduled job \[**Reapply all assignment rules**\] is inactive, by default. When activated, it evaluates all the open test results against all active rules except those manually assigned. It can run Daily, Weekly, Monthly, Periodically, Once or On Demand.
 
-**Important:** As an admin and analyst, you can obtain the latest assignments for selected test results in the Vulnerability Manager Workspace. This method is more efficient than reapplying the Assignment Rules for all test results in the classic UI, which is a time-consuming process. For more information, see [Re-evaluate the remediation properties of the records in the Vulnerability Manager Workspace](../../vr-vulnerability-manager-workspace/task/vmws-reevaluate-remediation-parameters.md).
+**Important:** As an admin and analyst, you can obtain the latest assignments for selected test results in the Vulnerability Manager Workspace. This method is more efficient than reapplying the Assignment Rules for all test results in the classic UI, which is a time-consuming process. For more information, see [Re-evaluate the remediation properties of the records in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-manager-workspace/vmws-reevaluate-remediation-parameters.md).
 
 ## Assignment rules and remediation task assignment
 

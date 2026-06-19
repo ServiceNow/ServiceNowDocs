@@ -2,6 +2,7 @@
 title: Managing stories on Agile Development v2 mobile app
 description: View, edit, and update the details of stories assigned for the current sprint on your mobile device.From your mobile device, track all stories of an assignment group including the stories that are assigned to you from multiple assignment groups.Edit and update the details of your Agile Development 2.0 stories from your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/manage-stories-agile-dev-mobile.html
 release: australia
 product: Agile Development
 classification: agile-development
@@ -17,7 +18,7 @@ View, edit, and update the details of stories assigned for the current sprint on
 
 On your mobile device, open the Mobile Agent app and navigate to Agile Development v2. Perform the following actions with the role of scrum\_product\_owner, scrum\_team\_member, or scrum\_master.
 
-**Parent Topic:**[Mobile experience for Agile Development 2.0](../concept/agile-2-mobile-app-overview.md)
+**Parent Topic:**[Mobile experience for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/agile-2-mobile-app-overview.md)
 
 ## Tracking stories on Agile Development v2
 

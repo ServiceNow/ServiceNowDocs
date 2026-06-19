@@ -2,6 +2,7 @@
 title: Explore automations
 description: Automation explorer enables you to scan your entire ServiceNow instance and discover relevant automations based on a targeted query. You can filter by automation type, execution time period, and application scope, then onboard high-value automations directly to Automation Center for ROI tracking.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/auto-explorer.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -19,7 +20,7 @@ Automation explorer enables you to scan your entire ServiceNow® instance and di
 
 Role required: sn\_ac.automation\_technical\_user
 
-Run the fix script to be able to view the results of the Automation explorer. For information, see [Run fix script to view results](run-script.md).
+Run the fix script to be able to view the results of the Automation explorer. For information, see [Run fix script to view results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/run-script.md).
 
 ## Procedure
 
@@ -27,13 +28,13 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 2.  Select the **Automation explorer** tab.
 
-    ![Automation explorer tab](../images/auto-explorer-land.png)
+    \[Omitted image "auto-explorer-land.png"\] Alt text: Automation explorer tab
 
     You can select the automation type card at the outset or select **Discover automations** button. Both actions launch an agent-driven conversation via the Now Assist Panel, which guides you through defining your search criteria step by step
 
 3.  Select your search method.
 
-<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d99851e107">
+<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d103673e107">
 
 **If you know the automation type**
 
@@ -41,7 +42,7 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 Click the relevant automation type card to begin a focused search.
 
-</td></tr><tr><td id="d99851e116">
+</td></tr><tr><td id="d103673e116">
 
 **If you do not know the automation type**
 
@@ -66,7 +67,7 @@ Click the open-ended search button to launch the Now Assist Panel and start an a
 
 5.  Select **Show** to view the search results.
 
-    ![Show results](../images/auto-show-result.png)
+    \[Omitted image "auto-show-result.png"\] Alt text: Show results
 
     The results display all relevant automations on the instance against the search query, including:
 
@@ -77,7 +78,7 @@ Click the open-ended search button to launch the Now Assist Panel and start an a
 
     Use the check-boxes next to each automation, and select **Estimate value**, and **Onboard**. Review the cost and time saving estimates and the accompanying AI explanation to make your decision.
 
-    ![Estimate value of automations and onboard them](../images/auto-esti-onboard.png)
+    \[Omitted image "auto-esti-onboard.png"\] Alt text: Estimate value of automations and onboard them
 
 
 ## Result
@@ -88,5 +89,5 @@ The selected automations are onboarded to Automation Center. Their cost savings 
 
 After onboarding, monitor the ROI of your automations in the Automation Center Value dashboard. You can return to Automation explorer at any time to discover additional automations or refine your search criteria.
 
-**Parent Topic:**[Using Now Assist for Automation Center](../concept/use-now-assist.md)
+**Parent Topic:**[Using Now Assist for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/use-now-assist.md)
 

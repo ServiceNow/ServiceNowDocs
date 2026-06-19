@@ -2,11 +2,14 @@
 title: Edit the Query Driver on Metadata tab
 description: Edit the Query Driver on Metadata tab. The Query Driver section enables you to import or download query drivers as well as control the speed of Auto Queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/edit-query-driver-on-metadata.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit the Query Driver on Metadata tab
@@ -35,7 +38,7 @@ The **Metadata** tab includes settings for several features related to metadata 
 
 5.  In the Delay section of the window, use the sliding scale to change the Query Delay settings.
 
-    ![Query driver settings](../../operational-technology-discovery/images/query-driver-settings2.png)
+    \[Omitted image "query-driver-settings2.png"\] Alt text: Query driver settings
 
 6.  Select the **Save Settings** button to save, or the **Cancel** button to discard your changes.
 

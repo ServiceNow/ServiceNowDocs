@@ -2,6 +2,7 @@
 title: Test your application
 description: Verify that your application works as intended before publishing by testing the application experience and flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/app-tutorial-test-app.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -31,11 +32,11 @@ Step 1
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Planning your application](../concept/app-tutorial-introduction.md)
+[Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-introduction.md)
 
 </td></tr><tr><td>
 
@@ -43,11 +44,11 @@ Step 2
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Create an app](app-tutorial-create-an-app.md)
+[Create an app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-create-an-app.md)
 
 </td></tr><tr><td>
 
@@ -55,11 +56,11 @@ Step 3
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Building a data model](../concept/app-tutorial-data-model.md)
+[Building a data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-data-model.md)
 
 </td></tr><tr><td>
 
@@ -67,11 +68,11 @@ Step 4
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Creating user experiences](../concept/app-tutorial-experience-layer.md)
+[Creating user experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-experience-layer.md)
 
 </td></tr><tr><td>
 
@@ -79,11 +80,11 @@ Step 5
 
 </td><td align="justify">
 
-![Completed icon](../image/app-tutorial-progress-complete2.png)
+\[Omitted image "app-tutorial-progress-complete2.png"\] Alt text: Completed icon
 
 </td><td>
 
-[Adding logic and automation](../concept/app-tutorial-logic-automation-layer.md)
+[Adding logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-logic-automation-layer.md)
 
 </td></tr><tr><td>
 
@@ -91,14 +92,14 @@ Step 6
 
 </td><td align="justify">
 
-![In progress icon](../image/app-tutorial-progress-wip.png)
+\[Omitted image "app-tutorial-progress-wip.png"\] Alt text: In progress icon
 
 </td><td>
 
-[Test your application](app-tutorial-test-app.md)
+[Test your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-tutorial-test-app.md)
 
 </td></tr></tbody>
-</table>For more information about testing your application, see [Testing and debugging applications](../../custom-application/concept/testing-and-debugging-applications.md).
+</table>For more information about testing your application, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/testing-and-debugging-applications.md).
 
 Follow along with the tutorial to test the employee travel request application.
 
@@ -127,9 +128,9 @@ Test your application before deploying it.
     -   If your flow is already open, verify that your changes are saved.
 3.  Select **Activate**, then select **Activate** again to make your flow available to run.
 
-    **Note:** You can also test your flow without activating it by creating a test record within Workflow Studio. For more information about testing before activating your flow, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
+    **Note:** You can also test your flow without activating it by creating a test record within Workflow Studio. For more information about testing before activating your flow, see .
 
-    ![Select Activate within the Activate dialog to make your flow available to run.](../image/app-tutorial-activate-flow.png)
+    \[Omitted image "app-tutorial-activate-flow.png"\] Alt text: Select Activate within the Activate dialog to make your flow available to run.
 
 4.  Navigate to your ServiceNow AI Platform instance home page.
 
@@ -137,7 +138,7 @@ Test your application before deploying it.
 
     1.  Open the user menu.
 
-        ![You can impersonate a user by selecting Impersonate user within the user menu.](../image/app-tutorial-user-menu.png)
+        \[Omitted image "app-tutorial-user-menu.png"\] Alt text: You can impersonate a user by selecting Impersonate user within the user menu.
 
     2.  Select **Impersonate user**.
 
@@ -189,7 +190,7 @@ Test your application before deploying it.
 
 17. Review the flow execution details to verify that your flow runs as intended.
 
-    The flow execution details page enables you to view detailed information about an action or flow, such as the run-time, current state, items run, and values produced. For more information about flow execution details, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-execution-details.md).
+    The flow execution details page enables you to view detailed information about an action or flow, such as the run-time, current state, items run, and values produced. For more information about flow execution details, see .
 
 18. Perform additional tests to verify that the flow completes all desired branches of actions and flow logic.
 
@@ -199,11 +200,11 @@ Test your application before deploying it.
 
     1.  Select the action that is in the **Waiting** state to view the action details.
 
-        ![You can view and change the state of actions within your flow.](../image/app-tutorial-test-action-waiting-state.png)
+        \[Omitted image "app-tutorial-test-action-waiting-state.png"\] Alt text: You can view and change the state of actions within your flow.
 
     2.  In the action details, select the test record.
 
-        ![You can open, view, and edit test records within your flow by selecting the record number, then selecting Open Record.](../image/app-tutorial-test-open-record.png)
+        \[Omitted image "app-tutorial-test-open-record.png"\] Alt text: You can open, view, and edit test records within your flow by selecting the record number, then selecting Open Record.
 
     3.  Select **Open Record**.
 
@@ -211,7 +212,7 @@ Test your application before deploying it.
 
         **Tip:** If your test record page doesn’t display the **Approvers** list, you can adjust the page configurations to display any lists that you want to appear. Complete the following steps to configure the lists that appear on your record page.
 
-        1.  On the record page, select the Additional actions icon \(![Additional actions icon](../../../administer/form-builder/image/additional-actions-tables.png)\).
+        1.  On the record page, select the Additional actions icon \(\[Omitted image "additional-actions-tables.png"\] Alt text: Additional actions icon\).
         2.  Select **Configure** &gt; **Related lists**.
         3.  Select the **Approvers** list item or any other lists that you want to appear on the record page and move them from the **Available** list to the **Selected** list.
         4.  Select **Save**.
@@ -219,7 +220,7 @@ Test your application before deploying it.
 
     6.  Navigate back to your flow.
 
-    7.  Select the refresh icon \(![Refresh icon](../image/app-tutorial-refresh-icon.png)\) to update your flow.
+    7.  Select the refresh icon \(\[Omitted image "app-tutorial-refresh-icon.png"\] Alt text: Refresh icon\) to update your flow.
 
     8.  Verify that your flow has run branching actions or flow logic based on the additional test that you performed.
 
@@ -234,5 +235,5 @@ Your have tested the employee travel request application and verified that it fu
 
 Congratulations! You have completed the app creation tutorial by planning, building, and testing an application.You are ready to start building your own applications in App Engine Studio.
 
-To see what tasks you could perform after building an application, such as publishing or managing app deployments, see [Publish your app](../concept/publish-your-app.md).
+To see what tasks you could perform after building an application, such as publishing or managing app deployments, see [Publish your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/publish-your-app.md).
 

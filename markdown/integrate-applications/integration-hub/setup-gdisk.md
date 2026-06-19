@@ -2,6 +2,7 @@
 title: Set up the Google Persistent Disk spoke
 description: Integrate the ServiceNow instance and Google Persistent Disk spoke by using G Suite credentials to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gdisk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -19,7 +20,7 @@ Integrate the ServiceNow instance and Google Persistent Disk spoke by using G Su
 
 -   Request an Integration Hub subscription.
 -   Activate the Google Persistent Disk spoke.
--   Activate and set up the [Google Compute Engine Spoke](../concept/gcomengine-spoke.md).
+-   Activate and set up the [Google Compute Engine Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gcomengine-spoke.md).
 -   Role required: admin.
 
 ## Procedure

@@ -2,6 +2,7 @@
 title: Playbooks in Service Portal
 description: Use playbooks to guide Service Portal users through your business processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbooks-service-portal.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -32,7 +33,7 @@ Provide a playbook experience to your Service Portal users for a consumer grade 
 
 Service Portal playbooks are also supported in a mobile interface.
 
-![A running playbook in a Service Portal instance](../images/running-playbook-portal.png)
+\[Omitted image "running-playbook-portal.png"\] Alt text: A running playbook in a Service Portal instance
 
 ## Use cases
 
@@ -65,8 +66,8 @@ Service Portal playbooks are also supported in a mobile interface.
 
 The general life cycle of a Service Portal playbook can be summarized as:
 
--   A business process administrator builds the playbook in Workflow Studio. To learn more about building a playbook in Workflow Studio, see [Building Playbooks](building-a-process.md).
--   An administrator adds the playbook to a Service Portal page and customizes the playbook runtime experience at the same time through the ServiceNow AI Platform®. To learn more about embedding a playbook in Service Portal and further customizations in the ServiceNow AI Platform®, see [Configure a playbook for Service Portal](../task/embed-playbook-service-portal.md).
--   Service Portal administrators and developers customize the playbook portal page. To learn more about using the Service Portal Designer to customize the playbook portal page, see [Customize a playbook in Service Portal](../task/customize-playbook-service-portal.md).
--   Service Portal end users, also called requesters, launch and run through the playbook. To learn more about launching and running a playbook in Service Portal, see [Run a playbook in Service Portal](../task/run-a-playbook-in-service-portal.md).
+-   A business process administrator builds the playbook in Workflow Studio. To learn more about building a playbook in Workflow Studio, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/building-a-process.md).
+-   An administrator adds the playbook to a Service Portal page and customizes the playbook runtime experience at the same time through the ServiceNow AI Platform®. To learn more about embedding a playbook in Service Portal and further customizations in the ServiceNow AI Platform®, see [Configure a playbook for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/embed-playbook-service-portal.md).
+-   Service Portal administrators and developers customize the playbook portal page. To learn more about using the Service Portal Designer to customize the playbook portal page, see [Customize a playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/customize-playbook-service-portal.md).
+-   Service Portal end users, also called requesters, launch and run through the playbook. To learn more about launching and running a playbook in Service Portal, see [Run a playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/run-a-playbook-in-service-portal.md).
 

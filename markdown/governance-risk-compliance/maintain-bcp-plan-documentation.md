@@ -2,6 +2,7 @@
 title: Create and manage plan documentation sections
 description: Use the documentation section to document the recovery capabilities of the plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/maintain-bcp-plan-documentation.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Document all additional information such as the goals, objectives, and scope tha
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the lists icon \(![Lists icon.](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon.\).
 
 3.  Click **In Draft** state in the Planning list.
 
@@ -35,7 +36,7 @@ Document all additional information such as the goals, objectives, and scope tha
 
     You can view each section of the documentation in a separate text box. The documentation sections that are part of the plan template, which you used to create the plan, default to this plan. You can create new sections to the documentation and edit existing sections as well.
 
-6.  To edit a documentation section, click the edit icon \(![Edit icon.](../image/EditIcon.png)\).
+6.  To edit a documentation section, click the edit icon \(\[Omitted image "EditIcon.png"\] Alt text: Edit icon.\).
 
     Use this icon to edit the title as well as the text in the description of the documentation section.
 
@@ -47,7 +48,7 @@ Document all additional information such as the goals, objectives, and scope tha
 
     When you reset, both the title and description along with the text in the documentation section are reset to the title, description, and documentation content in the plan template.
 
-9.  To delete a documentation section, click the delete icon \(![Delete icon.](../image/DeleteIcon.png)\).
+9.  To delete a documentation section, click the delete icon \(\[Omitted image "DeleteIcon.png"\] Alt text: Delete icon.\).
 
     This action deletes the documentation section.
 
@@ -63,7 +64,7 @@ Document all additional information such as the goals, objectives, and scope tha
 
 12. To save and exit the edit mode, click **Complete**.
 
-    After you click **Complete**, both the ![Edit icon.](../image/EditIcon.png) and ![Delete icon.](../image/DeleteIcon.png) icons are disabled. To enable the icons, click the **Edit** button in the documentation section text box.
+    After you click **Complete**, both the \[Omitted image "EditIcon.png"\] Alt text: Edit icon. and \[Omitted image "DeleteIcon.png"\] Alt text: Delete icon. icons are disabled. To enable the icons, click the **Edit** button in the documentation section text box.
 
 13. To view the subsequent section and scroll through all the sections, collapse the section after you complete editing.
 
@@ -77,14 +78,14 @@ Document all additional information such as the goals, objectives, and scope tha
 
         1.  To rearrange the section order, navigate to **Business Continuity** &gt; **Plan Configuration** &gt; **Plan Templates**
         2.  Click the plan template in the **Name** link.
-        3.  Click unlock document sections icon \(![Unlock document sections icon](../image/UnlockDocumentSectionicon.png)\)
-        4.  Click the add/remove multiple icon \(![Add or remove multiple icon](../image/AddRemoveMultipleIcon.png)\) and move the items in a preferred order in the **Document Sections** field.
+        3.  Click unlock document sections icon \(\[Omitted image "UnlockDocumentSectionicon.png"\] Alt text: Unlock document sections icon\)
+        4.  Click the add/remove multiple icon \(\[Omitted image "AddRemoveMultipleIcon.png"\] Alt text: Add or remove multiple icon\) and move the items in a preferred order in the **Document Sections** field.
 
-            ![Rearrange the order of document sections](../image/DocumentSectionConfigure.png "Document sections")
+            \[Omitted image "DocumentSectionConfigure.png"\] Alt text: Rearrange the order of document sections
 
         5.  Click **Update**.
     As a program manager, planner, viewer, or BCM administrator, you can only view the rearranged order of the sections in the workspace when your plan uses that template.
 
-    ![Order of documentation sections](../image/DocumentSectionOrder.png "Order of the sections in a document")
+    \[Omitted image "DocumentSectionOrder.png"\] Alt text: Order of documentation sections
 
 

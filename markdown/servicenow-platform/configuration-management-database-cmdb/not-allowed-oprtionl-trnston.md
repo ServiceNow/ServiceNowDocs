@@ -2,6 +2,7 @@
 title: Define a non-allowed operational transition
 description: Define a restriction for CI Lifecycle Management in which a specified CI cannot transition from one operational state to another.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/not-allowed-oprtionl-trnston.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -40,5 +41,5 @@ By default, CI Lifecycle Management has no restrictions for transitioning CIs fr
 
 If an API attempts to transition a CI that is in the specified operational state to a state that is not allowed, the operation fails and an error is logged.
 
-**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](../concept/cmdb-ci-lifecycle-mgmt.md)
+**Parent Topic:**[CMDB CI Lifecycle Management \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.md)
 

@@ -2,6 +2,7 @@
 title: Teams components in Workforce Optimization for ITSM
 description: Workforce Optimization for ITSM uses roles to administer teams and properties to modify default behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-teams-reference.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management

@@ -2,6 +2,7 @@
 title: Customize the Connect audio notification sound
 description: You can replace the default Connect audio notification sound with an audio file of your choice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/t\_CustomizeConnectAudioNotifSound.html
 release: australia
 product: Connect
 classification: connect
@@ -19,7 +20,7 @@ You can replace the default Connect audio notification sound with an audio file 
 
 Role required: admin
 
-[Upload the audio file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_UploadAnAudioFile.md) you want to use as the notification sound.
+Upload the audio file you want to use as the notification sound.
 
 Role required: admin
 

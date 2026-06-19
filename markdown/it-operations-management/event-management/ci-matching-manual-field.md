@@ -2,11 +2,12 @@
 title: Bind CIs using CI field matching and handling column name differences
 description: Bind CIs by matching event Additional information fields with CI attributes. If column names differ, manually create an additional key-value pair to align with the CI table, ensuring accurate CI association.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/ci-matching-manual-field.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -35,9 +36,9 @@ If no match is found using the **Node** field, the system looks at the **Additio
 
 5.  In the **Field Name** and **Field Value** fields, enter the corresponding field name and specify the source field from which the value should be populated.
 
-    ![Manual attribute for an alert.](../image/em-ms-iis-webserver-attribute.png)
+    \[Omitted image "em-ms-iis-webserver-attribute.png"\] Alt text: Manual attribute for an alert.
 
-    Use the add icon \(![Add icon](../image/em-add-icon.png)\) icon to add multiple fields as needed.
+    Use the add icon \(\[Omitted image "em-add-icon.png"\] Alt text: Add icon\) icon to add multiple fields as needed.
 
 6.  Select **Save**.
 

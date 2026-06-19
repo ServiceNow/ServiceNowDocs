@@ -2,6 +2,7 @@
 title: Reset Linux User Password activity
 description: The Reset Linux User Password activity resets the password for a given user on a Linux computer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_ResetLinuxUserPasswordActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -15,9 +16,9 @@ breadcrumb: [SSH activity pack, Orchestration activity packs, Classic Orchestrat
 
 The Reset Linux User Password activity resets the password for a given user on a Linux computer.
 
-This activity requires that the user executing the command be able to run the **chpasswd** command and, if expiring the password immediately, to run **chage** with [MID Server privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_PrivilegedCommandsForMIDServer.md).
+This activity requires that the user executing the command be able to run the **chpasswd** command and, if expiring the password immediately, to run **chage** with MID Server privileged commands.
 
-This activity replaces an SSH activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [SSH activity template](../../orchestration-activity-designer/task/t_CreateAnSSHActivity.md#), which gives workflow administrators the ability to store input and output variables in the [databus](../../orchestration-activity-designer/concept/c_OrchestrationDatabus.md#).
+This activity replaces an SSH activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [SSH activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAnSSHActivity.md), which gives workflow administrators the ability to store input and output variables in the [databus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationDatabus.md).
 
 ## Input variables
 
@@ -42,5 +43,5 @@ This activity replaces an SSH activity by the same name available in releases pr
 |Success|Activity successfully changed specified user's password|
 |Failure|Activity failed to change specified user's password.|
 
-**Parent Topic:**[SSH activity pack](../concept/c_OrchestrationSSHCustomActivities.md)
+**Parent Topic:**[SSH activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationSSHCustomActivities.md)
 

@@ -2,6 +2,7 @@
 title: Accept, reject, or cancel an evidence request using the Compliance Workspace
 description: Accept, reject, or cancel an evidence request when you receive the evidence you requested. After requesting an evidence request using the Compliance Workspace, when the requester receives the evidence, the requester can accept, reject, or cancel the evidence request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/accept-reject-cancel-evidence-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace

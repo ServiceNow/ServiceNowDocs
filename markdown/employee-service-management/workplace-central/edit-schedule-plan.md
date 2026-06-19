@@ -2,6 +2,7 @@
 title: Edit a schedule plan
 description: Edit a schedule plan to change the details, selected users, or selected spaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-central/edit-schedule-plan.html
 release: australia
 product: Workplace Central
 classification: workplace-central
@@ -27,7 +28,7 @@ Role required: sn\_wsd\_spcmgmt.project\_owner
 
     You can also open Workplace Central from the Employee Center by navigating to **Workspaces** &gt; **Workplace Central**.
 
-2.  Select the **Schedule Planner** icon \(![Schedule Planner icon.](../images/schedule-plan-icon.png)\).
+2.  Select the **Schedule Planner** icon \(\[Omitted image "schedule-plan-icon.png"\] Alt text: Schedule Planner icon.\).
 
 3.  From the Schedule Plans list, select the draft schedule plan that you want to edit.
 
@@ -39,8 +40,8 @@ Role required: sn\_wsd\_spcmgmt.project\_owner
 
 5.  Navigate to the Mapping page, then select **Create Plan**.
 
-    For more information about user-space mapping and validation, see [Create a schedule plan](create-schedule-plan.md).
+    For more information about user-space mapping and validation, see [Create a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/create-schedule-plan.md).
 
 
-**Parent Topic:**[Working with Schedule Planning](../concept/working-with-schedule-planning.md)
+**Parent Topic:**[Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/working-with-schedule-planning.md)
 

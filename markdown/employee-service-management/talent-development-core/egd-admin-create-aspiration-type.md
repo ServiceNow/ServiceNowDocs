@@ -2,6 +2,7 @@
 title: Add Talent Development Aspirations Types
 description: As an Talent admin you can add or manage Aspiration Types, which are used to identify employee aspirations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-admin-create-aspiration-type.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -27,10 +28,10 @@ Role required: sn\_egd\_core.admin
 
 3.  Complete the **Aspiration Type New record** form.
 
-    To see details about the different fields, see [Talent Aspiration types form](../reference/egd-aspiration-type-form.md).
+    To see details about the different fields, see [Talent Aspiration types form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-aspiration-type-form.md).
 
 4.  Select **Submit**
 
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](../concept/egd-administration.md)
+**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-administration.md)
 

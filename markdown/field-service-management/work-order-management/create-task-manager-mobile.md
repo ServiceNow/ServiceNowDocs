@@ -2,6 +2,7 @@
 title: Create a work order task
 description: Managers can quickly create tasks from Field Service Manager Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-task-manager-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -25,9 +26,9 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 2.  Tap the assignment group or territory that the agent you want to assign a task to is part of.
 
-3.  Tap the clipboard icon \(![clipboard](../image/manager-clipboard.png)\) next to an agent.
+3.  Tap the clipboard icon \(\[Omitted image "manager-clipboard.png"\] Alt text: clipboard\) next to an agent.
 
-4.  Tap the more actions icon \(![more actions](../image/more-action-mobile-dark.png)\).
+4.  Tap the more actions icon \(\[Omitted image "more-action-mobile-dark.png"\] Alt text: more actions\).
 
 5.  Tap **Create new work**.
 

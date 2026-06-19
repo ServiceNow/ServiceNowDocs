@@ -2,6 +2,7 @@
 title: Setup a Guardrail Service Provider
 description: Select a guardrail service provider of your choice in Now Assist Guardian to monitor and detect Now Assist interactions for harmful, offensive, and prompt injection content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/configure-guardrail-model.html
 release: australia
 topic_type: task
 last_updated: "2026-02-02"
@@ -19,7 +20,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-Now Assist Guardian supports multiple guardrail service provider types to monitor and detect harmful content. Select a provider based on your organization's requirements. Only one provider can be active at a time.
+Now Assist Guardian supports multiple guardrail service provider types to monitor and detect harmful content. Select a provider based on your organization's requirements. Only one provider can be active at a time. For more information about supported service providers, see [Configuring a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-byog.md).
 
 ## Procedure
 
@@ -36,5 +37,5 @@ Now Assist Guardian supports multiple guardrail service provider types to monito
 
 The selected guardrail service provider monitors and evaluates all Now Assist interactions for harmful, offensive, or prompt injection content.
 
-**Parent Topic:**[Configuring a Guardrail Service Provider](../concept/configuring-byog.md)
+**Parent Topic:**[Configuring a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/configuring-byog.md)
 

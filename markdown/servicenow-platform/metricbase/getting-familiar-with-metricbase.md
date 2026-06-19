@@ -2,6 +2,7 @@
 title: View demo data in MetricBase
 description: After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, you can use the demo to get familiar with MetricBase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/getting-familiar-with-metricbase.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -20,23 +21,23 @@ After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, y
 -   MetricBase and the MetricBase demo plugins must be installed by ServiceNow personnel.
 -   Role required: admin
 
-1.  Navigate to **MetricBase Demo** &gt; **Drones** to see the name, model, length, width, altitude, and speed for all drones in the fleet. ![Drone metrics](../image/drone-metrics.png)
+1.  Navigate to **MetricBase Demo** &gt; **Drones** to see the name, model, length, width, altitude, and speed for all drones in the fleet. \[Omitted image "drone-metrics.png"\] Alt text: Drone metrics
 2.  Select **MetricBase Demo** &gt; **Metrics** to see how the metrics are defined. In the Time Series Metrics list, the column values specify the table where the drone's time-series metrics are stored, the names of all the metrics that are stored for each drone, and the retention policy for each metric. The retention policy specifies how frequently measurements are taken, and how long MetricBase retains that data.
 
-    ![Metric definitions](../image/metric-definitions.png)
+    \[Omitted image "metric-definitions.png"\] Alt text: Metric definitions
 
     Now that you've seen the drone data and learned how to find it, let's see how the data was collected using a retention policy.
 
 3.  Select a retention policy. The Retention Policy form shows the definition for the policy. In the following example, this metric is measured once a minute for the first 8 days, then once every 10 minutes for the following 94 days, and then once an hour for the following 397 days. After that, the system discards the data.
 
-    ![Retention policy](../image/retention-policy.png)
+    \[Omitted image "retention-policy.png"\] Alt text: Retention policy
 
-    See [MetricBase retention policies](metricbase-retention-policies.md).
+    See [MetricBase retention policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-retention-policies.md).
 
 4.  To see how the data is aggregated during the Retention Durations, select the left arrow \(&lt;\) at the top of the Retention Policy Schedules window to return to the Time Series Metrics list.
 5.  Select a table name. The Time Series Metric definition shows the **Retention policy aggregator**. This aggregator summarizes the data as, for example, the average, maximum, or minimum value in the aggregation period. In the following example, the admin clicked the table for the speed metric. The result is that MetricBase stores the speed averages during each sampling period in the MetricBase database.
 
-    ![Data aggregation](../image/data-aggregation.png)
+    \[Omitted image "data-aggregation.png"\] Alt text: Data aggregation
 
     Now that you understand how the data was collected using retention policies, let's see how to display the data in lists and graphs.
 
@@ -45,24 +46,24 @@ After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, y
 8.  Select **MetricBase Demo** &gt; **Drones** and look at the speed \(kph\) column. From the previous step, you know that these values are the last speeds recorded for each drone up to an hour ago. The values are the same as you would get by using the `.list` command.
 9.  Select the speed value of the first drone. The following graph shows the speed of the drone that was measured hourly.
 
-    ![Speed measured over time](../image/speed-measured-hourly.png)
+    \[Omitted image "speed-measured-hourly.png"\] Alt text: Speed measured over time
 
     **Note:** You might need to select a different **Time Span** field value to get a clearer graph. For example, try **1 Day**. The speed is a sine wave because it's artificially generated. Hover over the sine wave to see the actual measurements.
 
 10. Select the left arrow \(&lt;\) to return to the list of drone metrics, right-click on one drone type \(**Model** column\), and select **Show Matching**. Only the drones of the selected type appear.
 11. Select the menu icon next to the Altitude column heading and select **Time Series Chart**. You see a graph that shows the altitude measurements of the Warbler-T7-type drones.
 
-    ![Altitude of all the drones](../image/altitude-drones.png)
+    \[Omitted image "altitude-drones.png"\] Alt text: Altitude of all the drones
 
     You might like to change the **Time Span** value for a clearer graph.
 
 12. Select the left arrow \(&lt;\) to return to the list of drone metrics.
-13. Click the menu icon next to the Altitude column heading and select **Time Series Chart Designer** to see another way of visualizing the data. ![Create a report](../image/create-a-report.png)
+13. Click the menu icon next to the Altitude column heading and select **Time Series Chart Designer** to see another way of visualizing the data. \[Omitted image "create-a-report.png"\] Alt text: Create a report
 14. In the Create a Report page that displays in the Reporting application, vary the graph parameters.
 
     **Note:** In the following steps, to stay on the same page, select **Run**. To advance to the next page when designing the graph, select **Next**.
 
-    1.  In the Type pane, select the kind of graph to display, and then click **Next**. ![Graph type](../image/type-of-graph.png)
+    1.  In the Type pane, select the kind of graph to display, and then click **Next**. \[Omitted image "type-of-graph.png"\] Alt text: Graph type
     2.  In the Configure pane, try changing the parameters. Click **Run** to view the results with each change.
         -   Change the **Report Title** to Warbler Altitude.
         -   Apply a condition to filter the view. For example, **\[Model\] \[is\] \[Warbler T7\]**.
@@ -72,27 +73,27 @@ After ServiceNow personnel install the MetricBase and MetricBase Demo plugins, y
 
             **Note:** **Relative** uses the **Last** timespan relative to the present time. For example, if **Last** is 1 hour, the time line in the graph always spans the previous hour. You can add this report to your dashboard to show the metrics in the previous hour.
 
-    3.  In the Style pane, change the **Chart color** value, and then click **Run**. ![Style pane](../image/style-pane.png)
+    3.  In the Style pane, change the **Chart color** value, and then click **Run**. \[Omitted image "style-pane.png"\] Alt text: Style pane
 
         You've displayed drone data in lists and graphs. Now, let's define a trigger that executes when data that you monitor reaches a threshold value.
 
-15. Select **MetricBase Demo** &gt; **Trigger Definitions**. The MetricBase Trigger Definitions list shows the name \(**Name**\) of the trigger, the metric \(**Metric**\) the trigger monitors, the table \(**Table name**\) the metric that it is in, the trigger description, and whether the trigger is active. Triggers kick off flows when metrics meet trigger thresholds. An example is when a drone flies too low. For more information about triggers, see [Trigger Workflows](../concept/metricbase-triggers.md).![Trigger definitions](../image/trigger-definitions.png)
-16. Select **Low-Battery Drone**. The MetricBase Linear Predictor trigger form displays the definition of the Low-Battery Drone trigger.![Linear trigger](../image/trigger-example-low-altitude.png)
+15. Select **MetricBase Demo** &gt; **Trigger Definitions**. The MetricBase Trigger Definitions list shows the name \(**Name**\) of the trigger, the metric \(**Metric**\) the trigger monitors, the table \(**Table name**\) the metric that it is in, the trigger description, and whether the trigger is active. Triggers kick off flows when metrics meet trigger thresholds. An example is when a drone flies too low. For more information about triggers, see [Trigger Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-triggers.md).\[Omitted image "trigger-definitions.png"\] Alt text: Trigger definitions
+16. Select **Low-Battery Drone**. The MetricBase Linear Predictor trigger form displays the definition of the Low-Battery Drone trigger.\[Omitted image "trigger-example-low-altitude.png"\] Alt text: Linear trigger
 
     In this example, the trigger monitors the **Remaining Battery \(%\)** metric \(**Metric**\) in the Drone table \(**Table name**\) every 10 minutes \(**Window**\). If the battery life is trending downward \(**Trend**\) and is 80% likely \(**Confidence Level**\) to reach 20% \(**Threshold**\) within 20 minutes \(under **Window** for **Level** 1\), the trigger executes. Although it fires, nothing happens until you associate this trigger with a flow. The flow defines the actions to take.
 
 17. Select **MetricBase** &gt; **Trigger Flows**.
 18. Select **New flow** to associate a trigger that is defined in the system to a flow.
-19. In the **Flow name** field, name the flow and select **Submit**. ![Flow Properties dialog box](../image/flow-dialog-box.png)
-20. Click **Add a Trigger** and select **MetricBase** in the list. ![Flow definition page](../image/flow-definition.png)
-21. In **MetricBase Trigger**, select a trigger that already exists and select **Done**. Alternately, select the plus sign to the right of **MetricBase Trigger** to create a new trigger. ![Choose a MetricBase trigger](../image/flow-mb-trigger-selection.png)
+19. In the **Flow name** field, name the flow and select **Submit**. \[Omitted image "flow-dialog-box.png"\] Alt text: Flow Properties dialog box
+20. Click **Add a Trigger** and select **MetricBase** in the list. \[Omitted image "flow-definition.png"\] Alt text: Flow definition page
+21. In **MetricBase Trigger**, select a trigger that already exists and select **Done**. Alternately, select the plus sign to the right of **MetricBase Trigger** to create a new trigger. \[Omitted image "flow-mb-trigger-selection.png"\] Alt text: Choose a MetricBase trigger
 22. Select **Add an Action, Flow Logic, or Subflow**.
 23. Select **Action** to specify the actions to take when the trigger fires. The Action dialog box appears.
 
-    ![Define an action](../image/flow-action.png)
+    \[Omitted image "flow-action.png"\] Alt text: Define an action
 
 24. Select a domain of actions from the left column and the specific action to take in the right column.
-25. Select **Save** and **Activate**. The flow doesn't execute unless it is activated. For more information about Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md).
+25. Select **Save** and **Activate**. The flow doesn't execute unless it is activated. For more information about Workflow Studio, see .
 
 The following table summarizes the modules in the MetricBase demo.
 
@@ -105,7 +106,7 @@ The following table summarizes the modules in the MetricBase demo.
 |Scheduled Jobs|Scheduled job that is created for the demonstration application. The job runs every five minutes to add data to the demo tables in the MetricBase database. You can change the schedule.|
 |Trigger Definitions|List of triggers that are defined in the demo. This list is the same table as **MetricBase** &gt; **MetricBase Triggers** &gt; **Trigger Definitions**. You can create additional triggers.|
 |Anomaly Logs|List of logs that result from triggers firing. The **Low-Flying Drone** trigger creates the anomaly logs.|
-|Data Explorer|Widget that enables you to experiment with MetricBase JavaScript APIs using the demonstration application data. See [Get Familiar with MetricBase APIs](../task/metricbase-data-explorer.md) for more information.|
+|Data Explorer|Widget that enables you to experiment with MetricBase JavaScript APIs using the demonstration application data. See [Get Familiar with MetricBase APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/metricbase-data-explorer.md) for more information.|
 
-**Parent Topic:**[Working with MetricBase demo data](../concept/working-with-metricbase-demo-data.md)
+**Parent Topic:**[Working with MetricBase demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/working-with-metricbase-demo-data.md)
 

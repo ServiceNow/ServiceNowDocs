@@ -2,6 +2,7 @@
 title: NetwareHandler - Global
 description: The NetwareHandler script include implements an SNMP handler for Netware OS.Classifies and identifies the SNMP device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_NetwareHandlerAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,7 +20,7 @@ This handler is designed to be invoked by Classify.java as an interim step towar
 
 Use this script include for SNMP classification.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## NetwareHandler - classifyAndIdentify\(\)
 

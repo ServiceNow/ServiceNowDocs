@@ -2,6 +2,7 @@
 title: Create a channel identifier for your custom chat integration
 description: Create a channel identifier for your custom chat integration in the Provider Channel Identities \[sys\_cs\_provider\_application\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-channel-id-va-cccif.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,9 +18,9 @@ Create a channel identifier for your custom chat integration in the Provider Cha
 
 ## Before you begin
 
-[Set up message authentication for your custom chat configuration](set-up-msg-auth-va-cccif.md).
+[Set up message authentication for your custom chat configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-msg-auth-va-cccif.md).
 
-If you're using [domain separation](../concept/domain-separation-virtual-agent.md), change the scope to the domain you want to use before you create the channel identifier. The domain ID will be stored in the \[sys\_cs\_provider\_application\] table and passed to the Virtual Agent server as a context parameter, which will set the domain for the user.
+If you're using [domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/domain-separation-virtual-agent.md), change the scope to the domain you want to use before you create the channel identifier. The domain ID will be stored in the \[sys\_cs\_provider\_application\] table and passed to the Virtual Agent server as a context parameter, which will set the domain for the user.
 
 Role required: admin
 
@@ -47,7 +48,7 @@ Role required: admin
 
 ## What to do next
 
-[Map rich controls to the channel in your custom chat integration](map-rich-controls-va-cccif.md)
+[Map rich controls to the channel in your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/map-rich-controls-va-cccif.md)
 
-**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](create-adapter-for-virtual-agent.md)
+**Parent Topic:**[Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md)
 

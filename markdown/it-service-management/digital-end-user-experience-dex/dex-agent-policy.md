@@ -2,6 +2,7 @@
 title: Managing DEX Agent policy
 description: Create and manage agent policies for your organization based on the device criteria defined to manage the DEX metrics that are tracked.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-agent-policy.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex

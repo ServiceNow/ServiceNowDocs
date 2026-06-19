@@ -2,6 +2,7 @@
 title: Create a document class
 description: Create fields as part of your document classification use case. Document Intelligence uses fields to define the classes or categories to apply to documents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/document-intelligence/create-document-classes.html
 release: australia
 product: Document Intelligence
 classification: document-intelligence
@@ -15,7 +16,7 @@ breadcrumb: [Set up document classification use cases, Configure, Document Intel
 
 Create fields as part of your document classification use case. Document Intelligence uses fields to define the classes or categories to apply to documents.
 
-**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](../concept/docintel-nowassist-landing.md).
+**Important:** Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md).
 
 ## Before you begin
 
@@ -79,5 +80,5 @@ Option to indicate whether the class is being used.
 
 The system added the new class field to the Fields list associated with the use case.
 
-![Document classification use case with classes](../image/docintel-class-use-case-example.png "Document classification use case with classes")
+\[Omitted image "docintel-class-use-case-example.png"\] Alt text: Document classification use case with classes
 

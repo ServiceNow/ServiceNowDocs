@@ -2,6 +2,7 @@
 title: How L1 punchout works
 description: In the Level 1 \(L1\) punchout, SPO and the punchout supplier communicate using the cXML protocol.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/level-one-punchout.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -17,7 +18,7 @@ In the Level 1 \(L1\) punchout, SPO and the punchout supplier communicate using 
 
 ## L2 punchout flow
 
-The following figure illustrates the L1 PunchOut flow.![L1 punchout flow.](../image/punchout-level-one-flow.png)
+The following figure illustrates the L1 PunchOut flow.\[Omitted image "punchout-level-one-flow.png"\] Alt text: L1 punchout flow.
 
 ## Communication between SPO and punchout supplier for Level 1 punchout
 
@@ -25,7 +26,7 @@ The following figure illustrates the interaction between SPO and the punchout su
 
 **Note:** This flow is also applicable to other PunchOut systems; however, the content of the cXML payloads may vary depending on the provider.
 
-![Communication between SPO and punchout supplier site.](../image/punchout-spo-site-comm.png)
+\[Omitted image "punchout-spo-site-comm.png"\] Alt text: Communication between SPO and punchout supplier site.
 
 ## Cart checkout from the punchout supplier site
 
@@ -38,7 +39,7 @@ The cart checkout flow involves the following:
 
 The following figure illustrates this flow:
 
-![Cart checkout from punchout system.](../image/punchout-cart-checkout.png)
+\[Omitted image "punchout-cart-checkout.png"\] Alt text: Cart checkout from punchout system.
 
 ## Sending purchase order to punchout system
 
@@ -50,19 +51,19 @@ Sending purchase order information to the punchout supplier system involves the 
 
 The following figure illustrates this flow:
 
-![Sending PO to punchout system.](../image/punchout-sending-po.png)
+\[Omitted image "punchout-sending-po.png"\] Alt text: Sending PO to punchout system.
 
 ## Processing order confirmation and shipping confirmation from punchout supplier system
 
-The punchout supplier sends the order confirmation payload to the Order Confirmation URL, which is configured in the punchout supplier's system. Similarly, for each order line, the punchout supplier may optionally send a shipping confirmation payload to the Shipping Confirmation URL. For more information, see [Providing Order and Shipping Confirmation URLs to Punchout Suppliers](punchout-urls.md).
+The punchout supplier sends the order confirmation payload to the Order Confirmation URL, which is configured in the punchout supplier's system. Similarly, for each order line, the punchout supplier may optionally send a shipping confirmation payload to the Shipping Confirmation URL. For more information, see [Providing Order and Shipping Confirmation URLs to Punchout Suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/punchout-urls.md).
 
 The following figure illustrates this flow:
 
-![Order confirmation from punchout system.](../image/punchout-order-confirmation.png "Processing order confirmation from punchout system")
+\[Omitted image "punchout-order-confirmation.png"\] Alt text: Order confirmation from punchout system.
 
 The following figure illustrates this flow:
 
-![Shipping confirmation from punchout system.](../image/punchout-shipping-confirm.png "Processing shipping confirmation from punchout system")
+\[Omitted image "punchout-shipping-confirm.png"\] Alt text: Shipping confirmation from punchout system.
 
-**Parent Topic:**[Understanding Punchout](punchout-overview.md)
+**Parent Topic:**[Understanding Punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
 

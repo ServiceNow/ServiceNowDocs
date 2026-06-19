@@ -2,13 +2,14 @@
 title: Add or edit expense lines
 description: Create an expense line to capture the cost associated with a specific source, such as a user or a fixed asset. Expense lines are part of demand cost plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-or-edit-expense-lines-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage financials for demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Add or edit expense lines
@@ -29,7 +30,7 @@ Expense lines on a demand record track the costs incurred during the demand eval
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
@@ -43,7 +44,7 @@ Expense lines on a demand record track the costs incurred during the demand eval
     -   To update the details of an existing expense line, select the record.
 5.  On the Create New Expense Line form, fill in the fields.
 
-    For a description of the field names, see [Create expense line form](../reference/expense-line-form-dw.md).
+    For a description of the field names, see [Create expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/expense-line-form-dw.md).
 
 6.  Select **Save**.
 

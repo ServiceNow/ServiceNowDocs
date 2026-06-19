@@ -2,6 +2,7 @@
 title: Submit JSA form
 description: Employees can use the Submit JSA form to analyze their job safety at their point of work and create a JSA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-form.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Em
 
 Employees can use the Submit JSA form to analyze their job safety at their point of work and create a JSA.
 
-For more information on submitting a JSA, see [Submit a JSA from Employee Center](../task/hs-submit-jsa-emp-center.md).
+For more information on submitting a JSA, see [Submit a JSA from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-submit-jsa-emp-center.md).
 
 <table id="table_hxh_43r_b1c"><thead><tr><th>
 
@@ -59,7 +60,7 @@ Select job
 
 </td><td>
 
-Job with pre-defined hazards and controls for your job type. If you select a job, all hazards and control measures for your job type are auto-populated from this pre-defined job.Only the active jobs from the Job \[sn\_hs\_rm\_job\] table are available in this list. For more information, see [Define a job in the job register](../task/hs-define-job-register.md).
+Job with pre-defined hazards and controls for your job type. If you select a job, all hazards and control measures for your job type are auto-populated from this pre-defined job.Only the active jobs from the Job \[sn\_hs\_rm\_job\] table are available in this list. For more information, see [Define a job in the job register](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-define-job-register.md).
 
 </td></tr><tr><td>
 
@@ -99,8 +100,8 @@ Job steps and their associated hazards and control measures.This field appears o
 
 If you selected a multi-step job in the **Select job** field, all its job steps and their associated hazards and controls are auto-populated in this field.
 
--   However, you can add or remove job steps as required. To remove a job step that isn't relevant for your job, select the remove icon \(![Remove icon](../image/icon-remove.png)\) in the **Actions column**. To remove all job steps, select **Remove all**.
--   You can also add or remove hazards and controls for each job step. To review them, select the edit icon \(![Edit icon](../../customer-service-management/image/icon-pencil-ac.png)\) in the **Actions column** for the job step.
+-   However, you can add or remove job steps as required. To remove a job step that isn't relevant for your job, select the remove icon \(\[Omitted image "icon-remove.png"\] Alt text: Remove icon\) in the **Actions column**. To remove all job steps, select **Remove all**.
+-   You can also add or remove hazards and controls for each job step. To review them, select the edit icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\) in the **Actions column** for the job step.
 
 </td></tr><tr><td>
 
@@ -120,8 +121,8 @@ Hazards and the available control measures associated with a job.This field appe
 
 If you selected a single-step job in the **Select job** field, all hazards and control measures for your job type are auto-populated from this pre-defined job. However, you can add or remove them as required.
 
--   To remove a hazard and control that isn't relevant for your job, select the remove icon \(![Remove icon](../image/icon-remove.png)\) in the **Actions column**. To remove all of them, select **Remove all**.
--   To review and modify them, select the edit icon \(![Edit icon](../../customer-service-management/image/icon-pencil-ac.png)\) in the **Actions column**.
+-   To remove a hazard and control that isn't relevant for your job, select the remove icon \(\[Omitted image "icon-remove.png"\] Alt text: Remove icon\) in the **Actions column**. To remove all of them, select **Remove all**.
+-   To review and modify them, select the edit icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\) in the **Actions column**.
 
 </td></tr><tr><td>
 
@@ -179,8 +180,8 @@ Add them with an acknowledgement using the **Add employee/workers** button.
 
 **Note:**
 
--   The **Contractor** option in the **Person type** field appears only when the Health and Safety Contractor Management \(sn\_hs\_crm\) application is installed on your instance. For more information, see [Additional features in Health and Safety](../../ohs-incident-management/task/install-hs-incident-mgmt.md#table_ix1_bff_gxb).
--   For a contractor, the **Name** field only lists users who have the \[snc\_external\] role assigned to them and have their Health and Safety profile created. For more information, see [Assign Health and Safety profile to a user](../../ohs-incident-management/task/assign-hs-profile-user.md).
+-   The **Contractor** option in the **Person type** field appears only when the Health and Safety Contractor Management \(sn\_hs\_crm\) application is installed on your instance. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
+-   For a contractor, the **Name** field only lists users who have the \[snc\_external\] role assigned to them and have their Health and Safety profile created. For more information, see [Assign Health and Safety profile to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/assign-hs-profile-user.md).
 
 </td></tr><tr><td>
 
@@ -199,5 +200,5 @@ Add attachments
 Attachments such as image, video, or document related to this job or JSA.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Risk Management reference](../concept/hs-risk-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-risk-mgmt-reference.md)
 

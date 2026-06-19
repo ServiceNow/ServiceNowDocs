@@ -2,14 +2,15 @@
 title: Configure TISC add-on in Splunk
 description: Configure the TISC add-on in Splunk to connect your account, define data inputs, and pull observable records into the KV store for search and analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-configure-splunk.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 7
 keywords: [configure, tisc add-on, splunk]
-breadcrumb: [TISC add-on for Splunk overview, Configure Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [TISC add-on for Splunk overview, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure TISC add-on in Splunk
@@ -86,15 +87,17 @@ Interval
 
 </td><td>
 
-Set time interval in seconds to retrieve the data from TISC.
+Set time interval in seconds to retrieve the incremental data from TISC to the Splunk instance.
 
 </td></tr><tr><td>
 
-Expiry Period\(in days\)
+Offset \(in seconds\)
 
 </td><td>
 
-Option to set the expiry period in days.**Note:** The sample expiration is set to 30 days. For example, when data is pulled on a specific date, a set of 10,000 records may be retrieved. These records are stored in the KV \(Key-Value\) store within Splunk. Starting from the ingested date, the records are retained for 30 days. On the 31st day, they are automatically deleted from the KV store.
+Number of seconds to subtract from the last execution time when building the incremental fetch filter. For example, if the last fetch ran at 10:00:00 and **Offset** is set to 5, the next fetch requests records updated since 09:59:55, creating a 5-second overlap window. The offset ensures that records updated in TISC at the same time as the data being retrieved from Splunk, are included in sequential runs and not overlooked.Valid values: 1 to 30. Default: 5. Empty: no offset.
+
+**Note:** A higher offset value reduces the chance of missed records, but may fetch duplicate records.
 
 </td></tr><tr><td>
 
@@ -103,6 +106,32 @@ Never Expire
 </td><td>
 
 Choose this option if you don't want to expire the records ingested.
+
+</td></tr><tr><td>
+
+Expiration Type
+
+</td><td>
+
+Controls how the records expire from the Splunk KV store: -   **Splunk-side expiry** — Records expire after the number of days configured in **Expiry Period \(in days\)**, calculated from the time of ingestion into Splunk.
+-   **Map TISC expiration** — Records expire when the `expiration_time` configured for the TISC observable `` is reached.
+
+
+</td></tr><tr><td>
+
+Expiry Period \(in days\)
+
+</td><td>
+
+Option to set the expiry period in days — displayed when you select **Splunk-side expiry**. **Note:** The sample expiration is set to 30 days. For example, when data is pulled on a specific date, a set of 10,000 records may be retrieved. These records are stored in the KV \(Key-Value\) store within Splunk. Starting from the ingested date, the records are retained for 30 days. On the 31st day, they are automatically deleted from the KV store.
+
+</td></tr><tr><td>
+
+Enable Historical Fetch
+
+</td><td>
+
+Select this option to fetch records from a date and time you specify, instead of only the delta since the last fetch. The fetch runs once on the next interval and then the option is disabled automatically. To run another historical fetch, re-enable the option and set a new start date.
 
 </td></tr><tr><td>
 
@@ -120,8 +149,9 @@ Filters
 
 Conditions that determine which data is imported and filtered. To set the filter conditions, you can define the criteria based on the fields such as threat score, confidence level, and type.
 
-For simple conditions, use this filtering option. For complex conditions, add JSON filters.
+Use this option for simple, single-level conditions joined by AND operators. For complex conditions or nested groups, select **JSON Filters**.
 
+ -   Allowed tokens: `threat_score`, `confidence`, `reputation`, `type`, `value`.
 -   The allowed integer operators are:
 
 "=", "!=", "&gt;", "&lt;", "&gt;=", "&lt;="
@@ -130,28 +160,28 @@ For simple conditions, use this filtering option. For complex conditions, add JS
 
 "=", "!=", "IN"
 
-Example of a simple filter:
+Simple filter example:
 
 ```
-{Sample filter format: Allowed Tokens: "threat_score", "confidence", "reputation", "type", "value". Allowed Integer Operators: "=", "!=", ">", "<", ">=", "<=". Allowed String Operators: "=", "!=", "IN". Example: reputation IN ("clean","suspicious","malicious") AND threat_score > 90 AND confidence > 90 AND type = "ip_v4_address"}
+reputation IN ("clean","suspicious","malicious") AND threat_score > 90 AND confidence > 90 AND type = "ip_v4_address"
 ```
 
 </td></tr><tr><td>
 
-JSON
+JSON Filters
 
 </td><td>
 
-JSON-based filters for defining more complex conditions.
+JSON-format filters for more complex conditions, including grouped boolean logic. Filters support up to 2 levels of nesting. The top-level can use `AND` or `OR` as the boolean operator, with individual filter conditions or one level of nested boolean groups beneath it. Filters with nesting deeper than 2 levels are rejected. **Note:** When using a top-level OR filter, the latest version of TISC must be installed.
+
+Sample JSON filter:
+
+```
+{"boolean_operator":"AND","filters":[{"field_name":"reputation","operator":"IN","field_value":"clean,suspicious,malicious"},{"field_name":"threat_score","operator":">","field_value":"90"},{"field_name":"confidence","operator":">","field_value":"90"},{"field_name":"type","operator":"=","field_value":"ip_v4_address"}]}
+```
 
 </td></tr></tbody>
-</table>    Sample advanced filter:
-
-    ```
-    {"boolean_operator":"AND","filters":[{"field_name":"reputation","operator":"IN","field_value":"clean,suspicious,malicious"},{"field_name":"threat_score","operator":">","field_value":"90"},{"field_name":"confidence","operator":">","field_value":"90"},{"field_name":"type","operator":"=","field_value":"ip_v4_address"}]}
-    ```
-
-    **Note:** Accounts are active by default, but inputs are inactive by default. Activate inputs to start importing data. For possible filters refer to Observable\_filters section in [Adds observable source records to the Threat Intelligence Security Center \(TISC\)](https://www.servicenow.com/docs/bundle/australia-api-reference/page/integrate/inbound-rest/concept/tisc-api.html#title_tisc-POST-observables) application.
+</table>    **Note:** Accounts are active by default, but inputs are inactive by default. Activate inputs to start importing data. For possible filters refer to Observable\_filters section in Adds observable source records to the Threat Intelligence Security Center \(TISC\) application.
 
 9.  Select **Add** to save the inputs.
 
@@ -164,9 +194,12 @@ JSON-based filters for defining more complex conditions.
     |Field|Description|
     |-----|-----------|
     |confidence|Indicates the confidence level associated with the accuracy of the threat score.|
-    |\[kvlookup\_created\_time\]|Indicates the record creation time in the key value store.|
-    |\[kvlookup\_days\_till\_expiry\]|Indicates the number of days before the record is deleted from the KV store.|
     |instance\_url|Indicates the ServiceNow instance URL.|
+    |kvlookup\_created\_time|Indicates the record creation time in the key value store.|
+    |kvlookup\_days\_till\_expiry|Indicates the number of days before the record is deleted from the KV store.|
+    |kvlookup\_expiration\_time|Expiration time of the record in Splunk.|
+    |kvlookup\_updated\_time|Indicates the timestamp when the record was last updated in the key value store.|
+    |last\_updated\_by\_input\_name|Name of the input that most recently created or updated this record.|
     |reputation|Indicates the reputation of the entity involved.|
     |source\_reported\_score|The reported source score from TISC.|
     |sys\_id|Sys ID of the record from TISC.|
@@ -175,7 +208,6 @@ JSON-based filters for defining more complex conditions.
     |threat\_severity|Indicates the threat severity of the observable.|
     |type|Indicates the observables type.|
     |updated\_by|The user who last updated the record.|
-    |kvlookup\_updated\_time|Indicates the timestamp when the record was last updated in the key value store.|
     |value|Value of the record. For example, IP address, hash, and similar values.|
 
     |Field|Description|
@@ -186,7 +218,7 @@ JSON-based filters for defining more complex conditions.
     |comments|Any additional comments for the observable.|
     |created|Indicates when the observable was created.|
     |description|Description of the observable.|
-    |expiration\_time|Specifies the expiration time of the observable record.|
+    |expiration\_time|Specifies the expiration time of the observable record in TISC.|
     |extensions|Indicates the extensions of an observable.|
     |first\_observed|The first time when the data was observed.|
     |first\_seen|The first time this record was seen performing malicious activities.|
@@ -213,5 +245,5 @@ JSON-based filters for defining more complex conditions.
     These fields along with any others defined by your criteria will be available in Splunk and can be viewed, searched, and analyzed through the search tab.
 
 
-**Parent Topic:**[TISC add-on for Splunk overview](../concept/tisc-addon-splunk.md)
+**Parent Topic:**[TISC add-on for Splunk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-addon-splunk.md)
 

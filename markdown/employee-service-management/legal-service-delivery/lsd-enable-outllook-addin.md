@@ -2,6 +2,7 @@
 title: Deploy Microsoft Outlook Add-In for Legal Service Delivery
 description: Deploy Microsoft Outlook Add-In for Legal Service Delivery for it to be available in Microsoft Outlook to submit legal requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/lsd-enable-outllook-addin.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -40,5 +41,5 @@ The ServiceNow for Legal Add-in is available in the Outlook ribbon.
 
 If you do not want to open the ServiceNow for Legal add-in each time you select a new email, keep it pinned by making changes to the manifest file. For more information on the changes to be made to the manifest file, see [Implement a pinnable task pane in Outlook](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/pinnable-taskpane?tabs=jsonmanifest) topic in the Microsoft Outlook documentation.
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](../concept/lsd-outlook-addin-configure.md)
+**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 

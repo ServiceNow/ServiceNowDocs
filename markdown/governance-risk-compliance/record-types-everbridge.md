@@ -2,6 +2,7 @@
 title: Import record types from Everbridge
 description: Import the record types for your organization ID from Everbridge and use them to create contacts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/record-types-everbridge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

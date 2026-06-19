@@ -2,6 +2,7 @@
 title: Aggregate a report on count
 description: When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The count aggregation gives the number of records in each element of a visualization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/aggregate-report-count.html
 release: australia
 product: Reporting
 classification: reporting
@@ -27,7 +28,7 @@ These images compare Count and Count Distinct. The first shows that the raw coun
 
 |Count|Count Distinct|
 |-----|--------------|
-|![Bar chart aggregated by Count with four bars, one showing the count for 90 days equals 632.](../image/aggregation-count.png)|![Bar chart aggregated by Count Distinct with four bars, one showing the distinct count for 90 days equals 8.](../image/aggregation-count-distinct.png)|
+|\[Omitted image "aggregation-count.png"\] Alt text: Bar chart aggregated by Count with four bars, one showing the count for 90 days equals 632.|\[Omitted image "aggregation-count-distinct.png"\] Alt text: Bar chart aggregated by Count Distinct with four bars, one showing the distinct count for 90 days equals 8.|
 
 ## Procedure
 

@@ -2,11 +2,12 @@
 title: Inspect the client request
 description: Before creating a custom encryption rule, you must determine the format of the client request entering the Edge Encryption proxy server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/request-type.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Because encryption rules iterate over client requests and determine what, if anything, needs to be encrypted, you must understand the type of request you are creating a rule for. The format of the client request determines the structure of your encryption rule and the APIs available for use in the rule.
+Because encryption rules iterate over client requests and determine what, if anything, needs to be encrypted, you must understand the type of request you're creating a rule for. The format of the client request determines the structure of your encryption rule and the APIs available for use in the rule.
 
 ## Procedure
 
@@ -69,12 +70,12 @@ Use an HTTP protocol analyzer to inspect the request. Useful tools include:
     -   The URL parameters
     -   The POST parameters, if any
     -   The format of the request body, if included
-    ![Example](../images/client-request.png)
+    \[Omitted image "client-request-2.png"\] Alt text: Client request example
 
 
 ## Result
 
-Inspecting the request provides an understanding of the fields you need to filter for and iterate over in your encryption rule. To understand the fields in the request object, see [request](../concept/c_requestAPI.md#).
+Inspecting the request provides an understanding of the fields you need to filter for and iterate over in your encryption rule. To understand the fields in the request object, see [request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_requestAPI.md).
 
-**Parent Topic:**[Define a custom encryption rule](../concept/c_EncryptionRules.md)
+**Parent Topic:**[Define a custom encryption rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EncryptionRules.md)
 

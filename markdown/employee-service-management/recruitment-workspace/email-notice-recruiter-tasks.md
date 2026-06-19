@@ -2,6 +2,7 @@
 title: Task email notifications for recruiters
 description: The email notifications provide alerts to the recruiters when a task is completed by an applicant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/email-notice-recruiter-tasks.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -21,5 +22,5 @@ The same is visible on the application record page in Recruitment workspace. If 
 
 Receive a reminder email when an assigned task is overdue. The **Notify Recruiters when Due Date is yesterday\(Overdue by one day\)** scheduled job is active by default.
 
-**Parent Topic:**[Using Recruitment workspace](use-recruit-workspace.md)
+**Parent Topic:**[Using Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/use-recruit-workspace.md)
 

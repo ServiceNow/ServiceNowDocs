@@ -2,6 +2,7 @@
 title: Edit PaCE policy tags
 description: Edit and remove tags from a PaCE policy as required. When editing a tag, you can also define who can view the tag.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-edit-tags.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -35,16 +36,16 @@ Role required: sn\_pace.admin
     2.  In the Edit Tag dialog, edit the tag name.
     3.  In the Viewable by list, select from **Me**, **Groups and Users**, or **Everyone**. By default, **Me** is selected when initially creating a tag.
 
-        ![Edit a tag.](../image/pace-edit-tag-2.jpg)
+        \[Omitted image "pace-edit-tag-2.jpg"\] Alt text: Edit a tag.
 
         **Note:** When you select **Groups and Users**, you are prompted to choose the ServiceNow AI Platform groups and users who can view the tag.
 
-        ![Tag group and users.](../image/pace-edit-tag-group-2.jpg)
+        \[Omitted image "pace-edit-tag-group-2.jpg"\] Alt text: Tag group and users.
 
     4.  Click **Save**.
 5.  To remove a tag, click the x on the tag itself.
 
-    ![Remove a tag.](../image/pace-tags-remove-2.jpg)
+    \[Omitted image "pace-tags-remove-2.jpg"\] Alt text: Remove a tag.
 
     The tag is removed from the policy.
 

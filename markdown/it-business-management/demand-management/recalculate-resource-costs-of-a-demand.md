@@ -2,6 +2,7 @@
 title: Recalculate costs of resource assignments of a demand
 description: Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -26,7 +27,7 @@ Role required: demand\_manager
 
 ## About this task
 
-This option recalculates the costs of all resource assignments of the demand at once. You can also open a resource assignment from the **Resource assignments** related list to [recalculate the resource costs of an individual resource assignment](../../resource-management/task/recalculate-resource-costs.md).
+This option recalculates the costs of all resource assignments of the demand at once. You can also open a resource assignment from the **Resource assignments** related list to [recalculate the resource costs of an individual resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/recalculate-resource-costs.md).
 
 ## Procedure
 
@@ -38,7 +39,7 @@ This option recalculates the costs of all resource assignments of the demand at 
 
 4.  In the Recalculate Resource Cost form, fill in the fields.
 
-    For a description of the field names, see [Recalculate resource costs form](../reference/recalculate-resource-costs-form.md).
+    For a description of the field names, see [Recalculate resource costs form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/recalculate-resource-costs-form.md).
 
 5.  Select **OK**.
 
@@ -49,5 +50,5 @@ This option recalculates the costs of all resource assignments of the demand at 
 -   Updates the recalculated resource costs on the respective cost fields on the resource assignment form and the Resource assignments related list.
 -   Reflects the revised values in the respective cost fields of the demand.
 
-**Parent Topic:**[Create and manage resource assignments for a demand](create-manage-resource-plans-demand.md)
+**Parent Topic:**[Create and manage resource assignments for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/create-manage-resource-plans-demand.md)
 

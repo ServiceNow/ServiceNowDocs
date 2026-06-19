@@ -2,6 +2,7 @@
 title: Configure the time zone setting for badge and daily log data
 description: Add a script include in the Global scope to consider the affected user's time zone when you run a diagnostic request using the badge reader or user daily log data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contact-tracing/add-script-include-contact-tracing.html
 release: australia
 product: Contact Tracing
 classification: contact-tracing
@@ -79,5 +80,5 @@ Role required: admin
 
 The script is used when you run the diagnostic request using the badge reader or user daily log data source. These data sources identify the potentially exposed users who might have come in contact with an affected user. The script considers the affected user's time zone while calculating the date and time from the badge swipe data or daily log data.
 
-**Parent Topic:**[Setting up Contact Tracing](../concept/set-up-contact-tracing.md)
+**Parent Topic:**[Setting up Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/set-up-contact-tracing.md)
 

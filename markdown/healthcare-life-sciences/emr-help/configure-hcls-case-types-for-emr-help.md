@@ -2,6 +2,7 @@
 title: Configure healthcare case types for EMR Help
 description: Configure healthcare case types for EMR Help to fulfill service requests made from the EMR Help portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/configure-hcls-case-types-for-emr-help.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -19,7 +20,7 @@ The base healthcare case type \[sn\_hcls\_case\] is an abstract case type, which
 
 EMR Help provides a default record producer and request definition built on this base case type as an example of how you might configure your own.
 
-You must configure your own healthcare case type to fulfill records created against the abstract case type. For more information on the abstract Healthcare case type, see [Healthcare case table](../reference/hcls-case-table.md).
+You must configure your own healthcare case type to fulfill records created against the abstract case type. For more information on the abstract Healthcare case type, see [Healthcare case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-case-table.md).
 
 The following steps walk you through creating a case type and modifying the default record producer and request definition to support it.
 

@@ -2,6 +2,7 @@
 title: Edge configuration form
 description: Use the Edge configuration form to configure the Edge configurations settings such as the label, tooltip, default edge type for the edge of the selected node.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/edge-configuration-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

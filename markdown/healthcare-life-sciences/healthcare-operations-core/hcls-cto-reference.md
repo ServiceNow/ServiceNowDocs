@@ -2,6 +2,7 @@
 title: Healthcare Operations Core Reference
 description: Reference topics provide additional information about Care Team Operations components, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-reference.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

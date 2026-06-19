@@ -2,6 +2,7 @@
 title: Set up the Microsoft Azure Blob Storage Spoke
 description: Configure the Microsoft Azure Blob Storage connection alias record on your ServiceNow instance. This enables the authentication of connection requests from the ServiceNow instance by the Microsoft Azure portal.Create an OAuth application on Microsoft Azure that authenticates requests for OAuth tokens from your ServiceNow instance.Configure the connection and credential alias record of the Microsoft Azure Blob Storage to send a request for an OAuth token from your ServiceNow instance and have it authenticated by the Microsoft Azure portal. After authentication, an OAuth token is available to your instance to access the Microsoft Azure Blob Storage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-blob-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

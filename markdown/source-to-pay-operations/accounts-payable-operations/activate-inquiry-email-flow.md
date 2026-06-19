@@ -1,19 +1,21 @@
 ---
 title: Activate the Create Inquiry Case on Invoice email flow
-description: Activate the Create Inquiry Case on Invoice email flow to automatically create an invoice inquiry case based on the information in an inbound email.
+description: Activate the Create Inquiry Case on Invoice email flow to automatically create invoice inquiry cases from inbound emails.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/activate-inquiry-email-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, invoice inquiry case, inbound integration, email ingestion, admin]
 breadcrumb: [Components installed with Invoice Case Management, Install Invoice Case Management, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Activate the Create Inquiry Case on Invoice email flow
 
-Activate the **Create Inquiry Case on Invoice email** flow to automatically create an invoice inquiry case based on the information in an inbound email.
+Activate the **Create Inquiry Case on Invoice email** flow to automatically create invoice inquiry cases from inbound emails.
 
 ## Before you begin
 
@@ -25,7 +27,7 @@ Role required: admin
 
 2.  Search for and select the **Create Inquiry Case on Invoice email** flow to open it.
 
-3.  Select the more actions icon \(![more actions](../../supplier-lifecycle-operations/image/more-actions-icon.png)\) in the top right and select **Copy flow**.
+3.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions\) in the top right and select **Copy flow**.
 
     The Create a copy of this flow dialog box is displayed.
 
@@ -44,5 +46,5 @@ Role required: admin
 9.  Select **Activate**.
 
 
-**Parent Topic:**[Components installed with Invoice Case Management](../reference/installed-with-invoice-case-mgmt.md)
+**Parent Topic:**[Components installed with Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/installed-with-invoice-case-mgmt.md)
 

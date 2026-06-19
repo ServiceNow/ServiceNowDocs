@@ -2,7 +2,10 @@
 title: Accessibility and conformance
 description: View a summary of accessibility updates and improvements completed for the Australia family release. Learn which Voluntary Product Accessibility Template \(VPAT\) was used to create Accessibility Conformance Reports \(ACRs\) for ServiceNow products and where to access them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/r\_Accessibility508Compliance.html
 release: australia
+product: Release Notes
+classification: release-notes
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2

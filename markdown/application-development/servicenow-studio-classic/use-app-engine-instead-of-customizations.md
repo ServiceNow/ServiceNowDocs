@@ -2,6 +2,7 @@
 title: Use App Engine instead of customizations
 description: Use App Engine development tools to extend the ServiceNow AI Platform without customizing existing applications. Building a new app preserves upgrade compatibility and keeps your changes isolated and easier to maintain.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/use-app-engine-instead-of-customizations.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
@@ -80,5 +81,5 @@ Customization and configuration are hallmarks of the ServiceNow AI Platform that
 2.  Customize an application only when it extends the intent of the application.
 3.  Use App Engine developer products, such as App Engine Studio, Creator Studio, and ServiceNow Studio, to create new applications rather than customizing an application to create functionality that doesn’t align with its original purpose.
 
-For more information, see [Customization vs configuration with ServiceNow Studio](sn-studio-custom-vs-config.md).
+For more information, see [Customization vs configuration with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/sn-studio-custom-vs-config.md).
 

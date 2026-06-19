@@ -2,13 +2,14 @@
 title: Make a reservation using the Now Mobile app
 description: Reserve a workplace location from anywhere and at any time using the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 13
-breadcrumb: [Using Workplace Service Delivery for Mobile, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Make a reservation using the Now Mobile app
@@ -21,18 +22,18 @@ Ensure that you have the following applications installed:
 
 -   Workplace Core \(sn\_wsd\_core\).
 
-    For more information, see [Install Workplace Core](../../workplace-service-delivery/task/install-workplace-service-delivery.md).
+    For more information, see [Install Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/install-workplace-service-delivery.md).
 
 -   Workplace Reservation Management \(sn\_wsd\_rsv\).
 
-    For more information, see [Install Workplace Reservation Management](../../wsd-reservation-management/task/install-wsd-reservation-mgmt.md).
+    For more information, see [Install Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/install-wsd-reservation-mgmt.md).
 
 -   Workplace Service Delivery for Mobile
 
 To view floor maps, you must have the following installed:
 
 -   Workplace Space Mapping, Workplace Indoor Mapping, and Mappedin are installed
--   Ensure Map view is enabled. For more information, see [Enable map view to create reservations](enable-map-view-mobile-reservations.md).
+-   Ensure Map view is enabled. For more information, see [Enable map view to create reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/enable-map-view-mobile-reservations.md).
 
 **Note:** Creating reservations for shift-based modules aren’t supported on native mobile.
 
@@ -42,9 +43,9 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  On your mobile device, open the Now Mobile app.
 
-    ![Workplace Service Delivery Mobile Home Screen](../images/wsd-mobile-homepage.png)
+    \[Omitted image "wsd-mobile-homepage.png"\] Alt text: Workplace Service Delivery Mobile Home Screen
 
-    ![Mobile home screen showing the Make a reservation option.](../images/wsd-mobile-make-rsv-home-page.png)
+    \[Omitted image "wsd-mobile-make-rsv-home-page.png"\] Alt text: Mobile home screen showing the Make a reservation option.
 
 2.  Tap **Make a reservation**.
 
@@ -52,7 +53,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
     For example: Select **Desks**.
 
-    ![Make a reservation screen showing Reservable Modules.](../images/wsd-mobile-reservable-module-desks.png)
+    \[Omitted image "wsd-mobile-reservable-module-desks.png"\] Alt text: Make a reservation screen showing Reservable Modules.
 
 4.  In case, if you have set the Reservable Module property **Max days for multi-day** for two or more days, the **Make a reservation** screen shows the number of reservable days up to which a multi-day reservation can be made.
 
@@ -60,7 +61,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
     If the **Max days for multi-day** value is set to 1, only single day reservations can be made and the **All day** option is enabled while making a reservation. If the **Max days for multi-day** value is set to 2 or higher value, the **All day** reservation option is disabled.
 
-    ![Max days for multi-day value of 7 and Max days in future of 90 days shown on the Make a reservation screen.](../images/wsd-multi-day-rsv-mob-1.png)
+    \[Omitted image "wsd-multi-day-rsv-mob-1.png"\] Alt text: Max days for multi-day value of 7 and Max days in future of 90 days shown on the Make a reservation screen.
 
     The **Max days in future** is configured on the Reservable module by your administrator, the number of days in the future up to which the reservation can be made is displayed on the card. The **Max days in future** value is 1 or higher. If an employee tries to select an invalid date range, search results for a reservation aren’t returned.
 
@@ -78,7 +79,7 @@ Role required: sn\_wsd\_core.workplace\_user
     -   Browse near a person
     -   Browse by area
     -   Browse by neighborhood
-    ![Make a reservation screen showing the Reservation paths.](../images/wsd-mobile-browse-all.png)
+    \[Omitted image "wsd-mobile-browse-all.png"\] Alt text: Make a reservation screen showing the Reservation paths.
 
 7.  Add room or space requirements.
 
@@ -170,7 +171,7 @@ Toggle Map view
 
 </td><td>
 
-View the available reservations using a floor map view instead of a list view. The option to view a map is available only if the map property is set by your administrator for a selected space or room. For more information, see [Configure the Toggle map view property](configure-toggle-map-view.md).
+View the available reservations using a floor map view instead of a list view. The option to view a map is available only if the map property is set by your administrator for a selected space or room. For more information, see [Configure the Toggle map view property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-toggle-map-view.md).
 
 </td></tr></tbody>
 </table>        **Note:** Reservation uses the workplace profile's building, floor, start and end date and time details, in case if no user preferences are set. If the selected space isn’t mapped to any area, then the building and floor details are auto-populated or pre-filled in **Browse all spaces**. If a space is mapped to an area, building and floor details are pre-filled in **Browse by area**. If both user preference and a workplace profile exists, user preference takes precedence, and space mapping is done by user preference. The **Browse by area** field is auto-populated based on user preferences and not by workplace profile.
@@ -214,7 +215,7 @@ View the available reservations using a floor map view instead of a list view. T
         -   **End date and time**: Date and time when you would stop using the workplace item. The time is displayed based on the selected building's time zone.
 13. To reserve a space from your favorite space, tap **Browse favorites**.
 
-    The spaces that you have set as favorite using the Workplace Reservation Management Reservation portal are displayed with the favorite icon \(![Favorite space icon.](../../wsd-reservation-management/image/favorite-icon.png)\). If you want to set any location as favorite, refer to [Set a location as favorite using the Space details page](../../wsd-reservation-management/task/set-a-location-as-favorite.md).
+    The spaces that you have set as favorite using the Workplace Reservation Management Reservation portal are displayed with the favorite icon \(\[Omitted image "favorite-icon.png"\] Alt text: Favorite space icon.\). If you want to set any location as favorite, refer to [Set a location as favorite using the Space details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/set-a-location-as-favorite.md).
 
     **Note:** The favorite option appears only if you have Employee Center 25.0.0 and if your administrator has configured the settings.
 
@@ -256,7 +257,7 @@ View the available reservations using a floor map view instead of a list view. T
 
 17. On the Map view, select **Get Directions** for wayfinding and indoor navigation.
 
-    For more information, see [Work with Location Directory for Now Mobile app](view-location-directory-mobile.md).
+    For more information, see [Work with Location Directory for Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/view-location-directory-mobile.md).
 
 18. Click **Submit**.
 
@@ -380,7 +381,7 @@ Check-in-state
 
 Awaiting check-in.When workplace spaces are having occupancy sensor and if the state of the space is unoccupied or Invalid, application sends push notification "Your reservation for Reservation for &lt;space-name&gt; has started. Either Check in to confirm your attendance or Release Booking to Cancel the space reservation".
 
-For more information, see [Configure automatic check-in for reserved spaces](../../wsd-reservation-management/concept/configure-rsv-check-in.md).
+For more information, see [Configure automatic check-in for reserved spaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-rsv-check-in.md).
 
 </td></tr><tr><td>
 
@@ -401,7 +402,7 @@ Reservation details updated date and time.
 </td></tr></tbody>
 </table>    The **Related reserved items** will show the related workplace service items for a reservation.
 
-20. Tap the additional information icon \(![More information icon.](../../legal-mobile/image/action-icon.png) \) to perform the following:
+20. Tap the additional information icon \(\[Omitted image "action-icon.png"\] Alt text: More information icon. \) to perform the following:
 
     -   Edit reservation: \(Optional\) If required, enter the following information:
         -   Set the **Reservation subject** field.
@@ -414,7 +415,7 @@ Reservation details updated date and time.
 
     **Note:** You must check in within 30 minutes before the reservation start time. If the reservation isn’t checked in within 30 minutes before the reservation start time, then the reservation is canceled. You receive an email about the cancellation. The Check in option is also available on the My Reservations page.
 
-    In case, if you have occupancy sensors installed in your workplace location, your reserved spaces are automatically checked in. You also receive a push notifications on Workplace Service Delivery for Mobile app when your reserved spaces are checked in automatically. If the workplace location or space state is Occupied, then, application automatically checks in the reservation. The reservation state moves to In progress state. A push notification is sent to Workplace Service Delivery for Mobile "Your reservation has started. You are automatically checked in based on the presence detected at the space. No further action is required." If the state of the space is Unoccupied or Invalid, application sends push notification "Your reservation for Reservation for &lt;space-name&gt; has started. Either Check in to confirm your attendance or Release Booking to Cancel the space reservation". For more information, see [Configure automatic check-in for reserved spaces](../../wsd-reservation-management/concept/configure-rsv-check-in.md).
+    In case, if you have occupancy sensors installed in your workplace location, your reserved spaces are automatically checked in. You also receive a push notifications on Workplace Service Delivery for Mobile app when your reserved spaces are checked in automatically. If the workplace location or space state is Occupied, then, application automatically checks in the reservation. The reservation state moves to In progress state. A push notification is sent to Workplace Service Delivery for Mobile "Your reservation has started. You are automatically checked in based on the presence detected at the space. No further action is required." If the state of the space is Unoccupied or Invalid, application sends push notification "Your reservation for Reservation for &lt;space-name&gt; has started. Either Check in to confirm your attendance or Release Booking to Cancel the space reservation". For more information, see [Configure automatic check-in for reserved spaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/configure-rsv-check-in.md).
 
 
 ## Result
@@ -423,17 +424,17 @@ The workplace reservation is confirmed.
 
 ## What to do next
 
-View your reservation status in the My reservations section. For more information, see [Edit or cancel a reservation on Now Mobile app](edit-rsv-on-mobile.md).
+View your reservation status in the My reservations section. For more information, see [Edit or cancel a reservation on Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/edit-rsv-on-mobile.md).
 
 In the case of multi-day reservation, My reservations show the status of the reservation along with the number of days the multi-day reservation is spanning across.
 
-If the workplace item that you've reserved requires check-in and check out, see [Check in or check out a reservation](check-in-out-rsv-on-mobile.md).
+If the workplace item that you've reserved requires check-in and check out, see [Check in or check out a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/check-in-out-rsv-on-mobile.md).
 
-To reserve a space using the QR code scanning option, see [Scan the QR code to reserve a space](scan-qr-code.md).
+To reserve a space using the QR code scanning option, see [Scan the QR code to reserve a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/scan-qr-code.md).
 
-**Parent Topic:**[Using Workplace Service Delivery for Mobile](../concept/using-wsd-mobile.md)
+**Parent Topic:**[Using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/using-wsd-mobile.md)
 
-**Previous topic:**[Search for a campus, building and a space using AI Search](ai-search-buildings-floors.md)
+**Previous topic:**[Search for a campus, building and a space using AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/ai-search-buildings-floors.md)
 
-**Next topic:**[Get directions to a workplace](get-directions-to-a-workplace.md)
+**Next topic:**[Get directions to a workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/get-directions-to-a-workplace.md)
 

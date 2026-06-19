@@ -2,6 +2,7 @@
 title: Pre-seeding employee skills
 description: The Skills Foundation application can automatically detect skill gaps and prompt the employee to add pre-seeded, or necessary, skills to their profiles. This way, the employee profile is always kept up to date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/pre-seeded-skills.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -27,9 +28,9 @@ The application matches the information that is provided by the employee in the 
 
 The following example shows how an employee receives a prompt with pre-seeded skills.
 
-![Screen shot that shows an employee getting a notice about a skill gap in their profile.](../image/skills-intelligence-pre-seed.png)
+\[Omitted image "skills-intelligence-pre-seed.png"\] Alt text: Screen shot that shows an employee getting a notice about a skill gap in their profile.
 
 In the example, the employee received a notification that is based on what the application knows about that employee. The application notices that there’s a skill gap in their profile and then prompts the employee to add the needed information to the profile to remove the skill gap.
 
-**Parent Topic:**[Solve the challenge of adoption with Proactive Prompts](drive-adoption-proactive-prompts.md)
+**Parent Topic:**[Solve the challenge of adoption with Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/drive-adoption-proactive-prompts.md)
 

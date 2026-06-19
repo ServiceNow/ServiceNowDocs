@@ -2,6 +2,7 @@
 title: Set up Microsoft Active Directory spoke
 description: Integrate the ServiceNow instance and your Microsoft AD account using Windows credentials to authenticate ServiceNow requests.Create a Credential record for the Microsoft Active Directory host. The Microsoft AD spoke connection and credential alias uses this credential to authorize actions.Create a Connection record to your Microsoft Active Directory host machine. The Microsoft AD spoke connection and credential alias uses this connection to perform actions in Microsoft Active Directory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-ad.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -48,7 +49,7 @@ Create a Credential record for the Microsoft Active Directory host. The Microsof
     |-----|--------------|
     |Name|Enter any name to uniquely identify the record. For example, enter `AD Credential`.|
     |Active|Enable|
-    |User name|Enter a user name with access to the target Windows host. For more information about Windows permissions, see [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md).|
+    |User name|Enter a user name with access to the target Windows host. For more information about Windows permissions, see Windows credentials.|
     |Password|Enter the password for the account.|
     |Applies to|Select the MID Servers that can use this credential. For example, select **All MID servers**.|
     |Order|Select the order to apply this credential. For example, enter `100`.|
@@ -63,7 +64,7 @@ Create a Connection record to your Microsoft Active Directory host machine. The 
 ### Before you begin
 
 -   Request Integration Hub subscription
--   [Create Credential record for the Microsoft AD spoke](set-up-ad.md#)
+-   [Create Credential record for the Microsoft AD spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-ad.md)
 -   Role required: admin
 
 ### Procedure
@@ -72,9 +73,9 @@ Create a Connection record to your Microsoft Active Directory host machine. The 
 
 2.  Click **Connections**.
 
-3.  On the **AD** card, click **View Details**.![Microsoft AD connection card.](../image/click-AD-spoke-card.png)
+3.  On the **AD** card, click **View Details**.\[Omitted image "click-AD-spoke-card.png"\] Alt text: Microsoft AD connection card.
 
-4.  Click **Configure**.![Configure button to configure Microsoft AD alias connection record.](../image/click-AD-alias-connection.png)
+4.  Click **Configure**.\[Omitted image "click-AD-alias-connection.png"\] Alt text: Configure button to configure Microsoft AD alias connection record.
 
 5.  Enter these values.
 

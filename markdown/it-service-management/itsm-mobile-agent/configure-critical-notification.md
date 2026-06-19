@@ -2,6 +2,7 @@
 title: Configure critical notification
 description: Configure the list of critical alerts that you want to receive when your mobile device is in Do Not Disturb mode.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/configure-critical-notification.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -35,7 +36,7 @@ Set any notification as critical and receive alerts when your mobile device is i
 
 2.  In the selected notification record, select the **What to send** tab.
 
-3.  Select the info icon \(![Info icon.](../../now-assist-itsm/image/icon-more-info.png)\) next to the **Push message** field.
+3.  Select the info icon \(\[Omitted image "icon-more-info.png"\] Alt text: Info icon.\) next to the **Push message** field.
 
 4.  Select **Open record** from the **Push Notification Message** pop-up message.
 

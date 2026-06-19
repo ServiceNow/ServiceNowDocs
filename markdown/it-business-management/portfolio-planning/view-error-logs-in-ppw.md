@@ -2,6 +2,7 @@
 title: View error logs
 description: View error logs to understand the cause of any issues that might have occurred during the integration process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/view-error-logs-in-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

@@ -2,6 +2,7 @@
 title: Event Management
 description: ServiceNow Event Management is a robust application that helps keep your IT systems healthy by spotting problems quickly and fixing them. It collects events from different sources, figures out what's causing the issues, and converts them into alerts. These alerts are then analyzed, grouped, and acted upon to resolve issues and maintain system health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/c\_EM.html
 release: australia
 product: Event Management
 classification: event-management
@@ -23,27 +24,27 @@ This video explains how to install and configure Event Management so you can sta
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Explore the various types of alert grouping and the rules for correlation](c_ServiceAnalyticsOverview.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore the various types of alert grouping and the rules for correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_ServiceAnalyticsOverview.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Setup Event Management](c_EMConfiguration.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Setup Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMConfiguration.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-community.svg) View alert information and monitor service health](user-guide.md)
+[Use\[Omitted image "bus-community.svg"\] Alt text: View alert information and monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/user-guide.md)
 
 </td></tr><tr><td>
 
-[Integrations ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Learn how you can integrate Event Management with other monitoring systems](c_EMEvent.md)
+[Integrations \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Learn how you can integrate Event Management with other monitoring systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/c_EMEvent.md)
 
 </td><td>
 
-[Event processing![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Understand the analysis and management of events](processing-events.md)
+[Event processing\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Understand the analysis and management of events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/processing-events.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-manage.svg) Get details about domain separation in Event Management](domain-separation-event-management.md)
+[Reference \[Omitted image "bus-manage.svg"\] Alt text: Get details about domain separation in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/domain-separation-event-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

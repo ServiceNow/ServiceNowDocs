@@ -2,6 +2,7 @@
 title: Define the scope and begin the assessment
 description: Define the scope by adding a business service to the Importance and impact tolerance assessment. With this assessment, you can estimate the impact and possible disruptions that can affect your business services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/submit-an-assessment-in-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -42,5 +43,5 @@ The state of the assessment is updated to **Pending response**. The assessor of 
 
 ## What to do next
 
-The assessor logs into the instance or selects the assessment link received in the notification, responds to the assessment, and submits the results. For more information, see [Submit the assessment](submit-an-importance-and-impact-tolerance-assessment-in-ws.md).
+The assessor logs into the instance or selects the assessment link received in the notification, responds to the assessment, and submits the results. For more information, see [Submit the assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/submit-an-importance-and-impact-tolerance-assessment-in-ws.md).
 

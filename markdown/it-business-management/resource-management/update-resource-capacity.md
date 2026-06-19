@@ -2,6 +2,7 @@
 title: Update the resource capacity
 description: From the Resource Manager view, update the capacity of a user for a specific duration. Based on the schedule of the user and the specified duration, the capacity of the user is accordingly populated in all resource aggregate tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/update-resource-capacity.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -66,5 +67,5 @@ Capacity and availability for terminated resources is automatically updated to 0
 5.  Select **OK**.
 
 
-**Parent Topic:**[User resources and group resources](../reference/r_UserResourcesAndGroupResources.md)
+**Parent Topic:**[User resources and group resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_UserResourcesAndGroupResources.md)
 

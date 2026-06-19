@@ -2,6 +2,7 @@
 title: Set up the source instance for an update set
 description: Set up the source instance for an update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/setting-source-for-update-set.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -103,5 +104,5 @@ Enter any other relevant information about the remote instance.
 6.  Select and hold \(or right-click\) the form header and select **Save**.
 
 
-**Parent Topic:**[Configuring System Update Sets](../concept/configure-system-update-sets.md)
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/configure-system-update-sets.md)
 

@@ -2,6 +2,7 @@
 title: Update the project insights header and footer of your email using script include
 description: Use the script include to modifying the email template for project summary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/script-include-email-template.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm

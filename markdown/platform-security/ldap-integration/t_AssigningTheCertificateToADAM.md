@@ -2,6 +2,7 @@
 title: Assign the certificate to ADAM
 description: Install an SSL certificate on the server and any LDAP client to support secure binds and encrypt the user and password information being transmitted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_AssigningTheCertificateToADAM.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

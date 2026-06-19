@@ -2,6 +2,7 @@
 title: Configure messaging for the applicant
 description: Configure the conditions when an applicant can reach out to the recruiters within the Applicant Center. Create a clear communication channel with the hiring team and a better hiring experience for the applicants.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/config-message-applicant.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -33,8 +34,8 @@ Set up trigger conditions to enable the messaging functionality for an applicant
 
 4.  Add conditions to enable the messaging functionality for the applicants.
 
-    For a description of the field values, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md).
+    For a description of the field values, see .
 
 
-**Parent Topic:**[Configuring Applicant Center](../concept/config-applicant-center.md)
+**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/config-applicant-center.md)
 

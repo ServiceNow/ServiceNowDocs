@@ -2,6 +2,7 @@
 title: Jumpstart Your Impact Platform Health
 description: This accelerator provides a demonstration of the possibilities and capabilities of Impact Platform Health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-impact-platform-health.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,9 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 
 Jumpstart Your Impact Platform Health helps platform owners and instance administrators to quickly adopt Impact Platform Health. This session includes an overview of key features and a live demonstration using a copy of the customer's instance. Focused on simplicity and speed, this accelerator enables teams to proactively monitor, maintain, and improve platform health in alignment with leading practices.
 
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 ## Prerequisites
 
@@ -54,6 +57,8 @@ While the Impact Store app is required to use Platform Health in production and 
 |System Administrator\(s\)|Responsible for maintaining the stability and usability of the ServiceNow platform by performing application maintenance, managing support for Cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|✓| |
 |Developer\(s\)|Write code for the ServiceNow platform.| |✓|
 |Trusted Service Partners|Attend ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
+
+## Requested Information/Access
 
 ## Requested Information/Access
 

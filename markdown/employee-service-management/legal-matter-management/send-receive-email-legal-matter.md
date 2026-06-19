@@ -2,6 +2,7 @@
 title: Communicate using emails from Legal Counsel Center
 description: Compose and send emails directly from legal matter record form in the Legal Counsel Center. You can also save the email as draft to send it later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/send-receive-email-legal-matter.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -27,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text:.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d648713e110">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d601216e109">
 
 Option
 
-</th><th align="left" id="d648713e113">
+</th><th align="left" id="d601216e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d648713e119">
+</th></tr></thead><tbody><tr><td id="d601216e118">
 
 **As an assignee**
 
@@ -51,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d648713e148">
+</td></tr><tr><td id="d601216e147">
 
 **As a collaborator**
 
@@ -62,7 +63,7 @@ The state of the legal matter updates to Work in Progress.
 
 
 </td></tr></tbody>
-</table>4.  Click the more actions button \(![More actions button icon.](../../legal-request-management/image/more-button-icon.png)\) and select **Compose Email**.
+</table>4.  Click the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and select **Compose Email**.
 
     The **Compose Email** button is available only when the legal matter is in the Assigned or Work in progress state.
 
@@ -77,5 +78,5 @@ After the email is sent, it is added to the activity stream on the legal matter 
 
 Legal matters marked as Privileged and Confidential, contain confidentiality markers to comply with legal requirements. This applies to both system-generated notifications and fulfiller-initiated outbound emails.
 
-**Parent Topic:**[Work on a legal matter](work-on-legal-matter-1.md)
+**Parent Topic:**[Work on a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

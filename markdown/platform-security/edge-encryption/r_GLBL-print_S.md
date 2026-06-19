@@ -2,6 +2,7 @@
 title: print\(String message\)
 description: Prints a message to the wrapper log file: &lt;proxy server directory&gt;/logs/wrapper\_&lt;date&gt;.log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/r\_GLBL-print\_S.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -25,5 +26,5 @@ This method is available only in an Edge Encryption rule action script.
 |----|-----------|
 |void| |
 
-**Parent Topic:**[Encryption rule objects and APIs](../concept/api-overview.md)
+**Parent Topic:**[Encryption rule objects and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/api-overview.md)
 

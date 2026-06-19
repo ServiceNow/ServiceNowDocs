@@ -2,6 +2,7 @@
 title: Assign work order tasks to crews
 description: Assign crews to work order tasks that require a group of agents to work on them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/assign-wot-crew-operations.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -17,7 +18,7 @@ Assign crews to work order tasks that require a group of agents to work on them.
 
 ## Before you begin
 
-If you are scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the crew. For more information, see [Create a work schedule for agents](../../customer-service-management/task/create-agent-work-schedule.md).
+If you are scheduling a task across multiple schedule entries or days, a work schedule must have been assigned to the crew. For more information, see [Create a work schedule for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/create-agent-work-schedule.md).
 
 **Note:** If the crew schedule has not been defined and you are auto-assigning a task, the system uses the default schedule.
 
@@ -52,15 +53,15 @@ Task assignment methods:
 
 5.  Assign the task either manually or through auto-assignment.
 
-<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d43538e150">
+<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d43534e150">
 
 Option
 
-</th><th align="left" id="d43538e153">
+</th><th align="left" id="d43534e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43538e159">
+</th></tr></thead><tbody><tr><td id="d43534e159">
 
 **To assign a task manually**
 
@@ -70,7 +71,7 @@ Description
 2.  Select **Update**.
 
 
-</td></tr><tr><td id="d43538e183">
+</td></tr><tr><td id="d43534e183">
 
 **To auto-assign a task**
 
@@ -87,5 +88,5 @@ The Confirm Assignment dialog box is displayed.
 </table>
 ## Result
 
-The task is assigned to the crew. All crew members receive a push notification that the work order task is assigned. The Task Assignees table is added to the work order task for more information see, [Task assignees table for crew members or equipment](../reference/task-assignees-table.md).
+The task is assigned to the crew. All crew members receive a push notification that the work order task is assigned. The Task Assignees table is added to the work order task for more information see, [Task assignees table for crew members or equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/task-assignees-table.md).
 

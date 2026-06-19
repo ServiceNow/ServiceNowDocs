@@ -2,6 +2,7 @@
 title: Configure Discovery identity sensors
 description: If you customize an identify multi-probe, you can also configure a multi-sensor for it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ConfigDiscoIdentSens.html
 release: australia
 product: Discovery
 classification: discovery
@@ -38,11 +39,11 @@ These multi-sensors pass the data returned by the identity probes to the Discove
 
 ## Example
 
-![Linux identity script](../image/DiscoveryMultisensorAndScript.png "Discovery identity sensors")
+\[Omitted image "DiscoveryMultisensorAndScript.png"\] Alt text: Linux identity script
 
 ## What to do next
 
-Run a discovery through the [Discovery Schedule](t_CreateADiscoverySchedule.md#) to search for CIs and verify that they are identified correctly in the CMDB.
+Run a discovery through the [Discovery Schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md) to search for CIs and verify that they are identified correctly in the CMDB.
 
-**Parent Topic:**[Discovery identifiers](../concept/c_DiscoveryIdentifiers.md)
+**Parent Topic:**[Discovery identifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryIdentifiers.md)
 

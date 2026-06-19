@@ -2,6 +2,7 @@
 title: Configure a response processor
 description: Configure a response processor to handle responses from datacenters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/configure-response-processor.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -17,7 +18,7 @@ Configure a response processor to handle responses from datacenters.
 
 ## Before you begin
 
--   The CI class types for your resources must already exist in the CMDB. If you created custom products or providers in CAPI, you must also create custom CI types so the response processor knows how to identify CIs. See [Create a CI class for a virtual cloud resource](create-a-ci-class-cloud.md) for information on creating CI types.
+-   The CI class types for your resources must already exist in the CMDB. If you created custom products or providers in CAPI, you must also create custom CI types so the response processor knows how to identify CIs. See [Create a CI class for a virtual cloud resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-a-ci-class-cloud.md) for information on creating CI types.
 
 Role required: sn\_cmp.cloud\_service\_designer
 
@@ -25,7 +26,7 @@ Role required: sn\_cmp.cloud\_service\_designer
 
 After each step is completed, the datacenter sends a response to the ECC Queue of the MID Server. For example, if a user provisions a virtual server on an AWS datacenter, AWS sends information about the new virtual server to the ECC Queue. The system needs to create a CI in the CMDB for the virtual server. It does this using a response processor.
 
-Alternatively, you can use pattern-based targeted discovery to handle responses from the datacenters. For more information, see [Pattern-based targeted discovery](../concept/pattern-based-targeted-discovery.md#).
+Alternatively, you can use pattern-based targeted discovery to handle responses from the datacenters. For more information, see [Pattern-based targeted discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/pattern-based-targeted-discovery.md).
 
 **Note:** The resource type for which you are adding the response processor script must exist in the \[sn\_capi\_resource\_type\] table.
 
@@ -51,7 +52,7 @@ Alternatively, you can use pattern-based targeted discovery to handle responses 
 
 9.  Click the **Response Processor** tab for the step.
 
-10. Click the add icon \(![Adding a response processor](../image/add-button.png)\).
+10. Click the add icon \(\[Omitted image "add-button.png"\] Alt text: Adding a response processor\).
 
 11. In the **Script Name** field, select the processor you just created.
 
@@ -60,10 +61,10 @@ Alternatively, you can use pattern-based targeted discovery to handle responses 
     The response processor script can process the response from the cloud provider for the CI type of the resource block.
 
 
--   **[Execute response processor for subflow](create-response-processor.md)**  
+-   **[Execute response processor for subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-response-processor.md)**  
 Execute a response processor for a subflow to get the subflow data back into a configuration item \(CI\). The response processor picks up the data, sends the data to the CMDB, which in turn puts the data in a CI.
--   **[Virtual server response processor example](../reference/response-processor-example.md)**  
+-   **[Virtual server response processor example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/response-processor-example.md)**  
 The **Create\_Virtual\_Server\_Response\_Processor** script, which is available by default in Cloud Provisioning and Governance, is the response processor that handles the creation of AWS virtual machine CIs.
 
-**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](../concept/resource-blocks.md)
+**Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

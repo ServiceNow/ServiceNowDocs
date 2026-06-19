@@ -2,6 +2,7 @@
 title: Assign and approve unassigned work using Resource Management Workspace
 description: Filter the unassigned work to view priority requests and assign them to resources. Quickly connect with the requester via Microsoft Teams to get additional insights and approve the assigned work using the inline editing feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/allocate-resources-rmw.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -27,31 +28,31 @@ The assign logic provides you with the flexibility and control for users when as
 
 ## Before you begin
 
--   [Create an active employee definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/generate-profile-definition.md) for resources to view their allocation details on the Resource Management Workspace.
--   [Create a resource card](rmw-create-rsrc-card.md).
+-    for resources to view their allocation details on the Resource Management Workspace.
+-   [Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rmw-create-rsrc-card.md).
 -   Role required: resource\_user, resource\_manager
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Resource Management Workspace**
 
-2.  Select the Resource cards icon \(![Resource cards icon.](../images/rmw-resource-cards-L1-icon.png)\) from the menu and open a resource card.
+2.  Select the Resource cards icon \(\[Omitted image "rmw-resource-cards-L1-icon.png"\] Alt text: Resource cards icon.\) from the menu and open a resource card.
 
     Alternatively, you can view unassigned tasks using the Unassigned assignment requests widget from the overview dashboard.
 
-3.  In the Unassigned tasks tray, select the Row context menu for any task \(![3 vertical dots denoting the row context menu.](../../spw-financials/images/row-context-menu-icon.png)\) and select **Assign Work**.
+3.  In the Unassigned tasks tray, select the Row context menu for any task \(\[Omitted image "row-context-menu-icon.png"\] Alt text: 3 vertical dots denoting the row context menu.\) and select **Assign Work**.
 
 4.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d264638e157">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d61998e156">
 
 Assign work choices
 
-</th><th align="left" id="d264638e160">
+</th><th align="left" id="d61998e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d264638e166">
+</th></tr></thead><tbody><tr><td id="d61998e165">
 
 **Manual Assign**
 
@@ -63,7 +64,7 @@ Enables you to choose specific resources and decide how much effort to allocate.
 2.  Partial Effort Equally: Assign only the entered efforts equally among the selected resources.
 
 
-</td></tr><tr><td id="d264638e197">
+</td></tr><tr><td id="d61998e196">
 
 **Auto Assign**
 
@@ -78,13 +79,13 @@ The system automatically identifies all resources based on the selected primary 
 
 6.  Select **Assign** to assign work to the resources.
 
-    The assigned work is reflected in the top tray nested by resource view and will be in Pending state \(![Yellow rectangular pending state icon.](../images/rmw-pending-state.png)\).
+    The assigned work is reflected in the top tray nested by resource view and will be in Pending state \(\[Omitted image "rmw-pending-state.png"\] Alt text: Yellow rectangular pending state icon.\).
 
-7.  Expand a resource row using the chevron icon \(![Right pointed chevron icon.](../images/icon-expand-arrow.png)\) to view assigned tasks.
+7.  Expand a resource row using the chevron icon \(\[Omitted image "icon-expand-arrow.png"\] Alt text: Right pointed chevron icon.\) to view assigned tasks.
 
 8.  Double-click in the Resource status column and select **Approve** to confirm the assigned work so the resource can start working.
 
-    While assigning the work, you can easily identify if a resource is available \(![Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.](../images/rmw-green-tick.png)\) or overutilized \(![Red exclamation mark within a red triangle indication the resource is overallocated.](../images/rmw-red-warning.png)\), even for the future periods, using the iconography.
+    While assigning the work, you can easily identify if a resource is available \(\[Omitted image "rmw-green-tick.png"\] Alt text: Green tick mark within a green circle indicating the resource allocation is within the available bandwidth.\) or overutilized \(\[Omitted image "rmw-red-warning.png"\] Alt text: Red exclamation mark within a red triangle indication the resource is overallocated.\), even for the future periods, using the iconography.
 
 9.  You can change the status of any assigned assignments using one of the following options.
 
@@ -99,7 +100,7 @@ The system automatically identifies all resources based on the selected primary 
 
 ## Result
 
-The assigned work items are Approved \(![Green rectangular approved state icon.](../images/rmw-approved-state.png)\) or Unapproved \(![Pink rectangular approved state icon.](../images/rmw-unapproved-state.png)\) and the status of the work assignments is rolled up to the resource level.
+The assigned work items are Approved \(\[Omitted image "rmw-approved-state.png"\] Alt text: Green rectangular approved state icon.\) or Unapproved \(\[Omitted image "rmw-unapproved-state.png"\] Alt text: Pink rectangular approved state icon.\) and the status of the work assignments is rolled up to the resource level.
 
 ## What to do next
 
@@ -107,10 +108,10 @@ If no tasks appear in the Unassigned tasks tray, verify the following:
 
 1.  Verify the resource requests exist. Project Managers must create resource requests \(resource assignments with status Requested\) on project tasks. Navigate to the project and verify resource requests exist on the Resource Assignments related list.
 2.  Check if primary attributes match. The resource card filter must match the primary attributes \(Group, Skill, or Role\) defined in the resource requests. Open your resource card and verify the filter criteria aligns with existing requests.
-3.  Check if the employee profiles are generated. Verify [employee profile definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/generate-profile-definition.md) have been generated for the resources in your view.
+3.  Check if the employee profiles are generated. Verify employee profile definitions have been generated for the resources in your view.
 4.  Request state is correct. Only resource requests in **Requested** state appear as unassigned. Requests that are already Assigned, Approved, or Cancelled don't show.
 5.  Check the date range. Verify the resource card's date range overlaps with the resource request dates. Requests outside the visible time frame will not display.
 6.  Confirm the permissions. Confirm you have the resource\_manager role, which is required to view and manage unassigned work.
 
-**Parent Topic:**[Using Resource Management Workspace](../concept/using-rmw.md)
+**Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/using-rmw.md)
 

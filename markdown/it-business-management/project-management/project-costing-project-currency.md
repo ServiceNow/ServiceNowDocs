@@ -2,6 +2,7 @@
 title: Cost rollup in project currency
 description: Cost rollup calculation in projects and sub-projects with different currencies varies with the budget reference rate. The rate at which the amount is converted depends on the conversion rate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/project-costing-project-currency.html
 release: australia
 product: Project Management
 classification: project-management

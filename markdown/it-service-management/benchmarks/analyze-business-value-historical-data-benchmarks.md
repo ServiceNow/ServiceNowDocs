@@ -2,6 +2,7 @@
 title: Use Benchmarks data for value management analysis
 description: Manually collect historical Benchmarks data to analyze the benefits of year-over-year growth when you use the ServiceNow Benchmarks application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/analyze-business-value-historical-data-benchmarks.html
 release: australia
 product: Benchmarks
 classification: benchmarks
@@ -39,7 +40,7 @@ If you want to analyze year-over-year performance, you must collect at least 24 
 
     5.  Select **Execute**.
 
-        For detailed information on scheduling a data collection job, refer to [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md).
+        For detailed information on scheduling a data collection job, refer to Create or schedule a data collection job.
 
 2.  Upload the collected data to the centralized Benchmarks instance.
 
@@ -58,5 +59,5 @@ If you want to analyze year-over-year performance, you must collect at least 24 
         The data is automatically sent for value management analysis. Connect with your account representative to receive the report and discuss the benefits for your organization's value management.
 
 
-**Parent Topic:**[Benchmark KPIs](../concept/c_BenchKPIConfig.md)
+**Parent Topic:**[Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md)
 

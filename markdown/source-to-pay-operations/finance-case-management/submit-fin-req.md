@@ -2,6 +2,7 @@
 title: Submit a finance request from Employee Center catalog
 description: Ask any general finance-related question.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/submit-fin-req.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -46,5 +47,5 @@ Role required: sn\_fin\_ops.requester/ sn\_cbs.requestor
 
 Select **My Requests** to view and track the progress of your requests.
 
-**Parent Topic:**[Use the Employee Center](../concept/using-ec-fin-case-mgmt.md)
+**Parent Topic:**[Use the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/using-ec-fin-case-mgmt.md)
 

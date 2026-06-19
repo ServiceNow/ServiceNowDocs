@@ -2,6 +2,7 @@
 title: Content organization
 description: Before you begin to build the CMS website, list all the content that you want to include and take the time to organize it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_OrganizeContent.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -74,5 +75,5 @@ Analyze and organize the following ServiceNow features in your instance if you p
 -   Workflow approvals
 -   Filters
 
-**Parent Topic:**[Content Management design](c_ContentManagementPlanning.md)
+**Parent Topic:**[Content Management design](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_ContentManagementPlanning.md)
 

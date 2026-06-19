@@ -2,6 +2,7 @@
 title: Grouping by breakdown and filtering by breakdown
 description: In breakdown widgets, breakdowns either group or filter indicator scores. When you create a widget, this dual purpose of breakdowns affects the function of the breakdown fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/grouping-filtering-breakdown.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,7 +18,7 @@ In breakdown widgets, breakdowns either group or filter indicator scores. When y
 
 The **Breakdown** and **2nd Breakdown** fields in the widget form have a different function for breakdown widgets than for other widget types. In most other widget types, these fields specify filters. Only the indicator scores that correspond to the specified breakdown elements are shown. However, when you create a breakdown widget, you group the scores by a breakdown instead of filtering it. The elements of the breakdown are shown as the different wedges of a pie visualization, or separate columns in a column visualization, for example.
 
-By default, a breakdown widget shows all the elements of the breakdown. However, you can restrict which elements are shown by applying an element filter. For more information, see [Element filters](c_BreakdownElementFilters.md#).
+By default, a breakdown widget shows all the elements of the breakdown. However, you can restrict which elements are shown by applying an element filter. For more information, see [Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).
 
 You can filter the scores by a first-level breakdown and element and show the elements of a second-level breakdown. To do this, specify a breakdown and an element in the **Breakdown** and **Element** fields. Then specify the breakdown that is used to group the data in the **2nd Breakdown** field. If you do not specify a **2nd Breakdown**, the **Element** field is ignored and the first **Breakdown** is used to group indicator scores instead of filtering them.
 

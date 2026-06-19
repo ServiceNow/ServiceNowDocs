@@ -2,6 +2,7 @@
 title: Request a policy extension through Service Portal
 description: From the ServiceNow Portal, anyone who has requested a policy exception can request an extension before the policy deadline.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/request-policy-extension.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -42,5 +43,5 @@ Add the My Policy Exceptions widget to the Service Portal index page. The widget
 
 The extension request is sent for approval to the approving authority.
 
-**Parent Topic:**[Manage policy exceptions and extensions](../concept/manage-policy-exceptions.md)
+**Parent Topic:**[Manage policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/manage-policy-exceptions.md)
 

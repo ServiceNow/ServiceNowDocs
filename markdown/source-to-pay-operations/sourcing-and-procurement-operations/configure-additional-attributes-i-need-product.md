@@ -2,6 +2,7 @@
 title: Configure additional attributes for I need a product or service
 description: You can configure additional attributes on the intake for variable sets configured on the I need a product and I need a service record producers. Any new fields that are added to the variable set must be mapped in the record producer script to ensure that the information is saved in the backend.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/configure-additional-attributes-i-need-product.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -38,5 +39,5 @@ Role required: admin
 5.  Go to the Table Transform Map: Non catalog intake, and check if the field mapping between the source and target is correct.
 
 
-**Parent Topic:**[Requesting for products or services that you don't see on ShoppingHub](../concept/request-prod-serv-dont-see-sh.md)
+**Parent Topic:**[Requesting for products or services that you don't see on ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/request-prod-serv-dont-see-sh.md)
 

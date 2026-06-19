@@ -2,11 +2,12 @@
 title: Add a regulatory agency
 description: Add a regulatory agency in Compliance Workspace to identify the relevant regulatory authorities that are responsible for overseeing the industries or sectors within each jurisdiction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/add-regulatory-agency.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Regulatory Agency Library, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -35,13 +36,13 @@ As a case analyst, you can choose and add the regulatory agency that is related 
 
 3.  On the Create New Agency form, fill in the fields.
 
-    For a description of the fields, see [Create New Agency form](create-new-agency-form.md).
+    For a description of the fields, see [Create New Agency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-agency-form.md).
 
 4.  Select **Save**.
 
 
--   **[Create New Agency form](create-new-agency-form.md)**  
+-   **[Create New Agency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/create-new-agency-form.md)**  
 Use the Create New Agency form in Compliance Workspace to create a regulatory agency. The regulatory agency is a new record type that handles regulatory changes or compliance case management.
 
-**Parent Topic:**[Regulatory Agency Library](../../grc-rcm/concept/regulatory-agency-library-rcm.md)
+**Parent Topic:**[Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/regulatory-agency-library-rcm.md)
 

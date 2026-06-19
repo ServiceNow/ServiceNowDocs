@@ -2,6 +2,7 @@
 title: Change the default expense type in Portfolio Planning
 description: Configure the default expense type to create or edit cost plans for your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/config-expense-type-fin-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

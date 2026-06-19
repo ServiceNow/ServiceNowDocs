@@ -2,6 +2,7 @@
 title: Configure the roles to view employee forms
 description: Configure the roles to enable your agents to view the employee responses in the completed Universal Task employee forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/ut-config-empform-view-roles.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -27,7 +28,7 @@ Role required: sn\_uni\_task.admin
 
 3.  On the form, fill in the fields.
 
-    For more information on form fields and descriptions, see [Employee Input Task Configuration form](../reference/ut-empform-config-form.md).
+    For more information on form fields and descriptions, see [Employee Input Task Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/ut-empform-config-form.md).
 
 4.  In the **Parent table** field, select the parent table.
 
@@ -40,9 +41,9 @@ Role required: sn\_uni\_task.admin
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring your service for Universal Task](../concept/config-service-for-ut.md)
+**Parent Topic:**[Configuring your service for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-service-for-ut.md)
 
-**Previous topic:**[Configure the catalog items for your service](config-catalog-task.md)
+**Previous topic:**[Configure the catalog items for your service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/config-catalog-task.md)
 
-**Next topic:**[Configure the extension points for Universal Task](configure-extnsn-points.md)
+**Next topic:**[Configure the extension points for Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/configure-extnsn-points.md)
 

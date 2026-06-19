@@ -2,6 +2,7 @@
 title: Quick start tests for Service Graph Connector for AWS
 description: Validate that Service Graph Connector for AWS still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/quick-start-tests-sgc-aws.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,7 +18,7 @@ Validate that Service Graph Connector for AWS still works after you make any con
 
 **Danger**
 
-By default, the system property that is used to run automated tests is disabled to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See [Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-enable-tests.md).
+By default, the system property that is used to run automated tests is turned off to prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. See Enable or disable executing Automated Test Framework tests.
 
 |Test|Description|Release version|
 |----|-----------|---------------|
@@ -49,5 +50,5 @@ By default, the system property that is used to run automated tests is disabled 
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

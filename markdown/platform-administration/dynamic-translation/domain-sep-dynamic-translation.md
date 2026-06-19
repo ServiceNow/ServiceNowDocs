@@ -2,6 +2,7 @@
 title: Domain separation and Dynamic Translation
 description: Domain separation is supported in Dynamic Translation and is configured to apply to translator configurations and Exclusion Framework. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/domain-sep-dynamic-translation.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -25,11 +26,11 @@ Domain separation is supported in Dynamic Translation and is configured to apply
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Activation information
 
-You should activate the Domain Support - Domain Extensions Installer plugin \(com.glide.domain.msp\_extensions.installer\). For information on how you can request for the plugin activation, see [Request for domain separation in Dynamic Translation](../task/activate-domainsep-dyn-transl.md).
+You should activate the Domain Support - Domain Extensions Installer plugin \(com.glide.domain.msp\_extensions.installer\). For information on how you can request for the plugin activation, see [Request for domain separation in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/activate-domainsep-dyn-transl.md).
 
 ## How domain separation works in Dynamic Translation
 
@@ -43,11 +44,11 @@ A translator configuration in the global domain is visible in all other domains.
 
 **Note:** If there are multiple translator configurations in a domain for the same translation service provider, the translator configuration of the current domain or the closest parent domain is considered for dynamic translation.
 
-Also, different connections can be configured for the same connection and credential alias of a translation service provider in multiple domains. However, Credentials and Connections are data-separated. So, a connection configured in a child domain is visible in parent domains. For information on domain separation for Connections and Credentials, see [Domain separation for Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/domain-separation-credentials_conn.md).
+Also, different connections can be configured for the same connection and credential alias of a translation service provider in multiple domains. However, Credentials and Connections are data-separated. So, a connection configured in a child domain is visible in parent domains. For information on domain separation for Connections and Credentials, see Domain separation for Credentials and Connections.
 
 For example, consider the following scenario:
 
-![Translation service provider in multiple domains](../image/domain-sep-conn.png "Connections for a translation service provider in multiple domains")
+\[Omitted image "domain-sep-conn.png"\] Alt text: Translation service provider in multiple domains
 
 Different connections are configured for the same connection and credential alias of Google in multiple domains. When in Domain A, all the following connections are visible:
 
@@ -67,7 +68,7 @@ The default translator configuration of the current domain is always considered 
 
 A domain can have multiple default translator configurations. In this case also, the default translator configuration of the current domain is considered for dynamic translation. For example, let us consider the following scenario:
 
-![Domain separation in Dynamic Translation](../image/domain-sep-tc.png "Domain separation in Dynamic Translation")
+\[Omitted image "domain-sep-tc.png"\] Alt text: Domain separation in Dynamic Translation
 
 In Domain B, both TC1 and TC2 are visible. From Domain B, TC2 is first set as the default translator configuration. From Domain A, TC1 is then overridden and set as the default translator configuration. This results in multiple default translator configurations in Domain B. In this case, when in Domain B, TC2 is used as the default translator configuration for dynamic translation.
 
@@ -84,18 +85,18 @@ After you override a translator configuration of a parent domain, the following 
 
 For example, consider the following scenario:
 
-![Screenshot for Domain separation in Dynamic Translation](../image/domain-sep-tc.png "Domain separation in Dynamic Translation")
+\[Omitted image "domain-sep-tc.png"\] Alt text: Screenshot for Domain separation in Dynamic Translation
 
 You can override a translator configuration TC1 from Domain B. After overriding, only the overridden configuration TC1 is available in Domain B and the **Overrides** field of TC1 refers to **TC1** of the parent domain.
 
 ## Domain separation in Exclusion Framework
 
-The Exclusion Framework module in Dynamic Translation supports domain separation. Each domain on an instance can have its own set of Exclusion Framework rules, so the rules are specific to one domain. Activation of Exclusion Framework on an instance applies to all domains on the instance. For more information see [Exclusion Framework in Dynamic Translation](dyn-translation-exclusion-framework.md).
+The Exclusion Framework module in Dynamic Translation supports domain separation. Each domain on an instance can have its own set of Exclusion Framework rules, so the rules are specific to one domain. Activation of Exclusion Framework on an instance applies to all domains on the instance. For more information see [Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md).
 
-**Parent Topic:**[Reference for Dynamic Translation](../reference/reference-for-dynamic-translation.md)
+**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

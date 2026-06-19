@@ -2,6 +2,7 @@
 title: Scheduling calendar
 description: The calendar view provides a visual interface for scheduling manufacturing tasks. It helps operators and line leaders plan, view, and manage task schedules more easily by showing occurrences, overlaps, and exceptions in a familiar calendar format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/calendar-view-scheduling.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -78,10 +79,10 @@ Equipment owner
 |Visual scheduling interface|Displays task schedules in a calendar format.|
 |Past and future visibility|Shows historical and upcoming task occurrences.|
 |Schedule editing|Enables authorized users to modify schedules directly from the calendar.|
-|Task differentiation|Distinguishes between forecasted and completed tasks.|
+|Task differentiation|Distinguishes between predicted tasks and completed tasks.|
 |Expiration capability|Automatically expires unused standards.|
 |Offset flexibility|Supports flexible scheduling to accommodate production changes.|
-|Incomplete schedule indicator|Flags schedules with missing configuration using the icon \(![Incomplete schedule icon.](../image/incomplete-schedule-icon.png)\). Hovering over the icon displays the message "Schedule has incomplete configuration."|
+|Incomplete schedule indicator|Flags schedules with missing configuration using the icon \(\[Omitted image "incomplete-schedule-icon.png"\] Alt text: Incomplete schedule icon.\). Hovering over the icon displays the message "Schedule has incomplete configuration."|
 
-**Parent Topic:**[Scheduling standards](scheduling-standards.md)
+**Parent Topic:**[Scheduling standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/scheduling-standards.md)
 

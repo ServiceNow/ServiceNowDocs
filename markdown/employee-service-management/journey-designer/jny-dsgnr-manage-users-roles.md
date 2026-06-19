@@ -2,6 +2,7 @@
 title: Manage Journey designer user roles
 description: Manage Journey designer users and the roles that they have.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-manage-users-roles.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -21,7 +22,7 @@ Role required: sn\_jny.admin
 
 ## About this task
 
-The Journey designer application includes roles with the permissions necessary for that user to complete tasks. For more information on the roles installed with Journey designer, refer to [Roles](../reference/components-installed-with-jny-dsgnr.md#sec-roles-installed).
+The Journey designer application includes roles with the permissions necessary for that user to complete tasks. For more information on the roles installed with Journey designer, refer to [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/components-installed-with-jny-dsgnr.md).
 
 As an administrator, you can assign users to roles to enable them to perform tasks in Journey designer.
 
@@ -38,5 +39,5 @@ As an administrator, you can assign users to roles to enable them to perform tas
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

@@ -2,6 +2,7 @@
 title: Resolve intent issues
 description: Use the issue cards to identify intents that have conflicts, need reviewing, or need more utterances. Resolving intent issues ensures the intents in your Natural Language Understanding \(NLU\) models work properly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/resolve-intent-issues.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -23,7 +24,7 @@ Use the issue cards to identify intents that have conflicts, need reviewing, or 
 
 ## About this task
 
-When a trained model contains intents with issues, the issue cards are displayed on the intents tab of **Build and train your model** page. Select each card to filter the list of intents for that issue. ![In the Build and train your model phase, the highlighted cards notify the user about several issues with this model's intents.](../images/resolve-intent-issues001V.png)
+When a trained model contains intents with issues, the issue cards are displayed on the intents tab of **Build and train your model** page. Select each card to filter the list of intents for that issue. \[Omitted image "resolve-intent-issues001V.png"\] Alt text: In the Build and train your model phase, the highlighted cards notify the user about several issues with this model's intents.
 
 The cards display different issues:
 
@@ -31,7 +32,7 @@ The cards display different issues:
 -   **intents have low test utterance count**: The default test set does not have enough test utterances for the intent. This card displays when the count of test utterances for an intent is below the recommended 15.
 -   **intents have critical conflicts**: Intent contains training utterances that overlap with utterances in another intent.
 
-    **Note:** Utterances which are marked as `Not relevant`may also conflict with utterances assigned to intents. For more information, see [Irrelevance detection in NLU](../concept/irrelevance-detection-nlu.md).
+    **Note:** Utterances which are marked as `Not relevant`may also conflict with utterances assigned to intents. For more information, see [Irrelevance detection in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/irrelevance-detection-nlu.md).
 
 -   **intents need review**: Intent was translated but must be reviewed by an nlu\_admin or nlu\_editor.
 
@@ -50,7 +51,7 @@ Resolve issues in the following ways:
 |intents have low utterance count|Add more training utterances to the intent. Intents need at least 5 utterances. The recommended count is at least 15 utterances.|
 |intents have low test utterance count|Add more test utterances for the intent to the model's default test set. The recommended count is at least 15.|
 |intents have critical conflicts|Remove or edit any utterances so that each utterance applies to only one intent.|
-|intents need review|Have an nlu\_admin or nlu\_editor review the intent. For more information, see [Enable or disable a secondary model intent](enable-disable-secondary-model-intent.md).|
+|intents need review|Have an nlu\_admin or nlu\_editor review the intent. For more information, see [Enable or disable a secondary model intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/enable-disable-secondary-model-intent.md).|
 
 In this example procedure, you are resolving critical conflicts in one of your intents. You built a Virtual Agent model for handling HR requests, but two of your intents, GeneralHRInquiry and CreateHRGeneralInquiryCase included similar utterances.
 
@@ -78,11 +79,11 @@ In this example procedure, you are resolving critical conflicts in one of your i
 
     **Note:** You can hide moderate conflicts to focus on the critical conflicts. You can also ignore conflicts. However, be sure to fix all conflicts for best performance.
 
-    ![Conflicts tab of an intent screen with critical conflicts. Changes made on this screen are saved automatically.](../images/resolve-intent-issues01.png)
+    \[Omitted image "resolve-intent-issues01.png"\] Alt text: Conflicts tab of an intent screen with critical conflicts. Changes made on this screen are saved automatically.
 
 7.  Point to the utterance that you want to edit or remove.
 
-    ![Utterances that are conflicting with each other. You can edit or delete an utterance from that intent.](../images/resolve-intent-issues02.png)
+    \[Omitted image "resolve-intent-issues02.png"\] Alt text: Utterances that are conflicting with each other. You can edit or delete an utterance from that intent.
 
     In this example procedure, click the trash icon to remove the utterance from the CreateHRGeneralInquiryCase intent.
 
@@ -93,7 +94,7 @@ In this example procedure, you are resolving critical conflicts in one of your i
 
 ## What to do next
 
-Utterances designated as `Irrelevant` or `Not relevant`may also conflict with training utterances. Irrelevant utterances are displayed as though they are in their own intent named **NO\_INTENT**. However, these utterances cannot be edited or deleted in Conflicts. Copy the utterance to the Irrelevance Detection module to edit or delete. For more information, see [Irrelevance detection in NLU](../concept/irrelevance-detection-nlu.md).
+Utterances designated as `Irrelevant` or `Not relevant`may also conflict with training utterances. Irrelevant utterances are displayed as though they are in their own intent named **NO\_INTENT**. However, these utterances cannot be edited or deleted in Conflicts. Copy the utterance to the Irrelevance Detection module to edit or delete. For more information, see [Irrelevance detection in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/irrelevance-detection-nlu.md).
 
 Continue to resolve all conflicts. When finished, train your model to see a list of updated conflicts, if any. Resolve all intent issues prior to testing and publishing your model.
 

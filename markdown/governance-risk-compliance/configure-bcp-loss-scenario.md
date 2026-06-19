@@ -2,6 +2,7 @@
 title: Configure a plan for a loss scenario
 description: Loss scenarios are identified and documented so that the plan has the needs and requirements listed for any particular disaster that may strike. Each potential threat requires unique recovery steps and the need for each loss scenario vary. Your plan must be well laid to maintain operations for any potential impacted loss.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-bcp-loss-scenario.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

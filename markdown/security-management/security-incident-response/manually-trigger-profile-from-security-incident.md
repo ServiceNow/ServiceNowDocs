@@ -2,11 +2,12 @@
 title: Trigger a CrowdStrike Falcon Insight profile manually from a security incident
 description: Trigger a profile manually after you review a security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/manually-trigger-profile-from-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -39,7 +40,7 @@ Once you activate the profile, based on the configured trigger conditions, you c
 
 6.  Select **Submit**.
 
-    The selected profile is triggered manually. You can review the work notes and activities section and the profile-initiated and profile-completed tags in the work notes section. ![Reviewing work notes for automation activity.](../image/falcon-insight-test-work-notes.png)
+    The selected profile is triggered manually. You can review the work notes and activities section and the profile-initiated and profile-completed tags in the work notes section. \[Omitted image "falcon-insight-test-work-notes.png"\] Alt text: Reviewing work notes for automation activity.
 
 7.  The results appear in the form of related lists such as Get File, Host Details, Logged on Users, Running Processes, Running Services, Network Statistics, and so on.
 

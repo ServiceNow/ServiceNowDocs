@@ -2,7 +2,10 @@
 title: Import sold products with guided setup
 description: Sold products are products and components that have been sold to an account or a consumer. Use guided setup to import sold products so that you can track the products or services sold to an account or consumer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/import-csm-sold-products.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

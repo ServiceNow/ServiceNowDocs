@@ -2,6 +2,7 @@
 title: Set up the AWS Elastic Load Balancing spoke
 description: Integrate the ServiceNow instance and AWS Elastic Load Balancing account using AWS credential to authenticate ServiceNow requests.Create credential record for the AWS Elastic Load Balancing account. The AWS Elastic Load Balancing spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-load-balancing.html
 release: australia
 product: Integration Hub
 classification: integration-hub

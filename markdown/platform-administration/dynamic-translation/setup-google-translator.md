@@ -2,6 +2,7 @@
 title: Set up the Google Cloud Translator Service spoke
 description: Integrate your Google account with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/setup-google-translator.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -23,18 +24,18 @@ Integrate your Google account with your ServiceNow instance.
 -   Enable the Cloud Translation API service. For information on enabling a service, see the [Google](https://cloud.google.com/service-usage/docs/enable-disable#enabling) documentation.
 -   Role required: admin
 
-1.  [Create a Java KeyStore certificate](create-jks-google.md)  
+1.  [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-jks-google.md)  
 Encrypt the security certificates obtained from Google by creating a Java KeyStore \(JKS\) file.
-2.  [Attach a Java KeyStore certificate to Google Cloud Translator Service spoke](attach-jks-google-translator.md)  
+2.  [Attach a Java KeyStore certificate to Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/attach-jks-google-translator.md)  
 Enable the JWT client authentication by attaching a valid Java KeyStore \(JKS\) certificate to Google Cloud Translator Service spoke.
-3.  [Create a JWT signing key for Google Cloud Translator Service spoke](create-jwtkey-google.md)  
+3.  [Create a JWT signing key for Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-jwtkey-google.md)  
 Assign a JSON Web Token \(JWT\) signing key to your Java KeyStore certificate.
-4.  [Create a JWT provider for Google Cloud Translator Service spoke](create-jwtprovider-google.md)  
+4.  [Create a JWT provider for Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-jwtprovider-google.md)  
 Add a JSON Web Token \(JWT\) provider to Google Cloud Translator Service spoke.
-5.  [Configure the credential for the GoogleTranslation alias](configure-credential-google.md)  
+5.  [Configure the credential for the GoogleTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configure-credential-google.md)  
 Authorize actions of Google Cloud Translator Service spoke by configuring the Google OAuth 2.0 credential.
-6.  [Configure the connection attributes for the GoogleTranslation alias](configure-connection-google.md)  
+6.  [Configure the connection attributes for the GoogleTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configure-connection-google.md)  
 Connect to the Google's translation service by configuring the Google connection. Provide information that is used by HTTP\(s\) actions or activities to connect to that service.
 
-**Parent Topic:**[Google Cloud Translator Service Spoke](../concept/google-translator-spoke.md)
+**Parent Topic:**[Google Cloud Translator Service Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/google-translator-spoke.md)
 

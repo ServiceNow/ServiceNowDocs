@@ -1,7 +1,8 @@
 ---
-title: Integrate Virtual Agent with Google chat
-description: Add either the Now Virtual Agent bot or self-configured bot to your ServiceNow instance to integrate with Google chat.
+title: Integrate Virtual Agent with Google Chat
+description: Add either the Now Virtual Agent bot or self-configured bot to your ServiceNow instance to integrate with Google Chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/integrating-va-google-chat.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -9,18 +10,18 @@ topic_type: task
 last_updated: "2026-04-28"
 reading_time_minutes: 1
 keywords: [Now Virtual Agent, Self-configured, Google Chat, Channels, Integrations, Conversational Interfaces]
-breadcrumb: [Configuring your Conversational Integration with Google chat, Conversational Integration with Google chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configuring your Conversational Integration with Google Chat, Conversational Integration with Google Chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrate Virtual Agent with Google chat
+# Integrate Virtual Agent with Google Chat
 
-Add either the Now Virtual Agent bot or self-configured bot to your ServiceNow instance to integrate with Google chat.
+Add either the Now Virtual Agent bot or self-configured bot to your ServiceNow instance to integrate with Google Chat.
 
 ## Before you begin
 
-Install the Google chat plugin \[sn\_va\_google-chat\] on your ServiceNow instance before adding any integrations.
+Install the Google Chat plugin \[sn\_va\_google-chat\] on your ServiceNow instance before adding any integrations.
 
-For more information on Now Virtual Agent integrations with Google chat, see [Exploring Conversational Integration with Google chat](../concept/exploring-ci-google-chat.md).
+For more information on Now Virtual Agent integrations with Google Chat, see [Exploring Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/exploring-ci-google-chat.md).
 
 Role required: admin or virtual\_agent\_admin.
 
@@ -35,16 +36,16 @@ Role required: admin or virtual\_agent\_admin.
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Channels and Integrations**.
 
-2.  In the Available Channels section, select the **Add Integration** drop-down menu on the Google chat tile.![Google chat tile with integration options under drop-down menu.](../images/add-google-chat-integration.png)
+2.  In the Available Channels section, select the **Add Integration** drop-down menu on the Google Chat tile.\[Omitted image "add-google-chat-integration.png"\] Alt text: Google chat tile with integration options under drop-down menu.
 
-    **Note:** The Google chat tile and its **Add Integration** drop-down menu is available only after installing the Google chat plugin \(sn\_va\_google-chat\) on your ServiceNow instance.
+    **Note:** The Google Chat tile and its **Add Integration** drop-down menu is available only after installing the Google Chat plugin \(sn\_va\_google-chat\) on your ServiceNow instance.
 
 3.  Sign in to your Google Chat account to complete the integration.
 
 
 ## Result
 
-If an automated welcome message displays in the chat window, Google chat is ready to use with Virtual Agent in your instance.
+If an automated welcome message displays in the chat window, Google Chat is ready to use with Virtual Agent in your instance.
 
-**Parent Topic:**[Configuring your Conversational Integration with Google chat](../concept/configure-va-google-chat.md)
+**Parent Topic:**[Configuring your Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-google-chat.md)
 

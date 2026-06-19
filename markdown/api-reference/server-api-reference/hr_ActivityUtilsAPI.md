@@ -2,6 +2,7 @@
 title: hr\_ActivityUtils - Scoped
 description: The hrActivityUtils script include enables you to create HR cases from a record producer.Creates a case from a record producer and service. This method is intended to be called as-is to create a producer and does not require supplying data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/hr\_ActivityUtilsAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The hrActivityUtils script include enables you to create HR cases from a record 
 
 This script include requires the HR Lifecycle Events plugin \(com.sn\_hr\_lifecycle\_events\) and runs in the `sn_hr_le` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## hr\_ActivityUtils - createCaseFromProducer\(GlideRecord current, Object producer, String cat\_item.sys\_id\)
 

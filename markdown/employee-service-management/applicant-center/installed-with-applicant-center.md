@@ -2,6 +2,7 @@
 title: Components installed with Applicant Center
 description: The following are the components installed with activation of the Applicant Center plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/installed-with-applicant-center.html
 release: australia
 product: Applicant Center
 classification: applicant-center

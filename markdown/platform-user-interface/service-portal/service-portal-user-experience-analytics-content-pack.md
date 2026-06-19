@@ -2,6 +2,7 @@
 title: Analytics and Reporting Solutions for Service Portal
 description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides metric visualizations to better understand the Service Portal user experience and identify how to improve it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/service-portal-user-experience-analytics-content-pack.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -24,8 +25,8 @@ The following roles and tasks are associated with this Solution:
 
 For information about additional roles, see .
 
--   **[Usage Insights for Service Portal](../../../build/service-portal/concept/sp-analytics.md)**  
+-   **[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/sp-analytics.md)**  
 The Usage Insights application provides views for monitoring usage analytics of your Service Portal applications. Visualize metrics and interactions to better understand the Service Portal user experience and identify how to improve it.
 
-**Parent Topic:**[Analyzing portal performance and usage](../../../build/service-portal/concept/using-portal-analytics.md)
+**Parent Topic:**[Analyzing portal performance and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/using-portal-analytics.md)
 

@@ -2,6 +2,7 @@
 title: Data collected by Kubernetes Visibility Agent
 description: The Kubernetes Visibility Agent Informer collects data on Kubernetes resources and populates various CMDB tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-collected-data.html
 release: australia
 product: Discovery
 classification: discovery
@@ -18,5 +19,5 @@ The Kubernetes Visibility Agent Informer collects data on Kubernetes resources a
 
 For the information about the data Kubernetes Visibility Agent Informer collects on the Kubernetes resources and OpenShift resources, and about the CMDB tables it populates, see the KB article [KB2669848](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=5883b26493ca3a10d9743f986cba1060)
 
-**Parent Topic:**[Kubernetes Visibility Agent Reference](cnov-reference.md)
+**Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-reference.md)
 

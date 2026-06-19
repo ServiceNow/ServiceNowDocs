@@ -2,6 +2,7 @@
 title: LDAP integration via MID Server
 description: Administrators can integrate using an LDAP data source over a Management, Instrumentation, and Discovery \(MID\) Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_LDAPIntegrationViaMIDServer.html
 release: australia
 product: LDAP integration
 classification: ldap-integration
@@ -15,7 +16,7 @@ breadcrumb: [LDAP integration setup, LDAP integration, Authentication, Access Ma
 
 Administrators can integrate using an LDAP data source over a Management, Instrumentation, and Discovery \(MID\) Server.
 
-The MID Server enables communication and movement of data between the ServiceNow AI Platform and external applications, data sources, and services. For details on installing a MID Server, see [MID Server installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-installation.md).
+The MID Server enables communication and movement of data between the ServiceNow AI Platform and external applications, data sources, and services. For details on installing a MID Server, see MID Server installation.
 
 Using a MID Server to establish an LDAP connection prevents you from having to expose the LDAP server to external network traffic. It eliminates the need to establish a VPN tunnel between your LDAP server and datacenters. The MID Server user must have the user\_admin role to be able to read LDAP server configuration records.
 
@@ -25,11 +26,11 @@ A MID Server connection communicates over HTTP on port 80 by default. This commu
 
 **Note:** LDAP cannot communicate via the MID Server with password authentication.
 
-For a secure communication over SSL, you must [add an SSL certificate for the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/add-ssl-certificates.md). Change the LDAP server URL from LDAP to LDAPS and change to port 636.
+For a secure communication over SSL, you must add an SSL certificate for the MID Server. Change the LDAP server URL from LDAP to LDAPS and change to port 636.
 
-![LDAPS connection URL and SSL flag](../image/ldaps-midserver-setting.png)
+\[Omitted image "ldaps-midserver-setting.png"\] Alt text: LDAPS connection URL and SSL flag
 
 **Note:** If you create a new LDAP server, the MID Server SSL flag sets to false by default. You can ignore this behavior.
 
-To set connection properties for a specific LDAP server, see [Define an LDAP server](../task/t_DefineAnLDAPServer.md).
+To set connection properties for a specific LDAP server, see [Define an LDAP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_DefineAnLDAPServer.md).
 

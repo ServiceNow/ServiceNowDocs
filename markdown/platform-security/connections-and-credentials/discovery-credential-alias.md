@@ -2,6 +2,7 @@
 title: Credential aliases for Discovery
 description: Credential aliases for Discovery allow an administrator to use specific credentials on Discovery schedules. You can configure behaviors for your aliases that determine how strictly the system enforces their use.Create the alias and then add that alias to a credential in the credential record. You can add a credential to multiple aliases and add multiple credentials to a single alias.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/discovery-credential-alias.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -23,7 +24,7 @@ A business rule called **Insert Discovery Affinity &amp; Cred Aliases** \(previo
 
 The business rule attaches the credential aliases defined in the Discovery schedule to the probe, so when the probe reaches the MID Server on its way to performing discovery, the MID Server knows exactly which credentials it can use to attempt to access the device the probe was sent to scan.
 
-The MID Server filters credentials by [affinity](c_CredentialAffinity.md) and then by tags, if any exist. Credentials must match all credential tags. The MID Server iterates until it finds a credential that works.
+The MID Server filters credentials by [affinity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CredentialAffinity.md) and then by tags, if any exist. Credentials must match all credential tags. The MID Server iterates until it finds a credential that works.
 
 If the business rule determines that an affinity exists for the device, the rule identifies the proper **credential\_id** to use. This is the **__sys\_id__** of the record in the Credentials `[discovery_credentials]` table.
 
@@ -59,7 +60,7 @@ A Discovery schedule only uses credentials that are contained in the aliases def
 
         The **Credentials** related list appears. You can add new credentials for this alias in this list but not existing credentials.
 
-        ![Credential alias record](../image/DiscoCredAlias.png)
+        \[Omitted image "DiscoCredAlias.png"\] Alt text: Credential alias record
 
 2.  Configure a credential for the new alias.
 
@@ -69,7 +70,7 @@ A Discovery schedule only uses credentials that are contained in the aliases def
 
     3.  In the credential record, unlock the **Credential alias** field and select the alias you created.
 
-        ![Credential record with alias defined](../image/DiscoCredforAlias.png)
+        \[Omitted image "DiscoCredforAlias.png"\] Alt text: Credential record with alias defined
 
     4.  Save or submit the record.
 
@@ -77,7 +78,7 @@ A Discovery schedule only uses credentials that are contained in the aliases def
 
     The credential you attached to the alias now appears in the related list.
 
-    ![Credential attached to an alias](../image/DiscoAliaswithCred.png)
+    \[Omitted image "DiscoAliaswithCred.png"\] Alt text: Credential attached to an alias
 
 4.  To create an additional credential for this alias, click **New** in the related list and select a credential type.
 

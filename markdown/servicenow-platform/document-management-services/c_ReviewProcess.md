@@ -2,6 +2,7 @@
 title: Review process
 description: During the review process, the reviewer approves or rejects the document. Sometimes a document will have multiple reviewers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/c\_ReviewProcess.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -19,5 +20,5 @@ If the reviewer rejects the document, the author and owner are notified and the 
 
 If multiple reviewers are assigned to a document, the first reviewer to act dictates what happens to the document. For example, there are two reviewers, A and B. If reviewer A acts first and rejects the document, the review process stops and the revision state is set to Cancelled. Reviewer B receives a notification email stating that the review was rejected and their status is changed to No Longer Required. If reviewer A acts first and approves the document, the review process stops and the document can move to the approval stage. Reviewer B's status is changed to No Longer Required.
 
-**Parent Topic:**[Create a document](c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_CreateADocument.md)
 

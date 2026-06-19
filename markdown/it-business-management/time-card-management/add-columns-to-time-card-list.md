@@ -2,6 +2,7 @@
 title: Add columns to the logged time card list
 description: Add columns in the logged time card list on the Time Sheet Portal to show additional information that you might require to log your time cards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/add-columns-to-time-card-list.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -25,7 +26,7 @@ Role required: admin or sp\_admin
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Widget Instances**.
 
-2.  Click the preview time card header icon \(![Preview Time card header icon](../image/preview-record-icon.png)\) to open the Time Card Portal Main Container widget instance.
+2.  Click the preview time card header icon \(\[Omitted image "preview-record-icon.png"\] Alt text: Preview Time card header icon\) to open the Time Card Portal Main Container widget instance.
 
 3.  On the Instance form, update the code by providing values for the following column configurations in the **Additional options, JSON format** field.
 
@@ -86,5 +87,5 @@ The following sample code adds the **category** column of the Time Card \[time\_
 }
 ```
 
-**Parent Topic:**[Time Sheet Portal](../concept/worker-portal.md)
+**Parent Topic:**[Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/worker-portal.md)
 

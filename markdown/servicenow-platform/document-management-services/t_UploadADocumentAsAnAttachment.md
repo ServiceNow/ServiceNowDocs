@@ -2,6 +2,7 @@
 title: Upload a document as an attachment
 description: After creating a document record, add the document to the record as an attachment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_UploadADocumentAsAnAttachment.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -40,5 +41,5 @@ Role required: document\_management\_user
     The document is listed under Document Revisions.
 
 
-**Parent Topic:**[Managed Documents](../concept/c_ManagedDocuments.md)
+**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

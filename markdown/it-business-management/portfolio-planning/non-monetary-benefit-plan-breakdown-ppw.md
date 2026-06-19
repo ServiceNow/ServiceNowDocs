@@ -2,6 +2,7 @@
 title: Non-monetary benefit plan breakdown form
 description: The non-monetary benefit breakdown form information is used to create and edit a non-monetary benefit breakdown record for the demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/non-monetary-benefit-plan-breakdown-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -22,7 +23,7 @@ The non-monetary benefit breakdown form information is used to create and edit a
 |Measure|Measure type specified in the benefit plan.|
 |Actual benefit|Actual benefit that is incurred from the demand.|
 |Benefit plan|Benefit plan to which the benefit plan breakdown belongs.|
-|Fiscal period|Fiscals generated at the period level. For information on periods, see [fiscal calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_FiscalCalendar.md).|
+|Fiscal period|Fiscals generated at the period level. For information on periods, see fiscal calendars.|
 |Entered benefit|Benefit in entered value.|
 |Variance|The difference between the estimated and actual benefit.|
 

@@ -2,6 +2,7 @@
 title: NowWebSDK class - Android
 description: The NowWebSDK class provides a single function that enables you to load web pages hosted on your ServiceNow instance in a native web view and Cabrillo. It automatically handles user authentication and session management instead of forcing users to log into the instance through a login web page.Creates a NowWeb service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowWebSDKAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 The NowWebSDK class provides a single function that enables you to load web pages hosted on your ServiceNow instance in a native web view and Cabrillo. It automatically handles user authentication and session management instead of forcing users to log into the instance through a login web page.
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowWebSDK - makeWebService\(instanceURL: URL, nowWebSdkCallbacks: NowWebViewServiceDelegate? = null\)
 

@@ -2,6 +2,7 @@
 title: Knowledge Management dashboard
 description: The Knowledge Management dashboard helps knowledge content owners and managers to determine the usage and quality of their knowledge content. It helps confirm that the proper processes and procedures are being followed for content creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/knowledge-management-dashboard.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -21,11 +22,11 @@ The Knowledge Management dashboard helps knowledge content owners and managers t
 -   To enable the solution for Knowledge Management, an admin can navigate to **Performance Analytics** &gt; **Guided Setup**. Select Get Started then scroll to the section for Knowledge Management. The guided setup takes you through the entire setup and configuration process.
 -   To access the Knowledge Management dashboard, navigate to **All** &gt; **Self-Service** &gt; **Dashboard**. In the **Search dashboard** field, search for the Knowledge Management dashboard.
 
-![Tab showing user activity, click rank, and click through rate for any user and authenticated user activities](../../../product/knowledge-management/image/kmdash-content-usage.png "Knowledge Management dashboard- Content Usage tab")
+\[Omitted image "kmdash-content-usage.png"\] Alt text: Tab showing user activity, click rank, and click through rate for any user and authenticated user activities
 
-![Tab showing time to publish of articles](../../../product/knowledge-management/image/kmdash-content-gov.png "Knowledge Management dashboard - Content Governance tab")
+\[Omitted image "kmdash-content-gov.png"\] Alt text: Tab showing time to publish of articles
 
-![The Content Quality view shows the quality index, the percentage of flagged articles, the monthly average rating, and other quality reports](../../../product/knowledge-management/image/kmdash-content-quality.png "Knowledge Management dashboard-Content Quality tab")
+\[Omitted image "kmdash-content-quality.png"\] Alt text: The Content Quality view shows the quality index, the percentage of flagged articles, the monthly average rating, and other quality reports
 
 |End user and goal|Required role|Benefits|
 |-----------------|-------------|--------|
@@ -134,15 +135,15 @@ The dashboards include the following visualizations:
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Articles with Inactive Authors|Column![Column icon](../../performance-analytics/image/column-icon.png)|Active = true and Author.Active = False|
-|Invalid Articles|Column![Column icon](../../performance-analytics/image/column-icon.png)|Active = true and Workflow is one of Draft, Review, Published, or Pending Retirement and Valid to is before today and latest = true|
-|Articles Created Over 1 Year|Column![Column icon](../../performance-analytics/image/column-icon.png)|Active = true and Created = before 1 year ago|
-|Articles not Published|Column![Column icon](../../performance-analytics/image/column-icon.png)|Active = true and Workflow is Draft or Review|
+|Articles with Inactive Authors|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Active = true and Author.Active = False|
+|Invalid Articles|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Active = true and Workflow is one of Draft, Review, Published, or Pending Retirement and Valid to is before today and latest = true|
+|Articles Created Over 1 Year|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Active = true and Created = before 1 year ago|
+|Articles not Published|Column\[Omitted image "column-icon.png"\] Alt text: Column icon|Active = true and Workflow is Draft or Review|
 
-**Parent Topic:**[Knowledge Management Platform Analytics Solutions](knowledge-content-pack.md)
+**Parent Topic:**[Knowledge Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-content-pack.md)
 
 **Related topics**  
 
 
-[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/dashboards-landing-page.md)
+[bundle-par.dashboards-landing-page]
 

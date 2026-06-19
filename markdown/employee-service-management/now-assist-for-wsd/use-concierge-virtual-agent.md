@@ -2,6 +2,7 @@
 title: Use Workplace Concierge with Now Assist in Virtual Agent
 description: Invoke Workplace Concierge from Now Assist in Virtual Agent to invite visitors to your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/use-concierge-virtual-agent.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -41,7 +42,7 @@ Role required: sn\_wsd\_core.workplace\_user and now\_assist\_panel\_user
 
 4.  Verify the details of the visit, then select the confirm option to create the visit.
 
-    After you confirm the details, Workplace Concierge creates a visit and invites the visitors using the email addresses. For more information about visitor registrations, see [Registering a visitor](../../workplace-visitor-mgmt/concept/registerring-a-visitor.md).
+    After you confirm the details, Workplace Concierge creates a visit and invites the visitors using the email addresses. For more information about visitor registrations, see [Registering a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/registerring-a-visitor.md).
 
 
 ## What to do next
@@ -50,5 +51,5 @@ Visitors can reply to the invitation email to provide information for their pre-
 
 If Workplace Concierge is included in any emails that are sent to the visitors, the Email Visitor Intake agent scans the email threads for relevant data and updates the visitor records.
 
-**Parent Topic:**[Workplace Concierge agentic workflow](../concept/workplace-concierge-ai-agent.md)
+**Parent Topic:**[Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md)
 

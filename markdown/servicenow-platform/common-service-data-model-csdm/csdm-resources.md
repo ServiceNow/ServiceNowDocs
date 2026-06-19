@@ -2,6 +2,7 @@
 title: CSDM resources
 description: Resources and videos that complement the documentation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-resources.html
 release: australia
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
@@ -25,5 +26,5 @@ Resources and videos that complement the documentation.
 -   CSDM 101: Everything you must know: [https://youtu.be/hANONH1c1vQ](https://youtu.be/hANONH1c1vQ)
 -   Ask the experts: Getting started with CSDM: [https://youtu.be/F1Qznf7kgnE](https://youtu.be/F1Qznf7kgnE)
 
-**Parent Topic:**[CSDM reference](../concept/csdm-content-frame-reference.md)
+**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
 

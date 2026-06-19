@@ -2,6 +2,7 @@
 title: Configure impact ratings
 description: Configure an impact rating to assess an impact category as low, moderate, high, or critical. Use the Impact Ratings module in the Business Continuity Management application navigator to help you measure the intensity of the loss when a business downtime occurs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-impact-rating-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,21 +26,21 @@ Role required: sn\_bcm.admin
 
     The impact rating template is shown in the example.
 
-    ![Impact rating template.](../image/impact-rating-new.png)
+    \[Omitted image "impact-rating-new.png"\] Alt text: Impact rating template.
 
 3.  On the form, fill in the fields.
 
-    For more information on the fields in the form, see [Impact Rating record form](../reference/impact-rating-new-record-form.md).
+    For more information on the fields in the form, see [Impact Rating record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/impact-rating-new-record-form.md).
 
     The example shows an impact rating from the demo data.
 
-    ![Impact rating example.](../image/impact-rating-example.png)
+    \[Omitted image "impact-rating-example.png"\] Alt text: Impact rating example.
 
 4.  Select **Submit**.
 
 
--   **[Impact Rating record form](../reference/impact-rating-new-record-form.md)**  
+-   **[Impact Rating record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/impact-rating-new-record-form.md)**  
 Use the Impact Rating record form to assess an impact category such as low, moderate, high, or critical by using BCM UIB Workspace.
 
-**Parent Topic:**[General administration setup for BCM](../concept/set-up-bcm-bcmadmin-tasks.md)
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

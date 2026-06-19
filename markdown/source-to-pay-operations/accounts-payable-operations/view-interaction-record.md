@@ -1,19 +1,21 @@
 ---
 title: View interaction record in Accounts Payable Operations
-description: View the details of an interaction record to analyze interactions and take immediate actions. Viewing an interaction record provides a comprehensive view of the customer journey. You can link an interaction record to an existing invoice case, which needs an Accounts Payable Operations agent involvement for investigation.
+description: View interaction record details to analyze supplier interactions, take immediate actions, and link records to invoice cases requiring investigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/view-interaction-record.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice management, AP case, AP agent]
 breadcrumb: [Interaction management in Accounts Payable Operations, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # View interaction record in Accounts Payable Operations
 
-View the details of an interaction record to analyze interactions and take immediate actions. Viewing an interaction record provides a comprehensive view of the customer journey. You can link an interaction record to an existing invoice case, which needs an Accounts Payable Operations agent involvement for investigation.
+View interaction record details to analyze supplier interactions, take immediate actions, and link records to invoice cases requiring investigation.
 
 ## Before you begin
 
@@ -23,7 +25,7 @@ Role required: Account Payable agent
 
 1.  Navigate to **All** &gt; **Source-to-Pay Workspace**.
 
-2.  Select the List icon \(![List icon.](../../supplier-lifecycle-operations/image/cases-list-icon.png)\) and select **Interactions** &gt;**All**.
+2.  Select the List icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon.\) and select **Interactions** &gt;**All**.
 
 3.  View interactions in the desired category to associate a record with an invoice case.
 
@@ -42,5 +44,5 @@ Role required: Account Payable agent
     |Transcript|Text record of the conversation between an agent and the supplier|
 
 
-**Parent Topic:**[Interaction management in Accounts Payable Operations](../concept/interaction-record.md)
+**Parent Topic:**[Interaction management in Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/interaction-record.md)
 

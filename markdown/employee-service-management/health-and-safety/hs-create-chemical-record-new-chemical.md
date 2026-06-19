@@ -1,7 +1,8 @@
 ---
-title: Create a chemical record for a new chemical
+title: Create a chemical record for a chemical
 description: The chemical manager can create a chemical record for the new chemical request that has been approved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-create-chemical-record-new-chemical.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -11,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Chemical management, Use, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
 
-# Create a chemical record for a new chemical
+# Create a chemical record for a chemical
 
 The chemical manager can create a chemical record for the new chemical request that has been approved.
 
@@ -23,7 +24,7 @@ Role required: sn\_hs\_chm.manager
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  In the primary navigation, select **Environmental Management** \(![environmental management icon](../image/icon-hs-envt-mgmt.png)\) icon.
+2.  Select **Environmental Management** \(\[Omitted image "icon-hs-envt-mgmt.png"\] Alt text: environmental management icon\) icon.
 
 3.  In the **Chemical Requests** list, select the **Approved** tab and select a chemical request record.
 
@@ -32,7 +33,7 @@ Role required: sn\_hs\_chm.manager
 5.  In the **Create chemical** form under the **Automatically** tab, the fields **Chemical name**, **Manufacturer**, and **Language** are automatically filled.
 
     -   The fields are populated automatically because of the integration with the 3E database. If this configuration isn’t done, the **Create chemical** form must be filled manually.
-    -   To create chemical manually, use the **Manually** tab, enter the **Chemical name** and then select **Submit**. On the **Create chemical** form, fill in the fields. For more information, see [Chemical form](../reference/hs-chemical-form.md).
+    -   To create chemical manually, use the **Manually** tab, enter the **Chemical name** and then select **Submit**. On the **Create chemical** form, fill in the fields. For more information, see [Chemical form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-chemical-form.md).
 6.  In the **Country** field, select the name of the country.
 
     Enter the **Part number** that aligns with the 3E service providers if its available.
@@ -44,12 +45,12 @@ Role required: sn\_hs\_chm.manager
 
 When the **Create chemical** form is,
 
--   Submitted through the **Automatically** tab in the form, the chemical record is filled automatically and its related lists are pre populated with information from the 3E database.
--   Submitted through the **Manually** tab in the form, the chemical record is created with the fields to be filled manually.
+-   Submitted through the **Automatically** tab, the chemical record and its related lists are automatically populated with information from the 3E database. Some fields may not be populated by the service provider and may be empty. Empty fields must be manually updated.
+-   Submitted through the **Manually** tab, the chemical record is created with the fields to be filled manually.
 
 The **Chemical hazard identification**, **Chemical ingredients**, **Chemical ingredients**, **Chemical items**, **Risk assessments**, **Documents**, and **Service provider requests** tabs appear for this chemical record.
 
 The new chemical record is added to the **Chemicals** list in the **Environmental Management** list view.
 
-**Parent Topic:**[Chemical management](../concept/hs-using-chemical-management.md)
+**Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

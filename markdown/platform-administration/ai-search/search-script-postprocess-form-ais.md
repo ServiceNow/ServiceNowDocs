@@ -1,7 +1,8 @@
 ---
 title: Search Scripted Post-processors form
-description: The Search Scripted Post-processors form contains information about post-processing scripts defined in search application configurations for AI Search. Use this form when creating or modifying search scripted post-processors.
+description: The Search Scripted Post-processors form enables you to create a search scripted post-processor in the search application configuration for an AI Search application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/search-script-postprocess-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -13,9 +14,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 # Search Scripted Post-processors form
 
-The Search Scripted Post-processors form contains information about post-processing scripts defined in search application configurations for AI Search. Use this form when creating or modifying search scripted post-processors.
+The Search Scripted Post-processors form enables you to create a search scripted post-processor in the search application configuration for an AI Search application.
 
-For details on creating or editing search scripted post-processors, see [Using search scripted post-processors in AI Search application configurations](../concept/script-post-process-ais.md#).
+For details on creating or editing search scripted post-processors, see [Using search scripted post-processors in AI Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/script-post-process-ais.md).
 
 <table id="table_jwr_5vb_5nb"><thead><tr><th>
 
@@ -142,5 +143,5 @@ function process(record) {
 3.  Press Enter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+</table>**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
 

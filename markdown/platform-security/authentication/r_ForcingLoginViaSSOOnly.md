@@ -2,6 +2,7 @@
 title: Redirect single sign-on \(SSO\) logins
 description: When SSO is enabled, you can redirect users to specific pages or direct users to login locally.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_ForcingLoginViaSSOOnly.html
 release: australia
 product: Authentication
 classification: authentication

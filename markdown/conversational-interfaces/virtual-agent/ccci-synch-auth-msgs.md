@@ -2,6 +2,7 @@
 title: Synchronous authentication of messages
 description: Inbound message authentication is performed before the message is added to the hybrid queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/ccci-synch-auth-msgs.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Supported features for custom chat integrations, Conversational cus
 
 Inbound message authentication is performed before the message is added to the hybrid queue.
 
-This code has to be implemented in the provider attribute script. For more information, see [Virtual Agent action scripts](va-action-scripts.md).
+This code has to be implemented in the provider attribute script. For more information, see [Virtual Agent action scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-action-scripts.md).
 
 Example: Synchronous authentication of messages
 
@@ -28,5 +29,5 @@ if (validated === false) {
     writer.writeString(
 ```
 
-**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](../concept/va-features-custom-chat-integrations.md)
+**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

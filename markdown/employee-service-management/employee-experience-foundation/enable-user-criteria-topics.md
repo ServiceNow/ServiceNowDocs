@@ -2,6 +2,7 @@
 title: Enable user criteria for topics
 description: Enable user criteria to configure topic-level security and visibility settings for topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -41,11 +42,11 @@ Organizations can define who the topic page is **Available for** and **Not Avail
 
 2.  Click **New**.
 
-3.  Configure the topic form, see [Topic form](../reference/topic-form.md).
+3.  Configure the topic form, see [Topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/topic-form.md).
 
 4.  Select **Enable user criteria check** to set user criteria at topic-level.
 
-    ![Associating topic to the related tabs](../images/associate-topics-tabs.png "User criteria and related tabs")
+    \[Omitted image "associate-topics-tabs.png"\] Alt text: Associating topic to the related tabs
 
     Understand how it works from the message.
 
@@ -74,14 +75,14 @@ Organizations can define who the topic page is **Available for** and **Not Avail
     |When a topic is cloned to a new parent with empty user criteria.|User criteria and visibility of the topic are empty.|
     |When a topic is cloned to a new parent with non-empty user criteria.|User criteria and visibility of the new parent override the cloned topic.|
     |When user criteria and visibility of parent change|The revised user criteria and visibility are applied to its children.|
-    |When user criteria is enabled for favorites|Employee \(for whom the topic isn’t available for\) isn’t able to view the favorited topic. The following message appears `You don't have access to <count> of your favorited items`. For more information, see [Configure favorites option](web-configure-favorites-admin.md).|
+    |When user criteria is enabled for favorites|Employee \(for whom the topic isn’t available for\) isn’t able to view the favorited topic. The following message appears `You don't have access to <count> of your favorited items`. For more information, see [Configure favorites option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-admin.md).|
     |When a new topic is cloned and made root topic|The cloned topic user criteria and visibility are empty.|
 
     **Note:** When the user criteria applies on the favorited topic, where the topic isn't visible under **My Favorites**.
 
 6.  Click **Submit** or **Save**.
 
-    **Note:** Topics are visible based on the user criteria associated with it. For more information, see the **Favorites card and access** illustration on [Configure favorites option](web-configure-favorites-admin.md).
+    **Note:** Topics are visible based on the user criteria associated with it. For more information, see the **Favorites card and access** illustration on [Configure favorites option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/web-configure-favorites-admin.md).
 
 
 ## Result
@@ -90,7 +91,7 @@ User criteria changes are available only after relogging. Proceed to check the t
 
 ## What to do next
 
-Create child topics for the parent topic. For more information, see [Create a child topic](create-child-topics-for-parent.md). Go to the tabs to associate the topic appropriately. Child topics inherit the user criteria of the parent topic however admin can update the child-topic criteria separately as per business needs.
+Create child topics for the parent topic. For more information, see [Create a child topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/create-child-topics-for-parent.md). Go to the tabs to associate the topic appropriately. Child topics inherit the user criteria of the parent topic however admin can update the child-topic criteria separately as per business needs.
 
 **Note:** When you clone or move a topic, the associated guided self-service also is cloned or moved accordingly.
 

@@ -2,12 +2,13 @@
 title: Healthcare and Life Sciences Operations glossary
 description: Learn about the terms and concepts that are unique to Healthcare and Life Sciences Operations.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/glossary-hcls-cto.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 20
+reading_time_minutes: 31
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -26,7 +27,7 @@ A Care Team Mobile feature that allows care team members to scan QR codes or bar
 
 For example, a nurse scans the barcode on an infusion pump using Care Team Mobile and sees its maintenance history before submitting a new repair request.
 
-To learn how to scan asset tags, see [Asset Scan in Care Team Mobile](../concept/cto-mobile-asset-scan.md).
+To learn how to scan asset tags, see [Asset Scan in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-mobile-asset-scan.md).
 
 ### Assignment Group
 
@@ -36,12 +37,12 @@ For example, the Biomed Dispatcher assignment group is associated with the Biome
 
 To learn how to associate assignment groups, see:
 
--   [Associate assignment groups with a healthcare organization in Healthcare Operations Core](../task/hco-assign-roles-responsibilities-members.md)
--   [Set up assignment groups for Care Team Operations for Biomed](../task/cto-biomed-set-up-assignment-groups.md)
--   [Set up assignment groups for Care Team Operations for Environmental Services](../task/cto-evs-assignment-groups.md)
--   [Set up assignment groups for Care Team Operations for Facilities](../task/cto-facilities-assignment-groups.md)
--   [Create assignment groups for Care Team Work Management](../task/ctwm-create-assignment-groups.md)
--   [Set up assignment groups for Care Team Operations for Healthcare IT](../task/cto-it-assignment-groups.md)
+-   [Associate assignment groups with a healthcare organization in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-assign-roles-responsibilities-members.md)
+-   [Set up assignment groups for Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-set-up-assignment-groups.md)
+-   [Set up assignment groups for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-assignment-groups.md)
+-   [Set up assignment groups for Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-assignment-groups.md)
+-   [Create assignment groups for Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/ctwm-create-assignment-groups.md)
+-   [Set up assignment groups for Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-it-assignment-groups.md)
 
 ## B
 
@@ -53,7 +54,7 @@ A service organization record that is automatically created when a healthcare or
 
 For example, when the "Cardiology Department" healthcare organization is created, an associated internal business location with the same name is auto-generated.
 
-To learn more about business locations, see [Setting up healthcare locations and healthcare organizations](../concept/understanding-healthcare-locations-and-healthcare-organizations.md).
+To learn more about business locations, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 
 ## C
 
@@ -65,7 +66,7 @@ A user role that inherits all Care Team Member permissions and additionally allo
 
 For example, a unit manager uses the Care Team Portal to add a newly hired nurse to the ICU team and assign them the Team Member responsibility.
 
-To learn more about Care Team Manager and other responsibilities, see [Setting up roles and responsibilities for Healthcare Operations users](../concept/cto-setting-up-roles-responsibilities.md).
+To learn more about Care Team Manager and other responsibilities, see [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md).
 
 ### Care Team Member
 
@@ -73,7 +74,14 @@ A user role \(sn\_hco.care\_team\_member\) that grants access to create and view
 
 For example, a registered nurse is added to the HCO Team Members group and then associated with the Cardiology Unit organization as a Care Team Member.
 
-To learn more about this role, related responsibilities, and access scoping, see [Setting up roles and responsibilities for Healthcare Operations users](../concept/cto-setting-up-roles-responsibilities.md).
+To learn more, see:
+
+-   [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md)
+-   [Assign roles to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/assign-roles-cto-users.md)
+-   [Assign responsibilities to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.md)
+-   [Create a group for all care team members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-create-team-members-group.md)
+-   [Associate assignment groups with a healthcare organization in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-assign-roles-responsibilities-members.md)
+-   [Add a team member using the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-add-member-portal.md)
 
 ### Care Team Mobile
 
@@ -81,7 +89,14 @@ A mobile application that extends Healthcare Operations Core to smartphones and 
 
 For example, a nurse assistant uses Care Team Mobile to scan a barcode on an IV pump, view its service history, and submit a repair request from the bedside.
 
-To learn more about Care Team Mobile, see [Exploring Care Team Mobile](../concept/care-team-mobile-exploring.md).
+To learn more, see:
+
+-   [Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/care-team-mobile-landing.md)
+-   [Exploring Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/care-team-mobile-exploring.md)
+-   [Configure Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/care-team-mobile-configuring.md)
+-   [Care Team Mobile overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-mobile-overview.md)
+-   [Create support requests using Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-mobile-create-requests.md)
+-   [Asset Scan in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-mobile-asset-scan.md)
 
 ### Care Team Operations for Biomed
 
@@ -89,7 +104,14 @@ A plugin \(sn\_cto\_biomed\) that extends Healthcare Operations Core with case t
 
 For example, a nurse reports a malfunctioning infusion pump using the "Report a medical device issue" catalog item, which creates a Biomed case and dispatches a work order.
 
-To learn more about Care Team Operation for Biomed, see [Exploring Care Team Operations for Biomed](../concept/exploring-cto-biomed.md) and [Configuring Care Team Operations for Biomed](../concept/configuring-cto-biomed.md).
+To learn more, see:
+
+-   [Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/care-team-operations-for-biomed.md)
+-   [Install Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-activate.md)
+-   [Configuring Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/configuring-cto-biomed.md)
+-   [Healthcare Biomed case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-cto-biomed-case.md)
+-   [Creating service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/requesting-cto-biomed.md)
+-   [Fulfilling service requests in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-fulfilling-biomed.md)
 
 ### Care Team Operations for Environmental Services
 
@@ -97,7 +119,14 @@ A plugin \(sn\_cto\_evs\) that extends Healthcare Operations Core with case type
 
 For example, a care team member requests a terminal room cleaning after a patient discharge by selecting Create a request &gt; Request environmental service &gt; Terminal Cleaning Request.
 
-To learn more about Care Team Operations for Environmental Services, see [Exploring Care Team Operations for Environmental Services](../concept/cto-evs-exploring.md)and [Configuring Care Team Operations for Environmental Services](../concept/cto-evs-configuring.md).
+To learn more, see:
+
+-   [Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-landing.md)
+-   [Install Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-activate.md)
+-   [Configuring Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-configuring.md)
+-   [Healthcare EVS case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-case-overview.md)
+-   [Creating service requests for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-create-requests.md)
+-   
 
 ### Care Team Operations for Facilities
 
@@ -105,7 +134,14 @@ A plugin \(sn\_cto\_facilities\) that extends Healthcare Operations Core with ca
 
 For example, a nurse reports a temperature issue by selecting Create a request &gt; Request Facilities service &gt; Temperature and Humidity Control and setting the category to "Room Climate Issues."
 
-To learn more about Care Team Operations for Facilities, see [Exploring Care Team Operations for Facilities](../concept/cto-facilities-exploring.md) and [Configuring Care Team Operations for Facilities](../concept/cto-facilities-configuring.md).
+To learn more, see:
+
+-   [Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-landing.md)
+-   [Install Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-activate.md)
+-   [Configuring Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-configuring.md)
+-   [Healthcare Facilities case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-case-overview.md)
+-   [Creating service requests in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-create-request.md)
+-   [Fulfilling service requests in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-fulfilling-requests.md)
 
 ### Care Team Operations for Healthcare IT
 
@@ -113,7 +149,14 @@ A plugin \(sn\_cto\_hcit\) that extends Healthcare Operations Core with case typ
 
 For example, a unit secretary reports a printer malfunction by navigating to Create a request &gt; Request IT service &gt; Request other IT service in the Care Team Portal.
 
-To learn more about Care Team Operations for Healthcare IT, see [Care Team Operations for Healthcare IT](../concept/hcls-cto-it-app.md).
+To learn more, see:
+
+-   [Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-cto-it-app.md)
+-   [Install Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-it-activate.md)
+-   [Configuring Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/configuring-cto-it.md)
+-   [Healthcare IT case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcl-cto-it-case.md)
+-   [Creating service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/requesting-cto-it.md)
+-   [Fulfilling service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/fulfilling-cto-it.md)
 
 ### Care Team Portal
 
@@ -121,7 +164,7 @@ A responsive web portal within Healthcare Operations Core where care team member
 
 For example, a nurse navigates to https:// .service-now.com/careteam to submit a request for a linen change in a patient room.
 
-To learn more about Care Team Portal, see [Care Team Portal](../concept/hcls-cto-care-team-portal.md) and [Navigate the Care Team Portal](../concept/hcls-cto-using-portal.md).
+To learn more about Care Team Portal, see [Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/care-team-portal-landing.md).
 
 ### Care Team Work Management
 
@@ -129,7 +172,7 @@ An application that streamlines task creation, assignment, and tracking for care
 
 For example, a unit manager creates a "Shift Readiness" task plan template that generates a care team case with individual safety check tasks for each nurse at shift change.
 
-To learn more about Care Team Work Management, see [Exploring Care Team Work Management](../concept/ctwm-exploring.md) and [Configuring Care Team Work Management](../concept/ctwm-configuring.md).
+To learn more about Care Team Work Management, see [Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/ctwm-landing.md).
 
 ### Common Location
 
@@ -137,13 +180,21 @@ A record in the cmn\_location table that provides the foundational location data
 
 For example, an administrator sets up a common location for "Building A" and then creates a healthcare location that references it and adds the physical type "Building."
 
-To learn more about Common Locations, see [Setting up healthcare locations and healthcare organizations](../concept/understanding-healthcare-locations-and-healthcare-organizations.md).
+To learn more about common locations, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 
 ### CSM/FSM Configurable Workspace
 
 The ServiceNow workspace used by department agents and support staff to view, manage, and fulfill Healthcare Operations cases and work orders. It provides configurable views, related records, and action menus for case resolution.
 
 For example, a Facilities support agent opens the CSM/FSM Configurable Workspace to accept, update, and close a plumbing repair work order dispatched from a Healthcare Facilities case.
+
+To learn more, see:
+
+-   
+-   
+-   
+-   
+-   [Fulfill care team case and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/ctwm-fulfill-care-team-cases-tasks.md)
 
 ## D
 
@@ -155,7 +206,12 @@ A ServiceNow tool used to modify state decision tables that map the state transi
 
 For example, for example, an administrator uses Decision Builder to configure that when a work order state changes to "Closed Complete," the associated Healthcare Biomed case state updates to "Closed."
 
-To learn more about Decision Builder, see [Modify state decision tables in Care Team Operations for Biomed](../concept/cto-biomed-modify-states.md).
+To learn more, see:
+
+-   [Modify state decision tables in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-modify-states.md)
+-   [Modify state decision tables in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-state-decision-tables.md)
+-   [Modify state decision tables in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-modify-state-tables.md)
+-   [Modify state decision tables in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-it-modify-decision-tables.md)
 
 ### Department Agent
 
@@ -163,13 +219,24 @@ A user who creates, views, edits, and fulfills service requests on behalf of a h
 
 For example, a Biomed agent with the sn\_cto\_biomed.loc\_support\_agent role receives and fulfills a medical device repair work order in the CSM/FSM Configurable Workspace.
 
-To learn more about Department Agent, see [Exploring Healthcare Operations Core](../concept/hcls-cto-exploring.md).
+To learn more, see:
+
+-   [Assign roles to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/assign-roles-cto-users.md)
+-   
+-   
+-   
+-   
+-   [Fulfill care team case and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/ctwm-fulfill-care-team-cases-tasks.md)
 
 ### Domain Separation
 
 A ServiceNow platform feature that separates data at runtime across multiple tenants, including user interface elements, cache keys, reporting, and aggregations. In Healthcare Operations, it ensures that healthcare requests and fulfillment tasks are isolated to the correct customer domain.
 
 For example, a service provider managing IT for two hospital systems uses domain separation so Hospital A’s cases are invisible to Hospital B’s care team.
+
+To learn more, see:
+
+-   [Healthcare Operations Core data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-data-model.md)
 
 ## E
 
@@ -181,7 +248,14 @@ An integration method for embedding the Care Team Portal within the Epic Hypersp
 
 For example, a nurse opens a patient chart in Epic Hyperspace, and the Care Team Portal loads in an embedded frame with the workstation ID and patient context automatically populated.
 
-To learn more about Epic Hyperspace via Hyperdrive, see [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](../concept/configure-care-team-portal.md).
+To learn more, see:
+
+-   [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/configure-care-team-portal.md)
+-   [Configure iFrame embedding for Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/configure-iframe-portal.md)
+-   [Create and Configure an Identity Provider in ServiceNow to Authenticate with Epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/create-identity-provider-hco.md)
+-   [In Epic: Build the FHIR App to Authenticate with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hco-authenticate-portal.md)
+-   [In Epic: Configure Epic Hyperspace Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hco-configure-epic-integration.md)
+-   [Capture Additional Data From Epic Within ServiceNow Record Producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hco-update-variables-portal.md)
 
 ## F
 
@@ -193,6 +267,12 @@ The ServiceNow plugin \(com.snc.work\_management\) required for automatic work o
 
 For example, after installing the Field Service Management plugin, Healthcare Biomed cases automatically generate work orders with qualifier, dispatcher, and agent fulfillment workflows.
 
+To learn more, see:
+
+-   [Set up work order synchronization in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-plugin-info.md)
+-   [Set up work order synchronization in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-setup-plugins.md)
+-   [Set up work order synchronization in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-fsm-plugin.md)
+
 ## H
 
 Glossary terms are grouped alphabetically.
@@ -203,7 +283,13 @@ A record in the sn\_hcls\_location table representing a physical or virtual plac
 
 For example, an IT agent identifies a broken monitor in PICU Room 204 because the healthcare location hierarchy shows Campus → Hospital Building → Pediatrics Wing → PICU → Room 204.
 
-To learn more about Healthcare Location, see [Setting up healthcare locations and healthcare organizations](../concept/understanding-healthcare-locations-and-healthcare-organizations.md).
+To learn more, see:
+
+-   [Create a healthcare location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-configure-healthcare-location.md)
+-   [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md)
+-   [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md)
+-   [Organizing your healthcare locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/untitled3.md)
+-   [Healthcare Operations Core data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-data-model.md)
 
 ### Healthcare Operations Case
 
@@ -211,7 +297,14 @@ An abstract, extendable case record \(table: sn\_hco\_case\) that stores healthc
 
 For example, an administrator creates a child table from sn\_hco\_case to build a custom case type for pharmacy supply requests.
 
-To learn more about Healthcare Operations Case, see [Healthcare Operations Case overview](../concept/hcls-cto-hco-case.md).
+To learn more, see:
+
+-   [Healthcare Operations Case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-hco-case.md)
+-   [Configure the abstract case type for Healthcare Operations Core case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/configure-abstract-case-type-hco.md)
+-   [Healthcare Biomed case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-cto-biomed-case.md)
+-   [Healthcare IT case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcl-cto-it-case.md)
+-   [Healthcare EVS case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-case-overview.md)
+-   [Healthcare Facilities case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-case-overview.md)
 
 ### Healthcare Operations Core
 
@@ -219,7 +312,14 @@ The foundational ServiceNow application that enables hospitals to streamline and
 
 For example, a hospital installs Healthcare Operations Core to give nurses a single portal for reporting broken equipment, IT outages, and facility issues instead of using disconnected systems.
 
-To learn more about Healthcare Operations Core, see [Exploring Healthcare Operations Core](../concept/hcls-cto-exploring.md).
+To learn more, see:
+
+-   [Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-app.md)
+-   [Exploring Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-exploring.md)
+-   [Configuring Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configuring.md)
+-   [Install Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/activate-hco-core.md)
+-   [Healthcare Operations Core data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-data-model.md)
+-   [Healthcare Operations Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-reference.md)
 
 ### Healthcare Organization
 
@@ -227,7 +327,13 @@ A record in the sn\_hcls\_organization table that defines an entity within a hea
 
 For example, a hierarchy is configured as: HQ → City Hospital → Nursing Department → ICU Unit, where each level is a healthcare organization.
 
-To learn more about Healthcare Organization, see [Setting up healthcare locations and healthcare organizations](../concept/understanding-healthcare-locations-and-healthcare-organizations.md).
+To learn more, see:
+
+-   [Create a healthcare organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-configure-healthcare-organizations.md)
+-   [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md)
+-   [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md)
+-   [Create organizational teams in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-create-organizational-teams.md)
+-   [Organizing your healthcare organizations for Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/example-organizing-hcls-organizations.md)
 
 ### Healthcare Organization Location Association
 
@@ -235,7 +341,11 @@ A table \(sn\_hcls\_organization\_location\_association\) that links healthcare 
 
 For example, the ICU unit organization is associated with rooms 301–310 so that ICU nurses only see those rooms when creating a request.
 
-To learn more about Healthcare Organization Location Association, see [Setting up healthcare locations and healthcare organizations](../concept/understanding-healthcare-locations-and-healthcare-organizations.md).
+To learn more, see:
+
+-   [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-associate-healthcare-locations-organization.md)
+-   [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/understanding-healthcare-locations-and-healthcare-organizations.md)
+-   [Healthcare Operations Core data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-data-model.md)
 
 ## I
 
@@ -247,7 +357,12 @@ A feature of Care Team Operations for Healthcare IT where an ITSM incident is au
 
 For example, a nurse reports an EMR login failure through the Care Team Portal, and an incident is automatically created in the IT department’s Service Operations workspace.
 
-To learn more about Incident Auto-creation, see [Healthcare IT case overview](../concept/hcl-cto-it-case.md).
+To learn more, see:
+
+-   
+-   [Fulfilling service requests in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/fulfilling-cto-it.md)
+-   [Modify state decision tables in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-it-modify-decision-tables.md)
+-   [Healthcare IT case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcl-cto-it-case.md)
 
 ## R
 
@@ -259,11 +374,14 @@ A service catalog item configured to create a specific type of record, such as a
 
 For example, the "Report a Medical Device Issue" record producer creates an sn\_cto\_biomed\_case record and includes fields for asset tag, location, urgency, and description.
 
-To learn more about Record Producer, see the following:
+To learn more, see:
 
--   [Add custom record producers to the service catalog in Care Team Operations for Biomed](../task/cto-biomed-add-record-producers.md)
--   [Add custom record producers to the service catalog in Care Team Operations for Environmental Services](../task/cto-evs-add-custom-record-producers.md)
--   [Add custom record producers to the service catalog in Care Team Operations for Facilities](../task/cto-facilities-add-customer-record-producer.md)
+-   [Add custom record producers to the service catalog in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-add-record-producers.md)
+-   [Add custom record producers to the service catalog in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-add-custom-record-producers.md)
+-   [Add custom record producers to the service catalog in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-add-customer-record-producer.md)
+-   [Add custom record producers to the service catalog in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-it-add-record-producer.md)
+-   [Capture Additional Data From Epic Within ServiceNow Record Producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hco-update-variables-portal.md)
+-   [Create requests in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-cto-create-requests-portal.md)
 
 ### Responsibility
 
@@ -271,7 +389,14 @@ A record-level access control that determines which specific records a user can 
 
 For example, a nurse with the Care Team Member responsibility can only see cases for the ICU, not cases belonging to the Emergency Department.
 
-To learn more about Responsibilities, see [Setting up roles and responsibilities for Healthcare Operations users](../concept/cto-setting-up-roles-responsibilities.md).
+To learn more, see:
+
+-   [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md)
+-   [Assign responsibilities to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.md)
+-   [Assign responsibilities to Care Team Operations for Biomed users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-assign-responsibilities.md)
+-   [Assign responsibilities to Care Team Operations for Environmental Services users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-assign-responsibilities.md)
+-   [Assign responsibilities to Care Team Operations for Healthcare IT users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-hcit-assign-responsibilites.md)
+-   [Assign responsibilities for Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/ctwm-assign-responsibilities.md)
 
 ### Role
 
@@ -279,7 +404,14 @@ A permission set that defines table-level access in ServiceNow, determining whic
 
 For example, a user assigned the sn\_hco.care\_team\_member role can create and view Healthcare Operations cases.
 
-To learn more about Roles, see [Setting up roles and responsibilities for Healthcare Operations users](../concept/cto-setting-up-roles-responsibilities.md).
+To learn more, see:
+
+-   [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md)
+-   [Assign roles to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/assign-roles-cto-users.md)
+-   [Assign roles for Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-set-up-roles.md)
+-   [Set up roles for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-assign-roles.md)
+-   [Set up roles for Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-assign-roles.md)
+-   [Assign roles to Care Team Operations for Healthcare IT users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-it-set-up-roles.md)
 
 ## S
 
@@ -291,7 +423,11 @@ The underlying ServiceNow framework that provides the base responsibility model 
 
 For example, the Care Team Member responsibility in HCO maps to the "Service location business contributor" responsibility from SMF.
 
-To learn more about Service Model Foundation \(SMF\), see [Setting up roles and responsibilities for Healthcare Operations users](../concept/cto-setting-up-roles-responsibilities.md).
+To learn more, see:
+
+-   [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md)
+-   [Assign responsibilities to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.md)
+-   [Setting up roles and responsibilities in Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/ctwm-understanding-roles-responsibilities.md)
 
 ### SMART on FHIR Authentication
 
@@ -299,7 +435,13 @@ A standards-based authentication protocol used to enable single sign-on \(SSO\) 
 
 For example, an Epic user opens the Care Team Portal within Hyperspace and is automatically authenticated through the SMART on FHIR integration without a separate login.
 
-To learn more about SMART on FHIR Authentication, see [Authenticate SMART on FHIR for use with the Care Team Portal in Hyperspace via Hyperdrive](../task/hco-authenticate-portal.md).
+To learn more, see:
+
+-   [In Epic: Build the FHIR App to Authenticate with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hco-authenticate-portal.md)
+-   [Create and Configure an Identity Provider in ServiceNow to Authenticate with Epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/create-identity-provider-hco.md)
+-   [Embedding Care Team Portal in Epic Hyperspace via Hyperdrive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/configure-care-team-portal.md)
+-   [In Epic: Configure Epic Hyperspace Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hco-configure-epic-integration.md)
+-   [Enable Multi-Provider SSO for your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-cto-enabling-oidc.md)
 
 ### State Synchronization
 
@@ -307,12 +449,14 @@ The mechanism that keeps the status of a Healthcare Operations case aligned with
 
 For example, a care team member tracks their request in the Care Team Portal and sees it change from "Open" to "Resolved" in real time as the IT agent resolves the incident.
 
-To learn more about State Synchronization, see the following:
+To learn more, see:
 
--   [Healthcare EVS case overview](../concept/cto-evs-case-overview.md)
--   [Healthcare Facilities case overview](../concept/cto-facilities-case-overview.md)
--   [Healthcare IT case overview](../concept/hcl-cto-it-case.md)
--   [Healthcare Biomed case overview](../concept/hcls-cto-biomed-case.md)
+-   [Modify state decision tables in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-modify-states.md)
+-   [Modify state decision tables in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-state-decision-tables.md)
+-   [Modify state decision tables in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-modify-state-tables.md)
+-   [Modify state decision tables in Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-it-modify-decision-tables.md)
+-   [Set up work order synchronization in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-plugin-info.md)
+-   [Set up work order synchronization in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-setup-plugins.md)
 
 ## T
 
@@ -324,6 +468,15 @@ A reusable configuration in Care Team Work Management that defines a set of task
 
 For example, an administrator creates a task plan template called "Unit Safety/Readiness" containing work orders and child tasks for equipment checks, supply verification, and safety guidelines review.
 
+To learn more, see:
+
+-   [Task Plan Templates in Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/ctwm-task-plan-templates-understand.md)
+-   
+-   
+-   
+-   
+-   
+
 ## V
 
 Glossary terms are grouped alphabetically.
@@ -333,6 +486,12 @@ Glossary terms are grouped alphabetically.
 ServiceNow’s conversational bot platform, available in the Care Team Portal via a chat window icon. It helps care team members quickly obtain information, make decisions, and perform common work tasks through natural language interaction.
 
 For example, a nurse opens the chat icon in the Care Team Portal and asks Virtual Agent to check the status of a pending IT request.
+
+To learn more, see:
+
+-   [Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hcls-cto-care-team-portal.md)
+-   [Enable Voice Assistant in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hco-now-assist-create-launcher-button.md)
+-   [Assign the launcher to your voice and chat assistants in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/hco-now-assist-assign-launcher-assistants.md)
 
 ## W
 
@@ -344,15 +503,24 @@ A task record automatically generated from a Healthcare Operations case when the
 
 For example, when a nurse reports a broken bed rail via the Care Team Portal, a work order is automatically created and dispatched to a Facilities agent.
 
-To learn more about Work Order, see
+To learn more, see:
 
--   [Healthcare EVS case overview](../concept/cto-evs-case-overview.md)
--   [Healthcare Facilities case overview](../concept/cto-facilities-case-overview.md)
--   [Healthcare Biomed case overview](../concept/hcls-cto-biomed-case.md)
+-   [Set up work order synchronization in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-plugin-info.md)
+-   [Set up work order synchronization in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-setup-plugins.md)
+-   [Set up work order synchronization in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-fsm-plugin.md)
+-   
+-   
+-   
 
 ### Work Order Synchronization
 
 The automatic bidirectional syncing of state changes, comments, and updates between a Healthcare Operations case and its associated work order, enabled by the Field Service Management plugin.
 
 For example, when a Facilities agent marks a work order as "Work in Progress," the associated Healthcare Facilities case automatically updates to the same state.
+
+To learn more, see:
+
+-   [Set up work order synchronization in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-biomed-plugin-info.md)
+-   [Set up work order synchronization in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-evs-setup-plugins.md)
+-   [Set up work order synchronization in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences/cto-facilities-fsm-plugin.md)
 

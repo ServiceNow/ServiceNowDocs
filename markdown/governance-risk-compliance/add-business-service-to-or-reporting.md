@@ -2,6 +2,7 @@
 title: Add a business service to Operational Resilience reporting
 description: Add a business service to Operational Resilience reporting in the Operational Resilience Workspace. The Operational Resilience managers with \[sn\_oper\_res.manager\] roles can add business services, service offerings, business processes, and application services to their entity types from the business service form or the list actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-business-service-to-or-reporting.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Beginning with Operational Resilience, Release 21.0.x, records in the Services, 
 
     The form view of the Business Service form is visible.
 
-    ![Business Service form.](../image/bs-form.png)
+    \[Omitted image "bs-form.png"\] Alt text: Business Service form.
 
     As shown in the example, a business service could have a service offering. A service offering such as SO1 could have an embedded child service offering SO2. Similarly, associated business processes, application services, dependencies are shown in the form.
 
@@ -57,7 +58,7 @@ Beginning with Operational Resilience, Release 21.0.x, records in the Services, 
 
 5.  To add a business service to the Operational Resilience application, select **New** in the Business services list view and fill in the details regarding the service on the Create New service form.
 
-    For a description of the field values on the Business service form, see [Create New Business Service form](../reference/create-new-business-service-form.md).
+    For a description of the field values on the Business service form, see [Create New Business Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-service-form.md).
 
 6.  To save updates to the existing record, select **Save**.
 
@@ -71,7 +72,7 @@ Beginning with Operational Resilience, Release 21.0.x, records in the Services, 
 
         The service is added to Operational Resilience reporting as shown in the following example.
 
-        ![Service added to Operational Resilience reporting.](../../grc-operational-res-ws/image/ser-added-to-opres-reporting.png "Service added to Operational Resilience reporting")
+        \[Omitted image "ser-added-to-opres-reporting.png"\] Alt text: Service added to Operational Resilience reporting.
 
         **Note:** After you’ve added the service to Operational Resilience reporting, the **Add to OpRes reporting** option isn’t displayed for the service anymore on the Service form.
 
@@ -85,7 +86,7 @@ Beginning with Operational Resilience, Release 21.0.x, records in the Services, 
 
         You can add upstream or downstream entities to the entity record as shown in the example.
 
-        ![Upstream or downstream entities.](../image/hierachy-tab-add-ups-downs-ent.png)
+        \[Omitted image "hierachy-tab-add-ups-downs-ent.png"\] Alt text: Upstream or downstream entities.
 
     3.  To save the upstream or downstream relationships, select **Save**.
 

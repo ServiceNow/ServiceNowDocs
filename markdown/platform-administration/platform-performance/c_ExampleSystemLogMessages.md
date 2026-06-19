@@ -2,6 +2,7 @@
 title: Example system log messages
 description: An example of system log messages for transactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/c\_ExampleSystemLogMessages.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -41,5 +42,5 @@ An example of system log messages for transactions.
     ```
 
 
-**Parent Topic:**[Platform performance reference](platform-performance-references.md)
+**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

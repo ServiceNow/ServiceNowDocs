@@ -2,6 +2,7 @@
 title: Downgrade Rights
 description: The concept of downgrading licenses is built into the Software Asset Management plugin feature. Downgrading rights is the process of having acquired the rights to the latest version of software but using the rights to license earlier versions of the same software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/downgrade-rights.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -48,7 +49,7 @@ If you already have duplicate downgrade rights from previous Software Asset Mana
 
 If you try to create a duplicate downgrade right for an inactive downgrade right, an error message appears. The error message informs you that an inactive downgrade right exists and you can reactivate it.
 
-![Downgrade rights](../image/mmasset0021810-discovery-map-horizontal.svg)
+\[Omitted image "mmasset0021810-discovery-map-horizontal.svg"\] Alt text: Downgrade rights
 
 Downgrade rights aren’t available for the following license metrics mentioned in the metric groups:
 
@@ -90,5 +91,5 @@ Concurrent Licenses
 -   Network
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+</table>**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

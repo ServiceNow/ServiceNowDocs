@@ -2,6 +2,7 @@
 title: Headless Browser for Automated Test Framework
 description: Improve your UI testing by automating the creation of browsers to process Automated Test Framework \(ATF\) User Interface \(UI\) tests. This feature is known as a headless browser, and helps you test UI functionality without having to manually open a browser to the Client Test Runner, which is what processes the UI tests in your local browser.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-headless-browser.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -23,7 +24,7 @@ If you are an on-premise instance user, you must continue using the Headless Bro
 
 ServiceNow customers use Automated Test Framework \(ATF\) to test applications and instances. When developing in the ServiceNow platform, ATF ensures that your changes have both the desired behavior and don’t break existing features.
 
-Since the ServiceNow Orlando release, customers can automate the testing and deployment of their applications via the [Continuous Integration/Continuous Delivery \(CI/CD\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/cicd-api.md).
+Since the ServiceNow Orlando release, customers can automate the testing and deployment of their applications via the Continuous Integration/Continuous Delivery \(CI/CD\) API.
 
 ## Overview of Headless Browser
 
@@ -31,14 +32,14 @@ The automation provided by the ServiceNow Headless Browser for ATF skips the ste
 
 See [Headless Browser for ATF](https://github.com/ServiceNow/atf-headless-runner?tab=readme-ov-file#support-model) for more information on the Support Model.
 
--   **[Headless Browser setup for Linux](headless-browser-procedure-linux.md)**  
+-   **[Headless Browser setup for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-linux.md)**  
 The ServiceNow® Headless Browser for Automated Test Framework provides automation so you can skip having to manually open a browser during testing. The Headless Browser setup is available in both Linux and Microsoft Windows. This topic covers the setup for Linux.
--   **[Headless Browser setup for Microsoft Windows](headless-browser-procedure-windows.md)**  
+-   **[Headless Browser setup for Microsoft Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-procedure-windows.md)**  
 The ServiceNow® Headless Browser for Automated Test Framework \(ATF\) provides automation so you can skip having to manually open a browser during testing. The Headless Browser setup is available in both Linux and Microsoft Windows. This topic covers the setup for Windows.
--   **[Headless Browser system properties](../reference/atf-headless-browser-properties.md)**  
+-   **[Headless Browser system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-headless-browser-properties.md)**  
 Below is a table of the properties you must have as you set up the ServiceNow® Headless Browser for Automated Test Framework.
--   **[Headless Browser troubleshooting](headless-browser-troubleshoot.md)**  
+-   **[Headless Browser troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/headless-browser-troubleshoot.md)**  
 These tips can help you troubleshoot your Linux or Microsoft Windows setup of the ServiceNow® Headless Browser for Automated Test Framework.
 
-**Parent Topic:**[Automated Test Framework \(ATF\)](atf-landing-page.md)
+**Parent Topic:**[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-landing-page.md)
 

@@ -1,7 +1,8 @@
 ---
-title: Configure a proxy bypass for specific internal or private container registries
-description: Configure a proxy bypass to allow container image scans to reach specific internal or private registries that require a direct connection.
+title: Configure proxy bypass for container registries
+description: Configure a proxy bypass for container image scans to reach specific internal or private registries that require a direct connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/configure-container-proxy-bypass.html
 release: australia
 product: Discovery
 classification: discovery
@@ -12,14 +13,14 @@ keywords: [container image scanning, MID Server proxy, proxy bypass, container r
 breadcrumb: [Container image scanning for software decomposition, Kubernetes discovery using patterns, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure a proxy bypass for specific internal or private container registries
+# Configure proxy bypass for container registries
 
-Configure a proxy bypass to allow container image scans to reach specific internal or private registries that require a direct connection.
+Configure a proxy bypass for container image scans to reach specific internal or private registries that require a direct connection.
 
 ## Before you begin
 
 -   Verify that you have at least version 1.30.2 of Discovery and Service Mapping Patterns.
--   Verify that you have configured a proxy on the MID Server. For more information, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md).
+-   Verify that you have configured a proxy on the MID Server. For more information, see .
 
 Role required: discovery\_admin
 
@@ -50,7 +51,7 @@ When a proxy is configured on the MID Server, all container image scanning goes 
 
 ## What to do next
 
-Scan the container images. For more information, see [Scan container images](container-image-task.md).
+Scan the container images. For more information, see [Scan container images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-task.md).
 
-**Parent Topic:**[Container image scanning for software decomposition](../concept/container-image-concept.md)
+**Parent Topic:**[Container image scanning for software decomposition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/container-image-concept.md)
 

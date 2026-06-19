@@ -2,6 +2,7 @@
 title: Run Update formula script for HR Success Dashboard indicators
 description: Run the update formula script to recalculate all the formulas in the HR Success Dashboard indicators, if you see outdated data in the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/run-the-update-formula-script.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

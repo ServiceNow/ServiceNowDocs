@@ -2,6 +2,7 @@
 title: Now Assist for Health and Safety
 description: Use the ServiceNow Now Assist for Health and Safety application to summarize a health and safety incident. You can enable your safety agent and safety manager to generate concise, informative flash reports that can be quickly shared with relevant stakeholders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.html
 release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
@@ -19,15 +20,15 @@ Use the ServiceNow® Now Assist for Health and Safety application to summarize a
 
 <table id="table_sdb_fgb_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for Health and Safety](../concept/now-assist-hs-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-exploring.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for Health and Safety application to get started](../concept/now-assist-hs-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Health and Safety application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by Now Assist for Health and Safety](../concept/now-assist-hs-using.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-using.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -53,7 +54,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about safety incidents including incident details, actions, and root cause analysis. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about safety incidents including incident details, actions, and root cause analysis. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 

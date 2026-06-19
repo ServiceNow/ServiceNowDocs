@@ -2,6 +2,7 @@
 title: View your employee goals
 description: View your goals by accessing your career profile. Your goals that appear in the Goals widget are filtered into the following categories: active, complete, archive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-goals/egd-goals-view-goals.html
 release: australia
 product: Employee Goals
 classification: employee-goals

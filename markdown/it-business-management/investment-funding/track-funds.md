@@ -2,6 +2,7 @@
 title: Review the use of your funds
 description: Review the flow of your funds from your investment to other investments to make an informed decision when you allocate or request funds.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/investment-funding/track-funds.html
 release: australia
 product: Investment Funding
 classification: investment-funding
@@ -39,7 +40,7 @@ Users that the investment owner adds in the **Viewable by** field can also revie
 
     If you want to open a different investment, access the drop-down menu next to the name of the currently displayed investment. Either search for another investment by entering its name in the **Search My Investments** field or choose it from the five most recently visited investments.
 
-3.  On the **Allocate Funds** tab, click the tree view icon \(![Tree view](../image/tree-view-icon.png)\).
+3.  On the **Allocate Funds** tab, click the tree view icon \(\[Omitted image "tree-view-icon.png"\] Alt text: Tree view\).
 
     Your investment and the investments that you funded directly display as cards in a hierarchical view. The number of child investments is displayed in the parent investment card. If there are more than 10 investment cards, you can access a compact card view.
 
@@ -50,5 +51,5 @@ Users that the investment owner adds in the **Viewable by** field can also revie
 5.  Click the **Actions** menu and select **View Investment** to navigate to the investment grid.
 
 
-**Parent Topic:**[Investment Funding](../concept/investment-funding-overview.md)
+**Parent Topic:**[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/investment-funding/investment-funding-overview.md)
 

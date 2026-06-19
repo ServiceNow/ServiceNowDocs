@@ -2,6 +2,7 @@
 title: Trigger a FireEye Capability profile from Configuration Item related list
 description: Trigger a capability profile manually from the configuration item related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/trigger-fireeye-capability-related-list.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,15 +30,15 @@ Role required: sn\_si.admin, sn\_si.analyst
 
 4.  Click the **Configuration Item** related list.
 
-    ![Configuration Item list view.](../image/config-item-related-lists.png)
+    \[Omitted image "config-item-related-lists.png"\] Alt text: Configuration Item list view.
 
 5.  Click **Edit** to add the available configuration items, if values are not already present, and click **Save**.
 
-    ![Edit Member view: Selecting additional configuration items.](../image/config-item-related-lists-edit.png)
+    \[Omitted image "config-item-related-lists-edit.png"\] Alt text: Edit Member view: Selecting additional configuration items.
 
 6.  Select the added configuration item\(s\), and from the Actions on selected rows, select a capability.
 
-    ![Actions on selected rows form button: selecting a capability as per your preference.](../image/related-lists-actions.png)
+    \[Omitted image "related-lists-actions.png"\] Alt text: Actions on selected rows form button: selecting a capability as per your preference.
 
 7.  The selected capability is triggered manually.
 

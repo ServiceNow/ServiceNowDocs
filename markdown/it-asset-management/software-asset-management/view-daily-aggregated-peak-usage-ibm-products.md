@@ -2,6 +2,7 @@
 title: View the daily aggregated peak usage of your IBM software products
 description: View the highest daily sub-capacity and full capacity Processor Value Unit \(PVU\), Resource Value Unit \(RVU\), and Virtual Processor Core \(VPC\) usage for your IBM software products based on the edition, license metric, and region of each product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/view-daily-aggregated-peak-usage-ibm-products.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -36,5 +37,5 @@ Role required: sam\_admin or sam\_user
 4.  View additional usage details for a given IBM software product by selecting the value in the corresponding **Date** field.
 
 
-**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](../concept/ibm-asp-integration.md)
+**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

@@ -2,6 +2,7 @@
 title: Configure a solution definition for the journey recommendations
 description: Configure a solution definition to display learning recommendation to users with similar journeys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/ml-jny-recom-sol-def.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -44,7 +45,7 @@ The following plugins must be activated from the ServiceNow store to display the
 
 Update the solution definition in the **HR AI configuration** &gt; **Similar Journey Users** &gt; **Solution definition** field.
 
-**Note:** For more information, see [Configure the HR solution definition and domain](configure-hr-auto-case-categorization.md).
+**Note:** For more information, see [Configure the HR solution definition and domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-hr-auto-case-categorization.md).
 
-**Parent Topic:**[Recommended learning in journey configurations](../concept/jny-dsgnr-ml-learning-recom.md)
+**Parent Topic:**[Recommended learning in journey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-ml-learning-recom.md)
 

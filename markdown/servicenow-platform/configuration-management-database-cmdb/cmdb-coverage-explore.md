@@ -2,6 +2,7 @@
 title: Exploring CMDB Coverage
 description: Learn about CMDB Coverage and review the benefits it can provide for users in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-explore.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -37,7 +38,7 @@ Supported ServiceNow versions:
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## CMDB Coverage users
 
@@ -62,7 +63,7 @@ Users with the sn\_cmdb\_admin role can configure the application. These users c
 -   Discovery schedule gap \[sn\_cmdb\_ip\_cov\_discovery\_schedule\_gap\]
 -   Discovery schedule gaps to allocated IP \[sn\_cmdb\_ip\_cov\_m2m\_discovery\_schedule\_gap\]
 
-**Note:** The sn\_cmdb\_ip\_cov\_m2m\_discovery\_schedule\_gap table is not populated by default. For information about how to populate data in this table, see [Custom system property](../reference/cmdb-coverage-properties.md#section_d4d_xmw_l3c).
+**Note:** The sn\_cmdb\_ip\_cov\_m2m\_discovery\_schedule\_gap table is not populated by default. For information about how to populate data in this table, see [Custom system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-properties.md).
 
 
 </td></tr><tr><td>
@@ -90,7 +91,7 @@ Identify potential gaps between IPAM data and what is scheduled to be discovered
 
 </td><td>
 
-[Find missing IPAM IP addresses in discovery](../reference/cmdb-coverage-scheduled-jobs.md#section_hyl_mpv_l3c)
+[Find missing IPAM IP addresses in discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-scheduled-jobs.md)
 
 </td></tr><tr><td>
 
@@ -98,7 +99,7 @@ Understand the completeness of the CMDB discovery data.
 
 </td><td>
 
-[Reconcile and correlate IPAM data with discovered CIs](../reference/cmdb-coverage-scheduled-jobs.md#section_m5f_xtv_l3c)
+[Reconcile and correlate IPAM data with discovered CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-scheduled-jobs.md)
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ Identify the number of free, reserved, and allocated IP addresses per subnet.
 
 </td><td>
 
-[Analyze IP address usage per subnet](../reference/cmdb-coverage-scheduled-jobs.md#section_l1x_c5v_l3c)
+[Analyze IP address usage per subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-scheduled-jobs.md)
 
 </td></tr></tbody>
 </table>## CMDB Coverage dashboard
@@ -128,7 +129,7 @@ The CMDB Coverage dashboard provides the following information:
 
 To learn more about configuring and using CMDB Coverage, see:
 
--   [Configure CMDB Coverage](../task/cmdb-coverage-configure-initialize.md)
--   [Using CMDB Coverage dashboard](cmdb-coverage-use.md)
--   [CMDB Coverage reference](cmdb-coverage-reference.md)
+-   [Configure CMDB Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-configure-initialize.md)
+-   [Using CMDB Coverage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-use.md)
+-   [CMDB Coverage reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-reference.md)
 

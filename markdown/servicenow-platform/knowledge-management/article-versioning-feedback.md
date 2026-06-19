@@ -2,6 +2,7 @@
 title: Feedback on article versions
 description: With the article versioning feature, users can view and contribute to feedback on the current versions of knowledge articles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/article-versioning-feedback.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -15,7 +16,7 @@ breadcrumb: [Knowledge Management reference, Knowledge Management, Manage conten
 
 With the article versioning feature, users can view and contribute to feedback on the current versions of knowledge articles.
 
-For more information about feedback options, see [Knowledge feedback](../reference/r_KnowledgeFeedback.md).
+For more information about feedback options, see [Knowledge feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeFeedback.md).
 
 |Feedback option|How this option works with article versioning|
 |---------------|---------------------------------------------|

@@ -2,6 +2,7 @@
 title: Activate the legacy IBM PVU Process Pack
 description: The legacy Software Asset Management - IBM PVU Process Pack \(com.snc.sam.ibmpvu.pp\) plugin can no longer be activated upon request. If the legacy plugin has already been activated on your ServiceNow instance, you can continue to use the legacy IBM PVU Process Pack.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_ActivatingTheIBMPVUProcessPack.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -73,5 +74,5 @@ Information that would be helpful for the ServiceNow personnel who are activatin
 </table>5.  Click **Submit**.
 
 
-**Parent Topic:**[Legacy IBM PVU Process Pack](../concept/c_IBMPVUProcessPack.md)
+**Parent Topic:**[Legacy IBM PVU Process Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_IBMPVUProcessPack.md)
 

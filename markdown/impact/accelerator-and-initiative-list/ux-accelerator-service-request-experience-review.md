@@ -2,6 +2,7 @@
 title: UX: Catalog Request Experience Review
 description: This accelerator reviews the Impact customer’s Service Catalog, request forms  and form  design and identifies areas  of improvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator reviews the Impact customer’s Service Catalog, request forms�
 ## Accelerator overview
 
 UX: Catalog Request Experience Review provides Impact customers with an assessment of the user experience of up to four catalog request forms. Through careful review, we offer valuable insights and recommendations to enhance the design and effectiveness of their forms. Additionally, this accelerator equips our customers with essential ServiceNow resources and leading practices guides on how to improve the usability of their Service Catalog.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
@@ -56,6 +59,8 @@ One or more customer resources are requested. The specific number of resources p
 
 -   Identification of up to four catalog request forms for review
 -   Existing user research and feedback on Service Catalog, plus relevant insights
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

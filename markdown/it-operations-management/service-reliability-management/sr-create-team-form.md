@@ -2,6 +2,7 @@
 title: Create team form
 description: Request to create a team to start monitoring your services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-create-team-form.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,7 +18,7 @@ Request to create a team to start monitoring your services.
 
 ## Create a team form
 
-For more information, see [Add an SRM team](../task/sr-create-team.md).
+For more information, see [Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md).
 
 |Field|Description|
 |-----|-----------|
@@ -28,5 +29,5 @@ For more information, see [Add an SRM team](../task/sr-create-team.md).
 |Tags|Words that describe or relate to your team.|
 |Briefly describe the team responsibilities|Description of your team. For example, team responsibilities or geographic location.|
 
-**Parent Topic:**[Service Reliability Management reference](service-reliability-management-reference.md)
+**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

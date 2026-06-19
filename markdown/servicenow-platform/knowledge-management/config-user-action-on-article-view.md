@@ -2,6 +2,7 @@
 title: Configure a user action for the article view page
 description: Configure a user action for the Knowledge Management article view page in the Knowledge Management Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-user-action-on-article-view.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -25,7 +26,7 @@ The article view page uses the Knowledge Article Content widget to provide user 
 
 Ensure that the application scope on the ServiceNow AI Platform is set to Knowledge Management Service Portal.
 
-User actions available for the article view page appear in a menu after clicking the overflow icon \(![Overflow icon](../image/KnowledgeServicePortalOverflowIcon.png)\) in the article header. These actions enable users to flag an article, edit an article, or create an incident for an article.
+User actions available for the article view page appear in a menu after clicking the overflow icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: Overflow icon\) in the article header. These actions enable users to flag an article, edit an article, or create an incident for an article.
 
 ## Procedure
 
@@ -59,7 +60,7 @@ CSS
 
 </td><td>
 
-Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/scss-primer.md).
+Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.
 
 </td></tr><tr><td>
 
@@ -113,5 +114,5 @@ Redirects the article view page to the latest accessible version of the article,
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](../concept/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

@@ -2,6 +2,7 @@
 title: Security Incident Response Orchestration
 description: Security Incident Response Orchestration activities allow users to interact with and retrieve data from Windows or UNIX-based systems and environments using workflow orchestration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/c\_SecIncRespOrchestration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -15,10 +16,10 @@ breadcrumb: [Security Incident Response, Enterprise security case management app
 
 Security Incident Response Orchestration activities allow users to interact with and retrieve data from Windows or UNIX-based systems and environments using workflow orchestration.
 
--   **[Set up Security Incident Response Orchestration](../task/t_SecInRespOrchSetup.md)**  
+-   **[Set up Security Incident Response Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/t_SecInRespOrchSetup.md)**  
 Prior to using Security Incident Response Orchestration, perform steps to set up various parts of the system, including populating the CMDB, configuring the mid-server, and configuring credentials.
--   **[Understand Security Incident Response Orchestration workflows and workflow templates](../../../administer/workflow/task/view-wf-templates.md)**  
+-   **[Understand Security Incident Response Orchestration workflows and workflow templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-wf-templates.md)**  
 The Security Incident Response base system includes a series of workflows and workflow templates designed to work with security incident records.
 
-**Parent Topic:**[Security Incident Response](../../security-incident-response/reference/sir-landing-page.md)
+**Parent Topic:**[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-landing-page.md)
 

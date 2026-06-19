@@ -2,6 +2,7 @@
 title: Add a time card to log your work time
 description: Create time cards to log your work time through the ServiceNow Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-timecard-fsm-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -29,15 +30,15 @@ Role required: wm\_agent
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d115420e85">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d111407e85">
 
 Time card type
 
-</th><th align="left" id="d115420e88">
+</th><th align="left" id="d111407e88">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d115420e94">
+</th></tr></thead><tbody><tr><td id="d111407e94">
 
 **Copy from previous time sheet**
 
@@ -45,7 +46,7 @@ Action
 
 Tap **Copy** from a previous time sheet.
 
-</td></tr><tr><td id="d115420e109">
+</td></tr><tr><td id="d111407e109">
 
 **Add assigned task**
 
@@ -56,7 +57,7 @@ Tap **Copy** from a previous time sheet.
 3.  Tap **Add**.
 
 
-</td></tr><tr><td id="d115420e136">
+</td></tr><tr><td id="d111407e136">
 
 **Add unassigned task**
 
@@ -66,7 +67,7 @@ Tap **Copy** from a previous time sheet.
 2.  Tap **Add**.
 
 
-</td></tr><tr><td id="d115420e157">
+</td></tr><tr><td id="d111407e157">
 
 **Add from category**
 

@@ -2,7 +2,10 @@
 title: Add questions or instructions to a decision tree
 description: Add questions you want to ask your customers or instructions you want to provide to them and configure answer types in a start node in Decision Tree Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-start-node-gdb.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -47,13 +50,13 @@ The start node is the first node in a decision tree. It contains a task input an
 
 9.  Select the type of answer for your question.
 
-    For a description of the answer types, see [Answer types for questions](../reference/type-of-answer.md).
+    For a description of the answer types, see [Answer types for questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/type-of-answer.md).
 
     The answer the customer provides to a question can be passed to other nodes and paths via input mapping.
 
 10. Link inputs to reuse answers from prior nodes.
 
-    For more information, see [Reuse answers at decision points](map-inputs-in-decision-guidance-node.md).
+    For more information, see [Reuse answers at decision points](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/map-inputs-in-decision-guidance-node.md).
 
 11. Add more questions or instructions.
 
@@ -62,5 +65,5 @@ The start node is the first node in a decision tree. It contains a task input an
 
 ## What to do next
 
-[Determine the next node displayed in a decision tree](configure-path-in-gdb.md)
+[Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-path-in-gdb.md)
 

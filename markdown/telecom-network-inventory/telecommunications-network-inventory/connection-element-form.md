@@ -2,6 +2,7 @@
 title: Connection Element form
 description: The Connection Element form enables you to define the connection elements for the physical connections and logical connections in the Telecommunications Network Inventory application. You can create, review, update, and delete the elements in this form.Added the topic for DOC1059999.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/connection-element-form.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -93,5 +94,5 @@ Strand number
 Cable number of the physical element.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Telecommunications Network Inventory reference](../concept/telecommunications-network-inventory-reference.md)
+</table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)
 

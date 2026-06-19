@@ -2,6 +2,7 @@
 title: Manage your network functions
 description: Created topic as per STRY55389656 - DOC1072742Create application services, business applications, and network interfaces to manage all type of network functions. Here you can create, review, update, and delete application services, and business applications using the Telecommunications Network Inventory application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/services.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -17,16 +18,16 @@ Create application services, business applications, and network interfaces to ma
 
 To model your 5G network, perform the following:
 
--   Create a network function record. To learn more, see [Define the network function details](../task/create_business_applications.md).
--   Create network service instances. To learn more, see [Define the network service instance details](../task/create_application_services.md).
--   Create a network interface and create relationship with an application service. To learn more, see [Define the network interface details](../task/define-tni-interfaces.md).
+-   Create a network function record. To learn more, see [Define the network function details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_business_applications.md).
+-   Create network service instances. To learn more, see [Define network service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_application_services.md).
+-   Create a network interface and create relationship with an application service. To learn more, see [Define the network interface details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-interfaces.md).
 
--   **[Define the network service instance details](../task/create_application_services.md)**  
+-   **[Define network service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_application_services.md)**  
 Create an application service instance using the Telecommunications Network Inventory application. You can create service instances to model different types of network functions.
--   **[Define the network function details](../task/create_business_applications.md)**  
+-   **[Define the network function details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/create_business_applications.md)**  
 Create a network function record in the Telecommunications Network Inventory application. You can manage the network functions such as 5Physical Network Function \(PNF\), Virtual Network Function \(VNF\) and so on.
--   **[Update or delete a service record](update_or_delete_a_service_record.md)**  
+-   **[Update or delete a service record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/update_or_delete_a_service_record.md)**  
 Review, update, or delete a service record by using the Telecommunications Network Inventory application.
 
-**Parent Topic:**[Reviewing and updating your network inventory with the Network Inventory Workspace](tni-workspace.md)
+**Parent Topic:**[Reviewing and updating your network inventory with the Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/tni-workspace.md)
 

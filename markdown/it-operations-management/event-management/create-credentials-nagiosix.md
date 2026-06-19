@@ -2,6 +2,7 @@
 title: Create Nagios XI server credentials
 description: Create credentials to access Nagios XI server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/create-credentials-nagiosix.html
 release: australia
 product: Event Management
 classification: event-management
@@ -85,10 +86,10 @@ The order \(sequence\) in which the platform tries this credential as it attempt
 
 The credential for use with the Nagios XI server connector is created.
 
-**Parent Topic:**[Configure event collection from NagiosXI](configure-nagios-connector.md)
+**Parent Topic:**[Configure event collection from NagiosXI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-nagios-connector.md)
 
 **Related topics**  
 
 
-[Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md)
+[bundle-psec.r-credentials]
 

@@ -2,6 +2,7 @@
 title: Create a pie or donut data visualization
 description: Use pie, donut, and semi-donut visualizations to compare the size of parts of a data set to the whole. The segments of these visualizations should total to 100%.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dv-donut-ac.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -16,7 +17,7 @@ Use pie, donut, and semi-donut visualizations to compare the size of parts of a 
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
 For more information about this visualization type, see [Pie/Donut Visualization Overview](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-pie-wrapper/overview) on the ServiceNow Developer Site.
 
@@ -30,7 +31,7 @@ For information about the use of a Pie, Donut, or Semi-donut visualization in a 
 
 2.  Select **Create data visualization**.
 
-3.  Select the pie \(![Pie visualization icon](../image/inline-data-vis-pie.png)\), donut \(![donut icon](../image/inline-data-vis-donut.png)\), or semi-donut \(![Data visualization semi-donut icon](../image/inline-data-vis-semi-donut.png)\) visualization type.
+3.  Select the pie \(\[Omitted image "inline-data-vis-pie.png"\] Alt text: Pie visualization icon\), donut \(\[Omitted image "inline-data-vis-donut.png"\] Alt text: donut icon\), or semi-donut \(\[Omitted image "inline-data-vis-semi-donut.png"\] Alt text: Data visualization semi-donut icon\) visualization type.
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
@@ -165,36 +166,36 @@ Specify the text color of the title. The default title color is black, but you c
 </td></tr></tbody>
 </table>5.  Choose a data source.
 
-    For general descriptions of the data sources, see [Data sources for data visualizations](../../par-for-workspace/reference/data-sources-visualizations.md).
+    For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-sources-visualizations.md).
 
     -   Table \(available in the base system\). When you select a table, you can filter it by custom or preconfigured conditions. Custom conditions can include questions or Service Catalog variables.
 
-        Configured report sources appear in the **Predefined conditions** list. For more information, see [Report sources](../concept/c_ReportSources.md#).
+        Configured report sources appear in the **Predefined conditions** list. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportSources.md).
 
         To help you create a custom filter, there is a preview list of records that would be included in the visualization. You can change which fields are shown as columns and the width of columns in the list actions.
 
-        ![Preview record list for table source data visualization with list actions shown.](../../par-for-workspace/image/dv-preview-edit-cols.png)
+        \[Omitted image "dv-preview-edit-cols.png"\] Alt text: Preview record list for table source data visualization with list actions shown.
 
     -   Indicator \(available in the base system\). You can filter the indicator scores by breakdowns and elements. Automated indicators can be configured with selected breakdowns. Formula indicators inherit their breakdowns from the parent indicators. Data snapshots indicator breakdowns are configured in the indicator. In both cases, only those breakdowns are available when you configure a visualization based on those indicators.
 
         **Note:** Benchmark indicators are not supported.
 
-        ![Conditional filter for indicator data source on data visualization.](../../performance-analytics/image/dv-ind-source-con-filter.png)
+        \[Omitted image "dv-ind-source-con-filter.png"\] Alt text: Conditional filter for indicator data source on data visualization.
 
         **Note:**
 
-        You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](../../performance-analytics/concept/condition-operators-ind-bkdowns.md#section_breakdown-operators).
+        You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.md).
 
         Indicator types include Automated, Formula, and Manual indicators as well as Automated and Formula Data Snapshots. The Indicator Preview shows an example of the visualization and a list of the indicator's properties.
 
-        ![Indicator preview example with visualization example and list of properties including source type, indicator source, indicator type, additional conditions and available breakdowns.](../image/dv-indicator-source-preview.png)
+        \[Omitted image "dv-indicator-source-preview.png"\] Alt text: Indicator preview example with visualization example and list of properties including source type, indicator source, indicator type, additional conditions and available breakdowns.
 
-    -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [Usage Insights data sources for data visualizations](../../performance-analytics/concept/uxa-data-sources.md).
+    -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/uxa-data-sources.md).
 6.  Select the options for your data source.
 
-    -   If your visualization represents table data, go to [Table data options for pie and donut visualizations](../reference/config-dv-donut-table-data.md).
-    -   If your visualization represents indicator data, go to [Indicator data options for pie and donut visualizations](../reference/config-dv-donut-ind-data.md).
-    -   If your visualization represents Usage Insights data, go to [Usage Insights data options for pie and donut visualizations](../reference/config-dv-donut-uxa-data.md)
+    -   If your visualization represents table data, go to [Table data options for pie and donut visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-donut-table-data.md).
+    -   If your visualization represents indicator data, go to [Indicator data options for pie and donut visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-donut-ind-data.md).
+    -   If your visualization represents Usage Insights data, go to [Usage Insights data options for pie and donut visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-donut-uxa-data.md)
 7.  Under **Presentation**, provide display and color information.
 
 <table id="table_gvk_2mr_qtb"><thead><tr><th>
@@ -311,7 +312,7 @@ Set color type
 
 Type of color scheme to apply to the component. Options include:
 
--   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-theming.md).
+-   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see .
 -   Color palette: List of color palettes to select from predefined system palettes in the Chart Color Scheme \[pa\_chart\_color\_schemes\] table. For grouped or stacked data, the colors apply in order from highest value to lowest. For multiple data sources, palette colors apply in the order of data sources. For example, the first color of a palette applies to the first data source, and the second palette color applies to the second source. All visualizations that use the same color palette show the same colors, regardless of what data they display.
 -   Fixed element color: Use a specific color from the Chart Colors table \[sys\_report\_chart\_color\] for each element. All data visualizations that use fixed element colors show the same element, such as critical incidents in the Global scope, in the same color.
 
@@ -342,9 +343,9 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user clicks in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](../../par-for-workspace/concept/dv-chart-interactions.md).
+Choose the event that occurs when a user clicks in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md).
 
--   **Go to data view** opens a list view, KPI Details page, or Usage Insights overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](../../dashboards/reference/visualization-drilldown-in-config-ws.md).
+-   **Go to data view** opens a list view, KPI Details page, or Usage Insights overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/visualization-drilldown-in-config-ws.md).
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 -   **Apply as filter** filters all data visualizations on the dashboard by the value of the selected segment, where applicable.
 
@@ -364,20 +365,20 @@ Choose the event that occurs when a user clicks in a visualization or one of its
 
 ## What to do next
 
--   [Add a visualization to a dashboard from the Visualization Designer](add-dv-new-db.md)
--   [Share a data visualization in the Visualization Designer](share-dv-ac.md#)
--   [Bookmark a visualization in the Visualization Designer](../../dashboards/task/bookmark-dv-ac.md)
+-   [Add a visualization to a dashboard from the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dv-new-db.md)
+-   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-dv-ac.md)
+-   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/bookmark-dv-ac.md)
 
--   **[Table data options for pie and donut visualizations](../reference/config-dv-donut-table-data.md)**  
+-   **[Table data options for pie and donut visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-donut-table-data.md)**  
 When you select a table data source for a pie or donut visualization, the following Data configuration options are available.
--   **[Indicator data options for pie and donut visualizations](../reference/config-dv-donut-ind-data.md)**  
+-   **[Indicator data options for pie and donut visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-donut-ind-data.md)**  
 When you select an indicator data source for a pie or donut visualization, the following Data configuration options are available.
--   **[Usage Insights data options for pie and donut visualizations](../reference/config-dv-donut-uxa-data.md)**  
+-   **[Usage Insights data options for pie and donut visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-dv-donut-uxa-data.md)**  
 When you select a Usage Insights data source for a pie or donut visualization, the following Data configuration options are available.
--   **[Pie visualization example](../../par-for-workspace/task/dv-example-pie.md)**  
+-   **[Pie visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-example-pie.md)**  
 The pie data visualization uses a circular shape to show the proportion or percentage of different categories or groups. Each part of the circle \(or "slice"\) represents a different category or group, and the size of each slice is proportional to the size of the group or category it represents.
--   **[Donut visualization example](../../par-for-workspace/task/dv-example-donut.md)**  
+-   **[Donut visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-example-donut.md)**  
 The donut visualization uses a hollow circular shape to show the proportion or percentage of different categories or groups. The semi-donut visualization does the same job as the donut using a semicircle instead of a full circle.
 
-**Parent Topic:**[Creating data visualizations](../concept/creating-data-visualizations.md)
+**Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/creating-data-visualizations.md)
 

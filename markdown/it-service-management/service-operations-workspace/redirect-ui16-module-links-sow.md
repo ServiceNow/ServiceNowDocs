@@ -2,6 +2,7 @@
 title: Redirect UI16 module links to Service Operations Workspace
 description: Redirect classic UI16 module navigation links to the equivalent Service Operations Workspace \(SOW\) experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -72,5 +73,5 @@ Apart from the above admin configuration, the UI16 module must support the link 
 
 For example, the **Argument** field of the Candidates module of Major Incident Management must have the value in the format: `sn_exp_redirect_redirect_handler.do?coreui=incident_list.do?sysparm_query=major_incident_state%3Dproposed%5Eactive%3Dtrue%5EEQ&uib=/now/sow/list/params/list-id/b3ae077843887110f275a32d68b8f236&type=app_module&product=mim`
 
-**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](../concept/configuring-sow-to-improve-experience.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)
 

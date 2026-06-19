@@ -2,12 +2,13 @@
 title: Cloud Resources Explorer
 description: Use the ServiceNow Cloud Resources Explorer to filter and visualize the distribution of resources across your multi cloud estate. Gain insight into operational information such as stale resources and cloud event inflow rates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cloud-resources-inventory-dashboard.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-05-05"
+reading_time_minutes: 7
 breadcrumb: [Cloud discovery reporting, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -15,7 +16,9 @@ breadcrumb: [Cloud discovery reporting, Discovery for cloud environment, Discove
 
 Use the ServiceNow® Cloud Resources Explorer to filter and visualize the distribution of resources across your multi cloud estate. Gain insight into operational information such as stale resources and cloud event inflow rates.
 
-![Cloud Resources Explorer.](../image/cloud-resources-explorer.png "Cloud Resources Explorer")
+**Important:** Starting with the Zurich release, Cloud Discovery Workspace is being prepared for future deprecation. It will be hidden and no longer activated on new instances, but will continue to be supported. For similar reporting, refer to the [Cloud asset explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/viewing-cloud-asset-explorer.md) in the Cloud Discovery store application.
+
+\[Omitted image "cloud-resources-explorer.png"\] Alt text: Cloud Resources Explorer.
 
 The Cloud Resources Explorer supports the following cloud providers:
 
@@ -99,7 +102,7 @@ Configuration item classes
 
 </td><td>
 
-Horizontal bar report![Horizontal bar report.](../../reporting/image/icon-horizontal-bar-report-p.png)
+Horizontal bar report\[Omitted image "icon-horizontal-bar-report-p.png"\] Alt text: Horizontal bar report.
 
 </td><td>
 
@@ -117,7 +120,7 @@ Configuration items by regions
 
 </td><td>
 
-Horizontal bar report![Horizontal bar report.](../../reporting/image/icon-horizontal-bar-report-p.png)
+Horizontal bar report\[Omitted image "icon-horizontal-bar-report-p.png"\] Alt text: Horizontal bar report.
 
 </td><td>
 
@@ -133,7 +136,7 @@ Configuration items by cloud service accounts
 
 </td><td>
 
-Horizontal bar report![Horizontal bar report.](../../reporting/image/icon-horizontal-bar-report-p.png)
+Horizontal bar report\[Omitted image "icon-horizontal-bar-report-p.png"\] Alt text: Horizontal bar report.
 
 </td><td>
 
@@ -149,7 +152,7 @@ Incoming events
 
 </td><td>
 
-Bar report![Bar report.](../../reporting/image/icon-bar-report-p.png)
+Bar report\[Omitted image "icon-bar-report-p.png"\] Alt text: Bar report.
 
 </td><td>
 
@@ -167,7 +170,7 @@ Total cloud resources in on-prem vs public clouds
 
 </td><td>
 
-Stacked bar report![Stacked bar report.](../../reporting/image/icon-bar-report-p.png)
+Stacked bar report\[Omitted image "icon-bar-report-p.png"\] Alt text: Stacked bar report.
 
 </td><td>
 
@@ -180,7 +183,7 @@ This report displays the daily count of the resources of your organization that 
  In this report, the VMware Cloud is considered on-prem.
 
 </td></tr></tbody>
-</table>To populate the Cloud Analytics \[sn\_disco\_cd\_analytics\] table, the Cloud Resources Explorer uses the same set of scheduled jobs as the Performance Analytics Content Pack for Cloud Resources. For more information on the scheduled jobs, see [Cloud Resources dashboard](cloud-resources-dashboard.md).
+</table>To populate the Cloud Analytics \[sn\_disco\_cd\_analytics\] table, the Cloud Resources Explorer uses the same set of scheduled jobs as the Performance Analytics Content Pack for Cloud Resources. For more information on the scheduled jobs, see [Cloud Resources dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cloud-resources-dashboard.md).
 
 To view the details of the OS images discovered in the AWS, Microsoft Azure, and GCP clouds, Discovery and Service Mapping Patterns store app version 1.0.87 or later must be installed in the instance. Also, the **sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image** property must be set to `true`.
 

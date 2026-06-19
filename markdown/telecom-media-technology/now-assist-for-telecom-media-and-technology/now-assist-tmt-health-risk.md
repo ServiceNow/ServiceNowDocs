@@ -2,6 +2,7 @@
 title: Customer Success Management agentic workflows
 description: The Customer Success agentic workflows are used to collect health data, monitor the engagement health score, analyze risks, support renewals, and schedule touchpoint meetings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-health-risk.html
 release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology

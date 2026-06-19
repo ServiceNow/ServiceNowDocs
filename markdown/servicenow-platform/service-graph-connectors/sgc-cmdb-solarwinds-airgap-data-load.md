@@ -2,6 +2,7 @@
 title: Perform a full data load for the air gap solution for Service Graph Connector for SolarWinds
 description: After you verify that the test data load for the air gap solution for the Service Graph Connector for SolarWinds is successful, you can perform a full data load.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-solarwinds-airgap-data-load.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

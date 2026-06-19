@@ -2,6 +2,7 @@
 title: Update task status
 description: Update the status of a task so that it’s the latest and helps in the publishing of the automation request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/update-task-status.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -29,7 +30,7 @@ After the automation request is moved to the following states, the option to upd
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
 
-2.  Select the list icon \(![List icon.](../images/autocenter-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 
 3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
@@ -37,10 +38,10 @@ After the automation request is moved to the following states, the option to upd
 
     Ensure that the automation request has a checklist.
 
-5.  Select the Golive Checklist icon \(![golive checklist icon](../images/icon-golive.png)\) from the side panel.
+5.  Select the Golive Checklist icon \(\[Omitted image "icon-golive.png"\] Alt text: golive checklist icon\) from the side panel.
 
-6.  Follow the steps in the [Edit a task](edit-task.md) section to update the status of the task.
+6.  Follow the steps in the [Edit a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/edit-task.md) section to update the status of the task.
 
 
-**Parent Topic:**[Working with golive checklists](../concept/working-golive.md)
+**Parent Topic:**[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/working-golive.md)
 

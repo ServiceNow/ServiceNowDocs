@@ -2,6 +2,7 @@
 title: Set up Emergency Self Report
 description: To set up Emergency Self Report, install the application. Then configure user access, a dedicated knowledge base, and system properties.You can install Emergency Self Report if you have the admin role.Several types of components are installed with Emergency Self Report, including tables and user roles.Configure Emergency Self Report to align with your business needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-self-report/set-up-emergency-self-report.html
 release: australia
 product: Emergency Self Report
 classification: emergency-self-report
@@ -15,7 +16,7 @@ breadcrumb: [Emergency Self Report, Emergency Response Management, Employee Serv
 
 To set up Emergency Self Report, install the application. Then configure user access, a dedicated knowledge base, and system properties.
 
-**Parent Topic:**[Emergency Self Report](../concept/emergency-self-report.md)
+**Parent Topic:**[Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report.md)
 
 ## Install Emergency Self Report
 
@@ -111,7 +112,7 @@ The Emergency Self Report application is installed on your instance.
 
 Several types of components are installed with Emergency Self Report, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -223,7 +224,7 @@ Complete the following configurations as needed.
 
         Enables group members, such as HR or Global Security team members, to manage the reported health alerts.
 
-    For information about how to assign roles to groups, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+    For information about how to assign roles to groups, see Roles.
 
 2.  Navigate to **Emergency Self Report** &gt; **UI Configuration**, set the desired message values, and then click **Update**.
 
@@ -241,7 +242,7 @@ sn\_imt\_quarantine.crisisSubmitMessage
 
 </td><td>
 
-Configure the message that is displayed to users after they submit a health status.![Sample information message.](../image/emergency-self-report-message-example.png "Example confirmation message")
+Configure the message that is displayed to users after they submit a health status.\[Omitted image "emergency-self-report-message-example.png"\] Alt text: Sample information message.
 
 </td></tr><tr><td>
 
@@ -249,7 +250,7 @@ sn\_imt\_quarantine.openTasksInfoMessage
 
 </td><td>
 
-Configure a tooltip for managers who are viewing open tasks for their direct reports.![Message for My direct reports' open tasks.](../image/emergency-self-report-direct-report-msg.png "Example message for open tasks")
+Configure a tooltip for managers who are viewing open tasks for their direct reports.\[Omitted image "emergency-self-report-direct-report-msg.png"\] Alt text: Message for My direct reports' open tasks.
 
 </td></tr></tbody>
 </table>3.  Navigate to **Emergency Self Report** &gt; **Emergency Self Report Properties**, set the desired property values, and then click **Update**.

@@ -2,6 +2,7 @@
 title: Grid configuration in BIA dependency assessment
 description: Grid configuration for column display helps you to capture specific columns in the dependency grid that corresponds to an element.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grid-config-dependency-assessment.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,6 +16,6 @@ Grid configuration for column display helps you to capture specific columns in t
 
 Set up these configurations to display the desired columns in each dependency group grid by selecting the fields from the configuration table.
 
--   [Set up element variable for BIA dependency assessment grid](../task/setup-bcm-element-variable.md)
--   [Set up grid configuration for BIA dependency assessment](../task/setup-bcm-grid-config.md)
+-   [Set up element variable for BIA dependency assessment grid](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-bcm-element-variable.md)
+-   [Set up grid configuration for BIA dependency assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-bcm-grid-config.md)
 

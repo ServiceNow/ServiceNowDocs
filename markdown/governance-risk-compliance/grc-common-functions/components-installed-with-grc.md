@@ -2,6 +2,7 @@
 title: Components installed with Governance, Risk, and Compliance
 description: Reference topics provide additional information about components that are installed with the activation of the GRC plugin. These components include tables, user roles, and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/components-installed-with-grc.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -15,9 +16,9 @@ breadcrumb: [GRC reference, Common GRC features, Governance, Risk, and Complianc
 
 Reference topics provide additional information about components that are installed with the activation of the GRC plugin. These components include tables, user roles, and properties.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
-**Parent Topic:**[Governance, Risk, and Compliance reference](../concept/grc-reference.md)
+**Parent Topic:**[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-reference.md)
 

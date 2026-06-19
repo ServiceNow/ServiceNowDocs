@@ -2,6 +2,7 @@
 title: MetricBase transforms
 description: Transforms enable you to visualize MetricBase data in different ways.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/metricbase-transforms.html
 release: australia
 product: Reporting
 classification: reporting
@@ -257,7 +258,7 @@ Sum
 
 </td><td>
 
-Calculates the sum of the data points within the metric dataset. See [Sum transform](metricbase-transforms.md#section_e4b_b14_g3b) for more information.
+Calculates the sum of the data points within the metric dataset. See [Sum transform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/metricbase-transforms.md) for more information.
 
 </td></tr><tr><td>
 
@@ -270,7 +271,7 @@ Shows only the highest specified number of values of the metric dataset.
 </td></tr></tbody>
 </table>## Sum transform
 
-A value at timestamp “T” denotes the value for the range \(T-period, T\). In your query, `sum()` gives the input series. You have one series and then you resample the original series into a new series with period = 1 day. When you resample the original series to a period, it creates two data points \(2000-04-02T00:00:00Z and 2000-04-03T00:00:00Z\). The value at 2000-04-02T00:00:00Z is 1 because there is one data point. The value at 2000-04-03T00:00:00Z is calculated by aggregating values in the range \(2000-04-02T00:00:00Z, 2000-04-03T00:00:00Z\]. The value is equals 3. ![Understanding the sum transform](../../../administer/metricbase/image/sum-transform1.png) ![Resampled series](../../../administer/metricbase/image/sum-transform2.png)
+A value at timestamp “T” denotes the value for the range \(T-period, T\). In your query, `sum()` gives the input series. You have one series and then you resample the original series into a new series with period = 1 day. When you resample the original series to a period, it creates two data points \(2000-04-02T00:00:00Z and 2000-04-03T00:00:00Z\). The value at 2000-04-02T00:00:00Z is 1 because there is one data point. The value at 2000-04-03T00:00:00Z is calculated by aggregating values in the range \(2000-04-02T00:00:00Z, 2000-04-03T00:00:00Z\]. The value is equals 3. \[Omitted image "sum-transform1.png"\] Alt text: Understanding the sum transform \[Omitted image "sum-transform2.png"\] Alt text: Resampled series
 
 In this example, the result of
 
@@ -329,5 +330,5 @@ is \[1, 3\] rather than \[4\].
 }
 ```
 
-**Parent Topic:**[Create Core UI reports from MetricBase time-series data](../task/create-report-with-metricbase-data.md)
+**Parent Topic:**[Create Core UI reports from MetricBase time-series data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/create-report-with-metricbase-data.md)
 

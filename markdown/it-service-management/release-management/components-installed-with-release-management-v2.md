@@ -2,6 +2,7 @@
 title: Components installed with Release Management
 description: Several types of components are installed with activation of the Release Management v2 plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/release-management/components-installed-with-release-management-v2.html
 release: australia
 product: Release Management
 classification: release-management
@@ -113,5 +114,5 @@ Release Items \[rm\_m2m\_release\_task\]
 Represents work items and change records associated to the release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Activate Release Management](../task/t_ActivateReleaseManagement.md)
+</table>**Parent Topic:**[Activate Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/release-management/t_ActivateReleaseManagement.md)
 

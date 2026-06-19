@@ -2,6 +2,7 @@
 title: Log Message workflow activity
 description: The Log Message activity writes a message to the workflow log.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_LogMessageActivity.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

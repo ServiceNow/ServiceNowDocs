@@ -2,6 +2,7 @@
 title: Add interview phase
 description: As a recruiter, define the interview setup for your job requisition and use it for efficient interview scheduling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/add-interview-phase.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -33,12 +34,12 @@ Set up interview phases based on the different rounds you plan to include in the
 
 4.  On the Create New Interview phase form, fill in the fields.
 
-    For a description of the field values, see [Create new interview phase form](../reference/add-interview-phase-form.md).
+    For a description of the field values, see [Create new interview phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/add-interview-phase-form.md).
 
 5.  Select **Save**.
 
     The interview phase is added to the **Interview phases** tab.
 
 
-**Parent Topic:**[Using Interview Management](../concept/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/using-interview-mgmnt.md)
 

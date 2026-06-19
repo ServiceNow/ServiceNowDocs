@@ -2,6 +2,7 @@
 title: Update enterprise assets that have unknown enterprise models
 description: If an enterprise asset is associated with an unknown enterprise model, update it with a known enterprise model so that you can accurately categorize and track it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/updated-enterprise-assets-unknown-enterprise-model.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -49,8 +50,8 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     The dialog box closes and you automatically return to the asset record. If the update is successful, the asset record fields become editable.
 
-    **Note:** If the selected enterprise asset type, enterprise model category, and enterprise model update the enterprise asset to a user-assembled multi-component asset, the **State** field on the asset record automatically changes to **Build**. The **Assemble** and **Auto assemble** buttons also appear on the asset record. You can use these buttons to initiate the assembly process for the enterprise asset. For more information on user-assembled multi-component assets, see [Select assets for user-assembled asset](assemble-assets-eam.md).
+    **Note:** If the selected enterprise asset type, enterprise model category, and enterprise model update the enterprise asset to a user-assembled multi-component asset, the **State** field on the asset record automatically changes to **Build**. The **Assemble** and **Auto assemble** buttons also appear on the asset record. You can use these buttons to initiate the assembly process for the enterprise asset. For more information on user-assembled multi-component assets, see [Select assets for user-assembled asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/assemble-assets-eam.md).
 
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

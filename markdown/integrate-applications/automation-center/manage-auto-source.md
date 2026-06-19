@@ -2,6 +2,7 @@
 title: Manage automation source
 description: You can perform other actions for an automation source after creating it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/manage-auto-source.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -25,11 +26,11 @@ Role required: admin
 
     The Automation Center dashboard is displayed.
 
-2.  Select the Connection Manager icon \(![Connection Manager icon](../images/con-manager.png)\) on the left.
+2.  Select the Connection Manager icon \(\[Omitted image "con-manager.png"\] Alt text: Connection Manager icon\) on the left.
 
     A list of available automation sources is displayed.
 
-3.  Select options for an automation source to manage the automation source.![Manage an automation source](../images/import-source.png)
+3.  Select options for an automation source to manage the automation source.\[Omitted image "import-source.png"\] Alt text: Manage an automation source
 
     -   Select **View details**. A new tab with the automation source is displayed.
     -   Select **Import now**. The data is imported immediately.
@@ -43,5 +44,5 @@ Role required: admin
         You can edit the automation source.
 
 
-**Parent Topic:**[Working with Connection Manager](connection-manager.md)
+**Parent Topic:**[Working with Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/connection-manager.md)
 

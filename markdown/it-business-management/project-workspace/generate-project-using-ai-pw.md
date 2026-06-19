@@ -2,6 +2,7 @@
 title: Generate a project plan using project plan generation skill
 description: Use Project plan generation skill to generate a project plan from natural language input, uploaded files, or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-project-using-ai-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -22,14 +23,14 @@ Role required: it\_project\_manager
 -   Install Now Assist for Strategic Portfolio Management \(SPM\) plugin.
 -   To use attachments to generate a project, activate the document intelligence skill. The default LLM is Azure OpenAI. Switching to a different model may affect accuracy.
 
--   The project plan generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](../../now-assist-spm/concept/configuring-na-spm.md).
+-   The project plan generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 
 
 ## About this task
 
 Now Assist scans your project and task details to generate content. Review and edit the output before creating the project. Supported file types are word, pdf, excel, and powerpoint, with a 5 MB file size limit. Only the first five attachments are processed.
 
-For project and task supported column configurations, see [Supported columns for project and task generation](../../now-assist-spm/reference/column-configuration-project-tasks.md).
+For project and task supported column configurations, see [Supported columns for project and task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/column-configuration-project-tasks.md).
 
 ## Procedure
 
@@ -37,14 +38,14 @@ For project and task supported column configurations, see [Supported columns for
 
 2.  Select **Generate project** to use Now Assist to generate a project.
 
-    ![AI-generated project plan in Project Workspace.](../../now-assist-spm/images/now-assist-project-plan-page.png)
+    \[Omitted image "now-assist-project-plan-page.png"\] Alt text: AI-generated project plan in Project Workspace.
 
     To create a project without using Now Assist, use **New project from template** or **New project** options.
 
 3.  Provide your project input using one or more of these methods.
 
     -   In the text field, describe your project using natural language. If you provide only natural language input, the document intelligence skill is not required.
-    -   Select Attach files and upload a word, pdf, excel, or powerpoint document. To use file attachments, activate the document intelligence skill. For more information, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/activate-now-assist-in-document-intelligence-skill.md).
+    -   Select Attach files and upload a word, pdf, excel, or powerpoint document. To use file attachments, activate the document intelligence skill. For more information, see .
     **Note:** Attach a file or enter context as free-form text before proceeding. No input returns an error. Insufficient context may also trigger an error.
 
 4.  Select **Next** to generate the project.
@@ -53,7 +54,7 @@ For project and task supported column configurations, see [Supported columns for
 
 6.  Review the pre-populated project name, approved start date, approved end date, or business case.
 
-    ![Now assist generated project plan.](../../now-assist-spm/images/now-assist-generated-project.png)
+    \[Omitted image "now-assist-generated-project.png"\] Alt text: Now assist generated project plan.
 
     Edit the fields as needed and add a description.
 
@@ -64,5 +65,5 @@ For project and task supported column configurations, see [Supported columns for
 
 The project is created with the generated tasks, including task hierarchy and dates derived from your input.
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
 

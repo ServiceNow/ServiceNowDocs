@@ -2,6 +2,7 @@
 title: Service Catalog items
 description: The overall catalog is made up of a collection of discrete catalog items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_IntroductionToCatalogItems.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -30,16 +31,16 @@ Use a catalog item to publish a service to your users. Add a service description
 
 Use the variables to present and gather information from the users. Catalog UI Policies and Catalog Client Scripts can also be added to control the item behavior based on user input.
 
--   **[Specify related items and articles for a catalog item](../task/map-items-cat-item.md)**  
+-   **[Specify related items and articles for a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/map-items-cat-item.md)**  
 Specify related items and articles for a catalog item to provide alternatives and additional information. These items and articles are displayed in the catalog item page in Service Portal and Now Mobile.
--   **[Add an ordered item link to an item](../task/t_AddOrderedItemLinks.md)**  
+-   **[Add an ordered item link to an item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_AddOrderedItemLinks.md)**  
 Use ordered item links to provide a link on the ordered item screen that provides more information about an item.
--   **[Create a Service Catalog client script](../task/t_CreateACatalogClientScript.md)**  
+-   **[Create a Service Catalog client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateACatalogClientScript.md)**  
 You can create client scripts to customize the catalog.
--   **[Translation of Service Catalog items](translate-catalog-items.md)**  
+-   **[Translation of Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/translate-catalog-items.md)**  
 You can translate Service Catalog items into multiple languages using the ServiceNow® Localization Framework.
--   **[Monitoring aggregated catalog item data](../task/monitor-aggregated-catalog-item-data.md)**  
+-   **[Monitoring aggregated catalog item data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/monitor-aggregated-catalog-item-data.md)**  
 Monitor aggregated catalog item data like fulfillment automation coverage, translation coverage, and conversational coverage using the Service Catalog Overview dashboard.
 
-**Parent Topic:**[Exploring Service Catalog](exploring-service-catalog.md)
+**Parent Topic:**[Exploring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/exploring-service-catalog.md)
 

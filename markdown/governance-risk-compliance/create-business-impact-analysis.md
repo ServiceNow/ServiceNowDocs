@@ -2,6 +2,7 @@
 title: Create a business impact analysis
 description: Create a business impact analysis \(BIA\) to get the necessary information for a plan. Use the BIA to identify the recovery time objective for an item and prioritize assets that have most and least critical dependencies. Use the information to establish their recovery strategies during the planning phase.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-business-impact-analysis.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

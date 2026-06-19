@@ -2,6 +2,7 @@
 title: Create a category or subcategory
 description: Create an Operational Technology incident category or subcategory that you want to use to classify incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/add-category-or-subcategory.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -46,5 +47,5 @@ Create an Operational Technology incident category or subcategory that you want 
 
 The new category or subcategory is available to select on an Operational Technology incident record.
 
-**Parent Topic:**[Incident categories and subcategories](../reference/ot-incident-categories-subcategories.md)
+**Parent Topic:**[Incident categories and subcategories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/ot-incident-categories-subcategories.md)
 

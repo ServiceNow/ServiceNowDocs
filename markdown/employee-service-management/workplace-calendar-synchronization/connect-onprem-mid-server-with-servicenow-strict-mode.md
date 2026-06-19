@@ -2,13 +2,14 @@
 title: Connect Microsoft Exchange On-Premises MID server with ServiceNow
 description: Configure connection between the MID server of Microsoft Exchange On-Premises and ServiceNow to synchronize reservations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/connect-onprem-mid-server-with-servicenow-strict-mode.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a strict mode connection for Microsoft Exchange On-Premises, Microsoft Exchange On-Premises - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a strict mode connection for Microsoft Exchange On-Premises, Microsoft Exchange On-Premises - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Connect Microsoft Exchange On-Premises MID server with ServiceNow
@@ -19,8 +20,8 @@ Configure connection between the MID server of Microsoft Exchange On-Premises an
 
 Ensure the following:
 
--   Install [Microsoft Exchange Server Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msexchangeserver-spoke.md).
--   [Set up the Microsoft Exchange Server spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msexchange.md)
+-   Install Microsoft Exchange Server Spoke.
+-   Set up the Microsoft Exchange Server spoke
 -   You must have the Microsoft Exchange Server login credentials.
 -   A user is configured in the ServiceNow® instance with the role mid\_server.
 
@@ -75,5 +76,5 @@ A platform is set to communicate with the Microsoft Exchange On-Premises MID ser
 
 ## What to do next
 
-[Create a strict mode Connection and credential alias for Microsoft Exchange On-Premises](create-connection-credential-alias-for-exchange-on-prem-in-strict-mode.md)
+[Create a strict mode Connection and credential alias for Microsoft Exchange On-Premises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-credential-alias-for-exchange-on-prem-in-strict-mode.md)
 

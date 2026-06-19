@@ -2,6 +2,7 @@
 title: HR services for Employee Relations
 description: List of default HR services for Employee Relations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/er-hr-services.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

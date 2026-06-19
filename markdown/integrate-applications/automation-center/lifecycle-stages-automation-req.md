@@ -2,6 +2,7 @@
 title: Life-cycle stages of an automation request
 description: The State transition of an automation request guides you through the stages of its life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/lifecycle-stages-automation-req.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -24,5 +25,5 @@ The State transition of an automation request guides you through the stages of i
 |Deferred|Automation request that is postponed for a later date.|
 |Rejected|Automation request that is rejected.|
 
-**Parent Topic:**[Automation Center reference](../concept/automation-center-reference.md)
+**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
 

@@ -2,6 +2,7 @@
 title: Deployment request states
 description: A deployment request might be in one of several different states during the release process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/releaseops/deployment-request-states.html
 release: australia
 product: ReleaseOps
 classification: releaseops
@@ -109,5 +110,5 @@ Cancelled
 The deployment request was manually canceled.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ReleaseOps reference](releaseops-reference.md)
+</table>**Parent Topic:**[ReleaseOps reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/releaseops-reference.md)
 

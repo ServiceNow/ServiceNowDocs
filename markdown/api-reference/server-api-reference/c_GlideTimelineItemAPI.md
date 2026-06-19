@@ -2,6 +2,7 @@
 title: GlideTimelineItem - Global
 description: The GlideTimelineItem API extends the abstract ScheduleItem class to define additional properties that are specific to the time line.Create a "dummy" GlideTimelineItem object.Constructor that sets the required table and sys\_id properties.Creates a new TimelineSpan object associated with the current instance object.Creates a new TimelineSpan object associated with the current instance object using the specified table and sys\_id.Returns a string specifying the name of the image file associated with the current GlideTimelineItem.Indicates whether or not the current instance object should be allowed as a "drop zone" when moving timeline elements vertically.Returns the text to be displayed in the left pane \(if enabled\).Returns the unique sysId of the current GlideTimelineItem's parent object.Returns all the TimelineSpan objects associated with the current instance in an ArrayList.Indicates if the left pane text is set to display using a bold style.Sets the name of the image file \(including it's path\) to use as the icon for the item in the left pane.Sets whether or not the current instance object can be clicked and dragged into another GlideTimelineItem.Specifies the text to display in the left pane for this item.Sets the parent of the current GlideTimelineItem.Specifies whether or not to bold the text style of the item in the left pane.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideTimelineItemAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideTimelineItem API extends the abstract ScheduleItem class to define addi
 
 A time line item is essentially any item that displays in a singular row across the time line. A GlideTimelineItem has zero or more associated spans \(TimelineSpan objects\).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideTimelineItem - GlideTimelineItem\(String tableName\)
 

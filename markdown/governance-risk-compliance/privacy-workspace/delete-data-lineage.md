@@ -2,6 +2,7 @@
 title: Delete a lineage
 description: Delete a lineage to remove a specific connection or node from the hierarchy of a processing activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/delete-data-lineage.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -55,5 +56,5 @@ You can delete a relationship in the following methods:
     6.  Confirm the deletion.
 
 
-**Parent Topic:**[Create a lineage for a processing activity](create-a-data-lineage-for-a-processing-activity.md)
+**Parent Topic:**[Create a lineage for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)
 

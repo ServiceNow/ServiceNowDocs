@@ -2,11 +2,12 @@
 title: Check device health using Employee Center
 description: Monitor and resolve common device performance issues independently by using Device health check through the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-self-service/check-your-device-s-using-employee-center.html
 release: australia
 product: Digital End-user Experience Self-service
 classification: digital-end-user-experience-self-service
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, Digital End-user Experience Self-service, Digital End-User Experience, IT Service Management]
 ---
@@ -23,15 +24,15 @@ Role required: none
 
 1.  Open Device health check from Employee Center using one of the following options.
 
-<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d445544e73">
+<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d141101e73">
 
 Option
 
-</th><th align="left" id="d445544e76">
+</th><th align="left" id="d141101e76">
 
 Steps to open Device heath check
 
-</th></tr></thead><tbody><tr><td id="d445544e82">
+</th></tr></thead><tbody><tr><td id="d141101e82">
 
 **Hardware or Software pages**
 
@@ -47,7 +48,7 @@ The Device heath check widget appears, displaying device health categories with 
 5.  Select a category to see more details in the Device health check page.
 
 
-</td></tr><tr><td id="d445544e159">
+</td></tr><tr><td id="d141101e159">
 
 **Quick links**
 
@@ -58,7 +59,7 @@ Navigate to **Technology Services** &gt; **Quick links** &gt; **Device health ch
 </td></tr></tbody>
 </table>    **Note:** When AI search is off, searching for Device health check returns a single result under **Catalog** &gt; **Hardware**. When AI search is enabled, multiple results appear under both **Catalog** &gt; **Hardware** and **Catalog** &gt; **Software**.
 
-2.  On the Device health check page, select the Favorite icon \(![](../image/DHC_favorite_icon.png)\) to add it to your **My Favorites** section.
+2.  On the Device health check page, select the Favorite icon \(\[Omitted image "DHC\_favorite\_icon.png"\] Alt text:\) to add it to your **My Favorites** section.
 
 3.  In the **Diagnose** tab, review the performance category and required actions for the device, applications, and network.
 

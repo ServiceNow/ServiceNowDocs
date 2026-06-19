@@ -2,6 +2,7 @@
 title: Enable electronic signature for approval
 description: Enabling electronic signatures for approval. Electronic signatures are helpful if you must obtain a digital signature for compliance or auditing purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_EnableElectronicSignature.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -21,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-You can activate the [Approval with e-signature plugin](../../../administer/service-administration/reference/r_InstalledWApprWithEsignature.md) to require that users type in a user name and password when reviewing and approving documents.
+You can activate the [Approval with e-signature plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/approvals/r_InstalledWApprWithEsignature.md) to require that users type in a user name and password when reviewing and approving documents.
 
 The digital signature is not tracked or stored in the document record. Users must simply type in a user name and password after clicking the **Approve** or **Reject** button.
 
-![Approver Authentication](../image/MDOCDigitalSignature.png "Digital signature")
+\[Omitted image "MDOCDigitalSignature.png"\] Alt text: Approver Authentication
 
 After activating the Approval with E-Signature plugin, ensure that a row in the e-signature registry table is created for the dms\_document\_revision table.
 
@@ -41,10 +42,10 @@ After activating the Approval with E-Signature plugin, ensure that a row in the 
 
 5.  Select Enabled.
 
-    ![e-Signature Registry](../image/EsigRegistry.png)
+    \[Omitted image "EsigRegistry.png"\] Alt text: e-Signature Registry
 
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Create a document](../concept/c_CreateADocument.md)
+**Parent Topic:**[Create a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_CreateADocument.md)
 

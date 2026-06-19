@@ -2,6 +2,7 @@
 title: Issue auto-resolution tab
 description: The Issue auto-resolution tab helps you understand how well your Virtual Agent \(VA\) chatbot anticipates user needs. It displays information about the number of user issues intercepted by the auto-resolution service and resolved by VA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/dashboard-auto-resolution-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,13 +16,13 @@ breadcrumb: [Using the Conversational Analytics Dashboard, Conversational Analyt
 
 The **Issue auto-resolution** tab helps you understand how well your Virtual Agent \(VA\) chatbot anticipates user needs. It displays information about the number of user issues intercepted by the auto-resolution service and resolved by VA.
 
-Issue auto-resolution takes place when a user is diverted to VA from a non-conversational interface. For example, a user might request a new keyboard through a service portal or email. The auto-resolution service can detect the user request and use VA to resolve the user's request in a VA chatbot session. For more information, see [Auto Resolution for Virtual Agent](auto-resolution-va.md).
+Issue auto-resolution takes place when a user is diverted to VA from a non-conversational interface. For example, a user might request a new keyboard through a service portal or email. The auto-resolution service can detect the user request and use VA to resolve the user's request in a VA chatbot session. For more information, see [Auto Resolution for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/auto-resolution-va.md).
 
 The indicators in the **Issue auto-resolution** tab display how well the auto-resolution service is working. This tab is available only when Issue Auto Resolution is enabled and the **Auto Resolution Configuration** record is set as active.
 
 To access the **Issue auto-resolution** tab, you must have the chat analytics admin role or the chat analytics viewer role.
 
-![Data visualizations for this tab include intent and topic-matching results, matching and conversational trends, acceptance rate, and top topics.](../images/issue-auto-resolution-tab-pae.png "Issue auto-resolution tab")
+\[Omitted image "issue-auto-resolution-tab-pae.png"\] Alt text: Data visualizations for this tab include intent and topic-matching results, matching and conversational trends, acceptance rate, and top topics.
 
 Selecting the data or pointing to the data in the visualizations displays additional information about the data.
 
@@ -106,5 +107,5 @@ Top topics in auto resolution conversations
 Frequently used topics in auto resolution conversations. Select the indicator to view the list of topics that are frequently used in auto-resolution conversations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using the Conversational Analytics Dashboard](use-the-dashboard-overview-pae.md)
+</table>**Parent Topic:**[Using the Conversational Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-the-dashboard-overview-pae.md)
 

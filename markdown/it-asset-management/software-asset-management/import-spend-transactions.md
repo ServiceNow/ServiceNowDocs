@@ -2,6 +2,7 @@
 title: Import financial transactions
 description: Import a Microsoft Excel spreadsheet of financial transaction data to start managing software spending.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/import-spend-transactions.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -66,9 +67,9 @@ The import may take several hours when importing large numbers of transactions.
 
 ## What to do next
 
-Navigate to **Software Spend Detection** &gt; **Unnormalized Transactions** to view any transactions that Software Spend Detection wasn't able to match with a software publisher and product. You can manually update these transactions to add a publisher and product. [Opt in to Content Service](opt-in-content-service.md) to improve matching for future imports.
+Navigate to **Software Spend Detection** &gt; **Unnormalized Transactions** to view any transactions that Software Spend Detection wasn't able to match with a software publisher and product. You can manually update these transactions to add a publisher and product. [Opt in to Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/opt-in-content-service.md) to improve matching for future imports.
 
 If necessary, you can mass delete all transactions from an import. Navigate to **Software Spend Detection** &gt; **Administration** &gt; **Transaction Import Results**, select the import record, and then select **Delete**.
 
-**Parent Topic:**[Software Spend Detection](../concept/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
 

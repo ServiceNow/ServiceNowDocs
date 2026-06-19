@@ -2,6 +2,7 @@
 title: Configure a skill for Now Assist for Security Incident Response
 description: Configure and review the details for a skill in the Guided Setup. You can edit and reactivate a skill from the Guided Setup.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/activate-skills-for-now-assist-security-incident.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
@@ -18,13 +19,13 @@ Configure and review the details for a skill in the Guided Setup. You can edit a
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 Role required: sn\_si.admin
 
 ## About this task
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see .
 
 ## Procedure
 
@@ -38,7 +39,7 @@ Role required: sn\_si.admin
 
 3.  Select **Edit** for the skill you want to configure, and follow the Guided Setup.
 
-    You can edit only the active options in the left panel and the editable options might vary for individual skills. For more configurable options, copy a skill and customize it. For more information, see [Customize a Now Assist for Security Incident Response skill](cust-now-assist-security-incident-skill.md).
+    You can edit only the active options in the left panel and the editable options might vary for individual skills. For more configurable options, copy a skill and customize it. For more information, see [Customize a Now Assist for Security Incident Response skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/now-assist-for-security-incident-response-sir/cust-now-assist-security-incident-skill.md).
 
 4.  Select **Review and Activate** to review your inputs and activate the skill.
 

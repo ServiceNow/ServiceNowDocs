@@ -2,6 +2,7 @@
 title: Talent Properties reference
 description: Properties control how skills approvals are managed and whether Skills Foundation is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-properties-reference.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -25,5 +26,5 @@ Properties control how skills approvals are managed and whether Skills Foundatio
 
 Select the check box to set the property to **Yes**. When the property is set to yes, all activities in the growth plan are automatically set to the ready state.
 
-**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-reference.md)
 

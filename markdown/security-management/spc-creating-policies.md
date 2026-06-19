@@ -2,6 +2,7 @@
 title: Creating your own policies in the Security Posture Control application
 description: You can create your own custom policies to monitor data that is specific to the assets in your environment. You base these policies on data you will import from the various Service Graph Connectors you have installed and activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-creating-policies.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -21,11 +22,11 @@ Alternatively, you can use a base policy as a starting point and include conditi
 
 For your custom policies, you can include conditions for metadata such as OS, OS version, and FQDN, for example to help you monitor assets with older software. Note that these properties are common CMDB properties populated by various Service Graph Connectors for any given asset.
 
-See [Policies included with the Security Posture Control application](../concept/spc-polices-included.md) for more information about top-level Asset Types and their relationships in the policy condition builder for you policies.
+See [Policies included with the Security Posture Control application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-polices-included.md) for more information about top-level Asset Types and their relationships in the policy condition builder for you policies.
 
-For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](../concept/spc-policy-examples.md).
+For example policies, see [Examples of base, child, and cloned policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policy-examples.md).
 
-See [Create and activate custom policies for Security Posture Control](spc-create-policy.md) for more information about the steps required to create a policy.
+See [Create and activate custom policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-create-policy.md) for more information about the steps required to create a policy.
 
 ## Using the AND, OR decorators in the condition builder
 
@@ -40,15 +41,15 @@ The AND, OR decorators in the condition builder permit you to set up the logic f
 |Select **OR/AND** to the right of a Property field for new set of Property conditions.|Adds a logical OR/AND between current Property, and a new Property from the same Connection-Entity-Criteria.|3|
 |Select **+ New condition set** for a new set of conditions.|Adds a logical OR between the Condition Set of all current Criteria, and a new Condition Set.|4|
 
-![Decorators in the security posture control policy builder](../image/spc-decorators.png)
+\[Omitted image "spc-decorators.png"\] Alt text: Decorators in the security posture control policy builder
 
 ## Using base policies, cloning, and child policies
 
 You can use multiple policies to evaluate your assets and create your own custom insights. You have the following options to help you create custom or edit existing policies quickly:
 
--   Clone policy - Create a copy of a policy. The name of the policy and its conditions are displayed with a ‘copy’ in the title. The conditions are displayed, and you can edit them. See [Edit an activated policy in Security Posture Control](spc-edit-policy.md).
--   Create child policy - The name of the policy you started from is displayed as the “Base policy” on the new record. Conditions of your base policy are inherited in the new policy, and a new, empty condition set is displayed. See [Clone a policy or create a child policy in Security Posture Control](spc-clone-policy.md).
--   Exclusion policies – Add policies to your custom policies so that asset findings from the policies you select are excluded from your results. See [Create and activate custom policies for Security Posture Control](spc-create-policy.md).
+-   Clone policy - Create a copy of a policy. The name of the policy and its conditions are displayed with a ‘copy’ in the title. The conditions are displayed, and you can edit them. See [Edit an activated policy in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-edit-policy.md).
+-   Create child policy - The name of the policy you started from is displayed as the “Base policy” on the new record. Conditions of your base policy are inherited in the new policy, and a new, empty condition set is displayed. See [Clone a policy or create a child policy in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-clone-policy.md).
+-   Exclusion policies – Add policies to your custom policies so that asset findings from the policies you select are excluded from your results. See [Create and activate custom policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-create-policy.md).
 
 ## Metadata and CMDB filtering
 
@@ -88,7 +89,7 @@ For Hardware asset types, you can use the Connection ‘Has model info’ with t
 
 Hardware Asset types also permits you to search for all assets reported by a Source, Qualys, for example, but that are not reported by ServiceNow ITOM Discovery.
 
-See [Policies for Security Posture Control](../concept/spc-policies-overview.md) for more information about the Security Posture Control policy schema.
+See [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-policies-overview.md) for more information about the Security Posture Control policy schema.
 
 ## Exceptions with the Governance, Risk, and Compliance \(GRC\) application
 

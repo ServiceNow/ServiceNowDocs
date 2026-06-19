@@ -2,6 +2,7 @@
 title: Publish a service
 description: A service must be published to appear in the service catalog. When first created, new services appear in the Draft Services related list for the service category. Published services appear in the Services related list for the service category. The manager of a service category can publish draft services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/service-creator/t\_PublishAService.html
 release: australia
 product: Service Creator
 classification: service-creator

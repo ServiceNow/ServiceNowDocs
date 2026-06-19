@@ -2,6 +2,7 @@
 title: Set up OAuth 2.0 Authorization Code for Bitbucket Cloud
 description: Set up OAuth 2.0 Authorization Code credentials for Bitbucket in DevOps Change Velocity to use a more secure authentication method.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/set-up-oauth-2-0-authorization-code.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -30,9 +31,9 @@ The **This is a private consumer** option must be deselected. You must enter you
 https://<instanceurl>/oauth_redirect.do
 ```
 
-![Permissions for Bitbucket OAuth 2.0 - Authorization Code](../image/bitbucket-oauth-permissions-auth-code.png)
+\[Omitted image "bitbucket-oauth-permissions-auth-code.png"\] Alt text: Permissions for Bitbucket OAuth 2.0 - Authorization Code
 
-You need the **Client Id** and **Client secret** values of your Bitbucket workspace. Client ID of your Bitbucket tool is available in the OAuth consumers section of your workspace settings \(**Workspace settings &gt; OAuth consumers &gt; Add consumer**\) in the **Key** field. Client secret of your Bitbucket tool is available in the OAuth consumers section of your workspace settings \(**Workspace settings &gt; OAuth consumers &gt; Add consumer**\) in the **Secret** field.![OAuth consumer page](../image/bitbucket-oauth-consumer.png)
+You need the **Client Id** and **Client secret** values of your Bitbucket workspace. Client ID of your Bitbucket tool is available in the OAuth consumers section of your workspace settings \(**Workspace settings &gt; OAuth consumers &gt; Add consumer**\) in the **Key** field. Client secret of your Bitbucket tool is available in the OAuth consumers section of your workspace settings \(**Workspace settings &gt; OAuth consumers &gt; Add consumer**\) in the **Secret** field.\[Omitted image "bitbucket-oauth-consumer.png"\] Alt text: OAuth consumer page
 
 Role required: admin
 
@@ -113,7 +114,7 @@ Enter `https://bitbucket.org/site/oauth2/access_token`
 </td></tr></tbody>
 </table>5.  Leave the rest of the form fields as default.
 
-    ![Application Registry form for Bitbucket OAuth credential](../image/bitbucket-oauth-application-registry.png)
+    \[Omitted image "bitbucket-oauth-application-registry.png"\] Alt text: Application Registry form for Bitbucket OAuth credential
 
 6.  Select and hold \(or right-click\) the form header, and select **Save**.
 
@@ -185,5 +186,5 @@ Select the order to apply this credential. For example, enter `100`.
 12. Select the **Get OAuth Token** related link to generate the OAuth token.
 
 
-**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](../concept/bitbucket-integration-dev-ops.md)
+**Parent Topic:**[Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md)
 

@@ -2,6 +2,7 @@
 title: Financial planning for Projects and Demands
 description: Plan, re-forecast, track the financials, and create baselines for projects and demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/financials-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -21,21 +22,21 @@ The interface gives you the ability to create cost plans, expense lines, and bas
 
 -   Enter high-level financial forecasts for planning items using the simple financials section in the Details tab.
 -   Work on high-level estimating for Planned opEx and Planned capEx.
--   Create a detailed breakdown of the planned costs [using the financials tab](../../spw-financials/concept/using-financials-spw.md).
+-   Create a detailed breakdown of the planned costs [using the financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/using-financials-spw.md).
 -   View the rollups of Planned costs, Actuals costs, and Planned benefits for all of your planning items in the Prioritization grid.
--   [Add, edit, or delete cost plans](../../spw-financials/task/create-cost-plan-spw.md) effortlessly from the Cost screen.
+-   [Add, edit, or delete cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-cost-plan-spw.md) effortlessly from the Cost screen.
 -   Re-forecast your planned expenses using the in-line editing feature.
 -   View a streamlined perspective, showcasing your actual costs for the past and planned expenses for the future, for the entire time scope of the planning item.
 -   Get a better comprehensive solution by viewing the Forecast \(previously EAC - Estimate at Completion\), Remaining Estimates \(previously ETC - Estimate to Completion\), and Actuals of each cost plan for the total time scope and the yearly breakdowns.
 -   Re-forecast the planned cost for future fiscal periods by directly updating the quarterly and yearly totals using the in-line editing capability of the grid.
--   [Generate labor costs](../../spw-financials/task/gen-labor-costs-spw.md) depending on the resource assignments for the entire scope of the planning item broken down by the financial attributes configured for your organization. For more information on the planning attributes for attribute-based mapping, see [Using the Planning attributes](../../project-management/concept/planning-attributes.md).
--   [Add or edit expense lines](../../spw-financials/task/create-expense-line.md) against the cost plans easily from the side panel with the associated cost plan details pre-populated.
+-   [Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/gen-labor-costs-spw.md) depending on the resource assignments for the entire scope of the planning item broken down by the financial attributes configured for your organization. For more information on the planning attributes for attribute-based mapping, see [Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/planning-attributes.md).
+-   [Add or edit expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-expense-line.md) against the cost plans easily from the side panel with the associated cost plan details pre-populated.
 -   Record unplanned expenses using the New expense line side panel.
 -   Create and compare financial baseline to track the financials of your planning items.
 -   Compare the latest costs \(actual expenses for past fiscal periods and planned costs for current and future fiscal periods\) with the initial forecasted planned costs by creating financial baseline and using the compare baselines capability.
 -   Analyze the cause of variance in costs and when did this occur over time by capturing the financial baselines manually or automatically.
 
-![Financials screen.](../../spw-financials/images/financials-screen.png)
+\[Omitted image "financials-screen.png"\] Alt text: Financials screen.
 
 You can view the following information on the financials screen.
 
@@ -51,7 +52,7 @@ You can view the following information on the financials screen.
 
     **Note:** This option is enabled for the projects with resource assignments only.
 
--   The pane gives you a tabulated view of the cost plan attributes displaying the Name, Cost type, Expense type, Stat fiscal period, End fiscal period, Total planned cost, Employee type, and Role. You can customize these fields. For more information, see [Customize the left pane view for financials](../task/customize-fin-left-pane-pp.md).
+-   The pane gives you a tabulated view of the cost plan attributes displaying the Name, Cost type, Expense type, Stat fiscal period, End fiscal period, Total planned cost, Employee type, and Role. You can customize these fields. For more information, see [Customize the left pane view for financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/customize-fin-left-pane-pp.md).
 -   In the right pane, you can view the total Actuals, Forecast, and Remaining Estimates for the selected Time scope duration. Actual expenses against a cost plan for the past fiscal periods, Actuals, Forecast, and Remaining Estimates for the current fiscal year, and planned costs for the current and future fiscal periods.
 
     **Note:** The header rows of actuals and planned are color-coded differently to help you easily identify and differentiate between the expense types.
@@ -60,5 +61,5 @@ You can view the following information on the financials screen.
 -   Personalize option to customize the columns in the left pane of the table.
 -   Export option to download Cost or Baselines comparison as Microsoft Excel or CSV file.
 
-**Parent Topic:**[Exploring Portfolio Planning](exploring-portfolio-planning.md)
+**Parent Topic:**[Exploring Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/exploring-portfolio-planning.md)
 

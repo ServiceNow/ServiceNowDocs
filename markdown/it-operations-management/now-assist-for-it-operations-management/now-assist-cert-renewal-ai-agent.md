@@ -2,6 +2,7 @@
 title: Now Assist certificate renewal AI agent
 description: Using the Now Assist certificate renewal AI agent, see which certificates are about to expire and renew them. Choose a specific certificate and renew it on the spot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/now-assist-cert-renewal-ai-agent.html
 release: australia
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -23,6 +24,6 @@ Use the Now Assist certificate renewal AI agent to automatically renew certifica
 
 You must first configure your system for automatic renewal. Configuring requires two steps:
 
-1.  [Configure your MID Server for automatic certificate renewal](../../discovery/task/configure-mid-server-automatic-cert-renewal.md)
-2.  [Add the required applications and capabilities to your MID Server](../../discovery/task/add-req-apps-capabilities-to-mid-server.md)
+1.  [Configure the MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md)
+2.  [Add the required applications and capabilities to your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md)
 

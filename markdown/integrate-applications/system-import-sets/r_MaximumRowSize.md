@@ -2,6 +2,7 @@
 title: Import sets maximum row size
 description: Rows imported using import sets must not exceed the maximum row size.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/r\_MaximumRowSize.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

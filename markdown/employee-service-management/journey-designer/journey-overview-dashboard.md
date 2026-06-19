@@ -2,6 +2,7 @@
 title: Journey overview dashboard
 description: Journey Overview is a comprehensive dashboard that allows you to efficiently track and manage ongoing tasks and journeys within the organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/journey-overview-dashboard.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -15,7 +16,7 @@ breadcrumb: [Journey designer dashboards and reports, Use, Journey designer, Emp
 
 Journey Overview is a comprehensive dashboard that allows you to efficiently track and manage ongoing tasks and journeys within the organization.
 
-On the dashboard you can view details about different journeys, including the number of journeys that are due, journeys tasks, journey tasks by role and by activity type, and other relevant journey specific information.![Journey overview dashboard](../image/jny-overview-dashboard.png)
+On the dashboard you can view details about different journeys, including the number of journeys that are due, journeys tasks, journey tasks by role and by activity type, and other relevant journey specific information.\[Omitted image "jny-overview-dashboard.png"\] Alt text: Journey overview dashboard
 
 ## Required ServiceNow AI Platform roles
 
@@ -70,7 +71,7 @@ Overdue journey accelerator tasks
 
 </td><td>
 
-Single score ![](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+Single score \[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text:
 
 </td><td>
 
@@ -86,7 +87,7 @@ Overdue lifecycle events tasks
 
 </td><td>
 
-Single score ![](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+Single score \[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text:
 
 </td><td>
 
@@ -102,7 +103,7 @@ Journey accelerator tasks due soon
 
 </td><td>
 
-Single score ![](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+Single score \[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text:
 
 </td><td>
 
@@ -118,7 +119,7 @@ Lifecycle events tasks due soon
 
 </td><td>
 
-Single score ![](../../../use/reporting/image/inline-data-vis-96px-single-score.png)
+Single score \[Omitted image "inline-data-vis-96px-single-score.png"\] Alt text:
 
 </td><td>
 
@@ -134,7 +135,7 @@ Overdue journey accelerator tasks by role
 
 </td><td>
 
-Bar ![](../../../use/reporting/image/inline-data-vis-96px-bar-column.png)
+Bar \[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text:
 
 </td><td>
 
@@ -150,7 +151,7 @@ Overdue lifecycle events tasks by activity type
 
 </td><td>
 
-Bar ![](../../../use/reporting/image/inline-data-vis-96px-bar-column.png)
+Bar \[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text:
 
 </td><td>
 
@@ -166,7 +167,7 @@ Journey status
 
 </td><td>
 
-Line ![](../../../use/reporting/image/inline-data-vis-96px-line.png)
+Line \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -252,5 +253,5 @@ Choice
 Displays tasks based on the start date of the employee.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey designer dashboards and reports](../reference/jny-report-dashboards.md)
+</table>**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
 

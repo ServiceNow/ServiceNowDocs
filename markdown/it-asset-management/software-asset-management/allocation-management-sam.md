@@ -2,6 +2,7 @@
 title: Allocation management on Software Asset Management
 description: Software Asset Management \(SAM\) offers optimal license assignment confirming that licensing entities are allocated according to the available entitlements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/allocation-management-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -48,31 +49,31 @@ Software Asset Management automatically licenses entities such as a virtual mach
 
 SAM Manager analyzes the license consumption of a particular entity, Cluster A- VM 13, and verifies that it has been consumed by SQL Server Standard and the software installed on this virtual machine is also SQL server Standard.
 
-![License consumption of Cluster-A-VM-13.](../image/licenses-required-vm-13.png)![The software installed on this virtual machine is SQL Server Standard.](../image/sql-server-standard-vm-13.png)
+\[Omitted image "licenses-required-vm-13.png"\] Alt text: License consumption of Cluster-A-VM-13.\[Omitted image "sql-server-standard-vm-13.png"\] Alt text: The software installed on this virtual machine is SQL Server Standard.
 
 But according to the licensing strategy of the organization, SAM Manager wants to assign the SQL Server Enterprise license to this entity. In this scenario, the SAM Manager or SAM Admin can add an allocation to the SQL Server Enterprise entitlement, which would allocate SQL Server Enterprise licenses to the entity.
 
 **Note:** You don't have to remember the quantity of licenses to allocate. Software Asset Management automatically determines the licenses required for the entity, so the SAM Manager or SAM Admin can allocate a license.
 
-After reconciliation, Cluster A- VM 13 has consumed licenses from SQL Server Enterprise. Four rights have been consumed wherein only 1 was allocated. You can also verify that the **Allocated in use** field to confirm that the added allocations are consumed.![Four rights have been consumed wherein only 1 was allocated.](../image/licenses-reqd-vm-13.png)
+After reconciliation, Cluster A- VM 13 has consumed licenses from SQL Server Enterprise. Four rights have been consumed wherein only 1 was allocated. You can also verify that the **Allocated in use** field to confirm that the added allocations are consumed.\[Omitted image "licenses-reqd-vm-13.png"\] Alt text: Four rights have been consumed wherein only 1 was allocated.
 
-For more information about the allocation fields, see [Software model results license metric results fields](../reference/license-metric-results-fields.md).
+For more information about the allocation fields, see [Software model results license metric results fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/license-metric-results-fields.md).
 
-In the Cluster A- VM 13 Software installation list, the installed software is SQL Server Standard. However, the Software model result indicates that the entity is being consumed by the SQL Server Enterprise software model.![The entity is being consumed by SQL Server Enterprise software model.](../image/allocation-final-vm-13.png)
+In the Cluster A- VM 13 Software installation list, the installed software is SQL Server Standard. However, the Software model result indicates that the entity is being consumed by the SQL Server Enterprise software model.\[Omitted image "allocation-final-vm-13.png"\] Alt text: The entity is being consumed by SQL Server Enterprise software model.
 
 The use case of prioritizing certain entities to consume a specific license over others can be extended to many other scenarios. For example, software suites can be prioritized to consume licenses first, or licensing a particular device with a different license metric over others.
 
 ## Locking license assignments
 
-Lets say, the SAM Manager is happy with the assignment of license consumption performed by the Software Asset Management application. You can view License Metric Results and Remediation Options for a software model result from a Product Result record. On the License Metric Results page, the **Not allocated in use** column shows the number of rights that are used to license installations, but not allocated. When this value is greater than zero, remediation options **Create Allocations** and **Remove Unallocated** are displayed on the Remediation Options page. For more information, see [View software model results](../task/t_ViewSWModelResults.md).
+Lets say, the SAM Manager is happy with the assignment of license consumption performed by the Software Asset Management application. You can view License Metric Results and Remediation Options for a software model result from a Product Result record. On the License Metric Results page, the **Not allocated in use** column shows the number of rights that are used to license installations, but not allocated. When this value is greater than zero, remediation options **Create Allocations** and **Remove Unallocated** are displayed on the Remediation Options page. For more information, see [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md).
 
-![Remediation options for a SQL server](../image/main-remediation-options.png)
+\[Omitted image "main-remediation-options.png"\] Alt text: Remediation options for a SQL server
 
 The **Create Allocations** remediation option enables the SAM Manager to lock assignments for all entities \(device/user\) or individual entity, so that during future reconciliation runs, the license consumption occurs exactly as previously performed.
 
-![Create Allocations Remediation Option](../image/remediation-options.png)
+\[Omitted image "remediation-options.png"\] Alt text: Create Allocations Remediation Option
 
-The allocation will be added to the entitlement immediately after performing the remediation action. For more information about remediation options, see [View software model results](../task/t_ViewSWModelResults.md).
+The allocation will be added to the entitlement immediately after performing the remediation action. For more information about remediation options, see [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/t_ViewSWModelResults.md).
 
 ## Overriding license assignment to a host or VM
 
@@ -82,24 +83,24 @@ To override the license assignment:
 
 1.  In the Software Asset Workspace, navigate to **License Operations** &gt; **Licensing**.
 2.  Select **Software entitlements**.
-3.  Select the software entitlements for SQL Server. For example, select the Microsoft SQL Server 2017 Enterprise software entitlement.![Licensing Software entitlements.](../image/select-software-entitlement.png)
+3.  Select the software entitlements for SQL Server. For example, select the Microsoft SQL Server 2017 Enterprise software entitlement.\[Omitted image "select-software-entitlement.png"\] Alt text: Licensing Software entitlements.
 4.  Select the **Device Allocations** tab and then select **New**.
-5.  Add the Device Allocations details. For more information, see [Create device allocation](../task/create-device-allocation.md). When allocating license to the Host or VM, based on the value provided in the **Quantity** field, the Software Asset Management application determines the core count based on the following criteria:
+5.  Add the Device Allocations details. For more information, see [Create device allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/create-device-allocation.md). When allocating license to the Host or VM, based on the value provided in the **Quantity** field, the Software Asset Management application determines the core count based on the following criteria:
     -   If an exact number of cores isn’t provided, the Software Asset Management application automatically uses the actual core count of a machine for licensing purposes.
     -   If fewer cores than the actual machine is provided, the Software Asset Management application counts the exact number of cores present on the machine for licensing purposes.
     -   If more cores than the actual machine is provided, the Software Asset Management application uses the number you entered. However, the surplus is marked as Allocated not in use for licensing.
 
-Lets allocate one license to the Microsoft SQL Server 2017 Enterprise Software entitlement, and save the entitlement, then run software reconciliation. For more information, see [Run software reconciliation in the workspace](../task/run-recon-workspace.md).![Device allocation to the entitlement](../image/entitlement-device-allocation.png)
+Lets allocate one license to the Microsoft SQL Server 2017 Enterprise Software entitlement, and save the entitlement, then run software reconciliation. For more information, see [Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/run-recon-workspace.md).\[Omitted image "entitlement-device-allocation.png"\] Alt text: Device allocation to the entitlement
 
-Cluster 103 has 3 hosts each with 16 cores. In the previous example, the license allocation was adjusted to 1 for one entitlement. The Software Asset Management application assigns the host the correct licenses based on the number of cores.![Licenses allocated to the hosts](../image/entitlement-allocated-to.png)
+Cluster 103 has 3 hosts each with 16 cores. In the previous example, the license allocation was adjusted to 1 for one entitlement. The Software Asset Management application assigns the host the correct licenses based on the number of cores.\[Omitted image "entitlement-allocated-to.png"\] Alt text: Licenses allocated to the hosts
 
 The Software Asset Management Manager can check the license usage by the cluster. To check the license usage, navigate to **License usage** &gt; **License Metrics Result** &gt; **Licenses Required By**. Select the **Is Virtual** column value as **false** to verify that it’s licensed at the Host layer.
 
-![Is Virtual column in the Licenses Required By table.](../image/licenses-required-by.png)
+\[Omitted image "licenses-required-by.png"\] Alt text: Is Virtual column in the Licenses Required By table.
 
-You can customize the Licenses Required By page by adding columns such as **Allocated in use**, **Not allocated in use**, and **Allocation**. The Allocated in use column displays the count of rights that are allocated and are used to license installations. For more information about license usage by the cluster, see [View calculations for your licenses in workspace](../task/licenses-required-workspace.md).
+You can customize the Licenses Required By page by adding columns such as **Allocated in use**, **Not allocated in use**, and **Allocation**. The Allocated in use column displays the count of rights that are allocated and are used to license installations. For more information about license usage by the cluster, see [View calculations for your licenses in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/licenses-required-workspace.md).
 
-![Licenses Required By table displaying the allocated licenses.](../image/customized-licenses-required-table-view.png)
+\[Omitted image "customized-licenses-required-table-view.png"\] Alt text: Licenses Required By table displaying the allocated licenses.
 
 When allocating software licenses, follow the licensing rules supported by the publisher.
 
@@ -110,5 +111,5 @@ When allocating software licenses, follow the licensing rules supported by the p
 -   Avoid allocating licenses to a cluster directly. Instead, allocate them to the hosts or VMs within the cluster. When you allocate a license to a cluster, the allocated license number is shown in the **Allocated not in use** column.
 -   When the **Allocated not in use** column value is greater than zero, the **Remove Allocations** remediation option is automatically created for each unique license metric in the software model.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

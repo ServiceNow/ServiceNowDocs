@@ -2,6 +2,7 @@
 title: Customer Central API
 description: The Customer Central API provides endpoints to access customer information and configuration details.Returns customer information and configuration details for a specific customer context.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/cust\_central-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -19,9 +20,9 @@ Use this API to obtain information records \(cards\) that were previously genera
 
 You must have the admin or sn\_esm\_agent role to access this API. In addition, before this API is available in your instance you must activate the **com.sn\_csm\_customer\_central** plugin.
 
-For additional information, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-central.md).
+For additional information, see Customer Central.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## Customer Central - GET /cust\_central/custinfo/\{context\}/\{context\_instance\}/\{target\}
 
@@ -36,7 +37,7 @@ This endpoint returns all active records \(cards\) within the following Customer
 -   Report Configuration \[sn\_customercentral\_report\_config\]
 -   Report Group Configuration \[sn\_customercentral\_report\_group\_config\]
 
-You must define any additional configuration records that you need through the Customer Central interface. For details, see [Configure customer central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-customer-central.md).
+You must define any additional configuration records that you need through the Customer Central interface. For details, see Configure customer central.
 
 ### URL format
 
@@ -44,7 +45,7 @@ Versioned URL: `/api/sn_customercentral/{api_version}/cust_central/custinfo/{con
 
 Default URL: `/api/sn_customercentral/cust_central/custinfo/{context}/{context_instance}/{target}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -145,7 +146,7 @@ Default: 0
 
 ### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -170,7 +171,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -881,7 +882,7 @@ cards\_info.subheader\_fields.avatar
 
 </td><td>
 
-File name of the avatar associated with the specified**context\_instance**, such as the contact's avatar.![Avatar placement](../image/cust-central_avatar.png)
+File name of the avatar associated with the specified**context\_instance**, such as the contact's avatar.\[Omitted image "cust-central\_avatar.png"\] Alt text: Avatar placement
 
 Data type: String
 
@@ -891,7 +892,7 @@ cards\_info.subheader\_fields.subheader\_tags
 
 </td><td>
 
-List of tags associated with the record sub-header, such as escalation tags.![Sub-header tag placement](../image/cust-central_sub-header_tags.png)
+List of tags associated with the record sub-header, such as escalation tags.\[Omitted image "cust-central\_sub-header\_tags.png"\] Alt text: Sub-header tag placement
 
 Data type: Array \(content varies\)
 
@@ -911,7 +912,7 @@ cards\_info.subheader\_fields.title
 
 </td><td>
 
-Title to display on the sub-header.![Sub-header title placement](../image/cust-central_sub-header-title.png)
+Title to display on the sub-header.\[Omitted image "cust-central\_sub-header-title.png"\] Alt text: Sub-header title placement
 
 Data type: String
 

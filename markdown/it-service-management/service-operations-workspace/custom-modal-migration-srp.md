@@ -2,6 +2,7 @@
 title: Custom Modal Migration in Standard Record Page
 description: Modify the modal containers inside a record page in the Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/custom-modal-migration-srp.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -41,12 +42,12 @@ Standard Record Page \(SRP\) provides options to modify the different modals use
 
     -   Record Page Modals: Select this option to modify modals across all experiences.
     -   SOW Record Page Modals: Select this option to modify the modals used in Service Operations Workspace.
-6.  Select the ![Variants in SOW Record page modals.](../image/open-side-panel-tab.png) icon to open the variants provided.
+6.  Select the \[Omitted image "open-side-panel-tab.png"\] Alt text: Variants in SOW Record page modals. icon to open the variants provided.
 
-7.  Select the ![Create new page](../image/add-icon.png) icon to create a page or to add a new variant to a page.
+7.  Select the \[Omitted image "add-icon.png"\] Alt text: Create new page icon to create a page or to add a new variant to a page.
 
-    For more information about creating a page and variant, see [Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/learning-uib-by-example.md)
+    For more information about creating a page and variant, see 
 
 
-**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](../concept/srp-service-operations-workspace.md)
+**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
 

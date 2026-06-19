@@ -2,6 +2,7 @@
 title: SystemDocumentVersion - Scoped, Global
 description: The SystemDocumentVersion API provides methods for setting the values of a document's source version in the Versions \[ds\_document\_version\] table.Instantiates a SystemDocumentVersion object.Specifies the document record for this version.Sets the Type field of a document version.Sets the URL of a document version.Sets the number of a document version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SystemDocumentVersionBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,11 +16,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The SystemDocumentVersion API provides methods for setting the values of a document's source version in the Versions \[ds\_document\_version\] table.
 
-This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-services-landing-page.md).
+This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see Document Services.
 
-To create a document version, use the [DocumentVersionService API](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#).
+To create a document version, use the [DocumentVersionService API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SystemDocumentVersion - SystemDocumentVersion\(String docSysId\)
 
@@ -33,7 +34,7 @@ Instantiates a SystemDocumentVersion object.
 |----|-----------|
 |None| |
 
-The following example shows how to instantiate a SystemDocumentVersion object and create a document version. See also [DocumentVersionService](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#).
+The following example shows how to instantiate a SystemDocumentVersion object and create a document version. See also [DocumentVersionService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md).
 
 ```
 var versionDefinition = new sn_doc_services.SystemDocumentVersion('491efbee24187410f877a6fed1c2b0a9');
@@ -69,7 +70,7 @@ Specifies the document record for this version.
 |----|-----------|
 |None| |
 
-The following example shows how to set the name field of a document version. See also DocumentVersionService – [createDocumentVersion\(\)](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#).
+The following example shows how to set the name field of a document version. See also DocumentVersionService – [createDocumentVersion\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md).
 
 ```
 var versionDefinition = new sn_doc_services.SystemDocumentVersion();
@@ -130,7 +131,7 @@ Default: attachment
 |----|-----------|
 |None| |
 
-The following example shows how to set the type field and create a document version. See also [DocumentVersionService](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#).
+The following example shows how to set the type field and create a document version. See also [DocumentVersionService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md).
 
 ```
 var versionDefinition = new sn_doc_services.SystemDocumentVersion('491efbee24187410f877a6fed1c2b0a9');
@@ -162,7 +163,7 @@ Sets the URL of a document version.
 |----|-----------|
 |None| |
 
-The following example shows how to set the URL field as the source of a document version. See also [DocumentVersionService](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#).
+The following example shows how to set the URL field as the source of a document version. See also [DocumentVersionService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md).
 
 ```
 var versionDefinition = new sn_doc_services.SystemDocumentVersion('491efbee24187410f877a6fed1c2b0a9');
@@ -194,7 +195,7 @@ Sets the number of a document version.
 |----|-----------|
 |None| |
 
-The following example shows how to set the version number and create a document version. See also [DocumentVersionService](../../DocumentVersionService/concept/DocumentVersionServiceBothAPI.md#).
+The following example shows how to set the version number and create a document version. See also [DocumentVersionService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentVersionServiceBothAPI.md).
 
 ```
 var versionDefinition = new sn_doc_services.SystemDocumentVersion('491efbee24187410f877a6fed1c2b0a9');

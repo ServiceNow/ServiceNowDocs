@@ -2,6 +2,7 @@
 title: Define assignment rules for incidents
 description: Define assignment rules to identify the right group or the user which is skilled to work on an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_DefinAnAssignRuleIncidents.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -23,10 +24,10 @@ Role required: assignment\_rule\_admin or admin
 
 1.  Navigate to **All** &gt; **System Policy** &gt; **Rules** &gt; **Assignment**.
 
-2.  Create assignment rules by following the steps provided in [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_AssignmentModuleRule.md).
+2.  Create assignment rules by following the steps provided in .
 
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Incident Management](../concept/incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-configuration.md)
 

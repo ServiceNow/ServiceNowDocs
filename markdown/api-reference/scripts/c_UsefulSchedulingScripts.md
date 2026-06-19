@@ -2,6 +2,7 @@
 title: Scheduling script use cases
 description: A business rule script specifies the actions that the business rule takes. Scripts commonly include predefined global variables to reference items in your system, such as the current record. Global variables are available to all business rules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/c\_UsefulSchedulingScripts.html
 release: australia
 product: Scripts
 classification: scripts
@@ -21,7 +22,7 @@ A business rule script specifies the actions that the business rule takes. Scrip
 
 Type: Before update/insert business rule.
 
-Description: A business duration calculates the open to close duration on an incident based on the particular [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_UseSchedules.md). If there is no schedule specified, the script will simply use the first schedule returned by the query.
+Description: A business duration calculates the open to close duration on an incident based on the particular Creating and using schedules. If there is no schedule specified, the script will simply use the first schedule returned by the query.
 
 Script example:
 
@@ -86,5 +87,5 @@ You can also utilize the system's scripting functionality available for server-s
 
 You can use options on the Business Rules form to build conditions, set field values, and display alert messages without needing to write a script.
 
-**Parent Topic:**[Useful scripts](usefulScripts.md)
+**Parent Topic:**[Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/usefulScripts.md)
 

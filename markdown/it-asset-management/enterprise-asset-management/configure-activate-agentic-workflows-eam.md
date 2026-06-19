@@ -2,6 +2,7 @@
 title: Configure and activate agentic workflows for Enterprise Asset Management
 description: Configure and activate the agentic workflows that you want to use in the Enterprise Asset Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/configure-activate-agentic-workflows-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -18,7 +19,7 @@ Configure and activate the agentic workflows that you want to use in the Enterpr
 
 ## Before you begin
 
-Role required: sn.aia\_admin role or an appropriate role that is defined in your [security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md)
+Role required: sn.aia\_admin role or an appropriate role that is defined in your security controls
 
 ## Procedure
 
@@ -26,25 +27,25 @@ Role required: sn.aia\_admin role or an appropriate role that is defined in your
 
     -   Create a new workflow and configure the settings according to your requirements.
 
-        For detailed instructions, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
+        For detailed instructions, see .
 
     -   Duplicate an existing workflow and adjust the settings according to your requirements.
 
-        For detailed instructions, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md).
+        For detailed instructions, see .
 
     -   Modify an existing workflow according to your requirements.
 
-        For detailed instructions, see [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md).
+        For detailed instructions, see .
 
-    **Note:** If you want to run an existing agentic workflow as is, skip this step and proceed directly to [step 3](configure-activate-agentic-workflows-eam.md#trigger).
+    **Note:** If you want to run an existing agentic workflow as is, skip this step and proceed directly to [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/configure-activate-agentic-workflows-eam.md).
 
 2.  Test the customized agentic workflow to analyze its performance while it executes the instructions that you have defined.
 
-    -   To test the agentic workflow manually, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
-    -   To test the agentic workflow automatically against various execution log datasets, see [Execute an agentic evaluation run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md).
+    -   To test the agentic workflow manually, see .
+    -   To test the agentic workflow automatically against various execution log datasets, see .
 3.  Activate the trigger to invoke the agentic workflow automatically.
 
-    For detailed instructions, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
+    For detailed instructions, see .
 
     **Note:** If you do not activate the trigger, you must invoke the agentic workflow manually.
 

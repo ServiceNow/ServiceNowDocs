@@ -2,6 +2,7 @@
 title: Mitigation controls to vulnerable item mapping
 description: Mitigation controls data is mapped to vulnerable items. You can view a list of mitigation controls that are used to mitigate the vulnerabilities and underlying Common Vulnerabilities and Exposures \(CVEs\) associated with the vulnerable items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-mitigation-vit-mapping.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -39,5 +40,5 @@ Values:
 
 **\[Risk score\]****\[is\]****\[60\]**
 
-See [Define fields and weights for the risk rule for Vulnerability Response Risk Calculators](../../vulnerability-response/task/vuln-calc-define-risk-rule-fields.md) for more information.
+See [Define fields and weights for the risk rule for Vulnerability Response Risk Calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/vulnerability-response/vuln-calc-define-risk-rule-fields.md) for more information.
 

@@ -2,6 +2,7 @@
 title: Playbooks system properties
 description: Review the system properties for Playbooks. You can configure these properties to control how the system handles Playbooks events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/process-automation-designer-system-properties.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

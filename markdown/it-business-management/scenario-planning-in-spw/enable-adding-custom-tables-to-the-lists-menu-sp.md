@@ -2,6 +2,7 @@
 title: Enable adding custom tables to the Lists menu
 description: Add the New action button to the APW List Menu Configuration page, so that you can add custom tables to the Lists menu in Strategic Planning Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/enable-adding-custom-tables-to-the-lists-menu-sp.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -27,7 +28,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values, see [Action Assignment form](../../portfolio-planning/reference/action-assignment-form.md).
+    For a description of the field values, see [Action Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/action-assignment-form.md).
 
 4.  Select **Submit**.
 
@@ -38,5 +39,5 @@ The **New** action button is added to the APW List Menu Configuration page.
 
 ## What to do next
 
-[Customize Lists in Strategic Planning Workspace](customize-lists-strategic-planning-workspace.md).
+[Customize Lists in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/customize-lists-strategic-planning-workspace.md).
 

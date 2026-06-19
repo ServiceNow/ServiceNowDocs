@@ -2,6 +2,7 @@
 title: Condition Workflow activities
 description: Condition activities provide conditional branching and logical operation functionality for workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_ConditionActivites.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

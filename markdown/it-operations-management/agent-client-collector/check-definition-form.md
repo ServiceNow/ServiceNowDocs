@@ -2,6 +2,7 @@
 title: Agent Client Collector check definition page
 description: The fields to be configured on the Check Definition page, when creating a check definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/check-definition-form.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -177,10 +178,10 @@ Plugins
 Select the plugins to be associated with the check. Once this is done, the plugins download before the check executes.
 
 </td></tr></tbody>
-</table>-   **[Check definition form parameters tab](check-definition-parameters-tab.md)**  
+</table>-   **[Check definition form parameters tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/check-definition-parameters-tab.md)**  
 The Parameters tab definitions for the **Command** field on the check definition form.
--   **[Test check dialog box fields](test-check-dialog-box.md)**  
+-   **[Test check dialog box fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/test-check-dialog-box.md)**  
 The dialog box fields when testing a check definition.
 
-**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

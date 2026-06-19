@@ -2,6 +2,7 @@
 title: Import application or application-customization from source control
 description: Import an app or app customization from a source control repository into App Engine Studio \(AES\) to continue developing it on this instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/source-control-import.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -21,7 +22,7 @@ Import an app or app customization from a source control repository into App Eng
 -   Verify that the non-production instance has network access to the Git repository.
 -   Verify that the repository contains a valid application.
 -   Ensure that users add the email address to their respective Users table \[sys\_user\] record that they use in their commits to the Git repository.
--   Learn more about application-customizations [Manage customizations to applications](../../applications/task/manage-customizations-store-apps.md).
+-   Learn more about application-customizations [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/manage-customizations-store-apps.md).
 
 ## About this task
 
@@ -33,7 +34,7 @@ The source control integration does not support importing an application on a pr
 
 2.  Select **Import app**.
 
-    ![Import an app from source control into App Engine Studio](../image/source-control-import-form-purple.png)
+    \[Omitted image "source-control-import-form-purple.png"\] Alt text: Import an app from source control into App Engine Studio
 
 3.  On the form, fill in the fields.
 
@@ -79,7 +80,7 @@ MID Server Name
 
 Select an existing MID Server to link to a Git repository stored behind your corporate firewall.**Note:** Use a separate MID Server to prevent conflicts with Discovery activities.
 
-See [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -95,7 +96,7 @@ Credential
 
 </td><td>
 
-Select the credential for your Git repository. For more information, see [Getting started with Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md).**Note:** If you select the ssh network protocol, enter a valid credential of the SSH Private Key type. If you select the https protocol, enter a valid credential of the Basic Auth Credentials type.
+Select the credential for your Git repository. For more information, see Getting started with Credentials.**Note:** If you select the ssh network protocol, enter a valid credential of the SSH Private Key type. If you select the https protocol, enter a valid credential of the Basic Auth Credentials type.
 
 </td></tr></tbody>
 </table>    **Note:** All application developers on the instance share the credential used to link a Git repository to an application.
@@ -114,12 +115,12 @@ Select the credential for your Git repository. For more information, see [Gettin
 -   Review the upgrade logs for any sanitization applied to application files during the import.
 -   Select the imported application to edit it.
 
-**Parent Topic:**[Use AES with a Git source control repository](../concept/aes-source-control-use.md)
+**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-use.md)
 
 **Related topics**  
 
 
-[MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md)
+[bundle-platcap.mid-server-landing]
 
-[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-getting-started.md)
+[bundle-psec.credentials-getting-started]
 

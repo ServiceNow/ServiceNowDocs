@@ -2,6 +2,7 @@
 title: Using Group By for classification
 description: Use APIs to simultaneously submit multiple classification solutions for training based on the Group By field.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/using-group-by-for-classification.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence
@@ -73,11 +74,11 @@ For more context regarding this example and the general usage of Machine Learnin
 **Related topics**  
 
 
-[DatasetDefinition - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md)
+[bundle-crapiref.DatasetDefinitionAPI]
 
-[ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+[bundle-crapiref.ClassificationSolutionAPI]
 
-[ClassificationSolutionStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md)
+[bundle-crapiref.ClassificationSolutionStoreAPI]
 
-[ClassificationSolutionVersion - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md)
+[bundle-crapiref.ClassificationSolutionVersionAPI]
 

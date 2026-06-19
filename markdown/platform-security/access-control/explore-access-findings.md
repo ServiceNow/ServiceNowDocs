@@ -2,6 +2,7 @@
 title: Explore Access findings
 description: Access Findings runs eight out-of-box access checks against your instance on a daily schedule, letting you know when misconfigurations are detected. It also provides a complete remediation workflow that includes AI-powered guidance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/explore-access-findings.html
 release: australia
 product: Access Control
 classification: access-control

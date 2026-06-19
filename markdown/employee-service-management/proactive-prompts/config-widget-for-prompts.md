@@ -2,6 +2,7 @@
 title: Add and configure the prompt widget
 description: Add and configure the prompt widget to access Proactive Prompts on a portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/config-widget-for-prompts.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -17,7 +18,7 @@ Add and configure the prompt widget to access Proactive Prompts on a portal.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_pp.admin
 
 ## Procedure
 
@@ -25,7 +26,7 @@ Role required: admin
 
 2.  Search and select a page to add the prompt widget.
 
-    You can also create a new page and then add the widget. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/t_ConfigureAPage.md) and [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/service-portal-widgets.md).
+    You can also create a new page and then add the widget. For more information, see Create and edit a page using the Service Portal Designer and Service Portal widgets.
 
 3.  Select the **Open in Designer** related link.
 
@@ -33,13 +34,13 @@ Role required: admin
 
 4.  In the Widgets tab, search for prompts and drag the prompts widget on to the Edit area.
 
-5.  Select the \(![Pencil icon](../../customer-service-management/image/icon-pencil-ac.png)\) edit icon on the top-right corner of the widget.
+5.  Select the \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\) edit icon on the top-right corner of the widget.
 
 6.  Edit the form.
 
     |Field|Description|
     |-----|-----------|
-    |Prompt categories|Categories to pull and add category-specific prompts on the prompt widget. For information on signal categories, see [Configure signal categories in Proactive Prompts](proactive-prompts-signal-catergories.md).|
+    |Prompt categories|Categories to pull and add category-specific prompts on the prompt widget. For information on signal categories, see [Configure signal categories in Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-catergories.md).|
     |Persona|Persona to filter and display the prompts on the widget. The options are, Manager, or Employee.|
     |Title|Title to be displayed on the widget.|
     |Show Menu|Displays the Manage Preferences menu on the widget that enables you to turn on or off the display of the prompts individually.|

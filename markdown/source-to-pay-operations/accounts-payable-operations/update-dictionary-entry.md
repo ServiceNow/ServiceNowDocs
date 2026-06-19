@@ -1,19 +1,21 @@
 ---
 title: Configure Antivirus Scanning
-description: Configure Antivirus Scanning across your instance and at the table level.
+description: Configure Antivirus Scanning exclusions at the instance and table levels.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/update-dictionary-entry.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice automation, AP automation, Antivirust scanning]
 breadcrumb: [Components installed with Accounts Payable Invoice Processing, Install Accounts Payable Invoice Processing, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure Antivirus Scanning
 
-Configure Antivirus Scanning across your instance and at the table level.
+Configure Antivirus Scanning exclusions at the instance and table levels.
 
 ## Before you begin
 

@@ -2,6 +2,7 @@
 title: Create delegation rule categories
 description: Create categories or sets of granular delegation rules that make delegating large batches of tasks easy and efficient for your employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/granular-delegation/create-delegation-rule-categories.html
 release: australia
 product: Granular Delegation
 classification: granular-delegation
@@ -17,7 +18,7 @@ Create categories or sets of granular delegation rules that make delegating larg
 
 ## Before you begin
 
-Role required: admin
+Role required: delegation\_admin
 
 ## Procedure
 
@@ -39,14 +40,14 @@ Role required: admin
 
 5.  Create or assign existing delegation rules to the delegation rule category:
 
-    -   Under the Delegation Rule tab, click **New**. Follow the steps to [Create delegation rules](create-delegation-rules.md).
+    -   Under the Delegation Rule tab, click **New**. Follow the steps to [Create delegation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-rules.md).
     -   Click **Edit** to select from existing delegation rules.
 6.  Click **Update**.
 
 
 ## What to do next
 
-Delegate assigned tasks for a specific period of time. See [Create a delegate](create-delegation-admin.md).
+Delegate assigned tasks for a specific period of time. See [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-admin.md).
 
-Employees can now delegate their assigned tasks to other employees. See [Delegate on-demand tasks](../concept/granular-delegation-use.md#).
+Employees can now delegate their assigned tasks to other employees. See [Delegate on-demand tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/granular-delegation-use.md).
 

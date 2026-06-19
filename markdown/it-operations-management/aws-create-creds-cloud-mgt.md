@@ -2,7 +2,10 @@
 title: Configure access to the AWS accounts using permanent AWS credentials
 description: To securely access data on your provider account, the Discovery process must present appropriate credentials. To make the credentials available to Discovery and Cloud Provisioning and Governance, you first create a user with programmatic access in the AWS Management Console. You then securely store the credentials in a service account at ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aws-create-creds-cloud-mgt.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -68,7 +71,7 @@ Attach one or more policies …
 
 </td><td>
 
-Select the appropriate policy. **Note:** The **AdministratorAccess** policy has the most powerful permission level, including permission to provision cloud resources. The policy enables the same access that would be granted to the instance if you were not using IAM and used your AWS account Access Key ID and Secret Access Key. You might instead prefer to create a policy or combine multiple policies to grant the appropriate permission level. See [Control AWS access and permissions using policies](aws-create-user-policy-cloud-mgt.md) for details.
+Select the appropriate policy. **Note:** The **AdministratorAccess** policy has the most powerful permission level, including permission to provision cloud resources. The policy enables the same access that would be granted to the instance if you were not using IAM and used your AWS account Access Key ID and Secret Access Key. You might instead prefer to create a policy or combine multiple policies to grant the appropriate permission level. See [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aws-create-user-policy-cloud-mgt.md) for details.
 
 </td></tr></tbody>
 </table>    6.  On the Review page, verify your selections and then select **Create user**.
@@ -131,7 +134,7 @@ The **Secret access key** that you generated on the AWS Management Console, such
 
 ## What to do next
 
-Create an AWS service account on the ServiceNow AI Platform. For more information, see [Create AWS service accounts](create-aws-service-accounts.md).
+Create an AWS service account on the ServiceNow AI Platform. For more information, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/create-aws-service-accounts.md).
 
-**Parent Topic:**[Setting up AWS service accounts](../concept/setup-aws-service-accounts.md)
+**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/setup-aws-service-accounts.md)
 

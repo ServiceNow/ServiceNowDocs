@@ -2,6 +2,7 @@
 title: Cloud Action Library actions reference
 description: Cloud Action Library \(CAL\) offers various actions that you can use to build the Integration Hub subflows for Cloud Configuration Governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/ccg-cal-actions.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -34,5 +35,5 @@ Cloud Action Library offers the following actions:
 
 The Cloud Action Library actions are available under the **Default** and **External** categories.
 
-**Parent Topic:**[Cloud Configuration Governance reference](ccg-reference.md)
+**Parent Topic:**[Cloud Configuration Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/ccg-reference.md)
 

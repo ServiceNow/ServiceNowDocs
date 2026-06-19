@@ -2,6 +2,7 @@
 title: Add a record producer
 description: A record producer enables users to create task-based records, such as an incident record, in apps you create in App Engine Studio \(AES\) without creating a request. It enables a better end-user experience by standardizing requests using a simplified form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-a-record-producer.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,9 +18,9 @@ A record producer enables users to create task-based records, such as an inciden
 
 ## Before you begin
 
-Create a data table that the record producer will add a new record to when a user fills out the form. For more information, [Create a data model for your application](../concept/add-data.md).
+Create a data table that the record producer will add a new record to when a user fills out the form. For more information, [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-data.md).
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -85,7 +86,7 @@ Location
 
 -   Catalogs: Name of the catalog the record producer belongs to.
 -   Categories: Available categories that can be linked with the record producer.
--   Topics: Available topics that can be connected to the standard catalog item. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.md).
+-   Topics: Available topics that can be connected to the standard catalog item. Find out more about topics in .
 
 
 </td></tr><tr><td>
@@ -94,9 +95,9 @@ Questions
 
 </td><td>
 
-Questions for the record producer.From the **Insert new question** list, you can include additional question sets, questions, deactivated questions, single-column container, two-column container, and line break. For information on creating a question and supported question types, see [Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-question-cat-builder.md).
+Questions for the record producer.From the **Insert new question** list, you can include additional question sets, questions, deactivated questions, single-column container, two-column container, and line break. For information on creating a question and supported question types, see .
 
- You can also add dynamic form behavior for a question. For information on adding dynamic form behavior, see [Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/edit-question-cat-builder.md).
+ You can also add dynamic form behavior for a question. For information on adding dynamic form behavior, see .
 
  **Note:**
 
@@ -153,10 +154,10 @@ Review and submit the record producer.
 
 ## What to do next
 
-For the record producer you want to edit, select the menu icon \(![Menu icon](../image/menu-icon-purple.png)\) and select **Edit**.
+For the record producer you want to edit, select the menu icon \(\[Omitted image "menu-icon-purple.png"\] Alt text: Menu icon\) and select **Edit**.
 
--   **[Sample record producer](../concept/record-producers-example.md)**  
+-   **[Sample record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/record-producers-example.md)**  
 A record producer experience that you create in App Engine Studio \(AES\) is a service catalog form that generates a task record, such as an incident, instead of a request.
 
-**Parent Topic:**[Add an application experience](../concept/add-experience.md)
+**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
 

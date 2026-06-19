@@ -2,6 +2,7 @@
 title: Create a retrospective board for a sprint in CWM
 description: When marking a sprint complete, choose to create a sprint retrospective board for your team to collaborate and reflect on the recent sprint in Collaborative Work Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-a-retrospective-board-for-sprint-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -29,7 +30,7 @@ Role required: sn\_cwm.cwm\_user
 
 4.  From the sprint header, select **Complete Sprint**.
 
-    ![Select Complete Sprint from the section of the sprint that you want to mark complete.](../images/cwm-sprint-complete.png)
+    \[Omitted image "cwm-sprint-complete.png"\] Alt text: Select Complete Sprint from the section of the sprint that you want to mark complete.
 
 5.  Review the details of completed and open items for this sprint.
 
@@ -41,16 +42,16 @@ Role required: sn\_cwm.cwm\_user
 
 9.  Select a template to apply to this Board.
 
-    By default, the Agile Retrospective template is applied. If you want to create a different template depending on your requirements, see [Templates in CWM for Boards and Docs](../concept/templates-in-cwm-for-spaces-boards-and-docs.md).
+    By default, the Agile Retrospective template is applied. If you want to create a different template depending on your requirements, see [Templates in CWM for Boards and Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/templates-in-cwm-for-spaces-boards-and-docs.md).
 
-    ![Choose a template to create a retro board for this sprint.](../images/cwm-sprint-retro-board-create.png)
+    \[Omitted image "cwm-sprint-retro-board-create.png"\] Alt text: Choose a template to create a retro board for this sprint.
 
 10. Select **Complete Sprint**.
 
 
 ## Result
 
-A new retrospective Board is created for the sprint that is just marked complete within the same Space. You can navigate to the new board from the success message or from the left navigation panel.![Sample retro board for a sprint.](../images/cwm-sprint-retro-sample-board.png)
+A new retrospective Board is created for the sprint that is just marked complete within the same Space. You can navigate to the new board from the success message or from the left navigation panel.\[Omitted image "cwm-sprint-retro-sample-board.png"\] Alt text: Sample retro board for a sprint.
 
-**Parent Topic:**[Sprint planning in CWM](../concept/agile-sprint-planning-in-cwm.md)
+**Parent Topic:**[Sprint planning in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/agile-sprint-planning-in-cwm.md)
 

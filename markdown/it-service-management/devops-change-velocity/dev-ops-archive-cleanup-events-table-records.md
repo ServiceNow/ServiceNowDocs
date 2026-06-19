@@ -2,6 +2,7 @@
 title: Inbound event table data archiving and cleanup
 description: Use table cleaners on the inbound events table to purge event data records beyond a specified period. Configure a retention policy with table rotation on the auto-flush form to manage table size growth and archiving data beyond the specified duration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/dev-ops-archive-cleanup-events-table-records.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -17,13 +18,13 @@ Use table cleaners on the inbound events table to purge event data records beyon
 
 ## Data management
 
-The data management feature allows you to enable archiving and purging of inbound event data. Database rotation and table cleanup configurations are enabled to ensure that eight weeks of event data is retained. Instance performance is preserved using ServiceNow AI Platform features such as Database rotation, [table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_TableRotation.md), and [table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/table-cleanup.md). A scheduled job is auto-enabled two weeks after you upgrade.
+The data management feature allows you to enable archiving and purging of inbound event data. Database rotation and table cleanup configurations are enabled to ensure that eight weeks of event data is retained. Instance performance is preserved using ServiceNow AI Platform features such as Database rotation, table rotation, and table cleanup. A scheduled job is auto-enabled two weeks after you upgrade.
 
 ## Table rotation on processed inbound events table
 
 The DevOps processed inbound events \[sn\_devops\_processed\_inbound\_event\_list.do\] table contains copies of event data from the DevOps inbound events \[sn\_devops\_inbound\_list.do\] table, that is in state '**processed**' and '**ignored**'.
 
-The processed inbound events table has the table rotation feature enabled. In all, there are eight preconfigured shards, each containing a week's event data from the DevOps inbound event table. By default, once you have 56 days \(7 days\) \(Duration\) \*8 shards \(Rotations\) of data in the processed inbound table, table rotation is activated. For more information on applying table rotation, see [Apply table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ApplyTableRotation.md)
+The processed inbound events table has the table rotation feature enabled. In all, there are eight preconfigured shards, each containing a week's event data from the DevOps inbound event table. By default, once you have 56 days \(7 days\) \(Duration\) \*8 shards \(Rotations\) of data in the processed inbound table, table rotation is activated. For more information on applying table rotation, see Apply table rotation
 
 **Tip:** To modify table rotation configuration, navigate to **System Definitions** &gt; **Table Rotation** and open the record for DevOps processed inbound events table.
 
@@ -62,5 +63,5 @@ Events in states **processed** and **ignored** are backed up and copied to the p
 -   Two weeks have passed since the scheduled job is active.
 -   The processed inbound event table has event data older than 7 weeks.
 
-**Parent Topic:**[Managing DevOps Change Velocity](using-devops-change-velocity.md)
+**Parent Topic:**[Managing DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/using-devops-change-velocity.md)
 

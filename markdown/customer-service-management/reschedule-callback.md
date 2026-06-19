@@ -2,7 +2,10 @@
 title: Reschedule a callback
 description: Reschedule callbacks on behalf of customers when the original scheduled time is no longer suitable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/reschedule-callback.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ Reschedule is visible only to agents with the sn\_omni\_callback.callback\_write
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace.**.
 
-2.  Select the List icon \(![List icon to view callback list](../image/list-icon-callback.png)\)
+2.  Select the List icon \(\[Omitted image "list-icon-callback.png"\] Alt text: List icon to view callback list\)
 
 3.  In the Callbacks section, select **Scheduled callbacks.**
 

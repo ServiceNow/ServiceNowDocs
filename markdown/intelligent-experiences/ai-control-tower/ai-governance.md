@@ -2,6 +2,7 @@
 title: AI Control Tower dashboard
 description: The AI Control Tower dashboard displays a comprehensive overview of the AI status, AI inventory, and other AI related metrics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-governance.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -70,7 +71,7 @@ Risk and compliance user
 
 ## AI Control Tower Home
 
-The AI Control Tower home view on the dashboard features recommendations for actions at the top displaying task statuses, pending asset reviews, and newly added AI systems. The home page displays the [Overview tab in AI Control Tower](overview-tab-in-ai-control-tower.md), [AI strategy tab in AI Control Tower](ai-strategy-ai-control-tower.md), [AI asset inventory tab in AI Control Tower](ai-asset-inventory.md), [Value tab in AI Control Tower](aict-value-tab.md), [Adoption tab in AI Control Tower](aict-adoption-tab.md), [Risk and compliance tab in AI Control Tower](risk-compliance-tab-aict.md), [AI cases tab in AI Control Tower](ai-cases-tab-aict.md) and [Security &amp; Privacy tab in AI Control Tower](security-privacy-tab.md) tabs.
+The AI Control Tower home view on the dashboard features recommendations for actions at the top displaying task statuses, pending asset reviews, and newly added AI systems. The home page displays the [Overview tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/overview-tab-in-ai-control-tower.md), [AI strategy tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-strategy-ai-control-tower.md), [AI asset inventory tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-asset-inventory.md), [Value tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/aict-value-tab.md), [Adoption tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/aict-adoption-tab.md), [Risk and compliance tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/risk-compliance-tab-aict.md), [AI cases tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-cases-tab-aict.md) and [Security &amp; privacy tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/security-privacy-tab.md) tabs.
 
 Each of these tabs includes widgets, and you can explore the data within each widget in more detail. For instance, the AI system trend widget displays trends based on historical data about AI system deployments. Similarly, the AI risk classification widget shows data according to the default risk classification settings for your skills.
 

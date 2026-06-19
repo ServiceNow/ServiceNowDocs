@@ -2,6 +2,7 @@
 title: Priority matrix for actions
 description: Use the priority matrix to see how priority is calculated based on impact and urgency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/priority-matrix-actions.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -25,5 +26,5 @@ Use the priority matrix to see how priority is calculated based on impact and ur
 |4 - Operations|2 - This shift|3 - Today|4 - Within 7 days|5 - Within 30 days|
 |5 - Other|3 - Today|4 - Within 7 days|5 - Within 30 days|5 - Within 30 days|
 
-**Parent Topic:**[Action Management](../concept/industrial-action-management.md)
+**Parent Topic:**[Action Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-action-management.md)
 

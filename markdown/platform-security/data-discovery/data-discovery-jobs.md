@@ -2,6 +2,7 @@
 title: Data Discovery jobs
 description: Data Discovery reviews your targeted information using user-defined data patterns and target tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/data-discovery-jobs.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -15,7 +16,7 @@ breadcrumb: [Exploring Data Discovery \(Classic\), Data Discovery, Platform Priv
 
 Data Discovery reviews your targeted information using user-defined data patterns and target tables.
 
-Data Discovery works by first scheduling a job in the **Data Discovery Job** section. When a scheduled job runs, all active data patterns are searched for on the current target tables. For more information on creating and configuring a Data Discovery job, see [Configure a Data Discovery job](../task/configure-data-discovery-jobs.md).
+Data Discovery works by first scheduling a job in the **Data Discovery Job** section. When a scheduled job runs, all active data patterns are searched for on the current target tables. For more information on creating and configuring a Data Discovery job, see [Configure a Data Discovery job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/configure-data-discovery-jobs.md).
 
 **Note:** Sample Scan jobs scan up to 10,000 records are scanned per table per pattern.
 
@@ -23,7 +24,7 @@ Data Discovery works by first scheduling a job in the **Data Discovery Job** sec
 
 ## Data Discovery data patterns
 
-The **Data Patterns** section shows all current data patterns, both active and inactive. A data pattern is a regular expression used to match sensitive data. For more information on how to access and configure data patterns, see [Configure Data Discovery patterns](../task/configure-data-discovery-patterns.md). The **Active Data Patterns** section shows only active patterns. Inactive patterns don’t appear.
+The **Data Patterns** section shows all current data patterns, both active and inactive. A data pattern is a regular expression used to match sensitive data. For more information on how to access and configure data patterns, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/configure-data-discovery-patterns.md). The **Active Data Patterns** section shows only active patterns. Inactive patterns don’t appear.
 
 ## Target tables
 
@@ -61,5 +62,5 @@ The following tables aren’t supported:
 
 ## Granular Configuration
 
-The [Granular Configuration](../task/granular-configuration.md) tool enables more specific and fine tuned controls for discovering sensitive data in a table. However there are key differences in its operation compared to a traditional data discovery job. A granular configuration scans only specified columns of a table for discovery, reporting its findings by the record. Findings from the scan of Granular Configurations, called Granular Findings have their actions specified per record, and require the data\_privacy\_admin role to be anonymized.
+The [Granular Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/granular-configuration.md) tool enables more specific and fine tuned controls for discovering sensitive data in a table. However there are key differences in its operation compared to a traditional data discovery job. A granular configuration scans only specified columns of a table for discovery, reporting its findings by the record. Findings from the scan of Granular Configurations, called Granular Findings have their actions specified per record, and require the data\_privacy\_admin role to be anonymized.
 

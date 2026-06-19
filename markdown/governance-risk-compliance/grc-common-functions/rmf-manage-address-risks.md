@@ -2,6 +2,7 @@
 title: Manage and address risks
 description: Review and manage all risks stemming from risk statements having the content source of NIST 800-53.r4.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/rmf-manage-address-risks.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,7 +18,7 @@ Review and manage all risks stemming from risk statements having the content sou
 
 ## Before you begin
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 Role required: sn\_irm\_nist\_rmf.security\_accessor or sn\_irm\_nist\_rmf.risk\_executive
 
@@ -30,5 +31,5 @@ Role required: sn\_irm\_nist\_rmf.security\_accessor or sn\_irm\_nist\_rmf.risk\
 3.  Manage and address any risks following the standard approach outlined in the Risk Management application.
 
 
-**Parent Topic:**[Assess controls, risks, issues, and remediation tasks](../concept/rmf-assess.md)
+**Parent Topic:**[Assess controls, risks, issues, and remediation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/rmf-assess.md)
 

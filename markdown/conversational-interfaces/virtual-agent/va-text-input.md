@@ -2,6 +2,7 @@
 title: Text user input control
 description: The Text user input control in a Virtual Agent topic prompts the user for a text string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-text-input.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -56,7 +57,7 @@ Detail description
 
 </td><td>
 
-Description of the information that you need from users. If the **Allow automatic slot filling** toggle is deactivated, you can create a dynamic detail description by selecting the Data Pill Picker icon ![](../images/variable-reference-picker.png) to define conditions, or select the Open Editor icon ![](../images/icon-script.png) to enter a script. If the **Allow automatic slot filling** toggle is activated, you can only enter a static description.
+Description of the information that you need from users. If the **Allow automatic slot filling** toggle is deactivated, you can create a dynamic detail description by selecting the Data Pill Picker icon \[Omitted image "variable-reference-picker.png"\] Alt text: to define conditions, or select the Open Editor icon \[Omitted image "icon-script.png"\] Alt text: to enter a script. If the **Allow automatic slot filling** toggle is activated, you can only enter a static description.
 
 </td></tr><tr><td>
 
@@ -73,7 +74,7 @@ Text format that is validated when a user enters certain text items. If the user
 -   URL: Web address format.
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format is not entered.
 
-For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r-IPAddressFieldType.md).
+For phone and IP address format examples, see E.164 phone formats and IP address field types.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -136,11 +137,11 @@ Input prompt
 
 </th></tr></thead><tbody><tr><td>
 
-![All basic Text user input fields are openly available. Select any of the advanced options to toggle them open individually.](../images/va-text-input-llm-3.png)
+\[Omitted image "va-text-input-llm-3.png"\] Alt text: All basic Text user input fields are openly available. Select any of the advanced options to toggle them open individually.
 
 </td><td>
 
-![Web client showing input prompt. The text reads, "Could you please provide your first service catalog item?"](../images/va-text-input-web-llm.png "Web UI Text user input prompt")
+\[Omitted image "va-text-input-web-llm.png"\] Alt text: Web client showing input prompt. The text reads, "Could you please provide your first service catalog item?"
 
 </td></tr></tbody>
 </table>## Text user input control properties for NLU topic discovery
@@ -192,7 +193,7 @@ Text format that is validated when a user enters certain text items. If the user
 -   URL: Web address format.
 -   Custom: A script that provides a validation rule for a custom text format. The script should include related error messages that are displayed when the expected format is not entered.
 
-For phone and IP address format examples, see [E.164 phone formats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md) and [IP address field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r-IPAddressFieldType.md).
+For phone and IP address format examples, see E.164 phone formats and IP address field types.
 
 </td></tr><tr><td>
 
@@ -231,7 +232,7 @@ The method digest algorithm based on the standard WS-security standard. Choose o
 -   **SHA-256 \(lower case\)**
 -   **SHA-1 \(lower case\)**
 
-For more information about the WS-security standards, see [WS-Security properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ws-security-properties.md).
+For more information about the WS-security standards, see WS-Security properties.
 
 </td></tr><tr><td>
 
@@ -324,7 +325,7 @@ No-code condition statement or low-code script that specifies a condition for le
 |Mobile UI|Not supported|Supported|None.|
 |Now Assist panel|Not supported|Supported|None.|
 |Microsoft Teams|Supported|Supported|None.|
-|Google chat|Supported|Supported|None.|
+|Google Chat|Supported|Supported|None.|
 |Slack|Not supported|Supported|Slack users can edit text previously entered in a conversation. However, Virtual Agent processes messages as they are first entered. If aSlack user edits text input, such as a comment to update a case, then Virtual Agent does not evaluate the edited update.|
 |Workplace|Not supported|Supported|None.|
 |Facebook Messenger|Not supported|Supported|The maximum character limit is 5000 characters.|
@@ -335,5 +336,5 @@ No-code condition statement or low-code script that specifies a condition for le
 |Apple Messages for Business|Not supported|Supported|None.|
 |Alexa \(Voice\)|Not supported|Supported|For screen devices, character limits may apply. For more information, see the [Alexa developer documentation](https://developer.amazon.com/en-US/docs/alexa/custom-skills/display-interface-reference.html).|
 
-**Parent Topic:**[Assistant Designer user input controls](va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

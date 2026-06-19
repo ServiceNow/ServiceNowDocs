@@ -2,6 +2,7 @@
 title: Enable mapping for Cloud Os Image in AWS
 description: Enable the sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image system property to add Cloud Os Image data to the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table instead of adding the data to the Image \[cmdb\_ci\_os\_template\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-map-cloud-data.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -17,7 +18,7 @@ Enable the **sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image** system property
 
 ## Before you begin
 
-Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see Application picker.
 
 Role required: admin
 

@@ -2,6 +2,7 @@
 title: Request a workplace reservation for multiple days
 description: Request a workplace reservation for the days during which you want to return to office by using Workplace Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/request-workspace-reservations-for-multiple-days-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Request a workplace reservation for the days during which you want to return to 
 
 ## Before you begin
 
-To request a workplace reservation using your mobile device, you must have installed the [Now® Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app.
+To request a workplace reservation using your mobile device, you must have installed the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: sn\_wsd\_core.workplace\_user
 
@@ -157,5 +158,5 @@ You can check the status of your reservation request or choose to cancel your re
     -   To cancel the reservation request, select **Cancel request**.
     -   To cancel a single reservation within the reservation request, select **Reservation details**. Select the reservation you want to cancel and select **Cancel reservation**.
 
-**Parent Topic:**[Making workplace reservations](../concept/making-workspace-reservations.md)
+**Parent Topic:**[Making workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/making-workspace-reservations.md)
 

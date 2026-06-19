@@ -2,6 +2,7 @@
 title: Oracle NetSuite Spoke
 description: Automate create, read, update, and delete \(CRUD\) record management operations in Oracle NetSuite from your ServiceNow instance by using the Oracle NetSuite spoke. It provides preconfigured actions, subflows, connection and credential aliases, and scripted REST APIs to do these operations.Also reuse this short description in the release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/oracle-netsuite-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Automate create, read, update, and delete \(CRUD\) record management operations 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Oracle NetSuite spoke v1.0.3 is the latest version.
+Oracle NetSuite spoke v1.2.0 is the latest version.
 
 ## Supported versions
 
@@ -74,5 +75,5 @@ Integration Hub uses aliases to manage connection and credential information, an
 
 
 
-For information about setting up the spoke, see [Set up Oracle NetSuite Spoke](../task/set-up-oracle-netsuite-spoke.md#).
+For information about setting up the spoke, see [Set up Oracle NetSuite Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-oracle-netsuite-spoke.md).
 

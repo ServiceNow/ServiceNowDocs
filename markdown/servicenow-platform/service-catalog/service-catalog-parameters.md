@@ -2,6 +2,7 @@
 title: Service Catalog parameters
 description: You can use the Service Catalog parameters to identify the parent mapping configuration for a request, and join the service catalog flow from any other flow. For example, from an incident flow, you can create a request, and associate the request with the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/service-catalog-parameters.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -62,10 +63,10 @@ Specifies a processing hint.Format is **sysparm\_processing\_hint**=setfield:req
  **Note:** If specified, this parameter overrides the configuration in the **Request Parent Mapping** sub-module.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Catalog Reference](../concept/service-catalog-reference.md)
+</table>**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
 
 **Related topics**  
 
 
-[Create a request from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/create-request-from-incident.md)
+[bundle-itsm.create-request-from-incident]
 

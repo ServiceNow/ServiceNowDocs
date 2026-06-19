@@ -2,6 +2,7 @@
 title: Integrating ServiceNow with Microsoft Teams and Microsoft 365
 description: Set up your ServiceNow instance to integrate Microsoft Teams or Microsoft 365 applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-sn-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -20,7 +21,7 @@ Set up your ServiceNow instance to integrate Microsoft Teams or Microsoft 365 ap
 -   From [IT Service Management for Microsoft 365](https://store.servicenow.com/sn_appstore_store.do#!/store/application/14eb9da8c3f310102986a81c8640dd08/2.6.7?referer=%2Fstore%2Fproduct%2F9389b69edbb8e810d27e581adc9619ca) \(version 2.6.7\), ServiceNow for Microsoft Teams is upgraded to ServiceNow for Microsoft 365.
 -   From [HR Service Delivery for Microsoft 365](https://store.servicenow.com/sn_appstore_store.do#!/store/application/23364660c3b31010aab55b79c840ddc2/3.3.6?referer=%2Fstore%2Fproduct%2F9389b69edbb8e810d27e581adc9619ca) \(version 3.3.6\), ServiceNow for Microsoft Teams is upgraded to ServiceNow for Microsoft 365.
 
-For upgrading existing Microsoft Teams capabilities to Microsoft 365 applications, see [Integrating ServiceNow with Microsoft 365 applications for Employee Experience](setup-sn-ms-teams-ms365.md).
+For upgrading existing Microsoft Teams capabilities to Microsoft 365 applications, see [Integrating ServiceNow with Microsoft 365 applications for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.md).
 
 To connect your ServiceNow instance to your Microsoft Office 365 tenant and to authorize applications, you must have both the external\_app\_install\_admin role and the application administrator role in Microsoft Office 365. For more information on Microsoft roles, see the Microsoft documentation on [Azure AD built-in roles](https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference#available-roles).
 
@@ -67,10 +68,10 @@ Use the self-configured app or pre-published app configuration based on the foll
 -   In case of a single Microsoft tenant to single ServiceNow® instance integration, it is recommend to use the pre-published configuration setup. However, you can still use the self-configured configuration setup.
 -   In case of a single ServiceNow® instance to multiple Microsoft tenant integration, use the Self-configured configuration setup.
 
--   **[Plan your installation](plan-installation-ms-teams.md)**  
+-   **[Plan your installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/plan-installation-ms-teams.md)**  
 Identify the need and plan your installation for ServiceNow® for Microsoft Teams.
--   **[Setting up the ServiceNow instance for Microsoft Teams integration](setup-tenants.md)**  
+-   **[Setting up the ServiceNow instance for Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-tenants.md)**  
 Set up your ServiceNow® instance for the Microsoft Teams integrations.
 
-**Parent Topic:**[ServiceNow for Microsoft Teams and Microsoft 365](c_ServiceNowForMSTeams.md)
+**Parent Topic:**[ServiceNow for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_ServiceNowForMSTeams.md)
 

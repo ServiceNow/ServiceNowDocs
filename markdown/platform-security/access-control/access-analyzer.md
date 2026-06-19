@@ -2,6 +2,7 @@
 title: Access Analyzer
 description: ServiceNow Access Analyzer is an access diagnostic tool designed for AI administrators or creators to validate the access controls configured within various resources and agentic assets \(agentic workflows and AI agents\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/access-analyzer.html
 release: australia
 product: Access Control
 classification: access-control
@@ -17,27 +18,27 @@ ServiceNow® Access Analyzer is an access diagnostic tool designed for AI admini
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg)](explore-access-analyzer.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/explore-access-analyzer.md)
 
- [Learn the features and business value of Access Analyzer.](explore-access-analyzer.md)
+ [Learn the features and business value of Access Analyzer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/explore-access-analyzer.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)](../task/use-access-analyzer.md)
+[Use \[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/use-access-analyzer.md)
 
- [Understand how to use Access Analyzer.](../task/use-access-analyzer.md)
+ [Understand how to use Access Analyzer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/use-access-analyzer.md)
 
 </td></tr><tr><td>
 
-[Permission Evaluation ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)](permission-evaluation.md)
+[Permission Evaluation \[Omitted image "bus-integration-and-apis.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/permission-evaluation.md)
 
- [Know how the permissions are evaluated.](permission-evaluation.md)
+ [Know how the permissions are evaluated.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/permission-evaluation.md)
 
 </td><td>
 
-[Frequently asked questions ![](../../../reuse/icons/brand-icons/bus-learn.svg)](frequently-asked-questions.md)
+[Frequently asked questions \[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/frequently-asked-questions.md)
 
- [Get answers to commonly asked questions about Access Analyzer.](frequently-asked-questions.md)
+ [Get answers to commonly asked questions about Access Analyzer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/frequently-asked-questions.md)
 
 </td></tr></tbody>
 </table>

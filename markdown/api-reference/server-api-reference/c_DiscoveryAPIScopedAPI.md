@@ -2,6 +2,7 @@
 title: DiscoveryAPI - Scoped
 description: The DiscoveryAPI class provides methods that launch a quick discovery of a single IPv4 address and return summaries of previously launched discovery statuses for a single configuration item \(CI\) or for all scanned CIs.Discovers a specified IPv4 address.Used to return a summary of a configuration item's Discovery status given the specific status sys\_id and IPv4 address.Used to return a summary of a CI Discovery status given a specific Discovery Status sys\_id.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_DiscoveryAPIScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The DiscoveryAPI class provides methods that launch a quick discovery of a singl
 
 This class runs is in the `sn_discovery` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## DiscoveryAPI - discoverIpAddress\(String ipAddress, String application, String source\)
 
@@ -124,7 +125,7 @@ The following exceptions can be thrown:
 
 |Type|Description|
 |----|-----------|
-|array|JavaScript array of immutable [ReportCiStatusOutputJS](../../ReportCiStatusOutputJSScoped/concept/c_ReportCiStatusOutputJSScopedAPI.md#) objects.|
+|array|JavaScript array of immutable [ReportCiStatusOutputJS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_ReportCiStatusOutputJSScopedAPI.md) objects.|
 
 ```
 var ipResultObj = sn_discovery.DiscoveryAPI.reportCiIpAddressStatus(ipAddress, discoveryStatus);
@@ -154,7 +155,7 @@ The following exceptions can be thrown:
 
 |Type|Description|
 |----|-----------|
-|array|JavaScript array of immutable [ReportCiStatusOutputJS](../../ReportCiStatusOutputJSScoped/concept/c_ReportCiStatusOutputJSScopedAPI.md#) objects.|
+|array|JavaScript array of immutable [ReportCiStatusOutputJS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_ReportCiStatusOutputJSScopedAPI.md) objects.|
 
 ```
 var ipResultObjArray = sn_discovery.DiscoveryAPI.reportCiStatus(discoveryStatus);

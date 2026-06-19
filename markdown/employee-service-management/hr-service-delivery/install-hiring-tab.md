@@ -2,6 +2,7 @@
 title: Install Hiring
 description: You can install the Hiring tab application \(sn\_ta\_hiring\_mgr\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/install-hiring-tab.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -45,5 +46,5 @@ Role required: admin
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Hiring](configuring-hiring-tab.md)
+**Parent Topic:**[Configuring Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configuring-hiring-tab.md)
 

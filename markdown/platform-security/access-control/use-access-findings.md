@@ -2,6 +2,7 @@
 title: Use Access Findings
 description: You can use Access Findings to view the potential vulnerabilities that were discovered the last time access checks ran on your ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/use-access-findings.html
 release: australia
 product: Access Control
 classification: access-control

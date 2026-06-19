@@ -2,6 +2,7 @@
 title: Export and import a CMDB query
 description: Export a saved CMDB or Service Mapping query definition to an XML file which you can later import and run in the CMDB Query Builder. This process lets you port a saved query between instances, such as from a development environment to a production environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/export-import-query.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -26,7 +27,7 @@ Role required: cmdb\_query\_builder
 
 When exporting a combination query, the integrated Service Mapping query definition is included in the exported query.
 
-For backward compatibility, you can alternatively [Export and import a query as an update set](export-query-to-update-set.md).
+For backward compatibility, you can alternatively [Export and import a query as an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/export-query-to-update-set.md).
 
 ## Procedure
 

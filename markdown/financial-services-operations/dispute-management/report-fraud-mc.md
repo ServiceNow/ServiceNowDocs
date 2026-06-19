@@ -2,6 +2,7 @@
 title: Report fraud to card network
 description: Report potential fraud on a transaction to a card network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/report-fraud-mc.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -23,7 +24,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -43,7 +44,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 9.  Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](../../fso-mastercard/reference/mastercard-image-and-document-requirements.md).
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/mastercard-image-and-document-requirements.md).
 
 10. Select **Submit fraud**.
 
@@ -58,10 +59,10 @@ Depending on the policy rule, the transaction moves to the next task. The follow
 
 |Policy|Outcome|
 |------|-------|
-|Immediate provisional credit \(IPC\)|[Reverse provisional credit](reverse-provisional-credit-mc.md) or [Convert provisional credit to final credit](convert-provisional-credit-to-final-credit_mc.md)|
-|Immediate final credit \(IFC\)|[Provide final credit to customer](provide-final-credit-mc.md)|
-|No credit|[Alert merchant regarding dispute](alert-merchant-dispute-mc.md)|
+|Immediate provisional credit \(IPC\)|[Reverse provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/reverse-provisional-credit-mc.md) or [Convert provisional credit to final credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit_mc.md)|
+|Immediate final credit \(IFC\)|[Provide final credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/provide-final-credit-mc.md)|
+|No credit|[Alert merchant regarding dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/alert-merchant-dispute-mc.md)|
 |||
 
-**Parent Topic:**[Processing a Mastercard dispute](../concept/processing-mastercard-dispute-case.md)
+**Parent Topic:**[Processing a Mastercard dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/processing-mastercard-dispute-case.md)
 

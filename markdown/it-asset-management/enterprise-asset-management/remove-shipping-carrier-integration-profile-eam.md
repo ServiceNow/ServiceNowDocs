@@ -2,13 +2,14 @@
 title: Remove a third-party shipping carrier from an integration profile in the Enterprise Asset Workspace
 description: Remove a third-party shipping carrier that you no longer want to associate with an integration profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/remove-shipping-carrier-integration-profile-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise asset shipments, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Remove a third-party shipping carrier from an integration profile in the Enterprise Asset Workspace
@@ -38,5 +39,5 @@ Role required: sn\_eam.enterprise\_admin
 
 The shipping carrier is no longer associated with the integration profile.
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

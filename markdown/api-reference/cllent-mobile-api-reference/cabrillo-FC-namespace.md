@@ -2,6 +2,7 @@
 title: cabrillo.flowControl - Client
 description: Cabrillo JS functions for managing the flow of a web view.Indicates to the client that the web flow is complete.Indicates to the client that the web flow is complete and the client should update the native screens.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/cabrillo-FC-namespace.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Client mobile API reference, API reference, API implementation and 
 
 Cabrillo JS functions for managing the flow of a web view.
 
-**Parent Topic:**[Client mobile API reference](../../../../../build/applications/concept/api-client-mobile.md)
+**Parent Topic:**[Client mobile API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
 ## cabrillo.flowControl - flowEnded\(String flowName\)
 

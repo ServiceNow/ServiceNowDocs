@@ -2,6 +2,7 @@
 title: Create an indicator from the library
 description: From the indicator library, you can launch a process to create different kinds of indicators from different sources
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-indicator-from-library.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,11 +24,11 @@ Role required: pa\_power\_user or higher
 
 2.  Select **Create indicator**.
 
-    ![Create indicator button on indicator library page.](../image/create-indicator-button.png)
+    \[Omitted image "create-indicator-button.png"\] Alt text: Create indicator button on indicator library page.
 
 3.  Select the type of indicator: Automated, Formula, Manual, External.
 
-    ![Create new indicator page opened from indicator library.](../image/create-new-indicator-page.png)
+    \[Omitted image "create-new-indicator-page.png"\] Alt text: Create new indicator page opened from indicator library.
 
     -   **Automated indicator**
 
@@ -60,8 +61,8 @@ You are taken to the appropriate form, depending on your selection.
 
 Follow the instructions for the form that opens:
 
--   [Create an automated indicator](t_CreateAnAutomatedIndicator.md#)
--   [Create a formula indicator](t_CreateAFormulaIndicator.md)
--   [Manual indicators](t_CreateAManualIndicator.md)
--   [Using Performance Analytics with external data](../concept/pa-external-data.md#)
+-   [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
+-   [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)
+-   [Manual indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreateAManualIndicator.md)
+-   [Using Performance Analytics with external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-external-data.md)
 

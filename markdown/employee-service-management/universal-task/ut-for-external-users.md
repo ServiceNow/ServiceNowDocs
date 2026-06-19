@@ -2,6 +2,7 @@
 title: Universal Task for external users
 description: Enable external users to have access to the tasks assigned through Universal Task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-task/ut-for-external-users.html
 release: australia
 product: Universal Task
 classification: universal-task
@@ -27,5 +28,5 @@ The following points must be considered to enable Universal Task for the externa
     -   The **To-Do** tab of the Employee Service Center.
     -   The hrm\_todos\_page where the Universal Task is displayed.
 
-**Parent Topic:**[Using Universal Task](use-universal-task.md)
+**Parent Topic:**[Using Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-task/use-universal-task.md)
 

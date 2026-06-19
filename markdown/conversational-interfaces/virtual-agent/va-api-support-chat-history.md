@@ -2,6 +2,7 @@
 title: Configure to support chat history in Virtual Agent API
 description: You can now support your live agents to see chat history in their conversations with the primary bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-api-support-chat-history.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -68,8 +69,8 @@ Enter an explanation for this property: `The custom adapter property to display 
 </table>5.  Click **Submit**.
 
 
--   **[Setting logo for the primary bot in Virtual Agent API](va-api-support-set-logo.md)**  
+-   **[Setting logo for the primary bot in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-api-support-set-logo.md)**  
 You can customize your agent chat interface by setting a logo for the primary bot that appears in the chat history.
 
-**Parent Topic:**[Using Virtual Agent API](../concept/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

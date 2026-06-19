@@ -2,7 +2,10 @@
 title: Configure Advanced Work Assignment for routing email interactions
 description: Configure Advanced Work Assignment \(AWA\) to route email interactions automatically to your agents, based on their availability, capacity, and optionally, skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-advanced-work-assignment-route-email-interactions.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -22,7 +25,7 @@ Role required: admin
 
 The Service channel **Email** is configured during the installation of the Email Interaction for CSM application. If you want to create service channels for email, follow the procedure.
 
-You can use the  [Advanced Work Assignment \(AWA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md) feature to automatically assign work items to users based on their availability and capacity.
+You can use the  Advanced Work Assignment \(AWA\) feature to automatically assign work items to users based on their availability and capacity.
 
 AWA assigns work items using assignment groups, so it's important that your users and groups are set up correctly.
 
@@ -42,7 +45,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
         |Field|Description|
         |-----|-----------|
         |Name|Name of the service channel that you’re configuring. For example, Custom-Email.|
-        |Inbox order|Order in which channel items appear in the user inbox. The  **Inbox Order**  field is an integer  [field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_FieldTypes.md). This field can store whole numbers.|
+        |Inbox order|Order in which channel items appear in the user inbox. The  **Inbox Order**  field is an integer  field type. This field can store whole numbers.|
         |Application|Name of the application. For the Email Interaction channel, select Email Interaction for CSM.|
         |Active|Option for activating the service channel. When you select this option, the associated queues for the service channel can start accepting work items.|
         |Short description|Brief description of the service channel.|
@@ -56,13 +59,13 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
     3.  Select **Submit**.
 
-    The system adds the Email Interaction channel to the Service Channels list. For more information, see  [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-service-channel.md).
+    The system adds the Email Interaction channel to the Service Channels list. For more information, see  .
 
 2.  Configure the layout for the email interaction inbox card.
 
     **Note:** The Inbox layouts are configured during the installation of the Email Interaction for CSM application.
 
-     If you want to create Inbox layouts follow the procedure in [Create or modify an inbox layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-modify-inbox-layout.md) for **Email** service channel, available by default, or **Custom-Email** service channel.
+     If you want to create Inbox layouts follow the procedure in Create or modify an inbox layout for **Email** service channel, available by default, or **Custom-Email** service channel.
 
 3.  Create a queue for the email interaction service channel.
 
@@ -75,7 +78,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
         |Name|Name of the queue. For example, Email Queue.|
         |Short description|Brief explanation of the queue. For example, "Assign email interactions to front-office users".|
 
-        For more information about configuring a queue, see  [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md).
+        For more information about configuring a queue, see  .
 
     3.  Select **Submit**.
 
@@ -94,7 +97,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
         |Assign by|Type of assignment. Select **Most Capacity**, which routes a work item to the user who has the greatest availability for handling the work.|
         |Allow agents to reject|Option to enable agents to reject work items in their inbox.|
 
-        For more information about creating an assignment rule, see  [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
+        For more information about creating an assignment rule, see  .
 
 5.  Create a group for the queue.
 
@@ -104,7 +107,7 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
     3.  On the Group form, fill in the fields.
 
-        For more information about creating a group, see [Create or change groups for Advanced Work Assignment queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-groups.md).
+        For more information about creating a group, see .
 
     4.  Select **Submit**.
 
@@ -146,5 +149,5 @@ Setting up a service channel involves multiple steps, which are detailed in the 
 
 ## Result
 
-After the service channel is activated, you can use it to assign work items. For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
+After the service channel is activated, you can use it to assign work items. For more information, see .
 

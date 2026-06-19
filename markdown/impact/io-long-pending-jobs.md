@@ -2,7 +2,10 @@
 title: Configure long pending jobs alert by job priority
 description: Get notifications when jobs that are pending exceed your defined overdue thresholds by configuring the Long Pending Jobs alert. Set up conditions by job priority to take action on groups of jobs—such as all discovery jobs or system cleanup jobs—in one go, rather than managing them individually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/io-long-pending-jobs.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-04-17"
 reading_time_minutes: 2
@@ -24,7 +27,7 @@ Role required: admin
 
 2.  Log in to Instance Observer and navigate to **Alerts** &gt; **Configure Alerts**.
 
-    For more information on how to configure alerts, see [Configure Key Alerts](configuring-io-alerts.md).
+    For more information on how to configure alerts, see [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-io-alerts.md).
 
 3.  In the **Search** field of the **All Alerts** tab that displays by default, enter `long pending jobs`.
 
@@ -54,7 +57,7 @@ Role required: admin
 
     -   Priority 100 — alert if any job is pending for more than 5 minutes.
     -   Priority 110 — alert if any job is pending for more than 80 minutes, with a 30-minute snooze.
-    ![Configured alert for long pending jobs with Priority.](../image/io-alert-lp-job.png)
+    \[Omitted image "io-alert-lp-job.png"\] Alt text: Configured alert for long pending jobs with Priority.
 
     All configured conditions work on an OR basis. A notification is triggered when any one or more conditions are met.
 
@@ -73,5 +76,5 @@ Role required: admin
     The alert is active after you save. When a configured condition is met, you receive a notification that includes the job priority and the specific job names that breached the threshold. For example, Job X \(Priority 100\) has been pending for more than 100 minutes.
 
 
-**Parent Topic:**[Alerts in Instance Observer](../concept/io-alerts-intro.md)
+**Parent Topic:**[Alerts in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
 

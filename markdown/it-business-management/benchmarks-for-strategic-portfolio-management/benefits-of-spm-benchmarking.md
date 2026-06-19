@@ -2,6 +2,7 @@
 title: Benefits of SPM Benchmarks
 description: The SPM Benchmarks application provides you with an overall understanding of your performance compared to your peers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/benchmarks-for-strategic-portfolio-management/benefits-of-spm-benchmarking.html
 release: australia
 product: Benchmarks for Strategic Portfolio Management
 classification: benchmarks-for-strategic-portfolio-management
@@ -39,5 +40,5 @@ The SPM Benchmarks application provides you with an overall understanding of you
     SPM Benchmarks reports get refreshed monthly that can be downloaded in PDF format. An email notification is sent to the customer when new data is available.
 
 
-**Parent Topic:**[Exploring SPM Benchmarks](exploring-benchmarks.md)
+**Parent Topic:**[Exploring SPM Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/benchmarks-for-strategic-portfolio-management/exploring-benchmarks.md)
 

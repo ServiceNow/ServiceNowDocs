@@ -2,6 +2,7 @@
 title: Invoice tasks
 description: Invoice tasks, an extension of acknowledgment tasks, lists invoice tasks in the Open, Work in Progress, and Closed Rejected status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/invoice-tasks.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -136,5 +137,5 @@ Duration to complete this invoice task.
 |------------|-----------|
 |Invoice lines|List of all the related invoice lines with acknowledgment type as service acknowledgment, for this invoice task.|
 
-**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+**Parent Topic:**[Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-experience-workflow.md)
 

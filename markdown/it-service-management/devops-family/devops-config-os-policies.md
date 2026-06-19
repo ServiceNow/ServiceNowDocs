@@ -2,6 +2,7 @@
 title: Red Hat OpenShift policies in DevOps Config
 description: By default, the DevOps Config Policy content pack contains a set of policies to validate your Red Hat OpenShift configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-os-policies.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -16,15 +17,15 @@ breadcrumb: [Default DevOps Config policies, DevOps Config reference, DevOps Con
 
 By default, the DevOps Config Policy content pack contains a set of policies to validate your Red Hat OpenShift configuration.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-You can use or customize these default DevOps Config policies to validate that your configuration data content is conformable, or [administrate the full life cycle of PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-managing-policies.md).
+You can use or customize these default DevOps Config policies to validate that your configuration data content is conformable, or administrate the full life cycle of PaCE policies.
 
 **Note:** You can’t modify the default policies. However, you can make a copy of the policy and customize your copy.
 
 <table id="table_gsp_4vm_nzb"><tbody><tr><td>
 
-[A](devops-config-os-policies.md#a) \| [B](devops-config-os-policies.md#b) \| [C](devops-config-os-policies.md#c) \| [H](devops-config-os-policies.md#h) \| [N](devops-config-os-policies.md#n) \| [R](devops-config-os-policies.md#r) \| [S](devops-config-os-policies.md#s) \| [T](devops-config-os-policies.md#t)
+[A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-os-policies.md) \| [B](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-os-policies.md) \| [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-os-policies.md) \| [H](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-os-policies.md) \| [N](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-os-policies.md) \| [R](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-os-policies.md) \| [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-os-policies.md) \| [T](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-os-policies.md)
 
 </td></tr></tbody>
 </table>## Audit Log Maximum Backup Is Set \(openshift\_audit\_log\_maxbackup\_is\_set\)

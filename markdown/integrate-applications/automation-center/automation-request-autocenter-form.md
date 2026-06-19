@@ -2,6 +2,7 @@
 title: Automation request form from Automation Center
 description: Use the Automation request form to create an automation request, action request, or review request from Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/automation-request-autocenter-form.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -123,7 +124,7 @@ State of the automation request:-   New
 -   In progress
 -   Published
 
-For more information about these states, see [Life-cycle stages of an automation request](lifecycle-stages-automation-req.md).
+For more information about these states, see [Life-cycle stages of an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/lifecycle-stages-automation-req.md).
 
 </td></tr><tr><td>
 
@@ -272,5 +273,5 @@ Additional comments \(Customer visible\)
 Notes that are visible to the customer.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automation Center reference](../concept/automation-center-reference.md)
+</table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-reference.md)
 

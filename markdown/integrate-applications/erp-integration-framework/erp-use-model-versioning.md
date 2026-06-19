@@ -1,7 +1,8 @@
 ---
-title: Using model versioning
+title: Use model versioning
 description: Use model versioning in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to determine the version of a model on development and production instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-use-model-versioning.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -12,13 +13,13 @@ keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector
 breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Using model versioning
+# Use model versioning
 
 Use model versioning in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to determine the version of a model on development and production instances.
 
 ## Before you begin
 
-For versioning to take place, the **sn\_erp\_integration.enableModelModification** system property must be set to true on your development instance. For more information about the system property, see [Building and managing models to work with ERP data](../concept/work-with-erp-data-models.md).
+For versioning to take place, the **sn\_erp\_integration.enableModelModification** system property must be set to true on your development instance. For more information about the system property, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
 
 Role required: sn\_erp\_integration.erp\_admin
 
@@ -30,18 +31,18 @@ As you work with model records on a development instance, at certain intervals y
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP models page by selecting the models icon ![](../image/erpc-data-model-icon.png) in the side panel.
+2.  Open the ERP models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] in the side panel.
 
     View the **Version** column in the list.
 
-    ![Model list with version column highlighted.](../image/erp-model-versions1.png)
+    \[Omitted image "erp-model-versions1.png"\] Alt text: Model list with version column highlighted.
 
 3.  Select a model in the list to open a record.
 
 4.  View the version on the individual model record.
 
-    ![Model record with version number highlighted.](../image/erp-model-versions2.png)
+    \[Omitted image "erp-model-versions2.png"\] Alt text: Model record with version number highlighted.
 
 
-**Parent Topic:**[Building and managing models to work with ERP data](../concept/work-with-erp-data-models.md)
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

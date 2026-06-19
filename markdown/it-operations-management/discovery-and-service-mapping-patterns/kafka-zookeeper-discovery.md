@@ -2,6 +2,7 @@
 title: Apache Kafka and Apache Zookeeper discovery
 description: ServiceNow Discovery uses the Kafka and Zookeeper discovery pattern to find Kafka data built on the Zookeeper synchronization service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/kafka-zookeeper-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -17,7 +18,7 @@ ServiceNow Discovery uses the Kafka and Zookeeper discovery pattern to find Kafk
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -91,5 +92,5 @@ Kafka and Zookeeper process should be running on the host.
 
 The Kafka and Zookeeper pattern does not create any CI relationships.
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

@@ -2,6 +2,7 @@
 title: Summarize the contents of an app in ServiceNow Studio
 description: Generate a summary of your app using Now Assist for Creator in ServiceNow Studio. After reviewing the summary, you can use it as a description for your app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/summarize-an-app-in-servicenow-studio.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -9,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI, servicenow studio]
-breadcrumb: [App summary generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [App summary generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Summarize the contents of an app in ServiceNow Studio
@@ -53,5 +54,5 @@ If your company has a robust citizen development program and has many developers
 
 After you create an initial app summary, the **Summarize** button becomes the **Summary** button. If you see **Summary**, know that an app summary has already been created and can be edited as needed.
 
-**Parent Topic:**[App summary generation](../../now-assist-app-summarize/concept/sns-now-assist-app-summarize-landing.md)
+**Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-now-assist-app-summarize-landing.md)
 

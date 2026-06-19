@@ -2,6 +2,7 @@
 title: NowServiceConfiguration class - Android
 description: The NowServiceConfiguration class enables you to configure the ServiceNow instance URL and package name for a feature service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -52,5 +53,5 @@ String
 Name of the package to associate with the feature service.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

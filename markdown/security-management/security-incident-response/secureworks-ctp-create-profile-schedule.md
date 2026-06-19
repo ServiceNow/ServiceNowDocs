@@ -2,6 +2,7 @@
 title: Define schedule for the Secureworks CTP Ticket ingestion
 description: Verify the default settings for ticket retrieval or modify the scheduling as needed. This step permits you to filter your ticket retrieval based on a date range and a polling interval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-create-profile-schedule.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,15 +30,15 @@ You also choose how often you will poll for future tickets that match the ticket
 
 2.  Choose one to schedule how and when tickets are pulled from the Secureworks CTP portal.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d468087e72">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d440533e68">
 
 Option
 
-</th><th align="left" id="d468087e75">
+</th><th align="left" id="d440533e71">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d468087e81">
+</th></tr></thead><tbody><tr><td id="d440533e77">
 
 **Ongoing ticket ingestion selected**
 
@@ -45,7 +46,7 @@ Description
 
 Based on the default setting, the ServiceNow AI Platform instance pulls from the Secureworks CTP portal for new tickets every five minutes. Security incidents are created if tickets are found and incident generation filtering criteria are matched. To balance ticket ingestion against server load, and to pull the most current data, five minutes is the setting you may prefer. However, this value can be modified as needed.
 
-</td></tr><tr><td id="d468087e99">
+</td></tr><tr><td id="d440533e95">
 
 **-   Ongoing ticket ingestion selected
 -   Set initial ticket ingestion time
@@ -72,8 +73,6 @@ Initial ingestion timeIf you want to schedule the initial ingestion at a specifi
 
 
 </td></tr></tbody>
-</table>    ![Secureworks CTP: Create Profile: Schedule](../image/secureworks-create-profile-schedule.gif)
-
-3.  Click **Continue** to navigate to the Additional Options page.
+</table>3.  Select **Continue** to navigate to the Additional Options page.
 
 

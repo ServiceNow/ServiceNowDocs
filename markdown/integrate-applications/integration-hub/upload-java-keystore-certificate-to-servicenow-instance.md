@@ -2,6 +2,7 @@
 title: Upload Java KeyStore certificate to ServiceNow instance
 description: Upload the Java KeyStore certificate to your ServiceNow instance to enable the creation of connections and credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/upload-java-keystore-certificate-to-servicenow-instance.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -40,19 +41,19 @@ Role required: admin
 
 4.  Right-click on the banner of the record and select **Save**.
 
-    ![Save button.](../image/oracle-hcm-spoke-upload-jks-file.png)
+    \[Omitted image "oracle-hcm-spoke-upload-jks-file.png"\] Alt text: Save button.
 
-5.  Select the **Manage Attachments** icon \(![Manage Attachments icon.](../image/manage-attachments-icon.png)\) to attach the Java KeyStore file.
+5.  Select the **Manage Attachments** icon \(\[Omitted image "manage-attachments-icon.png"\] Alt text: Manage Attachments icon.\) to attach the Java KeyStore file.
 
     If your instance displays an error of the type "&lt;file-name&gt;.jks File type not permitted or mime type does not match the file content", complete the steps.
 
     1.  In the filter field of your instance, enter `sys_properties.LIST` and press **Enter**.
 
-        ![Filter field.](../image/oracle-hcm-spoke-troubleshooting.png)
+        \[Omitted image "oracle-hcm-spoke-troubleshooting.png"\] Alt text: Filter field.
 
     2.  In the Name field of the System Properties page, enter `glide.security.file.mime_type.validation` and press **Enter**.
 
-        ![Name field.](../image/oracle-hcm-spoke-system-property.png)
+        \[Omitted image "oracle-hcm-spoke-system-property.png"\] Alt text: Name field.
 
     3.  Select the system property glide.security.file.mime\_type.validation.
     4.  In the Value field, update the value to `False`.

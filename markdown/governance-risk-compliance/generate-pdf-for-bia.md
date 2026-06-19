@@ -2,6 +2,7 @@
 title: Generate BIA reports in PDF or Microsoft Word formats
 description: Generate a PDF or Microsoft Word copy of a business impact analysis in the BCM Configurable Workspace and save it for a future reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/generate-pdf-for-bia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,7 +20,7 @@ Role required: sn\_bcm.program\_manager, sn\_bcm.planner
 
 ## About this task
 
-To format the PDF for your business needs, see [Format PDF templates for BIAs, BCPs, and Events](update-pdf-format-for-bia-bcp-event.md).
+To format the PDF for your business needs, see [Format PDF templates for BIAs, BCPs, and Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.md).
 
 Beginning with the Xanadu release, the content in PDFs of Business Impact Analyses, Plans, and Events is improved by implementing a new layout:
 
@@ -38,30 +39,30 @@ Beginning with the Xanadu release, the content in PDFs of Business Impact Analys
 
     The example shows the **Generate PDF** option in the business impact analysis form.
 
-    ![Generate the BIA PDF.](../image/bia-pdf-generate-pdf.png)
+    \[Omitted image "bia-pdf-generate-pdf.png"\] Alt text: Generate the BIA PDF.
 
     The example shows the message that is displayed on the screen: `<Name of the BIA> PDF has been successfully generated for download.`
 
-    ![Downloading the BIA PDF.](../image/bia-pdf-generated-download.png)
+    \[Omitted image "bia-pdf-generated-download.png"\] Alt text: Downloading the BIA PDF.
 
 4.  To download the PDF, select the link in the message.
 
     The example shows the PDF of the business impact analysis.
 
-    ![BIA PDF.](../image/bia-pdf-to-be-customized.png)
+    \[Omitted image "bia-pdf-to-be-customized.png"\] Alt text: BIA PDF.
 
 5.  Save the PDF on your system.
 
-6.  To format the BIA PDF template, follow the instructions in [Format PDF templates for BIAs, BCPs, and Events](update-pdf-format-for-bia-bcp-event.md).
+6.  To format the BIA PDF template, follow the instructions in [Format PDF templates for BIAs, BCPs, and Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-pdf-format-for-bia-bcp-event.md).
 
 7.  To create the BIA report in Microsoft Word, select **Generate MS Word**.
 
     Generate a report of the BIA record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.
 
-    For more information on generating reports in Microsoft Word format using Document designer, see [Generating reports using Document designer](../concept/integrating-document-designer-with-bcm.md).
+    For more information on generating reports in Microsoft Word format using Document designer, see [Generating reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/integrating-document-designer-with-bcm.md).
 
 8.  To print the BIA report, open the saved PDF or Microsoft Word copy and select **Print**.
 
 
-**Parent Topic:**[Structured workflows for BIAs](../concept/bia-tasks-performed-by-bia-owner.md)
+**Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

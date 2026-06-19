@@ -2,6 +2,7 @@
 title: Create a queue for billing issues
 description: Create a queue for the Chat service channel that routes billing issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/billing-context-example.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

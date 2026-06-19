@@ -2,11 +2,14 @@
 title: Scan Engine definitions: Manageability
 description: Scan Engine Manageability definitions measure the extent to which ServiceNow instances, applications, or infrastructure can be effectively monitored, configured, and maintained.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-definitions-manageability.html
 release: australia
+product: Impact
+classification: impact
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 26
-breadcrumb: [View and modify Scan Engine definitions, Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Scan Engine definitions, Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # Scan Engine definitions: Manageability
@@ -79,7 +82,7 @@ This prefix is being shared by multiple tables. Tables should either have their 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_ManagingRecordNumbering.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_ManagingRecordNumbering)
 
 </td></tr><tr><td>
 
@@ -143,7 +146,7 @@ Remove target.**update\(\)**.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_TroubleshootImportSetPerformance.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_TroubleshootImportSetPerformance)
 
 </td></tr><tr><td>
 
@@ -175,7 +178,7 @@ Replace the Package call with the appropriate **GlideScriptable** class.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_PackagesCallRemovalTool.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_PackagesCallRemovalTool)
 
 </td></tr><tr><td>
 
@@ -239,7 +242,7 @@ Consider setting up the Access Control to restrict access based on what role the
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=access-control-rules.html)
+[Documentation](https://www.servicenow.com/docs/access?context=access-control-rules)
 
 </td></tr><tr><td>
 
@@ -271,7 +274,7 @@ Delete the Catalog UI Policy or check one of the Applies To check boxes.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreatUIPolicyForSvcCalgIt.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreatUIPolicyForSvcCalgIt)
 
 </td></tr><tr><td>
 
@@ -303,7 +306,7 @@ Delete the Catalog UI Policy or check one of the Applies To check boxes.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_CatalogClientScriptCreation.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_CatalogClientScriptCreation)
 
 </td></tr><tr><td>
 
@@ -335,7 +338,7 @@ Remove any references to document object calls.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=client-script-best-practices.html)
+[Documentation](https://www.servicenow.com/docs/access?context=client-script-best-practices)
 
 </td></tr><tr><td>
 
@@ -367,7 +370,7 @@ If the previous variable needs to be referenced or the business rule should only
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_BusinessRules.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_BusinessRules)
 
 </td></tr><tr><td>
 
@@ -399,7 +402,7 @@ After creating the **GlideRecord** object call the **initialize\(\)** or **newRe
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_GlideRecordAPI.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI)
 
 </td></tr><tr><td>
 
@@ -431,7 +434,7 @@ Use **g\_form.showFieldMsg**\(\) or **g\_form.hideFieldMsg**\(\) functions in pl
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/bundle/zurich-api-reference/page/app-store/dev_portal/API_reference/GlideForm/concept/c_GlideFormAPI.html)
+Documentation
 
 </td></tr><tr><td>
 
@@ -628,7 +631,7 @@ Consider creating a group, grant the group the desired roles, then associate the
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_UserAdministration.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_UserAdministration)
 
 </td></tr><tr><td>
 
@@ -660,7 +663,7 @@ Attempt to auto upgrade the MID Server by using the **Upgrade MID Server** UI Ac
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_UpgradeAndTestMIDServer.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer)
 
 </td></tr><tr><td>
 
@@ -724,7 +727,7 @@ Replace the notification activity with a create event activity. Then create a no
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_NotificationActivities.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_NotificationActivities)
 
 </td></tr><tr><td>
 
@@ -788,7 +791,7 @@ Rename the UI Page to a unique name, since the Table name is an autogenerated va
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_UIPages.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_UIPages)
 
 </td></tr><tr><td>
 
@@ -820,7 +823,7 @@ Rename discovery schedules to reflect either the network segment in-scope, or it
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateADiscoverySchedule.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateADiscoverySchedule)
 
 </td></tr><tr><td>
 
@@ -916,7 +919,7 @@ Convert any uses of **gs.sql** to **GlideRecord**.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=p_GlideServerAPIs.html)
+[Documentation](https://www.servicenow.com/docs/access?context=p_GlideServerAPIs)
 
 </td></tr><tr><td>
 
@@ -948,7 +951,7 @@ Take the newer script include \(or least used script include\) and rename it so 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_ScriptIncludes.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_ScriptIncludes)
 
 </td></tr><tr><td>
 
@@ -980,7 +983,7 @@ Set the value of the **com.snc.sla.engine.version** system property to 2011. Not
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_MoveFromThe2010ToThe2011Engine.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_MoveFromThe2010ToThe2011Engine)
 
 </td></tr><tr><td>
 
@@ -1012,7 +1015,7 @@ Create or associate an existing Product Model to the Product Catalog Item.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_ManagingProductCatalogItems.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_ManagingProductCatalogItems)
 
 </td></tr><tr><td>
 
@@ -1044,7 +1047,7 @@ Review Agile Development 2.0 to determine if it will be a good fit for your comp
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=agile-landing-page.html)
+[Documentation](https://www.servicenow.com/docs/access?context=agile-landing-page)
 
 </td></tr><tr><td>
 
@@ -1076,7 +1079,7 @@ Determine if the scheduled job still needs to be run and if so update the Run As
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ScheduleAScriptExecution.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution)
 
 </td></tr><tr><td>
 
@@ -1108,7 +1111,7 @@ Set the "**glide.ui11.show\_switch\_link**" property value to **false**.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_AvailableSystemProperties.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties)
 
 </td></tr><tr><td>
 
@@ -1140,7 +1143,7 @@ Reevaluate the requirements behind this and remove the extended tables; process-
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_TableExtensionExample.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_TableExtensionExample)
 
 </td></tr><tr><td>
 
@@ -1172,7 +1175,7 @@ Consider using Variable Validation Regex records to configure common data valida
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=define-regex-vrble.html)
+[Documentation](https://www.servicenow.com/docs/access?context=define-regex-vrble)
 
 </td></tr><tr><td>
 
@@ -1204,7 +1207,7 @@ Enable user criteria on your system by setting the service catalog property **__
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_MigrtSvcCatUserCriteria.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_MigrtSvcCatUserCriteria)
 
 </td></tr><tr><td>
 
@@ -1236,7 +1239,7 @@ Replace the True/False field on the import set table to string field and write t
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateATransformMap.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateATransformMap)
 
 </td></tr><tr><td>
 
@@ -1268,7 +1271,7 @@ Review any identified knowledge articles in this situation and update the "Valid
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=article-validity.html)
+[Documentation](https://www.servicenow.com/docs/access?context=article-validity)
 
 </td></tr><tr><td>
 
@@ -1300,7 +1303,7 @@ Review and remove any duplicate form fields, as this could cause issues with sav
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-form-layout.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-form-layout)
 
 </td></tr><tr><td>
 
@@ -1332,7 +1335,7 @@ Enable a unique index on this table. Navigate to System Definition &gt; Tables, 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_EnforcingUniqueNumbering.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_EnforcingUniqueNumbering)
 
 </td></tr><tr><td>
 
@@ -1364,7 +1367,7 @@ Navigate to **sys\_properties** and add or review the property "**glide.invalid\
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_GlideRecordScopedAPI.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI)
 
 </td></tr><tr><td>
 
@@ -1396,7 +1399,7 @@ Populate the Description field.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_RegisterAnEvent.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_RegisterAnEvent)
 
 </td></tr><tr><td>
 
@@ -1428,7 +1431,7 @@ Consider using a unique naming convention for reports.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_GenerateReports.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_GenerateReports)
 
 </td></tr><tr><td>
 
@@ -1492,7 +1495,7 @@ Fill in the short description field on these resources for documentation purpose
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateAScriptedRESTAPIResource.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAScriptedRESTAPIResource)
 
 </td></tr><tr><td>
 
@@ -1524,7 +1527,7 @@ Populate the Fired by field with the name of the business rule that runs the eve
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_RegisterAnEvent.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_RegisterAnEvent)
 
 </td></tr><tr><td>
 
@@ -1556,7 +1559,7 @@ Deactivate the orphaned dictionary entry.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_SystemDictionary.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_SystemDictionary)
 
 </td></tr><tr><td>
 
@@ -1588,7 +1591,7 @@ Set the Listener flag on the record to **true**.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_EnableAListener.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_EnableAListener)
 
 </td></tr><tr><td>
 
@@ -1620,7 +1623,7 @@ Set the JavaScript mode to ES5 Standards if editing a global application or to E
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_JS_modes.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_JS_modes)
 
 </td></tr><tr><td>
 
@@ -1652,7 +1655,7 @@ Either create or update the system property "com.**glide.apps.include\_my\_delet
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=generation-skip-records-app-installs.html)
+[Documentation](https://www.servicenow.com/docs/access?context=generation-skip-records-app-installs)
 
 </td></tr><tr><td>
 
@@ -1684,7 +1687,7 @@ Use a script include rather than a scripted REST web service to conduct CRUD ope
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_CustomWebServices.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_CustomWebServices)
 
 </td></tr><tr><td>
 
@@ -1716,7 +1719,7 @@ Update the "Run as" field to a different user, or ensure that the user record is
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreatASchedDataCollJob.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreatASchedDataCollJob)
 
 </td></tr><tr><td>
 
@@ -1748,7 +1751,7 @@ Use a script include rather than a scripted SOAP web service to conduct CRUD ope
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_ScriptedWebServices.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_ScriptedWebServices)
 
 </td></tr><tr><td>
 
@@ -1780,7 +1783,7 @@ Disable all Task SLA definitions.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateVulnSLA.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateVulnSLA)
 
 </td></tr><tr><td>
 
@@ -1844,7 +1847,7 @@ Group the **sys\_update\_xml** table by the "Type" column, and take note of the 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=r_CustomerUpdatesTable.html)
+[Documentation](https://www.servicenow.com/docs/access?context=r_CustomerUpdatesTable)
 
 </td></tr><tr><td>
 
@@ -1876,7 +1879,7 @@ It is recommended to run the Package Call Removal Tool, and replace all Java pac
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_PackagesCallRemovalTool.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_PackagesCallRemovalTool)
 
 </td></tr><tr><td>
 
@@ -1908,7 +1911,7 @@ Navigate to Automated Test Framework &gt; Administration &gt; Properties, then s
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=atf-enable-tests.html)
+[Documentation](https://www.servicenow.com/docs/access?context=atf-enable-tests)
 
 </td></tr><tr><td>
 
@@ -1940,7 +1943,7 @@ Define Can Contribute or Cannot Contribute user criteria for each knowledge base
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=select-user-criteria-for-knowledge-block.html)
+[Documentation](https://www.servicenow.com/docs/access?context=select-user-criteria-for-knowledge-block)
 
 </td></tr><tr><td>
 
@@ -1972,7 +1975,7 @@ Review the changes to these server/client scripts and revert to the baseline ver
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=upgrademon-process-skip-list.html)
+[Documentation](https://www.servicenow.com/docs/access?context=upgrademon-process-skip-list)
 
 </td></tr><tr><td>
 
@@ -2004,7 +2007,7 @@ Replace unsupported API calls with supported APIs such as **GlideQueryGlobalAPI*
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=api-server.html)
+[Documentation](https://www.servicenow.com/docs/access?context=api-server)
 
 </td></tr><tr><td>
 
@@ -2036,7 +2039,7 @@ Review the HR Template and remove the group if needed or disable the assignment 
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-hr-case-template.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-hr-case-template)
 
 </td></tr><tr><td>
 
@@ -2100,7 +2103,7 @@ Rename the Breakdown with an appropriate and unique name.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreatingABreakdownForIndicators.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreatingABreakdownForIndicators)
 
 </td></tr><tr><td>
 
@@ -2132,7 +2135,7 @@ In the Indicators tab, select the name of the job indicator that you want to con
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-job-indicator.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-job-indicator)
 
 </td></tr><tr><td>
 
@@ -2164,7 +2167,7 @@ Review the idicators defined in collection jobs to ensure they are not defined f
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-job-indicator.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-job-indicator)
 
 </td></tr><tr><td>
 
@@ -2196,7 +2199,7 @@ Investigate the root cause for the dashboard to have no tabs. If the dashboard w
 
 </td><td>
 
-[Documentation](http://docs.servicenow.com/csh?topicname=t_MoveDashboardWithUpdateSet.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_MoveDashboardWithUpdateSet)
 
 </td></tr><tr><td>
 
@@ -2228,7 +2231,7 @@ Use the default states on the Releases table.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=default-state-categories-for-release-and-release-task-tables.html)
+[Documentation](https://www.servicenow.com/docs/access?context=default-state-categories-for-release-and-release-task-tables)
 
 </td></tr><tr><td>
 
@@ -2260,7 +2263,7 @@ Use the $\{\} or **gs.getMessage**\(\) syntax in the HTML Template, Client Scrip
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=c_WidgetLocalization.html)
+[Documentation](https://www.servicenow.com/docs/access?context=c_WidgetLocalization)
 
 </td></tr><tr><td>
 
@@ -2292,7 +2295,7 @@ Use the default states for HR-related records.
 
 </td><td>
 
-[Documentation](https://docs.servicenow.com/csh?topicname=c_BPForStateFieldChoiceValues.html%23t_StateModificationExamples)
+[Documentation](https://www.servicenow.com/docs/access?context=c_BPForStateFieldChoiceValues)
 
 </td></tr><tr><td>
 
@@ -2324,7 +2327,7 @@ Publish the workflows which are checked out for more than 7 days.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=workflow-editor.html)
+[Documentation](https://www.servicenow.com/docs/access?context=workflow-editor)
 
 </td></tr><tr><td>
 
@@ -2356,7 +2359,7 @@ For the Facts Table, select the table that the breakdown source gets elements fr
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_DefiningABreakdownSource.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_DefiningABreakdownSource)
 
 </td></tr><tr><td>
 
@@ -2388,7 +2391,7 @@ Add a mapping to the interactive filter on the "Interactive Filter References" r
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateAReferenceFieldPublisher.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher)
 
 </td></tr><tr><td>
 
@@ -2420,7 +2423,7 @@ Activate the user or assign the report to an already active user.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ShareASetting.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ShareASetting)
 
 </td></tr><tr><td>
 
@@ -2452,7 +2455,7 @@ Re-schedule the automated indicator so that it continues to run.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CreateAnAutomatedIndicator.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAnAutomatedIndicator)
 
 </td></tr><tr><td>
 
@@ -2484,7 +2487,7 @@ Create a breakdown that uses the breakdown source or remove the breakdown source
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_DefiningABreakdownSource.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_DefiningABreakdownSource)
 
 </td></tr><tr><td>
 
@@ -2516,7 +2519,7 @@ Add a category and catalog to the record producer.
 
 </td><td>
 
-[Documentation](https://docs.servicenow.com/csh?topicname=configure-hr-service.html%23configure-hr-service)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-hr-service)
 
 </td></tr><tr><td>
 
@@ -2548,7 +2551,7 @@ Assign the role to the users which need access to the report.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ShareASetting.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ShareASetting)
 
 </td></tr><tr><td>
 
@@ -2612,7 +2615,7 @@ Add a category value to the notification.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=create-notification-categories.html)
+[Documentation](https://www.servicenow.com/docs/access?context=create-notification-categories)
 
 </td></tr><tr><td>
 
@@ -2644,7 +2647,7 @@ Review the duplicate data and remove data that is deemed as unnecessary.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=configure-csm-foundation-data.html)
+[Documentation](https://www.servicenow.com/docs/access?context=configure-csm-foundation-data)
 
 </td></tr><tr><td>
 
@@ -2708,7 +2711,7 @@ Make sure the correct group is assigned to the activity and that there are activ
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=wf-activity-overview.html)
+[Documentation](https://www.servicenow.com/docs/access?context=wf-activity-overview)
 
 </td></tr><tr><td>
 
@@ -2740,7 +2743,7 @@ Create a breakdown mapping.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_CrtBkdnBreakdownMpngs.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CrtBkdnBreakdownMpngs)
 
 </td></tr><tr><td>
 
@@ -2772,7 +2775,7 @@ Create a related Angular ng-template record for the widget.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=widget-best-practices.html)
+[Documentation](https://www.servicenow.com/docs/access?context=widget-best-practices)
 
 </td></tr><tr><td>
 
@@ -2804,7 +2807,7 @@ Investigate this Report to ensure that the group sharing on this report is accur
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_ShareASetting.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_ShareASetting)
 
 </td></tr><tr><td>
 
@@ -2843,7 +2846,7 @@ If the auto-generated information that is captured within an incident is edited,
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=create-an-incident.html)
+[Documentation](https://www.servicenow.com/docs/access?context=create-an-incident)
 
 </td></tr><tr><td>
 
@@ -2945,7 +2948,7 @@ Without mandatory fields, data collection on the Change Task table can be less e
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=t_MakingAFieldMandatory.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_MakingAFieldMandatory)
 
 </td></tr><tr><td>
 
@@ -2977,7 +2980,7 @@ Add a mapping to the interactive filter on the "Cascading Filter" related list.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=create-cascading-filter.html)
+[Documentation](https://www.servicenow.com/docs/access?context=create-cascading-filter)
 
 </td></tr><tr><td>
 
@@ -3009,7 +3012,7 @@ Review and resolve automatic indicators that are not entering scores.
 
 </td><td>
 
-[Documentation](https://docs.servicenow.com/csh?topicname=t_CreateAnAutomatedIndicator.html)
+[Documentation](https://www.servicenow.com/docs/access?context=t_CreateAnAutomatedIndicator)
 
 </td></tr><tr><td>
 
@@ -3041,7 +3044,7 @@ Set up percentage-based thresholds for metric data. Use the new role **sn\_grc\_
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=rn-summary-removed-features.html)
+[Documentation](https://www.servicenow.com/docs/access?context=rn-summary-removed-features)
 
 </td></tr><tr><td>
 
@@ -3073,7 +3076,7 @@ Consider using **GlideElement** API or the Key Management Framework as alternati
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=GlideEncrypterAPI.html)
+[Documentation](https://www.servicenow.com/docs/access?context=GlideEncrypterAPI)
 
 </td></tr><tr><td>
 
@@ -3110,7 +3113,7 @@ System errors and performance degradation may occur due to unnecessary condition
 
 </td><td>
 
-[Documentation](https://docs.servicenow.com/csh?topicname=include-or-exclude-user-access-for-event-types.html)
+[Documentation](https://www.servicenow.com/docs/access?context=include-or-exclude-user-access-for-event-types)
 
 </td></tr><tr><td>
 
@@ -3142,7 +3145,7 @@ Get the application Security Center from &lt;ph conref="../reusables/conrefs.dit
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=instance-security-center-to-security-center-migration.html)
+[Documentation](https://www.servicenow.com/docs/access?context=instance-security-center-to-security-center-migration)
 
 </td></tr><tr><td>
 
@@ -3174,7 +3177,7 @@ Consider using the new table **sys\_analytics\_user\_consent\_decision** instead
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=rn-summary-removed-features.html)
+[Documentation](https://www.servicenow.com/docs/access?context=rn-summary-removed-features)
 
 </td></tr><tr><td>
 
@@ -3494,7 +3497,7 @@ Update the object name or field name in the flow step script.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=inline-scripts.html)
+[Documentation](https://www.servicenow.com/docs/access?context=inline-scripts)
 
 </td></tr><tr><td>
 
@@ -3526,7 +3529,7 @@ Update the field name in the flow step script.
 
 </td><td>
 
-[Documentation](https://www.servicenow.com/docs/csh?topicname=inline-scripts.html)
+[Documentation](https://www.servicenow.com/docs/access?context=inline-scripts)
 
 </td></tr><tr><td>
 

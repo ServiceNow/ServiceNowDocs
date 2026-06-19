@@ -2,6 +2,7 @@
 title: RTE operation types included within the Integration Commons for CMDB app
 description: The Robust Transform Engine \(RTE\) operation types are common operation methods for use in ETL without having to write your own complex data transformations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/cmdb-rte-operation-types.html
 release: australia
 product: CMDB Integration Commons
 classification: cmdb-integration-commons

@@ -2,7 +2,10 @@
 title: Case line task form
 description: The case line task form displays details about a case line task associated with a case line item on a case record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/case-line-task-form.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

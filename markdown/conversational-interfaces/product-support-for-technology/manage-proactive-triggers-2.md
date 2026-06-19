@@ -2,6 +2,7 @@
 title: Manage Proactive Triggers
 description: After admins have installed Proactive Triggers and created related actions and rules, admins can check that the Proactive Triggers feature is performing as expected. For example, admins can view the Proactive Execution History table and the Proactive Daily Report table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/manage-proactive-triggers-2.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -41,7 +42,7 @@ The following table lists issues that you may encounter when you're creating rul
 |Issue|Resolution|
 |-----|----------|
 |If a trigger type is defined as a URL in the rule, when the page is actually a catalog item, knowledge, or portal, the rule won't run.|Admin must fix the rule to match the page type.|
-|The **Frequency** is set to run once per user but the rules don't run.|Clear the rule history at the rule level. For details on clearing the rule history, see [Multiple Proactive Triggers rules and actions](multiple-rules-and-actions.md).|
+|The **Frequency** is set to run once per user but the rules don't run.|Clear the rule history at the rule level. For details on clearing the rule history, see [Multiple Proactive Triggers rules and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/product-support-for-technology/multiple-rules-and-actions.md).|
 |Rule doesn't run for some end users, and the **action** type selected is **virtual agent topic**.|End users may not have access to the Virtual Agent topic defined on the action. Check the access to the topic in Virtual Agent Designer.|
 |The Proactive Triggers rule doesn't run.|Close any active conversations in the Virtual Agent chat widget.|
 

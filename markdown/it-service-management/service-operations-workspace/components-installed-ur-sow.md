@@ -2,6 +2,7 @@
 title: Universal Request in Service Operations Workspace reference
 description: Universal Request is activated in Service Operations Workspace when you enable the Universal Request plugin \(com.snc.universal\_request\). This topic provides information about components installed with Universal Request in Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/components-installed-ur-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -50,5 +51,5 @@ Routing agent \[sn\_uni\_req.routing\_agent, sn\_uni\_req.universal\_request\_wr
 Handle interactions and create universal request from interaction.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Universal Request in Service Operations Workspace](../concept/using-ur-sow.md)
+</table>**Parent Topic:**[Universal Request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/using-ur-sow.md)
 

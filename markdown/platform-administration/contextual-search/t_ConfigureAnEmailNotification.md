@@ -2,6 +2,7 @@
 title: Edit an email notification for the search results
 description: Include search results in an email notification sent to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/t\_ConfigureAnEmailNotification.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -31,10 +32,10 @@ Role required: admin
 
     `${mail_script:cxs_EmailSearchResults}`
 
-    ![Notification form's What it will contain section with script added to Message HTML field.](../image/edit-email-notification.png)
+    \[Omitted image "edit-email-notification.png"\] Alt text: Notification form's What it will contain section with script added to Message HTML field.
 
 5.  Select and hold \(or right-click\) on the header form and click **Save**.
 
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

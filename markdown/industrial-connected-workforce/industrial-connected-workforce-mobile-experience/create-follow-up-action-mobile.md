@@ -2,6 +2,7 @@
 title: Create a follow-up action
 description: Create a follow-up action for a task with the Industrial Connected Workforce Mobile Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-follow-up-action-mobile.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -37,7 +38,7 @@ The following procedure describes creating a follow-up action from an existing a
 
 4.  Change the values for the fields.
 
-    For a description of the field values, see [Action form](../reference/action-form-mobile.md).
+    For a description of the field values, see [Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/action-form-mobile.md).
 
 5.  Select **Next** twice to go through the entire form.
 
@@ -48,5 +49,5 @@ The following procedure describes creating a follow-up action from an existing a
 
 The new follow-up action is created and displayed in the Follow-up actions related list of the origin task. Follow-up actions can also be created from this list. Closing of follow-up tasks isn’t a prerequisite for closing of the origin task.
 
-**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](../concept/using-icw-mobile-experience.md)
+**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
 

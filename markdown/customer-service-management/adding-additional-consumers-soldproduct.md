@@ -2,7 +2,10 @@
 title: Add additional consumers for the sold product
 description: Add additional consumers for your business-to-consumer \(B2C\) or business-to-business-to-consumer \(B2B2C\) sold products by defining the type and responsibility of additional consumers. After you add this information, additional consumers can have the same access to the consumer associated with the sold product and the related entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/adding-additional-consumers-soldproduct.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -71,7 +74,7 @@ Responsibility
 
 </td><td>
 
-Access level to sold product and related information.Additional consumer with Authorized Representative responsibility requires the sn\_install\_base.sold\_product\_authorized\_consumer role to get access to associated sold product and related entities. For details, see [Roles installed with customer access management](../reference/r_rolesinstalledwithcustaccessmgmt.md).
+Access level to sold product and related information.Additional consumer with Authorized Representative responsibility requires the sn\_install\_base.sold\_product\_authorized\_consumer role to get access to associated sold product and related entities. For details, see [Roles installed with customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md).
 
  **Note:** If the **Responsibility** field is empty, consumers can’t access the sold product and associated case.
 

@@ -2,6 +2,7 @@
 title: Resource Event form
 description: Use the Resource Event form to update resource even which is part of resource plan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/rsrc-event-form.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -84,5 +85,5 @@ User
 The user associated with the event.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Resource Management reference](../task/rsrc-mgmt-reference.md)
+</table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

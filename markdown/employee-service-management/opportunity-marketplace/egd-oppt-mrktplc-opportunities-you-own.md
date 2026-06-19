@@ -2,6 +2,7 @@
 title: Opportunities you own in Opportunity Marketplace
 description: From the Opportunities you own page in Opportunity Marketplace you can create, manage, and monitor opportunities. User criteria enables access to creating and updating opportunities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-opportunities-you-own.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -29,5 +30,5 @@ Select **New applicants** to view opportunities that have new applications that 
 
 Select **Accepting applications** to view a list of active opportunities that employees can apply to.
 
-**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](egd-oppt-mrktplc-explore.md)
+**Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

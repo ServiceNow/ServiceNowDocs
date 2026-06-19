@@ -2,6 +2,7 @@
 title: Allow HTML Links to Trusted Domains in the Description Fields of the Impact Workspace Module \[New in Security Center 7.0\]
 description: Use a system property to help sanitize the HTML allowed in the descriptions fields. This property limits the allowed links to only those from the trusted domains listed in the property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-allow-html-links-to-trusted-domains-in-the-description-fields-of-the-impact-workspace-module.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -87,7 +88,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -116,7 +117,7 @@ Dependencies and prerequisites
 If the **sn\_impact\_common.blacklist\_tags\_HTML\_injection** system property contains HTML tags that surround HREF links, then all links within those tags will be removed.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+</table>To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

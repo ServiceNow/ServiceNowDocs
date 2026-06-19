@@ -2,6 +2,7 @@
 title: Domain separation and Orchestration
 description: Domain separation is supported in Orchestration. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/domain-separation-orchestration.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -26,5 +27,5 @@ Use case: As an admin, I need the ability to make comments mandatory on close of
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

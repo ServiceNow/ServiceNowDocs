@@ -2,12 +2,13 @@
 title: Analytics and reporting using the DevOps Config Insights dashboard
 description: Use the DevOps Config Insights dashboard with Performance Analytics to quickly identify configuration errors and take action. View snapshot validation trend, open changesets, and failed snaphots for all applications and deployables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-insights-dashboard.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [DevOps Config, IT Service Management]
 ---
 
@@ -15,11 +16,11 @@ breadcrumb: [DevOps Config, IT Service Management]
 
 Use the DevOps Config Insights dashboard with Performance Analytics to quickly identify configuration errors and take action. View snapshot validation trend, open changesets, and failed snaphots for all applications and deployables.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Error thresholds are configurable and widgets are customizable \(you can rearrange or hide them\).
 
-You can filter results on applications, deployables, and by date.![DevOps Config Insights home](../image/devops-config-insights-home.png)
+You can filter results on applications, deployables, and by date.\[Omitted image "devops-config-insights-home.png"\] Alt text: DevOps Config Insights home
 
 <table id="table_jcx_kdg_wpb"><thead><tr><th>
 
@@ -70,13 +71,13 @@ Recommended actions for policies that have exceptions.
 </td></tr></tbody>
 </table>## DevOps Config Insights Open changesets
 
-![DevOps Config Insights Changesets](../image/devops-config-insights-changeset.png)
+\[Omitted image "devops-config-insights-changeset.png"\] Alt text: DevOps Config Insights Changesets
 
 Review the changeset details and either make changes to the config data and commit the changeset, or discard the changeset altogether. You generally want this number to be 0 on the dashboard.
 
 ## DevOps Config Insights Failed snapshots
 
-![DevOps Config Insights snapshot](../image/devops-config-insights-snapshot.png)
+\[Omitted image "devops-config-insights-snapshot.png"\] Alt text: DevOps Config Insights snapshot
 
 Investigate the snapshots and fix misconfigurations, or identify changes that need to be made to a policy. You generally want this number to be 0 on the dashboard.
 

@@ -2,6 +2,7 @@
 title: Configure
 description: Configure Dynamic Guidance to be available in the Help Center and Now Assist panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/configure.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -38,6 +39,6 @@ Follow these steps to enable Dynamic Guidance on Help Center and Now Assist pane
 
 ## What to do next
 
--   Configure external content connectors to integrate with Dynamic Guidance. See [External content connector in Dynamic Guidance](external-content-connector-in-dynamic-guidance.md).
--   Link Dynamic Guidance to additional documentation sources. See [Adding custom sources](../task/adding-custom-sources.md).
+-   Configure external content connectors to integrate with Dynamic Guidance. See [External content connector in Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/external-content-connector-in-dynamic-guidance.md).
+-   Link Dynamic Guidance to additional documentation sources. See [Adding custom sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/adding-custom-sources.md).
 

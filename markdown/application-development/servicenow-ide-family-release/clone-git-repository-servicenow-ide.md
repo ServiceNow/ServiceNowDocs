@@ -2,6 +2,7 @@
 title: Clone a Git repository with the ServiceNow IDE
 description: Clone a remote Git repository to collaborate on applications in source control with the ServiceNow IDE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/clone-git-repository-servicenow-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -17,8 +18,8 @@ Clone a remote Git repository to collaborate on applications in source control w
 
 ## Before you begin
 
--   Create a workspace for your applications. For more information, see [Create a workspace in the ServiceNow IDE](create-workspace-servicenow-ide.md).
--   Set your basic or OAuth 2.0 credentials for the ServiceNow IDE to connect to your Git repository. For more information, see [Connect to a Git provider using basic authentication with the ServiceNow IDE](connect-git-provider-basic-auth.md) or [Configure OAuth 2.0 credentials to connect to a Git provider with the ServiceNow IDE](../concept/connect-git-provider-oauth-2.md#).
+-   Create a workspace for your applications. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
+-   Set your basic or OAuth 2.0 credentials for the ServiceNow IDE to connect to your Git repository. For more information, see [Connect to a Git provider using basic authentication with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/connect-git-provider-basic-auth.md) or [Configure OAuth 2.0 credentials to connect to a Git provider with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/connect-git-provider-oauth-2.md).
 
 Role required: admin
 
@@ -28,7 +29,7 @@ You can clone a remote Git repository that contains applications created or conv
 
 **Note:** ServiceNow IDE supports cloning from Git servers on Git version 2.3.2 or later.
 
-Cloning is intended for developing an application on multiple non-production instances and managing it in a single repository. To publish an application and deploy it to a production instance, use the Application Repository. For more information, see [ServiceNow application repository](../../applications/concept/app-repo.md).
+Cloning is intended for developing an application on multiple non-production instances and managing it in a single repository. To publish an application and deploy it to a production instance, use the Application Repository. For more information, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/application-repository-self-hosted/app-repo.md).
 
 ## Procedure
 
@@ -51,5 +52,5 @@ The application is added to the instance and your workspace with the files from 
 
 ## What to do next
 
-You can check out or create branches in the repository and push changes to the remote repository. For more information, see [Using source control in the ServiceNow IDE](../concept/using-source-control-servicenow-ide.md).
+You can check out or create branches in the repository and push changes to the remote repository. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).
 

@@ -2,6 +2,7 @@
 title: Use MID Server guided setup
 description: MID Server guided setup provides a sequence of tasks that help you install a MID Server with the proper user account and validate the MID Server. If you are setting up a MID Server for the first time, this is a good way to get one up and running in your environment quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/use-mid-server-guidedsetup.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -47,19 +48,19 @@ Each configuration activity provides the following resources to help you:
     -   If you have completed any of the MID Server installation and configuration tasks, select **Continue** to return to the task list.
     -   Select the MID Server icon in the progress bar on the left side of the category screen to display the MID Server category pane at any time.
 
-        ![MID Server installation progress indicator](../image/SelectMIDGuidedSetup.png "Continuing MID Server guided setup from the progress bar")
+        \[Omitted image "SelectMIDGuidedSetup.png"\] Alt text: MID Server installation progress indicator
 
 3.  Select **Continue**.
 
     The IT Operations Management Guided Setup category screen appears. The controls for starting the MID Server tasks are at the top of the list. Complete these tasks before setting up other applications that rely on the MID Server.
 
-    ![MID Server Guided Setup category](../image/MIDServerGuidedSetupCategory.png)
+    \[Omitted image "MIDServerGuidedSetupCategory.png"\] Alt text: MID Server Guided Setup category
 
 4.  In the MID Server pane, select **Get Started**.
 
     The MID Server task list appears with a description of each task.
 
-    ![MID Server Guided Setup task list](../image/MIDServerGuidedSetupList.png)
+    \[Omitted image "MIDServerGuidedSetupList.png"\] Alt text: MID Server Guided Setup task list
 
 5.  Select **Configure** to create the MID Server user and follow the instructions in the help pane that appears on the right side of the screen.
 
@@ -69,17 +70,17 @@ Each configuration activity provides the following resources to help you:
 
     The view returns to the task list. Notice that the circular progress indicator for the category shows 33% of the MID Server configuration complete. The progress indicator on the left side of the screen shows the completion percentage for all the IT Operations Management tasks.
 
-    ![MID Server Guided Setup completion percentage](../image/MIDServerGuidedInProgress.png)
+    \[Omitted image "MIDServerGuidedInProgress.png"\] Alt text: MID Server Guided Setup completion percentage
 
 7.  Select **Configure** for the next task, **Download &amp; Install MID**.
 
     -   Java 21.0.7 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 21.0.7 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 21.0.7. If you are using a lower version than 17.0.10, you may see encryption related issues.
 
-    -   For information about the system requirements to host MID Servers, see [MID Server system requirements](../reference/r_MIDServerSystemRequirements.md)
+    -   For information about the system requirements to host MID Servers, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md)
 8.  Validate your new MID Server.
 
 
 ## What to do next
 
-If necessary, [deploy multiple MID Servers from a single host](t_InstallMultplMIDSvrOnASingleSys.md#) in your network. Otherwise, proceed to [configure your MID Server](../concept/c_MIDServerConfiguration.md).
+If necessary, [deploy multiple MID Servers from a single host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_InstallMultplMIDSvrOnASingleSys.md) in your network. Otherwise, proceed to [configure your MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
 

@@ -2,6 +2,7 @@
 title: Test a skill on the Alexa mobile app
 description: Test your Alexa skill using the Alexa mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/test-skill-mobile.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -30,5 +31,5 @@ Role required: none
     Alexa responds to the Virtual Agent and returns a greeting message.
 
 
-**Parent Topic:**[Set up Conversational Integration with Alexa](setup-alexa.md)
+**Parent Topic:**[Set up Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-alexa.md)
 

@@ -2,6 +2,7 @@
 title: Key dependencies for Operational Resilience
 description: Before you install the Operational Resilience application, you must install the required GRC applications in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/or-app-dependency.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Before you install the Operational Resilience application, you must install the 
 
 The following example shows the Operational Resilience hierarchy, required GRC applications, and optional GRC applications that you can add to the reporting dashboard.
 
-![Operational Resilience application hierarchy.](../image/or-application-dependency.png "Operational Resilience application hierarchy")
+\[Omitted image "or-application-dependency.png"\] Alt text: Operational Resilience application hierarchy.
 
 ## Required and optional plugins for Operational Resilience
 

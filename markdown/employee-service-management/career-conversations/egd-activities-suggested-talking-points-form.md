@@ -2,6 +2,7 @@
 title: Suggested Talking Points table
 description: Career Conversations administrators can manage conversations that are used by managers and employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/career-conversations/egd-activities-suggested-talking-points-form.html
 release: australia
 product: Career Conversations
 classification: career-conversations
@@ -26,5 +27,5 @@ The form that appears when you select a record in the Suggested Talking Points t
 |**User criteria**|Select the criteria that must meet to have access to this talking point.|
 |**Conversation type**|The types of conversations to which your suggested talking point is applicable.|
 
-**Parent Topic:**[Career Conversations reference](../concept/egd-activities-reference.md)
+**Parent Topic:**[Career Conversations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/career-conversations/egd-activities-reference.md)
 

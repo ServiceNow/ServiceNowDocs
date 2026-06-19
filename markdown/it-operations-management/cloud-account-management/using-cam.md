@@ -2,6 +2,7 @@
 title: Using Cloud Account Management in Cloud Workspace
 description: The Cloud Account Management app provides the capability to manage your cloud accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/using-cam.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

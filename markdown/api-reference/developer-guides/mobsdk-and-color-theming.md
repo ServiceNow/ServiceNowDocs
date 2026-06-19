@@ -2,6 +2,7 @@
 title: Use NowUIColoring to theme NowWebTheme and NowChatTheme
 description: The NowUIColoring interface contains all the colors used by all NowSDK modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-color-theming.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK Developer Guide - Android, Developer guides, API impleme
 
 The NowUIColoring interface contains all the colors used by all NowSDK modules.
 
-For scenarios where you use similar color variables across multiple SDK modules, you can implement the NowUIColoring interface. Using this interface you can override color values and then use that implementation to override the nowUIColoring values inside the theme classes [NowWebTheme](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowWebTheme/concept/NowWebThemeAndroidInterface.md) and [NowChatTheme](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowChatTheme/concept/NowChatThemeColorsAndroidInterface.md). If color variables aren’t overridden, the NowUIColoring interface uses the default colors.
+For scenarios where you use similar color variables across multiple SDK modules, you can implement the NowUIColoring interface. Using this interface you can override color values and then use that implementation to override the nowUIColoring values inside the theme classes [NowWebTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeAndroidInterface.md) and [NowChatTheme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeColorsAndroidInterface.md). If color variables aren’t overridden, the NowUIColoring interface uses the default colors.
 
 The following code example shows how to override colors for both a web UI and a chat UI.
 

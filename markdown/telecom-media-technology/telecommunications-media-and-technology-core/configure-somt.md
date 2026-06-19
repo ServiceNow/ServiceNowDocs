@@ -1,0 +1,44 @@
+---
+title: Configuring Sales CRM for Telecommunications
+description: Set up the Sales CRM for Telecommunications application so that your agents can work on various stages of the product sales life cycle, such as sales opportunities, quotes, order capture and fulfillment, contracts and entitlements, and also the basic product catalog and pricing features used by each application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/telecommunications-media-and-technology-core/configure-somt.html
+release: australia
+product: Telecommunications, Media and Technology Core
+classification: telecommunications-media-and-technology-core
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+---
+
+# Configuring Sales CRM for Telecommunications
+
+Set up the Sales CRM for Telecommunications application so that your agents can work on various stages of the product sales life cycle, such as sales opportunities, quotes, order capture and fulfillment, contracts and entitlements, and also the basic product catalog and pricing features used by each application.
+
+To learn about how to install and configure a set of Sales CRM for Telecommunications applications, see the following:
+
+|Applications|Description|
+|------------|-----------|
+|[Activate Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/activate-somt.md)|Activate the Sales CRM for Telecommunications plugin for Sales CRM for Telecommunications if you have the admin role. The application includes demo data and activate related ServiceNow® Store applications and plugins if they aren't already installed.|
+||It enables sales agents and sales development representatives to create leads and provide pre-sales product recommendations based on customer needs.|
+||It enables sales agents and account executives to get pre-sales product recommendations based on customer needs. You then assign the user roles and configure related features, such as needs analysis, used in Opportunity Management.|
+||Use the Sales Forecasting application to project your future sales volumes and revenue based data from opportunities and pipeline analysis.|
+|[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/configuring-product-offerings-catalog.md)|Create product offerings and the associated product catalogs that can be used by Sales Customer Relationship Management agents for pre-sales activities, order capture, and post-sales engagement.|
+||Use the Pricing Management application to create the price lists and price list lines, define pricing adjustments, and manage other features that control pricing for product offerings.|
+||In Sales Customer Relationship Management, agents can create opportunities, quotes, and orders tailored to customer location. These transactions are called location-based product transactions.|
+||Plan and configure your implementation of the CPQ Configurator. Product catalog admins and agents run CPQ Configurator in the CSM Configurable Workspace, while customers using self-service features use it in the Business Portal.|
+||Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.|
+||Use the Sales Agreement Management application to create sales agreements between a buyer and a seller for future transactions.|
+||It enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.|
+||Plan and configure your implementation of Customer Engagement Sequences.|
+||Order fulfillment is the process for fulfilling customer orders by using Workflow Studio. Order fulfillment, also referred as order orchestration, defines how to coordinate the fulfillment of orders.|
+||Associate enrichment subflows with the product or service specifications by using the Order Enrichment Flow Policy in Decision Tables.|
+||You can configure Jeopardy Management to monitor tasks in a fulfillment plan and alert managers about the jeopardy levels.|
+||As a provider, you can use Fallout Management to identify, investigate, and resolve order processing issues so that orders can continue processing through to completion.|
+|[Configuring Order Management for Service Exchange Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/order-mgt-configuring-customers.md)|As a customer, you must complete some configuration tasks so that you can set up the Order Management application.|
+||Efficiently handle a variety of post-fulfillment changes to maintain service quality and operational accuracy after initial order fulfillment. These changes include canceling, suspending, resuming, disconnecting, and modifying orders. Each change type has distinct workflows, dependencies, and impacts on inventory and service states.|
+||Asynchronous order processing handles high-volume enterprise and consumer orders without waiting for immediate processing, improving system performance for communications service providers \(CSP\) using Order Management.|
+|[Configuring order priority and routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/order-mgt-priority-management.md)|As a provider, you can configure various parameters to prioritize and route orders to ensure that they are fulfilled on time.|
+|[Integrating Order Management with southbound external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecommunications-media-and-technology-core/order-mgt-integrate-southbound.md)|If you have a Telecommunications Service Management subscription, you can submit outbound service order requests to various external systems by integrating the Order Management application with the external southbound systems.|
+

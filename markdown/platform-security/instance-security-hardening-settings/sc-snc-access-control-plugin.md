@@ -2,6 +2,7 @@
 title: Enable SNC access control plugin
 description: Activate the SNC Access Control \(com.snc.snc\_access\_control\) plugin to control access to your instances by Customer Service and Support personnel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-snc-access-control-plugin.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -27,7 +28,7 @@ Ensure that the SNC Access Control \(com.snc.snc\_access\_control\) plugin is ac
 |---------|-----------|
 |Plugin Name|**com.snc.snc\_access\_control**|
 |Configuration type|System Definition &gt; Plugins|
-|Category|[Access control](sc-access-control.md)|
+|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|Prohibits Customer Service and Support employees from accessing the instance|
 |Recommended value|Active|
 |Default value|None. This is a plugin, not a Glide property, so there is no default value. The plugin is not installed by default.|
@@ -35,12 +36,12 @@ Ensure that the SNC Access Control \(com.snc.snc\_access\_control\) plugin is ac
 |Security risk rating|3.3|
 |Functional impact|If this plugin is inactive, all Customer Service and Support employees can access the customer's instance. Enabling the plugin enables the customer to restrict access to authorized Customer Service and Support employees only.|
 |Security risk|\(High\) Unnecessary exposure of instance access to wider group of people.|
-|References|[ServiceNow access control](../../security/concept/c_SNCAccessControl.md)|
+|References|[ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/c_SNCAccessControl.md)|
 
 ## Steps to configure
 
-1.  To request the plugin, follow the steps in [Activate ServiceNow access control](../../security/task/t_ActivateSNCAccessControl.md). Customers must request the SNC Access Control plugin \(com.snc.snc\_access\_control\) from HI.
-2.  To enable SNC access control, follow the steps in [Configure ServiceNow access control](../../security/task/t_ConfigureAccessControl.md). Configure an access control record to specify one or more Customer Service and Support employees that have permission to log in your instance.
+1.  To request the plugin, follow the steps in [Activate ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_ActivateSNCAccessControl.md). Customers must request the SNC Access Control plugin \(com.snc.snc\_access\_control\) from HI.
+2.  To enable SNC access control, follow the steps in [Configure ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/t_ConfigureAccessControl.md). Configure an access control record to specify one or more Customer Service and Support employees that have permission to log in your instance.
 
-**Parent Topic:**[Access control](sc-access-control.md)
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

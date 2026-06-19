@@ -2,11 +2,14 @@
 title: Configure exception reason properties
 description: When real-time enforcement, enforce\_real\_time\_validation is set to true, Recommend level findings require an approved exception reason before the form can be saved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/exception-reason-properties.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine properties, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
 # Configure exception reason properties
@@ -53,4 +56,6 @@ Role required: sn\_se.scan\_engine\_admin, sn\_se.scan\_engine\_read\_user, sn\_
     -   Options are **Auto Accept Existing Reason** \(default\) and **Re-approve Existing Reason**.
     Choose whether to automatically accept the existing reason.
 
+
+**Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md)
 

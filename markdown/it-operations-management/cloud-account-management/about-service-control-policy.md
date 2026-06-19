@@ -2,6 +2,7 @@
 title: Configuring Service Control Policy in AWS
 description: The AWS admin configures a Service Control Policy \(SCP\) and shares its ID with the ServiceNow AI Platform admin for Cloud Account Management setup. Cloud Account Management enforces the SCP via API calls to block resource creation in the account.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/about-service-control-policy.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

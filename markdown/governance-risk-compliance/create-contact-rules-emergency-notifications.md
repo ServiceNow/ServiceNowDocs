@@ -2,6 +2,7 @@
 title: Create contacts for emergency notifications
 description: Use the ServiceNow users list to create contacts manually and synchronize the contacts with Everbridge to send emergency notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-contact-rules-emergency-notifications.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -117,7 +118,7 @@ Error in syncing the contact with Everbridge.
 
     4.  Click **Submit**.
 
-6.  To import contacts using a sync rule, you must first [create a contact import rule](contact-import-sync-rule.md).
+6.  To import contacts using a sync rule, you must first [create a contact import rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/contact-import-sync-rule.md).
 
 7.  To import contacts based on contact sync rules, click **Import users** button.
 

@@ -2,6 +2,7 @@
 title: Health and Safety Incident Management
 description: The ServiceNow Health and Safety Incident Management application is a solution in Health and Safety that enables organizations to record, track, and report on health and safety related employee incidents and observations. Furthermore, it provides capabilities to investigate and reduce incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -17,7 +18,7 @@ The ServiceNow® Health and Safety Incident Management application is a solution
 
 This solution automates processes that facilitate cross-departmental collaboration and enable everyone to monitor and track incident status, from initiation to resolution and reporting needs.
 
-![Features of Health and Safety Incident Management.](../image/explore-hs-health-safety.png "Health and Safety Incident Management overview")
+\[Omitted image "explore-hs-health-safety.png"\] Alt text: Features of Health and Safety Incident Management.
 
 The image shows an overview of Health and Safety Incident Management and its capabilities such as:
 
@@ -29,31 +30,31 @@ The image shows an overview of Health and Safety Incident Management and its cap
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how employees, safety managers, and agents use Health and Safety Incident Management.](explore-hs-incident-mgmt.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, safety managers, and agents use Health and Safety Incident Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/explore-hs-incident-mgmt.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Set up Health and Safety Incident Management.](setting-up-hs-incident-mgmt.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up Health and Safety Incident Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
 
 </td><td>
 
-[Submit incidents ![](../../../reuse/icons/brand-icons/bus-task-list.svg) Submit and track safety incidents and observations.](submitting-safety-incidents-obvs.md)
+[Submit incidents \[Omitted image "bus-task-list.svg"\] Alt text: Submit and track safety incidents and observations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/submitting-safety-incidents-obvs.md)
 
 </td></tr><tr><td>
 
-[Manage incidents![](../../../reuse/icons/brand-icons/bus-manage.svg) Manage safety incidents and observations to investigate and resolve them.](managing-hs-incidents-obs.md)
+[Manage incidents\[Omitted image "bus-manage.svg"\] Alt text: Manage safety incidents and observations to investigate and resolve them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 
 </td><td>
 
-[Reporting![](../../../reuse/icons/brand-icons/bus-log-store.svg) Fill and export reporting forms for injuries and illnesses in your organization.](injury-illness-reports.md)
+[Reporting\[Omitted image "bus-log-store.svg"\] Alt text: Fill and export reporting forms for injuries and illnesses in your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/injury-illness-reports.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components such as roles, tables, plugins, and store applications that are installed.](hs-incident-mgmt-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-reference.md)
 
 </td></tr></tbody>
 </table>

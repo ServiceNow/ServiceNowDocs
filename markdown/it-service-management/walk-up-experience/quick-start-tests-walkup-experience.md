@@ -2,6 +2,7 @@
 title: Quick start tests for Walk-up Experience
 description: Validate that Walk-up Experience still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/quick-start-tests-walkup-experience.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -27,5 +28,5 @@ Walk-up Experience quick start tests require activating the Walk-up Experience p
 **Related topics**  
 
 
-[Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/quick-start-tests.md)
+[bundle-cadev.quick-start-tests]
 

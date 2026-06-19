@@ -2,6 +2,7 @@
 title: Cloud API \(CAPI\)
 description: The Cloud API \(CAPI\) enables you to integrate Cloud Provisioning and Governance with cloud providers using REST APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-management-api.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,11 +20,11 @@ The Cloud API \(CAPI\) enables you to integrate Cloud Provisioning and Governanc
 
 Integration with cloud providers is performed through REST calls, such as PUT, GET, POST, and DELETE. CAPI provides the framework for you to integrate a cloud vendors REST API so that your instance can communicate with the cloud provider to manage cloud resources.
 
-See [Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-product-type.md) to learn more.
+See  to learn more.
 
 CAPI contains these components:
 
-![CAPI overview](../image/capi-overview.png "CAPI overview")
+\[Omitted image "capi-overview.png"\] Alt text: CAPI overview
 
 -   **Providers**
 
@@ -54,7 +55,7 @@ CAPI contains these components:
 
 This image illustrates the components of CAPI that are used when you provision an Azure virtual machine using the default CAPI settings provided with Cloud Provisioning and Governance:
 
-![CAPI Azure](../image/capi-example.png "CAPI Azure")
+\[Omitted image "capi-example.png"\] Alt text: CAPI Azure
 
 In this example, the **Microsoft.Compute** product is contained in the **Azure** provider. Azure uses the **Microsoft.Compute** product for virtual machines. In your instance, the **Microsoft.Compute** product maps to the **Microsoft.Compute/virtualMachines** resource type, which is associated to the **Virtual Machine Instance** CI type in the CMDB.
 
@@ -90,13 +91,13 @@ CAPI integrates these components in your instance:
 
 This image illustrates how the components work together when a user provisions a resource from the Cloud User Portal:
 
-![CAPI and your instance](../image/capi-and-instance.png)
+\[Omitted image "capi-and-instance.png"\] Alt text: CAPI and your instance
 
 ## REST calls to the cloud provider
 
 REST calls to the cloud provider are triggered from the MID Server script includes that are referenced from scripted CAPI Method Mappers inside CAPI API records. To create your own CAPI APIs, or to create custom MID Server script includes \(which are part of CAPI Method Mappers\), you must understand:
 
--   The classes that are available for you to call in MID Server script includes. See [CAPI classes in MID Server script includes](mid-server-script-includes.md).
+-   The classes that are available for you to call in MID Server script includes. See [CAPI classes in MID Server script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/mid-server-script-includes.md).
 -   How the cloud provider implements REST. See:
     -   [Azure REST API Reference](https://docs.microsoft.com/en-us/rest/api/azure/)
     -   [AWS Guides and API References](https://docs.aws.amazon.com/index.html#lang/en_us)
@@ -110,13 +111,13 @@ Remember that the REST API calls take place inside the MID Server script include
 
 ## Get started here
 
-1.  [Review CAPI APIs that are provided with Cloud Provisioning and Governance by default](../reference/default-apis.md).
-2.  [Review the CAPI classes that are provided by default](mid-server-script-includes.md). These classes can be called from the MID Server script includes in your CAPI API operations.
-3.  Walk through the provisioning of an [Azure virtual machine](../task/walk-through-azure-provisioning.md) and an [AWS virtual machine](../task/walk-through-provisioning.md) to see how the components work together. The Azure walkthrough uses a MID Server script include so you can see the various CAPI classes used in the provision operation. The AWS walkthrough does not use a MID Server script include.
-4.  [Add a product to an existing provider in CAPI](../task/create-provider.md).
-5.  [Create a CI class for a virtual cloud resource](../task/create-a-ci-class-cloud.md).
-6.  [Create or extend a CAPI interface](../task/create-interface.md).
-7.  [Create a CAPI API](../task/create-api.md), and a custom MID Server script include that makes the REST calls to the cloud provider. An empty MID Server script include is always generated for new CAPI APIs. Modify it with the calls to other JavaScript classes and methods, such as the methods in the Invoker class.
+1.  [Review CAPI APIs that are provided with Cloud Provisioning and Governance by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/default-apis.md).
+2.  [Review the CAPI classes that are provided by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/mid-server-script-includes.md). These classes can be called from the MID Server script includes in your CAPI API operations.
+3.  Walk through the provisioning of an [Azure virtual machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/walk-through-azure-provisioning.md) and an [AWS virtual machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/walk-through-provisioning.md) to see how the components work together. The Azure walkthrough uses a MID Server script include so you can see the various CAPI classes used in the provision operation. The AWS walkthrough does not use a MID Server script include.
+4.  [Add a product to an existing provider in CAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-provider.md).
+5.  [Create a CI class for a virtual cloud resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-a-ci-class-cloud.md).
+6.  [Create or extend a CAPI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-interface.md).
+7.  [Create a CAPI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-api.md), and a custom MID Server script include that makes the REST calls to the cloud provider. An empty MID Server script include is always generated for new CAPI APIs. Modify it with the calls to other JavaScript classes and methods, such as the methods in the Invoker class.
 
-**Parent Topic:**[Cloud Provisioning and Governance](cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

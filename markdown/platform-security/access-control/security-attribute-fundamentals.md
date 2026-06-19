@@ -2,6 +2,7 @@
 title: Security Attributes Fundamentals
 description: A Security Attribute is highly configurable piece of information about a Subject or it’s Environment, when used in access controls, enables fine grain security configuration in a non-complex way.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/security-attribute-fundamentals.html
 release: australia
 product: Access Control
 classification: access-control

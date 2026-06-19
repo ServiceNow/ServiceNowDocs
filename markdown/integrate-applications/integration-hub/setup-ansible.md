@@ -2,6 +2,7 @@
 title: Set up the Ansible spoke
 description: Integrate your ServiceNow instance and Ansible Tower to automate Ansible spoke actions. For example, you can create a flow that retrieves a list of credentials from the Ansible Tower environment.Create an OAuth application on the Ansible Tower to have the connection requests from your ServiceNow instance authenticated by the OAuth application.Create the connection record that contains the information that enables your ServiceNow instance to send an authentication request to the Ansible Tower instance and get an OAuth token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-ansible.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,11 +38,11 @@ Ensure that you have the administrator's access to the Ansible Tower instance.
 
 2.  On the left panel, under Administration, select Applications.
 
-    ![Applications link on Ansible Automation Platform.](../image/ansible-spoke-application-link.png)
+    \[Omitted image "ansible-spoke-application-link.png"\] Alt text: Applications link on Ansible Automation Platform.
 
 3.  On the Applications page, select **Add**.
 
-    ![Add button for adding an application.](../image/ansible-spoke-add-application-button.png)
+    \[Omitted image "ansible-spoke-add-application-button.png"\] Alt text: Add button for adding an application.
 
 4.  Fill the form.
 
@@ -58,11 +59,11 @@ Ensure that you have the administrator's access to the Ansible Tower instance.
 
 6.  Copy the Client ID and Client Secret and store them at a secure place.
 
-    ![](../image/ansible-spoke-client-id-secret.png)
+    \[Omitted image "ansible-spoke-client-id-secret.png"\]
 
     You've created the OAuth application.
 
-    ![OAuth application created.](../image/ansible-spoke-oauth-app-created.png)
+    \[Omitted image "ansible-spoke-oauth-app-created.png"\] Alt text: OAuth application created.
 
 
 ## Set up the Ansible spoke connection record

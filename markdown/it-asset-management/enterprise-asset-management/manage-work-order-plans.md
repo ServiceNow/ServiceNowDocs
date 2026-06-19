@@ -2,6 +2,7 @@
 title: Manage asset-centric work tasks using work order plans
 description: Work order plans organize sequential asset tasks — such as shutdowns, safety inspections, calibrations, asset condition assessments, and restarts — under a single unified plan, enabling repeatable and scalable execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/manage-work-order-plans.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -38,10 +39,10 @@ The work order plan workflow involves the following stages:
 4.  Review schedule: Set the scheduled start and end times for each work order task.
 5.  Track status: Track task status updated by the assigned technicians and review the available work order plan reports.
 
--   **[Create a work order plan template](../task/creat-work-plan-template.md)**  
+-   **[Create a work order plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/creat-work-plan-template.md)**  
 Create a reusable work order plan template to use when creating work order plans.
--   **[Create a work order plan for enterprise assets](../task/create-work-order-plan-eam.md)**  
+-   **[Create a work order plan for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-work-order-plan-eam.md)**  
 Create and manage a work order plan to organize, assign, schedule, and track complex asset tasks for enterprise assets and asset groups.
 
-**Parent Topic:**[IT Asset Management](../../software-asset-management2/concept/it-asset-management.md)
+**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/it-asset-management.md)
 

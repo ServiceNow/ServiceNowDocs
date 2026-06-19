@@ -1,19 +1,21 @@
 ---
 title: Customize a Now Assist for Accounts Payable Operations \(APO\) skill
-description: If you have the admin role, you can customize a Now Assist for Accounts Payable Operations \(APO\) skill so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+description: Customize a Now Assist skill as an admin to configure how AP fulfillers use generative AI capabilities in the Source-to-Pay Workspace and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/cust-now-assist-apo-skill.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
+keywords: [APO, Accounts Payable Operations, generative AI, Now Assist, AI automation, Accounts Payable Workspace]
 breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Customize a Now Assist for Accounts Payable Operations \(APO\) skill
 
-If you have the admin role, you can customize a Now Assist for Accounts Payable Operations \(APO\) skill so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+Customize a Now Assist skill as an admin to configure how AP fulfillers use generative AI capabilities in the Source-to-Pay Workspace and Core UI.
 
 ## Before you begin
 
@@ -33,7 +35,7 @@ From the Now Assist Admin console, you can select the input table, related recor
 
     1.  On the Invoice case summarization for the APO specialists feature card, select **View details**.
 
-    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(![More actions icon.](../../sourcing-procurement-operations/image/more_vertical_icon.png)\).
+    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
 
     3.  Select **Make a copy**.
 
@@ -183,7 +185,7 @@ Closed
 
     1.  On the **Invoice data extraction** for the APO specialists feature card, select **View details**.
 
-    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(![More actions icon.](../../sourcing-procurement-operations/image/more_vertical_icon.png)\).
+    2.  In the Active skills section, locate the skill that you'd like to copy and select the More actions icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More actions icon.\).
 
     3.  Select **Make a copy**.
 
@@ -193,7 +195,7 @@ Closed
 
         A guided setup leads you through the configuration of the general details, input, prompt, availability, display, review, and activation of the customized skill. If you complete the entire walk-through, the skill is activated.
 
-12. To create and configure the use case for invoice extraction, follow the steps of [Configuring Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/docintel-configuring-now-assist.md).
+12. To create and configure the use case for invoice extraction, follow the steps of .
 
 13. Review and activate the skill.
 

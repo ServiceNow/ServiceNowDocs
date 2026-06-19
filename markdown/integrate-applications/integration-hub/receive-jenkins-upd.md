@@ -2,6 +2,7 @@
 title: Set up a webhook for the Jenkins spoke
 description: Set up a webhook application to receive the required updates from Jenkins at your ServiceNow instance.Create a authorization key to authorise requests from Jenkins.Authorise requests from Jenkins by providing authorization key for webhook in your ServiceNow instance.Receive updates from Jenkins by providing the authorization key in Jenkins.Provide user friendly descriptions to the subflows in the Jenkins v2 spoke.Provide subflows as answers to the conditions mentioned in the decision table. When the specified conditions are met, the associated subflow is triggered.Create a webhook routing policy and customize subflow as per your requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/receive-jenkins-upd.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -39,7 +40,7 @@ Role required: admin.
 
 4.  Copy and record the generated value for later use.
 
-    ![Client Secret or Authorization Key](../image/auth-token.png)
+    \[Omitted image "auth-token.png"\] Alt text: Client Secret or Authorization Key
 
 
 ## Provide authorization key for webhook
@@ -60,7 +61,7 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
-    |Authorization Key|Authorization key you had generated. See [Create authorization key for the Jenkins v2 spoke](receive-jenkins-upd.md#) for more information.|
+    |Authorization Key|Authorization key you had generated. See [Create authorization key for the Jenkins v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/receive-jenkins-upd.md) for more information.|
     |Name|Name to identify the webhook client record.|
 
 4.  Click **Submit**.
@@ -86,14 +87,14 @@ Role required: admin.
 
     For more information about the using the plugin, see [Credentials Binding](https://plugins.jenkins.io/credentials-binding/).
 
-    ![Jenkins Credentials Provider](../image/jenkins-bindings.png)
+    \[Omitted image "jenkins-bindings.png"\] Alt text: Jenkins Credentials Provider
 
 5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Kind|Select **Secret text**.|
-    |Secret|Enter authorization key. See [Create authorization key for the Jenkins v2 spoke](receive-jenkins-upd.md#) for more information.|
+    |Secret|Enter authorization key. See [Create authorization key for the Jenkins v2 spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/receive-jenkins-upd.md) for more information.|
     |ID|Provide unique identifier to identify the record.|
 
 6.  Click **Add**.
@@ -181,7 +182,7 @@ Condition
 
 </td><td>
 
-Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke](../concept/jenkins-spoke.md) for information about the supported fields.
+Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkins-spoke.md) for information about the supported fields.
 
 </td></tr><tr><td>
 
@@ -189,7 +190,7 @@ Answer
 
 </td><td>
 
-Subflow that must be triggered when the specified conditions are met.1.  Click the Lookup icon \(![Lookup icon](../image/lookup-icon.png)\).
+Subflow that must be triggered when the specified conditions are met.1.  Click the Lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon\).
 2.  Select the required subflow from the Document list.
 
 **Note:** Ensure that the **Table name** is `Jenkins v2 Webhook Answer Subflow [sn_jenkinsv2_spoke_webhook_answer_subflow]`.
@@ -216,7 +217,7 @@ Role required: admin
 
 4.  Customize the Jenkins Webhook Answer Subflow: Process build information subflow as per your requirement and publish it.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows and [Jenkins v2 Spoke](../concept/jenkins-spoke.md) for information about the fields that the routing policies and subflows support.
+    See Building subflows for more information about creating and using subflows and [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkins-spoke.md) for information about the fields that the routing policies and subflows support.
 
 5.  Navigate to **Jenkins v2** &gt; **WebHook Answer Subflows**.
 
@@ -271,7 +272,7 @@ Condition
 
 </td><td>
 
-Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke](../concept/jenkins-spoke.md) for information about the supported fields.
+Conditions to be met when the required events occur in Jenkins. See [Jenkins v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkins-spoke.md) for information about the supported fields.
 
 </td></tr><tr><td>
 
@@ -279,7 +280,7 @@ Answer
 
 </td><td>
 
-Subflow that must be triggered when the specified conditions are met.1.  Click the Lookup icon \(![Lookup icon](../image/lookup-icon.png)\).
+Subflow that must be triggered when the specified conditions are met.1.  Click the Lookup icon \(\[Omitted image "lookup-icon.png"\] Alt text: Lookup icon\).
 2.  Select the required subflow from the Document list.
 
 **Note:** Ensure that the **Table name** is `Jenkins v2 Webhook Answer Subflow [sn_jenkinsv2_spoke_webhook_answer_subflow]`.

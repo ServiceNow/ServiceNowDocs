@@ -2,6 +2,7 @@
 title: Enable indexing of referenced table fields for an AI Search indexed source
 description: Configure an indexed source to index field values from tables referenced by fields in the source table. You can index these field values for use in filters and EVAM search result configurations, index them for search, or both.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/enable-ref-table-field-index-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -17,7 +18,7 @@ Configure an indexed source to index field values from tables referenced by fiel
 
 ## Before you begin
 
-You must have an indexed source configured for the source table. For details on creating an indexed source for a table, see [Create an indexed source](create-indexed-source-ais.md).
+You must have an indexed source configured for the source table. For details on creating an indexed source for a table, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-indexed-source-ais.md).
 
 Role required: ais\_admin
 
@@ -42,7 +43,7 @@ You can create both **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** 
 
 2.  In the Field Settings &amp; Mapping related list, select **New**.
 
-3.  On [the Field Setting form](../reference/field-setting-form-ais.md), enter the field values shown for your use-case.
+3.  On [the Field Setting form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/field-setting-form-ais.md), enter the field values shown for your use-case.
 
     -   To index field values from referenced tables for use in search source filters, facet filters, and EVAM search result configurations, enter the following field values.
 
@@ -67,5 +68,5 @@ You can create both **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** 
     The attribute and value appear in the Field Settings &amp; Mapping related list.
 
 
-**Parent Topic:**[Field settings for AI Search](../concept/field-settings-ais.md)
+**Parent Topic:**[Field settings for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/field-settings-ais.md)
 

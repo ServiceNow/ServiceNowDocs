@@ -2,6 +2,7 @@
 title: Enable antivirus scan
 description: The com.glide.snap.enable\_scan property activates the antivirus scan functionality.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-enable-antivirus-scan.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -114,5 +115,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

@@ -2,6 +2,7 @@
 title: BMC Remedy Spoke
 description: Manage change requests, incidents, problems, and other records in BMC Remedy from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/bmcremedy-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage change requests, incidents, problems, and other records in BMC Remedy fro
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-BMC Remedy spoke v1.4.1 is the latest version.
+BMC Remedy spoke v1.5.0 is the latest version.
 
 ## Spoke dependencies
 
@@ -103,7 +104,7 @@ The BMC Remedy spoke adds a BMC Remedy application to your instance and includes
 |Module|Description|
 |------|-----------|
 |Credentials|Credential records for the BMC Remedy spoke can be accessed here.|
-|Objects|Information about the objects in BMC Remedy can be accessed here. You can also create an object that can be used in your flows. See [Create a BMC Remedy object in your ServiceNow instance](../task/create-obj-bmc.md) for information about creating an object.|
+|Objects|Information about the objects in BMC Remedy can be accessed here. You can also create an object that can be used in your flows. See [Create a BMC Remedy object in your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-obj-bmc.md) for information about creating an object.|
 
 ## Spoke user roles
 
@@ -113,11 +114,11 @@ The Remedy\_Admin \(sn\_bmcremedy\_spoke.Remedy\_Admin\) is available when the B
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-Two aliases are available when you install the BMC Remedy spoke; one alias is of the **Connection and Credential** type and the other alias is of the **Credential** type. For information about setting up the spoke, see [Set up the BMC Remedy spoke](../task/setup-bmc.md#).
+Two aliases are available when you install the BMC Remedy spoke; one alias is of the **Connection and Credential** type and the other alias is of the **Credential** type. For information about setting up the spoke, see [Set up the BMC Remedy spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-bmc.md).
 
 ## MID Server requirements
 
-These actions use REST calls that can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the BMC Remedy alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+These actions use REST calls that can run either on an instance or, optionally, through a MID Server. Use the connection record associated with the BMC Remedy alias to configure where actions run and, if needed, specify MID Server selection attributes. For more information, see MID server.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

@@ -2,6 +2,7 @@
 title: Dynatrace connector instance form
 description: The Dynatrace connector instance form displays the fields you must fill in when creating a Dynatrace connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/dynatrace-connector-instance-form.html
 release: australia
 product: Event Management
 classification: event-management
@@ -95,5 +96,5 @@ Active
 Select to activate the connector instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
 

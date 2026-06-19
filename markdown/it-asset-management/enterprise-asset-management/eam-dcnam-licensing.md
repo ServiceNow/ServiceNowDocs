@@ -2,6 +2,7 @@
 title: Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) licensing
 description: The Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application supports a unit-based subscription licensing model in which you must pay a recurring fee for assets to use the application. You can determine the licensing requirements and costs for these assets based on their resource categories and corresponding subscription unit ratios.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/eam-dcnam-licensing.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -95,7 +96,7 @@ N/A
 </td></tr></tbody>
 </table>**Note:** These resource categories support serialized assets only. You are not charged for any consumable assets.
 
-You can view subscription consumption information for the Enterprise Asset Management for DCNAM application by using the ITAM Licensing Resource Counts \[itam\_licensing\_resource\_counts\] table. For more details, see [View your subscription consumption for the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application](../task/view-subscription-consumption-eam-dcnam.md).
+You can view subscription consumption information for the Enterprise Asset Management for DCNAM application by using the ITAM Licensing Resource Counts \[itam\_licensing\_resource\_counts\] table. For more details, see [View your subscription consumption for the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/view-subscription-consumption-eam-dcnam.md).
 
-**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](eam-dcnam.md)
+**Parent Topic:**[Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-dcnam.md)
 

@@ -2,6 +2,7 @@
 title: Manage people involved in a safety incident
 description: Add a person involved or modify the information of an existing person involved in a safety incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/add-hs-people-involved.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -37,7 +38,7 @@ People involved are individuals who are directly or indirectly connected to an i
 
     -   To add a person involved, fill in the fields in the **Add persons involved** section.
     -   To modify the record of an existing person involved, select the person in the **People involved** list to open it.
-    For field descriptions, see [People Involved form](../reference/hs-people-involved-form.md).
+    For field descriptions, see [People Involved form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-people-involved-form.md).
 
 5.  Select **Save**.
 
@@ -54,5 +55,5 @@ The involved person is listed in the People involved section of the activity. Th
 
 If this incident involves more than one person, create a record for each.
 
-**Parent Topic:**[Work on a safety incident](work-hs-incident-observation.md)
+**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
 

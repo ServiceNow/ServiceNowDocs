@@ -2,6 +2,7 @@
 title: Product Adoption
 description: View your capabilities, product adoption roadmaps, and subscriptions for your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/impact-product-adoption-roadmap/product-adoption.html
 release: australia
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
@@ -17,23 +18,23 @@ View your capabilities, product adoption roadmaps, and subscriptions for your Se
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Capabilities maps](capabilities-map.md)
+[Capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/capabilities-map.md)
 
- ![](../../../reuse/icons/brand-icons/bus-extend-visability.svg) View the full landscape of your licensed ServiceNow products and the status of their utilization.
+ \[Omitted image "bus-extend-visability.svg"\] Alt text: View the full landscape of your licensed ServiceNow products and the status of their utilization.
 
 </td><td align="center">
 
-[Product Adoption Roadmaps](impact-par.md)
+[Product Adoption Roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/impact-par.md)
 
- ![](../../../reuse/icons/brand-icons/bus-workflow.svg)
+ \[Omitted image "bus-workflow.svg"\] Alt text:
 
  View a recommended implementation sequence for your ServiceNow AI Platform capabilities.
 
 </td><td>
 
-[Subscriptions](subscriptions.md)
+[Subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-product-adoption-roadmap/subscriptions.md)
 
- ![](../../../reuse/icons/brand-icons/bus-business-management.svg)
+ \[Omitted image "bus-business-management.svg"\] Alt text:
 
  View a list of all ServiceNow subscriptions and purchase amount you are entitled to.
 

@@ -2,6 +2,7 @@
 title: SCIM2ClientUtil - Scoped
 description: The SCIM2ClientUtil API provides utility methods to obtain the unique identifiers of external provider systems and then use that information when calling the SCIM2Client API.Returns the unique identifier of a specified resource from a specified external provider system for a unique resource ID in a ServiceNow instance using a filter expression to describe the desired resource.Returns the unique identifier of a specified resource from a specified external provider system for a unique resource ID in a ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SCIM2ClientUtilAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The SCIM2ClientUtil API provides utility methods to obtain the unique identifier
 
 This API runs in the `sn_auth` namespace and requires the SCIM v2 - ServiceNow Cross-domain Identity Management Client \(com.snc.integration.scim2.client\) plugin to be installed to access the API.
 
-For additional information on SCIM, see [System for Cross-domain Identity Management \(SCIM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim.md).
+For additional information on SCIM, see System for Cross-domain Identity Management \(SCIM\).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SCIM2ClientUtil - getProviderIdByFilter\(String provider, String resourceName, String filter\)
 
@@ -27,7 +28,7 @@ Returns the unique identifier of a specified resource from a specified external 
 
 This API is useful when mapping ServiceNow fields to SCIM fields where the resource identifier in the external provider system is needed. Before calling this method, a unique field must be defined for the resource in the system attribute map, located in the SCIM Provider Resource Mapping \[sys\_scim\_provider\_resource\_mapping \] table.
 
-For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-provider-resource-mapping.md).
+For additional information on provider resource mapping, see .
 
 <table id="table_j21_ks5_ctb" class="parameters"><thead><tr><th>
 
@@ -139,7 +140,7 @@ Returns the unique identifier of a specified resource from a specified external 
 
 This API is useful when mapping ServiceNow fields to SCIM fields where the resource identifier in the external provider system is needed. Before calling this method, a unique field must be defined for the resource in the system attribute map, located in the SCIM Provider Resource Mapping \[sys\_scim\_provider\_resource\_mapping\] table.
 
-For additional information on provider resource mapping, see [Create a SCIM Provider Resource Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/identity/scim-provider-resource-mapping.md).
+For additional information on provider resource mapping, see .
 
 <table id="table_rks_rd5_ctb" class="parameters"><thead><tr><th>
 

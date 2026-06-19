@@ -2,6 +2,7 @@
 title: Source for HR Service Delivery Integration with SuccessFactors
 description: Once you set up the HR Service Delivery Integration with SuccessFactors application, the source record for SuccessFactors application is automatically created in Enterprise Service Management Integrations Framework, Source module. The SuccessFactors source record in the in Enterprise Service Management Integrations Framework application contains a predefined set of properties and HR Integration Services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/source-for-hrsd-successfactors.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -36,5 +37,5 @@ When set to **True**, all the active users, active trainings, incomplete to-dos 
  **Note:** If there is no information on the last successful schedule run time, the first pull will always be a full pull.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](../concept/hr-service-delivery-integration-with-success-factors-reference.md)
+</table>**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
 

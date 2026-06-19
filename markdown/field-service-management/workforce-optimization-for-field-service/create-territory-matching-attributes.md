@@ -2,6 +2,7 @@
 title: Create a matching attributes geography
 description: Creating a geography with matching attributes involves defining geographies based on specific criteria such as city, state, country, or ZIP code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/create-territory-matching-attributes.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -65,5 +66,5 @@ This geography when associated with a territory displays the territory informati
 
 ## What to do next
 
-Link the geography to a territory. For more information, see [Create a Field Service territory](create-territories-territory-planning-console.md).
+Link the geography to a territory. For more information, see [Create a Field Service territory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/create-territories-territory-planning-console.md).
 

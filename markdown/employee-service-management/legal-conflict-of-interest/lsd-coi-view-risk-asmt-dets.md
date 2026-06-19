@@ -2,6 +2,7 @@
 title: View risk assessment details
 description: Review the risk assessment results for a conflict of interest disclosure, including the overall risk score, risk level, individual risk factor responses, and the risk assessment report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/lsd-coi-view-risk-asmt-dets.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
@@ -33,7 +34,7 @@ When an employee submits a COI disclosure, the risk assessment evaluates the req
 
     3.  View the risk level assigned by the risk assessment from the secondary header.
 
-        ![View the risk level for the submitted request](../image/lsd-coi-risk-level.png)
+        \[Omitted image "lsd-coi-risk-level.png"\] Alt text: View the risk level for the submitted request
 
 2.  View risk responses.
 
@@ -41,13 +42,13 @@ When an employee submits a COI disclosure, the risk assessment evaluates the req
 
         The Risk responses tab displays a list of all risk factor evaluations performed for this request. The count in the tab label indicates the number of risk factors evaluated.
 
-        ![View risk responses](../image/lsd-coi-risk-response-lcc.png "Risk responses")
+        \[Omitted image "lsd-coi-risk-response-lcc.png"\] Alt text: View risk responses
 
     2.  Select the risk response to see details.
 
 3.  Select the **Risk assessment report** tab to detailed report.
 
-    ![View risk assessment report](../image/lsd-coi-view-report.png)
+    \[Omitted image "lsd-coi-view-report.png"\] Alt text: View risk assessment report
 
 4.  View overall risk assessment score.
 
@@ -56,5 +57,5 @@ When an employee submits a COI disclosure, the risk assessment evaluates the req
     2.  Select the record associated with the legal request number for which you want to view the overall risk assessment.
 
 
-**Parent Topic:**[Using Legal Conflict of Interest](../concept/lsd-coi-use-landing.md)
+**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
 

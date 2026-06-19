@@ -2,7 +2,10 @@
 title: CSM Configurable Workspace components
 description: Content pages in CSM Configurable Workspace, such as record pages, are made up of reusable components that display information or enable agents to complete tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-components.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -17,7 +20,7 @@ Content pages in CSM Configurable Workspace, such as record pages, are made up o
 
 The action bar contains the actions available to agents while working on case records. This includes buttons on the action bar and menu items in the More Actions menu. Each record page contains a set of actions that have been configured for that specific page.
 
-The action bar can also contain action groups which combine multiple actions in the same button. For example, the [Front-line case page](csm-front-line-case-page.md) includes the [Create action group](csm-config-ws-action-layout-groups.md) which displays a drop-down list with the available actions.
+The action bar can also contain action groups which combine multiple actions in the same button. For example, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page.md) includes the [Create action group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-config-ws-action-layout-groups.md) which displays a drop-down list with the available actions.
 
 Typical actions available in the action bar include:
 
@@ -31,7 +34,7 @@ Typical actions available in the action bar include:
 
 ## Task SLA cards component
 
-The Task SLA cards component displays the status of one or more Service Level Agreements \(SLAs\) for the current record in card format. The Task SLA cards component can display multiple SLAs. The cards are displayed in a carousel with horizontal navigation. If more than one SLA card is present, agents can use arrows to scroll through the cards. For more information, see [Task SLA cards component](csm-record-page-sla-card-component.md).
+The Task SLA cards component displays the status of one or more Service Level Agreements \(SLAs\) for the current record in card format. The Task SLA cards component can display multiple SLAs. The cards are displayed in a carousel with horizontal navigation. If more than one SLA card is present, agents can use arrows to scroll through the cards. For more information, see [Task SLA cards component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-record-page-sla-card-component.md).
 
 ## Task activity timeline controller and preset
 
@@ -41,5 +44,5 @@ The timeline uses icons to display record events and colors to show ranges of ti
 -   Select the **Show details** toggle to display more information.
 -   Hover over the icons to show tool tips.
 
-For more information, see [Task activity timeline preset and controller](csm-record-page-timeline-component.md).
+For more information, see [Task activity timeline preset and controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-record-page-timeline-component.md).
 

@@ -2,6 +2,7 @@
 title: Metrics View Configuration form fields
 description: Define how metrics are displayed within Service Operations Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/metrics-view-config-fields.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -63,7 +64,7 @@ Source Metrics Types
 
 </td><td>
 
-Metric types you want the metric to monitor.Select the Lock icon \(![Lock icon](../../event-management/image/lock-icon.png)\) to unlock the list of source metric types and select metric types to be monitored.
+Metric types you want the metric to monitor.Select the Lock icon \(\[Omitted image "lock-icon.png"\] Alt text: Lock icon\) to unlock the list of source metric types and select metric types to be monitored.
 
 </td></tr><tr><td>
 
@@ -74,7 +75,7 @@ Chart Type
 Type of chart in which the metric is presented in Service Operations Workspace, either **Line** or **Stacked Bar**.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Configure alert metrics](../task/configure-alert-metrics-itom.md).
+</table>To return to the procedure, see [Configure alert metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-metrics-itom.md).
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

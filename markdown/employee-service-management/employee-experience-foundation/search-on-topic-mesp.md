@@ -2,6 +2,7 @@
 title: Search topic content in Now Mobile app
 description: The search functionality for topic content is available on the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/search-on-topic-mesp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -26,5 +27,5 @@ To access the search functionality for topic content in the Now Mobile app:
 -   You must upgrade to Utah release and install the Now Mobile version 28.
 -   You must enable the AI Search functionality.
 
-**Parent Topic:**[Employee Center Integrations](integrate-ec.md)
+**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/integrate-ec.md)
 

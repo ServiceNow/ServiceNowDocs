@@ -2,6 +2,7 @@
 title: Set up a request type for a provider
 description: After you register a risk intelligence provider and service, you specify the available request types that you and your organization will use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-request-type.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -36,5 +37,5 @@ A request type is the name of the report available for the provider. Request typ
 
 You can now request different types of risk scores from the risk intelligence provider.
 
-**Parent Topic:**[Integrating scores from risk intelligence providers](../concept/tprm-riskintelprvdr-overview.md)
+**Parent Topic:**[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
 

@@ -2,13 +2,14 @@
 title: Realign resource assignments for demands
 description: Planning and execution of your roadmap involves change in priority or timelines of your work. In such cases, you can adjust the resource assignment dates to match with the latest dates of your demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/realign-resource-assignments-spw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-04-27"
 reading_time_minutes: 1
-breadcrumb: [Create and manage resource assignments, Manage demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Create and manage resource assignments, Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Realign resource assignments for demands
@@ -17,7 +18,7 @@ Planning and execution of your roadmap involves change in priority or timelines 
 
 ## Before you begin
 
-[Migrate resource plans to resource assignments](../../resource-management/task/migrate-rsrc-plan-rsrc-asgnmnt.md)
+[Migrate resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)
 
 Role required: it\_demand\_manager
 
@@ -25,7 +26,7 @@ Role required: it\_demand\_manager
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 

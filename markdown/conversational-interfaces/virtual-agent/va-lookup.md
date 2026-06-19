@@ -2,6 +2,7 @@
 title: Lookup utility
 description: Use the Lookup utility in a Virtual Agent topic to return a ServiceNow record query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-lookup.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -76,7 +77,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Lookup utility
 
-![Lookup utility properties include a node name, the table to query, and conditions to filter the results of the lookup.](../images/LookupExample.png "Lookup utility basic properties")
+\[Omitted image "LookupExample.png"\] Alt text: Lookup utility properties include a node name, the table to query, and conditions to filter the results of the lookup.
 
 ## Example Lookup script
 
@@ -94,7 +95,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 ```
 
-In this example, a table is queried for the first active record. The table to be queried is defined in the **Table** property found in the lookup utility control. The `setLimit()` method ensures that only a single record is returned from the database. If a record is found, it is returned. For more information on GlideRecord queries, see [Querying tables in script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_UsingGlideRecordToQueryTables.md) .
+In this example, a table is queried for the first active record. The table to be queried is defined in the **Table** property found in the lookup utility control. The `setLimit()` method ensures that only a single record is returned from the database. If a record is found, it is returned. For more information on GlideRecord queries, see Querying tables in script .
 
-**Parent Topic:**[Assistant Designer utilities](va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-utilities.md)
 

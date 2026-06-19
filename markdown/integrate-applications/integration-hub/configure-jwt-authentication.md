@@ -2,6 +2,7 @@
 title: Generate X.509 key pair and fingerprints on your Windows machine
 description: Generate the X.509 key pair and its fingerprint on your Windows machine that you upload to the Oracle HCM tenant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configure-jwt-authentication.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,7 +38,7 @@ Ensure that OpenSSL is installed.
 
 6.  Enter the information.
 
-    You can choose to leave one or more fields empty.![Information fields on command prompt.](../image/oracle-hcm-spoke-x509-generate-public-key-windows.png)
+    You can choose to leave one or more fields empty.\[Omitted image "oracle-hcm-spoke-x509-generate-public-key-windows.png"\] Alt text: Information fields on command prompt.
 
     The public key is generated in the bin folder.
 

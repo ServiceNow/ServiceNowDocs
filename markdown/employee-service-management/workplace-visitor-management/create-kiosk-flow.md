@@ -2,6 +2,7 @@
 title: Create a flow for Workplace Services Kiosk
 description: Create a check-in or check-out flow for the Workplace Service Kiosk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/create-kiosk-flow.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -37,8 +38,8 @@ Role required: sn\_wsd\_visitor.admin
 
     For a description of the field values, see one of the following topics based on the selected module.
 
-    -   [Kiosk Check-in Flow Configuration form](../reference/kiosk-check-in-config-form.md)
-    -   [Kiosk Check-out Flow Configuration form](../reference/kiosk-check-out-config-form.md)
+    -   [Kiosk Check-in Flow Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/kiosk-check-in-config-form.md)
+    -   [Kiosk Check-out Flow Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/kiosk-check-out-config-form.md)
 
-**Parent Topic:**[Configuring Workplace Visitor Management for Workplace Services Kiosk](../concept/config-visitor-for-kiosk.md)
+**Parent Topic:**[Configuring Workplace Visitor Management for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/config-visitor-for-kiosk.md)
 

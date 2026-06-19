@@ -2,6 +2,7 @@
 title: Clone a skill
 description: Clone an existing skill to use it as a starting point for a new one. You can clone both base system ServiceNow skills and custom skills you have created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
@@ -70,7 +71,7 @@ Default provider \(required\)
 
 </td><td>
 
-The LLM provider for the cloned skill. Available providers include Now LLM Service and external LLM options including prebuilt spokes for Microsoft Azure OpenAI Generative AI Spoke, OpenAI Generative AI Spoke, Aleph Alpha, WatsonX, and Google Gemini, or a custom LLM. For more information on setting up a custom LLM, see [Configure a generic large language model \(LLM\) connector](../../generative-ai-controller/task/configure-a-generic-llm-connector.md). **Note:** Spokes consume assists, not Integration Hub transactions.
+The LLM provider for the cloned skill. Available providers include Now LLM Service and external LLM options including prebuilt spokes for Microsoft Azure OpenAI Generative AI Spoke, OpenAI Generative AI Spoke, Aleph Alpha, WatsonX, and Google Gemini, or a custom LLM. For more information on setting up a custom LLM, see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md). **Note:** Spokes consume assists, not Integration Hub transactions.
 
 </td></tr><tr><td>
 
@@ -92,9 +93,9 @@ Available for base system ServiceNow skills only.
 </table>
 ## What to do next
 
-Create your skill prompt. To learn more about creating a prompt, see [Create a prompt](create-prompt-template.md).
+Create your skill prompt. To learn more about creating a prompt, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
 
-After you clone and edit the skill and prompt, you can evaluate your prompt.To learn more about evaluating a prompt, see [Evaluate a prompt](evaluate-prompt.md).
+After you clone and edit the skill and prompt, you can evaluate your prompt.To learn more about evaluating a prompt, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md).
 
-**Parent Topic:**[Create a skill](create-new-skill.md)
+**Parent Topic:**[Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 

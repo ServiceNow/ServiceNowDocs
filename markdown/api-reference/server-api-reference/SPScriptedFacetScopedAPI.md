@@ -2,6 +2,7 @@
 title: SPScriptedFacet - Scoped
 description: Defines facet items, filters, or mapped queries for a facets object.Adds facet items or mapped queries to a facets object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SPScriptedFacetScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ Defines facet items, filters, or mapped queries for a facets object.
 
 You can only use the SPScriptedFacet API in a facet generation script in a Service Portal search source. The facet generation script is only visible when **Is scripted source** is selected.
 
-There is no constructor for this class. Instead, use the [createFacet\(\)](../../SPScriptedFacetService/concept/SPScriptedFacetServiceScopedAPI.md#) or [createMultiChoiceFacet\(\)](../../SPScriptedFacetService/concept/SPScriptedFacetServiceScopedAPI.md#) methods of the [SPScriptedFacetService](../../SPScriptedFacetService/concept/SPScriptedFacetServiceScopedAPI.md#) class to generate a facets object.
+There is no constructor for this class. Instead, use the [createFacet\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPScriptedFacetServiceScopedAPI.md) or [createMultiChoiceFacet\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPScriptedFacetServiceScopedAPI.md) methods of the [SPScriptedFacetService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPScriptedFacetServiceScopedAPI.md) class to generate a facets object.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SPScriptedFacet - addFacetItem\(String label, Object valueObj\)
 

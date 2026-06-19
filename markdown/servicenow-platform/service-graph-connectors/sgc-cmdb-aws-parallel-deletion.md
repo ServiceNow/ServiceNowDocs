@@ -2,6 +2,7 @@
 title: Handling parallel deletion of CIs in Service Graph Connector for AWS
 description: Parallel deletion of configuration items \(CIs\) in the Service Graph Connector for AWS optimizes performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-parallel-deletion.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -34,7 +35,7 @@ The parallel deletion feature is available for the following data sources from W
 
 **Note:** If you upgraded to Service Graph Connector for AWS version 2.9.1 before the parallel job plugin was activated, you must run the `SGC - Parallel Loading Fix` script to enable parallel deletion.
 
-Multiple jobs are created for deleting CIs based on the number of accounts in your configuration. You can modify the number of jobs that are created by setting the partition size in the **aws\_account\_partition\_size** connection property. See [Set partition size for parallel loading-enabled AWS accounts](../task/sgc-aws-partition-size-prop.md).
+Multiple jobs are created for deleting CIs based on the number of accounts in your configuration. You can modify the number of jobs that are created by setting the partition size in the **aws\_account\_partition\_size** connection property. See [Set partition size for parallel loading-enabled AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-aws-partition-size-prop.md).
 
 **Note:** Only one job is created to import new and updated CIs.
 

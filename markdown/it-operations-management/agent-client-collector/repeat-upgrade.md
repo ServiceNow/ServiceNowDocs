@@ -2,6 +2,7 @@
 title: Repeat high-volume upgrade for failed agents
 description: If high-volume upgrade fails for specific agents, you must clear the problematic agents' history to re-enable upgrade. If the target upgrade version changes, you don't need to clear the agents' history, as the agents upgrade with the next scheduled high-volume upgrade.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/repeat-upgrade.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -31,9 +32,9 @@ Roles required: agent\_client\_collector\_admin
 
 3.  Locate the **Agent Upgrade Histories** tab.
 
-    ![Agent Upgrade Histories tab](../image/agent-upgrade-histories-tab.png)
+    \[Omitted image "agent-upgrade-histories-tab.png"\] Alt text: Agent Upgrade Histories tab
 
-4.  Underneath the check box ![Check box](../image/check-box-icon.png) icon, hover next to a failed upgrade entry and select the check box that appears.
+4.  Underneath the check box \[Omitted image "check-box-icon.png"\] Alt text: Check box icon, hover next to a failed upgrade entry and select the check box that appears.
 
 5.  Select the arrow next to the **Actions on selected rows...** drop-down and select **Delete**.
 
@@ -41,4 +42,6 @@ Roles required: agent\_client\_collector\_admin
 ## Result
 
 The specified agents will be upgraded with the next scheduled high volume upgrade.
+
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 

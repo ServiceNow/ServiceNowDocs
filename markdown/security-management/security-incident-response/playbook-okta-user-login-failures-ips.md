@@ -2,6 +2,7 @@
 title: Playbook for Okta User Login Failures from Multiple IPs
 description: This playbook provides systematic remediation steps to investigate incidents for user login failures on Okta.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-okta-user-login-failures-ips.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -17,10 +18,10 @@ This playbook provides systematic remediation steps to investigate incidents for
 
 The Okta User Login Failures from Multiple IPs playbook provides instructions on analyzing the alert when ServiceNow account failures are observed on Okta from Multiple Non-ServiceNow IPs. The alert related to this playbook checks the Okta logs. It triggers an alert when login failure occurs for ServiceNow user IDs from more than three non-ServiceNow IP ranges in a 1-hour duration.
 
--   **[Set up the Okta User Login Failures from Multiple IPs playbook](../task/playbook-setup-okta-user-login-failures-multiple.md)**  
+-   **[Set up the Okta User Login Failures from Multiple IPs playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-setup-okta-user-login-failures-multiple.md)**  
 Use the following steps to set up the Okta User Login Failures from Multiple IPs playbook.
--   **[Use the Okta User Login Failures from Multiple IPs playbook](../task/playbook-using-okta-user-login-failures-multiple.md)**  
+-   **[Use the Okta User Login Failures from Multiple IPs playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-using-okta-user-login-failures-multiple.md)**  
 Use this playbook to investigate security incidents for user login failures on Okta. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Okta User Login Failures from Multiple IPs playbook.
 
-**Parent Topic:**[Flow-based Playbooks](playbook-flow-based.md)
+**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-flow-based.md)
 

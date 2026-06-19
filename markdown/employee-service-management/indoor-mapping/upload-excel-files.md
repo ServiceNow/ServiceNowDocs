@@ -2,6 +2,7 @@
 title: Upload Excel files
 description: Import geographical data by uploading Excel files containing information about your campuses, buildings, and floors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/upload-excel-files.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -17,7 +18,7 @@ Import geographical data by uploading Excel files containing information about y
 
 ## Before you begin
 
-Make sure that you have downloaded and filled the Excel templates from the Map Studio. For more information, see [Download and fill Excel templates for bulk upload](download-bulk-template.md).
+Make sure that you have downloaded and filled the Excel templates from the Map Studio. For more information, see [Download and fill Excel templates for bulk upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/download-bulk-template.md).
 
 **Important:** You must import the files in the following order: **Campus** &gt; **Building** &gt; **Floor**.
 
@@ -27,7 +28,7 @@ Role required: sn\_map\_core.admin
 
 The Upload Excel files feature uses Import Sets to import the information from the Excel files. For more information about Import Sets, see the following resources:
 
--   [Import sets documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/import-sets-landing-page.md)
+-   Import sets documentation
 -   [Import Data ServiceNow® developer course](https://developer.servicenow.com/dev.do#!/learn/courses/zurich/app_store_learnv2_importingdata_zurich_importing_data_into_servicenow)
 
 ## Procedure
@@ -40,7 +41,7 @@ The Upload Excel files feature uses Import Sets to import the information from t
 
 4.  On the Load Data form, fill in the fields; make sure that you import the campus file first.
 
-    For a description of the field values, see [Load data form](../../talent-acquisition/reference/import-set-table.md).
+    For a description of the field values, see [Load data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/import-set-table.md).
 
     **Note:** You can select a file from your instance by selecting **Data source** as the source of the import.
 
@@ -59,7 +60,7 @@ The Upload Excel files feature uses Import Sets to import the information from t
 
 ## What to do next
 
-You can repeat the procedure to import the Excel files for your buildings, and then your floors. After all the files are imported, you can upload the floor plans. For more information about uploading floor plans in bulk, see [Upload CAD files](upload-cad-files.md).
+You can repeat the procedure to import the Excel files for your buildings, and then your floors. After all the files are imported, you can upload the floor plans. For more information about uploading floor plans in bulk, see [Upload CAD files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/upload-cad-files.md).
 
-Campuses and buildings are created based on precise geographical coordinates. You can preview your campus on the Map Studio after importing the files. For more information about viewing the map, see [Map preview](map-preview-indoor-mapping.md).
+Campuses and buildings are created based on precise geographical coordinates. You can preview your campus on the Map Studio after importing the files. For more information about viewing the map, see [Map preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/map-preview-indoor-mapping.md).
 

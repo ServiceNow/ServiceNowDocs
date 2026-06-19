@@ -2,6 +2,7 @@
 title: Managing task scheduling conflicts
 description: Some updates to work order tasks \(WOTs\) can cause conflicts when they occur during a scheduled task run. You can use a table to track these scheduling conflicts as they arise. Tracking conflicts helps you monitor and resolve issues efficiently, ensuring that WOTs and agent schedules remain up-to-date and aligned.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/managing-task-scheduling-conflicts.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -34,7 +35,7 @@ You determine whether the scheduling process must run again based on the values 
 
 ## Conflict field configuration
 
-The fields considered for conflict capture are configured using the Application Common Field Set. For each field in the field set, the Always Show attribute determines whether that field is included in conflict tracking. When Always Show is set to true, the field is considered during conflict capture. When set to false, it is not. To configure which fields are considered in conflict tracking, see [Configure task scheduling conflict triggers](../task/task-scheduling-conflict-triggers.md).
+The fields considered for conflict capture are configured using the Application Common Field Set. For each field in the field set, the Always Show attribute determines whether that field is included in conflict tracking. When Always Show is set to true, the field is considered during conflict capture. When set to false, it is not. To configure which fields are considered in conflict tracking, see [Configure task scheduling conflict triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/task-scheduling-conflict-triggers.md).
 
 ## Conflict Prevention and Warnings Messages
 

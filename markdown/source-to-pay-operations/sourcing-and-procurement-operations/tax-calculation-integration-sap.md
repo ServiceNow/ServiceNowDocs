@@ -2,6 +2,7 @@
 title: Tax calculation integration with SAP
 description: SAP's tax engine API consumes necessary parameters from the tax calculation generic API to provide tax estimates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculation-integration-sap.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -29,5 +30,5 @@ SAP's tax engine API consumes necessary parameters from the tax calculation gene
 
 The tax estimates are consumed by ServiceNow and updated in the **Estimated Tax** field on the cart line.
 
-**Parent Topic:**[Tax calculations](tax-calculations.md)
+**Parent Topic:**[Tax calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/tax-calculations.md)
 

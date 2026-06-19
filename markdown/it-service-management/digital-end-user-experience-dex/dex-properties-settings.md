@@ -2,6 +2,7 @@
 title: Digital End-User Experience properties and settings
 description: You can update the following Digital End-User Experience properties and settings to fit your needs. You must have the admin role to update these settings and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-properties-settings.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -380,5 +381,5 @@ Desktop Assistant
 Minimum compatible version for desktop application on Windows
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital End-User Experience reference](../concept/dex-reference.md)
+</table>**Parent Topic:**[Digital End-User Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-reference.md)
 

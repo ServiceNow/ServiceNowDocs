@@ -2,6 +2,7 @@
 title: Review and manage indicators
 description: Review all indicators that are set up for NIST and manage them to track their results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/rmf-review-manage-indicators.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,7 +18,7 @@ Review all indicators that are set up for NIST and manage them to track their re
 
 ## Before you begin
 
-**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](../../grc-cam/reference/grc-cam-landing-page.md).
+**Note:** Starting with version 10.1.0, the NIST RMF Use Case Accelerator will be supported only for customers who currently use the product. New and existing customers should consider using the GRC: Continuous Authorization Monitoring application. For details, [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/grc-cam-landing-page.md).
 
 Role required: sn\_irm\_nist\_rmf.risk\_executive or sn\_irm\_nist\_rmf.security\_officer
 
@@ -34,5 +35,5 @@ Role required: sn\_irm\_nist\_rmf.risk\_executive or sn\_irm\_nist\_rmf.security
 5.  Review the record and click **Save**.
 
 
-**Parent Topic:**[Monitor security controls](../concept/rmf-monitor.md)
+**Parent Topic:**[Monitor security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/rmf-monitor.md)
 

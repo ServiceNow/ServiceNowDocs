@@ -2,6 +2,7 @@
 title: Interaction context and channel metadata
 description: Context and channel metadata are document ID fields included as part of interactions. Both types of records store information about the interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/interaction-management/interaction-context-channel-metadata.html
 release: australia
 product: Interaction Management
 classification: interaction-management
@@ -23,5 +24,5 @@ Context for an interaction tracks the information for an interaction, such as th
 
 Channel metadata contains the information needed to interact with the channel on which communication is happening on, for example, the chat or phone channels. Channel metadata can be free-form JSON or a reference to another record.
 
-**Parent Topic:**[Configuring Interaction Management](configuring-interaction-management.md)
+**Parent Topic:**[Configuring Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/interaction-management/configuring-interaction-management.md)
 

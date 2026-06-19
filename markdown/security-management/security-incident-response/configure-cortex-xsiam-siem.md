@@ -2,6 +2,7 @@
 title: Install and Configure
 description: Install and configure Palo Alto Networks XSIAM integration for Security Operations application from the ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-cortex-xsiam-siem.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -81,5 +82,5 @@ URL of the XSIAM tenant.
 
 ## What to do next
 
-[Create an incident profile](pan-cortex-xsiam-profile.md)
+[Create an incident profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/pan-cortex-xsiam-profile.md)
 

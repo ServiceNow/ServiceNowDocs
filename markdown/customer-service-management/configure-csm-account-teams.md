@@ -2,7 +2,10 @@
 title: Creating an account team
 description: Create an account team that is made up of both employees and customer contacts who fulfill the jobs or roles for a particular account in the Customer Service Management \(CSM\) application. By defining responsibilities or roles for your team and customer contacts, you confirm that your account team has the functions needed to support customer accounts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-csm-account-teams.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -26,6 +29,6 @@ After these definitions or roles, are created, the sn\_customerservice\_manager 
 
 The users who have been assigned to this role are displayed in the Account Team Members related list on the Responsibility Definition form. For more information, see the following topics:
 
--   [Create a responsibility definition](../task/t_CreateAResponsibilityDefinition.md)
--   [Configure access through the responsibility access configuration](../task/declarative-resposibility-framework.md)
+-   [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_CreateAResponsibilityDefinition.md)
+-   [Configure access through the responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/declarative-resposibility-framework.md)
 

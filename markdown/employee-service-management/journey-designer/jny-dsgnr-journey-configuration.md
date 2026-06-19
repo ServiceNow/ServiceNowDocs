@@ -2,6 +2,7 @@
 title: Create and configure Journey designer journeys
 description: Create a journey and embed the necessary components from Lifecycle Events and Journey Accelerator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-journey-configuration.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -31,10 +32,10 @@ A journey is a top-level container, where you define whether the Journey contain
 
 3.  On the form, fill in the fields.
 
-    See [Journey designer Journey Configuration fields reference](../reference/jny-dsgnr-jrny-config-fields.md).
+    See [Journey designer Journey Configuration fields reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-jrny-config-fields.md).
 
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Journey designer features](../concept/jny-dsgnr-configuration.md)
+**Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
 

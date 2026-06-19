@@ -2,6 +2,7 @@
 title: Configure content roll-up on topics for Now Mobile
 description: Browse through the associated content on the parent topic and its sub-tree topics. Enable the feature to see a wider range of results for your search on the Now Mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/content-roll-up-mesp.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -35,5 +36,5 @@ Browse content directly associated to the topic that you’re viewing along with
     **Note:** Verify the value is set to true to enable the feature. The default value is set to false.
 
 
-**Parent Topic:**[Configuring Employee Center for mobile](../concept/ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
 

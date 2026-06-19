@@ -2,6 +2,7 @@
 title: Configure article helpful widget instance options
 description: Configure the Knowledge Article Helpful widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-knowledge-article-helpful.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -31,14 +32,14 @@ The article view page uses the Knowledge Article Helpful widget to allow users t
 
 3.  Click **Instance Options**.
 
-    ![Knowledge article helpful widget Instance Options](../image/article-helpful-widget.png)
+    \[Omitted image "article-helpful-widget.png"\] Alt text: Knowledge article helpful widget Instance Options
 
 4.  Configure the desired settings for the Knowledge Article Helpful widget.
 
     |Instance option|Description|
     |---------------|-----------|
     |Bootstrap color|The color of the widget header.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/scss-primer.md).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.|
     |Show helpful percentage information|Check box to enable the display of percentage of users who found this article to be helpful.|
     |Helpful Action Label|Label for marking this article as helpful or not.|
     |Feedback Message|Text that displays when the user marks the article as helpful or not.|
@@ -46,5 +47,5 @@ The article view page uses the Knowledge Article Helpful widget to allow users t
 5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](../concept/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

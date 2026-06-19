@@ -2,6 +2,7 @@
 title: Work Scheduler components in Workforce Optimization for ITSM reference
 description: Workforce Optimization for ITSM has properties to configure the Work scheduler default behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/work-scheduler-wfo-itsm-reference.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management

@@ -2,6 +2,7 @@
 title: Activate Service Portal validation scripts
 description: Validate user input in a specific field type using a validation script. In new instances, Service Portal includes XML, Script, Script \(Plain\), Email, and Version validation scripts by default. If upgrading from a previous release, the Mobile and Service Portal version is not active by default. You must activate the Mobile and Service Portal version of the validation script to validate user input in the Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/activate-sp-validation-scripts.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Service Portal requires that the **UI Type** field be set to **All** or **Mobile / Service Portal**. Client Scripts marked as **Desktop** rely on legacy APIs that are not supported in Service Portal. Before flagging a script as Mobile / Service Portal or All, make sure you are only using supported client-side APIs. See [Supported client script types and APIs](../reference/client-script-reference.md).
+Service Portal requires that the **UI Type** field be set to **All** or **Mobile / Service Portal**. Client Scripts marked as **Desktop** rely on legacy APIs that are not supported in Service Portal. Before flagging a script as Mobile / Service Portal or All, make sure you are only using supported client-side APIs. See [Supported client script types and APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/client-script-reference.md).
 
 **Note:** To change the UI Type from **Mobile / Service Portal** to **All**, delete the Desktop version from your instance to avoid activating conflicting scripts. Before deleting the Desktop version, make a backup in case you need to revert any changes.
 
@@ -56,5 +57,5 @@ User input into the designated field type in the Service Portal and Mobile envir
 
 **Note:** On a desktop browser, the field is validated when you submit the record. On a mobile browser, the field is validated when you navigate away from the field.
 
-**Parent Topic:**[Upgrading Service Portal](upgrading-service-portal.md)
+**Parent Topic:**[Upgrading Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/upgrading-service-portal.md)
 

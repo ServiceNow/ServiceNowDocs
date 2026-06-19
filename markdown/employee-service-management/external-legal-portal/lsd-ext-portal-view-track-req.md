@@ -2,6 +2,7 @@
 title: View and track requests submitted in External Legal Service Center
 description: View and track requests submitted for a legal service from the External Legal Service Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/external-legal-portal/lsd-ext-portal-view-track-req.html
 release: australia
 product: External Legal Portal
 classification: external-legal-portal

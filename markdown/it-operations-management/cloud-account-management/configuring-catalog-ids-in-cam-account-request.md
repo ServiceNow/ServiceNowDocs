@@ -2,6 +2,7 @@
 title: Configure a custom catalog ID in Cloud Account Management account request
 description: Configure the catalog ID used for Cloud Account Management request to map the custom service catalog and streamline account provisioning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configuring-catalog-ids-in-cam-account-request.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

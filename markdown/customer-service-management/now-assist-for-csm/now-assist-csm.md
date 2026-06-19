@@ -2,6 +2,7 @@
 title: Now Assist for Customer Service Management \(CSM\)
 description: Use the ServiceNow Now Assist for Customer Service Management \(CSM\) application to summarize the case information, generate the case resolution notes, and summarize the chat for an interaction. You can enable your agents to understand the chat and case context so that they can propose quicker resolutions to your customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/now-assist-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -20,15 +21,15 @@ Use the ServiceNow® Now Assist for Customer Service Management \(CSM\) applicat
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for CSM](now-assist-csm-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for CSM application to get started](now-assist-csm-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for CSM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md)
 
 </td><td>
 
-[Use Customer Service Management generative AI![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by Now Assist for CSM](now-assist-csm-using.md)
+[Use Customer Service Management generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 
 </td></tr><tr><td>
 
@@ -36,7 +37,7 @@ Use the ServiceNow® Now Assist for Customer Service Management \(CSM\) applicat
 
 </td><td>
 
-[Use Agentic AI in CSM ![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use the Now Assist for CSM AI agents to complete tasks autonomously.](csm-ai-agents-use-cases.md)
+[Use Agentic AI in CSM \[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the Now Assist for CSM AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
 </td><td>
 
@@ -66,7 +67,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for chat summarization, resolution notes generation, knowledge generation, call summarization\), chat transcripts \(for chat recommendation\), and email information \(for email response\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for chat summarization, resolution notes generation, knowledge generation, call summarization\), chat transcripts \(for chat recommendation\), and email information \(for email response\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 

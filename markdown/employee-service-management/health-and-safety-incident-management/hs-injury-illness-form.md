@@ -2,6 +2,7 @@
 title: Injury and illness fields
 description: Safety managers and agents can use the Injury and illness form to log an injury or illness. A safety compliance manager can access an injury and illness report and mark it as recordable for reporting purposes. They can also use it to generate the injury and illness reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Incident Management, Health and Safety
 
 Safety managers and agents can use the Injury and illness form to log an injury or illness. A safety compliance manager can access an injury and illness report and mark it as recordable for reporting purposes. They can also use it to generate the injury and illness reports.
 
-For more information, see [Log an injury and illness](../task/log-injury-illness.md).
+For more information, see [Log an injury and illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/log-injury-illness.md).
 
 <table id="table_injury_illness"><thead><tr><th>
 
@@ -58,7 +59,7 @@ Visitor
 
 Name of the visitor who's injured or ill.This field appears only when **Visitor** is selected from **Person type**.
 
-**Note:** This field only lists visitors who have Health and Safety profile assigned to them. For more information, see [Add a Health and Safety visitor](../task/hs-add-health-safety-visitor.md).
+**Note:** This field only lists visitors who have Health and Safety profile assigned to them. For more information, see [Add a Health and Safety visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-add-health-safety-visitor.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +77,7 @@ Contractor
 
 Name of the contract worker who's injured or ill. This field appears only when **Contractor** is selected from **Person type**.
 
-**Note:** This field only lists users who have the \[snc\_external\] role assigned to them and have their Health and Safety profile created. For more information, see [Assign Health and Safety profile to a user](../task/assign-hs-profile-user.md).
+**Note:** This field only lists users who have the \[snc\_external\] role assigned to them and have their Health and Safety profile created. For more information, see [Assign Health and Safety profile to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/assign-hs-profile-user.md).
 
 </td></tr><tr><td>
 
@@ -92,7 +93,7 @@ Sensitive content
 
 </td><td>
 
-Option that indicates that the incident contains sensitive information.Only a user with the Sensitive content user role can view a report marked as sensitive. For more information on roles, see [Components installed with Health and Safety Incident Management](components-installed-with-hs-incident-mgmt.md).
+Option that indicates that the incident contains sensitive information.Only a user with the Sensitive content user role can view a report marked as sensitive. For more information on roles, see [Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md).
 
 **Note:** When you generate a report \(such as OSHA 300 or 300A\), it contains all incidents, including the ones marked as sensitive, according to the template. However, sensitive information is not disclosed in the report as incident details are not included.
 
@@ -210,7 +211,7 @@ Date and time of injury or illness
 
 </td><td>
 
-Date and time when this injury or illness happened.
+Date and time when this injury or illness happened.The date and time is displayed in the reporting user's local time zone.
 
 </td></tr><tr><td>
 
@@ -234,7 +235,7 @@ Recordable
 
 </td><td>
 
-Option that indicates that this injury or illness is recordable for any reporting purpose. Only a safety compliance manager can edit this field.Only records marked as recordable are included when you generate a report, such as an OSHA form. For example, see [Pre-requisites for generating OSHA forms](../concept/generating-osha-forms.md#reporting-prereq).
+Option that indicates that this injury or illness is recordable for any reporting purpose. Only a safety compliance manager can edit this field.Only records marked as recordable are included when you generate a report, such as an OSHA form. For example, see [Pre-requisites for generating OSHA forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/generating-osha-forms.md).
 
 </td></tr><tr><td>
 
@@ -256,7 +257,7 @@ HR case related to this injury.This field appears only when the following condit
 -   Safety case manager \[sn\_hs\_cm.case\_manager\] role assigned to you.
 -   **Employee** is selected in the **Person type** field.
 
-For more information, see [Create an HR case from an injury or illness](../task/create-hr-case-injury-illness.md).
+For more information, see [Create an HR case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/create-hr-case-injury-illness.md).
 
 </td></tr><tr><td>
 
@@ -264,7 +265,7 @@ RTW case record
 
 </td><td>
 
-Return to Work case related to this injury.The injury record is auto-populated in the **Injury and illness** tab of the selected case. For more information, see [Health and Safety case](../../hs-case-management/task/hs-work-health-safety-case.md).
+Return to Work case related to this injury.The injury record is auto-populated in the **Injury and illness** tab of the selected case. For more information, see [Health and Safety case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-work-health-safety-case.md).
 
 This field appears only when the following conditions are met:
 
@@ -272,7 +273,7 @@ This field appears only when the following conditions are met:
 -   Safety case manager \[sn\_hs\_cm.case\_manager\] role assigned to you.
 -   **Employee** is selected in the **Person type** field.
 
-However, the field doesn't appear when the Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is also installed on the instance. For more information, see [Create a return to work case from an injury or illness](../task/create-rtw-case-injury-illness.md).
+However, the field doesn't appear when the Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is also installed on the instance. For more information, see [Create a return to work case from an injury or illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/create-rtw-case-injury-illness.md).
 
 </td></tr><tr><td>
 
@@ -324,8 +325,8 @@ Attachments
 
 </td><td>
 
-Section where you can add attachments related to this injury and illness.If this injury and illness is marked as recordable, all reports generated for it \(such as the OSHA 301 form\) are available in this area. For more information, see [Generate an OSHA 301 form](../task/generate-osha-301-report.md).
+Section where you can add attachments related to this injury and illness.If this injury and illness is marked as recordable, all reports generated for it \(such as the OSHA 301 form\) are available in this area. For more information, see [Generate an OSHA 301 form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/generate-osha-301-report.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Incident Management reference](../concept/hs-incident-mgmt-reference.md)
+</table>**Parent Topic:**[Health and Safety Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-reference.md)
 

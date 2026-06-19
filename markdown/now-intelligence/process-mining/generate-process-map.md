@@ -2,6 +2,7 @@
 title: Mine a project
 description: After you’ve configured the data you want to visualize, you can begin mining the project.An analyst, power user, or administrator can cancel a mining job currently in process.When attempting to mine a project, the project workflow record shows one of these states.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/generate-process-map.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -51,14 +52,14 @@ This limit will decrease depending on the number of tables you have configured o
 
     After the mining is complete, a **Mining Summary** page is displayed. This page provides additional details about the mining. It also lists any finding definition that wasn’t included in the mining and provides a link to understand the actual cause. You can also view the logs or go to the Process Mining Workspace and view the graph.
 
-    ![Mining summary](../image/mining-summary.png)
+    \[Omitted image "mining-summary.png"\] Alt text: Mining summary
 
 
 ## Result
 
 If the extraction completes successfully, the project card shows the mining state as **Available**.
 
-**Parent Topic:**[Create a project using Classic view](create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-proj.md)
 
 ## Cancel a mining job
 
@@ -136,7 +137,7 @@ Error
 </td><td>
 
 Mining was attempted but did not complete successfully. -   New projects that have not yet been successfully mined cannot be opened in Analyst workbench.
--   You can attempt a data refresh from Analyst workbench on a project that has been successfully mined from its workflow record. An error icon ![error icon](../image/extract-error-icon.png) displays when project data does not refresh successfully. To investigate for details, view the **Extract Data Log** tab from the Project Definition form.
+-   You can attempt a data refresh from Analyst workbench on a project that has been successfully mined from its workflow record. An error icon \[Omitted image "extract-error-icon.png"\] Alt text: error icon displays when project data does not refresh successfully. To investigate for details, view the **Extract Data Log** tab from the Project Definition form.
 
 </td></tr><tr><td>
 

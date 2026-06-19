@@ -2,6 +2,7 @@
 title: Update your X.509 certificate
 description: If you require an SSL connection for the integration, there are circumstances when the certificate provided by the third-party vendor is either not yet trusted in ServiceNow or has expired. This task is optional.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/update-cert-pawnd.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -43,7 +44,7 @@ Role required: admin
 
 2.  Navigate to **System Definition** &gt; **Certificates**.
 
-3.  Click **New** and [create a new record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_UploadACertificateToAnInstance.md) for the integration.
+3.  Click **New** and create a new record for the integration.
 
 4.  In **PEM Certificate**, paste in the certificate you downloaded and copied into the clipboard earlier.
 

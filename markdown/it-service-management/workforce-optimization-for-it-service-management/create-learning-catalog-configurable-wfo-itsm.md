@@ -2,6 +2,7 @@
 title: Create a learning library
 description: Create a learning library to organize related content into categories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/create-learning-catalog-configurable-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -52,5 +53,5 @@ Role required: sn\_wfo\_cfg\_itsm.manager
     3.  In the **Group** field, select a group that you want to associate with the learning library.
     4.  Select **Save**.
 
-**Parent Topic:**[Learning in Workforce Optimization for ITSM](../concept/workforce-learning-configurable-wfo-itsm.md)
+**Parent Topic:**[Learning in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/workforce-learning-configurable-wfo-itsm.md)
 

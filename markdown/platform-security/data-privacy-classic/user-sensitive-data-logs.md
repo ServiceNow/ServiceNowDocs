@@ -2,11 +2,12 @@
 title: User sensitive data logs
 description: You can view the top 100 activity logs for specific real-time protection policies that contain the most sensitive data from the last month.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/user-sensitive-data-logs.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 ---

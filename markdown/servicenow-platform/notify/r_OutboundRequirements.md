@@ -2,6 +2,7 @@
 title: Outbound communication requirements
 description: Outbound communications initiated through Notify, such as phone calls and SMS messages, must satisfy recipient number requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_OutboundRequirements.html
 release: australia
 product: Notify
 classification: notify
@@ -26,5 +27,5 @@ These requirements apply to all outbound communication initiated through Notify,
 
 Invalid numbers prevent Notify workflows from running and cause an error to be logged. Set the **glide.notify.debug** property to true to create detailed error logs.
 
-**Parent Topic:**[Using Notify with SMS](../concept/c_NotifySMS.md)
+**Parent Topic:**[Using Notify with SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifySMS.md)
 

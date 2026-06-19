@@ -2,6 +2,7 @@
 title: Customer Service Management AI agent collection provide customer 360 insights
 description: Provide Customer 360 insights agentic workflow is a GenAI-powered assistant that helps agents answer natural language questions about customers, cases, products, catalogs, and past interactions with a seamless multi-turn Q &amp; A experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customer-service-management-ai-agent-collection-customer-360.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -39,7 +40,7 @@ Required role: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_cu
 
 **Important:** To access data in the agentic workflow, the admin role must include the specified roles under **Contains roles**.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 In the data access settings, you must also add the necessary roles to helps agents to resolve cases more efficiently and effectively. For example, you can add the csm role to the agentic workflow's list of approved roles so that it can access case records.
 
@@ -65,13 +66,13 @@ To configure the Provide customer 360 insights agentic workflow, perform the fol
 
 The agent executes the **testing** in AI Agent Studio for the agentic workflow.
 
-![AI Agent Studio showing the testing output for Provide customer 360 insight agentic workflow](../image/customer-360-ai-agent.png "Example of Provide customer 360 insight agentic workflow testing in AI Agent Studio")
+\[Omitted image "customer-360-ai-agent.png"\] Alt text: AI Agent Studio showing the testing output for Provide customer 360 insight agentic workflow
 
-In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](../task/request-gen-ai-capabilities-csm-now-assist-panel.md).
+In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 
 ## Access Control lists \(ACLs\)
 
-Access Control Lists \(ACLs\) are preconfigured to support the Provide customer 360 insights use case, including AI agents and their associated flows and actions, such as the Customer insights Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, [Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
+Access Control Lists \(ACLs\) are preconfigured to support the Provide customer 360 insights use case, including AI agents and their associated flows and actions, such as the Customer insights Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, .
 
 When updating the agent role for the Provide customer 360 insights Agentic Workflow, it is important to also update the corresponding Access Control Lists \(ACLs\) to ensure proper permissions. To manually update ACLs for custom roles:
 
@@ -90,7 +91,7 @@ The following tables list the agents that are used in the Provide customer 360 i
 
 ## Use Provide customer 360 insights Agentic Workflow
 
-The Provide customer 360 insights agentic workflow in Now Assist for Customer Service Management \(CSM\) gives agents contextual, GenAI-driven insights about customers directly within a case. By selecting the Now Assist icon ![Now assist icon.](../../../common/image/icon-ai-sparkle.png) in a case record, agents can access the Now Assist panel that delivers real-time insights based on customer data.
+The Provide customer 360 insights agentic workflow in Now Assist for Customer Service Management \(CSM\) gives agents contextual, GenAI-driven insights about customers directly within a case. By selecting the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon. in a case record, agents can access the Now Assist panel that delivers real-time insights based on customer data.
 
 Agents can ask natural language questions, such as "What products is this customer currently using?" The AI agent responds with accurate, contextually relevant answers and maintains conversational context across multiple questions.
 

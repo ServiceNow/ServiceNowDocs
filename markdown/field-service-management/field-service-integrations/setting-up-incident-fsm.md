@@ -2,6 +2,7 @@
 title: Setting up Incident Management for Field Service
 description: Install and set up the Incident Management for Field Service application to track work order progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/setting-up-incident-fsm.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -20,8 +21,8 @@ Integration with the Incident Management application enables ITIL agents to crea
 This integration provides the following benefits for ITIL agents:
 
 -   Ability to create a work order from a incident request either on the ServiceNow AI Platform or the CSM Configurable Workspace.
-    -   For information about creating a work order from an incident record in ServiceNow AI Platform, see [Create a work order](../../planning-and-policy/task/t_CreateAWorkOrder.md).
-    -   For more information about creating a work order from incident record in CSM Configurable Workspace, see [Create a work order from a change request in the CSM Configurable Workspace](../task/create-wo-from-chng-config-wrkspc.md).
+    -   For information about creating a work order from an incident record in ServiceNow AI Platform, see [Create a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-order-management/t_CreateAWorkOrder.md).
+    -   For more information about creating a work order from incident record in CSM Configurable Workspace, see [Create a work order from a change request in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/create-wo-from-chng-config-wrkspc.md).
 -   Enables the ITIL agent to track the progress of a work order directly from its parent incident record.
 
 This integration automates your system to provides the following benefits:
@@ -31,7 +32,7 @@ This integration automates your system to provides the following benefits:
 -   Enables field service agents to view the related incident record details and related lists in the Mobile Agent application.
 -   Auto-close a change request when all related work orders are closed as completed.
 
-    **Note:** You must enable the auto-close function in the extension point of a IncidentWorkOrderIntegration script to close the Incident record automatically when the related work order is closed. For more information, see [Using an extension point to synchronize work orders with change requests](../reference/using-extention-point-for-chnge-mngmnt.md).
+    **Note:** You must enable the auto-close function in the extension point of a IncidentWorkOrderIntegration script to close the Incident record automatically when the related work order is closed. For more information, see [Using an extension point to synchronize work orders with change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/using-extention-point-for-chnge-mngmnt.md).
 
 
 ## Synchronizing data between the work order and the incident record
@@ -42,8 +43,8 @@ Work notes are synchronized from work order to the incident record when:
 -   Work notes are added to the work order tasks.
 -   The work order task is closed either as complete or incomplete.
 
--   **[Using extension point for incident management](../reference/using-extension-point-for-incident-mngmnt.md)**  
+-   **[Using extension point for incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/using-extension-point-for-incident-mngmnt.md)**  
 Extension points enable you to extend the functionality of an application and integrate customizations without altering the application code. Extension points are stored in the Extension Point \[sys\_extension\_point\] table.
 
-**Parent Topic:**[Integration with Incident Management](incident-for-fsm.md)
+**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/incident-for-fsm.md)
 

@@ -2,6 +2,7 @@
 title: GlideTime - Scoped
 description: The GlideTime API provides methods for performing operations on GlideTime objects, such as instantiating GlideTime objects or working with GlideTime fields.Instantiates a GlideTime object with the current time.Instantiates a GlideTime object with its time starting at midnight UTC plus the passed in value.Returns the time in the specified format.Gets the time in the current user's display format and time zone.Returns the time using the current user's timezone and a specified format.Gets the display value in the current user's time zone and the internal format \(HH:mm:ss\).Returns the time using the current user's timezone and a specified format and language.Returns the hours part of the time using the local time zone.Returns the hours part of the time using the local time zone. The number of hours is based on a 24 hour clock.Returns the hours part of the time using the UTC time zone. The number of hours is based on a 24 hour clock.Returns the hours part of the time using the UTC time zone. The number of hours is based on a 12 hour clock. Noon and midnight are represented by 0, not 12.Returns the number of minutes using the local time zone.Returns the number of minutes in the hour based on the UTC time zone.Returns the number of seconds in the current minute.Gets the time value stored in the database by the GlideTime object in the internal format, HH:mm:ss, and the system time zone.Sets a time value using the current user's display format and time zone.Sets the time using the current user's timezone and a specified format.Sets the time using the current user's timezone and a specified format and language.Sets the time of the GlideTime object in the internal time zone.Gets the duration difference between two GlideTime object values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideTimeScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideTime API provides methods for performing operations on GlideTime objects, such as instantiating GlideTime objects or working with GlideTime fields.
 
-For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](../../../../../script/glide-server-apis/topic/p_GlideServerAPIs.md#).
+For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideTime - GlideTime\(\)
 
@@ -80,7 +81,7 @@ Output:
 
 Returns the time in the specified format.
 
-For information on the time formats that you can pass into this method, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md). You can pass these values in any order and add separators such as a dash, space, backslash, or colon. In addition, you can also pass the character "a" to return am/pm.
+For information on the time formats that you can pass into this method, see Global date and time field format. You can pass these values in any order and add separators such as a dash, space, backslash, or colon. In addition, you can also pass the character "a" to return am/pm.
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -443,7 +444,7 @@ String
 
 </td><td>
 
-Value to set for the time. The [getDisplayValueEx\(\)](c_GlideTimeScopedAPI.md#) method returns times in a valid format, or times can be formatted as shown below.
+Value to set for the time. The [getDisplayValueEx\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md) method returns times in a valid format, or times can be formatted as shown below.
 
 -   HH:mm \(AM/PM\)
 -   HH:mm:ss \(AM/PM\)
@@ -516,7 +517,7 @@ String
 
 </td><td>
 
-Value to set for the time. The [getDisplayValueLang\(\)](c_GlideTimeScopedAPI.md#) and [getDisplayValueEx\(\)](c_GlideTimeScopedAPI.md#) methods return times in a valid format, or times can be formatted as shown below.
+Value to set for the time. The [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md) and [getDisplayValueEx\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md) methods return times in a valid format, or times can be formatted as shown below.
 
 -   HH:mm \(AM/PM\)
 -   HH:mm:ss \(AM/PM\)

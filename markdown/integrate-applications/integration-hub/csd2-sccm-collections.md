@@ -2,6 +2,7 @@
 title: Define the Microsoft Endpoint Configuration Manager configuration
 description: Associate that software with a collection through a Microsoft Endpoint Configuration Manager configuration to create catalog items for Microsoft Endpoint Configuration Manager software deployment or to configure your instance to revoke software through Microsoft Endpoint Configuration Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-sccm-collections.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -80,5 +81,5 @@ Name of the collection associated with the uninstall deployment for the selected
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](../concept/csd2.md)
+**Parent Topic:**[CSD 2.0 for Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd2.md)
 

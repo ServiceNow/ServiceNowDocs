@@ -2,6 +2,7 @@
 title: Deleted hardening settings for baseline version 8.0
 description: Some hardening settings have been removed with the release of Security Center baseline version 8.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/deleted-hardening-settings-for-baseline-version-eight.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -19,5 +20,5 @@ Some hardening settings have been removed with the release of Security Center ba
 -   Enable Updated Version of Multi SSO Plugin
 -   Set Allowed MIME Child Types
 
-**Parent Topic:**[Deleted hardening settings](hardening-settings-deleted.md)
+**Parent Topic:**[Deleted hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/hardening-settings-deleted.md)
 

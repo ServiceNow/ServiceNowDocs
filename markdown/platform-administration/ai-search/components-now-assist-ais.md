@@ -2,6 +2,7 @@
 title: Components installed with Now Assist in AI Search
 description: The Now Assist in AI Search application installs new system components including scheduled jobs and Entity View Action Mapping \(EVAM\) configurations and templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/components-now-assist-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -32,8 +33,8 @@ Update Semantic Cache
 
 </td><td>
 
--   Populate the second-level Now Assist Q&amp;A Genius Results cache with results for the most frequently submitted queries found in the Search Event \[sys\_search\_event\] search signal table. For more information on this table, see [Search signal tables](../../search-administration/reference/search-signal-tables.md).
--   Purge all unpinned entries in the Now Assist Q&amp;A Genius Results second-level cache that have not been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Now Assist Q&amp;A Genius Results](../concept/caching-now-assist-q-a-gr.md#).
+-   Populate the second-level Now Assist Q&amp;A Genius Results cache with results for the most frequently submitted queries found in the Search Event \[sys\_search\_event\] search signal table. For more information on this table, see [Search signal tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/search-signal-tables.md).
+-   Purge all unpinned entries in the Now Assist Q&amp;A Genius Results second-level cache that have not been used in the past seven days. Search administrators can pin results in the second-level cache table to prevent them from being purged. For more details on this procedure, see [Pin cached answers for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/caching-now-assist-q-a-gr.md).
 
 </td></tr></tbody>
 </table>## Entity View Action Mapper \(EVAM\) configurations installed with Now Assist in AI Search
@@ -123,7 +124,7 @@ Contains the component, static value, field-mapping, and action-mapping settings
 </td></tr></tbody>
 </table>## List of all components installed with Now Assist in AI Search
 
-To view the complete list of components installed with Now Assist in AI Search, follow the steps in [Find components installed with an application](../../plugins/task/find-components.md). The application's package name is **Now Assist in AI Search**.
+To view the complete list of components installed with Now Assist in AI Search, follow the steps in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-platform-administration/find-components.md). The application's package name is **Now Assist in AI Search**.
 
-**Parent Topic:**[Now Assist in AI Search reference](../concept/reference-now-assist-ais.md)
+**Parent Topic:**[Now Assist in AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-now-assist-ais.md)
 

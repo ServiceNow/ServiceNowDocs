@@ -2,6 +2,7 @@
 title: Multi-record, custom field Splunk alert examples
 description: When you are creating multiple record Splunk alerts with custom fields, you need to define search criteria for generating alert data. Examples of search criteria for security incidents and security events are shown.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/multi-record-examples.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

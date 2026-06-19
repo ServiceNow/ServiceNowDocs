@@ -2,6 +2,7 @@
 title: E-signatures on questionnaires or document requests
 description: Questionnaires or document requests might require electronic signatures of third-party contacts and/or reviewers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-ws-approve-with-e-sig.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management

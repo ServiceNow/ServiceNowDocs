@@ -2,6 +2,7 @@
 title: Import an existing building - Mappedin
 description: Follow these steps to import an existing building for a Mappedin map.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wsm-mappedin-import-existing-bldg.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -21,7 +22,7 @@ Role required: sn\_wsd\_mappedin.admin
 
 1.  Create external IDs for the buildings you want to import.
 
-    For instructions, see [Use external IDs to match spaces between Workplace Service Delivery for Mappedin](wsm-mappedin-ext-ids.md).
+    For instructions, see [Use external IDs to match spaces between Workplace Service Delivery for Mappedin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-ext-ids.md).
 
 2.  Click **Yes** in the confirm dialog box.
 
@@ -40,5 +41,5 @@ Role required: sn\_wsd\_mappedin.admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Convert Mappedin data to Workplace Space Mapping data](../concept/wsm-mappedin-type-table.md)
+**Parent Topic:**[Convert Mappedin data to Workplace Space Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/wsm-mappedin-type-table.md)
 

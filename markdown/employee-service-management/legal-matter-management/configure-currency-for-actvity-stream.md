@@ -2,6 +2,7 @@
 title: Configure the currency symbol for activity stream
 description: Configure currency to be displayed in the activity stream.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/configure-currency-for-actvity-stream.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -36,5 +37,5 @@ By default, the activity stream displays currency and price fields converted int
 5.  Select **Update**.
 
 
-**Parent Topic:**[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](../concept/configurations-for-legal-tracker-integration.md)
+**Parent Topic:**[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)
 

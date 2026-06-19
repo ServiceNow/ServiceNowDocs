@@ -2,6 +2,7 @@
 title: Scripted web service example
 description: This example demonstrates the processing script for the FakeStockValue web service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_StaticWSDLScriptedWebService.html
 release: australia
 product: Web Services
 classification: web-services
@@ -23,5 +24,5 @@ var vProcessor  = new FakeStockValue (soapRequestXML ) ;
   response. soapResponseElement = vProcessor. generateSoapFault ( "unknown error" ) ; }
 ```
 
-**Parent Topic:**[Create a scripted web service using a static WSDL](../task/t_CreateStaticWSDLScriptWebService.md)
+**Parent Topic:**[Create a scripted web service using a static WSDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_CreateStaticWSDLScriptWebService.md)
 

@@ -2,6 +2,7 @@
 title: Platform Analytics dashboard cache
 description: Changes to the layouts of Platform Analytics dashboards are stored in the par\_dashboard\_cache table. Whenever a dashboard is called, a new entry is made in this table. Delete entries in this table to regenerate the cache for troubleshooting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/pa-dashboard-cache.html
 release: australia
 topic_type: concept
 last_updated: "2024-09-26"
@@ -20,5 +21,5 @@ These access control lists \(ACLs\) apply to the PAR Dashboard Metadata Caches *
 -   Admin only role: report\_on, report\_view, create, write, delete
 -   Any logged-in user: read
 
-For a full guide to roles connected to Platform Analytics dashboards, see [Platform Analytics roles](../reference/platform-analytics-roles.md).
+For a full guide to roles connected to Platform Analytics dashboards, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 

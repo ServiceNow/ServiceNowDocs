@@ -2,6 +2,7 @@
 title: Test suite form
 description: The Test Suite form contains information about one test suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-test-suite-record.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -27,5 +28,5 @@ The Test Suite form contains information about one test suite.
 |Test Suite Results \(related list\)|Results from executing this test suite.|
 |Test Suite Schedules \(related list\)|Any test suite schedules that include this test suite.|
 
-**Parent Topic:**[Suites](../concept/suites-module.md)
+**Parent Topic:**[Suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/suites-module.md)
 

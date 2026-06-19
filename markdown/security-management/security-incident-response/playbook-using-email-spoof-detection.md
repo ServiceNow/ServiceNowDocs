@@ -2,6 +2,7 @@
 title: Use the Email Domain Spoofing Detection playbook
 description: Use this playbook to find a similarity match between the Phisher's sender email domain with a trusted domain name exists in the observable repository. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Email Domain Spoofing Detection playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-using-email-spoof-detection.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -47,5 +48,5 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 8.  In Action 8, the flow ends.
 
 
-**Parent Topic:**[Playbook for Email Domain Spoofing Detection](../concept/playbook-email-spoof-detection.md)
+**Parent Topic:**[Playbook for Email Domain Spoofing Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-email-spoof-detection.md)
 

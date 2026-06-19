@@ -2,6 +2,7 @@
 title: CMDBQBScopedScriptableAPI - Scoped
 description: Provides methods to execute Configuration Management Database \(CMDB\) Query Builder operations in server-side scripts.Creates a report that shows the results of a Configuration Management Database \(CMDB\) Query Builder query and returns the URL of the report.Deletes a Configuration Management Database \(CMDB\) Query Builder query.Returns the execution details for a Configuration Management Database \(CMDB\) Query Builder query.Saves a Configuration Management Database \(CMDB\) Query Builder query and returns the sys\_id of the saved query.Updates the JSON for a Configuration Management Database \(CMDB\) Query Builder query.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CMDBQBScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,13 +16,13 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Provides methods to execute Configuration Management Database \(CMDB\) Query Builder operations in server-side scripts.
 
-This API is the scoped equivalent of [CMDBQueryBuilderAPI - Global](../../CMDBQueryBuilderAPI/concept/CMDBQueryBuilderAPI.md#).
+This API is the scoped equivalent of [CMDBQueryBuilderAPI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/CMDBQueryBuilderAPI.md).
 
 This API requires the Configuration Management for Scoped Apps plugin \(com.snc.cmdb.scoped\) and is provided within the `sn_cmdb` namespace.
 
-For more information about CMDB Query Builder, see [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-landing-page.md).
+For more information about CMDB Query Builder, see .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CMDBQBScopedScriptableAPI - createReport\(String savedQueryId, String savedQueryName\)
 
@@ -119,7 +120,7 @@ Message containing details about the success or failure of the report creation.P
 -   `Invalid queryId. Please provide a valid saved query ID`
 -   `Query must have a schedule with at least one run to create a report.`
 
-See also [Schedule a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.md).
+See also .
 
 Data type: String
 
@@ -315,7 +316,7 @@ Returns the execution details for a Configuration Management Database \(CMDB\) Q
 
 Optionally, you can execute the query in order to return current execution details.
 
-If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see [Batch size for Query Builder saved queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md).
+If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see Batch size for Query Builder saved queries.
 
 <table id="id_ezv_4vz_pbc" class="parameters"><thead><tr><th>
 
@@ -419,7 +420,7 @@ Data type: String
 
 </td><td>
 
-Batch size of 100 allocated for the query run. This value only returns if the **executeQuery** parameter is true. See also [Batch size for CMDB Query Builder queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md).Data type: Number
+Batch size of 100 allocated for the query run. This value only returns if the **executeQuery** parameter is true. See also .Data type: Number
 
 </td></tr><tr><td>
 

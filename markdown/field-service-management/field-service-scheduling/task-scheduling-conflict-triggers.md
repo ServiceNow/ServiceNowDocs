@@ -2,6 +2,7 @@
 title: Configure task scheduling conflict triggers
 description: Configure which work order task \(WOT\) fields are monitored for scheduling conflicts during a scheduling run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/task-scheduling-conflict-triggers.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

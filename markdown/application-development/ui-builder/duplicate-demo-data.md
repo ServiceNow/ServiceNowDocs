@@ -2,6 +2,7 @@
 title: Duplicate a demo UI interaction
 description: Create a duplicate of a demo UI interaction example to work with a separate, editable copy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/duplicate-demo-data.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -17,7 +18,7 @@ Create a duplicate of a demo UI interaction example to work with a separate, edi
 
 ## Before you begin
 
-Demo data is available after loading it once from the demo data plugin \(sn-interaction-builder\). For instructions, see [Working with UI interaction demo data](../concept/working-with-demo-interactions.md).
+Demo data is available after loading it once from the demo data plugin \(sn-interaction-builder\). For instructions, see [Working with UI interaction demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/working-with-demo-interactions.md).
 
 Role required: ui\_builder\_admin
 
@@ -37,7 +38,7 @@ When you duplicate demo data, you create a separate copy. You can run or customi
 
 3.  In the **Search UI interactions** field, enter `demo`.
 
-    ![UI interactions list with demo interactions listed.](../image/uib-uii-demo-list.png)
+    \[Omitted image "uib-uii-demo-list.png"\] Alt text: UI interactions list with demo interactions listed.
 
     The list filters to show interactions containing **demo** in their labels or descriptions.
 
@@ -47,11 +48,11 @@ When you duplicate demo data, you create a separate copy. You can run or customi
 
 6.  Select the **Settings** tab.
 
-    ![Settings tab.](../image/uib-uii-settings-tab.png)
+    \[Omitted image "uib-uii-settings-tab.png"\] Alt text: Settings tab.
 
 7.  In the record header, select **Duplicate**.
 
-    ![Settings tab for demo interaction with Duplicate action highlighted.](../image/uib-uii-duplicate-demo.png)
+    \[Omitted image "uib-uii-duplicate-demo.png"\] Alt text: Settings tab for demo interaction with Duplicate action highlighted.
 
 8.  Update the Name and Description fields, as needed.
 
@@ -67,7 +68,7 @@ A new UI interaction record is created in your current application scope, ready 
 To use your duplicated interaction, trigger it using one of these methods:
 
 -   From declarative action: Corresponding declarative actions are inactive by default and must be enabled to test.
--   From UI Builder page event. See [Trigger a UI interaction from a page event](trigger-ui-interaction-from-page-event.md).
+-   From UI Builder page event. See [Trigger a UI interaction from a page event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/trigger-ui-interaction-from-page-event.md).
 
-**Parent Topic:**[Working with UI interaction demo data](../concept/working-with-demo-interactions.md)
+**Parent Topic:**[Working with UI interaction demo data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/working-with-demo-interactions.md)
 

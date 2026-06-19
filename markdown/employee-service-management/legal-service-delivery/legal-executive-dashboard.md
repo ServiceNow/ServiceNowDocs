@@ -2,6 +2,7 @@
 title: Legal Executive dashboard
 description: With the Legal Executive dashboard, you can get an insight into how your team and business are performing for resolving Legal service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/legal-executive-dashboard.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -19,9 +20,9 @@ From a single place, you can track the status of legal requests and matters, ana
 
 **Note:** The classic version of Legal Executive Dashboard has been deprecated. If you open a saved URL to access the classic Legal Executive Dashboard, the Next Experience dashboard is automatically displayed. If you have customized the classic version, review and migrate your customizations to the Next Experience Legal Executive Dashboard.
 
-For reports and metrics on legal requests and legal matters and the trend analysis, see [Legal Operations dashboard](legal-operations-dashboard.md).
+For reports and metrics on legal requests and legal matters and the trend analysis, see [Legal Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legal-operations-dashboard.md).
 
-![Legal Executive dashboard showing widgets and reports.](../image/legal-executive-dashboard.gif "Legal Executive dashboard")
+\[Omitted image "legal-executive-dashboard.gif"\] Alt text: Legal Executive dashboard showing widgets and reports.
 
 **Important:** The tabs specific to practice areas are available on the Legal Executive dashboard depending on whether the corresponding application is installed. For example, the **Contracts** tab is available when you have installed the Legal Simple Contracts application. Also, you can add new tabs in the dashboard to view reports related to practice areas created by you.
 
@@ -451,7 +452,7 @@ Total requests \(YTD\)
 
 </td><td>
 
-Score![Score icon.](../../reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -467,7 +468,7 @@ Top 3 requests for this month
 
 </td><td>
 
-Scorecard![Scorecard icon.](../../reporting/image/icon-list-report-p.png)
+Scorecard\[Omitted image "icon-list-report-p.png"\] Alt text: Scorecard icon.
 
 </td><td>
 
@@ -483,7 +484,7 @@ Open requests by age
 
 </td><td>
 
-List![List icon.](../../reporting/image/icon-list-report-p.png)
+List\[Omitted image "icon-list-report-p.png"\] Alt text: List icon.
 
 </td><td>
 
@@ -499,7 +500,7 @@ Request stats \(YTD\)
 
 </td><td>
 
-Donut![Donut icon.](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -515,7 +516,7 @@ Avg. requests per attorney by category
 
 </td><td>
 
-List![List icon.](../../reporting/image/icon-list-report-p.png)
+List\[Omitted image "icon-list-report-p.png"\] Alt text: List icon.
 
 </td><td>
 
@@ -531,7 +532,7 @@ Requests completion time
 
 </td><td>
 
-Line![Line icon.](../../reporting/image/icon-line-report-p.png)
+Line\[Omitted image "icon-line-report-p.png"\] Alt text: Line icon.
 
 </td><td>
 
@@ -551,7 +552,7 @@ Total matters \(YTD\)
 
 </td><td>
 
-Score![Score icon.](../../reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -567,7 +568,7 @@ Top 3 matters for this month
 
 </td><td>
 
-Scorecard![Scorecard icon.](../../reporting/image/icon-list-report-p.png)
+Scorecard\[Omitted image "icon-list-report-p.png"\] Alt text: Scorecard icon.
 
 </td><td>
 
@@ -583,7 +584,7 @@ Open matters by age
 
 </td><td>
 
-List![List icon.](../../reporting/image/icon-list-report-p.png)
+List\[Omitted image "icon-list-report-p.png"\] Alt text: List icon.
 
 </td><td>
 
@@ -599,7 +600,7 @@ Matter stats \(YTD\)
 
 </td><td>
 
-Donut![Donut icon.](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -615,7 +616,7 @@ Avg. matters per attorney by category
 
 </td><td>
 
-List![List icon.](../../reporting/image/icon-list-report-p.png)
+List\[Omitted image "icon-list-report-p.png"\] Alt text: List icon.
 
 </td><td>
 
@@ -631,7 +632,7 @@ Matters completion time
 
 </td><td>
 
-Line![Line icon.](../../reporting/image/icon-line-report-p.png)
+Line\[Omitted image "icon-line-report-p.png"\] Alt text: Line icon.
 
 </td><td>
 
@@ -651,7 +652,7 @@ Total Contract requests \(YTD\)
 
 </td><td>
 
-Score![Score icon.](../../reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -667,7 +668,7 @@ Open Contract requests by deal size
 
 </td><td>
 
-Donut![Donut icon.](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -683,7 +684,7 @@ Open Contract requests by deal size and age
 
 </td><td>
 
-List![List icon.](../../reporting/image/icon-list-report-p.png)
+List\[Omitted image "icon-list-report-p.png"\] Alt text: List icon.
 
 </td><td>
 
@@ -699,7 +700,7 @@ Contract requests by contract type \(YTD\)
 
 </td><td>
 
-Donut![Donut icon.](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -715,7 +716,7 @@ Contract completion time
 
 </td><td>
 
-Line![Line icon.](../../reporting/image/icon-line-report-p.png)
+Line\[Omitted image "icon-line-report-p.png"\] Alt text: Line icon.
 
 </td><td>
 
@@ -735,7 +736,7 @@ Total Privacy and Compliance requests \(YTD\)
 
 </td><td>
 
-Score![Score icon.](../../reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -751,7 +752,7 @@ Open requests by category and age​
 
 </td><td>
 
-List![List icon.](../../reporting/image/icon-list-report-p.png)
+List\[Omitted image "icon-list-report-p.png"\] Alt text: List icon.
 
 </td><td>
 
@@ -767,7 +768,7 @@ Privacy and Compliance requests by category \(YTD\)
 
 </td><td>
 
-Donut![Donut icon.](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -783,7 +784,7 @@ Number of open legal requests in Privacy or Compliance practice areas.
 
 </td><td>
 
-Score![Score icon.](../../reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -799,7 +800,7 @@ Request completion time​
 
 </td><td>
 
-Line![Line icon.](../../reporting/image/icon-line-report-p.png)
+Line\[Omitted image "icon-line-report-p.png"\] Alt text: Line icon.
 
 </td><td>
 
@@ -819,7 +820,7 @@ Total Digital Forensics requests \(YTD\)
 
 </td><td>
 
-Score![Score icon.](../../reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -835,7 +836,7 @@ Open activities by age
 
 </td><td>
 
-List![List icon.](../../reporting/image/icon-list-report-p.png)
+List\[Omitted image "icon-list-report-p.png"\] Alt text: List icon.
 
 </td><td>
 
@@ -851,7 +852,7 @@ Activities completion time
 
 </td><td>
 
-Line![Line icon.](../../reporting/image/icon-line-report-p.png)
+Line\[Omitted image "icon-line-report-p.png"\] Alt text: Line icon.
 
 </td><td>
 
@@ -886,7 +887,7 @@ Requests by geography \(YTD\)
 
 </td><td>
 
-Map![Map icon.](../../reporting/image/icon-map-report-p.png)
+Map\[Omitted image "icon-map-report-p.png"\] Alt text: Map icon.
 
 </td><td>
 
@@ -902,7 +903,7 @@ Requested activities \(YTD\)
 
 </td><td>
 
-Donut![Donut icon.](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -918,7 +919,7 @@ Open requests by category
 
 </td><td>
 
-Donut![Donut icon.](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -934,7 +935,7 @@ Open activities
 
 </td><td>
 
-Donut![Donut icon.](../../reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -950,7 +951,7 @@ Matters by geography \(YTD\)
 
 </td><td>
 
-Map![Map icon.](../../reporting/image/icon-map-report-p.png)
+Map\[Omitted image "icon-map-report-p.png"\] Alt text: Map icon.
 
 </td><td>
 
@@ -961,5 +962,5 @@ Legal Matter \[sn\_lg\_matter\_matter\]
 Number of legal matters created from legal fulfillers in various regions so far this year is displayed on a map.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](../../application-content-packs/concept/legalsd-content-pack.md)
+</table>**Parent Topic:**[Analytics and Reporting Solutions for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 

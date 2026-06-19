@@ -2,6 +2,7 @@
 title: Properties installed with BCM
 description: Properties are added with the activation of Business Continuity Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/properties-bcm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -278,5 +279,5 @@ Default limit for IRM GlideRecord getter. \[sn\_irm\_shared\_cmn.config.get\_gli
 -   Default value: 1000
 
 </td></tr></tbody>
-</table>**Parent Topic:**[General administration setup for BCM](../concept/set-up-bcm-bcmadmin-tasks.md)
+</table>**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

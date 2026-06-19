@@ -2,13 +2,14 @@
 title: Create a record producer to add additional details
 description: Configure a record producer with additional details and add it to the reservable module. The fields configured for additional details will be displayed to the employee when they make a reservation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/create-a-record-producer-to-add-additional-fields.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure a reservable module, Configure Workplace Reservation Management portal, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure a reservable module, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a record producer to add additional details
@@ -17,7 +18,7 @@ Configure a record producer with additional details and add it to the reservable
 
 ## Before you begin
 
-Before you configure the record producer, refer to [Additional details record producer - Mapping Variable types and limitations](../reference/custom-fields-record-producer-mapping-variable-type-conditions.md).
+Before you configure the record producer, refer to [Additional details record producer - Mapping Variable types and limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/custom-fields-record-producer-mapping-variable-type-conditions.md).
 
 **Note:** The record producer is only used to retrieve data related to the additional fields.
 
@@ -35,7 +36,7 @@ If you want to add details that aren’t included in the Workplace Reservation \
 4.  Select **New**.
 5.  On the Dictionary Entry form, fill in the fields.
 
-    For more information on columns and fields, refer to [Exploring field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_IntroductionToFields.md).
+    For more information on columns and fields, refer to .
 
 6.  Select **Submit**.
 
@@ -70,11 +71,11 @@ Create a record producer with additional details and link it with the reservable
 
 Record producer form of 'Related Information':
 
-![Record producer form of 'Related Information'.](../image/additionaldetails-recordproducer.png)
+\[Omitted image "additionaldetails-recordproducer.png"\] Alt text: Record producer form of 'Related Information'.
 
 Reservation portal - Reservation form with the 'Related Information' section:
 
-![Reservation portal - Reservation form with the 'Related Information' section.](../image/additionaldetails-rsvportal.png)
+\[Omitted image "additionaldetails-rsvportal.png"\] Alt text: Reservation portal - Reservation form with the 'Related Information' section.
 
 ## Procedure
 
@@ -88,7 +89,7 @@ Reservation portal - Reservation form with the 'Related Information' section:
 
 5.  Select **Active** to activate the record producer.
 
-    For further form field descriptions, refer to [Record Producer form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/record-producer-form.md).
+    For further form field descriptions, refer to .
 
 6.  Select and hold \(or right-click\) on the form header and select **Save**.
 
@@ -105,7 +106,7 @@ Reservation portal - Reservation form with the 'Related Information' section:
     -   Reference
     -   Select Box
     -   Single Line Text
-    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md) Types of service catalog variables.
+    To learn more about the different types of variables and how to configure them, see Types of service catalog variables Types of service catalog variables.
 
     1.  Select **New**.
 
@@ -141,11 +142,11 @@ Reservation portal - Reservation form with the 'Related Information' section:
 
 10. You can add **Catalog UI Policies**.
 
-    Refer to [Service catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogUIPolicy.md)
+    Refer to 
 
 11. You can add **Catalog Client Scripts**.
 
-    Refer to [Create a Service Catalog client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateACatalogClientScript.md).
+    Refer to .
 
     **Note:** Only the following Client Scripts types are supported:
 
@@ -160,7 +161,7 @@ The record producer is created with the additional details.
 
 ## What to do next
 
-[Create a record producer to add additional details](create-a-record-producer-to-add-additional-fields.md)
+[Create a record producer to add additional details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/create-a-record-producer-to-add-additional-fields.md)
 
-**Parent Topic:**[Configure a reservable module](config-reservable-module.md)
+**Parent Topic:**[Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-reservable-module.md)
 

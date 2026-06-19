@@ -2,6 +2,7 @@
 title: Create or modify Walk-up Experience locations
 description: Create or customize the predefined Walk-up Experience location. Walk-up Experience locations contain all the information about the walk-up support venue. You can define the way each location or support venue works.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/configure-walkup-location.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -71,7 +72,7 @@ Appointment Booking
 
 </td><td>
 
-Appointment booking plan for the walk-up location. For more details, see [Booking walk-up appointment](../concept/walkup-appointment-booking.md).
+Appointment booking plan for the walk-up location. For more details, see [Booking walk-up appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-appointment-booking.md).
 
 </td></tr><tr><td>
 
@@ -483,7 +484,7 @@ Option to add a logo for the designated on-site display monitor. Design this log
     -   **Walk-up Appointments**: View appointments or configure how the Walk-up appointments list is displayed.
     -   **Reasons for Visit**: View, modify, or create a reason for visit.
 
-        **Note:** For configuring variable time slots feature in Walk-up Experience, you must use this tab for mapping the advance configurations with the service configuration rule. For more information, see [Configure variable time slots for appointment booking](config-variable-time-slots.md).
+        **Note:** For configuring variable time slots feature in Walk-up Experience, you must use this tab for mapping the advance configurations with the service configuration rule. For more information, see [Configure variable time slots for appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/config-variable-time-slots.md).
 
     -   **Walk-up Location Kiosks**: Modify or create a kiosk for the location.
     -   **Assignment Eligibility**: View, modify, or create an assignment rule for your walk-up locations.
@@ -495,5 +496,5 @@ Option to add a logo for the designated on-site display monitor. Design this log
 7.  To save the new or modified walk-up location, Select **Update**.
 
 
-**Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)
+**Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md)
 

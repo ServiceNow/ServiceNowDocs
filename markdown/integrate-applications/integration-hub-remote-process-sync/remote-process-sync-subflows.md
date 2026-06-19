@@ -2,6 +2,7 @@
 title: Remote Process Sync sample subflows
 description: Copy and configure the sample subflows to synchronize processes between multiple instances. Use an inbound subflow to parse incoming record data. Use an outbound subflow to send record data to a remote instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub-remote-process-sync/remote-process-sync-subflows.html
 release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync

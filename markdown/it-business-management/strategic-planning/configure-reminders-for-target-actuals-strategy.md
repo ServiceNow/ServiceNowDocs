@@ -2,11 +2,12 @@
 title: Configure reminders for target actuals
 description: Configure reminders to notify target owners and contributors to update actuals for their targets by a specified date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/configure-reminders-for-target-actuals-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configure, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---

@@ -2,6 +2,7 @@
 title: Add an application service to Operational Resilience reporting
 description: Add an application service to Operational Resilience reporting. Beginning with Operational Resilience, Release 21.0.x,the Application services module is supported in the Operational Resilience Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-app-ser.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +33,7 @@ Role required: sn\_oper\_res.manager
 
 3.  On the form, fill in the fields.
 
-    You can fill in the details of the application service in the form. For information on the fields, see [Create New Service Instance form](../reference/create-new-appl-service-form.md).
+    You can fill in the details of the application service in the form. For information on the fields, see [Create New Service Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-appl-service-form.md).
 
 4.  Select **Save**.
 

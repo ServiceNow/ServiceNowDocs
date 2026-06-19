@@ -2,6 +2,7 @@
 title: Embed the Data visualization component instance on the third-party website
 description: Embed the global code and component code of the Data visualization component instance that you configured so that you can enable your customers to start using the Data visualization component instance on your third-party website.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-data-viz-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ Embed the global code and component code of the Data visualization component ins
 
 ## Before you begin
 
-You must configure the Data visualization component instance. For information, see [Configure the Data visualization component instance](config-data-viz-comp.md).
+You must configure the Data visualization component instance. For information, see [Configure the Data visualization component instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-data-viz-comp.md).
 
 Role required: admin
 

@@ -2,6 +2,7 @@
 title: Import Crisis Task data
 description: As a crisis task administrator, upload a spreadsheet of self-reported health statuses to create crisis tasks in bulk.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-self-report/import-crisis-task-data.html
 release: australia
 product: Emergency Self Report
 classification: emergency-self-report
@@ -35,7 +36,7 @@ The Bulk Import Crisis Task Data scheduled job is installed with the Emergency S
 
 4.  In the **Data Source** field, open the **Import Crisis Task Data** record.
 
-    1.  Click the attachments icon \(![Manage attachments icon.](../image/icon-manage-attachments.png)\).
+    1.  Click the attachments icon \(\[Omitted image "icon-manage-attachments.png"\] Alt text: Manage attachments icon.\).
 
     2.  Click **Choose file** and select the source Excel file.
 
@@ -61,5 +62,5 @@ Records are imported to the Bulk Import Crisis Tasks table and copied to the Cri
 -   The user has an active case.
 -   The user is a duplicate.
 
-**Parent Topic:**[Emergency Self Report](../concept/emergency-self-report.md)
+**Parent Topic:**[Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report.md)
 

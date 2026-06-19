@@ -2,6 +2,7 @@
 title: Role Filter
 description: Use role filter criteria to filter users based on their roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/role-filter.html
 release: australia
 product: Authentication
 classification: authentication

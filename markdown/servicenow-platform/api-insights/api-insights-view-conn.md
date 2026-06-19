@@ -2,6 +2,7 @@
 title: View the status of API data connections in API Insights
 description: View the status of your API data connections using Service Graph Connectors, including success rates, processing status, and ongoing executions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-view-conn.html
 release: australia
 product: API Insights
 classification: api-insights

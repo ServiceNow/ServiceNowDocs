@@ -2,6 +2,7 @@
 title: View the Communities performance dashboard
 description: The Communities dashboard displays up-to-date status on community usage, membership, content type and activity, and trends by forum and by topic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/view-communities-dashboard.html
 release: australia
 product: Communities
 classification: communities
@@ -94,12 +95,12 @@ Heat maps display data for **Number of Posts Moved** and **Featured Content**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Platform Analytics Solutions for Communities](../../../use/dashboards/application-content-packs/communities-content-pack.md)
+**Parent Topic:**[Platform Analytics Solutions for Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-content-pack.md)
 
 **Related topics**  
 
 
-[Performance Analytics scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
+[bundle-par.c_UsePerformanceAnalyticsScorecards]
 
-[Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Widgets.md)
+[bundle-par.c_Widgets]
 

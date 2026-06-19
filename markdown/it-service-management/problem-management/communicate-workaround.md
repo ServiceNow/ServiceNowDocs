@@ -2,6 +2,7 @@
 title: Communicate workaround for Problem
 description: Document and communicate workaround to let others know that you are aware of the issue. The workaround is a temporary way to restore service failures and lessen the impact of a Problem for which an actual resolution is not yet available.You can enter a workaround note into a problem record, and then post the information into every associated incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/communicate-workaround.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -21,7 +22,7 @@ Role required: admin, problem\_admin, problem\_manager or problem\_coordinator
 
 ## About this task
 
-When you communicate a workaround, notification is sent to related incidents that a workaround is available. The Incident process is designed to use the workaround information or to notify the user of the same. For more information on notification, refer [Synchronization between incident and problem records](../concept/sync-btwn-inci-prob.md).
+When you communicate a workaround, notification is sent to related incidents that a workaround is available. The Incident process is designed to use the workaround information or to notify the user of the same. For more information on notification, refer [Synchronization between incident and problem records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/sync-btwn-inci-prob.md).
 
 **Note:** The topic applies to Problems where you have activated the Problem Management Best Practice — Madrid \(com.snc.best\_practice.problem.madrid\) plugin.
 
@@ -38,7 +39,7 @@ When you communicate a workaround, notification is sent to related incidents tha
 5.  Under Related Links, click **Communicate Workaround**.
 
 
-**Parent Topic:**[Communicating the outcome of a problem](../concept/communicate-outcome-of-problem.md)
+**Parent Topic:**[Communicating the outcome of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/communicate-outcome-of-problem.md)
 
 ## Communicate workaround \(legacy\)
 

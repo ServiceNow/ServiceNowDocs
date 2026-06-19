@@ -2,6 +2,7 @@
 title: Define a shift
 description: Define shifts for your organization in the Industrial Connected Workforce by using the scheduling functionality. Configuring shifts is a prerequisite for scheduling standard tasks and for filtering tasks to see which shift they were created in or which shift they’re due.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/define-shifts.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -21,7 +22,7 @@ Role required: sn\_icw.application\_admin or sn\_icw.admin
 
 ## About this task
 
-Schedule records are saved in the Schedule \[cmn\_schedule\] table. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table. For more information about scheduling, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/t_DefineASchedule.md).
+Schedule records are saved in the Schedule \[cmn\_schedule\] table. Schedule entries are saved in the Schedule Entry \[cmn\_schedule\_span\] table. For more information about scheduling, see .
 
 ## Procedure
 
@@ -65,11 +66,11 @@ Schedule records are saved in the Schedule \[cmn\_schedule\] table. Schedule ent
         -   Set the end time to one second before the start of the next shift to avoid overlap.
         -   The value between **When** and **To** is smaller than 24 hours.
         -   Always select a value for the **Repeats** field. If no value is selected, the shift occurs only once.
-        ![Morning shift configured](../../icw-industrial-connected-workforce/image/morning-shift.png)
+        \[Omitted image "morning-shift.png"\] Alt text: Morning shift configured
 
     8.  Select **Submit**.
 
-        ![Afternoon shift configured](../../icw-industrial-connected-workforce/image/afternoon-shift.png)
+        \[Omitted image "afternoon-shift.png"\] Alt text: Afternoon shift configured
 
 7.  Link functional locations to a schedule:
 
@@ -90,5 +91,5 @@ The shift and its business calendar entries have been created successfully and a
 -   My next shift
 -   My previous shift
 
-**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](../concept/setting-up-prerequisites-digital-factory-workspace.md)
+**Parent Topic:**[Setting up prerequisites for Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/setting-up-prerequisites-digital-factory-workspace.md)
 

@@ -2,6 +2,7 @@
 title: RTETransformer - Scoped
 description: The RTETransformer API provides a method to transform and store an array of messages into a record in the associated ServiceNow instance based on a provided extract, transform, and load \(ETL\) definition.Instantiates an RTETransformer object.Transforms and stores an array of messages into a record in the associated ServiceNow instance based on a provided extract, transform, and load \(ETL\) definition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/RTETransScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,9 +20,9 @@ For example, you can use this API when you have JSON payload\(s\) that contain u
 
 Use the `sn_impex` namespace when accessing this API.
 
-For additional information, see [Define Robust Transform Engine operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/define-rte-operations.md).
+For additional information, see Define Robust Transform Engine operations.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## RTETransformer - RTETransformer\(String transformDefinitionId, Boolean verboseLogging, String source, Number batchSize\)
 
@@ -49,7 +50,7 @@ String
 
 </td><td>
 
-Sys\_id of the extract, transform, and load \(ETL\) definition to use for the transform.For information on creating an ETL, see [Create Extract Transform Load \(ETL\) definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-etl-definitions.md).
+Sys\_id of the extract, transform, and load \(ETL\) definition to use for the transform.For information on creating an ETL, see Create Extract Transform Load \(ETL\) definitions.
 
 Table: ETL Definitions \[sys\_rte\_eb\_etl\_definition\]
 

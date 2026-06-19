@@ -2,6 +2,7 @@
 title: Create scripts
 description: Service Catalog enables you to use certain scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/r\_ServiceCatalogScriptingExtensn.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -21,8 +22,8 @@ Some functions are available, specifically for Service Catalog:
 -   The Service Catalog Script API makes catalog ordering easier from inside business rules.
 -   Scriptable Assignment of Execution Plans allows selection of an execution plan at the time of ordering, based on scripted conditions.
 
--   **[Create a custom cart](../task/t_CreatingACustomShoppingCart.md#)**  
+-   **[Create a custom cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreatingACustomShoppingCart.md)**  
 Administrators with a knowledge of Jelly can customize the look and feel of service catalog carts, either globally or for specific catalog items, using the UI macro capability.
 
-**Parent Topic:**[Service Catalog customization](../topic/p_ServiceCatalogCustomization.md)
+**Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

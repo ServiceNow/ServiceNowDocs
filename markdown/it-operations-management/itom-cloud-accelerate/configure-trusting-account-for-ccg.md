@@ -2,6 +2,7 @@
 title: Configure the trusting account for Cloud Configuration Governance and Cloud Action Library
 description: Configure the trusting account whose resources need to be accessed, to rely on the trusted account using the Identity and Access Management \(IAM\) role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/configure-trusting-account-for-ccg.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -19,7 +20,7 @@ Configure the trusting account whose resources need to be accessed, to rely on t
 
 -   Familiarize yourself with the Amazon documentation on [Creating a role to delegate permissions to an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user.html).
 -   Decide which Amazon Web Services \(AWS\) account is going to be the trusted account. You use the trusted account to configure temporary credentials for Cloud Configuration Governance using IAM roles. The trusted account that you use to access other accounts using IAM roles is referred to as an accessor account.
--   Set up the trusted and the trusting account as described in [Set up Cloud Configuration Governance for AWS](set-up-ccg-for-aws.md).
+-   Set up the trusted and the trusting account as described in [Set up Cloud Configuration Governance for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/set-up-ccg-for-aws.md).
 
 Role required: sn\_itom\_ccg.scheduling\_admin
 
@@ -41,7 +42,7 @@ Role required: sn\_itom\_ccg.scheduling\_admin
 
     5.  Set the **AWS** parameter to the full user ARN of the trusted \(accessor\) account.
 
-        ![Editing trust relationship for the trusting account.](../../it-operations-management/image/aws-edit-trust-relat-trusting-iam.png)
+        \[Omitted image "aws-edit-trust-relat-trusting-iam.png"\] Alt text: Editing trust relationship for the trusting account.
 
     6.  Verify that the **Action** value is set to **sts:AssumeRole**.
 
@@ -59,8 +60,8 @@ Role required: sn\_itom\_ccg.scheduling\_admin
 
 3.  Create an assume role configuration for the trusting account.
 
-    For more information, see [Create an assume role configuration](../../it-operations-management/task/create-assume-role-config.md).
+    For more information, see [Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md).
 
 
-**Parent Topic:**[Set up Cloud Configuration Governance for AWS](set-up-ccg-for-aws.md)
+**Parent Topic:**[Set up Cloud Configuration Governance for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/set-up-ccg-for-aws.md)
 

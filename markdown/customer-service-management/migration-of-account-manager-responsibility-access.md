@@ -2,9 +2,12 @@
 title: Populate the Type field in relationship tables using the fix script
 description: Leverage the fix script to add and manage the Type field in relationship tables. This script simplifies data mapping and enhances record consistency across the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/migration-of-account-manager-responsibility-access.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Create related party configurations, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---

@@ -2,6 +2,7 @@
 title: Test and validate
 description: Test your agent's execution and access controls, run automated evaluations, and review Guardian logs before approving the agent for production deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-tutorial-test-validate.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-26"
@@ -19,21 +20,21 @@ Testing validates both that your agent performs its intended task correctly and 
 
 Use the testing playground in AI Agent Studio to run manual test executions against your agent using sample utterances. Verify that the agent completes its intended task, uses the correct tools, and handles edge cases and failure scenarios appropriately.
 
--   To test an AI agent execution, see [Manually test the execution of an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-ai-agent.md).
--   To test an agentic workflow execution, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
+-   To test an AI agent execution, see .
+-   To test an agentic workflow execution, see .
 
 ## Test access controls
 
 Verify that your ACL configuration works correctly by running access tests as different users. Confirm that users who should have access can invoke the agent, and users who should not have access cannot.
 
--   To test user access to an AI agent, see [Test user access to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-access.md).
--   To test user access to an agentic workflow, see [Test user access to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aw-access.md).
+-   To test user access to an AI agent, see .
+-   To test user access to an agentic workflow, see .
 
-If access test results are unexpected, review your ACL configuration. See [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-security-implementation.md) for details on how ACLs interact across the agent, workflow, and tool layers.
+If access test results are unexpected, review your ACL configuration. See  for details on how ACLs interact across the agent, workflow, and tool layers.
 
 ## Run automated evaluations
 
-Automated evaluations test your agent against a dataset of expected inputs and outputs, providing consistent, repeatable quality measurements. Run evaluations after manual testing is complete to establish a performance baseline before go-live. For details on this process, see [Execute an agentic evaluation run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/execute-aia-eval.md).
+Automated evaluations test your agent against a dataset of expected inputs and outputs, providing consistent, repeatable quality measurements. Run evaluations after manual testing is complete to establish a performance baseline before go-live. For details on this process, see .
 
 **Important:** The user running an automated evaluation must pass the ACLs of the agent and all agents in the agentic workflow. If the user does not have the required roles, the evaluation will report an access failure rather than an agent execution failure.
 
@@ -45,7 +46,7 @@ If you see unexpected detections in the logs, adjust your Guardian configuration
 
 ## Go-live validation gate
 
-Do not proceed to [Go live and monitor](naai-tutorial-go-live-monitor.md) until all of the following are true:
+Do not proceed to [Go live and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-go-live-monitor.md) until all of the following are true:
 
 -   Agent execution tests pass for your defined use case scenarios.
 -   Access control tests confirm that only intended users can invoke the agent.
@@ -54,7 +55,7 @@ Do not proceed to [Go live and monitor](naai-tutorial-go-live-monitor.md) until 
 
 ## Next step
 
-When all validation gate criteria are met, proceed to [Go live and monitor](naai-tutorial-go-live-monitor.md).
+When all validation gate criteria are met, proceed to [Go live and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-go-live-monitor.md).
 
-**Parent Topic:**[Create and secure an AI agent in Now Assist](naai-tutorial-overview.md)
+**Parent Topic:**[Create and secure an AI agent in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/naai-tutorial-overview.md)
 

@@ -2,6 +2,7 @@
 title: MID Server capabilities
 description: MID Server capabilities define the specific functions of a MID Server within an IP address range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/mid-server-capabilities.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -17,7 +18,7 @@ MID Server capabilities define the specific functions of a MID Server within an 
 
 ## Nmap capability
 
-The **Nmap** capability is only assigned to MID Servers for which the Network Mapper \(Nmap\) scanner has been installed for [credential-less Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/nmap-credential-less-discovery.md). This capability cannot be added to or removed from any MID Server manually. For instructions on installing or uninstalling Nmap, see [Install and uninstall Nmap on a MID Server](../task/install-nmap-on-mid-server.md#)
+The **Nmap** capability is only assigned to MID Servers for which the Network Mapper \(Nmap\) scanner has been installed for credential-less Discovery. This capability cannot be added to or removed from any MID Server manually. For instructions on installing or uninstalling Nmap, see [Install and uninstall Nmap on a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-nmap-on-mid-server.md)
 
 ## MID Server capability values
 
@@ -25,7 +26,7 @@ Capabilities provided in the base system do not have a defined value string. The
 
 Starting with the Madrid release, the **\[capability name\]:\[value\]** combination appears in the slushbucket when you add a capability to a MID Server. This combination allows you to see all the capabilities that have different values, even if the capability name is the same. For example, if you are using the Cloud Management capability, and you use the value field to specify the us-west logical datacenter on one of the capability records, you can see the combination in the **Collection** list.
 
-![Capability name and value combination](../image/capability-value-combo.png)
+\[Omitted image "capability-value-combo.png"\] Alt text: Capability name and value combination
 
 ## MID Server selection
 
@@ -47,10 +48,10 @@ The Resolve DNS capability is provided in the base system and is configured to r
 
 To view the script for evaluating this capability, navigate to **MID Server** &gt; **Capability Value Tests** and select **Resolve DNS** from the list.
 
-![MID capabilities](../image/MIDServerResolveDNS.png)
+\[Omitted image "MIDServerResolveDNS.png"\] Alt text: MID capabilities
 
--   **[Configure MID Server capabilities](../../../configure-capabilities.md)**  
+-   **[Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/configure-capabilities.md)**  
 MID Server capabilities define the specific functions of a MID Server within an IP address range, allowing an application to select the most appropriate MID Server. Configure capabilities on MID Servers for applications like Orchestration, Cloud Management, and Service Mapping.
 
-**Parent Topic:**[MID Servers for Orchestration](../../orchestration/concept/c_OrchestrationMID.md)
+**Parent Topic:**[MID Servers for Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationMID.md)
 

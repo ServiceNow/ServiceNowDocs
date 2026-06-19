@@ -2,6 +2,7 @@
 title: Exploring Kubernetes Visibility Agent
 description: Kubernetes Visibility Agent enables you to gain visibility into on-premises Kubernetes clusters as well as the various Cloud deployments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-exploring.html
 release: australia
 product: Discovery
 classification: discovery
@@ -26,7 +27,7 @@ The Kubernetes Visibility Agent Deployment resource contains a pod called Inform
 
 **Note:** If the Informer is unable to report the changes, for example due to a network problem, the resources that were added to the cluster during the event are added to the CMDB after the next full discovery cycle. The resources that were removed from the cluster during the event are marked as Absent and deleted after two full discovery cycles.
 
-For more information about the Kubernetes resources on which the Informer collects data and the CMDB tables it populates, see [Data collected by Kubernetes Visibility Agent](../reference/cnov-collected-data.md).
+For more information about the Kubernetes resources on which the Informer collects data and the CMDB tables it populates, see [Data collected by Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-collected-data.md).
 
 ## Initial and periodic discovery
 
@@ -42,5 +43,5 @@ The Informer has minimal impact on the Kubernetes API server. It fetches the com
 
 For Kubernetes Visibility Agent benchmarks, see the [Performance results for Kubernetes Visibility Agent \[KB1555851\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1555851) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Kubernetes Visibility Agent](../../agent-client-collector/concept/acc-kubernetes-visibility-landing-page.md)
+**Parent Topic:**[Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/acc-kubernetes-visibility-landing-page.md)
 

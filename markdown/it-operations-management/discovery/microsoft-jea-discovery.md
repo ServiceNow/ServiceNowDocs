@@ -2,6 +2,7 @@
 title: Microsoft Just Enough Administration \(JEA\) for Discovery
 description: Using Microsoft JEA with Discovery improves security by forcing the MID Server to run remote Windows commands through a constrained endpoint, which validates commands on the target before execution. To configure the ServiceNow instance for Discovery with Microsoft Just Enough Administration \(JEA\), define the Windows credential with the domain name and set the MID Server configuration parameters appropriately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/microsoft-jea-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -117,7 +118,7 @@ Role required: discovery\_admin or admin
 
 7.  Select the **Configuration Parameters** related list.
 
-8.  Set the following [MID Server config parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-parameters.md) as indicated:
+8.  Set the following MID Server config parameters as indicated:
 
     1.  **mid.windows.management\_protocol:** This parameter is required for Discovery with JEA.
 
@@ -129,7 +130,7 @@ Role required: discovery\_admin or admin
 
         For example, the PowerShell command **Register-PSConfiguration -name JEA\_DISCO\_V2 -path &lt;session\_configuration\_file&gt;** sets the endpoint name to JEA\_DISCO\_V2. In that case, **mid.powershell.jea.endpoint** must be updated to JEA\_DISCO\_V2.
 
-9.  Use the following [MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md) and [System property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) to troubleshoot issues:
+9.  Use the following MID Server property and System property to troubleshoot issues:
 
     1.  **mid.probe.collect\_debug\_info**: This is an optional MID Server property to collect debug information.
 

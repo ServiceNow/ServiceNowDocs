@@ -2,11 +2,12 @@
 title: Schedule a slow-query index suggestion for creation
 description: Use the Index Suggestion Engine \(ISE\) to schedule an index suggestion for creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/create-index-slowquery.html
 release: australia
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Resolving slow queries, Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -42,5 +43,5 @@ Role required: admin
 6.  During the evaluation period, you can monitor the index **State** in the Index Suggestion record or in the Index Suggestion table \(**System Diagnostics** &gt; **Index Suggestions** &gt; **Index Suggestions &gt; In Progress**\).
 
 
-**Parent Topic:**[Resolving slow queries](../concept/resolving-slow-queries.md)
+**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-slow-queries.md)
 

@@ -2,11 +2,14 @@
 title: Manage an escalated case or account
 description: Manage and document the progress for an escalation using the case or account escalation record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/manage-escalated-case-account.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Case and account escalation, Configure escalation management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Case and account escalation, Manage cases, Use, Customer Service Management]
 ---
 
 # Manage an escalated case or account
@@ -37,7 +40,7 @@ Perform tasks such as changing the escalation severity \(which may trigger a dif
 
 3.  Update the fields on the escalation form as needed.
 
-    For example, you can change the escalation severity, which may trigger a different SLA, and update the escalation trend. You can also add users to the watch list and add comments about the progress of the escalation. For more information about these fields, see [Case and account escalation form](../reference/case-escalation-form.md).
+    For example, you can change the escalation severity, which may trigger a different SLA, and update the escalation trend. You can also add users to the watch list and add comments about the progress of the escalation. For more information about these fields, see [Case and account escalation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-escalation-form.md).
 
 4.  Click **Update**.
 

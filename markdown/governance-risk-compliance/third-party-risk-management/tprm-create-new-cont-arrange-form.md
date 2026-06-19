@@ -2,11 +2,12 @@
 title: Create New Contractual arrangement form
 description: On the Create New Contractual arrangement form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-15"
 reading_time_minutes: 9
 breadcrumb: [Create a contract and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -269,7 +270,7 @@ Type of ICT services
 
 </td><td>
 
-Type of the ICT service used by the entity, for example, Computation, Data analysis.
+Type of the ICT service used by the entity, for example, Computation, Data analysis.**Note:** This field is part of the eight-field composite key used to detect duplicate Specific Information records. The combination of contract reference, entity using service, service provider, country of provision, function identifier, Type of ICT services, storage location, and processing location must be unique. When you save a Specific Information record, Rank 1 supply chain records are generated automatically from this value. If you update or remove the value, supply chain records are updated or deleted automatically.
 
 </td></tr><tr><td>
 
@@ -386,6 +387,8 @@ Storage of data
 
 Option to specify if the ICT service is related to storage of data. Available options are:-   **Yes**
 -   **No**
+
+**Note:** If you select **No**, the Location of the data at rest \(storage\) and Location of management of the data \(processing\) field values are automatically cleared.
 
 </td></tr><tr><td>
 

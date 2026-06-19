@@ -2,6 +2,7 @@
 title: Windows credentials
 description: Windows credentials provide access to Windows computers. This credential type is available for Discovery and Orchestration.Configure the MID Server to use either the credentials of its own Windows service or credentials from the Credentials \[discovery\_credentials\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/r\_WindowsCredentialsForm.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -33,12 +34,12 @@ To provide sufficient permissions, Windows credentials must be one of the follow
     **Important:** If User Account Control \(UAC\) is enabled on the Windows operating system where discovery runs, and the user account is part of the local Administrators group, administrator tasks may fail. To avoid interruptions, we recommend disabling UAC. For more information, see the [Why does the User Access Control \(UAC\) need to be disabled for Windows Discovery?](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1638330) article in the Now Support Knowledge Base
 
 -   A local account that has administrator privileges and UAC disabled on the same target host.
--   A user who meets the requirements of Windows [probes and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_DiscoWinProbesAndPermissions.md) \(Discovery only\).
+-   A user who meets the requirements of Windows probes and permissions \(Discovery only\).
 -   A user who meets the requirements of the Orchestration activity to be run \(Orchestration only\).
 
 **Note:** No logon privileges are needed. Account does NOT need to be interactive.
 
-Security around granting privileged access can be enhanced by using JEA profiles to run Discovery. For more information, see [Microsoft Just Enough Administration \(JEA\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/microsoft-jea-discovery.md).
+Security around granting privileged access can be enhanced by using JEA profiles to run Discovery. For more information, see Microsoft Just Enough Administration \(JEA\) for Discovery.
 
 ## Workgroup computers
 
@@ -61,7 +62,7 @@ These additional actions are required to enable credentials to function across m
 |---------|---------------------------|
 |MID Server host on the same domain as the Windows target.|None|
 |MID Server host on a different domain than the Windows target.|Ensure that PowerShell 3.0 \(or higher up to 5.1\) is installed on the MID Server host.|
-|MID Server host on a different domain than the Microsoft SQL Server target.|See [MSSQL server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/mssql-data-collected-pattern.md) .|
+|MID Server host on a different domain than the Microsoft SQL Server target.|See MSSQL server discovery .|
 
 ## Windows credentials type
 
@@ -129,7 +130,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](../concept/c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](../concept/c_CyberArkCredStorageIntegrate.md).
+Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md).
 
 </td></tr><tr><td>
 
@@ -176,7 +177,7 @@ Role required: admin
 
 1.  Configure the MID Server to use credentials from the MID Server service account.
 
-    1.  Set the [Configure Windows MID Server service credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-install-prereqs.md) to a user who meets the permission requirements.
+    1.  Set the Configure Windows MID Server service credentials to a user who meets the permission requirements.
 
     2.  Verify the user name meets the name format requirements.
 
@@ -193,7 +194,7 @@ Role required: admin
         -   Verify each credential meets the Windows domain requirements.
     2.  Configure the MID Server to use Powershell by setting the `mid.use_powershell` parameter to **true**.
 
-        See [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
+        See Configuring MID Servers.
 
     3.  Select the Windows MID Server Service Account check box to create a credential that represents the windows MID Server service account to run as a specific Windows user or domain account.
 

@@ -2,6 +2,7 @@
 title: Breakdown Management
 description: Breakdown Analysis helps industrial teams investigate and resolve serious equipment failures and process stops. You can either escalate an unresolved deviation or create a breakdown record directly, depending on how the issue is identified. This structured workflow helps timely issue resolution and long-term reliability improvements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/breakdown-analysis.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -98,12 +99,12 @@ Equipment owner
 
 A machine stops during production. The operator logs a deviation. After two hours, the shift lead escalates it to Breakdown Analysis. The system creates a linked record with all relevant data. The maintenance engineer investigates, replaces a faulty part, and closes the breakdown. The deviation is also marked as resolved. In another situation, a breakdown is identified directly through a system alert. The operator logs it manually, records the impact, and assigns it for investigation. The team performs a breakdown analysis and updates the record with corrective actions.
 
--   **[Create a breakdown](../task/create-breakdown.md)**  
+-   **[Create a breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-breakdown.md)**  
 Create a breakdown record in the Digital Factory Workspace to document a significant equipment failure or process stop. Use this task to capture key details such as duration, impact, and cause, and begin structured investigation and resolution.
--   **[Escalate a deviation to a breakdown](../task/escalate-deviation-to-breakdown.md)**  
+-   **[Escalate a deviation to a breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/escalate-deviation-to-breakdown.md)**  
 Convert a deviation into a breakdown when it no longer fits the deviation criteria and requires structured analysis.
--   **[Initiate a breakdown analysis](../task/initiate-breakdown-analysis.md)**  
+-   **[Initiate a breakdown analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/initiate-breakdown-analysis.md)**  
 Start a breakdown analysis to investigate the root cause of a recurring or complex issue.
 
-**Parent Topic:**[Industrial Workflows](industrial-workflows.md)
+**Parent Topic:**[Industrial Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-workflows.md)
 

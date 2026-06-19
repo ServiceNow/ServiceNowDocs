@@ -2,6 +2,7 @@
 title: Integrate ServiceNow Virtual Agent with Workplace from Facebook
 description: Add Virtual Agent to your Workplace from Facebook integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-va-facebook.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -42,20 +43,20 @@ Roles required:
 
 5.  In the window that requires your authorization to install the integration, click **Add to Workplace**.
 
-    ![Installation dialog box for Virtual Agent Integration from Workplace from Facebook.](../images/FBInstall.png)
+    \[Omitted image "FBInstall.png"\] Alt text: Installation dialog box for Virtual Agent Integration from Workplace from Facebook.
 
     If the selected workspace has already been integrated with Workplace, click **Save** or **Cancel** to leave the current assignment in place.
 
-    To delete the Conversational Integration with Workplace from Facebook, see [Uninstall the Conversational Integration with Workplace from Facebook](uninstall-virtual-agent-fb.md).
+    To delete the Conversational Integration with Workplace from Facebook, see [Uninstall the Conversational Integration with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/uninstall-virtual-agent-fb.md).
 
 6.  When you see a confirmation message about the installation, verify the installation.
 
-    ![Confirmation message dialog box for adding Workplace from Facebook Integration.](../images/workplace-integ-success.png)
+    \[Omitted image "workplace-integ-success.png"\] Alt text: Confirmation message dialog box for adding Workplace from Facebook Integration.
 
 
 ## Result
 
 The Virtual Agent bot and Workplace from Facebook are now integrated for use on your ServiceNow instance.
 
-**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](../concept/configuring-ci-workplace-fb.md)
+**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-ci-workplace-fb.md)
 

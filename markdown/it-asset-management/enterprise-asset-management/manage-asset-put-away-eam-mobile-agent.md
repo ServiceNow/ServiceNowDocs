@@ -2,6 +2,7 @@
 title: Manage enterprise asset put away using the ServiceNow Agent application
 description: Scan and put away the assets from the receiving bay in the designated aisle-space using the ServiceNow Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/manage-asset-put-away-eam-mobile-agent.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

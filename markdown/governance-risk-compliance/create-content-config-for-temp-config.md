@@ -2,6 +2,7 @@
 title: Set up the content configurations
 description: Set up the content configurations in the Template Configurations module to define the data you want to view or fetch when creating a report template. You can configure it to display a list of records or aggregated data, such as a list of remediation tasks or top priority issues. You can fetch up to 200 records from any table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-content-config-for-temp-config.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: sn\_grc\_doc\_design.admin and sn\_bcm.admin
 
     The Content configurations new record and its related lists are displayed.
 
-    ![Content configurations new record.](../image/content-conf-new-record-filter-criteria.png)![Filter criteria.](../image/content-conf-new-record-filter-criteria.png)![Aggregation criteria.](../image/content-conf-sample-record-aggr-criteria.png)![Content block criteria.](../image/content-conf-sample-record-content-block-criteria.png)
+    \[Omitted image "content-conf-new-record-filter-criteria.png"\] Alt text: Content configurations new record.\[Omitted image "content-conf-new-record-filter-criteria.png"\] Alt text: Filter criteria.\[Omitted image "content-conf-sample-record-aggr-criteria.png"\] Alt text: Aggregation criteria.\[Omitted image "content-conf-sample-record-content-block-criteria.png"\] Alt text: Content block criteria.
 
 4.  On the form, fill in the fields.
 
@@ -61,10 +62,10 @@ Role required: sn\_grc\_doc\_design.admin and sn\_bcm.admin
 
     The Content configurations related list is shown in the example.
 
-    ![Content configurations related list.](../image/content-config-rel-list-template-config.png)
+    \[Omitted image "content-config-rel-list-template-config.png"\] Alt text: Content configurations related list.
 
 
 ## What to do next
 
-Create a scripted variable for the report. For more information, see [Define the scripted variables](create-scripted-vari-for-temp-config.md).
+Create a scripted variable for the report. For more information, see [Define the scripted variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-scripted-vari-for-temp-config.md).
 

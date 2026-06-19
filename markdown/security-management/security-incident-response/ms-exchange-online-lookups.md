@@ -2,6 +2,7 @@
 title: Microsoft Exchange Online integration
 description: For the Microsoft Exchange Online integration application by ServiceNow, the ServiceNow AI Platform Security Incident Response \(SIR\) product is integrated with the Microsoft Exchange Online service, one of the cloud-based services in the Microsoft Office 365 suite of products. Your Security Operation Center \(SOC\) analyst can search your corporate email environment for security-related threats and remove and remediate phishing emails with email search and delete capabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-exchange-online-lookups.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -47,22 +48,22 @@ The following Security Operations applications must be installed and activated f
 3.  Security Support Orchestration
 4.  Security Incident Response
 
-1.  [Set up your Microsoft Azure account](../task/ms-azure-account.md)  
+1.  [Set up your Microsoft Azure account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-azure-account.md)  
 Complete the following setup tasks in your Microsoft Azure portal prior to installing the ServiceNow application for this integration. This account permits access to the Microsoft Exchange Online tenant for email message details.
-2.  [Install Microsoft Exchange Online application](../task/install-and-configure-ms-exchange-online.md)  
+2.  [Install Microsoft Exchange Online application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/install-and-configure-ms-exchange-online.md)  
 Before you run the integration on your instance, install the Microsoft Exchange Online application for the integration from the ServiceNow Store.
-3.  [Configure the Microsoft Exchange Online integration](../task/msx_configure.md)  
+3.  [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msx_configure.md)  
 After you’ve installed the application from the ServiceNow Store, configure it to connect to your ServiceNow AI Platform instance. This activation activates the search and delete workflows.
-4.  [Define email search criteria and request a search on the Microsoft Exchange Online service](../task/verify-expected-results-ms-exchange-online.md)  
-As a user with the sn\_si.analyst role, define search criteria and submit an email search request based on incident details on a security incident record.
-5.  [Request delete approval for emails on Microsoft Exchange online service](../task/ms-delete-email.md)  
+4.  [Define email search criteria and request a search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md)  
+As a user with the sn\_si.analyst role, set up search criteria and submit an email search request based on incident details on a security incident record.
+5.  [Request delete approval for emails on Microsoft Exchange online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-delete-email.md)  
 After an email search is successfully completed and matching messages are identified, you can permanently delete all the suspicious emails from the Microsoft exchange online service that are related to the security incident and phishing campaign.
-6.  [Approve delete email requests for the Microsoft Exchange Online integration](../task/ms-approve-delete.md)  
+6.  [Approve delete email requests for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-approve-delete.md)  
 If the approval option is enabled in your ServiceNow AI Platform instance, requests to delete emails are sent to each member of the approval group via email. You select the approval group during the configuration step. Approvals provide your organization with an additional level of control over the deletion of emails.
-7.  [Recover deleted emails on the Microsoft Exchange Online service](../task/ms-recover-deleted-emails.md)  
+7.  [Recover deleted emails on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-recover-deleted-emails.md)  
 \(Optional\) As a Microsoft Exchange Administrator, you can recover deleted emails if your incident remediation requires that you to recover the emails deleted by the workflow of this integration.
-8.  [Edit security tags for the Microsoft Exchange Online integration](../task/ms-edit-tags.md)  
+8.  [Edit security tags for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-edit-tags.md)  
 You can edit the names and colors of the security tags in your ServiceNow AI Platform® instance for the Microsoft Exchange Online integration. These security tags help you quickly identify when email search either completes or fails. They also identify when requests to delete emails are initiated and when the email items are successfully deleted.
 
-**Parent Topic:**[Security Incident Response integrations](../../security-incident-response/concept/sir_integrations.md)
+**Parent Topic:**[Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir_integrations.md)
 

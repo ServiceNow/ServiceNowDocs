@@ -2,6 +2,7 @@
 title: Build MID Server Docker Image for Linux
 description: Deploy Containerized MID Servers on Linux by creating a Docker image with the provided recipes. Containerized MID Server uses a Docker image of the MID Server that allows you to quickly deploy MID Servers at scale.Containerized MID Server uses a Docker image of the MID Server that allows you to quickly deploy MID Servers at scale. MID Servers are deployed using orchestration tools like Docker Swarm.You can configure containerized MID Servers with configuration parameters passed through environment variables or secret files.You can configure containerized MID Servers with configuration parameters passed through environment variables or secret files.You can configure containerized MID Servers with configuration parameters passed through environment variables or secret files.You can configure containerized MID Servers with configuration parameters passed through environment variables or secret files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-build-docker-linux.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -36,7 +37,7 @@ Update the library to the newest version available, or at least the highest vers
 
 1.  Download the Linux Docker recipe ZIP file from the MID Server download page and verify its signature.
 
-    For more information about the MID Server download page and signature verification, see [Download MID Server files](t_DownloadMIDServerFiles.md#postreq_znq_nzd_mgb).
+    For more information about the MID Server download page and signature verification, see [Download MID Server files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_DownloadMIDServerFiles.md).
 
 2.  Unzip the ZIP file to a folder.
 
@@ -146,7 +147,7 @@ Prerequisites:
 
 1.  Once the image is available, launch the new MID Server using the docker run command and specify an env file or env variable options: `docker run --env-file <env_file_name_here> <docker_tag or image_id>`
 
-    **Note:** Do not pass sensitive data using this command, as there may be security vulnerabilities. To pass sensitive data, use the procedures [Pass sensitive data to a containerized MID Server with Docker Secrets](mid-build-docker-linux.md#) and [Pass sensitive data to a containerized MID Server with Kubernetes Secrets](mid-build-docker-linux.md#).
+    **Note:** Do not pass sensitive data using this command, as there may be security vulnerabilities. To pass sensitive data, use the procedures [Pass sensitive data to a containerized MID Server with Docker Secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-build-docker-linux.md) and [Pass sensitive data to a containerized MID Server with Kubernetes Secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-build-docker-linux.md).
 
     For more information, see the Docker documentation pages for [the docker image ls command](https://docs.docker.com/engine/reference/commandline/image_ls/), [the docker run command](https://docs.docker.com/engine/reference/commandline/run/), and [specifying an env file or env variable options](https://docs.docker.com/engine/reference/commandline/run/#set-environment-variables--e---env---env-file). The env file is a simple text file using the name=value format. If a variable is specified in both env file and in the `--env` option, the variable defined in the command line takes precedence.
 
@@ -240,7 +241,7 @@ Role required: Docker Swarm admin
 
 ### About this task
 
-If [certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md) is enabled on the instance, the MID Server can be configured to [auto-validate using a mutual authentication client certificate](install-mid-mutual-auth.md) \(PEM file\). This can be done via setting the full path to the PEM certificate file inside container with the *MID\_MUTUAL\_AUTH\_PEM\_FILE* environment variable. For example, you can update variable to *MID\_MUTUAL\_AUTH\_PEM\_FILE= /run/secrets/certificate.pem* in the `mid.env` file.
+If certificate based authentication is enabled on the instance, the MID Server can be configured to [auto-validate using a mutual authentication client certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md) \(PEM file\). This can be done via setting the full path to the PEM certificate file inside container with the *MID\_MUTUAL\_AUTH\_PEM\_FILE* environment variable. For example, you can update variable to *MID\_MUTUAL\_AUTH\_PEM\_FILE= /run/secrets/certificate.pem* in the `mid.env` file.
 
 You can pass the PEM certificate file into a container using Docker or Kubernetes secret. The following is an example command to pass the PEM certificate file into a container: `docker service create --name mid-service --secret mid-secrets.properties --secret <certificate-secret-name> --env-file mid.env <docker-tag or image-id>`
 
@@ -352,7 +353,7 @@ Role required: Kubernetest admin
 
 Prerequisites:
 
-If [certificate based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication/set-up-mutual-auth.md) is enabled on the instance, the MID Server can be configured to [auto-validate using a mutual authentication client certificate](install-mid-mutual-auth.md) \(PEM file\). This can be done via setting the full path to the PEM certificate file inside container with the *MID\_MUTUAL\_AUTH\_PEM\_FILE* environment variable. You can pass the PEM certificate file into a container using Kubernetes secret.
+If certificate based authentication is enabled on the instance, the MID Server can be configured to [auto-validate using a mutual authentication client certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/install-mid-mutual-auth.md) \(PEM file\). This can be done via setting the full path to the PEM certificate file inside container with the *MID\_MUTUAL\_AUTH\_PEM\_FILE* environment variable. You can pass the PEM certificate file into a container using Kubernetes secret.
 
 The mutual PEM certificate is installed on the MID Server during initialization. MID Server then connects to the instance and auto-validates. When the MID Server connects to the instance with mutual authentication successfully enabled, you might observe some of the following entries in the MID agent log:
 

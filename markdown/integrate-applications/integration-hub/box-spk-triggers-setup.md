@@ -2,6 +2,7 @@
 title: Set up triggers for the Box spoke
 description: Set up the trigger to generate the secret and callback URL on your ServiceNow instance.Set the secret and callback URL to enable Box to securely send webhooks to your ServiceNow instance.Activate the trigger definition to generate the secret and callback URL on your ServiceNow instance for the Box spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/box-spk-triggers-setup.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -130,7 +131,7 @@ Box uses the secret and callback URL to securely send the payload to the Service
 
     The callback URL is generated in the URL field.
 
-    ![Configure external trigger for the Box spoke.](../image/box-spk-ext-trigger.jpg)
+    \[Omitted image "box-spk-ext-trigger.jpg"\] Alt text: Configure external trigger for the Box spoke.
 
 9.  Close the window.
 

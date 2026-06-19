@@ -2,6 +2,7 @@
 title: Configure the Getting started resources widget
 description: Journey designer administrators can configure the Getting started resources widget to provide quick links that give access to internal and external resources. Administrators can provide links to knowledge base articles, catalog items, pages, or other pertinent information that your organization deems beneficial for an onboarding employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-configure-getting-started.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -43,7 +44,7 @@ Role required: admin \[sn\_jny.admin\]
 
 7.  Select **Quick links**.
 
-    For more information about quick links, see [Quick links](../../employee-center/concept/emp-center-quick-link-config.md).
+    For more information about quick links, see [Quick links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-quick-link-config.md).
 
     A drop-down list with quick links that are defined in the Quick Links \[sn\_ex\_sp\_quick\_link\] table appears.
 
@@ -52,5 +53,5 @@ Role required: admin \[sn\_jny.admin\]
 9.  Select **Save**.
 
 
-**Parent Topic:**[Enable and configure the Pre-hire Experience](../concept/jny-pre-hire-enable-configure.md)
+**Parent Topic:**[Enable and configure the Pre-hire Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-pre-hire-enable-configure.md)
 

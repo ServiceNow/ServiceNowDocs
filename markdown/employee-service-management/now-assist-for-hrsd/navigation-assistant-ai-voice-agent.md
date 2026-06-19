@@ -2,6 +2,7 @@
 title: Navigation Assistant AI voice agent
 description: The Navigation Assistant AI voice agent provides employees with verbal, step-by-step guidance for HR self-service tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/navigation-assistant-ai-voice-agent.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd

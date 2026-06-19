@@ -2,6 +2,7 @@
 title: Configure Agent Client Collector Apache Tomcat monitoring
 description: To configure the Agent Client Collector to perform Apache Tomcat monitoring, set the following configurations in the Apache Tomcat application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-apache-tomcat-monitoring.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

@@ -2,6 +2,7 @@
 title: Insert signatures
 description: Insert signatures in an HTML document template by selecting participants from the list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/insert-signatures.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,9 +22,9 @@ Role required: sn\_hr\_core.admin
 
 ## Procedure
 
-1.  [Configure an HTML document template](configure-HTML-doc-template.md).
+1.  [Configure an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-HTML-doc-template.md).
 
-2.  [Create participants for an HTML document template](create-participants-html.md).
+2.  [Create participants for an HTML document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-participants-html.md).
 
 3.  Place the cursor in the desired location in the **Body** field.
 

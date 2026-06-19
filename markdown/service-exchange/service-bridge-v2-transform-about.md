@@ -2,12 +2,14 @@
 title: Transform data with the Service Exchange transform framework
 description: Use the Transform Framework to integrate tasks between two ServiceNow instances to transform remote task data in the Service Exchange application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-transform-about.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-13"
 reading_time_minutes: 2
+keywords: [transform framework, data transformation, remote task data, inbound outbound transform]
 breadcrumb: [Remote tasks, Explore, Service Exchange]
 ---
 
@@ -15,7 +17,7 @@ breadcrumb: [Remote tasks, Explore, Service Exchange]
 
 Use the Transform Framework to integrate tasks between two ServiceNow instances to transform remote task data in the Service Exchange application.
 
-As a provider, you can use the Transform Framework to transform your inbound and outbound data \(such as incidents, cases, and service requests\) of the remote tasks between your ServiceNow instance and your consumer's instance. To learn what a remote task is, see [Remote tasks](service-bridge-v2-remote-task-overview.md).
+As a provider, you can use the Transform Framework to transform your inbound and outbound data \(such as incidents, cases, and service requests\) of the remote tasks between your ServiceNow instance and your consumer's instance. To learn what a remote task is, see [Remote tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-remote-task-overview.md).
 
 While using the Service Exchange for Providers application, you and your consumer can exchange the remote task data through tables and fields. The Transform Framework helps you to convert the data between those tables and fields so that you and your consumer can easily communicate with each other while resolving the incidents, cases, and consumer requests. Transforms can be created once and used across all remote task definitions.
 
@@ -30,5 +32,5 @@ You can use the following transform types in the Transform Framework for your re
     **Note:** A matching company or account specific transform overrides the Global transform option.
 
 
-To learn how to create a transform, see [Create a transform in Service Exchange](../task/service-bridge-v2-create-transform.md).
+To learn how to create a transform, see [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-transform.md).
 

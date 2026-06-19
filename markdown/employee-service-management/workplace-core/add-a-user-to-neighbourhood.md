@@ -2,6 +2,7 @@
 title: Add a user to the neighborhood
 description: Assign one or more users to a neighborhood. Create a workplace profile and add the user directly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/add-a-user-to-neighbourhood.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Assign one or more users to a neighborhood. Create a workplace profile and add t
 
 ## Before you begin
 
-If you’re using Workplace Space Management version 1.11.1 or later, you can also add a user to the neighborhood from their workplace profile directly. Refer to [Add or edit a neighborhood assignment of a workplace profile](add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
+If you’re using Workplace Space Management version 1.11.1 or later, you can also add a user to the neighborhood from their workplace profile directly. Refer to [Add or edit a neighborhood assignment of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
 
 **Important:** From Workplace Space Management version 1.11.1, the **Neighbourhood User Assignments** table is no longer available. Instead, the user assignment can be performed on a workplace profile directly using the **Workplace Profile Location Assignment** table \(displayed a related list on the form\) in the Workplace Core application. The **Workplace Profile Location Assignment** in the Workplace Core is now configured with additional fields such as **Profile type**, **Neighborhood**, and **Source** where all the data is saved. This table helps a space manager to perform scenario planning and save any user assignment-related changes performed on a neighborhood directly on the workplace profile.
 
@@ -65,7 +66,7 @@ To add a user to the neighborhood, the user must have a workplace profile. If th
         2.  Select the **Profile type** as **Neighbourhood assignment**.
         3.  In the **Workplace location** field, select the workplace location in the neighborhood to which you want to assign the user.
 
-            The user is added to the neighborhood. The workplace profile of the user is updated with the neighborhood assignment. You can also make or edit the neighborhood assignment from the workplace profile. For more information, refer to [Add or edit a neighborhood assignment of a workplace profile](add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
+            The user is added to the neighborhood. The workplace profile of the user is updated with the neighborhood assignment. You can also make or edit the neighborhood assignment from the workplace profile. For more information, refer to [Add or edit a neighborhood assignment of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/add-a-user-to-the-neighbourhood-from-the-workplace-profile.md).
 
 5.  Select **Update**.
 
@@ -74,7 +75,7 @@ To add a user to the neighborhood, the user must have a workplace profile. If th
 
 The user is added to the neighborhood. The Workplace Profile Location Assignment of the user is updated. The Workplace Profile Location Assignment related list in the Workplace Profile form of the user and the Neighborhood form are updated. Neighborhood assignments are applicable if **Neighborhood** is selected as the group by or view by option in a scenario or building overview. Location assignments are applicable for all other options.
 
-For more information about the Workplace Profile Location Assignment, see [Workplace Profile Location Assignment form](../../workplace-service-delivery/reference/wsd-location-assignment-form.md).
+For more information about the Workplace Profile Location Assignment, see [Workplace Profile Location Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/wsd-location-assignment-form.md).
 
-**Parent Topic:**[Managing Neighborhoods](../concept/neighborhoods.md)
+**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/neighborhoods.md)
 

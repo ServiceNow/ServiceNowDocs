@@ -2,6 +2,7 @@
 title: Feature configuration for Engagement Messenger
 description: Configure the features of Engagement Messenger so that you can change the default settings to suit your customer needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-features-of-engagement-messenger.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -19,7 +20,7 @@ Configure the features of Engagement Messenger so that you can change the defaul
 
 Role required: sn\_csm\_ec.ec\_admin
 
-You must configure Engagement Messenger before configuring its features. For more information, see [Configure Engagement Messenger](create-engagement-messenger-module.md).
+You must configure Engagement Messenger before configuring its features. For more information, see [Configure Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-engagement-messenger-module.md).
 
 ## About this task
 
@@ -35,25 +36,25 @@ Use the Features section of the guided configuration to customize the messenger 
 
     The guided configuration view is displayed.
 
-3.  From the Features section of the guided configuration, enable or disable a feature by using the toggle \(![Toggle icon.](../image/toggle-icon.png)\) on the feature card.
+3.  From the Features section of the guided configuration, enable or disable a feature by using the toggle \(\[Omitted image "toggle-icon.png"\] Alt text: Toggle icon.\) on the feature card.
 
 4.  Open one of the following features and modify the values:
 
-    -   Greeting: See [Greeting feature configuration](../reference/greeting-feature-configuration-fields.md).
-    -   Knowledge: See [Knowledge feature configuration](../reference/knowledge-feature-configuration-fields.md).
-    -   Search: See [Search feature configuration](../reference/search-feature-configuration-fields.md).
-    -   Case: See [Case management feature configuration](../reference/case-management-feature-configuration-fields.md).
-    -   Catalog: See [Catalog feature configuration](../reference/catalog-feature-configuration.md).
-    -   Field service: See [Field service feature configuration](../reference/field-service-feature-configuration.md).
-    -   Walk-up: See [Walk-up feature configuration](../reference/walk-up-feature-configuration.md).
-    -   Chat with an agent: See [Chat feature configuration form fields](../reference/agent-chat-feature-configuration-fields.md).
+    -   Greeting: See [Greeting feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/greeting-feature-configuration-fields.md).
+    -   Knowledge: See [Knowledge feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/knowledge-feature-configuration-fields.md).
+    -   Search: See [Search feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/search-feature-configuration-fields.md).
+    -   Case: See [Case management feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-management-feature-configuration-fields.md).
+    -   Catalog: See [Catalog feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/catalog-feature-configuration.md).
+    -   Field service: See [Field service feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/field-service-feature-configuration.md).
+    -   Walk-up: See [Walk-up feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/walk-up-feature-configuration.md).
+    -   Chat with an agent: See [Chat feature configuration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/agent-chat-feature-configuration-fields.md).
 
         **Note:**
 
-        -   The knowledge article, catalog item, and case links sent by an agent can be opened within Engagement Messenger. You can configure how links should be open in a messenger. For more information, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-smart-link-preference.md).
-        -   You can also enable the Now Assist in Virtual Agent in Engagement Messenger by [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/configure-now-assist-va.md) and then [Display your assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md) in Engagement Messenger.
-    -   Configurable Cards: See [Configurable Cards feature configuration](../reference/configurable-card.md).
-    -   Callback: See [Callback feature configuration form](../reference/em-callback.md).
+        -   The knowledge article, catalog item, and case links sent by an agent can be opened within Engagement Messenger. You can configure how links should be open in a messenger. For more information, see Create a smart link preference.
+        -   You can also enable the Now Assist in Virtual Agent in Engagement Messenger by  and then Display your assistant in Engagement Messenger.
+    -   Configurable Cards: See [Configurable Cards feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-card.md).
+    -   Callback: See [Callback feature configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/em-callback.md).
 5.  You can also add a feature in the **Features** section using Configurable Cards.
 
     1.  Select **Add custom feature**.
@@ -62,7 +63,7 @@ Use the Features section of the guided configuration to customize the messenger 
 
     3.  Select **Add**.
 
-    For more information, see [Configurable Cards feature configuration](../reference/configurable-card.md).
+    For more information, see [Configurable Cards feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-card.md).
 
 6.  Select **Update**.
 
@@ -70,12 +71,12 @@ Use the Features section of the guided configuration to customize the messenger 
 
     You can see the modified home page layout of your Engagement Messenger in the live preview of the module.
 
-    ![View of the Configure Engagement Messenger form with a list of features like Greeting, Search, Knowledge and so on that can be used for configuration.](../image/em-config-feature.gif "Engagement Messenger features")
+    \[Omitted image "em-config-feature.gif"\] Alt text: View of the Configure Engagement Messenger form with a list of features like Greeting, Search, Knowledge and so on that can be used for configuration.
 
-    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see \([Domain separation and Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/domain-separation-service-portal.md)\). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
+    **Note:** Engagement Messenger extends service portal capabilities that don't support domain separation. For more information, see \(\). However, other tables that are used in Engagement Messenger may support domain separation according to the configurations with which they're created.
 
 
 ## What to do next
 
-[Create an identity provider \(IdP\) for Engagement Messenger](../concept/create-identity-providers-for-engagement-messenger.md)
+[Create an identity provider \(IdP\) for Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-identity-providers-for-engagement-messenger.md)
 

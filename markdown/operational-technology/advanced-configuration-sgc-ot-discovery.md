@@ -2,11 +2,14 @@
 title: Use advanced configurations
 description: Use the advanced configuration for the Service Graph Connector for ServiceNow OT Discovery to set up an asset extension points, a class calculator extension points, and a configuration item \(CI\) naming strategy extension points.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/advanced-configuration-sgc-ot-discovery.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Service Graph Connector for ServiceNow Operational Technology\(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Use advanced configurations
@@ -29,11 +32,11 @@ Role required: admin
 
     3.  In the Related Links section, select **Create implementation**
 
-    4.  In the script, update the process function to include the desired additional attributes using Javascript.
+    4.  In the script, update the process function to include the desired additional attributes using JavaScript.
 
         The following image is an example of a `custom_attribute` being added to the flattened asset.
 
-        ![A custom attribute added to the script include](../../sgc-ot-discovery/image/asset-extension-point-example-sgc-msi.jpg)
+        \[Omitted image "asset-extension-point-example-sgc-msi.jpg"\] Alt text: A custom attribute added to the script include
 
     5.  Once the script is complete, validate the data by running a test load of the Data Source.
 
@@ -49,7 +52,7 @@ Role required: admin
 
     10. Under **1. Specify Basic Details**, select **Import Source Data and Provide Basic Details**.
 
-    11. Ensure that Integration Hub ETL is using a sample import with the **custom\_attribute** from the previous step or scroll down and use the the **Auto-pull a new import set** option.
+    11. Confirm that Integration Hub ETL is using a sample import with the **custom\_attribute** from the previous step or scroll down and use the **Auto-pull a new import set** option.
 
     12. Select **Save** and **Mark as Complete** to retrieve the import set.
 
@@ -71,9 +74,9 @@ Role required: admin
 
         The following image shows an example of an updated script.
 
-        ![Updated script include for the class calculator extension point](../../sgc-ot-discovery/image/class-calculator-example-sgc-msi.jpg)
+        \[Omitted image "class-calculator-example-sgc-msi.jpg"\] Alt text: Updated script include for the class calculator extension point
 
-3.  Set up a Configuration Item \(CI\) Naming Strategy extension point.
+3.  Set up a configuration item \(CI\) Naming Strategy extension point.
 
     The Service Graph Connector for OT Discovery comes with **JustNameFallbackIPAddressAndNetworkZone**, which is a default CI Naming Strategy. If you want to name the CIs differently, you can configure additional CI Naming Strategies using the extension point.
 

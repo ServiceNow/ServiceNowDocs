@@ -2,6 +2,7 @@
 title: Complete pre-check tasks
 description: Complete the pre-check tasks before your visit to ensure a smooth check-in when you visit the meeting location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/complete-pre-check.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
@@ -23,7 +24,7 @@ Role required: None
 
 1.  Log in to the visitor portal, then select a visit.
 
-    For more information about logging in to the visitor portal, see [Logging in to the visitor portal](../concept/login-visitor-portal.md#).
+    For more information about logging in to the visitor portal, see [Logging in to the visitor portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/login-visitor-portal.md).
 
     You can select **Message the host** to send an email to the host.
 
@@ -48,5 +49,5 @@ Role required: None
 
 ## What to do next
 
-The information that you provided is saved with the organization. You can manage your data from the visitor portal. For more information about managing your data, see [Manage your visitor data](manage-visitor-data.md).
+The information that you provided is saved with the organization. You can manage your data from the visitor portal. For more information about managing your data, see [Manage your visitor data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/manage-visitor-data.md).
 

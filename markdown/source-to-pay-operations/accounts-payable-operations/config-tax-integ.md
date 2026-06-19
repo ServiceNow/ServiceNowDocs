@@ -2,6 +2,7 @@
 title: Configuration tables and prerequisites for Tax integration
 description: Use the configuration tables to enable tax integration with third-party tax engines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/config-tax-integ.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -24,7 +25,7 @@ Configure the following mentioned tables for tax integration with a third-party 
 |ERP sources \[sn\_fin\_erp\_source\]|Review ERP source for tax engine.|
 |Tax type \[sn\_fin\_tax\_type\]|Match the tax type returned by the external tax engine and associate them with the appropriate ERP source.|
 |Tax integration field mappings \[sn\_spend\_intg\_tax\_field\_map\]|Review the mapping between APO field and external tax engine field|
-|Tax attributes for recalculation|Specify the invoice data attributes that must be present to create taxes in the [Accounts Payable Operations properties](../reference/acc-pay-properties.md).|
+|Tax attributes for recalculation|Specify the invoice data attributes that must be present to create taxes in the [Accounts Payable Operations properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-properties.md).|
 
 ## Prerequisites for Third-party Tax integration
 
@@ -41,5 +42,5 @@ The required plugins for third-party tax integration are:
 -   Configure connection and credential details for the external tax engine.
 -   Configure tax management properties and mapping rules.
 
-For configuring tax management properties, see [Accounts Payable Operations properties](../reference/acc-pay-properties.md).
+For configuring tax management properties, see [Accounts Payable Operations properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/acc-pay-properties.md).
 

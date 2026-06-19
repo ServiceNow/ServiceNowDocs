@@ -2,6 +2,7 @@
 title: Add an interview task to a legal matter
 description: As part of your complaint investigation, add an interview task for the involved parties in the legal investigations matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/add-interview-matter-task.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -31,7 +32,7 @@ Role required:sn\_lg\_investigate.fulfiller
 
 4.  On the form, fill in the fields.
 
-    For field descriptions, see [Legal Matter Task form for legal investigations](../reference/legal-investigations-matter-task-form.md) and [fields specific to the interview](../reference/legal-investigations-matter-task-form.md#p_interview_fields) task type.
+    For field descriptions, see [Legal Matter Task form for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/legal-investigations-matter-task-form.md) and [fields specific to the interview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/legal-investigations-matter-task-form.md) task type.
 
 5.  Save the legal matter task.
 

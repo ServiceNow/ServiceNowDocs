@@ -2,6 +2,7 @@
 title: Install Legal Investigations
 description: You can install the Legal Investigations application \(sn\_lg\_investigate\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/install-legal-investigations.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -32,7 +33,7 @@ The following items are installed with Legal Investigations:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Legal Investigations](../reference/installed-with-legal-investigations.md).
+For more information, see [Components installed with Legal Investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/installed-with-legal-investigations.md).
 
 ## Procedure
 

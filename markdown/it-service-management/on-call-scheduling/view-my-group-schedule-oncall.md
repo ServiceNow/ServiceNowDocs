@@ -2,6 +2,7 @@
 title: View my group schedules
 description: You can see the on-call schedules for your groups.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/view-my-group-schedule-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -28,5 +29,5 @@ Role required: itil
 3.  To view a roster, click its order number in the **Rosters** related list.
 
 
-**Parent Topic:**[Viewing schedules and request time-off](../../user-administration/concept/viewing-schedules-and-escalation.md)
+**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
 

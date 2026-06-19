@@ -2,6 +2,7 @@
 title: Generate a project status report with Now Assist
 description: Generate an AI‑assisted project status report with predicted health indicators. Now assist pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/generate-ai-project-status-report.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -36,7 +37,7 @@ After submission, the same information appears in the report view, including rat
 
 1.  Open a project from the home page of Project Workspace.
 
-    For information, see [Access the new Project Workspace](access-new-project-workspace.md).
+    For information, see [Access the new Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Status reports page of the project by selecting **Status Reports** from the list.
 
@@ -48,7 +49,7 @@ After submission, the same information appears in the report view, including rat
 
 4.  Review the AI-generated fields:
 
-    ![AI-generated status report in Project Workspace.](../../now-assist-spm/images/ai-generated-status-report.png)
+    \[Omitted image "ai-generated-status-report.png"\] Alt text: AI-generated status report in Project Workspace.
 
     -   Overall health \(predicted\)
     -   Dimension health such as schedule/cost/resources/scope \(predicted\)
@@ -73,5 +74,5 @@ After submission, the same information appears in the report view, including rat
 
 An AI-assisted status report is generated with predicted health values, an executive summary, and rationale text.
 
-**Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/use-projects-pw.md)
 

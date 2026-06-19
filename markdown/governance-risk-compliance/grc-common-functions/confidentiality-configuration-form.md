@@ -2,6 +2,7 @@
 title: Confidentiality configuration form
 description: The Confidentiality configuration form is used for the configuration of the confidential records for your GRC tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/confidentiality-configuration-form.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -74,5 +75,5 @@ Field where the allowed user groups are automatically filled in based on the lis
 </td></tr></tbody>
 </table>**Note:** **Populate allowed users from** and **Populate allowed groups from** fields appear only when the **Auto-populate** field is selected.
 
-**Parent Topic:**[Configure confidentiality in GRC tables](../task/configure-confidentilaity-on-grc-tables.md)
+**Parent Topic:**[Configure confidentiality in GRC tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-confidentilaity-on-grc-tables.md)
 

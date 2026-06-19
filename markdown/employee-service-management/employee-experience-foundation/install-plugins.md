@@ -2,6 +2,7 @@
 title: Employee Center plugins
 description: Discover the Employee Center plugins that are included out-of-the-box on a new ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/install-plugins.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,5 +28,5 @@ New ServiceNow® instances include the Employee Center and dependency plugins. R
 |Employee Experience Foundation \(sn\_ex\_emp\_fd\)|Contains components such as best practice email layouts that improve employee experiences.|
 |Employee Profile \(sn\_employee\)|Enhance employee experience with a unified, configurable profile, offering comprehensive work-related information, extensibility across business units, and personalized visibility settings.|
 
-For more information, see the [List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md).
+For more information, see the .
 

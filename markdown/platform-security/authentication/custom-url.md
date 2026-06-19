@@ -2,6 +2,7 @@
 title: Custom instance URLs
 description: You can enable your ServiceNow instance to be accessible from a company-branded or custom URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/custom-url.html
 release: australia
 product: Authentication
 classification: authentication

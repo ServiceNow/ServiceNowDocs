@@ -2,7 +2,10 @@
 title: Linking inputs in decision tree nodes
 description: Linking of inputs enables decision tree authors to reuse input values \(answers\) from prior nodes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/guided-decision-tree-input-mapping.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -19,7 +22,7 @@ Most questions are presented to an agent to provide answers. When you link an in
 
 Similar to other inputs, you can use linked inputs to create path conditions.
 
-![Question related to credit card number in a decision node that reuses the answer from the start node.](../image/question-input-mapping.png "Example of linking inputs in a question node")
+\[Omitted image "question-input-mapping.png"\] Alt text: Question related to credit card number in a decision node that reuses the answer from the start node.
 
 For example, if you have already asked the credit card number in the start node, you can reuse that input in the following question node. This question is not presented to the agent again and the value is automatically filled out during run time.
 
@@ -27,7 +30,7 @@ For example, if you have already asked the credit card number in the start node,
 
 With linking inputs, you can reuse the answers that customer provided to supply input values to the guidance inputs. You can link the task input in the start node to the guidance inputs to pass the information about the record that the agent is working on.
 
-![The reassign case guidance uses the input mapping feature to link the task input in the start node to the guidance input.](../image/guidance-input-mapping.png "Example of linking inputs in a guidance node")
+\[Omitted image "guidance-input-mapping.png"\] Alt text: The reassign case guidance uses the input mapping feature to link the task input in the start node to the guidance input.
 
 For example, you can connect the start node’s task input to the following guidance. The task input holds a reference of the record the agent is working on in a workspace. You need a case number, which is provided by the task input, for reassigning the case to someone else.
 

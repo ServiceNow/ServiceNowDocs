@@ -2,6 +2,7 @@
 title: Service categories discovered in Azure
 description: The Discovery process discovers Microsoft Azure services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/azure-discovered-services.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +20,7 @@ The Discovery process discovers Microsoft Azure services.
 
 **Note:**
 
-The CAPI-based discovery method is deprecated. Follow [Migrate from CAPI to Patterns](../../discovery/task/migrate-from-capi-to-pattern.md) for more information.
+The CAPI-based discovery method is deprecated. Follow [Migrate from CAPI to Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/migrate-from-capi-to-pattern.md) for more information.
 
 |Service Category|Name|CI Class|Pattern|Product|
 |----------------|----|--------|-------|-------|
@@ -62,5 +63,5 @@ The CAPI-based discovery method is deprecated. Follow [Migrate from CAPI to Patt
 |Tools|Microsoft.Insights/components| | |Microsoft.Insights|
 |Tools|Microsoft.ServiceBus| | |Microsoft.ServiceBus|
 
-**Parent Topic:**[Cloud accounts](../concept/cloud-accounts.md)
+**Parent Topic:**[Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-accounts.md)
 

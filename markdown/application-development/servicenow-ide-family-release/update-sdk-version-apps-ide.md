@@ -2,6 +2,7 @@
 title: Update the ServiceNow SDK version for an application in the ServiceNow IDE
 description: Configure which version of the ServiceNow SDK an application uses from the ServiceNow IDE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/update-sdk-version-apps-ide.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -29,7 +30,7 @@ From the ServiceNow IDE, you can configure which version of the ServiceNow SDK, 
 
 2.  Open a workspace with an application.
 
-3.  From the Activity Bar, select the File Explorer view \(![File Explorer](../image/servicenow-ide-file-explorer-icon.png)\).
+3.  From the Activity Bar, select the File Explorer view \(\[Omitted image "servicenow-ide-file-explorer-icon.png"\] Alt text: File Explorer\).
 
 4.  Open the `package.json` file for the application.
 
@@ -61,5 +62,5 @@ From the ServiceNow IDE, you can configure which version of the ServiceNow SDK, 
 
 You can use the latest version of the ServiceNow SDK application packaging service and ServiceNow Fluent APIs in your application.
 
-**Parent Topic:**[Configuring the ServiceNow IDE](../concept/configuring-servicenow-ide.md)
+**Parent Topic:**[Configuring the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/configuring-servicenow-ide.md)
 

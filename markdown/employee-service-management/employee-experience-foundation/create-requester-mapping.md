@@ -2,11 +2,12 @@
 title: Create requester mapping
 description: Create a requester mapping to extend the auto-import functionality to other tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/create-requester-mapping.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Import messages from Microsoft Teams to ServiceNow, HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
 ---
@@ -43,5 +44,5 @@ A requestor-mapping record defines which field, in any given table, is the field
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](../concept/auto-import-messages.md)
+**Parent Topic:**[Configure Request-based chats to import messages from Microsoft Teams to ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/auto-import-messages.md)
 

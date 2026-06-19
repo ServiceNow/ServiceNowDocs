@@ -2,6 +2,7 @@
 title: Viewing reports and dashboards in the Software Bill of Materials workspace
 description: Vulnerability analysts view uploaded software bill of materials files in records, data visualizations, as well as enhanced vulnerability intelligence in the Software Bill of Materials \(SBOM\) Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-viewing-data-overview.html
 release: australia
 product: SBOM Core
 classification: sbom-core
@@ -31,9 +32,9 @@ The SBOM Response application provides you with data visualizations with detaile
 
 The following topics provide more information about how to locate details about your components in the Software Bill of Materials Workspace.
 
--   [Review the Home page in the Software Bill of Materials Workspace](vr-sbom-home.md)
--   [Reviewing the Components module in the Software Bill of Materials Workspace](vr-sbom-components-module.md)
--   [View upload status for Software Bill of Materials files](../task/vr-sbom-bom-queue.md)
--   [Checking a Software Bill of Materials entity for vulnerabilities](../task/vr-sbom-check-vulnerability-use-case.md)
--   [Classifying licenses and resolving component licenses in the Software Bill of Materials workspace](vr-sbom-license-overview.md)
+-   [Review the Home page in the Software Bill of Materials Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-home.md)
+-   [Reviewing the Components module in the Software Bill of Materials Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-components-module.md)
+-   [View upload status for Software Bill of Materials files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-bom-queue.md)
+-   [Checking a Software Bill of Materials entity for vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-check-vulnerability-use-case.md)
+-   [Classifying licenses and resolving component licenses in the Software Bill of Materials workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-license-overview.md)
 

@@ -2,6 +2,7 @@
 title: Query a GraphQL schema from a component
 description: Access record data in a component by querying your scripted GraphQL schema.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/query-schema-from-component.html
 release: australia
 product: Web Services
 classification: web-services
@@ -19,10 +20,10 @@ Access record data in a component by querying your scripted GraphQL schema.
 
 Role required: admin
 
-1.  [Create a GraphQL schema](build-graphql-scripted-schema.md#).
-2.  [Test GraphQL APIs with GraphQL Explorer](test-gql-schema.md).
-3.  [Disable introspective queries in your production environment](../reference/graphql-properties.md).
-4.  [Create a custom component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/custom-components.md).
+1.  [Create a GraphQL schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/build-graphql-scripted-schema.md).
+2.  [Test GraphQL APIs with GraphQL Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/test-gql-schema.md).
+3.  [Disable introspective queries in your production environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/graphql-properties.md).
+4.  Create a custom component.
 
 ## Procedure
 
@@ -132,5 +133,5 @@ const component = createCustomElement('now-component', {
 });
 ```
 
-**Parent Topic:**[Query record data using the GraphQL API framework](../concept/scripted-graph-ql.md)
+**Parent Topic:**[Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-graph-ql.md)
 

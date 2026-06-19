@@ -2,6 +2,7 @@
 title: Migrate a survey-based questionnaire to Smart Assessment
 description: Migrate survey-based work order questionnaires and templates to Smart Assessment templates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/migrate-to-smart-assessment-template.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -23,7 +24,7 @@ Role required: wm\_admin
 
 Administrators can migrate the existing survey-based questionnaires and templates to Smart Assessment. The migration can be started from a survey-based work order questionnaire record. A new smart assessment questionnaire and template is automatically created after the migration is complete.
 
-Smart Assessment uses the Smart Assessment Engine to migrate survey-based templates to Smart Assessment templates. For more information, see [Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/smart-asmnt-engine-landing-page.md).
+Smart Assessment uses the Smart Assessment Engine to migrate survey-based templates to Smart Assessment templates. For more information, see .
 
 **Note:**
 
@@ -51,5 +52,5 @@ The questionnaire is migrated and a Smart Assessment questionnaire and template 
 
 ## What to do next
 
-To view, update, or publish the Smart Assessment template, navigate to **Workspaces** &gt; **Assessment Workspace**. For more information, see [Author and publish a Smart Assessment template](create-a-smart-assessment-template.md).
+To view, update, or publish the Smart Assessment template, navigate to **Workspaces** &gt; **Assessment Workspace**. For more information, see [Author and publish a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/create-a-smart-assessment-template.md).
 

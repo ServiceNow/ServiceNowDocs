@@ -2,6 +2,7 @@
 title: Control Objective Change Agent
 description: Learn how Control Objective Change Agent automates and streamlines updates to control objectives, ensuring compliance data remains accurate and consistent with user oversight.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/control-objective-change-agent.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions

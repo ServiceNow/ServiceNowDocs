@@ -2,6 +2,7 @@
 title: Components installed with Financial Services Credit Operations
 description: Several types of components are installed with the installation of the Financial Services Credit Operations application, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-credit-operations/installed-with-credit-assessment.html
 release: australia
 product: Financial Services Credit Operations
 classification: financial-services-credit-operations
@@ -15,7 +16,7 @@ breadcrumb: [Credit Operations, Common applications, Financial Services Operatio
 
 Several types of components are installed with the installation of the Financial Services Credit Operations application, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 This application is automatically installed when you install any of the following Financial Services Operations applications. Financial Services Credit Operations manages the Credit tasks that are used in workflows across Financial Services Operations applications.
 
@@ -82,7 +83,7 @@ Credit contributor – Business \[sn\_bom\_credit\_asmt.b2b\_contributor\]
 -   View the status of credit assessment cases and tasks
 -   Work on credit case for accounts managed by them till the Initiate stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](../concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -108,7 +109,7 @@ Credit contributor – Personal \[sn\_bom\_credit\_asmt.b2c\_contributor\]
 -   View the status of credit assessment cases and tasks
 -   Work on credit case for consumer accounts managed by them till the Initiate stage
 
- **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](../concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the contributor role to work, it must be combined with one of the CSM Contributor users roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -130,7 +131,7 @@ Credit agent connector – Business \[sn\_bom\_credit\_asmt.b2b\_agent\_connecto
 -   Submit credit service requests
 -   Work on credit cases and tasks to fulfil requests for accounts managed by them
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 
@@ -155,7 +156,7 @@ Credit agent connector – Personal \[sn\_bom\_credit\_asmt.b2c\_agent\_connecto
 -   Submit credit service requests
 -   Work on credit cases and tasks to fulfil requests for consumer accounts managed by them
 
- **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../concept/fso-combine-csm-industry-roles.md).
+ **Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 </td><td>
 

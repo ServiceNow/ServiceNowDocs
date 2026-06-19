@@ -2,6 +2,7 @@
 title: Enable email spam scoring and filtering
 description: Install the Email Filter \(com.glide.email\_filter\) plugin to install email filtering within the instance. This filtering identifies existing headers, which enables you to decide what to do with the email based on the associated header. Alternatively, set com.glide.email\_filter to false.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -90,7 +91,7 @@ Category
 
 </td><td>
 
-[File and resources](sc-file-resources.md)
+[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 
 </td></tr><tr><td>
 
@@ -118,8 +119,8 @@ Dependencies and prerequisites
 
 Before setting this property:
 
- Set the **glide.email.read.active** property to true. To learn more, see [Enable using your own POP3 server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ConfAltEmailConfPOP3Server.md).
+ Set the **glide.email.read.active** property to true. To learn more, see Enable using your own POP3 server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[File and resources](sc-file-resources.md)
+</table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-file-resources.md)
 

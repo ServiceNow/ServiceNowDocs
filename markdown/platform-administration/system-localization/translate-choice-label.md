@@ -2,6 +2,7 @@
 title: Translate a choice label
 description: Translate the labels of choices in a list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/translate-choice-label.html
 release: australia
 product: System Localization
 classification: system-localization
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-To translate a choice in a list, you must create a choice record for each language that you want to support in the Choice \[sys\_choice\] table. For more information about this table, see [Choice table](../reference/r_ChoicesTable.md).
+To translate a choice in a list, you must create a choice record for each language that you want to support in the Choice \[sys\_choice\] table. For more information about this table, see [Choice table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_ChoicesTable.md).
 
 ## Procedure
 

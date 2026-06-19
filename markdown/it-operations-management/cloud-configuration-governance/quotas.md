@@ -2,6 +2,7 @@
 title: Quotas and resource order controls
 description: Quotas are limitations or requirements for groups and users on CIs or cloud resources. Use quotas to prevent wasteful resource usage in your cloud environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/quotas.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -19,7 +20,7 @@ You apply quotas to a resource, such as a virtual server, datacenter, or a gener
 
 After this kind of quota is set, users who try to provision additional virtual servers will receive an error message and they will not be able to proceed with provisioning virtual servers until the resource count is under the quota limit. If a user belongs to more than one group, they receive the total quota limit from both groups combined.
 
-**Note:** You can also set per-datacenter limitations on resources by using capacity limits in cloud accounts. See [Set capacity limits on user requests for resources](../../cloud-management-v2-setup/task/set-capacity-limits-cloud-mgt.md).
+**Note:** You can also set per-datacenter limitations on resources by using capacity limits in cloud accounts. See [Set capacity limits on user requests for resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/set-capacity-limits-cloud-mgt.md).
 
 ## Resource block types, quota types, and attributes
 
@@ -41,10 +42,10 @@ Quota types include:
     The total number of attributes for a resource, such as the number of virtual machines.
 
 
--   **[Create a cloud quota definition](../task/create-cloud-quota.md)**  
+-   **[Create a cloud quota definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-cloud-quota.md)**  
 A cloud quota definition specifies the limitations on a resource block. You can use templates or manually create different types of configurations for each quota definition.
--   **[Resource order controls for template-based cloud catalog items](resource-order-control-template-based-catalog.md)**  
+-   **[Resource order controls for template-based cloud catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)**  
 Use resource order controls to perform quota checks for template-based catalog items using quota definitions and policies. Quota limits enable you to control provisioning or ordering resources for users and groups. Configure policy actions to trigger notifications, an approval subflow, or both.
 
-**Parent Topic:**[Cloud Admin Portal](cloud-admin-portal.md)
+**Parent Topic:**[Cloud Admin Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-admin-portal.md)
 

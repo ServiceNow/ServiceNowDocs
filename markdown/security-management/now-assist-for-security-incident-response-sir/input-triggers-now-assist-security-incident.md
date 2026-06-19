@@ -2,6 +2,7 @@
 title: Inputs and triggers for Now Assist for Security Incident Response
 description: You can configure some of the inputs or triggers for a generative AI skill. Inputs or triggers permit you to determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/now-assist-for-security-incident-response-sir/input-triggers-now-assist-security-incident.html
 release: australia
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir

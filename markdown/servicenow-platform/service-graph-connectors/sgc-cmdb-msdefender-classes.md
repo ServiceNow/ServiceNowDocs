@@ -2,6 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for Microsoft Defender Endpoint
 description: When you complete setting up the connection, you can configure the integration to pull data periodically from machines utilizing the Microsoft Defender for Endpoint security solution. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-msdefender-classes.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

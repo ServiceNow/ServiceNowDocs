@@ -2,6 +2,7 @@
 title: Problem Management and CSDM tables
 description: Problem Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Problem Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/pm-use-case.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -22,7 +23,7 @@ Problem Management manages and uses CSDM tables. Several ServiceNow products ben
 3.  Business Service \[cmdb\_ci\_service\_business\] table and Technology management service \[cmdb\_ci\_service\_technical\] table \(formerly Technical service\): Use the service classification attribute to identify business services and Technology management services.
 4.  Service Offering \[service\_offering\] table: Used as a choice list attribute to filter types of service offerings like business service, Technology management offering, and service instance.
 
-![CSDM tables used by Problem Management.](../image/pm-used-tables-csdm-v5.png)
+\[Omitted image "pm-used-tables-csdm-v5.png"\] Alt text: CSDM tables used by Problem Management.
 
 ## Products that add value to Problem Management
 
@@ -41,5 +42,5 @@ When you use Problem Management with one of the following ServiceNow products, y
 -   Governance, Risk, and Compliance \(GRC\): Auditors can leverage the business applications and related Information Objects. This helps auditors understand the design-time data sensitivity for scoping audits, measuring risks, and managing audit activities.
 -   Asset Management: Manages the software and tangible/physical CI life cycles for business applications and business services.
 
-**Parent Topic:**[Applying CSDM guidelines to Problem Management](../concept/pm-use-case-product-view.md)
+**Parent Topic:**[Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/pm-use-case-product-view.md)
 

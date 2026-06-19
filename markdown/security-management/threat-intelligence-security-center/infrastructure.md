@@ -2,6 +2,7 @@
 title: Infrastructure
 description: The Infrastructure SDO represents a type of Tactics, Techniques, and Procedures \(TTPs\). They describe any systems, software services, and any associated physical or virtual resources intended to support some purpose of an attack. Infrastructure applies for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/infrastructure.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -19,8 +20,8 @@ The elements of an attack are represented by other SDOs or SCOs. However, the In
 
 Examples of infrastructure include, C2 servers used in an attack, a device, or a server that is part of a defense, or database servers targeted by an attack.
 
--   **[Define infrastructure](../task/tisc-define-infrastructure.md)**  
+-   **[Define infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-define-infrastructure.md)**  
 Define an Infrastructure that is any systems, software services, and any associated physical or virtual resources intended to support some purpose of an attack.
 
-**Parent Topic:**[Threat Entities](tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

@@ -2,6 +2,7 @@
 title: Dashboard component properties
 description: Disable and enable dashboard component runtime user abilities with these properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dashboard-component-properties-setup.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -77,11 +78,11 @@ Disable dashboard creation \[hideCreateNewButton\]
 
 Hides the Create Dashboard option in the 3-dot menu of the Dashboard page. Users can still create dashboards from the Analytics Center or the dashboards library \(Dashboard Overview component\).When false:
 
- ![3-dot menu of dashboards when Disable dashboard creation is off.](../image/hide-create-dashboard-false.png)
+ \[Omitted image "hide-create-dashboard-false.png"\] Alt text: 3-dot menu of dashboards when Disable dashboard creation is off.
 
  When true:
 
- ![3-dot menu of dashboard page when Disable dashboard creation is on.](../image/hide-create-dashboard-true.png)
+ \[Omitted image "hide-create-dashboard-true.png"\] Alt text: 3-dot menu of dashboard page when Disable dashboard creation is on.
 
  Default: false
 
@@ -105,7 +106,7 @@ Allows the UIB pages which contains the dashboard to take control of how the Das
 -   The page needs custom navigation logic for dashboard changes.
 -   The dashboard is embedded \(without isEmbedded turned on\) in a workspace where URL management is handled by the parent.
 
-For more information, see [Dashboard URL parameter delegation](../concept/dashboard-url-parameter-delegation.md#).
+For more information, see [Dashboard URL parameter delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboard-url-parameter-delegation.md).
 
 **Note:** This functionality requires the latest Platform Analytics experience application from the ServiceNow® Store.
 
@@ -115,7 +116,7 @@ Default dashboard \[defaultDashboard\]
 
 </td><td>
 
-Select an existing dashboard to show in this dashboard component. This other dashboard is usually in the Platform Analytics experience. For that dashboard to be shown, it must include your workspace or experience in the **Dashboard Visibility** field in its dashboard details, as described in [Configure Platform Analytics dashboard details](../../../use/dashboards/task/config-db-in-ac.md).You can select a dashboard statically or dynamically, through a state variable or a script.
+Select an existing dashboard to show in this dashboard component. This other dashboard is usually in the Platform Analytics experience. For that dashboard to be shown, it must include your workspace or experience in the **Dashboard Visibility** field in its dashboard details, as described in [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-db-in-ac.md).You can select a dashboard statically or dynamically, through a state variable or a script.
 
 </td></tr><tr><td>
 
@@ -156,7 +157,7 @@ Use data broker to fetch data \[useDataBroker\]
 
 </td><td>
 
-When toggled on, the dashboard prefetches static JavaScript, such as dashboard metadata, using a data broker. The Dashboard data broker preset automatically toggles this property on. Without the preset, this property is off by default. For more information, see [Configure dashboard data broker](../task/configure-dashboard-data-broker.md).
+When toggled on, the dashboard prefetches static JavaScript, such as dashboard metadata, using a data broker. The Dashboard data broker preset automatically toggles this property on. Without the preset, this property is off by default. For more information, see [Configure dashboard data broker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/configure-dashboard-data-broker.md).
 
 </td></tr><tr><td>
 
@@ -167,5 +168,5 @@ Data broker response for the dashboard \[data\]
 The response for the data broker when it is used. The Dashboard data broker preset automatically sets a JSON object for this property. You can override this value or set it manually without turning the preset on, if you absolutely need to.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Add a dashboard to a Dashboards page](../../../use/performance-analytics/task/add-dashboard-to-workspace.md)
+</table>**Parent Topic:**[Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/add-dashboard-to-workspace.md)
 

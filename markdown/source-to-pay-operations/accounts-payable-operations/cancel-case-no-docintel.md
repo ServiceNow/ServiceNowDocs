@@ -1,19 +1,21 @@
 ---
 title: Close the additional invoice processing case for an invoice
-description: Close the auto-created invoice processing case if one already exists for an invoice.
+description: Close an auto-generated invoice processing case when you create an invoice manually to avoid duplicate processing workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/cancel-case-no-docintel.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, Accounts Payable Operations, invoice processing, AP case, AP specialist]
 breadcrumb: [Invoice ingestion process when Document Intelligence is unavailable, Invoice processing cases, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Close the additional invoice processing case for an invoice
 
-Close the auto-created invoice processing case if one already exists for an invoice.
+Close an auto-generated invoice processing case when you create an invoice manually to avoid duplicate processing workflows.
 
 ## Before you begin
 
@@ -27,7 +29,7 @@ If you create an invoice manually, a new invoice processing case is created for 
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Do one of the following:
 
@@ -51,5 +53,5 @@ If you create an invoice manually, a new invoice processing case is created for 
     The invoice processing case is closed and its state updates to Closed complete.
 
 
-**Parent Topic:**[Invoice ingestion process when Document Intelligence is unavailable](../concept/invoice-ingest-docintel-unavailable.md)
+**Parent Topic:**[Invoice ingestion process when Document Intelligence is unavailable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-ingest-docintel-unavailable.md)
 

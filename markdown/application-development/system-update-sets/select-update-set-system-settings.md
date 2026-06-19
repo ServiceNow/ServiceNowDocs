@@ -2,6 +2,7 @@
 title: Select the current update set in Unified Navigation
 description: You can change the current update set at any time using the update set picker in Unified Navigation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/select-update-set-system-settings.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -25,24 +26,24 @@ When you change your application scope, the system automatically switches the cu
 
 ## Procedure
 
-1.  Select the Application scope icon \(![](../../applications/image/icon-scope.png)\) in Unified Navigation.
+1.  Select the Application scope icon \(\[Omitted image "icon-scope.png"\]\) in Unified Navigation.
 
-    ![Application scope in page header](../image/AppScope_icon.png)
+    \[Omitted image "AppScope\_icon.png"\] Alt text: Application scope in page header
 
 2.  Select the update set you want to make current from the list available in the **Update set** field, using the **Filter** if needed.
 
-    ![Update set list](../image/UpdateSetList.png)
+    \[Omitted image "UpdateSetList.png"\] Alt text: Update set list
 
     The update set you selected is confirmed with a check mark icon.
 
-3.  If the update set you need isn't in the list, you can create an update set by selecting the plus icon \(![](../../../reuse/icons/product-icons/plus-outline-24.svg)\).
+3.  If the update set you need isn't in the list, you can create an update set by selecting the plus icon \(\[Omitted image "plus-outline-24.svg"\]\).
 
 
 ## What to do next
 
-The update set picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-pickers.md).
+The update set picker is part of the Next Experience picker. For more information, see .
 
-For more information about application scoping, see [Application scope](../../applications/concept/c_ApplicationScope.md).
+For more information about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_ApplicationScope.md).
 
-**Parent Topic:**[Working with update sets](../concept/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
 

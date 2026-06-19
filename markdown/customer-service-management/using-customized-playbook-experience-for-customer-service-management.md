@@ -2,7 +2,10 @@
 title: Add an optional activity
 description: Add optional activities to different stages in a playbook. Although customer processes follow a certain structure, optional tasks may be necessary in some instances. For example, a customer may want to schedule an appointment to visit a location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-customized-playbook-experience-for-customer-service-management.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,7 +18,7 @@ Add optional activities to different stages in a playbook. Although customer pro
 
 ## Before you begin
 
-This feature must be configured by an administrator. If optional activities aren’t configured for a playbook, the **Add Activity** menu item isn’t available. For more information, see [Configure playbook stage and activity visibility](../task/playbook-config-activity-visibility.md).
+This feature must be configured by an administrator. If optional activities aren’t configured for a playbook, the **Add Activity** menu item isn’t available. For more information, see [Configure playbook stage and activity visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/playbook-config-activity-visibility.md).
 
 Role required: agent
 

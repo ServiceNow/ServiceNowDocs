@@ -2,6 +2,7 @@
 title: Configure an assessment trigger condition
 description: Define rule conditions and generate required and optional assessments for specific security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/post-incident-review-setup.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

@@ -2,13 +2,14 @@
 title: Configure AI search for Workplace Service Delivery for Mobile
 description: Install and configure AI search with Workplace Service Delivery for Mobile. Users can use AI search to search for campus, buildings, floors, or spaces.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/configure-ai-search-mobile.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace Service Delivery for Mobile, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure AI search for Workplace Service Delivery for Mobile
@@ -19,7 +20,7 @@ Install and configure AI search with Workplace Service Delivery for Mobile. User
 
 Role required: admin
 
-**Note:** To enable AI search for Workplace Service Delivery for Mobile, you need to request for AI search and activate AI search. For more information about how to install and configure AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
+**Note:** To enable AI search for Workplace Service Delivery for Mobile, you need to request for AI search and activate AI search. For more information about how to install and configure AI Search, see AI Search.
 
 ## Procedure
 
@@ -50,9 +51,9 @@ Role required: admin
 
 When the **Ingestion State** is **Indexed**, the AI search configuration is complete and you can login to the Workplace Service Delivery for Mobile app to search for campuses, buildings, and spaces using AI search.
 
-**Parent Topic:**[Configure Workplace Service Delivery for Mobile](../concept/configure-wsd-mobile.md)
+**Parent Topic:**[Configure Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
 
-**Previous topic:**[Configure the Toggle map view property](configure-toggle-map-view.md)
+**Previous topic:**[Configure the Toggle map view property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-toggle-map-view.md)
 
-**Next topic:**[Configure map properties for Location directory](wsd-mobile-map-config-properties-loc-directory.md)
+**Next topic:**[Configure map properties for Location directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-map-config-properties-loc-directory.md)
 

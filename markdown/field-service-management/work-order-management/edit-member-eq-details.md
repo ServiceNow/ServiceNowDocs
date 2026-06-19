@@ -2,6 +2,7 @@
 title: Edit member or equipment details
 description: Edit the details of an individual planned crew member or equipment, as well as an entire crew on the ServiceNow Agent application. Mark members, equipment, and crews as active or inactive, or add details for task crew members.Edit the details of an individual planned crew member or an entire planned crew. Mark members and crews as active or inactive.Adjust the actual work start, actual work end, or resource requirement of a task assignee in a task crew.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/edit-member-eq-details.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -31,8 +32,8 @@ Role required: wm\_agent and crew\_moderator
 
 3.  Choose from the following:
 
-    -   To edit an assignee, tap the **Edit** icon \(![Edit icon.](../image/edit-mobile-icon.png)\) by the selected assignee.
-    -   To edit the crew, tap the **More actions** icon \(![More actions icon.](../image/more-actions-mobile-icon.png)\).
+    -   To edit an assignee, tap the **Edit** icon \(\[Omitted image "edit-mobile-icon.png"\] Alt text: Edit icon.\) by the selected assignee.
+    -   To edit the crew, tap the **More actions** icon \(\[Omitted image "more-actions-mobile-icon.png"\] Alt text: More actions icon.\).
 4.  Edit the details on the form.
 
 5.  Tap **Update**.
@@ -52,7 +53,7 @@ Role required: wm\_agent and crew\_moderator
 
 2.  Select a work order task.
 
-3.  Tap the **Edit** icon \(![Edit icon.](../image/edit-mobile-icon.png)\) by the selected assignee.
+3.  Tap the **Edit** icon \(\[Omitted image "edit-mobile-icon.png"\] Alt text: Edit icon.\) by the selected assignee.
 
 4.  Edit the details on the form.
 

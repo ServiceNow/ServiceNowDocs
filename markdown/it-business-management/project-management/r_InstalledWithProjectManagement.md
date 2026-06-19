@@ -2,6 +2,7 @@
 title: Properties installed with Project Management
 description: There are several Project properties that you can configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-management/r\_InstalledWithProjectManagement.html
 release: australia
 product: Project Management
 classification: project-management
@@ -93,7 +94,7 @@ Enable altering of planned date\(s\) for task in WIP/Closed com.snc.project.enab
 
 </td><td>
 
-If set to true, this property enables you to change the planned start date for tasks even if they are in the Work in progress state or any of the closed states.Default value: false
+When set to true, this property enables you to change the planned start date for tasks in Work in Progress or closed states.Default value: false
 
 </td></tr><tr><td>
 
@@ -101,7 +102,7 @@ Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Proje
 
 </td><td>
 
-If set to true, this property changes the start dates for a resource plan, cost plan, and benefit plan when there is a change in the project or demand start dates. **Note:** The start date of benefit plans with the offset type **None** does not change with the project or demand date change.
+When set to true, this property updates resource, cost, and benefit plan start dates when project or demand start dates change. **Note:** The start date of benefit plans with the offset type **None** does not change with the project or demand date change.
 
  Default value: true
 
@@ -111,7 +112,7 @@ Retain users &amp; resource plan state as confirmed / allocated when project mov
 
 </td><td>
 
-If set to true, this property retains the confirmed or allocated state of a resource plan, booked resources, and planned daily contour when a property is moved. On moving the project, the resource plan is reallocated or reconfirmed based on the availability of the resources in the future time period to which the project is moved.**Note:** This property is enabled only when the **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** property has been set to true.
+When set to true, this property retains the confirmed or allocated state, booked resources, and planned daily contour when a resource plan is moved. When you move a project, the resource plan is reallocated or reconfirmed based on resource availability in the new time period.**Note:** This property is enabled only when the **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** property has been set to true.
 
  Default value: true
 
@@ -194,7 +195,7 @@ Use a predefined template when generating a status reportsn\_pw.project\_status\
 
 </td><td>
 
-The property specifies the default template used for generating project status reports. You can replace the existing default template with your desired template and set it as default by updating the sys id in value field of project status report default template property.
+This property specifies the default template for generating project status reports. To change the default, update the sys ID in the value field with your preferred template's sys ID.
 
 </td></tr><tr><td>
 
@@ -205,5 +206,5 @@ Generate the status report as read-onlysn\_pw.doc\_status\_report\_read\_only
 The property restrict edits in the status report. The property sets the status report to read-only.Default value: true
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Project Management reference](project-management-reference.md)
+</table>**Parent Topic:**[Project Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/project-management-reference.md)
 

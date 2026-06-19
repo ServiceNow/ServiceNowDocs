@@ -2,6 +2,7 @@
 title: Create custom roles and requirements in Opportunity Marketplace
 description: Create custom roles and requirements to meet the needs of your organization. Roles and requirements are maintained as records in the Opportunity role \[sn\_opp\_market\_opportunity\_position\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-roles-reqs.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -46,5 +47,5 @@ Role required: admin
 7.  Select **Update**.
 
 
-**Parent Topic:**[Creating custom opportunity types in Opportunity Marketplace](../concept/egd-oppt-mrktplc-custom-oppt-type.md)
+**Parent Topic:**[Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md)
 

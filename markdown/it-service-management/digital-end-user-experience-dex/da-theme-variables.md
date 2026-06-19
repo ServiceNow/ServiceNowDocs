@@ -2,6 +2,7 @@
 title: Variables to customize a theme for Desktop Assistant
 description: You can modify specific CSS variables to customize themes for Desktop Assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/da-theme-variables.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -401,5 +402,5 @@ Medium box shadow effects for UI components.
 ``
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Desktop Assistant reference](dex-desktop-experience-reference.md)
+</table>**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
 

@@ -2,6 +2,7 @@
 title: DocumentReferenceService - Scoped, Global
 description: The DocumentReferenceService API provides methods for managing document references within a target table, such as the Incidents \[incident\] or Knowledge \[kb\_knowledge\] table. You can use document references to associate information with a record.Instantiates a DocumentReferenceService object.Adds a document reference to a target table record.Removes a document reference from the Document References \[ds\_document\_reference\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/DocumentReferenceServiceBothAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,14 +16,14 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DocumentReferenceService API provides methods for managing document references within a target table, such as the Incidents \[incident\] or Knowledge \[kb\_knowledge\] table. You can use document references to associate information with a record.
 
-This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see [Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-services-landing-page.md).
+This API requires the Document Management plugin \(com.snc.platform\_document\_management\) and is provided within the `sn_doc_services` namespace. For information, see Document Services.
 
 The following APIs enable you to define and manage documents:
 
--   [SystemDocument](../../SystemDocument/concept/SystemDocumentBothAPI.md#) – Define a document object.
--   [DocumentService](../../DocumentService/concept/DocumentServiceBothAPI.md#) – Add, update, or delete a document.
+-   [SystemDocument](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SystemDocumentBothAPI.md) – Define a document object.
+-   [DocumentService](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DocumentServiceBothAPI.md) – Add, update, or delete a document.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## DocumentReferenceService - DocumentReferenceService\(\)
 

@@ -2,6 +2,7 @@
 title: Automatic matching of display values
 description: During the import of XML records, the system attempts to match some reference field display values to a local sys\_id value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/c\_AutomaticMatchingOfDisplayValues.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management

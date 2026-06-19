@@ -2,11 +2,14 @@
 title: Create policies for Scan Engine
 description: Policies let you determine how specific definition findings appear on analytics dashboards; you can ignore them completely or place them in a prioritized view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/working-policies-scan-engine.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # Create policies for Scan Engine
@@ -34,7 +37,7 @@ You can choose to create policies that label these definition findings as:
 
 4.  Set the following fields to configure the policy.
 
-<table id="choicetable_npc_csk_hhc"><tbody><tr><td id="d72418e123">
+<table id="choicetable_npc_csk_hhc"><tbody><tr><td id="d77169e123">
 
 **Number**
 
@@ -42,7 +45,7 @@ You can choose to create policies that label these definition findings as:
 
 Auto-generated ID for the policy.
 
-</td></tr><tr><td id="d72418e132">
+</td></tr><tr><td id="d77169e132">
 
 **Active**
 
@@ -50,7 +53,7 @@ Auto-generated ID for the policy.
 
 Enable the policy to display in the **Finding Policies** page \(**ALL &gt; Impact &gt; Platform Health &gt; Finding Policies**\).
 
-</td></tr><tr><td id="d72418e150">
+</td></tr><tr><td id="d77169e150">
 
 **Status**
 
@@ -61,7 +64,7 @@ Select one of the following: -   None
 -   Prioritize
 **Note:** **None** means the policy is defined but not currently affecting findings. Use **Acceptable as is** to exclude findings from metrics, or **Prioritize** to highlight them in dashboards. Inactive policies do not process at all.
 
-</td></tr><tr><td id="d72418e180">
+</td></tr><tr><td id="d77169e180">
 
 **Order**
 
@@ -69,7 +72,7 @@ Select one of the following: -   None
 
 Policies are evaluated in order \(lowest to highest\). The first policy that matches a finding is applied; subsequent policies are not evaluated for that finding. Lower order values have higher priority.
 
-</td></tr><tr><td id="d72418e189">
+</td></tr><tr><td id="d77169e189">
 
 **Reason for policy**
 

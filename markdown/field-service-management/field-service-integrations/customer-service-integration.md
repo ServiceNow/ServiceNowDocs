@@ -2,6 +2,7 @@
 title: Integration with Customer Service Management
 description: Provides an integration between the Customer Service Management and Field Service Management applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/customer-service-integration.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -58,8 +59,8 @@ Click a work order in this list to display the work order details.
 
 There is no synchronization between the Work Order form and the associated Case form. If information changes on the Case form, it does not get updated on the Work Order form.
 
--   **[Map case fields with work order table](../task/map-case-fields-to-work-order-table.md)**  
+-   **[Map case fields with work order table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/map-case-fields-to-work-order-table.md)**  
 Define the fields you want to map between the case and the target work order table fields that you have already configured. This configuration automatically copies the values of mapped fields from the case to the work order when creating a work order from the case.
 
-**Parent Topic:**[Integrating Field Service Management with other applications](integrate-fsm-other-applications.md)
+**Parent Topic:**[Integrating Field Service Management with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/integrate-fsm-other-applications.md)
 

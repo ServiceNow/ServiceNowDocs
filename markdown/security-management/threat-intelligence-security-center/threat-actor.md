@@ -2,6 +2,7 @@
 title: Threat Actor
 description: Threat Actors are individuals, groups, or organizations who act with malicious intent. Threat actors applies for STIX 2.x.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-actor.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -21,8 +22,8 @@ Threat Actors use their resources, and the resources of an Intrusion Set, to con
 
 You can identify Threat Actors by their motives, capabilities, goals, sophistication level, past activities, resources they have access to, and their role in the organization.
 
--   **[Define Threat Actor](../task/define-threat-actor.md)**  
+-   **[Define Threat Actor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-threat-actor.md)**  
 Define threat actors who are individuals, groups, or organizations who act with malicious intent.
 
-**Parent Topic:**[Threat Entities](tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

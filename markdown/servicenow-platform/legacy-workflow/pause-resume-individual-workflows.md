@@ -2,6 +2,7 @@
 title: Pause and resume individual workflows
 description: Pause individual workflow contexts. Specify the date and time of day at which the workflow context should resume.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/pause-resume-individual-workflows.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -39,17 +40,17 @@ When a workflow context is paused, the system saves basic information about the 
 
 4.  In the **Workflow Pause Inputs** dialog:
 
-    1.  Click the calendar icon \(![Calendar icon](../image/WorkflowPauseResumeAtCalendar.png)\) to select the date, and enter the time of day \(in hours, minutes, and seconds\) at which the workflow should resume.
+    1.  Click the calendar icon \(\[Omitted image "WorkflowPauseResumeAtCalendar.png"\] Alt text: Calendar icon\) to select the date, and enter the time of day \(in hours, minutes, and seconds\) at which the workflow should resume.
 
         You can select the current date or future date, but you must enter a time of day in the future. For example, to pause the workflow context at 13:30:00 \(1:30 pm\), select the date from the calendar, and then enter `13`, `30`, and `00` into the respective **Time:** fields.
 
-    2.  Click the green check mark icon \(![Green check mark icon.](../image/Check.png)\) when finished.
+    2.  Click the green check mark icon \(\[Omitted image "Check.png"\] Alt text: Green check mark icon.\) when finished.
 
         The selected date and time of day appear in the **Resume At** field.
 
     3.  Click **OK** to return to Workflow Contexts.
 
-        The selected workflow is now paused. Use [Workflow pause request](monitor-workflow-pause-requests.md) to monitor its status.
+        The selected workflow is now paused. Use [Workflow pause request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/monitor-workflow-pause-requests.md) to monitor its status.
 
 5.  Manually resume a currently paused workflow context:
 
@@ -64,5 +65,5 @@ When a workflow context is paused, the system saves basic information about the 
     3.  In **Related Links**, click **Resume**.
 
 
-**Parent Topic:**[Workflow pause utility](../concept/workflow-pause-utility.md)
+**Parent Topic:**[Workflow pause utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflow-pause-utility.md)
 

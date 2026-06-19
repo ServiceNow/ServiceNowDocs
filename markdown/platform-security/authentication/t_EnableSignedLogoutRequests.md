@@ -2,6 +2,7 @@
 title: \(Optional\) Enable signed logout requests
 description: Some IdPs require the Service Provider to sign logout requests with a certificate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/t\_EnableSignedLogoutRequests.html
 release: australia
 product: Authentication
 classification: authentication
@@ -33,6 +34,6 @@ If your IdP requires signed logout requests, use the IdP's metdata to set the fo
 
 3.  Click **Update**.
 
-4.  [Install a Service Provider \(SP\) key store](t_InstallASPKeystoreSigningSAMLReqs.md).
+4.  [Install a Service Provider \(SP\) key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_InstallASPKeystoreSigningSAMLReqs.md).
 
 

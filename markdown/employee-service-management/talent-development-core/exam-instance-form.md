@@ -2,6 +2,7 @@
 title: Exam instance form
 description: Description of the field values in the Exam Instance form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/exam-instance-form.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

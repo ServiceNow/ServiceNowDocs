@@ -2,6 +2,7 @@
 title: IT Remediation Workspace reference information
 description: The following topics provide you with links, reference information, in addition to field data on the forms and records found in IT Remediation Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/it-remediation-workspace-reference.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace

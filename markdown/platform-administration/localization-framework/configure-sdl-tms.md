@@ -2,6 +2,7 @@
 title: Configure RWS TMS in the Localization Framework
 description: Configure RWS TMS to use the RWS TMS service in the Localization Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/configure-sdl-tms.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -37,15 +38,15 @@ Roles required: connection\_admin
 
     RWS provides an option to create automated or reviewed projects and provides the respective option IDs during RWS account creation.
 
-5.  In the **Credential** field, click the information icon \(![Information icon.](../image/information-icon.png)\) and open the record.
+5.  In the **Credential** field, click the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon.\) and open the record.
 
     A record for OAuth 2.0 credentials is created when the RWS TMS spoke is installed with the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activation.
 
-6.  In the **OAuth Entity Profile** field, click the information icon \(![Information icon.](../image/information-icon.png)\) and open the record.
+6.  In the **OAuth Entity Profile** field, click the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon.\) and open the record.
 
     An OAuth Entity profile is created when the RWS TMS spoke is installed with the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activation.
 
-7.  In the **OAuth provider** field, click the information icon \(![Information icon.](../image/information-icon.png)\) and open the record.
+7.  In the **OAuth provider** field, click the information icon \(\[Omitted image "information-icon.png"\] Alt text: Information icon.\) and open the record.
 
     An Application Registries record is created when the RWS TMS spoke is installed with the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activation.
 
@@ -64,5 +65,5 @@ Roles required: connection\_admin
     Once the OAuth token is created, the ServiceNow® platform regenerates the token until the refresh token expires.
 
 
-**Parent Topic:**[Translation Management System configurations](../concept/tms-configuration.md)
+**Parent Topic:**[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md)
 

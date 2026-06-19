@@ -2,6 +2,7 @@
 title: Create Connection and Credential form
 description: Use the Create Connection and Credential form to establish a connection and authenticate your login credentials with an Everbridge instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-connection-and-credential-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -80,5 +81,5 @@ Password
 Password to validate and establish the connection.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create connections and authenticate their credentials](../task/create-conn-auth-cred-Everbridge-uib-ws.md)
+</table>**Parent Topic:**[Create connections and authenticate their credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-conn-auth-cred-Everbridge-uib-ws.md)
 

@@ -2,6 +2,7 @@
 title: Matrix report in Audit Workspace
 description: Matrix report is a structured report that you can configure to view in a grid or table format in the Audit Workspace. You can use the matrix report to analyze relationships between different objects, for example assessing risks and controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/matrix-report-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

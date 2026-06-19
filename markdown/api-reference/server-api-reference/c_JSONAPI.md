@@ -2,6 +2,7 @@
 title: JSON - Global
 description: The JSON script include provides methods to create JSON objects from a string, and to turn JSON objects into strings.Creates an instance of the JSON class.Creates an object or primitive type from a JSON formatted string.Creates a string from a JSON object.Creates an object or primitive type from a JSON formatted string.Creates a string from a JSON object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_JSONAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -48,7 +49,7 @@ var obj = JSON.parse(str);
 
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## JSON - JSON\(\)
 

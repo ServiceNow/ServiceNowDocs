@@ -2,6 +2,7 @@
 title: Create an Operational Technology request on the Industrial Workspace
 description: Create an Operational Technology \(OT\) request in the Industrial Workspace to address a product or service needed for an OT device or incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-request-management/create-ot-service-request-industrial-workspace.html
 release: australia
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -46,5 +47,5 @@ Once the OT request is submitted, you receive an email with the details of your 
 
 If there are any changes made to the request record, you're notified with an email describing the changes made. For example, work notes were added to the record, or its state was updated.
 
-**Parent Topic:**[Using Operational Technology Request Management](../concept/using-operational-technology-request-management.md)
+**Parent Topic:**[Using Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/using-operational-technology-request-management.md)
 

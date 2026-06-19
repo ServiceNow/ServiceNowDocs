@@ -2,6 +2,7 @@
 title: Review the system properties used by the Service Graph Connector for Microsoft Excel
 description: As an OT Admin or CMDB Integration Admin, view system properties related to the Service Graph Connector for Microsoft Excel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/access-system-properties-used-by-service-graph-connector.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -94,5 +95,5 @@ sn\_otsm\_sgc.enable.cmdb.validations
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](../concept/configuring-service-graph-connector-for-excel.md)
+**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

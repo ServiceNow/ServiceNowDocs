@@ -2,12 +2,13 @@
 title: Components installed with Healthcare Operations Core
 description: Several types of components such as tables, user roles, and business rules are installed when you activate the Care Team Operations plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hcls-cto-components\_0.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Reference, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Healthcare Operations Core, Healthcare Operations, Healt
 
 Several types of components such as tables, user roles, and business rules are installed when you activate the Care Team Operations plugin.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/plugins/task/find-components.html](https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/plugins/task/find-components.html).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see .
 
 ## Tables installed with Healthcare Operations Core
 
@@ -195,228 +196,6 @@ Set HCLS location from CMN location
 </td><td>
 
 Sets the corresponding Healthcare location of selected cmn\_location.
-
-</td></tr></tbody>
-</table>## Record producers installed with Healthcare Operations Core
-
-<table id="table_record_producers_hco"><tbody><tr><td>
-
-**Record producer name**
-
-</td><td>
-
-**Description**
-
-</td></tr><tr><td>
-
-Add a member
-
-</td><td>
-
-Adds an existing user to a team and assigns their responsibility. Requires the sn\_hco.care\_team\_manager role.
-
-</td></tr><tr><td>
-
-Remove a member
-
-</td><td>
-
-Removes an existing member from a team. Requires the sn\_hco.care\_team\_manager role.
-
-</td></tr></tbody>
-</table>## Script includes installed with Healthcare Operations Core
-
-<table id="table_script_includes_hco"><tbody><tr><td>
-
-**Script include name**
-
-</td><td>
-
-**Description**
-
-</td></tr><tr><td>
-
-Asset
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-AssetDAO
-
-</td><td>
-
-Performs data access operations on the asset table.
-
-</td></tr><tr><td>
-
-HCOBase
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-HCOBaseActionUtil
-
-</td><td>
-
-Base utilities for UI actions. All HCO child applications inherit from this class.
-
-</td></tr><tr><td>
-
-HCOBaseDAO
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-HCOObject
-
-</td><td>
-
-Helper for creating and operating on HCO objects.
-
-</td></tr><tr><td>
-
-HCOObjectBuilder
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-HealthcareOperationsAJAX
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-HealthcareOperationsConstants
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-HealthcareOperationsDAO
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-HealthcareOperationsQueryRules
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-JournalField
-
-</td><td>
-
-Service layer for journal field operations, used in work order to case synchronization.
-
-</td></tr><tr><td>
-
-JournalFieldDAO
-
-</td><td>
-
-Performs data access operations on journal fields, used in work order to case synchronization.
-
-</td></tr><tr><td>
-
-Location
-
-</td><td>
-
-Service layer for location queries.
-
-</td></tr><tr><td>
-
-LocationDAO
-
-</td><td>
-
-Performs data access operations on locations.
-
-</td></tr><tr><td>
-
-ServiceDefinition
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-ServiceDefinitionDAO
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-ServiceOrg
-
-</td><td>
-
-Service layer for service organization queries.
-
-</td></tr><tr><td>
-
-ServiceOrgDAO
-
-</td><td>
-
-Performs data access operations on service organizations and organization members.
-
-</td></tr><tr><td>
-
-ServiceOrgSB
-
-</td><td>
-
-Houses reference qualifiers for HCO service organizations.
-
-</td></tr><tr><td>
-
-WorkOrder
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-WorkOrderDAO
-
-</td><td>
-
-Performs data access operations on the work order table.
-
-</td></tr><tr><td>
-
-WorkOrderSB
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: Configuring Sensitive Data Handler
 description: Detect and mask sensitive information that is shared in Agent Chat or Virtual Agent conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/agent-chat/ac-configure-sensitive-data-handling.html
 release: australia
 product: Agent Chat
 classification: agent-chat
@@ -202,5 +203,5 @@ Indicates whether the regular expression is processed from left to right or righ
 9.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Agent Chat](../concept/ci-agent-chat-configuring.md)
+**Parent Topic:**[Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-chat/ci-agent-chat-configuring.md)
 

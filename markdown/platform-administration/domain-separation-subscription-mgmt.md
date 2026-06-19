@@ -2,6 +2,7 @@
 title: Domain separation and Subscription Management
 description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is supported for Subscription Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/domain-separation-subscription-mgmt.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ The support level is Basic but has some exceptions or special conditions.
 
 Sample use case: When an SP uses chat to respond to a tenant-customer’s message, the client must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of domain separation inSubscription Management
 
@@ -53,10 +54,10 @@ Users in the SP domain can view assist usage by domain by navigating to **Admin*
 
 Users in tenant domains can only view their own Now Assist usage. Users in tenant domains can't see the number of assists used in parent or sibling domains.
 
-**Parent Topic:**[Subscription Management reference](subscription-management-reference-v2.md)
+**Parent Topic:**[Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/subscription-management-reference-v2.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

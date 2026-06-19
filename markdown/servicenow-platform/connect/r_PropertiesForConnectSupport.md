@@ -2,6 +2,7 @@
 title: Properties for Connect Support
 description: The Connect Support Properties page provides several configuration options specifically for Connect Support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/connect/r\_PropertiesForConnectSupport.html
 release: australia
 product: Connect
 classification: connect
@@ -17,7 +18,7 @@ The Connect Support Properties page provides several configuration options speci
 
 **Important:**
 
-Starting with Utah, Connect Support has been deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
+Starting with Utah, Connect Support has been deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 These properties are available for Connect Support.
 

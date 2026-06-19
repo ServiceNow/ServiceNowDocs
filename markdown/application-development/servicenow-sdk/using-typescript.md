@@ -2,6 +2,7 @@
 title: Using TypeScript in JavaScript modules with the ServiceNow SDK
 description: Use TypeScript when creating JavaScript modules with the ServiceNow SDK.Use TypeScript in JavaScript modules by adding support for TypeScript in your application.Get type-ahead support for APIs and scriptable objects outside of Glide APIs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-sdk/using-typescript.html
 release: australia
 product: ServiceNow SDK
 classification: servicenow-sdk
@@ -19,7 +20,7 @@ TypeScript uses static typing and type annotations to support developers catchin
 
 For general information about using TypeScript, see the [TypeScript Documentation](https://www.typescriptlang.org/docs/) on the typescriptlang.org website.
 
-**Parent Topic:**[Create and use JavaScript modules in applications with the ServiceNow SDK](../task/create-use-javascript-modules.md)
+**Parent Topic:**[Create and use JavaScript modules in applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/create-use-javascript-modules.md)
 
 ## Use TypeScript in JavaScript modules
 
@@ -92,12 +93,12 @@ Follow this procedure to update existing applications that weren't created using
 
 5.  In the `src/server` directory, add at least one `.ts` file to contain module code.
 
-    For information about creating modules, see [Create and use JavaScript modules in applications with the ServiceNow SDK](../task/create-use-javascript-modules.md).
+    For information about creating modules, see [Create and use JavaScript modules in applications with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/create-use-javascript-modules.md).
 
 
 ### What to do next
 
-Build and install the application to compile the TypeScript files into JavaScript modules and add the modules to the EcmaScript Module \[sys\_module\] table. For more information, see [Build and install an application with the ServiceNow SDK](../task/build-deploy-application-now-sdk.md).
+Build and install the application to compile the TypeScript files into JavaScript modules and add the modules to the EcmaScript Module \[sys\_module\] table. For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
 ## Add type definitions for APIs
 
@@ -109,7 +110,7 @@ Role required: admin
 
 ### About this task
 
-**Note:** You can download type definitions for most APIs, script includes, and other scriptable objects using the `now-sdk dependencies` command. For more information, see [Download module and script dependencies](downloading-dependencies-now-sdk.md#).
+**Note:** You can download type definitions for most APIs, script includes, and other scriptable objects using the `now-sdk dependencies` command. For more information, see [Download module and script dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md).
 
 Follow this procedure to manually add types definitions that the `now-sdk dependencies` doesn't download. You can declare modules directly in the ServiceNow SDK application to stub access to the APIs for type-ahead support. These modules aren't packaged in the application package, but they can be tracked in a source control repository for the application and shared between developers.
 

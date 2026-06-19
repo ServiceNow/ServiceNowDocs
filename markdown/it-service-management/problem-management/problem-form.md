@@ -2,6 +2,7 @@
 title: Problem form
 description: Description of the field values for the problem form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/problem-form.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -53,9 +54,9 @@ Service
 
 </td><td>
 
-Business service that the problem applies to.If you select a business service as the configuration item and that business service is also listed as the configuration item in any other active task, the active tasks icon \(![other active tasks](../../change-management/image/other-active-task.png)\) appears. Click the icon to view the list of all the other active tasks that are affecting the business service.
+Business service that the problem applies to.If you select a business service as the configuration item and that business service is also listed as the configuration item in any other active task, the active tasks icon \(\[Omitted image "other-active-task.png"\] Alt text: other active tasks\) appears. Click the icon to view the list of all the other active tasks that are affecting the business service.
 
- You can view the BSM map \(dependency view\) of the selected business service by clicking the dependency icon ![dependency map icon](../../change-management/image/dependency-icon.png).
+ You can view the BSM map \(dependency view\) of the selected business service by clicking the dependency icon \[Omitted image "dependency-icon.png"\] Alt text: dependency map icon.
 
 </td></tr><tr><td>
 
@@ -299,5 +300,5 @@ Fix
 Read-only field. The date and time when the user started the fix.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference section for Problem Management](../concept/reference-section-for-problem-management.md)
+</table>**Parent Topic:**[Reference section for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/reference-section-for-problem-management.md)
 

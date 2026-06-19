@@ -2,6 +2,7 @@
 title: Components installed with Document Template integration with Docusign
 description: Several types of components are installed with activation of the Document Template Integration with DocuSign \[sn\_dt\_docusign\] plugin, including user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/installed-with-signdocu.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

@@ -2,6 +2,7 @@
 title: Work item automations in CWM
 description: Boost team efficiency by automating monotonous actions such as sending notifications and emails, monitoring key dates, or reassigning tasks based on the conditions that suit the team's workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/implementing-automations-in-collaborative-work-management.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -27,7 +28,7 @@ Automations in CWM are actions that are triggered when certain conditions are me
 
 Six predefined templates are provided in the application to help you build multiple simple or complex conditions and automate actions for your work items.
 
-![Predefined automation templates in CWM.](../images/cwm-automations-templates.jpg)
+\[Omitted image "cwm-automations-templates.jpg"\] Alt text: Predefined automation templates in CWM.
 
 Based on the changing conditions of your team's workflow, you can edit, disable, or delete automations anytime later. For a Board, a maximum of 10 automations can be created, which includes all the active and inactive ones.
 
@@ -37,14 +38,14 @@ Going forward, when the priority of any item of this Board changes to High, a no
 
 **Note:** You can also send notifications to any user if you've added a custom people column in addition to the default Assigned to or Additional Assignee.
 
-![New automation in CWM Board.](../images/cwm-add-automation.jpg)
+\[Omitted image "cwm-add-automation.jpg"\] Alt text: New automation in CWM Board.
 
-Get started with automations in CWM. See [Create automations in CWM](../task/create-and-manage-automations-in-cwm.md).
+Get started with automations in CWM. See [Create automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-and-manage-automations-in-cwm.md).
 
--   **[Create automations in CWM](../task/create-and-manage-automations-in-cwm.md)**  
+-   **[Create automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-and-manage-automations-in-cwm.md)**  
 Add conditions to build task automations for CWM Boards and help your team save time from manual task updates.
--   **[Manage or delete automations in CWM](../task/manage-or-delete-automations-in-cwm.md)**  
+-   **[Manage or delete automations in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/manage-or-delete-automations-in-cwm.md)**  
 Edit, disable, or delete automations for your Boards in Collaborative Work Management based on the changing conditions of your team's workflow.
 
-**Parent Topic:**[Using Collaborative Work Management](using-collaborative-work-management.md)
+**Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 

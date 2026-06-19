@@ -2,6 +2,7 @@
 title: Stream Connect Message Replication
 description: Replicate data between your Apache Kafka environment and ServiceNow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/stream-connect-message-replication.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -21,7 +22,7 @@ Stream Connect Message Replication uses a MID Server or MID Server cluster to ru
 
 ## Enabling a MID Server to replicate data
 
-Stream Connect Message Replication uses a MID Server with a replicator extension to replicate data to and from your local Kafka. For instructions on how to configure the MID Server, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md).
+Stream Connect Message Replication uses a MID Server with a replicator extension to replicate data to and from your local Kafka. For instructions on how to configure the MID Server, see .
 
 The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
 
@@ -29,13 +30,15 @@ The MID Server must be able to access Hermes endpoints through the firewall. Wor
 -   Consumer1: 4100–4150
 -   Consumer2: 4200–4250
 
+**Note:** Proxy settings on the MID Server don't apply to Hermes connectivity. The MID Server proxy configuration applies only to HTTP-based communication. Hermes uses Kafka-native TCP connections, so traffic to the Hermes cluster bypasses proxy settings regardless of how the MID Server is configured.
+
 ## Using a MID Server cluster
 
 You can use a MID Server cluster, instead of a single MID Server, for message replication. With a MID Server cluster, if one of the MID Servers in the cluster fails, the other MID Servers can share the load of the failed MID Server.
 
 In a MID Server cluster, the topic partitions are distributed across all the available MID Servers in the cluster. If a MID Server becomes unavailable, the partitions are redistributed on the remaining MID Servers. If an additional MID Server becomes available in the cluster, then the partitions are distributed across the MID Servers again.
 
-For details on setting up a MID Server cluster, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
+For details on setting up a MID Server cluster, see .
 
 **Note:** The MID Server cluster must have the **Load Balance** cluster type. The **Failover** cluster type is not supported.
 
@@ -43,9 +46,9 @@ For details on setting up a MID Server cluster, see [Configure a MID Server clus
 
 Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. To configure a Connection &amp; Credential alias:
 
-1.  [Create Kafka credentials](../tasks/create-kafka-ssl-credentials.md) with the authentication data required for the connection.
-2.  [Configure a Kafka connection](../tasks/configure-kafka-connection.md) to connect to your Kafka environment.
-3.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md), to associate the connection information and credential data. The Connection &amp; Credential alias should have a **Connection type** of **Kafka** and must be accessible from the MID Server.
+1.  [Create Kafka credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-kafka-ssl-credentials.md) with the authentication data required for the connection.
+2.  [Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-kafka-connection.md) to connect to your Kafka environment.
+3.  , to associate the connection information and credential data. The Connection &amp; Credential alias should have a **Connection type** of **Kafka** and must be accessible from the MID Server.
 
 These steps are for configuring a Connection &amp; Credential alias for connecting to Kafka. You don't need to set up connections or credentials for connecting to Hermes, because the MID Server automatically handles the creation of the required keystore, truststore, and certificates.
 
@@ -57,7 +60,7 @@ A Message Replication record represents a single Kafka cluster. For example, if 
 
 A Kafka Topic Replication record specifies the replication from a single source topic to a single destination topic. You can't replicate a single source topic to multiple destinations. You can only replicate to each destination once. Kafka Topic Replication records are stored in the Kafka Topic Replications \[sys\_kafka\_topic\_replication\] table.
 
-For a step-by-step guide to creating message and topic replication records, see [Create message and Kafka topic replications in Stream Connect](../tasks/configure-message-topic-reps-sc.md).
+For a step-by-step guide to creating message and topic replication records, see [Create message and Kafka topic replications in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md).
 
 ## Viewing message replication statistics
 
@@ -65,7 +68,7 @@ Once replications are running, the system creates a metrics record for each acti
 
 You can view metrics records on the Message Replication Statistics \[sys\_sc\_channel\_replication\_metric\] table. You can also view metrics records for a particular topic by checking the Message Replication Statistics on its Kafka Topic Replication record.
 
-For a list of message replication metrics and their descriptions, see [Viewing Stream Connect Message Replication statistics](../reference/stream-connect-message-rep-stats.md).
+For a list of message replication metrics and their descriptions, see [Viewing Stream Connect Message Replication statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-rep-stats.md).
 
 ## Required plugin
 
@@ -81,14 +84,14 @@ The message\_replication\_user role can view records in the message replication 
 
 Most issues are logged in the MID Server log. Additional debug logging can be enabled by setting the **glide.stream\_connect.message\_replication.debug** MID Server property to **true**.
 
--   **[Create message and Kafka topic replications in Stream Connect](../tasks/configure-message-topic-reps-sc.md)**  
+-   **[Create message and Kafka topic replications in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-message-topic-reps-sc.md)**  
 Set up message and topic replications to replicate data between your Apache Kafka environment and ServiceNow.
--   **[Create Kafka credentials](../tasks/create-kafka-ssl-credentials.md)**  
+-   **[Create Kafka credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-kafka-ssl-credentials.md)**  
 Configure credentials for your Apache Kafka connection.
--   **[Configure a Kafka connection](../tasks/configure-kafka-connection.md)**  
+-   **[Configure a Kafka connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-kafka-connection.md)**  
 Configure a connection to your Apache Kafka environment.
--   **[Viewing Stream Connect Message Replication statistics](../reference/stream-connect-message-rep-stats.md)**  
+-   **[Viewing Stream Connect Message Replication statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-message-rep-stats.md)**  
 When message replications are running, the system creates a metrics record for each active topic replication every 60 seconds. Metrics records provide information about topic replications. You can view metrics records on the Message Replication Statistics \[sys\_sc\_channel\_replication\_metric\] table. You can also view metrics records for a topic by checking the Message Replication Statistics on its Kafka Topic Replication record.
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

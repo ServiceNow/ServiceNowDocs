@@ -2,6 +2,7 @@
 title: Enable and configure AI Search in Legal Service Portal
 description: The ServiceNow AI Search application provides a modern consumer-grade search engine for the Legal Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/configure-ai-search-lsd.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -43,14 +44,14 @@ Role required: admin
 
     4.  In the **Search Application** field, select **Legal Service Portal Default Search Application**.
 
-        A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can change it as needed. For more information on defining a search application configuration, see [Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-app-cfgs-ais.md).
+        A search application configuration defines search experience settings, such as the search engine, search results limit, and suggestions limit. A search application configuration is selected by default, but you can change it as needed. For more information on defining a search application configuration, see Search application configurations.
 
     5.  In the **Search Results Configuration** field, select **Legal Portal Search**.
 
-        A search results configuration defines how search results are displayed. A search results configuration is selected by default, but you can change it as needed. For more information on defining a search results configuration, see [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md).
+        A search results configuration defines how search results are displayed. A search results configuration is selected by default, but you can change it as needed. For more information on defining a search results configuration, see Create an EVAM definition.
 
     6.  Click **Update**.
 
 
-**Parent Topic:**[Configuring Legal Request Management](../concept/legal-ops-administration.md)
+**Parent Topic:**[Configuring Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-ops-administration.md)
 

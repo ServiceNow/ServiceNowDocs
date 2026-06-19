@@ -2,6 +2,7 @@
 title: Edge Encryption system requirements
 description: You can run the Edge Encryption proxy application on servers or virtual machines that run on Microsoft Windows or Linux operating systems. For optimum performance, ensure that your configuration meets these requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/r\_CloudEdgeSystemRequirements.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -38,7 +39,7 @@ A proxy server requires this minimum configuration:
     Because the proxy server requires at least 4 GB of memory, 32-bit JREs and 32-bit operating systems are no longer supported starting with the London release.
 
 -   3 or more GHz CPU \(4-core CPU preferred for optimum performance\).
--   Multiple proxy servers behind a load balancer. The number of proxy servers you need depends on the number of application nodes, the number of simultaneous users, and the number of servers needed for failover. See [Sizing your Edge Encryption environment](../concept/edge-environment-size.md) for more information.
+-   Multiple proxy servers behind a load balancer. The number of proxy servers you need depends on the number of application nodes, the number of simultaneous users, and the number of servers needed for failover. See [Sizing your Edge Encryption environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-environment-size.md) for more information.
 -   Ability to run concurrently with other services, depending on the server utilization and resource availability.
 
 ## Proxy server supported systems
@@ -149,7 +150,7 @@ Size
 
 </td><td>
 
-Determined by the number of potential records multiplied by the record size. See [Calculate the order-preserving and tokenization database size](../task/size-db.md).
+Determined by the number of potential records multiplied by the record size. See [Calculate the order-preserving and tokenization database size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/size-db.md).
 
 </td></tr><tr><td>
 
@@ -160,5 +161,5 @@ Configuration
 High availability cluster. If you are unsure of how to configure your MySQL server, contact [MySQL](https://www.mysql.com/) for configuration information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Planning for Edge Encryption](../concept/c_EdgeEncryptionPlanning.md)
+</table>**Parent Topic:**[Planning for Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EdgeEncryptionPlanning.md)
 

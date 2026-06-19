@@ -2,6 +2,7 @@
 title: Troubleshooting Benchmarks errors
 description: Troubleshoot and resolve common errors when setting up or running Benchmarks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c\_BenchTroubleshooting.html
 release: australia
 product: Benchmarks
 classification: benchmarks
@@ -123,5 +124,5 @@ Top Performer score shows N/A if the minimum historical data scores for KPIs are
 Make sure that a minimum of one to two months of aggregate monthly historical data for a KPI is available. The recommended time interval is 60 days.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Benchmarks](../reference/r_Benchmarks.md)
+</table>**Parent Topic:**[Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/benchmarks/r_Benchmarks.md)
 

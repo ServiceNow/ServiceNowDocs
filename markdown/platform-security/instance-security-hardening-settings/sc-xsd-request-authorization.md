@@ -2,6 +2,7 @@
 title: Require Authorization for XSD Requests
 description: Use the glide.basicauth.required.xsd property to designate if incoming XSD \(XML Schema Definition\) requests should require basic authentication.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-xsd-request-authorization.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[API and web service](sc-api-web-service.md)
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 
 </td></tr><tr><td>
 
@@ -106,7 +107,7 @@ Functional impact
 This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while retrieving data from tables/pages in the form of XSD data on the instance.
 -   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
 
- To learn more, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md).
+ To learn more, see Non-interactive sessions.
 
 </td></tr><tr><td>
 
@@ -117,5 +118,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API and web service](sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

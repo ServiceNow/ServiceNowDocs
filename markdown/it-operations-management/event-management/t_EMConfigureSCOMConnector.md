@@ -2,6 +2,7 @@
 title: Configure the SCOM connector instance
 description: Configure the Microsoft System Center Operations Manager \(SCOM\) connector instance to receive alerts and Metric Intelligence raw data from the SCOM server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMConfigureSCOMConnector.html
 release: australia
 product: Event Management
 classification: event-management
@@ -17,7 +18,7 @@ Configure the Microsoft System Center Operations Manager \(SCOM\) connector inst
 
 ## Before you begin
 
-To activate **Metric Collection**, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](configure-itoa-metric-extension.md).
+To activate **Metric Collection**, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/configure-itoa-metric-extension.md).
 
 Windows authentication is used by the connector to access the SCOM database \(OperationsManagerDW\). Therefore, if **Metric Collection** is selected and the **Database login with Windows authentication** option is also selected, ensure that the MID Server service runs with a user having read access to the SCOM database. Ensure that the correct credentials are used:
 
@@ -68,15 +69,15 @@ Supported versions:
 
 1.  On the SCOM server, download the following files to a local computer.
 
-<table id="choicetable_rnt_dzq_dt"><thead><tr><th align="left" id="d397723e305">
+<table id="choicetable_rnt_dzq_dt"><thead><tr><th align="left" id="d139240e305">
 
 Version
 
-</th><th align="left" id="d397723e308">
+</th><th align="left" id="d139240e308">
 
 SCOM path and library names
 
-</th></tr></thead><tbody><tr><td id="d397723e314">
+</th></tr></thead><tbody><tr><td id="d139240e314">
 
 **SCOM 2012R2 or SCOM 2012**
 
@@ -87,7 +88,7 @@ SCOM path and library names
 -   `Microsoft.EnterpriseManagement.Runtime.dll`
 
 
-</td></tr><tr><td id="d397723e342">
+</td></tr><tr><td id="d139240e342">
 
 **SCOM 2007**
 
@@ -97,7 +98,7 @@ SCOM path and library names
 -   `Microsoft.EnterpriseManagement.OperationsManager.dll`
  **Note:** Do not append 2007 to the `Microsoft.EnterpriseManagement.OperationsManager.Common.dll` file.
 
-</td></tr><tr><td id="d397723e371">
+</td></tr><tr><td id="d139240e371">
 
 **SCOM 2016**
 
@@ -108,7 +109,7 @@ SCOM path and library names
 -   `Microsoft.EnterpriseManagement.Runtime.dll`
  **Note:** The MID Server must be installed with .NET 4.6 or higher.
 
-</td></tr><tr><td id="d397723e405">
+</td></tr><tr><td id="d139240e405">
 
 **SCOM 2019**
 
@@ -119,7 +120,7 @@ SCOM path and library names
 -   `Microsoft.EnterpriseManagement.Runtime.dll`
  **Note:** The MID Server must be installed with .NET 4.6 or higher.
 
-</td></tr><tr><td id="d397723e440">
+</td></tr><tr><td id="d139240e440">
 
 **SCOM 2022**
 
@@ -130,7 +131,7 @@ SCOM path and library names
 -   `Microsoft.EnterpriseManagement.Runtime.dll`
  **Note:** The MID Server must be installed with .NET 4.6 or higher.
 
-</td></tr><tr><td id="d397723e471">
+</td></tr><tr><td id="d139240e471">
 
 **SCOM 2025**
 
@@ -171,7 +172,7 @@ SCOM path and library names
 
 6.  Click **New** and create a new connector instance.
 
-    For details on the connector instance fields displayed on the page, see [SCOM connector instance form](../reference/scom-connector-instance-form.md).
+    For details on the connector instance fields displayed on the page, see [SCOM connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/scom-connector-instance-form.md).
 
 7.  Select and hold \(or right-click\) the form header and select **Save**.
 
@@ -239,5 +240,5 @@ These scenarios describe the default bi-directional functionality for SCOM conne
 -   When an alert is manually closed in ServiceNow, it is auto-closed in SCOM. If the alert state is changed to **Reopen**, SCOM is also updated.
 -   When an incident is created and associated to an alert in ServiceNow, SCOM receives the incident number as a ticket ID. However, the state of the incident is not available on SCOM. Therefore when the incident is resolved in ServiceNow, SCOM is not updated as the incident number remains the same. When the alert is associated with a new incident, the new incident number is updated in SCOM.
 
-**Parent Topic:**[Configure alert collection from SCOM](t_EMConfigureSCOMConnectorInstance.md)
+**Parent Topic:**[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)
 

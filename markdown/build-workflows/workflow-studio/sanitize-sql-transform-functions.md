@@ -2,6 +2,7 @@
 title: Sanitize SQL transform functions
 description: Use sanitize SQL transform functions to escape special characters and prevent injection in String data pills to be used for SQL statements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/sanitize-sql-transform-functions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -15,9 +16,9 @@ breadcrumb: [Transform functions, Flows, subflows, and actions reference, Flows,
 
 Use sanitize SQL transform functions to escape special characters and prevent injection in String data pills to be used for SQL statements.
 
-Sanitize SQL transform functions require a String input data pill. Make sure to use the correct input [data pill type](action-inputs-outputs.md) when applying sanitize SQL transform functions. If a sanitize SQL transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](../task/flow-test.md).
+Sanitize SQL transform functions require a String input data pill. Make sure to use the correct input [data pill type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md) when applying sanitize SQL transform functions. If a sanitize SQL transform function is applied to an improper data type, the data is not transformed at runtime and the input value is returned instead. For more information on confirming your flow runtime values, see [Test a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-test.md).
 
-**Note:** When a data pill is dropped into the **SQL Statement** input for a [JDBC step](jdbc-step.md), the sanitize SQL transform function category automatically appears.
+**Note:** When a data pill is dropped into the **SQL Statement** input for a [JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/jdbc-step.md), the sanitize SQL transform function category automatically appears.
 
 ## Sanitize SQL Identifier
 
@@ -50,5 +51,5 @@ Returns a String with escaped special characters or injected values for SQL valu
 
 **Note:** Don't enclose the input data pill in quotes. The system automatically wraps the input value with the type of quotes or backticks that apply to your database type.
 
-**Parent Topic:**[Transform functions](../concept/transform-functions.md)
+**Parent Topic:**[Transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/transform-functions.md)
 

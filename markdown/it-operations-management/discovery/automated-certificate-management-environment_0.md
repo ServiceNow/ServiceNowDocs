@@ -2,6 +2,7 @@
 title: Automated Certificate Management Environment
 description: Automated Certificate Management Environment \(ACME\) is a protocol for automating the management of SSL/TLS certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/automated-certificate-management-environment\_0.html
 release: australia
 product: Discovery
 classification: discovery
@@ -19,15 +20,15 @@ Automated Certificate Management Environment \(ACME\) is a protocol for automati
 
 <table id="table_olw_zcr_2bc" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about ACME and its benefits.](../concept/exploring-acme.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ACME and its benefits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/exploring-acme.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set-up and configure ACME.](../concept/configuring-acme.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set-up and configure ACME.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/configuring-acme.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-gender-neutral-leader-c-suite.svg)Use ACME to automate the interaction between a certificate authority and a server.](../concept/using-acme.md)
+[Use\[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text:Use ACME to automate the interaction between a certificate authority and a server.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/using-acme.md)
 
 </td></tr></tbody>
 </table>

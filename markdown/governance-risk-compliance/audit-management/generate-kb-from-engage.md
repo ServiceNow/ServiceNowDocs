@@ -2,6 +2,7 @@
 title: Generate a KB article from an engagement
 description: Audit managers can generate a KB article that summarizes the findings of an engagement so report findings can be communicated to executives.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/generate-kb-from-engage.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -37,5 +38,5 @@ KB articles can be generated for engagements in the **Awaiting approval**, **Fol
 4.  Click **Generate report**.
 
 
-**Parent Topic:**[Manage engagements](../concept/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
 

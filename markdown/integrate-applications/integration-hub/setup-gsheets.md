@@ -2,6 +2,7 @@
 title: Set up the Google Sheet spoke
 description: Set up an outbound integration between your ServiceNow instance and the Google Sheets by setting up a connection and credential record.Set up an OAuth application on the Google Sheets API to enable authentication of requests from your ServiceNow instance.Create a connection and credential record that contains the details required to connect to the Google Sheets Application Programming Interfaces \(API\) on the Google Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gsheets.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -23,7 +24,7 @@ Set up an outbound integration between your ServiceNow instance and the Google S
 
 ## About this task
 
-The Google Sheets API authenticates the requests from your ServiceNow instance through an OAuth application. You must [Set up OAuth app on Google Sheets API](setup-gsheets.md#) by visiting the [https://console.developers.google.com/](https://console.developers.google.com/). The connection and credentials record contains the information the Google Sheets API must authenticate the requests from your ServiceNow instance.
+The Google Sheets API authenticates the requests from your ServiceNow instance through an OAuth application. You must [Set up OAuth app on Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gsheets.md) by visiting the [https://console.developers.google.com/](https://console.developers.google.com/). The connection and credentials record contains the information the Google Sheets API must authenticate the requests from your ServiceNow instance.
 
 ## Set up OAuth app on Google Sheets API
 
@@ -48,11 +49,11 @@ Set up an OAuth application on the Google Sheets API to enable authentication of
 
     2.  Select the button.
 
-        ![Project creation button on Google Workspace.](../image/google-calendar-spokes-click-create-project.png)
+        \[Omitted image "google-calendar-spokes-click-create-project.png"\] Alt text: Project creation button on Google Workspace.
 
     3.  Select **NEW PROJECT**.
 
-        ![Click New Project button on Google Workspace.](../image/google-calendar-spoke-create-project.png)
+        \[Omitted image "google-calendar-spoke-create-project.png"\] Alt text: Click New Project button on Google Workspace.
 
     4.  In the Project name\* field, enter a unique name for the project.
 
@@ -64,17 +65,17 @@ Set up an OAuth application on the Google Sheets API to enable authentication of
 
     7.  Select the button.
 
-        ![Select the project.](../image/google-calendar-spokes-click-create-project.png)
+        \[Omitted image "google-calendar-spokes-click-create-project.png"\] Alt text: Select the project.
 
 2.  Select the project that you created.
 
-    ![Project selection on Google Sheets API.](../image/gsheets-select-project.png)
+    \[Omitted image "gsheets-select-project.png"\] Alt text: Project selection on Google Sheets API.
 
 3.  Enable the Google Sheets API.
 
     1.  Click **+ENABLE APIS AND SERVICES**.
 
-        ![Google Sheets API Enable APIs and Services button.](../image/gsheets-enable-apis.png)
+        \[Omitted image "gsheets-enable-apis.png"\] Alt text: Google Sheets API Enable APIs and Services button.
 
     2.  On the Welcome to the API Library page, enter `Google Sheets` in the search box.
 
@@ -90,7 +91,7 @@ Set up an OAuth application on the Google Sheets API to enable authentication of
 
     1.  Select **CREATE CREDENTIALS**.
 
-        ![Click Credentials button for Google Sheets API.](../image/google-sheets-create-creds.png)
+        \[Omitted image "google-sheets-create-creds.png"\] Alt text: Click Credentials button for Google Sheets API.
 
     2.  Fill the form.
 
@@ -140,7 +141,7 @@ Type of data your ServiceNow will access through the APIs.**Tip:** Select User d
 
     2.  Enter `Google sheets API`, as shown in the image.
 
-        ![Search Google Sheets in the scopes.](../image/google-sheets-search-scopes.png)
+        \[Omitted image "google-sheets-search-scopes.png"\] Alt text: Search Google Sheets in the scopes.
 
     3.  Select one or more scopes.
 
@@ -164,7 +165,7 @@ Type of data your ServiceNow will access through the APIs.**Tip:** Select User d
 
     **Tip:** Click DOWNLOAD to download the JSON file for later reference.
 
-    ![Download button to download OAuth credentials file.](../image/google-sheets-download-json.png)
+    \[Omitted image "google-sheets-download-json.png"\] Alt text: Download button to download OAuth credentials file.
 
 10. Click **DONE**.
 
@@ -177,7 +178,7 @@ Create a connection and credential record that contains the details required to 
 
 ### Before you begin
 
--   Create an OAuth application for the Google Sheets APIs in the Google Workspace. To learn how to create an OAuth application, see [Set up OAuth app on Google Sheets API](setup-gsheets.md#).
+-   Create an OAuth application for the Google Sheets APIs in the Google Workspace. To learn how to create an OAuth application, see [Set up OAuth app on Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gsheets.md).
 -   Role required: admin
 
 ### Procedure
@@ -186,11 +187,11 @@ Create a connection and credential record that contains the details required to 
 
 2.  Click Connections.
 
-3.  In the Search all connections field, enter `Google sheets`.![Search Google Sheets alias on Flow Designer alias.](../image/google-sheets-search-conn.png)
+3.  In the Search all connections field, enter `Google sheets`.\[Omitted image "google-sheets-search-conn.png"\] Alt text: Search Google Sheets alias on Flow Designer alias.
 
 4.  On the GoogleSheets card, click **View Details**.
 
-5.  Click **Configure**, as shown in the image.![Configure button on Google Sheets alias.](../image/google-sheets-click-configure.png)
+5.  Click **Configure**, as shown in the image.\[Omitted image "google-sheets-click-configure.png"\] Alt text: Configure button on Google Sheets alias.
 
 6.  Fill the form.
 

@@ -2,6 +2,7 @@
 title: Run fix script to view demo data on Kanban board
 description: To view automation requests from the demo data in your Kanban board, you must run the fix script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/run-fix-scripts.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -30,5 +31,5 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
     You can run the fix script in the background or just proceed. After the fix script is run, you can view the demo data automation requests in the Kanban board.
 
 
-**Parent Topic:**[Manage automation requests](manage-req-board.md)
+**Parent Topic:**[Manage automation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/manage-req-board.md)
 

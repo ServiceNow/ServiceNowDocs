@@ -2,6 +2,7 @@
 title: Labor unions
 description: Use Labor Unions to define the details about unions within your company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/labor-unions.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -23,10 +24,8 @@ Defining a union includes:
 -   Identifying union contacts
 -   Setting up employee union members so you can track and automate workflows and target content relevant to union representation
 
--   **[Setting up labor unions](labor-unions-setting-up.md)**  
-Set up HR Service Delivery labor unions to define information about the labor unions you support. You can associate an employee membership to a specific union and union chapter.
--   **[Using Labor Unions](labor-unions-using.md)**  
-After a labor union has been set up, you can associate employees with a labor union.
+-   **[Components installed with Labor Unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)**  
+Tables and roles related to the Labor Unions module.
 
-**Parent Topic:**[HR Administration](c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

@@ -2,6 +2,7 @@
 title: Install Scenario Planning for PPM
 description: Install the Scenario Planning for PPM application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-management/install-scenario-planning.html
 release: australia
 product: Portfolio Management
 classification: portfolio-management
@@ -13,7 +14,7 @@ breadcrumb: [Scenario Planning for PPM, Portfolio Management, Project Portfolio 
 
 # Install Scenario Planning for PPM
 
-Install the Scenario Planning for PPM application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install the Scenario Planning for PPM application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -48,7 +49,7 @@ Navigate to **Subscription Management** &gt; **Subscriptions** in your instance.
 
 ## About this task
 
-Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) in your ServiceNow instance before you install Scenario Planning for PPM. For more information see, [Activate PPM Standard \(Project Portfolio Management\)](../../project-portfolio-suite-with-financials/task/t_ActivateProjectPortfolioSuiteWithFinancials.md).
+Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) in your ServiceNow instance before you install Scenario Planning for PPM. For more information see, [Activate PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/t_ActivateProjectPortfolioSuiteWithFinancials.md).
 
 ## Procedure
 
@@ -58,7 +59,7 @@ Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) in your Se
 
     You can search for the application by its name \(Scenario Planning for PPM\) or ID \(sn\_pw\_scenario\). If you cannot find an application, you may have to request it from ServiceNow store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Click **Install**.
 
@@ -75,13 +76,13 @@ Activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\) in your Se
 6.  Click **Install**.
 
 
--   **[Components installed with Scenario Planning for PPM](../reference/installed-with-scenario-planning.md)**  
+-   **[Components installed with Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/installed-with-scenario-planning.md)**  
 Several types of components are installed with the installation of the Scenario Planning for PPM application, including tables and demo data.
 
-**Parent Topic:**[Scenario Planning for PPM](../concept/portfolio-planning-overview.md)
+**Parent Topic:**[Scenario Planning for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-management/portfolio-planning-overview.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

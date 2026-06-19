@@ -2,11 +2,12 @@
 title: Configure the Nagios metrics connector instance
 description: Configure the Nagios metric connector instance to receive Metric Intelligence raw data from the Nagios server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-nagios-metrics-connector.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -17,7 +18,7 @@ Configure the Nagios metric connector instance to receive Metric Intelligence ra
 
 ## Before you begin
 
-To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](configure-itoa-metric-extension.md).
+To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/configure-itoa-metric-extension.md).
 
 -   Create basic authentication credentials on ServiceNow instance with Nagios SQL database username and password.
 -   ServiceNow does not support discovery for Nagios. Therefore, create the CI entry manually in the respective table using the hostname configured on the Nagios platform.
@@ -39,7 +40,7 @@ If you are running any other checks on HTTP endpoints or MySQL, you can edit the
 
 2.  Select **New** and create a connector instance.
 
-    For details on the connector instance fields displayed on the page, see [Nagios connector instance form](../reference/nagios-connector-instance-form.md).
+    For details on the connector instance fields displayed on the page, see [Nagios connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/nagios-connector-instance-form.md).
 
 3.  Select and hold \(or right-click\) the form header and select **Save**.
 
@@ -47,7 +48,7 @@ If you are running any other checks on HTTP endpoints or MySQL, you can edit the
 
 4.  In the Connector Instance Values section, you can edit the values of the mandatory Nagios parameters.
 
-    For details on the connector instance value parameters, see [Nagios connector instance value parameters](../reference/nagios-connector-instance-value-parameters.md).
+    For details on the connector instance value parameters, see [Nagios connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/nagios-connector-instance-value-parameters.md).
 
 5.  In the MID Servers for Connectors section, add a MID Server for the Nagios connector to use.
 
@@ -55,12 +56,12 @@ If you are running any other checks on HTTP endpoints or MySQL, you can edit the
 
 7.  Create an event rule to perform CI binding, as needed.
 
-    For details, see [Create or edit an event rule](create-or-edit-event-rule.md).
+    For details, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md).
 
 8.  Select **Test Connector** to verify the connection between the MID Server and the connector.
 
 9.  After a successful test, select the **Active** check box and then select **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

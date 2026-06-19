@@ -2,6 +2,7 @@
 title: Modify the re-approval trigger
 description: Modify which fields can trigger an approval request if it is updated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/modify-approval-trigger.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -34,5 +35,5 @@ Role required: admin
     -   Preferred level of seniority
     -   Number of headcount
 
-**Parent Topic:**[Configuring Recruitment Workspace](../concept/config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
 

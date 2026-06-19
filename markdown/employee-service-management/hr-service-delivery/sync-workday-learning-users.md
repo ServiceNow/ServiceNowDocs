@@ -2,6 +2,7 @@
 title: Synchronize workday learning users
 description: Pull user profile data from Workday Learning into ServiceNow. View user profile details from Workday in ServiceNow HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/sync-workday-learning-users.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

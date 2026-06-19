@@ -2,6 +2,7 @@
 title: HR criteria
 description: HR criteria defines the audience for HR content, services, or cases. You can make information available to or create an HR case for specific groups, individuals, or to all employees using HR criteria.Create or modify HR criteria to define an audience for HR content, services, or cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-criteria.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,13 +16,13 @@ breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Ser
 
 HR criteria defines the audience for HR content, services, or cases. You can make information available to or create an HR case for specific groups, individuals, or to all employees using HR criteria.
 
-HR criteria uses the standard platform condition builder to support complex conditions for controlling the Employee Center content that employees see when logged in. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+HR criteria uses the standard platform condition builder to support complex conditions for controlling the Employee Center content that employees see when logged in. For more information, see Condition builder.
 
 HR criteria contains a script include that can be called from an advanced User criteria.
 
 **Note:** Complex conditional statements for scripted User criteria applied to a knowledge base with large amounts of documents can cause performance issues. Standard \(non-scripted\) User criteria is recommended for securing knowledge documents.
 
-See [User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md).
+See User criteria for Service Portal.
 
 HR criteria define conditions that are evaluated against HR tables. Once HR criteria is defined, you can filter what is available to those users.
 
@@ -45,9 +46,9 @@ If you use HR criteria for Knowledge and Service catalog access, ensure:
 -   Conditions that can cause performance issues \(starts with\) are not used.
 -   Knowledge document searches and use cases are performance tested with instances that are similar to what is used in production.
 
-When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
-**Parent Topic:**[HR Administration](c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
 ## Configure an HR criteria record
 
@@ -57,7 +58,7 @@ Create or modify HR criteria to define an audience for HR content, services, or 
 
 Role required: sn\_hr\_core.admin
 
-HR criteria uses the standard condition builder. For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+HR criteria uses the standard condition builder. For more information, see Condition builder.
 
 ### Procedure
 
@@ -181,13 +182,13 @@ This condition selects all employees who have a home country of the United State
 
  You can define multiple conditions for an HR criteria using the **And** **Or** condition filters. When using **And** each condition must be met. When using **Or** any condition that is met is used.
 
- For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+ For more information, see Condition builder.
 
  **Note:** When you use multiple conditions, only the records that match all of the conditions are used.
 
- When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+ When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
-**Note:** For more information, see [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Filters.md).
+**Note:** For more information, see Filters.
 
 </td></tr></tbody>
 </table>        For example, to create a condition to show the link for new hires and contractors, select:

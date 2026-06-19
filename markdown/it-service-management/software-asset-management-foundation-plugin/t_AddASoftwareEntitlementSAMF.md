@@ -2,11 +2,12 @@
 title: Create a SAM Foundation entitlement
 description: Software entitlements enable you to define license details that are matched to software models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_AddASoftwareEntitlementSAMF.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 5
 breadcrumb: [Configuring the classic Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
@@ -23,7 +24,7 @@ Role required: sam\_user
 
 Software entitlements are stored in the Software Entitlement \[alm\_license\] table.
 
-**Note:** Entitlements are assigned to [Create a SAM Foundation software model](t_AddASoftwareModelSAMF.md), which are different than software discovery models.
+**Note:** Entitlements are assigned to [Create a SAM Foundation software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareModelSAMF.md), which are different than software discovery models.
 
 ## Procedure
 
@@ -100,7 +101,7 @@ Metric group
 </td><td>
 
 Select the metric group for the software. Each metric group has a set of license metrics that are specific to the publisher. -   Common
--   [Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/add-custom-license-metric.md)
+-   Add a custom license metric
 
 
 </td></tr><tr><td>
@@ -118,7 +119,7 @@ Select the license metric for the license group that the software license is cou
     -   Per User: Licenses a user for a number of installations of software.
 -   Custom:
 
-[Custom license metrics](add-custom-license-metric-samf.md) configured, if any.
+[Custom license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.md) configured, if any.
 
 </td></tr><tr><td>
 
@@ -224,7 +225,7 @@ Cost
 
 </td><td>
 
-Cost of the software. **Note:** Required for total cost and savings calculations on the [Software Asset Management Foundation dashboard](../concept/c_SAMDashboardSAMF.md).
+Cost of the software. **Note:** Required for total cost and savings calculations on the [Software Asset Management Foundation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/c_SAMDashboardSAMF.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -253,7 +254,7 @@ Number of rights to upgrade.
 </td></tr></tbody>
 </table>    The Contracts related list contains contract details.
 
-    The User or Device Allocations related list contains entitlement [allocations](t_AddAnEntitlementAllocationSAMF.md).
+    The User or Device Allocations related list contains entitlement [allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddAnEntitlementAllocationSAMF.md).
 
     **Note:** This related list is only shown when the **License Metric** field is Per User or Per Device.
 
@@ -273,7 +274,7 @@ Number of rights to upgrade.
         |Start date|Start date of the upgrade/downgrade.|
         |End date|End date of the upgrade/downgrade.|
 
-    2.  To set up cost-tracking details, configure [Expense Lines](../../asset-and-configuration/concept/c_ExpenseLine.md).
+    2.  To set up cost-tracking details, configure [Expense Lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/expense-line/c_ExpenseLine.md).
 
     3.  To manage license keys, in the License Keys related list, create a new record to specify the licenses keys allocated to entitlements \(see table for field descriptions\).
 
@@ -284,8 +285,8 @@ Number of rights to upgrade.
         |Software entitlement|Software entitlement associated with the license key.|
 
 
--   **[Create a SAM Foundation entitlement allocation](t_AddAnEntitlementAllocationSAMF.md)**  
+-   **[Create a SAM Foundation entitlement allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_AddAnEntitlementAllocationSAMF.md)**  
 A user or device allocation can be added to a software entitlement to specify a user or device to which rights have been allocated.
 
-**Parent Topic:**[Configuring the classic Software Asset Management Foundation plugin](../concept/samf-plugin-configuration.md)
+**Parent Topic:**[Configuring the classic Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
 

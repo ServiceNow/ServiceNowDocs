@@ -2,6 +2,7 @@
 title: Edit a PaCE policy script
 description: Edit the PaCE policy script to apply any changes to the policy logic.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-edit-policy-script.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -21,7 +22,7 @@ Role required: sn\_pace.code\_editor
 
 ## About this task
 
-**Important:** For further information about testing your policy script, see [Use the Test Playground for PaCE policies](../concept/pace-use-test-playground.md).
+**Important:** For further information about testing your policy script, see [Use the Test Playground for PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-use-test-playground.md).
 
 ## Procedure
 
@@ -37,7 +38,7 @@ Role required: sn\_pace.code\_editor
 
     The following image shows a sample policy script.
 
-    ![Policy script.](../image/pace-policy-script-2.jpg)
+    \[Omitted image "pace-policy-script-2.jpg"\] Alt text: Policy script.
 
     **Note:** The script is editable for policy versions in Draft state only. For policy versions in Current or Archived state, the script is read-only.
 

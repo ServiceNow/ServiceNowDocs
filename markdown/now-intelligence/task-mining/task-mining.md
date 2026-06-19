@@ -2,6 +2,7 @@
 title: Task Mining
 description: Task Mining helps process owners collect and analyze workstation activities to understand how tasks are performed, identify inefficiencies, and make data-driven decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/task-mining/task-mining.html
 release: australia
 product: Task Mining
 classification: task-mining
@@ -19,19 +20,19 @@ Task Mining helps process owners collect and analyze workstation activities to u
 
 <table id="table_dkk_4ln_hcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Task Mining concepts and features](exploring-task-mining.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Task Mining concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/exploring-task-mining.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn how to set up Task Mining](configuring-task-mining.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to set up Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/configuring-task-mining.md)
 
 </td></tr><tr><td>
 
-[Using![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Learn how to use Task Mining](using-task-mining.md)
+[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn how to use Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/using-task-mining.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about Task Mining key terms and background information](reference-task-mining.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Task Mining key terms and background information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining/reference-task-mining.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

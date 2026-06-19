@@ -2,6 +2,7 @@
 title: Basic OT Change Model playbook
 description: Learn about the Basic Operational Technology \(OT\) Change Model playbook stages that an OT change without approvals must go through until it’s completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-change-management/basic-ot-change-model.html
 release: australia
 product: Operational Technology Change Management
 classification: operational-technology-change-management
@@ -107,5 +108,5 @@ The Close stage lets you close the change record after the change is completed.
 |Close code|Reason that the change record was closed.|
 |Close notes|Additional details about closing the change record.|
 
-**Parent Topic:**[Select a change model to fulfill change requests](../task/select-change-model.md)
+**Parent Topic:**[Select a change model to fulfill change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-change-management/select-change-model.md)
 

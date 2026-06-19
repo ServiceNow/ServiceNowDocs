@@ -2,6 +2,7 @@
 title: Using ACME
 description: Use the Automated Certificate Management Environment \(ACME\) to request, renew, or revoke SSL/TLS certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/using-acme.html
 release: australia
 product: Discovery
 classification: discovery
@@ -28,9 +29,9 @@ ACME comes with two options:
 
 Perform the following tasks to start using ACME:
 
--   [Request new certificate using ACME manual flow of DNS challenge](../task/request-new-certificate-using-acme-automated-flow.md)
--   [Request new certificate using ACME automated flow of DNS challenge](../task/request-new-certificate-using-acme-automated-flow-dns.md)
--   [Renew certificate using ACME manual flow of DNS challenge](../task/renew-certificate-using-acme-automated-flow.md)
--   [Renew certificate using ACME automated flow of DNS challenge](../task/renew-certificate-using-acme-automated-flow-dns.md)
--   [Revoke certificate using ACME automated flow](../task/revoke-certificate-using-acme-automated-flow.md)
+-   [Request new certificate using ACME manual flow of DNS challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/request-new-certificate-using-acme-automated-flow.md)
+-   [Request new certificate using ACME automated flow of DNS challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/request-new-certificate-using-acme-automated-flow-dns.md)
+-   [Renew certificate using ACME manual flow of DNS challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/renew-certificate-using-acme-automated-flow.md)
+-   [Renew certificate using ACME automated flow of DNS challenge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/renew-certificate-using-acme-automated-flow-dns.md)
+-   [Revoke certificate using ACME automated flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/revoke-certificate-using-acme-automated-flow.md)
 

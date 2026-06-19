@@ -2,6 +2,7 @@
 title: Configure Shazzam probe
 description: When you run Discovery, the Shazzam probe finds your active network devices by scanning specified ports on specified IP address ranges. If the list of IP ranges being scanned is large, you can configure the Shazzam payload for JSON encoding to reduce its size.A system property converts Shazzam payloads into JSON strings, which dramatically reduces their size. This setting prevents nodes from running out of memory when a single schedule discovers large numbers of IP ranges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/t\_ConfigureTheShazzamProbe.html
 release: australia
 product: Discovery
 classification: discovery
@@ -23,9 +24,9 @@ Role required: admin
 
 You control the behavior of individual Shazzam probes using basic and advanced parameters.
 
-For instructions on configuring probe parameters, see [Set probe parameters](t_SetProbeParameters.md).
+For instructions on configuring probe parameters, see [Set probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t_SetProbeParameters.md).
 
-**Note:** The Shazzam payload is controlled by the following [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md). These properties do not need to be added to the MID Server. The Shazzam probe will fall back on their default values.
+**Note:** The Shazzam payload is controlled by the following MID Server properties. These properties do not need to be added to the MID Server. The Shazzam probe will fall back on their default values.
 
 -   The **shazzam.chunk\_size** property controls the maximum number of IP addresses Shazzam can scan in parallel.
 -   The **mid.shazzam.regulator.interval\_ms** property sets the interval in which Shazzam can launch packets.
@@ -197,7 +198,7 @@ When **true** and Discovery is running, the certificate\_file field in the cmdb\
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Port probes](../reference/r_PortProbes.md)
+**Parent Topic:**[Port probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PortProbes.md)
 
 ## Control Shazzam payload size
 

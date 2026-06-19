@@ -2,6 +2,7 @@
 title: Managing disputes without network integration
 description: Work on a dispute case to review case information, ensure that any outstanding tasks are completed, and resolve the service request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/work-dispute-case.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -19,14 +20,14 @@ Work on a dispute case to review case information, ensure that any outstanding t
 
 Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
 When a customer requires resolution of a dispute, there are three ways a case is raised:
 
--   A contributor initiates a case on behalf of the customer through the workspace and provides dispute transaction details, triggering a workflow for the transaction. For more information, see [Initiate a dispute](create-case-with-intake-workspace.md#).
--   A customer files a dispute through their financial institution's customer portal. For more information, see [Create a dispute case with Dispute Intake in Portal](../concept/creating-an-onboarding-case-with-dispute-playbook-for-portal.md).
+-   A contributor initiates a case on behalf of the customer through the workspace and provides dispute transaction details, triggering a workflow for the transaction. For more information, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
+-   A customer files a dispute through their financial institution's customer portal. For more information, see [Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md).
 -   As an agent, you can also create a dispute case through the agent workspace as needed.
 
 Once the dispute case is created and assigned to you, you can review the submitted details, make updates as necessary, then submit the case for investigation.
@@ -39,7 +40,7 @@ Work through the activities and tasks required to research and complete the requ
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -82,10 +83,10 @@ Work through the activities and tasks required to research and complete the requ
 
 The tasks update to Closed Complete.
 
--   **[Investigating a dispute](investigate-a-dispute.md)**  
+-   **[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/investigate-a-dispute.md)**  
 Complete tasks such as determining a recovery option, writing off a disputed transaction amount, and provide immediate final credit, notify the merchant, initiate provisional credit, determine reversal of provisional credit, and investigate the transaction.
--   **[Initiating a chargeback](initiate-a-chargeback.md)**  
+-   **[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/initiate-a-chargeback.md)**  
 Complete tasks such as initiating a chargeback, providing credit to a customer, and refunding a merchant.
 
-**Parent Topic:**[Managing Disputes](../concept/managing-disputes.md)
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/managing-disputes.md)
 

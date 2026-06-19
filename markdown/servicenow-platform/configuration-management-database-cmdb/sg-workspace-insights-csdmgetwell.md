@@ -2,6 +2,7 @@
 title: CSDM Data Foundation insights dashboard in Service Graph Workspace
 description: Access the CSDM Data Foundation insights dashboard in Service Graph Workspace to see key CSDM indicators which can help you get the full benefit from your ServiceNow AI Platform products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-csdmgetwell.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,6 +24,6 @@ Access the CSDM Data Foundation insights dashboard in Service Graph Workspace to
 
 Role required: sn\_cmdb\_admin, app\_service\_admin, app\_service\_user, asset, cmdb\_read, itil\_admin, portfolio\_admin, service\_viewer, or technology\_service\_owner
 
--   For general information about the CSMD and CMDB Data Foundations Dashboards, see [Monitor health in CSDM and CMDB Data Foundations Dashboards](csdm-cmdb-foundations-dashboards.md).
--   For information about the CSDM Data Foundations dashboard, see [CSDM Data Foundations dashboard](../../csdm-implementation/concept/csdm-data-foundations-dashboard.md).
+-   For general information about the CSMD and CMDB Data Foundations Dashboards, see [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+-   For information about the CSDM Data Foundations dashboard, see [CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md).
 

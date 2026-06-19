@@ -2,6 +2,7 @@
 title: Edit a personal event in the ServiceNow Agent mobile app
 description: Edit personal events that you created in ServiceNow Agent if something related to the event changes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-edit-event-mobile-agent-application.html
 release: australia
 product: Work Order Management
 classification: work-order-management

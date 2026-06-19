@@ -2,6 +2,7 @@
 title: Create a connection and credential alias for the Lucidchart Diagramming spoke
 description: Create a connection and credential record for the Lucidchart application. The Lucidchart connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/create-conn-cred-lucidchart.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -19,7 +20,7 @@ Create a connection and credential record for the Lucidchart application. The Lu
 
 -   Request an Integration Hub subscription.
 -   Activate the Lucidchart spoke.
--   Register your application using Lucid API console and record the client ID and client secret. For more information, see [Create OAuth 2.0 Client in Lucidchart](set-up-lucidchart.md).
+-   Register your application using Lucid API console and record the client ID and client secret. For more information, see [Create OAuth 2.0 Client in Lucidchart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-lucidchart.md).
 -   Role required: ServiceNow admin
 
 ## Procedure

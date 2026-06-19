@@ -2,6 +2,7 @@
 title: Add collaborators to a legal matter through Mobile Agent
 description: Add other users as collaborators so that they can view the details and progress of a legal matter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-mobile/add-collaborators-to-matter-mobile.html
 release: australia
 product: Legal Mobile
 classification: legal-mobile
@@ -25,12 +26,12 @@ Role required: sn\_lg\_matter.matter\_fulfiller
 
 2.  Tap the assigned matter to which you want to add a collaborator.
 
-3.  Tap the actions icon \(![Actions icon.](../image/action-icon.png)\) and select the **Add Collaborators** option.
+3.  Tap the actions icon \(\[Omitted image "action-icon.png"\] Alt text: Actions icon.\) and select the **Add Collaborators** option.
 
 4.  Tap the **Add Collaborators** field and select the users to add as collaborators.
 
-5.  Tap the ok icon \(![OK icon.](../image/ok-icon.png)\).
+5.  Tap the ok icon \(\[Omitted image "ok-icon.png"\] Alt text: OK icon.\).
 
-6.  Tap the submit icon \(![Submit icon.](../image/submit-icon.png)\).
+6.  Tap the submit icon \(\[Omitted image "submit-icon.png"\] Alt text: Submit icon.\).
 
 

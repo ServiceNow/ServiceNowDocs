@@ -2,6 +2,7 @@
 title: XMLStreamingBuilder - Scoped
 description: Creates a builder object to build a large XML payload for use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as an XML string for a non-streaming option.Instantiates the XMLStreamingBuilder object.Returns an XMLStreamingAPI object.Sets a time when the attachment expires. Must also call the withAttachment\(\) method. Creates an XML document as an attachment and stores it in the Streaming Attachments \[streaming\_attachment\] table. If you don't call this method, the API creates the XML document as a string.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Creates a builder object to build a large XML payload for use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as an XML string for a non-streaming option.
 
-Use these methods in a Workflow Studio Script step with the `sn_ih` namespace identifier. For example, you can use this API to create an XML payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see the Workflow Studio [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md).
+Use these methods in a Workflow Studio Script step with the `sn_ih` namespace identifier. For example, you can use this API to create an XML payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see the Workflow Studio Script step.
 
 **Note:** You can only use this API within the Workflow Studio environment.
 
@@ -139,7 +140,7 @@ Output:
 </phoneNumber>
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## XMLStreamingBuilder - XMLStreamingBuilder\(\)
 
@@ -226,7 +227,7 @@ expiresAt
 
 </td><td>
 
-[GlideDateTime](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#)
+[GlideDateTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md)
 
 </td><td>
 

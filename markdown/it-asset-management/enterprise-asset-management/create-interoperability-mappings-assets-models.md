@@ -2,6 +2,7 @@
 title: Create interoperability mappings between assets and models
 description: Create interoperability mappings between assets and models so that you can define their operational relationships at a granular level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-interoperability-mappings-assets-models.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management

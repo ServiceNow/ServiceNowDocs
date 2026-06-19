@@ -2,6 +2,7 @@
 title: SOAP message functions
 description: After you create a SOAP message record, you can click Generate sample SOAP messages to populate the SOAP Message Functions related list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_SOAPMessageFunctions.html
 release: australia
 product: Web Services
 classification: web-services
@@ -17,7 +18,7 @@ After you create a SOAP message record, you can click **Generate sample SOAP mes
 
 The instance creates these functions by reading the supplied WSDL definition.
 
-![](../image/SoapMessageFunction.png "Soap message function")
+\[Omitted image "SoapMessageFunction.png"\] Alt text:
 
 The **SOAP action**, **SOAP endpoint**, and **Envelope** fields should be populated automatically based on the WSDL definition. The **Envelope** defines the message to send to the endpoint. In this example, the **Envelope** values have this format:
 
@@ -35,5 +36,5 @@ To submit a specific value, enter the value directly in the appropriate XML tag.
 ...
 ```
 
-**Parent Topic:**[SOAP message](c_SOAPMessage.md)
+**Parent Topic:**[SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPMessage.md)
 

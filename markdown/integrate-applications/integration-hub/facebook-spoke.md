@@ -2,6 +2,7 @@
 title: Workplace from Facebook Spoke
 description: Manage users, groups, and notifications in Workplace from Facebook account from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/facebook-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage users, groups, and notifications in Workplace from Facebook account from 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -101,7 +102,7 @@ Install on your Workplace
 
 </td><td>
 
-Displays the default credential record to set up the Workplace from Facebook spoke. For more information, see [Set up Workplace from Facebook spoke](../task/set-up-fb-wp.md#).
+Displays the default credential record to set up the Workplace from Facebook spoke. For more information, see [Set up Workplace from Facebook spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-fb-wp.md).
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Groups Cache
 Displays details of the groups in Workplace from Facebook.When you click **Synchronise Cache**, the Fetch Workplace from Facebook Groups subflow is triggered and the groups details are retrieved.
 
 </td></tr></tbody>
-</table>For information about setting up the spoke, see [Set up Workplace from Facebook spoke](../task/set-up-fb-wp.md#).
+</table>For information about setting up the spoke, see [Set up Workplace from Facebook spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-fb-wp.md).
 

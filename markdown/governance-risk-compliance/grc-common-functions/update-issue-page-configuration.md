@@ -2,6 +2,7 @@
 title: Update an Issue Page Configurations record
 description: Update an existing Issue Page Configurations record in the classic user interface to update the issue page configurations that are displayed in the Issues overview landing page in the workspace. After modifying the configurations in the Issue Page Configuration record, the issues, issue triages, and tracking status of the issues are displayed for the users in the desired workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/update-issue-page-configuration.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -34,7 +35,7 @@ Role required: sn\_grc.admin
     -   Issue triage: Configuration to be performed to display the issue triage widget in the workspace.
     -   Tracking: Configuration to be performed to display the Policy exceptions and Evidence requests in the workspace.
     -   Observations: Configuration to be performed to display the audit observations in the workspace.
-    ![Issue page configuration tabs](../../grc-common-workspace/image/issue-page-configuration-tabs.png "Issue page configuration tabs")
+    \[Omitted image "issue-page-configuration-tabs.png"\] Alt text: Issue page configuration tabs
 
 3.  In the **Issues** tab, check the filter conditions for the selected table and update the fields if necessary.
 
@@ -51,5 +52,5 @@ Role required: sn\_grc.admin
 7.  To update the issue page configuration record, click **Update**.
 
 
-**Parent Topic:**[Issue Page Configuration module](../../grc-common-workspace/concept/issue-page-config-record.md)
+**Parent Topic:**[Issue Page Configuration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/issue-page-config-record.md)
 

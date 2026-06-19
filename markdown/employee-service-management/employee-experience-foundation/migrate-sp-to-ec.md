@@ -2,6 +2,7 @@
 title: Migrate to Employee Center from Service Portal
 description: Migrate to the Employee Center portal to provide employees with a unified portal experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/migrate-sp-to-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -23,11 +24,11 @@ Role required: admin
 
 ## Procedure
 
-1.  [Install Employee Center](activate-ec.md) from Store.
+1.  [Install Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-ec.md) from Store.
 
 2.  Create a unified taxonomy for catalog items and knowledge articles to implement the unified browsing capability.
 
-    For more information, see [Unified Taxonomy for Employee Center](../concept/config-taxonomy.md).
+    For more information, see [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
 
     **Note:** Copy and modify the default taxonomy that comes with the demo data for your business needs.
 
@@ -35,19 +36,19 @@ Role required: admin
 
 4.  Ensure all request types are captured in **My Request Filters** to consolidate request types.
 
-    For more information, see [Employee requests page](../concept/employee-center-requests-page-configuration.md).
+    For more information, see [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md).
 
 5.  Configure tasks using **To-dos configuration** to include approvals.
 
-    For more information, see [Employee tasks page](../concept/employee-center-to-dos-page-configuration.md).
+    For more information, see [Employee tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md).
 
 6.  Modify the portal theme.
 
-    For more information, see [Customize Employee Center portal theme](customize-theme.md).
+    For more information, see [Customize Employee Center portal theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/customize-theme.md).
 
 7.  Use the Email notification layout and template that is shipped with the Employee Experience Foundation \(com.snc.sn\_ex\_emp\_fd\) plugin to deliver notifications that are consistent.
 
-    For more information, see [Modify email notification layout](activate-notification-template.md).
+    For more information, see [Modify email notification layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/activate-notification-template.md).
 
 8.  Navigate to **Service Portals** &gt; **Portals** and change the existing portal URL suffix to prevent any breakage of old URL references that an employee has.
 

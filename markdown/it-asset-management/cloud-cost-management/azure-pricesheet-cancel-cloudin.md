@@ -2,6 +2,7 @@
 title: Cancel an Azure Price sheet download job in Cloud Cost Management
 description: An Azure Price sheet download job downloads price sheet data from Azure. You can cancel any Price sheet download job individually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/azure-pricesheet-cancel-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management

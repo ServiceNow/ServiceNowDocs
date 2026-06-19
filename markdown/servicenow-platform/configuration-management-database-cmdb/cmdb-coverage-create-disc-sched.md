@@ -2,6 +2,7 @@
 title: Create discovery schedules
 description: Create discovery schedules for discovering IP address ranges.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-create-disc-sched.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -33,6 +34,6 @@ Role required: sn\_cmdb\_admin
 
 4.  On the Discovery Admin Workspace, create a discovery schedule as required.
 
-    For more information, see [Create an IP-based Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/t-dawCreateNewDiscoSchedule.md).
+    For more information, see .
 
 

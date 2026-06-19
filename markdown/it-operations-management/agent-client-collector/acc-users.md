@@ -2,6 +2,7 @@
 title: Agent Client Collector user roles
 description: Administrators can assign user roles to grant access to the Agent Client Collector. The following standard roles for the Agent Client Collector Framework \(ACC-F\) are included in the ServiceNow system with the Agent Client Collector installed on it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-users.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -59,5 +60,5 @@ evt\_mgmt\_admin
 Starts the ACC listener.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Framework reference](agent-client-collector-reference.md)
+</table>**Parent Topic:**[Agent Client Collector Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-client-collector-reference.md)
 

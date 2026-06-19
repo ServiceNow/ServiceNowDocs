@@ -2,6 +2,7 @@
 title: Configure application state
 description: Add new job application states according to your organizational needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/configure-app-state.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -38,5 +39,5 @@ Role required: admin
 7.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Recruitment Workspace](../concept/config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
 

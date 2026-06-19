@@ -2,6 +2,7 @@
 title: Generate Cloud License Estimator Reports
 description: Cloud License Estimator reports provide an overview of account information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-license-estimator/cle-generate-reports.html
 release: australia
 product: Cloud License Estimator
 classification: cloud-license-estimator

@@ -2,6 +2,7 @@
 title: logger - Global
 description: The logger API provides inbound email actions that append messages to the email log.Appends the specified message to the email log.Appends the specified error message to the email log file.Appends the specified warning message to the email log file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_Logger.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The logger API provides inbound email actions that append messages to the email 
 
 It provides methods that add information, warning, and error messages. The added message has its source set to `email.<Sys ID of incoming email>`.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## logger - log\(String msg\)
 

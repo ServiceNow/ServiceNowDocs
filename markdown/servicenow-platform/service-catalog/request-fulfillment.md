@@ -2,6 +2,7 @@
 title: Service Catalog request fulfillment
 description: When a user orders a catalog item, a request is created that follows a fulfillment process. A fulfillment process defines the steps to request approval, assign fulfillment tasks, and fulfill requests. Workflow Studio flows, workflows, or execution plans are used to define fulfillment processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/request-fulfillment.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -23,7 +24,7 @@ Preparing to fulfill catalog item requests involves the following activities.
 
 ## Using Workflow Studio flows
 
-The Workflow Studio application enables process owners to automate work, such as approvals, tasks, and notifications, without having to code. Build multi-step flows from reusable components. For more information, see [Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-workflow-studio.md).
+The Workflow Studio application enables process owners to automate work, such as approvals, tasks, and notifications, without having to code. Build multi-step flows from reusable components. For more information, see Exploring Workflow Studio.
 
 ## Using workflows
 
@@ -38,20 +39,20 @@ Use the Workflow Editor to define fulfillment workflows. The Workflow Editor off
 -   Validate workflows to identify potential problems.
 -   Publish workflows for other users.
 
--   **[Service catalog workflows](c_ServiceCatalogWorkflowDefinition.md)**  
+-   **[Service catalog workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogWorkflowDefinition.md)**  
 Two service catalog workflows are provided in the base system. Use the Graphical Workflow Editor to modify the default workflows or to create additional service catalog workflows. Service catalog workflows support domain separation.
--   **[Execution Plans](c_ExecutionPlans.md)**  
+-   **[Execution Plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ExecutionPlans.md)**  
 An execution plan describes how a catalog item is procured, configured, and installed.
--   **[Service Catalog checkout models](c_EnableATwoStepCheckout.md#)**  
+-   **[Service Catalog checkout models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_EnableATwoStepCheckout.md)**  
 The service catalog defaults to one-step checkout model, but also allows two-step checkout. Administrators and users with the catalog\_admin role can enable and configure the two-step checkout model and control how the delivery address is populated.
--   **[Create a catalog request from another flow](../task/create-request-from-other-flow.md)**  
+-   **[Create a catalog request from another flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/create-request-from-other-flow.md)**  
 You can create a catalog request to join the Service Catalog flow from a different flow. For example, from an incident flow, you can create a request, and associate the request with the incident. It helps you in tracking the requests associated with an incident and vice versa.
--   **[Configure a parent mapping for a request](../task/configure-mapping-for-request.md)**  
+-   **[Configure a parent mapping for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-mapping-for-request.md)**  
 You can configure a mapping that specifies the association between the parent record and the request record.
--   **[State closure in the request fulfillment execution plan](../reference/state-closure-request.md)**  
+-   **[State closure in the request fulfillment execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/state-closure-request.md)**  
 The state closure in the request fulfillment process of a catalog item depends on the status of the associated catalog tasks, request items, and the request. It is applicable only for execution flows.
--   **[View request notifications](../task/view-request-notification.md)**  
+-   **[View request notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/view-request-notification.md)**  
 View request notifications that are sent during specific events in a catalog request life cycle. These notifications are sent to various recipients including the Employee Center and ITIL users.
 
-**Parent Topic:**[Configuring Service Catalog](configuring-service-catalog.md)
+**Parent Topic:**[Configuring Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configuring-service-catalog.md)
 

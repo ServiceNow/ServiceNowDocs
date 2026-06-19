@@ -2,6 +2,7 @@
 title: Request time off using ITSM Virtual Agent
 description: Automate your request for time off using the ITSM Virtual Agent. Type keywords into the chatbot to create and submit your request, which then gets automatically routed to your manager for approval. You can also use Natural Language Understanding to make your time-off request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/va-timeoff-agent-wfo-itsm-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -19,9 +20,9 @@ Automate your request for time off using the ITSM Virtual Agent. Type keywords i
 
 The ITSM Virtual Agent Conversation Topics \(com.snc.itsm.virtualagent\) plugin must be enabled.
 
-**Note:** To search shifts and schedules, you must [generate the text index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/index-multiple-tables.md) for the Topic \[sys\_cs\_topic\] table before you start using the ITSM Virtual Agent for making time off requests.
+**Note:** To search shifts and schedules, you must generate the text index for the Topic \[sys\_cs\_topic\] table before you start using the ITSM Virtual Agent for making time off requests.
 
-Before you can use [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md) to make time-off requests, the Time Off Request NLU model must be [trained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/test-train-nlu-model.md) and [published](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/publish-nlu-model.md).
+Before you can use  to make time-off requests, the Time Off Request NLU model must be trained and published.
 
 Role required: sn\_shift\_planning.agent
 
@@ -34,7 +35,7 @@ Role required: sn\_shift\_planning.agent
 3.  In the chat window, do one of the following to create the request:
 
     -   To use keywords, enter *time off*, *vacation*, or similar keywords.
-    -   To use Natural Language Understanding, enter an [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-NLU.md).
+    -   To use Natural Language Understanding, enter an utterance.
 4.  Select the Time Off Request topic.
 
     The calendar appears with the message, "When do you want to start your time off?"
@@ -54,5 +55,5 @@ Role required: sn\_shift\_planning.agent
 8.  To view the submitted request on your calendar, click **View submitted request \(Request Number\)**.
 
 
-**Parent Topic:**[Service Operations Workspace - Scheduling](../concept/itsm-sow-workspace-scheduling.md)
+**Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)
 

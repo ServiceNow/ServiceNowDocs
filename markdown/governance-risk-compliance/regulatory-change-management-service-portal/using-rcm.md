@@ -2,11 +2,12 @@
 title: Using Regulatory Change Management
 description: You can use the classic environment to perform all Regulatory Change Management application activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/using-rcm.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 5
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -17,7 +18,7 @@ You can use the classic environment to perform all Regulatory Change Management 
 
 As an RCM manager with the sn\_grc\_reg\_change.manager role, you can capture any problems or exceptions that are observed during the workflow by assigning regulatory alerts or creating an action task or issue that is related to the regulatory change tasks and source document tasks. You can also monitor the regulatory change tasks and action tasks.
 
-You can also use a [setup checklist](../../grc-rcm-implementation/task/rcm-impl-checklist.md) that can help you to get your base system ready for operation.
+You can also use a [setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-impl-checklist.md) that can help you to get your base system ready for operation.
 
 Starting with version 18.1.2, all the new features and enhancements are available only in the Workspace view.
 

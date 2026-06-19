@@ -2,6 +2,7 @@
 title: Integrate Azure Monitor as an authenticated data source
 description: Integrate Microsoft Azure with Event Management by adding the Azure Monitor as an authenticated data source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/azure-integration.html
 release: australia
 product: Event Management
 classification: event-management
@@ -27,9 +28,9 @@ Once the endpoint is configured, when an Azure Monitor alert message arrives, Ev
 
 There are two methods of authentication:
 
--   OAuth authentication: Provides enterprise-grade authentication to keep your enterprise environment safe. Authentication is performed using Azure Monitor V1 or V2 access tokens. For more information, see [Integrate Azure Monitor with OAuth authentication](../task/azure-events-authentication.md).
--   API key authentication: Integrate using API key to secure communication between Azure and ServiceNow. For more information, see [Integrate Azure with REST API key token](../task/integrate-azure-api-key.md).
--   Basic webhook authentication: Provides a basic standard of authentication, without the need for Azure Active Directory. This authentication can be especially useful for distributed small teams, such as SRE or DevOps teams. For more information, see [Integrate Azure Monitor with basic authentication](../task/azure-events-webhook.md).
+-   OAuth authentication: Provides enterprise-grade authentication to keep your enterprise environment safe. Authentication is performed using Azure Monitor V1 or V2 access tokens. For more information, see [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-events-authentication.md).
+-   API key authentication: Integrate using API key to secure communication between Azure and ServiceNow. For more information, see [Integrate Azure with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/integrate-azure-api-key.md).
+-   Basic webhook authentication: Provides a basic standard of authentication, without the need for Azure Active Directory. This authentication can be especially useful for distributed small teams, such as SRE or DevOps teams. For more information, see [Integrate Azure Monitor with basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-events-webhook.md).
 
 ## What to know before you begin
 
@@ -37,7 +38,7 @@ You can use your integrated Azure Monitor as a data source only after you have v
 
 -   For both methods of authentication, the relevant ServiceNow sys\_user is assigned the evt\_mgmt\_integration role.
 -   The Event Management Connectors plugin is installed in the ServiceNow AI Platform instance. You can download the plugin from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
--   Azure Cloud Discovery must be performed to ensure that the created alerts are bound to the configuration items in the ServiceNow AI Platform. For more information, see [Discovery for Microsoft Azure](../../discovery/concept/azure-cloud-discovery.md).
+-   Azure Cloud Discovery must be performed to ensure that the created alerts are bound to the configuration items in the ServiceNow AI Platform. For more information, see [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/azure-cloud-discovery.md).
 
 ## Event Rules and Event Field mappings
 
@@ -50,7 +51,7 @@ These event rules and event field mappings are provided with the base system:
 
 These are the mappings provided with the base system in **Azure Monitor - ci\_type**:
 
-![Azure Mapping Pairs](../image/Azure-base-mapping.png "Transform Value Pairs")
+\[Omitted image "Azure-base-mapping.png"\] Alt text: Azure Mapping Pairs
 
 **Note:** You can add new mapping pairs to the Event Field Mapping - **Azure Monitor - ci\_type** as per the requirement, to map events to the respective ci\_type based on resourceType.
 
@@ -58,7 +59,7 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) rules provided wit
 
 **Note:** This feature applies only to active event rules.
 
-If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](../task/configure-azure-bi-directional-connector.md).
+If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
 ## Severity mapping from Azure severity to ServiceNow event severity
 
@@ -72,14 +73,14 @@ If you want to send alert state changes on the ServiceNow instance from the Serv
 |When an Azure alert monitorCondition is resolved|
 |Any Azure severity|ServiceNow CLEAR \(severity "0"\)|
 
--   **[Integrate Azure Monitor with basic authentication](../task/azure-events-webhook.md)**  
+-   **[Integrate Azure Monitor with basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-events-webhook.md)**  
 Integrate Microsoft Azure with Event Management by adding a standard webhook in Azure Monitor.
--   **[Integrate Azure with REST API key token](../task/integrate-azure-api-key.md)**  
+-   **[Integrate Azure with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/integrate-azure-api-key.md)**  
 Integrate using an API key to establish secure communication and automate data exchange via REST API. This simplifies integration, enabling seamless access to services and enhancing operational efficiency.
--   **[Integrate Azure Monitor with OAuth authentication](../task/azure-events-authentication.md)**  
+-   **[Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-events-authentication.md)**  
 Integrate Microsoft Azure with Event Management by authenticating Azure V1 or V2 tokens in the Azure Monitor.
--   **[Configure Azure Monitor Bi-directional connector](../task/configure-azure-bi-directional-connector.md)**  
+-   **[Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-azure-bi-directional-connector.md)**  
 The Azure Monitor Pull connector sends information from ServiceNow Event Management to the Azure Portal. The pull connector sends the alert state changes from the ServiceNow environment to the Azure Portal.
 
-**Parent Topic:**[Integrate with push connectors](../task/configure-listener-transform-script.md)
+**Parent Topic:**[Integrate with push connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-listener-transform-script.md)
 

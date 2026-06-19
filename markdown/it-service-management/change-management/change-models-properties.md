@@ -2,13 +2,14 @@
 title: Change Models properties
 description: Configure the Change Models properties to access the Change models capabilities when creating a Change request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-models-properties.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Change models, Explore, Change Management, IT Service Management]
+breadcrumb: [Change model management, Explore, Change Management, IT Service Management]
 ---
 
 # Change Models properties
@@ -54,5 +55,5 @@ Determine what kind of change requests \(type or model-based\) are created. Enab
 </td></tr></tbody>
 </table>**Note:** If type compatibility is set to false, and change type does not match with a corresponding change model, the change model is marked as Legacy.
 
-**Parent Topic:**[Change models](../concept/change-models.md)
+**Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/manage-change-models.md)
 

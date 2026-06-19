@@ -2,6 +2,7 @@
 title: SAFe Feature Dashboard
 description: The SAFe Feature Dashboard provides a visualization of the changes in scope and the progress of the stories in the feature over a given period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safe-feature-dashboard.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -15,9 +16,9 @@ breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile
 
 The SAFe Feature Dashboard provides a visualization of the changes in scope and the progress of the stories in the feature over a given period.
 
-![SAFe Feature Summary](../image/safe-feature-summary.png "Feature Summary tab")
+\[Omitted image "safe-feature-summary.png"\] Alt text: SAFe Feature Summary
 
-![SAFe Feature Cycle Time tab](../image/safe-feature-cycle-time.png "Cycle Time tab")
+\[Omitted image "safe-feature-cycle-time.png"\] Alt text: SAFe Feature Cycle Time tab
 
 ## End user and roles
 
@@ -62,7 +63,7 @@ If you are upgrading from version 1.0.2 or earlier of Performance Analytics Cont
 -   Feature Burnup
 -   Story Cycle Time
 
-For more information, see [Using Solution Library for Essential SAFe dashboards](../reference/using-solution-library-for-essential-safe-dashboards.md).
+For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_xvt_hl4_2fb"><thead><tr><th>
 
@@ -82,7 +83,7 @@ Stories By State
 
 </td><td>
 
-Bar chart![](../../reporting/image/inline-data-vis-96px-bar-vertical.png)
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -94,7 +95,7 @@ Feature Burnup
 
 </td><td>
 
-Line chart![](../../reporting/image/inline-data-vis-96px-line.png)
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -128,7 +129,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart![](../../reporting/image/inline-data-vis-96px-bubble.png)
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
@@ -147,10 +148,10 @@ Identify the time taken for each story in the feature to move from an in-progres
 
  If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
 
- ![Cycle Time Zoom](../image/cycle-time-zoom.gif)
+ \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
 </td></tr></tbody>
-</table>You can customize the Burnup report. For more information, see [Customizing Essential SAFe dashboard reports](../concept/customizing-safe-dashboard-reports.md).
+</table>You can customize the Burnup report. For more information, see [Customizing Essential SAFe dashboard reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/customizing-safe-dashboard-reports.md).
 
-**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](pa-content-pack-essential-safe.md)
+**Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

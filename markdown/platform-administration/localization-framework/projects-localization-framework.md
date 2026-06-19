@@ -2,6 +2,7 @@
 title: Create translation projects
 description: The Localization Framework provides the means to assemble, manage, and complete localization and translation tasks, from single item assignments to large batch projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/projects-localization-framework.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -19,7 +20,7 @@ The **Localization Projects** feature enable users to bundle multiple localizati
 
 Localization tasks are not created automatically. The localization manager adds the requested items to a project and starts the project. All the requested items are then bundled under the localization tasks.
 
-You can also automatically create a localization projects by enabling the **Enable auto creation** option in the Localization Framework settings. A localization project is auto created and the corresponding LRITMs are created, bundled, and added to the localization project. For more information, see [Configure the Localization Framework preferences](../task/define-translation-preferences.md).
+You can also automatically create a localization projects by enabling the **Enable auto creation** option in the Localization Framework settings. A localization project is auto created and the corresponding LRITMs are created, bundled, and added to the localization project. For more information, see [Configure the Localization Framework preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/define-translation-preferences.md).
 
 Each localization task has one or more requested items and is grouped in the following sequence:
 

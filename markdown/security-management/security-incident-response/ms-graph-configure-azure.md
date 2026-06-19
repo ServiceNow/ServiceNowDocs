@@ -2,6 +2,7 @@
 title: Configure the Microsoft Azure portal
 description: To retrieve security alerts for an application available in the Microsoft Azure tenant using the Microsoft Graph Security API, you must register the application in the Microsoft Azure portal and grant security event read and write access to the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-configure-azure.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -38,7 +39,7 @@ Role required:
 
 6.  Under **Manage**, select **Certificates &amp; secrets**.
 
-    ![MIicrosoft Azure portal configuration](../image/ms-graph-azure-config.png)
+    \[Omitted image "ms-graph-azure-config.png"\] Alt text: MIicrosoft Azure portal configuration
 
 7.  Select **New client secret** to create a client secret.
 
@@ -50,13 +51,13 @@ Role required:
 
 9.  Add new Application level API permissions for SecurityAlert.ReadWrite.All security events.
 
-    ![Microsoft Graph Security API configuration: security events](../image/ms-graph-azure-config-1.png)
+    \[Omitted image "ms-graph-azure-config-1.png"\] Alt text: Microsoft Graph Security API configuration: security events
 
 10. Grant admin consent for the newly added API permissions.
 
     For more information, see the [Microsoft Graph Permissions reference](https://docs.microsoft.com/en-us/graph/permissions-reference) Microsoft Graph permission model.
 
-    ![Microsoft Graph Security API configuration: grant admin consent](../image/ms-graph-azure-config-2.png)
+    \[Omitted image "ms-graph-azure-config-2.png"\] Alt text: Microsoft Graph Security API configuration: grant admin consent
 
 11. Log in as a tenant administrator and provide consent for the application.
 

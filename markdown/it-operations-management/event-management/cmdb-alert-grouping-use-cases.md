@@ -2,6 +2,7 @@
 title: Use cases for CMDB based alert grouping
 description: Use cases for CMDB grouping enhance alert management by correlating alerts based on Configuration Item relationships, improving visibility, and facilitating more efficient troubleshooting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/cmdb-alert-grouping-use-cases.html
 release: australia
 product: Event Management
 classification: event-management

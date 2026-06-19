@@ -2,6 +2,7 @@
 title: RISKIQ SSL certificate lookups that return an exact match
 description: RISKIQ SSL certificate lookup results for an exact match are displayed on the SSL Certificates tab on the security incident record. An exact match provides a valid certificate authority name, which helps a security incident analyst determine the validity of a website.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/riskiq\_ssl\_exact\_match.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,12 +22,10 @@ The following example shows a valid issuer of an SSL certificate from an exact m
 
 **Note:** The figures in the following examples are shown with the **Tabbed forms** setting active in the System Settings. If your screen does not match the view shown below, follow the steps to set tabbed forms.
 
-1.  In the upper-right corner of the banner frame, click the Settings icon.
-2.  In the **System Settings** dialog box that is displayed, click **Forms** and verify that **Tabbed forms** and **With the Form** are selected.
+1.  In the upper-right corner of the banner frame, select the Settings icon.
+2.  In the **System Settings** dialog box that is displayed, select **Forms** and verify that **Tabbed forms** and **With the Form** are selected.
 
-1.  In the security incident record, click the **SSL Certificates** tab.
-
-    ![SSL Certificates tab on the Security Incident record.](../image/riskiq-ssl-cert-callout.png "SSL Certificates tab")
+1.  In the security incident record, select the **SSL Certificates** tab.
 
     Information about the certificate issuer’s name, the issuer's organization, and who the certificate is issued to \(Organization\) is displayed along with other data.
 
@@ -34,10 +33,8 @@ The following example shows a valid issuer of an SSL certificate from an exact m
 
     No information in the **Issuer Organization** and **Issued to** columns is displayed for the second item \(`mail.dgtnetworks.com`\).
 
-2.  Click the second item in the **Issuer name**column, which is \(**R3**\) to open the entry record. Alternatively, click the information icon next to the item followed by **Open record**.
+2.  Select the second item in the **Issuer name**column, which is \(**R3**\) to open the entry record. Alternatively, select the information icon next to the item followed by **Open record**.
 3.  Select the **Raw Data** tab.
-
-    ![Raw data tab.](../image/riskiq-valid-ssl.png "Raw Data tab")
 
     The SSL Certificate Entry record includes the observable in the **Raw Data** tab under the **Entity name** column, as well as other data.
 
@@ -48,16 +45,11 @@ The following example shows a valid issuer of an SSL certificate from an exact m
 
 The following example shows results for a self-signed SSL certificate from the lookup. Follow the steps to view the results and raw data.
 
-1.  Navigate back to the security incident record. In the **Issuer Name** column, click the other item \(**mail.dgtnetworks.com**\).
-
-    ![SSL Certificate Results tab.](../image/riskiq-ssl-cert-callout1.png "SSL Certificates tab")
-
+1.  Navigate back to the security incident record. In the **Issuer Name** column, select the other item \(**mail.dgtnetworks.com**\).
 2.  On the open record, select the **Raw Data** tab.
 
-    ![SSL Raw Data tab.](../image/riskiq-selfsigned-ssl.png "Raw Data tab")
-
-    The **Category** column indicates the `Issuer` \(`mail.dgtnetworks.com` and `dgtsbs.DGTNetworks.local`\) are not trusted public certificate authorities. Also note the `Issuer` and `Subject` are the same entity \(`dgtsbs.DGTNetworks.local`\), and each contains the name of the observable \(`dgtsbs`\). This certificate is possibly a self-signed certificate. Self-signed certificates may warrant further investigation, as these certificates are not issued by a known certificate authority.
+    The **Category** column indicates the `Issuer` \(`mail.dgtnetworks.com` and `dgtsbs.DGTNetworks.local`\) are not trusted public certificate authorities. Also note the `Issuer` and `Subject` are the same entity \(`dgtsbs.DGTNetworks.local`\), and each contains the name of the observable \(`dgtsbs`\). This certificate is possibly a self-signed certificate. Self-signed certificates may warrant further investigation, as these certificates aren't issued by a known certificate authority.
 
 
-**Parent Topic:**[Verify expected results for RISKIQ SSL certificate lookups](../task/verify-expected-rslts-for-riskiq.md)
+**Parent Topic:**[Verify expected results for RISKIQ SSL certificate lookups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/verify-expected-rslts-for-riskiq.md)
 

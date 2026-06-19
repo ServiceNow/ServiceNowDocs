@@ -2,6 +2,7 @@
 title: Create Snapshots to migrate Indoor Mapping data
 description: Create snapshots for taking point-in-time backups of your Indoor Mapping map data and objects and migrate the snapshots to Workplace Service Delivery instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/snapshot-ind-mapping.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -74,12 +75,12 @@ Role required: map admin, map editor, wsd\_core\_admin
 
 16. Few tables are impacted during the snapshot process.
 
-    For more information about impacted tables, see [Snapshot Impacted tables](../reference/snapshot-ind-mapping-tables.md).
+    For more information about impacted tables, see [Snapshot Impacted tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/snapshot-ind-mapping-tables.md).
 
 
-**Parent Topic:**[Manage map objects and data](../concept/using-indoor-mapping.md)
+**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 
-**Previous topic:**[Print a map](print-map.md)
+**Previous topic:**[Print a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/print-map.md)
 
-**Next topic:**[Keyboard shortcuts](keyboard-shortcuts.md)
+**Next topic:**[Keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/keyboard-shortcuts.md)
 

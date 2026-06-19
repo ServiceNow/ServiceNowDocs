@@ -2,6 +2,7 @@
 title: Using client state parameters in UI Builder
 description: Create a simple counter by adding the stylized text component and two buttons to an experience page. Use a client state parameter to implement the functionality so that when the buttons are selected the count increases or decreases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/create-simple-counter-component.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -19,17 +20,15 @@ Create a simple counter by adding the stylized text component and two buttons to
 
 Role required: ui\_builder\_admin
 
-Three minute video showing how to add a stylized text component and two button iconic components to create a simple counter application.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
 2.  Open an experience to work in or create an experience by selecting **Create &gt; Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  [Create a page in UI Builder](create-page.md) or open a page.
+3.  [Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md) or open a page.
 
 4.  Add a column layout by selecting **+ Add content** in the content tree under **Body**.
 
@@ -37,17 +36,17 @@ Three minute video showing how to add a stylized text component and two button i
 
 6.  Add the first component by selecting **+ Add content** in the content tree under **Column 1**.
 
-    ![Content tree with black arrow pointing to plus add component under column one.](../image/counter-app-add-component.png)
+    \[Omitted image "counter-app-add-component.png"\] Alt text: Content tree with black arrow pointing to plus add component under column one.
 
     1.  In **Search**, type `sty`.
 
     2.  Select the **Stylized text** component.
 
-        ![Toolbox with black arrows pointing to search field and the stylized text component.](../image/counter-app-stylized-text-component.png)
+        \[Omitted image "counter-app-stylized-text-component.png"\] Alt text: Toolbox with black arrows pointing to search field and the stylized text component.
 
     3.  In the configuration panel, select **None - Configure the component manually**.
 
-        ![Configure panel with black arrow pointing to the none option.](../image/counter-app-none-config-manually.png)
+        \[Omitted image "counter-app-none-config-manually.png"\] Alt text: Configure panel with black arrow pointing to the none option.
 
 7.  Add the second component by selecting **+ Add content** in the content tree under **Column 2**.
 
@@ -55,17 +54,17 @@ Three minute video showing how to add a stylized text component and two button i
 
     2.  Select **Button Iconic**.
 
-        ![Toolbox with black arrows pointing to search field and the button component.](../image/counter-app-button-iconic-component.png)
+        \[Omitted image "counter-app-button-iconic-component.png"\] Alt text: Toolbox with black arrows pointing to search field and the button component.
 
     3.  In the configuration panel, select **None - Configure the component manually**.
 
     4.  In **Icon**, select **Square Arrow Up Fill**.
 
-        ![Configure panel with black arrows pointing to icon field, search bar, and square arrow up fill icon.](../image/counter-app-button-icon1.png)
+        \[Omitted image "counter-app-button-icon1.png"\] Alt text: Configure panel with black arrows pointing to icon field, search bar, and square arrow up fill icon.
 
 8.  Add the third component by pointing to **Button iconic 1** in the content tree, selecting the **Menu** icon, and selecting **Add after**.
 
-    ![Content tree to black arrows pointing to button icon 1 menu icon and the add after option in the pop up menu.](../image/counter-app-add-second-button.png)
+    \[Omitted image "counter-app-add-second-button.png"\] Alt text: Content tree to black arrows pointing to button icon 1 menu icon and the add after option in the pop up menu.
 
     1.  In **Search**, type `button` as you did in the previous step.
 
@@ -75,13 +74,13 @@ Three minute video showing how to add a stylized text component and two button i
 
     4.  In **Icon**, select a different icon this time, the one named **Square Arrow Down Fill**.
 
-        ![Configure panel with black arrows pointing to icon field, search bar, and square arrow down fill icon.](../image/counter-app-button-icon2.png)
+        \[Omitted image "counter-app-button-icon2.png"\] Alt text: Configure panel with black arrows pointing to icon field, search bar, and square arrow down fill icon.
 
 9.  Select **Save**.
 
     The stylized text component and the two button iconic components are saved and appear on the stage.
 
-    ![The three components appear on the stage.](../image/counter-app-all-components-on-stage.png)
+    \[Omitted image "counter-app-all-components-on-stage.png"\] Alt text: The three components appear on the stage.
 
 10. Add a client state parameter by going to **Data and scripts**, pointing to **Client state parameters**, and selecting the **Add new \(plus\)** icon.
 
@@ -93,7 +92,7 @@ Three minute video showing how to add a stylized text component and two button i
 
     4.  Select the **X** to close the window.
 
-        ![Client state parameter shown with name, type, and initial value fields underlined and black arrow pointing to close icon.](../image/counter-app-client-state-param.png)
+        \[Omitted image "counter-app-client-state-param.png"\] Alt text: Client state parameter shown with name, type, and initial value fields underlined and black arrow pointing to close icon.
 
 11. Bind the stylized text component to the client state parameter.
 
@@ -101,7 +100,7 @@ Three minute video showing how to add a stylized text component and two button i
 
     2.  In the configuration panel, point to the **Text** field and select the **Bind data or use scripts** icon.
 
-        ![Configure panel with black arrows pointing to the text field and the bind data icon.](../image/counter-app-stylized-text-bind.png)
+        \[Omitted image "counter-app-stylized-text-bind.png"\] Alt text: Configure panel with black arrows pointing to the text field and the bind data icon.
 
     3.  On the **Data types** tab, select **Client states**.
 
@@ -109,7 +108,7 @@ Three minute video showing how to add a stylized text component and two button i
 
     5.  Select **Apply**.
 
-        ![Bind data pop up window with black arrows pointing to data types tab, client states option, count pill, and apply button.](../image/counter-app-stylized-text-bind2.png)
+        \[Omitted image "counter-app-stylized-text-bind2.png"\] Alt text: Bind data pop up window with black arrows pointing to data types tab, client states option, count pill, and apply button.
 
         The **Text** field changes to **count**.
 
@@ -127,7 +126,7 @@ Three minute video showing how to add a stylized text component and two button i
 
     6.  Point to the **New Value** field and select the **Bind data or use scripts** icon.
 
-        ![Event handler pop up window with black arrows pointing to update client state parameter option, the client state parameter name field, and the new value bind data icon.](../image/counter-app-button1-configure1.png)
+        \[Omitted image "counter-app-button1-configure1.png"\] Alt text: Event handler pop up window with black arrows pointing to update client state parameter option, the client state parameter name field, and the new value bind data icon.
 
     7.  On the **Data types** tab, select **Client states**.
 
@@ -141,7 +140,7 @@ Three minute video showing how to add a stylized text component and two button i
 
     12. In the **right** pill at the top, remove the text and enter `1`.
 
-        ![Bind data to new value pop up window with black arrow pointing to second pill at top.](../image/counter-app-button1-configure2.png)
+        \[Omitted image "counter-app-button1-configure2.png"\] Alt text: Bind data to new value pop up window with black arrow pointing to second pill at top.
 
     13. Select **Apply**.
 
@@ -181,7 +180,7 @@ Three minute video showing how to add a stylized text component and two button i
 
 15. Select the up arrow button to increase the count and the down arrow button to decrease the count.
 
-    ![Preview window with black arrows pointing to the up arrow button and the down arrow button.](../image/counter-app-preview.png)
+    \[Omitted image "counter-app-preview.png"\] Alt text: Preview window with black arrows pointing to the up arrow button and the down arrow button.
 
 
 ## Result
@@ -192,5 +191,5 @@ For detailed, technical information about the button component, see [Button Over
 
 For detailed, technical information about the stylized text component, see [Stylized Text Overview](https://developer.servicenow.com/dev.do#!/reference/next-experience/washingtondc/now-components/now-stylized-text/overview).
 
-**Parent Topic:**[Client state parameters](../concept/client-state-parameters.md)
+**Parent Topic:**[Client state parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/client-state-parameters.md)
 

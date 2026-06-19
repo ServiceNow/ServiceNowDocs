@@ -2,6 +2,7 @@
 title: Remediate an issue on the device
 description: You can create a remedial action or modify an existing one once you configure the remedial action framework. Remedial action enables you to trigger an action on the impacted device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/remediate-issue-device.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -19,13 +20,13 @@ You can create a remedial action or modify an existing one once you configure th
 
 You can execute a remedial action on a single device by navigating to the device health page to resolve the issue. You can view the details of all the remedial actions applied and their status.
 
-![Remedial action on a single device](../image/ra-adh.png)
+\[Omitted image "ra-adh.png"\] Alt text: Remedial action on a single device
 
 ## Bulk remedial action
 
 Remedial actions on multiple devices enable DEX engineers and the computing teams to manage the health of the end-user experience proactively. The DEX engineers can select multiple devices to execute the remedial action at the same time. Remedial actions are available for bulk remediation when DEX Admin configures the option **Available for bulk remediation** for a remedial action. Once the bulk remedial action is executed, the DEX engineers should be able to view the status of the remedial action executed on the selected devices.
 
-![Bulk remedial action](../image/bulk-ra.png)
+\[Omitted image "bulk-ra.png"\] Alt text: Bulk remedial action
 
-**Parent Topic:**[DEX remedial actions](dex-remedial-actions.md)
+**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-remedial-actions.md)
 

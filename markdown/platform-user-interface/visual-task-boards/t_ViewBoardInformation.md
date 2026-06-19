@@ -2,6 +2,7 @@
 title: View Visual Task Boards details
 description: You can display the key information about any Visual Task Board.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_ViewBoardInformation.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -23,14 +24,14 @@ Role required: none
 
 1.  Navigate to**All** &gt; **Self-Service** &gt; **Visual Task Boards**.
 
-2.  Click the board information icon \(![Board information icon](../image/BoardInfoIcon.png)\).
+2.  Click the board information icon \(\[Omitted image "BoardInfoIcon.png"\] Alt text: Board information icon\).
 
 
 ## Result
 
 The board information displays.
 
-![The board information appears](../image/BoardInfoFlyout.png)
+\[Omitted image "BoardInfoFlyout.png"\] Alt text: The board information appears
 
-**Parent Topic:**[Viewing and sharing Visual Task Boards](../concept/viewing-sharing-vis-task-brds.md)
+**Parent Topic:**[Viewing and sharing Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/viewing-sharing-vis-task-brds.md)
 

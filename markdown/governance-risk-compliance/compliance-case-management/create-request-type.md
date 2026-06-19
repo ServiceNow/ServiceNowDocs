@@ -2,6 +2,7 @@
 title: Create a request type
 description: Create a request type in the GRC: Compliance Case Management application to categorize and manage the compliance requests. After you create a request type, the compliance analysts and managers can select the required request type on the request form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/compliance-case-management/create-request-type.html
 release: australia
 product: Compliance Case Management
 classification: compliance-case-management
@@ -27,7 +28,7 @@ Role required: sn\_compliance\_case\_admin
 
 3.  On the form, fill in the fields.
 
-    For a description of the field values on the request type form, see [Request type form](../reference/request-type-form.md).
+    For a description of the field values on the request type form, see [Request type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/request-type-form.md).
 
 4.  Open the form context menu and select **Save**.
 
@@ -48,13 +49,13 @@ Role required: sn\_compliance\_case\_admin
 
 7.  Select **Submit**.
 
-8.  To create a view rule instead of using the default rule, see [Create view rule](create-view-rule.md).
+8.  To create a view rule instead of using the default rule, see [Create view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-view-rule.md).
 
-9.  To create an assignment rule instead of using the default rule, see [Create an assignment rule](create-assignment-rule.md).
+9.  To create an assignment rule instead of using the default rule, see [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/create-assignment-rule.md).
 
 
--   **[Request type form](../reference/request-type-form.md)**  
+-   **[Request type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/request-type-form.md)**  
 Use the Request Type form in the Compliance Case Management application to categorize the compliance requests by their type.
 
-**Parent Topic:**[Configuring Compliance Case Management](../concept/configure-compliance-case-management.md)
+**Parent Topic:**[Configuring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/compliance-case-management/configure-compliance-case-management.md)
 

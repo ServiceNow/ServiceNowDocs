@@ -2,6 +2,7 @@
 title: View Log fields and description
 description: The knowledge View log stores the history of knowledge articles views and their usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/km-view-logs.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -32,5 +33,5 @@ The following table describes some of the fields in the View log.
 |Session Id|Unique identifier for user session.|
 |Times Viewed|How many times the article was viewed.|
 
-**Parent Topic:**[View knowledge logs](../task/view-knowledge-logs.md)
+**Parent Topic:**[View knowledge logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/view-knowledge-logs.md)
 

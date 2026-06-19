@@ -2,6 +2,7 @@
 title: Create a business rule to apply a custom table map configuration
 description: Create a business rule to enable import for your new custom table map configuration from and Project Portfolio Management \(PPM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-a-bussiness-rule-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -31,9 +32,9 @@ After you create a custom table map in Portfolio Planning integrations, create a
 
 2.  From the list of available business rules, locate and open the Sync Data from Execution to Alignment rule.
 
-3.  From the context menu \(![Context menu icon.](../images/context-menu-icon.png)\), perform an Insert and Stay operation on this business rule.
+3.  From the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: Context menu icon.\), perform an Insert and Stay operation on this business rule.
 
-    If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see [Allow insert options on records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/advanced-form-administration.md).
+    If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see Allow insert options on records.
 
 4.  On the business rule form, edit the following fields.
 

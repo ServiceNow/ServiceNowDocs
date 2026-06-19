@@ -2,6 +2,7 @@
 title: Archive certificate tasks
 description: In Version 1.1.7 Certificate Inventory and Management, the Data Archiver \[com.glide.auxdb\] plug-in performs daily operations to transfer data that is no longer required from primary tables to a designated set of archive tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/archive-cert-task.html
 release: australia
 product: Discovery
 classification: discovery

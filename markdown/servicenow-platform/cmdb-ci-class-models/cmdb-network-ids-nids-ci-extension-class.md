@@ -2,6 +2,7 @@
 title: Network Intrusion Detection System \(NIDS\) CI extension class
 description: The Network Intrusion Detection System \(NIDS\) \[cmdb\_ci\_nids\] class builds the relationships between passive network monitoring appliances, and the devices on the network that it discovers.​ A NIDS Manager manages the NIDS sensors that detect the devices and builds "detects::detected by” relationships between the NIDS records \(parent\) and the CIs it discovers \(child\).​
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-network-ids-nids-ci-extension-class.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -19,21 +20,21 @@ This topic lists the relevant classes that the CMDB CI Class Models app adds or 
 
 CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Network Intrusion Detection System \(NIDS\) schema structure​
 
-![NIDS schema structure.](../image/nids-appliance-model.png)
+\[Omitted image "nids-appliance-model.png"\] Alt text: NIDS schema structure.
 
 ## Classes
 
 This section lists the classes that the CMDB CI Class Models app adds or updates.See the class columns table for further details about the columns added for each class.
 
-CMDB CI Class Models: Release 1.30 adds the following classes for the Network Intrusion Detection System \(NIDS\). For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](../reference/cmdb-tables-details.md).
+CMDB CI Class Models: Release 1.30 adds the following classes for the Network Intrusion Detection System \(NIDS\). For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
 |Class|Extends|Description|
 |-----|-------|-----------|

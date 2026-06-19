@@ -2,6 +2,7 @@
 title: Configure AI Control Tower
 description: Configuring the AI Control Tower for Now Assist from the Configurations page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/configuring-ai-governance.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -22,7 +23,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
-1.  Navigate to the **Configurations** view in the AI Control Tower.
+1.  Navigate to the **Workspaces &gt;** **AI Control Tower &gt;** **Configuration** view in the AI Control Tower.
 
 2.  Expand **Data** and select **Opt in** under **Data sharing**.
 

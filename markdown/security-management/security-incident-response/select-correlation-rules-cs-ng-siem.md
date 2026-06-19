@@ -2,6 +2,7 @@
 title: Set correlation rules
 description: After creating a CrowdStrike Next-Gen SIEM detection profile, select correlation rules to map corresponding detections to a security incident. Correlation rules are refreshed every time a profile is opened and new rules are available for selection. The CrowdStrike Next-Gen SIEM integration supports multiple profiles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/select-correlation-rules-cs-ng-siem.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -44,5 +45,5 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 ## What to do next
 
-Map individual CrowdStrike Next-Gen SIEM detection fields to the fields on the ServiceNow AI Platform Security Incident Response security incident. For more information, see [Map detection fields](map-crowdstrike-next-gen-inc.md).
+Map individual CrowdStrike Next-Gen SIEM detection fields to the fields on the ServiceNow AI Platform Security Incident Response security incident. For more information, see [Map detection fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/map-crowdstrike-next-gen-inc.md).
 

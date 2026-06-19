@@ -2,6 +2,7 @@
 title: GRC Approval Configurator for approving policy exceptions and extensions
 description: Users can now manage policy exceptions and extensions with granular, multi-level approval flows using the GRC Approval Configurator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/grc-approval-configurator-for-policy-extension-and-exception.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -56,8 +57,8 @@ Approved exceptions can be extended through a similar approval process. Extensio
 
 You can set up the approval rules using the Approval Configurator:
 
--   Enable the GRC Approval Configurator from the Policy and Compliance Properties page. For more information, see [Enable GRC Approval Configurator](../task/enable-grc-approval-configurator.md).
--   Configure granular approval rules for policy exceptions and extensions using the GRC Approval Configurator. For more information, see [Define policy exception and extension rules](../task/define-policy-exception-verification-rules.md).
+-   Enable the GRC Approval Configurator from the Policy and Compliance Properties page. For more information, see [Enable GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/enable-grc-approval-configurator.md).
+-   Configure granular approval rules for policy exceptions and extensions using the GRC Approval Configurator. For more information, see [Define policy exception and extension rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
 -   -   
 ## Roles required for configuring policy exceptions and extensions
 
@@ -66,10 +67,10 @@ Users must have the following roles:
 -   sn\_compliance.manager to create approval rules.
 -   sn\_grc.business\_user or sn\_grc.business\_user\_lite to view exception and extension records.
 
--   **[Enable GRC Approval Configurator](../task/enable-grc-approval-configurator.md)**  
+-   **[Enable GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/enable-grc-approval-configurator.md)**  
 Enable the GRC Approval Configurator from the Policy and Compliance Properties page.
--   **[Define policy exception and extension rules](../task/define-policy-exception-verification-rules.md)**  
+-   **[Define policy exception and extension rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md)**  
 Configure granular approval rules for policy exceptions and extensions using the GRC Approval Configurator.
 
-**Parent Topic:**[Policy and Compliance Management enhancement steps](../../grc-policy-compliance-implementation/concept/policy-compliance-optional-steps.md)
+**Parent Topic:**[Policy and Compliance Management enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md)
 

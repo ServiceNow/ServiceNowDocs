@@ -1,12 +1,13 @@
 ---
 title: Zero Copy Connector for ERP roles
-description: Administrators assign roles to give team members permission to configure or use Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+description: Assign Zero Copy Connector for ERP roles to give team members the access they must have to configure ERP systems, build models, or read ERP data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-roles.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-06-08"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, role]
 breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -14,13 +15,13 @@ breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 
 # Zero Copy Connector for ERP roles
 
-Administrators assign roles to give team members permission to configure or use Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+Assign Zero Copy Connector for ERP roles to give team members the access they must have to configure ERP systems, build models, or read ERP data.
 
-**Important:** When you assign Zero Copy Connector for ERP \(Enterprise Resource Planning\) roles to a user, you must include the scope. For example, assign the `sn_erp_integration.erp_admin` role, not just `erp_admin`.
+**Important:** When you assign Zero Copy Connector for ERP \(Enterprise Resource Planning\) roles to a user, you must include the scope. For example, assign the sn\_erp\_integration.erp\_admin role, not just erp\_admin.
 
-For more on assigning roles, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+For more on assigning roles, see .
 
-To learn more about product-specific \(granular\) admin roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
+To learn more about product-specific \(granular\) admin roles, see .
 
 ## Zero Copy Connector for ERP roles
 
@@ -50,7 +51,7 @@ Grants the user access to updating the application setup.
 
 Granular admin role for Zero Copy Connector for ERP that contains the sn\_erp\_integration.erp\_user role.
 
- For more information on working with granular roles, see [Platform security granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/platsec-granular-roles.md).
+ For more information on working with granular roles, see .
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ Contains sn\_erp\_integration.erp\_data\_pill and import\_admin.
 </td></tr></tbody>
 </table>## Additional ERP data model roles
 
-If users need access to work with specific ERP data models, such as purchasing or invoices, assign them the following roles for Zero Copy Connector for ERP.
+Assign the following roles to give users access to specific ERP data models, such as purchasing or invoices, in Zero Copy Connector for ERP.
 
 |Persona|Role|
 |-------|----|
@@ -145,5 +146,5 @@ If users need access to work with specific ERP data models, such as purchasing o
 |Vendor invoice user|sn\_erp\_integration.sap\_vendor\_invoice\_user|
 |Vendor user|sn\_erp\_integration.sap\_vendor\_user|
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](../concept/erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

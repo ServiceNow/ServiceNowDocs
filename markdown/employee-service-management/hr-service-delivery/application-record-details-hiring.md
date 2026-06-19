@@ -2,6 +2,7 @@
 title: Tracking an application record from the Hiring tab
 description: Track an application on a job requisition and view its corresponding details as a hiring manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/application-record-details-hiring.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -30,7 +31,7 @@ The **Overview** tab displays the applicant details that include the basic infor
 
 The **Interview** tab lists all the interviews scheduled with the applicant with details such as interview name, type, state, start time, and duration. You can select an interview from the list to navigate to the interview record page and view the interview details, attendee list, and feedback received for the applicant.
 
-The **Feedback** tab displays the feedback received for the various interviews scheduled with the applicant. As a hiring manager, if you're one of the interviewers, you can select **Provide feedback** to [share your feedback](../task/provide-interview-feedback-hm-interviewer.md) with the recruiter. If needed, you can also edit your feedback.
+The **Feedback** tab displays the feedback received for the various interviews scheduled with the applicant. As a hiring manager, if you're one of the interviewers, you can select **Provide feedback** to [share your feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/provide-interview-feedback-hm-interviewer.md) with the recruiter. If needed, you can also edit your feedback.
 
-**Parent Topic:**[Using Hiring](use-hiring.md)
+**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
 

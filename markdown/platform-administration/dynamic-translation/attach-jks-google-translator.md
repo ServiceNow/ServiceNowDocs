@@ -2,6 +2,7 @@
 title: Attach a Java KeyStore certificate to Google Cloud Translator Service spoke
 description: Enable the JWT client authentication by attaching a valid Java KeyStore \(JKS\) certificate to Google Cloud Translator Service spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/attach-jks-google-translator.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -36,19 +37,19 @@ Enable the JWT client authentication by attaching a valid Java KeyStore \(JKS\) 
     |Active|Option to activate the certificate.|
     |Type|Type of the certificate. Select **Java Key Store**.|
     |Expires in days|Number of days until the certificate expires.|
-    |Key store password|Password to access the certificate. Use the destination keystore password specified when creating the JKS certificate. For more information on this password, see [Create a Java KeyStore certificate](create-jks-google.md).|
+    |Key store password|Password to access the certificate. Use the destination keystore password specified when creating the JKS certificate. For more information on this password, see [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-jks-google.md).|
     |Short description|Summary about the certificate.|
 
-4.  Click the manage attachments icon \(![Attachments icon](../image/attachments-icon.png)\) and attach a JKS certificate.
+4.  Click the manage attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon\) and attach a JKS certificate.
 
 5.  To validate the JKS certificate, click **Validate Stores/Certificates**.
 
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Set up the Google Cloud Translator Service spoke](setup-google-translator.md)
+**Parent Topic:**[Set up the Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/setup-google-translator.md)
 
-**Previous topic:**[Create a Java KeyStore certificate](create-jks-google.md)
+**Previous topic:**[Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-jks-google.md)
 
-**Next topic:**[Create a JWT signing key for Google Cloud Translator Service spoke](create-jwtkey-google.md)
+**Next topic:**[Create a JWT signing key for Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-jwtkey-google.md)
 

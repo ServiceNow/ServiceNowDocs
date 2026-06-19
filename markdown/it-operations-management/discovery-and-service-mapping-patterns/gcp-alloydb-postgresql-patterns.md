@@ -2,6 +2,7 @@
 title: Google Cloud Platform \(GCP\) AlloyDB for PostgreSQL discovery using patterns
 description: Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - AlloyDB for PostgreSQL pattern to discover AlloyDB for PostgreSQL during horizontal discovery. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/gcp-alloydb-postgresql-patterns.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -18,7 +19,7 @@ Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - 
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud discovery using Patterns](gcp-cloud-discovery-patterns.md).
+Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -199,9 +200,9 @@ IP address for the Instance, which is the endpoint for an end-user application.
 </td></tr></tbody>
 </table>On the Dependency Views map, you can view all discovered AlloyDB for PostgreSQL resources in your organization and the relationships between them.
 
-![AlloyDB for PostgreSQL instance CIs and connections on a Dependency View map](../image/gcp-alloydb-postgressql-instance-dependency-view.png "AlloyDB for PostgreSQL instance dependency view")
+\[Omitted image "gcp-alloydb-postgressql-instance-dependency-view.png"\] Alt text: AlloyDB for PostgreSQL instance CIs and connections on a Dependency View map
 
-![AlloyDB for PostgreSQL Cluster CIs and connections on a Dependency View map](../image/gcp-alloydb-postgressql-cluster-depndency-view.png "AlloyDB for PostgreSQL Cluster dependency view")
+\[Omitted image "gcp-alloydb-postgressql-cluster-depndency-view.png"\] Alt text: AlloyDB for PostgreSQL Cluster CIs and connections on a Dependency View map
 
 ## CI relationships
 
@@ -228,5 +229,5 @@ The Google Cloud Platform \(GCP\) - AlloyDB for PostgreSQL pattern collects tags
 |Configuration item \[configuration\_item\]|References the Cloud DataBase \[cmdb\_ci\_cloud\_database\] table|
 |Configuration item \[configuration\_item\]|References the Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\] table|
 
-**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](gcp-cloud-discovery-patterns.md)
+**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
 

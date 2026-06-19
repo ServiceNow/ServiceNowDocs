@@ -2,6 +2,7 @@
 title: Discovery API plugin
 description: The Discovery API plugin provides APIs for scoped applications and is loaded when the Discovery plugin is activated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-api-plugin.html
 release: australia
 product: Discovery
 classification: discovery
@@ -38,5 +39,5 @@ Details about these [Discovery API methods](https://developer.servicenow.com/app
     -   **getIssuesLink\(\)**: Used to return the value from the issues\_link field in the discovery\_device\_history table for the CI being scanned.
     -   **toJson\(\)**: Used to serialized the **ReportCiStatusOutputJS** object.
 
-**Parent Topic:**[Advanced Discovery configuration](c_DiscoveryExtendedCapabilities.md)
+**Parent Topic:**[Advanced Discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/c_DiscoveryExtendedCapabilities.md)
 

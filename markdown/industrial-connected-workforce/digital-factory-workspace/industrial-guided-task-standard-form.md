@@ -2,6 +2,7 @@
 title: Industrial Guided Task standard form
 description: The following table describes the field values for the Industrial Guided Task standard form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-standard-form.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -287,5 +288,5 @@ Version
 Filter by standard version to compare execution results across versions and track how changes affect performance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Guided Tasks reference](industrial-guided-tasks-reference.md)
+</table>**Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
 

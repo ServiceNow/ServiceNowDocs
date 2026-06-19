@@ -2,6 +2,7 @@
 title: Collect operational values for datacenter
 description: Record and update operational values manually for datacenters performance tracking in the Telecommunications Network Inventory application. You can use this data for further analysis and reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/enter-operational-values-data-center.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -27,11 +28,11 @@ Enter the operational data for power and temperature manually and store it in th
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.k
 
-2.  Select the list icon \(![List icon.](../image/ni-workspace-list-icon.png)\), and then go to **Inventory** &gt; **Racks**.
+2.  Select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List icon.\), and then go to **Inventory** &gt; **Racks**.
 
 3.  Select the rack that you want to update operational data.
 
-4.  Select the more options icon \(![More Options Icon.](../../tmt-order-mgt/image/more-options.png)\) and then select **Collect Operational Data**.
+4.  Select the more options icon \(\[Omitted image "more-options.png"\] Alt text: More Options Icon.\) and then select **Collect Operational Data**.
 
 5.  On the form, fill in the fields.
 
@@ -50,5 +51,5 @@ Enter the operational data for power and temperature manually and store it in th
 
 The instance stores the operational data in the clothoDB.
 
-**Parent Topic:**[Configuring capacity management](../concept/configuring-capacity-management.md)
+**Parent Topic:**[Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)
 

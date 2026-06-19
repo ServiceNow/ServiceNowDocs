@@ -2,7 +2,10 @@
 title: Outsourced Service Provider dashboard
 description: The Outsourced Service Provider dashboard enables monitoring of breached service-level agreements \(SLAs\), average resolution time, and case transfer percentages, among other metrics. You can utilize the insights to identify the areas of concern and to plan your case management strategy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ocs-dashboard.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -19,7 +22,7 @@ To access the new Outsourced Service Provider dashboard, navigate to **All** &gt
 
 However, existing customers on release versions prior to the Xanadu release can still view the old Outsourced Service Provider dashboard by navigating to **All** &gt; **Outsourced Customer Service** &gt; **Overview**.
 
-![Outsourced Service Provider dashboard displaying data for all the service providers. For more information about different metrics, refer to the Indicators section.](../image/ocs-dashboard.jpeg "Outsourced Service Provider dashboard")
+\[Omitted image "ocs-dashboard.jpeg"\] Alt text: Outsourced Service Provider dashboard displaying data for all the service providers. For more information about different metrics, refer to the Indicators section.
 
 ## End user and roles
 
@@ -43,7 +46,7 @@ The number of cases that are in the open state.
 
 **Outsourced cases: Average overall CSAT**
 
-Average customer satisfaction \(CSAT\) based on survey results. For more information about CSAT, see [Customer service satisfaction surveys](https://servicenow.com/docs/bundle/vancouver-customer-service-management/page/product/customer-service-management/concept/c_CustomerServiceSatisfactionSurvey.html).
+Average customer satisfaction \(CSAT\) based on survey results. For more information about CSAT, see [Customer service satisfaction surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceSatisfactionSurvey.md).
 
 **Outsourced cases: Number of resolved cases**
 
@@ -65,6 +68,6 @@ The Outsourced Service Provider dashboard utilizes the outsourced service provid
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Unassigned Open Cases|![Single score report](../../reporting/image/icon-single-score-report.png)|The number of cases that are in the open state and isn’t yet assigned to an OSP agent. In this report, for example, there are 42 cases that are yet to be assigned. The OSP manager views the number of such cases at a glance and assigns them.|
-|Active SLAs Breached|![Single score report.](../../reporting/image/icon-single-score-report.png)|This report shows all breached SLAs that are still active In this report, for example, there are 42 such active SLAs. The OSP manager views the number of breached SLAs at a glance, which helps in taking immediate action.|
+|Unassigned Open Cases|\[Omitted image "icon-single-score-report.png"\] Alt text: Single score report|The number of cases that are in the open state and isn’t yet assigned to an OSP agent. In this report, for example, there are 42 cases that are yet to be assigned. The OSP manager views the number of such cases at a glance and assigns them.|
+|Active SLAs Breached|\[Omitted image "icon-single-score-report.png"\] Alt text: Single score report.|This report shows all breached SLAs that are still active In this report, for example, there are 42 such active SLAs. The OSP manager views the number of breached SLAs at a glance, which helps in taking immediate action.|
 

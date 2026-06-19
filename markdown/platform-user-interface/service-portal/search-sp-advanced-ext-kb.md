@@ -2,11 +2,12 @@
 title: Tutorial: set up an external knowledge base search source
 description: Define an advanced search source to return data from any source on the Internet. To understand the power of search sources, follow this tutorial to set up an external knowledge base search source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/search-sp-advanced-ext-kb.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Define a search source, Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -45,7 +46,7 @@ In this integration, you will:
 
     1.  Define the search function to be executed by the instance.
 
-        This example uses a [Recordless RESTMessageV2 example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/r_RecordlessRESTMessageV2Example.md), but you can modify this example to use a pre-configured [Outbound REST web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundRESTWebService.md) if needed, or create a more secure authentication profile.
+        This example uses a Recordless RESTMessageV2 example, but you can modify this example to use a pre-configured Outbound REST web service if needed, or create a more secure authentication profile.
 
         ```
         (function(query) {  
@@ -63,7 +64,7 @@ In this integration, you will:
         })(query);
         ```
 
-        **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the remote instance. For more detail, see [RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) .
+        **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the remote instance. For more detail, see RESTMessageV2 - Scoped, Global .
 
     2.  Add an if statement to the data fetch script to decode the JSON object being returned, iterate over each result, and set expected fields.
 
@@ -125,11 +126,11 @@ In this integration, you will:
 
 Test the external search in your portal. Results display under the name field value defined in step three.
 
-![An external search source in the search page](../image/external-search-source-result.png)
+\[Omitted image "external-search-source-result.png"\] Alt text: An external search source in the search page
 
 Each search result opens in the external site defined in the search page template.
 
-![A single search result from the external search source](../image/ext-knowledge-result.png)
+\[Omitted image "ext-knowledge-result.png"\] Alt text: A single search result from the external search source
 
-**Parent Topic:**[Define a search source](add-table-search-source.md)
+**Parent Topic:**[Define a search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-table-search-source.md)
 

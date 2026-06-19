@@ -2,6 +2,7 @@
 title: Request ITSM Roles - Request Management
 description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles — Request Management plugin \(com.snc.itsm.roles.request\_management\) to gain more control over the access that different service desk agents, technicians, and managers have within your Request Management process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/request-management/request-itsm-roles-rm.html
 release: australia
 product: Request Management
 classification: request-management
@@ -117,7 +118,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -135,8 +136,8 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
--   **[Components installed with ITSM Roles — Request Management](req-mgmnt-roles-instld-itsm.md)**  
+-   **[Components installed with ITSM Roles — Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/req-mgmnt-roles-instld-itsm.md)**  
 Several user roles are installed with the activation of the ITSM Roles - Request Management plugin \(com.snc.itsm.roles.request\_management\).
 
-**Parent Topic:**[Request Management reference](../../request-management/concept/request-management-reference.md)
+**Parent Topic:**[Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/request-management/request-management-reference.md)
 

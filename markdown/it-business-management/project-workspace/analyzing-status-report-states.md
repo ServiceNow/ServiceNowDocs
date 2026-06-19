@@ -2,6 +2,7 @@
 title: Status report tracking by status
 description: Status reports in Project Workspace use draft and published status to help project managers manage report readiness and stakeholder visibility.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/analyzing-status-report-states.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -43,5 +44,5 @@ The draft and published status provide clear value for both project managers and
 -   Better communication, helping stakeholders trust the accuracy and readiness of published reports.
 -   Simple state management without introducing workflow automation or approval dependencies.
 
-**Parent Topic:**[Create a status report in Project Workspace](../task/create-a-status-report-in-project-workspace.md)
+**Parent Topic:**[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 

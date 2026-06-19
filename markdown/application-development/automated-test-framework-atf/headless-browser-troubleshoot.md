@@ -2,6 +2,7 @@
 title: Headless Browser troubleshooting
 description: These tips can help you troubleshoot your Linux or Microsoft Windows setup of the ServiceNow Headless Browser for Automated Test Framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/headless-browser-troubleshoot.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -33,7 +34,7 @@ Firewalls: Make sure your firewalls are set up so that the instance can access t
 
 ## Headless Browser action flow diagram
 
-![Workflow of headless browser](../image/headless-browser-workflow-diagram.png "Example flow diagram")
+\[Omitted image "headless-browser-workflow-diagram.png"\] Alt text: Workflow of headless browser
 
-**Parent Topic:**[Headless Browser for Automated Test Framework](atf-headless-browser.md)
+**Parent Topic:**[Headless Browser for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-headless-browser.md)
 

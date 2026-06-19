@@ -2,6 +2,7 @@
 title: Configure KPIs for ITSM work items in the Process Mining dashboard
 description: Add the desired Key Performance Indicators \(KPIs\) to monitor the performance of the ITSM work items in the Process Mining Summary and insights page. Remove the indicators that you no longer want to use.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/configure-kpi-itsm-po.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -17,7 +18,7 @@ Add the desired Key Performance Indicators \(KPIs\) to monitor the performance o
 
 ## Before you begin
 
-**Important:** This feature is available with the ServiceNow Store Process Mining ITSM content pack v1.2. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+**Important:** This feature is available with the ServiceNow Store Process Mining ITSM content pack v1.2. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Role required: Administrator
 
@@ -33,7 +34,7 @@ Role required: Administrator
     |**Change Management**|Performance Analytics - Content Pack - Change Management \(com.snc.pa.change\)|
     |**Request Management**|Performance Analytics - Content Pack - Request Management \(com.snc.pa.request\)|
 
-2.  [Add the desired indicator data source](../../../use/performance-analytics/concept/c_IndicatorSources.md#) to the Summary and insights page.
+2.  [Add the desired indicator data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_IndicatorSources.md) to the Summary and insights page.
 
     The KPIs listed in the following table are available by default.
 
@@ -87,5 +88,5 @@ Requested item
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Content pack for ITSM](../concept/itsm-proc-opti-content-pack.md)
+**Parent Topic:**[Content pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/itsm-proc-opti-content-pack.md)
 

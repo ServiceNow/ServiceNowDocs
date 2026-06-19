@@ -2,6 +2,7 @@
 title: AWS Resource Inventory discovery with Patterns
 description: The ServiceNow Discovery and Service Mapping applications can find and map the AWS resources available by AWS Config Service. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/aws-resource-inventory.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -21,7 +22,7 @@ You can use this pattern on the ServiceNow platform using London \(Patch 8\), Ma
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -96,7 +97,7 @@ The AWS Resource Inventory pattern creates the following CI relationship:
 
 The following is a dependency view of the collected data flow.
 
-![AWS Resource Inventory dependency view](../image/aws-resource-inventory.png "AWS Resource Inventory dependency view")
+\[Omitted image "aws-resource-inventory.png"\] Alt text: AWS Resource Inventory dependency view
 
-**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

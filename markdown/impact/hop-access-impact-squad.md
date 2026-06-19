@@ -2,7 +2,10 @@
 title: Grant temporary instance access to your Impact Squad
 description: Familiarize yourself with your ServiceNow Impact Squad, a dedicated team of experts ready to assist in tackling your team's unique transformation challenges. View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/hop-access-impact-squad.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -31,7 +34,7 @@ Role required: impact\_platform\_owner or admin
 
 2.  In the Your Impact Squad widget, select **View Squad access to your instance**.
 
-    ![Squad access tile on the Impact homepage](../image/squad-access.png)
+    \[Omitted image "squad-access.png"\] Alt text: Squad access tile on the Impact homepage
 
     Squad access to your instance displays Impact Squad member information and access fields.
 
@@ -92,16 +95,16 @@ Date access to the instance expires for the squad member.
 
 4.  Select to **Approve**, **Reject**, or **Remove** access.
 
-    ![Dialog box with the Approve or Reject buttons.](../image/grant-squad-access.png)
+    \[Omitted image "grant-squad-access.png"\] Alt text: Dialog box with the Approve or Reject buttons.
 
 
 ## What to do next
 
-Refer to [Using Impact](../concept/impact-in-app.md) to get started with the Impact Store Application.
+Refer to [Using Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/impact-in-app.md) to get started with the Impact Store Application.
 
-**Parent Topic:**[Configure the Impact Store Application](../concept/configuring-impact-platform.md)
+**Parent Topic:**[Configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configuring-impact-platform.md)
 
-**Previous topic:**[Initiate data migration from IDI](initiate-migration-idi.md)
+**Previous topic:**[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-other-integration-options.md)
 
-**Next topic:**[Activate Now Assist skills in Now Assist for Impact](../concept/activate-now-assist-skills-in-now-assist-for-impact_0.md)
+**Next topic:**[Activate Now Assist skills in Now Assist for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)
 

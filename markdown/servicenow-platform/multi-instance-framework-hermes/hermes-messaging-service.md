@@ -2,6 +2,7 @@
 title: Hermes Messaging Service
 description: The Hermes Messaging Service enables you to integrate your Apache Kafka environment with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service.html
 release: australia
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
@@ -19,27 +20,27 @@ The Hermes Messaging Service enables you to integrate your Apache Kafka environm
 
 <table id="table_o4z_2km_5wb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Hermes Messaging Service benefits, use cases and limitations.](exploring-hermes-messaging-service.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Hermes Messaging Service benefits, use cases and limitations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/exploring-hermes-messaging-service.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn about activation and set up a secure connection.](configuring-hermes-messaging-service.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn about activation and set up a secure connection.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/configuring-hermes-messaging-service.md)
 
 </td><td>
 
-[Produce and consume messages![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Learn about producing and consuming Kafka messages.](exchanging-data-hermes-messaging-service.md)
+[Produce and consume messages\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Learn about producing and consuming Kafka messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/exchanging-data-hermes-messaging-service.md)
 
 </td></tr><tr><td>
 
-[Manage namespaces and topics![](../../../reuse/icons/brand-icons/bus-manage.svg)Manage namespaces and topics in Hermes.](managing-namespaces-topics-hermes.md)
+[Manage namespaces and topics\[Omitted image "bus-manage.svg"\] Alt text:Manage namespaces and topics in Hermes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/managing-namespaces-topics-hermes.md)
 
 </td><td>
 
-[Administer![](../../../reuse/icons/brand-icons/bus-elevate.svg)View diagnostics and inspect topics.](hermes-messaging-service-administration.md)
+[Administer\[Omitted image "bus-elevate.svg"\] Alt text:View diagnostics and inspect topics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-administration.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about Hermes Messaging Service components and the security model.](hermes-messaging-service-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about Hermes Messaging Service components and the security model.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-reference.md)
 
 </td></tr></tbody>
 </table>

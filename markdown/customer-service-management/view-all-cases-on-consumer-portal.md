@@ -1,8 +1,11 @@
 ---
 title: View all cases from the Consumer Portal
-description: View a list of all cases from the Consumer Portal and select any record to see more detail.
+description: View all cases submitted from the Consumer Portal, including case details, agent conversations, and current status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-all-cases-on-consumer-portal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -11,7 +14,7 @@ breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service 
 
 # View all cases from the Consumer Portal
 
-View a list of all cases from the Consumer Portal and select any record to see more detail.
+View all cases submitted from the Consumer Portal, including case details, agent conversations, and current status.
 
 ## Before you begin
 

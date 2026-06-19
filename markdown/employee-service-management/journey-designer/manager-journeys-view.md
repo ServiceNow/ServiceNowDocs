@@ -2,6 +2,7 @@
 title: Journey view for a manager
 description: As a manager, here's how you can view all your journeys and your team's journeys in Journey designer on the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/manager-journeys-view.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -19,11 +20,11 @@ The Journeys page on Employee Center portal provides you with a bird's eye view 
 
 ## My team's journeys
 
-The My team's journeys is the first page that you see when you access Journeys after navigating from Employee Center. Use this page to quickly identify journeys that are assigned to your team, visualize recent progress. You can also create journeys, see [Create a journey](../task/jny-dsgnr-create-journey.md)
+The My team's journeys is the first page that you see when you access Journeys after navigating from Employee Center. Use this page to quickly identify journeys that are assigned to your team, visualize recent progress. You can also create journeys, see [Create a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-create-journey.md)
 
 ## My journeys
 
-Use the My journeys tab to view tasks that need your attention on the **Your next tasks** widget, see [View and update your next tasks](../task/view-your-next-tasks-jd.md). You can also view all of the other journeys assigned to you, and view each one or update the status, see [Journey view for an employee](../task/view-journey-overview.md).
+Use the My journeys tab to view tasks that need your attention on the **Your next tasks** widget, see [View and update your next tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/view-your-next-tasks-jd.md). You can also view all of the other journeys assigned to you, and view each one or update the status, see [Journey view for an employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/view-journey-overview.md).
 
 ## Involved journeys
 
@@ -31,9 +32,9 @@ Use the Involved journeys tab to stay on track and updated about they journeys t
 
 ## Task templates
 
-Use the Task templates tab to create templates of tasks, such as scheduling a meeting or taking a learning course, to assign to employees' journeys. For more information, see [Create a task template](../task/jny-dsgnr-create-task-template.md).
+Use the Task templates tab to create templates of tasks, such as scheduling a meeting or taking a learning course, to assign to employees' journeys. For more information, see [Create a task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-create-task-template.md).
 
 **Note:** As an admin, you have the option to hide the Task templates widget from the journey widget configuration page.
 
-**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](jny-working-with-journeys.md)
+**Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

@@ -2,6 +2,7 @@
 title: Diagnose user access to a knowledge base
 description: Identify which users have access to a knowledge base and what enables that access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/diagnose-access-criteria-at-kb-level.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -66,7 +67,7 @@ From a knowledge base
         The page displays these details:
 
         -   Whether the user has access to the knowledge base based on their domain. Only system administrators can view domain information and change the domain to give access to a user.
-        -   Which user criteria provides read or read and contribute access for this user to the knowledge base and what type of [user criteria definition](t_SelectUserCriteria.md) enables this access.
+        -   Which user criteria provides read or read and contribute access for this user to the knowledge base and what type of [user criteria definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/t_SelectUserCriteria.md) enables this access.
         -   Whether a role that the user has \(knowledge\_manager, knowledge\_admin, or owner of the knowledge base\) enables this access.
         -   For a user with no access to this knowledge base, which user criteria may be modified to grant the access.
 
@@ -81,7 +82,7 @@ Alena can get access to the knowledge base if:
 
 Click the IT knowledge base link and provide the access by adding Alena to a user criteria for this knowledge base.
 
-![User criteria diagnosis for a knowledge base.](../image/user-crit-diag-kb.png)
+\[Omitted image "user-crit-diag-kb.png"\] Alt text: User criteria diagnosis for a knowledge base.
 
-**Parent Topic:**[User criteria diagnostics for Knowledge Management](../concept/diagnose-knowledge-user-criteria.md)
+**Parent Topic:**[User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md)
 

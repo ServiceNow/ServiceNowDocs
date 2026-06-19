@@ -1,23 +1,24 @@
 ---
-title: Create AI connection for Azure Foundry
+title: Create an AI connection for Azure AI Foundry
 description: Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-azure-foundry.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Create AI connection for Azure Foundry
+# Create an AI connection for Azure AI Foundry
 
 Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft.
 
 ## Before you begin
 
-Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
+Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 Account &amp; Resource Hierarchy
 
@@ -33,24 +34,24 @@ Discovered per agent
 
 For each agent discovered across all three variants, the connector collects:
 
--   **AI Agents \(assistants\)**- The primary entity.
--   **AI Models**- Deployed models \(GPT-4o, Llama, Claude, etc.\) via deployment enrichment.
--   **AI Prompts**- System instructions attached to agents.
--   **AI Tools**- With type coverage varying by variant:
+-   AI Agents \(assistants\)- The primary entity.
+-   AI Models- Deployed models \(GPT-4o, Llama, Claude, etc.\) via deployment enrichment.
+-   AI Prompts- System instructions attached to agents.
+-   AI Tools- With type coverage varying by variant:
     -   ML &amp; AI Services: `functions`, `connected_agent`, others
     -   New Foundry adds: `mcp`, `openapi`, `a2a_preview`
--   **Sub-component Relationships**- M2M links between agents and their sub agents/tools
--   **Usage/Execution Metrics**- Aggregated run counts by agent, date, and session.
+-   Sub-component Relationships- M2M links between agents and their sub agents/tools
+-   Usage/Execution Metrics- Aggregated run counts by agent, date, and session.
 
 ## Procedure
 
 1.  Navigate to **Al Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
 
-2.  Select **Add**.
+2.  Click **Add**.
 
 3.  Select **AI connector for Microsoft** from all the available connectors.
 
-4.  Select **Create connection**.
+4.  Click **Create connection**.
 
 5.  Select Azure Foundry check box.
 
@@ -64,27 +65,27 @@ For each agent discovered across all three variants, the connector collects:
 
 9.  **Configure and test ML services connection**
 
-    1.  Enter the **Connection Name**.
+    1.  Enter the **Connection Name**
 
-    2.  Enter the **Connection URL** \(https://&lt;region&gt;api.azureml.ms\).
+    2.  Enter the **Region URL**
 
-        **Note:** The region is available under project details.
+        **Note:** The region field is optional. If the field is empty, it will discover for all the region or If you can give comma- separated value of regions \(e.g., eastus, westus2\).
 
-    3.  Enter the **OAuth client ID**OAuth client ID.
+    3.  Enter the **OAuth client ID**OAuth client ID
 
-    4.  Enter the **OAuth client secret**.
+    4.  Enter the **OAuth client secret**
 
-    5.  Enter the **OAuth token URL** \([https://login.microsoftonline.com/&lt;tenantid&gt;/oauth2/v2.0/token](https://login.microsoftonline.com/%3ctenantid%3e/oauth2/v2.0/token)\).
+    5.  Enter the **Tenant ID** \([https://login.microsoftonline.com/&lt;tenantid&gt;/oauth2/v2.0/token](https://login.microsoftonline.com/%3ctenantid%3e/oauth2/v2.0/token)\)
 
         The tenant id can be found in the URL of every page. It’s abbreviated as tid.
 
-    6.  Select **Update and test connection**
+    6.  Select **Create and test connection**
 
-    7.  Select **Continue**.
+    7.  Select **Continue**
 
 10. **Configure and test AI services connection**
 
-    1.  Enter the **Connection Name**.
+    1.  Enter the **Connection Name**
 
     2.  Enter the **Connection URL** \(https://&lt;resource-name&gt;services.ai.azure.com\)
 
@@ -92,28 +93,28 @@ For each agent discovered across all three variants, the connector collects:
 
         Starting from March 2026 onwards, ServiceNow provides support to the New Foundry along with the old Foundry.
 
-    3.  Enter the **OAuth client ID**.
+    3.  Enter the **OAuth client ID**
 
-    4.  Enter the **OAuth client secret**.
+    4.  Enter the **OAuth client secret**
 
-    5.  Enter the **OAuth token URL**.
+    5.  Enter the **OAuth token URL**
 
-11. **Configure import schedule**
+11. **Configure Azure import schedule**
 
     1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
 
-        verify to execute the Discovery-scheduled job first.
+        Ensure to execute the Discovery-scheduled job first.
 
-    2.  Select **Execute now** to run.
+    2.  Select **Execute now** to run
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    3.  Select **Continue**.
+    3.  Select **Continue**
 
-    4.  Select **View all connections** to view the newly created connection.
+    4.  Select **View all connections** to view the newly created connection
 
 
 ## Result
 
-An AI connection is created for Azure Foundry.
+The AI connection for Azure AI Foundry is created and configured.
 

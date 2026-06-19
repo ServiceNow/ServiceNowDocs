@@ -2,6 +2,7 @@
 title: Splunk Polling data input configuration fields
 description: Description of the fields on the Splunk Polling data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-splunk-polling-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -76,7 +77,7 @@ The MID Server cluster to which the log data is pulled. This field is required.T
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs or integrations streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs or integrations running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
+For more information about MID Server clusters, see Configure a MID Server cluster.
 
 </td></tr><tr><td>
 
@@ -84,7 +85,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [create a service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, create a service instance and add CIs to it. Set the status of the new service instance to Operational.
 
 </td></tr><tr><td>
 
@@ -170,7 +171,7 @@ Splunk Poll Credential Alias
 
 The credential alias to be used. Specify a Splunk Poll credential alias by selecting the magnifying glass icon and then either selecting an existing credential alias from the **Connection &amp; Credential Aliases** list, or selecting **New** to create a new record. The selected credential alias can hold one Basic Auth credential and one Token Auth credential.
 
-For information about creating a credential alias, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/discovery-credential-alias.md).
+For information about creating a credential alias, see Credential aliases for Discovery.
 
 </td></tr><tr><td>
 
@@ -194,5 +195,5 @@ The date and time until which Splunk searches the data.
 |Max documents per query|The maximum number of documents retrieved each time log data is fetched from Splunk. Default: 10,000.|
 |Splunk request timeout \(seconds\)|The maximum time, in seconds, allowed for data retrieval before the request times out.|
 
-**Parent Topic:**[Data input configuration fields](../concept/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

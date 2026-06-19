@@ -2,6 +2,7 @@
 title: Migrate automations to ServiceNow RPA Hub
 description: Migrate automations to ServiceNow RPA Hub with reduced cost and effort of your migration and improving your enterprise's efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/migrate-automations.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -25,7 +26,7 @@ When a technical user tries to either upload a ZIP file or provide a URL when ge
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
 
-2.  Select the Migration accelerator icon \(![Migration accelerator icon](../images/mig-acc-icon.png)\) on the side bar.
+2.  Select the Migration accelerator icon \(\[Omitted image "mig-acc-icon.png"\] Alt text: Migration accelerator icon\) on the side bar.
 
 3.  Select the report that has the automations you want to migrate.
 
@@ -41,7 +42,7 @@ When a technical user tries to either upload a ZIP file or provide a URL when ge
 
     -   Current Instance \(shows by default\): The logged-in user must have the rpa\_developer role, and the current instance must have app-rpa-foundation version 15.0.0 or later.
     -   Remote Instance \(Configured via Connection and Credentials alias\) - The user with whom the credentials are associated must have the rpa\_developer role and the remote instance must have app-rpa-foundation version 15.0.0 or later.
-    For information on how to configure an instance, see [Configure an instance for migration](../task/config-instance.md).
+    For information on how to configure an instance, see [Configure an instance for migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-instance.md).
 
 7.  Select **Continue**.
 
@@ -58,8 +59,8 @@ For every migrated automation, an automation request is created.
 
 The automation conversion depends on the complexity of the automation. The more complex the automation, the lower the conversion rate. All manual tasks that are required to convert the automation completely must be done on the target instance.
 
--   **[Configure an instance for migration](../task/config-instance.md)**  
+-   **[Configure an instance for migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-instance.md)**  
 Configure an instance to migrate your automations.
 
-**Parent Topic:**[Migrating automations from UiPath to ServiceNow RPA Hub](migrating-automations-from-uipath.md)
+**Parent Topic:**[Migrating automations from UiPath to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md)
 

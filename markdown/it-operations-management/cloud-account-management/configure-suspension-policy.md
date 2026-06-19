@@ -2,11 +2,12 @@
 title: Set up suspension of an AWS account using service control policy
 description: Set up a restriction on cloud account creation. For example, when the account owner isn’t in the organization or if there are budget constraints. Using Cloud Account Management, admin adds the account number to the AWS organization's service control policy, promoting existing accounts to continue to function normally while blocking new account creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/configure-suspension-policy.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Control Policy in AWS, Setting up AWS cloud, Configuring cloud providers, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -17,7 +18,7 @@ Set up a restriction on cloud account creation. For example, when the account ow
 
 ## Before you begin
 
-Verify you have saved the CloudFormation template. For more details, see [Configuring Service Control Policy in AWS](about-service-control-policy.md).
+Verify you have saved the CloudFormation template. For more details, see [Configuring Service Control Policy in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/about-service-control-policy.md).
 
 Role required: AWS admin
 
@@ -54,5 +55,5 @@ The key element that you must provide to the ServiceNow AI Platform admin is the
 
 ## What to do next
 
-[Provisioning modes for Cloud Account Management in Cloud Workspace](../concept/supported-provision-modes.md)
+[Provisioning modes for Cloud Account Management in Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/supported-provision-modes.md)
 

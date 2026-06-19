@@ -2,6 +2,7 @@
 title: Install the CCG Content Pack
 description: You can install the CCG Content Pack application \(sn\_itom\_ccg\_cp\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/install-ccg-content-pack.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -41,5 +42,5 @@ The CCG Content Pack provides the base system contents such as policies, resourc
 4.  Select **Install**.
 
 
-**Parent Topic:**[Exploring Cloud Configuration Governance](../concept/exploring-cloud-configuration-governance.md)
+**Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/exploring-cloud-configuration-governance.md)
 

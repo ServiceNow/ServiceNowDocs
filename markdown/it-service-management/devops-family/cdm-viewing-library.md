@@ -2,6 +2,7 @@
 title: Working on component libraries with a unified view
 description: The unified view of component libraries in the DevOps Config Workspace provides a single location to view and manage component libraries and the components within them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-viewing-library.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,7 +16,7 @@ breadcrumb: [Sharing components among applications — Component libraries, Usin
 
 The unified view of component libraries in the DevOps Config Workspace provides a single location to view and manage component libraries and the components within them.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Using the unified view, you can:
 
@@ -36,7 +37,7 @@ The following users can view and manage the component libraries and shared compo
 
 ## Accessing the component libraries
 
-To open the Component libraries, navigate to **All** &gt; **DevOps Config** &gt; **DevOps Config Workspace** and select the component libraries icon \(![Component libraries icon.](../image/icon-component-libraries.png)\).
+To open the Component libraries, navigate to **All** &gt; **DevOps Config** &gt; **DevOps Config Workspace** and select the component libraries icon \(\[Omitted image "icon-component-libraries.png"\] Alt text: Component libraries icon.\).
 
 ## Component libraries list
 
@@ -49,7 +50,7 @@ On the Component libraries list, you can review all component libraries and shar
 
 The following is an example of a unified view for Component libraries.
 
-![Unified view in DevOps Config Workspace to manage component libraries and shared components.](../image/cdm-comp-library-unified-view.png "Unified view in DevConfig Workspace to manage component libraries")
+\[Omitted image "cdm-comp-library-unified-view.png"\] Alt text: Unified view in DevOps Config Workspace to manage component libraries and shared components.
 
 ## Component library form
 
@@ -67,7 +68,7 @@ On the Component library form pane, you can review and manage your libraries and
 
 The following is an example of a component library form in the DevOps Config Workspace.
 
-![Component library form.](../image/cdm-comp-library-form.png "Component library form")
+\[Omitted image "cdm-comp-library-form.png"\] Alt text: Component library form.
 
 ## Shared component form
 
@@ -83,5 +84,5 @@ On the Shared component form pane, you can review and manage components within y
 
 The following is an example of a shared component form in the DevOps Config Workspace.
 
-![Shared component form.](../image/cdm-component-form.png "Component library form")
+\[Omitted image "cdm-component-form.png"\] Alt text: Shared component form.
 

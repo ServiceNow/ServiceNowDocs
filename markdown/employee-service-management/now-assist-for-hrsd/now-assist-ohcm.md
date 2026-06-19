@@ -2,6 +2,7 @@
 title: Now Assist for HRSD Virtual Agent topics
 description: Use the Now Assist Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -27,9 +28,9 @@ The Get User Paychecks Virtual Agent topic enables you to view your payslip deta
 
 From Employee Center, open a chat window and type in key words, for example, get payslips. After you provide the required details such as start date and end date, your payslip summary, in the form of pay period, gross pay, deductions, and net pay are displayed. A detailed breakdown of deductions is also displayed.
 
-![Get your payslip details](../image/get-my-payslips-1.png)
+\[Omitted image "get-my-payslips-1.png"\] Alt text: Get your payslip details
 
-![Get your payslip details](../image/get-my-payslips-2.png)
+\[Omitted image "get-my-payslips-2.png"\] Alt text: Get your payslip details
 
 ## Lookup Worker Profile
 
@@ -37,9 +38,9 @@ The Lookup Worker Profile Virtual Agent topic enables you to view the profile of
 
 From Employee Center, open a chat window and type in key words, for example, worker profile. After you have specified the details of coworkers, worker profile details of one or more users are displayed.
 
-![Request for your coworker details](../image/look-up-profile-1.png)
+\[Omitted image "look-up-profile-1.png"\] Alt text: Request for your coworker details
 
-![View your coworker details](../image/look-up-profile-2.png)
+\[Omitted image "look-up-profile-2.png"\] Alt text: View your coworker details
 
 ## Request Timeoff
 
@@ -47,9 +48,9 @@ The Request Timeoff Virtual Agent topic enables you to apply leave from Employee
 
 From Employee Center, open a chat window and type in key words, for example, request time off. After you have specified required details such as start date and end date, the time off request is sent to the configured HCM system.
 
-![Request time off 1](../image/time-off-NAHR-1.png)
+\[Omitted image "time-off-NAHR-1.png"\] Alt text: Request time off 1
 
-![Request time off 2](../image/time-off-NAHR-2.png)
+\[Omitted image "time-off-NAHR-2.png"\] Alt text: Request time off 2
 
 ## Add Expense
 
@@ -57,9 +58,9 @@ The Add Expense Virtual Agent topic enables you to submit an expense report from
 
 From Employee Center, open a chat window and type in key words, for example, add expense. After you have specified the required details such as type of expense, expense currency, expense amount, the expense report is submitted to the configured HCM system.
 
-![Submit an expense bill](../image/add-expense.png)
+\[Omitted image "add-expense.png"\] Alt text: Submit an expense bill
 
-![Submit an expense bill](../image/add-expense-2.png)
+\[Omitted image "add-expense-2.png"\] Alt text: Submit an expense bill
 
 ## Get Holiday Calendar
 
@@ -67,9 +68,9 @@ The Get Holiday Calendar Virtual Agent topic enables you to view your holiday ca
 
 From Employee Center, open a chat window and type in key words, for example, holiday calendar. After specifying the calendar year, the holiday calendar appears in Employee Center.
 
-![Get your holiday calendar](../image/get-holiday-1.png)
+\[Omitted image "get-holiday-1.png"\] Alt text: Get your holiday calendar
 
-![View your holiday calendar](../image/get-holiday-2.png)
+\[Omitted image "get-holiday-2.png"\] Alt text: View your holiday calendar
 
 ## Get Total Rewards
 
@@ -77,7 +78,7 @@ The Get Total Rewards Virtual Agent topic enables you to view your rewards from 
 
 From Employee Center, open a chat window and type in key words, for example, rewards. Your rewards are displayed in Employee Center.
 
-![View your total rewards](../image/get-total-rewards-2.png)
+\[Omitted image "get-total-rewards-2.png"\] Alt text: View your total rewards
 
 ## Lookup Feedback
 
@@ -85,7 +86,7 @@ The Lookup Feedback Virtual Agent topic enables you to view feedback you have re
 
 From Employee Center, open a chat window and type in key words, for example, Lookup Feedback. Your feedback, if available, is displayed.
 
-![Lookup feedback](../image/lookup-feedback.png)
+\[Omitted image "lookup-feedback.png"\] Alt text: Lookup feedback
 
 ## Lookup Benefit Enrolments
 
@@ -93,7 +94,7 @@ The Lookup Benefit Enrolments Virtual Agent topic enables you to view your benef
 
 From Employee Center, open a chat window and type in key words, for example, Lookup Benefit Enrolments. Your benefit programs, if available, are displayed.
 
-![Benefits enrolment](../image/va-b-enrolment.png)
+\[Omitted image "va-b-enrolment.png"\] Alt text: Benefits enrolment
 
 ## Update personal details
 
@@ -105,5 +106,5 @@ You can update personal details in Virtual Agent using one of the following topi
 -   Update Email Address
 -   Update Phone Number
 
-**Parent Topic:**[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](integ-now-assist-hrsd.md)
+**Parent Topic:**[Now Assist for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/integ-now-assist-hrsd.md)
 

@@ -1,19 +1,21 @@
 ---
 title: How Accounts Payable Operations integration with Document Intelligence works
-description: Accounts Payable Operations integration with Document Intelligence uses automated workflows to extract the required information from the invoice document received as an email attachment, creates an invoice record in Accounts Payable Operations, and adds the extracted information into the newly created invoice record.
+description: Document Intelligence uses automated workflows to extract invoice data from email attachments and populate invoice records in Accounts Payable Operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
+keywords: [APO, Accounts Payable Operations,, invoice capture, invoice processing, invoice ingestion, DocIntel, Document Intelligence, integration, email ingestion]
 breadcrumb: [Install Accounts Payable Operations integration with Document Intelligence, Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # How Accounts Payable Operations integration with Document Intelligence works
 
-Accounts Payable Operations integration with Document Intelligence uses automated workflows to extract the required information from the invoice document received as an email attachment, creates an invoice record in Accounts Payable Operations, and adds the extracted information into the newly created invoice record.
+Document Intelligence uses automated workflows to extract invoice data from email attachments and populate invoice records in Accounts Payable Operations.
 
 ## Invoice ingestion process flow when extraction confidence is high
 
@@ -28,10 +30,10 @@ When you receive an invoice as an attachment via email from a supplier or an emp
         -   If the required fields aren’t populated on the invoice, the Accounts Payable Specialist is required to open the invoice, manually enter the required values in the required fields, and submit the invoice.
         -   If the required fields are populated on the invoice, the invoice is auto-submitted.
     -   At least one invoice line record exists for the invoice. If not, the Accounts Payable Specialist must add an invoice line record and submit the invoice.
-    -   If a unique currency code isn’t identified during currency transformation, the process uses the currency mentioned in the purchase order. If the currency is missing in the purchase order, the transformation process uses the session currency based on the user's locale. In this case, the Accounts Payable Specialist is required to open the invoice processing case, and enter the correct currency code in the invoice fields and submit the invoice. For more information, see [Invoice data transformation logic](invoice-data-trans-logic.md).
-    For more information about the required fields for invoice and invoice lines, see [Required fields for creating an invoice](../reference/mandatory-fields-docintel.md).
+    -   If a unique currency code isn’t identified during currency transformation, the process uses the currency mentioned in the purchase order. If the currency is missing in the purchase order, the transformation process uses the session currency based on the user's locale. In this case, the Accounts Payable Specialist is required to open the invoice processing case, and enter the correct currency code in the invoice fields and submit the invoice. For more information, see [Invoice data transformation logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.md).
+    For more information about the required fields for invoice and invoice lines, see [Required fields for creating an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/mandatory-fields-docintel.md).
 
-    After the invoice is submitted, its state changes to Received. The invoice processing begins from this point. For more information, see [Work on an invoice processing case](../task/work-manual-invoice-ingestion-case.md).
+    After the invoice is submitted, its state changes to Received. The invoice processing begins from this point. For more information, see [Work on an invoice processing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-manual-invoice-ingestion-case.md).
 
 
 ## Invoice ingestion process flow when extraction confidence is low
@@ -41,7 +43,7 @@ When you receive an invoice as an attachment via email from a supplier or an emp
 1.  An invoice case is created with category **Invoice automation** and subcategory **Invoice processing** in Accounts Payable Operations.
 2.  If Document Intelligence determines that the extraction confidence is lower than the threshold value, it doesn’t extract the invoice data and as a consequence an invoice isn’t created.
 3.  In this scenario, the Accounts Payable Specialist must do the following:
-    1.  Open the invoice processing case created in [step 1](apm-docintel-how-it-works.md#ip-case-low).
+    1.  Open the invoice processing case created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-docintel-how-it-works.md).
 
         The case displays the following error message: Invoice has a data extraction error. Review invoice with automation to continue processing.
 
@@ -54,10 +56,10 @@ When you receive an invoice as an attachment via email from a supplier or an emp
         -   If the required fields aren’t populated on the invoice, the Accounts Payable Specialist is required to open the invoice, manually enter the required values in the required fields, and submit the invoice.
         -   If the required fields are populated on the invoice, the invoice is auto-submitted.
     -   At least one invoice line record exists for the invoice. If not, the Accounts Payable Specialist must add an invoice line record and submit the invoice.
-    -   A unique currency code exists on the invoice. If a unique currency code isn’t identified during currency transformation, the process uses the currency mentioned in the purchase order. If the currency is missing in the purchase order, then the transformation process uses the session currency based on the user's locale. In this case, the Accounts Payable Specialist is required to open the invoice processing case and enter the correct currency code in the invoice fields and submit the invoice. For more information, see [Invoice data transformation logic](invoice-data-trans-logic.md).
-    For more information about the required fields for invoice and invoice lines, see [Required fields for creating an invoice](../reference/mandatory-fields-docintel.md).
+    -   A unique currency code exists on the invoice. If a unique currency code isn’t identified during currency transformation, the process uses the currency mentioned in the purchase order. If the currency is missing in the purchase order, then the transformation process uses the session currency based on the user's locale. In this case, the Accounts Payable Specialist is required to open the invoice processing case and enter the correct currency code in the invoice fields and submit the invoice. For more information, see [Invoice data transformation logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.md).
+    For more information about the required fields for invoice and invoice lines, see [Required fields for creating an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/mandatory-fields-docintel.md).
 
-    After the invoice is submitted, its state changes to Received. The invoice processing begins from this point. For more information, see [Work on an invoice processing case](../task/work-manual-invoice-ingestion-case.md).
+    After the invoice is submitted, its state changes to Received. The invoice processing begins from this point. For more information, see [Work on an invoice processing case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-manual-invoice-ingestion-case.md).
 
 
 ## Invoice ingestion process flow when the entire transformation process fails
@@ -72,12 +74,12 @@ You must collaborate with the administrator to resolve this issue.
 
 Accounts Payable Operations supports multiple languages. The current DocIntel model is trained to extract invoices in the English language only. If you want to process the invoice in multi-lingual languages supported by DocIntel, you must train the DocIntel model on your own.
 
-For more information on Document Intelligence, see [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/document-intelligence-landing.md).
+For more information on Document Intelligence, see .
 
--   **[Required fields for creating an invoice](../reference/mandatory-fields-docintel.md)**  
-The Accounts Payable Operations integration with Document Intelligence application checks whether the required fields are populated on the invoice and invoice lines for creating the invoice.
--   **[Invoice data transformation logic](invoice-data-trans-logic.md)**  
-Accounts Payable Operations integration with Document Intelligence converts the invoice and invoice line field values from the invoice document to a format supported by the system that processes the invoice.
+-   **[Required fields for creating an invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/mandatory-fields-docintel.md)**  
+Required fields for invoices and invoice lines that the Accounts Payable Operations integration with Document Intelligence application checks before creating an invoice.
+-   **[Invoice data transformation logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-data-trans-logic.md)**  
+Accounts Payable Operations integration with Document Intelligence transforms invoice and invoice line field values, including dates, currencies, unit prices, and decimals, into formats supported by downstream processing systems.
 
-**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](apm-integration-docintel.md)
+**Parent Topic:**[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)
 

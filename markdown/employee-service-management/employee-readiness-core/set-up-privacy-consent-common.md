@@ -2,6 +2,7 @@
 title: Setting up privacy consent settings
 description: As an administrator, you can configure privacy consent templates, location-based privacy configurations, and notifications used to send privacy consent alerts for Safe Workplace suite applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-readiness-core/set-up-privacy-consent-common.html
 release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
@@ -21,18 +22,18 @@ User privacy regulations vary from country to country. For some countries, conse
 
 As an administrator, you must configure the following settings to use privacy consents with Employee Readiness Core:
 
-1.  [Modify or create a privacy consent template](../task/define-privacy-consent-common-template.md).
-2.  [Generate or locate privacy-based configurations](../task/generate-location-common-privacy-configuration.md).
+1.  [Modify or create a privacy consent template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/define-privacy-consent-common-template.md).
+2.  [Generate or locate privacy-based configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/generate-location-common-privacy-configuration.md).
 3.  Assign the sn\_imt\_core.privacy\_consent\_user role to all users who must respond to a privacy policy.
 4.  Add all users who must respond to a privacy policy to a Safe Workplace audience.
 
-    **Note:** For more information, see [Add a Safe Workplace audience](../task/add-safe-workplace-audience.md).
+    **Note:** For more information, see [Add a Safe Workplace audience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/add-safe-workplace-audience.md).
 
 
--   **[Modify or add a privacy consent template](../task/define-privacy-consent-common-template.md)**  
+-   **[Modify or add a privacy consent template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/define-privacy-consent-common-template.md)**  
 Modify or add a privacy consent template to be used in the location privacy configuration for Safe Workplace suite applications.
--   **[Generate location-based privacy configurations](../task/generate-location-common-privacy-configuration.md)**  
+-   **[Generate location-based privacy configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/generate-location-common-privacy-configuration.md)**  
 As an administrator, generate the privacy configuration for locations set up in your instance to use with Safe Workplace suite applications.
 
-**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](employee-readiness-core-privacy-consent.md)
+**Parent Topic:**[Maintaining privacy consent in Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/employee-readiness-core-privacy-consent.md)
 

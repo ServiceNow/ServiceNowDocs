@@ -2,13 +2,14 @@
 title: Activate the standard ticket page for upgrade customers
 description: If you have upgraded your instance, redirect the ticket page to the standard\_ticket page in the Service Portal and view requests on the standard ticket page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate\_csm-std-ticket.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Customer and Consumer Service Portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Activate the standard ticket page for upgrade customers
@@ -43,5 +44,5 @@ For new customers, the standard ticket page is enabled by default. For upgrade c
 **Related topics**  
 
 
-[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/standard-ticket-page.md)
+[bundle-platux.standard-ticket-page]
 

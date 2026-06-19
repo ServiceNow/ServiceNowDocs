@@ -2,6 +2,7 @@
 title: Platform Analytics UI artifacts
 description: Core UI and Next Experience UI artifacts are located under Platform Analytics Administration. Users with the admin role can navigate from these components to the associated tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/platform-analytics-ui-artifacts.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -61,5 +62,5 @@ Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Next Exper
     Opens `par_component_filter.list`. Select any filter to open its form.
 
 
-**Parent Topic:**[Platform Analytics experience reference](../concept/platform-analytics-exp-reference.md)
+**Parent Topic:**[Platform Analytics experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-exp-reference.md)
 

@@ -2,6 +2,7 @@
 title: Use Bulk Translation for Dynamic Translation
 description: Translate knowledge articles into different languages using machine translations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/bts-for-dynamic-translations.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,8 +18,8 @@ Translate knowledge articles into different languages using machine translations
 
 Dynamic Translation for Bulk Translation translates knowledge articles content in real-time and offers a seamless localization experience to your customer. With the help of language translator, dynamic translation automatically detects the language of the user-entered texts and displays translated text in the comparison UI page.
 
--   **[Translate knowledge articles using Dynamic Translation](dynamic-translation-translate-articles.md)**  
+-   **[Translate knowledge articles using Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/dynamic-translation-translate-articles.md)**  
 Use machine translation to automatically translate knowledge articles into different languages.
 
-**Parent Topic:**[Bulk Translation for knowledge articles](bulk-translation.md)
+**Parent Topic:**[Bulk Translation for knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/bulk-translation.md)
 

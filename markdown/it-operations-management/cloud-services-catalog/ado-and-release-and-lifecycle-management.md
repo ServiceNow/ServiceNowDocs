@@ -2,6 +2,7 @@
 title: Stages of Azure DevOps in Release life cycle management
 description: The components and stages of an Azure DevOps pipeline are comprehensive and highly customizable. You can define multiple stages, tasks, and integrations based on your specific requirements and technology stack using Cloud Services Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/ado-and-release-and-lifecycle-management.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -61,5 +62,5 @@ Store in CMDB as referable objects
 2.  Switch between blue and green environment
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CSC references](csc-reference.md)
+</table>**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/csc-reference.md)
 

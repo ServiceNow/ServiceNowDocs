@@ -2,6 +2,7 @@
 title: Export the public key certificate
 description: LDAPS clients, including the instance need the public key certificate in order to make a secure connection to ADAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_ExportingThePublicKeyCertificate.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

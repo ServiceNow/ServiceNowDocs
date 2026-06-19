@@ -2,6 +2,7 @@
 title: Apply continuous authentication policies to mobile sessions
 description: Reduce the risk of session hijacking by applying continuous authentication policies to mobile sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-apply-continuous-authentication-policies-to-mobile-sessions.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -35,7 +36,7 @@ Set the **glide.zta.high\_assurance.mobile.session.allowed** system property to 
 |Fallback value|false|
 |Recommended value|false|
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+To learn more about adding or creating a system property, see .
 
-**Parent Topic:**[Session management](sc-session-management.md)
+**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

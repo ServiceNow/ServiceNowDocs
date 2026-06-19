@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP connection and credentials field descriptions
 description: The Connection and Credential Alias modal contains connection and credential details that specify how Zero Copy Connector for ERP \(Enterprise Resource Planning\) connects to the ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-system-connection-form-details.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,7 +17,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Cop
 
 The Connection and Credential Alias modal contains connection and credential details that specify how Zero Copy Connector for ERP \(Enterprise Resource Planning\) connects to the ERP system.
 
-For process details, see [Configure an SNC connection in Zero Copy Connector for ERP](../task/erpc-configure-an-snc-connection-in-erp-canvas.md).
+For process details, see [Configure an SNC connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.md).
 
 ## Connection Information field descriptions
 
@@ -154,5 +155,5 @@ Client Personal Security Environment \(PSE\) name. \(Required if **SNC Connectio
 |Password|Password to authenticate and log in to the system of record.|
 |Credential Name|Alias or name for the login credential.|
 
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

@@ -2,6 +2,7 @@
 title: Cloud simulator dashboard
 description: Compare and evaluate the estimated costs of migrating your on-premises resources to the cloud for each cloud environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/cloud-simulator-dashboard.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -17,7 +18,7 @@ Compare and evaluate the estimated costs of migrating your on-premises resources
 
 Access the Cloud cost simulator dashboard by navigating to **Software Asset Workspace** &gt; **Software asset analytics** &gt; **Cloud cost simulator**.
 
-![Cloud cost simulator dashboard.](../image/cloud-cost-dboard.png "Cloud cost simulator dashboard")
+\[Omitted image "cloud-cost-dboard.png"\] Alt text: Cloud cost simulator dashboard.
 
 Use filters on your on-premises resources to specify a criteria for receiving cost recommendations for cloud migration.
 

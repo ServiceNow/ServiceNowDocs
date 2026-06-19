@@ -2,6 +2,7 @@
 title: NowSDKAuthorizationProviding interface - Android
 description: The NowSDKAuthorizationProviding interface provides a function that configures the link to the ServiceNow instance for which authorization is needed and any associated callbacks.Authorizes the currently logged-in user on the specified ServiceNow instance using the specified AuthorizationToken objects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowSDKAuthProvidingAndroidInterface.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API 
 
 The NowSDKAuthorizationProviding interface provides a function that configures the link to the ServiceNow instance for which authorization is needed and any associated callbacks.
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowSDKAuthorizationProviding - requestAuthorization\(instanceURL: URL, callback: Consumer&lt;List&lt;AuthorizationToken&gt;?&gt;\)
 
@@ -24,7 +25,7 @@ Authorizes the currently logged-in user on the specified ServiceNow instance usi
 |Name|Type|Description|
 |----|----|-----------|
 |instanceURL|[URL](https://developer.android.com/reference/kotlin/java/net/URL.html)|ServiceNow instance for which the authorization is being requested.|
-|callback|[Consumer](https://developer.android.com/reference/kotlin/java/util/function/Consumer.html)​&lt;[List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/)​&lt;[AuthorizationToken](../../AuthorizationToken/concept/AuthorizationTokenAndroidAPI.md#)&gt;?&gt;|Array of logged-in user specific Authorization Token objects.|
+|callback|[Consumer](https://developer.android.com/reference/kotlin/java/util/function/Consumer.html)​&lt;[List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/)​&lt;[AuthorizationToken](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/AuthorizationTokenAndroidAPI.md)&gt;?&gt;|Array of logged-in user specific Authorization Token objects.|
 
 |Type|Description|
 |----|-----------|

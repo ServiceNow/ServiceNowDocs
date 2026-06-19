@@ -2,6 +2,7 @@
 title: Configure SOAP with a proxy
 description: Certain properties provide support for SOAP requests to use a web proxy server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_ConfigureSOAPWithAProxy.html
 release: australia
 product: Web Services
 classification: web-services
@@ -22,5 +23,5 @@ Certain properties provide support for SOAP requests to use a web proxy server.
 |glide.http.proxy\_username|If the proxy server is authenticating using user name and password, enter a value for this property|proxyuser|
 |glide.http.proxy\_password|If the proxy server is authenticating using user name and password, enter a value for this property|password|
 
-**Parent Topic:**[Outbound SOAP web service](../concept/c_OutboundSOAPWebService.md)
+**Parent Topic:**[Outbound SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_OutboundSOAPWebService.md)
 

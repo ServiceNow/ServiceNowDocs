@@ -2,6 +2,7 @@
 title: Troubleshooting LDAP integration via MID Server
 description: You may encounter issues in the following areas while integrating LDAP via MID Server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_TroubleshootLDAPIntegViaMIDSvr.html
 release: australia
 product: LDAP integration
 classification: ldap-integration
@@ -21,7 +22,7 @@ You can troubleshoot these issues by viewing the outputs found in the External C
 
 When defining OUs within the server, there is a **Test connection** related list that is used to verify the LDAP connection. When you click this link, the ECC Queue should show a single output message with a topic name of **LDAPConnectionTesterProbe**. After the test has completed on the MID Server, the ECC Queue should show an input message with the same topic name. If the **Name** column for the input message shows **true**, the test was successful. Drill down into the record to view the payload and ensure it does not contain error messages.
 
-![](../image/TestConnection1.png "Test Connection")
+\[Omitted image "TestConnection1.png"\] Alt text:
 
 ## Browse Issues
 
@@ -37,11 +38,11 @@ An additional input messages, also named **LDAPProbe**, is displayed. The **Name
 
 Drill down into the record to view the payload and ensure it does not contain error messages.
 
-![](../image/ImportLoad.png "Import Load")
+\[Omitted image "ImportLoad.png"\] Alt text:
 
 Also keep an eye out for an output message called **LDAPProbeError**.
 
-![](../image/Error.png "Error message")
+\[Omitted image "Error.png"\] Alt text:
 
 Click the link in the **Name** column to view the details of the error.
 

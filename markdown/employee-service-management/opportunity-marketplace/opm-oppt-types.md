@@ -2,6 +2,7 @@
 title: Opportunity Type Configuration for Opportunity Marketplace
 description: Opportunity Marketplace \(OPM\) supports different opportunity types that are designed for unique types of opportunities and roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/opm-oppt-types.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -125,5 +126,5 @@ The text that is visible to users as the link for help. Add the label from the o
 The URL that is associated with the **Help link label**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference Opportunity Marketplace roles and tables](../concept/egd-oppt-mrktplc-references.md)
+</table>**Parent Topic:**[Reference Opportunity Marketplace roles and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-references.md)
 

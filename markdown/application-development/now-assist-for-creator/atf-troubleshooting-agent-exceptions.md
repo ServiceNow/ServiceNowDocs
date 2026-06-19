@@ -2,13 +2,14 @@
 title: ATF troubleshooting agent design considerations
 description: Leverage the full potential of ATF troubleshooting agent by following these design considerations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/atf-troubleshooting-agent-exceptions.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [References, ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [References, ATF troubleshooting agent, Use agentic AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # ATF troubleshooting agent design considerations
@@ -93,5 +94,5 @@ ATF troubleshooting agent doesn't support the following metadata:
 -   Custom UI test steps
 -   Custom test steps
 
-**Parent Topic:**[ATF troubleshooting agent references](atf-troubleshooting-agent-references.md)
+**Parent Topic:**[ATF troubleshooting agent references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-references.md)
 

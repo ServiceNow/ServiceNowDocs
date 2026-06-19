@@ -2,6 +2,7 @@
 title: Amazon Web Services EC2 Linux Out Of Box permissions
 description: Amazon Web Services EC2 Linux OOB catalog items permissions
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/aws-ec2-linux-oob-catalog-items-permissions.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -210,5 +211,5 @@ AWS EC2 Linux with security groups stack deprovision- terminate all resources
 11. DescribeImages
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Amazon Web Services EC2 Linux Out Of Box Catalog items](aws-ec2-linux-oob-catalogs.md)
+</table>**Parent Topic:**[Amazon Web Services EC2 Linux Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/aws-ec2-linux-oob-catalogs.md)
 

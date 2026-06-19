@@ -2,6 +2,7 @@
 title: Deviations life cycle
 description: The deviation life cycle is the list of states that a deviation can go through.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/deviations-life-cycle.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -34,5 +35,5 @@ Only the resolution and resolution code are still editable. If it's in any other
 
 You can manage deviations, such as bulk assign from the list view, which is only available in the Workspace.
 
-**Parent Topic:**[Deviation Management](industrial-deviation-management.md)
+**Parent Topic:**[Deviation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-deviation-management.md)
 

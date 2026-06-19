@@ -2,6 +2,7 @@
 title: Create stories agentic workflow using Now Assist for Strategic Portfolio Management \(SPM\)
 description: Use the Create stories agent to generate high-quality stories for planning items in Enterprise Agile Planning \(EAP\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/generate-agile-story-planning-items.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -15,7 +16,7 @@ breadcrumb: [Explore, Enterprise Agile Planning, Strategic Planning, Strategic P
 
 Use the Create stories agent to generate high-quality stories for planning items in Enterprise Agile Planning \(EAP\).
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** This agentic workflow is turned on by default. For more information, see .
 
 ## Create stories overview
 
@@ -35,7 +36,7 @@ The key benefits of this workflow are:
 
 Unlike rigid AI templates, this workflow emphasizes flexibility and collaboration, enabling dynamic input and refinement to deliver precise, actionable user stories.
 
-If you want to change this agentic workflow, you can [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to change this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 ## Create stories agentic workflow
 
@@ -44,7 +45,7 @@ To access the Create stories agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Create stories**.
 
-To configure the Create stories agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](../task/configure-agents-project-task-monitoring.md).
+To configure the Create stories agentic workflow and associated AI agents, see [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-agents-project-task-monitoring.md).
 
 ## AI agents used in the Create stories agentic workflow
 
@@ -52,5 +53,5 @@ To configure the Create stories agentic workflow and associated AI agents, see [
 
 ## Using the Create stories agentic workflow
 
-See [Generate multiple stories at once in EAP using Now Assist for SPM](../task/generate-stories-from-epics-now-assist-eap.md).
+See [Generate multiple stories at once in EAP using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md).
 

@@ -2,7 +2,10 @@
 title: Configure activity type templates for the Customer History view
 description: Create an activity type template to define how to display the activity type data on each of the activity tiles in the activity feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-act-type-templates-ca.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -13,7 +16,7 @@ breadcrumb: [Configure the Customer History view, Configure Customer Central, Ag
 
 Create an activity type template to define how to display the activity type data on each of the activity tiles in the activity feed.
 
-Learn more about configuring activity type templates from the following video tutorial.Configure activity type templates
+Learn more about configuring activity type templates from the following video tutorial.
 
 ## Before you begin
 

@@ -2,6 +2,7 @@
 title: Assessment instance form
 description: The assessment instance form information is used to create and edit an assessment instance for a demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/assessment-instance-form-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning

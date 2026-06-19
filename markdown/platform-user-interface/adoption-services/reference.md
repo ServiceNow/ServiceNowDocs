@@ -2,6 +2,7 @@
 title: Reference
 description: Reference information for Dynamic Guidance
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/reference.html
 release: australia
 product: Adoption Services
 classification: adoption-services

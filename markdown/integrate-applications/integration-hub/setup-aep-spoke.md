@@ -2,6 +2,7 @@
 title: Set up Adobe Experience Platform spoke
 description: Integrate your Adobe Experience Platform account with your ServiceNow instance. Create a custom OAuth application in Adobe Experience Platform and authenticate requests from ServiceNow.Enable the JWT Bearer Grant token authentication by attaching a valid Java KeyStore \(JKS\) certificate to the Adobe Experience Platform spoke.Create a JSON Web Token \(JWT\) signing key to assign to your Java KeyStore certificate.Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.Use the information generated during Adobe ID account creation and configuration to register Adobe Experience Platform as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create Credential records to the Adobe ID account you created. The Adobe Experience Platform spoke connection and credential alias uses these credentials to authorize actions.Create Connection records to your Adobe ID account. The Adobe Experience Platform spoke connection and credential alias uses these connections to perform actions in Adobe Experience Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-aep-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -58,7 +59,7 @@ Enable the JWT Bearer Grant token authentication by attaching a valid Java KeySt
     |Short description|Summary about the certificate.|
     |PEM Certificate|Contents of the X509 certificate.|
 
-4.  Click the attachments icon \(![Attachments icon](../image/attachments-icon.png)\) and attach a JKS certificate.
+4.  Click the attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon\) and attach a JKS certificate.
 
 5.  Click **Validate Stores/Certificates**.
 

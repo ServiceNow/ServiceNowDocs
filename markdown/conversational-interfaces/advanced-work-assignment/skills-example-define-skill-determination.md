@@ -2,6 +2,7 @@
 title: Define a skill determination rule
 description: Create a skill determination rule to tag the German skill to incoming cases from German speakers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/skills-example-define-skill-determination.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

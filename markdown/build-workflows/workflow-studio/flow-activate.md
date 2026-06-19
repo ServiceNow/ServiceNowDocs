@@ -2,6 +2,7 @@
 title: Activate a flow
 description: Activate a flow to make it available to run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-activate.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -41,5 +42,5 @@ After testing that your flow runs properly, activate it to make it available to 
     -   The flow might be marked read-only to protect it.
     -   The flow might require developer permissions that you don’t currently have.
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
 

@@ -2,6 +2,7 @@
 title: SCCM software revocation
 description: Revoke software without any user interaction using Microsoft System Center Configuration Manager \(SCCM\) if the software configuration specifies an SCCM uninstall collection, even if the software was installed by some other process or user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sccm-revocation-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -15,12 +16,12 @@ breadcrumb: [CSD from SCCM, Client Software Distribution, Integration Hub soluti
 
 Revoke software without any user interaction using Microsoft System Center Configuration Manager \(SCCM\) if the software configuration specifies an SCCM uninstall collection, even if the software was installed by some other process or user.
 
--   **[Revoke software deployed through the service catalog](../tasks/revoke-from-serv-cat.md)**  
+-   **[Revoke software deployed through the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/revoke-from-serv-cat.md)**  
 Software deployed by SCCM can be revoked, but only when the status of software is **Installed** and the application associated with the software configuration has an uninstall collection configured.
--   **[Revoke unentitled software](../tasks/revoke-unentitled-ihub.md)**  
+-   **[Revoke unentitled software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/revoke-unentitled-ihub.md)**  
 Revoke software using Microsoft System Center Configuration Manager \(SCCM\) that a user is not entitled to use even if the software was installed by some other process or user.
--   **[SCCM software revocation flow](../reference/software-revoke-ihub.md)**  
+-   **[SCCM software revocation flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/software-revoke-ihub.md)**  
 The Revoke SCCM Application flow moves a user or device from an install collection to an uninstall collection to revoke software installed from Microsoft System Center Configuration Manager \(SCCM\).
 
-**Parent Topic:**[Client software distribution from SCCM](csd-from-sccm-ihub.md)
+**Parent Topic:**[Client software distribution from SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-from-sccm-ihub.md)
 

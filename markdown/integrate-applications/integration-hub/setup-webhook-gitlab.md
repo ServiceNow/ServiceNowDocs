@@ -2,6 +2,7 @@
 title: Set up bi-directional webhook for the GitLab spoke
 description: Configure a webhook to subscribe to GitLab with a ServiceNow callback URL.Register GitLab in ServiceNow to notify the ServiceNow app when certain events occur in GitLab.Create webhook routing policy and subflow as per your requirement in the GitLab spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhook-gitlab.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -85,7 +86,7 @@ The default routing policy in the GitLab WebHook Routing Policies modules trigge
 
 4.  Customize the required subflow as per your requirement and publish it.
 
-    See [Building subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/subflows.md) for more information about creating and using subflows and [GitLab spoke](../concept/gitlab-spoke.md) for information about the GitLab fields that the default routing policy supports and the GitLab events that the subflows support.
+    See Building subflows for more information about creating and using subflows and [GitLab spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gitlab-spoke.md) for information about the GitLab fields that the default routing policy supports and the GitLab events that the subflows support.
 
 5.  Navigate to **All** &gt; **GitLab Webhooks** &gt; **GitLab Webhook Routing Policies**.
 

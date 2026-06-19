@@ -2,6 +2,7 @@
 title: Default font sizes for search result text in Engagement Messenger
 description: Define normal and genius search result font sizes to change text appearance in Engagement Messenger on different devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/modify-search-result-font-size-auto-spell-correction-text.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -63,7 +64,7 @@ The default genius search result font size settings are:
 -   This setting for Catalog is found in the **em\_catalog\_genius\_results\_template** template script.
 
 </td></tr></tbody>
-</table>![Search results examples of normal search results, showing auto-spell correction, title text, and summary text.](../image/normal-search-result.jpg "Normal search result text appearance in Engagement Messenger")
+</table>\[Omitted image "normal-search-result.jpg"\] Alt text: Search results examples of normal search results, showing auto-spell correction, title text, and summary text.
 
-![Genius search result with automatic font size adjustment for identifier text, heading text, and description text.](../image/genius-result.jpg "Genius search result text appearance in Engagement Messenger")
+\[Omitted image "genius-result.jpg"\] Alt text: Genius search result with automatic font size adjustment for identifier text, heading text, and description text.
 

@@ -2,13 +2,14 @@
 title: Grant Insurance claims roles access to a claim incident table
 description: Grant the sn\_bom.fnol\_representative and sn\_ins\_gen\_claim.processor roles with access to a claim incident table by using the Insurance claims application. This way, the users with these roles can read and write entries in a claim incident table during the claim creation process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/update-insurance-claim-roles-for-a-claim-incident-table.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Claim incidents, Configure, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Claim incidents, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Grant Insurance claims roles access to a claim incident table

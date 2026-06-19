@@ -2,6 +2,7 @@
 title: View event details and monitor event task completion
 description: View the event details and add impacted items to start an event.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/view-exercise-crisis-event-details.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 2.  To update an active exercise or crisis event from the Home page of the Business continuity workspace, click the link to the event record in the **Event** column of the **My exercises** section.
 
-3.  To update the event from the lists view of the workspace, click the lists icon \(![Lists icon](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+3.  To update the event from the lists view of the workspace, click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
 4.  If the record is an exercise event and is in pending state, Click **Pending** link in the Exercises list.
 
@@ -33,11 +34,11 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
     You can view and update all the details of an event. However, you cannot edit the event type.
 
-    A crisis manager should be able to report a crisis event with the information provided in the details tab. For more information, see [Manage a crisis event](manage-crisis-event.md).
+    A crisis manager should be able to report a crisis event with the information provided in the details tab. For more information, see [Manage a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/manage-crisis-event.md).
 
 7.  Click the **Impacts** tab to add impacted items.
 
-    To add a list of impacted items and activated plans to the event, see [Add impacted assets and plans to an event](associate-plan-task-event.md).
+    To add a list of impacted items and activated plans to the event, see [Add impacted assets and plans to an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/associate-plan-task-event.md).
 
 8.  Click **Event Tasks** tab.
 
@@ -57,11 +58,11 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
         If the plan is pre-grouped, then the event task is also pre-grouped. Use the first column of the grid, which is the task Group column, to view the pre-grouped event tasks.
 
-        ![Grouping event tasks.](../image/EventTaskGrouping.png "Grouping event tasks")
+        \[Omitted image "EventTaskGrouping.png"\] Alt text: Grouping event tasks.
 
         **Note:** If the activated plan refers to a different plan to recover a related asset, then all those related plans are listed below the main activated plan as **Related plans** in the left pane.
 
-        For more information on the planning and execution of a recovery event, see [Data flow, planning, execution, and recovery of related plan assets in event](../concept/planning-execution-event-bcm.md).
+        For more information on the planning and execution of a recovery event, see [Data flow, planning, execution, and recovery of related plan assets in event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/planning-execution-event-bcm.md).
 
     2.  To add an ad hoc task to the event, click the **Add ad hoc task** button.
 
@@ -83,7 +84,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
         **Note:** You cannot create an ad hoc task for activated plans that are in **Closed Complete** or **Closed Incomplete** state.
 
-    4.  To update an existing event task, click the ![Information icon.](../image/InformationIcon.png) of the task in the grid.
+    4.  To update an existing event task, click the \[Omitted image "InformationIcon.png"\] Alt text: Information icon. of the task in the grid.
 
     5.  Update the **Actual start** and **Actual end** dates for the event task.
 

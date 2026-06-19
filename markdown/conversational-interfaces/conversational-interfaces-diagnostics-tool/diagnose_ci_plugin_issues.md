@@ -2,6 +2,7 @@
 title: Diagnose Microsoft Teams configuration issues
 description: Use the Conversational Interfaces Diagnostic Tool to identify and help solve Microsoft Teams configuration issues before reaching out to Now Support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/conversational-interfaces-diagnostics-tool/diagnose\_ci\_plugin\_issues.html
 release: australia
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
@@ -31,19 +32,19 @@ Role required: virtual\_agent\_admin or admin
 
     The tool displays a list of solutions.
 
-    ![Virtual Agent chat window displaying solutions for Microsoft Teams not responding and Microsoft Teams performance. There is also an option for "Not matching."](../image/ci-dt-microsoft-choices.png "Example solutions for "no response"")
+    \[Omitted image "ci-dt-microsoft-choices.png"\] Alt text: Virtual Agent chat window displaying solutions for Microsoft Teams not responding and Microsoft Teams performance. There is also an option for "Not matching."
 
 4.  Select the solution that you want to use.
 
     The Diagnostic Tool asks if you want to proceed with the diagnosis.
 
-    ![Virtual Agent chat window displaying question to user in Microsoft Teams asking to proceed with the diagnosis.](../image/ci-dt-microsoft-proceed-choices.png "Proceed or search again chat response")
+    \[Omitted image "ci-dt-microsoft-proceed-choices.png"\] Alt text: Virtual Agent chat window displaying question to user in Microsoft Teams asking to proceed with the diagnosis.
 
 5.  Select **Yes** to continue.
 
     Lists of Health Check Parameters and MS Teams Tenant Configurations display.
 
-    ![Health check parameters include online status, plugin status, and user role. Tenant configurations include the tenant ID and authentication status.](../image/ci-dt-health-check-parameters.png "Health check parameters and tenant configuration status")
+    \[Omitted image "ci-dt-health-check-parameters.png"\] Alt text: Health check parameters include online status, plugin status, and user role. Tenant configurations include the tenant ID and authentication status.
 
 6.  Review the values for any parameters that are set incorrectly.
 
@@ -51,9 +52,9 @@ Role required: virtual\_agent\_admin or admin
 
     When the diagnosis is complete, the Diagnostic Tool displays a recommended solution.
 
-    ![Virtual Agent chat window displaying recommended solution.](../image/ci-dt-recommended-solution.png "Issue recommendation")
+    \[Omitted image "ci-dt-recommended-solution.png"\] Alt text: Virtual Agent chat window displaying recommended solution.
 
-    ![Virtual Agent chat window displaying confirmation to proceed with workflow.](../image/ci-dt-proceed-with-topic-flow.png "Issue confirmation")
+    \[Omitted image "ci-dt-proceed-with-topic-flow.png"\] Alt text: Virtual Agent chat window displaying confirmation to proceed with workflow.
 
 7.  Select **Yes** to confirm, or select **No** to end the workflow.
 
@@ -71,10 +72,10 @@ Role required: virtual\_agent\_admin or admin
 
     -   Select **No** to confirm that the solution was helpful and to exit the workflow.
     -   You may see a link that you can use to download support data.
-    ![A link to download support data displays at the end of the workflow.](../image/ci-dt-download-support-data.png "Prompt to download support data")
+    \[Omitted image "ci-dt-download-support-data.png"\] Alt text: A link to download support data displays at the end of the workflow.
 
 9.  Click the link to download support data.
 
 
-**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](../concept/using-ci-diagnostics-tool.md)
+**Parent Topic:**[Using the Conversational Interfaces Diagnostic Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/conversational-interfaces-diagnostics-tool/using-ci-diagnostics-tool.md)
 

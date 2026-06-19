@@ -2,6 +2,7 @@
 title: Resource plans
 description: Resource plans are the key element in resource management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/resource-management/c\_ResourcePlans.html
 release: australia
 product: Resource Management
 classification: resource-management
@@ -17,9 +18,9 @@ Resource plans are the key element in resource management.
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged to work on resource assignments which offers more flexibility [Create resource assignments and operation resource assignments in Resource Management Workspace](../../resource-management-workspace/task/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
+You're encouraged to work on resource assignments which offers more flexibility [Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
 
-Resource requesters, such as project managers, [create resource plans](../task/t_CreateResourcePlanProjectTask.md) to ask for resources, track effort, and track costs. Resource managers modify and approve resource plans before the plans are used.
+Resource requesters, such as project managers, [create resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) to ask for resources, track effort, and track costs. Resource managers modify and approve resource plans before the plans are used.
 
 All resource plans for a task appear on the **Resource Plan** related list of the Project task form, where resource requesters can access them.
 
@@ -39,7 +40,7 @@ Planning
 
 </td><td>
 
-Planning is the default state when a resource requester creates a resource plan. Any plan in this state can be edited. [Requested Allocations](../task/request-allocation.md) are created when a resource plan is in Planning state.
+Planning is the default state when a resource requester creates a resource plan. Any plan in this state can be edited. [Requested Allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/request-allocation.md) are created when a resource plan is in Planning state.
 
  When a resource requester asks for a change to a plan that was already submitted, the plan reverts to the Planning state.
 
@@ -100,7 +101,7 @@ Canceled
 A plan can be canceled if the allocations are no longer required. This removes all past and future allocations. A canceled resource plan can be brought back to the Planning state if it has no past allocations.Resource plans in Planning, Requested, Confirmed, or Allocated state can be canceled.
 
 </td></tr></tbody>
-</table>**Note:** When a resource requester wants to change a plan that was already submitted for review \(in Requested or Confirmed state but not yet allocated\), the requester can [request a change](../task/t_RequestAChangeToAResourcePlan.md). The plan then moves back to the Planning state.
+</table>**Note:** When a resource requester wants to change a plan that was already submitted for review \(in Requested or Confirmed state but not yet allocated\), the requester can [request a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_RequestAChangeToAResourcePlan.md). The plan then moves back to the Planning state.
 
 Resource Management supports time zones, which are important in the My Calendar and Resource Workbench modules.
 
@@ -110,7 +111,7 @@ Only a resource manager can modify a resource plan in the Confirmed or Allocated
 
 The effects of modification in header area on a resource plan form in Confirmed state are:
 
--   All soft [allocations](../reference/r_AllocatingResources.md) are deleted.
+-   All soft [allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/r_AllocatingResources.md) are deleted.
 -   Requested allocations are re-created with changed values.
 -   Resource plan moves back to the Requested state.
 
@@ -146,52 +147,52 @@ You can request a resource plan using one of the following options:
 
 ## Resource plan costs
 
-Resource plan costs can be tracked directly in the [resource plan](../reference/rsrc-plan-form.md) record. Resource plan costs are divided into planned, allocated, and actual.
+Resource plan costs can be tracked directly in the [resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/rsrc-plan-form.md) record. Resource plan costs are divided into planned, allocated, and actual.
 
 If the **Rate override** option in a resource plan is selected, the hourly rate for calculating the corresponding resource plan cost is derived from the rate specified in the **Resource rate** field.
 
-If a [rate model](../../project-portfolio-suite-with-financials/concept/rate-model.md) is associated to the project or demand, the hourly rate is derived from the rate model. Whenever the hourly rates in the associated rate model change, you must [recalculate the resource costs](../task/recalculate-resource-costs.md) of the resource plan to reflect the new rates.
+If a [rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/rate-model.md) is associated to the project or demand, the hourly rate is derived from the rate model. Whenever the hourly rates in the associated rate model change, you must [recalculate the resource costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/recalculate-resource-costs.md) of the resource plan to reflect the new rates.
 
 If rate model is not available, the hourly rate for calculating the corresponding resource plan cost is derived from labor rate card.
 
 Projects and Demands can have multiple resource plans. The aggregated costs for all resources plans roll up to the **Planned Cost** and **Allocated Cost** fields and the **Resource Cost** section of both projects and demands.
 
--   **[Create a resource plan](../task/t_CreateResourcePlanProjectTask.md)**  
+-   **[Create a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md)**  
 You can create a resource plan from the Resource Management application for any task such as demand, project, project task, incident, problem, or change. You can edit and adjust the plan until you submit it for approval.
--   **[Use Resource Finder to analyze resource availability](../task/create-resource-plan-with-finder.md)**  
+-   **[Use Resource Finder to analyze resource availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-resource-plan-with-finder.md)**  
 Search and analyze resource availability using the Resource Finder, so that you can create resource plans for a project or demand.
--   **[Create an operational resource plan](../task/create-operational-plan.md)**  
+-   **[Create an operational resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/create-operational-plan.md)**  
 Create an operational resource plan and allocate a certain portion of your team capacity for operational work, such as administration, meeting, or training.
--   **[Request resources](../task/t_RequestResourcePlanApproval.md)**  
+-   **[Request resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_RequestResourcePlanApproval.md)**  
 After you create a resource plan, request resources from the resource manager.
--   **[Confirm a resource plan](../task/confirm-resource-plan.md)**  
+-   **[Confirm a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/confirm-resource-plan.md)**  
 As a resource manager, you can confirm or block the resources after a resource plan is requested. The resource plan must be in the Requested state to be confirmed.
--   **[Confirm and allocate a resource plan](../task/confirm-allocate-resource-plan.md)**  
+-   **[Confirm and allocate a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/confirm-allocate-resource-plan.md)**  
 After the resource plan is requested, as a resource manager, you can directly allocate the resources. To confirm and allocate, the resource plan must be in the Requested state.
--   **[Request a change to a resource plan](../task/t_RequestAChangeToAResourcePlan.md)**  
+-   **[Request a change to a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_RequestAChangeToAResourcePlan.md)**  
 Request a change to the resource plan to modify a resource plan after you’ve submitted it for review.
--   **[Recalculate costs of a resource plan of a project or demand](../task/recalculate-resource-costs.md)**  
+-   **[Recalculate costs of a resource plan of a project or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/recalculate-resource-costs.md)**  
 Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
--   **[Update cost plan related to a resource plan](../task/t_UpdateRelatedCostPlan.md)**  
+-   **[Update cost plan related to a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_UpdateRelatedCostPlan.md)**  
 If a resource plan is associated to a project, project task, or demand and has a related cost plan, then a requester or a resource manager can update the related cost plan after updating the resource plan.
--   **[Complete a resource plan](../task/t_CloseAResourcePlan.md)**  
+-   **[Complete a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CloseAResourcePlan.md)**  
 After all associated tasks and projects are complete or canceled, a resource manager can move the resource plan to the **Complete** state, which closes it.
--   **[Cancel a resource plan](../task/t_CancelAResourcePlan.md)**  
+-   **[Cancel a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_CancelAResourcePlan.md)**  
 If a resource plan is no longer needed, you can cancel it which also cancels its past and future allocations.
--   **[Delete a resource plan](../task/t_DeleteAResourcePlan.md)**  
+-   **[Delete a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_DeleteAResourcePlan.md)**  
 Deleting a plan also deletes all associated resource allocations.
--   **[Extend a resource plan](../task/extend-resource-plan.md)**  
+-   **[Extend a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/extend-resource-plan.md)**  
 You can extend the date of an allocated resource plan and allocate resources for the extended period.
--   **[Request extension of an allocated resource plan](../task/request-extension-allocated-resource-plan.md)**  
+-   **[Request extension of an allocated resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/request-extension-allocated-resource-plan.md)**  
 As a project manager, you can request the extension of an allocated resource plan.
--   **[Allocate resources for the extended period](../task/allocate-resources-for-extended-period.md)**  
+-   **[Allocate resources for the extended period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/allocate-resources-for-extended-period.md)**  
 As a resource manager, you can allocate resources for the extended period.
--   **[Reduce the duration of a resource plan](../task/reduce-resource-plan.md)**  
+-   **[Reduce the duration of a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/reduce-resource-plan.md)**  
 Reduce the duration of an allocated or confirmed resource plan and deallocate resources in one action without having to do it individually for each resource.
--   **[Time zones in resource plans](c_TimeZonesInResourcePlans.md)**  
+-   **[Time zones in resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_TimeZonesInResourcePlans.md)**  
 Time zones are important in resource management when the users and groups doing the resource tasks are located in different locations.
--   **[Associate a time card with a resource plan](../task/t_AssocATimeCardWithAResourcePlan.md)**  
+-   **[Associate a time card with a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/t_AssocATimeCardWithAResourcePlan.md)**  
 If one resource is allocated to identically named tasks in two resource plans, use the following procedure to specify the resource plan the time card should be allocated to.
 
-**Parent Topic:**[Resource Management classic](c_ResourceManagement.md)
+**Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/c_ResourceManagement.md)
 

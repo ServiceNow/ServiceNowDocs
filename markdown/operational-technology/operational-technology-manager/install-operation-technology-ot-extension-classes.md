@@ -2,6 +2,7 @@
 title: Operational Technology \(OT\) extension classes installation
 description: You must install the Operational Technology \(OT\) extension classes that are the foundation of the Operational Technology Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/install-operation-technology-ot-extension-classes.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -15,7 +16,7 @@ breadcrumb: [Configure, Operational Technology Manager, Operational Technology]
 
 You must install the Operational Technology \(OT\) extension classes that are the foundation of the Operational Technology Manager.
 
-You can access the OT extension classes by installing the CMDB CI Class Models application. For more information about installation, see [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+You can access the OT extension classes by installing the CMDB CI Class Models application. For more information about installation, see .
 
 The OT extension class model extend the Configuration Management Database \(CMDB\) class hierarchy, which includes the following information:
 
@@ -24,7 +25,7 @@ The OT extension class model extend the Configuration Management Database \(CMDB
 -   Identifier entries
 -   If applicable, dependent relationships
 
-Applications, such as Discovery and Service Graph Connectors, use these class extensions to populate configuration items \(CIs\) and discover various technologies and software. For more information about the OT extension classes, see [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md).
+Applications, such as Discovery and Service Graph Connectors, use these class extensions to populate configuration items \(CIs\) and discover various technologies and software. For more information about the OT extension classes, see Operational Technology \(OT\) extension classes.
 
-**Parent Topic:**[Configuring the Operational Technology Manager](../concept/configuring-operational-technology-manager.md)
+**Parent Topic:**[Configuring the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-operational-technology-manager.md)
 

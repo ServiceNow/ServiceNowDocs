@@ -2,6 +2,7 @@
 title: Create notification contact groups
 description: Create a notification contact group using the ServiceNow AI Platform groups. Use the group members as the contacts for an emergency notification. Synchronize the group members as the contacts with Everbridge and track the non-synchronized members as exceptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-notification-contact-group-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: sn\_bcm.admin
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Notification Contact Group form](../reference/notification-contact-group-form.md).
+    For more information, see [Notification Contact Group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/notification-contact-group-form.md).
 
 4.  Select **Submit**.
 
@@ -44,8 +45,8 @@ There are five members in a group, out of which four members are already synced 
 
 You can synchronize this particular contact first and then the group with Everbridge.
 
--   **[Notification Contact Group form](../reference/notification-contact-group-form.md)**  
+-   **[Notification Contact Group form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/notification-contact-group-form.md)**  
 Use the Notification Contact Group form to create a notification contact group.
 
-**Parent Topic:**[Setup for Everbridge notifications](../concept/setup-steps-for-emergency-notification-uib-ws.md)
+**Parent Topic:**[Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md)
 

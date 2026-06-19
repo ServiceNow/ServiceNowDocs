@@ -2,6 +2,7 @@
 title: Create decision table code snippets
 description: Create code snippets of published decision tables in Workflow Studio to execute the decision table from any script and make it easier to replace hard-coded logic with decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-decision-table-code-snippets.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Create code snippets of published decision tables in Workflow Studio to execute 
 
 If you have draft authoring enabled, you must publish your decision table to be able to copy a code snippet of the table. If draft authoring is not enabled, save your decision table to access this feature.
 
-The ability to copy code snippets for a decision table enables you to quickly insert the table into your script without having to author the code using API documentation. For more information about the Decision table API, see [DecisionTableAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/DecisionTableAPI.md).
+The ability to copy code snippets for a decision table enables you to quickly insert the table into your script without having to author the code using API documentation. For more information about the Decision table API, see .
 
 Role required: none
 
@@ -31,7 +32,7 @@ Role required: none
 
 3.  Open a published decision table.
 
-4.  Select the Decision table menu options icon \(![](../image/dec-table-menu-options.png)\) and select **Create Code Snippet**.
+4.  Select the Decision table menu options icon \(\[Omitted image "dec-table-menu-options.png"\] Alt text:\) and select **Create Code Snippet**.
 
     Two code snippets are generated. The first code snippet calls the GetDecision\(\) API, which returns only the first result that matches the inputs and specifications in the decision table. The second code snippet calls the GetDecisions\(\) API, which returns a list of all the results that match your inputs.
 
@@ -44,5 +45,5 @@ Role required: none
 8.  Insert the code snippet into your script where you want to call the decision table and define the data to use for each input variable.
 
 
-**Parent Topic:**[Using decision tables](../concept/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

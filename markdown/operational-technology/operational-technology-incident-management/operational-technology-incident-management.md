@@ -2,6 +2,7 @@
 title: Operational Technology Incident Management
 description: Operational Technology Incident Management enables engineers to quickly resolve Operational Technology \(OT\) device and production process issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-incident-management/operational-technology-incident-management.html
 release: australia
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
@@ -19,7 +20,7 @@ Operational Technology Incident Management enables you to manage OT incidents se
 
 The OT Incident manager is responsible for managing the default life cycle of incidents from creation to closure. The OT Incident Management process has many states, and each is important to the success of the process and the quality of service delivered. The different states are shown in the following diagram.
 
-![The different states of the Operational Technology Incident management process.](../image/ot-incident-management-process-states.png "Operational Technology Incident Management process states")
+\[Omitted image "ot-incident-management-process-states.png"\] Alt text: The different states of the Operational Technology Incident management process.
 
 The incident states are as follows.
 
@@ -87,5 +88,5 @@ Canceled
 Incident was triaged but found to be a duplicate incident, an unnecessary incident, or not an incident at all.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Operational Technology Incident Management](exploring-operational-technology-incident-mgt.md)
+</table>**Parent Topic:**[Exploring Operational Technology Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-incident-management/exploring-operational-technology-incident-mgt.md)
 

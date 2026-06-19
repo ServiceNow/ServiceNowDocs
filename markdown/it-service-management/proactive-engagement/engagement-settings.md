@@ -2,6 +2,7 @@
 title: Engagement Settings for Proactive Engagement
 description: It allows you to configure and define how an end user should be engaged to self-solve the issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/engagement-settings.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -61,7 +62,7 @@ Virtual Agent
 
 </td><td>
 
-Channel where the user will be proactively notified. Configure the notification channels from `sn_pren-channel-configuration` from [Metric rule triggering Proactive Engagement through alerts](../concept/metric-rule-triggering-pe-through-alerts.md). This channel is applicable only if the engagement type is Notification only.
+Channel where the user will be proactively notified. Configure the notification channels from `sn_pren-channel-configuration` from [Metric rule triggering Proactive Engagement through alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/metric-rule-triggering-pe-through-alerts.md). This channel is applicable only if the engagement type is Notification only.
 
 </td><td>
 
@@ -142,7 +143,7 @@ Select the fallback option that will be triggered when the resolution fails.
 Create incident/Route to live agent
 
 </td></tr></tbody>
-</table>These engagement settings are furnished when you configure the metric rule. To configure a new metric rule, see [Configuring Proactive Engagement resolutions with DEX](../configuring-metric-rule.md).
+</table>These engagement settings are furnished when you configure the metric rule. To configure a new metric rule, see [Configuring Proactive Engagement resolutions with DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/configuring-metric-rule.md).
 
-**Parent Topic:**[Proactive Engagement reference](../proactive-engagement-reference.md)
+**Parent Topic:**[Proactive Engagement reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/proactive-engagement-reference.md)
 

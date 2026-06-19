@@ -2,11 +2,12 @@
 title: Explore Workplace Concierge
 description: The Workplace Concierge application is a Workplace Service Delivery application designed to provide employees with real-time insights to optimize their workplace experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-concierge/explore-workplace-concierge.html
 release: australia
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
@@ -53,13 +54,13 @@ As an admin using the Employee Presence module in the Workplace Concierge applic
 -   View routine exceptions raised by employees.
 -   Add or remove sections displayed on the Presence dashboard.
 -   Set the first day of the week in the calendar section using the **glide.ui.date\_picker.first\_day\_of\_week** system property.
--   Apply the filter on collaborators using the **sn\_wsd\_concierge.collaborators\_filter** system property. Based on the filter, the collaborators are displayed to employees while adding a collaborator. For more information about setting the property, see [Properties installed with Workplace Concierge](../reference/properties-installed-with-workplace-concierge.md).
--   Create insights for employees, which are personalized and displayed on the Presence dashboard and the calendar section. For more information, see [Create custom insights using Proactive Prompts](../task/create-insights-proactive-prompts.md).
+-   Apply the filter on collaborators using the **sn\_wsd\_concierge.collaborators\_filter** system property. Based on the filter, the collaborators are displayed to employees while adding a collaborator. For more information about setting the property, see [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md).
+-   Create insights for employees, which are personalized and displayed on the Presence dashboard and the calendar section. For more information, see [Create custom insights using Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 -   Configure the changing the Signal Configuration schedule to update interval of dashboard insights.
 
 ## Workplace reservation suggestions
 
-Workplace Concierge and Workplace Core administrators can configure workplace suggestions while suggesting a space to an employee for reservation. For more information, see [Configure workplace space suggestions for employees](configure-workplace-suggestions.md).
+Workplace Concierge and Workplace Core administrators can configure workplace suggestions while suggesting a space to an employee for reservation. For more information, see [Configure workplace space suggestions for employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge/configure-workplace-suggestions.md).
 
-The employee can set their workplace schedule and in-office preferences in Workplace Service Delivery for Mobile. When suggesting a space to an employee using the Workplace Service Delivery for Mobile, application uses these preferences. For more information see, [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](../../wsd-for-mobile/concept/workplace-preference-schedule.md).
+The employee can set their workplace schedule and in-office preferences in Workplace Service Delivery for Mobile. When suggesting a space to an employee using the Workplace Service Delivery for Mobile, application uses these preferences. For more information see, [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
 

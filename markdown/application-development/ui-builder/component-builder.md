@@ -2,6 +2,7 @@
 title: Create custom components to reuse across pages with component builder
 description: Reuse custom components across experiences and pages in UI Builder.Build reusable custom components to use across experiences and pages in UI Builder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/component-builder.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -56,21 +57,21 @@ To build efficient, scalable digital experiences, it’s important to reuse elem
 
 You can access the component builder in UI Builder by selecting **Create** in the header or the **Component** tile on the UI Builder home page.
 
-![UI Builder homepage with arrows pointing the component create buttons.](../image/component-builder-create-buttons.png "UI Builder home page")
+\[Omitted image "component-builder-create-buttons.png"\] Alt text: UI Builder homepage with arrows pointing the component create buttons.
 
-![Component builder homepage.](../image/component-builder-home.png "Component Builder UI")
+\[Omitted image "component-builder-home.png"\] Alt text: Component builder homepage.
 
 Components built with UI Builder can be found in the toolbox when adding a component to a page and in the component list on the home page of UI Builder. You can update or modify custom components by locating it in the components list on the home page of UI Builder.
 
-![Editing test values for input properties](../image/cb-test-values.png "Test Values in Component Builder")
+\[Omitted image "cb-test-values.png"\] Alt text: Editing test values for input properties
 
-Use test values in component builder to supply simulated values for required and optional URL parameters when building a custom component. Test values help validate how a component will act when added to a page by ensuring bindings and data resources are functioning correctly. For more information about test values see, [Test values in a page](test-value.md).
+Use test values in component builder to supply simulated values for required and optional URL parameters when building a custom component. Test values help validate how a component will act when added to a page by ensuring bindings and data resources are functioning correctly. For more information about test values see, [Test values in a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/test-value.md).
 
-![UI Builder homepage displaying the components tab.](../image/components-list-home.png "Component List")
+\[Omitted image "components-list-home.png"\] Alt text: UI Builder homepage displaying the components tab.
 
 You can quickly duplicate a custom component from the component settings screen by selecting **Duplicate**, which creates an exact copy of the component for reuse or modification.
 
-![Component settings screen with an arrow displaying the Duplicate option.](../image/custom-component-duplicate.png "Custom Component Settings")
+\[Omitted image "custom-component-duplicate.png"\] Alt text: Component settings screen with an arrow displaying the Duplicate option.
 
 ## Component Builder vs NOW CLI Component Development
 
@@ -97,7 +98,7 @@ The UI Builder custom component builder lacks governance capabilities and can le
 
 All components are designed to be upgrade safe, as long as their security policy is set to `read_only`. This provides greater upgrade protection for larger components or page partials compared to other deployable units like bundles and page templates. However, this also means that out-of-the-box \(OOTB\) components may not be editable.
 
-**Parent Topic:**[Component Builder](component-builder-uib.md)
+**Parent Topic:**[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/component-builder-uib.md)
 
 ## Create components to reuse across pages
 
@@ -117,13 +118,13 @@ In this Component Builder example, we will create a stopwatch component to track
 
 2.  Select **Create** from the UI Builder home page.
 
-    ![UI Builder home page with the Create component button.](../image/create-component-button.png)
+    \[Omitted image "create-component-button.png"\] Alt text: UI Builder home page with the Create component button.
 
 3.  Select **Component**.
 
 4.  In the form, fill in the fields.
 
-    ![Create a component form.](../image/create-component-form.png "Create a component dialog box")
+    \[Omitted image "create-component-form.png"\] Alt text: Create a component form.
 
     |Field|Description|
     |-----|-----------|
@@ -136,11 +137,11 @@ In this Component Builder example, we will create a stopwatch component to track
 
     The page opens in Component Builder view.
 
-    ![Custom component building UI showing the content and configuration side bars.](../image/create-component-editor.png)
+    \[Omitted image "create-component-editor.png"\] Alt text: Custom component building UI showing the content and configuration side bars.
 
 6.  Add a custom component property by selecting **+ Add property** in the **Properties and policy** section.
 
-    ![Select Add property to add content](../image/cb-add-property.png)
+    \[Omitted image "cb-add-property.png"\] Alt text: Select Add property to add content
 
     1.  Select **String** from the list.
 
@@ -152,7 +153,7 @@ In this Component Builder example, we will create a stopwatch component to track
         |Property ID|`svgImageSource`|
         |Default value|`animateddino.svg`|
 
-        ![Custom component building UI with arrows pointing to the Property label, Property ID, and SVG Image Source fields in the configuration panel.](../image/cb-component-properties.png)
+        \[Omitted image "cb-component-properties.png"\] Alt text: Custom component building UI with arrows pointing to the Property label, Property ID, and SVG Image Source fields in the configuration panel.
 
     3.  Select **Save**.
 
@@ -172,7 +173,7 @@ In this Component Builder example, we will create a stopwatch component to track
 
     7.  Select **Save**.
 
-        ![Add content to a container](../image/cb-component-layout.png)
+        \[Omitted image "cb-component-layout.png"\] Alt text: Add content to a container
 
 8.  Add a stylized text component in our Flexbox container by selecting **+ Add content** under **Container 1**.
 
@@ -182,7 +183,7 @@ In this Component Builder example, we will create a stopwatch component to track
 
     3.  Select **Save**.
 
-        ![Add stylized text to a container](../image/cb-stylized-text-component.png)
+        \[Omitted image "cb-stylized-text-component.png"\] Alt text: Add stylized text to a container
 
 9.  To configure the stylized text component we will add some client state parameters.
 
@@ -200,7 +201,7 @@ In this Component Builder example, we will create a stopwatch component to track
 
     3.  Select **Apply**.
 
-        ![List of client state parameters added to the custom component.](../image/cb-client-state-parameters.png)
+        \[Omitted image "cb-client-state-parameters.png"\] Alt text: List of client state parameters added to the custom component.
 
     4.  Select **Save**.
 
@@ -210,13 +211,13 @@ In this Component Builder example, we will create a stopwatch component to track
 
     2.  Select the bind icon when pointing to the **Text** field of the stylized text component.
 
-        ![Bind stylized text in component](../image/cb-text-bind-icon.png)
+        \[Omitted image "cb-text-bind-icon.png"\] Alt text: Bind stylized text in component
 
     3.  Select **Client states**.
 
     4.  Double-click the **elapsedTime** pill.
 
-        ![Bind the elapsed time parameter to text](../image/cb-elapsedtime-pill.png)
+        \[Omitted image "cb-elapsedtime-pill.png"\] Alt text: Bind the elapsed time parameter to text
 
     5.  Select **Apply**.
 
@@ -226,7 +227,7 @@ In this Component Builder example, we will create a stopwatch component to track
 
     1.  Select the **+** icon under the stylized text component.
 
-        ![Select the plus sign under the text component](../image/cb-add-component-icon.png)
+        \[Omitted image "cb-add-component-icon.png"\] Alt text: Select the plus sign under the text component
 
     2.  Select **Layouts**.
 
@@ -264,7 +265,7 @@ In this Component Builder example, we will create a stopwatch component to track
 
     9.  Select **Save**.
 
-        ![Custom component building UI with arrows pointing to the component label, and Icon, Variant, Size, and Tooltip text fields in the configuration panel.](../image/cb-add-renderer.png)
+        \[Omitted image "cb-add-renderer.png"\] Alt text: Custom component building UI with arrows pointing to the component label, and Icon, Variant, Size, and Tooltip text fields in the configuration panel.
 
 13. Configure the stop button to display while the stopwatch is running.
 
@@ -279,7 +280,7 @@ In this Component Builder example, we will create a stopwatch component to track
         -   Render content: **When condition below is true**
     4.  Select the bind icon while pointing at the **Condition** field.
 
-        ![Edit settings modal where you select to bind](../image/cb-condition-bind-icon.png)
+        \[Omitted image "cb-condition-bind-icon.png"\] Alt text: Edit settings modal where you select to bind
 
     5.  Select **Client states**, then double-click the **stopwatchRunning** pill.
 
@@ -306,15 +307,15 @@ In this Component Builder example, we will create a stopwatch component to track
 
     12. Select **Save**.
 
-        ![Custom component building UI with arrows pointing to the component label, and Icon, Variant, Size, and Tooltip text fields in the configuration panel.](../image/cb-add-renderer2.png)
+        \[Omitted image "cb-add-renderer2.png"\] Alt text: Custom component building UI with arrows pointing to the component label, and Icon, Variant, Size, and Tooltip text fields in the configuration panel.
 
 14. Reorder the conditions so that **Running** appears above **Start**.
 
     1.  Select **Conditional renderer 1** in the content tree.
 
-    2.  In the configuration panel, select and drag the drag handle icon ![](../image/drag-handle.png) to move the conditions into position.
+    2.  In the configuration panel, select and drag the drag handle icon \[Omitted image "drag-handle.png"\] Alt text: to move the conditions into position.
 
-        ![Conditional renderer component in the configuration panel with the "Running" condition placed near the "Start" condition.](../image/cb-reorder-conditions.png)
+        \[Omitted image "cb-reorder-conditions.png"\] Alt text: Conditional renderer component in the configuration panel with the "Running" condition placed near the "Start" condition.
 
         Conditions are evaluated in order from top to bottom, so **Running** must appear above **Start** for the buttons to display correctly.
 
@@ -408,7 +409,7 @@ In this Component Builder example, we will create a stopwatch component to track
 
     3.  Select **Apply**.
 
-        ![Edit client script modal overlaying the UI Builder editor.](../image/cb-add-client-script.png)
+        \[Omitted image "cb-add-client-script.png"\] Alt text: Edit client script modal overlaying the UI Builder editor.
 
     4.  Select **+** next to **Client scripts** to add a second script.
 
@@ -448,7 +449,7 @@ In this Component Builder example, we will create a stopwatch component to track
 
     2.  Select **Add handler** under **Button iconic clicked**, then select the **Start** client script we created in the previous steps.
 
-        ![Add event handler modal with an arrow pointing to a client script labeled "Start."](../image/cb-add-event.png)
+        \[Omitted image "cb-add-event.png"\] Alt text: Add event handler modal with an arrow pointing to a client script labeled "Start."
 
     3.  Select **Continue**, then select **Add**.
 
@@ -462,7 +463,7 @@ In this Component Builder example, we will create a stopwatch component to track
 
 17. Select **Preview** to test the configured components.
 
-    ![UI Builder preview of page with running stopwatch component.](../image/cb-preview.png)
+    \[Omitted image "cb-preview.png"\] Alt text: UI Builder preview of page with running stopwatch component.
 
 
 ### Result

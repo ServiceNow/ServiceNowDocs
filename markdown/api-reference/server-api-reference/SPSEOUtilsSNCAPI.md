@@ -2,6 +2,7 @@
 title: SPSEOUtilsSNC - Global
 description: The SPSEOUtilsSNC script include provides utility methods that return human-readable URLs for a specific page, or for the current page, based on the transaction request.Returns the human-readable URL for a specified record in the Page \[sp\_page \] table. Uses the passed-in query parameters to resolve any dynamic page variables required by the URL.Returns the human-readable URL for the current Service Portal record.Returns the GlideRecord from the Pages \[sp\_page\] table whose ID field matches the passed ID parameter \(pageId\). Call this method prior to calling the getHumanReadableUrl\(\) method to obtain the desired sp\_pages GlideRecord.Returns the sys\_id of the portal being loaded based on the portal suffix in the request URL. Call this method prior to calling the getPageRecordWithPageRoute\(\) method to obtain the desired Service Portal sys\_id.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SPSEOUtilsSNCAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The SPSEOUtilsSNC script include provides utility methods that return human-read
 
 In addition, this API provides other utility methods that you can use to obtain information that is needed to call other human-readable URL methods.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SPSEOUtilsSNC - getHumanReadableUrl\(GlideRecord pageGR, String queryString\)
 
@@ -45,7 +46,7 @@ GlideRecord
 
 </td><td>
 
-GlideRecord object of the record in the Page \[sp\_page\] table for which to return the human-readable URL.Use the [SPSEOUtilsSNC - getPageRecordWithPageRoute\(GlideRecord pageId, String portalId, Boolean preventReRoute\)](SPSEOUtilsSNCAPI.md#) method to obtain the desired sp\_page GlideRecord.
+GlideRecord object of the record in the Page \[sp\_page\] table for which to return the human-readable URL.Use the [SPSEOUtilsSNC - getPageRecordWithPageRoute\(GlideRecord pageId, String portalId, Boolean preventReRoute\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPSEOUtilsSNCAPI.md) method to obtain the desired sp\_page GlideRecord.
 
 </td></tr><tr><td>
 
@@ -116,7 +117,7 @@ getting-around-in-windows
 
 Returns the GlideRecord from the Pages \[sp\_page\] table whose ID field matches the passed ID parameter \(**pageId**\). Call this method prior to calling the getHumanReadableUrl\(\) method to obtain the desired sp\_pages GlideRecord.
 
-You can also request that the method use the page route maps information to return the GlideRecord of the final Service Portal page associated with the passed Service Portal page ID. For additional information on page route maps, see [Redirect a reference to a page ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/reroute-page.md).
+You can also request that the method use the page route maps information to return the GlideRecord of the final Service Portal page associated with the passed Service Portal page ID. For additional information on page route maps, see Redirect a reference to a page ID.
 
 <table id="table_hhx_rzn_tvb" class="parameters"><thead><tr><th>
 
@@ -152,7 +153,7 @@ String
 
 </td><td>
 
-Sys\_id of the associated Service Portal \[sp\_portal\] record. Required to return the appropriate login or 404 pages in case the record associated with the passed **pageId** parameter is not accessible or unavailable.Use the [SPSEOUtilsSNC - getPortalId\(\)](SPSEOUtilsSNCAPI.md#) method to obtain the desired Service Portal ID.
+Sys\_id of the associated Service Portal \[sp\_portal\] record. Required to return the appropriate login or 404 pages in case the record associated with the passed **pageId** parameter is not accessible or unavailable.Use the [SPSEOUtilsSNC - getPortalId\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SPSEOUtilsSNCAPI.md) method to obtain the desired Service Portal ID.
 
 </td></tr><tr><td>
 

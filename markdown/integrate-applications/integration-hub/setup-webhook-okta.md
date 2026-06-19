@@ -2,6 +2,7 @@
 title: Set up a bi-directional webhook for Okta spoke
 description: Configure a webhook to subscribe to Okta with a ServiceNow callback URL.Register an Okta webhook in your ServiceNow instance to notify the ServiceNow app when certain events occur in Okta.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-webhook-okta.html
 release: australia
 product: Integration Hub
 classification: integration-hub

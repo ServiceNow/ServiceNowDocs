@@ -2,6 +2,7 @@
 title: Create incident or security incident from an alert
 description: When an alert must be escalated and assigned to someone who can resolve the underlying issue, you can open an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/t\_EMCreateIncidentfromAlert.html
 release: australia
 product: Event Management
 classification: event-management
@@ -25,9 +26,9 @@ If Security Incident Response is activated, a security incident can be created.
 
 You can manually create incidents and security incidents from the Alert form. To prevent duplicate tasks, the system checks the conditions of all task templates before creating an incident.
 
-You can customize the created incident using the **EvtMgmtCustomIncidentPopulator.populateFieldsFromAlert** script include. The customization includes mapping fields from the alert to the incident or aborting the incident creation according to customized conditions. For more information, see [Custom alert fields](../concept/populate-custom-alert-fields.md).
+You can customize the created incident using the **EvtMgmtCustomIncidentPopulator.populateFieldsFromAlert** script include. The customization includes mapping fields from the alert to the incident or aborting the incident creation according to customized conditions. For more information, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
 
-You can populate incident fields using custom alert fields values that where populated from additional information fields. Use the **EvtMgmtCustomIncidentPopulator** script include to copy the values to the incident after copying the data to the alert. For more information, see [Custom alert fields](../concept/populate-custom-alert-fields.md).
+You can populate incident fields using custom alert fields values that where populated from additional information fields. Use the **EvtMgmtCustomIncidentPopulator** script include to copy the values to the incident after copying the data to the alert. For more information, see [Custom alert fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/populate-custom-alert-fields.md).
 
 **Note:** If Security Incident Response is activated, the base system includes an alert action rule called **Create security incidents for critical alerts**. This alert action rule creates security incidents when critical security events are reported.
 
@@ -48,10 +49,10 @@ You can populate incident fields using custom alert fields values that where pop
 
 The created incident appears in the **Task** field of the Alert form.
 
-**Parent Topic:**[View alert information](t_EMViewAlert.md)
+**Parent Topic:**[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMViewAlert.md)
 
 **Related topics**  
 
 
-[Security incidents created from events and alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/c_ScIncdUseAlrts.md)
+[bundle-security.c_ScIncdUseAlrts]
 

@@ -2,6 +2,7 @@
 title: Install the AES product and integrations
 description: Install the App Engine Studio \(AES\) product to verify that you get all the dependencies, integrations, and tools, such as templates and builders.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-install-product-integrations.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -27,11 +28,11 @@ Role required: admin
 
 2.  Locate the App Engine Studio product \(not the application\), and select the product tile.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
     **Note:** You must select the AES product, not the application.
 
-    ![App Engine Studio card highlighted in the Application Manager interface.](../image/aes-activate-plugin-as1.png)
+    \[Omitted image "aes-activate-plugin-as1.png"\] Alt text: App Engine Studio card highlighted in the Application Manager interface.
 
 3.  On the App Engine Studio product page, select **Install**.
 
@@ -50,5 +51,5 @@ Role required: admin
 
 App Engine Studio is installed on your instance.
 
-**Parent Topic:**[AES and the ServiceNow Store](../concept/aes-installation-store.md)
+**Parent Topic:**[AES and the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-installation-store.md)
 

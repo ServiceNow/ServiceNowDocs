@@ -2,6 +2,7 @@
 title: Partition size computation for parallel loading in Integration Commons for CMDB
 description: Integration Commons for CMDB supports computed partition size for the parallel loading framework, if supported in a Service Graph Connector.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-integration-commons/integration-commons-part-size.html
 release: australia
 product: CMDB Integration Commons
 classification: cmdb-integration-commons
@@ -19,8 +20,8 @@ The parallel loading feature of ServiceNow AI Platform, executes data load using
 
 The partition size computation for the parallel loading feature within the Integration Commons for CMDB application is based on the following calculations:
 
--   [Partition size calculation](integration-commons-part-size.md#section_gst_h2g_ccc)
--   [Parallel jobs calculation](integration-commons-part-size.md#section_zfw_z2g_ccc)
+-   [Partition size calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-part-size.md)
+-   [Parallel jobs calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-part-size.md)
 
 ## Partition size calculation
 

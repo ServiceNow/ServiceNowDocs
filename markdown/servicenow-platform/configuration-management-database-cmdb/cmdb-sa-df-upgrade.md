@@ -2,6 +2,7 @@
 title: Managing principal class marking during upgrade
 description: Make sure that existing Hardware Asset Management \(HAM\) CI classes are included as principal classes in Data Foundations during upgrade, without requiring manual configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-upgrade.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -37,12 +38,12 @@ The following table shows how principal classes from HAM model categories are ap
 
 1.  Go to CMDB success advisor landing page, and on the Data Foundations card, select **Edit principal classes** to review automatically marked classes.
 
-    See [Manage Data Foundations advisor scope in CMDB success advisor](../task/cmdb-sa-df-optimize-dashboard.md).
+    See [Manage Data Foundations advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.md).
 
-2.  Confirm that the marked classes align with your Data Foundations advisor scope. Remove any unwanted classes and add others as needed \(up to 50 principal classes\).
+2.  Confirm that the marked classes align with your Data Foundations advisor scope. Remove any unwanted classes and add others as needed \(up to 200 principal classes\).
 3.  If CI picker filtering affects users, adjust behavior using the system properties for CMDB success advisor.
 
-    See [Principal class tracking in CMDB success advisor](cmdb-sa-principal-class.md#section_pky_rf2_k3c).
+    See [Principal class tracking in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-principal-class.md).
 
 
 **Note:**

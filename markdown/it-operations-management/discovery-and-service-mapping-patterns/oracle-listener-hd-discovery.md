@@ -2,6 +2,7 @@
 title: Oracle Listener HD discovery
 description: ServiceNow Discovery uses the Oracle Listener HD pattern to find and map Oracle real application cluster components. To discover these resources, install the CMDB CI Class Models and the Discovery and Service Mapping Patterns from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/oracle-listener-hd-discovery.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -19,7 +20,7 @@ Oracle RAC enables you to cluster an Oracle database. Oracle RAC uses Oracle Clu
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -57,11 +58,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 The Oracle Clusterware setup is only supported for the UNIX Operating Systems. The base system **SSH Command-Oracle - Listener Details classifier probe** is inactive \(Active is set to False\), when installing the CMDB CI Class Models version 1.29.0 or higher.
 
-![Classifier Probes.](../image/classifierprobenew.png "Classifier Probes- Oracle Listener Details")
+\[Omitted image "classifierprobenew.png"\] Alt text: Classifier Probes.
 
 The **Oracle Listener process classification** triggers the Oracle Listener HD pattern.
 
-![Classifier Probes.](../image/classifier_probes_horizontal.png "Classifier Probes- Horizontal Pattern")
+\[Omitted image "classifier\_probes\_horizontal.png"\] Alt text: Classifier Probes.
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -129,17 +130,17 @@ Discovery populates the data in the CMDB when running the Oracle Listener HD pat
 
 The following dependency views display the relationships between Oracle Listener resources.
 
-![Oracle Database Listener view map​.](../image/oraclelistenerviewmap.png "Oracle Database Listener View Map​")
+\[Omitted image "oraclelistenerviewmap.png"\] Alt text: Oracle Database Listener view map​.
 
-![Oracle Instance View Map.](../image/oracleinstanceviewmap.png "Oracle Instance View Map")
+\[Omitted image "oracleinstanceviewmap.png"\] Alt text: Oracle Instance View Map.
 
-![Oracle Database View Map.](../image/oracledatabaseviewmap.png "Oracle Database View Map")
+\[Omitted image "oracledatabaseviewmap.png"\] Alt text: Oracle Database View Map.
 
-![Oracle Cluster View Map.](../image/oracleclusterviewmap.png "Oracle Cluster View Map")
+\[Omitted image "oracleclusterviewmap.png"\] Alt text: Oracle Cluster View Map.
 
-![Oracle Cluster Node View Map​.](../image/oracleclusternodeviewmap.png "Oracle Cluster Node View Map​")
+\[Omitted image "oracleclusternodeviewmap.png"\] Alt text: Oracle Cluster Node View Map​.
 
-![Linux Server View Map​.](../image/linkviewmap.png "Linux Server View Map​")
+\[Omitted image "linkviewmap.png"\] Alt text: Linux Server View Map​.
 
 ## CI relationships
 
@@ -162,5 +163,5 @@ The Listener HD pattern creates the following relationships to support Oracle Li
 |Oracle DB Service \[cmdb\_ci\_db\_ora\_service\]|Managed by::Manages|Oracle Database Listener \[cmdb\_ci\_db\_ora\_listener\]|
 |Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]|Uses::Used by|Oracle DB Service \[cmdb\_ci\_db\_ora\_service\]|
 
-**Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

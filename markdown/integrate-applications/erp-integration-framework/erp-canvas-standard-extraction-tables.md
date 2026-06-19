@@ -2,6 +2,7 @@
 title: Standard ERP models and extraction tables for Zero Copy Connector for ERP
 description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) provides a number of standard extraction tables that you can link to ERP models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-standard-extraction-tables.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -41,7 +42,7 @@ The following extraction tables are available through Zero Copy Connector for ER
 |SAP Vendor Invoice|Sales|
 |SAP Transport|Transport|
 
-For more details on working with remote tables, see [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables/remote-tables.md).
+For more details on working with remote tables, see .
 
-**Parent Topic:**[Zero Copy Connector for ERP standard tables, fields, and models](erp-canvas-standard-tables-and-fields-landing.md)
+**Parent Topic:**[Zero Copy Connector for ERP standard tables, fields, and models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
 

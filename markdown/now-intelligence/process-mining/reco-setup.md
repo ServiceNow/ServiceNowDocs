@@ -2,6 +2,7 @@
 title: Configure recommendations setup
 description: Set up recommendations to simplify project creation and get help in the analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/reco-setup.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -23,13 +24,13 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  On the side of the page, select the Process configurations icon \(![Process configuration builder](../image/icon-process-config.png)\).
+2.  On the side of the page, select the Process configurations icon \(\[Omitted image "icon-process-config.png"\] Alt text: Process configuration builder\).
 
 3.  Open a table from the **Configurations** tab.
 
     The **Process details** page is displayed. Select **Recommendations setup** from the left bar.
 
-    If you’re proceeding from the **Process details** page, then you come to this page. For more information, see [Configure process details](process-details.md).
+    If you’re proceeding from the **Process details** page, then you come to this page. For more information, see [Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-details.md).
 
     The **Recommendations setup** page has three sections:
 
@@ -38,7 +39,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
     -   Child tables
 4.  Fill the details in the **Activity fields** section.
 
-    ![Activity fields in the Recommendations setup of process configuration](../image/process-config-activity.png)
+    \[Omitted image "process-config-activity.png"\] Alt text: Activity fields in the Recommendations setup of process configuration
 
     Activity fields are the most important fields in a project. They determine what kind of data you see on the process map.
 
@@ -46,11 +47,11 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
     The columns that you had selected in the **State definition** and **Team definition** fields in the **Process details** tab, are automatically populated in the **Activity fields** area. You can add any other columns that you think are important for your process.
 
-    The fields provided here are available as recommendations in for activity definition when creating a project on this table. For more information about how the recommended fields are displayed when setting activity definitions, see the table in the [Set activity definitions](set-activity-def.md) section.
+    The fields provided here are available as recommendations in for activity definition when creating a project on this table. For more information about how the recommended fields are displayed when setting activity definitions, see the table in the [Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/set-activity-def.md) section.
 
 5.  Fill the details in the **Breakdown fields** section.
 
-    ![Breakdown fields in process configuration](../image/proces-det-2.png)
+    \[Omitted image "proces-det-2.png"\] Alt text: Breakdown fields in process configuration
 
     Breakdown fields are used to segment the process, enabling the analysis of specific subsets of the process data. Configuring breakdown fields enables analysis of process subsets. It provides you with recommendations for the most suitable breakdown in your projects, and surfaces recommendations for automated root cause analysis fields in this process configuration.
 
@@ -61,7 +62,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
     -   For child table configurations, breakdowns that are over the limit are excluded and no statistics are generated for them. For string breakdowns, fields are excluded when there are more than 640 unique values per field.
     -   For child table configurations, for non-string breakdowns, a maximum of 5000 unique values are allowed per field.
     -   If the total number of unique breakdown values for all child entities \(string and non-string\) is above 100k, all breakdowns for child tables is excluded regardless of whether or not they are over limit.
-    For information about how these recommendations are provided when setting the breakdown definitions in a project, see [Set breakdown definitions](breakdown.md).
+    For information about how these recommendations are provided when setting the breakdown definitions in a project, see [Set breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/breakdown.md).
 
 <table id="table_a1j_5m3_yfc"><thead><tr><th>
 
@@ -104,13 +105,13 @@ Priority
 </td></tr></tbody>
 </table>6.  Fill the details in the **Child tables** section.
 
-    ![Child table in process configuration](../image/process-det-child.png)
+    \[Omitted image "process-det-child.png"\] Alt text: Child table in process configuration
 
     Child tables include data of dependent subprocesses that are important for the execution of the parent process. Analyzing child tables helps uncover inefficiencies in subprocesses that impact the main process's performance. Including child tables in the process configuration provides you with a list of related processes to add as an extra dimension of analysis to your project.
 
     For example, the Incident table serves as the parent table with general information about incidents. The Incident Task is the child table that stores specific tasks related to each incident.
 
-    For more information about how these settings are available in the child tables when creating a project, see [Set use cases](adv-settings.md).
+    For more information about how these settings are available in the child tables when creating a project, see [Set use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/adv-settings.md).
 
     1.  Select the **+** sign in the field.
 
@@ -125,5 +126,5 @@ Priority
 7.  Select **Continue to investigative features**.
 
 
-**Parent Topic:**[Create process configuration using Process Configuration Builder](process-config-builder.md)
+**Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-config-builder.md)
 

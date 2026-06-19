@@ -2,6 +2,7 @@
 title: Set up Jenkins spoke
 description: Integrate the ServiceNow instance and Jenkins using basic authentication to authenticate ServiceNow requests.Create Credential records to the Jenkins server. The Jenkins spoke connection and credential alias uses these credentials to authorize actions.Create Connection records to your Jenkins account. The Jenkins spoke connection and credential alias uses these connections to perform actions on Jenkins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-jenkins-v1.html
 release: australia
 product: Integration Hub
 classification: integration-hub

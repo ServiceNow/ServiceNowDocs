@@ -2,6 +2,7 @@
 title: Node configuration form
 description: Use the Node configuration form to configure the settings such as the primary label, icon, secondary label, tooltip for the selected node.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/node-configuration-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

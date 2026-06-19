@@ -2,7 +2,10 @@
 title: Access limitations for external location agents
 description: Explore the limitations that an external location agent faces when using various platform modules during case resolution. You can use this topic to get a comprehensive overview of the modules that are supported and unsupported with the external location agent persona.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/access-limitations-for-ext-loc-agent.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

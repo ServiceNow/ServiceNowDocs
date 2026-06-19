@@ -2,6 +2,7 @@
 title: Exploring Workflow Studio
 description: Work with playbooks, flows, subflows, actions, data streams, and decision tables from a single consolidated interface. See operational details of your workflow applications and configure integration connections and credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/exploring-workflow-studio.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -19,7 +20,7 @@ Work with playbooks, flows, subflows, actions, data streams, and decision tables
 
 The Workflow Studio homepage displays all the workflow applications available for authoring and editing.
 
-![Parts of the Workflow Studio homepage.](../images/workflow-studio-homepage.png "Sample Workflow Studio homepage")
+\[Omitted image "workflow-studio-homepage.png"\] Alt text: Parts of the Workflow Studio homepage.
 
 The Workflow Studio homepage consists of these elements.
 
@@ -56,7 +57,7 @@ The Workflow Studio homepage consists of these elements.
 
 The Workflow Studio operations page displays a usage dashboard and execution details for the workflow components that are currently running and have completed running.
 
-![Parts of the Workflow Studio operations page.](../images/workflow-studio-operations.png "Sample Workflow Studio operations page")
+\[Omitted image "workflow-studio-operations.png"\] Alt text: Parts of the Workflow Studio operations page.
 
 The Workflow Studio operations page consists of these elements.
 
@@ -77,7 +78,7 @@ The Workflow Studio operations page consists of these elements.
 
 The Workflow Studio integrations page displays connection details for Integration Hub spokes. You can use this page to configure inbound and outbound spoke connections.
 
-![Parts of the Workflow Studio integrations page.](../images/workflow-studio-integrations.png "Sample Workflow Studio integrations page")
+\[Omitted image "workflow-studio-integrations.png"\] Alt text: Parts of the Workflow Studio integrations page.
 
 The Workflow Studio integrations page consists of these elements.
 
@@ -92,7 +93,7 @@ The Workflow Studio integrations page consists of these elements.
 
 ## Create button
 
-![Create button and its available options](../images/workflow-studio-create-button-and-menu-options.png "Create button and options menu")
+\[Omitted image "workflow-studio-create-button-and-menu-options.png"\] Alt text: Create button and its available options
 
 Beginning with the Xanadu release, you can create new workflow items from any Workflow Studio page rather than just the Homepage. Use the Create button on the tab header to display a list of available workflow components.
 
@@ -129,7 +130,7 @@ If you're trying to determine if a playbook should be a flow instead, start by d
     -   If no, use a flow. Flows use less data storage in your instance.
 -   If your playbook is not triggered very often, keep it as a playbook. Playbooks offer visibility into where you're at in a process, particularly business processes with manual user steps.
 
-You can reference decision tables in flows, subflows, actions, and playbooks. Data streams are not used in flows, subflows, actions, playbooks, or decision tables. To learn more about data streams, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/data-stream-actions.md).
+You can reference decision tables in flows, subflows, actions, and playbooks. Data streams are not used in flows, subflows, actions, playbooks, or decision tables. To learn more about data streams, see .
 
 ## Differences from previous releases
 
@@ -164,10 +165,10 @@ Workflow Studio combines playbooks, flows, subflows, actions, decision tables, a
     Workflow Studio contains execution details for all workflow object types. You no longer have to switch between applications to see execution details for a particular object type.
 
 
--   **[Getting started with process automation](../../process-automation-designer/concept/getting-started-process-automation.md)**  
+-   **[Getting started with process automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/getting-started-process-automation.md)**  
 Learn how process automation applications can help you use the ServiceNow AI Platform® to transform your manual business processes into digitized, automated workflows.
--   **[When to use flows and Playbook](when-to-use-flows-and-playbooks.md)**  
+-   **[When to use flows and Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/when-to-use-flows-and-playbooks.md)**  
 Use these general guidelines to determine when to create a flow or a playbook.
 
-**Parent Topic:**[Workflow Studio](../reference/workflow-studio.md)
+**Parent Topic:**[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/workflow-studio.md)
 

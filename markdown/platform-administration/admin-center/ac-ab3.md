@@ -2,6 +2,7 @@
 title: Modernize your change management process blueprint
 description: Select this adoption blueprint to get a walk through on how you can adopt the required capabilities to allow your change process to dynamically scale without compromising stability and governance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/admin-center/ac-ab3.html
 release: australia
 product: Admin Center
 classification: admin-center
@@ -43,7 +44,7 @@ Build the foundation
 
 </td><td>
 
-[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/c_ITILChangeManagement.md)
+
 
 </td><td>
 
@@ -51,11 +52,11 @@ Simplify, automate, and accelerate complex change processes using built-in AI, w
 
 </td><td>
 
-[Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-cm-itsm-roles.md)
+
 
 </td><td>
 
-[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/configure-change-management.md)
+
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Enhance the experience
 
 </td><td>
 
-[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-success-score.md)
+
 
 </td><td>
 
@@ -71,11 +72,11 @@ Use change success scores for insight into change team and model historical perf
 
 </td><td>
 
-[Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-cm-itsm-roles.md)
+
 
 </td><td>
 
-[Components installed with Change Management - Change Success Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-change-success-score.md)
+
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Optimize the functionality
 
 </td><td>
 
-[Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-landing-page.md)
+
 
 </td><td>
 
@@ -91,7 +92,7 @@ Plan and deliver new versions of products across product teams while "shifting l
 
 </td><td>
 
-[Components installed with Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/installed-with-dpr.md)
+
 
 </td><td>
 
@@ -105,7 +106,7 @@ Optimize the functionality
 
 </td><td>
 
-[DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-landing-page-new.md)
+
 
 </td><td>
 
@@ -113,11 +114,11 @@ Use DevOps Change Velocity to connect data from your DevOps tool chain with the 
 
 </td><td>
 
-[Components installed with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/installed-with-dev-ops.md)
+
 
 </td><td>
 
--   [DevOps Change Velocity support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-overview.md)
+-   DevOps Change Velocity support
 -   [DevOps Change Velocity overview \(video\)](https://www.youtube.com/watch?v=qcON3o2WAzQ)
 
 </td></tr><tr><td>
@@ -126,7 +127,7 @@ Add advanced features
 
 </td><td>
 
-[Train the Risk Intelligence solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/train-risk-intelligence-solution.md)
+
 
 </td><td>
 
@@ -134,12 +135,12 @@ Leverage ML for data-driven evaluation of historical change data to predict chan
 
 </td><td>
 
-[Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/installed-with-cm-itsm-roles.md)
+
 
 </td><td>
 
-[Request Change Management - Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/request-cm-risk-assessment.md)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Select your adoption blueprint](../task/ac-select-business-objective.md)
+</table>**Parent Topic:**[Select your adoption blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/admin-center/ac-select-business-objective.md)
 

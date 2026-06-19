@@ -2,6 +2,7 @@
 title: Roles installed with AI Risk and Compliance
 description: The AI Risk and Compliance installs the essential roles to perform respective day-to-day operational tasks for managing AI assets across the enterprise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
@@ -138,7 +139,7 @@ The ​AI Risk and Compliance User can perform the following tasks:-   Create AI
 -   sn\_smart\_asmt.assessment\_reader
 -   sn\_risk\_advanced.risk\_asmt\_project\_reader
 
-**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md).
+**Note:** For more information on AI Control Tower roles, see .
 
 </td></tr><tr><td>
 
@@ -230,5 +231,5 @@ The AI Case Admin can manage type profiles to segregate AI cases. They can set u
 -   sn\_ai\_case\_mgmt.ai\_case\_manager
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Risk and Compliance reference](ai-risk-and-compliance-reference.md)
+</table>**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

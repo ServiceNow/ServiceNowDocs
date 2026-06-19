@@ -2,6 +2,7 @@
 title: Configure a GCP PubSub data input in Health Log Analytics manually
 description: Set up a data input for receiving log messages that were published to a Google Cloud Platform \(GCP\) Pub/Sub topic and streaming them to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -18,13 +19,13 @@ Set up a data input for receiving log messages that were published to a Google C
 
 ## Before you begin
 
--   Verify that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerSystemRequirements.md).
+-   Verify that a MID Server is installed and configured with the Log Ingestion capability enabled. For more information, see .
 
-    ![MID Server configuration with Log Ingestion capability enabled.](../image/hla-mid-log-ingestion.png)
+    \[Omitted image "hla-mid-log-ingestion.png"\] Alt text: MID Server configuration with Log Ingestion capability enabled.
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see Create a MID Server property. If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 -   For shipping your logs encrypted using SSL TLS, see the [Streaming Data With Rsyslog &amp; Filebeat Using SSL \[KB0866319\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0866319) article in the Now Support Knowledge Base.
 
 Role required: evt\_mgmt\_admin
@@ -37,15 +38,15 @@ Role required: evt\_mgmt\_admin
 
 3.  Choose the GCP PubSub data input type.
 
-    **Note:** The selected data input type complements the passive data input \(listener\). For more information, see [Supported data inputs for Health Log Analytics](../reference/hla-data-input-supported.md).
+    **Note:** The selected data input type complements the passive data input \(listener\). For more information, see [Supported data inputs for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-supported.md).
 
 4.  On the form, fill in the fields.
 
-    For a description of the fields, see [GCP PubSub data input configuration fields](../reference/hla-data-input-gcp-pubsub-ref.md).
+    For a description of the fields, see [GCP PubSub data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.md).
 
 5.  Select **Advanced** to set additional configuration fields.
 
-    For a description of the fields, see [GCP PubSub data input configuration fields](../reference/hla-data-input-gcp-pubsub-ref.md).
+    For a description of the fields, see [GCP PubSub data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-gcp-pubsub-ref.md).
 
 6.  Select **Save**.
 
@@ -73,5 +74,5 @@ The data input configuration process is complete. Health Log Analytics adds the 
 
 **Note:** If the HLA engine is down and data has stopped streaming, a notification appears at the top of the data input configuration page. When this happens, contact ServiceNow support.
 
-**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](../concept/hla-data-inputs-configuring.md)
+**Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

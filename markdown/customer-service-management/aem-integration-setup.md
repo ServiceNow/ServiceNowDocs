@@ -2,7 +2,10 @@
 title: Configuring integration settings for ServiceNow services and components in AEM
 description: You have to set up your ServiceNow services and components to integrate with your Adobe Experience Manager \(AEM\) instance.Define OSGi configuration settings for ServiceNow services used by ServiceNow components in Adobe Experience Manager \(AEM\).Configure log file settings for ServiceNow services in Adobe Experience Manager \(AEM\) to generate debug logs to help identify issues in the authentication process.Define a cross-origin resource sharing \(CORS\) rule on your ServiceNow instance to access endpoints of the Knowledge Management REST API, Case API, or CSM Attachment API from your Adobe Experience Manager \(AEM\) instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/aem-integration-setup.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -17,13 +20,13 @@ You have to set up your ServiceNow services and components to integrate with you
 
 You can define the following types of configuration settings for ServiceNow services in AEM:
 
--   Authentication settings with a third-party OIDC provider \(see [Configure OIDC provider details in Adobe Experience Manager](../task/aem-setup-servicenow-authentication.md#)\).
--   Specific settings for ServiceNow services \(see [Define OSGi configuration settings for ServiceNow services](aem-integration-setup.md#)\).
--   Log file settings for ServiceNow services \(see [Configure log file settings for ServiceNow services in Adobe Experience Manager](aem-integration-setup.md#)\).
+-   Authentication settings with a third-party OIDC provider \(see [Configure OIDC provider details in Adobe Experience Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-setup-servicenow-authentication.md)\).
+-   Specific settings for ServiceNow services \(see [Define OSGi configuration settings for ServiceNow services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-integration-setup.md)\).
+-   Log file settings for ServiceNow services \(see [Configure log file settings for ServiceNow services in Adobe Experience Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-integration-setup.md)\).
 
 ## Settings for using ServiceNow components in AEM
 
-To use the Knowledge API endpoint on your AEM instance, you have to define the cross-origin resource sharing \(CORS\) rule on your ServiceNow instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](aem-integration-setup.md#).
+To use the Knowledge API endpoint on your AEM instance, you have to define the cross-origin resource sharing \(CORS\) rule on your ServiceNow instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/aem-integration-setup.md).
 
 ## Define OSGi configuration settings for ServiceNow services
 
@@ -116,9 +119,9 @@ Define a cross-origin resource sharing \(CORS\) rule on your ServiceNow instance
 
 Ensure that you have configured the API for which you are defining the CORS rule.
 
--   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see [Knowledge Management REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/knowledge-api.md).
--   Activate the Customer Service plugin \(com.sn\_customerservice\) to use the Case API endpoints for customer service cases. For more information, see [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/case-api.md).
--   Configure the **glide.rest.attachment\_csm\_api.allowed\_tables** system property and include the Case \[sn\_customerservice\_case\] table to use the CSM Attachment API end points for case attachments. For more information, see [CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/attachment_csm-api.md).
+-   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see Knowledge Management REST API.
+-   Activate the Customer Service plugin \(com.sn\_customerservice\) to use the Case API endpoints for customer service cases. For more information, see Case API.
+-   Configure the **glide.rest.attachment\_csm\_api.allowed\_tables** system property and include the Case \[sn\_customerservice\_case\] table to use the CSM Attachment API end points for case attachments. For more information, see CSM Attachment API.
 
 Role required: web\_service\_admin
 

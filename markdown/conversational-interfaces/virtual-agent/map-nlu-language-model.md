@@ -2,6 +2,7 @@
 title: Map a topic to a secondary NLU model
 description: Map a Virtual Agent topic to a secondary model in the model group or to a standalone, single-language NLU model for each supported language.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/map-nlu-language-model.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,11 +18,11 @@ Map a Virtual Agent topic to a secondary model in the model group or to a standa
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](../reference/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
-If you're using ServiceNow NLU, review [NLU model mapping in Virtual Agent Designer](../concept/nlu-model-binding-vad.md) for an understanding of NLU model groups.
+If you're using ServiceNow NLU, review [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md) for an understanding of NLU model groups.
 
-If necessary, add secondary languages to the model group in NLU Workbench to create language-specific versions of the model. For more information, see [Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/multilingual-model-managent.md).
+If necessary, add secondary languages to the model group in NLU Workbench to create language-specific versions of the model. For more information, see Multilingual model management.
 
 Role required: virtual\_agent\_admin or admin
 
@@ -29,11 +30,11 @@ Role required: virtual\_agent\_admin or admin
 
 If you select a secondary model for a language that is part of a different model group, the mapping changes for the entire topic. Secondary models must be part of the same model group as the primary language. You can select a different model and intent for a secondary language when it is the only language in the model \(and therefore the primary language\).
 
-![A mapping change alert says, "We updated mappings for these languages: English, French, German, Spanish."](../images/updated-language-bindings-message.png "Updated model group mappings message")
+\[Omitted image "updated-language-bindings-message.png"\] Alt text: A mapping change alert says, "We updated mappings for these languages: English, French, German, Spanish."
 
-![On the Intent mapping tab, a topic is mapped to a model group with an English primary language model and a German secondary language model.](../images/intent-mapping-primary-secondary-models.png "Topic mapped to a model group with primary and secondary languages")
+\[Omitted image "intent-mapping-primary-secondary-models.png"\] Alt text: On the Intent mapping tab, a topic is mapped to a model group with an English primary language model and a German secondary language model.
 
-For more information, see [NLU model mapping in Virtual Agent Designer](../concept/nlu-model-binding-vad.md).
+For more information, see [NLU model mapping in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/nlu-model-binding-vad.md).
 
 ## Procedure
 
@@ -49,7 +50,7 @@ For more information, see [NLU model mapping in Virtual Agent Designer](../conce
 
     The languages listed are based on the NLU languages that you enabled in Virtual Agent settings. After you select a language, a column displays in the Intent mapping section and, if applicable, in the Entity mapping section. For example, if you select **Français**, a French language column displays.
 
-    ![The NLU Language Mapping tab displays a column for English and a column for French language mappings. The English model and intent are mapped to a French model and intent.](../images/nlu-lang-mapping.png)
+    \[Omitted image "nlu-lang-mapping.png"\] Alt text: The NLU Language Mapping tab displays a column for English and a column for French language mappings. The English model and intent are mapped to a French model and intent.
 
 5.  Update the Intent mapping section.
 
@@ -66,7 +67,7 @@ For more information, see [NLU model mapping in Virtual Agent Designer](../conce
 
 ## What to do next
 
-[Test topic and NLU model translations](test-nlu-language-model.md)
+[Test topic and NLU model translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/test-nlu-language-model.md)
 
-**Parent Topic:**[Localize Virtual Agent topics that use NLU topic discovery](use-lf-translate-va-nlu.md)
+**Parent Topic:**[Localize Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-lf-translate-va-nlu.md)
 

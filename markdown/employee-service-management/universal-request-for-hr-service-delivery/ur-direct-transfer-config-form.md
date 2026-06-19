@@ -2,6 +2,7 @@
 title: Mapping configuration form
 description: Use the Mapping Configuration form to configure your fields and field mapping for cross-departmental transfers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/ur-direct-transfer-config-form.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -28,5 +29,5 @@ Use the **Mapping Configuration** form to configure your fields and field mappin
 |**Create UR Information**|
 |Create UR template|Select the template that you want to apply to the universal request while a department ticket is created.|
 
-**Parent Topic:**[Universal Request reference](ur-reference-topic.md)
+**Parent Topic:**[Universal Request reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.md)
 

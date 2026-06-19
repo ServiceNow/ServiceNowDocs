@@ -2,6 +2,7 @@
 title: Software license compliance position
 description: The Software Asset Management License Position report shows compliance details for each software model in a single list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-license-position-report.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -21,7 +22,7 @@ Two license metric results are generated if a software model has two entitlement
 
 A single license position report is generated if there are any unlicensed installations. A single license position report is also generated if there are any unlicensed subscriptions. If both are present, two license position reports are generated.
 
-![License compliance position report showing compliance details for each software model](../image/sw-license-compliance-position.png "License Compliance Position report")
+\[Omitted image "sw-license-compliance-position.png"\] Alt text: License compliance position report showing compliance details for each software model
 
 <table id="table_jf1_vk2_cdb"><thead><tr><th>
 
@@ -163,5 +164,5 @@ Software model name.
 </td></tr></tbody>
 </table>The License Position Report form also contains **Group** and **Subgroup** fields that specify the group and subgroup on which reconciliation was run.
 
-**Parent Topic:**[Software reconciliation for compliance](c_SAMReconciliation.md)
+**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)
 

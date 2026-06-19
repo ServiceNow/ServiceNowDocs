@@ -2,6 +2,7 @@
 title: Pie visualization example
 description: The pie data visualization uses a circular shape to show the proportion or percentage of different categories or groups. Each part of the circle \(or "slice"\) represents a different category or group, and the size of each slice is proportional to the size of the group or category it represents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-pie.html
 release: australia
 topic_type: task
 last_updated: "2026-03-25"
@@ -15,7 +16,7 @@ The pie data visualization uses a circular shape to show the proportion or perce
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,7 +24,7 @@ Use this visualization type to show the proportion of parts that make a whole, s
 
 ## Procedure
 
-1.  Follow the first steps to [Create a pie or donut data visualization](../../reporting/task/create-dv-donut-ac.md):
+1.  Follow the first steps to [Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-donut-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -73,7 +74,7 @@ Use this visualization type to show the proportion of parts that make a whole, s
 
     2.  Choose `Ascending` for the sort order.
 
-        The segments are ordered by the assignment group name starting with Financial, HR, Marketing, and so on.![Pie report on open incidents sorted by Assignment group](../../reporting/image/dv-ex-pie-sort-by.png)
+        The segments are ordered by the assignment group name starting with Financial, HR, Marketing, and so on.\[Omitted image "dv-ex-pie-sort-by.png"\] Alt text: Pie report on open incidents sorted by Assignment group
 
 7.  Under Data update, configure how the audience interacts with the visualization.
 
@@ -113,7 +114,7 @@ Use this visualization type to show the proportion of parts that make a whole, s
 
     7.  Change the Max legend item width to give those values more or less room.
 
-        ![Open incidents by assignment group pie visualization with legend showing value and percentage options](../../reporting/image/dv-ex-pie-legend-options.png)
+        \[Omitted image "dv-ex-pie-legend-options.png"\] Alt text: Open incidents by assignment group pie visualization with legend showing value and percentage options
 
 9.  Clear **Show legend** and select **Show data labels**.
 
@@ -139,5 +140,5 @@ Use this visualization type to show the proportion of parts that make a whole, s
 
 You have created a pie visualization grouped on one value. You have also configured the visualization's labeling, legend, and colors.
 
-**Parent Topic:**[Create a pie or donut data visualization](../../reporting/task/create-dv-donut-ac.md)
+**Parent Topic:**[Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-donut-ac.md)
 

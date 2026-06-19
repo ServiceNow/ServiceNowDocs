@@ -2,13 +2,14 @@
 title: Supporting information for Now Assist for WSD
 description: Get a quick overview for supported patch versions and application information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/support-info-wsd-nowassist.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore Now Assist for WSD, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Explore, Now Assist for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Supporting information for Now Assist for WSD

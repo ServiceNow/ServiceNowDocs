@@ -2,6 +2,7 @@
 title: Add child test suite to parent test suite
 description: Add to a multi-level test suite by including a child test suite within a parent test suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-add-child-suite.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -36,5 +37,5 @@ Role required: atf\_test\_admin or atf\_test\_designer
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Building and running automated test suites](../concept/atf-suites-overview.md)
+**Parent Topic:**[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md)
 

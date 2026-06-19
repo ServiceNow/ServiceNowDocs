@@ -2,6 +2,7 @@
 title: Workflow editor keyboard navigation
 description: The platform includes accessibility features that makes the interface accessible to users with disabilities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/legacy-workflow/workflow-keyboard-access.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -15,7 +16,7 @@ breadcrumb: [Workflow editor, Classic Workflow, ServiceNow AI Platform Additiona
 
 The platform includes accessibility features that makes the interface accessible to users with disabilities.
 
-These features improve the user experience when accessing platform functions with [Using accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/keyboard-accessibility.md). In general, you use the following set of standard keyboard navigation functions:
+These features improve the user experience when accessing platform functions with Using accessibility features. In general, you use the following set of standard keyboard navigation functions:
 
 -   Press **Tab** to navigate major groupings in a pre-defined sequence. This usually includes moving between standard interface controls \(fields and lists\) in a module, or between records within a tab.
 
@@ -26,10 +27,10 @@ These features improve the user experience when accessing platform functions wit
 
 The Workflow Editor is constructed in a unique manner. It includes a series of main \(left\) panel tabs, a series of side \(right\) panel tabs, and a drawing canvas for workflow creation or editing. As such, it has its own unique set of keyboard accessibility functions and commands.
 
--   **[Welcome page keyboard commands](welcome-page-keyboard-commands.md)**  
+-   **[Welcome page keyboard commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/welcome-page-keyboard-commands.md)**  
 Use keyboard commands to navigate and operate the Workflow Editor Welcome page.
--   **[Workflow drawing canvas keyboard commands](workflow-canvas-keyboard-commands.md)**  
+-   **[Workflow drawing canvas keyboard commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflow-canvas-keyboard-commands.md)**  
 Use keyboard commands to navigate and operate the Workflow Editor canvas.
 
-**Parent Topic:**[Workflow editor](workflow-editor.md)
+**Parent Topic:**[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/legacy-workflow/workflow-editor.md)
 

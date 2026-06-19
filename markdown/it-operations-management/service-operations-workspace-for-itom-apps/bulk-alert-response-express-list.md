@@ -2,6 +2,7 @@
 title: Run response actions on multiple alerts in Express List
 description: Run response actions to efficiently remediate and respond to issues on multiple alerts directly from the Express List pane.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/bulk-alert-response-express-list.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,17 +24,17 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon ![](../../event-management/image/express-list1.png).
+2.  From the navigation bar, select the Express list icon \[Omitted image "express-list1.png"\].
 
 3.  In the **Active Alerts** list, select the check boxes for desired alerts.
 
 4.  Select the **Alert actions** drop-down arrow to view **Response actions**.
 
-    ![Alert actions drop down arrow](../image/alert-actions-tool-tip.png)
+    \[Omitted image "alert-actions-tool-tip.png"\] Alt text: Alert actions drop down arrow
 
 5.  Select a response action.
 
-    ![Response actions for multiple alerts.](../image/bulk-alert-actions.png)
+    \[Omitted image "bulk-alert-actions.png"\] Alt text: Response actions for multiple alerts.
 
     **Note:** Numbers next to actions represent the number of alerts that can be addressed with that action. If the list is empty, no response actions are available.
 

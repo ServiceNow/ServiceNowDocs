@@ -2,6 +2,7 @@
 title: ResponseTemplate - Scoped, Global
 description: The ResponseTemplate script include provides methods for managing response templates.Instantiates a new ResponseTemplate object.Returns all response templates from a specified table that match the passed in query criteria.Renders the HTML body of a specified response template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ResponseTemplateAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,9 +18,9 @@ The ResponseTemplate script include provides methods for managing response templ
 
 Response templates are reusable messages that agents can copy to case or task forms. They provide quick and consistent messages to users and display standard chat response messages to requesters in Agent Chat. This script include requires the Templated Responses plugin \(com.sn\_templated\_snip\), which is activated by default, and runs within the `sn_templated_snip` namespace.
 
-For additional information on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/response-templates-templated-snippets.md).
+For additional information on response templates, see Response templates.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ResponseTemplate - ResponseTemplate\(\)
 
@@ -170,7 +171,7 @@ Object
 
 </td><td>
 
-Optional. Parameters to pass to the sn\_templated\_snip.response\_template extension point. The format and content of these parameters are dependent on the implementation of the extension point. For additional information on extension points, see [Using extension points to extend application functionality](../../../../../build/applications/concept/extension-points.md).
+Optional. Parameters to pass to the sn\_templated\_snip.response\_template extension point. The format and content of these parameters are dependent on the implementation of the extension point. For additional information on extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 </td></tr></tbody>
 </table><table id="table_cq2_kgr_vhb" class="returns"><thead><tr><th>
@@ -331,7 +332,7 @@ Object
 
 </td><td>
 
-Optional. Parameters to pass to the sn\_templated\_snip.response\_template extension point. The format and content of these parameters are dependent on the implementation of the extension point. For additional information on extension points, see [Using extension points to extend application functionality](../../../../../build/applications/concept/extension-points.md).
+Optional. Parameters to pass to the sn\_templated\_snip.response\_template extension point. The format and content of these parameters are dependent on the implementation of the extension point. For additional information on extension points, see [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md).
 
 </td></tr></tbody>
 </table><table id="table_vwn_2fr_vhb" class="returns"><thead><tr><th>

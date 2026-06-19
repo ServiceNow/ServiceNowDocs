@@ -2,6 +2,7 @@
 title: Using the Access Simulator
 description: Simulate changes to user access.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/use-access-simulator.html
 release: australia
 product: Access Control
 classification: access-control
@@ -19,7 +20,7 @@ Simulate changes to user access.
 
 Role required: access\_analyzer\_admin
 
-Enable the Take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](configure-access-simulator.md).
+Enable the Take actions. For more information, see [Configuring the Access Simulator \(Take actions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/configure-access-simulator.md).
 
 ## Procedure
 
@@ -27,8 +28,8 @@ Enable the Take actions. For more information, see [Configuring the Access Simul
 
 2.  To simulate a change, click **Simulate** next to one the following scenarios:
 
-    -   [Adding Roles to users](add-role-to-user.md)
-    -   [Removing Roles from users](remove-role-from-user.md)
-    -   [Adding users to Groups](add-user-to-group.md)
-    -   [Removing users from Groups](remove-user-from-group.md)
+    -   [Adding Roles to users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/add-role-to-user.md)
+    -   [Removing Roles from users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/remove-role-from-user.md)
+    -   [Adding users to Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/add-user-to-group.md)
+    -   [Removing users from Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/remove-user-from-group.md)
 

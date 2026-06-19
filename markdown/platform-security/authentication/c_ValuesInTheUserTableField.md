@@ -2,6 +2,7 @@
 title: Values in the User table field for SAML
 description: Ensure that the integration's User table field contains appropriate matching values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_ValuesInTheUserTableField.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,13 +2,14 @@
 title: Review an account by using the 360 View in Proactive Service Experience Workflows
 description: Review a customer or partner's account by using the Operations Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to customer's or partner's and then take action to improve your delivery of service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/review-customer-account-360-psew.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Review customer or partner accounts, Proactive Service Experience Workflow, Use, Product Support for Technology]
+breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Review an account by using the 360 View in Proactive Service Experience Workflows
@@ -166,5 +167,5 @@ You can also search for Major Incidents, Major Cases, Knowledge, Articles, or Ca
     -   Product Models
     -   Vendor Catalog Items
 
-**Parent Topic:**[Reviewing customer or partner accounts in Proactive Service Experience Workflows](../concept/reviewing-customer-accounts-360.md)
+**Parent Topic:**[Reviewing customer or partner accounts in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
 

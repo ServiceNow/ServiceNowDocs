@@ -2,6 +2,7 @@
 title: Classify xNFs for Telecom Router Pattern
 description: To access a full list of OIDs that will be classified.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/classifying-xnfs-pattern-tsom-visibility.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -31,7 +32,7 @@ Classifier name: **Standard Network Router**.
 
     **Note:**
 
-    For more information on how to add additional OIDs to the classifier, see [Direct Discovery using Discovery Patterns](../concept/telecom-discovery-using-telecommunication-discovery-pattern.md).
+    For more information on how to add additional OIDs to the classifier, see [Direct Discovery using Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.md).
 
     MiB Tables Used on an xNF:
 
@@ -41,5 +42,5 @@ Classifier name: **Standard Network Router**.
     -   IfXMIB
     -   IpMIB
 
-**Parent Topic:**[Use Telecom Discovery patterns](../concept/using-telecom-discovery-patterns.md)
+**Parent Topic:**[Use Telecom Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/using-telecom-discovery-patterns.md)
 

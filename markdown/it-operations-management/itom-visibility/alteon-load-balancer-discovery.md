@@ -2,6 +2,7 @@
 title: Radware Alteon load balancer discovery
 description: Discovery identifies and classifies information about Alteon load balancers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/alteon-load-balancer-discovery.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,7 +20,7 @@ Discovery identifies and classifies information about Alteon load balancers.
 
 ## Credentials
 
-Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md).
+Configure SNMP credentials.
 
 ## Classifier, pattern, and probe
 
@@ -78,5 +79,5 @@ The following data is collected on the DNS \[cmdb\_ci\_dns\_name\] table.
 |Name|name|
 |IP address|ip\_address|
 
-**Parent Topic:**[Load balancer discovery](c_LoadBalancers.md)
+**Parent Topic:**[Load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_LoadBalancers.md)
 

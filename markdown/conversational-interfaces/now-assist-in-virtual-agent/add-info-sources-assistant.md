@@ -2,11 +2,12 @@
 title: Assign search sources to a chat assistant
 description: Assign search sources to a chat assistant. Search sources are used to determine what the assistant looks at to answer user queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/add-info-sources-assistant.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-03-18"
 reading_time_minutes: 5
 breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
@@ -17,7 +18,7 @@ Assign search sources to a chat assistant. Search sources are used to determine 
 
 ## Before you begin
 
-See [Use agentic support for a chat assistant](use-agentic-support.md).
+See [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -31,7 +32,7 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
 1.  Assign search sources to your chat assistant.
 
-    ![View of the information sources.](../image/NAinVA-search-sources-122025.png "Search sources in the default search profile")
+    \[Omitted image "NAinVA-search-sources-122025.png"\] Alt text: View of the information sources.
 
     When a chat assistant is created, a search profile for that assistant gets created. All search sources associated with the profile are listed. The default search sources are:
 
@@ -57,19 +58,21 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
     The associated search profile is also shown.
 
-    ![Drop-down list with search configurations.](../image/NAinVA-copy-config-052025.png "Select a search configuration to copy")
+    \[Omitted image "NAinVA-copy-config-052025.png"\] Alt text: Drop-down list with search configurations.
 
 5.  Select **Copy**.
 
     After copying an existing configuration, the existing configuration for your portal, mobile app, or platform search overwrites your assistant's search application configuration. The latest configuration and the search sources are shown.
 
-    **Note:** All search sources are copied into the assistant search profile. However, only knowledge base, conversational catalog items, and external content are used for the LLM-generated conversational responses. Other search sources are used for the query-based search results, and when the user selects **View more search results**, Virtual Agent responses are seamless with the portal or mobile app search results page.
+    All search sources are copied into the assistant search profile. However, only knowledge base, conversational catalog items, and external content are used for the LLM-generated conversational responses. Other search sources are used for the query-based search results, and when the user selects **View more search results**, Virtual Agent responses are seamless with the portal or mobile app search results page.
+
+    **Note:** For premium chat, catalog items have improved fluidity, but some will no longer be conversational. They’ll open in a catalog form instead. For more information, see .
 
 6.  Select the ellipsis at the end of each table row to edit conditions or add a new condition set.
 
     The **Edit conditions** pop-up window appears.
 
-    ![Table view for editing conditions.](../image/NAinVA-edit-conditions4NOV.png "Edit conditions")
+    \[Omitted image "NAinVA-edit-conditions4NOV.png"\] Alt text: Table view for editing conditions.
 
 7.  Select **Apply** after you have edited the conditions or added a new condition set.
 
@@ -77,27 +80,27 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
     **Note:** If you have any external search sources created on your instance, the external search sources are shown in the **Add search sources** drop-down list.
 
-    The External Content Connectors application adds support for indexing content and metadata from documents in external repositories to make those documents searchable in AI Search applications. The External Content Connectors application ships with a default search source for each connector. Connector admins can link the default search source for a connector to a search profile as part of the connector creation process, or after the connector is created. For more information, see [Create a GitHub Enterprise Cloud external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-ext-cont-connector-github-enterprise-cloud.md) and [Connect an external content connector to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/connect-external-content-connector-search-profile.md). For information about creating search sources and linking them to search profiles, see [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/search-sources-ais.md).
+    The External Content Connectors application adds support for indexing content and metadata from documents in external repositories to make those documents searchable in AI Search applications. The External Content Connectors application ships with a default search source for each connector. Connector admins can link the default search source for a connector to a search profile as part of the connector creation process, or after the connector is created. For more information, see  and . For information about creating search sources and linking them to search profiles, see .
 
 9.  Select the **Add search sources** drop-down list to select or deselect search sources and save them into the assistant search profile.
 
     -   An internal search source refers to all knowledge base search sources on the instance and all catalog search sources on the instance.
-    -   An external search source refers to all external content search sources on an instance. Examples of external search sources include Microsoft SharePoint or Confluence. For a complete list of external search sources, see [Exploring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/exploring-ext-cont-connectors.md).
+    -   An external search source refers to all external content search sources on an instance. Examples of external search sources include Microsoft SharePoint or Confluence. For a complete list of external search sources, see .
     Search sources that aren't a knowledge base, external content, or catalog won't be used for the LLM-generated responses, but they are used for query-based search results shown in the assistant. Tool tips are shown for non-LLM eligible search sources.
 
 10. Select **Restore default search sources** if you want to revert to the default search sources of Now Assist Multi-Turn Catalog Ordering and Now Assist Q&amp;A.
 
-    ![Select the Restore default search sources to revert to the default sources.](../image/NAinVA-search-sources-restore-default-122025.png "Restore default search sources")
+    \[Omitted image "NAinVA-search-sources-restore-default-122025.png"\] Alt text: Select the Restore default search sources to revert to the default sources.
 
 11. Select **Manage search profile** if you have not yet configured AI Search for your portal or mobile app and want to start building the search configuration for your assistant from scratch, or edit advanced settings such as dictionaries, improvement rules, and stop words.
 
     A new browser tab opens with your assistant's search profile page from the AI Search Admin console page.
 
-    You must first complete the build of your search profile in the AI Search Admin console, and then publish your profile for it to be saved. For more information, see [Configure and manage AI Search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/ais-admin-console-setup-manage-ais.md).
+    You must first complete the build of your search profile in the AI Search Admin console, and then publish your profile for it to be saved. For more information, see .
 
-    ![Review and publish profile in AI Search Admin console](../image/NAinVA-publish-profile.png "Publish profile in AI Search Admin console")
+    \[Omitted image "NAinVA-publish-profile.png"\] Alt text: Review and publish profile in AI Search Admin console
 
-    When navigating back to your assistant admin configuration in Assistant Designer, refresh your browser page to reflect published updates from the AI Search Admin console. For more information about the AI Search Admin console, see [Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/using-ais-admin-console.md).
+    When navigating back to your assistant admin configuration in Assistant Designer, refresh your browser page to reflect published updates from the AI Search Admin console. For more information about the AI Search Admin console, see .
 
     **Note:** If you rename an assistant, the assistant's search profile name is automatically renamed to match the latest assistant's name.
 
@@ -110,5 +113,5 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
 ## What to do next
 
-See [Brand an assistant](brand-assistant.md).
+See [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/brand-assistant.md).
 

@@ -2,6 +2,7 @@
 title: Available AI agents for Integration Hub
 description: Now Assist AI agents are provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as, AI Agent Studio and Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/available-spk-ai-agents.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -25,15 +26,15 @@ AI agent
 
 </th></tr></thead><tbody><tr><td>
 
-[Now Assist for Integration Hub](../concept/now-assist-spokes.md)
+[Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md)
 
 </td><td>
 
-[Meeting scheduler AI agent](meeting-scheduler-ai-agent.md)**Important:** To use this AI agent, ensure that you have activated the [Microsoft Exchange Online Spoke](../../integrationhub-store-spokes/concept/ms-exch-online-spoke.md) and configured the client credential alias. To generate Zoom URL for the meeting, you must activate and configure the [Zoom Spoke](../../integrationhub-store-spokes/concept/zoom-spoke.md).
+[Meeting scheduler AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/meeting-scheduler-ai-agent.md)**Important:** To use this AI agent, ensure that you have activated the [Microsoft Exchange Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md) and configured the client credential alias. To generate Zoom URL for the meeting, you must activate and configure the [Zoom Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zoom-spoke.md).
 
 </td></tr><tr><td rowspan="7">
 
-[Kubernetes Spoke](../../integrationhub-store-spokes/concept/kubernetes-spoke.md)
+[Kubernetes Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/kubernetes-spoke.md)
 
 </td><td>
 
@@ -65,7 +66,7 @@ Kubernetes Volume Management AI Agents
 
 </td></tr><tr><td rowspan="5">
 
-[Jenkins Spoke](../../integrationhub-store-spokes/concept/jenkins-v1-spoke.md)
+[Jenkins Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jenkins-v1-spoke.md)
 
 </td><td>
 
@@ -89,7 +90,7 @@ Jenkins Build Management AI Agents
 
 </td></tr><tr><td rowspan="5">
 
-[Microsoft Active Directory v2 Spoke](../../integrationhub-store-spokes/concept/ms-ad-v2-spoke.md)
+[Microsoft Active Directory v2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-ad-v2-spoke.md)
 
 </td><td>
 
@@ -113,7 +114,7 @@ Microsoft Active Directory user manager
 
 </td></tr><tr><td rowspan="3">
 
-[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](../concept/microsoft-azure-ad-spoke.md)
+[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md)
 
 </td><td>
 
@@ -129,7 +130,7 @@ Microsoft Entra ID license manager
 
 </td></tr><tr><td rowspan="5">
 
-[Microsoft Exchange Online Spoke](../../integrationhub-store-spokes/concept/ms-exch-online-spoke.md)
+[Microsoft Exchange Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ms-exch-online-spoke.md)
 
 </td><td>
 
@@ -153,7 +154,7 @@ Microsoft Exchange Online mail manager
 
 </td></tr><tr><td rowspan="5">
 
-[Microsoft OneDrive Spoke](../../integrationhub-store-spokes/concept/onedrive-spoke.md)
+[Microsoft OneDrive Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/onedrive-spoke.md)
 
 </td><td>
 
@@ -177,7 +178,7 @@ Microsoft OneDrive Document Sharing AI Agent
 
 </td></tr><tr><td rowspan="9">
 
-[Microsoft SharePoint Online Spoke](../../integrationhub-store-spokes/concept/sharepoint-online-spoke.md)
+[Microsoft SharePoint Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sharepoint-online-spoke.md)
 
 </td><td>
 
@@ -217,7 +218,7 @@ Microsoft SharePoint Online search management AI agent
 
 </td></tr><tr><td>
 
-[Microsoft Security Response Center Spoke](../../integrationhub-store-spokes/concept/msrc-spoke-dec.md)
+[Microsoft Security Response Center Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msrc-spoke-dec.md)
 
 </td><td>
 
@@ -225,7 +226,7 @@ Microsoft Security Response Center security manager
 
 </td></tr><tr><td rowspan="6">
 
-[Microsoft Teams Graph Spoke](../../integrationhub-store-spokes/concept/msteams-spoke.md)
+[Microsoft Teams Graph Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/msteams-spoke.md)
 
 </td><td>
 
@@ -253,7 +254,7 @@ Microsoft Teams calendar management AI agent
 
 </td></tr><tr><td>
 
-[X Spoke \(formerly Twitter Spoke\)](../../integrationhub-store-spokes/concept/twitter-spoke-ol.md)
+[X Spoke \(formerly Twitter Spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/twitter-spoke-ol.md)
 
 </td><td>
 
@@ -261,7 +262,7 @@ X Tweet manager
 
 </td></tr><tr><td rowspan="3">
 
-[Slack Spoke](../concept/slack-spoke.md)
+[Slack Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/slack-spoke.md)
 
 </td><td>
 
@@ -277,7 +278,7 @@ Slack conversation manager
 
 </td></tr><tr><td rowspan="4">
 
-[Zoom Spoke](../../integrationhub-store-spokes/concept/zoom-spoke.md)
+[Zoom Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/zoom-spoke.md)
 
 </td><td>
 
@@ -297,7 +298,7 @@ Zoom chat management AI agent
 
 </td></tr><tr><td rowspan="2">
 
-[F5 BIG-IP Spoke](../../integrationhub-store-spokes/concept/f5-spoke.md)
+[F5 BIG-IP Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/f5-spoke.md)
 
 </td><td>
 
@@ -309,7 +310,7 @@ F5 BIG-IP Server Management AI Agents
 
 </td></tr><tr><td rowspan="3">
 
-[Google Chat spoke](../../integrationhub-store-spokes/concept/google-chat-spoke.md)
+[Google Chat spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/google-chat-spoke.md)
 
 </td><td>
 
@@ -325,7 +326,7 @@ Google Chat message manager
 
 </td></tr><tr><td>
 
-[Google Docs Spoke](../../integrationhub-store-spokes/concept/gdocs-spoke.md)
+[Google Docs Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gdocs-spoke.md)
 
 </td><td>
 
@@ -333,7 +334,7 @@ Google Docs document manager
 
 </td></tr><tr><td rowspan="2">
 
-[Google Drive Spoke](../../integrationhub-store-spokes/concept/googledrive-spoke.md)
+[Google Drive Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/googledrive-spoke.md)
 
 </td><td>
 
@@ -345,7 +346,7 @@ Google Drive file and folder manager
 
 </td></tr><tr><td>
 
-[GovNotify Spoke](../../integrationhub-store-spokes/concept/gov-notify.md)
+[GovNotify Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gov-notify.md)
 
 </td><td>
 
@@ -353,7 +354,7 @@ GovNotify message manager
 
 </td></tr><tr><td rowspan="3">
 
-[Jira Service Management Spoke](../../integrationhub-store-spokes/concept/jira-serv-mngmt.md)
+[Jira Service Management Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-serv-mngmt.md)
 
 </td><td>
 
@@ -369,7 +370,7 @@ Jira Service Management service desk management AI agent
 
 </td></tr><tr><td rowspan="8">
 
-[Jira Spoke](../../integrationhub-store-spokes/concept/jira-spoke-v3-0-2.md)
+[Jira Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jira-spoke-v3-0-2.md)
 
 </td><td>
 
@@ -405,7 +406,7 @@ Jira issue management AI agent
 
 </td></tr><tr><td rowspan="11">
 
-[Smartsheet Spoke](../../integrationhub-store-spokes/concept/smartsheet-spoke.md)
+[Smartsheet Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/smartsheet-spoke.md)
 
 </td><td>
 
@@ -453,7 +454,7 @@ Smartsheet folder management AI agent
 
 </td></tr><tr><td rowspan="7">
 
-[Wrike Spoke](../../integrationhub-store-spokes/concept/wrike-spoke-dec.md)
+[Wrike Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/wrike-spoke-dec.md)
 
 </td><td>
 
@@ -485,7 +486,7 @@ Wrike folder and project management AI agent
 
 </td></tr><tr><td rowspan="7">
 
-[Okta Spoke](../../integrationhub-store-spokes/concept/okta-v2-spoke.md)
+[Okta Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/okta-v2-spoke.md)
 
 </td><td>
 
@@ -517,7 +518,7 @@ Okta logs management AI agent
 
 </td></tr><tr><td rowspan="8">
 
-[Box Spoke](../../integrationhub-store-spokes/concept/box-spoke.md)
+[Box Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/box-spoke.md)
 
 </td><td>
 
@@ -553,7 +554,7 @@ Box legal hold management AI agent
 
 </td></tr><tr><td rowspan="4">
 
-[Google Calendar Spoke](../../integrationhub-store-spokes/concept/gcal-spoke.md)
+[Google Calendar Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gcal-spoke.md)
 
 </td><td>
 
@@ -573,7 +574,7 @@ Google Calendar metadata manager AI agent
 
 </td></tr><tr><td rowspan="3">
 
-[Google Tasks Spoke](../../integrationhub-store-spokes/concept/gtask-spoke.md)
+[Google Tasks Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gtask-spoke.md)
 
 </td><td>
 
@@ -589,7 +590,7 @@ Google Tasks AI Agents
 
 </td></tr><tr><td rowspan="4">
 
-[Miro Spoke](../../integrationhub-store-spokes/concept/miro-spoke.md)
+[Miro Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/miro-spoke.md)
 
 </td><td>
 
@@ -609,7 +610,7 @@ Miro board management AI agent
 
 </td></tr><tr><td rowspan="2">
 
-[Microsoft Azure DevOps Boards Spoke](../../integrationhub-store-spokes/concept/azure-devops-spoke.md)
+[Microsoft Azure DevOps Boards Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/azure-devops-spoke.md)
 
 </td><td>
 
@@ -621,7 +622,7 @@ Microsoft Azure DevOps Boards work item management AI agent
 
 </td></tr><tr><td rowspan="6">
 
-[Microsoft Dynamics CRM Spoke](../../integrationhub-store-spokes/concept/microsoft-dynamics-crm-spoke.md)
+[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-dynamics-crm-spoke.md)
 
 </td><td>
 
@@ -649,7 +650,7 @@ Microsoft Dynamics CRM opportunity management AI agent
 
 </td></tr><tr><td rowspan="11">
 
-[PagerDuty Spoke](../../integrationhub-store-spokes/concept/pagerduty-spoke.md)
+[PagerDuty Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/pagerduty-spoke.md)
 
 </td><td>
 
@@ -697,7 +698,7 @@ PagerDuty tag management AI agent
 
 </td></tr><tr><td rowspan="4">
 
-[GitHub Spoke](../../integrationhub-store-spokes/concept/github-spoke.md)
+[GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/github-spoke.md)
 
 </td><td>
 
@@ -717,7 +718,7 @@ GitHub source code management AI agent
 
 </td></tr><tr><td rowspan="12">
 
-[Coupa Spoke](../../integrationhub-store-spokes/concept/coupa-spoke.md)
+[Coupa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/coupa-spoke.md)
 
 </td><td>
 
@@ -769,7 +770,7 @@ Coupa contract management AI agent
 
 </td></tr><tr><td rowspan="8">
 
-[Docusign eSignature Spoke](../../integrationhub-store-spokes/concept/docusign-spoke.md)
+[Docusign eSignature Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/docusign-spoke.md)
 
 </td><td>
 
@@ -805,7 +806,7 @@ Docusign eSignature document signature AI agent
 
 </td></tr><tr><td rowspan="9">
 
-[GitLab Spoke](../../integrationhub-store-spokes/concept/gitlab-spoke.md)
+[GitLab Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gitlab-spoke.md)
 
 </td><td>
 
@@ -845,7 +846,7 @@ GitLab group management AI agent
 
 </td></tr><tr><td rowspan="4">
 
-[Google Cloud Storage Spoke](../../integrationhub-store-spokes/concept/gcloudstorage-spoke.md)
+[Google Cloud Storage Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/gcloudstorage-spoke.md)
 
 </td><td>
 
@@ -865,7 +866,7 @@ Google Cloud Storage bucket access AI agent
 
 </td></tr><tr><td rowspan="4">
 
-[Google Meet Spoke](../../integrationhub-store-spokes/concept/google-meet-spoke.md)
+[Google Meet Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/google-meet-spoke.md)
 
 </td><td>
 
@@ -885,7 +886,7 @@ Google Meet space management AI agent
 
 </td></tr><tr><td rowspan="6">
 
-[SAP Concur Spoke](../../integrationhub-store-spokes/concept/sap-concur-spoke.md)
+[SAP Concur Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/sap-concur-spoke.md)
 
 </td><td>
 
@@ -913,7 +914,7 @@ SAP Concur itinerary management AI agent
 
 </td></tr><tr><td rowspan="6">
 
-[Oracle HCM Cloud Spoke](../concept/oracle-hcm.md)
+[Oracle HCM Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/oracle-hcm.md)
 
 </td><td>
 
@@ -941,7 +942,7 @@ Oracle HCM Cloud compensation management AI agent
 
 </td></tr><tr><td rowspan="6">
 
-[SuccessFactors Spoke](../../integrationhub-store-spokes/concept/successfactors-spoke.md)
+[SuccessFactors Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/successfactors-spoke.md)
 
 </td><td>
 

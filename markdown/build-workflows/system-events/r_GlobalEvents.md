@@ -2,6 +2,7 @@
 title: Global events
 description: Your instance has a global function called global\_events\(\) that triggers from a business rule when certain conditions occur.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/system-events/r\_GlobalEvents.html
 release: australia
 product: System Events
 classification: system-events
@@ -31,5 +32,5 @@ For example, if you add the script global.events\(current\) to a business rule o
 -   change\_ request.assigned
 -   change\_ request.inactive
 
-**Parent Topic:**[System events reference](system-events-reference.md)
+**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/system-events-reference.md)
 

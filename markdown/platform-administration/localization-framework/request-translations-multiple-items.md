@@ -2,6 +2,7 @@
 title: Request translations for Service Catalog items
 description: Request translations for multiple Service Catalog items to localize them from English into one or more languages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/request-translations-multiple-items.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -38,5 +39,5 @@ Roles required:
     Localization requested items \(LRITMs\) are created for the selected items in all the selected languages. A success message with a link to the list of requested items is displayed. Click the link to see the list of requested items.
 
 
-**Parent Topic:**[Request translations](../concept/language-picker-ui.md)
+**Parent Topic:**[Request translations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/language-picker-ui.md)
 

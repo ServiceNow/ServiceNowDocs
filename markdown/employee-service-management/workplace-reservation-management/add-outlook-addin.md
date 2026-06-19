@@ -2,6 +2,7 @@
 title: Activate the add-in for Microsoft Outlook
 description: Workplace Reservation Management administrators can activate the manifest add-in for Microsoft Outlook. Add a manifest add-in file and customize it as per your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/add-outlook-addin.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -110,6 +111,6 @@ Link to the instance where the add-in is installed.
 </td></tr></tbody>
 </table>3.  Save the manifest file with a different name.
 
-    The manifest file for the add-in is created. Employees can now make reservations in Workplace Reservation Management using the add-in file. For more information, see [Create a reservation in Microsoft Outlook add-in](outlook-create-rsv.md).
+    The manifest file for the add-in is created. Employees can now make reservations in Workplace Reservation Management using the add-in file. For more information, see [Create a reservation in Microsoft Outlook add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/outlook-create-rsv.md).
 
 

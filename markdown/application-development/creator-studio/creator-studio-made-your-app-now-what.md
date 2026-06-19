@@ -2,6 +2,7 @@
 title: I've built my app in Creator Studio, now what?
 description: You've added forms and automation to your app, and customized the workspace list configurations. Now what?
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/creator-studio-made-your-app-now-what.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -28,7 +29,7 @@ After deployment, your app lives as forms in the Service Catalog and categories 
 
 Users can access those forms directly in a Service Catalog, as well as Service Portal and an Employee Center.
 
-If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/associate-cat-item-taxonomy-ec.md), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md).
+If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in , and more about taxonomy, which is a categorization method, in .
 
 ## Where do fulfillers work on submitted forms?
 
@@ -36,7 +37,7 @@ Fulfillers access the default workspace on the ServiceNow AI Platform by going t
 
 **Note:** You can't access the Request App Workspace as the owner of an app, though you can access it if you also have an admin or the applicable agent role. The app's agent role is &lt;app scope&gt;.agent, for example, x\_snc\_app\_name.agent.
 
-![All Requests list showing open requests with columns for number, priority, state, assigned to, short description, and task type.](../image/crs-form-sub-workspace.png "Request App Workspace")
+\[Omitted image "crs-form-sub-workspace.png"\] Alt text: All Requests list showing open requests with columns for number, priority, state, assigned to, short description, and task type.
 
 You can preview and interact with how records appear in the workspace category directly within Creator Studio by navigating to the **List categories** section of the navigation panel and selecting a record.
 
@@ -48,10 +49,10 @@ You can open Creator Studio apps in other builders. For example, open it in Serv
 
 Got more questions? Take a look at the [Creator Studio FAQs on the Community site](https://www.servicenow.com/community/creator-studio-blogs/creator-studio-faqs/ba-p/2947282)!
 
-You can also [watch a quick video on how to contact your admin and check out some helpful resources](creator-studio-get-help-now.md).
+You can also [watch a quick video on how to contact your admin and check out some helpful resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-get-help-now.md).
 
--   **[Closing requests and app notifications in Creator Studio](creator-studio-closing-requests-and-notifications.md)**  
+-   **[Closing requests and app notifications in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-closing-requests-and-notifications.md)**  
 The records that your app creates when a form is completed are not automatically closed, and some notifications are not automatic and must be configured.
 
-**Parent Topic:**[Building apps with Creator Studio](building-apps-with-creator-studio.md)
+**Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/building-apps-with-creator-studio.md)
 

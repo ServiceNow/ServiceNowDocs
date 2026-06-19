@@ -2,6 +2,7 @@
 title: Manually override edition value in workspace
 description: If the edition of a software installation is not automatically discovered, you can specify the edition on the Software Installation form \(if known\) so the software can be successfully reconciled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/manually-override-edvalue-workspace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -44,5 +45,5 @@ Once the edition value is set, the discovery model for the software install is a
     The software installation is associated to a different discovery model containing the edition value as part of the primary key. If the appropriate discovery model does not exist, a new one is created.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

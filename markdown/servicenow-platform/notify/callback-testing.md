@@ -2,6 +2,7 @@
 title: Twilio-Direct callback testing
 description: Make an outgoing call or send an SMS using Twilio and trigger callbacks to ServiceNow to test whether Twilio can reach the instance. You can also view when the last callback test was run, its status, and the test logs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/callback-testing.html
 release: australia
 product: Notify
 classification: notify
@@ -32,5 +33,5 @@ Role required: notify\_setup\_admin, notify\_admin
     **Note:** The callbacks can be tested only after a connection is established with Twilio.
 
 
-**Parent Topic:**[Configure Notify with Twilio](t_ConfigureNotifyWithTwilio.md)
+**Parent Topic:**[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
 

@@ -2,6 +2,7 @@
 title: Perform a partial migration of Performance Analytics widgets
 description: Migrate a selection of your Performance Analytics widgets Platform Analytics indicator visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-partial-widgets.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,6 +18,10 @@ Migrate a selection of your Performance Analytics widgets Platform Analytics ind
 ## Before you begin
 
 Role required: admin
+
+## About this task
+
+You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
 
 ## Procedure
 

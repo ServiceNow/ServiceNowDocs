@@ -2,6 +2,7 @@
 title: Swap assets for parent multi-component asset
 description: Swap child assets that are part of a multi-component asset. You can swap out only one child asset at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/swap-assets-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -76,5 +77,5 @@ The swap functionality is available only for the parent asset of a multicomponen
 -   The state of the swapped-out asset changes to In stock and the substate changes to Pending repair. If the asset is a consumable, the state changes to In stock and the and substate changes to Pending disposal.
 -   The stockroom of the swapped out asset changes to the stockroom that you selected in the **Choose stockroom for asset swap** field.
 
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

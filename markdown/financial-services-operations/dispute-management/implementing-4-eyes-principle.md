@@ -2,6 +2,7 @@
 title: Implement 4-eyes policy for approval tasks
 description: The 4-eyes policy, implemented in the case dispute flow, can enhance your dispute management process. This policy ensures that two authorized individuals handle the critical tasks and establish an efficient risk control mechanism.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/implementing-4-eyes-principle.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -22,5 +23,5 @@ In a card dispute resolution process, this principle is implemented at the follo
 -   **Investigation &gt; Manual investigation**: After an agent completes the manual investigation task, a mandatory approval from a dispute manager is required to proceed further.
 -   **Chargeback &gt; Review representment**: After an agent completes the review representment task, a mandatory approval from a dispute manager is required to proceed further.
 
-**Parent Topic:**[Dispute manager workspace](workspace-for-dispute-manager.md)
+**Parent Topic:**[Dispute manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/workspace-for-dispute-manager.md)
 

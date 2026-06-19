@@ -2,6 +2,7 @@
 title: Get Email Header action
 description: Access an email header value as a data pill in a flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/get-header-action.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -55,11 +56,11 @@ Header from the email record. Upon completion of the action, the header value is
 
 In the following example, a process owner adds the Get Email Header action under an inbound email trigger. In the **Email Record** field, the user selects to get an email header from the email that triggered the flow. In the **Target Header** field, the user selects to get the X-ServiceNow-Source header from the email.
 
-![Get Email Header action example](../images/get-email-header-example-configuration.png)
+\[Omitted image "get-email-header-example-configuration.png"\] Alt text: Get Email Header action example
 
 Testing the flow with a sample email record produces the header value as a data pill.
 
-![Sample header value with a unique notification ID.](../images/get-email-header-example-execution-details.png)
+\[Omitted image "get-email-header-example-execution-details.png"\] Alt text: Sample header value with a unique notification ID.
 
-**Parent Topic:**[Workflow Studio actions](../concept/flow-actions.md)
+**Parent Topic:**[Workflow Studio actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-actions.md)
 

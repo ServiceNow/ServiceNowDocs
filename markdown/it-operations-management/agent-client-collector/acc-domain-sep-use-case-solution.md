@@ -2,6 +2,7 @@
 title: Use case: Regulatory compliance in a financial services solution
 description: A financial institution needs to ensure that its data is accessible only to the departments that have authorization for the indicated data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-domain-sep-use-case-solution.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

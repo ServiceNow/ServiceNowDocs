@@ -2,6 +2,7 @@
 title: Attach a predefined tag to a tag-based alert grouping definition
 description: Get started faster with alert clustering by attaching a predefined alert clustering tag to a tag-based alert clustering definition in Event Management. By associating a predefined tag, you ensure that alerts meeting the specified criteria are grouped effectively, facilitating quicker identification and response to related incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/alert-clustering-predefined-tag.html
 release: australia
 product: Event Management
 classification: event-management
@@ -33,7 +34,7 @@ The Tag Based Alert Clustering Engine application comes with a set of predefined
 
 4.  Use the search field to locate a predefined alert clustering tag, and then select the green check mark to confirm your selection.
 
-    **Note:** Predefined tags are recognizable by their description, which includes “out of the box.” For a complete list of the available predefined tags, see [List of predefined alert grouping tags](../reference/alert-clustering-predefined-tag-list.md).
+    **Note:** Predefined tags are recognizable by their description, which includes “out of the box.” For a complete list of the available predefined tags, see [List of predefined alert grouping tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/alert-clustering-predefined-tag-list.md).
 
 5.  Select **Save**.
 
@@ -41,4 +42,6 @@ The Tag Based Alert Clustering Engine application comes with a set of predefined
 ## Result
 
 The predefined alert clustering tag is now attached to the tag-based alert clustering definition. This association enables the effective grouping of alerts based on the specified criteria, facilitating improved alert management and response efficiency.
+
+To group alerts using tag-based grouping, you can also create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/group-alert-sow-itom.md).
 

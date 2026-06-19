@@ -2,6 +2,7 @@
 title: Microsoft 365 Excel Spoke
 description: Manage Microsoft Office 365 Excel workbooks stored in Microsoft OneDrive from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/office-365-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Manage Microsoft Office 365 Excel workbooks stored in Microsoft OneDrive from yo
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -72,13 +73,13 @@ The Microsoft 365 Excel Spoke provides actions to automate  tasks when events oc
 
 **Note:** You must specify the input values for **Update Cells** and **Add Row** actions as shown in the following examples.
 
-Add Row action: The action input, Value 1 corresponds to the first row in your table. The values Hello and 100 correspond to the values of the first and second column respectively.![Input value examples for Add Row action.](../image/excel365_spoke_add_row1.png) ![Example input values format for Add Row action.](../image/excel365_spoke_add_row2.png)You must provide values in the same format for the action inputs: Formulas, Formulas R1C1, Formulas Local, and Number Format. For more information, see [Add Row](https://docs.microsoft.com/en-us/graph/api/table-post-rows?view=graph-rest-1.0&tabs=http).
+Add Row action: The action input, Value 1 corresponds to the first row in your table. The values Hello and 100 correspond to the values of the first and second column respectively.\[Omitted image "excel365\_spoke\_add\_row1.png"\] Alt text: Input value examples for Add Row action. \[Omitted image "excel365\_spoke\_add\_row2.png"\] Alt text: Example input values format for Add Row action.You must provide values in the same format for the action inputs: Formulas, Formulas R1C1, Formulas Local, and Number Format. For more information, see [Add Row](https://docs.microsoft.com/en-us/graph/api/table-post-rows?view=graph-rest-1.0&tabs=http).
 
-Update Cells action: The action input, Value 1 corresponds to the first row in your range. The values Hello and 100 correspond to the values of the first and second column respectively.![Input value examples for Update Cellls action.](../image/excel365_spoke_update_cells1.png) ![Example input values format for Add Row action.](../image/excel365_spoke_update_cells2.png)You must provide values in the same format for the action inputs: Formulas, Formulas R1C1, Formulas Local, and Number Format. For more information, see [Update Rage](https://docs.microsoft.com/en-us/graph/api/range-update?view=graph-rest-1.0&tabs=http).
+Update Cells action: The action input, Value 1 corresponds to the first row in your range. The values Hello and 100 correspond to the values of the first and second column respectively.\[Omitted image "excel365\_spoke\_update\_cells1.png"\] Alt text: Input value examples for Update Cellls action. \[Omitted image "excel365\_spoke\_update\_cells2.png"\] Alt text: Example input values format for Add Row action.You must provide values in the same format for the action inputs: Formulas, Formulas R1C1, Formulas Local, and Number Format. For more information, see [Update Rage](https://docs.microsoft.com/en-us/graph/api/range-update?view=graph-rest-1.0&tabs=http).
 
 ## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up the Microsoft 365 Excel spoke](../task/setup-office-365-excel.md#).
+For information about setting up the spoke, see [Set up the Microsoft 365 Excel spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-office-365-excel.md).
 

@@ -2,6 +2,7 @@
 title: Configuring HR Service Delivery integration with Oracle Cloud HCM
 description: Set up Oracle HCM for HR Service Delivery to pull worker data from Oracle HCM into a ServiceNow instance. View worker profiles from Oracle HCM Cloud in ServiceNow HR Service Delivery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-oracle-hcm.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -35,20 +36,20 @@ Set up Oracle HCM for HR Service Delivery to pull worker data from Oracle HCM in
 
     Allow the Restricted Caller Access records with Status = **Requested** and Source Scope = **Enterprise Service Management Integrations Framework**.
 
-3.  For better performance, index the employee number field in HR Profile table and index coalesce fields in [transform maps](../reference/oracle-hcm-transform-maps.md).
+3.  For better performance, index the employee number field in HR Profile table and index coalesce fields in [transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/oracle-hcm-transform-maps.md).
 
-    For more information, see [create a table index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateCustomIndex.md).
+    For more information, see create a table index.
 
 4.  Set up Oracle HCM spoke.
 
-    For more information, see set up [Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-oracle-hcm.md).
+    For more information, see set up Oracle HCM Cloud spoke.
 
 5.  Configure integration source properties for HR Service Delivery integration with Oracle Cloud HCM
 
-    For more information, see [Configure properties](../reference/oracle-hcm-properties.md).
+    For more information, see [Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/oracle-hcm-properties.md).
 
 6.  Activate and run the scheduled flow that synchronizes Worker profile information between Oracle HCM and ServiceNow HR Service Delivery periodically.
 
-    For more information, see [Activate schedule flows](../task/setup-the-job.md).
+    For more information, see [Activate schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/setup-the-job.md).
 
 

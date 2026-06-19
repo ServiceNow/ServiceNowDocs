@@ -2,6 +2,7 @@
 title: Set up triggers for the GitHub spoke
 description: Set up the trigger to generate the secret and callback URL on your ServiceNow instance.Activate the trigger definition to generate the secret and callback URL on your ServiceNow instance.Set the secret and callback URL to enable GitHub to securely send webhooks to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-triggers-github-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -59,7 +60,7 @@ GitHub uses the secret and callback URL to securely send the payload to the Serv
 
     The callback URL is generated in the URL field.
 
-    ![Callback URL generated.](../image/github-callback-url.png)
+    \[Omitted image "github-callback-url.png"\] Alt text: Callback URL generated.
 
 9.  Copy the values of **Secret** and **URL** for later use.
 
@@ -68,7 +69,7 @@ GitHub uses the secret and callback URL to securely send the payload to the Serv
 
 ### What to do next
 
-[Configure secret and callback URL on GitHub](set-up-triggers-github-spoke.md#)
+[Configure secret and callback URL on GitHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-triggers-github-spoke.md)
 
 ## Configure secret and callback URL on GitHub
 
@@ -106,7 +107,7 @@ Payload URL \*
 
 </td><td>
 
-Option to provide GitHub the payload URL that GitHub uses to send the payload via the webhook.Enter the URL that you have generated while activating the trigger. See [Activate the trigger definition on ServiceNow instance](set-up-triggers-github-spoke.md#).
+Option to provide GitHub the payload URL that GitHub uses to send the payload via the webhook.Enter the URL that you have generated while activating the trigger. See [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-triggers-github-spoke.md).
 
 </td></tr><tr><td>
 
@@ -122,7 +123,7 @@ Secret
 
 </td><td>
 
-Option to provide the secret that the ServiceNow verifies when it receives the webhook from GitHub.Enter the secret that you have generated while activating the trigger. See [Activate the trigger definition on ServiceNow instance](set-up-triggers-github-spoke.md#).
+Option to provide the secret that the ServiceNow verifies when it receives the webhook from GitHub.Enter the secret that you have generated while activating the trigger. See [Activate the trigger definition on ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-triggers-github-spoke.md).
 
 </td></tr><tr><td>
 

@@ -2,13 +2,14 @@
 title: Add users to Proactive Service Experience Workflows assignment groups
 description: Add users to Proactive Service Experience Workflows assignment groups so that they have the necessary role and can be assigned to resolve network-initiated issues at the appropriate escalation level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/assign-group-taw.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Proactive Service Experience Workflow, Configure, Product Support for Technology]
+breadcrumb: [Configure, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Add users to Proactive Service Experience Workflows assignment groups
@@ -40,5 +41,5 @@ Role required: admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Proactive Service Experience Workflows](../concept/configure-assurance-workflows.md)
+**Parent Topic:**[Configuring Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 

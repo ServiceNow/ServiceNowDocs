@@ -2,7 +2,10 @@
 title: Create a relationship between two consumers
 description: Create a relationship between two consumers, regardless of household.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-user-consumer-relationship.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -44,7 +47,7 @@ Relationships are based on responsibilities. A responsibility definition describ
 
 6.  In the **Type** field, select the type from the list of related party configurations and the **Order** field specifies the sequence in which records are displayed, organized according to business preferences.
 
-    **Note:** Starting with the Yokohama release, the **Type** field is added to the Consumer Relationships form. For more information on how to populate the **Type** field for existing data, see [Populate the Type field in relationship tables using the fix script](migration-of-account-manager-responsibility-access.md).
+    **Note:** Starting with the Yokohama release, the **Type** field is added to the Consumer Relationships form. For more information on how to populate the **Type** field for existing data, see [Populate the Type field in relationship tables using the fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/migration-of-account-manager-responsibility-access.md).
 
 7.  Select **Submit**.
 

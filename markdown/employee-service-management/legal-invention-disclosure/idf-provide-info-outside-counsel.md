@@ -2,6 +2,7 @@
 title: Provide Legal Invention Disclosure request information to an outside counsel
 description: Provide the information related to a Legal Invention Disclosure request to an outside counsel for review to determine whether to apply for a patent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-invention-disclosure/idf-provide-info-outside-counsel.html
 release: australia
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
@@ -25,7 +26,7 @@ Role required: sn\_lg\_ip.patent\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
 
 3.  Open the Legal Invention Disclosure request.
 
@@ -58,7 +59,7 @@ Role required: sn\_lg\_ip.patent\_fulfiller
 
 ## What to do next
 
-Once you receive the decision from the outside counsel about whether the patent is being filed, finalize the request application process. For more information, see [Facilitate the patent review process](facilitate-patent-review-process.md).
+Once you receive the decision from the outside counsel about whether the patent is being filed, finalize the request application process. For more information, see [Facilitate the patent review process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/facilitate-patent-review-process.md).
 
-**Parent Topic:**[Using the Legal Invention Disclosure](../concept/use-legal-invention-disclosure.md)
+**Parent Topic:**[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)
 

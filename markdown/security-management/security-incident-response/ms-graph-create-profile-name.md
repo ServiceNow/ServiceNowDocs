@@ -2,11 +2,12 @@
 title: Identify source for the profile
 description: Specify the name and source for the profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-create-profile-name.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a profile, Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -80,7 +81,7 @@ Additional text to help you distinguish this profile from other profiles.
 </td></tr></tbody>
 </table>    The following figure is an example of a completed form.
 
-    ![Microsoft Graph Security API: create profile name](../image/ms-graph-create-profile-1.png)
+    \[Omitted image "ms-graph-create-profile-1.png"\] Alt text: Microsoft Graph Security API: create profile name
 
 
 ## What to do next

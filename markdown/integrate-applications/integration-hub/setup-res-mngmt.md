@@ -2,6 +2,7 @@
 title: Set up the Microsoft Azure Resource Management spoke
 description: Integrate the ServiceNow instance and the Microsoft Azure Resource Management by configuring the Microsoft Azure Resource Management connection record on your ServiceNow instance.Create an OAuth application on Microsoft Azure that authenticates requests for OAuth tokens from your ServiceNow instance.Integrate the ServiceNow instance and the Microsoft Azure Resource Management by configuring the Microsoft Azure Resource Management connection record on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-res-mngmt.html
 release: australia
 product: Integration Hub
 classification: integration-hub

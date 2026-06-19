@@ -2,6 +2,7 @@
 title: Add Worknote workflow activity
 description: The Add Worknote activity adds text to the Worknotes field of the current incident record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-activities/r\_AddWorknote.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities
@@ -25,5 +26,5 @@ A workflow must run on the Incident table to use this activity.
 |-----|-----------|
 |Work Note|The text to add to the incident record.|
 
-**Parent Topic:**[Task workflow activities](r_TaskActivities.md)
+**Parent Topic:**[Task workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/r_TaskActivities.md)
 

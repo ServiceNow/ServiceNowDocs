@@ -2,6 +2,7 @@
 title: Create coloring rules for single score reports
 description: Configure rules for how numerical values are displayed in single score reports, to highlight why a value is important.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/single-score-report-coloring-rules.html
 release: australia
 product: Reporting
 classification: reporting
@@ -21,7 +22,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 This task is part of configuring the style options of a single score report.
 
-See [Single score data visualization example](../../par-for-workspace/task/dv-example-single-score.md) for example steps to implement a coloring rule.
+See [Single score data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-example-single-score.md) for example steps to implement a coloring rule.
 
 ## Procedure
 
@@ -73,7 +74,7 @@ Font color
 
 </td><td>
 
-The font color to apply to values that match this rule. Select the search icon \(![](../image/SearchIcon.png)\) to choose colors from an existing list or enter a hexadecimal color value.
+The font color to apply to values that match this rule. Select the search icon \(\[Omitted image "SearchIcon.png"\] Alt text:\) to choose colors from an existing list or enter a hexadecimal color value.
 
 </td></tr><tr><td>
 
@@ -93,5 +94,5 @@ A numerical value that determines the order in which the color rules apply. Rule
 
 The colors you specify in the rules apply to the single score report that you’re editing.
 
-**Parent Topic:**[Administering reports](../concept/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdminsteringReports.md)
 

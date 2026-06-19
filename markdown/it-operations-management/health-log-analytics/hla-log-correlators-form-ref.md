@@ -2,6 +2,7 @@
 title: Log correlators form fields
 description: This section describes the fields on the Log correlators form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-log-correlators-form-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -32,7 +33,7 @@ Type
 Type of log correlator. Choices are as follows.-   **Free text correlator**: The log correlator analyzes text in the log message.
 -   **Log-key correlator**: The log correlator analyzes log metadata. For example, the name of a service instance in your infrastructure. Log property correlators are specific to the business context of your environment.
 
-For more information, see [Identifying related alerts in log data by using log correlators in Health Log Analytics](../concept/hla-op-correlator-what-is-a.md).
+For more information, see [Identifying related alerts in log data by using log correlators in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-op-correlator-what-is-a.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +71,7 @@ Excluded sources
 
 Sources that are excluded from the log correlator. The system does not analyze log lines from sources that are listed in this field.**Note:** This field applies only when the **Range of analysis** field is set **All sources** or **Only new sources**.
 
-For information about excluding a source from a log correlator, see [Exclude a source from a log correlator in Health Log Analytics](../../health-log-analytics-admin/task/hla-correlators-exclude-source.md).
+For information about excluding a source from a log correlator, see [Exclude a source from a log correlator in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-correlators-exclude-source.md).
 
 </td></tr><tr><td>
 
@@ -81,5 +82,5 @@ Source
 Source of the log correlator. The log correlator analyzes the data of this log source.This field appears only when you're adding the log correlator from the Log Sources form. The field is automatically set to the log source that you're working on.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health Log Analytics reference](../../health-log-analytics-admin/concept/hla-reference.md)
+</table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-reference.md)
 

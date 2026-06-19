@@ -2,6 +2,7 @@
 title: Create an employee credit
 description: Manage and track credits that an employee shopper is allocated to in Shopping Hub, by creating an employee credit. If a credit already exists, allocated to an employee, it shows up as a payment option in Shopping Hub, and is created as a cost allocation entry at the backend.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/create-employee-credit.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -51,5 +52,5 @@ You can create a credit for an employee shopper from Shopping Hub.
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Using Shopping Hub](../reference/use-shoppinghub-portal.md)
+**Parent Topic:**[Using Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/use-shoppinghub-portal.md)
 

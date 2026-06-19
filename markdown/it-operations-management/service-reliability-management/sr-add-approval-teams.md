@@ -2,6 +2,7 @@
 title: Customize team approval settings in SRM
 description: Customize how team approvals work when non-admin users create or add a team in Service Reliability Management \(SRM\). This feature, also known as team governance, helps you control access and align with internal policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-add-approval-teams.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -49,9 +50,9 @@ You can customize team governance by turning off approvals or changing the appro
 5.  Select **Save** to update your team governance settings.
 
 
-**Parent Topic:**[Configuring Service Reliability Management](../concept/configuring-service-reliability-management.md)
+**Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Customize service approval settings in SRM](sr-add-approval-services.md)
+**Previous topic:**[Customize service approval settings in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-add-approval-services.md)
 
-**Next topic:**[Configure error budget actions for breached SRM SLOs](sr-configure-error-budget.md)
+**Next topic:**[Configure error budget actions for breached SRM SLOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-configure-error-budget.md)
 

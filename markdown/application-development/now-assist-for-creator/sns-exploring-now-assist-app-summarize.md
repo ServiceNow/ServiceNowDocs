@@ -2,6 +2,7 @@
 title: Exploring Now Assist for app summary generation
 description: With the Now Assist for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/sns-exploring-now-assist-app-summarize.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [App summary generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [App summary generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Exploring Now Assist for app summary generation
@@ -39,7 +40,7 @@ Additionally, Now Assist for app summary generation has the following features, 
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Quickly generate a description of an app, which you can use to check for duplicate apps.|[Summarize the contents of an app in ServiceNow Studio](../../servicenow-studio/task/summarize-an-app-in-servicenow-studio.md)|Developer, admin|
+|Quickly generate a description of an app, which you can use to check for duplicate apps.|[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/summarize-an-app-in-servicenow-studio.md)|Developer, admin|
 
-**Parent Topic:**[App summary generation](sns-now-assist-app-summarize-landing.md)
+**Parent Topic:**[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/sns-now-assist-app-summarize-landing.md)
 

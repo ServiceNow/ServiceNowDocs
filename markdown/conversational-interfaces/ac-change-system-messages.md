@@ -2,6 +2,7 @@
 title: Change Virtual Agent and Agent Chat system messages
 description: Customize the default system messages displayed during Virtual Agent conversations and Agent Chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/ac-change-system-messages.html
 release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
@@ -42,5 +43,5 @@ Use **System messages** in Chat Settings to change the properties that control s
     Any changes are immediately applied to the system messages displayed in your instance.
 
 
-**Parent Topic:**[General chat settings](../concept/ci-configuring-chat-features.md)
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-configuring-chat-features.md)
 

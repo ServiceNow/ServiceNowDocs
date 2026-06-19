@@ -2,20 +2,21 @@
 title: Features of enhanced security model adoption for incident tables
 description: Help prevent unauthorized access to incident-related tables using Deny-Unless ACLs. A Deny-Unless authentication ACL restricts access for a non-authenticated user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Reference section for Incident Management, Incident Management, IT Service Management]
+breadcrumb: [Reference, Incident Management, IT Service Management]
 ---
 
 # Features of enhanced security model adoption for incident tables
 
 Help prevent unauthorized access to incident-related tables using Deny-Unless ACLs. A Deny-Unless authentication ACL restricts access for a non-authenticated user.
 
-The enhanced security model implements Deny-Unless ACLs to restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on incident-related tables, including reading, writing, deleting, creating, or accessing the report view. This ensures that only authorized or approved user roles can access the incident tables. For more information on Deny-Unless ACLs, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/acl-denial-behavior.md).
+The enhanced security model implements Deny-Unless ACLs to restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on incident-related tables, including reading, writing, deleting, creating, or accessing the report view. This ensures that only authorized or approved user roles can access the incident tables. For more information on Deny-Unless ACLs, see .
 
 This model is activated by default and applicable on the following incident-related tables:
 
@@ -89,10 +90,10 @@ The Task-Outage table \[task\_outage\] maintains the mapping between the Task \[
 </td></tr></tbody>
 </table>**Note:** For new or zboot instances, the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin is auto installed.
 
-The ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin can be installed and activated by an admin via a support request. Existing or upgrade users must test and evaluate the results in their non-production instance and then install the plugin and implement the security change in their production instance. For more information, see [Activate ITSM Enhanced Security Features for Incident Management](../task/activate-itsm-enhanced-security-inci-mangmnt.md).
+The ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin can be installed and activated by an admin via a support request. Existing or upgrade users must test and evaluate the results in their non-production instance and then install the plugin and implement the security change in their production instance. For more information, see [Activate ITSM Enhanced Security Features for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-itsm-enhanced-security-inci-mangmnt.md).
 
--   **[Activate ITSM Enhanced Security Features for Incident Management](../task/activate-itsm-enhanced-security-inci-mangmnt.md)**  
+-   **[Activate ITSM Enhanced Security Features for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/activate-itsm-enhanced-security-inci-mangmnt.md)**  
 Prevent unauthorized access to incident-related tables using deny unless authenticated ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
 
-**Parent Topic:**[Reference section for Incident Management](reference-section-for-incident-management.md)
+**Parent Topic:**[Reference section for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/reference-section-for-incident-management.md)
 

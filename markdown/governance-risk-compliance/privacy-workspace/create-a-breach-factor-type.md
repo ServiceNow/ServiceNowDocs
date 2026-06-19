@@ -2,6 +2,7 @@
 title: Create a breach factor type
 description: Create categories to help responders to identify breach factors within specific categories. For example, incident nature is a breach factor type which has factors under it as Intentional and Malicious, or Intentional and not malicious, and Unintentional or inadvertent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-a-breach-factor-type.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -38,5 +39,5 @@ Role required: sn\_privacy\_case.privacy\_case\_admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring privacy breach assessment](../concept/configure-privacy-breach-assessment.md)
+**Parent Topic:**[Configuring privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/configure-privacy-breach-assessment.md)
 

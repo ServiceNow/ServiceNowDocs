@@ -2,6 +2,7 @@
 title: Configuring the Patient Support Services email notifications
 description: Configure the email notifications sent to patients about Patient Support Services programs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-config-emails.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -94,5 +95,5 @@ A patient enrollment request for a program was accepted.
 Patient
 
 </td></tr></tbody>
-</table>As a user with the sn\_patientservice.admin role, you can configure the email notifications for the Patient Support Services application, by navigating to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**. For more information on editing email notifications, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
+</table>As a user with the sn\_patientservice.admin role, you can configure the email notifications for the Patient Support Services application, by navigating to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**. For more information on editing email notifications, see Create an email notification.
 

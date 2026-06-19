@@ -2,6 +2,7 @@
 title: Set up Visa Spoke
 description: Integrate the ServiceNow instance and Visa Spoke using basic authentication to authenticate ServiceNow requests.Upload the client certificate to your ServiceNow instance to enable the creation of connections and credentials.Generate a certificate for the Visa Resolve Online \(VROL\) endpoint and upload it to your ServiceNow instance as a TrustCertificate. By uploading the trusted server certificate, you ensure that your instance is connecting to a valid and secure service.You can create a custom HTTPS protocol profile to specify the credentials and certificates used for outbound web services. For example, you can create a custom HTTPS protocol profile to enable mutual authentication.Create credentials to access a ServiceNow instance.Create a custom credential record for the Visa Spoke account. The Visa Spoke connection and credential alias uses these credentials to authorize actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-visa-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -83,8 +84,8 @@ You can create a custom HTTPS protocol profile to specify the credentials and ce
 ### Before you begin
 
 -   Role required: admin
--   [Upload client certificate to your instance](set-up-visa-spoke.md#) to authenticate the client certificate of the instance.
--   [Upload a trusted server certificate](set-up-visa-spoke.md#) to authenticate the server certificate of the web service provider.
+-   [Upload client certificate to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-visa-spoke.md) to authenticate the client certificate of the instance.
+-   [Upload a trusted server certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-visa-spoke.md) to authenticate the server certificate of the web service provider.
 
 ### Procedure
 

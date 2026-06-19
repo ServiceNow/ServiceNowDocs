@@ -1,19 +1,21 @@
 ---
 title: Install Now Assist for Accounts Payable Operations \(APO\)
-description: Install the APO plugin \[sn\_ap\_gen\_ai\] so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+description: Install the APO plugin \[sn\_ap\_gen\_ai\] to give AP fulfillers access to generative AI skills in Source-to-Pay Workspace and Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/install-now-assist-apo.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [APO, Accounts Payable Operations, generative AI, AI automation, Accounts Payable Workspace]
 breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Install Now Assist for Accounts Payable Operations \(APO\)
 
-Install the APO plugin \[sn\_ap\_gen\_ai\] so that an accounts payable \(AP\) fulfiller can use the generative AI skills in Source-to-Pay Workspace and in Core UI.
+Install the APO plugin \[sn\_ap\_gen\_ai\] to give AP fulfillers access to generative AI skills in Source-to-Pay Workspace and Core UI.
 
 ## Before you begin
 
@@ -39,7 +41,7 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
 4.  For Invoice case summarization skill:
 
-    ![Invoice case summarization in Now Assist](../image/invoice-case-na.png)
+    \[Omitted image "invoice-case-na.png"\] Alt text: Invoice case summarization in Now Assist
 
     1.  Select **General Details**, review the details about the skill, and then select **Save and continue** to go to the next step.
 
@@ -53,15 +55,15 @@ Install the Document Intelligence for Accounts Payable Operations Content Pack f
 
     6.  Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d147511e261">
+<table id="choicetable_rhm_hxq_1fc"><thead><tr><th align="left" id="d138572e285">
 
 Option
 
-</th><th align="left" id="d147511e264">
+</th><th align="left" id="d138572e288">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147511e270">
+</th></tr></thead><tbody><tr><td id="d138572e294">
 
 **Skill is always available**
 
@@ -69,7 +71,7 @@ Description
 
 The skill is always available to users.
 
-</td></tr><tr><td id="d147511e279">
+</td></tr><tr><td id="d138572e303">
 
 **Customize skill availability**
 
@@ -82,15 +84,15 @@ The skill is available only when the certain conditions are met \(default\).Use 
 
     2.  Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d147511e315">
+<table id="choicetable_fhc_qxq_1fc"><thead><tr><th align="left" id="d138572e339">
 
 Option
 
-</th><th align="left" id="d147511e318">
+</th><th align="left" id="d138572e342">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147511e324">
+</th></tr></thead><tbody><tr><td id="d138572e348">
 
 **In-product desktop**
 
@@ -98,13 +100,13 @@ Description
 
 Now Assist skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d147511e335">
+</td></tr><tr><td id="d138572e359">
 
 **Now Assist panel**
 
 </td><td>
 
-Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see .**Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see .
 
 </td></tr></tbody>
 </table>5.  Select **Save and continue** to go to the next step.
@@ -117,13 +119,13 @@ Now Assist skills are available in the Now Assist panel. Turn on multi-language 
 
 8.  In case of Invoice data extraction for the APO specialists feature card, select **Activate skill**.
 
-    1.  In the **Create Usecase** step, select the **Invoice Processing - GenAI** use case.![Invoice processing using generativeAI](../image/invoice-processing-genai.png)
+    1.  In the **Create Usecase** step, select the **Invoice Processing - GenAI** use case.\[Omitted image "invoice-processing-genai.png"\] Alt text: Invoice processing using generativeAI
 
     2.  Select **Make a copy** to create a copy of the use case.
 
-        For more information on the fields, test outputs, and integrations in the use case, see [Set up a use case for Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.md).
+        For more information on the fields, test outputs, and integrations in the use case, see .
 
-        **Note:** When you create a copy of the generative AI use case in Now Assist console, then "DocIntel Extract Values Flow - copied GenAI use case name-Invoice processing-GenAI integration" use case is created automatically in the flow designer. For more information on configuring the use case, see [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](../concept/config-apo-docintel-integration.md).
+        **Note:** When you create a copy of the generative AI use case in Now Assist console, then "DocIntel Extract Values Flow - copied GenAI use case name-Invoice processing-GenAI integration" use case is created automatically in the flow designer. For more information on configuring the use case, see [Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-apo-docintel-integration.md).
 
     3.  Select **Save and continue** to go to the next step.
 

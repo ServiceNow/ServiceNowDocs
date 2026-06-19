@@ -2,6 +2,7 @@
 title: Filter out or show matching alerts
 description: Create different views of categorized alerts in Express List by either displaying or filtering out alerts that match a selected alert.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/filter-right-click-option.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation, select the Express List icon \(![Express List icon](../../event-management/image/express-list1.png)\).
+2.  In the primary navigation, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
 
 3.  Right-click an alert row.
 

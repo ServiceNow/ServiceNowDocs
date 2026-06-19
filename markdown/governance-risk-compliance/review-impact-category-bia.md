@@ -2,6 +2,7 @@
 title: Review an impact category and assess its recovery time
 description: Review the impact categories and define the timeframe during which the organization would experience the downtime of its business processes. Analyze the downtime or disruption duration, which helps to determine the recovery time objective for the asset that is assessed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/review-impact-category-bia.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -19,17 +20,17 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
-BCM administrators configure the impact categories that are relevant to your business. For more information on configuring an impact category in the classic BCM workspace, see [Configure an impact rating to assess an impact category](configure-impact-rating-bcp.md) and [Structured workflows for Business Impact Analysis](../concept/structured-workflows-bia.md).
+BCM administrators configure the impact categories that are relevant to your business. For more information on configuring an impact category in the classic BCM workspace, see [Configure an impact rating to assess an impact category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-impact-rating-bcp.md) and [Structured workflows for Business Impact Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/structured-workflows-bia.md).
 
 ## Procedure
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Select the lists icon \(![Lists icon](../../grc-workspace-audit/image/ListsIcon.jpg)\).
+2.  Select the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
 3.  In the **Name** column, select the link to the BIA record that is in the **In Draft** state.
 
-    An impact assessment is displayed as shown in the example.![Impact assessment.](../image/impact-rating-ws.png)
+    An impact assessment is displayed as shown in the example.\[Omitted image "impact-rating-ws.png"\] Alt text: Impact assessment.
 
 4.  To update a business impact category with its recovery time, select the **RTO Impact Assessment** tab.
 

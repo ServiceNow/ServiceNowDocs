@@ -2,6 +2,7 @@
 title: Schedule jobs to import projects, teams, areas, and work items from Azure DevOps
 description: Schedule jobs to automatically import new projects, teams, areas, work items, and sprints periodically from Azure DevOps into Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/schedule-jobs-import-projects-azure.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -45,5 +46,5 @@ If you do not configure the scheduled job, you must manually discover projects a
 6.  Repeat the procedure for the other two scheduled jobs.
 
 
-**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](../concept/setting-up-agile-azure-integration.md)
+**Parent Topic:**[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/setting-up-agile-azure-integration.md)
 

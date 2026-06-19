@@ -2,6 +2,7 @@
 title: List of Notify calls
 description: If you are a Notify administrator, you can view a list of calls and the status of a call made to or from Notify. The call records help in reporting and analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/view-list-of-notify-calls.html
 release: australia
 product: Notify
 classification: notify
@@ -37,5 +38,5 @@ For Notify calls where the source is specified, such as a task number, the sourc
 |invalid|The call could not be connected since input is invalid.|
 |unknown|The driver does not support the status|
 
-**Parent Topic:**[Using Notify for making conference calls](../concept/c_NotifyConferenceCalls.md)
+**Parent Topic:**[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyConferenceCalls.md)
 

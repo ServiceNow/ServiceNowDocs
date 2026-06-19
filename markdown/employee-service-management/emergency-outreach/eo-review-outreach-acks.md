@@ -2,6 +2,7 @@
 title: Review Emergency Outreach acknowledgements
 description: Review the list of acknowledgements from an outreach notification to see each employee's status. Resend the outreach notification to employees who did not respond.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/eo-review-outreach-acks.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
@@ -25,7 +26,7 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
     Responses are listed in the Outreach Acknowledgements related list. As employees respond to the notification, their records are updated with their status and whether they responded by email, mobile, or SMS.
 
-    ![List of Emergency Outreach acknowledgment records](../image/checkin-acknowledgements.png)
+    \[Omitted image "checkin-acknowledgements.png"\] Alt text: List of Emergency Outreach acknowledgment records
 
     If employees haven't responded yet, click **Resend Notification**. The notification is sent again only to employees who have not yet responded.
 
@@ -45,8 +46,8 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
     3.  Click an event in the **Events** pie chart to show its data.
 
-    ![Emergency Outreach dashboard](../image/emergency-outreach-dashboard-left-column-all-apps.png)
+    \[Omitted image "emergency-outreach-dashboard-left-column-all-apps.png"\] Alt text: Emergency Outreach dashboard
 
 
-**Parent Topic:**[Emergency Outreach](../concept/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
 

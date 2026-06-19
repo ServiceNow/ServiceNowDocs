@@ -2,6 +2,7 @@
 title: Configure notification, approval, and survey for your portal header
 description: Display menu items like notification, approval, and survey on your portal header.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-config-notification-approval-surveys.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -25,7 +26,7 @@ Role required: sp\_admin
 
 2.  On the Service Portal page, search and select `Customer Support` in the Title column.
 
-3.  On the Customer Support page, in the **Main menu** field, select the Preview this record icon \(![Preview this record](../image/preview-record.png)\).
+3.  On the Customer Support page, in the **Main menu** field, select the Preview this record icon \(\[Omitted image "preview-record.png"\] Alt text: Preview this record\).
 
 4.  Select **Open Record** on the Instance with Menu pop-up window.
 
@@ -35,7 +36,7 @@ Role required: sp\_admin
 
     1.  On the form, fill in the fields.
 
-        For a description of the field values, see [Portal Header notification, approval, and survey form](../reference/portalheader-notification-approval-survey-form.md).
+        For a description of the field values, see [Portal Header notification, approval, and survey form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portalheader-notification-approval-survey-form.md).
 
     2.  Select **Submit**.
 
@@ -43,7 +44,7 @@ Role required: sp\_admin
 
     1.  On the form, fill the fields.
 
-        For a description of the field values, see [Portal Header notification, approval, and survey form](../reference/portalheader-notification-approval-survey-form.md).
+        For a description of the field values, see [Portal Header notification, approval, and survey form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portalheader-notification-approval-survey-form.md).
 
     2.  Select **Submit**.
 
@@ -51,7 +52,7 @@ Role required: sp\_admin
 
     1.  On the form, fill the fields.
 
-        For a description of the field values, see [Portal Header notification, approval, and survey form](../reference/portalheader-notification-approval-survey-form.md).
+        For a description of the field values, see [Portal Header notification, approval, and survey form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portalheader-notification-approval-survey-form.md).
 
     2.  Select **Submit**.
 

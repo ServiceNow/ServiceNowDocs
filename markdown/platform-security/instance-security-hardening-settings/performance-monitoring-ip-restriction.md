@@ -2,6 +2,7 @@
 title: Ensure only Trusted IP Addresses are Allowed to Connect to An Instance
 description: Use a system property to define a list of IP ranges that are appended to the outbound IP allow list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/performance-monitoring-ip-restriction.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -17,7 +18,7 @@ Use a system property to define a list of IP ranges that are appended to the out
 
 Use the **glide.custom.ip.authenticate.allow** system property to define a list of IP ranges that are appended to the inbound IP allow list of an instance. The property value contains a comma separated range of IP addresses in IPv4 or IPv6 format. IP ranges are specified using a hyphen \(10.0.10.14-10.0.10.19\), using CIDR notation \(10.0.10.0/24\), or consist of a single IP address \(10.0.10.5\). IP ranges in this property will be allowed to connect to an instance, unless listed in the IP deny list.
 
-IP ranges in this property are appended to the inbound IP allow list regardless of the value of the **glide.ip.authenticate.strict** property. The IP Address Access Controls \[ip\_access\] table provides an equivalent option to add to both the inbound/outbound allow/deny IP lists of an instance. Refer to the Steps to Configure section in [IP range based authentication](../../login/concept/c_IPRangeBasedAuthentication.md).
+IP ranges in this property are appended to the inbound IP allow list regardless of the value of the **glide.ip.authenticate.strict** property. The IP Address Access Controls \[ip\_access\] table provides an equivalent option to add to both the inbound/outbound allow/deny IP lists of an instance. Refer to the Steps to Configure section in [IP range based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_IPRangeBasedAuthentication.md).
 
 Ensure that the **glide.custom.ip.outbound.authenticate.allow** system property value is either an empty, or a comma-separated list containing only trusted IP ranges that your want to allow your instance to access.
 
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](../../security-center/reference/sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -114,5 +115,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Architecture, design, and threat modeling](../../security-center/reference/sc-architecture-design-threat-molding.md)
+</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

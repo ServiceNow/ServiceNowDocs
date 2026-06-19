@@ -2,6 +2,7 @@
 title: Configure rework
 description: Configure a rework definition to view a pattern where a step in the process is repeated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/rework.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -21,13 +22,13 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 Rework finding definition displays repeated process steps. This helps in identifying situations where there could be frequent repetition of work.
 
-![Rework](../image/rework.png)
+\[Omitted image "rework.png"\] Alt text: Rework
 
 ## Procedure
 
 1.  Navigate to Improvement opportunity definition page.
 
-    For information about the Improvement opportunity definition page, see [Set improvement opportunities](improve-opportunities.md).
+    For information about the Improvement opportunity definition page, see [Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/improve-opportunities.md).
 
 2.  Select **Create** on the rework card.
 
@@ -120,7 +121,7 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 
     Default values are provided. You can edit them if needed.
 
-    ![Rework configuration](../image/rework-configure.png)
+    \[Omitted image "rework-configure.png"\] Alt text: Rework configuration
 
     According to the example, records that meet the following conditions are available as improvement opportunities in the Summary and insights page:
 
@@ -129,5 +130,5 @@ Select the KPIs most likely impacted by the findings. Choosing the affected KPIs
 6.  Select **Save and exit**.
 
 
-**Parent Topic:**[Setting Automated improvement opportunities](../concept/automated-findings.md)
+**Parent Topic:**[Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md)
 

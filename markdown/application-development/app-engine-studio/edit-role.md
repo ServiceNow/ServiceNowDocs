@@ -2,6 +2,7 @@
 title: Change access settings for a role
 description: Control the application permissions for a role in App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/edit-role.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -25,9 +26,9 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 2.  From the My Apps page, open your application.
 
-3.  Next to a role, select the menu icon \(![](../image/menu-icon.png)\) and then select **Edit**.
+3.  Next to a role, select the menu icon \(\[Omitted image "menu-icon.png"\] Alt text:\) and then select **Edit**.
 
-    ![Editing a role](../image/edit-role.png "Editing a role")
+    \[Omitted image "edit-role.png"\] Alt text: Editing a role
 
     A new tab opens to edit the role.
 
@@ -54,5 +55,5 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 6.  Select **Save**.
 
 
-**Parent Topic:**[Add application security](../concept/add-security.md)
+**Parent Topic:**[Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md)
 

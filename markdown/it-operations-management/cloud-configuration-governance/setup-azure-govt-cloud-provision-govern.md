@@ -2,6 +2,7 @@
 title: Set up Microsoft Azure Government Cloud on Cloud Provisioning and Governance
 description: Set up Microsoft Azure Government Cloud on Cloud Provisioning and Governance for the first time. You can discover, provision, and manage Microsoft Azure Government Cloud resources using Cloud Provisioning and Governance, thereafter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/setup-azure-govt-cloud-provision-govern.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -22,7 +23,7 @@ To set up Microsoft Azure Government cloud on Cloud Provisioning and Governance,
 -   Set up a Microsoft Azure Service Principal on the Azure Government Portal and register the service account on the Cloud Provisioning and Governance application.
 -   Configure a MID Server with the required properties to enable Microsoft Azure Government and the ServiceNow instance to communicate correctly.
 -   Use the Microsoft Azure Service Principal credentials to discover associated service accounts and cloud resources.
--   In the base system Terraform template, set the *environment* variable to `usgovernment`. For information on where to find the template to modify, see [Discover the Infrastructure as Code \(IaC\) templates](../../cloud-management-v2/concept/exploring-cpg-terraform-connector.md#section_xhl_fjt_xfc).
+-   In the base system Terraform template, set the *environment* variable to `usgovernment`. For information on where to find the template to modify, see [Discover the Infrastructure as Code \(IaC\) templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md).
 
     ```
     provider "azurerm" {
@@ -45,13 +46,13 @@ Be sure to perform the procedures in order. After you have performed the Day 1 s
 
 ## Procedure
 
-1.  [Create a Microsoft Azure service principal](azure-create-serv-princ-cloud-mgt.md) on the Microsoft Azure Government portal.
+1.  [Create a Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-create-serv-princ-cloud-mgt.md) on the Microsoft Azure Government portal.
 
     **Note:** Navigate to **App registrations** &gt; **Register an application** &gt; **Supported account types** section. Then, select the **Accounts in this organizational directory only \(Single tenant\)** option to ensure that the Active Directory that is configured for the Microsoft Azure Government cloud is used for authentication.
 
     For more information, see [Create an Azure AD application and service principal that can access resources](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
-2.  [Configure MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerConfiguration.md) to connect Cloud Provisioning and Governance to a Microsoft Azure Government cloud account.
+2.  Configure MID Servers to connect Cloud Provisioning and Governance to a Microsoft Azure Government cloud account.
 
     1.  Navigate to **MID server** &gt; **Capabilities**.
 
@@ -74,8 +75,8 @@ Be sure to perform the procedures in order. After you have performed the Day 1 s
 
         **Note:** For more information, see:
 
-        -   [MID server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md)
-        -   [MID server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md)
+        -   MID server selection
+        -   MID server capabilities
 3.  Navigate to **MID server** &gt; **Properties**.
 
     1.  Click **New** and add new records for each of the following name-value pairs:
@@ -92,7 +93,7 @@ Be sure to perform the procedures in order. After you have performed the Day 1 s
 
     2.  Click **Submit**.
 
-4.  [Store the Azure service principal credentials in the instance](azure-create-creds-cloud-mgt.md).
+4.  [Store the Azure service principal credentials in the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-create-creds-cloud-mgt.md).
 
 5.  In the **Cloud Admin Portal**, navigate to **Manage** &gt; **Credentials**, and select the Azure Service principal record.
 
@@ -105,5 +106,5 @@ The **Azure Subscriptions** related list displays all subscriptions that are ass
 
 ## What to do next
 
-[Define the schedule for downloading Microsoft Azure billing data](azure-bill-dwnld-sched-cloud-mgt.md).
+[Define the schedule for downloading Microsoft Azure billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/azure-bill-dwnld-sched-cloud-mgt.md).
 

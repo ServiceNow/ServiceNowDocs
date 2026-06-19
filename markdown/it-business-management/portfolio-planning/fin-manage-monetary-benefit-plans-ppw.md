@@ -2,6 +2,7 @@
 title: Create monetary benefit plans for your planning items in Portfolio Planning
 description: Create and manage monetary benefit plans to capture the potential benefits while executing your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/fin-manage-monetary-benefit-plans-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,8 +18,8 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 ## Before you begin
 
--   [Enable monetary benefit plans for planning items](enable-benefitplans-ppw-fin.md)
--   [Add monetary and non-monetary benefit plans related lists](add-benefit-plans-planning-items-ppw-fin.md)
+-   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/enable-benefitplans-ppw-fin.md)
+-   [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/add-benefit-plans-planning-items-ppw-fin.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
 ## Procedure
@@ -33,15 +34,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d143355e111">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d49685e111">
 
 Option
 
-</th><th align="left" id="d143355e114">
+</th><th align="left" id="d49685e114">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d143355e120">
+</th></tr></thead><tbody><tr><td id="d49685e120">
 
 **Using Monetary benefit plan related list**
 
@@ -51,7 +52,7 @@ Procedure
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d143355e144">
+</td></tr><tr><td id="d49685e144">
 
 **Using finanicals record page**
 
@@ -64,7 +65,7 @@ Procedure
 </td></tr></tbody>
 </table>5.  On the Benefit Plan form, fill the fields.
 
-    For a description of the field names, see [Benefit Plan form](../../project-management/reference/benefit-plan-form-project-management.md)
+    For a description of the field names, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/benefit-plan-form-project-management.md)
 
 6.  Select **Save**.
 
@@ -75,6 +76,6 @@ The newly created monetary benefit plan appears in the finanicals record page an
 
 ## What to do next
 
--   [Edit monetary benefit plan](fin-edit-monetary-benefit-plan-ppw.md).
--   [Capture actual monetary benefits](fin-manage-actual-monetary-benefit-ppw.md).
+-   [Edit monetary benefit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-edit-monetary-benefit-plan-ppw.md).
+-   [Capture actual monetary benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/fin-manage-actual-monetary-benefit-ppw.md).
 

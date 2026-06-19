@@ -2,6 +2,7 @@
 title: Agent experience through Proactive Engagement
 description: This experience details the agent experience through the Proactive Engagement application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/proactive-engagement/agent-experience-pe.html
 release: australia
 product: Proactive Engagement
 classification: proactive-engagement
@@ -23,5 +24,5 @@ The reason for failure could be resolution execution failure or if the employee 
 
 The agents can refer to the Experience Issue that is tagged as the Origin of the Incidents created as a fallback.
 
-**Parent Topic:**[Using Proactive Engagement](../using-proactive-engagement.md)
+**Parent Topic:**[Using Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/proactive-engagement/using-proactive-engagement.md)
 

@@ -2,6 +2,7 @@
 title: Agentic conversations in Virtual Agent
 description: When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any Now Assist in Virtual Agent supported skills to help you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/agentic-conversations-vad.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -25,7 +26,7 @@ When you ask a question to the virtual agent, the agent understands the query. I
 
 Role required: admin or virtual\_agent\_admin
 
-**Note:** You must manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for Assets in the Asset library](asset-lib-conv-settings.md).
+**Note:** You must manually enable agents to make them discoverable in Virtual Agent. For more information about changing the settings, see [Conversational settings for Assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/asset-lib-conv-settings.md).
 
 To enable AI agents in Virtual Agent:
 
@@ -33,17 +34,17 @@ To enable AI agents in Virtual Agent:
 
     The configuration consists of the following:
 
-    -   Creating an assistant in Virtual Agent or using the default. To create an assistant, see [Create a chat assistant](../../now-assist-in-va/task/create-assistant.md)
-    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your chat assistant on a portal, channel, or mobile app](../../now-assist-in-va/task/display-assistant-portal-channel.md).
-    ![Assistants in CI.](../images/assistants.png)
+    -   Creating an assistant in Virtual Agent or using the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
+    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
+    \[Omitted image "assistants.png"\] Alt text: Assistants in CI.
 
-2.  Ensure that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](../../now-assist-in-va/task/use-agentic-support.md).
+2.  Ensure that **Agentic support** is enabled. For more information about using agentic support, see [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
 
-    ![AI agents skill.](../images/assistant-skill.png)
+    \[Omitted image "assistant-skill.png"\] Alt text: AI agents skill.
 
-3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-next-best-action-agent.md).
+3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see .
 
-    ![Adding VA assistants to AI agent.](../images/va-card-ai-agent.png)
+    \[Omitted image "va-card-ai-agent.png"\] Alt text: Adding VA assistants to AI agent.
 
 
 During execution, only the configured AI agents are considered for the current assistant and dynamically makes them available to the Orchestrator for planning.
@@ -95,11 +96,11 @@ Utterance: `How do I avoid spam? How do I detect it?`
 
 -   Non-agentic response: Produces a single mixed answer.
 
-    ![Non-agentic response.](../images/utterance-qna.png)
+    \[Omitted image "utterance-qna.png"\] Alt text: Non-agentic response.
 
 -   Agentic response: Breaks it into two questions and provides a better answer for each one of them.
 
-    ![Agentic response part1.](../images/utterance-agentic1.png)![Agentic response part2.](../images/utterance-agentic2.png)
+    \[Omitted image "utterance-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance-agentic2.png"\] Alt text: Agentic response part2.
 
 
 **Scenario 2: Multiple skills with slot filling**
@@ -108,11 +109,11 @@ Utterance: `Hey, order a coffee for me, preferably dark roast and something to e
 
 -   Non-agentic response: Produces a single answer. Mostly listing all matching available skills. No auto-execution since it matched multiple skills.
 
-    ![Non-agentic response.](../images/utterance2-qna.png)
+    \[Omitted image "utterance2-qna.png"\] Alt text: Non-agentic response.
 
 -   Agentic response: Breaks it into two distinct tasks, order coffee and order food/pizza. Executes one after another, completing the entire user request.
 
-    ![Agentic response part1.](../images/utterance2-agentic1.png)![Agentic response part2.](../images/utterance2-agentic2.png)![Agentic response part3.](../images/utterance2-agentic3.png)
+    \[Omitted image "utterance2-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance2-agentic2.png"\] Alt text: Agentic response part2.\[Omitted image "utterance2-agentic3.png"\] Alt text: Agentic response part3.
 
 
 **Scenario 3: Complex utterance with a combination of skills, agents, and QnA**
@@ -121,11 +122,11 @@ Utterance: `I am going on PTO tomorrow. Get my expense report and my IT ticket s
 
 -   Non-agentic response: Produces a single answer. It lists all matching available skills. No auto-execution will take place since it matched multiple skills.
 
-    ![Non-agentic response.](../images/utterance3-qna.png)
+    \[Omitted image "utterance3-qna.png"\] Alt text: Non-agentic response.
 
 -   Agentic response: Breaks it into multiple distinct tasks, reasons and plans, understands the dependencies, and executes one after another, completing the entire user request using output from prior actions as context as needed.
 
-    ![Agentic response part1.](../images/utterance3-agentic1.png)![Agentic response part2.](../images/utterance3-agentic2.png)![Agentic response part3.](../images/utterance3-agentic3.png)![Agentic response part4.](../images/utterance3-agentic4.png)![Agentic response part5.](../images/utterance3-agentic5.png)![Agentic response part6.](../images/utterance3-agentic6.png)
+    \[Omitted image "utterance3-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance3-agentic2.png"\] Alt text: Agentic response part2.\[Omitted image "utterance3-agentic3.png"\] Alt text: Agentic response part3.\[Omitted image "utterance3-agentic4.png"\] Alt text: Agentic response part4.\[Omitted image "utterance3-agentic5.png"\] Alt text: Agentic response part5.\[Omitted image "utterance3-agentic6.png"\] Alt text: Agentic response part6.
 
 
 **Scenario 4: Complex utterance with a combination of QnA \(KB\) and agent**
@@ -134,16 +135,16 @@ Utterance: `What is the maximum contribution amount for espp? Send an email to R
 
 -   Non-agentic response: Produces a single answer and doesn’t complete or even suggest the second action since there’s no corresponding skill.
 
-    ![Non-agentic response.](../images/utterance4-qna.png)
+    \[Omitted image "utterance4-qna.png"\] Alt text: Non-agentic response.
 
 -   Agentic response: Understands the two separate intents and executes them in sequence while using the output from the first intent to fulfill the second intent.
 
-    ![Agentic response part1.](../images/utterance4-agentic1.png)![Agentic response part2.](../images/utterance4-agentic2.png)
+    \[Omitted image "utterance4-agentic1.png"\] Alt text: Agentic response part1.\[Omitted image "utterance4-agentic2.png"\] Alt text: Agentic response part2.
 
 
 ## Halting and restarting agentic conversations
 
-If you want to stop an agentic conversation mid-query, hover over the send icon ![Send icon.](../images/vad-send-icon.png) while the agent is researching a query. The icon becomes an interrupt flow icon ![Interrupt flow icon.](../images/vad-interrupt-flow-icon.png). Select the icon and the conversation stops. A message appears: `The current conversation has been stopped, but you can begin again`. Enter a new query to restart the agentic conversation.
+If you want to stop an agentic conversation mid-query, hover over the send icon \[Omitted image "vad-send-icon.png"\] Alt text: Send icon. while the agent is researching a query. The icon becomes an interrupt flow icon \[Omitted image "vad-interrupt-flow-icon.png"\] Alt text: Interrupt flow icon.. Select the icon and the conversation stops. A message appears: `The current conversation has been stopped, but you can begin again`. Enter a new query to restart the agentic conversation.
 
 ## Error handling and fallback options
 

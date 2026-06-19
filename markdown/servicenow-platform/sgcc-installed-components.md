@@ -2,6 +2,7 @@
 title: Components installed with SGC Central
 description: Several types of components are installed with activation of the SGC Central \(sn\_sgc\_central\) plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-installed-components.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -118,5 +119,5 @@ Stores the Extract Transform Load \(ETL\) list for display under the Integration
 |Integration Commons for CMDB \(sn\_cmdb\_int\_util\)|Contains the CMDB Integrations Dashboard and a set of Robust Transform Engine \(RTE\) transforms and script includes.|
 |CMDB Workspace \(sn\_cmdb\_ws\)|Provides a single place to access CMDB-focused features including SGC Central.|
 
-**Parent Topic:**[SGC Central reference](sgcc-reference.md)
+**Parent Topic:**[SGC Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sgcc-reference.md)
 

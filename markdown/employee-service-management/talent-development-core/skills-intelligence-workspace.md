@@ -2,6 +2,7 @@
 title: Skills Workspace
 description: You can update and maintain skills and job architecture data from a single place using the Skills Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-intelligence-workspace.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -17,7 +18,7 @@ You can update and maintain skills and job architecture data from a single place
 
 ## Workspace users
 
-Access to the Skills Workspace requires the sn\_skills\_int\_ws.workspace\_user role or any role that contains it. For more information on roles in Skills Foundation, see [Components installed with Skills Foundation](../reference/skills-intelligence-users-and-roles-1.md).
+Access to the Skills Workspace requires the sn\_skills\_int\_ws.workspace\_user role or any role that contains it. For more information on roles in Skills Foundation, see [Components installed with Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 ## Home page
 
@@ -28,17 +29,17 @@ Access the following information on the Skills Foundation Home page to manage sk
 -   Actionable insights - Notifications of various system checks as suggestions for the users to act on to improve their skills or job architecture data. The **View records** option enables you to see the detailed list view of the records.
 -   Overview and Health - Charts to enable you to monitor job architecture data and skills inventory.
 
-![Skills Foundation home page](../image/skills-intelligence-workspace.png)
+\[Omitted image "skills-intelligence-workspace.png"\] Alt text: Skills Foundation home page
 
 ## Job architecture view
 
 Get a visual and hierarchical overview of Job architecture data that is loaded and created to get a structural understanding of job families and role groups and skills related to them.
 
-![Skills Workspace Job architecture view](../image/skills-intelligence-nodemap-view.png)
+\[Omitted image "skills-intelligence-nodemap-view.png"\] Alt text: Skills Workspace Job architecture view
 
 ## Lists view
 
 Quickly access information about skills library, skills import history, and job architecture data by using the Lists view.
 
-![Skills Workspace Lists view](../image/skills-intelligence-list-view.png)
+\[Omitted image "skills-intelligence-list-view.png"\] Alt text: Skills Workspace Lists view
 

@@ -2,6 +2,7 @@
 title: Enable lean budgeting for demands
 description: Enable the Investment Budget option to allocate budgeting for demands at fiscal period.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/config-investment-budget-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -25,15 +26,15 @@ Role required: admin
 
 2.  Open the required demand.
 
-3.  Select the Additional actions and navigate to **Configure** &gt; **Related Lists**.![List of options available in Additional actions.](../image/config-invest-budget.png)
+3.  Select the Additional actions and navigate to **Configure** &gt; **Related Lists**.\[Omitted image "config-invest-budget.png"\] Alt text: List of options available in Additional actions.
 
 4.  Select **Investment Budget** from the Available column and add it to Selected column.
 
 5.  Select **Save**.
 
 
--   **[Manage lean budgeting for demand](lean-budgeting-demand-management.md)**  
+-   **[Manage lean budgeting for demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/lean-budgeting-demand-management.md)**  
 Allocate budget for demands at each fiscal period instead of the entire fiscal year to reduce the overhead costs associated with traditional approach.
 
-**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+**Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/t_CreatingDemands.md)
 

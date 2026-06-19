@@ -2,6 +2,7 @@
 title: Define policy exception reason choices
 description: You can define reason choices to be available to any user who requests an exception.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/define-reason-choices.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -25,7 +26,7 @@ Role required: sn\_compliance.manager
 
 2.  Click **New**.
 
-    ![Reason Choice List](../image/reason-choice-list.png)
+    \[Omitted image "reason-choice-list.png"\] Alt text: Reason Choice List
 
 3.  On the form, fill in the fields.
 
@@ -46,5 +47,5 @@ Role required: sn\_compliance.manager
     **Note:** For additional details about this process, see [KB0783018](https://support.servicenow.com/nav_to.do?uri=%2Fkb_knowledge.do%3Fsys_id%3Dca72a764db1fc050d82ffb243996194e).
 
 
-**Parent Topic:**[Allow policy exception requests from other applications](../concept/allow-other-app-policy-except.md)
+**Parent Topic:**[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
 

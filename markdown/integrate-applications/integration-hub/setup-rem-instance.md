@@ -2,6 +2,7 @@
 title: Set up the ServiceNow Remote Instance spoke
 description: Integrate the local and remote ServiceNow instances by creating an OAuth API endpoint in the remote ServiceNow instance to authenticate requests.Register remote ServiceNow instance as an OAuth provider so that the local ServiceNow instance can request OAuth 2.0 tokens.Create credential record for the remote ServiceNow instance. The ServiceNow Remote Instance spoke connection and credential alias uses these credentials to authorize actions.Create Connection record for your remote ServiceNow instance. The ServiceNow Remote Instance spoke connection and credential aliases use these connections to perform actions.Create credential record for the local ServiceNow instance. The ServiceNow Remote Instance spoke connection and credential alias uses these credentials to authorize actions.Create Connection record for your local ServiceNow instance. The ServiceNow Remote Instance spoke connection and credential aliases use these connections to perform actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-rem-instance.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -40,7 +41,7 @@ Register remote ServiceNow instance as an OAuth provider so that the local Servi
 ### Before you begin
 
 -   In the remote ServiceNow instance:
-    -   Create an OAuth API endpoint for external clients. In **Redirect URL**, specify the URL of the local ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`. For more information, see [Create an endpoint for clients to access the instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/t_CreateEndpointforExternalClients.md).
+    -   Create an OAuth API endpoint for external clients. In **Redirect URL**, specify the URL of the local ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`. For more information, see Create an endpoint for clients to access the instance.
     -   Copy and record the values of Client ID and Client Secret.
 -   Role required: admin
 

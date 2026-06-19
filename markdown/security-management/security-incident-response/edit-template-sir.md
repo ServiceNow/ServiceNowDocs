@@ -2,6 +2,7 @@
 title: Edit a report template in Security Incident Response
 description: Edit a report template to reuse an existing template to create a new template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/edit-template-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -56,5 +57,5 @@ Role required: admin
     A confirmation message is displayed whether you want to publish the report template.
 
 
-**Parent Topic:**[Configure report templates in Security Incident Response](../concept/daily-status-sir.md)
+**Parent Topic:**[Configure report templates in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/daily-status-sir.md)
 

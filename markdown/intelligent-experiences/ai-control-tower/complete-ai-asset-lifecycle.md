@@ -2,6 +2,7 @@
 title: Complete AI asset lifecycle
 description: Complete the AI asset lifecycle process starting from assessment through deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/complete-ai-asset-lifecycle.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
@@ -46,11 +47,11 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\] or Asset owner \[sn
 
 The life cycle status of an AI asset is deployed and completed.
 
-![Screenshot showing the completion of the Assess stage and its tasks.](../image/aict-lifecycle-access.png "AI asset Lifecycle- Assess")
+\[Omitted image "aict-lifecycle-access.png"\] Alt text: Screenshot showing the completion of the Assess stage and its tasks.
 
-![Screenshot showing the completion of the build and test stage and its tasks.](../image/aict-ai-asset-lifecycle.png "AI Asset Lifecycle- Build and test")
+\[Omitted image "aict-ai-asset-lifecycle.png"\] Alt text: Screenshot showing the completion of the build and test stage and its tasks.
 
-![Screenshot showing the completion of the deploy stage and its tasks.](../image/aict-lifecycle-deploy.png "AI Asset Lifecycle- Deploy")
+\[Omitted image "aict-lifecycle-deploy.png"\] Alt text: Screenshot showing the completion of the deploy stage and its tasks.
 
-To manage the approval workflow for ServiceNow® AI, see [Create an AI Control Tower Playbook workflow](create-a-playbook-workflow-for-now-assist-approvals.md).
+To manage the approval workflow for ServiceNow® AI, see [Create an AI Control Tower Playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
 

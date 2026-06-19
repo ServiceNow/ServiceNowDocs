@@ -2,6 +2,7 @@
 title: Available Zero Copy Connector for ERP content packs
 description: These content packs are available for use in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to implement and deploy applications with less manual work.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -58,14 +59,14 @@ The ERP Content Pack for Source to Settle contains models including Purchase Ord
 |---------------------|--------------|-------|
 |Models|ECC and S/4|RFC/BAPI/OData V2|
 
--   **[Zero Copy Connector for ERP Enterprise Data Foundation content pack](erp-canvas-enterprise-data-foundation-content-pack.md)**  
+-   **[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)**  
 Find details about the models and process extensions in the Zero Copy Connector for ERP Enterprise Data Foundation content pack.
--   **[Zero Copy Connector for ERP Quote to Cash content pack](erp-canvas-sales-order-content-pack.md)**  
+-   **[Zero Copy Connector for ERP Quote to Cash content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.md)**  
 Find details about the models and process extensions in the Zero Copy Connector for ERP Sales Order content pack.
--   **[Zero Copy Connector for ERP Hire to Retire content pack](erp-canvas-recruit-to-retire-content-pack.md)**  
+-   **[Zero Copy Connector for ERP Hire to Retire content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-recruit-to-retire-content-pack.md)**  
 The Zero Copy Connector for ERP Hire to Retire content pack contains models and process extensions that manage the employee lifecycle.
--   **[Zero Copy Connector for ERP Source to Settle content pack](erp-source-to-settle-data-product.md)**  
+-   **[Zero Copy Connector for ERP Source to Settle content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-source-to-settle-data-product.md)**  
 Find details about the models and process extensions in the Zero Copy Connector for ERP \(Enterprise Resource Planning\) Source to Settle content pack.
 
-**Parent Topic:**[Zero Copy Connector for ERP content packs](erp-canvas-content-packs.md)
+**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

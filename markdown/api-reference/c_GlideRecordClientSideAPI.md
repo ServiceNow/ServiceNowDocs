@@ -2,6 +2,7 @@
 title: GlideRecord - Client
 description: The GlideRecord API provides methods that perform database operations. This API enables the use of some GlideRecord functionality in client-side scripts, such as client scripts and UI policy scripts.Creates an instance of the GlideRecord class for the specified table.Adds a column to order by in the query.Adds a query to return records where the specified field name is equal to a specified value \(or is in a list of values\).Adds a filter to return records where the field meets the specified condition \(field, operator, value\).Deletes the current record and calls the specified response function when complete.Executes a GlideRecord query for a record with the specified sys\_id. This method is expected to be used to query for single records, so a next operation is performed before returning.Retrieves the query condition of the current result set as an encoded query string.Returns the limit for records to be returned by the GlideRecord query.Retrieves the name of the table associated with this GlideRecord.Determines if there are any more records in the GlideRecord.Inserts a new record using the field values that have been set for the current record.Moves to the next record in the GlideRecord.Specifies an orderBy column. May be called more than once to order by multiple columns.Runs the query to the server against the table based on the addQuery\(\) filter. This method queries the GlideRecord table as well as any references of the table.Adds a specified encoded query string to the current query clause.Sets the limit for how many records are in the GlideRecord.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideRecordClientSideAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,9 +18,9 @@ The GlideRecord API provides methods that perform database operations. This API 
 
 A GlideRecord contains both records and fields. Queries made with client-side GlideRecord methods are executed on the server. Therefore, a request is made from the client browser to obtain the record data.
 
-The client-side GlideRecord API is not supported in scoped applications. Instead, create a script include and use the [GlideAJAX](../../GlideAjax/concept/c_GlideAjaxAPI.md#) API, or use the REST APIs. In addition, this API applies access control lists \(ACLs\) based on the credentials of the user executing the script. To execute the code on the server without ACLs, use the [GlideAjax](../../GlideAjax/concept/c_GlideAjaxAPI.md#) API.
+The client-side GlideRecord API is not supported in scoped applications. Instead, create a script include and use the [GlideAJAX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideAjaxAPI.md) API, or use the REST APIs. In addition, this API applies access control lists \(ACLs\) based on the credentials of the user executing the script. To execute the code on the server without ACLs, use the [GlideAjax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideAjaxAPI.md) API.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## Client side GlideRecord - GlideRecord\(String tableName\)
 
@@ -49,9 +50,9 @@ Adds a column to order by in the query.
 
 Adds a query to return records where the specified field name is equal to a specified value \(or is in a list of values\).
 
-If you are familiar with SQL, this method is similar to the "where" clause. You can create one or more queries for a single filter by calling this method multiple times; for this method the queries are AND'ed. Once you define all of the desired queries, call the [Client side GlideRecord - query\(String name, Function responseFunction, String value\)](c_GlideRecordClientSideAPI.md#) to execute the specified query clause \(filter\).
+If you are familiar with SQL, this method is similar to the "where" clause. You can create one or more queries for a single filter by calling this method multiple times; for this method the queries are AND'ed. Once you define all of the desired queries, call the [Client side GlideRecord - query\(String name, Function responseFunction, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideRecordClientSideAPI.md) to execute the specified query clause \(filter\).
 
-To perform an operation other than AND, use either the [addQuery\(String name, Object operator, Object value\)](c_GlideRecordClientSideAPI.md#) method or the [setEncodedQuery\(\)](c_GlideRecordClientSideAPI.md#) method.
+To perform an operation other than AND, use either the [addQuery\(String name, Object operator, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideRecordClientSideAPI.md) method or the [setEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideRecordClientSideAPI.md) method.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -98,9 +99,9 @@ function response(result) {
 
 Adds a filter to return records where the field meets the specified condition \(field, operator, value\).
 
-If you are familiar with SQL, this method is similar to the "where" clause. You can create one or more queries for a single filter by calling this method multiple times. Once you define all of the desired queries, call the [Client side GlideRecord - query\(String name, Function responseFunction, String value\)](c_GlideRecordClientSideAPI.md#) to execute the specified query clause \(filter\).
+If you are familiar with SQL, this method is similar to the "where" clause. You can create one or more queries for a single filter by calling this method multiple times. Once you define all of the desired queries, call the [Client side GlideRecord - query\(String name, Function responseFunction, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideRecordClientSideAPI.md) to execute the specified query clause \(filter\).
 
-To create more complex queries, use the [setEncodedQuery\(\)](c_GlideRecordClientSideAPI.md#) method.
+To create more complex queries, use the [setEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideRecordClientSideAPI.md) method.
 
 <table id="table_wgh_cpv_hv" class="parameters"><thead><tr><th>
 
@@ -456,7 +457,7 @@ The following example shows the difference between synchronus and asynchronous s
 
 Adds a specified encoded query string to the current query clause.
 
-This method enables you to specify complex filters \(encoded query strings\) in a single query call, unlike other client-side addQuery\(\) methods. Once you define all of the desired queries, call the [Client side GlideRecord - query\(String name, Function responseFunction, String value\)](c_GlideRecordClientSideAPI.md#) to execute the specified query clause \(filter\). For additional information on encoded query strings, refer to [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+This method enables you to specify complex filters \(encoded query strings\) in a single query call, unlike other client-side addQuery\(\) methods. Once you define all of the desired queries, call the [Client side GlideRecord - query\(String name, Function responseFunction, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideRecordClientSideAPI.md) to execute the specified query clause \(filter\). For additional information on encoded query strings, refer to Encoded query strings.
 
 If you call this method multiple times before calling the query\(\) method, the queries are AND'ed together.
 

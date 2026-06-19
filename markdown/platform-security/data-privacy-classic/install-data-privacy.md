@@ -2,6 +2,7 @@
 title: Activate data privacy \(Classic\)
 description: You can activate the data privacy plugin \(com.glide.data\_privacy\) for Platform Security if you have the admin role. If the application doesn't include demo data or it doesn't install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/install-data-privacy.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -33,7 +34,7 @@ The following items are installed with data privacy:
 -   Roles
 -   Tables
 
-For more information, see [Installed with data privacy \(Classic\)](../../security/reference/installed-with-data-privacy.md#).
+For more information, see [Installed with data privacy \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/installed-with-data-privacy.md).
 
 ## Procedure
 
@@ -47,6 +48,6 @@ For more information, see [Installed with data privacy \(Classic\)](../../securi
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

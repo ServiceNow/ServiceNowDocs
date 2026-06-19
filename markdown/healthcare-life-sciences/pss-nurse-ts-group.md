@@ -2,6 +2,7 @@
 title: Determine who can conduct a training for Patient Support Services
 description: Add users who can conduct the trainings for Patient Support Services to the Nurse Training Support assignment group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-nurse-ts-group.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,10 +32,10 @@ In the Patient Support Services application, the sn\_patientservice.nurse\_educa
 
 -   Assign the sn\_patientservice.nurse\_educator role to the user who is conducting the training task.
 
-    For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
+    For more information, see Assign a role to a user.
 
 -   Add the user who is conducting the training task to the Nurse Training Support assignment group.
 
-    For more information, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+    For more information, see Assign a role to a group.
 
 

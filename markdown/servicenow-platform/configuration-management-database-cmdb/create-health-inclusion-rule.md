@@ -2,6 +2,7 @@
 title: Create health inclusion rule
 description: Filter the CIs that are included in health calculations and that appear in the CMDB Health Dashboard by defining health inclusion rules. Use health inclusion rules to temporarily filter out classes that generate a large number of failures, until the problems are fixed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/create-health-inclusion-rule.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -30,7 +31,7 @@ Evaluation for the required, orphan, recommended, duplicate and staleness health
 -   Applying a health inclusion rule to the duplicate metric, is supported only in the global domain.
 -   Due to performance issues, dot-walking in health inclusion rules for the duplicate metric is not supported.
 
-In addition to any health inclusion rules, [identification inclusion rules](create-id-inclusion-rule.md) also indirectly impact what appears in the CMDB Health Dashboard for duplicate CIs. The dashboard itself uses the identification engine \(IRE\) to identify duplicate CIs and therefore identification inclusion rules are applied.
+In addition to any health inclusion rules, [identification inclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-id-inclusion-rule.md) also indirectly impact what appears in the CMDB Health Dashboard for duplicate CIs. The dashboard itself uses the identification engine \(IRE\) to identify duplicate CIs and therefore identification inclusion rules are applied.
 
 Inheritance of health inclusion rules:
 

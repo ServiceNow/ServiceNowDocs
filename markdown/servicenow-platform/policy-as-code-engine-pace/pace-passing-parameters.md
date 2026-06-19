@@ -2,6 +2,7 @@
 title: Passing parameters to PaCE policies
 description: Parameters can be passed to a PaCE policy to validate updates to an object \(tables and document IDs\). These variables apply to authoring in both low-code or JavaScript. Policy versions include three types of parameter inputs: API Variables, Config Parameters, and Record References.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-passing-parameters.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace

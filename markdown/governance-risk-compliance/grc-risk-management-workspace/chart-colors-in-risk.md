@@ -2,6 +2,7 @@
 title: Chart colors for risk data
 description: You can view your risk data visualizations in different colors for a quick overview of your risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/chart-colors-in-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -36,9 +37,9 @@ For classic risk, the following risk criteria are defined with the respective co
 -   High
 -   Very high
 
-If you want to add or modify a risk criteria or a risk rating, a report administrator with the role, report\_admin, can configure your chart colors. For more information on configuring chart colors, see [Using chart colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ChartColors.md).
+If you want to add or modify a risk criteria or a risk rating, a report administrator with the role, report\_admin, can configure your chart colors. For more information on configuring chart colors, see Using chart colors.
 
-![Chart colors defined for risk.](../image/chart-colors.jpg "Chart colors")
+\[Omitted image "chart-colors.jpg"\] Alt text: Chart colors defined for risk.
 
-**Parent Topic:**[Using the Risk Workspace](../../grc-workspace-risk/concept/using-risk-workspace.md)
+**Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
 

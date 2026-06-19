@@ -2,6 +2,7 @@
 title: Verify agent functionality
 description: Verify that an agent is running properly by performing a self-test on the agent. If one or more of the tests fail, you can diagnose the agent problem and view a potential resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/verify-agent-functionality.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -31,7 +32,7 @@ Role required: agent\_client\_collector\_admin
 
     If the current test doesn’t appear, refresh the page.
 
-5.  Hover next to the entry for the current test and select the info icon ![](../../health-log-analytics-operator/image/icon-info.png).
+5.  Hover next to the entry for the current test and select the info icon \[Omitted image "icon-info.png"\] Alt text:.
 
     The **Agent Self Test Run** pop-up window appears.
 
@@ -41,7 +42,7 @@ Role required: agent\_client\_collector\_admin
 
 7.  In the **Agent Self Test Results** table at the bottom of the page, locate a test with **Status = Fail**.
 
-8.  Hover next to the entry for the failed test and select the info icon ![](../../health-log-analytics-operator/image/icon-info.png).
+8.  Hover next to the entry for the failed test and select the info icon \[Omitted image "icon-info.png"\] Alt text:.
 
     The **Agent Self Test Results** pop-up window appears.
 

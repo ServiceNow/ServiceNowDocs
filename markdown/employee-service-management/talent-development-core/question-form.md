@@ -2,6 +2,7 @@
 title: Question form
 description: Description of the field values in the Question form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/question-form.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

@@ -2,6 +2,7 @@
 title: Add an authorized user
 description: As a consumer, add new authorized users to control the access to catalog items that are entitled to you by your provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-auth-user.html
 release: australia
 product: Service Exchange
 classification: service-exchange

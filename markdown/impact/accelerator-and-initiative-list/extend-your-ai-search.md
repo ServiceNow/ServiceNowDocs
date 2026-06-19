@@ -2,6 +2,7 @@
 title: Extend Your AI Search
 description: This accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/extend-your-ai-search.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator provides prescriptive guidance on extending your AI Search beyo
 ## Accelerator Overview
 
 Extend your AI Search provides Impact customers with advanced tools and insights to extend their AI Search capabilities beyond the foundational level. This offering explores advanced configuration options, enabling customers to greatly enhance the reach and performance of AI Search across their instance stack. This Accelerator also includes key resources and leading practice guides to optimize implementation and drive increased usage.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -68,6 +71,8 @@ Refer to the applicable Impact Accelerator description available at [https://www
 ## Exclusions
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
+
+## Exclusions
 
 ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

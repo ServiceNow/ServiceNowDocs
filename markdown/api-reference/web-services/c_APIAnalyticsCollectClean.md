@@ -2,6 +2,7 @@
 title: REST and SOAP API analytics collection and cleanup
 description: API analytics uses scheduled jobs to collect and clean up analytics data.The API Name used when tracking API analytics is determined by the type of API being described, such as a REST API or a Scripted SOAP service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_APIAnalyticsCollectClean.html
 release: australia
 product: Web Services
 classification: web-services
@@ -165,7 +166,7 @@ No
 
 Daily statistics are maintained for 33 days. Monthly totals are maintained for 13 months. Table cleaners for the sys\_api\_stats, sys\_api\_stats\_requestor, and sys\_api\_stats\_requestor\_monthly tables remove analytics records older than these limits.
 
-**Parent Topic:**[Analyze REST and SOAP API usage](c_APIAnalytics.md)
+**Parent Topic:**[Analyze REST and SOAP API usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_APIAnalytics.md)
 
 ## REST &amp; SOAP API analytics naming
 

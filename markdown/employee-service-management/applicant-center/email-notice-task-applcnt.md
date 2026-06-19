@@ -2,6 +2,7 @@
 title: Task email notifications for applicants
 description: The email notifications provide alerts to the applicants when tasks are assigned to them by the recruiters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/email-notice-task-applcnt.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -21,5 +22,5 @@ The task is available in the **My TO-DOs** tab in the application record page.
 
 Receive a reminder email or if the due date is approaching for an incomplete task. The **Notify Applicants when Due Date is tomorrow** scheduled job is active by default.
 
-**Parent Topic:**[Using Applicant Center](use-applicant-center.md)
+**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/use-applicant-center.md)
 

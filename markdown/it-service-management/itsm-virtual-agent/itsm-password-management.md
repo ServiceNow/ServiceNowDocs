@@ -2,6 +2,7 @@
 title: Password management topics for ITSM Virtual Agent
 description: End users can perform password reset, password change, and account unlock actions using Virtual Agent conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-password-management.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -26,7 +27,7 @@ Requirements:
 
 **Note:** In order for the password reset process to be available in Virtual Agent, ensure that you selected the **Enabled on Virtual Agent** check box in the Password Reset process configuration page.
 
-For more information about the password reset process, see [Password Reset for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-for-virtual-agent.md).
+For more information about the password reset process, see Password Reset for Virtual Agent.
 
 ## Verification options for password reset in Virtual Agent conversations
 
@@ -38,13 +39,13 @@ The following identity verification options are supported in Virtual Agent conve
 -   Email code verification: User enters the code received via email.
 -   Security question verification: User enters the configured security question answers.
 
-For more information, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md).
+For more information, see Configure your Password Reset process.
 
 ## Change Password
 
 Users can request to change their user password.
 
-This topic uses the Display Password Reset URLs [topic block](../reference/itsm-va-topic-blocks.md).
+This topic uses the Display Password Reset URLs [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 Basic flow:
 
@@ -58,7 +59,7 @@ Basic flow:
 
 Users can request to reset their user password.
 
-This topic uses the Display Password Reset URLs [topic block](../reference/itsm-va-topic-blocks.md).
+This topic uses the Display Password Reset URLs [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 Basic flow:
 
@@ -73,7 +74,7 @@ Basic flow:
 
 Users can request to verify their locked user account.
 
-This topic uses the Display Password Reset URLs [topic block](../reference/itsm-va-topic-blocks.md).
+This topic uses the Display Password Reset URLs [topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-va-topic-blocks.md).
 
 Basic flow:
 
@@ -81,5 +82,5 @@ Basic flow:
 2.  If the user successfully verifies their identity with the given inputs, Virtual Agent provides the verification information.
 3.  Once the user has been identified and verified, Virtual Agent unlocks the user's account.
 
-**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](using-itsm-va.md)
+**Parent Topic:**[Using ITSM Virtual Agent pre-built topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/using-itsm-va.md)
 

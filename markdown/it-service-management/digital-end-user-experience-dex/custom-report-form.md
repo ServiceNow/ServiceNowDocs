@@ -2,6 +2,7 @@
 title: Custom insights report form
 description: Custom insights report gives you an ability to create a custom insights report for metrics collected across your digital space.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/custom-report-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -128,5 +129,5 @@ View results
 Runs the query and displays matching metrics data based on your selections and filters.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

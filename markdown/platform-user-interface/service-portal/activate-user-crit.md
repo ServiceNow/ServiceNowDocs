@@ -2,11 +2,12 @@
 title: Set the user criteria for Service Portal system property
 description: After activating the Service Portal User Criteria Support plugin, you must set the system property to true.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/activate-user-crit.html
 release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [User criteria for Service Portal, Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -29,10 +30,10 @@ Setting the system property activates user criteria for Service Portal. When the
 
 2.  Click the check box to set the following property to true.
 
-    ![Enable use of User Criteria records instead of Roles fields for Service Portal entitlements](../image/user-crit-prop.png)
+    \[Omitted image "user-crit-prop.png"\] Alt text: Enable use of User Criteria records instead of Roles fields for Service Portal entitlements
 
 3.  Click **Save**.
 
 
-**Parent Topic:**[User criteria for Service Portal](../concept/user-criteria.md)
+**Parent Topic:**[User criteria for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/user-criteria.md)
 

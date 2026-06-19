@@ -2,6 +2,7 @@
 title: Use Microsoft Teams for Universal Request
 description: Agents and employees can collaborate using the Microsoft Teams application to resolve universal requests effectively. Employees can create and modify universal requests using Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ur-ms-teams-use.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -15,10 +16,10 @@ breadcrumb: [Use Microsoft Teams integration for Employee Experience, Use, Servi
 
 Agents and employees can collaborate using the Microsoft Teams application to resolve universal requests effectively. Employees can create and modify universal requests using Microsoft Teams.
 
--   **[Employee actions](ur-ms-teams-use-employee.md)**  
+-   **[Employee actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ur-ms-teams-use-employee.md)**  
 Employees can create and update universal requests and track existing universal requests by using Microsoft Teams.
--   **[Agent actions](ur-mst-use-agent.md)**  
+-   **[Agent actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ur-mst-use-agent.md)**  
 Work on the universal requests created by the employees. You can chat with employees, and import messages from the records or from the Agent Workspace.
 
-**Parent Topic:**[Use Microsoft Teams integration for Employee Experience](c_employee_ex_use.md)
+**Parent Topic:**[Use Microsoft Teams integration for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_use.md)
 

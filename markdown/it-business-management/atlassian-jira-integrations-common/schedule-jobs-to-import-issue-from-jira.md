@@ -2,6 +2,7 @@
 title: Schedule a job to auto-import issues from Jira to Agile Development 2.0
 description: Schedule a job to auto-import issues and sprints periodically from Jira into Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/schedule-jobs-to-import-issue-from-jira.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -42,5 +43,5 @@ If you do not configure the scheduled job, you must manually import issues for t
 5.  Click **Update**.
 
 
-**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](setting-up-the-integration-between-jira-and-agile-development.md)
+**Parent Topic:**[Setting up the integration between Jira and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/setting-up-the-integration-between-jira-and-agile-development.md)
 

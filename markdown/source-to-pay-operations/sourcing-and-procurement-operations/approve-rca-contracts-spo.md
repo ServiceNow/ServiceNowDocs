@@ -2,6 +2,7 @@
 title: RCA approvals for Now Assist in Contract Management
 description: Approve restricted caller access \(RCA\) privileges to allow cross-scope access to Now Assist in Contract Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/approve-rca-contracts-spo.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -27,12 +28,12 @@ Role required: admin
 
 3.  Select and open the record highlighted in the image.
 
-    ![RCA approvals for Now Assist in Contract Management.](../image/spo-cmpro-rcas.png)
+    \[Omitted image "spo-cmpro-rcas.png"\] Alt text: RCA approvals for Now Assist in Contract Management.
 
 4.  Set the **Status** field to **Allowed**.
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Analyze a contract document from Source-to-Pay Workspace](analyze-contract-spo.md)
+**Parent Topic:**[Analyze a contract document from Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/analyze-contract-spo.md)
 

@@ -2,6 +2,7 @@
 title: Third‑party registration for PIF and PFTF integrations
 description: Third‑party registration enables you to configure supplier integrations for Source-to-Pay Integration Framework \(PIF\) and Procurement File Transfer Framework \(PFTF\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/third-party-registration-for-pif-pftf.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -29,5 +30,5 @@ Navigate to **All** &gt; **Procurement Integrations** &gt; **Setup** &gt; **Thir
 |Import shipment|Supplier is allowed to import shipments.|
 |Allow multi location order|Supplier allows orders to be split for multi-location shipping.|
 
-**Parent Topic:**[Procurement File Transfer Framework](../concept/procurement-file-transfer-framework.md)
+**Parent Topic:**[Procurement File Transfer Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/procurement-file-transfer-framework.md)
 

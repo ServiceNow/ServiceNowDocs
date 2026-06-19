@@ -2,6 +2,7 @@
 title: Guided Tours - Client
 description: The Guided Tours API provides methods for launching and stopping guided tours.Sets a function to retrieve filtered tour results when the getAllTours\(\) method is called.Stops a currently playing tour. This method silently exits if no tours are playing.Removes an existing event listener.Attaches an event listener to a guided tour event.Gets a list of tours on the current page from which this method is called. Because this method is asynchronous, a callback function must be passed to determine operation success and get a list of tours.Loads the guided tours player on a page in which guided tours player is not present by default.Starts a tour. Because this method is asynchronous, you must pass a callback function to determine operation success.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/guided\_toursAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Client API reference, API reference, API implementation and referen
 
 The Guided Tours API provides methods for launching and stopping guided tours.
 
-This API includes methods used in [Guided Tour Designer](../../../../../integrate/inbound-rest/reference/r_RESTAPIHTTPResponseCodes.md).
+This API includes methods used in [Guided Tour Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/r_RESTAPIHTTPResponseCodes.md).
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## Guided Tours - applyListFilter\(Function filter\_func\)
 

@@ -2,6 +2,7 @@
 title: Formulas for column values in Table Builder
 description: You can use a predefined function and create a formula to calculate the value of a column without writing a script. Use a predefined function or create a nested formula by using the existing predefined functions to calculate the column value type.Use simple math functions to perform basic mathematical calculations on numeric value columns.Use string functions to reformat or perform calculations on string column values.Use date and time functions to calculate or reformat the date and time column values.Use logical functions to perform logical operations on column values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/formulas-columns-table-builder.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -26,7 +27,7 @@ The following comparison operators are supported only for number type values.
 -   &gt;= \(Greater than or equal to\)
 -   &lt;= \(Less than or equal to\)
 
-**Parent Topic:**[Field configuration in Table Builder](field-parameters.md)
+**Parent Topic:**[Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/field-parameters.md)
 
 ## Simple math functions
 

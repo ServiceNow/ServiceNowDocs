@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP debug logs field descriptions
 description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) debug logs contain information about probe payloads, payload responses, and status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-debug-logs-columns.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,7 +17,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Cop
 
 The Zero Copy Connector for ERP \(Enterprise Resource Planning\) debug logs contain information about probe payloads, payload responses, and status.
 
-For process details, see [Debug Zero Copy Connector for ERP models](../task/debug-zero-copy-connector-for-erp-models.md).
+For process details, see [Debug Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/debug-zero-copy-connector-for-erp-models.md).
 
 |Field|Description|
 |-----|-----------|
@@ -28,5 +29,5 @@ For process details, see [Debug Zero Copy Connector for ERP models](../task/debu
 |Status|Value that indicates if the call was successful.|
 |Transaction Id|Unique number that identifies each request and response exchange.|
 
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

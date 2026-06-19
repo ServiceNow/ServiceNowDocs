@@ -2,6 +2,7 @@
 title: View or edit scheduled and completed Rightsizing jobs
 description: View and manage the upcoming and completed Rightsizing jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/view-rs-scheduled-jobs.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -103,5 +104,5 @@ Time that the job ran or will run.You can edit the date.
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Resize resources with Rightsizing](../concept/resize-res-ci.md)
+**Parent Topic:**[Resize resources with Rightsizing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/resize-res-ci.md)
 

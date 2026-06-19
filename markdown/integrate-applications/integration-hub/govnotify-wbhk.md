@@ -2,6 +2,7 @@
 title: Set up the webhook for the GovNotify spoke
 description: Configure a webhook to subscribe to GovNotify with a ServiceNow callback URL.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/govnotify-wbhk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Configure a webhook to subscribe to GovNotify with a ServiceNow callback URL.
 
 ## Before you begin
 
--   [Set up the GovNotify spoke](govnotify-setup.md)
+-   [Set up the GovNotify spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/govnotify-setup.md)
 -   Role required: admin
 
 ## Procedure
@@ -36,7 +37,7 @@ Configure a webhook to subscribe to GovNotify with a ServiceNow callback URL.
 
     2.  Navigate to **API integration** and click **Callbacks**.
 
-        ![Callback URL.](../image/govnotify-callback.png)
+        \[Omitted image "govnotify-callback.png"\] Alt text: Callback URL.
 
     3.  On the form, enter these values.
 

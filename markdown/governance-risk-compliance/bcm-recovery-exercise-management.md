@@ -2,6 +2,7 @@
 title: Structured workflows for Exercise and Crisis Management
 description: Business Continuity is an ongoing set of activities aimed at reducing the risk of an organization and improving its ability to respond to and recover from disruptions. To this effect, recovery and exercise management helps in continuous testing and improving of your continuity plans, and minimize business disruptions when a crisis strikes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/bcm-recovery-exercise-management.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,6 +2,7 @@
 title: Set up the Successful VPN Attempts from the Service Accounts playbook
 description: Use the following steps to set up the Successful VPN Attempts from the Service Accounts playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-successful-vpn-attempts.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,9 +33,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  Create a copy of the Successful VPN Attempts from the Service Accounts playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, select the ![More actions menu](../image/more-action-menu.png) icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
-
-    ![Overview of the Successful VPN Attempts from Service Accounts - Corp/Cloud playbook.](../image/playbook-successful-vpn-attempts-overview.png "Successful VPN Attempts from the Service Accounts - Corp/Cloud playbook")
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
 4.  Activate the playbooks.
 
@@ -46,8 +45,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     This playbook is triggered and associated with the security incident when the security incident is created or updated based on your required conditions. For example, when **Category** is **Insider Breach**.
 
-    ![Trigger condition for Successful VPN Attempts from the Service Accounts - Corp/Cloud playbook.](../image/playbook-successful-vpn-attempts-trigger.png "Successful VPN Attempts from the Service Accounts - Corp/Cloud playbook trigger condition")
 
-
-**Parent Topic:**[Playbook for Successful VPN Attempts from the Service Accounts - Corp/Cloud](../concept/playbook-successful-vpn-attempts.md)
+**Parent Topic:**[Playbook for Successful VPN Attempts from the Service Accounts - Corp/Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-successful-vpn-attempts.md)
 

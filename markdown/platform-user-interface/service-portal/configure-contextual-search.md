@@ -2,6 +2,7 @@
 title: Configure Search Sources available on a page
 description: Use contextual search to limit search results for an instance of the type-ahead search widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/configure-contextual-search.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -18,7 +19,7 @@ Use contextual search to limit search results for an instance of the type-ahead 
 With contextual search enabled, users only see type-ahead results for specific search sources. For example, searching on the Service Catalog page only shows results from the Service Catalog search source when contextual search is enabled.
 
 1.  In the Service Portal Designer \(**Service Portal** &gt; **Service Portal Configuration** &gt; **Service Portal Designer**, find an instance of the type-ahead search widget.
-2.  Point to the widget and click the edit icon \(![Edit icon from a widget in the Service Portal Designer](../image/IconEditOption.png)\).
+2.  Point to the widget and click the edit icon \(\[Omitted image "IconEditOption.png"\] Alt text: Edit icon from a widget in the Service Portal Designer\).
 
     Alternatively, in any preview page containing the type-ahead search widget, for example the Service Catalog homepage, control + right-click to open the widget context menu. Then click **Instance Options**.
 
@@ -27,7 +28,7 @@ With contextual search enabled, users only see type-ahead results for specific s
     Search sources listed for contextual search can be limited to just one, several, or all search sources.
 
 
-Default search sources are defined in the **glide.service\_portal.default\_search\_sources** property, so even if you do not have search sources configured, type-ahead search widget still shows type-ahead suggestions. For more information on default search sources, see [Set the default portal search source](../task/default-search-sources.md).
+Default search sources are defined in the **glide.service\_portal.default\_search\_sources** property, so even if you do not have search sources configured, type-ahead search widget still shows type-ahead suggestions. For more information on default search sources, see [Set the default portal search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/default-search-sources.md).
 
-**Parent Topic:**[Zing search in Service Portal](zing-search-service-portal.md)
+**Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/zing-search-service-portal.md)
 

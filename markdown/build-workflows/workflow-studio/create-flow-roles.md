@@ -2,6 +2,7 @@
 title: Create a flow with roles
 description: Create a flow or subflow that runs with assigned roles. Assigning roles enables you to create a user-initiated flow that runs with its own roles rather than the user's roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-flow-roles.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ Role required: flow\_designer or admin
 
 ## About this task
 
-Create a user-initiated flow that runs with its own roles and not the roles of the user. For more information about assigning roles to a flow, go to [Flow roles](../concept/flow-roles.md). For example, allow a flow to run with the itil role so that it can access data belonging to IT Service Management applications such as incidents and problems.
+Create a user-initiated flow that runs with its own roles and not the roles of the user. For more information about assigning roles to a flow, go to [Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-roles.md). For example, allow a flow to run with the itil role so that it can access data belonging to IT Service Management applications such as incidents and problems.
 
 ## Procedure
 
@@ -31,7 +32,7 @@ Create a user-initiated flow that runs with its own roles and not the roles of t
 
 3.  On the Flow Properties form, define the Name, Application, and Description for the flow.
 
-    For more information, see [Create a flow in Workflow Studio](create-flow.md).
+    For more information, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md).
 
 4.  Expand the **Additional properties** section.
 
@@ -41,7 +42,7 @@ Create a user-initiated flow that runs with its own roles and not the roles of t
 
 6.  In the **Run with roles** field, select one or more roles that you want the flow to use while it runs.
 
-    ![Run with roles property using the itil role.](../images/example-flow-properties-run-with-roles.png)
+    \[Omitted image "example-flow-properties-run-with-roles.png"\] Alt text: Run with roles property using the itil role.
 
     The roles you select replace any roles that the user normally has. If you don't select any roles, then the flow runs with the roles normally associated with the user.
 
@@ -54,9 +55,9 @@ Create a user-initiated flow that runs with its own roles and not the roles of t
 
 ## What to do next
 
-![Sample flow execution details of a flow that ran with the itil role.](../images/example-flow-execution-details-run-with-roles.png)
+\[Omitted image "example-flow-execution-details-run-with-roles.png"\] Alt text: Sample flow execution details of a flow that ran with the itil role.
 
 Continue to build and test your flow until you're ready to activate it. You can modify your flow's roles at any time by updating the Flow Properties form.
 
-**Parent Topic:**[Create a flow in Workflow Studio](create-flow.md)
+**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow.md)
 

@@ -2,6 +2,7 @@
 title: Create or manage risks on a processing activity
 description: Add new risks or manage the risks that are automatically added to the processing activity from the assessment responses. Adding risks helps you manage processing activities using the risk-based approach.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/create-or-manage-risks-on-a-pa.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -38,23 +39,23 @@ You can add or manage risks to a processing activity in the following ways:
 
 4.  To add a risk to the processing activity, do one of the following.
 
-<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d315414e107">
+<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d42665e107">
 
 Option
 
-</th><th align="left" id="d315414e110">
+</th><th align="left" id="d42665e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d315414e116">
+</th></tr></thead><tbody><tr><td id="d42665e116">
 
 **To create a risk**
 
 </td><td>
 
-Click **New** and fill in the form.For details see, [Create a risk](../../grc-risk/task/t_CreateRisk.md).
+Click **New** and fill in the form.For details see, [Create a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/t_CreateRisk.md).
 
-</td></tr><tr><td id="d315414e138">
+</td></tr><tr><td id="d42665e138">
 
 **To add a risk by using the existing risk statement**
 
@@ -65,7 +66,7 @@ Click **New** and fill in the form.For details see, [Create a risk](../../grc-ri
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d315414e165">
+</td></tr><tr><td id="d42665e165">
 
 **To select a risk from the list of recommended risks**
 
@@ -81,5 +82,5 @@ Click **New** and fill in the form.For details see, [Create a risk](../../grc-ri
 
 The mitigating controls are added to the processing activity.
 
-**Parent Topic:**[Using Privacy Management](../concept/using-privacy-mgmt.md)
+**Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

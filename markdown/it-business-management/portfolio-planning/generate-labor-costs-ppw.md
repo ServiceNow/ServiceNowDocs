@@ -2,6 +2,7 @@
 title: Generate labor costs
 description: Generate labor costs to view the expenses of resources using resource assignments and cost plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/generate-labor-costs-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,10 +30,10 @@ Role required: admin
 
 4.  On the Scheduled Script Execution form, fill the fields.
 
-    For a description of the field names, see [Scheduled Script Execution Form](../../project-management/reference/scheduled-script-execution-form.md).
+    For a description of the field names, see [Scheduled Script Execution Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/scheduled-script-execution-form.md).
 
 5.  Select **Update**.
 
-    **Tip:** Alternatively, as an admin, you can activate and define a scheduled job to generate labor costs at the required frequency. For more information, see [Activate a scheduled job to generate labor costs](../../project-management/task/gen-labor-costs-scheduled-job-ppm.md#).
+    **Tip:** Alternatively, as an admin, you can activate and define a scheduled job to generate labor costs at the required frequency. For more information, see [Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-management/gen-labor-costs-scheduled-job-ppm.md).
 
 

@@ -2,6 +2,7 @@
 title: Create a bot in Microsoft Teams for GCC-H or DoD
 description: Create a self-configured bot with Microsoft Teams for GCC-H or DoD customers to be able to integrate with the Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-msteams-bot-gcch.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,19 +25,19 @@ Role required: none
 
 1.  Log in to [Azure portal home page](http://portal.azure.us) and search for `Bot Services` on the top search bar.
 
-    ![Microsoft Azure portal, with Bot Services feature highlighted.](../images/azure-bot-services.png)
+    \[Omitted image "azure-bot-services.png"\] Alt text: Microsoft Azure portal, with Bot Services feature highlighted.
 
 2.  On the Bot services page, select **Create** and select **Azure Bot**.
 
-    ![Microsoft Azure Applied AI Services portal with Create button highlighted, and Bot Service portal with Azure Bot service highlighted.](../images/select-azure-bot.png)
+    \[Omitted image "select-azure-bot.png"\] Alt text: Microsoft Azure Applied AI Services portal with Create button highlighted, and Bot Service portal with Azure Bot service highlighted.
 
 3.  On the Azure Bot page, select **Create** next to the Plan menu.
 
-    ![Microsoft Azure Bot portal, showing Azure Bot plan selected from menu.](../images/create-azure-bot.png)
+    \[Omitted image "create-azure-bot.png"\] Alt text: Microsoft Azure Bot portal, showing Azure Bot plan selected from menu.
 
 4.  On the form, fill in the **Bot Handle**, **Subscription**, **Resource group**, **New resource group location**, and **Pricing** details.
 
-    ![Create an Azure bot form. Azure Government Enterprise subscription option, Multi Tenant type of app option, and Create new Microsoft App ID radio button are selected.](../images/create-bot.png)
+    \[Omitted image "create-bot.png"\] Alt text: Create an Azure bot form. Azure Government Enterprise subscription option, Multi Tenant type of app option, and Create new Microsoft App ID radio button are selected.
 
 5.  Under **Microsoft App ID**, select the type of application from the Type of App list.
 
@@ -54,7 +55,7 @@ Role required: none
 
 9.  On the left navigation, select **Channels** and select the Microsoft Teams icon under **Add a featured channel**.
 
-    ![MS Teams Channels tab view, with Channels tab and Configure Microsoft Teams channel highlighted.](../images/msteams-channel.png)
+    \[Omitted image "msteams-channel.png"\] Alt text: MS Teams Channels tab view, with Channels tab and Configure Microsoft Teams channel highlighted.
 
 10. On the Terms of Service pop-up, select **Save** and select **Agree**.
 
@@ -62,7 +63,7 @@ Role required: none
 
 11. On the left navigation, select **Configuration**, complete the configuration form, and select **Apply**.
 
-    ![Microsoft Azure bot configuration form, with Configuration tab leading to form highlighted.](../images/bot-configuration.png)
+    \[Omitted image "bot-configuration.png"\] Alt text: Microsoft Azure bot configuration form, with Configuration tab leading to form highlighted.
 
     **Note:** In the **Messaging endpoint** field, provide the instance URL address.
 
@@ -89,5 +90,5 @@ Role required: none
         **Note:** The secret value code is visible only once.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](../concept/va-integ-msteams-gcch.md)
+**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md)
 

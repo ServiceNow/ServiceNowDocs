@@ -2,6 +2,7 @@
 title: Create a custom file rule to manually define file sets
 description: Create custom rules to manually define file sets and normalize data not recognized by the SAM API. After you have created custom rules, custom file sets can be discovered with File Signature Normalization and software records can be generated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/create-custom-file-rule.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -125,5 +126,5 @@ Version of file name file.
 
 The custom rule is added to the Unidentified File Sets list.
 
-**Parent Topic:**[Software Asset Management administration](../concept/c_SAMAdministration.md)
+**Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

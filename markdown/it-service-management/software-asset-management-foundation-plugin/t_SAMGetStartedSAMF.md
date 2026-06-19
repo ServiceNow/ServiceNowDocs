@@ -2,11 +2,12 @@
 title: Get started with Software Asset Management Foundation plugin
 description: Get started with Software Asset Management Foundation plugin to optimize management of software installations in your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management-foundation-plugin/t\_SAMGetStartedSAMF.html
 release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Setting up Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: sam\_admin
 
 ## About this task
 
-After you have [Setting up Software Asset Management Foundation plugin](t_SAMSetupSAMF.md), get started by completing these steps for basic configuration.
+After you have [Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md), get started by completing these steps for basic configuration.
 
 ## Procedure
 
@@ -38,5 +39,5 @@ After you have [Setting up Software Asset Management Foundation plugin](t_SAMSet
 
 Depending on the compliance status of your software installations, you can choose to optimize your environment further.
 
-**Parent Topic:**[Setting up Software Asset Management Foundation plugin](t_SAMSetupSAMF.md)
+**Parent Topic:**[Setting up Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)
 

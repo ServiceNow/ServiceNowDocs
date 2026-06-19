@@ -2,6 +2,7 @@
 title: Cyber Risk Institute accelerator
 description: The Cyber Risk Institute \(CRI\) is focused to collaborate with the financial sectors and regulators to streamline standardization across risk management. For better cyber compliance management, CRI provides a CRI Profile with the financial sector consensus.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/cyber-risk-inst-accelerator.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -25,8 +26,8 @@ As part of the Cyber Risk Institute's \(CRI\) Accelerator, you can:
 
 For more information, see:
 
--   [Perform CRI tiering questionnaire to determine the tier value of entity](../../grc-workspace-compliance/task/perform-cri-tier-pc-ws.md).
--   [Verify the NIST CSF Use Case Accelerator](../../grc-nist-csf/task/verify-nist-csf.md).
+-   [Perform CRI tiering questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-compliance-management-workspace/perform-cri-tier-pc-ws.md).
+-   [Verify the NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/verify-nist-csf.md).
 
-**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](../../grc-common/reference/grc-use-case-accelerators.md)
+**Parent Topic:**[Governance, Risk, and Compliance use case accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-use-case-accelerators.md)
 

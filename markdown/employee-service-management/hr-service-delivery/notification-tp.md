@@ -2,6 +2,7 @@
 title: Email notification for Talent pools
 description: Notification emails are sent to the recruiters who have Talent pools shared or collaborated with by the owner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/notification-tp.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,5 +20,5 @@ Receive a notification when you’re added as a collaborator in a Talent pool by
 
 Receive a notification when a Talent pool is shared with you to view the details by the owner.
 
-**Parent Topic:**[Using Talent profile](config-t-pool.md)
+**Parent Topic:**[Using Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/config-t-pool.md)
 

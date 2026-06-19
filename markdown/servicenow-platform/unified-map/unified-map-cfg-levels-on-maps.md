@@ -2,6 +2,7 @@
 title: Configure the default or maximum number of levels on maps
 description: Configure the default or maximum number of levels on maps. These are general settings that only sn\_cmdb\_admin can configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-cfg-levels-on-maps.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -25,7 +26,7 @@ Role required: sn\_cmdb\_admin
 
 Admins can set default and maximum levels using the **unifiedmap.map\_search\_filter.default\_levels** or **unifiedmap.map\_search\_filter.max\_levels** property in the workspace-specific \[sn\_cmdb\_ws\_config\_property\] table.
 
-These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings do not affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
+These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings don't affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
 
 ## Procedure
 
@@ -80,8 +81,8 @@ The top-level **UX Application ID** to which this configuration applies. This is
 </td></tr></tbody>
 </table>4.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](../concept/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — admin settings](../concept/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
 

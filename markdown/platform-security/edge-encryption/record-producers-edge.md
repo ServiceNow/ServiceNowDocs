@@ -2,6 +2,7 @@
 title: Encrypt data from a record producer
 description: Configure your Edge Encryption proxy server to allow inserts from a record producer by creating encryption rules from the record producer record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/record-producers-edge.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -21,7 +22,7 @@ Role required: security\_admin
 
 Record producers allow end users to create task-based records, such as incident records, from the Service Catalog and Service Portal. If a record producer attempts to insert data into a field marked for encryption, an invalid insert message displays and the data is not saved to the field.
 
-Encrypting data from a record producer requires an encryption configuration defined for the target field. Check that you have created an encryption configuration for the target field and table before creating an encryption rule from a record producer. See [Create a field encryption configuration](../concept/c_ConfigureCloudEdge.md#). To encrypt attachments from a record producer, [Configure attachment encryption](../concept/c_EncryptingAttachments.md#).
+Encrypting data from a record producer requires an encryption configuration defined for the target field. Check that you have created an encryption configuration for the target field and table before creating an encryption rule from a record producer. See [Create a field encryption configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_ConfigureCloudEdge.md). To encrypt attachments from a record producer, [Configure attachment encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/c_EncryptingAttachments.md).
 
 ## Procedure
 
@@ -29,7 +30,7 @@ Encrypting data from a record producer requires an encryption configuration defi
 
 2.  Navigate to **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-3.  [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_DefRecProdInSCat.md) record or open an existing record producer record.
+3.  Create a record producer record or open an existing record producer record.
 
 4.  Under **Related Links**, select **Create Edge Encryption Rule**.
 
@@ -54,11 +55,11 @@ Encrypting data from a record producer requires an encryption configuration defi
 
     The below encryption rule was created from the Report Outage record producer and processes POST parameters from the Service Catalog to map variables to fields in the instance. Replace `'FILL ME IN'` with the target field.
 
-    ![Edge Encryption Rule: Report Outage](../images/report-outage.png)
+    \[Omitted image "report-outage.png"\] Alt text: Edge Encryption Rule: Report Outage
 
     The below encryption rule was created from the Report Outage record producer and processes a JSON payload from the Service Portal to map variables to fields in the instance. Add additional statements to map any scripted variables to the target fields.
 
-    ![Edge Encryption Rule: ReportOutageJson](../images/report-outage-json.png)
+    \[Omitted image "report-outage-json.png"\] Alt text: Edge Encryption Rule: ReportOutageJson
 
     When the payload from the record producer is examined, the error\_message element contains the value for the short\_description field. By adding the following statement, you can map the scripted variable error\_message to the short\_description field.
 
@@ -93,5 +94,5 @@ Encrypting data from a record producer requires an encryption configuration defi
 
 The two encryption rules enable the record producer to insert values into fields marked for encryption from either the Service Catalog or Service Portal.
 
-**Parent Topic:**[Configuring Edge Encryption](../concept/edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md)
 

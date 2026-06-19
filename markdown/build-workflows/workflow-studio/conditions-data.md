@@ -2,6 +2,7 @@
 title: Conditions data type
 description: Store a set of conditions for a specific type of record. You must select a source table to define the conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/conditions-data.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -31,5 +32,5 @@ Store a set of conditions for a specific type of record. You must select a sourc
 |Hint|Provides guidance to flow or action designers on how to configure the data.|
 |Default value|Specifies the value used when a flow or action designer does not provide a value.|
 
-**Parent Topic:**[Workflow Studio input and output data variables](action-inputs-outputs.md)
+**Parent Topic:**[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-inputs-outputs.md)
 

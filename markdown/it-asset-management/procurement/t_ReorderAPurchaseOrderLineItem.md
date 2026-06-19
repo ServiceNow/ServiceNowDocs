@@ -2,6 +2,7 @@
 title: Reorder a purchase order line item
 description: You can reorder a purchase order line item that was canceled.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/t\_ReorderAPurchaseOrderLineItem.html
 release: australia
 product: Procurement
 classification: procurement
@@ -32,5 +33,5 @@ Role required: procurement\_admin or procurement\_user
     The purchase order line item **Status** field changes based on the **Status** field of the associated purchase order. For example, if the purchase order has a status of **Pending Delivery**, the purchase order line item status changes to **Pending Delivery** and the assets for the purchase order line item are created automatically.
 
 
-**Parent Topic:**[Create a purchase order](t_CreateAPurchaseOrder.md)
+**Parent Topic:**[Create a purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/procurement/t_CreateAPurchaseOrder.md)
 

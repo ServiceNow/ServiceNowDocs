@@ -2,6 +2,7 @@
 title: Using DevOps Config
 description: The developer, or app engineer, role uses DevOps Config, once it's installed and set up by the DevOps engineer role, to validate and correct config data \(that they commit\) before it gets deployed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-using.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,9 +16,9 @@ breadcrumb: [DevOps Config, IT Service Management]
 
 The developer, or app engineer, role uses DevOps Config, once it's installed and set up by the DevOps engineer role, to validate and correct config data \(that they commit\) before it gets deployed.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-![DevOps Config use flow](../image/devops-config-use.png)
+\[Omitted image "devops-config-use.png"\] Alt text: DevOps Config use flow
 
 Consumption process:
 

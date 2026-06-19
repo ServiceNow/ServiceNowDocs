@@ -2,6 +2,7 @@
 title: ERP source
 description: An ERP Source \[sn\_fin\_erp\_source\] table is available in Source-to-Pay \(S2P\) as part of the Finance Common Architecture application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/erp-source.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

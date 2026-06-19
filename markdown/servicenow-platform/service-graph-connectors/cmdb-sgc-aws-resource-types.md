@@ -2,6 +2,7 @@
 title: Supported AWS resource types
 description: Several AWS resource types are imported as CMDB data by the Service Graph Connector for AWS.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-sgc-aws-resource-types.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -851,5 +852,5 @@ IAM group for AWS account
 AWS::IAM::Group
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for AWS reference](../concept/sgc-cmdb-aws-reference.md)
+</table>**Parent Topic:**[Service Graph Connector for AWS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-aws-reference.md)
 

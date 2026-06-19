@@ -2,11 +2,12 @@
 title: Integrated development tools for AES
 description: App Engine Studio \(AES\) provides instant access to several tools available in the ServiceNow AI Platform development suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/aes-integration-with-development-tools.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-02"
 reading_time_minutes: 4
 breadcrumb: [Explore, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
@@ -31,7 +32,7 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-[Access Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_SNCAccessControl.md)
+Access Control
 
 </td><td>
 
@@ -39,11 +40,11 @@ Work with access control and roles for the application.
 
 </td><td>
 
-See [Add application security](add-security.md).
+See [Add application security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-security.md).
 
 </td></tr><tr><td>
 
-[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/catalog-builder.md)
+Catalog Builder
 
 </td><td>
 
@@ -51,11 +52,11 @@ Add record producer catalog items in a guided tool for building a Service Catalo
 
 </td><td>
 
-See [Add a standard catalog item](../task/add-standard-catalog-item.md).
+See [Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-standard-catalog-item.md).
 
 </td></tr><tr><td>
 
-[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/decision-designer-overview.md)
+Decision tables in Workflow Studio
 
 </td><td>
 
@@ -63,11 +64,11 @@ Add decision rules to decouple decision logic from code using decision tables.
 
 </td><td>
 
-See [Add a decision](../task/add-decision.md).
+See [Add a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-decision.md).
 
 </td></tr><tr><td>
 
-[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md)
+Email notifications
 
 </td><td>
 
@@ -75,11 +76,11 @@ Create and edit email notifications that are automatically sent when a record is
 
 </td><td>
 
-See [Add an email notification](../task/add-notification.md).
+See [Add an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-notification.md).
 
 </td></tr><tr><td>
 
-[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md)
+
 
 </td><td>
 
@@ -87,23 +88,11 @@ Build an ERP \(Enterprise Resource Planning\) data model and extract data from y
 
 </td><td>
 
-See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md).
+See .
 
 </td></tr><tr><td>
 
-[ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-overview.md)
-
-</td><td>
-
-Identify all of the customizations in your ERP system.
-
-</td><td>
-
-See [ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-overview.md).
-
-</td></tr><tr><td>
-
-[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/exploring-flows.md)
+Flows in Workflow Studio
 
 </td><td>
 
@@ -111,11 +100,11 @@ Add flows to automate application processes.
 
 </td><td>
 
-See [Add a flow from scratch](../task/create-scratch-flow.md).
+See [Add a flow from scratch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-scratch-flow.md).
 
 </td></tr><tr><td>
 
-[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub-imports.md)
+Integration Hub - Import
 
 </td><td>
 
@@ -123,11 +112,11 @@ Import and map data into existing tables.
 
 </td><td>
 
-See [Create a data integration](../task/import-map-data-existing-table.md).
+See [Create a data integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/import-map-data-existing-table.md).
 
 </td></tr><tr><td>
 
-[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md)
+Mobile App Builder
 
 </td><td>
 
@@ -135,11 +124,11 @@ Add mobile experiences.
 
 </td><td>
 
-See [Add a mobile experience](../task/add-mobile.md).
+See [Add a mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-mobile.md).
 
 </td></tr><tr><td>
 
-[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/process-automation-designer.md)
+Process Automation Designer
 
 </td><td>
 
@@ -147,11 +136,11 @@ Edit cross-functional processes and consolidate them into automated task-oriente
 
 </td><td>
 
-See [Edit a process](../task/edit-process.md).
+See [Edit a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-process.md).
 
 </td></tr><tr><td>
 
-[Table Builder](edit-data.md)
+[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/edit-data.md)
 
 </td><td>
 
@@ -159,11 +148,11 @@ Work with data models in a tabular format. Table Builder is exclusive to App Eng
 
 </td><td>
 
-See [Create a blank table](../task/use-existing-table.md).
+See [Create a blank table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/use-existing-table.md).
 
 </td></tr><tr><td>
 
-[UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md)
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md)
 
 </td><td>
 
@@ -171,11 +160,11 @@ Edit workspace and portal experiences using a highly configurable UI development
 
 </td><td>
 
-See [Add a workspace](../task/add-workspace.md) and [Add a portal](../task/add-portal.md).
+See [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-workspace.md) and [Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-portal.md).
 
 </td></tr><tr><td>
 
-[Workspace Builder](../../workspace-builder/concept/using-workspace-builder.md)
+[Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/using-workspace-builder.md)
 
 </td><td>
 
@@ -183,13 +172,13 @@ Quickly build custom workspaces to give users a service desk-like experience to 
 
 </td><td>
 
-See the following topics:-   [Using Workspace Builder](../../workspace-builder/concept/using-workspace-builder.md)
--   [Edit a workspace in Workspace Builder](../task/configure-workspace-builder.md)
--   [Configure workspace settings in Workspace Builder](../task/configure-workspace-settings.md)
--   [Customize a workspace home page in Workspace Builder](../task/edit-workspace-home-page.md)
--   [Add a record page for a workspace in Workspace Builder](../task/configure-record-page-workspace.md)
--   [Create lists for a workspace in Workspace Builder](../task/add-workspace-list.md)
--   [Enable analytics for a workspace in Workspace Builder](../task/configure-analytics-workspace.md)
+See the following topics:-   [Using Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/using-workspace-builder.md)
+-   [Edit a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-workspace-builder.md)
+-   [Configure workspace settings in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-workspace-settings.md)
+-   [Customize a workspace home page in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/edit-workspace-home-page.md)
+-   [Add a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-record-page-workspace.md)
+-   [Create lists for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/add-workspace-list.md)
+-   [Enable analytics for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/workspace-builder/configure-analytics-workspace.md)
 
 </td></tr></tbody>
 </table>

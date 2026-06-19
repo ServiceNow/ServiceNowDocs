@@ -2,6 +2,7 @@
 title: Custom \(Load by Script\) type data source
 description: Use a custom script to store any type of incoming data in the import set table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/custom-type-data-source.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -19,7 +20,7 @@ When you select a **Type** of **Custom \(Load by Script\)** for your data source
 
 The **Data Loader** script loads the data. You can also **Enable parallel loading** to use a script to partition the data into smaller sections, then load them in parallel. Parallel loading can enable your integrations to finish in less time and create less of an impact on other tasks. Parallel jobs are usually processed immediately. If you need to delay a job, you can configure a delay in the Data Loader script.
 
-**Note:** With parallel loading, you must be running a concurrent import and the **Partition Method** for the import must be set to **Custom size**. For more information see, [Schedule a data import](../task/t_ScheduleADataImport.md).
+**Note:** With parallel loading, you must be running a concurrent import and the **Partition Method** for the import must be set to **Custom size**. For more information see, [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md).
 
 ## Data Loader script
 
@@ -41,7 +42,7 @@ The import\_set\_table parameter has the following methods:
 
 ## Data Loader example
 
-![Data Loader example showing a script that inserts data into the import set table.](../image/custom-data-source.png)
+\[Omitted image "custom-data-source.png"\] Alt text: Data Loader example showing a script that inserts data into the import set table.
 
 ## Parallel loading script
 
@@ -58,7 +59,7 @@ The parallel\_job\_loader parameter has the `add(partitionInfo)` method, which a
 
 In this example, the parallel loading script partitions the data into smaller sections to be loaded in parallel. The Data Loader script loads the data into the import set table and adds a new partition to process data after a 120-second delay.
 
-![Parallel loading script example.](../image/parallel-loading-script.png)
+\[Omitted image "parallel-loading-script.png"\] Alt text: Parallel loading script example.
 
 ## Parallel loading delays, status, and properties
 
@@ -80,5 +81,5 @@ If a parallel job can't complete after two tries, the job is set to **Error**. Y
 
 As you type the script, the script auto-complete displays the available options, as shown in this example.
 
-![Data Loader auto-complete](../image/data-loader-auto-complete.png)
+\[Omitted image "data-loader-auto-complete.png"\] Alt text: Data Loader auto-complete
 

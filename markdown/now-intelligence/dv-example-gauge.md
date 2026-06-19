@@ -2,6 +2,7 @@
 title: Gauge visualization example
 description: Like dials, gauges show where a single value lies across a range from minimum to maximum expected values. In addition to dial functionality, you can set colored data ranges to help users understand what the value represents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-gauge.html
 release: australia
 topic_type: task
 last_updated: "2026-03-24"
@@ -23,7 +24,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
 ## Procedure
 
-1.  Follow the first steps to [Create a gauge data visualization in the Visualization Designer](../../reporting/task/create-dv-gauge-ac.md):
+1.  Follow the first steps to [Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-gauge-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -45,7 +46,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
     5.  Select **Add this source**.
 
-    A gauge data visualization with the current value of the selected data appears in the Visualization Designer.![Untitled gauge visualization showing the Incident table as data source](../../reporting/image/dv-ex-gauge-data-source.png)
+    A gauge data visualization with the current value of the selected data appears in the Visualization Designer.\[Omitted image "dv-ex-gauge-data-source.png"\] Alt text: Untitled gauge visualization showing the Incident table as data source
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -85,7 +86,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
         |180 degree gauge|240 degree gauge|
         |----------------|----------------|
-        |![180 degree gauge example](../../reporting/image/dv-ex-gauge-180.png)|![240 degree gauge example](../../reporting/image/dv-ex-gauge-240.png)|
+        |\[Omitted image "dv-ex-gauge-180.png"\] Alt text: 180 degree gauge example|\[Omitted image "dv-ex-gauge-240.png"\] Alt text: 240 degree gauge example|
 
     2.  Change the value label size from the default M \(medium\) to L \(large\) to emphasize it.
 
@@ -115,7 +116,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
     5.  Select **Apply**.
 
-        ![Range configuration with labels and values](../../reporting/image/dv-ex-gauge-config-ranges.png)
+        \[Omitted image "dv-ex-gauge-config-ranges.png"\] Alt text: Range configuration with labels and values
 
 9.  Configure the **Labels** for the gauge.
 
@@ -138,5 +139,5 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
 You have created a gauge visualization based on a single metric, open incidents. You have also configured user options regarding filters and drill downs, and configured the visualization's size, labeling, and ranges.
 
-**Parent Topic:**[Create a gauge data visualization in the Visualization Designer](../../reporting/task/create-dv-gauge-ac.md)
+**Parent Topic:**[Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-gauge-ac.md)
 

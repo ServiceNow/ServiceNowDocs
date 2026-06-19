@@ -2,6 +2,7 @@
 title: Specify the maximum number of rows returned
 description: By default, ServiceNow only returns 100 rows of data with each iSQL query. If you need to return more rows of data, set the maxrows parameter for the iSQL session.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_MaxRowsReturned.html
 release: australia
 product: Web Services
 classification: web-services
@@ -29,7 +30,7 @@ maxrows 500
 
 **Note:** If running the Interactive SQL console from a shortcut, you must modify the shortcut **Target** to include the **-maxrows** parameter with the desired value.
 
-![iSQL shortcut properties](../image/isql_shortcut_maxrows.png)
+\[Omitted image "isql\_shortcut\_maxrows.png"\] Alt text: iSQL shortcut properties
 
-**Parent Topic:**[Use Interactive SQL with ODBC](../task/t_UsingInteractiveSQLWithODBC.md)
+**Parent Topic:**[Use Interactive SQL with ODBC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_UsingInteractiveSQLWithODBC.md)
 

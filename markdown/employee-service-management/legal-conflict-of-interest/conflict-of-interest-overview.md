@@ -2,11 +2,12 @@
 title: Exploring Legal Conflict of Interest
 description: Learn more about the Legal Conflict of Interest application through a sample workflow and review the benefits that it can provide.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [Conflict of interest, Conversational intake for COI, COI employee center, legal requests]
 breadcrumb: [Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
@@ -20,9 +21,9 @@ Learn more about the Legal Conflict of Interest application through a sample wor
 
 The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of Now Assist in Virtual Agent or intake form available in the Employee Center. The Requests are evaluated against predefined risk factors to calculate an overall risk score. Based on this score, requests are routed to the appropriate approval workflow for faster resolution.
 
-**Note:** The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application. For more information, see [Now Assist for Legal Service Delivery \(LSD\)](../../legal-request-management/concept/now-assist-lsd-landing.md).
+**Note:** The conversational intake functionality is available only when you have installed and configured Legal Service Delivery - Prime that is a paid application. For more information, see [Now Assist for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md).
 
-For more information on how to submit the requests using the two methods, see [Submit COI request form Employee Center](../task/submit-coi-disclosure-request.md) and [Submit COI request using Now Assist conversational intake](../../legal-request-management/task/now-assist-lsd-convi.md)
+For more information on how to submit the requests using the two methods, see [Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md) and [Submit COI request using Now Assist conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
 
 ## Risk assessment
 
@@ -44,7 +45,7 @@ The risk assessment process generates a report that provides legal fulfillers vi
 
 A notification is sent to the requesters before the expiry of the validity of their COI disclosure records. If the requesters need an extension, they should review and resubmit a request to get the legal clearance for the extended period.
 
-For more information, see [Configure risk assessment](../task/lsd-coi-config-risk-fac.md).
+For more information, see [Configure risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-config-risk-fac.md).
 
 ## Approval workflow
 
@@ -52,14 +53,14 @@ The approvers and the number of approval levels differ based on the conflict typ
 
 Following illustration shows the approvers and number of approval levels for each conflict type. For example, the Outside Employment conflict type has two approval levels. The first-level approver is the manager of the requester, and the second-level approver is the legal compliance group.
 
-![Conflict of Interest approval flow for different conflict types.](../image/lsd-approval-workflow.png "Conflict of Interest approval flow")
+\[Omitted image "lsd-approval-workflow.png"\] Alt text: Conflict of Interest approval flow for different conflict types.
 
 The administrator can modify the approval flow in the following ways:
 
 -   Change the number of levels of approval required.
 -   Add or modify approvers or approver groups at each level of approval.
 
-For more information, see [Configure flows for Legal Conflict of Interest](../task/configure-coi-flow-designer-flows.md).
+For more information, see [Configure flows for Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/configure-coi-flow-designer-flows.md).
 
 ## Legal Conflict of Interest users
 
@@ -99,7 +100,7 @@ Submit COI request using natural language from the conversational interface of N
 
 </td><td>
 
-[Submit COI request using Now Assist conversational intake](../../legal-request-management/task/now-assist-lsd-convi.md)
+[Submit COI request using Now Assist conversational intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-convi.md)
 
 </td><td>
 
@@ -111,7 +112,7 @@ Submit COI request from the Employee Center
 
 </td><td>
 
-[Submit COI request form Employee Center](../task/submit-coi-disclosure-request.md)
+[Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md)
 
 </td><td>
 
@@ -123,7 +124,7 @@ Risk assessment with configurable risk factors and score to automate approval wo
 
 </td><td>
 
-[Configure risk assessment](../task/lsd-coi-config-risk-fac.md)
+[Configure risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-config-risk-fac.md)
 
 </td><td>
 
@@ -135,7 +136,7 @@ Risk assessment reports with detailed scoring and analysis enable legal fulfille
 
 </td><td>
 
-[View risk assessment details](../task/lsd-coi-view-risk-asmt-dets.md)
+[View risk assessment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-view-risk-asmt-dets.md)
 
 </td><td>
 
@@ -147,7 +148,7 @@ Configurable approval flows in accordance with the organization's Conflict of In
 
 </td><td>
 
-[Configure flows for Legal Conflict of Interest](../task/configure-coi-flow-designer-flows.md)
+[Configure flows for Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/configure-coi-flow-designer-flows.md)
 
 </td><td>
 
@@ -158,7 +159,7 @@ Legal administrator
 
 To learn more about configuring and using Legal Conflict of Interest, see:
 
--   [Configure Legal Conflict of Interest](legal-coi-administration.md)
--   [Using Legal Conflict of Interest](lsd-coi-use-landing.md)
--   [Legal Conflict of Interest reference](../reference/legal-coi-reference.md)
+-   [Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
+-   [Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
+-   [Legal Conflict of Interest reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
 

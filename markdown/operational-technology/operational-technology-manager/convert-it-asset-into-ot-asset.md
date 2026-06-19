@@ -2,6 +2,7 @@
 title: Convert an IT hardware device to an OT device
 description: If you've identified IT hardware devices that belong to the OT network, you can convert these IT Configuration Items \(CI\) into OT devices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/convert-it-asset-into-ot-asset.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -46,7 +47,7 @@ This task is applicable to all IT hardware devices.
 
 The selected IT hardware device has been converted to an OT device.
 
-Alternatively, you can select multiple IT hardware devices and convert them into OT devices in a bulk edit. For more information, see [Convert IT hardware to OT devices in a bulk edit](bulk-edit-to-convert-it-records-into-ot-records.md).
+Alternatively, you can select multiple IT hardware devices and convert them into OT devices in a bulk edit. For more information, see [Convert IT hardware to OT devices in a bulk edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/bulk-edit-to-convert-it-records-into-ot-records.md).
 
-**Parent Topic:**[OT device related items and related lists](../reference/ot-assets-related-links-and-lists.md)
+**Parent Topic:**[OT device related items and related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/ot-assets-related-links-and-lists.md)
 

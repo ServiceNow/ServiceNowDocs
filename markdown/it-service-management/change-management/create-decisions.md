@@ -2,6 +2,7 @@
 title: Create Decision records
 description: Decision records contain the conditions that you can use to determine the change approval action. Create decisions using condition builder when creating change approval policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-decisions.html
 release: australia
 product: Change Management
 classification: change-management
@@ -27,11 +28,11 @@ You can create decisions to evaluate conditions that reference policy inputs and
 
 2.  Create a change approval policy or open an existing policy.
 
-    For more information, see [Create change approval policy](create-change-policy.md).
+    For more information, see [Create change approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-policy.md).
 
 3.  In the **Policy inputs** tab, create a policy input or update an existing record.
 
-    For more information, see [Create a decision](create-policy-input.md).
+    For more information, see [Create a decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-policy-input.md).
 
 4.  In the **Decisions** tab, open the default decision record.
 
@@ -48,5 +49,5 @@ You can create decisions to evaluate conditions that reference policy inputs and
 9.  Click **Submit**.
 
 
-**Parent Topic:**[Create change approval policies](create-change-policy.md)
+**Parent Topic:**[Create change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/create-change-policy.md)
 

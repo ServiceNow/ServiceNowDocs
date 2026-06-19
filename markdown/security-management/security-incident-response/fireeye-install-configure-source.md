@@ -2,11 +2,12 @@
 title: Install the application and configure a source for the integration
 description: Install and configure the application from ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/fireeye-install-configure-source.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [FireEye Endpoint Security integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -31,7 +32,7 @@ After you have successfully installed the application, follow the following step
 
 2.  Select the **Integration Configurations** module to display the available integrations, and locate the **FireEye** tile.
 
-    ![FireEye HX Integration tile highlighted](../image/fireeye-tile.png)
+    \[Omitted image "fireeye-tile.png"\] Alt text: FireEye HX Integration tile highlighted
 
 3.  Select **Configure** on the FireEye tile.
 

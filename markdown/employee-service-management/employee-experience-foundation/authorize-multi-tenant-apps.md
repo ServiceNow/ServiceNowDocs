@@ -2,6 +2,7 @@
 title: Authorize pre-published Azure apps to grant required permissions
 description: Authorize the pre-published apps to enable ServiceNow to make API calls to Microsoft to enable each of the ServiceNow for Teams application workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -27,7 +28,7 @@ To connect your ServiceNow instance to your M365 tenant and to Authorize apps, t
 
 1.  Navigate to **All** &gt; **ServiceNow for Microsoft 365** &gt; **Install Azure apps**.
 
-    ![Install apps on ServiceNow instance.](../image/notify-ms-teams-app-02.png)
+    \[Omitted image "notify-ms-teams-app-02.png"\] Alt text: Install apps on ServiceNow instance.
 
 2.  Click **Authorize** for Notify Connector.
 
@@ -35,12 +36,12 @@ To connect your ServiceNow instance to your M365 tenant and to Authorize apps, t
 
     **Note:** Additional permissions such as 'Manage Teams apps for all chats' and 'Allow the Teams app to manage all tabs for all chats' are required to create an app for meeting extensibility, and to create a new tab for a major incident meeting from the major incident workbench in Microsoft Teams.
 
-    ![Admin consent for the app.](../image/notify_connector_admin_consent.png)
+    \[Omitted image "notify\_connector\_admin\_consent.png"\] Alt text: Admin consent for the app.
 
     Upon successful authorization, the app is shown as **Installed**.
 
-    ![Notify connector app is installed.](../image/notify-app-installed-02.png)
+    \[Omitted image "notify-app-installed-02.png"\] Alt text: Notify connector app is installed.
 
 
-**Parent Topic:**[Integrate Notify connector pre-published app with Microsoft Teams](../concept/setup-notify-ms-teams-multi-tenant.md)
+**Parent Topic:**[Integrate Notify connector pre-published app with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-notify-ms-teams-multi-tenant.md)
 

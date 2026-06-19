@@ -2,6 +2,7 @@
 title: Use cases in Now Assist in Document Intelligence
 description: In Now Assist in Document Intelligence, a use case is used to define the information you want generative AI to detect from a document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-in-document-intelligence/use-cases-now-assist-document-intelligence.html
 release: australia
 product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
@@ -37,13 +38,13 @@ Now Assist in Document Intelligence uses fields to identify the specific informa
 
 ## Use case setup
 
-Use the Now Assist Features interface to set up use cases for Now Assist in Document Intelligence skills. Use cases for the Document Intelligence application have a separate setup process. For more information, see [Configuring Document Intelligence](doc-intel-administration.md).
+Use the Now Assist Features interface to set up use cases for Now Assist in Document Intelligence skills. Use cases for the Document Intelligence application have a separate setup process. For more information, see [Configuring Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence/doc-intel-administration.md).
 
 Use case setup involves defining the use case name and details, defining the fields, tables, and questions, setting up integrations and flows, and testing the use case.
 
-For more information, see [Set up a use case for Now Assist in Document Intelligence](../task/set-up-use-case-for-now-assist-document-intelligence.md).
+For more information, see [Set up a use case for Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/set-up-use-case-for-now-assist-document-intelligence.md).
 
-**Tip:** To save time when you need to create a new use case that shares a similar structure to another, make a copy of the existing use case and edit the details of the copy. For more information, see [Make a copy of a use case in Now Assist in Document Intelligence](../task/make-copy-of-now-assist-document-intelligence-use-case.md).
+**Tip:** To save time when you need to create a new use case that shares a similar structure to another, make a copy of the existing use case and edit the details of the copy. For more information, see [Make a copy of a use case in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-document-intelligence/make-copy-of-now-assist-document-intelligence-use-case.md).
 
 Once you completed the setup of a use case, agents can begin processing documents for it.
 

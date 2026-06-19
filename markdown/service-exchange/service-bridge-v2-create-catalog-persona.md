@@ -2,6 +2,7 @@
 title: Create catalog personas
 description: Create catalog user personas to control the catalog items that consumers can access on their instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-catalog-persona.html
 release: australia
 product: Service Exchange
 classification: service-exchange

@@ -2,6 +2,7 @@
 title: Install Safe Workplace for mobile
 description: Install the Now Mobile app and Safe Workplace for mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-for-mobile/install-safe-workplace-mobile.html
 release: australia
 product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
@@ -90,10 +91,10 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 
 7.  Control access to the application by creating a group and assigning roles to the group or individual users.
 
-    For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+    For more information, see Roles.
 
 
-**Parent Topic:**[Safe Workplace for mobile](../concept/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 
-**Parent Topic:**[Safe Workplace for mobile](../concept/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 

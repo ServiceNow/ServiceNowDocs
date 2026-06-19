@@ -2,6 +2,7 @@
 title: Pair business calendars with packages
 description: Pair a business calendar that you created with a package, or functional area, in the ServiceNow AI Platform. When you associate a business calendar with a package, it enables the use of the calendar in that specific functional area. Until you pair a business calendar definition with at least one package, it remains a definition record only.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/pair-business-calendars-with-packages.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -38,8 +39,8 @@ A package is an application, or generic set of functions, such as HR Service Del
 
     |Field|Description|
     |-----|-----------|
-    |Calendar|Name of the business calendar that you want to associate with a ServiceNow AI Platform package. Select ![Search button](../../search-administration/image/SearchIcon.png) to access Business Calendars where you can search for an existing business calendar. If there is no existing calendar, you can create a new one.|
-    |Package|Name of the ServiceNow AI Platform package that you want to associate with the selected business calendar. Select ![Search button](../../search-administration/image/SearchIcon.png) to access Packages where you can search for an existing package. If there is no existing package, you can create a new one.|
+    |Calendar|Name of the business calendar that you want to associate with a ServiceNow AI Platform package. Select \[Omitted image "SearchIcon.png"\] Alt text: Search button to access Business Calendars where you can search for an existing business calendar. If there is no existing calendar, you can create a new one.|
+    |Package|Name of the ServiceNow AI Platform package that you want to associate with the selected business calendar. Select \[Omitted image "SearchIcon.png"\] Alt text: Search button to access Packages where you can search for an existing package. If there is no existing package, you can create a new one.|
 
 4.  Select **Submit**.
 
@@ -48,5 +49,5 @@ A package is an application, or generic set of functions, such as HR Service Del
 
 A record is created in the Calendars for Package \(calendars\_for\_package\) table that associates the selected business calendar with a ServiceNow AI Platform package.
 
-**Parent Topic:**[Creating business calendars](../concept/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md)
 

@@ -2,11 +2,12 @@
 title: Associate a scope and define the dependencies
 description: Associate a scope by adding services and define the dependencies with the scenario analysis by adding services. You can then begin to analyze the impact of the scenarios and events in Operational Resilience Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-service-event-participant-to-analysis-in-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create a scenario analysis, Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Associate a scope and define the dependencies

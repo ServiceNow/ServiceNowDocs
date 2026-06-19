@@ -2,7 +2,10 @@
 title: Create Salesforce spoke actions to retrieve opportunities
 description: The Salesforce spoke provides actions to retrieve metadata of the opportunity record and create a new opportunity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-integration-salesforce-spoke.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -13,7 +16,7 @@ breadcrumb: [Using remote tables and the Salesforce spoke, Reference Salesforce 
 
 The Salesforce spoke provides actions to retrieve metadata of the opportunity record and create a new opportunity.
 
-Other than Data Stream Actions, there is no action to get a set of the opportunity records based on a given search criteria. You must create your own actions to accomplish the stated goal of the reference example. See [Reference Salesforce integration using remote tables](data-integration-salesforce-example.md).
+Other than Data Stream Actions, there is no action to get a set of the opportunity records based on a given search criteria. You must create your own actions to accomplish the stated goal of the reference example. See [Reference Salesforce integration using remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-integration-salesforce-example.md).
 
 To create a new action, copy an existing action and modify it to suit your needs. For example, you can copy the **Get All Accounts** action and modify it to retrieve opportunity records.
 
@@ -31,12 +34,12 @@ Each action includes three steps:
 
 **Note:** You can test all actions from the Flow Designer before you attempt to connect them to the remote table.
 
--   **[Get All Opportunities custom action](../reference/csm-get-all-opportunities-action.md)**  
+-   **[Get All Opportunities custom action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-get-all-opportunities-action.md)**  
 The **Get All Opportunities** action retrieves opportunity records from the Salesforce application. This action is invoked when you view the remote Opportunity table.
--   **[Get Opportunities for Account Id custom action](../reference/csm-account-opportunities-action.md)**  
+-   **[Get Opportunities for Account Id custom action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-account-opportunities-action.md)**  
 The **Get Opportunities for Account Id** action retrieves opportunity records for the specific Salesforce account. This action is invoked when the agent views a Salesforce opportunity available for the customer account based on the Salesforce account associated with it.
--   **[Get Opportunities Details custom action](../reference/csm-details-opportunities-action.md)**  
+-   **[Get Opportunities Details custom action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-details-opportunities-action.md)**  
 The **Get Opportunities Details** action retrieves a single Opportunity record from the Salesforce application based on the record Id. This action is invoked when the user opens the form for the Opportunity record in the remote table.
 
-**Parent Topic:**[Using remote tables and the Salesforce spoke](csm-integration-remote-tables.md)
+**Parent Topic:**[Using remote tables and the Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-remote-tables.md)
 

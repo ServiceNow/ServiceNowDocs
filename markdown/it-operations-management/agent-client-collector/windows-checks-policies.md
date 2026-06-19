@@ -2,12 +2,13 @@
 title: Windows default checks and policies
 description: Agent Client Collector provides the following default checks and policies for Windows health monitoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/windows-checks-policies.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 15
+reading_time_minutes: 16
 breadcrumb: [Agent Client Collector Monitoring default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
@@ -401,6 +402,40 @@ winchecks check-windows-user-disabled \(options\)
 </td><td>
 
 User Name and Status
+
+</td></tr><tr><td>
+
+os.windows.check-windows-service
+
+</td><td>
+
+Verifes whether a Windows Service is present and returns the actual service state and service type reported by the Windows Service Control Manager \(`sc query`\), for example: `Service: 'X', Status: 'RUNNING', Startup Type: 'WIN32_OWN_PROCESS'`
+
+ Possible values:
+
+-   RUNNING
+-   STOPPED
+-   START\_PENDING
+-   STOP\_PENDING
+-   CONTINUE\_PENDING
+-   PAUSE\_PENDING
+-   PAUSED
+
+</td><td>
+
+Usage:
+
+-   -s, service - The service to check if running \(triggers an event with default severity of WARNING if the service is not running\).
+-   -e, non\_running\_services\_event\_severity - Sets the severity level for reporting events when the service is not running. The values can be either CRITICAL or WARNING \(Default: WARNING\).
+-   -G, skip\_events\_for\_nonexistent - Skips the event creation if the given service does not exist on the system when the parameter is active and value is true.
+
+ Usage example: `winchecks check-windows-service -s W3SVC -G false`
+
+</td><td>
+
+```
+Service: '[ ]', Status: '[RUNNING/STOPPED/etc.]', Startup Type: '[WIN32_OWN_PROCESS/etc.]'
+```
 
 </td></tr></tbody>
 </table>## Windows metric monitoring checks
@@ -995,5 +1030,5 @@ win2019-dc-64bit.Process.Status 67 1645372421
  win2019-dc-64bit.Process.Memory\(KB\) 1226444 1645372421
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+</table>**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

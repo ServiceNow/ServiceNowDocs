@@ -2,6 +2,7 @@
 title: Coaching field descriptions
 description: Coaching field descriptions also include form related lists and actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/coaching/cf-coaching-field-descriptions.html
 release: australia
 product: Coaching
 classification: coaching
@@ -534,5 +535,5 @@ Content for assigned users to learn.
 </td></tr></tbody>
 </table>The **Preview Message** related list shows the learning content in the context of the trainee.
 
-**Parent Topic:**[Coaching reference](cf-coaching-reference.md)
+**Parent Topic:**[Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/coaching/cf-coaching-reference.md)
 

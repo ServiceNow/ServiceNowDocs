@@ -2,6 +2,7 @@
 title: Set up text analytics
 description: Select the text fields to analyze and which indicators to analyze.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/set-up-text-analytics.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,11 +18,11 @@ Select the text fields to analyze and which indicators to analyze.
 
 ## Before you begin
 
-Text analytics relies on specific steps in the [data collection jobs](../concept/performance-analytics-glossary.md#). The **Collect** parameter in the relevant jobs must be set to collect text analytics. A job is relevant if it collects data for the same indicators that are subject to text analysis. See [Create or schedule a data collection job](t_CreatASchedDataCollJob.md).
+Text analytics relies on specific steps in the [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md). The **Collect** parameter in the relevant jobs must be set to collect text analytics. A job is relevant if it collects data for the same indicators that are subject to text analysis. See [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md).
 
 **Note:**
 
-Regarding domain separation: To collect text analytics for specific domains, set up text analytics for each of those domains. On the collection job for each domain, specify a **Run as** user with access to that domain. Do not specify a domain configuration for the collection job. For more information, see [Approaches to Performance Analytics with domain separation](../concept/pa-domain-configurations.md). You are using a hybrid approach.
+Regarding domain separation: To collect text analytics for specific domains, set up text analytics for each of those domains. On the collection job for each domain, specify a **Run as** user with access to that domain. Do not specify a domain configuration for the collection job. For more information, see [Approaches to Performance Analytics with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/pa-domain-configurations.md). You are using a hybrid approach.
 
 Role required: pa\_power\_user or pa\_admin
 
@@ -60,5 +61,5 @@ Role required: pa\_power\_user or pa\_admin
 **Related topics**  
 
 
-[Zing removes stop words from queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/search-administration/stop-words-removed-from-queries.md)
+[bundle-platadm.stop-words-removed-from-queries]
 

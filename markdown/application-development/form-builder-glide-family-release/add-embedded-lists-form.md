@@ -2,6 +2,7 @@
 title: Add embedded lists in Table Builder
 description: Add an embedded list using Table Builder to display data for a selected related list on your form. A related list shows the records in the tables that have relationships to the current record. For example, for a form view that references a Problem table, you might want to display a list of locations that are impacted by a selected problem.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/add-embedded-lists-form.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -19,13 +20,13 @@ Add an embedded list using Table Builder to display data for a selected related 
 
 **Note:** Embedded lists are only supported in Core UI and earlier.
 
--   Launch Table Builder. For more information, see [Accessing Table Builder](../concept/accessing-form-builder.md).
--   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](../concept/form-builder-domain-separation.md).
--   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](../concept/fb-application-scope.md).
+-   Launch Table Builder. For more information, see [Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/accessing-form-builder.md).
+-   \(Optional\) Choose a domain to work within \(if not global\). For more information, see [Domain separation and Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-domain-separation.md).
+-   \(Optional\) Choose an application scope to work within \(if not global\). For more information, see [Using an application scope with Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/fb-application-scope.md).
 
-**Note:** To understand how to approach customizing your forms, review [Table Builder workflow and navigation](../concept/form-builder-workflow.md).
+**Note:** To understand how to approach customizing your forms, review [Table Builder workflow and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-builder-workflow.md).
 
-Role required: personalize\_form or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](../../../build/app-engine-studio/concept/aes-app-dev-workflow.md).
+Role required: personalize\_form or AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
@@ -33,20 +34,20 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 2.  Choose a view to work with.
 
-    For detailed information on how to choose a view for a form, see [Choose a form view in Table Builder](manage-form-views.md).
+    For detailed information on how to choose a view for a form, see [Choose a form view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/manage-form-views.md).
 
 3.  To display a list of the embedded lists that you can add to your form view, in the Add form elements panel, select **Embedded lists**.
 
-    **Note:** You can also launch the Add form elements panel by clicking the Add \(![Add icon.](../image/fb-add-icon.png)\) icon above an existing element in the form editor.
+    **Note:** You can also launch the Add form elements panel by clicking the Add \(\[Omitted image "fb-add-icon.png"\] Alt text: Add icon.\) icon above an existing element in the form editor.
 
 4.  Select an embedded list, and then drag it to the location in the form editor where you'd like to place it.
 
     **Note:** Embedded lists in forms are only supported in Core UI and earlier interfaces.
 
-    For information on how you can add an embedded list to a form, see [Embed a list within a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
+    For information on how you can add an embedded list to a form, see Embed a list within a form.
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Forms in Table Builder](../concept/form-view-configuration.md)
+**Parent Topic:**[Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md)
 

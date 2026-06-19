@@ -2,6 +2,7 @@
 title: Configuring Critical Event Management
 description: As an admin you can customize the Critical Event Management application by installing the application and reviewing and configuring the components that are installed with the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/configure-critical-event-management.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -17,31 +18,31 @@ As an admin you can customize the Critical Event Management application by insta
 
 ## Configuration overview
 
--   [Install Critical Event Management](../task/install-critical-event-management.md)
+-   [Install Critical Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/install-critical-event-management.md)
 
     Install the Critical Event Management application.
 
--   [Configure Critical Event Management groups](../task/configure-critical-event-management-groups.md)
+-   [Configure Critical Event Management groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-critical-event-management-groups.md)
 
     Create groups, add members to the group, and assign roles to the members.
 
--   [Define communication plans, tasks, and recipients](../task/define-communication-plan.md)
+-   [Define communication plans, tasks, and recipients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/define-communication-plan.md)
 
     Customize communication plans, create tasks, and add recipients.
 
--   [Configure Twilio to send SMS notifications](configure-twilio-sms.md)
+-   [Configure Twilio to send SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-twilio-sms.md)
 
     Send communications using the SMS feature for Twilio.
 
--   [Configure Critical Event Management application properties](../task/configure-properties.md)
+-   [Configure Critical Event Management application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-properties.md)
 
     Configure important details for the Critical Event Management application.
 
--   [Configure notification templates to send email](../task/configure-email-notification-template.md)
+-   [Configure notification templates to send email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-email-notification-template.md)
 
     Add or edit a notification template.
 
--   [Configure emergency procedures for employee portal](../task/configure-emergency-procedures-for-employee-portal.md)
+-   [Configure emergency procedures for employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/critical-event-management/configure-emergency-procedures-for-employee-portal.md)
 
     Add knowledge articles about emergency procedures or edit existing ones.
 

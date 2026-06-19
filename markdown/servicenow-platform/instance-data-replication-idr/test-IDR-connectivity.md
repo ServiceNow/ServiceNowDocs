@@ -2,6 +2,7 @@
 title: Run Instance Data Replication diagnostics
 description: Verify the status of services and the connection between your instance and the Instance Data Replication \(IDR\) message queue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/test-IDR-connectivity.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -27,7 +28,7 @@ Role required: admin or idr\_admin
 
 2.  View the following diagnostic tests.
 
-<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d469048e86">
+<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d448409e86">
 
 **Key Management Framework**
 
@@ -41,7 +42,7 @@ Checks for valid certificates in the sys\_certificate table.
 
 Checks the status and setup of the PKI used between instances for secure communication.
 
-</td></tr><tr><td id="d469048e115">
+</td></tr><tr><td id="d448409e115">
 
 **IDR Scheduled Jobs**
 
@@ -55,7 +56,7 @@ Checks the Scheduled Job \[sysauto\] table for duplicate entries or missing jobs
 
 Checks the Schedule Item \[sys\_trigger\] table for duplicate entries or missing jobs.
 
-</td></tr><tr><td id="d469048e146">
+</td></tr><tr><td id="d448409e146">
 
 **Hermes**
 
@@ -79,5 +80,5 @@ Checks the Hermes Cluster configuration by verifying that the Hermes Cluster Con
 
 The resulting messages validate enabled services or the connection to the message queue.
 
-**Parent Topic:**[Resolving data replication errors in Instance Data Replication](../reference/common-issues-idr.md)
+**Parent Topic:**[Resolving data replication errors in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/common-issues-idr.md)
 

@@ -1,17 +1,20 @@
 ---
 title: Install a Linux operating system
-description: Install a Linux operating system on a virtual machine and then install the Discovery Console for OT within that environment.
+description: Install a Linux operating system on a virtual machine and then install the Discovery Console for OT on the same VM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/install-linux-os.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Console for OT, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install a Linux operating system
 
-Install a Linux operating system on a virtual machine and then install the Discovery Console for OT within that environment.
+Install a Linux operating system on a virtual machine and then install the Discovery Console for OT on the same VM.
 
 ## Before you begin
 
@@ -19,8 +22,8 @@ Role required: admin
 
 ## About this task
 
--   Install the distribution with minimal configuration, including an SSH server, and ensure the VM supports AVX/AVX2 instructions.
--   Allocate 16 GB of RAM for installation. ​See [Requirements for Discovery Console for OT installation](../concept/requirements-installation-deployment.md) for storage requirements.
+-   Install the distribution with minimal configuration, including an SSH server, and confirm the VM supports AVX/AVX2 instructions.
+-   Allocate 16 GB of RAM for installation. ​For resource requirements, see [Operational Technology Discovery deployment scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/deployment-scenarios.md) or .
 
 ## Procedure
 

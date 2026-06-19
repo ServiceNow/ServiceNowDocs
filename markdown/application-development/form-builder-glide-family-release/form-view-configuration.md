@@ -2,6 +2,7 @@
 title: Forms in Table Builder
 description: On the Forms tab in Table Builder, you can visually create, configure, and customize the different form views for your users using the form editor. The views that you define contain the elements that appear when a user opens that form or list.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/form-builder-glide-family-release/form-view-configuration.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
@@ -52,7 +53,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Forms additional actions list \(![Forms additional actions list](../image/form-addl-actions-list.png)\)
+Forms additional actions list \(\[Omitted image "form-addl-actions-list.png"\] Alt text: Forms additional actions list\)
 
 </td><td>
 
@@ -60,13 +61,13 @@ The Additional actions list \(vertical ellipsis\) on the **Forms** tab provides 
 -   Duplicate the selected form view
 -   Configure a related list
 -   Configure a UI action
--   Navigate to a filterable, sortable list of all form views by selecting **All form views**. See [All form views list](form-view-configuration.md#section_y1f_vxh_1vb).
+-   Navigate to a filterable, sortable list of all form views by selecting **All form views**. See [All form views list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/form-view-configuration.md).
 
-Changes to the form made in the editor are committed to the selected view.**Note:** The more options button ![Ellipses](../../decision-table/image/ellipses.png) is visible only when forms are accessed through ServiceNow Studio or App Engine Studio and not through ServiceNow AI Platform.
+Changes to the form made in the editor are committed to the selected view.**Note:** The more options button \[Omitted image "ellipses.png"\] Alt text: Ellipses is visible only when forms are accessed through ServiceNow Studio or App Engine Studio and not through ServiceNow AI Platform.
 
 </td></tr><tr><td>
 
-Form view list \(![View list.](../image/fb-view-icon.png)\)
+Form view list \(\[Omitted image "fb-view-icon.png"\] Alt text: View list.\)
 
 </td><td>
 
@@ -76,17 +77,17 @@ Select a form view from this list or use the Additional actions menu \(vertical 
 
 PDF extractor
 
- \(![PDF extractor.](../image/icn-pdf-extractor.png)\)
+ \(\[Omitted image "icn-pdf-extractor.png"\] Alt text: PDF extractor.\)
 
 </td><td>
 
-If a PDF is associated with the selected data table, select this element to launch the PDF extractor tool and view the PDF. See [Use a PDF to create data tables](../../../build/app-engine-studio/concept/pdf-extractor.md#).**Note:** This feature is only available if your licensing entitles you to "exclusive low code capability" and you have Table Builder for App Engine installed. Contact your Solutions consultant for more information.
+If a PDF is associated with the selected data table, select this element to launch the PDF extractor tool and view the PDF. See [Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/pdf-extractor.md).**Note:** This feature is only available if your licensing entitles you to "exclusive low code capability" and you have Table Builder for App Engine installed. Contact your Solutions consultant for more information.
 
 </td></tr><tr><td>
 
 Form element search bar
 
- \(![Form element search.](../image/fb-elementsearch-icon.png)\)
+ \(\[Omitted image "fb-elementsearch-icon.png"\] Alt text: Form element search.\)
 
 </td><td>
 
@@ -96,7 +97,7 @@ Enter keywords here to filter the list of form elements.
 
 Multiple selection check box
 
- \(![Multiple field selection check box.](../image/fb-field-checkbox-icon.png)\)
+ \(\[Omitted image "fb-field-checkbox-icon.png"\] Alt text: Multiple field selection check box.\)
 
 </td><td>
 
@@ -104,7 +105,7 @@ When you point to a form element in the Add form elements panel, you can select 
 
 </td></tr><tr><td>
 
-Add form element icon \(![Add icon.](../image/fb-add-icon.png)\)
+Add form element icon \(\[Omitted image "fb-add-icon.png"\] Alt text: Add icon.\)
 
 </td><td>
 
@@ -112,7 +113,7 @@ When you point to a form element or section, select this icon to add a new secti
 
 </td></tr><tr><td>
 
-Move element icon \(![Move element.](../image/fb-move-icon.png)\)
+Move element icon \(\[Omitted image "fb-move-icon.png"\] Alt text: Move element.\)
 
 </td><td>
 
@@ -120,7 +121,7 @@ When you point to a form element, this icon displays on the left edge. Select th
 
 </td></tr><tr><td>
 
-Delete form element icon \(![Delete form element.](../image/fb-delete-icon.png)\)
+Delete form element icon \(\[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element.\)
 
 </td><td>
 
@@ -128,7 +129,7 @@ When you point to a form element in the editor, you can select this icon to remo
 
 </td></tr><tr><td>
 
-Move section arrow icon \(![Move section arrow.](../image/fb-move-arrow-icon.png)\)
+Move section arrow icon \(\[Omitted image "fb-move-arrow-icon.png"\] Alt text: Move section arrow.\)
 
 </td><td>
 
@@ -136,7 +137,7 @@ When you select a form section, you can select the up or down arrow to move it u
 
 </td></tr><tr><td>
 
-Delete section icon \(![Delete section icon.](../image/fb-remove-section-icon.png)\)
+Delete section icon \(\[Omitted image "fb-remove-section-icon.png"\] Alt text: Delete section icon.\)
 
 </td><td>
 
@@ -144,9 +145,9 @@ When you select a form section, you can select this icon to remove the section f
 
 </td></tr><tr><td>
 
-Open panel icon \(![Open panel icon.](../image/fb-expandpane-icon.png)\)
+Open panel icon \(\[Omitted image "fb-expandpane-icon.png"\] Alt text: Open panel icon.\)
 
- Close panel icon \(![Close panel icon.](../image/fb-collapsepane-icon.png)\)
+ Close panel icon \(\[Omitted image "fb-collapsepane-icon.png"\] Alt text: Close panel icon.\)
 
 </td><td>
 
@@ -159,7 +160,7 @@ Select a form view to work with from the form view list in the form editor.
 
 **Note:** You can also select a form view from the Additional actions menu on the **Forms** tab.
 
-See [Choose a form view in Table Builder](../task/manage-form-views.md).
+See [Choose a form view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/manage-form-views.md).
 
 ## All form views list
 
@@ -202,7 +203,7 @@ Filter forms by setting up filter criteria
 
 </td><td>
 
-1.  Select the filter icon \(![Filter forms.](../image/filter-flows.png)\).
+1.  Select the filter icon \(\[Omitted image "filter-flows.png"\] Alt text: Filter forms.\).
 2.  Add your filter condition criteria including any AND/OR logic.
 3.  To add additional conditions, select **+ New condition set**.
 4.  Select **Apply**.
@@ -214,7 +215,7 @@ A view is composed of sections that group the data elements that you want displa
 
 You can add multiple sections and change the layout of each section into one or two columns. A section is where you can group the data elements that you want to display for a form view. These elements include form fields, annotations, formatters, and embedded lists.
 
-See [Customize your form layout in Table Builder](../task/customize-form-layout.md).
+See [Customize your form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/customize-form-layout.md).
 
 ## Form fields
 
@@ -222,9 +223,9 @@ When you select a table in Table Builder, the available fields are displayed in 
 
 By dragging these fields into the form editor, you can then visually arrange these fields on the form view you have selected.
 
-See [Add fields to a form layout in Table Builder](../task/add-form-fields.md).
+See [Add fields to a form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-form-fields.md).
 
-See [Modify field properties in Table Builder form editor](../task/modify-field-properties.md).
+See [Modify field properties in Table Builder form editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-field-properties.md).
 
 ## Form annotations
 
@@ -232,17 +233,17 @@ A form annotation is an additional piece of information on a form, such as a lin
 
 For example, you may want to add instructional text for a particular section on the form. By using Table Builder, you can add a form annotation to the view that displays on-screen instructions on how a user should enter information.
 
-See [Create form annotations in Table Builder](../task/create-form-annotations.md).
+See [Create form annotations in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/create-form-annotations.md).
 
 ## Formatters
 
 A **Formatter** is a read-only element in a form that displays additional information about the selected table record. Unlike fields, formatters are not editable.
 
-See [Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_Formatters.md).
+See .
 
 By using Table Builder, you can visually drag any of the displayed formatters onto the form editor and arrange them.
 
-See [Add formatters in Table Builder](../task/add-formatters.md).
+See [Add formatters in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-formatters.md).
 
 ## Embedded lists
 
@@ -252,24 +253,24 @@ With Table Builder, you can visually drag a list from the **Embedded Lists** tab
 
 By adding an embedded list to a form, you enable your users to view or edit the related list without needing to navigate away from the form. Changes to the data in the list are saved when the user saves the form.
 
-See [Add embedded lists in Table Builder](../task/add-embedded-lists-form.md).
+See [Add embedded lists in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-embedded-lists-form.md).
 
--   **[Choose a form view in Table Builder](../task/manage-form-views.md)**  
+-   **[Choose a form view in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/manage-form-views.md)**  
 Choose existing views, duplicate views, or create entirely new views for form users in Table Builder.
--   **[Customize your form layout in Table Builder](../task/customize-form-layout.md)**  
+-   **[Customize your form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/customize-form-layout.md)**  
 Visually design the look of the forms your users see by customizing form views in Table Builder.
--   **[Add fields to a form layout in Table Builder](../task/add-form-fields.md)**  
+-   **[Add fields to a form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-form-fields.md)**  
 Visually add and arrange fields within a form layout to create a form that matches your requirements using Table Builder.
--   **[Modify field properties in Table Builder form editor](../task/modify-field-properties.md)**  
+-   **[Modify field properties in Table Builder form editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/modify-field-properties.md)**  
 Modify basic field properties for the fields that display for users in a form view from within the **Forms** tab in Table Builder.
--   **[Create form annotations in Table Builder](../task/create-form-annotations.md)**  
+-   **[Create form annotations in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/create-form-annotations.md)**  
 Add instructional text and other design elements to your forms by using form annotations in Table Builder.
--   **[Add formatters in Table Builder](../task/add-formatters.md)**  
+-   **[Add formatters in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-formatters.md)**  
 You can add form elements that display non-field information to users by adding a formatter in Table Builder. For example, you may want to display a **Comments** field where users can add comments to a displayed form.
--   **[Add embedded lists in Table Builder](../task/add-embedded-lists-form.md)**  
+-   **[Add embedded lists in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/add-embedded-lists-form.md)**  
 Add an embedded list using Table Builder to display data for a selected related list on your form. A related list shows the records in the tables that have relationships to the current record. For example, for a form view that references a Problem table, you might want to display a list of locations that are impacted by a selected problem.
--   **[Preview your form](../task/preview-your-form.md)**  
+-   **[Preview your form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/preview-your-form.md)**  
 Previewing and saving your form in Table Builder.
 
-**Parent Topic:**[Using Table Builder](using-fb.md)
+**Parent Topic:**[Using Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/form-builder-glide-family-release/using-fb.md)
 

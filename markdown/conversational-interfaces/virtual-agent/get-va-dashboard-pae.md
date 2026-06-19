@@ -2,6 +2,7 @@
 title: Install Conversational Analytics Dashboard
 description: Get updates to the Conversational Analytics dashboard from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/get-va-dashboard-pae.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -36,12 +37,12 @@ Role required: Chat Analytics Admin
     |Table|Description|
     |-----|-----------|
     |sn\_ci\_analytics\_conversation|The main table for conversations. It lists Virtual Agent conversations.|
-    |sn\_ci\_analytics\_event|List of events. An event is something that happens, for example, an actionable notification. The dashboard can display analytics about default events or ones you create. For more information, see [Set up custom events](set-up-custom-events-pae.md).|
+    |sn\_ci\_analytics\_event|List of events. An event is something that happens, for example, an actionable notification. The dashboard can display analytics about default events or ones you create. For more information, see [Set up custom events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-custom-events-pae.md).|
     |sn\_ci\_analytics\_event\_prop|List of values used in events.|
-    |sn\_ci\_analytics\_formula\_override|Lists formula overrides for properties used by the dashboard. For more information, see [Set up custom definitions](set-up-custom-definitions-pae.md).|
+    |sn\_ci\_analytics\_formula\_override|Lists formula overrides for properties used by the dashboard. For more information, see [Set up custom definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/set-up-custom-definitions-pae.md).|
 
     **Note:** You do not need a license or a plugin for Performance Analytics.
 
 
-**Parent Topic:**[Setting up the Conversational Analytics dashboard](../concept/setting-up-va-dashboard-overview1-pae.md)
+**Parent Topic:**[Setting up the Conversational Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setting-up-va-dashboard-overview1-pae.md)
 

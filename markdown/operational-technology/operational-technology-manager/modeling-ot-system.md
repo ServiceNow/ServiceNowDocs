@@ -2,6 +2,7 @@
 title: Modeling an Operational Technology system service
 description: You can model an Operational Technology \(OT\) system service to create other control systems, such as a distributed control system \(DCS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/modeling-ot-system.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -47,14 +48,14 @@ A DCS is a process-oriented system that uses closed loop control.​ The followi
 
 A DCS differs from the centralized control system wherein a single controller at central location handles the control function but in a DCS, each process element, machine, or group of machines is controlled by a dedicated controller.
 
--   **[Create an Operational Technology system service](../task/create-ot-system-service.md)**  
+-   **[Create an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/create-ot-system-service.md)**  
 Create an Operational Technology \(OT\) system service to model a distributed control system \(DCS\) and all of its related components, such as control modules and programming logic controls \(PLCs\).
--   **[Add a device to an Operational Technology system service](../task/add-devices-to-ot-system-service.md)**  
+-   **[Add a device to an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/add-devices-to-ot-system-service.md)**  
 Add an Operational Technology \(OT\) device to an OT system service to create a relationship between the equipment model entity that the device belongs to and the OT system service.
--   **[Map an Operational Technology system service to an equipment model entity](../task/map-ot-system-service-to-equipment-model-entity.md)**  
+-   **[Map an Operational Technology system service to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/map-ot-system-service-to-equipment-model-entity.md)**  
 Map an Operational Technology \(OT\) system service to an ISA equipment model entity by enabling a scheduled job. When the relationship between an OT device and an equipment model entity changes, the scheduled job recomputes the relationship between the OT system service and the equipment model entity.
--   **[View the dependency map for an Operational Technology system service](../task/view-dependency-map-for-ot-system-service.md)**  
+-   **[View the dependency map for an Operational Technology system service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/view-dependency-map-for-ot-system-service.md)**  
 View the dependency map for an Operational Technology \(OT\) system service to see the graphical representation of the hierarchical structure of the selected OT system service and its relationship with other entities in the production process.
 
-**Parent Topic:**[Using the Operational Technology Manager](using-operational-technology-manager.md)
+**Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/using-operational-technology-manager.md)
 

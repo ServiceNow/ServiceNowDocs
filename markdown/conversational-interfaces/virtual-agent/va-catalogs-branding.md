@@ -2,6 +2,7 @@
 title: Set up catalog branding
 description: Customize the appearance of catalogs in Virtual Agent to match your business' branding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-catalogs-branding.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -20,7 +21,7 @@ Customize the appearance of catalogs in Virtual Agent to match your business' br
 
 Role required: admin, virtual\_agent\_admin
 
-Download Theme Builder from the ServiceNow Store and activate the plugin \(sn\_theme\_builder\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+Download Theme Builder from the ServiceNow Store and activate the plugin \(sn\_theme\_builder\). For more information, see .
 
 ## About this task
 
@@ -32,7 +33,7 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
 2.  Create a new theme by providing primary and secondary colors.
 
-    **Note:** You can match your colors to the Chat Header Background and Chat Background colors in the branding record of your choice. For more information creating themes, see [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/tb-create-theme.md).
+    **Note:** You can match your colors to the Chat Header Background and Chat Background colors in the branding record of your choice. For more information creating themes, see .
 
 3.  Save your theme.
 
@@ -42,7 +43,7 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
     2.  Select the record for the theme you want to import.
 
-    3.  Under the Additional Actions icon ![Additional actions icon.](../../../product/document-services/image/additional-actions-icon.png), select **Copy sys\_id**.
+    3.  Under the Additional Actions icon \[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon., select **Copy sys\_id**.
 
     4.  Navigate to **All** &gt; **Service Portal** &gt; **Agent Chat**.
 
@@ -78,7 +79,7 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
 8.  Run the catalog topic in the portal chat to load its configuration and reveal any elements that need branding.
 
-    ![Virtual Agent chat window, with highlighted links and buttons to be updated.](../images/catalog-branding-01.png)
+    \[Omitted image "catalog-branding-01.png"\] Alt text: Virtual Agent chat window, with highlighted links and buttons to be updated.
 
 9.  Navigate to **All** &gt; **Now Experience framework** &gt; **Themes** &gt; **Theme Builder**.
 
@@ -86,7 +87,7 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
 11. Under the **Component styles** tab, select **Edit**.
 
-    ![Update the color hex codes in Theme Builder to match your branding colors.](../images/catalog-branding-02.png)
+    \[Omitted image "catalog-branding-02.png"\] Alt text: Update the color hex codes in Theme Builder to match your branding colors.
 
 12. Select one of the elements needing branding found in Step 8.
 
@@ -94,12 +95,12 @@ Virtual Agent uses the Branding Setup \[sys\_cs\_branding\_setup\] table to defi
 
 14. Repeat Steps 12 and 13 until you update all elements.
 
-    ![Virtual Agent chat window, with highlighted links and buttons updated after changing hex color codes in Theme Builder.](../images/catalog-branding-03.png)
+    \[Omitted image "catalog-branding-03.png"\] Alt text: Virtual Agent chat window, with highlighted links and buttons updated after changing hex color codes in Theme Builder.
 
 
 ## Result
 
 Catalog color themes now match your branding.
 
-**Parent Topic:**[Using catalogs and autopilot in Virtual Agent](../concept/va-catalogs.md)
+**Parent Topic:**[Using catalogs and autopilot in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-catalogs.md)
 

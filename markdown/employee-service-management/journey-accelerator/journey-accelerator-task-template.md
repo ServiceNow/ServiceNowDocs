@@ -2,6 +2,7 @@
 title: Journey Accelerator task template fields
 description: To make a task template, fill in the Journey Accelerator task template fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-accelerator/journey-accelerator-task-template.html
 release: australia
 product: Journey Accelerator
 classification: journey-accelerator
@@ -137,5 +138,5 @@ Condition that is used to trigger when a task is assigned. This condition is eva
 For example: If the `Relative Due Date Trigger = Start On`, `Date Offset type = After`, and `Number of offset days = 5 days`, the task is configured to trigger 5 days after the publish date of the plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Journey Accelerator reference](ja-reference.md)
+</table>**Parent Topic:**[Journey Accelerator reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-accelerator/ja-reference.md)
 

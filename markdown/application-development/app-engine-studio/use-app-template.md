@@ -2,6 +2,7 @@
 title: Create your app using an application template
 description: Build an application in App Engine Studio \(AES\) that uses predefined data, experience, logic and automation, and security. Add to the template contents to customize the app for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/use-app-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -23,11 +24,9 @@ Role required: admin, sn\_app\_eng\_studio.user
 
 ## About this task
 
-Using templates in App Engine Studio helps you save time and effort creating applications. You can download several templates from the ServiceNow Store, or you can create templates from your existing applications. To install a template on your PDI, see [Activating a plugin from your PDI](../../applications/task/activating_a_plugin_from_your_pdi.md).
+Using templates in App Engine Studio helps you save time and effort creating applications. You can download several templates from the ServiceNow Store, or you can create templates from your existing applications. To install a template on your PDI, see [Activating a plugin from your PDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/activating_a_plugin_from_your_pdi.md).
 
 This video shows you how to perform the following procedure.
-
-Short video of creating an app from a template
 
 ## Procedure
 
@@ -47,23 +46,23 @@ Short video of creating an app from a template
 
 8.  From the app home, review the data, experience, logic and automation, and security that was created with the template.
 
-    To tailor the application to your business needs, you can edit these predefined items or add your own. For more information, see [Enhance your app](../concept/customize-application.md).
+    To tailor the application to your business needs, you can edit these predefined items or add your own. For more information, see [Enhance your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/customize-application.md).
 
 
 ## What to do next
 
-After you've finished building your application, submit the application for approval to get it reviewed and deployed by an administrator. For more information, see [Submit your app for approval and publishing](submit-for-approval.md).
+After you've finished building your application, submit the application for approval to get it reviewed and deployed by an administrator. For more information, see [Submit your app for approval and publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/submit-for-approval.md).
 
--   **[Available templates](../concept/template-library.md)**  
+-   **[Available templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/template-library.md)**  
 Use an application template to create an application in App Engine Studio \(AES\) with preconfigured data, experience, logic and automation, and security.
--   **[Build a custom template](../concept/build-custom-template.md)**  
+-   **[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)**  
 App Engine Studio \(AES\) provides various predefined application templates. However, creating custom templates can speed up time to production if you have types of applications that you want to create more than once.
--   **[Update custom template contents and properties](manage-custom-template.md)**  
+-   **[Update custom template contents and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/manage-custom-template.md)**  
 Improve the effectiveness of your custom template by updating its contents or properties in App Engine Studio \(AES\).
--   **[Manage template activation](manage-template-activation.md)**  
+-   **[Manage template activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/manage-template-activation.md)**  
 Manage template activation and deactivation to ensure that users creating apps in App Engine Studio \(AES\) have access to the best application templates for their needs.
--   **[App template sharing](../concept/app-template-sharing.md#)**  
+-   **[App template sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/app-template-sharing.md)**  
 Specify which users and groups have access to predefined and custom templates in App Engine Studio \(AES\).
 
-**Parent Topic:**[Create your app](../concept/create-application.md)
+**Parent Topic:**[Create your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/create-application.md)
 

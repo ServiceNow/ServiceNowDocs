@@ -2,6 +2,7 @@
 title: View the history of changes to a changeset
 description: View the details of changes in each committed changeset on the Activities tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-changeset-view-change-history.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ View the details of changes in each committed changeset on the **Activities** ta
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_viewer or cdm\_editor or cdm\_exporter\_editor or cdm\_policy\_editor or cdm\_admin
 
@@ -27,7 +28,7 @@ Role required: cdm\_viewer or cdm\_editor or cdm\_exporter\_editor or cdm\_polic
 
     The **Changes** section displays the list of individual nodes for which changes were committed.
 
-    ![cdm-changeset-activities-tab](../image/cdm-changeset-activities-tab.png)
+    \[Omitted image "cdm-changeset-activities-tab.png"\] Alt text: cdm-changeset-activities-tab
 
 <table id="table_gzb_kjf_1qb"><thead><tr><th>
 

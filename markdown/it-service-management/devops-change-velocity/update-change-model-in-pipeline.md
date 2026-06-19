@@ -2,6 +2,7 @@
 title: Update change model in pipeline
 description: Update the change model in your existing pipeline steps using the DevOps Pipeline Migration to Change Models catalog item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/update-change-model-in-pipeline.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -54,7 +55,7 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 
 7.  From the DevOps catalog items, select **DevOps Pipeline Migration to Change Models**.
 
-    ![Catalog item to migrate DevOps pipeline to change model](../image/change-model-migration.png)
+    \[Omitted image "change-model-migration.png"\] Alt text: Catalog item to migrate DevOps pipeline to change model
 
 8.  In the form, fill in the following fields.
 
@@ -70,29 +71,29 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 
     **Note:** If any of the pipelines you selected in step 8 has any data policy, which doesn’t allow the pipeline steps to be updated, the same is updated as an error in the worknotes of the corresponding request.
 
-<table id="choicetable_vjt_yl1_yyb"><tbody><tr><td id="d90464e271">
+<table id="choicetable_vjt_yl1_yyb"><tbody><tr><td id="d90093e271">
 
 **Approved and successful**
 
 </td><td>
 
--   A comment is added in the request record specifying that migration to change model was successful. ![Migration successful comment in request record](../image/change-model-migration-success-comment.png)
--   A bell notification is sent to the requester specifying that the migration has been successful. ![Migration successful bell notification](../image/change-model-success-1.png)
+-   A comment is added in the request record specifying that migration to change model was successful. \[Omitted image "change-model-migration-success-comment.png"\] Alt text: Migration successful comment in request record
+-   A bell notification is sent to the requester specifying that the migration has been successful. \[Omitted image "change-model-success-1.png"\] Alt text: Migration successful bell notification
 -   An email notification is sent to the requester specifying that the migration request has been successful.
 
 
-</td></tr><tr><td id="d90464e302">
+</td></tr><tr><td id="d90093e302">
 
 **Rejected and unsuccessful**
 
 </td><td>
 
--   A comment is added in the request record specifying that migration wasn’t successful. ![Rejection comment in request record](../image/change-migration-req-reject.png)
--   A bell notification is sent to the requester specifying that the migration request has been rejected. ![Rejection bell notification](../image/change-migration-bell-notification-reject.png)
+-   A comment is added in the request record specifying that migration wasn’t successful. \[Omitted image "change-migration-req-reject.png"\] Alt text: Rejection comment in request record
+-   A bell notification is sent to the requester specifying that the migration request has been rejected. \[Omitted image "change-migration-bell-notification-reject.png"\] Alt text: Rejection bell notification
 -   An email notification is sent to the requester specifying that the migration request has been rejected.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[DevOps change models](../concept/devops-change-multimodel.md)
+**Parent Topic:**[DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-multimodel.md)
 

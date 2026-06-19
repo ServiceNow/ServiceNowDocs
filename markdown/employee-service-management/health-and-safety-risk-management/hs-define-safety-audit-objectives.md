@@ -2,6 +2,7 @@
 title: Define an objective for a safety audit
 description: Define an objective to add detailed goal and scope of the safety audit. You can create as many objectives as the audit requires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-define-safety-audit-objectives.html
 release: australia
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
@@ -17,7 +18,7 @@ Define an objective to add detailed goal and scope of the safety audit. You can 
 
 ## Before you begin
 
--   People who should be assigned objectives are added to the audit's **People involved** list. The **Assigned to** field on an objective is filtered to people already added to the audit. For more information, see [Add people involved in a safety audit](hs-add-people-involved-safety-audit.md).
+-   People who should be assigned objectives are added to the audit's **People involved** list. The **Assigned to** field on an objective is filtered to people already added to the audit. For more information, see [Add people involved in a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-people-involved-safety-audit.md).
 -   Any documents or standards to be cited are uploaded and accessible.
 
 Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.safety\_audit\_writer
@@ -30,13 +31,13 @@ Before an audit begins, define its scope by creating the audit objectives, the c
 -   Criteria are the benchmarks or standards against which the audit measures compliance. Criteria are associated with one or more objectives.
 -   Items for review are the specific records, documents, or assessments that should be examined to meet an objective. Items for review are assigned to a person involved in the audit, who is responsible for conducting that part of the review and raise findings against them.
 
-**Note:** If you have a previous audit with a similar scope, you can select **Import scope** to pre-populate the objectives and the related sections rather than entering them manually. For more information, see [Import scope from an existing safety audit](hs-import-scope-existing-safety-audit.md).
+**Note:** If you have a previous audit with a similar scope, you can select **Import scope** to pre-populate the objectives and the related sections rather than entering them manually. For more information, see [Import scope from an existing safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-import-scope-existing-safety-audit.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
 
-2.  Select the risk management icon \(![Risk assessment icon](../image/icon-risk-assessment.png)\).
+2.  Select the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\).
 
 3.  In the **Audits** list, select **All** and open the audit record to add the objective to.
 
@@ -44,7 +45,7 @@ Before an audit begins, define its scope by creating the audit objectives, the c
 
 5.  On the Objective form, fill in the fields.
 
-    For information on field descriptions, see [Audit Objective fields](../reference/hs-audit-objectives-form.md).
+    For information on field descriptions, see [Audit Objective fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-audit-objectives-form.md).
 
 6.  Add criteria to the audit objective.
 
@@ -163,7 +164,7 @@ Assigned to
 
 </td><td>
 
-User assigned to this item for review.Only the people added to the **People involved** list of this audit are available in this field. For more information, see [Add people involved in a safety audit](hs-add-people-involved-safety-audit.md).
+User assigned to this item for review.Only the people added to the **People involved** list of this audit are available in this field. For more information, see [Add people involved in a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-people-involved-safety-audit.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +207,7 @@ Guidance for the person assigned to this item, describing what to review or veri
 
 ## What to do next
 
-People assigned to the audit objectives can raise findings against the items for review during the audit. You can create a finding from the audit's **Findings** tab or directly from within an item for review. For more information, see [Add a finding for a safety audit](hs-add-finding-rca-safety-audit.md).
+People assigned to the audit objectives can raise findings against the items for review during the audit. You can create a finding from the audit's **Findings** tab or directly from within an item for review. For more information, see [Add a finding for a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-audit.md).
 
-**Parent Topic:**[Create and manage a safety audit](hs-create-manage-safety-audit-workspace.md)
+**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 

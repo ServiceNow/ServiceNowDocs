@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP new system field descriptions
 description: The new system form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information on connection details for the ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,7 +17,7 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Cop
 
 The new system form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information on connection details for the ERP system.
 
-For process details, see [Create an ERP system in Zero Copy Connector for ERP](../task/create-an-erp-system.md).
+For process details, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-erp-system.md).
 
 |Field|Description|
 |-----|-----------|
@@ -29,5 +30,5 @@ For process details, see [Create an ERP system in Zero Copy Connector for ERP](.
 |Error text \(on heartbeat tabs after system record is first saved\)|Details about any errors that have occurred.|
 |Updated \(on heartbeat tabs after system record is first saved\)|Date and time when the heartbeat was last changed.|
 
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

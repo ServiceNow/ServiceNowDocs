@@ -2,6 +2,7 @@
 title: UiPath Spoke
 description: Automate business processes in UiPath from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/uipath-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Automate business processes in UiPath from your ServiceNow® instance.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## IntegrationHub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-UiPath spoke v2.5.0 is the latest version.
+UiPath spoke v2.6.0 is the latest version.
 
 ## Supported version
 
@@ -36,7 +37,7 @@ This spoke was built for these UiPath versions, but may be compatible with later
 
 ## Spoke requirements
 
-Ensure that you have UiPath account information before you [Set up the UiPath spoke](../task/conf-alias-uipath.md#).
+Ensure that you have UiPath account information before you [Set up the UiPath spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-alias-uipath.md).
 
 -   If you are using the UiPath Cloud Platform:
     -   Token URL
@@ -299,15 +300,15 @@ The UiPath spoke adds the UiPath application to your ServiceNow instance. The Ui
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
-For information about setting up the spoke, see [Set up the UiPath spoke](../task/conf-alias-uipath.md#).
+For information about setting up the spoke, see [Set up the UiPath spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-alias-uipath.md).
 
 ## MID Server requirements
 
-These actions use REST calls, which can run on an instance or MID Server. Use the connection record associated with the UiPath alias to configure where actions run as well as set MID Server selection attributes. For more information, see [MID server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-landing.md).
+These actions use REST calls, which can run on an instance or MID Server. Use the connection record associated with the UiPath alias to configure where actions run as well as set MID Server selection attributes. For more information, see MID server.
 
 **Note:** The MID Server users must have the sn\_uipath\_spoke.uipath\_admin role.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

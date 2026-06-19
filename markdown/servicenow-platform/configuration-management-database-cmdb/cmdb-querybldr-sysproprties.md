@@ -2,6 +2,7 @@
 title: Property settings for CMDB Query Builder
 description: Set property values to configure query processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -80,8 +81,8 @@ Batch size allocated globally when saved queries run.
 
  -   Type: integer
 -   Default value: 100
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
--   Learn more: [Batch size for CMDB Query Builder queries](../concept/batch-size-query.md#)
+-   Location: Add to System Properties \[sys\_properties\] table.
+-   Learn more: [Batch size for CMDB Query Builder queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md)
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Default execution engine to use when running a saved query when the query's exec
     -   V2: Use an enhanced query execution engine which is designed for improved performance and scalability.
 -   Default value: V2
 -   Location: System Properties \[sys\_properties\] table.
--   Learn more: [Set execution mode for running a query](../task/config-query-builder-engine-mode.md)
+-   Learn more: [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md)
 
 </td></tr><tr><td>
 
@@ -117,7 +118,7 @@ Default execution engine to use for queries that contain at least one logical OR
     -   V2: Use an enhanced query execution engine which is designed for improved performance and scalability.
 -   Default value: V2
 -   Location: System Properties \[sys\_properties\] table.
--   Learn more: [Set execution mode for running a query](../task/config-query-builder-engine-mode.md)
+-   Learn more: [Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md)
 
 </td></tr></tbody>
 </table>

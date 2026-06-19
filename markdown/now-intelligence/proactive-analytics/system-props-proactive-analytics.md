@@ -2,6 +2,7 @@
 title: System properties for Proactive analytics
 description: Several system properties that affect the generation of insights cards are available.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/proactive-analytics/system-props-proactive-analytics.html
 release: australia
 product: Proactive Analytics
 classification: proactive-analytics
@@ -50,7 +51,7 @@ By default, retrieve insights created within the number of days in the past that
 -   Type: Integer
 -   Default value: 14
 -   Location: To change the value, create this property in the System Properties table.
--   More information: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+-   More information: 
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Enables the generation of key contributor insight cards.
 -   Type: true/false \(Boolean\)
 -   Default value: true
 -   Location: To change the value, create this property in the System Properties table.
--   More information: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+-   More information: 
 
 </td></tr><tr><td>
 
@@ -76,7 +77,7 @@ Enables the Proactive Analytics feature.
 -   Type: true/false \(Boolean\)
 -   Default value: true
 -   Location: To change the value, create this property in the System Properties table.
--   More information: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md)
+-   More information: 
 
 </td></tr><tr><td>
 

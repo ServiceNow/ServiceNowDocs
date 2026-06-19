@@ -2,6 +2,7 @@
 title: Attach a Java Key Store certificate for MS Teams
 description: Enable the JWT Bearer Grant token authentication by attaching a valid Java Key Store \(JKS\) certificate.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/attach-a-java-key-store-certificate-for-ms-teams.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,14 +33,14 @@ Login to your ServiceNow instance to perform the following procedure.
 
 3.  Enter the password associated with the JKS file in **Key store password**.
 
-4.  Select the attachments icon \(![Attachments icon](../../../administer/integrationhub-store-spokes/image/attachments-icon.png)\) and attach the JKS certificate you had generated.
+4.  Select the attachments icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attachments icon\) and attach the JKS certificate you had generated.
 
-    For more information, see [Configure OAuth application in Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-oauth-application-in-microsoft-azure.md).
+    For more information, see .
 
 5.  Click **Validate Stores/Certificates**.
 
 6.  Click **Update**.
 
 
-**Parent Topic:**[Using Certificates for authentication](using-certificates-for-authentication.md)
+**Parent Topic:**[Using Certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/using-certificates-for-authentication.md)
 

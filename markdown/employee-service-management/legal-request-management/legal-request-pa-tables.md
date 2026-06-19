@@ -2,6 +2,7 @@
 title: Practice area tables for legal requests
 description: Tables specific to practice areas are installed with the Legal Request Management application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-request-management/legal-request-pa-tables.html
 release: australia
 product: Legal Request Management
 classification: legal-request-management
@@ -17,7 +18,7 @@ Tables specific to practice areas are installed with the Legal Request Managemen
 
 These practice area tables extend the Legal Request \[sn\_lg\_ops\_request\] table.
 
-If you add columns in a practice area table, you can configure the table to add those columns in the Lists section of Legal Counsel Center. You can also use these tables in other configuration as needed. For more information, see [Configure a practice area table](../task/configure-pa-tables-for-reporting.md).
+If you add columns in a practice area table, you can configure the table to add those columns in the Lists section of Legal Counsel Center. You can also use these tables in other configuration as needed. For more information, see [Configure a practice area table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/configure-pa-tables-for-reporting.md).
 
 -   Compliance \[sn\_lg\_ops\_compliance\]
 -   Corporate Support \[sn\_lg\_ops\_corporate\_support\]
@@ -55,5 +56,5 @@ If you add columns in a practice area table, you can configure the table to add 
 |Privacy and Data Security \[sn\_lg\_ops\_privacy\_and\_data\_security\]|Legal Simple Privacy|
 |Legal contract Request \[sn\_lg\_ops\_contract\_request\]|Contract Management Pro for Legal Service Delivery|
 
-**Parent Topic:**[Legal Request Management reference](legal-request-management-reference.md)
+**Parent Topic:**[Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-request-management/legal-request-management-reference.md)
 

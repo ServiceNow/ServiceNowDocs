@@ -2,11 +2,12 @@
 title: Jumpstart Your Now Mobile for Employees
 description: This accelerator provides a demonstration of the possibilities and capabilities of Now Mobile for Employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-now-mobile-for-employees.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
@@ -19,7 +20,9 @@ This accelerator provides a demonstration of the possibilities and capabilities 
 
 Jumpstart Your Now Mobile for Employees introduces Impact customers to Now Mobile, providing an overview of its base system capabilities along with a demonstration of the configuration steps needed to get started. The session focuses on key employee-facing features such as viewing tasks, requests, and knowledge articles. We will also highlight how Now Mobile aligns with Employee Center to create a seamless employee experience. Additionally, this accelerator includes key resources and leading practice guides to help customers get started with success.
 
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 ## Prerequisites
 
@@ -54,6 +57,8 @@ Certain Now Mobile functionalities require Employee Center or Employee Center Pr
 |Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 
 ## Requested Information / Access
+
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

@@ -2,6 +2,7 @@
 title: Identify suitable replacement options for assets in the Enterprise Asset Workspace
 description: Use the Inventory availability report to determine suitable replacement options for your assets and their child components that are in use, in maintenance, pending repair, or defective. The report also helps you to determine the quantity of available substitute models that can be used locally, moved through the distribution channels, and estimate the lead time for new purchases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/identify-inventory-availability-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -19,7 +20,7 @@ Use the Inventory availability report to determine suitable replacement options 
 
 The Inventory availability report is available only for enterprise, consumable, and bundle assets that are in use, in maintenance, pending repair, or defective.
 
-Service locations and distribution channels should be configured for the stockroom. If the asset's location is a service location of a stockroom, it automatically becomes the local stockroom. A location can have multiple local stockrooms if it is serviced by more than one stockroom. For more details, see [Add a distribution channel to a stockroom in the Enterprise Asset Workspace](add-distribution-channel-eam-stockroom.md) and [Add service locations to a stockroom in the Enterprise Asset Workspace](add-service-location-eam-stockroom.md).
+Service locations and distribution channels should be configured for the stockroom. If the asset's location is a service location of a stockroom, it automatically becomes the local stockroom. A location can have multiple local stockrooms if it is serviced by more than one stockroom. For more details, see [Add a distribution channel to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-distribution-channel-eam-stockroom.md) and [Add service locations to a stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-service-location-eam-stockroom.md).
 
 Role required: sn\_eam.enterprise\_asset\_technician or sn\_eam.enterprise\_asset\_manager
 
@@ -105,5 +106,5 @@ Average time in days it has taken from ordering to receiving replacement assets 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage stockrooms with inventory reports in the Enterprise Asset Workspace](../concept/manage-stockroom-inventory-reports.md)
+**Parent Topic:**[Manage stockrooms with inventory reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-inventory-reports.md)
 

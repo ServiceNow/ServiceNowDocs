@@ -2,6 +2,7 @@
 title: Pre-discovery phase
 description: The pre-discovery phase involves preparatory steps, such as defining scanning parameters and configuring credential details, to ensure a smooth initiation of the certificate discovery process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cert-inventory-mgmt-process-pre-discovery.html
 release: australia
 product: Discovery
 classification: discovery
@@ -109,5 +110,5 @@ Entrust
 
 **Note:** The **state** field in the Unique Certificate \[cmdb\_ci\_certificate\] table denotes the life cycle state of the certificate, not the raw state from the API. If the API returns states such as issued, valid, expired, or canceled, they are stored as "issued" in the Unique Certificate \[cmdb\_ci\_certificate\] table.
 
-Once the pre-discovery phase is completed, move on to the [post-discovery phase](cert-inventory-mgmt-process-post-discovery.md).
+Once the pre-discovery phase is completed, move on to the [post-discovery phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cert-inventory-mgmt-process-post-discovery.md).
 

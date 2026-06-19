@@ -2,6 +2,7 @@
 title: View open put away tasks for your stockroom in the Enterprise Asset Workspace
 description: View the open put away tasks for your stockroom in the Enterprise Asset Workspace to get the details of the tasks that need action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/view-open-putaway-tasks-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -35,7 +36,7 @@ The list of open Asset put away tasks are displayed.
 
 ## What to do next
 
-Put away the asset in the desired drop-off location in the stock room and close the Asset put away task after adding the **Drop off location** field value in the Asset put away task form. For more information about closing Asset put away task, see [Close an Asset put away task in the Enterprise Asset Workspace](close-put-away-task-eam.md).
+Put away the asset in the desired drop-off location in the stock room and close the Asset put away task after adding the **Drop off location** field value in the Asset put away task form. For more information about closing Asset put away task, see [Close an Asset put away task in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/close-put-away-task-eam.md).
 
-**Parent Topic:**[Manage asset put away using the Enterprise Asset Workspace](../concept/manage-asset-putaway-stockroom-enterprise-asset-workspace.md)
+**Parent Topic:**[Manage asset put away using the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-asset-putaway-stockroom-enterprise-asset-workspace.md)
 

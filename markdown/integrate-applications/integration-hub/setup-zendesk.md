@@ -2,6 +2,7 @@
 title: Set up the Zendesk spoke
 description: Integrate the ServiceNow instance and Zendesk by creating a custom OAuth application in Zendesk to authenticate ServiceNow requests.Create an OAuth client for authenticating Zendesk API requests.Create a connection between your Zendesk applications and your ServiceNow instance so that your instance can retrieve user data from your applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-zendesk.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -37,7 +38,7 @@ Role required: Zendesk admin
 
     The Zendesk Agent Workspace opens.
 
-3.  On the left navigation menu of the Zendesk Agent Workspace, select the Admin icon \(![Admin icon.](../image/admin-icon.png)\).
+3.  On the left navigation menu of the Zendesk Agent Workspace, select the Admin icon \(\[Omitted image "admin-icon.png"\] Alt text: Admin icon.\).
 
     The Admin menu opens.
 
@@ -149,9 +150,9 @@ Role required: ServiceNow admin
     |Connection Name|Name of the Zendesk connection. This field populates automatically.|
     |Connection URL|URL for the connection. Enter `https://<subdomain>.zendesk.com`, where &lt;*subdomain*&gt; is your organization subdomain.|
     |Credential Information|
-    |OAuth Client ID|Unique identifier for your Zendesk OAuth client. Enter the same unique identifier that you specified in [Create a Zendesk OAuth client](setup-zendesk.md#).|
-    |OAuth Client Secret|Secret that is assigned to your Zendesk OAuth client. Enter the same secret that you copied in [Create a Zendesk OAuth client](setup-zendesk.md#).|
-    |OAuth Redirect URL|URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the redirect URL that you specified in [Create a Zendesk OAuth client](setup-zendesk.md#).|
+    |OAuth Client ID|Unique identifier for your Zendesk OAuth client. Enter the same unique identifier that you specified in [Create a Zendesk OAuth client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zendesk.md).|
+    |OAuth Client Secret|Secret that is assigned to your Zendesk OAuth client. Enter the same secret that you copied in [Create a Zendesk OAuth client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zendesk.md).|
+    |OAuth Redirect URL|URL of the OAuth provider that users are redirected to after authentication. This field populates automatically based on the redirect URL that you specified in [Create a Zendesk OAuth client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-zendesk.md).|
 
 5.  Click **Create and Get OAuth Token**.
 

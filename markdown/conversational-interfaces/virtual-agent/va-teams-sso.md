@@ -2,6 +2,7 @@
 title: Configuring smart links in Microsoft Teams
 description: Configure smart links for your Virtual Agent app in Microsoft Teams to enable different link opening experiences.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-teams-sso.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,9 +25,9 @@ Smart link settings in the admin console enable admins to define one of the thre
 
 Through link authentication and Single Sign-On \(SSO\) support, link content can be rendered in a pop-up, Microsoft Teams tab, or a new browser tab.
 
-You can configure smart links for Microsoft Teams from the URL navigation system action under **Target Location**. For more information about configuring smart links, see [Create a smart link preference](../../conversational-interfaces/task/create-smart-link-preference.md).
+You can configure smart links for Microsoft Teams from the URL navigation system action under **Target Location**. For more information about configuring smart links, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/create-smart-link-preference.md).
 
-There are three valid link opening options that are applicable to Microsoft Teams and the smart link settings in admin console enables admins to define where to open a link in Microsoft Teams.![Valid link opening options applicable to Microsoft Teams. Load in Place, New Browser Tab, and Popup options are highlighted.](../images/msteams-link-open-options.png)
+There are three valid link opening options that are applicable to Microsoft Teams and the smart link settings in admin console enables admins to define where to open a link in Microsoft Teams.\[Omitted image "msteams-link-open-options.png"\] Alt text: Valid link opening options applicable to Microsoft Teams. Load in Place, New Browser Tab, and Popup options are highlighted.
 
 1.  **Load in Place**: Links open inside a Microsoft Teams tab.
 
@@ -50,5 +51,5 @@ When no conditions are specified on the Target Location record, the valid link o
 
 If both chat widget and Microsoft Teams are valid channels for the customer, then admins can define different target locations for each channel by specifying the device type in the condition field \(such as Teams and mweb\). If the device type is specified as Teams and no other device types are specified, then that particular target location record will only be applied in Microsoft Teams.
 
-**Parent Topic:**[Configure link authentication and opening experience in Microsoft Teams](../task/link-opening-authentication-msteams.md)
+**Parent Topic:**[Configure link authentication and opening experience in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/link-opening-authentication-msteams.md)
 

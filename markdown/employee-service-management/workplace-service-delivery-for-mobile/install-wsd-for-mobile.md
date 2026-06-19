@@ -2,13 +2,14 @@
 title: Install Workplace Service Delivery for Mobile
 description: Install the Workplace Service Delivery for Mobile application from the ServiceNow Store .
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-for-mobile/install-wsd-for-mobile.html
 release: australia
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace Service Delivery for Mobile, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Service Delivery for Mobile
@@ -46,9 +47,9 @@ Role required: admin
     Dependent plugins and applications are listed.
 
 
-**Parent Topic:**[Configure Workplace Service Delivery for Mobile](../concept/configure-wsd-mobile.md)
+**Parent Topic:**[Configure Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
 
-**Previous topic:**[Configure Workplace Service Delivery for Mobile](../concept/configure-wsd-mobile.md)
+**Previous topic:**[Configure Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/configure-wsd-mobile.md)
 
-**Next topic:**[Mobile Wayfinding Administration](../concept/mobile-wayfinding.md)
+**Next topic:**[Mobile Wayfinding Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-service-delivery-for-mobile/mobile-wayfinding.md)
 

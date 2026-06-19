@@ -2,6 +2,7 @@
 title: Submit to Zscaler Sandbox analysis
 description: Use the Zscaler Internet Access products sandbox service to analyzes files in a virtual environment to detect malicious behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/submit-to-zscaler-sandbox-analysis.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -27,25 +28,23 @@ The name and source fields are auto-filled, and the configuration is enabled by 
 
 The analysis for the file that is associated with the MD5 hash should be complete and the corresponding report should be in the Zscaler sandbox. If the MD5 hash that you send does not have a report in Zscaler, you get an error message.
 
-![Pre-filled sandbox submission configuration record.](../image/zscaler-sandbox-submission.png "Zscaler Sandbox Submission")
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Incidents** &gt; **Show All Incidents**.
 
 2.  Select the security incident that you want to run the sandbox analysis on.
 
-3.  Click **Show All Related Lists** and the **Associated Observables** tab.
+3.  Select **Show All Related Lists** and the **Associated Observables** tab.
 
 4.  Select an MD5 hash type observable and then from the Actions menu, select **Submit to Sandbox**.
 
     Create an MD5 hash type observable if you do not find an existing MD5 hash type observable.
 
-5.  In the File Submission dialog box, select the **Zscaler - Sandbox Submission - Server** option in the Submission configuration and click **Submit to sandbox**.
+5.  In the File Submission dialog box, select the **Zscaler - Sandbox Submission - Server** option in the Submission configuration and select **Submit to sandbox**.
 
     After you initiate the sandbox submission, you can view the Work notes to see the status of your submission. A tag is also appended to the security incident.
 
-6.  In the Work notes, click the link in the Sandbox Submission Result post.
+6.  In the Work notes, select the link in the Sandbox Submission Result post.
 
 
 ## Result

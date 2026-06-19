@@ -2,6 +2,7 @@
 title: Install the ServiceNow CLI on Linux
 description: Install ServiceNow CLI on a Linux machine using the installer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-cli/install-linux.html
 release: australia
 product: ServiceNow CLI
 classification: servicenow-cli
@@ -54,5 +55,5 @@ Role required: admin
     ```
 
 
-**Parent Topic:**[Install the ServiceNow CLI](download-cli.md)
+**Parent Topic:**[Install the ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-cli/download-cli.md)
 

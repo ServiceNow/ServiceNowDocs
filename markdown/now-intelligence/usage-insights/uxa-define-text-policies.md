@@ -2,6 +2,7 @@
 title: Define texts for Notice and Explicit Opt-in messages
 description: Administrators can edit the text that is displayed in the modal window when a user’s location is assigned to a Notice or Explicit Opt-In consent policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/uxa-define-text-policies.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -34,5 +35,5 @@ Role required: admin
 5.  In the message area, enter your updated text and select **Update**.
 
 
-**Parent Topic:**[How users consent to tracking in Usage Insights](user-exp-analytics-user-set.md)
+**Parent Topic:**[How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/user-exp-analytics-user-set.md)
 

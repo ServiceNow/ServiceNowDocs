@@ -2,6 +2,7 @@
 title: Define a Cloud REST Query for cloud computing devices
 description: As part of creating or modifying a discovery pattern, you can use the Cloud REST Query operation to extract information from configuration items \(CIs\) of the PaaS \(Platform as a Service\) type, such as Microsoft Azure or Amazon Web Services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.html
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
@@ -122,7 +123,7 @@ Formatted JSON or not
 
     3.  In the variable name box, enter the name for the new variable, for example 'process\_name'.
 
-        ![Defining a variable name for the string marked in the Output pane](../image/PatDefVariableFromOutput.png)
+        \[Omitted image "PatDefVariableFromOutput.png"\] Alt text: Defining a variable name for the string marked in the Output pane
 
     4.  Press **Enter**.
 
@@ -134,7 +135,7 @@ Formatted JSON or not
 
     2.  Click the **Advanced** icon.
 
-        ![Displaying the Advanced Variables pane](../image/PatDefAdvanceVariableArea.png)
+        \[Omitted image "PatDefAdvanceVariableArea.png"\] Alt text: Displaying the Advanced Variables pane
 
     3.  Click **Add Column Label**.
 
@@ -157,9 +158,9 @@ Formatted JSON or not
 |Section|Identification of AWS S3|
 |Step number and Name|3. List buckets|
 
-![The Cloud REST Query operation](../image/PatDefCloudRESTQueryExample.png)
+\[Omitted image "PatDefCloudRESTQueryExample.png"\] Alt text: The Cloud REST Query operation
 
 Use the Cloud REST Query operation to extract information about AWS buckets, their names and creation dates.
 
-**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

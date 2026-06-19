@@ -2,6 +2,7 @@
 title: Display the help tips on the forms
 description: Display the help tips on the forms by updating the preferences. Help tips provide extra details about the fields and their related actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/display-help-tips-on-forms.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Role required: sn\_oper\_res.manager
 
     The user profile is shown in the example.
 
-    ![User profile.](../image/user-profile-pref.png)
+    \[Omitted image "user-profile-pref.png"\] Alt text: User profile.
 
 2.  Select **Display**.
 
@@ -31,12 +32,12 @@ Role required: sn\_oper\_res.manager
 
     The option is displayed in the example.
 
-    ![Show the option.](../image/show-help-tips-option.png)
+    \[Omitted image "show-help-tips-option.png"\] Alt text: Show the option.
 
     The help tips are displayed on the form as shown in the example.
 
-    ![Help tip.](../image/help-tip-on-the-forms.png)
+    \[Omitted image "help-tip-on-the-forms.png"\] Alt text: Help tip.
 
 
-**Parent Topic:**[Configuring Digital resilience third-party registers](../concept/conf-dg-resi-party-regi.md)
+**Parent Topic:**[Configuring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-dg-resi-party-regi.md)
 

@@ -2,6 +2,7 @@
 title: Threat Analyst Workbench
 description: The Threat Analyst Workbench page consists of cases and case tasks that are under Threat Analysts and their team.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-analyst-workbench.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -19,22 +20,24 @@ Use the **Case Management** feature to create and track the threat investigation
 
 During the threat investigations the analysts collect the data from internal intelligence records such as observables, threat actors, campaigns, and so on.
 
--   **[Workbench Overview](workbench-overview.md)**  
+-   **[Workbench Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/workbench-overview.md)**  
 The Workbench Overview page consists of the Case Tasks and Cases that are under Threat Analysts and their team.
--   **[Creating cases using Threat Analyst Workbench](create-cases-using-threat-analyst-workbench.md)**  
+-   **[Creating cases using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/create-cases-using-threat-analyst-workbench.md)**  
 Cases are used to track information about a campaign or threat actor threatening your organization. After a case is created, you can add artifacts that allow you to review and analyze all related information from a single case or case task.
--   **[Creating case task using Threat Analyst Workbench](../task/tisc-create-case-task.md)**  
+-   **[Creating case task using Threat Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-case-task.md)**  
 Create case tasks to associate with case\(s\).
--   **[Working with Investigation Canvas](tisc-investigation-canvases.md)**  
+-   **[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)**  
 The Investigation Canvas is a key significant feature, which provides more valuable information for the Threat Intelligence \(TI\) analysts. It provides a structured framework by mapping one to one or one to many relationships and visualizing information related to observables, indicators of compromise \(IOCs\), or entities.
--   **[Add artifacts to case\(s\) or case task\(s\)](../task/add-artifacts-to-a-case-s.md)**  
+-   **[Add artifacts to case\(s\) or case task\(s\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/add-artifacts-to-a-case-s.md)**  
 After you have created a case, you can view or add artifacts, such as security incidents, CIs, and indicators of compromise, to the case. These artifacts act as clues in solving the case.
--   **[Run Enrichment Actions within a case](../task/run-enrichment-results.md)**  
+-   **[Run Enrichment Actions within a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/run-enrichment-results.md)**  
 Use this section to understand how enrichments actions are performed on case\(s\).
--   **[View Case Reports](../task/view-case-reports.md)**  
+-   **[View Case Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-case-reports.md)**  
 Use the case reports feature to generate reports related to the cases. These reports include post investigation report or an executive summary report.
--   **[Create a security incident from a TISC case](../task/tisc-create-si-case.md)**  
+-   **[Create a security incident from a TISC case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-create-si-case.md)**  
 Create security incidents and associate observables to the security incidents from a TISC case.
--   **[Upload Secure File Attachments](../task/secure-file-attachments.md)**  
+-   **[Upload Secure File Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/secure-file-attachments.md)**  
 Use this section to understand on how to upload the secure file attachments to the case\(s\).
+-   **[Using playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-playbooks-analyst.md)**  
+Playbooks in Threat Intelligence Security Center guide analysts through structured threat investigation stages. Each stage defines the actions to complete before the case advances to the next phase of the response process.
 

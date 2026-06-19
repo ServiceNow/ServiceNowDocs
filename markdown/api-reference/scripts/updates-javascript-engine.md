@@ -2,6 +2,7 @@
 title: Updates to the JavaScript engine in Australia
 description: Review the updates to the JavaScript engine on the ServiceNow AI Platform in the Australia release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/updates-javascript-engine.html
 release: australia
 product: Scripts
 classification: scripts
@@ -39,5 +40,5 @@ The JavaScript engine is built on the open-source Rhino JavaScript engine and cu
 |\#1774|Don't allow methods to be used as constructors|ECMAScript 2021 \(ES12\)|Fix|
 |\#1806|Fix hoisting behavior|All modes|Fix|
 
-**Parent Topic:**[JavaScript engine on the platform](../concept/c_JS_engine_upgrade.md)
+**Parent Topic:**[JavaScript engine on the platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_JS_engine_upgrade.md)
 

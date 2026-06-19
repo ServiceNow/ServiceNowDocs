@@ -2,6 +2,7 @@
 title: Create New Contract form
 description: On the Create New Contract form, fill in the fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-new-contract-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -29,5 +30,5 @@ On the Create New Contract form, fill in the fields.
 |Business owner|Internal contact responsible for the ownership of goods or services.|
 |Description|Detailed description of the contract.|
 
-**Parent Topic:**[Create a contract and enhance digital resilience data](../task/create-drtp-reg-contract.md)
+**Parent Topic:**[Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-drtp-reg-contract.md)
 

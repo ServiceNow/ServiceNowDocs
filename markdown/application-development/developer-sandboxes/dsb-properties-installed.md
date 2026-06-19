@@ -2,6 +2,7 @@
 title: Properties installed with Developer Sandboxes
 description: The system properties available in Developer Sandboxes govern application behavior, enabling developers to configure and optimize their testing environments effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/developer-sandboxes/dsb-properties-installed.html
 release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes

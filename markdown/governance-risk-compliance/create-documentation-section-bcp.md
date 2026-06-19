@@ -2,6 +2,7 @@
 title: Create documentation sections
 description: Create a documentation section in the business continuity plan. You can then document the recovery capabilities of your business continuity plan in BCM UIB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-documentation-section-bcp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -39,7 +40,7 @@ These UI actions are available for the documentation sections:
 
     If you create a documentation section and move away without saving the changes, the documentation section is marked as **Untitled** with the **Unsaved changes** tag as shown in the example. A message is displayed on the screen: `Do you want to save the changes?`
 
-    ![Save the documentation section.](../image/bcp-doc-section-save-changes.png)
+    \[Omitted image "bcp-doc-section-save-changes.png"\] Alt text: Save the documentation section.
 
     If you select **Save**, the documentation section is saved in the plan. If you select **Discard**, the changes to the documentation section are not saved.
 
@@ -49,24 +50,24 @@ These UI actions are available for the documentation sections:
 
     **Note:** When you create a documentation section on the **Documentation** tab without using the plan template, the **Reset to template** UI action is not available for that documentation section.
 
-    ![Order field in the documentation section of a BCP.](../image/bcp-doc-section-order-field.png)
+    \[Omitted image "bcp-doc-section-order-field.png"\] Alt text: Order field in the documentation section of a BCP.
 
     To create a documentation section that is displayed as the second section in the Sections panel, assign it an order value that is more than 0 and less than 100, such as 50.
 
     The documentation section with an order value of 50 is displayed as the second documentation section in the Sections panel on the **Documentation** tab.
 
-    ![Middle order of the doc section.](../image/bcp-doc-section-middle-order.png)
+    \[Omitted image "bcp-doc-section-middle-order.png"\] Alt text: Middle order of the doc section.
 
 6.  To save the documentation section in the plan, select **Save section**.
 
     The documentation section is saved in the business continuity plan.
 
-    ![Saving the documentation section.](../image/bcp-new-doc-section-saved.png)
+    \[Omitted image "bcp-new-doc-section-saved.png"\] Alt text: Saving the documentation section.
 
 7.  To delete a documentation section in the plan, select **Delete**.
 
 8.  To reset a documentation section to its template, select the More actions \(**...**\) icon and then select **Reset to template**.
 
 
-**Parent Topic:**[Structured workflows for BCPs](../concept/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

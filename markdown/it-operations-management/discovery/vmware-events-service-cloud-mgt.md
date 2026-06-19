@@ -2,6 +2,7 @@
 title: Configure the VMware Events service to auto-update the CMDB
 description: Configure events from the cloud environment to make the necessary updates to your CMDB without additional scanning. The VMware Events service can auto-update CI data in the CMDB whenever Cloud Provisioning and Governance makes a life-cycle state or configuration change to a VMware resource. As a result, the CI data in the CMDB is updated without having to wait for Discovery to run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/vmware-events-service-cloud-mgt.html
 release: australia
 product: Discovery
 classification: discovery

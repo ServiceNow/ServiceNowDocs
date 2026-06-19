@@ -2,6 +2,7 @@
 title: Request client software distribution
 description: Client software distribution requires the Orchestration - Client Software Distribution plugin \(com.snc.orchestration.client\_sf\_distribution\), which is available by request with a subscription to Integration Hub.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/request-csd-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Client Software Distribution plugin activates the System Center Configuration Manager plugin that contains the [Microsoft SCCM spoke](../concept/microsoft-sccm-spoke.md) actions to deploy or revoke software using an SCCM server. For additional plugin dependencies, see [Plugins installed with client software distribution](../reference/csd-installed-plugins.md).
+The Client Software Distribution plugin activates the System Center Configuration Manager plugin that contains the [Microsoft SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-sccm-spoke.md) actions to deploy or revoke software using an SCCM server. For additional plugin dependencies, see [Plugins installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-installed-plugins.md).
 
 **Note:** The Client Software Distribution plugin runs in its own application scope.
 
@@ -79,5 +80,5 @@ Information that would be helpful for the ServiceNow personnel who are activatin
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Client Software Distribution using Integration Hub](../concept/csd-integrationhub.md)
+**Parent Topic:**[Client Software Distribution using Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-integrationhub.md)
 

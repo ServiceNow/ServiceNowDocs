@@ -2,6 +2,7 @@
 title: View the landing page for healthcare-related cases in Workspace
 description: As a healthcare agent, you can use the landing page of Workspace to quickly scan and access healthcare-related cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -33,9 +34,9 @@ From the landing page of Workspace, agents can:
 
 By default, the Workspace displays data in the following sections:
 
--   [Important items](hcls-viewing-home-page.md#dlentry_cy2_pk4_dsb)
--   [Cases](hcls-viewing-home-page.md#dlentry_c21_yvw_2qb)
--   [My active cases](hcls-viewing-home-page.md#dlentry_qcc_zvw_2qb)
+-   [Important items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md)
+-   [Cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md)
+-   [My active cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md)
 
 **Note:** Your administrator can customize the landing page for Workspace and change the data that appears on it.
 
@@ -54,5 +55,5 @@ By default, the Workspace displays data in the following sections:
 
 **Note:**
 
-The Workspace landing page for healthcare-related cases is same as the CSM Configurable Workspace landing page. Therefore, you might see additional information based on the configuration set up by your administrator. For more information, see [CSM Configurable Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-workspace-landing-pages.md).
+The Workspace landing page for healthcare-related cases is same as the CSM Configurable Workspace landing page. Therefore, you might see additional information based on the configuration set up by your administrator. For more information, see CSM Configurable Workspace landing page.
 

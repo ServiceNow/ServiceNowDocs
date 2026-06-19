@@ -2,13 +2,14 @@
 title: Activate Incident Updates
 description: You can activate the Incident Updates plugin \(com.snc.incident.updates\) to receive the incident notification updates if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/activate-incident-updates.html
 release: australia
 product: Incident Management
 classification: incident-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Incident Management plugins, Reference section for Incident Management, Incident Management, IT Service Management]
+breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
 
 # Activate Incident Updates
@@ -31,13 +32,13 @@ Role required: admin
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Incident Management plugins](../concept/incident-mgmt-plugins.md)
+**Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-mgmt-plugins.md)
 
 **Related topics**  
 
 
-[List of Australia plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

@@ -2,6 +2,7 @@
 title: Disconnect from a Twilio account
 description: If a Twilio account is already associated with a different system, disconnect the account from the other system before connecting to the current instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/t\_disconnect-from-Twilio-account.html
 release: australia
 product: Notify
 classification: notify
@@ -30,5 +31,5 @@ Role required: notify\_admin
     The account is disconnected from the instance. The system clears the **Account SID** and **Auth Token** fields and deactivates the list of associated phone numbers.
 
 
-**Parent Topic:**[Configure Notify with Twilio](t_ConfigureNotifyWithTwilio.md)
+**Parent Topic:**[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)
 

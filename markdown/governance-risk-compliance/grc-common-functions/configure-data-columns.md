@@ -1,19 +1,20 @@
 ---
 title: Configure Data columns
-description: Configure data columns to choose which fields from the selected table appear in your report. This helps ensure that only relevant information is displayed, making reports clear and actionable.
+description: Configure data columns to choose which fields from the selected table appear in your report. This helps confirm that only relevant information is displayed, making reports clear and actionable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/configure-data-columns.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create content configurations, Configure document templates using Document Designer, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Create content configurations, Configure document templates using Document Designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Configure Data columns
 
-Configure data columns to choose which fields from the selected table appear in your report. This helps ensure that only relevant information is displayed, making reports clear and actionable.
+Configure data columns to choose which fields from the selected table appear in your report. This helps confirm that only relevant information is displayed, making reports clear and actionable.
 
 ## Before you begin
 
@@ -27,7 +28,7 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 
 3.  Review the Content configuration field.
 
-    This field is pre-populated with the name of the selected entity and is read-only. To preview the record, click the info icon.
+    This field is pre-populated with the name of the selected entity and is read-only. To preview the record, select the info icon.
 
 4.  In the Type field, select Column or Script from the drop-down list.
 
@@ -40,5 +41,5 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 
 ## What to do next
 
-[Configure Intermediate filters](configure-intermediate-filters.md)
+[Configure Intermediate filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-intermediate-filters.md)
 

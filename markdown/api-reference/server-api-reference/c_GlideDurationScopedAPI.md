@@ -2,6 +2,7 @@
 title: GlideDuration - Scoped
 description: The GlideDuration class provides methods for working with spans of time known as durations.Instantiates a GlideDuration object.Instantiates a GlideDuration object by cloning the values of the passed in GlideDuration object.Instantiates a GlideDuration object with the specified duration in milliseconds.Instantiates a GlideDuration object with the specified duration display value.Adds the duration of the specified GlideDuration object to the current GlideDuration object.Returns the duration value in the specified format.Returns the number of days.Returns the display value of the duration in number of days, hours, and minutes.Returns the duration value in "d HH:mm:ss" format.Returns the rounded number of days. If the time part is more than 12 hours, the return value is rounded up. Otherwise, it is rounded down.Returns the internal date/time value of the current GlideDuration object.Sets the duration display value.Sets the internal date/time value of the GlideDuration object.Subtracts the duration of the specified GlideDuration object to the current GlideDuration object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideDurationScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideDuration class provides methods for working with spans of time known as
 
 GlideDuration objects store the duration as the number of days and time from January 1, 1970, 00:00:00. As a result, the setValue\(\) and getValue\(\) methods use the scoped GlideDateTime object for parameters and return values.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideDuration - GlideDuration\(\)
 
@@ -180,7 +181,7 @@ String
 
 </td><td>
 
-Duration format.Format: [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/r_FormatDateAndTimeFields.md)
+Duration format.Format: Global date and time field format
 
 </td></tr></tbody>
 </table>|Type|Description|

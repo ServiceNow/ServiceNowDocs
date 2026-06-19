@@ -2,6 +2,7 @@
 title: GlideAjax - Client
 description: The GlideAjax class enables a client script to call server-side code in a script include.Constructor for GlideAjax.Specifies a parameter name and value to be passed to the server-side function associated with this GlideAjax object.Retrieves the results from a server-side method called from the client via getXMLWait\(\).Calls the processor asynchronously and gets the answer element of the response in XML format.Sends the server a request to execute the method and parameters associated with this GlideAjax object.Sends the server a request to execute the method and parameters associated with this GlideAjax object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideAjaxAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -39,7 +40,7 @@ function HelloWorldParse(response) {
 }
 ```
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## GlideAjax - GlideAjax\(String class\_name\)
 

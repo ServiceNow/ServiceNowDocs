@@ -2,6 +2,7 @@
 title: Hiring tab
 description: The Hiring tab is a centralized hub for hiring managers, designed to facilitate efficient stakeholder collaboration and drive a streamlined and effective hiring process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hiring-landing.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,15 +20,15 @@ The Hiring tab is a centralized hub for hiring managers, designed to facilitate 
 
 <table id="table_n3b_3lb_1gc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the Hiring tab application](exploring-hiring-tab.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the Hiring tab application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/exploring-hiring-tab.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure the Hiring tab application](configuring-hiring-tab.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure the Hiring tab application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configuring-hiring-tab.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-3-person.svg)Learn how to use the Hiring tab application](use-hiring.md)
+[Use\[Omitted image "bus-3-person.svg"\] Alt text:Learn how to use the Hiring tab application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
 
 </td></tr></tbody>
 </table>## Additional resources

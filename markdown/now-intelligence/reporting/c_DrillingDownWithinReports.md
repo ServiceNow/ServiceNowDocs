@@ -2,6 +2,7 @@
 title: Drilling down within Core UI reports
 description: You can drill down within a report to visualize a subset of its data. For example, you can click on the critical section of a report sorted by priority to view the categories of those critical incidents.You can define a report drilldown to enable reporting users to view subsets of the report data. When you define a report drilldown, it applies only to the report for which you define it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/c\_DrillingDownWithinReports.html
 release: australia
 product: Reporting
 classification: reporting
@@ -17,15 +18,15 @@ You can drill down within a report to visualize a subset of its data. For exampl
 
 For reports with a defined drilldown, click on a portion of the chart to display a subset of data. The subset may use a different chart type. In the example, the user clicks on the critical incidents in a bar chart to reveal the categories of critical incidents in a semi-donut chart.
 
-**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Chart interactions in a data visualization](../../par-for-workspace/concept/dv-chart-interactions.md).
+**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dv-chart-interactions.md).
 
-![Drilldown example with two report types](../image/drilldown-example-2.png "Drilldown example")
+\[Omitted image "drilldown-example-2.png"\] Alt text: Drilldown example with two report types
 
 All chart types except for list, histogram, calendar, control, box, and trendbox charts support drilling down. Drilling down is not available on charts added to forms, and charts embedded as iframes. You can define any number of drilldown levels for a report.
 
 **Note:** Drilldown reports do not export to PDF. If you select **Export to PDF** on a drilldown, a PDF of the top level report is generated.
 
-**Parent Topic:**[Advanced Core UI reporting topics](c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Define a report drilldown
 
@@ -49,19 +50,19 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 3.  Select **View Report**.
 
-4.  Select the **Show report structure** icon \(![Show report structure](../image/Form_ShowReportStructureIcon.png)\).
+4.  Select the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
 
     A badge on the Report structure icon displays the number of defined drilldowns.
 
-5.  Select the Add drilldown icon \(![Plus sign button](../../dashboards/image/AddWidgetButton.png)\).
+5.  Select the Add drilldown icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\).
 
-    ![Drilldown example with two levels](../image/drilldown-example.png "Drilldown example")
+    \[Omitted image "drilldown-example.png"\] Alt text: Drilldown example with two levels
 
 6.  Enter a **Title** for the drilldown and select **Next**.
 
 7.  Select the report **Type** to display the data and select **Next**.
 
-    See [Report types](../reference/report-types-creation-details-rd.md). The drilldown report type can be different than the parent report.
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-types-creation-details-rd.md). The drilldown report type can be different than the parent report.
 
 8.  Configure the drilldown report the same way you would configure any other report.
 
@@ -74,5 +75,5 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 The user can drill down from the top-level report to the specified drilldown report visualizations.
 
-**Note:** All users can view report visualizations, such as pie charts and column reports. However, the last level of a drilldown is always a list. Platform access control lists determine user access to list information. Users may see a message indicating that rows were removed from the list by Security constraints. For more information, see [Access control list rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-control-rules.md).
+**Note:** All users can view report visualizations, such as pie charts and column reports. However, the last level of a drilldown is always a list. Platform access control lists determine user access to list information. Users may see a message indicating that rows were removed from the list by Security constraints. For more information, see Access control list rules.
 

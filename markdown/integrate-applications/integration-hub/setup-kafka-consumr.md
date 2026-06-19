@@ -2,6 +2,7 @@
 title: Configure ServiceNow Kafka Consumer
 description: Retrieve events pertaining to the specified topics and store it in the required ServiceNow tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-kafka-consumr.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -18,9 +19,9 @@ Retrieve events pertaining to the specified topics and store it in the required 
 ## Before you begin
 
 -   Request Integration Hub subscription.
--   Activate and set up the [Confluent Kafka REST Proxy Spoke](../concept/conf-kafka-spoke.md).
+-   Activate and set up the [Confluent Kafka REST Proxy Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-kafka-spoke.md).
 -   Activate ServiceNow Kafka Consumer.
--   Define entities and mapping between entities. For information, see [Robust Import Set Transformers](../../import-sets/concept/robust-import-set-transformers.md).
+-   Define entities and mapping between entities. For information, see [Robust Import Set Transformers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/robust-import-set-transformers.md).
 -   Role required: import\_admin
 
 ## Procedure
@@ -34,9 +35,9 @@ Retrieve events pertaining to the specified topics and store it in the required 
     |Field|Description|
     |-----|-----------|
     |Name|Name to identify the record.|
-    |Broker Connection Alias|Connection alias of the [Confluent Kafka REST Proxy Spoke](../concept/conf-kafka-spoke.md).|
+    |Broker Connection Alias|Connection alias of the [Confluent Kafka REST Proxy Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-kafka-spoke.md).|
     |Topic|Topic from which you want to retrieve the events.|
-    |Robust Transformer Definition|Robust Transformer Definition that is used for the event transformation and data storage in ServiceNow tables. For information, see [Robust Import Set Transformers](../../import-sets/concept/robust-import-set-transformers.md).|
+    |Robust Transformer Definition|Robust Transformer Definition that is used for the event transformation and data storage in ServiceNow tables. For information, see [Robust Import Set Transformers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/robust-import-set-transformers.md).|
     |Offset Starting Point|Value of the Kafka Consumer auto.offset.reset. This specifies what the Kafka Consumer should do when there is no initial offset or if the current offset does not exist any more on the server. See the [Kafka 2.7 documentation](https://kafka.apache.org/documentation/#consumerconfigs_auto.offset.reset) for more information.|
     |Partitions per group|Number of partitions per consumer thread.|
     |Page size \(bytes\)|Maximum size of a request.|
@@ -63,5 +64,5 @@ Retrieve events pertaining to the specified topics and store it in the required 
 9.  Click **Update**.
 
 
-**Parent Topic:**[ServiceNow Kafka Consumer](../concept/kafka-consumer.md)
+**Parent Topic:**[ServiceNow Kafka Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/kafka-consumer.md)
 

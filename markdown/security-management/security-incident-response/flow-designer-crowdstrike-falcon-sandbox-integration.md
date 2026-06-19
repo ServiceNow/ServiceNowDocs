@@ -2,11 +2,12 @@
 title: Automate CrowdStrike Falcon Sandbox submissions using Flow Designer
 description: Automate your file or URL submissions by using the CrowdStrike Falcon X Sandbox integration and Workflow Studio as part of your incident response workflow. The integration includes flow templates that you can use for your security incident records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/flow-designer-crowdstrike-falcon-sandbox-integration.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -17,7 +18,7 @@ Automate your file or URL submissions by using the CrowdStrike Falcon X Sandbox 
 
 ## Before you begin
 
--   Verify that you have created a [Sandbox submission configuration](setup-sandbox-submission-configurations.md) and have enabled one configuration as the **Default configuration for automated submission**. When the flow is triggered, the sandbox submission occurs on your default configuration.
+-   Verify that you have created a [Sandbox submission configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/setup-sandbox-submission-configurations.md) and have enabled one configuration as the **Default configuration for automated submission**. When the flow is triggered, the sandbox submission occurs on your default configuration.
 
 Role required: sn\_si.admin
 
@@ -40,14 +41,14 @@ The sandbox integration also contains multiple subflows. The subflows are intern
 
 You can refer the subflows to troubleshoot issues with sandbox submissions. An Execution record is created every time you invoke a subflow. This record indicates where in the flow a particular error occurred and enables you to fix the problem.
 
-![The sandbox integration contains multiple subflows.](../image/subflows.png "Sandbox Integration- Multiple workflows")
+\[Omitted image "subflows.png"\] Alt text: The sandbox integration contains multiple subflows.
 
 **Note:**
 
 -   If you choose to customize the default flows, then you should verify that the Submit Observable for Automated submission subflow is included in your flow to trigger automatic submissions.
 -   You can customize and define your file extensions for an exe. Create a copy of the flow **Submit when file type for observable is exe**, and make changes to the copy. The content type and file extensions are mapped in the SandboxUtils script. To access script includes, navigate to **System Definitions &gt; Script Includes** and search for SandboxUtils.
 
-    ![Access and modify the SandboxUtils script.](../image/sandboxutils.png "SandboxUtils script")
+    \[Omitted image "sandboxutils.png"\] Alt text: Access and modify the SandboxUtils script.
 
 
 ## Procedure
@@ -58,18 +59,18 @@ You can refer the subflows to troubleshoot issues with sandbox submissions. An E
 
     For example, \*crowd filters the two CrowdStrike Falcon X Sandbox flows.
 
-    ![Sandbox integration provides two default flows.](../image/flow-designer.png)
+    \[Omitted image "flow-designer.png"\] Alt text: Sandbox integration provides two default flows.
 
 3.  Select a flow to view the details.
 
     The example below shows the Submit file when category is phishing flow.
 
-    ![Activate the base system flow or customize your flow.](../image/flow-activate.png)
+    \[Omitted image "flow-activate.png"\] Alt text: Activate the base system flow or customize your flow.
 
 4.  Select **Activate** and then select **OK** when the confirmation message appears.
 
 
 ## What to do next
 
-After you configure automated submission flows, you can [View the sandbox submission results](view-sandbox-submission-results.md) to analyze any threats.
+After you configure automated submission flows, you can [View the sandbox submission results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/view-sandbox-submission-results.md) to analyze any threats.
 

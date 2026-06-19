@@ -2,6 +2,7 @@
 title: Manage Workplace Reservations for Microsoft Outlook Add-in
 description: Employees can create reservations using the Microsoft Outlook Add-in. They can calendar events or meetings to the Workplace Reservation Management 3.0.2 manifest add-in file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-reservation-management/manage-outlook-addin-rsv.html
 release: australia
 product: Workplace Reservation Management
 classification: workplace-reservation-management
@@ -21,7 +22,7 @@ Employees can enable advanced search to filter spaces, work with a reservable mo
 
 When a meeting is created in Microsoft Outlook, the meeting event on the resource is synchronized with Workplace Reservation Management to create a reservation.
 
-Workplace Reservation Management administrators can enable the Reservable module configuration for Microsoft Outlook Add-in. They can migrate or update existing Microsoft Outlook add-in version 1.12.2 or earlier versions to the latest Workplace Reservation Management 3.0.2 For more information, see [Configure Reservable Module for Microsoft Outlook](../task/config-rsv-module-outlook.md).
+Workplace Reservation Management administrators can enable the Reservable module configuration for Microsoft Outlook Add-in. They can migrate or update existing Microsoft Outlook add-in version 1.12.2 or earlier versions to the latest Workplace Reservation Management 3.0.2 For more information, see [Configure Reservable Module for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-reservation-management/config-rsv-module-outlook.md).
 
 Employees can perform the following using Workplace Reservation Management 3.0.2.
 
@@ -37,5 +38,5 @@ Employees can perform the following using Workplace Reservation Management 3.0.2
     Extra services \(catering, IT support, furniture arrangements, and so on\) can be configured and requested alongside workplace reservations.
 
 
-Workplace calendar synchronization allows employees to use Calendar Providers \(MS Outlook or Google\) to create reservation records in Workplace Reservation Management. For more information, see [Microsoft Exchange Online - Calendar synchronization](../../workplace-calendar-synchronization/reference/ms-exchange-reservation-synchronization.md).
+Workplace calendar synchronization allows employees to use Calendar Providers \(MS Outlook or Google\) to create reservation records in Workplace Reservation Management. For more information, see [Microsoft Exchange Online - Calendar synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/ms-exchange-reservation-synchronization.md).
 

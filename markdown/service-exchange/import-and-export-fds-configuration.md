@@ -2,13 +2,14 @@
 title: Import and export foundation data sync configuration
 description: Export ETL configurations for foundation data sync \(FDS\) from one instance to another using update sets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/import-and-export-fds-configuration.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Configuring inbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
+reading_time_minutes: 1
+breadcrumb: [Configure inbound FDS as consumers, Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Import and export foundation data sync configuration
@@ -41,28 +42,28 @@ You can export ETL configurations from one instance and import them into another
 
     2.  Request a foundation data sync \(FDS\) offering, complete the configuration, and verify that the data sync is working correctly.
 
-        For more information on how to request a foundation data sync \(FDS\) offering, see [Request foundation data sync offerings](service-bridge-v2-request-fds-offerings.md).
+        For more information on how to request a foundation data sync \(FDS\) offering, see [Request foundation data sync offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-request-fds-offerings.md).
 
     3.  Complete the update sets and export it.
 
-        For more information on update sets, see [General guidelines for planning the update process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/get-started-update-sets.md).
+        For more information on update sets, see .
 
 2.  Import the ETL configuration to another instance.
 
-    1.  In the new instance, request a foundation data sync \(FDS\) offering with same cadence as in [Step 1](import-and-export-fds-configuration.md#substeps_dwc_5l1_cgc).
+    1.  In the new instance, request a foundation data sync \(FDS\) offering with same cadence as in [Step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/import-and-export-fds-configuration.md).
 
     2.  After a subscription is created for your FDS request, and the request is in awaiting validation state, import the configuration that you have exported in Step 1.
 
-        If you have any errors in the update sets, you can skip those files and commit the remaining files. Your configuration won't be affected. For more information on update sets, see [General guidelines for planning the update process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/get-started-update-sets.md).
+        If you have any errors in the update sets, you can skip those files and commit the remaining files. Your configuration won't be affected. For more information on update sets, see .
 
     3.  Open the subscription and the subscription item.
 
     4.  Select **ETL Transform Map Assistance**.
 
-        In the guided setup, step 1, step 2, and step 3 are marked as completed. For more information, see [Validate foundation data sync subscription items](service-bridge-v2-validate-fds-subscription.md)
+        In the guided setup, step 1, step 2, and step 3 are marked as completed. For more information, see [Validate foundation data sync subscription items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-validate-fds-subscription.md)
 
     5.  Verify all the steps in ETL configuration to make sure everything is mapped correctly, and run the integration and perform rollback.
 
-        For details, see [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md).
+        For details, see .
 
 

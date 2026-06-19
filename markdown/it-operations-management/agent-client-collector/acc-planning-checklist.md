@@ -2,6 +2,7 @@
 title: Agent Client Collector planning checklist
 description: Successful Agent Client Collector \(ACC\) implementations, especially involving large numbers of endpoints or servers, require careful planning. Before proceeding with a large-scale ACC deployment, follow the steps described in the planning checklist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-planning-checklist.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -137,5 +138,5 @@ Internal Compliance and Security Review
 Work with internal teams and your stakeholders to review your deployment plan, solution architecture, and to obtain approvals.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Preparing for Agent Client Collector implementation](acc-preparation.md)
+</table>**Parent Topic:**[Preparing for Agent Client Collector implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-preparation.md)
 

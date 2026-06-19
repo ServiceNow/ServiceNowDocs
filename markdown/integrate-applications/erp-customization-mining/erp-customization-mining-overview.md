@@ -2,6 +2,7 @@
 title: ERP Semantic Mining
 description: The ServiceNow ERP Semantic Mining \(formerly named ERP Customization Mining\) product enables you to find application candidates with customized code your their ERP \(Enterprise Resource Planning\) system. ERP Semantic Mining ranks the candidate suitability for replatforming onto the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erp-customization-mining-overview.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -25,19 +26,19 @@ The replatforming of legacy code enables innovation on top of the system of reco
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![](../../../reuse/icons/brand-icons/bus-learn.svg) Learn about ERP Semantic Mining concepts and features.](exploring-ecm.md)
+[Explore \[Omitted image "bus-learn.svg"\] Alt text: Learn about ERP Semantic Mining concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/exploring-ecm.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg) Install and configure ERP Semantic Mining connections.](configuring-ecm.md)
+[Configure \[Omitted image "bus-optimize-manage.svg"\] Alt text: Install and configure ERP Semantic Mining connections.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/configuring-ecm.md)
 
 </td></tr><tr><td>
 
-[Work ![](../../../reuse/icons/brand-icons/bus-application-development.svg) Use ERP Semantic Mining to identify candidates to replatform.](work-with-candidates.md)
+[Work \[Omitted image "bus-application-development.svg"\] Alt text: Use ERP Semantic Mining to identify candidates to replatform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/work-with-candidates.md)
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-rocketship.svg) Get details about ERP Semantic Mining components, such as tables and terminology.](../reference/erp-customization-mining-ref.md)
+[Reference \[Omitted image "bus-rocketship.svg"\] Alt text: Get details about ERP Semantic Mining components, such as tables and terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-ref.md)
 
 </td></tr></tbody>
 </table>## Learning resources for ERP Semantic Mining
@@ -56,26 +57,26 @@ ERP Semantic Mining has a number of training and learning resources for you to g
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-webinar.svg) [Partner Essentials: Clean Core for App Engine](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=a38644e947d6759490542034846d43bf)
+\[Omitted image "bus-webinar.svg"\] Alt text: [Partner Essentials: Clean Core for App Engine](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=a38644e947d6759490542034846d43bf)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-whitepaper.svg) [ERP Semantic Mining Overview](https://learning.servicenow.com/lxp/en/app-engine/erp-customization-mining-erp-cm-overview?id=learning_course_prev&course_id=a88a3c95979a69185b0b7ec11153af94)
+\[Omitted image "bus-whitepaper.svg"\] Alt text: [ERP Semantic Mining Overview](https://learning.servicenow.com/lxp/en/app-engine/erp-customization-mining-erp-cm-overview?id=learning_course_prev&course_id=a88a3c95979a69185b0b7ec11153af94)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-3-person.svg) [App Engine for ERP Fundamentals](https://learning.servicenow.com/lxp/en/app-engine/enterprise-resource-planning-clean-core-with-app-engine-overview?id=learning_course_prev&course_id=993f4386479c9ed02a090dcbd36d431b)
+\[Omitted image "bus-3-person.svg"\] Alt text: [App Engine for ERP Fundamentals](https://learning.servicenow.com/lxp/en/app-engine/enterprise-resource-planning-clean-core-with-app-engine-overview?id=learning_course_prev&course_id=993f4386479c9ed02a090dcbd36d431b)
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/brand-icons/bus-video-play.svg) [Get to a clean ERP core with ServiceNow ERP Semantic Mining](https://learning.servicenow.com/lxp/en/app-engine/ccl1273-k23-lab-get-to-a-clean-erp-core-with-servicenow-erp?id=learning_course_prev&course_id=51c84b14c36e6550cfdf34ee05013166)
+\[Omitted image "bus-video-play.svg"\] Alt text: [Get to a clean ERP core with ServiceNow ERP Semantic Mining](https://learning.servicenow.com/lxp/en/app-engine/ccl1273-k23-lab-get-to-a-clean-erp-core-with-servicenow-erp?id=learning_course_prev&course_id=51c84b14c36e6550cfdf34ee05013166)
 
 </td></tr></tbody>
 </table>## Request ERP Semantic Mining on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Before you can use ERP Semantic Mining, you must first download ERP Semantic Mining from the ServiceNow Store. After you have completed the download, you may need to clear your local cache before ERP Semantic Mining appears on your instance.
 
-After you download ERP Semantic Mining, install it on your instance. For more information, see [Install ERP Semantic Mining](../task/install-erp-customization-mining.md).
+After you download ERP Semantic Mining, install it on your instance. For more information, see [Install ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/install-erp-customization-mining.md).
 

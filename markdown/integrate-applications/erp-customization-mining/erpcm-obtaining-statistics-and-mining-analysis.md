@@ -2,6 +2,7 @@
 title: Obtaining ERP Semantic Mining statistics and mining analysis
 description: Use the ERP Semantic Mining home page dashboard to obtain statistics about candidates and info to help you troubleshoot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/erpcm-obtaining-statistics-and-mining-analysis.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -106,7 +107,7 @@ ERP models
 
 </td><td>
 
-Number of ERP models the potential candidate belongs to.ERP models are configured in Zero Copy Connector for ERP. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source. For more information, see [Building and managing ERP models to work with ERP data](https://www.servicenow.com/docs/bundle/xanadu-application-development/page/build/erp-integration/concept/work-with-erp-data-models.html).
+Number of ERP models the potential candidate belongs to.ERP models are configured in Zero Copy Connector for ERP. An ERP model functions as a staging area that contains all potential fields you can add to remote and extraction tables, and read and update operations. You can then use the tables and queried data as a data source. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
 
 </td></tr><tr><td>
 
@@ -127,5 +128,5 @@ This tab contains system-wide information that is useful to view after importing
 |Users per module|Donut|Number of users for each module by number and percentage.|
 |Users of applications per module|Bar|Type of application users by module. User type is based on the number of different applications accessed. Users are defined as Light \(uses few apps\), Moderate \(uses multiple apps\), and Power \(uses the most apps\). Frequency of use isn't part of the calculation.|
 
-**Parent Topic:**[Finding and working with candidates to replatform](work-with-candidates.md)
+**Parent Topic:**[Finding and working with candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/work-with-candidates.md)
 

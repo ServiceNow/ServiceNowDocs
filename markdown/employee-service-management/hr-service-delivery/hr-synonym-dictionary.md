@@ -2,6 +2,7 @@
 title: HR synonym dictionary
 description: HR Service Delivery provides a Synonym Dictionary that helps expand text searches with additional keywords.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-synonym-dictionary.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,5 +51,5 @@ You can edit the HR Synonym Dictionary to reflect your business and terminology.
         2.  Click **Publish Dictionary** under Related Links.
         3.  The Synonym Dictionary is active after a few minutes.
 
-**Parent Topic:**[HR Administration](../concept/c_AdministerHRServiceManagement.md)
+**Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

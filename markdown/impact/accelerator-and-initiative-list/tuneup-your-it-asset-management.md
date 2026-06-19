@@ -2,6 +2,7 @@
 title: TuneUp Your IT Asset Management
 description: Provides prescriptive guidance to improve IT Asset Management \(ITAM\) health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-your-it-asset-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,9 +20,11 @@ Provides prescriptive guidance to improve IT Asset Management \(ITAM\) health.
 
 This accelerator provides Impact Customers with an analysis of common IT Asset Management problem areas through HealthScan along with recommendations on addressing those findings. It aims to help customers understand how to identify problem areas within your ITAM setup, including a review of the top challenging areas and leading practices on how to best remediate gaps.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What you get
 

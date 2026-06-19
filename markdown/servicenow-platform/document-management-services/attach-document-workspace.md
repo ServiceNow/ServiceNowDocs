@@ -2,6 +2,7 @@
 title: Add documents in Workspace
 description: Use the file picker to add documents from the documents repository, external cloud storage providers, or your local desktop to records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/attach-document-workspace.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -32,7 +33,7 @@ The file picker opens from within the Document Management component and provides
 
 2.  In the left components panel, select the documents icon to display the Documents panel.
 
-3.  In the Documents panel, select the add icon ![Add icon](../../../reuse/itom/image/workspace-icon-add.png) or drag and drop documents or folders.
+3.  In the Documents panel, select the add icon \[Omitted image "workspace-icon-add.png"\] Alt text: Add icon or drag and drop documents or folders.
 
 4.  Choose how to add documents:
 
@@ -40,15 +41,15 @@ The file picker opens from within the Document Management component and provides
     -   To create a folder first, select **Create Folder**, name the folder, select it, then select **Select docs/folders**.
 5.  Browse and select documents from your preferred source.
 
-<table id="choicetable_yqn_nrf_m3c"><thead><tr><th align="left" id="d78141e126">
+<table id="choicetable_yqn_nrf_m3c"><thead><tr><th align="left" id="d81784e126">
 
 Source
 
-</th><th align="left" id="d78141e129">
+</th><th align="left" id="d81784e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d78141e135">
+</th></tr></thead><tbody><tr><td id="d81784e135">
 
 **Search**
 
@@ -56,7 +57,7 @@ Description
 
 Use the search bar to find specific documents.
 
-</td></tr><tr><td id="d78141e144">
+</td></tr><tr><td id="d81784e144">
 
 **Workspace documents**
 
@@ -69,7 +70,7 @@ Filter the document list by selecting a view:
 -   **Shared with me**: Documents others have shared with you
  **Note:** This option does not appear when you're adding a document within a folder.
 
-</td></tr><tr><td id="d78141e177">
+</td></tr><tr><td id="d81784e177">
 
 **External drive**
 
@@ -82,7 +83,7 @@ Select the cloud storage provider you want to browse:
 -   Microsoft SharePoint
 
 
-</td></tr><tr><td id="d78141e204">
+</td></tr><tr><td id="d81784e204">
 
 **Local drive**
 
@@ -100,5 +101,5 @@ Select **Browse documents**. Your system file browser opens. Navigate to and sel
     The file picker closes and the selected documents appear in the Documents panel.
 
 
-**Parent Topic:**[Document Management in Workspace](../concept/document-management-workspace.md)
+**Parent Topic:**[Document Management in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-management-workspace.md)
 

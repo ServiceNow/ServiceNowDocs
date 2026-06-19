@@ -2,6 +2,7 @@
 title: Create a time sheet
 description: Create a time sheet to group all your time cards for the given week from the ServiceNow Agent mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/create-timesheet-fsm-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management

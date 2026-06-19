@@ -2,13 +2,14 @@
 title: Request repair of hardware assets using Service Catalog
 description: Submit a Service Catalog request to repair hardware assets that are defective or pending repair in your stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/repair-req-ham-assets-using-catalog.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Repair of defective assets, Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Request repair of defective assets, Manage asset repair in stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Request repair of hardware assets using Service Catalog
@@ -56,13 +57,13 @@ Stockroom that has assets to be repaired.
 </td></tr></tbody>
 </table>3.  Select assets to be repaired.
 
-    1.  Select the Edit Asset\(s\) icon \(![Edit asset icon](../../../common/image/icon-lock.png)\).
+    1.  Select the Edit Asset\(s\) icon \(\[Omitted image "icon-lock.png"\] Alt text: Edit asset icon\).
 
     2.  Select the assets from the list.
 
         You can add one or more assets to the request.
 
-    3.  Select the Lock icon ![](../../software-asset-management2/image/unlock-icon.png).
+    3.  Select the Lock icon \[Omitted image "unlock-icon.png"\] Alt text:.
 
 4.  Select **Submit**.
 
@@ -73,5 +74,5 @@ Stockroom that has assets to be repaired.
 -   A repair order is created in the **Draft** stage.
 -   Each asset in the repair order is associated with a repair order line that is in the **Troubleshoot** stage.
 
-**Parent Topic:**[Request repair of defective hardware assets in your stockroom](../concept/request-repair-defective-ham-assets.md)
+**Parent Topic:**[Request repair of defective hardware assets in your stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/request-repair-defective-ham-assets.md)
 

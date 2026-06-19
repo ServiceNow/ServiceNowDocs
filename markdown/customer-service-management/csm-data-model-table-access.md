@@ -2,7 +2,10 @@
 title: Service Model Foundation table access by role
 description: The user roles that can access the Service Model Foundation tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-data-model-table-access.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

@@ -2,6 +2,7 @@
 title: Add Zscaler Internet Access URL category lists
 description: Add the URL categories that are available in the Zscaler Internet Access product to the ServiceNow AI Platform instance to specify an action for each URL so that you have easy access for granular filtering and policy creation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-zscaler-internet-access-url-category-manually.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

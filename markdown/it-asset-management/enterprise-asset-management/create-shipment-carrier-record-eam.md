@@ -1,17 +1,18 @@
 ---
-title: Create a shipment carrier record in Enterprise Asset Workspace
+title: Create a shipping carrier record in the Enterprise Asset Workspace
 description: Create a shipping carrier record in the Enterprise Asset workspace to associate the carrier with an integration profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-shipment-carrier-record-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise asset shipments, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
-# Create a shipment carrier record in Enterprise Asset Workspace
+# Create a shipping carrier record in the Enterprise Asset Workspace
 
 Create a shipping carrier record in the Enterprise Asset workspace to associate the carrier with an integration profile.
 
@@ -61,7 +62,7 @@ Integration profile
 
 Profile for integrating with the third-party carrier's application.
 
- For more details, see [View integration profiles for third-party shipping carriers in the Enterprise Asset Workspace](view-shipping-carrier-integration-profiles-eam.md).
+ For more details, see [View integration profiles for third-party shipping carriers in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/view-shipping-carrier-integration-profiles-eam.md).
 
 </td></tr><tr><td>
 
@@ -111,5 +112,5 @@ Additional information about the carrier.
     The shipping carrier record is created and added to the Shipping carrier list.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](../concept/manage-shipments-eam.md)
+**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
 

@@ -2,6 +2,7 @@
 title: JavaScript syntax editor macros
 description: Script macros provide shortcuts for typing commonly used code. To insert macro text into a script field, enter the macro keyword followed by the Tab.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_SyntaxEditorMacros.html
 release: australia
 product: Scripts
 classification: scripts
@@ -15,7 +16,7 @@ breadcrumb: [Using the JavaScript syntax editor, JavaScript syntax editor, Scrip
 
 Script macros provide shortcuts for typing commonly used code. To insert macro text into a script field, enter the macro keyword followed by the Tab.
 
-Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] table. To create or modify a script macro, see [Create a script macro for the syntax editor](../task/t_ManageScriptMacros.md).
+Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] table. To create or modify a script macro, see [Create a script macro for the syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/t_ManageScriptMacros.md).
 
 -   **vargr**
     -   Inserts a standard GlideRecord query for a single value.
@@ -98,5 +99,5 @@ Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] 
         ```
 
 
-**Parent Topic:**[Using the JavaScript syntax editor](r_EdtJvaScptWSyntxEdtr.md)
+**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
 

@@ -2,6 +2,7 @@
 title: Configure the Now Mobile Agent application
 description: Configure the Now Mobile Agent application and customize it for Industrial Connected Workforce \(ICW\) users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-now-mobile-agent-application-icw-mobile.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -43,7 +44,7 @@ Connect to ICW data
 
 </td><td>
 
-[Connect to your Industrial Connected Workforce data](connect-to-icw-data.md)
+[Connect to your Industrial Connected Workforce data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/connect-to-icw-data.md)
 
 </td></tr><tr><td>
 
@@ -51,7 +52,7 @@ Customize UI actions
 
 </td><td>
 
-[Customizing UI actions for the Now Mobile Agent application](../concept/customizing-ui-actions-icw-mobile.md)
+[Customizing UI actions for the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/customizing-ui-actions-icw-mobile.md)
 
 </td></tr><tr><td>
 
@@ -59,7 +60,7 @@ Configure UI actions
 
 </td><td>
 
-[Configure UI actions in the Now Mobile Agent application](configure-ui-actions-icw-mobile.md)
+[Configure UI actions in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-ui-actions-icw-mobile.md)
 
 </td></tr><tr><td>
 
@@ -67,15 +68,15 @@ Configure push notifications for task assignments
 
 </td><td>
 
-[Configuring push notifications for task assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/push-notifications-tasks-slas.md)
+
 
 </td></tr><tr><td>
 
-Configure scheduled offline caching**Note:** In offline mode, reference fields are limited to a maximum of 1,000 records. If the referenced dataset exceeds this limit, only the first 1,000 records are available, which may impact data completeness and look-up functionality. For more details, see [Reference field attributes for input form screens in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/reference-fields-offline-attributes.md).
+Configure scheduled offline caching**Note:** In offline mode, reference fields are limited to a maximum of 1,000 records. If the referenced dataset exceeds this limit, only the first 1,000 records are available, which may impact data completeness and look-up functionality. For more details, see .
 
 </td><td>
 
-[Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-scheduled-offline-caching.md)
+
 
 </td></tr><tr><td>
 
@@ -83,7 +84,7 @@ Configure the recently closed work order tasks list
 
 </td><td>
 
-[Configure the recently closed work order tasks list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-recently-closed-di.md)
+
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ Configure special handling notes
 
 </td><td>
 
-[Configure special handling notes for the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-shn-fsm-mobile.md)
+
 
 </td></tr><tr><td>
 
@@ -99,7 +100,7 @@ Enable chat
 
 </td><td>
 
-[Enable chat in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/enable-chat-in-fsm-mobile.md)
+
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Location tracking
 
 </td><td>
 
-[Location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/mobile-location-tracking.md)
+
 
 </td></tr><tr><td>
 
@@ -115,16 +116,16 @@ Enable dark theme
 
 </td><td>
 
-[Enable dark theme in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/dark-theme-mobile.md)
+
 
 </td></tr></tbody>
 </table>
--   **[Connect to your Industrial Connected Workforce data](connect-to-icw-data.md)**  
+-   **[Connect to your Industrial Connected Workforce data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/connect-to-icw-data.md)**  
 Connect the Now Mobile Agent application to your Industrial Connected Workforce \(ICW\) application instance to manage work on your mobile device.
--   **[Customizing UI actions for the Now Mobile Agent application](../concept/customizing-ui-actions-icw-mobile.md)**  
+-   **[Customizing UI actions for the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/customizing-ui-actions-icw-mobile.md)**  
 Make it easier for your end users to get things done faster with the Industrial Connected Workforce \(ICW\) mobile application by creating custom UI actions.
--   **[Configure UI actions in the Now Mobile Agent application](configure-ui-actions-icw-mobile.md)**  
+-   **[Configure UI actions in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/configure-ui-actions-icw-mobile.md)**  
 Enable or disable the desired UI actions to reduce the load on mobile devices. In some factory areas, the internet connection can be slow or unstable. To keep the app working smoothly, you can set it up to load only the most important information.
 
-**Parent Topic:**[Setting up the Industrial Connected Workforce Mobile Agent](../concept/setting-up-icw-mobile-agent.md)
+**Parent Topic:**[Setting up the Industrial Connected Workforce Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/setting-up-icw-mobile-agent.md)
 

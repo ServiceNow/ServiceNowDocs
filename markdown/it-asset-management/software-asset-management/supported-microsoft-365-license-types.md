@@ -2,6 +2,7 @@
 title: Supported Microsoft 365 license types
 description: The Microsoft 365 integration supports various Microsoft 365 license types
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/supported-microsoft-365-license-types.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -32,7 +33,7 @@ A Microsoft 365 Add-on USL is a user subscription license that enables you to tr
 
 ## Step-up license
 
-A Microsoft 365 Step-up license enables you to upgrade a lower edition of a Microsoft 365 subscription software product or service to a higher edition without having to pay the additional full price for the higher edition. When you upgrade a software product or service through this license type, you are required to pay only the price difference between the lower and higher editions, thereby preserving your initial investment into the lower edition. You can use this license type if you have already purchased the license for a lower edition of a Microsoft 365 subscription software product or service. For more information on Step-up licenses, see [Software license maintenance](software-license-maintenance.md).
+A Microsoft 365 Step-up license enables you to upgrade a lower edition of a Microsoft 365 subscription software product or service to a higher edition without having to pay the additional full price for the higher edition. When you upgrade a software product or service through this license type, you are required to pay only the price difference between the lower and higher editions, thereby preserving your initial investment into the lower edition. You can use this license type if you have already purchased the license for a lower edition of a Microsoft 365 subscription software product or service. For more information on Step-up licenses, see [Software license maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-license-maintenance.md).
 
 ## Reserve license
 

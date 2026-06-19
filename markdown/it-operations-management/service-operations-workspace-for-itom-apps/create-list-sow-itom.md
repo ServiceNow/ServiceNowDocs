@@ -2,6 +2,7 @@
 title: Create a list in Service Operations Workspace for ITOM
 description: Customize lists in Service Operations Workspace by creating new lists, changing their order, modifying their content, or deleting lists as needed. This flexibility allows operators to organize information according to their specific requirements, facilitating easier navigation, quicker access to relevant data, and streamlined workflow management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/create-list-sow-itom.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -27,13 +28,13 @@ Create custom groupings of records listed under the **Lists** tab, such as incid
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the List icon: ![List icon](../image/list-icon-sow-itom.png).
+2.  From the navigation bar, select the List icon: \[Omitted image "list-icon-sow-itom.png"\] Alt text: List icon.
 
 3.  Select the **My Lists** tab.
 
 4.  Select **Add new list**.
 
-    ![Add new list option](../image/sow-add-new-list.png)
+    \[Omitted image "sow-add-new-list.png"\] Alt text: Add new list option
 
 5.  Create a list by either basing it on an existing list or creating a new one.
 
@@ -41,12 +42,12 @@ Create custom groupings of records listed under the **Lists** tab, such as incid
     -   To begin a new list, select **Create your own.**
 6.  On the form, fill in the fields.
 
-    For more information on the fields, see [Create list fields](../reference/forms-filtered-list-sow.md).
+    For more information on the fields, see [Create list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/forms-filtered-list-sow.md).
 
 7.  Select **Create**.
 
     The list appears in the **My Lists** tab.
 
 
-**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/workspace-dashboard-use.md)
 

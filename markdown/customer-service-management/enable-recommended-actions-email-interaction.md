@@ -2,7 +2,10 @@
 title: Enable Recommended Actions for an email interaction
 description: Help the agent to find relevant resources based on the context of an email by enabling recommended actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/enable-recommended-actions-email-interaction.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -20,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-For more information, see [Configuring Recommended Actions](../concept/nba.md).
+For more information, see [Configuring Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md).
 
 ## Procedure
 

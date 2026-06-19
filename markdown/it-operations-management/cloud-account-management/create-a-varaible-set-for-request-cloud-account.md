@@ -2,6 +2,7 @@
 title: Create a variable set for Request cloud account catalog
 description: Customize the Request cloud account catalog by creating or editing variable sets. Build a variable set to group related variables into a single, reusable collection. Select only the necessary variables for specific cloud account requests to promote an organized and uniform process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/create-a-varaible-set-for-request-cloud-account.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

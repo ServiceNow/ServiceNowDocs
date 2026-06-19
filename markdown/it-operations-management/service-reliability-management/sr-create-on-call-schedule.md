@@ -2,6 +2,7 @@
 title: Create an SRM on-call schedule
 description: Set up an on-call schedule to make sure that someone is available to respond to incidents and critical alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/sr-create-on-call-schedule.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -17,7 +18,7 @@ Set up an on-call schedule to make sure that someone is available to respond to 
 
 ## Before you begin
 
-Before creating an on-call schedule, a team must exist in Service Reliability Management \(SRM\). The Alert table \[em\_alert\] must also be added to the Trigger Rule Table Config list. See [Add an SRM team](sr-create-team.md) and [Add alert table to enable on-call scheduling for Service Operations Workspace for ITOM](../../service-operations-workspace-itom/task/add-alert-table-oncall.md) for more information.
+Before creating an on-call schedule, a team must exist in Service Reliability Management \(SRM\). The Alert table \[em\_alert\] must also be added to the Trigger Rule Table Config list. See [Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-team.md) and [Add alert table to enable on-call scheduling for Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/add-alert-table-oncall.md) for more information.
 
 Role required: srm\_manager, srm\_responder, or srm\_admin
 
@@ -27,7 +28,7 @@ Shifts in SRM let you define variable time periods for your shift-based workforc
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** &gt; **Teams \(![Teams icon](../image/icon-sr-teams.png)\)**.
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** &gt; **Teams \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams icon\)**.
 
 2.  On the Teams page, select your team.
 
@@ -39,13 +40,13 @@ Shifts in SRM let you define variable time periods for your shift-based workforc
 
 5.  Fill in the fields.
 
-    For more information on the field descriptions, see [Create a shift form in Service Reliability Management](../reference/sr-create-shift-form.md).
+    For more information on the field descriptions, see [Create a shift form in Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-shift-form.md).
 
 6.  Select **Create shift**.
 
 
--   **[Set on-call team preferences in SRM](sr-set-on-call-prefs.md)**  
+-   **[Set on-call team preferences in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-set-on-call-prefs.md)**  
 Set on-call preferences for team members to increase the efficiency of your business operations.
 
-**Parent Topic:**[Working with SRM teams](../concept/sr-work-teams.md)
+**Parent Topic:**[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-teams.md)
 

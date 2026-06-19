@@ -2,6 +2,7 @@
 title: Create record level restrictions
 description: Set record level restrictions in DLP incidents to protect sensitive records from being exposed. You can use record level restrictions to control the users or groups who can access specific records in the DLP incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/data-loss-prevention/setup-record-level-restrictions.html
 release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
@@ -101,5 +102,5 @@ Add yourself as the user to whom the record is applicable. For example, System A
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[DLP Incident Access Restrictions](../concept/dlp-incident-access-restrictions.md)
+**Parent Topic:**[DLP Incident Access Restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/data-loss-prevention/dlp-incident-access-restrictions.md)
 

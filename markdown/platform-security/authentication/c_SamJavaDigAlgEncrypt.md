@@ -2,6 +2,7 @@
 title: Sample Java digest algorithm for encryption
 description: This Java algorithm illustrates creating a digest token from an HTTP header.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/c\_SamJavaDigAlgEncrypt.html
 release: australia
 product: Authentication
 classification: authentication

@@ -2,6 +2,7 @@
 title: Supplier location outbound staging table
 description: The Supplier location outbound \[sn\_spend\_intg\_supplier\_location\_outbound\] staging table stores important data about the geographical location of a supplier so that an ERP integrator can export this data to a third-party ERP system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/slo-supp-location-outbound-table.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework

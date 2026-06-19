@@ -2,6 +2,7 @@
 title: Data Privacy Job Logs
 description: Review errors from Data Privacy jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/dp-job-logs.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic

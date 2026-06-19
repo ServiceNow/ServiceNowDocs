@@ -2,6 +2,7 @@
 title: View work order details from incident record using the Mobile Agent application
 description: View the work order details for the related incident record from your Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/view-wo-details-from-incident-using-mobile.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -32,5 +33,5 @@ Roles required: wm\_agent, sn\_change\_read
 5.  Tap **Details** to view the incident record details.
 
 
-**Parent Topic:**[Integration with Incident Management](../concept/incident-for-fsm.md)
+**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/incident-for-fsm.md)
 

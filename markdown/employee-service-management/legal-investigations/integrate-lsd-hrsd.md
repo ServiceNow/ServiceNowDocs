@@ -2,6 +2,7 @@
 title: Set up Legal Investigations with HR Service Delivery Employee Relations
 description: Set up Legal Investigations with HR Service Delivery Employee Relations to enable complaint requests to be transferred between Legal and HR departments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-investigations/integrate-lsd-hrsd.html
 release: australia
 product: Legal Investigations
 classification: legal-investigations
@@ -34,7 +35,7 @@ Role required: admin
 
 1.  Activate the record producers for complaints submission via the **Quick Link** in Employee Center.
 
-    For more information, see [Record producers for legal investigations](../reference/record-producers-legal-investigation.md).
+    For more information, see [Record producers for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-investigations/record-producers-legal-investigation.md).
 
     1.  Navigate to **All** &gt; **Service Catalog** &gt; **Record Producers**.
 
@@ -67,7 +68,7 @@ Role required: admin
 
         -   sn\_lg\_investigate.fulfiller, for users in the Legal department
         -   sn\_hr\_er.case\_writer, for users in the HR department
-    For more information, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+    For more information, see Create a user group.
 
 3.  If you configured an assignment group other than the base system assignment group, make it the default assignment group for ethics complaint requests by updating the system property.
 
@@ -85,7 +86,7 @@ Role required: admin
 
         **Note:** If a service isn’t selected while transferring the ticket, then the transfer happens to the default service configured for the selected transfer department.​
 
-    For more information, see [Universal Request properties](../../universal-request/reference/ur-properties.md).
+    For more information, see [Universal Request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-properties.md).
 
 5.  For Legal to HR complete data copy to execute, activate **HRERDepartmentTransferPostProcessor**.
 

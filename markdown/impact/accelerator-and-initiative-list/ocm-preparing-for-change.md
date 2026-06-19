@@ -2,12 +2,13 @@
 title: OCM: Preparing for Change
 description: This accelerator provides Impact customers with structured coaching and proven frameworks to build change readiness and ensure successful user adoption ahead of go-live during ServiceNow transformations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/ocm-preparing-for-change.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [OCM, Change Management, User Adoption, Stakeholder Engagement]
 breadcrumb: [Strategy Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
@@ -18,26 +19,65 @@ This accelerator provides Impact customers with structured coaching and proven f
 
 ## Accelerator Overview
 
-OCM: Preparing for Change helps customers answer the question every transformation leader dreads: "Are our people ready?" Through 5 structured phases, CSEs guide customers to assess readiness, engage stakeholders, build communication plans, and activate champions — so adoption barriers are addressed before they become adoption failures. Customers own the work; CSEs provide the frameworks, facilitation, and expertise to get it done right.
+OCM: Preparing for Change helps customers answer the question every transformation leader dreads: "Are our people ready?" through five structured phases. CSEs guide customers to assess readiness, engage stakeholders, build communication plans, activate champions, and establish a readiness baseline — so adoption barriers are addressed before they become adoption failures. Customers own the work while the CSEs facilitate the transformation support with appropriate frameworks and expertise.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What You Get
 
--   **Coaching &amp; Facilitation**
+Includes the following CSE-led sessions and activities, as applicable \(up to 1.5 hours each\)
 
-    Structured coaching sessions across 5 phases
+-   **Kickoff Session**
+    -   Set expectations on the process and depth of deliverables
+    -   Confirm participant roles and establish the foundation for the engagement
+-   **Organizational Readiness Assessment &amp; Success Criteria**
+    -   An 11-question diagnostic of your organization's change readiness — covering leadership alignment, communication maturity, prior change experience, and resource availability
+    -   Identify risk areas and prioritize focus preparation where it matters most
+    -   Define Change vision with measurable success criteria and name KPI owners
+-   **Executive Sponsor Activation**
+    -   Sponsor role defined with specific, visible commitments tied to each phase of the change
+    -   Sponsorship roadmap built with high-impact activities that signal commitment and remove barriers
+-   **Stakeholder Mapping &amp; Analysis**
+    -   Stakeholders identified and mapped by impact level, influence, and anticipated response to change
+    -   Tailored engagement strategies defined for each stakeholder group
+    -   Key stakeholders interviewed to surface concerns, resistance, and WIIFM opportunities
+-   **OCM Readiness Baseline**
+    -   Baseline survey distributed to measure current Awareness and Desire levels across impacted groups
+    -   Results analyzed by stakeholder group to identify readiness gaps and target messaging priorities
+-   **Communication &amp; Engagement Planning**
+    -   8-week communication plan with channels, cadence, and owners defined for each audience
+    -   WIIFM messaging crafted for each stakeholder group, addressing concerns before they become resistance
+-   **Champion Network Design &amp; Launch Readiness**
+    -   Champion network designed with clearly defined roles, responsibilities, and a recognition plan
+    -   Recruitment strategy built to identify and onboard champions ahead of go-live
+    -   Kickoff event planned with agenda, confirmed sponsor role, and finalized logistics
+-   **Communications Launch &amp; Kickoff Event**
+    -   Executive sponsor announcement with communications on department-specific benefits and advantages.
+    -   Kickoff event delivered with champions introduced and feedback collected
+-   **Champion Activation &amp; Feedback Collection**
+    -   Champions deployed into peer groups with tools and guidance to reinforce awareness
+    -   Early feedback collected, themes identified, and quick wins celebrated
+-   **Engagement Tracking &amp; OCM Readiness Follow-Up**
+    -   Communication reach, event attendance, and champion activity tracked against plan
+    -   OCM Readiness follow-up survey conducted and compared to baseline to measure Awareness and Desire improvement
+-   **Accelerator Close &amp; Handoff**
+    -   Change readiness outcomes documented and reviewed with your team
+    -   Findings and recommendations handed off to inform Managing the Change \(Accelerator 2\)
+-   **Output\(s\)**
 
-    -   Phase 1 – Prepare: Establish leadership alignment, readiness, and measurable success criteria to set a strong foundation for change.
-    -   Phase 2 – Diagnose: Identify key stakeholders and baseline employee readiness to focus on engagement where it matters most.
-    -   Phase 3 – Prescribe: Design targeted communications and a champion network to drive understanding and buy-in.
-    -   Phase 4 – Execute: Launch communications and activate champions to mobilize the organization.
-    -   Phase 5 – Track: Measure adoption progress, capture lessons learned, and shift into sustained reinforcement.
--   **Optional Follow-up**
-    -   Used for additional questions, troubleshooting resistance, or refining your approach based on early feedback.
-    -   CSE-facilitated workshops to align on vision, assess readiness, map stakeholders, and build communication plans.
-    -   Guidance on executive sponsor activation and visible leadership activities.
-    -   Leading practice share based on successful ServiceNow transformations.
+    A comprehensive Change Readiness Playbook, including:
+
+    -   Organizational readiness assessment with risk analysis
+    -   Change vision with success criteria and KPI owners
+    -   Stakeholder map with engagement strategies
+    -   Executive sponsor activation plan
+    -   8-week communication plan with WIIFM messaging
+    -   Champion network design and recruitment strategy
+    -   Kickoff event plan
+    -   Engagement tracking results
+    -   OCM Readiness assessment baseline
 
 ## Requested Customer Resources
 
@@ -60,4 +100,8 @@ OCM: Preparing for Change helps customers answer the question every transformati
 -   Existing communication channels and corporate communication guidelines
 -   Current adoption metrics or license utilization data \(if expanding existing deployment\)
 -   Business case or value proposition documentation for the ServiceNow initiative
+
+## Exclusions
+
+ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

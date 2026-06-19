@@ -2,6 +2,7 @@
 title: Manage the status of your direct reports in Now Mobile
 description: Use the Now Mobile app to view the health status of your direct reports.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-for-mobile/mobile-view-health-status.html
 release: australia
 product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
@@ -17,7 +18,7 @@ Use the Now Mobile app to view the health status of your direct reports.
 
 ## Before you begin
 
-To access this content, you must have the [Now Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](../concept/emergency-self-report.md) application installed.
+To access this content, you must have the [Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report.md) application installed.
 
 Role required: none
 
@@ -35,11 +36,11 @@ From the Safe Workplace for mobile app, users can access applications from the E
 
     In the My Team's Health section, you can see a list of all your users.
 
-    ![My Team section.](../image/my-teams-health.jpg "My Team")
+    \[Omitted image "my-teams-health.jpg"\] Alt text: My Team section.
 
 3.  In the My Team's Health section, a list of all your users and their status is displayed.
 
-    ![List of users who have reported their status.](../image/emp-health-list.jpg "List of users and their status")
+    \[Omitted image "emp-health-list.jpg"\] Alt text: List of users who have reported their status.
 
 4.  Update the status for a user.
 
@@ -57,11 +58,11 @@ The employee record screen displays the following information:-   Use the contac
 
 </td><td>
 
-![Employee record screen.](../image/employee-form.jpg)
+\[Omitted image "employee-form.jpg"\] Alt text: Employee record screen.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Safe Workplace for mobile](../concept/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 
-**Parent Topic:**[Safe Workplace for mobile](../concept/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 

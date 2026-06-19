@@ -2,6 +2,7 @@
 title: Versions and local changes
 description: Version records track changes to a customizable record over time so that you can compare or revert to a specific version later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/c\_VersionsAndLocalChanges.html
 release: australia
 product: Team Development
 classification: team-development
@@ -19,7 +20,7 @@ A version record is created every time a developer changes a customizable record
 
 Local change records track which customized records have changes on the development instance that are not on the parent instance so that you can collect changes in preparation for a push.
 
-![Hierarchy of development instances and the workflow](../image/TeamDevConcepts.png "Team Development concepts")
+\[Omitted image "TeamDevConcepts.png"\] Alt text: Hierarchy of development instances and the workflow
 
 Developers can back out a local change to restore a previous version of a customizable record. The back out action sets the local customizable record to the last revision identified by a reconciliation action.
 

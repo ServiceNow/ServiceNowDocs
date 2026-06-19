@@ -2,6 +2,7 @@
 title: Form category
 description: Validate the functionality of fields and UI actions on a form.Open a form to a new record in the specified table and Form UI.Open a form to an existing record in the specified table and Form UI.Set the fields on the current form to the specified values.Validate field values on the current form.Validate the state of specified fields. States validated can include mandatory, non-mandatory, read-only, non-read-only, visible, and non-visible.Verify if a UI action is visible on the current form. To run this step, your test must have already opened a form using either the Open a New Form or Open an Existing Record step.Verify if a declarative action is visible on the current form.Add one or more mandatory attachments to the current form. Select the attachments that the test step adds to the form from the Upload Attachments list.Click a button within a modal in the specified Form UI.Click a UI action on the current form.Click a declarative action on the current form.Submit the current form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/test-steps-form-category.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -116,7 +117,7 @@ Name of the view in which you want this form to open. The testing user must have
 
 Open a form to an existing record in the specified table and **Form UI**.
 
-**Note:** Using an existing record may cause unexpected behavior for this test. See [Automated Test Framework design considerations](../concept/automated-test-framework-design-considerations.md) for more information.
+**Note:** Using an existing record may cause unexpected behavior for this test. See [Automated Test Framework design considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/automated-test-framework-design-considerations.md) for more information.
 
 <table id="table_od3_dgb_hzb"><thead><tr><th>
 
@@ -223,7 +224,7 @@ To run this step, your test must have already opened a form using either the **O
 
 The **Field Values Validation**, **Set Field Values**, **Field State Validation**, and **UI Action Visibility** steps can appear in any order.
 
-**Note:** This step waits for the form to load before setting field values. This step doesn't support reference qualifiers, neither at test design time nor at test runtime. A modal form appears either on top of another form or a list. To submit a modal form after setting the field values, your test must have already opened it on top of a form or a list.![Image showing modal form](../image/atf-modal-form.png)
+**Note:** This step waits for the form to load before setting field values. This step doesn't support reference qualifiers, neither at test design time nor at test runtime. A modal form appears either on top of another form or a list. To submit a modal form after setting the field values, your test must have already opened it on top of a form or a list.\[Omitted image "atf-modal-form.png"\] Alt text: Image showing modal form
 
 <table id="table_od3_dgb_hzb"><thead><tr><th>
 
@@ -1213,7 +1214,7 @@ To run this step, your test must have already opened a form using either the **O
 
 A modal form appears either on top of another form or a list. To submit a modal form, your test must have already opened it on top of a form or a list.
 
-![Add Test Step modal form.](../image/atf-modal-form.png)
+\[Omitted image "atf-modal-form.png"\] Alt text: Add Test Step modal form.
 
 <table id="table_od3_dgb_hzb"><thead><tr><th>
 

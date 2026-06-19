@@ -2,7 +2,10 @@
 title: Enable resource time indicators
 description: Resource time indicators allow dispatchers to see all the Field Service technicians' time zones on the calendar in Dispatcher Workspace at a glance. It takes away the math needed to calculate time zones differences between technicians.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/enable-equalized-time.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -23,7 +26,7 @@ When the `work.management.enable.resource.time.indicator` property is enabled, a
 
 For example, if a dispatcher is in Pacific time, and they open the form of a work order task scheduled in Mountain time, then they see a blue box below the date and time fields of the task that shows the time for the task in Mountain time. If the date and time field is empty, then the added field doesn’t show.
 
-Once the resource time indicators property is enabled, dispatchers can turn on resource time indicators in the settings in Dispatcher Workspace. For more information, see [Enable Dispatcher Workspace settings](dispatcher-wrkspc-settings.md).
+Once the resource time indicators property is enabled, dispatchers can turn on resource time indicators in the settings in Dispatcher Workspace. For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Procedure
 

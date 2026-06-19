@@ -2,6 +2,7 @@
 title: Set a specific dashboard as home for specific users
 description: Configure ServiceNow so that specified users see the same dashboard when they log in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/set-one-db-as-home-for-specified-users.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -41,7 +42,7 @@ The dashboard that you configure should be available to all users.
 
 7.  Select **Submit**.
 
-8.  Select the context menu \(![Context menu icon](../../../common/image/Form_MenuIcon.png)\) and choose **Insert and Stay**.
+8.  Select the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Context menu icon\) and choose **Insert and Stay**.
 
     This action duplicates the user preference so that you can specify another user this dashboard will be home for. You can also specify a different sys\_ID on the duplicated record.
 

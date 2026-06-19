@@ -2,6 +2,7 @@
 title: Add recommended learning to a journey
 description: Managers and mentors with Can add recommended learning are able to add courses to a journey.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/journey-designer/jny-dsgnr-add-recommended-learning.html
 release: australia
 product: Journey Designer
 classification: journey-designer
@@ -38,5 +39,5 @@ Role required: Manager or mentor
 6.  Click **Add course** to add the selected course\(s\) to the widget.
 
 
-**Parent Topic:**[Display learning recommendations to the Manager creating a journey](../concept/jny-dsgnr-learning-recom-manager-ml.md)
+**Parent Topic:**[Display learning recommendations to the Manager creating a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/journey-designer/jny-dsgnr-learning-recom-manager-ml.md)
 

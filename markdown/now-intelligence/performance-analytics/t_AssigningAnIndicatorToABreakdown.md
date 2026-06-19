@@ -2,6 +2,7 @@
 title: Assign an indicator to an automated breakdown
 description: Associate automated or formula indicators with a breakdown to enable the collection of broken down scores for those indicators.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/t\_AssigningAnIndicatorToABreakdown.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ Role required: pa\_data\_collector, pa\_power\_user, pa\_admin, or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Automated Breakdowns**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Breakdowns** &gt; **Automated Breakdowns**.
 
 2.  Select a breakdown record.
 
@@ -48,11 +49,11 @@ For this purpose, create a special one-off collection job. Set the job to collec
 
 If your role does not allow you to create collection jobs, contact your Performance Analytics admin.
 
-For more information, see [Create or schedule a data collection job](t_CreatASchedDataCollJob.md) and [Configure a job indicator](configure-job-indicator.md).
+For more information, see [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CreatASchedDataCollJob.md) and [Configure a job indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/configure-job-indicator.md).
 
-**Parent Topic:**[Automated breakdowns](../concept/automated-breakdowns.md)
+**Parent Topic:**[Automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/automated-breakdowns.md)
 
-**Previous topic:**[Create a breakdown mapping on a breakdown record](t_CrtBkdnBreakdownMpngs.md)
+**Previous topic:**[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
 
-**Next topic:**[Manual breakdowns](../concept/manual-breakdowns.md#)
+**Next topic:**[Manual breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/manual-breakdowns.md)
 

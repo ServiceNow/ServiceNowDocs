@@ -2,6 +2,7 @@
 title: Manage My Resources and resource filters
 description: Access the resources that you own, resources that are owned by a group, or anyone's resources by using the resource filter. You can then find the information that you need by using sorting functions, conditions, categories, and keywords.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/managing-my-resources.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -25,25 +26,25 @@ Role required: admin
 
 2.  Sort, view the details, and export as required.
 
-    ![Options that you can select from the resource filter.](../image/resource-filters-options.png "Resource filter options")
+    \[Omitted image "resource-filters-options.png"\] Alt text: Options that you can select from the resource filter.
 
 3.  Apply an existing or a saved filter by selecting **Load Filter**.
 
 4.  In the Load Filter window, select **Manage Filter** to find the list of previously added filters.
 
-    ![Manage resource filters](../image/manage-resource-filter.png)
+    \[Omitted image "manage-resource-filter.png"\] Alt text: Manage resource filters
 
 5.  Select the menu option along **Filters** to view the various options to export the filtered resources.
 
-    ![Load existing filters.](../image/load-resource-filters.png)
+    \[Omitted image "load-resource-filters.png"\] Alt text: Load existing filters.
 
 6.  You can also select a filter to display its details.
 
-    ![Resource filters general comments.](../image/resource-filter-comments.png)
+    \[Omitted image "resource-filter-comments.png"\] Alt text: Resource filters general comments.
 
 7.  View more options and details about the filter that you chose by selecting the menu option next to General Comments.
 
-    ![General filter comments details.](../image/resource-filter-comments-details.png)
+    \[Omitted image "resource-filter-comments-details.png"\] Alt text: General filter comments details.
 
     You can use the keyword search to find a filter directly by using keywords. You can choose export options such as PDF, Excel, or CSV.
 
@@ -63,5 +64,5 @@ Role required: admin
     -   Resources owned by groups I am part of: This option displays all the groups that you are part of.
     -   Resources owned by anyone: This option displays all the resources in the selected category, in Configuration Management Database \(CMDB\), and assigned.
 
-**Parent Topic:**[Exploring My Resources](../concept/explore-my-resources.md)
+**Parent Topic:**[Exploring My Resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/explore-my-resources.md)
 

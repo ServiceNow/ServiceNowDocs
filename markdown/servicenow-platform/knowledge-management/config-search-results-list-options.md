@@ -2,6 +2,7 @@
 title: Configure search results list widget instance options
 description: Configure widget instance options for the results list widget on the Knowledge Management Service Portal search results page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/config-search-results-list-options.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -55,7 +56,7 @@ CSS
 
 </td><td>
 
-Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/scss-primer.md).
+Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.
 
 </td></tr><tr><td>
 
@@ -183,5 +184,5 @@ The number of links displayed in the pagination bar.
 </table>5.  Click **Save**.
 
 
-**Parent Topic:**[Knowledge Management Service Portal widgets](../concept/km-service-portal-widget-instances.md)
+**Parent Topic:**[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)
 

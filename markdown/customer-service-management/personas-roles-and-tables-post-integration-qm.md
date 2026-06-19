@@ -2,7 +2,10 @@
 title: Roles and responsibilities
 description: After successful integration of Order Management, the following menu items and roles are added to the list view menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/personas-roles-and-tables-post-integration-qm.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -96,5 +99,5 @@ Granular role for organization staff to ensure consistent sales quote experience
 None
 
 </td></tr></tbody>
-</table>**Note:** For more information on channel partners see, [Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/quote-management.md).
+</table>**Note:** For more information on channel partners see, .
 

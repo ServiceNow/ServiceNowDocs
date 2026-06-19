@@ -2,6 +2,7 @@
 title: View SAP engines in workspace
 description: View the monthly engine usage measurements for SAP clients based on the license metric for each engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sap-engines-workpace.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -30,5 +31,5 @@ Role required: sam\_admin or sam\_user
 3.  Select on a SAP engine record to view more details on SAP system users and SAP Engine usage.
 
 
-**Parent Topic:**[Using Software Asset Workspace](../concept/using-sam-workspace.md)
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)
 

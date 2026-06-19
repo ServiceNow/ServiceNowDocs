@@ -2,6 +2,7 @@
 title: Assign the workplace user role to employees
 description: Set rules in Workplace Core to assign the workplace user role to employees in only the specific countries where you are starting a return to office operations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/assign-workplace-user-role-to-employees-of-a-location-hr.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace

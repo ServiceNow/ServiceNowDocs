@@ -2,6 +2,7 @@
 title: Configure Osqueryd logs for SAM total usage metrics
 description: By default, Osquery supports log rotation based on size. To enable it for SAM total usage metrics and to configure the log size and rotation, you need to add specific flags for Osqueryd service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/configure-osquery-logs-for-sam-total-usage-metrics.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

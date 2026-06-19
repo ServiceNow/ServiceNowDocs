@@ -2,6 +2,7 @@
 title: Reference HR Service Delivery Integration with Workday Learning
 description: Reference topics provide additional information about the HR Service Delivery Integration with Workday Learning, including lists and forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/reference-workday-learning-intg.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,14 +16,14 @@ breadcrumb: [HR Service Delivery Integration with Workday Learning, Integration 
 
 Reference topics provide additional information about the HR Service Delivery Integration with Workday Learning, including lists and forms.
 
--   **[Components installed with workday learning](components-installed-with-workday-learning.md)**  
+-   **[Components installed with workday learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/components-installed-with-workday-learning.md)**  
 Several types of components are installed with activation of the HR Service Delivery Integration with Workday Learning \(sn\_lrn\_workday\) application, including tables and user roles.
--   **[Edit a record in HR Service Delivery Integration with Workday Learning](sync-user-activity-form.md)**  
+-   **[Edit a record in HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/sync-user-activity-form.md)**  
 Use this form to create a new record in HR Service Delivery Integration with Workday Learning for multiple scenarios like Sync User Activity, Self Enrollment Activity, and Track Approval.
--   **[Workday learning todos staging form](wdl-todos-form.md)**  
+-   **[Workday learning todos staging form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/wdl-todos-form.md)**  
 Use this form to create Workday learning todos.
--   **[Workday learning user course activity staging form](wdl-user-course-activity-form.md)**  
+-   **[Workday learning user course activity staging form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/wdl-user-course-activity-form.md)**  
 Use this form to create Workday learning todos.
 
-**Parent Topic:**[HR Service Delivery Integration with Workday Learning](../concept/hr-integration-with-workday-learning.md)
+**Parent Topic:**[HR Service Delivery Integration with Workday Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-integration-with-workday-learning.md)
 

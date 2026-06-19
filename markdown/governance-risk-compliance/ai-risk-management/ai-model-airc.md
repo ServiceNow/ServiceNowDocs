@@ -1,31 +1,33 @@
 ---
 title: AI models
-description: An AI model is designed, deployed, and monitored in accordance with structured governance frameworks. These frameworks ensure the AI model’s ethical use, regulatory compliance, and risk mitigation throughout its life cycle.
+description: An AI model goes through design, deployment, and monitoring in accordance with structured governance frameworks that support ethical use, regulatory compliance, and risk mitigation throughout its life cycle.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/ai-model-airc.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [AI model, AI governance, model life cycle, aggregated risk score, AI Risk and Compliance]
 breadcrumb: [AI assets, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # AI models
 
-An AI model is designed, deployed, and monitored in accordance with structured governance frameworks. These frameworks ensure the AI model’s ethical use, regulatory compliance, and risk mitigation throughout its life cycle.
+An AI model goes through design, deployment, and monitoring in accordance with structured governance frameworks that support ethical use, regulatory compliance, and risk mitigation throughout its life cycle.
 
 An AI model is developed by training on large datasets using machine learning or other AI techniques. The model learns data relationships to generalize outcomes for new, unseen inputs. AI models are used in applications such as language processing, image recognition, and recommendation systems.
 
-Each model performs a defined task like classification, regression, or content generation. They must be evaluated for accuracy, reliability, and robustness in real-world scenarios. Models are also assessed for risks such as bias, opacity, and unintended behavior.
+Each model performs a defined task like classification, regression, or content generation. Models must be evaluated for accuracy, reliability, and robustness in real-world scenarios. Models are also assessed for risks such as bias, opacity, and unintended behavior.
 
-Regular validation and performance monitoring ensure ongoing model effectiveness and stability. Clear documentation helps maintain transparency and supports informed decision-making. Compliance with ethical guidelines and legal standards is critical throughout the model’s life-cycle.
+Regular validation and performance monitoring support ongoing model effectiveness and stability. Clear documentation helps maintain transparency and supports informed decision-making. Adhering to ethical guidelines and legal standards is critical throughout the model life cycle.
 
 The following image shows the overview page of an AI model.
 
-![AI model overview page](../image/ai-model-overview-page.png "AI model overview page")
+\[Omitted image "ai-model-overview-page.png"\] Alt text: Overview page of an AI model showing risk score, details, and related assets
 
-An AI model record provides an aggregated risk score. The individual risk scores for entities that have Risk assessment for AI inventory as the Risk Assessment Methodology \(RAM\) roll-up and form an aggregated risk score. You can see the aggregated risk score under the Details tab of the AI system record in the **Aggregated risk score** section. For more information about how risk score is rolled up, see [Risk score rollup in Advanced Risk Assessment](../../grc-risk/concept/risk-rollup-ara-concept.md).
+An AI model record provides an aggregated risk score. The individual risk scores for entities that have Risk assessment for AI inventory as the Risk Assessment Methodology \(RAM\) roll up to form an aggregated risk score. You can see the aggregated risk score under the Details tab of the AI system record in the **Aggregated risk score** section. For more information about how risk score is rolled up, see [Risk score rollup in Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-rollup-ara-concept.md).
 
 **Important:** To see the aggregated risk score, you must enable the **Migrate to Advanced Risk Assessments** \(`sn_risk_advanced.migrate_to_advanced_risk`\) under **All** &gt; **Advanced Risk** &gt; **Properties**.
 
@@ -35,9 +37,9 @@ Aggregated risk score consolidates individual risks such as bias, drift, and sec
 
 ## Related AI assets
 
-The Related AI assets section lists the following for an AI model:
+The Related AI assets section includes the following assets for an AI model:
 
--   AI systems: The AI systems that use this AI model.
--   Training datasets: The training datasets used within this AI model.
--   Evaluation datasets: The evaluation datasets used within this AI model.
+-   AI systems that use this AI model
+-   Training datasets used within this AI model
+-   Evaluation datasets used within this AI model
 

@@ -2,6 +2,7 @@
 title: Formatting results
 description: The description element in the returned RSS xml can be formatted by setting the URL parameter sysparm\_format=true and specifying the format string in the property glide.rss.description\_format.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/c\_FormattingResults.html
 release: australia
 product: Web Services
 classification: web-services
@@ -28,5 +29,5 @@ By default, when the URL parameter is present, the description element will be f
 
 This default format string can be overridden using the property **glide.rss.description\_format**.
 
-**Parent Topic:**[RSS feed generator](c_RSSFeedGenerator.md)
+**Parent Topic:**[RSS feed generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_RSSFeedGenerator.md)
 

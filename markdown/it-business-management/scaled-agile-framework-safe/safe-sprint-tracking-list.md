@@ -2,6 +2,7 @@
 title: Track your SAFe team work from the list view
 description: Create, execute, track, and complete the scrum tasks and tests of a SAFe story from the list view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scaled-agile-framework-safe/safe-sprint-tracking-list.html
 release: australia
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
@@ -53,11 +54,11 @@ Role required: safe\_scrum\_user or safe\_admin
     **Note:** The option to create a test is available only when Test Management 2.0 is installed.
 
     1.  From the **Show** list at the top-right corner, select **Tests**.
-    2.  Click **Add Test**. For more information, see [Create a test for a SAFe story](create-SAFe-test.md).
+    2.  Click **Add Test**. For more information, see [Create a test for a SAFe story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/create-SAFe-test.md).
 7.  To run tests that are in the **Ready** state for a SAFe story:
 
     1.  Click the **Run** button on a story.
-    2.  In the pop-up, select the environment on which the tests are to be run, and click **Run**. For more information, see [Run a test for a SAFe story](run-SAFe-test.md).
+    2.  In the pop-up, select the environment on which the tests are to be run, and click **Run**. For more information, see [Run a test for a SAFe story](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scaled-agile-framework-safe/run-SAFe-test.md).
 8.  To personalize columns in a list, click the Personalize icon.
 
 

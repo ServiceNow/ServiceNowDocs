@@ -2,6 +2,7 @@
 title: Indexed source attributes for AI Search
 description: An indexed source attribute defines indexing behavior for all records from an indexed source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/indexed-source-attributes-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -23,16 +24,16 @@ Examples of how you might use indexed source attributes include the following.
 
 An indexed source's attributes appear in its Advanced Configuration related list.
 
--   **[Create an indexed source attribute in AI Search](../task/create-indexed-source-attr-ais.md)**  
+-   **[Create an indexed source attribute in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/create-indexed-source-attr-ais.md)**  
 Define an indexed source attribute to configure the AI Search content indexing behavior for all records on a source table.
--   **[Enable indexing of tags for an AI Search indexed source](../task/enable-tag-indexing-ais.md)**  
+-   **[Enable indexing of tags for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-tag-indexing-ais.md)**  
 Configure an indexed source attribute to enable indexing of content from tags found on records from an indexed source.
--   **[Enable indexing of attachments for an AI Search indexed source](../task/enable-attachment-indexing-ais.md)**  
+-   **[Enable indexing of attachments for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/enable-attachment-indexing-ais.md)**  
 Configure an indexed source attribute to enable indexing of content from attachments found on records from an indexed source.
--   **[Activate automatic image captioning for attachments from an indexed source](../task/activate-automatic-image-captioning.md)**  
-Generate searchable captions for attachment images found on records in an indexed source table.
--   **[List of AI Search indexed source attributes](../reference/indexed-source-attrs-ais.md)**  
+-   **[Activate multimodal captioning for attachments from an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/activate-multimodal-captioning.md)**  
+Generate descriptive captions for images, tables, charts, and other visual elements in attachments from records in an indexed source table. You can find these attachments by searching for terms from their generated captions.
+-   **[List of AI Search indexed source attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-source-attrs-ais.md)**  
 You can adjust indexing behavior for an AI Search indexed source by configuring indexed source attributes and values.
 
-**Parent Topic:**[Indexed sources in AI Search](indexed-sources-ais.md)
+**Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/indexed-sources-ais.md)
 

@@ -2,6 +2,7 @@
 title: Special administrative roles
 description: Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.Create, modify, and delete assignment rulesThe instance can automatically assign a task to a user or group based on pre-defined conditions by using data lookup rules and assignment rules..Create, modify, and delete Business rules./&gt;.Create, modify, and delete client scripts.Create, modify, and delete forms, and form sections and section elements.Manage, share, publish, and schedule all reports. Users assigned this role can access the Reports Administration module and manage all report-related objects. The report\_admin role inherits all other report roles.Create, modify, and delete Script Includes.Create, modify, and delete UI actions.Create, modify, and delete UI macros.Create, modify, and delete UI pages.Create, modify, and delete using UI policies.Create, modify, and delete UI scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/user-administration/r\_SpecialAdministrativeRoles.html
 release: australia
 product: User Administration
 classification: user-administration
@@ -15,17 +16,17 @@ breadcrumb: [Base system roles, Managing roles, User administration, Configure c
 
 Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 These roles don’t change the behavior of the admin role, which grants full administrative privileges.
 
 **Important:** You can’t rename roles of any kind in the ServiceNow AI Platform
 
-**Parent Topic:**[Base system roles](r_BaseSystemRoles.md)
+**Parent Topic:**[Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/r_BaseSystemRoles.md)
 
 ## Assignment rule administrator \[assignment\_rule\_admin\]
 
-Create, modify, and delete [assignment rules](../../task-table/concept/c_DefineAssignmentRules.md).
+Create, modify, and delete [assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/c_DefineAssignmentRules.md).
 
 ### Contains Roles
 

@@ -2,6 +2,7 @@
 title: Activate Playbooks for App Engine
 description: Activate Playbooks on your instance to create playbooks in App Engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activate-process-automation-designer-for-app-engine.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -59,7 +60,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -79,7 +80,7 @@ Select the date and time to activate the plugin.
 
 ## Result
 
-You can create triggers in Playbooks for [custom tables that you create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/t_CreateATable.md). Enabling the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin lets you create playbooks for these tables and their [extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/table-extension-and-classes.md):
+You can create triggers in Playbooks for custom tables that you create. Enabling the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin lets you create playbooks for these tables and their extensions:
 
 -   Affected CIs \[cmdb\_outage\_ci\_mtom\]
 -   Agent Capacity \[awa\_agent\_capacity\]
@@ -197,5 +198,5 @@ You can create triggers in Playbooks for [custom tables that you create](https:/
 
 **Note:** If you create a custom table such as My Table \[x\_my\_table\], you can create playbooks that trigger from it. However, you cannot create a playbook that triggers from a table belonging to another Process Automation Designer plugin.
 
-**Parent Topic:**[Activate Playbooks](../concept/activate-process-automation-designer.md)
+**Parent Topic:**[Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activate-process-automation-designer.md)
 

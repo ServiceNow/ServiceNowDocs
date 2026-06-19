@@ -2,6 +2,7 @@
 title: Resolve noncritical HR cases agentic workflow
 description: Use the Resolve noncritical HR cases agentic workflow to assess the criticality of HR cases and automatically respond to noncritical inquiries without human intervention. Human agents must intervene when requests are marked critical.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -37,7 +38,7 @@ To access the agentic workflow:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
 2.  Select **Agentic workflows** &gt; **Resolve noncritical HR cases**.
 
-![Accessing Resolve noncritical HR cases agentic workflow](../image/set-up-nc-case.png)
+\[Omitted image "set-up-nc-case.png"\] Alt text: Accessing Resolve noncritical HR cases agentic workflow
 
 The first step of the guided setup includes a complete list of included AI agents. Selecting the name of an AI agent opens it in a new browser tab, where you can see the full description, role, list of steps, and tools. Tools are displayed in the second step of the AI agent guided setup, Add tools, and information.
 
@@ -56,7 +57,7 @@ In the Resolve noncritical HR cases agentic workflow, review the information in 
 
 ## Trigger
 
-Business rule: The **Trigger non critical use case** business rule serves as a trigger that executes following the completion of the Predict service and Transfer HR cases use case. This business rule contains conditions that determine when the Resolve noncritical HR cases use case should be initiated. Modify the conditions to align with your specific business requirements. ![Activating business rule](../image/trigger-nc-br1.png)![Activating business rule](../image/trigger-nc-br.png)
+Business rule: The **Trigger non critical use case** business rule serves as a trigger that executes following the completion of the Predict service and Transfer HR cases use case. This business rule contains conditions that determine when the Resolve noncritical HR cases use case should be initiated. Modify the conditions to align with your specific business requirements. \[Omitted image "trigger-nc-br1.png"\] Alt text: Activating business rule\[Omitted image "trigger-nc-br.png"\] Alt text: Activating business rule
 
 ## Executing a test scenario
 
@@ -68,7 +69,7 @@ The AI agent decision log displays the AI agents that are working to resolve the
 
 **Note:** The AI agent decision log is available in the **Testing** section in AI Agent Studio and is intended for testing purposes only.
 
-.![Testing input for the agentic workflow.](../image/resolve-nc-workflow.png)![Testing output for the agentic workflow.](../image/resolve-noncritical-workflow.png)
+.\[Omitted image "resolve-nc-workflow.png"\] Alt text: Testing input for the agentic workflow.\[Omitted image "resolve-noncritical-workflow.png"\] Alt text: Testing output for the agentic workflow.
 
 The AI agent assesses each HR case to determine its criticality.
 
@@ -77,5 +78,5 @@ The AI agent assesses each HR case to determine its criticality.
 
 ## Example of event creation on Agent Workspace for HR Case Management
 
-This is an example of how the Resolve noncritical HR cases agentic workflow generates recommendations for a non-critical case, and sends email notifications to the requester.![Event creation on Agent Workspace for HR Case Management](../image/nc-request.png)![Event creation on Agent Workspace for HR Case Management](../image/nc-request1.png)
+This is an example of how the Resolve noncritical HR cases agentic workflow generates recommendations for a non-critical case, and sends email notifications to the requester.\[Omitted image "nc-request.png"\] Alt text: Event creation on Agent Workspace for HR Case Management\[Omitted image "nc-request1.png"\] Alt text: Event creation on Agent Workspace for HR Case Management
 

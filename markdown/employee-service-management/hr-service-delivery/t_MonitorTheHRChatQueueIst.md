@@ -2,11 +2,12 @@
 title: Monitor the HR chat queue
 description: Employees can ask a question from the Chat with HR link on the HR Portal. Their question is placed in the HR chat queue, and any HR agent monitoring the queue can respond to it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/t\_MonitorTheHRChatQueueIst.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [HR chat from lists and forms, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -21,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 **Note:**
 
-Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
+Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 ## About this task
 
@@ -35,23 +36,23 @@ By default, all members of the HR group monitor the HR chat queue. When a questi
 
     The Connect workspace opens in a new tab.
 
-2.  Click the support tab of the Connect sidebar, indicated by a headset icon \(![Support icon](../image/IconSupport.png)\).
+2.  Click the support tab of the Connect sidebar, indicated by a headset icon \(\[Omitted image "IconSupport.png"\] Alt text: Support icon\).
 
     The support tab displays **Queues** to which you belong. It also displays your open support conversations under **Cases**. When a user starts a support conversation or an agent transfers a conversation to a queue, any agent who belongs to the associated queue can accept the conversation.
 
-    ![The support tab of the Connect sidebar displays queues you belong to and support cases](../image/ConnectSidebarChatTab.png "Support tab of Connect sidebar")
+    \[Omitted image "ConnectSidebarChatTab.png"\] Alt text: The support tab of the Connect sidebar displays queues you belong to and support cases
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d526796e150">
+<table id="choicetable_qpw_dmt_hcc"><thead><tr><th align="left" id="d490584e150">
 
 Option
 
-</th><th align="left" id="d526796e153">
+</th><th align="left" id="d490584e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d526796e159">
+</th></tr></thead><tbody><tr><td id="d490584e159">
 
 **Accept a conversation from a queue**
 
@@ -59,13 +60,13 @@ Description
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d526796e179">
+</td></tr><tr><td id="d490584e179">
 
 **Accept a transfer request**
 
 </td><td>
 
-Under **Cases**, click **Accept** by a transfer request.![The transfer request contains buttons to Decline or Accept](../image/ConnectSupportTransferRequest.png "Transfer request")
+Under **Cases**, click **Accept** by a transfer request.\[Omitted image "ConnectSupportTransferRequest.png"\] Alt text: The transfer request contains buttons to Decline or Accept
 
  The conversation opens in the conversation pane. The agent who transferred the conversation can stay in the conversation.
 
@@ -79,5 +80,5 @@ Under **Cases**, click **Accept** by a transfer request.![The transfer request c
 
 If necessary, you can open a new HR case or incident from the conversation for further investigation. You can also transfer the conversation to a different agent or queue, or escalate the conversation to a higher priority queue.
 
-**Parent Topic:**[HR chat from lists and forms](../concept/chat-with-scoped-hr.md)
+**Parent Topic:**[HR chat from lists and forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/chat-with-scoped-hr.md)
 

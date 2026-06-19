@@ -2,6 +2,7 @@
 title: Zero Copy Connector for ERP Monitor field descriptions
 description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Monitor enables you to track ERP transactions and their progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-data-hub-monitor-field-descriptions.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -16,15 +17,15 @@ breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Cop
 
 The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Monitor enables you to track ERP transactions and their progress.
 
-For process details, see [Monitor Zero Copy Connector for ERP transactions and logged errors](../task/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
+For process details, see [Monitor Zero Copy Connector for ERP transactions and logged errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
 
 <table id="table_uk4_144_2dc"><thead><tr><th>
 
- 
+Field
 
 </th><th>
 
- 
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -117,5 +118,5 @@ Updated
 The date and time the transaction was last changed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](erp-canvas-field-descriptions.md)
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

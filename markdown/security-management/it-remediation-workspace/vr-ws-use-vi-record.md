@@ -2,6 +2,7 @@
 title: Use records in the IT Remediation Workspace
 description: Use records to help you view your remediation progress and the impact of vulnerable items on your assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/it-remediation-workspace/vr-ws-use-vi-record.html
 release: australia
 product: IT Remediation Workspace
 classification: it-remediation-workspace
@@ -36,15 +37,15 @@ Role required:
 
 3.  Refer to the following table for the UI actions you can perform on the remediation task record.
 
-<table id="choicetable_rrb_qt4_1qb"><thead><tr><th align="left" id="d255677e110">
+<table id="choicetable_rrb_qt4_1qb"><thead><tr><th align="left" id="d240377e106">
 
 Task
 
-</th><th align="left" id="d255677e113">
+</th><th align="left" id="d240377e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d255677e119">
+</th></tr></thead><tbody><tr><td id="d240377e115">
 
 **Click a Related Items link**
 
@@ -57,7 +58,7 @@ Description
 -   Remediation tasks - View the other remediation tasks associated with this vulnerable item.
  Opened records from the VIT remain displayed as tabs under the record tabs until you close them.
 
-</td></tr><tr><td id="d255677e149">
+</td></tr><tr><td id="d240377e145">
 
 **Click a link to open a record**
 
@@ -65,7 +66,7 @@ Description
 
 From list displayed on opened records from the related items links, view more details about the remediation tasks, detections, and impacted services.
 
-</td></tr><tr><td id="d255677e158">
+</td></tr><tr><td id="d240377e154">
 
 **Click a UI action**
 
@@ -79,7 +80,7 @@ From list displayed on opened records from the related items links, view more de
 -   Save - Save any changes and uppdate the record.
 
 
-</td></tr><tr><td id="d255677e189">
+</td></tr><tr><td id="d240377e185">
 
 **Add a work note or attach a file**
 
@@ -87,7 +88,7 @@ From list displayed on opened records from the related items links, view more de
 
 In the far right of the screen, click the **Activity** icon \(lightening icon\) and enter a work note. Click the icon to toggle the panel.You can also upload a file.
 
-</td></tr><tr><td id="d255677e205">
+</td></tr><tr><td id="d240377e201">
 
 **Set filters for a column on a list**
 
@@ -95,7 +96,7 @@ In the far right of the screen, click the **Activity** icon \(lightening icon\) 
 
 Select a column and expand the vertical dots menu to view options that further filter the data in the column. For example, with the Detections related item selected, you might prefer to sort the column so that only detections last found from a certain date are displayed.
 
-</td></tr><tr><td id="d255677e217">
+</td></tr><tr><td id="d240377e213">
 
 **Filter out items or match items from a row in a column**
 

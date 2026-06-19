@@ -2,6 +2,7 @@
 title: Using Capacity in Strategic Planning Workspace
 description: View and analyze the resource capacity for your portfolio to plan and re-forecast the resource assignments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/using-cap-planning-screen-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -17,7 +18,7 @@ View and analyze the resource capacity for your portfolio to plan and re-forecas
 
 ## Before you begin
 
-Generate resource capacity using [manage resource capacity](manage-rsrc-cap-spw.md).
+Generate resource capacity using [manage resource capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/manage-rsrc-cap-spw.md).
 
 Role required: sn\_align\_ws.spw\_capacity\_user
 
@@ -33,13 +34,13 @@ Role required: sn\_align\_ws.spw\_capacity\_user
 
     If you select Group, all the available groups from the resource assignments of the prioritized planning items are automatically displayed in the Auto-select option. You can add or remove the suggestions to view the resource capacity using the Manual-select option.
 
-    **Tip:** You can always redefine and change the resource criteria to view custom results using the **Resource criteria** \(![Resource criteria button.](../images/cp-resource-criteria-button.png)\) button.
+    **Tip:** You can always redefine and change the resource criteria to view custom results using the **Resource criteria** \(\[Omitted image "cp-resource-criteria-button.png"\] Alt text: Resource criteria button.\) button.
 
-    ![Resource criteria screen in Capacity.](../images/cp-select-resource-criteria.png)
+    \[Omitted image "cp-select-resource-criteria.png"\] Alt text: Resource criteria screen in Capacity.
 
 5.  Select **Submit**.
 
-    ![Capacity screen.](../images/cp-capacity-planning-screen.png)
+    \[Omitted image "cp-capacity-planning-screen.png"\] Alt text: Capacity screen.
 
 
 ## Result

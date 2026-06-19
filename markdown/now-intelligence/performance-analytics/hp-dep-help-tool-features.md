@@ -2,6 +2,7 @@
 title: Homepage deprecation help tool
 description: Use the Homepage deprecation help tool to find all of your homepages in one place and convert them to dashboards, retire them, and restore retired homepages as dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/hp-dep-help-tool-features.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -23,7 +24,7 @@ Before you use the homepage deprecation help tool, perform these two steps. A us
 
     **Important:** When set to true, this property disables the creation of new homepages and sets the default start page or landing page to Dashboards. Menu items and URLs that open homepages will continue to point to those homepages. Otherwise, homepages are unavailable and should be migrated using this tool.
 
-2.  [Populate the homepage migration status table](../task/hpm-populate-hp-status-table.md).
+2.  [Populate the homepage migration status table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/hpm-populate-hp-status-table.md).
 
 The Homepage deprecation dashboard has four tabs:
 
@@ -44,7 +45,7 @@ The Homepage deprecation dashboard has four tabs:
     A list of all the homepages that have not been viewed in the last 30 days.
 
 
-![Animated gif of homepage deprecation dashboard that scrolls through all four tabs](../image/hp-dep-db-overview.gif "Homepage deprecation dashboard")
+\[Omitted image "hp-dep-db-overview.gif"\] Alt text: Animated gif of homepage deprecation dashboard that scrolls through all four tabs
 
 ## Overview tab
 
@@ -54,13 +55,13 @@ In the **How to start** section, admins have links to disable creation of new ho
 
 |Report|Type|Description|
 |------|----|-----------|
-|Homepages not deprecated|![](../../reporting/image/icon-single-score-report-p.png) Single score|Number of homepages that you have not converted or retired. Select this report to see the associated homepages on the [Homepage migration status table](../concept/homepage-migration-status-table.md).|
-|Converted homepages|![](../../reporting/image/icon-single-score-report-p.png) Single score|Number of homepages that you’ve converted to responsive dashboards. Select this report to see the associated homepages on the [Homepage migration status table](../concept/homepage-migration-status-table.md).|
-|Retired homepages|![](../../reporting/image/icon-single-score-report-p.png) Single score|Number of homepages that you’ve retired. Select this report to see the associated homepages on the [Homepage migration status table](../concept/homepage-migration-status-table.md).|
-|Restored homepages|![](../../reporting/image/icon-single-score-report-p.png) Single score|Number of retired dashboards that you’ve restored as responsive dashboards. Select this report to see the associated homepages on the [Homepage migration status table](../concept/homepage-migration-status-table.md).|
-|Assigned to users|![](../../reporting/image/icon-bar-report-p.png) Bar report|Homepages that are assigned to users. The bar labeled **empty** accounts for homepages that don’t have any assigned users. Select any bar in this report to see the associated homepages on the [Homepage migration status table](../concept/homepage-migration-status-table.md).|
-|Assigned to groups|![](../../reporting/image/icon-bar-report-p.png) Bar report|Homepages that are assigned to groups. The bar labeled **empty** accounts for homepages that don’t have any assigned groups. Select any bar in this report to see the associated homepages on the [Homepage migration status table](../concept/homepage-migration-status-table.md).|
-|All converted homepages from app and other actions|![](../../reporting/image/icon-list-report-p.png) List report|All dashboards that have been converted from homepages, whether in the help tool, or by other means.|
+|Homepages not deprecated|\[Omitted image "icon-single-score-report-p.png"\] Alt text: Single score|Number of homepages that you have not converted or retired. Select this report to see the associated homepages on the [Homepage migration status table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-migration-status-table.md).|
+|Converted homepages|\[Omitted image "icon-single-score-report-p.png"\] Alt text: Single score|Number of homepages that you’ve converted to responsive dashboards. Select this report to see the associated homepages on the [Homepage migration status table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-migration-status-table.md).|
+|Retired homepages|\[Omitted image "icon-single-score-report-p.png"\] Alt text: Single score|Number of homepages that you’ve retired. Select this report to see the associated homepages on the [Homepage migration status table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-migration-status-table.md).|
+|Restored homepages|\[Omitted image "icon-single-score-report-p.png"\] Alt text: Single score|Number of retired dashboards that you’ve restored as responsive dashboards. Select this report to see the associated homepages on the [Homepage migration status table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-migration-status-table.md).|
+|Assigned to users|\[Omitted image "icon-bar-report-p.png"\] Alt text: Bar report|Homepages that are assigned to users. The bar labeled **empty** accounts for homepages that don’t have any assigned users. Select any bar in this report to see the associated homepages on the [Homepage migration status table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-migration-status-table.md).|
+|Assigned to groups|\[Omitted image "icon-bar-report-p.png"\] Alt text: Bar report|Homepages that are assigned to groups. The bar labeled **empty** accounts for homepages that don’t have any assigned groups. Select any bar in this report to see the associated homepages on the [Homepage migration status table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/homepage-migration-status-table.md).|
+|All converted homepages from app and other actions|\[Omitted image "icon-list-report-p.png"\] Alt text: List report|All dashboards that have been converted from homepages, whether in the help tool, or by other means.|
 
 ## Personal homepages
 

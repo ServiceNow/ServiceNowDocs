@@ -2,6 +2,7 @@
 title: Create next PI and Sprint from EAP Backlog
 description: Create iterations of Planning Intervals \(PI\) and Sprints so that teams can start prioritizing and scheduling their work from the Backlog in Enterprise Agile Planning \(EAP\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -46,9 +47,9 @@ This task is explained using the default Full Configuration as an example, where
 
         For example, if the name of your business calendar entry is set as **Greenbacks PI** and Greenbacks PI 1 and Greenbacks PI 2 exist already, then the new PI is named **Greenbacks PI 3**.
 
-    After the PI is created, you can edit this name according to your naming convention. See [Update iteration details in EAP](edit-pi-sprint-iteration-details-in-eap.md).
+    After the PI is created, you can edit this name according to your naming convention. See [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md).
 
-    For more information on how a system admin can define the calendar entries and their dates, see [Create calendar entries for iterations in EAP](create-calendar-entries-in-eap.md).
+    For more information on how a system admin can define the calendar entries and their dates, see [Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md).
 
     **Note:** If you have Agile Teams added to this ART, Sprints are automatically created for them too. The number of Sprints created for the teams are based on the child calendar spans that match with the PI dates. If you add Agile Teams to this ART later, Sprints aren’t added to them automatically. In that case, proceed to step 4.
 
@@ -62,13 +63,13 @@ This task is explained using the default Full Configuration as an example, where
 
     The default name and dates for this Sprint are according to the business calendar entry defined by the system admin.
 
-    After the Sprint is created, you can edit this name according to your naming convention. See [Update iteration details in EAP](edit-pi-sprint-iteration-details-in-eap.md).
+    After the Sprint is created, you can edit this name according to your naming convention. See [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md).
 
 
 ## What to do next
 
--   [Update iteration details in EAP](edit-pi-sprint-iteration-details-in-eap.md).
--   [Schedule work items into iterations in EAP Backlog](schedule-work-items-into-iterations-in-eap-backlog.md).
+-   [Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md).
+-   [Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md).
 
-**Parent Topic:**[Manage team backlog in EAP](../concept/using-eap.md)
+**Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap.md)
 

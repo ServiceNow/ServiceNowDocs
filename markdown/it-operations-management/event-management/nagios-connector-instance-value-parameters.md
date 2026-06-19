@@ -2,6 +2,7 @@
 title: Nagios connector instance value parameters
 description: The following table displays the Nagios connector instance value parameters that you can fill in, as needed, when creating a Nagios connector instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/nagios-connector-instance-value-parameters.html
 release: australia
 product: Event Management
 classification: event-management
@@ -48,5 +49,5 @@ offset\_min
 Adds a small time buffer to ensure no metrics are missed.Default: 5 minutes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](event-management-reference.md)
+</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-management-reference.md)
 

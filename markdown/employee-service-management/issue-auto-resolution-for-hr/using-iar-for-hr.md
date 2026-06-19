@@ -2,11 +2,12 @@
 title: Using Issue Auto Resolution for HR to handle cases
 description: You can use the Issue Auto Resolution for HR application to quickly handle your organization's high-volume, low-value HR cases and reduce the burden on your agents so that they can focus on issues that need more experience or manual assistance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/issue-auto-resolution-for-hr/using-iar-for-hr.html
 release: australia
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---

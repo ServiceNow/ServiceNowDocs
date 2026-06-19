@@ -2,6 +2,7 @@
 title: Methods to add variable information to the cancellation message
 description: You can use the following methods of the jvar\_transaction variable to add information to the cancellation message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/r\_AddVarInfoToTheCancellationMsg.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -27,5 +28,5 @@ You can use the following methods of the *jvar\_transaction* variable to add inf
 |getHomepage\(\)|Returns the sys\_id of the homepage.|
 |getHomepageWidget\(\)|Returns the name of the homepage widget.|
 
-**Parent Topic:**[Platform performance reference](../concept/platform-performance-references.md)
+**Parent Topic:**[Platform performance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/platform-performance-references.md)
 

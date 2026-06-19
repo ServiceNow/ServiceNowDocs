@@ -2,6 +2,7 @@
 title: Configure AI-based catalog search experience
 description: Improve employee engagement with an AI-based catalog search experience in Service Portal and Now Mobile. Intelligent query features enable users to quickly and easily find the answers they need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/config-ai-search-cat.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -23,12 +24,12 @@ Role required: admin
 
 You can configure AI-based catalog search experience in portals and Now Mobile. Following are the default search application configurations for Service Portal and Now Mobile:
 
--   Service Portal Default Search Application. For information about AI Search in Service Portal, see [AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/ai-search.md).
--   NowMobile App Search Configurations. For information about AI Search in Now Mobile, see [AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md).
+-   Service Portal Default Search Application. For information about AI Search in Service Portal, see AI Search in Service Portal.
+-   NowMobile App Search Configurations. For information about AI Search in Now Mobile, see AI Search in mobile.
 
 Each of these search application configurations have an associated search profile based on which the search results are filtered and displayed.
 
-**Note:** If the AI Search is enabled for Now Mobile, the **Experience for items not available in NOW Mobile** \(**glide.sc.mobile.unsupported\_discover**\) property is not applicable. For information on Now Mobile properties, see [Service Catalog properties](../reference/r_ServiceCatalogProperties.md).
+**Note:** If the AI Search is enabled for Now Mobile, the **Experience for items not available in NOW Mobile** \(**glide.sc.mobile.unsupported\_discover**\) property is not applicable. For information on Now Mobile properties, see [Service Catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_ServiceCatalogProperties.md).
 
 Following are a few limitations for AI-based catalog search experience:
 
@@ -41,7 +42,7 @@ Following are a few limitations for AI-based catalog search experience:
 
 2.  To edit the searchable catalogs in a portal or Now Mobile, perform the following steps.
 
-    **Note:** Items are searched for only in the catalogs configured in the search source, irrespective of the catalogs associated with the portal. For information on associating a catalog with a portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+    **Note:** Items are searched for only in the catalogs configured in the search source, irrespective of the catalogs associated with the portal. For information on associating a catalog with a portal, see Configure a catalog in Service Portal.
 
     1.  In the Search Application Configurations list, select the search application configuration associated with the portal.
 
@@ -59,15 +60,15 @@ Following are a few limitations for AI-based catalog search experience:
 
     4.  In the **Conditions** field, add catalogs where you want the items to be searched for.
 
-        ![Searchable catalogs in Service Portal.](../image/catalog_portals.png "Searchable catalogs in Service Portal")
+        \[Omitted image "catalog\_portals.png"\] Alt text: Searchable catalogs in Service Portal.
 
     5.  Click **Update**.
 
 
-**Parent Topic:**[Configure search and navigation](../concept/c_ConfigSrchNavUseProps.md)
+**Parent Topic:**[Configure search and navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ConfigSrchNavUseProps.md)
 
 **Related topics**  
 
 
-[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md)
+[bundle-platadm.overview-ais]
 

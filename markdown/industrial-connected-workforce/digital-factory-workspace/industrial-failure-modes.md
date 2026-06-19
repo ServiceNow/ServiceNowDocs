@@ -2,6 +2,7 @@
 title: Industrial Failure Modes
 description: Use Industrial Failure Modes to manage failure modes in the Industrial Connected Workforce.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/industrial-failure-modes.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -49,10 +50,10 @@ Failure modes can be used to do the following.
 
 The following image shows the **Failure Modes** tab available when viewing part of the equipment model.
 
-![Overview of failure modes for the selected functional location with the highlighted Failure Modes tab](../image/failure-modes.png)
+\[Omitted image "failure-modes.png"\] Alt text: Overview of failure modes for the selected functional location with the highlighted Failure Modes tab
 
--   **[Create a failure mode from a functional location](../task/create-failure-mode.md)**  
+-   **[Create a failure mode from a functional location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/create-failure-mode.md)**  
 Create a failure mode from a functional location in the Digital Factory Workspace to help identify and organize equipment or process issues.
 
-**Parent Topic:**[Using Digital Factory Workspace](using-digital-factory-workspace.md)
+**Parent Topic:**[Using Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/using-digital-factory-workspace.md)
 

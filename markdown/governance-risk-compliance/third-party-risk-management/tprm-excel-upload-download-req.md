@@ -2,6 +2,7 @@
 title: Create New Excel download/upload request form
 description: Use the Create New Excel download/upload request form to capture all the information that you need to create a download/upload request for Digital resilience third-party registers using the Third-party Risk Management application. As a third-party risk manager or third-party risk assessor you can create an Excel download/upload request record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -160,7 +161,7 @@ Enable currency conversion
 
 Option to convert each contract’s annual expense into a single base currency using historical exchange rates from the European Central Bank \(ECB\).**Note:** The Reference Date on the report determines the exchange rate used. Converted amounts appear only in the generated package; source records are unchanged.
 
-For more information, see [Currency conversion and third-party total expense aggregation](../concept/tprm-dora-currency-aggregation.md)
+For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md)
 
 </td></tr><tr><td>
 
@@ -170,7 +171,7 @@ Enable third‑party total expense aggregation
 
 Option to aggregate annual expenses across all contracts belonging to the same third‑party provider or third‑party engagement.**Note:** Aggregation only happens if all eligibility rules are met: All contracts for the provider must meet provider eligibility criteria \(for example, single‑provider contracts and currency alignment\). If currency conversion is not enabled, all contracts must already be in base currency. If currency conversion is enabled, all conversions must succeed.
 
-For more information, see [Currency conversion and third-party total expense aggregation](../concept/tprm-dora-currency-aggregation.md)
+For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md)
 
 </td></tr><tr><td>
 

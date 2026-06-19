@@ -2,11 +2,12 @@
 title: SOX Content Pack dashboard and reports
 description: The SOX Content Pack dashboards display multiple SOX reports on a single screen. Various GRC roles have read or edit access to these dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-SOX-compliance-content-pack.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [SOX content pack, GRC content packs, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -146,7 +147,7 @@ The SOX Audit Dashboard displays an overview of all audits and audit issues. Nav
 
 
 
-![Issue Overview](../image/SOX-issue-overview.png "Issue Overview")
+\[Omitted image "SOX-issue-overview.png"\] Alt text: Issue Overview
 
-**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](sn-store-SOX-governance-risk-compliance.md)
+**Parent Topic:**[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)
 

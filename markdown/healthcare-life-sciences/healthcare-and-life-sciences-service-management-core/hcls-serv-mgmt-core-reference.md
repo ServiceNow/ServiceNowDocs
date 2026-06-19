@@ -2,6 +2,7 @@
 title: Healthcare and Life Sciences Service Management Core reference
 description: Reference topics provide additional information about Healthcare and Life Sciences Service Management Core components, including tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core-reference.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -15,30 +16,30 @@ breadcrumb: [Healthcare and Life Sciences Service Management Core, Healthcare an
 
 Reference topics provide additional information about Healthcare and Life Sciences Service Management Core components, including tables.
 
--   **[Components installed with Healthcare and Life Sciences Service Management Core](hcls-components-installed-serv-mgmt.md)**  
+-   **[Components installed with Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-components-installed-serv-mgmt.md)**  
 Several types of components are installed with installation of the Healthcare and Life Sciences Service Management Core application, including user roles, tables, plugins, ServiceNow Store applications, and business rules.
--   **[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)**  
+-   **[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)**  
 Tables installed with the Healthcare and Life Sciences Service Management Core application enable you to decide the data model, tasks, and product offerings for your Healthcare and Life Sciences workflows.
--   **[Patient Portal widget library](hcls-pat-widget-library.md)**  
+-   **[Patient Portal widget library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pat-widget-library.md)**  
 Widgets included with the Patient Portal enable you to customize their data and appearance or refer to them as a basic code sample when building your own widgets.
--   **[Healthcare organization form](hcls-hc-org-form.md)**  
+-   **[Healthcare organization form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-hc-org-form.md)**  
 The Healthcare organization form includes the details of a healthcare organization.
--   **[Medication Prescription form](hcls-med-prescription-form.md)**  
+-   **[Medication Prescription form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-med-prescription-form.md)**  
 The Medication Prescription form includes the details of the prescription ordered for a patient.
--   **[Policy form](hcls-policy-form.md)**  
+-   **[Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-policy-form.md)**  
 The Policy form includes the details of a privacy policy associated with a healthcare case.
--   **[Pre-authorization request form](hcls-pre-auth-form.md)**  
+-   **[Pre-authorization request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-pre-auth-form.md)**  
 The Pre-authorization request form includes the details of the pre-authorization request provided by a payer for a patient.
--   **[Healthcare and Life Sciences Service Management Core properties](hcls-properties.md)**  
+-   **[Healthcare and Life Sciences Service Management Core properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-properties.md)**  
 There are several advanced Healthcare and Life Sciences Service Management Core properties that you can configure for features used in Healthcare and Life Sciences applications.
--   **[Domain separation and Healthcare and Life Sciences Service Management Core](../concept/hcls-domain-sep-serv-mgmt-core.md)**  
+-   **[Domain separation and Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-domain-sep-serv-mgmt-core.md)**  
 Domain separation is supported for Healthcare and Life Sciences Service Management Core. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Cryptographic Modules in Healthcare and Life Science Service Management Core](cryptographic-modules-in-healthcare-and-life-science-service-management-core.md)**  
+-   **[Cryptographic Modules in Healthcare and Life Science Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/cryptographic-modules-in-healthcare-and-life-science-service-management-core.md)**  
 Healthcare and Life Sciences Service Management Core contains the following cryptographic modules.
--   **[Encryption options in Healthcare and Life Sciences Service Management Core](../concept/hcls-encryption-support.md)**  
+-   **[Encryption options in Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-encryption-support.md)**  
 Healthcare and Life Sciences Service Management Core provides encryption support to secure sensitive information.
--   **[Healthcare and Life Sciences Service Management glossary](glossary-hcls-sm.md#)**  
+-   **[Healthcare and Life Sciences Service Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/glossary-hcls-sm.md)**  
 Learn about the terms and concepts that are unique to Healthcare and Life Sciences Service Management.
 
-**Parent Topic:**[Healthcare and Life Sciences Service Management Core](../concept/hcls-core-app.md)
+**Parent Topic:**[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-core-app.md)
 

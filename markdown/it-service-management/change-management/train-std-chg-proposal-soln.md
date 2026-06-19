@@ -2,6 +2,7 @@
 title: Train the clustering solution for standard change proposal
 description: Train the Standard change proposal solution definition to use clustering capabilities to identify and suggest Standard Change templates to create a change.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/train-std-chg-proposal-soln.html
 release: australia
 product: Change Management
 classification: change-management
@@ -29,10 +30,10 @@ Role required: admin
 
     By default, the **Std Change Template Candidates** is the solution definition provided. To generate records in the **std\_change\_template\_candidate** list, execute the scheduled job Update Standard Change Cluster Candidates. You can also configure the scheduled job to run at specific periods by selecting the required option in the Run field in the **Scheduled Script Execution** page. You can then create standard change templates from the clusters generated.
 
-    For more information on creating and training the solutions, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence/create-clustering-solution.md).
+    For more information on creating and training the solutions, see Create and train a clustering solution.
 
 3.  Click **Update**.
 
 
-**Parent Topic:**[Predictive Intelligence for Change Management](../concept/change-mgmt-intelligent-solutions.md)
+**Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
 

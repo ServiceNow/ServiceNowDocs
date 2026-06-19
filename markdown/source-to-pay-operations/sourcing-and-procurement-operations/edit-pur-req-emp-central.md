@@ -2,6 +2,7 @@
 title: Edit a purchase line from a purchase requisition or order from Employee Center \(EC\)
 description: You can edit and revise the quantity of a product or delivery location of a purchase line from Employee Center. You can also view the existing or current quantity or delivery date of the purchase requisition or order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/edit-pur-req-emp-central.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -41,7 +42,7 @@ Role required: sn\_spend\_psd.requestor or shopper
 
     2.  You can edit the following details depending on whether it's a product or service.
 
-        ![Edit details of one item of the purchase request or order](../image/spo-edit-purchase.png "Edit details of one item of the purchase request or order")
+        \[Omitted image "spo-edit-purchase.png"\] Alt text: Edit details of one item of the purchase request or order
 
 <table id="table_inr_jt3_fdc"><thead><tr><th>
 
@@ -156,7 +157,7 @@ Enter the reason for editing the purchase requisition or order.
 
     3.  You can update the following details.
 
-        ![Edit entire purchase request](../image/spo-edit-entire-purchase-order.png "Edit entire purchase request")
+        \[Omitted image "spo-edit-entire-purchase-order.png"\] Alt text: Edit entire purchase request
 
 <table id="table_ct3_xt3_fdc"><thead><tr><th>
 
@@ -272,5 +273,5 @@ Enter the reason for editing the purchase requisition or order.
 9.  To save the modified details of the purchase requisition or order as a draft, select **Save as Draft** option.
 
 
-**Parent Topic:**[Purchase revision flows](../concept/purchase-revision-flows.md)
+**Parent Topic:**[Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md)
 

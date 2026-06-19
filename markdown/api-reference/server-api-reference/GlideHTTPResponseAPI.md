@@ -2,6 +2,7 @@
 title: GlideHTTPResponse - Global
 description: The GlideHTTPResponse API provides utility methods to perform common functions with Glide HTTP responses.Returns a list of all headers.Returns a string containing the body for the HTTP response.Returns the list of cookies associated with an endpoint call.Returns the current error code returned by an endpoint.Returns the last error encountered.Returns the header specified in the passed-in parameter.Returns all headers associated with the endpoint response.Returns the HTTP method associated with the specified endpoint call.Returns the last status code for an endpoint call.Returns a flag that indicates whether there were any errors while processing the endpoint call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideHTTPResponseAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideHTTPResponse API provides utility methods to perform common functions with Glide HTTP responses.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideHTTPResponse - getAllHeaders\(\)
 

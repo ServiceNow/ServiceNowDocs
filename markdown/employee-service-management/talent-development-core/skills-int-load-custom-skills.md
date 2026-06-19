@@ -2,6 +2,7 @@
 title: Load your custom skills into Skills Foundation
 description: Upload the skills specific to your organization or human capital management practices in your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/skills-int-load-custom-skills.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -29,7 +30,7 @@ Role required: import\_admin, sn\_skills\_int.admin
 
 3.  Select the Skills Staging \[sn\_skills\_int\_skills\_staging\] table from the drop-down list.
 
-    **Note:** If no values appear in the table for the level types and proficiencies for a skill, the skill will be created without this information. For more information, see [Define a skill level type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/skills-management/define-skill-level-type.md).
+    **Note:** If no values appear in the table for the level types and proficiencies for a skill, the skill will be created without this information. For more information, see .
 
 4.  In the **Source of the import** field, select **File**.
 

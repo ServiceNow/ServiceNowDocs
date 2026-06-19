@@ -2,6 +2,7 @@
 title: Check in using an invite
 description: Check in as a visitor by using an invite from an employee. If visitors have an existing invite, they can check in to the kiosk using their passcode, email, phone number, or name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-services-kiosk/visitor-check-in.html
 release: australia
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
@@ -38,7 +39,7 @@ Role required: sn\_wsd\_kiosk.viewer
     -   Check-in with your name
 3.  Enter the information based on the check-in option, then select **Continue**.
 
-    **Note:** If the provided information is incorrect or not linked to an invite, the kiosk device displays an error page. If the admin has enabled self-registration, you can register your visit by selecting **Register visit**. For more information, see [Self-register as a visitor](visitor-self-register.md).
+    **Note:** If the provided information is incorrect or not linked to an invite, the kiosk device displays an error page. If the admin has enabled self-registration, you can register your visit by selecting **Register visit**. For more information, see [Self-register as a visitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/visitor-self-register.md).
 
 4.  Verify the details of your visit, then select **Continue**.
 
@@ -63,5 +64,5 @@ Role required: sn\_wsd\_kiosk.viewer
 7.  View the next steps, then select **Done**.
 
 
-**Parent Topic:**[Using Workplace Services Kiosk](../concept/use-workplace-services-kiosk.md)
+**Parent Topic:**[Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
 

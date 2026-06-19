@@ -2,6 +2,7 @@
 title: Enable AI Search in Engagement Messenger for unauthenticated users
 description: Enable the AI Search experience in Engagement Messenger so unauthenticated users can see the most relevant set of search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-guest-user.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ Enable the AI Search experience in Engagement Messenger so unauthenticated users
 
 ## Before you begin
 
-You must configure AI Search for the Engagement Messenger before enabling AI Search for an unauthenticated user. For more information, see [Search feature configuration](../reference/search-feature-configuration-fields.md).
+You must configure AI Search for the Engagement Messenger before enabling AI Search for an unauthenticated user. For more information, see [Search feature configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/search-feature-configuration-fields.md).
 
 Role required: admin
 
@@ -38,5 +39,5 @@ As an admin, you must enable the EC AI Homepage Search, Typeahead Search, and AI
 
 ## What to do next
 
-Enable the Typeahead Search and AI Search Assist widgets. For information, see [Enable AI search in the Customer and Consumer Service Portals for unauthenticated users](configure_search_csp_guestuser.md).
+Enable the Typeahead Search and AI Search Assist widgets. For information, see [Enable AI search in the Customer and Consumer Service Portals for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/configure_search_csp_guestuser.md).
 

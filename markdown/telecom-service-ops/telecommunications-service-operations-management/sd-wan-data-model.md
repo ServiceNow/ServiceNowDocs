@@ -2,11 +2,12 @@
 title: SD-WAN data model
 description: The ServiceNow AI Platform uses a custom data model that defines how SD-WAN connectors discover and retrieve device information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/sd-wan-data-model.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Telecom data model, Explore, Telecommunications Service Operations Management]
 ---
@@ -23,7 +24,7 @@ The Discovery Builder framework supports the SD-WAN data model. You can use the 
 
 ## ServiceNow AI Platform® SD-WAN data model architecture
 
-![SD-WAN architecture class relationships](../images/sd-wan-architecture.svg)
+\[Omitted image "sd-wan-architecture.svg"\] Alt text: SD-WAN architecture class relationships
 
 The following table describes the classes used in the SD-WAN data model and the type of data each class stores.
 

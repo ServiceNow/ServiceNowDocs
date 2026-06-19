@@ -2,11 +2,12 @@
 title: Docs for planning items in Strategic Planning
 description: Store and manage all kinds of documentation for planning items from a centralized location of Strategic Planning Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/docs-for-planning-items-in-spw.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -48,16 +49,16 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 -   Summarize, elaborate, or shorten selected text.
 
-    ![Summarize, elaborate, or shorten the selected text](../../spw-eap/images/eap-now-assist-selected-content.png)
+    \[Omitted image "eap-now-assist-selected-content.png"\] Alt text: Summarize, elaborate, or shorten the selected text
 
 -   Summarize the entire content on the page.
 
-    ![Summarize the entire content on the page](../../spw-eap/images/eap-now-assist-doc-summarize.png)
+    \[Omitted image "eap-now-assist-doc-summarize.png"\] Alt text: Summarize the entire content on the page
 
 
 **Note:**
 
--   Now Assist for Docs requires an SPM Pro + license. For more information, see [Configure Now Assist Admin features](../../now-assist-spm/concept/configuring-na-spm.md).
+-   Now Assist for Docs requires an SPM Pro + license. For more information, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
 -   If there is more content to summarize, you can remove some content and retry.
 -   Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
 
@@ -65,7 +66,7 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 With the feature of real-time collaboration, edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of each editor on the page. You can choose to show or hide these live presence indicators based on your preference while working on or reviewing the content of the page.
 
-![Docs real-time collaboration.](../../collab-work-mgmt/images/cwm-docs-rtc.png)
+\[Omitted image "cwm-docs-rtc.png"\] Alt text: Docs real-time collaboration.
 
 **Note:** Huge number of users editing the same block of content simultaneously might result in issues with application performance.
 
@@ -77,11 +78,11 @@ For example, if you add a reference to a Project record, the reference shows the
 
 A hover popover displays the details of the mentioned record, providing quick access to additional information without leaving the current context.
 
-![Dynamic linking a project record in SPW Docs.](../../collab-work-mgmt/images/cwm-docs-dynamic-record.png)
+\[Omitted image "cwm-docs-dynamic-record.png"\] Alt text: Dynamic linking a project record in SPW Docs.
 
 Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of a Project record.
 
-![Dynamic linking the Assigned to field of a project record in SPW Docs.](../../collab-work-mgmt/images/cwm-docs-dynamic-field.png)
+\[Omitted image "cwm-docs-dynamic-field.png"\] Alt text: Dynamic linking the Assigned to field of a project record in SPW Docs.
 
 You can add references from any ServiceNow table you have access to, with no setup or configuration needed.
 

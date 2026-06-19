@@ -2,6 +2,7 @@
 title: Create a multi-data source list display in Entity View Action Mapper
 description: Use EVAM to take in different datasources, configure views, and show them in a card display view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/entity-view-action-mapper-evam/tutorial-create-evam.html
 release: australia
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
@@ -34,31 +35,31 @@ This tutorial runs through creating an EVAM definition with two data sources, a 
 
 ## Procedure
 
-1.  [Create an EVAM definition for user requests](define-composite-dataset.md).
+1.  [Create an EVAM definition for user requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md).
 
     An EVAM definition houses data sources, configuration bundles with associated view configurations, data filters, actions, and templates. After you initially submit your EVAM definition, you will see the related lists to add data sources, configuration bundles, and data filters.
 
-    ![Create a User Request EVAM definition](../images/user-request-tutorial.png)
+    \[Omitted image "user-request-tutorial.png"\] Alt text: Create a User Request EVAM definition
 
-2.  [Define data sources for your EVAM definition](define-evam-datasource.md).
+2.  [Define data sources for your EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.md).
 
     Create and link each data source to the User Request definition. The initial data source is for catalog requests. You can also make one for incidents submitted.
 
-    ![Create Catalog Requests data source](../images/tutorial-create-datasource.png)
+    \[Omitted image "tutorial-create-datasource.png"\] Alt text: Create Catalog Requests data source
 
-3.  [Create and link a view configuration bundle](define-view-configuration-bundle.md).
+3.  [Create and link a view configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.md).
 
     You should create two configuration bundles, a catalog request bundle and an incidents submitted bundle.
 
-    ![EVAM configuration bundle](../images/tutorial-new-bundle.png)
+    \[Omitted image "tutorial-new-bundle.png"\] Alt text: EVAM configuration bundle
 
-4.  [Create an action definition](define-evam-action.md).
+4.  [Create an action definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-action.md).
 
     You can use the create and link related list.
 
-    ![Navigation action definition](../images/tutorial-link-action-def.png)
+    \[Omitted image "tutorial-link-action-def.png"\] Alt text: Navigation action definition
 
-5.  [Create view templates](define-evam-template.md) for requested items and associate with the view configuration.
+5.  [Create view templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md) for requested items and associate with the view configuration.
 
     Here is the template info for the Requested Items Template:
 
@@ -106,6 +107,6 @@ This tutorial runs through creating an EVAM definition with two data sources, a 
 
 8.  View your finished product.
 
-    ![EVAM card list display](../images/tutorial-card-list-display.png)
+    \[Omitted image "tutorial-card-list-display.png"\] Alt text: EVAM card list display
 
 

@@ -2,11 +2,12 @@
 title: Resume a Disputes intake via Virtual Agent dispute case as a customer
 description: Learn how a customer can resume a card dispute case in Disputes intake via Virtual Agent when they close a Virtual Agent chat before submitting the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/resume-virtual-agent-dispute-case-as-customer.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Submit a dispute case with Disputes intake via Virtual Agent, Use generative AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
 ---
@@ -32,5 +33,5 @@ Role required: none
 4.  At the Submit dispute activity, select **Submit**.
 
 
-**Parent Topic:**[Submit a dispute case with Disputes intake via Virtual Agent](submit-dispute-case-disputes-intake-via-virtual-agent.md)
+**Parent Topic:**[Submit a dispute case with Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/submit-dispute-case-disputes-intake-via-virtual-agent.md)
 

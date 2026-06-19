@@ -2,6 +2,7 @@
 title: ConnectionInfo - Scoped, Global
 description: The ConnectionInfo API enables you to get connection attribute information through the connection and credential alias.Returns the value of a ConnectionInfo attribute with the specified property name.Returns the value of credential attributes for a specified connection.Returns the connection attributes as a collection of key-value pairs.Returns the extended attributes as a collection of key-value pairs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/connection-info-api.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The ConnectionInfo API enables you to get connection attribute information throu
 
 You can use this API in scoped applications or within the global scope. In scoped scripts, use the `sn_cc` namespace identifier.
 
-For more information on connections and credentials, see [Credentials and connection information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+For more information on connections and credentials, see Credentials and connection information.
 
 This function retrieves connection attribute information identified by the given connection and credential alias.
 
@@ -58,7 +59,7 @@ if (connectionInfo != null) {
 
 ```
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Scoped ConnectionInfo - getAttribute\(String name\)
 

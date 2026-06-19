@@ -2,12 +2,14 @@
 title: Set up OAuth for Card Data Security
 description: After you configure your tokenizer service, follow these steps to set up OAuth connectivity with your ServiceNow instance. This connection is required to get file metadata and download URLs from files hosted in the tokenizer service vault.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/set-up-oauth-for-card-data-security.html
 release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [set up oauth card data security, oauth authentication, jwt authentication, json web token, context-aware token, service token, client token, data token signer, carddatasecurity servicetoken, carddatasecurity clienttoken, carddatasecurity datatokensigner, tokenizer service authentication]
 breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -72,38 +74,38 @@ CardDataSecurity.DataTokenSigner
 
 </td><td>
 
-Required for context-aware authorization. Signs data tokens that are used to make detokenization requests to the data vault. Used for revealing PAN values.**Note:** The steps below differ when setting up a data token signer. See [Set up a Token Signer](../task/set-up-a-token-signer.md) for specific steps on this connection type.
+Required for context-aware authorization. Signs data tokens that are used to make detokenization requests to the data vault. Used for revealing PAN values.**Note:** The steps below differ when setting up a data token signer. See [Set up a Token Signer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-token-signer.md) for specific steps on this connection type.
 
 </td></tr></tbody>
-</table>1.  [Create a JKS file](../task/create-a-jks-file.md)
+</table>1.  [Create a JKS file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-a-jks-file.md)
 
     Generate a Java KeyStore \(JKS\) file for OAuth authentication setup.
 
-2.  [Create an X.509 Certificate](../task/create-an-x-509-certificate.md)
+2.  [Create an X.509 Certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/create-an-x-509-certificate.md)
 
     Create an X.509 certificate record by uploading a JKS file and configuring the certificate settings.
 
-3.  [Set up a JWT key](../task/set-up-a-jwt-key.md)
+3.  [Set up a JWT key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-key.md)
 
     Configure a JSON Web Token \(JWT\) key by linking X.509 certificates with tokenizer service credentials.
 
-4.  [Set up a JWT Provider](../task/set-up-a-jwt-provider.md)
+4.  [Set up a JWT Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-a-jwt-provider.md)
 
     Configure a JWT Provider by setting up signing configurations and claim values.
 
-5.  [Set up an OAuth Provider](../task/set-up-an-oauth-provider.md)
+5.  [Set up an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-provider.md)
 
     Configure an OAuth provider to establish the necessary connection credentials and JWT configuration.
 
-6.  [Set up the Connection &amp; Credential records](../task/set-up-the-vault-api-connection.md)
+6.  [Set up the Connection &amp; Credential records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-the-vault-api-connection.md)
 
     Configure the Vault API connection to establish the endpoint URL and vault ID required for data tokenization operations.
 
-7.  [Set up an OAuth Credential](../task/set-up-an-oauth-credential.md)
+7.  [Set up an OAuth Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-an-oauth-credential.md)
 
     Create an OAuth 2.0 credential to enable secure authentication for Card Data Security integrations.
 
-8.  [Set up the OAuth Vault API REST message](../task/set-up-the-vault-api-rest-message.md)
+8.  [Set up the OAuth Vault API REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/set-up-the-vault-api-rest-message.md)
 
     Configure the Data Security Vault API REST message with the correct endpoint URL and OAuth authentication profile.
 

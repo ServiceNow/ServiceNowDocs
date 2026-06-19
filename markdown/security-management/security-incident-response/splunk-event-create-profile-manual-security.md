@@ -2,6 +2,7 @@
 title: Create a profile
 description: You can set up a profile for manual forwarded events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-create-profile-manual-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -30,10 +31,6 @@ Role required: sn\_si.ingestion\_profile\_admin
     1.  If not already selected, in the choice list for the Type field, select **Manual Event Forwarding**.
 
     2.  In the Mapping Option field that is displayed, from the choice list, choose one mapping option to continue.
-
-        Refer to the following figures and tables for more information about the available mapping options in the Mapping Options choice list.
-
-        ![Splunk: manual event forwarding](../image/splunk-manualevent1-security.png)
 
 <table id="table_psp_nxq_chb"><thead><tr><th>
 
@@ -108,11 +105,7 @@ Default is 100. Leave this setting at the default.If you have created a large nu
 Text to help you distinguish this profile from other profiles.
 
 </td></tr></tbody>
-</table>        For a profile with a new field mapping, verify that you have entered a value in the Source type field and click **Continue** to proceed to the mapping step of the configuration.
-
-        For a profile with an existing field mapping, refer to the following figure and table for more information.
-
-        ![Manual: existing profile](../image/copy_mapping_security.png)
+</table>        For a profile with a new field mapping, verify that you have entered a value in the Source type field and select **Continue** to proceed to the mapping step of the configuration.
 
 <table id="table_epm_wqf_dhb"><thead><tr><th>
 
@@ -130,8 +123,8 @@ Select existing profile for field mapping
 
 Reuse an existing field mapping for your new notable event profile. The Copy from profile field is displayed. Follow these steps to copy an existing field mapping for this profile.
 
- 1.  To the left of the Copy from profile field that is displayed, click the search icon.
-2.  In the Splunk ES Event Profiles list that is displayed, click the profile name that has the map that you want to copy.
+ 1.  To the left of the Copy from profile field that is displayed, select the search icon.
+2.  In the Splunk ES Event Profiles list that is displayed, select the profile name that has the map that you want to copy.
 
 The profile name is displayed in the Copy from profile field.
 
@@ -173,7 +166,7 @@ Source \(Splunk Server\)
 
 </td><td>
 
-Splunk server or search end that you configured as the source for notable events. If you have multiple Splunk servers configured, select the appropriate server for the notable event types that will be updated for the profile. You are required to enter a value.
+Splunk server or search end that you configured as the source for notable events. If you have multiple Splunk servers configured, select the appropriate server for the notable event types that will be updated for the profile. You're required to enter a value.
 
 </td></tr><tr><td>
 
@@ -192,6 +185,6 @@ Default is 100. Leave this setting at the default.If you have created multiple p
 Text to help you distinguish this profile from other profiles.
 
 </td></tr></tbody>
-</table>        At the bottom of the form for selecting an existing mapping for your profile, click **Finish** to complete the profile configuration.
+</table>        At the bottom of the form for selecting an existing mapping for your profile, select **Finish** to complete the profile configuration.
 
 

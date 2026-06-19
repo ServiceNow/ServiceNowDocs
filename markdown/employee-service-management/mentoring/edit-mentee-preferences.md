@@ -2,6 +2,7 @@
 title: Edit mentee preferences
 description: As a mentee, edit your preferences based on your skills, focus areas, and topics of interest that you would like to discuss with your mentor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/edit-mentee-preferences.html
 release: australia
 product: Mentoring
 classification: mentoring
@@ -29,7 +30,7 @@ Role required: none
 
 3.  On the Edit mentee preferences form, fill in the fields.
 
-    For a description of the field values, see [Edit mentee preferences form](../reference/edit-mentee-pref-form.md).
+    For a description of the field values, see [Edit mentee preferences form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/mentoring/edit-mentee-pref-form.md).
 
 4.  Select **Save and close**.
 

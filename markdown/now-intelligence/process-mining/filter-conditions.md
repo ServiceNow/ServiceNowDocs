@@ -2,6 +2,7 @@
 title: Set filter conditions
 description: Set filter conditions to limit the scope of your analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/filter-conditions.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -37,7 +38,7 @@ Setting filters is an optional task for project creation.
 
     **Tip:** Select **Advanced view** on the top-right corner if you want to edit the project in the Classic view.
 
-    ![Filter conditions](../image/filter-cond.png)
+    \[Omitted image "filter-cond.png"\] Alt text: Filter conditions
 
 5.  Fill the form with details.
 
@@ -102,5 +103,5 @@ You can provide only 2 steps here.
 </table>6.  Select **Save**.
 
 
-**Parent Topic:**[Scoping your analysis](../concept/scope-analysis.md)
+**Parent Topic:**[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/scope-analysis.md)
 

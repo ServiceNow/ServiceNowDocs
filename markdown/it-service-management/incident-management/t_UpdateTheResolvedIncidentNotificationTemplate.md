@@ -2,6 +2,7 @@
 title: Update the resolved incident notification template
 description: Modify the content of the email template that is sent to the user when you resolve an incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/t\_UpdateTheResolvedIncidentNotificationTemplate.html
 release: australia
 product: Incident Management
 classification: incident-management

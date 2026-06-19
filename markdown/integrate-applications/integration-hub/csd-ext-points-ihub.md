@@ -2,6 +2,7 @@
 title: Client software distribution extension points
 description: The client software distribution \(CSD\) extension points create the customization code for the specific provider and the extension keys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-ext-points-ihub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -42,5 +43,5 @@ The script must set the **csdExtensionResult** object with these attributes:
 -   **softwareModel**: Software model sys\_id.
 -   **deploymentType**: An integer. Use **1** for deployment to a user and **2** for deployment to a device.
 
-**Parent Topic:**[Client software distribution extension framework](../concept/csd-ext-framewrk.md)
+**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-ext-framewrk.md)
 

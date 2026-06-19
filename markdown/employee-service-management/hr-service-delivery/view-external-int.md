@@ -2,6 +2,7 @@
 title: Use External Interface to push records into a third-party system
 description: Use External Interface to view details of records that are being pushed from ServiceNow into a third-party system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/view-external-int.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

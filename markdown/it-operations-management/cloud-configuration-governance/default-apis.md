@@ -2,11 +2,12 @@
 title: Default CAPI APIs
 description: Several CAPI APIs are provided by default with the Cloud Provisioning and Governance application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/default-apis.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Cloud API \(CAPI\), Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -15,11 +16,11 @@ breadcrumb: [Cloud API \(CAPI\), Cloud Provisioning and Governance, ITOM Cloud A
 
 Several CAPI APIs are provided by default with the Cloud Provisioning and Governance application.
 
-CAPI APIs refer to the API records that link a CAPI product and a CAPI interface. They do not refer to the CAPI classes that you can call from MID Server script includes in CAPI APIs. For an overview of CAPI classes, see [CAPI classes in MID Server script includes](../concept/mid-server-script-includes.md).
+CAPI APIs refer to the API records that link a CAPI product and a CAPI interface. They do not refer to the CAPI classes that you can call from MID Server script includes in CAPI APIs. For an overview of CAPI classes, see [CAPI classes in MID Server script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/mid-server-script-includes.md).
 
 View Cloud APIs by navigating to **Cloud API** &gt; **Library** in the base system instance interface, or by navigating to **Design** &gt; **Cloud API** in the Cloud Admin Portal.
 
-![CAPI APIs](../image/capi-apis-nav.png "CAPI APIs")
+\[Omitted image "capi-apis-nav.png"\] Alt text: CAPI APIs
 
 **Note:** You can customize scripted connectors using MID Server script includes.
 
@@ -50,5 +51,5 @@ View Cloud APIs by navigating to **Cloud API** &gt; **Library** in the base syst
 
 \*You can customize how scripted APIs make REST calls to the cloud provider.
 
-**Parent Topic:**[Cloud Provisioning and Governance](../concept/cloud-management-v2-landing-page.md)
+**Parent Topic:**[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
 

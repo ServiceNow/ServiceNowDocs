@@ -2,7 +2,10 @@
 title: Associate an existing case with an email interaction
 description: Avoid duplicate case creation by associating an existing case with an email interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/associate-existing-case-with-email-interaction.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -28,13 +31,13 @@ The interaction must be in a closed complete state before it can be linked to an
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(![List icon](../image/List_icon.jpg)\).
+2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 
 4.  Open an email interaction.
 
-5.  From the top section, select the More Actions icon \(![More Actions icon](../image/Ellipses-icon.jpg)\).
+5.  From the top section, select the More Actions icon \(\[Omitted image "Ellipses-icon.jpg"\] Alt text: More Actions icon\).
 
 6.  Select **Associate Record**.
 
@@ -42,7 +45,7 @@ The interaction must be in a closed complete state before it can be linked to an
 
 7.  Select the case number from the Task drop-down list.
 
-    You can select the search icon \(![Search icon](../image/Sort_icon_eaaI.jpg)\) to view additional information about the task.
+    You can select the search icon \(\[Omitted image "Sort\_icon\_eaaI.jpg"\] Alt text: Search icon\) to view additional information about the task.
 
 8.  Select **Save**.
 

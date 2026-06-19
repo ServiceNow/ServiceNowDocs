@@ -2,6 +2,7 @@
 title: Activate the rationalization skill for control objective
 description: Activate and then configure the recommendation for a similar control objective skill under rationalization from Now Assist to generate recommendation which are similar to the selected control objective.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/activate-the-rationalization-skill-for-control-objective.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions

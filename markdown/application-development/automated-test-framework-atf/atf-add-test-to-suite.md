@@ -2,6 +2,7 @@
 title: Add test to an existing automated test suite
 description: Add a test to a test suite that already exists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/automated-test-framework-atf/atf-add-test-to-suite.html
 release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
@@ -27,7 +28,7 @@ Role required: atf\_test\_admin or atf\_test\_designer
 
 2.  Click the row containing the test suite you want.
 
-    The system displays the [Test Suite](../reference/atf-test-suite-record.md) form.
+    The system displays the [Test Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-test-suite-record.md) form.
 
 3.  In the **Test Suite Tests** related list, click **Insert a new row...**.
 
@@ -46,5 +47,5 @@ Role required: atf\_test\_admin or atf\_test\_designer
 8.  Click **Submit**.
 
 
-**Parent Topic:**[Building and running automated test suites](../concept/atf-suites-overview.md)
+**Parent Topic:**[Building and running automated test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/automated-test-framework-atf/atf-suites-overview.md)
 

@@ -2,6 +2,7 @@
 title: Data integration checklist for Data Foundations in CMDB success advisor
 description: Use the data integration checklist to verify that Discovery patterns and Service Graph Connectors are correctly configured and actively contributing to your Configuration Management Database \(CMDB\), promoting quality foundational data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-integ-checklist.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -37,7 +38,7 @@ Action
 
 </th></tr></thead><tbody><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -53,7 +54,7 @@ Confirm that the pattern is relevant for your principal classes.
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -69,7 +70,7 @@ Verify that the pattern is active with Status set to Active to confirm it’s co
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -85,7 +86,7 @@ Check how many relevant CI attributes are populated for each principal class.**N
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -101,7 +102,7 @@ Plan and perform an upgrade to the suggested version or higher to improve covera
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -117,7 +118,7 @@ Compare with the suggested version and upgrade if necessary.
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -154,7 +155,7 @@ Action
 
 </th></tr></thead><tbody><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -170,7 +171,7 @@ Confirm that the Service Graph Connector is required for your principal classes.
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -186,7 +187,7 @@ Activate Service Graph Connectors that are needed for Data Foundations but curre
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -202,7 +203,7 @@ Check how many relevant CI attributes are being populated for each principal cla
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -218,7 +219,7 @@ Plan and perform an upgrade to the suggested version or higher to improve covera
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -234,7 +235,7 @@ Compare with the suggested version and upgrade if necessary.
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -250,7 +251,7 @@ Confirm that at least one connection is actively importing data per principal cl
 
 </td></tr><tr><td>
 
-![](../../../reuse/icons/product-icons/square-outline-24.svg)
+\[Omitted image "square-outline-24.svg"\] Alt text:
 
 </td><td>
 
@@ -269,8 +270,8 @@ Review and troubleshoot any configured connections that aren’t currently activ
 
 |Select|Check item|Description|Action|
 |------|----------|-----------|------|
-|![](../../../reuse/icons/product-icons/square-outline-24.svg)|No entitlements warning|Discovery patterns or Service Graph Connectors tile showing no entitlements, indicating missing access or licensing.|Verify licensing and entitlements with your administrator.|
-|![](../../../reuse/icons/product-icons/square-outline-24.svg)|Suggested integrations reviewed|Some Discovery patterns are listed as suggestions because they aren’t installed or active, and some Discovery patterns are listed but are not actively used.|Evaluate business need and consider implementing high-value suggested integrations.|
+|\[Omitted image "square-outline-24.svg"\] Alt text:|No entitlements warning|Discovery patterns or Service Graph Connectors tile showing no entitlements, indicating missing access or licensing.|Verify licensing and entitlements with your administrator.|
+|\[Omitted image "square-outline-24.svg"\] Alt text:|Suggested integrations reviewed|Some Discovery patterns are listed as suggestions because they aren’t installed or active, and some Discovery patterns are listed but are not actively used.|Evaluate business need and consider implementing high-value suggested integrations.|
 
 ## Final validation
 

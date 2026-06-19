@@ -2,11 +2,12 @@
 title: Remote Hands Request Management
 description: Remote Hands enables your customers to request services for their equipment housed in your datacenters. Your customers can seamlessly submit and track service requests on the Customer Service Management , eliminating the need for phone calls, emails, or site visits.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request-management.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -85,9 +86,9 @@ The DCIM User role is intended for your customers. This role inherits the Remote
 </td></tr></tbody>
 </table>## Accessing Remote Hands Request Management Interfaces
 
-DCIM Users submit their Remote Hands in the **Customer Service Management portal \(CSM\)**. To learn more, see [Submit a Remote Hands Request](../task/submit-remote-hands-request.md).![CSM portal](../image/csm-portal.png)
+DCIM Users submit their Remote Hands in the **Customer Service Management portal \(CSM\)**. To learn more, see [Submit a Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/submit-remote-hands-request.md).\[Omitted image "csm-portal.png"\] Alt text: CSM portal
 
-The Remote Hands Agent can review the submitted remote hands request, by navigating to: **CSM/FSM Configurable Workspace** &gt; **Select list icon \(![list icon](../image/ni-workspace-list-icon.png)** &gt; **Remote Hands Cases**
+The Remote Hands Agent can review the submitted remote hands request, by navigating to: **CSM/FSM Configurable Workspace** &gt; **Select list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: list icon** &gt; **Remote Hands Cases**
 
 The following sections are made available:
 
@@ -95,9 +96,9 @@ The following sections are made available:
 -   **My Open**: Active cases with open status assigned to the logged in agent working on the case is displayed.
 -   **All**: View all Remote Hands cases in the system.
 
-![CSM/FSM Configurable workspace](../image/csm-fsm-workspace.png)
+\[Omitted image "csm-fsm-workspace.png"\] Alt text: CSM/FSM Configurable workspace
 
-On opening a Remote Hands Case record, the fields mapped from the Remote Hands request form in the CSM portal are displayed in the case record. The Remote Hands Agent can further modify case fields. Add Work Notes for customers to view, update state, and close the case. To learn more, see [Update a Remote Hands Request](../task/update-a-remote-hands-request.md).
+On opening a Remote Hands Case record, the fields mapped from the Remote Hands request form in the CSM portal are displayed in the case record. The Remote Hands Agent can further modify case fields. Add Work Notes for customers to view, update state, and close the case. To learn more, see [Update a Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/update-a-remote-hands-request.md).
 
 ## Remote Hands Case Archival Policy
 
@@ -105,5 +106,5 @@ Remote Hands cases that were created two years ago are archived, regardless of w
 
 Navigate to **CSM/FSM Configurable workspace** &gt; **All** &gt; **Archive Rules** to access Remote Hands Case Archival Policy.
 
-To learn more about the required plugin for Remote Hands Request Management, see [Remote Hands Request](remote-hands-request.md)
+To learn more about the required plugin for Remote Hands Request Management, see [Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)
 

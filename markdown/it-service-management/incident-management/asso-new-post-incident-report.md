@@ -2,6 +2,7 @@
 title: Associate a new post incident report
 description: Create your own post incident report and associate the UI page with the View Complete Report button under the Post Incident Report tab. Using the customized report, you can add information that is specific to your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/asso-new-post-incident-report.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -29,7 +30,7 @@ For associating the **View Complete Report** button with your customized post in
 
 2.  Create a UI page.
 
-    For information on how to create a UI page, refer [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md).
+    For information on how to create a UI page, refer UI pages.
 
 3.  Navigate to **Incident** &gt; **Major Incident Properties**.
 
@@ -40,5 +41,5 @@ For associating the **View Complete Report** button with your customized post in
     When you click the **View Complete Report** button, the new UI page opens.
 
 
-**Parent Topic:**[Major incident workbench](../concept/major-incident-workbench.md)
+**Parent Topic:**[Major incident workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/major-incident-workbench.md)
 

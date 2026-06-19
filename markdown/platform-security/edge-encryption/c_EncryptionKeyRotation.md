@@ -2,6 +2,7 @@
 title: Rotate encryption keys
 description: Perform encryption key rotation from the instance. Add a new key, change the default key assignment, and then schedule a mass key rotation or a single key rotation.Schedule a job to find data encrypted using a specified key alias and then re-encrypt the data with the current default encryption key. The data is decrypted before it is re-encrypted with the default key.Schedule a job to find data encrypted with any previous key, and then re-encrypt the data with the current default encryption keys. The data is decrypted before it is re-encrypted with the current default key.Schedule a job to find attachments encrypted using a specified key alias, and then re-encrypt the attachments with the current default encryption key. The attachment is decrypted before it is re-encrypted with the default key.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/c\_EncryptionKeyRotation.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -31,7 +32,7 @@ If you filter by any encrypted field when connected through the Edge proxy, all 
 
 If you sort by any encrypted field when connected through the Edge proxy, you see two groups of records with the same human readable text in the encrypted field.
 
-**Parent Topic:**[Configuring Edge Encryption](edge-config.md)
+**Parent Topic:**[Configuring Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/edge-config.md)
 
 ## Schedule a single key rotation job
 
@@ -97,7 +98,7 @@ Process Historical Records
 
 Select to process historical records in the Audit table if the field is audited. When encrypting historical records for a field in the Audit table, both new values and old values are encrypted. This field is read only and active.
 
- To learn more about audited fields, see [Auditing](../../time/concept/c_AuditedTables.md).
+ To learn more about audited fields, see [Auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/c_AuditedTables.md).
 
 </td></tr><tr><td>
 
@@ -191,7 +192,7 @@ Process Historical Records
 
 Select to process historical records in the Audit table if the field is audited. When encrypting historical records for a field in the Audit table, both new values and old values are encrypted. This field is read only and active.
 
- To learn more about audited fields, see [Auditing](../../time/concept/c_AuditedTables.md).
+ To learn more about audited fields, see [Auditing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/servicenow-ai-platform-security/c_AuditedTables.md).
 
 </td></tr><tr><td>
 

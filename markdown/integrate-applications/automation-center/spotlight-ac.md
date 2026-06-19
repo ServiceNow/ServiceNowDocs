@@ -2,6 +2,7 @@
 title: Working with ServiceNow Spotlight feature
 description: Use the ServiceNow Spotlight feature to auto-calculate automation request scores. Scores define the execution priority of the automation request. The higher the score, the higher the priority of the automation request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/spotlight-ac.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -24,12 +25,12 @@ If there’s any special need to have a different score than the auto-computed s
 
 You can switch over to using computed score by emptying the **Score** field or setting it to 0. After you save the request record, the system will populate the Spotlight score \(if any\) in the **Score** field.
 
--   **[Configuration Settings for ServiceNow Spotlight](spotlight-config.md)**  
+-   **[Configuration Settings for ServiceNow Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/spotlight-config.md)**  
 To use the ServiceNow Spotlight feature, set the configuration settings.
--   **[Default criteria](default-spotlight-criteria.md)**  
+-   **[Default criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/default-spotlight-criteria.md)**  
 ServiceNow Spotlight is available with default criteria. Each field provides a score based on the default criteria.
--   **[Set up ServiceNow Spotlight](../task/setup-spotlight.md)**  
+-   **[Set up ServiceNow Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/setup-spotlight.md)**  
 Set up ServiceNow Spotlight to start using and getting the benefits of this feature. The Spotlight feature automatically calculates the execution priority of the automation requests.
 
-**Parent Topic:**[Configuring Automation Center](automation-center-setup.md)
+**Parent Topic:**[Configuring Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/automation-center-setup.md)
 

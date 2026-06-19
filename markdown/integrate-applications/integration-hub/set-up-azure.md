@@ -2,6 +2,7 @@
 title: Set up Microsoft Entra ID spoke
 description: Integrate the ServiceNow instance and your Microsoft Entra account by creating a custom OAuth application in Microsoft Entra ID to authenticate ServiceNow requests.Create a custom app using your Azure portal to enable OAuth 2.0 authentication with the Microsoft Entra ID spoke.Configure a connection to your Microsoft Entra ID account. The Microsoft Entra ID spoke connection and credential aliases use these connections to perform actions in the Microsoft Entra ID.Regenerate the Entra ID OAuth token when it expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-azure.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -15,9 +16,7 @@ breadcrumb: [Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Director
 
 Integrate the ServiceNow instance and your Microsoft Entra account by creating a custom OAuth application in Microsoft Entra ID to authenticate ServiceNow requests.
 
-Demonstrates how to set up the Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\).
-
-**Note:** This video is made using ServiceNow instance of the Utah version and Flow Designer UI is shown. If you are using ServiceNow instance of the Washington DC version or later, perform the same steps and navigate to Workflow Studio instead of Flow Designer.
+Demonstrates how to set up theMicrosoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\). 
 
 ## Before you begin
 
@@ -58,7 +57,7 @@ Complete these steps from your Azure portal. See the [Microsoft identity platfor
 
     See [Create a Microsoft Entra application and service principal that can access resources](https://learn.microsoft.com/en-us/entra/identity-platform/howto-create-service-principal-portal) for instructions on registering and configuring an application.
 
-    ![Create an application.](../../integrationhub/images/ms-azure-ad-create-app.png)
+    \[Omitted image "ms-azure-ad-create-app.png"\] Alt text: Create an application.
 
 6.  Click **Register**.
 
@@ -68,7 +67,7 @@ Complete these steps from your Azure portal. See the [Microsoft identity platfor
 
     This value is required to register the app as a third-party OAuth provider on your ServiceNow instance.
 
-    ![Copy Directory ID.](../../integrationhub/images/ms-azure-ad-copy-dir-id.png)
+    \[Omitted image "ms-azure-ad-copy-dir-id.png"\] Alt text: Copy Directory ID.
 
 8.  Click **Certificates &amp; secrets**.
 
@@ -80,15 +79,15 @@ Complete these steps from your Azure portal. See the [Microsoft identity platfor
 
     This value is required to register the app as a third-party OAuth provider on your ServiceNow instance.
 
-    ![Copy value of client secret.](../../integrationhub/images/ms-azure-ad-copy-sec.png)
+    \[Omitted image "ms-azure-ad-copy-sec.png"\] Alt text: Copy value of client secret.
 
 11. Click **API permissions**.
 
 12. Click **Add a permission** to add the required permissions to access the APIs.
 
-    For information about permissions needed to perform the required actions, see the Spoke actions section here: [Spoke actions](../../integrationhub/concept/microsoft-azure-ad-spoke.md#section_aqj_3hf_kfb).
+    For information about permissions needed to perform the required actions, see the Spoke actions section here: [Spoke actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-azure-ad-spoke.md).
 
-    ![Add API permissions.](../../integrationhub/images/ms-azure-ad-api-perm.png)
+    \[Omitted image "ms-azure-ad-api-perm.png"\] Alt text: Add API permissions.
 
 13. Grant admin consent to your application.
 
@@ -115,12 +114,12 @@ Role required: admin.
 
     -   To configure the default connection and credential alias record that is shipped along with the Entra ID spoke, click **View Details**.
 
-        ![Connection for the Entra ID spoke](../image/entra-id-connection.png)
+        \[Omitted image "entra-id-connection.png"\] Alt text: Connection for the Entra ID spoke
 
-    -   To manage more than one Entra ID spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To manage more than one Entra ID spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    ![Initial connection configuration.](../image/entra-id-connection-conf.png)
+    \[Omitted image "entra-id-connection-conf.png"\] Alt text: Initial connection configuration.
 
 5.  On the form, fill in these fields:
 
@@ -136,7 +135,7 @@ Role required: admin.
     |OAuth Client Secret|Key value you created during the Entra ID application registration.|
     |OAuth Redirect URL|Redirect URL of your ServiceNow instance in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`.|
 
-    ![Configure a connection for the Entra ID spoke.](../image/entra-id-conf-temp.png)
+    \[Omitted image "entra-id-conf-temp.png"\] Alt text: Configure a connection for the Entra ID spoke.
 
 6.  Click **Configure and Get OAuth Token**.
 

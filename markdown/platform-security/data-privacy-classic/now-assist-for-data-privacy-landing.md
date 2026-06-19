@@ -2,6 +2,7 @@
 title: Data Privacy for Now Assist
 description: Set up and configure how to discover and anonymize sensitive data from generative AI prompts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/now-assist-for-data-privacy-landing.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -19,14 +20,18 @@ Set up and configure how to discover and anonymize sensitive data from generativ
 
 <table id="table_tpg_p4l_ydc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Data Privacy for Now Assist](explore-now-assist-data-privacy.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/explore-now-assist-data-privacy.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure Data Privacy for Now Assist](configure-now-assist-data-privacy.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)
 
 </td></tr></tbody>
-</table>**Note:** Data Privacy for Now Assist detects and masks sensitive data based on Regex patterns and does not support contextual\(model-type\) data patterns.
+</table>**Note:**
+
+Data Privacy for Now Assist detects and masks sensitive data based on Regex and Named Entity Recognition \(NER\) data patterns. Enabling NER data patterns requires customers to have a Vault license as well as an additional $0 SKU associated with the Vault license. Also, customers must have the latest version of the GenAI Controller \(`sn.generative.ai`\) installed on their instance \(which requires the admin role\).
+
+There are associated rate limits on how much data can be processed when using Named Entity Recognition \(NER\) data patterns for Now Assist. Once these limits are exceeded, any applicable Regex based data masking that was configured will apply for all Now Assist prompts, skills, and agentic executions.
 
 **Important:**
 

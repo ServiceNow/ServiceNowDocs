@@ -2,6 +2,7 @@
 title: Download and install the Mobile SDK library
 description: Before you can create mobile applications that interact with your ServiceNow instance, you must first download and install the ServiceNow Mobile SDK Android library.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-down-install-sdk.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -32,7 +33,7 @@ Before you start the download and installation process, ensure that your develop
 
     -   Mobile SDK: [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/52821846803120101040fe43e5b9ee8c](https://store.servicenow.com/sn_appstore_store.do#!/store/application/52821846803120101040fe43e5b9ee8c)
     -   Android library: [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/f06b29b487ea3014970e2178cebb3511](https://store.servicenow.com/sn_appstore_store.do#!/store/application/f06b29b487ea3014970e2178cebb3511)
-    For details on installing applications on your instance, see [Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/administering-applications.md).
+    For details on installing applications on your instance, see .
 
 2.  Unzip the NowSDK file into a temporary folder.
 
@@ -40,11 +41,11 @@ Before you start the download and installation process, ensure that your develop
 
     1.  In Android Studio IDE, select **File -&gt; New -&gt; Import Module**.
 
-        ![Android Studio IDE Import Module](../image/mobsdk-and-AS-import_mod.png)
+        \[Omitted image "mobsdk-and-AS-import\_mod.png"\] Alt text: Android Studio IDE Import Module
 
     2.  When prompted for the source path, select **nowsdk**.
 
-        ![Android Studio IDE select nowsdk](../image/mobsdk-and-AS-select-nowsdk.png)
+        \[Omitted image "mobsdk-and-AS-select-nowsdk.png"\] Alt text: Android Studio IDE select nowsdk
 
         As the project is imported, the IDE will report a build error.
 

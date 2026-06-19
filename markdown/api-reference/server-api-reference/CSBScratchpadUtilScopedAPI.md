@@ -2,6 +2,7 @@
 title: CSBScratchpadUtil - Scoped
 description: The CSBScratchpadUtil API allows consumers to share "extra" information that is outside of any other Service Exchange service, with their providers.Returns the value of a specified scratchpad property.Returns the property names and values \(name-value pairs\) of all scratchpad properties associated with the specified task.Returns the list of names of all scratchpad properties associated with the specified task record.Places the scratchpad properties associated with the specified remote task or provider task in the client g\_scratchpad.Deletes the specified scratchpad property from the Scratchpad \[sn\_sb\_scratchpad\] table.Inserts a property or updates the value of a property in the Scratchpad \[sn\_sb\_scratchpad\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CSBScratchpadUtilScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,11 +20,11 @@ This information is stored as name-value pairs in the Scratchpad \[sn\_sb\_scrat
 
 If the associated task is active, the updated scratchpad information syncs to the consumer instance. If a task is deactivated or deleted, the information in the scratchpad is also deleted after a specified number of days; by default three. This default is defined in the sn\_sb.scratchpad.autodelete.days property.
 
-Both providers and consumers can add, update, and remove information to and from the Scratchpad table. Producers update this information using the [PSBScratchpadUtil - Scoped](../../PSBScratchpadUtil/concept/PSBScratchpadUtilScopedAPI.md#) API.
+Both providers and consumers can add, update, and remove information to and from the Scratchpad table. Producers update this information using the [PSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/PSBScratchpadUtilScopedAPI.md) API.
 
 To access this API, the Service Exchange for Consumers application must be installed. This API runs in the `sn_sb_con` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CSBScratchpadUtil - get\(GlideRecord taskGR, String name\)
 

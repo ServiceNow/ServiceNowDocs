@@ -2,6 +2,7 @@
 title: Define NDA content and update the list of signers
 description: As a procurement specialist, you can easily define your Non-Disclosure Agreement \(NDA\) content and update the list of participants for whose signature is required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/define-nda-content-update-signers.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -23,7 +24,7 @@ Procurement specialists can do this with the help of a document template that is
 
 Role required: Procurement specialist
 
-![Supplier NDA draft.](../image/nda_content.png)
+\[Omitted image "nda\_content.png"\] Alt text: Supplier NDA draft.
 
 ## Procedure
 
@@ -46,5 +47,5 @@ Role required: Procurement specialist
 6.  Select **Update**.
 
 
-**Parent Topic:**[Routing NDAs to suppliers](../concept/routing-ndas-to-suppliers.md)
+**Parent Topic:**[Routing NDAs to suppliers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/routing-ndas-to-suppliers.md)
 

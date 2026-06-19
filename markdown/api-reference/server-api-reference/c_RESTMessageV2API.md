@@ -2,6 +2,7 @@
 title: RESTMessageV2 - Scoped, Global
 description: The RESTMessageV2 API provides methods that allow you to send outbound REST messages using JavaScript.Instantiates an empty RESTMessageV2 object.Instantiates a RESTMessageV2 object using information from a REST message record.Disables forced variable substitution in outbound REST messages.Sends the REST message to the endpoint.Sends the REST message to the endpoint asynchronously. The instance does not wait for a response from the web service provider when making asynchronous calls.Gets the URL of the endpoint for the REST message.Gets the content of the REST message body.Gets the value for an HTTP header specified in the REST message.Gets HTTP headers that were set by the REST client and the associated values.Configures the REST message to save the returned response body as an attachment record.Configures the REST message to save the returned response body as an encrypted attachment record.Sets one or more URIs allowed to be redirected to. Controlling the allowed outbound URIs reduces security concerns and helps prevent URL redirect attacks that send users to malicious sites.Sets the credentials for the REST message using an existing basic auth or OAuth 2.0 profile.Sets basic authentication headers for the REST message.Associates outbound requests and the resulting response record in the ECC queue. This method only applies to REST messages sent through a MID Server.Overrides a value from the database by writing to the REST message payload. This method only applies to REST messages sent through a MID Server.Sets the endpoint for the REST message.Sets the HTTP method this REST message performs, such as GET or PUT.Sets the amount of time the REST message waits for a response from the web service provider before the request times out.Sets the log level for this message and the corresponding response.Configures the REST message to communicate through a MID Server.Sets the mutual authentication protocol profile for the REST message.Appends a parameter to the end of the request URL with the form name=value.Sets the body content to send to the web service provider when using PUT or POST HTTP methods.Sets the request body using an existing attachment record.Sets an HTTP header in the REST message to the specified value.Overrides the default requestor profile for the REST message in order to retrieve an OAuth access token associated with a different requestor.Sets a REST message function variable with the specified name from the REST message record to the specified value.Sets a REST message function variable with the specified name from the REST message record to the specified value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_RESTMessageV2API.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ The User-Agent value is "ServiceNow/1.0". To change this, add the glide.http.use
 
 This API runs in the `sn_ws` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## RESTMessageV2 - RESTMessageV2\(\)
 
@@ -41,7 +42,7 @@ var sm = new sn_ws.RESTMessageV2();
 
 Instantiates a RESTMessageV2 object using information from a REST message record.
 
-You must have a REST message record defined before you can use this constructor. For instructions, see [Create a REST message](../../../../../integrate/outbound-rest/task/t_ConfiguringARESTMessage.md).
+You must have a REST message record defined before you can use this constructor. For instructions, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -267,7 +268,7 @@ The response body does not need to be a binary file to be saved as an attachment
 
 Sets one or more URIs allowed to be redirected to. Controlling the allowed outbound URIs reduces security concerns and helps prevent URL redirect attacks that send users to malicious sites.
 
-For a more comprehensive means of redirecting URIs, see [UriMatcher - Scoped](../../UriMatcherScoped/concept/UriMatcherScopedAPI.md#).
+For a more comprehensive means of redirecting URIs, see [UriMatcher - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/UriMatcherScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -409,7 +410,7 @@ sm.setEccParameter("source","http://very.long.endpoint.url");
 
 Sets the endpoint for the REST message.
 
-By default, the REST message uses the endpoint specified in the REST message record. Use this method to override this default. You must call this method when using the [RESTMessageV2 - RESTMessageV2\(\)](c_RESTMessageV2API.md#) constructor with no parameters.
+By default, the REST message uses the endpoint specified in the REST message record. Use this method to override this default. You must call this method when using the [RESTMessageV2 - RESTMessageV2\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) constructor with no parameters.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -428,7 +429,7 @@ sm.setEndpoint("http://web.service.endpoint");
 
 Sets the HTTP method this REST message performs, such as GET or PUT.
 
-You must set an HTTP method when using the [RESTMessageV2 - RESTMessageV2\(\)](c_RESTMessageV2API.md#) constructor with no parameters.
+You must set an HTTP method when using the [RESTMessageV2 - RESTMessageV2\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) constructor with no parameters.
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 

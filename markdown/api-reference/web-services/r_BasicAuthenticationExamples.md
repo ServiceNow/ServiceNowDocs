@@ -2,6 +2,7 @@
 title: Basic authentication code samples
 description: Samples of basic authentication code for several programming languages and versions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_BasicAuthenticationExamples.html
 release: australia
 product: Web Services
 classification: web-services
@@ -111,5 +112,5 @@ The resulting response when Basic Authentication is turned on and no credentials
   </html>
 ```
 
-**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
 

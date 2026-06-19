@@ -2,6 +2,7 @@
 title: NowPushService class - iOS
 description: The NowPushService class provides functions that enable interaction with the Push Notification service.Registers a unique token with the ServiceNow instance used to identify the push notifications for the current iOS device and specified application.Unregisters a previously registered push token.Parses the userInfo key-value pairs into a NowPushPayload object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowPushServiceiOSAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -29,10 +30,10 @@ configuration
 
 </td><td>
 
-Configuration settings provided when the service was initialized.Data type: [NowServiceConfiguration](../../NowServiceConfiguration/concept/NowServiceConfigurationiOSStruct.md#)
+Configuration settings provided when the service was initialized.Data type: [NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowPushService - registerPushToken\(\_token: Data, pushAppName: String, environment: NowPushEnvironment, completion: @escaping \(Result&lt;Data, NowPushError&gt;\) -&gt; Void\)
 

@@ -1,12 +1,15 @@
 ---
 title: Configure Azure DevOps story integration
-description: Perform the following procedure to configure your Azure DevOps integration options.The following best practices are guidelines for creating Azure DevOps integration scripts.
+description: Perform the following procedure to configure your Azure DevOps integration options.Script variables, field paths, and leading practices for writing field mapping scripts in the Azure DevOps story integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/configure-azure-devops-integration-options.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [User story integration, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [User story integration, Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
 # Configure Azure DevOps story integration
@@ -15,83 +18,78 @@ Perform the following procedure to configure your Azure DevOps integration optio
 
 ## Before you begin
 
-Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
+-   Before you begin, gather the following from your Azure DevOps environment:
 
--   In the Azure project you want to integrate with the Scan Engine, from the project settings, find and make note of the following information:
     -   Organization name
     -   Project name
     -   Work item type
--   To connect with Azure, you will need to generate an API token:
-    1.  Select **Personal access tokens** from the Azure settings menu.
-    2.  Select **New Token**.
-    3.  Refer to your Azure documentation for complete details.
+
+Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\).
 
 ## Procedure
 
-1.  Navigate to `sys_auth_profile_basic.list`, and then select **New** to create a basic authentication record.
+1.  Generate an Azure DevOps API token
+2.  In Azure DevOps, select **Personal access tokens** from the user settings menu.
 
-2.  Ensure that the Azure username matches the currently logged-in user’s email address.
+3.  Select **New Token** and follow the Azure DevOps documentation to configure and generate the token.
 
-    **Note:** Keep the email of the current logged-in user synchronized with the Azure username for seamless integration and authentication. You will also need to create a basic authentication record for each user who can create work items in Azure.
+4.  Configure the integration
+5.  Navigate to `sys_auth_profile_basic.list` and select **New**.
 
-3.  Paste the token you acquired in the **Password** field.
+    Create one basic auth record per user who will create Azure DevOps work items. Set **Username** to the user's email address and paste the API token in **Password**.
 
-4.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**, and then select the **User Story Integration** properties tab.
+6.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties** and select the **User Story Integration** properties tab.
 
-5.  Select **Azure DevOps** as the **Integration Type**.
+7.  Set **Integration Type** to `Azure DevOps` and populate the following fields: **Organization name**, **Project name**, **Work item type**.
 
-6.  Populate the following fields with the information you acquired from your Azure DevOps project:
-
-    -   **Organization name**
-    -   **Project name**
-    -   **Work Item type**
-7.  Select **Update** to finalize the connection.
+8.  Select **Update**.
 
 
-## Azure DevOps integration script best practices
+## What to do next
 
-The following best practices are guidelines for creating Azure DevOps integration scripts.
+See [Azure DevOps integration script leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-azure-devops-integration-options.md) for available script variables, common field paths, and guidance on writing field mapping scripts for Azure DevOps.
 
--   Unlike ServiceNow integrations, the Azure integration executes the field mapping script one time per finding. Source and Destination instances do not apply with this integration.
--   The **Organization name** and **Project name** fields determine which Azure project you will send your payload to.
--   When building a script, use data from the finding by extracting fields from the grFinding variable.
--   You can create a description and title to show in your Azure project. These will become core elements in your task. You may use other fields in the Azure project, but you will need an understanding of the Azure API to know the available fields.
--   Some general fields you can use are:
+**Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/user-story-integration-properties.md)
 
-    -   /fields/System.Title
-    -   /fields/System.Description
-    -   /fields/Microsoft.VSTS.Common.Risk
-    -   /fields/Microsoft.VSTS.Scheduling.StoryPoints
-    These can be set by using this format:
+## Azure DevOps integration script leading practices
 
-    -   payload\[‘/fields/System.Title’\] = a value
-    -   payload\[‘/fields/Microsoft.VSTS.Scheduling.StoryPoints’\] = a value
+Script variables, field paths, and leading practices for writing field mapping scripts in the Azure DevOps story integration.
 
-The following are predefined variables available for Azure DevOps Integrations:
+### Script variables
 
-<table id="table_s2v_nby_2hc"><tbody><tr><td>
+The Azure DevOps field mapping script runs on the ServiceNow instance at the time a work item is created. Set field values on the `payload` object using the Azure DevOps field path format: `payload['/fields/System.Title'] = value`.
 
-payload
+|Variable|Description|
+|--------|-----------|
+|`payload`|The field mapping object sent to your Azure DevOps project. Set field path keys on this object to populate work item fields.|
+|`grFinding`|GlideRecord of the finding. Use this to read finding data for field mapping.|
+|`workItemType`|The work item type selected for this integration.|
 
-</td><td>
+### Common Azure DevOps field paths
 
-The field mapping to populate your Azure project.
+|Field path|Maps to|
+|----------|-------|
+|`/fields/System.Title`|Work item title|
+|`/fields/System.Description`|Work item description|
+|`/fields/Microsoft.VSTS.Common.Risk`|Risk level|
+|`/fields/Microsoft.VSTS.Scheduling.StoryPoints`|Story points|
 
-</td></tr><tr><td>
+### Leading practices
 
-grFinding
+-   **Use field path syntax for all payload assignments**
 
-</td><td>
+    Azure DevOps requires field values to be set using the JSON Patch path format. Always use bracket notation: `payload['/fields/System.Title'] = grFinding.getValue('short_description')`. Do not use dot notation or plain property names.
 
-The glide record of the finding that sends the request.
+-   **Verify field paths against your process template**
 
-</td></tr><tr><td>
+    The available field paths depend on your Azure DevOps process template \(Agile, Scrum, or CMMI\). Confirm that the field paths you use exist in your project's work item type before deploying your mapping script.
 
-workItemType
+-   **Use grFinding to pull finding context**
 
-</td><td>
+    Access finding details using standard GlideRecord methods on `grFinding`. For example, `grFinding.getValue('short_description')` maps cleanly to `/fields/System.Title`.
 
-The work item type selected for Azure integration.
+-   **Enable ES12 mode for modern JavaScript**
 
-</td></tr></tbody>
-</table>
+    To use modern JavaScript syntax, enable **ECMAScript 2021 \(ES12\) mode** in Scan Engine Properties before writing your mapping script.
+
+

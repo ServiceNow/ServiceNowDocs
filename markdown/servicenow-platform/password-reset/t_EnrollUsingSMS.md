@@ -2,6 +2,7 @@
 title: Enroll for the Password Reset program using SMS codes
 description: To verify your identity while resetting your password, you can use a code \(the SMS code\) that was delivered to your mobile phone or device. You can enroll on a mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/t\_EnrollUsingSMS.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -41,7 +42,7 @@ Role required: none
 
     For more information about enrolling in the Password Reset program, see the following topics:
 
-    -   [Enroll for the Password Reset program using questions and answers](t_EnrollUsingASecurityQuestion.md)
-    -   [Enroll for the Password Reset program using an authenticator](authenticator-app-verification.md)
-    -   [Enroll for the Password Reset program using emailed codes](enroll-email-verification.md)
+    -   [Enroll for the Password Reset program using questions and answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_EnrollUsingASecurityQuestion.md)
+    -   [Enroll for the Password Reset program using an authenticator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/authenticator-app-verification.md)
+    -   [Enroll for the Password Reset program using emailed codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/enroll-email-verification.md)
 

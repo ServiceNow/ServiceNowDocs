@@ -2,6 +2,7 @@
 title: Vaccination Status dashboard
 description: Use the Vaccination Status dashboard to review reports that can provide insight into the vaccination status of your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/vaccination-status-dashboard.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ Use the Vaccination Status dashboard to review reports that can provide insight 
 
 To access the Vaccination Status dashboard, navigate to **Self-Service** &gt; **Dashboards**.
 
-![Vaccination Status dashboard](../image/vaccination-status-dashboard.png)
+\[Omitted image "vaccination-status-dashboard.png"\] Alt text: Vaccination Status dashboard
 
 ## End user and goals
 
@@ -82,7 +83,7 @@ Vaccine Approvals
 
 </td><td>
 
-Pie breakdown ![Pie breakdown icon](../../performance-analytics/image/pie-breakdown-wthoutlabel.png)
+Pie breakdown \[Omitted image "pie-breakdown-wthoutlabel.png"\] Alt text: Pie breakdown icon
 
 </td><td>
 
@@ -96,7 +97,7 @@ A breakdown of vaccine approvals by type:-   The number of vaccine responses tha
 
 </td><td>
 
-Single score ![Single-score icon](../../performance-analytics/image/single-score.png)
+Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon
 
 </td><td>
 
@@ -108,7 +109,7 @@ Vaccine Responses \(Monthly\)
 
 </td><td>
 
-Stacked bar chart![Stacked bar chart icon](../image/stacked-bar-chart.png)
+Stacked bar chart\[Omitted image "stacked-bar-chart.png"\] Alt text: Stacked bar chart icon
 
 </td><td>
 
@@ -120,12 +121,12 @@ Employee Vaccination Status Rate \(Monthly\)
 
 </td><td>
 
-Line![Line icon](../../performance-analytics/image/line-icon.png)
+Line\[Omitted image "line-icon.png"\] Alt text: Line icon
 
 </td><td>
 
 Indicates the number of people fully vaccinated. The rate is determined by the number of users in your organization with their vaccination profile COVID-19 completed status marked as true.**Note:** A historical data collection job, **Generate vaccine history records**, runs daily to ensure that the report chart is up-to-date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Vaccination Status](../../../product/vaccination-status/concept/vaccination-status.md)
+</table>**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status.md)
 

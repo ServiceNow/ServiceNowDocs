@@ -2,6 +2,7 @@
 title: Configure variable time slots for appointment booking
 description: Configure variable time slots for appointment booking in a walk-up location by defining rules and configurations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/walk-up-experience/config-variable-time-slots.html
 release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
@@ -31,7 +32,7 @@ To use the appointment booking feature, administrators must create a configurati
 
     -   To create a new configuration for appointment booking, select **New**.
     -   To modify an existing configuration, select the configuration from the list.
-    **Note:** For more information on creating or modifying appointment booking configuration for Walk-up Experience and field-related information, see [Create or modify a Walk-up Experience appointment booking service configuration](configure-walkup-appointments.md).
+    **Note:** For more information on creating or modifying appointment booking configuration for Walk-up Experience and field-related information, see [Create or modify a Walk-up Experience appointment booking service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/configure-walkup-appointments.md).
 
 3.  Select the **Enable advanced configurations** check box.
 
@@ -43,7 +44,7 @@ To use the appointment booking feature, administrators must create a configurati
     -   To modify an existing rule, select the configuration from the list.
 5.  On the Service Configuration Rule form, fill in the fields and click **Submit**.
 
-    For more information on the fields, see [Create appointment booking service configuration rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).
+    For more information on the fields, see Create appointment booking service configuration rules.
 
     **Note:** The **Task Table** and **Task Conditions** fields are not applicable for Walk-up Experience.
 
@@ -53,14 +54,14 @@ To use the appointment booking feature, administrators must create a configurati
     -   To modify an existing configuration, select the configuration from the list.
 7.  On the **Advance Configurations** form, fill in the fields and click **Submit**.
 
-    For more information on the fields, see [Create appointment booking advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appintment-booking-day-level-config.md).
+    For more information on the fields, see Create appointment booking advanced configuration.
 
 8.  Click **Submit**.
 
 
 ## What to do next
 
-You must map the defined advance configurations with the defined service configuration rule for a location. Use the Reasons for Visit related list on the Walk-up Location Queue form. For more information, see [Create or modify Walk-up Experience locations](configure-walkup-location.md).
+You must map the defined advance configurations with the defined service configuration rule for a location. Use the Reasons for Visit related list on the Walk-up Location Queue form. For more information, see [Create or modify Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/configure-walkup-location.md).
 
-**Parent Topic:**[Configure Variable time slots for appointment booking](../concept/variable-time-slots.md)
+**Parent Topic:**[Configure Variable time slots for appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/walk-up-experience/variable-time-slots.md)
 

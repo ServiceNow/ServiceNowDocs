@@ -2,6 +2,7 @@
 title: Matrix report configuration form
 description: The table gives a description of the field values for the Matrix report configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/mat-report-config-form-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management

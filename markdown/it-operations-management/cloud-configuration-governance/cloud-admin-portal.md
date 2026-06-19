@@ -2,11 +2,12 @@
 title: Cloud Admin Portal
 description: The Cloud Admin Portal is a role-based portal. You can manage, design, govern, operate, and analyze all your cloud resources from a unified base.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-admin-portal.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -17,11 +18,11 @@ The Cloud Admin Portal is a role-based portal. You can manage, design, govern, o
 
 Depending on the role you are logged in with, the Cloud Admin Portal displays different metrics. As an example, if you are logged in to the Cloud Provisioning and Governance application as a Cloud Service Designer, the Cloud Admin Portal displays only the **Design** metrics.
 
-![Cloud Admin Portal](../image/admin-portal.png)
+\[Omitted image "admin-portal.png"\] Alt text: Cloud Admin Portal
 
 Starting this release, you can now use the **Dashboards** link on the left navigation pane of Cloud Admin Portal to access these Next Experience dashboard pages:
 
-![Link to Next Experience Dashboard from Cloud Admin Portal](../image/admin-portal-dashboard.png)
+\[Omitted image "admin-portal-dashboard.png"\] Alt text: Link to Next Experience Dashboard from Cloud Admin Portal
 
 Find the link to these dashboards on a new tab based on your user role:
 
@@ -29,7 +30,7 @@ Find the link to these dashboards on a new tab based on your user role:
 -   Cloud operations dashboard
 -   Cloud tag values dashboard
 
-Follow [Request the Cloud Provisioning and Governance application](../../cloud-management-v2-setup/task/request-plugin-cloud-mgt.md) to learn more about installing Cloud Provisioning and Governance to access the admin and user pages. Log in to the portal with the following Cloud Provisioning and Governance roles to view or manage the associated metrics:
+Follow [Request the Cloud Provisioning and Governance application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/request-plugin-cloud-mgt.md) to learn more about installing Cloud Provisioning and Governance to access the admin and user pages. Log in to the portal with the following Cloud Provisioning and Governance roles to view or manage the associated metrics:
 
 <table id="table_y3d_gcy_1bb"><thead><tr><th>
 
@@ -108,7 +109,7 @@ Operate
 
 </td></tr><tr><td>
 
-CAPI Developer`[sn_capi.cloud_developer]`
+CAPI Developer`sn_capi.cloud_developer`
 
 </td><td>
 

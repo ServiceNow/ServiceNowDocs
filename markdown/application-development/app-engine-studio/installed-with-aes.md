@@ -2,6 +2,7 @@
 title: Components installed with AES
 description: Several types of components are installed with activation of the App Engine Studio \(AES\) plugin, including tables and user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/installed-with-aes.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,7 +16,7 @@ breadcrumb: [Installing, Configure, App Engine Studio, Building low-code applica
 
 Several types of components are installed with activation of the App Engine Studio \(AES\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -59,7 +60,7 @@ App Engine Studio app template admin
 
 Administers the use, sharing, and activation or deactivation of templates.
 
- This role is assigned by an admin to individual users. For more information, see [Manage template access](../task/manage-template-access.md).
+ This role is assigned by an admin to individual users. For more information, see [Manage template access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/manage-template-access.md).
 
 </td><td>
 
@@ -76,7 +77,7 @@ App Engine Studio admin
 
 </td><td>
 
-Granular admin role that grants access to App Engine Studio and enables administrative access to App Engine Studio tables. You can combine this role with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+Granular admin role that grants access to App Engine Studio and enables administrative access to App Engine Studio tables. You can combine this role with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see .
 
 </td><td>
 
@@ -92,7 +93,7 @@ App Engine Studio user
 
 Builds applications in App Engine Studio.
 
- This role is assigned automatically to users in the App Engine Studio Users group. For more information, see [Grant user access to AES](../task/grant-aes-access.md).
+ This role is assigned automatically to users in the App Engine Studio Users group. For more information, see [Grant user access to AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/grant-aes-access.md).
 
 </td><td>
 
@@ -106,7 +107,7 @@ Builds applications in App Engine Studio.
 -   Collaboration request admin \[sn\_collab\_request.collaboration\_request\_admin\]
 -   AES Table Builder Wizard admin \[sn\_table\_bldr\_wzd.table\_bldr\_wzd\_admin\]
 
-You can combine these granular admin roles with other roles to provide the level of access needed for a user's function. For more information about roles in App Engine Studio, see [Configure AES personas and roles](../concept/aes-personas-roles.md). For more information about granular admin roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+You can combine these granular admin roles with other roles to provide the level of access needed for a user's function. For more information about roles in App Engine Studio, see [Configure AES personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-personas-roles.md). For more information about granular admin roles, see .
 
 ## Tables installed
 
@@ -156,7 +157,7 @@ Deployment Request
 
 </td><td>
 
-Requests to review and publish an application that a developer created in App Engine Studio. From the deployment request form, a reviewer can deploy the application to different environments, accept or reject an application, and send feedback to a developer. For more information, see [Deployment Request form in the Pipelines and Deployments app](deployment-req-form-d-and-p.md).
+Requests to review and publish an application that a developer created in App Engine Studio. From the deployment request form, a reviewer can deploy the application to different environments, accept or reject an application, and send feedback to a developer. For more information, see [Deployment Request form in the Pipelines and Deployments app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/deployment-req-form-d-and-p.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +167,7 @@ Pipeline
 
 </td><td>
 
-Configurations for deploying applications to different environments. Only one pipeline can be active at a time. You update this table as you create a pipeline for the deployment of applications from App Engine Studio. For more information, see [Managing deployments using Pipelines and Deployments](../concept/manage-deployments-using-p-and-d-aemc.md).
+Configurations for deploying applications to different environments. Only one pipeline can be active at a time. You update this table as you create a pipeline for the deployment of applications from App Engine Studio. For more information, see [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
 
 </td></tr><tr><td>
 
@@ -236,7 +237,7 @@ Details about application files that a developer creates in App Engine Studio. T
 -   Pipeline Environment Order
 -   Pipeline Types
 
-The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/create-new-clone-preserver.md).
+The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see .
 
-**Parent Topic:**[Installing App Engine Studio](../task/install-aes.md)
+**Parent Topic:**[Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/install-aes.md)
 

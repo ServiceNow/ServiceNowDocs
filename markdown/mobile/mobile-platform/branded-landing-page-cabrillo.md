@@ -1,0 +1,63 @@
+---
+title: Cabrillo JS support within a branded landing page
+description: Use  Cabrillo JS to build custom mobile experiences inside of native mobile apps. Certain Cabrillo JS functions are available for the pre-login branded landing page.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-platform/branded-landing-page-cabrillo.html
+release: australia
+product: Mobile Platform
+classification: mobile-platform
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Branded landing page, Mobile instances, Configuring the Mobile Platform, Mobile Platform]
+---
+
+# Cabrillo JS support within a branded landing page
+
+Use  Cabrillo JS to build custom mobile experiences inside of native mobile apps. Certain Cabrillo JS functions are available for the pre-login branded landing page.
+
+For more information on Cabrillo JS, see .
+
+The following table lists supported Cabrillo JS functionality on the pre-login branded landing page.
+
+<table id="table_gm5_hff_zdc"><thead><tr><th>
+
+Link to Cabrillo JS client
+
+</th><th>
+
+Supported Cabrillo JS functions for a branded landing page
+
+</th></tr></thead><tbody><tr><td>
+
+
+
+</td><td>
+
+-   setTitle
+-   getTitle
+-   setNavigationBarButtons
+-   setBottomButtons
+-   showBackButton
+-   hideBackButton
+-   hideSpinner
+-   showSpinner
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+showMessage
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+goBack
+
+</td></tr></tbody>
+</table>

@@ -2,7 +2,10 @@
 title: Custom payload in alerts integration
 description: Instance Observer integrations enable you to define and manage custom JSON request payload for ServiceNow and third-party integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/custom-payload-help-guide-impact.html
 release: australia
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -36,7 +39,7 @@ You can now include additional fields in notification payloads, exclude specific
 
 ```
 
-![Edit payload for default mustache payload template.](../image/io-default-mustache-payload.png)
+\[Omitted image "io-default-mustache-payload.png"\] Alt text: Edit payload for default mustache payload template.
 
 ## Example: Default Payload + Custom Parameters
 
@@ -55,7 +58,7 @@ You can now include additional fields in notification payloads, exclude specific
 
 ```
 
-![Edit payload for default payload + custom parameters.](../image/io-default-payload-cust-param.png)
+\[Omitted image "io-default-payload-cust-param.png"\] Alt text: Edit payload for default payload + custom parameters.
 
 ## Custom parameters and limits
 
@@ -96,7 +99,7 @@ Example: Third-party request body:
 
 ## Modified IO payload to match third-party format
 
-![Modified IO payload to match third-party format.](../image/io-modified-io-payload.png)
+\[Omitted image "io-modified-io-payload.png"\] Alt text: Modified IO payload to match third-party format.
 
 ## Actions and validation
 
@@ -117,5 +120,5 @@ Example: Third-party request body:
     Sends a sample notification to verify webhook integration.
 
 
-**Parent Topic:**[Alerts in Instance Observer](../concept/io-alerts-intro.md)
+**Parent Topic:**[Alerts in Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/io-alerts-intro.md)
 

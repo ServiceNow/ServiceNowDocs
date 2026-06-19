@@ -2,6 +2,7 @@
 title: Configure an e-signature provider for legal contracts
 description: Configure an electronic signature provider to enable users to sign contract documents electronically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/integrate-legal-contracts-esign.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -19,13 +20,13 @@ Configure an electronic signature provider to enable users to sign contract docu
 
 Ensure that the administrator has installed and set up spokes in Integration Hub for the electronic signature providers that you want to configure.
 
--   **[Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/adobe-sign-spoke.md) spoke v2.5.1 or later version**
+-   **Adobe Sign spoke spoke v2.5.1 or later version**
 
-    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see [Synchronize Adobe Acrobat Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-adobe-sign.md).
+    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see Synchronize Adobe Acrobat Sign group with ServiceNow.
 
--   **[DocuSign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/docusign-spoke.md) spoke v2.2.0 or later version**
+-   **DocuSign spoke spoke v2.2.0 or later version**
 
-    For more information on the setup and creating the Docusign account, see [Set up Docusign eSignature spoke using authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
+    For more information on the setup and creating the Docusign account, see .
 
 
 Role required: sn\_lg\_ops.request\_config or sn\_lg\_contracts.contracts\_config or sn\_lg\_matter.matter\_config

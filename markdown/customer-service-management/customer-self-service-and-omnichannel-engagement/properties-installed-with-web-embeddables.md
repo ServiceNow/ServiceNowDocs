@@ -2,6 +2,7 @@
 title: Properties installed with Web Embeddables
 description: Configure the properties available with Web Embeddables. Properties are added with the activation of the Web Embeddables plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/properties-installed-with-web-embeddables.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

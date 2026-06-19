@@ -2,6 +2,7 @@
 title: Create a page from a legacy template
 description: Use legacy page templates to reuse a page definition, such as record or list page, for pages in your workspace or portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/ui-builder/legacy-templates.html
 release: australia
 product: UI Builder
 classification: ui-builder
@@ -15,7 +16,7 @@ breadcrumb: [Create a page in UI Builder, Manage UI Builder pages and page varia
 
 Use legacy page templates to reuse a page definition, such as record or list page, for pages in your workspace or portal.
 
-This video shows you how to perform the following procedure.This video shows you how to create a page from a legacy template in a UI Builder experience.
+This video shows you how to perform the following procedure.
 
 ## Before you begin
 
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Open an experience to work in or create an experience by selecting **Create** &gt; **Experience**.
 
-    See [Configure how users interact with your applications in UI Builder](../concept/work-experiences.md) for more information on creating experiences.
+    See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
 3.  Select the **Create new page** in the center of the screen.
 
@@ -35,7 +36,7 @@ Role required: admin
 
 5.  Hover over the template you want to use and select **Use template**.
 
-    ![Dashboards selected in the legacy template list.](../image/uib-legacy-template-select.png)
+    \[Omitted image "uib-legacy-template-select.png"\] Alt text: Dashboards selected in the legacy template list.
 
 6.  Enter a unique name for the page in the **Name** field.
 
@@ -43,7 +44,7 @@ Role required: admin
 
     A default path is added based on your page name. You can also create your own path. The path is required and must be unique. The path can include digits \(0-9\), letters \(A-Z, a-z\), and a few special characters \(`"-"`, `"."`, `"_"`, `"~"`\), with the words separated by a forward slash or hyphen. The **URL preview** shows the path of your page.
 
-    **Note:** The application scope defaults to the scope that the user is in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](security-roles.md).
+    **Note:** The application scope defaults to the scope that the user is in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/security-roles.md).
 
 8.  Select a URL page type in the **Type** drop-down list. UI Builder automatically assigns a page type based on the legacy template you select, but you can change this value if needed.
 
@@ -63,7 +64,7 @@ Role required: admin
 
         A required parameter is a piece of data that your page requires, such as a sys\_id, table, or query. Required parameters are useful for components, because they can bind to the value of the required parameter.
 
-        ![Required parameters in UI Builder.](../image/required-parameter-example.png)
+        \[Omitted image "required-parameter-example.png"\] Alt text: Required parameters in UI Builder.
 
         For more information about required and optional page parameters, see [Adding Page Parameters](https://developer.servicenow.com/dev.do#!/learn/courses/washingtondc/app_store_learnv2_uibuilder_washingtondc_ui_builder/app_store_learnv2_uibuilder_washingtondc_create_pages_in_ui_builder/UCP_AddingPageParameters_washingtondc) in the ServiceNow Developer website.
 
@@ -75,9 +76,9 @@ Role required: admin
 
         Unlike required parameters, optional parameters are always name and value pairs that work no matter what order that they are provided in.
 
-        ![Optional parameters in UI Builder.](../image/optional-parameter-example.png)
+        \[Omitted image "optional-parameter-example.png"\] Alt text: Optional parameters in UI Builder.
 
-        For more information, see [Manage UI Builder pages and page variants](../concept/work-pages.md).
+        For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-pages.md).
 
 13. Select **Looks good**.
 
@@ -91,12 +92,12 @@ Role required: admin
 
 16. Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
 
-    For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+    For more information on writing encoded queries, see .
 
 17. Select **Create** to create your blank page.
 
-    The page you created displays in the **Page** section of your experience. Select **Editor** to start adding components to your page. For more information, see [Customize UI Builder pages using components](../concept/work-components.md).
+    The page you created displays in the **Page** section of your experience. Select **Editor** to start adding components to your page. For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/work-components.md).
 
 
-**Parent Topic:**[Create a page in UI Builder](create-page.md)
+**Parent Topic:**[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/create-page.md)
 

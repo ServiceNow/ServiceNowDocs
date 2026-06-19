@@ -2,6 +2,7 @@
 title: Move a resource block from one environment to the other
 description: Use update sets to effortlessly transfer resource blocks and their dependencies between environments. Group them into a named set, facilitating seamless movement for testing or deployment. Simplify processes such as transferring a resource block from development to production, ensuring efficient and organized transitions across different systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/export-updateset-rblock.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -36,9 +37,9 @@ Package the resource block as an update set. Then export the update set from its
 
 2.  Export the resource block.
 
-    1.  Click the Export Resource block icon \(![Export resource block icon](../image/export-resource-block.png)\) for the resource block to export.
+    1.  Click the Export Resource block icon \(\[Omitted image "export-resource-block.png"\] Alt text: Export resource block icon\) for the resource block to export.
 
-        ![Resource block exporter window](../image/export-resource-block-aws.png "Resource block exporter window")
+        \[Omitted image "export-resource-block-aws.png"\] Alt text: Resource block exporter window
 
     1.  In the Resource Block Exporter window, click an object in the Type column.
 
@@ -54,7 +55,7 @@ Package the resource block as an update set. Then export the update set from its
 
         The Resource Block Exporter window opens with the **Success** check box selected in green indicating that the resource block has been successfully exported along with all its dependencies. By default, all the files listed under Exported Update Set\(s\) get downloaded onto your system automatically.
 
-        ![Resource Block Exporter window](../image/resourceblock-export-success.png)
+        \[Omitted image "resourceblock-export-success.png"\] Alt text: Resource Block Exporter window
 
         **Note:** The number of update sets created is based on the scope of records that are being exported. For example, assume the resource block that you are exporting has 100 records in all: 60 records are in scope one, 20 records are in scope two, and the remaining 20 records are in scope three. In such a scenario, three update sets are created. One update set for each scope.
 

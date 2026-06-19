@@ -2,6 +2,7 @@
 title: Set up the Dun and Bradstreet DirectPlus spoke
 description: Integrate the ServiceNow instance and Dun and Bradstreet Direct+ by using the client ID and client secret credentials to authenticate ServiceNow requests.Add and configure a Dun and Bradstreet DirectPlus connection to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-dun-bradstreet-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -40,11 +41,11 @@ Add and configure a Dun and Bradstreet DirectPlus connection to authenticate Ser
 
 4.  Locate the alias for **DunAndBradstreet** and click **View Details**.
 
-    -   To configure the default connection and credential alias record that is shipped along with the Dun and Bradstreet DirectPlus spoke, click **View Details**.![Dun and Bradstreet connection template](../image/d-and-b-spoke-conn-template.png)
-    -   To manage more than one Dun and Bradstreet DirectPlus connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    -   To configure the default connection and credential alias record that is shipped along with the Dun and Bradstreet DirectPlus spoke, click **View Details**.\[Omitted image "d-and-b-spoke-conn-template.png"\] Alt text: Dun and Bradstreet connection template
+    -   To manage more than one Dun and Bradstreet DirectPlus connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    ![Dun and bradstreet spoke connection configuration](../image/d-and-b-conn-temp-config.png)
+    \[Omitted image "d-and-b-conn-temp-config.png"\] Alt text: Dun and bradstreet spoke connection configuration
 
 5.  On the **Configure Connection** form, fill in the fields:
 
@@ -55,7 +56,7 @@ Add and configure a Dun and Bradstreet DirectPlus connection to authenticate Ser
     |Client ID|Client ID of your Dun and Bradstreet DirectPlus account.|
     |Client Secret|Client secret of your Dun and Bradstreet DirectPlus account.|
 
-    ![Dun and bradstreet connection template form](../image/d-and-b-connection-form.png)
+    \[Omitted image "d-and-b-connection-form.png"\] Alt text: Dun and bradstreet connection template form
 
 6.  Click **Configure Configure and Get OAuth Token**.
 

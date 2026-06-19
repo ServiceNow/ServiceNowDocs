@@ -2,6 +2,7 @@
 title: Exploring Service Reliability Management
 description: Service Reliability Management \(SRM\) provides a self-serve, guided experience for teams to manage service health. The experience is built using the Service Operations Workspace application and combines ITOM and ITSM capabilities into a single workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/exploring-service-reliability-management.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -22,7 +23,7 @@ Optimize service health with site reliability engineering \(SRE\) practices. SRM
 -   Use on-call escalations to respond to issues in a timely manner.
 -   Reduce setup friction with guided self-service to onboard distributed teams with separated data, empowered access, and minimal governance from central IT.
 
-When SRM is installed, several plugins and applications are also activated. For more information, see [Plugins or applications installed with ITOM AIOps](../../it-operations-management/reference/plugin-app-itom-health.md).
+When SRM is installed, several plugins and applications are also activated. For more information, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/plugin-app-itom-health.md).
 
 ## SRM users
 
@@ -126,11 +127,11 @@ Inherits 17 roles including the following:
 -   slo\_operator
 
 </td></tr></tbody>
-</table>For more information, see [SRM roles and responsibilities](../reference/sr-roles.md).
+</table>For more information, see [SRM roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-roles.md).
 
 ## SRM workflow
 
-![Infographic showing how responders, managers, and administrators manage teams, register services, define SLO, monitor integrations, respond to notifications, and remediate incidents. For details, refer to the following description.](../image/sr-explore-workfflows.png)
+\[Omitted image "sr-explore-workfflows.png"\] Alt text: Infographic showing how responders, managers, and administrators manage teams, register services, define SLO, monitor integrations, respond to notifications, and remediate incidents. For details, refer to the following description.
 
 1.  Product teams in IT or Lines of Business continuously deliver newservice instances and technology management services. Example: New customer billing portal.
 2.  Along with SLO Management, teams can register services and define service level objectives \(SLOs\), helping them reach business outcomes. Example: 95% monthly availability for the billing portal.
@@ -144,25 +145,25 @@ Inherits 17 roles including the following:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Team-based experience|[Working with SRM teams](sr-work-teams.md)|SRM administrators, managers, and responders|
-|Service registration|[Working with SRM services](sr-work-services.md)|SRM administrators, managers, and responders|
-|Prebuilt integrations|[Working with integrations in SRM](sr-work-integrations.md)|SRM administrators, managers, and responders|
-|Measure service health|[Working with reliability metrics](../../slo-management/concept/sr-work-SLI-SLO.md)|SRM administrators, managers, and responders|
-|On-call coverage|[Create an SRM on-call schedule](../task/sr-create-on-call-schedule.md)|SRM administrators, managers, and responders|
-|Remediate high severity alerts and incidents|[Working with SRM reliability tasks](../task/sr-work-reliability-tasks.md)|SRM administrators, managers, and responders|
+|Team-based experience|[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-teams.md)|SRM administrators, managers, and responders|
+|Service registration|[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-services.md)|SRM administrators, managers, and responders|
+|Prebuilt integrations|[Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-integrations.md)|SRM administrators, managers, and responders|
+|Measure service health|[Reliability metrics in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md)|SRM administrators, managers, and responders|
+|On-call coverage|[Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)|SRM administrators, managers, and responders|
+|Remediate high severity alerts and incidents|[Working with SRM reliability tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-work-reliability-tasks.md)|SRM administrators, managers, and responders|
 
 ## What to explore next
 
 To learn more about configuring and using SRM, see:
 
--   [Configuring Service Reliability Management](configuring-service-reliability-management.md)
--   [Using Service Reliability Management](using-service-reliability-management.md)
--   [Service Reliability Management reference](../reference/service-reliability-management-reference.md)
+-   [Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
+-   [Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/using-service-reliability-management.md)
+-   [Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 
--   **[Get started with Service Reliability Management](sr-get-started.md)**  
+-   **[Get started with Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-get-started.md)**  
 Service Reliability Management \(SRM\) accelerates your path to viewing service health in the context of service level objectives and incident resolution. Helps IT Operations and DevOps teams deliver on the promise of agility, performance, and uptime.
--   **[SRM incidents](../reference/sr-incidents-workspace.md)**  
+-   **[SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-incidents-workspace.md)**  
 Track and collaborate on incidents in the Incidents tab, helping you and your teams resolve issues efficiently.
 
-**Parent Topic:**[Service Reliability Management](../reference/sr-landing-page.md)
+**Parent Topic:**[Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/sr-landing-page.md)
 

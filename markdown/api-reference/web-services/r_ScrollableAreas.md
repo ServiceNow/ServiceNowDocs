@@ -2,6 +2,7 @@
 title: Scrollable areas
 description: A scrollable area is a div where contents scroll from the bottom up over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_ScrollableAreas.html
 release: australia
 product: Web Services
 classification: web-services
@@ -63,8 +64,8 @@ This sample code will create a scroller with a list of priority 1 incidents.
 </j:jelly>
 ```
 
--   **[Add scrolling elements in forms](../task/t_AddingScrollingElementsInForms.md)**  
+-   **[Add scrolling elements in forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_AddingScrollingElementsInForms.md)**  
 You can add scrolling areas to forms as well as UI pages.
 
-**Parent Topic:**[RSS feed reader](../concept/c_RSSFeedReader.md)
+**Parent Topic:**[RSS feed reader](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_RSSFeedReader.md)
 

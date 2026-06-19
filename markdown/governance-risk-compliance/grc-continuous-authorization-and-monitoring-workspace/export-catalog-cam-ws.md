@@ -2,6 +2,7 @@
 title: Export OSCAL catalog
 description: From the Control objective list view page, you can export the catalog in OSCAL JSON format for the selected control objectives. This action enables you to export your control objectives from CAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-catalog-cam-ws.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -19,24 +20,22 @@ From the Control objective list view page, you can export the catalog in OSCAL J
 
 Role required:
 
--   sn\_irm\_cont\_auth.authorization\_official
--   sn\_irm\_cont\_auth.info\_system\_sec\_manager
--   sn\_irm\_cont\_auth.info\_system\_sec\_officer
--   sn\_irm\_cont\_auth.system\_owner
+-   Authorizing Official \(sn\_irm\_cont\_auth.authorization\_official\)
+-   Information System Security Manager \(sn\_irm\_cont\_auth.info\_system\_sec\_manager\)
+-   Information System Security Officer \(sn\_irm\_cont\_auth.info\_system\_sec\_officer\)
+-   System Owner \(sn\_irm\_cont\_auth.system\_owner\)
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(![List](../image/ws-list-icon.png)\).
+2.  In the CAM Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Select Control objectives from the **Compliance** list.
 
 4.  From the list view, select one or more control objectives records which need to be exported.
 
 5.  Select **OSCAL Export**.
-
-    **OSCAL Export** pop-window appears.
 
 6.  In the pop-up window, enter the **Title** and **Version** and then select **Export**.
 
@@ -45,5 +44,5 @@ Role required:
     The catalog JSON file is downloaded in your local repository.
 
 
-**Parent Topic:**[Export in OSCAL format](../concept/oscal-support-cam.md)
+**Parent Topic:**[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

@@ -2,6 +2,7 @@
 title: Assign topics to a collection
 description: Add assigned topics to collections.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/assign-collection-topics.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -30,5 +31,5 @@ Role required: sn\_lc.learning\_admin, sn\_lc.learning\_course\_catalog\_admin
 4.  Select a topic to be added as connected content to the collection.
 
 
-**Parent Topic:**[Create a content collection](create-content-collection.md)
+**Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/create-content-collection.md)
 

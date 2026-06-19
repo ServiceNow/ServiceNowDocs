@@ -2,6 +2,7 @@
 title: Configure the order of your important actions on the Operational Technology Action-Oriented Landing Page
 description: Configure the order of your important actions on the Operational Technology \(OT\) Action-Oriented Landing Page to personalize how you view your tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/configure-order-important-actions-aolp.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -23,9 +24,9 @@ Role required: cmdb\_ot\_viewer
 
 1.  Navigate to **All** &gt; **Industrial Workspace**.
 
-2.  To the **Home** \(![Home icon in the Industrial Workspace to access the OT Action-Oriented Landing Page](../image/home-icon.png)\) icon.
+2.  To the **Home** \(\[Omitted image "home-icon.png"\] Alt text: Home icon in the Industrial Workspace to access the OT Action-Oriented Landing Page\) icon.
 
-3.  Select the **Configure important actions** \(![Configure important actions icon available in the Industrial Workspace](../../../common/image/gear.png)\) icon.
+3.  Select the **Configure important actions** \(\[Omitted image "gear.png"\] Alt text: Configure important actions icon available in the Industrial Workspace\) icon.
 
 4.  Select **Sort items**.
 
@@ -36,5 +37,5 @@ Role required: cmdb\_ot\_viewer
 6.  In the **Order** field, select **Ascending** or **Descending**.
 
 
-**Parent Topic:**[Using the Industrial Workspace](../concept/using-industrial-workspace.md)
+**Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

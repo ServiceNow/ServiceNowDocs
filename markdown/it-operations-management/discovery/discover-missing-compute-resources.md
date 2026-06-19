@@ -2,6 +2,7 @@
 title: Discover missing compute resources
 description: Use the Discovery Admin Workspace to identify compute resources that weren't discovered recently. Run a quick discovery to update the resource's data. If a resource isn't discoverable, ignore the resource and exclude it from the report. This procedure helps you maximize the use of your resources.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discover-missing-compute-resources.html
 release: australia
 product: Discovery
 classification: discovery
@@ -44,7 +45,7 @@ By default, the report provides the following information:
 
     4.  In the **MID Selection Method** and **MID Server** fields, select the preferred options.
 
-        For more information, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_MIDServerSelector.md).
+        For more information, see .
 
     5.  Select **Run discovery**.
 

@@ -2,6 +2,7 @@
 title: Copy and activate the Invoice attachment DI processing flow
 description: Copy and activate the Invoice attachment DI processing flow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/copy-and-activate-the-invoice-attachment-di-processing-flow.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
@@ -34,11 +35,11 @@ Plugins required:
 
 2.  Search for and open the **Invoice attachment DI processing** flow.
 
-3.  Select the more actions icon ![more actions](../../supplier-lifecycle-operations/image/more-actions-icon.png)\) in the top right and select **Copy flow**.
+3.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: more actions\) in the top right and select **Copy flow**.
 
     The Create a copy of this flow dialog box is displayed.
 
-4.  In the **New flow name** field, enter a name for the copied flow.![Invoice attachment DI processing](../image/inv-process-flow-di-skill.png)
+4.  In the **New flow name** field, enter a name for the copied flow.\[Omitted image "inv-process-flow-di-skill.png"\] Alt text: Invoice attachment DI processing
 
 5.  Select **Save**.
 

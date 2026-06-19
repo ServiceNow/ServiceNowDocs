@@ -2,6 +2,7 @@
 title: Define an LDAP server
 description: Create a new LDAP server record in the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/t\_DefineAnLDAPServer.html
 release: australia
 product: LDAP integration
 classification: ldap-integration
@@ -25,7 +26,7 @@ Role required: admin.
 
 2.  Fill in the form fields.
 
-    ![Create a new LDAP server record](../image/CreateLDAPServer.png)
+    \[Omitted image "CreateLDAPServer.png"\] Alt text: Create a new LDAP server record
 
     In the **Server URL** field, the valid URLs of all servers appear separated by a space. Servers are first ordered by operational status, with servers that are **Up** listed first, then ordered by the **Order** value that you specify. The first server listed is the primary LDAP server. The others are redundant servers.
 
@@ -39,7 +40,7 @@ Role required: admin.
 
 4.  Make changes to the fields as necessary.
 
-    ![LDAP server form](../image/LDAP-ServerForm.png "LDAP server form")
+    \[Omitted image "LDAP-ServerForm.png"\] Alt text: LDAP server form
 
 <table id="table_LDAPConnectionProperties"><thead><tr><th>
 
@@ -157,7 +158,7 @@ Listener
 
 </td><td>
 
-Select this check box to enable the integration to periodically poll Microsoft Active Directory servers or LDAP servers that support persistent search request control. Additionally, if you selected a MID Server, the listener functionality is available for that MID Server. See [Enable an LDAP listener and set system properties](t_EnableAListener.md) for more information.
+Select this check box to enable the integration to periodically poll Microsoft Active Directory servers or LDAP servers that support persistent search request control. Additionally, if you selected a MID Server, the listener functionality is available for that MID Server. See [Enable an LDAP listener and set system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/ldap-integration/t_EnableAListener.md) for more information.
 
 </td></tr><tr><td>
 
@@ -197,5 +198,5 @@ Starting with the Fuji release, the system displays colored dots next to each se
 |Gray|The server is neither active nor operational.|
 |Red|The server is active but not operational.|
 
-![](../image/Ldap_server_validations_dots.png "LDAP server connection status")
+\[Omitted image "Ldap\_server\_validations\_dots.png"\] Alt text:
 

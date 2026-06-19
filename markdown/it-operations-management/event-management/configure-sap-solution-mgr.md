@@ -2,6 +2,7 @@
 title: Configure RFC in SAP Solution Manager
 description: As part of enabling communication with Event Management, you must create a Remote Function Call \(RFC\) in the SAP Solution Manager and install a transport.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-sap-solution-mgr.html
 release: australia
 product: Event Management
 classification: event-management
@@ -35,16 +36,16 @@ Download the following .psm files and import them into the SAP Solution Manager 
     |Service No|Listener port on the MID Server|
     |Path Prefix|The URL of the MID Server transform script: `/api/mid/em/inbound_event?Transform=TransformEvents_SAPSolman`|
 
-    ![SAP Event Collector form](../image/sap-solman-event-collector.png "Technical Settings tab")
+    \[Omitted image "sap-solman-event-collector.png"\] Alt text: SAP Event Collector form
 
 2.  On the **Logon &amp; Security** tab, select **Basic Authentication** and enter your Event Management logon credentials in the **User** and **Password** fields.
 
-    ![SAP Logon and Security tab page](../image/sap-solman-logon-security-tab.png "Logon & Security tab")
+    \[Omitted image "sap-solman-logon-security-tab.png"\] Alt text: SAP Logon and Security tab page
 
     A custom SAP BADI \(Business Add-in\) named Z\_ALRT\_REACTION\_IMPL is created and stored as a workbench transport request. After installation, this BADI calls the RFC to connect to Event Management.
 
-    ![Workbench transport request](../image/sap-solman-workbench-transport-request.png)
+    \[Omitted image "sap-solman-workbench-transport-request.png"\] Alt text: Workbench transport request
 
 
-**Parent Topic:**[SAP Solution Manager setup configurations](../concept/sap-solman-configurations.md)
+**Parent Topic:**[SAP Solution Manager setup configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/sap-solman-configurations.md)
 

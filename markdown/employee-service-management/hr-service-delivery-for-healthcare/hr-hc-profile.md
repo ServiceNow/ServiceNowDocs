@@ -2,6 +2,7 @@
 title: Healthcare Professional data model
 description: The Healthcare Professional data model stores confidential HR data, such as name, personal contact information, email addresses, professional liability insurance details, medical degree and employment history healthcare professional, previous employment history.Auto-create a healthcare professional profile when a manager or an hiring agent places an onboarding request for a healthcare professional. Store the details of the health care professional by maintaining strict edit or view permissions.Store the professional ID details that a healthcare professional provides via the profile intake forms in Employee Center.Store the professional liability insurance details that a healthcare professional provides via the profile intake forms in Employee Center.Store the professional reference details that a healthcare professional provides via the profile intake forms in Employee Center.Store details of the healthcare area in which the healthcare professional specialises and has obtained the required trainings and certifications. These details are provided by healthcare professional via the profile intake forms in Employee Center.Record practice location details of the healthcare professional. The healthcare professional provides these details via the profile intake forms in Employee Center.Record Malpractice claim history of the healthcare professional. The healthcare professional provides these details via the profile intake forms in Employee Center.Record education and training details of the healthcare professional. The healthcare professional provides these details via the profile intake forms in Employee Center.Store employment history details of the healthcare professional. The healthcare professional provides these details via the profile intake forms in Employee Center.Record languages spoken by the healthcare professional. The healthcare professional provides these details via the profile intake forms in Employee Center.Record the hospital affiliation details of healthcare provider. The healthcare professional provides these details via the profile intake forms in Employee Center.Record payer enrollment details of healthcare professional. The healthcare professional provides these details via the profile intake forms in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery-for-healthcare/hr-hc-profile.html
 release: australia
 product: HR Service Delivery for Healthcare
 classification: hr-service-delivery-for-healthcare
@@ -33,7 +34,7 @@ Role required: sn\_hc\_professional.profile\_writer
 
 2.  On the form, fill in the required fields.
 
-    Most of the data in these fields are auto-filled based on information provided in healthcare employee onboarding form and details provided by healthcare professional on the profile intake forms in Employee Center. See [Healthcare professional profile form](hr-service-healthcare.md).
+    Most of the data in these fields are auto-filled based on information provided in healthcare employee onboarding form and details provided by healthcare professional on the profile intake forms in Employee Center. See [Healthcare professional profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-service-healthcare.md).
 
 3.  Click **Update**.
 
@@ -62,7 +63,7 @@ Professional ID is a unique ID granted to a healthcare professional when the hea
 
 4.  On the form, fill in the required fields:
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Professional ID form](hc-professional-profile.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Professional ID form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hc-professional-profile.md).
 
 5.  Click **Update**.
 
@@ -87,7 +88,7 @@ Role required: sn\_hc\_professional.profile\_writer
 
 4.  On the form, fill in the required fields:
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Professional liability Insurances form](hr-prof-liab.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Professional liability Insurances form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-prof-liab.md).
 
 5.  Click **Update**.
 
@@ -112,7 +113,7 @@ Role required: sn\_hc\_professional.profile\_writer
 
 4.  On the form, fill in the required fields:
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Professional reference form](hr-professional-ref.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Professional reference form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-professional-ref.md).
 
 5.  Click **Update**.
 
@@ -137,7 +138,7 @@ Role required: sn\_hc\_professional.profile\_writer
 
 4.  On the form, fill in the required fields:
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Professional speciality form](hc-prof-spec.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Professional speciality form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hc-prof-spec.md).
 
 5.  Click **Update**.
 
@@ -187,7 +188,7 @@ Role required: sn\_hc\_professional.profile\_writer
 
 4.  On the form, fill in the fields.
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Malpractice history form](hr-mal-his.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Malpractice history form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-mal-his.md).
 
 5.  Click **Update**.
 
@@ -212,7 +213,7 @@ Role required: sn\_hc\_professional.profile\_writer
 
 4.  On the form, fill in the fields:
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Education and Training form](hr-edu-tra.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Education and Training form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-edu-tra.md).
 
 5.  Click **Update**.
 
@@ -237,7 +238,7 @@ Role required: sn\_hc\_professional.profile\_writer
 
 4.  On the form, fill in the fields:
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Employment history form](hr-emp-det.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Employment history form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-emp-det.md).
 
 5.  Click **Update**.
 
@@ -262,7 +263,7 @@ Role required: sn\_hc\_professional.profile\_writer
 
 4.  On the form, fill in the fields:
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Languages Spoken form](hr-emp-lan.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Languages Spoken form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-emp-lan.md).
 
 5.  Click **Update**.
 
@@ -291,7 +292,7 @@ Hospital affiliations provide details of affiliated hospitals at which the healt
 
 4.  On the form, fill in the fields:
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Hospital Affiliations form](hr-hos-aff.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Hospital Affiliations form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-hos-aff.md).
 
 5.  Click **Update**.
 
@@ -323,7 +324,7 @@ Payer enrollment is a process in which a medical provider registers in a healthc
 
 4.  On the form, fill in the fields:
 
-    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Payers Enrollment form](hr-payer-en.md).
+    Most of the data in these fields are auto-filled based on information provided by healthcare professional on the profile intake forms in Employee Center. See [Payers Enrollment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery-for-healthcare/hr-payer-en.md).
 
 5.  Click **Update**.
 

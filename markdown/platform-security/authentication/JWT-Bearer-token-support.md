@@ -2,6 +2,7 @@
 title: Set up OAuth provider with JWT Bearer grant type
 description: JSON Web Tokens \(JWTs\) enable the capability to configure server-to-server API interactions between ServiceNow and external API providers without requiring any user intervention. This support enables Integration Hub or other automated tasks using JWTs to configure API and Service integrations with different providers.You can attach a Java KeyStore \(JKS\) certificate to your instance to use to enable the JWT client authentication.Create a JSON Web Token \(JWT\) signing key to assign to your Java KeyStore \(JKS\) certificate,Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/JWT-Bearer-token-support.html
 release: australia
 product: Authentication
 classification: authentication
@@ -25,23 +26,23 @@ The following tasks show how ServiceNow can be set up to use JWTs for OAuth 2.0 
 
 ## Procedure
 
-1.  [Upload Java Key Store certificate](JWT-Bearer-token-support.md#)
+1.  [Upload Java Key Store certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
 
     Attach a JKS certificate to your instance to use to enable the JWT client authentication.
 
-2.  [Configure a JWT signing key](JWT-Bearer-token-support.md#)
+2.  [Configure a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
 
     Create a JWT signing key to assign to your Java KeyStore \(JKS\) certificate.
 
-3.  [Create a JWT provider with a JWT signing key](JWT-Bearer-token-support.md#)
+3.  [Create a JWT provider with a JWT signing key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/JWT-Bearer-token-support.md)
 
     Add a JWT provider to your ServiceNow instance.
 
-4.  [Connect to a third-party OAuth provider](connect-3rd-party-oauth-provider.md)
+4.  [Connect to a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/connect-3rd-party-oauth-provider.md)
 
     Create a third-party OAuth provider with a JWT Bearer as the default grant type in the ServiceNow Application Registry.
 
-5.  [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md)
+5.  Specify an OAuth profile
 
     Open the OAuth entity profile of the OAuth provider and assign a JWT provider.
 
@@ -60,7 +61,7 @@ Role required: oauth\_admin
 
 2.  Fill in the form as needed.
 
-<table id="choicetable_yqx_5f2_1gb"><tbody><tr><td id="d249070e204">
+<table id="choicetable_yqx_5f2_1gb"><tbody><tr><td id="d93728e204">
 
 **Name**
 
@@ -68,7 +69,7 @@ Role required: oauth\_admin
 
 A unique name for your certificate.
 
-</td></tr><tr><td id="d249070e213">
+</td></tr><tr><td id="d93728e213">
 
 **Notify on expiration**
 
@@ -76,7 +77,7 @@ A unique name for your certificate.
 
 Designate whom to notify when the certificate expires.
 
-</td></tr><tr><td id="d249070e222">
+</td></tr><tr><td id="d93728e222">
 
 **Warn in days to expire**
 
@@ -84,7 +85,7 @@ Designate whom to notify when the certificate expires.
 
 Send an email notification to your certificate manager before your certificate expires.
 
-</td></tr><tr><td id="d249070e231">
+</td></tr><tr><td id="d93728e231">
 
 **Active**
 
@@ -92,7 +93,7 @@ Send an email notification to your certificate manager before your certificate e
 
 Enables the certificate to use for token requests.
 
-</td></tr><tr><td id="d249070e240">
+</td></tr><tr><td id="d93728e240">
 
 **Type**
 
@@ -100,7 +101,7 @@ Enables the certificate to use for token requests.
 
 The type of certificate you are uploading.
 
-</td></tr><tr><td id="d249070e250">
+</td></tr><tr><td id="d93728e250">
 
 **Expires in days**
 
@@ -108,7 +109,7 @@ The type of certificate you are uploading.
 
 The amount of days until the certificate expires.
 
-</td></tr><tr><td id="d249070e259">
+</td></tr><tr><td id="d93728e259">
 
 **Key store password**
 
@@ -116,7 +117,7 @@ The amount of days until the certificate expires.
 
 The password associated with the certificate.
 
-</td></tr><tr><td id="d249070e268">
+</td></tr><tr><td id="d93728e268">
 
 **Short description**
 
@@ -144,7 +145,7 @@ Role required: oauth\_admin
 
 2.  Fill in the form as needed.
 
-<table id="choicetable_yqx_5f2_1gb"><tbody><tr><td id="d249070e361">
+<table id="choicetable_yqx_5f2_1gb"><tbody><tr><td id="d93728e361">
 
 **Name**
 
@@ -152,7 +153,7 @@ Role required: oauth\_admin
 
 A unique name for your JWT Key signing configuration.
 
-</td></tr><tr><td id="d249070e370">
+</td></tr><tr><td id="d93728e370">
 
 **Signing Keystore**
 
@@ -160,7 +161,7 @@ A unique name for your JWT Key signing configuration.
 
 The keystore designated when signing the JWT.
 
-</td></tr><tr><td id="d249070e379">
+</td></tr><tr><td id="d93728e379">
 
 **Key ID**
 
@@ -168,7 +169,7 @@ The keystore designated when signing the JWT.
 
 The Key ID \(kid\) helps identify which key is used when multiple keys are used to sign tokens.**Note:** If you configure this field, the Key ID claim is included in the JWT. If you do not configure this field, your JWT will not have a Key ID claim.
 
-</td></tr><tr><td id="d249070e391">
+</td></tr><tr><td id="d93728e391">
 
 **Signing Algorithm**
 
@@ -176,7 +177,7 @@ The Key ID \(kid\) helps identify which key is used when multiple keys are used 
 
 The algorithm to use to sign with the JWT key. RSA 256 is the only algorithm available.
 
-</td></tr><tr><td id="d249070e400">
+</td></tr><tr><td id="d93728e400">
 
 **Signing Key Password**
 
@@ -184,7 +185,7 @@ The algorithm to use to sign with the JWT key. RSA 256 is the only algorithm ava
 
 The password associated with the signing key.
 
-</td></tr><tr><td id="d249070e410">
+</td></tr><tr><td id="d93728e410">
 
 **Active**
 
@@ -210,7 +211,7 @@ Role required: oauth\_admin
 
 2.  Fill in the form and click **Submit**.
 
-<table id="choicetable_yqx_5f2_1gb"><tbody><tr><td id="d249070e502">
+<table id="choicetable_yqx_5f2_1gb"><tbody><tr><td id="d93728e502">
 
 **Name**
 
@@ -218,7 +219,7 @@ Role required: oauth\_admin
 
 A unique name for your JWT provider configuration.
 
-</td></tr><tr><td id="d249070e511">
+</td></tr><tr><td id="d93728e511">
 
 **Expiry Interval \(sec\)**
 
@@ -226,7 +227,7 @@ A unique name for your JWT provider configuration.
 
 The lifespan of the tokens, in seconds, generated by the JWT provider.
 
-</td></tr><tr><td id="d249070e520">
+</td></tr><tr><td id="d93728e520">
 
 **Signing Configuration**
 

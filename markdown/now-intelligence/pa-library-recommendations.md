@@ -2,6 +2,7 @@
 title: Platform Analytics library recommendations
 description: Library recommendations help you maintain healthy analytics ecosystems. The recommendations surface problematic analytics resources for you to clean up, making it easier for analysts to find the resources they need.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/pa-library-recommendations.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -27,14 +28,14 @@ The recommendations are provided as tiles on a panel on each library page. Visib
 
 The following pages describe the existing library recommendation types and the underlying artifacts.
 
--   **[Dashboard library recommendations](../reference/dashboard-library-recommendations.md)**  
+-   **[Dashboard library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/dashboard-library-recommendations.md)**  
 Analytics managers can view information about potentially problematic dashboards.
--   **[Data visualization library recommendations](../reference/data-viz-library-recommendations.md)**  
+-   **[Data visualization library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-viz-library-recommendations.md)**  
 Analytics managers can view information about potentially problematic data visualizations.
--   **[Indicator library recommendations](../reference/ind-library-recommendations.md)**  
+-   **[Indicator library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ind-library-recommendations.md)**  
 Analytics managers can view information about potentially problematic indicators.
--   **[Installed jobs, tables, and properties for Platform Analytics library recommendations](../reference/installed-tables-jobs-and-properties.md)**  
+-   **[Installed jobs, tables, and properties for Platform Analytics library recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/installed-tables-jobs-and-properties.md)**  
 Several types of components are installed with activation of the  plugin, including tables, properties, and scheduled jobs.
 
-**Parent Topic:**[Platform Analytics experience](par-workspace.md)
+**Parent Topic:**[Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/par-workspace.md)
 

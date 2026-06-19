@@ -2,6 +2,7 @@
 title: Set up bidirectional replication
 description: Replicate updated data on a consumer instance to the producer instance using bidirectional replication in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/set-up-bidirectional-replication-idr.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -43,7 +44,7 @@ Note that seeding options are not available in bi-directional sets by design.
 
     5.  Enable discrete mapping from a producer replication set by selecting **Discrete**.
 
-        Discrete mapping distinguishes different consumer instances. For details, see [Set up discrete replication](set-up-discrete-replication-idr.md).
+        Discrete mapping distinguishes different consumer instances. For details, see [Set up discrete replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/set-up-discrete-replication-idr.md).
 
     6.  Create the producer replication set from a list of outbound entries by selecting **Entry set**.
 
@@ -86,7 +87,7 @@ Filter
 Filter criteria to control the records in the table that the system is replicating. -   Use the filter to limit the number of records in your replication set. For example, if the table has an **Active** field, add a filter condition like **\[Active\] \[is\] \[True\]** to replicate only active records.
 -   If you want to replicate and preserve a parent and child table hierarchy, add a filter for the sys\_class\_name column to each outbound entry. This ensures that all of the child table columns are replicated, and not just the parent the columns.
 
-For example, to replicate both the Task \[task\] parent table and the Incident \[incident\] child table, you must add **\[Task type\] \[is\] \[Task\]** as a filter in the parent table entry and **\[Task type\] \[is\] \[Incident\]** as a filter in the child table entry. In this example, Task type is the label for the sys\_class\_name column on each table. For details, see [Preserving table hierarchy in Instance Data Replication](../concept/preserving-table-hierarchy.md).
+For example, to replicate both the Task \[task\] parent table and the Incident \[incident\] child table, you must add **\[Task type\] \[is\] \[Task\]** as a filter in the parent table entry and **\[Task type\] \[is\] \[Incident\]** as a filter in the child table entry. In this example, Task type is the label for the sys\_class\_name column on each table. For details, see [Preserving table hierarchy in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/preserving-table-hierarchy.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +119,7 @@ Coalesce Field
 
 </td><td>
 
-Choose a field to use to coalesce IDR. Only unique fields are available. See [Custom coalescing](../concept/modifying-replication-behavior-idr.md#).
+Choose a field to use to coalesce IDR. Only unique fields are available. See [Custom coalescing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/modifying-replication-behavior-idr.md).
 
  This field only displays if you select **Enable Custom Coalesce**.
 
@@ -184,5 +185,5 @@ Choose a field to use to coalesce IDR. Only unique fields are available. See [Cu
 
 Data that is updated on this consumer instance automatically replicates on the producer instance, which then replicates the updates to its other consumer instances.
 
-**Parent Topic:**[Replicating data with Instance Data Replication](../concept/replicating-data.md)
+**Parent Topic:**[Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/replicating-data.md)
 

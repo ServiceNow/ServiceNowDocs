@@ -2,6 +2,7 @@
 title: Configure endpoint de-duplication on maps
 description: Configure how duplicate edges are displayed on maps. These are general settings that only sn\_cmdb\_admin can configure.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-cfg-endpnt-deduplicate.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -23,7 +24,7 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings do not affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
+These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings don't affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
 
 **Note:** This property setting is typically not altered for Unified Map.
 
@@ -80,8 +81,8 @@ The top-level **UX Application ID** to which this configuration applies. This is
 </td></tr></tbody>
 </table>4.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](../concept/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — admin settings](../concept/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
 

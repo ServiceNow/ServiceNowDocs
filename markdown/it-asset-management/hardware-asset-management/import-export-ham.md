@@ -1,19 +1,21 @@
 ---
 title: Import and export content data
-description: Import and export content data to the ServiceNow Hardware Asset Management content service to improve the normalization process. On-premise users can use the Manage Hardware Library module to import or export data via a zip file.
+description: Import content data from or export content data to the Hardware Asset Management content library service to support hardware normalization of asset models. On-premise users can import or export data via a zip file using the Manage Hardware Library module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/import-export-ham.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Work with hardware normalization, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+keywords: [import hardware asset management content library, export hardware normalization data, Manage Hardware Library module]
+breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Import and export content data
 
-Import and export content data to the ServiceNow Hardware Asset Management content service to improve the normalization process. On-premise users can use the Manage Hardware Library module to import or export data via a zip file.
+Import content data from or export content data to the Hardware Asset Management content library service to support hardware normalization of asset models. On-premise users can import or export data via a zip file using the Manage Hardware Library module.
 
 ## Before you begin
 
@@ -28,27 +30,27 @@ Role required:
 
 2.  Open the Manage Hardware library form layout and select the **Active** check box to activate the module.
 
-3.  Click **Save** and refresh the form layout.
+3.  Select **Save** and refresh the form layout.
 
 4.  Navigate to the Manage Hardware Library module.
 
 5.  Import the content data to get the new data into your system.
 
-    1.  Click **Import Hardware Library Content**.
+    1.  Select **Import Hardware Library Content**.
 
-    2.  Click **Attach Content File** and then select the zip file that contains the content.
+    2.  Select **Attach Content File** and then select the zip file that contains the content.
 
-    3.  Click **Run Import**.
+    3.  Select **Run Import**.
 
         After the data is imported, the content update schedule job, **HAM - Apply latest content changes**, is triggered to process the content updates.
 
 6.  Export content to send the custom data or any hardware models that are not fully normalized to the ServiceNow content service team.
 
-    1.  Click **Content Service Opt-in: Export Hardware Normalization Content**.
+    1.  Select **Content Service Opt-in: Export Hardware Normalization Content**.
 
-    2.  If you already haven't opted in to share the data with ServiceNow content service, click **opt-in** and refresh the Manage Hardware Library page.
+    2.  If you already haven't opted in to share the data with ServiceNow content service, select **opt-in** and refresh the Manage Hardware Library page.
 
-    3.  Click **Run Export**.
+    3.  Select **Run Export**.
 
     4.  After the status changes to Ready for Download, refresh the page.
 
@@ -57,5 +59,5 @@ Role required:
     5.  Download and send this zip file to the ServiceNow content service team.
 
 
-**Parent Topic:**[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

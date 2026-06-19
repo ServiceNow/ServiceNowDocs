@@ -2,6 +2,7 @@
 title: Choice map form
 description: Understand the fields of the choice map form. This form is used to create choice maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/choice-map-form.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -22,5 +23,5 @@ Understand the fields of the choice map form. This form is used to create choice
 |Alignment table column|Field column of the selected alignment table that needs to be mapped. The value in this field is automatically added based on the selection made in the field map configuration.|
 |Alignment choice|Select the choice field value of the selected alignment table column field.|
 
-**Parent Topic:**[Form field information for Strategic Planning](../../alignment-planner-workspace/reference/form-field-information-for-strategic-planning.md)
+**Parent Topic:**[Form field information for Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/form-field-information-for-strategic-planning.md)
 

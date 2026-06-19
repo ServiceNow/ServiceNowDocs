@@ -2,6 +2,7 @@
 title: Work on a treasury service case
 description: Work on a treasury case to collect applicant information, ensure that any outstanding tasks are completed, and fulfill the treasury product request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-treasury-operations/work-treasury-service-case.html
 release: australia
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
@@ -19,7 +20,7 @@ Work on a treasury case to collect applicant information, ensure that any outsta
 
 Role required: sn\_bom\_treasury.agent or sn\_bom\_treasury.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -33,7 +34,7 @@ Use the case playbook that provides the activities and tasks required to researc
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Treasury Service Cases**, open the case list.
 
@@ -64,5 +65,5 @@ Use the case playbook that provides the activities and tasks required to researc
 -   The treasury case automatically updates to show Closed Complete.
 -   The customer receives a treasury service activation email.
 
-**Parent Topic:**[Using Financial Services Treasury Operations](../concept/using-treasury-ops.md)
+**Parent Topic:**[Using Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-treasury-operations/using-treasury-ops.md)
 

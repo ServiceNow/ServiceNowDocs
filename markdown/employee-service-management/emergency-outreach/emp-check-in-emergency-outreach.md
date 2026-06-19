@@ -2,11 +2,12 @@
 title: Report your health status
 description: If you receive an email, mobile push notification, or SMS notification to report your health status, you can update your status from the message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-outreach/emp-check-in-emergency-outreach.html
 release: australia
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Emergency Outreach, Emergency Response Management, Employee Service Management]
 ---
@@ -17,7 +18,7 @@ If you receive an email, mobile push notification, or SMS notification to report
 
 ## Before you begin
 
-To receive mobile push notifications, you must have the [Now® Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app.
+To receive mobile push notifications, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app.
 
 Role required: none
 
@@ -35,7 +36,7 @@ Role required: none
 
     4.  Tap **Status** and then select a response.
 
-    ![Set of screens displayed on the mobile app to respond with health status.](../image/mobile-checkin.png)
+    \[Omitted image "mobile-checkin.png"\] Alt text: Set of screens displayed on the mobile app to respond with health status.
 
 -   To reply to an SMS notification:
 
@@ -48,5 +49,5 @@ Role required: none
 
 After you reply to the notification, your response is sent to you and your employer. A record for your response is also updated. Your personal information is secure. Only the staff managing the health situation have access to your response.
 
-**Parent Topic:**[Emergency Outreach](../concept/emergency-outreach.md)
+**Parent Topic:**[Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md)
 

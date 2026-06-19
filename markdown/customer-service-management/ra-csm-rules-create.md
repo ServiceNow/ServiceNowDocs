@@ -2,7 +2,10 @@
 title: Create a rule in Recommended Actions
 description: Create a rule for a context that determines when recommended actions are made available to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-rules-create.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -45,7 +48,7 @@ New rules can be created from the context records only.
 
 9.  Enable the **Apply to tables extended from the context table** check box, so that the rule and its recommendations are applied to tables that are extended from the context table.
 
-    For more information, see [Apply rules to tables extended from the context table](../concept/ra-csm-rules.md#section_rules-apply-extended-tables).
+    For more information, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-rules.md).
 
 10. In the **Fields affecting this rule** field, add fields from the context table that must be monitored for changes.
 
@@ -53,7 +56,7 @@ New rules can be created from the context records only.
 
 11. Fill in the remaining fields on the form, as needed.
 
-    For more information about these fields, see [Rule form](../concept/ra-csm-rules.md#section_rnp_zsz_ztb).
+    For more information about these fields, see [Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-rules.md).
 
 12. Click **Submit**.
 

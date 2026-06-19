@@ -2,6 +2,7 @@
 title: External Content for AI Search roles
 description: External Content for AI Search includes the following roles.Access endpoints for AI Search external content APIs.Access High Security settings for AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/roles-ext-content-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -15,16 +16,16 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 External Content for AI Search includes the following roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](../../subscription-management/concept/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
 
 ## AI Search external content API user \[ais\_external\_content\]
 
 Access endpoints for AI Search external content APIs.
 
--   Feeds external documents for AI Search to index as search results, or deletes records for external documents from the index, using the [External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/external-content-ingestion-api.md).
--   Imports user mappings for external content security using the [AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/ext-user-mapping-api.md).
+-   Feeds external documents for AI Search to index as search results, or deletes records for external documents from the index, using the .
+-   Imports user mappings for external content security using the .
 
 ### Contains Roles
 
@@ -40,7 +41,7 @@ None.
 
 ### Special considerations
 
-Assign this role to non-interactive users and integration users who require access to external content API endpoints. For more information on non-interactive users, see [Non-interactive sessions](../../users-and-groups/concept/c_NonInteractiveSessions.md#). For details on integration users, see [Mark service accounts as internal integration users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_MarkSvcAcctsAsInternalIntegUsers.md).
+Assign this role to non-interactive users and integration users who require access to external content API endpoints. For more information on non-interactive users, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md). For details on integration users, see .
 
 Users with the admin role don't need this role to access external content API endpoints.
 
@@ -65,7 +66,7 @@ None.
 
 ### Special considerations
 
-This is an elevated privilege role. Elevated privilege roles aren't assigned to users or groups, and must be used by elevation. For more information on elevated privilege roles, see [Elevated privilege roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_ElevatedPrivilege.md). To learn about elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+This is an elevated privilege role. Elevated privilege roles aren't assigned to users or groups, and must be used by elevation. For more information on elevated privilege roles, see . To learn about elevation, see .
 
-The Instance Security Center **Users with High Privilege Roles** user metric displays the count of users assigned this role. For more details, see [User metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-sec-center-user-metrics.md).
+The Instance Security Center **Users with High Privilege Roles** user metric displays the count of users assigned this role. For more details, see .
 

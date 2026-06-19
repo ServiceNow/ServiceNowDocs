@@ -2,6 +2,7 @@
 title: Release key date form
 description: Manage your release key dates for a timeline-oriented release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/release-key-date-form.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -17,9 +18,9 @@ Manage your release key dates for a timeline-oriented release.
 
 ## Release key date
 
-For more information about adding key dates to a release, see [Add key dates to a timeline-oriented release](../task/dpr-work-release.md#step-dpr-work-rls-keydate).
+For more information about adding key dates to a release, see [Add key dates to a timeline-oriented release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release.md).
 
-For more information about viewing and managing key dates in a release, see [Work on a timeline-oriented release for a single product or service](../task/dpr-work-release.md#).
+For more information about viewing and managing key dates in a release, see [Work on a timeline-oriented release for a single product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-work-release.md).
 
 <table id="table_ozl_shv_cdc"><thead><tr><th>
 
@@ -75,5 +76,5 @@ Description
 Short description of the key date.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release reference](../concept/dpr-reference.md)
+</table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-reference.md)
 

@@ -2,6 +2,7 @@
 title: Delete obsolete and expired hardware vulnerability assessments
 description: Set up automatic deletion of obsolete or expired assessment records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/otvr-delete-obsolete-and-expired-assessments.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -42,5 +43,5 @@ Configure the age of obsolete or expired assessments to be cleaned.
 4.  Select **Update**.
 
 
-**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](configure-hva-using-guided-setup.md)
+**Parent Topic:**[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)
 

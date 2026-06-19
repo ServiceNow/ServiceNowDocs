@@ -2,6 +2,7 @@
 title: Add approval route details
 description: Add approval route details in Legal Matter Management to enable matter creation in Legal Tracker.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-matter-management/lmm-lt-setup-approval-route.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
@@ -17,7 +18,7 @@ Add approval route details in Legal Matter Management to enable matter creation 
 
 ## Before you begin
 
-Ensure you have installed and activated Legal Tracker spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/legal-tracker-spoke.md).
+Ensure you have installed and activated Legal Tracker spoke. For more information, see Legal Tracker.
 
 Role required: sn\_lg\_matter.matter\_config, sn\_lg\_matter.matter\_fulfiller
 
@@ -47,5 +48,5 @@ As there is no scheduled job to pull the approval route details, you must manual
 5.  Select **Submit** to save the record.
 
 
-**Parent Topic:**[Configure data to enable matter creation in Legal Tracker](lmm-config-data-mtemplates.md)
+**Parent Topic:**[Configure data to enable matter creation in Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-matter-management/lmm-config-data-mtemplates.md)
 

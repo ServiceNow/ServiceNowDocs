@@ -2,6 +2,7 @@
 title: Relaunch data migration
 description: Relaunch migration when Core UI content is changed after full data migration and when earlier unsupported functionality becomes supported in the Platform Analytics experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-relaunch.html
 release: australia
 topic_type: task
 last_updated: "2026-03-23"
@@ -19,6 +20,8 @@ When there are modified artifacts, new content, or newly supported content to mi
 
 **Note:** When you upgrade releases, the Migration Center automatically migrates any previously incompatible content that is now compatible.
 
+You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
+
 ## Before you begin
 
 Role required: admin.
@@ -31,7 +34,7 @@ Role required: admin.
 
     The length of the migration process depends on the number of new artifacts that you have on your instance.
 
-    ![Window that indicates how many dashboards and reports will be migrated and estimate of how long the process takes.](../image/data-migration-confirmation.png)
+    \[Omitted image "data-migration-confirmation.png"\] Alt text: Window that indicates how many dashboards and reports will be migrated and estimate of how long the process takes.
 
 3.  Select **Prevent users from creating Core UI analytics during migration**.
 
@@ -42,5 +45,5 @@ The changed and new content is migrated to Platform Analytics experience.
 
 ## What to do next
 
-Evaluate the newly migrated content. For more information, see [Evaluate full data migration](data-migration-evaluate.md).
+Evaluate the newly migrated content. For more information, see [Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-evaluate.md).
 

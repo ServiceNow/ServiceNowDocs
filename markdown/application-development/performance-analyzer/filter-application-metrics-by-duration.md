@@ -2,6 +2,7 @@
 title: Get metrics by duration
 description: Filter metrics in the Performance Analyzer by duration from the last fifteen minutes to the last seven days.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/performance-analyzer/filter-application-metrics-by-duration.html
 release: australia
 product: Performance Analyzer
 classification: performance-analyzer

@@ -2,6 +2,7 @@
 title: Intelligent Servicing for Fraud dashboard
 description: Intelligent Servicing for Fraud contains a preconfigured dashboard with actionable data visualizations that can help your organization improve your business processes and quantify the value of self-service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/intelligent-servicing-for-fraud-dashboard.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
@@ -17,7 +18,7 @@ Intelligent Servicing for Fraud contains a preconfigured dashboard with actionab
 
 The Intelligent Servicing for Fraud dashboard enables you to monitor the status of fraud cases, see trends, and drill down into details from a single view. For any given duration, you can view the details for closed cases that breached SLA and open cases that need immediate attention.
 
-![Intelligent Servicing for Fraud dashboard showing metrics such as closed cases and time to close. For descriptions of indicators, breakdowns, and filters included on this dashboard, see the following sections.](../../../product/fso-banking-fraud/image/fso-fraud-dashboard.png "Intelligent Servicing for Fraud dashboard")
+\[Omitted image "fso-fraud-dashboard.png"\] Alt text: Intelligent Servicing for Fraud dashboard showing metrics such as closed cases and time to close. For descriptions of indicators, breakdowns, and filters included on this dashboard, see the following sections.
 
 ## Required ServiceNow AI Platform roles
 

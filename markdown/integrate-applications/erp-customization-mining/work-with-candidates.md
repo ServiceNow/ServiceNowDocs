@@ -2,6 +2,7 @@
 title: Finding and working with candidates to replatform
 description: Use ERP Semantic Mining to identify potential ERP \(Enterprise Resource Planning\) app candidates for replatforming.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-customization-mining/work-with-candidates.html
 release: australia
 product: ERP Customization Mining
 classification: erp-customization-mining
@@ -32,16 +33,16 @@ If you delete a candidate from ERP Semantic Mining, the candidate automatically 
 
 If ERP Semantic Mining shows that a candidate has a number of similar candidates, consider building one app that meets the needs of some or all similar candidates when you replatform.
 
--   **[Obtaining ERP Semantic Mining statistics and mining analysis](erpcm-obtaining-statistics-and-mining-analysis.md)**  
+-   **[Obtaining ERP Semantic Mining statistics and mining analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-obtaining-statistics-and-mining-analysis.md)**  
 Use the ERP Semantic Mining home page dashboard to obtain statistics about candidates and info to help you troubleshoot.
--   **[Browse an overview of candidates in ERP Semantic Mining](../task/erpcm-view-home-page-overview.md)**  
+-   **[Browse an overview of candidates in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-view-home-page-overview.md)**  
 View the ERP Semantic Mining home page for a summary of ERP \(Enterprise Resource Planning\) app candidates to replatform onto the ServiceNow AI Platform.
--   **[View and work with candidate details in ERP Semantic Mining](../task/erpcm-view-work-with-candidate-details.md)**  
+-   **[View and work with candidate details in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-view-work-with-candidate-details.md)**  
 View and edit candidate details and recommended actions in ERP Semantic Mining. Analyze ERP \(Enterprise Resource Planning\) system scan results, linked ERP models, usage, and similar candidates.
--   **[Check candidate recommendations in ERP Semantic Mining](../task/erpcm-work-with-recommendations.md)**  
+-   **[Check candidate recommendations in ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-work-with-recommendations.md)**  
 Check the actions that ERP Semantic Mining suggests for improving the ease of replatforming an ERP \(Enterprise Resource Planning\) candidate.
--   **[Save potential candidates to replatform](../task/erpcm-find-candidates.md)**  
+-   **[Save potential candidates to replatform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erpcm-find-candidates.md)**  
 Use ERP Semantic Mining to save ERP \(Enterprise Resource Planning\) app candidates to replatform.
 
-**Parent Topic:**[ERP Semantic Mining](erp-customization-mining-overview.md)
+**Parent Topic:**[ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-overview.md)
 

@@ -2,7 +2,10 @@
 title: OpenFrame overview
 description: OpenFrame provides a communication frame that customer service agents use to place and receive customer calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_OpenFrameOverview.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -39,7 +42,7 @@ OpenFrame includes these components:
 **Note:**
 
 -   To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
--   To integrate softphone into the ServiceNow AI Platform using OpenFrame, add the third-party URLs of telephony services in the following property: **glide.ui.concourse.onmessage\_enforce\_same\_origin\_whitelist**. For more information see, [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md), and [Enable URL allow list for cross-origin iframe communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-url-allowlist-for-cross-origin-iframe-communication.md) in Instance Security Hardening Settings.
+-   To integrate softphone into the ServiceNow AI Platform using OpenFrame, add the third-party URLs of telephony services in the following property: **glide.ui.concourse.onmessage\_enforce\_same\_origin\_whitelist**. For more information see, Available system properties, and Enable URL allow list for cross-origin iframe communication in Instance Security Hardening Settings.
 
 ## Using the OpenFrame window
 
@@ -78,7 +81,7 @@ In Agent Workspace, select the phone icon:
 
 -   In the banner frame.
 -   Next to the **Contact** or **Consumer** fields on the Case form.
- With the admin role, you can configure the phone icon. For more information, see [CTI integration with the Case form](c_CTIIntegrationWithTheCaseForm.md#).
+ With the admin role, you can configure the phone icon. For more information, see [CTI integration with the Case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CTIIntegrationWithTheCaseForm.md).
 
 </td></tr><tr><td>
 
@@ -111,7 +114,7 @@ Select and drag the OpenFrame window header.
 In the CSM Configurable Workspace, you can:
 
 -   Integrate OpenFrame with the Interaction Management System \(IMS\) and interaction records. This enables agents to manage the phone interaction life cycle.
--   Use the native voice control capability from the Interaction Controls Component \(ICC\) plugin to integrate to the contact center voice channel. You must enable this in the CSM Configurable Workspace to manage the voice channel. For more information, see [Interaction Controls Component \(ICC\) for voice calls](contact-center-integration-with-icc.md) and [Interaction Controls Component \(ICC\) call features](interaction-controls-component-icc-call-interaction-features.md).
+-   Use the native voice control capability from the Interaction Controls Component \(ICC\) plugin to integrate to the contact center voice channel. You must enable this in the CSM Configurable Workspace to manage the voice channel. For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md) and [Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md).
 
 ## Creating an OpenFrame configuration
 
@@ -124,5 +127,5 @@ With the admin role, you can create or modify an OpenFrame configuration. This c
 **Related topics**  
 
 
-[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_openFrameAPI.md)
+[bundle-crapiref.c_openFrameAPI]
 

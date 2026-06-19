@@ -2,6 +2,7 @@
 title: Set up a table configuration
 description: Define the kind of data or process that you want to view and analyse in your graph. You must select a specific table \(parent table\) that has the data that you want to analyse.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/po-table-configuration.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -27,7 +28,7 @@ Role required: sn\_process\_mining\_power\_user
 
     A new **Table Configuration** page is displayed.
 
-    ![Table configuration](../image/multi-dimension-1.png)
+    \[Omitted image "multi-dimension-1.png"\] Alt text: Table configuration
 
 3.  Enter a name for the table configuration in the **Name** field.
 
@@ -83,13 +84,13 @@ Select **Preview** to see the number of records available for the set filter.
 </td></tr></tbody>
 </table>5.  Select **Submit** to save the table configuration.
 
-    You are taken to the Table Configuration page displaying the table configuration that you have created. Configure an activity definition for the table configuration. For more information, see [Configure an activity definition](configure-activity.md)
+    You are taken to the Table Configuration page displaying the table configuration that you have created. Configure an activity definition for the table configuration. For more information, see [Configure an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/configure-activity.md)
 
 
--   **[Configure multi-dimensional mining](configure-multidimensional-mining.md)**  
+-   **[Configure multi-dimensional mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/configure-multidimensional-mining.md)**  
 Use multi-dimensional mining to identify inefficiencies and improve performance by evaluating data from multiple related tables.
--   **[Configure advanced conditions: crop process](po-advanced-conditions.md)**  
+-   **[Configure advanced conditions: crop process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/po-advanced-conditions.md)**  
 Configure custom start and end conditions for your table configuration to define which part of the process should be included in the Process Mining project and made available for analysis.
 
-**Parent Topic:**[Create a project using Classic view](create-proj.md)
+**Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-proj.md)
 

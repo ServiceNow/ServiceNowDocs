@@ -2,6 +2,7 @@
 title: Install Applicant Center
 description: You can install the Applicant Center application \(sn\_ta\_applicant\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/install-applicant-center.html
 release: australia
 product: Applicant Center
 classification: applicant-center
@@ -26,7 +27,7 @@ Role required: admin
 
 Scheduled jobs and Store applications are installed with Applicant Center.
 
-For more information, see [Components installed with Applicant Center](../reference/installed-with-applicant-center.md).
+For more information, see [Components installed with Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/installed-with-applicant-center.md).
 
 ## Procedure
 
@@ -51,5 +52,5 @@ For more information, see [Components installed with Applicant Center](../refere
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Applicant Center](../concept/config-applicant-center.md)
+**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/config-applicant-center.md)
 

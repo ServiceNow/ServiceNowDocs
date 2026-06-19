@@ -2,10 +2,13 @@
 title: Exploring ITOM AIOps
 description: Overview of ITOM AIOps applications and capabilities that enable proactive IT operations management through AI-powered monitoring, analytics, and automation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/exploring-itom-aiops.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2026-04-17"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [explore]
 breadcrumb: [ITOM AIOps, IT Operations Management]
 ---
@@ -28,52 +31,13 @@ In their daily work, operators use the workspace to monitor service health acros
 
 The workspace integrates data from all AIOps products to provide operators with comprehensive situational awareness and streamlined incident management capabilities.
 
-## ITOM AIOps users
-
-|User|Description|
-|----|-----------|
-|||
-| | |
-| | |
-
-## ITOM AIOps Benefits
-
-Data collected and analyzed by ITOM AIOps provides intelligent insights that support the following business outcomes and operational workflows:
-
--   **Predictive Issue Detection**
-
-    Identify potential problems before they impact users through predictive analytics and anomaly detection.
-
--   **Automated Incident Response**
-
-    Streamline incident management with intelligent alert correlation, automated remediation actions, and context-aware notifications that reduce noise and accelerate resolution.
-
--   **Performance Optimization**
-
-    Continuously monitor infrastructure health metrics and application performance to identify optimization opportunities and capacity planning requirements.
-
--   **Service Impact Analysis**
-
-    Understand how infrastructure issues affect business services through service mapping and dependency analysis.
-
--   **Operational Intelligence**
-
-    Gain actionable insights from log data, metrics, and events to improve operational efficiency and reduce the risk of service disruptions.
-
--   **Service Level Management**
-
-    Define, monitor, and maintain service level objectives that align IT operations with business requirements. Track service reliability metrics and receive automated alerts when services approach defined thresholds.
-
-
 ## ITOM AIOps workflow
 
 Each AIOPs application focuses on specific aspects of IT operations while contributing to a unified AIOps platform.
 
-![Typical flow through AIOps](../image/aiops_overview.png)
-
 -   **Agent Client Collector**
 
-    Monitors service availability and infrastructure performance in real time. Combined with Metric Intelligence, it establishes dynamic thresholds and detects anomalies that may indicate potential service outages before they occur.
+    Monitors service availability and infrastructure performance in real-time. Combined with Metric Intelligence, it establishes dynamic thresholds and detects anomalies that may indicate potential service outages before they occur.
 
 -   **Synthetic monitoring**
 
@@ -104,45 +68,145 @@ Each AIOPs application focuses on specific aspects of IT operations while contri
     Helps organizations define, monitor, and report on service level objectives and service level indicators. It provides automated SLO tracking and alerting when services approach or breach defined thresholds, enabling proactive service quality management.
 
 
-##  benefits
+## ITOM AIOps users
 
-|Benefit|Feature|Users|
-|-------|-------|-----|
-||||
-| | | |
-| | | |
-| | | |
-| | | |
+<table id="table_u1t_gb1_wdb"><thead><tr><th>
 
-## ITOM AIOps licensing and products
+Role title \[name\]
 
-When you activate AIOps, you get a core set of applications that provide foundational monitoring and event management capabilities. Additional applications can be installed from the ServiceNow Store to extend these capabilities based on your specific requirements. The ServiceNow AI Platform® uses a licensing method where your organization is billed for using ITOM AIOps applications.
+</th><th>
 
-AIOps includes the following applications by default:
+Description
 
--   AIOps dashboard
--   Integration Launchpad
--   Alert Automation
--   ITOM/OT SU Licensing
--   Event Management Connectors
--   Event Management Core
--   Tag Based Alert Clustering Engine
--   Alert Rules Management
--   Metric Explorer
--   Performance analytics
--   Mid Server
--   Event Management and Service Mapping Core
+</th></tr></thead><tbody><tr><td>
 
-Optional applications that extend AIOps capabilities are available from the ServiceNow Store and can be installed based on your operational requirements and use cases:
+Admin\[evt\_mgmt\_admin\]
 
--   Agent Client Collector
--   Health Log Analytics
--   Service Observability
--   Service Reliability Management
--   SLO Management
--   Synthetic monitoring
+</td><td>
 
-The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](itom-su-licensing-landing-page.md).
+Configures and sets up Event Management properties and rules.
+
+</td></tr><tr><td>
+
+Operator\[evt\_mgmt\_operator\]
+
+</td><td>
+
+Manages alerts, including closing and acknowledging them.
+
+</td></tr><tr><td>
+
+User\[evt\_mgmt\_user\]
+
+</td><td>
+
+Manages the lifecycle of alerts, including performing basic operations such as viewing and acknowledging them.
+
+</td></tr></tbody>
+</table>## ITOM AIOps benefits
+
+<table id="table_qx2_hdt_y3c"><thead><tr><th>
+
+Benefit
+
+</th><th>
+
+Feature
+
+</th><th>
+
+Users
+
+</th></tr></thead><tbody><tr><td>
+
+Predictive issue detection
+
+</td><td>
+
+-   [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-landing-page.md)
+-   [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-landing-page.md)
+
+</td><td>
+
+Admin, operator
+
+</td></tr><tr><td>
+
+Automated alert response
+
+</td><td>
+
+[Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.md)
+
+</td><td>
+
+Admin
+
+</td></tr><tr><td>
+
+Performance optimization
+
+</td><td>
+
+[Exploring Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/exploring-agent-client-collector.md)
+
+</td><td>
+
+Admin, operator
+
+</td></tr><tr><td>
+
+Service health and investigation
+
+</td><td>
+
+[Exploring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/exploring-service-observability.md)
+
+</td><td>
+
+Admin, operator
+
+</td></tr><tr><td>
+
+Service level management
+
+</td><td>
+
+-   [Exploring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/exploring-service-reliability-management.md)
+-   [Exploring SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-level-objective-management/exploring-service-level-objective-management.md)
+
+</td><td>
+
+Admin, operator
+
+</td></tr></tbody>
+</table>## Products that add value to ITOM AIOps
+
+In the context of ITOM AIOps, which focuses on maintaining the health and performance of IT systems and infrastructure, there are several ServiceNow products that can add significant value:
+
+-   **Discovery**
+
+    Discovery automatically identify and collect information about IT assets, configurations, and relationships, providing organizations with a comprehensive inventory to effectively manage and monitor their IT infrastructure.
+
+-   **Service Mapping**
+
+    Service Mapping offers detailed information about application instance services within the \[cmdb\_ci\_service\_discovered\] table. This data helps establish connections between infrastructure and application configuration items \(CIs\) stored in the \[cmdb\_ci\_appl\] table, enhancing visibility into IT environments and facilitating efficient management and monitoring processes.
+
+-   **Service Portfolio Management**
+
+    Service Portfolio Management \(SPM\) offers the associated product model, while Software Asset Management \(SAM\) and Hardware Asset Management \(HAM\) provide life-cycle data for Technology Portfolio Management \(TPM\). Together, they enable comprehensive management of IT assets, ensuring effective utilization, compliance, and optimization throughout their life cycles.
+
+
+## Products that benefit from ITOM AIOps
+
+-   **Incident Management**
+
+    Incident Management tools leverage downstream information from Event Management to create incidents swiftly, ensuring timely resolution of issues.
+
+-   **Customer Service Management \(CSM\)**
+
+    Customer Service Management \(CSM\) systems benefit from ITOM AIOps by utilizing application service impact data to identify affected users promptly, enhancing customer support efficiency and satisfaction.
+
 
 ## What to know before you begin
 
@@ -152,10 +216,5 @@ A well-populated Configuration Management Database \(CMDB\) is crucial to get th
 
 Configure the MID Web Server extension to enable ITOM AIOps features. The MID Web Server is an extension that enables external clients to push metric data and events to the MID Server, which is required for Event Management, and many instances of Agent Client Collector, and Health Log Analytics.
 
-IT Operations Management Guided Setup provides a sequence of tasks that help you configure IT Operations Management applications on your ServiceNow instance. To open IT Operations Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+Setup Hub provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. For more information about using the Setup Hub, see [Configure Event Management using Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/aiops-conf-console.md).
 
-## What to explore next
-
-To learn more about configuring and using ITOM AIOps, see:
-
--   -   -   

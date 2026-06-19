@@ -1,11 +1,13 @@
 ---
 title: Components installed with Business Continuity Management
-description: Several types of components are installed with activation of the Business Continuity Management application.When you download the Business Continuity Management application, several scripts includes are added to your instance.
+description: Several types of components are installed with activation of the Business Continuity Management application.When you download the Business Continuity Management application, several scripts includes are added to your instance.Use this reference to integrate the shared Microsoft Excel import and export library into your ServiceNow application. It lists the library components, configuration class methods, artifacts that you must create, and example code for export, import, and combined integrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/installed-with-bcm.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 23
+keywords: [BCM, import, export, Excel, integration, extension point, Record Transform Engine]
 breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -65,7 +67,7 @@ The BCM admin contains the Approver Configurator admin role, but it doesn’t co
 
 For security reasons, the Approver Configurator admin has read access to the **Script** field on the Approval Rule form. If you have the Approver Configurator developer role in the GRC: Approver Configurator application, you’ve create and write access to the **Script** field on the Approval Rule form.
 
-For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](../../grc-common/reference/roles-installed-with-approver-configurator.md).
+For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
 
 
 </td><td>
@@ -390,7 +392,7 @@ Allows read access on all recovery events.
 </td></tr></tbody>
 </table>## BCM lite operator role
 
-For information on the BCM lite operator role, see [BCM lite operators](../concept/bcm-lite-operators.md).
+For information on the BCM lite operator role, see [BCM lite operators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-lite-operators.md).
 
 ## Tables installed
 
@@ -925,9 +927,9 @@ Business Continuity Management – Planning
 </td></tr></tbody>
 </table>## Properties installed
 
-For properties installed with the Business Continuity Management application, see [Properties installed with BCM](properties-bcm.md).
+For properties installed with the Business Continuity Management application, see [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/properties-bcm.md).
 
-**Parent Topic:**[BCM reference](bcm-reference.md)
+**Parent Topic:**[BCM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-reference.md)
 
 ## Script includes in Business Continuity Management
 
@@ -984,4 +986,472 @@ When you download the Business Continuity Management application, several script
 |EventRecordAPIBase|An API to interact with event record.|
 |EventTaskUtil|Utility class for event tasks.|
 |ActivatedPlanRecordAPIBase|An API to interact with activated plan record.|
+
+## Import and export integration reference
+
+Use this reference to integrate the shared Microsoft Excel import and export library into your ServiceNow application. It lists the library components, configuration class methods, artifacts that you must create, and example code for export, import, and combined integrations.
+
+### How the shared library works
+
+The shared library is delivered in the scope \(repository\). Consumer applications such as Business Continuity Management provide configuration only and do not modify the shared library.
+
+The architecture uses an extension point pattern:
+
+-   The shared library defines an extension point.
+-   Your application creates a configuration class that implements this extension point.
+-   The shared library discovers your configuration at runtime by matching the value of `getTable()` against the target table.
+
+One configuration class drives both export and import. The same field list and dot-walk configuration ensure round-trip consistency: export writes the dot-walked value \(for example, `user_name`\) to Microsoft Excel, and import resolves that value back to `sys_id`.
+
+### Shared layer components
+
+You do not modify these shared layer components. The following table describes each component and its responsibility in the import and export flow.
+
+|Component|Description|
+|---------|-----------|
+|ImportExportConfigReader|Resolves your configuration, builds the export URL, and resolves dot-walk values during import.|
+|ExcelExportAjax|Fetches metadata, drop-down options, and records that are written to the Microsoft Excel file.|
+|excel\_export\_modal \(UI Page\)|Builds the Microsoft Excel workbook on the client side using the ExcelJS library.|
+|ImportDataUtils|Validates the attachment, queues the asynchronous import, parses the Microsoft Excel file, loads data into the staging table, and triggers the Record Transform Engine \(RTE\) transform.|
+|Event Registration and Script Action|Asynchronous event queue \(`process_import_data`\) that connects the import queue to the processing logic.|
+|ImportProgressTracker|Tracks import progress and provides per-row updates that drive the inline progress tracker on the parent record.|
+
+### Artifacts to create in your application scope
+
+Everything described in this section is created in your application scope. The following table lists the artifacts that are always required, regardless of whether you implement export, import, or both.
+
+|Artifact|Description|
+|--------|-----------|
+|&lt;Table&gt;ImportExportConfigBase|Script include \(sys\_policy: read\). Contains all configuration method implementations.|
+|&lt;Table&gt;ImportExportConfig|Script include. Thin concrete class that extends the base class and is registered as the extension instance.|
+|Extension Instance|A `sys_extension_instance` record that points to your configuration class.|
+
+The following table lists the additional artifacts that are required for export.
+
+|Artifact|Description|
+|--------|-----------|
+|Declarative Action \(client script\)|Calls `ImportExportConfigReader.getExportUrl()` through GlideAjax and opens the export modal.|
+|System Properties|Recommended. `<scope>.<table>_excel_export_max_rows` and `<scope>.<table>_excel_export_max_dropdown_records`.|
+
+The following table lists the additional artifacts that are required for import.
+
+|Artifact|Description|
+|--------|-----------|
+|Declarative Action \(UXF client action or server script\)|Calls `ImportDataUtils.queueImport()`.|
+|Dictionary field|A `file_attachment` field on the parent table that is used to upload the Microsoft Excel file.|
+|Staging table|Extends `sys_import_set_row`. String columns that match the import fields.|
+|ACLs on the staging table|CRUD and `report_view` access for your admin role.|
+|RTE configuration|ETL Definition, Staging Entity, Target Entity, Entity Mapping, Robust Import Set Transformer, and Field Mappings \(one per column\).|
+|RTE Script Operations \(optional\)|Required only for reference fields with dot-walk configuration. Resolves display values to sys\_ids.|
+
+### Configuration class methods
+
+The configuration base class implements the methods that are described in this section. Implement only the methods that your use case requires.
+
+The following table describes the shared methods that are required for both export and import.
+
+|Method|Returns|Description|
+|------|-------|-----------|
+|getTable\(\)|string|Target table name, for example `sn_recovery_event_task`.|
+|getFields\(\)|string\[\]|Ordered field list. Drives export columns and import mapping.|
+|getDotWalkFields\(\)|Object|Object of the form `{ fieldName: dotWalkField }`, for example `{ assigned_to: 'user_name' }`. Export shows the dot-walk value and import resolves it back to `sys_id`.|
+|getOrderByField\(\)|string|Sort field used by export queries. Defaults to `number`.|
+|setSourceRecord\(gr\)|void|Optional. Called by the shared layer when a parent record is available. Store the parent record so that `getRefQualOverrides()` can reference it.|
+
+The following table describes the export-related methods.
+
+|Method|Returns|Description|
+|------|-------|-----------|
+|getProtectedFields\(\)|string\[\]|Read-only columns in the Microsoft Excel sheet \(locked cells\).|
+|getUniqueFields\(\)|string\[\]|Columns that use duplicate highlighting through conditional formatting.|
+|getHiddenColumns\(\)|string\[\]|Columns that are exported but hidden from the user.|
+|getNoValidationFields\(\)|string\[\]|Fields that skip drop-down and reference validation.|
+|getRefQualOverrides\(\)|Object|Reference qualifier overrides per field. Can use the stored source record for dynamic filtering.|
+|getInfoSheetsDetails\(\)|Object|Extra sheets, in the form `{ sheetName: [{ key: value }] }`.|
+|getMaxRows\(\)|string \| number|Maximum rows to export, read from the system property.|
+|getMaxDropdownRecords\(\)|string \| number|Maximum drop-down options before falling back to a plain text string.|
+|getAllowTemplateDownload\(\)|boolean|When `true`, users can download an empty template even when no data rows exist.|
+|getRestrictEditsToExportedRows\(\)|boolean|When `true`, only the exported data rows have drop-down lists and validation. Rows beyond the data are locked.|
+
+The following table describes the import-related methods.
+
+<table id="table_import_methods"><thead><tr><th>
+
+Method
+
+</th><th>
+
+Returns
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+getStagingTableName\(\)
+
+</td><td>
+
+string
+
+</td><td>
+
+Staging table name, which extends `sys_import_set_row`.
+
+</td></tr><tr><td>
+
+getImportFieldMapping\(\)
+
+</td><td>
+
+Object
+
+</td><td>
+
+Object of the form `{ fieldKey: stagingColumnName }`. Maps configuration fields to staging table columns.
+
+</td></tr><tr><td>
+
+getSheetConfig\(\)
+
+</td><td>
+
+Object
+
+</td><td>
+
+Object of the form `{ sheetName: string, headerRowsToSkip: number }`. Specifies which sheet to read and how many header rows to skip.
+
+</td></tr><tr><td>
+
+getImportAttachmentField\(\)
+
+</td><td>
+
+string
+
+</td><td>
+
+Name of the `file_attachment` field on the parent record. The shared layer clears this field after the import completes \(whether it succeeds or fails\) so that the user can re-import.
+
+</td></tr><tr><td>
+
+onBeforeStagingInsert\(recordGr\)
+
+</td><td>
+
+void
+
+</td><td>
+
+Optional. Called for each row before it is inserted into the staging table. Use this method to stamp parent context, for example `recordGr.setValue('event', this._sourceRecordSysId)`.
+
+</td></tr><tr><td>
+
+validateAttachment\(sysId\)
+
+</td><td>
+
+string\|null
+
+</td><td>
+
+Optional. Custom validation on the uploaded file. Return an error message string to abort the import. Return null if the file is valid.
+
+</td></tr><tr><td>
+
+validateRow \(Source, Target\)
+
+</td><td>
+
+Void
+
+</td><td>
+
+Optional. Called per staging row before transform \(`ETL on_before_script`\). To reject a row, set `ignore = true` and `ignore_reason` to a user-facing message. The Record Transform Engine skips rejected rows and logs the reason.
+
+ **Note:** ETL stands for Extract, Transform, Load—a data integration process used to collect, process, and store data for analysis and reporting.
+
+</td></tr><tr><td>
+
+postProcessRow \(Source, Target\)
+
+</td><td>
+
+Void
+
+</td><td>
+
+Optional. Called per row after transform \(`ETL on_after_script`\). Use for post-transform operations such as updating related records or resolving cross-row dependencies.
+
+</td></tr></tbody>
+</table>### Method usage matrix
+
+The following table indicates which methods are required, optional, or not needed for each integration mode. A check mark \(✓\) indicates that the method is required. A dot \(·\) indicates that it is not needed, and a circle \(○\) indicates that the method is optional.
+
+|Method|Export only|Import only|Both|
+|------|-----------|-----------|----|
+|getTable\(\)|✓|✓|✓|
+|getFields\(\)|✓|✓|✓|
+|getDotWalkFields\(\)|o|o|o|
+|getOrderByField\(\)|✓|·|✓|
+|setSourceRecord\(gr\)|o|o|o|
+|getProtectedFields\(\)|✓|·|✓|
+|getUniqueFields\(\)|✓|·|✓|
+|getHiddenColumns\(\)|o|o|o|
+|getNoValidationFields\(\)|o|o|o|
+|getRefQualOverrides\(\)|o|o|o|
+|getInfoSheetsDetails\(\)|o|o|o|
+|getMaxRows\(\)|✓|·|✓|
+|getMaxDropdownRecords\(\)|✓|·|✓|
+|getAllowTemplateDownload\(\)|✓|·|✓|
+|getRestrictEditsToExportedRows\(\)|o|·|o|
+|getStagingTableName\(\)|·|✓|✓|
+|getImportFieldMapping\(\)|·|✓|✓|
+|getSheetConfig\(\)|·|✓|✓|
+|getImportAttachmentField\(\)|·|✓|✓|
+|onBeforeStagingInsert\(recordGr\)|·|o|o|
+|validateAttachment\(sysId\)|·|o|o|
+|validateRow \(Source, Target\)|o|o|o|
+|postProcessRow \(Source, Target\)|o|o|o|
+
+### Export setup
+
+The following example shows an export-only configuration base class.
+
+```
+const YourTableImportExportConfigBase = Class.create();
+YourTableImportExportConfigBase.prototype = {
+    initialize: function() {},
+
+    getTable: function() {
+        return 'your_table_name';
+    },
+
+    getFields: function() {
+        return ['number', 'name', 'status', 'assigned_to', 'due_date'];
+    },
+
+    getDotWalkFields: function() {
+        return { assigned_to: 'user_name' };
+    },
+
+    getOrderByField: function() {
+        return 'number';
+    },
+
+    getProtectedFields: function() {
+        return ['number', 'name'];
+    },
+
+    getUniqueFields: function() {
+        return ['number'];
+    },
+
+    getHiddenColumns: function() {
+        return [];
+    },
+
+    getNoValidationFields: function() {
+        return [];
+    },
+
+    getRefQualOverrides: function() {
+        return {};
+    },
+
+    getInfoSheetsDetails: function() {
+        return {
+            'Instructions': [
+                {
+                    column: gs.getMessage('Number*'),
+                    instruction: gs.getMessage('Unique identifier'),
+                    validation: gs.getMessage('Read-only'),
+                    example: gs.getMessage('RA0001001'),
+                },
+            ],
+        };
+    },
+
+    getMaxRows: function() {
+        return parseInt(gs.getProperty('your_scope.your_table_excel_export_max_rows', '10000'), 10);
+    },
+
+    getMaxDropdownRecords: function() {
+        return parseInt(gs.getProperty('your_scope.your_table_excel_export_max_dropdown_records', '10000'), 10);
+    },
+
+    getAllowTemplateDownload: function() {
+        return true;
+    },
+
+    type: 'YourTableImportExportConfigBase'
+};
+```
+
+**Note:** The `sysparm_sourceTable` and `sysparm_sourceId` parameters are optional. Include them only when your configuration uses `setSourceRecord()` for dynamic reference qualifiers, such as filtering drop-down lists by parent record.
+
+Create two system properties in your application scope. The following table describes the properties.
+
+|Property name|Default|Purpose|
+|-------------|-------|-------|
+|&lt;scope&gt;.&lt;table&gt;\_excel\_export\_max\_rows|10000|Maximum number of data rows in an export.|
+|&lt;scope&gt;.&lt;table&gt;\_excel\_export\_max\_dropdown\_records|10000|Maximum number of drop-down options per field before the column falls back to a plain text string.|
+
+### Import setup
+
+Add the following methods to your configuration base class, in addition to the shared methods.
+
+```
+getStagingTableName: function() {
+    return 'your_table_import';
+},
+
+getImportFieldMapping: function() {
+    return {
+        number: 'number',
+        name: 'name',
+        status: 'status',
+        assigned_to: 'assigned_to',
+    };
+},
+
+getSheetConfig: function() {
+    return {
+        sheetName: 'Your Sheet Name',
+        headerRowsToSkip: 1,
+    };
+},
+
+getImportAttachmentField: function() {
+    return 'your_import_file_field';
+},
+
+onBeforeStagingInsert: function(recordGr) {
+    if (this._sourceRecordSysId) {
+        recordGr.setValue('parent_field', this._sourceRecordSysId);
+    }
+},
+```
+
+**Note:** The `sheetName` value must match the tab name in the Microsoft Excel file. When you implement both export and import, this value must match the data sheet tab name that is generated during export.
+
+Create a staging table that extends `sys_import_set_row` with string columns that match the import fields. The following table describes the columns for a typical staging table.
+
+|Column|Type|Notes|
+|------|----|-----|
+|Number|String \(50\)|Coalesce field. Used to match existing records.|
+|Name|String \(255\)|—|
+|Status|String \(40\)|—|
+|Assigned\_to|String \(150\)|Stored as raw text from Microsoft Excel. The Record Transform Engine resolves the value to `sys_id`.|
+
+All columns are strings, regardless of the target field type. The RTE transform handles type conversion. Create CRUD and `report_view` ACLs on the staging table for your admin role.
+
+Add a `file_attachment` dictionary field to the parent table \(for example, the event table\). Users upload the Microsoft Excel file to this field before they trigger the import.
+
+Create the following records in your application scope to configure the Record Transform Engine.
+
+|Record|Purpose|
+|------|-------|
+|ETL Definition|Top-level container for the transform.|
+|Staging Entity|Points to your staging table.|
+|Target Entity|Points to your target table.|
+|Entity Mapping|Maps the staging entity to the target entity. Coalesce on `number` to ensure that the operation is an update, not an insert.|
+|Robust Import Set Transformer|Connects the ETL definition to the staging table.|
+|Field Mappings|One field mapping per staging column to target field.|
+
+If you have reference fields with dot-walk configuration \(for example, `assigned_to` mapped to `user_name`\), create one RTE script operation per field. The following example shows a script operation that resolves dot-walk values during import.
+
+**Important:** The Record Transform Engine runs ES5 only \(Rhino\). Use `var`, `function()`, and `.concat()`. Do not use `const`, `let`, arrow functions, or template literals.
+
+### Combined import and export integration
+
+When you implement both directions, use a single configuration class with all methods that are described in the export setup and import setup sections. A single configuration class ensures round-trip consistency.
+
+|Direction|What happens|
+|---------|------------|
+|Export|`getDotWalkFields()` returns `{ assigned_to: 'user_name' }`. The Microsoft Excel file shows the user name value, for example, `abel.tuter`.|
+|Import|The RTE script operation calls `resolveDotWalkValues(tableName, fieldName, batch, output)`, which resolves the value back to `sys_id`.|
+
+The same dot-walk configuration drives both directions. Protected fields, which are locked in Microsoft Excel, prevent users from modifying the coalesce keys that the import relies on for matching. Create all artifacts that are listed for both export and import, but use a single shared configuration class.
+
+### Onboarding checklist
+
+Use the following checklist when you onboard a new consumer application. The checklist is grouped by integration mode.
+
+<table id="table_onboarding"><thead><tr><th>
+
+Mode
+
+</th><th>
+
+Items to complete
+
+</th></tr></thead><tbody><tr><td>
+
+Export only
+
+</td><td>
+
+-   Configuration base class with shared and export methods.
+-   Configuration class that extends the base class.
+-   Declarative action client script with GlideAjax that opens the export modal.
+-   System properties for `max_rows` and `max_dropdown_records`.
+
+</td></tr><tr><td>
+
+Import only
+
+</td><td>
+
+-   Configuration base class with shared and import methods.
+-   `getImportAttachmentField()` returns the parent attachment field name.
+-   \(Optional\) `onBeforeStagingInsert(recordGr)` stamps parent context on each row.
+-   Configuration class that extends the base class.
+-   Staging table that extends `sys_import_set_row` with string columns.
+-   ACLs on the staging table \(CRUD and `report_view`\).
+-   `file_attachment` dictionary field on the parent table.
+-   Declarative action that calls `ImportDataUtils.queueImport()`.
+-   RTE: ETL Definition, Staging Entity, Target Entity, Entity Mapping, and transformer.
+-   RTE: field mappings \(one per staging column to target field\).
+-   RTE: script operations for dot-walk reference fields \(if applicable\).
+
+</td></tr><tr><td>
+
+Combined
+
+</td><td>
+
+-   All items from the export-only and import-only checklists.
+-   A single configuration class that implements all methods.
+-   Round-trip consistency verified: export dot-walk values, and confirm that import resolves the same values back.
+
+</td></tr><tr><td>
+
+ValidateRow and PostProcessRow
+
+</td><td>
+
+Optional per-row validation and post-processing hooks, implemented in the configuration class and integrated into the Extract, Transform, Load \(ETL\) pipeline through `on_before_script` and `on_after_script`.
+
+</td></tr></tbody>
+</table>### Troubleshooting
+
+Use the following table to diagnose and resolve common issues that arise during integration.
+
+|Problem|Cause|Fix|
+|-------|-----|---|
+|Extension point not found|Configuration class is not registered, or `getTable()` returns the wrong value.|Verify the extension instance record and the table name.|
+|Export modal is blank|GlideAjax returns `null`.|Verify that `ImportExportConfigReader` has `client_callable=true`.|
+|Import silently does nothing|`queueImport()` returns `false`.|Verify that the attachment exists, that it is an .xlsx file, and that the extension point resolves.|
+|RTE transforms 0 records|Stale import set GlideRecord.|The shared layer re-fetches by `sys_id`. Verify that the staging table has data.|
+|Dot-walk values not resolved|`getDotWalkFields()` is missing or has the wrong field name.|Verify that the configuration matches the `sys_dictionary` reference.|
+|Data policy blocks import|`apply_import_set=true` on the target table.|Set `apply_import_set=false` on the blocking data policies.|
+|ES6 syntax in RTE script operation|Use of `const`, `let`, or arrow functions.|RTE runs ES5 \(Rhino\). Use `var`, `function`, and `.concat()`.|
+|Round-trip mismatch on a reference field|Export shows the display name, but import cannot resolve it.|Add the field to `getDotWalkFields()`. The RTE target must use the same dot-walk path.|
+|Progress tracker stuck|Unhandled exception in `processAttachment`.|Check the system logs. The tracker automatically transitions to an error state when an exception is caught.|
+|Import rejects valid rows|Row fails validation logic|Check validateRow.|
+|GlideList values rejected|Dot-walk field format mismatch|Match dot-walk field format.|
+|Protected fields edited after removing sheet protection|Fields are still protected at the import set level|Ignored by import.|
 

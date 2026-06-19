@@ -2,6 +2,7 @@
 title: Purchasing from punchout or third-party suppliers
 description: Shoppers who are part of the punchout group can navigate to punchout or external third-party supplier sites from ShoppingHub or Employee Center and make purchases. They can view the third-party purchases in the My purchases page on ShoppingHub, and also view the shipment records received from the third-party sites.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/purch-punchout-third-party-supp.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -22,9 +23,9 @@ Shoppers who are part of the punchout group can view punchout or external third-
 -   **Suppliers** &gt; **Supplier sites**: Shoppers can select the **Supplier site** check box to filter their search for external or punchout suppliers.
 -   **Purchase directly from the supplier site** widget: Shoppers can view up to four external supplier cards here. If there are more than four external suppliers, they can view all by going to the complete list.
 
-For more information about the checkout experiences for shoppers based on whether they have installed Employee Center, Shopping Hub, or both, see [Shopper checkout experiences based on installed applications](../reference/ec-sh-checkout-flow.md).
+For more information about the checkout experiences for shoppers based on whether they have installed Employee Center, Shopping Hub, or both, see [Shopper checkout experiences based on installed applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ec-sh-checkout-flow.md).
 
-For more information on punchout groups and how to configure them as an admin, see [Configure punchout for third-party site purchases](../task/configure-supplier-punchout.md).
+For more information on punchout groups and how to configure them as an admin, see [Configure punchout for third-party site purchases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/configure-supplier-punchout.md).
 
 ## External suppliers on Employee Center
 
@@ -33,9 +34,9 @@ Shoppers who are part of the punchout group can also view punchout or external t
 -   **Purchase and Expense** &gt; **Quick links** &gt; **Purchase directly from supplier sites**.
 -   **Purchase and Expense** &gt; **Browse all** &gt; **Quick links** &gt; **Purchase directly from supplier sites**.
 
-Shoppers are redirected to the Supplier sites page, with all the punchout suppliers listed there. They can sort and search the list for specific suppliers. Selecting a supplier tile takes them to the external site for making the purchase. For more information about the checkout experiences for shoppers based on whether they have installed Employee Center, Shopping Hub, or both, see [Shopper checkout experiences based on installed applications](../reference/ec-sh-checkout-flow.md).
+Shoppers are redirected to the Supplier sites page, with all the punchout suppliers listed there. They can sort and search the list for specific suppliers. Selecting a supplier tile takes them to the external site for making the purchase. For more information about the checkout experiences for shoppers based on whether they have installed Employee Center, Shopping Hub, or both, see [Shopper checkout experiences based on installed applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/ec-sh-checkout-flow.md).
 
-For more information on Employee Center, see [Sourcing and Procurement Operations integration with Employee Center](employee-center-integration-psm.md).
+For more information on Employee Center, see [Sourcing and Procurement Operations integration with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/employee-center-integration-psm.md).
 
 ## Post checkout from external supplier sites
 
@@ -43,9 +44,9 @@ After successfully completing a checkout at an external third-party supplier sit
 
 Once the necessary approvals are received and the associated cases are completed, a purchase order is created by the procurement specialist. The same purchase order can also be viewed by the procurement admin in the external site in their order logs. The order confirmation and shipment confirmation details are received from the external supplier site as and when the order is processed. Shipment details are captured in the Shipment Details table by purchase lines.
 
-In case of an update to the order quantity or price at the external supplier end, the same is sent as a revision during order confirmation to SPO, which is then updated in SPO as a revision purchase requisition. For more information on purchase revision scenarios, see [Purchase revision flows](purchase-revision-flows.md).
+In case of an update to the order quantity or price at the external supplier end, the same is sent as a revision during order confirmation to SPO, which is then updated in SPO as a revision purchase requisition. For more information on purchase revision scenarios, see [Purchase revision flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/purchase-revision-flows.md).
 
-For information on emails triggered by the system, see [Alerts and email notifications from ShoppingHub](../reference/alerts-messages-email-notifications.md).
+For information on emails triggered by the system, see [Alerts and email notifications from ShoppingHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/alerts-messages-email-notifications.md).
 
 ## Troubleshooting errors
 

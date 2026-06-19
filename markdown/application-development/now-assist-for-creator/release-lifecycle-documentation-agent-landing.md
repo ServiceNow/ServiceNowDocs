@@ -2,13 +2,14 @@
 title: Release lifecycle documentation AI agent
 description: Automate documentation tasks across the app development lifecycle with the release lifecycle documentation AI agent, available with Now Assist for Creator.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/release-lifecycle-documentation-agent-landing.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use agentic AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use agentic AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Release lifecycle documentation AI agent
@@ -19,19 +20,19 @@ Automate documentation tasks across the app development lifecycle with the relea
 
 <table id="table_wwj_2z2_yhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how the release lifecycle documentation AI agent can help you to manage application development at scale.](exploring-release-lifecycle-documentation-agent.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how the release lifecycle documentation AI agent can help you to manage application development at scale.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-release-lifecycle-documentation-agent.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the release lifecycle documentation AI agent.](configure-release-lifecycle-documentation-ai-agent.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the release lifecycle documentation AI agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configure-release-lifecycle-documentation-ai-agent.md)
 
 </td></tr><tr><td>
 
-[Generate release notes![](../../../reuse/icons/brand-icons/bus-documentation.svg)Generate release notes.](../task/generate-release-notes.md)
+[Generate release notes\[Omitted image "bus-documentation.svg"\] Alt text:Generate release notes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-release-notes.md)
 
 </td><td>
 
-[Generate an update set description![](../../../reuse/icons/brand-icons/bus-start-developing.svg)Generate descriptions for local and remote update sets.](../task/generate-update-set-description.md)
+[Generate an update set description\[Omitted image "bus-start-developing.svg"\] Alt text:Generate descriptions for local and remote update sets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-update-set-description.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -57,16 +58,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which app generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which app generation was utilized. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
--   **[Exploring release lifecycle documentation agent](exploring-release-lifecycle-documentation-agent.md)**  
+-   **[Exploring release lifecycle documentation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/exploring-release-lifecycle-documentation-agent.md)**  
 Learn about how the release lifecycle documentation AI agent works to help you to manage application development at scale by generating useful, transparent documentation throughout the app lifecycle.
--   **[Configure release lifecycle documentation AI agent](configure-release-lifecycle-documentation-ai-agent.md)**  
+-   **[Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configure-release-lifecycle-documentation-ai-agent.md)**  
 Configure the release lifecycle documentation AI agent to start automating your app governance tasks.
--   **[Generate release notes](../task/generate-release-notes.md)**  
+-   **[Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-release-notes.md)**  
 Generate release notes to document app changes and versions over time.
--   **[Generate an update set description](../task/generate-update-set-description.md)**  
+-   **[Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/generate-update-set-description.md)**  
 Generate an update set description to quickly communicate the intent and scope of changes.
 
-**Parent Topic:**[Using agentic AI with Now Assist for Creator](../../now-assist-for-creator/concept/using-agentic-ai-now-assist-for-creator.md)
+**Parent Topic:**[Using agentic AI with Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/using-agentic-ai-now-assist-for-creator.md)
 

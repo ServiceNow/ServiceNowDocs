@@ -2,6 +2,7 @@
 title: Now Assist for Integrated Risk Management \(IRM\)
 description: Use the Now Assist for Integrated Risk Management \(IRM\) plugin to summarize issue records, identify potential risks, and review controls using generative AI. It helps you quickly understand the context of records, reduce manual effort, and make faster, more informed decisions by delivering relevant insights directly within your existing workflows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/now-assist-for-irm.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -20,15 +21,15 @@ Use the Now Assist for Integrated Risk Management \(IRM\) plugin to summarize is
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for IRM](exploring-now-assist-for-irm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/exploring-now-assist-for-irm.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for IRM application to get started](configure-now-assist-for-irm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for IRM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-now-assist-for-irm.md)
 
 </td><td>
 
-[Use IRM generative AI![](../../../reuse/icons/brand-icons/bus-supervised-machine-learning.svg)Use generative AI capabilities offered by Now Assist for IRM](using-now-assist-for-irm-to-summarize-issues.md)
+[Use IRM generative AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/using-now-assist-for-irm-to-summarize-issues.md)
 
 </td></tr><tr><td>
 
@@ -36,14 +37,14 @@ Use the Now Assist for Integrated Risk Management \(IRM\) plugin to summarize is
 
 </td><td>
 
-[Use agentic AI![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use the Now Assist for Integrated Risk Management AI agents to complete tasks autonomously.](use-agentic-ai-in-risk-sustainability.md)
+[Use agentic AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the Now Assist for Integrated Risk Management AI agents to complete tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/use-agentic-ai-in-risk-sustainability.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 **Important:**
 
@@ -68,7 +69,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 

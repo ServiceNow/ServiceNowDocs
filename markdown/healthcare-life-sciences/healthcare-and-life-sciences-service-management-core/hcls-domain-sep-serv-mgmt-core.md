@@ -2,6 +2,7 @@
 title: Domain separation and Healthcare and Life Sciences Service Management Core
 description: In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conref at the end that describes domain separation.Domain separation is supported for Healthcare and Life Sciences Service Management Core. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-domain-sep-serv-mgmt-core.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -25,11 +26,11 @@ Domain separation is supported for Healthcare and Life Sciences Service Manageme
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Healthcare and Life Sciences Service Management Core overview
 
-Domain separation is available in the [Healthcare and Life Sciences data model](hcls-serv-mgmt-core.md) that is compatible with the Health Level Seven International \(HL7\) industry standard including the Fast Healthcare Interoperability Resources \(FHIR\) standard. The Healthcare and Life Sciences Service Management Core application includes domain separation for data tables including Patient \[sn\_hcls\_patient\] table, Appointment \[sn\_hcls\_appointment\] table, Immunization \[sn\_hcls\_immunization\] table, and others. In addition, domain separation is available for transactional data like healthcare tasks and healthcare cases.
+Domain separation is available in the [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core.md) that is compatible with the Health Level Seven International \(HL7\) industry standard including the Fast Healthcare Interoperability Resources \(FHIR\) standard. The Healthcare and Life Sciences Service Management Core application includes domain separation for data tables including Patient \[sn\_hcls\_patient\] table, Appointment \[sn\_hcls\_appointment\] table, Immunization \[sn\_hcls\_immunization\] table, and others. In addition, domain separation is available for transactional data like healthcare tasks and healthcare cases.
 
 ## How domain separation works in Healthcare and Life Sciences Service Management Core
 
@@ -39,5 +40,5 @@ For customers using the Healthcare and Life Sciences Service Management Core app
 
 When healthcare providers have their healthcare data separated by domains, the healthcare requests and corresponding fulfillment tasks are associated with the respective customer domains.
 
-**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](../reference/hcls-serv-mgmt-core-reference.md)
+**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core-reference.md)
 

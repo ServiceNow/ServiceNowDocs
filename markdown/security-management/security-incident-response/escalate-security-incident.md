@@ -2,6 +2,7 @@
 title: Escalate a security incident
 description: If an escalation path exists for a security incident, the Escalate button is available in the security incident header.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/escalate-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -19,7 +20,7 @@ If an escalation path exists for a security incident, the Escalate button is ava
 
 Role required: sn\_si.admin
 
-You must have an escalation group created to see this button. See [Create a Security Operations user-defined escalation group](../../security-operations-common/task/create-user-defined-escalation-group.md) for more information.
+You must have an escalation group created to see this button. See [Create a Security Operations user-defined escalation group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/create-user-defined-escalation-group.md) for more information.
 
 ## Procedure
 

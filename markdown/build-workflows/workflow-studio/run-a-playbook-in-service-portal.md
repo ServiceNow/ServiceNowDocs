@@ -2,6 +2,7 @@
 title: Run a playbook in Service Portal
 description: Launch a playbook as a Service Portal requestor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/run-a-playbook-in-service-portal.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -29,13 +30,13 @@ Keep track of where you're at in an overall process more easily, and pause and r
 
 2.  In the home screen, search for the playbook and select it.
 
-    ![A Service Portal home screen](../images/service-portal-home-screen.png)
+    \[Omitted image "service-portal-home-screen.png"\] Alt text: A Service Portal home screen
 
     The playbook launches.
 
 3.  In the URL, you can apply the following properties to your playbook.
 
-    ![An example URL for a playbook in Service Portal](../images/portal-playbook-URL.png)
+    \[Omitted image "portal-playbook-URL.png"\] Alt text: An example URL for a playbook in Service Portal
 
     |Property|Description|Example|
     |--------|-----------|-------|
@@ -46,7 +47,7 @@ Keep track of where you're at in an overall process more easily, and pause and r
 
 4.  As you go through the playbook, you can open records and lists in a modal without needing to leave Service Portal, such as when you view a Knowledge Base article or a user record via the information icon.
 
-    ![Opening playbook modals in Service Portal](../images/portal-playbooks-modal.gif)
+    \[Omitted image "portal-playbooks-modal.gif"\] Alt text: Opening playbook modals in Service Portal
 
 
 |Error|Description|

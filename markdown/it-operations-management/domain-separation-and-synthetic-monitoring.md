@@ -2,6 +2,7 @@
 title: Domain separation and synthetic monitoring
 description: Domain separation is supported for synthetic monitoring. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/domain-separation-and-synthetic-monitoring.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -23,7 +24,7 @@ Domain separation is supported for synthetic monitoring. Domain separation enabl
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation and synthetic monitoring overview
 
@@ -39,10 +40,10 @@ Using domain separation in your instance is transparent to synthetic monitoring.
 
 When setting up Agent Client Collector \(ACC\) for non-hosted synthetic checks, each domain that supports non-hosted synthetics requires its own ACC cluster and MID Server. The ACC cluster and MID Server must be created in a leaf domain.
 
-**Parent Topic:**[Synthetic monitoring reference](synthetic-monitoring-reference.md)
+**Parent Topic:**[Synthetic monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/synthetic-monitoring-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

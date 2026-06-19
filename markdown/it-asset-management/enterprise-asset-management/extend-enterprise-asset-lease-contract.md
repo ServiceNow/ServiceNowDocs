@@ -2,6 +2,7 @@
 title: Extend the lease contract for an enterprise asset
 description: Extend the lease contract for an enterprise asset before it expires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/extend-enterprise-asset-lease-contract.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -17,7 +18,7 @@ Extend the lease contract for an enterprise asset before it expires.
 
 ## Before you begin
 
-Before you can proceed with extending a lease contract, you must complete the associated Planning task. See [Complete the Planning task for an expiring enterprise asset lease contract](complete-leased-asset-planning.md) for detailed instructions.
+Before you can proceed with extending a lease contract, you must complete the associated Planning task. See [Complete the Planning task for an expiring enterprise asset lease contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
@@ -188,13 +189,13 @@ Notes about the task that are visible to all users within your organization.
 
         The Extension confirmation task opens.
 
-        **Note:** Aside from the **State** field and the additional **Extension confirmation** field, all editable fields in the Extension confirmation task are pre-populated based on the corresponding fields that you filled out in the Extension task. The **Purchase order** and **Purchase order line** fields are pre-populated with the purchase order and purchase order line that the Enterprise Asset Management application automatically created for the lease contract extension in the [Planning task](complete-leased-asset-planning.md).
+        **Note:** Aside from the **State** field and the additional **Extension confirmation** field, all editable fields in the Extension confirmation task are pre-populated based on the corresponding fields that you filled out in the Extension task. The **Purchase order** and **Purchase order line** fields are pre-populated with the purchase order and purchase order line that the Enterprise Asset Management application automatically created for the lease contract extension in the [Planning task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.md).
 
     2.  In the Extension details section of the **Details** tab, set the **Extension confirmation** field to **Yes**.
 
         This field indicates if the lease contract was extended successfully.
 
-    3.  In the same section, select the Open Record icon \(![Open record icon.](../image/open-record-icon.png)\) in the **Purchase order** field.
+    3.  In the same section, select the Open Record icon \(\[Omitted image "open-record-icon.png"\] Alt text: Open record icon.\) in the **Purchase order** field.
 
         The purchase order record opens.
 
@@ -215,5 +216,5 @@ Notes about the task that are visible to all users within your organization.
 
 After you successfully extend the lease contract, the **Expiration** field on the lease contract record changes to **Expired**. The Enterprise Asset Management application then creates a new record for the extended lease contract, which is named **EXT\_&lt;_expired-lease-contract_&gt;**. The new lease contract record covers all of the same enterprise assets that were covered in the original lease contract record.
 
-**Parent Topic:**[Managing expiring contracts for leased enterprise assets](../concept/managing-expiring-contracts-leased-assets.md)
+**Parent Topic:**[Managing expiring contracts for leased enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-expiring-contracts-leased-assets.md)
 

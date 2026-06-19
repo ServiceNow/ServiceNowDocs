@@ -2,6 +2,7 @@
 title: Submit a vulnerability scan request from a security incident
 description: If your security incident has one or more configuration items \(servers, computers, and so on\), they can be scanned for vulnerabilities from the Security Incident Response form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_SubmitVScanReqFromSecInc.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Role required: sn\_si.write
 
 ## Procedure
 
-1.  [Create a security incident](../concept/si-manual-creation.md) and include at least one resource.
+1.  [Create a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/si-manual-creation.md) and include at least one resource.
 
     You can also open an existing incident that has configuration items.
 
@@ -39,7 +40,7 @@ Role required: sn\_si.write
 
     A message appears at the top of the security incident form, along with a link to the scan record.
 
-    ![Scan request with link](../image/ScanRequest.png)
+    \[Omitted image "ScanRequest.png"\] Alt text: Scan request with link
 
 4.  You can Select the scan request number to view the scan record.
 

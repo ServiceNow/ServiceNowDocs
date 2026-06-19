@@ -2,6 +2,7 @@
 title: Edit decision tables using draft authoring
 description: Edit published decision tables in Workflow Studio when draft authoring is enabled. Without draft authoring enabled, decision tables are active and available to use as soon as they're created.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/edit-decision-tables-using-draft-authoring.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -52,5 +53,5 @@ To enable draft authoring for existing tables, ensure the decision table has no 
 8.  Select **Publish**.
 
 
-**Parent Topic:**[Using decision tables](../concept/using-decision-builder.md)
+**Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/using-decision-builder.md)
 

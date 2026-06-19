@@ -2,6 +2,7 @@
 title: Set a default assignment group on the team calendar
 description: Set an assignment group as default to readily access them on the team calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/configure-default-agent-group.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -27,7 +28,7 @@ Whenever you log in to the team calendar, agents in the default assignment group
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Manager** &gt; **Workforce**.
 
-2.  Select the settings icon.\(![Dispatcher Workspace settings icon](../image/fsm-dsw-settings-icon.png)\)
+2.  Select the settings icon.\(\[Omitted image "fsm-dsw-settings-icon.png"\] Alt text: Dispatcher Workspace settings icon\)
 
 3.  In the Default Group list, select a group that you would like to set as default.
 

@@ -2,6 +2,7 @@
 title: Set improvement opportunities
 description: Set improvement opportunities to find areas of improvement by which teams could optimize a process. You can either select from a list of rules available to you or set your own rules. Based on the rules set by you, you can view your areas of improvement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/improve-opportunities.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -42,13 +43,13 @@ There are two types of improvement opportunities that could be set up:
 
     The Improvement opportunity definition page is displayed. This page displays all the improvement opportunities definitions that are available. You can find the definition of each improvement opportunity along with an illustration and example.
 
-    ![Improvement opportunity definition](../image/imp-opp-def.png)
+    \[Omitted image "imp-opp-def.png"\] Alt text: Improvement opportunity definition
 
 5.  Select **Create** on any of the cards to create an improvement opportunity of that type.
 
-    For more information on rule-based improvement opportunity, see [Set rule-based improvement opportunity](rule-based-builder.md).
+    For more information on rule-based improvement opportunity, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/rule-based-builder.md).
 
-    For more information on automated improvement opportunity, see [Setting Automated improvement opportunities](../concept/automated-findings.md).
+    For more information on automated improvement opportunity, see [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md).
 
 6.  To edit an improvement opportunity, select the improvement opportunity and edit the details.
 
@@ -56,12 +57,12 @@ There are two types of improvement opportunities that could be set up:
 
 8.  To select an improvement opportunity from the library, select **Add from library**, and then select an improvement opportunity.
 
-    These rules are available from the table configuration. If there are improvement opportunities configured for the table you have selected for your project, then you see those findings in the library. For information about table configuration, see [Create process configuration using Classic view](create-process-config.md).
+    These rules are available from the table configuration. If there are improvement opportunities configured for the table you have selected for your project, then you see those findings in the library. For information about table configuration, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-process-config.md).
 
     **Note:** You can have a maximum of 15 automated improvement opportunities for a project.
 
 9.  Select **Review and mine**.
 
 
-**Parent Topic:**[Create a project or template using Project Builder](define-workflow-model.md)
+**Parent Topic:**[Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/define-workflow-model.md)
 

@@ -2,11 +2,12 @@
 title: Disable embedded HTML code \[Updated in Security Center 1.3\]
 description: Use the glide.ui.security.allow\_codetag property to disable support for embedding HTML code created using the \[code\] tag.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-allow-embedded-html-code.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-15"
 reading_time_minutes: 2
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
@@ -17,9 +18,9 @@ Use the **glide.ui.security.allow\_codetag** property to disable support for emb
 
 Disable support for displaying HTML code embedded using the `[code]` tag. This tag allows rendered HTML to display in journal fields and may lead to cross-site scripting \(XSS\) attacks. These attacks can enable foreign scripts to execute on a user session in the logged in browser's context. Attackers can use these scripts to steal session information and sensitive data. The HTML language was not designed to separate script from formatting, so allowing user-controlled HTML in any system has inherent risk.
 
-Setting the **glide.ui.security.codetag.allow\_script** to **false** is compliant, and significantly reduces this risk, however some small risk remains. It disables only the script portion of a `code` tag, and relies on sanitizing all known conventions of script in the HTML.
+If setting **glide.ui.security.allow\_codetag** to `false` disrupts instance functionality, for example, if your instance uses a feature that relies on HTML rendering in journal fields, you can maintain a compliant security posture by keeping **glide.ui.security.allow\_codetag** set to `true` and setting **glide.ui.security.codetag.allow\_script** to `false`. This change disables script execution within `[code]` tags while preserving HTML rendering. Note that this approach carries some residual risk, as it relies on sanitizing all known script conventions within HTML rather than prohibiting HTML code tags entirely.
 
-Set the **glide.ui.security.allow\_codetag** system property to **false** to completely prohibit journal fields and forms from displaying rendered HTML.
+Set the **glide.ui.security.allow\_codetag** system property to `false` to completely prohibit journal fields and forms from displaying rendered HTML.
 
 The ServiceNow AI Platform mitigates many injection and cross-site attacks by implementing escaping and encoding techniques. As a result, users can't write/submit HTML formatted inputs for journal fields. But journal fields can render text enclosed within code tags as HTML.
 
@@ -58,7 +59,7 @@ Category
 
 </td><td>
 
-[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -108,7 +109,9 @@ Functional impact
 
 This remediation enforces HTML encoding to occur on the UI and renders the encoded results to the user. This property is set to `true` by default. In this state, your instance displays rendered HTML in journal fields and forms.
 
-If this property is set to `false`, HTML is not rendered properly and HTML tags may appear in journal fields on forms. It can have an adverse impact on functionality, and on user interactions with the resulting data.
+ If this property is set to `false`, HTML is not rendered properly and HTML tags may appear in journal fields on forms. It can have an adverse impact on functionality, and on user interactions with the resulting data.
+
+ If this property negatively affects functionality, set **glide.ui.security.codetag.allow\_script** to `false` to disable script execution within `[code]` tags while preserving HTML rendering.
 
 </td></tr><tr><td>
 
@@ -119,5 +122,5 @@ Security risk
 \(Medium\) Input validation must occur in the application to defend against cross-site scripting attacks. These attacks enable foreign scripts to execute on a user session in the logged in browser's context. Attackers can use it to steal session information and sensitive data.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

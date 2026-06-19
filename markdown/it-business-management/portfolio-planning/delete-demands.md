@@ -2,6 +2,7 @@
 title: Delete demands
 description: Delete demands to remove them from Next Experience for Demand Management. Demands can be deleted only while in the Pending state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/delete-demands.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -29,11 +30,11 @@ If a project is already created from a demand, its reference is removed from the
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
-3.  Select **Delete** from the More Actions option.![Use the Delete button to delete a demand.](../../spw-demand/images/demand-delete.png)
+3.  Select **Delete** from the More Actions option.\[Omitted image "demand-delete.png"\] Alt text: Use the Delete button to delete a demand.
 
 4.  Select **OK** to delete the demand.
 

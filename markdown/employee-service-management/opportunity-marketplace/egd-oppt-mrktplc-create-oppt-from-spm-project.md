@@ -2,6 +2,7 @@
 title: Create opportunities in Opportunity Marketplace by importing projects from Project Workspace
 description: Import details from a Project Workspace project file to create a related opportunity in Opportunity Marketplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-create-oppt-from-spm-project.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -23,7 +24,7 @@ Role required: Must be a licensed OPM user and have the \[sn\_ppm\_read\] and \[
 
 ## About this task
 
-You must have Project Workspace installed and configured to create opportunities from project files. See, [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-landing-page.md).
+You must have Project Workspace installed and configured to create opportunities from project files. See, .
 
 ## Procedure
 
@@ -132,7 +133,7 @@ Attachments can include related information such department details of the team 
 
         User criteria control who can view opportunities. Leaving this field empty, enables everyone in your organization to see the opportunity. Select user groups to restrict access to the members of the selected groups.
 
-        For information about creating user groups, see [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_CreateAGroup.md).
+        For information about creating user groups, see .
 
 8.  Select **Next**.
 
@@ -140,7 +141,7 @@ Attachments can include related information such department details of the team 
 
 10. Fill in the form with the role details.
 
-    To read more details about the role form and fields, see [Form fields for creating opportunities in Opportunity Marketplace](../reference/egd-oppt-mrktplc-oppty-form-fields.md).
+    To read more details about the role form and fields, see [Form fields for creating opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-oppty-form-fields.md).
 
 11. Select **Add role to team**.
 
@@ -153,5 +154,5 @@ Attachments can include related information such department details of the team 
 14. When you’re satisfied with your opportunity, select **Publish**.
 
 
-**Parent Topic:**[Use Opportunity Marketplace](../concept/egd-oppt-mrktplc-using.md)
+**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
 

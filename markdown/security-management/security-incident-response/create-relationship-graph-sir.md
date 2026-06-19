@@ -2,6 +2,7 @@
 title: Create a relationship graph for an incident
 description: Create a node relationship graph in Security Incident Response so you can better analyze a security incident by correlating it with malicious observables, configuration items \(CIs\), similar security incidents \(SIRs\), response tasks, and other related information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-relationship-graph-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -21,7 +22,7 @@ Role required: sn\_si.analyst
 
 ## About this task
 
-For information about how to create a customized relationship graph rather than using a predefined graph, see [Customize a relationship graph](create-relationship-graph-config.md).
+For information about how to create a customized relationship graph rather than using a predefined graph, see [Customize a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-relationship-graph-config.md).
 
 **Note:** Changes to the relationship graph aren’t saved automatically.
 
@@ -63,16 +64,16 @@ For information about how to create a customized relationship graph rather than 
 
 12. Download the map to your system.
 
-    1.  If only a portion of the map is visible on the screen and you want the whole screen to be included in the PDF, select the Fit to screen icon \(![Fit to screen icon](../image/fit-to-screen-sir.png)\).
+    1.  If only a portion of the map is visible on the screen and you want the whole screen to be included in the PDF, select the Fit to screen icon \(\[Omitted image "fit-to-screen-sir.png"\] Alt text: Fit to screen icon\).
 
         **Note:** Only the portion of the map that appears on the screen is included in the PDF file.
 
-    2.  Select the export map icon \(![Export relationship graph icon](../image/export-node-graph-icon.png)\).
+    2.  Select the export map icon \(\[Omitted image "export-node-graph-icon.png"\] Alt text: Export relationship graph icon\).
 
 
 ## Video showing how to edit a relationship graph to add category nodes and subnodes
 
 Video showing how to create a relationship node graph for an incident 
 
-**Parent Topic:**[Viewing incident details with a relationship graph](../concept/sir-relationship-graph.md)
+**Parent Topic:**[Viewing incident details with a relationship graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-relationship-graph.md)
 

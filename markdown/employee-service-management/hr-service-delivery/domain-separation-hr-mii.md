@@ -2,6 +2,7 @@
 title: Domain Separation guidelines for HR Multi Instance Integration
 description: Review these domain separation guidelines before using the HR Multi Instance Integration application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/domain-separation-hr-mii.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

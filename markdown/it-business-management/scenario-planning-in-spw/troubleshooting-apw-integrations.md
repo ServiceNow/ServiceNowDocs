@@ -2,6 +2,7 @@
 title: Managing Strategic Planning with Project Portfolio Management, Agile Development 2.0, and SAFe
 description: Ensure that Strategic Planning is integrated properly with PPM, Agile Development 2.0, and SAFe with these guidelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/troubleshooting-apw-integrations.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
@@ -32,7 +33,7 @@ Ensure that Strategic Planning is integrated properly with PPM, Agile Developmen
 
 -   A **Primary goal** field is introduced to the projects, demands, and epics table maps to support the integration of the **Goal** field between alignment and execution tables.
 -   When you are trying to import or export a project, ensure that the demands \(that are a part of that project\) are synced.
--   You can create a table map for any execution table. If a table map is not created from one of the delivered tables \(pm\_portfolio, rm\_epic, dmn\_demand, pm\_project\) or does not extend from them, you are required to create a business rule to support the interfacing of the table map records. For more information on creating a business rule, see [Create a business rule to apply a custom table map configuration](../../apw-internal-integrations/task/create-a-bussiness-rule.md).
+-   You can create a table map for any execution table. If a table map is not created from one of the delivered tables \(pm\_portfolio, rm\_epic, dmn\_demand, pm\_project\) or does not extend from them, you are required to create a business rule to support the interfacing of the table map records. For more information on creating a business rule, see [Create a business rule to apply a custom table map configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/create-a-bussiness-rule.md).
 
-**Parent Topic:**[Strategic Planning Workspace reference](../../alignment-planner-workspace/reference/alignment-planner-workspace-reference.md)
+**Parent Topic:**[Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md)
 

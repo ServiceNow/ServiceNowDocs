@@ -2,6 +2,7 @@
 title: Allow import and export of attachments on a custom Agile Development 2.0 table
 description: Enable import and export of attachments between Jira and Agile Development 2.0 for a custom Agile 2.0 table that you added to the map configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/jira-allow-import-and-export-of-attachments-on-custom-table-maps.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -36,5 +37,5 @@ Role required: admin or sn\_jira\_int.admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Customizing map configuration for your Jira projects](../reference/custom-map-configuration.md)
+**Parent Topic:**[Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md)
 

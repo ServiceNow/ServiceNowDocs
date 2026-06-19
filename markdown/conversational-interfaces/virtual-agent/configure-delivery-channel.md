@@ -2,6 +2,7 @@
 title: Configure a delivery channel for Virtual Agent notification
 description: Configure a delivery channel for Virtual Agent notifications by specifying the messaging channel information to send notifications to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-delivery-channel.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -23,9 +24,9 @@ Role required: virtual\_agent\_admin
 
 ## About this task
 
-Use the delivery channel to support multiple channels for the same notification content. The procedure to configure delivery channels depends on the channel type. There are two notification channel types: Messaging channels and chat channels. For more information about channels, see [Channels in Conversational Interfaces](../../conversational-interfaces/concept/ci-channels-overview.md).
+Use the delivery channel to support multiple channels for the same notification content. The procedure to configure delivery channels depends on the channel type. There are two notification channel types: Messaging channels and chat channels. For more information about channels, see [Channels in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-channels-overview.md).
 
-Delivery channels are also part of multiple active conversations in Virtual Agent. See [Route Virtual Agent NLU notifications through multiple portals](t_route-va-notifications-multiple-portals.md) for more information.
+Delivery channels are also part of multiple active conversations in Virtual Agent. See [Route Virtual Agent NLU notifications through multiple portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/t_route-va-notifications-multiple-portals.md) for more information.
 
 ## Procedure
 
@@ -40,7 +41,7 @@ Delivery channels are also part of multiple active conversations in Virtual Agen
     -   To update delivery channels for messaging content, select **New** in the Delivery Channels related list.
     -   To update delivery channels for chat content, select the **Add/Remove multiple** option in the Delivery Channels related list.
 
-        ![The Add/Remove multiple icon is highlighted next to Delivery channels on the Channels tab.](../images/VA-channels-button.png)
+        \[Omitted image "VA-channels-button.png"\] Alt text: The Add/Remove multiple icon is highlighted next to Delivery channels on the Channels tab.
 
         Use the arrows to add or remove specific delivery channels from your Selected Delivery Channels list. When you've defined all applicable delivery channels, select **Save**.
 
@@ -60,5 +61,5 @@ Delivery channels are also part of multiple active conversations in Virtual Agen
 6.  Select **Submit** \(new notification records\) or **Update** \(existing notification records\).
 
 
-**Parent Topic:**[Configuring Virtual Agent notifications](../concept/configuring-va-notifications.md)
+**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 

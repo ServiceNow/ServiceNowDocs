@@ -2,6 +2,7 @@
 title: Synchronize Docusign with ServiceNow
 description: Synchronize ServiceNow with Docusign to access Docusign accounts, templates, and envelopes from the Docusign spoke.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sync-docusign-servicenow.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -21,7 +22,7 @@ Role required: admin
 
 -   Request IntegrationHub subscription
 -   Activate Docusign spoke
--   [Set up Docusign eSignature spoke using JWT grant](setup-docusign-jwt.md#)
+-   [Set up Docusign eSignature spoke using JWT grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-jwt.md)
 
 ## About this task
 

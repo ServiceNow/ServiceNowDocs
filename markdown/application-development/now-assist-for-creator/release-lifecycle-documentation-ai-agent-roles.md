@@ -2,13 +2,14 @@
 title: Roles required for using the release lifecycle documentation AI agent
 description: Learn about which roles are required for using the release lifecycle documentation AI agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/release-lifecycle-documentation-ai-agent-roles.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
 last_updated: "2026-04-01"
 reading_time_minutes: 1
-breadcrumb: [Configure, Release lifecycle documentation AI agent, Use agentic AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, Release lifecycle documentation AI agent, Use agentic AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Roles required for using the release lifecycle documentation AI agent
@@ -48,5 +49,5 @@ sn\_releaseops.release\_notes\_user
 Grants access to generate and view release notes within ReleaseOps.**Note:** The releaseops\_admin role also includes the release\_notes\_user role. Assigning the releaseops\_admin role is sufficient for using the release lifecycle documentation AI agent, if the user already needs full ReleaseOps admin access.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure release lifecycle documentation AI agent](../concept/configure-release-lifecycle-documentation-ai-agent.md)
+</table>**Parent Topic:**[Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/configure-release-lifecycle-documentation-ai-agent.md)
 

@@ -2,12 +2,13 @@
 title: Release and Deployment Advisory for Pro-code Development
 description: The Release and Deployment Advisory for Pro-code Development Accelerator provides guidance to assist pro-code developers in tools and techniques to release and deploy ServiceNow application configurations and customizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/release-deployment-advisory-pro-code-development.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
@@ -19,7 +20,9 @@ The Release and Deployment Advisory for Pro-code Development Accelerator provide
 
 This Accelerator provides you with a review and guidance on your release and deployment processes and methods for a selected set of applications including either ServiceNow sourced applications or custom-developed applications. Your Impact Squad provides guidance based on your responses to an intake questionnaire and a collaborative Discovery working session that reviews your current state for two selected applications.
 
-**Note:** This Accelerator is available in Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
 ## What you get
 

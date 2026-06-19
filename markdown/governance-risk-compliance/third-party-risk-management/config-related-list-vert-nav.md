@@ -2,11 +2,12 @@
 title: Configure related lists for vertical navigation on record pages
 description: Configure the related lists that appear in the vertical navigation layout on record pages in the Vendor Management Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/config-related-list-vert-nav.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -49,7 +50,7 @@ The following related list tables can be configured for display in the vertical 
 |Third-party|Company \[core\_company\]|
 |Vendor contacts|Vendor Contact \[vm\_vdr\_contact\]|
 
-For more information about related lists, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_RelatedLists.md).
+For more information about related lists, see .
 
 ## Procedure
 
@@ -83,12 +84,11 @@ For more information about related lists, see [Related lists](https://raw.github
 
     This step makes the related list available to the workspace but does not add it to the vertical navigation.
 
-3.  Navigate to the vertical navigation configuration table.
+3.  Navigate to the vertical navigation configuration table using one of the following options.
 
-    1.  In the Application Navigator \(All\), enter `sn_rec_pg_vertical_view_config.list`.
-
-    2.  Select **VRM vertical nav configuration**.
-
+    -   -   In the Application Navigator \(All\), enter `sn_rec_pg_vertical_view_config.list`.
+-   Select **VRM vertical nav configuration**.
+    -   **All** &gt; **Third-party Risk Management** &gt; **Administration** &gt; **Vertical layout configuration**.
     This table defines which related lists appear in the vertical navigation for workspace record pages.
 
 4.  Create or update a vertical navigation entry.

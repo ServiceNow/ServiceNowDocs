@@ -2,6 +2,7 @@
 title: Activate Workforce Optimization for ITSM
 description: The Workforce Optimization for ITSM Configurable Workspace plugin \(sn\_wfo\_cfg\_itsm\) is available with the ITSM Enterprise subscription package.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 <table id="table_vgp_3dq_n4b"><thead><tr><th>
 
@@ -45,7 +46,7 @@ MetricBase \(com.snc.clotho\)
 
 </td><td>
 
-Enables you to use Demand Forecast in Workforce Optimization for ITSM.To use Demand Forecast, you must activate the MetricBase plugin before you activate the Workforce Optimization for ITSM plugin. For more information, see [Request the MetricBase product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/metricbase/request-metricbase.md).
+Enables you to use Demand Forecast in Workforce Optimization for ITSM.To use Demand Forecast, you must activate the MetricBase plugin before you activate the Workforce Optimization for ITSM plugin. For more information, see Request the MetricBase product.
 
  When you activate both of these plugins, the Agent Forecast plugin \(com.sn\_agent\_forecast\) is activated.
 
@@ -131,8 +132,8 @@ Enables you to assess your teams' abilities to resolve incidents efficiently.
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 
-**Parent Topic:**[Getting started with Workforce Optimization for ITSM](../concept/getting-started-workforce-optimization-itsm.md)
+**Parent Topic:**[Getting started with Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/getting-started-workforce-optimization-itsm.md)
 

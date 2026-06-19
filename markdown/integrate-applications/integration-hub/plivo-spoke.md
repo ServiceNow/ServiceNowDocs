@@ -2,6 +2,7 @@
 title: Plivo Spoke
 description: Enable communications with your customers using the Plivo platform from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/plivo-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Enable communications with your customers using the Plivo platform from your Ser
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Plivo spoke v1.2.0 is the latest version.
+Plivo spoke v1.3.0 is the latest version.
 
 ## Supported versions
 
@@ -60,7 +61,7 @@ While customizing subflows, you must ensure that the subflows are configured to 
 
 **Note:**
 
--   You must configure webhooks to use the spoke subflow. See [Set up a bi-directional webhook for the Plivo spoke](../task/setup-plivo-webhook.md#) for information regarding setting up and configuring the webhook.
+-   You must configure webhooks to use the spoke subflow. See [Set up a bi-directional webhook for the Plivo spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-plivo-webhook.md) for information regarding setting up and configuring the webhook.
 -   The sample subflow runs as a user by default. The subflow can be configured to run as system.
 
 ## Spoke actions
@@ -115,7 +116,7 @@ Routing policies and subflows support these Plivo fields:
 -   To Number
 -   Show Related Fields
 
-Create routing policy in the Plivo WebHook Routing Policies module and specify conditions as per your requirement. See [Set up a bi-directional webhook for the Plivo spoke](../task/setup-plivo-webhook.md#) for information regarding setting up and configuring the webhooks.
+Create routing policy in the Plivo WebHook Routing Policies module and specify conditions as per your requirement. See [Set up a bi-directional webhook for the Plivo spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-plivo-webhook.md) for information regarding setting up and configuring the webhooks.
 
 ## Spoke user roles
 
@@ -123,7 +124,7 @@ The Plivo spoke provides a Plivo Admin \(sn\_plivo\_spoke.Plivo\_Admin\) role.
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
-For information about setting up the spoke, see [Set up the Plivo spoke](../task/plivo-setup.md#).
+For information about setting up the spoke, see [Set up the Plivo spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/plivo-setup.md).
 

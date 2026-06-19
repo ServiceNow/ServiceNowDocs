@@ -2,11 +2,14 @@
 title: Generate a certificate
 description: Generate a certificate to use with the Discovery Console for OT or upload your own certificates. This certificate allows the Console to boot up.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/generate-new-certificate-discovery-for-ot.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Console for OT, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Generate a certificate
@@ -21,27 +24,29 @@ Role required: admin
 
 ## About this task
 
-After the Discovery Console for OT is installed, there are default, preloaded certificates that allow the Console to power up. However, following this initial boot, it is recommended that you use the Console to generate a new CA. This task describes how to generate a new Console certificate for the Discovery Console for OT.
+After the Discovery Console for OT is installed, there are default, preloaded certificates that power up the Console. However, following this initial boot, it's recommended that you use the Console to generate a new Certificate Authority \(CA\). This task describes your options for generating the Console CA.
 
-![Generate certificate](../images/settings-certificate.png)
+\[Omitted image "settings-certificate-download.png"\] Alt text: Console certificate
+
+**Note:** You can also select the link **Download Console Certificate Bundle \(.zip\)**. See the table for more information on this option.
 
 ## Procedure
 
 1.  Navigate to the Discovery Console for OT **Settings &gt; Certificate** tab.
 
-2.  Generate a new bundle or upload an existing bundle.
+2.  Generate a new bundle, upload an existing bundle.
 
-    **Note:** You are not obligated to use the ServiceNow provided certificates and you may choose to use your own.
+    **Note:** You're not obligated to use the ServiceNow provided certificates and you may choose to use your own.
 
-<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d29339e110">
+<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d29379e113">
 
 Option
 
-</th><th align="left" id="d29339e113">
+</th><th align="left" id="d29379e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29339e119">
+</th></tr></thead><tbody><tr><td id="d29379e122">
 
 **Generate a new bundle**
 
@@ -51,7 +56,7 @@ Description
 2.  Select the **Generate Bundle** button.
 
 
-</td></tr><tr><td id="d29339e146">
+</td></tr><tr><td id="d29379e149">
 
 **Upload an existing bundle**
 
@@ -59,9 +64,17 @@ Description
 
 1.  Under **Update Certificate**, select **Upload Bundle \(.p12\)**.
 2.  Use the **Choose File** button and select the bundle to upload.
-3.  If needed, enter a **Bundle Password**.
+3.  Enter a **Bundle Password**.
 4.  Select the **Upload Bundle** button.
 
+
+</td></tr><tr><td id="d29379e188">
+
+**Download Console Certificate Bundle \(.zip\)**
+
+</td><td>
+
+The bundle contains the Console's Certificate and the web browser certificate. These certificates establish trust between these applications and confirm their communications are secure and encrypted.
 
 </td></tr></tbody>
 </table>    **Note:** Generating or uploading a certificate also updates any current certificates.

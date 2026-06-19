@@ -2,10 +2,11 @@
 title: Roles installed with Operational Resilience
 description: Several types of roles are installed with the Operational Resilience application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/roles-installed-with-op-res.html
 release: australia
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-05-30"
+reading_time_minutes: 5
 breadcrumb: [Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -289,6 +290,8 @@ IRM
     -   IRM Lite application: app-grc-business-user-lite \(Plugin id: com.sn\_grc\_lite\)​
 -   The sn\_oper\_res.admin, sn\_oper\_res.manager, and sn\_oper\_res.user roles are included in IRM.
 
+**Note:** Starting with Operational Resilience, version 22.3.1, the sn\_grc.reader, sn\_grc.manager, and sn\_grc.admin roles require the IRM Professional plugins and are no longer granted through BCM Professional. If you previously accessed these roles through BCM Professional, you can use them only after the IRM Professional plugins are installed.
+
 ## Roles required for accessing the Workspaces
 
 A user with one of the following roles can access the Operational Resilience Workspace and BCM Configurable Workspace:
@@ -307,7 +310,7 @@ A user with one of the following roles can access the Risk Workspace:
 
 -   sn\_risk\_workspace.business\_op\_risk\_manager​
 -   sn\_risk\_workspace.IT\_risk\_manager​
--   sn\_risk\_workspace.operatonal\_risk\_manager​
+-   sn\_risk\_workspace.operational\_risk\_manager​
 
 A user with one of the following roles can access the Compliance Workspace:
 
@@ -335,13 +338,17 @@ For BCM Professional, the following mandatory applications are installed with Op
 -   Data Relationships Framework \(com.sn\_app\_grc\_relationship\_config\)
 -   Optional: Vulnerability Response \(com.snc.vulnerability\)
 
+**Note:** BCM Professional customers cannot install the IRM plugins. As a result, the sn\_grc.reader, sn\_grc.manager, and sn\_grc.admin roles are not available with BCM Professional. To obtain these roles, install the IRM Professional plugins as described in the "Plugin dependencies for IRM Professional" section. User can perform the same Operational Resilience operations previously available through sn\_grc.reader, sn\_grc.manager, and sn\_grc.admin roles via feature roles.
+
 ## Plugin dependencies for IRM Professional
 
-For IRM Professional, the following mandatory applications are installed with Operational Resilience.
+For IRM Professional, the following applications are required and must be installed manually with Operational Resilience.
 
 -   Advanced Risk Assessment \(com.sn\_risk\_advanced\)
 -   Data Relationships Framework \(com.sn\_app\_grc\_relationship\_config\)
 -   Policy and Compliance Management \(com.sn\_compliance\)
 -   Risk Management \(com.sn\_risk\)
 -   Optional: Vulnerability Response \(com.snc.vulnerability\)
+
+**Note:** Installing the IRM Professional plugins also grants the sn\_grc.reader, sn\_grc.manager, and sn\_grc.admin roles.
 

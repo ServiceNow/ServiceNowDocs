@@ -2,6 +2,7 @@
 title: Threat Event
 description: An event or situation that has the potential for causing undesirable consequences or impact.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/threat-event.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -17,8 +18,8 @@ An event or situation that has the potential for causing undesirable consequence
 
 A hacker attacking a website is a threat event. If the hackers manage to damage any website or steal information, that would be defined as a threat event.
 
--   **[Define Threat Event](../task/define-threat-event.md)**  
+-   **[Define Threat Event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/define-threat-event.md)**  
 Define a threat event when an event that results in unauthorized access to and acquisition of nonpublic information or the disruption or misuse of any information system.
 
-**Parent Topic:**[Threat Entities](tisc-threat-entities.md)
+**Parent Topic:**[Threat Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-threat-entities.md)
 

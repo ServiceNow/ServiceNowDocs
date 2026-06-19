@@ -2,6 +2,7 @@
 title: Resolve ACH disputes with AI agents
 description: Use AI agents to streamline ACH dispute resolution in Now Assist for FSO.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/now-assist-for-financial-services-operations-fso/resolve-ach-disputes-with-ai-agents.html
 release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
@@ -44,7 +45,7 @@ If this configuration isn’t enabled, the dispute agent must manually assign ea
     -   **Apply Recommendation**: The dispute agent selects this option to agree with the recommended analysis of the AI agent. The task closes and navigates to the next task.
     -   **Ask a follow up**: The dispute agent selects this option only if they aren’t sure about the analysis done and want to verify further. The analysis is then displayed in the Now Assist panel.
 
-        Select the Now Assist panel icon \(![now assist panel icon](../../../common/image/icon-ai-sparkle.png)\) and open the active chat for the disputed transaction.
+        Select the Now Assist panel icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: now assist panel icon\) and open the active chat for the disputed transaction.
 
         **Note:** If the dispute agent disagrees with the analysis, then a rationale is prompted by the AI agent for the disagreement. On providing a valid rationale, the task proceeds to the next task.
 
@@ -52,21 +53,21 @@ If this configuration isn’t enabled, the dispute agent must manually assign ea
 
     You can continue working on the tasks as you interact with the AI agent.
 
-    For information about how to resolve ACH disputes, see [Resolving ACH disputes](../../fso-card-operations/concept/work-dispute-ach.md).
+    For information about how to resolve ACH disputes, see [Resolving ACH disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/work-dispute-ach.md).
 
 
 ## Result
 
 Based on the resolution steps that the dispute agent selects, the dispute is either resolved or navigates to the next step of the dispute resolution.
 
--   **[Merchant analysis with AI agent](merchant-analysis-ai.md)**  
+-   **[Merchant analysis with AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/merchant-analysis-ai.md)**  
 The Merchant analysis for disputes AI agent checks the credibility of the merchant in the context of the dispute, based on ratings and reviews from web search. If a web search returns no results for a merchant, then the merchant is classified as not credible.
--   **[Evaluate Nacha operating guidelines with AI agent](nacha-guidelines-ai.md)**  
+-   **[Evaluate Nacha operating guidelines with AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/nacha-guidelines-ai.md)**  
 The Nacha operating guidelines check AI agent verifies if a disputed ACH transaction qualifies for return under Nacha rules by checking required documents such as a valid Written Statement of Unauthorized Debit \(WSUD\) and ensuring actions occur within allowed time frames.
--   **[Review ACH dispute return recommendation](recommendation-ai.md)**  
+-   **[Review ACH dispute return recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/recommendation-ai.md)**  
 The ACH dispute return recommendation AI agent analyzes disputed transactions based on merchant analysis and Nacha eligibility. The agent recommends actions based on historical data, and applies predefined rules when data is limited.
--   **[Dispute communication AI agent](dispute-communication-ai.md)**  
+-   **[Dispute communication AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/dispute-communication-ai.md)**  
 The Dispute communication AI agent automatically picks the appropriate email template for customer communication, including outcomes, denials, and follow-ups based on the transaction details.
 
-**Parent Topic:**[ACH dispute AI agents overview](../concept/ach-agentic-ai-workflow.md)
+**Parent Topic:**[ACH dispute AI agents overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/ach-agentic-ai-workflow.md)
 

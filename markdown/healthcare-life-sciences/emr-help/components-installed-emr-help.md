@@ -2,11 +2,12 @@
 title: Components installed with EMR Help
 description: Several types of components are installed with activation of the EMR Help application including tables, user roles, and plugins.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/components-installed-emr-help.html
 release: australia
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-26"
 reading_time_minutes: 1
 breadcrumb: [Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -15,7 +16,7 @@ breadcrumb: [Reference, EMR Help, Healthcare and Life Sciences Service Managemen
 
 Several types of components are installed with activation of the EMR Help application including tables, user roles, and plugins.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -52,6 +53,20 @@ sn\_ind\_rmt\_help.requester
 </td><td id="help-requester">
 
 Submit and monitor a ServiceNow service request from within an EMR system.
+
+</td><td>
+
+sn\_ind\_rmt\_help.viewer
+
+</td></tr><tr><td>
+
+sn\_ind\_rmt\_help.fulfiller
+
+</td><td id="help-fulfiller">
+
+Fulfill EMR Help requests with read-only access to EMR-captured incident data.
+
+ **Note:** Assign this role to ITIL agents who fulfill EMR Help incidents. Subscription Management uses the sn\_ind\_rmt\_help.fulfiller role to identify EMR Help fulfiller licenses.
 
 </td><td>
 
@@ -173,5 +188,5 @@ Industry Core \(com.sn\_ind\)
 Includes common objects, code artifacts, and request definitions for industry vertical applications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help reference](emr-reference.md)
+</table>**Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/emr-reference.md)
 

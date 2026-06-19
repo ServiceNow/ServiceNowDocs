@@ -2,6 +2,7 @@
 title: Default mapping configuration between Agile Development 2.0 and Jira
 description: Understand the default field mapping configuration for work items of a project between Jira and Agile Development 2.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/atlassian-jira-integrations-common/jira-sn-field-mapping.html
 release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
@@ -47,5 +48,5 @@ The following table lists the default field map configuration for a Story and Ep
 |Summary|Short Description|
 |Assignee|Assigned to|
 
-You can add or update the configuration for field, table, and choice maps of your projects between Jira and Agile Development 2.0 according to your organizational preferences. For details, see [Customizing map configuration for your Jira projects](custom-map-configuration.md).
+You can add or update the configuration for field, table, and choice maps of your projects between Jira and Agile Development 2.0 according to your organizational preferences. For details, see [Customizing map configuration for your Jira projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/atlassian-jira-integrations-common/custom-map-configuration.md).
 

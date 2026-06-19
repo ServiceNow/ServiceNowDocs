@@ -2,6 +2,7 @@
 title: Create Ignore automation
 description: Ignore automation streamlines the process of disregarding irrelevant or false-positive alerts from monitoring systems, efficiently managing alert fatigue by filtering out unnecessary notifications. As a result, teams can prioritize and resolve critical issues more effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/create-ignore-automation-sow-itom.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -31,7 +32,7 @@ For users familiar with the classic Event Management experience, ignore automati
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the bottom of the navigation pane, select the AIOps configuration center icon ![ITOM AIOps configuration center icon](../../health-log-analytics-admin/image/icon-itom-aiops-config.png).
+2.  From the bottom of the navigation pane, select the AIOps configuration center icon \[Omitted image "icon-itom-aiops-config.png"\] Alt text: ITOM AIOps configuration center icon.
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
@@ -39,11 +40,11 @@ For users familiar with the classic Event Management experience, ignore automati
 
     The Ignore alerts page is displayed.
 
-    ![Alert automations page with option to create automation to enrich, group, or escalate and notify.](../image/automations-page-itom.png "Automations page")
+    \[Omitted image "automations-page-itom.png"\] Alt text: Alert automations page with option to create automation to enrich, group, or escalate and notify.
 
 4.  Select **Create automation**.
 
-    ![Ignore automation creation page](../image/ignore-automation-creation-page.png)
+    \[Omitted image "ignore-automation-creation-page.png"\] Alt text: Ignore automation creation page
 
 5.  In the **Automation name** field, enter the name of the automation for ignoring alerts.
 
@@ -71,7 +72,7 @@ For users familiar with the classic Event Management experience, ignore automati
 
 9.  In the **Automation details** section, provide an order and automation description.
 
-    ![Ignore automation details section.](../image/ignore-automation-details.png)
+    \[Omitted image "ignore-automation-details.png"\] Alt text: Ignore automation details section.
 
     1.  In the **Order** field, enter the automation order.
 
@@ -87,5 +88,5 @@ For users familiar with the classic Event Management experience, ignore automati
 
 ## What to do next
 
-You can transform raw events into an understandable format by creating [Create Enrich automation](enrich-alert-sow-itom.md).
+You can transform raw events into an understandable format by creating [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/enrich-alert-sow-itom.md).
 

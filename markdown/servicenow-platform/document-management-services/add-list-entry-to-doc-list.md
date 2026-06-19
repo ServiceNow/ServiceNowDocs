@@ -2,6 +2,7 @@
 title: Add a document template to a document list
 description: Add a template document to a document list that groups document templates for creating and linking to a parent record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/add-list-entry-to-doc-list.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -40,5 +41,5 @@ Role required: platform\_document\_management\_admin
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Document Management lists](../concept/doc-mgt-lists.md)
+**Parent Topic:**[Document Management lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/doc-mgt-lists.md)
 

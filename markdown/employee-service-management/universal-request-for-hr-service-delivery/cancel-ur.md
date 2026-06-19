@@ -2,6 +2,7 @@
 title: Cancel a universal request
 description: Cancel the universal request if the issue is resolved or the request no longer needs any action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/universal-request-for-hr-service-delivery/cancel-ur.html
 release: australia
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
@@ -43,5 +44,5 @@ You can cancel a universal request only if
 
 When the UR is canceled, email notifications are sent to the stakeholders associated with the request.
 
-**Parent Topic:**[Using Universal Request](../concept/using-ur.md)
+**Parent Topic:**[Using Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/using-ur.md)
 

@@ -2,6 +2,7 @@
 title: Resubmit third-party contract request
 description: As a legal user, resubmit contract request in draft state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-multiple-doc-tpc.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -27,15 +28,15 @@ For a custom record producer, if no documents are attached while submitting the 
 
 1.  Open the third-party contract review request.
 
-<table id="d9124e52"><thead><tr><th align="left" id="d250233e65">
+<table id="d9399e52"><thead><tr><th align="left" id="d236266e65">
 
 Method
 
-</th><th align="left" id="d250233e68">
+</th><th align="left" id="d236266e68">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d250233e74">
+</th></tr></thead><tbody><tr><td id="d236266e74">
 
 **Using Legal Service Portal**
 
@@ -48,7 +49,7 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
-</td></tr><tr><td id="d250233e123">
+</td></tr><tr><td id="d236266e123">
 
 **Employee Center**
 
@@ -64,15 +65,15 @@ Action
 </td></tr></tbody>
 </table>2.  In the Documents section, attach documents.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d250233e180">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d236266e180">
 
 Method
 
-</th><th align="left" id="d250233e183">
+</th><th align="left" id="d236266e183">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d250233e189">
+</th></tr></thead><tbody><tr><td id="d236266e189">
 
 **__Choose a file__**
 
@@ -82,7 +83,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d250233e214">
+</td></tr><tr><td id="d236266e214">
 
 **__Drag file__**
 
@@ -90,7 +91,7 @@ Actions
 
 Drag files from your local computer into your browser window to attach them to the current record.
 
-</td></tr><tr><td id="d250233e224">
+</td></tr><tr><td id="d236266e224">
 
 **Copy and paste clipboard files**
 
@@ -105,15 +106,15 @@ Drag files from your local computer into your browser window to attach them to t
 
 3.  Classify the attached documents.
 
-<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d250233e254">
+<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d236266e254">
 
 Classification
 
-</th><th align="left" id="d250233e257">
+</th><th align="left" id="d236266e257">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d250233e263">
+</th></tr></thead><tbody><tr><td id="d236266e263">
 
 **Contract document**
 
@@ -126,7 +127,7 @@ Only active contract types are displayed in the list.
 
  **Note:** At least one document should be classified as a contract document.
 
-</td></tr><tr><td id="d250233e289">
+</td></tr><tr><td id="d236266e289">
 
 **Supporting document**
 
@@ -140,5 +141,5 @@ Only active contract types are displayed in the list.
 </table>4.  Select **Resubmit**.
 
 
-**Parent Topic:**[Create a legal request for a third-party contract review](snlc-submit-request-tpc.md)
+**Parent Topic:**[Create a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-submit-request-tpc.md)
 

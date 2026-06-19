@@ -2,6 +2,7 @@
 title: Privacy cases tab
 description: The Privacy cases tab on the privacy management dashboard serves as a centralized interface for monitoring, analyzing, and managing privacy-related incidents and requests within an organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-cases-tab.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -52,7 +53,7 @@ You can create a processing activity, privacy case, or an issue using the **Crea
 
 The following image shows the Privacy cases dashboard.
 
-![Privacy cases tab on the privacy management home page.](../image/privacy-cases-tab.png "Privacy cases dashboard")
+\[Omitted image "privacy-cases-tab.png"\] Alt text: Privacy cases tab on the privacy management home page.
 
-**Parent Topic:**[Privacy Workspace for the privacy manager](privacy-mgmt-ws-privacy-compliance-manager.md)
+**Parent Topic:**[Privacy Workspace for the privacy manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-compliance-manager.md)
 

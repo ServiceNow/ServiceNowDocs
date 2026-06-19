@@ -2,6 +2,7 @@
 title: Integrate Azure Monitor with basic authentication
 description: Integrate Microsoft Azure with Event Management by adding a standard webhook in Azure Monitor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/azure-events-webhook.html
 release: australia
 product: Event Management
 classification: event-management
@@ -41,7 +42,7 @@ On the Azure portal, alert correlation rules are defined through the **Correlate
 
         `https://<username>:<password>@<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor`
 
-        **Note:** If you have multiple tenants on the Azure portal and you want to use bidirectional functionality to acknowledge, close, or reopen an alert on the Azure Portal, then the URL for the webhook has to be in the following format: `https://<username>:<password>@<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor&event_class=<new_connector_instance_name>`. The &lt;new\_connector\_instance\_name&gt; is the new Azure pull connector instance that you need to create for each tenant with other Azure service principal credentials. To know how to create the pull connector, see [Configure Azure Monitor Bi-directional connector](configure-azure-bi-directional-connector.md).
+        **Note:** If you have multiple tenants on the Azure portal and you want to use bidirectional functionality to acknowledge, close, or reopen an alert on the Azure Portal, then the URL for the webhook has to be in the following format: `https://<username>:<password>@<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor&event_class=<new_connector_instance_name>`. The &lt;new\_connector\_instance\_name&gt; is the new Azure pull connector instance that you need to create for each tenant with other Azure service principal credentials. To know how to create the pull connector, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
     2.  In the Webhook section, make sure that **Yes** is selected for the **Enable the common alert schema** option.
 
@@ -52,7 +53,7 @@ Alerts start flowing from the Azure Monitor into the Event Management plugin. Th
 
 ## What to do next
 
-If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](configure-azure-bi-directional-connector.md).
+If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
-**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](../concept/azure-integration.md)
+**Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/azure-integration.md)
 

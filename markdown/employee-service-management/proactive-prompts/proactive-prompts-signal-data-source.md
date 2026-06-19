@@ -2,6 +2,7 @@
 title: Create a data source for a signal in Proactive Prompts
 description: Specify where and how to get the data you want to use to send insights to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/proactive-prompts/proactive-prompts-signal-data-source.html
 release: australia
 product: Proactive Prompts
 classification: proactive-prompts
@@ -27,7 +28,7 @@ Role required: sn\_pp.admin
 
 3.  On the Signal data source form, fill in the fields.
 
-    For a description of the field values, see [Signal data source form](../reference/proactive-prompts-signal-datasource-form.md).
+    For a description of the field values, see [Signal data source form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/proactive-prompts/proactive-prompts-signal-datasource-form.md).
 
 4.  Select **Submit**.
 

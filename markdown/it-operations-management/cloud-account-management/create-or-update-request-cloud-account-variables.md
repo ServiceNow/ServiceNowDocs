@@ -2,6 +2,7 @@
 title: Edit a variable for Request cloud account catalog
 description: Customize the cloud account request process by creating or editing variable to collect essential information during cloud account request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/create-or-update-request-cloud-account-variables.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management

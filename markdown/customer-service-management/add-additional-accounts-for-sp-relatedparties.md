@@ -2,7 +2,10 @@
 title: Add additional accounts for the sold product
 description: Add additional accounts or contacts for your business-to-business \(B2B\) or business-to-business-to-consumer \(B2B2C\) sold products by defining the type and responsibility of additional accounts or contacts. Once you add accounts as related parties, all contacts associated with the related party account can access the sold product.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-additional-accounts-for-sp-relatedparties.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -69,7 +72,7 @@ Responsibility
 
 </td><td>
 
-Access level to the sold product and related information.Additional account with the Authorized Account responsibility requires the sn\_install\_base.sold\_product\_authorized\_contact role to get access to the associated sold product and related entities. For details, see [Roles installed with customer access management](../reference/r_rolesinstalledwithcustaccessmgmt.md).
+Access level to the sold product and related information.Additional account with the Authorized Account responsibility requires the sn\_install\_base.sold\_product\_authorized\_contact role to get access to the associated sold product and related entities. For details, see [Roles installed with customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md).
 
  **Note:** If the **Responsibility** field is empty, the accounts don't have any access to the sold product and associated case.
 

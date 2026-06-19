@@ -2,6 +2,7 @@
 title: Talent Growth Plan reference
 description: Employee growth plans are created by administrators and used by managers and employees to help facilitate and track growth plans.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/egd-growth-plan-ref.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core
@@ -110,5 +111,5 @@ The current standing of the growth plan.-   **Canceled** state means that the gr
 -   **Draft** state means that the employee is still editing, adding activities to the growth plan but hasn't started it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Talent Development Core application reference](../concept/egd-reference.md)
+</table>**Parent Topic:**[Talent Development Core application reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/talent-development-core/egd-reference.md)
 

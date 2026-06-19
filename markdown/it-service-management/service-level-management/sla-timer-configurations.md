@@ -2,6 +2,7 @@
 title: Configure the SLA timer
 description: Configure the SLA timer to determine which task SLA must be displayed as part of the timer component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/sla-timer-configurations.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -186,5 +187,5 @@ If no configuration sys\_id is provided to the sla-timer-configuration API, then
 
 However, as a best practice do not provide a configuration sys\_id to the application. Setup their your own configuration, even if it is identical to the default behavior.
 
-**Parent Topic:**[Configuring Service Level Management](../concept/configuring-service-level-management.md)
+**Parent Topic:**[Configuring Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/configuring-service-level-management.md)
 

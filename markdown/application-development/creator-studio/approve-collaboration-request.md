@@ -2,6 +2,7 @@
 title: Approve a collaboration request
 description: Admins and App Engine admin can review and approve \(or reject\) people's requests to join an app's development in Creator Studio.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/approve-collaboration-request.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -17,7 +18,7 @@ Admins and App Engine admin can review and approve \(or reject\) people's reques
 
 ## Before you begin
 
-If you have a controller instance configured, you must approve collaboration requests on your controller instance, not the non-production instance with Creator Studio. The controller instance is typically the production instance, but it can vary depending on how your Pipelines and Deployments application is configured. For more information, see [Configure your controller instance](../../pipelines-and-deployments/task/config-controller-instance.md).
+If you have a controller instance configured, you must approve collaboration requests on your controller instance, not the non-production instance with Creator Studio. The controller instance is typically the production instance, but it can vary depending on how your Pipelines and Deployments application is configured. For more information, see [Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-management-center/config-controller-instance.md).
 
 Role required: app\_engine\_admin
 
@@ -42,5 +43,5 @@ Role required: app\_engine\_admin
 4.  Update the record to save your changes.
 
 
-**Parent Topic:**[Administering collaboration in Creator Studio](../concept/creator-studio-admin-collab-tasks.md)
+**Parent Topic:**[Administering collaboration in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/creator-studio-admin-collab-tasks.md)
 

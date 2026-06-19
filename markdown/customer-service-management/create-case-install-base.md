@@ -2,7 +2,10 @@
 title: Create a case for install base from the Customer Service homepage
 description: Create a case about a question or issue on your install base from the Customer Service homepage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-case-install-base.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

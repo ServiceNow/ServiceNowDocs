@@ -2,6 +2,7 @@
 title: GlideSystem - Scoped
 description: The scoped GlideSystem API provides a number of convenient methods to obtain information about the system, the current logged in user, and other system level information.Adds an error message for the current session.Displays a high priority message at the top of the form.Adds an info message for the current session. This method is not supported for asynchronous business rules.Displays a low priority message at the top of the form.Displays a moderate priority message at the top of the form.Displays a message confirming a successful action at the top of the form.Creates a base64 string from the specified string.Returns an ASCII string from the specified base64 string.Returns the date and time for the beginning of last month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of last week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next year in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this quarter in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this year in the user's session time zone as a UTC timestamp.Generates a date and time for the specified date in the user's session time zone as a UTC timestamp.Returns the date and time for a specified number of days ago the user's session time zone as a UTC timestamp.Returns the date and time for the end of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.Writes a debug message to the system log.Returns the date and time for the end of last month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of last week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of last year in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next year in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this quarter in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this year in the user's session time zone as a UTC timestamp.Writes an error message to the system log.Queues an event for the event manager.Queues an event in the event manager.Executes a job for a scoped application.Generates a GUID that can be used when a unique identifier is required.Gets the caller scope name; returns null if there is no caller.Gets a string representing the cache version for a CSS file.Gets the ID of the current application as set using the Application Picker.Gets the name of the current scope.Returns the date format associated with the current user.Returns the date and time format associated with the current user.Returns the error messages that were added by addErrorMessage\(\) for the session.Retrieves the specified message from the Message \[sys\_ui\_message\] table. If the message has HTML special characters, replaces them with the corresponding HTML name codes. For example, &amp; becomes &amp;amp;.Retrieves translated messages from the Message \[sys\_ui\_message\] table to display in a UI.Gets the value of a Glide property. If the property is not found, returns an alternate value.Gets a reference to the current Glide session.Retrieves the GlideSession session ID.This method is no longer available. Instead, use gs.getSession\(\).getSessionToken\(\).Returns the time format associated with the current user.Returns the name of the time zone associated with the current user.Gets the current URI for the session.Returns a reference to the scoped GlideUser object for the current user.Gets the display name of the current user.Gets the sys\_id of the current user.Returns the user name of the current user.Determines if the current user has the specified role.Returns the date and time for a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the end of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the start of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Provides a safe way to call a script include from the sandbox, allowing only the inclusion of trusted scripts.Writes an info message to the system log.Determines if debugging is active for a specific scope.Checks if the current session is interactive. An example of an interactive session is when a user logs in normally. An example of a non-interactive session is using a SOAP request to retrieve data.Determines if the current user is currently logged in.You can determine if a request comes from a mobile device.Returns the date and time for the end of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the start of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for a specified number of months ago in the user's session time zone as a UTC timestamp.Returns the date and time for the last day of the month a specified number of months ago.Returns the date and time for the start of the month a specified number of months ago. Returned in the user's session time zone as a UTC timestamp.Queries an object and returns true if the object is null, undefined, or contains an empty string.Returns the date and time for the last day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the first day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.Sets the specified key to the specified value if the property is within the script's scope.Sets the redirect URI for this transaction, which then determines the next page the user will see.Determines if a database table exists.Encodes non-ASCII characters, unsafe ASCII characters, and spaces so the returned string can be used on the Internet. Uses UTF-8 encoding. Uses percent \(%\) encoding.Replaces UTF-8 encoded characters with ASCII characters.Writes a warning message to the system log.Takes an XML string and returns a JSON object.Returns a date and time for a certain number of years ago in the user's session time zone as a UTC timestamp.Returns yesterday's time \(24 hours ago\). Returned in the user's session time zone as a UTC timestamp.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideSystemScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The scoped GlideSystem API provides a number of convenient methods to obtain inf
 
 Many of the GlideSystem methods facilitate the easy inclusion of dates in query ranges, and are most often used in filters and reporting.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideSystem - addErrorMessage\(String message\)
 
@@ -662,7 +663,7 @@ if (current.operation() != 'insert' && current.comments.changes()) {
 
 Queues an event in the event manager.
 
-The passed in event schedule information is stored in the Events \[sysevent\] table. For additional information on events, see [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/system-events/events.md).
+The passed in event schedule information is stored in the Events \[sysevent\] table. For additional information on events, see Events.
 
 <table id="table_nxv_r3k_bx" class="parameters"><thead><tr><th>
 
@@ -1011,7 +1012,7 @@ Retrieves the specified message from the Message \[sys\_ui\_message\] table. If 
 
 If the specified message identifier \(Key\) exists in the Message \[sys\_ui\_message\] table for the current language, the method returns the translated message with all special characters returned as escape sequences. If the specified message identifier does not exist for the current language, then the method returns the English version of the message with all special characters returned as escape sequences. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md).
+For additional information about the Message table, see Message table.
 
 **Note:** If the UI message has a tick \('\), there may be issues with the message in the script; to escape the ticks \('\), use getMessageS\(String, Object\).
 
@@ -1093,7 +1094,7 @@ Retrieves translated messages from the Message \[sys\_ui\_message\] table to dis
 
 If the specified message identifier \(key\) exists in the Message \[sys\_ui\_message\] table for the current language, then the method returns the translated message. If the specified message identifier does not exist for the current language, then the method returns the English version of the message. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/r_MessageTable.md)
+For additional information about the Message table, see Message table
 
 **Note:** If the UI message has a tick \('\), there may be issues with the message in the script; to escape the ticks \('\), use getMessageS\(String, Object\).
 
@@ -1293,7 +1294,7 @@ HH:mm:ss
 
 Returns the name of the time zone associated with the current user.
 
-This method has been deprecated. Instead, use the [getTimeZoneName\(\)](../../GlideSessionScoped/concept/c_GlideSessionScopedAPI.md#) method in the GlideSession API.
+This method has been deprecated. Instead, use the [getTimeZoneName\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSessionScopedAPI.md) method in the GlideSession API.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1329,7 +1330,7 @@ gs.info(gs.getUrlOnStack());
 
 Returns a reference to the scoped GlideUser object for the current user.
 
-See [GlideUser - Scoped](../../glideUserScoped/concept/c_GlideUserScopedAPI.md#)for a list of available methods.
+See [GlideUser - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md)for a list of available methods.
 
 |Name|Type|Description|
 |----|----|-----------|

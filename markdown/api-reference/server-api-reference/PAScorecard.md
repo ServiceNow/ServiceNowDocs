@@ -2,6 +2,7 @@
 title: PAScorecard - Scoped
 description: The PAScorecard API enables you to fetch data about indicators and their associated records, such as breakdowns.Adds a query parameter to filter the returned scores.Perform a query based on the specified parameters and return the results as an object.Get the last query result as an object.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PAScorecard.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The PAScorecard API enables you to fetch data about indicators and their associa
 
 This API requires the Performance Analytics \(com.snc.pa.analytics\_center\) application and runs in the `SNC` namespace.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## PAScorecard - addParam\(String parameter, String value\)
 
@@ -459,7 +460,7 @@ Enter a colon-separated list of sys\_id values to specify which indicators, brea
 
 The parameter must begin with the sys\_id of an indicator record. Optionally, you can append the sys\_id values of a breakdown and breakdown element to group the response based on the breakdown, and the sys\_id of an aggregate to apply that aggregate. You can use a breakdown with an aggregate, or use only one.
 
-For information about obtaining the sys\_id values of records, see [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UniqueRecordIdentifier.md).
+For information about obtaining the sys\_id values of records, see Unique record identifier \(sys\_id\).
 
 **Note:** If an indicator is configured to use a **Default time series**, all Analytics Hub values for that indicator use that time series aggregation.
 

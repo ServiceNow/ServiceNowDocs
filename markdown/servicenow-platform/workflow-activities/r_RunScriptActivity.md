@@ -2,6 +2,7 @@
 title: Run Script workflow activity
 description: The Run Script activity runs the specified script in the scope of the workflow version.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/workflow-activities/r\_RunScriptActivity.html
 release: australia
 product: Workflow Activities
 classification: workflow-activities

@@ -2,6 +2,7 @@
 title: Configure the Oracle HCM Cloud spoke connection record
 description: Set up an outbound integration between the ServiceNow instance and the Oracle HCM instances by creating connection and credential records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-oracle-hcm.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -93,7 +94,7 @@ Signing Keystore
 
 </td><td>
 
-Name of the key store that you had created. To learn how to create a key store, see [Upload Java KeyStore certificate to ServiceNow instance](upload-java-keystore-certificate-to-servicenow-instance.md).
+Name of the key store that you had created. To learn how to create a key store, see [Upload Java KeyStore certificate to ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/upload-java-keystore-certificate-to-servicenow-instance.md).
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Issuer \(iss\) Claim value
 
 </td><td>
 
-The value that you had configured while creating a trusted issuer. For more information, see [Create a trusted issuer](upload-public-certificate-to-oracle-hcm-tenant.md).
+The value that you had configured while creating a trusted issuer. For more information, see [Create a trusted issuer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/upload-public-certificate-to-oracle-hcm-tenant.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +142,7 @@ Base 64 value that you had obtained while generating the fingerprint.
 
     1.  On the OracleCloudHCMReports tile, select **View Details**.
 
-    2.  Select **Configure**.![Configure button for Oracle HCM Cloud Report connection record.](../image/oracle-hcm-reports-click-configure.png)
+    2.  Select **Configure**.\[Omitted image "oracle-hcm-reports-click-configure.png"\] Alt text: Configure button for Oracle HCM Cloud Report connection record.
 
     3.  In the form, fill the details.
 

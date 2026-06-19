@@ -2,6 +2,7 @@
 title: Customise cost plan form
 description: Manage the fields required on the new cost plan form as per your organization needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/customise-cost-plan-form-fin-prj-wrkspc.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -36,5 +37,5 @@ Role required: admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Configure financials for Project Workspace](../concept/config-fin-pws.md)
+**Parent Topic:**[Configure financials for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/config-fin-pws.md)
 

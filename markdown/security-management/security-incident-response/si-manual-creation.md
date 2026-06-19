@@ -2,6 +2,7 @@
 title: Security incident manual creation
 description: You can create a security incident from the Security Incident form, as well as from several other forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/si-manual-creation.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

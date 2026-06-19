@@ -2,6 +2,7 @@
 title: Generate a Register of Information package
 description: Generate a register of information package. Use the CSV report option in the download page to generate regulator-ready Register of Information \(RoI\) packages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-drtp-gen-roi-pkg.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,16 +32,18 @@ Register of Information \(RoI\) reports can be generated for both individual and
 
     The **Excel Master Template** option downloads documents to use for data preparation and internal review. The **Plain-CSV Reporting Package** option downloads documents you can use for regulator submission and compliance validation.
 
-    For descriptions of all these fields, see [Create New Excel download/upload request form](../../grc-vendor-risk/reference/tprm-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
 4.  Select **Export info register** to initiate the download process.
 
     When a Register of Information \(RoI\) package is uploaded using the Plain-CSV Report Package option, the system automatically generates a ZIP file containing metadata and report folders with CSV files formatted to meet DORA specifications. Real-time validation is performed during the upload process. If any errors or warnings are detected, a validation report is generated and attached to the request record alongside the CSV package. This report includes mappings to regulator fields \(such as Template Code, Row Code, and Column Code\), rule expressions, field labels, and record identifiers to help users locate and resolve issues.
 
-    An email notification is sent to whoever initiated the request once the download is complete. If no issues are found, only the CSV package is attached. Users can access the report from the attachment area of the request record and cross-reference it with the downloadable Excel template, which mirrors the CSV structure and assists with error resolution.
+    An email notification is sent to whoever initiated the request once the download is complete. If no issues are found, only the CSV package is attached. You can access the report from the attachment area of the request record and cross-reference it with the downloadable Microsoft Excel template, which mirrors the CSV structure and assists with error resolution.
 
-    For more information on validation, see .
+    \[Omitted image "roi-package-generation-result-panel.png"\] Alt text: Result panel after generating a Plain-CSV reporting package. Validation messages and attached consolidated reports appear at the bottom of the request record.
+
+    For more information on validation, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-validate-roi.md).
 
 
-**Parent Topic:**[Using Digital resilience third-party registers](../concept/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

@@ -2,6 +2,7 @@
 title: AWA Offer Work API
 description: The AWA Offer Work API provides an endpoint to assign or transfer work items to agents.Assigns or transfers work items to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/awa-offer-work-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -15,15 +16,15 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The AWA Offer Work API provides an endpoint to assign or transfer work items to agents.
 
-This API is intended for use with Contact Center as a Service \(CCAAS\) integrations where the routing and assignment decision takes place in the external CCAAS system. This API allows an [inbox card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-inbox-layout.md) to be shown to an agent in the ServiceNow Agent Workspace as a notification to accept the work item.
+This API is intended for use with Contact Center as a Service \(CCAAS\) integrations where the routing and assignment decision takes place in the external CCAAS system. This API allows an inbox card to be shown to an agent in the ServiceNow Agent Workspace as a notification to accept the work item.
 
 This API requires the Advanced Work Assignment \(com.glide.awa\) plugin. To call this API, you must have either the awa\_manager or awa\_integration\_user role.
 
-For more information about AWA, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-overview.md).
+For more information about AWA, see Advanced Work Assignment.
 
-Use the [AWA Agent Consult API](awa-agent-consult-api.md#) to handle agent consult work items.
+Use the [AWA Agent Consult API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/awa-agent-consult-api.md) to handle agent consult work items.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## AWA Offer Work - POST /now/awa/documents/\{document\_table\}/\{document\_sys\_id\}/offer
 
@@ -114,7 +115,7 @@ assignment.after\_timeout\_presence
 
 Sys\_id of the presence state that the agent switches to if the **timeout** parameter expires.If the **timeout** parameter isn't passed, this parameter is ignored.
 
-For additional information on presence states, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
+For additional information on presence states, see .
 
 Data type: String
 
@@ -128,7 +129,7 @@ assignment.agent\_sys\_id
 
 </td><td>
 
-Required for new assignments. Sys\_id of the available agent to receive the work item. The agent must have the awa\_agent and awa\_external\_user roles.For information on how to determine if an agent is available, refer to [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md).
+Required for new assignments. Sys\_id of the available agent to receive the work item. The agent must have the awa\_agent and awa\_external\_user roles.For information on how to determine if an agent is available, refer to Agent Inbox controls.
 
 Data type: String
 
@@ -304,7 +305,7 @@ Data type: String
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -337,7 +338,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -367,11 +368,11 @@ Response message with information about the assignment success or failure.Possib
 
 -   `Manual assignment successfully requested` - Success.
 -   `Caller <API_caller_sys_id> does not have the awa_manager or awa_integration_user role` – The authenticated user making the API request must have either the awa\_manager or awa\_integration\_user role.
--   `Work Item accepted can not be assigned` – Work item can't be assigned because it is already accepted by an agent. For more information, see [Check work items and AWA events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/awa-work-items-all.md).
+-   `Work Item accepted can not be assigned` – Work item can't be assigned because it is already accepted by an agent. For more information, see .
 -   `<agent_sys_id> is not a valid agent` – Agent doesn't have the awa\_agent role.
 -   `Transfer failed - couldn't blind transfer to agent` - Assignment wasn't transferred because the agent isn't in the Available state in AWA.
 -   `Work Item is already assigned to <agent_sys_id>` – Provided work item is assigned to another agent.
--   `Agent is not available` – Agent isn't in the Available state in AWA. For more information, see [Agent Inbox controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/agent-experience.md).
+-   `Agent is not available` – Agent isn't in the Available state in AWA. For more information, see Agent Inbox controls.
 -   `Timeout value cannot be negative` – Provided timeout value can't be negative.
 -   `<presence_state_sys_id> is not a valid presence state` – Provided presence state sys\_id doesn't exist in the AWA Presence State \[awa\_presence\_state\] table.
 -   `Offered time (<offered_on_timestamp>) must be in the following format: yyyy-MM-dd'T'HH:mm:ss.SSS` – Provided offered\_on timestamp must use the specified format.

@@ -2,11 +2,12 @@
 title: Configure and trigger additional actions in CrowdStrike Falcon Insight
 description: The CrowdStrike Falcon Insight integration supports running additional actions like regular expression \(regex\). The CrowdStrike Falcon Insight integration provides 40 additional actions with the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-additional-crowdstrike-falcon.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -113,7 +114,7 @@ Configuration
 
 
 </td></tr></tbody>
-</table>    ![CrowdStrike Falcon Insight Additional Actions](../image/falcon-insight-additional-action.png "CrowdStrike Falcon Insight Additional Actions")
+</table>    \[Omitted image "falcon-insight-additional-action.png"\] Alt text: CrowdStrike Falcon Insight Additional Actions
 
 4.  Select **Submit**.
 
@@ -123,7 +124,7 @@ Configuration
 
     **Note:** Ensure that you open the CrowdStrike Additional Actions list and set the required additional action to **true**, else the additional action will not be available in the workspace.
 
-    ![List of additional actions that comes with the base system](../image/falcon-insight-additional-action2.png "List of additional actions that comes with the base system")
+    \[Omitted image "falcon-insight-additional-action2.png"\] Alt text: List of additional actions that comes with the base system
 
 6.  Navigate to **Security Incidents** &gt; **Show All Incidents**.
 

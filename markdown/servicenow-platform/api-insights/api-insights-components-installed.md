@@ -2,6 +2,7 @@
 title: Components installed with API Insights
 description: Several types of components are installed with activation of the API Insights plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/api-insights/api-insights-components-installed.html
 release: australia
 product: API Insights
 classification: api-insights
@@ -306,5 +307,5 @@ UX Commons \(sn\_app\_ux\_commons\)
 Enhances component experience with common UI Builder utilities, controllers, and bundles.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[API Insights reference](../concept/api-insights-reference.md)
+</table>**Parent Topic:**[API Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/api-insights/api-insights-reference.md)
 

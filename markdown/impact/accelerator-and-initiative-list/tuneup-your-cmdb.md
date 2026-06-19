@@ -2,6 +2,7 @@
 title: TuneUp Your Configuration Management Database
 description: The TuneUp Your Configuration Management Database \(CMDB\) Accelerator provides insight and guidance to improve CMDB health.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-your-cmdb.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -15,11 +16,13 @@ breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives a
 
 The TuneUp Your Configuration Management Database \(CMDB\) Accelerator provides insight and guidance to improve CMDB health.
 
-## Overview
+## Accelerator Overview
 
-TuneUp Your CMDB provides Impact Customers with an analysis of common CMDB problem areas through HealthScan along with recommendations on how to address those findings. It helps gain insight into CMDB health and leading practices and ultimately aims to assist you in improving the effectiveness of your instance data foundation. See [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manage-cmdb.md) for information on CMDB.
+TuneUp Your CMDB provides Impact Customers with an analysis of common CMDB problem areas through HealthScan along with recommendations on how to address those findings. It helps gain insight into CMDB health and leading practices and ultimately aims to assist you in improving the effectiveness of your instance data foundation. See  for information on CMDB.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

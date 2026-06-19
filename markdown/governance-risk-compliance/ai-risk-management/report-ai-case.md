@@ -1,19 +1,21 @@
 ---
 title: Report an AI case from the Employee Center
-description: Report an AI case by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
+description: Report an AI case by providing a detailed description, such as system behavior, affected users, and relevant data. Include supporting attachments for prompt resolution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/report-ai-case.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [report AI case, Employee Center, AI case submission]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Report an AI case from the Employee Center
 
-Report an AI case by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
+Report an AI case by providing a detailed description, such as system behavior, affected users, and relevant data. Include supporting attachments for prompt resolution.
 
 ## Before you begin
 
@@ -29,7 +31,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user
 
 4.  On the form, fill in the fields.
 
-    For a description of the field values on the Report an AI case form, see [Report an AI case form](../reference/report-ai-case-form.md).
+    For a description of the field values on the Report an AI case form, see [Report an AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-form.md).
 
 5.  To add attachments, select **Add attachments**.
 
@@ -48,10 +50,10 @@ An AI case passes through: New, Triage, Investigate, Resolve, Post case review, 
 
 ## What to do next
 
-[Initiate AI assessment on an AI asset](initiate-assessment-on-an-ai-asset.md)
+[Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md)
 
--   **[Report an AI case form](../reference/report-ai-case-form.md)**  
+-   **[Report an AI case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-form.md)**  
 Use the Report an AI case form in the Employee Center to report an AI case with the necessary details.
 
-**Parent Topic:**[Using AI Risk and Compliance](../concept/using-ai-risk-and-compliance.md)
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

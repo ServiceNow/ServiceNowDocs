@@ -2,6 +2,7 @@
 title: Filter structure - iOS
 description: The Filter structure provides the ability to configure filters that define the data to return in the return results of a REST endpoint query.Creates a filter based on one or more filter criteria that are OR'd together.Creates a filter based on all specified conditions \(AND'd together\)Creates a filter using a specified encoded query.Creates a filter based on specific keywords and conditions that are AND'd together.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/FilteriOSStructure.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API impl
 
 The Filter structure provides the ability to configure filters that define the data to return in the return results of a REST endpoint query.
 
-**Parent Topic:**[Mobile SDK - iOS](../../concept/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## Filter - init\(criteria criteriaList: \[Criteria\], sortBy: \[Sort\]? = nil, queryCategory: String? = nil\)
 
@@ -171,7 +172,7 @@ Creates a filter using a specified encoded query.
 
 |Name|Type|Description|
 |----|----|-----------|
-|query|String|[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md)[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md) to use to filter the records to return from the table.|
+|query|String|Encoded queryEncoded query to use to filter the records to return from the table.|
 |queryCategory|String|Optional. Name of the query category to use for the query.|
 
 |Type|Description|

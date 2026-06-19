@@ -2,6 +2,7 @@
 title: Run the GenAI/AgenticAI Assessment scheduled job
 description: Before you can view the agentic AI or Now Assist assessment results, you must first run the GenAI/AgenticAI Assessment scheduled job.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
@@ -26,7 +27,7 @@ Role required: admin
 
 2.  Set the Scheduled Jobs filter to `Application is Now Assist Readiness Evaluation`, and then select **Run**.
 
-    **Tip:** If the Application column isn’t displayed in your ServiceNow instance, personalize the column settings using the Update Personalized List icon ![](../../../reuse/icons/product-icons/gear-changes-outline-24.svg) from the list header.
+    **Tip:** If the Application column isn’t displayed in your ServiceNow instance, personalize the column settings using the Update Personalized List icon \[Omitted image "gear-changes-outline-24.svg"\] from the list header.
 
 3.  Select **GenAI/Agentic AI Assessment** from the Name column.
 
@@ -39,5 +40,5 @@ Role required: admin
 
 If you must rerun all the scheduled jobs, or specifically, the agentic AI scheduled jobs for ITSM and CSM, repeat these steps.
 
-**Note:** You must complete the additional steps in the Now Assist Readiness Evaluation guided setup if you want to work with the Now Assist for HRSD product. If you don’t complete the additional guided setup steps for the Now Assist for HRSD product, the assessment continuously fails. For more information about completing the Now Assist Readiness Evaluation guided setup, see [Configure the Now Assist Readiness Evaluation guided setup](configure-nare-guided-setup.md).
+**Note:** You must complete the additional steps in the Now Assist Readiness Evaluation guided setup if you want to work with the Now Assist for HRSD product. If you don’t complete the additional guided setup steps for the Now Assist for HRSD product, the assessment continuously fails. For more information about completing the Now Assist Readiness Evaluation guided setup, see [Configure the Now Assist Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
 

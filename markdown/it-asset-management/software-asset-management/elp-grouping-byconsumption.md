@@ -2,6 +2,7 @@
 title: Effective License Position \(ELP\) report for grouping by consumption
 description: Get a comprehensive overview of your software license position across various organizational levels by generating an ELP report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/elp-grouping-byconsumption.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -25,7 +26,7 @@ All the ELP data reports you have generated can be found in the ELP Grouping sub
 
 A grouping result is only deleted if you rerun the reconciliation process with grouping for the same publisher and product.
 
-For details on generating an ELP report, see [Generate an Effective License Position \(ELP\) report](../task/generate-elp-report-sam.md).
+For details on generating an ELP report, see [Generate an Effective License Position \(ELP\) report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/generate-elp-report-sam.md).
 
 ## Use case scenario of an ELP report
 
@@ -37,7 +38,7 @@ Organization, SampleXYZ, runs the ELP report with the following parameters:
 
 Once the report is generated, a record is created for a unique combination of publisher, product, edition, version, license metric, group, and optional subgroup. Open the record to view the cost breakdown for each company group along with a detailed breakdown of the costs for each license metric, edition, and version of software models.
 
-![ELP grouping report](../image/elpgrouping-report.png)
+\[Omitted image "elpgrouping-report.png"\] Alt text: ELP grouping report
 
-**Parent Topic:**[Software reconciliation for compliance](c_SAMReconciliation.md)
+**Parent Topic:**[Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md)
 

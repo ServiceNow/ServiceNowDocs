@@ -2,6 +2,7 @@
 title: Configuring Process Mining
 description: An administrator can set up Process Mining so that analysts and managers can access Analyst workbench, and create and manage projects.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/setting-up-process-mining.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -25,14 +26,14 @@ To set up Process Mining:
 
 ## Domain separation is supported
 
-This application supports domain separation. For more information, see [Domain separation and Process Mining](domain-separation-process-optimization.md).
+This application supports domain separation. For more information, see [Domain separation and Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/domain-separation-process-optimization.md).
 
--   **[Access control](access-control.md)**  
+-   **[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/access-control.md)**  
 When generating or sharing a project, Process Mining honors the access control rules \(ACLs\) for the table.
--   **[Process Mining properties](data-cleanup.md#)**  
+-   **[Process Mining properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/data-cleanup.md)**  
 The Process Mining properties page provides configuration options for Process Mining.
--   **[Configure Process Mining map in PAR dashboard](../task/config-dashboard.md)**  
+-   **[Configure Process Mining map in PAR dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/config-dashboard.md)**  
 Configure a Process Mining map to view the process graph in the PAR dashboard.
 
-**Parent Topic:**[Process Mining](process-mining.md)
+**Parent Topic:**[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md)
 

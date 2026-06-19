@@ -2,6 +2,7 @@
 title: Configure user banning
 description: Set the number of offenses a user can make before they are banned from creating or editing content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/configure-banning.html
 release: australia
 product: Communities
 classification: communities
@@ -35,5 +36,5 @@ Role required: sn\_communities.admin or sn\_communities.moderation\_admin
 4.  Click **Update**.
 
 
-**Parent Topic:**[Moderate a community](moderate-communities.md)
+**Parent Topic:**[Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/moderate-communities.md)
 

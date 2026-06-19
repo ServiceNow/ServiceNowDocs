@@ -2,6 +2,7 @@
 title: Set up Conversational Integration with LINE
 description: Set up the Conversational Integration with LINE application so that you can engage customers in conversations with bots.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-line-setup.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -28,7 +29,7 @@ Before you begin, do the following:
 -   Install the following applications on your ServiceNow instance:
     -   Integration Hub
     -   Conversational Integration with LINE
--   Activate the IHUB Spoke Util Pack plugin \(com.snc.ihub\_spoke\_util\_pack\). For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+-   Activate the IHUB Spoke Util Pack plugin \(com.snc.ihub\_spoke\_util\_pack\). For more information, see Activate a plugin.
 -   Get a developer account in the [LINE Developers console](https://developers.line.biz/console/).
 
 Role required: external\_app\_install\_admin or va\_admin

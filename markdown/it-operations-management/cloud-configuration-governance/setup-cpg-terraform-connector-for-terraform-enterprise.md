@@ -2,6 +2,7 @@
 title: Create a Terraform Enterprise or Terraform Cloud config provider
 description: Create Terraform Enterprise or Terraform Cloud config provider in Cloud Provisioning and Governance. The config provider enables Cloud Provisioning and Governance to discover the workspaces and Version Control System \(VCS\) repositories attached to the Terraform organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/setup-cpg-terraform-connector-for-terraform-enterprise.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -20,7 +21,7 @@ Create Terraform Enterprise or Terraform Cloud config provider in Cloud Provisio
 -   Ensure that a supported Terraform Enterprise or Terraform Cloud version is in use. Cloud Services Catalog Terraform Connector supports the following Terraform versions:
     -   Terraform Enterprise versions 1.1.9 and 1.2.0 or higher
     -   Terraform Cloud versions 1.1.9 and 1.2.0 or higher
--   To use a minor or patch version of the Terraform Enterprise or Terraform Cloud, ensure that the minor or patch version is added to the workload config provider. For more information, see [Add support for minor or patch versions of the Terraform](../../cloud-management-v2-setup/task/terraform-use-minor-patch-version-cli.md).
+-   To use a minor or patch version of the Terraform Enterprise or Terraform Cloud, ensure that the minor or patch version is added to the workload config provider. For more information, see [Add support for minor or patch versions of the Terraform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/terraform-use-minor-patch-version-cli.md).
 -   Ensure that the following properties are correctly configured in the MID Server. The MID Server uses these properties to connect with the Terraform Enterprise or Terraform Cloud.
 
     -   **glide.http.proxy\_host**
@@ -29,7 +30,7 @@ Create Terraform Enterprise or Terraform Cloud config provider in Cloud Provisio
     -   **glide.http.proxy\_password**
     For more information, see the Knowledge Base article [KB0754247](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0754247).
 
--   Ensure that the MID Server has Terraform Enterprise and REST capabilities. For more information, see [Configure MID Server capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureCapabilities.md).
+-   Ensure that the MID Server has Terraform Enterprise and REST capabilities. For more information, see Configure MID Server capabilities.
 -   Ensure that the MID Server can communicate with the VCS accounts provisioned in the Terraform Enterprise or Terraform Cloud organization.
 
 Role required: admin
@@ -38,7 +39,7 @@ Role required: admin
 
 1.  Create an API key credential for Terraform Enterprise or Terraform Cloud account.
 
-    For more information, see [Create API key credentials for the Terraform account and the supported VCS account](create-vcs-credentials-for-terraform-connector.md).
+    For more information, see [Create API key credentials for the Terraform account and the supported VCS account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/create-vcs-credentials-for-terraform-connector.md).
 
 2.  Create a config provider for Terraform Enterprise or Terraform Cloud.
 
@@ -48,12 +49,12 @@ Role required: admin
 
     3.  On the form, fill in the fields.
 
-        For a description of the form fields, see [Cloud Services Catalog Terraform Connector Create Config Provider form reference](../reference/cpg-terraform-connector-config-provider-form.md).
+        For a description of the form fields, see [Cloud Services Catalog Terraform Connector Create Config Provider form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-config-provider-form.md).
 
     4.  Select **Submit**.
 
 
 ## What to do next
 
-Discover the workspaces and Version Control System \(VCS\) repositories attached to the Terraform organization specified in the config provider. For more information, see [Run the IaC Discovery](discover-terraform-config-installables-vcs-workspaces.md).
+Discover the workspaces and Version Control System \(VCS\) repositories attached to the Terraform organization specified in the config provider. For more information, see [Run the IaC Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/discover-terraform-config-installables-vcs-workspaces.md).
 

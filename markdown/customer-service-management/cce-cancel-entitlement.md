@@ -2,7 +2,10 @@
 title: Cancel an entitlement
 description: Cancel an entitlement by creating an order on the CSM Configurable Workspace. By canceling an entitlement, you are canceling or disabling the services and characteristics associated with that entitlement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-cancel-entitlement.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

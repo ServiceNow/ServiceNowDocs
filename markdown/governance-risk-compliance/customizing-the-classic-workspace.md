@@ -2,6 +2,7 @@
 title: Customizing the Business Continuity Management classic Workspace
 description: You can set up the basic settings and features in the Business Continuity Management classic Workspace for your specific requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/customizing-the-classic-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

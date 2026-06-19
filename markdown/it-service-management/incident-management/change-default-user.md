@@ -2,6 +2,7 @@
 title: Configure default user for auto-closing incidents
 description: Change the default user who last updated an incident to the user you mention for auto-closing incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/change-default-user.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -35,5 +36,5 @@ Role required: admin
     For example, if you add `fcRunAs=admin`, the code places **System Administrator** in the **Updated by** field.
 
 
-**Parent Topic:**[Configuring Incident Management](../concept/incident-configuration.md)
+**Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/incident-configuration.md)
 

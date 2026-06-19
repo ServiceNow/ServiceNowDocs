@@ -2,6 +2,7 @@
 title: Configuring mentoring
 description: Configuring Mentoring.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/configuring-mentoring-egd.html
 release: australia
 product: Mentoring
 classification: mentoring

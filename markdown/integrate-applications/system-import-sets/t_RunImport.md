@@ -2,6 +2,7 @@
 title: Run an import
 description: You can manually run an import to immediately import data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/t\_RunImport.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -40,5 +41,5 @@ Three things to note at this point:
 -   Within that table, the imported records are designated with their own Set value.
 -   A new module is created in the System Import Sets application for the new table.
 
-**Parent Topic:**[Importing data using import sets](../concept/c_ImportDataUsingImportSets.md)
+**Parent Topic:**[Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_ImportDataUsingImportSets.md)
 

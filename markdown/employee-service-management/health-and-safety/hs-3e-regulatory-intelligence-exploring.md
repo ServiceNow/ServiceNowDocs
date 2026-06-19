@@ -2,6 +2,7 @@
 title: Explore 3E Regulatory Intelligence
 description: 3E Regulatory Intelligence is an API provided by 3E that works by retrieving regulatory list regulations from the 3E server to individual chemical substances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-3e-regulatory-intelligence-exploring.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -29,5 +30,5 @@ With 3E Regulatory Intelligence you can obtain the following benefits:
 -   Monitor regulatory conformance status at the substance, chemical, and chemical group level.
 -   Reduce manual effort in sourcing and maintaining regulatory data for hazardous chemicals.
 
-**Parent Topic:**[3E Regulatory Intelligence](hs-3e-regulatory-intelligence.md)
+**Parent Topic:**[3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-3e-regulatory-intelligence.md)
 

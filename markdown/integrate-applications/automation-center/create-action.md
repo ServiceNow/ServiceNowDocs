@@ -2,6 +2,7 @@
 title: Create an action
 description: Create an action to view and execute in Action Center to fix issues that cause automations to fail in Automation Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/create-action.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -131,5 +132,5 @@ Any execution instructions that you want to provide.
     If you select **Activate**, you cannot make any other changes to the action configuration, that is the **Action Type** and **Action** fields. The other fields can be updated.
 
 
-**Parent Topic:**[Creating an action](../concept/creating-action.md)
+**Parent Topic:**[Creating an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/creating-action.md)
 

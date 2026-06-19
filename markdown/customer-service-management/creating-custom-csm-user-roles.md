@@ -2,7 +2,10 @@
 title: Creating custom user roles
 description: System administrators can create custom roles or modify the access of existing roles by using script includes and extension points/instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/creating-custom-csm-user-roles.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -42,16 +45,16 @@ To create a role:
 
 For more information about modifying ACLs and query business rules, see [KB0685767](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0685767%26sysparm_stack%3D%26sysparm_view%3D).
 
-**Parent Topic:**[Roles installed with Customer Service Management](../reference/r_RolesInstalledWithCustomerService.md)
+**Parent Topic:**[Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-extension-points.md)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/client-extension-points.md)
+[bundle-crapiref.client-extension-points]
 

@@ -2,6 +2,7 @@
 title: DevOps System Health dashboard
 description: The System Health dashboard lets the DevOps administrator view the overall health of integrations, connectivity status, as well as view trends of inbound event processing data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/devops-system-health-dashboard.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -26,7 +27,7 @@ Use the System Health dashboard to track the health, event status, and connectiv
 -   Scores aren’t real-time. For example, if the chart displays that two events are in the waiting state, the events could have already moved to the completed state.
 -   Because the scores are fetched from formula indicators, you can’t drill down to the records in the KPI page.
 
-![DevOps System Health Dashboard](../image/devops-system-health-dashboard.png "DevOps System Health Dashboard")
+\[Omitted image "devops-system-health-dashboard.png"\] Alt text: DevOps System Health Dashboard
 
 ## Events
 
@@ -161,11 +162,11 @@ The Tool connectivity status report displays the connectivity status with detail
 
 To see the report, from the DevOps Change Workspace, navigate to **Administration** &gt; **System health** &gt; **Tool connectivity**.
 
-![Tool connectivity list.](../image/system-health-tool-conn.png)
+\[Omitted image "system-health-tool-conn.png"\] Alt text: Tool connectivity list.
 
 ## System health email notifications
 
-A base system DevOps Report group is added by default. An email notification summarizing the weekly System Health report is sent to the users in this DevOps Report user group that is specified in the **Who will receive** related list of the **System Notifications &gt; Email Notifications** form, as configured in the base system DevOps Health Report notification. For more information, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_EmailNotifications.md).
+A base system DevOps Report group is added by default. An email notification summarizing the weekly System Health report is sent to the users in this DevOps Report user group that is specified in the **Who will receive** related list of the **System Notifications &gt; Email Notifications** form, as configured in the base system DevOps Health Report notification. For more information, see Email notifications.
 
 **Note:**
 
@@ -176,13 +177,13 @@ The base-system email notification contains and displays a comparative digest of
 
 To configure the frequency in which the base system email notification is sent out. Navigate to **System Scheduler** &gt; **Scheduled Jobs** &gt; **Trigger DevOps Health Check Email Notification** and select the **Configure Job Notification** related link, and make the schedule changes.
 
-If you want to modify the users who receive the email notification, modify the user group specified in the **Groups** field of the **Who will receive** section. Navigate to **System Notification** &gt; **Email** &gt; **Notification** &gt; **DevOps Health Script**. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AddAUserToAGroup.md).
+If you want to modify the users who receive the email notification, modify the user group specified in the **Groups** field of the **Who will receive** section. Navigate to **System Notification** &gt; **Email** &gt; **Notification** &gt; **DevOps Health Script**. For more information, see .
 
 Use the **Preview Notification** option to check your notification.
 
 For example, you can see which users will or will not receive the notification, along with what instance details and period for which the notification is sent.
 
-![Preview for System health notification email](../image/system-health-email-notification-preview.png)
+\[Omitted image "system-health-email-notification-preview.png"\] Alt text: Preview for System health notification email
 
-**Parent Topic:**[DevOps Change Velocity reference](../reference/devops-change-velocity-reference.md)
+**Parent Topic:**[DevOps Change Velocity reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/devops-change-velocity-reference.md)
 

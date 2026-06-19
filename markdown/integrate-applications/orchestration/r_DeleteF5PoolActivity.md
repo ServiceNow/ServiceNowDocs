@@ -2,6 +2,7 @@
 title: Delete F5 Pool activity
 description: The Delete F5 Pool activity deletes an F5 load balancer pool.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_DeleteF5PoolActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [F5 Network Management activity pack, Orchestration activity packs, 
 
 The Delete F5 Pool activity deletes an F5 load balancer pool.
 
-This activity was built using the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
+This activity was built using the [REST web service activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateARESTWebServiceActivity.md). To access the activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Active Directory**.
 
 ## REST settings
 
@@ -44,5 +45,5 @@ This activity was built using the [REST web service activity template](../../orc
 |Success|Activity successfully deleted the F5 load balancer pool.|
 |Failure|Activity failed to delete the F5 load balancer pool.|
 
-**Parent Topic:**[F5 Network Management activity pack](../concept/c_OrchF5LoadBalancerActivities.md)
+**Parent Topic:**[F5 Network Management activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchF5LoadBalancerActivities.md)
 

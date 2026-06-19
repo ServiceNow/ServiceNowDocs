@@ -2,6 +2,7 @@
 title: Paginate return results record sets
 description: Within the Mobile SDK, when interacting with data from a ServiceNow instance through a REST endpoint using the NowTableService, you can create a Paginator object that enables you to iterate over the records in the return results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-paginate\_return\_records.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -19,11 +20,11 @@ You typically use paginated return results to provide infinite scroll capabiliti
 
 The NowTableService class provides two methods for creating a Paginator object that contains the return results from a REST endpoint call:
 
--   [NowTableService - paginator\(from tableName: String, configuration: FetchConfiguration? = nil\)](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#)
+-   [NowTableService - paginator\(from tableName: String, configuration: FetchConfiguration? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md)
 
     This method creates a Paginator object that contains the specified records from the specified table. If you do not include the FetchConfiguration object, it contains all records and their associated fields in the return results. This method returns raw data.
 
--   [NowTableService - paginator&lt;Model: Decodable&gt;\(from tableName: String, path: String = Constants.resultPath, coder: Coder = .default, configuration: FetchConfiguration? = nil\)](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/NowTableService/concept/NowTableServiceiOSAPI.md#)
+-   [NowTableService - paginator&lt;Model: Decodable&gt;\(from tableName: String, path: String = Constants.resultPath, coder: Coder = .default, configuration: FetchConfiguration? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md)
 
     This method creates a Paginator object that contains the specified records from the specified table. If you do not include the FetchConfiguration object, it contains all records and their associated fields in the return results. This method returns Codable models and enables you to define a custom `Coder` for Codable models that require custom decoding. You can supply a custom `JSONDecoder` by supplying a `NowData.Coder.custom` enumeration value that contains the custom `JSONDecoder` and `JSONEncoder`.
 
@@ -56,5 +57,5 @@ The returned Paginator object provides the following methods that enable you to 
 
 **Note:** Some Paginator methods may throw an exception, such as when there are no more pages to fetch.
 
-In addition, the Paginator object provides properties that enable you to obtain insights into the paginated data. For additional details on these properties and the available methods, see `[Paginator API - iOS](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/Paginator/concept/PaginatorIOSAPI.md#)`.
+In addition, the Paginator object provides properties that enable you to obtain insights into the paginated data. For additional details on these properties and the available methods, see `[Paginator API - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/PaginatorIOSAPI.md)`.
 

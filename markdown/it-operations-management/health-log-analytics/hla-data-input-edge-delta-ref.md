@@ -2,6 +2,7 @@
 title: Edge Delta data input configuration fields
 description: Description of the fields on the Edge Delta data input configuration form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-edge-delta-ref.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -59,7 +60,7 @@ When choosing the TCP transport option, create a TCP destination in Edge Delta t
 
 If you select HTTP, you must provide the MID Web Server that is running on the MID Server. The system then populates the MID Server and port fields automatically, based on the provided MID Web Server.
 
-Depending on the MID Web Server configuration, you can send logs using either HTTP or HTTPS. If the **Secure Connection** check box on the MID Web Server extension form is clear, use HTTP. If it is selected, use HTTPS. For more information, see [Event Management MID Web Server extension form](../../event-management/reference/configure-midwebserver-extension-form.md). In addition, if the **Authentication Type** on the MID Web Server extension form is Basic, provide Basic authentication details in the Authorization header. If the **Authentication Type** is API Key, provide the key as “Key Api\_Key".
+Depending on the MID Web Server configuration, you can send logs using either HTTP or HTTPS. If the **Secure Connection** check box on the MID Web Server extension form is clear, use HTTP. If it is selected, use HTTPS. For more information, see [Event Management MID Web Server extension form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-midwebserver-extension-form.md). In addition, if the **Authentication Type** on the MID Web Server extension form is Basic, provide Basic authentication details in the Authorization header. If the **Authentication Type** is API Key, provide the key as “Key Api\_Key".
 
 When choosing the HTTP transport option, create an HTTP destination in Edge Delta and enter the Endpoint URL in the following format: http://\{MID\_SERVER\_IP\}:\{MID\_WEB\_SERVER\_PORT\}/api/mid/hla/raw. In Advanced Settings, create two headers to be attached to the HTTP request:
 
@@ -100,8 +101,8 @@ Service instance
 
 The service instance to which to bind the log data. This field is required.Choosing the service instance enables HLA to correlate CIs and service instances in the CMDB for root cause analysis.
 
-**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
+**Note:** If no relevant service instance exists, Create an service instance and add CIs to it. Set the status of the new service instance to Operational.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](../concept/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

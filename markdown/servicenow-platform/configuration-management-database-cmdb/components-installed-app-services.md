@@ -2,6 +2,7 @@
 title: Components installed with application services
 description: Several types of components are installed with activation of the Application Service \[com.snc.cmdb.it\_service\] plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/components-installed-app-services.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -15,7 +16,7 @@ breadcrumb: [Service instances \(Application services\), Configuration Managemen
 
 Several types of components are installed with activation of the Application Service \[com.snc.cmdb.it\_service\] plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -217,7 +218,7 @@ Contains CI classes included or excluded from application services during popula
 
 To access application services properties, navigate to **All** &gt; **Configuration** &gt; **Application Services** &gt; **Properties**. The role required for modifying property values, is app\_service\_admin.
 
-If Service Mapping is deployed, see [Properties installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/components-installed-with-service-mapping.md) for additional application service properties.
+If Service Mapping is deployed, see Properties installed with Service Mapping for additional application service properties.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
@@ -239,7 +240,7 @@ The sys\_id of the default relation type to be added between source and target w
 
 -   Type: string
 -   Default value: 5599a965c0a8010e00da3b58b113d70e \(Depends on::Used by\)
--   Learn more: [Manually add CIs to an application service](../../service-mapping/task/manually-add-ci-to-business-service.md)
+-   Learn more: [Manually add CIs to an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/manually-add-ci-to-business-service.md)
 
 </td></tr><tr><td>
 
@@ -425,7 +426,7 @@ glide.cmdb.csdm.app\_service.max\_results
 
 Max number of items that are calculated in the '&lt;Application Servers \| Databases \| Hardware Servers&gt; Not in an Application Service' report in the Application Services dashboard. -   Type: integer
 -   Default value: 100000
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
+-   Location: Add to System Properties \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -435,7 +436,7 @@ sa.service.max\_ci\_service\_population
 
 The maximum number of CI connections added to application services during the following operations: Converting manual services created in Event Management into application services and updating application services with changes from the CMDB.-   Type: integer
 -   Default value: 1,000
--   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) table.
+-   Location: Add to System Properties \[sys\_properties\] table.
 
  Increasing the default value may cause performance issues.
 
@@ -445,7 +446,7 @@ sa.service.population.stop\_expansion\_under\_ci\_classes
 
 </td><td>
 
-List of application service CI classes. If an application service belongs to a CI class that extends one of the CI classes in the list, the system does not insert CIs under this application service CI during [Manually updating an application service with changes from the CMDB](../../service-mapping/task/update-services-from-cmdb.md).-   Type: string
+List of application service CI classes. If an application service belongs to a CI class that extends one of the CI classes in the list, the system does not insert CIs under this application service CI during [Manually updating an application service with changes from the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/update-services-from-cmdb.md).-   Type: string
 -   Default value: cmdb\_ci\_service\_discovered
 -   Location: System Property \[sys\_properties\] table.
 

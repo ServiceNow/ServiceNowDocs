@@ -2,6 +2,7 @@
 title: Now Assist Readiness Evaluation system properties
 description: Use system properties to customize your readiness assessment results. Access these properties from the System Property \[sys\_properties\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/nare-sys-props.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation

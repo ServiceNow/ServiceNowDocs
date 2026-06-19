@@ -2,6 +2,7 @@
 title: SegmentHandler API - Scoped
 description: Script include providing a chainable API for building an IDoc payload for a specific operation.Instantiates a new SegmentHandler object bound to an IDoc operation.Adds a predefined top-level segment of the type segmentName to the payload.Gets the built segment payload.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/SegmentHandlerAPIScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Script include providing a chainable API for building an IDoc payload for a specific operation.
 
-This script include requires the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) store application and is provided within the sn\_erp\_integration namespace. For more information, refer to [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-overview.md).
+This script include requires the Zero Copy Connector for ERP \(com.sn\_erp\_integration\) store application and is provided within the sn\_erp\_integration namespace. For more information, refer to .
 
 Role required: sn\_erp\_integration.erp\_user
 
@@ -24,11 +25,11 @@ The SegmentHandler class:
 -   Owns the root data object and the IDoc segment schema.
 -   Enables creating top-level segments. For example, `E1EDK01`, `E1EDP01`, and so on.
 
-For handling lower-level instances of a segment, such as a header or item, refer to [SegmentHandle API - Scoped](../../SegmentHandleScoped/concept/SegmentHandleAPIScoped.md#).
+For handling lower-level instances of a segment, such as a header or item, refer to [SegmentHandle API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SegmentHandleAPIScoped.md).
 
-See also [sn\_erp\_integration API - Scoped, Global](../../sn_erp_integrationBoth/concept/sn_erp_integrationBothAPI.md#).
+See also [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## SegmentHandler - SegmentHandler\(String operationId\)
 
@@ -120,7 +121,7 @@ Adds a predefined top-level segment of the type segmentName to the payload.
 
 |Type|Description|
 |----|-----------|
-|Object|[SegmentHandle](../../SegmentHandleScoped/concept/SegmentHandleAPIScoped.md#) for the new segment instance.|
+|Object|[SegmentHandle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/SegmentHandleAPIScoped.md) for the new segment instance.|
 
 The following example shows how to build a header and item with nested segments in one fluent chain. The structure depends on the configured schema. The schema pattern is arrays of segments with nested arrays.
 

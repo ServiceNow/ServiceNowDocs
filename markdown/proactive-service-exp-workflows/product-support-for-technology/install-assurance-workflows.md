@@ -2,13 +2,14 @@
 title: Install Proactive Service Experience Workflows
 description: If you’re a user with the system administrator role, you can install the Proactive Service Experience Workflows application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/install-assurance-workflows.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Proactive Service Experience Workflow, Configure, Product Support for Technology]
+breadcrumb: [Configure, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Install Proactive Service Experience Workflows
@@ -37,7 +38,7 @@ The Telecom core application is installed with Proactive Service Experience Work
 
     You can search for the application by its name or ID. If you can't find the application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -52,5 +53,5 @@ The Telecom core application is installed with Proactive Service Experience Work
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Proactive Service Experience Workflows](../concept/configure-assurance-workflows.md)
+**Parent Topic:**[Configuring Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 

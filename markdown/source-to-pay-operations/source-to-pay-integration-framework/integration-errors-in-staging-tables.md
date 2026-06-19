@@ -1,19 +1,21 @@
 ---
 title: Integration errors in staging tables
-description: Integration errors caused by the target ERP sources are recorded in the form of system-generated integration error tasks \(outbound integration error\). You can view the integration tasks associated with Procurement and Sourcing Operations, Supplier Lifecycle Operations and Accounts Payable Operations in the Tasks area of the Source-to-Pay workspace.
+description: ERP integration errors are recorded as system-generated error tasks in staging tables and appear in the Tasks area of the Source-to-Pay workspace, where outbound and inbound integration errors are categorized separately for resolution and reintegration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/integration-errors-in-staging-tables.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, Accounts Payable Workspace, ERP integration, staging table, outbound integration]
 breadcrumb: [Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Integration errors in staging tables
 
-Integration errors caused by the target ERP sources are recorded in the form of system-generated integration error tasks \(outbound integration error\). You can view the integration tasks associated with Procurement and Sourcing Operations, Supplier Lifecycle Operations and Accounts Payable Operations in the **Tasks** area of the Source-to-Pay workspace.
+ERP integration errors are recorded as system-generated error tasks in staging tables and appear in the **Tasks** area of the Source-to-Pay workspace, where outbound and inbound integration errors are categorized separately for resolution and reintegration.
 
 The integration errors are categorized as:
 

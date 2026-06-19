@@ -2,6 +2,7 @@
 title: Configure anomaly score thresholds
 description: Metric Intelligence scores anomalies on a range 0-10. This range is broken down to the five levels of event severities, each represented by a different color in the Insights Explorer and in the Anomaly Map. You can configure the anomaly score threshold for each level of severity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/cnfgr-anomaly-score-thresholds.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -23,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 Anomaly score thresholds are defined in the table Anomaly Score to Event Severity Map \[sa\_metric\_anomaly\_score\_to\_event\_severity\_map\]. For example, by default, anomaly scores from 8 through 9 are severity 2 \(Major\), and are displayed by dark orange color in the Insights Explorer and in the Anomaly Map.
 
-For information on the event severities that each number corresponds to, see [Event severities](../../agent-client-collector/reference/event-severities.md).
+For information on the event severities that each number corresponds to, see [Event severities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/event-severities.md).
 
 ## Procedure
 
@@ -36,5 +37,5 @@ For information on the event severities that each number corresponds to, see [Ev
 4.  Click **Update**.
 
 
-**Parent Topic:**[Optimizing Metric Intelligence](../../metric-intelligence/concept/optimizing-metric-intelligence.md)
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

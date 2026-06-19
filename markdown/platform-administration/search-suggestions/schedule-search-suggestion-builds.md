@@ -2,6 +2,7 @@
 title: Schedule the Build Search Suggestions script
 description: Specify when to run the script that builds auto-complete suggestions and search suggestions from user search strings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-suggestions/schedule-search-suggestion-builds.html
 release: australia
 product: Search Suggestions
 classification: search-suggestions

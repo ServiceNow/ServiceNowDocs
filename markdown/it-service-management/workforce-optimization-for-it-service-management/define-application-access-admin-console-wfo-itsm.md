@@ -2,6 +2,7 @@
 title: Define access to each application in the Admin Console in Workforce Optimization for ITSM
 description: Configure assignment group access to each application in Workforce Optimization for ITSM based on your organizational needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/define-application-access-admin-console-wfo-itsm.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -17,7 +18,7 @@ Configure assignment group access to each application in Workforce Optimization 
 
 ## Before you begin
 
-Starting with the Australia release, Admin Console in Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** Starting with the Australia release, Admin Console in Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: admin
 
@@ -50,5 +51,5 @@ Role required: admin
         The selected managers are granted access to the application.
 
 
-**Parent Topic:**[Admin Console in Workforce Optimization for ITSM](../concept/admin-console-wfo-itsm.md)
+**Parent Topic:**[Admin Console in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/admin-console-wfo-itsm.md)
 

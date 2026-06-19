@@ -2,6 +2,7 @@
 title: Set the Recommended Actions application system properties
 description: Set the system properties for the Recommended Actions application to view the recommendations in the contextual panel of the Automation Center Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/set-sys-prop.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -30,7 +31,7 @@ Role required: admin
 
 The Recommendations contextual panel is displayed in the Automation Center Workspace.
 
-![Recommendations contextual panel](../images/reco-options.png "Recommendations contextual panel")
+\[Omitted image "reco-options.png"\] Alt text: Recommendations contextual panel
 
 -   Recommendations will be displayed in the contextual panel of the automation request record.
 -   Select **Dismiss** to remove the recommendation from the list.
@@ -38,5 +39,5 @@ The Recommendations contextual panel is displayed in the Automation Center Works
 -   If more than three applications are used for an automation request, then three are listed, and the rest are displayed as numbers. When you select **View details**, you can see all the applications used.
 -   All other details of the recommended automations and automation requests, such as state, actual cost, and actual time are also displayed.
 
-**Parent Topic:**[Configuring the Recommended Actions application with Automation Center](../concept/config-ra.md)
+**Parent Topic:**[Configuring the Recommended Actions application with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/config-ra.md)
 

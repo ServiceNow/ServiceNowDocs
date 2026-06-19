@@ -2,6 +2,7 @@
 title: Unified Map
 description: The Unified Map feature displays a graphical hierarchical map of the CMDB — CIs and the connections between them. Unified Map combines some of the capabilities of Dependency Views and of Service Mapping into a single map experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/unified-map/unified-map-landing-page.html
 release: australia
 product: Unified Map
 classification: unified-map
@@ -19,15 +20,15 @@ The Unified Map feature displays a graphical hierarchical map of the CMDB — CI
 
 <table id="table_ak5_rj3_dgc" class="nav-card presentation"><tbody><tr><td>
 
-Explore[![](../../../reuse/icons/brand-icons/bus-explore.svg)Explore map tools and controls.](../concept/cmdb-workspace-unified-map.md)
+Explore[\[Omitted image "bus-explore.svg"\] Alt text:Explore map tools and controls.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md)
 
 </td><td>
 
-[Administer![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up uniform map experiences for users.](../concept/administer-unified-map.md)
+[Administer\[Omitted image "bus-sdlc.svg"\] Alt text:Set up uniform map experiences for users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/administer-unified-map.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)View and manage the displayed data.](../concept/using-unified-map.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:View and manage the displayed data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/using-unified-map.md)
 
 </td></tr></tbody>
 </table>

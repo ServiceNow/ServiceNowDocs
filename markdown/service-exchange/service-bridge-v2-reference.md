@@ -2,6 +2,7 @@
 title: Service Exchange reference
 description: Reference topics provide additional information about the Service Exchange data model and configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-reference.html
 release: australia
 product: Service Exchange
 classification: service-exchange

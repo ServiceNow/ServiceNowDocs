@@ -2,13 +2,14 @@
 title: Configure sensor data providers
 description: Configure sensor data providers in Workplace Connectors for retrieving the workplace sensor data from third-party data providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/providers-occupancy.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace Connectors, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure sensor data providers
@@ -32,9 +33,9 @@ Role required: admin \(sn\_wsd\_wc.admin\)
 3.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Workplace Connectors](../concept/configure-workplace-connectors.md)
+**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Install Workplace Connectors](../concept/install-workplace-connectors.md)
+**Previous topic:**[Install Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/install-workplace-connectors.md)
 
-**Next topic:**[Setup Workplace Connectors for badging data](../concept/setup-workplace-connectors.md)
+**Next topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 

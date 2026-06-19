@@ -2,6 +2,7 @@
 title: Create new models using the legacy Software Asset Management plugin
 description: If the automatically generated software model is not correct or if the system cannot find a match from existing models, you can create a new model using the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_CreatingNewModels.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -49,10 +50,10 @@ Role required: sam
 
 6.  Select **Approved**.
 
-    ![SAM match model](../image/SAMMatchModel.png "SAM match model")
+    \[Omitted image "SAMMatchModel.png"\] Alt text: SAM match model
 
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Software discovery models in the legacy Software Asset Management plugin](../concept/c_UsingSoftwareDiscoveryModels.md)
+**Parent Topic:**[Software discovery models in the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_UsingSoftwareDiscoveryModels.md)
 

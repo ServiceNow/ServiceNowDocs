@@ -2,6 +2,7 @@
 title: Service Mapping for containerized environments using KVA
 description: Kubernetes Visibility Agent \(KVA\) and Service Mapping discover and visualize application dependencies across Kubernetes clusters and related resources, providing complete visibility into containerized environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/mapping-k8s-sm-kva.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -66,10 +67,10 @@ Service Mapping and KVA combined capabilities transform complex architectures in
 
 To begin discovering and mapping Kubernetes services, install Kubernetes Visibility Agent \(KVA\) latest version and make sure Service Mapping requirements are met. For more information, see:
 
--   [Configuring Kubernetes Visibility Agent](../../cloud-native-operations-visibility/concept/cnov-configuring.md)
--   [Configuring Service Mapping](service-mapping-setup.md)
+-   [Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-configuring.md)
+-   [Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/service-mapping-setup.md)
 
-[Create hybrid application service maps](../../cloud-native-operations-visibility/task/create-hybrid-application-service-maps.md)
+[Create hybrid application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-hybrid-application-service-maps.md)
 
 Enter an application entry point into Service Mapping. KVA automatically identifies whether this entry point connects to Kubernetes resources and initiates comprehensive topology discovery.
 

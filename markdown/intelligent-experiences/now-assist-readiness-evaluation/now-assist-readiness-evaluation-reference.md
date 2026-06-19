@@ -2,6 +2,7 @@
 title: Now Assist Readiness Evaluation reference
 description: Now Assist Readiness Evaluation admins and implementers can work with select system properties for additional customization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-reference.html
 release: australia
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation

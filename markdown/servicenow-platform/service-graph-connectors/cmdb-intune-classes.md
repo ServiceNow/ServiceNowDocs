@@ -2,6 +2,7 @@
 title: CMDB classes targeted in Service Graph Connector for Microsoft Intune
 description: When you complete setting up the connection, you can configure the integration to periodically pull data from Microsoft Intune. The data from the regular data sources \(SG-Intune Computer, SG-Intune Devices, and SG-Intune Software\) and the advanced data sources \(SG-Intune Device Reports and SG-Intune Software Reports\) is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-intune-classes.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors

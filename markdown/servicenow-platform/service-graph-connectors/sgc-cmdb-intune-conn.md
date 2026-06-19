@@ -2,6 +2,7 @@
 title: Accessing the connection details of Service Graph Connector for Microsoft Intune
 description: You can access the connection details of the Service Graph Connector for Microsoft Intune in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.Access the details of a Microsoft Intune connection configured for the Service Graph Connector for Microsoft Intune.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-cmdb-intune-conn.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
@@ -16,7 +17,7 @@ breadcrumb: [Microsoft Intune, Service Graph Connectors, Integrating third-party
 
 You can access the connection details of the Service Graph Connector for Microsoft Intune in a single view using the common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app.
 
-With the CCF feature, you can access all connections for a connector. Connection details include the alias, properties, data sources, and associated scheduled data imports. In addition, you can test a connection. Additional details may appear depending on the connector type. For more information, see [Accessing the connection details of Service Graph Connectors](integration-commons-conn-fw.md).
+With the CCF feature, you can access all connections for a connector. Connection details include the alias, properties, data sources, and associated scheduled data imports. In addition, you can test a connection. Additional details may appear depending on the connector type. For more information, see [Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md).
 
 ## Access the details of a Microsoft Intune connection
 

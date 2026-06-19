@@ -2,11 +2,12 @@
 title: Set up Alibaba Cloud service accounts
 description: Create Alibaba Cloud infrastructure service accounts on the ServiceNow AI Platform to access your Alibaba Cloud account during Alibaba Cloud discovery.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/set-up-alibaba-cloud-service-account.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -17,7 +18,7 @@ Create Alibaba Cloud infrastructure service accounts on the ServiceNow AI Platfo
 
 ## Before you begin
 
-Verify that Alibaba Cloud API credentials have been created. For more information, see [Create Alibaba Cloud API Credentials](create-alibaba-cloud-api-credentials.md).
+Verify that Alibaba Cloud API credentials have been created. For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
 
 Retrieve the **Account ID**, which can be found under **Root Account** or **RAM User** in the Alibaba Cloud Console. For more information, see the [Alibaba Cloud documentation](https://www.alibabacloud.com/help/en).
 
@@ -45,7 +46,7 @@ Role required: discovery\_admin
 
 ## What to do next
 
-Create a schedule for Alibaba Cloud in [Discovery](create-alibaba-cloud-discovery-schedule.md) or [Discovery Admin Workspace](create-alibaba-schedule-DAW.md).
+Create a schedule for Alibaba Cloud in [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-alibaba-cloud-discovery-schedule.md) or [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/create-alibaba-schedule-DAW.md).
 
-**Parent Topic:**[Discovery for Alibaba Cloud](../concept/alibaba-cloud-discovery.md)
+**Parent Topic:**[Discovery for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/alibaba-cloud-discovery.md)
 

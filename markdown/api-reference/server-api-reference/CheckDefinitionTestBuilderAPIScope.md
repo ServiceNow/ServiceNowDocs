@@ -2,6 +2,7 @@
 title: CheckDefinitionTestBuilder - Scoped
 description: The CheckDefinitionTestBuilder script include provides methods that enable you to building test check requests on check definitions.Creates an CheckDefinitionTestBuilder instance.Builds the test check request with the arguments set.Sets the sys\_id of the check definition to test.Sets the sys\_id of the configuration item to run the test against.Sets the credentials alias sys\_id to use during the test.Sets the credentials alias name to use during the test. If the given value matches the name of multiple credentials aliases records, then one of them is chosen randomly.Sets the credentials sys\_id to use during the test.Sets the credentials name to use during the test. If the given value is the name of several credentials records, then one of them is chosen randomly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/CheckDefinitionTestBuilderAPIScope.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,9 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The CheckDefinitionTestBuilder script include provides methods that enable you to building test check requests on check definitions.
 
-This script include requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. For more information, refer to [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-landing-page.md).
+This script include requires the Agent Client Collector Framework \(sn\_agent\) store application and is provided within the `sn_agent` namespace. For more information, refer to Agent Client Collector.
 
-For the REST API solution, refer to [Agent Client Collector API](../../../../../integrate/inbound-rest/concept/agnt_clnt_cll-api.md#).
+For the REST API solution, refer to [Agent Client Collector API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/agnt_clnt_cll-api.md).
 
 This script include provides methods that enable the following:
 
@@ -30,7 +31,7 @@ You can also specify one of the following identifiers to use during the test:
 -   Credential alias id
 -   Credential name
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## CheckDefinitionTestBuilder - CheckDefinitionTestBuilder\(\)
 

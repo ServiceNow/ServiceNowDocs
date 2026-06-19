@@ -2,6 +2,7 @@
 title: Enhance search criteria
 description: Narrow the search criteria by specifying the column against which you want users to be searched. When an HR agent searches for a user while creating a case, provide more accurate search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/enhance-case-search.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,6 +2,7 @@
 title: SSH credentials
 description: Discovery, Orchestration, and Integration Hub explore UNIX and Linux devices by using SSH credentials to execute commands over Secure Shell \(SSH\). SSH commands must run with root privileges, either with root credentials or through the use of sudo. SSH private key credentials provide additional security.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/r\_SSHCredentialsForm.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -26,7 +27,7 @@ Use either of these approaches to allow users to run SSH commands with root priv
 
 ## Privileged commands
 
-The platform provides default privileged commands for the MID Server to use and the ability to add additional commands to the system. For details about using sudo and other privileged commands, see [MID Server privileged commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/c_PrivilegedCommandsForMIDServer.md).
+The platform provides default privileged commands for the MID Server to use and the ability to add additional commands to the system. For details about using sudo and other privileged commands, see MID Server privileged commands.
 
 ## SSH private key credential type
 
@@ -149,7 +150,7 @@ Credential alias
 
 </td><td>
 
--   Allow flow designers to use aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Connections and Credentials](r-credentials.md).
+-   Allow flow designers to use aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
 -   Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow or assign different credentials to each occurrence of the same activity type in an Orchestration workflow.
 
 </td></tr><tr><td>
@@ -243,7 +244,7 @@ Credential alias
 
 </td><td>
 
--   Allow flow designers to use aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Connections and Credentials](r-credentials.md).
+-   Allow flow designers to use aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
 -   Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow or assign different credentials to each occurrence of the same activity type in an Orchestration workflow. To use the credential for discovering CIs not belonging to this CI type using Service Mapping and Discovery patterns, enter the table name for the CI type to which the CI belongs, for example cmdb\_ci\_apache\_web\_server.
 
 </td></tr><tr><td>
@@ -252,7 +253,7 @@ External credential store
 
 </td><td>
 
-Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](../concept/c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](../concept/c_CyberArkCredStorageIntegrate.md).
+Select this check box to use an external credential storage system. When you select this option the **User name** and **Password** fields are replaced with the **Credential ID** field. [External credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_ExternalCredentialStorage.md) is only available when the External Credential Storage plugin in activated. **Note:** Currently, the only supported external storage system is [CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md).
 
 </td></tr><tr><td>
 
@@ -483,7 +484,7 @@ Lists running process. As an alternative to running with root access, add a proc
 -   **Used by**: Discovery
 
 </td></tr></tbody>
-</table>For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+</table>For a list of privileged commands that you need for Discovery and Service Mapping, see . This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 ## Access Requirements for Non-Root Credentials
 

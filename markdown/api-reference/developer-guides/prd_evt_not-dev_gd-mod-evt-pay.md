@@ -2,6 +2,7 @@
 title: Modify a trouble ticket event payload
 description: The base trouble ticket event notification implementation provides multiple default trouble ticket event type examples. You may need to alter the payloads for these events within your implementation to meet your actual needs. You may also need to configure the payload for any new trouble ticket events that you add to your implementation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/prd\_evt\_not-dev\_gd-mod-evt-pay.html
 release: australia
 product: Developer Guides
 classification: developer-guides

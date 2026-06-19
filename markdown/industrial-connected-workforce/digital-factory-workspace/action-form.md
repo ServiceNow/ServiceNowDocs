@@ -2,6 +2,7 @@
 title: Action form
 description: The following table describes the field values for the Action form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/action-form.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -130,7 +131,7 @@ Priority of the action. This field is automatically set based on impact and urge
 -   4 - Within 7 days
 -   5 - Within 30 days
 
-For more details, see [Priority matrix for actions](priority-matrix-actions.md).
+For more details, see [Priority matrix for actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/priority-matrix-actions.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ Due date
 
 </td><td>
 
-Date by which the task should be executed. If you don't set the due date, it is calculated based on priority when you save the form. For more details, see [Due date calculation](due-date-calculation.md).
+Date by which the task should be executed. If you don't set the due date, it is calculated based on priority when you save the form. For more details, see [Due date calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/due-date-calculation.md).
 
 </td></tr><tr><td>
 
@@ -149,5 +150,5 @@ Escalate to
 User that the action should be escalated to.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Factory Workspace reference](digital-factory-workspace-reference.md)
+</table>**Parent Topic:**[Digital Factory Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/digital-factory-workspace-reference.md)
 

@@ -2,6 +2,7 @@
 title: Discovery models and software installations
 description: Software discovery models are automatically created during discovery to identify and normalize the software installed in your environment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/c\_DiscoveryModels.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -17,7 +18,7 @@ Software discovery models are automatically created during discovery to identify
 
 Software discovery models are stored in the Software Discovery Model \[cmdb\_sam\_sw\_discovery\_model\] table. The normalization process is automatically run when a new discovery model is created. Discovery models are not created for software installations that have a name containing `Security Update`.
 
-There is a difference between [software models](software-models-and-entitlements.md) and software discovery models.
+There is a difference between [software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-models-and-entitlements.md) and software discovery models.
 
 -   A software model is a specific version or configuration of software that is purchased and/or available to users.
 -   A software discovery model is a model created when a version of software is discovered in a network environment.
@@ -40,7 +41,7 @@ Primary key: **Publisher**, **Display Name**, and **Version**
 
 For example, if no match is found for version number 8.0.4, but version 8.0 is found, then version 8.0 is used in the **Software model** field.
 
-**Note:** If normalized field values differ from the values in the package or pattern, a caution icon is indicated next to the Normalization status field indicating that a normalization suggestion record has been created. Clicking the caution icon opens the [Normalization Suggestion](../task/view-norm-suggestions-sam.md) record for that discovery model.
+**Note:** If normalized field values differ from the values in the package or pattern, a caution icon is indicated next to the Normalization status field indicating that a normalization suggestion record has been created. Clicking the caution icon opens the [Normalization Suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/view-norm-suggestions-sam.md) record for that discovery model.
 
 The differing values can be set by the user, or by accepting the normalization suggestion changes. Once a new value is set, the normalization status changes form Normalized to Manually Normalized.
 
@@ -60,5 +61,5 @@ Installed software is placed in the Software Installation \[cmdb\_sam\_sw\_insta
 
 Discovery automatically matches the discovered software installation with a new or existing software discovery model using the primary key.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

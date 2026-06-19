@@ -2,6 +2,7 @@
 title: Authenticator Applications
 description: Use third party authenticator applications to generate temporary MFA pass codes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/mfa-auth-app.html
 release: australia
 product: Authentication
 classification: authentication
@@ -19,7 +20,7 @@ An authenticator application is third-party software that generates temporary pa
 
 If your administrator has enabled MFA on your instance, you see a prompt for a pass-code after entering your user and password during login.
 
-![TOTP setup](../images/mfa-new-exp-auth-app.png)
+\[Omitted image "mfa-new-exp-auth-app.png"\] Alt text: TOTP setup
 
 ServiceNow requires authenticator applications that support Time-based One-time Passwords \(TOTP\).
 

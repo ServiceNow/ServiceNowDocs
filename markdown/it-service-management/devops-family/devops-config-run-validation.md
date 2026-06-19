@@ -2,6 +2,7 @@
 title: Run validation in DevOps Config
 description: After you have installed and configured DevOps Config, validate the configuration and review the results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-run-validation.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,7 +18,7 @@ After you have installed and configured DevOps Config, validate the configuratio
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: sn\_devops\_config.admin
 

@@ -2,6 +2,7 @@
 title: Datadog advanced settings fields
 description: Populate the Datadog advanced settings fields to define API paths, batching limits, host filters, sync duration, connection details, and debugging options. These values control how the pull connector retrieves and processes metrics and host data from Datadog, ensuring the connector runs with the desired scope and behavior.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/datadog-advanced-settings-fields.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -99,7 +100,7 @@ Debugging
 -   Log payload: Displays raw log data. Use only for debugging, as it can quickly fill the MID Server logs.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Configure Datadog metric pull connector](../task/configure-datadog-metric-pull-connector.md).
+</table>To return to the procedure, see [Configure Datadog metric pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/configure-datadog-metric-pull-connector.md).
 
-**Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
+**Parent Topic:**[Service Operations Workspace for ITOM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/sow-reference-itom.md)
 

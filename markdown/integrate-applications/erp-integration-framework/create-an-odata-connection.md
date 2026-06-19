@@ -2,6 +2,7 @@
 title: Create an OData connection in Zero Copy Connector for ERP
 description: Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/create-an-odata-connection.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -20,7 +21,7 @@ Create an OData v2 connection to link to SAP via HTTP so data can be extracted f
 
 Role required: admin
 
-For information about OData connections in Zero Copy Connector for ERP, see [Connect Zero Copy Connector for ERP to SAP using OData and HTTP](../concept/erp-canvas-use-odata-and-http-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](../reference/erp-data-hub-odata-query-capabilities.md).
+For information about OData connections in Zero Copy Connector for ERP, see [Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
 
 ## About this task
 
@@ -41,17 +42,17 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     For more information, see:
 
-    -   [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md)
-    -   [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md)
-    -   [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/API-key-credential-form.md)
-    -   [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/connection-alias.md)
+    -   
+    -   
+    -   
+    -   Create a Connection &amp; Credential alias
 3.  Create an HTTP connection and associate it with the new alias.
 
-    **Note:** For more information, see [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/create-https-connection.md). If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
+    **Note:** For more information, see . If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
 
 4.  Create a system with the HTTP connection.
 
-    For more information, see [Create an ERP system in Zero Copy Connector for ERP](create-an-erp-system.md).
+    For more information, see [Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/create-an-erp-system.md).
 
 5.  On the system record, confirm that the heartbeats are successful and the retrieval status is complete.
 
@@ -59,7 +60,7 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
 6.  Create a model and, after saving, open the model record.
 
-    For more information, see [Create a model](erpc-add-new-data-model.md).
+    For more information, see [Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md).
 
 7.  Select **Manage model**.
 
@@ -79,11 +80,11 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
         When you specify the service, a call is made to the SAP service to read its metadata. The default service is /sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection. If you must change the service, create a property named sn\_erp\_integration.odata\_service\_path and set the value.
 
-        If you cannot find the service you need, see [Add a service manually in Zero Copy Connector for ERP](erp-add-a-service-manually.md).
+        If you cannot find the service you need, see [Add a service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
 
     3.  In **Select the endpoints**, search for and select an endpoint, for example **A\_BusinessPartnerType**.
 
-        ![Add entity modal with OData service and endpoint specified.](../image/erp-create-odata-conn1.png)
+        \[Omitted image "erp-create-odata-conn1.png"\] Alt text: Add entity modal with OData service and endpoint specified.
 
     4.  Select **Add entity**.
 
@@ -91,23 +92,23 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
 11. Select **Specify inputs** to check the information and edit as needed.
 
-    For more information, see [Manage input parameters for a Zero Copy Connector for ERP model operation](erpc-manage-model-inputs.md).
+    For more information, see [Manage input parameters for a Zero Copy Connector for ERP model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs.md).
 
 12. Select **Choose output** to check the information and edit as needed.
 
-    For more information, see [Choose output parameters for a model](erp-canvas-manage-outputs.md).
+    For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
-13. Open the ERP systems list by selecting the systems icon ![](../image/erp-systems-icon-sidebar.png) in the side panel.
+13. Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
 
 14. Select the system.
 
 15. Check the heartbeat and retrieval status until they're successful.
 
-    ![ERP system record with HTTP heartbeat status and OData retrieval status highlighted.](../image/erp-create-odata-conn2.png)
+    \[Omitted image "erp-create-odata-conn2.png"\] Alt text: ERP system record with HTTP heartbeat status and OData retrieval status highlighted.
 
 16. Create a model.
 
-    1.  Open the ERP models page by selecting the models icon ![](../image/erpc-data-model-icon.png) in the side panel.
+    1.  Open the ERP models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text: in the side panel.
 
     2.  Select **New**.
 
@@ -135,7 +136,7 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     4.  Select **Add entity** and wait for retrieval to complete.
 
-        ![Add entity form with type, service, and endpoint specified.](../image/erp-create-odata-conn3.png)
+        \[Omitted image "erp-create-odata-conn3.png"\] Alt text: Add entity form with type, service, and endpoint specified.
 
 19. Select **Specify inputs** to check the information and edit as needed.
 
@@ -174,5 +175,5 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
     9.  View and check the output, for example, in **Output Data**, select the **Response** to view the output.
 
 
-**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](../concept/erp-canvas-use-odata-and-http-connection.md)
+**Parent Topic:**[Connect Zero Copy Connector for ERP to SAP using OData and HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

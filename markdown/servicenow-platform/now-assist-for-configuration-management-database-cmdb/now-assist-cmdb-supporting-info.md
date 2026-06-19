@@ -2,6 +2,7 @@
 title: Supporting information for Now Assist for CMDB
 description: Get a quick overview of the important information that is related to the Now Assist for CMDB application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-supporting-info.html
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
@@ -19,11 +20,11 @@ Get a quick overview of the important information that is related to the Now Ass
 
 Now Assist for CMDB is supported starting with Xanadu patch 3.
 
-For more information, see [Configuring Now Assist for CMDB](now-assist-cmdb-configuring.md).
+For more information, see [Configuring Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md).
 
 ## Supported LLMs
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see .
 
 ## Supported languages
 
@@ -38,7 +39,7 @@ Now Assist for CMDB supports the following languages across all skills:
 -   Brazilian Portuguese
 -   Italian
 
-For more info, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
+For more info, see 
 
-**Parent Topic:**[Exploring Now Assist for CMDB](now-assist-cmdb-exploring.md)
+**Parent Topic:**[Exploring Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-exploring.md)
 

@@ -1,21 +1,23 @@
 ---
 title: Accounts Payable Operations integration framework
-description: Invoice integration facilitates inbound and outbound integration with third party applications or any external systems into the ServiceNow application.
+description: Invoice integration in Accounts Payable Operations enables bidirectional data exchange with third-party ERP systems and external applications for invoice ingestion, posting, and synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/using-integration-to-create-invoice.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [APO, Accounts Payable Operations, invoice management, integration, inbound integration, outbound integration]
 breadcrumb: [Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Accounts Payable Operations integration framework
 
-Invoice integration facilitates inbound and outbound integration with third party applications or any external systems into the ServiceNow® application.
+Invoice integration in Accounts Payable Operations enables bidirectional data exchange with third-party ERP systems and external applications for invoice ingestion, posting, and synchronization.
 
-The integration framework consists of inbound invoice and outbound invoice interface tables. Invoice integration involves the transfer of invoice and invoice line data by running transform maps through various sources or external systems. For more information on integration, see [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integrationhub.md).
+The integration framework consists of inbound invoice and outbound invoice interface tables. Invoice integration involves the transfer of invoice and invoice line data by running transform maps through various sources or external systems. For more information on integration, see .
 
 The integration framework enables the following use cases:
 
@@ -23,7 +25,7 @@ The integration framework enables the following use cases:
 -   Post invoices into ERP- The invoice and invoice line data with **Approved** status is synchronized with ServiceNow® outbound invoice and invoice line tables. The integration status is set to **New** and is referred as outbound integration.
 -   Ingest invoice payment details from ERP- The ERP number received from the third party application is updated in the invoice table with payment status as **Pending Payment**. The supplier selects the payment method, proceeds with the payment and sets the payment status as **Paid**.
 
-For example, You’re receiving invoice data from various sources. The invoice data is transferred to inbound invoice and invoice lines if the required fields are set on the invoice. For more information on the required fields, see [Inbound Invoice Fields](../reference/inbound-invoice-fields.md) and [Inbound invoice line fields](../reference/inbound-invoice-line-fields.md). The invoice status changes to **Approved** and the invoice data is transferred to outbound invoice tables. The outbound invoice displays the integration status as **New**. The ERP integrator fetches the outbound invoices with status as **New**, creates a record in the third party application and sets the integration status to **In progress**. After the outbound data is successfully processed by the third party application, the system auto updates the ERP number in the outbound invoice tables and sets the integration status to **Processed**. The ERP number is updated in the invoice table with payment status set to **Pending Payment**.The supplier verifies the invoice payment details, proceeds with the payment and the payment status is set to **Paid**. For more information on payment fields, see [Inbound invoice payment fields](../reference/inbound-invoice-payment-fields.md).
+For example, You’re receiving invoice data from various sources. The invoice data is transferred to inbound invoice and invoice lines if the required fields are set on the invoice. For more information on the required fields, see [Inbound Invoice Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-fields.md) and [Inbound invoice line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-line-fields.md). The invoice status changes to **Approved** and the invoice data is transferred to outbound invoice tables. The outbound invoice displays the integration status as **New**. The ERP integrator fetches the outbound invoices with status as **New**, creates a record in the third party application and sets the integration status to **In progress**. After the outbound data is successfully processed by the third party application, the system auto updates the ERP number in the outbound invoice tables and sets the integration status to **Processed**. The ERP number is updated in the invoice table with payment status set to **Pending Payment**.The supplier verifies the invoice payment details, proceeds with the payment and the payment status is set to **Paid**. For more information on payment fields, see [Inbound invoice payment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/inbound-invoice-payment-fields.md).
 
 The advantages of integration framework are:
 

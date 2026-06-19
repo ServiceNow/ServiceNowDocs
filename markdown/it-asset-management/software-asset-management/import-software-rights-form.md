@@ -2,6 +2,7 @@
 title: Entitlement import error actions
 description: Entitlement Import Error form action descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/import-software-rights-form.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -58,5 +59,5 @@ Create duplicate entitlement
 Duplicate entitlement records cause an import error. Select **Create duplicate entitlement** to override the error and create an entitlement for the duplicate record. **Note:** This action only appears if there is an entitlement that already exists and a duplicate entitlement is being created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management references](references.md)
+</table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/references.md)
 

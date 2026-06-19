@@ -2,11 +2,12 @@
 title: Select and assign multiple tasks
 description: Dispatchers can select multiple tasks on which to run dynamic scheduling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/select-tasks-for-bulk-assignment.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---
@@ -41,8 +42,8 @@ If there has been an update to any of the selected tasks, an informational messa
 The system considers the time mentioned in the following fields before assigning a task to an agent.
 
 -   **Scheduled travel start** and **Scheduled start** when `Ignore calculation of travel time for agents to task location based on schedule` is enabled.
--   **Estimated onsite arrival buffer duration** when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled. For more information, see [Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md).
--   Agent's start and end locations are considered from the **Resource Schedule Attributes** table for the given day. For more information, see [Change schedule attributes for agents](change-agent-start-end-location.md).
+-   **Estimated onsite arrival buffer duration** when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/t_ConfigureFieldService.md).
+-   Agent's start and end locations are considered from the **Resource Schedule Attributes** table for the given day. For more information, see [Change schedule attributes for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/change-agent-start-end-location.md).
 
 The work order tasks are automatically assigned to an agent. If the agent does not accept the tasks in a specific time period, the work order tasks get auto rejected. The dispatcher can reassign the tasks to other available agents.
 

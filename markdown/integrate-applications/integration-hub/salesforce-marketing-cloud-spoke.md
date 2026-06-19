@@ -2,6 +2,7 @@
 title: Salesforce Marketing Cloud Spoke
 description: The Salesforce Marketing Cloud spoke is built by Bristlecone, Inc. This spoke provides actions to retrieve records from your Salesforce Marketing Cloud data extensions and retrieve and update user information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/salesforce-marketing-cloud-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The Salesforce Marketing Cloud spoke is built by Bristlecone, Inc. This spoke pr
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Salesforce Marketing Cloud spoke v1.5.2 is the latest version.
+Salesforce Marketing Cloud spoke v1.6.1 is the latest version.
 
 ## Supported versions
 
@@ -93,5 +94,5 @@ Displays the list of Salesforce Marketing Cloud configurations, such as data ext
 
 The Salesforce Marketing Cloud spoke uses a Connection &amp; Credential alias for the connection setup and the user profile that is attached to the SOAP security policies for the credential setup. If you are connecting to multiple Salesforce Marketing Cloud environments, you must use the same credential information in each environment.
 
-For information about setting up the spoke, see [Set up the Salesforce Marketing Cloud spoke](../task/setup-salesforce-marketing-cloud.md#).
+For information about setting up the spoke, see [Set up the Salesforce Marketing Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-salesforce-marketing-cloud.md).
 

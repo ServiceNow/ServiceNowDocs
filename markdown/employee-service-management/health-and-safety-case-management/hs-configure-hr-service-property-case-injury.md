@@ -2,6 +2,7 @@
 title: Configure HR service for creating an HR case for an injury
 description: Configure the HR service that you want to use for creating HR cases for injuries and illnesses.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-case-management/hs-configure-hr-service-property-case-injury.html
 release: australia
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
@@ -19,14 +20,14 @@ Configure the HR service that you want to use for creating HR cases for injuries
 
 Ensure that the following conditions are met:
 
--   The Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is installed on your ServiceNow instance. For more information on activating it, see [Activate Case and Knowledge Management](../../human-resources/task/activate-case-and-knowledge-management-scoped.md).
--   The application scope is selected as Health and Safety Case Management. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+-   The Human Resources Scoped App: Core \(com.sn\_hr\_core\) plugin is installed on your ServiceNow instance. For more information on activating it, see [Activate Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md).
+-   The application scope is selected as Health and Safety Case Management. For more information, see Application picker.
 
 Role required: sn\_hs\_cm.case\_manager and sn\_hr\_core.admin
 
 ## About this task
 
-For information on HR services and what you can configure, see [HR services](../../human-resources/concept/hr-service-administration.md).
+For information on HR services and what you can configure, see [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-administration.md).
 
 ## Procedure
 
@@ -47,9 +48,9 @@ For information on HR services and what you can configure, see [HR services](../
     3.  Select **Save**.
 
 
-**Parent Topic:**[Configuring Health and Safety Case Management](../concept/hs-setting-up-case-management.md)
+**Parent Topic:**[Configuring Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-setting-up-case-management.md)
 
-**Previous topic:**[Install Health and Safety Case Management](install-hs-case-management.md)
+**Previous topic:**[Install Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/install-hs-case-management.md)
 
-**Next topic:**[Submitting Health and Safety cases](../concept/hs-submitting-health-safety-cases.md)
+**Next topic:**[Submitting Health and Safety cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-case-management/hs-submitting-health-safety-cases.md)
 

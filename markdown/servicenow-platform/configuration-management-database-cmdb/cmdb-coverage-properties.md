@@ -2,6 +2,7 @@
 title: CMDB Coverage properties
 description: CMDB Coverage properties control the behavior of the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-properties.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -56,12 +57,12 @@ Records from the child tables \(table extensions\) of the parent tables that are
 </td></tr></tbody>
 </table>## Custom system property
 
-You can create the sn\_cmdb\_ip\_cov.log\_associated\_missing\_ip custom system property for the CMDB Coverage application. This property must be created in the CMDB Coverage application scope. The custom property that you create is listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+You can create the sn\_cmdb\_ip\_cov.log\_associated\_missing\_ip custom system property for the CMDB Coverage application. This property must be created in the CMDB Coverage application scope. The custom property that you create is listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see .
 
 To populate data in the Discovery schedule gaps to allocated IP \[sn\_cmdb\_ip\_cov\_m2m\_discovery\_schedule\_gap\]​ table, create the sn\_cmdb\_ip\_cov.log\_associated\_missing\_ip custom system property, and set the value to `true`.
 
 -   Type: true \| false
 -   Default value: `false`
 
-**Parent Topic:**[CMDB Coverage reference](../concept/cmdb-coverage-reference.md)
+**Parent Topic:**[CMDB Coverage reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage-reference.md)
 

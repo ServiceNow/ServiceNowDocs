@@ -2,11 +2,12 @@
 title: Submit a vulnerability scan request from the Security Incident Response catalog
 description: You can submit vulnerability scans for CIs and IP addresses from the Security Incident Response catalog. The requests are submitted and you can view the results in the My Requests module.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/t\_SubmitVScanFromSecCat.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Manage lookups and scans, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -29,7 +30,7 @@ Use this catalog item to trigger a vulnerability scan on one or more configurati
 
 2.  Select **Vulnerability scan**.
 
-    ![Security incident catalog](../image/sec-inc-cat.png)
+    \[Omitted image "sec-inc-cat.png"\] Alt text: Security incident catalog
 
 3.  Select **Scan Configuration Item and IP addresses**.
 

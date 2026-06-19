@@ -2,6 +2,7 @@
 title: Receive assets from inbound shipments at your stockroom in the Enterprise Asset Workspace
 description: Receive enterprise and consumable assets from one or more shipments that are in transit to your stockroom in the Enterprise Asset Workspace. You can receive assets from shipments originating from any workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/receive-shipment-assets-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -71,5 +72,5 @@ If the asset details are valid, the following changes occur:
 
 If any of the asset details are invalid, an error message in shown in the **Alert** column for the corresponding asset record. You should resolve the error before receiving the assets.
 
-**Parent Topic:**[Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace](../concept/manage-stockroom-receive-eam.md)
+**Parent Topic:**[Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/manage-stockroom-receive-eam.md)
 

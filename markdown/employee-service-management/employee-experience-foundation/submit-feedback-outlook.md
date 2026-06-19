@@ -2,6 +2,7 @@
 title: Submit feedback from a Microsoft Outlook email message
 description: Submit feedback about a service request or your experience using the feedback card in a Microsoft Outlook email message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/submit-feedback-outlook.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,9 +18,9 @@ Submit feedback about a service request or your experience using the feedback ca
 
 ## Before you begin
 
-To enable the feedback card, the `include_feedback_actionable` script must be added to the [email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) and a [feedback definition](../../employee-center/task/config-feedback-dfnition.md) must be created for the required workflow.
+To enable the feedback card, the `include_feedback_actionable` script must be added to the email notification and a [feedback definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-feedback-dfnition.md) must be created for the required workflow.
 
-For information about experience feedback, see [Integrated experience and service feedback](../../employee-center/concept/ex-fdback-ovrvw.md).
+For information about experience feedback, see [Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md).
 
 **Note:** The feedback card only appears at the top of the email message.
 
@@ -40,5 +41,5 @@ Role required: None
 6.  Select **Submit**.
 
 
-**Parent Topic:**[Using ServiceNow for Microsoft Outlook](../concept/using-sn-ms-outlook.md)
+**Parent Topic:**[Using ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/using-sn-ms-outlook.md)
 

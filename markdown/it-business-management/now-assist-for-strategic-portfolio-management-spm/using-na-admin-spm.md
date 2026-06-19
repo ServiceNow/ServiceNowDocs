@@ -2,6 +2,7 @@
 title: Use Now Assist Admin
 description: Use Now Assist Admin to explore the various Now Assist plugins, skills and associated Generative AI application features you are entitled to.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/now-assist-for-strategic-portfolio-management-spm/using-na-admin-spm.html
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm

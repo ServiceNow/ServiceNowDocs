@@ -2,6 +2,7 @@
 title: Skill Recommendation components in Workforce Optimization for ITSM
 description: Workforce Optimization for ITSM uses roles to administer skill recommendation, tables to store skill data, and properties to modify default behavior, and scheduled job to recommend skills in configurable Workforce Optimization for ITSM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-skill-recommendation-reference.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -180,5 +181,5 @@ Task Predicted Skill \[sn\_sre\_task\_predicted\_skill\]
 -   Tables created over 60 days ago are automatically deleted from this table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](../concept/skills-management-wfo-itsm.md)
+</table>**Parent Topic:**[Skills Management in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/skills-management-wfo-itsm.md)
 

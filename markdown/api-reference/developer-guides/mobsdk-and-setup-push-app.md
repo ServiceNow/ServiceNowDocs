@@ -2,6 +2,7 @@
 title: Setting up push notifications in your Android application
 description: In addition to the tasks that you must perform on your ServiceNow instance to configure a push notification, you must also include specific code in your Android application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-and-setup-push-app.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -42,7 +43,7 @@ class SdkManager @Inject constructor() {
 }
 ```
 
-For additional information on the NowPushSDK.makePushService\(\) method, refer to [NowPushSDK - makePushService\(instanceURL: URL\)](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowPushSDK/concept/NowPushSDKAndroidAPI.md#).
+For additional information on the NowPushSDK.makePushService\(\) method, refer to [NowPushSDK - makePushService\(instanceURL: URL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowPushSDKAndroidAPI.md).
 
 ## Register the push token
 
@@ -64,7 +65,7 @@ FirebaseMessaging.getInstance().token.addOnCompleteListener {task ->
 }
 ```
 
-For additional information on the registerPushToken\(\) method, refer to [NowPushService - registerPushToken\(pushToken: String, pushApp: String, successCallback: Runnable, errorCallback: Consumer&lt;Throwable&gt;\)](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowPushService/concept/NowPushServiceAndroidAPI.md#).
+For additional information on the registerPushToken\(\) method, refer to [NowPushService - registerPushToken\(pushToken: String, pushApp: String, successCallback: Runnable, errorCallback: Consumer&lt;Throwable&gt;\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowPushServiceAndroidAPI.md).
 
 ## Unregister the push token
 
@@ -78,7 +79,7 @@ pushService.unregisterPushToken(token, "PushAppName", {
 })
 ```
 
-For additional information on the unregisterPushToken\(\) method, refer to [NowPushService - unregisterPushToken\(pushToken: String, pushApp: String, successCallback: Runnable, errorCallback: Consumer&lt;Throwable&gt;\)](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowPushService/concept/NowPushServiceAndroidAPI.md#).
+For additional information on the unregisterPushToken\(\) method, refer to [NowPushService - unregisterPushToken\(pushToken: String, pushApp: String, successCallback: Runnable, errorCallback: Consumer&lt;Throwable&gt;\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowPushServiceAndroidAPI.md).
 
 ## Implement the FirebaseMessagingService
 
@@ -114,7 +115,7 @@ private suspend fun handleNowPush(remoteMessage: RemoteMessage): Result<NowPushP
 }
 ```
 
-For additional information on the handlePush\(\) method, refer to [NowPushService - handlePush\(remoteMessage: RemoteMessage, successCallback: Consumer&lt;NowPushPayload&gt;, errorCallback: Consumer&lt;Throwable&gt;\)](../../../../../app-store/dev_portal/API_reference/MobileSDKAndroid/NowPushService/concept/NowPushServiceAndroidAPI.md#).
+For additional information on the handlePush\(\) method, refer to [NowPushService - handlePush\(remoteMessage: RemoteMessage, successCallback: Consumer&lt;NowPushPayload&gt;, errorCallback: Consumer&lt;Throwable&gt;\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/NowPushServiceAndroidAPI.md).
 
 In addition, you must override onNewToken\(token: String\). Be sure to pass the token through to the pushService.registerPushToken\(\), similar to what was done in the "Register the push token" section.
 

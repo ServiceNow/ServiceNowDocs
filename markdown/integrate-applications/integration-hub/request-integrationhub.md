@@ -2,6 +2,7 @@
 title: Request an Integration Hub plugin
 description: Integration Hub plugins require a separate subscription and must be activated by ServiceNow personnel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/request-integrationhub.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -25,7 +26,7 @@ To purchase a subscription, contact your ServiceNow account manager. The account
 
 If you don't have an account manager, decide to delay activation after purchase, or want to evaluate the product on a subproduction instance without charge, follow these steps.
 
-For a list of Integration Hub plugins, see [Integration Hub plugins](../reference/ih-plugins.md).
+For a list of Integration Hub plugins, see [Integration Hub plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/ih-plugins.md).
 
 ## Procedure
 
@@ -59,7 +60,7 @@ Which plugin would you like to activate
 
 Select the name of the plugin to activate.
 
- **Note:** If the system doesn't list the plugin you want or if you're activating the plugin on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box and then enter the name of the plugin.
+ **Note:** If the plugin isn't listed, or if you're activating on an OEM or on-premise instance, select the **Plugin I'm looking for is not listed** check box. Enter the plugin name in the field that appears.
 
 </td></tr><tr id="date-time"><td>
 
@@ -77,10 +78,10 @@ Select the date and time to activate the plugin.
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
-**Parent Topic:**[Request Integration Hub](../../flow-designer/concept/request-ih-overview.md)
+**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md)
 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

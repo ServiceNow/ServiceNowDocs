@@ -2,6 +2,7 @@
 title: Apply overlays to the baseline controls
 description: You can include overlays to the baseline control objectives in the Authorization Package using either addition, subtraction, or a custom action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/apply-overlay-to-baseline.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -23,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **CAM Workspace**.
 
-2.  To navigate to the Lists page, select the ![List icon](../image/ws-list-icon.png) icon.
+2.  To navigate to the Lists page, select the \[Omitted image "ws-list-icon.png"\] Alt text: List icon icon.
 
 3.  From the Authorization packages in the RMF list, select an authorization package record.
 
@@ -84,5 +85,5 @@ Role required: admin
     5.  Click **Submit** to apply the **Addition**, **Subtraction**, or **Custom Action** operation on the policy.
 
 
-**Parent Topic:**[View package details in CAM Workspace](auth-package-overview-ws.md)
+**Parent Topic:**[View package details in CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-package-overview-ws.md)
 

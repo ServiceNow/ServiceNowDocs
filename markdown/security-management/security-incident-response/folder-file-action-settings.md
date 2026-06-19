@@ -2,6 +2,7 @@
 title: Configure Folder and File Action Settings
 description: Configure the folder and file actions you would like to be enabled from the File Explorer component on the Major Security Incident Management workspace, using the Folder and File Action Settings setup page. As an MSI Administrator, you can control the individual Folder and File Actions displayed on the File Explorer Component.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/folder-file-action-settings.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -117,16 +118,14 @@ Role required: sn\_msi.workspace\_admin
 
 3.  Deselect the **Active** check box to disable the folder and file action.
 
-    ![Clearing the Active check box](../image/folder-file-actions-settings-example.png)
+    \[Omitted image "folder-file-actions-settings-example.png"\] Alt text: Clearing the Active check box
 
 4.  **Update** the drive record.
 
-    **Note:** You can also perform the file action directly from the list of displayed file operations by choosing the **Active** column values to either True or False. ![Active column highlighted](../image/folder-file-action-settings.png)
+    **Note:** You can also perform the file action directly from the list of displayed file operations by choosing the **Active** column values to either True or False.
 
     If the file action performed is disabled then the action will not be displayed on the **Collaborations** tab of the **Major Security Incident Management** workspace.
 
-    ![Three-dot menu with Folder and File Actions highlighted](../image/msim-workspace-folder-file-actions-page.png)
 
-
-**Parent Topic:**[Configure File Explorer Component](../concept/file-explorer.md)
+**Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/file-explorer.md)
 

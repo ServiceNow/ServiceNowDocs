@@ -2,6 +2,7 @@
 title: Components installed with Dependency Views
 description: Several types of components are installed with the activation of the Next\_Gen BSM \(com.snc.ng\_bsm\) plugin, such as tables.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/dependency-views/r\_InstalledWithDependencyViews.html
 release: australia
 product: Dependency Views
 classification: dependency-views
@@ -15,7 +16,7 @@ breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Confi
 
 Several types of components are installed with the activation of the Next\_Gen BSM \(com.snc.ng\_bsm\) plugin, such as tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 

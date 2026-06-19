@@ -2,6 +2,7 @@
 title: Set up Microsoft OneDrive spoke
 description: Integrate the ServiceNow instance and Microsoft OneDrive spoke by using OAuth 2.0 credentials to authenticate ServiceNow requests.Create a custom OAuth application from your Microsoft OneDrive account to enable OAuth 2.0 authentication with the Microsoft OneDrive spoke.Use the information generated during Microsoft OneDrive account configuration to register Microsoft OneDrive as an OAuth provider and allow the instance to request OAuth 2.0 tokens.Create Connection records to your Microsoft OneDrive account. The Microsoft OneDrive spoke connection and credential aliases use these connections to perform actions in the Microsoft OneDrive.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-msonedrive.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -71,7 +72,7 @@ Complete these steps from your Azure Developer account. See the [Azure](https://
 
     3.  Select the Delegated or Application permissions that the application supports.
 
-        Delegated permissions enable the application to access the API as a signed-in user. Application permissions enable the application to run as a background service or daemon without a signed-in user. You must mention these API permissions in the **OAuth Entity scopes** tab while configuring the [application registry](setup-msonedrive.md#).
+        Delegated permissions enable the application to access the API as a signed-in user. Application permissions enable the application to run as a background service or daemon without a signed-in user. You must mention these API permissions in the **OAuth Entity scopes** tab while configuring the [application registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msonedrive.md).
 
         **Note:** You must ensure that these API permissions are provided for your custom app.
 
@@ -156,8 +157,8 @@ Authorization URL
 
 </td><td>
 
--   If you are using a multi-tenant app registration, click the lock icon![Lock icon](../../../common/image/icon-lock.png), enter `https://login.microsoftonline.com/common/oauth2/v2.0/authorize`, and then click the lock icon again.
--   If you are using a single tenant app registration, click the lock icon![Lock icon](../../../common/image/icon-lock.png), enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/authorize`, and then click the lock icon again.
+-   If you are using a multi-tenant app registration, click the lock icon\[Omitted image "icon-lock.png"\] Alt text: Lock icon, enter `https://login.microsoftonline.com/common/oauth2/v2.0/authorize`, and then click the lock icon again.
+-   If you are using a single tenant app registration, click the lock icon\[Omitted image "icon-lock.png"\] Alt text: Lock icon, enter `https://login.microsoftonline.com/<Directory-ID>/oauth2/v2.0/authorize`, and then click the lock icon again.
 
 In the URL, replace `<Directory-ID>` with the value of **Directory \(tenant\) ID** obtained from the Azure portal.
 
@@ -167,7 +168,7 @@ Token URL
 
 </td><td>
 
-Click the lock icon ![Lock icon](../../../common/image/icon-lock.png), enter `https://login.microsoftonline.com/common/oauth2/v2.0/token`, and then click the lock icon again.
+Click the lock icon \[Omitted image "icon-lock.png"\] Alt text: Lock icon, enter `https://login.microsoftonline.com/common/oauth2/v2.0/token`, and then click the lock icon again.
 
 </td></tr><tr><td>
 
@@ -175,7 +176,7 @@ Redirect URL
 
 </td><td>
 
-Click the lock icon ![Lock icon](../../../common/image/icon-lock.png), enter `https://<instance>.service-now.com/oauth_redirect.do`, and then click the lock icon again.
+Click the lock icon \[Omitted image "icon-lock.png"\] Alt text: Lock icon, enter `https://<instance>.service-now.com/oauth_redirect.do`, and then click the lock icon again.
 
 </td></tr></tbody>
 </table>5.  In the **OAuth Entity Scopes** related list, add scopes to match the permissions you defined when you configured the Microsoft OneDrive application.
@@ -191,7 +192,7 @@ Click the lock icon ![Lock icon](../../../common/image/icon-lock.png), enter `ht
     |Files.Read.All|Files.Read.All|
     |offline\_access|offline\_access|
 
-    **Note:** The scopes mentioned here must be same as the API permissions provided during the [custom app configuration](setup-msonedrive.md#).
+    **Note:** The scopes mentioned here must be same as the API permissions provided during the [custom app configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-msonedrive.md).
 
 6.  Right-click the form header, and click **Save**.
 

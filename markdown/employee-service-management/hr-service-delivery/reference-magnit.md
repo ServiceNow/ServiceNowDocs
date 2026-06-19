@@ -2,6 +2,7 @@
 title: Reference for HR Service Delivery Integration with Magnit
 description: Reference for HR Service Delivery Integration with Magnit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/reference-magnit.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -15,10 +16,10 @@ breadcrumb: [HR Service Delivery Integration with Magnit, Integration of HR Serv
 
 Reference for HR Service Delivery Integration with Magnit.
 
--   **[Components installed with HR Service Delivery Integration with Magnit](installed-with-magnit-int.md)**  
+-   **[Components installed with HR Service Delivery Integration with Magnit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/installed-with-magnit-int.md)**  
 Several types of components are installed with activation of the HR Service Delivery Integration with Magnit plugin, including tables, and user roles.
--   **[Default entities](default-ent-magnit.md)**  
+-   **[Default entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/default-ent-magnit.md)**  
 Default entities are available to use on activating HR Service Delivery Integration with Magnit application.
 
-**Parent Topic:**[HR Service Delivery Integration with Magnit](../concept/hr-magnit-int.md)
+**Parent Topic:**[HR Service Delivery Integration with Magnit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-magnit-int.md)
 

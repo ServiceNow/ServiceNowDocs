@@ -2,6 +2,7 @@
 title: Work with stacks
 description: Start your Day 2 operations by starting, stopping, deprovisioning, or modifying your stacks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/manage-my-stacks.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -21,7 +22,7 @@ Role required: sn\_cmp.cloud\_service\_user.root\_admin, admin, or sn\_cmp.cloud
 
 ## About this task
 
-When you request a life-cycle operation on a stack or resource, the system generates a change request. An approval policy specifies either that the change is auto-approved or that a user on the approver list must approve the change. For more information, see [.](../../cloud-management-v2/concept/cloud-policy.md)
+When you request a life-cycle operation on a stack or resource, the system generates a change request. An approval policy specifies either that the change is auto-approved or that a user on the approver list must approve the change. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cloud-policy.md)
 
 ## Procedure
 
@@ -36,5 +37,5 @@ When you request a life-cycle operation on a stack or resource, the system gener
 4.  Search and sort all the operations that you performed by selecting **Stack Operations**.
 
 
-**Parent Topic:**[Exploring the My Stacks tab](../concept/manage-stacks.md)
+**Parent Topic:**[Exploring the My Stacks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/manage-stacks.md)
 

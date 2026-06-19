@@ -2,6 +2,7 @@
 title: View major incident information on the Incident form
 description: When an incident enters the major incident life cycle, the Major Incident and the Post Incident Report tab appears on the incident form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-management/view-major-info.html
 release: australia
 product: Incident Management
 classification: incident-management
@@ -25,7 +26,7 @@ Incident is in the major incident life cycle.
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Select the incident which is in the major incident life cycle.
 
@@ -111,5 +112,5 @@ The probable cause of the issue identified in the major incident.
     |Timeline|Information of all the activity feeds not only of the incident but also of the incident communication plan and incident communication tasks related to the incident.|
 
 
-**Parent Topic:**[Working on major incident management](../concept/work-on-mim.md)
+**Parent Topic:**[Working on major incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-management/work-on-mim.md)
 

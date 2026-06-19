@@ -2,6 +2,7 @@
 title: Discovering similar knowledge articles for HR cases
 description: Discover similar information across knowledge articles based on the short description of the HR case and the text in the related search results. Display such similar knowledge articles to an HR agent to resolve a case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/train-model-articles-hr.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -19,7 +20,7 @@ Discover similar information across knowledge articles based on the short descri
 
 The similarity solution takes the short description of the case and compares them to the short description, description, and text fields of the published articles to provide the similar knowledge articles.
 
-When the Similar Knowledge Articles for HR Case \(ml\_sn\_sn\_hr\_core\_global\_case\_to\_articles\) is configured and the predictive model is trained, the **Similar Knowledge Articles** option is displayed on an HR case. This option displays the most relevant knowledge articles to an HR agent to resolve an HR case.![Relevant knowledge articles for an HR case](../image/attach-knowledge-article-to-hr-case-1.png)
+When the Similar Knowledge Articles for HR Case \(ml\_sn\_sn\_hr\_core\_global\_case\_to\_articles\) is configured and the predictive model is trained, the **Similar Knowledge Articles** option is displayed on an HR case. This option displays the most relevant knowledge articles to an HR agent to resolve an HR case.\[Omitted image "attach-knowledge-article-to-hr-case-1.png"\] Alt text: Relevant knowledge articles for an HR case
 
 ## Auto training the predictive model
 
@@ -29,7 +30,7 @@ The Similar Knowledge Articles for HR Case solution definition is configured and
 -   The Predictive Intelligence for Contextual Search \(com.snc.contextual\_search\_ml\) plugin is installed.
 -   The **glide.platform\_ml.auto\_training.enabled** system property is set to true.
 
-You can also [manually train the predictive model](hr-predictive-intelligence-train.md) if it is not auto trained by default.
+You can also [manually train the predictive model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.md) if it is not auto trained by default.
 
-**Parent Topic:**[Machine learning solutions for HR Service Delivery](../concept/predictive-intelligence-for-hr-service-delivery-1.md)
+**Parent Topic:**[Machine learning solutions for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

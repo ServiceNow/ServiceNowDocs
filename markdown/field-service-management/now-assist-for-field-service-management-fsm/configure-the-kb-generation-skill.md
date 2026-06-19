@@ -2,11 +2,12 @@
 title: Configure the KB generation skill
 description: Configure the KB generation skill that agents can use to draft a knowledge article with Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/configure-the-kb-generation-skill.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist for FSM]
 ---
@@ -27,13 +28,13 @@ To allow agents to generate knowledge articles for work orders in a closed compl
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Experiences** to access the **Now Assist panel** tab of the Now Assist Admin console.
 
-2.  In the summary section, select **Turn on**.![Turn on the Now Assist panel](../image/FSM_NowAssist_enableNowAssistpanel.png)
+2.  In the summary section, select **Turn on**.\[Omitted image "FSM\_NowAssist\_enableNowAssistpanel.png"\] Alt text: Turn on the Now Assist panel
 
 3.  Select **Go to features and skills**.
 
 4.  In the Customer workflow group, select **FSM**.
 
-5.  On the **Knowledge** feature card, select **View details**.![Now Assist FSM skill cards](../image/FSM_NowAssistSkills.png)
+5.  On the **Knowledge** feature card, select **View details**.\[Omitted image "FSM\_NowAssistSkills.png"\] Alt text: Now Assist FSM skill cards
 
 6.  In the All available knowledge skills section, select **Activate skill**.
 
@@ -46,7 +47,7 @@ To allow agents to generate knowledge articles for work orders in a closed compl
 
         **Note:** If you don't see the Now Assist panel toggle, go back to step 1 to enable it.
 
-        ![KB generation skill display options](../image/FSM_KBgeneration_skilldisplay.png)
+        \[Omitted image "FSM\_KBgeneration\_skilldisplay.png"\] Alt text: KB generation skill display options
 
 8.  Select **Save and continue** to go to the next step.
 
@@ -56,7 +57,7 @@ To allow agents to generate knowledge articles for work orders in a closed compl
 
 11. Select the Platform workflow.
 
-12. On the **Knowledge** feature card, select **View details**.![Enable the Platform knowlege skill](../image/FSM_NowAssist_enableWWNA.png)
+12. On the **Knowledge** feature card, select **View details**.\[Omitted image "FSM\_NowAssist\_enableWWNA.png"\] Alt text: Enable the Platform knowlege skill
 
 13. In the All available knowledge skills section, select **Activate skill**.
 

@@ -2,6 +2,7 @@
 title: Notification Contact Group form
 description: Use the Notification Contact Group form to create a notification contact group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/notification-contact-group-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -50,5 +51,5 @@ Last sync on
 Date on which the group was last synchronized with Everbridge.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create notification contact groups](../task/create-notification-contact-group-uib-ws.md)
+</table>**Parent Topic:**[Create notification contact groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-notification-contact-group-uib-ws.md)
 

@@ -2,6 +2,7 @@
 title: Applying Operational Technology Request Management to your OT system
 description: You can apply Operational Technology Request Management to your Operational Technology \(OT\) system to enable other users to create and submit OT requests for OT products and services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-request-management/applying-operational-technology-request-management-to-your-organization.html
 release: australia
 product: Operational Technology Request Management
 classification: operational-technology-request-management
@@ -48,5 +49,5 @@ Plant head or supervisor
 Can use Operational Technology Request Management to engage with the correct team to remediate an incident reported on the factory floor.​
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Operational Technology Request Management](exploring-operational-technology-request-management.md)
+</table>**Parent Topic:**[Exploring Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-request-management/exploring-operational-technology-request-management.md)
 

@@ -2,6 +2,7 @@
 title: CCCIF Media Resource API
 description: The Custom Chat Chatbot Interoperability Framework \(CCCIF\) Media Resource API provides endpoints that enable a primary bot to upload attachments to the associated ServiceNow instance.Uploads a private attachment to the called ServiceNow instance which stores the attachment in the Attachments \[sys\_attachment\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/cccif-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,19 +18,19 @@ The Custom Chat Chatbot Interoperability Framework \(CCCIF\) Media Resource API 
 
 Call this API in your primary bot to upload private attachments from a user that is having a conversation through Virtual Agent \(VA\). You must then send the mediaUrl parameter that is returned by this API to the VA API.
 
-If the attachment is public, you can just send the attachment URL in the request body of your [Virtual Agent Bot Integration](bot-api.md#) call.
+If the attachment is public, you can just send the attachment URL in the request body of your [Virtual Agent Bot Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md) call.
 
 To access this API, the Conversational Custom Chat Integration \(com.glide.cs.custom.adapter\) plugin must be activated. In addition, the attachment system properties must be configured.
 
-For additional information on the capabilities of the Virtual Agent API, see [Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-api-landing-page.md).
+For additional information on the capabilities of the Virtual Agent API, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## CCCIF - POST /cccif/media/upload
 
 Uploads a private attachment to the called ServiceNow instance which stores the attachment in the Attachments \[sys\_attachment\] table.
 
-Call this method in your primary bot to upload private attachments from a user that is having a conversation through Virtual Agent \(VA\). You must then send the mediaUrl parameter that is returned by this method to the VA API using the [Virtual Agent Bot Integration API](bot-api.md#).
+Call this method in your primary bot to upload private attachments from a user that is having a conversation through Virtual Agent \(VA\). You must then send the mediaUrl parameter that is returned by this method to the VA API using the [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md).
 
 ### URL format
 
@@ -37,7 +38,7 @@ Versioned URL: `/api/now/{api_version}/cccif/media/upload`
 
 Default URL: `/api/now/cccif/media/upload`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -97,7 +98,7 @@ Required. Unique user identifier of the user interacting with the VA bot. This c
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Header|Description|
 |------|-----------|
@@ -109,7 +110,7 @@ The following request and response headers apply to this HTTP action only, or ap
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

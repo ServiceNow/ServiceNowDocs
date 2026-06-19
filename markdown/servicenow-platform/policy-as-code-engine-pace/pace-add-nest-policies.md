@@ -2,6 +2,7 @@
 title: Add nested policies in a policy
 description: Add existing policies to a policy's conditions to define the order a policy's execution and the conditions is executed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-add-nest-policies.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -17,9 +18,9 @@ Add existing policies to a policy's conditions to define the order a policy's ex
 
 ## Before you begin
 
-**Note:** You must create a policy before adding it to another policy. For more information, see [Create a PaCE policy](pace-create-policy.md).
+**Note:** You must create a policy before adding it to another policy. For more information, see [Create a PaCE policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-policy.md).
 
-You can add a policy multiple times with different names and parameters. The policies must be configured and mapped to a document, and API variables and Config parameters may be required and mapped to be configured. For more information on how to add variables, see [Create a new variable for a policy version](pace-create-variable-policy-version.md).
+You can add a policy multiple times with different names and parameters. The policies must be configured and mapped to a document, and API variables and Config parameters may be required and mapped to be configured. For more information on how to add variables, see [Create a new variable for a policy version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-create-variable-policy-version.md).
 
 Role required: sn\_pace.code\_editor
 
@@ -37,7 +38,7 @@ Role required: sn\_pace.code\_editor
 
 6.  On the Details tab, enter the **Label** field and **Variable name** field and other configuration inputs as needed for the policy.
 
-7.  In the Configure Inputs tab, under the Document section, select the value of the document type that depends on the integration for the policy.![Input document config tab.](../image/pace-config-inputs-tab.jpg)
+7.  In the Configure Inputs tab, under the Document section, select the value of the document type that depends on the integration for the policy.\[Omitted image "pace-config-inputs-tab.jpg"\] Alt text: Input document config tab.
 
 8.  Pick a variable to pass for in the API variable and Config parameter sections you created in the beginning of this task.
 
@@ -45,10 +46,10 @@ Role required: sn\_pace.code\_editor
 
 9.  Select **Save**.
 
-    ![Policies tab.](../image/pace-data-source-policies.jpg)
+    \[Omitted image "pace-data-source-policies.jpg"\] Alt text: Policies tab.
 
 
 ## Result
 
-The policies now appear on the Policies tab and can be added in the condition section or the Then section of the Policy builder. For more information on how to add the policies in the builder, see [Policy logic condition fields](../reference/pace-policy-logic-fields.md).
+The policies now appear on the Policies tab and can be added in the condition section or the Then section of the Policy builder. For more information on how to add the policies in the builder, see [Policy logic condition fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/policy-as-code-engine-pace/pace-policy-logic-fields.md).
 

@@ -2,6 +2,7 @@
 title: Create a report
 description: Analysts can create a report in Security Incident Response to include the status of an incident and share it via email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-report-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -31,7 +32,7 @@ Role required: sn\_si.analyst
 
 4.  Select **New**.
 
-    The **Select Template** page appears with a list of all the published templates. The list of templates is available only when the admin has published reports templates. For more information, see [Create a Report Template in Security Incident Response](create-report-template-sir.md).
+    The **Select Template** page appears with a list of all the published templates. The list of templates is available only when the admin has published reports templates. For more information, see [Create a Report Template in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/create-report-template-sir.md).
 
 5.  Select a report template.
 
@@ -60,5 +61,5 @@ Role required: sn\_si.analyst
     3.  Select **Send** to share the report over email.
 
 
-**Parent Topic:**[Reports in Security Incident Response](../concept/report-templates-sir.md)
+**Parent Topic:**[Reports in Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/report-templates-sir.md)
 

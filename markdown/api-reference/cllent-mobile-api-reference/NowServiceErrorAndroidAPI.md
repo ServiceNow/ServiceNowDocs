@@ -2,6 +2,7 @@
 title: NowServiceError class - Android
 description: The NowServiceError sealed class that returns NowSDK errors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/cllent-mobile-api-reference/NowServiceErrorAndroidAPI.html
 release: australia
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
@@ -28,5 +29,5 @@ The NowServiceError sealed class that returns NowSDK errors.
 |ServiceSettingsInvalid|Unable to process the service settings.|
 |ServiceSettingsRetrievalFailed|Unable to retrieve the NowSDK service settings from the ServiceNow instance.|
 
-**Parent Topic:**[Mobile SDK - Android](../../concept/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

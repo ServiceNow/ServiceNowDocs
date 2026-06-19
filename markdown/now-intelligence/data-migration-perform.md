@@ -2,6 +2,7 @@
 title: Perform full data migration
 description: Migrate your existing dashboards, reports, interactive filters, and Performance Analytics widgets to the Platform Analytics experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/data-migration-perform.html
 release: australia
 topic_type: task
 last_updated: "2026-03-23"
@@ -25,11 +26,11 @@ Run and test the migration on a single, non-production instance. After you’re 
 
 **Note:**
 
+You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
+
 If you change a Core UI dashboard after migration and migrate it again, the changed dashboard overwrites the originally migrated dashboard.
 
 If you change a report, and perform full data migration again, the changed Core UI report overwrites the originally migrated content, and any changes you have made to the associated Platform Analytics experience visualization. Changed Core UI reports do not overwrite changes when you perform a partial migration of Core UI dashboards.
-
-You cannot move the migrated material from a non-production instance to a production instance.
 
 Dashboards migrated in compatibility mode may experience performance issues.
 
@@ -49,7 +50,7 @@ Reports associated with chart to chart drilldown are saved to the Visualization 
 
     The length of the migration process depends on the number of dashboards, reports, filters, and Performance Analytics widgets you have on your instance.
 
-    ![Window that indicates how many dashboards and reports will be migrated and estimate of how long the process takes.](../image/data-migration-confirmation.png)
+    \[Omitted image "data-migration-confirmation.png"\] Alt text: Window that indicates how many dashboards and reports will be migrated and estimate of how long the process takes.
 
 4.  Select **Prevent users from creating Core UI analytics during migration**.
 
@@ -57,7 +58,7 @@ Reports associated with chart to chart drilldown are saved to the Visualization 
 
 5.  Select **Migrate** to start the migration process.
 
-6.  [Evaluate the results](data-migration-evaluate.md).
+6.  [Evaluate the results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-evaluate.md).
 
 7.  Select **Activate** to complete the migration process.
 
@@ -68,9 +69,9 @@ Reports associated with chart to chart drilldown are saved to the Visualization 
 
 Your dashboards and other migrated content are now found under the library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library**.
 
-![Platform Analytics menu path](../image/data-mig-plat-admin-lib-menu-path.png)
+\[Omitted image "data-mig-plat-admin-lib-menu-path.png"\] Alt text: Platform Analytics menu path
 
 ## What to do next
 
-[Evaluate full data migration](data-migration-evaluate.md)
+[Evaluate full data migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/data-migration-evaluate.md)
 

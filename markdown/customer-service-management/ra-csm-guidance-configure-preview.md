@@ -2,7 +2,10 @@
 title: Configure a guidance preview experience
 description: Configure a preview experience that conveys relevant information about the guidance action to the agent before a recommendation is triggered. This information appears on the Recommended Actions card in the contextual side panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ra-csm-guidance-configure-preview.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -42,7 +45,7 @@ You must configure at least one of these elements to save the guidance preview. 
     1.  Select the pill picker icon next to the **Preview Title** field.
     2.  Select a guidance input from the list. You can drill down to another level to find the input you want.
 
-        ![Search bar listing a guidance input.](../image/ra-csm-guidance-preview-title.png)
+        \[Omitted image "ra-csm-guidance-preview-title.png"\] Alt text: Search bar listing a guidance input.
 
 5.  Select fields to display in the guidance preview.
 

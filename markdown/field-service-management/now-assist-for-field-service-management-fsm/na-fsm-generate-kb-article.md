@@ -2,6 +2,7 @@
 title: Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment with Now Assist
 description: As an agent, generate knowledge articles for closed work order tasks within the CSM/FSM Configurable Workspace and classic environment with Now Assist.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/na-fsm-generate-kb-article.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
@@ -21,7 +22,7 @@ To generate a knowledge article for a work order task, the work order task must 
 
 The following system property configurations are required so that agents can use the Knowledge Centered Service \(KCS\) template when generating knowledge articles.
 
--   Install the Knowledge Management Advanced plugin. For details, see [Activate the Knowledge Management Advanced plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/activate-knowledge-advanced-plugin.md).
+-   Install the Knowledge Management Advanced plugin. For details, see .
 -   Enable Knowledge Centered Services \(KCS\) for FSM by setting the system property **sn\_fsm.enable\_knowledge\_kcs** to true. Otherwise, Now Assist uses the standard template.
 
 To enable an agent to see the Now Assist experience on the Create Article page, ensure that the following knowledge base generation criteria is configured:
@@ -67,7 +68,7 @@ In the FSM Configurable Workspace and classic environment, you can generate the
 
 7.  From the Select options modal, select the **Knowledge base** in which you would like to publish the article and, the **Article language** to be used to generate the article.
 
-    **Note:** For more information on language selection, see [Generate a Knowledge article using multi-language support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-multilanguage-support.md).
+    **Note:** For more information on language selection, see .
 
 8.  Select **Continue**.
 
@@ -84,5 +85,5 @@ In the FSM Configurable Workspace and classic environment, you can generate the
     The Now Assist success message disappears indicating that it is no longer a Now LLM Service generated article.
 
 
-**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](../concept/using-now-assist-fsm.md)
+**Parent Topic:**[Using Now Assist for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/now-assist-for-field-service-management-fsm/using-now-assist-fsm.md)
 

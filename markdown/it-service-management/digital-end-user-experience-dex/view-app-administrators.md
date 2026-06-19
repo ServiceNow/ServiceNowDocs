@@ -2,6 +2,7 @@
 title: View DEX administrators
 description: Look up the application administrators who are responsible for managing the application, promoting its proper functioning, and handling any issues that might arise.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/view-app-administrators.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -25,7 +26,7 @@ Role required: sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Administration icon \(![](../image/icon-administration.png)\).
+2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  Select **Configure** on the User roles card.
 
@@ -38,5 +39,5 @@ Role required: sn\_dex.admin
 
 The list displays all the administrators available for DEX.
 
-**Parent Topic:**[DEX application monitoring](../concept/dex-application-monitoring.md)
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

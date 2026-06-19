@@ -2,6 +2,7 @@
 title: Create models for PPE items
 description: Create models to record the types of PPE in your inventory.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/create-ppe-model.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -45,9 +46,9 @@ A model represents a specific type of PPE item. For example, use one model to tr
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Set up Workplace PPE Inventory Management](set-up-ppe.md)
+**Parent Topic:**[Set up Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/set-up-ppe.md)
 
-**Previous topic:**[Set up Workplace PPE Inventory Management](set-up-ppe.md)
+**Previous topic:**[Set up Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/set-up-ppe.md)
 
-**Next topic:**[Add PPE models to Service Catalog](add-ppe-service-catalog.md)
+**Next topic:**[Add PPE models to Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/add-ppe-service-catalog.md)
 

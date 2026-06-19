@@ -2,6 +2,7 @@
 title: Setup LEAP properties
 description: Configure LEAP properties to estimate cost and time savings calculations for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/setup-aiops-leap-properties.html
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
@@ -21,11 +22,13 @@ Role required: LEAP admin
 
 ## About this task
 
-If you are a first-time user of LEAP, then use the default values to get an understanding of how each of these values are used for estimation. You can later modify these values to suit your organization requirements.
+If you are a first-time user of LEAP, use the default values to understand how each value is used for estimation. You can modify these values to suit your organization's requirements.
+
+Settings also include a default priority filter that controls which automation opportunities are eligible for resolution step generation. The default priority is Critical. Only automation opportunities at or higher than the configured priority level are processed in each run.
 
 ## Procedure
 
-1.  Click **Configure settings**.
+1.  Select **Configure settings**.
 
 2.  On the settings page, choose one of the following options:
 
@@ -41,7 +44,7 @@ If you are a first-time user of LEAP, then use the default values to get an unde
         2.  Review the default values for each property.
         3.  Modify values as needed.
         4.  Select **Save**.
-3.  You are redirected to the LEAP landing page. For details on each field, see [LEAP settings fields](../reference/aiops-leap-settings-fields.md)
-4.  [Activate LEAP](activate-aiops-leap.md).
+3.  You are redirected to the LEAP landing page. For details on each field, see [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md)
+4.  [Activate LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.md).
 
 

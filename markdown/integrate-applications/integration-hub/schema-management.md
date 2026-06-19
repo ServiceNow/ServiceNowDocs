@@ -2,6 +2,7 @@
 title: Schema management in Stream Connect
 description: Import and create schemas to send and receive messages in an Apache Avro format. Using an Avro format can reduce the size of the payload and simplify your integration to your local Kafka instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/schema-management.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -19,7 +20,7 @@ Avro is an open-source data-serialization system that uses schemas to structure 
 
 The following image shows an overview of schema management in Stream Connect. Schemas, stored in schema registries, enable messages in producers and consumers to be converted from plain text to an Avro format and back.
 
-![Diagram showing how Stream Connect uses schemas stored in the schema registries to convert Kafka messages into different formats.](../images/stream-connect-schema-diagram.png)
+\[Omitted image "stream-connect-schema-diagram.png"\] Alt text: Diagram showing how Stream Connect uses schemas stored in the schema registries to convert Kafka messages into different formats.
 
 ## Schemas
 
@@ -70,18 +71,18 @@ Data, serialized in an Avro format.
 
 Stream Connect producers and consumers can be configured to use an Avro format.
 
-When configuring a producer, simply specify which schema you want to use. Then when you run the producer, the message payload is generated in JSON and automatically converted to an Avro format using the specified schema. For more information on producers, see the [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/kafka-producer-action-designer.md) or the [ProducerV2 API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md).
+When configuring a producer, simply specify which schema you want to use. Then when you run the producer, the message payload is generated in JSON and automatically converted to an Avro format using the specified schema. For more information on producers, see the  or the ProducerV2 API.
 
-Configuring a consumer is similar. Specify the serialization format as **Encoded** and select a schema registry. When the consumer receives a message in an Avro format, it's automatically converted to JSON according to the schema for the schema ID received in the message. For more information, see the [Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/create-flow-kafka.md) or the [ETL](../tasks/configure-etl-consumer.md), [Transform Map](../tasks/configure-transform-map-consumer.md), or [Script](../tasks/configure-script-consumer.md) consumers.
+Configuring a consumer is similar. Specify the serialization format as **Encoded** and select a schema registry. When the consumer receives a message in an Avro format, it's automatically converted to JSON according to the schema for the schema ID received in the message. For more information, see the Kafka Message trigger or the [ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-etl-consumer.md), [Transform Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-transform-map-consumer.md), or [Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-script-consumer.md) consumers.
 
 ## Plugin
 
 Schema management features require the ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin.
 
--   **[Import a schema from the Confluent Registry](../tasks/import-schema-confluent-registry.md)**  
+-   **[Import a schema from the Confluent Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/import-schema-confluent-registry.md)**  
 Import a Schema from the Confluent Registry to enable your Stream Connect producers and consumers to send and receive Kafka messages in an Apache Avro format.
--   **[Create a standalone schema in Stream Connect](../tasks/create-standalone-schema.md)**  
+-   **[Create a standalone schema in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/create-standalone-schema.md)**  
 Create a schema to enable your Stream Connect producers and consumers to send and receive Kafka messages in an Apache Avro format.
 
-**Parent Topic:**[Using Stream Connect for Apache Kafka](stream-connect-apache-kafka.md)
+**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 

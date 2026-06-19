@@ -2,6 +2,7 @@
 title: Exploring On-Call Scheduling
 description: The On-Call Scheduling application helps you ensure that dedicated support team members are available to resolve issues as they arise. Learn more about On-Call Scheduling and the benefits it can provide for the different user roles in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/exploring-on-call-scheduling.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -25,7 +26,7 @@ On-Call Scheduling can be used by process owners and support managers who want t
 
 ## On-Call Scheduling workflow
 
-The various members of an organisation use On-Call Scheduling to work together. See a sample end-to-end workflow:![Infographic for on-call scheduling workflow. For the text description, refer to the workflow steps that follow.](../image/Oncall_workflow.png)
+The various members of an organisation use On-Call Scheduling to work together. See a sample end-to-end workflow:\[Omitted image "Oncall\_workflow.png"\] Alt text: Infographic for on-call scheduling workflow. For the text description, refer to the workflow steps that follow.
 
 1.  Shift admin creates shift and group templates.
 2.  Shift admin assigns role and configures escalation trigger rules.
@@ -62,7 +63,7 @@ Use the calendar to view or select a shift. You can set a day, week, or month vi
 
 </td><td>
 
-[View my On-Call calendar on my calendar app](../task/view-my-schedule-on-my-app-oncall.md)
+[View my On-Call calendar on my calendar app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/view-my-schedule-on-my-app-oncall.md)
 
 </td><td>
 
@@ -74,7 +75,7 @@ Create your own escalation policies and path. On-Call Scheduling allows you to c
 
 </td><td>
 
-[Designing an escalation process](designing-escalation-process-oncall.md)
+[Designing an escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/designing-escalation-process-oncall.md)
 
 </td><td>
 
@@ -86,7 +87,7 @@ Use any one of the multiple channels such as Slack, Microsoft Teams, mobile push
 
 </td><td>
 
-[Configure my availability and contact preferences](../task/config-my-contact-prefs-oncall.md)
+[Configure my availability and contact preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/config-my-contact-prefs-oncall.md)
 
 </td><td>
 
@@ -98,7 +99,7 @@ Generate escalation reports, shift reports, and performance reports.
 
 </td><td>
 
-[Viewing On-Call Scheduling reports](../../user-administration/concept/viewing-reports.md)
+[Viewing On-Call Scheduling reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-reports.md)
 
 </td><td>
 
@@ -110,7 +111,7 @@ Access the performance reports that are available for premium dashboard users.
 
 </td><td>
 
-[Legacy: Viewing the Performance reports for escalations](viewing-performance-report-oncall.md)
+[Legacy: Viewing the Performance reports for escalations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-performance-report-oncall.md)
 
 </td><td>
 
@@ -122,7 +123,7 @@ Download and use the Mobile agent to perform all these activities on the go.
 
 </td><td>
 
-[Getting started with the On-Call Scheduling mobile app](../task/mobile-getting-started-oncall.md)
+[Getting started with the On-Call Scheduling mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/mobile-getting-started-oncall.md)
 
 </td><td>
 
@@ -131,16 +132,16 @@ itil, rota\_manager
 </td></tr></tbody>
 </table>## Redirection of UI16 module links to Service Operations Workspace
 
-If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the On-Call Scheduling module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../../product/service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the On-Call Scheduling module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 **Note:** For new instances, this redirection configuration is automatically available in the base system. For upgrade instances, administrators can configure the redirection behavior from the SOW Admin Center.
 
--   **[On-Call Scheduling capabilities](on-call-scheduling-capabilities.md)**  
+-   **[On-Call Scheduling capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-scheduling-capabilities.md)**  
 The key features and capabilities of On-Call Scheduling can be used by the various user roles.
--   **[On-Call Scheduling new schedule engine](oncall-schedule-engine.md)**  
+-   **[On-Call Scheduling new schedule engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/oncall-schedule-engine.md)**  
 Introducing the new On-call schedule engine with enhanced capabilities and user experience.
--   **[On-Call Scheduling new trigger engine](on-call-new-trigger-engine.md)**  
+-   **[On-Call Scheduling new trigger engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/on-call-new-trigger-engine.md)**  
 On-Call Scheduling new trigger engine enables the on-call subflows to get launched via the flow runner queue instead of the event queue. Launching via the flow runner queue improves the on-call performance and helps to alert the on-call members faster than launching via event queue.
 
-**Parent Topic:**[On-Call Scheduling](c_OnCallScheduling.md)
+**Parent Topic:**[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/c_OnCallScheduling.md)
 

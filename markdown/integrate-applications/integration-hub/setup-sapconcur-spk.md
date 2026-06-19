@@ -2,6 +2,7 @@
 title: Set up the SAP Concur spoke
 description: Integrate the ServiceNow instance and SAP Concur by creating a custom OAuth application in SAP Concur to authenticate ServiceNow requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-sapconcur-spk.html
 release: australia
 product: Integration Hub
 classification: integration-hub

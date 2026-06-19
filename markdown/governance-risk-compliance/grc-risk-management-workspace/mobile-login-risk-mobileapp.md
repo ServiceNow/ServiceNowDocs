@@ -2,6 +2,7 @@
 title: Log in to the GRC Mobile application
 description: Open the GRC Mobile application and add a ServiceNow AI Platform instance with Risk Management to your mobile device.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/mobile-login-risk-mobileapp.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -17,7 +18,7 @@ Open the GRC Mobile application and add a ServiceNow AI Platform® instance with
 
 ## Before you begin
 
-Verify that you have completed the setup steps described in [Set up checklist for the GRC Mobile application](mobile-setup-risk-app.md).
+Verify that you have completed the setup steps described in [Set up checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-setup-risk-app.md).
 
 Role required: GRC Risk manager \(sn\_risk.manager\)
 
@@ -29,13 +30,13 @@ Time to complete this task: 5-7 minutes.
 
 1.  On your mobile device, tap the **ServiceNow Agent** app.
 
-    ![Now Agent app icon.](../../grc-common/image/mobile-agentapp-NY.png)
+    \[Omitted image "mobile-agentapp-NY.png"\] Alt text: Now Agent app icon.
 
     If you're not already logged in to a ServiceNow AI Platform instance, the Instances screen is displayed.
 
 2.  If the ServiceNow AI Platform instance with the Risk Management core application is not already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the plus icon \(![Plus icon.](../../grc-common/image/mobile_instances_plus.png)\).
+    1.  On the Instances screen that is displayed, tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\).
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 
@@ -58,7 +59,7 @@ Enter the instance address or scan a QR code.
 Choose one to continue:-   Before the `.service-now.com`, enter the name of your ServiceNow AI Platform instance, for example, `grcmobile`.
 -   Enter an address in this field. This address is the URL of your ServiceNow AI Platform instance that you want to view on your mobile device, for example, `https://grcprkny.service-now.com`.
 -   Scan a QR code.
- For more information about the mobile app, see [Log in to an instance with a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/login-end-user.md)
+ For more information about the mobile app, see Log in to an instance with a mobile app
 
 </td></tr><tr><td>
 
@@ -114,5 +115,5 @@ If you cannot view the Instances screen after you tap the **ServiceNow Agent** a
 
 Select one of the following topics for more information about each applet.
 
-**Parent Topic:**[Mobile experience for GRC Risk Management](../concept/mobile-risk-overview.md)
+**Parent Topic:**[Mobile experience for GRC Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/mobile-risk-overview.md)
 

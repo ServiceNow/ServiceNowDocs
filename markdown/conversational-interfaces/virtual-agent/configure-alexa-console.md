@@ -2,6 +2,7 @@
 title: Configure your Alexa account
 description: Configure your Alexa account to link it with your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-alexa-console.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -105,5 +106,5 @@ The shared secret string that the instance and the OAuth application use to auth
 9.  Click **Save**.
 
 
-**Parent Topic:**[Account linking with Alexa](../concept/account-linking-alexa.md)
+**Parent Topic:**[Account linking with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/account-linking-alexa.md)
 

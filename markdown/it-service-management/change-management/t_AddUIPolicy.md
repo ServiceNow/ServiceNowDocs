@@ -2,11 +2,12 @@
 title: Add a UI policy
 description: Add a UI policy to display the Needs review field for Normal change requests when it reaches the Complete state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_AddUIPolicy.html
 release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
 ---
@@ -79,9 +80,9 @@ Conditions
 8.  Select **Submit** to create the UI Policy action and return to the **UI Policy** form.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Create a custom field](t_CreateCustomField.md)
+**Previous topic:**[Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateCustomField.md)
 
-**Next topic:**[Create an ACL](t_CreateNewACL.md)
+**Next topic:**[Create an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/t_CreateNewACL.md)
 

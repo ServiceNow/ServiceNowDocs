@@ -2,6 +2,7 @@
 title: Edit a cohort
 description: Edit cohort session data to include in your analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/edit-action-cohort.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -27,14 +28,14 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 3.  Select **Analysis** &gt; **Cohort Analysis**.
 
-4.  Select the Actions menu ![Actions menu icon](../../integrationhub/images/more-actions-menu-icon.png) of the cohort you want to edit and choose **Edit**.
+4.  Select the Actions menu \[Omitted image "more-actions-menu-icon.png"\] Alt text: Actions menu icon of the cohort you want to edit and choose **Edit**.
 
 5.  Change the name, description and actions as desired.
 
-    ![Edit cohort dialog.](../../../use/par-for-workspace/image/uxa-edit-cohort.png)
+    \[Omitted image "uxa-edit-cohort.png"\] Alt text: Edit cohort dialog.
 
 6.  Select **Save** to update the cohort configuration.
 
 
-**Parent Topic:**[Cohort analysis in Usage Insights](../concept/uxa-cohorts.md)
+**Parent Topic:**[Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/uxa-cohorts.md)
 

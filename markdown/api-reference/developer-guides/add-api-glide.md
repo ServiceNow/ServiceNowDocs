@@ -2,6 +2,7 @@
 title: Client GlideList API in the Workspace Experience UI Developer Guide
 description: Add a custom button to the Agent Workspace Lists page that returns list information in the current view. Define the information to return by adding client GlideList API methods to an action assignment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/add-api-glide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -19,13 +20,13 @@ Add a custom button to the Agent Workspace Lists page that returns list informat
 
 Role required: admin
 
-[GlideList](../../../app-store/dev_portal/API_reference/GlideListClientNowEx/concept/GlideListClientAPINEx.md#) API methods are provided in the Action Assignments \[sys\_declarative\_action\_assignment\] **List Action** view. You can add GlideList functionality to a custom button in the Workspace Experience UI. You can use the button to apply a GlideList method to the current view. Use the GlideList methods to manage table lists by getting list view details, setting filters, sorting by column, and more.
+[GlideList](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md) API methods are provided in the Action Assignments \[sys\_declarative\_action\_assignment\] **List Action** view. You can add GlideList functionality to a custom button in the Workspace Experience UI. You can use the button to apply a GlideList method to the current view. Use the GlideList methods to manage table lists by getting list view details, setting filters, sorting by column, and more.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workspace Experience** &gt; **Actions &amp; Components** &gt; **List Actions**.
 
-    If you are using [getFixedQuery\(\)](../../../app-store/dev_portal/API_reference/GlideListClientNowEx/concept/GlideListClientAPINEx.md#), navigate to **Related List Actions** instead of **List Actions**.
+    If you are using [getFixedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md), navigate to **Related List Actions** instead of **List Actions**.
 
 2.  Create a new action assignment by selecting **New**.
 
@@ -41,15 +42,15 @@ Role required: admin
 
 7.  In the **Client Script** editor, add one or more method calls into the `onClick{}` method definition.
 
-    This method defines what actions to take when the button is selected. For a list of available methods, see [GlideList \(Now Experience\)](../../../app-store/dev_portal/API_reference/GlideListClientNowEx/concept/GlideListClientAPINEx.md#).
+    This method defines what actions to take when the button is selected. For a list of available methods, see [GlideList \(Now Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md).
 
-    ![GlideList method calls in the Client Script editor.](../image/add-api-glidelist-workspace.png)
+    \[Omitted image "add-api-glidelist-workspace.png"\] Alt text: GlideList method calls in the Client Script editor.
 
 8.  Select **Update**.
 
     You can test your button in a Workspace Experience table list view.
 
-    **Note:** If the button uses the [getFixedQuery\(\)](../../../app-store/dev_portal/API_reference/GlideListClientNowEx/concept/GlideListClientAPINEx.md#) method, select the tab on a record in a Workspace Experience list to test your button.
+    **Note:** If the button uses the [getFixedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/GlideListClientAPINEx.md) method, select the tab on a record in a Workspace Experience list to test your button.
 
     The following table illustrates successful button implementation in the Agent Workspace **Incidents \(All\)** table. The button implements the GlideList addFilter\(\) method to display only active records.
 
@@ -63,11 +64,11 @@ List after clicking
 
 </th></tr></thead><tbody><tr><td>
 
-Before selecting the button, an assortment of active and inactive \(closed\) records display in the view.![List displayed before the user selects the button to view active records.](../image/add-api-glidelist-listClosed.png)
+Before selecting the button, an assortment of active and inactive \(closed\) records display in the view.\[Omitted image "add-api-glidelist-listClosed.png"\] Alt text: List displayed before the user selects the button to view active records.
 
 </td><td>
 
-Selecting the button filters the view to display only active records.![List displayed after the user selects the button displaying only active records.](../image/add-api-glidelist-listOpenOnly.png)
+Selecting the button filters the view to display only active records.\[Omitted image "add-api-glidelist-listOpenOnly.png"\] Alt text: List displayed after the user selects the button displaying only active records.
 
 </td></tr></tbody>
 </table>

@@ -2,6 +2,7 @@
 title: MID Server parameters for PowerShell
 description: Parameters control the behavior of a particular MID Server and have lower precedence than MID Server properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/mid-server-parameter-powershell.html
 release: australia
 product: Discovery
 classification: discovery
@@ -235,5 +236,5 @@ Sets the timeout interval for all Windows probes on a specific MID Server. This 
 -   Default value: 600
 
 </td></tr></tbody>
-</table>**Parent Topic:**[PowerShell for Discovery and Service Mapping](r_PowerShellForDiscovery.md)
+</table>**Parent Topic:**[PowerShell for Discovery and Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md)
 

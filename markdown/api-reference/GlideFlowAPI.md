@@ -2,6 +2,7 @@
 title: GlideFlow - Client
 description: The GlideFlow API provides methods for client-side interactions with actions, flows, and subflows.Returns a completion object for the execution.Returns a string containing the execution status of the current execution.Returns an outputs object for the execution.Get an existing execution instance by ID.Start an action.Start a flow.Start a subflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/GlideFlowAPI.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -30,7 +31,7 @@ Using this API, you can:
 
 There is no constructor for the GlideFlow API. Access GlideFlow methods using the `GlideFlow` global object.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## GlideFlow - execution.awaitCompletion\(\)
 

@@ -2,6 +2,7 @@
 title: View data of completed best practices
 description: See visual representations of the total amount of best practices completed, or segmented by maturity level.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/view-statistics-of-completed-best-practices.html
 release: australia
 product: Security Center
 classification: security-center
@@ -34,5 +35,5 @@ Complete the actions to see charts that provide visual trends of security best p
 4.  Select **Completed by maturity level** to see a chart, which displays trends of best practices completed by maturity level.
 
 
-**Parent Topic:**[Security Best Practices](../concept/security-best-practices-manager.md)
+**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/security-center/security-best-practices-manager.md)
 

@@ -2,6 +2,7 @@
 title: Activate Conversational Messaging
 description: You can activate the Conversational Messaging plugin \(com.glide.messaging.awa\) if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

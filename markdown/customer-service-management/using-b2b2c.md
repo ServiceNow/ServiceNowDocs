@@ -2,7 +2,10 @@
 title: Using customer data models for B2B2C
 description: With the business-to-business-to-consumer \(B2B2C\) model, organizations across industries can easily configure multi-level customer relationships and support business customers who can support their end consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-b2b2c.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -35,7 +38,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Associate an account with consumers](../task/t_AssociateConsumersToAccounts.md)
+[Associate an account with consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_AssociateConsumersToAccounts.md)
 
 </td><td>
 
@@ -43,7 +46,7 @@ Enable customer service managers to identify the end consumers who are using pro
 
 </td></tr><tr><td>
 
-[Associate sold products with account consumers](../task/t_AssociateSoldProduct.md)
+[Associate sold products with account consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_AssociateSoldProduct.md)
 
 </td><td>
 
@@ -51,7 +54,7 @@ Enable customer service managers to track sold products or services by associati
 
 </td></tr><tr><td>
 
-[Associate install base items with account consumers](../task/t_AssociateInstallBaseItems.md)
+[Associate install base items with account consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/t_AssociateInstallBaseItems.md)
 
 </td><td>
 
@@ -59,7 +62,7 @@ Enable customer service managers to track the instances provisioned by associati
 
 </td></tr><tr><td>
 
-[View install base information as an account consumer](../task/view-install-base-for-account-consumers.md)
+[View install base information as an account consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-install-base-for-account-consumers.md)
 
 </td><td>
 
@@ -67,7 +70,7 @@ Track the instances provisioned for your account and which products or services 
 
 </td></tr><tr><td>
 
-[View sold products information as an account consumer](../task/view-sold-products-for-account-consumers.md)
+[View sold products information as an account consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/view-sold-products-for-account-consumers.md)
 
 </td><td>
 

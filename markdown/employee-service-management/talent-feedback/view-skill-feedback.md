@@ -2,6 +2,7 @@
 title: View skill feedback submitted
 description: As a manager, view all the skill feedback submitted by employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/view-skill-feedback.html
 release: australia
 product: Talent Feedback
 classification: talent-feedback

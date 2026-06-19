@@ -2,6 +2,7 @@
 title: Fulfill a service request
 description: End users can request published services through the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/service-creator/t\_FulfillingServiceRequests.html
 release: australia
 product: Service Creator
 classification: service-creator

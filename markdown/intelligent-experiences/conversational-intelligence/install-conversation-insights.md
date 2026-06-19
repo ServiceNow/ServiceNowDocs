@@ -2,11 +2,12 @@
 title: Install Conversation Insights
 description: If you have the admin role, you can install the Conversation Insights application \(sn\_aci\).If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins, if they aren’t already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/conversational-intelligence/install-conversation-insights.html
 release: australia
 product: Conversational Intelligence
 classification: conversational-intelligence
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Conversation Insights, Enable AI experiences]
 ---

@@ -2,6 +2,7 @@
 title: SD-WAN Inventory Dashboard
 description: The SD-WAN Inventory Dashboard provides a visual summary of your SD-WAN network inventory, including total customers, sites, devices, and models, with breakdowns by device model and class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/dashboard-for-alerts-events-and-metrics.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
@@ -19,7 +20,7 @@ The SD-WAN Inventory Dashboard provides a visual summary of your SD-WAN network 
 
 If you're a user with the tsom\_assurance\_admin role, you can access the SD-WAN Inventory Dashboard by navigating to **All** &gt; **Platform Analytics &gt; Dashboards** and searching for and selecting SD-WAN Inventory Dashboard.
 
-![SD-WAN Inventory Dashboard: Network Overview tab](../images/Dashboard.png)
+\[Omitted image "Dashboard.png"\] Alt text: SD-WAN Inventory Dashboard: Network Overview tab
 
 ## Network Overview
 
@@ -43,7 +44,7 @@ The following breakdowns are available in the SD-WAN Inventory Dashboard:
 
 The **Filtered View** tab provides the ability to filter inventory data by customer, manufacturer, model, or discovery source.
 
-![SD-WAN Inventory Dashboard: Filtered View tab](../images/sd-wan-inventory-dashboard-fv.png)
+\[Omitted image "sd-wan-inventory-dashboard-fv.png"\] Alt text: SD-WAN Inventory Dashboard: Filtered View tab
 
 |Title|Type|Description|
 |-----|----|-----------|

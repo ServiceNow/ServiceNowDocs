@@ -2,6 +2,7 @@
 title: Idea state mapping
 description: Map your idea states to the Universal Request states to provide a better user experience during the idea state transition and to track the progress of the idea.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/innovation-management/idea-state-mapping.html
 release: australia
 product: Innovation Management
 classification: innovation-management
@@ -50,8 +51,8 @@ The following table lists the default mapping of different idea states with the 
 
 3.  On the form, fill in the fields.
 
-    For more information, see [State mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/universal-request-for-hr-service-delivery/ur-state-mapping-form.md).
+    For more information, see State mapping form.
 
 
-**Parent Topic:**[Integrating Innovation Management with Universal Request](../concept/universal-req-idea-mgmt.md)
+**Parent Topic:**[Integrating Innovation Management with Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/innovation-management/universal-req-idea-mgmt.md)
 

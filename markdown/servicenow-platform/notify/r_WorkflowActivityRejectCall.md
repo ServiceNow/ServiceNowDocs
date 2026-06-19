@@ -2,6 +2,7 @@
 title: Reject workflow
 description: The Reject workflow activity rejects an incoming Notify call.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/r\_WorkflowActivityRejectCall.html
 release: australia
 product: Notify
 classification: notify
@@ -25,5 +26,5 @@ Input variables determine the initial behavior of the activity.
 |--------|-----------|
 |reason|Select a reason for rejecting the call, such as **busy**.|
 
-**Parent Topic:**[Notify workflow activities](../concept/c_NotifyActivities.md)
+**Parent Topic:**[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyActivities.md)
 

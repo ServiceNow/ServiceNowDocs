@@ -2,6 +2,7 @@
 title: Example workflow for Field Service Work Configurations
 description: Explore how to use Field Service Work Configurations for a break-fix task for MRI Scanner. This example workflow shows a customized flow, and an additional state for break-fix work order for MRI Scanner.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/example-workflow-for-field-service-work-configurations.html
 release: australia
 product: Work Order Management
 classification: work-order-management

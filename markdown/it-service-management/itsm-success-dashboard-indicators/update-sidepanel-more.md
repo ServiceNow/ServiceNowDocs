@@ -2,6 +2,7 @@
 title: Update more information cards
 description: Configure and update the More Information cards in the side panel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/update-sidepanel-more.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -62,5 +63,5 @@ Associate the new context information card with an indicator. To associate a new
 
 8.  Select **Submit**.
 
-**Parent Topic:**[Configure Success Dashboard indicators KPIs](config-kpis-sdb.md)
+**Parent Topic:**[Configure Success Dashboard indicators KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)
 

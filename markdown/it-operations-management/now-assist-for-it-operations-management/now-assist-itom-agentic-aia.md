@@ -2,6 +2,7 @@
 title: Analyze alert impact agentic workflow
 description: Use the analyze alert impact agentic workflow to investigate an alert and get the context that you need to respond efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-agentic-aia.html
 release: australia
 product: Now Assist for IT Operations Management
 classification: now-assist-for-it-operations-management
@@ -25,7 +26,7 @@ The analyze alert impact agentic workflow uses AI agents to interact with observ
 -   Identify ownership by surfacing relevant services and responsible teams.
 -   Support stakeholder communication with clear, actionable information.
 
-Use the information on this page to learn about the agents related to the analyze alert impact agentic workflow. To modify the analyze alert impact agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) and adjust the settings.
+Use the information on this page to learn about the agents related to the analyze alert impact agentic workflow. To modify the analyze alert impact agentic workflow, duplicate it and adjust the settings.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -38,21 +39,19 @@ To access the agentic workflow in AI Agent Studio:
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Analyze alert impact**.
 
-The Analyze alert impact page lets you manage the agentic workflow, including defining key requirements, defining security controls, and adding triggers.Navigate to Select channels and status to turn on the agentic workflow in the Now Assist panel.
+The Analyze alert impact page lets you manage the agentic workflow, including defining key requirements, defining security controls, and adding triggers.
+
+**Important:** This agentic workflow is turned on by default. For more information, see .
 
 ## AI agents used in the analyze alert impact agentic workflow
 
-The analyze alert impact agentic workflow uses observability AI agents to gather information from alerts and request insights. The observability AI agents require additional configuration. For more information, see [Configuring agents for Now Assist for ITOM](itom-ai-agent-configuration.md).
-
-**Important:** Before using the analyze alert impact agentic workflow, activate its AI agents. In AI Agent Studio, find the agents in Create and manage, and turn on the AI agents in the Select channels and status screen.
+The analyze alert impact agentic workflow uses observability AI agents to gather information from alerts and request insights. The observability AI agents require additional configuration. For configuration procedures and detailed information about the data returned by these agents, see [Configure observability agents for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/configure-integration-agents-for-now-assist.md).
 
 |AI agent|AI agent role|
 |--------|-------------|
 |Alert impact summary AI agent|Retrieves the alert impact summary for a specific alert.|
 |Alert information retrieval AI agent|Gathers key observability details for a specific alert.|
-|Dynatrace analysis AI agent|Gathers insights from Dynatrace about possible root causes, impacted entities, and impacted environments.|
-|Kentik analysis AI agent|Gathers insights from Kentik about service network performance, connectivity, DDOS attacks, and anomalies.|
-|New Relic analysis AI agent|Gathers insights from New Relic about alert impact, including service and user impact, root cause theories, and responsible teams.|
+|Observability agents|Retrieves data from the observability vendor associated with the alert. For details, see [Configure observability agents for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/configure-integration-agents-for-now-assist.md)|
 
 ## Generating the alert analysis
 
@@ -68,5 +67,5 @@ In the agentic workflow record:
     The page shows the chat responses, visualizes the AI agents involved, and lists the AI agent decision logs.
 
 
-In AI Agent Studio, you get notified when the analysis is generated. You can then act on the information or ask more questions about the alert. For more information about using the agentic workflow in the Now Assist panel, see [Use the analyze alert impact agentic workflow](../task/now-assist-itom-use-aia.md).
+In AI Agent Studio, you get notified when the analysis is generated. You can then act on the information or ask more questions about the alert. For more information about using the agentic workflow in the Now Assist panel, see [Analyze alert impact in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/now-assist-itom-use-aia.md).
 

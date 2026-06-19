@@ -1,19 +1,21 @@
 ---
 title: Approve an invoice approval task from Employee Center
-description: Review the invoice approval tasks that are assigned to you and approve or reject them.
+description: Approve or reject invoice approval tasks assigned to you in Employee Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/approve-invoice-request-ec.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice approval, invoice automation, AP automation]
 breadcrumb: [Invoice approvals, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Approve an invoice approval task from Employee Center
 
-Review the invoice approval tasks that are assigned to you and approve or reject them.
+Approve or reject invoice approval tasks assigned to you in Employee Center.
 
 ## Before you begin
 
@@ -37,5 +39,5 @@ Role required: sn\_shop.invoice\_owner
     **Note:** When rejecting a request, you must provide your justification for rejection on the Reject request window.
 
 
-**Parent Topic:**[Invoice approvals](../concept/invoice-approvals.md)
+**Parent Topic:**[Invoice approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-approvals.md)
 

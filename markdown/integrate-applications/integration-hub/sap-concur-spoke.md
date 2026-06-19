@@ -2,6 +2,7 @@
 title: SAP Concur Spoke
 description: The SAP Concur spoke is built by Bristlecone, Inc. Manage expenses, payments, purchases, users, travel, and so on in the SAP Concur account from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sap-concur-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The SAP Concur spoke is built by Bristlecone, Inc. Manage expenses, payments, pu
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -40,13 +41,13 @@ SAP Concur spoke v2.3.2 is the latest version.
     -   Expense Approver
     -   Authorised Support Contact
     -   Invoice User
-    ![SAP Concur API user roles](../image/sap-concur-user-roles.png)
+    \[Omitted image "sap-concur-user-roles.png"\] Alt text: SAP Concur API user roles
 
 -   SAP Concur API user with these Expense API and Invoice User permissions.
 
-    ![Expense API permissions](../image/sap-concur-expense-prms.png)
+    \[Omitted image "sap-concur-expense-prms.png"\] Alt text: Expense API permissions
 
-    ![Invoice API permissions](../image/sap-concur-invoice-prms.png)
+    \[Omitted image "sap-concur-invoice-prms.png"\] Alt text: Invoice API permissions
 
 -   Contact SAP Concur Implementation team to obtain values of Client ID, Client Secret, Company ID, and Company Request Token, and define the scope of the client application.
 
@@ -358,16 +359,16 @@ Creates subscriptions in SAP Concur for the selected topic with provided endpoin
 </td></tr></tbody>
 </table>## Available AI agents
 
-Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See  for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See  for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
--   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See  for more information about creating a clone.
+-   See  for information about AI agents.
 
 Available AI agents include:
 
@@ -380,15 +381,15 @@ Available AI agents include:
 |SAP Concur receipt management AI agent|Manages receipts by enabling users to perform tasks such as uploading receipt images to expense reports, retrieving URLs for expense entry receipt images, and obtaining URLs for expense report receipt images.|
 |SAP Concur itinerary management AI agent|Manages itineraries and expenses, and retrieves the required itinerary information.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
 ## Available sample agentic workflows
 
-Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
+Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/now-assist-spokes.md).
 
-In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-aia-use-case.md).
+In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see .
 
 Available sample agentic workflow includes:
 
@@ -423,7 +424,7 @@ Retrieves purchase order information and the corresponding payment request detai
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
+No**Note:** To activate the workflow, see .
 
 </td></tr><tr><td>
 
@@ -440,7 +441,7 @@ Retrieves recently updated expense reports, uploads a receipt image to an expens
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-aia-use-case.md).
+No**Note:** To activate the workflow, see .
 
 </td></tr></tbody>
 </table>## Spoke module
@@ -449,10 +450,10 @@ The SAP Concur spoke adds the SAP Concur Spoke application to your instance and 
 
 |Module|Description|
 |------|-----------|
-|SAP Concur Expense Entries|View details of the expense entries. After you [Set up the SAP Concur spoke](../task/setup-sapconcur-spk.md) and map the users in the SAP Concur User Mappings module, the system retrieves details of the expense entries and populates in this module.|
+|SAP Concur Expense Entries|View details of the expense entries. After you [Set up the SAP Concur spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sapconcur-spk.md) and map the users in the SAP Concur User Mappings module, the system retrieves details of the expense entries and populates in this module.|
 |SAP Concur Expense Report Details|View the expense report details. Configure the default flow Get All Modified Expense Reports as per your requirement to retrieve and populate data.|
 |SAP Concur Expense Report Last Modified Date|View the latest timestamp or last modified date on which the flow was executed or reports were filtered. Configure the default flow Get All Modified Expense Reports as per your requirement to retrieve and populate data.|
-|SAP Concur Expense Reports|View the expense reports. After you set up the [Set up the SAP Concur spoke](../task/setup-sapconcur-spk.md) and map the users, the system retrieves details of the expense reports and populates in this module.|
+|SAP Concur Expense Reports|View the expense reports. After you set up the [Set up the SAP Concur spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sapconcur-spk.md) and map the users, the system retrieves details of the expense reports and populates in this module.|
 |SAP Concur User Mappings|Map ServiceNow users to their corresponding User IDs in SAP Concur.|
 
 ## Spoke user roles
@@ -467,7 +468,7 @@ The SAP Concur spoke provides these user roles to control access to data:
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
-For information about setting up the spoke, see [Set up the SAP Concur spoke](../task/setup-sapconcur-spk.md).
+For information about setting up the spoke, see [Set up the SAP Concur spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-sapconcur-spk.md).
 

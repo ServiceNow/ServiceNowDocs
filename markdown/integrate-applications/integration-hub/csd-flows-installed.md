@@ -2,6 +2,7 @@
 title: Flows and subflows installed
 description: These flows and subflows are installed with the Client Software Distribution plugin.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd-flows-installed.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -22,7 +23,7 @@ These flows and subflows are installed with the Client Software Distribution plu
 
 |Subflow|Description|
 |-------|-----------|
-|Discover And Store SCCM Data|Retrieves lists of applications, collections, and deployments from SCCM servers using [Microsoft SCCM spoke](../concept/microsoft-sccm-spoke.md) actions. An administrator runs this subflow from a UI action in a [SCCM Server Instance record](../tasks/retrieve-sccm-data-ihub.md).|
+|Discover And Store SCCM Data|Retrieves lists of applications, collections, and deployments from SCCM servers using [Microsoft SCCM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/microsoft-sccm-spoke.md) actions. An administrator runs this subflow from a UI action in a [SCCM Server Instance record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/retrieve-sccm-data-ihub.md).|
 |Deploy SCCM Application|Triggered by the Order Client Software flow to deploy software through SCCM server. This subflow adds either the user or the device into the SCCM collection.|
 |Revoke Client Software|Begins the software revocation process for software deployed by an external provider. Administrators run this subflow from a UI action on the Requested Software record and the Installed Software Not Entitled record. This subflow triggers the appropriate provider subflow that performs the actual revocation. For example, this subflow triggers the Revoke SCCM Application subflow for applications in SCCM uninstall collections.|
 |Revoke SCCM Application|Revokes SCCM applications that are members of an uninstall collection. The Revoke Client Software subflow triggers this subflow to revoke software deployed by an SCCM server. This subflow moves either the user or the device from the SCCM collection into the appropriate uninstall collection.|
@@ -31,5 +32,5 @@ These flows and subflows are installed with the Client Software Distribution plu
 |CSD Lease End Notification|Notifies user about the lease end date of the software and sends link to extend lease end date.|
 |Prepare Revocation Data|Prepare data required for the revocation flow.|
 
-**Parent Topic:**[Components installed with client software distribution](comp-installed-csd-ihub.md)
+**Parent Topic:**[Components installed with client software distribution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/comp-installed-csd-ihub.md)
 

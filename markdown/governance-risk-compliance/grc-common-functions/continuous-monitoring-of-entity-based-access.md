@@ -2,6 +2,7 @@
 title: Entity-based record access rules
 description: The entity-based record access rules let admins apply restrictions automatically to new and changed records. This configuration ensures that access settings stay enforced. No manual updates are needed when records are created, modified, or when users are added to user fields or user group fields.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/continuous-monitoring-of-entity-based-access.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -17,7 +18,7 @@ The entity-based record access rules let admins apply restrictions automatically
 
 Entity-based record access rules apply access restrictions on newly created and modified records. These rules can be configured and activated in the Core UI, for a specific primary record type such as Risk or Issue. After activation, any associated secondary records, such as Risk Response Task or Remediation Task, inherit access restrictions from their corresponding primary records. The rule applies when records are linked to entities with active configurations.
 
-To ensure users referenced on records continue to have access when entity-based access restrictions are applied, administrators must configure record attribute user access. This configuration allows access for users and groups referenced in user fields or user group fields. It is set up per table and doesn't apply automatically to secondary records, so each secondary record type must be configured separately. For more information, see [Configure entity-based record access rules](../task/configure-continuous-eba-monitoring-on-record-types.md).
+To ensure users referenced on records continue to have access when entity-based access restrictions are applied, administrators must configure record attribute user access. This configuration allows access for users and groups referenced in user fields or user group fields. It is set up per table and doesn't apply automatically to secondary records, so each secondary record type must be configured separately. For more information, see [Configure entity-based record access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/configure-continuous-eba-monitoring-on-record-types.md).
 
 To support entity-based access restrictions, the system applies the access restrictions on new records based on the activated rules:
 
@@ -32,5 +33,5 @@ To support entity-based access restrictions, the system applies the access restr
 
 Enabling record attribute user access ensures that users and groups referenced on records retain access even when entity-based access restrictions are applied. This prevents disruption and maintains seamless access control during data segregation.
 
-**Parent Topic:**[Entity Based Access](entity-based-access.md)
+**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md)
 

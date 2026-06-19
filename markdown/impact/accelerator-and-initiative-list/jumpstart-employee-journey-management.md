@@ -2,6 +2,7 @@
 title: Jumpstart Your Employee Journey Management
 description: The Jumpstart Your Employee Journey Management \(EJM\) Accelerator provides a demonstration of the possibilities and capabilities of Employee Journey Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-employee-journey-management.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,7 +20,9 @@ The Jumpstart Your Employee Journey Management \(EJM\) Accelerator provides a de
 
 Jumpstart Your Employee Journey Management provides Impact customers with an overview and applied demonstration, helping them to better understand how to begin with Employee Journey Management. This offering showcases EJM capabilities and features, enabling organizations to deliver personalized, cross-departmental Employee Journeys through intelligent workflows that support real-time tasking, learning, and feedback. Additionally, this Accelerator provides key resources and leading-practice guides to enhance product adoption and usage.​
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 

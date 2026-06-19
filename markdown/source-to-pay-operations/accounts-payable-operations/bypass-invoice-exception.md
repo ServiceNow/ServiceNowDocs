@@ -2,12 +2,14 @@
 title: Bypass an invoice exception
 description: Bypass an invoice exception if you find that it is not applicable to the invoice.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/bypass-invoice-exception.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice exception, AP specialist]
 breadcrumb: [Work on an invoice exception, Invoice exceptions, Using Accounts Payable Invoice Processing, Use, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
@@ -21,13 +23,13 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 ## About this task
 
-The **Bypass exception** option is available for an exception only if the **Allow bypass** option is selected for that exception on the Invoice exception definition form. For more information, see [Invoice exception definition form](../reference/invoice-exception-definition-form.md).
+The **Bypass exception** option is available for an exception only if the **Allow bypass** option is selected for that exception on the Invoice exception definition form. For more information, see [Invoice exception definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/invoice-exception-definition-form.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
 
-2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+2.  Select the list icon \(\[Omitted image "cases-list-icon.png"\] Alt text: List icon\).
 
 3.  Do one of the following:
 
@@ -80,5 +82,5 @@ View exceptions from an invoice processing case
     After you bypass an exception, the exception engine re-runs automatically.
 
 
-**Parent Topic:**[Work on an invoice exception](work-invoice-exception-case.md)
+**Parent Topic:**[Work on an invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/work-invoice-exception-case.md)
 

@@ -2,11 +2,12 @@
 title: GlideSPUtil - Global
 description: The GlideSPUtil API provides utility methods to perform common backend functions that support a Service Portal.Instantiates a GlideSPUtil object.Considers ‘id’ query parameter to identify the portal page \(pageGR\) and uses query string of the current transaction to call getHumanReadableUrl\(GlideRecord pageGR, String queryString\) and returns the final human readable.Converts the passed queryParms string parameter into a string map and then resolves the variables in the "Human readable url structure" string provided in the sp\_page record and returns the final human readable part of the URL.Resolves the variables in the Human readable url structure field of the passed-in Service Portal template page object and returns a URL containing the specified query parameters and the resolved human readable parameters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideSPUtilAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-15"
 reading_time_minutes: 3
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -20,9 +21,9 @@ Available utility methods:
 -   Resolve variables specified in the Dynamic page variables \[sp\_page\_title\_variable\] table associated with a specified Service Portal page located in the Page \[sp\_page\] table.
 -   Other methods
 
-For additional information, see [Service Portal pages](https://servicenow.com/docs/bundle/vancouver-servicenow-platform/page/build/service-portal/task/add-human-readable-keywords-page-urls.html).
+For additional information, see Service Portal pages.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideSPUtil - GlideSPUtil\(\)
 
@@ -117,7 +118,7 @@ You can add the item name to the URL so it is easier to understand the purpose o
 
 `https://instance_name.servicenow.com/sp/en/apple-iphone-13?id=sc_cat_item&sys_id=ec80c13297968d1021983d1e6253af32&sysparm_catgory=1e80c15697969f1032083d1e6253be15`
 
-Before you can use this method, you must define the dynamic page variables that are available for each of the Service Portal templates for which you want to include dynamic content in the URL. For details on adding these variables, see [Add human readable keywords to page URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/add-human-readable-keywords-page-urls.md).
+Before you can use this method, you must define the dynamic page variables that are available for each of the Service Portal templates for which you want to include dynamic content in the URL. For details on adding these variables, see .
 
 <table id="table_dht_dpg_hvb" class="parameters"><thead><tr><th>
 

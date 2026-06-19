@@ -2,6 +2,7 @@
 title: Schedule import set jobs to pull data from the CRM system
 description: Schedule import set jobs to pull sales representatives and associated sales accounts and active opportunities data from the CRM system into the ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/schedule-import-sales-contract-crm.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -17,7 +18,7 @@ Schedule import set jobs to pull sales representatives and associated sales acco
 
 ## Before you begin
 
-[Configure Microsoft Dynamics CRM for sales contracts](integrate-legal-ms-dynamics-crm.md).
+[Configure Microsoft Dynamics CRM for sales contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/integrate-legal-ms-dynamics-crm.md).
 
 Role required: admin
 
@@ -32,7 +33,7 @@ The import set jobs trigger a Workflow Studio flow that pulls the data from the 
 -   **The maximum number of records to return when fetching data** \(**sn\_flow\_designer.action\_picker\_limit**\)
 -   **The maximum amount of iterations that a loop will run in flow designer** \(**sn\_flow\_designer.max\_iterations**\)
 
-Based on the number of records pulled for your system, you can modify the values of these properties. For more information, see [Workflow Studio system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
+Based on the number of records pulled for your system, you can modify the values of these properties. For more information, see Workflow Studio system properties.
 
 ## Procedure
 
@@ -45,14 +46,14 @@ Based on the number of records pulled for your system, you can modify the values
     -   **Sales Representatives Scheduled Data Import**
     -   **Sales Accounts Scheduled Data Import**
     -   **Sales Opportunities Scheduled Data Import**
-    For more information, see [Scheduled data imports](../reference/installed-with-legal-simple-contracts.md#section_scheduled_jobs)
+    For more information, see [Scheduled data imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/installed-with-legal-simple-contracts.md)
 
 3.  Configure the data import job as needed.
 
-    For more information on configuring a data import set schedule, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_ScheduleADataImport.md) .
+    For more information on configuring a data import set schedule, see Schedule a data import .
 
 4.  To pull data from a different set of fields from the CRM system, update the corresponding transformation maps.
 
-    For more information on configuring a transformation map, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/t_CreateATransformMap.md) .
+    For more information on configuring a transformation map, see Create a transform map .
 
 

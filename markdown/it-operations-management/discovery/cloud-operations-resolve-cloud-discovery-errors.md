@@ -2,6 +2,7 @@
 title: Resolve Cloud Discovery errors in Cloud Discovery Workspace
 description: View the Cloud Discovery errors that occurred during the discovery and resolve them. You can view the errors for all the Cloud Discovery runs or a single Cloud Discovery run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cloud-operations-resolve-cloud-discovery-errors.html
 release: australia
 product: Discovery
 classification: discovery

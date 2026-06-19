@@ -2,7 +2,10 @@
 title: Activate AI Search
 description: Activate AI Search to enable conversational search capabilities in Now Assist for Core Business Suite.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/core-business-suite/activate-ai-search.html
 release: australia
+product: Core Business Suite
+classification: core-business-suite
 topic_type: task
 last_updated: "2026-04-05"
 reading_time_minutes: 1
@@ -31,8 +34,8 @@ Role required: admin
 
     When activation is complete, the status indicates that AI Search is ready.
 
-    For more information about the AI Search, see [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/overview-ais.md).
+    For more information about the AI Search, see .
 
 
-**Parent Topic:**[Configure Core Business Suite Foundation](../concept/configure-cbs.md)
+**Parent Topic:**[Configure Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/core-business-suite/configure-cbs.md)
 

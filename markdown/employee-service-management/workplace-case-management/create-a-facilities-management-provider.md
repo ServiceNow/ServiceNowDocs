@@ -2,6 +2,7 @@
 title: Create a facilities management provider
 description: Create a facilities management provider to connect Workplace Cases and Tasks in ServiceNow with an external facilities management \(FM\) system using the IFM Framework. The provider record defines how ServiceNow creates, updates, and cancels work orders in a third‑party FM system and enables end‑to‑end visibility across both systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-case-management/create-a-facilities-management-provider.html
 release: australia
 product: Workplace Case Management
 classification: workplace-case-management
@@ -41,7 +42,7 @@ A Facilities Management Provider record represents a third-party FM vendor that 
 
     **Note:** For more information about work order flows, see .
 
-    ![](../../workplace-service-delivery/images/FM_provider.png)
+    \[Omitted image "FM\_provider.png"\] Alt text:
 
 4.  Select **Submit**.
 

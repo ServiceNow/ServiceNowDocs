@@ -2,6 +2,7 @@
 title: Edit a dashboard in the dashboard library
 description: Edit an existing dashboard in the Related Dashboards page to update details such as the display name, description, or the associated dashboard itself.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/edit-a-dashboard-in-the-dashboard-library.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -29,7 +30,7 @@ You can edit an existing dashboard in the library to update its display name, de
 
 2.  Locate the dashboard you want to edit and select **Edit** in the Actions menu.
 
-    ![Edit Dashboard modal in Dashboard Library](../image/NAinVA-assistant-designer-analytics-edit-dashboard.png "Edit Dashboard modal")
+    \[Omitted image "NAinVA-assistant-designer-analytics-edit-dashboard.png"\] Alt text: Edit Dashboard modal in Dashboard Library
 
 3.  On the **Edit Dashboard** form, update the fields.
 

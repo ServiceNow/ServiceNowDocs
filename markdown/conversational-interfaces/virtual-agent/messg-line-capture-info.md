@@ -2,6 +2,7 @@
 title: Capturing information from a user in a LINE chat conversation
 description: Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a LINE chat conversation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-line-capture-info.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Configure, Conversational Integration with LINE, Integrate VA with 
 
 Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a LINE chat conversation.
 
-Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Using Virtual Agent Designer](../reference/conversation-designer-virtual-agent.md).
+Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Using Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
 ## User notification consent
 
@@ -24,7 +25,7 @@ Users must opt in to receive notifications. No notifications can be delivered un
 There are two ways for users to grant consent to receive notifications:
 
 -   The user can enter `Notification` into the LINE chat with your business. The user gets a bot response with the option to subscribe or unsubscribe from receiving notifications for your business on LINE.
--   As an administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_SubscriptionBasedNotifications.md) for more information.
+-   As an administrator, you can set up the option for users to subscribe or unsubscribe from notifications from your portal. See  for more information.
 
 ## User input controls
 
@@ -90,7 +91,7 @@ Carousel
 User selects a single item from the carousel.In a carousel, the title for an image has a maximum limit of 40 characters and the text for the image has a maximum character limit of 60 characters. At a time, a user can view only 10 images. If there are more than 10 images, the pagination format is used to view more options. The default value of the maximum number of images in the carousel for a page is set in the **sn\_va\_line.max.carousel.cards** system property. The property is located in the System Property \[sys\_properties\] table.
 
 </td></tr></tbody>
-</table>For more information about configuring user input controls, see [Assistant Designer user input controls](../reference/va-user-inputs.md).
+</table>For more information about configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
 The Conversational Integration with LINE application supports the following bot responses in Virtual Agent Designer.
 
@@ -102,5 +103,5 @@ The Conversational Integration with LINE application supports the following bot 
 |Web UI image card output|Bot sends content from a record in a compact format, including an image with text.|
 |Table|Bot response is displayed as a table.|
 
-For more information about configuring bot responses, see [Assistant Designer bot responses](../reference/va-bot-responses.md).
+For more information about configuring bot responses, see [Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-bot-responses.md).
 

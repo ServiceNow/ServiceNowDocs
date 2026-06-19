@@ -2,13 +2,14 @@
 title: Natural language synonyms for formula operators
 description: Data Binding Generation enables Now Assist to recognize property names by using a set of frequently used synonyms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/now-assist-for-creator/natural-language-synonyms-for-formula-operators.html
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
-breadcrumb: [Reference, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, UI generation, Use generative AI, Now Assist for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Natural language synonyms for formula operators
@@ -55,5 +56,5 @@ Here’s a list of additional examples of operators and their synonyms to guide 
 
 With Data Binding Generation, Now Assist is able to recognize properties based on keywords found in the data property label. If a prompt uses a synonym that doesn’t match an exact property \(such as, surname\), Now Assist finds the closest related keyword, such as "name". When a prompt includes either an exact property label or part of the label, such as a first name or family name, it matches directly and improves accuracy.
 
-**Parent Topic:**[UI generation reference](../concept/ui-generation-reference.md)
+**Parent Topic:**[UI generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/now-assist-for-creator/ui-generation-reference.md)
 

@@ -2,6 +2,7 @@
 title: Grandfathered and exempted tables
 description: Grandfathered and exempted custom tables are treated differently than other custom tables on your instance. Refer to your organization’s ServiceNow contract for additional information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/grandfathered-and-exempt-tables-v2.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -46,5 +47,5 @@ The [Custom Table Guide legal schedule](https://www.servicenow.com/content/dam/s
 
 To find past versions of the Custom Table Guide, see the [Legal Schedules Custom Table Guide](https://www.servicenow.com/schedules-archived.html).
 
-**Parent Topic:**[Managing custom tables and applications in Subscription Management](../concept/allocating-custom-tables-subscr-apps-v2.md)
+**Parent Topic:**[Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 

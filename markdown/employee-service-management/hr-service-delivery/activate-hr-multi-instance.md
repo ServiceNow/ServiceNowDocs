@@ -2,13 +2,14 @@
 title: Activate HR Multi Instance Integration for Provider
 description: You can install the HR Multi Instance Integration for Provider application if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/activate-hr-multi-instance.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure HR Multi Instance Integration for Provider, Configuring HR Multi Instance Integration, HR Multi Instance Integration, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure for Provider, Configure, HR Multi Instance Integration, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate HR Multi Instance Integration for Provider

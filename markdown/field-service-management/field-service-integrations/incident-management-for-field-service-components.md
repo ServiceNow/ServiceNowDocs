@@ -2,6 +2,7 @@
 title: Incident Management for Field Service components
 description: Various plugins, script includes, and business rules are installed with the Incident Management for Field Service application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/incident-management-for-field-service-components.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -17,7 +18,7 @@ Various plugins, script includes, and business rules are installed with the Inci
 
 ## Plugin
 
-The Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) plugin must be activated. For more information on the steps to activate a plugin, see [Install Incident Management for Field Service](../task/Install-incident-for-fsm.md).
+The Incident Management for Field Service application \(sn\_fsm\_inc\_mng\) plugin must be activated. For more information on the steps to activate a plugin, see [Activate Incident Management for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/Install-incident-for-fsm.md).
 
 ## Script Includes
 
@@ -132,5 +133,5 @@ Manages actual task time and performs work on site. Agents can view parent incid
 sn\_incident\_read
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration with Incident Management](../concept/incident-for-fsm.md)
+</table>**Parent Topic:**[Integration with Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/incident-for-fsm.md)
 

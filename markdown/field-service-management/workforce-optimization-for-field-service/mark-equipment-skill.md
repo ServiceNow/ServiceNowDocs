@@ -2,6 +2,7 @@
 title: Add an equipment skill
 description: Designate skills as equipment-related skills so that when a task that requires equipment skills is assigned, the correct equipment skills can be selected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/mark-equipment-skill.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -29,7 +30,7 @@ Role required: wm\_admin
 
 4.  Under **Collection**, search for and select Equipment Skills.
 
-5.  Select the Add \(![add](../image/add-greater.png)\) icon.
+5.  Select the Add \(\[Omitted image "add-greater.png"\] Alt text: add\) icon.
 
 6.  Select **Save**.
 

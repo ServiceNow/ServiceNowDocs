@@ -2,6 +2,7 @@
 title: Set the location type in Location table
 description: Set the location type of a location by creating a dictionary override of the table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/set-loc-type-in-loc-table.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -54,5 +55,5 @@ When you create a location in the Workplace Core application, that location is a
 
 The location type is set for the selected location table.
 
-**Parent Topic:**[Location migration](../concept/location-migration.md)
+**Parent Topic:**[Location migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/location-migration.md)
 

@@ -2,6 +2,7 @@
 title: Demands list view
 description: The All Demands home page displays demands in a list view and contains specific UI components to create, edit, and export demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demands-list-view.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -17,7 +18,7 @@ The **All Demands** home page displays demands in a list view and contains speci
 
 ## Actions
 
-The actions available on the home page are listed in this table.![Actions in the All Demands list view.](../images/all-demands-home-page.png)
+The actions available on the home page are listed in this table.\[Omitted image "all-demands-home-page.png"\] Alt text: Actions in the All Demands list view.
 
 |Feature|Description|
 |-------|-----------|
@@ -51,7 +52,7 @@ Column actions
 
 </td><td>
 
-Group the demands by a column field using the action on the header. Point your mouse device to a column header to see the context menu icon \(![Row context menu.](../../project-workspace/image/icon-row-context-menu.png)\).
+Group the demands by a column field using the action on the header. Point your mouse device to a column header to see the context menu icon \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\).
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Enables the dragging of the columns to a position of your choice on the grid.
 
 </td></tr><tr><td>
 
-Select row \(![Select row.](../../alignment-planner-workspace/images/icon-select.png)\)
+Select row \(\[Omitted image "icon-select.png"\] Alt text: Select row.\)
 
 </td><td>
 
@@ -75,7 +76,7 @@ Cell actions
 
 </td><td>
 
-Show matching or filter out demands by selecting the cell context menu \(![Context menu.](../../project-workspace/image/icon-row-context-menu.png)\) or select and hold \(or right-click\) a cell.
+Show matching or filter out demands by selecting the cell context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Context menu.\) or select and hold \(or right-click\) a cell.
 
 </td></tr></tbody>
 </table>

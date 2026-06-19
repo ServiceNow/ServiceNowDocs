@@ -2,6 +2,7 @@
 title: Create a linter check
 description: Create a linter check to identify any issues in a script. When a linter check is run on a record, an abstract syntax tree for its code is generated. You can use the abstract syntax tree to analyze issues with the code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/instance-scan/hc-linter-check.html
 release: australia
 product: Instance Scan
 classification: instance-scan
@@ -20,7 +21,7 @@ Create a linter check to identify any issues in a script. When a linter check is
 Role required: scan\_admin.
 
 ```
-Before performing this task you must complete [Create a check](hs-create-health-check.md).
+Before performing this task you must complete [Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-health-check.md).
 ```
 
 ## Procedure
@@ -135,8 +136,8 @@ The script that executes against each record that matches the condition. By defa
 
 </td></tr></tbody>
 </table>
--   **[Advanced linter check scripts](../concept/hs-linter-check-scripts.md)**  
+-   **[Advanced linter check scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-linter-check-scripts.md)**  
 Linter check scripts helps you in writing checks that look for issues in scripts. When a linter check is run on a record, it provides an abstract syntax tree for its code. You can use this abstract syntax tree to analyze issues with the code such as too many nested if statements or usages of slow API in a while loop.
 
-**Parent Topic:**[Create a check](hs-create-health-check.md)
+**Parent Topic:**[Create a check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/instance-scan/hs-create-health-check.md)
 

@@ -2,13 +2,14 @@
 title: Map KBA questions to answers
 description: Create knowledge-based questions and answer mapping to confirm the user's identity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/create-kba-answer-mappings.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentication factors, Authentication factors, Authentication, Access Management]
+breadcrumb: [Configure KBA, Knowledge-based authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Map KBA questions to answers
@@ -33,7 +34,7 @@ Role required: auth\_factors\_admin
     |Application|Global application scope is selected by default.|
     |Answer|Select the answer for mapping to the question. Example: `Business Phone Number`.|
 
-    ![Knowledge Based Question Answer Mapping](../images/configure-kba-question-answer.png "Knowledge Based Question Answer Mapping")
+    \[Omitted image "configure-kba-question-answer.png"\] Alt text: Knowledge Based Question Answer Mapping
 
 4.  Select **Submit**.
 
@@ -42,5 +43,5 @@ Role required: auth\_factors\_admin
 
 You’re redirected to the Knowledge Based Question Answer Mappings list view. Verify if your mapping is successfully added.
 
-![Knowledge Based Question Answer Mappings - list](../images/configure-kba-question-answer-result.png "Knowledge Based Question Answer Mappings - list")
+\[Omitted image "configure-kba-question-answer-result.png"\] Alt text: Knowledge Based Question Answer Mappings - list
 

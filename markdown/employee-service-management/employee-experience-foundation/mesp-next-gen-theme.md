@@ -2,6 +2,7 @@
 title: Next Experience theme for Now Mobile
 description: Next Experience delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/mesp-next-gen-theme.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -118,5 +119,5 @@ Run the following fix scripts manually by setting the **runManually=true** to up
 |Mobile Next Exp - EC Core|Employee Center Core|
 |Mobile Next Exp - EP|Employee Profile|
 
-**Parent Topic:**[Configuring Employee Center for mobile](ec-mobile-configrations.md)
+**Parent Topic:**[Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
 

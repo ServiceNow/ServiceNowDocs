@@ -2,11 +2,12 @@
 title: Displaying the role hierarchy of a user
 description: The role hierarchy node map displays the relationship between the license contributing roles for role-based users and provides insights into the licensing treatment of a user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/role-hierarchy.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Licensing summary dashboard, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -30,7 +31,7 @@ The role hierarchy node map displays the child relationships of a user. If a use
 
 The following illustration shows a sample node map for user Cary Mccamey. Cary has the roles sn\_compliance\_ws.corporate\_compliance\_analyst, and sn\_compliance.manager. The sn\_compliance\_ws.corporate\_compliance\_analyst role contains the sn\_compliance.user and sn\_audit.user roles. Selecting the count on each node expands it further.
 
-![Role hierarchy of a sample user, Cary Maccamey](../image/role-hierarchy-nodemap.png)
+\[Omitted image "role-hierarchy-nodemap.png"\] Alt text: Role hierarchy of a sample user, Cary Maccamey
 
-**Parent Topic:**[GRC licensing summary dashboard](grc-licensing-summary-dashboard.md)
+**Parent Topic:**[GRC licensing summary dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/grc-licensing-summary-dashboard.md)
 

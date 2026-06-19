@@ -2,6 +2,7 @@
 title: Create an Appointment schedule
 description: An appointment schedule represents available slots as defined by its appointment window and service mapping configurations. Appointment schedules can be overridden for specific dates or slots to allow custom availability or capacity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-appt-sched.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -20,9 +21,9 @@ An appointment schedule represents available slots as defined by its appointment
 
 Role required: appointment\_booking\_admin
 
-Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](activate-adv-appt-booking.md).
+Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
 
-Ensure you have already created an **Appointment Window** and a **Service configuration mapping**. To create an appointment window and service configuration mapping see [Create an Appointment window configuration](create-appt-window-config.md) and [Create an Appointment service configuration mapping](create-appt-svc-config-mapping.md).
+Ensure you have already created an **Appointment Window** and a **Service configuration mapping**. To create an appointment window and service configuration mapping see [Create an Appointment window configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-window-config.md) and [Create an Appointment service configuration mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-svc-config-mapping.md).
 
 ## About this task
 
@@ -32,7 +33,7 @@ For example, for a specific day, you can configure one slot of 3 hours duration,
 
 For a service if demand is greater between 9:00 AM and 10:00 AM, Appointment Schedule lets you set more bookable appointments during that time, and fewer for other time slots.
 
-You can also create an appointment schedule override to customize availability for specific dates or time slots. For more information on overrides, see [Create an Appointment Schedule Override](create-appt-sched-override.md).
+You can also create an appointment schedule override to customize availability for specific dates or time slots. For more information on overrides, see [Create an Appointment Schedule Override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-sched-override.md).
 
 You can optionally define work and travel durations in a schedule. When **Use durations from the schedule** is enabled, these durations are used to calculate appointment availability and will override the default work and travel durations set in the service configuration.
 
@@ -58,7 +59,7 @@ Service configuration mapping
 
 </td><td>
 
-The service configuration mapping that contains the type of service and territory for the schedule. For more information, see [Create an Appointment service configuration mapping](create-appt-svc-config-mapping.md).
+The service configuration mapping that contains the type of service and territory for the schedule. For more information, see [Create an Appointment service configuration mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-svc-config-mapping.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +67,7 @@ Appointment window configuration
 
 </td><td>
 
-The appointment window configuration that contains the duration, break, and slot intervals. For more information, see [Create an Appointment window configuration](create-appt-window-config.md).
+The appointment window configuration that contains the duration, break, and slot intervals. For more information, see [Create an Appointment window configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-window-config.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +139,7 @@ Average round-trip travel time to the appointment location. Travel duration is u
 
 ## What to do next
 
-The appointment schedule can be applied to a new or existing service configuration. For more information, see [Create or modify service configuration for Appointment Booking](appt-booking-create-service-config.md).
+The appointment schedule can be applied to a new or existing service configuration. For more information, see [Create or modify service configuration for Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/appt-booking-create-service-config.md).
 
-Appointment schedules can also be overridden to accommodate specific date and slot needs. For more information on overrides, see [Create an Appointment Schedule Override](create-appt-sched-override.md).
+Appointment schedules can also be overridden to accommodate specific date and slot needs. For more information on overrides, see [Create an Appointment Schedule Override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-appt-sched-override.md).
 

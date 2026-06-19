@@ -2,6 +2,7 @@
 title: Disable the App type page in Creator Studio
 description: Hide the App type page that appears when users select to create an app by adding a system property to streamline the app creation process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/creator-studio/crs-administer-interstitial-page.html
 release: australia
 product: Creator Studio
 classification: creator-studio
@@ -17,7 +18,7 @@ Hide the App type page that appears when users select to create an app by adding
 
 ## Before you begin
 
-You must change your scope to global. For more information, see [Global scope](../../applications/concept/c_GlobalScope.md).
+You must change your scope to global. For more information, see [Global scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/c_GlobalScope.md).
 
 Role required: admin
 
@@ -43,7 +44,7 @@ Role required: admin
     |Read roles|Leave as-is.|
     |Write roles|Leave as-is.|
 
-    ![System Property form showing configuration fields for an example property](../image/crs-sys-property-interstitial.png "System property form")
+    \[Omitted image "crs-sys-property-interstitial.png"\] Alt text: System Property form showing configuration fields for an example property
 
 5.  Select **Submit**.
 
@@ -54,5 +55,5 @@ Users on the instance will no longer see that App type selection page after they
 
 To reinstate the App type page, set the **apptype.selection.disabled** property to `false`, or just delete it.
 
-**Parent Topic:**[Administering Creator Studio](../concept/administering-creator-studio.md)
+**Parent Topic:**[Administering Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio/administering-creator-studio.md)
 

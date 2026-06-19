@@ -2,6 +2,7 @@
 title: Supplier Relationship and Performance Management data model
 description: The following diagram shows the tables and their relationships that comprise the Supplier Relationship and Performance Management data model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-data-model.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -17,7 +18,7 @@ The following diagram shows the tables and their relationships that comprise the
 
 **Important:** Check your entitlements to determine whether you have access to Supplier Relationship and Performance Management.
 
-![Supplier performance management data model](../image/performance-data-model.png "Supplier Relationship and Performance Management data model")
+\[Omitted image "performance-data-model.png"\] Alt text: Supplier performance management data model
 
-**Parent Topic:**[Supplier Relationship and Performance Management reference](supplier-relationship-and-performance-management-reference.md)
+**Parent Topic:**[Supplier Relationship and Performance Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/supplier-relationship-and-performance-management-reference.md)
 

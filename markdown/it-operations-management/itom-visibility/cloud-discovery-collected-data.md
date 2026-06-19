@@ -2,6 +2,7 @@
 title: Cloud resource discovery references
 description: ITOM Visibility discovers resources on cloud platforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/cloud-discovery-collected-data.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -19,16 +20,16 @@ ITOM Visibility discovers resources on cloud platforms.
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
--   **[Data collected for Amazon AWS Cloud Discovery](cloud-disco-aws-data-collected.md)**  
+-   **[Data collected for Amazon AWS Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/cloud-disco-aws-data-collected.md)**  
 Discovery collects information about cloud resources in AWS datacenters. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
--   **[Data collected for Microsoft Azure Cloud Discovery](data-collected-azure-discovery.md)**  
+-   **[Data collected for Microsoft Azure Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-azure-discovery.md)**  
 Discovery collects information about cloud resources in Microsoft Azure datacenters. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
--   **[Data collected for GCP Cloud Discovery](data-collected-gcp-discovery.md)**  
+-   **[Data collected for GCP Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-gcp-discovery.md)**  
 Discovery collects information about cloud resources in Google Cloud Platform \(GCP\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
--   **[Data collected for IBM Cloud Discovery](data-collected-ibm-discovery.md)**  
+-   **[Data collected for IBM Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-ibm-discovery.md)**  
 Discovery collects information about cloud resources in the IBM Cloud Platform and creates relationships between the CIs it finds. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
--   **[Data collected for VMware Cloud Discovery](data-collected-vmware-cloud-disco.md)**  
+-   **[Data collected for VMware Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.md)**  
 Discovery collects information about VMware resources in your cloud service accounts.
 
-**Parent Topic:**[Data collected by ITOM Visibility](data-collected-by-itom-visibility.md)
+**Parent Topic:**[Data collected by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md)
 

@@ -2,6 +2,7 @@
 title: Generate labor costs
 description: Generate labor costs in the Financials view for attribute-based resource assignments based on the financial attributes configured in the planning attributes page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/gen-labor-costs-pp.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -27,10 +28,10 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 2.  Select the **Financials** tab.
 
-3.  Select **Generate labor costs** \(![Generate labor costs button.](../../spw-financials/images/financials-gen-labor-costs.png)\).
+3.  Select **Generate labor costs** \(\[Omitted image "financials-gen-labor-costs.png"\] Alt text: Generate labor costs button.\).
 
 4.  Select **Generate** on the Generate labor costs confirmation window.
 
-    **Note:** Alternatively, you can [activate a scheduled job](../../spw-financials/task/labor-cost-scheduler-job-spw.md) to automatically create baselines at the required cadence.
+    **Note:** Alternatively, you can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md) to automatically create baselines at the required cadence.
 
 

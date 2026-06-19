@@ -2,6 +2,7 @@
 title: Configure your map instance data
 description: Indoor Mapping provides a set of default parameters to display and configure all your maps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/configure-map-data.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -17,7 +18,7 @@ Indoor Mapping provides a set of default parameters to display and configure all
 
 ## Before you begin
 
-**Note:** Map editor limited role in the Map Studio has access to only a campus or few assigned campuses. This role can only edit map objects and data for the campuses assigned to it. For more information, see [Configure role-based access in Indoor Mapping](map-limited-editor.md).
+**Note:** Map editor limited role in the Map Studio has access to only a campus or few assigned campuses. This role can only edit map objects and data for the campuses assigned to it. For more information, see [Configure role-based access in Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/map-limited-editor.md).
 
 To customize and change the map data parameters, update the default parameters in Indoor Mapping. Consider the following before creating your campuses and buildings.
 
@@ -46,11 +47,11 @@ Role required: map editor, map admin
 
         **Note:** Users must refer to OpenStreetMap license before using this in production.
 
-    -   Indoor Mapping properties: For more information about how to set the configuration properties, see [Indoor Mapping properties](indoor-mapping-properties.md).
+    -   Indoor Mapping properties: For more information about how to set the configuration properties, see [Indoor Mapping properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-properties.md).
 
-**Parent Topic:**[Configure Indoor Mapping](../concept/configure-ind-mapping.md)
+**Parent Topic:**[Configure Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/configure-ind-mapping.md)
 
-**Previous topic:**[Install Indoor Mapping](install-indoor-mapping.md)
+**Previous topic:**[Install Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/install-indoor-mapping.md)
 
-**Next topic:**[Configure role-based access in Indoor Mapping](map-limited-editor.md)
+**Next topic:**[Configure role-based access in Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/map-limited-editor.md)
 

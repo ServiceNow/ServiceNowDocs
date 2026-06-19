@@ -2,6 +2,7 @@
 title: Form UI actions
 description: You can configure the UI actions that are displayed in the Security Analyst Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-new-ui-setup-form-uiaction.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -17,7 +18,7 @@ You can configure the UI actions that are displayed in the Security Analyst Work
 
 **Prerequisites:**
 
-Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](sir-new-ui-setup-enable-uiaction.md) for details.
+Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
 
 To configure a Form UI action for the Security Analyst Workspace, follow these steps:
 
@@ -48,7 +49,7 @@ Type
 
 Select the type of action. This can be:-   Dialog based action: This type of action is used when user interaction or inputs are required to execute specific business logic.
 -   Server side action: This action executes the required business logic without any additional user input.
- **Note:** Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](sir-new-ui-setup-enable-uiaction.md) for details.
+ **Note:** Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Enable traffic-based discovery for CI types or specific CIs
 description: Service Mapping can discover and map CIs by detecting the inbound and outbound traffic that the CIs generate. Create a traffic-based discovery rule to determine which configuration items are available for traffic-based mapping.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/t\_CreateATrafficBasedDiscoveryRule.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -22,7 +23,7 @@ If your ServiceNow instance uses domain separation and you have access to the gl
 Role required: service\_mapping\_admin
 
 -   Ensure that the traffic-based discovery is enabled at the Service Mapping product level: navigate to **Service Mapping** &gt; **Administration** &gt; **Properties** and verify that the **Traffic based discovery** check box is selected.
--   Enable traffic-based discovery for a specific service instance as described in [Map a single application service using classic Service Mapping](t_DefineNewBusinessService.md).
+-   Enable traffic-based discovery for a specific service instance as described in [Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md).
 
 ## About this task
 
@@ -34,7 +35,7 @@ For example, you enable traffic-based discovery for a specific service instance 
 
 Depending on your configuration, the behavior of traffic-based discovery is different. If Predictive Intelligence is enabled, Service Mapping automatically adds connections to service instances based on connection rules. These suggestions are generated using traffic-related data from the Configuration Management Database \(CMDB\) and the analysis of application fingerprints, CIs, and processes by Predictive Intelligence.
 
-If discovery based on Predictive Intelligence isn't enabled, Service Mapping automatically adds traffic-based connections using data from the CMDB to the service instances. However, to keep your service instances well-organized, you might need to manually remove connections to irrelevant CIs. To learn more about traffic-based method, see [Traffic-based discovery in Service Mapping](../concept/traffic-based-discovery.md).
+If discovery based on Predictive Intelligence isn't enabled, Service Mapping automatically adds traffic-based connections using data from the CMDB to the service instances. However, to keep your service instances well-organized, you might need to manually remove connections to irrelevant CIs. To learn more about traffic-based method, see [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
 
 If your instance uses domain separation, you can create traffic-based rules for specific domains. Rules in the base system are assigned to the global domain and apply to all domains of all levels.
 

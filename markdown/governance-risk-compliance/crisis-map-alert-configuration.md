@@ -2,6 +2,7 @@
 title: Configure alert rules to display alerts in crisis map
 description: Set alert rules to specify conditions under which a feed has to be bubbled up and displayed in the dashboard as an alert. You can also specify the conditions under which an alert is no longer valid and dismiss it from the dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/crisis-map-alert-configuration.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Configuring an alert rule: Define simple conditions to evaluate an alert rule an
 
     Use these filter conditions to set your rules for a feed alert. Setting filter conditions help you to filter those alerts that are critical to your business locations from the thousands of feeds that come from the feed resources you have subscribed. Business locations can be corporate offices, employee locations, data centers, suppliers, and others.
 
-    ![Setting up filter for feed condition](../image/AlertTriggerCondition.png "Feed conditions")
+    \[Omitted image "AlertTriggerCondition.png"\] Alt text: Setting up filter for feed condition
 
 -   **Advanced condition script filters**
 

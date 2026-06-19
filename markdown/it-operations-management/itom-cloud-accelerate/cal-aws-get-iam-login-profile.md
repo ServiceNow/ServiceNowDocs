@@ -2,6 +2,7 @@
 title: AWS Get IAM Login Profile action
 description: Action that retrieves the user name for the specified Amazon Web Services \(AWS\) Identity Access Management \(IAM\) user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-cloud-accelerate/cal-aws-get-iam-login-profile.html
 release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
@@ -19,11 +20,11 @@ Action that retrieves the user name for the specified Amazon Web Services \(AWS\
 
 -   **Subscription requirements**
 
-    To use this action in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/request-ih-overview.md).
+    To use this action in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see Request Integration Hub.
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/user-access-flow-designer.md).
+    This action requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
 
 
 ## Cloud permission
@@ -84,5 +85,5 @@ You can use these outputs as inputs for other actions.
     -   **True**: Successful
     -   **False**: Failed
 
-**Parent Topic:**[Cloud Action Library reference](cloud-action-library-reference.md)
+**Parent Topic:**[Cloud Action Library reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-cloud-accelerate/cloud-action-library-reference.md)
 

@@ -2,13 +2,14 @@
 title: Run and verify an import schedule for Cisco Meraki SGC
 description: Manually run a configured import schedule for the Cisco Meraki Service Graph Connector \(SGC\) to verify that data from Cisco Meraki was successfully imported or updated in the Configuration Management Database \(CMDB\). You can also perform the import to validate the connector setup, run one-off imports, or test newly configured connection aliases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-cisco-meraki-sd-wan-service-graph-connector.html
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
-breadcrumb: [Use, Telecommunications Service Operations Management]
+breadcrumb: [Run SGC imports, Use, Telecommunications Service Operations Management]
 ---
 
 # Run and verify an import schedule for Cisco Meraki SGC
@@ -49,5 +50,5 @@ If you have configured multiple Cisco Meraki connection aliases for different en
 
 If configured correctly, the connector brings in the network inventory data from Cisco Meraki into your ServiceNow AI Platform® instance.
 
-**Parent Topic:**[Using Telecommunications Service Operations Management](../concept/using-tsom.md)
+**Parent Topic:**[Using Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-service-ops/telecommunications-service-operations-management/using-tsom.md)
 

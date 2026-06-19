@@ -2,7 +2,10 @@
 title: Configure flows for incoming emails that create and update interactions
 description: The default email flows are available once you activate the Email Interaction for CSM application. Enable the email flows to activate email processing for automatic creation and updating interactions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/creating-flows-incoming-emails-create-update-interactions.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1

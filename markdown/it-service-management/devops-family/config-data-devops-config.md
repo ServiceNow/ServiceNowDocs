@@ -2,6 +2,7 @@
 title: Types of configuration data supported by DevOps Config
 description: DevOps Config stores configuration data of every layer of the IT stack in a centralized location.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/config-data-devops-config.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,7 +16,7 @@ breadcrumb: [DevOps Config reference, DevOps Config, IT Service Management]
 
 DevOps Config stores configuration data of every layer of the IT stack in a centralized location.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Configuration data includes:
 
@@ -126,5 +127,5 @@ hot fixes
 
 DevOps Config manages and validates your configuration data in a centralized location as the single source of truth.
 
-**Parent Topic:**[DevOps Config reference](../reference/devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-reference.md)
 

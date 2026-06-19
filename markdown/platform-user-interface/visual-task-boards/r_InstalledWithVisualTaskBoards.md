@@ -2,6 +2,7 @@
 title: Installed with Visual Task Boards
 description: Several types of components are installed with Visual Task Boards.Tables are added to your instance when you activate Visual Task Boards.Properties are added to your instance when you activate Visual Task Boards.Script includes are added to your instance when you activate Visual Task Boards.Client scripts are added to your instance when you activate Visual Task Boards.Business rules are added to your instance when you activate Visual Task Boards.Notifications are added to your instance when you activate Visual Task Boards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/r\_InstalledWithVisualTaskBoards.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -15,7 +16,7 @@ breadcrumb: [Visual Task Boards reference, Visual Task Boards, Configure UIs and
 
 Several types of components are installed with Visual Task Boards.
 
-**Parent Topic:**[Visual Task Boards reference](../concept/vis-task-boards-ref.md)
+**Parent Topic:**[Visual Task Boards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/vis-task-boards-ref.md)
 
 ## Tables installed with Visual Task Boards
 
@@ -281,7 +282,7 @@ Triggers the system to send an email notification to users when they are designa
 </table>**Related topics**  
 
 
-[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_Collaboration.md)
+[bundle-platcap.c_Collaboration]
 
 ## Notifications installed with Visual Task Boards
 

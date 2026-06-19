@@ -2,6 +2,7 @@
 title: Rate Models
 description: Use a rate model to derive date-effective, criteria-driven hourly rates for calculating planned and actual resource costs for a project or demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/rate-model/rate-model.html
 release: australia
 product: Rate Model
 classification: rate-model
@@ -33,7 +34,7 @@ The rate model associated with a project or demand evaluates the rate lines to f
 
 The rate is returned in the functional currency specified in the matching rate line.
 
-The following video describes how to set up a rate model and the evaluation method to find and return the hourly rate for a request.Video explaining how to work with rate models
+The following video describes how to set up a rate model and the evaluation method to find and return the hourly rate for a request.
 
 When a rate is requested, the rate model uses the following process.
 
@@ -52,19 +53,19 @@ When a rate is requested, the rate model uses the following process.
 
     -   If multiple rate lines are found, the system determines the number of hours in the request that applies to each rate.
     -   For example, say the rate requested is for resource allocation from July 1 to July 30. The rate model has one rate from July 1 to July 15 and a different rate from July 16 to July 30 for the same set of criteria. The rate model applies the first rate to the requested hours for July 1–15 and the second rate to the requested hours for July 16–30.
-    If no rate lines match the request, then the request uses the [default rate card](../../cost-management/reference/r_InstalledWithCostManagement.md).
+    If no rate lines match the request, then the request uses the [default rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/r_InstalledWithCostManagement.md).
 
 
--   **[Create or modify a rate model](../task/create-rate-model.md)**  
+-   **[Create or modify a rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/create-rate-model.md)**  
 Create or modify a rate model that can be linked to a project or demand to determine planned costs and actuals for their resource. The rate model provides date-effective, criteria-driven hourly rates for these investments.
--   **[Define criteria of a rate model](../task/define-rate-model-criteria.md)**  
+-   **[Define criteria of a rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/define-rate-model-criteria.md)**  
 Set the criteria of a rate model by adding attributes from a set of predefined entities to derive resource hourly rates based on the criteria.
--   **[Create a rate line](../task/create-rate-line.md)**  
+-   **[Create a rate line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/create-rate-line.md)**  
 In a rate model, create a rate line to define an hourly rate based on a set of criteria for a given date range.
--   **[Export rate lines to a file](../task/export-rate-lines.md)**  
+-   **[Export rate lines to a file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/export-rate-lines.md)**  
 Export rate lines to a Microsoft Excel or CSV file to quickly update or add new rate lines and import them back into the rate model.
--   **[Import rate lines into a rate model](../task/import-rate-lines.md)**  
+-   **[Import rate lines into a rate model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/rate-model/import-rate-lines.md)**  
 Use the import rate lines function to quickly add multiple rate lines from an export file into a rate model.
 
-**Parent Topic:**[Project Portfolio Management](../../project-portfolio-suite/concept/c_ProjectPortfolioSuite.md)
+**Parent Topic:**[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

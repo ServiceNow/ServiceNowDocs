@@ -2,6 +2,7 @@
 title: Create an application vulnerable item rule in the Software Bill of Materials Workspace
 description: Set up the conditions under which application vulnerable items \(AVITs\) are created automatically in the AVI Creation Rules module in the Software Bill of Materials \(SBOM\) Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/sbom-core/vr-sbom-create-avi-rule.html
 release: australia
 product: SBOM Core
 classification: sbom-core
@@ -17,7 +18,7 @@ Set up the conditions under which application vulnerable items \(AVITs\) are cre
 
 ## Before you begin
 
-The SBOM Response application is required if you want to create application vulnerable items. See [Exploring Software Bill of Materials](../concept/vr-sbom-exploring.md) for more information.
+The SBOM Response application is required if you want to create application vulnerable items. See [Exploring Software Bill of Materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/sbom-core/vr-sbom-exploring.md) for more information.
 
 Role required: sn\_sbom\_resp.manage\_avi\_rule.
 

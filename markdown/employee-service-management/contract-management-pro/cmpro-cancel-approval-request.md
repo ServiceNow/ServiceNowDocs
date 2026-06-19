@@ -2,6 +2,7 @@
 title: Cancel an ad hoc approval for a contract document revision
 description: Cancel an ad hoc approval for a contract document revision if it no longer requires any action.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-cancel-approval-request.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -40,5 +41,5 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 The approval record is canceled and its state updates to Cancelled and comments are added to the approval record. If the approval was requested from a user group, then the corresponding approval records for all users in the user group are canceled.
 
-**Parent Topic:**[Initiate an ad hoc approval for a contract document revision](cmpro-initiate-approval-contract-request.md)
+**Parent Topic:**[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md)
 

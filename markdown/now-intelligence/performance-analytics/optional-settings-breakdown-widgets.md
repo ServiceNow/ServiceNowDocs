@@ -2,6 +2,7 @@
 title: Additional settings for breakdown widgets
 description: Breakdown widgets have the following optional settings for the date range, the display, the grouping breakdown, and for the column contents. Not all options are available for all visualizations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/optional-settings-breakdown-widgets.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -17,21 +18,21 @@ Breakdown widgets have the following optional settings for the date range, the d
 
 **Important:** This topic is not a guide to creating breakdown widgets. It is a guide to extra, optional settings that are common across breakdown widget types. FOR INSTRUCTIONS ON CREATING TIME SERIES WIDGETS, PLEASE SEE THE APPROPRIATE "CREATE" TOPIC:
 
--   [Create a scorecard visualization for a breakdown widget](../task/create-scorecard-widget.md)
--   [Create a pie, donut, or semi-donut visualization for a breakdown widget](../task/create-pie-widget.md)
--   [Create a pyramid or a funnel visualization for a breakdown widget](../task/create-pyramid-funnel-widget.md)
--   [Create a column visualization for a breakdown widget](../task/create-column-bkdown-widget.md)
--   [Create a Pareto visualization for a breakdown widget](../task/create-pareto-bkdown-widget.md)
--   [Create a line visualization for a breakdown widget](../task/create-line-bkdown-widget.md)
--   [Create a columns and total visualization for a breakdown widget](../task/create-column-total-bkdown-widget.md)
--   [Create a stacked column visualization for a breakdown widget](../task/create-stacked-column-bkdown-widget.md)
--   [Create a relative compare visualization for a breakdown widget](../task/create-relative-compare-bkdn.md)
--   [Create a pivot scorecard visualization for a breakdown widget](../task/create-pivot-scorecard-breakdown.md)
--   [Create a treemap visualization for a breakdown widget](../task/create-treemap-breakdown.md)
+-   [Create a scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-scorecard-widget.md)
+-   [Create a pie, donut, or semi-donut visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-pie-widget.md)
+-   [Create a pyramid or a funnel visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-pyramid-funnel-widget.md)
+-   [Create a column visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-column-bkdown-widget.md)
+-   [Create a Pareto visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-pareto-bkdown-widget.md)
+-   [Create a line visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-line-bkdown-widget.md)
+-   [Create a columns and total visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-column-total-bkdown-widget.md)
+-   [Create a stacked column visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-stacked-column-bkdown-widget.md)
+-   [Create a relative compare visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-relative-compare-bkdn.md)
+-   [Create a pivot scorecard visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-pivot-scorecard-breakdown.md)
+-   [Create a treemap visualization for a breakdown widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-treemap-breakdown.md)
 
 The available settings depend on the selected visualization. The following example is for a Scorecard visualization.
 
-![Additional settings for breakdown widgets.](../image/bkdown-widget-additional-settings.png)
+\[Omitted image "bkdown-widget-additional-settings.png"\] Alt text: Additional settings for breakdown widgets.
 
 ## Date settings
 
@@ -176,7 +177,7 @@ Show confidence bands
 
 </td><td>
 
-Display confidence bands in this chart. For information about how the confidence band is calculated, see [Widget confidence bands](optional-settings-ts-widgets.md#).
+Display confidence bands in this chart. For information about how the confidence band is calculated, see [Widget confidence bands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/optional-settings-ts-widgets.md).
 
 </td></tr><tr><td>
 
@@ -259,7 +260,7 @@ Breakdown on Y axis
 
 </td><td>
 
-Pivot Analytics Hub breakdown widgets display [breakdown elements](../concept/performance-analytics-glossary.md#) as the X axis and indicators as the Y axis by default. Select this check box to display breakdown elements as the Y axis and indicators as the X axis.
+Pivot Analytics Hub breakdown widgets display [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the X axis and indicators as the Y axis by default. Select this check box to display breakdown elements as the Y axis and indicators as the X axis.
 
 </td></tr><tr><td id="row_widget_show_total">
 
@@ -312,9 +313,9 @@ Show top x
 
 Show only the elements with the x highest scores, according to the **Sort by** field, to make the chart easier to read.In case of ties, the first element listed in the scoresheet is shown. For example, if you have a widget where **Show top x** is 3 and the third-highest value for the Priority breakdown is tied between High and Moderate, the widget shows High, not Moderate.
 
- ![Scoresheet with two elements tied for 3rd highest value.](../image/bkdown-widget-tied-top-x.png)
+ \[Omitted image "bkdown-widget-tied-top-x.png"\] Alt text: Scoresheet with two elements tied for 3rd highest value.
 
- ![Breakdown widget with Show Top x = 3 and the elements 2 - high and 3 - Moderate tied for third highest, with 2 - High showing.](../image/bkdwn-widget-show-top-3.png)
+ \[Omitted image "bkdwn-widget-show-top-3.png"\] Alt text: Breakdown widget with Show Top x = 3 and the elements 2 - high and 3 - Moderate tied for third highest, with 2 - High showing.
 
  The order in which the scoresheet lists elements depends on the table containing the elements. For example, for elements on the Choice \[sys\_choice\] table, this order follows the value in the Sequence field. For elements on the Group \[sys\_group\] table, the order is alphabetical based on the Name field.
 

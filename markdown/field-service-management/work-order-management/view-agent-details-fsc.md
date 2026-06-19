@@ -2,6 +2,7 @@
 title: View an agent's profile on a mobile device
 description: View the profile information of all the agents in your team through the Field Service Contractor for mobile application so you can contact them when necessary.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-agent-details-fsc.html
 release: australia
 product: Work Order Management
 classification: work-order-management

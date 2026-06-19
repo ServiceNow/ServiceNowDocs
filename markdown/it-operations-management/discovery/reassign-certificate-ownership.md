@@ -2,13 +2,14 @@
 title: Reassign Certificate Ownership
 description: View a list of all certificates and their respective owners, and reassign ownership for certificates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/reassign-certificate-ownership.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
 last_updated: "0256-02-22"
 reading_time_minutes: 1
-breadcrumb: [Certificate Attestation for Certificate Owners, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Certificate attestation for certificate owners, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Reassign Certificate Ownership
@@ -27,7 +28,7 @@ Role required: pki\_admin or admin
 
 3.  Select the certificate you want to reassign.
 
-4.  Select the Search for Record ![Search icon.](../../health-log-analytics-operator/image/icon-search-sow.png) icon in the **Assigned to** field.
+4.  Select the Search for Record \[Omitted image "icon-search-sow.png"\] Alt text: Search icon. icon in the **Assigned to** field.
 
 5.  Select a new user to assign the certificate.
 

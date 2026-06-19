@@ -2,10 +2,11 @@
 title: Report a major incident from Security Incident Response
 description: Report a critical incident from Security Incident Response in the Digital resilience incident reporting application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/report-inci-from-sir.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Reporting incidents from SOW and SIR Workspace in DRIR, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -18,6 +19,8 @@ Report a critical incident from Security Incident Response in the Digital resili
 Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager
 
 ## About this task
+
+Verify that the sn\_dora\_accel\_entity table \(Legal entity for DORA\) contains a record for the financial entity submitting the report and that sn\_dora\_accel\_third\_party contains records for any ICT third-party providers involved. The Initial report questionnaire references these tables.
 
 Security Incident Response reporting workflow consists of the following steps:
 
@@ -38,7 +41,7 @@ Security Incident Response reporting workflow consists of the following steps:
 
     The source of the case is SIR.
 
-    ![SIR.](../image/src-sir.png)
+    \[Omitted image "src-sir.png"\] Alt text: SIR.
 
     The case is assigned to the Digital Resilience Incident Managers group.
 
@@ -48,7 +51,7 @@ Security Incident Response reporting workflow consists of the following steps:
 
     The assessment template is aligned with the Digital Operational Resilience classification for major Information and Communication Technology \(ICT\) incidents. The same assessment template is tagged in the reported incident.
 
-    The analyst assigned to the case assesses the incident's impact on factors such as critical services, clients \(including financial counterparts and third parties\), data and data losses, reputation, service downtime, geographical spread, and economy. These sections in the template help you determine the impact of the incident and whether it should be reported to the regulators and responds to the questions in the questionnaire. For information on the assessment template, see [Create an assessment template](../../assessment-engine/task/sae-asmnt-template-create.md).
+    The analyst assigned to the case assesses the incident's impact on factors such as critical services, clients \(including financial counterparts and third parties\), data and data losses, reputation, service downtime, geographical spread, and economy. These sections in the template help you determine the impact of the incident and whether it should be reported to the regulators and responds to the questions in the questionnaire. For information on the assessment template, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-create.md).
 
 3.  Select **Accept work**.
 
@@ -96,7 +99,7 @@ Security Incident Response reporting workflow consists of the following steps:
 
     The export functionality generates a Microsoft Excel sheet based on the reporting cases, which can be saved to your local hard drive and shared with regulatory authorities. You can download the DRI report as shown in the example.
 
-    ![Export.](../image/export.png)
+    \[Omitted image "export.png"\] Alt text: Export.
 
     The Microsoft Excel report contains the Common details and Initial report tabs. All fields from the initial report are exported with their names as column headers.
 

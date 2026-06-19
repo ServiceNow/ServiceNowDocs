@@ -2,6 +2,7 @@
 title: Copy a filter
 description: New filters can be created from an existing filter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CopyingFilters.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

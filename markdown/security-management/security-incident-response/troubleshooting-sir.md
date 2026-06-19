@@ -2,6 +2,7 @@
 title: Troubleshooting Security Incident Response
 description: This section covers important troubleshooting tips and frequently asked questions related to Security Incident Response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/troubleshooting-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -23,7 +24,7 @@ Access Control Rules allow access to the specified resource if all the following
 -   Conditions in the **Condition** field evaluate to true, or conditions are empty.
 -   The script in the **Script** field \(advanced\) evaluates to true, or sets the variable **answer** to true, or is empty.
 
-For more information on Access Control Rules, see [Explore Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/exploring-access-control-list.md)
+For more information on Access Control Rules, see 
 
 **Important:** If the **Admin overrides** option is unchecked for a security incident table, and if the Admin is able to access the security incident table, see [KB1444673](https://support.servicenow.com/nav_to.do?uri=kb_knowledge.do%3Fsys_id=806165f097143910dfd73dae2153af6b)
 

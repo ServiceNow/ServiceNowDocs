@@ -2,11 +2,12 @@
 title: Configure the Track Approval report
 description: Configure the Learning Assignment report in Workday to retrieve worker's inbox items like to-dos, action items, approval, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/wd-learning-confrep3.html
 release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Workday Learning Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -33,83 +34,83 @@ User with access to report creation and the Business process event steps report 
 
 1.  Create increment and decrement type calculated field with name, **CF\_Last\_functionally\_updated\_-1**.
 
-    ![](../image/wd-track-approval-1.jpg)
+    \[Omitted image "wd-track-approval-1.jpg"\] Alt text:
 
 2.  Create the Lookup Value As Of Date type calculated field with name, **cf\_assigned\_to\_worker\_previous** and use **CF\_Last\_functionally\_updated\_-1** in this field.
 
-    ![](../image/wd-track-approval-2.jpg)
+    \[Omitted image "wd-track-approval-2.jpg"\] Alt text:
 
 3.  Create the Text Constant type calculated field with name, **Cf\_text\_0**.
 
-    ![](../image/wd-track-approval-3.jpg)
+    \[Omitted image "wd-track-approval-3.jpg"\] Alt text:
 
 4.  Create the Text Constant type calculated field with name, **CF\_Text\_as\_1**.
 
-    ![](../image/wd-track-approval-4.jpg)
+    \[Omitted image "wd-track-approval-4.jpg"\] Alt text:
 
 5.  Create the True/False condition type calculated field with name, **cf\_competed\_by\_is\_not\_equal\_old\_assignee**.
 
-    ![](../image/wd-track-approval-5.jpg)
+    \[Omitted image "wd-track-approval-5.jpg"\] Alt text:
 
 6.  Create Evaluate Expression calculated field with name, **CF\_EE\_Completed\_by\_admin\_exist\_as\_old\_Assignee\_or\_not**.
 
-    ![](../image/wd-track-approval-6.jpg)
+    \[Omitted image "wd-track-approval-6.jpg"\] Alt text:
 
 7.  Create the Text Constant type calculated field with name, **CF\_Text**.
 
-    ![](../image/wd-track-approval-7.jpg)
+    \[Omitted image "wd-track-approval-7.jpg"\] Alt text:
 
 8.  Create the Lookup Related Value type calculated field with name, **CF\_Action\_Event**.
 
-    ![](../image/wd-track-approval-8.jpg)
+    \[Omitted image "wd-track-approval-8.jpg"\] Alt text:
 
 9.  Create the Concatenate Text type calculated field with name, **CF\_inbox\_SUbject**.
 
-    ![](../image/wd-track-approval-9.jpg)
+    \[Omitted image "wd-track-approval-9.jpg"\] Alt text:
 
 10. Create the Text Constant type calculated field with name, **CF\_url**.
 
-    ![](../image/wd-track-approval-10.jpg)
+    \[Omitted image "wd-track-approval-10.jpg"\] Alt text:
 
 11. Create the Lookup Related Value type calculated field with name, **CF\_business\_pro\_transaction**.
 
-    ![](../image/wd-track-approval-11.jpg)
+    \[Omitted image "wd-track-approval-11.jpg"\] Alt text:
 
 12. Create the Lookup Related Value type calculated field with name, **CF\_BP\_Wid**.
 
-    ![](../image/wd-track-approval-12.jpg)
+    \[Omitted image "wd-track-approval-12.jpg"\] Alt text:
 
 13. Create the Concatenate Text type calculated field with name, **CF\_Inbox\_url**.
 
-    ![](../image/wd-track-approval-13.jpg)
+    \[Omitted image "wd-track-approval-13.jpg"\] Alt text:
 
 14. Create the Lookup Related Value type calculated field with name, **cf\_step\_id**.
 
-    ![](../image/wd-track-approval-14.jpg)
+    \[Omitted image "wd-track-approval-14.jpg"\] Alt text:
 
 15. Create the Lookup Related Value type calculated field with name, **CF\_subject\_id**.
 
-    ![](../image/wd-track-approval-15.jpg)
+    \[Omitted image "wd-track-approval-15.jpg"\] Alt text:
 
 16. Create the Concatenate Text type calculated field with name, **CF\_subject\_and\_step\_id**.
 
-    ![](../image/wd-track-approval-16.jpg)
+    \[Omitted image "wd-track-approval-16.jpg"\] Alt text:
 
 17. Create the Lookup Related Value type calculated field with name, **CF\_sent\_back**.
 
-    ![](../image/wd-track-approval-17.jpg)
+    \[Omitted image "wd-track-approval-17.jpg"\] Alt text:
 
 18. Create the Lookup Related Value type calculated field with name, **Cf\_parent\_business\_process\_definition**.
 
-    ![](../image/wd-track-approval-18.jpg)
+    \[Omitted image "wd-track-approval-18.jpg"\] Alt text:
 
 19. Create the Increment or Decrement Date type calculated field with name, **CF\_Last\_updated\_on-1**.
 
-    ![](../image/wd-track-approval-19.jpg)
+    \[Omitted image "wd-track-approval-19.jpg"\] Alt text:
 
 20. Create the Lookup Value As Of Date type calculated field with name, **cf\_status\_as\_of\_moment** and use **CF\_Last\_updated\_on-1** in this field.
 
-    ![](../image/wd-track-approval-20.jpg)
+    \[Omitted image "wd-track-approval-20.jpg"\] Alt text:
 
 21. Create the Track Approval report.
 
@@ -127,49 +128,49 @@ User with access to report creation and the Business process event steps report 
 
     7.  Click **Ok**.
 
-        ![](../image/wd-track-approval-21.jpg)
+        \[Omitted image "wd-track-approval-21.jpg"\] Alt text:
 
     8.  Select the report business object and report fields as shown here.
 
-        ![](../image/wd-track-approval-22.jpg) ![](../image/wd-track-approval-23.jpg)
+        \[Omitted image "wd-track-approval-22.jpg"\] Alt text: \[Omitted image "wd-track-approval-23.jpg"\] Alt text:
 
     9.  In the **Group Column Headings** section, select the business object as shown here.
 
         The **Group Column Heading** for each business object is empty.
 
-        ![](../image/wd-track-approval-24.jpg)
+        \[Omitted image "wd-track-approval-24.jpg"\] Alt text:
 
     10. In the **Filter conditions for filtering on instances** section, select the values as shown.
 
         Be sure to add parentheses.
 
-        ![](../image/wd-learning-filter-1.jpg) ![](../image/wd-learning-filter-2.jpg) ![](../image/wd-learning-filter-3.jpg) ![](../image/wd-learning-filter-4.jpg) ![](../image/wd-learning-filter-5.jpg) ![](../image/wd-learning-filter-6.jpg) ![](../image/wd-learning-filter-7.jpg) ![](../image/wd-learning-filter-8.jpg)
+        \[Omitted image "wd-learning-filter-1.jpg"\] Alt text: \[Omitted image "wd-learning-filter-2.jpg"\] Alt text: \[Omitted image "wd-learning-filter-3.jpg"\] Alt text: \[Omitted image "wd-learning-filter-4.jpg"\] Alt text: \[Omitted image "wd-learning-filter-5.jpg"\] Alt text: \[Omitted image "wd-learning-filter-6.jpg"\] Alt text: \[Omitted image "wd-learning-filter-7.jpg"\] Alt text: \[Omitted image "wd-learning-filter-8.jpg"\] Alt text:
 
     11. In the **Prompts** section, select the **Populate undefined prompt defaults** check box.
 
-        ![](../image/wd-track-approval-30.jpg)
+        \[Omitted image "wd-track-approval-30.jpg"\] Alt text:
 
     12. Select the values under the **Prompt Default** section and ensure that the values of **Label For Prompt XML Alias** are as shown here.
 
-        ![](../image/wd-track-approval-31.jpg) ![](../image/wd-track-approval-32.jpg)
+        \[Omitted image "wd-track-approval-31.jpg"\] Alt text: \[Omitted image "wd-track-approval-32.jpg"\] Alt text:
 
     13. In the **Advanced** section, select the **Enable as webservice** check box and click **Ok**.
 
     14. After the report configuration is done, click the three dots icon and navigate to **Web Services** &gt; **View URLs**.
 
-        ![](../image/wd-track-approval-33.jpg)
+        \[Omitted image "wd-track-approval-33.jpg"\] Alt text:
 
     15. Specify values for the fields on the View URLs Web Service form and click **Ok**.
 
-        ![](../image/wd-track-approval-34.jpg)
+        \[Omitted image "wd-track-approval-34.jpg"\] Alt text:
 
     16. In the View URLs Web Service page, click the **CSV** icon.
 
-        ![](../image/wd-track-approval-35.jpg)
+        \[Omitted image "wd-track-approval-35.jpg"\] Alt text:
 
         The RaaS URL of the report is displayed in a new browser tab.
 
-        ![](../image/wd-track-approval-36.jpg)
+        \[Omitted image "wd-track-approval-36.jpg"\] Alt text:
 
         -   `https://wd2-impl-services1.workday.com` is the base URL of your Workday tenant.
         -   `Tenant_Name` is your Workday tenant.

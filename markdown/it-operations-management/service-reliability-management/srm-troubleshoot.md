@@ -2,6 +2,7 @@
 title: Troubleshoot SRM
 description: Find answers to issues that you may encounter when using Service Reliability Management \(SRM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-reliability-management/srm-troubleshoot.html
 release: australia
 product: Service Reliability Management
 classification: service-reliability-management
@@ -31,11 +32,11 @@ You're not assigned the required role to remove the selected services. As an SRM
 To remove the service from SRM, follow these steps to identify the manager to contact:
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** &gt; **Services**.
-2.  Select the filter icon \(![Filter icon](../../service-operations-workspace-itom/image/filter-icon-alerts.png)\) and remove the existing filters, letting you view services not assigned to your teams.
+2.  Select the filter icon \(\[Omitted image "filter-icon-alerts.png"\] Alt text: Filter icon\) and remove the existing filters, letting you view services not assigned to your teams.
 3.  Find and select the service you want to remove.
-4.  Select the **Details** tab and then select the information icon \(![Information icon](../../event-management/image/info.png)\) in the Support group field.
+4.  Select the **Details** tab and then select the information icon \(\[Omitted image "info.png"\] Alt text: Information icon\) in the Support group field.
 
 The manager's name appears below the team name. Contact the manager to request the removal of the service from SRM.
 
-**Parent Topic:**[Service Reliability Management reference](service-reliability-management-reference.md)
+**Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

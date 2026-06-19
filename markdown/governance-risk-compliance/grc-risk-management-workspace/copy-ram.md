@@ -2,6 +2,7 @@
 title: Copy a risk assessment methodology
 description: Modify your risk assessment methodology \(RAM\) and factors by creating a copy of the record. The option to copy allows the system to create a true copy of the underlying record including all the related lists. This action saves the time of risk administrators as they do not have to create the records from the beginning each time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/copy-ram.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -28,5 +29,5 @@ Role required: sn\_risk.admin
 3.  Select **Copy**.
 
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

@@ -2,6 +2,7 @@
 title: Doctypes
 description: The view\_content html page template on which all CMS is based defaults to doctype=html.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/content-management-system/c\_SetTheDoctype.html
 release: australia
 product: Content Management System
 classification: content-management-system
@@ -31,5 +32,5 @@ Setting this doctype offers these benefits for building new sites:
 -   Cleaner CSS and markup: Write more standards-based CSS and markup to promote code sharing.
 -   A step towards browser compatibility: Find solutions that work across browsers and avoid browser-specific workarounds.
 
-**Parent Topic:**[Style in Content Management](c_StyleInContentManagement.md)
+**Parent Topic:**[Style in Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/content-management-system/c_StyleInContentManagement.md)
 

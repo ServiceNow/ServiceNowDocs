@@ -2,6 +2,7 @@
 title: Create a deposit service case as a contributor or agent connector
 description: Begin the deposit service application process by creating a deposit case on behalf of your customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-deposit-operations/submit-deposit-service-application-contributor.html
 release: australia
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
@@ -22,9 +23,9 @@ Role required:
 -   For a business deposit service for a business customer \(account or contact\): sn\_bom\_deposit\_b2b.contributor or sn\_bom\_deposit\_b2b.agent\_connector
 -   For a personal deposit service for a consumer: sn\_bom\_deposit\_b2c.contributor or sn\_bom\_deposit\_b2c.agent\_connector
 
-**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](../../fso-common/reference/fso-core-roles.md).
+**Note:** The applicable universal contributor role can also be assigned to create a case. For more information, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-core-roles.md).
 
-**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector or contributor role to work, they must be combined with one of the roles in CSM industry data model or Contributor users. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## About this task
 
@@ -34,7 +35,7 @@ As a deposit contributor or agent connector, fill in the customer data, collect 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Customer Cases**, click **My cases**.
 
@@ -69,5 +70,5 @@ Collect all the required customer information and submit the application.
 1.  In the **Playbook** tab, fill the data in the Initiate stage.​
 2.  Submit the application to back-office agents for fulfillment.
 
-**Parent Topic:**[Submitting a deposit service request](../concept/submit-deposit-request.md)
+**Parent Topic:**[Submitting a deposit service request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-deposit-operations/submit-deposit-request.md)
 

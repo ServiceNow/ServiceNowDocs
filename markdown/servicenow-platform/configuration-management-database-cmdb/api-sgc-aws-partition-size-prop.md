@@ -2,6 +2,7 @@
 title: Set partition size for AWS API Gateway accounts
 description: You can optimize their performance of AWS API Gateway data sources by setting the partition size in the PartitionSize connection property.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/api-sgc-aws-partition-size-prop.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -18,7 +19,7 @@ You can optimize their performance of AWS API Gateway data sources by setting th
 
 ## Before you begin
 
-Set the application scope to API Service Graph Connector for AWS API Gateway using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to API Service Graph Connector for AWS API Gateway using the application picker. For more information, see Application picker.
 
 Role required: admin
 
@@ -34,7 +35,7 @@ The parallel loading feature is available for the following AWS API Gateway data
 
 This feature determines how many Managed APIs execute as parallel jobs to retrieve configuration item \(CI\) data. The partition size specifies how many Managed APIs a single parallel thread evaluates for data retrieval. For example, if you set the **PartitionSize** property to `5` and there are `25` Managed APIs, the application generates `5` parallel jobs during data loading.
 
-**Note:** If the **PartitionSize** property isn't configured, the partition size computation feature of the Integration Commons for CMDB application automatically determines the partition size for parallel loading at runtime. See [Partition size computation for parallel loading in Integration Commons for CMDB](../concept/integration-commons-part-size.md).
+**Note:** If the **PartitionSize** property isn't configured, the partition size computation feature of the Integration Commons for CMDB application automatically determines the partition size for parallel loading at runtime. See [Partition size computation for parallel loading in Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-integration-commons/integration-commons-part-size.md).
 
 ## Procedure
 

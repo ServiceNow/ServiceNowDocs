@@ -2,6 +2,7 @@
 title: Send Email activity
 description: Create an email from previously gathered or generated data. Use this activity to send an email. This activity requires the playbook author to define who the email should be sent to, the subject, and the body. This activity surfaces the pre-defined content for the email to the end user so that the end user can confirm before sending the email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/send-email-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ This activity is available as a common activity. Users with the admin, playbook.
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -97,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -114,7 +115,7 @@ Recipient list for the email. There are 2 ways to configure this field:-   Enter
 
 You would select the customer record from the trigger \(when the application was submitted\), because that is where the applicant's email address is found.
 
-![Using the pill picker to reference the email address.](../images/send-to-customer-pillpicker.png)
+\[Omitted image "send-to-customer-pillpicker.png"\] Alt text: Using the pill picker to reference the email address.
 
 
 </td></tr><tr><td>
@@ -211,7 +212,7 @@ String
 
 </td><td>
 
-Form view to use for sending an email. If you don't provide a form view, the system uses the default view. Use the **new tab** button ![a button that opens a new tab](../images/new-tab-button.png)to open and edit a form view with Form Builder in a new Workflow Studio tab.**Note:** Many form views are not supported in Workspace.
+Form view to use for sending an email. If you don't provide a form view, the system uses the default view. Use the **new tab** button \[Omitted image "new-tab-button.png"\] Alt text: a button that opens a new tabto open and edit a form view with Form Builder in a new Workflow Studio tab.**Note:** Many form views are not supported in Workspace.
 
 </td></tr><tr><td>
 
@@ -228,7 +229,7 @@ Any additional fields you want in the playbook activity card.**Note:** This fiel
 </td></tr></tbody>
 </table>## Advanced inputs
 
-After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](../concept/activity-definitions.md#activity-experience).
+After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-definitions.md).
 
 <table id="table_cjj_sr3_plb"><thead><tr><th>
 

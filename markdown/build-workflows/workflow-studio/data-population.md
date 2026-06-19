@@ -2,6 +2,7 @@
 title: Data pills
 description: Each time you add an action to a flow, Workflow Studio adds a data pill to store its results. The data pill name indicates its sequence in the flow and its data type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/data-population.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ Flow designers use action result data pills to provide input for other flows, ac
 
 Workflow Studio populates data pill values when the action, flow logic, or subflow that produces the data pill finishes running. If another action, flow logic, or subflow runs and changes the data pill value, then the new value is used for the rest of the flow. For example, suppose that you have a flow triggered by the creation of an incident record that performs the following actions.
 
-![Flow illustrating when data pill values are set](../images/example-flow-data-population.png)
+\[Omitted image "example-flow-data-population.png"\] Alt text: Flow illustrating when data pill values are set
 
 1.  **Set Flow Variables** flow logic to store the value of the **\[Trigger-&gt;Incident Record-&gt;Short description\]** in the **original-short-description** flow variable.
 2.  **Update \[Incident\] Record** action to add a text string to **\[Trigger-&gt;Incident Record-&gt;Short description\]**.
@@ -29,7 +30,7 @@ Workflow Studio populates data pill values when the action, flow logic, or subfl
 4.  **Log** action to store the value of the **\[2-&gt;Incident Record-&gt;Short description\]** data pill.
 5.  **Log** action to store the value of the **original-short-description** flow variable.
 
-![Flow execution details showing the data pill values of the incident short description.](../images/example-data-population.png)
+\[Omitted image "example-data-population.png"\] Alt text: Flow execution details showing the data pill values of the incident short description.
 
 When you test this flow and view it's execution details, you can see that the runtime values reflect the actions and flow logic that were run. Action-1 stores the original incident short description in a flow variable called **original-short-description**. Action-2 changes the value of the **\[Trigger-&gt;Incident Record-&gt;Short description\]** data pill to add the prefix NEW VALUE: to the front of the string. Any other actions that use this data pill will use this new value. Action-3 logs the current value of the **\[Trigger-&gt;Incident Record-&gt;Short description\]** data pill, which has been updated by Action-2. Action-4 logs the value of the **\[2-&gt;Incident Record-&gt;Short description\]** data pill, which has the same value as the **\[Trigger-&gt;Incident Record-&gt;Short description\]** data pill. Both data pills store the incident short description as set by Action-2. Action-5 logs the value of the **original-short-description** flow variable set by Action-1.
 

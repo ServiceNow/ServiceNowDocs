@@ -2,6 +2,7 @@
 title: View permissions for a user
 description: Use Access Analyzer to view permissions for a selected user.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/view-permissions-for-a-user.html
 release: australia
 product: Access Control
 classification: access-control
@@ -100,11 +101,11 @@ Specify a field name to select from the list. This field can be used to analyze 
 
 4.  Click **Analyze permissions**.
 
-    ![Permission evaluation of Abel Tuter](../images/view-permissions-for-a-user.png)
+    \[Omitted image "view-permissions-for-a-user.png"\] Alt text: Permission evaluation of Abel Tuter
 
     The system displays **Access results** for the **ITIL User**.
 
-    ![Permission results](../images/permissions-for-a-user.png)
+    \[Omitted image "permissions-for-a-user.png"\] Alt text: Permission results
 
     The results can be read by referring to the Legends, access control list \(ACL\), IAccesshandler, and Data filters.
 
@@ -116,7 +117,7 @@ Specify a field name to select from the list. This field can be used to analyze 
 
 5.  Select read operation to know more about the Debug logs.
 
-    ![ACL Details](../images/acl-details-for-user.png)
+    \[Omitted image "acl-details-for-user.png"\] Alt text: ACL Details
 
     The Debug logs page displayed the business rule and associated ACLs that are required to perform the **read** operation for the record.
 
@@ -126,12 +127,12 @@ Specify a field name to select from the list. This field can be used to analyze 
 
 6.  Select the Access Control that is Passed to see the details of the ACL.
 
-    ![Details of the Access Control for the selected ACL](../images/view-details-for-a-user.png)
+    \[Omitted image "view-details-for-a-user.png"\] Alt text: Details of the Access Control for the selected ACL
 
     The system displays the Access Control details for the selected ACL.
 
     If a selected operation that has `Passed` contains a script, the Access Control page displays the associated script for the record.
 
-    ![Script Condition in Access Control](../images/script-for-a-user.png)
+    \[Omitted image "script-for-a-user.png"\] Alt text: Script Condition in Access Control
 
 

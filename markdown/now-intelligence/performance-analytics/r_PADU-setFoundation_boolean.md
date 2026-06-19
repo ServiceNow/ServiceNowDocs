@@ -2,6 +2,7 @@
 title: PADomainUtils - setFoundation\(Boolean foundation\)
 description: Use this method to move or copy only foundational records in a hybrid domain configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/r\_PADU-setFoundation\_boolean.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -44,5 +45,5 @@ var pa = new SNC.PADomainUtils().setFoundation(true);
 pa.copy('bb6b58b01f1310005a3637b8ec8b70dd');
 ```
 
-**Parent Topic:**[PADomainUtils - Global](../concept/c_PADomainUtils.md)
+**Parent Topic:**[PADomainUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_PADomainUtils.md)
 

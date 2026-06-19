@@ -2,6 +2,7 @@
 title: Customer Service Problem Management reference
 description: Reference topics provide additional information about Customer Service Problem Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/cspm-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

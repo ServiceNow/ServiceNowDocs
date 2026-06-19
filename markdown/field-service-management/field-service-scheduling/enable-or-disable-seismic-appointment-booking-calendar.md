@@ -2,6 +2,7 @@
 title: Enable or disable seismic appointment booking calendar
 description: Use the seismic appointment booking calendar across all user interfaces to ensure a consistent and seamless scheduling experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/enable-or-disable-seismic-appointment-booking-calendar.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling

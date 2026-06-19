@@ -2,6 +2,7 @@
 title: Configurations to use Workday HR SOAP OAuth
 description: Configure your ServiceNow instance to perform Workday HR SOAP based actions with OAuth 2.0.Register Workday HR spoke as the API client in your Workday account and generate client ID, client secret.Configure the system properties to enable OAuth 2.0 for SOAP APIs based actions for Workday HR spoke.Provide the base URL of your Workday HR instance in the Connection Details \[connection\_details\] table. Spoke actions based on the SOAP API, use these details for the action execution.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/configs-workday-hr-soap-oauth.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -29,7 +30,7 @@ Role required: admin
 
 1.  Log into your Workday tenant.
 
-2.  Navigate to Search and enter `Register API Client for Integrations` task. ![Search for Register API Client for Integrations task in Workday](../image/wkdy-hr-reg-api-client-integ.png)
+2.  Navigate to Search and enter `Register API Client for Integrations` task. \[Omitted image "wkdy-hr-reg-api-client-integ.png"\] Alt text: Search for Register API Client for Integrations task in Workday
 
 3.  On the Register API Client for Integrations form, fill in the details.
 
@@ -40,13 +41,13 @@ Role required: admin
     |Scope \(Functional Areas\)|Select the required functional areas.|
     |Include Workday Owned Scope|Option to select Workday owned scope.|
 
-    ![Fields in Register API Client for integrations screen](../image/wkday-reg-api-client-screen.png)
+    \[Omitted image "wkday-reg-api-client-screen.png"\] Alt text: Fields in Register API Client for integrations screen
 
 4.  Click **OK**.
 
-    Client ID and Client Secret are generated after the registration is successful.![Client ID and client secret generated after API client registration](../image/wkday-fin-client-id-sec-generated.png)
+    Client ID and Client Secret are generated after the registration is successful.\[Omitted image "wkday-fin-client-id-sec-generated.png"\] Alt text: Client ID and client secret generated after API client registration
 
-5.  Click the ellipsis button after the specified client name.![Navigating Manage Refresh Tokens for Integrations option](../image/wkday-mng-refresh-token-nav.png)
+5.  Click the ellipsis button after the specified client name.\[Omitted image "wkday-mng-refresh-token-nav.png"\] Alt text: Navigating Manage Refresh Tokens for Integrations option
 
 6.  Select **API Client** &gt;**Manage Refresh Tokens for Integrations**.
 
@@ -54,7 +55,7 @@ Role required: admin
 
     Delete or Regenerate Refresh Token screen displays.
 
-8.  Select **Generate New Refresh Token** option and click **OK**.![Refresh token generated in Workday account](../image/wkday-fin-refresh-tkn.png)
+8.  Select **Generate New Refresh Token** option and click **OK**.\[Omitted image "wkday-fin-refresh-tkn.png"\] Alt text: Refresh token generated in Workday account
 
 
 ### Result
@@ -67,7 +68,7 @@ Configure the system properties to enable OAuth 2.0 for SOAP APIs based actions 
 
 ### Before you begin
 
--   [Generate client ID and client secret for Workday HR spoke](configs-workday-hr-soap-oauth.md#)
+-   [Generate client ID and client secret for Workday HR spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configs-workday-hr-soap-oauth.md)
 -   Role required: admin
 
 ### Procedure

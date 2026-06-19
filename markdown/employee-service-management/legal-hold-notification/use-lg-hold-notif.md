@@ -2,6 +2,7 @@
 title: Using Legal Hold Notification
 description: The Legal Hold Notification application enables organizations to issue, track, and manage legal hold notices efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/use-lg-hold-notif.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -15,24 +16,24 @@ breadcrumb: [Legal Hold Notification, Legal Service Delivery Practice Applicatio
 
 The Legal Hold Notification application enables organizations to issue, track, and manage legal hold notices efficiently.
 
-If the Legal Counsel Center application hasn’t been previously installed, you must install it to start using Legal Hold Notification. For more information, see [Install Legal Counsel Center Workspace](../../legal-request-management/concept/install-legal-counsel-center-workspace.md).
+If the Legal Counsel Center application hasn’t been previously installed, you must install it to start using Legal Hold Notification. For more information, see [Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md).
 
--   **[Submit a Legal Hold Notification matter](../task/submit-lg-hold-notif-matter.md)**  
+-   **[Submit a Legal Hold Notification matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/submit-lg-hold-notif-matter.md)**  
 Create a Legal Hold Notification matter to initiate the process of preserving the data related to the legal hold when the legal hold is issued.
--   **[Assign a matter owner](../task/assign-matter-owner.md)**  
+-   **[Assign a matter owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/assign-matter-owner.md)**  
 Assign a matter owner \(fulfiller\) for the legal hold matter to be responsible for managing it.
--   **[Issue a legal hold notice](../task/issue-lg-hold-notif-matter.md)**  
+-   **[Issue a legal hold notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/issue-lg-hold-notif-matter.md)**  
 Issue the legal hold notice to the custodian to ensure timely preservation of relevant data.
--   **[Add a new custodian to an existing legal hold matter](../task/add-new-custodian-lg-hold-notif.md)**  
+-   **[Add a new custodian to an existing legal hold matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/add-new-custodian-lg-hold-notif.md)**  
 Add a new custodian to issue the legal hold notice if a user is later identified as responsible for preserving data relevant to the existing legal hold.
--   **[Acknowledge the legal hold notice](../task/acknow-lg-hold-notif.md)**  
+-   **[Acknowledge the legal hold notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/acknow-lg-hold-notif.md)**  
 As a custodian, acknowledge that you have received the legal hold notice, confirming your agreement to preserve all relevant data. This acknowledgment serves as formal documentation supporting the legal team in the context of legal proceedings.
--   **[Send a reminder to custodians for acknowledgment](../task/send-reminder-for-acknowledgment.md)**  
+-   **[Send a reminder to custodians for acknowledgment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/send-reminder-for-acknowledgment.md)**  
 Send a reminder to custodians for them to acknowledge their role in ensuring that the data related to the legal hold is preserved.
--   **[Close a legal hold matter](../task/close-lg-hold-notif-matter.md)**  
+-   **[Close a legal hold matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/close-lg-hold-notif-matter.md)**  
 Close a legal hold matter once the legal hold is officially lifted.
--   **[Reopen a legal hold matter](../task/reopen-lg-hold-notifi-matter.md)**  
+-   **[Reopen a legal hold matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/reopen-lg-hold-notifi-matter.md)**  
 Reopen a closed legal hold matter when a legal hold is either revoked or newly issued in relation to the same closed legal matter.
 
-**Parent Topic:**[Legal Hold Notification](lg-hold-notif-landing-page.md)
+**Parent Topic:**[Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/lg-hold-notif-landing-page.md)
 

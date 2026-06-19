@@ -2,6 +2,7 @@
 title: Create an onboarding modal
 description: Create your own onboarding modals to introduce your users to a new experience or application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/create-unified-nav-onboarding-experience.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -362,5 +363,5 @@ The question is Mandatory when selected.
 8.  On the Guidance form, select **Update**.
 
 
-**Parent Topic:**[Configure](../concept/configure-onboarding-modals.md)
+**Parent Topic:**[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configure-onboarding-modals.md)
 

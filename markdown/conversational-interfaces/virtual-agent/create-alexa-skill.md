@@ -2,6 +2,7 @@
 title: Create an Alexa skill
 description: Create an Alexa-hosted skill using the Alexa developer console. Creating an Alexa skill helps you prepare to use the Alexa app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-alexa-skill.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -119,5 +120,5 @@ Role required: admin
 16. Click **Save Interfaces**.
 
 
-**Parent Topic:**[Set up Conversational Integration with Alexa](setup-alexa.md)
+**Parent Topic:**[Set up Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/setup-alexa.md)
 

@@ -2,6 +2,7 @@
 title: Connect a Service Observability data source
 description: Connect Service Observability to an external observability system. Service Observability displays metrics in the Service Operations Workspace \(SOW\) from that observability instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/connect-an-observability-data-source.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -320,10 +321,8 @@ Service Observability supports the following observability vendors:
 
 ## Procedure
 
-1.  Navigate based on your version of Service Observability.
+1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability** &gt; **Data sources**.
 
-    -   Version 1.5.0: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability Management** &gt; **Manage Observability** &gt; **Data sources**
-    -   Version 1.6 or later: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability** &gt; **Data sources**.
 2.  Select your observability vendor.
 
 3.  On the **Add connection** form, fill in the fields.
@@ -339,7 +338,7 @@ A new connection appears in the list of observability data sources. You use this
 
 ## What to do next
 
-Map your connection to the services that you want to monitor in Service Observability. See [Create and manage data mappings](create-and-manage-observability-data-mappings.md).
+Map your connection to the services that you want to monitor in Service Observability. See [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
 
-**Parent Topic:**[Configuring Service Observability](../concept/configuring-service-observability.md)
+**Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/configuring-service-observability.md)
 

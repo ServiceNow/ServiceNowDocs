@@ -1,39 +1,61 @@
 ---
 title: Model categories
-description: Model categories define relationships between asset classes, product model classes, and Configuration Management Database \(CMDB\) configuration item \(CI\) classes in the Enterprise Asset Management application.
+description: Model categories define the relationships between enterprise model classes, enterprise asset classes, and Configuration Management Database \(CMDB\) CI classes in Enterprise Asset Management. Model categories connect every enterprise asset to the correct model class, asset class, and CI class.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/model-hierarchy.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
+reading_time_minutes: 2
+breadcrumb: [Enterprise Asset Management data model, Explore, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Model categories
 
-Model categories define relationships between asset classes, product model classes, and Configuration Management Database \(CMDB\) configuration item \(CI\) classes in the Enterprise Asset Management application.
+Model categories define the relationships between enterprise model classes, enterprise asset classes, and Configuration Management Database \(CMDB\) CI classes in Enterprise Asset Management. Model categories connect every enterprise asset to the correct model class, asset class, and CI class.
 
-Each model category is divided into sub-categories that correspond to a model class, an asset class, and an existing CMDB CI class. Multiple model categories can be assigned to a single model class and a single asset class. A CI class can be assigned to only a single model category. However, it is not mandatory to assign a CI class to a model category.
+## Overview of model categories
 
-![Model category](../image/modelcategory.png)
+When you create an enterprise model, you assign it to a model category. The assignment determines:
 
-Various base model categories are available for you to choose from. The top tier model categories are as follows:
+-   The model class for the model record
+-   The asset class for assets created from that model
+-   The CI class for the corresponding CMDB CI record
 
--   Medical
--   Facility
--   Transportation
--   Industrial
--   Retail
--   Construction
--   Tactical equipment
--   Wearable
--   Multimedia production equipment
+\[Omitted image "modelcategory.png"\] Alt text: Model category
 
-For the complete list of available model categories and their corresponding CMDB CI, asset, and model classes, see [Enterprise model categories and corresponding classes](../reference/enterprise-model-categories.md).
+Model category assignments follow these rules:
 
-**Note:** If you do not wish to use any of the existing sub-categories within a top tier model category, you can create your own sub-categories. See [Create model categories](../task/create-custom-model-category.md) for detailed instructions.
+-   Multiple model categories can share the same model class or asset class.
+-   A CI class can be assigned to only one model category, and this assignment is optional.
 
-**Warning:** ServiceNow strongly recommends that you use only the existing top tier model categories.
+## Model category functions
+
+Beyond routing records into the correct classes, model categories serve three purposes:
+
+1.  Asset and CI record creation: EAM uses the model category to place assets in the correct asset class and create linked CI records in the correct CI class.
+2.  Bi-directional asset-CI synchronization: The model category mapping keeps asset and CI records in sync. Changes to state, location, or assignment are reflected in both records.
+3.  Discovery and identification rules: Model categories use configured CMDB IRE rules to define asset unique identifiers. These identifiers determine how the system recognizes assets when data arrives from Discovery or Procurement.
+
+## Parent and child model categories
+
+Model categories are organized in a two-tier hierarchy. Parent model categories represent the nine top-level industry domains. Child model categories sit beneath a parent and carry the actual class mappings assigned to model records.
+
+\[Omitted image "parent\_model\_eam.png"\] Alt text: The 9 seeded parent model categories: Medical, Facility, Transportation, Industrial, Multimedia production equipment, Retail, Construction, Tactical equipment, and Wearable
+
+For the complete list of available model categories and their corresponding CMDB CI class, asset class, and model class, see [Enterprise model categories and corresponding classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/enterprise-model-categories.md).
+
+**Important:** Use only the existing top-level parent model categories.
+
+## Creating custom model categories
+
+If none of the existing child model categories meet your needs, you can create a custom child category under an existing parent. When creating a child category, you specify the parent model category, model class, asset class, and optionally a CI class. For details, see [Create model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-custom-model-category.md)
+
+**Important:**
+
+Custom model categories must be children of one of the nine seeded parent categories. Creating new top-tier parent categories is not supported.
+
+**Parent Topic:**[Enterprise Asset Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-data-model.md)
 

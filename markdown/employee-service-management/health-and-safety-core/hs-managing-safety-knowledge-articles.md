@@ -2,6 +2,7 @@
 title: Managing safety knowledge articles
 description: As a safety manager or agent, you can manage safety-related knowledge base articles in the Health and Safety Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-core/hs-managing-safety-knowledge-articles.html
 release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
@@ -15,7 +16,7 @@ breadcrumb: [Use, Health and Safety Core, Health and Safety, Employee Service Ma
 
 As a safety manager or agent, you can manage safety-related knowledge base articles in the Health and Safety Workspace.
 
-The Health and Safety Knowledge is the same as the ServiceNow AI Platform Knowledge Management. For more information, see [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-management.md).
+The Health and Safety Knowledge is the same as the ServiceNow AI Platform Knowledge Management. For more information, see .
 
 ## Knowledge-related tasks in the Health and Safety Workspace
 
@@ -28,7 +29,7 @@ Based on your access permissions, you can perform the following Knowledge-relate
 -   Republish a retired article if necessary.
 -   Delete an article.
 
-To learn about authoring and managing knowledge articles in a workspace, see [Authoring a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/managing-knowledge-workspace.md).
+To learn about authoring and managing knowledge articles in a workspace, see .
 
 ## Knowledge articles available with Health and Safety
 
@@ -45,16 +46,16 @@ Employees can access these knowledge articles from the Employee Center by naviga
 
 To view a list of all knowledge base articles in the Health and Safety Workspace,
 
-1.  Navigate to **Health and Safety Workspace** and select the configuration icon \(![Configuration icon](../../hs-risk-management/image/icon-config.png)\).
+1.  Navigate to **Health and Safety Workspace** and select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\).
 2.  In the **Configuration** tab, select **Knowledge**.
 
 **Note:** By default, the knowledge list in the Health and Safety Workspace is filtered by the `Knowledge base = Safety` filter. However, to view all articles from other knowledge bases, you can do the following:
 
--   Select the filter icon \(![filter icon](../../talent-acquisition/images/icon-filter.png)\) in the list and remove the `Knowledge base = Safety` filter.
--   Additionally, to remove this default filter setting from the Knowledge list in the Health and Safety Workspace, remove it in the UIB related list configuration. For more information, see [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/lists-configurable-workspace.md)
+-   Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: filter icon\) in the list and remove the `Knowledge base = Safety` filter.
+-   Additionally, to remove this default filter setting from the Knowledge list in the Health and Safety Workspace, remove it in the UIB related list configuration. For more information, see 
 
--   **[Create a Health and Safety knowledge article](../task/hs-create-safety-knowledge-article.md)**  
+-   **[Create a Health and Safety knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/hs-create-safety-knowledge-article.md)**  
 Create a safety-related knowledge article in the Health and Safety Workspace to share information across your organization.
 
-**Parent Topic:**[Using Health and Safety Core](using-hs-core.md)
+**Parent Topic:**[Using Health and Safety Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-core/using-hs-core.md)
 

@@ -2,6 +2,7 @@
 title: Sample use case scenarios
 description: Use case scenarios offer a clear and comprehensive explanation of why you would use the Entity Based Access application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/sample-usecases.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,7 +20,7 @@ Use case scenarios offer a clear and comprehensive explanation of why you would 
 
 ExampleCo is a multinational organization with operations that span the American and Asian continents. The company specializes in the insurance and banking industries. The following example shows the organizational hierarchy of this company.
 
-![Organizational hierarchy of ExampleCo.](../image/eba-hierarchy.png "Organizational hierarchy of ExampleCo")
+\[Omitted image "eba-hierarchy.png"\] Alt text: Organizational hierarchy of ExampleCo.
 
 ## Use case scenario 1
 
@@ -29,7 +30,7 @@ To achieve this result, you use the Entity Based Access application to configure
 
 You would then select Email and map it to System Administrator in the entity configuration. Alternatively, you could map it to a user group that Abel is a part of. The following example shows that Abel is granted with access to all the records in the Asian continent.
 
-![Entity configuration screen for a user.](../image/usecase1.png "Entity configuration for a user")
+\[Omitted image "usecase1.png"\] Alt text: Entity configuration screen for a user.
 
 ## Use case scenario 2
 
@@ -39,7 +40,7 @@ To achieve this result, you use the Entity Based Access application to configure
 
 You select the Facility Banking entity class and map it to Beth. Alternatively, you could map it to a user group where Beth is a part of. The following example shows that the Banking entity class is mapped to Beth.
 
-![Entity class configuration screen for a user.](../image/usecase2.png "Entity class configuration for a user")
+\[Omitted image "usecase2.png"\] Alt text: Entity class configuration screen for a user.
 
-**Parent Topic:**[Entity Based Access](entity-based-access.md)
+**Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/entity-based-access.md)
 

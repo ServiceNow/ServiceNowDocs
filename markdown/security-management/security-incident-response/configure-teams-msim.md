@@ -2,6 +2,7 @@
 title: Configure Microsoft Teams connection with Major Security Incident Management
 description: Set up Major Security Incident Management with Microsoft Teams connection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-teams-msim.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -31,7 +32,7 @@ Role required: admin
 
     -   Certificate \(Delegated Permissions\)
 
-        ![Teams setup using certificate](../image/teams-setup-certificate.png)
+        \[Omitted image "teams-setup-certificate.png"\] Alt text: Teams setup using certificate
 
         |Field|Description|
         |-----|-----------|
@@ -43,7 +44,7 @@ Role required: admin
 
     -   Client Secret \(Delegated Permissions\)
 
-        ![Teams setup using client secret](../image/teams-setup-clientsecret.png)
+        \[Omitted image "teams-setup-clientsecret.png"\] Alt text: Teams setup using client secret
 
         |Field|Description|
         |-----|-----------|
@@ -64,5 +65,5 @@ Role required: admin
 7.  Select **Show Advanced Details** to view the configuration details.
 
 
-**Parent Topic:**[Integrate Major Security Incident Management with Microsoft Teams](../concept/integrate-teams-msim.md)
+**Parent Topic:**[Integrate Major Security Incident Management with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/integrate-teams-msim.md)
 

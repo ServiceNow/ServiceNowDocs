@@ -2,6 +2,7 @@
 title: Configure the policy to enable dispatchers to prioritize work order tasks
 description: Incorporate optimization features into the policy to allow dispatchers to prioritize work orders, establishing the importance of each task.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-the-policy-to-enable-dispatchers-to-prioritize-work-order-tasks.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -33,7 +34,7 @@ By completing this task, you are allowing dispatchers to add importance to a wor
 
 4.  Select **New**.
 
-5.  In the **Optimization Features** field, select the Lookup icon \(![Lookup icon.](../../../common/image/List_SearchIcon.png)\) and add the following objectives and constraints:
+5.  In the **Optimization Features** field, select the Lookup icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup icon.\) and add the following objectives and constraints:
 
 6.  1.  Maximize higher value task assignments
 2.  Minimize task time penalties \(fixed\)

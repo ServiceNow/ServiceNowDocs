@@ -2,6 +2,7 @@
 title: Update SSL certificate
 description: When updating an SSL certificate on an Edge proxy server, you must delete the old one.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/edge-encryption/update-ssl-certificate.html
 release: australia
 product: Edge Encryption
 classification: edge-encryption
@@ -40,9 +41,9 @@ When updating the SSL certificate on the Edge proxy server, you must also delete
 3.  Add the new SSL certificate into the Java KeyStore.
 
 
-**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](proxy-installer.md)
+**Parent Topic:**[Install the Edge Encryption proxy server using the interactive installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/proxy-installer.md)
 
-**Previous topic:**[Configure the AES 256-bit encryption key](configure-256-key.md)
+**Previous topic:**[Configure the AES 256-bit encryption key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/configure-256-key.md)
 
-**Next topic:**[Configure the Edge Encryption proxy database](configure-proxy-db.md)
+**Next topic:**[Configure the Edge Encryption proxy database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/edge-encryption/configure-proxy-db.md)
 

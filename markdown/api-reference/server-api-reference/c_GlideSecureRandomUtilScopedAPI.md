@@ -2,6 +2,7 @@
 title: GlideSecureRandomUtil - Scoped, Global
 description: The GlideSecureRandomUtil API provides methods for generating integers, long values, and strings.Generates a pseudo-random integer.Generates a pseudo-random integer between 0 \(inclusive\) and the bound \(exclusive\) value that you pass into the method.Generates pseudo-random long value.Generates a random alpha-numeric String with the specified length.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideSecureRandomUtilScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideSecureRandomUtil API provides methods for generating integers, long val
 
 There is no constructor for this class. Methods are accessed through the static object GlideSecureRandomUtil. The GlideSecureRandomUtil class is available in both global and scoped applications.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideSecureRandomUtil - getSecureRandomInt\(\)
 

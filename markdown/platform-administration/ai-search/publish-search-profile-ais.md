@@ -2,6 +2,7 @@
 title: Publish an AI Search search profile
 description: Publish a search profile to make pending changes to its settings take effect in linked search applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/publish-search-profile-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -31,7 +32,7 @@ To make a search profile's settings active in search queries, you must publish i
 
 1.  Navigate to **All** &gt; **AI Search** &gt; **Search Experience** &gt; **Search Profiles**.
 
-    **Note:** Search profiles with the **New** state display an alert triangle icon ![](../image/icon-alert-triangle.png). An informational message notifies you to publish these search profiles.
+    **Note:** Search profiles with the **New** state display an alert triangle icon \[Omitted image "icon-alert-triangle.png"\] Alt text:. An informational message notifies you to publish these search profiles.
 
 2.  Open the search profile that you want to publish.
 
@@ -42,5 +43,5 @@ To make a search profile's settings active in search queries, you must publish i
 
 The search profile appears in the AI Search Search Profiles list with **State** set to **Published**.
 
-**Parent Topic:**[Search profiles in AI Search](../concept/defining-search-profiles-ais.md)
+**Parent Topic:**[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md)
 

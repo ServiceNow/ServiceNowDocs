@@ -2,6 +2,7 @@
 title: View task SLA status
 description: Managers can quickly view task SLA to address those that are breached, or at risk for being breached.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/view-sla-manager.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -21,7 +22,7 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 ## About this task
 
-Administrators can configure what is defined as **Risk of breach** using the script includes. For more information, see [Field Service Manager Mobile script includes](../reference/manager-mobile-ref.md).
+Administrators can configure what is defined as **Risk of breach** using the script includes. For more information, see [Field Service Manager Mobile script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/manager-mobile-ref.md).
 
 ## Procedure
 

@@ -2,6 +2,7 @@
 title: Set up your Now platform instance for the Microsoft Graph Security API integration
 description: The following section lists the setup tasks that you are required to complete in your ServiceNow AI Platform instance prior to installing the application from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-setup-sn.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -49,7 +50,7 @@ The following roles are required for the installation, setup, and use of the int
     -   Assigns the security incident analyst \(sn\_si.analyst\) role.
     -   Users with the sn\_si.analyst work with security incidents.
 
- For more information about roles and assigning roles to users, see Roles on the [Servicenow Product Documentation website](https://servicenow.com/docs).
+ For more information about roles and assigning roles to users, see Roles on the [Servicenow Product Documentation website](https://www.servicenow.com/docs).
 
 </td></tr><tr><td>
 
@@ -57,7 +58,7 @@ Register your application in the Microsoft Azure portal.
 
 </td><td>
 
-Before you can ingest alerts, you must configure your application in the Microsoft Azure portal. See [Configure the Microsoft Azure portal](ms-graph-configure-azure.md) for details.
+Before you can ingest alerts, you must configure your application in the Microsoft Azure portal. See [Configure the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/ms-graph-configure-azure.md) for details.
 
 </td></tr><tr><td>
 
@@ -75,7 +76,7 @@ Verify that the following Security Operations applications are installed and act
 **Note:** The Integration Hub components are installed along with the Event and Alert Ingestion plugin. If these are not installed, contact Customer Support for assistance.
 
 
- For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](../../../security-incident-response/task/entitle-secops-product.md) and [Activate a ServiceNow Store application](../../../security-incident-response/task/activate-entitled-store-app.md).
+ For more information about installing the Security Operations core applications, see [Get entitlement for a Security Operations product or application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/entitle-secops-product.md) and [Activate a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-operations/activate-entitled-store-app.md).
 
 </td></tr></tbody>
 </table>

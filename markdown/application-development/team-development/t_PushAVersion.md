@@ -2,6 +2,7 @@
 title: Push a version
 description: Pushing promotes changes from the development instance to the parent instance and commits the current version of a customized record on the development instance as the current version on the parent instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_PushAVersion.html
 release: australia
 product: Team Development
 classification: team-development
@@ -31,9 +32,9 @@ Pushing creates a local Update Set on the parent that is marked as complete. Pus
 
 1.  Navigate to **All** &gt; **Team Development** &gt; **Team Dashboard**.
 
-2.  [Queue the local changes](t_QueueALocalChangeForAPush.md) that are ready to push.
+2.  [Queue the local changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_QueueALocalChangeForAPush.md) that are ready to push.
 
-3.  [Pull versions](t_PullAVersion.md) from the parent instance and [resolve any collisions](t_ResolveACollision.md).
+3.  [Pull versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PullAVersion.md) from the parent instance and [resolve any collisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_ResolveACollision.md).
 
     You cannot push changes to the parent instance if collisions are detected.
 
@@ -45,7 +46,7 @@ Pushing creates a local Update Set on the parent that is marked as complete. Pus
 
 6.  Review the list of changes to ensure that the correct changes are included.
 
-<table id="choicetable_qtn_cmc_bq"><tbody><tr><td id="d150006e150">
+<table id="choicetable_qtn_cmc_bq"><tbody><tr><td id="d135410e150">
 
 **To remove changes that you do not want to push**
 
@@ -53,16 +54,16 @@ Pushing creates a local Update Set on the parent that is marked as complete. Pus
 
 Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list
 
-</td></tr><tr><td id="d150006e165">
+</td></tr><tr><td id="d135410e165">
 
 **To add changes**
 
 </td><td>
 
-Click **Cancel** and repeat the procedure from [step 2](t_PushAVersion.md#step-2-queue-local-changes)
+Click **Cancel** and repeat the procedure from [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PushAVersion.md)
 
 </td></tr></tbody>
-</table>    ![Push versions](../image/PushVersions.png)
+</table>    \[Omitted image "PushVersions.png"\] Alt text: Push versions
 
 7.  Edit the name.
 
@@ -76,7 +77,7 @@ Click **Cancel** and repeat the procedure from [step 2](t_PushAVersion.md#step-2
 
     The system initiates a pull to ensure that there are no collisions before the push proceeds.
 
-    -   If collisions are detected, the push is automatically canceled and you must repeat the procedure from [step 3](t_PushAVersion.md#step-3-pull-versions).
+    -   If collisions are detected, the push is automatically canceled and you must repeat the procedure from [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/team-development/t_PushAVersion.md).
     -   If no collisions are detected, the changes are staged on the parent instance. On the parent, each version is validated and then committed in the correct order to maintain dependencies between records. For example, a new table is committed before a field on that table to ensure the field is properly created.
     **Note:** You cannot push if there is a version conflict between instances or the pushing instance has changes in the Awaiting Code Review stage.
 
@@ -94,6 +95,6 @@ Click **Cancel** and repeat the procedure from [step 2](t_PushAVersion.md#step-2
     -   An error occurred during the push. Try to push again.
     -   The current version is invalid. Revert to a previous version and make the change again to ensure the version is valid
     -   An error occurred on the parent during the push. The Log field on the push record contains the exception message. Review the system logs on the parent instance and troubleshoot any problems with the instance.
-    ![Push history](../image/PushHistory.png)
+    \[Omitted image "PushHistory.png"\] Alt text: Push history
 
 

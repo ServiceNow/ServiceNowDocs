@@ -2,6 +2,7 @@
 title: Exploring ITSM Success Dashboard indicators
 description: Get an overview of the ITSM Success Dashboard indicators to understand the different components in the dashboard and how you can use the dashboard for your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.html
 release: australia
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
@@ -23,16 +24,16 @@ The IT leadership team can analyze and understand the key metrics such as call d
 -   The number of times Predictive Intelligence successfully predicted an incident field, which in turn has a downstream impact on the resolution time.
 -   The formulae and definitions of the data being presented.
 -   The data trend for month-on-month, quarter-on-quarter, or year-on-year.
--   The Key Performance Indicators \(KPIs\) metrics on the dashboard for a selected period. For more information to view metrics for a selected period, see [View metrics for selected period in ITSM Success Dashboard indicators](../task/view-metrics-selected-period.md).
+-   The Key Performance Indicators \(KPIs\) metrics on the dashboard for a selected period. For more information to view metrics for a selected period, see [View metrics for selected period in ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/view-metrics-selected-period.md).
 
 Also, process owners can view the records that contribute to these insights, do a deep dive analysis, and drive improvement plans.
 
-![Success Dashboard displaying the Performance overview tab.](../image/itsm-sd-landing-page-nov23.png "ITSM Success Dashboard indicators overview")
+\[Omitted image "itsm-sd-landing-page-nov23.png"\] Alt text: Success Dashboard displaying the Performance overview tab.
 
--   **[ITSM Success Dashboard indicators components](itsm-sdb-dasboard-overview.md)**  
+-   **[ITSM Success Dashboard indicators components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/itsm-sdb-dasboard-overview.md)**  
 Analyze the performance and self-solve data visually and drive business outcomes with the help of the dashboard components.
--   **[ITSM Success Dashboard indicators KPI definitions and formulas](sd-kpi-formulae.md)**  
+-   **[ITSM Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.md)**  
 Enable ITSM Success Dashboard and configure settings to understand and use the Key Performance Indicators \(KPIs\) and formulas.
 
-**Parent Topic:**[ITSM Success Dashboard indicators](success-dashboard-indicator-landing.md)
+**Parent Topic:**[ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-success-dashboard-indicators/success-dashboard-indicator-landing.md)
 

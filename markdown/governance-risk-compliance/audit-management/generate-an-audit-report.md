@@ -2,6 +2,7 @@
 title: Generate an audit report from an engagement
 description: Generate an audit report and maintain different versions of audit reports from an engagement in Follow up state.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/generate-an-audit-report.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -50,5 +51,5 @@ When an engagement is in the **Follow up** state, the audit lead can generate an
 
 The incremented version of the report appears in the **KB article** field in the **Report** tab.
 
-**Parent Topic:**[Manage engagements](../concept/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
 

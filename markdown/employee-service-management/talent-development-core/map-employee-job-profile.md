@@ -2,6 +2,7 @@
 title: Adding a job profile to the employee
 description: Adding a job profile to an employee identifies the position of the employee in the organization, further identifying the skills.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/map-employee-job-profile.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

@@ -2,6 +2,7 @@
 title: Mentoring reference
 description: Mentoring Talent Development Reference
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/mentoring/mentoring-egd-reference.html
 release: australia
 product: Mentoring
 classification: mentoring

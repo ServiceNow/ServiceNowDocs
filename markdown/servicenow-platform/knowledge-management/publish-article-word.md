@@ -2,6 +2,7 @@
 title: Publish a knowledge article in Microsoft Word
 description: Use the Word Online application to publish a knowledge article originally created in Microsoft Word to make it available to users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/publish-article-word.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,9 +18,9 @@ Use the Word Online application to publish a knowledge article originally create
 
 ## Before you begin
 
--   Ensure that the administrator has configured the Knowledge Management - Add-in for Microsoft Word. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](configure-km-add-in-word.md).\)
+-   Ensure that the administrator has configured the Knowledge Management - Add-in for Microsoft Word. \(For more information, see [Configure Knowledge Management - Add-in for Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/configure-km-add-in-word.md).\)
 
--   You must have logged in to your ServiceNow instance from the Word Online application. For more information, see [Log in to your ServiceNow instance for authoring knowledge articles in Microsoft Word](authenticate-article-word.md).
+-   You must have logged in to your ServiceNow instance from the Word Online application. For more information, see [Log in to your ServiceNow instance for authoring knowledge articles in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/authenticate-article-word.md).
 
 -   You must have contribute access to the knowledge base within which you want to publish the knowledge article.
 -   You must have signed in to your Office 365 account.
@@ -32,7 +33,7 @@ Use the Word Online application to publish a knowledge article originally create
 
 2.  In the New section, click **New blank document**, or open any existing Microsoft Word document.
 
-3.  On the Home tab of the Word document, click the Knowledge icon \(![Knowledge icon](../image/word-addin.png)\).
+3.  On the Home tab of the Word document, click the Knowledge icon \(\[Omitted image "word-addin.png"\] Alt text: Knowledge icon\).
 
 4.  Access the article in the Knowledge Management pane of the Word document.
 
@@ -50,7 +51,7 @@ A knowledge article is published depending on the workflow setting of its knowle
 -   **Knowledge - Instant Publish**: The knowledge article is immediately published unless it is scheduled to be published at a later date.
 -   **Knowledge - Approval Publish**: The knowledge article is published on approval completion unless it is scheduled to be published at a later date.
 
-For more information, see [Schedule a knowledge article for publishing in Microsoft Word](schedule-article-publishing-word.md).
+For more information, see [Schedule a knowledge article for publishing in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/schedule-article-publishing-word.md).
 
-If the article versioning feature is enabled, the version of the article is incremented based on the [version number pattern](../concept/knowledge-article-version-numbers.md).
+If the article versioning feature is enabled, the version of the article is incremented based on the [version number pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/knowledge-article-version-numbers.md).
 

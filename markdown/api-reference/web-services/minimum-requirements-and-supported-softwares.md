@@ -2,6 +2,7 @@
 title: Minimum requirements and supported software for SQL API
 description: This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for SQL API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/minimum-requirements-and-supported-softwares.html
 release: australia
 product: Web Services
 classification: web-services
@@ -79,5 +80,5 @@ The ServiceNow ODBC driver supports installation on the following operating syst
 -   Windows 11
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SQL API reference information](troubleshooting.md)
+</table>**Parent Topic:**[SQL API reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/troubleshooting.md)
 

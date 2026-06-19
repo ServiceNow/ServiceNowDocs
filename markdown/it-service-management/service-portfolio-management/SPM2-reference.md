@@ -2,6 +2,7 @@
 title: Service Portfolio Management reference
 description: The following reference topics provide additional information about the roles, lists, and forms to configure and administer Service Portfolio Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-portfolio-management/SPM2-reference.html
 release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
@@ -15,10 +16,10 @@ breadcrumb: [Service Portfolio Management, IT Service Management]
 
 The following reference topics provide additional information about the roles, lists, and forms to configure and administer Service Portfolio Management.
 
--   **[Installed with Service Portfolio Management](r_InstalledWSPM2.md)**  
+-   **[Installed with Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/r_InstalledWSPM2.md)**  
 Service Portfolio Management Core is active by default for users with ITSM licenses. Service Portfolio Management Foundation is administrator activated and enables you to document portfolios, taxonomies, services, and service offerings using a standardized, structured format.
--   **[Domain separation and Service Portfolio Management](../concept/SPM2-domain-separation-SPM2.md)**  
+-   **[Domain separation and Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-domain-separation-SPM2.md)**  
 Domain separation is supported in Service Portfolio Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Service Portfolio Management](SPM2-landing-page.md)
+**Parent Topic:**[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-portfolio-management/SPM2-landing-page.md)
 

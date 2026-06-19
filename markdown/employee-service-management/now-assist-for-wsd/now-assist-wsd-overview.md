@@ -2,6 +2,7 @@
 title: Exploring Now Assist for Workplace Service Delivery \(WSD\)
 description: The Now Assist in Virtual Agent assists Workplace Service Delivery workplace employees to book meeting spaces conveniently and quickly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/now-assist-wsd-overview.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -57,13 +58,13 @@ The following Agentic AI workflows are available for Now Assist for WSD:-   Rese
 -   Optimize cleaning activities
 -   Automate map updates
 
-For more information, see [Using AI agent workflows in Now Assist for WSD](now-assist-wsd-using-agentic-use-cases.md)
+For more information, see [Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 </td></tr></tbody>
 </table>## What to explore next
 
 To learn more about configuring and using Now Assist for Workplace Service Delivery \(WSD\), see:
 
--   [Configuring Now Assist for WSD](now-assist-wsd-configuring.md)
--   [Using Now Assist for WSD](now-assist-wsd-using.md)
+-   [Configuring Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-configuring.md)
+-   [Using Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/now-assist-wsd-using.md)
 

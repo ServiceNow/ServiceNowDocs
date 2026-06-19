@@ -2,6 +2,7 @@
 title: Form Mapping Configurations form
 description: The Form Mapping Configurations form helps you customize mapping of emails and forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/form-mapping-config-form.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -72,5 +73,5 @@ Active
 Option to activate the mapping configuration record.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](sn-addin-for-ms365-reference.md)
+</table>**Parent Topic:**[ServiceNow Add-in for Microsoft 365 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/sn-addin-for-ms365-reference.md)
 

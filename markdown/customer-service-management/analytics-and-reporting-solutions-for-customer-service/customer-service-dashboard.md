@@ -2,6 +2,7 @@
 title: Service Manager dashboard
 description: Use the Service Manager dashboard to track and analyze customer service case data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/customer-service-dashboard.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
@@ -29,7 +30,7 @@ To view the Service Manager dashboard, navigate to **Customer Service** &gt; **O
 
 The Service Manager dashboard displays four case-related reports, which are created using the Reports application. You can drill down into these reports for more information about the related cases.
 
-![Service Manager dashboard displaying four case-related reports and their pie chart representations to track and analyze customer service case data. For the text description, refer to the Reports section.](../image/service-manager-homepage.png "Service Manager dashboard")
+\[Omitted image "service-manager-homepage.png"\] Alt text: Service Manager dashboard displaying four case-related reports and their pie chart representations to track and analyze customer service case data. For the text description, refer to the Reports section.
 
 ## End users and roles
 
@@ -59,7 +60,7 @@ Cases by SLA stage
 
 </td><td>
 
-Pie Chart![Pie report icon.](../../../reuse/reporting/image/pie-sm.svg)
+Pie Chart\[Omitted image "pie-sm.svg"\] Alt text: Pie report icon.
 
 </td><td>
 
@@ -71,7 +72,7 @@ Open Cases By Priority
 
 </td><td>
 
-Donut![Donut report icon.](../../../reuse/reporting/image/semi-donut-sm.svg)
+Donut\[Omitted image "semi-donut-sm.svg"\] Alt text: Donut report icon.
 
 </td><td>
 
@@ -84,7 +85,7 @@ Customer Satisfaction
 
 </td><td>
 
-Gauge![Dial report icon.](../../../reuse/reporting/image/solid-gauge-sm.svg)
+Gauge\[Omitted image "solid-gauge-sm.svg"\] Alt text: Dial report icon.
 
 </td><td>
 
@@ -96,7 +97,7 @@ Open Cases By Product
 
 </td><td>
 
-Semi-Donut![Donut report icon.](../../../reuse/reporting/image/semi-donut-sm.svg)
+Semi-Donut\[Omitted image "semi-donut-sm.svg"\] Alt text: Donut report icon.
 
 </td><td>
 

@@ -2,6 +2,7 @@
 title: Creating a universal request from an HR case
 description: Create a universal request for every HR case that is created, using any channel. Extend the unified ticket experience that Universal Request provides for all the HR cases, irrespective of the channels they are created from.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-ur-omnichannel.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -21,5 +22,5 @@ To auto-create a universal request from an HR case, you must activate the **Crea
 
 ## Configure field mappings
 
-To auto-create a universal request from an HR case and copy the primary details from an HR case to a universal request, [Configure field mappings](../task/create-mappings-hrur.md).
+To auto-create a universal request from an HR case and copy the primary details from an HR case to a universal request, [Configure field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/create-mappings-hrur.md).
 

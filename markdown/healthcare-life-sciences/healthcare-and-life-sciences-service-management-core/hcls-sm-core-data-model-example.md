@@ -2,6 +2,7 @@
 title: Healthcare and Life Sciences data model example
 description: The Healthcare and Life Sciences data model is vital in managing patient information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-sm-core-data-model-example.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core

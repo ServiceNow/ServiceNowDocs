@@ -2,6 +2,7 @@
 title: Heatmap visualization example
 description: The heatmap data visualization shows the relationship between two table fields or indicator breakdowns as a spectrum of shading between two colors. The changes in color as you move along the axes reveal patterns in the value of one or both fields or breakdowns.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-example-heatmap.html
 release: australia
 topic_type: task
 last_updated: "2026-03-24"
@@ -15,7 +16,7 @@ The heatmap data visualization shows the relationship between two table fields o
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../../reporting/concept/report-view-access-control.md) and [Platform Analytics roles](../reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,7 +24,7 @@ By observing how cell colors change across each axis, you can observe if there a
 
 ## Procedure
 
-1.  Follow the first steps to [Create a heatmap data visualization](../../reporting/task/create-dv-heatmap-ac.md):
+1.  Follow the first steps to [Create a heatmap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-heatmap-ac.md):
 
     1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
@@ -73,11 +74,11 @@ By observing how cell colors change across each axis, you can observe if there a
 
     2.  Choose `Descending` for the sort order.
 
-        The columns are ordered with those assignment groups having the highest number of incidents at the top. ![Heatmap report sorted by value in descending order with the legend](../../reporting/image/dv-ex-heatmap-sort-by.png)
+        The columns are ordered with those assignment groups having the highest number of incidents at the top. \[Omitted image "dv-ex-heatmap-sort-by.png"\] Alt text: Heatmap report sorted by value in descending order with the legend
 
 7.  Under Additional settings, select **Show 0 when no data available**.
 
-    When you show zero, no cells are left empty. The cells with no open incidents also get a color coding.![Heatmap row with zeroes shown for columns with no associated incidents](../../reporting/image/dv-ex-heatmap-show-zero.png)
+    When you show zero, no cells are left empty. The cells with no open incidents also get a color coding.\[Omitted image "dv-ex-heatmap-show-zero.png"\] Alt text: Heatmap row with zeroes shown for columns with no associated incidents
 
 8.  Under Data update, configure how the audience interacts with the visualization.
 
@@ -112,5 +113,5 @@ By observing how cell colors change across each axis, you can observe if there a
 
 You have created a heatmap visualization sorted on two values and configured its values, labels, and data updates. You have also configured the visualization's colors.
 
-**Parent Topic:**[Create a heatmap data visualization](../../reporting/task/create-dv-heatmap-ac.md)
+**Parent Topic:**[Create a heatmap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-heatmap-ac.md)
 

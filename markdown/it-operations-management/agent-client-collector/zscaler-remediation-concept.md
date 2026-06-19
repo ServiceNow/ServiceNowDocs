@@ -2,6 +2,7 @@
 title: Perform Zscaler remediation
 description: If the Zscaler application installed on your Windows or macOS agent is not running efficiently, you can stop and start the app. This process is called remediation. Running remediation automatically creates an incident on the agent. You can also view Zscaler statuses on the Zscaler dashboard as a graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/zscaler-remediation-concept.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -29,10 +30,10 @@ By default, the **Zscaler Monitoring Policy** monitoring check runs every 30 min
     -   Maximum amount of data produced by a single agent, per day: 96KB
     -   Maximum amount of data produced by a 20K agents, per day: 1.92GB
 
--   **[Check Zscaler remediation](../task/zscaler-check-remediation.md)**  
+-   **[Check Zscaler remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/zscaler-check-remediation.md)**  
 Verify that Zscaler remediation stops and starts the Zscaler app after the remediation monitoring check fails.
--   **[Use the Zscaler dashboard](../task/zscaler-dashboard.md)**  
+-   **[Use the Zscaler dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/zscaler-dashboard.md)**  
 Use the Zscaler dashboard to view Zscaler monitoring and remediation statuses in graph format.
 
-**Parent Topic:**[Deploying Agent Client Collector on endpoints](acc-endpoint-deployment.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

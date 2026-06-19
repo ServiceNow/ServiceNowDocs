@@ -2,6 +2,7 @@
 title: Move a knowledge article
 description: You can move articles between knowledge bases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/t\_MoveAnArticle.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -21,7 +22,7 @@ Role required: User must have contributor access to the knowledge base.
 
 **Note:**
 
--   When versioning is enabled, and you move an article from one knowledge base to another, the latest version of an article is moved to the new knowledge base. However, the previous versions of the article remain in the old knowledge base. It is recommended to retire the article from the old knowledge base. For more information, see [Retire a knowledge article](../concept/c_RetiredKnowledgeArticles.md).
+-   When versioning is enabled, and you move an article from one knowledge base to another, the latest version of an article is moved to the new knowledge base. However, the previous versions of the article remain in the old knowledge base. It is recommended to retire the article from the old knowledge base. For more information, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
 -   Although you can move an article from one knowledge base to another consider creating an article in new knowledge base.
 
 ## Procedure
@@ -39,5 +40,5 @@ Role required: User must have contributor access to the knowledge base.
 4.  Click **Update**.
 
 
-**Parent Topic:**[Creating and maintaining articles](../concept/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

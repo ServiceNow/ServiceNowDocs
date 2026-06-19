@@ -1,19 +1,21 @@
 ---
 title: Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\)
-description: Configure Document Intelligence using Now Assist skill in Accounts Payable Operations.
+description: Configure Document Intelligence using Now Assist skill in Accounts Payable Operations to enable AI-powered invoice data extraction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/configure-di-using-now-assis.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [APO, Accounts Payable Operations, invoice automation]
 breadcrumb: [Configure Now Assist for Accounts Payable Operations \(APO\), Now Assist for APO, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\)
 
-Configure Document Intelligence using Now Assist skill in Accounts Payable Operations.
+Configure Document Intelligence using Now Assist skill in Accounts Payable Operations to enable AI-powered invoice data extraction.
 
 ## Before you begin
 
@@ -38,7 +40,7 @@ Plugins required:
 
     The **Invoice processing - Gen AI** use case is provided as out of the box within the skill.
 
-4.  Select **Invoice processing - Gen AI** use case.![Invoice data extraction](../image/doc-intel-na.png)
+4.  Select **Invoice processing - Gen AI** use case.\[Omitted image "doc-intel-na.png"\] Alt text: Invoice data extraction
 
 5.  Select **Save and Continue**.
 

@@ -2,6 +2,7 @@
 title: Configure the fields to be duplicated in a job requisition
 description: Configure which fields are duplicated when a recruiter duplicates a job requisitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/config-dplcte-fields.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -19,5 +20,5 @@ You can configure which fields are duplicated with sn\_ta\_recruiter.duplicate\_
 
 You must have the system administrator role to do this task.
 
-**Parent Topic:**[Configuring Recruitment Workspace](config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
 

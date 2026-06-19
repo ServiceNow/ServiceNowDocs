@@ -2,6 +2,7 @@
 title: Create and test your credentials
 description: Create and test the credentials that Discovery, Service Mapping, Cloud Management, and Orchestration require to access hardware and software in your network.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/t\_CreateCredential.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
@@ -27,63 +28,63 @@ This task contains general procedures for creating credentials. Refer to the doc
 
 <table id="table_sbq_p4k_1cb"><tbody><tr><td>
 
-[Applicative credentials](../reference/applicative-creds.md)
+[Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/applicative-creds.md)
 
 </td><td>
 
-[Basic authentication credentials](../reference/r_BasicAuthCredentialsForm.md)
+[Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_BasicAuthCredentialsForm.md)
 
 </td><td>
 
-[Chef server credentials](../reference/chef-server-creds.md)
+[Chef server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/chef-server-creds.md)
 
 </td></tr><tr><td>
 
-[CIM credentials](../reference/r_CIMCredentialsForm.md#)
+[CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CIMCredentialsForm.md)
 
 </td><td>
 
-[Cloud credentials](../reference/r_CloudManagementCredentialsForm.md)
+[Cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_CloudManagementCredentialsForm.md)
 
 </td><td>
 
-[Container image repository credentials](../reference/container-image-repo-credential.md)
+[Container image repository credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/container-image-repo-credential.md)
 
 </td></tr><tr><td>
 
-[Infoblox credentials](../reference/infoblox-creds.md)
+[Infoblox credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/infoblox-creds.md)
 
 </td><td>
 
-[JDBC credentials](../reference/r_JDBCCredentialsForm.md)
+[JDBC credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JDBCCredentialsForm.md)
 
 </td><td>
 
-[JMS credentials](../reference/r_JMSCredentialsForm.md)
+[JMS credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_JMSCredentialsForm.md)
 
 </td></tr><tr><td>
 
-[OAuth 2.0 credentials](../reference/oauth-2-credentials.md)
+[OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/oauth-2-credentials.md)
 
 </td><td>
 
-[SAP credentials](../reference/r_SAPCredentials.md)
+[SAP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SAPCredentials.md)
 
 </td><td>
 
-[SNMP credentials](../concept/c_SNMPCredentials.md#)
+[SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_SNMPCredentials.md)
 
 </td></tr><tr><td>
 
-[SSH credentials](../reference/r_SSHCredentialsForm.md)
+[SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_SSHCredentialsForm.md)
 
 </td><td>
 
-[VMware credentials](../reference/r_VMwareCredentialsForm.md)
+[VMware credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_VMwareCredentialsForm.md)
 
 </td><td>
 
-[Windows credentials](../reference/r_WindowsCredentialsForm.md#)
+[Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r_WindowsCredentialsForm.md)
 
 </td></tr></tbody>
 </table>**Note:** To improve security, limit the scope of credentials to a specific MID Server or schedule to avoid unnecessary credentials.
@@ -117,7 +118,7 @@ This task contains general procedures for creating credentials. Refer to the doc
 
 5.  Complete the fields in the Test Credential dialog box.
 
-    ![Test credentials dialog box](../image/TestCredentials.png "Test credentials dialog box")
+    \[Omitted image "TestCredentials.png"\] Alt text: Test credentials dialog box
 
 <table id="table_uxn_qln_25"><thead><tr><th>
 
@@ -210,15 +211,15 @@ JMS
 
     -   Incorrect target or port number:
 
-        ![TCP connection failure](../image/TestCredentialsTCPError.png "TCP connection failure")
+        \[Omitted image "TestCredentialsTCPError.png"\] Alt text: TCP connection failure
 
     -   Incorrect user name or password:
 
-        ![Authentication failure](../image/TestCredentialsPasswordError.png "Authentication failure")
+        \[Omitted image "TestCredentialsPasswordError.png"\] Alt text: Authentication failure
 
     -   Incorrect MID Server for Windows credentials:
 
-        ![MID Server error](../image/TestCredentialsWrongMID.png "MID Server error")
+        \[Omitted image "TestCredentialsWrongMID.png"\] Alt text: MID Server error
 
 7.  Click **Retry** to open the test Credential dialog box and correct the input error.
 

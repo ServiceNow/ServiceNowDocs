@@ -2,6 +2,7 @@
 title: Vulnerability Type form
 description: On the Vulnerability Type form, fill in the fields for Operational vulnerability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/vul-type-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -125,7 +126,7 @@ View Rules
 
 Rules to define the form view of the vulnerabilities in the Operational Resilience Workspace. Specifying the rules helps you to define the view you want to use for the vulnerabilities and control how the vulnerability form appears. For example, Default view or Workspace view.
 
-![View rules.](../image/view-rules.png)
+\[Omitted image "view-rules.png"\] Alt text: View rules.
 
 </td></tr><tr><td>
 
@@ -139,7 +140,7 @@ Rules to assign the tasks to users and groups by default.
 
 In the Applies to related list, you can select a table and specify the conditions that must be met before the task is assigned to the user or group. The rule is applied only if the task is not already assigned to another user or group. In the Script related list, you can use a script to further customize the assignment rule.
 
-![Assignment rule.](../image/assignment-rules.png)
+\[Omitted image "assignment-rules.png"\] Alt text: Assignment rule.
 
 </td></tr><tr><td>
 

@@ -2,6 +2,7 @@
 title: Approve or reject a push
 description: Code reviewers must approve or reject a push from the Team Development application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/team-development/t\_ApproveOrRejectAPush.html
 release: australia
 product: Team Development
 classification: team-development
@@ -41,7 +42,7 @@ Although reviewers can see the individual versions within a push, they must appr
 
 7.  Click either **Approve** or **Reject**, as appropriate.
 
-    ![Approve or reject changes](../image/ApproveOrRejectChanges.png)
+    \[Omitted image "ApproveOrRejectChanges.png"\] Alt text: Approve or reject changes
 
     **Note:** The URL and Remote Instance fields list the address and name of the instance where the change originated.
 

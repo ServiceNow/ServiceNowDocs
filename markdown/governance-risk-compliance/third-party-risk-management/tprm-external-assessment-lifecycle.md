@@ -2,6 +2,7 @@
 title: Life cycle states of a external assessment
 description: The process of collecting assessment data from a third party moves between several states. For example, during the Submitted to third party state, the third party responds to tasks, issues, and works to complete the questionnaires.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -17,7 +18,7 @@ The process of collecting assessment data from a third party moves between sever
 
 ## Third-party assessment states
 
-![States of an external assessment.](../image/vrm-states.png "Third-party assessment states")
+\[Omitted image "vrm-states.png"\] Alt text: States of an external assessment.
 
 -   **Draft**
 
@@ -49,5 +50,5 @@ The process of collecting assessment data from a third party moves between sever
     When all data is acceptable, the assessment is complete and a member of the team closes the assessment. If the engagement will be contracted, the **Closed** state initiates the contract risk process.
 
 
-**Parent Topic:**[Third-party \(external\) risk assessment management](../../grc-workspace-vrm/reference/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
+**Parent Topic:**[Third-party \(external\) risk assessment management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-extrnl-assessment.md)
 

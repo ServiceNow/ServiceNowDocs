@@ -2,6 +2,7 @@
 title: Set Agent Affinity rules
 description: Specify the Agent Affinity rules to determine the order in which work items in a queue are sorted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-set-agent-affinity-for-queue.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

@@ -2,6 +2,7 @@
 title: Application performance pages
 description: Access performance and usage data for a specific application to evaluate its efficiency, identify bottlenecks, and make informed optimization decisions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/user-application-metrics-cards.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -193,5 +194,5 @@ Availability
 Percentage of time that a service is operational and accessible to users
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Device details pages](user-device-details-pages.md)
+</table>**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

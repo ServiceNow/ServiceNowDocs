@@ -2,11 +2,12 @@
 title: Create an assignment group in Agile Development 2.0
 description: Create an assignment group of the type Agile Team so that you can assign these groups to a product or a release.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/agile-development/create-an-agile-group.html
 release: australia
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Assignment groups in Agile Development 2.0, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
@@ -53,8 +54,8 @@ The Agile assignment groups are created and stored in the Groups \[sys\_user\_gr
 
 ## What to do next
 
--   [Add members to an assignment group in Agile Development 2.0](add-group-members-to-group.md).
--   Use the related links and lists to create sprints and plan the sprint activities for your group. For more information, see [Related links and lists of assignment group in Agile Development 2.0](../reference/related-links-lists-of-assignment-group-in-agile-dev-2.md).
+-   [Add members to an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/add-group-members-to-group.md).
+-   Use the related links and lists to create sprints and plan the sprint activities for your group. For more information, see [Related links and lists of assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/related-links-lists-of-assignment-group-in-agile-dev-2.md).
 
-**Parent Topic:**[Assignment groups in Agile Development 2.0](../concept/manage-groups-agile-dev.md)
+**Parent Topic:**[Assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/agile-development/manage-groups-agile-dev.md)
 

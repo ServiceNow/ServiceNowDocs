@@ -2,6 +2,7 @@
 title: Require Multi-Factor Authentication for AI Voice Agent
 description: Use a system property to control whether Multi-Factor Authentication \(MFA\) is required for the AI voice agent authentication feature.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-require-multi-factor-authentication-for-ai-voice-agent.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -15,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use a system property to control whether Multi-Factor Authentication \(MFA\) is required for the AI voice agent authentication feature.
 
-Use the **glide.voice.authenticate.mfa\_mandatory** system property to control whether Multi-Factor Authentication \(MFA\) is required for the AI voice agent authentication feature. MFA requires users to provide two or more different verification factors to access a service or account. Examples of factors are SoftPIN or time-based one-time password \(TOTP\). More information about authentication factors for AI voice agents can be found at [Explore authentication factors for AI voice agents](../../../integrate/authentication/concept/explore-authentication-factors.md).
+Use the **glide.voice.authenticate.mfa\_mandatory** system property to control whether Multi-Factor Authentication \(MFA\) is required for the AI voice agent authentication feature. MFA requires users to provide two or more different verification factors to access a service or account. Examples of factors are SoftPIN or time-based one-time password \(TOTP\). More information about authentication factors for AI voice agents can be found at [Explore authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/explore-authentication-factors.md).
 
 Ensure the **glide.voice.authenticate.mfa\_mandatory** system property is set to `true`.
 
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[Access control](sc-access-control.md)
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -114,5 +115,5 @@ Dependencies and prerequisites
 AI voice agent authentication feature is set up and enabled.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](sc-access-control.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

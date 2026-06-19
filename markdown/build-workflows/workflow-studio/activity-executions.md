@@ -2,6 +2,7 @@
 title: Activity executions
 description: Activity execution records provide runtime information about activities in a playbook, such as the activity's current state and associated record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/activity-executions.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -27,8 +28,8 @@ By default, each record in the Activity Executions related list contains the fol
 |-----|-----------|
 |Label|Name of the activity|
 |Stage|Stage in which the activity runs|
-|State|Execution status for the activity. See [Activity execution states](activity-executions.md).|
-|Activity Type|Experience type for the activity. See [Experience types](experience-types.md).|
+|State|Execution status for the activity. See [Activity execution states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/activity-executions.md).|
+|Activity Type|Experience type for the activity. See [Experience types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/experience-types.md).|
 |Associated Record|Record whose data renders within the playbook card.|
 |Execution index|Sequential order in which the activity runs, starting with 1 \(one\).|
 

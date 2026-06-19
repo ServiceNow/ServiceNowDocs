@@ -2,6 +2,7 @@
 title: Success score indicators
 description: Change Success score contains Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/change-success-score-indicator.html
 release: australia
 product: Change Management
 classification: change-management
@@ -46,7 +47,7 @@ The following are the Change Success Score indicators that are used to collect d
     The total number of P3 incidents that were reported as caused by one of the changes completed by the team.
 
 
-For more information on the PA indicators, see [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/c_Indicators.md)
+For more information on the PA indicators, see Performance Analytics indicators
 
-**Parent Topic:**[Change success score](change-success-score.md)
+**Parent Topic:**[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/change-management/change-success-score.md)
 

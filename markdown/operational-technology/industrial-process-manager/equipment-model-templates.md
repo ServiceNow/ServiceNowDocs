@@ -2,6 +2,7 @@
 title: Equipment model templates
 description: You can create equipment model templates you use to characterize an equipment model, or to structure the data that describes your physical industrial facility by grouping similar types of equipment model entities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-process-manager/equipment-model-templates.html
 release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
@@ -30,7 +31,7 @@ An equipment model template consists of the following components:
     Types that represent different types of the areas, functions, or production processes within a hierarchical level.
 
 
-To learn more about equipment templates and see a graphic example of their structure, see [ISA-95 equipment model](isa-95-equipment-model.md) and [Defining equipment model templates](defining-equipment-model-templates.md).
+To learn more about equipment templates and see a graphic example of their structure, see [ISA-95 equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/isa-95-equipment-model.md) and [Defining equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/defining-equipment-model-templates.md).
 
-**Parent Topic:**[Exploring Industrial Process Manager](exploring-manufacturing-process-mgr.md)
+**Parent Topic:**[Exploring Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-process-manager/exploring-manufacturing-process-mgr.md)
 

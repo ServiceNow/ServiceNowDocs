@@ -2,6 +2,7 @@
 title: Approve forum memberships
 description: Manage forum membership approvals when registered community users request membership to a forum.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/approve-forum-memberships.html
 release: australia
 product: Communities
 classification: communities
@@ -38,5 +39,5 @@ There are two ways of approving forum memberships.
     Once the task has been approved or rejected, an email notification is sent to the user.
 
 
-**Parent Topic:**[Configure community forums](configure-forums-topics.md)
+**Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/configure-forums-topics.md)
 

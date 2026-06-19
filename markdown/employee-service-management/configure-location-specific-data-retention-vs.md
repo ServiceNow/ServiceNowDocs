@@ -2,6 +2,7 @@
 title: Configure country-specific data retention settings for Vaccination Status
 description: Configure the data retention settings for vaccine responses so your data retention policy is country-specific.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/configure-location-specific-data-retention-vs.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -54,5 +55,5 @@ Enable the **Use country-specific data retention policy for Vaccination Status**
 
 When the **Data Retention Job for Vaccination Status** daily scheduled job completes or is manually executed, the data of users in those locations have their records retained or deleted based on their country's data retention policy.
 
-**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status.md)
 

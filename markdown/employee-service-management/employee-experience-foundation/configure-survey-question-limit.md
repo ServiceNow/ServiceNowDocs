@@ -2,6 +2,7 @@
 title: Configure system properties to update the survey question limit
 description: Configure system properties to update the question limit for a survey to be displayed in Microsoft Outlook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-survey-question-limit.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

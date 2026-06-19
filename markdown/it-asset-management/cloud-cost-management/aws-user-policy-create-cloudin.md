@@ -1,7 +1,8 @@
 ---
 title: Create an AWS IAM user policy for Cloud Cost Management
-description: If you manage users with IAM, you must create an IAM user profile that enables access to AWS data.
+description: Create an Identity and Access Management \(IAM\) user profile that enables access to AWS data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/aws-user-policy-create-cloudin.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -13,7 +14,7 @@ breadcrumb: [Configure Cloud Cost Management for AWS, Configuring Cloud Cost Man
 
 # Create an AWS IAM user policy for Cloud Cost Management
 
-If you manage users with IAM, you must create an IAM user profile that enables access to AWS data.
+Create an Identity and Access Management \(IAM\) user profile that enables access to AWS data.
 
 ## Before you begin
 
@@ -177,36 +178,21 @@ Cloud Cost Management: insights\_admin \[sn\_clin\_core.insights\_admin\] or adm
 
             ```
             {
-            
                 "Version":"2012-10-17",		 	 	 
-            
                 "Statement": [
-            
                     {
-            
                         "Effect": "Allow",
-            
                         "Action": [
-            
                             "support:DescribeTrustedAdvisorCheckRefreshStatuses",
-            
                             "support:DescribeTrustedAdvisorCheckResult",
-            
                             "support:DescribeTrustedAdvisorChecks",
-            
                             "support:DescribeTrustedAdvisorCheckSummaries",
-            
                             "support:RefreshTrustedAdvisorCheck",
-            
                             "trustedadvisor:Describe*"
-            
                         ],
-            
                         "Resource": "*"
-            
                     }
                 ]
-            
             }
             ```
 

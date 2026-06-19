@@ -2,13 +2,14 @@
 title: Configure the standard ticket page for cases
 description: Configure the standard ticket page for cases from where users can view the details of a case in the Business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_std\_ticket\_page\_business-portal.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Business and Consumer Portal, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the standard ticket page for cases
@@ -25,7 +26,7 @@ Role required: sp\_admin
 
 2.  Select sn\_customerservice\_case, or sn\_customerservice\_task which is available by default.
 
-    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md).
+    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see Configure the standard ticket page.
 
 3.  Select **here** to edit the record.
 
@@ -39,5 +40,5 @@ Role required: sp\_admin
 **Related topics**  
 
 
-[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/configure-st-page.md)
+[bundle-platux.configure-st-page]
 

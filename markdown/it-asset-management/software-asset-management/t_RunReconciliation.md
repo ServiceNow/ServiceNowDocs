@@ -2,6 +2,7 @@
 title: Run software reconciliation in Software Asset Management classic
 description: Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in your environment on demand.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/t\_RunReconciliation.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -38,5 +39,5 @@ When running reconciliation manually, allow enough time for the process to compl
     The reconciliation process may take an extended amount of time to complete. Once reconciliation is complete, the reconciliation results are shown.
 
 
-**Parent Topic:**[Software license usage](../concept/sam-license-workbench.md)
+**Parent Topic:**[Software license usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-license-workbench.md)
 

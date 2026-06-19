@@ -2,6 +2,7 @@
 title: Create a legal contract template of type PDF
 description: Create a document template of type PDF by uploading an editable and fillable PDF file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/create-legal-contract-template-pdf.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts

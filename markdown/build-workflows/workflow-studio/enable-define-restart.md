@@ -2,6 +2,7 @@
 title: Configure restart for Playbooks
 description: Configure restart so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/enable-define-restart.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -33,13 +34,13 @@ Role required: pd\_author
 
         The Playbooks builder displays.
 
-    3.  In the upper right-hand corner, open the **More actions menu**![More actions menu](../images/icon-horizontal-menu.png), and select **Properties**.
+    3.  In the upper right-hand corner, open the **More actions menu**\[Omitted image "icon-horizontal-menu.png"\] Alt text: More actions menu, and select **Properties**.
 
         The **Additional Properties** modal displays.
 
     4.  At the bottom of the **General** tab, select the **Allow this process to be restarted during runtime** box.
 
-        ![](../images/restart-playbook-setting.png)
+        \[Omitted image "restart-playbook-setting.png"\] Alt text:
 
         Agents can now restart the whole playbook.
 
@@ -53,17 +54,17 @@ Role required: pd\_author
 
     2.  Under **Restart rules**, select what you want the stage or activity to do when restarted.
 
-        ![Activity and stage restart rules in the side panel](../images/playbooks-restart-rules.png)
+        \[Omitted image "playbooks-restart-rules.png"\] Alt text: Activity and stage restart rules in the side panel
 
-<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d113661e202">
+<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d54929e202">
 
 Rule
 
-</th><th align="left" id="d113661e205">
+</th><th align="left" id="d54929e205">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d113661e211">
+</th></tr></thead><tbody><tr><td id="d54929e211">
 
 **Skip on restart**
 
@@ -71,7 +72,7 @@ Description
 
 The stage or activity only runs during a playbook's initial run. It never runs during a restarted run.**Note:** This setting is helpful if you don't want new tasks or records to be created during a restarted run, because the original execution and resulting record is still relevant.
 
-</td></tr><tr><td id="d113661e225">
+</td></tr><tr><td id="d54929e225">
 
 **Run always**
 
@@ -79,7 +80,7 @@ The stage or activity only runs during a playbook's initial run. It never runs d
 
 The stage or activity always runs, whether during an initial or restarted run.
 
-</td></tr><tr><td id="d113661e234">
+</td></tr><tr><td id="d54929e234">
 
 **Skip on first run**
 
@@ -92,18 +93,18 @@ The stage or activity runs only during restarted runs. It never runs during an i
 
     -   Restart settings are reflected in both the Diagram view and Board view of the Workflow Studio Playbooks builder.
 
-        ![Run always icon on a stage in Diagram view](../images/run-always.png)
+        \[Omitted image "run-always.png"\] Alt text: Run always icon on a stage in Diagram view
 
-        ![Skip on first run icon on an activity in board view](../images/skip-first-run-board.png)
+        \[Omitted image "skip-first-run-board.png"\] Alt text: Skip on first run icon on an activity in board view
 
     -   Restart buttons are added to context menus in your playbook.
 
-        ![Restart stage button in context menu during runtime](../images/restart-stage-pe.png)
+        \[Omitted image "restart-stage-pe.png"\] Alt text: Restart stage button in context menu during runtime
 
 3.  To test your playbook with the restart options, select **Test** in the upper right-hand corner and open the **Playbook preview**.
 
-    ![Restart playbook button in context menu in Playbook preview](../images/restart-playbook-pe.png)
+    \[Omitted image "restart-playbook-pe.png"\] Alt text: Restart playbook button in context menu in Playbook preview
 
 
-**Parent Topic:**[Enabling playbook restart](../concept/restart.md)
+**Parent Topic:**[Enabling playbook restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/restart.md)
 

@@ -2,6 +2,7 @@
 title: FRISS Spoke
 description: Integrate a ServiceNow instance with your FRISS account to leverage the fraud detection capabilities for claims and to detect fraud early in the claims process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/friss-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ Integrate a ServiceNow instance with your FRISS account to leverage the fraud de
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -47,7 +48,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 **Note:**
 
 -   Some of these plugins may require the appropriate licensing if used outside the spoke implementation.
--   The flow actions input parameter is provided for you to use. For more information on the sample input data structure and data types used in an array and object, see [Complex data](https://servicenow.com/docs/bundle/tokyo-application-development/page/administer/flow-designer/concept/complex-data.html).
+-   The flow actions input parameter is provided for you to use. For more information on the sample input data structure and data types used in an array and object, see Complex data.
 
 ## Spoke actions
 
@@ -65,5 +66,5 @@ The FRISS spoke provides actions that trigger FRISS Trust automation in response
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For more information about setting up the FRISS spoke, see [Set up the FRISS spoke](../task/set-up-the-friss-spoke.md).
+For more information about setting up the FRISS spoke, see [Set up the FRISS spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/set-up-the-friss-spoke.md).
 

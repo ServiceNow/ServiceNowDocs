@@ -2,6 +2,7 @@
 title: Ingesting the sample Secureworks tickets
 description: Select the sample tickets that are to be ingested.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/secureworks-ctp-create-profile-ingestion.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

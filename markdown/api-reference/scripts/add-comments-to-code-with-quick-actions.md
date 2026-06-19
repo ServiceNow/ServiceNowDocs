@@ -2,6 +2,7 @@
 title: Add comments to code
 description: Add comments in the Now Assist for Code enabled script editor using quick actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/add-comments-to-code-with-quick-actions.html
 release: australia
 product: Scripts
 classification: scripts
@@ -29,7 +30,7 @@ Role required: now.assist.creator
 
 3.  Select **Add comments in code**.
 
-    ![Select Add comments in code](../image/now-assist-code-quick-actions.png)
+    \[Omitted image "now-assist-code-quick-actions.png"\] Alt text: Select Add comments in code
 
     The comments appear highlighted in the script editor.
 

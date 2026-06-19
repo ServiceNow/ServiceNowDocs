@@ -2,6 +2,7 @@
 title: Playbook for Automated Phishing
 description: The Automated Phishing playbook helps you resolve certain types of security threats in a step-by-step manner. With the flow designer templates, you can automate the steps in the phishing response playbook and resolve incidents quickly and efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/flow-designer-and-phishing-response.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -15,16 +16,16 @@ breadcrumb: [Flow-based Playbooks, Security Incident Response playbooks, Playboo
 
 The Automated Phishing playbook helps you resolve certain types of security threats in a step-by-step manner. With the flow designer templates, you can automate the steps in the phishing response playbook and resolve incidents quickly and efficiently.
 
-You can use templates authored with flow designer to automate the tasks in the [Phishing Response Playbook](../task/use-the-playbook.md#) to analyze and resolve phishing attacks in your organization.
+You can use templates authored with flow designer to automate the tasks in the [Phishing Response Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/use-the-playbook.md) to analyze and resolve phishing attacks in your organization.
 
 The phishing response playbook includes the following flows and subflows:
 
 -   Security Incident - Automated Phishing Response Template: This template is designed to automate the phishing response tasks and contains a sequence of actions including a trigger.
 -   Security Incident - Phishing Manual Template: This template is the existing manual phishing response workflow. Set the category to Phishing to activate the flow.
 
-These templates contain a sequence of reusable actions designed to respond to phishing attacks. Each flow has a trigger \(condition\), a sequence of actions and subflows that you can annotate for readability. To access these flows, you must install the [Security Operations spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/secops-spoke.md).
+These templates contain a sequence of reusable actions designed to respond to phishing attacks. Each flow has a trigger \(condition\), a sequence of actions and subflows that you can annotate for readability. To access these flows, you must install the Security Operations spoke.
 
-**Note:** Activate these templates before you can use them. See [Activate a Security Incident Response flow](../task/getting-started-phishing-playbook.md) for details.
+**Note:** Activate these templates before you can use them. See [Activate a Security Incident Response flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/getting-started-phishing-playbook.md) for details.
 
 -   Run Threat Lookups for Observables: Performs threat lookups of selected observables.
 -   Enrich Observables: Allows you to enrich observables with additional information from various sources.
@@ -35,10 +36,10 @@ These templates contain a sequence of reusable actions designed to respond to ph
 
 These subflows represent a set of reusable operations that you can use in multiple playbooks. You can use these subflows to define custom templates \(flows\) according to your requirements.
 
-To create custom templates \(flows\), follow the instructions in [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flows.md).
+To create custom templates \(flows\), follow the instructions in Flows.
 
--   **[Run the automated phishing response playbook flow](../task/run-phishing-playbook.md)**  
+-   **[Run the automated phishing response playbook flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/run-phishing-playbook.md)**  
 Using the flow designer, you can define and automate tasks in the playbook to analyze and resolve phishing attacks against your organization.
 
-**Parent Topic:**[Flow-based Playbooks](playbook-flow-based.md)
+**Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-flow-based.md)
 

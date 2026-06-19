@@ -2,6 +2,7 @@
 title: Start migration of SAFe data to EAP
 description: Submit a SAFe-EAP migration request and start the migration of data between the tables of Scaled Agile Framework and Enterprise Agile Planning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/migrate-safe-data-to-eap.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -31,7 +32,7 @@ Start data migration of SAFe to EAP.
 
 3.  On the form, fill in the fields.
 
-    For field information, see [SAFe-EAP migration request form](../reference/safe-eap-migration-request-form.md).
+    For field information, see [SAFe-EAP migration request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/safe-eap-migration-request-form.md).
 
     **Note:**
 
@@ -57,5 +58,5 @@ Monitor the progress of data migration:
 
 ## What to do next
 
-[Add Agile Team type to SAFe groups for EAP migration](change-safe-groups-type-to-agile-team.md).
+[Add Agile Team type to SAFe groups for EAP migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/change-safe-groups-type-to-agile-team.md).
 

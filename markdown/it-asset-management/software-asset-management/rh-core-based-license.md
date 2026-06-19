@@ -2,6 +2,7 @@
 title: Red Hat Enterprise Linux core-based licensing
 description: The Software Asset Management publisher pack for IBM supports core-based licensing rules for RHEL products in both physical and virtual environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/rh-core-based-license.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -82,5 +83,5 @@ Deployment of RHEL core-based products on the physical hosts and on the VMs that
 Licensing is based on the number of physical cores on which the RHEL core-based application is installed. For example, a physical host has 2 sockets with 8 cores per socket and 20 VMs with 2 cores per VM. A RHEL core-based product is installed on the physical host and all 20 VMs. In this case, the number of rights required is the minimum value between the physical core capacity of the physical host and the number of non-hyperthreaded physical cores assigned to VMs added to the number of physical hosts. 2 sockets multiplied by 8 cores per socket equal 16 cores. Then, 2 cores multiplied by 8 cores equal 16 cores, and 20 VMs multiplied by 2 cores per VM equal 40 cores. Add 16 cores to 40 cores, and it equals 56 cores. The minimum value between the two is 16 cores. `Min((2*8) = 16, (2*8 + 2*20) = 56)` Thus, the total number of rights required is 16 cores.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Software Asset Management for Red Hat Enterprise Linux](rhel-publisher-pack.md)
+</table>**Parent Topic:**[Software Asset Management for Red Hat Enterprise Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/rhel-publisher-pack.md)
 

@@ -2,6 +2,7 @@
 title: Post-assessment automations
 description: Post-assessment automations, also known as post-assessment actions, in Smart Assessment Engine are actions that happen automatically after an assessment is complete. These actions use the responses from an assessment to automate tasks. Using action sets, automated actions, trigger conditions, and evaluation criteria, post-assessment actions can help your assessments be efficient, consistent, accurate, and scalable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/impact-automation.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine

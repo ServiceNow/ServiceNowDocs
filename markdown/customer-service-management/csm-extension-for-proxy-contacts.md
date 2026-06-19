@@ -2,7 +2,10 @@
 title: Install the CSM Extension for Proxy Contacts
 description: You can install the CSM Extension for Proxy Contacts application \(com.snc.csm\_proxy\_contacts\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-extension-for-proxy-contacts.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

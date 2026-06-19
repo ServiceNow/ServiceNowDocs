@@ -2,6 +2,7 @@
 title: Test Agent Client Collector connectivity
 description: Test the Agent Client Collector \(ACC\) connectivity to identify any proxy issues.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/test-acc-connectivity.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -45,7 +46,7 @@ Role required: agent\_client\_collector\_admin
 
         -   Record sys\_id
         -   Hash id
-        ![Attachments table with the acc-dex-common.tar.gz record](../image/sys_attachments_table.png)
+        \[Omitted image "sys\_attachments\_table.png"\] Alt text: Attachments table with the acc-dex-common.tar.gz record
 
 2.  Test the connection by running one of the following commands from the temp folder that you created:
 
@@ -60,5 +61,5 @@ Role required: agent\_client\_collector\_admin
 
 Fix your proxy issues if the command output doesn't match the Attachments table entries.
 
-**Parent Topic:**[Installing DEX on your local machine](../concept/installing-dex-local.md)
+**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/installing-dex-local.md)
 

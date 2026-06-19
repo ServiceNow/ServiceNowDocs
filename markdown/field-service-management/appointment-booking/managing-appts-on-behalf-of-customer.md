@@ -2,6 +2,7 @@
 title: Managing appointments on behalf of a customer
 description: Agents and dispatchers can book, reschedule, or cancel appointments on behalf of customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/managing-appts-on-behalf-of-customer.html
 release: australia
 product: Appointment Booking
 classification: appointment-booking

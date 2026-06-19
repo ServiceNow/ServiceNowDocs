@@ -2,6 +2,7 @@
 title: Configure approval workflows
 description: Customize an approval workflow according to your organizational requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/set-up-approval-ta.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -40,5 +41,5 @@ Hiring Experiences provides an approval flow, where the approval request goes to
 7.  Select **Publish**.
 
 
-**Parent Topic:**[Configuring Recruitment Workspace](../concept/config-recruitment.md)
+**Parent Topic:**[Configuring Recruitment Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/config-recruitment.md)
 

@@ -2,6 +2,7 @@
 title: Add a service to Operational Resilience reporting
 description: Manage services, business services, service offerings, business processes, and application services from the CSDM modules in the Operational Resilience Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/configure-csdm-modules.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -43,7 +44,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     **Note:** You must have the itil user role to create a service. If you do not have the itil user role, the **New** button for creating a service is not displayed.
 
-    For a description of the field values on the Service form, see [Create New Service form](../../grc-operational-res-ws/reference/service-form-lists-ws-reference.md).
+    For a description of the field values on the Service form, see [Create Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/service-form-lists-ws-reference.md).
 
     The Create New Service form is displayed.
 
@@ -51,11 +52,11 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     A sample **Details** tab is shown in the following example.
 
-    ![Details tab in the Create New Service form.](../../grc-operational-res-ws/image/create-new-service-form-ws.png "Details tab in the Create New Service form")
+    \[Omitted image "create-new-service-form-ws.png"\] Alt text: Details tab in the Create New Service form.
 
 4.  To save details of the service, select **Save**.
 
-    ![Sample form for a service.](../../grc-operational-res-ws/image/saved-service-form.png "Details of a service")
+    \[Omitted image "saved-service-form.png"\] Alt text: Sample form for a service.
 
     In releases prior to 20.x.x, a single level of hierarchy was supported, such as from a parent service to the child service, from the child service to the process, and from the process to a dependency. This hierarchy is supported for services for existing customers and it is displayed in the Services form, as shown in the example.
 
@@ -69,7 +70,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
         The service is added to Operational Resilience reporting as shown in the following example.
 
-        ![Service added to Operational Resilience reporting.](../../grc-operational-res-ws/image/ser-added-to-opres-reporting.png "Service added to Operational Resilience reporting")
+        \[Omitted image "ser-added-to-opres-reporting.png"\] Alt text: Service added to Operational Resilience reporting.
 
         **Note:** After you’ve added the service to Operational Resilience reporting, the **Add to OpRes reporting** option isn’t displayed for the service anymore on the Service form.
 
@@ -83,7 +84,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
         You can add upstream or downstream entities to the entity record as shown in the example.
 
-        ![Upstream or downstream entities.](../image/hierachy-tab-add-ups-downs-ent.png)
+        \[Omitted image "hierachy-tab-add-ups-downs-ent.png"\] Alt text: Upstream or downstream entities.
 
     3.  To save the upstream or downstream relationships, select **Save**.
 
@@ -91,7 +92,7 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     The infrastructure relationship of a service with its parent services and child services is displayed as shown in the following example.
 
-    ![Sample dependency view.](../../grc-operational-res-ws/image/sample-dependency-view.png "Sample dependency view")
+    \[Omitted image "sample-dependency-view.png"\] Alt text: Sample dependency view.
 
     You can view the dependencies in the desired map view such as the vertical, horizontal, radial, force, group, or details view.
 
@@ -99,12 +100,12 @@ When the **Compute Operational Resilience Compliance** scheduled job runs in the
 
     The relationship of a service with its related entities, such as the dependencies and red flags in a 360-degree view, is displayed as shown in the following example.
 
-    ![Relationship of a service with its related entities in a 360°-degree view.](../../grc-operational-res-ws/image/360-degree-view.png "Relationship of a service with its related entities in a 360-degree view")
+    \[Omitted image "360-degree-view.png"\] Alt text: Relationship of a service with its related entities in a 360°-degree view.
 
 9.  To save the details on the form, select **Save**.
 
     The Service form is displayed as shown in the following example.
 
-    ![Service form with the related tabs.](../../grc-operational-res-ws/image/sample-service-form.png "Service form with the related tabs")
+    \[Omitted image "sample-service-form.png"\] Alt text: Service form with the related tabs.
 
 

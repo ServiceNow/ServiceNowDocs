@@ -2,6 +2,7 @@
 title: Dosage definition table
 description: The Dosage definition \[sn\_hcls\_dosage\_definition\] table models the Dosage specification \[sn\_hcls\_dosage\_specification\] table for use as a request definition parameter.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-dosage-defn-table.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -23,7 +24,7 @@ The Dosage definition \[sn\_hcls\_dosage\_definition\] table models the Dosage s
 
 Role required to configure the table: sn\_hcls.admin.
 
-For more information, see [Healthcare and Life Sciences data model](../concept/hcls-serv-mgmt-core-1.md).
+For more information, see [Healthcare and Life Sciences data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 <table id="table_jfm_xnv_gtb"><thead><tr><th>
 
@@ -160,5 +161,5 @@ Reference
 Highly specialized medical care recommended for the patient by the practitioner.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](hcls-healthcare-data-tables.md)
+</table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)
 

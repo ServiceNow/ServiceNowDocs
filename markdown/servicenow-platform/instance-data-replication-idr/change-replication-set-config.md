@@ -2,6 +2,7 @@
 title: Reconfigure a replication set in Instance Data Replication
 description: If you must change or update your original replication set, reconfigure Instance Data Replication \(IDR\) replication sets on the producer instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/change-replication-set-config.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -41,7 +42,7 @@ Note the following important information:
         -   To remove the table from the replication set, on the **Replication Entries** tab, click a replication set and click **Delete**.
         -   To change the shared encryption key, click **Generate New Shared Key**.
 
-            Only generate new shared keys when you discover that they are compromised or if you want to stop sending data to a consumer. After changing the encryption key on the producer instance, consumers that have the Consumer Approved Status of Denied must reapply for access to the producer replication set. For more information, see [Grant access to replication data](approve-consumer.md).
+            Only generate new shared keys when you discover that they are compromised or if you want to stop sending data to a consumer. After changing the encryption key on the producer instance, consumers that have the Consumer Approved Status of Denied must reapply for access to the producer replication set. For more information, see [Grant access to replication data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/approve-consumer.md).
 
         These changes stop replication and produce this status message on the consumer instance: `Producer Replication Set configuration has been modified`.
 
@@ -51,7 +52,7 @@ Note the following important information:
 
     |Status Message|Action|
     |--------------|------|
-    |**Approval was denied by producer instance.**|The producer changed the shared key and that revokes this consumer's access to the replication data. Replication stops. Click the **Request shared key** related link. The producer must approve your request. For more information, see [Grant access to replication data](approve-consumer.md). If the consumer's access is not revoked, replication continues. Do nothing on the consumer instance.|
+    |**Approval was denied by producer instance.**|The producer changed the shared key and that revokes this consumer's access to the replication data. Replication stops. Click the **Request shared key** related link. The producer must approve your request. For more information, see [Grant access to replication data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/approve-consumer.md). If the consumer's access is not revoked, replication continues. Do nothing on the consumer instance.|
     |**Producer Replication Set configuration has been modified.**|The producer added or subtracted tables or table columns in the producer replication set. Replication stops. Click **Synchronize Replication Entries** and then click **Activate**. The system keeps the tables on the consumer instance that the producer is no longer replicating.|
 
 3.  Discard the entire IDR configuration and start over, delete the replication set on the producer and the consumer.
@@ -59,5 +60,5 @@ Note the following important information:
     -   To delete a producer replication set from the producer instance, navigate to **Instance Data Replication** &gt; **Producer Replication Sets**. Click the producer replication set that you want to delete, and click **Delete**.
     -   To delete a consumer replication set on a consumer instance, navigate to **Instance Data Replication** &gt; **Consumer Replication Sets**. Click the consumer replication set that you want to delete, and click **Delete**.
 
-**Parent Topic:**[Replicating data with Instance Data Replication](../concept/replicating-data.md)
+**Parent Topic:**[Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/replicating-data.md)
 

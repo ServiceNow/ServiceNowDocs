@@ -2,6 +2,7 @@
 title: Viewing user analytics
 description: The Users page within the Data Foundation module enables views of individual user journeys through your applications, from their first session to the most recent within the defined date range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/usage-insights/viewing-user-data.html
 release: australia
 product: Usage Insights
 classification: usage-insights
@@ -17,7 +18,7 @@ The Users page within the Data Foundation module enables views of individual use
 
 View user analytics and behavior, including taps and swipes, and other timeline actions. Select the users that you want to see, set filters, and drill down into individual user sessions for closer insights.
 
-![Users analysis screen](../../../use/par-for-workspace/image/uxa-user-analytics.png)
+\[Omitted image "uxa-user-analytics.png"\] Alt text: Users analysis screen
 
 <table><thead><tr><th>
 
@@ -96,7 +97,7 @@ The number of locations the user has accessed the application from.
 
 ## Active users breakdown analysis
 
-You can now view a breakdown analysis of active users by grouping them according to Country, State, Device type, Hourly usage, and the like.
+You can view a breakdown analysis of active users by grouping them according to country, state, device type, hourly usage, and so on. The Geographic Analytics visualization, which was available until the Xanadu release, has been replaced by this analysis Breakdown.
 
 ## Filter options
 
@@ -104,5 +105,5 @@ You can filter the Users list by date range, User type, and Country by default. 
 
 **Note:** The Add filter options use a logical AND operator. Meaning that the results must meet both the criteria in the default filters AND the criteria in the additional filters to be included in the visualizations.
 
-**Parent Topic:**[Using Usage Insights](../content-framework/concept/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/usage-insights/using-uxa.md)
 

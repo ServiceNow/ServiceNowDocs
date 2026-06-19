@@ -2,6 +2,7 @@
 title: Critical Event Management dashboard
 description: The dashboard for Critical Event Management \(CEM\) in the Health and Safety Workspace gives a comprehensive view of all active, ongoing, and resolved critical events, enabling agents to monitor and manage incidents effectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/critical-event-management/cem-dashboard.html
 release: australia
 product: Critical Event Management
 classification: critical-event-management
@@ -15,7 +16,7 @@ breadcrumb: [Exploring, Critical Event Management, Health and Safety, Employee S
 
 The dashboard for Critical Event Management \(CEM\) in the Health and Safety Workspace gives a comprehensive view of all active, ongoing, and resolved critical events, enabling agents to monitor and manage incidents effectively.
 
-![Critical Event Management dashboard](../images/cem-dashboard.png "Critical Event Management dashboard")
+\[Omitted image "cem-dashboard.png"\] Alt text: Critical Event Management dashboard
 
 The Critical Event Management dashboard provides a high-level summary of active and ongoing events, including quick-access metrics and links to Critical Event Management tools. The dashboard empowers agents to stay organized, prioritize effectively, and respond to incidents in a timely manner.
 

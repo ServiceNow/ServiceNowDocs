@@ -2,6 +2,7 @@
 title: Install Now Assist for Privacy Management
 description: Install Now Assist for Privacy Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/privacy-workspace/privacy-install-now-assist.html
 release: australia
 product: Privacy Workspace
 classification: privacy-workspace
@@ -29,6 +30,6 @@ Role required: Privacy admin
 
     The Now Assist for Privacy Manager is installed in your instance.
 
-    **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+    **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 

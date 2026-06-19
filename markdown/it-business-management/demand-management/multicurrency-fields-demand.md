@@ -2,6 +2,7 @@
 title: Multicurrency fields in demand-related forms
 description: When you enable the Demand Currency view in a Demand, Cost Plan, and Cost Plan Breakdown forms, you can observe the multicurrency fields in the Financials section of the forms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/demand-management/multicurrency-fields-demand.html
 release: australia
 product: Demand Management
 classification: demand-management
@@ -33,7 +34,7 @@ Demand currency
 
 Currency in which you want to manage and track the demand.**Note:**
 
-The ability to select a demand currency depends on the currency option you selected in **Preferences-Project** under **Project Administration**. For more information, see [Select demand currency preference](../task/select-demand-currency.md).
+The ability to select a demand currency depends on the currency option you selected in **Preferences-Project** under **Project Administration**. For more information, see [Select demand currency preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/select-demand-currency.md).
 
 The **Demand currency** field of a demand becomes read only once you create a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown.
 
@@ -154,7 +155,7 @@ Total cost incurred while working on a demand tasks in the selected demand curre
 |Demand currency|Currency that you specified in the **Demand currency** field of the Demand form.|
 |Cost in demand currency|Value that is rolled up from the **Entered cost** field of all cost plan breakdowns.|
 
-**Note:** Any change that you make to the unit cost, quantity, or fiscal period of a cost plan has the amounts recalculated in demand currency. See [Cost plan updates and cost recalculation in demand currency](../concept/cost-recalculation-demand-multicurrency.md).
+**Note:** Any change that you make to the unit cost, quantity, or fiscal period of a cost plan has the amounts recalculated in demand currency. See [Cost plan updates and cost recalculation in demand currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/cost-recalculation-demand-multicurrency.md).
 
 ## Multicurrency fields in the Cost Plan Breakdown form
 
@@ -197,5 +198,5 @@ Total cost incurred while working on a demand tasks in the selected demand curre
 |Opex budget in Demand Currency|Operating expense amount in the selected currency in the selected currency.|
 |Total Budget in Demand Currency|Sum of Capex and Opex amounts in the selected currency.|
 
-**Parent Topic:**[Enable demand currency view](../task/enable-multicurrency-demand.md)
+**Parent Topic:**[Enable demand currency view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/demand-management/enable-multicurrency-demand.md)
 

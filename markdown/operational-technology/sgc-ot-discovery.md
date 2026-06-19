@@ -1,44 +1,47 @@
 ---
-title: Service Graph Connector for ServiceNow Operational Technology Discovery
-description: The Service Graph Connector for ServiceNow Operational Technology Discovery imports data from a connected Operational Technology \(OT\) Discovery environment and leverages the Integration Hub ETL framework.
+title: Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery
+description: TheService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\) imports data from a connected Operational Technology \(OT\) Discovery environment and leverages the Integration Hub ETL framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/sgc-ot-discovery.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Service Graph Connector for ServiceNow Operational Technology Discovery
+# Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery
 
-The Service Graph Connector for ServiceNow Operational Technology Discovery imports data from a connected Operational Technology \(OT\) Discovery environment and leverages the Integration Hub ETL framework.
+TheService Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\) imports data from a connected Operational Technology \(OT\) Discovery environment and leverages the Integration Hub ETL framework.
 
-## Service Graph Connector \(SGC\) for OT
+## Getting Started with the SGC
 
-**Note:** You must install the Service Graph Connector for ServiceNow OT Discovery before accessing and installing the Discovery for OT component packages.
+**Note:** You must install the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery before accessing and installing theDiscovery Console for OT component packages.
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)
+Explore\[Omitted image "BUS\_64px\_Explore\_YG.png"\] Alt text:
 
- [Explore the Service Graph Connector](explore-service-graph-connector.md)
+ [Explore the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/explore-service-graph-connector.md)
 
 </td><td>
 
-Install![](../../../reuse/icons/brand-icons/bus-sdlc.svg)
+Install\[Omitted image "BUS\_64px\_SDLC\_YG.png"\] Alt text:
 
- [Install the Service Graph Connector for ServiceNow Operational Technology Discovery](../../sgc-ot-discovery/task/install-sgc-ot-discovery.md)
+ [Install the Service Graph Connector for ServiceNow Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/install-sgc-ot-discovery.md)
 
 </td></tr><tr><td colspan="2">
 
-Setup![](../images/BUS_64px_Actionable-Analytics_YG.png)
+Setup\[Omitted image "BUS\_64px\_Actionable-Analytics\_YG.png"\] Alt text:
 
- [Service Graph Connector for OT Discovery guided setup](../task/sgc-ot-discovery-guided-setup.md)
+ [Service Graph Connector for ServiceNow OT Discovery Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-ot-discovery-guided-setup.md)
 
 </td></tr></tbody>
 </table>## Troubleshooting
 
-For more information, see [Support and troubleshooting](troubleshooting-ot-discovery.md).
+For more information, see [Support and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/troubleshooting-ot-discovery.md).
 
 If you have any errors or difficulties while using the Service Graph Connector, [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
 

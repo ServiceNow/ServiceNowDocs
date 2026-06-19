@@ -2,6 +2,7 @@
 title: Add a tag to the EAP dashboard
 description: Add the EAP dashboards tag to identify your dashboard. The dashboards with tag appear in the reference qualified definition list, which helps you to add the dashboard to your configuration detail.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/add-tag-to-the-eap-dashboard.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -17,7 +18,7 @@ Add the EAP dashboards tag to identify your dashboard. The dashboards with tag a
 
 ## Before you begin
 
-[Create a dashboard in EAP](create-a-dashboard-in-eap.md).
+[Create a dashboard in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-a-dashboard-in-eap.md).
 
 Role required: sn\_apw\_advanced.eap\_admin
 
@@ -31,10 +32,10 @@ Role required: sn\_apw\_advanced.eap\_admin
 
     The tag is added to the dashboard.
 
-    ![Add tag to the dashboard.](../images/eap-add-tag-dshbd.png)
+    \[Omitted image "eap-add-tag-dshbd.png"\] Alt text: Add tag to the dashboard.
 
 
 ## What to do next
 
-[Associate the EAP read-only role to the dashboard](add-the-eap-read-only-role-to-the-dashboard.md).
+[Associate the EAP read-only role to the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/add-the-eap-read-only-role-to-the-dashboard.md).
 

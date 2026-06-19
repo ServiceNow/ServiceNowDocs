@@ -2,6 +2,7 @@
 title: Define search experience settings in search profiles
 description: Search profiles define search sources and settings for linguistic search query features. Each search profile represents an individual search experience that you want to offer users in a supported ServiceNow AI Platform application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/explore-search-profiles-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -22,7 +23,7 @@ Each search profile can include the following settings:
 -   Genius Result configurations applied to searches using the profile.
 -   Result improvement rules applied to searches using the profile.
 
-Search administrators create search profiles, link search sources to them, configure their settings, and publish them. For information on creating, configuring, and publishing search profiles, see [Search profiles in AI Search](defining-search-profiles-ais.md).
+Search administrators create search profiles, link search sources to them, configure their settings, and publish them. For information on creating, configuring, and publishing search profiles, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/defining-search-profiles-ais.md).
 
-**Parent Topic:**[Exploring AI Search](explore-ais.md)
+**Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/explore-ais.md)
 

@@ -2,6 +2,7 @@
 title: Retire a knowledge block in Agent Workspace
 description: Retire a published knowledge block if you no longer want it to be available for users to view or search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/retire-block-agent.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management

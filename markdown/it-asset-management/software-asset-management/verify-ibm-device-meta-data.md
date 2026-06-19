@@ -2,6 +2,7 @@
 title: Verify the meta data for your IBM hosts
 description: To improve the accuracy of your IBM license calculations, verify the meta data for the physical hosts that your IBM software is installed on. Update any meta data that is incorrect or out of date.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/verify-ibm-device-meta-data.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -36,17 +37,17 @@ Role required: sam\_admin or sam\_user
     -   IBM PVUs per core
     -   Region
 
-        **Note:** If the Region meta data is empty for any of your physical hosts, the **Default Region for IBM Devices** \(**sn\_samp\_ibm\_lic.default\_region**\) Software Asset Management property automatically associates those hosts with a default region. By default, this system property is set to **North America and South America**. However, you can also set this system property to **Europe and Africa** or **Asia and Australia**. License usage can be calculated only for physical hosts that are associated with a region. See [Software Asset Management properties](../reference/sam-properties.md) for more information on this property.
+        **Note:** If the Region meta data is empty for any of your physical hosts, the **Default Region for IBM Devices** \(**sn\_samp\_ibm\_lic.default\_region**\) Software Asset Management property automatically associates those hosts with a default region. By default, this system property is set to **North America and South America**. However, you can also set this system property to **Europe and Africa** or **Asia and Australia**. License usage can be calculated only for physical hosts that are associated with a region. See [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/sam-properties.md) for more information on this property.
 
     -   Usage type
     **Note:** You cannot update the Device, PVU Comment, and IBM PVU mapping meta data.
 
     1.  Double-click the value in the incorrect meta data field.
 
-    2.  When prompted, enter or select the correct value and then select the Save icon ![](../image/save-icon.png).
+    2.  When prompted, enter or select the correct value and then select the Save icon \[Omitted image "save-icon.png"\].
 
         The meta data field updates with the correct value.
 
 
-**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](../concept/ibm-asp-integration.md)
+**Parent Topic:**[Authorized SAM Provider \(ASP\) integrations for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-asp-integration.md)
 

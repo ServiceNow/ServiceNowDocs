@@ -2,9 +2,12 @@
 title: Supending sold products
 description: Suspend sold products to create a suspend order or quote on the CSM Configurable Workspace.Create an order to suspend a sold product and its hierarchy on the CSM Configurable Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.Create an order to suspend multiple sold product and their hierarchy on the CSM Configurable Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/supending\_sold\_products.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -17,8 +20,8 @@ Supend single or multiple root sold products and create combined orders for susp
 
 |Task|Description|
 |----|-----------|
-|Suspend a single sold product|[Suspend a single sold product](supending_sold_products.md#)|
-|Suspend multiple sold products|[Suspend multiple sold products](supending_sold_products.md#)|
+|Suspend a single sold product|[Suspend a single sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supending_sold_products.md)|
+|Suspend multiple sold products|[Suspend multiple sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/supending_sold_products.md)|
 
 ## Suspend a single sold product
 

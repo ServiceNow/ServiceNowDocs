@@ -2,6 +2,7 @@
 title: Create a Guided Setup
 description: Create a Guided Setup to assist users with planning the roll-out of a product and performing the basic configurations to go live.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/create-guided-setup.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -61,7 +62,7 @@ The Guided Setup builder is supported by the Process Automation Designer.
         -   External links - Shows a list of external links such as docs and videos in the playbook UI.
         -   Iframe - Embed any page inside an iframe using a page url.
         -   Plugin Install - Installs a list of plugins from the provided plugin query.
-        ![Add activity pop up.](../image/guided-setup-add-activity-1.png)
+        \[Omitted image "guided-setup-add-activity-1.png"\] Alt text: Add activity pop up.
 
     6.  Fill in the form.
 
@@ -111,13 +112,13 @@ The Guided Setup builder is supported by the Process Automation Designer.
         -   Company logo
 8.  To delete a stage or activity, do the following:
 
-    1.  To delete a stage, select the more actions menu ![More actions icon](../image/guided-setup-more-actions.png) on your stage.
+    1.  To delete a stage, select the more actions menu \[Omitted image "guided-setup-more-actions.png"\] Alt text: More actions icon on your stage.
 
         -   Configure stage
         -   Add stage before
         -   Add stage after
         -   Delete stage
-    2.  To delete an activity, select the more actions menu ![More actions icon](../image/guided-setup-more-actions.png) on an activity.
+    2.  To delete an activity, select the more actions menu \[Omitted image "guided-setup-more-actions.png"\] Alt text: More actions icon on an activity.
 
         -   Configure activity
         -   Configure subflow in Flow Designer

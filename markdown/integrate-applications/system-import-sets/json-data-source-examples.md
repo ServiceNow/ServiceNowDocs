@@ -2,6 +2,7 @@
 title: JSON file import examples
 description: These examples demonstrate how to import various types of JSON data and the necessary path for each row. JSON files that you import should follow these guidelines.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/json-data-source-examples.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -15,7 +16,7 @@ breadcrumb: [File type data sources, Data sources, Import sets, Imports, Workflo
 
 These examples demonstrate how to import various types of JSON data and the necessary path for each row. JSON files that you import should follow these guidelines.
 
-For step-by-step instructions on creating a File type data source see, [Create a File type data source](../task/create-file-type-data-source.md).
+For step-by-step instructions on creating a File type data source see, [Create a File type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/create-file-type-data-source.md).
 
 -   For JSON arrays, the path for each row must specify the array root element twice, such as `/incidents/incidents`.
 -   JSON files should follow [RFC-4627](https://www.ietf.org/rfc/rfc4627.txt). For example, a single comma should separate a value from the following name. Names within an object should be unique.

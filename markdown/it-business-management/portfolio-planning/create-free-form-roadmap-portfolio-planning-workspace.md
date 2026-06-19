@@ -2,6 +2,7 @@
 title: Create a free-form roadmap
 description: Create a standalone visual roadmap to start high-level planning of work from different units of the company.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -22,7 +23,7 @@ Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Create a standalone roadmap to plan work across multiple units of your organization, such as projects of all departments. To learn more about free-form roadmaps, see [Roadmaps in Portfolio Planning](../concept/roadmaps-in-portfolio-planning.md).
+Create a standalone roadmap to plan work across multiple units of your organization, such as projects of all departments. To learn more about free-form roadmaps, see [Roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/roadmaps-in-portfolio-planning.md).
 
 Select a source table as a starting point to base your roadmap on. Select one of project or demand for a simple roadmap or Planning Item table for a hybrid roadmap.
 
@@ -59,14 +60,14 @@ Select a source table as a starting point to base your roadmap on. Select one of
 -   Update, personalize, and collaborate with your roadmap.
 -   Add milestones or create dependencies for the items planned on your roadmap.
 
--   **[Update details of free-form roadmap](update-details-of-free-form-roadmap.md)**  
+-   **[Update details of free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/update-details-of-free-form-roadmap.md)**  
 Update the details of a free-form roadmap to reflect the changes in priorities or the timeline of the roadmap.
--   **[Share a free-form roadmap with stakeholders](share-free-form-roadmap-stakeholders-portfolio-planning.md)**  
+-   **[Share a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/share-free-form-roadmap-stakeholders-portfolio-planning.md)**  
 Add people from your organization who are the stakeholders for the work involved in your roadmap plan so that they have visibility into the roadmap's progress.
--   **[Collaborate on a free-form roadmap with stakeholders](collaborate-free-form-roadmap-portfolio-planning.md)**  
+-   **[Collaborate on a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/collaborate-free-form-roadmap-portfolio-planning.md)**  
 Add comments and attachments to a free-form roadmap for other users of your organization can review and share their feedback. Collaborate and ensure that your roadmap aligns with your company's priorities.
--   **[Managing free-form roadmap views](../concept/managing-free-form-roadmap-views-ppw.md)**  
+-   **[Managing free-form roadmap views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.md)**  
 Portfolio managers can create customized views for their free-form roadmap by applying personalization settings such as grouping, milestones selection, dependencies selection, and tracking mode. Portfolio owners or editors can share these personalized views with stakeholders to enable easier collaboration on the free-form roadmaps.
 
-**Parent Topic:**[Planning roadmaps in Portfolio Planning](../concept/planning-roadmaps-in-portfolio-planning.md)
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)
 

@@ -2,6 +2,7 @@
 title: Configuring lens in Portfolio Planning
 description: Learn about lens structure and pre-defined lenses in Portfolio Planning so that you can configure a lens that represents your company's planning process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/configuring-lens-in-portfolio-planning.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -20,7 +21,7 @@ Learn about lens structure and pre-defined lenses in Portfolio Planning so that 
 
 Each lens in Portfolio Planning consists of a structure that is made up of lens entities. These entities represent different levels of planning. Planning managers can build portfolio plans at one of these levels, and create plans for the type of work items that are associated to this lens.
 
-![Lens structure](../images/lens-structure-pp.png "Sample lens structure")
+\[Omitted image "lens-structure-pp.png"\] Alt text: Lens structure
 
 ## Pre-defined lenses in Portfolio Planning
 
@@ -28,7 +29,7 @@ Two pre-defined lenses, Organization and Project Portfolio are available.
 
 For example, the Organization lens has Company, Business Unit, and Department as its entities. A department head can create a portfolio plan at the department level, and start to prioritize and roadmap the department's work. This work can be in the form of projects, demands, or any other custom type that is configured.
 
-![Lens structure of the pre-defined Organization, Project Portfolio lenses](../images/lens-structure-predefined-custom-pp.png "Lens structure of pre-defined lens")
+\[Omitted image "lens-structure-predefined-custom-pp.png"\] Alt text: Lens structure of the pre-defined Organization, Project Portfolio lenses
 
 In the Portfolio Planning Workspace, planning managers can get started with creating portfolio plans with one of the pre-defined lenses.
 
@@ -42,9 +43,9 @@ You can either use a pre-defined lens as it is or update its existing configurat
 
 -   To use the lens as it is, complete your lens setup by configuring integration with a ServiceNow Project Portfolio Management.
 
-    See [Configuring Portfolio Planning with PPM](configuring-portfolio-planning-with-ppm.md).
+    See [Configuring Portfolio Planning with PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/configuring-portfolio-planning-with-ppm.md).
 
 -   To update the lens configuration:
-    -   Change the planning items included within the lens. See [Lens Form](../reference/lens-form-portfolio-planning.md).
-    -   Add more entities to the lens structure. See [Modify lens structure in Portfolio Planning](../task/modify-lens-portfolio-planning.md).
+    -   Change the planning items included within the lens. See [Lens Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/lens-form-portfolio-planning.md).
+    -   Add more entities to the lens structure. See [Modify lens structure in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/modify-lens-portfolio-planning.md).
 

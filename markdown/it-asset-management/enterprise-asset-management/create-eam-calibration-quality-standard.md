@@ -2,13 +2,14 @@
 title: Create a quality standard for your enterprise asset calibrations
 description: Create a quality standard to indicate the requirements and guidelines that you must follow while performing your enterprise asset calibrations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-calibration-quality-standard.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a quality standard for your enterprise asset calibrations
@@ -23,7 +24,7 @@ Role required: sn\_eam.enterprise\_admin
 
 You can specify the calibrations that are required for your enterprise assets by using calibration attributes. When you create a calibration attribute, you can apply a quality standard to indicate the set of requirements and guidelines that you must follow during the associated calibrations. By following a quality standard, you can achieve consistent, reliable, and accurate calibrations across your deployment.
 
-For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](add-calibration-attributes-enterprise-model.md).
+For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
 
 ## Procedure
 
@@ -49,6 +50,4 @@ For more details on calibration attributes, see [Add calibration attributes to a
 ## Result
 
 The quality standard is available to apply to your calibration attributes.
-
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
 

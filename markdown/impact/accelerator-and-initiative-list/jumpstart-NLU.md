@@ -2,6 +2,7 @@
 title: Jumpstart Your Natural Language Understanding
 description: The Jumpstart Your Natural Language Understanding \(NLU\) Accelerator provides a demonstration of the possibilities and capabilities of Natural Language Understanding.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-NLU.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -19,9 +20,11 @@ The Jumpstart Your Natural Language Understanding \(NLU\) Accelerator provides a
 
 Jumpstart Your Natural Language Understanding provides Impact customers with a comprehensive overview of Natural Language Understanding, including many of the underlying features, such as, Planning, Building, Sizing, Training, Vocabulary, Testing, Entity, Deployment, and Monitoring. This offering aims to educate and help you increase your Virtual Agent adoption by laying the groundwork for a healthy foundation.
 
-For related information, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-landing-page.md) or [Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-landing.md).
+For related information, see  or .
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
@@ -30,7 +33,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 -   **Session Preparation**
 
     -   Provision a temporary instance 
-    -   Activate and run [Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/intent-discovery.md)
+    -   Activate and run 
     -   Assess current NLU models, if applicable
     ​
 

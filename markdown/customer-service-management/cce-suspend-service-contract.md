@@ -2,7 +2,10 @@
 title: Suspend a customer contract
 description: Suspend a customer contract and its child customer contract lines by creating an order on the CSM Configurable Workspace. Suspending a customer contract suspends or disables the services specified in that customer contract.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-suspend-service-contract.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -33,7 +36,7 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 5.  In the Suspend customer contract window, enter the period of suspension for the customer contract in the **Start date and time** and **End date and time** fields.
 
-    **Note:** If you do not enter a value in the **End date and time** field, the customer contract is suspended indefinitely. You can resume the customer contract manually. For more info, see [Resume a customer contract](cce-resume-service-contract.md).
+    **Note:** If you do not enter a value in the **End date and time** field, the customer contract is suspended indefinitely. You can resume the customer contract manually. For more info, see [Resume a customer contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/cce-resume-service-contract.md).
 
 6.  Add a reason for a suspension in the **Reason for suspension** field.
 

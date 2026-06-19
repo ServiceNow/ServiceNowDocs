@@ -2,6 +2,7 @@
 title: Download and install the Mobile SDK libraries
 description: Before you are able to create mobile applications that interact with your ServiceNow instance, you must first download and install the ServiceNow Mobile SDK libraries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-down-install-sdk-libs.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -36,7 +37,7 @@ Before you start the download and installation process, ensure that your develop
 
     -   Mobile SDK: [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/52821846803120101040fe43e5b9ee8c](https://store.servicenow.com/sn_appstore_store.do#!/store/application/52821846803120101040fe43e5b9ee8c)
     -   iOS library: [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/1539a1f087ea3014970e2178cebb3564](https://store.servicenow.com/sn_appstore_store.do#!/store/application/1539a1f087ea3014970e2178cebb3564)
-    For details on installing applications on your instance, see [Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/administering-applications.md).
+    For details on installing applications on your instance, see .
 
 3.  Navigate to the packaged\_sdk folder and unzip the `NowKit.zip` file which contains the NowSDK libraries.
 

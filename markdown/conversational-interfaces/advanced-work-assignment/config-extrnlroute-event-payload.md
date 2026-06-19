@@ -2,11 +2,12 @@
 title: Configure External Routing events and payload
 description: Configure Advanced Work Assignment with external routing using AWA External Service API for CCaaS and third-party providers to enable them to submit events.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/config-extrnlroute-event-payload.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -51,13 +52,13 @@ Configuring AWA with external routing enables you to consolidate the routing of 
 
     **Note:** If you selected an existing AQA Queue item, verify that external routing is enabled with the **External** field checked.
 
-4.  In the External third-party routing section of the queue form, select the Preview this record icon ![Preview this record icon.](../image/preview-record-icon.png) and select **Open record**.
+4.  In the External third-party routing section of the queue form, select the Preview this record icon \[Omitted image "preview-record-icon.png"\] Alt text: Preview this record icon. and select **Open record**.
 
     **Note:** You are notified to save the Queue record for any changes you made upon navigating. Select **Update** for an existing queue or select **Submit** for a new queue.
 
 5.  Select the **Subflow** from the list of flows available to send events to the selected provider.
 
-    ![Select subflow to send events to the provider.](../image/select-awa-exrnl-subflow.png)
+    \[Omitted image "select-awa-exrnl-subflow.png"\] Alt text: Select subflow to send events to the provider.
 
 6.  Select the required External Event Definitions for the provider.
 
@@ -65,7 +66,7 @@ Configuring AWA with external routing enables you to consolidate the routing of 
 
 7.  Select an external event definition to see the **Event type** and **Payload** that it contains.
 
-    ![Event type and payload of the subflow associated with the provider.](../image/awa-extrnl-event-defntn.png)
+    \[Omitted image "awa-extrnl-event-defntn.png"\] Alt text: Event type and payload of the subflow associated with the provider.
 
     **Note:** Ensure that you do not add any info message or error message after answer block. Answer should be always return string, if answer is in try block, you can add info/error messages in catch block.
 
@@ -86,5 +87,5 @@ After the configuration, all the incoming chats are routed to the external queue
 
 To view the execution details of the event payload, open an event record from the Flow engine contexts \[sys\_flow\_context\] table and select **Open in Operations View**. You will see the AWA Post External Routing Events flow with the payload.
 
-![Executed external event payload.](../image/executed-external-routing.png "AWA Post External Routing Events")
+\[Omitted image "executed-external-routing.png"\] Alt text: Executed external event payload.
 

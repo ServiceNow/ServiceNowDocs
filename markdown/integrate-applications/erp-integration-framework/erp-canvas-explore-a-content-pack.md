@@ -1,7 +1,8 @@
 ---
 title: Explore a Zero Copy Connector for ERP content pack
-description: Explore a Zero Copy Connector for ERP \(Enterprise Resource Planning\) content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
+description: Explore an Zero Copy Connector for ERP content pack to review its models and process extensions, which are read-only examples you can copy and customize.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-explore-a-content-pack.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -14,7 +15,7 @@ breadcrumb: [Content packs, Building models, Use, Zero Copy Connector for ERP, W
 
 # Explore a Zero Copy Connector for ERP content pack
 
-Explore a Zero Copy Connector for ERP \(Enterprise Resource Planning\) content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
+Explore an Zero Copy Connector for ERP content pack to review its models and process extensions, which are read-only examples you can copy and customize.
 
 ## Before you begin
 
@@ -24,7 +25,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP models page by selecting the models icon ![](../image/erpc-data-model-icon.png) in the side panel.
+2.  Open the ERP models page by selecting the models icon \[Omitted image "erpc-data-model-icon.png"\]in the side panel.
 
 3.  Review the list of ERP models.
 
@@ -36,11 +37,11 @@ Role required: sn\_erp\_integration.erp\_admin
 
 5.  Review the model record for details including the short description, long text, and ERP module.
 
-    ![Content pack model record page.](../image/erpc-explore-descriptions.png)
+    \[Omitted image "erpc-explore-descriptions.png"\] Alt text: Content pack model record page.
 
 6.  Select the **Model entities** and **Entity fields** tabs to review the information.
 
-7.  If you plan to use the content pack model, you will need to clone the model; select **Clone** now.
+7.  To use the content pack model, select **Clone**.
 
     1.  Enter a label.
 
@@ -48,13 +49,13 @@ Role required: sn\_erp\_integration.erp\_admin
 
     3.  Select **Clone this model**.
 
-        ![Clone this model modal with new name added.](../image/erpc-cloned-content-pack-model.png)
+        \[Omitted image "erpc-cloned-content-pack-model.png"\] Alt text: Clone this model modal with new name added.
 
         Depending on the size of the model, the cloning process may take a few minutes. When the clone is complete, a success message in green is displayed.
 
     4.  Select the **Models** tab.
 
-    5.  Select the refresh list model icon ![](../../../reuse/icons/product-icons/sync-fill-24.svg).
+    5.  Select the refresh list model icon \[Omitted image "sync-fill-24.svg"\].
 
     6.  Confirm that the new cloned model is listed.
 
@@ -64,37 +65,37 @@ Role required: sn\_erp\_integration.erp\_admin
 
 9.  Select **Manage model**.
 
-10. Note that three operations have been added as part of the content pack: **Read**, **Update**, and **Create**.
+10. Verify that three operations are included in the content pack: **Read**, **Update**, and **Create**.
 
 11. Select the **Read** tile to see that an appropriate entity has been added.
 
-    ![Manage model tab with manage entities page displayed.](../image/erpc-explore-read-tile.png)
+    \[Omitted image "erpc-explore-read-tile.png"\] Alt text: Manage model tab with manage entities page displayed.
 
 12. Select **Specify inputs** to see that a mapping has been done with typical input parameters.
 
-    ![Manage model tab with specify inputs page displayed.](../image/erpc-explore-read-input.png)
+    \[Omitted image "erpc-explore-read-input.png"\] Alt text: Manage model tab with specify inputs page displayed.
 
 13. Select **Choose output** to see that a mapping has been done for the field or general information to send back when calling the model.
 
-    ![Manage model tab with choose outputs page displayed.](../image/erpc-explore-read-output.png)
+    \[Omitted image "erpc-explore-read-output.png"\] Alt text: Manage model tab with choose outputs page displayed.
 
 14. Select the back button on your browser three times to return to the model manager page.
 
 15. Select the **Update** and **Create** tiles and repeat steps 12 through 14 for each tile to explore the predefined inputs and outputs.
 
-    ![Manage model tab with create and update operation tiles highlighted.](../image/erpc-explore-update-create-tiles.png)
+    \[Omitted image "erpc-explore-update-create-tiles.png"\] Alt text: Manage model tab with create and update operation tiles highlighted.
 
 16. To see the process extensions in a content pack, navigate to **All** &gt; **Workflow Studio** and select **Subflows**.
 
-    ![Workflow Studio landing page with subflows option highlighted.](../image/erpc-process-extensions-explore1.png)
+    \[Omitted image "erpc-process-extensions-explore1.png"\] Alt text: Workflow Studio landing page with subflows option highlighted.
 
 17. In the **Name** column, select the filter icon, set the filter to **starts with ERP DP**, and select **Apply**.
 
-    ![Filter expanded with conditions set to starts with ERP DP.](../image/erpc-process-extensions-explore2.png)
+    \[Omitted image "erpc-process-extensions-explore2.png"\] Alt text: Filter expanded with conditions set to starts with ERP DP.
 
 18. Select one of the material subflows, for example, **ERP DP: Material Update**.
 
-    ![List of subflows containing ERP DP in the name with ERP DP material update highlighted.](../image/erpc-process-extensions-explore3.png)
+    \[Omitted image "erpc-process-extensions-explore3.png"\] Alt text: List of subflows containing ERP DP in the name with ERP DP material update highlighted.
 
 19. View the subflow actions.
 
@@ -102,7 +103,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 21. View the inputs and outputs the subflow contains.
 
-    ![ERP DP material update subflow inputs and outputs displayed.](../image/erpc-process-extensions-explore4.png)
+    \[Omitted image "erpc-process-extensions-explore4.png"\] Alt text: ERP DP material update subflow inputs and outputs displayed.
 
 22. Select the back button on your browser to return to the list of subflows.
 
@@ -111,7 +112,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## What to do next
 
-When you're ready to create an application with a content pack, see [Using Zero Copy Connector for ERP content packs](erp-canvas-using-content-packs.md).
+When you're ready to create an application with a content pack, see [Using Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-content-packs.md).
 
-**Parent Topic:**[Zero Copy Connector for ERP content packs](../concept/erp-canvas-content-packs.md)
+**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

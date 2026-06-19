@@ -2,6 +2,7 @@
 title: Configure the conference bridge numbers to join calls via phone
 description: Configure the conference bridge number to allow the participants to collaborate to resolve the incidents via the conference bridge number.Reserve a conference bridge number to host the conference calls to work towards the resolution of incidents via conference bridge number.Configure the conference bridge number to be used for collaborating with the participants to resolve the major incidents.Make the conference bridge number available for the participants to join a conference call via the bridge number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/configure-conference-bridge-number.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,7 +18,7 @@ Configure the conference bridge number to allow the participants to collaborate 
 
 **Note:** These are additional configuration, which are optional and can be used as required.
 
-**Parent Topic:**[Configure Notify connector for Microsoft Teams](config-notify-ms-teams.md)
+**Parent Topic:**[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)
 
 ## Reserve a conference bridge number
 
@@ -33,7 +34,7 @@ Role required: Microsoft Teams admin
 
 2.  Navigate to **Voice** &gt; **Phone number**.
 
-    ![Path for phone numbers](../image/path-phone-numbers.png)
+    \[Omitted image "path-phone-numbers.png"\] Alt text: Path for phone numbers
 
 3.  Click **Add**.
 
@@ -45,13 +46,13 @@ Role required: Microsoft Teams admin
 
     3.  Number type: Option to select the number type.
 
-        ![Add the phne number screen](../image/add-phone-number-2.png)
+        \[Omitted image "add-phone-number-2.png"\] Alt text: Add the phne number screen
 
     4.  Quantity: Option to choose the number of the conference number.
 
     5.  Search for new numbers: Option to choose the conference numbers based on city name or by area code.
 
-        ![Options to fill the order form](../image/add-phone-number-3.png)
+        \[Omitted image "add-phone-number-3.png"\] Alt text: Options to fill the order form
 
     6.  Click **Next**.
 
@@ -63,11 +64,11 @@ Role required: Microsoft Teams admin
 
     8.  Click **Finish**.
 
-        ![Order for conference number placed successfully](../image/add-phone-number-4.png)
+        \[Omitted image "add-phone-number-4.png"\] Alt text: Order for conference number placed successfully
 
         The reserved numbers appear under Phone numbers section as depicted.
 
-        ![Reserved phone numbers](../image/reserved-phone-numbers.png)
+        \[Omitted image "reserved-phone-numbers.png"\] Alt text: Reserved phone numbers
 
 
 ## Configure conference bridge number for meetings
@@ -86,17 +87,17 @@ Role required: Microsoft Teams admin
 
 3.  Click **Add**, and then select the conference bridge type.
 
-    ![Add conference bridge type](../image/add-conference-bridge.png)
+    \[Omitted image "add-conference-bridge.png"\] Alt text: Add conference bridge type
 
 4.  Select the conference bridge type.
 
-    ![Conference bridge type](../image/conference-bridge-type.png)
+    \[Omitted image "conference-bridge-type.png"\] Alt text: Conference bridge type
 
 5.  Select the number from the drop-down option.
 
     This is the number that is reserved for your tenant for conference calls.
 
-    ![Add conference bridge number](../image/add-number.png)
+    \[Omitted image "add-number.png"\] Alt text: Add conference bridge number
 
 6.  Click **Apply**.
 
@@ -119,15 +120,15 @@ Role required: admin
 
 3.  Click **Service User**.
 
-    ![Manage users](../image/manage-users.png)
+    \[Omitted image "manage-users.png"\] Alt text: Manage users
 
 4.  Edit the Audio Conference details by clicking the **Edit** button.
 
-    ![Edit audio conference](../image/edit-audio-conference.png)
+    \[Omitted image "edit-audio-conference.png"\] Alt text: Edit audio conference
 
 5.  Select the toll number.
 
-    ![Audio conference settings](../image/audio-conference-settings.png)
+    \[Omitted image "audio-conference-settings.png"\] Alt text: Audio conference settings
 
 6.  Click **Apply**.
 

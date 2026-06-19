@@ -2,6 +2,7 @@
 title: Jumpstart Your CSDM: Foundation
 description: The Jumpstart Your Common Service Data Model \(CSDM\): Foundation Accelerator provides an overview and breakdown of the CSDM with a focus on Foundation data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-csdm.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -17,9 +18,11 @@ The Jumpstart Your Common Service Data Model \(CSDM\): Foundation Accelerator pr
 
 ## Accelerator Overview
 
-Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in  a comprehensible format. Through an applied demonstration, we illustrate how organizations can leverage this data framework to  configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. Additionally, this offering equips our  customers with essential ServiceNow resources and leading practice guides on how to get started using the CSDM.​ For more information on CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md).
+Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in  a comprehensible format. Through an applied demonstration, we illustrate how organizations can leverage this data framework to  configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. Additionally, this offering equips our  customers with essential ServiceNow resources and leading practice guides on how to get started using the CSDM.​ For more information on CSDM, see .
 
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

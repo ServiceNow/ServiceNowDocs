@@ -2,6 +2,7 @@
 title: Group similar issues under an existing parent issue
 description: When you are creating an issue, you have the option of grouping the issue with other similar issues as part of an existing parent issue group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/policy-and-compliance-management/group-similar-issues-existing-parent.html
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
@@ -32,13 +33,13 @@ Role required: \(per product\)
     -   **Audit** &gt; **Issues** &gt; **Create New**.
 2.  On the form, locate the **Parent** field.
 
-    ![Parent field](../image/parent.png)
+    \[Omitted image "parent.png"\] Alt text: Parent field
 
-3.  Click the bulb icon \(![bulb icon](../image/bulb.png)\) and select **Issues with existing parent** from the **Group with** drop-down list.
+3.  Click the bulb icon \(\[Omitted image "bulb.png"\] Alt text: bulb icon\) and select **Issues with existing parent** from the **Group with** drop-down list.
 
     You are shown a list of similar issues.
 
-    ![Similar issues with existing parent issues](../image/sim-issues-existing-parent.png)
+    \[Omitted image "sim-issues-existing-parent.png"\] Alt text: Similar issues with existing parent issues
 
 4.  Click the **Similar issue** you want to group with the current issue.
 
@@ -47,5 +48,5 @@ Role required: \(per product\)
 5.  You can view the issue in the group by clicking the **Issues** tab.
 
 
-**Parent Topic:**[Manually create GRC issues](../../grc-common/task/t_CreateAnIssue.md)
+**Parent Topic:**[Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/t_CreateAnIssue.md)
 

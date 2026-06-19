@@ -2,6 +2,7 @@
 title: Custom URL errors and fixes
 description: A list of common errors and associated fixes for a custom URL setup and configuration.Target Audience: ServiceNow Admin
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/custom-url-error-fix.html
 release: australia
 product: Authentication
 classification: authentication
@@ -31,7 +32,7 @@ Unable to create a Custom URL. Try again later.
 
 </td><td>
 
-There might be an issue outside of your control interfering with the custom URL creation. Run at a different time before contacting support. **Note:** It usually takes 30 minutes to create a custom URL. If it is taking longer, contact [https://support.servicenow.com/now?draw=case](https://support.servicenow.com/now?draw=case).
+There might be an issue outside of your control interfering with the custom URL creation. Run at a different time before contacting support. **Note:** It usually takes 30 minutes to create a custom URL. If it is taking longer, contact .
 
 </td></tr><tr><td>
 

@@ -1,19 +1,20 @@
 ---
 title: Reference for Generative AI Controller
-description: Reference topics provide information about Generative AI Controller flow actions, tables, and properties.
+description: Reference topics provide information about Generative AI Controller tables, and properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Generative AI Controller, Now Assist, Enable AI experiences]
 ---
 
 # Reference for Generative AI Controller
 
-Reference topics provide information about Generative AI Controller flow actions, tables, and properties.
+Reference topics provide information about Generative AI Controller tables, and properties.
 
 ## Tables installed
 
@@ -111,7 +112,7 @@ sys\_gen\_ai\_log\_metadata
 
 </td><td>
 
-Log data about requests to the LLMs, including information about definition, errors, user, and feedback provided. AI-generated content can be tracked for a duration beyond six months with Now Assist configuration option. You can export historical data by writing a script to copy it into a different table without deleting the information.
+Logs data about requests to the LLMs, including information about definition, errors, user, and feedback provided. AI-generated content can be tracked for a duration beyond six months with Now Assist configuration option. You can export historical data by writing a script to copy it into a different table without deleting the information.
 
 </td></tr><tr><td>
 
@@ -123,7 +124,33 @@ sys\_generative\_ai\_metric
 
 </td><td>
 
-Logs various metrics to help evaluate the performance and accuracy of LLM responses, such as edit score, edit distance, guardrail activity, and details about the LLM model used.
+Logs various metrics to evaluate LLM response performance and accuracy, including edit score, edit distance, guardrail activity, and LLM model details. It also records sensitive topic triggers and their scores for safety monitoring.
+
+</td></tr><tr><td>
+
+Gen AI Model Version Mapping
+
+</td><td>
+
+sys\_gen\_ai\_model\_version\_mapping
+
+</td><td>
+
+Maintains mappings between AI model versions, their providers, and configuration details, providing a clear understanding of how source models map to target models. It also includes associated metadata, such as skill type, model type, resource associations, and provider information.
+
+</td></tr><tr><td>
+
+Generative AI Log
+
+</td><td>
+
+sys\_generative\_ai\_log
+
+</td><td>
+
+Logs Generative AI prompts, responses, and edited responses to debug LLM calls. Log records are retained for 180 days. HR-related logs are restricted to HR Administrators, ensuring sensitive information remains protected.
+
+For more information, see [Generative AI Controller tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller-tables.md).
 
 </td></tr></tbody>
 </table>## Properties
@@ -192,9 +219,11 @@ domain.llm.usage.entitled
 
 </td><td>
 
-Determines whether to use the LLM for a specific domain to process data or restrict its use.Type: true \| false
+Determines if a specific domain has permission to use the Now Assist features and whether to use the large language model \(LLM\) to process data for that domain or restrict its use.Type: true \| false
 
 Default value: true
+
+**Note:** Setting `domain.llm.usage.entitled` to false, prevents a domain and its child domains from using Now Assist.
 
 </td></tr></tbody>
 </table>## External links

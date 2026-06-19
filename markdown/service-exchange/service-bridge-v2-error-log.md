@@ -2,6 +2,7 @@
 title: Service Exchange error log
 description: Track errors on recent transactions, provide connection status, run health checks, and provide recommendations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-error-log.html
 release: australia
 product: Service Exchange
 classification: service-exchange

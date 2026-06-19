@@ -2,6 +2,7 @@
 title: Security Incident Response integration with Zscaler
 description: You can use the Security Incident Response integration with Zscaler product to connect your Zscaler Internet Access server \(ZIA\) logs with the ServiceNow AI Platform. This integration enables you to view dashboards, create custom alerts, and help you investigate security incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/zscaler-integration-for-security-operations.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -17,7 +18,7 @@ You can use the Security Incident Response integration with Zscaler product to c
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Overview
 
@@ -45,5 +46,5 @@ This integration includes the following key features:
 |Document identifier|Document title|
 |-------------------|--------------|
 |Zscaler product documentation website|[ZScaler Product Documentation website](https://help.zscaler.com/)|
-|ServiceNow product documentation website|[ServiceNow Product Documentation website](https://servicenow.com/docs)|
+|ServiceNow product documentation website|[ServiceNow Product Documentation website](https://www.servicenow.com/docs)|
 

@@ -2,6 +2,7 @@
 title: ValidateScriptForCurrentDotUpdate
 description: The ValidateScriptForCurrentDotUpdate validator finds workflow activities with scripts that use the current.update\(\) function.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/c\_VldtScptCurrentDotUpdate.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -46,5 +47,5 @@ When one of these scripts calls current.update\(\) on a record that has yet to b
 
 This validator detects the use of current.update\(\) in any of the editable script fields. Do not call current.update\(\) from within a workflow script. In the event of an INSERT or UPDATE of current, the changes made to current are available to all scripts executing in the same transaction, and the script engine stores all changes in the database. Leave the update of current to the engine. Use the scripts only for setting and referencing the current field values.
 
-**Parent Topic:**[Workflow validator](../reference/r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowValidator.md)
 

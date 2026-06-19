@@ -2,6 +2,7 @@
 title: Run work notes analysis
 description: Generate a work notes analysis on a transition.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/run-worknotes-analysis.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -33,7 +34,7 @@ You can use the Now Assist feature for work notes analysis even with 5-50 eligib
 
     A window is displayed with all the details.
 
-    ![Work notes analysis](../image/na-worknotes.png)
+    \[Omitted image "na-worknotes.png"\] Alt text: Work notes analysis
 
 4.  From the **Investigate** section, select **Work notes analysis**.
 
@@ -43,10 +44,10 @@ You can use the Now Assist feature for work notes analysis even with 5-50 eligib
 
     The result is displayed.
 
-    ![Work notes analysis result using Now Assist](../image/na-worknotes-result.png)
+    \[Omitted image "na-worknotes-result.png"\] Alt text: Work notes analysis result using Now Assist
 
     Use the thumbs up and thumbs down icons to provide feedback for the result that you have received.
 
 
-**Parent Topic:**[Using Now Assist for Process Mining](../concept/use-na-process-mining.md)
+**Parent Topic:**[Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
 

@@ -2,6 +2,7 @@
 title: Create Directory activity
 description: The Create Directory activity creates a new directory on an SFTP server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_CreateDirectoryActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -22,13 +23,13 @@ The Create Directory activity creates a new directory on an SFTP server.
 |sourceHost|Name or IP address of the server containing the files you want to move.|
 |sourcePort|Port number to use to communicate with the source server. The default port number is **22**.|
 |sourceDirectory|Path to the target directory to create.|
-|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.|
+|sourceCredentialTag|Specific Credential aliases for Orchestration activities this activity must use to run SSH commands on the host.|
 
 ## Output variables
 
 |Variable|Description|
 |--------|-----------|
-|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](../../orchestration-activity-designer/task/t_CreateAParsingRule.md#). If this variable is not null, the operation has failed.|
+|errorMessage|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.|
 |result|Text message advising that the command was executed successfully.|
 
 ## Conditions
@@ -38,5 +39,5 @@ The Create Directory activity creates a new directory on an SFTP server.
 |Success|The activity succeeded in creating the directory.|
 |Failure|The activity failed to create the directory.|
 
-**Parent Topic:**[SFTP File Transfer activity pack](../concept/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
 

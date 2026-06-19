@@ -2,11 +2,12 @@
 title: Submit COI request form Employee Center
 description: Submit a request to obtain the legal clearance before you involve in any activity that might pose a risk of potential conflict with the primary employer duties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.html
 release: australia
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-19"
 reading_time_minutes: 2
 breadcrumb: [Use, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -23,17 +24,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you are using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal portal and selecting a request from the **Service Catalog**.
+    **Note:** If you're using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal and selecting a request from the **Service Catalog**.
 
-2.  Select **Legal services** from the header.
+2.  Navigate to **Help center** &gt; **Legal services**.
 
-3.  Select **Browse Legal services**.
+3.  Search for the conflict of interest disclosure request item.
 
-4.  Search for the conflict of interest disclosure request item.
+4.  Select **Conflict of Interest Disclosure**.
 
-5.  Click **Conflict of Interest Disclosure**.
-
-6.  In the **Conflict type** field, select the type of conflict.
+5.  In the **Conflict type** field, select the type of conflict.
 
     The following options are available to select:
 
@@ -42,7 +41,7 @@ Role required: sn\_lg\_ops.legal\_user
     -   **Personal Relationship**: A conflict of interest when employees having personal relationships also have a professional relationship within the organization.
     Based on the selection, more fields appear to fill in the required information.
 
-7.  On the form, fill in the fields and click **Submit**.
+6.  On the form, fill in the fields and click **Submit**.
 
 
 ## Result
@@ -59,5 +58,5 @@ Role required: sn\_lg\_ops.legal\_user
 
     -   Request Details: Review request details.
 
-**Parent Topic:**[Using Legal Conflict of Interest](../concept/lsd-coi-use-landing.md)
+**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
 

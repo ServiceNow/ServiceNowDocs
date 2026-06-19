@@ -2,20 +2,21 @@
 title: Technology Product Support Case playbook
 description: The Technology Product Support Case playbook provides step-by-step guidance for resolving technology cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 19
-breadcrumb: [Technology Product Support Case, Explore, Product Support for Technology]
+reading_time_minutes: 18
+breadcrumb: [Explore, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Technology Product Support Case playbook
 
 The Technology Product Support Case playbook provides step-by-step guidance for resolving technology cases.
 
-![The Technology product support case playbook enables agents to focus on the contact and account information, the playbook stages and activities, and information in the contextual side panel.](../image/tech-product-support-playbook-page.png "Technology Product Support Case playbook")
+\[Omitted image "tech-product-support-playbook-page.png"\] Alt text: The Technology product support case playbook enables agents to focus on the contact and account information, the playbook stages and activities, and information in the contextual side panel.
 
 A playbook visualizes a workflow in a simple, task-oriented view and guides the agent through sequences of tasks.
 
@@ -24,7 +25,7 @@ A playbook visualizes a workflow in a simple, task-oriented view and guides the 
 
 The **Technology product support process page** provides access to the playbook in CSM Configurable Workspace.
 
-For detailed information about the stages and activities, see [Technology product support case playbook stages and activities](tech-product-support-playbook-stages.md).
+For detailed information about the stages and activities, see [Technology product support case playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md).
 
 ## Technology product support process page variant
 
@@ -46,7 +47,7 @@ Active
 
 Enabling the **Active** check box makes the page variant available to the selected audience. The technology product support process page is active by default.
 
-The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/config-csm-ws-set-record-page-order.md).
+The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see .
 
 </td></tr><tr><td>
 
@@ -108,11 +109,11 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_Tags.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see .
 
 </td></tr><tr><td>
 
-[Action bar](tech-product-support-playbook.md#section_ls2_mkz_y1c)
+[Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -124,11 +125,11 @@ SLA component
 
 </td><td>
 
-A service level agreement \(SLA\) defines a set amount of time for a task to reach a certain condition. This ensures that tasks resolved according to the expectations set for customers.For more information, see [SLA definitions](tech-product-support-case-type.md#section_vvh_sbl_y1c).
+A service level agreement \(SLA\) defines a set amount of time for a task to reach a certain condition. This ensures that tasks resolved according to the expectations set for customers.For more information, see [SLA definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md).
 
 </td></tr><tr><td>
 
-[Account and contact lookup components](tech-product-support-playbook.md#section_dnl_3f4_s1c)
+[Account and contact lookup components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -152,7 +153,7 @@ The case highlights component displays important details about the case includin
 
 </td></tr><tr><td>
 
-[Case summarization component](tech-product-support-playbook.md#section_ots_wnh_s1c)
+[Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -164,7 +165,7 @@ The case summarization component appears in the left side panel. When an agent o
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
- The case summarization component requires that the [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm.md) application is installed and the case summarization skill has been configured.
+ The case summarization component requires that the  application is installed and the case summarization skill has been configured.
 
 </td></tr><tr><td>
 
@@ -178,11 +179,11 @@ The Technology product support process page includes a horizontal playbook that 
 -   Resolve
 -   Close
 
-For more information about the playbook, see [Technology Product Support Case playbook stages and activities](tech-product-support-playbook-stages.md).
+For more information about the playbook, see [Playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md).
 
 </td></tr><tr><td>
 
-[Contextual side panel](tech-product-support-playbook.md#section_c53_csn_n1c)
+[Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -197,13 +198,13 @@ The contextual side panel component includes different tools that agents can use
 
 For more information, see the following sections:
 
--   [Activity stream component](tech-product-support-playbook.md#section_edk_v3t_bbc)
--   [Recommended Actions / Search component](tech-product-support-playbook.md#section_is4_r3t_bbc)
--   [Related Items component](tech-product-support-playbook.md#section_b1b_dfh_z1c)
+-   [Activity stream component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+-   [Recommended Actions / Search component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
+-   [Related Items component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td></tr><tr><td>
 
-[Modeless dialogs](tech-product-support-playbook.md#section_lpp_5ys_y1c)
+[Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -230,7 +231,7 @@ These sections can be expanded and collapsed to display the fields within each s
 
 The Workspace form view also includes a menu with additional form actions, such as personalizing the form, exporting data, and copying the URL.
 
-For more information about the fields that appear in these sections, see [Tech Product Support Case table](../reference/tech-product-support-case-table.md).
+For more information about the fields that appear in these sections, see [Tech Product Support Case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-table.md).
 
 </td></tr></tbody>
 </table>## Action bar
@@ -242,7 +243,7 @@ The following actions are available on the Technology product support process pa
 -   **In-progress Actions**: Provides a list of minimized modeless dialogs and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
 -   **Request Information**: The agent requests information from the customer. Selecting this action moves the case state to Awaiting Information.
 -   **Information Received**: The agent acknowledges that information was received from the customer. Selecting this action moves the case state to Work in Progress.
--   **Discuss**: starts a Sidebar discussion. For more information about using the Sidebar feature, see [Exploring Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/sidebar/exploring-sidebar.md).
+-   **Discuss**: starts a Sidebar discussion. For more information about using the Sidebar feature, see .
 -   **Compose**: Compose comments, work notes, and emails in modeless dialogs.
 -   **Save**: Saves changes to the case record.
 -   **Accept Solution**: The agent can accept the proposed solution on behalf of the customer. Moves the case to Closed.
@@ -283,8 +284,8 @@ Using this component, agents can:
 
 To use the case summarization component with the Technology product support process page variant, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
--   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
+-   Activate Now Assist for Customer Service Management \(CSM\)
+-   Configure the case summarization skill in the Now Assist Admin console.
 
 ## Contextual side panel component
 
@@ -300,7 +301,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activity stream](tech-product-support-playbook.md#section_edk_v3t_bbc)
+[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -308,11 +309,11 @@ The activity stream component displays a list of the activities occurring on a c
 
 </td></tr><tr><td>
 
-[Recommended Actions search](tech-product-support-playbook.md#section_is4_r3t_bbc)
+[Recommended Actions search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
-The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes AI search functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can do the following:
 
@@ -326,13 +327,13 @@ From the list of search results, agents can do the following:
     -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
 -   View successful actions by selecting the Actions history icon.
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba-use-ai-search.md).
+For more information, see .
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the Recommended Actions application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 
-[Related Items](tech-product-support-playbook.md#section_b1b_dfh_z1c)
+[Related Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.md)
 
 </td><td>
 
@@ -387,7 +388,7 @@ The Technology product support process page includes the activity stream in the 
 
 The activity stream component displays a list of the activities occurring on a case record. The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information individual activities.
 
-![The technology product support playbook activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.](../image/front-line-case-page-activity-stream.png "Technology product support playbook activity stream component")
+\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The technology product support playbook activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.
 
 The activities in the activity stream are represented by tiles that use icons and colors to indicate the activity type.
 
@@ -418,7 +419,7 @@ When expanded, each activity also includes:
 -   For attachments, a small preview of the attached file.
 -   For chats, a sidebar chat card.
 
-The activity stream uses [modeless dialogs](tech-product-support-record-page.md#section_lpp_5ys_y1c) for composing comments, work notes, and emails. Use the **Compose** button in the action bar to create these items.
+The activity stream uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-record-page.md) for composing comments, work notes, and emails. Use the **Compose** button in the action bar to create these items.
 
 -   **Compose &gt; Comment**: opens the Compose a comment modeless dialog.
 -   **Compose &gt; Work note**: opens the Compose a work note modeless dialog.
@@ -435,13 +436,13 @@ For knowledge articles, an agent can view an article and attach the article to t
 -   Selecting **Review and attach article** displays the article in the contextual side panel.
 -   Selecting **Attach this article** attaches the knowledge article to the current case.
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the Recommended Actions application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 ## Related Items component
 
 The Technology product support playbook incorporates related list functionality into the contextual side panel. The Related Items tab provides agents with access to the case related lists. These lists are displayed in an accordion format that agents can expand and collapse as needed.
 
-![The Technology product support playbook related lists component in the contextual side panel uses an accordion format to expand and display related list items](../image/front-line-case-page-related-lists.png "Technology product support playbook related lists component")
+\[Omitted image "front-line-case-page-related-lists.png"\] Alt text: The Technology product support playbook related lists component in the contextual side panel uses an accordion format to expand and display related list items
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format. If a related list is empty, agents can select Create one in the list to create a record.
 
@@ -518,7 +519,7 @@ Agents can apply templates to emails in a modeless dialog:
 
 Agents can also toggle the **Rich text editor** button in the email modeless dialog to show or hide the TinyMCE formatter.
 
-For more information, see [Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
+For more information, see .
 
 ## Update action plans
 
@@ -538,7 +539,7 @@ Creating a case opens a service selector modal and displays the services defined
 -   Select a service.
 -   Select **Create case**.
 
-The system creates the case and launches the playbook associated with the service definition. For more information, see [Associate a playbook with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-playbook.md).
+The system creates the case and launches the playbook associated with the service definition. For more information, see .
 
 **Note:** This action is active by default for the Technology product support process page.
 
@@ -552,11 +553,6 @@ When the playbook transitions to the Resolve stage, the resolution notes generat
 
 To use the resolution notes generation skill with the Technology product support process page variant:
 
-1.  [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md).
-2.  [Configure the resolution notes generation skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
-
--   **[Technology Product Support Case playbook stages and activities](tech-product-support-playbook-stages.md)**  
-The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.
-
-**Parent Topic:**[Exploring Technology Product Support Case](tech-product-support-case-app.md)
+1.  Activate Now Assist for Customer Service Management \(CSM\).
+2.  Configure the resolution notes generation skill in the Now Assist Admin console.
 

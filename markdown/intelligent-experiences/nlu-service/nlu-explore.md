@@ -2,6 +2,7 @@
 title: Exploring Natural Language Understanding
 description: ServiceNow Natural Language Understanding \(NLU\) provides an NLU Workbench and an NLU inference service that you can use to enable the system to learn and respond to human-expressed intent. By entering natural language examples into the system, you help it understand word meanings and contexts so it can infer user or system actions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-explore.html
 release: australia
 product: NLU Service
 classification: nlu-service

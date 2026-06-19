@@ -2,6 +2,7 @@
 title: Domain separation and Health and Safety Incident Management
 description: Domain separation is supported for Health and Safety Incident Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/health-safety-domain-separation.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -25,7 +26,7 @@ Domain separation is supported for Health and Safety Incident Management. Domain
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain-separated tables overview
 
@@ -36,10 +37,10 @@ All tables in the Health and Safety Incident Management can be domain-separated 
 -   Each table in Health and Safety Incident Management includes the domain separation fields **Domain** and **Domain path**.
 -   Customer can use these fields to configure domain separation in their implementation of Health and Safety Incident Management.
 
-**Parent Topic:**[Health and Safety Incident Management reference](hs-incident-mgmt-reference.md)
+**Parent Topic:**[Health and Safety Incident Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-reference.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

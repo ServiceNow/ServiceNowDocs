@@ -2,6 +2,7 @@
 title: Save an Industrial Guided Task while offline
 description: Save the progress of an Industrial Guided Task \(IGT\) to the outbox while working in offline mode so that your changes are preserved and automatically uploaded when connectivity is restored.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/save-igt-offline-icw-mobile.html
 release: australia
 product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
@@ -44,5 +45,5 @@ Your IGT progress is saved to the outbox on your device. A confirmation is displ
 -   When your device goes back online, the saved changes are automatically uploaded to the server.
 -   Other users on any device can then continue the work from the point where you saved.
 
-**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](../concept/using-icw-mobile-experience.md)
+**Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/using-icw-mobile-experience.md)
 

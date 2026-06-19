@@ -2,6 +2,7 @@
 title: Perform tests using the Visual Task Board
 description: Perform tests from an assigned test case and record results using a bulletin board-type graphical interface.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_PerformTestsUsingTheVisualTaskBoard.html
 release: australia
 product: Test Management
 classification: test-management
@@ -52,8 +53,8 @@ Role required: tm\_tester
 
 13. After all tests are complete, update the test case status.
 
-    For more information, see [Update the status of a test case](t_UpdateTheStatusOfATestCase.md).
+    For more information, see [Update the status of a test case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_UpdateTheStatusOfATestCase.md).
 
 
-**Parent Topic:**[Performing tests and updating the test status](../concept/c_Tester.md)
+**Parent Topic:**[Performing tests and updating the test status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_Tester.md)
 

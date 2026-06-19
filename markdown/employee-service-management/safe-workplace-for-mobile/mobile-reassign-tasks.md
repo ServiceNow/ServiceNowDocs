@@ -2,6 +2,7 @@
 title: Reassign tasks to your team members in Now Mobile
 description: As a manager, view a list of tasks assigned to your team members and reassign the tasks to other team members.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace-for-mobile/mobile-reassign-tasks.html
 release: australia
 product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
@@ -17,7 +18,7 @@ As a manager, view a list of tasks assigned to your team members and reassign th
 
 ## Before you begin
 
-To access this content, you must have the [Now® Mobile](../../../administer/mobile-employee/concept/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](../concept/emergency-self-report.md) application installed.
+To access this content, you must have the [Now® Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) app. Your instance must have the [Emergency Self Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-self-report/emergency-self-report.md) application installed.
 
 Role required: none
 
@@ -33,7 +34,7 @@ From the Safe Workplace for mobile app, users can access applications from the E
 
 2.  Scroll down to the My Team section and click **My Direct Reports Open Tasks**.
 
-    ![The My team's health section in the health applet launcher.](../image/my-teams-health.jpg "My Direct Reports Open Tasks link")
+    \[Omitted image "my-teams-health.jpg"\] Alt text: The My team's health section in the health applet launcher.
 
     A list all open tasks assigned to your direct reports is displayed.
 
@@ -46,7 +47,7 @@ From the Safe Workplace for mobile app, users can access applications from the E
 6.  Click **Submit**.
 
 
-**Parent Topic:**[Safe Workplace for mobile](../concept/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 
-**Parent Topic:**[Safe Workplace for mobile](../concept/mobile-emergency-response.md)
+**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 

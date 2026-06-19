@@ -2,6 +2,7 @@
 title: Create a subflow to get users
 description: Create a subflow to add a list of users to the Software Subscription table.Configure an identifier if it doesn't exist to identify an integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/create-subflow-get-users.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -17,7 +18,7 @@ Create a subflow to add a list of users to the Software Subscription table.
 
 ## Before you begin
 
-This subflow requires a data stream action to get users. For more information, see [Create a data stream action to get users](create-data-stream-action-slc.md).
+This subflow requires a data stream action to get users. For more information, see [Create a data stream action to get users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-data-stream-action-slc.md).
 
 Role required: flow\_designer
 
@@ -118,7 +119,7 @@ User who initiates session.
 
 7.  Select the spoke for the SaaS application that you want to integrate with from the list of installed spokes.
 
-    **Note:** To add additional spokes to your list of installed spokes, request them on the [ServiceNow Store](https://store.servicenow.com). For a complete list of available spokes, see [IntegrationHub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/spokes-list.md). If there’s no existing spoke for the SaaS application that you want to integrate with, you can [create a new spoke](create-saas-spoke.md).
+    **Note:** To add additional spokes to your list of installed spokes, request them on the [ServiceNow Store](https://store.servicenow.com). For a complete list of available spokes, see IntegrationHub available spokes. If there’s no existing spoke for the SaaS application that you want to integrate with, you can [create a new spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-saas-spoke.md).
 
 8.  Select a data stream action to get users.
 
@@ -194,7 +195,7 @@ Identifier
 
 A unique identifier to identify the integration. Software models are automatically created for subscription with an identifier that matches an identifier in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table.
 
-If an identifier doesn't exist, configure an identifier. For more information, see [Configure an identifier](create-subflow-get-users.md#).
+If an identifier doesn't exist, configure an identifier. For more information, see [Configure an identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-subflow-get-users.md).
 
 </td></tr><tr><td>
 
@@ -329,7 +330,7 @@ Product
 
 </td><td>
 
-Current software product name. Custom product that you created in [step 1](create-subflow-get-users.md#step1).
+Current software product name. Custom product that you created in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-subflow-get-users.md).
 
 </td></tr><tr><td>
 
@@ -424,7 +425,7 @@ Entitlement definition
 
 </td><td>
 
-Custom discovery map that you created in [step 2](create-subflow-get-users.md#step2).
+Custom discovery map that you created in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/create-subflow-get-users.md).
 
 </td></tr><tr><td>
 

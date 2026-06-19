@@ -2,6 +2,7 @@
 title: Configure static content
 description: Static content helps create a central place for adding all the useful content for employees.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/apn-config-static-content.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -40,5 +41,5 @@ Role required: Admin
 
 ## What to do next
 
-You can add the useful static content in the [Get support](apn-config-getsupport.md) section.
+You can add the useful static content in the [Get support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/apn-config-getsupport.md) section.
 

@@ -2,7 +2,10 @@
 title: Create a service definition
 description: Create a service definition record in the Customer Service Management \(CSM\) application to establish connections between products, services, and case types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-csm-service-definition.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 5
@@ -52,7 +55,7 @@ You can also create relationships between the service definition and other relat
     -   General
 7.  In the **Playbook record generator** field, select a playbook record generator.
 
-    If a service definition has an associated playbook, the agent can use the playbook in a tab on the case record. For more information, see [Associate a playbook with a service definition](service-def-associate-playbook.md).
+    If a service definition has an associated playbook, the agent can use the playbook in a tab on the case record. For more information, see [Associate a playbook with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-playbook.md).
 
 8.  In the **Image** field, select an image for the service definition.
 
@@ -60,7 +63,7 @@ You can also create relationships between the service definition and other relat
 
 9.  In the **Default table field values** field, select one or more fields and values.
 
-    Configure the default values for the fields in the target table for service definitions. When a record is created for this table, the system uses these values to automatically fill in the record fields. For more information, see [Configure default field values for a service definition](service-def-default-field-values.md).
+    Configure the default values for the fields in the target table for service definitions. When a record is created for this table, the system uses these values to automatically fill in the record fields. For more information, see [Configure default field values for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-default-field-values.md).
 
 10. In the **Order** field, add an order value for the service definition.
 
@@ -72,7 +75,7 @@ You can also create relationships between the service definition and other relat
 
 12. Enable the **Use service catalog item** check box.
 
-    When this check box is enabled, the service definition can use catalog items and their associated record producers to create cases in CSM Configurable Workspace. The Catalog Service Relationships related list stores the catalog items that are associated with the service definition. For more information, see [service definition use service catalog items](../concept/csm-service-definition-catalog-items.md).
+    When this check box is enabled, the service definition can use catalog items and their associated record producers to create cases in CSM Configurable Workspace. The Catalog Service Relationships related list stores the catalog items that are associated with the service definition. For more information, see [service definition use service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definition-catalog-items.md).
 
 13. In the **Description** field, add a description of the service definition.
 
@@ -94,15 +97,15 @@ You can also create relationships between the service definition and other relat
 
 After creating a service definition, you can perform the following configuration tasks:
 
--   [Associate one or more products with a service definition](service-def-associate-products.md)
--   [Create a service definition category](create-csm-service-def-category.md)
--   [Associate a product with a service definition](service-def-associate-products.md)
--   [Associate a case type with a service definition](service-def-associate-case-type.md)
--   [Associate a playbook record generator with a service definition](service-def-associate-playbook.md)
--   [Associate a service definitions to a service definition category](service-def-category-associate-service.md)
--   [Configure default field values for a service definition](service-def-default-field-values.md)
--   [Configure catalog items for a service definition](service-def-config-catalog-items.md)
--   [Configure related services for a service definition](service-def-config-related-services.md).
--   [Associate service organizations with a service](associate-services-to-service-organization.md).
--   [Add a case type to the Case interceptor](service-def-config-case-interceptor.md).
+-   [Associate one or more products with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-products.md)
+-   [Create a service definition category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-csm-service-def-category.md)
+-   [Associate a product with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-products.md)
+-   [Associate a case type with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-case-type.md)
+-   [Associate a playbook record generator with a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-associate-playbook.md)
+-   [Associate a service definitions to a service definition category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-category-associate-service.md)
+-   [Configure default field values for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-default-field-values.md)
+-   [Configure catalog items for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-config-catalog-items.md)
+-   [Configure related services for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-config-related-services.md).
+-   [Associate service organizations with a service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/associate-services-to-service-organization.md).
+-   [Add a case type to the Case interceptor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/service-def-config-case-interceptor.md).
 

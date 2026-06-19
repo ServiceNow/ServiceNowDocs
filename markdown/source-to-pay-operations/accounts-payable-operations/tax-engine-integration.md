@@ -1,23 +1,28 @@
 ---
 title: Tax Engine Integration
-description: Integrate an external tax engine to validate supplier-provided taxes against calculated from external tax engines resulting in accurate, compliant, straight through processing and improving efficiency.
+description: Integrate an external tax engine to validate supplier-provided taxes against calculated from external tax engines resulting in accurate, conforming, straight through processing and improving efficiency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/accounts-payable-operations/tax-engine-integration.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Integrate, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Tax Engine Integration
 
-Integrate an external tax engine to validate supplier-provided taxes against calculated from external tax engines resulting in accurate, compliant, straight through processing and improving efficiency.
+Integrate an external tax engine to validate supplier-provided taxes against calculated from external tax engines resulting in accurate, conforming, straight through processing and improving efficiency.
 
 The Accounts Payable invoice processing invokes the external tax engine to validate supplier tax \(based on ship to, item, service, category, amounts, jurisdiction, exemptions, other tax configuration\) against system tax and drive straight through processing for matching outcomes. During invoice data extraction, the tax rate and tax amount will be stored as supplier tax rate and supplier tax amount at both header and invoice line levels. Tax integration is applicable for invoices of type PO, Non-PO and credit memo; supporting automatic, manual, and scheduled tax validation ensuring taxes remain correct even when invoices change or temporary integration issues occur.
 
-How system tax is calculated-When invoice data is submitted to the external tax engine, the system receives the calculated tax amounts based on the invoice details and configuration. The system uses this response to automatically generate tax lines. The generated tax lines are then validated against the supplier-provided taxes at the header and line levels.
+## How system tax is calculated
+
+How system tax is calculated-Accounts Payable Operations captures supplier-declared tax amounts exactly as provided and validates them against independently calculated system tax. Internal tax line breakdowns roll up to system tax only, which is then compared against the supplier-declared amount. If the difference is not within the configured tolerance threshold or if the difference is lower or more than threshold, then tax exception is raised. Roll up logic applies only to system tax, not to supplier-declared tax.
+
+Example: A supplier sends an invoice with a sales tax amount for each line item. When recording the corresponding liability, the buyer may internally calculate tax and split into State, County, and District tax components. These components are recorded as internal tax lines. The sum of these internal tax lines \(roll up to invoice line or header as system tax\) is then validated against the supplier tax declared at the invoice line level.
 
 Tax integration is triggered for invoices:
 
@@ -39,7 +44,7 @@ Customers using tax engine integration benefit from:
 
 -   Reduced manual effort – Automatic tax calculation and reconciliation removes the need for manual tax line entry.
 -   Improved accuracy – Taxes are calculated using authoritative third‑party tax logic.
--   Stronger compliance – Consistent validation across jurisdictions and invoice types.
+-   Stronger conformance – Consistent validation across jurisdictions and invoice types.
 -   Faster invoice processing – Higher straight‑through processing rates and fewer exceptions.
 -   Clear exception visibility – Over‑tax and under‑tax variances are surfaced at line and header levels.
 
@@ -64,7 +69,7 @@ The Accounts Payable Operations serves as entry point for tax calculation. When 
 
 </td><td>
 
--   If tax calculation is required, then a record is created in the tax staging table \[sn\_spend\_intg\_tax\_staging\], and the tax status is set to in progress. For more information on tax status, see [Tax status](../reference/tax-status.md)
+-   If tax calculation is required, then a record is created in the tax staging table \[sn\_spend\_intg\_tax\_staging\], and the tax status is set to in progress. For more information on tax status, see [Tax status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/tax-status.md)
 -   If tax calculation isn’t required, then the invoice processing continues through the regular exception flow and proceeds to payment.
 
 </td></tr><tr><td>
@@ -77,7 +82,7 @@ The Source-to-Pay integration framework is a processing layer between Accounts P
 -   Mapping tables are used during request creation \(outbound\) and response processing \(inbound\) between APO attributes and Accounts Payable Operations.
 -   Responses from the tax engine are sent back to the staging table.
 -   Invoice tax status is updated based on the response.
--   Failed records are processed manually. For more information on the tables, see [Configuration tables and prerequisites for Tax integration](config-tax-integ.md).
+-   Failed records are processed manually. For more information on the tables, see [Configuration tables and prerequisites for Tax integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/accounts-payable-operations/config-tax-integ.md).
 
 </td></tr><tr><td>
 
@@ -85,7 +90,7 @@ The external tax engine computes the tax.
 
 </td><td>
 
-Calculates the tax and returns the response. The response is processed, tax lines are created automatically for the applicable invoice in Accounts Payable Operations. The system triggers exception engine based on the response from tax engine. Tax exception is raised when supplier tax and system tax mismatch in the invoice. Invoice tax status is set to integration error and Accounts Payable specialist investigates the case manually. If the invoice is modified after last execution \(change amounts, add lines or adjust tax codes\), then the tax is recalculated. The tax processing is re-initiated. Upon successful validation, the invoice processing proceeds to payment.
+Calculates the tax and returns the response. The response is processed, tax lines are created automatically for the applicable invoice in Accounts Payable Operations. The system triggers exception engine based on the response from tax engine. Tax exception is raised when supplier tax and system tax mismatch in the invoice. Invoice tax status is set to integration error and Accounts Payable specialist investigates the case manually. If the invoice is modified after last execution \(change amounts, add lines or adjust tax codes\), then the tax is recalculated. The tax processing is re-initiated. on successful validation, the invoice processing proceeds to payment.
 
 </td></tr></tbody>
 </table>## Tax validation modes
@@ -94,13 +99,13 @@ Tax calculation and validation can be triggered in multiple ways:
 
 -   Automatic \(synchronous\)-Runs automatically at key invoice processing milestones
 -   Manual \(on-demand\)-AP specialists can trigger tax validation during invoice exception review. This is applicable or accessible from the tax exception
--   Scheduler re-calculation-Background jobs automatically re‑initiate tax validation for invoices that are in progress, or recalculate tax status and integration error status. This ensures taxes stay accurate even if invoice data is updated or external calls fail temporarily.
+-   Scheduler re-calculation-Background jobs automatically re‑initiate tax validation for invoices that are in progress, or recalculate tax status and integration error status. This verifies taxes stay accurate even if invoice data is updated or external calls fail temporarily.
 
 ## Tax integration workflow
 
-A high level workflow of how tax integration works in Accounts Payable Operations is shown below.
+A high level workflow of how tax integration works in Accounts Payable Operations is shown previous.
 
-![Tax integration workflow](../image/tax-integ-workflow.png)
+\[Omitted image "tax-integ-workflow.png"\] Alt text: Tax integration workflow
 
 **Note:** If you're upgrading from previous version of APO to latest version, you must execute the scheduled job \[APO - close open exception for deactivated exception definition\]. This scheduled job updates the status of invoice exceptions to inactive and closes the corresponding invoice exceptions.
 

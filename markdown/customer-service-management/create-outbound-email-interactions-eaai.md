@@ -2,7 +2,10 @@
 title: Create outbound email interactions
 description: Initiate an outbound email interaction from a contact or consumer record to proactively engage with a customer. The system automatically creates and tracks the interaction.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-outbound-email-interactions-eaai.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -17,7 +20,7 @@ Initiate an outbound email interaction from a contact or consumer record to proa
 
 The Email Interaction for CSM application must be installed and activated.
 
-When multiple agents initiate outbound emails for the same customer, the system consolidates drafts by default. For details on the behavior, see Multiple agents composing for the same customer in [Using Email Interaction for Customer Service Management](../concept/using-email-interaction-customer-service-management.md) Customer Service Management.
+When multiple agents initiate outbound emails for the same customer, the system consolidates drafts by default. For details on the behavior, see Multiple agents composing for the same customer in [Using Email Interaction for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/using-email-interaction-customer-service-management.md) Customer Service Management.
 
 Role required: sn\_customerservice\_agent
 
@@ -25,7 +28,7 @@ Role required: sn\_customerservice\_agent
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \( ![List icon](../image/List_icon.jpg)\).
+2.  Select the List icon \( \[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
 
 3.  In the Interactions section, select **My Interactions**.
 
@@ -41,7 +44,7 @@ Role required: sn\_customerservice\_agent
 
 6.  Compose your email.
 
-7.  Select the Send email \(![Send email to contact or customer icon](../image/send-email-icon-eaai.png) \) icon.
+7.  Select the Send email \(\[Omitted image "send-email-icon-eaai.png"\] Alt text: Send email to contact or customer icon \) icon.
 
 
 ## Result

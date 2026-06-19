@@ -2,6 +2,7 @@
 title: Pulling additional resources from Kubernetes clusters into the CMDB
 description: You can configure the Kubernetes Visibility Agent Informer to pull extra resources from Kubernetes clusters into the Configuration Management Database \(CMDB\), in addition to the resources it sends to the database by default. By pulling in additional resources beyond the default set, you can enhance visibility into your Kubernetes clusters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-pulling-extra-resources.html
 release: australia
 product: Discovery
 classification: discovery
@@ -16,7 +17,7 @@ breadcrumb: [Configuring Kubernetes Visibility Agent, Kubernetes discovery using
 
 You can configure the Kubernetes Visibility Agent Informer to pull extra resources from Kubernetes clusters into the Configuration Management Database \(CMDB\), in addition to the resources it sends to the database by default. By pulling in additional resources beyond the default set, you can enhance visibility into your Kubernetes clusters.
 
-The Informer collects data on Kubernetes resources, sends the collected data to the instance, and updates the appropriate tables in the CMDB. For a list of the resources the Informer pulls into the CMDB by default, see [Data collected by Kubernetes Visibility Agent](../reference/cnov-collected-data.md).
+The Informer collects data on Kubernetes resources, sends the collected data to the instance, and updates the appropriate tables in the CMDB. For a list of the resources the Informer pulls into the CMDB by default, see [Data collected by Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-collected-data.md).
 
 For every additional Kubernetes resource you want the Informer to pull into the CMDB, the system creates a Configuration Item \(CI\) in the cmdb\_ci\_kubernetes\_component target table. Alternatively, extra resources can be pulled to custom tables that extend the cmdb\_ci\_kubernetes\_component table. For example, you could create a u\_cmdb\_ci\_kubernetes\_configmap table for all ConfigMap resources in the cluster. The system creates a relation and a reference from the table to the cluster CI for every additional resource. If the resource is namespaced, a relation to the namespace CI is created.
 
@@ -35,5 +36,5 @@ Kubernetes Visibility Agent enables you to filter additional resources by defini
 
 For more detailed information and procedures for pulling additional resources from Kubernetes clusters into the CMDB, see the [Kubernetes Visibility Agent \(formerly CNO for Visibility\) extensibility and customization \[KB1638668\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1638668) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Configuring Kubernetes Visibility Agent](cnov-configuring.md)
+**Parent Topic:**[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-configuring.md)
 

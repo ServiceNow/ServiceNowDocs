@@ -2,6 +2,7 @@
 title: Virtual Agent roles
 description: Virtual Agent adds several roles for users operating as Virtual Agent administrators.Configures the delivery of automated task resolution messages in Virtual Agent, email, or SMS.Controls and configures post-chat surveys for gathering feedback on user experience, or for chat queues defined in Advanced Work Assignment.Launches the Workflow Studio app, to automate tasks with sequences of related steps.Accesses Entity View Action Mapping, to standardize display of different data sources in cards or lists.Fetches branding settings via scripted rest API.Creates subscribable objects and subscribes to activities on those objects.Launches the Workflow Studio app, to create multi-step workflows.Creates and runs automated tests to confirm proper instance function after making changes to the instance.Creates NLU models and associated intents in the NLU Workbench.Installs external apps such as Slack, Microsoft Teams, and Workplace.Accesses and reads ACE records.Creates a guided setup to assist users with planning the roll-out of Conversational Interfaces materials, and performs the basic configurations to go live.Creates translation requests, and views completed translations in the Localization Framework.Performs CRUD operations on Pattern and Activity configuration and the Deflection data tables.Manages image files on the Images \[db\_image\] table.Inserts data into, updates, and deletes search-UX related configuration tables including: \[sys\_search\_context\_config\], \[sys\_search\_source\], \[m2m\_search\_context\_config\_search\_source\], \[sys\_search\_facet\], and \[sys\_search\_filter\]. The AI Search administrator \[ais\_admin\] role is included in this role to perform AI Search configuration.Sets up the Conversational Analytics dashboard, reconfigures its contents, and creates funnels to review performance of conversation flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/VA-roles.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [Installed with Virtual Agent, Activate Virtual Agent, Activate and 
 
 Virtual Agent adds several roles for users operating as Virtual Agent administrators.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
 ## Role description
 
@@ -48,7 +49,7 @@ Roles that are installed with Virtual Agent are listed below with the following 
 
 Simplify user administration by creating groups that contain all the roles necessary for specific personas rather than to individual users. You can then assign individual users to those groups. When users transition to new roles, you can then re-assign their group memberships, and avoid scenarios where users retain unexpected roles.
 
-For details on the administration of users, groups, and roles, see [User Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/c_UserAdministration.md).
+For details on the administration of users, groups, and roles, see User Administration.
 
 ## Issue auto resolution administrator \[iar\_admin\]
 

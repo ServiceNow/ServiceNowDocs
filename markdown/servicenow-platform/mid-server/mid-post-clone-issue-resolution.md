@@ -2,6 +2,7 @@
 title: Active MID Server post-cloning credential issues
 description: The system provides automatic processes to detect and notify you of possible MID Server credential issues after instance cloning.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-post-clone-issue-resolution.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -30,7 +31,7 @@ A cleanup script called Bad MID Server credentials after clone runs on the targe
 
 These jobs log to the MID Server Issue \[ecc\_agent\_issue\] table any MID Servers that existed on the target instance prior to the clone that are in the **Down** state. These MID Servers are not ready for normal processing and might be down due to invalid credentials resulting from the cloning process. The state of MID Servers added to the target instance after the clone is not evaluated.
 
-**Note:** The [MID Server log](../concept/ecc-queue-mid-server.md#) shows that the MID Server user associated with the target instance could not be authenticated or was missing the proper role.
+**Note:** The [MID Server log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md) shows that the MID Server user associated with the target instance could not be authenticated or was missing the proper role.
 
 ## Business rule that checks for bad credentials
 
@@ -42,5 +43,5 @@ The error message in the MID Server Issue \[ecc\_agent\_issue\] table names the 
 
 Attempt to resolve the issue first by comparing the user's credentials with the credentials that the affected MID Server is expecting. If the credentials are incorrect, fix the problem and check the MID Server status again. If the credentials are correct, but the MID Server remains down, check the [Knowledge Base](https://support.servicenow.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0597571) for other possible causes.
 
-**Parent Topic:**[Resolving MID Server issues](r_MIDServerTroubleshooting.md)
+**Parent Topic:**[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)
 

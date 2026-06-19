@@ -2,6 +2,7 @@
 title: Getting started with workflows
 description: The graphical Workflow Editor provides a drag-and-drop interface for automating multi-step processes across the platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/getting-started-workflows.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -62,11 +63,11 @@ At each step in a workflow:
 2.  At the completion of an action by an activity, the workflow checks the activity's conditions.
 3.  For each matching condition, the workflow follows the transition to the next activity.
 
-When the workflow runs out of activities, the workflow is complete. The [Workflow Context](../../workflow-administration/reference/r_AdministeringWorkflowContexts.md) stores the execution history of the activities and transitions run. The [Workflow Version](../../using-workflows/concept/c_WorkflowVersions.md) stores the design history of the activities, transitions, and exit conditions available to run.
+When the workflow runs out of activities, the workflow is complete. The [Workflow Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_AdministeringWorkflowContexts.md) stores the execution history of the activities and transitions run. The [Workflow Version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowVersions.md) stores the design history of the activities, transitions, and exit conditions available to run.
 
 ## Workflow properties
 
-The workflow properties specify when to run a workflow and what records it acts on. For more information about workflow properties, see [Workflow properties](../../workflow-administration/reference/r_WorkflowProperties.md).
+The workflow properties specify when to run a workflow and what records it acts on. For more information about workflow properties, see [Workflow properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowProperties.md).
 
 ## Workflow activities
 
@@ -76,11 +77,11 @@ Activities can include running scripts, manipulating records, waiting for a set 
 
 This is an activity that triggers a notification:
 
-![Sample activity](../image/WfActivity.png "Sample activity")
+\[Omitted image "WfActivity.png"\] Alt text: Sample activity
 
 Workflow runs activities as the user session that starts them. Workflows started from record operations will run activities as the user session that performed the record operation. Workflows started from schedules or restarted from timers run activities as the System user. Workflows started from script calls run activities as the user session that started the script.
 
-For more information on available activities and their behaviors, see [Workflow activities](../../using-workflows/concept/c_WorkflowActivities.md).
+For more information on available activities and their behaviors, see [Workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-activities/c_WorkflowActivities.md).
 
 ## Transitions
 
@@ -88,7 +89,7 @@ After the workflow condition is evaluated, the workflow transition determines wh
 
 This is a transition that always leads from the Change Approved script to the **Change Task** activity:
 
-![Sample transition](../image/WfTransition.png "Sample transition")
+\[Omitted image "WfTransition.png"\] Alt text: Sample transition
 
 ## Exit conditions
 
@@ -96,7 +97,7 @@ After a workflow activity is performed, the workflow condition is evaluated to d
 
 The condition determines behavior based on a change being approved or rejected:
 
-![Sample exit conditions](../image/WfCondition.png "Sample exit conditions")
+\[Omitted image "WfCondition.png"\] Alt text: Sample exit conditions
 
 ## Workflow example
 
@@ -104,5 +105,5 @@ During workflow editing or while an unpublished workflow is running, only the pe
 
 After a workflow is published, it is available to other users. The workflow moves through the process as defined in the Workflow Editor. The entire workflow is represented in one screen. For example, this is the Standard Change workflow:
 
-![Sample change workflow](../image/RoutineChange.png "Sample change workflow")
+\[Omitted image "RoutineChange.png"\] Alt text: Sample change workflow
 

@@ -2,6 +2,7 @@
 title: Long-running SOAP request properties
 description: The following properties are available for long-running SOAP requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/LongRunningSOAPRequestProps.html
 release: australia
 product: Web Services
 classification: web-services
@@ -84,5 +85,5 @@ Enables or disables a 307-Temporary Redirect when the request includes a **redi
 Controls the maximum number of long-running SOAP threads which can run at any one time. The default value for this property is determined dynamically based on the number of SOAP semaphores configured. It should not be necessary to change this value.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[SOAP web service](../concept/c_SOAPWebService.md)
+</table>**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_SOAPWebService.md)
 

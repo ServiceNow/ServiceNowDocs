@@ -2,6 +2,7 @@
 title: Run Certificate Discovery via port scans
 description: When the TLS port probe \[tls\_ssl\_certs\] is enabled, Discovery automatically scans 14 pre-authorized ports as part of your existing CI Discovery schedules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/run-cert-inventory-mgmt-ports.html
 release: australia
 product: Discovery
 classification: discovery

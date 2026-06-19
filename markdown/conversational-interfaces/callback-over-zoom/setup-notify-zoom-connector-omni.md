@@ -2,6 +2,7 @@
 title: Setting up Notify Zoom connector for Zoom extension for Omnichannel Callback
 description: Setting up the Notify Zoom connector in Zoom and then in your ServiceNow instance enables your instance to receive the event information from Zoom. An event is usually any action that is related to a meeting.Configure the Notify Zoom connector in Zoom to receive event information in your ServiceNow instance from Zoom.Configure Notify in your ServiceNow instance to receive event information from Zoom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/callback-over-zoom/setup-notify-zoom-connector-omni.html
 release: australia
 product: Callback over Zoom
 classification: callback-over-zoom
@@ -94,5 +95,5 @@ Role required: admin
 
 ### What to do next
 
-[Configure a Zoom webhook for Zoom extension for Omnichannel Callback](../Task/configure-zoom-webhook-omni.md)
+[Configure a Zoom webhook for Zoom extension for Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/callback-over-zoom/configure-zoom-webhook-omni.md)
 

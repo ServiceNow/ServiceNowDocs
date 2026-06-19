@@ -2,6 +2,7 @@
 title: HP Service Manager discovery
 description: Discovery creates or updates a CMDB record when it detects a running instance of HP Service Manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-visibility/r-HPServiceManager.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
@@ -28,5 +29,5 @@ The following data is collected on the HP Service Manager `[cmdb_ci_appl_hp_serv
 |Name|name|
 |Vendor|vendor|
 
-**Parent Topic:**[Software discovery](../concept/c_Software.md)
+**Parent Topic:**[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/c_Software.md)
 

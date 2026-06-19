@@ -2,6 +2,7 @@
 title: Remove a developer
 description: Removing a user as a developer prevents the user from developing, changing, or deploying the application in the current instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/delegated-development-and-deployment/t\_RemoveADeveloper.html
 release: australia
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
@@ -19,7 +20,7 @@ Removing a user as a developer prevents the user from developing, changing, or d
 
 Role required: admin or application administrator
 
-If [Application administration](../concept/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration is not enabled, an admin user can delegate developers.
+If [Application administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/building-applications/application-administration.md) is enabled, only an application administrator of the target application can delegate developers to an application. If application administration is not enabled, an admin user can delegate developers.
 
 ## Procedure
 
@@ -39,7 +40,7 @@ If [Application administration](../concept/application-administration.md) is ena
 
     The system displays a minus icon next to the developer name.
 
-    ![Manage developers](../image/RemoveDeveloper.png)
+    \[Omitted image "RemoveDeveloper.png"\] Alt text: Manage developers
 
 5.  Select the minus icon next to the developer name.
 

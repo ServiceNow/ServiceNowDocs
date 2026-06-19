@@ -2,6 +2,7 @@
 title: Create participants for a PDF document template
 description: Define actions and the order of actions for participants. The type of action and order are considered while initiating document tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/create-participant.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

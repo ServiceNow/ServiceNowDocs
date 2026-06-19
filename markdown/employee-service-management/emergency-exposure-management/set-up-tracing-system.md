@@ -2,6 +2,7 @@
 title: Set up a tracing system for an exposure data source
 description: Set up a tracing system for your exposure data source to identify potentially exposed employees by running the diagnostic requests for an affected employee.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/emergency-exposure-management/set-up-tracing-system.html
 release: australia
 product: Emergency Exposure Management
 classification: emergency-exposure-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For more information about the available tracing systems, see [Tracing systems in Emergency Exposure Management](../concept/tracing-systems-exposure-mgnt.md).
+For more information about the available tracing systems, see [Tracing systems in Emergency Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/tracing-systems-exposure-mgnt.md).
 
 ## Procedure
 
@@ -121,7 +122,7 @@ Legend icon
 
 </td><td>
 
-Icon representing the tracing system as data source for the potentially exposed contact's in the potentially exposed contacts visualization on the Case form.For more information, see [Working on a case through contact tracing visualization](../../contact-tracing/reference/contact-tracing-case-visualization.md).
+Icon representing the tracing system as data source for the potentially exposed contact's in the potentially exposed contacts visualization on the Case form.For more information, see [Working on a case through contact tracing visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contact-tracing/contact-tracing-case-visualization.md).
 
 </td></tr><tr><td>
 
@@ -149,6 +150,6 @@ The tracing system is created. The tracing system appears as one of the options 
 
 ## What to do next
 
--   [Associate a system property with a tracing system](associate-sys-property-tracing-system.md).
--   [Create or modify a diagnostic request task configuration](create-diagnostic-task-config.md).
+-   [Associate a system property with a tracing system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/associate-sys-property-tracing-system.md).
+-   [Create or modify a diagnostic request task configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-exposure-management/create-diagnostic-task-config.md).
 

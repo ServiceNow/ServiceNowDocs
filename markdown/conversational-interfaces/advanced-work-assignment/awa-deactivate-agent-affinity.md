@@ -2,6 +2,7 @@
 title: Deactivate Agent Affinity
 description: Deactivate Agent Affinity if you do not want Agent Affinity to assign work assignments to agents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/awa-deactivate-agent-affinity.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

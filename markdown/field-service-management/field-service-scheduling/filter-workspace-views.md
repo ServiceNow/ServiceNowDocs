@@ -2,6 +2,7 @@
 title: Filter Dispatcher Workspace views
 description: Filter the map view, hybrid view, and schedule view of Dispatcher Workspace to display only the items that interest you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/filter-workspace-views.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -25,7 +26,7 @@ Role required: wm\_dispatcher
 
 2.  Select **Dispatcher workspace**.
 
-3.  Select the Filter icon \(![filter icon](../image/filter-right-side.png)\).
+3.  Select the Filter icon \(\[Omitted image "filter-right-side.png"\] Alt text: filter icon\).
 
 4.  Determine the information that you want to display.
 

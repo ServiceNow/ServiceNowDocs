@@ -2,6 +2,7 @@
 title: Complete and close the Pick Up task for an enterprise asset
 description: Complete and close the Pick Up task for the enterprise asset that is associated with your assigned work order.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/complete-pickup-task-work-order.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -101,5 +102,5 @@ The state of the Pick Up task changes from Open to Closed Complete.
 
 Complete all required work for the enterprise asset so that you can close the work order.
 
-**Parent Topic:**[Managing work for your enterprise assets](../concept/managing-work-enterprise-assets.md)
+**Parent Topic:**[Managing work for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/managing-work-enterprise-assets.md)
 

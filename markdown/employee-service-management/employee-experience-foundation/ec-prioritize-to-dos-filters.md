@@ -2,6 +2,7 @@
 title: Enable prioritization by filter
 description: If you are ordering the to-dos by filter instead of due date, you must enable the sn\_hr\_sp.todos\_config\_display\_with\_priority property, add the Display priority field to the to-dos configuration form, and assign each to-dos filter a priority number.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ec-prioritize-to-dos-filters.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -21,7 +22,7 @@ Role required: sn\_hr\_sp.esc\_admin
 
 The to-dos will then be sorted by the filter they are associated with. Within each filter, the to-dos will be sorted by due date.
 
-When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 ## Procedure
 

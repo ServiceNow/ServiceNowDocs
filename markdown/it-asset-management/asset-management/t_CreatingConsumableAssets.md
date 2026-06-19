@@ -2,13 +2,14 @@
 title: Create consumable assets
 description: Create a consumable to track an asset as a group of the same model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_CreatingConsumableAssets.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Consumables life cycle, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Consumables life cycle, Use, Asset Management, IT Asset Management]
 ---
 
 # Create consumable assets
@@ -233,5 +234,5 @@ Work notes related to the asset.
 </table>2.  Click **Submit**.
 
 
-**Parent Topic:**[Consumables life cycle](../concept/c_FollowLifeCycleConsumbl.md)
+**Parent Topic:**[Consumables life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/c_FollowLifeCycleConsumbl.md)
 

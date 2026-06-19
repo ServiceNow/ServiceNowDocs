@@ -2,13 +2,14 @@
 title: Create an access control list for an insurance policy table
 description: Create an access control list \(ACL\) for a table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table by using the Insurance claims application. By creating an ACL, you ensure that users with specific roles can interact with tables for a particular insurance policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/insurance-claims/create-an-access-control-list-for-the-insurance-policy-table.html
 release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setting up an insurance policy for Insurance claims, Setting up the policy data for Insurance claims, Configure, Insurance claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Setting up an insurance policy for Insurance claims, Setting up the policy data for Insurance claims, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create an access control list for an insurance policy table
@@ -17,7 +18,7 @@ Create an access control list \(ACL\) for a table that extends the Insurance Pol
 
 ## Before you begin
 
-Create a role to assign access to a table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table. For more information, see [Create a role to access insurance policy tables](create-roles-acls-and-grant-access.md).
+Create a role to assign access to a table that extends the Insurance Policy \(sn\_bom\_ins\_policy\) table. For more information, see [Create a role to access insurance policy tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/create-roles-acls-and-grant-access.md).
 
 Role required: admin
 
@@ -44,7 +45,7 @@ The insurance policy table contains the ACLs for the roles in your workflow, pro
 
 ## What to do next
 
-Grant the Insurance claims contributor \(sn\_ins\_gen\_claim.fnol\_representative\) and agent \(sn\_ins\_gen\_claim.processor\) roles so that they can access the insurance policy table. For more information, see [Grant the Insurance claims roles access to an insurance policy table](grant-insurance-claims-roles-access-to-the-insurance-policy-table.md).
+Grant the Insurance claims contributor \(sn\_ins\_gen\_claim.fnol\_representative\) and agent \(sn\_ins\_gen\_claim.processor\) roles so that they can access the insurance policy table. For more information, see [Grant the Insurance claims roles access to an insurance policy table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/grant-insurance-claims-roles-access-to-the-insurance-policy-table.md).
 
-**Parent Topic:**[Setting up an insurance policy for Insurance claims](../concept/set-up-an-insurance-policy.md)
+**Parent Topic:**[Setting up an insurance policy for Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/insurance-claims/set-up-an-insurance-policy.md)
 

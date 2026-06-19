@@ -2,6 +2,7 @@
 title: Set up transcription for Amazon Connect
 description: Configure Conversational IVR with Amazon Connect application to store the conversation between the agent and the user over Softphone as a transcript.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/setup-amzn-transcription-ggl-sentiment.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -23,7 +24,7 @@ Role required: admin
 
 -   The voice transcript is stored by Amazon Connect, a third-party provider, post the voice conversation in the \[sys\_cs\_message\] table.
 -   Messages between the User and the Agent are fetched by transcript API and attached to the Conversation. Also, the sentiment score from Amazon for each message is considered to derive overall Sentiment of User and Agent Conversation.
--   From Utah, the voice transcription is available real-time with the APIs that persist transcribed messages of an on-going phone call in real time. The messages are displayed in the Agent workspace chat panel along with previous conversation history \(if enabled\) and allows the Agent to leverage features like agent assist and search while actively talking to the caller. For more information about using Transcript API for real-time transcription, see [Voice Interaction Resource API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/voice-interaction-resource-api.md).
+-   From Utah, the voice transcription is available real-time with the APIs that persist transcribed messages of an on-going phone call in real time. The messages are displayed in the Agent workspace chat panel along with previous conversation history \(if enabled\) and allows the Agent to leverage features like agent assist and search while actively talking to the caller. For more information about using Transcript API for real-time transcription, see Voice Interaction Resource API.
 
     To date, we ensure that performance is acceptable for the volume of transactions, about 5 million utterances/day/customer.
 
@@ -48,7 +49,7 @@ Role required: admin
 
 6.  Select the **Name** of the existing S3 bucket from the drop-down and click **Save**.
 
-7.  Copy the S3 bucket name from the Data storage page, under the Call recordings section.![The Amazon S3 bucket name from the Data storage page.](../images/copy-s3-bucket.png)
+7.  Copy the S3 bucket name from the Data storage page, under the Call recordings section.\[Omitted image "copy-s3-bucket.png"\] Alt text: The Amazon S3 bucket name from the Data storage page.
 
 8.  Navigate to **AWS Lambda** &gt; **Functions** and select the**SN\_CI\_CC\_ProcessRequest** Function name.
 
@@ -64,12 +65,12 @@ Role required: admin
 
     2.  Find the Sentiment Analysis \(com.glide.cs.sentiment\) application using the filter criteria and search bar and click **Install**.
 
-    3.  Select the **Enable Sentiment Analysis** check box on the Amazon Connect's messaging channel record to enable Sentiment Analysis in your ServiceNow instance.![Amazon Connect messaging channel window, with Enable Sentiment Analysis option highlighted.](../images/amz-sentiment-analysis.png)
+    3.  Select the **Enable Sentiment Analysis** check box on the Amazon Connect's messaging channel record to enable Sentiment Analysis in your ServiceNow instance.\[Omitted image "amz-sentiment-analysis.png"\] Alt text: Amazon Connect messaging channel window, with Enable Sentiment Analysis option highlighted.
 
     4.  Create a connection for the Google Sentiment Analysis API.
 
         -   Create a service account on Google Cloud and the Cloud Natural Language API. For more information, see [https://cloud.google.com/natural-language/docs/sentiment-analysis-gcloud](https://cloud.google.com/natural-language/docs/sentiment-analysis-gcloud).
-        -   Download JSON file and create a JAVA Key Store Certificate. For more information, see [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/create-jks-google.md)
+        -   Download JSON file and create a JAVA Key Store Certificate. For more information, see Create a Java KeyStore certificate
         -   Navigate to **Workflow Studio** &gt; **Connections** &gt; **Google Sentiment Analysis**.
         -   Set the following fields using the JSON and generated `.jks` file.
         -   Click **Get Auth Token**.
@@ -100,5 +101,5 @@ Role required: admin
         ```
 
 
-**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](../concept/configure-aws-account.md)
+**Parent Topic:**[Configuring your AWS account for use with Conversational IVR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-aws-account.md)
 

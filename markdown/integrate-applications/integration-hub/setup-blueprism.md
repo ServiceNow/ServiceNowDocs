@@ -2,6 +2,7 @@
 title: Set up the Blue Prism spoke
 description: Integrate your ServiceNow instance with the Blue Prism server to have the requests from your ServiceNow instance authenticated.Configure the Dispatch Framework and Process info utilities in your Blue Prism environment to enable integration with ServiceNow.Create a connection and credential record to enable your ServiceNow instance to connect to the Blue Prism ProcessInfo utility. The record is a single form that contains all the information needed to connect to the Blue Prism ProcessInfo utility every time.Create a connection and credential record to enable your instance to connect to the Blue Prism Process Dispatcher utility. The record is a single form that contains all the information needed to connect to the Blue Prism ProcessInfo utility every time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-blueprism.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -83,15 +84,15 @@ Role required: admin.
 
     A new connection and credential record is created in the Connections tab. This is the default record unless you create another record and set that as default.
 
-    ![Default connection and credential record created for Blue Prism spoke.](../image/blue-prism-procinfo-connection-credential-saved.png "Default connection and credential record created")
+    \[Omitted image "blue-prism-procinfo-connection-credential-saved.png"\] Alt text: Default connection and credential record created for Blue Prism spoke.
 
 6.  Click to open the record.
 
 7.  Enable the **Use MID server** option.
 
-    ![Mid server option in Blue Prism connection and credential record.](../image/select-mid-server-option-blue-prism.png "Mid server option")
+    \[Omitted image "select-mid-server-option-blue-prism.png"\] Alt text: Mid server option in Blue Prism connection and credential record.
 
-    To set up the MID Server for this spoke, see [Set up MID Server for a spoke](config-adv-mid-settings-for-oauth-on-mid.md).
+    To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 
 
 ## Create Connection and Credential record for Blue Prism Process Dispatcher
@@ -125,12 +126,12 @@ Role required: admin.
 
     A new connection and credential record is created in the Connections tab. This is the default record unless you create another record and set that as default.
 
-    ![Blue Prism Process Dispatcher connection and credential record.](../image/blueprism-pd-conn-cred-created.png "Blue Prism Process Dispatcher connection and credential record")
+    \[Omitted image "blueprism-pd-conn-cred-created.png"\] Alt text: Blue Prism Process Dispatcher connection and credential record.
 
 6.  Click to open the record.
 
 7.  Enable the **Use MID server** option.
 
-    To set up the MID Server for this spoke, see [Set up MID Server for a spoke](config-adv-mid-settings-for-oauth-on-mid.md).
+    To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 
 

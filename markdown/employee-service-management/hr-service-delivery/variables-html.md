@@ -2,6 +2,7 @@
 title: Variables supported in HTML document templates
 description: Include customized variables in a document template in addition to the variables that are available in the Select Variables field in the HTML document template configuration page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/variables-html.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

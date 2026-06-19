@@ -2,6 +2,7 @@
 title: Bulk hierarchy upload
 description: Use the Bulk hierarchy upload feature to import campus, building, and floor details by uploading Excel or CSV files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/bulk-upload-hierarchy.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping

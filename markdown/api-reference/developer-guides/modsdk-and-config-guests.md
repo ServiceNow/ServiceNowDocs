@@ -2,6 +2,7 @@
 title: Configure tables to work with guests
 description: If you want guest users to be able to interact with data within a table on your ServiceNow instance, you must configure the table to be guest accessible.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/modsdk-and-config-guests.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -27,7 +28,7 @@ Role required: admin
 
     2.  In the **Page** field, enter the name of the table for which to add public access.
 
-        ![Public Page record](../../image/mob_sdk-set-public-page.png)
+        \[Omitted image "mob\_sdk-set-public-page.png"\] Alt text: Public Page record
 
     1.  Select **Submit.**
 
@@ -59,10 +60,10 @@ Role required: admin
 
     4.  In **Requires role**, insert a new row and select the `public` role.
 
-        ![Adding guest user ACLs](../../image/modsdk-table-guest-user-access.png)
+        \[Omitted image "modsdk-table-guest-user-access.png"\] Alt text: Adding guest user ACLs
 
 4.  Select **Submit** to save your changes.
 
-    When complete, there should be two ACLs for each guest user \(public\) CRUD operation. One with a ".\*" at the end of the table name and one without. ![Successful guest CRUD operations](../../image/mob_sdk-public-CRUD-ops.png)
+    When complete, there should be two ACLs for each guest user \(public\) CRUD operation. One with a ".\*" at the end of the table name and one without. \[Omitted image "mob\_sdk-public-CRUD-ops.png"\] Alt text: Successful guest CRUD operations
 
 

@@ -2,11 +2,12 @@
 title: Anonymization of encrypted columns
 description: When creating data privacy policies, you may include columns that are also protected by Column Level Encryption \(CLE\). How you handle those columns depends on your organization’s compliance requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/anonymization-of-encrypted-columns.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Data anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---

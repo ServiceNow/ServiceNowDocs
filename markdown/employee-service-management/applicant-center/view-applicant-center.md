@@ -2,11 +2,12 @@
 title: Access the Applicant Center
 description: Log in to the Applicant Center without a password and explore the portal easily.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/view-applicant-center.html
 release: australia
 product: Applicant Center
 classification: applicant-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Applicant Center, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
@@ -33,7 +34,7 @@ An applicant can log in to the Applicant Center without the need for a password 
 
 3.  If the link expires, select **Send a new invite** from the pop-up window prompt.
 
-    ![Pop-up window displays login is expired with a magic link re-generation link](../images/applicant-new-link-invite.png "Login expiration window")
+    \[Omitted image "applicant-new-link-invite.png"\] Alt text: Pop-up window displays login is expired with a magic link re-generation link
 
 4.  In the **Email** field, enter your registered email address.
 
@@ -42,5 +43,5 @@ An applicant can log in to the Applicant Center without the need for a password 
 6.  Select **View Applicant Center** to re-login to the Applicant Center.
 
 
-**Parent Topic:**[Using Applicant Center](../concept/use-applicant-center.md)
+**Parent Topic:**[Using Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/applicant-center/use-applicant-center.md)
 

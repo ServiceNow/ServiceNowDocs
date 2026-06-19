@@ -2,6 +2,7 @@
 title: Trouble Ticket Open API Developer Guide
 description: Use the Trouble Ticket Open API to manage ticket information between external ticketing systems and the ServiceNow AI Platform. This API creates, updates, and retrieves data from the Case \[sn\_customerservice\_case\] and Incident \[incident\] tables.The Trouble Ticket Open API can be extended by editing script includes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/trouble-ticket\_dev-guide.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -15,7 +16,7 @@ breadcrumb: [Developer guides, API implementation and reference]
 
 Use the Trouble Ticket Open API to manage ticket information between external ticketing systems and the ServiceNow AI Platform. This API creates, updates, and retrieves data from the Case \[sn\_customerservice\_case\] and Incident \[incident\] tables.
 
-This developer guide provides information on how to extend the [Trouble Ticket Open API](../../../inbound-rest/concept/trouble-ticket-open-api.md#) to make various customizations.
+This developer guide provides information on how to extend the [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/trouble-ticket-open-api.md) to make various customizations.
 
 ## Extending the Trouble Ticket Open API
 
@@ -106,7 +107,7 @@ TroubleTicketProcessor.prototype = Object.extendsObject(TroubleTicketProcessorOO
 
 ### Additional REST operations
 
-To create additional operations beyond the existing GET, PATCH, and POST operations, [create additional scripted REST resources](../../../custom-web-services/task/t_CreateAScriptedRESTAPIResource.md) for the Trouble Ticket Open API. The logic of the new scripted REST resources should be consistent with the existing operations. Define functions for the new operations in TMFTroubleTicketAPIUtil.
+To create additional operations beyond the existing GET, PATCH, and POST operations, [create additional scripted REST resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/t_CreateAScriptedRESTAPIResource.md) for the Trouble Ticket Open API. The logic of the new scripted REST resources should be consistent with the existing operations. Define functions for the new operations in TMFTroubleTicketAPIUtil.
 
 ### Field mapping
 

@@ -2,6 +2,7 @@
 title: Close a legal hold matter
 description: Close a legal hold matter once the legal hold is officially lifted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-hold-notification/close-lg-hold-notif-matter.html
 release: australia
 product: Legal Hold Notification
 classification: legal-hold-notification
@@ -23,7 +24,7 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(![List icon](../../legal-request-management/image/lsd-lcc-list-icon.png)\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Default lists** tab, navigate to **Matters** &gt; **All**
 
@@ -44,5 +45,5 @@ The message **Legal matter has been closed** appears in the **Activity** section
 
 In the legal hold matter page, the state changes from Work in progress to Closed Complete.
 
-**Parent Topic:**[Using Legal Hold Notification](../concept/use-lg-hold-notif.md)
+**Parent Topic:**[Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
 

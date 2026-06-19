@@ -2,6 +2,7 @@
 title: Create a list visualization with variable columns
 description: You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called Storage, you can create a list report that has a column for the values in this variable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-list-dv-with-var-col.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ You can create a list visualization with variables columns based on a data sourc
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -23,8 +24,8 @@ In the Zurich release, this List replaces the simple list visualization. On migr
 
 **Note:**
 
--   You can include Spotlight information in a list visualization. Configure the list to display information from the Spotlight \[spotlight\] table. For more information, see [Spotlights on Platform Analytics dashboards](../../performance-analytics/concept/spotlights-configurable-workspaces.md). For general information about the Spotlight feature, see [Ranking records with Spotlight](../../performance-analytics/concept/spotlight.md).
--   It is not possible to configure auto refresh on the List visualization. To refresh a List visualization on a dashboard, select the More Options icon ![Context menu icon](../../dashboards/image/icon-vert-3dot-p.png) and choose **Refresh**.
+-   You can include Spotlight information in a list visualization. Configure the list to display information from the Spotlight \[spotlight\] table. For more information, see [Spotlights on Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlights-configurable-workspaces.md). For general information about the Spotlight feature, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight.md).
+-   It is not possible to configure auto refresh on the List visualization. To refresh a List visualization on a dashboard, select the More Options icon \[Omitted image "icon-vert-3dot-p.png"\] Alt text: Context menu icon and choose **Refresh**.
 -   The option to show the total number of records is not available in the new List visualization.
 
 ## Procedure
@@ -33,7 +34,7 @@ In the Zurich release, this List replaces the simple list visualization. On migr
 
 2.  Select **Create data visualization**.
 
-3.  Select the List \(![List visualization icon](../../../reuse/icons/product-icons/list-outline-24.svg)\) visualization type from the category labeled **Other**.
+3.  Select the List \(\[Omitted image "list-outline-24.svg"\] Alt text: List visualization icon\) visualization type from the category labeled **Other**.
 
     The application shows a preliminary version of the report. To view the updated report at any time, select **Run**.
 
@@ -70,11 +71,11 @@ The raw data from a table with no filters applied.
 </td></tr></tbody>
 </table>6.  In the Presentation section, select **+Add**and select the arrow next to **Variables** at the bottom of the available fields.
 
-    Depending on system configuration, you can add fields from tables that extend the selected table.![The Choose fields dialog with Variables option highlighted and the pointer on the the Open item: Variables arrow.](../image/choose-fields-variables-1.png)
+    Depending on system configuration, you can add fields from tables that extend the selected table.\[Omitted image "choose-fields-variables-1.png"\] Alt text: The Choose fields dialog with Variables option highlighted and the pointer on the the Open item: Variables arrow.
 
 7.  In the Variables column select the boxes next to the variables you want to add to the visualization.
 
-    The variables you check are added to the list of selected columns.![The Choose fields dialogue with three variables checked that are also highlighted in the Selected column.](../image/choose-fields-variables-2.png)
+    The variables you check are added to the list of selected columns.\[Omitted image "choose-fields-variables-2.png"\] Alt text: The Choose fields dialogue with three variables checked that are also highlighted in the Selected column.
 
 8.  Select **Apply**.
 
@@ -186,10 +187,10 @@ Group by \(optional\)
 
 </td><td>
 
-The field to group by. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
+The field to group by. For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](../concept/c_ReportRanges.md#).
+-   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/c_ReportRanges.md).
 
 
 </td></tr><tr id="alternative-group-by"><td>
@@ -200,7 +201,7 @@ Add alternative group by
 
 This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
 
-For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](../../performance-analytics/concept/select-group-runtime.md).
+For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/select-group-runtime.md).
 
 **Important:**
 
@@ -431,5 +432,5 @@ Enables the list to be divided across multiple pages. When cleared, list paginat
 </table>10. Select **Save**.
 
 
-**Parent Topic:**[Create a list visualization in the Visualization Designer](create-dv-analytics-list.md)
+**Parent Topic:**[Create a list visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-dv-analytics-list.md)
 

@@ -2,6 +2,7 @@
 title: Define ETL entities
 description: Define the Extract Transform Load \(ETL\) entities used by the Robust Transform Engine.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/define-etl-entities.html
 release: australia
 product: System Import Sets
 classification: system-import-sets

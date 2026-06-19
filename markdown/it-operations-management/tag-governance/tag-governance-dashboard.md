@@ -2,6 +2,7 @@
 title: View Tag Governance metrics
 description: View metrics like tag policy coverage, compliance status, and usage trends on the Tag Governance Insights dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/tag-governance/tag-governance-dashboard.html
 release: australia
 product: Tag Governance
 classification: tag-governance
@@ -22,7 +23,7 @@ Verify the following:
 
 -   To be able to configure reports, log in as a Tag Governance admin \(sn\_itom\_tag.tag\_governance\_admin\).
 -   To be able to view reports, log in as a report viewer \(sn\_itom\_tag.tag\_reports\_viewer\).
--   Tag policies must be configured and audits must be run to populate data. For more information, see [Configure a tag policy for Tag Governance](../task/configure-tag-governance-policy.md).
+-   Tag policies must be configured and audits must be run to populate data. For more information, see [Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/configure-tag-governance-policy.md).
 
 ## Access the dashboard
 
@@ -133,5 +134,5 @@ Displays the least used tags across all CIs.Hover over a bar to view the total c
 **Note:** The chart displays the data of the ten least used tags by CI count. If there are more than ten tags, the remaining data is combined into one bar.
 
 </td></tr></tbody>
-</table>For more information about tag audit results and non-compliant CIs, see [Preview and remediate tag audit failures](../task/perform-remediations-tag-governance.md).
+</table>For more information about tag audit results and non-compliant CIs, see [Preview and remediate tag audit failures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/tag-governance/perform-remediations-tag-governance.md).
 

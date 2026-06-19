@@ -1,32 +1,35 @@
 ---
-title: Set up CMDB success advisor for Data Foundations
-description: Use the CMDB success advisor application to configure and manage the CMDB success advisor for Data Foundations.
+title: CMDB success advisor for Data Foundations setup
+description: The Data Foundations advisor dashboard provides tools to define your principal class scope, monitor CI data quality, and drive targeted improvements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-config-settings.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-06-09"
 reading_time_minutes: 1
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Set up CMDB success advisor for Data Foundations
+# CMDB success advisor for Data Foundations setup
 
-Use the CMDB success advisor application to configure and manage the CMDB success advisor for Data Foundations.
+The Data Foundations advisor dashboard provides tools to define your principal class scope, monitor CI data quality, and drive targeted improvements.
 
 ## Plugins and dependencies
 
 Review the [CMDB success advisor](https://store.servicenow.com/store/app/db28ec5b87bba254221e8409dabb355c) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
-## Set up overview
+## Setup overview
 
-1.  [Get started with Data Foundations advisor dashboard setup](../task/cmdb-sa-df-get-started.md).
+Follow these steps to configure and maintain the Data Foundations advisor dashboard.
 
-    Set up your Data Foundations specific advisor dashboard in CMDB success advisor.
+1.  [Get started with Data Foundations advisor dashboard setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-get-started.md).
 
-2.  [Manage Data Foundations advisor scope in CMDB success advisor](../task/cmdb-sa-df-optimize-dashboard.md).
+    Set up the Data Foundations advisor dashboard by selecting the principal classes that define your scope. CMDB success advisor can automatically configure the dashboard on installation or upgrade when eligibility conditions are met \(see [Automatic dashboard setup in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-auto-setup.md)\). If auto-setup did not run, set up the dashboard manually.
 
-    After completing the initial setup, you can continue to improve your CMDB data quality by adjusting principal class selection for your current Data Foundations goals.
+2.  [Manage Data Foundations advisor scope in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-optimize-dashboard.md).
+
+    After the dashboard is configured, adjust your principal class scope to keep the advisor aligned with your current goals. If principal classes are changed outside the advisor, the Data Foundations advisor detects discrepancies when you open the dashboard \(see [Principal class sync in Data Foundations advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-sync.md)\).
 
 

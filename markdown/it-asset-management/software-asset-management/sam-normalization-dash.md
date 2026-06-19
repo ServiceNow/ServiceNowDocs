@@ -2,6 +2,7 @@
 title: Normalization and Content Service dashboard
 description: View normalization trend charts on the Normalization and Content Service dashboard integrated with Performance Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-normalization-dash.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -41,5 +42,5 @@ The Central Data Service Download Status related list is updated daily when the 
 |Last updated on|Last date and time the data was pulled.|
 |Next action|Next scheduled date and time to pull data.|
 
-**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](../../../use/dashboards/application-content-packs/software-asset-mgmt-content-pack.md)
+**Parent Topic:**[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)
 

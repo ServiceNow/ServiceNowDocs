@@ -2,6 +2,7 @@
 title: Configuring Service Catalog
 description: Service Catalog enables users with the Catalog Administrators role \(catalog\_admin\) to set up the service catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/configuring-service-catalog.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -19,22 +20,22 @@ Service Catalog enables users with the Catalog Administrators role \(catalog\_ad
 
 Set up one or more service catalogs and provides self-service opportunities. You can organize your catalog offerings by using the ability to publish multiple catalogs targeted to specific audiences.
 
--   **[Service catalog categories](c_ServiceCatalogCategories.md)**  
+-   **[Service catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogCategories.md)**  
 Categories organize service catalog items into logical groups. Administrators and catalog administrators can create and configure categories, defining their characteristics and adding content such as catalog items to them.
--   **[Service catalog setup](../topic/p_ServiceCatalogs.md)**  
+-   **[Service catalog setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogs.md)**  
 Service Catalog enables users with the Catalog Administrators role \(catalog\_admin\) to set up the service catalog.
--   **[Service Catalog scoping](scoping-support-catalog.md)**  
+-   **[Service Catalog scoping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/scoping-support-catalog.md)**  
 Scoping support is available to define the limits of entities in Service Catalog.
--   **[Define filters for My Requests](../task/configure-my-requests.md)**  
+-   **[Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/configure-my-requests.md)**  
 Define request filters to filter incidents, requests, or tasks under the **Self-Service** &gt; **My Requests** module in ServiceNow AI Platform, the **My Requests** widget in Service Portal, and the My Requests applet in the Now® Mobile app.
--   **[Delegated request experience](delegated-request-exp.md)**  
+-   **[Delegated request experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/delegated-request-exp.md)**  
 You can request a catalog item on behalf of another user or multiple users using the Requested For variable.
--   **[Service Catalog request fulfillment](request-fulfillment.md)**  
+-   **[Service Catalog request fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-fulfillment.md)**  
 When a user orders a catalog item, a request is created that follows a fulfillment process. A fulfillment process defines the steps to request approval, assign fulfillment tasks, and fulfill requests. Workflow Studio flows, workflows, or execution plans are used to define fulfillment processes.
--   **[Service Catalog security](../topic/p_ServiceCatalogSecurity.md)**  
+-   **[Service Catalog security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/p_ServiceCatalogSecurity.md)**  
 Service Catalog enables you to set the security for catalog with user criteria.
--   **[Service Catalog and CSDM](request-cat-use-case-product-view.md)**  
+-   **[Service Catalog and CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/request-cat-use-case-product-view.md)**  
 The Service Catalog lets you create other catalogs \(such as the Request Catalog and the Product Catalog\) that provide self-service opportunities in the channel you want to use, such as the self-service portal, the mobile app, or the Virtual Agent.
 
-**Parent Topic:**[Service Catalog](service-catalog.md)
+**Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog.md)
 

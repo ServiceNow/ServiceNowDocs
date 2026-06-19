@@ -2,6 +2,7 @@
 title: Delete an exporter
 description: Delete an exporter to ensure that users cannot use it to generate config data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/cdm-exporter-delete.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -17,18 +18,18 @@ Delete an exporter to ensure that users cannot use it to generate config data.
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_exporter\_editor or cdm\_editor or cdm\_admin
 
 ## About this task
 
 -   You cannot delete, modify, or activate exporters that are included in the CDM content pack. Exporters in the content pack have a **Source** value of **ServiceNow**.
--   If an exporter has performed a standard execution, you cannot delete it. This ensures a complete and accurate audit trail. You can archive an exporter that has performed a standard execution. See [Archive an exporter](cdm-exporter-archive.md).
+-   If an exporter has performed a standard execution, you cannot delete it. This ensures a complete and accurate audit trail. You can archive an exporter that has performed a standard execution. See [Archive an exporter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-exporter-archive.md).
 -   If an exporter does not have a standard execution, then you can delete all draft versions and published versions by deleting the exporter.
 -   You can delete any draft version of an exporter.
 
-**Tip:** You cannot generate a draft version of a content pack exporter, but you can duplicate one and edit draft versions of the duplicate. Editing a duplicate of a content pack exporter is a good way to create a custom exporter. See [Create a custom exporter](cdm-exporter-create-custom.md).
+**Tip:** You cannot generate a draft version of a content pack exporter, but you can duplicate one and edit draft versions of the duplicate. Editing a duplicate of a content pack exporter is a good way to create a custom exporter. See [Create a custom exporter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/cdm-exporter-create-custom.md).
 
 ## Procedure
 

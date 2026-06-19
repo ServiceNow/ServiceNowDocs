@@ -2,6 +2,7 @@
 title: Using Certificates for authentication
 description: Request an access token with a certificate credential.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/using-certificates-for-authentication.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -51,21 +52,21 @@ Role required: admin
 
     The **Thumbprint** value is a hexadecimal value.
 
-    ![Thumbprint of the uploaded certificate.](../../../administer/integrationhub-store-spokes/image/ms-sharept-thumbprint.png)
+    \[Omitted image "ms-sharept-thumbprint.png"\] Alt text: Thumbprint of the uploaded certificate.
 
 7.  Encode the **Thumbprint** value to a Base64 value and record the value for later use.
 
     **Note:** You can use a Hexadecimal to Base64 \(Hex to Base64\) converter tool to encode the **Thumbprint** value to a Base64 value.
 
 
--   **[Attach a Java Key Store certificate for MS Teams](attach-a-java-key-store-certificate-for-ms-teams.md)**  
+-   **[Attach a Java Key Store certificate for MS Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/attach-a-java-key-store-certificate-for-ms-teams.md)**  
 Enable the JWT Bearer Grant token authentication by attaching a valid Java Key Store \(JKS\) certificate.
--   **[Configure the JWT signing key for MS Teams](configure-the-jwt-signing-key-for-ms-teams.md)**  
+-   **[Configure the JWT signing key for MS Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-the-jwt-signing-key-for-ms-teams.md)**  
 Create a JSON Web Token \(JWT\) signing key to assign to your Java Key Store certificate.
--   **[Configure the JWT provider for MS Teams](configure-the-jwt-provider-for-ms-teams.md)**  
+-   **[Configure the JWT provider for MS Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/configure-the-jwt-provider-for-ms-teams.md)**  
 Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.
--   **[Establish a connection using certificates](establish-a-connection-using-certificates.md)**  
+-   **[Establish a connection using certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/establish-a-connection-using-certificates.md)**  
 Establish a connection between newly created Microsoft Teams graph application using certificates.
 
-**Parent Topic:**[Establish MS Teams Graph connection on ServiceNow AI Platform](../../security-incident-response/task/msim-micorsoft-team-requirements.md)
+**Parent Topic:**[Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
 

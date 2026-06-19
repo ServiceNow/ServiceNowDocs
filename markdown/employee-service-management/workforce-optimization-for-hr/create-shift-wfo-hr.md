@@ -2,6 +2,7 @@
 title: Create a shift plan
 description: Schedule shifts for your team to make sure you cover all work assignments and breaks. You can also specify the days of the week that you want to override scheduled shifts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/create-shift-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -27,19 +28,19 @@ In the **Shifts** tab, the shifts are grouped by active and inactive shifts. The
 
 1.  Navigate to **Workspaces** &gt; **Manager Workspace**.
 
-2.  Click the Schedule \(![Schedule icon](../../workforce-optimization-for-customer-service-configurable/image/schedule-new.png)\) icon.
+2.  Click the Schedule \(\[Omitted image "schedule-new.png"\] Alt text: Schedule icon\) icon.
 
 3.  Click the **Shifts** tab.
 
 4.  Click the plus \(+\) icon.
 
-    -   To create a work shift, see [Create a work shift](create-work-shift-wfo-hr.md).
-    -   To create an On-call shift, see [Create an on-call shift](create-on-call-shift-wfo-hr.md).
+    -   To create a work shift, see [Create a work shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-work-shift-wfo-hr.md).
+    -   To create an On-call shift, see [Create an on-call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-on-call-shift-wfo-hr.md).
 
--   **[Create a work shift](create-work-shift-wfo-hr.md)**  
+-   **[Create a work shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-work-shift-wfo-hr.md)**  
 Create a work shift.
--   **[Create an on-call shift](create-on-call-shift-wfo-hr.md)**  
+-   **[Create an on-call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/create-on-call-shift-wfo-hr.md)**  
 Create on-call shift.
 
-**Parent Topic:**[Scheduling in Workforce Optimization for HR](../concept/scheduling-configurable-wfo-hr.md)
+**Parent Topic:**[Scheduling in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/scheduling-configurable-wfo-hr.md)
 

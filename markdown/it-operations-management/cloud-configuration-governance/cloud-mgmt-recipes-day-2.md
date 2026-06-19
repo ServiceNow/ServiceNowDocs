@@ -2,6 +2,7 @@
 title: Cloud Provisioning and Governance Recipes
 description: Multi-cloud recipes provide ready content for typical cloud deployment and common operations scenarios across cloud platforms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/cloud-mgmt-recipes-day-2.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance

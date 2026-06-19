@@ -2,6 +2,7 @@
 title: Configure the application registry for 3E Regulatory Intelligence
 description: Configure 3E Regulatory Intelligence with Health and Safety Environmental Management to retrieve regulatory list data from 3E server and populate the Regulatory tab on chemical substance records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-configure-app-register-3e-reg-intelligence.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -38,5 +39,5 @@ For more information about the 3E Regulatory Intelligence API and subscription r
 4.  Select **Update**.
 
 
-**Parent Topic:**[3E Regulatory Intelligence](../concept/hs-3e-regulatory-intelligence.md)
+**Parent Topic:**[3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-3e-regulatory-intelligence.md)
 

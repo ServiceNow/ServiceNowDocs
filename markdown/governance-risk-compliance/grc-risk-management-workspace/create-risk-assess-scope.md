@@ -2,6 +2,7 @@
 title: Create a risk assessment scope and initiate assessments
 description: Create a risk assessment scope to define and identify risks for an entity. Identify assessors and approvers for assessments, and define the frequency of assessments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-risk-assess-scope.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -173,5 +174,5 @@ If you want to cancel an assessment for risks that no longer need to be assessed
 
 **Note:** When a risk assessment is canceled, the risk assessors are notified about the cancellation and the tasks are removed from their queue.
 
-**Parent Topic:**[Perform Advanced Risk Assessment](../concept/use-advanced-risk-assessment.md)
+**Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

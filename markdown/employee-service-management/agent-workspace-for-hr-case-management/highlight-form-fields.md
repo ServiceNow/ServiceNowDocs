@@ -2,6 +2,7 @@
 title: Highlight fields in Agent Workspace for HR Case Management
 description: Highlight fields in the workspace to call an agent's attention to them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/highlight-form-fields.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -74,7 +75,7 @@ The workspace this highlighting applies to.Select **Agent Workspace**
 
 6.  On the form, fill in the fields.
 
-    For a description of field values, see [Highlighted value condition form](../reference/highlighted-value-form.md).
+    For a description of field values, see [Highlighted value condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/agent-workspace-for-hr-case-management/highlighted-value-form.md).
 
 7.  Select **Submit**.
 

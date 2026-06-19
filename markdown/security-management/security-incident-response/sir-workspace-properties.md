@@ -2,6 +2,7 @@
 title: Security Analyst Workspace properties
 description: These system properties are used to configure the Security Analyst Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-workspace-properties.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

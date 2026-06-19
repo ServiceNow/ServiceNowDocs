@@ -2,6 +2,7 @@
 title: Bulk upload Excel columns
 description: Use the bulk upload template to provide information about your campuses, buildings, and floors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/bulk-template-columns.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -163,9 +164,9 @@ Enable in Default View
 Option to enable the floor for the Default Indoor Mapping feature. You must fill in `YES` or `NO` in this column.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Indoor Mapping references](../concept/indoor-mapping-references.md)
+</table>**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
 
-**Previous topic:**[Enhanced Sync Properties](enhanced-sync-properties.md)
+**Previous topic:**[Enhanced Sync Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/enhanced-sync-properties.md)
 
-**Next topic:**[Workplace Central](../../workplace-central/concept/workplace-central-feat.md)
+**Next topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-central/workplace-central-feat.md)
 

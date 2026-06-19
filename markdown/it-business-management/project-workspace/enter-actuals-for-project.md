@@ -2,6 +2,7 @@
 title: Enter actuals spent in a project in classic Project Workspace
 description: Enter actual spends in your project to track the fund utilization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/enter-actuals-for-project.html
 release: australia
 product: Project Workspace
 classification: project-workspace
@@ -41,12 +42,12 @@ When you spend funds allocated to your project to complete your project activiti
 
 5.  In the Funds list, enter the actual amount spent in the project under the **Actual CapEx** and **Actual OpEx** columns for the corresponding funding source.
 
-    **Note:** If you do not see the **Actual CapEx** and **Actual OpEx** columns in the list, select them from the configuration icon \(![Configuration icon](../image/configuration_investment.png)\).
+    **Note:** If you do not see the **Actual CapEx** and **Actual OpEx** columns in the list, select them from the configuration icon \(\[Omitted image "configuration\_investment.png"\] Alt text: Configuration icon\).
 
 
 ## Result
 
 The entered amount is updated as actuals for the project.
 
-**Parent Topic:**[Project workspace classic - Legacy](../concept/project-workspace-classic.md)
+**Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/project-workspace/project-workspace-classic.md)
 

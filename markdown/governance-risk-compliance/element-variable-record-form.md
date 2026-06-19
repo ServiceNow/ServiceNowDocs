@@ -2,6 +2,7 @@
 title: Element variable record form
 description: Use the Element variable record form to configure an element variable. Element variables are custom elements that are used in the Grid configuration. You can set up an element variable that is specific custom columns, which are required for a particular dependency of an element.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/element-variable-record-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -31,5 +32,5 @@ For description of the field values, see the table.
 |Default Value|
 |Default value|Description for the default value of the element variable.|
 
-**Parent Topic:**[Configure element variables for element definitions](../task/configure-element-variable-uib-ws.md)
+**Parent Topic:**[Configure element variables for element definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-element-variable-uib-ws.md)
 

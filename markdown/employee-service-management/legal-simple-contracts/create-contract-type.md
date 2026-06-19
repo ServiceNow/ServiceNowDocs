@@ -2,6 +2,7 @@
 title: Create a contract type
 description: Create a contract type for defining different types of legal contract requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/create-contract-type.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts

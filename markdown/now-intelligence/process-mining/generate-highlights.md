@@ -2,6 +2,7 @@
 title: Generate highlights for improvement opportunities
 description: Generate highlights for the improvement opportunities to optimize your processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/generate-highlights.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -27,7 +28,7 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
 3.  Go to the Opportunities details page.
 
-    For more information about Opportunities details page, see [Opportunity details page](../concept/opportunity-details.md).
+    For more information about Opportunities details page, see [Opportunity details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/opportunity-details.md).
 
 4.  Select the Improvement Opportunities icon on the right-side panel.
 
@@ -48,5 +49,5 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
     The highlights for the selected improvement opportunity are displayed.
 
 
-**Parent Topic:**[Using Now Assist for Process Mining](../concept/use-na-process-mining.md)
+**Parent Topic:**[Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/use-na-process-mining.md)
 

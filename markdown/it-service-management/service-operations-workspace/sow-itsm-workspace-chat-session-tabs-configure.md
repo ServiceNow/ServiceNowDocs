@@ -2,6 +2,7 @@
 title: Configure chat session tabs in SOW
 description: Enable the chat session tabs feature and configure values for the chat SLA threshold timers in the SOW admin center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs-configure.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Enable the [ITSM Configurable Workspace chat session tabs in SOW](../concept/sow-itsm-workspace-chat-session-tabs.md) feature and select the workspace that the feature applies to. You can also select values for two different chat SLA threshold timers that alert agents about unread messages in inactive chats. These timers alert agents by changing the tab colors of the inactive chats. For more information to change the tab colors, see [tab colors](../concept/sow-itsm-workspace-chat-session-tabs.md#section_rsb_4j2_fdc).
+Enable the [ITSM Configurable Workspace chat session tabs in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md) feature and select the workspace that the feature applies to. You can also select values for two different chat SLA threshold timers that alert agents about unread messages in inactive chats. These timers alert agents by changing the tab colors of the inactive chats. For more information to change the tab colors, see [tab colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md).
 
 ## Procedure
 
@@ -44,5 +45,5 @@ Enable the [ITSM Configurable Workspace chat session tabs in SOW](../concept/sow
 5.  Select **Save**.
 
 
-**Parent Topic:**[ITSM Configurable Workspace chat session tabs in SOW](../concept/sow-itsm-workspace-chat-session-tabs.md)
+**Parent Topic:**[ITSM Configurable Workspace chat session tabs in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md)
 

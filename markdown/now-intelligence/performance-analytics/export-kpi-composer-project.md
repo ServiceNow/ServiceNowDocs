@@ -2,6 +2,7 @@
 title: Export a KPI Composer project
 description: To copy a KPI Composer project between instances, first export the project as a JSON file.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/export-kpi-composer-project.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics
@@ -16,7 +17,7 @@ breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fu
 To copy a KPI Composer project between instances, first export the project as a JSON file.
 
 Prerequisites
-:   [Create a KPI Composer project](create-kpi-composer-project.md)
+:   [Create a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/create-kpi-composer-project.md)
 
 ## Before you begin
 
@@ -39,7 +40,7 @@ The following fields are not exported with a project:
 
 2.  From the **Options** menu of the project you want to export, select **Export**.
 
-    ![Options menu on a project card showing Export option.](../image/kpi-comp-export-project.png)
+    \[Omitted image "kpi-comp-export-project.png"\] Alt text: Options menu on a project card showing Export option.
 
 3.  Read the notice about which fields are not exported.
 
@@ -50,9 +51,9 @@ The following fields are not exported with a project:
 
 The KPI Composer project is saved in a JSON file in the download destination of your computer. The file name has the format `ProjectExport.[Project_name].[Timestamp].json`. For example, for a project named Incident Cost Project, the export file name is `ProjectExport.Incident_Cost_Project.2021-11-22_19_13_20.json`.
 
-**Parent Topic:**[KPI Composer projects](../concept/kpi-composer-projects.md)
+**Parent Topic:**[KPI Composer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/kpi-composer-projects.md)
 
-**Previous topic:**[Share a KPI Composer project](share-a-kpi-composer-project.md)
+**Previous topic:**[Share a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/share-a-kpi-composer-project.md)
 
-**Next topic:**[Import a KPI Composer project](import-kpi-composer-project.md)
+**Next topic:**[Import a KPI Composer project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/performance-analytics/import-kpi-composer-project.md)
 

@@ -2,13 +2,14 @@
 title: Add and manage requirements
 description: Define and manage requirements for a demand to capture the functional and technical specifications needed for its fulfillment. Keeping requirements up to date within the demand record ensures clarity for stakeholders and reduces ambiguity during the demand evaluation and approval process.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/add-and-manage-requirements-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage demands, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Add and manage requirements
@@ -29,11 +30,11 @@ Demand managers use the Requirement form to describe the requirement and assign 
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demand-workspace.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/access-demand-workspace.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 
-3.  Select **Requirements**.![Use the Requirements tab to add or edit demand requirements.](../images/demand-requirements.png)
+3.  Select **Requirements**.\[Omitted image "demand-requirements.png"\] Alt text: Use the Requirements tab to add or edit demand requirements.
 
     **Note:** If the **Requirements** tab isn’t visible, select **More** and then select **Requirements**.
 
@@ -43,7 +44,7 @@ Demand managers use the Requirement form to describe the requirement and assign 
     -   To update the details of an existing requirement record, select the record.
 5.  On the Create New Requirement form, fill in the fields.
 
-    For a description of the field names, see [Create requirement form](../reference/requirement-form-dw.md) form.
+    For a description of the field names, see [Create requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/requirement-form-dw.md) form.
 
 6.  Select **Save**.
 

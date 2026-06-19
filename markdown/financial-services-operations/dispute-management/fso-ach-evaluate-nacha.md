@@ -2,6 +2,7 @@
 title: Evaluate Nacha operating guidelines
 description: Evaluate the Nacha \(National Automated Clearing House Association\) operating guidelines to ensure that the ACH dispute qualifies for potential reimbursement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/fso-ach-evaluate-nacha.html
 release: australia
 product: Dispute Management
 classification: dispute-management
@@ -35,13 +36,13 @@ To access the knowledge base article:
 
 Dispute agents may use the KB article to manually evaluate whether an ACH transaction is eligible for chargeback.
 
-**Note:** When the ACH disputes resolution agentic workflow in Now Assist for FSO is enabled, the Nacha operating guidelines check AI Agent is available to assist you at this step. See [Evaluate Nacha operating guidelines with AI agent](../../fso-now-assist/task/nacha-guidelines-ai.md) for more information.
+**Note:** When the ACH disputes resolution agentic workflow in Now Assist for FSO is enabled, the Nacha operating guidelines check AI Agent is available to assist you at this step. See [Evaluate Nacha operating guidelines with AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/now-assist-for-financial-services-operations-fso/nacha-guidelines-ai.md) for more information.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
@@ -66,5 +67,5 @@ Dispute agents may use the KB article to manually evaluate whether an ACH transa
 10. Close the task.
 
 
-**Parent Topic:**[Processing an ACH dispute](../concept/process-dispute-ach.md)
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/dispute-management/process-dispute-ach.md)
 

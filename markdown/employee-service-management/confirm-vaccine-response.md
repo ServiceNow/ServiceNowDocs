@@ -2,6 +2,7 @@
 title: Confirm the reported vaccination status for a user
 description: As a Vaccination Status admin or manager, use the Employee Readiness Core Approval Portal to confirm a user's reported COVID-19 vaccination status.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/confirm-vaccine-response.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -17,8 +18,8 @@ As a Vaccination Status adminor manager, use the Employee Readiness Core Approva
 
 Your organization must install both Health and Safety Testing and Vaccination Status to use the Approval Portal.
 
--   For more information on installing Health and Safety Testing, see [Install Health and Safety Testing](../../health-safety-testing/task/install-health-testing.md#).
--   For more information on installing Vaccination Status, see [Install Vaccination Status](install-vaccination-status.md#).
+-   For more information on installing Health and Safety Testing, see [Install Health and Safety Testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-testing/install-health-testing.md).
+-   For more information on installing Vaccination Status, see [Install Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/install-vaccination-status.md).
 
 Activate the **sn\_imt\_vaccine.allow\_managers\_ability\_to\_update\_vaccine\_response\_records** property to enable all managers to confirm the reported vaccination status of their direct reports. This property assigns the sn\_imt\_core.approval\_portal\_manager role to managers and grants access to the Approval Portal for vaccine responses.
 
@@ -30,9 +31,9 @@ In the Approval Portal, you can review the results of user-reported vaccinations
 
 **Note:** Managers can only confirm the vaccine responses only of their direct reports. Vaccine admins and health and safety approvers can confirm the responses of all users.
 
-For more information, see [Set up Vaccination Status properties](config-vaccination-properties.md).
+For more information, see [Set up Vaccination Status properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-vaccination-properties.md).
 
-Organizations that want to automatically review vaccine responses must configure Vaccination Status to support the functionality. For more information, see [Automate reviews of vaccine responses](enable-automated-vaccine-response-reviews.md).
+Organizations that want to automatically review vaccine responses must configure Vaccination Status to support the functionality. For more information, see [Automate reviews of vaccine responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/enable-automated-vaccine-response-reviews.md).
 
 ## Procedure
 
@@ -73,7 +74,7 @@ Organizations that want to automatically review vaccine responses must configure
 
 The record is moved to the **Approved** or **Denied** tab based on your decision and the **Verified by** field in the user's vaccine response record is updated with your name. Based on your organization's configurations, your review might affect the user's COVID-19 vaccine complete status.
 
-For more information on configuring Vaccination Status, see [Set up Vaccination Status properties](config-vaccination-properties.md).
+For more information on configuring Vaccination Status, see [Set up Vaccination Status properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/config-vaccination-properties.md).
 
-**Parent Topic:**[Vaccination Status](../concept/vaccination-status.md)
+**Parent Topic:**[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/vaccination-status.md)
 

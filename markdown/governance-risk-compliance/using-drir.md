@@ -2,6 +2,7 @@
 title: Managing Digital resilience incident reporting
 description: This section details the steps that you can take to report major incidents in the Digital resilience incident reporting application. Assess whether any critical services are affected and classify the reported incident as a major incident if necessary. Notify regulators of major incidents, categorized by their severity and security ratings.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/using-drir.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

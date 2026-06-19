@@ -2,6 +2,7 @@
 title: Create API credentials for Google Vertex AI
 description: Configure your API credentials to use Google Vertex AI in custom workflows and Virtual Agent Designer topics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-google-vertex-ai.html
 release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
@@ -33,7 +34,7 @@ In order to use Google Vertex AI as your LLM provider for Generative AI Controll
 
 3.  Select the **Create New Connection &amp; Credential** related link.
 
-    ![Create New Connection & Credential related link highlighted on the screen.](../image/gai-create-new-connection-vertex.png)
+    \[Omitted image "gai-create-new-connection-vertex.png"\] Alt text: Create New Connection &amp; Credential related link highlighted on the screen.
 
 4.  Fill in the required fields.
 
@@ -97,7 +98,7 @@ Client secret from your OAuth Client ID found in the Google Cloud console
 
 You can now use Completions – Vertex AI and Chat Completions – Vertex AI in Flow Designer, Virtual Agent Designer, and scripts to create custom experiences with generative AI.
 
-![Complete connection for Google Bard Vertex AI.](../image/gai-created-connection-vertex.png)
+\[Omitted image "gai-created-connection-vertex.png"\] Alt text: Complete connection for Google Bard Vertex AI.
 
 ## What to do next
 

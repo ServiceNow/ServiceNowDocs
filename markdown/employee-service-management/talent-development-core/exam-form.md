@@ -2,6 +2,7 @@
 title: Exam form
 description: Use the Exam form to create an exam.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-development-core/exam-form.html
 release: australia
 product: Talent Development Core
 classification: talent-development-core

@@ -2,6 +2,7 @@
 title: MID Server PowerShell files
 description: PowerShell functions are stored in script files \(\*.ps1\) that use a PowerShell Script module \(\*.psm1\) file name extension.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/mid-server-powershell-files.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -26,9 +27,9 @@ The PowerShell functions are used by the PowerShell MID Server script files incl
 
 This script performs a few tasks, such as credential testing, password encryption, and the execution of scripts configured in the Orchestration Activity Designer or in MID Script Files. However, this document focuses on how PSScript.ps1 uses the `credential.psm1` module for testing access to remote hosts.
 
-The PowerShell variables are generally used directly in the [PowerShell execution command](../../../administer/orchestration-activity-designer/task/CreateInputVariables.md#) or as arguments in the MID Server script file you specify. There are special variables that are passed to PSScript.ps1, such as **credType**.
+The PowerShell variables are generally used directly in the [PowerShell execution command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/CreateInputVariables.md) or as arguments in the MID Server script file you specify. There are special variables that are passed to PSScript.ps1, such as **credType**.
 
-![Using credType in execution parameters](../image/credTypeExample.png "Using credType in execution parameters")
+\[Omitted image "credTypeExample.png"\] Alt text: Using credType in execution parameters
 
 ## PowerShell credTypes
 
@@ -115,19 +116,19 @@ The MID Server uses this module file to test access to a target host. The MID Se
 
 This diagram illustrates the dependency of the credential selection behavior on the host being targeted by the PowerShell activity. If the target host is the IP address or host name of the MID Server, the MID Server bypasses all credentials in the Credentials table and uses the account of the MID Server service. If the target host is not the MID Server, then all Windows credentials are used first. If all credentials in the Credentials table are unsuccessful in running the PowerShell activity, then the MID Server uses the MID Server service account.
 
-![PowerShell credential selection criteria](../image/PowerShellCredentialPickingDiagram.png "PowerShell credential selection criteria")
+\[Omitted image "PowerShellCredentialPickingDiagram.png"\] Alt text: PowerShell credential selection criteria
 
 ## ActiveDirectory.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [Active Directory](../../../administer/orchestration-activities/concept/c_OrchActiveDirectoryActivities.md) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the [Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) activity pack.
 
 ## Exchange.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [Exchange](../../../administer/orchestration-activities/concept/c_OrchestrationExchangeActivities.md) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the [Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md) activity pack.
 
 ## SCCM.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [SCCM](../../../administer/orchestration-activities/concept/c_SCCMActivityPack.md) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the [SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md) activity pack.
 
-**Parent Topic:**[PowerShell protocols and troubleshooting](powershell-protocols.md)
+**Parent Topic:**[PowerShell protocols and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/powershell-protocols.md)
 

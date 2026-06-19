@@ -2,7 +2,10 @@
 title: Configure an hourly calendar for Dispatcher Workspace
 description: Configure Dispatcher Workspace to show a calendar with each column representing an hour. In this document were going to show a five-hour calendar, but you can change the number of hours to fit your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/hourly-calendar-dispatcher.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
@@ -27,7 +30,7 @@ Benefits of configuring an hourly calendar include:
 -   **Responsive Design**: Optimized column width and spacing
 -   **Event Management**: Full support for event creation, editing, and visualization
 
-![hourly view span showing](../image/hourly-view.png "Hourly view in Dispatcher Workspace")
+\[Omitted image "hourly-view.png"\] Alt text: hourly view span showing
 
 ## Procedure
 

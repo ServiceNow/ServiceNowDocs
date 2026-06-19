@@ -2,6 +2,7 @@
 title: Screen a visitor for entry to the workplace
 description: Verify the visitor's entry requirement status on your smartphone, tablet, or computer. Then complete and submit the health screening form to determine whether the visitor is able to enter the workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/screen-visitor.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -21,7 +22,7 @@ Role required: sn\_imt\_monitoring.monitoring\_user
 
 ## About this task
 
-A visitor must be invited before they can be screened for entry. If an uninvited visitor needs entry, a health screener can complete the invitation process and then begin screening. For more information, see [Invite a visitor to the workplace](../../employee-readiness-core/task/invite-visitor-workplace.md).
+A visitor must be invited before they can be screened for entry. If an uninvited visitor needs entry, a health screener can complete the invitation process and then begin screening. For more information, see [Invite a visitor to the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-readiness-core/invite-visitor-workplace.md).
 
 ## Procedure
 
@@ -38,15 +39,15 @@ A visitor must be invited before they can be screened for entry. If an uninvited
 
 3.  Take one of the following actions to perform the health screen.
 
-<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d572044e164">
+<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d77972e164">
 
 Option
 
-</th><th align="left" id="d572044e167">
+</th><th align="left" id="d77972e167">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d572044e173">
+</th></tr></thead><tbody><tr><td id="d77972e173">
 
 **Smartphone or tablet**
 
@@ -54,7 +55,7 @@ Action
 
 Tap **Screening** &gt; **Request Visitor Entry**.
 
-</td></tr><tr><td id="d572044e191">
+</td></tr><tr><td id="d77972e191">
 
 **Computer**
 
@@ -175,5 +176,5 @@ The choice of **Yes** or **No** from the list to record whether the visitor is w
     You receive a message that indicates whether to allow the visitor to enter. If the visitor doesn't pass the health screening, provide them with the next steps based on your company policy.
 
 
-**Parent Topic:**[Employee Health Screening](../concept/employee-health-screening.md)
+**Parent Topic:**[Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-health-screening.md)
 

@@ -2,6 +2,7 @@
 title: Customize Now Assist context menu for skills
 description: If you have the admin role, you can customize a Now Assist for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
@@ -36,7 +37,7 @@ Case NACM Config is currently only available for resolution notes and activity r
 
 4.  Find the configuration name **Case NACM Config**.
 
-5.  Under Action, select the ![More actions](../image/csm-ws-dashboards-more-actions-icon.png)icon
+5.  Under Action, select the \[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: More actionsicon
 
 6.  Select **Edit configuration**.
 

@@ -2,6 +2,7 @@
 title: Resolve the failure to submit a self-serve contract
 description: As a contract user, resubmit a contract request that was not submitted due to incomplete signatory information by updating and syncing signatory information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-sync-signatories-fulfiller.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -48,5 +49,5 @@ Role required: sn\_cm\_core.contract\_user
 
 The contract request is resubmitted and the state changes from Draft to Work in progress.
 
-**Parent Topic:**[Updating and synchronizing signatories](cncore-update-sync-signatories.md)
+**Parent Topic:**[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md)
 

@@ -2,6 +2,7 @@
 title: GlideScopedEvaluator - Scoped
 description: The GlideScopedEvaluator API allows you to evaluate scripts in a GlideRecord field from both scoped and global server scripts.Instantiates a GlideScopedEvaluator object.Evaluates a script that resides in a GlideRecord field.Returns a specified variable from a GlideScopedEvaluator object.Sets a variable into the GlideScopedEvaluator object. These variables are available to the script that this GlideScopedEvaluator object runs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideEvaluatorScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideScopedEvaluator API allows you to evaluate scripts in a GlideRecord fie
 
 This API evaluates records with script fields defined. The scope of the script is defined by the scope of the record.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideScopedEvaluator - GlideScopedEvaluator\(\)
 
@@ -33,7 +34,7 @@ Evaluates a script that resides in a GlideRecord field.
 
 |Name|Type|Description|
 |----|----|-----------|
-|grObj|[GlideRecord](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#)|GlideRecord containing a script expression.|
+|grObj|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)|GlideRecord containing a script expression.|
 |scriptField|String|Optional. Name of the field containing the script expression.|
 |variables|Object|Optional. Map of variables with name-value pairs. These variables are available to the script during execution of this method.|
 

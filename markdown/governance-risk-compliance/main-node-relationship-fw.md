@@ -2,10 +2,11 @@
 title: Main node configurations: A component of the Data Relationships Framework
 description: Starting with Release 20.1.x, the Main node configurations, supported by the Data Relationships Framework, are available with Operational Resilience to define dependency roll-up chains. Operational Resilience administrators configure the entity types and pillars, generate the entities, and then establish relationships between different CSDM objects. After this setup is complete, data from the CMDB is fetched into Operational Resilience, displaying rolled-up dependencies in the Workspace view.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/main-node-relationship-fw.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Explore, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -17,15 +18,19 @@ Starting with Release 20.1.x, the Main node configurations, supported by the Dat
 
 The Data Relationships Framework \(sn\_grc\_rel\_config\) application provides the underlying framework to retrieve data from the CMDB. The Main node configurations in Operational Resilience support different business views in the CSDM model. The relationships defined in the Main node configuration align with the relationships specified in the CSDM model.
 
+An overview of on creating a main node configuration 
+
+The video gives you an overview on creating a main node configuration to visualize incident relationships with affected configuration items and child incidents.
+
 ## Setting up the Main node configurations
 
 The Operational Resilience administrators set up the Main node configurations via the Main node configuration module listed in the **General administration** menu of the Core UI.
 
-For information on configuring the Main node configurations, see [Configure the Main node configurations](../task/set-up-main-node.md).
+For information on configuring the Main node configurations, see [Configure the Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/set-up-main-node.md).
 
-![Source module.](../image/main-node-config-src-path.png)
+\[Omitted image "main-node-config-src-path.png"\] Alt text: Source module.
 
-Administrators can also configure the sources of the Main node configurations by accessing the Main node configuration source module. For information on configuring the Main node configuration source, see [Main node configuration source](main-node-configuration-source.md).
+Administrators can also configure the sources of the Main node configurations by accessing the Main node configuration source module. For information on configuring the Main node configuration source, see [Main node configuration source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-configuration-source.md).
 
 ## Changes in the Main node configurations in Operational Resilience, version 21.1.x
 
@@ -46,7 +51,7 @@ Two new properties have been introduced to control the display settings for node
 -   Maximum number of nodes: Determines the total number of nodes that are displayed in the node map.
 -   Maximum number of levels: Specifies the maximum number of hierarchical levels to be shown, from top to bottom.
 
-![Properties.](../image/main-node-config-properties-tab.png)
+\[Omitted image "main-node-config-properties-tab.png"\] Alt text: Properties.
 
 These properties enable you to have more customized and controlled visualization of complex node maps, enhancing the overall user experience.
 
@@ -59,7 +64,7 @@ The existing Node relationship configurations related list has been updated and 
     -   Default type: As shown in the earlier illustration, the "Default type" column displays the hierarchy from top to bottom. It’s the default option.
     -   Group type: Aggregates data at a specific node, providing a more focused view.
 
-        ![Group type.](../image/main-node-config-group-type.png)
+        \[Omitted image "main-node-config-group-type.png"\] Alt text: Group type.
 
     This enhancement enables for more flexible and meaningful visualization of node data.
 
@@ -67,24 +72,24 @@ The existing Node relationship configurations related list has been updated and 
 -   Maximum number of children: You can control maximum number of children to be displayed at the specific node relation. The minimum value for this field is 2.
 -   Direction: Another field added to the relationship configuration is "Direction," which specifies the direction of the relationship between the source and target tables. The direction can be set to either "Target to source" or "Source to target." When set to "Target to source," selecting a specific node displays all its upstream nodes, showing the relationships leading to that node. When set to "Source to target," selecting a specific node displays all its downstream nodes.
 
-    ![Direction.](../image/main-node-config-direction.png)
+    \[Omitted image "main-node-config-direction.png"\] Alt text: Direction.
 
     The "Direction" column helps you to visualize and understand the relationships between nodes.
 
 -   Copy functionality at the Main node: The main node configuration now includes a **Copy** UI action. When this functionality is used, the selected main node configuration is copied and then you’re required to set up the Nexus configuration for the copied main node.
 
-    ![Copy functionality.](../image/copy-main-node.png)
+    \[Omitted image "copy-main-node.png"\] Alt text: Copy functionality.
 
 
 ## Nexus map configurations related list
 
 The Nexus map configurations related list has been introduced in the UI. Configuring the Nexus map configuration for the selected main node helps you to define its UI configuration, determining how the selected node would be displayed in the Nexus map. This setting includes settings for colors, icons, edge configuration, and other visual elements. A single main node configuration can have multiple Nexus configurations, enabling for different data views for the same structure. This flexibility is achieved through configuration at the Nexus map level.
 
-![Nexus map configuration.](../image/main-node-config-nexus-map.png)
+\[Omitted image "main-node-config-nexus-map.png"\] Alt text: Nexus map configuration.
 
 You can select the Nexus map configuration from the related list and view or update its configuration details. The Nexus map configuration for "OpRes resilience map UI" is shown in the example.
 
-![Main node.](../image/main-node-config-nexus-map-main-node-tab.png)
+\[Omitted image "main-node-config-nexus-map-main-node-tab.png"\] Alt text: Main node.
 
 For every selected main node configuration, you must choose the workspace type where you want to apply this configuration. The available workspace type includes the Operation Resilience Workspace.
 
@@ -107,11 +112,11 @@ These configurations enable you to tailor the visualization of your Nexus map ac
 
 The Node configurations related list helps you to configure the UI settings for the selected node. Then the selected node is displayed in the Nexus map according to the UI settings. The following example shows the node configuration settings for the "Opres resilience map UI \(Top to bottom\)" Nexus map configuration.
 
-![Main node.](../image/main-node-config-nexus-map-main-node-tab.png)
+\[Omitted image "main-node-config-nexus-map-main-node-tab.png"\] Alt text: Main node.
 
 Node configuration settings: Selecting the Node configuration related list shows the node configuration settings defined for the selected node. The example shows the node configuration settings defined for the "Entity \[sn\_grc\_profile\]" table.
 
-![Node configuration.](../image/main-node-nexus-map-node-configuration.png)
+\[Omitted image "main-node-nexus-map-node-configuration.png"\] Alt text: Node configuration.
 
 You can update the following UI parameters for the node:
 
@@ -128,19 +133,19 @@ You can update the following UI parameters for the node:
 
 Node map grouping and expansion: The node map displays grouped nodes, such as first node, second node, and third group as expandable. Right-selecting on the grouped node provides the options to either expand the node or view the open list, which lists the number of nodes grouped at that point.
 
-![Grouped node.](../image/expand-fun-node.png)![Open list.](../image/open-list.png)
+\[Omitted image "expand-fun-node.png"\] Alt text: Grouped node.\[Omitted image "open-list.png"\] Alt text: Open list.
 
 Expansion functionality: The node expansion feature enables you to view additional nodes, such as the "passenger information" level shown in the example. The expansion of the nodes is updated dynamically based on the number of levels available, enabling a more detailed and controlled exploration of the node map. By using the expand and open list options, you can efficiently navigate the map and better understand the relationships between nodes.
 
-![Expand group.](../image/expand-group.png)
+\[Omitted image "expand-group.png"\] Alt text: Expand group.
 
 Node map aggregation feature: The node map includes an aggregation feature that enables you to group nodes at a specific level. To use this feature, you can change the main node configuration type from **Default** to **Group** as shown in the example. This action aggregates the nodes at the selected level, providing a more consolidated view.
 
-![Group type.](../image/main-node-config-group-type.png)
+\[Omitted image "main-node-config-group-type.png"\] Alt text: Group type.
 
 When loading a map with a grouped configuration, nodes are initially displayed in a grouped state. Right-selecting on an aggregated node provides the **Open list** option, which displays the entities aggregated at that point.
 
-![Open list option.](../image/open-list-option.png)
+\[Omitted image "open-list-option.png"\] Alt text: Open list option.
 
 This feature simplifies complex node maps, allowing you to focus on specific areas of interest and enhancing overall usability. By using the Group feature, you can more easily analyze and understand the relationships between nodes.
 
@@ -148,17 +153,17 @@ This feature simplifies complex node maps, allowing you to focus on specific are
 
 The Node status configurations related list helps you to define conditions for a table and its related lists for the selected node. The example shows entity conditions since the Entity \[sn\_grc\_profile\] table is being used. These conditions can be set using fields from the node table or related lists. For example, when the conditions defined in the "Related list conditions" panel are met, that specific node is marked with the "Critical" color and the "Exclamation-outline" icon.
 
-![Node status.](../image/main-node-nexus-map-node-status-configuration.png)
+\[Omitted image "main-node-nexus-map-node-status-configuration.png"\] Alt text: Node status.
 
 In this way, when the defined conditions are met, the node status configuration is updated accordingly.
 
 You can define multiple filter conditions as shown in the Conditions column.
 
-![Conditions.](../image/main-node-node-status-condition.png)
+\[Omitted image "main-node-node-status-condition.png"\] Alt text: Conditions.
 
 Default node status configuration: When a condition isn’t defined for the node status configuration, it’s the default node status configuration.
 
-![Default node status configuration.](../image/main-node-node-status-default-condition.png)
+\[Omitted image "main-node-node-status-default-condition.png"\] Alt text: Default node status configuration.
 
 By configuring these settings, you can customize the display and behavior of nodes in the Nexus map to suit your needs.
 
@@ -166,7 +171,7 @@ By configuring these settings, you can customize the display and behavior of nod
 
 Edge configurations can be set up similarly to node configurations. For a given relationship between entities \(for example, upstream or downstream\), you can define two edge configurations.
 
-![Edge configuration.](../image/main-node-nexus-map-edge-configuration.png)
+\[Omitted image "main-node-nexus-map-edge-configuration.png"\] Alt text: Edge configuration.
 
 Edge settings: You can customize the following edge settings:
 
@@ -176,11 +181,11 @@ Edge settings: You can customize the following edge settings:
 
 The Edge configurations related list and Edge configuration record are displayed in the following examples.
 
-![Edge configurations related list.](../image/edge-config-record.png)![Edge configurations record.](../image/edge-config-record.png)
+\[Omitted image "edge-config-record.png"\] Alt text: Edge configurations related list.\[Omitted image "edge-config-record.png"\] Alt text: Edge configurations record.
 
 The following example shows the maximum number of children from Source to target direction as 3.
 
-![Maximum number of children.](../image/node-rel-config-3.png)
+\[Omitted image "node-rel-config-3.png"\] Alt text: Maximum number of children.
 
 As a result, for every node, the maximum number of children shown is 3.
 
@@ -188,7 +193,7 @@ As a result, for every node, the maximum number of children shown is 3.
 
 Edge status configurations can be defined based on specific conditions. You can set the edge color, type, and other properties based on these conditions. For example, you can set an edge to display in magenta by default, or change its type to dashed or solid based on a specific condition. By configuring these edge settings, you can create a more informative and visually appealing Nexus map. The edge configuration settings complement the node configuration settings, enabling for a comprehensive visualization of the relationships between entities.
 
-![Edge status configuration.](../image/edge-status-config.png)![Edge status configuration example.](../image/edge-status-config-example.png)
+\[Omitted image "edge-status-config.png"\] Alt text: Edge status configuration.\[Omitted image "edge-status-config-example.png"\] Alt text: Edge status configuration example.
 
 ## Main node configurations included with the base version
 
@@ -200,9 +205,9 @@ The Main node configurations are included with the Operational Resilience base v
 -   Service offering to dependencies
 -   Service \(CMDB\)
 
-![Menu.](../image/main-node-menu.png)
+\[Omitted image "main-node-menu.png"\] Alt text: Menu.
 
-**Note:** You can fully customize the Main node configurations and for each configuration, you can configure the node relationships and Nexus map configurations from the Node relationship and Nexus map configuration related lists. For more information on how to configure the node relationships and Nexus map configurations, see [Configure the Node relationship configurations](../task/update-node-rel-config.md).
+**Note:** You can fully customize the Main node configurations and for each configuration, you can configure the node relationships and Nexus map configurations from the Node relationship and Nexus map configuration related lists. For more information on how to configure the node relationships and Nexus map configurations, see [Configure the Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/update-node-rel-config.md).
 
 1.  Opres with CSDM header configuration for business services: The Opres with CSDM header configuration defines the relationships for a business service and is primarily used by new customers.
 
@@ -214,15 +219,15 @@ The Main node configurations are included with the Operational Resilience base v
     4.  Service offerings
     The following diagram illustrates the structure of the Opres with CSDM header configuration, available as a base version in Operational Resilience. A business service can have relationships configured with one or more application services, service offerings, and business processes. When entities are generated and scheduled jobs are executed, dependencies are fetched and rolled up to the parent business service. The configuration supports multiple levels of dependencies, as shown in the example.
 
-    ![Header.](../image/main-node-structure-opres-csdm-header.png)
+    \[Omitted image "main-node-structure-opres-csdm-header.png"\] Alt text: Header.
 
-    For more information on the Opres with CSDM header configuration, see [Opres with CSDM header Main node configuration](opres-with-csdm-header.md).
+    For more information on the Opres with CSDM header configuration, see [Opres with CSDM header Main node configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-with-csdm-header.md).
 
 2.  Service \(CMDB\) configuration for services: The Service \(CMDB\) configuration defines the relationships for a service and is primarily used by existing customers. It supports only one level of dependency, such as a parent service having a child service, a process, or a dependency. A child service can have a process and a dependency \(such as Dep2 or Dep4 as shown in the example\) and a process can have a dependency \(such as Dep3 as shown in the sample hierarchy\).
 
-    ![Sample hierarchy.](../image/s-sam-hier.png)
+    \[Omitted image "s-sam-hier.png"\] Alt text: Sample hierarchy.
 
-    For more information on the Service \(CMDB\) configuration, see [Service \(CMDB\) Main node configuration](main-node-config-bs-cmdb.md).
+    For more information on the Service \(CMDB\) configuration, see [Service \(CMDB\) Main node configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-config-bs-cmdb.md).
 
 3.  Dependency configurations:
 
@@ -230,37 +235,37 @@ The Main node configurations are included with the Operational Resilience base v
 
     1.  Business process to dependencies: The Business process to dependencies configuration defines the relationships from a business process to its dependencies. The following diagram shows the dependency relationship framework for a business process, available as a base version in Operational Resilience. A business process can have relationships with application services, other business processes, technical services, contracts, third parties, and more. When entities are generated and scheduled jobs are executed, dependencies are fetched and rolled up to the parent business process.
 
-        ![Processes.](../image/main-node-structure-bp.png)
+        \[Omitted image "main-node-structure-bp.png"\] Alt text: Processes.
 
-        For more information on the Business process to dependencies configuration, see [Business process to dependencies Main node configuration](main-node-config-bp-to-dep.md).
+        For more information on the Business process to dependencies configuration, see [Business process to dependencies Main node configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-config-bp-to-dep.md).
 
     2.  Business service to dependencies: The Business service to dependencies configuration defines the relationships from a business service to its dependencies. The following diagram illustrates the dependency relationship framework for a business service, available as a base version in Operational Resilience. A business service can have relationships with locations, contracts, third-parties, third-party engagements and more. When the entities are generated and scheduled jobs are executed, dependencies are fetched and rolled up to the parent business service.
 
-        ![Services.](../image/main-node-structure-dep-bs.png)
+        \[Omitted image "main-node-structure-dep-bs.png"\] Alt text: Services.
 
-        For more information on the Business service to dependencies configuration, see [Business service to dependencies Main node configuration](main-node-config-bs-to-dep.md).
+        For more information on the Business service to dependencies configuration, see [Business service to dependencies Main node configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-config-bs-to-dep.md).
 
     3.  Service offering to dependencies: The Service offering to dependencies configuration defines the relationships from a service offering to its dependencies. The following diagram shows the dependency relationship framework for the service offerings, available as a base version in Operational Resilience. A service offering can have relationships with application services, other business processes, technical services, contracts, third parties, and more. When entities are generated and scheduled jobs are executed, dependencies are fetched and rolled up to the parent service offering.
 
-        ![Offerings.](../image/main-node-structure-so.png)
+        \[Omitted image "main-node-structure-so.png"\] Alt text: Offerings.
 
-        For more information on the Service offering to dependencies configuration, see [Service offering to dependencies Main node configuration](main-node-config-so-to-dep.md).
+        For more information on the Service offering to dependencies configuration, see [Service offering to dependencies Main node configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/main-node-config-so-to-dep.md).
 
 4.  BCM dependency configurations: When the Business Continuity Management application is installed in an instance, BCM related dependencies are fetched into the Operational Resilience application. The Main node configurations related to BCM, such as BCM-CMDB, Downstream related plan, Plan primary assets, Plan related assets, and Upstream related plans, are shown in the example.
 
-    ![Main node configurations for BCM.](../image/bcm-related-main-node-configs.png)
+    \[Omitted image "bcm-related-main-node-configs.png"\] Alt text: Main node configurations for BCM.
 
-    For more information on the BCM dependency configurations, see [BCM dependencies related Main node configurations](bcm-dep-config-to-opres.md).
+    For more information on the BCM dependency configurations, see [BCM dependencies related Main node configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcm-dep-config-to-opres.md).
 
 
-For information on gathering data aligned with the latest CSDM model, see [Gathering data aligned with the CSDM setup](using-csdm-v5.md).
+For information on gathering data aligned with the latest CSDM model, see [Gathering data aligned with the CSDM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-csdm-v5.md).
 
 After setting up the Main node configurations, you must verify that the entities are generated in Operational Resilience. Only when the entities are generated in Operational Resilience and the relationships are created in the Main node configurations, CMDB data can be brought into Operational Resilience for reporting.
 
--   **[Node relationship configurations](node-relationship-configurations.md)**  
-Node relationship configurations are used to set up relationships between the records and objects defined in the table. You can configure the details of the main node such as its name, source, table name, filer conditions, and so on.
--   **[Nexus map configurations](nexus-map-configuration.md)**  
+-   **[Node relationship configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/node-relationship-configurations.md)**  
+Node relationship configurations are used to set up relationships between the records and objects defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
+-   **[Nexus map configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/nexus-map-configuration.md)**  
 Beginning with Operational Resilience, version 21.1.x, the Nexus map configuration has been introduced. To display a main node in the Operational Resilience Workspace, you must configure the Nexus map. The Node Map configuration UI allows you to visualize related data hierarchically, track issues, and identify areas needing attention for effective resolution or health monitoring.
 
-**Parent Topic:**[Exploring Operational Resilience](what-is-opres.md)
+**Parent Topic:**[Exploring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/what-is-opres.md)
 

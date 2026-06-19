@@ -2,6 +2,7 @@
 title: Exploring Financial Services Complaint Management
 description: You can use ServiceNow Financial Services Complaint Management to manage a streamlined resolution of complaints within the complaint servicing team, or to route to business units \(BUs\) for decisioning and response.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-complaint-management/explore-fso-complaint-mgmt.html
 release: australia
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management

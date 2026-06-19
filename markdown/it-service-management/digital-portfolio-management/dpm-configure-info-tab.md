@@ -2,6 +2,7 @@
 title: Configure the Info tab in the DPM Admin Center
 description: Show or hide various sections of the Info tab for your solutions in DPM. You can also configure the general information fields. Your configuration determines how the fields are displayed in the General info section of the Info tab in the DPM Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-portfolio-management/dpm-configure-info-tab.html
 release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
@@ -66,5 +67,5 @@ Each solution has a **Info** tab that displays information about the solution. F
 9.  Select **Update**.
 
 
-**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](../concept/dpm-admin-center.md)
+**Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 

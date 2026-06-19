@@ -2,6 +2,7 @@
 title: Budgets and cost centers example
 description: The most common business entity to associate financial information is the cost center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/cost-management/c\_BudgetsAndCostCentersExample.html
 release: australia
 product: Cost Management
 classification: cost-management
@@ -23,5 +24,5 @@ This budget has a defined start and end date, planned amount, and actual amount.
 
 For all expense allocations assigned to the **Trading** cost center during the budget time periods, the allocations will be totaled to populate the actual budget field. The related expense allocation records can also be viewed in the **Expense Allocations** related list.
 
-**Parent Topic:**[Budgets and cost centers](c_BudgetsAndCostCenters.md)
+**Parent Topic:**[Budgets and cost centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/cost-management/c_BudgetsAndCostCenters.md)
 

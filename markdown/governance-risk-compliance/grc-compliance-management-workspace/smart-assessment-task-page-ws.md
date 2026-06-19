@@ -2,6 +2,7 @@
 title: Respond to attestations from Tasks page of Compliance Workspace
 description: Respond to your attestations by logging in to the Tasks page of the Compliance Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-task-page-ws.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -27,9 +28,9 @@ As an attestation respondent of the control you can log in to the Compliance Wor
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the tasks icon \(![Tasks icon.](../../grc-workspace-audit/image/TasksIcon.jpg)\).
+2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
 
-    You can view the Control attestations on the left panel.
+    You can view the attestations on the left panel. The Control Attestations list view displays the Control and Entity columns alongside the existing assessment instance, assessment template, state, users, and due date columns, providing attestors with direct scope context for each assessment instance without opening individual records.
 
 3.  Select the assessment instance link on the right panel of the My pending tasks related list.
 

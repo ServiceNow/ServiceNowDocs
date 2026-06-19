@@ -2,7 +2,10 @@
 title: Configure resource filter options
 description: Administrators can configure more options for dispatchers to create advanced resource filters with beyond the default options.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/configure-filter-options.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -29,7 +32,7 @@ By default, dispatchers can create advanced filters based off of:
     **Note:** In the **Contractor** tab the field that you select to filter a contractor is labeled Assignment Group, even though you are filtering on contractors.
 
 
-You can also extend any table related to users or crews and use the fields from those tables to create resource filters. For more information, see [Configuring advanced resource filters for Dispatcher Workspace](../concept/configure-advanced-filter.md).
+You can also extend any table related to users or crews and use the fields from those tables to create resource filters. For more information, see [Configuring advanced resource filters for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/configure-advanced-filter.md).
 
 ## Procedure
 
@@ -42,7 +45,7 @@ You can also extend any table related to users or crews and use the fields from 
     -   If you extended a table, navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace Configuration** and then select the table you extended.
 2.  Select one of the tables.
 
-    For a list of tables, see [Advanced resource filter tables](../reference/advanced-filter-tables.md).
+    For a list of tables, see [Advanced resource filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/advanced-filter-tables.md).
 
 3.  Select **New**.
 

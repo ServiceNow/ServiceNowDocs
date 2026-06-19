@@ -2,6 +2,7 @@
 title: Create processes for Automated Phishing in PAD
 description: Use these steps to create processes for Automated Phishing in the Process Automation Designer \(PAD\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/create-process-automated-phishing.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -76,5 +77,5 @@ Role required: sn\_si.admin or sn\_si.manager
 16. Select **View all properties** and enable the **Advanced properties** toggle to display all the activity experience fields from the activity definition.
 
 
-**Parent Topic:**[Playbook for Automated Phishing](../concept/playbook-automated-phishing.md)
+**Parent Topic:**[Playbook for Automated Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-automated-phishing.md)
 

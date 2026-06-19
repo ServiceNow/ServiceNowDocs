@@ -2,6 +2,7 @@
 title: Rename File or Directory activity
 description: The Rename File or Directory activity renames a file or directory to a new name on an SFTP server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/orchestration/r\_RenameFileOrDirectoryActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -23,13 +24,13 @@ The Rename File or Directory activity renames a file or directory to a new name 
 |sourcePort|Port number to use to communicate with the target server. The default port number is **22**.|
 |sourceFilePath|Full path to the file or directory to rename.|
 |targetFilePath|Full path to the renamed file or directory.|
-|sourceCredentialTag|Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the host.|
+|sourceCredentialTag|Specific Credential aliases for Orchestration activities this activity must use to run SSH commands on the host.|
 
 ## Output variables
 
 |Variable|Description|
 |--------|-----------|
-|errorMessages|The **executionResult.errorMessages** from the [Activity designer parsing sources](../../orchestration-activity-designer/task/t_CreateAParsingRule.md#). If this variable is not null, the operation has failed.|
+|errorMessages|The **executionResult.errorMessages** from the [Activity designer parsing sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/t_CreateAParsingRule.md). If this variable is not null, the operation has failed.|
 |result|A message saying that the operation has been successful. For example, you might see: `Rename /tmp/sftp_test/subdir1 to /tmp/sftp_test/subdir2 complete`.|
 
 ## Conditions
@@ -39,5 +40,5 @@ The Rename File or Directory activity renames a file or directory to a new name 
 |Success|The activity succeeded in renaming the file or directory.|
 |Failure|The activity failed to rename the file or directory.|
 
-**Parent Topic:**[SFTP File Transfer activity pack](../concept/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/orchestration/c_OrchestrationSFTPActivityPack.md)
 

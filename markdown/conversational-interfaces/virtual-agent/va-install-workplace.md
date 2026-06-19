@@ -2,6 +2,7 @@
 title: Install the Conversational Integration with Workplace from Facebook
 description: You can install the Conversational Integration with Workplace from Facebook \(sn\_va\_fb\_workplace\) application with the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-install-workplace.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,7 +25,7 @@ You can install the Conversational Integration with Workplace from Facebook \(sn
 
     **Important:** Installing the Conversational Integration app from the ServiceNow Store store activates the corresponding **Install** button in the Channels and integrations page. If you have not installed the integration app, the Workplace from Facebook app is listed in the Available Channels section.
 
-    ![Channels and integrations page before the Conversational Integration with Workplace app is installed from the ServiceNow Store.](../images/workplace-pre-install.png "Channels and integrations page before Conversational Integration with Workplace from Facebook is installed")
+    \[Omitted image "workplace-pre-install.png"\] Alt text: Channels and integrations page before the Conversational Integration with Workplace app is installed from the ServiceNow Store.
 
     After you install the Conversational Integration with Workplace from Facebook app, the Workplace from Facebook is seen in the Integrations section, and you can proceed with the configuration.
 
@@ -39,7 +40,7 @@ Roles required: virtual\_agent\_admin and external\_app\_install\_admin or admin
 
 3.  On the Channels and integrations page, in the Microsoft Teams tile, click **Get Workplace plugin**.
 
-    ![Microsoft Teams tile in Channels and integrations, with Get Workplace plugin button highlighted.](../images/get-workplace-plugin.png)
+    \[Omitted image "get-workplace-plugin.png"\] Alt text: Microsoft Teams tile in Channels and integrations, with Get Workplace plugin button highlighted.
 
     You are redirected to the Conversational Integration with Workplace from Facebook ServiceNow Store page.
 
@@ -60,7 +61,7 @@ Roles required: virtual\_agent\_admin and external\_app\_install\_admin or admin
 
 ## What to do next
 
-[Integrate ServiceNow Virtual Agent with Workplace from Facebook](configure-va-facebook.md).
+[Integrate ServiceNow Virtual Agent with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-facebook.md).
 
-**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](../concept/configuring-ci-workplace-fb.md)
+**Parent Topic:**[Configuring Conversational Integration with Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configuring-ci-workplace-fb.md)
 

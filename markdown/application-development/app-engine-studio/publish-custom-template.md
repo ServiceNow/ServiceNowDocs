@@ -2,6 +2,7 @@
 title: Publish a custom template
 description: You can publish a custom template that is built from scratch or from an existing application using App Engine Studio \(AES\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/publish-custom-template.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -17,7 +18,7 @@ You can publish a custom template that is built from scratch or from an existing
 
 ## Before you begin
 
-You must have permissions to publish a custom template. For details, see [Assign permissions to publish custom templates](../concept/assign-permissions-publish-custom-templates.md#).
+You must have permissions to publish a custom template. For details, see [Assign permissions to publish custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/assign-permissions-publish-custom-templates.md).
 
 Role required: admin, app\_template\_author
 
@@ -25,7 +26,7 @@ Role required: admin, app\_template\_author
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **App Engine Studio** &gt; **Templates**.
 
-2.  Point to the custom template, select the More actions icon \( ![More actions icon.](../image/menu-icon-purple.png)\), and select **Properties**.
+2.  Point to the custom template, select the More actions icon \( \[Omitted image "menu-icon-purple.png"\] Alt text: More actions icon.\), and select **Properties**.
 
 3.  On the **General** tab, select the **Activate this template** check box.
 
@@ -81,5 +82,5 @@ Select where you want the custom template published.-   To publish the template 
 
 The custom template is published and available to users the app template admin shares it with.
 
-**Parent Topic:**[Build a custom template](../concept/build-custom-template.md)
+**Parent Topic:**[Build a custom template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/build-custom-template.md)
 

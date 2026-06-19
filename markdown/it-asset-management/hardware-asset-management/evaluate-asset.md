@@ -2,6 +2,7 @@
 title: Evaluate the repaired asset
 description: Evaluate the status of the repaired asset and indicate the evaluation result as redeployable or identified for disposal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/evaluate-asset.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
@@ -102,9 +103,9 @@ Stockroom
 
 </td><td>
 
-This field is automatically populated with the stockroom details that you provided in the Receive task.For more information, see [Receive asset](receive-rma-asset.md).
+This field is automatically populated with the stockroom details that you provided in the Receive task.For more information, see [Receive asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/receive-rma-asset.md).
 
-**Note:** This field doesn't include any information for the On-site assessment flow. For more information about selecting the assessment action, see [Assess the RMA asset](assess-rma.md).
+**Note:** This field doesn't include any information for the On-site assessment flow. For more information about selecting the assessment action, see [Assess the RMA asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/assess-rma.md).
 
 </td></tr><tr><td>
 
@@ -159,5 +160,5 @@ The result of the task completion changes according to the value selected in the
 
 ## What to do next
 
-[Ship the asset to the DaaS provider](ship-rma-asset.md)
+[Ship the asset to the DaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/ship-rma-asset.md)
 

@@ -2,6 +2,7 @@
 title: Test chat experiences
 description: After you create or modify a Virtual Agent chat experience, you can test \(simulate\) it to verify that it works as expected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/test-custom-experience.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -31,7 +32,7 @@ Role required: virtual\_agent\_admin or admin
 
     The items that you defined for the chat experience, such as custom setup topics or promoted topics, run in the test window. The following example shows the custom greeting setup topic and promoted topics defined for the ESC portal.
 
-    ![Use the choose field list on the test chat window's Context tab to select the context. Specify the value in the value field.](../images/va-cce-esc.png)
+    \[Omitted image "va-cce-esc.png"\] Alt text: Use the choose field list on the test chat window's Context tab to select the context. Specify the value in the value field.
 
 5.  To specify a different context, do the following:
 
@@ -47,8 +48,8 @@ Role required: virtual\_agent\_admin or admin
 
     The items that you defined for the chat experience, such as custom setup topics or promoted topics, run in the test window.
 
-    ![Test window.](../images/va-cce-it-express.png)
+    \[Omitted image "va-cce-it-express.png"\] Alt text: Test window.
 
 
-**Parent Topic:**[Customizing a Virtual Agent chat experience](../concept/va-conversation-settings.md)
+**Parent Topic:**[Customizing a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-conversation-settings.md)
 

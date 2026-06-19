@@ -2,11 +2,14 @@
 title: Use Real-time prevention monitoring to fix a general guidelines finding
 description: Navigate the AI-Eligible Findings dashboard, generate an AI fix for an existing finding, review the code comparison, and apply the fix to your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/use-remediation-agent.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
-breadcrumb: [Real-time prevention monitoring for Scan Engine, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent technical debt with real-time code fixes, Prevent and resolve technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # Use Real-time prevention monitoring to fix a general guidelines finding
@@ -23,7 +26,7 @@ When a Scan Engine run detects findings in your instance, Real-time prevention m
 
 The diagram indicates the overall flow of the steps to fix a general guidelines finding.
 
-![Flow chart to fix a general guidelines finding outlining the required steps.](../image/real-time-agent-fix-code-flow.png)
+\[Omitted image "real-time-agent-fix-code-flow.png"\] Alt text: Flow chart to fix a general guidelines finding outlining the required steps.
 
 ## Procedure
 

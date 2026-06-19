@@ -2,6 +2,7 @@
 title: Configure a Work scheduler card heading component
 description: Customize the Work scheduler heading component to display the title based on your needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-header.html
 release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
@@ -29,15 +30,15 @@ Role required: workspace\_admin, or ui\_builder\_admin​
 
 3.  Configure the header component.
 
-    1.  In the **Config** tab, hover over the **Dropdowns** section and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+    1.  In the **Config** tab, hover over the **Dropdowns** section and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
 
     2.  From the **Dropdowns** menu, select **@state.cardProps.dropdowns**.
 
-    3.  Hover over the **Heading** section and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+    3.  Hover over the **Heading** section and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
 
     4.  From the **Heading** menu, select **@state.cardProps.heading**.
 
-    5.  Hover over the **Tagline** section and select the Dynamic data binding icon ![Dynamic data binding icon](../image/dynamic-data-binding-icon.png).
+    5.  Hover over the **Tagline** section and select the Dynamic data binding icon \[Omitted image "dynamic-data-binding-icon.png"\] Alt text: Dynamic data binding icon.
 
 4.  Add **Handle card action clicked** to the **Card header action clicked** event.
 
@@ -53,16 +54,16 @@ Role required: workspace\_admin, or ui\_builder\_admin​
 
 5.  Click **Save**.
 
-    Here's a demo on how to configure a Work scheduler card heading.Configure a Work Scheduler card heading component
+    Here's a demo on how to configure a Work scheduler card heading.
 
 
 ## What to do next
 
-[Configure a display type component for a Work scheduler card](work-sched-stacked-component.md)
+[Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-stacked-component.md)
 
-**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-itsm.md)
+**Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/create-workscheduler-card-wfo-itsm.md)
 
-**Previous topic:**[Configure container components for Work scheduler](work-sched-card-based-container.md)
+**Previous topic:**[Configure container components for Work scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-card-based-container.md)
 
-**Next topic:**[Configure a display type component for a Work scheduler card](work-sched-stacked-component.md)
+**Next topic:**[Configure a display type component for a Work scheduler card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/workforce-optimization-for-it-service-management/work-sched-stacked-component.md)
 

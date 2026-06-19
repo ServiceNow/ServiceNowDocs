@@ -2,6 +2,7 @@
 title: View patient information in Workspace
 description: With the 360-degree view of a patient in Workspace, you can access the patient details anytime for any healthcare services.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-patient-info.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -17,9 +18,9 @@ With the 360-degree view of a patient in Workspace, you can access the patient d
 
 The Patient information overview tab in Workspace provides several details about a patient enabling 360-degree view of the patient. The related list is displayed on the Interaction and Healthcare Case forms.
 
-**Note:** Your administrator can configure the Workspace to modify the patient information by using UI Builder. This topic discusses the default view for the patient information. For information about UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+**Note:** Your administrator can configure the Workspace to modify the patient information by using UI Builder. This topic discusses the default view for the patient information. For information about UI Builder, see UI Builder.
 
-![The overview tab for a patient in the healthcare workspace displaying various widgets containing patient information. For the text description, refer to the Patient information displayed in Workspace section.](../image/hcls-patient-info.png "Patient information")
+\[Omitted image "hcls-patient-info.png"\] Alt text: The overview tab for a patient in the healthcare workspace displaying various widgets containing patient information. For the text description, refer to the Patient information displayed in Workspace section.
 
 <table id="table_tjh_2r4_jjb"><thead><tr><th>
 

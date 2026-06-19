@@ -2,6 +2,7 @@
 title: Create an engagement
 description: Audit managers create engagements to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/t\_CreateEngagement.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -19,14 +20,14 @@ Audit managers create engagements to manage audit information and collect entiti
 
 Role required: sn\_audit.admin or sn\_audit.manager
 
-**Note:** For more information on engagements, see [Manage engagements](../concept/c_Engagements.md).
+**Note:** For more information on engagements, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md).
 
 ## About this task
 
 To know more about how to define a control and control objective, see:
 
--   [Create a control](../../grc-policy-and-compliance/task/t_CreateAControl.md)
--   [Create a control objective](../../grc-policy-and-compliance/task/t_CreateAPolicyStatement.md)
+-   [Create a control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md)
+-   [Create a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/t_CreateAPolicyStatement.md)
 
 ## Procedure
 
@@ -330,11 +331,11 @@ Confidential
 
 </td><td>
 
-Option to enable confidentiality of the record. Only the assigned users or groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](../concept/confidentiality-flag-audit-pc.md).
+Option to enable confidentiality of the record. Only the assigned users or groups of users can access the record.For more information on the confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
 
 
-**Parent Topic:**[Manage engagements](../concept/c_Engagements.md)
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/c_Engagements.md)
 

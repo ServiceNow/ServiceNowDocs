@@ -2,6 +2,7 @@
 title: Use Access management console
 description: Use the Access management console to ensure that the right individuals have the appropriate permissions to the right resources at the right time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/use-access-management-console.html
 release: australia
 product: Access Control
 classification: access-control
@@ -25,6 +26,6 @@ Role required: access\_analyzer\_admin, user\_admin
 
 2.  Use the following features:
 
-    -   [Access analyzer](../../../integrate/identity/concept/access-analyzer.md)
-    -   [Access findings](../concept/access-findings.md)
+    -   [Access analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-analyzer.md)
+    -   [Access findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/access-findings.md)
 

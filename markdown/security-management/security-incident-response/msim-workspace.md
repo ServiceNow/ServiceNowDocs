@@ -2,6 +2,7 @@
 title: Major Security Incident Management workspace
 description: Major Security Incident Management provides a dedicated workspace for managing major security incidents specifically designed for the Major Security Incident manager.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/msim-workspace.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -34,5 +35,5 @@ Use the MSIM Workspace to track and resolve major security incidents:
 4.  View and update incident details via the MSIM Workspace.
 5.  Filter collaboration activities in the MSIM Workspace Activity stream.
 
-**Parent Topic:**[Major Security Incident Management](../reference/major-security-incident-management-landing-page.md)
+**Parent Topic:**[Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/major-security-incident-management-landing-page.md)
 

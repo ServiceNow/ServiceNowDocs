@@ -2,6 +2,7 @@
 title: Create Record activity
 description: Pause the playbook and prompt the end user to create a record in a form view. Use this activity to allow the end user to create a record. This activity requires you to configure the desired table for which record to create, and the desired form view that the end user will see when creating the record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-record-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -21,7 +22,7 @@ This activity is available as a common activity. Users with the admin, playbook.
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/dot-walking-examples.md).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see .
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 
@@ -97,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -121,7 +122,7 @@ String
 
 </td><td>
 
-Form view to use for record creation. If you don't provide a form view, the system uses the default view. Use the **new tab** button ![a button that opens a new tab](../images/new-tab-button.png)to open and edit a form view with Form Builder in a new Workflow Studio tab.**Note:** Many form views are not supported in Workspace.
+Form view to use for record creation. If you don't provide a form view, the system uses the default view. Use the **new tab** button \[Omitted image "new-tab-button.png"\] Alt text: a button that opens a new tabto open and edit a form view with Form Builder in a new Workflow Studio tab.**Note:** Many form views are not supported in Workspace.
 
 </td></tr><tr><td>
 
@@ -150,7 +151,7 @@ These outputs can provide data to other activities in your playbook. You can acc
 
 -   **Create form views for activities that you want to render in a playbook during runtime.**
 
-    Use a form view to display only the fields your users need to create a record. Your view should display required fields or those fields validated by other business logic. See [View Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/view-management-overview.md).
+    Use a form view to display only the fields your users need to create a record. Your view should display required fields or those fields validated by other business logic. See View Management.
 
 -   **Run non-interactive activities before interactive activities**
 

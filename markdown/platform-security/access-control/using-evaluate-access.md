@@ -2,6 +2,7 @@
 title: Using Evaluate access
 description: Analyze identities on the ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/access-control/using-evaluate-access.html
 release: australia
 product: Access Control
 classification: access-control
@@ -107,7 +108,7 @@ Specify a field name to select from the list.
     -   REST endpoints
     The access results are displayed.
 
-    ![Access results](../images/use-access-analyzer-results.png)
+    \[Omitted image "use-access-analyzer-results.png"\] Alt text: Access results
 
     The Access results table includes the following fields:
 
@@ -202,6 +203,6 @@ A unique ID for each access result execution.
     |Required ACL Roles|Details of the role that is required to access the resource.|
     |Role|Status of the role. Passed, Skipped, or Blocked.|
 
-    ![ACL Details](../images/acl-details-for-user.png)
+    \[Omitted image "acl-details-for-user.png"\] Alt text: ACL Details
 
 

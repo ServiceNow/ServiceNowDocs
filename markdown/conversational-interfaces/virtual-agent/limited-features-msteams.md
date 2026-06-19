@@ -2,6 +2,7 @@
 title: Unsupported Virtual Agent features in Microsoft Teams
 description: Refer to the unsupported features of Virtual Agent in Conversational Integration with Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/limited-features-msteams.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -22,5 +23,5 @@ Virtual Agent does not support the following functionalities during a conversati
 -   Connect Support
 -   Geo-location topic block
 
-**Parent Topic:**[Virtual Agent feature support in Microsoft Teams conversations](../concept/va-teams-other-features.md)
+**Parent Topic:**[Virtual Agent feature support in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-teams-other-features.md)
 

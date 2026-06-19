@@ -2,6 +2,7 @@
 title: Business stakeholder role for PPM
 description: For PPM users, the Business Stakeholder \(com.snc.business\_stakeholder\) plugin contains the business stakeholder roles for Enterprise Architecture \(formerly APM\), ITFM, and PPM. Users with this role can read records of the tables that are used to retrieve data for reports and dashboards and can approve demands and timecards. You can assign this role to any user who is a business stakeholder.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/ppm-collaboration/business-stakeholder-role-ppm.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
@@ -54,5 +55,5 @@ Users with the business stakeholder role for PPM can access the following tables
 |Time Sheet|time\_sheet|
 |Time Sheet Exception|time\_sheet\_exception|
 
-**Parent Topic:**[Project Portfolio Management reference](project-portfolio-management-reference.md)
+**Parent Topic:**[Project Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/ppm-collaboration/project-portfolio-management-reference.md)
 

@@ -2,6 +2,7 @@
 title: Filter lifecycle event activities
 description: Filter lifecycle event activities by activity type, owning group, audience, and rescind. You can also search for individual activities by name.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/filter-lifecycle-event-activities.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events

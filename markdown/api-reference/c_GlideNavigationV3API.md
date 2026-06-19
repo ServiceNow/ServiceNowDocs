@@ -2,6 +2,7 @@
 title: GlideNavigation - Client
 description: The GlideNavigation API provides methods to control and refresh the navigator and main frame.Redirects to a new URL.Opens the specified URL in a popup window.Redirects to a record. The record displays in the navigator frame.Refreshes content in the navigator frame.Reloads the current frame.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/c\_GlideNavigationV3API.html
 release: australia
 product: API Reference
 classification: api-reference
@@ -17,7 +18,7 @@ The GlideNavigation API provides methods to control and refresh the navigator an
 
 These methods are accessed using the `g_navigation` global object.
 
-**Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
+**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/api-client.md)
 
 ## GlideNavigation - open\(String url, String target\)
 

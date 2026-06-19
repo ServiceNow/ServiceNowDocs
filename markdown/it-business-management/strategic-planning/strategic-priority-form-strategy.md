@@ -2,11 +2,12 @@
 title: Strategic Priority form
 description: Use the Strategic Priority form to orient your organization strategic plan toward your goal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/strategic-priority-form-strategy.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Reference, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -104,5 +105,5 @@ Description
 A detailed description of the strategic priority.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Strategy and Goals reference](strategy-goals-reference.md)
+</table>**Parent Topic:**[Strategy and Goals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/strategy-goals-reference.md)
 

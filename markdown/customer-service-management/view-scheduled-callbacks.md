@@ -2,7 +2,10 @@
 title: View scheduled callbacks
 description: View all scheduled callbacks in a list view and access individual callback records to reschedule or cancel them.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/view-scheduled-callbacks.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -25,7 +28,7 @@ The Scheduled Callbacks list view displays all scheduled callbacks with details 
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace.**.
 
-2.  Select the List icon \(![List icon to view callback list](../image/list-icon-callback.png)\)
+2.  Select the List icon \(\[Omitted image "list-icon-callback.png"\] Alt text: List icon to view callback list\)
 
 3.  In the Callbacks section, select **Scheduled callbacks**.
 

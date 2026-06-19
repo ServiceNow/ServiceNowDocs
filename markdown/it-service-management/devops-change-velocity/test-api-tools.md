@@ -2,6 +2,7 @@
 title: Add test results to change requests using test API
 description: Add test results to DevOps change requests using the test capability of the DevOps - POST /devops/tool/\{capability\} API. The API is available for all test types for various tools connected to DevOps Change Velocity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-change-velocity/test-api-tools.html
 release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
@@ -15,7 +16,7 @@ breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Chang
 
 Add test results to DevOps change requests using the test capability of the DevOps - POST /devops/tool/\{capability\} API. The API is available for all test types for various tools connected to DevOps Change Velocity.
 
-For more information about the API, see [DevOps - POST /devops/tool/\{capability\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/devops-api.md). To use the API in Azure DevOps, GitHub, and Jenkins, you must use the format mentioned in the respective sections below.
+For more information about the API, see . To use the API in Azure DevOps, GitHub, and Jenkins, you must use the format mentioned in the respective sections below.
 
 **Prerequisites**
 
@@ -29,7 +30,7 @@ You must make sure that the test type you want to use in the API is available as
 
 2.  Verify if the test type is available in the Test types table.
 
-    ![Test types table.](../image/test-api-12.png)
+    \[Omitted image "test-api-12.png"\] Alt text: Test types table.
 
 3.  For custom test types, select **New** and add the test type to the list.
     1.  In the **Test type** field, enter a name for your test type.
@@ -41,7 +42,7 @@ You must make sure that the test type you want to use in the API is available as
 
 5.  Verify if the test type is mapped to your orchestration tool.
 
-    ![Test type mappings table.](../image/test-api-13.png)
+    \[Omitted image "test-api-13.png"\] Alt text: Test type mappings table.
 
 6.  If the mapping is not available, then select **New** and create the mapping.
     1.  From the **Test type** list, select the test type that you want to map.
@@ -91,15 +92,15 @@ Sample parameters for the body:
 }
 ```
 
-![Sample Azure DevOps pipeline configuration for performance tests.](../image/test-api-05.png)
+\[Omitted image "test-api-05.png"\] Alt text: Sample Azure DevOps pipeline configuration for performance tests.
 
 **Performance test summary in your Now instance**:
 
-![Performance test summary.](../image/test-api-06.png)
+\[Omitted image "test-api-06.png"\] Alt text: Performance test summary.
 
 **Test summary attached to your DevOps change request**:
 
-![Change request test summary.](../image/test-api-07.png)
+\[Omitted image "test-api-07.png"\] Alt text: Change request test summary.
 
 **Pipeline configuration for other functional and unit tests**
 
@@ -122,11 +123,11 @@ Sample parameters for the body:
 }
 ```
 
-![Sample Azure DevOps pipeline configuration for other functional tests.](../image/test-api-03.png)
+\[Omitted image "test-api-03.png"\] Alt text: Sample Azure DevOps pipeline configuration for other functional tests.
 
 **Test summary attached to your DevOps change request**:
 
-![Change request test summary.](../image/test-api-04.png)
+\[Omitted image "test-api-04.png"\] Alt text: Change request test summary.
 
 ## Azure DevOps YAML pipeline
 
@@ -178,11 +179,11 @@ stages:
           
 ```
 
-![Azure DevOps yml pipeline.](../image/test-api-08.png)
+\[Omitted image "test-api-08.png"\] Alt text: Azure DevOps yml pipeline.
 
 **Release pipeline**
 
-![Azure DevOps release pipeline yml.](../image/test-api-09.png)
+\[Omitted image "test-api-09.png"\] Alt text: Azure DevOps release pipeline yml.
 
 ## GitHub
 
@@ -226,7 +227,7 @@ jobs:
 
 ```
 
-![Sample GitHub pipeline configuration for performance tests.](../image/test-api-11.png)
+\[Omitted image "test-api-11.png"\] Alt text: Sample GitHub pipeline configuration for performance tests.
 
 **Pipeline configuration for other functional and unit tests**
 
@@ -267,7 +268,7 @@ jobs:
 
 ```
 
-![Sample GitHub pipeline configuration for other functional tests.](../image/test-api-10.png)
+\[Omitted image "test-api-10.png"\] Alt text: Sample GitHub pipeline configuration for other functional tests.
 
 ## Jenkins
 
@@ -324,7 +325,7 @@ pipeline {
 }
 ```
 
-![Sample Jenkins pipeline configuration for performance tests.](../image/test-api-01.png)
+\[Omitted image "test-api-01.png"\] Alt text: Sample Jenkins pipeline configuration for performance tests.
 
 **Pipeline configuration for other functional and unit tests**
 
@@ -378,12 +379,12 @@ pipeline {
 }
 ```
 
-![Sample Jenkins pipeline configuration for other functional tests.](../image/test-api-02.png)
+\[Omitted image "test-api-02.png"\] Alt text: Sample Jenkins pipeline configuration for other functional tests.
 
 ## Limitations of the test API
 
 -   Waiting logic will not be taken care of.
 -   Re-run scenarios cannot be handled.
 
-**Parent Topic:**[DevOps test tool integration](../concept/dev-ops-test-tool-integration.md)
+**Parent Topic:**[DevOps test tool integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-change-velocity/dev-ops-test-tool-integration.md)
 

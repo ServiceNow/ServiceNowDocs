@@ -2,6 +2,7 @@
 title: Exploring Service Observability
 description: Service Observability helps operations teams triage and manage incidents in a complex and distributed production system. It combines external observability monitoring systems' telemetry with related data from the Configuration Management Database \(CMDB\) and displays both in a single workflow in the Service Operations Workspace \(SOW\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/exploring-service-observability.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -44,7 +45,7 @@ After connecting an observability vendor to Service Observability, you map servi
 
 With this data mapping, Service Observability displays metrics for entities such as host, database, or network components, along with details about related CI information. Operators use these metrics and contextual information, including current incidents and alerts, to assess service health.
 
-**Note:** Operators can also use the [Analyze a dashboard in Service Observability](../../now-assist-itom/concept/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](../../now-assist-itom/concept/analyze-service-health-in-service-observability.md) Now Assist AI skills to generate an analysis for them.
+**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/analyze-service-health-in-service-observability.md) Now Assist AI skills to generate an analysis for them.
 
 For example, say you use Dynatrace to monitor your `checkout` service, databases, and hosts, and that metrics from all these entities use the tag `checkout-service` to denote requests coming from that service. By mapping the `checkout` service CI to the Dynatrace data tagged with `checkout-service`, Service Observability retrieves metrics for those databases and hosts and CIs related to the service, then displays them together. Operators can pinpoint issues on entities related to the service and narrow down the mitigation process without having to leave the SOW.
 
@@ -64,9 +65,7 @@ System admin
 
 </td><td>
 
-Version 1.5 only.
-
- System admins configure users and teams, register services to be monitored, connect Service Observability to observability vendors, and then map those services to that data. They can also view the data in the SOW
+System admins configure users and teams, register services to be monitored, connect Service Observability to observability vendors, and then map those services to that data. They can also view the data in the SOW
 
 </td></tr><tr><td>
 
@@ -74,7 +73,7 @@ Service Observability admin
 
 </td><td>
 
-Version 1.6.x and later.Service Observability admins can configure users and teams, connect Service Observability to observability vendors, and then map services to that data. They can also view the data in the SOW. Admins can also customize dashboard templates used to display metrics and related information.
+Service Observability admins can configure users and teams, connect Service Observability to observability vendors, and then map services to that data. They can also view the data in the SOW. Admins can also customize dashboard templates used to display metrics and related information.
 
 </td></tr><tr><td>
 
@@ -124,8 +123,8 @@ Consolidate data from existing monitoring tools, network health tools, cloud pro
 
 </td><td>
 
--   [Connect a Service Observability data source](../task/connect-an-observability-data-source.md)
--   [Create and manage data mappings](../task/create-and-manage-observability-data-mappings.md)
+-   [Connect a Service Observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/connect-an-observability-data-source.md)
+-   [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md)
 
 .
 
@@ -139,7 +138,7 @@ Increase efficiency and reduce mean time to resolution \(MTTR\). View combined m
 
 </td><td>
 
-[View service health metrics](../task/view-service-health-metrics.md)
+[View service health metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/view-service-health-metrics.md)
 
 </td><td>
 
@@ -151,7 +150,7 @@ See related changes to the system and alerts associated with a service in one pl
 
 </td><td>
 
-[View overall service health](../task/view-overall-service-health.md).
+[View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/view-overall-service-health.md).
 
 </td><td>
 
@@ -163,8 +162,8 @@ Use generative AI to analyze metric data and find insights to help determine ser
 
 </td><td>
 
--   [Analyze a dashboard in Service Observability](../../now-assist-itom/concept/analyze-a-dashboard-in-service-observability.md)
--   [Analyze service health in Service Observability](../../now-assist-itom/concept/analyze-service-health-in-service-observability.md)
+-   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/analyze-a-dashboard-in-service-observability.md)
+-   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-for-it-operations-management/analyze-service-health-in-service-observability.md)
 
 </td><td>
 
@@ -176,7 +175,7 @@ See Service Observability data as part of Incident Management workflows
 
 </td><td>
 
-[Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/dex-so-metric-views-investigate-tab.md)
+
 
 </td><td>
 
@@ -188,7 +187,7 @@ Customize dashboard templates.
 
 </td><td>
 
-[Customize Service Observability dashboard templates](../task/customize-service-observability-dashboard-templates.md)
+[Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md)
 
 </td><td>
 
@@ -199,8 +198,8 @@ Admins
 
 To learn more about configuring and using Service Observability, see:
 
--   [Configuring Service Observability](configuring-service-observability.md)
--   [View overall service health](../task/view-overall-service-health.md)
--   [View service health metrics](../task/view-service-health-metrics.md)
--   [Service Observability reference](../reference/service-observability-reference.md)
+-   [Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/configuring-service-observability.md)
+-   [View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/view-overall-service-health.md)
+-   [View service health metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/view-service-health-metrics.md)
+-   [Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/service-observability-reference.md)
 

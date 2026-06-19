@@ -2,6 +2,7 @@
 title: Customize your state map configuration
 description: Create a custom state map for a field of an Agile Development 2.0 table to map the workflow states of your preference for Azure DevOps projects of a process type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/microsoft-azure-devops-integrations-comm/customize-choice-map-config.html
 release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
@@ -17,7 +18,7 @@ Create a custom state map for a field of an Agile Development 2.0 table to map t
 
 ## Before you begin
 
--   [Discover and import Azure DevOps projects](discover-import-azure-projects.md).
+-   [Discover and import Azure DevOps projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/discover-import-azure-projects.md).
 -   Role required: sn\_ado\_int.user
 
 ## About this task
@@ -62,5 +63,5 @@ You can also map multiple states in Azure DevOps to a single state in Agile Deve
     -   true, validation of your map configuration is successful.
     -   false, validation of your map configuration failed. Ensure that you enter the correct values for all fields and validate again.
 
-**Parent Topic:**[Customizing your map configuration for Azure DevOps integration](../reference/customizing-map-config-agile-azure.md)
+**Parent Topic:**[Customizing your map configuration for Azure DevOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/microsoft-azure-devops-integrations-comm/customizing-map-config-agile-azure.md)
 

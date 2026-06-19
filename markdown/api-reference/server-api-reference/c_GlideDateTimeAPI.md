@@ -2,6 +2,7 @@
 title: GlideDateTime - Global
 description: The GlideDateTime class provides methods for performing operations on GlideDateTime objects.Instantiates a new GlideDateTime object with the current date and time.Instantiates a new GlideDateTime object using the passed-in date and time value.Instantiates a new GlideDateTime object set to the time of a specified GlideDateTime object.Adds a specified number of milliseconds to the GlideDateTime object.Adds a GlideTime object to the current GlideDateTime object.Adds a specified number of days to the current GlideDateTime object. A negative parameter subtracts days.Adds a specified number of days to the current GlideDateTime object. A negative parameter subtracts days.Adds a specified number of days to the current GlideDateTime object. A negative parameter subtracts days.Adds a specified number of seconds to the GlideDateTime object.Adds a specified number of weeks to the current GlideDateTime object. A negative parameter subtracts weeks.Adds a specified number of weeks to the current GlideDateTime object. A negative parameter subtracts weeks.Adds a specified number of weeks to the current GlideDateTime object. A negative parameter subtracts weeks.Adds a specified number of months to the current GlideDateTime object. A negative parameter subtracts months.Adds a specified number of months to the current GlideDateTime object. A negative parameter subtracts months.Adds a specified number of months to the current GlideDateTime object. A negative parameter subtracts months.Adds a specified number of years to the current GlideDateTime object. A negative parameter subtracts years.Adds a specified number of years to the current GlideDateTime object. A negative parameter subtracts years.Adds a specified number of years to the current GlideDateTime object. A negative parameter subtracts years.Compares two date and time objects to determine whether one occurs before the other or if they are equivalent.Compares an object with an existing value for equality.Returns the date stored by the GlideDateTime object. Expressed in the format yyyy-MM-dd and in the system time zone, UTC by default.Gets the current day of the month in the UTC time zone.Gets the day of the month stored by the GlideDateTime object, expressed in the current user's time zone.Gets the day of the month stored by the GlideDateTime object, expressed in the UTC time zone.Retrieves the day of the week stored by the GlideDateTime object, expressed in the user's time zone.Gets the day of the week stored by the GlideDateTime object, expressed in the user's time zone.Gets the day of the week stored by the GlideDateTime object, expressed in the UTC time zone.Gets the number of days in the month stored by the GlideDateTime object, expressed in the Java Virtual Machine time zone.Gets the number of days in the month stored by the GlideDateTime object, expressed in the current user's time zone.Gets the number of days in the month stored by the GlideDateTime object, expressed in the UTC time zone.Gets the date and time value in the current user's display format and time zone.Returns the display value in the internal format, yyyy-MM-dd HH:mm:ss. This method is useful for date/time fields, but not for date fields.Returns a date and time value in the current user's locale according to the specified date style.Returns a date and time value in the current user's locale according to a specified language and date style.Gets the amount of time that daylight saving time is offset.Gets the current error message.Returns the object's time in the local time zone and in the internal format.Returns a date and time object set to midnight of a specified day using UTC.Gets the date stored by the GlideDateTime object, expressed in the standard format, yyyy-MM-dd, and the current user's time zone.Gets the time in the user's time zone.Retrieves the month stored by the GlideDateTime object, expressed in Java Virtual Machine time zone.Gets the month stored by the GlideDateTime object, expressed in the current user's time zone.Gets the month stored by the GlideDateTime object, expressed in the UTC time zone.Gets the number of milliseconds since January 1, 1970, 00:00:00 GMT.Retrieves the amount of time elapsed since the midnight of a specified day to the current time.Gets the Unix duration stamp.Gets the time zone offset in milliseconds.Returns the object's time in local time zone in the user's format.Retrieves the time zone for the current user session.Retrieves a GlideDateTime object with the time set to midnight using the UTC time zone.Returns the date and time value stored by the GlideDateTime object in the internal format, yyyy-MM-dd HH:mm:ss, in the UTC time zone.Gets the number of the week stored by the GlideDateTime object, expressed in the current user's time zone.Gets the number of the week stored by the GlideDateTime object, expressed in the UTC time zone.Retrieves the year stored by the GlideDateTime object, expressed in the Java Virtual Machine time zone.Gets the year stored by the GlideDateTime object, expressed in the current user's time zone.Returns the year stored by the GlideDateTime object, expressed in the UTC time zone.Determines if an object's date is set.Determines if the object's time uses a daylight saving offsetDetermines if a value is a valid date and time.Sets the day of the month to a specified value.Sets the day of the month to a specified value in the current user's time zone.Sets the day of the month to a specified value in the UTC time zone.Sets a date and time value using the current user's display format and time zone.Sets a date and time value using the current user's time zone and the specified date and time format.Sets a date and time value using the internal format \(yyyy-MM-dd HH:mm:ss\) and the current user's time zone.Sets a date and time value using the internal format \(yyyy-MM-dd HH:mm:ss\) and the current user's time zone.Sets a date using a specified style and format according to the current user's locale.Sets a date and time using a specified style, language, and format according to the current user's locale.Sets the date and time of the current object using an existing GlideDateTime object.Sets the date and time.Sets the month stored by the GlideDateTime object to a specified value using the Java Virtual Machine time zone.Sets the month stored by the GlideDateTime object to a specified value using the current user's time zone.Sets the month stored by the GlideDateTime object to a specified value using the UTC time zone.Sets the date and time to the number of milliseconds since January 1, 1970 00:00:00 GMT.Sets the time zone of the GlideDateTime object to be the specified time zone.Sets the date and time of the GlideDateTime object.Sets a date and time value using the UTC time zone and the specified date and time format.Sets the year stored by the GlideDateTime object to a specified value using the Java Virtual Machine time zone.Sets the year stored by the GlideDateTime object to a specified value using the current user's time zone.Sets the year stored by the GlideDateTime object to a specified value using the UTC time zone.Subtracts a specified amount of time.Subtracts a specified number of milliseconds from the GlideDateTime object.Returns the duration difference between two specified GlideDateTime objects.Returns the date and time value stored by the GlideDateTime object in the internal format, yyyy-MM-dd HH:mm:ss, and the system time zone, UTC by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideDateTimeAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,11 +20,11 @@ Use the GlideDateTime methods to perform date-time operations, such as instantia
 
 ## Modify a glide\_date\_time field
 
-When working with database columns of type glide\_date\_time in GlideDateTime methods, you must first convert the field value into a `GlideDateTime` object before performing date and time calculations. A `glide_date_time` field is represented as a GlideElement; calling Glide Element - getGlideObject\(\) returns a `GlideDateTime` object that supports date manipulation methods such as `addMonthsUTC()`. See [GlideElement - getGlideObject\(\)](../../GlideElement_global/concept/c_GlideElementAPI.md#) for more information.
+When working with database columns of type glide\_date\_time in GlideDateTime methods, you must first convert the field value into a `GlideDateTime` object before performing date and time calculations. A `glide_date_time` field is represented as a GlideElement; calling Glide Element - getGlideObject\(\) returns a `GlideDateTime` object that supports date manipulation methods such as `addMonthsUTC()`. See [GlideElement - getGlideObject\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md) for more information.
 
-For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](../../../../../script/glide-server-apis/topic/p_GlideServerAPIs.md#).
+For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md).
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideDateTime - GlideDateTime\(\)
 
@@ -145,7 +146,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the add\(\) method in a scoped application, use the corresponding scoped method: [add\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the add\(\) method in a scoped application, use the corresponding scoped method: [add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - add\(GlideTime time\)
 
@@ -153,7 +154,7 @@ Adds a GlideTime object to the current GlideDateTime object.
 
 |Name|Type|Description|
 |----|----|-----------|
-|time|[GlideTime](../../glideTimeScoped/concept/c_GlideTimeScopedAPI.md#)|GlideTime object whose time value to add to the specified GlideDateTime object.|
+|time|[GlideTime](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideTimeScopedAPI.md)|GlideTime object whose time value to add to the specified GlideDateTime object.|
 
 |Type|Description|
 |----|-----------|
@@ -177,7 +178,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the add\(\) method in a scoped application, use the corresponding scoped method: [add\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the add\(\) method in a scoped application, use the corresponding scoped method: [add\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - addDays\(Number days\)
 
@@ -233,7 +234,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addDaysLocalTime\(\) method in a scoped application, use the corresponding scoped method: [addDaysLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the addDaysLocalTime\(\) method in a scoped application, use the corresponding scoped method: [addDaysLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - addDaysUTC\(Number days\)
 
@@ -263,7 +264,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addDaysUTC\(\) method in a scoped application, use the corresponding scoped method: [addDaysUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the addDaysUTC\(\) method in a scoped application, use the corresponding scoped method: [addDaysUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - addSeconds\(Number seconds\)
 
@@ -291,7 +292,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addSeconds\(\) method in a scoped application, use the corresponding scoped method: [addSeconds\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the addSeconds\(\) method in a scoped application, use the corresponding scoped method: [addSeconds\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - addWeeks\(Number weeks\)
 
@@ -347,7 +348,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addWeeksLocalTime\(\) method in a scoped application, use the corresponding scoped method: [addWeeksLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the addWeeksLocalTime\(\) method in a scoped application, use the corresponding scoped method: [addWeeksLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - addWeeksUTC\(Number weeks\)
 
@@ -377,7 +378,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addWeeksUTC\(\) method in a scoped application, use the corresponding scoped method: [addWeeksUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the addWeeksUTC\(\) method in a scoped application, use the corresponding scoped method: [addWeeksUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - addMonths\(Number months\)
 
@@ -433,7 +434,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addMonthsLocalTime\(\) method in a scoped application, use the corresponding scoped method: [addMonthsLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the addMonthsLocalTime\(\) method in a scoped application, use the corresponding scoped method: [addMonthsLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - addMonthsUTC\(Number months\)
 
@@ -441,7 +442,7 @@ Adds a specified number of months to the current GlideDateTime object. A negativ
 
 The method determines the UTC date and time equivalent to the value stored by the GlideDateTime object, then adds or subtracts months using the UTC date and time values.
 
-When working with database columns of type glide\_date\_time, you must first convert the field value into a `GlideDateTime` object before performing date and time calculations. A `glide_date_time` field is represented as a GlideElement. Calling Glide Element - getGlideObject\(\) returns a `GlideDateTime` object that supports date manipulation methods. See [GlideElement - getGlideObject\(\)](../../GlideElement_global/concept/c_GlideElementAPI.md#) for more information.
+When working with database columns of type glide\_date\_time, you must first convert the field value into a `GlideDateTime` object before performing date and time calculations. A `glide_date_time` field is represented as a GlideElement. Calling Glide Element - getGlideObject\(\) returns a `GlideDateTime` object that supports date manipulation methods. See [GlideElement - getGlideObject\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideElementAPI.md) for more information.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -481,7 +482,7 @@ current.u_renewal_date.setValue(gdt.getValue());
 
 ### Scoped equivalent
 
-To use the addMonthsUTC\(\) method in a scoped application, use the corresponding scoped method: [addMonthsUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the addMonthsUTC\(\) method in a scoped application, use the corresponding scoped method: [addMonthsUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - addYears\(Number years\)
 
@@ -537,7 +538,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the AddYearsLocalTime\(\) method in a scoped application, use the corresponding scoped method: [AddYearsLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the AddYearsLocalTime\(\) method in a scoped application, use the corresponding scoped method: [AddYearsLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - addYearsUTC\(Number years\)
 
@@ -567,7 +568,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the addYearsUTC\(\) method in a scoped application, use the corresponding scoped method: [addYearsUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the addYearsUTC\(\) method in a scoped application, use the corresponding scoped method: [addYearsUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - compareTo\(Object dateTime\)
 
@@ -617,7 +618,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the compareTo\(\) method in a scoped application, use the corresponding scoped method: [compareTo\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the compareTo\(\) method in a scoped application, use the corresponding scoped method: [compareTo\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - equals\(Object GDT\)
 
@@ -644,7 +645,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the equals\(\) method in a scoped application, use the corresponding scoped method: [equals\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the equals\(\) method in a scoped application, use the corresponding scoped method: [equals\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDate\(\)
 
@@ -684,7 +685,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDate\(\) method in a scoped application, use the corresponding scoped method: [getDate\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDate\(\) method in a scoped application, use the corresponding scoped method: [getDate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDayOfMonth\(\)
 
@@ -736,7 +737,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDayOfMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getDayOfMonthLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDayOfMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getDayOfMonthLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDayOfMonthUTC\(\)
 
@@ -763,7 +764,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDayOfMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [getDayOfMonthUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDayOfMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [getDayOfMonthUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDayOfWeek\(\)
 
@@ -815,7 +816,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDayOfWeekLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getDayOfWeekLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDayOfWeekLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getDayOfWeekLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDayOfWeekUTC\(\)
 
@@ -842,7 +843,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDayOfWeekUTC\(\) method in a scoped application, use the corresponding scoped method: [getDayOfWeekUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDayOfWeekUTC\(\) method in a scoped application, use the corresponding scoped method: [getDayOfWeekUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDaysInMonth\(\)
 
@@ -894,7 +895,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDaysInMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getDaysInMonthLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDaysInMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getDaysInMonthLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDaysInMonthUTC\(\)
 
@@ -921,7 +922,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDaysInMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [getDaysInMonthUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDaysInMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [getDaysInMonthUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDisplayValue\(\)
 
@@ -950,7 +951,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [getDisplayValue\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDisplayValueInternal\(\)
 
@@ -991,7 +992,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDisplayValueInternal\(\) method in a scoped application, use the corresponding scoped method: [getDisplayValueInternal\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDisplayValueInternal\(\) method in a scoped application, use the corresponding scoped method: [getDisplayValueInternal\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getDisplayValueLang\(String style\)
 
@@ -1158,7 +1159,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getDSTOffset\(\) method in a scoped application, use the corresponding scoped method: [getDSTOffset\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getDSTOffset\(\) method in a scoped application, use the corresponding scoped method: [getDSTOffset\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getErrorMsg\(\)
 
@@ -1187,7 +1188,7 @@ Could not parse DateTime: 2011-aa-31 aa:00:00
 
 ### Scoped equivalent
 
-To use the getErrorMsg\(\) method in a scoped application, use the corresponding scoped method: [getErrorMsg\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getErrorMsg\(\) method in a scoped application, use the corresponding scoped method: [getErrorMsg\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getInternalFormattedLocalTime\(\)
 
@@ -1218,7 +1219,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getInternalFormattedLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getInternalFormattedLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getInternalFormattedLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getInternalFormattedLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getInternalMidnight\(Number dayOfTheWeek\)
 
@@ -1270,7 +1271,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getLocalDate\(\) method in a scoped application, use the corresponding scoped method: [getLocalDate\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getLocalDate\(\) method in a scoped application, use the corresponding scoped method: [getLocalDate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getLocalTime\(\)
 
@@ -1297,7 +1298,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getMonth\(\)
 
@@ -1349,7 +1350,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getMonthLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getMonthLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getMonthUTC\(\)
 
@@ -1376,7 +1377,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [getMonthUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [getMonthUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getNumericValue\(\)
 
@@ -1453,7 +1454,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getTime\(\) method in a scoped application, use the corresponding scoped method: [getTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getTime\(\) method in a scoped application, use the corresponding scoped method: [getTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getTZOffset\(\)
 
@@ -1481,7 +1482,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getTZOffset\(\) method in a scoped application, use the corresponding scoped method: [getTZOffset\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getTZOffset\(\) method in a scoped application, use the corresponding scoped method: [getTZOffset\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getUserFormattedLocalTime\(\)
 
@@ -1512,7 +1513,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getUserFormattedLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getUserFormattedLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getUserFormattedLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getUserFormattedLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getUserTimeZone\(\)
 
@@ -1605,7 +1606,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getValue\(\) method in a scoped application, use the corresponding scoped method: [getValue\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getValue\(\) method in a scoped application, use the corresponding scoped method: [getValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getWeekOfYearLocalTime\(\)
 
@@ -1634,7 +1635,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getWeekOfYearLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getWeekOfYearLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getWeekOfYearLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getWeekOfYearLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getWeekOfYearUTC\(\)
 
@@ -1663,7 +1664,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getWeekOfYearUTC\(\) method in a scoped application, use the corresponding scoped method: [getWeekOfYearUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getWeekOfYearUTC\(\) method in a scoped application, use the corresponding scoped method: [getWeekOfYearUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getYear\(\)
 
@@ -1715,7 +1716,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getYearLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getYearLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getYearLocalTime\(\) method in a scoped application, use the corresponding scoped method: [getYearLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - getYearUTC\(\)
 
@@ -1742,7 +1743,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the getYearUTC\(\) method in a scoped application, use the corresponding scoped method: [getYearUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the getYearUTC\(\) method in a scoped application, use the corresponding scoped method: [getYearUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - hasDate\(\)
 
@@ -1769,7 +1770,7 @@ true
 
 ### Scoped equivalent
 
-To use the hasDate\(\) method in a scoped application, use the corresponding scoped method: [hasDate\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the hasDate\(\) method in a scoped application, use the corresponding scoped method: [hasDate\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - isDST\(\)
 
@@ -1796,7 +1797,7 @@ true
 
 ### Scoped equivalent
 
-To use the isDST\(\) method in a scoped application, use the corresponding scoped method: [isDST\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the isDST\(\) method in a scoped application, use the corresponding scoped method: [isDST\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - isValid\(\)
 
@@ -1824,7 +1825,7 @@ Invalid date time: '2011-aa-31 aa:00:00', ignored
 
 ### Scoped equivalent
 
-To use the isValid\(\) method in a scoped application, use the corresponding scoped method: [isValid\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the isValid\(\) method in a scoped application, use the corresponding scoped method: [isValid\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setDayOfMonth\(Number day\)
 
@@ -1878,7 +1879,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setDayOfMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [setDayOfMonthLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setDayOfMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [setDayOfMonthLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setDayOfMonthUTC\(Number day\)
 
@@ -1906,7 +1907,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setDayOfMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [setDayOfMonthUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setDayOfMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [setDayOfMonthUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setDisplayValue\(String asDisplayed\)
 
@@ -1934,7 +1935,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [setDisplayValue\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [setDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setDisplayValue\(String dateTime, String format\)
 
@@ -1965,7 +1966,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [setDisplayValue\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [setDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setDisplayValueInternal\(String dateTime\)
 
@@ -1993,7 +1994,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setDisplayValueInternal\(\) method in a scoped application, use the corresponding scoped method: [setDisplayValueInternal\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setDisplayValueInternal\(\) method in a scoped application, use the corresponding scoped method: [setDisplayValueInternal\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setDisplayValueInternalWithAlternates\(String dateTime\)
 
@@ -2195,7 +2196,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setGlideDateTime\(\) method in a scoped application, use the corresponding scoped method: [setGlideDateTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setGlideDateTime\(\) method in a scoped application, use the corresponding scoped method: [setGlideDateTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setInitialValue\(String dateTime\)
 
@@ -2275,7 +2276,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [setMonthLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setMonthLocalTime\(\) method in a scoped application, use the corresponding scoped method: [setMonthLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setMonthUTC\(Number month\)
 
@@ -2303,7 +2304,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [setMonthUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setMonthUTC\(\) method in a scoped application, use the corresponding scoped method: [setMonthUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setNumericValue\(Number milliseconds\)
 
@@ -2431,7 +2432,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setValue\(\) method in a scoped application, use the corresponding scoped method: [setValue\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setValue\(\) method in a scoped application, use the corresponding scoped method: [setValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setValueUTC\(String dateTime, String format\)
 
@@ -2462,7 +2463,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setValueUTC\(\) method in a scoped application, use the corresponding scoped method: [setValueUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setValueUTC\(\) method in a scoped application, use the corresponding scoped method: [setValueUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setYear\(Number year\)
 
@@ -2516,7 +2517,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setYearLocalTime\(\) method in a scoped application, use the corresponding scoped method: [setYearLocalTime\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setYearLocalTime\(\) method in a scoped application, use the corresponding scoped method: [setYearLocalTime\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - setYearUTC\(Number year\)
 
@@ -2544,7 +2545,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the setYearUTC\(\) method in a scoped application, use the corresponding scoped method: [setYearUTC\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the setYearUTC\(\) method in a scoped application, use the corresponding scoped method: [setYearUTC\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - subtract\(GlideTime time\)
 
@@ -2574,7 +2575,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the subtract\(\) method in a scoped application, use the corresponding scoped method: [subtract\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the subtract\(\) method in a scoped application, use the corresponding scoped method: [subtract\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - subtract\(Number milliseconds\)
 
@@ -2602,7 +2603,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the subtract\(\) method in a scoped application, use the corresponding scoped method: [subtract\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the subtract\(\) method in a scoped application, use the corresponding scoped method: [subtract\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - subtract\(GlideDateTime start, GlideDateTime end\)
 
@@ -2633,7 +2634,7 @@ Output:
 
 ### Scoped equivalent
 
-To use the subtract\(\) method in a scoped application, use the corresponding scoped method: [subtract\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the subtract\(\) method in a scoped application, use the corresponding scoped method: [subtract\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
 ## GlideDateTime - toString\(\)
 
@@ -2662,5 +2663,5 @@ Output:
 
 ### Scoped equivalent
 
-To use the toString\(\) method in a scoped application, use the corresponding scoped method: [toString\(\)](../../glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#).
+To use the toString\(\) method in a scoped application, use the corresponding scoped method: [toString\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 

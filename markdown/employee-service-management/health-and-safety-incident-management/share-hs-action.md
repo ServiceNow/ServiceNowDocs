@@ -2,6 +2,7 @@
 title: Share an action with other teams
 description: Share an action, independent of the incident or risk, with other groups or agents at another location, so that they can prevent the similar issue from happening at any of their locations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-incident-management/share-hs-action.html
 release: australia
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
@@ -43,5 +44,5 @@ Role required: sn\_ohs\_im.manager or sn\_ohs\_im.agent
 -   The action appears in the **My Tasks** list of the assigned user on the Employee Center.
 -   The action is also listed in the **Actions** list on the Health and Safety Workspace.
 
-**Parent Topic:**[Managing Health and Safety incidents and observations](../concept/managing-hs-incidents-obs.md)
+**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

@@ -2,6 +2,7 @@
 title: Map case fields with work order table
 description: Define the fields you want to map between the case and the target work order table fields that you have already configured. This configuration automatically copies the values of mapped fields from the case to the work order when creating a work order from the case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-integrations/map-case-fields-to-work-order-table.html
 release: australia
 product: Field Service Integrations
 classification: field-service-integrations
@@ -154,5 +155,5 @@ Order of priority for processing multiple matching map definitions simultaneousl
 
 The mapping between the source and target tables is complete and ready to copy information from the case field to the corresponding field in the work order.
 
-**Parent Topic:**[Integration with Customer Service Management](../concept/customer-service-integration.md)
+**Parent Topic:**[Integration with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-integrations/customer-service-integration.md)
 

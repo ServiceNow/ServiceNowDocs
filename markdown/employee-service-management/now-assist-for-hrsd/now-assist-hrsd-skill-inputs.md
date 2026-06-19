@@ -2,6 +2,7 @@
 title: Skill inputs and triggers for Now Assist for HRSD
 description: Get a quick overview of the skill inputs and triggers for Now Assist for HR Service Delivery \(HRSD\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-skill-inputs.html
 release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
@@ -222,5 +223,5 @@ Input fields
 -   Work notes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](../task/configure-now-assist-hr.md)
+</table>**Parent Topic:**[Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 

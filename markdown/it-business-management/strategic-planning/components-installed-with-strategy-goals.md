@@ -2,11 +2,12 @@
 title: Components installed with Strategy and Goals
 description: Several types of components are installed with installation of the Strategic Planning application, such as user roles, tables, scheduled jobs, system properties, and custom scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/components-installed-with-strategy-goals.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Reference, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -15,9 +16,9 @@ breadcrumb: [Reference, Strategy and Goals, Strategic Planning, Strategic Portfo
 
 Several types of components are installed with installation of the Strategic Planning application, such as user roles, tables, scheduled jobs, system properties, and custom scripts.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
-**Note:** This topic covers reference information specific to Strategy and Goals, including user roles, tables, and system properties. For common reference information about tables, roles, and system properties installed with Strategic Planning, see [Strategic Planning Workspace reference](../../alignment-planner-workspace/reference/alignment-planner-workspace-reference.md).
+**Note:** This topic covers reference information specific to Strategy and Goals, including user roles, tables, and system properties. For common reference information about tables, roles, and system properties installed with Strategic Planning, see [Strategic Planning Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace-reference.md).
 
 ## Tables installed with Strategic Planning Workspace
 
@@ -85,5 +86,5 @@ Option to define the number of days before the due date to send the reminder for
 |-------------|-----------|
 |Goal insights generation job|Generates goal insights automatically for the set of goals that match the defined goal filter criteria.|
 
-**Parent Topic:**[Strategy and Goals reference](strategy-goals-reference.md)
+**Parent Topic:**[Strategy and Goals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/strategy-goals-reference.md)
 

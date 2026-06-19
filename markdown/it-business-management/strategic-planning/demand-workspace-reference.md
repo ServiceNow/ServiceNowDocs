@@ -2,6 +2,7 @@
 title: Next Experience for Demand Management reference
 description: Reference information to provide additional details about Next Experience for Demand Management such as the fields, user roles, tables, and multicurrency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/demand-workspace-reference.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning

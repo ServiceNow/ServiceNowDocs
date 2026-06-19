@@ -2,6 +2,7 @@
 title: Automation Center use cases
 description: Automation Center enables you to manage your automations from one central place.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/automation-center/use-cases.html
 release: australia
 product: Automation Center
 classification: automation-center
@@ -29,7 +30,7 @@ ServiceNow Robotic Process Automation data is populated in the cmdb\_ci\_rpa\_pr
 
 ServiceNow robot data is populated in the cmdb\_ci\_rpa\_robot table. All third-party robot data is stored in the cmdb\_ci\_base\_rpa\_robot table. The data from these two tables is then reflected in the automation\_attribute table. The automation field in the automation\_attribute table is referenced in the cmdb\_ci table. It is from here that the data is displayed in the Automation Center dashboard.
 
-![CMDB tables in Automation Center](../images/cmdb-table.png)
+\[Omitted image "cmdb-table.png"\] Alt text: CMDB tables in Automation Center
 
-**Parent Topic:**[Applying Common Service Data Model guidelines to Automation Center](applying-csdm.md)
+**Parent Topic:**[Applying Common Service Data Model guidelines to Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/automation-center/applying-csdm.md)
 

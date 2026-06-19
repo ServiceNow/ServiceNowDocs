@@ -2,6 +2,7 @@
 title: Identify and resolve a log streaming issue in Health Log Analytics
 description: Find and address log streaming issues to verify that your data inputs are streaming log data to your instance properly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-data-input-streaming.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -28,7 +29,7 @@ Role required: evt\_mgmt\_admin
 
     **Note:**
 
-    -   When **Look up hostnames** is selected in the [advanced data input configuration](../concept/hla-data-input-adv-configuration.md), the Streaming Sources page shows the hostname of devices that use an Rsyslog or a Filebeat shipper. For Elasticsearch indices, it displays the index name.
+    -   When **Look up hostnames** is selected in the [advanced data input configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md), the Streaming Sources page shows the hostname of devices that use an Rsyslog or a Filebeat shipper. For Elasticsearch indices, it displays the index name.
     -   Streaming Sources is also available as a related list on the data input form. The related list displays only the endpoint devices that are relevant to that data input.
     -   If the HLA engine is down and data has stopped streaming, a notification appears at the top of the Streaming Sources page. When this happens, contact ServiceNow support.
 2.  Select a data input record to view the streaming data of its sources and identify streaming issues and their possible cause.
@@ -83,9 +84,9 @@ The average number of preprocessed log lines that streamed to the MID Server per
 
 ## What to do next
 
-When the logs are streaming properly, proceed to [map your raw log data](hla-data-input-mapping.md).
+When the logs are streaming properly, proceed to [map your raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
-**Note:** You can choose to [edit incoming raw log data](hla-data-input-preprocess.md) before Health Log Analytics processes it. For example, preprocessing enables you to discard log portions or remove sensitive data from your logs. This task is optional.
+**Note:** You can choose to [edit incoming raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-preprocess.md) before Health Log Analytics processes it. For example, preprocessing enables you to discard log portions or remove sensitive data from your logs. This task is optional.
 
-**Parent Topic:**[Set up data inputs in Health Log Analytics manually](hla-data-input-setup-manual.md)
+**Parent Topic:**[Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
 

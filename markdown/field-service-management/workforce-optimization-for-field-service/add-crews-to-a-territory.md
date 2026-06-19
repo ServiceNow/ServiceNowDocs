@@ -2,6 +2,7 @@
 title: Add crews to a territory
 description: Add crews directly to territories, allowing members from your territories to join crews instantly and handle tasks immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/add-crews-to-a-territory.html
 release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
@@ -65,5 +66,5 @@ The crew becomes visible within the **Crew Memberships** related list of the ter
 
 ## What to do next
 
-Dispatchers can assign crews to work order tasks. For more information, see [Assign work order tasks to crews](assign-wot-crew-operations.md).
+Dispatchers can assign crews to work order tasks. For more information, see [Assign work order tasks to crews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/assign-wot-crew-operations.md).
 

@@ -2,6 +2,7 @@
 title: CMDB CI Class Models app
 description: The CMDB contains base-system classes that store data about configuration items \(CIs\). The CMDB CI Class Models ServiceNow Store app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships if applicable.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.html
 release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
@@ -17,15 +18,15 @@ The CMDB contains base-system classes that store data about configuration items 
 
 You can use the added classes like any other class. Applications such as Discovery and Service Mapping can use class extensions to populate CIs and to discover technologies and software.
 
-See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
+See the release notes for all CMDB CI class models.
 
 Related ServiceNow® Store apps and reference information:
 
--   [Configuration Management database](c_ConfigurationManagementDatabase.md): A collection of class diagrams and class attributes for key CMDB classes.
--   [CMDB tables descriptions](../reference/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
--   [Populating the CMDB](c_OptionsToPopulateCMDB.md): Information about the various options for populating the CMDB.
--   [Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md): A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
--   [Service Graph Connectors](cmdb-third-party-integrations.md): ServiceNow Store apps that provide predefined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](integrationhub-etl.md) wizard for creating new ETL transform maps.
+-   [Configuration Management database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md): A collection of class diagrams and class attributes for key CMDB classes.
+-   [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
+-   [Populating the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_OptionsToPopulateCMDB.md): Information about the various options for populating the CMDB.
+-   Discovery patterns: A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
+-   [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-third-party-integrations.md): ServiceNow Store apps that provide predefined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) wizard for creating new ETL transform maps.
 
 ## Add class models
 
@@ -35,7 +36,7 @@ The CMDB CI Class Models app adds classes, columns, and associated metadata as r
 -   Identifier \[cmdb\_identifier\]: Identification rules
 -   Identifier Entry \[cmdb\_identifier\_entry\]: Identification entries
 -   CMDB Metadata Hosting Rules \[cmdb\_metadata\_hosting\]: Dependent relationships
--   CMDB Deduplication Task Lookup or Related item allowed classes \[cmdb\_duplicate\_lookup\_related\_allowed\_class\]. For more information, see [Detecting duplicate referenced CIs during lookup-based identification](id-detect-dup-ci.md#section_unn_yjr_xgc).
+-   CMDB Deduplication Task Lookup or Related item allowed classes \[cmdb\_duplicate\_lookup\_related\_allowed\_class\]. For more information, see [Detecting duplicate referenced CIs during lookup-based identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
 
 ## Discover using extension classes
 
@@ -43,27 +44,27 @@ The following table lists the software and technologies that applications can di
 
 |Software/Technology|CMDB CI Class Models Store app|Discovery patterns|
 |-------------------|------------------------------|------------------|
-|Avi load balancer|[Avi load balancer extension classes](cmdb-ci-class-models-avi-lb.md)|[Avi Vantage load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/avi-load-balancer-discovery.md)|
-|BYOL Model of RDS for Oracle|[BYOL model of RDS for Oracle extension classes](cmdb-ci-class-models-byol-aws-rds.md)| |
-|Cassandra|[Cassandra extension classes](cmdb-ci-class-models-cassandra.md)|[Apache Cassandra database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/cassandra-discovery.md)|
-|DNS resource records|[DNS resource record classes](cmdb-ci-class-models-dns-rr.md)| |
-|Firewall|[Firewall extension classes](cmdb-ci-class-models-fw.md)| |
-|IBM Hardware Management Console \(HMC\)|[IBM Hardware Management Console \(HMC\) extension classes](cmdb-ci-class-models-ibm-hmc.md)|[IBM Virtualization and Hardware Management Console discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md)|
-|Internet of Things \(IoT\)|[Internet of Things \(IoT\) extension classes](cmdb-ci-class-models-iot.md)|N/A|
-|Kong|[Kong extension classes](cmdb-ci-class-models-kong.md)| |
-|Kubernetes|[Kubernetes extension classes](cmdb-ci-class-models-kubernetes.md)| |
-|Network Intrusion Detection System \(NIDS\)|[Network Intrusion Detection System \(NIDS\) CI extension class](cmdb-network-ids-nids-ci-extension-class.md)| |
-|Nutanix|[Nutanix extension classes](cmdb-ci-class-models-nutanix.md)|[Nutanix Acropolis discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)|
-|OpenStack|[OpenStack extension classes](cmdb-ci-class-models-openstack.md)|[OpenStack resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md)|
-|Operational Technology \(OT\)|[Operational Technology \(OT\) extension classes](cmdb-ci-class-models-operation-technology.md)| |
-|Red Hat Virtualization \(RHV\)|[Red Hat Virtualization \(RHV\) extension classes](cmdb-ci-class-models-redhat-rhv.md)|[Red Hat Virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.md)|
-|Third-party integrations|[Extend classes and rules for third-party integrations](cmdb-ci-class-models-extend.md)| |
-|Transport Layer Security \(TLS\)|[Transport Layer Security \(TLS\) extension classes](cmdb-ci-class-models-tls.md)|Discovery procedures provided by Certificate Inventory and Management ServiceNow Store app|
-|VMware NSX load balancer|[VMware NSX load balancer extension classes](cmdb-ci-class-models-vmware-nsx.md)|[VMware NSX Advanced load balancer discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery-and-service-mapping-patterns/vmware-nsx-lb-discovery.md)|
+|Avi load balancer|[Avi load balancer extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-avi-lb.md)|Avi Vantage load balancer discovery|
+|BYOL Model of RDS for Oracle|[BYOL model of RDS for Oracle extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-byol-aws-rds.md)| |
+|Cassandra|[Cassandra extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-cassandra.md)||
+|DNS resource records|[DNS resource record classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-dns-rr.md)| |
+|Firewall|[Firewall extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-fw.md)| |
+|IBM Hardware Management Console \(HMC\)|[IBM Hardware Management Console \(HMC\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-ibm-hmc.md)|IBM Virtualization and Hardware Management Console discovery|
+|Internet of Things \(IoT\)|[Internet of Things \(IoT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-iot.md)|N/A|
+|Kong|[Kong extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-kong.md)| |
+|Kubernetes|[Kubernetes extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-kubernetes.md)| |
+|Network Intrusion Detection System \(NIDS\)|[Network Intrusion Detection System \(NIDS\) CI extension class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-network-ids-nids-ci-extension-class.md)| |
+|Nutanix|[Nutanix extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-nutanix.md)|Nutanix Acropolis discovery|
+|OpenStack|[OpenStack extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-openstack.md)|OpenStack resource discovery|
+|Operational Technology \(OT\)|[Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-operation-technology.md)| |
+|Red Hat Virtualization \(RHV\)|[Red Hat Virtualization \(RHV\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-redhat-rhv.md)|Red Hat Virtualization discovery|
+|Third-party integrations|[Extend classes and rules for third-party integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-extend.md)| |
+|Transport Layer Security \(TLS\)|[Transport Layer Security \(TLS\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-tls.md)|Discovery procedures provided by Certificate Inventory and Management ServiceNow Store app|
+|VMware NSX load balancer|[VMware NSX load balancer extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-vmware-nsx.md)|VMware NSX Advanced load balancer discovery|
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Verify successful installation
 

@@ -2,6 +2,7 @@
 title: Properties installed with Applicant Center
 description: The system properties installed with the Applicant Center plugin are required to configure different functionalities in Applicant Center.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/properties-appl-ctr.html
 release: australia
 product: Applicant Center
 classification: applicant-center

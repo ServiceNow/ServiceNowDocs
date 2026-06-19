@@ -2,6 +2,7 @@
 title: Managing portfolio financials in Portfolio Planning
 description: View the financial breakdown of estimates, approved costs, benefits, and actuals and so on for portfolio financials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/using-portfolio-financials-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -23,16 +24,16 @@ Using the portfolio financials, portfolio managers can:
 
 -   Track the financial performance and status of planning items.
 -   Arrive at an informed decision by analyzing the estimated cost and benefits of a planning item while planning and prioritizing for the next Portfolio cycle.
--   View the financials based on the expense type or cost type depending on the [budget attribute configuration](../task/config-budget-allocation-attribute-ppw.md).
+-   View the financials based on the expense type or cost type depending on the [budget attribute configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-budget-allocation-attribute-ppw.md).
 -   Avoid overspending on planning items by comparing the approved budget with the latest forecast and actuals.
 
-**Important:** New and existing customers need to configure the portfolio financials to view the financials of your planning items at portfolio level. For more information, see [Configure portfolio financials in Portfolio Planning](../task/config-portfolio-fin-ppw.md).
+**Important:** New and existing customers need to configure the portfolio financials to view the financials of your planning items at portfolio level. For more information, see [Configure portfolio financials in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/config-portfolio-fin-ppw.md).
 
 The portfolio financials view supports Demands and Projects with Fiscal Calendar type configuration only.
 
-![Portfolio financials page view expense type budget attribute.](../../spw-financials/images/fin-portfolio-financials-page-expense-type.png "Portfolio financials grouped by Budget status with expense type as the budget attribute")
+\[Omitted image "fin-portfolio-financials-page-expense-type.png"\] Alt text: Portfolio financials page view expense type budget attribute.
 
-![Portfolio financials page view cost type budget attribute.](../../spw-financials/images/fin-portfolio-financials-page-cost-type.png "Portfolio financials grouped by Planning status with cost type as the budget attribute")
+\[Omitted image "fin-portfolio-financials-page-cost-type.png"\] Alt text: Portfolio financials page view cost type budget attribute.
 
 **Note:** Group header row displays the rolled up values for Budget, Forecast, Variance, Actuals, and Remaining estimate of all the planning items in the group.
 
@@ -46,7 +47,7 @@ In the right-grid, financial attributes of the planning items such as, Budget, F
 
 **Tip:** You can select the name of a planning item from the left-grid to directly access the financials record page of that planning item.
 
-You can export the portfolio financials details to Excel or CSV using the **Export** option \(![Downward facing arrow indicating download option.](../../spw-financials/images/fin-export-option.png)\).
+You can export the portfolio financials details to Excel or CSV using the **Export** option \(\[Omitted image "fin-export-option.png"\] Alt text: Downward facing arrow indicating download option.\).
 
 ## Customize your financials view
 
@@ -54,7 +55,7 @@ Customize the portfolio financials to view and access the required parameters he
 
 -   You can get a more detailed and granular view of the financials at monthly, quarterly, and yearly view by defining Timescale and Range. Use time scale to select a fiscal period and filter the range within the time scale to view the financials for any specific months, quarters, or years.
 
-    ![Time scale and range modal window.](../../spw-financials/images/fin-timescale-range-modal.png)
+    \[Omitted image "fin-timescale-range-modal.png"\] Alt text: Time scale and range modal window.
 
 <table id="table_uvy_5bw_12c"><thead><tr><th>
 
@@ -99,9 +100,9 @@ Portfolio financial breakdown for the entire portfolio timeline.
 </td></tr></tbody>
 </table>-   Personalize grouping and columns in the grids.
 
-    Configure the columns and groupings in the right-grid using Personalize option \(![Gear icon for personalization settings.](../../spw-financials/images/icon-personalization-gear-symbol.png)\) to build a custom view.
+    Configure the columns and groupings in the right-grid using Personalize option \(\[Omitted image "icon-personalization-gear-symbol.png"\] Alt text: Gear icon for personalization settings.\) to build a custom view.
 
-    ![Checkboxes list to customize portfolio financials view.](../../spw-financials/images/fin-personalize-right-grid.png)
+    \[Omitted image "fin-personalize-right-grid.png"\] Alt text: Checkboxes list to customize portfolio financials view.
 
     For example, if you want to compare budget and actuals breakdowns, select only these two options and apply your preferences. You can also customize the left-grid by selecting the required columns from the **Left Grid** list from the personalize settings.
 

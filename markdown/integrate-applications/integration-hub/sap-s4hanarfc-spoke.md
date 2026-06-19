@@ -2,6 +2,7 @@
 title: SAP S4 HANA RFC Spoke
 description: The SAP S4 HANA RFC spoke is built by Bristlecone, Inc. Manage procurement, records, journals, and others, in SAP S4 HANA RFC account from your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/sap-s4hanarfc-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -17,7 +18,7 @@ The SAP S4 HANA RFC spoke is built by Bristlecone, Inc. Manage procurement, reco
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -25,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP S4 HANA RFC spoke v2.6.1 is the latest version.
+SAP S4 HANA RFC spoke v2.7.0 is the latest version.
 
 ## Supported versions
 
@@ -42,7 +43,7 @@ This spoke was built for SAP S4 HANA RFC 2023.
 
 -   Copy and record the client value of the target host where the SAP S4 HANA RFC server is installed.
 -   Configure the values of these system properties:
-    -   **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see [Workflow Studio system\\n properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md).
+    -   **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see Workflow Studio system\\n properties.
     -   **glide.rest.max\_content\_length**: This property specifies the payload size. Specify the maximum payload size you want to use in your flows. The maximum value you can specify for this property is, 25 MB.
 -   If you are using this spoke along with the SAP ECC IDoc, SAP S4 HANA IDoc, SAP ECC RFC spokes, during spoke upgrades, ensure that you upgrade all the spokes to their latest versions.
 
@@ -129,7 +130,7 @@ The SAP S/4 HANA RFC spoke adds the SAP S4 HANA RFC Spoke application to your in
 |Module|Description|
 |------|-----------|
 |SAP S/4 HANA - RFCs|Displays the list RFCs. Some RFCs are provided along with spoke. You can create additional RFCs as per your requirement. The Execute RFC action uses these records as an input.|
-|SAP S/4 HANA Flow Executions|Displays the dates on which the Retrieve Incoming Invoice flow is executed. After you set up the SAP S4 HANA RFC spoke, create a record to specify the date up to which you want to retrieve the invoice data. For more information, see [Set up the SAP S4 HANA RFC spoke](../task/setup-saphana-rfc.md).|
+|SAP S/4 HANA Flow Executions|Displays the dates on which the Retrieve Incoming Invoice flow is executed. After you set up the SAP S4 HANA RFC spoke, create a record to specify the date up to which you want to retrieve the invoice data. For more information, see [Set up the SAP S4 HANA RFC spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-saphana-rfc.md).|
 |SAP S/4 HANA Invoice Data|Displays details of the invoice data. Customize and execute the default flow, Retrieve Incoming Invoice to retrieve the invoice data.|
 |SAP S/4 HANA Users Records|Displays details of the users, based on their user role. Customize and execute the default flow, Retrieve Users by Role to retrieve the user information.|
 
@@ -139,16 +140,16 @@ The SAP S4 HANA RFC provides the sn\_sap\_s4\_hana\_rfc.SAP\_S4\_HANA\_RFC\_Spok
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/r-credentials.md).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see .
 
 ## MID Server requirements
 
-These actions use Remote Function Call \(RFC\) protocol \(SAP Proprietary protocol – SAP Standard Interface\), which can run on an instance or MID Server. Use the connection record associated with SAP S4 HANA RFC spoke alias to configure where actions run as well as set MID Server selection attributes. For more information about running actions on the MID Server, see [Integration steps](../../integrationhub/concept/integration-steps.md)
+These actions use Remote Function Call \(RFC\) protocol \(SAP Proprietary protocol – SAP Standard Interface\), which can run on an instance or MID Server. Use the connection record associated with SAP S4 HANA RFC spoke alias to configure where actions run as well as set MID Server selection attributes. For more information about running actions on the MID Server, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/integration-steps.md)
 
 **Note:**
 
--   If the MID Server is installed on a Linux machine, perform the configurations as outlined in [Set up the SAP S4 HANA RFC spoke](../task/setup-saphana-rfc.md).
+-   If the MID Server is installed on a Linux machine, perform the configurations as outlined in [Set up the SAP S4 HANA RFC spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-saphana-rfc.md).
 -   If the MID Server is installed on a Windows machine, no configurations are needed.
 
-To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
+To set up the MID Server for this spoke, see [Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md).
 

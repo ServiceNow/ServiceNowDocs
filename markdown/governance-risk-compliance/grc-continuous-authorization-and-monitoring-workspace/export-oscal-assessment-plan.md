@@ -2,6 +2,7 @@
 title: Export an OSCAL Assessment Plan
 description: Export engagement data as OSCAL Assessment Plan files to share testing plans with auditors or import into external systems.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/export-oscal-assessment-plan.html
 release: australia
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
@@ -20,7 +21,10 @@ Export engagement data as OSCAL Assessment Plan files to share testing plans wit
 -   Authorization package is in the Assess step or later
 -   At least one engagement with associated entities exists in the package
 
-Role required: sn\_irm\_cont\_auth.info\_system\_sec\_officer or sn\_irm\_cont\_auth.admin.
+Role required:
+
+-   Information System Security Officer \(sn\_irm\_cont\_auth.info\_system\_sec\_officer\)
+-   CAM Administrator \(sn\_irm\_cont\_auth.admin\)
 
 ## About this task
 
@@ -34,18 +38,29 @@ The export process generates files asynchronously. After generation completes, d
 
 2.  From the **Authorization packages** in the RMF list, select an authorization package record in Assess step or later.
 
-3.  Navigate to the Controls tab.
+3.  Navigate to the Engagements tab.
 
-4.  On the Controls tab, from the Generate OSCAL dropdown list, select **Generate OSCAL AP**.
+4.  Select **Generate OSCAL**.
 
-    The system starts generating OSCAL files asynchronously. This process takes a few minutes depending on package complexity. The **Download OSCAL AP** button appears when the process is complete.
+    A banner appears with the message: "The files are being generated. Please refresh the page after some time, then click 'Download OSCAL Files' to download the OSCAL files."
 
-5.  Select More icon and then select **Download OSCAL AP**.
+    The system starts generating OSCAL files asynchronously. This process takes a few minutes depending on package complexity. The **Download OSCAL Files** button appears when the process is complete.
 
-    A zip file downloads containing all generated OSCAL files: Catalog, Profile, SSP, and one AP file per engagement in the package.
+5.  After the process is complete, select **Download OSCAL Files**.
 
-    The downloaded zip file contains OSCAL-compliant JSON files. You can validate these files using the OSCAL CLI validator and import them into other systems or share them with external auditors for assessment planning.
+    **Note:** Verify that the pop-up blocker is turned off for the URL so that the ZIP file is automatically downloaded to your local machine.
+
+    A ZIP file is downloaded containing the following OSCAL files:
+
+    -   Catalog JSON file
+    -   Profile JSON file
+    -   SSP JSON file
+    -   Assessment Plan \(AP\) JSON file \(one per engagement\)
+    -   Assessment Results \(AR\) JSON file \(one per engagement\)
+    -   Overlay Catalog JSON file \(if overlays are configured. Also includes overlays from associated control tailoring requests\)
+    -   POA&amp;M JSON file \(included if POA&amp;M items exist\)
+    You can validate these files using the OSCAL CLI validator and import them into other systems or share them with external auditors for assessment planning.
 
 
-**Parent Topic:**[Export in OSCAL format](../../grc-cam-workspace/concept/oscal-support-cam.md)
+**Parent Topic:**[Export in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/oscal-support-cam.md)
 

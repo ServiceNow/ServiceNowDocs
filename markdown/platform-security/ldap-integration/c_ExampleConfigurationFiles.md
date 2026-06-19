@@ -2,6 +2,7 @@
 title: Example ADAM configuration files
 description: All of the configurations for ADAMSync are stored in xml files.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/ldap-integration/c\_ExampleConfigurationFiles.html
 release: australia
 product: LDAP integration
 classification: ldap-integration

@@ -2,6 +2,7 @@
 title: Adopt AI Governance
 description: This accelerator guides customers through the process of establishing and managing an Artificial Intelligence Management System \(AIMS\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/adopt-ai-governance.html
 release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
@@ -18,6 +19,8 @@ This accelerator guides customers through the process of establishing and managi
 ## Accelerator Overview
 
 Adopt AI Governance builds on the Foundations of AI Governance accelerator by providing Impact customers with ready-made AIMS materials and collaborating with them to tailor these assets to their specific requirements. This offering focuses on helping customers make AI governance practices operational, in alignment with ISO/IEC 42001, removing common barriers to compliance through expert guidance. By the end of the engagement, customers have a customized, actionable governance framework to help them successfully adopt AI governance.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
@@ -38,7 +41,7 @@ Adopt AI Governance builds on the Foundations of AI Governance accelerator by pr
     -   Overview of AIMS purpose
     -   Discussion of foundational principles
     -   Orientation on ready-made documentation
--   **Customer Coaching Sessions \(up to 5 hours of sessions\)**
+-   **Customer Coaching Sessions \(up to 10 hours of sessions\)**
     -   Answer questions
     -   Support document modifications
     -   Provide guidance and insights

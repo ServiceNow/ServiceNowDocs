@@ -2,7 +2,10 @@
 title: Enable identification of relevant territories for a work order or work order task
 description: Enable identification of the most relevant territories for work orders or work order tasks by setting matching rules and conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/create-territory-conditions-in-console.html
 release: australia
+product: Field Service Management
+classification: field-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -36,7 +39,7 @@ Create conditions to be able to filter and identify the most relevant territory 
 
 2.  In the Territories panel, select a territory from the Browse All list.
 
-3.  Select the **Actions** icon \(![Actions icon.](../image/more_actions.png)\) on the territory card and select **View Details**.
+3.  Select the **Actions** icon \(\[Omitted image "more\_actions.png"\] Alt text: Actions icon.\) on the territory card and select **View Details**.
 
 4.  Select **More** and then select **Territory Conditions**.
 

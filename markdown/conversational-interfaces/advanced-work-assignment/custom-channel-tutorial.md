@@ -2,6 +2,7 @@
 title: Tutorial: Set up a custom service channel for change requests
 description: Learn how to configure Advanced Work Assignment to automatically assign change requests to agents. Use this tutorial as a guideline to help you understand how service channel records, queues, and assignment rules work together to create a custom service channel.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/custom-channel-tutorial.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
@@ -22,7 +23,7 @@ In this tutorial, you learn how to set up a custom channel that:
 -   Displays the change request number, short description, and type on the inbox card
 -   Enables the agent to accept or reject change requests
 
-For information on setting up custom service channels, see [Set up a custom service channel](../task/setup-custom-channel.md).
+For information on setting up custom service channels, see [Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/advanced-work-assignment/setup-custom-channel.md).
 
 Before you begin:
 

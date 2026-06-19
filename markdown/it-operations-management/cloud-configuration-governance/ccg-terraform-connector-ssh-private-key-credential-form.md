@@ -2,6 +2,7 @@
 title: Cloud Services Catalog Terraform Connector SSH Private Key Credentials form reference
 description: Cloud Services Catalog Terraform Connector uses the SSH private key credential to connect with the Linux server on which Terraform Open Source is running.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/ccg-terraform-connector-ssh-private-key-credential-form.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
@@ -29,5 +30,5 @@ The Linux server supports the following authentication modes:
 |SSH passphrase|SSH passphrase of the Linux server on which Terraform is running.|
 |SSH private key|SSH private key of the Linux server on which Terraform is running.|
 
-**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](cpg-terraform-connector-reference.md)
+**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
 

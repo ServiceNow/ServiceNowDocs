@@ -2,6 +2,7 @@
 title: Revoke access to replicated data for Instance Data Replication
 description: Revoke a consumer's access to replicated data if you believe that consumer instance should no longer receive data in Instance Data Replication \(IDR\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/revoke-consumer-sets.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -31,14 +32,14 @@ When you generate a new, shared encryption key, approved consumer sets automatic
 
     The instance identifies the consumers under the **Consumer Subscriptions** tab.
 
-    ![Revoke access](../image/revoke-consumer.png)
+    \[Omitted image "revoke-consumer.png"\] Alt text: Revoke access
 
 3.  On the **Consumer Subscriptions** tab, select the option for the consumer instance whose permissions you want to revoke.
 
 4.  In the Actions on selected rows list, select **Revoke**.
 
-    Instance Data Replication generates a new encryption key and shares it with all approved consumer sets. All other consumer sets stop receiving replication data. Admins of those consumer replication sets must [reapply to restore access to the replication data](restore-access.md).
+    Instance Data Replication generates a new encryption key and shares it with all approved consumer sets. All other consumer sets stop receiving replication data. Admins of those consumer replication sets must [reapply to restore access to the replication data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/restore-access.md).
 
 
-**Parent Topic:**[Manage consumer access to replication data in Instance Data Replication](approve-consumer.md)
+**Parent Topic:**[Manage consumer access to replication data in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/approve-consumer.md)
 

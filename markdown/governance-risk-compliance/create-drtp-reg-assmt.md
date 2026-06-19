@@ -2,6 +2,7 @@
 title: Create an assessment and enhance digital resilience data
 description: Create an assessment of the Information and Communication Technology \(ICT\) service in Digital resilience third-party registers. Add details such as the contractual arrangement reference number, identification code, and type of code for the ICT third-party service provider. You can then enhance its digital resilience information for compliance with DORA regulation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-drtp-reg-assmt.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -48,7 +49,7 @@ It's required that you review your contracts and third parties annually. You can
 
 4.  Set up the digital resilience information for the assessments on the form.
 
-    For more information, see [Create New Assessment of the ICT service](../reference/create-new-asmt-ict-service.md).
+    For more information, see [Create New Assessment of the ICT service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-asmt-ict-service.md).
 
 5.  Select **Save**.
 
@@ -61,15 +62,15 @@ It's required that you review your contracts and third parties annually. You can
 
 7.  To export the record, select **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d350334e241">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d335561e241">
 
 Step
 
-</th><th align="left" id="d350334e244">
+</th><th align="left" id="d335561e244">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d350334e250">
+</th></tr></thead><tbody><tr><td id="d335561e250">
 
 **Select __File Type__.**
 
@@ -81,7 +82,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d350334e280">
+</td></tr><tr><td id="d335561e280">
 
 **Select __Delivery Type__.**
 
@@ -91,7 +92,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d350334e302">
+</td></tr><tr><td id="d335561e302">
 
 **Select __Export.__**
 
@@ -110,8 +111,8 @@ Once all details are captured, you can perform the following tasks:
 -   Download the information using the Microsoft Excel download feature
 -   Upload requests as needed
 
--   **[Create New Assessment of the ICT service](../reference/create-new-asmt-ict-service.md)**  
+-   **[Create New Assessment of the ICT service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-asmt-ict-service.md)**  
 On the Create New Assessment of the ICT service form, fill in the fields.
 
-**Parent Topic:**[Using Digital resilience third-party registers](../concept/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

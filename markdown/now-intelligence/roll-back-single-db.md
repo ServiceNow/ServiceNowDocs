@@ -2,6 +2,7 @@
 title: Roll back migrated dashboards
 description: Convert a migrated Platform Analytics dashboard back to a Core UI dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/roll-back-single-db.html
 release: australia
 topic_type: task
 last_updated: "2026-03-10"

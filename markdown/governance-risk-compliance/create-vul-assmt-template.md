@@ -2,6 +2,7 @@
 title: Set up the Vulnerability Assessment Template
 description: Create the Vulnerability Assessment Template by defining the assessment parameters for Operational vulnerability. The assessment template is based on the Metric type assessment. It helps you to define important assessment details such as the assessment duration, associated tables, filter conditions, and so on.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-vul-assmt-template.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -25,7 +26,7 @@ Role required: sn\_oper\_res.admin
 
 3.  On the Assessment Metric Type record form, fill in the fields.
 
-    For more information on the fields, see [Assessment metric type form](../reference/op-vul-assmt-metric-type-form.md).
+    For more information on the fields, see [Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/op-vul-assmt-metric-type-form.md).
 
 4.  Use the Smart Assessment template that has been added to the vulnerability type.
 

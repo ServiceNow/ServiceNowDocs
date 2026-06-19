@@ -2,6 +2,7 @@
 title: Activate a system property to generate a certificate of completion
 description: As an admin, activate the sn\_lg\_contracts.enable\_executed\_contract\_audit\_certificate system property to generate a certificate of completion for electronically signed non-disclosure agreements \(NDA\) and third-party contracts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-simple-contracts/configure-system-property-COC.html
 release: australia
 product: Legal Simple Contracts
 classification: legal-simple-contracts
@@ -17,13 +18,13 @@ As an admin, activate the **sn\_lg\_contracts.enable\_executed\_contract\_audit\
 
 ## Before you begin
 
-You must have configured an electronic signature provider. For more information, see [Configure an e-signature provider for legal contracts](integrate-legal-contracts-esign.md).
+You must have configured an electronic signature provider. For more information, see [Configure an e-signature provider for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/integrate-legal-contracts-esign.md).
 
 Role required: sn\_lg\_ops.legal\_admin
 
 ## About this task
 
-**Note:** This feature is applicable only for electronically signed contracts. For more information on submitting NDA and third-party contracts, see [Submit a legal request for a NDA](submit-legal-contract-request.md) and [Submit a legal request for a third-party contract review](submit-legal-request-tpc-review.md).
+**Note:** This feature is applicable only for electronically signed contracts. For more information on submitting NDA and third-party contracts, see [Submit a legal request for a NDA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/submit-legal-contract-request.md) and [Submit a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-simple-contracts/submit-legal-request-tpc-review.md).
 
 The certificate of completion provided by Docusign or Adobe Acrobat Sign includes the audit trail with the timestamp details about each signatory action during an electronic signature. The audit trail ensures non-repudiation and resolves any objections.
 

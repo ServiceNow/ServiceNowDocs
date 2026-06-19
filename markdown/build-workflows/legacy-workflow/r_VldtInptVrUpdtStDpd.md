@@ -2,6 +2,7 @@
 title: ValidateInputVarUpdateSetDependencies
 description: The ValidateInputVarUpdateSetDependencies validator examines update sets to ensure that workflow input variables for a given workflow have not been deleted in different update sets than those currently In progress.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/legacy-workflow/r\_VldtInptVrUpdtStDpd.html
 release: australia
 product: Legacy Workflow
 classification: legacy-workflow
@@ -27,13 +28,13 @@ The **ValidateInputVarUpdateSetDependencies** validator examines update sets to 
 -   Suggested Action: If the deletion is not intended to be separate from the workflow, ensure that both update sets are committed concurrently to the new instance, or merge both payloads into a single update set.
 -   Publishable: Yes
 -   Runnable: Yes
--   Related Information: [Workflow movement with update sets](../../workflow-administration/concept/c_WorkflowMovementWithUpdateSets.md#)
+-   Related Information: [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_WorkflowMovementWithUpdateSets.md)
 
 ## Troubleshooting
 
 Workflow input variables get individual entries in the **Customer Update** related list in the current user's update set. This validator reports to the user when workflow input deletions have happened in an update set other than the current user's update set.
 
-Follow the instructions for [Input variable removal](../../workflow-administration/concept/c_InputVariableRemoval.md#) when the validator issues this warning.
+Follow the instructions for [Input variable removal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/c_InputVariableRemoval.md) when the validator issues this warning.
 
-**Parent Topic:**[Workflow validator](r_WorkflowValidator.md)
+**Parent Topic:**[Workflow validator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/legacy-workflow/r_WorkflowValidator.md)
 

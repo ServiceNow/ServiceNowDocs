@@ -2,6 +2,7 @@
 title: Name change of customer workflow
 description: Learn how agents, using the Name change workflow, resolve service requests for a change in customer's name. The workflow applies to Client Lifecycle service requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-customer-lifecycle-operations/name-change-workflow.html
 release: australia
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
@@ -17,7 +18,7 @@ Learn how agents, using the Name change workflow, resolve service requests for a
 
 The following diagram shows how the application helps bank agents resolve a name change request.
 
-![Workflow that shows how name change request is completed using the CLO application. For the text description, refer to the workflow steps that follow.](../image/fso-name-change-workflow.png "Name change workflow example")
+\[Omitted image "fso-name-change-workflow.png"\] Alt text: Workflow that shows how name change request is completed using the CLO application. For the text description, refer to the workflow steps that follow.
 
 The CLO admin can review and customize this predefined flow based on your organization's business needs.
 

@@ -2,6 +2,7 @@
 title: ServiceNow IDE commands
 description: Use commands from the command palette to perform many actions in the ServiceNow IDE.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-ide-family-release/servicenow-ide-commands.html
 release: australia
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
@@ -46,7 +47,7 @@ Fluent: Build and Install
 
 </td><td>
 
-Build and install the application across the instance.Learn more: [Build and install an application in the ServiceNow IDE](../task/build-applications-servicenow-ide.md)
+Build and install the application across the instance.Learn more: [Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md)
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Fluent: Convert an app to Fluent
 
 Convert an existing application to support development in source code.**Note:** With ServiceNow IDE version 3.1.4 and earlier, the sn\_glider.ide\_fluent\_admin role is required to use this command.
 
-Learn more: [Convert an application with the ServiceNow IDE](../task/convert-application-servicenow-ide.md)
+Learn more: [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
 
 </td></tr><tr><td>
 
@@ -72,7 +73,7 @@ Fluent: Create Fluent App
 
 </td><td>
 
-Create an application to develop in source code.Learn more: [Create an application with the ServiceNow IDE](../task/create-application-servicenow-ide.md)
+Create an application to develop in source code.Learn more: [Create an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-application-servicenow-ide.md)
 
 </td></tr><tr><td>
 
@@ -91,7 +92,7 @@ Download script dependencies in your application to get type-ahead support for G
 ]
 ```
 
-Learn more: [Downloading dependencies with the ServiceNow SDK](../../servicenow-sdk/concept/downloading-dependencies-now-sdk.md#)
+Learn more: [Downloading dependencies with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-sdk/downloading-dependencies-now-sdk.md)
 
 </td></tr><tr><td>
 
@@ -109,7 +110,7 @@ Fluent: Force Sync of Fluent App with all metadata
 
 Synchronize all metadata in the application rather than only the metadata that changed since the last time that the application was synchronized.**Warning:** Force synchronizing all metadata in the application might overwrite any changes in the application that haven't been built and installed on the instance.
 
-Learn more: [Synchronizing applications in the ServiceNow IDE](../concept/synchronizing-applications.md)
+Learn more: [Synchronizing applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/synchronizing-applications.md)
 
 </td></tr><tr><td>
 
@@ -145,7 +146,7 @@ Fluent: Sync Fluent App with changed metadata
 
 </td><td>
 
-Synchronize changes made to the application metadata since the last time that the application was synchronized.Learn more: [Synchronizing applications in the ServiceNow IDE](../concept/synchronizing-applications.md)
+Synchronize changes made to the application metadata since the last time that the application was synchronized.Learn more: [Synchronizing applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/synchronizing-applications.md)
 
 </td></tr><tr><td>
 
@@ -163,8 +164,8 @@ Git: Set IDE Git credentials
 
 Configure basic or OAuth 2.0 credentials that are associated with your user to authenticate with a Git provider.Learn more:
 
--   [Connect to a Git provider using basic authentication with the ServiceNow IDE](../task/connect-git-provider-basic-auth.md)
--   [Connect to a Git provider using OAuth 2.0 with the ServiceNow IDE](../concept/connect-git-provider-oauth-2.md#)
+-   [Connect to a Git provider using basic authentication with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/connect-git-provider-basic-auth.md)
+-   [Connect to a Git provider using OAuth 2.0 with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/connect-git-provider-oauth-2.md)
 
 </td></tr><tr><td>
 
@@ -172,7 +173,7 @@ File Categories: Focus on File Categories View
 
 </td><td>
 
-Navigate to the File Categories view.Learn more: [Create an application file in the ServiceNow IDE](../task/create-application-file-servicenow-ide.md)
+Navigate to the File Categories view.Learn more: [Create an application file in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md)
 
 </td></tr><tr><td>
 
@@ -180,7 +181,7 @@ Package Manager: Install Dependencies
 
 </td><td>
 
-Install third-party dependencies into the `node_modules` directory.Learn more: [Use third-party libraries in applications in the ServiceNow IDE](../task/use-third-party-libraries-ide.md)
+Install third-party dependencies into the `node_modules` directory.Learn more: [Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)
 
 </td></tr><tr><td>
 
@@ -212,7 +213,7 @@ Workspaces: Create a Workspace
 
 </td><td>
 
-Create a ServiceNow IDE workspace.Learn more: [Create a workspace in the ServiceNow IDE](../task/create-workspace-servicenow-ide.md)
+Create a ServiceNow IDE workspace.Learn more: [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md)
 
 </td></tr><tr><td>
 

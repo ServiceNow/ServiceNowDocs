@@ -2,6 +2,7 @@
 title: Create a Content Analytics tracking profile
 description: Use Tracking Profiles to configure your ServiceNow content analytics dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-content-analytics-setup.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -90,7 +91,7 @@ Import run time
 
 </td><td>
 
-For the ServiceNow profiles, the time and the time zone data moves from the content analytics tables to the shared analytics tables. See [Collected data](../concept/ecpro-content-automation-analytics.md#section-collected-data).
+For the ServiceNow profiles, the time and the time zone data moves from the content analytics tables to the shared analytics tables. See [Collected data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md).
 
 </td></tr><tr><td>
 

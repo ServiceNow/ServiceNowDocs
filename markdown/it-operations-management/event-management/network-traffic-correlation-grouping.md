@@ -2,6 +2,7 @@
 title: Network traffic based alert grouping
 description: The Network traffic based alert grouping method groups alerts by analyzing network traffic connections between processes across hosts. It leverages service candidates identified by ML Service Mapping to group alerts related to network traffic issues. This ensures alerts from directly connected processes within the same service candidate are grouped together, offering a more contextual view of network incidents.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/network-traffic-correlation-grouping.html
 release: australia
 product: Event Management
 classification: event-management

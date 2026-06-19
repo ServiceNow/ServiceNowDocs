@@ -2,13 +2,14 @@
 title: Create a personal authentication mode connection with Microsoft Exchange Online
 description: As an admin, establish a personal authentication mode connection with Microsoft Exchange Online to synchronize reservations. A user-level authentication token is generated that enables you to create, update, or cancel reservations to synchronize events on the Microsoft Outlook calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/personal-auth-mode-connection-with-msex.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a personal authentication mode connection with Microsoft Exchange Online
@@ -31,7 +32,7 @@ If the Normal mode is configured for active calendar providers before the upgrad
 
 The **Strict Mode** check box is no longer displayed in the calendar provider because the corresponding column has been deprecated in the calendar provider. To configure the Strict mode, you must set the system property `sn_wsd_rsvsync.sync_integration_mode` at instance level.
 
-Strict mode can now be configured using the system property at the instance level. For more information, see [Set Workplace Calendar Synchronization properties](../task/set-calendar-sync-properties.md).
+Strict mode can now be configured using the system property at the instance level. For more information, see [Set Workplace Calendar Synchronization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/set-calendar-sync-properties.md).
 
 ## Reservation restrictions
 
@@ -112,18 +113,18 @@ Users can only update or cancel a reservation if the Sync mailbox is set to **ot
 
 
 </td></tr></tbody>
-</table>-   **[Configure Microsoft Azure](../task/configure-azure-personal-auth-mode.md)**  
+</table>-   **[Configure Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-azure-personal-auth-mode.md)**  
 Set up a personal mode of authentication with Microsoft Azure to connect Microsoft Exchange Online with Workplace Calendar Synchronization.
--   **[Configure resource rooms in Microsoft Exchange Online](../task/configure-resource-rooms-in-msex.md)**  
+-   **[Configure resource rooms in Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-resource-rooms-in-msex.md)**  
 Specify your delegated user email in the Microsoft portal to access the resource calendar.
--   **[Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online](../task/setup-personal-auth-mode-oauth-connectivity-with-msex.md)**  
+-   **[Set up personal authentication mode OAuth connectivity with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-personal-auth-mode-oauth-connectivity-with-msex.md)**  
 Create a personal authentication mode application registry for Microsoft Exchange Online with your instance for OAuth authorization.
--   **[Configure a personal authentication mode Connection and Credential alias for Microsoft Exchange Online](../task/configure-personal-auth-mode-connection-and-credential-alias.md)**  
+-   **[Configure a personal authentication mode Connection and Credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-personal-auth-mode-connection-and-credential-alias.md)**  
 Establish a personal authentication mode connection and credential alias for Microsoft Exchange Online. Confirm that the values for the connection and credentials alias are set as specified.
--   **[Configure your own connection and credential alias for personal authentication mode](../task/configure-your-own-connection-and-credential-alias-for-personal-auth.md)**  
+-   **[Configure your own connection and credential alias for personal authentication mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-your-own-connection-and-credential-alias-for-personal-auth.md)**  
 Configure your own connection and credential alias if you don’t want to use the default alias created during the personal authentication mode application registration. You can configure your calendar to use the alias as an override alias.
--   **[Configure the Microsoft Exchange Online calendar provider in personal authentication mode](../task/configure-calendar-provider-in-personal-auth-mode.md)**  
+-   **[Configure the Microsoft Exchange Online calendar provider in personal authentication mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-calendar-provider-in-personal-auth-mode.md)**  
 Enhance your workplace reservation experience with the Workplace Calendar Synchronization application to synchronize reservations with your calendar provider. Configure Microsoft Exchange Online to synchronize reservations with your calendar provider using personal authentication mode.
 
-**Parent Topic:**[Configure Workplace Calendar Synchronization](configure-rsv-sync.md)
+**Parent Topic:**[Configure Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-rsv-sync.md)
 

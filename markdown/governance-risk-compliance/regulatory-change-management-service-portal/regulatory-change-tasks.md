@@ -2,6 +2,7 @@
 title: Regulatory change tasks
 description: When a regulatory alert is marked as applicable by the alert coordinator, manager, or administrator, the system initiates the creation of a regulatory change task. This task serves as a central point for stakeholders to determine the necessary modifications to organizational compliance practices.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-change-tasks.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
@@ -17,7 +18,7 @@ When a regulatory alert is marked as applicable by the alert coordinator, manage
 
 The regulatory change task provides a structured process for evaluating regulatory updates and initiating corrective actions. Stakeholders use this task to identify what changes are required, which leads to the creation of one or more Action tasks. These action tasks represent the specific activities needed to implement the changes, such as updating relevant policies, controls, or risk statements within the regulatory library.
 
-Each regulatory change task contains related [action tasks](action-tasks.md). The action tasks get created to fulfill the identified requirements. This hierarchical relationship ensures traceability and accountability throughout the change implementation process.
+Each regulatory change task contains related [action tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/regulatory-change-management-service-portal/action-tasks.md). The action tasks get created to fulfill the identified requirements. This hierarchical relationship ensures traceability and accountability throughout the change implementation process.
 
 If you have the `sn_grc_reg_change.manager` role, you can assign regulatory change tasks to users with the `sn_grc_reg_change.user` role. The task includes key information such as the assigned group, the designated assignee, the approver, and other essential task details.
 

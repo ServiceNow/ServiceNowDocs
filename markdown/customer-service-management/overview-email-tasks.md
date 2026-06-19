@@ -2,7 +2,10 @@
 title: Manage email tasks
 description: You can compose, reply to, and preview emails directly from cases in CSM Configurable Workspace. This capability helps you save time and effort instead of having to address and send a separate email message.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/overview-email-tasks.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -15,8 +18,8 @@ You can compose, reply to, and preview emails directly from cases in CSM Configu
 
 You can perform the following email tasks from cases in CSM Configurable Workspace:
 
--   [Compose an email from a case](../task/compose-email-cases.md)
--   [Compose an email from the ribbon component](../task/open-email-customer-360.md)
--   [Send an email response from a case activity stream](../task/respond-cases-reply-forward.md)
--   [Preview an email from the Emails related list](../task/preview-email-cases.md)
+-   [Compose an email from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/compose-email-cases.md)
+-   [Compose an email from the ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/open-email-customer-360.md)
+-   [Send an email response from a case activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/respond-cases-reply-forward.md)
+-   [Preview an email from the Emails related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/preview-email-cases.md)
 

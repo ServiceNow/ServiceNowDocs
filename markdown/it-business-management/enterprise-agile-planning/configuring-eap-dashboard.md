@@ -2,6 +2,7 @@
 title: Configuring custom dashboards in EAP
 description: Associate a custom dashboard to your Enterprise Agile Planning configurations to track and measure key metrics for your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.html
 release: australia
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
@@ -150,16 +151,16 @@ Agile Team
 Kanban Team Dashboard
 
 </td></tr></tbody>
-</table>For more information about availability of these default dashboards with different configurations, see [EAP reports and dashboards](using-eap-dashboard.md).
+</table>For more information about availability of these default dashboards with different configurations, see [EAP reports and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/using-eap-dashboard.md).
 
 **Important:** You can only copy and customize an Inline dashboard.
 
 The following tasks require the admin or EAP admin \(sn\_apw\_advanced.eap\_admin\) role.
 
-1.  [Create or update a configuration in EAP](../task/create-eap-configuration.md).
-2.  [Create a dashboard in EAP](../task/create-a-dashboard-in-eap.md).
-3.  [Add a tag to the EAP dashboard](../task/add-tag-to-the-eap-dashboard.md).
-4.  [Associate the EAP read-only role to the dashboard](../task/add-the-eap-read-only-role-to-the-dashboard.md).
-5.  [Add EAP dashboards to an Agile configuration](../task/associate-the-eap-dashboard-with-agile-configuration.md).
-6.  \(Optional\) [Create implementation of a Scripted Extension Point in EAP](../task/create-or-update-scripted-extension-point-in-eap.md).
+1.  [Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-eap-configuration.md).
+2.  [Create a dashboard in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-a-dashboard-in-eap.md).
+3.  [Add a tag to the EAP dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/add-tag-to-the-eap-dashboard.md).
+4.  [Associate the EAP read-only role to the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/add-the-eap-read-only-role-to-the-dashboard.md).
+5.  [Add EAP dashboards to an Agile configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/associate-the-eap-dashboard-with-agile-configuration.md).
+6.  \(Optional\) [Create implementation of a Scripted Extension Point in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/enterprise-agile-planning/create-or-update-scripted-extension-point-in-eap.md).
 

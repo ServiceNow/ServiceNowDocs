@@ -2,6 +2,7 @@
 title: Create a group and add a component instance
 description: Create a group to model third-party website structure such as page or sections. Use the default group or create new groups to manage the component instances on that page or section.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-create-group-and-add-comp-instance.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,7 +18,7 @@ Create a group to model third-party website structure such as page or sections. 
 
 ## Before you begin
 
-You must create a module. For more information, see [Create a module](../concept/create-we-module.md).
+You must create a module. For more information, see [Create a module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/create-we-module.md).
 
 Role required: sn\_embeddable\_core.emb\_admin
 

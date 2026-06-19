@@ -2,6 +2,7 @@
 title: Configure an e-signature provider for legal contracts
 description: Configure an electronic signature provider to enable users to sign contract documents electronically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-integrate-esign.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -19,13 +20,13 @@ Configure an electronic signature provider to enable users to sign contract docu
 
 Ensure that the administrator has installed and set up spokes in Integration Hub for the electronic signature providers that you want to configure.
 
--   **[Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/adobe-sign-spoke.md) v2.8.0 or later version**
+-   **Adobe Sign spoke v2.8.0 or later version**
 
-    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see [Synchronize Adobe Acrobat Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-adobe-sign.md).
+    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see Synchronize Adobe Acrobat Sign group with ServiceNow.
 
--   **[DocuSign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/docusign-spoke.md) v4.1.x or later version**
+-   **DocuSign spoke v4.1.x or later version**
 
-    For more information on the setup and creating the Docusign account, see [Set up Docusign eSignature spoke using authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-docusign-authorization-code.md).
+    For more information on the setup and creating the Docusign account, see .
 
 
 Role required: sn\_lg\_cnt.contract\_admin
@@ -146,5 +147,5 @@ Additional configuration items based on your electronic signature provider. Prov
 
 The configuration of the e-signature app is published and is ready to be used for the electronic signing of contract documents.
 
-**Parent Topic:**[Configuring external applications for legal contracts](../concept/snlc-set-legal-ext-app-config.md)
+**Parent Topic:**[Configuring external applications for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-set-legal-ext-app-config.md)
 

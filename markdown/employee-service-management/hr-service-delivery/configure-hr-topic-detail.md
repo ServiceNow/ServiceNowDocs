@@ -2,6 +2,7 @@
 title: Configure an HR topic detail
 description: Create or modify an HR topic detail to define the second-level of categorization for HR services. Each topic detail is associated with a single topic category and HR Center of Excellence \(COE\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/configure-hr-topic-detail.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -36,5 +37,5 @@ Role required: sn\_hr\_core.admin
 4.  Click **Submit** or **Update**.
 
 
-**Parent Topic:**[HR service categorization](../concept/hr-service-categorization.md)
+**Parent Topic:**[HR service categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/hr-service-categorization.md)
 

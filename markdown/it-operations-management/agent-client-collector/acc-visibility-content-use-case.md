@@ -2,6 +2,7 @@
 title: Agent Client Collector for Visibility - Content use case
 description: The Agent Client Collector for Visibility - Content \(ACC-VC\) use case demonstrates how a financial organization can perform effective discovery across on-premise and remote environments.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/acc-visibility-content-use-case.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector

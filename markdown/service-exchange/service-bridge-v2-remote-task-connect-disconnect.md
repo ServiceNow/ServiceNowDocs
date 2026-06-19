@@ -2,6 +2,7 @@
 title: Connect and Disconnect remote tasks
 description: Remote tasks associated with active remote task definitions enable you to sync data between two parent tasks on the provider and consumer instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-remote-task-connect-disconnect.html
 release: australia
 product: Service Exchange
 classification: service-exchange

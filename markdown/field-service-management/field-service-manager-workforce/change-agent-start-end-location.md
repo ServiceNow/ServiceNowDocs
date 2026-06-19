@@ -2,6 +2,7 @@
 title: Change schedule attributes for agents
 description: Change the schedule attributes for your agents, offering the flexibility needed for specific work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-manager-workforce/change-agent-start-end-location.html
 release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
@@ -21,7 +22,7 @@ Role required: wm\_dispatcher, wm\_manager, sn\_fsm\_tp.fsm\_territory\_planner,
 
 ## About this task
 
-Ensure the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](Activate-fsm-territory-planning.md).
+Ensure the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md).
 
 ## Procedure
 

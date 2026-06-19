@@ -2,6 +2,7 @@
 title: SLA conditions
 description: SLA conditions determine when a task SLA record is attached, paused, resumed, reset, canceled, and completed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_SLAConditions.html
 release: australia
 product: Service Level Management
 classification: service-level-management
@@ -86,5 +87,5 @@ Similarly, if your Pause condition is a subset of your Start condition, the SLA 
 
 In addition, if you create a SLA definition with a Start condition and a Pause condition that are mutually exclusive, your SLA will never pause but will always be canceled first. For example, for an SLA definition where the Start condition is **State is one of "New, Active"** and the Pause condition is **State is "On Hold"**, when the Task is updated to state **On Hold**, the start condition will no longer match and the task SLA will be canceled.
 
-**Parent Topic:**[Service Level Management reference](service-level-management-reference.md)
+**Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-level-management/service-level-management-reference.md)
 

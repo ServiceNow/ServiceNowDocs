@@ -2,6 +2,7 @@
 title: Preparing for Instance Data Replication
 description: Before you set up Instance Data Replication \(IDR\), analyze the tables and columns in the producer and consumer instances to replicate data successfully.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/instance-data-replication-idr/prepare-instance-data-replication.html
 release: australia
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
@@ -25,7 +26,7 @@ Before you create a producer replication set, decide which tables to replicate. 
 
 Avoid continuous replication of CMDB tables. Replicating CMDB data as changes occur can create performance issues or unforeseen consequences with replication due to the number of records involved. If you must replicate CMDB tables, consider scheduling replication or use conditions to constrain the count of replicated records and ensure all required columns are included in the replication set.
 
-For a list of tables to avoid replicating, see [Excluded tables in Instance Data Replication](../reference/IDR-excluded-tables.md).
+For a list of tables to avoid replicating, see [Excluded tables in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/IDR-excluded-tables.md).
 
 ## Analyzing table hierarchies
 
@@ -33,7 +34,7 @@ For each table you want to replicate, determine if the table is a parent or chil
 
 **Important:** To maintain data integrity and ensure that reference fields are populated on the consumer as you'd expect, you must replicate all of the parent and child tables in the table hierarchy.
 
-See [Preserving table hierarchy in Instance Data Replication](preserving-table-hierarchy.md).
+See [Preserving table hierarchy in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/preserving-table-hierarchy.md).
 
 ## Analyzing table relationships
 
@@ -75,7 +76,7 @@ For example, if users from LDAP are imported to the consumer instance using a di
 
 In situations where this cannot be avoided, clean the tables on the consumer instance prior to replication. You must delete the records in the target table or ensure the sys\_id values in producer and consumer are the same.
 
-Alternatively, you can use a custom **Coalesce** field to identify unique records \(instead of the default sys\_id column\) for replication. Use a custom **Coalesce** column when records on the consumer instance have a different sys\_id for the same records on the producer instance. For more information on using a custom **Coalesce**, see [Custom coalescing](modifying-replication-behavior-idr.md#).
+Alternatively, you can use a custom **Coalesce** field to identify unique records \(instead of the default sys\_id column\) for replication. Use a custom **Coalesce** column when records on the consumer instance have a different sys\_id for the same records on the producer instance. For more information on using a custom **Coalesce**, see [Custom coalescing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/modifying-replication-behavior-idr.md).
 
 ## Reviewing business rules
 
@@ -97,5 +98,5 @@ Review any data policies in place on the target table in the consumer instance t
 
 If failures related to data policies occur, they appear in the **Instance Data Replication** &gt; **Replication Payload Error** table on the consumer instance. View the **Error Message** field for details on the data policy that is causing the failure.
 
-**Parent Topic:**[Configuring Instance Data Replication](configuring-instance-data-replication.md)
+**Parent Topic:**[Configuring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication-idr/configuring-instance-data-replication.md)
 

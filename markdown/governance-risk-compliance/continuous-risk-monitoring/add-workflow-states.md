@@ -2,6 +2,7 @@
 title: Create GRC workflow states
 description: Add Governance, Risk, and Compliance workflow states to a state model to define the individual steps in your workflow. Each workflow state represents a phase in the authorization package life cycle and determines what you can do at that stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/continuous-risk-monitoring/add-workflow-states.html
 release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
@@ -71,5 +72,5 @@ The workflow states appear in the workflow states related list on the state mode
 
 ## What to do next
 
-[Configure transition between state models](create-state-transitions.md)
+[Configure transition between state models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/continuous-risk-monitoring/create-state-transitions.md)
 

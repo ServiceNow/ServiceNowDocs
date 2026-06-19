@@ -2,6 +2,7 @@
 title: Create enterprise models
 description: Create a model based on a top tier Enterprise Asset Management model category. Use models to manage and keep track of your assets.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-model-eam.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -49,9 +50,9 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 
     If you are creating a pallet model, select **New pallet model**.
 
-    If you select **New** on any tab other than the **All models** tab, a dialog box opens, prompting you to specify the type and category of the new model that you are creating. Proceed to [step 4](create-model-eam.md#dialog-box) to fill in the fields in the dialog box.
+    If you select **New** on any tab other than the **All models** tab, a dialog box opens, prompting you to specify the type and category of the new model that you are creating. Proceed to [step 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-model-eam.md) to fill in the fields in the dialog box.
 
-    If you select **New pallet model** on the **All models** tab, you are automatically redirected to the Create New Product Model page. Proceed to [step 6](create-model-eam.md#create-new-product-model-form) to fill in the fields on the page.
+    If you select **New pallet model** on the **All models** tab, you are automatically redirected to the Create New Product Model page. Proceed to [step 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-model-eam.md) to fill in the fields on the page.
 
 4.  In the dialog box, fill in the fields.
 
@@ -95,7 +96,7 @@ The category that the model belongs to.
 
 6.  On the form, fill in the details.
 
-    For a detailed description of the fields, see [Model fields for Enterprise Asset Management](../reference/eam-model-fields.md).
+    For a detailed description of the fields, see [Model fields for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/eam-model-fields.md).
 
 7.  Select **Save**.
 
@@ -112,5 +113,5 @@ The category that the model belongs to.
     After the **EAM - Update model risk values to asset** scheduled job is completed, the risk values for all the assets associated with this model is updated.
 
 
-**Parent Topic:**[Create and manage enterprise models](../concept/create-manage-enterprise-models.md)
+**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

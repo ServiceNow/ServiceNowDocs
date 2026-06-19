@@ -2,6 +2,7 @@
 title: Move employee documents in Agent Workspace for HR Case Management
 description: Move employee documents from a case in Agent Workspace for HR Case Management to employee document repository. The employee document repository provides a central repository for quick and easy identification of documents using different sorting features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-mov-doc.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
@@ -36,7 +37,7 @@ Role required: sn\_hr\_ef.document\_writer, sn\_hr\_core.case\_writer
     3.  Click **Move Selected**.
     **Note:** The **Target COE** and **Topic Detail** fields can be modified only if the document has been added under the wrong type of HR case.
 
-    ![Move employee documents from agent workspace to employee document management](move-docs-workspace2.png)
+    \[Omitted image "move-docs-workspace2.png"\] Alt text: Move employee documents from agent workspace to employee document management
 
 
 ## Result

@@ -2,6 +2,7 @@
 title: Configuration Management Database \(CMDB\)
 description: Use the ServiceNow Configuration Management Database \(CMDB\) application to build logical representations of assets, services, and the relationships between them that comprise the infrastructure of your organization. Details about these components are stored in the CMDB as configuration items \(CIs\) which you can use to monitor the infrastructure, helping ensure integrity, stability, and continuous service operation.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/c\_ITILConfigurationManagement.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -23,55 +24,55 @@ Use core features such as CMDB Health, CMDB Identification and Reconciliation, a
 
 <table id="table_msx_fnh_j1c" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Overview of CMDB and its predefined tables and key classes.](cnfig-mgmt-and-cmdb.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Overview of CMDB and its predefined tables and key classes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cnfig-mgmt-and-cmdb.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Populate the CMDB.](c_OptionsToPopulateCMDB.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Populate the CMDB.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_OptionsToPopulateCMDB.md)
 
 </td><td>
 
-[CMDB Workspace![](../../../reuse/icons/brand-icons/bus-peer-benchmarks.svg)Manage CMDB health through dashboards.](cmdb-workspace.md)
+[CMDB Workspace\[Omitted image "bus-peer-benchmarks.svg"\] Alt text:Manage CMDB health through dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 
 </td></tr><tr><td>
 
-[CI Class Manager![](../../../reuse/icons/brand-icons/bus-automated-testing-framework.svg)View, create, or edit basic class definitions and class settings for identification and Reconciliation, and CMDB Health.](../reference/ci-class-manager-landing-page.md)
+[CI Class Manager\[Omitted image "bus-automated-testing-framework.svg"\] Alt text:View, create, or edit basic class definitions and class settings for identification and Reconciliation, and CMDB Health.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md)
 
 </td><td>
 
-[CMDB 360![](../../../reuse/icons/brand-icons/bus-project.svg)Track and manage how multiple sources populate the same CI attributes.](multisource-cmdb.md)
+[CMDB 360\[Omitted image "bus-project.svg"\] Alt text:Track and manage how multiple sources populate the same CI attributes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
 
 </td><td>
 
-[CMDB Data Manager![](../../../reuse/icons/brand-icons/bus-workflow.svg)Perform bulk management of CI life cycle operations such as deletion, archival, and attestation.](cmdb-data-management.md)
+[CMDB Data Manager\[Omitted image "bus-workflow.svg"\] Alt text:Perform bulk management of CI life cycle operations such as deletion, archival, and attestation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md)
 
 </td></tr><tr><td>
 
-[Duplicate CIs![](../../../reuse/icons/brand-icons/bus-vulnerability-management-systems.svg)Remediate single or bulk de-duplication tasks.](de-duplication-tasks.md)
+[Duplicate CIs\[Omitted image "bus-vulnerability-management-systems.svg"\] Alt text:Remediate single or bulk de-duplication tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 
 </td><td>
 
-[CIs attestation![](../../../reuse/icons/brand-icons/bus-manage.svg)](attesting-cis.md)Verify the existence of actual IT infrastructure and applications, systematically and in bulk.
+[CIs attestation\[Omitted image "bus-manage.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md)Verify the existence of actual IT infrastructure and applications, systematically and in bulk.
 
 </td><td>
 
-[Data Certification![](../../../reuse/icons/brand-icons/bus-get-certified.svg)Validate all your data in the CMDB on a regular schedule or on-demand, in CMDB and non-CMDB tables.](../../data-certification/concept/c_DataCertification.md)
+[Data Certification\[Omitted image "bus-get-certified.svg"\] Alt text:Validate all your data in the CMDB on a regular schedule or on-demand, in CMDB and non-CMDB tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_DataCertification.md)
 
 </td></tr><tr><td>
 
-[CMDB Query Builder![](../../../reuse/icons/brand-icons/bus-find-an-app.svg)](querying-cmdb.md)Build complex infrastructure and service queries.
+[CMDB Query Builder\[Omitted image "bus-find-an-app.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md)Build complex infrastructure and service queries.
 
 </td><td>
 
-[Unified Map![](../../../reuse/icons/brand-icons/bus-service-map.svg)View a hierarchical map of CIs and the relationships between them.](cmdb-workspace-unified-map.md)
+[Unified Map\[Omitted image "bus-service-map.svg"\] Alt text:View a hierarchical map of CIs and the relationships between them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/unified-map/cmdb-workspace-unified-map.md)
 
 </td><td>
 
-[CMDB Health![](../../../reuse/icons/brand-icons/bus-management-console.svg)Monitor and maintain CMDB health: duplicate CIs, required CI fields, and audits.](c_CMDBHealth.md)
+[CMDB Health\[Omitted image "bus-management-console.svg"\] Alt text:Monitor and maintain CMDB health: duplicate CIs, required CI fields, and audits.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
 
 </td></tr><tr><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)](../reference/cmdb-reference.md)Reference topics provide detailed descriptions of tables, properties, forms, and roles.
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-reference.md)Reference topics provide detailed descriptions of tables, properties, forms, and roles.
 
 </td><td>
 

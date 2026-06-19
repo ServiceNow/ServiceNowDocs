@@ -2,11 +2,12 @@
 title: Use the Orchestration Usage dashboard
 description: This dashboard shows an overview of Orchestration usage metrics to show customers how their organization uses Orchestration and to support license compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/orchestration-usage-dashboard.html
 release: australia
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -132,7 +133,7 @@ Top 10 Orchestration Activities
  
 
 </td></tr></tbody>
-</table>2.  You can add more widgets to the dashboard by clicking the **Add Content** icon \(![Add Content icon](../../../use/homepages/image/AddContent.png)\) in the upper right corner of the dashboard.
+</table>2.  You can add more widgets to the dashboard by clicking the **Add Content** icon \(\[Omitted image "AddContent.png"\] Alt text: Add Content icon\) in the upper right corner of the dashboard.
 
     **Note:** You should not modify the first tab in this Dashboard. If you want a different dashboard experience, add a tab and customize that with your usage reports.
 

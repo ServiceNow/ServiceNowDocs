@@ -2,6 +2,7 @@
 title: Add users to the App Engine Admin group
 description: Add users to the App Engine Admin group in your production instance to give them administrative rights to App Engine Studio \(AES\). You must also identify a contact email address for the group. After you configure the email address of the App Engine Admin group, members can receive notifications for app development-related requests, including app intake requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-users-to-admin-grp.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -40,5 +41,5 @@ If you are not using pipelines, you must also add users to the App Engine Admin 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Perform AES configuration tasks](../reference/aes-config-tasks.md)
+**Parent Topic:**[Perform AES configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-config-tasks.md)
 

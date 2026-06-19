@@ -2,6 +2,7 @@
 title: Define contextual search for record producer
 description: Define a record producer to trigger a search based on the text that you enter in a variable field. Search results appear at the bottom of the record producer form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/t\_CntxtSearchRP.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -33,7 +34,7 @@ The base system **Create New Incident** record producer is configured to use con
 
 3.  On the form, fill in the fields.
 
-    ![Record producer configuration form](../image/record-producer-config.png "Record producer configuration form")
+    \[Omitted image "record-producer-config.png"\] Alt text: Record producer configuration form
 
     |Field|Description|
     |-----|-----------|
@@ -49,5 +50,5 @@ The base system **Create New Incident** record producer is configured to use con
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

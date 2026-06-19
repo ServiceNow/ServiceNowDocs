@@ -2,6 +2,7 @@
 title: Time-based one-time password \(TOTP\) authentication
 description: A time based one-time password \(TOTP\) is a secure authentication factor that verifies user identity by generating a unique, time-sensitive code.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/totp-authenticator-apps.html
 release: australia
 product: Authentication
 classification: authentication
@@ -9,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Time-based one-time password, TOTP, authenticator apps, ServiceNow, user authentication, authentication factor, Okta Verify]
-breadcrumb: [Configure authentication factors, Authentication factors, Authentication, Access Management]
+breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Time-based one-time password \(TOTP\) authentication
@@ -37,5 +38,5 @@ While TOTP authenticator apps are a secure and convenient authentication method,
 -   Device management: Users must re-enroll when devices are replaced or reset.
 -   Phishing risk: One-time codes can be compromised if entered on untrusted or malicious sites.
 
-TOTP authenticator apps are an effective method to strengthen your organization’s security posture. For detailed configuration instructions, see [Authenticator Applications](mfa-auth-app.md).
+TOTP authenticator apps are an effective method to strengthen your organization’s security posture. For detailed configuration instructions, see [Authenticator Applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-app.md).
 

@@ -2,7 +2,10 @@
 title: Cancel a customer contract line
 description: Create an order to cancel a customer contract line and its child customer contract lines on the CSM Configurable Workspace. By canceling a customer contract line, you are canceling or disabling the services and characteristics associated with that customer contract line.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cce-cancel-service-contract-line.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1

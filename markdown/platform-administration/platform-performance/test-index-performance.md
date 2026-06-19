@@ -2,6 +2,7 @@
 title: Test index performance for slow queries
 description: After the Index Suggestion Engine \(ISE\) generates an index suggestion for a slow query, you can test the index to see if it improves execution time. If you're evaluating an index suggestion on a non-production instance, you can run this test after creating the index to get immediate results on index performance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/platform-performance/test-index-performance.html
 release: australia
 product: Platform Performance
 classification: platform-performance
@@ -52,5 +53,5 @@ This test is an optional assessment of the index. The test isn’t part of the 1
     The result of this index performance test doesn’t change the index state recorded in the Index Suggestion record.
 
 
-**Parent Topic:**[Resolving slow queries](../concept/resolving-slow-queries.md)
+**Parent Topic:**[Resolving slow queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-performance/resolving-slow-queries.md)
 

@@ -2,6 +2,7 @@
 title: Show that an agent is busy with a non-work order event on Field Service Manager Mobile
 description: Managers can show that agents are busy with personal events like a meeting, training or time off from the Field Service Manager Mobile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/event-manager-mobile.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -25,11 +26,11 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 2.  Tap the territory or assignment group that the agent you want to create a personal event for is a member of.
 
-3.  Tap the more actions icon \(![more actions](../image/more-action-manager.png)\) next to the agent that you want to create an event for.
+3.  Tap the more actions icon \(\[Omitted image "more-action-manager.png"\] Alt text: more actions\) next to the agent that you want to create an event for.
 
 4.  Tap **View schedule**.
 
-5.  Tap the plus sign \(![plus sign](../image/add-personal-event-mobile.png)\).
+5.  Tap the plus sign \(\[Omitted image "add-personal-event-mobile.png"\] Alt text: plus sign\).
 
 6.  On the form, fill in the fields.
 

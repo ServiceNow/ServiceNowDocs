@@ -2,6 +2,7 @@
 title: Cloud Cost Management overview
 description: Enhance your experience by using the modernized and user-friendly Cloud Cost Management overview. This simplified overview page helps you use the Cloud Cost Management application more effectively by reducing complexity.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/ccm-ws-overview.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -30,7 +31,7 @@ Use the Cloud Cost Management overview to,
 -   Understand your savings breakdown by viewing your potential and actual saving.
 -   Get actionable insights into your cloud resources through alerts and recommendations.
 
-![Cloud Cost Management overview in the Workspace.](../image/ccm-overview-ws.png)
+\[Omitted image "ccm-overview-ws.png"\] Alt text: Cloud Cost Management overview in the Workspace.
 
 <table id="table_m3g_fz5_ywb"><thead><tr><th>
 
@@ -80,7 +81,7 @@ Monthly spend breakdown
 
 </td><td>
 
-Monthly spend breakdown grouped by provider, service category, service account, cloud service, or purchase option. The results can be sorted by time range and cost type. Use the **Show forecast** toggle switch for hiding or showing the future cost.Selecting a monthly spend breakdown bar navigates you to the Spend analytics page. For more information, see [Spend analytics](spend-anaytics.md).
+Monthly spend breakdown grouped by provider, service category, service account, cloud service, or purchase option. The results can be sorted by time range and cost type. Use the **Show forecast** toggle switch for hiding or showing the future cost.Selecting a monthly spend breakdown bar navigates you to the Spend analytics page. For more information, see [Spend analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/spend-anaytics.md).
 
 </td></tr></tbody>
 </table>|Report|Description|
@@ -101,7 +102,7 @@ Actual vs potential savings grouped by provider, service category, and environme
 
 </td><td>
 
-Actual vs potential savings grouped by provider, service category, and environment.**Note:** To view the Actual vs potential savings grouped by environment chart, you must create tag categories as Production and Non Production. For more information about creating a tag category, see [Create and update a tag category](../task/tag-category-crud-cloudin.md).
+Actual vs potential savings grouped by provider, service category, and environment.**Note:** To view the Actual vs potential savings grouped by environment chart, you must create tag categories as Production and Non Production. For more information about creating a tag category, see [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md).
 
 Potential saving indicates the total spend on your cloud resources that could be optimized by the recommendations.
 

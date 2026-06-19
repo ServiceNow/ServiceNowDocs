@@ -2,6 +2,7 @@
 title: Define a question
 description: After you add a question to a question bank, you can reuse it in any assessment by dropping it into the assessment. You can create custom questions, add existing questions, or add and customize the sample questions that are included with the base system.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-questions-create.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
@@ -54,14 +55,14 @@ Category or Assessment category
 A set of related questions within a questionnaire template.**Note:** There can be multiple categories within a metric type.
 
 </td></tr></tbody>
-</table>Selecting the scored option \(**Scored** check box\) is optional. All question responses unless otherwise stated are scored. The scored option changes the scoring behavior. When the 'Scored' option is selected, the score is always 0 or 100 reflecting whether the answer is correct or incorrect, and the questionRating and questionPercentContribution formulae are not used; the Normalized Value is directly set to 0 or 100. When the 'Scored' check box is not selected, the score is calculated using the questionRating and questionPercentContribution formulae to determine the Normalized Value. Selecting the Maximum normalization input field only applies when the 'Scored' check box is not selected, as it is used to define the maximum value for normalization, and the score can vary based on the input values and weights. If the 'Scored' check box is selected, the Maximum normalization input field does not apply, and the Normalized Value is simply 0 or 100. For more information on scoring and normalized scores, see [Scoring calculations using the classic assessment engine](../../grc-vendor-risk/concept/vendor-ratings-scoring.md) and [Normalize the scores for metrics](../concept/set-max-norm-input.md).
+</table>Selecting the scored option \(**Scored** check box\) is optional. All question responses unless otherwise stated are scored. The scored option changes the scoring behavior. When the 'Scored' option is selected, the score is always 0 or 100 reflecting whether the answer is correct or incorrect, and the questionRating and questionPercentContribution formulae are not used; the Normalized Value is directly set to 0 or 100. When the 'Scored' check box is not selected, the score is calculated using the questionRating and questionPercentContribution formulae to determine the Normalized Value. Selecting the Maximum normalization input field only applies when the 'Scored' check box is not selected, as it is used to define the maximum value for normalization, and the score can vary based on the input values and weights. If the 'Scored' check box is selected, the Maximum normalization input field does not apply, and the Normalized Value is simply 0 or 100. For more information on scoring and normalized scores, see [Scoring calculations using the classic assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/vendor-ratings-scoring.md) and [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
 
 ## Procedure
 
 1.  Define or select the assessment category that is appropriate for the question that you plan to add.
 
     -   To select an existing assessment category, navigate to **All** &gt; **Third-party Risk Management** &gt; **Administration** &gt; **Question Bank**, and then select it in the list.
-    -   For instructions on defining an assessment category, see [Set up and maintain a question bank](tprm-question-bank-create.md).
+    -   For instructions on defining an assessment category, see [Set up and maintain a question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-question-bank-create.md).
 2.  Create an assessment metric \(a question\).
 
     In the Assessment Metrics related list for the assessment category, select **New** and then fill in the form.
@@ -266,7 +267,7 @@ If you didn’t select the **Scored** check box, set the **Scale definition** va
 
 -   If a selected check box is a good score, set to **High**.
 -   If a small numerical value is a good score, set to **Low**.
-You can select the **Maximum Normalization input** check box to calculate assessment scores for questions using a normalization input value. For more information, see [Normalize the scores for metrics](../concept/set-max-norm-input.md).
+You can select the **Maximum Normalization input** check box to calculate assessment scores for questions using a normalization input value. For more information, see [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
 
 </td></tr><tr><td>
 
@@ -352,7 +353,7 @@ If you didn’t select the **Scored** check box, set the **Scale definition**.
 
 -   If a large numerical value is a good score, set to **High**.
 -   If a small numerical value is a good score, set to **Low**.
-You can select the **Maximum Normalization input** check box to calculate assessment scores for questions using a normalization input value. For more information, see [Normalize the scores for metrics](../concept/set-max-norm-input.md).
+You can select the **Maximum Normalization input** check box to calculate assessment scores for questions using a normalization input value. For more information, see [Normalize the scores for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/set-max-norm-input.md).
 
 </td></tr><tr><td>
 

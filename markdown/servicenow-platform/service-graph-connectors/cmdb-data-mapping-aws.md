@@ -2,12 +2,13 @@
 title: Data mapping for Service Graph Connector for AWS
 description: Data from the AWS data sources is mapped and transformed into the ServiceNow CMDB Configuration Item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/cmdb-data-mapping-aws.html
 release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [AWS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -61,7 +62,7 @@ SG-AWS-Organization \[sn\_aws\_integ\_sg\_aws\_organization\]
 
 </td><td>
 
-[Cloud Organizations](cmdb-aws-classes.md#section_evj_klg_fxb)
+[Cloud Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -85,7 +86,7 @@ SG-AWS-Org-Units \[sn\_aws\_integ\_sg\_aws\_org\_units\]
 
 </td><td>
 
-[AWS Organizational Unit](cmdb-aws-classes.md#section_zpv_dgs_zzb)
+[AWS Organizational Unit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -109,11 +110,11 @@ SG-AWS-Service-Account \[sn\_aws\_integ\_sg\_aws\_service\_account\]
 
 </td><td>
 
-[Cloud Service Account](cmdb-aws-classes.md#section_kdl_klg_fxb)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Cloud Organizations](cmdb-aws-classes.md#section_evj_klg_fxb)
+ [Cloud Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -137,9 +138,9 @@ SG-AWS-Service-Account-Tags \[sn\_aws\_integ\_sg\_aws\_service\_account\_tags\]
 
 </td><td>
 
-[Cloud Service Account](cmdb-aws-classes.md#section_kdl_klg_fxb)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -165,7 +166,7 @@ SG-AWS-Org-Unit-Accounts \[sn\_aws\_integ\_sg\_aws\_org\_unit\_accounts\]
 
 </td><td>
 
-[Cloud Service Account](cmdb-aws-classes.md#section_kdl_klg_fxb)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -191,9 +192,9 @@ SG-AWS-Datacenters \[sn\_aws\_integ\_sg\_aws\_datacenters\]
 
 </td><td>
 
-[Cloud Service Account](cmdb-aws-classes.md#section_kdl_klg_fxb)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -219,13 +220,13 @@ SG-AWS-VPC \[sn\_aws\_integ\_sg\_aws\_vpc\]
 
 </td><td>
 
-[Cloud Service Account](cmdb-aws-classes.md#section_kdl_klg_fxb)
+[Cloud Service Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Cloud Network](cmdb-aws-classes.md#section_y2h_klg_fxb)
+ [Cloud Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -255,15 +256,15 @@ SG-AWS-Subnets \[sn\_aws\_integ\_sg\_aws\_subnets\]
 
 </td><td>
 
-[Availability Zone](cmdb-aws-classes.md#section_ykt_jlg_fxb)
+[Availability Zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Cloud Network](cmdb-aws-classes.md#section_y2h_klg_fxb)
+ [Cloud Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Cloud Subnet](cmdb-aws-classes.md#section_knm_klg_fxb)
+ [Cloud Subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -295,15 +296,15 @@ SG-AWS-Network-Interface \[sn\_aws\_integ\_sg\_aws\_network\_interface\]
 
 </td><td>
 
-[Cloud Network](cmdb-aws-classes.md#section_y2h_klg_fxb)
+[Cloud Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Cloud Subnet](cmdb-aws-classes.md#section_knm_klg_fxb)
+ [Cloud Subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Cloud Mgmt Network Interface](cmdb-aws-classes.md#section_wwf_klg_fxb)
+ [Cloud Mgmt Network Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -335,13 +336,13 @@ SG-AWS-Security-Group \[sn\_aws\_integ\_sg\_aws\_security\_group\]
 
 </td><td>
 
-[Cloud Network](cmdb-aws-classes.md#section_y2h_klg_fxb)
+[Cloud Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Compute Security Group](cmdb-aws-classes.md#section_zvn_klg_fxb)
+ [Compute Security Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -373,11 +374,11 @@ SG-AWS-Storage-Volume \[sn\_aws\_integ\_sg\_aws\_storage\_volume\]
 
 </td><td>
 
-[Storage Volume](cmdb-aws-classes.md#section_cv3_cmg_fxb)[Storage Volume Snapshot](cmdb-aws-classes.md#section_r35_3mg_fxb)
+[Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)[Storage Volume Snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+[AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 SG-AWS Extension Attributes
 
@@ -409,7 +410,7 @@ SG-AWS-Image \[sn\_aws\_integ\_sg\_aws\_image\]
 
 </td><td>
 
-[Image](cmdb-aws-classes.md#section_rtl_vlg_fxb)
+[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -439,7 +440,7 @@ SG-AWS-Image-Id \[sn\_aws\_integ\_sg\_aws\_image\_id\]
 
 </td><td>
 
-[Image](cmdb-aws-classes.md#section_rtl_vlg_fxb)
+[Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -469,9 +470,9 @@ SG-AWS-Hardware-Type \[sn\_aws\_integ\_sg\_aws\_hardware\_type\]
 
 </td><td>
 
-[Hardware Type](cmdb-aws-classes.md#section_llk_vlg_fxb)
+[Hardware Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -501,21 +502,21 @@ SG-AWS-EC2 \[sn\_aws\_integ\_sg\_aws\_ec2\]
 
 </td><td>
 
-[Virtual Machine Instance](cmdb-aws-classes.md#section_ssv_3mg_fxb)
+[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-The following CIs are populated when populating the Virtual Machine Instance CI:[Server](cmdb-aws-classes.md#section_tv2_zlg_fxb)
+The following CIs are populated when populating the Virtual Machine Instance CI:[Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[VNIC Endpoint](cmdb-aws-classes.md#section_fxj_nnh_k5b)
+[VNIC Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[Storage Mapping](cmdb-aws-classes.md#section_hmh_cmg_fxb)
+[Storage Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[Block Endpoint](cmdb-aws-classes.md#section_zny_jlg_fxb)
+[Block Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[IP Address](cmdb-aws-classes.md#section_q2p_klg_fxb)
+[IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[Network Adapter](cmdb-aws-classes.md#section_mmd_zlg_fxb)
+[Network Adapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+[Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -559,15 +560,15 @@ SG-AWS-ELB-V1 \[sn\_aws\_integ\_sg\_aws\_elb\_v1\]
 
 </td><td>
 
-[Cloud Load Balancer](cmdb-aws-classes.md#section_km2_klg_fxb)
+[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Compute Security Group](cmdb-aws-classes.md#section_zvn_klg_fxb)
+ [Compute Security Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Availability Zone](cmdb-aws-classes.md#section_ykt_jlg_fxb)
+ [Availability Zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -597,15 +598,15 @@ SG-AWS-ELB-V2 \[sn\_aws\_integ\_sg\_aws\_elb\_v2\]
 
 </td><td>
 
-[Cloud Load Balancer](cmdb-aws-classes.md#section_km2_klg_fxb)
+[Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Compute Security Group](cmdb-aws-classes.md#section_zvn_klg_fxb)
+ [Compute Security Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Availability Zone](cmdb-aws-classes.md#section_ykt_jlg_fxb)
+ [Availability Zone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -635,11 +636,11 @@ SG-AWS-RDS \[sn\_aws\_integ\_sg\_aws\_rds\]
 
 </td><td>
 
-[Cloud DataBase](cmdb-aws-classes.md#section_zn1_klg_fxb)
+[Cloud DataBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -669,11 +670,11 @@ SG-AWS-API-Gateway \[sn\_aws\_integ\_sg\_aws\_api\_gateway\]
 
 </td><td>
 
-[Cloud Gateway \[cmdb\_ci\_cloud\_gateway\]](cmdb-aws-classes.md#section_p2d_klg_fxb)
+[Cloud Gateway \[cmdb\_ci\_cloud\_gateway\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -703,7 +704,7 @@ SG-AWS-Lambda \[sn\_aws\_integ\_sg\_aws\_lambda\]
 
 </td><td>
 
-[Cloud Function](cmdb-aws-classes.md#section_pwb_klg_fxb)
+[Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -731,7 +732,7 @@ SG-AWS-S3 \[sn\_aws\_integ\_sg\_aws\_s3\]
 
 </td><td>
 
-[Cloud Object Storage](cmdb-aws-classes.md#section_dn3_klg_fxb)
+[Cloud Object Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -759,11 +760,11 @@ SG-AWS-DynamoDb \[sn\_aws\_integ\_sg\_aws\_dynamodb\]
 
 </td><td>
 
-[DynamoDB Table](cmdb-aws-classes.md#section_ncj_vlg_fxb)
+[DynamoDB Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -795,17 +796,17 @@ SG-AWS-Software-Inventory \[sn\_aws\_integ\_sg\_aws\_software\_inventory\]SG-AWS
 
 When the Software Asset Management \(SAM\) application isn't installed:
 
- [Software Packages](cmdb-aws-classes.md#section_bfg_zlg_fxb)
+ [Software Packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Software Instance](cmdb-aws-classes.md#section_szj_3mg_fxb)
+ [Software Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Server](cmdb-aws-classes.md#section_tv2_zlg_fxb)
+ [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  When the SAM application is installed:
 
- [Software Installation](cmdb-aws-classes.md#section_b52_cmg_fxb)
+ [Software Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Server](cmdb-aws-classes.md#section_tv2_zlg_fxb)
+ [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -899,7 +900,7 @@ SG-AWS-SSM-SendCommand \[sn\_aws\_integ\_sg\_aws\_ssm\_sendcommand\]
 
 </td><td>
 
-[Application](cmdb-aws-classes.md#section_mtg_rdb_hdc)
+[Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  Running Process \[cmdb\_running\_process\]
 
@@ -947,13 +948,13 @@ SG-AWS-Tags \[sn\_aws\_integ\_sg\_aws\_tags\]
 
 </td><td>
 
-[DynamoDB Table](cmdb-aws-classes.md#section_ncj_vlg_fxb)
+[DynamoDB Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Cloud Load Balancer](cmdb-aws-classes.md#section_km2_klg_fxb)
+ [Cloud Load Balancer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Cloud Function](cmdb-aws-classes.md#section_pwb_klg_fxb)
+ [Cloud Function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -989,9 +990,9 @@ SG-AWS-VM-Hw-Consolidation \[sn\_aws\_integ\_sg\_aws\_vm\_hw\_consolidation\]
 
 </td><td>
 
-[Virtual Machine Instance](cmdb-aws-classes.md#section_ssv_3mg_fxb)
+[Virtual Machine Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Server](cmdb-aws-classes.md#section_tv2_zlg_fxb)
+ [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -1037,11 +1038,11 @@ SG-AWS-EKS-Cluster \[sn\_aws\_integ\_sg\_aws\_eks\_cluster\]
 
 </td><td>
 
-[Kubernetes Cluster](cmdb-aws-classes.md#section_tpz_53v_1yb)
+[Kubernetes Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -1091,11 +1092,11 @@ SG-AWS-EKS-Cluster-2 \[sn\_aws\_integ\_sg\_aws\_eks\_cluster\_2\]
 
 </td><td>
 
-[Kubernetes Cluster](cmdb-aws-classes.md#section_tpz_53v_1yb)
+[Kubernetes Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [AWS Datacenter](cmdb-aws-classes.md#section_vcc_zlg_fxb)
+ [AWS Datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -1147,29 +1148,29 @@ SG-AWS-EKS-FULL \[sn\_aws\_integ\_sg\_aws\_eks\_full\]
 
 </td><td>
 
-[Kubernetes Cluster](cmdb-aws-classes.md#section_tpz_53v_1yb)
+[Kubernetes Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Server](cmdb-aws-classes.md#section_tv2_zlg_fxb)
+ [Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Kubernetes Namespace](cmdb-aws-classes.md#section_wj2_mkv_1yb)
+ [Kubernetes Namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Kubernetes Node](cmdb-aws-classes.md#section_igc_pkv_1yb)
+ [Kubernetes Node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Kubernetes Service](cmdb-aws-classes.md#section_umk_4lv_1yb)
+ [Kubernetes Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Kubernetes Pod](cmdb-aws-classes.md#section_c4l_hlv_1yb)
+ [Kubernetes Pod](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Docker Container](cmdb-aws-classes.md#section_qmn_j3v_1yb)
+ [Docker Container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Docker Image](cmdb-aws-classes.md#section_i3v_q3v_1yb)
+ [Docker Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Kubernetes Volume](cmdb-aws-classes.md#section_fcf_rlv_1yb)
+ [Kubernetes Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Kubernetes Deployment](cmdb-aws-classes.md#section_dph_gkv_1yb)
+ [Kubernetes Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Kubernetes DaemonSet](cmdb-aws-classes.md#section_byy_yjv_1yb)
+ [Kubernetes DaemonSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Kubernetes ReplicaSet](cmdb-aws-classes.md#section_ikk_gqb_dbc)
+ [Kubernetes ReplicaSet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -1221,7 +1222,7 @@ SG-AWS-Generic-Resources \[sn\_aws\_integ\_sg\_aws\_generic\_resources\]
 
 </td><td>
 
-[Cloud Resource](cmdb-aws-classes.md#section_xk3_s2c_bzb)
+[Cloud Resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  SG-AWS Extension Attributes
 
@@ -1247,7 +1248,7 @@ SG-AWS-Redshift-Cluster \[sn\_aws\_integ\_sg\_aws\_redshift\_cluster\]
 
 </td><td>
 
-[Amazon Redshift](cmdb-aws-classes.md#section_x44_zyp_bgc)
+[Amazon Redshift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -1275,7 +1276,7 @@ SG-AWS-Get-Inventory \[sn\_aws\_integ\_sg\_aws\_get\_inventory\]
 
 </td><td>
 
-[Server](cmdb-aws-classes.md#section_tv2_zlg_fxb)
+[Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -1303,9 +1304,9 @@ SG-AWS-GenericTags \[sn\_aws\_integ\_sg\_aws\_generictags\]
 
 </td><td>
 
-[Cloud Resource](cmdb-aws-classes.md#section_xk3_s2c_bzb)
+[Cloud Resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
- [Key Value](cmdb-aws-classes.md#section_bnq_klg_fxb)
+ [Key Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
 </td><td>
 
@@ -1375,7 +1376,7 @@ SG-AWS-SSM-GetS3Object \[sn\_aws\_integ\_sg\_aws\_ssm\_gets3object\]
 
 </td><td>
 
-[Server](cmdb-aws-classes.md#section_tv2_zlg_fxb)
+[Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
  Running Process \[cmdb\_running\_process\]
 
@@ -1411,10 +1412,38 @@ SG-AWS-Organization
 
  SG-AWS-SendCommand
 
-</td></tr></tbody>
-</table>For more information on where data is saved when pulling data from AWS, see [CMDB classes targeted in Service Graph Connector for AWS](cmdb-aws-classes.md) and [Supported AWS resource types](cmdb-sgc-aws-resource-types.md).
+</td></tr><tr><td>
 
-You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](../concept/integrationhub-etl.md) for more information.
+37
+
+</td><td>
+
+SG-AWS-Autoscaling-Group​
+
+</td><td>
+
+SG-AWS-Autoscaling-Group​ \[sn\_aws\_integ\_sg\_aws\_autoscaling\_group\]
+
+</td><td>
+
+[Instance Scale Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
+
+</td><td>
+
+Optional
+
+</td><td>
+
+SG-AWS-Organization
+
+ SG-AWS-Service-Account
+
+ SG-AWS-Datacenters
+
+</td></tr></tbody>
+</table>For more information on where data is saved when pulling data from AWS, see [CMDB classes targeted in Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md) and [Supported AWS resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-aws-resource-types.md).
+
+You can use the IntegrationHub ETL app to view the data maps. See [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/integration-hub-etl/integrationhub-etl.md) for more information.
 
 For more information about how CI information is pulled from AWS, see the [Service Graph Connector for AWS - Functional Spec and CI](https://community.servicenow.com/community?id=community_article&sys_id=64e2949f1b9ec910c465ece6b04bcbe7) article on the ServiceNow Community site.
 
@@ -1435,7 +1464,7 @@ Additional information about AWS data sources:
 -   If the AWS Systems Manager \(SSM\) service isn't enabled, the connector populates the server records in the Server \[cmdb\_ci\_server\] class. If the AWS SSM service is enabled, then based on the platform type obtained through the SSM service, the server records are populated in either the Linux Server \[cmdb\_ci\_linux\_server\] class or the Windows Server \[cmdb\_ci\_win\_server\] class. The Server \[cmdb\_ci\_server\] class is the parent class of the Linux Server \[cmdb\_ci\_linux\_server\] and the Windows Server \[cmdb\_ci\_win\_server\] classes.
 -   All labels associated with an AWS resource are added to the Key Value \[cmdb\_key\_value\] table.
 
-    **Note:** You can use the [CMDB Data Manager](../concept/cmdb-data-management.md) to delete tag data from retired CIs in the Key Value \[cmdb\_key\_value\] table based on conditions like retention time and discovery source. A scheduled job runs the policy, which can be configured to execute during off-peak hours.
+    **Note:** You can use the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) to delete tag data from retired CIs in the Key Value \[cmdb\_key\_value\] table based on conditions like retention time and discovery source. A scheduled job runs the policy, which can be configured to execute during off-peak hours.
 
 -   The basic information about an AWS resource is stored in the SG-AWS Extension Attributes \[sn\_aws\_extension\_attributes\] table.
 -   In Service Graph Connector for AWS version 2.10.0 and later, the SG-AWS-Get-Inventory data source runs before the SG-AWS-EC2 data source and creates a Server \[cmdb\_ci\_server\] CI with the host name mapped to the Name attribute, instead of being mapped to the VM name.
@@ -1452,7 +1481,7 @@ Additional information about AWS data sources:
 
 ## Related content
 
-[CMDB classes targeted in Service Graph Connector for AWS](cmdb-aws-classes.md)
+[CMDB classes targeted in Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-aws-classes.md)
 
-[Service Graph Connector for AWS properties](cmdb-sgc-aws-props.md)
+[Service Graph Connector for AWS properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-aws-props.md)
 

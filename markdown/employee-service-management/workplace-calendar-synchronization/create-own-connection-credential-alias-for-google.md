@@ -2,13 +2,14 @@
 title: Create your own connection and credential alias for Google
 description: Instead of using the default Google\_Calendar alias, you can create your own connection and credential alias to use it with your Google Calendar provider.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/create-own-connection-credential-alias-for-google.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-03-23"
 reading_time_minutes: 2
-breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure Workplace Calendar Synchronization, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create your own connection and credential alias for Google
@@ -17,11 +18,11 @@ Instead of using the default **Google\_Calendar** alias, you can create your own
 
 ## Before you begin
 
-[Setup OAuth connectivity with Google Calendar](setup-oauth-connectivity-with-google.md)
+[Setup OAuth connectivity with Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-oauth-connectivity-with-google.md)
 
 Ensure that the application scope is set to **Google Calendar Spoke**. Otherwise, do the following:
 
-1.  Select the Application scope icon \(![Application scope icon.](../image/application-scope-globe-icon.png)\) on the top-right corner of your Employee Center homepage.
+1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon.\) on the top-right corner of your Employee Center homepage.
 2.  In the drop- down, select the option consisting **Application scope:**.
 3.  In the filter navigator, search and select **Google Calendar Spoke**.
 4.  Refresh the page.
@@ -61,7 +62,7 @@ Role required: admin
         |-----|------------|
         |Name|Name of the credential. Provide a unique name to differentiate from the default credentials provided by the application.|
         |Active|Option to activate the credential.|
-        |OAuth Entity Profile|Select the default OAuth entity profile that was generated when you performed the app registry in [Setup OAuth connectivity with Google Calendar](setup-oauth-connectivity-with-google.md).|
+        |OAuth Entity Profile|Select the default OAuth entity profile that was generated when you performed the app registry in [Setup OAuth connectivity with Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/setup-oauth-connectivity-with-google.md).|
         |Applies to|Specify how you want to apply to the MID servers.|
         |Order|Order for the credential.|
 
@@ -103,5 +104,5 @@ The connection and credential record is created with specified credentials and c
 
 ## What to do next
 
-[Configure Google as calendar provider](configure-google-as-calendar-provider.md)
+[Configure Google as calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-calendar-synchronization/configure-google-as-calendar-provider.md)
 

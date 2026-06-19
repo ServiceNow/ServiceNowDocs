@@ -2,6 +2,7 @@
 title: Reclaim Roadmunk user subscriptions in Software Asset Management classic
 description: Reclaim unused Roadmunk subscriptions to reduce your total software costs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/reclaim-roadmunk-subscription.html
 release: australia
 product: SaaS License Management
 classification: saas-license-management
@@ -43,7 +44,7 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
 2.  Deactivate the associated users on your Roadmunk account.
 
-    Based on the list of removal candidates that you identified in [step 1](reclaim-roadmunk-subscription.md#identify-removal-candidate), you can reclaim user subscriptions by deactivating the associated users on your Roadmunk account.
+    Based on the list of removal candidates that you identified in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/reclaim-roadmunk-subscription.md), you can reclaim user subscriptions by deactivating the associated users on your Roadmunk account.
 
     1.  From a web browser, open [Roadmunk](https://roadmunk.com/).
 
@@ -61,13 +62,13 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
     5.  Click the **Active** toggle button for every user that you want to deactivate.
 
-        You can determine which users you want to deactivate based on the email address that is associated with each user. The email address corresponds directly to the user principal name of each removal candidate that you identified in [step 1](reclaim-roadmunk-subscription.md#identify-removal-candidate).
+        You can determine which users you want to deactivate based on the email address that is associated with each user. The email address corresponds directly to the user principal name of each removal candidate that you identified in [step 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/reclaim-roadmunk-subscription.md).
 
     6.  Click **Save**.
 
     The users are deactivated and added to the list of inactive users.
 
-    **Note:** By default, the Roadmunk Download Subscriptions subflow within the ServiceNow SaaS License Management Roadmunk integration downloads all users in your Roadmunk account, including both active and inactive users. To download only the active users in your account, you must download your Roadmunk User Report and then attach it to the Roadmunk integration profile on your ServiceNow instance. See step 7 of [Create a Roadmunk integration profile](../concept/integrate-with-roadmunk.md#) for detailed instructions.
+    **Note:** By default, the Roadmunk Download Subscriptions subflow within the ServiceNow SaaS License Management Roadmunk integration downloads all users in your Roadmunk account, including both active and inactive users. To download only the active users in your account, you must download your Roadmunk User Report and then attach it to the Roadmunk integration profile on your ServiceNow instance. See step 7 of [Create a Roadmunk integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/integrate-with-roadmunk.md) for detailed instructions.
 
 3.  Delete deactivated users from your Roadmunk account.
 
@@ -79,7 +80,7 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
         The list of inactive users opens.
 
-    2.  Click the Remove icon ![](../image/remove-icon.png) for the user that you want to delete.
+    2.  Click the Remove icon \[Omitted image "remove-icon.png"\] for the user that you want to delete.
 
         The removal confirmation dialog box opens.
 
@@ -101,7 +102,7 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
     4.  On the Software Model form, select the **Reclamation Candidates** related tab.
 
-    5.  From the list of available removal candidates, select the removal candidate number \(RCCxxxxxxx\) for a user that you deactivated in [step 2](reclaim-roadmunk-subscription.md#remove-user).
+    5.  From the list of available removal candidates, select the removal candidate number \(RCCxxxxxxx\) for a user that you deactivated in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/reclaim-roadmunk-subscription.md).
 
     6.  On the Removal Candidate form, update the state of the removal candidate by clicking **Closed Skipped**.
 
@@ -110,5 +111,5 @@ The SaaS License Management Roadmunk integration does not support reclamation th
     7.  Repeat steps d through f for each user that you deactivated on your Roadmunk account.
 
 
-**Parent Topic:**[Reclaim user subscriptions in Software Asset Management classic](reclaim-user-subscription-saas-classic.md)
+**Parent Topic:**[Reclaim user subscriptions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/saas-license-management/reclaim-user-subscription-saas-classic.md)
 

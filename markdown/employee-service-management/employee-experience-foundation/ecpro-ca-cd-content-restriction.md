@@ -2,6 +2,7 @@
 title: Assign ownership of content
 description: Assign a user or group with the content manager \(sn\_cd.content\_manager\) role to a content item so only that user or group can edit and publish the content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-ca-cd-content-restriction.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -19,7 +20,7 @@ Assign a user or group with the content manager \(sn\_cd.content\_manager\) role
 
 Role required: sn\_cd.content\_admin
 
-Ensure **Yes** is checked under **Allow Ownership for Content Items** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](../reference/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](../reference/properties-with-content-delivery.md).
+Ensure **Yes** is checked under **Allow Ownership for Content Items** under Content Publishing or Content Experiences properties. For more information, see [Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md) and [Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md).
 
 ## About this task
 
@@ -33,13 +34,13 @@ Alternatively, use a content item as a template that can be repeatedly cloned an
 
 2.  Select a topic.
 
-3.  From the top-left menu \(![Menu icon](../../../reuse/icons/product-icons/menu-outline-24.svg)\), select **View content record**.
+3.  From the top-left menu \(\[Omitted image "menu-outline-24.svg"\] Alt text: Menu icon\), select **View content record**.
 
     -   To assign ownership to a user, select the **Restrict content by user** tab.
     -   To assign ownership to a group, select the **Restrict content by group** tab.
 4.  Click **New**.
 
-5.  From the **User** or **Group** field, click the **Lookup using list** \(![Lookup using list icon](../../human-resources/image/magnify-glass-outline-icon.png)\) icon and select a user or group.
+5.  From the **User** or **Group** field, click the **Lookup using list** \(\[Omitted image "magnify-glass-outline-icon.png"\] Alt text: Lookup using list icon\) icon and select a user or group.
 
     **Note:** Only groups that have the content admin \(sn\_cd.content\_admin\) or content manager \(sn\_cd.content\_manager\) roles appear. If the members of the group have these roles, but the group does not, the group does not appear.
 

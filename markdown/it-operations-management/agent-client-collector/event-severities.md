@@ -2,6 +2,7 @@
 title: Event severities
 description: The event severity numbers correspond to actual severities on the Metric Anomaly Score to Event Severity Maps page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/event-severities.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -23,5 +24,5 @@ The event severity numbers correspond to actual severities on the Metric Anomaly
 |3|Minor|
 |4|Warning|
 
-**Parent Topic:**[Agent Client Collector Monitoring reference](acc-monitoring-reference.md)
+**Parent Topic:**[Agent Client Collector Monitoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/acc-monitoring-reference.md)
 

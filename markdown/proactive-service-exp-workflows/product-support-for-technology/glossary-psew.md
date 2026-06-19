@@ -2,6 +2,7 @@
 title: Glossary Proactive Service Experience Workflows
 description: Learn about the terms and concepts that are unique to Proactive Service Experience Workflows.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/glossary-psew.html
 release: australia
 product: Product Support for Technology
 classification: product-support-for-technology
@@ -9,7 +10,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
-breadcrumb: [Reference, Product Support for Technology]
+breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Glossary Proactive Service Experience Workflows
@@ -48,18 +49,13 @@ A table used to determine which subflow to generate at certain escalation points
 
 A process to separate data, processes, and administrative tasks into logical groupings called domains. Admins can then control the information available to each domain, including which users can see and access the data. Typically used only in Multiple Service Provider \(MSP\) organizations.
 
-**Related topics**  
-
-
-[service-bridge-v2-domain-separation]
-
 ## E
 
 Glossary terms are grouped alphabetically.
 
 ### escalation
 
-The process of moving an incident to a higher level of support for faster resolution. PSEW includes predefined stages of escalation: Triage, L1 investigation, L2 investigation, L3 investigation, and Resolution. To learn more, see [About escalating incidents](../concept/psew-escalate-incident.md).
+The process of moving an incident to a higher level of support for faster resolution. PSEW includes predefined stages of escalation: Triage, L1 investigation, L2 investigation, L3 investigation, and Resolution. To learn more, see [About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md).
 
 ## H
 
@@ -67,7 +63,7 @@ Glossary terms are grouped alphabetically.
 
 ### hermes kafka
 
-A messaging service used to publish outbound notifications to external systems, particularly for cloud customers. To learn more, see [Producing outbound API notifications using Hermes](../concept/hermes-stream-connect-kafka-workflow.md).
+A messaging service used to publish outbound notifications to external systems, particularly for cloud customers. To learn more, see [Producing outbound API notifications using Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/hermes-stream-connect-kafka-workflow.md).
 
 ## I
 
@@ -99,7 +95,7 @@ Glossary terms are grouped alphabetically.
 
 ### operations account 360
 
-A view within the Service Operations Workspace that provides a comprehensive overview of a customer's or partner's account, including key contacts, products, services, and performance metrics. To learn more, see [Service delivery overview](../concept/account-360-analytics-dashboard.md).
+A view within the Service Operations Workspace that provides a comprehensive overview of a customer's or partner's account, including key contacts, products, services, and performance metrics. To learn more, see [Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md).
 
 ### open message bus
 
@@ -112,11 +108,6 @@ Glossary terms are grouped alphabetically.
 ### proactive case
 
 A case automatically generated to proactively notify and address impacted customers before they report an issue.
-
-**Related topics**  
-
-
-[service-bridge-v2-proactive-case]
 
 ## S
 
@@ -136,11 +127,11 @@ Glossary terms are grouped alphabetically.
 
 ### TMF 621 rest API
 
-A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/trouble-ticket-open-api.md).
+A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see .
 
 ### trouble ticket notification
 
-A feature that sends notifications to third-party systems about incidents or cases created in ServiceNow, either reactively or proactively. To learn more, see [Handling API notifications](../concept/handling-trouble-ticket-notifications.md).
+A feature that sends notifications to third-party systems about incidents or cases created in ServiceNow, either reactively or proactively. To learn more, see [Exploring API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md).
 
 ## W
 

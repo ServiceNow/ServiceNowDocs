@@ -2,6 +2,7 @@
 title: Exploring Virtual Agent API
 description: Use the ServiceNow Virtual Agent API app to integrate any chat interface or a bot with ServiceNow Virtual Agent or Agent Chat. The app is available from the ServiceNow Store.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/explore-virtual-agent-api.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -35,11 +36,11 @@ The Virtual Agent API is a REST API. This API is built on the conversational cus
     Your secondary bots, such as the ServiceNow bot, might handle specific types of end-user requests, such as service tickets or reservations.
 
 
-The Virtual Agent API is useful for creating server-to-server integrations. However, for integrations that require the transformation of unsupported controls that must be rendered in your existing chat interface, consider using the [Custom Chat Integration Framework](va-custom-adapter-framework.md).
+The Virtual Agent API is useful for creating server-to-server integrations. However, for integrations that require the transformation of unsupported controls that must be rendered in your existing chat interface, consider using the [Custom Chat Integration Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-custom-adapter-framework.md).
 
-For information about features such as the URL format and the supported request and response parameters in the Virtual Agent API, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/bot-api.md).
+For information about features such as the URL format and the supported request and response parameters in the Virtual Agent API, see Virtual Agent Bot Integration API.
 
-![Video link to Virtual Agent Academy.](../../conversational-interfaces/image/icon-video-link.png) [Augment your experiences with the Virtual Agent API](https://www.youtube.com/watch?v=cyhmMyG4jKk) \(Virtual Agent Academy video\)
+\[Omitted image "icon-video-link.png"\] Alt text: Video link to Virtual Agent Academy. [Augment your experiences with the Virtual Agent API](https://www.youtube.com/watch?v=cyhmMyG4jKk) \(Virtual Agent Academy video\)
 
 ## How the Virtual Agent API works
 
@@ -51,7 +52,7 @@ The following diagram shows how the REST API processes user input from a third-p
 4.  The ServiceNow AI Platform sends a POST response JSON from the outbound REST endpoint \(via REST API\) back to the bot.
 5.  The primary bot or third-party chat interfaces displays the response to the user.
 
-![Diagram that shows how the REST endpoints in the Virtual Agent API handle user input and authentication and bot response and authentication.](../images/va-api-steps.png "Inbound and outbound REST endpoints in the Virtual Agent API")
+\[Omitted image "va-api-steps.png"\] Alt text: Diagram that shows how the REST endpoints in the Virtual Agent API handle user input and authentication and bot response and authentication.
 
 To see a demonstration of the Virtual Agent API and an FAQ, see [Getting Started with Virtual Agent APIs](https://community.servicenow.com/community?id=community_article&sys_id=080e3903dbc4e4107d3e02d5ca96198c) on the Community site.
 
@@ -62,10 +63,10 @@ The Virtual Agent API does not support the following features:
 -   Chat branding through this Virtual Agent API integration.
 -   Now Assist capabilities are supported only in asynchronous mode.
 
--   **[Supported features in Virtual Agent API](virtual-agent-api-whats-new.md)**  
+-   **[Supported features in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-api-whats-new.md)**  
 You can use the Virtual Agent API to integrate many of the same features that are available in Virtual Agent and Agent Chat into your chat environment. Feature support varies depending on your ServiceNow release and the store app version number of the Virtual Agent API.
--   **[Supported versions and licensing requirements in Virtual Agent API](virtual-agent-api-supported-versions-licensing.md)**  
+-   **[Supported versions and licensing requirements in Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-api-supported-versions-licensing.md)**  
 Get a quick overview of the important information that is related to the Virtual Agent API.
 
-**Parent Topic:**[Virtual Agent API](virtual-agent-api-landing-page.md)
+**Parent Topic:**[Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/virtual-agent-api-landing-page.md)
 

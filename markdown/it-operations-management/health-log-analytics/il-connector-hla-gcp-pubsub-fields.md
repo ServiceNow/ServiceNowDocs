@@ -2,6 +2,7 @@
 title: GCP PubSub integration configuration fields
 description: Description of the fields on the GCP PubSub integration configuration forms for Health Log Analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/il-connector-hla-gcp-pubsub-fields.html
 release: australia
 product: Health Log Analytics
 classification: health-log-analytics
@@ -16,7 +17,7 @@ breadcrumb: [Integration configuration fields, Health Log Analytics reference, H
 
 Description of the fields on the GCP PubSub integration configuration forms for Health Log Analytics.
 
-For the GCP PubSub integration setup procedure, see [Set up a GCP PubSub integration for Health Log Analytics](../task/il-connector-hla-gcp-pubsub.md).
+For the GCP PubSub integration setup procedure, see [Set up a GCP PubSub integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/health-log-analytics/il-connector-hla-gcp-pubsub.md).
 
 <table id="table_ptx_ylg_lgc"><thead><tr><th>
 
@@ -83,7 +84,7 @@ The MID Server cluster to which the log data is pulled. This field is required.T
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   The default maximum number of data inputs or integrations streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs or integrations running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
+For more information about MID Server clusters, see Configure a MID Server cluster.
 
 </td></tr><tr><td>
 
@@ -256,5 +257,5 @@ Option to discard logs if many processes are waiting in the queue to access the 
 Clear
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration fields](../concept/hla-connector-config-fields.md)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

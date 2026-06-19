@@ -2,6 +2,7 @@
 title: Add custom Embedded Help from a copy
 description: To customize embedded help for your organization, you can edit a topic in the base system and save it as a copy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/adoption-services/add-custom-help-copy.html
 release: australia
 product: Adoption Services
 classification: adoption-services
@@ -25,7 +26,7 @@ In base system topics, the read-only **ServiceNow Help** check box is selected. 
 
 When a user navigates to a UI page for which custom content exists, the custom content displays instead of the base system content.
 
-**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspace](../../adoption-services/task/create-help-center-content.md).
+**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/create-help-center-content.md).
 
 ## Procedure
 
@@ -59,7 +60,7 @@ Page
 
 </td><td>
 
-The UI page this topic corresponds to. Typically, you do not change the page name.**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspace](../../adoption-services/task/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
+The UI page this topic corresponds to. Typically, you do not change the page name.**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
 
 </td></tr><tr><td>
 
@@ -77,7 +78,7 @@ Role
 
 </td><td>
 
-The role that the topic is written to assist. Users assigned to the role see the content when they navigate to the associated UI page.All roles that contain the role also see the content, unless another topic targeted to their role exists for the same page. For more information, see [Embedded Help roles](../concept/embedded-help-roles.md)
+The role that the topic is written to assist. Users assigned to the role see the content when they navigate to the associated UI page.All roles that contain the role also see the content, unless another topic targeted to their role exists for the same page. For more information, see [Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-roles.md)
 
 </td></tr><tr><td>
 
@@ -125,7 +126,7 @@ Order
 
 </td><td>
 
-The order defaults based on the role, and determines what content to display when the user has an assigned role. For more information, see [Embedded Help roles](../concept/embedded-help-roles.md).
+The order defaults based on the role, and determines what content to display when the user has an assigned role. For more information, see [Embedded Help roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embedded-help-roles.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +143,7 @@ Specify the domain this content is used for, if applicable.This field appears in
 
     **Note:** Do not add images in an embedded help topic. Images are removed from the content section when the record is saved.
 
-    To add an embedded video, see [Embed video content in help topics](embed-video-help-content.md).
+    To add an embedded video, see [Embed video content in help topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/embed-video-help-content.md).
 
 5.  To add another line below tables, videos, or related links, click the newline icon \(**⏎**\).
 
@@ -151,5 +152,5 @@ Specify the domain this content is used for, if applicable.This field appears in
     The edited topic is saved and the list redisplays. The **ServiceNow Help** check box is cleared in the saved topic.
 
 
-**Parent Topic:**[Configuring Embedded Help](../concept/configuring-embedded-help.md)
+**Parent Topic:**[Configuring Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/configuring-embedded-help.md)
 

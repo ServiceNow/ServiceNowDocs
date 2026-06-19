@@ -2,6 +2,7 @@
 title: Set up Equifax spoke
 description: Integrate the ServiceNow instance and Equifax spoke by using basic Auth or OAuth 2.0 authentication to authenticate ServiceNow requests.Use the information generated during the application configuration to register Equifax as an OAuth provider. OAuth provider registration enables the ServiceNow instance to request OAuth 2.0 tokens.Create credential records to the Equifax custom OAuth application you created during Equifax account configuration. The Equifax spoke connection and credential aliases use these credentials to authorize actions in Equifax application.Create a connection record for your Equifax application with the credential aliases provided. You need to select the credential record to the Equifax custom OAuth application you created during Equifax account configuration.Generate the Equifax access token.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/set-up-equifax-spoke.html
 release: australia
 product: Integration Hub
 classification: integration-hub

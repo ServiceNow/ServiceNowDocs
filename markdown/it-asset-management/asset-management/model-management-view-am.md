@@ -2,13 +2,14 @@
 title: Model management view
 description: Use the Model management view in the Asset Workspace to create or modify models, view and manage the asset model-related functions such as hardware and consumable models nearing the end of life.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/model-management-view-am.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Asset Management Workspace, Asset Management, IT Asset Management]
+breadcrumb: [Explore, Asset Management, IT Asset Management]
 ---
 
 # Model management view
@@ -17,7 +18,7 @@ Use the Model management view in the Asset Workspace to create or modify models,
 
 **Note:** Software model tab is hidden when Software Asset Management \(com.snc.software\_asset\_management\) or Software Asset Management Professional \(com.snc.pa.samp\) is active. You can view this Software model tab in Software Asset Workspace.
 
-![Model management view in Asset Workspace](../../hardware-asset-management/image/asset-wrkspc-modelmgmt.png "Model management view")
+\[Omitted image "asset-wrkspc-modelmgmt.png"\] Alt text: Model management view in Asset Workspace
 
 |Widget or chart|Description|
 |---------------|-----------|

@@ -2,6 +2,7 @@
 title: Use schedule flows in SAP
 description: Use the schedule flows that interact with SAP to pull information on purchase requisition, purchase order, receipt, invoice, and sourcing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/source-to-pay-integration-framework/using-schedule-flows-sap.html
 release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
@@ -46,7 +47,7 @@ The Primary Data Integration with SAP supports the following subflows and system
 
 **System Properties for Primary Data Integration with SAP ECC**
 
-Use these system properties to configure settings for the Primary Data Integration with SAP ECC from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](../reference/s2p-integrations-sap-reference.md).
+Use these system properties to configure settings for the Primary Data Integration with SAP ECC from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-sap-reference.md).
 
 Role required:
 
@@ -252,7 +253,7 @@ Maximum timeout duration \(in milliseconds\) for subflow execution.Default value
 
 **System Properties for Primary Data Integration with SAP S4 HANA Cloud**
 
-Use these system properties to configure settings for the Primary Data Integration with SAP S4 HANA Cloud from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](../reference/s2p-integrations-sap-reference.md).
+Use these system properties to configure settings for the Primary Data Integration with SAP S4 HANA Cloud from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-sap-reference.md).
 
 Role required:
 
@@ -464,7 +465,7 @@ Maximum timeout duration \(in milliseconds\) for subflow execution.Default value
 
 **System Properties for Primary Data Integration with SAP S4 HANA OData**
 
-Use these system properties to configure settings for the Primary Data Integration with SAP S4 HANA OData from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](../reference/s2p-integrations-sap-reference.md).
+Use these system properties to configure settings for the Primary Data Integration with SAP S4 HANA OData from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-sap-reference.md).
 
 Role required:
 
@@ -707,7 +708,7 @@ Role required:
 
 **System Properties for Sourcing and Procurement Operations Integration with SAP**
 
-Use these system properties to configure settings for the Sourcing and Procurement Operations Integration with SAP from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](../reference/s2p-integrations-sap-reference.md).
+Use these system properties to configure settings for the Sourcing and Procurement Operations Integration with SAP from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-sap-reference.md).
 
 Role required:
 
@@ -751,7 +752,7 @@ Role required:
 
 **System Properties for Accounts Payable Operations Integration with SAP**
 
-Use these system properties to configure settings for the Accounts Payable Operations Integration with SAP from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](../reference/s2p-integrations-sap-reference.md).
+Use these system properties to configure settings for the Accounts Payable Operations Integration with SAP from the System Properties page. For more information, see [Source-to-Pay integrations with SAP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/s2p-integrations-sap-reference.md).
 
 Role required:
 
@@ -763,10 +764,10 @@ Role required:
 |sn\_apm\_sap\_int.cloud\_invoices\_service\_subflow|Specifies the subflow used to fetch invoice data from the Cloud-based SAP service.|
 |sn\_apm\_sap\_int.odata\_invoices\_service\_subflow|Defines the subflow responsible for fetching invoices via SAP OData services.|
 
--   **[Use a flow or subflow in SAP \(Outbound\)](../task/use-flow-or-subflow-sap.md)**  
+-   **[Use a flow or subflow in SAP \(Outbound\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/use-flow-or-subflow-sap.md)**  
 A flow or subflow can be executed in SAP using the Workflow Studio. Follow these steps to run a flow or subflow.
--   **[Copy a flow or subflow in SAP](../task/copy-flow-or-subflow-sap.md)**  
+-   **[Copy a flow or subflow in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/copy-flow-or-subflow-sap.md)**  
 You can create a copy of the flow or subflow and make the necessary modifications. Use the following steps to activate a flow or subflow.
 
-**Parent Topic:**[Use Source-to-Pay integration with SAP](using-source-to-pay-sap-integration.md)
+**Parent Topic:**[Use Source-to-Pay integration with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/source-to-pay-integration-framework/using-source-to-pay-sap-integration.md)
 

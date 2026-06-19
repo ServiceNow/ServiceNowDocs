@@ -2,6 +2,7 @@
 title: Configure request definitions for EMR systems
 description: Create or modify request definitions to accept service requests from an EMR system on your ServiceNow instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/configure-emr-help-req-def.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -17,8 +18,8 @@ Create or modify request definitions to accept service requests from an EMR syst
 
 ## Before you begin
 
--   Set the application scope to EMR Help using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
--   Ensure that request parameters and equivalent columns for all request parameters exist in the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table. For more information, see [Configure request parameters for EMR systems](configure-emr-help-req-parm.md).
+-   Set the application scope to EMR Help using the application picker. For more information, see Application picker.
+-   Ensure that request parameters and equivalent columns for all request parameters exist in the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table. For more information, see [Configure request parameters for EMR systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/configure-emr-help-req-parm.md).
 
 Role required: sn\_ind\_rmt\_help.admin or admin
 
@@ -100,7 +101,7 @@ Rest API Task Parameters
 
 </td></tr><tr><td colspan="2">
 
-Parameters of scripted REST APIs. You can use scripted REST APIs with system support modules. For more information, see [Remote help request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/remote_help_request-api.md).
+Parameters of scripted REST APIs. You can use scripted REST APIs with system support modules. For more information, see Remote help request API.
 
 </td></tr><tr><td>
 
@@ -137,9 +138,9 @@ Parameters of a task record available when updating an IT service request in the
 </td></tr></tbody>
 </table>    **Note:** To be able to enter Rest API task parameters, click the lock icon corresponding to the parameter type. For example, to enter task create parameters:
 
-    1.  Click the unlock task create parameters icon \(![Unlock task create parameters icon.](../image/lock.png)\).
+    1.  Click the unlock task create parameters icon \(\[Omitted image "lock.png"\] Alt text: Unlock task create parameters icon.\).
     2.  Move the desired parameters from the available parameters in the **Available** column to the **Selected** column.
-    3.  Click the up or down icon to arrange the parameters in the order in which you want them to appear on the IT service request page of the EMR system, and then click the lock task create parameters icon \(![Lock task create parameters icon.](../image/unlock.png)\).
+    3.  Click the up or down icon to arrange the parameters in the order in which you want them to appear on the IT service request page of the EMR system, and then click the lock task create parameters icon \(\[Omitted image "unlock.png"\] Alt text: Lock task create parameters icon.\).
 4.  Save the remote request definition settings.
 
     -   To save a new request definition, click **Submit**.

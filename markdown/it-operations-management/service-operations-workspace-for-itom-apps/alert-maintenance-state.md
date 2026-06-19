@@ -2,6 +2,7 @@
 title: Place an alert in the Maintenance state
 description: Placing an alert into the Maintenance state indicates that there are issues with the alert's CIs that are being addressed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/alert-maintenance-state.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,13 +24,13 @@ Role required: evt\_mgmt\_admin or evt\_mgmt\_operator
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the Express list icon ![](../image/express-list1.png).
+2.  From the navigation bar, select the Express list icon \[Omitted image "express-list1.png"\].
 
 3.  Filter with **Active alerts**.
 
 4.  Select an alert.
 
-    ![Maintenance check box for an alert](../image/maintenance-check-box.png)
+    \[Omitted image "maintenance-check-box.png"\] Alt text: Maintenance check box for an alert
 
 5.  On the **Details** subtab, select the **Maintenance** check box to place the alert into the Maintenance state.
 

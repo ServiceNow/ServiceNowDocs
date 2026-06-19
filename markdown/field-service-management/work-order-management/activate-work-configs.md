@@ -2,6 +2,7 @@
 title: Activate Field Service Work Configurations
 description: You can activate the Field Service Work Configurations plugin \(com.snc.fsm\_work\_types\) for Field Service Management if you have the admin role. Activating Work Configurations enables you to define configurations for a specific type of work, ensuring consistency.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/activate-work-configs.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Install the Field Service Work Configurations plugin \(com.snc.fsm\_work\_types\) to activate Field Service Work Configurations. Optionally, install the Field Service Demo Work Configuration for Break fix \(com.snc.fsm\_mri\_scanner\_breakfix\_work\_config\) plugin for an example Field Service Work Configurations workflow. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed. For more information on the components installed with the plugins, see [Field Service Work Configurations components](../reference/work-configuration-components.md).
+Install the Field Service Work Configurations plugin \(com.snc.fsm\_work\_types\) to activate Field Service Work Configurations. Optionally, install the Field Service Demo Work Configuration for Break fix \(com.snc.fsm\_mri\_scanner\_breakfix\_work\_config\) plugin for an example Field Service Work Configurations workflow. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed. For more information on the components installed with the plugins, see [Field Service Work Configurations components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/work-configuration-components.md).
 
 ## Procedure
 
@@ -35,6 +36,6 @@ Install the Field Service Work Configurations plugin \(com.snc.fsm\_work\_types\
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

@@ -2,6 +2,7 @@
 title: Approve contracts to allow amendments
 description: Amendment requests can only be submitted for contracts in the Active state. If a contract is in Draft state and Awaiting Review substate, you need to manually approve it before submitting an amendment request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-approve-draft-cntr.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -27,7 +28,7 @@ Role required: sn\_lg\_cnt.contract\_fulfiller and contract manger
 
 3.  Select **Approve Contract**.
 
-    ![Contract in Draft state](../image/cmpro-amend-approve-cntr.png)
+    \[Omitted image "cmpro-amend-approve-cntr.png"\] Alt text: Contract in Draft state
 
 
 ## Result
@@ -37,5 +38,5 @@ The contract will move to either the Draft state-Approved substate or Active sta
 -   If the start date is in the future, the contract moves to the Draft state-Approved substate.
 -   If the start date is today or in the past, the contract moves to the Active state.
 
-**Parent Topic:**[Contract amendments](cmpro-amend-landing.md)
+**Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cmpro-amend-landing.md)
 

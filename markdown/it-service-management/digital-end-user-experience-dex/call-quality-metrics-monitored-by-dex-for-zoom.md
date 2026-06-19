@@ -2,6 +2,7 @@
 title: Zoom call quality metrics on the Details page
 description: View the granular call quality metrics for on the Details page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/call-quality-metrics-monitored-by-dex-for-zoom.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
@@ -45,5 +46,5 @@ View the granular call quality metrics for on the **Details** page.
 |Camera|Indicates whether the camera was on or off during the call \(true or false\).|
 |Screenshare|Indicates whether screen sharing was active during the call \(true or false\).|
 
-**Parent Topic:**[DEX Application and Device Health reference](dex-console-reference.md)
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-end-user-experience-dex/dex-console-reference.md)
 

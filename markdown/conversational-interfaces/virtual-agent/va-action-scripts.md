@@ -2,6 +2,7 @@
 title: Virtual Agent action scripts
 description: You need to write a set of mandatory Workflow Studio action and subflow scripts to pass the user data to VACS, apply transformations and send the response back to your chat interface endpoint.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-action-scripts.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -150,9 +151,9 @@ Output
     -   context\_vars - Contextual variables to pass into a conversation, such as \`outputs.request\_context.context\_vars = \{language: "en"\};\`.
 
 </td></tr></tbody>
-</table>![An Action Input in Workflow Studio with Headers and Payload set to use JSON.](../images/va-flowdesigner-action-inputs.png "Example: Workflow Studio provider attributes action script input, including headers and payload")
+</table>\[Omitted image "va-flowdesigner-action-inputs.png"\] Alt text: An Action Input in Workflow Studio with Headers and Payload set to use JSON.
 
-![An Action Output in Workflow Studio specifies the token, request_context, and provider_user_id values.](../images/va-flowdesigner-action-output.png "Example: Workflow Studio provider attributes action script output, including token, request_context, and provider_user_id")
+\[Omitted image "va-flowdesigner-action-output.png"\] Alt text: An Action Output in Workflow Studio specifies the token, request\_context, and provider\_user\_id values.
 
 Example: Provider attributes action script.
 
@@ -546,5 +547,5 @@ Virtual Agent - SMS Twilio Adapter Default Picker Inbound TransformerPurpose: Fi
 ```
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](../concept/va-features-custom-chat-integrations.md)
+</table>**Parent Topic:**[Supported Virtual Agent and Agent Chat features for custom chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-features-custom-chat-integrations.md)
 

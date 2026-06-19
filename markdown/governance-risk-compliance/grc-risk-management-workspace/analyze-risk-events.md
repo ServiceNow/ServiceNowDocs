@@ -2,6 +2,7 @@
 title: Analyze a risk event
 description: Analyze user-submitted risk events to determine if the risk event is valid and needs further processing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/analyze-risk-events.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -466,10 +467,10 @@ Option to provide work notes for reference. Work notes are not visible to the ri
 
     The **Gross loss** field reflects the total loss incurred by the event.
 
-    The currency conversion rates impact the values displayed in the Summary related list. For example, if you enter a value of **300** Japanese Yen as the recovery amount, you see the amount in the concurrent USD value of **2756** in the Summary related list. This conversion occurs because the currency conversion rates are applied from the Exchange Rate table. For more information on how the values in the exchange rate table are calculated, see [Use your own currency-conversion rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/t_UseYourOwnConversionTable.md).
+    The currency conversion rates impact the values displayed in the Summary related list. For example, if you enter a value of **300** Japanese Yen as the recovery amount, you see the amount in the concurrent USD value of **2756** in the Summary related list. This conversion occurs because the currency conversion rates are applied from the Exchange Rate table. For more information on how the values in the exchange rate table are calculated, see Use your own currency-conversion rates.
 
 3.  To send the risk event for approval, click **Request Approval**.
 
 
-**Parent Topic:**[Use Risk Events](../concept/use-risk-events.md)
+**Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

@@ -2,9 +2,12 @@
 title: Product localization information in Australia
 description: Cumulative release notes summary on new Australia features and products.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-localization.html
 release: australia
+product: Release Notes
+classification: release-notes
 topic_type: reference
-last_updated: "2026-05-04"
+last_updated: "2026-06-12"
 reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -29,7 +32,7 @@ AI Agent Advisor
 
 </td><td>
 
-AI Agent Advisor supports Dynamic Translation for Australia. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
+AI Agent Advisor supports machine translation for Australia. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
 
 </td></tr><tr><td>
 
@@ -45,7 +48,7 @@ AI Search
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/international-language-support-ais.md).
+AI Search supports international languages. For details of language support by feature, see .
 
 </td></tr><tr><td>
 
@@ -53,7 +56,7 @@ Accounts Payable Operations
 
 </td><td>
 
-Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. If you want to process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
+Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. To process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
 
 </td></tr><tr><td>
 
@@ -77,7 +80,7 @@ Generative AI Controller
 
 </td><td>
 
-Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the Now Assist Admin console. For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
+Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the Now Assist Admin console. For more information, see .
 
 </td></tr><tr><td>
 
@@ -101,15 +104,7 @@ Now Assist Center
 
 </td><td>
 
-Now Assist Center supports Dynamic Translation for Australia. Localization is applicable to Now Assist Center in all languages supported by the ServiceNow AI Platform.
-
-</td></tr><tr><td>
-
-Now Assist in Virtual Agent
-
-</td><td>
-
- 
+Now Assist Center supports machine translation for Australia. Localization is applicable to Now Assist Center in all languages supported by the ServiceNow AI Platform.
 
 </td></tr><tr><td>
 
@@ -117,7 +112,7 @@ RPA Hub
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rpa-hub-international-language-support.md).
+RPA Hub supports international languages. For more information, see Internationalization support for RPA Hub.
 
 </td></tr><tr><td>
 
@@ -125,8 +120,16 @@ ServiceNow IDE
 
 </td><td>
 
-The ServiceNow IDE is localized in all supported left-to-right languages and reflects the language preference selected by users for the instance. For information about how to activate a language on an instance, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/t_ActivateALanguage.md).
+The ServiceNow IDE is localized in all supported left-to-right languages and reflects the language preference selected by users for the instance. For information about how to activate a language on an instance, see .
+
+</td></tr><tr><td>
+
+Third-party Risk Management
+
+</td><td>
+
+Third-party portal strings are externalized and translated for supported languages. Newly introduced features may have incomplete translations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Australia features](../release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/release-notes-summaries.md)
 

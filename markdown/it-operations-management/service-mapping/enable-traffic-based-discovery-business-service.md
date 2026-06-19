@@ -2,6 +2,7 @@
 title: Enable traffic-based discovery for an application service
 description: Make Service Mapping use traffic-based connections to discover CIs making up an application service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-mapping/enable-traffic-based-discovery-business-service.html
 release: australia
 product: Service Mapping
 classification: service-mapping
@@ -21,7 +22,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-Service Mapping can discover and map configuration items \(CIs\) following their traffic-based connections. This method is referred to as traffic-based mapping and complements pattern-based mapping. For more information about how Service Mapping performs traffic-based discovery, see [Traffic-based discovery in Service Mapping](../concept/traffic-based-discovery.md).
+Service Mapping can discover and map configuration items \(CIs\) following their traffic-based connections. This method is referred to as traffic-based mapping and complements pattern-based mapping. For more information about how Service Mapping performs traffic-based discovery, see [Traffic-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/traffic-based-discovery.md).
 
 ## Procedure
 
@@ -55,7 +56,7 @@ Service Mapping can discover and map configuration items \(CIs\) following their
 
     5.  Click the **Open Preview** icon.
 
-        ![Open Preview icon next to the selected application service.](../image/workspace-all-services-open-preview.png)
+        \[Omitted image "workspace-all-services-open-preview.png"\] Alt text: Open Preview icon next to the selected application service.
 
         The Details pane opens on the right.
 
@@ -64,5 +65,5 @@ Service Mapping can discover and map configuration items \(CIs\) following their
     7.  Click **Update**.
 
 
-**Parent Topic:**[Map a single application service using classic Service Mapping](t_DefineNewBusinessService.md)
+**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 

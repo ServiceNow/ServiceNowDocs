@@ -2,6 +2,7 @@
 title: Create an action item in the risk response task
 description: Create multiple strategies with various action items for each risk response task. Action items help you to understand and focus on specific steps needed to manage risks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-action-item-risk-response-task.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -29,7 +30,7 @@ Action items are specific, granular tasks defined within a risk response task to
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the task ![Task icon.](../../assessment-engine/image/task-icon.png) icon.
+2.  Select the task \[Omitted image "task-icon.png"\] Alt text: Task icon. icon.
 
 3.  Open a risk response task for which you want to add an Action item.
 
@@ -39,7 +40,7 @@ Action items are specific, granular tasks defined within a risk response task to
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values on the Create New Action Item form, see [Create New Action Item form](../reference/create-new-action-item-form.md).
+    For a description of the field values on the Create New Action Item form, see [Create New Action Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-new-action-item-form.md).
 
 7.  Select **Save**.
 
@@ -48,8 +49,8 @@ Action items are specific, granular tasks defined within a risk response task to
     The action item moves to the Assigned state.
 
 
--   **[Create New Action Item form](../reference/create-new-action-item-form.md)**  
+-   **[Create New Action Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-new-action-item-form.md)**  
 Use the Create New Action Item form to define the plan of action, assign responsibilities, set priorities, and establish milestones for the action item.
 
-**Parent Topic:**[Create a risk response task in the Risk Workspace](create-risk-response-task-risk-workspace.md)
+**Parent Topic:**[Create a risk response task in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-response-task-risk-workspace.md)
 

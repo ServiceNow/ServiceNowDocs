@@ -2,6 +2,7 @@
 title: Contract Workspace
 description: As a contract fulfiller, you can work with the actionable widgets on Contract Workspace to categorize, prioritize, and efficiently work on contract requests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-contract-workspace.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
@@ -18,7 +19,7 @@ As a contract fulfiller, you can work with the actionable widgets on Contract Wo
 
 The Contract Workspace homepage provides information on open contract requests, document revisions pending approval, and contracts due to expire. Selecting a widget to displays the related list of contract requests on a separate page. For Donut widgets, you can use the **Group by** filter to view the contract requests by state, status, or type of paper.
 
-![Contract workspace to view open contract requests, document revisions pending approval, and contracts due to expire](../image/cmpro-contract-workspace-main.png "Contract Workspace")
+\[Omitted image "cmpro-contract-workspace-main.png"\] Alt text: Contract workspace to view open contract requests, document revisions pending approval, and contracts due to expire
 
 <table id="table_xjs_r3d_dbc"><thead><tr><th>
 
@@ -38,7 +39,7 @@ Unassigned
 
 </td><td>
 
-Score![Score icon.](../../../use/reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -50,7 +51,7 @@ Assigned to me
 
 </td><td>
 
-Donut![Donut icon.](../../../use/reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -62,7 +63,7 @@ My Collaborations
 
 </td><td>
 
-Donut![Donut icon.](../../../use/reporting/image/icon-donut-report-p.png)
+Donut\[Omitted image "icon-donut-report-p.png"\] Alt text: Donut icon.
 
 </td><td>
 
@@ -74,7 +75,7 @@ Pending approvals
 
 </td><td>
 
-Score![Score icon.](../../../use/reporting/image/icon-single-score-report-p.png)
+Score\[Omitted image "icon-single-score-report-p.png"\] Alt text: Score icon.
 
 </td><td>
 
@@ -86,16 +87,16 @@ Contracts due for expiry
 
 </td><td>
 
-Bar![Bar icon.](../../../use/performance-analytics/image/column-icon.png)
+Bar\[Omitted image "column-icon.png"\] Alt text: Bar icon.
 
 </td><td>
 
 Number of expiring contracts that you have executed. The contracts are grouped by the number of days before the contract expires.
 
 </td></tr></tbody>
-</table>The Contract Workspace is built through the configurable UI Builder application. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder/ui-builder-overview.md).
+</table>The Contract Workspace is built through the configurable UI Builder application. For more information, see .
 
-Access to the Contract Workspace requires activation of the Contract Workspace plugin. For more information, see [Activate Contract Workspace](../task/cncore-activate-contract-workspace-plugin.md).
+Access to the Contract Workspace requires activation of the Contract Workspace plugin. For more information, see [Activate Contract Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-activate-contract-workspace-plugin.md).
 
 ## Contract Workspace benefits
 
@@ -105,7 +106,7 @@ The Contract Workspace enables contract fulfillers to more efficiently handle co
 |-------|-------|
 |Overview of open contract requests, pending document revision approvals, and contracts that due to expire.|User action widgets|
 |Ability to view only the open contract requests that require your immediate attention.|Filtering capabilities|
-|More relevant search results with the advanced ServiceNow® AI Search engine.|[AI Search](../task/cncore-config-ai-srch-cntrct-wrkspc.md)|
+|More relevant search results with the advanced ServiceNow® AI Search engine.|[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-config-ai-srch-cntrct-wrkspc.md)|
 
-**Parent Topic:**[Using Contract Management Pro](cncore-use-cmpro.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

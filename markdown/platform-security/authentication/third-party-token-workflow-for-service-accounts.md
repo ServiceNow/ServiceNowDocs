@@ -2,11 +2,12 @@
 title: Third party token workflow for service accounts
 description: Create a service account in ServiceNow to represent the identity of a third-party application accessing APIs through a trusted identity provider \(IdP\). This account maps the token claims to a user record and manages access with roles and permissions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/third-party-token-workflow-for-service-accounts.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Third Party Token Grant, Inbound integrations, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -25,11 +26,11 @@ When a third-party application authenticates using a token from an external iden
 
 Create a corresponding `sys_user` account in ServiceNow for your service account. The value of the claim configured during the initial setup in the token issued by your Idp is mapped to the user field specified. This account represents the service identity in ServiceNow. You can restrict this account to API access only, and assign the necessary permissions by adding the appropriate roles and groups.
 
-![Service Account Workflow](../images/mic-third-party-token-service-account.png "Service Account Workflow")
+\[Omitted image "mic-third-party-token-service-account.png"\] Alt text: Service Account Workflow
 
 ## Procedure
 
-1.  Follow the [Third party token workflow for user accounts](third-party-token-worflow-for-user-accounts.md) to create a user account.
+1.  Follow the [Third party token workflow for user accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/third-party-token-worflow-for-user-accounts.md) to create a user account.
 
 2.  Create a `sys-user` account in ServiceNow to represent your service account identity.
 

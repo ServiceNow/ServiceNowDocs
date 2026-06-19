@@ -2,6 +2,7 @@
 title: Migrate customized Translator Configurations to v3 flows
 description: Implement the contract with subflows using complex objects in the input and output fields for dynamic translation of text.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/migrate-v3-dynamic-translation.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -21,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** With the Xanadu Patch 3 release, default Translator Configurations are automatically updated to v4 flows. For more information, see [Migrate customized Translator Configurations to v4 flows](migrate-v4-dynamic-translation.md).
+**Important:** With the Xanadu Patch 3 release, default Translator Configurations are automatically updated to v4 flows. For more information, see [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
 
 The previous v3 flows are still supported as follows. However, Exclusion Framework functionality may not be available with v3.
 
@@ -32,7 +33,7 @@ You need to manually migrate to version v3 for the following translator configur
 -   Translator configurations that are available by default but customized from New York onwards.
 -   Custom translator configurations that you added to integrate with a third-party translation service provider.
 
-For a translator configuration that you added to integrate with a translation service provider of your choice, implement Integration Hub subflows with complex objects in the input and output fields. These subflows are required to interact with the translation service provider for language detection and translation. For information on this implemention, see [Integrate with a translation service provider](integrate-translation-service-provider.md).
+For a translator configuration that you added to integrate with a translation service provider of your choice, implement Integration Hub subflows with complex objects in the input and output fields. These subflows are required to interact with the translation service provider for language detection and translation. For information on this implemention, see [Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integrate-translation-service-provider.md).
 
 ## Procedure
 
@@ -106,5 +107,5 @@ Marks the translator as the default configuration to detect language of the inpu
 </table>4.  Select **Update**.
 
 
-**Parent Topic:**[Integration with other translation services](../concept/integration-with-other-translation-services.md)
+**Parent Topic:**[Integration with other translation services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/integration-with-other-translation-services.md)
 

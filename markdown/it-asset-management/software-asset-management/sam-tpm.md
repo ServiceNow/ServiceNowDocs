@@ -2,6 +2,7 @@
 title: Use Software Asset Management and Application Portfolio Management to manage technology onboarding
 description: Use the Software Asset Management application along with Technology Reference Model \(TRM\) of Application Portfolio Management to manage onboarding of technologies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/sam-tpm.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -15,11 +16,11 @@ breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT 
 
 Use the Software Asset Management application along with Technology Reference Model \(TRM\) of Application Portfolio Management to manage onboarding of technologies.
 
-TRM is a list of software products with information on their approval of use. Each product is associated with a set of lifecycle phases with a start and end date. The TRM library is maintained by the enterprise architect and used by application owners. For detailed information on TRM, see .
+TRM is a list of software products with information on their approval of use. Each product is associated with a set of lifecycle phases with a start and end date. The TRM library is maintained by the enterprise architect and used by application owners.
 
 The Software Asset Management application gives visibility into the TRM lifecycle phases for all products associated with software models. When a software model is created and associated with a product that is approved for use in TRM, the **Certified** check box in the software model form is selected by default. All software models associated with that product are then available for use.
 
-![Software model from](../image/sam-tpm.png)
+\[Omitted image "sam-tpm.png"\] Alt text: Software model from
 
 If the same product in TRM is later marked as unapproved, the existing software models associated with that product don't reflect that change. However, when you open the existing software models, a banner appears stating `This software is not approved for use in the Technology Reference Model (TRM). To be in sync with the TRM, set the Certified flag to FALSE.`.
 
@@ -37,5 +38,5 @@ On September 18, 2022, release 14.5 of PostgreSQL gets approved for use in TRM. 
 
 If you create another software model SW2, on September 19, 2022, and associate it with PostgreSQL, the **Certified** check box is set to true and the **Restricted software** check box is set to false in the SW2 form.
 
-**Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
+**Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

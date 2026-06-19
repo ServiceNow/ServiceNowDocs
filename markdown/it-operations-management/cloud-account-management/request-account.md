@@ -2,6 +2,7 @@
 title: Request a cloud account
 description: Request a cloud account as a requester. A notification email is sent when the requester creates an account request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/request-account.html
 release: australia
 product: Cloud Account Management
 classification: cloud-account-management
@@ -29,9 +30,9 @@ Role required: sn\_itom\_cam.cw\_requester
 
 3.  On the Request new cloud account form, fill in the fields.
 
-    For a description of the field values, see [New cloud account request fields](../reference/account-creation-details.md).
+    For a description of the field values, see [New cloud account request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/account-creation-details.md).
 
-    **Note:** To create your custom catalog, see [Configure a custom catalog ID in Cloud Account Management account request](configuring-catalog-ids-in-cam-account-request.md).
+    **Note:** To create your custom catalog, see [Configure a custom catalog ID in Cloud Account Management account request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-account-management/configuring-catalog-ids-in-cam-account-request.md).
 
 4.  Select **Submit**.
 

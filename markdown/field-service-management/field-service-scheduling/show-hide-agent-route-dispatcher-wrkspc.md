@@ -2,6 +2,7 @@
 title: Show and optimize the agent task route in Dispatcher Workspace
 description: View agent records, agent schedules, and view or optimize the scheduled task route of an agent for that day. You can help them manage their schedules and tasks more efficiently.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/show-hide-agent-route-dispatcher-wrkspc.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -19,7 +20,7 @@ View agent records, agent schedules, and view or optimize the scheduled task rou
 
 You must enable the sn\_fsm\_disp\_wrkspc.sn\_fsm.dispatch\_ws\_map.route\_enabled system property to display the Route icon in your dispatcher workspace.
 
-You must select the work.management.optimization.conflict\_handling system property to avoid conflicts due to overflow tasks when optimizing the route. For more information, see [Properties installed with Field Service Management](../../planning-and-policy/reference/r_PropInstallWFieldServMgmnt.md).
+You must select the work.management.optimization.conflict\_handling system property to avoid conflicts due to overflow tasks when optimizing the route. For more information, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md).
 
 Role required: wm\_dispatcher and wm\_manager
 
@@ -36,7 +37,7 @@ You can also optimize the task route for an agent to reorder the tasks as effici
 
 **Note:**
 
-If your organization uses schedule attribute plans with territories and your agents have a temporary home location set, then the temporary home location shows for the duration on the map in Dispatcher Workspace. For more information, see [Change schedule attributes for agents](change-agent-start-end-location.md).
+If your organization uses schedule attribute plans with territories and your agents have a temporary home location set, then the temporary home location shows for the duration on the map in Dispatcher Workspace. For more information, see [Change schedule attributes for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-manager-workforce/change-agent-start-end-location.md).
 
 ## Procedure
 
@@ -46,7 +47,7 @@ If your organization uses schedule attribute plans with territories and your age
 
 3.  Search for a field service agent whose route you want to view.
 
-    For more information, see [Search for appropriate Field Service agents](search-agents-tasks.md).
+    For more information, see [Search for appropriate Field Service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/search-agents-tasks.md).
 
 4.  Select **Map** or **Hybrid** from the **Schedule** drop-down list.
 

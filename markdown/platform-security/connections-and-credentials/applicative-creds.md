@@ -2,6 +2,7 @@
 title: Applicative credentials
 description: Some applications require credentials in addition to the credentials the that host machine requires. Credentials required to access these applications are referred to as applicative credentials.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/connections-and-credentials/applicative-creds.html
 release: australia
 product: Connections and Credentials
 classification: connections-and-credentials

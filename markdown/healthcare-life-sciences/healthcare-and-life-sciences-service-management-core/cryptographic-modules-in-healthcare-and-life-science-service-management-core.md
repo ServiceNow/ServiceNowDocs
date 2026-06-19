@@ -2,6 +2,7 @@
 title: Cryptographic Modules in Healthcare and Life Science Service Management Core
 description: Healthcare and Life Sciences Service Management Core contains the following cryptographic modules.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/cryptographic-modules-in-healthcare-and-life-science-service-management-core.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -365,5 +366,5 @@ Cryptographic module: vm\_crypto\_module AES-256.
 |Vaccine crypto user|Role|sn\_vaccine\_sm.user|
 |Vaccine crypto system access|System Access| |
 
-**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](hcls-serv-mgmt-core-reference.md)
+**Parent Topic:**[Healthcare and Life Sciences Service Management Core reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-serv-mgmt-core-reference.md)
 

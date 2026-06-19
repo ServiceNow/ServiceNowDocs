@@ -2,6 +2,7 @@
 title: Fill and sign a PDF document
 description: Complete your document task by filling in the required details and submitting the PDF document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/fill-sign-document.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -50,8 +51,8 @@ Complete your document task by filling in the required details and submitting th
 
     The task is complete and appears in your Completed To Dos section. You can view and print the document with the submitted details.
 
-    ![Fillable PDf document](../image/fill-sign-document1.png "Example of a fillable PDF document") ![Fillable document](../image/fill-sign-document2.png "Example of a fillable PDF document")
+    \[Omitted image "fill-sign-document1.png"\] Alt text: Fillable PDf document \[Omitted image "fill-sign-document2.png"\] Alt text: Fillable document
 
 
-**Parent Topic:**[Working on a document task](work-doctemp-tasks.md)
+**Parent Topic:**[Working on a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/work-doctemp-tasks.md)
 

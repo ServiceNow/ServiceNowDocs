@@ -2,6 +2,7 @@
 title: Update a record in the template
 description: Modify rows in the template to update existing records.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/easy-import/t\_UpdateARecordInTheTemplate.html
 release: australia
 product: Easy Import
 classification: easy-import
@@ -23,7 +24,7 @@ Role required: admin.
 
 ## About this task
 
-![](../image/EasyImportUpdateTemplate.png "Easy import update template")
+\[Omitted image "EasyImportUpdateTemplate.png"\] Alt text:
 
 ## Procedure
 
@@ -47,5 +48,5 @@ Role required: admin.
     |Any non-blank value|Blank value|Invalid update: the update preserves the existing non-blank value.|
 
 
-**Parent Topic:**[Easy import](../concept/c_EasyImport.md)
+**Parent Topic:**[Easy import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/easy-import/c_EasyImport.md)
 

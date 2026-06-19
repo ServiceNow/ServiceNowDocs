@@ -2,12 +2,14 @@
 title: Proactive cases
 description: Proactively notifies consumer users of case alerts and enables real-time collaboration with providers without any additional configuration in connected consumer instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-proactive-case.html
 release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-13"
 reading_time_minutes: 1
+keywords: [proactive cases, alert monitoring, case notification, consumer notification]
 breadcrumb: [Explore, Service Exchange]
 ---
 
@@ -26,5 +28,5 @@ The process is as follows:
 3.  An automatic Customer Service Management notification is sent to the primary customer contact, and a link to the provider task is also included.
 4.  Any state changes or additional comments that are added to the case record in the provider's instance appear in the customer's instance. The status change in the case triggers creation of a case on the provider's instance.
 
-For more information about the Service Exchange synchronization for resolving cases, see [Fulfill a consumer request](service-bridge-v2-proactive-customer-care-csp.md).
+For more information about the Service Exchange synchronization for resolving cases, see [Fulfill a consumer request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-proactive-customer-care-csp.md).
 

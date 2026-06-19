@@ -2,6 +2,7 @@
 title: Close a release
 description: Complete a release after all tasks have been completed and all phases are in compliance with the mapped policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/dpr-complete-release.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -29,7 +30,7 @@ Role required: sn\_dpr\_model.release\_admin
 
 1.  Navigate to **Workspaces** &gt; **Digital Product Release Workspace**.
 
-2.  Select the releases icon \(![Releases icon.](../image/dpr-icon-release.png)\).
+2.  Select the releases icon \(\[Omitted image "dpr-icon-release.png"\] Alt text: Releases icon.\).
 
 3.  Select a release from the list to open.
 
@@ -44,5 +45,5 @@ Role required: sn\_dpr\_model.release\_admin
 
 The release is closed and its state is updated to Completed.
 
-**Parent Topic:**[Manage releases for digital products and services](dpr-manage-releases.md)
+**Parent Topic:**[Manage releases for digital products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-manage-releases.md)
 

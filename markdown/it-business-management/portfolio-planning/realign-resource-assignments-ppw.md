@@ -2,6 +2,7 @@
 title: Realign resource assignments for demands
 description: Planning and execution of your roadmap involves change in priority or timelines of your work. In such cases, you can adjust the resource assignment dates to match with the latest dates of your demands.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/realign-resource-assignments-ppw.html
 release: australia
 product: Portfolio Planning
 classification: portfolio-planning
@@ -17,7 +18,7 @@ Planning and execution of your roadmap involves change in priority or timelines 
 
 ## Before you begin
 
-[Migrate resource plans to resource assignments](../../resource-management/task/migrate-rsrc-plan-rsrc-asgnmnt.md)
+[Migrate resource plans to resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)
 
 Role required: it\_demand\_manager
 
@@ -25,7 +26,7 @@ Role required: it\_demand\_manager
 
 1.  Open a demand from the home page of Next Experience for Demand Management.
 
-    For more information, see [Access demands](access-demands-ppw.md).
+    For more information, see [Access demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/portfolio-planning/access-demands-ppw.md).
 
 2.  Select **Details** from the L-2 \(level 2\) navigation menu.
 

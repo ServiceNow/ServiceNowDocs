@@ -2,6 +2,7 @@
 title: Release readiness target form
 description: Release admins can create release readiness targets on a release calendar to define the dates by which the releases must be ready for deployment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-product-release/create-release-readiness-target-form.html
 release: australia
 product: Digital Product Release
 classification: digital-product-release
@@ -17,7 +18,7 @@ Release admins can create release readiness targets on a release calendar to def
 
 **Note:** Release readiness target and Release target are used interchangeably. Both terms refer to the same concept - release readiness target date.
 
-For more information, see [Create a release readiness target](../task/dpr-create-rls-readiness-target.md).
+For more information, see [Create a release readiness target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-create-rls-readiness-target.md).
 
 <table id="table_wdl_bcc_lyb"><thead><tr><th>
 
@@ -80,5 +81,5 @@ Schedules excluded from target
 Schedules when the release readiness targets are excluded from creation that overlaps with blackout, maintenance, or other schedules.These schedules are auto-populated from the selected calendar.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Product Release reference](../concept/dpr-reference.md)
+</table>**Parent Topic:**[Digital Product Release reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/digital-product-release/dpr-reference.md)
 

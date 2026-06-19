@@ -2,6 +2,7 @@
 title: Multi Provider Document Services Framework Framework roles
 description: Multi Provider Document Services Framework Framework is installed with these roles.Configure multi provider, remote document action, and corresponding subflows.Create, update, and delete documents managed for providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/multi-provider-roles.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -15,9 +16,9 @@ breadcrumb: [Reference Multi Provider Document Services framework, Multi Provide
 
 Multi Provider Document Services Framework Framework is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
-**Parent Topic:**[Reference Multi Provider Document Services framework](reference-mp-doc-framework.md)
+**Parent Topic:**[Reference Multi Provider Document Services framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/reference-mp-doc-framework.md)
 
 ## Administrator \[mp\_document\_admin\]
 

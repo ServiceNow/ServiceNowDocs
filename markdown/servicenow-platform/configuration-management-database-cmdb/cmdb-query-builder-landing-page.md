@@ -2,6 +2,7 @@
 title: CMDB Query Builder
 description: The CMDB Query Builder enables you to build complex infrastructure and service queries that span multiple CMDB classes, non-CMDB tables, and that involve many CIs that are connected by different relationships.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-landing-page.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -19,39 +20,39 @@ The CMDB Query Builder enables you to build complex infrastructure and service q
 
 <table id="table_msx_fnh_j1c" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Build complex infrastructure and service queries.](querying-cmdb.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Build complex infrastructure and service queries.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Configure settings and properties](query-builder-configuring.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Configure settings and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/query-builder-configuring.md)
 
 </td><td>
 
-[Build a CMDB query![](../../../reuse/icons/brand-icons/bus-manage.svg)Construct the classes, and the relationships and references that connect them, to query on.](../task/use-cmdb-query-builder.md)
+[Build a CMDB query\[Omitted image "bus-manage.svg"\] Alt text:Construct the classes, and the relationships and references that connect them, to query on.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/use-cmdb-query-builder.md)
 
 </td></tr><tr><td>
 
-[Build a Service Mapping query![](../../../reuse/icons/brand-icons/bus-it-leader.svg)Construct the pattern of classes and their relationships to query Service Mapping services on.](../task/build-service-mapping-query.md)
+[Build a Service Mapping query\[Omitted image "bus-it-leader.svg"\] Alt text:Construct the pattern of classes and their relationships to query Service Mapping services on.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/build-service-mapping-query.md)
 
 </td><td>
 
-[Run a partial query![](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg)Run only a section of a query for a quick validation.](../task/run-partial-cmdb-query.md)
+[Run a partial query\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Run only a section of a query for a quick validation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/run-partial-cmdb-query.md)
 
 </td><td>
 
-[Schedule a query![](../../../reuse/icons/brand-icons/bus-calendar.svg)Schedule a saved query to run once at a scheduled time or on a recurring schedule, and to email the query results to users.](../task/create-cmdb-query-schedule.md)
+[Schedule a query\[Omitted image "bus-calendar.svg"\] Alt text:Schedule a saved query to run once at a scheduled time or on a recurring schedule, and to email the query results to users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.md)
 
 </td></tr><tr><td>
 
-[Create a report![](../../../reuse/icons/brand-icons/bus-management-console.svg)Create a basic report, or a dynamic report that continuously updates with the latest query results and add it to Performance Analytics dashboards.](create-query-results-report.md)
+[Create a report\[Omitted image "bus-management-console.svg"\] Alt text:Create a basic report, or a dynamic report that continuously updates with the latest query results and add it to Performance Analytics dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/create-query-results-report.md)
 
 </td><td>
 
-[Export or import queries![](../../../reuse/icons/brand-icons/bus-workflow.svg)Export and then import and run a saved query definition between instances, such as between a development and a production environment.](../task/export-import-query.md)
+[Export or import queries\[Omitted image "bus-workflow.svg"\] Alt text:Export and then import and run a saved query definition between instances, such as between a development and a production environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/export-import-query.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Reference topics provide example queries and descriptions of navigation and property settings.](query-builder-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference topics provide example queries and descriptions of navigation and property settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/query-builder-reference.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

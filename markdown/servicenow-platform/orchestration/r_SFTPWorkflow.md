@@ -2,6 +2,7 @@
 title: SFTP File Transfer workflow
 description: The SFTP File Transfer activity pack includes a scoped workflow that uses multiple activities to manage files on SFTP servers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_SFTPWorkflow.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -355,7 +356,7 @@ Credential tag for source
 
 </td><td>
 
-Specific [Credential aliases for Orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/c_AssignCredsOrchActivities.md) this activity must use to run SSH commands on the source host.
+Specific Credential aliases for Orchestration activities this activity must use to run SSH commands on the source host.
 
 </td><td>
 
@@ -385,5 +386,5 @@ When selecting the files to move from the source host, the system uses this logi
     -   If the **Exclude files** field contains file names, the system moves all the files from the source directory and its subfolders except those excluded files.
 -   When the **Include subfolders** check box is cleared, the system looks only in the source directory for files to move or exclude.
 
-**Parent Topic:**[SFTP File Transfer activity pack](../concept/c_OrchestrationSFTPActivityPack.md)
+**Parent Topic:**[SFTP File Transfer activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md)
 

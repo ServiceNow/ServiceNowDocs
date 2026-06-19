@@ -2,6 +2,7 @@
 title: Usage Insights dashboard
 description: The Usage Insights dashboard helps get a consolidated view of the feedback data. It provides a quick view of all types of feedback data in the Usage Insights dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ued-ec.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation

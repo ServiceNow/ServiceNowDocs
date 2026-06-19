@@ -2,6 +2,7 @@
 title: Install Financial Services Payment Operations
 description: Install the Financial Services Payment Operations \(sn\_bom\_payment\) application if you have the admin role. This application includes demo data and installs the related store applications and plugins if they are not already installed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-payment-operations/install-financial-services-payment-operations.html
 release: australia
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
@@ -32,7 +33,7 @@ The following items are installed with the installation of the Financial Service
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Financial Services Payment Operations](../reference/installed-with-payment-operations.md).
+For more information, see [Components installed with Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services-payment-operations/installed-with-payment-operations.md).
 
 **Note:** To enable customers to submit requests through the Consumer Service Portal, you should also activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 
@@ -44,7 +45,7 @@ For more information, see [Components installed with Financial Services Payment 
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -62,5 +63,5 @@ For more information, see [Components installed with Financial Services Payment 
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

@@ -2,6 +2,7 @@
 title: Create versions and branches in Git
 description: App developers using App Engine Studio \(AES\) can create versions and branches in their Git repositories.Create a tag in the repository to link to a particular app version in App Engine Studio \(AES\).Application developers can switch to a different repository branch to work on another version of the application using App Engine Studio \(AES\).Application developers can create a branch to work on a new version of an existing app in App Engine Studio \(AES\).Set a default branch when you want to use a branch other than main for new changes or for your main App Engine Studio \(AES\) development repository.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/create-versions-branches-git.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
@@ -15,7 +16,7 @@ breadcrumb: [Use AES with a Git source control repository, Build, App Engine Stu
 
 App developers using App Engine Studio \(AES\) can create versions and branches in their Git repositories.
 
-**Parent Topic:**[Use AES with a Git source control repository](aes-source-control-use.md)
+**Parent Topic:**[Use AES with a Git source control repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-source-control-use.md)
 
 ## Create a tag to link to a particular application version
 
@@ -24,7 +25,7 @@ Create a tag in the repository to link to a particular app version in App Engine
 ### Before you begin
 
 -   Role required: admin or sn\_group\_creator.app\_creator
--   [Link an application or application-customization to source control](../task/source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md)
 
 ### Procedure
 
@@ -34,7 +35,7 @@ Create a tag in the repository to link to a particular app version in App Engine
 
 3.  Select **Source control** &gt; **Create tag**.
 
-    App Engine Studio opens the Create Branch window.![Create tag window](../image/source-control-create-tag-purple.png)
+    App Engine Studio opens the Create Branch window.\[Omitted image "source-control-create-tag-purple.png"\] Alt text: Create tag window
 
 4.  Enter the **Tag Name**.
 
@@ -66,7 +67,7 @@ Application developers can switch to a different repository branch to work on an
 
 3.  Select **Source control** &gt; **Switch branch**.
 
-    ![Switch branch menu item](../image/source-control-switch-branch-purple.png)
+    \[Omitted image "source-control-switch-branch-purple.png"\] Alt text: Switch branch menu item
 
     The system displays the Switch Branch window.
 
@@ -93,7 +94,7 @@ Application developers can create a branch to work on a new version of an existi
 ### Before you begin
 
 -   Role required: admin or sn\_group\_creator.app\_creator
--   [Link an application or application-customization to source control](../task/source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md)
 
 ### Procedure
 
@@ -105,7 +106,7 @@ Application developers can create a branch to work on a new version of an existi
 
     App Engine Studio opens the Create Branch window.
 
-    ![Create Branch window](../image/source-control-create-branch-name-purple.png)
+    \[Omitted image "source-control-create-branch-name-purple.png"\] Alt text: Create Branch window
 
 4.  Enter the **Branch Name**.
 
@@ -115,7 +116,7 @@ Application developers can create a branch to work on a new version of an existi
 
     App Engine Studio creates the branch.
 
-    ![Create Branch window showing the success message.](../image/source-control-create-branch-done-purple.png)
+    \[Omitted image "source-control-create-branch-done-purple.png"\] Alt text: Create Branch window showing the success message.
 
 7.  Select **Close**.
 
@@ -131,11 +132,11 @@ Set a default branch when you want to use a branch other than main for new chang
 ### Before you begin
 
 -   Role required: admin
--   [Link an application or application-customization to source control](../task/source-control-link-application.md)
+-   [Link an application or application-customization to source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/source-control-link-application.md)
 
 ### Procedure
 
-1.  Follow the steps to [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md).
+1.  Follow the steps to .
 
 2.  Add the **glide.source\_control.default\_branch\_name** property, and specify the default branch name of the Git source control repository to work from \(pull requests, code commits, etc.\).
 

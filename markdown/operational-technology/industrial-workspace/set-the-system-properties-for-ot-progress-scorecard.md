@@ -2,6 +2,7 @@
 title: Set the system properties for the Operational Technology Progress Scorecard
 description: Set the system properties for the Operational Technology \(OT\) Progress Scorecard so that you can enable the properties as needed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/industrial-workspace/set-the-system-properties-for-ot-progress-scorecard.html
 release: australia
 product: Industrial Workspace
 classification: industrial-workspace
@@ -81,5 +82,5 @@ A color to represent the high threshold in the OT Progress Scorecard.
 </table>3.  Select **Save**.
 
 
-**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](../concept/setting-up-the-ot-progress-scorecard.md)
+**Parent Topic:**[Setting up the Operational Technology Progress Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/industrial-workspace/setting-up-the-ot-progress-scorecard.md)
 

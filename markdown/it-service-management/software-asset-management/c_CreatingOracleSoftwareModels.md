@@ -2,6 +2,7 @@
 title: Software models for the legacy Oracle Process Pack
 description: In order to count Oracle software licenses, you must create software models for your Oracle software.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/c\_CreatingOracleSoftwareModels.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -15,7 +16,7 @@ breadcrumb: [Legacy Oracle process pack, Legacy Software Asset Management plugin
 
 In order to count Oracle software licenses, you must create software models for your Oracle software.
 
-For more information, see [Manage software models](../task/t_ManagingSoftwareModels.md).
+For more information, see [Manage software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_ManagingSoftwareModels.md).
 
-**Parent Topic:**[Legacy Oracle process pack](c_OracleProcessPack.md)
+**Parent Topic:**[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/c_OracleProcessPack.md)
 

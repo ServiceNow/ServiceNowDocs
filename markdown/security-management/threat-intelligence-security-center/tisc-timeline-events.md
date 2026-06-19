@@ -2,6 +2,7 @@
 title: Using Timeline in Investigation Canvas
 description: The Timeline feature of the Investigation Canvas within the Threat Intelligence Security Center \(TISC\) empowers analysts to visualize, create, and edit timeline events associated to entities during investigations. This capability significantly enhances the effectiveness of temporal analysis.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-timeline-events.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -41,11 +42,11 @@ Role required: sn\_sec\_tisc.analyst
 
 7.  Go to **Investigation Canvas** section on the selected canvas record.
 
-8.  Select the **Show Timeline** ![Show timeline](../image/tisc-timeline-toggle-icon.png) toggle icon to display the timeline section.
+8.  Select the **Show Timeline** \[Omitted image "tisc-timeline-toggle-icon.png"\] Alt text: Show timeline toggle icon to display the timeline section.
 
     The timeline section is hidden and you must make sure to select the **Show Timeline** option.
 
-    ![Show timeline toggle on the investigation canvas](../image/tisc-show-timeline-section.png "View Timeline icon on the investigation canvas")
+    \[Omitted image "tisc-show-timeline-section.png"\] Alt text: Show timeline toggle on the investigation canvas
 
     The following screen shot illustrates the timeline components on the investigation canvas:
 
@@ -65,7 +66,7 @@ Role required: sn\_sec\_tisc.analyst
     |12|Start Date|The start date and time that the event was opened for a case.|
     |13|End Date|The end date and time that the event is closed. The time is shown by the number of minutes and hours.|
 
-    ![Timeline events](../image/tisc-timeline-events.png)
+    \[Omitted image "tisc-timeline-events.png"\] Alt text: Timeline events
 
 9.  Select the **Start Date** and **End Date**.
 
@@ -77,15 +78,15 @@ Role required: sn\_sec\_tisc.analyst
 
     From the Canvas perspective, each node can have multiple events. Select the node and right click on the node to either choose **Show Details** or **Open Record**, the application displays the form view of that record.
 
-    ![Canvas Show node details](../image/tisc-show-details-canvas.png)
+    \[Omitted image "tisc-show-details-canvas.png"\] Alt text: Canvas Show node details
 
     In addition, within the form, navigate to the **Related Records** section where an entry called **Timeline Events** has been added. This provides a detailed view of all the timeline events associated with that particular node, linking the canvas visualization.
 
-    ![Related Records - Timeline events](../image/tisc-timeline-related-records.png)
+    \[Omitted image "tisc-timeline-related-records.png"\] Alt text: Related Records - Timeline events
 
     Within the **Timeline Events** section, you can see the events associated with the selected node. Using this section, you have the option to **Add** or **Remove** an event from the node.
 
-    ![Canvas - Adding timeline events to the related records](../image/tisc-add-timeline-library-record.png)
+    \[Omitted image "tisc-add-timeline-library-record.png"\] Alt text: Canvas - Adding timeline events to the related records
 
     This functionality provides direct control over which events are linked to a node and by complementing the visualization on the Canvas.
 
@@ -99,8 +100,8 @@ Role required: sn\_sec\_tisc.analyst
     -   These default events are not driven by configuration and they appear automatically based on the values populated in the observables record.
     -   If **First Seen** and **Last Seen** contain values, then the corresponding events are displayed on the Canvas without any additional setup.
 
--   **[Adding Timeline Events to the Canvas](tisc-add-timeline-events.md)**  
+-   **[Adding Timeline Events to the Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-add-timeline-events.md)**  
 Add timeline events to the investigation canvas by adding the related entities to the canvas.
 
-**Parent Topic:**[Working with Investigation Canvas](../concept/tisc-investigation-canvases.md)
+**Parent Topic:**[Working with Investigation Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-investigation-canvases.md)
 

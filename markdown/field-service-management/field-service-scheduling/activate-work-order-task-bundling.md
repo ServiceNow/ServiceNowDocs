@@ -2,6 +2,7 @@
 title: Activate Field Service Task Bundling
 description: Activate the Task Bundling plugin \(com.snc.fsm\_task\_bundle\) for Field Service Management if you have the admin role.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/activate-work-order-task-bundling.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -35,6 +36,6 @@ The ability to bundle work order tasks in Dispatcher Workspace is installed with
 
     **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
-    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
+    You will see a message after installation is completed. For information about the components installed with a plugin, see Find components installed with an application.
 
 

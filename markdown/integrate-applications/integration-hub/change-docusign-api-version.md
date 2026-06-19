@@ -2,6 +2,7 @@
 title: Change the Docusign API version
 description: By default, the Docusign spoke sends REST API requests to Docusign API v2. For forward compatibility and to take advantage of Docusign's newer API, you can update a connection attribute to send API requests to Docusign API v2.1.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/change-docusign-api-version.html
 release: australia
 product: Integration Hub
 classification: integration-hub

@@ -2,6 +2,7 @@
 title: Enable monetary benefit plans for planning items
 description: Enable the benefit plans property to create and manage benefit plans for planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

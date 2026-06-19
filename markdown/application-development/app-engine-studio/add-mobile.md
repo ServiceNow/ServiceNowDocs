@@ -2,11 +2,12 @@
 title: Add a mobile experience
 description: Add a mobile experience, or interface, to enable users to access your application from a ServiceNow native mobile app.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/app-engine-studio/add-mobile.html
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-11"
 reading_time_minutes: 3
 breadcrumb: [Add an experience, Enhance your app, Build, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
@@ -17,7 +18,7 @@ Add a mobile experience, or interface, to enable users to access your applicatio
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](../concept/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -39,7 +40,7 @@ Use Mobile App Builder to build and manage screens and records that make up work
 
     -   Mobile Agent
     -   Now Mobile
-    For more information about the mobile experience options and important considerations when choosing a mobile experience, see [Design considerations for mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-design-consideration.md).
+    For more information about the mobile experience options and important considerations when choosing a mobile experience, see .
 
 6.  On the form, fill in the fields.
 
@@ -121,7 +122,7 @@ Screen that displays an existing webpage, which you specify the URL for in the n
 
     2.  To make the table conditional, select **Set conditions for this table** and define the conditions that must be met for the data to appear using the condition builder.
 
-        For more information, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_ConditionBuilder.md).
+        For more information, see .
 
     3.  Select **Continue**.
 
@@ -150,23 +151,23 @@ Screen that displays an existing webpage, which you specify the URL for in the n
 
     After you create the mobile experience in AES, you must edit it in Mobile App Builder.
 
-13. Next to the mobile experience you created, select the menu icon \(![Menu icon](../image/menu-icon-purple.png)\) and then select **Edit**.
+13. Next to the mobile experience you created, select the menu icon \(\[Omitted image "menu-icon-purple.png"\] Alt text: Menu icon\) and then select **Edit**.
 
 14. Edit the mobile experience in Mobile App Builder.
 
-    For more information, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
+    For more information, see .
 
 
 ## What to do next
 
 Scan or copy the QR code for your mobile experience using the **Select app** and **Select platform** fields.
 
-![Scan QR code for the mobile experience.](../image/mobile-experience-qr-code.jpg)
+\[Omitted image "mobile-experience-qr-code.jpg"\] Alt text: Scan QR code for the mobile experience.
 
-For more information on modifying mobile experiences, see [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mab-concept.md).
+For more information on modifying mobile experiences, see .
 
--   **[Sample mobile experience](../concept/mobile-experiences-examples.md)**  
+-   **[Sample mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/mobile-experiences-examples.md)**  
 A mobile experience enables users to access your application from a ServiceNow native mobile app.
 
-**Parent Topic:**[Add an application experience](../concept/add-experience.md)
+**Parent Topic:**[Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-engine-studio/add-experience.md)
 

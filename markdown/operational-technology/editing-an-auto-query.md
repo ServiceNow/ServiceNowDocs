@@ -2,11 +2,14 @@
 title: Edit an Auto Query
 description: Edit an Auto Query to change or add parameters to your scan.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/editing-an-auto-query.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Auto Query page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit an Auto Query
@@ -31,7 +34,7 @@ Role required: admin
 
 5.  In the Confirmation section, set the schedule, recursion, and duration.
 
-    ![Editing Auto Query](../images/editing-an-auto-query.png)
+    \[Omitted image "editing-an-auto-query.png"\] Alt text: Editing Auto Query
 
 6.  Select **Save** to save your changes or select **Cancel** to discard your changes
 

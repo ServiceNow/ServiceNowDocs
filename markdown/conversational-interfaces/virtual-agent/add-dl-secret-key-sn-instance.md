@@ -2,6 +2,7 @@
 title: Add the Direct Line secret key to your Virtual Agent Bot Interconnect instance
 description: To use Power Virtual Agents with Virtual Agent Bot Interconnect, you must add the Direct Line security key as a credential in your Bot Interconnect instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/add-dl-secret-key-sn-instance.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ To use Power Virtual Agents with Virtual Agent Bot Interconnect, you must add th
 
 ## Before you begin
 
-[Locate and copy the Direct Line secret key in Microsoft Power Virtual Agents](get-dl-secret-key-mspva.md).
+[Locate and copy the Direct Line secret key in Microsoft Power Virtual Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/get-dl-secret-key-mspva.md).
 
 Role required: admin
 
@@ -124,9 +125,9 @@ The Direct Line key that you copied from Power Virtual Agents in the previous st
 </table>11. Click **Create**.
 
 
-**Parent Topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](../concept/using-va-api-ms-powerva.md)
+**Parent Topic:**[Using Microsoft Power Virtual Agents as a secondary bot with Virtual Agent Bot Interconnect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/using-va-api-ms-powerva.md)
 
-**Previous topic:**[Locate and copy the Direct Line secret key in Microsoft Power Virtual Agents](get-dl-secret-key-mspva.md)
+**Previous topic:**[Locate and copy the Direct Line secret key in Microsoft Power Virtual Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/get-dl-secret-key-mspva.md)
 
-**Next topic:**[Create a Virtual Agent Bot Interconnect shell topic to call Microsoft Power Virtual Agents topics](create-primary-va-topic-ms-pva.md)
+**Next topic:**[Create a Virtual Agent Bot Interconnect shell topic to call Microsoft Power Virtual Agents topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-primary-va-topic-ms-pva.md)
 

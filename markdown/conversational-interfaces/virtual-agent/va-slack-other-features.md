@@ -2,6 +2,7 @@
 title: Virtual Agent features supported in Slack conversations
 description: Virtual Agent features, such as AI Search results, Virtual Agent notifications, and Virtual Agent Designer controls for creating Virtual Agent conversations are supported in Slack bot conversations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-slack-other-features.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -21,11 +22,11 @@ This section highlights key Virtual Agent features that are supported in the Con
 
 ## AI Search results
 
-Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(knowledge base\) and catalog items.
+Virtual Agent can generate AI Search results that are displayed as Genius result cards and multi-link outputs in conversations. For details on how Virtual Agent generates AI Search results, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ai-search.md). The default AI Search configuration for Virtual Agent enables search results for Q&amp;A \(knowledge base\) and catalog items.
 
 ## URL navigation for chat links
 
-In Virtual Agent and Live Agent conversations on the Slack app, links to ServiceNow records open automatically in base system portals—including links displayed in output cards, Virtual Agent notifications, and AI Search results. If needed, admins can change the portals in which these links are opened. For configuration details, see [Configure URL navigation for chat links](../../conversational-interfaces/task/ac-configure-url-navigation.md).
+In Virtual Agent and Live Agent conversations on the Slack app, links to ServiceNow records open automatically in base system portals—including links displayed in output cards, Virtual Agent notifications, and AI Search results. If needed, admins can change the portals in which these links are opened. For configuration details, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-url-navigation.md).
 
 ## Trusted Domains
 
@@ -43,19 +44,19 @@ Translation of responses to the conversation language is done using the function
 
 -   The requested language plugin is absent, but fallback is set and enabled​.
 
-    When the requested language plugin is absent, then the fallback language specified in the \[sys\_language\] table is used for the translation process. However, for the fallback mechanism to work, you must enable the **glide\_i18n.language\_fallback\_enabled** system property. By default, the value of the property is **false**. Set it to **true** to enable the fallback mechanism. For more information, see [Set a fallback language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization/set-fallback-language.md).
+    When the requested language plugin is absent, then the fallback language specified in the \[sys\_language\] table is used for the translation process. However, for the fallback mechanism to work, you must enable the **glide\_i18n.language\_fallback\_enabled** system property. By default, the value of the property is **false**. Set it to **true** to enable the fallback mechanism. For more information, see .
 
 -   The requested language plugin is absent, but fallback is not set/enabled.
 
     When the requested language plugin is absent and fallback is also not set/enabled, the default translation language will be English.
 
 
--   **[Virtual Agent Designer user input and bot response controls in Slack](va-designer-bot-controls-slack.md)**  
+-   **[Virtual Agent Designer user input and bot response controls in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-designer-bot-controls-slack.md)**  
 The Virtual Agent Designer user input controls and bot responses for creating conversation topics are supported in Slack conversations, including the table bot response and the card control that can display images.
--   **[Virtual Agent notifications supported in Slack](va-notif-slack.md)**  
+-   **[Virtual Agent notifications supported in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-notif-slack.md)**  
 Slack app supports Virtual Agent notifications during conversations.
--   **[Unsupported Virtual Agent features in Slack](../reference/limited-slack-features.md)**  
+-   **[Unsupported Virtual Agent features in Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/limited-slack-features.md)**  
 Refer to the unsupported features of Virtual Agent in Conversational Integration with Slack.
 
-**Parent Topic:**[Conversational Integration with Slack](../task/mssg-slack.md)
+**Parent Topic:**[Conversational Integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/mssg-slack.md)
 

@@ -2,6 +2,7 @@
 title: Service Exchange for Consumers data model
 description: The Service Exchange for Consumers data model provides insight into how the tables that are used in the Service Exchange for Consumers application relate to each other.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-datamodel-customers.html
 release: australia
 product: Service Exchange
 classification: service-exchange

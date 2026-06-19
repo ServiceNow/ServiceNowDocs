@@ -2,6 +2,7 @@
 title: Skills summary of your team
 description: Do a deeper analysis of skills of your team. Understand your team's top strengths and areas of growth.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/skill-summary.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -25,13 +26,13 @@ The following details are displayed in the Skills Summary section on the Skills 
 
     Highlights the strong skills in your team and provides the details of the team members who posses those strong skills.
 
-    Selecting the **View all** option provides granular details such as the proficiency levels of the individuals for the strong skills. Managers can also get an understanding of the members who are exceeding the expectations and of those who are meeting expectations for the strong skills.![View top strengths of your team](../image/strengths-skills.png)
+    Selecting the **View all** option provides granular details such as the proficiency levels of the individuals for the strong skills. Managers can also get an understanding of the members who are exceeding the expectations and of those who are meeting expectations for the strong skills.\[Omitted image "strengths-skills.png"\] Alt text: View top strengths of your team
 
 -   **Areas for growth**
 
     Helps you to understand the skills in the team that need attention along with the details of team members who might need upskilling.
 
-    Selecting the **View all** option provides granular details such as the proficiency levels of the individuals for these skills.![View the growth areas of your team](../image/areas-growth.png)
+    Selecting the **View all** option provides granular details such as the proficiency levels of the individuals for these skills.\[Omitted image "areas-growth.png"\] Alt text: View the growth areas of your team
 
     **Note:** Employees must add proficiency levels to their skills. This data helps to compute top strengths and areas of growth.
 

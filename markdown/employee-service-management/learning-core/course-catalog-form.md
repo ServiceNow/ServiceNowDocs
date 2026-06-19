@@ -2,6 +2,7 @@
 title: Learning course catalog form
 description: Use the course catalog form to create a new learning course catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/learning-core/course-catalog-form.html
 release: australia
 product: Learning Core
 classification: learning-core
@@ -28,5 +29,5 @@ Use the course catalog form to create a new learning course catalog.
 |Extension duration \(days\)|Number of days until which any course within the catalog can be extended.|
 |Pending retirement duration \(days\)|Number of days remaining for the course to retire.|
 
-**Parent Topic:**[Learning reference](learning-experience-reference.md)
+**Parent Topic:**[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/learning-core/learning-experience-reference.md)
 

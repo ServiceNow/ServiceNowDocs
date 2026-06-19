@@ -2,6 +2,7 @@
 title: vCenter probes and probe parameters
 description: vCenter probes scan virtual machines using VMware's vSphere product suite. Each probe scans for different kinds of data, such as networks, NICs, and tags. The VMware - vCenter probe that discovered all vCenter objects in previous releases is deprecated in the Istanbul release and replaced by multiple probes.vCenter Discovery extension allows you to collect additional attributes of currently discovered CI types or collect attributes of new CI types by triggering custom probes from an existing sensor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/vcenter-probes.html
 release: australia
 product: Discovery
 classification: discovery
@@ -161,7 +162,7 @@ This probe relies on the statistics intervals configured for the vCenter. By def
  **Important:** To modify the default values for this probe, coordinate with the administrator responsible for the vCenter management. For more information, see [VMware documentation](https://communities.vmware.com/t5/Storage-Performance/vCenter-Performance-Counters/ta-p/2790328).
 
 </td></tr></tbody>
-</table>\*For more information, see [VMware tags](data-collected-vmware-cloud-disco.md#section_v5k_psr_jhb).
+</table>\*For more information, see [VMware tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.md).
 
 Consider the following when setting these parameters:
 
@@ -169,7 +170,7 @@ Consider the following when setting these parameters:
 -   **Page size**: Page size parameters control the number of CIs to discover with a single probe. Use this parameter to limit payload size by reducing the number of vCenter elements discovered at a time by any probe. The page size expressed in parentheses is the default in the base system.
 -   **Debug**: Set the debug parameter in the VMWare - vCenter Datacenters probe to enable debugging for all the vCenter probes. Debugging returns the raw vCenter data in each probe payload.
 
-**Parent Topic:**[List of Discovery probes](r_ListOfDiscoveryProbes.md)
+**Parent Topic:**[List of Discovery probes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/r_ListOfDiscoveryProbes.md)
 
 ## Trigger custom probes with the vCenter Discovery extension
 
@@ -207,6 +208,6 @@ vCenter sensor records support triggering custom probes that use conditional scr
 
     In this example, the VMWare – vCenter Datacenters sensor **parms** are all probe parameters that are supported by the Datacenters probe. The **data** argument is an object containing up to 4 arrays, named **vm**, **datastore**, **network**, and **cluster**.
 
-    ![Conditional Probes Triggered by Sensor record](../image/vCenterConditionalProbes.png "Conditional Probes Triggered by Sensor record")
+    \[Omitted image "vCenterConditionalProbes.png"\] Alt text: Conditional Probes Triggered by Sensor record
 
 

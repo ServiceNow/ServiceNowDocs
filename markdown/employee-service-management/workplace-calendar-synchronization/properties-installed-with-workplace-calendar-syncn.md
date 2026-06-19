@@ -2,13 +2,14 @@
 title: Properties installed with Workplace Calendar Synchronization
 description: Customize the properties available with Workplace Calendar Synchronization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/properties-installed-with-workplace-calendar-syncn.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Workplace Calendar Synchronization references, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Properties installed with Workplace Calendar Synchronization

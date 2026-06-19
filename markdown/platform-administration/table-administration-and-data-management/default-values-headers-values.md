@@ -2,6 +2,7 @@
 title: Default values for column headers and column values
 description: Default values are used for column headers and column values, unless overridden by query parameters, Export Set fields, or system properties.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/table-administration-and-data-management/default-values-headers-values.html
 release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
@@ -25,5 +26,5 @@ The following table describes the default values used if you do not use query pa
 |XLSX|**Use field label**|**Use display value**|
 |XML|N/A|**Use raw value**|
 
-**Parent Topic:**[Data export reference](data-export-reference.md)
+**Parent Topic:**[Data export reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/table-administration-and-data-management/data-export-reference.md)
 

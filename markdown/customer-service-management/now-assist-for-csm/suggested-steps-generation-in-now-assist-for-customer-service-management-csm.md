@@ -2,11 +2,12 @@
 title: Suggested steps generation in Now Assist for Customer Service Management \(CSM\)
 description: Generate suggested steps automatically by analyzing clusters of closed cases with similar case resolution in the Now Assist for Customer Service Management \(CSM\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/suggested-steps-generation-in-now-assist-for-customer-service-management-csm.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, Now Assist for CSM, Customer Service Management]
@@ -30,7 +31,7 @@ If suggested steps are available for a case, Now Assist for CSM generates and di
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Using the List icon ![icon for seeing the list of cases](../../../common/image/List_MenuIcon.png), open a case that is not in **Closed** or **Complete** state.
+2.  Using the List icon \[Omitted image "List\_MenuIcon.png"\] Alt text: icon for seeing the list of cases, open a case that is not in **Closed** or **Complete** state.
 
 3.  Select the Recommendations icon in the contextual side panel to display the Recommended Actions tab.
 
@@ -40,7 +41,7 @@ If suggested steps are available for a case, Now Assist for CSM generates and di
 
     The steps to resolve the case appears in the **Recommendations** window in the case record. This action may take a few minutes.
 
-    ![Suggested steps by Now Assist to resolve the issue](../image/suggested-steps.png "Suggested steps by Now Assist")
+    \[Omitted image "suggested-steps.png"\] Alt text: Suggested steps by Now Assist to resolve the issue
 
     **Note:**
 
@@ -53,5 +54,5 @@ If suggested steps are available for a case, Now Assist for CSM generates and di
     These visual updates help users clearly identify AI‑generated experiences, creating a more consistent and intuitive interface.
 
 
-**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](../concept/now-assist-csm-using.md)
+**Parent Topic:**[Using Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

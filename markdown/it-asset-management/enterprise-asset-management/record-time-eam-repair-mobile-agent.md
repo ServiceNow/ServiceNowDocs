@@ -2,6 +2,7 @@
 title: Record time worked on an enterprise asset repair task manually using the Mobile Agent application
 description: Record time worked on an enterprise asset repair task manually and provide any additional comments on the task using the Mobile Agent application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/record-time-eam-repair-mobile-agent.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
@@ -33,8 +34,8 @@ Role required: asset\_technician
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon ![](../image/filter-mobile-task-eam.png), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text: and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:, tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the repair task record for which you want to record time.
 
 6.  On the **Details** tab, tap **Record time**.
@@ -52,5 +53,5 @@ Role required: asset\_technician
 
 The Record time form is saved and the time card is added to the Time worked section of the Related tab.
 
-**Parent Topic:**[Record time worked on an enterprise asset repair task using the Mobile Agent application](../concept/record-time-worked-repair-task-mobile-agent-eam.md)
+**Parent Topic:**[Record time worked on an enterprise asset repair task using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/record-time-worked-repair-task-mobile-agent-eam.md)
 

@@ -2,6 +2,7 @@
 title: Edit an existing check
 description: By editing the definition check, you can change description and script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/edit-an-existing-check.html
 release: australia
 product: Discovery
 classification: discovery

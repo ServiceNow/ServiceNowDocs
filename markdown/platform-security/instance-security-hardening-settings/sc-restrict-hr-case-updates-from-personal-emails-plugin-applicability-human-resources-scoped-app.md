@@ -2,6 +2,7 @@
 title: Restrict HR case updates from personal emails
 description: Use the sn\_hr\_core.restrict\_guest\_email property to control whether a user can respond back to a HR case with their personal email.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-restrict-hr-case-updates-from-personal-emails-plugin-applicability-human-resources-scoped-app.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -83,7 +84,7 @@ Category
 
 </td><td>
 
-[Data protection](sc-data-protection.md)
+[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 
 </td></tr><tr><td>
 
@@ -112,5 +113,5 @@ Functional impact
 This property controls whether or not a reply from a personal email address will update an HR Case. Set to true, any reply from personal email will be added to the case notes. If false, the case and notes will not be updated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Data protection](sc-data-protection.md)
+</table>**Parent Topic:**[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 

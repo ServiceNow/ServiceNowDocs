@@ -2,6 +2,7 @@
 title: Close a finance case
 description: Close a finance case after all the activities and tasks for resolving the case are complete.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/finance-case-management/close-fin-case.html
 release: australia
 product: Finance Case Management
 classification: finance-case-management
@@ -25,7 +26,7 @@ Role required: sn\_fin\_ops.specialist
 
     -   **All** &gt; **Finance Operations** &gt; **Finance Operations Workspace**.
     -   **Workspaces** &gt; **Finance Operations Workspace**.
-2.  In the Finance Operations workspace, select the List icon ![](../image/fin-ops-list-icon.png)\).
+2.  In the Finance Operations workspace, select the List icon \[Omitted image "fin-ops-list-icon.png"\] Alt text:\).
 
 3.  From the list page, navigate to either of the following submodules:
 
@@ -43,7 +44,7 @@ Role required: sn\_fin\_ops.specialist
     -   Canceled/False inquiry
     -   Canceled by caller
     -   Information provided
-    ![Close a finance case](../image/fin-ops-close-case.png)
+    \[Omitted image "fin-ops-close-case.png"\] Alt text: Close a finance case
 
 7.  In the **Closure notes** field, enter the reason for closing the case.
 
@@ -54,5 +55,5 @@ Role required: sn\_fin\_ops.specialist
 
 The case moves to the Closed complete state, the associated open tasks are closed, and the details in the Closure section are filled.
 
-**Parent Topic:**[Using the Finance Operations Workspace](../concept/using-fin-case-mgmt-workspace.md)
+**Parent Topic:**[Using the Finance Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/finance-case-management/using-fin-case-mgmt-workspace.md)
 

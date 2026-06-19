@@ -2,11 +2,12 @@
 title: App launcher user experience analytics
 description: Visually analyze app usage, user behavior, and other information from the user experience dashboard.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/web-applauncher-analytics.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [App Launcher, Setup task management, Configuring Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---

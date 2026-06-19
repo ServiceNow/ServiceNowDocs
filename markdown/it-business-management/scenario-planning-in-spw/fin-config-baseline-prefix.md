@@ -2,6 +2,7 @@
 title: Create a custom prefix for baseline
 description: Modify the prefix to customize the name of the baselines for your planning items.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/scenario-planning-in-spw/fin-config-baseline-prefix.html
 release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw

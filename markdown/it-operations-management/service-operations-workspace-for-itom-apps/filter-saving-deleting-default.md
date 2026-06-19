@@ -2,6 +2,7 @@
 title: Save a custom filter in Express List
 description: Save your custom view of categorized alerts in Express List to use again, share, or set as your default view. Saving your custom view saves all filters, tags, and conditions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/filter-saving-deleting-default.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
@@ -23,15 +24,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation, select the Express List icon \(![Express List icon](../../event-management/image/express-list1.png)\).
+2.  In the primary navigation, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon\).
 
 3.  Once you have set up a filter that you want to reuse, set as your default view, or share with others, save the filter.
 
     For more information about filtering the Express List alert display, see the following topics:
 
-    -   [Filter the Express List display using attributes](filter-attributes.md)
-    -   [Filter the Express List display by adding or removing fields](filter-express-list-fields.md)
-    -   [Filter out or show matching alerts](filter-right-click-option.md)
+    -   [Filter the Express List display using attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/filter-attributes.md)
+    -   [Filter the Express List display by adding or removing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/filter-express-list-fields.md)
+    -   [Filter out or show matching alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/filter-right-click-option.md)
     1.  In the Express List select **Save new**.
 
     2.  In the **Save new filter** dialog box in the **Filter name** field, enter a name for the filter.
@@ -44,18 +45,18 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     1.  In the **Filters** panel, select the filter from the drop-down list.
 
-    2.  Select the Copy link to clipboard icon \(![Copy link to clipboard icon](../../../reuse/icons/product-icons/link-outline-24.svg)\).
+    2.  Select the Copy link to clipboard icon \(\[Omitted image "link-outline-24.svg"\] Alt text: Copy link to clipboard icon\).
 
 5.  Set a saved filter as your default filter.
 
     1.  In the **Filters** panel, select the filter from the drop-down list.
 
-    2.  Select the More Actions icon \(![More Actions icon](../../event-management/image/more-actions-icon.png)\) and select **Set as default**.
+    2.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More Actions icon\) and select **Set as default**.
 
 6.  Delete a saved filter.
 
     1.  In the **Filters** panel, select the filter from the drop-down list.
 
-    2.  Select the More Actions icon \(![More actions icon](../../event-management/image/more-actions-icon.png)\) and select **Delete filter**.
+    2.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) and select **Delete filter**.
 
 

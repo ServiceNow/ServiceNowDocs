@@ -2,12 +2,13 @@
 title: Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow
 description: Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam-fulfill-sw-asset-requests-workflow.html
 release: australia
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Use agentic workflows, Now Assist for Software Asset Management \(SAM\), Software Asset Management, IT Asset Management]
 ---
 
@@ -18,6 +19,8 @@ Use the Help manage software request agentic workflow to fulfill a software requ
 ## Help manage software request overview
 
 Use the Help manage software request agentic workflow to automate software asset sourcing through auto allocation or purchase order creation. The Help manage software request AI agents enable faster request resolution, improved operational efficiency, and boost user satisfaction.
+
+To use the Help manage software request agentic workflow, the Procurement \(com.snc.procurement\) plugin needs to be installed along with the Now Assist for SAM \(sn\_now\_assist\_sam\) plugin. To use the Microsoft license assignment AI agent for Microsoft 365 allocations, the Software Asset Management - SaaS License Management store application must be installed and an active Microsoft 365 integration must be configured in your instance.
 
 The following three scenarios are supported for software requests:
 
@@ -41,6 +44,14 @@ The Help manage software request agentic workflow supports both Azure OpenAI Ser
 
 By automating the sourcing of software assets through auto-allocation or purchase order creation, the agentic workflow speeds up request resolution and boost operational efficiency.
 
+A one-time manual activation is required before the Help manage software request workflow can run automatically. To activate the workflow:
+
+1.  Navigate to the AI Agent Studio and select the Help Manage Software Request agentic workflow.
+2.  Select **Add triggers**.
+3.  Select the Help manage software request link, in the **Name** column.
+4.  In the **Edit a trigger** dialog box, toggle the trigger status from **Off** to **On**.
+5.  Save your changes. The status of the Help manage software request agentic workflow changes from **Inactive** to **Active**
+
 To automatically trigger the Help manage software request workflow for sourcing software requests, follow these steps:
 
 1.  Initiate and approve a software asset request:
@@ -48,7 +59,7 @@ To automatically trigger the Help manage software request workflow for sourcing 
     2.  If the requested items in the cart amount to a thousand dollars, the request is automatically approved. For amounts more than a thousand dollars, the request needs to be approved. Auto approval rules can differ from organization to organization; the default amount for auto approval is a thousand dollars.
 2.  Assign the software asset request for sourcing:
 
-    1.  Once the request is approved, the procurement\_user role, navigates to the Procurement module that resides in the Asset Workspace. If the Hardware Asset Management application is installed in the Asset Workspace, the name of the workspace changes to Hardware Asset Workspace.
+    1.  Once the request is approved, the procurement\_user role, navigates to the Procurement module that resides in the Asset Workspace. If the Hardware Asset Management application is installed, the name of the workspace changes to Hardware Asset Workspace.
     2.  The procurement\_user role selects the Items tab in the Procurement module and selects a value in the **Assigned to** field for the requested item.
 
         **Note:** The itil, the procurement\_user, and the now\_assist\_panel\_user roles have access to the Now Assist panel. The fulfiller needs the itil and procurement\_user roles if you have the Now Assist for IT Service Management \(ITSM\) store application installed. If you have the Now Assist for Software Asset Management \(SAM\) store application but not the Now Assist for IT Service Management \(ITSM\) store application, then the fulfiller requires the itil, procurement\_user, and now\_assist\_panel\_user roles to fulfill the request via the Now Assist panel trigger.
@@ -74,7 +85,7 @@ To automatically trigger the Help manage software request workflow for sourcing 
         -   If the entitlement is available, the AI agent creates a reservation order using the existing entitlement and generates a catalog task to replicate that reservation within the Microsoft 365 Admin Center.
         -   If the entitlement isn’t available, the AI agent generates a catalog task to create entitlement in ServiceNow.
 
-To view the agentic workflow process, navigate to the Asset Workspace or the Hardware Asset Workspace and select the sparkle icon ![sparkle icon for Now Assist](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg) on the top right side of the workspace.
+To view the licenses allocated by the agentic workflow, navigate to the AI Activity log in the Activity center of the Software Asset Workspace. Select the **Licenses allocated** link in the AI Activity log to open the Procurement request items page in the Asset Workspace or the Hardware Asset Workspace.
 
 ## AI agents used in the Help manage software asset requests agentic workflow
 
@@ -113,5 +124,5 @@ Microsoft license assignment AI agent
 Assigns a Microsoft 365 license from the existing inventory when available, using the RITM.The AI agent checks for both group and individual licenses. If the licenses aren't available, the AI agent creates a reservation order.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using agentic workflows in Now Assist for SAM](using-now-assist-sam-ai-agents-usecases.md)
+</table>**Parent Topic:**[Using agentic workflows in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)
 

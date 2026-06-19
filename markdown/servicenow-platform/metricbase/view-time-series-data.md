@@ -2,6 +2,7 @@
 title: Access MetricBase data using the list command
 description: Use the list command on a table in the MetricBase database to view time-series data. The data reveals the behavior of the entity that supplies the data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/metricbase/view-time-series-data.html
 release: australia
 product: MetricBase
 classification: metricbase
@@ -25,7 +26,7 @@ Role required: admin
 
     &lt;table-name&gt; is the name of the table in the MetricBase database that contains the metric you want to view.
 
-2.  Click the menu icon \(![Menu icon](../../../product/configuration-management/image/menu-icon.png)\) above the metric column, and select **Time Series Chart**.
+2.  Click the menu icon \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) above the metric column, and select **Time Series Chart**.
 
 3.  Change the **Time Span** and **Transform** fields to evaluate the data.
 

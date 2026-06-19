@@ -2,11 +2,14 @@
 title: Review APM artifacts
 description: The data collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-apm-installation-artifacts.html
 release: australia
+product: Impact
+classification: impact
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection for APM, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection for APM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Review APM artifacts

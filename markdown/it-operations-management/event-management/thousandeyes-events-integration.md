@@ -2,6 +2,7 @@
 title: Integrate ThousandEyes platform events
 description: Integrate ThousandEyes with Event Management by adding a standard webhook in the ThousandEyes console.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/thousandeyes-events-integration.html
 release: australia
 product: Event Management
 classification: event-management
@@ -19,6 +20,6 @@ Integrate ThousandEyes with Event Management by adding a standard webhook in the
 
 There are two methods of authentication:
 
--   OAuth authentication: Provides enterprise-grade authentication to keep your enterprise environment safe. Authentication is performed using ThousandEyes Monitor V1 or V2 access tokens. For more information, see [Integrate ThousandEyes with OAuth authentication](../task/event-collection-thousandeyes-oauth.md).
--   Basic webhook authentication: Provides a basic standard of authentication, without the need for ThousandEyes Active Directory. This authentication can be especially useful for distributed small teams, such as SRE or DevOps teams. For more information, see [Integrate ThousandEyes with basic authentication](../task/thousandeyes-events-webhook.md).
+-   OAuth authentication: Provides enterprise-grade authentication to keep your enterprise environment safe. Authentication is performed using ThousandEyes Monitor V1 or V2 access tokens. For more information, see [Integrate ThousandEyes with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/event-collection-thousandeyes-oauth.md).
+-   Basic webhook authentication: Provides a basic standard of authentication, without the need for ThousandEyes Active Directory. This authentication can be especially useful for distributed small teams, such as SRE or DevOps teams. For more information, see [Integrate ThousandEyes with basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/thousandeyes-events-webhook.md).
 

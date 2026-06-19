@@ -2,6 +2,7 @@
 title: Manage enrollment requests in Workspace
 description: As a care coordinator or a nurse educator, you can use Workspace to manage enrollment requests or training tasks, respectively.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pss-using-workspace.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -29,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Access the Workspace](pss-viewing-home-page.md).
+[Access the Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-viewing-home-page.md).
 
 </td><td>
 
@@ -37,7 +38,7 @@ Use the home page in Workspace to quickly scan and access enrollment cases.
 
 </td></tr><tr><td>
 
-[View an enrollment case in Workspace](../task/pss-view-cases.md).
+[View an enrollment case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-view-cases.md).
 
 </td><td>
 
@@ -45,7 +46,7 @@ View an enrollment case in Workspace to complete patient enrollment activities f
 
 </td></tr><tr><td>
 
-[View patient information for an enrollment case in Workspace](pss-viewing-patient-info.md).
+[View patient information for an enrollment case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-viewing-patient-info.md).
 
 </td><td>
 
@@ -53,7 +54,7 @@ View the details of a patient in Workspace.
 
 </td></tr><tr><td>
 
-[Work on an enrollment request case in Workspace](pss-playbook.md).
+[Work on an enrollment request case in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-playbook.md).
 
 </td><td>
 
@@ -61,7 +62,7 @@ Use the playbook available with the Patient Support Services application to mana
 
 </td></tr><tr><td>
 
-[Managing training requests in Workspace](../task/pss-conduct-training.md).
+[Managing training requests in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/pss-conduct-training.md).
 
 </td><td>
 

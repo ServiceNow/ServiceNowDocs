@@ -2,6 +2,7 @@
 title: Modify SEO in community pages
 description: If an auto-generated SEO meta tag does not meet your needs, you can modify or replace the tag.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/seo-communities-modify.html
 release: australia
 product: Communities
 classification: communities
@@ -23,7 +24,7 @@ Role required: sp\_admin
 
 The source code for this example question page \(ID **community\_question**\) shows the **description** meta tag \(highlighted in yellow\) that the Communities application injected into the page.
 
-![Community question page example about a router overheating after a firmware upgrade with options for the Community to subscribe to, reply to, or upvote this question.](../images/seo-question-page.png)
+\[Omitted image "seo-question-page.png"\] Alt text: Community question page example about a router overheating after a firmware upgrade with options for the Community to subscribe to, reply to, or upvote this question.
 
 ```
 <!DOCTYPE html><html lang="en" ng-app="sn.$sp" ng-init="portal_id =
@@ -77,14 +78,14 @@ In addition to the **description** meta tag for a question page, the Communities
 
 2.  In the list of portal pages, click the **ID** of the page to update \(in the example, **community\_question**\).
 
-    See the list of [pages in Communities that support SEO data](../reference/communities-seo-data.md).
+    See the list of [pages in Communities that support SEO data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-seo-data.md).
 
 3.  On the Page form:
 
     -   Modify or add meta tags in the **Meta tags** related list.
     -   Modify the **Dynamic page title** by modifying the structure of the title text or by modifying or replacing the variables that generate the text. The variable definitions appear in the **Dynamic page variables** related list.
-    ![Two screenshots: first displaying page details and highlighting the Dynamic page title field, second highlighting the Meta tags tab and Dynamic page title variables tab with the related list.](../images/seo-page-form.png)
+    \[Omitted image "seo-page-form.png"\] Alt text: Two screenshots: first displaying page details and highlighting the Dynamic page title field, second highlighting the Meta tags tab and Dynamic page title variables tab with the related list.
 
 
-**Parent Topic:**[Community pages that support SEO data](../reference/communities-seo-data.md)
+**Parent Topic:**[Community pages that support SEO data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-seo-data.md)
 

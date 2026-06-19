@@ -2,6 +2,7 @@
 title: Perform initial setup tasks when creating a connection in SGC Central
 description: Complete the prerequisites for setting up a connection for the first time using a Service Graph Connector within the SGC Central view of the Service Graph Workspace or CMDB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/sgcc-first-time-setup.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"

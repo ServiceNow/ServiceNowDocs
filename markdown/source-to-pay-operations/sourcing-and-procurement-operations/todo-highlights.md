@@ -2,6 +2,7 @@
 title: To-do highlights
 description: Your to-dos are highlighted with color coding to help you quickly understand the due dates.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/todo-highlights.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -21,5 +22,5 @@ Similarly, a yellow vertical line is displayed to the left of the task card, and
 
 A procurement administrator can use the sn\_shop.spend.sla.due.days purchasing property to configure the number of days for displaying the yellow highlight. By default, this is set to three days of the task due date.
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

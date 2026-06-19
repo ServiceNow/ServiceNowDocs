@@ -2,13 +2,14 @@
 title: Zero Touch Refresh
 description: Use the Zero Touch Refresh flow to fulfill employee hardware refresh requests through an external vendor without having to maintain new assets in the local stockroom.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/hardware-asset-management/zero-touch-asset-refresh.html
 release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 ---
 
 # Zero Touch Refresh
@@ -35,7 +36,7 @@ The various stages in the asset refresh process are as follows:
         -   Based on the refresh method that the employee selected in the Zero Touch Refresh request, email notifications with details of the new replacement asset that is shipped are sent as follows:
             -   When the asset is shipped to the employee, an email notification is sent to all users with the asset role.
             -   When the asset is shipped to the stockroom, an email notification is sent to all users with the asset role and also the stockroom manager of the selected stockroom from where the employee will pick up the new asset.
-        -   Based on the tracking number and shipping carrier details that the provider specified in the request, unique shipment records are created for the shipments of the replacement asset and the old asset. When the same tracking number is provided for both the shipments, a single shipment record is created. You can view the shipment records with the associated assets in the Assets operations view of the Hardware Asset Workspace. For more details, see [View hardware asset shipment details](../task/view-hardware-asset-shipments.md).
+        -   Based on the tracking number and shipping carrier details that the provider specified in the request, unique shipment records are created for the shipments of the replacement asset and the old asset. When the same tracking number is provided for both the shipments, a single shipment record is created. You can view the shipment records with the associated assets in the Assets operations view of the Hardware Asset Workspace. For more details, see [View hardware asset shipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/view-hardware-asset-shipments.md).
     2.  Ready for pickup: This task is created only for the Pickup refresh method in which the provider ships the new asset to the stockroom from where the employee picks up the asset.
     3.  Receive asset: This task is created as follows:
         -   For the Ship refresh method, when the provider ships the asset to the employee.
@@ -52,5 +53,5 @@ The Zero Touch Refresh flow has the following requirements:
 -   The employee's organization and the provider must be on the same ServiceNow Cloud.
 -   The Service Exchange application must be configured on the ServiceNow instance of the provider and the employee's organization.
 
-For more details, see [Manage refresh of assets using Zero Touch Refresh](refresh-hardware-uisng-ztr.md).
+For more details, see [Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md).
 

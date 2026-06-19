@@ -2,6 +2,7 @@
 title: Element definitions and variables
 description: An element definition is a configuration item that is assessed in the business impact analysis. The element definitions are also recovered in the business continuity plan. If you have the administrator role, you can set up an element variable that is required for a particular dependency of an element.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/element-definitions.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -30,15 +31,15 @@ The BCM administrator can configure the element definitions in the Business Cont
 
 The example shows the element definitions in an instance.
 
-![Element definitions in an instance.](../image/element-definitions.png)
+\[Omitted image "element-definitions.png"\] Alt text: Element definitions in an instance.
 
 The example shows the configuration of an element definition by the Business Continuity Management administrator.
 
-![Element definition.](../image/element-definition-new-record.png)
+\[Omitted image "element-definition-new-record.png"\] Alt text: Element definition.
 
 ## Configuration of an element definition
 
-For more information on configuring an element definition with the BCM administrator role, see [Configure element definition](../task/configure-element-definition-bia-uib-ws.md).
+For more information on configuring an element definition with the BCM administrator role, see [Configure element definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-element-definition-bia-uib-ws.md).
 
 **Note:** Starting with the Xanadu release, the element definition filter for the Hardware element definition has been updated. You can now add a Windows server asset in the Windows server element definition or a Linux server asset in the Linux server element definition. However, you cannot add the Windows server asset or the Linux server asset in the filter of the Hardware element definition.
 
@@ -46,7 +47,7 @@ For more information on configuring an element definition with the BCM administr
 
 As a functional system administrator, you can set up an element variable that is required for a particular dependency of an element. The example shows an administrator's view of the element variable record.
 
-![Configuration of an element variable.](../image/new-element-variable.png)
+\[Omitted image "new-element-variable.png"\] Alt text: Configuration of an element variable.
 
-For more information on how to configure an element variable in the Business Continuity Management application with an administrator role, see [Configure element variables for element definitions](../task/configure-element-variable-uib-ws.md).
+For more information on how to configure an element variable in the Business Continuity Management application with an administrator role, see [Configure element variables for element definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-element-variable-uib-ws.md).
 

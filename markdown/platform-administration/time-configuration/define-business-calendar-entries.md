@@ -2,6 +2,7 @@
 title: Define business calendar entries
 description: Create business calendar entry records that define the individual time periods that make up a business calendar. You create a business calendar entry for every individual time span in the calendar.Create a name for an individual business calendar entry. You create this record so you can easily identify a specific business calendar entry when you use it in a business calendar.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/time-configuration/define-business-calendar-entries.html
 release: australia
 product: Time Configuration
 classification: time-configuration
@@ -25,7 +26,7 @@ In contrast to legacy schedule entries that have repeating and excluding time sp
 
 **Note:** Fiscal calendars or schedules you may have created in the **Fiscal Calendar** or **System Scheduler** &gt; **Schedules** menu also appear on the lists on the **Business Calendar** menu. If you select a fiscal calendar or schedule, it appears in the legacy function that you originally used to create it. You can't view or update legacy fiscal calendars or schedules using this form.
 
-To create business calendar entries and associate them with a business calendar, use the Business Calendar Entries related list in the Business Calendar form. To learn more about creating a business calendar, see [Create a business calendar](create-business-calendar.md).
+To create business calendar entries and associate them with a business calendar, use the Business Calendar Entries related list in the Business Calendar form. To learn more about creating a business calendar, see [Create a business calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/create-business-calendar.md).
 
 ## Procedure
 
@@ -49,10 +50,10 @@ Name
 
 </td><td>
 
-Unique reference name for the business calendar entry. To select a business calendar name or to create one: 1.  To search for an existing business calendar entry name, select ![Search button](../../search-administration/image/SearchIcon.png).
+Unique reference name for the business calendar entry. To select a business calendar name or to create one: 1.  To search for an existing business calendar entry name, select \[Omitted image "SearchIcon.png"\] Alt text: Search button.
 2.  If no business calendar entry name exists and you want to create a business calendar entry name, select **New**. The Business Calendar Entry Name form appears.
 
-**Note:** To learn how to create business calendar entry names, see [Create business calendar entry names](define-business-calendar-entries.md#).
+**Note:** To learn how to create business calendar entry names, see [Create business calendar entry names](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
 
 </td></tr><tr><td>
 
@@ -80,7 +81,7 @@ End date and time for the business calendar period. It uses the time zone that y
 7.  Select **Update** to save any changes and return to the list.
 
 
-**Parent Topic:**[Creating business calendars](../concept/business-calendars.md)
+**Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/business-calendars.md)
 
 ## Create business calendar entry names
 
@@ -94,7 +95,7 @@ Role required: business\_calendar\_admin
 
 1.  Navigate to **All** &gt; **Business Calendar** &gt; **Business Calendar Entry Names**.
 
-    **Note:** Alternately, you can create a business calendar entry name at the time you create the associated business calendar entry. To learn more about creating a business calendar entry, see [Define business calendar entries](define-business-calendar-entries.md#).
+    **Note:** Alternately, you can create a business calendar entry name at the time you create the associated business calendar entry. To learn more about creating a business calendar entry, see [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/define-business-calendar-entries.md).
 
 2.  Select **New**.
 
@@ -140,9 +141,9 @@ Calendar
 
 Name of the business calendar that you want the business calendar entry to belong to. This entry creates the relationship between a business calendar and the business calendar entries that define each individual time span with it. For example, if you’re creating a business calendar entry for the January fiscal period, you select FY20 to associate it with Fiscal Year 2020. To select an existing business calendar:
 
-1.  Select the **Lookup using list** icon \(![](../../ai-search/image/icon-search.png)\) or
+1.  Select the **Lookup using list** icon \(\[Omitted image "icon-search.png"\] Alt text:\) or
 2.  Select inside the **Calendar** field to view and select from a listing of recent business calendars that are created in **Business Calendar** &gt; **Business Calendars**.
-**Note:** If you attempt to use the **Lookup using list** icon \(![](../../ai-search/image/icon-search.png)\) and see a dialog box with **Cancel** and **Leave** options, select **Cancel** and then select inside the **Calendar** field to select from a listing of recent business calendars.
+**Note:** If you attempt to use the **Lookup using list** icon \(\[Omitted image "icon-search.png"\] Alt text:\) and see a dialog box with **Cancel** and **Leave** options, select **Cancel** and then select inside the **Calendar** field to select from a listing of recent business calendars.
 
 </td></tr><tr><td>
 
@@ -158,7 +159,7 @@ Application
 
 </td><td>
 
-Application that is associated with this business calendar. If you are working on an application or are creating a business calendar from an application record, the field defaults to that application. Otherwise, the field defaults to **Global**. Any records that are created from the table record, such as modules and security rules, are assigned to this application by default. To learn more about application scoping, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md)
+Application that is associated with this business calendar. If you are working on an application or are creating a business calendar from an application record, the field defaults to that application. Otherwise, the field defaults to **Global**. Any records that are created from the table record, such as modules and security rules, are assigned to this application by default. To learn more about application scoping, see 
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

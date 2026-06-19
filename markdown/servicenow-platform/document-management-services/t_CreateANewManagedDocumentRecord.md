@@ -2,6 +2,7 @@
 title: Create a new managed document record
 description: Configure the properties and policies for a managed document.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/t\_CreateANewManagedDocumentRecord.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -43,10 +44,10 @@ Role required: document\_management\_user
 
 9.  Under **Revision Settings**, select the **Auto increment revision** option.
 
-    ![Revision Settings](../image/RevisionSettings.png)
+    \[Omitted image "RevisionSettings.png"\] Alt text: Revision Settings
 
 10. Click **Submit**.
 
 
-**Parent Topic:**[Managed Documents](../concept/c_ManagedDocuments.md)
+**Parent Topic:**[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/c_ManagedDocuments.md)
 

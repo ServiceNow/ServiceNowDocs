@@ -2,6 +2,7 @@
 title: Set up the Google Calendar spoke
 description: Set up an outbound integration between your ServiceNow instance and the Google Calendar Application Programming Interfaces \(API\) by setting up a connection and credential record.Create an OAuth application on the Google Calendar that authenticates requests to access the Google Calendar APIs from your ServiceNow instance. After successful authentication, you can generate an OAuth token that your ServiceNow can use to access the Google Calendar APIs.Create a connection and credential record that enables your ServiceNow instance to integrate with the Google Calendar Application Programming Interface \(API\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-gcal.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -49,7 +50,7 @@ Role required: admin.
 
     1.  Select the button.
 
-        ![Create project button for Google Calendar on Google Workspace.](../image/google-calendar-spokes-click-create-project.png)
+        \[Omitted image "google-calendar-spokes-click-create-project.png"\] Alt text: Create project button for Google Calendar on Google Workspace.
 
     2.  On the Select a Project window, select **NEW PROJECT**.
 
@@ -61,7 +62,7 @@ Role required: admin.
 
         The Notifications window confirms that the project is created.
 
-        ![Project creation confirmation.](../image/gcalendar-spoke-proj-created.png)
+        \[Omitted image "gcalendar-spoke-proj-created.png"\] Alt text: Project creation confirmation.
 
     6.  Select SELECT PROJECT.
 
@@ -69,11 +70,11 @@ Role required: admin.
 
     1.  Select **+ ENABLE APIS AND SERVICES**.
 
-        ![Enable API and Services button.](../image/gcalendar-spoke-enable-api.png)
+        \[Omitted image "gcalendar-spoke-enable-api.png"\] Alt text: Enable API and Services button.
 
     2.  On the Welcome to the API Library page, navigate to the Google calendar API card under the Google Workspace heading.
 
-        ![Google Calendar API button.](../image/gcalendar-spoke-api-button.png)
+        \[Omitted image "gcalendar-spoke-api-button.png"\] Alt text: Google Calendar API button.
 
     3.  Select **Google Calendar API**.
 
@@ -81,13 +82,13 @@ Role required: admin.
 
         The Google calendar API is enabled on your project.
 
-        ![Google Calendar API is enabled.](../image/google-calendar-api-enabled.png)
+        \[Omitted image "google-calendar-api-enabled.png"\] Alt text: Google Calendar API is enabled.
 
 4.  Create the credentials that the connection and credential form will store.
 
     1.  Select **CREATE CREDENTIALS**.
 
-        ![Create credentials button to access Google Calendar API.](../image/google-calendar-create-creds.png)
+        \[Omitted image "google-calendar-create-creds.png"\] Alt text: Create credentials button to access Google Calendar API.
 
     2.  Fill the form.
 
@@ -135,13 +136,13 @@ Type of data that your ServiceNow instance accesses from the Google Calendar app
 
     2.  In the Update selected scopes window, enter `Google Calendar` in the Enter property name or value field.
 
-        ![Enter Google Calendar in the field.](../image/gcalendar-spoke-scope.png)
+        \[Omitted image "gcalendar-spoke-scope.png"\] Alt text: Enter Google Calendar in the field.
 
     3.  From the list, select Google Calendar API.
 
     4.  Select the required APIs from the list.
 
-        ![Select required Google Calendar APIs.](../image/gcalendar-spoke-api-selection.png)
+        \[Omitted image "gcalendar-spoke-api-selection.png"\] Alt text: Select required Google Calendar APIs.
 
     5.  Select **UPDATE**.
 
@@ -159,7 +160,7 @@ Type of data that your ServiceNow instance accesses from the Google Calendar app
 
     5.  Select **CREATE**.
 
-        The credentials for the OAuth application are created, as shown in the image.![Copy or download the OAuth credentials.](../image/google-calendar-copy-creds.png)
+        The credentials for the OAuth application are created, as shown in the image.\[Omitted image "google-calendar-copy-creds.png"\] Alt text: Copy or download the OAuth credentials.
 
 7.  Select **DONE**.
 
@@ -174,7 +175,7 @@ Role required: admin.
 
 ### About this task
 
-The connection and credential record includes the details that you had set up when you created the OAuth app. See [Create OAuth application on Google Calendar](setup-gcal.md#).
+The connection and credential record includes the details that you had set up when you created the OAuth app. See [Create OAuth application on Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcal.md).
 
 ### Procedure
 
@@ -182,11 +183,11 @@ The connection and credential record includes the details that you had set up wh
 
 2.  Select Connections.
 
-3.  In the Search all connections field, enter `Google Calendar`.![Search the Google Calendar connection card.](../image/google-calendar-search-conn-card.png)
+3.  In the Search all connections field, enter `Google Calendar`.\[Omitted image "google-calendar-search-conn-card.png"\] Alt text: Search the Google Calendar connection card.
 
 4.  On the Google\_Calendar card, click **View Details**.
 
-5.  Click **Configure**.![Google Calendar connection and credential record configure button.](../image/google-calendar-configure-button.png)
+5.  Click **Configure**.\[Omitted image "google-calendar-configure-button.png"\] Alt text: Google Calendar connection and credential record configure button.
 
 6.  Fill the details in the form.
 
@@ -228,7 +229,7 @@ OAuth Client ID
 
 </td><td>
 
-The ID of the client that accesses the OAuth app you had created.**Tip:** You can find the OAuth Client ID in the JSON file you had downloaded while creating the OAuth app. See [Create OAuth application on Google Calendar](setup-gcal.md#).
+The ID of the client that accesses the OAuth app you had created.**Tip:** You can find the OAuth Client ID in the JSON file you had downloaded while creating the OAuth app. See [Create OAuth application on Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcal.md).
 
 </td></tr><tr><td>
 
@@ -236,7 +237,7 @@ OAuth Client Secret
 
 </td><td>
 
-The secret that your ServiceNow instance uses to prove its identity to the OAuth app.**Tip:** You can find the OAuth Client secret in the JSON file you had downloaded while creating the OAuth app. See [Create OAuth application on Google Calendar](setup-gcal.md#).
+The secret that your ServiceNow instance uses to prove its identity to the OAuth app.**Tip:** You can find the OAuth Client secret in the JSON file you had downloaded while creating the OAuth app. See [Create OAuth application on Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcal.md).
 
 </td></tr><tr><td>
 
@@ -244,7 +245,7 @@ OAuth Redirect URL
 
 </td><td>
 
-The redirect URL to the application after the OAuth app authenticates the request from your ServiceNow instance.**Tip:** You can find the OAuth Redirect URL in the JSON file you had downloaded while creating the OAuth app. See [Create OAuth application on Google Calendar](setup-gcal.md#).
+The redirect URL to the application after the OAuth app authenticates the request from your ServiceNow instance.**Tip:** You can find the OAuth Redirect URL in the JSON file you had downloaded while creating the OAuth app. See [Create OAuth application on Google Calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/setup-gcal.md).
 
 </td></tr><tr><td>
 

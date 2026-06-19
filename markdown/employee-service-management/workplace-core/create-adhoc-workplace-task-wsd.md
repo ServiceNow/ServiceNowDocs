@@ -2,6 +2,7 @@
 title: Create an ad hoc workplace task
 description: Create an ad hoc task in Workplace Core for unplanned activities. For example, if you notice that something isn't clean in an area or want the area to be cleaned again, you can create an ad hoc workplace task to get the cleaning done immediately.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/create-adhoc-workplace-task-wsd.html
 release: australia
 product: Workplace Core
 classification: workplace-core
@@ -17,7 +18,7 @@ Create an ad hoc task in Workplace Core for unplanned activities. For example, i
 
 ## Before you begin
 
-**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see [Configure a catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/service-portal/associate-portal-catalog.md).
+**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see Configure a catalog in Service Portal.
 
 Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
@@ -79,7 +80,7 @@ Signature template
 
 </td><td>
 
-Task signature template to use for signing off on this task when it is completed.For more information, see [Sign a completed workplace task](sign-completed-task-wsd.md).
+Task signature template to use for signing off on this task when it is completed.For more information, see [Sign a completed workplace task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/sign-completed-task-wsd.md).
 
 </td></tr><tr><td>
 
@@ -153,12 +154,12 @@ Brief description of the ad hoc task.
 
 6.  Add a checklist to the task to track the actions required to complete it.
 
-    To add the checklist, open the task by navigating to **Workplace Core** &gt; **Workplace Tasks** &gt; **All**. For more information, see [Create a workplace task checklist](create-workplace-task-checklist-wsd.md).
+    To add the checklist, open the task by navigating to **Workplace Core** &gt; **Workplace Tasks** &gt; **All**. For more information, see [Create a workplace task checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/create-workplace-task-checklist-wsd.md).
 
 
 ## Result
 
 The ad hoc task is added to the list of all tasks that you can view by navigating to **Workplace Core** &gt; **Workplace Tasks** &gt; **All**.
 
-**Parent Topic:**[Managing workplace tasks](../concept/managing-workplace-maintenance-tasks.md)
+**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
 

@@ -2,6 +2,7 @@
 title: Create a Doc in CWM
 description: Store information related to your tasks, reference users and task records, and collaborate in real-time using Docs in Collaborative Work Management workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/collaborative-work-management/create-a-doc-in-cwm.html
 release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
@@ -17,7 +18,7 @@ Store information related to your tasks, reference users and task records, and c
 
 ## Before you begin
 
-[Create a Space in CWM](create-spaces-in-cwm.md).
+[Create a Space in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/create-spaces-in-cwm.md).
 
 Role required: sn\_cwm.cwm\_user
 
@@ -29,11 +30,11 @@ Role required: sn\_cwm.cwm\_user
 
 3.  From the Spaces menu, open a Space that you want to add a Board to.
 
-    ![Spaces menu in CWM.](../images/cwm-spaces-navigation.png)
+    \[Omitted image "cwm-spaces-navigation.png"\] Alt text: Spaces menu in CWM.
 
-4.  From the More options menu of the Space \(![More options icon.](../images/cwm-icon-column-actions.png)\), select **New Doc**
+4.  From the More options menu of the Space \(\[Omitted image "cwm-icon-column-actions.png"\] Alt text: More options icon.\), select **New Doc**
 
-    s![Spaces more options menu.](../images/cwm-spaces-menu.png)
+    s\[Omitted image "cwm-spaces-menu.png"\] Alt text: Spaces more options menu.
 
 5.  In the **Doc name** field, enter the name for the document.
 
@@ -50,7 +51,7 @@ A new Doc is created for the current Space, and an untitled page is opened for y
 
 Utilize the rich-text formatting options of the Doc to draft information relevant for your team or type **/** to explore other options.
 
-**Note:** To reference ServiceNow AI Platform records other than CWM tasks, work with your admin to update the **sn\_cwm.record\_mention\_config** system property. For more information, see [Enable ServiceNow AI Platform records in CWM Docs](enable-now-platform-servicenow-records-cwm-docs.md).
+**Note:** To reference ServiceNow AI Platform records other than CWM tasks, work with your admin to update the **sn\_cwm.record\_mention\_config** system property. For more information, see [Enable ServiceNow AI Platform records in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.md).
 
-**Parent Topic:**[Collaborative documentation using CWM](../concept/cwm-docs.md)
+**Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
 

@@ -2,6 +2,7 @@
 title: Configure Microsoft Azure Conditional Access for Microsoft Teams tenant
 description: You must configure conditional access in Microsoft Azure to restrict users from accessing the production applications. Conditional access helps you from accidentally overriding your production integration with a custom or personal instance integration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/msteams-setup-conditional-access.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -27,7 +28,7 @@ Roles required: virtual\_agent\_admin and user with Azure admin access.
 
 3.  Navigate to **New Policy** &gt; **Create New Policy** and provide the policy a name.&lt;p&gt;
 
-    ![The new conditional policy form prompts you for a name, user assignments, cloud apps or actions, conditions, and access controls.](../images/new-acl-policy.png)
+    \[Omitted image "new-acl-policy.png"\] Alt text: The new conditional policy form prompts you for a name, user assignments, cloud apps or actions, conditions, and access controls.
 
 4.  Under Users or Workload identities, select **0 users or workload identities selected**.
 
@@ -35,13 +36,13 @@ Roles required: virtual\_agent\_admin and user with Azure admin access.
 
 5.  Under Include, select **All users**.
 
-    ![Select All users on the pop-up to include all registered users.](../images/include-users-acl.png)
+    \[Omitted image "include-users-acl.png"\] Alt text: Select All users on the pop-up to include all registered users.
 
     **Note:** Selecting All users will include the users in the restriction policy.
 
 6.  Under Exclude, select **Users and groups** to exclude admin users who have access to override the tenant.
 
-    ![Exclude users to allow access.](../images/exclude-users-acl.png)
+    \[Omitted image "exclude-users-acl.png"\] Alt text: Exclude users to allow access.
 
 7.  Under Select excluded users, select **0 users and groups selected** to select an admin user and select **Select**.
 
@@ -62,9 +63,9 @@ Roles required: virtual\_agent\_admin and user with Azure admin access.
 
 After the policy is created and the synchronization is complete, it restricts any user except the admins from overriding the tenant accidentally.
 
-![Result of configuring conditional access for Microsoft Teams tenants. The policy is restricted for users other than admins.](../images/acl-restriction.png)
+\[Omitted image "acl-restriction.png"\] Alt text: Result of configuring conditional access for Microsoft Teams tenants. The policy is restricted for users other than admins.
 
 **Note:** The restriction does not affect the restricted users from using the Microsoft Teams or the Now Virtual Agent.
 
-**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](configure-va-msteams-settings.md)
+**Parent Topic:**[Configure Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-va-msteams-settings.md)
 

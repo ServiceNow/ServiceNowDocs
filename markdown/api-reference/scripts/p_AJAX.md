@@ -2,6 +2,7 @@
 title: AJAX
 description: AJAX \(asynchronous JavaScript and XML\) is a group of interrelated, client-side development techniques used to create asynchronous Web applications.The GlideAjax class allows the execution of server-side code from the client. GlideAjax calls pass parameters to the script includes, and, using naming conventions, allows the use of these parameters.There are two parts to the asynchronous GlideAjax script: client-side and server-side code.Use synchronous when your script cannot continue without the GlideAjax response. This stops the session until the response is received.Provides helper functions for Ajax clients to retrieve a value from an Ajax client.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/p\_AJAX.html
 release: australia
 product: Scripts
 classification: scripts
@@ -17,7 +18,7 @@ AJAX \(asynchronous JavaScript and XML\) is a group of interrelated, client-side
 
 AJAX enables web applications to send and retrieve information to and from a server in the background, without impacting the user experience with the displayed web page.
 
-**Parent Topic:**[Client-side scripting](../../client-scripts/concept/client-side-scripting-overview.md)
+**Parent Topic:**[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/client-side-scripting-overview.md)
 
 ## GlideAjax
 
@@ -38,7 +39,7 @@ Using GlideAjax:
     -   **sysparm\_type**
 -   Code is then executed with the getXML\(\) or getXMLWait\(\) functions.
 
-For additional information, refer to the [GlideAjax](../../../app-store/dev_portal/API_reference/GlideAjax/concept/c_GlideAjaxAPI.md#) API.
+For additional information, refer to the [GlideAjax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_GlideAjaxAPI.md) API.
 
 ## Examples of asynchronous GlideAjax
 

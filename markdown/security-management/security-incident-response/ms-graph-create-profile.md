@@ -2,6 +2,7 @@
 title: Create a profile for the Microsoft Graph Security API alert ingestion integration
 description: As a user with the sn\_si.admin role, you create an alert profile in your ServiceNow AI Platform instance and determine which alerts create security incidents. Before security incidents are created from ingested alerts, the field values from alerts are displayed on a layout of a ServiceNow AI Platform security incident so that you can preview how the actual security incident will be displayed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/ms-graph-create-profile.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

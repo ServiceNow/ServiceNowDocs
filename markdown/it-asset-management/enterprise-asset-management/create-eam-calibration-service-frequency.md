@@ -2,13 +2,14 @@
 title: Create a service frequency for your enterprise asset calibrations
 description: Create a service frequency to specify how often you must perform an enterprise asset calibration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/create-eam-calibration-service-frequency.html
 release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a service frequency for your enterprise asset calibrations
@@ -23,7 +24,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 You can specify the calibrations that are required for your enterprise assets by using calibration attributes. When you create a calibration attribute, you must specify the frequency at which you need to perform the associated calibrations.
 
-For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](add-calibration-attributes-enterprise-model.md).
+For more details on calibration attributes, see [Add calibration attributes to an enterprise asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-asset.md) or [Add calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/enterprise-asset-management/add-calibration-attributes-enterprise-model.md).
 
 ## Procedure
 
@@ -47,6 +48,4 @@ For more details on calibration attributes, see [Add calibration attributes to a
 ## Result
 
 The service frequency is available to use in your calibration attributes.
-
-**Parent Topic:**[Create and manage enterprise assets](../concept/create-manage-enterprise-assets.md)
 

@@ -2,12 +2,14 @@
 title: Work on a fraud case for card fraud
 description: Use card fraud to work on a fraud case that is created for reviewing alerts that are flagged by customers or from external sources, ensure that any outstanding tasks are completed, and the cases are investigated and resolved.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/intelligent-servicing-for-fraud/work-on-a-fraud-case-for-card-fraud.html
 release: australia
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [work on a fraud case, card fraud case, investigate fraud cases, resolve fraud cases, fraud case playbook, initiate fraud case, fraud investigation stage, case disposition, fraud write-off, manager approval for fraud, verify fraud transactions, collect fraud documents, sn\_bom\_fraud.agent]
 breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -19,13 +21,13 @@ Use card fraud to work on a fraud case that is created for reviewing alerts that
 
 Role required: sn\_bom\_fraud.agent or sn\_bom\_fraud.agent\_connector
 
-**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](../../fso-common/concept/fso-combine-csm-industry-roles.md).
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/financial-services/fso-combine-csm-industry-roles.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Fraud cases**, open the case list.
 

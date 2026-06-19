@@ -2,6 +2,7 @@
 title: Configure card settings for org chart
 description: Define the lines and information to show on the Employee Center Pro org chart card.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-new-org-chart-card-config.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -108,5 +109,5 @@ Enter the order number to determine where the item appears in relation to other 
 
 ## What to do next
 
-For more information on widget instance options, see [Modify the org chart widget display](config-orgchart-instanceoptions.md).
+For more information on widget instance options, see [Modify the org chart widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-orgchart-instanceoptions.md).
 

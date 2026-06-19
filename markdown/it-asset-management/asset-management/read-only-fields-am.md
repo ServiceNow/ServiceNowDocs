@@ -2,6 +2,7 @@
 title: Read-only and client script modifiable fields in Asset Management tables
 description: Comprehensive reference of Asset Management table fields that are restricted from UI editing and those which can be modified using client scripts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/read-only-fields-am.html
 release: australia
 product: Asset Management
 classification: asset-management

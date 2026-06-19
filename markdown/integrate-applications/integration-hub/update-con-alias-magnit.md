@@ -2,6 +2,7 @@
 title: Edit Magnit OAuth
 description: Automatically create application registry, credentials, and connections by editing the Magnit OAuth form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/update-con-alias-magnit.html
 release: australia
 product: Integration Hub
 classification: integration-hub

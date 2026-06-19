@@ -2,6 +2,7 @@
 title: GlideURI - Scoped
 description: The GlideURI API provides methods to handle URI parameters in a scoped application.Instantiates a GlideURI object.Returns the value of the specified parameter.Returns the file name portion of the URI.Sets the specified parameter to the specified value.Reconstructs the URI string and performs the proper URL encoding by converting non-valid characters to their URL code. For example, converting &amp; to '%26'.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideURIScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -19,12 +20,12 @@ The GlideURI API provides methods to handle URI parameters in a scoped applicati
 
 For more information on using URIs:
 
--   [Navigate by URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/navigate-using-url.md)
--   [Navigation stack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_NavigationStack.md)
+-   Navigate by URL
+-   Navigation stack
 
-See also: [GlideURI - Global](../../GlideURIGlobal/concept/GlideURIGlobalAPI.md#) .
+See also: [GlideURI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/GlideURIGlobalAPI.md) .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## Scoped GlideURI - GlideURI\(\)
 

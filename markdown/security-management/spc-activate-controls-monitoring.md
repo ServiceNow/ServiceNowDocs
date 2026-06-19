@@ -2,6 +2,7 @@
 title: View detected mitigations
 description: You must activate policies before you can view which threats to your assets are mitigated by available mitigation controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/spc-activate-controls-monitoring.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -15,7 +16,7 @@ You must activate policies before you can view which threats to your assets are 
 
 ## Before you begin
 
-Verify you have completed the requirements listed in [Install and configure the CrowdStrike integrations for mitigation controls monitoring](spc-install-config-controls.md), [Install and configure the Service Graph Connector for Microsoft SCCM and the Microsoft Defender Mitigation Control Integration](spc-install-config-sccm-defender.md) and [Configure the F5 BIG-IP integrations for mitigation controls monitoring](spc-install-config-f5-controls.md).
+Verify you have completed the requirements listed in [Install and configure the CrowdStrike integrations for mitigation controls monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-install-config-controls.md), [Install and configure the Service Graph Connector for Microsoft SCCM and the Microsoft Defender Mitigation Control Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-install-config-sccm-defender.md) and [Configure the F5 BIG-IP integrations for mitigation controls monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/spc-install-config-f5-controls.md).
 
 Roles required: SPC Admin Group and SPC Analyst Group.
 

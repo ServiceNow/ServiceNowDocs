@@ -2,6 +2,7 @@
 title: Join and end a conference call from incident communications management
 description: After a conference call is initiated, join the call to participate in the discussion or end the call when the conference is no longer required.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/join-end-conference-call-from-icp.html
 release: australia
 product: Notify
 classification: notify
@@ -29,15 +30,15 @@ Role required: notify\_view, ia\_admin or notify\_setup\_admin
 
 4.  For the relevant incident communications task, under **Actions**, perform one of the following actions.
 
-<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d626710e92">
+<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d563643e92">
 
 Option
 
-</th><th align="left" id="d626710e95">
+</th><th align="left" id="d563643e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d626710e101">
+</th></tr></thead><tbody><tr><td id="d563643e101">
 
 **Join Conference Call**
 
@@ -45,7 +46,7 @@ Description
 
 If you are not already logged into the conference call, you can join the conference.
 
-</td></tr><tr><td id="d626710e112">
+</td></tr><tr><td id="d563643e112">
 
 **End Conference Call**
 
@@ -55,5 +56,5 @@ End the conference when the discussion is over.**Note:** The work notes get upda
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Notify with Incident Communications Management](../concept/c_NotifyWithIncidentAlert.md)
+**Parent Topic:**[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)
 

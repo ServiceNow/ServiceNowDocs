@@ -2,6 +2,7 @@
 title: Compare versions of a widget related record
 description: Compare an Angular Provider or ng-template against its previous version so that you check if your most recent code changes are causing issues on a portal page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/compare-related-record-changes.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -48,24 +49,24 @@ You can compare versions for these related records directly from your portal pag
     |Blue|New widget|
     |Red|Customized widget|
 
-4.  On a widget, click the information icon \(![Information icon](../image/info-icon.png)\).
+4.  On a widget, click the information icon \(\[Omitted image "info-icon.png"\] Alt text: Information icon\).
 
     Related records that you modified or developed are outlined in red.
 
-    ![Related records outlined in red](../image/outlined-in-red.png)
+    \[Omitted image "outlined-in-red.png"\] Alt text: Related records outlined in red
 
 5.  Next to a Angular Provider or ng-template record, click **Compare**.
 
     The system displays the records of the current and previous versions side by side.
 
-    ![Comparison between current and previous versions of a related record](../image/compare-related-record.png)
+    \[Omitted image "compare-related-record.png"\] Alt text: Comparison between current and previous versions of a related record
 
     Although both sides are labeled **Version**, the left-side record represents the previous version and the right-side record represents the current version.
 
-6.  For each field in which it appears, click the window icon \(![Window icon](../image/pop-out-icon.png)\) to open the code comparator.
+6.  For each field in which it appears, click the window icon \(\[Omitted image "pop-out-icon.png"\] Alt text: Window icon\) to open the code comparator.
 
     Your most recent changes to the widget code are highlighted in the code comparator.
 
-    ![Code comparator](../image/code-comparator.png)
+    \[Omitted image "code-comparator.png"\] Alt text: Code comparator
 
 

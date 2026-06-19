@@ -2,13 +2,14 @@
 title: Add workspace contract responsibilities in Workplace Central
 description: Add workplace responsibilities to indicate who \(landlord or tenant\) is responsible for different activities such as lawn maintenance, painting, repairing.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-lease-administration/wpc-add-workspace-contract-responsibilities.html
 release: australia
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Using Workplace Lease Administration, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add workspace contract responsibilities in Workplace Central
@@ -29,7 +30,7 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 4.  In the **Workplace Contract Responsibilities** related list, select **New**.
 
-5.  For field details in the Workplace Contract Responsibility form, see [Add workplace contract responsibilities in Core UI](add-workplace-contract-responsibilities.md).
+5.  For field details in the Workplace Contract Responsibility form, see [Add workplace contract responsibilities in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/add-workplace-contract-responsibilities.md).
 
 6.  Select **Submit**.
 
@@ -38,5 +39,5 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 The workplace contract responsibilities are added.
 
-**Parent Topic:**[Create workplace contracts in Workplace Central](wpc-create-lease-contracts.md)
+**Parent Topic:**[Create workplace contracts in Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-lease-administration/wpc-create-lease-contracts.md)
 

@@ -2,9 +2,12 @@
 title: Subscriptions form for the OTM products
 description: Learn about the essential fields and indicators found on the Subscriptions form for our products, enabling streamlined subscription management and clarity in your OTM product usage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/otm-subscriptions-form.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -40,8 +43,8 @@ The licensing module calculates and displays subscription consumption as follows
 
     The Subscriptions window displays the information for purchased and allocated subscriptions for OTM applications.
 
-    ![Subscriptions window displaying subscriptions purchased a la carte.](../image/otm-itom-license-summary-carte.png "Subscriptions window displaying subscriptions purchased a la carte")
+    \[Omitted image "otm-itom-license-summary-carte.png"\] Alt text: Subscriptions window displaying subscriptions purchased a la carte.
 
 
-**Parent Topic:**[OTM SU Licensing References](otm-su-licensing-references.md)
+**Parent Topic:**[OTM SU Licensing References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/otm-su-licensing-references.md)
 

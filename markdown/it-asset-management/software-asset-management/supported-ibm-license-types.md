@@ -2,6 +2,7 @@
 title: Supported IBM license types
 description: The Software Asset Management publisher pack for IBM adds license metrics for various IBM license types.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/supported-ibm-license-types.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -15,12 +16,12 @@ breadcrumb: [Software Asset Management publisher pack for IBM, Supported softwar
 
 The Software Asset Management publisher pack for IBM adds license metrics for various IBM license types.
 
--   **[IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](ibm-pvu-rvu-licensing.md)**  
+-   **[IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md)**  
 If you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, you can track and manage IBM PVU and RVU licenses. Alternatively, you can track and manage these licenses when you integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 1 or 2 of the integration APIs.
--   **[IBM user-based licenses](ibm-user-based-licensing.md)**  
+-   **[IBM user-based licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-user-based-licensing.md)**  
 You can use the Software Asset Management publisher pack for IBM to track and manage your IBM user-based licenses, including authorized user licenses and user value unit \(UVU\)-based licenses.
--   **[IBM virtual processor core \(VPC\) licenses](ibm-virtual-processor-core-licensing.md)**  
+-   **[IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md)**  
 If you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, you can track and manage IBM VPC licenses. Alternatively, you can track and manage these licenses when you integrate with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 2 of the integration APIs.
 
-**Parent Topic:**[Software Asset Management publisher pack for IBM](ibm-publisher-pack.md)
+**Parent Topic:**[Software Asset Management publisher pack for IBM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/ibm-publisher-pack.md)
 

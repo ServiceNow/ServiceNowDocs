@@ -2,6 +2,7 @@
 title: Tune a trained classification solution
 description: Tune the performance of a trained classification solution by configuring class level precision and coverage values.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/configure-class-precision-coverage.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence

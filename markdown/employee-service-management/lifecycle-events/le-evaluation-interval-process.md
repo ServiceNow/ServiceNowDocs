@@ -2,11 +2,12 @@
 title: View and use the Condition with Event BR \(Demo\) activity set
 description: You can trigger activity sets using an event that is included in the Condition with Event BR \(Demo\) activity set or you can create and use server-side code \(business rule, event script, scheduled job, etc.\) that triggers the check\_activity\_set\_trigger event into the HR Activity Set Trigger Check workflow.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/lifecycle-events/le-evaluation-interval-process.html
 release: australia
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Lifecycle Events evaluation interval, Configure a lifecycle event, Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -33,10 +34,10 @@ Role required: admin
 
     **Note:** The **Condition with Event BR \(Demo\)** activity set is an example of what you can use. This is an optional solution, but you can create and use server-side code \(business rule, event script, scheduled job, etc.\) that triggers the check\_activity\_set\_trigger event into the HR Activity Set Trigger Check workflow.
 
-5.  Select the edit \(![Edit icon](../../legal-mobile/image/edit-icon.png)\) in the **Condition with Event BR \(Demo\)** activity set.
+5.  Select the edit \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\) in the **Condition with Event BR \(Demo\)** activity set.
 
     -   The **Trigger type** is **Condition**.
     -   When the **State** of the LE/HR case changes to **Work in Progress**, the **Condition with Event BR \(Demo\)** activity set triggers and sends a email.
 
-**Parent Topic:**[Lifecycle Events evaluation interval](../concept/le-evaluation-interval1.md)
+**Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

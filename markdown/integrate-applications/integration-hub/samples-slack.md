@@ -2,6 +2,7 @@
 title: Automate and customize Slack tasks
 description: Automate Slack tasks as per your requirement, using the sample these scenarios as a reference.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/samples-slack.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -21,17 +22,17 @@ You can use the default outbound configurations, inbound decisions, and subflows
 
 Perform these steps to automate events such as, create incident records, based on the Slack commands:
 
-1.  Configure the Slack commands on the Slash Commands page of your custom application. For more information, see [Configure Slack app](../../integrationhub/tasks/configure-slack-workspace.md).
+1.  Configure the Slack commands on the Slash Commands page of your custom application. For more information, see [Configure Slack app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-slack-workspace.md).
 2.  In Workflow Studio, create a subflow configure to create the incident records as per your requirement or create a copy of the default subflow, Respond to Slack Command, and configure it.
 
     **Note:** Create an action and use the payload in the subflow input as per your requirement.
 
-3.  [Configure inbound decisions in ServiceNow instance](../task/conf-inbound-slack.md).
+3.  [Configure inbound decisions in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-inbound-slack.md).
     1.  In the **Condition**, ensure that you specify the value of **command** as `/now` and specify the required parameters.
 
         **Note:** You can specify up to 2 parameters in your condition to trigger the required subflow.
 
-        ![Slack command](../image/slack-command.png)
+        \[Omitted image "slack-command.png"\] Alt text: Slack command
 
     2.  In **Answer**, select the subflow you had configured.
 
@@ -44,15 +45,15 @@ When a Slack user enters the command, `/now create incident <text>`, the conditi
 
 ## Automate message actions
 
-1.  In your Slack custom application, create a shortcut that appears on messages and enter the value, `post_message_now` for **Callback ID**. For more information, see [Configure Slack app](../../integrationhub/tasks/configure-slack-workspace.md).
+1.  In your Slack custom application, create a shortcut that appears on messages and enter the value, `post_message_now` for **Callback ID**. For more information, see [Configure Slack app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/configure-slack-workspace.md).
 2.  In Workflow Studio, create a subflow configure to create the incident records as per your requirement or create a copy of the default subflow, Respond to Slack Message Action, and configure it.
 
     **Note:** Create an action and use the payload in the subflow input as per your requirement.
 
-3.  [Configure inbound decisions in ServiceNow instance](../task/conf-inbound-slack.md).
+3.  [Configure inbound decisions in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-inbound-slack.md).
     1.  In the **Condition**, ensure that you specify the value of **callback\_id** as `post_message_now` and specify the required parameters.
 
-        ![Provide the required callback_id.](../image/message-action.png)
+        \[Omitted image "message-action.png"\] Alt text: Provide the required callback\_id.
 
     2.  In **Answer**, select the subflow you had configured.
 
@@ -64,13 +65,13 @@ Perform these steps to automate posting an approval message on a Slack channel.
 
     **Note:** Create an action and use the payload in the subflow input as per your requirement.
 
-2.  [Configure outbound configurations in ServiceNow instance](../task/conf-outbound-slack.md)
+2.  [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-outbound-slack.md)
     1.  Open the default outbound configuration, **Approval Message**.
     2.  In **Action ID** , specify the unique identifier for automating the task of posting an acknowledgement message. For example, value of **Action ID** can be `approval_request`.
-3.  [Configure inbound decisions in ServiceNow instance](../task/conf-inbound-slack.md).
+3.  [Configure inbound decisions in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-inbound-slack.md).
     1.  In the **Condition**, ensure that you specify the value of **Action ID** as `approval_request`. You can specify other conditions as per your requirement.
 
-        ![Provide value for Action ID.](../image/action-id.png)
+        \[Omitted image "action-id.png"\] Alt text: Provide value for Action ID.
 
     2.  In **Answer**, select the subflow you had configured.
 
@@ -84,10 +85,10 @@ Perform these steps to automate assigning request:
 
     **Note:** Create an action and use the payload in the subflow input as per your requirement.
 
-2.  [Configure outbound configurations in ServiceNow instance](../task/conf-outbound-slack.md).
+2.  [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-outbound-slack.md).
     1.  Open the default outbound configuration, **On Call: Assign by Acknowledgement**.
     2.  In **Action ID** , specify the unique identifier for automating the task of posting an acknowledgement message. For example, value of **Action ID** can be `on_call_assign_by_acknowledgement`.
-3.  [Configure inbound decisions in ServiceNow instance](../task/conf-inbound-slack.md).
+3.  [Configure inbound decisions in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-inbound-slack.md).
     1.  In the **Condition**, ensure that you specify the value of **Action ID** as `on_call_assign_by_acknowledgement`. You can specify other conditions as per your requirement.
     2.  In **Answer**, select the subflow you had configured.
 
@@ -95,7 +96,7 @@ Perform these steps to automate assigning request:
 
 Perform these steps to automate posting an actionable message:
 
-1.  [Configure outbound configurations in ServiceNow instance](../task/conf-outbound-slack.md).
+1.  [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-outbound-slack.md).
     1.  Open the default outbound configuration, **On Call: Assign by Acknowledgement**.
     2.  Select **Target Table** and **Fields** as per your requirement. For example, **short\_description** and **priority** from the **Task \[task\]** table.
     3.  Select **Buttons** as per your requirement. For example, `Accept` and `Reject`.
@@ -106,7 +107,7 @@ Perform these steps to automate posting an actionable message:
 
     1.  In the **Record Sys\_ID** input, provide the sys ID of the required record. For example, specify the sys ID of the task record.
     2.  In the **Template** input, select template you had created in the outbound configurations.
-3.  [Configure inbound decisions in ServiceNow instance](../task/conf-inbound-slack.md).
+3.  [Configure inbound decisions in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/conf-inbound-slack.md).
     1.  In the **Condition**, ensure that you specify the value of **Action ID** as `on_call_assign_by_acknowledgement`. You can specify other conditions as per your requirement.
     2.  In **Answer**, select the subflow you had configured.
 

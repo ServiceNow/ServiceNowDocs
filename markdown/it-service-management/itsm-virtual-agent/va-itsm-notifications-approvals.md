@@ -2,6 +2,7 @@
 title: Actionable notifications for approvals in ITSM Virtual Agent
 description: Notify employees of approvals for requests with notifications from ITSM Virtual Agent.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/va-itsm-notifications-approvals.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -15,7 +16,7 @@ breadcrumb: [ITSM Virtual Agent pre-built actionable notifications, ITSM Virtual
 
 Notify employees of approvals for requests with notifications from ITSM Virtual Agent.
 
-You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](../task/setup-actionable-notifications.md).
+You must activate notifications in Workflow Studio in order to use them. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 Some of the default actionable notifications in ITSM Virtual Agent that need approvals are as follows:
 
@@ -29,29 +30,29 @@ Approvers can approve or reject the request directly in the chat. Approvers can 
 
 When an approval for a change is requested, Virtual Agent sends a notification to the end user who made the change request. The end user can be either the requester or the approver. Virtual Agent sends the notification to the end user, as applicable, who can then approve or reject the request, see details, or skip the notification.
 
-![Notification for approval details not configured task table.](../image/ApprovalsTask1.png)
+\[Omitted image "ApprovalsTask1.png"\] Alt text: Notification for approval details not configured task table.
 
 The fields shown below are the default fields for any task table \(the **Show Details** field is not configured for the Task extended table\).
 
-![Actionable notification for approval details not configured on the task table.](../image/ApprovalsTask2.png)
+\[Omitted image "ApprovalsTask2.png"\] Alt text: Actionable notification for approval details not configured on the task table.
 
 The fields below are the fields configured in the \_show\_approval\_details\_ topic \(the **Show Details** field is configured for the Task extended table\). Admin users can configure these fields by duplicating the topic and editing the approval\_default\_task\_fields script variable within the topic.
 
-![Actionable notification for approval details configured on the task table.](../image/ApprovalsTask4.png)
+\[Omitted image "ApprovalsTask4.png"\] Alt text: Actionable notification for approval details configured on the task table.
 
 ## KB request approved or rejected
 
 Virtual Agent sends a notification when an approval for a knowledge article is requested. End users approve or reject the request, see details, or skip the notification.
 
-![Approval for knowledge article fields configured.](../image/ApprovalKnowledge3.png)
+\[Omitted image "ApprovalKnowledge3.png"\] Alt text: Approval for knowledge article fields configured.
 
 The fields shown here are the fields configured in the \_show\_approval\_details\_ topic.​ Admin users can configure these fields by duplicating the topic and editing the approval\_default\_task\_fields script variable within the topic.
 
-![Approval for knowledge article fields configured.](../image/ApprovalKnowledge4.png)
+\[Omitted image "ApprovalKnowledge4.png"\] Alt text: Approval for knowledge article fields configured.
 
 For non-task tables, when no fields are configured in the \_show\_approval\_details\_ topic, a message displays with a link to the record being reviewed.
 
-![Notification for knowledge article approval.](../image/ApprovalKnowledge2.png)
+\[Omitted image "ApprovalKnowledge2.png"\] Alt text: Notification for knowledge article approval.
 
 ## Other approval
 
@@ -71,5 +72,5 @@ Virtual Agent notifies the approver about a newly created task that needs review
 
 This notification is not applicable for tasks such as Change or Standard Change. It is also not applicable to Requests \(sc\_requests\) and Requested Items \(sc\_req\_item\).
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](../concept/itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 

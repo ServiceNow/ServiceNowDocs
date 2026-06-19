@@ -2,6 +2,7 @@
 title: Proactive Customer Service - Advanced dashboard
 description: The Proactive Customer Service - Advanced dashboard helps customer service managers track key performance indicators \(KPIs\) to understand how proactive they were in identifying and communicating issues that impact customers. The dashboard also enables customer service managers to assess the business impact of outages over time. Install the Proactive Customer Service Advanced Dashboard plugin \(com.snc.pa.customer\_service\_advanced\) to view and monitor the advanced dashboards.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/analytics-and-reporting-solutions-for-customer-service/csm-proactive-monit-dashboard.html
 release: australia
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
@@ -19,13 +20,13 @@ The Proactive Customer Service - Advanced dashboard helps customer service manag
 
 To access the new Proactive Customer Service- Advanced dashboard, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **-Dashboard**, and select the Proactive Customer Service-Advanced dashboard. Upgrade customers can view the Proactive Customer Service Operations dashboard but should use the new Proactive Customer Service - Advanced dashboard.New customers on the Orlando and later releases can only view the Proactive Customer Service - Advanced dashboard.
 
-![Tab displaying different proactive case records and graph of affected customers per month from the Proactive Customer Service - Advanced dashboard.](../image/proactive-dashboard-overview-tab.png "Overview tab")
+\[Omitted image "proactive-dashboard-overview-tab.png"\] Alt text: Tab displaying different proactive case records and graph of affected customers per month from the Proactive Customer Service - Advanced dashboard.
 
-![Tab displaying percentage of acknowledged alerts from the Proactive Operations - Event Management.](../image/proactive-dashboard-event-management.png "Proactive Operations - Event Management tab")
+\[Omitted image "proactive-dashboard-event-management.png"\] Alt text: Tab displaying percentage of acknowledged alerts from the Proactive Operations - Event Management.
 
 **Note:** The Proactive Operations - Event Management tab is only visible if the Proactive Customer Service Operations plugin \(com.snc.proactive\_cs\_itom\) is activated.
 
-![Tab displaying graphs and trends based on case outages and top impacted customers from the Proactive Customer Service - Advanced dashboard.](../image/proactive-dashboard-outages-tab.png "Outages tab")
+\[Omitted image "proactive-dashboard-outages-tab.png"\] Alt text: Tab displaying graphs and trends based on case outages and top impacted customers from the Proactive Customer Service - Advanced dashboard.
 
 ## End user and roles
 

@@ -2,6 +2,7 @@
 title: Sign up \(apply\) for an opportunity
 description: Apply for an opportunity from the opportunity details page.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-sign-up-apply.html
 release: australia
 product: Opportunity Marketplace
 classification: opportunity-marketplace
@@ -79,5 +80,5 @@ This section enables you to add more relevant details about your experience by a
 </table>5.  Select **Sing up and apply** to submit your application to the opportunity owners.
 
 
-**Parent Topic:**[Use Opportunity Marketplace](../concept/egd-oppt-mrktplc-using.md)
+**Parent Topic:**[Use Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-using.md)
 

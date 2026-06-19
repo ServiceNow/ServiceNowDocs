@@ -2,6 +2,7 @@
 title: Set the reference currency
 description: Set the reference currency for the designated FX Currency field. The ServiceNow AI Platform uses the reference currency to convert values entered into the FX Currency field into a common currency for report aggregation purposes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/fx-currency-set-reference.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -38,5 +39,5 @@ Roles required: admin
 4.  Click **Save**.
 
 
-**Parent Topic:**[Configuring FX Currency field behavior](../concept/configure-fx-currency-field-behavior.md)
+**Parent Topic:**[Configuring FX Currency field behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/configure-fx-currency-field-behavior.md)
 

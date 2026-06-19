@@ -2,7 +2,10 @@
 title: Components installed with Customer Service CTI Demo Data
 description: Several types of components are installed with Customer Service CTI Demo Data.Business rules are added with activation of Customer Service CTI Demo Data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_InstalledWithCustServCTIDemoData.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1

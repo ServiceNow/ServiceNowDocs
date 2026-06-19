@@ -2,6 +2,7 @@
 title: Discovery Admin Workspace
 description: The Discovery Admin Workspace serves as a central location for monitoring, tracking, and completing discovery-related tasks. Experience a streamlined discovery process and greater efficiency with the integration of schedules, diagnostics, tuning, anomaly detection, and more within this single workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/discovery-admin-workspace.html
 release: australia
 product: Discovery
 classification: discovery
@@ -36,5 +37,5 @@ The following roles have access to the Discovery Admin Workspace:
 
 ## Dependencies
 
-For a list of Discovery Admin Workspace application dependencies, see [Plugins or applications installed with ITOM Visibility](../../it-operations-management/reference/plugin-app-itom-visibility.md).
+For a list of Discovery Admin Workspace application dependencies, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md).
 

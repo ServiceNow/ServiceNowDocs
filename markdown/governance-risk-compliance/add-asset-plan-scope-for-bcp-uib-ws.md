@@ -2,6 +2,7 @@
 title: Add asset and scope to the BCP
 description: Add an asset and the scope to the business continuity plan \(BCP\). You can then view the primary elements in the BCM Configurable Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-asset-plan-scope-for-bcp-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -32,7 +33,7 @@ You can use the Hierarchical view in the plan form to view the parent-child rela
 
 You can use the updated dependencies from the most recent BIA record to conduct a dependency assessment on an asset. Employing these updated dependencies enables you to accurately carry out the business impact analysis. Additionally, it assists in determining the essential recovery timeframe and data backup needs for the assets, which are then shown in the Required Recovery Timeframe and Required Data Backup columns of the BIA record.
 
-![Data in scope tab.](../image/data-pulled-in-scope-tab.png)
+\[Omitted image "data-pulled-in-scope-tab.png"\] Alt text: Data in scope tab.
 
 The Hierarchical view is used to evaluate the BIA, Recovery time objective \(RTO\), Recovery point objective \(RPO\), and Recovery tier \(RT\) values between the primary and related assets within a plan. The color coding helps Business Continuity Management \(BCM\) planners to compare these metrics:
 
@@ -43,11 +44,11 @@ The Hierarchical view is used to evaluate the BIA, Recovery time objective \(RTO
 
 For example, if the RTO value for the primary asset exceeds that of the related asset, it is marked in Green. If the RTO value for the primary asset is less than that of the related asset, it is marked in Red.
 
-![Columns updated.](../image/columns-plan-record-updated.png)
+\[Omitted image "columns-plan-record-updated.png"\] Alt text: Columns updated.
 
 When you hover over the information icon in the column, it shows the comparison data for the primary and related asset as shown in the example.
 
-![Hovering data.](../image/hovering-columns.png)
+\[Omitted image "hovering-columns.png"\] Alt text: Hovering data.
 
 ## Procedure
 
@@ -65,14 +66,14 @@ When you hover over the information icon in the column, it shows the comparison 
 
     The purpose of **source\_table\_fields** is to set the columns for the modal based on the asset types. The following examples show the columns that appear when you select **Add primary scope** for Applications and Business Processes asset types.
 
-    ![Assets shown when you select Add primary scope for the Applications asset types.](../image/assets1.png)![Assets shown when you select Add primary scope for the Business Processes asset types.](../image/assets2.png)
+    \[Omitted image "assets1.png"\] Alt text: Assets shown when you select Add primary scope for the Applications asset types.\[Omitted image "assets2.png"\] Alt text: Assets shown when you select Add primary scope for the Business Processes asset types.
 
     A sample plan with various asset types is shown in the example.
 
-    ![Business continuity plan with various asset types.](../image/bcp-plan-sample-asset-types.png)
+    \[Omitted image "bcp-plan-sample-asset-types.png"\] Alt text: Business continuity plan with various asset types.
 
 5.  Select **Save**.
 
 
-**Parent Topic:**[Structured workflows for BCPs](../concept/bcp-tasks-performed-by-bcp-owner.md)
+**Parent Topic:**[Structured workflows for BCPs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/bcp-tasks-performed-by-bcp-owner.md)
 

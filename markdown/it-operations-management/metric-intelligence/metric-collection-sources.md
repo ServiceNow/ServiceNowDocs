@@ -2,6 +2,7 @@
 title: Metric collection sources
 description: When setting up Metric Intelligence, you must configure a source for metric collection. Metric collection can be performed either by the Agent Client Collector, or by metric connectors.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/metric-collection-sources.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -15,9 +16,9 @@ breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations M
 
 When setting up Metric Intelligence, you must configure a source for metric collection. Metric collection can be performed either by the Agent Client Collector, or by metric connectors.
 
-The metric collection source determines where Metric Intelligence gathers metrics from. For details on gathering metrics using Agent Client Collector, see [Configuring Agent Client Collector Monitoring](configuring-agent-client-collector-monitoring.md).
+The metric collection source determines where Metric Intelligence gathers metrics from. For details on gathering metrics using Agent Client Collector, see [Configuring Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/configuring-agent-client-collector-monitoring.md).
 
-When gathering metrics with connectors, use either a SCOM or Dynatrace connector. For details on connecting metrics using a SCOM connector, see [Configure the SCOM connector instance](../../event-management/task/t_EMConfigureSCOMConnector.md).
+When gathering metrics with connectors, use either a SCOM or Dynatrace connector. For details on connecting metrics using a SCOM connector, see [Configure the SCOM connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureSCOMConnector.md).
 
-For details on connecting metrics using a Dynatrace connector, see [Configure the Dynatrace metrics connector instance](../../event-management/task/configure-dynatrace-connector.md).
+For details on connecting metrics using a Dynatrace connector, see [Configure the Dynatrace metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/configure-dynatrace-connector.md).
 

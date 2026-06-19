@@ -2,6 +2,7 @@
 title: Requesting translations in Localization Workspace
 description: Create and submit translation requests in Localization Workspace. Generate informational cost estimates for review and set a due date before submitting the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-workspace/requesting-translations-localization-workspace.html
 release: australia
 product: Localization Workspace
 classification: localization-workspace
@@ -19,38 +20,38 @@ Create and submit translation requests in Localization Workspace. Generate infor
 
 As a localization requester, you can create translation requests for multiple content types into multiple languages, all in one interface.
 
-You can save or modify a translation request before submitting it. When you submit the translation request, Localization Workspace creates and packages a project in [Localization Framework](../../localization-framework/concept/localization-framework-landing.md). Creating the project might take several minutes depending on the number of documents. When the project is ready, Localization Workspace sends the translation request to your third-party service provider.
+You can save or modify a translation request before submitting it. When you submit the translation request, Localization Workspace creates and packages a project in [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-framework-landing.md). Creating the project might take several minutes depending on the number of documents. When the project is ready, Localization Workspace sends the translation request to your third-party service provider.
 
-**Note:** From version 3.0.0, you can cancel a [TMS](../../localization-framework/concept/tms-configuration.md) translation request after submitting it. However, Localization Workspace does not contact your service provider. You should notify your provider directly regarding any cancellations.
+**Note:** From version 3.0.0, you can cancel a [TMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md) translation request after submitting it. However, Localization Workspace does not contact your service provider. You should notify your provider directly regarding any cancellations.
 
 On the Localization Workspace home page, the **Request Translation** button opens a wizard displaying a four-step process.
 
-1.  [Request translations in Localization Workspace: Languages](../task/lw-request-translations-langs.md)
+1.  [Request translations in Localization Workspace: Languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-request-translations-langs.md)
 
     Start a translation request by selecting available target languages or language groups.
 
-2.  [Request translations in Localization Workspace: Types](../task/lw-request-translations-types.md)
+2.  [Request translations in Localization Workspace: Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-request-translations-types.md)
 
     Add content types to a translation request. You can select multiple types of documents from tables across your instance. The system retrieves all available translatable documents for each selected content type.
 
-3.  [Request translations in Localization Workspace: Scope](../task/lw-request-translations-scope.md)
+3.  [Request translations in Localization Workspace: Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-request-translations-scope.md)
 
     Select or deselect specific documents from the retrieved list of content. Different documents can be selected for each language in the request.
 
-4.  [Request translations in Localization Workspace: Estimate and Due Date](../task/lw-estimate.md)
+4.  [Request translations in Localization Workspace: Estimate and Due Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-estimate.md)
 
     Generate an informational cost estimate as the last step in the Request Translation wizard. Review the estimate to plan and control your localization budget. Optionally add a due date for the request.
 
 
 ## Tracking translation requests
 
-When you save or submit a translation request, its record is displayed on the Home screen of Localization Workspace in the **My Requests** list. You can edit, archive, or cancel a translation request from My Requests. For more information, see [Localization Workspace Home and translation job status](lw-status-synchronization.md).
+When you save or submit a translation request, its record is displayed on the Home screen of Localization Workspace in the **My Requests** list. You can edit, archive, or cancel a translation request from My Requests. For more information, see [Localization Workspace Home and translation job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-workspace/lw-status-synchronization.md).
 
 ## Translation request due dates
 
 In the Estimate step of a translation request, the system suggests due dates based on the type of service provider. You can optionally accept the suggested due date, or you can use the calendar picker to choose another date. You can't choose a date that is earlier than the suggested date, however.
 
-From version 3.0.0, intelligent due dates are offered when requests are submitted through a [TMS](../../localization-framework/concept/tms-configuration.md). Localization Workspace suggests a due date based on the target language's word or character count, using the following industry-standard formula.
+From version 3.0.0, intelligent due dates are offered when requests are submitted through a [TMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/tms-configuration.md). Localization Workspace suggests a due date based on the target language's word or character count, using the following industry-standard formula.
 
 <table id="table_hjz_5hc_j3c"><thead><tr><th>
 

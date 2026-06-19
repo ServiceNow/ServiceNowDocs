@@ -2,6 +2,7 @@
 title: Configuring Data Privacy for Now Assist
 description: Configure a data privacy advanced configuration to de-identify personally identifiable information \(PII\) in generative AI applications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-privacy-classic/configure-now-assist-data-privacy.html
 release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
@@ -58,7 +59,7 @@ Role required: now\_assist\_data\_privacy\_admin
 
 7.  To add a data pattern to de-identify, select **Select Data Patterns**.
 
-8.  To create your own data pattern, see [Configure Data Discovery patterns](../task/configure-data-discovery-patterns.md).
+8.  To create your own data pattern, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/configure-data-discovery-patterns.md).
 
 9.  Select your data patterns, then select **Save**.
 

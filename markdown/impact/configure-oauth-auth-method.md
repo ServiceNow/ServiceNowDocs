@@ -1,17 +1,28 @@
 ---
-title: Configure the OAuth authentication method
-description: To configure the OAuth authentication method, you need create an OAuth authentication record, producer and consumer application registries for each instance that will send data, and then import the user, OAuth authentication record, and consumer application registries to the instances that will use the Scan Engine.
+title: Configure the OAuth authentication method development instance
+description: Set up OAuth authentication for instance-to-instance Scan Engine integrations using several stages, an integration user account, an OAuth2 configuration record, and provider and client application registries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/configure-oauth-auth-method.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Register your instance, Scan Engine integrations, Scan Engine, Platform Health, Using Impact, Impact]
+last_updated: "2026-05-28"
+reading_time_minutes: 3
+breadcrumb: [Register your instance, Scan Engine integrations, Configure the Impact Store Application, Configuring Impact, Impact]
 ---
 
-# Configure the OAuth authentication method
+# Configure the OAuth authentication method development instance
 
-To configure the OAuth authentication method, you need create an OAuth authentication record, producer and consumer application registries for each instance that will send data, and then import the user, OAuth authentication record, and consumer application registries to the instances that will use the Scan Engine.
+Set up OAuth authentication for instance-to-instance Scan Engine integrations using several stages, an integration user account, an OAuth2 configuration record, and provider and client application registries.
+
+## About this task
+
+OAuth requires a minimum of one provider record and two client records per connection direction. The provider is created on the instance that receives connections \(typically Production\); the client is created on the initiating instance \(typically Development\) and must also be present on the provider instance.
+
+**Note:**
+
+ServiceNow platform UI labels the outbound client record as consumer. This documentation uses the term client to align with standard OAuth terminology. The **OAuth API endpoint for clients** registry type is deprecated, use **Connect to a third-party OAuth Provider** instead.
 
 ## Before you begin
 
@@ -19,84 +30,94 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 
 ## Procedure
 
-1.  To assign a user or users the Integration role \(sn\_se.internal\_rest\_integration\), navigate to **ALL** &gt; **System Security** &gt; **Users and Groups** &gt; **Users**, and then select **New**.
+1.  Stage 1 — Confirm the integration user account
+2.  Confirm that the integration user account exists in both development and production instances, has the required roles assigned, and that the account password is recorded in a secure location for use in later stages.
 
-    For more information on creating a new user, see [Create new user form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-create-new-user-form.md).
+    If the account has not been created yet, complete [Create an integration user account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/task-create-integration-user.md) before continuing.
 
-2.  To create an OAuth authentication record, navigate to `sys_auth_profile_oauth2.list`, and then select **New**.
+3.  Stage 2 — Create an OAuth2 configuration record in the Development instance
+4.  Navigate to `sys_auth_profile_oauth2.list` and select **New**.
 
-    Ensure that the record:
+    If the username and password fields are not visible, customize the form to display them.
 
-    -   Is created in the Scan Engine scope
-    -   Contains the same username and password established for the user in step 1
-3.  Export the user \(from step 1\) and the OAuth authentication record \(from step 2\), and then import them to all instances that will use Scan Engine integrations.
+5.  Populate the **Name**, **Application** scope \(Scan Engine\), **Username** \(matching the integration user ID\), and **Password** fields.
 
-    Once the user is exported, you must reassign it the Integration role, as roles do not transfer during the export process. In addition, password fields may become corrupted during the import/export process, so ensure that they are still accurate.
+6.  **Submit** the record.
 
-4.  To establish a successful connection between instances, you must create a minimum of one provider and two consumer application registries.
+    If this record is imported to another instance, re-enter the password on that instance before use.
 
-    The provider serves as the endpoint. To create a connection that flows from the Development to the Production instance, you must create a provider on the Production instance.
+7.  Stage 3 — Configure the provider on the Development instance
+8.  Set the Application scope to **Scan Engine**.
 
-    By contrast, to create a connection that flows from the Production to the Development instance, you must create a provider in the Development instance. These providers will have corresponding consumer application registries in all instances they communicate with, including themselves. The same logic applies for any other environments \(for example, Test or Q&amp;A\).
+9.  Navigate to **ALL** &gt; **System OAuth** &gt; **Inbound Integrations** &gt; **New integration**.
 
-5.  To configure the provider application registry:
+10. Select **O-Auth- Resource Owner Password Credentials Grant**.
 
-    1.  On a Production instance, navigate to **All** &gt; **System OAuth** &gt; **Application Registry**, and then select **New**.
+11. Fill out the form only indicated as follows:
 
-    2.  Select **Create an OAuth API endpoint for external clients**.
+    |Field|Description|
+    |-----|-----------|
+    |Name|OAuth-Client-Dev|
+    |Provider Name|Leave empty.|
+    |Client ID|Copy the client id to a text file for later use.|
+    |Client secret|Enter the password used for the integration account for alignment purposes.|
+    |Comments|Leave empty.|
+    |Active|True|
+    |Auth scope|**useraccount**|
+    |Advanced options \(optional\): Token Format|**Opaque**|
 
-    3.  To configure the new application registry record form, set the **Name** to `[Instance Name] – Provider`, then set the **Client Secret**.
+12. Select **Save**.
 
-    4.  Make note of the Client ID and Client Secret entries as you will need them to populate the consumer OAuth application registry.
+    The new OAuth Client-Dev account will be listed in the inbound integrations list.
 
-    5.  Save the record.
+13. Stage 4 - Create the OAuth Provider application registry
+14. Navigate to **ALL** &gt; **System OAuth** &gt; **Application Registry** &gt; **New**.
 
-6.  Set up the consumer application registry.
+15. Select **Connect to an OAuth Provider \(simplified\)- Outbound**.
 
-    1.  On the Development instance, navigate to **ALL** &gt; **System OAuth** &gt; **Application Registry**, and then select **New**.
+    |Field|Value|
+    |-----|-----|
+    |Name|OAuth Provider - Dev|
+    |Client ID|Enter or paste the client id from the O-Auth- Resource Owner Password Credentials Grant step.|
+    |Client Secret|Enter the same password from the client integration account.|
+    |Default Grant Type|Resource Owner Password Credentials|
+    |Authorization URL|N/A|
+    |Redirect URL|Select the redirect URL Ex: https://dev.servicenow.com/oauth\_redirect.do|
+    |Token URL|Use the redirect URL with a suffix of "token", Ex: https://dev.servicenow.com/oauth\_token.do|
 
-    2.  Select **Connect to a third-party OAuth Provider**.
+16. **Save** the record.
 
-    3.  Configure the new application registry record form.
+    \[Omitted image "scan-engine-oauth-client-record.png"\] Alt text: OAuth Provider-Dev client record.
 
-        1.  Enter the Client ID and Client Secret for the provider application registry.
-        2.  Set the **OAuth API Script** to **OAuthUtil**.
-        3.  Verify that **Default Grant Type** is **Resource Owner Password Credentials**.
-        4.  Set the **Token URL** to `[provider instance url]/oauth_token.do`.
-    4.  Save the record.
+17. For the OAuthAPI Script, select **OAuthUtil**.
 
-7.  Initiate the connection between the provider and consumer instances.
+18. **Save** the record.
 
-    1.  Export the consumer application registry record to the consumer instance.
+19. Stage 5 - Set up the SN Instances
+20. Navigate to **All** &gt; **Scan Engine** &gt; **My SN Instances**.
 
-        The consumer record must exist in both the provider and consumer instances. Initiate this step on the provider \(Production\) instance, and then complete the step in the consumer \(Development\) instance.
+    If the My SN Instances record for this instance has not been created yet, complete [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md) before continuing.
 
-        **Important:** Once you import the record into the consumer instance, verify that the **Client Secret** matches the one you created previously.
+21. Open the existing instance record and configure the OAuth-specific fields as follows.
 
-    2.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**, and then open the **My SN Instances** related list.
+    |Field|Value|
+    |-----|-----|
+    |Authentication Type|OAuth|
+    |OAuth Application Registry|OAuth Provider-Dev|
+    |OAuth User Profile|New: Use the same integration account name, username, and password.|
 
-    3.  Populate the following fields with the information from the provider instance:
+22. Select **Submit**.
 
-        -   **Instance Name**: The provider instance name \(derived from the provider instance URL\).
-        -   **Instance URL**: The provider instance URL.
-        -   **Environment**: The provider environment type.
-        -   **Authentication Type**: OAuth.
-        -   **OAuth Application Registry**: “`[Provider instance] – Consumer`.
-        -   **OAuth User Profile**: The OAuth authentication record you created previously.
-    4.  Save the record, and then **Validate Connection**.
+23. Stage 6 - Validate connection
+24. Save the record, then select **Validate Connection**.
 
-        **Connection Status** should update to **Connection valid**.
+    Connection Status updates to `Connection valid`.
 
-8.  Export the My SN record to the provider instance.
+    **Note:** If the Connection status returns an Error: User not setup on target instance, refer to the Key Management Framework setup step in [Validate your instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/validate-instance-connection.md).
 
-    **Note:** You should export the My SN record rather than individually create it as the system IDs must match for a proper configuration.
 
-9.  Repeat steps 6 and 7 in [Configure the OAuth authentication method](configure-oauth-auth-method.md) for all additional instances that you want to configure with bidirectional communication, but designate a sub-production instance as the Provider, and the Production instance as the Consumer.
+-   **[Configure the OAuth authentication method production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-oauth-auth-method-prod.md)**  
+Export OAuth records from the development instance, import them into the production instance, correct Key Management Framework \(KMF\) credential encryption, and configure development-to-production authentication so that both instances can validate their connections to each other.
 
-    Information such as name and URL will be taken from the sub-production instance.
-
-    In the Development instance, the status field should now display **Connection Valid**. This indicates that setup is complete and the integration now moves bi-laterally.
-
-    **Note:** When setting up instances on the **My SN instances** related list, verify that each instance is connected to their respective OAuth application registry. Developer instances should be connected to `[Developer Instance] – Consumer`. Provider instances should be connected to `[Production Instance] – Consumer`.
-
+**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/register-your-instance.md)
 

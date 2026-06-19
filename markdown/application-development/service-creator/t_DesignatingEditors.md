@@ -2,6 +2,7 @@
 title: Designate an editor
 description: Editors can create and modify services within a service category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/service-creator/t\_DesignatingEditors.html
 release: australia
 product: Service Creator
 classification: service-creator
@@ -41,6 +42,6 @@ The service category manager can designate editors for a published service categ
 
     Editors receive the Catalog Editor role.
 
-    ![Service Creator Add Editors](../image/ServiceCreatorAddEditors.png)
+    \[Omitted image "ServiceCreatorAddEditors.png"\] Alt text: Service Creator Add Editors
 
 

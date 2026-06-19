@@ -2,6 +2,7 @@
 title: Improvement field descriptions
 description: Improvement Initiative form and related field descriptions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/continual-improvement-management/cim-field-descriptions.html
 release: australia
 product: Continual Improvement Management
 classification: continual-improvement-management
@@ -87,7 +88,7 @@ Strategies
 
 Strategic objectives impacted by the improvement initiative. Multiple strategic objectives can be selected. Strategic objectives can be added from the lookup list.
 
- The lookup list contains both Continual Improvement Management strategic objectives and business [enterprise strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/create-a-enterprise-strategy.md) to align with the improvement initiative.
+ The lookup list contains both Continual Improvement Management strategic objectives and business enterprise strategies to align with the improvement initiative.
 
  An enterprise strategy can be added from the navigation menu **Continual Improvement** &gt; **Enterprise Strategies**.
 
@@ -101,7 +102,7 @@ State
 
 </td><td>
 
-[State of the improvement initiative](cim-reference.md). This field is read only.
+[State of the improvement initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md). This field is read only.
 
 -   New
 -   Accepted
@@ -649,7 +650,7 @@ State
 
 </td><td>
 
-[State of the task](cim-reference.md).
+[State of the task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md).
 
 -   Pending
 -   Open
@@ -797,7 +798,7 @@ State
 
 </td><td>
 
-[State of the approval](cim-reference.md).
+[State of the approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md).
 
 -   Not Yet Requested
 -   Requested
@@ -833,5 +834,5 @@ Created
 Date the improvement initiative was created.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Continual Improvement Management reference](cim-reference.md)
+</table>**Parent Topic:**[Continual Improvement Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/continual-improvement-management/cim-reference.md)
 

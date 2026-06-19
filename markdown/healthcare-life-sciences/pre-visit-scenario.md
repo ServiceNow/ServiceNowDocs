@@ -2,6 +2,7 @@
 title: Pre-Visit Management - Workflow scenario
 description: Use the Pre-Visit Management application for streamlining pre-visit activities for a procedure request including patient to-dos, approvals, pre-authorization, and scheduling.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-visit-scenario.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

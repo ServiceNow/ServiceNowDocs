@@ -2,6 +2,7 @@
 title: Service catalog variables
 description: Service catalog variables capture and pass on information about choices a customer makes when ordering a catalog item. Variables help define the structure of a catalog item form that is displayed to the customer.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/c\_ServiceCatalogVariables.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -21,25 +22,25 @@ Service Catalog provides several types of variables, which are also referred to 
 
 You can define service catalog variables with the catalog\_admin role.
 
--   **[Types of service catalog variables](../reference/r_VariableTypes.md)**  
+-   **[Types of service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/r_VariableTypes.md)**  
 Variables allow you to specify questions for a catalog item. Several types of service catalog variables are provided. Some variable types accept variable attributes.
--   **[Create a service catalog variable](../task/t_CreateAVariableForACatalogItem.md)**  
+-   **[Create a service catalog variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_CreateAVariableForACatalogItem.md)**  
 Create service catalogs variables to gather information from users ordering a catalog item, for example, to ask users which options they want for the item.
--   **[Service catalog data lookup](c_ServiceCatalogDataLookup.md)**  
+-   **[Service catalog data lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/c_ServiceCatalogDataLookup.md)**  
 The Data Lookup and Record Matching Support for Service Catalog plugin offers similar features to the general Data Lookup and Record Matching Support plugin.
--   **[Audit service catalog variables](../task/t_AuditableServiceCatalogVariables.md)**  
+-   **[Audit service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/t_AuditableServiceCatalogVariables.md)**  
 Audit the variables so that the audit history records all changes to the named variables.
--   **[Service Catalog variable editors](service-catalog-variable-editor.md)**  
+-   **[Service Catalog variable editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-variable-editor.md)**  
 Variable editor displays variable values in fulfiller forms. A requester, while requesting the item, specifies these variable values in the catalog item questions.
--   **[Prefilling variable values on the catalog item form in the portal and Next Experience UIs](prefill-variable-values-catalog-item-form.md)**  
+-   **[Prefilling variable values on the catalog item form in the portal and Next Experience UIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/prefill-variable-values-catalog-item-form.md)**  
 When catalog item requesters want to order items on portals or Next Experience UI, you can set the catalog items to use the key-value pairs, which prefill the variable values. The requesters can finish forms faster.
 
-**Parent Topic:**[Service Catalog Reference](service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
 
 **Related topics**  
 
 
-[Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md)
+[bundle-crapiref.c_ScriptableServiceCatalogVariables]
 
-[Use service catalog variables in a report – Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/reporting/use-service-catalog-variables-in-report.md)
+[bundle-par.use-service-catalog-variables-in-report]
 

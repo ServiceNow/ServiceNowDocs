@@ -2,7 +2,10 @@
 title: Request an item or service from the Business Portal
 description: Browse the catalog and create a request for an item or a service from the business portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-request-from-businessportal.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -21,7 +24,7 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner,
 
 Users can make requests for a product or service from the business portal. Customer administrators, partners, and case managers can also make requests.
 
-**Note:** Creating a request from the business Portal portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](csm-itsm-integration-view-request.md).
+**Note:** Creating a request from the business Portal portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-itsm-integration-view-request.md).
 
 ## Procedure
 

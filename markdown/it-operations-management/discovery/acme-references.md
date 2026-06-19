@@ -2,6 +2,7 @@
 title: ACME reference
 description: Reference topics provide additional information about the Automated Certificate Management Environment \(ACME\), including tables, patterns, and terms.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/acme-references.html
 release: australia
 product: Discovery
 classification: discovery
@@ -15,5 +16,5 @@ breadcrumb: [Automated Certificate Management Environment, Certificate Inventory
 
 Reference topics provide additional information about the Automated Certificate Management Environment \(ACME\), including tables, patterns, and terms.
 
-To automate the processes of your certificate life-cycle, you must fill out routing policies that are filled in to the Certificate Authority forms. For a description of the fields in the Certificate Authority form, see [Certificate routing policy form table](certificate-routing-policy-form-table.md).
+To automate the processes of your certificate life-cycle, you must fill out routing policies that are filled in to the Certificate Authority forms. For a description of the fields in the Certificate Authority form, see [Certificate routing policy form table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
 

@@ -2,6 +2,7 @@
 title: Configure approval rules for control objective review
 description: Configure dynamic approval rules to define who must approve a control objective before it can be published.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/task\_configure\_approval\_rules.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -37,7 +38,7 @@ Any user or group can be configured as an approver through approval rules. When 
 
 3.  Configure the approvals for Control objective \(sn\_compliance\_policy\_statement\) table.
 
-    For more information, see [GRC Approval Configurator.](../../grc-policy-and-compliance/concept/grc-approval-configurator-for-policy-extension-and-exception.md)
+    For more information, see [GRC Approval Configurator.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/policy-and-compliance-management/grc-approval-configurator-for-policy-extension-and-exception.md)
 
 
 ## Result

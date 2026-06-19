@@ -2,6 +2,7 @@
 title: Data setup for business services
 description: Operational Resilience managers typically verify that data is set up for services or business services and monitor their resilience metrics on the dashboard. The Service \(CMDB\) Main node configuration fetches service-related data, while the Opres with CSDM header Main node configuration sets up the business services-related data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/setting-up-services-in-ws.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -17,11 +18,11 @@ Operational Resilience managers typically verify that data is set up for service
 
 A service performs a business-level function, such as email, IT services, e-commerce, or telephone banking. Existing customers use the Service \(CMDB\) Main node configuration, while new customers use the OpRes with CSDM header Main node configuration. The Service form or the business services form list risks, issues, control failures, and other areas that require attention.
 
-**Note:** Administrators can show or hide the **Services overview** or **Business services overview** tabs based on their organizational needs. For more information, see [Show Business services overview tab in Workspace view](../../grc-operational-res/concept/displaying-services-overview-tab.md).
+**Note:** Administrators can show or hide the **Services overview** or **Business services overview** tabs based on their organizational needs. For more information, see [Show Business services overview tab in Workspace view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/displaying-services-overview-tab.md).
 
 ## Setup of entity types and pillars
 
-Before proceeding, ensure that entity types and pillars are properly configured; refer to the [Setting up pillars, entity types, entity filters, and entities](../../grc-operational-res/concept/setting-up-hierarchy.md) for setup instructions.
+Before proceeding, ensure that entity types and pillars are properly configured; refer to the [Setting up pillars, entity types, entity filters, and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setting-up-hierarchy.md) for setup instructions.
 
 ## Vertical layout for Service records
 
@@ -33,15 +34,15 @@ When viewing a specific business service, such as "Cards and Payments," all depe
 
 This layout displays detailed information, including service dependencies, events, red flags data, and related issues, making it easier to read and understand.
 
-![Vertical layout for a business process.](../../grc-operational-res/image/ver-layout-bp.png)
+\[Omitted image "ver-layout-bp.png"\] Alt text: Vertical layout for a business process.
 
 ## Assigning the itil user role to the Operational Resilience administrators or managers
 
 To configure child services or processes for a service, assign the itil user role to Operational Resilience administrators or managers in the following steps.
 
-![Assign the itil user role-step-1.](../image/itil-role-to-manager-1.png "Assign the itil user role")
+\[Omitted image "itil-role-to-manager-1.png"\] Alt text: Assign the itil user role-step-1.
 
-![Assign the itil user role.](../image/itil-role-to-manager-2.png "Assign the itil user role-step-2")
+\[Omitted image "itil-role-to-manager-2.png"\] Alt text: Assign the itil user role.
 
 **Note:**
 
@@ -51,9 +52,9 @@ To add or remove services and processes in the Operational Resilience Workspace,
 
 You can add a service to Operational Resilience reporting by selecting the **Add to OpRes reporting** UI action as shown in the following example.
 
-**Note:** Instead of adding services directly to Operational Resilience reporting, set up the entity filters for the desired services. For instructions on setting up the entity filters, see [Setting up pillars, entity types, entity filters, and entities](../../grc-operational-res/concept/setting-up-hierarchy.md).
+**Note:** Instead of adding services directly to Operational Resilience reporting, set up the entity filters for the desired services. For instructions on setting up the entity filters, see [Setting up pillars, entity types, entity filters, and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/setting-up-hierarchy.md).
 
-![Add a\ service to OpRes reporting.](../image/opres-reporting.png "Add a service to OpRes reporting")
+\[Omitted image "opres-reporting.png"\] Alt text: Add a\\ service to OpRes reporting.
 
 **Note:** After adding a service to Operational Resilience reporting in the Operational Resilience Workspace, the **Add to OpRes reporting** option is no longer displayed in the UI for that service.
 
@@ -63,21 +64,21 @@ After adding a service to Operational Resilience reporting, you can view the **A
 
 On the **Overview** tab in the Service form, you can view the resilience metrics for a service as shown in the following example.
 
-![Resilience metrics on the Overview tab.](../../grc-operational-res/image/ver-layout.png "Resilience metrics on the Overview tab")
+\[Omitted image "ver-layout.png"\] Alt text: Resilience metrics on the Overview tab.
 
 The Red flags section displays the total number of red flags, red flags by type, and details of the assets that are impacted by the red flags.
 
 On the **Details** tab in the Service form, you can view the key attributes of a service as shown in the following example:
 
-![Key attributes on the Details tab.](../image/services-details-tab.png "Details tab")
+\[Omitted image "services-details-tab.png"\] Alt text: Key attributes on the Details tab.
 
 ## Child services, processes, and dependencies of a service
 
 When you add a service to Operational Resilience reporting, you can view and configure its child services, processes, and dependencies, as shown in the following examples.
 
-![Service form.](../image/tabs-business-service-view.png "Service form")
+\[Omitted image "tabs-business-service-view.png"\] Alt text: Service form.
 
-![Record form.](../image/tabs-business-service-view-2.png)
+\[Omitted image "tabs-business-service-view-2.png"\] Alt text: Record form.
 
 ## Reporting data for an object without a business service as the parent entity
 
@@ -412,7 +413,7 @@ Operational vulnerabilities associated with a service.
 
 When you add a service to the Operational Resilience reporting, the service is added as an entity of the Services \(OR\) type, as shown in the following example.
 
-![Service added as an entity.](../image/service-or-entity-type.png "Service added as an entity of Services (OR) type")
+\[Omitted image "service-or-entity-type.png"\] Alt text: Service added as an entity.
 
 All services in Operational Resilience belong to the Services pillar. As shown in the example, the Pillar column for the entities displays the Services pillar.
 
@@ -420,17 +421,17 @@ All services in Operational Resilience belong to the Services pillar. As shown i
 
 Similarly, a service \(as an entity\) can belong to multiple pillars. The following example shows a service that belongs to two pillars, such as the Services and Suppliers pillars.
 
-![Multiple pillars for one service.](../image/one-entity-multiple-pillars.png "Multiple pillars for one service")
+\[Omitted image "one-entity-multiple-pillars.png"\] Alt text: Multiple pillars for one service.
 
 ## Open dependency view and 360-degree view for a service
 
 In the Service form, you can select the **Open dependency view** option to display the infrastructure relationship for a service. The dependency view of a service displays its relationship with the parent services, child services, and processes as shown in the following example.
 
-![Dependency view of a service.](../image/sample-dependency-view.png "Dependency view of a service")
+\[Omitted image "sample-dependency-view.png"\] Alt text: Dependency view of a service.
 
 On the **360° view** tab, the Operational Resilience managers can monitor the 360-degree view of a service and measure its performance.
 
-![360° view.](../../grc-operational-res/image/bs-36-view.png)
+\[Omitted image "bs-36-view.png"\] Alt text: 360° view.
 
 If you have the Operational Resilience manager role, in the 360-degree view for a service, you can visualize the following entities:
 

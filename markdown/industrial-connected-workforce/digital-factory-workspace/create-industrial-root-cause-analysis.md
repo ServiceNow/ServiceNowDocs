@@ -2,6 +2,7 @@
 title: Create a root cause analysis
 description: Create and perform a root cause analysis \(RCA\) for an issue in the Digital Factory Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/create-industrial-root-cause-analysis.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -27,15 +28,15 @@ Role required: sn\_icw.rca\_user or sn\_icw.rca\_expert
 
 2.  On the Root cause analysis form, fill in the fields.
 
-    For a description of the field values, see [Root cause analysis form](../reference/root-cause-analysis-form.md).
+    For a description of the field values, see [Root cause analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/root-cause-analysis-form.md).
 
 3.  Select **Save**.
 
-    The Playbook opens that helps you get to the root of the problem. To learn more about Playbook Experience, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/playbook-ui.md).
+    The Playbook opens that helps you get to the root of the problem. To learn more about Playbook Experience, see .
 
 4.  On the Information Gathering form, fill in the fields.
 
-    For a description of the field values, see [Root cause analysis form](../reference/root-cause-analysis-form.md).
+    For a description of the field values, see [Root cause analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/root-cause-analysis-form.md).
 
 5.  Select **Mark complete**.
 
@@ -58,5 +59,5 @@ Role required: sn\_icw.rca\_user or sn\_icw.rca\_expert
 
 The new root cause analysis is displayed in the root cause analysis list and the list of all tasks.
 
-**Parent Topic:**[Root Cause Analysis](../concept/industrial-root-cause-analysis.md)
+**Parent Topic:**[Root Cause Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-root-cause-analysis.md)
 

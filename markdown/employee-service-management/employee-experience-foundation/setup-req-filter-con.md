@@ -2,6 +2,7 @@
 title: Set up the Requests filter condition
 description: Set up the filter conditions to provide a second-level filter options for the first-level filters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/setup-req-filter-con.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -31,6 +32,6 @@ Role required: sn\_hr\_sp.esc\_admin
 
 5.  On the Request filter conditions form, fill in the fields, and select **Submit**.
 
-    For a description of the field values, see [Request filter condition form](../reference/filter-cond-form-req.md).
+    For a description of the field values, see [Request filter condition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/filter-cond-form-req.md).
 
 

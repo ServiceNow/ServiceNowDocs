@@ -2,6 +2,7 @@
 title: Now Assist for Software Asset Management \(SAM\)
 description: Use the Now Assist for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.html
 release: australia
 product: Now Assist for Software Asset Management \(SAM\)
 classification: now-assist-for-software-asset-management-sam
@@ -23,19 +24,19 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
+For more information, see .
 
 <table id="table_gs5_rtm_bdc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Now Assist for SAM](exploring-now-assist-sam.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)
 
 </td><td>
 
-[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the Now Assist for SAM application to get started](../task/configure-now-assist-sam.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for SAM application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md)
 
 </td><td>
 
-[Use ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use generative AI capabilities offered by Now Assist for SAM](using-now-assist-sam.md)
+[Use \[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)
 
 </td></tr></tbody>
 </table>**Important:**
@@ -61,18 +62,18 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about legal request and/or legal matter \(including related field information, comments, and work notes\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about legal request and/or legal matter \(including related field information, comments, and work notes\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the Now Assist documentation.
 
--   **[Exploring Now Assist for Software Asset Management \(SAM\)](exploring-now-assist-sam.md)**  
+-   **[Exploring Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/exploring-now-assist-sam.md)**  
 With the Now Assist for Software Asset Management \(SAM\) application, Software Asset Management managers can use generative AI capabilities for tasks such as generating compliance summaries, optimization recommendations, and automating SaaS user resolution.
--   **[Configuring Now Assist for Software Asset Management \(SAM\)](../task/configure-now-assist-sam.md)**  
+-   **[Configuring Now Assist for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/configure-now-assist-sam.md)**  
 If you have the admin role, you can configure the Now Assist for Software Asset Management \(SAM\) application to use generative AI skills in the Software Asset Workspace.
--   **[Using agentic workflows in Now Assist for SAM](using-now-assist-sam-ai-agents-usecases.md)**  
+-   **[Using agentic workflows in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam-ai-agents-usecases.md)**  
 Use the Now Assist for SAM AI agent collection to complete tasks autonomously.
--   **[Using generative AI skills in Now Assist for SAM](using-now-assist-sam.md)**  
+-   **[Using generative AI skills in Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-for-software-asset-management-sam/using-now-assist-sam.md)**  
 If you have a Software Asset Management manager role, you can use generative AI capabilities to streamline your daily Software Asset Management workflow.
 
-**Parent Topic:**[Software Asset Management](../../software-asset-management2/concept/c_SoftwareAssetMgmt.md)
+**Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

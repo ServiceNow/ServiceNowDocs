@@ -1,19 +1,22 @@
 ---
-title: Set up Impact Value Management data collection apps
+title: Enable data collection for Value Management
 description: The Impact Value Management Data Collection apps are designed to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\). These applications enable you to efficiently gather, track, and analyze critical success metrics, ensuring data-driven decision-making and improved visibility into key performance trends.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/data-collection-toolkit.html
 release: australia
+product: Impact
+classification: impact
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Configuring Impact, Impact]
 ---
 
-# Set up Impact Value Management data collection apps
+# Enable data collection for Value Management
 
 The Impact Value Management Data Collection apps are designed to simplify and optimize the value metrics data collection process using Performance Analytics \(PA\). These applications enable you to efficiently gather, track, and analyze critical success metrics, ensuring data-driven decision-making and improved visibility into key performance trends.
 
-The Impact Value Management data collection apps are available in the ServiceNow Impact store application. These apps are accessible directly on a user’s own instance as part of the Impact package, eliminating the need for separate downloads from the store or individual content packs. By leveraging predefined data definitions within Performance Analytics \(PA\), customers can automatically collect essential data for value metrics. This streamlined approach enhances the accuracy and efficiency of data collection for value measurement, providing a seamless experience and improving both customer satisfaction and product evaluation in the value management within Impact.
+The Impact Value Management data collection apps are available in the ServiceNow Impact Store Application. These apps are accessible directly on a user’s own instance as part of the Impact package, eliminating the need for separate downloads from the store or individual content packs. By leveraging predefined data definitions within Performance Analytics \(PA\), customers can automatically collect essential data for value metrics. This streamlined approach enhances the accuracy and efficiency of data collection for value measurement, providing a seamless experience and improving both customer satisfaction and product evaluation in the value management within Impact.
 
 Impact Value Management data collection apps are delivered by the Impact squad with a detailed overview of the Report configuration options and potential implementation recommendations for collecting the data required for your objectives and outcomes, outcome performance report, and value reports that are part of the Impact program.
 
@@ -32,22 +35,22 @@ Impact Value Management data collection apps are delivered by the Impact squad w
 
     For more information, see:
 
-    -   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
-    -   [Use manual registration to establish the connection to the provider instance](../task/connect-instance-impact-store-app.md)
+    -   
+    -   [Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/connect-instance-impact-store-app.md)
 
 ## Get started
 
 Get started with the Data Collection Content Pack for your respective product:
 
--   [Impact Value Management Data Collection for APM](data-collection-apm.md)
--   [Impact Value Management Data Collection Content Pack for App Engine](data-collection-app-engine.md)
--   [Impact Value Management Data Collection Content Pack for CSM](data-collection-csm.md)
--   [Impact Value Management Data Collection Content Pack for SAM](data-collection-sam.md)
--   [Impact Value Management Data Collection Content Pack for HAM](data-collection-ham.md)
--   [Impact Value Management Data Collection Content Pack for ITSM](data-collection-itsm.md)
--   [Impact Value Management Data Collection Content Pack for ITOM](data-collection-itom.md)
--   [Impact Value Management Data Collection Content Pack for HR](data-collection-hr.md)
--   [Impact Value Management Data Collection Content Pack for SecOps](data-collection-secops.md)
--   [Impact Value Management Data Collection Content Pack for SPM](data-collection-spm.md)
--   [Impact Value Management Data Collection Content Pack for IRM](data-collection-irm.md)
+-   [Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-apm.md)
+-   [Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-app-engine.md)
+-   [Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-csm.md)
+-   [Impact Value Management Data Collection Content Pack for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-sam.md)
+-   [Impact Value Management Data Collection Content Pack for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-ham.md)
+-   [Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itsm.md)
+-   [Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-itom.md)
+-   [Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-hr.md)
+-   [Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-secops.md)
+-   [Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-spm.md)
+-   [Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/data-collection-irm.md)
 

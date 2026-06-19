@@ -2,6 +2,7 @@
 title: Employee Health Screening
 description: Screen users before entering the workplace to ensure compliance with the organization's entry requirements, such as a temperature check and PPE. Require that users agree to comply with health and safety policies before they return to the workplace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/safe-workplace/employee-health-screening.html
 release: australia
 product: Safe Workplace
 classification: safe-workplace
@@ -17,25 +18,25 @@ Screen users before entering the workplace to ensure compliance with the organiz
 
 The ServiceNow® Employee Health Screening application enables organizations to screen users before entering the workplace to ensure compliance with the organization's entry requirements, such as a temperature check and personal protective equipment \(PPE\). Based on their own criteria, organizations can determine whether it’s safe for the user to enter the workplace. Organizations can use a reporting dashboard  to view trends by sites and record the return of users into  their  facilities.
 
-![Screen employees for fever and PPE before allowing them to enter the workplace](../image/health-screen-overview.png)
+\[Omitted image "health-screen-overview.png"\] Alt text: Screen employees for fever and PPE before allowing them to enter the workplace
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
-    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 
 ## Integrate with Customer Service Management
 
-Use ServiceNow® Customer Service Management and Employee Health Screening together to provide consumers and contacts with access to a health verification form on your Consumer or Customer Service Portals. Conduct health screenings for consumers and contacts before they can be granted entry to a location. For more information about using Customer Service Management with Employee Health Screening, see [Integrate Customer Service Management with Safe Workplace applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-integration-safe-workplace.md).
+Use ServiceNow® Customer Service Management and Employee Health Screening together to provide consumers and contacts with access to a health verification form on your Consumer or Customer Service Portals. Conduct health screenings for consumers and contacts before they can be granted entry to a location. For more information about using Customer Service Management with Employee Health Screening, see Integrate Customer Service Management with Safe Workplace applications.
 
 ## Use with other Safe Workplace suite applications
 
 Employee Health Screening is part of a suite of ServiceNow® Safe Workplace suite applications. Use it with these other applications to help your organization prepare its workforce and workplaces to resume operations after emergencies and pandemics like COVID-19.
 
--   With the [Employee Readiness Surveys](../../business-continuity/concept/employee-readiness-surveys.md) application, evaluate the readiness of your users to return to the workplace by asking them to fill in a survey.
--   With the [Emergency Outreach](../../business-continuity/concept/emergency-outreach.md) application, notify employees of important information about anticipated or occurring emergency situations. Send an outreach notification via email, mobile push message, or SMS message to request an employee response. You can also configure other preferred communication channels.
--   With the [Explore Workplace Core](../../workplace-service-delivery/concept/workplace-service-delivery-overview.md) application, prepare for the return of users by configuring and maintaining clean and socially distanced workspaces for them to use.
--   You can manage the inventory of safety equipment for your workforce with the [Workplace Personal Protective Equipment Inventory Management](../../ppe-inventory-management/concept/ppe-inventory-management.md) application.
+-   With the [Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/employee-readiness-surveys.md) application, evaluate the readiness of your users to return to the workplace by asking them to fill in a survey.
+-   With the [Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/emergency-outreach/emergency-outreach.md) application, notify employees of important information about anticipated or occurring emergency situations. Send an outreach notification via email, mobile push message, or SMS message to request an employee response. You can also configure other preferred communication channels.
+-   With the [Explore Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-core/workplace-service-delivery-overview.md) application, prepare for the return of users by configuring and maintaining clean and socially distanced workspaces for them to use.
+-   You can manage the inventory of safety equipment for your workforce with the [Workplace Personal Protective Equipment Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/ppe-inventory-management.md) application.
 
 All Safe Workplace suite applications are available in the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
@@ -100,30 +101,30 @@ All decisions in connection with the implementation of this application are at t
 
 ## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/hr-service-delivery-landing.md).
+-   Learn more about what's new and changed, see the .
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 
--   **[Install Employee Health Screening](../task/install-emp-health-screening.md#)**  
+-   **[Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/install-emp-health-screening.md)**  
 You can install the Employee Health Screening application if you have the admin role. This application includes demo data and installs the related store applications and plugins if they are not already installed.
--   **[Configure Employee Health Screening](../task/configure-health-screening.md#)**  
+-   **[Configure Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/configure-health-screening.md)**  
 Set properties to specify the global maximum temperature thresholds in Fahrenheit and Celsius. Temperatures taken during a health screening are compared to the global temperature threshold, established by the company, to allow or deny entry.
--   **[Add message for users during health screening](../task/add-screening-information-message.md)**  
+-   **[Add message for users during health screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/add-screening-information-message.md)**  
 Add an optional custom message for people to read during their health screenings with additional information or guidelines.
--   **[Add an email notification for daily health verification](../../business-continuity/task/add-daily-health-verification-notif.md)**  
+-   **[Add an email notification for daily health verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/add-daily-health-verification-notif.md)**  
 Add an Employee Readiness Surveys email notification to use for sending the survey link.
--   **[Verify your health status and compliance](../task/agree-compliance-return.md)**  
+-   **[Verify your health status and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/agree-compliance-return.md)**  
 Verify that you understand and will comply with your organization's safety requirements and policies before you can be allowed entry to the location.
--   **[Conduct a health screen for entry](../task/screen-returning-employee.md)**  
+-   **[Conduct a health screen for entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/screen-returning-employee.md)**  
 Use a health screen to verify a person's return requirement status to determine whether the person is able to enter the location.
--   **[Screen a visitor for entry to the workplace](../task/screen-visitor.md)**  
+-   **[Screen a visitor for entry to the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/screen-visitor.md)**  
 Verify the visitor's entry requirement status on your smartphone, tablet, or computer. Then complete and submit the health screening form to determine whether the visitor is able to enter the workplace.
--   **[Monitor progress with the Employee Health Screen Overview dashboard](../task/view-health-screen-dashboard.md)**  
+-   **[Monitor progress with the Employee Health Screen Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/view-health-screen-dashboard.md)**  
 View the dashboard to monitor the entry requests and assess how the return to the workplace is progressing. Evaluate the number of entry requests, how many requests were denied entry, and for what reason.
--   **[View entry requests](../task/view-entry-requests.md)**  
+-   **[View entry requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/view-entry-requests.md)**  
 Filter the list of entry requests that were completed to evaluate different areas of your return to work progress. Entry requests are the records submitted by the health screener for each employee who is screened before entry.
 
-**Parent Topic:**[Safe Workplace](../../human-resources/concept/safe-workplace.md)
+**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace/safe-workplace.md)
 

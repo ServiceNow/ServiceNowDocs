@@ -2,6 +2,7 @@
 title: View my personal schedule on the My Schedule report
 description: You can view when you are on call and the escalation lineup for a particular date range.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/on-call-scheduling/view-my-schedule-oncall.html
 release: australia
 product: On-Call Scheduling
 classification: on-call-scheduling
@@ -27,14 +28,14 @@ Role required: itil
 
     The User Rotation Schedules list shows the shift, the roster, and the start and end times for each timeslot.
 
-    ![User Rotation Schedules list](../image/NewMyOnCallScheduleDetails.png)
+    \[Omitted image "NewMyOnCallScheduleDetails.png"\] Alt text: User Rotation Schedules list
 
 3.  To view alternate rosters, expand an entry by clicking the arrow.
 
     The alternate roster appears for that timeslot. For example, if you are the primary contact, this list shows secondary and tertiary contacts for the timeslot.
 
-    ![Viewing alternate rosters](../image/NewMyOnCallScheduleDetailsExpand.png)
+    \[Omitted image "NewMyOnCallScheduleDetailsExpand.png"\] Alt text: Viewing alternate rosters
 
 
-**Parent Topic:**[Viewing schedules and request time-off](../../user-administration/concept/viewing-schedules-and-escalation.md)
+**Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)
 

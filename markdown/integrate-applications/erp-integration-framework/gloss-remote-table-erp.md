@@ -2,6 +2,7 @@
 title: remote table
 description: 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/gloss-remote-table-erp.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -15,5 +16,5 @@ breadcrumb: [Zero Copy Connector for ERP and ERP Semantic Mining glossary, Refer
 
 A remote table is an aggregation of the system of record tables that provide value when gathered in one table. The remote table is the foundation of the model. A candidate can consist of several remote tables.
 
-**Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](../../../build/erp-integration/reference/erp-integration-glossary.md)
+**Parent Topic:**[Zero Copy Connector for ERP and ERP Semantic Mining glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-glossary.md)
 

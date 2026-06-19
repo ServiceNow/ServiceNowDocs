@@ -2,6 +2,7 @@
 title: Invite a new member to a record feed
 description: The feed administrator can invite another user or a team to join a record feed.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/t\_InviteANewMemberToARecordFeed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -40,5 +41,5 @@ When users are invited, their membership state is initially **Invited**. When th
     The invited users receive an email notification.
 
 
-**Parent Topic:**[Use feeds in Live Feed](../concept/c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

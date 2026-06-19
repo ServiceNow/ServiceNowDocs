@@ -2,6 +2,7 @@
 title: Create a group for all care team members in Healthcare Operations Core
 description: Create a group for care team members with the sn\_hco.care\_team\_member role assigned so that users added to this group will inherit the collection of roles for Healthcare Operations Core.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hco-create-team-members-group.html
 release: australia
 product: Healthcare Operations Core
 classification: healthcare-operations-core

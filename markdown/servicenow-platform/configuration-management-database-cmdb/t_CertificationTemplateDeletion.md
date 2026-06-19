@@ -2,6 +2,7 @@
 title: Delete a Certification template
 description: Certification templates can be deleted.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CertificationTemplateDeletion.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb

@@ -2,6 +2,7 @@
 title: Add a business process to Operational Resilience reporting
 description: Add a business process to Operational Resilience reporting.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-bp.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Beginning with Operational Resilience, Release 21.0.x, records in the Services, 
     -   Business Services
     -   Service Offerings
     -   Business Process
-2.  To add a business process to the Operational Resilience application, select **New** in the Business processes list view and fill in the details regarding the business process on the [Create New Business Process form](../reference/create-new-business-process-form.md).
+2.  To add a business process to the Operational Resilience application, select **New** in the Business processes list view and fill in the details regarding the business process on the [Create New Business Process form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/create-new-business-process-form.md).
 
 3.  Select **Save**.
 

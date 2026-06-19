@@ -2,6 +2,7 @@
 title: Author and publish a Smart Assessment template
 description: Author and publish Smart Assessment template, and associate it with Work Order Task tables to create Smart Assessment questionnaires for work order tasks using this template.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/create-a-smart-assessment-template.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -18,6 +19,8 @@ Author and publish Smart Assessment template, and associate it with Work Order T
 ## Before you begin
 
 Role required: questionnaire\_admin
+
+Author and publish a Smart Assessment template 
 
 ## About this task
 
@@ -64,7 +67,7 @@ Assessment name
 
 </td><td>
 
-An optional alternative name for generated assessment that will display to respondents rather than the template name.
+An optional alternative name for generated assessment that will display to respondents rather than the template name.**Note:** To view this field, tap the Assessment name icon displayed alongside the **Template name** field.
 
 </td></tr><tr><td>
 
@@ -84,7 +87,8 @@ Category of the assessment template. This value should be **Field Service**.
 
  **Note:**
 
--   **Field Service** is the only **Purpose** available in Field Service Management for smart assessments. However, you can create and customize additional purposes, as required. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
+-   The **Purpose** field in the **Create assessment template** form corresponds to **Template category** in Smart Assessment Engine.
+-   **Field Service** is the only **Purpose** available in Field Service Management for smart assessments. However, you can create and customize additional purposes, as required. For more information, see .
 -   To view and use any template from the newly created purpose, ensure that you have access to the correct role associated with it.
 
 
@@ -101,7 +105,7 @@ Table to be assessed. Selecting multiple tables makes the scope a combination of
 
 5.  Fill in the template with overall instructions, questions, optional guidance for responding to a question, and sections that group the related questions.
 
-    For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-populate.md).
+    For more information, see .
 
 6.  Select **Save**.
 

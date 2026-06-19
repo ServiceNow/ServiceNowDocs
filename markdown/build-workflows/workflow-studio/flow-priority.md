@@ -2,6 +2,7 @@
 title: Flow priority
 description: Specify the priority that you want a background flow to have in relation to other flows waiting to be run. Run a group of higher priority flows before running any lower priority flows.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/flow-priority.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
@@ -39,7 +40,7 @@ Flows also lose their priority value when they pause for any reason. Flows that 
 
 By default, the system checks for cases where high-priority flows are being blocked by running lower priority flows. Whenever a low-priority runs for longer than two minutes, the system checks whether any higher priority flows have run in the last five minutes. If no high-priority flows have run recently, then the system checks the number of flows waiting to run in the event queue. If there’s a backlog of at least 100 high-priority flows waiting to run in the event queue, the system pauses the running low-priority flow. Pausing a flow preserves its context and data. A paused flow returns to the event queue to run when there’s a worker available to process it.
 
-If your low-priority flows aren’t running as expected, review the number of high-priority flows that your system generates and runs. See the design considerations for when to set a flow to high or low priority. If your low-priority flows are still not running, you can disable the pausing of low-priority with a system property. See [Workflow Studio flow system properties](../reference/flow-designer-system-properties.md) to change the value of the com.glide.hub.pause\_low\_priority\_flows\_enabled property.
+If your low-priority flows aren’t running as expected, review the number of high-priority flows that your system generates and runs. See the design considerations for when to set a flow to high or low priority. If your low-priority flows are still not running, you can disable the pausing of low-priority with a system property. See [Workflow Studio flow system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-designer-system-properties.md) to change the value of the com.glide.hub.pause\_low\_priority\_flows\_enabled property.
 
 ## Quick API support
 
@@ -70,10 +71,10 @@ Follow these design considerations when setting flow priority.
     Use the default flow priority when a flow has some time urgency when compared to other flows.
 
 
--   **[Show flow priority field](../task/show-flow-priority-field.md)**  
+-   **[Show flow priority field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/show-flow-priority-field.md)**  
 Configure the Setting list and form to show the Flow Priority field.
--   **[Set flow priority](../task/set-flow-priority.md)**  
+-   **[Set flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/set-flow-priority.md)**  
 Determine the order in which worker threads run background flows. Use a mix of flow priorities to distinguish between flows to defer and flows to run first.
 
-**Parent Topic:**[Flow administration](flow-administration.md)
+**Parent Topic:**[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/flow-administration.md)
 

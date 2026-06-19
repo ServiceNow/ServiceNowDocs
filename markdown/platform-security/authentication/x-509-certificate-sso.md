@@ -2,11 +2,12 @@
 title: X.509 certificates for SAML
 description: Store and activate the necessary IdP certificates for your SAML configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/x-509-certificate-sso.html
 release: australia
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [SAML 2.0 configuration using Multi-Provider SSO, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -19,5 +20,5 @@ The X.509 certificates are the IdP certificates that a SAML configuration uses. 
 
 **Note:** Polling occurs if the IdP is accessible outside of your network.
 
-![X.509 certificates](../image/x-509-certificate-saml.png)
+\[Omitted image "x-509-certificate-saml.png"\] Alt text: X.509 certificates
 

@@ -2,6 +2,7 @@
 title: Create an entitlement for the legacy Software Asset Management plugin
 description: You create software entitlements for both CIs and users from the same License Entitlement form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/software-asset-management/t\_CreateAnEntitlement.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -53,5 +54,5 @@ You can create these entitlements from the Asset Management application. Navigat
     |Cached|Internal flag set and used by software counters.|
 
 
-**Parent Topic:**[Software license entitlements for the legacy Software Asset Management plugin](t_CreatSWLicenseEntitlemnt.md)
+**Parent Topic:**[Software license entitlements for the legacy Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/software-asset-management/t_CreatSWLicenseEntitlemnt.md)
 

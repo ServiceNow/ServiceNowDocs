@@ -2,6 +2,7 @@
 title: Use the integrated experience and service feedback
 description: The integrated experience and service feedback enables quick feedback sharing across the Employee Center portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/using-ex-fdback.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -30,7 +31,7 @@ You can share your service experience feedback:
 -   After raising a Service Catalog item request.
 -   After accessing a Knowledge Base article.
 
-You can provide your overall user experience for a topic page or any other page on the portal. You can also provide feedback from the Virtual Agent. For more information on how to curate different types of feedback, see [Set up the feedback definition](../task/config-feedback-dfnition.md).
+You can provide your overall user experience for a topic page or any other page on the portal. You can also provide feedback from the Virtual Agent. For more information on how to curate different types of feedback, see [Set up the feedback definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-feedback-dfnition.md).
 
 Along with the rating, available for the service feedback types, you can choose to provide additional comments you may have.
 

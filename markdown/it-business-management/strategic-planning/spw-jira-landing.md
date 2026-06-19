@@ -2,6 +2,7 @@
 title: SPW Jira Integrations
 description: Improve visibility from strategy to execution with Jira Integration. This integration enables bi-directional syncing of Epics, Features, Capabilities, and Stories. While sprints are created in Enterprise Agile Planning \(EAP\) and synced to Jira, sprint status updates flow back from Jira to EAP.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/strategic-planning/spw-jira-landing.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
@@ -19,15 +20,15 @@ Improve visibility from strategy to execution with Jira Integration. This integr
 
 <table id="table_uk2_m12_nhc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore](../concept/exploring-spw-jira-integrations.md)![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about SPW Jira Integrations and its workflow.
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/exploring-spw-jira-integrations.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about SPW Jira Integrations and its workflow.
 
 </td><td>
 
-[Configure](../concept/configuring-spw-jira-integrations.md)![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up the integration between SPW and Jira.
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/configuring-spw-jira-integrations.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the integration between SPW and Jira.
 
 </td><td>
 
-[Reference](spw-jira-integrations-reference.md)![](../../../reuse/icons/brand-icons/bus-learn.svg)More information on roles, tables, and forms used in SPW Jira integration.
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/strategic-planning/spw-jira-integrations-reference.md)\[Omitted image "bus-learn.svg"\] Alt text:More information on roles, tables, and forms used in SPW Jira integration.
 
 </td></tr></tbody>
 </table>

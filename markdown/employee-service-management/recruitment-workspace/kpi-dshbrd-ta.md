@@ -2,6 +2,7 @@
 title: Talent Acquisition Dashboard
 description: The Talent Acquisition Dashboard helps get an overview of the workload and performance details of the hiring efforts in your organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/kpi-dshbrd-ta.html
 release: australia
 product: Recruitment Workspace
 classification: recruitment-workspace
@@ -28,7 +29,7 @@ The data visualization on the **Workload** tab is as follows:
 
 ## Dashboard data view
 
-![Data visualization displayed in the workload tab of the Talent Acquisition dashboard.](../images/ta-dashboard-workload.png "Workload tab view")
+\[Omitted image "ta-dashboard-workload.png"\] Alt text: Data visualization displayed in the workload tab of the Talent Acquisition dashboard.
 
 |Card|Data type|Description|
 |----|---------|-----------|
@@ -53,7 +54,7 @@ Apart from the data cards, you can use the following filters to skim through the
 -   Employment Type
 -   Created Date
 
-![Data visualization displayed in the performance tab of the Talent Acquisition dashboard.](../images/ta-hdasboard-performance.png "Performance tab view")
+\[Omitted image "ta-hdasboard-performance.png"\] Alt text: Data visualization displayed in the performance tab of the Talent Acquisition dashboard.
 
 |Card|Data type|Description|
 |----|---------|-----------|
@@ -66,5 +67,5 @@ Apart from the data cards, you can use the following filters to skim through the
 |Average time from application submission to hired|Number|Aggregated time that is spent from the submission of an application to hire.|
 |Application Time per State|Graph|Aggregated time an application remains in one state.|
 
-**Parent Topic:**[Recruitment Workspace reference](recruitment-workspace-reference.md)
+**Parent Topic:**[Recruitment Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/recruitment-workspace/recruitment-workspace-reference.md)
 

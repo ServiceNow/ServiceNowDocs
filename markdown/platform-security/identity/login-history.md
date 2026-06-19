@@ -2,6 +2,7 @@
 title: Viewing Login History in Identity Center
 description: Provides details about your login history.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/login-history.html
 release: australia
 product: Identity
 classification: identity
@@ -21,7 +22,7 @@ You can use the filters to specify login actions to help security investigations
 
 Pagination in the login history is 20 by default and can be set to a maximum of 100.
 
-![Login History Details](../images/login-history.png)
+\[Omitted image "login-history.png"\] Alt text: Login History Details
 
 Following are some of the other details from the Login History:
 

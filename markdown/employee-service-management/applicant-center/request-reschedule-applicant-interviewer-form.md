@@ -2,6 +2,7 @@
 title: Request reschedule form
 description: The request reschedule form provides the field descriptions required for an applicant or interviewer when requesting a recruiter to reschedule an interview.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/applicant-center/request-reschedule-applicant-interviewer-form.html
 release: australia
 product: Applicant Center
 classification: applicant-center

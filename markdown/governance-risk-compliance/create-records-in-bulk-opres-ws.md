@@ -2,6 +2,7 @@
 title: Create records in bulk
 description: Create records in bulk from the Digital resilience third-party registers using Third-party Risk Management rather than creating one record at a time for single or multiple entities. You can save time and effort by working on multiple records at a time.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/create-records-in-bulk-opres-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -31,7 +32,7 @@ Only DORA administrators can view the **Upload** option and perform this task.
 
     **Note:** Only DORA administrators can see the **Upload** option type and perform this task.
 
-    For descriptions of all these fields, see [Create New Excel download/upload request form](../../grc-vendor-risk/reference/tprm-excel-upload-download-req.md).
+    For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
     **Note:** You can only upload one type of record for each upload request. For example, if you made an upload request for Assessment records, you can only include Assessment record information in the template.
 
@@ -63,7 +64,15 @@ Only DORA administrators can view the **Upload** option and perform this task.
 
     The Microsoft Excel is attached to the form.
 
-11. Navigate to the **Result** section of the upload request to view the records that were uploaded successfully and any errors.
+11. View the **Result** section of the upload request to view the records that were uploaded successfully and any errors.
+
+    The Result panel of an Excel upload request shows the skipped, inserted, and updated record counts and warning messages.
+
+    \[Omitted image "excel-upload-request-result-panel.png"\] Alt text: Result panel of an Excel upload request showing skipped, inserted and updated record counts and warning messages.
+
+    The Number of skipped records, Number of inserted records, and Number of updated records counts summarize the upload outcome. The Messages text area lists per-row WARNING and INVALID\_VALUE entries, such as "LEI not found in GLEIF database", "Entity status is NULL, expected ACTIVE", or "Entity name mismatch".
+
+    Use these messages to identify the spreadsheet rows that need correction before re-uploading.
 
     1.  Correct the errors in the Microsoft Excel spreadsheet.
 
@@ -72,5 +81,5 @@ Only DORA administrators can view the **Upload** option and perform this task.
     The records are uploaded in bulk from the Digital resilience third-party registers.
 
 
-**Parent Topic:**[Using Digital resilience third-party registers](../concept/using-dg-registers.md)
+**Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/using-dg-registers.md)
 

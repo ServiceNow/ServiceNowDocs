@@ -2,6 +2,7 @@
 title: Restricted Binding functionality in case Bearer Authorization \[New in Security Center 7.0\]
 description: Use a system property and restricted binding to ensure that an access token generated using that entity can’t be used for UI calls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/sc-restricted-binding-functionality-in-case-bearer-authorization.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
@@ -19,7 +20,7 @@ Use the **glide.oauth.enforce\_restricted\_binding\_for\_ui** system property an
 
 When restricted binding is turned off, the access token generated can be used for UI calls regardless of the value of the system property.
 
-Ensure that **glide.oauth.enforce\_restricted\_binding\_for\_ui** is set to **true** and **Enforce Token Restrictions** is set to **true** in all OAuth entity entries. For details on OAuth entity entries, see [OAuth Inbound](../../../integrate/authentication/concept/oauth-inbound.md).
+Ensure that **glide.oauth.enforce\_restricted\_binding\_for\_ui** is set to **true** and **Enforce Token Restrictions** is set to **true** in all OAuth entity entries. For details on OAuth entity entries, see [OAuth Inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/oauth-inbound.md).
 
 ## More information
 
@@ -85,7 +86,7 @@ Category
 
 </td><td>
 
-[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 
 </td></tr><tr><td>
 
@@ -106,5 +107,5 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
+</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

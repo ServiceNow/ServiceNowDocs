@@ -2,6 +2,7 @@
 title: View the Cybersecurity Controls module
 description: View the Cybersecurity Controls module for a list of the Authority documents, Controls, Control Objectives, and CIS Indicator Templates mapped to specific CIS controls classified by domain, implementation group, and ISO controls.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/view-cybersecurity-controls.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -36,7 +37,7 @@ Beginning with the Australia release, Technology Controls Monitoring Accelerator
 
     You can view the module as shown in the example.
 
-    ![Technology Controls Monitoring module.](../image/tech-controls-monitoring.png)
+    \[Omitted image "tech-controls-monitoring.png"\] Alt text: Technology Controls Monitoring module.
 
     **Note:** The CIS controls module is renamed from CIS controls @R to Cybersecurity Controls. The Indicator Templates module is renamed to CIS Indicator Templates.
 
@@ -44,46 +45,46 @@ Beginning with the Australia release, Technology Controls Monitoring Accelerator
 
     The authority documents for source CIS, CIS v8, and CSA CCM v4 are listed as shown in the example.
 
-    ![Authority documents.](../image/techctrlmoni-auth-doc-module-csa-ccm-v4-src-added.png)
+    \[Omitted image "techctrlmoni-auth-doc-module-csa-ccm-v4-src-added.png"\] Alt text: Authority documents.
 
     The authority document ADCIS10002 is added for CIS v8. Similarly, AD0020002 is added for CSACCMv4.
 
-    For the authority document record, the Content References related list is added for mapping.![Content References related list.](../image/content-reference-rel-list-added-f-every-record-for-mapping.png)
+    For the authority document record, the Content References related list is added for mapping.\[Omitted image "content-reference-rel-list-added-f-every-record-for-mapping.png"\] Alt text: Content References related list.
 
     The citations associated with the authority document are shown in the example.
 
-    ![Authority document citation list](../image/auth-doc-asso-178-citations-rel-list-2.png)
+    \[Omitted image "auth-doc-asso-178-citations-rel-list-2.png"\] Alt text: Authority document citation list
 
 3.  Select **Citations**.
 
     The citations for source CIS, CIS v8, and CSA CCM v4 are listed as shown in the example.
 
-    ![Citations.](../image/techctrlmoni-citations-module-csa-ccm-v4-src-added.png)
+    \[Omitted image "techctrlmoni-citations-module-csa-ccm-v4-src-added.png"\] Alt text: Citations.
 
-    Every citation has a control objectives related list as shown in the example.![Control objectives related list.](../image/every-citation-one-control-obj-rel-list-3.png)
+    Every citation has a control objectives related list as shown in the example.\[Omitted image "every-citation-one-control-obj-rel-list-3.png"\] Alt text: Control objectives related list.
 
 4.  Select **Control Objectives**.
 
     The control objectives for source CIS, CIS v8, and CSA CCM v4 are listed as shown in the example.
 
-    ![Control objectives.](../image/techctrlmoni-control-obj-module-csa-ccm-v4-src-added.png)
+    \[Omitted image "techctrlmoni-control-obj-module-csa-ccm-v4-src-added.png"\] Alt text: Control objectives.
 
 5.  Select **CIS Indicator Templates**.
 
     The CIS indicator templates for source CIS, CIS v8, and CSA CCM v4 are listed as shown in the example.
 
-    ![CIS indicator templates.](../image/techctrlmoni-cis-indi-temp-module-csa-ccm-v4-src-added.png)
+    \[Omitted image "techctrlmoni-cis-indi-temp-module-csa-ccm-v4-src-added.png"\] Alt text: CIS indicator templates.
 
-    You can view the indicator templates for different sources. The following example shows the indicator templates for NIST CSF.![Indicator templates for NIST CSF.](../image/contr-obj-source-is-nist-csf-72-mappings.png)
+    You can view the indicator templates for different sources. The following example shows the indicator templates for NIST CSF.\[Omitted image "contr-obj-source-is-nist-csf-72-mappings.png"\] Alt text: Indicator templates for NIST CSF.
 
-    The Related source IDs column displays the source ID for the indicator template.![Related source IDs.](../image/indi-temp-1-1-mapped-to-prds3-idam1.png)
+    The Related source IDs column displays the source ID for the indicator template.\[Omitted image "indi-temp-1-1-mapped-to-prds3-idam1.png"\] Alt text: Related source IDs.
 
-    The indicator template is mapped to the Content column as shown in the example.![Indicator template is mapped to the Content column.](../image/cis-v8-indi-template-mapped-to-content-column.png)
+    The indicator template is mapped to the Content column as shown in the example.\[Omitted image "cis-v8-indi-template-mapped-to-content-column.png"\] Alt text: Indicator template is mapped to the Content column.
 
 6.  Select **CIS Indicator Templates**.
 
     The CIS Indicator Templates are displayed in the instance.
 
 
-**Parent Topic:**[Technology Controls Monitoring Accelerator](../concept/tech-controls-monitoring-accel.md)
+**Parent Topic:**[Technology Controls Monitoring Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/tech-controls-monitoring-accel.md)
 

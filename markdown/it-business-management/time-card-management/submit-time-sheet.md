@@ -2,6 +2,7 @@
 title: Submit a time sheet
 description: Once the time sheet is updated with time worked, you can submit the time sheet for the week to submit all the time cards for the week together.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/time-card-management/submit-time-sheet.html
 release: australia
 product: Time Card Management
 classification: time-card-management
@@ -21,9 +22,9 @@ Role required: timecard\_user
 
 ## About this task
 
-When a user submits a time sheet, the [time sheet policy](../concept/time-sheet-policies.md) assigned to the user is used for validation. If there is no time sheet policy assigned to the user, the default time sheet policy is used. Business rules prevent a user from submitting a time sheet in case any violation is found.
+When a user submits a time sheet, the [time sheet policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-sheet-policies.md) assigned to the user is used for validation. If there is no time sheet policy assigned to the user, the default time sheet policy is used. Business rules prevent a user from submitting a time sheet in case any violation is found.
 
-**Note:** You can also perform this task from the [Time Sheet Portal](submit-timesheet-workerportal.md).
+**Note:** You can also perform this task from the [Time Sheet Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/submit-timesheet-workerportal.md).
 
 ## Procedure
 
@@ -44,5 +45,5 @@ When a user submits a time sheet, the [time sheet policy](../concept/time-sheet-
 -   The time sheet moves to the Submitted state.
 -   All the time cards associated with the time sheet are also submitted automatically and move to the Submitted state.
 
-**Parent Topic:**[Time Sheets](../concept/time-sheets.md)
+**Parent Topic:**[Time Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/time-card-management/time-sheets.md)
 

@@ -2,6 +2,7 @@
 title: Closing a geometry or a polyline in a layer
 description: Close an unclosed line in a layer on the CAD editor.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/indoor-mapping/editing-a-shape-autocadv2.html
 release: australia
 product: Indoor Mapping
 classification: indoor-mapping
@@ -31,16 +32,16 @@ Role required: admin
 
     The editing panel displays a "The shape isn’t closed" validation message.
 
-    ![elected entity showing polyline as unclosed.](../images/wsd-autocad-polygon-shape-unclosed.png)
+    \[Omitted image "wsd-autocad-polygon-shape-unclosed.png"\] Alt text: elected entity showing polyline as unclosed.
 
 4.  Select **Close shape** to close the polylines automatically.
 
     The shape is closed.
 
-    ![Selected entity showing polyline as closed.](../images/wsd-autocad-polygon-shape-closed.png)
+    \[Omitted image "wsd-autocad-polygon-shape-closed.png"\] Alt text: Selected entity showing polyline as closed.
 
 5.  Select **Remove** to remove the element from the CAD drawing.
 
 
-**Parent Topic:**[Drawing and editing tools in the CAD editor](../concept/editing-tools-cad-editor.md)
+**Parent Topic:**[Drawing and editing tools in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/indoor-mapping/editing-tools-cad-editor.md)
 

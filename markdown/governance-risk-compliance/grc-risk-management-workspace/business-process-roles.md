@@ -2,6 +2,7 @@
 title: Business process roles
 description: Various roles are available for business process users and managers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/business-process-roles.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -50,5 +51,5 @@ Business process userbusiness\_process\_user
 This role must be assigned to the respective process owners who manage the business process that they own. With this role, they can update the business processes that they own and can also read any business process. This role can also be provided to users who are required to view the business processes in the organization and understand them better. In the context of GRC, users with the sn\_risk.user role are automatically assigned this role as this role enables them to manage the business processes they own as well as read all business processes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Risk Management reference](../reference/risk-management-reference.md)
+</table>**Parent Topic:**[Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/risk-management-reference.md)
 

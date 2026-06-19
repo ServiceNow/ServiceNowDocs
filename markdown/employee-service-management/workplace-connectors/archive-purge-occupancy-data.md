@@ -2,13 +2,14 @@
 title: Archive and Purge space occupancy data
 description: Archive and purge the Space Occupancy data \(sn\_wsd\_wc\_space\_occupancy\) table after every five days.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-connectors/archive-purge-occupancy-data.html
 release: australia
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Setup Workplace Connectors for occupancy data, Configure Workplace Connectors, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Archive and Purge space occupancy data
@@ -52,9 +53,9 @@ Role required: admin
     The Space occupancy data table records are deleted permanently.
 
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](../concept/setup-occupancy-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 
-**Previous topic:**[Retrieving Space Occupancy Data](space-occupancy-data.md)
+**Previous topic:**[Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/space-occupancy-data.md)
 
-**Next topic:**[Setup Workplace Connectors for environmental data](../concept/setup-environmental-data-connectors.md)
+**Next topic:**[Setup Workplace Connectors for environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-connectors/setup-environmental-data-connectors.md)
 

@@ -2,6 +2,7 @@
 title: NLU Workbench properties
 description: Refer to these system properties for the Natural Language Understanding \(NLU\) application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/nlu-service/nlu-instance-properties.html
 release: australia
 product: NLU Service
 classification: nlu-service
@@ -325,5 +326,5 @@ NLU Workbench - Advanced Features
 False
 
 </td></tr></tbody>
-</table>To get more feedback data from Virtual Agent \(VA\) chat logs, refer to the **Procuring additional VA feedback data on demand** section in the [Expert Feedback Loop documentation](../concept/nlu-expert-feedback-loop.md).
+</table>To get more feedback data from Virtual Agent \(VA\) chat logs, refer to the **Procuring additional VA feedback data on demand** section in the [Expert Feedback Loop documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md).
 

@@ -2,6 +2,7 @@
 title: Using Customer Service Problem Management
 description: By using Customer Service Problem Management, you can help diagnose and resolve the service problem cases identified in customer complaints.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/using-spm.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"

@@ -2,6 +2,7 @@
 title: Installed with Service Catalog
 description: Several types of components are installed with the Service Catalog.Script includes are added with activation of Service Catalog.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-catalog/r\_IWServiceCatalogMgmt.html
 release: australia
 product: Service Catalog
 classification: service-catalog
@@ -15,7 +16,7 @@ breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabili
 
 Several types of components are installed with the Service Catalog.
 
-**Parent Topic:**[Service Catalog Reference](../concept/service-catalog-reference.md)
+**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-catalog/service-catalog-reference.md)
 
 ## Script includes installed with Service Catalog
 

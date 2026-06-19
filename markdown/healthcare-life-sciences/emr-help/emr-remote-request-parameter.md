@@ -2,6 +2,7 @@
 title: Remote request parameter table
 description: The Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table stores all parameters that can be used across all remote request definitions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/emr-remote-request-parameter.html
 release: australia
 product: EMR Help
 classification: emr-help
@@ -19,7 +20,7 @@ The Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table stores
 
 The Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table has the following features:
 
--   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see [Customizations tracked by update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/customizations-tracked-update-sets.md).
+-   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see Customizations tracked by update sets.
 -   Models a request parameter originating from an EMR system.
 
 Role required to configure the table: sn\_ind\_rmt\_help.admin.
@@ -111,5 +112,5 @@ String
 Represents the EMR system that this parameter supports. To support all EMR systems, set this field to **any**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help data model tables](tables-installed-with-emr-help.md)
+</table>**Parent Topic:**[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)
 

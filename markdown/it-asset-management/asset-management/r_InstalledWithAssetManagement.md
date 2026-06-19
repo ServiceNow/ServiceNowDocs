@@ -2,6 +2,7 @@
 title: Installed with Asset Management
 description: Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/r\_InstalledWithAssetManagement.html
 release: australia
 product: Asset Management
 classification: asset-management
@@ -233,7 +234,7 @@ sam
 </td><td>
 
 -   Create, edit, change, and manage software licenses.
--   Edit the Software model field on a [Discovery models and software installations](../../software-asset-management2/concept/c_DiscoveryModels.md).
+-   Edit the Software model field on a [Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_DiscoveryModels.md).
 -   Approve a model. Has full control of the Software Asset Management application.
 -   Controls the Software Asset Management IBM PVU Process Pack, if activated.
 

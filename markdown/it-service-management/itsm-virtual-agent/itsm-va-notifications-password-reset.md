@@ -2,6 +2,7 @@
 title: Actionable notifications for Password Reset for Virtual Agent
 description: Use Virtual Agent to notify employees when their password is about to expire.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-virtual-agent/itsm-va-notifications-password-reset.html
 release: australia
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
@@ -15,13 +16,13 @@ breadcrumb: [ITSM Virtual Agent pre-built actionable notifications, ITSM Virtual
 
 Use Virtual Agent to notify employees when their password is about to expire.
 
-You must activate this notification in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](../task/setup-actionable-notifications.md).
+You must activate this notification in Workflow Studio. For details, see [Set up actionable notifications for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/setup-actionable-notifications.md).
 
 ## Password Expiration Reminder
 
 Virtual Agent notifies the user when their password is about to expire. Users can reset passwords and unlock accounts even if they are not logged in. When users are logged in, they can perform all actions, such as changing passwords. After changing or resetting a password, the user can’t change or reset the password for the next 24 hours.
 
-For more information about configuring password expiration, see [Configure password expiration reminder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/password-reset-expiration-setup.md).
+For more information about configuring password expiration, see .
 
-**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](../concept/itsm-actionable-notifications.md)
+**Parent Topic:**[ITSM Virtual Agent pre-built actionable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-virtual-agent/itsm-actionable-notifications.md)
 

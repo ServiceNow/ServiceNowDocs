@@ -2,6 +2,7 @@
 title: Create a scripted audit
 description: A scripted audit is an audit whose conditions are defined by a script.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/t\_CreateAScriptedAudit.html
 release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
@@ -307,7 +308,7 @@ Run this script
 
 </td><td>
 
-Audit script to run. This field is available only when the audit type is Scripted. The Audit form includes a sample script with instructions for performing the audit and generating the follow-on tasks. See [Script Methods](../reference/r_ScriptMethods.md) for a list of the methods provided and the accepted parameters.
+Audit script to run. This field is available only when the audit type is Scripted. The Audit form includes a sample script with instructions for performing the audit and generating the follow-on tasks. See [Script Methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configuration-management-database-cmdb/r_ScriptMethods.md) for a list of the methods provided and the accepted parameters.
 
 </td></tr></tbody>
 </table>

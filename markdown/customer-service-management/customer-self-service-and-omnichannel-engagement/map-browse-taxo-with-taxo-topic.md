@@ -2,6 +2,7 @@
 title: Configure a Portal Browse Taxonomy widget to work with the Portal Taxonomy Topic widget
 description: Enable users to access knowledge articles and catalog items in the Portal Taxonomy widget by selecting a topic on the card in the Portal Taxonomy Topic widget.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/map-browse-taxo-with-taxo-topic.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
@@ -17,9 +18,9 @@ Enable users to access knowledge articles and catalog items in the Portal Taxono
 
 ## Before you begin
 
-You must add and configure the Portal Browse Taxonomy widget before accessing taxonomic topic on the Portal Taxonomy Topic widget. Otherwise, a blank page displays on the Portal Taxonomy Topic widget. For more information, see [Add and configure the Portal Browse Taxonomy widget](config-portal-browse-taxo-widget.md).
+You must add and configure the Portal Browse Taxonomy widget before accessing taxonomic topic on the Portal Taxonomy Topic widget. Otherwise, a blank page displays on the Portal Taxonomy Topic widget. For more information, see [Add and configure the Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-browse-taxo-widget.md).
 
-You must add and configure the Portal Taxonomy Topic widget in your portal. For more information, see [Add and configure the Portal Taxonomy Topic widget](add-conf-port-taxo-topic.md).
+You must add and configure the Portal Taxonomy Topic widget in your portal. For more information, see [Add and configure the Portal Taxonomy Topic widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/add-conf-port-taxo-topic.md).
 
 Role required: sp\_admin
 

@@ -2,6 +2,7 @@
 title: Disable the org chart
 description: Disable your organizational chart either for a particular deployment channel or for the instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/now-assist-in-virtual-agent/disable-org-chart.html
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
@@ -29,15 +30,15 @@ The org chart displays in the Virtual Agent's interactive view whenever you open
 
 2.  Choose one of the following scenario's and complete the steps.
 
-<table id="choicetable_tpb_mgr_hhc"><thead><tr><th align="left" id="d51077e70">
+<table id="choicetable_tpb_mgr_hhc"><thead><tr><th align="left" id="d28876e70">
 
 Scenario
 
-</th><th align="left" id="d51077e73">
+</th><th align="left" id="d28876e73">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d51077e79">
+</th></tr></thead><tbody><tr><td id="d28876e79">
 
 **Disable the org chart at deployment channel level**
 
@@ -51,7 +52,7 @@ Steps
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d51077e128">
+</td></tr><tr><td id="d28876e128">
 
 **Disable the org chart at the instance level**
 

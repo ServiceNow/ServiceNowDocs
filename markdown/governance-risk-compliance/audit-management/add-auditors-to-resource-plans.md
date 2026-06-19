@@ -2,6 +2,7 @@
 title: Add auditors for an engagement from resource plans
 description: Assign audit tasks to auditors in an engagement from the resource plans. Resource plans track the cost associated to auditors. Considering this cost is important while planning the engagement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/add-auditors-to-resource-plans.html
 release: australia
 product: Audit Management
 classification: audit-management

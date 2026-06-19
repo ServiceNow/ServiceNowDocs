@@ -2,6 +2,7 @@
 title: Conversational contract search and insights Workflow
 description: Configure conversational contract search and insights workflow to enable searching information in contracts using natural language and dialogue-driven queries, making it easier to find relevant information.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro

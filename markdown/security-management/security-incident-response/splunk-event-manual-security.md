@@ -2,6 +2,7 @@
 title: Set up a profile for manual event forwarding
 description: Depending on the profile defined, Splunk ES notable events are forwarded manually as discrete notable events into the Security Operations environment of your ServiceNow AI Platform instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/splunk-event-manual-security.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -31,7 +32,7 @@ Create an event profile
 
 </td><td>
 
-See [Create a profile](../task/splunk-event-create-profile-manual-security.md)
+See [Create a profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-create-profile-manual-security.md)
 
 </td></tr><tr><td>
 
@@ -39,7 +40,7 @@ Map notable event fields
 
 </td><td>
 
-See [Explore Mapping](splunk-event-ingest_mapping-security.md)
+See [Explore Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest_mapping-security.md)
 
 </td></tr><tr><td>
 
@@ -47,7 +48,7 @@ Create custom mappings
 
 </td><td>
 
-See [Create mappings for Splunk ES notable event incident review and contributing event details \(manual forwarding\)](../task/splunk-event-ingest-map-manual-security.md)
+See [Create mappings for Splunk ES notable event incident review and contributing event details \(manual forwarding\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-map-manual-security.md)
 
 </td></tr><tr><td>
 
@@ -55,7 +56,7 @@ Preview the security incident
 
 </td><td>
 
-See [Preview security incident](../task/splunk-event-ingest-preview-security.md)
+See [Preview security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-ingest-preview-security.md)
 
 </td></tr><tr><td>
 
@@ -63,7 +64,7 @@ Set up your Splunk environment for manual ingestion
 
 </td><td>
 
-[Create a profile](../task/splunk-event-create-profile-manual-security.md)
+[Create a profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-event-create-profile-manual-security.md)
 
 </td></tr><tr><td>
 
@@ -71,7 +72,7 @@ Automate notable event updates and closure based on SIR incident status
 
 </td><td>
 
-See [Automate notable event updates and closures](../task/splunk-additional-security.md)
+See [Automate notable event updates and closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/splunk-additional-security.md)
 
 </td></tr></tbody>
 </table>

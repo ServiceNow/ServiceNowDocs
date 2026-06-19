@@ -2,6 +2,7 @@
 title: Read script helper functions for LFDocumentContentBuilder
 description: The LFDocumentContentBuilder provides utility functions to build document content. Use these functions to write the logic to extract the translatable content from any artifacts regardless of them using standard tables or not for translations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/localization-framework/lf-document-content-builder.html
 release: australia
 product: Localization Framework
 classification: localization-framework
@@ -194,5 +195,5 @@ saveTranslatedContent: function(documentContent) {
 }
 ```
 
-**Parent Topic:**[Artifact configurations](../concept/framework-configuration.md)
+**Parent Topic:**[Artifact configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/framework-configuration.md)
 

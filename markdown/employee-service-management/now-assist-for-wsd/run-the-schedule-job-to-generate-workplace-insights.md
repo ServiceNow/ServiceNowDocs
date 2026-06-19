@@ -2,6 +2,7 @@
 title: Run the scheduled job to generate workplace insights
 description: Run the Generate Workplace Insights - Weekly scheduled job to generate workplace insights based on the configured data source and prompt configuration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-wsd/run-the-schedule-job-to-generate-workplace-insights.html
 release: australia
 product: Now Assist for WSD
 classification: now-assist-for-wsd
@@ -40,5 +41,5 @@ The execution process involves:
 3.  Run the job by selecting **Execute Now**.
 
 
-**Parent Topic:**[Insight cards on the Workplace Central dashboard](../concept/insight-cards-on-the-workplace-central-dashboard.md)
+**Parent Topic:**[Insight cards on the Workplace Central dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-wsd/insight-cards-on-the-workplace-central-dashboard.md)
 

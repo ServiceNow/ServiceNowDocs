@@ -2,6 +2,7 @@
 title: Entity type New record form
 description: Use the Entity type new record form to create an entity type depending on your business requirement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/entity-type-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"

@@ -2,6 +2,7 @@
 title: Using Granular Delegation
 description: Employees can use Granular Delegation to delegate their tasks to another eligible employee.You can delegate an assigned task to another employee from your Employee Center.Use the Granular Delegates list to view a list of employees that you have delegated your tasks to. You can also delegate your tasks to another employee as an alternative to using the Employee Center.Use Granular Delegates list to view granular delegate records for the logged in user or employees that have delegated tasks to you.You can use Granular Delegation to delegate tasks from ServiceNow mobile.You can delegate tasks to other eligible users from the ServiceNow mobile.You can use the ServiceNow mobile to view tasks delegated to you.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/granular-delegation/granular-delegation-use.html
 release: australia
 product: Granular Delegation
 classification: granular-delegation
@@ -23,9 +24,9 @@ You can delegate an assigned task to another employee from your Employee Center.
 
 Role required: none
 
-You can also delegate an assigned task from the ServiceNow® mobile. For more information, see [Using granular delegation on ServiceNow mobile](granular-delegation-use.md#).
+You can also delegate an assigned task from the ServiceNow® mobile. For more information, see [Using granular delegation on ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/granular-delegation-use.md).
 
-**Note:** You must create delegation rules before you can delegate on-demand tasks. For more information, see [Create delegation rules](../task/create-delegation-rules.md).
+**Note:** You must create delegation rules before you can delegate on-demand tasks. For more information, see [Create delegation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-rules.md).
 
 ### Procedure
 
@@ -61,7 +62,7 @@ Start date
 
 </td><td>
 
-Select the **Show calendar** icon \(![Select date and time icon](../../../human-resources/image/select-date-time-icon.png)\) and select the date you want delegations to start.
+Select the **Show calendar** icon \(\[Omitted image "select-date-time-icon.png"\] Alt text: Select date and time icon\) and select the date you want delegations to start.
 
 </td></tr><tr><td>
 
@@ -69,7 +70,7 @@ End date
 
 </td><td>
 
-Click the **Show calendar** icon \(![Select date and time icon](../../../human-resources/image/select-date-time-icon.png)\) and select the date you want delegations to end.
+Click the **Show calendar** icon \(\[Omitted image "select-date-time-icon.png"\] Alt text: Select date and time icon\) and select the date you want delegations to end.
 
 </td></tr><tr><td>
 
@@ -86,11 +87,11 @@ Select the duties you want to assign to the delegate for the time period you sel
     -   An existing case of the delegator updated during the delegation period.
 6.  Select **Submit**.
 
-    **Note:** You can also navigate to **Granular Delegation** &gt; **My Delegates** and select **New**, or **Granular Delegation** &gt; **Create New Delegate** to assign your tasks to another employee. For more information, see [View my delegates](granular-delegation-use.md#).
+    **Note:** You can also navigate to **Granular Delegation** &gt; **My Delegates** and select **New**, or **Granular Delegation** &gt; **Create New Delegate** to assign your tasks to another employee. For more information, see [View my delegates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/granular-delegation-use.md).
 
 7.  Select the edit icon, then select **Remove delegate** to remove the delegate
 
-8.  Select the down arrow icon \[![Employee Center - Down arrow icon to show active delegations](../image/esc-down-arrow-icon.png) to view a list of delegates you have assigned your tasks to.
+8.  Select the down arrow icon \[\[Omitted image "esc-down-arrow-icon.png"\] Alt text: Employee Center - Down arrow icon to show active delegations to view a list of delegates you have assigned your tasks to.
 
 9.  Select the edit icon to remove delegates when you have multiple delegates.
 
@@ -105,7 +106,7 @@ Use the **Granular Delegates** list to view a list of employees that you have de
 -   Create one or more Delegation Rule records
 -   Verify that your delegate has access to the records specified by your delegation rules
 
-**Note:** Admins can use the **Create New Delegate** form to assign tasks from a delegator to a delegate. For more information, see [Create a delegate](../task/create-delegation-admin.md).
+**Note:** Admins can use the **Create New Delegate** form to assign tasks from a delegator to a delegate. For more information, see [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/granular-delegation/create-delegation-admin.md).
 
 ### Procedure
 
@@ -292,7 +293,7 @@ To delegate your tasks using the ServiceNow® mobile:
 -   Add details of the delegation
 -   Submit the delegation
 
-For more information on the ServiceNow® mobile application, see [ServiceNow Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-config-navigation.md).
+For more information on the ServiceNow® mobile application, see ServiceNow Mobile.
 
 ### Delegate tasks using the ServiceNow mobile
 
@@ -308,11 +309,11 @@ Role required: sn\_hr\_core.case\_writer
 
 2.  Select the HR profile icon in the top, right corner.
 
-    ![Granular Delegation Mobile - Home page](../image/gd-mobile-home.png)
+    \[Omitted image "gd-mobile-home.png"\] Alt text: Granular Delegation Mobile - Home page
 
-3.  Select the edit icon \(![Edit icon](../image/esc-edit-button.png)\).
+3.  Select the edit icon \(\[Omitted image "esc-edit-button.png"\] Alt text: Edit icon\).
 
-    ![Granular Delegation mobile - Add delegate](../image/gd-mobile-add-delegate.png)
+    \[Omitted image "gd-mobile-add-delegate.png"\] Alt text: Granular Delegation mobile - Add delegate
 
 4.  Select the **Add a Delegate** button.
 
@@ -372,9 +373,9 @@ You can use the ServiceNow® mobile to view tasks delegated to you.
 
 Role required: sn\_hr\_core.case\_writer
 
-Notification of delegated tasks are sent to your email address if your HR profile contains that information. For more information, see [HR Profile](../../../human-resources/concept/c_HRProfileRecords.md).
+Notification of delegated tasks are sent to your email address if your HR profile contains that information. For more information, see [HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md).
 
-**Note:** If your company uses Connect, you can choose what notifications you receive. For more information on notifications, see [Enable or disable Connect notifications globally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/t_EnableDisableConnectNotifications.md).
+**Note:** If your company uses Connect, you can choose what notifications you receive. For more information on notifications, see Enable or disable Connect notifications globally.
 
 #### Procedure
 

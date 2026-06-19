@@ -2,6 +2,7 @@
 title: GlideServletRequest - Scoped
 description: The GlideServletRequest API provides methods to use in processor scripts.Returns the MIME type of the body of the request.Returns the header value.Returns a comma-separated list of header names.Returns the header values.Returns the value of the parameter contained in the request URL.Returns a list of URL parameters that were used in the request URI.Returns the query string from the request.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideServletRequestScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ A useful global variable, *g\_target*, is available in processor scripts. It con
 
 The URL to a processor has the format: `https://<instance name.servicenow.com>/<path endpoint>.do?<parameter endpoint>=<value>` where the path endpoint and parameter endpoint are defined on the processor form.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideServletRequest - getContentType\(\)
 

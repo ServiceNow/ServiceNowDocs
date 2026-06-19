@@ -2,6 +2,7 @@
 title: JDBC step
 description: Create a reusable action to send SQL commands to a relational database.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/jdbc-step.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -24,9 +25,26 @@ Create a reusable action to send SQL commands to a relational database.
 
 The JDBC step is available as an Workflow Studio action step. Users with the action\_designer role can create a custom action with one or more action steps.
 
+## JDBC operations and MID Server timeouts
+
+For JDBC operations, execute the Data Stream Action asynchronously and poll the Attachments \[sys\_attachment\] table for results.
+
+The MID Server processes the SQL statement, while the instance/main thread waits for context payloads to be inserted into the attachment table to query the next record.
+
+You can adjust timeout values for JDBC operations with the following properties.
+
+-   **__com.snc.process\_flow.datastream.payload.timeout.seconds__**
+
+    The amount of time the instance waits for the payload to be available from the JDBC execution in the MID Server. A bounded property with a minimum value of 0 seconds and a maximum value of 7200 seconds. The default time is 600 seconds.
+
+-   **__com.snc.process\_flow.datastream.async\_child.timeout.seconds__**
+
+    The amount of time allocated for the execution of a child plan in the MID Server.A bounded property with a minimum value of 0 seconds and a maximum value of 7200 seconds. The default time is 60 seconds.
+
+
 ## Sanitizing inputs
 
-Escape all user inputs to eliminate the possibility of a malicious user from executing malicious SQL statements that can result in SQL injection on your target database. When you use data pills in JDBC step SQL statements, sanitize them first using [Sanitize SQL transform functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/sanitize-sql-transform-functions.md). This transform function category automatically appears when a data pill is dropped into the SQL Statement input.
+Escape all user inputs to eliminate the possibility of a malicious user from executing malicious SQL statements that can result in SQL injection on your target database. When you use data pills in JDBC step SQL statements, sanitize them first using Sanitize SQL transform functions. This transform function category automatically appears when a data pill is dropped into the SQL Statement input.
 
 ## SQL operations inclusion list
 
@@ -39,7 +57,7 @@ By default, you can run the following SQL operations.
 -   SHOW
 -   DESCRIBE
 
-To enable only some of these SQL operations that the JDBC step can perform, create a MID Server property, **mid.property.jdbc\_operations** and enter the SQL operations, separated by comma. To learn more about MID Server properties, see [MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerProperties.md).
+To enable only some of these SQL operations that the JDBC step can perform, create a MID Server property, **mid.property.jdbc\_operations** and enter the SQL operations, separated by comma. To learn more about MID Server properties, see MID Server properties.
 
 **Note:** Multiple SQL statements are not allowed. Stored procedures with output parameters are not supported.
 
@@ -66,7 +84,7 @@ Connection
 Type of connection to use.-   **Define Connection Inline**: Define connection information within the action step.
 -   **Use Connection Alias**: Define connection information using the Connection Alias table. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action.
 
- To learn more about connections and credentials, see [Introduction to credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md).
+ To learn more about connections and credentials, see Introduction to credentials, connections, and aliases.
 
 </td></tr><tr><td>
 
@@ -74,7 +92,7 @@ Connection Alias
 
 </td><td>
 
-Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. This field is available when **Use Connection Alias** is selected from the Connection list.
+Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. This field is available when **Use Connection Alias** is selected from the Connection list.
 
 </td></tr><tr><td>
 
@@ -82,7 +100,7 @@ Credential Alias
 
 </td><td>
 
-Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connections-and-credentials/credentials-connections-alias.md). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. This field is available when **Define Connection Inline** is selected from the Connection list.
+Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel. This field is available when **Define Connection Inline** is selected from the Connection list.
 
 </td></tr><tr><td>
 
@@ -94,7 +112,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/t_ConfigureAMIDServerCluster.md).
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see .
 
 
  This field is available when **Define Connection Inline** is selected from the Connection list.
@@ -178,7 +196,7 @@ SQL Statement
 
 </td><td>
 
-SQL statement that the step executes.**Note:** When you use data pills in step SQL statements, sanitize them first using a preprocessing [Script step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/javascript-step-action-designer.md). For more information, see [Sanitizing inputs using the escape functions](jdbc-step.md#section_gqd_cy4_qhb).
+SQL statement that the step executes.**Note:** When you use data pills in step SQL statements, sanitize them first using a preprocessing Script step. For more information, see [Sanitizing inputs using the escape functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/jdbc-step.md).
 
 </td></tr><tr><td>
 
@@ -202,7 +220,7 @@ Test JDBC Step
 
 </td><td>
 
-Test the JDBC step. View test results directly in the Test JDBC Step window. For more information, see [Test JDBC step](../task/test-jdbc-step.md).
+Test the JDBC step. View test results directly in the Test JDBC Step window. For more information, see [Test JDBC step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/test-jdbc-step.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -214,7 +232,7 @@ Enable Retry Policy
 
 </td><td>
 
-Option to enable the retry policy. For more information, see [Retry policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/retry-policy.md).
+Option to enable the retry policy. For more information, see Retry policy.
 
 </td></tr><tr><td>
 
@@ -239,6 +257,6 @@ Default retry policy associated with **Connection Alias**. If **Override Default
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
 
 

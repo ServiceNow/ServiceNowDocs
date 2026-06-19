@@ -2,6 +2,7 @@
 title: Chemical form
 description: Field description for a chemical form that the chemical manager uses to create a chemical by manually completing the form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety/hs-chemical-form.html
 release: australia
 product: Health and Safety
 classification: health-and-safety
@@ -15,7 +16,7 @@ breadcrumb: [Reference, Health and Safety Environmental Management, Health and S
 
 Field description for a chemical form that the chemical manager uses to create a chemical by manually completing the form.
 
-For more information on creating a chemical record, see [Create a chemical record for a new chemical](../task/hs-create-chemical-record-new-chemical.md).
+For more information on creating a chemical record, see [Create a chemical record for a chemical](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-create-chemical-record-new-chemical.md).
 
 <table id="table_nyj_jhr_lhc"><thead><tr><th>
 
@@ -75,7 +76,7 @@ External ID
 
 </td><td>
 
-Obtained from the 3E database or the manufacturer.**Note:** This field is automatically populated if you have an integration with the 3E database. For more information, see [Configure the property for 3E integration](../task/hs-configure-property-3e-integration.md).
+Obtained from the 3E database or the manufacturer.**Note:** This field is automatically populated if you have an integration with the 3E database. For more information, see [Configure the property for 3E integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-property-3e-integration.md).
 
 </td></tr><tr><td>
 
@@ -168,7 +169,7 @@ Option to mark the record as containing sensitive information. Only users with t
 </td></tr></tbody>
 </table>## Hazard information
 
-The fields in this section of the chemical form are automatically populated if you have an integration with the 3E database. For more information, see [Configure the property for 3E integration](../task/hs-configure-property-3e-integration.md).
+The fields in this section of the chemical form are automatically populated if you have an integration with the 3E database. For more information, see [Configure the property for 3E integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-property-3e-integration.md).
 
 <table id="table_vqh_rvv_z3c"><thead><tr><th>
 
@@ -258,7 +259,7 @@ Indicator that flags chemicals causing long-term health effects from repeated ex
 
 ## Properties
 
-The fields in this section of the chemical form are automatically populated if you have an integration with the 3E database. For more information, see [Configure the property for 3E integration](../task/hs-configure-property-3e-integration.md).
+The fields in this section of the chemical form are automatically populated if you have an integration with the 3E database. For more information, see [Configure the property for 3E integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-configure-property-3e-integration.md).
 
 |Field|Description|
 |-----|-----------|
@@ -289,5 +290,5 @@ The fields in this section of the chemical form are automatically populated if y
 |Additional comments \(customer visible\)|Supplementary notes about the chemical's physical properties visible to customers.|
 |Work Notes|Notes about the chemical.|
 
-**Parent Topic:**[Health and Safety Environmental Management reference](../concept/hs-reference-environmental-management.md)
+**Parent Topic:**[Health and Safety Environmental Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-and-safety/hs-reference-environmental-management.md)
 

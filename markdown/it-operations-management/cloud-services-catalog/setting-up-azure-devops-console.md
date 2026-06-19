@@ -2,6 +2,7 @@
 title: Set up the Microsoft Azure DevOps console
 description: Set up the Microsoft Azure DevOps console as the first step before you run Discovery and order a catalog item in the Cloud Services Catalog application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-services-catalog/setting-up-azure-devops-console.html
 release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
@@ -32,10 +33,10 @@ Role required: none
 
 3.  In the **Update variable** dialog box, override the pipeline variables by selecting the **Let users override this value when running this pipeline** check box.
 
-    ![Update variable dialog box that has two options that you can select. Keep the value secret or override the value when you run the pipeline.](../image/update-variable.png "Update variable dialog box")
+    \[Omitted image "update-variable.png"\] Alt text: Update variable dialog box that has two options that you can select. Keep the value secret or override the value when you run the pipeline.
 
     The pipeline works with the CSC DevOps Integration catalog item. The Microsoft Azure DevOps integration discovers pipelines with the deploymentID variable.
 
 
-**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](../concept/integrating-azure-devops-and-cicd-pipeline.md)
+**Parent Topic:**[Integrating Azure DevOps and the Continuous Integration-Continuous Deployment pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/cloud-services-catalog/integrating-azure-devops-and-cicd-pipeline.md)
 

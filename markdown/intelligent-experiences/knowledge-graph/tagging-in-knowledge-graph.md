@@ -2,6 +2,7 @@
 title: Tagging in Knowledge Graph Designer
 description: Use Knowledge graph tags to mark the key tables, that are important for answering natural language questions for specific use cases.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/tagging-in-knowledge-graph.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph
@@ -73,7 +74,7 @@ Follow these steps to create or edit tags:
 -   Now Assist Panel: Now Assist Panel operates as a unified assistant across multiple workspaces, hence it is essential to tag tables as follows:
     -   An individual tag for each workspace that encompasses key tables relevant to that workspace. This ensures the Now Assist panel can deliver responses specific to queries related to the workspace tables when accessed within each workspace.
     -   Create a general tag that includes the most important tables required to answer users questions on Now Assist panel, allowing the Now Assist panel to provide relevant answers when used outside of any workspace.
-    -   For more information on adding workspace tags in Now Assist Panel, see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/now-assist-in-virtual-agent/add-kg-schema-assistant.md).
--   AI agent: For an AI agent use case, include key tables relevant to the agent's purpose. For example, for asset manager agents User, Asset, and other crucial tables should be included in the tag. For more information, see [Add a Knowledge Graph to an AI agent](../../now-assist-ai-agents/task/add-knowledge-graph.md).
+    -   For more information on adding workspace tags in Now Assist Panel, see .
+-   AI agent: For an AI agent use case, include key tables relevant to the agent's purpose. For example, for asset manager agents User, Asset, and other crucial tables should be included in the tag. For more information, see [Add a Knowledge Graph to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/enable-ai-experiences/add-knowledge-graph.md).
 
 

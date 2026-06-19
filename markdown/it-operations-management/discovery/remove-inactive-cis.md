@@ -2,6 +2,7 @@
 title: Retain inactive namespace CIs for audits
 description: If required by your corporate standards, retain inactive namespace configuration items \(CIs\) for reference and auditing purposes with the option to delete them manually later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/remove-inactive-cis.html
 release: australia
 product: Discovery
 classification: discovery
@@ -41,5 +42,5 @@ You can later delete inactive CIs manually.
 3.  Refer to [https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.html](https://www.servicenow.com/docs/r/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.html) to manage the lilfecycle of retired CIs.
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
 

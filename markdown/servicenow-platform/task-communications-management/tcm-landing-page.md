@@ -2,6 +2,7 @@
 title: Task Communications Management
 description: Task Communications Management \(TCM\) provides a framework for defining and managing a communication process for any entity that extends the task table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/task-communications-management/tcm-landing-page.html
 release: australia
 product: Task Communications Management
 classification: task-communications-management
@@ -19,16 +20,16 @@ Task Communications Management \(TCM\) provides a framework for defining and man
 
 Explore
 
--   [Task Communications Management process](../concept/task-communications-management.md)
--   [Slack Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/collaboration-services/setting-up-slack.md)
+-   [Task Communications Management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/task-communications-management.md)
+-   Slack Communication
 
 </td><td>
 
-Set up [Activate Task Communications Management](../task/activate-tcm-plugin.md)
+Set up [Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
 
 </td><td>
 
-Administer[Working with Task Communications Management](../concept/working-with-tcm.md)
+Administer[Working with Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/task-communications-management/working-with-tcm.md)
 
 </td></tr><tr><td>
 

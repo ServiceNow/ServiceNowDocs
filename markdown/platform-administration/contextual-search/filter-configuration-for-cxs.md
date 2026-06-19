@@ -2,6 +2,7 @@
 title: Filter configuration for contextual search
 description: Define filter configurations to map fields from the form to provide a more targeted search result set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/filter-configuration-for-cxs.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -15,10 +16,10 @@ breadcrumb: [Configuring contextual search, Contextual search, Search administra
 
 Define filter configurations to map fields from the form to provide a more targeted search result set.
 
--   **[Create a filter configuration using mapping](../task/create-filter-config-using-mapping.md)**  
+-   **[Create a filter configuration using mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/create-filter-config-using-mapping.md)**  
 Create filter conditions using mapping that you can associate with a table configuration. The search result displays result that meets the filter conditions.
--   **[Create a filter configuration using scripts](../task/create-filter-config-using-scripting.md)**  
+-   **[Create a filter configuration using scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/create-filter-config-using-scripting.md)**  
 Create filter conditions using script that you can associate with a table configuration. The search result displays results that meet the filter conditions.
 
-**Parent Topic:**[Configuring contextual search](configuring-contextual-search.md)
+**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/configuring-contextual-search.md)
 

@@ -2,6 +2,7 @@
 title: Work with coders and Codable models
 description: The iOS implementation of the Mobile SDK provides the additional functionality of coders and Codable models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-work-coder-codable\_mod.html
 release: australia
 product: Developer Guides
 classification: developer-guides

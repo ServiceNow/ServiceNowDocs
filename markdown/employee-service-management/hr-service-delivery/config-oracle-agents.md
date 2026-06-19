@@ -2,6 +2,7 @@
 title: Configure HCM AI agents for HR Service Delivery Advanced Integration with Oracle HCM
 description: Configure HCM AI agents to enable your employees to place requests to the Oracle system using the HR Service Delivery AI agent collection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/config-oracle-agents.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
@@ -17,7 +18,7 @@ Configure HCM AI agents to enable your employees to place requests to the Oracle
 
 ## Before you begin
 
-View [Subflow-agent mapping for HR Service Delivery Advanced Integration with Oracle HCM](../reference/oracle-agent-mapping.md).
+View [Subflow-agent mapping for HR Service Delivery Advanced Integration with Oracle HCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/oracle-agent-mapping.md).
 
 Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin, and sn\_hr\_core.admin
 
@@ -25,25 +26,25 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 1.  Install the Now Assist for HR Service Delivery \(HRSD\) plugin \(sn\_hr\_gen\_ai\).
 
-    For more information, see [Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
+    For more information, see [Configure Now Assist for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 2.  Activate the \[Enterprise Service Management Integrations Framework\] application from the ServiceNow® Store.
 
-3.  Configure the [Oracle HCM Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/oracle-hcm.md) to pull data from Oracle system.
+3.  Configure the  to pull data from Oracle system.
 
 4.  Create subflows aligning with Template Integration Gateway.
 
-    For more information, see [Create a subflow using Template Integration Gateway](configure-integration-gateway.md).
+    For more information, see [Create a subflow using Template Integration Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-integration-gateway.md).
 
     **Note:** You can use also the default subflows that have been created for Oracle.
 
 5.  Add input choices and define conditions and results in a decision table for the Integration Gateway subflow.
 
-    For more information, see [Configure Integration Provider Mapping \(Decision table\)](configure-integration-mapping.md).
+    For more information, see [Configure Integration Provider Mapping \(Decision table\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/configure-integration-mapping.md).
 
 6.  Duplicate AI agents available for Oracle to run them autonomously.
 
-    For more information, see [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-ai-agent.md).
+    For more information, see .
 
     **Note:** In the Toggle display section, ensure the toggle beside Virtual Agent is enabled.
 

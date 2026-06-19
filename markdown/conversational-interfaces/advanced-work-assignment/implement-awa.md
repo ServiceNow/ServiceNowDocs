@@ -2,6 +2,7 @@
 title: Get started with Advanced Work Assignment
 description: To implement Advanced Work Assignment, complete these initial configuration and setup steps.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/implement-awa.html
 release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment

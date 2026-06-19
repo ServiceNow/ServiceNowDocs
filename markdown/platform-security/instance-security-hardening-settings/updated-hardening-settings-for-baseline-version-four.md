@@ -2,11 +2,12 @@
 title: Updated hardening settings for baseline version 4.0
 description: Some hardening settings have been updated with the release of Security Center baseline version 4.0.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/instance-security-hardening-settings/updated-hardening-settings-for-baseline-version-four.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 24
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -27,7 +28,7 @@ Updates
 
 </th></tr></thead><tbody><tr><td>
 
-[Require authorization for SOAP requests](../reference/sc-soap-request-authorization.md)
+[Require authorization for SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.md)
 
 </td><td>
 
@@ -41,7 +42,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-escape-jelly.md)
+[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
 
 </td><td>
 
@@ -50,7 +51,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Prevent Users From Accepting Warning To Bypass CSRF Validation \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-csrf-strict-validation.md)
+[Prevent Users From Accepting Warning To Bypass CSRF Validation \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-csrf-strict-validation.md)
 
 </td><td>
 
@@ -63,7 +64,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Require Authentication on Event Management HTTP Processor \[New in Security Center 1.3, Updated in 1.5, and removed in 2.0\]](../reference/sc-require-authentication-on-event-management-http-processor.md)
+[Require Authentication on Event Management HTTP Processor \[New in Security Center 1.3, Updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-require-authentication-on-event-management-http-processor.md)
 
 </td><td>
 
@@ -72,7 +73,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](../reference/sc-anti-csrf-token.md)
+[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)
 
 </td><td>
 
@@ -81,7 +82,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Enable HTML Sanitizer within Virtual Agent](../reference/sc-enable-html-sanitizer.md)
+[Enable HTML Sanitizer within Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.md)
 
 </td><td>
 
@@ -92,7 +93,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Deny internal access to explicit external roles \[Updated in Security Center 1.3 and 1.5\]](../../security/reference/sc-enable-explicit-roles-internal-denylist.md)
+[Deny internal access to explicit external roles \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-explicit-roles-internal-denylist.md)
 
 </td><td>
 
@@ -109,7 +110,7 @@ Misconfiguration of these properties increases the risk that an external user ac
 
 </td></tr><tr><td>
 
-[Require authorization for WSDL request](../reference/sc-wsdl-request-authorization.md)
+[Require authorization for WSDL request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-wsdl-request-authorization.md)
 
 </td><td>
 
@@ -120,7 +121,7 @@ Misconfiguration of these properties increases the risk that an external user ac
 
 </td></tr><tr><td>
 
-[Enforce URL allowlist check](../reference/sc-enforce-url-allowlist-check.md)
+[Enforce URL allowlist check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-url-allowlist-check.md)
 
 </td><td>
 
@@ -128,7 +129,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]](../reference/sc-downloadable-mime-types.md)
+[Define restricted downloadable MIME types \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.md)
 
 </td><td>
 
@@ -139,7 +140,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Escape HTML in list views \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-escape-html.md)
+[Escape HTML in list views \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-escape-html.md)
 
 </td><td>
 
@@ -148,7 +149,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]](../reference/sc-external-user-registration-email-domain-allowlist.md)
+[Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
 
 </td><td>
 
@@ -160,7 +161,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable CAPTCHA for External User Registration](../reference/sc-enable-captcha-external-user-registration.md)
+[Enable CAPTCHA for External User Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)
 
 </td><td>
 
@@ -170,7 +171,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize external user registration link expiration duration](../reference/sc-external-user-registration-link-expiration.md)
+[Minimize external user registration link expiration duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-external-user-registration-link-expiration.md)
 
 </td><td>
 
@@ -180,7 +181,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disallow infected file download](../reference/sc-disallow-infected-files-download.md)
+[Disallow infected file download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.md)
 
 </td><td>
 
@@ -192,7 +193,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-validate-file-mime-type-in-attachmentcreator.md)
+[Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)
 
 </td><td>
 
@@ -203,7 +204,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable MultiSSO Debugging](../reference/sc-disable-multisso-debugging.md)
+[Disable MultiSSO Debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)
 
 </td><td>
 
@@ -212,7 +213,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Reduce the Scope of the IP Allow List for an Instance](../reference/sc-ip-addresses-access-allowlist.md)
+[Reduce the Scope of the IP Allow List for an Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
 
 </td><td>
 
@@ -226,7 +227,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable Entity Expansion within the XMLDocument2 Streaming Parser](../reference/sc-disable-entity-expansion.md)
+[Disable Entity Expansion within the XMLDocument2 Streaming Parser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md)
 
 </td><td>
 
@@ -236,7 +237,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Apply domain separation on dot walked fields](../reference/sc-apply-domain-separation.md)
+[Apply domain separation on dot walked fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-apply-domain-separation.md)
 
 </td><td>
 
@@ -246,7 +247,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict permissions for CMDB model](../reference/sc-restrict-permissions-cmdb-model.md)
+[Restrict permissions for CMDB model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-restrict-permissions-cmdb-model.md)
 
 </td><td>
 
@@ -254,7 +255,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require clearing pasteboard when backgrounding mobile application](../reference/sc-require-clearing-pasteboard-when-backgrounding-mobile-application.md)
+[Require clearing pasteboard when backgrounding mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-require-clearing-pasteboard-when-backgrounding-mobile-application.md)
 
 </td><td>
 
@@ -263,7 +264,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable account recovery](../reference/sc-account-recovery.md)
+[Enable account recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-account-recovery.md)
 
 </td><td>
 
@@ -272,7 +273,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable SQL error messages](../reference/sc-disabling-sql-error-messages.md)
+[Disable SQL error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md)
 
 </td><td>
 
@@ -281,7 +282,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce relative links](../reference/sc-enforce-relative-links.md)
+[Enforce relative links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-relative-links.md)
 
 </td><td>
 
@@ -290,7 +291,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable](../reference/sc-setting-entity-expansion-threshold.md)
+[Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.md)
 
 </td><td>
 
@@ -302,7 +303,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable GlideRecord Scope Fencing Legacy Behavior](../reference/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)
+[Disable GlideRecord Scope Fencing Legacy Behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.md)
 
 </td><td>
 
@@ -311,7 +312,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable SSL in LDAP authentication \[Updated in Security Center 1.5 and 2.0\]](../reference/sc-enable-ssl-in-ldap-authentication.md)
+[Enable SSL in LDAP authentication \[Updated in Security Center 1.5 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-ssl-in-ldap-authentication.md)
 
 </td><td>
 
@@ -319,7 +320,7 @@ Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce password reset on api requests](../reference/sc-enforce-password-reset-on-api-requests.md)
+[Enforce password reset on api requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-password-reset-on-api-requests.md)
 
 </td><td>
 
@@ -327,7 +328,7 @@ Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Do not apply password policy at login \[Updated in Security Center 1.5 and removed in 2.0\]](../reference/sc-do-not-apply-password-policy-at-login.md)
+[Do not apply password policy at login \[Updated in Security Center 1.5 and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-do-not-apply-password-policy-at-login.md)
 
 </td><td>
 
@@ -356,7 +357,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Do not use demo certificates for active SAML configurations](../reference/sc-do-not-use-demo-certificates-active-saml-configurations-plugin.md)
+[Do not use demo certificates for active SAML configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-do-not-use-demo-certificates-active-saml-configurations-plugin.md)
 
 </td><td>
 
@@ -365,7 +366,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Minimize SAML notBefore or notOnOrAfter constraint duration \[Updated in Security Center 1.3 and 1.5\]](../reference/sc-saml-notbefore-or-notonorafter-constraint.md)
+[Minimize SAML notBefore or notOnOrAfter constraint duration \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-saml-notbefore-or-notonorafter-constraint.md)
 
 </td><td>
 
@@ -374,7 +375,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Block Expired Anti-CSRF Tokens](../reference/sc-block-expired-csrf-tokens.md)
+[Block Expired Anti-CSRF Tokens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-block-expired-csrf-tokens.md)
 
 </td><td>
 
@@ -383,7 +384,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Require CAPTCHA for guest walk-up experience in customer service application](../reference/sc-require-captcha-for-guest-walk-up-experience-in-customer-service-application.md)
+[Require CAPTCHA for guest walk-up experience in customer service application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-require-captcha-for-guest-walk-up-experience-in-customer-service-application.md)
 
 </td><td>
 
@@ -392,7 +393,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-check-impersonation-on-acl-evaluation-in-hr-app-plugin-applicability-human-resources-scoped-app.md)
+[Check impersonation on ACL evaluation in HR App \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-check-impersonation-on-acl-evaluation-in-hr-app-plugin-applicability-human-resources-scoped-app.md)
 
 </td><td>
 
@@ -401,7 +402,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Restrict HR case updates from personal emails](../reference/sc-restrict-hr-case-updates-from-personal-emails-plugin-applicability-human-resources-scoped-app.md)
+[Restrict HR case updates from personal emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-restrict-hr-case-updates-from-personal-emails-plugin-applicability-human-resources-scoped-app.md)
 
 </td><td>
 
@@ -411,7 +412,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Enable MID audit log](../reference/sc-enable-mid-audit-log-plugin-applicability-mid-server.md)
+[Enable MID audit log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enable-mid-audit-log-plugin-applicability-mid-server.md)
 
 </td><td>
 
@@ -420,7 +421,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Required JMS connection factories](../reference/sc-required-jms-connection-factories-plugin-applicability-mid-server.md)
+[Required JMS connection factories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-required-jms-connection-factories-plugin-applicability-mid-server.md)
 
 </td><td>
 
@@ -430,7 +431,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Limit attachment size in training and prediction flows \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-limit-attachment-size-in-training-and-prediction-flows-plugin-applicability-platform-document-intelligence.md)
+[Limit attachment size in training and prediction flows \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-limit-attachment-size-in-training-and-prediction-flows-plugin-applicability-platform-document-intelligence.md)
 
 </td><td>
 
@@ -439,7 +440,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-[Ensure archive table ACLs are checked](../reference/sc-ensure-archive-table-acls-are-checked.md)
+[Ensure archive table ACLs are checked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-ensure-archive-table-acls-are-checked.md)
 
 </td><td>
 
@@ -447,7 +448,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Log session audit events](../reference/sc-log-session-audit-events.md)
+[Log session audit events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-log-session-audit-events.md)
 
 </td><td>
 
@@ -456,7 +457,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce scoped ACL access for information request playbooks \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-enforce-scoped-acl-access-for-information-request-playbooks.md)
+[Enforce scoped ACL access for information request playbooks \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-enforce-scoped-acl-access-for-information-request-playbooks.md)
 
 </td><td>
 
@@ -466,7 +467,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Proactively Invalidate Sessions After Defined Durations](../reference/sc-proactively-invalidate-inactive-sessions.md)
+[Proactively Invalidate Sessions After Defined Durations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.md)
 
 </td><td>
 
@@ -475,7 +476,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Limit HTTP response body size \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-limit-http-response-body-size.md)
+[Limit HTTP response body size \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-limit-http-response-body-size.md)
 
 </td><td>
 
@@ -483,5 +484,5 @@ Rule Script: Script has been updated to improve detection accuracy.
 -   Old short description: Ensure HTTP Responses Do Not Trigger a OutofMemory Exception Due to Response Body Size
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Updated hardening settings](hardening-settings-updated.md)
+</table>**Parent Topic:**[Updated hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/hardening-settings-updated.md)
 

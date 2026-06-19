@@ -2,6 +2,7 @@
 title: Updating ID fields
 description: To generate new Federated IDs, you can either use the existing user resolution search criteria or update the criteria before regeneration.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/updating-id-fields.html
 release: australia
 product: Identity
 classification: identity
@@ -45,7 +46,7 @@ In ServiceNow, Federated IDs ensure consistent user identification across multip
     -   **User ID** is required for generating Federated IDs. If the user name is null or empty, then the Federated ID is null.
     -   **User ID** and **Email** are used to generate Federated IDs by default.
     -   If more than one user share the same **User ID** and **Email**, then the system generates a Federated ID for only one of the users.
-    ![ID Fields](../images/id-fields.png)
+    \[Omitted image "id-fields.png"\] Alt text: ID Fields
 
     Now, the **Employee number** selected becomes another attribute for identifying and resolving users and generating the hashed Federated ID.
 

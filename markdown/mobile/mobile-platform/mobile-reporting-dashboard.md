@@ -1,0 +1,40 @@
+---
+title: Mobile platform dashboards
+description: Use a mobile dashboard to display data visualizations in graphical format. Adding data visualizations KPI Details and charts helps users more easily identify trends and turning points through indicator scores and visual representation.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-platform/mobile-reporting-dashboard.html
+release: australia
+product: Mobile Platform
+classification: mobile-platform
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using the mobile apps, Mobile Platform]
+---
+
+# Mobile platform dashboards
+
+Use a mobile dashboard to display data visualizations in graphical format. Adding data visualizations KPI Details and charts helps users more easily identify trends and turning points through indicator scores and visual representation.
+
+A mobile dashboard is a launcher screen that enables you to see preconfigured data visualizations and analytical views via trend lines and score visualizations. Tap the analytics sections in your launcher screen to open data visualizations and analytical information displaying the status of instance data. For example, you can review the number of incidents opened per week or the average resolution time of projects. Depending on the configuration of your administrator, you can view a list of records that relate to a tapped section.
+
+For more information about accessibility features supported in the analytics previews, see [Change mobile analytics views for accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-platform/accessibility-chart-view.md).
+
+\[Omitted image "donut-flow.png"\] Alt text: Three screen shots showing a flow from launcher screen to chart screen to parameterized list.
+
+Data visualizations reporting charts display views of current state instance data. These charts display information such as the number of high priority work orders or the number of pending approvals over a defined period.
+
+The available score report in mobile is single score.
+
+The available bar report in mobile is vertical bar.
+
+The available donut report in mobile is donut.
+
+The available pie report in mobile is Pie charts.
+
+The available time series trend-by charts in mobile are:
+
+-   Line
+-   Spline
+-   Step line
+

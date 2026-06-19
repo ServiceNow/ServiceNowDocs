@@ -2,11 +2,12 @@
 title: Enable and disable live updates for alert lists
 description: Choose live updates for alert lists to receive real-time updates, or disable live updates and refresh the alert list manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-operations-workspace-for-itom-apps/configure-alert-list-autofresh-settings.html
 release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -31,7 +32,7 @@ To update the alert list manually, you can switch the live updates toggle to off
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the navigation bar, select the List icon: ![List icon](../image/list-icon-sow-itom.png).
+2.  From the navigation bar, select the List icon: \[Omitted image "list-icon-sow-itom.png"\] Alt text: List icon.
 
 3.  Select the **Default lists** tab.
 
@@ -44,5 +45,5 @@ To update the alert list manually, you can switch the live updates toggle to off
     -   When live updates are turned on, the setting is saved for future logins by the same user.
     -   When live updates are off, the refresh button displays a counter to show the number of changes since the last refresh. You can select the refresh button anytime to update the list manually.
 
-**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+**Parent Topic:**[Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-operations-workspace-for-itom-apps/workspace-dashboard-use.md)
 

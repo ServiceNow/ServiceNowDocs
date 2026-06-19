@@ -2,6 +2,7 @@
 title: Natural language queries use cases and examples
 description: View example use cases of some natural language queries used in Knowledge Graph and Enterprise Graph.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/knowledge-graph/natural-language-queries-example-usecases.html
 release: australia
 product: Knowledge Graph
 classification: knowledge-graph
@@ -123,5 +124,5 @@ Here are a few examples of unsupported queries:
 
 ## CMDB query support
 
-Knowledge Graph supports CI Relationship \(Rel CI\) queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology. For more details see [Configuration item relationships and Knowledge Graph](ci-relationships-knowledge-graph.md)
+Knowledge Graph supports CI Relationship \(Rel CI\) queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology. For more details see [Configuration item relationships and Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/knowledge-graph/ci-relationships-knowledge-graph.md)
 

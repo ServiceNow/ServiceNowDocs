@@ -2,6 +2,7 @@
 title: Edit search resource display field record
 description: Use the search result display fields to provide titles, descriptions, and additional details for contextual search results.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/contextual-search/edit-addi-resources-field.html
 release: australia
 product: Contextual Search
 classification: contextual-search
@@ -23,7 +24,7 @@ Role required: admin
 
 ServiceNow provides pre-defined additional resource or search sources to the user. You can't create or delete search result display configurations. Each table referred by an additional resource has a search result display configuration record. You can edit the values in the **Card title field**, **Card description field**, and the **Card additional fields**.
 
-![Search result with card title, card description field, and card additional fields highlighted.](../image/additional-resource-fields.png)
+\[Omitted image "additional-resource-fields.png"\] Alt text: Search result with card title, card description field, and card additional fields highlighted.
 
 **Note:** Ensure that you select the contextual search property **Shows meta data on form contextual search results** to view **Card additional fields** in the search result.
 
@@ -33,7 +34,7 @@ ServiceNow provides pre-defined additional resource or search sources to the use
 
 2.  Open the search result display configuration record that you want to modify.
 
-    **Note:** Search result display configuration records with the Platform UI type do not affect search for Knowledge articles, Catalog Items, or pinned articles. You can configure settings for platform Knowledge article searches using [Knowledge search properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md).
+    **Note:** Search result display configuration records with the Platform UI type do not affect search for Knowledge articles, Catalog Items, or pinned articles. You can configure settings for platform Knowledge article searches using Knowledge search properties.
 
 3.  In the form, edit the fields.
 
@@ -58,5 +59,5 @@ ServiceNow provides pre-defined additional resource or search sources to the use
 4.  Select **Update**.
 
 
-**Parent Topic:**[Managing contextual search](../concept/working-with-contextual-search.md)
+**Parent Topic:**[Managing contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/contextual-search/working-with-contextual-search.md)
 

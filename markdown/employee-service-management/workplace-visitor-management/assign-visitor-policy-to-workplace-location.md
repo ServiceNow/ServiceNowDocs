@@ -2,11 +2,12 @@
 title: Assign visitor policy to a workplace location
 description: Add one or more workplace location to a visitor policy. Visitors who are registered to arrive at that locations will receive an email notification in prior to accept the policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.html
 release: australia
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a visitor policy, Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -38,7 +39,7 @@ You can also assign visitor policy by selecting the workplace location in **Buil
 
 3.  In the Locations related list, select **Edit**.
 
-4.  On the Edit Members form, select the workplace location from the **Collection** column, then move it to the **Locations List** column by using the add-remove icon \(![Add-remove arrows.](../../wsd-reservation-management/image/add-remove-icon.png)\).
+4.  On the Edit Members form, select the workplace location from the **Collection** column, then move it to the **Locations List** column by using the add-remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text: Add-remove arrows.\).
 
 5.  Select **Save**.
 
@@ -50,12 +51,12 @@ You can also assign visitor policy by selecting the workplace location in **Buil
 
     3.  On the Location Policy form, fill in the fields.
 
-        For a description of the field values, see [Location Policy form](../reference/location-policy-form.md).
+        For a description of the field values, see [Location Policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/location-policy-form.md).
 
 
 ## Result
 
 The visitor policy is assigned to the selected workplace location.
 
-**Parent Topic:**[Create a visitor policy](create-visitor-policy.md)
+**Parent Topic:**[Create a visitor policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-visitor-management/create-visitor-policy.md)
 

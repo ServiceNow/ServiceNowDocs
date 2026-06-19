@@ -2,6 +2,7 @@
 title: Configure the connection attributes for the GoogleTranslation alias
 description: Connect to the Google's translation service by configuring the Google connection. Provide information that is used by HTTP\(s\) actions or activities to connect to that service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/dynamic-translation/configure-connection-google.html
 release: australia
 product: Dynamic Translation
 classification: dynamic-translation
@@ -63,9 +64,9 @@ API version that the related spokes are built for. The default value is `v3beta1
 </table>4.  Right-click the form header and click **Save**.
 
 
-**Parent Topic:**[Set up the Google Cloud Translator Service spoke](setup-google-translator.md)
+**Parent Topic:**[Set up the Google Cloud Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/setup-google-translator.md)
 
-**Previous topic:**[Configure the credential for the GoogleTranslation alias](configure-credential-google.md)
+**Previous topic:**[Configure the credential for the GoogleTranslation alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/configure-credential-google.md)
 
-**Next topic:**[Microsoft Azure Translator Service spoke](../../dynamic-translation/concept/microsoft-translation-spoke.md)
+**Next topic:**[Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation/microsoft-translation-spoke.md)
 

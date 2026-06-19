@@ -2,6 +2,7 @@
 title: Validation framework for Register of Information in Operational Resilience
 description: The validation framework helps to verify that RoI packages meet regulatory requirements defined by the DORA.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/opres-dora-validate-roi.html
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
@@ -56,12 +57,19 @@ Refer to the following guidance to troubleshoot common validation issues when su
 
 -   Validation report is missing: The uploaded package contains no errors or warnings. Check the **Result** section of the request. If no issues are found, only the CSV package is returned and no validation report is generated.
 -   Missing required fields: One or more required fields are empty or incorrectly formatted. Open the validation report and locate the affected row and column. Use the template to identify the correct field name and expected format. Update the record in the ServiceNow instance or source system and revalidate.
--   Rule expression failures: The data violates one or more business rules defined in the validation framework. Review the rule expression and description in the validation report. Use the record identifier to locate the affected record and correct the data. Common issues include invalid LEI formats, empty currency fields, or missing contract references.
+-   Rule expression failures:
+
+    The data violates one or more business rules defined in the validation framework. Review the rule expression and description in the validation report. Use the record identifier to locate the affected record and correct the data. Common issues include invalid LEI formats, empty currency fields, or missing contract references.
+
+    The following example shows an LEI validation error returned in the validation report: `Row 4.0, errorCode=INVALID_VALUE, errorMessage=LEI not found in GLEIF database: column: Identification code of the branch, value: BR1234567890ABCDEF40`
+
+    The error indicates that the uploaded LEI value does not exist in the GLEIF database. Correct the LEI value in the source record or Microsoft Excel file and re-upload. Only LEI values that pass real-time GLEIF validation are accepted.
+
 -   Invalid use of “Not applicable” values: These values are used in fields that don’t support them. Check the field definition in the template. Replace “Not applicable” with a valid value or remove it if the field is required. Revalidate the updated package.
 -   Validation report is difficult to interpret: The report lacks context or field labels are unclear. Download the template and use it to cross-reference the row number, sheet name, and record identifier. This helps locate the affected record and understand the validation error in context.
 -   File size or encoding issues: The uploaded ZIP file exceeds the 5 MB limit or uses unsupported encoding. Compress the file to meet the size requirement and ensure all CSV files use UTF-8 encoding. Re-upload the corrected package.
 
-For more information, see [Validate the Register of Information packages](../task/opres-drtp-validate-roi.md).
+For more information, see [Validate the Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/opres-drtp-validate-roi.md).
 
-**Parent Topic:**[Exploring Digital resilience third-party registers](exploring-digi-resi-third-party-registers.md)
+**Parent Topic:**[Exploring Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/exploring-digi-resi-third-party-registers.md)
 

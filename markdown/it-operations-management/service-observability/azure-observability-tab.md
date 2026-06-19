@@ -2,6 +2,7 @@
 title: Azure Monitor Observability tab for Service Observability
 description: Dashboard and charts on the Azure Monitor Observability tab of the Service Details page in the SOW.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/service-observability/azure-observability-tab.html
 release: australia
 product: Service Observability
 classification: service-observability
@@ -68,5 +69,5 @@ These dashboards display metrics for databases related to the service.
 |Is Database Alive|`1` if database is up, `0` if it is down.|Azure|
 |All PostgreSQL Instances|Information of all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
-**Parent Topic:**[Azure Monitor templates for Service Observability](azure-templates.md)
+**Parent Topic:**[Azure Monitor templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/service-observability/azure-templates.md)
 

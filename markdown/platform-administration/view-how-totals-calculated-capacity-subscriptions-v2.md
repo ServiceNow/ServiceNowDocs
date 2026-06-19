@@ -2,6 +2,7 @@
 title: Monitor capacity subscription calculations in Subscription Management
 description: View how a capacity total is calculated to keep your subscription in compliance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/view-how-totals-calculated-capacity-subscriptions-v2.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
@@ -27,7 +28,7 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
 3.  On the subscription details page, preview the Capacity Definition record by selecting the record ID next to the **Capacity Definition** field.
 
-    If the Capacity Definition record ID is unavailable, contact your account executive for usage calculation details.
+    If the Capacity Definition record ID is unavailable, contact your account executive for usage calculation details. For more information about how subscription usage is calculated for different products, see [Values for Subscription-Based Products \[KB0727967\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0727967).
 
 4.  Depending on the definition type, review the following details to view how usage is calculated.
 
@@ -47,5 +48,5 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 7.  If the capacity subscription is out of compliance, adjust the number of allocated resources or increase the capacity subscription.
 
 
-**Parent Topic:**[Monitoring capacity subscriptions](../concept/monitoring-capacity-subscriptions.md)
+**Parent Topic:**[Monitoring capacity subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-capacity-subscriptions.md)
 

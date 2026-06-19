@@ -2,6 +2,7 @@
 title: Migration from ITSM Mobile to ITSM Mobile Agent
 description: The ITSM Mobile plugin \(com.sn\_itsm\_mobile\) was deprecated in Quebec. The existing customers can migrate to ITSM Mobile Agent for enhanced mobile-first experiences in the base system, designed for agents to triage, act on, and resolve incidents on the go. ITSM Mobile Agent application improves productivity with an intuitive interface to manage all the work, view schedules, check who is on-call, respond to major incidents, and more.After you install the ServiceNow Agent app, avoid duplication of launcher screens and notifications from the deprecated ITSM Mobile app.When migrating from ITSM Mobile to ITSM Mobile Agent, an admin must verify if any customizations are defined in the deprecated ITSM Mobile application scope. Such customizations should be deactivated or moved to the ITSM Mobile Agent scope.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mobile-agent/migration-itsm-mobile-itsm-mobile-agent.html
 release: australia
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
@@ -15,9 +16,9 @@ breadcrumb: [Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Manage
 
 The ITSM Mobile plugin \(com.sn\_itsm\_mobile\) was deprecated in Quebec. The existing customers can migrate to ITSM Mobile Agent for enhanced mobile-first experiences in the base system, designed for agents to triage, act on, and resolve incidents on the go. ITSM Mobile Agent application improves productivity with an intuitive interface to manage all the work, view schedules, check who is on-call, respond to major incidents, and more.
 
-For information about getting started with ITSM Mobile Agent, see [Log in to ITSM Mobile Agent](../task/install-itsm-mobile-app.md).
+For information about getting started with ITSM Mobile Agent, see [Log in to ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/install-itsm-mobile-app.md).
 
-**Parent Topic:**[Configuring ITSM Mobile Agent](configuring-itsm-mobile-agent.md)
+**Parent Topic:**[Configuring ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mobile-agent/configuring-itsm-mobile-agent.md)
 
 ## Deactivate the ITSM Mobile launcher screens and notifications
 
@@ -31,7 +32,7 @@ Role required: admin
 
 After installing the ITSM Mobile Agent app on your instance, you can still view the launcher screens from the ITSM Mobile application when you log in to the ServiceNow Agent app \(Android or iOS\). Also, you might receive duplicate notifications since both ITSM Mobile and ITSM Mobile Agent apps are active on your instance.
 
-![Screenshot for deprecated applet launchers for incidents and approvals](../image/dep-incidents-approvals.png "Deprecated applet launchers for incidents and approvals")
+\[Omitted image "dep-incidents-approvals.png"\] Alt text: Screenshot for deprecated applet launchers for incidents and approvals
 
 Since no updates are supported on the ITSM Mobile plugin \(com.sn\_itsm\_mobile\), it's recommended that customers stop using the related deprecated features. It's also recommended that applets or applet launchers from both plugins \(ITSM Mobile and ITSM Mobile Agent\) aren't active at the same time.
 
@@ -57,7 +58,7 @@ Since the single-click uninstallation of plugins isn't supported, the deprecated
         3.  Click **Save**.
     When you log into the ServiceNow Agent app, the deprecated launcher screens aren’t displayed.
 
-    ![Screenshot for ServiceNow Agent app without deprecated launcher screens](../image/deactive_result_mobile.png "ServiceNow Agent app without deprecated launcher screens")
+    \[Omitted image "deactive\_result\_mobile.png"\] Alt text: Screenshot for ServiceNow Agent app without deprecated launcher screens
 
 4.  To deactivate the ITSM Mobile notifications, perform the following steps:
 

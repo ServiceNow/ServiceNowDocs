@@ -2,6 +2,7 @@
 title: Review and interpret automated root cause analysis
 description: Review the analysis report and understand the root cause of performance issues. Use this information to optimize your processes.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/review-rca.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -15,11 +16,11 @@ breadcrumb: [Automated root cause analysis, Analyzing and getting process insigh
 
 Review the analysis report and understand the root cause of performance issues. Use this information to optimize your processes.
 
-**Note:** You must have run automated root cause analysis to review and interpret the results. For more information, see [Run automated root cause analysis reports](../task/run-view-arca.md).
+**Note:** You must have run automated root cause analysis to review and interpret the results. For more information, see [Run automated root cause analysis reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/run-view-arca.md).
 
 You must read and understand the automated root cause analysis results as follows.
 
-![Automated root cause analysis result](../image/rca-annotated.png)
+\[Omitted image "rca-annotated.png"\] Alt text: Automated root cause analysis result
 
 In the above example, the root cause analysis is run on the finding definition of type Rework. We are looking at records for which rework was done after the record was in Closed state. It shows why the records do not go to Process End after the Closed state.
 
@@ -29,9 +30,9 @@ After you have interpreted your results, you can select a particular influencer 
 
 From the example, if PO Group 8 is applied, you will see results similar to the following:
 
-![Automated root cause analysis details](../image/rca-analysis.png)
+\[Omitted image "rca-analysis.png"\] Alt text: Automated root cause analysis details
 
 From this graph, you can analyse why some records are moving from Closed to Resolved before going to Process End.
 
-**Parent Topic:**[Automated root cause analysis](auto-rca.md)
+**Parent Topic:**[Automated root cause analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/auto-rca.md)
 

@@ -2,6 +2,7 @@
 title: TransformResult - Scoped, Global
 description: The TransformResult API provides methods that return the result of a transformation run on time-series data.Returns an array of Data objects. Returns an error if no group was specified for the transform.Returns the transformed data with the specified label.Returns a single Data object, or null if the result is empty.Returns the transformed data as an array. This method turns a Data object into an array.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/TransformResultScopedAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -21,7 +22,7 @@ There is no constructor for this class. TransformResult objects are returned by 
 
 This class is part of the MetricBase application.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## TransformResult - byGroup\(\)
 

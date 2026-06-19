@@ -2,6 +2,7 @@
 title: Create a Custom \(Load by Script\) type data source
 description: Create a Custom \(Load by Script\) type data source record to define what data an import set should import.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/system-import-sets/create-custom-type-data-source.html
 release: australia
 product: System Import Sets
 classification: system-import-sets
@@ -21,7 +22,7 @@ Role required: import\_admin
 
 ## About this task
 
-For additional information, see [Custom \(Load by Script\) type data source](../reference/custom-type-data-source.md).
+For additional information, see [Custom \(Load by Script\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/custom-type-data-source.md).
 
 ## Procedure
 
@@ -77,7 +78,7 @@ Use Batch Import
 
 </td><td>
 
-If selected, specifies that loading data should be batched when you click **Load data** or **Test load 20 records**.
+If selected, specifies that loading data should be batched when you select **Load data** or **Test load 20 records**.**Note:** The system keeps records in memory until it receives the number of records specified in the batch size. If the batch size is met, it commits all the records as one batched SQL. If all the records are loaded for the import set, it commits all the remaining records as one batched SQL. Since it keeps the maximum of the batch size records in memory when specified, make sure you set the correct batch size to not cause any out-of-memory issues.
 
 </td></tr><tr><td>
 
@@ -107,7 +108,7 @@ Parallel loading script
 
 </td><td>
 
-Script used for parallel data loading. Appears only when **Enable parallel loading** is selected. For more information, see [Custom \(Load by Script\) type data source](../reference/custom-type-data-source.md).
+Script used for parallel data loading. Appears only when **Enable parallel loading** is selected. For more information, see [Custom \(Load by Script\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/custom-type-data-source.md).
 
 </td></tr><tr><td>
 
@@ -115,7 +116,7 @@ Data Loader
 
 </td><td>
 
-Script used to load data. For more information, see [Custom \(Load by Script\) type data source](../reference/custom-type-data-source.md).
+Script used to load data. For more information, see [Custom \(Load by Script\) type data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/custom-type-data-source.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.
@@ -125,5 +126,5 @@ Script used to load data. For more information, see [Custom \(Load by Script\) t
 
 Define a transform map for the new data source and run an import.
 
-**Parent Topic:**[Create a data source](../concept/c_CreateNewDataSource.md)
+**Parent Topic:**[Create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_CreateNewDataSource.md)
 

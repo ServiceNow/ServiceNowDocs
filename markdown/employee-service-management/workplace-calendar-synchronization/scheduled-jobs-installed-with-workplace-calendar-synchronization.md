@@ -2,13 +2,14 @@
 title: Scheduled jobs installed with Workplace Calendar Synchronization
 description: The Workplace Calendar Synchronization includes scheduled jobs to process a few synchronizations seamlessly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-calendar-synchronization/scheduled-jobs-installed-with-workplace-calendar-synchronization.html
 release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Workplace Calendar Synchronization references, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Scheduled jobs installed with Workplace Calendar Synchronization

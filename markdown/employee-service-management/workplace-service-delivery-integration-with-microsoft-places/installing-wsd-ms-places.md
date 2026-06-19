@@ -2,13 +2,14 @@
 title: Register the WSD for Microsoft places application
 description: Register the WSD for Microsoft places application in the Microsoft Azure portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/installing-wsd-ms-places.html
 release: australia
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure WSD for Microsoft places, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Register the WSD for Microsoft places application

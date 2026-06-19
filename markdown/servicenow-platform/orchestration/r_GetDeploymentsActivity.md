@@ -2,6 +2,7 @@
 title: Get Deployments activity
 description: The Get Deployments activity returns the list of deployments performed by Orchestration using a Microsoft System Center Configuration Manager \(SCCM\) server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_GetDeploymentsActivity.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -15,7 +16,7 @@ breadcrumb: [SCCM activity pack, Orchestration activity packs, Classic Orchestra
 
 The Get Deployments activity returns the list of deployments performed by Orchestration using a Microsoft System Center Configuration Manager \(SCCM\) server.
 
-The Get Deployments activity uses the [Powershell activity template](../../orchestration-activity-designer/task/t_CreateAPowershellActivity.md#) to access the deployments on the SCCM server. The activity is configured to use a MID Server with Powershell capabilities and to run a MID Server script called GetDeployments.ps1 that returns the deployments on the host. This script filters the results of the GET, so that only specific attributes are returned for the deployments on the SCCM server. Filtering the results in this manner controls the size of the payload, while providing the most desirable deployment data. The list of available deployments is returned as an array in a JSON object.
+The Get Deployments activity uses the [Powershell activity template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/t_CreateAPowershellActivity.md) to access the deployments on the SCCM server. The activity is configured to use a MID Server with Powershell capabilities and to run a MID Server script called GetDeployments.ps1 that returns the deployments on the host. This script filters the results of the GET, so that only specific attributes are returned for the deployments on the SCCM server. Filtering the results in this manner controls the size of the payload, while providing the most desirable deployment data. The list of available deployments is returned as an array in a JSON object.
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **System Center Configuration Manager \(SCCM\)**.
 
@@ -70,5 +71,5 @@ Variable that contains the activity output error message.
 |Success|Activity successfully retrieved the list of deployments performed by Orchestration using an SCCM host.|
 |Failure|Activity failed to retrieve the list of deployments performed by Orchestration using an SCCM host.|
 
-**Parent Topic:**[SCCM activity pack](../concept/c_SCCMActivityPack.md)
+**Parent Topic:**[SCCM activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_SCCMActivityPack.md)
 

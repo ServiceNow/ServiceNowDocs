@@ -2,6 +2,7 @@
 title: Configure PRTG connector
 description: Configure the PRTG connector instance to receive alerts from a Paessler PRTG Network Monitor source.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-prtg-connector.html
 release: australia
 product: Event Management
 classification: event-management
@@ -98,5 +99,5 @@ Supported version: 21.3.71.
 8.  After a successful test, select the **Active** check box and then click **Update**.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

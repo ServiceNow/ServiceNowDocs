@@ -2,6 +2,7 @@
 title: UI pages
 description: UI pages can be used to create and display forms, dialogs, lists, and other UI components.Each UI page has a URL computed from the application scope, page name, and the .do file extension.See access controls directly from the UI Page form and add role-based access control when creating or editing a UI Page record.Access controls and related security messages are integrated on high risk UI Pages for increased security.If your UI page contains a form \(uses the &lt;g:form&gt; tag\), you can submit the form and have the process script run.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/scripts/r\_UIPages.html
 release: australia
 product: Scripts
 classification: scripts
@@ -91,7 +92,7 @@ obsolete-custom-processors
 
 </td><td>
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](../../../integrate/custom-web-services/concept/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -103,7 +104,7 @@ Access Controls
 
 </td><td>
 
-View and configure access controls for the UI page. See [Use access controls on UI pages](r_UIPages.md#) for more information.
+View and configure access controls for the UI page. See [Use access controls on UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md) for more information.
 
 </td></tr><tr><td>
 
@@ -127,7 +128,7 @@ When saving a new UI page, you are prompted to assign a role for access control.
 
 **Note:** An entry with the same name as the UI page is created in the Access Control table.
 
-For details on creating an ACL rule, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
+For details on creating an ACL rule, see Create an ACL rule.
 
 ## High risk UI pages
 
@@ -143,7 +144,7 @@ UI pages are considered high risk with any of the following attributes:
 -   For instances with glide.installation.developer is set to **true**.
 -   If resource is customized content for a customer instance.
 
-**Parent Topic:**[Creating custom UI Pages and UI macros](../../general-scripting/concept/create-custom-ui-pages.md)
+**Parent Topic:**[Creating custom UI Pages and UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/create-custom-ui-pages.md)
 
 ## UI page access
 
@@ -178,7 +179,7 @@ A common practical example of this might be retrieving a database record for dis
 
 An exception to be careful of, though, is the reserved variable name sys\_id. This variable always contains the ID of the UI page itself, regardless of what is specified in the URL. A common substitute variable name is sysparm\_id.
 
-Do not use URL parameters to load client scripts in UI pages. The system no longer evaluates scripts that are passed by URL parameter. If your implementation depends on this behavior, you can [add the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_AvailableSystemProperties.md) \[glide.security.disable\_ui\_pages\_sysparm\_client\_script\] and set it to **false** to temporarily allow the evaluation of URL parameters passing scripts in UI pages.
+Do not use URL parameters to load client scripts in UI pages. The system no longer evaluates scripts that are passed by URL parameter. If your implementation depends on this behavior, you can add the system property \[glide.security.disable\_ui\_pages\_sysparm\_client\_script\] and set it to **false** to temporarily allow the evaluation of URL parameters passing scripts in UI pages.
 
 ## Use access controls on UI pages
 
@@ -194,7 +195,7 @@ Role required: security\_admin and admin
 
 1.  Elevate to the **security\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+    For details on role elevation, see Elevate to a privileged role.
 
 2.  Navigate to **All** &gt; **System UI** &gt; **UI Pages**.
 
@@ -202,7 +203,7 @@ Role required: security\_admin and admin
 
 4.  Complete the form.
 
-    See [UI pages](r_UIPages.md#) for additional information for UI field descriptions.
+    See [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md) for additional information for UI field descriptions.
 
 5.  Select **Submit** or **Save**.
 
@@ -225,7 +226,7 @@ Role required: security\_admin and admin
 
 12. Complete the form and assign a role to the UI page.
 
-    For additional information on access control, see [Create an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/access-control/t_CreateAnACLRule.md).
+    For additional information on access control, see Create an ACL rule.
 
 13. Select **Submit** for a new access control or **Update** for edits.
 
@@ -238,7 +239,7 @@ Access controls and related security messages are integrated on high risk UI Pag
 
 An informational message displays on high risk UI pages to inform the customer to add a role-based Access Control to the UI page.
 
-![UI page security recommendation messages.](../image/new-ui-html-processing-errors.png)
+\[Omitted image "new-ui-html-processing-errors.png"\] Alt text: UI page security recommendation messages.
 
 The message displays under the following conditions:
 
@@ -249,7 +250,7 @@ The message displays under the following conditions:
     **Note:** Public UI Pages that are public or that use GlideRecord don’t show a missing ACL warning.
 
 
-See [UI pages](r_UIPages.md#) for details on high risk UI pages.
+See [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_UIPages.md) for details on high risk UI pages.
 
 #### Conditions that display the security recommendations message
 

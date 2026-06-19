@@ -2,6 +2,7 @@
 title: Skills Overview in Workforce Optimization for HR
 description: Use Skills Overview to analyze skill data such as how many skills are assigned to users and tasks. You can also see how many experts you have for a particular skill and the overall skill coverage by your teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workforce-optimization-for-hr/skills-overview-report-wfo-hr.html
 release: australia
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
@@ -125,7 +126,7 @@ Displays the percentage as well as the number of users with different levels of 
 </td></tr></tbody>
 </table>## Reports
 
-**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for HR](activate-wfo-hr.md).
+**Important:** The Pending Users and Assigned Tasks reports display when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md).
 
 |Title|Type|Source table|Description|
 |-----|----|------------|-----------|
@@ -134,5 +135,5 @@ Displays the percentage as well as the number of users with different levels of 
 |Pending Users|Single score|Pending Users \[sn\_lc\_learning\_task\]|The numbers of users who are yet to be assigned the selected skill from the learning task.|
 |Course Items|Single score|Learning Course Item \[sn\_lc\_course\_item\]|The number of internal and external courses that have the skill associated with the course item.|
 
-**Parent Topic:**[Coaching in Workforce Optimization for HR](using-coaching-wfo-hr.md)
+**Parent Topic:**[Coaching in Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workforce-optimization-for-hr/using-coaching-wfo-hr.md)
 

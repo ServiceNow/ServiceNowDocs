@@ -1,7 +1,8 @@
 ---
-title: Create New Service form
+title: Create Service form
 description: Use the Create New Service form in Operational Resilience Workspace to set up a business service and configure its related lists.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/service-form-lists-ws-reference.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -9,11 +10,11 @@ reading_time_minutes: 5
 breadcrumb: [Add a service to Operational Resilience reporting, Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Service form
+# Create Service form
 
 Use the Create New Service form in Operational Resilience Workspace to set up a business service and configure its related lists.
 
-## Create New Service form
+## Create Service form
 
 For a description of the field values, see the following table.
 
@@ -520,7 +521,7 @@ Scenario analysis that is associated with the service.
 -   Domain
 
 </td></tr></tbody>
-</table>To view Related lists and Red flags data in the Operational Resilience Workspace, you must have appropriate user roles. See the "Roles to view elated lists and Red flags data" table for more information.
+</table>To view Related lists and Red flags data in the Operational Resilience Workspace, you must have appropriate user roles. See the "Roles to view related lists and red flags data" table for more information.
 
 <table id="table_z32_2f4_bgc"><thead><tr><th>
 

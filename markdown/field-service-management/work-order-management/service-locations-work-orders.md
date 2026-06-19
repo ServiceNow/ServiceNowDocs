@@ -2,6 +2,7 @@
 title: Setting ad-hoc locations in work orders and work order tasks
 description: The Field Service with Service Locations feature adds options to provide an ad-hoc location when creating a work order or work order task on ServiceNow AI Platform, Agent Workspace, or Customer Service Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/service-locations-work-orders.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -15,7 +16,7 @@ breadcrumb: [Assign ad-hoc Service Locations, Prepare work orders, Use, Field Se
 
 The Field Service with Service Locations feature adds options to provide an ad-hoc location when creating a work order or work order task on ServiceNow AI Platform, Agent Workspace, or Customer Service Portal.
 
-If you don’t want to use the auto-populated location in the **Location** field when creating a work order or work order task, you can add an ad-hoc location. The default validation option for service locations determines whether you can use the Google map \(Using map\) or enter the address manually \(Without map or No validation\). For more information, see [Set the default validation option for service locations](../task/set-default-validation-option-for-service-locations.md).
+If you don’t want to use the auto-populated location in the **Location** field when creating a work order or work order task, you can add an ad-hoc location. The default validation option for service locations determines whether you can use the Google map \(Using map\) or enter the address manually \(Without map or No validation\). For more information, see [Set the default validation option for service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/workforce-optimization-for-field-service/set-default-validation-option-for-service-locations.md).
 
 <table id="table_hnd_rbq_gqb"><thead><tr><th>
 
@@ -33,7 +34,7 @@ Google map
 
 The address information is entered in the text field or by dragging and dropping the marker. The fields auto-populate based on the address entered in the search field on a map.
 
- The Google Maps API key or client ID must be set to use the Google Maps API for Business. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/set-up-google-maps-api.md).
+ The Google Maps API key or client ID must be set to use the Google Maps API for Business. For more information, see Set up Google Maps API.
 
 </td></tr><tr><td>
 

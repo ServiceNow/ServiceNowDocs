@@ -2,6 +2,7 @@
 title: Authentication policy contexts
 description: Use authentication policy contexts to determine how and when your instance enforces authentication policies.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/auth-policy-contexts.html
 release: australia
 product: Authentication
 classification: authentication
@@ -21,25 +22,25 @@ Authentication contexts define how and when a policy is enforced during the logi
 
 Policies in the pre-authorization context execute when a user first accesses the instance, before the they see a login screen. You can use the pre-authorization context to allow or deny access before your users are prompted for login credentials based on your selected policy. Because these policies evaluate before a user enters any information, those policies cannot take criteria such as a user's roles or groups into account.
 
-For more detail on this context, see [Pre authentication context](pre-auth-context.md).
+For more detail on this context, see [Pre authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/pre-auth-context.md).
 
 ## Post-authentication context
 
 Policies in the post-authorization context execute after your users enter their credentials or SSO response. Your instance allows or denies access based on your selected policy. Because your users have identified themselves via their login credentials, the policy can use user information to determine whether to grant access.
 
-For more detail on this context, see [Post-authentication context](post-auth-context.md).
+For more detail on this context, see [Post-authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/post-auth-context.md).
 
 ## MFA \(Multi-Factor Authentication\) context
 
-Policies assigned to the MFA context define whether to enforce MFA during the login process. Whether your instance enforces MFA is determined by the configuration of policies in this context. For more detail on this context, see [Multi-factor Authentication context](mfa-auth-context.md).
+Policies assigned to the MFA context define whether to enforce MFA during the login process. Whether your instance enforces MFA is determined by the configuration of policies in this context. For more detail on this context, see [Multi-factor Authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/mfa-auth-context.md).
 
 ## Account recovery context
 
-Administrators can configure account recovery \(ACR\) to perform recovery activities such as addressing SSO misconfiguration or expired certificates. To use account recovery, you must register at least one admin account as an account recovery user. Single sign-on can’t be activated on your instance until there is at least one account configured. For more information about the context that can be set, see [Account recovery context](../../single-sign-on/concept/account-recovery-context.md).
+Administrators can configure account recovery \(ACR\) to perform recovery activities such as addressing SSO misconfiguration or expired certificates. To use account recovery, you must register at least one admin account as an account recovery user. Single sign-on can’t be activated on your instance until there is at least one account configured. For more information about the context that can be set, see [Account recovery context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/account-recovery-context.md).
 
 ## Session Validation context
 
-The Session Validation context can be used with the Adaptive authentication policy framework. The framework uses authentication policies to evaluate authentication requests \(session\) and then either deny or allow access based on policy conditions. For more information, see [Session validation context](session-context.md).
+The Session Validation context can be used with the Adaptive authentication policy framework. The framework uses authentication policies to evaluate authentication requests \(session\) and then either deny or allow access based on policy conditions. For more information, see [Session validation context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/session-context.md).
 
 ## Default policy
 

@@ -2,11 +2,12 @@
 title: Configure the footer menus
 description: Footer menus enable you to create menus and associate links to internal and external resources under each menu.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/config-emp-center-footer-menus.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Footer configuration, Admin configurations, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -35,10 +36,10 @@ After you create a footer, configure the menus for the footer. For example, you 
 
 4.  On the form, fill in the fields.
 
-    For more information on form fields and descriptions, see [Footer Menus form](../reference/ec-footer-menus.md).
+    For more information on form fields and descriptions, see [Footer Menus form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ec-footer-menus.md).
 
 5.  Click **Submit**.
 
 
-**Parent Topic:**[Footer configuration](../concept/emp-center-footer-config.md)
+**Parent Topic:**[Footer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/emp-center-footer-config.md)
 

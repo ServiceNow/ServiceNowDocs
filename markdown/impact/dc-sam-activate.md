@@ -2,11 +2,14 @@
 title: Activate Data Collection for SAM
 description: Activate the Data Collection Pack for SAM after you enable and configure it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/dc-sam-activate.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for SAM, Impact Value Management data collection apps, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for SAM, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
 # Activate Data Collection for SAM

@@ -2,6 +2,7 @@
 title: Example custom scripts for Password Reset
 description: The example scripts perform a user account lookup and processes an identification form, define a credential store, and create an identification type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/password-reset/r\_PasswordResetScriptingExamples.html
 release: australia
 product: Password Reset
 classification: password-reset
@@ -64,7 +65,7 @@ function getExtensionScriptSysId(scriptName, category) {
 
 ## Define a credential store
 
-The following is an example of an extended process function in the User Account Lookup category used to define a credential store. To create this extension script, go to **Password Reset** &gt; **Extensions** &gt; **New extension script** and create a new script as described in [Create an Extension Script](../task/t_CreateAnExtensionScript.md). To configure the User Lookup in a Password Reset process, see [Credential Stores](../concept/c_CredentialStores.md).
+The following is an example of an extended process function in the User Account Lookup category used to define a credential store. To create this extension script, go to **Password Reset** &gt; **Extensions** &gt; **New extension script** and create a new script as described in [Create an Extension Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAnExtensionScript.md). To configure the User Lookup in a Password Reset process, see [Credential Stores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/c_CredentialStores.md).
 
 ```
 
@@ -128,7 +129,7 @@ SampleUserAccountLookupExtension.prototype = {
 
 ## Create an identification type
 
-The following is an example of an extended processForm function in the Identification Form Processor category that can be used to create an identification type. To create this extension script, go to **Password Reset** &gt; **Extensions** &gt; **New extension script** and create a new script as described in [Create an Extension Script](../task/t_CreateAnExtensionScript.md).
+The following is an example of an extended processForm function in the Identification Form Processor category that can be used to create an identification type. To create this extension script, go to **Password Reset** &gt; **Extensions** &gt; **New extension script** and create a new script as described in [Create an Extension Script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset/t_CreateAnExtensionScript.md).
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

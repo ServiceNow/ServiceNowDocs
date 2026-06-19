@@ -2,6 +2,7 @@
 title: Add custom Labels and Annotations to Kubernetes resources
 description: Add custom Labels and Annotations to all resources deployed by Kubernetes Visibility Agent in the Kubernetes cluster.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/cnov-config-add-custom-labels.html
 release: australia
 product: Discovery
 classification: discovery
@@ -36,5 +37,5 @@ Role required: none
     Label and Annotation names must be alphanumeric and contain no spaces or special characters. For limitations on Label values, see the [Kubernetes documentation](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#syntax-and-character-set).
 
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](cnov-deploy-install.md)
+**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/discovery/cnov-deploy-install.md)
 

@@ -2,6 +2,7 @@
 title: Deleting an external procurement application integration profile
 description: If you want to stop using an external procurement application for creating software requisitions through Software Asset Management, you can delete the integration profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/procurement/delete-ext-profile.html
 release: australia
 product: Procurement
 classification: procurement

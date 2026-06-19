@@ -2,6 +2,7 @@
 title: View script includes used by the Service Graph Connector for Microsoft Excel
 description: As an admin, view the script includes related to the Service Graph Connector for Microsoft Excel
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/view-script-includes-used-by-service-graph-connector.html
 release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
@@ -30,5 +31,5 @@ Role required: admin
 2.  View the list of scripts.
 
 
-**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](../concept/configuring-service-graph-connector-for-excel.md)
+**Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

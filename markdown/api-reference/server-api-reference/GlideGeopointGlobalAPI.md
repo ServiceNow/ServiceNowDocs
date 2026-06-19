@@ -2,6 +2,7 @@
 title: GlideGeoPoint - Global
 description: The GlideGeoPoint API enables you to get and set geopoint data type values in a table.Instantiates a GlideGeoPoint object. The GlideGeoPoint object adds semantic awareness to longitude and latitude values that are otherwise stored as strings.Instantiates the GlideGeoPoint object according to provided longitude and latitude values.Copies longitude and latitude points values to instantiate a new GlideGeoPoint object.Returns the geopoint of the current user in a user-friendly format.Returns a list of geo point coordinate values for a given field name of type geo point.Returns the latitude value of the GlideGeoPoint object.Returns the longitude value of the GlideGeoPoint object.Returns a string containing the programmatic longitude and latitude value of the current GlideGeoPoint object.Sets the longitude and latitude values of the geopoint.Sets the longitude and latitude values of the geopoint using a single comma-delimited value.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/GlideGeopointGlobalAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideGeoPoint API enables you to get and set geopoint data type values in a table.
 
-This API is available by default. The geopoint data type allows you to store a latitude and longitude values in a single field within a table. Using the GlideGeoPoint API, you can instantiate new GlideGeoPoint objects, create new geopoints for a specific table, or retrieve single latitude, longitude or geotype values. For additional information on how to implement specific use cases like inserting new records using a geopoint, computing distances between geopoint locations, or querying for nearby geopoint locations, see [GlideGeoPoint Developer Guide](../../../../../integrate/guides/GlideGeoPoint/concept/geopoint-dev-guide.md#).
+This API is available by default. The geopoint data type allows you to store a latitude and longitude values in a single field within a table. Using the GlideGeoPoint API, you can instantiate new GlideGeoPoint objects, create new geopoints for a specific table, or retrieve single latitude, longitude or geotype values. For additional information on how to implement specific use cases like inserting new records using a geopoint, computing distances between geopoint locations, or querying for nearby geopoint locations, see [GlideGeoPoint Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/geopoint-dev-guide.md).
 
 Key aspects of the geotype data type are:
 
@@ -27,9 +28,9 @@ Key aspects of the geotype data type are:
 
 **Note:** GlideGeoPoint API values are always listed in longitude, latitude order.
 
-The examples on this page assume that a custom table is pre-populated with fields containing the geopoint field type. For more information about this data type, see [Geo point field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/geo-point-field-type.md) and [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/platform-support-functions.md).
+The examples on this page assume that a custom table is pre-populated with fields containing the geopoint field type. For more information about this data type, see  and .
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideGeoPoint - GlideGeoPoint\(\)
 
@@ -102,7 +103,7 @@ geopoint: 135,-64
 
 Returns the geopoint of the current user in a user-friendly format.
 
-The getDisplayValue\(\) method returns a single geopoint value. For information about how to retrieve all geopoint values from a specific table, see [GlideGeoPoint Developer Guide](../../../../../integrate/guides/GlideGeoPoint/concept/geopoint-dev-guide.md#).
+The getDisplayValue\(\) method returns a single geopoint value. For information about how to retrieve all geopoint values from a specific table, see [GlideGeoPoint Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/geopoint-dev-guide.md).
 
 |Name|Type|Description|
 |----|----|-----------|

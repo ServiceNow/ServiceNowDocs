@@ -2,6 +2,7 @@
 title: Obtaining Zero Copy Connector for ERP metrics and statistics
 description: Use the Zero Copy Connector for ERP \(Enterprise Resource Planning\) home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erpc-obtaining-erp-canvas-metrics-and-statistics.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -24,7 +25,7 @@ To view the dashboard, navigate to **All** &gt; **Zero Copy Connector for ERP** 
 
 Select areas or items in the charts, graphs, and lists on the dashboard to view the underlying records. For example, select a section of a donut chart to see a list of the records for that section.
 
-![Donut chart with one section selected.](../image/erpc-home-page-records.png)
+\[Omitted image "erpc-home-page-records.png"\] Alt text: Donut chart with one section selected.
 
 ## Dashboard tabs
 
@@ -32,7 +33,7 @@ The **Recent overview** tab contains information obtained in the last 24 hours.
 
 The **Historical overview** tab contains all information.
 
-![Zero Copy Connector for ERP dashboard with recent overview tab open.](../image/erpc-home-page-dashboard.png)
+\[Omitted image "erpc-home-page-dashboard.png"\] Alt text: Zero Copy Connector for ERP dashboard with recent overview tab open.
 
 |Title|Type|Description|
 |-----|----|-----------|
@@ -44,5 +45,5 @@ The **Historical overview** tab contains all information.
 |Synchronous transactions by entity type|Bar|Synchronous transactions organized by entity type \(for example, read\).|
 |Users grouped by role \(available on the **Recent overview** tab for users with the sn\_erp\_mining.erp\_admin role\)|Donut|Users that have initiated a job, organized by role.|
 
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](erp-integration-configuration-overview.md)
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

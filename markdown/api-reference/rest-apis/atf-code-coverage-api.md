@@ -2,6 +2,7 @@
 title: ATF Code Coverage API
 description: The ATF Code Coverage API provides endpoints to compute code coverage from Automated Test Framework \(ATF\) runs. Coverage can be retrieved by filtered line numbers, for specific script IDs, or for all scripts covered by a set of test suite/test runs.Aggregates coverage across all scripts covered by the provided ATF runs. Supports combining test suite runs and individual test runs.Computes coverage for specific script records.Computes code coverage using a set of filtered line numbers per metadata record.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/atf-code-coverage-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -17,13 +18,13 @@ The ATF Code Coverage API provides endpoints to compute code coverage from Autom
 
 ATF code coverage is a tool that enables you to determine what percentage of code in a deployment request is covered by ATF test suites.
 
-By default, if ATF test suites cover less than 70% of the code in a deployment request, ReleaseOps transitions the deployment request to the Reconciling state and a test failure task is automatically created. You can adjust the ATF code coverage threshold in the deployment request assessment playbook. For more information, see [Set Automated Test Framework \(ATF\) code coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/set-atf-code-coverage-threshold.md).
+By default, if ATF test suites cover less than 70% of the code in a deployment request, ReleaseOps transitions the deployment request to the Reconciling state and a test failure task is automatically created. You can adjust the ATF code coverage threshold in the deployment request assessment playbook. For more information, see .
 
-For information on ATF and Performance Analyzer, see [Testing and debugging applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/testing-and-debugging-applications.md)
+For information on ATF and Performance Analyzer, see .
 
-[Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/releaseops/deployment-analyzer.md)
+For information on deployment analyzer, see .
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## ATF Code Coverage - POST /now/atf/code\_coverage/all
 
@@ -72,7 +73,7 @@ test\_suite\_result\_ids
 
 </td><td>
 
-Required unless `test_result_ids` are provided. List of test suite result sys\_ids.Table: Test Suite Results \[sys\_atf\_test\_suite\_result\]
+Required unless `test_result_ids` are provided. List of test suite result sys\_ids. Both `test_result_ids` and `test_suite_result_ids` can be included in the same request.Table: Test Suite Results \[sys\_atf\_test\_suite\_result\]
 
 Data type: Array of strings
 
@@ -82,7 +83,7 @@ test\_result\_ids
 
 </td><td>
 
-Required unless `test_suite_result_ids` are provided. List of test result sys\_ids to include \(can be combined with suites\). Table: Test Results \[sys\_atf\_test\_result\]
+Required unless `test_suite_result_ids` are provided. List of test result sys\_ids to include. Both `test_result_ids` and `test_suite_result_ids` can be included in the same request.Table: Test Results \[sys\_atf\_test\_result\]
 
 Data type: Array of strings
 
@@ -107,12 +108,12 @@ sys\_scopes
 
 </td><td>
 
-Filter results to specified application scopes \(e.g., `["x_my_app", "global"]`\). Multiple scopes use OR logic, so any matching scope is included. No filtering occurs if any empty or NULL array is provided.Data type: Array of strings
+Filter results to specified application scopes. For example, `["x_my_app", "global"]`. Multiple scopes use OR logic, so any matching scope is included. No filtering occurs if any empty or NULL array is provided.Data type: Array of strings
 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -137,7 +138,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -234,9 +235,7 @@ was\_truncated
 
 </td><td>
 
-Flag that indicates whether request data was truncated during persistence. To reduce truncation, you can change the default number of characters supported.For example, `request_data_truncated: true`.
-
-Valid values:
+Flag that indicates whether request data was truncated during persistence. You can change the default number of characters supported using **glide.db.truncate\_utf8** system property as described in the **Additional information** section.Valid values:
 
 -   true: Request data was truncated during persistence.
 -   false: Request data was not truncated during persistence.
@@ -331,7 +330,7 @@ test\_suite\_result\_ids
 
 </td><td>
 
-Required unless `test_result_ids` are provided. List of test suite result sys\_ids.Table: Test Suite Results \[sys\_atf\_test\_suite\_result\]
+Required unless `test_result_ids` are provided. List of test suite result sys\_ids. Both `test_result_ids` and `test_suite_result_ids` can be included in the same request.Table: Test Suite Results \[sys\_atf\_test\_suite\_result\]
 
 Data type: Array of strings
 
@@ -341,7 +340,7 @@ test\_result\_ids
 
 </td><td>
 
-Required unless `test_suite_result_ids` are provided. List of test result sys\_ids to include \(can be combined with suites\). Table: Test Results \[sys\_atf\_test\_result\]
+Required unless `test_suite_result_ids` are provided. List of test result sys\_ids to include. Both `test_result_ids` and `test_suite_result_ids` can be included in the same request.Table: Test Results \[sys\_atf\_test\_result\]
 
 Data type: Array of strings
 
@@ -376,12 +375,12 @@ sys\_scopes
 
 </td><td>
 
-Filter results to specified application scopes \(e.g., `["x_my_app", "global"]`\). Multiple scopes use OR logic, so any matching scope is included. No filtering occurs if any empty or NULL array is provided.Data type: Array of strings
+Filter results to specified application scopes. For example, `["x_my_app", "global"]`. Multiple scopes use OR logic, so any matching scope is included. No filtering occurs if any empty or NULL array is provided.Data type: Array of strings
 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -406,7 +405,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -504,9 +503,7 @@ was\_truncated
 
 </td><td>
 
-Flag that indicates whether request data was truncated during persistence. To reduce truncation, you can change the default number of characters supported.For example, `request_data_truncated: true`.
-
-Valid values:
+Flag that indicates whether request data was truncated during persistence. You can change the default number of characters supported using **glide.db.truncate\_utf8** system property as described in the **Additional information** section.Valid values:
 
 -   true: Request data was truncated during persistence.
 -   false: Request data was not truncated during persistence.
@@ -613,7 +610,7 @@ test\_suite\_result\_ids
 
 </td><td>
 
-Required unless `test_result_ids` are provided. List of test suite result sys\_ids.Table: Test Suite Results \[sys\_atf\_test\_suite\_result\]
+Required unless `test_result_ids` are provided. List of test suite result sys\_ids. Both `test_result_ids` and `test_suite_result_ids` can be included in the same request.Table: Test Suite Results \[sys\_atf\_test\_suite\_result\]
 
 Data type: Array of strings
 
@@ -623,7 +620,7 @@ test\_result\_ids
 
 </td><td>
 
-Required unless `test_suite_result_ids` are provided. List of test result sys\_ids to include \(can be combined with suites\). Table: Test Results \[sys\_atf\_test\_result\]
+Required unless `test_suite_result_ids` are provided. List of test result sys\_ids to include. Both `test_result_ids` and `test_suite_result_ids` can be included in the same request.Table: Test Results \[sys\_atf\_test\_result\]
 
 Data type: Array of strings
 
@@ -694,12 +691,12 @@ sys\_scopes
 
 </td><td>
 
-Filter results to specified application scopes \(e.g., `["x_my_app", "global"]`\). Multiple scopes use OR logic, so any matching scope is included. No filtering occurs if any empty or NULL array is provided.Data type: Array of strings
+Filter results to specified application scopes. For example, `["x_my_app", "global"]`. Multiple scopes use OR logic, so any matching scope is included. No filtering occurs if any empty or NULL array is provided.Data type: Array of strings
 
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -724,7 +721,7 @@ Data format of the response body. Supported types: **application/json** or **app
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|
@@ -834,9 +831,7 @@ was\_truncated
 
 </td><td>
 
-Flag that indicates whether request data was truncated during persistence. To reduce truncation, you can change the default number of characters supported.For example, `request_data_truncated: true`.
-
-Valid values:
+Flag that indicates whether request data was truncated during persistence. You can change the default number of characters supported using **glide.db.truncate\_utf8** system property as described in the **Additional information** section.Valid values:
 
 -   true: Request data was truncated during persistence.
 -   false: Request data was not truncated during persistence.

@@ -2,11 +2,12 @@
 title: Assign roles for EMR Help users
 description: Assign roles to control access to features, capabilities, and data in the EMR Help application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/emr-help/assign-emr-help-roles.html
 release: australia
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-26"
 reading_time_minutes: 1
 breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -49,6 +50,16 @@ Submit and monitor a ServiceNow service request from within an EMR system.
 
 </td></tr><tr><td>
 
+sn\_ind\_rmt\_help.fulfiller
+
+</td><td>
+
+Fulfill EMR Help requests with read-only access to EMR-captured incident data.
+
+ **Note:** Assign this role to ITIL agents who fulfill EMR Help incidents. Subscription Management uses the sn\_ind\_rmt\_help.fulfiller role to identify EMR Help fulfiller licenses.
+
+</td></tr><tr><td>
+
 sn\_ind\_rmt\_help.viewer
 
 </td><td>
@@ -62,6 +73,6 @@ View details of the EMR data associated with a ServiceNow service request.
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
-    -   To assign a role to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/user-administration/t_AssignRoleToGroup.md).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 

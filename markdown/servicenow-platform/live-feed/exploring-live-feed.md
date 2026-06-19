@@ -2,6 +2,7 @@
 title: Exploring Live Feed Core UI
 description: Live Feed content forms a searchable knowledge source for sharing information within an organization.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/exploring-live-feed.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -19,7 +20,7 @@ Live Feed content forms a searchable knowledge source for sharing information wi
 
 **Important:**
 
-Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-landing-page.md) for more information.
+Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See Next Experience UI for more information.
 
 While Live Feed has been discontinued, we are always exploring new ways to enhance our services. Stay tuned for future updates and improvements.
 
@@ -34,7 +35,7 @@ Live Feed includes different types of feeds, including company feeds, group feed
 
 **Note:** Live Feed v2 is active for all new instances by default. If you are upgrading from an earlier version of ServiceNow®, you need to activate Live Feed v2 to use these features.
 
-Live feed can be domain separated at the data level only. For more information on Live Feed and domain separation, see [Domain separation in Live Feed](../reference/r_DomainSeparationInLiveFeed.md).
+Live feed can be domain separated at the data level only. For more information on Live Feed and domain separation, see [Domain separation in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/r_DomainSeparationInLiveFeed.md).
 
 ## Live Feed users
 
@@ -86,7 +87,7 @@ Document feeds allow users to work on tasks and other records through the Live F
 
 </td><td>
 
-[Document feeds](c_DocumentFeeds.md)
+[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_DocumentFeeds.md)
 
 </td><td>
 
@@ -98,7 +99,7 @@ Record feeds allow users to work on tasks and other records through the Live Fee
 
 </td><td>
 
-[Record feeds](c_RecordFeeds.md)
+[Record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_RecordFeeds.md)
 
 </td><td>
 
@@ -110,7 +111,7 @@ When a record is inserted or updated on a specific task table and the notificati
 
 </td><td>
 
-[Live Feed table notifications](c_SetUpLiveFeedTableNotifications.md)
+[Live Feed table notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_SetUpLiveFeedTableNotifications.md)
 
 </td><td>
 
@@ -122,7 +123,7 @@ Users can be combined into teams for the purpose of subscribing to specifically-
 
 </td><td>
 
-[Teams in Live Feed](c_UseTeamsInLiveFeed.md)
+[Teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)
 
 </td><td>
 
@@ -134,7 +135,7 @@ Hashtags are words marked with a hash symbol \(\#\) in messages. Hashtags are a 
 
 </td><td>
 
-[Hashtags in Live Feed](c_UseHashtagsInLiveFeed.md)
+[Hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)
 
 </td><td>
 
@@ -145,8 +146,8 @@ Anyone
 
 To learn more about configuring and using Live Feed, see:
 
--   [Activating Live Feed](../task/t_ActivateLiveFeed.md)
--   [Administering Live Feed](c_AdministerLiveFeed.md)
--   [Using Live Feed](c_UseLiveFeed.md)
--   [Live Feed reference](../reference/live-feed-reference.md)
+-   [Activating Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/t_ActivateLiveFeed.md)
+-   [Administering Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_AdministerLiveFeed.md)
+-   [Using Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseLiveFeed.md)
+-   [Live Feed reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/live-feed-reference.md)
 

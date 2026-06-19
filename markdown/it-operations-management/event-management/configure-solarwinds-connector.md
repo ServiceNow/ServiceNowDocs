@@ -2,11 +2,12 @@
 title: Configure the SolarWinds metrics connector instance
 description: Configure the SolarWinds connector instance to receive Metric Intelligence raw data from the SolarWinds server.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/configure-solarwinds-connector.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 3
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -17,9 +18,9 @@ Configure the SolarWinds connector instance to receive Metric Intelligence raw d
 
 ## Before you begin
 
-To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](configure-itoa-metric-extension.md).
+To activate metric collection, ensure that the MID Server that retrieves metrics is configured with the Metric Intelligence extension and that the extension is in **Started** mode. See [Manually configure the Metric Intelligence extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/configure-itoa-metric-extension.md).
 
-Configure the Service graph connector for SolarWinds. This is configured in the instance and discovers SolarWinds CIs. For details on configuring this connector, see [Service Graph Connector for SolarWinds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/service-graph-connectors/cmdb-integration-solarwinds.md).
+Configure the Service graph connector for SolarWinds. This is configured in the instance and discovers SolarWinds CIs. For details on configuring this connector, see .
 
 Role required: evt\_mgmt\_admin
 
@@ -39,7 +40,7 @@ By default, the Solarwinds Metric Connector Collects metrics from the following 
 
 2.  Select **New** and create a connector instance.
 
-    For details on the connector instance fields displayed on the page, see [Solarwinds connector instance form](../reference/solarwinds-connector-instance-form.md).
+    For details on the connector instance fields displayed on the page, see [Solarwinds connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/solarwinds-connector-instance-form.md).
 
 3.  Select and hold \(or right-click\) the form header and select **Save**.
 
@@ -47,7 +48,7 @@ By default, the Solarwinds Metric Connector Collects metrics from the following 
 
 4.  In the Connector Instance Values section, you can edit the values of the mandatory SolarWinds parameters.
 
-    For details on the connector instance value parameters, see [Solarwinds connector instance value parameters](../reference/solarwinds-connector-instance-value-parameters.md).
+    For details on the connector instance value parameters, see [Solarwinds connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/solarwinds-connector-instance-value-parameters.md).
 
 5.  In the MID Servers for Connectors section, add a MID Server for the SolarWinds connector to use.
 
@@ -109,7 +110,7 @@ Name of the table from which metrics are collected.
 
 </td></tr></tbody>
 </table>    -   Ensure that the CIs related to the metrics exist in the instance.
-    -   Create an event rule to perform CI binding, as needed. For details, see [Create or edit an event rule](create-or-edit-event-rule.md).
+    -   Create an event rule to perform CI binding, as needed. For details, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/create-or-edit-event-rule.md).
 9.  Select **Test Connector** to verify the connection between the MID Server and the connector.
 
 10. After a successful test, select the **Active** check box and then select **Update**.
@@ -117,5 +118,5 @@ Name of the table from which metrics are collected.
     **Note:** Ensure that **Registration Mode** is enabled for the SolarWinds source in the Metric Sources table.
 
 
-**Parent Topic:**[Configure a pull connector](t_EMConfigureConnectorInstance.md)
+**Parent Topic:**[Configure a pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/event-management/t_EMConfigureConnectorInstance.md)
 

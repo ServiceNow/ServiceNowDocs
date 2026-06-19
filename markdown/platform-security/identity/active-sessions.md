@@ -2,6 +2,7 @@
 title: Viewing Active Sessions in Identity Center
 description: Displays the information about the user sessions.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/active-sessions.html
 release: australia
 product: Identity
 classification: identity
@@ -21,5 +22,5 @@ The Active Sessions tab in the Identity Center helps you to identity your sessio
 
 Using this information can help determine if the sessions are real and not a security concern.
 
-![Active Sessions](../images/active-sessions.png)
+\[Omitted image "active-sessions.png"\] Alt text: Active Sessions
 

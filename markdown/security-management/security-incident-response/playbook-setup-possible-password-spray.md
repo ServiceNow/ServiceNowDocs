@@ -2,6 +2,7 @@
 title: Set up the Possible Password Spray playbook
 description: Use the following steps to set up the Possible Password Spray playbook.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/playbook-setup-possible-password-spray.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -32,9 +33,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  You can create a copy of the Possible Password Spray playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, click the ![More actions menu](../image/more-action-menu.png) icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
-
-    ![Overview of the Possible Password Spray playbook](../image/playbook-password-spray.png "Possible Password Spray playbook")
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
 4.  Activate the playbooks.
 
@@ -46,8 +45,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     -   **Category** is **Unauthorized access**.
     -   **Sub-category** is **Brute force password cracking attempts**.
-    ![Trigger condition for Possible Password Spray playbook.](../image/playbook-password-spray-trigger.png)
 
-
-**Parent Topic:**[Playbook for Possible Password Spray](../concept/playbook-possible-password-spray.md)
+**Parent Topic:**[Playbook for Possible Password Spray](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/playbook-possible-password-spray.md)
 

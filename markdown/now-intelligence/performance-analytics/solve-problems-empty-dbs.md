@@ -2,6 +2,7 @@
 title: Solve problems with empty dashboards
 description: When a dashboard shows an empty page with an empty dashboard selector, the dashboard name may include special characters.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/solve-problems-empty-dbs.html
 release: australia
 product: Performance Analytics
 classification: performance-analytics

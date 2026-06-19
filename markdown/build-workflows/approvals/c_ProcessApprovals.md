@@ -2,6 +2,7 @@
 title: Process approvals
 description: Once a request has passed its gating approvals, any relevant execution plans are initiated.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/approvals/c\_ProcessApprovals.html
 release: australia
 product: Approvals
 classification: approvals
@@ -15,13 +16,13 @@ breadcrumb: [Approval rules, Classic approvals, Build workflows]
 
 Once a request has passed its gating approvals, any relevant execution plans are initiated.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](../../flow-designer/reference/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 Those plans, in turn, create a sequence of required tasks. You can add an approval step to an execution plan, which is configured to occur at the appropriate point.
 
 From the left navigation pane, select **Service Catalog** &gt; **Execution Plans**, and then select the plan to which to add an approval step. Then click the **New Approval** button.
 
-![Add an approval](../image/AddApproval.png "Add approval")
+\[Omitted image "AddApproval.png"\] Alt text: Add an approval
 
 The Approval Task screen appears. Just like a regular Service Catalog execution task, an approval execution task has:
 
@@ -35,7 +36,7 @@ After you create the task, right click the title bar and select **Save**. Two re
 -   **Approved By Group**: A list of groups that must approve the request before this task is complete
 -   **Approved By**: A list of users who must approve the request before this task is complete
 
-![Approval task](../image/ApproveTask.png "Approval task")
+\[Omitted image "ApproveTask.png"\] Alt text: Approval task
 
 In the example above, this security approval task must be approved by Fred Luddy.
 

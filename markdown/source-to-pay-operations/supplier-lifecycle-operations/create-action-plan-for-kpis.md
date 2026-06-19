@@ -2,6 +2,7 @@
 title: Create action plan for KPIs
 description: Create action plans linked to under-performing KPIs, enabling visual tracking of milestones and tasks. The tasks triggered by the action plans are assigned to the suppliers and they can see and complete those tasks in the Supplier Collaboration Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.html
 release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
@@ -35,13 +36,13 @@ Role required: sn\_kpi.admin
 
 6.  Select the KPIs to be tracked.
 
-    ![Select the KPIs to be tracked in the action plan](../image/add-action-plan.png "Add action plan KPIs")
+    \[Omitted image "add-action-plan.png"\] Alt text: Select the KPIs to be tracked in the action plan
 
 7.  Select **Add**.
 
 8.  On the form, fill in the fields.
 
-    ![Action plan form details](../image/action-plan-form.png)
+    \[Omitted image "action-plan-form.png"\] Alt text: Action plan form details
 
 <table id="table_ssx_vwv_1fc"><thead><tr><th>
 
@@ -158,7 +159,7 @@ Detailed description of the action plan
 
 10. Create milestones or supplier tasks for each KPI to track the action plan.
 
-    For more information on how to create milestones and supplier tasks, see [Create milestones for the action plan](create-milestones-for-the-action-plan.md) and [Create supplier tasks for the action plan](create-supplier-tasks-for-the-action-plan.md).
+    For more information on how to create milestones and supplier tasks, see [Create milestones for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.md) and [Create supplier tasks for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-tasks-for-the-action-plan.md).
 
 11. Select **Submit** to activate the action plan.
 
@@ -166,10 +167,12 @@ Detailed description of the action plan
 
     Internal users can add comments through the **Work notes** and the progress of the action plan can be tracked in the **Activity** stream section.
 
-    ![Action plan with the Activity stream and work notes](../image/slo-action-plan-activity.png)
+    \[Omitted image "slo-action-plan-activity.png"\] Alt text: Action plan with the Activity stream and work notes
 
 
 ## Result
+
+An action plan is created in draft state and must be assigned to a reviewer to advance the workflow.
 
 After the milestones are run, corresponding tasks are generated for the users assigned to those milestones. When they complete their tasks, performance metrics are recalculated to determine whether the KPIs are still on target or failing. If a KPI is linked to a milestone or an action plan, the dashboard highlights its status:
 
@@ -187,7 +190,7 @@ Emails are sent to the assignees when action plans are created. Emails are also 
 
 The action plan can be tracked continuously, with updates based on the subsequent KPI runs. Managers can monitor the progress of milestones and tasks using the Gantt chart.
 
-![Action plans items showing Gantt chart](../image/slo-action-plan-gantt.png)
+\[Omitted image "slo-action-plan-gantt.png"\] Alt text: Action plans items showing Gantt chart
 
 The following color code is followed to represent different tasks in the Gantt chart:
 
@@ -195,10 +198,10 @@ The following color code is followed to represent different tasks in the Gantt c
 -   Blue: Active tasks past due date and completed
 -   Orange: Active tasks past due date but not completed
 
--   **[Create milestones for the action plan](create-milestones-for-the-action-plan.md)**  
+-   **[Create milestones for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-milestones-for-the-action-plan.md)**  
 Create milestones for the affected KPIs in the action plan.
--   **[Create supplier tasks for the action plan](create-supplier-tasks-for-the-action-plan.md)**  
+-   **[Create supplier tasks for the action plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/create-supplier-tasks-for-the-action-plan.md)**  
 Create supplier tasks for the affected KPIs in the action plan.
 
-**Parent Topic:**[Using Supplier Relationship and Performance Management](../concept/using-supplier-relationship-and-performance-management.md)
+**Parent Topic:**[Using Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/supplier-lifecycle-operations/using-supplier-relationship-and-performance-management.md)
 

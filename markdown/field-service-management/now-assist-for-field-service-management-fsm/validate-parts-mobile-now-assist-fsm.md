@@ -2,6 +2,7 @@
 title: Validate parts on ServiceNow Agent using the Parts Manager AI agent
 description: Use the Parts Manager AI agent to validate parts usage when closing work order tasks on the ServiceNow Agent mobile application using Now Assist for Field Service Management \(FSM\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/now-assist-for-field-service-management-fsm/validate-parts-mobile-now-assist-fsm.html
 release: australia
 product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm

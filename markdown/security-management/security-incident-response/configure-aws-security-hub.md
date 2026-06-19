@@ -2,6 +2,7 @@
 title: Register and configure the AWS Security Hub portal
 description: Register your application in the AWS Security Hub portal and grant your users with read and write access to the application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/configure-aws-security-hub.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response

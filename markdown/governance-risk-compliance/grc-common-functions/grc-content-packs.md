@@ -2,6 +2,7 @@
 title: Governance, Risk, and Compliance content packs
 description: Content packs may include pre-defined scopes, specific policies, controls, risks, audit, test plans, dashboards, and reports that provides customers an operational head-start when adopting various regulations and frameworks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/grc-content-packs.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
@@ -19,8 +20,8 @@ Use the following documentation for the installation, verification, and reportin
 
 Unless otherwise noted, each content pack requires that you have the ServiceNow GRC products installed and activated on your instance.
 
--   **[Sarbanes-Oxley \(SOX\) Content Pack](../../grc-sox-compliance-content-pack/concept/sn-store-SOX-governance-risk-compliance.md)**  
+-   **[Sarbanes-Oxley \(SOX\) Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/sn-store-SOX-governance-risk-compliance.md)**  
 The Sarbanes-Oxley \(SOX\) Content Pack provides basic SOX content for an organization to commence and manage activities towards attaining operational SOX compliance using the ServiceNow® GRC application. A content pack may include pre-defined scope, specific policies, controls, risks, audit, test plans, dashboards, and reports providing users of ServiceNow® GRC a head-start in using the applications towards SOX compliance-related activities.
 
-**Parent Topic:**[Common Governance, Risk, and Compliance features](../concept/common-grc-features.md)
+**Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

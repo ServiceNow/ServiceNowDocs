@@ -2,6 +2,7 @@
 title: Respond to attestations on the Risk Portal
 description: Respond to your attestations by logging in to the Risk Portal.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/smart-assessment-risk-portal.html
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
@@ -29,7 +30,7 @@ As an attestation respondent of a control you can log in to the Risk Portal and 
 
 2.  Select the new task in My pending tasks section of the Risk Portal.
 
-    You can view the Attestations on the left panel.
+    You can view the attestations on the left panel. The Control Attestations list view displays the Control and Entity columns alongside the existing assessment instance, assessment template, state, users, and due date columns, providing attestors with direct scope context for each assessment instance without opening individual records.
 
 3.  Select the assessment instance link on the right panel of the My pending tasks related list.
 

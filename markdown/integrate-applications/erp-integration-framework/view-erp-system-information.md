@@ -2,6 +2,7 @@
 title: View Zero Copy Connector for ERP software information
 description: In Zero Copy Connector for ERP \(Enterprise Resource Planning\) , view software information including ERP family, database type, and more.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/view-erp-system-information.html
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
@@ -24,16 +25,16 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
 
 1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
-2.  Open the ERP systems list by selecting the systems icon ![](../image/erp-systems-icon-sidebar.png) in the side panel.
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] in the side panel.
 
 3.  Open a system.
 
 4.  Select the **Software info** tab.
 
-    ![Zero Copy Connector for ERP system record with software info tab displayed.](../image/erpc-software-info-tab.png)
+    \[Omitted image "erpc-software-info-tab.png"\] Alt text: Zero Copy Connector for ERP system record with software info tab displayed.
 
-    View software information including ERP family and generation. All fields are read only. For more information, see [Zero Copy Connector for ERP software info tab field descriptions](../reference/erp-canvas-system-info-details.md).
+    View software information including ERP family and generation. All fields are read only. For more information, see [Zero Copy Connector for ERP software info tab field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-system-info-details.md).
 
 
-**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](../concept/erp-canvas-work-with-systems.md)
+**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
 

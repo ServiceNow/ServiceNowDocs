@@ -2,6 +2,7 @@
 title: API access policy
 description: API access policy defines the permissions and duration of access to an API.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/api-access-policy.html
 release: australia
 product: Authentication
 classification: authentication
@@ -36,8 +37,8 @@ You can configure the default Global Blocking Policy or create a custom API acce
 
 The following API access policies are supported in ServiceNow®:
 
--   [REST API access policies](inbound-authentication-profile.md)
--   [SOAP API access policies](../../inbound-soap/concept/soap-api-access-policies.md)
+-   [REST API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/inbound-authentication-profile.md)
+-   [SOAP API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/soap-api-access-policies.md)
 
-For information about policies related to export processors, see [Access policy for System or Export Processors](api-auth-policy-export-processors.md).
+For information about policies related to export processors, see [Access policy for System or Export Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/api-auth-policy-export-processors.md).
 

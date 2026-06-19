@@ -2,6 +2,7 @@
 title: Client software distribution extension points
 description: The client software distribution \(CSD\) extension points create the customization code for the specific provider and the extension keys.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/orchestration/r\_CSDExtensionPoints.html
 release: australia
 product: Orchestration
 classification: orchestration
@@ -42,16 +43,16 @@ The script must set the **csdExtensionResult** object with these attributes:
 -   **softwareModel**: Software model sys\_id.
 -   **deploymentType**: An integer. Use **1** for deployment to a user and **2** for deployment to a device.
 
-**Parent Topic:**[Client software distribution extension framework](../concept/c_CSDExtensionFramework.md)
+**Parent Topic:**[Client software distribution extension framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/orchestration/c_CSDExtensionFramework.md)
 
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/extension-points.md)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/scripted-extension-points.md)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/ui-extension-points.md)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/client-extension-points.md)
+[bundle-crapiref.client-extension-points]
 

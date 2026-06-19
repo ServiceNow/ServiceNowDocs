@@ -2,6 +2,7 @@
 title: Navigate between Live Feed and other modules
 description: If you are participating in a feed and navigate to another module, when you return to Live Feed it displays the feed you were previously viewing if it is public or if it is a private feed that you are a member of.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/live-feed/c\_NavLiveFeedAndOtherMod.html
 release: australia
 product: Live Feed
 classification: live-feed
@@ -17,5 +18,5 @@ If you are participating in a feed and navigate to another module, when you retu
 
 For example, assume you are viewing a public feed and then navigate to a particular incident record. Upon returning to Live Feed, the feed you were previously viewing opens. If you were last viewing a private feed that you are not a member of, returning to Live Feed opens the Company Feed.
 
-**Parent Topic:**[Use feeds in Live Feed](c_UseFeedsInLiveFeed.md)
+**Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)
 

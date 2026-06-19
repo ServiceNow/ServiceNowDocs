@@ -2,13 +2,14 @@
 title: Return items received in a transfer order
 description: Return items from a received transfer order when all or some of the delivered assets are defective or incorrect.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/t\_ReturnItemsRecInXferOrder.html
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Transfer order tasks, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order tasks, Manage transfer order, Use, Asset Management, IT Asset Management]
 ---
 
 # Return items received in a transfer order
@@ -64,5 +65,5 @@ Items in a transfer order must be received before they can be returned.
     If you return another defective model from the same, original order, the two defective returns are merged into one line item.
 
 
-**Parent Topic:**[Transfer order tasks](../concept/work-with-transfer-orders.md)
+**Parent Topic:**[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management/work-with-transfer-orders.md)
 

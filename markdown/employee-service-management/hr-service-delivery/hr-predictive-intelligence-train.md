@@ -2,6 +2,7 @@
 title: Manually train the HR predictive model
 description: Manually train the HR predictive model if it not auto trained by default.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-predictive-intelligence-train.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery

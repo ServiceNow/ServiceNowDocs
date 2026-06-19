@@ -2,6 +2,7 @@
 title: API analytics properties
 description: Certain properties control the behavior of API analytics.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/api-analytics-properties.html
 release: australia
 product: Web Services
 classification: web-services
@@ -78,5 +79,5 @@ When true, enables debug logging for API stats.-   Type: true \| false
 -   Location: Add to the System Properties \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Analyze REST and SOAP API usage](../concept/c_APIAnalytics.md)
+</table>**Parent Topic:**[Analyze REST and SOAP API usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/c_APIAnalytics.md)
 

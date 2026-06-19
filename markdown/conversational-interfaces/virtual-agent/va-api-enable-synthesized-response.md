@@ -2,6 +2,7 @@
 title: Enable synthesized response in Virtual Agent API
 description: You can now enable synthesized response in the conversations with the primary bot.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-api-enable-synthesized-response.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -95,5 +96,5 @@ Property value that controls how Virtual Agent API sends the synthesized text re
 </td></tr></tbody>
 </table>    3.  Click **Update**.
 
-**Parent Topic:**[Using Virtual Agent API](../concept/use-virtual-agent-api.md)
+**Parent Topic:**[Using Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-virtual-agent-api.md)
 

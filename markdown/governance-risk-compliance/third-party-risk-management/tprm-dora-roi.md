@@ -2,12 +2,13 @@
 title: Register of information regulatory packages
 description: The Register of Information \(RoI\) is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital Resilience Third-party Information Register application in the Vendor Management Workspace application.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/third-party-risk-management/tprm-dora-roi.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-05-15"
+reading_time_minutes: 3
 keywords: [DORA, Register of Information, TPRM, compliance]
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +35,7 @@ After validation completes, the system automatically notifies the request initia
 
 During report generation, you can enable optional currency conversion and third‑party total expense aggregation. These options standardize or combine annual expense values in the reporting package. These options affect only the generated reporting package and do not modify source records in the digital resilience registers.
 
-For more information, see [Currency conversion and third-party total expense aggregation](tprm-dora-currency-aggregation.md).
+For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md).
 
 ## Digital Resilience Third-party Information Register support for RoI
 
@@ -44,11 +45,12 @@ The Digital Resilience Third-party Information Register provides the following c
 -   CSV report generation aligned with regulator specifications
 -   ZIP packaging with metadata and report folders
 -   Validation workflows for technical, schema, and business rule checks
+-   Level 4 LEI validation against the GLEIF database, with a downloadable `Level4_LEI_Validation_Report.csv` included in `Consolidated_Reports.zip`. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 -   Role-based access for managing RoI requests
 
 **Note:**
 
 All RoI-related actions are performed in the **Digital resilience third-party registers** section of the Vendor Management Workspace. This workspace provides access to download/upload requests, validation tools, and master templates.
 
-For more information, see [Generate a register of information package](../task/tprm-drtp-roi-packages.md)
+For more information, see [Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md)
 

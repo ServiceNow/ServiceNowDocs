@@ -2,6 +2,7 @@
 title: Configuring push notifications for task assignment
 description: Assign tasks and send reminders to customer service agents and field technicians using push notifications.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/push-notifications-tasks-slas.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -19,7 +20,7 @@ Agents and technicians can receive push notifications about tasks on their mobil
 
 Push notifications for work order tasks use the **ServiceNow Mobile Application** push application. Use this application to send notifications to both individual users and assignment groups.
 
-Users with the system administrator role can enable and configure push notifications. See [Push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_PushNotifications.md) for more information.
+Users with the system administrator role can enable and configure push notifications. See Push notifications for more information.
 
 ## Push notifications for task assignment
 

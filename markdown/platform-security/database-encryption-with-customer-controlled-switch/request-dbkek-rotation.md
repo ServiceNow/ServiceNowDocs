@@ -2,6 +2,7 @@
 title: Requesting database key rotation
 description: Rotate the database key annually or as needed by submitting a request to support.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/database-encryption-with-customer-controlled-switch/request-dbkek-rotation.html
 release: australia
 product: Database Encryption with Customer Controlled Switch
 classification: database-encryption-with-customer-controlled-switch
@@ -19,7 +20,7 @@ Rotate the database key annually or as needed by submitting a request to support
 
 Role required: admin
 
-**Important:** Starting with the Washington DC release, Database Encryption is being prepared for future deprecation. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](../../encryption-dare/concept/dare-overview.md)
+**Important:** Starting with the Washington DC release, Database Encryption is being prepared for future deprecation. Cloud Encryption is the replacement solution for data at rest encryption. For details, see [Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/cloud-encryption/dare-overview.md)
 
 ## About this task
 
@@ -38,5 +39,5 @@ Key rotation occurs at night within 24 hours prior to the expiration date and do
         -   Dates and times of rotation.
     -   Schedule an early key rotation outside of the annual scheduled rotation.
 
-**Parent Topic:**[Database Encryption](../concept/db-full-disk-encryption.md)
+**Parent Topic:**[Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/database-encryption-with-customer-controlled-switch/db-full-disk-encryption.md)
 

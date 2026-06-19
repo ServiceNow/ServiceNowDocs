@@ -1,7 +1,8 @@
 ---
-title: Create a remote record producers in a remote catalog in Service Exchange for Providers
+title: Create remote record producers for Providers
 description: Create remote record producers as part of creating a Remote Catalog in Service Exchange for Providers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/service-bridge-v2-create-remote-rec-prod.html
 release: australia
 product: Service Exchange
 classification: service-exchange
@@ -11,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# Create a remote record producers in a remote catalog in Service Exchange for Providers
+# Create remote record producers for Providers
 
 Create remote record producers as part of creating a Remote Catalog in Service Exchange for Providers.
 
@@ -129,7 +130,7 @@ Detailed description for the record producer.
 
 7.  Add at least one variable.
 
-    See [Create variables for remote record producers in Service Exchange for Providers](service-bridge-v2-assign-variables-ser-defn.md).
+    See [Create variables for remote record producers for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
 
 8.  Add a consumer criteria.
 
@@ -138,10 +139,10 @@ Detailed description for the record producer.
 
 ## What to do next
 
-You can create multiple configuration revisions of this published remote record producer. For details on how to create a configuration revision, see [Create configuration revisions](../concept/service-bridge-v2-create-config-rev.md). You can also perform the following operations:
+You can create multiple configuration revisions of this published remote record producer. For details on how to create a configuration revision, see [Create configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md). You can also perform the following operations:
 
--   Archive a configuration revision: See [Archive a configuration revision](../concept/service-bridge-v2-create-config-rev.md#section_zjw_2qc_sbc)
--   Copy a configuration revision: See [Copy a configuration revision](../concept/service-bridge-v2-create-config-rev.md#section_gst_43n_tbc).
--   Retire a configuration: [Retire a configuration](../concept/service-bridge-v2-create-config-rev.md#section_x1w_dqc_sbc).
--   Delete a configuration: See [Delete a configuration](../concept/service-bridge-v2-create-config-rev.md#section_igy_2jn_tbc).
+-   Archive a configuration revision: See [Archive a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md)
+-   Copy a configuration revision: See [Copy a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md).
+-   Retire a configuration: [Retire a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md).
+-   Delete a configuration: See [Delete a configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/service-bridge-v2-create-config-rev.md).
 

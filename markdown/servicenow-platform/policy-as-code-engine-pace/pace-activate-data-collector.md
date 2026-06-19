@@ -2,6 +2,7 @@
 title: Activate and build data collectors
 description: Activate and build data collectors to add to a policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/policy-as-code-engine-pace/pace-activate-data-collector.html
 release: australia
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
@@ -29,7 +30,7 @@ Role required: sn\_pace.code\_editor
 
     1.  Click **Add**.
 
-        ![Add new input/output](../image/pace-add-new-input.jpg)
+        \[Omitted image "pace-add-new-input.jpg"\] Alt text: Add new input/output
 
     2.  On the Add new input form, fill in the fields.
 

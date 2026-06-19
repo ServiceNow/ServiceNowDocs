@@ -2,6 +2,7 @@
 title: Promote to Major Security Incident
 description: Promote a security incident to major security incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/promote-to-major-security-incident.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
@@ -29,7 +30,7 @@ Role required: sn\_si.analyst.
 
 4.  On the form, fill in the fields such as Detection date, Estimated resolution date, Justification, and Potential impact.
 
-    ![Promote incident](../image/promote-msi.png)
+    \[Omitted image "promote-msi.png"\] Alt text: Promote incident
 
 5.  Click **Promote**.
 
@@ -40,5 +41,5 @@ Role required: sn\_si.analyst.
     **Note:** You can also unlink the major security incident if the incident is not critical, the incident will then be unlinked and lists under the list view for the security analyst remediation.
 
 
-**Parent Topic:**[Working with MSI Records](../concept/working-with-msi-records.md)
+**Parent Topic:**[Working with MSI Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/security-incident-response/working-with-msi-records.md)
 

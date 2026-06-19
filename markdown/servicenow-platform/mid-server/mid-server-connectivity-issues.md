@@ -2,6 +2,7 @@
 title: MID Server user connectivity issues
 description: The instance writes issues involving MID Server user logins and network connectivity to the MID Server Issue \[ecc\_agent\_issue\] table and creates events you can use in custom scripts or to send email notifications.After attempting to resolve a user connectivity issue that appears in the MID Server Issue \[ecc\_agent\_issue\] table, you can test your remediation efforts without having to wait until the next scheduled reporting period by shortening the sampling interval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/mid-server-connectivity-issues.html
 release: australia
 product: MID Server
 classification: mid-server
@@ -27,15 +28,15 @@ From the perspective of the instance, the MID Server is **Down** when:
 
 ## How issues are logged
 
-User authentication failures and authorization issues are logged automatically to the MID Server [agent log file](../concept/ecc-queue-mid-server.md#). The message for both is the same: **User cannot be authenticated or is missing the proper roles.** If the issue is related to authorization, the `agent.log` file shows the list of missing roles.
+User authentication failures and authorization issues are logged automatically to the MID Server [agent log file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/ecc-queue-mid-server.md). The message for both is the same: **User cannot be authenticated or is missing the proper roles.** If the issue is related to authorization, the `agent.log` file shows the list of missing roles.
 
-When debugging is enabled, MID Server issues are logged to the system log \(syslog\) and are available for display in either a [summary or a detailed](mid-user-connectivity-debug-output.md) format. You can also change the sampling interval from the default 4 hours to something shorter for tracking your remediation efforts. For instructions on enabling and configuring debugging for MID Server user issues, see [Test remediation efforts for MID Server user connectivity issues](mid-server-connectivity-issues.md#).
+When debugging is enabled, MID Server issues are logged to the system log \(syslog\) and are available for display in either a [summary or a detailed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-user-connectivity-debug-output.md) format. You can also change the sampling interval from the default 4 hours to something shorter for tracking your remediation efforts. For instructions on enabling and configuring debugging for MID Server user issues, see [Test remediation efforts for MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-server-connectivity-issues.md).
 
 ## Data provided
 
 When the instance encounters user connectivity issues, it opens a record in the MID Server Issue \[ecc\_agent\_issue\] table.
 
-![Example user authentication error message](../image/MIDIssueAuthenticationFailNoAssoc.png "Example user authentication error message")
+\[Omitted image "MIDIssueAuthenticationFailNoAssoc.png"\] Alt text: Example user authentication error message
 
 The MID Server Issue table contains these fields:
 
@@ -108,7 +109,7 @@ Number of times an issue has been detected. Each time the scheduled job runs and
 </td></tr></tbody>
 </table>## User authentication failure
 
-The credentials that the instance uses to authenticate a MID Server user are configured in the MID Server Configuration Parameters \[ecc\_agent\_config\] table. If the MID Server user attempts to log into the instance with invalid credentials, the instance rejects the connection, and writes the **login.failed** event to the Events \[sysevents\] table for the user. Administrators can use this event in a custom script or in [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) for authentication failure.
+The credentials that the instance uses to authenticate a MID Server user are configured in the MID Server Configuration Parameters \[ecc\_agent\_config\] table. If the MID Server user attempts to log into the instance with invalid credentials, the instance rejects the connection, and writes the **login.failed** event to the Events \[sysevents\] table for the user. Administrators can use this event in a custom script or in email notifications for authentication failure.
 
 **Note:** If user authentication fails, user authorization is not attempted.
 
@@ -147,7 +148,7 @@ The necessary conditions for this message to appear are:
 
 ## User authorization failure
 
-The user authorization check occurs after the MID Server has successfully authenticated on the instance. In this step, the system ensures that the user account associated with a MID Server is granted the minimum roles required. A SOAP web service called MIDServerCheck performs the role checking on the instance. If the MID Server user has the proper roles, the connection is allowed and a **login** event is written to the Events \[sysevents\] table. If the user does not have the proper roles, the instance writes a **login.authorization.failed** event to the Events \[sysevents\] table. This event provides a comma separated list of the user's missing roles. Administrators can use this event in custom scripts or in [email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md) for authorization failure.
+The user authorization check occurs after the MID Server has successfully authenticated on the instance. In this step, the system ensures that the user account associated with a MID Server is granted the minimum roles required. A SOAP web service called MIDServerCheck performs the role checking on the instance. If the MID Server user has the proper roles, the connection is allowed and a **login** event is written to the Events \[sysevents\] table. If the user does not have the proper roles, the instance writes a **login.authorization.failed** event to the Events \[sysevents\] table. This event provides a comma separated list of the user's missing roles. Administrators can use this event in custom scripts or in email notifications for authorization failure.
 
 Authorization can fail if a user is missing the mid\_server role or any of the important SOAP roles, as in these cases:
 
@@ -254,7 +255,7 @@ This message appears in the MID Server Issue \[ecc\_agent\_issue\] table when:
 
 **Note:** The MID Server \[mid\_server\] field in the MID Server Issues \[ecc\_agent\_issue\] table is empty \(=NULL\).
 
-**Parent Topic:**[Resolving MID Server issues](r_MIDServerTroubleshooting.md)
+**Parent Topic:**[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)
 
 ## Test remediation efforts for MID Server user connectivity issues
 
@@ -304,6 +305,6 @@ Reconfigure the sampling interval using this procedure and then examine the resu
 
     -   For a summary view, enter **MIDUserConnectivity\(1\)**.
     -   For a detailed view, enter **MIDUserConnectivity\(2\)**.
-    For details about the type of debugging information provided, see [Interpreting MID Server user debugging output](mid-user-connectivity-debug-output.md).
+    For details about the type of debugging information provided, see [Interpreting MID Server user debugging output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server/mid-user-connectivity-debug-output.md).
 
 

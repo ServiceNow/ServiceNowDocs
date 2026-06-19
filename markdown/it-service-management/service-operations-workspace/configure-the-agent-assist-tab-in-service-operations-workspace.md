@@ -2,6 +2,7 @@
 title: Configure the Agent Assist tab in Service Operations Workspace
 description: Enable or disable the Agent Assist tab in the contextual side panel for the required record type.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-the-agent-assist-tab-in-service-operations-workspace.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -25,7 +26,7 @@ Role required: admin
 
 Add or remove a record table from the screen condition and update the sys\_id for the record to enable or disable the Agent Assist tab for that table.
 
-**Important:** Use this process if you're using a SOW version prior to 4.0. If you're using the version after 4.0, you can use **SOW Sidebar tabs top** Page collection to enable or disable the Agent Assist tab. For more information, see [Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page](configure-agent-assist-tab-sow-srp.md).
+**Important:** Use this process if you're using a SOW version prior to 4.0. If you're using the version after 4.0, you can use **SOW Sidebar tabs top** Page collection to enable or disable the Agent Assist tab. For more information, see [Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/configure-agent-assist-tab-sow-srp.md).
 
 ## Procedure
 
@@ -33,7 +34,7 @@ Add or remove a record table from the screen condition and update the sys\_id fo
 
 2.  In the search box, enter `sys_ux_screen_type.list` and press Enter.
 
-3.  Select the filter icon \(![Filter icon](../../configurable-workforce-optimization-itsm/image/show-filter-icon.png)\), enter **\[Name\] \[contains\] \[Agent Assist\]** and **\[Application\] \[is\] \[Service Operations Workspace\]**, and select **Run**.
+3.  Select the filter icon \(\[Omitted image "show-filter-icon.png"\] Alt text: Filter icon\), enter **\[Name\] \[contains\] \[Agent Assist\]** and **\[Application\] \[is\] \[Service Operations Workspace\]**, and select **Run**.
 
 4.  Select the **Agent Assist** link.
 
@@ -49,17 +50,17 @@ Add or remove a record table from the screen condition and update the sys\_id fo
         controller.sowrecordctrl.table=incident^ORcontroller.sowrecordctrl.table=problem^ORcontroller.sowrecordctrl.table=problem_task^ORcontroller.sowrecordctrl.table=change_request^ORcontroller.sowrecordctrl.table=change_task^ORcontroller.sowrecordctrl.table=kb_knowledge^ORcontroller.sowrecordctrl.table=interaction
         ```
 
-    2.  If you want to enable the Agent Assist tab, add the sys\_id of the relevant table configuration in **Macroponent Configuration**.![UX Screen form with callouts the additions to the Screen Condition and Macroponent Configuration fields](../image/screen_variant_srp.png)
+    2.  If you want to enable the Agent Assist tab, add the sys\_id of the relevant table configuration in **Macroponent Configuration**.\[Omitted image "screen\_variant\_srp.png"\] Alt text: UX Screen form with callouts the additions to the Screen Condition and Macroponent Configuration fields
 
-        For more information, see [Edit the table configuration for Agent Assist in Service Operations Workspace](edit-the-table-configuration-for-agent-assist-in-service-operations-workspace.md).
+        For more information, see [Edit the table configuration for Agent Assist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace.md).
 
     3.  Select **Update**.
 
 7.  To disable the Agent Assist tab for a record table, remove the record table from the **Screen Condition** field and sys\_id of the relevant table configuration from the **Macroponent Configuration** field, and then select **Update**.
 
 
--   **[Edit the table configuration for Agent Assist in Service Operations Workspace](edit-the-table-configuration-for-agent-assist-in-service-operations-workspace.md)**  
+-   **[Edit the table configuration for Agent Assist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace.md)**  
 Edit the table configuration for Agent Assist to see the required search results in the Agent Assist tab.
 
-**Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](../concept/contextual-side-panel-configurations-sow-itsm.md)
+**Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/contextual-side-panel-configurations-sow-itsm.md)
 

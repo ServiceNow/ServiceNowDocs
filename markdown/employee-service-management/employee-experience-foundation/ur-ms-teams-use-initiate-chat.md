@@ -2,6 +2,7 @@
 title: Initiate chat with an employee from a record
 description: As an agent, initiate chats with the requester or an employee from the watchlist of a universal request using Microsoft Teams.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ur-ms-teams-use-initiate-chat.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -43,5 +44,5 @@ Role required: agent
 
 The Microsoft Teams application opens the tab where you can chat with the selected employee.
 
-**Parent Topic:**[Manage chat messages from a record](../concept/ur-mst-use-start-import-chat.md)
+**Parent Topic:**[Manage chat messages from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ur-mst-use-start-import-chat.md)
 

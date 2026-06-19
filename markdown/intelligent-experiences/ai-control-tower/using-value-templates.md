@@ -2,6 +2,7 @@
 title: Using value templates
 description: Use value templates to define, calculate, and track the value delivered by your AI systems and models.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/using-value-templates.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower

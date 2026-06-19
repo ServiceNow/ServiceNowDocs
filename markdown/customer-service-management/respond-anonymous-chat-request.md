@@ -2,7 +2,10 @@
 title: Respond to an anonymous chat request
 description: Select a chat request from the chat queue and respond to a guest user's question or comment.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/respond-anonymous-chat-request.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -38,5 +41,5 @@ Role required: sn\_customerservice.consumer\_agent, sn\_customerservice\_manager
 
 ## What to do next
 
-If necessary, you can create a consumer record for a guest user and create a consumer service case from the conversation to track the issue. You can also transfer the conversation to a different agent or queue, or escalate the conversation to a higher priority queue. For more information, see [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/connect/c_ConnectSupport.md).
+If necessary, you can create a consumer record for a guest user and create a consumer service case from the conversation to track the issue. You can also transfer the conversation to a different agent or queue, or escalate the conversation to a higher priority queue. For more information, see Connect Support.
 

@@ -2,6 +2,7 @@
 title: Configure SMS opt-out preferences
 description: Allow recipients to opt out of receiving text messages.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/notify/opt-out-requests.html
 release: australia
 product: Notify
 classification: notify
@@ -129,5 +130,5 @@ A customized confirmation message to send to customers when they opt in to recei
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configuring Notify](../concept/configuring-notify.md)
+**Parent Topic:**[Configuring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/notify/configuring-notify.md)
 

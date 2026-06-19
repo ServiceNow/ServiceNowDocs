@@ -2,6 +2,7 @@
 title: Back out an update set
 description: You can back out changes to existing records for any committed update set.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/system-update-sets/t\_BackOutUpdateSet.html
 release: australia
 product: System Update Sets
 classification: system-update-sets
@@ -54,5 +55,5 @@ Backing out an update set adds delete updates to your current set. If you commit
     The update set and all associated update records are deleted. If needed, you can still navigate to the retrieved update set, preview it, and commit it again.
 
 
-**Parent Topic:**[Working with update sets](../concept/using-system-update-sets.md)
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/system-update-sets/using-system-update-sets.md)
 

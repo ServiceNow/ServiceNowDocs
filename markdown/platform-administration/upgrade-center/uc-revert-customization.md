@@ -2,6 +2,7 @@
 title: Revert a customization
 description: To prevent customizations from being overwritten by system upgrades, the upgrade process automatically skips changes to objects that have been customized. You may want to overwrite your customizations when a software upgrade contains a feature that you would like to implement.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/upgrade-center/uc-revert-customization.html
 release: australia
 product: Upgrade Center
 classification: upgrade-center

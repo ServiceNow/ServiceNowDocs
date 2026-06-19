@@ -1,15 +1,18 @@
 ---
-title: View and modify Scan Engine definitions
+title: Customize Scan Engine definitions
 description: You can modify an existing definition to further customize and refine its scanning criteria.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/view-modify-scan-engine-properties.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
 
-# View and modify Scan Engine definitions
+# Customize Scan Engine definitions
 
 You can modify an existing definition to further customize and refine its scanning criteria.
 
@@ -31,7 +34,7 @@ While only Scan Engine admins can modify definitions, any user with the Scan Eng
 
 4.  Modify the required and optional fields.
 
-    -   Refer to [Create custom Scan Engine definitions](create-scan-engine-definitions.md#) for details.
+    -   Refer to [Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definitions.md) for details.
     -   In addition to those fields, when viewing an existing definition, you will also see **Override**. To modify a base system definition, use the override field to disable it and create a new custom definition.
     The definition is overridden to create the current definition.
 
@@ -45,13 +48,13 @@ While only Scan Engine admins can modify definitions, any user with the Scan Eng
 
     Related lists appear at the bottom of the definition screen.
 
-<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d52624e153">
+<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d55297e153">
 
 **Applicable Tables**
 
 </td><td>
 
-Displays all tables scanned by the definition, as well as the conditions table records must match in order to be scanned.To add a table to the list:
+Displays all tables scanned by the definition, as well as the conditions table records must match to be scanned.To add a table to the list:
 
 1.  Select **New**.
 2.  In the New Applicable Table form, define the potential tables to scan:
@@ -61,12 +64,12 @@ Displays all tables scanned by the definition, as well as the conditions table r
         -   **Non-configuration tables**: Definitions run against all other tables. Scans of these tables cannot be monitored in real time and will only be seen in the results of an update set, application, or other on-demand scan.
     -   **Global Scope**: Some global tables have a type of restricted access, called Caller Restriction. Special handling is required to access these tables from the Scan Engine scope.
 
-See [Restricted Caller Access](https://www.servicenow.com/docs/csh?topicname=restricted-caller-access-privilege.html&version=latest) for more information.
+See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=restricted-caller-access-privilege) for more information.
 
     -   **Conditions**: Defines the conditions that table records must meet in order to be scanned.
 
 
-</td></tr><tr><td id="d52624e218">
+</td></tr><tr><td id="d55297e218">
 
 **Findings For This Definition**
 
@@ -74,7 +77,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/csh?topicname=res
 
 Displays any findings, as established by the definition, found during on-demand or scheduled scans.
 
-</td></tr><tr><td id="d52624e227">
+</td></tr><tr><td id="d55297e227">
 
 **Resolved Finding Histories**
 
@@ -82,13 +85,13 @@ Displays any findings, as established by the definition, found during on-demand 
 
 Shows findings that were resolved for this definition.
 
-</td></tr><tr><td id="d52624e236">
+</td></tr><tr><td id="d55297e236">
 
 **Scan Engine Suites**
 
 </td><td>
 
-Displays all suites assigned to the definition, which allows for scanning entire suites of definitions. Suites are also used in reporting within the Analytics Dashboard. For more information, see [Create Scan Engine definition suites](create-scan-engine-definition-suites.md#). To assign suites to a definition:
+Displays all suites assigned to the definition, which allows for scanning entire suites of definitions. Suites are also used in reporting within the Analytics Dashboard. For more information, see [Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/create-scan-engine-definition-suites.md). To assign suites to a definition:
 
 1.  Select **Edit**.
 2.  In the **Edit Members** form, assign one or more suites to a definition:

@@ -2,6 +2,7 @@
 title: Configuring Field Service Virtual Agent Conversations
 description: Predefined Field Service Virtual Agent chatbot conversations enable field service agents to view their work schedule for the day and update their tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/mobile-experience-for-field-service-management-glide-family/fsm-va-conversation.html
 release: australia
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
@@ -21,8 +22,8 @@ A conversation topic defines the dialog between the Virtual Agent chatbot and th
 
 The steps for configuring Field Service Virtual Agent Conversations are:
 
-1.  Install the Field Service Virtual Agent Conversations application. For more information, see [Install Field Service Virtual Agent Conversations](../task/activate-virtual-agent-fsm.md).
-2.  Publish the predefined Virtual Agent topics. For more information see, [Activate required Virtual Agent conversation topics for Field Service Management](../task/activate-va-conversation-fsm.md).
-3.  Integrate the NLU model with your Virtual Agent topics. For more information, see [Activate Virtual Agent conversations with NLU](activating-va-conversation-with-nlu.md).
-4.  Configure chat in the Now Agent mobile application. For more information, see [Enable chat in the Now Mobile Agent application](../task/enable-chat-in-fsm-mobile.md).
+1.  Install the Field Service Virtual Agent Conversations application. For more information, see [Install Field Service Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-virtual-agent-fsm.md).
+2.  Publish the predefined Virtual Agent topics. For more information see, [Activate required Virtual Agent conversation topics for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-va-conversation-fsm.md).
+3.  Integrate the NLU model with your Virtual Agent topics. For more information, see [Activate Virtual Agent conversations with NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/activating-va-conversation-with-nlu.md).
+4.  Configure chat in the Now Agent mobile application. For more information, see [Enable chat in the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/mobile-experience-for-field-service-management-glide-family/enable-chat-in-fsm-mobile.md).
 

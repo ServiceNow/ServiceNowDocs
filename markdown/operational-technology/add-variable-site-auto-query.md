@@ -2,11 +2,14 @@
 title: Create a Site-specific Variable set to use with Auto Query
 description: Create a Site-specific Variable set for use in Auto Queries.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/add-variable-site-auto-query.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Variables page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Variables page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Create a Site-specific Variable set to use with Auto Query
@@ -27,11 +30,11 @@ Create a Site-specific Variable set to define query Variable values for use in A
 
 1.  Navigate to the Variable page in the Console.
 
-2.  Create a Variable as described in [Create a Variable set](create-variable-set.md).
+2.  Create a Variable as described in [Create a Variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/create-variable-set.md).
 
 3.  When you create the variable, select a Site to associate it.
 
-4.  Create an Auto Query as described in [Create an Auto Query](add-auto-query-console.md).
+4.  Create an Auto Query as described in [Create an Auto Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/add-auto-query-console.md).
 
 5.  In the Filter section of the query, select the Sites filter.
 

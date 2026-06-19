@@ -2,6 +2,7 @@
 title: Metric bounds sensitivity
 description: When monitoring metrics in Insights Explorer, the system might detect too many anomalies if the sensitivity settings are too narrow. When detecting a large number of anomalies, the system automatically adjusts to reduce false alerts.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/metric-intelligence/metric-bounds-sensitivity.html
 release: australia
 product: Metric Intelligence
 classification: metric-intelligence
@@ -46,5 +47,5 @@ The multiplier is a number that controls how wide or narrow the acceptable range
 
 Any metric values falling outside the configured bounds are tagged as anomalies.
 
-The number of standard deviations \(2, 3, and 5\) is set by default. For details on customizing these values, see [Sensitivity bounds properties for Insights Explorer metrics](../reference/metric-bounds-properties.md).
+The number of standard deviations \(2, 3, and 5\) is set by default. For details on customizing these values, see [Sensitivity bounds properties for Insights Explorer metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/metric-intelligence/metric-bounds-properties.md).
 

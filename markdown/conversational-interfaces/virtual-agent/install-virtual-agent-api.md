@@ -2,6 +2,7 @@
 title: Install Virtual Agent API
 description: Install the Virtual Agent API app to integrate any chat interface or a bot with ServiceNow Virtual Agent or Agent Chat.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/install-virtual-agent-api.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,7 +18,7 @@ Install the Virtual Agent API app to integrate any chat interface or a bot with 
 
 ## Before you begin
 
-If you're upgrading from a version prior to version 2 and if authentication is required for your instance, you must revert the customization before upgrading. For these versions, the upgrade skips the Scripted REST Service when authentication is turned on. For more information, see [Revert a customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/upgrade-center/uc-revert-customization.md).
+If you're upgrading from a version prior to version 2 and if authentication is required for your instance, you must revert the customization before upgrading. For these versions, the upgrade skips the Scripted REST Service when authentication is turned on. For more information, see .
 
 You must meet the following requirements:
 
@@ -25,7 +26,7 @@ You must meet the following requirements:
 -   Review the [Virtual Agent API](https://store.servicenow.com/sn_appstore_store.do#!/store/application/62c44c6353311010ad77ddeeff7b120c/3.8.1?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%25253Bgenerative_ai%26q%3Dvirtual%2520agent%2520api&sl=sh) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Ensure that you activated the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin, which activates the Conversational Custom Chat Integration \(com.glide.cs.custom.adapter\) plugin.
 
-    For more information about this plugin, see [Activate Virtual Agent](activate-virtual-agent.md).
+    For more information about this plugin, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
 
 
 **Note:** The Virtual Agent API requires a Pro license similar to that of Virtual Agent.
@@ -40,7 +41,7 @@ Role required: admin or virtual\_agent\_admin
 
     You can search for the application by its name or ID. If you cannot find the application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -51,7 +52,7 @@ Role required: admin or virtual\_agent\_admin
 
 ## What to do next
 
-[Review the inbound REST endpoint and configure inbound authentication](configure-send-request.md)
+[Review the inbound REST endpoint and configure inbound authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-send-request.md)
 
-**Parent Topic:**[Configuring Virtual Agent API](../concept/configure-virtual-agent-api.md)
+**Parent Topic:**[Configuring Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-virtual-agent-api.md)
 

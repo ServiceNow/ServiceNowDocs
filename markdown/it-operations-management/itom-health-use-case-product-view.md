@@ -2,7 +2,10 @@
 title: Applying the CSDM guidelines to ITOM AIOps
 description: ITOM AIOps helps you track and maintain the health of services in your organization. ITOM AIOps CSDM reference serves as a foundational blueprint for maintaining optimal IT operations by standardizing data models and processes. The main goal is to help you understand the two main capabilities that work together within the CSDM framework.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/itom-health-use-case-product-view.html
 release: australia
+product: IT Operations Management
+classification: it-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -24,7 +27,7 @@ ITOM AIOps consists of two main capabilities that use the CSDM framework.
     Proactively analyzes your IT infrastructure to spot issues and prevent service outages. Using advanced machine learning to analyze information about your IT infrastructure, the application automatically determines dynamic thresholds and identifies anomalies that may indicate potential service outages.
 
 
-For CSDM set-up information, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md).
+For CSDM set-up information, see .
 
-For more information on CSDM framework, see [Exploring the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-exploring.md).
+For more information on CSDM framework, see .
 

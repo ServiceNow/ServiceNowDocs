@@ -2,6 +2,7 @@
 title: How to earn points
 description: In order to be transparent to your users about gamification rules, you can share the points received for community activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/communities/gamification-ui-how-to-earn-points.html
 release: australia
 product: Communities
 classification: communities
@@ -17,5 +18,5 @@ In order to be transparent to your users about gamification rules, you can share
 
 Navigate to **Community** &gt; **How to Earn Points** for a description of the activities that users can perform to earn points. This page has links to the user's profile page. If gamification rules are modified, then this page shows the updated information.
 
-**Parent Topic:**[Gamification user interface components](../concept/communities-gamification-UI.md)
+**Parent Topic:**[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/communities/communities-gamification-UI.md)
 

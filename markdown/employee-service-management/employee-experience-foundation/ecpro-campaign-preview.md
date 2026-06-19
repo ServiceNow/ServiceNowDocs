@@ -2,11 +2,12 @@
 title: Campaign preview
 description: When creating a campaign, you can preview the content prior to publishing it.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/ecpro-campaign-preview.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [campaign, campaigns, employee center campaign, servicenow campaign, servicenow campaigns]
 breadcrumb: [Creating campaigns, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
@@ -50,7 +51,7 @@ Stage preview provides a view into all content in a stage or bundle of a campaig
 
 You can also view a specific page \(not just your home page if you are presenting content on multiple pages\).
 
-For more information, see [Preview single content](../task/ecpro-campaign-pre-piece.md).
+For more information, see [Preview single content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-campaign-pre-piece.md).
 
 **Note:** Also available in full portal preview.
 

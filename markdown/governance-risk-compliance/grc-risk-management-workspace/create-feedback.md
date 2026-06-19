@@ -2,6 +2,7 @@
 title: Create feedback in the Risk Workspace
 description: Create feedback on a record or fields in a record, to recommend improvements related to data integrity, compliance, operational procedures, and other pertinent areas, such as disposition and accountability.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-feedback.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -23,7 +24,7 @@ Role required: sn\_rvw\_feedback.reviewer
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![list icon.](../image/list-icon-risk-workspace.png) icon.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: list icon. icon.
 
 3.  From the list, navigate to **Parallel Review and Feedback** and select **Feedback**.
 
@@ -31,7 +32,7 @@ Role required: sn\_rvw\_feedback.reviewer
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values on the Create New Feedback form, see [Create New Feedback form](../reference/create-feedback-form.md).
+    For a description of the field values on the Create New Feedback form, see [Create New Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-feedback-form.md).
 
 6.  Select **Save**.
 
@@ -57,8 +58,8 @@ Role required: sn\_rvw\_feedback.reviewer
     The feedback is raised and assigned to the respondent. The feedback is moved to the Assigned state.
 
 
--   **[Create New Feedback form](../reference/create-feedback-form.md)**  
+-   **[Create New Feedback form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-feedback-form.md)**  
 Use the Create new feedback form to provide feedback on a record or fields in a record.
 
-**Parent Topic:**[Create feedback in Advanced Risk](../concept/create-a-feedback-risk.md)
+**Parent Topic:**[Create feedback in Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-a-feedback-risk.md)
 

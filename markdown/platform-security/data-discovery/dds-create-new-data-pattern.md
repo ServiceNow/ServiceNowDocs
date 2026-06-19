@@ -2,6 +2,7 @@
 title: Create new data pattern
 description: Create a new Data Discovery store pattern.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/data-discovery/dds-create-new-data-pattern.html
 release: australia
 product: Data Discovery
 classification: data-discovery
@@ -125,5 +126,5 @@ Scope of the pattern.
 
 ## Result
 
-The new data pattern must be set as active to be used in discovery jobs. See [Select active data patterns](dds-active-data-patterns.md) for more information.
+The new data pattern must be set as active to be used in discovery jobs. See [Select active data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-discovery/dds-active-data-patterns.md) for more information.
 

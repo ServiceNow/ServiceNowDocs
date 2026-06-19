@@ -2,6 +2,7 @@
 title: Admin view
 description: Use the Admin view in the Cloud Cost Management Workspace that enables you to install, set up, and configure the application through a guided experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/cloud-cost-management/guided-setup-view-ccm-ws.html
 release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
@@ -21,7 +22,7 @@ The Admin view lets you to:
 -   Watch a tutorial to familiarize with Cloud Cost Management.
 -   View helpful resources and related products or features.
 
-![Admin view in Cloud Cost Management Workspace.](../image/admin-view-ws.png)
+\[Omitted image "admin-view-ws.png"\] Alt text: Admin view in Cloud Cost Management Workspace.
 
 ## Using Guided Setup to implement Cloud Cost Management
 
@@ -29,7 +30,7 @@ Guided Setup provides a sequence of tasks that help you configure Cloud Cost Man
 
 To open Cloud Cost Management Guided Setup for AWS, Microsoft Azure, and GCP, navigate to **Workspaces** &gt; **Cloud Cost Management Workspace** &gt; **Admin** &gt; **Create integrations** &gt; **Integrate**.
 
-For more information, see [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/adoption-services/guided-setup.md).
+For more information, see .
 
 Find the following steps on the Admin view for Guided Setup:
 

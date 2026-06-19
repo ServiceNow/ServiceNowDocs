@@ -2,6 +2,7 @@
 title: Service Catalog forms in Service Portal
 description: Service Catalog forms are rendered within Service Portal widgets in a two-column layout. Complex forms may not display as expected.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/service-portal/sc-forms-in-sp.html
 release: australia
 product: Service Portal
 classification: service-portal
@@ -20,7 +21,7 @@ Service Catalog forms are rendered within Service Portal widgets in a two-column
 Use the following recommendations as a guide to building scalable forms that can be used in both applications:
 
 -   Keep forms simple. Because forms with multiple containers, variable sets, and client scripts do not always display as expected in Service Portal, keep forms short to eliminate conversion and debugging issues.
--   Think in mobile. Any support for Catalog Client Scripts or Catalog UI Policies is the same as in mobile. Review the following resource: [Mobile client GlideForm \(g form\) scripting and migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/r_MobilePlatformMigrationImpacts.md).
+-   Think in mobile. Any support for Catalog Client Scripts or Catalog UI Policies is the same as in mobile. Review the following resource: Mobile client GlideForm \(g form\) scripting and migration.
 
 ## Form rendering in Service Portal
 
@@ -43,11 +44,11 @@ The following examples demonstrate how Service Catalog forms display in Service 
 
     -   Two containers.
     -   A single-column layout.
-    ![Service Catalog form displayed in the Service Catalog.](../image/1.1-SC-form.png "Service Catalog form")
+    \[Omitted image "1.1-SC-form.png"\] Alt text: Service Catalog form displayed in the Service Catalog.
 
     In Service Portal, the single-column layout renders as expected.
 
-    ![Service Catalog form displayed in the Service Portal. Container 1 and container 2 display vertically.](../image/1.2-SP-form.png "Service Portal result")
+    \[Omitted image "1.2-SP-form.png"\] Alt text: Service Catalog form displayed in the Service Portal. Container 1 and container 2 display vertically.
 
 -   **Two-column layout with subcontainers**
 
@@ -56,11 +57,11 @@ The following examples demonstrate how Service Catalog forms display in Service 
     -   A container with a two-column layout.
     -   A subcontainer with a single-column layout.
     -   A subcontainer with a two-column layout.
-    ![Service Catalog form displayed in the Service Catalog. Container 2 and container 3 are side-by-side. Container 3 has two columns.](../image/3.1-SC-form.png "Service Catalog form")
+    \[Omitted image "3.1-SC-form.png"\] Alt text: Service Catalog form displayed in the Service Catalog. Container 2 and container 3 are side-by-side. Container 3 has two columns.
 
     In Service Portal, the two-column layout setting of the subcontainer is ignored. The subcontainer renders as a single column.
 
-    ![Service Catalog form displayed in the Service Portal. In container 3, all variables display in a single column.](../image/3.2-SP-form.png "Service Portal result")
+    \[Omitted image "3.2-SP-form.png"\] Alt text: Service Catalog form displayed in the Service Portal. In container 3, all variables display in a single column.
 
 -   **Two-column layout with variable sets and subcontainers**
 
@@ -68,11 +69,11 @@ The following examples demonstrate how Service Catalog forms display in Service 
 
     -   Containers with single-column and two-column layouts.
     -   Variable sets with a two-column layout within containers.
-    ![Service Catalog form displayed in the Service Catalog. Variable sets have multiple columns.](../image/4.1-SC-form.png "Service Catalog form")
+    \[Omitted image "4.1-SC-form.png"\] Alt text: Service Catalog form displayed in the Service Catalog. Variable sets have multiple columns.
 
     In Service Portal, the two-column layout settings of the variable sets are ignored when inside a container column.
 
-    ![Service Catalog form displayed in the Service Portal. Variable sets within containers display as single columns.](../image/4.2-SP-form.png "Service Portal result")
+    \[Omitted image "4.2-SP-form.png"\] Alt text: Service Catalog form displayed in the Service Portal. Variable sets within containers display as single columns.
 
 -   **Containers within variable sets**
 
@@ -81,11 +82,11 @@ The following examples demonstrate how Service Catalog forms display in Service 
     -   Variable sets with single-column layouts.
     -   A container with a single-column layout with a container split within a single-column variable set.
     -   A container with a two-column layout within a single-column variable set.
-    ![Service Catalog form displayed in the Service Catalog.](../image/5.1-SC-form.png "Service Catalog form")
+    \[Omitted image "5.1-SC-form.png"\] Alt text: Service Catalog form displayed in the Service Catalog.
 
     In Service Portal, the container split and two-column container settings are ignored when inside a single-column variable set.
 
-    ![Service Catalog form displayed in the Service Portal. All containers and variable sets display in a single column.](../image/5.2-SP-form.png "Service Portal result")
+    \[Omitted image "5.2-SP-form.png"\] Alt text: Service Catalog form displayed in the Service Portal. All containers and variable sets display in a single column.
 
 -   **Nested containers**
 
@@ -93,11 +94,11 @@ The following examples demonstrate how Service Catalog forms display in Service 
 
     -   Containers that contain variable sets.
     -   Variable sets that contain nested containers.
-    ![Service Catalog form displayed in the Service Catalog.](../image/6.1-SC-form.png "Service Catalog form")
+    \[Omitted image "6.1-SC-form.png"\] Alt text: Service Catalog form displayed in the Service Catalog.
 
     In Service Portal, nested container formatting is ignored and displays as a single-column.
 
-    ![Service Catalog form displayed in the Service Portal. All nested containers display in a single column.](../image/6.2-SP-form.png "Service Portal result")
+    \[Omitted image "6.2-SP-form.png"\] Alt text: Service Catalog form displayed in the Service Portal. All nested containers display in a single column.
 
 
 ## Render a complex form in Service Portal using an iFrame

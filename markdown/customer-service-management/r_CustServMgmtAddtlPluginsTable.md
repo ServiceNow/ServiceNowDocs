@@ -2,7 +2,10 @@
 title: Additional plugins for Customer Service Management
 description: After Customer Service Management is activated, you can activate additional plugins that provide demo data and enable various features.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/r\_CustServMgmtAddtlPluginsTable.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 8
@@ -13,7 +16,7 @@ breadcrumb: [Getting started with Customer Service Management, Set up your envir
 
 After Customer Service Management is activated, you can activate additional plugins that provide demo data and enable various features.
 
-You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_ActivateAPlugin.md).
+You must have the admin role to activate these additional plugins. For details, see Activate a plugin.
 
 <table id="table_wp2_h15_2v"><thead><tr><th>
 
@@ -431,5 +434,5 @@ UI Components for Customer Portals \[sn\_ciwf\_ui\_cmpnt\]
 This plugin enables you to configure the behavior, content, and layout of a portal using a Configurable Portal Widgets.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Service Management](../concept/c_CustomerServiceManagement.md)
+</table>**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md)
 

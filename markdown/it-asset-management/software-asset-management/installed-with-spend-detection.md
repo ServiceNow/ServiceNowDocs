@@ -2,6 +2,7 @@
 title: Installed with Software Spend Detection
 description: User roles and tables are installed with Software Spend Detection. Demo data is available for Software Spend Detection.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/installed-with-spend-detection.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
@@ -31,5 +32,5 @@ User roles and tables are installed with Software Spend Detection. Demo data is 
 |Overlapping Software Configuration \[sam\_sw\_overlap\_configuration\]|List of reports shown on the Overlapping Software dashboard.|
 |Overlapping Software Summary \[sam\_sw\_overlap\_summary\]|List of software products with spend transactions.|
 
-**Parent Topic:**[Software Spend Detection](../concept/software-spend-detection.md)
+**Parent Topic:**[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/software-spend-detection.md)
 

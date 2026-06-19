@@ -2,6 +2,7 @@
 title: Running Schedule Optimization jobs for large workloads
 description: Run Schedule Optimization as multiple jobs for large workloads.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/splitting-territories-or-technicians.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -26,7 +27,7 @@ Split qualifiers are a configuration setting that controls whether Schedule Opti
 
 By default, Schedule Optimization supports three concurrent jobs. For information about adjusting this limit, see the `sn_schedule_optim.so_max_solution_threshold` property description.
 
-For property descriptions and supported values, see [Schedule Optimization properties](../reference/schedule-optimization-properties.md).
+For property descriptions and supported values, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-properties.md).
 
 ## When to use split qualifiers
 

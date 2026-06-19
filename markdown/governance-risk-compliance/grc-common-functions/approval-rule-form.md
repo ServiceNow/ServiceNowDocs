@@ -2,11 +2,12 @@
 title: Approval Rule form
 description: Use the Approval Rule form to create an approval rule.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-common-functions/approval-rule-form.html
 release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-05-09"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Set up an approval rule, Use Approver Configurator for setting up approvals for setting up approvals, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -64,7 +65,7 @@ Approver type
 Type of approver.-   Specific approvers: Your choice of approvers.
 -   Approver from source: Users or groups from the source table.
 -   Dynamic approvers: Approvers selected dynamically from any table.
--   Scripted approvers: Script to determine approvers. See the script shown as an example below.![Sample script.](../../grc-business-continuity-management/image/approval-rule-sample-script.png)
+-   Scripted approvers: Script to determine approvers. See the script shown as an example below.\[Omitted image "approval-rule-sample-script.png"\] Alt text: Sample script.
 
 **Note:**
 
@@ -75,7 +76,7 @@ If you have the BCM admin role, you can set up an approval rule only with the fo
 -   Specific approvers
 -   Approver from source
 
-For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](roles-installed-with-approver-configurator.md).
+For more information on the roles in the GRC: Approver Configurator application, see [Roles installed with GRC: Approver Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/roles-installed-with-approver-configurator.md).
 
 </td></tr><tr><td>
 
@@ -174,5 +175,5 @@ Script
 Script to determine approvers; **users** and **groups** in the script are selected as approvers.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Set up an approval rule for the approval level](../task/set-up-approval-rules.md)
+</table>**Parent Topic:**[Set up an approval rule for the approval level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-common-functions/set-up-approval-rules.md)
 

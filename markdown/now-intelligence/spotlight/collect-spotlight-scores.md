@@ -2,6 +2,7 @@
 title: Collect Spotlight scores
 description: To collect Spotlight scores, schedule score collection and activate the Spotlight group. You can also collect scores manually for an active Spotlight group.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/spotlight/collect-spotlight-scores.html
 release: australia
 product: Spotlight
 classification: spotlight
@@ -17,8 +18,8 @@ To collect Spotlight scores, schedule score collection and activate the Spotligh
 
 ## Before you begin
 
-1.  [Create a Spotlight group](../task/create-spotlight-group.md#)
-2.  [Create Spotlight criteria](../task/create-spotlight-criteria.md)
+1.  [Create a Spotlight group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/create-spotlight-group.md)
+2.  [Create Spotlight criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/create-spotlight-criteria.md)
 
 Role required: pa\_spotlight or admin
 
@@ -34,7 +35,7 @@ When Spotlight collects scores, Spotlight also deletes all older Spotlight recor
 
     New Spotlight groups are active by default.
 
-    You can now execute the Spotlight job using the **Execute Now** button. ![Execute Now button on an active Spotlight group form](../image/spotlight-execute-now.png)
+    You can now execute the Spotlight job using the **Execute Now** button. \[Omitted image "spotlight-execute-now.png"\] Alt text: Execute Now button on an active Spotlight group form
 
 3.  To collect scores immediately, click **Execute Now**.
 
@@ -48,16 +49,16 @@ When Spotlight collects scores, Spotlight also deletes all older Spotlight recor
 
     If you do not specify a **Run As** user, scores are evaluated for the Global domain. In this case, Spotlight scoring is performed for all matching records in all domains.
 
-    For more information, see [Domain separation with Spotlight](domain-separation-spotlight.md).
+    For more information, see [Domain separation with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/domain-separation-spotlight.md).
 
 
 ## Result
 
-Spotlight starts collecting scores according to the schedule you set. You can also collect scores manually at any time by clicking **Execute Now**. Administrators who need to troubleshoot scheduling can read [Schedule Item \[sys\_trigger\] records for Spotlight](activating-spotlight-group.md).
+Spotlight starts collecting scores according to the schedule you set. You can also collect scores manually at any time by clicking **Execute Now**. Administrators who need to troubleshoot scheduling can read [Schedule Item \[sys\_trigger\] records for Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/activating-spotlight-group.md).
 
 ## What to do next
 
-You can see the details of the criteria that contribute to a Spotlight score. For more information, read [See Spotlight score details](../task/view-details-of-a-spotlight.md). You can also see and share an [interactive analysis](spotlight-interactive-analysis.md) of the results.
+You can see the details of the criteria that contribute to a Spotlight score. For more information, read [See Spotlight score details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/view-details-of-a-spotlight.md). You can also see and share an [interactive analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/spotlight-interactive-analysis.md) of the results.
 
-**Parent Topic:**[Setting up Spotlight](setting-up-spotlight.md)
+**Parent Topic:**[Setting up Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/spotlight/setting-up-spotlight.md)
 

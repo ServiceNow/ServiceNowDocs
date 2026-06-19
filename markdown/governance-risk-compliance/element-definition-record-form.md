@@ -2,6 +2,7 @@
 title: Element definition record form
 description: Use the Element definition record form to configure a recovery tier with a set of business applications by using BCM UIB Workspace.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/element-definition-record-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
@@ -80,8 +81,8 @@ Resource configuration for the element definition. Available options are:-   **L
 -   **Datacenters**
 -   **Vendors**
 
-For information on configuring a Resource configuration record, see [Configure Resource Configuration records](../task/conf-resource-for-crisis-map-uib-ws.md).
+For information on configuring a Resource configuration record, see [Configure Resource Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/conf-resource-for-crisis-map-uib-ws.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure element definition](../task/configure-element-definition-bia-uib-ws.md)
+</table>**Parent Topic:**[Configure element definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/configure-element-definition-bia-uib-ws.md)
 

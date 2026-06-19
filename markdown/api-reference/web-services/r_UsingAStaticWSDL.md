@@ -2,6 +2,7 @@
 title: Use the static WSDL
 description: Load the static WSDL into a SOAP client to make requests to the SOAP web service.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/web-services/r\_UsingAStaticWSDL.html
 release: australia
 product: Web Services
 classification: web-services
@@ -21,7 +22,7 @@ The web service client provides
 -   The StockQuoteBinding web service.
 -   The GetLastTradePrice SOAP function. This function generates request records when run.
 
-![](../image/WSDL_Loaded.jpg "Loaded WSDL")
+\[Omitted image "WSDL\_Loaded.jpg"\] Alt text:
 
 You can change the default request XML in the static WSDL to include a stock symbol.
 
@@ -46,5 +47,5 @@ Submitting a SOAP request to this web service endpoint returns the following to 
 </SOAP-ENV:Envelope>
 ```
 
-**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](createSOAPwebserviceStaticWSDL.md)
+**Parent Topic:**[Create a scripted SOAP web service using a static WSDL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/createSOAPwebserviceStaticWSDL.md)
 

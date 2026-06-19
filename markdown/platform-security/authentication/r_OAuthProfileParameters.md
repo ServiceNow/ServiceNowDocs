@@ -2,6 +2,7 @@
 title: OAuth parameters for default profile support
 description: The default profile feature requires a set of parameters that you can use with the setParameter\(\) API to specify the OAuth requestor, a context for the request, and the provider profile.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-security/authentication/r\_OAuthProfileParameters.html
 release: australia
 product: Authentication
 classification: authentication
@@ -21,7 +22,7 @@ In the OAuth provider scenario, you must set three parameters that tell the OAut
 |---------|-----------|
 |`oauth_requestor`|The sys\_id of the object, which can be a user record or an email account.|
 |`oauth_requestor_context`|Descriptor that provides context for the OAuth requestor. As a good practice, use the name of the table where the `oauth_requestor` object is saved.|
-|`oauth_provider_profile`|The sys\_id of the OAuth profile record that is the default \(see [Specify an OAuth profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/web-services/t_SpecifyAnOAuthProfile.md)\).|
+|`oauth_provider_profile`|The sys\_id of the OAuth profile record that is the default \(see Specify an OAuth profile\).|
 
-You do not need to use parameters to set the grant type and scope because the values are configured in the OAuth profile record. If you do not use the parameters, you can use the GlideOAuthClientRequest API methods setScope and setGrantType. For additional information, see [setScope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideOAuthClientRequest.md) and [setGrantType](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideOAuthClientRequest.md).
+You do not need to use parameters to set the grant type and scope because the values are configured in the OAuth profile record. If you do not use the parameters, you can use the GlideOAuthClientRequest API methods setScope and setGrantType. For additional information, see setScope and setGrantType.
 

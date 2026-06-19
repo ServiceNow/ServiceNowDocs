@@ -2,6 +2,7 @@
 title: Configure employee communications widgets
 description: Modify the out-of-the-box widgets settings according to your organization's needs.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/employee-experience-foundation/employee-comms-widgets.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
@@ -17,14 +18,14 @@ Modify the out-of-the-box widgets settings according to your organization's need
 
 Widgets are containers that display dynamic content from ServiceNow® applications and plug-ins on the Employee Center portal. Employees can use widgets to view company announcements, complete to-dos, access SSO-integrated apps, or navigate to popular topics without leaving the portal. Portal admins can customize the widgets, rearranging their size and order and modifying their display.
 
--   **[Modify the Featured News widget](../task/modify-featured-news-widget.md)**  
+-   **[Modify the Featured News widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/modify-featured-news-widget.md)**  
 The Featured News widget displays featured articles on company news and announcements.
--   **[Modify the News feed widget](../task/modify-news-feed-widget-display.md)**  
+-   **[Modify the News feed widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/modify-news-feed-widget-display.md)**  
 The News feed widget displays articles on company news and announcements. All news, Other news, and Related news are instances of the News feed widget.
--   **[Modify the Content Experiences widget](../task/ecpro-edit-cew.md)**  
+-   **[Modify the Content Experiences widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/ecpro-edit-cew.md)**  
 You can edit the banner of your Content Experiences widget to create a modern and unique layout for your content in the Content Experiences widget.
--   **[Modify banner width options](../task/change-default-width-of-employee-center-pro-home-page-banner.md)**  
+-   **[Modify banner width options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/change-default-width-of-employee-center-pro-home-page-banner.md)**  
 Modify the width of the Employee Center Pro banner widget, on the home page, to suit your preference.
 
-**Parent Topic:**[Setup employee communications](setup-employee-comms.md)
+**Parent Topic:**[Setup employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/setup-employee-comms.md)
 

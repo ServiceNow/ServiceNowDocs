@@ -2,6 +2,7 @@
 title: Create a scheduling attribute for Schedule Optimization
 description: Create scheduling attributes to specify which tasks to optimize and define the rules to perform the optimization. You can create different scheduling attributes configurations for each policy.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/configure-scheduling-attributes.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
@@ -19,7 +20,7 @@ Create scheduling attributes to specify which tasks to optimize and define the r
 
 Role required: wm\_admin
 
-You must [Configure Schedule Optimization](../concept/schedule-optimization-engine.md).
+You must [Configure Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/schedule-optimization-engine.md).
 
 ## About this task
 
@@ -41,7 +42,7 @@ This video demonstrates how to create a scheduling attribute for Schedule Optimi
 
     4.  Select a secondary travel estimate provider.
 
-        If you do not set up a secondary travel estimate provider and your primary configuration is unavailable, optimization will use the default straight-line configuration. For more information, see [Setting up a travel estimate provider](../concept/setting-up-a-travel-estimate-provider.md).
+        If you do not set up a secondary travel estimate provider and your primary configuration is unavailable, optimization will use the default straight-line configuration. For more information, see [Setting up a travel estimate provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/setting-up-a-travel-estimate-provider.md).
 
 4.  Select **Submit**.
 
@@ -57,7 +58,7 @@ This video demonstrates how to create a scheduling attribute for Schedule Optimi
 
     4.  Select **Submit**.
 
-        If your task filter references a custom field or a custom table, you must grant the sharedservice.worker user read access to those elements. For example, this applies if you use a table other than the default work order task table to submit work orders. For details, see [User access requirements](../reference/schedule-optimization-integration-user-access-requirements.md).
+        If your task filter references a custom field or a custom table, you must grant the sharedservice.worker user read access to those elements. For example, this applies if you use a table other than the default work order task table to submit work orders. For details, see [User access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/schedule-optimization-integration-user-access-requirements.md).
 
         The **Optimization Restricted** tab is displayed after the task filter record is created. This read-only field shows the conditions of work order tasks that are excluded from the optimization run.
 
@@ -76,5 +77,5 @@ This video demonstrates how to create a scheduling attribute for Schedule Optimi
 
 ## What to do next
 
-[Create a batch for Schedule Optimization](create-an-optimization-batch.md#)
+[Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/field-service-scheduling/create-an-optimization-batch.md)
 

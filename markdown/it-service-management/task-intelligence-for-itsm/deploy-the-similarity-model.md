@@ -2,6 +2,7 @@
 title: Deploy the similarity model
 description: Deploy the Similar incidents model to predict the similar records for the incidents. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/task-intelligence-for-itsm/deploy-the-similarity-model.html
 release: australia
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
@@ -17,7 +18,7 @@ Deploy the Similar incidents model to predict the similar records for the incide
 
 ## Before you begin
 
-You must access the model and set the preferences for your model. For more information on setting model preferences, see [Assess the similarity model](assess-the-similarity-model.md).
+You must access the model and set the preferences for your model. For more information on setting model preferences, see [Assess the similarity model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/assess-the-similarity-model.md).
 
 Role required: sn\_ti\_admin.tia\_admin or admin 
 
@@ -25,7 +26,7 @@ Role required: sn\_ti\_admin.tia\_admin or admin 
 
 1.  Review your choices from the previous pages and information about how the model was trained.
 
-    ![UI of the page to review the model's information. It shows "How this model was trained" and "What your model will do."](../image/TI_deploy_similarity_model_page.png)
+    \[Omitted image "TI\_deploy\_similarity\_model\_page.png"\] Alt text: UI of the page to review the model's information. It shows "How this model was trained" and "What your model will do."
 
 2.  Select **Deploy** to deploy the model.
 
@@ -34,7 +35,7 @@ Role required: sn\_ti\_admin.tia\_admin or admin 
 
 A pop-up appears confirming that your model was deployed.
 
-![Model deployed confirmation pop-up.](../image/TI_model_deployed_pop-up.png)
+\[Omitted image "TI\_model\_deployed\_pop-up.png"\] Alt text: Model deployed confirmation pop-up.
 
-**Parent Topic:**[Set up similar records prediction model](set-up-similar-records-prediction-model.md)
+**Parent Topic:**[Set up similar records prediction model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/task-intelligence-for-itsm/set-up-similar-records-prediction-model.md)
 

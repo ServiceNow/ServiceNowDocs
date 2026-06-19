@@ -2,6 +2,7 @@
 title: Viewing Redaction Imports
 description: Redaction Imports allow you to view all records currently being processed in import jobs, as well as any import jobs that are pending approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/security-management/threat-intelligence-security-center/tisc-radaction-imports.html
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
@@ -15,8 +16,8 @@ breadcrumb: [Administer, Threat Intelligence Security Center, Security Operation
 
 Redaction Imports allow you to view all records currently being processed in import jobs, as well as any import jobs that are pending approval.
 
--   **[View all Redaction Imports](../task/tisc-view-redaction-imports.md)**  
+-   **[View all Redaction Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/tisc-view-redaction-imports.md)**  
 Use this section to view all redaction-imported records.
--   **[View my Redaction Imports](../task/view-my-redaction-imports.md)**  
+-   **[View my Redaction Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/threat-intelligence-security-center/view-my-redaction-imports.md)**  
 Use this section to view import records created by the currently logged-in user.
 

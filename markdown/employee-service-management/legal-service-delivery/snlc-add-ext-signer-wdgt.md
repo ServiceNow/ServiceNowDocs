@@ -2,6 +2,7 @@
 title: Add external signatories widget in third-party paper record producer
 description: Add the external signatories widget to a record producer enabling you to add external signers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-add-ext-signer-wdgt.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
@@ -30,17 +31,17 @@ Role required: admin
 
     1.  Navigate to **Variable Set** related list.
 
-        ![Variable set for record producer](../image/snlc-add-ext-signer-variableset.png)
+        \[Omitted image "snlc-add-ext-signer-variableset.png"\] Alt text: Variable set for record producer
 
     2.  Select **Edit**.
 
     3.  Add the widget by moving **External signatory details** from the Collection to the Variable set list.
 
-        ![Add external signer widget](../image/snlc-add-variableset-extsigner.png "Add supporting docs variable set")
+        \[Omitted image "snlc-add-variableset-extsigner.png"\] Alt text: Add external signer widget
 
     4.  Select **Save**.
 
-        ![External signer widget added](../image/snlc-extsigners-added.png)
+        \[Omitted image "snlc-extsigners-added.png"\] Alt text: External signer widget added
 
 4.  Enable the external signatories widget in edit request mode.
 
@@ -79,5 +80,5 @@ Role required: admin
     External signatories document widget is available while you are editing third-party paper based request.
 
 
-**Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](../concept/snlc-config-sn-legal-contracts.md)
+**Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
 

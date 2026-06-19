@@ -2,11 +2,14 @@
 title: Edit a Variable set
 description: Edit a Variable set for an Auto Query scan created in the Discovery Console for OT.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/editing-a-variable-set.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Variables page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Variables page, Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit a Variable set
@@ -25,7 +28,7 @@ Role required: admin
 
     **Note:** Editing the Custom - Global variable set allows you to globally override variable values defined in the Driver - Global variable set.
 
-3.  Select the pencil icon ![](../../../../msi-console/image/edit-icon-ot-console.png) for the Variable.
+3.  Select the pencil icon \[Omitted image "edit-icon-ot-console.png"\] Alt text: for the Variable.
 
     The Edit Variable Set view opens.
 
@@ -39,12 +42,12 @@ Role required: admin
 
     Select the pencil icon to edit the Variable. The Edit Variable window opens.
 
-    ![Edit variable window](../../../images/edit-variable-window-2.png)
+    \[Omitted image "edit-variable-window-2.png"\] Alt text: Edit variable window
 
 6.  To hide the value of a Variable, slide the toggle next to Encrypted.
 
     **Note:** Encrypted Variable values in Variable Sets are obscured. Encrypted values display as dots when set to encrypted.
 
-    ![Encrypted value](../../../images/password-dots.png)
+    \[Omitted image "encrypted-passwords.png"\] Alt text: Encrypted values
 
 

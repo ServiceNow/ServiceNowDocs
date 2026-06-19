@@ -2,6 +2,7 @@
 title: CMDB Data Ingestion API
 description: The CMDB Data Ingestion API provides endpoints that enable the batch ingestion of an array of objects into an Import Set table.Inserts records into the Import Set table associated with the data source record identified by the passed-in sys\_id.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/rest-apis/cmdb-ingest-api.html
 release: australia
 product: REST APIs
 classification: rest-apis
@@ -15,25 +16,25 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The CMDB Data Ingestion API provides endpoints that enable the batch ingestion of an array of objects into an Import Set table.
 
-**Warning:** This API is no longer recommended. For the same functionality with improved scalability and stability, use the [Import Set - POST /now/import/\{stagingTableName\}/insertMultiple](c_ImportSetAPI.md#) endpoint. From the Quebec release onward, any usage of the CMDB Data Ingestion API should be migrated to use the Import Set – insertMultiple endpoint instead.
+**Warning:** This API is no longer recommended. For the same functionality with improved scalability and stability, use the [Import Set - POST /now/import/\{stagingTableName\}/insertMultiple](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_ImportSetAPI.md) endpoint. From the Quebec release onward, any usage of the CMDB Data Ingestion API should be migrated to use the Import Set – insertMultiple endpoint instead.
 
 In addition, this API won't work by default for zbooted instances.
 
 This API is activated through the Configuration Management Database \(CMDB\) \(com.snc.cmdb\) plugin and requires the cmdb\_import\_api\_admin role.
 
-**Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
+**Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/api-rest.md)
 
 ## CMDB Data Ingestion - POST /cmdb/ingest/\{data\_source\_sys\_id\}
 
 Inserts records into the Import Set table associated with the data source record identified by the passed-in sys\_id.
 
-**Warning:** This API is no longer recommended. For the same functionality with improved scalability and stability, use the [Import Set - POST /now/import/\{stagingTableName\}/insertMultiple](c_ImportSetAPI.md#) endpoint. From the Quebec release onward, any usage of the CMDB Data Ingestion API should be migrated to use the Import Set – insertMultiple endpoint instead.
+**Warning:** This API is no longer recommended. For the same functionality with improved scalability and stability, use the [Import Set - POST /now/import/\{stagingTableName\}/insertMultiple](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-apis/c_ImportSetAPI.md) endpoint. From the Quebec release onward, any usage of the CMDB Data Ingestion API should be migrated to use the Import Set – insertMultiple endpoint instead.
 
 In addition, this API won't work by default for zbooted instances.
 
 The request body must contain the JSON array of objects \(payload\) to insert in the Import Set table. Each object equates to a row in the table, each name-value pair equates to a column. The JSON payload must leverage the field names from the import set without the "u\_" prefix. For example, the field name "u\_matching\_record" should be "matching\_record" in the request body payload. If the Import Set table exists, the endpoint appends the rows \(objects\) to the existing Import Set table. No checking for duplicates or updating of existing records is performed.
 
-If you are initially building an application, you must first create the associated data source record in your instance before calling this endpoint. If you are just using this endpoint to add records to an existing Import Set table, you don't need to create the data source record, but you must know its sys\_id. The data source record describes the Import Set table in which to insert the specified payload. This table must extend the Import Set Rows \[sys\_import\_set\_row\] table. Also, the data source must be set to `Attachment` and the format set to `JSON`. For more information on data sources, see [Data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/system-import-sets/c_DataSources.md).
+If you are initially building an application, you must first create the associated data source record in your instance before calling this endpoint. If you are just using this endpoint to add records to an existing Import Set table, you don't need to create the data source record, but you must know its sys\_id. The data source record describes the Import Set table in which to insert the specified payload. This table must extend the Import Set Rows \[sys\_import\_set\_row\] table. Also, the data source must be set to `Attachment` and the format set to `JSON`. For more information on data sources, see Data sources.
 
 If the Import Set table defined in the data source record doesn't exist, the endpoint attaches the passed-in payload to the data source record. To create the initial Import Set table, you must manually import the data into the Import Set table. To import the data, on the associated Data Source form, click the **Test Load 20 Records** or **Load All Records** link in the Related Links section. Once the Import Set table is created, you can't add columns to the table using this endpoint. If name-value pairs are later passed in that don't exist in the Import Set table, they are ignored without warning. If you need to modify the columns within the Import Set table, you can manually add them to the table. You can also delete or rename the Import Set table, and call the endpoint again using the new payload.
 
@@ -45,7 +46,7 @@ Versioned URL: `/api/now/{api_version}/cmdb/ingest/{data_source_sys_id}`
 
 Default URL: `/api/now/cmdb/ingest/{data_source_sys_id}`
 
-**Note:** Available versions are specified in the [REST API Explorer](use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](../../custom-web-services/concept/c_CustomWebServices.md).
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_CustomWebServices.md).
 
 ### Supported request parameters
 
@@ -99,7 +100,7 @@ Data type: Array of Objects
 </td></tr></tbody>
 </table>### Headers
 
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](c_RESTAPI.md).
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 <table class="rest_api_request_headers"><thead><tr><th>
 
@@ -132,7 +133,7 @@ Data format of the request body. Supported types: **application/json** or **appl
 
 ### Status codes
 
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](c_RESTAPI.md).
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/rest-api-explorer/c_RESTAPI.md).
 
 |Status code|Description|
 |-----------|-----------|

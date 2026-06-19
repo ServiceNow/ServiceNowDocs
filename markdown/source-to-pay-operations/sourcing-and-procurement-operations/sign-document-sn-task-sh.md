@@ -2,6 +2,7 @@
 title: Sign a document from Shopping Hub Home
 description: Provide your consent by signing a document, directly from Shopping Hub Home. This action is listed as a task under My to-dos.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/source-to-pay-operations/sourcing-and-procurement-operations/sign-document-sn-task-sh.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
@@ -40,5 +41,5 @@ Role required: sn\_shop.shopper, supplier
 7.  Select **Accept and complete**.
 
 
-**Parent Topic:**[Shopper to-dos](../reference/shopper-todos.md)
+**Parent Topic:**[Shopper to-dos](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/sourcing-and-procurement-operations/shopper-todos.md)
 

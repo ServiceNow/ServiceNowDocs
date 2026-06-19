@@ -2,6 +2,7 @@
 title: Integrating Virtual Agent with IBM Watson Assistant
 description: Set up the IBM Watson Assistant topic to run dialog skills \(conversations created in IBM Watson Assistant\) in the web-based chat client. This topic returns information exchanged during the Virtual Agent conversation to IBM Watson Assistant.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/configure-watson-assistant-topic.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -18,7 +19,7 @@ Set up the IBM Watson Assistant topic to run dialog skills \(conversations creat
 
 ## Before you begin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](../reference/vad-prev-topics-page.md).
+**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
 
 -   In IBM Watson Assistant:
     -   Create the dialog skill \(conversation\) in your IBM Watson Assistant workspace. The skill includes the dialog and any intents and entities that you define.
@@ -49,13 +50,13 @@ This topic runs an IBM Watson Assistant dialog in Virtual Agent. It doesn't requ
 
     3.  Confirm that the **Endpoint** field and the **Endpoint** column displayed on the **Authentication** tab have the correct endpoint URL for your IBM Watson account.
 
-        ![REST Messages form for IBM Watson Assistant with IBM endpoint URLs highlighted.](../images/REST-msg-Watson.png)
+        \[Omitted image "REST-msg-Watson.png"\] Alt text: REST Messages form for IBM Watson Assistant with IBM endpoint URLs highlighted.
 
 3.  In the **Basic auth profile** field on the **Authentication** tab, open the Assistant Profile record.
 
 4.  In the Basic Auth Configuration form, enter the **Username** and **Password** values from your IBM Watson Assistant Service Credentials, then select **Update**.
 
-    ![Basic Auth Configuration form for IBM Watson Assistant assistant profile.](../images/Basic-auth-config-assistant-profile.png)
+    \[Omitted image "Basic-auth-config-assistant-profile.png"\] Alt text: Basic Auth Configuration form for IBM Watson Assistant assistant profile.
 
 5.  Publish the IBM Skill topic:
 
@@ -84,5 +85,5 @@ This topic runs an IBM Watson Assistant dialog in Virtual Agent. It doesn't requ
     Use the `sysparm_topic` parameter only to load the given topic in the Service Portal chat client or when using the IBM Watson Assistant chat integrations \(com.glide.cs.ibm.watson.assistant.topic and com.glide.cs.ibm.watson.assistant.topicV2 plugins\). This parameter doesn’t allow users to start a new conversation or transfer to a live agent. It also disables the context menu and doesn't support other third-party chat clients.
 
 
-**Parent Topic:**[Integrating IBM Watson Assistant conversations](../concept/va-ibm-watson-assistant-config.md)
+**Parent Topic:**[Integrating IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-ibm-watson-assistant-config.md)
 

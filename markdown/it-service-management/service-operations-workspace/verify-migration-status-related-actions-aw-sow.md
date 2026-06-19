@@ -2,6 +2,7 @@
 title: Perform post-migration tasks for related list declarative form actions
 description: Verify that the related list declarative form actions in Service Operations Workspace \(SOW\) are consistent with the related list declarative form actions in ITSM Agent Workspace \(ITSM AW\) and they’re ready for use in SOW. You can update the migrated related list declarative form actions settings in SOW based on your requirements.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/verify-migration-status-related-actions-aw-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
@@ -17,17 +18,21 @@ Verify that the related list declarative form actions in Service Operations Work
 
 ## Before you begin
 
-When performing the migration, you must have selected the **Relative list declarative form actions** option for ITSM Agent Workspace features. For example, the **Relative list declarative form actions** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](migrate-itsm-agent-workspace-to-sow.md).
+When performing the migration, you must have selected the **Relative list declarative form actions** option for ITSM Agent Workspace features. For example, the **Relative list declarative form actions** option for Incident Management. For information about the migration process, see [Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md).
 
 Role required: admin
 
 ## About this task
 
+At the end of migration, a confirmation message indicates whether the migration is complete, though individual import sets may still fail. Review migration details to identify the import set failures and complete the required post-migration steps.
+
 ## Procedure
 
 1.  If the migration is successful, perform the following steps to verify the related list actions are visible on the forms.
 
-    1.  Open SOW for ITSM and ITSM Agent Workspace instances.
+    1.  **Note:** A successful migration completion message does not indicate that all import sets succeeded. You should review the migration details to verify that individual import sets are complete without errors before using migrated configurations in production.
+
+        Open SOW for ITSM and ITSM Agent Workspace instances.
 
         -   To open SOW, navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
         -   To open ITSM Agent Workspace, enter `<instance-name>.service-now/workspace` in the web browser.
@@ -39,18 +44,20 @@ Role required: admin
 
         If the migration is successfully completed and not visible in the UI or not working properly the cross-check the conditions in Advance view.
 
-2.  1.  On the migration completion page in SOW Admin Center, select **View migration details**.
+2.  If the migration completes with import set errors, perform the following steps.
 
-2.  Select the **Go to system logs** \(![System logs icon](../../service-builder/image/sb-service-triangle.png)\) icon.
+    1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-3.  Review the logs to determine which items failed during migration.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: System logs icon\) icon.
 
-4.  Based on each failed item, identify which step has failed and perform the steps mentioned in the following topics.
+    3.  Review the logs to determine which items failed during migration.
 
-    -   [Migrate the client script from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-client-script-aw-sow.md)
-    -   [Migrate the server script from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-server-script-aw-sow.md)
-    -   [Migrate the client action from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-client-action-aw-sow.md)
-    -   [Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-ui-component-aw-sow.md)
+    4.  Based on each failed item, identify which step has failed and perform the steps mentioned in the following topics.
 
-**Parent Topic:**[Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM](../reference/related-list-declarative-actions-aw-sow.md)
+        -   [Migrate the client script from ITSM Agent Workspace to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-related-list-client-script-aw-sow.md)
+        -   [Migrate the server script from ITSM Agent Workspace to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-related-list-server-script-aw-sow.md)
+        -   [Migrate the client action from ITSM Agent Workspace to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-related-list-client-action-aw-sow.md)
+        -   [Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/migrate-related-list-ui-component-aw-sow.md)
+
+**Parent Topic:**[Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/related-list-declarative-actions-aw-sow.md)
 

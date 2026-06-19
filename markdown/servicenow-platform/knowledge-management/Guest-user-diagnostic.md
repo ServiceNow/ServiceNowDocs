@@ -2,6 +2,7 @@
 title: Collect knowledge usage metrics
 description: Capture metrics such as article views, page views, and portal searches to track aggregated knowledge usage by users.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/Guest-user-diagnostic.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -17,7 +18,7 @@ Capture metrics such as article views, page views, and portal searches to track 
 
 ## Before you begin
 
-Set the duration over which the metrics are aggregated through the **glide.knowman.usage\_metrics\_duration** property. For more information, see [Other knowledge properties](../reference/r_KnowledgeProperties.md#). By default, the property value is set to 60 minutes.
+Set the duration over which the metrics are aggregated through the **glide.knowman.usage\_metrics\_duration** property. For more information, see [Other knowledge properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/r_KnowledgeProperties.md). By default, the property value is set to 60 minutes.
 
 You must activate the Knowledge Management v3 plugin \(com.snc.knowledge3\).
 
@@ -39,7 +40,7 @@ Monitor the knowledge usage metrics to improve the overall effectiveness of the 
 
 4.  In the **Run** field, select **Periodically** as the frequency of the scheduled job.
 
-    See the [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/time-configuration/c_ScheduledJobs.md) topic for other frequency options.
+    See the Scheduled jobs topic for other frequency options.
 
 5.  In the **Repeat Interval** field, enter the repeated time interval at which the scheduled job should run.
 
@@ -50,10 +51,10 @@ Monitor the knowledge usage metrics to improve the overall effectiveness of the 
 
 ## What to do next
 
-[Modify the data retention policy for knowledge usage metrics](Modify-data-retention-policy-knowledge-usage-metrics.md) to remove unwanted and older data from the knowledge usage metrics \[kb\_usage\_metrics\] table.
+[Modify the data retention policy for knowledge usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/Modify-data-retention-policy-knowledge-usage-metrics.md) to remove unwanted and older data from the knowledge usage metrics \[kb\_usage\_metrics\] table.
 
--   **[Modify the data retention policy for knowledge usage metrics](Modify-data-retention-policy-knowledge-usage-metrics.md)**  
+-   **[Modify the data retention policy for knowledge usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/Modify-data-retention-policy-knowledge-usage-metrics.md)**  
 Remove unwanted and older data from the knowledge usage metrics \[kb\_usage\_metrics\] table through the data retention policy.
 
-**Parent Topic:**[User criteria diagnostics for Knowledge Management](../concept/diagnose-knowledge-user-criteria.md)
+**Parent Topic:**[User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md)
 

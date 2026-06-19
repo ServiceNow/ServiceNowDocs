@@ -1,7 +1,8 @@
 ---
 title: Search Profile - Dictionary Mapping form
-description: The Search Profile - Dictionary Mapping form contains information about mappings between search profiles and stop word and synonym dictionaries. Use this form when linking stop word and synonym dictionaries to search profiles.
+description: The Search Profile - Dictionary Mapping form enables you to link a stop word or synonym dictionary to a search profile in AI Search.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/ai-search/search-prof-dict-mapping-form-ais.html
 release: australia
 product: AI Search
 classification: ai-search
@@ -13,9 +14,9 @@ breadcrumb: [Reference, AI Search, Search administration, Configure core feature
 
 # Search Profile - Dictionary Mapping form
 
-The Search Profile - Dictionary Mapping form contains information about mappings between search profiles and stop word and synonym dictionaries. Use this form when linking stop word and synonym dictionaries to search profiles.
+The Search Profile - Dictionary Mapping form enables you to link a stop word or synonym dictionary to a search profile in AI Search.
 
-For details on linking stop word and synonym dictionaries to your search profiles, see [Link a stop word dictionary to a search profile](../task/link-stop-word-dict-profile-ais.md) and [Link a synonym dictionary to a search profile](../task/link-synonym-dict-profile-ais.md).
+For details on linking stop word and synonym dictionaries to your search profiles, see [Link a stop word dictionary to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/link-stop-word-dict-profile-ais.md) and [Link a synonym dictionary to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/link-synonym-dict-profile-ais.md).
 
 |Field|Description|
 |-----|-----------|
@@ -23,5 +24,5 @@ For details on linking stop word and synonym dictionaries to your search profile
 |Application|Application scope for the dictionary mapping record. This field is automatically set.|
 |Profile|The search profile that you want to link the selected stop word or synonym dictionary to. This field is automatically set to the profile that you edited.|
 
-**Parent Topic:**[AI Search reference](../concept/reference-ais.md)
+**Parent Topic:**[AI Search reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search/reference-ais.md)
 

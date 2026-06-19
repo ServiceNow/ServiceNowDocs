@@ -2,6 +2,7 @@
 title: Share documents with roles
 description: As a Writer or Owner, assign access and permissions based on user roles.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/document-management-services/share-docs-roles.html
 release: australia
 product: Document Management Services
 classification: document-management-services
@@ -36,5 +37,5 @@ Role required: dm\_user\_role\_read
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Document security and access](../concept/document-access-settings.md)
+**Parent Topic:**[Document security and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/document-management-services/document-access-settings.md)
 

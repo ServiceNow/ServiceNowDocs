@@ -2,6 +2,7 @@
 title: Exclude a class from solution training
 description: Exclude a class from solution training to prevent the model from ever making predictions for a particular output field class. For example, you can exclude a particular incident category from training if you plan to retire or change the category.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/predictive-intelligence/exclude-class-from-solution.html
 release: australia
 product: Predictive Intelligence
 classification: predictive-intelligence

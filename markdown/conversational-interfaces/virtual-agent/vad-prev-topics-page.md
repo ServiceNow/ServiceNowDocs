@@ -2,6 +2,7 @@
 title: Virtual Agent Designer legacy Topics page
 description: The Virtual Agent Designer legacy home page lists cards for available topics in your instance.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/vad-prev-topics-page.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -16,11 +17,11 @@ breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Vi
 
 The Virtual Agent Designer legacy home page lists cards for available topics in your instance.
 
-![Virtual Agent Designer Topics page that displays the available topics, topic blocks, and custom controls, as well as options for creating and managing topics.](../images/TopicPage.png "Legacy topic cards page")
+\[Omitted image "TopicPage.png"\] Alt text: Virtual Agent Designer Topics page that displays the available topics, topic blocks, and custom controls, as well as options for creating and managing topics.
 
 Each topic is represented by a card on the topic page. A description of the topic \(from the **Properties** tab\) appears when you hover over the title, and all categories are shown when you hover over the list of tags.
 
-![Hover over the name of a topic card to read its description from the Properties tab.](../images/topic-card-hover-1.png "Topic cards") ![Hover over the category tags of a topic card to see all categories associated with the topic.](../images/topic-card-hover-2.png "Topic cards") ![Topic card with the Promoted topic option highlighted under the More actions icon.](../images/promote-llm-topic.png "Topic cards")
+\[Omitted image "topic-card-hover-1.png"\] Alt text: Hover over the name of a topic card to read its description from the Properties tab. \[Omitted image "topic-card-hover-2.png"\] Alt text: Hover over the category tags of a topic card to see all categories associated with the topic. \[Omitted image "promote-llm-topic.png"\] Alt text: Topic card with the Promoted topic option highlighted under the More actions icon.
 
 <table id="table_lyh_wwg_rhb"><thead><tr><th>
 
@@ -36,7 +37,7 @@ Localization Insights
 
 </td><td>
 
-Button that opens the Localization Insights dashboard. It shows reports of topics with their translation statuses. For more information, see [Localization Insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/localization-framework/localization-insights-dashboard.md).
+Button that opens the Localization Insights dashboard. It shows reports of topics with their translation statuses. For more information, see Localization Insights dashboard.
 
 </td></tr><tr><td>
 
@@ -44,7 +45,7 @@ See Topic Recommendations
 
 </td><td>
 
-Button that opens Topic Recommendations \(if installed\). Review recommendations and manage jobs. For more information, see [Using Virtual Agent Topic Recommendations](../concept/va-topic-recommendations.md).
+Button that opens Topic Recommendations \(if installed\). Review recommendations and manage jobs. For more information, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/va-topic-recommendations.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +61,7 @@ Manage NLU/keyword test cases
 
 </td><td>
 
-Button that opens the Manage test cases page, where you can manage automated testing for Virtual Agent topics. For more information, see [Automated testing for Virtual Agent topics that use NLU topic discovery](../concept/automated-testing-va-topics.md).
+Button that opens the Manage test cases page, where you can manage automated testing for Virtual Agent topics. For more information, see [Automated testing for Virtual Agent topics that use NLU topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/automated-testing-va-topics.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +87,7 @@ Explore additional topics
 
 </td><td>
 
-Link that opens the All prebuilt topics page, which shows prebuilt topics that are available when you activate their dependent spokes or plugins. For more information, see [Virtual Agent Designer All pre-built topics page](vad-additional-topics-list.md).
+Link that opens the All prebuilt topics page, which shows prebuilt topics that are available when you activate their dependent spokes or plugins. For more information, see [Virtual Agent Designer All pre-built topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-additional-topics-list.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +113,7 @@ Category
 
 Filter that displays a list of topics belonging to a category that you specify. A category is a label that identifies a group of assets, such as setup topics or prebuilt topics for a particular business application.
 
- You can also define your own custom categories. For details, see [Create or modify custom Virtual Agent categories](../task/create-topic-category.md).
+ You can also define your own custom categories. For details, see [Create or modify custom Virtual Agent categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/create-topic-category.md).
 
 </td></tr><tr><td>
 
@@ -133,7 +134,7 @@ NLU Language
 
 Filter that is displayed only if you're using multi-language NLU models. Lists NLU -enabled topics by the language that you select.
 
- Enable the languages for the NLU service in [NLU settings](../task/configure-nlu-settings.md).
+ Enable the languages for the NLU service in [NLU settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-nlu-settings.md).
 
  This field is available only when NLU discovery is enabled on the instance.
 
@@ -174,7 +175,7 @@ Option that opens the Properties page to create a topic or topic element and def
 
 </td></tr><tr><td>
 
-Topic actions icon ![Topic actions icon.](../images/kebab-menu.png)
+Topic actions icon \[Omitted image "kebab-menu.png"\] Alt text: Topic actions icon.
 
 </td><td>
 
@@ -187,11 +188,11 @@ Icon that opens a drop-down menu with the following options:
     -   Unpublished topics
     -   Any NLU/Keyword topics
 
-**Note:** You can promote NLU topics in Conversational Interfaces settings, under **Virtual Agent Custom Greetings and Setup**. For more information, see [Configure a Virtual Agent chat experience](../task/configure-default-chat-experience.md).
+**Note:** You can promote NLU topics in Conversational Interfaces settings, under **Virtual Agent Custom Greetings and Setup**. For more information, see [Configure a Virtual Agent chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/configure-default-chat-experience.md).
 
 -   **Demote topic**: Replaces the **Promote** option in a promoted topic, to remove the `Promoted` flag.
 -   **Delete topic**: Opens a confirmation dialog box to delete the topic.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer interface reference](../concept/vad-reference.md)
+</table>**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/vad-reference.md)
 

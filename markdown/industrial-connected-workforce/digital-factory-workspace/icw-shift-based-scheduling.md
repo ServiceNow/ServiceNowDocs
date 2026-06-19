@@ -2,6 +2,7 @@
 title: Shift-based scheduling for manufacturing standards
 description: Shift-based scheduling enables you to create schedule plans that automatically generate standard tasks aligned with your factory's shift patterns and production day configurations. In shift-based scheduling, you don't have to specify precise start and end date-time values manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/industrial-connected-workforce/digital-factory-workspace/icw-shift-based-scheduling.html
 release: australia
 product: Digital Factory Workspace
 classification: digital-factory-workspace
@@ -56,7 +57,7 @@ Shift-based scheduling includes automated task lifecycle management to ensure da
 
 Make sure you have set up the following prerequisites before using shift-based scheduling:
 
--   Industrial shift configurations are defined for the functional location associated with the manufacturing standard. For more information about configuring shifts, see [Define a shift](../task/define-shifts.md).
+-   Industrial shift configurations are defined for the functional location associated with the manufacturing standard. For more information about configuring shifts, see [Define a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/define-shifts.md).
 -   The site location record linked to the functional location has a timezone defined.
 -   The manufacturing standard is published and is associated with a functional location that has shift configurations.
 
@@ -76,5 +77,5 @@ With shift-based scheduling, you may be able to complete the same scheduling in 
 
 The system automatically generates inspection tasks for each shift on each scheduled day. Tasks are released at the start of each shift and expire at the end of the shift window if not completed.
 
-**Parent Topic:**[Exploring Industrial Standards](../reference/industrial-standards-landing-page.md)
+**Parent Topic:**[Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/digital-factory-workspace/industrial-standards-landing-page.md)
 

@@ -2,6 +2,7 @@
 title: Create adhoc incident communication plan from incident
 description: Create an adhoc incident communication plan from an incident when an issue related to the incident is not considered earlier. The incident automatically populates the required information in the adhoc communication plan, saving you time and effort.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/incident-communications-management/t\_CreateAnAlertFromAnIncident.html
 release: australia
 product: Incident Communications Management
 classification: incident-communications-management
@@ -23,7 +24,7 @@ Role required: major\_incident\_manager, ia\_admin, or admin
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Incident** &gt; **Open**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Open an existing incident.
 
@@ -54,5 +55,5 @@ Role required: major\_incident\_manager, ia\_admin, or admin
     An incident communication plan is created. The **Communication** tab lists the communication tasks that have email, SMS, or slack as the communication channel. The **Conference** tab lists the communication tasks that have conference as the communication channel.
 
 
-**Parent Topic:**[Create adhoc incident communication plan](../concept/c_CreateIncidentAlerts.md)
+**Parent Topic:**[Create adhoc incident communication plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-communications-management/c_CreateIncidentAlerts.md)
 

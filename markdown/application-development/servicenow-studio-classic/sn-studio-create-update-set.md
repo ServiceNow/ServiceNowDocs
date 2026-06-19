@@ -1,25 +1,26 @@
 ---
 title: Create an update set in ServiceNow Studio
-description: Create an update set to package app changes for deployment in ServiceNow Studio.
+description: Create an update set in ServiceNow Studio to package app changes for deployment to other instances.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/sn-studio-create-update-set.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-05-28"
 reading_time_minutes: 1
-breadcrumb: [Working with update sets, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Update sets, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Create an update set in ServiceNow Studio
 
-Create an update set to package app changes for deployment in ServiceNow Studio.
+Create an update set in ServiceNow Studio to package app changes for deployment to other instances.
 
 ## Before you begin
 
 Role required: admin or delegated\_developer
 
-You can also watch this short video on how to create an update set.
+Watch this short video on how to create an update set.
 
 Video on how to create an update set in ServiceNow Studio 
 
@@ -31,7 +32,7 @@ Video on how to create an update set in ServiceNow Studio
 
 3.  At the bottom-left corner of the canvas, expand the update set dialog by selecting the current update set from the status bar.
 
-    ![Select the current update set from the status bar to open the update set dialog.](../image/sn-studio-scope-update-set-zs1.png)
+    \[Omitted image "sn-studio-scope-update-set-zs1.png"\] Alt text: Select the current update set from the status bar to open the update set dialog.
 
 4.  Select **New**.
 
@@ -44,5 +45,5 @@ Video on how to create an update set in ServiceNow Studio
     The changes you made in your app go to the new update set.
 
 
-**Parent Topic:**[Working with update sets in ServiceNow Studio](../concept/working-with-update-sets-in-servicenow-studio.md)
+**Parent Topic:**[Update sets in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)
 

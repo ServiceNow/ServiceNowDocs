@@ -2,6 +2,7 @@
 title: Customize tab label in Agent Workspace for HR Case Management
 description: Change the tab title for the HR Cases, in Agent Workspace for HR Case Management, based on any of the case field values enabling you to see more details on the tab when multiple tabs are open.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/agent-workspace-for-hr-case-management/customise-tab-lable-agent-ws.html
 release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management

@@ -2,6 +2,7 @@
 title: Configure which types of tasks can be created from Visual Task Board checklist items
 description: A system property controls which types of tasks you can create from a Visual Task Board checklist item.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/visual-task-boards/t\_TasksChecklistItems.html
 release: australia
 product: Visual Task Boards
 classification: visual-task-boards
@@ -35,8 +36,8 @@ You might want to add custom tables or remove tables you do not use.
 
     The property value populates the task type selection list users choose from when they create a task from a checklist item. Note that users can only see task types for which they have the appropriate access roles.
 
-    ![Task type selection list](../image/CreateTaskFromChecklistItem.png)
+    \[Omitted image "CreateTaskFromChecklistItem.png"\] Alt text: Task type selection list
 
 
-**Parent Topic:**[Visual Task Board checklists](../concept/c_VisualTaskBoardChecklists.md)
+**Parent Topic:**[Visual Task Board checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/visual-task-boards/c_VisualTaskBoardChecklists.md)
 

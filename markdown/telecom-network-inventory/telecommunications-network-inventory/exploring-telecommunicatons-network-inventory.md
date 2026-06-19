@@ -2,6 +2,7 @@
 title: Exploring Telecommunications Network Inventory
 description: Learn how the Telecommunications Network Inventory application can help your organization to create a digital representation of your physical and logical networks in the ServiceNow AI Platform.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-network-inventory/telecommunications-network-inventory/exploring-telecommunicatons-network-inventory.html
 release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
@@ -21,7 +22,9 @@ With the Telecommunications Network Inventory application, you can redefine the 
 
 The ServiceNow Configuration Management Database \(CMDB\) stores the network inventory details. With this information, you can monitor your network infrastructure so that you can help to ensure the integrity, stability, and continuous service operation of your network.
 
-The following example shows the common uses of the Telecommunications Network Inventory application.![Infographic showing the key uses of Telecommunication Network inventory, such as the asset lifecycle management, service assurance, and design and assign.](../image/mmasset0020447-tni-Infographic-exploring-horizontal.png)
+The following example shows the common uses of the Telecommunications Network Inventory application.
+
+\[Omitted image "source-of-truth-tni.png"\] Alt text: Infographic showing the key uses of Telecommunication Network inventory, such as the asset lifecycle management, service assurance, and design and assign.
 
 Key uses of the Telecommunications Network Inventory application include:
 
@@ -56,7 +59,7 @@ Leverage Configuration Management Database \(CMDB\) classes, which are telecommu
 
 </td><td>
 
-[Data model](uses-for-network-inventory-data.md)
+[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
 
 </td></tr><tr><td>
 
@@ -64,7 +67,7 @@ Quickly model equipment and design complex templates
 
 </td><td>
 
-[Modeling your workflow](telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 
 </td></tr><tr><td>
 
@@ -72,7 +75,7 @@ Automate network service creation by setting complex design criteria that initia
 
 </td><td>
 
-[Design and assign](telecommunications-circuit-design-resource-assignment.md)
+[Design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunications-circuit-design-resource-assignment.md)
 
 </td></tr><tr><td>
 
@@ -80,7 +83,7 @@ Deepen visibility into network inventory operations with personalized configurab
 
 </td><td>
 
-[Network Inventory Workspace](exploring-network-inventory-workspace.md)
+[Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/exploring-network-inventory-workspace.md)
 
 </td></tr><tr><td>
 
@@ -88,7 +91,7 @@ Allocate telephone numbers and IP addresses
 
 </td><td>
 
-[Inventory number allocation](inventory_number_allocation.md)
+[Inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/inventory_number_allocation.md)
 
 </td></tr><tr><td>
 
@@ -96,7 +99,7 @@ Model your 5G network
 
 </td><td>
 
-[Model 5G network function](modeling_5g_xnf.md)
+[Model 5G network function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/modeling_5g_xnf.md)
 
 </td></tr><tr><td>
 
@@ -104,7 +107,7 @@ Associate customer orders with the required network resources to deliver a seaml
 
 </td><td>
 
-[Telecommunications Network Inventory and Order Management for Telecommunications and Media](telecomm-network-inventor-order-management.md)
+[Telecommunications Network Inventory and Order Management for Telecommunications and Media](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecomm-network-inventor-order-management.md)
 
 </td></tr><tr><td>
 
@@ -112,7 +115,7 @@ Instantiate Equipment template using an asset and to generate a service request 
 
 </td><td>
 
-[Telecommunications Network Inventory integration with Hardware Asset Management](integration-with-hardware-asset-management.md)
+[Telecommunications Network Inventory integration with Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/integration-with-hardware-asset-management.md)
 
 </td></tr><tr><td>
 
@@ -120,7 +123,7 @@ Define a pack with user-defined attributes and update it against a CI record
 
 </td><td>
 
-[Attribute packs](telecommunication-network-inventory-pack.md)
+[Attribute packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-pack.md)
 
 </td></tr><tr><td>
 
@@ -128,7 +131,7 @@ Provide a visualization of the circuit and its underlying connection elements
 
 </td><td>
 
-[Visualize circuits](unified-map-view-of-connection-elements.md)
+[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
 
 </td></tr><tr><td>
 
@@ -136,7 +139,7 @@ Automate the network inventory's design and assign process using the function ca
 
 </td><td>
 
-[Workflows in Flow Designer](telecommunication-network-inventory-workflows-flow-designer.md)
+[Workflows in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-workflows-flow-designer.md)
 
 </td></tr><tr><td>
 
@@ -144,7 +147,7 @@ Calculate the capacity of physical entities in your network to plan, monitor, an
 
 </td><td>
 
-[Capacity management](capacity-management-reporting.md)
+[Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/capacity-management-reporting.md)
 
 </td></tr><tr><td>
 
@@ -152,7 +155,7 @@ Revise and operationalize a Configuration Item
 
 </td><td>
 
-[Revision, operationalization, and decommission of a Configuration Item](revision-of-a-confiuguration-item.md)
+[Revision, operationalization, and decommission of a Configuration Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/revision-of-a-confiuguration-item.md)
 
 </td></tr><tr><td>
 
@@ -160,7 +163,7 @@ Visualize and manage rack and cabinet
 
 </td><td>
 
-[Visualization of a rack or cabinet](visualization-of-rack.md)
+[Visualization of a rack or cabinet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/visualization-of-rack.md)
 
 </td></tr><tr><td>
 
@@ -168,7 +171,7 @@ View the geographical location of your network sites, the floor plan in a datace
 
 </td><td>
 
-[Visualize network infrastructure](data-center-inventory-management.md)
+[Visualize network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md)
 
 </td></tr><tr><td>
 
@@ -176,7 +179,7 @@ Get a converged experience for agents to view both incident/alert details and Ne
 
 </td><td>
 
-[Service Operations Workspace for Telecommunications Network Inventory](service-operations-workspace-network-inventory.md)
+[Service Operations Workspace for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecommunications-network-inventory/service-operations-workspace-network-inventory.md)
 
 </td></tr></tbody>
 </table>

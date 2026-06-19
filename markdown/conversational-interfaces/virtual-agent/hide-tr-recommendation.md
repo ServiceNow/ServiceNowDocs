@@ -2,6 +2,7 @@
 title: Hide a topic recommendation
 description: You can choose to ignore a topic recommendation by hiding it. Doing so hides it for everyone on the instance. You can still view hidden recommendations and show it again later.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/hide-tr-recommendation.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -24,13 +25,13 @@ Role required: virtual\_agent\_admin or admin
 
 Topic recommendations are hidden only when **View** is set to **All** \(aggregate view\). Hidden recommendation cards will still display when **View** is set to **By Source**. The status on the card is **Hidden**.
 
-![When the view is set to By Source, hidden topic recommendation cards display with a status of Hidden.](../images/tr-card-hidden-status.png)
+\[Omitted image "tr-card-hidden-status.png"\] Alt text: When the view is set to By Source, hidden topic recommendation cards display with a status of Hidden.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Topic Recommendations**.
 
-2.  Select the info icon ![Info icon.](../images/icon-info-blue.png) to open the overlay card for a topic that has a New status.
+2.  Select the info icon \[Omitted image "icon-info-blue.png"\] Alt text: Info icon. to open the overlay card for a topic that has a New status.
 
 3.  Select **Hide**.
 
@@ -39,7 +40,7 @@ Topic recommendations are hidden only when **View** is set to **All** \(aggregat
 
 The recommendation is hidden from the list. To view hidden recommendations, slide the **Show hidden** toggle switch to enable it.
 
-![Hidden topic cards become visible when you enable the Show hidden toggle switch.](../images/tr-show-hidden-topics.png)
+\[Omitted image "tr-show-hidden-topics.png"\] Alt text: Hidden topic cards become visible when you enable the Show hidden toggle switch.
 
-To return a recommendation's status to New, select the info icon ![Info icon.](../images/icon-info-blue.png) to open the overlay card for the topic, and then select **Don't hide**.
+To return a recommendation's status to New, select the info icon \[Omitted image "icon-info-blue.png"\] Alt text: Info icon. to open the overlay card for the topic, and then select **Don't hide**.
 

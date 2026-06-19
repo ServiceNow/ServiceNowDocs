@@ -2,6 +2,7 @@
 title: Associate a knowledge article with a taxonomy category
 description: Associate a knowledge article with a taxonomy topics to create a uniform classification structure across different kinds of content.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/knowledge-management/associate-knowledge-article-with-taxonomy-topic.html
 release: australia
 product: Knowledge Management
 classification: knowledge-management
@@ -23,7 +24,7 @@ Role required: knowledge
 
 ## About this task
 
-The taxonomy feature enables you to link an article to one or more topics from multiple taxonomies. It helps you maintain a unified content categorization across content types such as catalog items, knowledge articles, and community posts. For more information, see [Unified taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-experience-foundation/config-taxonomy.md)
+The taxonomy feature enables you to link an article to one or more topics from multiple taxonomies. It helps you maintain a unified content categorization across content types such as catalog items, knowledge articles, and community posts. For more information, see Unified taxonomy for Employee Center
 
 **Note:** You can associate only articles in the Draft, Review, or Published state.
 
@@ -35,11 +36,11 @@ The taxonomy feature enables you to link an article to one or more topics from m
 
 3.  In the Assigned Topics related list, click **Add**.
 
-    **Note:** As an admin, you may need to configure the form to include the Connected Content → Knowledge in the related list. Click the form context menu icon ![context menu icon](../image/ContextMenu.png) and navigate to **Configure** &gt; **Related Lists**. Using slushbucket, add the Connected Content → Knowledge.
+    **Note:** As an admin, you may need to configure the form to include the Connected Content → Knowledge in the related list. Click the form context menu icon \[Omitted image "ContextMenu.png"\] Alt text: context menu icon and navigate to **Configure** &gt; **Related Lists**. Using slushbucket, add the Connected Content → Knowledge.
 
 4.  Select a Taxonomy category from the list in the topic picker dialog box.
 
-    ![The screenshot displaying topic picker pop-window to associate knowledge article with a taxonomy category.](../image/topic-picker.png)
+    \[Omitted image "topic-picker.png"\] Alt text: The screenshot displaying topic picker pop-window to associate knowledge article with a taxonomy category.
 
 5.  Select a topic from a topic picker list and click **OK**.
 
@@ -48,5 +49,5 @@ The taxonomy feature enables you to link an article to one or more topics from m
 
 The selected article is associated with a taxonomy category for better content browsing.
 
-**Parent Topic:**[Creating and maintaining articles](../concept/creating-and-maintaining-articles.md)
+**Parent Topic:**[Creating and maintaining articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/knowledge-management/creating-and-maintaining-articles.md)
 

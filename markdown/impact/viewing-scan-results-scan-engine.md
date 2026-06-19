@@ -1,23 +1,26 @@
 ---
 title: View scan results for Scan Engine
-description: You can view scans in real-time as they run, or after they're completed. 
+description: You can view scans in real-time as they run or after they're completed. 
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/impact/viewing-scan-results-scan-engine.html
 release: australia
+product: Impact
+classification: impact
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [Resolve technical debt, Diagnose technical debt, Platform Health, Using Impact, Impact]
 ---
 
 # View scan results for Scan Engine
 
-You can view scans in real-time as they run, or after they're completed. 
+You can view scans in real-time as they run or after they're completed. 
 
 ## Before you begin
 
 -   Fully configure the general and additional Scan Engine properties.
 
-    See [Configure Scan Engine properties](configure-scan-engine-properties.md) and [Configure definition properties](../reference/additional-scan-engine-properties.md).
+    See [Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/configure-scan-engine-properties.md) and [Configure definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/additional-scan-engine-properties.md).
 
 -   Role required: Scan Engine User \(`sn_se.scan_engine_user`\), Scan Engine Admin \(`(sn_se.scan_engine_admin`\) or Impact specific roles \(Impact App Admin, Impact Platform Owner, Impact Development Team Lead, Impact Executive, Impact Developer\).
 
@@ -29,7 +32,7 @@ You can view scans in real-time as they run, or after they're completed. 
 
     The following information about the scan displays.
 
-<table id="choicetable_ojz_rmk_hhc"><tbody><tr><td id="d93147e132">
+<table id="choicetable_ojz_rmk_hhc"><tbody><tr><td id="d65823e132">
 
 **Scan number**
 
@@ -37,7 +40,7 @@ You can view scans in real-time as they run, or after they're completed. 
 
 ID number assigned to the scan
 
-</td></tr><tr><td id="d93147e141">
+</td></tr><tr><td id="d65823e141">
 
 **Type of scan **
 
@@ -45,7 +48,7 @@ ID number assigned to the scan
 
 Type of scan being run
 
-</td></tr><tr><td id="d93147e150">
+</td></tr><tr><td id="d65823e150">
 
 **Status**
 
@@ -53,7 +56,7 @@ Type of scan being run
 
 Status of the scan \(In progress,Error, Canceled, Completed\) 
 
-</td></tr><tr><td id="d93147e159">
+</td></tr><tr><td id="d65823e159">
 
 **Scan duration**
 
@@ -61,7 +64,7 @@ Status of the scan \(In progress,Error, Canceled, Completed\) 
 
 How long the scan has been running
 
-</td></tr><tr><td id="d93147e168">
+</td></tr><tr><td id="d65823e168">
 
 **Estimated time remaining**
 
@@ -69,7 +72,7 @@ How long the scan has been running
 
 How much time is left until the scan is completed
 
-</td></tr><tr><td id="d93147e178">
+</td></tr><tr><td id="d65823e178">
 
 **Percent complete**
 
@@ -86,7 +89,7 @@ Percentage of how close the scan is to completing
     4.  Complete
 3.  On the **Actions** menu, select any of the following as needed.
 
-<table id="choicetable_e3k_nnk_hhc"><tbody><tr><td id="d93147e216">
+<table id="choicetable_e3k_nnk_hhc"><tbody><tr><td id="d65823e216">
 
 **View Summary Scan Record **
 
@@ -94,7 +97,7 @@ Percentage of how close the scan is to completing
 
 Open the summary results for the scan.
 
-</td></tr><tr><td id="d93147e225">
+</td></tr><tr><td id="d65823e225">
 
 **Cancel this scan**
 
@@ -102,7 +105,7 @@ Open the summary results for the scan.
 
 Cancel the scan before it completes.
 
-</td></tr><tr><td id="d93147e234">
+</td></tr><tr><td id="d65823e234">
 
 **Reload page**
 
@@ -113,7 +116,7 @@ Refresh the page.
 </td></tr></tbody>
 </table>    The following tabs display scan information.
 
-<table id="choicetable_g11_5nk_hhc"><tbody><tr><td id="d93147e249">
+<table id="choicetable_g11_5nk_hhc"><tbody><tr><td id="d65823e249">
 
 **Batch**
 
@@ -124,7 +127,7 @@ Refresh the page.
 -   To skip a batch, select the option next to the batch to skip.
 
 
-</td></tr><tr><td id="d93147e270">
+</td></tr><tr><td id="d65823e270">
 
 **Status history**
 
@@ -132,7 +135,7 @@ Refresh the page.
 
 Status messages that displayed during the scan. 
 
-</td></tr><tr><td id="d93147e279">
+</td></tr><tr><td id="d65823e279">
 
 **Message**
 
@@ -146,5 +149,5 @@ System messages and progress updates from the scan.
 </table>
 ## What to do next
 
-From the summary scan record, use the **Findings** related list to view all findings discovered during this scan. See [Work with Scan Engine findings](work-with-scan-engine-findings.md) for more information.
+From the summary scan record, use the **Findings** related list to view all findings discovered during this scan. See [Work with Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/work-with-scan-engine-findings.md) for more information.
 

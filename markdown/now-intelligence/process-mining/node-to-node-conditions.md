@@ -2,6 +2,7 @@
 title: Applying a process step filter on an activity
 description: Process step filtering enables you to get closer views of the different routes that records go through.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/now-intelligence/process-mining/node-to-node-conditions.html
 release: australia
 product: Process Mining
 classification: process-mining
@@ -24,12 +25,12 @@ You can apply a transition filter in two ways:
 -   By creating a specific condition manually
 -   By applying transition filter on a pre-defined filter
 
--   **[Create a process step filter manually](create-transition-manually.md)**  
+-   **[Create a process step filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/create-transition-manually.md)**  
 Create a process step filter to meet your needs and apply it to view the result on the process graph.
--   **[Edit a process step filter](edit-transition-filter.md)**  
+-   **[Edit a process step filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/edit-transition-filter.md)**  
 Edit a process step filter if you want to make any changes to it.
--   **[Apply process step filter on a pre-defined filter](apply-transitionfilter.md)**  
+-   **[Apply process step filter on a pre-defined filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/apply-transitionfilter.md)**  
 Apply a process step filter on a selected node or connection.
 
-**Parent Topic:**[Filtering project data](filter-project.md)
+**Parent Topic:**[Filtering project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/filter-project.md)
 

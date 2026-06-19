@@ -2,6 +2,7 @@
 title: OCRosterSpanApprovalUtil - Global
 description: The OCRosterSpanApprovalUtil script include provides methods for the PTO approval feature.Changes the type of the roster\_schedule\_span to time-off from approval.Returns a URL to the on-call calendar based on the rosterSpanProposalGr.Returns a formatted GlideScheduleDateTime string based on the start date of the rosterSpanProposalGr.Returns an array of group managers based on the user's rota groups.Returns a formatted GlideScheduleDateTime string based on the end date of the rosterSpanProposalGr.Returns the user's name based on rosterSpanProposalGr.Checks whether the system property com.snc.on\_call\_rotation.pto.approval.required is true.Changes the type of the roster\_schedule\_span to rejected from approval.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_OCRosterSpanApprovalUtilAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OCRosterSpanApprovalUtil script include provides methods for the PTO approval feature.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## OCRosterSpanApprovalUtil - approvePTOSpan \(GlideRecord rosterSpanGr\)
 

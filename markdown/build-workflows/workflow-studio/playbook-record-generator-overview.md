@@ -2,6 +2,7 @@
 title: Playbook record generator
 description: Use the playbook record generator to guide a user through the record creation process using the Playbook Experience.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/playbook-record-generator-overview.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio

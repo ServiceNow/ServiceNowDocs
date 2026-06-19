@@ -2,6 +2,7 @@
 title: Reassign a task to another agent
 description: Managers can quickly reassign work order tasks to another agent in case the original agent is running behind on other work order tasks.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/reassign-task-manager.html
 release: australia
 product: Work Order Management
 classification: work-order-management
@@ -25,7 +26,7 @@ Role required: wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager
 
 2.  Tap the assignment group or territory that the agent you want to reassign a task to is part of.
 
-3.  Tap the clipboard icon \(![clipboard](../image/manager-clipboard.png)\) next to the agent that you want to reassign a task from.
+3.  Tap the clipboard icon \(\[Omitted image "manager-clipboard.png"\] Alt text: clipboard\) next to the agent that you want to reassign a task from.
 
 4.  Tap the task that you want to reassign.
 

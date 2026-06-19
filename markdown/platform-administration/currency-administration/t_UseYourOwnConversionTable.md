@@ -2,6 +2,7 @@
 title: Use your own currency-conversion rates
 description: All currency conversions are based on the rates stored in the Exchange Rate table. You can turn off the regularly scheduled update from the European Central Bank \(ECB\), and maintain the table manually.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/platform-administration/currency-administration/t\_UseYourOwnConversionTable.html
 release: australia
 product: Currency Administration
 classification: currency-administration
@@ -40,5 +41,5 @@ If ECB does not supply the daily rates for a specific currency, you can manually
 5.  Enter new exchange rates either manually or with an import set.
 
 
-**Parent Topic:**[Default currency conversions](../../currency/concept/currency-conversions.md)
+**Parent Topic:**[Default currency conversions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/currency-administration/currency-conversions.md)
 

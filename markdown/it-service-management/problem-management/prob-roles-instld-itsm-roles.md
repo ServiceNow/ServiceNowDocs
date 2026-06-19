@@ -2,6 +2,7 @@
 title: Components installed with ITSM Roles — Problem Management
 description: Several user roles are installed with activation of the ITSM Roles — Problem Management plugin \(com.snc.itsm.roles.problem\_management\).
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/problem-management/prob-roles-instld-itsm-roles.html
 release: australia
 product: Problem Management
 classification: problem-management
@@ -15,7 +16,7 @@ breadcrumb: [Request ITSM Roles — Problem Management, Problem Management plugi
 
 Several user roles are installed with activation of the ITSM Roles — Problem Management plugin \(com.snc.itsm.roles.problem\_management\).
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -78,5 +79,5 @@ Enables gathering, and verifying information, as well as delivering quick resolu
 -   now\_assist\_panel\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request ITSM Roles — Problem Management](../task/req-itsm-roles-prob-mgmt.md)
+</table>**Parent Topic:**[Request ITSM Roles — Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/problem-management/req-itsm-roles-prob-mgmt.md)
 

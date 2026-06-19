@@ -2,6 +2,7 @@
 title: GlideCertificateEncryption - Global
 description: The GlideCertificateEncryption API provides methods for encrypting certificates.Instantiates a GlideCertificateEncryption object.Generates the Message Authentication Code \(MAC\), which is used to authenticate a message.Generates a hash \(SHA-1, SHA-256, and so on\) for the certificate from Trust Store Cert.Generates a hash \(SHA-1, SHA-256, and so on\) for the certificate from the key store entry.Signs the data using the private key and the given algorithm.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/c\_GlideCertificateEncryptionAPI.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -17,7 +18,7 @@ The GlideCertificateEncryption API provides methods for encrypting certificates.
 
 Use these methods to generate a hash for the certificate, sign data using a private key, and generate a message authentication code.
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## GlideCertificateEncryption - GlideCertificateEncryption\(\)
 
@@ -29,7 +30,7 @@ Instantiates a GlideCertificateEncryption object.
 
 ### Scoped equivalent
 
-To use the GlideCertificateEncryption\(\) constructor in a scoped application, use the corresponding scoped constructor: [CertificateEncryption\(\)](../../CertificateEncryptionScoped/concept/c_CertificateEncryptionScopedAPI.md#).
+To use the GlideCertificateEncryption\(\) constructor in a scoped application, use the corresponding scoped constructor: [CertificateEncryption\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CertificateEncryptionScopedAPI.md).
 
 ## GlideCertificateEncryption - generateMac\(String key, String algorithm, String data\)
 
@@ -54,7 +55,7 @@ mac.generateMac(key, "HmacSHA256", "sample_data");
 
 ### Scoped equivalent
 
-To use the generateMac\(\) method in a scoped application, use the corresponding scoped method: [generateMac\(\)](../../CertificateEncryptionScoped/concept/c_CertificateEncryptionScopedAPI.md#).
+To use the generateMac\(\) method in a scoped application, use the corresponding scoped method: [generateMac\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CertificateEncryptionScopedAPI.md).
 
 ## GlideCertificateEncryption - getThumbPrint\(String certificateID, String algorithm\)
 
@@ -71,7 +72,7 @@ Generates a hash \(SHA-1, SHA-256, and so on\) for the certificate from Trust St
 
 ### Scoped equivalent
 
-To use the getThumbPrint\(\) method in a scoped application, use the corresponding scoped method: [getThumbPrint\(\)](../../CertificateEncryptionScoped/concept/c_CertificateEncryptionScopedAPI.md#).
+To use the getThumbPrint\(\) method in a scoped application, use the corresponding scoped method: [getThumbPrint\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CertificateEncryptionScopedAPI.md).
 
 ## GlideCertificateEncryption - getThumbPrintFromKeystore\(String certificateID, String alias, String algorithm\)
 
@@ -89,7 +90,7 @@ Generates a hash \(SHA-1, SHA-256, and so on\) for the certificate from the key 
 
 ### Scoped equivalent
 
-To use the getThumbPrintFromKeystore\(\) method in a scoped application, use the corresponding scoped method: [getThumbPrintFromKeystore\(\)](../../CertificateEncryptionScoped/concept/c_CertificateEncryptionScopedAPI.md#).
+To use the getThumbPrintFromKeystore\(\) method in a scoped application, use the corresponding scoped method: [getThumbPrintFromKeystore\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CertificateEncryptionScopedAPI.md).
 
 ## GlideCertificateEncryption - sign\(String certificateID, String alias, String aliaspassword, String algorithm, String datatosign\)
 
@@ -114,5 +115,5 @@ gce.sign("recordID", "alias", "password", "SHA-1", "sign this data");
 
 ### Scoped equivalent
 
-To use the sign\(\) method in a scoped application, use the corresponding scoped method: [sign\(\)](../../CertificateEncryptionScoped/concept/c_CertificateEncryptionScopedAPI.md#).
+To use the sign\(\) method in a scoped application, use the corresponding scoped method: [sign\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_CertificateEncryptionScopedAPI.md).
 

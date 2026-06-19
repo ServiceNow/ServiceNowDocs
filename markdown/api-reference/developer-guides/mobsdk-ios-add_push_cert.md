@@ -2,6 +2,7 @@
 title: Add a push certificate record
 description: After generating your iOS push certificate, you must save the push certificate record to your instance. The push certificate is stored in the X.509 Certificate \[sys\_certificate\] table.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/developer-guides/mobsdk-ios-add\_push\_cert.html
 release: australia
 product: Developer Guides
 classification: developer-guides
@@ -29,7 +30,7 @@ Role required: admin
 
 4.  Create a certificate record by selecting the **New** button.
 
-5.  Add the Personal Information Exchange \(.p12\) certificate that you exported in [Generate and retrieve an iOS push certificate](mobsdk-ios-retrieve-apple-cert.md) to the certificate record as an attachment.
+5.  Add the Personal Information Exchange \(.p12\) certificate that you exported in [Generate and retrieve an iOS push certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/mobsdk-ios-retrieve-apple-cert.md) to the certificate record as an attachment.
 
     1.  In the upper-right corner, select the attachment icon.
 
@@ -51,6 +52,6 @@ Role required: admin
 
     8.  After the certificate validation is confirmed, select **Update** to submit the form.
 
-    ![Push certificate form](../image/mobsdk-ios-push_cert_save.png)
+    \[Omitted image "mobsdk-ios-push\_cert\_save.png"\] Alt text: Push certificate form
 
 

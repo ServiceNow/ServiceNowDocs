@@ -2,7 +2,10 @@
 title: Outsourced Service Provider agent tasks
 description: Outsourced service provider agents \(OSPs\) extend the capabilities and reach of an organization’s customer service operations by providing basic customer service to customers and consumers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/osp-agent-tasks.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
@@ -25,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create work order](../task/osp-create-work-order.md)
+[Create work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-create-work-order.md)
 
 </td><td>
 
@@ -33,7 +36,7 @@ An OSP agent can create a work order so that it can be assigned to a Field Servi
 
 </td></tr><tr><td>
 
-[Escalate a case](../task/osp-escalate-case.md)
+[Escalate a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-escalate-case.md)
 
 </td><td>
 
@@ -41,7 +44,7 @@ An OSP agent can escalate a case when unable to resolve or fulfill a case for va
 
 </td></tr><tr><td>
 
-[View account or consumer assets](../task/osp-view-asset-acct-consumer.md)
+[View account or consumer assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-view-asset-acct-consumer.md)
 
 </td><td>
 
@@ -49,7 +52,7 @@ An OSP agent can view the assets owned by an account or consumer which helps in 
 
 </td></tr><tr><td>
 
-[View account contracts](../task/osp-view-contracts.md)
+[View account contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-view-contracts.md)
 
 </td><td>
 
@@ -57,7 +60,7 @@ As an OSP agent, you can view contracts owned by accounts or consumers in order 
 
 </td></tr><tr><td>
 
-[View customer or consumer data](../task/osp-view-cust-data.md)
+[View customer or consumer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-view-cust-data.md)
 
 </td><td>
 
@@ -65,7 +68,7 @@ As an OSP agent, you can view the customer or consumer data to fulfill cases.
 
 </td></tr><tr><td>
 
-[Create a case task](../task/osp-create-case-task.md)
+[Create a case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-create-case-task.md)
 
 </td><td>
 
@@ -73,7 +76,7 @@ An OSP agent creates a case task after a case has been assigned. As an agent, yo
 
 </td></tr><tr><td>
 
-[Assign a case](../task/osp-assign-case.md)
+[Assign a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-assign-case.md)
 
 </td><td>
 
@@ -81,7 +84,7 @@ Assign a case to yourself or another Outsourced Service Provider \(OSP\) agent w
 
 </td></tr><tr><td>
 
-[Create an appointment](../task/osp-create-appt.md)
+[Create an appointment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-create-appt.md)
 
 </td><td>
 
@@ -89,7 +92,7 @@ As an agent, you can create an appointment for the requester of a case.
 
 </td></tr><tr><td>
 
-[Transfer a case](../task/osp-transfer-case.md)
+[Transfer a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-transfer-case.md)
 
 </td><td>
 
@@ -97,7 +100,7 @@ The OSP agent or manager, if unable to resolve a case, transfers the case manual
 
 </td></tr><tr><td>
 
-[View cases](../task/osp-view-cases.md)
+[View cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-view-cases.md)
 
 </td><td>
 
@@ -105,7 +108,7 @@ As an OSP manager or agent, you can view all application modules with the list o
 
 </td></tr><tr><td>
 
-[View case related emails and respond](../task/osp-view-email-respond.md)
+[View case related emails and respond](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-view-email-respond.md)
 
 </td><td>
 
@@ -113,7 +116,7 @@ As an OSP agent, you can view the list of emails related to a case that is assig
 
 </td></tr><tr><td>
 
-[Report knowledge gap from a case](../task/osp-report-knowledge-gap.md)
+[Report knowledge gap from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-report-knowledge-gap.md)
 
 </td><td>
 
@@ -121,7 +124,7 @@ When an OSP agent has a knowledge gap which impacts the ability to resolve a cas
 
 </td></tr><tr><td>
 
-[Propose a major case](../task/osp-propose-major-case.md)
+[Propose a major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-propose-major-case.md)
 
 </td><td>
 
@@ -129,7 +132,7 @@ As an OSP agent, you can propose a major case from the existing customer service
 
 </td></tr><tr><td>
 
-[Close a case](../task/osp-close-case.md)
+[Close a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-close-case.md)
 
 </td><td>
 
@@ -137,7 +140,7 @@ Users with OSP agent role can propose a solution to a case and close the assigne
 
 </td></tr><tr><td>
 
-[Contextual search](../task/osp-contextual-search.md)
+[Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-contextual-search.md)
 
 </td><td>
 
@@ -145,7 +148,7 @@ Users with OSP agent role can search for related information to fulfill a case. 
 
 </td></tr><tr><td>
 
-[View list of entitlements](../task/osp-view-entitlements.md)
+[View list of entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/osp-view-entitlements.md)
 
 </td><td>
 

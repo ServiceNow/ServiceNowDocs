@@ -2,6 +2,7 @@
 title: Configure target table fields as columns for matrix report
 description: Configure the fields in the target table as column heads in the matrix report, which is the second level of configuration for the audit matrix report.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/audit-management/matrix-report-relationship-audit-ws.html
 release: australia
 product: Audit Management
 classification: audit-management
@@ -31,7 +32,7 @@ Role required: sn\_matrix\_report.admin
 
 5.  On the form, fill in the fields.
 
-    For a description of the field values, see [Matrix column configuration form](../reference/matrix-col-config-audit-ws.md).
+    For a description of the field values, see [Matrix column configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/matrix-col-config-audit-ws.md).
 
 6.  Select **Submit**.
 
@@ -40,5 +41,5 @@ Role required: sn\_matrix\_report.admin
 
 ## What to do next
 
-After the matrix relationship is complete, you can [Create matrix report configuration for Audit Workspace](matrix-report-create-audit-ws.md).
+After the matrix relationship is complete, you can [Create matrix report configuration for Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/audit-management/matrix-report-create-audit-ws.md).
 

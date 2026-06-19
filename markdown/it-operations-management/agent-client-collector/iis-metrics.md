@@ -2,6 +2,7 @@
 title: Internet Information Services \(IIS\) metrics
 description: The following table lists the metrics that are gathered as output from IIS checks. Entries indicated as Featured metrics are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/iis-metrics.html
 release: australia
 product: Agent Client Collector
 classification: agent-client-collector
@@ -23,5 +24,5 @@ The following table lists the metrics that are gathered as output from IIS check
 |iis.\_Total.Web\_Service\(\_Total\).Get\_Requests/sec \(featured metric\)| |count per second|Rate of all HTTP GET requests received by the IIS server.|
 |iis.\_Total.Web\_Service\(\_Total\).Post\_Requests/sec \(featured metric\)| |count per second|Rate of all HTTP POST requests received by the IIS server.|
 
-**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](agent-policies-checks.md)
+**Parent Topic:**[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)
 

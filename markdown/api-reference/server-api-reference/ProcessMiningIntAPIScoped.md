@@ -2,6 +2,7 @@
 title: ProcessMiningIntegrationAPI - Scoped
 description: The ProcessMiningIntegrationAPI script include provides methods to manage process mining projects and retrieve findings and breakdowns.Creates a process mining project.Deletes a process mining project.Gets breakdown statistics for a process mining project.Gets findings for a process mining project.Gets the mining status of a process mining project.Retrieves a process mining project.Submits a process mining project for mining.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/ProcessMiningIntAPIScoped.html
 release: australia
 product: Server API Reference
 classification: server-api-reference
@@ -15,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The ProcessMiningIntegrationAPI script include provides methods to manage process mining projects and retrieve findings and breakdowns.
 
-This script include requires the Process Mining plugin \(sn\_po\). For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/process-mining.md).
+This script include requires the Process Mining plugin \(sn\_po\). For more information, see .
 
 The calling user must have the sn\_process\_mining\_analyst or sn\_process\_mining\_power\_user role.
 
@@ -52,7 +53,7 @@ The following system properties can be used to manage API functionality.
     Default: False.
 
 
-**Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
+**Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/api-server.md)
 
 ## ProcessMiningIntegrationAPI - createProject\(String table, Array activities, Array breakdowns, String encodedQuery, String templateType, Object permissions, Boolean autoRetire\)
 
@@ -94,7 +95,7 @@ Array
 
 </td><td>
 
-Activity definitions for the project. An activity definition is an attribute of the process to consider while mining, such as state or assignment group. It must be a column from the table specified in the **table** parameter. At least one activity definition is required to mine a project. For more information about activity definitions, see [Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/set-activity-def.md).
+Activity definitions for the project. An activity definition is an attribute of the process to consider while mining, such as state or assignment group. It must be a column from the table specified in the **table** parameter. At least one activity definition is required to mine a project. For more information about activity definitions, see .
 
 **Note:** Activity definitions are also included in the project template specified in the **templateType** parameter. Use the **activities** parameter to specify any additional activities not included in the template.
 
@@ -112,7 +113,7 @@ Array
 
 </td><td>
 
-Breakdown definitions for the project.A breakdown definition allows you to filter records and analyze a process map by categories, such as priority or business category. It must be a column from the table specified in the **table** parameter. Breakdown definitions aren't required to mine a project. For more information about breakdown definitions, see [Set breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/breakdown.md).
+Breakdown definitions for the project.A breakdown definition allows you to filter records and analyze a process map by categories, such as priority or business category. It must be a column from the table specified in the **table** parameter. Breakdown definitions aren't required to mine a project. For more information about breakdown definitions, see .
 
 **Note:** Breakdown definitions are also included in the project template specified in the **templateType** parameter. Use the **breakdowns** parameter to specify any additional breakdowns not included in the template.
 
@@ -345,7 +346,7 @@ Name of the table containing the data to analyze.Data type: String
 
 Map of improvement opportunities and key performance indicators \(KPIs\), where the map key is an improvement opportunity sys\_id and the value is an array of sys\_ids of the KPIs impacted by the improvement opportunity.Improvement opportunities are located in the Finding Definition \[promin\_finding\_def\] and Automated Finding Definition \[promin\_automated\_finding\] tables. KPIs are located in the Indicator \[pa\_indicators\] table.
 
-For more information about improvement opportunities and KPIs, see [Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/working-with-imp-opp.md) and [Viewing business insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-business-findings.md).
+For more information about improvement opportunities and KPIs, see  and .
 
 Data type: Object
 
@@ -381,7 +382,7 @@ Date the project was last mined.Data type: String
 
 </td><td>
 
-Mining state for the project.For descriptions of mining states, see [Mining states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/generate-process-map.md).
+Mining state for the project.For descriptions of mining states, see .
 
 Data type: String
 
@@ -1217,7 +1218,7 @@ Type of improvement opportunity.Possible values:
 -   PINGPONG
 -   REWORK
 
-For more information, see [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/automated-findings.md).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -1557,7 +1558,7 @@ Name of the table containing the data to analyze.Data type: String
 
 Map of improvement opportunities and key performance indicators \(KPIs\), where the map key is an improvement opportunity sys\_id and the value is an array of sys\_ids of the KPIs impacted by the improvement opportunity.Improvement opportunities are located in the Finding Definition \[promin\_finding\_def\] and Automated Finding Definition \[promin\_automated\_finding\] tables. KPIs are located in the Indicator \[pa\_indicators\] table.
 
-For more information about improvement opportunities and KPIs, see [Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/working-with-imp-opp.md) and [Viewing business insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/view-business-findings.md).
+For more information about improvement opportunities and KPIs, see  and .
 
 Data type: Object
 
@@ -1593,7 +1594,7 @@ Date the project was last mined.Data type: String
 
 </td><td>
 
-Mining state for the project.For descriptions of mining states, see [Mining states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining/generate-process-map.md).
+Mining state for the project.For descriptions of mining states, see .
 
 Data type: String
 

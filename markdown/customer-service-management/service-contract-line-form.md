@@ -2,7 +2,10 @@
 title: Customer contract line form
 description: You can create customer contract lines in the Customer Contracts and Entitlements application by using the Customer Contract Line form.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/service-contract-line-form.html
 release: australia
+product: Customer Service Management
+classification: customer-service-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
@@ -54,7 +57,7 @@ Account
 The name of the account associated with this customer contract.**Note:**
 
 -   A customer contract can be associated with either an account or a consumer.
--   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see [Account form](../../customer-service-management/reference/customer-service-account-form.md).
+-   An account can be created if no account is found by selecting **New** on the Accounts form. For more information on the fields in the Account form, see [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-account-form.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +89,7 @@ Consumer
 
 </td><td>
 
-The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](../../customer-service-management/task/create-a-consumer-record.md).
+The name of the consumer associated with this contract.**Note:** If no consumer record is found, you can create a consumer and add it to the customer contract. For more information, see [Create a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/create-a-consumer-record.md).
 
 </td></tr><tr><td>
 

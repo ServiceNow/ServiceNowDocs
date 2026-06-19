@@ -2,7 +2,10 @@
 title: AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)
 description: The AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\) feature accesses external sources related to an Operational Technology \(OT\) incident, and contextualizes how the document is relevant to the incident.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/operational-technology/ai-enhanced-ra-otsm-landing.html
 release: australia
+product: Operational Technology
+classification: operational-technology
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
@@ -17,15 +20,15 @@ The AI Enhanced Recommended Actions for Operational Technology Service Managemen
 
 <table id="table_ucw_zmf_f3c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn how you can use the AI Enhanced Recommended Actions for OTSM feature](../concept/exploring-ai-enhanced-ra-otsm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how you can use the AI Enhanced Recommended Actions for OTSM feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/exploring-ai-enhanced-ra-otsm.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up the AI Enhanced Recommended Actions for OTSM feature so it's available in the Industrial Workspace](../concept/configure-ai-enhanced-ra-otsm.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up the AI Enhanced Recommended Actions for OTSM feature so it's available in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configure-ai-enhanced-ra-otsm.md)
 
 </td><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-management-console.svg)Use AI Enhanced Recommended Actions for OTSM in the Industrial Workspace](../task/use-ai-enhanced-ra-otsm.md)
+[Use\[Omitted image "bus-management-console.svg"\] Alt text:Use AI Enhanced Recommended Actions for OTSM in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/use-ai-enhanced-ra-otsm.md)
 
 </td></tr><tr><td>
 

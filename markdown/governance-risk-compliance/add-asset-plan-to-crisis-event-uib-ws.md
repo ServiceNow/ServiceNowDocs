@@ -2,11 +2,12 @@
 title: Track impacted assets and add related plans
 description: Track the impacted assets and add a related plan during a crisis event. You can monitor the assets and plans for the crisis event in BCM UIB Workspace. You can then recover your assets in the planning stage.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/add-asset-plan-to-crisis-event-uib-ws.html
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Structured workflows for Crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Track impacted assets and add related plans
@@ -19,9 +20,9 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Business Continuity Workspace**.
+1.  Navigate to **Workspaces** &gt; **Business Continuity Workspace** &gt; **Crisis events** &gt; **Pending**.
 
-2.  In the List view, navigate to **Crisis events** &gt; **Pending** and select the crisis event in the list.
+2.  Select the crisis event from the list.
 
 3.  Select the **Assets** tab and select **Add**.
 
@@ -42,5 +43,5 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
     The crisis event is saved in the **Pending** state.
 
 
-**Parent Topic:**[Structured workflows for crisis events](../concept/perform-tasks-to-manage-crisis-events.md)
+**Parent Topic:**[Structured workflows for Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md)
 

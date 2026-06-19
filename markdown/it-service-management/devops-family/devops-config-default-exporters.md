@@ -2,6 +2,7 @@
 title: Default DevOps Config exporters
 description: The DevOps Config Exporter content pack contains a set of default DevOps Config exporters of data that can be used as input for further deployment and provisioning activities.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-service-management/devops-family/devops-config-default-exporters.html
 release: australia
 product: DevOps \(Family\)
 classification: devops-family
@@ -15,7 +16,7 @@ breadcrumb: [DevOps Config reference, DevOps Config, IT Service Management]
 
 The DevOps Config Exporter content pack contains a set of default DevOps Config exporters of data that can be used as input for further deployment and provisioning activities.
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 DevOps Config exporters allow other tools to consume the data from deployable snapshots.
 
@@ -250,5 +251,5 @@ Returns the value of a specific key based on its name in the snapshot. Unlike `e
     -   If the keyName is not provided, `no keyName argument provided`.
     -   If the key is not found, `key not found: <keyName>`.
 
-**Parent Topic:**[DevOps Config reference](devops-config-reference.md)
+**Parent Topic:**[DevOps Config reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/devops-family/devops-config-reference.md)
 

@@ -2,6 +2,7 @@
 title: Enable Walk-up Experience appointment-booking
 description: Enable or disable the appointment booking feature for Walk-up Experience as well as for the individual walk-up service locations available to customers.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-enable-appt-booking.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement

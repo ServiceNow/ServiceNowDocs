@@ -2,11 +2,12 @@
 title: Human Resources manager dashboard
 description: The dashboard for HR Managers provides insights on how HR teams are meeting expectations. The HR Manager can measure and improve the influence of their team on meeting and exceeding workforce expectations.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/human-resources-manager-dashboard.html
 release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Dashboards, Performance Analytics for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
@@ -137,17 +138,17 @@ The Human Resources Manager dashboard contains the following visualizations:
 
 |Title|Type|
 |-----|----|
-|\# Breached SLA|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|\# Critical Cases|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|\# Not updated last 10 days|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|\# Unassigned Open Cases|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|Approvals Requested|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|Open Backlog|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
-|Open Backlog by State|List ![List icon3](../../performance-analytics/image/scorecard-icon.png)|
-|Open Backlog by State|Horizontal bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|
-|Open Cases Distribution|Heatmap ![Heatmap icon](../../performance-analytics/image/heatmap.png)|
-|Time Spent in Each Group\(last 6 months\)|Multilevel Pivot ![Multilevel pivot icon](../../performance-analytics/image/pivot-scorecard-icon.png)|
-|Unassigned Cases|Single Score ![Single-score icon](../../performance-analytics/image/single-score.png)|
+|\# Breached SLA|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|\# Critical Cases|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|\# Not updated last 10 days|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|\# Unassigned Open Cases|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|Approvals Requested|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|Open Backlog|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
+|Open Backlog by State|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3|
+|Open Backlog by State|Horizontal bar \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar icon|
+|Open Cases Distribution|Heatmap \[Omitted image "heatmap.png"\] Alt text: Heatmap icon|
+|Time Spent in Each Group\(last 6 months\)|Multilevel Pivot \[Omitted image "pivot-scorecard-icon.png"\] Alt text: Multilevel pivot icon|
+|Unassigned Cases|Single Score \[Omitted image "single-score.png"\] Alt text: Single-score icon|
 
-**Parent Topic:**[HR Performance Analytics Dashboards](human-resources-content-pack.md)
+**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
 

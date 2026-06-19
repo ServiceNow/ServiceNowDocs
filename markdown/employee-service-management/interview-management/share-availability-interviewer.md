@@ -2,6 +2,7 @@
 title: Share scheduling preferences
 description: As an interviewer, when requested by recruiters, share your scheduling preferences to help them schedule interviews accordingly.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/share-availability-interviewer.html
 release: australia
 product: Interview Management
 classification: interview-management
@@ -27,12 +28,12 @@ Role required: sn\_ta\_hiring\_core.interviewer or sn\_ta\_hiring\_core.hiring\_
 
 3.  On the Share scheduling preferences for upcoming interview form, fill in the fields.
 
-    For a description of the field values, see [Share scheduling preferences form](../reference/share-availability-form.md).
+    For a description of the field values, see [Share scheduling preferences form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/share-availability-form.md).
 
 4.  Select **Share scheduling preferences**.
 
     Once you've shared your scheduling preferences, you can select **Share scheduling preferences** from the email notification again to view or edit the preferences.
 
 
-**Parent Topic:**[Using Interview Management](../concept/using-interview-mgmnt.md)
+**Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/interview-management/using-interview-mgmnt.md)
 

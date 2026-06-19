@@ -2,6 +2,7 @@
 title: Embed the Virtual Agent chat widget in an external web page \(legacy method\)
 description: Load the Virtual Agent chat widget interface in an external web page by using an inline frame element \(iframe\). You can also optionally enable the single sign-on \(SSO\) authentication process to run automatically for guest users who are using the chat widget and are not logged in.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/create-va-standalone-client.html
 release: australia
 product: Virtual Agent
 classification: virtual-agent
@@ -17,17 +18,17 @@ Load the Virtual Agent chat widget interface in an external web page by using an
 
 ## Before you begin
 
-**Important:** Consider adding the Portable Virtual Agent Web Client to your web page instead. It reduces code complexity and is easier to implement. It also includes standard chat features, such as click actions for launching or closing the chat. For details, see [Add the portable Virtual Agent chat widget to a third-party website](add-portable-va-client-website.md).
+**Important:** Consider adding the Portable Virtual Agent Web Client to your web page instead. It reduces code complexity and is easier to implement. It also includes standard chat features, such as click actions for launching or closing the chat. For details, see [Add the portable Virtual Agent chat widget to a third-party website](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/add-portable-va-client-website.md).
 
--   In the iframe, you specify the URL of the instance to be embedded. If you're embedding the chat widget on any page that is not on your ServiceNow instance, the URL must be a custom instance URL. Due to increased browser security, the chat widget may fail to load if you don't use a custom URL. To learn more about using custom URLs, see [Associating custom URLs to your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/custom-url.md).
+-   In the iframe, you specify the URL of the instance to be embedded. If you're embedding the chat widget on any page that is not on your ServiceNow instance, the URL must be a custom instance URL. Due to increased browser security, the chat widget may fail to load if you don't use a custom URL. To learn more about using custom URLs, see Associating custom URLs to your instance.
 
     To use a custom URL, do the following:
 
-    -   [Activate the custom url plugin \(com.snc.customurl\) in your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/activate-custom-url-plugin.md)
-    -   [Add the custom URL \(that you previously purchased and registered\) to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/configure-custom-url.md)
+    -   Activate the custom url plugin \(com.snc.customurl\) in your instance.
+    -   Add the custom URL \(that you previously purchased and registered\) to your instance.
     **Note:** The Virtual Agent chat widget does not work from an iframe in Safari by default. Apple blocks cross-origin iframes \(when the domain of the URL used in the iframe does not match the domain of the website itself\).
 
--   After you embed the Virtual Agent client, you can optionally trigger SSO authentication from the chat widget, but only when your instance is set up to use an external SSO provider. Your hosting site must also use the same SSO provider as your instance. For details on setting SSO providers, see [External single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
+-   After you embed the Virtual Agent client, you can optionally trigger SSO authentication from the chat widget, but only when your instance is set up to use an external SSO provider. Your hosting site must also use the same SSO provider as your instance. For details on setting SSO providers, see External single sign-on \(SSO\).
 
     To trigger SSO authentication, you create a JavaScript script that defines conditions for running authentication and redirects users to a chat widget page that you specify \(see Step 2 below\). You also specify the allowed URLs that can be passed in this script, by identifying them in the **com.glide.cs.web\_client\_login\_redirect\_urls** system property. Specify the full redirect URLs or the host part of the URL, such as `https://example.com` .
 
@@ -90,7 +91,7 @@ Specify one or more sources, including: -   **'self'**: Indicates that the origi
 
 
 </td></tr></tbody>
-</table>        For more information about source values that you can specify, see [CSP:frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors#Syntax) and [Virtual agent embedded client content security policy \(instance security hardening\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-publicly-exposed-virtual-agent-embedded-web-client.md) in [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
+</table>        For more information about source values that you can specify, see [CSP:frame-ancestors](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors#Syntax) and Virtual agent embedded client content security policy \(instance security hardening\) in .
 
     4.  Return to the System Property \[sys\_properties\] table to search for the **com.glide.cs.embed.xframe\_options** property by name.
 
@@ -127,7 +128,7 @@ Specify a value, including: -   `sameorigin`. Default value. Displays the page i
 **Note:** This value no longer works in modern browsers.
 
 </td></tr></tbody>
-</table>        For more information about source values that you can specify, see [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options#Syntax) and [Set Xframe options to prevent embedding third-party websites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/sc-xframe-options.md) in [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
+</table>        For more information about source values that you can specify, see [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options#Syntax) and  in .
 
 2.  After associating your ServiceNow instance to a custom URL, create the iframe element and specify the custom URL in the inline element \(iframe\) used to embed the Virtual Agent client in an external web page: `"https://<your-domain>.com/sn_va_web_client_app_embed.do"`
 
@@ -172,5 +173,5 @@ Specify a value, including: -   `sameorigin`. Default value. Displays the page i
     In this example, authentication is triggered in the specified instance when the SESSION\_CREATED or SESSION\_LOGGED\_OUT events occur. After authentication \(when the SSO credentials for users are accepted\), users are redirected to the embedded chat widget page that you specified in `sn_va-web_client_login.do?sysparm_redirect_uri=’ + encodeURIComponent(<your-page>)`, as long as you also specified the page URL in the **com.glide.cs.web\_client\_login\_redirect\_urls** property.
 
 
-**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](../concept/use-portable-va-web-client.md)
+**Parent Topic:**[Use the portable chat widget to add Virtual Agent to your web page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent/use-portable-va-web-client.md)
 

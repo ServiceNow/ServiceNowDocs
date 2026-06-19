@@ -2,6 +2,7 @@
 title: Configure the auto-generation of documents for healthcare cases
 description: You can define the conditions for auto-generating documents for a healthcare case.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-decision-tables.html
 release: australia
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
@@ -24,5 +25,5 @@ Note the following points when configuring decision tables for healthcare cases:
 
 You configure decision tables for healthcare cases in the Healthcare and Life Sciences Service Management Core application by navigating to **All** &gt; **HCLS Service Management** &gt; **Administration** &gt; **Document decisions**. The **Trigger document flow for HC case** business rule runs on insert and update of every healthcare case and evaluates all document decisions that have the case reference configured as an input. When the decision conditions are satisfied, the business rule initiates the document workflow for the associated document template.
 
-For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/decision-tables/decision-table.md).
+For more information, see .
 

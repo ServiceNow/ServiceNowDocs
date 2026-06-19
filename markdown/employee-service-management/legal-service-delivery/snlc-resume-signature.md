@@ -2,13 +2,14 @@
 title: Resume signature process
 description: Resume the paused signature process with the modified signatories.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/legal-service-delivery/snlc-resume-signature.html
 release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Modify signatories, Signature workflow for a request, Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Modify signatories, Signature workflow for a request, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Resume signature process
@@ -42,5 +43,5 @@ Use the **Resume signature** option to resume the signature process. If the sign
 -   If the current signatory is different from before the pause, a notification is sent for signature request.
 -   The activity stream records the resume signature action.
 
-**Parent Topic:**[Modify signatories](snlc-pause-signature.md)
+**Parent Topic:**[Modify signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-service-delivery/snlc-pause-signature.md)
 

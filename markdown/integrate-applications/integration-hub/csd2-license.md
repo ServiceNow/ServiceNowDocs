@@ -2,6 +2,7 @@
 title: Create entitlements for distributed software using SAM
 description: Entitlements are associated with the software model and must be created if you want to track the license for software deployed by CSD 2.0 using SAM.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/csd2-license.html
 release: australia
 product: Integration Hub
 classification: integration-hub
@@ -19,7 +20,7 @@ Entitlements are associated with the software model and must be created if you w
 
 Role required: sam\_admin or sam\_user
 
-For information about software reconciliation, see [Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/software-asset-management/c_SAMReconciliation.md).
+For information about software reconciliation, see Software reconciliation for compliance.
 
-**Parent Topic:**[Client Software Distribution 2.0 application](../concept/csd-app-2.md)
+**Parent Topic:**[Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/integration-hub/csd-app-2.md)
 

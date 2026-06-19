@@ -2,6 +2,7 @@
 title: Create a metric
 description: Create a metric to perform calculations on your data.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/create-a-metric-risk.html
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
@@ -316,7 +317,7 @@ Name of the user as the data owner.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Approval**Note:** This section appears only when the Metric approval property is set to Simple. For more information see, [Properties installed with Advanced Risk](../../grc-common/reference/advanced-risk-properties.md).
+Approval**Note:** This section appears only when the Metric approval property is set to Simple. For more information see, [Properties installed with Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/advanced-risk-properties.md).
 
 </td></tr><tr><td>
 
@@ -420,8 +421,8 @@ Groups that can view the record.
 
 The metric is saved in the Metrics list.
 
--   **[Create New Metric form](../reference/create-new-metric-form-irm.md)**  
+-   **[Create New Metric form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/create-new-metric-form-irm.md)**  
 Use the Create New Metric form to create a metric.
 
-**Parent Topic:**[Configuring metrics](../concept/configuring-irm-metrics.md)
+**Parent Topic:**[Configuring metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-risk-management-workspace/configuring-irm-metrics.md)
 

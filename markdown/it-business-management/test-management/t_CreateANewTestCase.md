@@ -2,6 +2,7 @@
 title: Create a test case
 description: Create a test case to group one or more related individual tests.
 locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-business-management/test-management/t\_CreateANewTestCase.html
 release: australia
 product: Test Management
 classification: test-management
@@ -43,7 +44,7 @@ Role required: tm\_test\_manager or tm\_tester
 You can use the related link and related list of the new test case for the following actions:
 
 -   Add this test case to a test plan by clicking the **Add to Test Plan** related link.
--   Add tests to this test case by using the Tests related list. For more information, see [Add a test to a test case](t_AddATestToATestCase.md).
+-   Add tests to this test case by using the Tests related list. For more information, see [Add a test to a test case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/t_AddATestToATestCase.md).
 
-**Parent Topic:**[Test cases](../concept/c_TestCases.md)
+**Parent Topic:**[Test cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/test-management/c_TestCases.md)
 
